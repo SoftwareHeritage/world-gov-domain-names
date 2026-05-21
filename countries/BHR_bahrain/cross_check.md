@@ -1,0 +1,29 @@
+# Cross-check: BHR_bahrain
+
+## Overview
+
+- UN status: **Member State**
+- ccTLD: `.bh` (manager: Telecommunications Regulatory Authority (TRA))
+- OECD: non-member
+- UN/DESA EGDI: Rank 18 of 193
+- Government type: constitutional monarchy
+- Capital: Manama
+- Domains collected (HTTP 200): 26
+
+## UN/DESA national portal
+
+- Declared: [https://www.bahrain.bh](https://www.bahrain.bh) (host `bahrain.bh`)
+- ⚠️ ABSENT -- neither `bahrain.bh` covered nor `countries/BHR_bahrain/bahrain.bh/` directory present
+
+## Institutions named by CIA Factbook
+
+- Chief of state: King HAMAD bin Isa Al-Khalifa (since 6 March 1999)
+- Head of government: Prime Minister Crown Prince SALMAN bin Hamad Al-Khalifa (since 11 November 2020)
+- Highest courts: Court of Cassation (consists of the chairman and 3 judges); Supreme Court of Appeal (consists of the chairman and 3 judges); Constitutional Court (consists of the president and 6 members); High Sharia Court of Appeal (court sittings include the president and at least one judge)
+
+(institution names usable as seeds for further research)
+
+## Wikidata -- institutions with no root domain covered yet
+
+None (all Wikidata institutions are covered).
+

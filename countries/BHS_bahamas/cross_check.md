@@ -1,0 +1,38 @@
+# Cross-check: BHS_bahamas
+
+## Overview
+
+- UN status: **Member State**
+- ccTLD: `.bs` (manager: University of The Bahamas)
+- OECD: non-member
+- UN/DESA EGDI: Rank 83 of 193
+- Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
+- Capital: Nassau
+- Domains collected (HTTP 200): 112
+
+## UN/DESA national portal
+
+- Declared: [http://www.bahamas.gov.bs](http://www.bahamas.gov.bs) (host `bahamas.gov.bs`)
+- ✅ Covered by collected domains
+
+## Institutions named by CIA Factbook
+
+- Chief of state: King CHARLES III (since 8 September 2022); represented by Governor-General Cynthia A. PRATT (since 1 September 2023)
+- Head of government: Prime Minister Philip Edward DAVIS (since 17 September 2021)
+- Highest courts: Court of Appeal (consists of the court president and 6 justices, organized in 3-member panels); Supreme Court (consists of the chief justice and 19 justices)
+
+(institution names usable as seeds for further research)
+
+## Wikidata -- institutions with no root domain covered yet
+
+6 entry/entries pending. Top 10:
+
+| type | label | hostname |
+|------|-------|----------|
+| ministry | Ministry of Education and Technical and Vocational Training | `ministryofeducationbahamas.com` |
+| ministry | Ministry of Housing and Urban Renewal | `moh-ur.com` |
+| ministry | Ministry of Public Service | `bahamaspublicservice.com` |
+| ministry | Ministry of Energy and Transport | `energyandtransportbahamas.com` |
+| ministry | Ministry of Tourism | `bahamas.com` |
+| ministry | Ministry for Grand Bahama | `ministryforgb.com` |
+

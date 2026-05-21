@@ -1,20 +1,38 @@
 #+title: World Gov domain names
 
-A list of government domain names for the 197 UN member and observer
-states, used to measure government contributions to publicly available
-software archived by Software Heritage.
+A list of government domain names used to measure government
+contributions to publicly available software archived by Software
+Heritage.
+
+Coverage : 197 jurisdictions, with their UN status explicitly marked :
+
+- *193 UN member states*
+- *2 UN observer states* (Holy See, Palestine) -- to be included as
+  observers, not as member states
+- *2 non-UN entities* (Taiwan, Kosovo) -- included for technical
+  context but *excluded from any UN-facing aggregation*
+
+The status of each country is materialized in =countries/<c>/un_status=
+(=member= / =observer= / =non_un=) and propagated as a column in
+=all_200_domains.csv=. Source of truth : =data/world-governments.csv=,
+column =un_status=.
 
 * Data
 
 ** =all_200_domains.csv= (root)
 
 The consolidated output: every government subdomain that returned HTTP
-=200= over HTTPS.
+=200= over HTTPS, with the UN status of its country.
 
 #+begin_example
-subdomain,parent_domain,country
-1000knigi.mon.gov.mk,gov.mk,MKD_north_macedonia
+subdomain,parent_domain,country,un_status
+1000knigi.mon.gov.mk,gov.mk,MKD_north_macedonia,member
+api.moi.gov.ps,gov.ps,PSE_palestine,observer
+1872.arte.gov.tw,gov.tw,TWN_taiwan,non_un
 #+end_example
+
+Filter to UN member + observer states only :
+=awk -F, 'NR==1 || $4!="non_un"' all_200_domains.csv=.
 
 ** =countries/<ISO3>_<slug>/<domain>/=
 
@@ -46,10 +64,17 @@ banks, supreme/constitutional courts):
 ⚠️ For now, promotion of a candidate to a root-domain directory is
 *manual*.
 
+** =countries/<c>/un_status=
+
+Marker file (one line : =member= / =observer= / =non_un=) materializing
+the UN status of each country, generated from =data/world-governments.csv=
+by =scripts/set_un_status.sh=. Available very early in the pipeline so
+any consumer can filter or annotate without re-parsing the master CSV.
+
 ** =data/=
 
-- =world-governments.csv= -- master list of 197 countries and their
-  primary government portal
+- =world-governments.csv= -- master list of 197 countries
+  (=Country,Region,email_domain,portal_domain,URL,un_status=)
 - =country_qid.csv= -- generated mapping =country_dir,iso3,wikidata_qid=
 
 * Sources
