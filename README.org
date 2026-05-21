@@ -23,7 +23,7 @@ subdirectory per root domain (most countries have one, e.g. =gov.uk= ;
 some have several, e.g. Italy has =gov.it= + =governo.it= +
 ministry-specific domains).
 
-Each domain holds =subdomains.csv= :
+Each domain holds =subdomains.csv=:
 
 #+begin_example
 subdomain,http_status
@@ -38,19 +38,54 @@ error message, or is empty (not yet probed).
 ** =countries/<c>/wikidata/=
 
 Automated enrichment from Wikidata (ministries, parliaments, central
-banks, supreme/constitutional courts) :
+banks, supreme/constitutional courts):
 
-- =central_admin.csv= — institutions with their official websites
-- =missing_domains.csv= — candidates not yet covered by =countries/*/*/=
+- =central_admin.csv= -- institutions with their official websites
+- =missing_domains.csv= -- candidates not yet covered by =countries/*/*/=
 
 ⚠️ For now, promotion of a candidate to a root-domain directory is
 *manual*.
 
 ** =data/=
 
-- =world-governments.csv= — master list of 197 countries and their
+- =world-governments.csv= -- master list of 197 countries and their
   primary government portal
-- =country_qid.csv= — generated mapping =country_dir,iso3,wikidata_qid=
+- =country_qid.csv= -- generated mapping =country_dir,iso3,wikidata_qid=
+
+* Sources
+
+This dataset is built from multiple sources, layered from broad
+harvest to authoritative enrichment. All enrichment sources are
+*isolated* under =countries/<c>/<source>/= ; promotion of any candidate to
+a root-domain directory is *manual*.
+
+** In use
+
+- crt.sh  :: Primary harvest of subdomains observed in publicly issued
+  certificates.
+- HTTPS HEAD probes :: verification that a subdomain actually serves
+  content (status =200=).
+- Wikidata :: enrichment with central administration bodies
+  (ministries, parliaments, central banks, supreme/constitutional
+  courts) and their official websites.
+
+** International official sources for cross-validation
+
+Scope: *central administrations and independent authorities attached to
+central government only*. For now, we exclude local and regional
+authorities, universities, hospitals, etc.
+
+- IANA Root Zone Database :: authoritative registry of ccTLDs;
+  identifies the sponsoring organisation of each country's top-level
+  domain.
+- UN/DESA Public Administration :: UN E-Government Knowledgebase:
+  per-country National Portal URL and EGDI ranking.
+- CIA World Factbook (via [[https://github.com/factbook/factbook.json][factbook.json]] mirror) :: structured
+  government section per country (executive / legislative / judicial
+  branches). Note: the original Factbook was wiped by the CIA in
+  February 2026 ; we use a community JSON mirror.
+- OECD Government at a Glance :: flags OECD membership and links to
+  the relevant SDMX dataset for governance indicators.
 
 * Contributing
 
