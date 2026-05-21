@@ -1,7 +1,66 @@
 #+title: World Gov domain names
 
-This is a list of domain names related to countries that are members
-or observers of the United Nations. This list will be used to measure
-government contributions to open source software.
+A list of government domain names for the 197 UN member and observer
+states, used to measure government contributions to publicly available
+software archived by Software Heritage.
+
+* Data
+
+** =all_200_domains.csv= (root)
+
+The consolidated output: every government subdomain that returned HTTP
+=200= over HTTPS.
+
+#+begin_example
+subdomain,parent_domain,country
+1000knigi.mon.gov.mk,gov.mk,MKD_north_macedonia
+#+end_example
+
+** =countries/<ISO3>_<slug>/<domain>/=
+
+One directory per country (=FRA_france=, =USA_united_states=…), one
+subdirectory per root domain (most countries have one, e.g. =gov.uk= ;
+some have several, e.g. Italy has =gov.it= + =governo.it= +
+ministry-specific domains).
+
+Each domain holds =subdomains.csv= :
+
+#+begin_example
+subdomain,http_status
+www.gouv.fr,"200"
+ssl.gouv.fr,"DNS error: ..."
+foo.gouv.fr,
+#+end_example
+
+The =http_status= field holds the HTTPS HEAD response code, the curl
+error message, or is empty (not yet probed).
+
+** =countries/<c>/wikidata/=
+
+Automated enrichment from Wikidata (ministries, parliaments, central
+banks, supreme/constitutional courts) :
+
+- =central_admin.csv= — institutions with their official websites
+- =missing_domains.csv= — candidates not yet covered by =countries/*/*/=
+
+⚠️ For now, promotion of a candidate to a root-domain directory is
+*manual*.
+
+** =data/=
+
+- =world-governments.csv= — master list of 197 countries and their
+  primary government portal
+- =country_qid.csv= — generated mapping =country_dir,iso3,wikidata_qid=
+
+* Contributing
+
+Please email me at =bastien.guerry@inria.fr= if you want to help with
+curating this list.
+
+* Conventions
 
 This repository uses [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]].
+
+* License
+
+Data in this repository are published under the [[LICENSES/CC0-1.0.txt][CC0 1.0 license]].
