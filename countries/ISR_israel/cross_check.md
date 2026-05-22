@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| constitutional_court | Eshkol - Galil Maaravi | `wegalil.org` |
-| constitutional_court | Q16338638 | `eastgalil.org.il` |
-| constitutional_court | Custodian of the Holy Land | `custodia.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `eastgalil.org.il` | wikidata | Q16338638 |
+| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
+| 3 | `wegalil.org` | wikidata | Eshkol - Galil Maaravi |
 

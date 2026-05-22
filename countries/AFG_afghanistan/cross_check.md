@@ -19,16 +19,16 @@
 
 - Chief of state: Taliban Leader HAYBATULLAH Akhundzada (since 15 August 2021)
 - Head of government: overall Taliban Leader HAYBATULLAH Akhundzada is the [so-called] Amir-ul Momineen of the Taliban and is effectively the head of government
-- Highest courts: the Taliban are purported to have appointed clerics, including a ""Chief Justice,"" to Afghanistan's Supreme Court
+- Highest courts: the Taliban are purported to have appointed clerics, including a "Chief Justice," to Afghanistan's Supreme Court
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | National Assembly of Afghanistan | `parliament.af` |
-| supreme_court | National Assembly of Afghanistan | `parliament.af` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.af` | wikidata;wikidata | National Assembly of Afghanistan |
 

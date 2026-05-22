@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-122 entry/entries pending. Top 10:
+47 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Agriculture | `omafra.gov.on.ca` |
-| ministry | Veterans Affairs Canada | `veterans.gc.ca` |
-| ministry | Ministry of Public Safety and Solicitor General | `www2.gov.bc.ca` |
-| ministry | Ministry of Energy | `energy.gov.on.ca` |
-| ministry | Global Affairs Canada | `international.gc.ca` |
-| ministry | Ministry of Economic Development | `ontario.ca` |
-| ministry | Fisheries and Oceans Canada | `dfo-mpo.gc.ca` |
-| ministry | Natural Resources Canada | `nrcan.gc.ca` |
-| ministry | Ministry of Agriculture | `www2.gov.bc.ca` |
-| ministry | Ministry of Education and Higher Education | `education.gouv.qc.ca` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `gov.mb.ca` | wikidata;wikidata | Legislative Assembly of Manitoba |
+| 8 | `premier.gouv.qc.ca` | wikidata;wikidata | Executive Council of Quebec |
+| 7 | `assembly.ab.ca` | wikidata;wikidata | Legislative Assembly of Alberta |
+| 7 | `assembly.nl.ca` | wikidata;wikidata | Newfoundland and Labrador House of Assembly |
+| 7 | `assembly.pe.ca` | wikidata;wikidata | Legislative Assembly of Prince Edward Island |
+| 7 | `assnat.qc.ca` | wikidata;wikidata;wikidata;wikidata | National Assembly of Quebec |
+| 7 | `leg.bc.ca` | wikidata;wikidata | Legislative Assembly of British Columbia |
+| 7 | `legnb.ca` | wikidata;wikidata | Legislative Assembly of New Brunswick |
+| 7 | `ntassembly.ca` | wikidata;wikidata | Legislative Assembly of the Northwest Territories |
+| 7 | `parl.ca` | wikidata;wikidata | Parliament of Canada |
+| 7 | `yukon.ca` | wikidata;wikidata | Government of Yukon |
+| 5 | `agric.gov.ab.ca` | wikidata | Alberta Ministry of Agriculture and Forestry |
+| 5 | `attorneygeneral.jus.gov.on.ca` | wikidata | Ministry of the Attorney General |
+| 5 | `edu.gov.on.ca` | wikidata | Ministry of Education |
+| 5 | `health.gov.on.ca` | wikidata | Ministry of Health |
+| 5 | `mcscs.jus.gov.on.ca` | wikidata | Ministry of Community Safety and Correctional Services |
+| 5 | `mcss.gov.on.ca` | wikidata | Ministry of Community and Social Services |
+| 5 | `mnr.gov.on.ca` | wikidata | Ministry of Natural Resources and Forestry |
+| 4 | `canada.justice.gc.ca` | wikidata | Department of Justice of Canada |
+| 4 | `dfo-mpo.gc.ca` | wikidata | Fisheries and Oceans Canada |
 

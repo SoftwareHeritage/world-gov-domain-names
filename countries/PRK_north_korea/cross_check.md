@@ -19,16 +19,18 @@
 
 - Chief of state: State Affairs Commission President KIM Jong Un (since 17 December 2011)
 - Head of government: Supreme People's Assembly President CHOE Ryong Hae (since 11 April 2019)
-- Highest courts: Supreme Court or Central Court (consists of one judge and 2 ""People's Assessors"" or, for some cases, 3 judges)
+- Highest courts: Supreme Court or Central Court (consists of one judge and 2 "People's Assessors" or, for some cases, 3 judges)
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Foreign Trade of North Korea | `kftrade.com.kp` |
-| ministry | Ministry of Culture | `korart.sca.kp` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 5 | `korea-dpr.com` | un_desa | UN/DESA national portal |
+| 4 | `kftrade.com.kp` | wikidata | Ministry of Foreign Trade of North Korea |
+| 4 | `korart.sca.kp` | wikidata | Ministry of Culture |
 

@@ -23,14 +23,12 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Consultative Assembly of Qatar | `shura.qa` |
-| parliament | Consultative Assembly of Qatar | `shura.qa` |
-| supreme_court | Consultative Assembly of Qatar | `shura.qa` |
-| supreme_court | Consultative Assembly of Qatar | `shura.qa` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 2 | `shura.qa` | wikidata;wikidata;wikidata;wikidata | Consultative Assembly of Qatar |
 

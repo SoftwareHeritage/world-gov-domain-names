@@ -23,12 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Legislature of the Marshall Islands | `rmiparliament.org` |
-| supreme_court | Legislature of the Marshall Islands | `rmiparliament.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `rmiparliament.org` | wikidata;wikidata | Legislature of the Marshall Islands |
+| 5 | `rmiembassyus.org` | un_desa | UN/DESA national portal |
 

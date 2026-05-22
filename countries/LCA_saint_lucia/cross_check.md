@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Health and Wellness | `health.govt.lc` |
-| parliament | Parliament of Saint Lucia | `parliament.govt.lc` |
-| supreme_court | Parliament of Saint Lucia | `parliament.govt.lc` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.govt.lc` | wikidata;wikidata | Parliament of Saint Lucia |
+| 7 | `govt.lc` | un_desa | UN/DESA national portal |
+| 5 | `health.govt.lc` | wikidata | Ministry of Health and Wellness |
 

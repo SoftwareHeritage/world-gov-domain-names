@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Petroleum and Mining | `mop-rss.org` |
-| ministry | Ministry of Foreign Affairs and International Cooperation | `goss-online.org` |
-| ministry | Ministry of Education | `ssmogei.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `goss-online.org` | un_desa;wikidata | Ministry of Foreign Affairs and International Cooperation | UN/DESA national ... |
+| 3 | `mop-rss.org` | wikidata | Ministry of Petroleum and Mining |
+| 3 | `ssmogei.org` | wikidata | Ministry of Education, Science and Technology |
 

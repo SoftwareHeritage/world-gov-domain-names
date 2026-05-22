@@ -23,16 +23,17 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-6 entry/entries pending. Top 10:
+6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Foreign Affairs | `cubaminrex.cu` |
-| ministry | Ministry of Higher Education of Cuba | `mes.edu.cu` |
-| ministry | Ministry of Public Health | `sld.cu` |
-| parliament | Council of State of Cuba | `cubagob.cu` |
-| constitutional_court | Province of Hispania of the Order of Preachers | `dominicoshispania.org` |
-| constitutional_court | Piarist province Central America- Caribbean | `centroamericaribeschp.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 9 | `cubagob.cu` | un_desa;wikidata | Council of State of Cuba | UN/DESA national portal |
+| 4 | `cubaminrex.cu` | wikidata | Ministry of Foreign Affairs |
+| 4 | `mes.edu.cu` | wikidata | Ministry of Higher Education of Cuba |
+| 4 | `sld.cu` | wikidata | Ministry of Public Health |
+| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
+| 3 | `dominicoshispania.org` | wikidata | Province of Hispania of the Order of Preachers |
 

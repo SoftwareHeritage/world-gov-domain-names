@@ -23,20 +23,17 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-10 entry/entries pending. Top 10:
+6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Interior of Republika Srpska | `mup.vladars.net` |
-| ministry | Ministry of Science and Technology | `vladars.net` |
-| parliament | National Assembly of Republic of Srpska | `narodnaskupstinars.net` |
-| parliament | Parliamentary Assembly of Bosnia and Herzegovina | `parlament.ba` |
-| constitutional_court | Franciscan Province of Bosna Srebrena | `bosnasrebrena.ba` |
-| constitutional_court | Croatian province of the Society of Jesus | `isusovci.hr` |
-| constitutional_court | Croatian Dominican Province | `dominikanci.hr` |
-| constitutional_court | Franciscan Province of the Assumption of the Blessed Virgin Mary | `franjevci.info` |
-| supreme_court | National Assembly of Republic of Srpska | `narodnaskupstinars.net` |
-| supreme_court | Parliamentary Assembly of Bosnia and Herzegovina | `parlament.ba` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `parlament.ba` | wikidata;wikidata | Parliamentary Assembly of Bosnia and Herzegovina |
+| 6 | `narodnaskupstinars.net` | wikidata;wikidata | National Assembly of Republic of Srpska |
+| 4 | `bosnasrebrena.ba` | wikidata | Franciscan Province of Bosna Srebrena |
+| 3 | `dominikanci.hr` | wikidata | Croatian Dominican Province |
+| 3 | `franjevci.info` | wikidata | Franciscan Province of the Assumption of the Blessed Virgin Mary |
+| 3 | `isusovci.hr` | wikidata | Croatian province of the Society of Jesus |
 

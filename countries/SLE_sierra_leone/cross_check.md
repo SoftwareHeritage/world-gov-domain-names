@@ -23,12 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Mineral Resources of Sierra Leone | `slminerals.org` |
-| constitutional_court | Province of Saint Ezequiél Moreno | `recoletos.ph` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `recoletos.ph` | wikidata | Province of Saint Ezequiél Moreno |
+| 3 | `slminerals.org` | wikidata | Ministry of Mineral Resources of Sierra Leone |
 

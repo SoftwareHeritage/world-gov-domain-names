@@ -23,12 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| constitutional_court | Curtin Connect | `curtin.edu.au` |
-| constitutional_court | Burnie City Council | `burnie.net` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `curtin.edu.au` | wikidata | Curtin Connect |
+| 3 | `burnie.net` | wikidata | Burnie City Council |
 

@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Trade and Integration | `primeminister.kz` |
-| ministry | Prime Minister's Office | `primeminister.kz` |
-| ministry | Ministry of Agriculture | `mgov.kz` |
-| constitutional_court | Government of Kazakhstan | `government.kz` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 9 | `government.kz` | un_desa;wikidata | Government of Kazakhstan | UN/DESA national portal |
+| 7 | `primeminister.kz` | wikidata;wikidata | Ministry of Trade and Integration | Prime Minister's Office |
+| 4 | `mgov.kz` | wikidata | Ministry of Agriculture |
 

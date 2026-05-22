@@ -23,12 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Foreign Affairs | `cancilleria.bo` |
-| constitutional_court | Piarist province of Brazil-Bolivia | `escolapiosbrasilbolivia.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `cancilleria.bo` | wikidata | Ministry of Foreign Affairs |
+| 3 | `escolapiosbrasilbolivia.org` | wikidata | Piarist province of Brazil-Bolivia |
 

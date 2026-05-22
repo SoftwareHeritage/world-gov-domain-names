@@ -23,20 +23,24 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-14 entry/entries pending. Top 10:
+13 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Public Health | `minsante.cm` |
-| ministry | Ministry of Basic Education | `minedub.cm` |
-| ministry | Ministry of Sports in Cameroon | `minsep.cm` |
-| ministry | Ministry of Agriculture and rural development | `minader.cm` |
-| ministry | Ministry of Public Procurement | `minmap.cm` |
-| ministry | Ministry of small and medium-sized enterprises | `minpmeesa.cm` |
-| ministry | Ministry of External Relations | `diplocam.cm` |
-| ministry | Ministry of Labour and Social Security | `mintss.cm` |
-| ministry | Ministry of Scientific Research and Innovation | `campack-cm.com` |
-| ministry | Ministry of Mines | `minmidt.net` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `mintransports.net` | wikidata;wikidata | Ministry of Transport of Cameroon |
+| 4 | `diplocam.cm` | wikidata | Ministry of External Relations |
+| 4 | `minader.cm` | wikidata | Ministry of Agriculture and rural development |
+| 4 | `minas.cm` | wikidata | Ministry of Social Affairs |
+| 4 | `minedub.cm` | wikidata | Ministry of Basic Education |
+| 4 | `minmap.cm` | wikidata | Ministry of Public Procurement |
+| 4 | `minpmeesa.cm` | wikidata | Ministry of small and medium-sized enterprises, social economy and handicrafts |
+| 4 | `minsante.cm` | wikidata | Ministry of Public Health |
+| 4 | `minsep.cm` | wikidata | Ministry of Sports in Cameroon |
+| 4 | `mintss.cm` | wikidata | Ministry of Labour and Social Security |
+| 3 | `campack-cm.com` | wikidata | Ministry of Scientific Research and Innovation |
+| 3 | `minmidt.net` | wikidata | Ministry of Mines, Industry and Technological Development |
+| 3 | `piaristesafriquecentrale.org` | wikidata | Piarist province of Central Africa |
 

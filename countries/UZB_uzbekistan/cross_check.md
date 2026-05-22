@@ -23,20 +23,22 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-12 entry/entries pending. Top 10:
+11 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Foreign Affairs of Uzbekistan | `mfa.uz` |
-| ministry | Ministry of Labor and Social Protection of Population | `mehnat.uz` |
-| ministry | Ministry of Public Health of Uzbekistan | `minzdrav.uz` |
-| ministry | Ministry of Preschool Education of the Republic of Uzbekistan | `mdo.uz` |
-| ministry | Ministry of Tourism and Cultural Heritage | `motas.uz` |
-| ministry | Ministry of Internal Affairs | `iiv.uz` |
-| ministry | Ministry of Preschool an School Education of the Republic of Uzbekistan | `uzedu.uz` |
-| ministry | Ministry of Construction of the Republic of Uzbekistan | `mc.uz` |
-| ministry | Ministry of Justice | `minjust.uz` |
-| ministry | Ministry of Defense | `mudofaa.uz` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `joqargikenes.uz` | wikidata;wikidata | Supreme Council of Karakalpakstan |
+| 4 | `iiv.uz` | wikidata | Ministry of Internal Affairs |
+| 4 | `mc.uz` | wikidata | Ministry of Construction of the Republic of Uzbekistan |
+| 4 | `mdo.uz` | wikidata | Ministry of Preschool Education of the Republic of Uzbekistan |
+| 4 | `mehnat.uz` | wikidata | Ministry of Labor and Social Protection of Population |
+| 4 | `mfa.uz` | wikidata | Ministry of Foreign Affairs of Uzbekistan |
+| 4 | `minjust.uz` | wikidata | Ministry of Justice |
+| 4 | `minzdrav.uz` | wikidata | Ministry of Public Health of Uzbekistan |
+| 4 | `motas.uz` | wikidata | Ministry of Tourism and Cultural Heritage |
+| 4 | `mudofaa.uz` | wikidata | Ministry of Defense |
+| 4 | `uzedu.uz` | wikidata | Ministry of Preschool an School Education of the Republic of Uzbekistan |
 

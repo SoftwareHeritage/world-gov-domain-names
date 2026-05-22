@@ -23,13 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Youth and Sports | `mosy.sy` |
-| constitutional_court | Syrian Interim Government | `syriaig.org` |
-| constitutional_court | Custodian of the Holy Land | `custodia.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `egov.sy` | un_desa | UN/DESA national portal |
+| 4 | `mosy.sy` | wikidata | Ministry of Youth and Sports |
+| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
+| 3 | `syriaig.org` | wikidata | Syrian Interim Government |
 

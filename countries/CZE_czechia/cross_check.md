@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.cz` (manager: CZ.NIC)
+- ccTLD: `.cz` (manager: CZ.NIC, z.s.p.o)
 - OECD: member since 1995
 - UN/DESA EGDI: Rank 54 of 193
 - Government type: parliamentary republic
@@ -23,17 +23,18 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-7 entry/entries pending. Top 10:
+7 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| constitutional_court | Salesian Province of Prague | `sdb.cz` |
-| constitutional_court | Province of Saint Wenceslaus of the Friars Minor in Czech Republic | `ofm.cz` |
-| constitutional_court | Piarist province of Poland | `pijarzy.pl` |
-| constitutional_court | Czech province Congregatio Jesu | `congregatio-jesu.tode.cz` |
-| constitutional_court | Czech Province Congregation of the Sisters of St. Hedwig | `hedvicky.cz` |
-| constitutional_court | Province of the Franciscan Brothers in the Czech Republic | `ofm.cz` |
-| constitutional_court | Central European Province O. M. I. | `oblati.cz` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `ofm.cz` | wikidata;wikidata | Province of Saint Wenceslaus of the Friars Minor in Czech Republic | Province... |
+| 6 | `vlada.cz` | un_desa | UN/DESA national portal |
+| 4 | `congregatio-jesu.tode.cz` | wikidata | Czech province Congregatio Jesu |
+| 4 | `hedvicky.cz` | wikidata | Czech Province Congregation of the Sisters of St. Hedwig |
+| 4 | `oblati.cz` | wikidata | Central European Province O. M. I. |
+| 4 | `sdb.cz` | wikidata | Salesian Province of Prague |
+| 3 | `pijarzy.pl` | wikidata | Piarist province of Poland |
 

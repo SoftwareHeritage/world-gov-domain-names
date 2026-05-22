@@ -16,20 +16,27 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-18 entry/entries pending. Top 10:
+16 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Defence of Kosovo | `mod.rks-gov.net` |
-| ministry | Ministry of Foreign Affairs and Diaspora of the Republic of Kosovo | `mfa-ks.net` |
-| ministry | Ministry of Education | `masht.rks-gov.net` |
-| ministry | Ministry of Culture | `mkrs-ks.org` |
-| ministry | Ministry of Finance (Kosovo) | `mfpt.rks-gov.net` |
-| ministry | Ministry of Economy | `me.rks-gov.net` |
-| ministry | Ministry of Industry | `mint.rks-gov.net` |
-| ministry | Ministry of Internal Affairs of Kosovo | `mpb.rks-gov.net` |
-| ministry | Ministry of Regional Development of Kosovo | `mzr.rks-gov.net` |
-| ministry | Ministry of Environment and Spatial Planning and Infrastructure of Kosovo | `mmphi.rks-gov.net` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `kuvendikosoves.org` | wikidata;wikidata | Assembly of the Republic of Kosovo |
+| 6 | `mfpt.rks-gov.net` | wikidata;wikidata | Ministry of Finance (Kosovo) | Ministry of Economy and Finance of Kosovo |
+| 3 | `masht.rks-gov.net` | wikidata | Ministry of Education, Science and Technology |
+| 3 | `md.rks-gov.net` | wikidata | Ministry of Justice |
+| 3 | `me.rks-gov.net` | wikidata | Ministry of Economy |
+| 3 | `mfa-ks.net` | wikidata | Ministry of Foreign Affairs and Diaspora of the Republic of Kosovo |
+| 3 | `mint.rks-gov.net` | wikidata | Ministry of Industry, Entrepreneurship, and Trade of Kosovo |
+| 3 | `mkrs-ks.org` | wikidata | Ministry of Culture, Youth and Sport of Kosovo |
+| 3 | `mmphi.rks-gov.net` | wikidata | Ministry of Environment and Spatial Planning and Infrastructure of Kosovo |
+| 3 | `mod.rks-gov.net` | wikidata | Ministry of Defence of Kosovo |
+| 3 | `mpb.rks-gov.net` | wikidata | Ministry of Internal Affairs of Kosovo |
+| 3 | `mpms.rks-gov.net` | wikidata | Ministry of Labour and Social Welfare of Kosovo |
+| 3 | `msh.rks-gov.net` | wikidata | Ministry of Health of Kosovo |
+| 3 | `president-ksgov.net` | wikidata | Presidency of the Republic of Kosovo |
+| 3 | `rks-gov.net` | wikidata | Government of Kosovo |
+| 0 | `mzr.rks-gov.net` | wikidata | Ministry of Regional Development of Kosovo |
 

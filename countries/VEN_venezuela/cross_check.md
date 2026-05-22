@@ -23,16 +23,16 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-6 entry/entries pending. Top 10:
+5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | National Assembly | `asambleanacionalvenezuela.org` |
-| constitutional_court | Province of Hispania of the Order of Preachers | `dominicoshispania.org` |
-| constitutional_court | Dominican Province of Our Lady of the Rosary | `holyrosaryprovince.org` |
-| constitutional_court | Dominican Province of Our Lady of the Rosary | `holyrosaryprovince.org` |
-| constitutional_court | Piarist province Central America- Caribbean | `centroamericaribeschp.com` |
-| supreme_court | National Assembly | `asambleanacionalvenezuela.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `asambleanacionalvenezuela.org` | wikidata;wikidata | National Assembly |
+| 6 | `gobiernoenlinea.ve` | un_desa | UN/DESA national portal |
+| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
+| 3 | `dominicoshispania.org` | wikidata | Province of Hispania of the Order of Preachers |
 

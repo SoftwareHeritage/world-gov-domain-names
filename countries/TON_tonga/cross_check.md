@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.to` (manager: Government of the Kingdom of Tonga)
+- ccTLD: `.to` (manager: Government of the Kingdom of Tonga, H.R.H. Crown Prince Tupouto&#x27;a, c/o Consulate of Tonga)
 - OECD: non-member
 - UN/DESA EGDI: Rank 134 of 193
 - Government type: constitutional monarchy
@@ -23,7 +23,7 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+No remaining candidates (every flagged institution is covered).
 

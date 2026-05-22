@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | district council of Cartagena de Indias | `concejodecartagena.com` |
-| constitutional_court | jesuit province of Colombia | `jesuitas.co` |
-| constitutional_court | Nazareth piarist province | `escolapios.org.co` |
-| supreme_court | district council of Cartagena de Indias | `concejodecartagena.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `concejodecartagena.com` | wikidata;wikidata | district council of Cartagena de Indias |
+| 4 | `escolapios.org.co` | wikidata | Nazareth piarist province |
+| 4 | `jesuitas.co` | wikidata | jesuit province of Colombia |
 

@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.do` (manager: Pontificia Universidad Catolica Madre y Maestra)
+- ccTLD: `.do` (manager: Pontificia Universidad Catolica Madre y Maestra, Recinto Santo Tomas de Aquino)
 - OECD: non-member
 - UN/DESA EGDI: Rank 85 of 193
 - Government type: presidential republic
@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Q17347140 | `fuerzasarmadas.mil.do` |
-| constitutional_court | Province of Hispania of the Order of Preachers | `dominicoshispania.org` |
-| constitutional_court | Piarist province Central America- Caribbean | `centroamericaribeschp.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `fuerzasarmadas.mil.do` | wikidata | Q17347140 |
+| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
+| 3 | `dominicoshispania.org` | wikidata | Province of Hispania of the Order of Preachers |
 

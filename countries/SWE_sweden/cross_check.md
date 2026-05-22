@@ -23,20 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-33 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education and Research | `regeringen.se` |
-| ministry | Ministry of Finance of Sweden | `regeringen.se` |
-| ministry | Ministry of Employment of Sweden | `regeringen.se` |
-| ministry | Ministry of Climate and Enterprise | `regeringen.se` |
-| ministry | Ministry of Defence of Sweden | `regeringen.se` |
-| ministry | Ministry of Culture of Sweden | `regeringen.se` |
-| ministry | Ministry of Infrastructure | `regeringen.se` |
-| ministry | Ministry for Foreign Affairs of Sweden | `regeringen.se` |
-| parliament | Parliament of Sweden | `riksdagen.se` |
-| parliament | Sami Parliament of Sweden | `sametinget.se` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 10 | `regeringen.se` | un_desa;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of Education and Research | Ministry of Finance of Sweden | Ministry... |
+| 7 | `riksdagen.se` | wikidata;wikidata | Parliament of Sweden |
+| 7 | `sametinget.se` | wikidata;wikidata | Sami Parliament of Sweden |
+| 2 | `lansstyrelsen.se` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Östergötland County Administrative Board | Uppsala County Administrative Boar... |
 

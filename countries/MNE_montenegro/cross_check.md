@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Parliament of Montenegro | `skupstina.me` |
-| constitutional_court | Croatian province of the Society of Jesus | `isusovci.hr` |
-| supreme_court | Parliament of Montenegro | `skupstina.me` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `skupstina.me` | wikidata;wikidata | Parliament of Montenegro |
+| 3 | `isusovci.hr` | wikidata | Croatian province of the Society of Jesus |
 

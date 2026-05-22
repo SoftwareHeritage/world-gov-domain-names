@@ -23,12 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Culture and Tourism | `tourismethiopia.org` |
-| constitutional_court | African Union Commission | `au.int` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `au.int` | wikidata | African Union Commission |
+| 3 | `tourismethiopia.org` | wikidata | Ministry of Culture and Tourism |
 

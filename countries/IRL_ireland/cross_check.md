@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.ie` (manager: University College Dublin)
+- ccTLD: `.ie` (manager: University College Dublin, Computing Services, Computer Centre)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 20 of 193
 - Government type: parliamentary republic
@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Department of Foreign Affairs of Ireland | `ireland.ie` |
-| parliament | Oireachtas | `oireachtas.ie` |
-| supreme_court | Oireachtas | `oireachtas.ie` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `oireachtas.ie` | wikidata;wikidata | Oireachtas |
+| 4 | `ireland.ie` | wikidata | Department of Foreign Affairs of Ireland |
 

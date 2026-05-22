@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.bb` (manager: Ministry of Innovation)
+- ccTLD: `.bb` (manager: Ministry of Innovation, Science and Smart Technology)
 - OECD: non-member
 - UN/DESA EGDI: Rank 91 of 193
 - Government type: parliamentary republic; a Commonwealth realm
@@ -23,12 +23,12 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Parliament of Barbados | `barbadosparliament.com` |
-| supreme_court | Parliament of Barbados | `barbadosparliament.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `barbadosparliament.com` | wikidata;wikidata | Parliament of Barbados |
 

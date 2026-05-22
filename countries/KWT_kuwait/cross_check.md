@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Higher Education | `mohe.edu.kw` |
-| ministry | Ministry of Education | `moe.edu.kw` |
-| parliament | National Assembly of Kuwait | `kna.kw` |
-| supreme_court | National Assembly of Kuwait | `kna.kw` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `kna.kw` | wikidata;wikidata | National Assembly of Kuwait |
+| 4 | `moe.edu.kw` | wikidata | Ministry of Education |
+| 4 | `mohe.edu.kw` | wikidata | Ministry of Higher Education |
 

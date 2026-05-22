@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Economy and Finance | `finances.bj` |
-| parliament | National Assembly | `assemblee-nationale.bj` |
-| supreme_court | National Assembly | `assemblee-nationale.bj` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `assemblee-nationale.bj` | wikidata;wikidata | National Assembly |
+| 4 | `finances.bj` | wikidata | Ministry of Economy and Finance |
 

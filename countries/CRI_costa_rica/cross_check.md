@@ -23,12 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| constitutional_court | Jesuit Province of Central America | `jesuitascam.org` |
-| constitutional_court | Piarist province Central America- Caribbean | `centroamericaribeschp.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
+| 3 | `jesuitascam.org` | wikidata | Jesuit Province of Central America |
 

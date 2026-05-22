@@ -23,20 +23,23 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-13 entry/entries pending. Top 10:
+12 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Infrastructure and Transport (Greece) | `yme.gr` |
-| ministry | Ministry of Labour and Social Security | `ypakp.gr` |
-| ministry | Ministry of Digital Governance (Greece) | `mindigital.gr` |
-| ministry | Ministry of Foreign Affairs (Greece) | `mfa.gr` |
-| ministry | Ministry of Justice (Greece) | `ministryofjustice.gr` |
-| ministry | Ministry of National Defence (Greece) | `mod.mil.gr` |
-| ministry | Ministry of the Interior (Greece) | `ypes.gr` |
-| ministry | Ministry of Rural Development and Food (Greece) | `minagric.gr` |
-| ministry | Ministry of Shipping and Island Policy (Greece) | `ynanp.gr` |
-| ministry | Ministry of Economy | `mnec.gr` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `hellenicparliament.gr` | wikidata;wikidata | Hellenic Parliament |
+| 4 | `mfa.gr` | wikidata | Ministry of Foreign Affairs (Greece) |
+| 4 | `minagric.gr` | wikidata | Ministry of Rural Development and Food (Greece) |
+| 4 | `mindigital.gr` | wikidata | Ministry of Digital Governance (Greece) |
+| 4 | `ministryofjustice.gr` | wikidata | Ministry of Justice (Greece) |
+| 4 | `mnec.gr` | wikidata | Ministry of Economy, Development and Tourism |
+| 4 | `mod.mil.gr` | wikidata | Ministry of National Defence (Greece) |
+| 4 | `yme.gr` | wikidata | Ministry of Infrastructure and Transport (Greece) |
+| 4 | `ynanp.gr` | wikidata | Ministry of Shipping and Island Policy (Greece) |
+| 4 | `ypakp.gr` | wikidata | Ministry of Labour and Social Security |
+| 4 | `ypes.gr` | wikidata | Ministry of the Interior (Greece) |
+| 0 | `radio899.gr` | wikidata | Xanthi Municipal Radio |
 

@@ -17,20 +17,22 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-12 entry/entries pending. Top 10:
+11 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education of Taiwan | `edu.tw` |
-| ministry | Ministry of Health and Welfare | `english.doh.gov.taipei` |
-| constitutional_court | Wanhua District Office | `whdo.gov.taipei` |
-| constitutional_court | Q130404967 | `family.gov.taipei` |
-| constitutional_court | Province of Saint Ezequiél Moreno | `recoletos.ph` |
-| constitutional_court | Dominican Province of Our Lady of the Rosary | `holyrosaryprovince.org` |
-| constitutional_court | Dominican Province of Our Lady of the Rosary | `holyrosaryprovince.org` |
-| constitutional_court | Wenshan District Office | `wsdo.gov.taipei` |
-| constitutional_court | Taipei City Government | `english.gov.taipei` |
-| constitutional_court | Taipei City Government | `gov.taipei` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| 4 | `edu.tw` | wikidata | Ministry of Education of Taiwan |
+| 4 | `english.doh.gov.taipei` | wikidata | Ministry of Health and Welfare |
+| 4 | `english.gov.taipei` | wikidata | Taipei City Government |
+| 4 | `family.gov.taipei` | wikidata | Q130404967 |
+| 4 | `gov.taipei` | wikidata | Taipei City Government |
+| 4 | `ngdo.gov.taipei` | wikidata | Nangang District Office, Taipei City |
+| 4 | `whdo.gov.taipei` | wikidata | Wanhua District Office, Taipei City |
+| 4 | `wsdo.gov.taipei` | wikidata | Wenshan District Office |
+| 4 | `youth.gov.taipei` | wikidata | Department for Youth of Taipei City Government |
+| 3 | `recoletos.ph` | wikidata | Province of Saint Ezequiél Moreno |
 

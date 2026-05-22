@@ -23,14 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Justice and Legislation (Togo) | `minjustg.com` |
-| ministry | Togolese Ministry of Health | `togoleseministryofhealthlome.myewebsite.com` |
-| parliament | National Assembly | `assemblee-nationale.tg` |
-| supreme_court | National Assembly | `assemblee-nationale.tg` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `assemblee-nationale.tg` | wikidata;wikidata | National Assembly |
+| 6 | `togo.tg` | un_desa | UN/DESA national portal |
+| 3 | `minjustg.com` | wikidata | Ministry of Justice and Legislation (Togo) |
+| 3 | `togoleseministryofhealthlome.myewebsite.com` | wikidata | Togolese Ministry of Health |
 

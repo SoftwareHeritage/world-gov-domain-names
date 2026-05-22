@@ -23,20 +23,22 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-11 entry/entries pending. Top 10:
+11 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of National Education | `madrastna.ma` |
-| ministry | Ministry of Foreign Affairs | `diplomatie.ma` |
-| parliament | Casablanca-Settat Regional Council | `casasettat.ma` |
-| parliament | Oriental Regional Council | `conseilregionoriental.ma` |
-| parliament | Marrakesh–Safi Regional Council | `regionmarrakech-safi.ma` |
-| parliament | Tangier-Tetouan-Al Hoceima Regional Council | `crtta.ma` |
-| parliament | Souss-Massa Regional Council | `soussmassa.ma` |
-| parliament | Parliament of Morocco | `parlement.ma` |
-| parliament | Fez-Meknes Regional Council | `region-fes-meknes.ma` |
-| constitutional_court | Franciscan province of Santiago | `ofmsantiago.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parlement.ma` | wikidata;wikidata | Parliament of Morocco |
+| 6 | `egov.ma` | un_desa | UN/DESA national portal |
+| 4 | `diplomatie.ma` | wikidata | Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates |
+| 4 | `madrastna.ma` | wikidata | Ministry of National Education |
+| 3 | `ofmsantiago.com` | wikidata | Franciscan province of Santiago |
+| 0 | `casasettat.ma` | wikidata | Casablanca-Settat Regional Council |
+| 0 | `conseilregionoriental.ma` | wikidata | Oriental Regional Council |
+| 0 | `crtta.ma` | wikidata | Tangier-Tetouan-Al Hoceima Regional Council |
+| 0 | `region-fes-meknes.ma` | wikidata | Fez-Meknes Regional Council |
+| 0 | `regionmarrakech-safi.ma` | wikidata | Marrakesh–Safi Regional Council |
+| 0 | `soussmassa.ma` | wikidata | Souss-Massa Regional Council |
 

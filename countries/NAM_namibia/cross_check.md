@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Finance | `mof.na` |
-| parliament | Parliament of Namibia | `parliament.na` |
-| supreme_court | Parliament of Namibia | `parliament.na` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.na` | wikidata;wikidata | Parliament of Namibia |
+| 4 | `mof.na` | wikidata | Ministry of Finance |
 

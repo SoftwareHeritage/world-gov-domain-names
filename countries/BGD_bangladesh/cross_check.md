@@ -23,14 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| constitutional_court | Gazipur City Corporation | `gazipurcity.com` |
-| constitutional_court | Khulna City Corporation | `khulnacity.org` |
-| constitutional_court | Chattogram City Corporation | `ccc.org.bd` |
-| constitutional_court | Cumilla City Corporation | `comillacitycorporation.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `ccc.org.bd` | wikidata | Chattogram City Corporation |
+| 3 | `comillacitycorporation.org` | wikidata | Cumilla City Corporation |
+| 3 | `gazipurcity.com` | wikidata | Gazipur City Corporation |
+| 3 | `khulnacity.org` | wikidata | Khulna City Corporation |
 

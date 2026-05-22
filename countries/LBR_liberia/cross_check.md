@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.lr` (manager: Data Technology Solutions)
+- ccTLD: `.lr` (manager: Data Technology Solutions, Inc.)
 - OECD: non-member
 - UN/DESA EGDI: Rank 182 of 193
 - Government type: presidential republic
@@ -23,7 +23,7 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+No remaining candidates (every flagged institution is covered).
 

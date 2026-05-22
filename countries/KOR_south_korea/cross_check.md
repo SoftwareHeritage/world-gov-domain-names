@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-88 entry/entries pending. Top 10:
+62 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education of the Republic of Korea | `moe.go.kr` |
-| ministry | Ministry of Environment | `me.go.kr` |
-| ministry | Ministry of Economy and Finance | `moef.go.kr` |
-| ministry | Ministry of Climate | `eng.mcee.go.kr` |
-| ministry | Ministry of Climate | `mcee.go.kr` |
-| ministry | Ministry of Justice | `moj.go.kr` |
-| ministry | Ministry of Trade | `motie.go.kr` |
-| ministry | Ministry of Unification | `unikorea.go.kr` |
-| ministry | Ministry of National Defense of South Korea | `mnd.go.kr` |
-| ministry | Ministry of Employment and Labor | `moel.go.kr` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `assembly.go.kr` | wikidata;wikidata | National Assembly |
+| 7 | `council.gangwon.kr` | wikidata;wikidata | Gangwon State Council |
+| 7 | `ggc.go.kr` | wikidata;wikidata | Gyeonggido Assembly |
+| 7 | `molit.go.kr` | wikidata;wikidata | Ministry of Land, Infrastructure and Transport | Q16100644 |
+| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| 4 | `eng.mcee.go.kr` | wikidata | Ministry of Climate, Energy and Environment |
+| 4 | `eng.president.go.kr` | wikidata | Office of the President of South Korea |
+| 4 | `global.seoul.go.kr` | wikidata | Seoul Global Center |
+| 4 | `mafra.go.kr` | wikidata | Ministry of Agriculture, Food and Rural Affairs |
+| 4 | `mcee.go.kr` | wikidata | Ministry of Climate, Energy and Environment |
+| 4 | `mcst.go.kr` | wikidata | Ministry of Culture, Sports and Tourism |
+| 4 | `me.go.kr` | wikidata | Ministry of Environment |
+| 4 | `mnd.go.kr` | wikidata | Ministry of National Defense of South Korea |
+| 4 | `moe.go.kr` | wikidata | Ministry of Education of the Republic of Korea |
+| 4 | `moef.go.kr` | wikidata | Ministry of Economy and Finance |
+| 4 | `moel.go.kr` | wikidata | Ministry of Employment and Labor |
+| 4 | `mof.go.kr` | wikidata | Ministry of Oceans and Fisheries |
+| 4 | `mofa.go.kr` | wikidata | Ministry of Foreign Affairs of the Republic of Korea |
+| 4 | `mogef.go.kr` | wikidata | Ministry of Gender Equality and Family |
+| 4 | `mohw.go.kr` | wikidata | Ministry of Health and Welfare |
 

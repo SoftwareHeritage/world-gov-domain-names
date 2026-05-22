@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Environment and Sanitation of Mali | `environnement.gov.ml` |
-| ministry | Ministry of Public Health and Hygiene | `sante.gov.ml` |
-| constitutional_court | Council of Ministers of Mali | `primature.ml` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 5 | `environnement.gov.ml` | wikidata | Ministry of Environment and Sanitation of Mali |
+| 5 | `sante.gov.ml` | wikidata | Ministry of Public Health and Hygiene |
+| 4 | `primature.ml` | wikidata | Council of Ministers of Mali |
 

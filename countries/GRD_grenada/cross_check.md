@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Finance of Grenada | `finance.gd` |
-| parliament | Parliament of Grenada | `grenadaparliament.gd` |
-| supreme_court | Parliament of Grenada | `grenadaparliament.gd` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `grenadaparliament.gd` | wikidata;wikidata | Parliament of Grenada |
+| 4 | `finance.gd` | wikidata | Ministry of Finance of Grenada |
 

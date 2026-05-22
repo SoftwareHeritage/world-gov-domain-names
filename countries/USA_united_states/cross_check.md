@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-10942 entry/entries pending. Top 10:
+10570 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Oregon Department of Transportation | `oregon.gov` |
-| ministry | Kentucky Housing Corporation | `kyhousing.org` |
-| ministry | Kentucky Justice and Public Safety Cabinet | `justice.ky.gov` |
-| ministry | New York State Department of Health | `health.ny.gov` |
-| ministry | Maryland Department of Labor | `dllr.state.md.us` |
-| ministry | South Carolina Department of Health and Environmental Control | `scdhec.gov` |
-| ministry | Alabama Department of Public Health | `alabamapublichealth.gov` |
-| ministry | Alaska Department of Transportation & Public Facilities | `dot.state.ak.us` |
-| ministry | Alaska Department of Health and Social Services | `dhss.alaska.gov` |
-| ministry | Alaska Department of Health and Social Services | `dhss.alaska.gov` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `azleg.gov` | wikidata;wikidata | Arizona State Legislature |
+| 8 | `capitol.hawaii.gov` | wikidata;wikidata | Hawaii State Legislature |
+| 8 | `capitol.texas.gov` | wikidata;wikidata | Texas Legislature |
+| 8 | `cga.ct.gov` | wikidata;wikidata | Connecticut General Assembly |
+| 8 | `cincinnati-oh.gov` | wikidata;wikidata | Cincinnati Division of Aviation | Cincinnati Division of Development, Permits... |
+| 8 | `congress.gov` | wikidata;wikidata | United States Congress |
+| 8 | `harrisburgpa.gov` | wikidata;wikidata | Harrisburg City Council | Harrisburg |
+| 8 | `iga.in.gov` | wikidata;wikidata | Indiana General Assembly |
+| 8 | `ilga.gov` | wikidata;wikidata | Illinois General Assembly |
+| 8 | `lauderhill-fl.gov` | wikidata;wikidata | Lauderhill |
+| 8 | `lawrenceburgtn.gov` | wikidata;wikidata | Baker | Lawrenceburg |
+| 8 | `le.utah.gov` | wikidata;wikidata | Utah State Legislature |
+| 8 | `leg.colorado.gov` | wikidata;wikidata | Colorado General Assembly |
+| 8 | `leg.mt.gov` | wikidata;wikidata | Montana Legislature |
+| 8 | `leg.wa.gov` | wikidata;wikidata | Washington State Legislature |
+| 8 | `legis.delaware.gov` | wikidata;wikidata | Delaware General Assembly |
+| 8 | `legis.ga.gov` | wikidata;wikidata | Georgia General Assembly |
+| 8 | `legis.iowa.gov` | wikidata;wikidata | Iowa General Assembly |
+| 8 | `legis.la.gov` | wikidata;wikidata | Louisiana State Legislature |
+| 8 | `legislature.maine.gov` | wikidata;wikidata | Maine Legislature |
 

@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Finance and Economy | `upravacarina.rs` |
-| parliament | Assembly of the Community of Municipalities of the Autonomous Province of Kosovo and Metohija | `sapkim.org` |
-| constitutional_court | Croatian province of the Society of Jesus | `isusovci.hr` |
-| supreme_court | Assembly of the Community of Municipalities of the Autonomous Province of Kosovo and Metohija | `sapkim.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `upravacarina.rs` | wikidata | Ministry of Finance and Economy |
+| 3 | `isusovci.hr` | wikidata | Croatian province of the Society of Jesus |
+| 1 | `sapkim.org` | wikidata;wikidata | Assembly of the Community of Municipalities of the Autonomous Province of Kos... |
 

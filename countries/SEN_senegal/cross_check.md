@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Q139297158 | `mesrisenegal.sn` |
-| parliament | National Assembly | `assemblee-nationale.sn` |
-| constitutional_court | Piarist province of West Africa | `escolapiesinstitutions.org` |
-| supreme_court | National Assembly | `assemblee-nationale.sn` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `assemblee-nationale.sn` | wikidata;wikidata | National Assembly |
+| 4 | `mesrisenegal.sn` | wikidata | Q139297158 |
+| 3 | `escolapiesinstitutions.org` | wikidata | Piarist province of West Africa |
 

@@ -23,20 +23,16 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-10 entry/entries pending. Top 10:
+5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Municipal Corporation Gujranwala | `gujranwala.gop.pk` |
-| parliament | Metropolitan Corporation Lahore | `lahore.gop.pk` |
-| parliament | Rawalpindi Municipal Corporation | `mcrawalpindi.org` |
-| parliament | Municipal Corporation of Bahawalpur | `mcbahawalpur.gop.pk` |
-| parliament | Karachi Metropolitan Corporation | `kmc.gos.pk` |
-| supreme_court | Municipal Corporation Gujranwala | `gujranwala.gop.pk` |
-| supreme_court | Metropolitan Corporation Lahore | `lahore.gop.pk` |
-| supreme_court | Rawalpindi Municipal Corporation | `mcrawalpindi.org` |
-| supreme_court | Municipal Corporation of Bahawalpur | `mcbahawalpur.gop.pk` |
-| supreme_court | Karachi Metropolitan Corporation | `kmc.gos.pk` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 2 | `gujranwala.gop.pk` | wikidata;wikidata | Municipal Corporation Gujranwala |
+| 2 | `kmc.gos.pk` | wikidata;wikidata | Karachi Metropolitan Corporation |
+| 2 | `lahore.gop.pk` | wikidata;wikidata | Metropolitan Corporation Lahore |
+| 2 | `mcbahawalpur.gop.pk` | wikidata;wikidata | Municipal Corporation of Bahawalpur |
+| 1 | `mcrawalpindi.org` | wikidata;wikidata | Rawalpindi Municipal Corporation |
 

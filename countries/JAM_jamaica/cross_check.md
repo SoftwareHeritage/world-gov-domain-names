@@ -23,7 +23,7 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+No remaining candidates (every flagged institution is covered).
 

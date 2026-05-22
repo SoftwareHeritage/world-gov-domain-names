@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Slovenian Parliament | `dz-rs.si` |
-| constitutional_court | Croatian Dominican Province | `dominikanci.hr` |
-| supreme_court | Slovenian Parliament | `dz-rs.si` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `dz-rs.si` | wikidata;wikidata | Slovenian Parliament |
+| 6 | `vlada.si` | un_desa | UN/DESA national portal |
+| 3 | `dominikanci.hr` | wikidata | Croatian Dominican Province |
 

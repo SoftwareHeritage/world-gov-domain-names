@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-70 entry/entries pending. Top 10:
+29 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Department for Economic Affairs | `vd.zh.ch` |
-| ministry | Department for Economic Affairs | `zh.ch` |
-| ministry | Department for Economic Affairs | `zh.ch` |
-| ministry | Q113033130 | `zh.ch` |
-| ministry | Q113033130 | `zh.ch` |
-| ministry | Department of Health Canton of Zurich | `gd.zh.ch` |
-| ministry | Department of Health Canton of Zurich | `zh.ch` |
-| ministry | Department of Health Canton of Zurich | `zh.ch` |
-| ministry | Direktion der Justiz und des Innern | `zh.ch` |
-| ministry | Direktion der Justiz und des Innern | `zh.ch` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parlement.vs.ch` | wikidata;wikidata | Grand Council of Valais |
+| 7 | `ag.ch` | wikidata;wikidata | Grand Council of Aargau |
+| 7 | `ar.ch` | wikidata;wikidata | Cantonal Council of Appenzell Ausserrhoden |
+| 7 | `baselland.ch` | wikidata;wikidata | Landrat of Basel-Landschaft |
+| 7 | `biel-bienne.ch` | wikidata;wikidata | Q137886745 |
+| 7 | `ge.ch` | wikidata;wikidata | Grand Council of Geneva |
+| 7 | `gemeinderat-zuerich.ch` | wikidata;wikidata | Zurich City Parliament |
+| 7 | `gl.ch` | wikidata;wikidata | Landrat of Glarus |
+| 7 | `gr.ch` | wikidata;wikidata | Grand Council of Grisons |
+| 7 | `lausanne.ch` | wikidata;wikidata | Q71801799 |
+| 7 | `lu.ch` | wikidata;wikidata | Cantonal Council of Lucerne |
+| 7 | `nw.ch` | wikidata;wikidata | Landrat of Nidwalden |
+| 7 | `ow.ch` | wikidata;wikidata | Cantonal Council of Obwalden |
+| 7 | `parlament.ch` | wikidata;wikidata | Federal Assembly of Switzerland |
+| 7 | `sg.ch` | wikidata;wikidata | Cantonal Council of Sankt Gallen |
+| 7 | `sh.ch` | wikidata;wikidata | Cantonal Council of Schaffhausen |
+| 7 | `stadt-schaffhausen.ch` | wikidata;wikidata | Q131731590 |
+| 7 | `www4.ti.ch` | wikidata;wikidata | Grand Council of Ticino |
+| 7 | `zg.ch` | wikidata;wikidata | Cantonal Council of Zug |
+| 4 | `landsgemeinde.gl.ch` | wikidata | Landsgemeinde Glarus |
 

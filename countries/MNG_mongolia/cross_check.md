@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.mn` (manager: Datacom Co.)
+- ccTLD: `.mn` (manager: Datacom Co., Ltd.)
 - OECD: non-member
 - UN/DESA EGDI: Rank 46 of 193
 - Government type: semi-presidential republic
@@ -23,14 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | State Great Khural | `parliament.mn` |
-| constitutional_court | Government of Mongolia | `zasag.mn` |
-| constitutional_court | Government of Mongolia | `zasag.mn` |
-| supreme_court | State Great Khural | `parliament.mn` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 10 | `zasag.mn` | un_desa;wikidata;wikidata | Government of Mongolia | UN/DESA national portal |
+| 8 | `parliament.mn` | wikidata;wikidata | State Great Khural |
 

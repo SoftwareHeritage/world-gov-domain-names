@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.la` (manager: Lao National Internet Center (LANIC))
+- ccTLD: `.la` (manager: Lao National Internet Center (LANIC), Ministry of Technology and Communications)
 - OECD: non-member
 - UN/DESA EGDI: Rank 152 of 193
 - Government type: communist party-led state
@@ -23,7 +23,7 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+No remaining candidates (every flagged institution is covered).
 

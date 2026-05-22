@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-49 entry/entries pending. Top 10:
+26 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Brussels Mobility | `mobilite-mobiliteit.brussels` |
-| ministry | Ministry of the German-speaking Community | `dglive.be` |
-| ministry | Federal Public Service Economy | `economie.fgov.be` |
-| ministry | Brussels Mobility | `be.brussels` |
-| ministry | Brussels Mobility | `be.brussels` |
-| ministry | Brussels Mobility | `be.brussels` |
-| ministry | Department of Welfare | `departementwvg.be` |
-| ministry | Flemish Ministry of Education and Training | `onderwijs.vlaanderen.be` |
-| ministry | Federal Public Service Interior | `ibz.be` |
-| ministry | Defence | `mil.be` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `ewi-vlaanderen.be` | wikidata;wikidata | Department of Economy, Sciency & Innovation |
+| 7 | `fed-parl.be` | wikidata;wikidata | Belgian Federal Parliament |
+| 7 | `federale-regering.be` | wikidata;wikidata | De Wever Government | Federal Government of Belgium |
+| 7 | `mil.be` | wikidata;wikidata | Defence |
+| 7 | `parlement-wallonie.be` | wikidata;wikidata | Parliament of Wallonia |
+| 7 | `parlement.brussels` | wikidata;wikidata | Parliament of the Brussels-Capital Region |
+| 7 | `pdg.be` | wikidata;wikidata | Parliament of the German-speaking Community |
+| 7 | `pfwb.be` | wikidata;wikidata | Parliament of the French Community |
+| 7 | `vlaamsparlement.be` | wikidata;wikidata | Flemish Parliament |
+| 7 | `vlaanderen.be` | wikidata;wikidata | Department for Culture, Youth and Media | Flemish Government |
+| 6 | `consilium.europa.eu` | wikidata;wikidata | Council of the European Union |
+| 6 | `ejp.eu` | wikidata;wikidata | European Jewish Parliament |
+| 6 | `nato-pa.int` | wikidata;wikidata | NATO Parliamentary Assembly |
+| 4 | `dglive.be` | wikidata | Ministry of the German-speaking Community |
+| 4 | `economie.fgov.be` | wikidata | Federal Public Service Economy |
+| 4 | `gouvernement-federal.be` | wikidata | Federal Government of Belgium |
+| 4 | `gouvernement.cfwb.be` | wikidata | Government of the French Community |
+| 4 | `gouvernement.wallonie.be` | wikidata | Government of Wallonia |
+| 4 | `ibz.be` | wikidata | Federal Public Service Interior |
+| 4 | `ostbelgienlive.be` | wikidata | Government of the German-speaking Community |
 

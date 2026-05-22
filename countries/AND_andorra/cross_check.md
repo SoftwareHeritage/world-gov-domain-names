@@ -23,17 +23,17 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-7 entry/entries pending. Top 10:
+6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Tourism of Andorra | `turisme.ad` |
-| ministry | Ministry of Education and Higher Education of Andorra | `educacio.ad` |
-| ministry | Ministry of Foreign Affairs | `exteriors.ad` |
-| ministry | Ministry of Territorial Planning of Andorra | `mobilitat.ad` |
-| ministry | Ministry of Finance of Andorra | `finances.ad` |
-| parliament | General Council of Andorra | `consellgeneral.ad` |
-| supreme_court | General Council of Andorra | `consellgeneral.ad` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `educacio.ad` | wikidata | Ministry of Education and Higher Education of Andorra |
+| 4 | `exteriors.ad` | wikidata | Ministry of Foreign Affairs |
+| 4 | `finances.ad` | wikidata | Ministry of Finance of Andorra |
+| 4 | `mobilitat.ad` | wikidata | Ministry of Territorial Planning of Andorra |
+| 4 | `turisme.ad` | wikidata | Ministry of Tourism of Andorra |
+| 2 | `consellgeneral.ad` | wikidata;wikidata | General Council of Andorra |
 

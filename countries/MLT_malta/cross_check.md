@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Parliament of Malta | `parlament.mt` |
-| constitutional_court | Euromediterranean Province of the Jesuits | `gesuiti.it` |
-| supreme_court | Parliament of Malta | `parlament.mt` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `parlament.mt` | wikidata;wikidata | Parliament of Malta |
+| 3 | `gesuiti.it` | wikidata | Euromediterranean Province of the Jesuits |
 

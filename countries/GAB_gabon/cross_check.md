@@ -23,17 +23,18 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-7 entry/entries pending. Top 10:
+7 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Health | `sante.gouv.ga` |
-| ministry | Q137536983 | `relations-institutions.gouv.ga` |
-| ministry | Q125907067 | `fonction-publique.gouv.ga` |
-| ministry | Ministry of Transport (Gabon) | `transports.gouv.ga` |
-| ministry | Ministry of Justice | `justice.gouv.ga` |
-| ministry | Q128231957 | `interieur.gouv.ga` |
-| constitutional_court | Piarist province of Central Africa | `piaristesafriquecentrale.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 5 | `fonction-publique.gouv.ga` | wikidata | Q125907067 |
+| 5 | `interieur.gouv.ga` | wikidata | Q128231957 |
+| 5 | `justice.gouv.ga` | wikidata | Ministry of Justice |
+| 5 | `relations-institutions.gouv.ga` | wikidata | Q137536983 |
+| 5 | `sante.gouv.ga` | wikidata | Ministry of Health |
+| 5 | `transports.gouv.ga` | wikidata | Ministry of Transport (Gabon) |
+| 3 | `piaristesafriquecentrale.org` | wikidata | Piarist province of Central Africa |
 

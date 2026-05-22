@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of National Education and Technical Training | `education-ci.org` |
-| ministry | Q123328078 | `justice.ci` |
-| constitutional_court | Piarist province of West Africa | `escolapiesinstitutions.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `justice.ci` | wikidata | Q123328078 |
+| 3 | `education-ci.org` | wikidata | Ministry of National Education and Technical Training |
+| 3 | `escolapiesinstitutions.org` | wikidata | Piarist province of West Africa |
 

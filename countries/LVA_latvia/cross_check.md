@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.lv` (manager: University of Latvia)
+- ccTLD: `.lv` (manager: University of Latvia, Institute of Mathematics and Computer Science, Department of Network Solutions (DNS))
 - OECD: member since 2016
 - UN/DESA EGDI: Rank 29 of 193
 - Government type: parliamentary republic
@@ -23,20 +23,28 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-18 entry/entries pending. Top 10:
+17 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Welfare | `lm.gov.lv` |
-| ministry | Ministry of Culture of the Republic of Latvia | `km.gov.lv` |
-| ministry | Ministry of Culture of the Republic of Latvia | `km.gov.lv` |
-| ministry | Ministry of Environmental Protection and Regional Development | `varam.gov.lv` |
-| ministry | Ministry of the Interior of the Republic of Latvia | `iem.gov.lv` |
-| ministry | Ministry of Foreign Affairs | `mfa.gov.lv` |
-| ministry | Ministry of Climate and Energy of Latvia | `kem.gov.lv` |
-| ministry | Ministry of Education and Science | `izm.gov.lv` |
-| ministry | Ministry of Economics | `em.gov.lv` |
-| ministry | Ministry of Finance | `fm.gov.lv` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `km.gov.lv` | wikidata;wikidata | Ministry of Culture of the Republic of Latvia |
+| 7 | `saeima.lv` | wikidata;wikidata | Saeima |
+| 6 | `latvija.lv` | un_desa | UN/DESA national portal |
+| 5 | `em.gov.lv` | wikidata | Ministry of Economics |
+| 5 | `fm.gov.lv` | wikidata | Ministry of Finance |
+| 5 | `iem.gov.lv` | wikidata | Ministry of the Interior of the Republic of Latvia |
+| 5 | `izm.gov.lv` | wikidata | Ministry of Education and Science |
+| 5 | `kem.gov.lv` | wikidata | Ministry of Climate and Energy of Latvia |
+| 5 | `lm.gov.lv` | wikidata | Ministry of Welfare |
+| 5 | `mfa.gov.lv` | wikidata | Ministry of Foreign Affairs |
+| 5 | `mod.gov.lv` | wikidata | Ministry of Defence of Latvia |
+| 5 | `sam.gov.lv` | wikidata | Ministry of Transport |
+| 5 | `tm.gov.lv` | wikidata | Ministry of Justice |
+| 5 | `vm.gov.lv` | wikidata | Ministry of Health |
+| 5 | `zm.gov.lv` | wikidata | Ministry of Agriculture |
+| 3 | `jesuiten.org` | wikidata | Jesuit Province of Central Europe |
+| 0 | `varam.gov.lv` | wikidata | Ministry of Environmental Protection and Regional Development |
 

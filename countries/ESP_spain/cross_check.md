@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-271 entry/entries pending. Top 10:
+171 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Q107653107 | `agroambient.gva.es` |
-| ministry | Departament d'Igualtat i Feminisme de la Generalitat de Catalunya | `igualtat.gencat.cat` |
-| ministry | Q105393783 | `politicaterritorial.gva.es` |
-| ministry | Conselleria de Innovación | `innova.gva.es` |
-| ministry | Conselleria de Innovación | `innova.gva.es` |
-| ministry | Q107059396 | `territori.gencat.cat` |
-| ministry | Ministry of Health | `msssi.gob.es` |
-| ministry | Ministry for the Ecological Transition and the Demographic Challenge | `miteco.gob.es.` |
-| ministry | Q17462673 | `juntaex.es` |
-| ministry | Q120542741 | `culturadigital.blog.gencat.cat` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `asambleamadrid.es` | wikidata;wikidata | Assembly of Madrid |
+| 7 | `ccyl.es` | wikidata;wikidata | Cortes of Castile-La Mancha |
+| 7 | `ceice.gva.es` | wikidata;wikidata | Ministry of Education, Research, Culture and Sport | Ministry of Education, C... |
+| 7 | `ciencia.gob.es` | wikidata;wikidata | Ministry of Science of Spain | Ministry of Science, Innovation and Universities |
+| 7 | `cortesaragon.es` | wikidata;wikidata | Aragonese Corts |
+| 7 | `cortesgenerales.es` | wikidata;wikidata | Cortes Generales |
+| 7 | `cortsvalencianes.es` | wikidata;wikidata | Corts Valencianes |
+| 7 | `gva.es` | wikidata;wikidata | Generalitat Valenciana | Q2993785 |
+| 7 | `juntaex.es` | wikidata;wikidata | Consejería de Educación y Empleo | Junta de Extremadura |
+| 7 | `melilla.es` | wikidata;wikidata | Assembly of Melilla |
+| 7 | `mjusticia.gob.es` | wikidata;wikidata | Ministry of the Presidency, Justice and Relations with the Courts | Ministry ... |
+| 7 | `mpr.gob.es` | wikidata;wikidata | Ministry of the Presidency of Spain | Ministry for the Presidency and the Ter... |
+| 7 | `parcan.es` | wikidata;wikidata | Canarian Parliament |
+| 7 | `parlamentib.es` | wikidata;wikidata | Parliament of the Balearic Islands |
+| 7 | `parlamento-cantabria.es` | wikidata;wikidata | Parliament of Cantabria |
+| 7 | `parlamentodeandalucia.es` | wikidata;wikidata | Parliament of Andalusia |
+| 7 | `parlamentodenavarra.es` | wikidata;wikidata | Parliament of Navarre |
+| 6 | `administracion.gob.es` | un_desa | UN/DESA national portal |
+| 6 | `bngipuzkoa.eus` | wikidata;wikidata | General Assemblies of Gipuzkoa |
+| 6 | `conselharan.org` | wikidata;wikidata | Conselh |
 

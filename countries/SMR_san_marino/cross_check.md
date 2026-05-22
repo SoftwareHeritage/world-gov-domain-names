@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Foreign Affairs of the Republic of San Marino | `esteri.sm` |
-| parliament | Grand and General Council | `consigliograndeegenerale.sm` |
-| supreme_court | Grand and General Council | `consigliograndeegenerale.sm` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `sanmarino.sm` | un_desa | UN/DESA national portal |
+| 4 | `esteri.sm` | wikidata | Ministry of Foreign Affairs of the Republic of San Marino |
+| 2 | `consigliograndeegenerale.sm` | wikidata;wikidata | Grand and General Council |
 

@@ -23,14 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea | `mae-ge.org` |
-| ministry | Ministry of Agriculture and Forestry | `geagricultura.com` |
-| constitutional_court | Province of Hispania of the Order of Preachers | `dominicoshispania.org` |
-| constitutional_court | Piarist province of Central Africa | `piaristesafriquecentrale.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `geagricultura.com` | wikidata | Ministry of Agriculture and Forestry |
+| 3 | `dominicoshispania.org` | wikidata | Province of Hispania of the Order of Preachers |
+| 3 | `mae-ge.org` | wikidata | Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea |
+| 3 | `piaristesafriquecentrale.org` | wikidata | Piarist province of Central Africa |
 

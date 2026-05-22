@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-203 entry/entries pending. Top 10:
+38 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Saxon State Ministry of the Interior | `smi.sachsen.de` |
-| ministry | Hessian Ministry of Culture | `kultus.hessen.de` |
-| ministry | Ministry for Agriculture and Consumer Protection of the State of North Rhine-Westphalia | `umwelt.nrw.de` |
-| ministry | Hamburg Ministry of Finance | `hamburg.de` |
-| ministry | Finanzministerium | `fm.baden-wuerttemberg.de` |
-| ministry | Ministry of Finance of North Rhine-Westphalia | `finanzverwaltung.nrw.de` |
-| ministry | Federal Ministry for Economic Cooperation and Development | `bmz.de` |
-| ministry | Federal Ministry of Health of Germany | `bundesgesundheitsministerium.de` |
-| ministry | Saxon State Ministry for Social Affairs and Social Cohesion | `sms.sachsen.de` |
-| ministry | Bavarian Ministry of Justice and Consumer Protection | `justiz.bayern.de` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `bmbfsfj.bund.de` | wikidata;wikidata | Federal Ministry for Education, Family Affairs, Senior Citizens, Women and Youth |
+| 8 | `bmftr.bund.de` | wikidata;wikidata | Federal Ministry of Research, Technology and Space |
+| 7 | `bmjv.de` | wikidata;wikidata | Federal Ministry of Justice and Consumer Protection |
+| 7 | `bmvg.de` | wikidata;wikidata | Federal Ministry of Defence of Germany |
+| 6 | `assemblee-nationale.fr` | wikidata;wikidata | Franco-German Parliamentary Assembly |
+| 5 | `bmds.bund.de` | wikidata | Federal Ministry for Digital Transformation and Government Modernisation |
+| 5 | `bmi.bund.de` | wikidata | Federal Ministry of the Interior |
+| 5 | `bmwsb.bund.de` | wikidata | Federal Ministry for Housing, Urban Development and Building |
+| 4 | `auswaertiges-amt.de` | wikidata | Federal Foreign Office |
+| 4 | `bmas.de` | wikidata | Federal Ministry of Labour and Social Affairs of Germany |
+| 4 | `bmv.de` | wikidata | Federal Ministry for Transport |
+| 4 | `bmz.de` | wikidata | Federal Ministry for Economic Cooperation and Development |
+| 4 | `bremische-buergerschaft.de` | wikidata | Bürgerschaft of Bremen |
+| 4 | `bundesfinanzministerium.de` | wikidata | Federal Ministry of Finance |
+| 4 | `bundesgesundheitsministerium.de` | wikidata | Federal Ministry of Health of Germany |
+| 4 | `bundesumweltministerium.de` | wikidata | Federal Ministry for the Environment, Climate Protection, Nature Conservation... |
+| 4 | `bundeswirtschaftsministerium.de` | wikidata | Federal Ministry for Economic Affairs and Energy |
+| 4 | `hamburg.de` | wikidata | Senate of the Free and Hanseatic City of Hamburg |
+| 4 | `hamburgische-buergerschaft.de` | wikidata | Hamburg Parliament |
+| 4 | `neckarwestheim.de` | wikidata | Q134619980 |
 

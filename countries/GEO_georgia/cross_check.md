@@ -23,19 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-9 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Finance of Georgia | `mof.ge` |
-| ministry | Ministry of Internal Affairs | `police.ge` |
-| ministry | Ministry of Economy and Sustainable Development | `economy.ge` |
-| parliament | Parliament of Georgia | `parliament.ge` |
-| parliament | Supreme Council of the Autonomous Republic of Adjara | `sca.ge` |
-| parliament | Parliament of South Ossetia | `parliamentrso.org` |
-| supreme_court | Parliament of Georgia | `parliament.ge` |
-| supreme_court | Supreme Council of the Autonomous Republic of Adjara | `sca.ge` |
-| supreme_court | Parliament of South Ossetia | `parliamentrso.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.ge` | wikidata;wikidata | Parliament of Georgia |
+| 7 | `sca.ge` | wikidata;wikidata | Supreme Council of the Autonomous Republic of Adjara |
+| 6 | `parliamentrso.org` | wikidata;wikidata | Parliament of South Ossetia |
 

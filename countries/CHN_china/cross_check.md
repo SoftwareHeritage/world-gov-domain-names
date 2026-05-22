@@ -23,20 +23,23 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-79 entry/entries pending. Top 10:
+12 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Secretariat for Economy and Finance | `gsef.gov.mo` |
-| ministry | Hospital Conde S. Januário | `ssm.gov.mo` |
-| ministry | Housing Bureau | `ihm.gov.mo` |
-| ministry | Housing Bureau | `ihm.gov.mo` |
-| ministry | Housing Bureau | `ihm.gov.mo` |
-| ministry | Cultural Affairs Bureau | `icm.gov.mo` |
-| ministry | Government Printing Bureau | `pt.io.gov.mo` |
-| ministry | Government Printing Bureau | `imprensa.macau.gov.mo` |
-| ministry | Culture | `cstb.gov.hk` |
-| ministry | Health Bureau | `healthbureau.gov.hk` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `en.npc.gov.cn.cdurl.cn` | wikidata;wikidata;wikidata | National People's Congress | Standing Committee of the National People's Cong... |
+| 7 | `legco.gov.hk` | wikidata;wikidata | Legislative Council of Hong Kong |
+| 7 | `spcsc.sh.cn` | wikidata;wikidata | Shanghai People's Congress |
+| 6 | `fmac.org.mo` | wikidata;wikidata | Macao Foundation |
+| 4 | `aacm.gov.mo` | wikidata | Civil Aviation Authority of Macau |
+| 4 | `draemp.gov.mo` | wikidata | Office of the Macau Special Administrative Region in Beijing |
+| 4 | `smg.gov.mo` | wikidata | Macao Meteorological and Geophysical Bureau |
+| 4 | `ssm.gov.mo` | wikidata | Hospital Conde S. Januário |
+| 3 | `ccac.org.mo` | wikidata | Commission Against Corruption |
+| 2 | `al.gov.mo` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Legislative Assembly of Macau |
+| 2 | `gov.hk` | wikidata;wikidata;wikidata;wikidata | Government of Hong Kong |
+| 0 | `iacm.gov.mo` | wikidata | Civic and Municipal Affairs Bureau |
 

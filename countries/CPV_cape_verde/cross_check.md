@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Internal Affairs | `mai.gov.cv` |
-| ministry | Ministry of Higher Education | `mesci.gov.cv` |
-| parliament | National Assembly of Cape Verde | `parlamento.cv` |
-| supreme_court | National Assembly of Cape Verde | `parlamento.cv` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parlamento.cv` | wikidata;wikidata | National Assembly of Cape Verde |
+| 5 | `mai.gov.cv` | wikidata | Ministry of Internal Affairs |
+| 5 | `mesci.gov.cv` | wikidata | Ministry of Higher Education, Science and Innovation |
 

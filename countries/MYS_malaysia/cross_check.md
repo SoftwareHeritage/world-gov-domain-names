@@ -19,11 +19,11 @@
 
 - Chief of state: King Sultan IBRAHIM ibni al-Marhum Sultan Iskandar (since 31 January 2024)
 - Head of government: Prime Minister ANWAR Ibrahim (since 24 November 2022)
-- Highest courts: Federal Court (consists of the chief justice, president of the Court of Appeal, chief justice of the High Court of Malaya, chief judge of the High Court of Sabah and Sarawak, 8 judges, and 1 ""additional"" judge)
+- Highest courts: Federal Court (consists of the chief justice, president of the Court of Appeal, chief justice of the High Court of Malaya, chief judge of the High Court of Sabah and Sarawak, 8 judges, and 1 "additional" judge)
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+No remaining candidates (every flagged institution is covered).
 

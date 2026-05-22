@@ -23,11 +23,12 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-1 entry/entries pending. Top 10:
+1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| constitutional_court | Custodian of the Holy Land | `custodia.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
 

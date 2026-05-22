@@ -23,20 +23,21 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-10 entry/entries pending. Top 10:
+10 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Silesian Regional Assembly | `sejmik.slaskie.pl` |
-| parliament | Lesser Poland Regional Assembly | `malopolskie.pl` |
-| constitutional_court | Province of Our Lady of the Angels of the Friars Minor in Kraków | `franciszkanie.org.pl` |
-| constitutional_court | Province of Saint Francis of the Friars Minor in Poznań | `franciszkanie.net` |
-| constitutional_court | Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław | `franciszkanie.com` |
-| constitutional_court | Polish Dominican Province | `dominikanie.pl` |
-| constitutional_court | Piarist province of Poland | `pijarzy.pl` |
-| constitutional_court | Bernardines (Franciscans) | `bernardyni.com` |
-| constitutional_court | Q11828045 | `zakonfranciszkanów.pl` |
-| constitutional_court | Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in Katowice | `panewniki.franciszkanie.pl` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `dominikanie.pl` | wikidata | Polish Dominican Province |
+| 4 | `franciszkanie.org.pl` | wikidata | Province of Our Lady of the Angels of the Friars Minor in Kraków |
+| 4 | `panewniki.franciszkanie.pl` | wikidata | Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in ... |
+| 4 | `pijarzy.pl` | wikidata | Piarist province of Poland |
+| 4 | `zakonfranciszkanów.pl` | wikidata | Q11828045 |
+| 3 | `bernardyni.com` | wikidata | Bernardines (Franciscans) |
+| 3 | `franciszkanie.com` | wikidata | Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław |
+| 3 | `franciszkanie.net` | wikidata | Province of Saint Francis of the Friars Minor in Poznań |
+| 0 | `malopolskie.pl` | wikidata | Lesser Poland Regional Assembly |
+| 0 | `sejmik.slaskie.pl` | wikidata | Silesian Regional Assembly |
 

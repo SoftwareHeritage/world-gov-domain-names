@@ -23,20 +23,26 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-16 entry/entries pending. Top 10:
+15 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Petroleum | `mop.ir` |
-| ministry | Ministry of Roads and Transportation | `mrt.ir` |
-| ministry | Ministry of Economic Affairs and Finance (Iran) | `mefa.ir` |
-| ministry | Ministry of Agriculture Jihad | `maj.ir` |
-| ministry | Ministry of Science | `emsrt.ir` |
-| ministry | Ministry of Foreign Affairs of Iran | `en.mfa.ir` |
-| ministry | Ministry of Education of Iran | `medu.ir` |
-| ministry | Ministry of Justice (Iran) | `justice.ir` |
-| ministry | Ministry of Defense and Armed Forces Logistics | `mod.ir` |
-| ministry | Ministry of Interior (Iran) | `moi.ir` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `rc.majlis.ir` | wikidata;wikidata | Islamic Consultative Assembly |
+| 4 | `dolat.ir` | wikidata | Government of Iran |
+| 4 | `emsrt.ir` | wikidata | Ministry of Science, Research and Technology (Iran) |
+| 4 | `en.mfa.ir` | wikidata | Ministry of Foreign Affairs of Iran |
+| 4 | `justice.ir` | wikidata | Ministry of Justice (Iran) |
+| 4 | `maj.ir` | wikidata | Ministry of Agriculture Jihad |
+| 4 | `mcth.ir` | wikidata | Ministry of Cultural Heritage, Tourism and Handicrafts |
+| 4 | `medu.ir` | wikidata | Ministry of Education of Iran |
+| 4 | `mefa.ir` | wikidata | Ministry of Economic Affairs and Finance (Iran) |
+| 4 | `mod.ir` | wikidata | Ministry of Defense and Armed Forces Logistics |
+| 4 | `moi.ir` | wikidata | Ministry of Interior (Iran) |
+| 4 | `mop.ir` | wikidata | Ministry of Petroleum |
+| 4 | `mrt.ir` | wikidata | Ministry of Roads and Transportation |
+| 4 | `mrud.ir` | wikidata | Ministry of Roads and Urban Development |
+| 4 | `vaja.ir` | wikidata | Ministry of Intelligence |
 

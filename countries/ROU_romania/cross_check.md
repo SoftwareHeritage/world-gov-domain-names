@@ -23,20 +23,25 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-14 entry/entries pending. Top 10:
+14 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Justice | `just.ro` |
-| ministry | Ministry of Health | `ms.ro` |
-| ministry | Ministry of Culture | `cultura.ro` |
-| ministry | Ministry of National Defense | `mapn.ro` |
-| ministry | Ministry of Labour | `mmuncii.ro` |
-| ministry | Ministry of Environment | `mmediu.ro` |
-| ministry | Ministry for Development | `mdlpa.ro` |
-| ministry | Ministry of Education of Romania | `edu.ro` |
-| ministry | Ministry of Foreign Affairs of Romania | `mae.ro` |
-| ministry | Ministry of Communications and Information Society | `mcsi.ro` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `parlament.ro` | wikidata;wikidata | Parliament of Romania |
+| 6 | `guv.ro` | un_desa | UN/DESA national portal |
+| 4 | `cultura.ro` | wikidata | Ministry of Culture |
+| 4 | `edu.ro` | wikidata | Ministry of Education of Romania |
+| 4 | `just.ro` | wikidata | Ministry of Justice |
+| 4 | `madr.ro` | wikidata | Ministry of Agriculture and Rural Development of Romania |
+| 4 | `mae.ro` | wikidata | Ministry of Foreign Affairs of Romania |
+| 4 | `mapn.ro` | wikidata | Ministry of National Defense |
+| 4 | `mcsi.ro` | wikidata | Ministry of Communications and Information Society |
+| 4 | `mdlpa.ro` | wikidata | Ministry for Development, Public Works and Administration |
+| 4 | `mmediu.ro` | wikidata | Ministry of Environment, Water and Forests |
+| 4 | `mmuncii.ro` | wikidata | Ministry of Labour, Family, Youth and Social Solidarity |
+| 4 | `ms.ro` | wikidata | Ministry of Health |
+| 3 | `gesuiti.it` | wikidata | Euromediterranean Province of the Jesuits |
 

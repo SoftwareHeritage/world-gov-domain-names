@@ -23,20 +23,16 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-11 entry/entries pending. Top 10:
+5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education and Research of Norway | `kunnskapsdepartementet.no` |
-| parliament | Sámi Parliament of Norway | `sametinget.no` |
-| parliament | Stortinget | `stortinget.no` |
-| constitutional_court | Board of the Nordland county municipality | `nfk.no` |
-| constitutional_court | Oslo city government | `oslo.kommune.no` |
-| constitutional_court | Q11999242 | `sametinget.no` |
-| constitutional_court | Q11999242 | `sametinget.no` |
-| constitutional_court | Q11999242 | `sametinget.no` |
-| constitutional_court | Q11999242 | `sametinget.no` |
-| supreme_court | Sámi Parliament of Norway | `sametinget.no` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `stortinget.no` | wikidata;wikidata | Stortinget |
+| 4 | `kunnskapsdepartementet.no` | wikidata | Ministry of Education and Research of Norway |
+| 4 | `oslo.kommune.no` | wikidata | Oslo city government |
+| 2 | `sametinget.no` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Sámi Parliament of Norway | Q11999242 |
+| 0 | `nfk.no` | wikidata | Board of the Nordland county municipality |
 

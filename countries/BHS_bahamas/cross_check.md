@@ -23,16 +23,17 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-6 entry/entries pending. Top 10:
+6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education and Technical and Vocational Training | `ministryofeducationbahamas.com` |
-| ministry | Ministry of Housing and Urban Renewal | `moh-ur.com` |
-| ministry | Ministry of Public Service | `bahamaspublicservice.com` |
-| ministry | Ministry of Energy and Transport | `energyandtransportbahamas.com` |
-| ministry | Ministry of Tourism | `bahamas.com` |
-| ministry | Ministry for Grand Bahama | `ministryforgb.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `bahamas.com` | wikidata | Ministry of Tourism, Investments and Aviation |
+| 3 | `bahamaspublicservice.com` | wikidata | Ministry of Public Service |
+| 3 | `energyandtransportbahamas.com` | wikidata | Ministry of Energy and Transport |
+| 3 | `ministryforgb.com` | wikidata | Ministry for Grand Bahama |
+| 3 | `ministryofeducationbahamas.com` | wikidata | Ministry of Education and Technical and Vocational Training |
+| 3 | `moh-ur.com` | wikidata | Ministry of Housing and Urban Renewal |
 

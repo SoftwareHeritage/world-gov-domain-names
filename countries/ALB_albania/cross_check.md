@@ -23,14 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Parliament of Albania | `parlament.al` |
-| parliament | City Council of Tirana | `tirana.al` |
-| constitutional_court | Euromediterranean Province of the Jesuits | `gesuiti.it` |
-| supreme_court | Parliament of Albania | `parlament.al` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `parlament.al` | wikidata;wikidata | Parliament of Albania |
+| 5 | `e-albania.al ` | un_desa | UN/DESA national portal |
+| 4 | `tirana.al` | wikidata | City Council of Tirana |
+| 3 | `gesuiti.it` | wikidata | Euromediterranean Province of the Jesuits |
 

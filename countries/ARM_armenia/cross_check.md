@@ -23,20 +23,24 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-14 entry/entries pending. Top 10:
+13 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Health | `moh.am` |
-| ministry | Ministry of Economy of the Republic of Armenia | `mineconomy.am` |
-| ministry | Ministry of Justice (Armenia) | `moj.am` |
-| ministry | Ministry of Youth and Sports | `msy.am` |
-| ministry | Ministry of Territorial Administration and Infrastructure | `mtad.am` |
-| ministry | Ministry of Education and Science | `edu.am` |
-| ministry | Ministry of Defence of Armenia | `mil.am` |
-| ministry | Ministry of Finance | `minfin.am` |
-| ministry | Ministry of Education | `escs.am` |
-| ministry | Ministry of Labor and Social Affairs | `mlsa.am` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.am` | wikidata;wikidata | National Assembly of Armenia |
+| 4 | `edu.am` | wikidata | Ministry of Education and Science |
+| 4 | `escs.am` | wikidata | Ministry of Education, Science, Culture and Sports of Armenia |
+| 4 | `mfa.am` | wikidata | Ministry of Foreign Affairs of Armenia |
+| 4 | `mil.am` | wikidata | Ministry of Defence of Armenia |
+| 4 | `mineconomy.am` | wikidata | Ministry of Economy of the Republic of Armenia |
+| 4 | `minfin.am` | wikidata | Ministry of Finance |
+| 4 | `mlsa.am` | wikidata | Ministry of Labor and Social Affairs |
+| 4 | `moh.am` | wikidata | Ministry of Health |
+| 4 | `moj.am` | wikidata | Ministry of Justice (Armenia) |
+| 4 | `msy.am` | wikidata | Ministry of Youth and Sports |
+| 4 | `mtad.am` | wikidata | Ministry of Territorial Administration and Infrastructure |
+| 4 | `yerevan.am` | wikidata | Council of the Elders, Yerevan |
 

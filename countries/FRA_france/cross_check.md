@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-60 entry/entries pending. Top 10:
+49 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Service of the National Education of Saint Pierre and Miquelon | `ac-spm.fr` |
-| parliament | departmental council of Finistère | `finistere.fr` |
-| parliament | departmental council of Ariège | `ariege.fr` |
-| parliament | departmental council of Essonne | `essonne.fr` |
-| parliament | departmental council of Corrèze | `correze.fr` |
-| parliament | departmental council of Guadeloupe | `cg971.fr` |
-| parliament | departmental council of Nièvre | `nievre.fr` |
-| parliament | departmental council of Haute-Savoie | `hautesavoie.fr` |
-| parliament | departmental council of Savoie | `savoie.fr` |
-| parliament | departmental council of Pyrénées-Atlantiques | `le64.fr` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 9 | `gouvernement.fr` | un_desa;wikidata | Council of Ministers | UN/DESA national portal |
+| 8 | `parlement.fr` | wikidata;wikidata | French Parliament |
+| 7 | `assemblee-nationale.fr` | wikidata;wikidata;wikidata | Franco-German Parliamentary Assembly | National Assembly |
+| 7 | `ctguyane.fr` | wikidata;wikidata | Assembly of French Guiana |
+| 6 | `bundestag.de` | wikidata;wikidata | Franco-German Parliamentary Assembly |
+| 4 | `assemblee-afe.fr` | wikidata | Assembly of French Citizens Abroad |
+| 4 | `conseil-etat.fr` | wikidata | Conseil d'État |
+| 4 | `corse.fr` | wikidata | Executive Council of Corsica |
+| 4 | `ihemi.fr` | wikidata | Institut des hautes études du ministère de l'Intérieur |
+| 3 | `escolapiesinstitutions.org` | wikidata | Piarist province of West Africa |
+| 3 | `jesuites.com` | wikidata | Jesuit Province of Francophone Western Europe |
+| 2 | `essonne.fr` | wikidata;wikidata | departmental council of Essonne | general council of Essonne |
+| 2 | `gard.fr` | wikidata;wikidata | departmental council of Gard | general council of Gard |
+| 2 | `lot.fr` | wikidata;wikidata | departmental council of Lot | general council of Lot |
+| 2 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Regional Council of Limousin | Nouvelle-Aquitaine Regional Council |
+| 2 | `vosges.fr` | wikidata;wikidata | departmental council of Vosges | general council of Vosges |
+| 0 | `aquitaine.fr` | wikidata | Aquitaine Regional Council |
+| 0 | `ariege.fr` | wikidata | departmental council of Ariège |
+| 0 | `bas-rhin.fr` | wikidata | departmental council of Bas-Rhin |
+| 0 | `bourgogne-franche-comte.eu` | wikidata | Regional Council of Burgundy |
 

@@ -23,16 +23,16 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-6 entry/entries pending. Top 10:
+5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Emergency Situations of Kyrgyzstan | `en.mes.kg` |
-| ministry | Ministry of the Interior | `mvd.kg` |
-| ministry | Ministry of Health of Kyrgyzstan | `med.kg` |
-| ministry | Ministry of Agriculture | `agroprod.kg` |
-| parliament | Supreme Council | `kenesh.kg` |
-| supreme_court | Supreme Council | `kenesh.kg` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `kenesh.kg` | wikidata;wikidata | Supreme Council |
+| 4 | `agroprod.kg` | wikidata | Ministry of Agriculture, Food Industry and Melioration |
+| 4 | `en.mes.kg` | wikidata | Ministry of Emergency Situations of Kyrgyzstan |
+| 4 | `med.kg` | wikidata | Ministry of Health of Kyrgyzstan |
+| 4 | `mvd.kg` | wikidata | Ministry of the Interior |
 

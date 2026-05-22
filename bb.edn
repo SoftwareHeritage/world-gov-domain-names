@@ -1,0 +1,13 @@
+{:paths ["scripts"]
+ :tasks
+ {:requires ([babashka.process :refer [shell]])
+  pipeline   {:doc  "Full pipeline -- run 'bb pipeline help' for usage"
+              :task (apply shell "bb scripts/pipeline.clj" *command-line-args*)}
+  collect    {:doc  "crt.sh harvest + normalize + probe + collect-200"
+              :task (apply shell "bb scripts/pipeline.clj collect" *command-line-args*)}
+  enrich     {:doc  "wikidata + iana/cia/un-desa/oecd (parallel)"
+              :task (apply shell "bb scripts/pipeline.clj enrich" *command-line-args*)}
+  report     {:doc  "cross-check: candidates.csv + cross_check.md"
+              :task (apply shell "bb scripts/pipeline.clj report" *command-line-args*)}
+  all        {:doc  "collect + enrich + report"
+              :task (apply shell "bb scripts/pipeline.clj all" *command-line-args*)}}}

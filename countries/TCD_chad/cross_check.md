@@ -23,14 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Justice | `minjustchad.org` |
-| parliament | National Assembly | `assemblee-nationale.td` |
-| constitutional_court | Q129709968 | `onecs.td` |
-| supreme_court | National Assembly | `assemblee-nationale.td` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `assemblee-nationale.td` | wikidata;wikidata | National Assembly |
+| 6 | `gouvernement.td` | un_desa | UN/DESA national portal |
+| 4 | `onecs.td` | wikidata | Q129709968 |
+| 3 | `minjustchad.org` | wikidata | Ministry of Justice |
 

@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-98 entry/entries pending. Top 10:
+55 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | City Hall of São Luís | `camara.slz.br` |
-| parliament | municipal chamber of Teresina | `teresina.pi.leg.br` |
-| parliament | municipal chamber of São Gonçalo | `saogoncalo.rj.leg.br` |
-| parliament | municipal chamber of Osasco | `osasco.sp.leg.br` |
-| parliament | municipal chamber of Jaboatão dos Guararapes | `jaboataodosguararapes.pe.leg.br` |
-| parliament | municipal council of Porto Velho | `portovelho.ro.leg.br` |
-| parliament | municipal chamber of Vila Velha | `vilavelha.es.leg.br` |
-| parliament | municipal chamber of Mogi das Cruzes | `cmmc.com.br` |
-| parliament | municipal chamber of São José do Rio Preto | `riopreto.sp.leg.br` |
-| parliament | municipal chamber of Campina Grande | `camaracg.com.br` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `al.ac.leg.br` | wikidata;wikidata | Legislative Assembly of Acre |
+| 7 | `al.al.leg.br` | wikidata;wikidata | Legislative Assembly of Alagoas |
+| 7 | `al.go.leg.br` | wikidata;wikidata | Legislative Assembly of Goiás |
+| 7 | `al.ma.leg.br` | wikidata;wikidata | Legislative Assembly of Maranhão |
+| 7 | `al.pb.leg.br` | wikidata;wikidata | Legislative Assembly of Paraíba |
+| 7 | `al.pi.leg.br` | wikidata;wikidata | Legislative Assembly of Piauí |
+| 7 | `al.ro.leg.br` | wikidata;wikidata | Legislative Assembly of Rondônia |
+| 7 | `al.rr.leg.br` | wikidata;wikidata | Legislative Assembly of Roraima |
+| 7 | `cearamirim.rn.leg.br` | wikidata;wikidata | Q118353169 |
+| 7 | `congressonacional.leg.br` | wikidata;wikidata | National Congress of Brazil |
+| 7 | `hortolandia.sp.leg.br` | wikidata;wikidata | Q137124048 |
+| 4 | `franciscanos.org.br` | wikidata | Q10354750 |
+| 4 | `jesuitasbrasil.org.br` | wikidata | Brazilian Province of the Society of Jesus |
+| 4 | `laranjalpaulista.sp.leg.br` | wikidata | Town Council of Laranjal Paulista |
+| 4 | `prefeituradeatibaia.com.br` | wikidata | Q97936697 |
+| 4 | `saofidelis.rj.leg.br` | wikidata | Q138736739 |
+| 3 | `araucaria.atende.net` | wikidata | Q104848034 |
+| 3 | `escolapiosbrasilbolivia.org` | wikidata | Piarist province of Brazil-Bolivia |
+| 3 | `marechalcandidorondon.atende.net` | wikidata | Q97936438 |
+| 3 | `pinhais.atende.net` | wikidata | Pinhais City Hall |
 

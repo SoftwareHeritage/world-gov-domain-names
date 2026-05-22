@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-39 entry/entries pending. Top 10:
+24 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Finance | `hacienda.cl` |
-| ministry | Ministry of Sports (Chile) | `mindep.cl` |
-| ministry | Ministry of Health | `minsal.cl` |
-| ministry | Ministry of Public Security of Chile | `minsegpublica.cl` |
-| ministry | Ministry of Education of Chile | `mineduc.cl` |
-| ministry | Ministry of National Property | `bienesnacionales.cl` |
-| ministry | Ministry of Mining | `minmineria.cl` |
-| ministry | Ministry of National Defense of Chile | `defensa.cl` |
-| parliament | Regional Council of Los Lagos | `regiondeloslagos.cl` |
-| parliament | Regional Council of Maule | `goremaule.cl` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `congreso.cl` | wikidata;wikidata | National Congress of Chile |
+| 4 | `bienesnacionales.cl` | wikidata | Ministry of National Property |
+| 4 | `defensa.cl` | wikidata | Ministry of National Defense of Chile |
+| 4 | `hacienda.cl` | wikidata | Ministry of Finance |
+| 4 | `mindep.cl` | wikidata | Ministry of Sports (Chile) |
+| 4 | `mineduc.cl` | wikidata | Ministry of Education of Chile |
+| 4 | `minmineria.cl` | wikidata | Ministry of Mining |
+| 4 | `minsal.cl` | wikidata | Ministry of Health |
+| 4 | `minsegpublica.cl` | wikidata | Ministry of Public Security of Chile |
+| 4 | `municipalidaddevalparaiso.cl` | wikidata | Valparaíso |
+| 3 | `goretarapaca.gov.cl` | wikidata;wikidata | Regional Council of Tarapacá |
+| 2 | `corecoquimbo.cl` | wikidata;wikidata | Regional Council of Coquimbo |
+| 2 | `coredelosrios.cl` | wikidata;wikidata | Regional Council of Los Ríos |
+| 2 | `coremagallanes.cl` | wikidata;wikidata | Regional Council of Magallanes y la Antártica Chilena |
+| 2 | `corevalparaiso.cl` | wikidata;wikidata | Regional Council of Valparaíso |
+| 2 | `dellibertador.cl` | wikidata;wikidata | Regional Council of O'Higgins |
+| 2 | `gobiernosantiago.cl` | wikidata;wikidata | Regional Council of the Metropolitan Region of Santiago |
+| 2 | `goreantofagasta.cl` | wikidata;wikidata | Regional Council of Antofagasta |
+| 2 | `gorearaucania.cl` | wikidata;wikidata | Regional Council of La Araucanía |
+| 2 | `gorearicayparinacota.cl` | wikidata;wikidata | Regional Council of Arica and Parinacota |
 

@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-29 entry/entries pending. Top 10:
+23 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Interior and Health | `ism.dk` |
-| ministry | Ministry of Ecclesiastical Affairs | `km.dk` |
-| ministry | Ministry of the State of Denmark | `stm.dk` |
-| ministry | Ministry of Societal Safety and Emergency Management | `mssb.dk` |
-| ministry | Tax Ministry of Denmark | `skm.dk` |
-| ministry | Ministry of the Implementation of the Green Three-Partite Agreement | `mgtp.dk` |
-| ministry | Ministry of Defence of Denmark | `fmn.dk` |
-| ministry | Ministry of Culture | `kum.dk` |
-| ministry | Ministry of Justice | `justitsministeriet.dk` |
-| ministry | Ministry of Industry | `em.dk` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `em.dk` | wikidata;wikidata | Ministry of Industry, Business and Financial Affairs |
+| 7 | `folkatingid.dk` | wikidata;wikidata | Folketing |
+| 7 | `folketingi.dk` | wikidata;wikidata | Folketing |
+| 7 | `ft.dk` | wikidata;wikidata | Folketing |
+| 7 | `thedanishparliament.dk` | wikidata;wikidata | Folketing |
+| 6 | `oscepa.org` | wikidata;wikidata | Parliamentary Assembly of the Organization for Security and Co-operation in E... |
+| 6 | `regeringen.dk` | un_desa | UN/DESA national portal |
+| 4 | `aeldremin.dk` | wikidata | Ministry of the Elderly of Denmark |
+| 4 | `bm.dk` | wikidata | Ministry of Labour |
+| 4 | `english.aeldremin.dk` | wikidata | Ministry of the Elderly of Denmark |
+| 4 | `fm.dk` | wikidata | Ministry of Finance of Denmark |
+| 4 | `fmn.dk` | wikidata | Ministry of Defence of Denmark |
+| 4 | `ism.dk` | wikidata | Ministry of Interior and Health |
+| 4 | `justitsministeriet.dk` | wikidata | Ministry of Justice |
+| 4 | `kefm.dk` | wikidata | Ministry of Energy, Utilities, and Climate |
+| 4 | `km.dk` | wikidata | Ministry of Ecclesiastical Affairs |
+| 4 | `kolding.dk` | wikidata | Kolding City Council |
+| 4 | `kum.dk` | wikidata | Ministry of Culture |
+| 4 | `mgtp.dk` | wikidata | Ministry of the Implementation of the Green Three-Partite Agreement |
+| 4 | `mssb.dk` | wikidata | Ministry of Societal Safety and Emergency Management |
 

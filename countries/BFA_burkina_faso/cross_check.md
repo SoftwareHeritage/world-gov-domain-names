@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Transitional Legislative Assembly | `alt.bf` |
-| parliament | National Assembly of Burkina Faso | `assembleenationale.bf` |
-| supreme_court | National Assembly of Burkina Faso | `assembleenationale.bf` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `assembleenationale.bf` | wikidata;wikidata | National Assembly of Burkina Faso |
+| 4 | `alt.bf` | wikidata | Transitional Legislative Assembly |
 

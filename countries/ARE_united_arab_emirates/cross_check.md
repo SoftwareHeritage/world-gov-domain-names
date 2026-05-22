@@ -23,20 +23,20 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-11 entry/entries pending. Top 10:
+9 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education | `moe.gov.ae` |
-| ministry | Ministry of Foreign Affairs of the UAE | `mofaic.gov.ae` |
-| ministry | Ministry of Climate Change and Environment | `moccae.gov.ae` |
-| ministry | Ministry of Climate Change and Environment | `moccae.gov.ae` |
-| ministry | Ministry of Foreign Affairs and International Cooperation | `mofaic.gov.ae` |
-| ministry | Ministry of Higher Education and Scientific Research | `mohesr.gov.ae` |
-| ministry | Ministry of Economy | `economy.gov.ae` |
-| ministry | Ministry of Finance | `mof.gov.ae` |
-| ministry | Ministry of Health and Prevention | `moh.gov.ae` |
-| parliament | Federal National Council | `almajles.gov.ae` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `almajles.gov.ae` | wikidata;wikidata | Federal National Council |
+| 8 | `moccae.gov.ae` | wikidata;wikidata | Ministry of Climate Change and Environment |
+| 8 | `mofaic.gov.ae` | wikidata;wikidata | Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and Inte... |
+| 6 | `government.ae` | un_desa | UN/DESA national portal |
+| 5 | `economy.gov.ae` | wikidata | Ministry of Economy |
+| 5 | `moe.gov.ae` | wikidata | Ministry of Education |
+| 5 | `mof.gov.ae` | wikidata | Ministry of Finance |
+| 5 | `moh.gov.ae` | wikidata | Ministry of Health and Prevention |
+| 5 | `mohesr.gov.ae` | wikidata | Ministry of Higher Education and Scientific Research |
 

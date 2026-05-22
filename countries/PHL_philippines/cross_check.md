@@ -17,21 +17,21 @@
 
 ## Institutions named by CIA Factbook
 
-- Chief of state: President Ferdinand ""BongBong"" MARCOS, Jr. (since 30 June 2022)
-- Head of government: President Ferdinand ""BongBong"" MARCOS, Jr. (since 30 June 2022)
+- Chief of state: President Ferdinand "BongBong" MARCOS, Jr. (since 30 June 2022)
+- Head of government: President Ferdinand "BongBong" MARCOS, Jr. (since 30 June 2022)
 - Highest courts: Supreme Court (consists of a chief justice and 14 associate justices)
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-5 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Manila City Council | `citycouncilofmanila.com.ph` |
-| constitutional_court | Province of Saint Ezequiél Moreno | `recoletos.ph` |
-| constitutional_court | Dominican Province of Our Lady of the Rosary | `holyrosaryprovince.org` |
-| constitutional_court | Dominican Province of Our Lady of the Rosary | `holyrosaryprovince.org` |
-| constitutional_court | Provincial Government of Nueva Ecija | `nuevaecija.ph` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| 4 | `citycouncilofmanila.com.ph` | wikidata | Manila City Council |
+| 4 | `recoletos.ph` | wikidata | Province of Saint Ezequiél Moreno |
+| 0 | `nuevaecija.ph` | wikidata | Provincial Government of Nueva Ecija |
 

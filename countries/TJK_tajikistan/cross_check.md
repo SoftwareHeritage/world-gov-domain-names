@@ -23,15 +23,16 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-5 entry/entries pending. Top 10:
+5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Defence | `mort.tj` |
-| ministry | Ministry of Education and Science of Tajikistan | `maorif.tj` |
-| ministry | Ministry of Culture of Tajikistan | `vfarhang.tj` |
-| parliament | Supreme Assembly | `parlament.tj` |
-| supreme_court | Supreme Assembly | `parlament.tj` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `parlament.tj` | wikidata;wikidata | Supreme Assembly |
+| 6 | `president.tj` | un_desa | UN/DESA national portal |
+| 4 | `maorif.tj` | wikidata | Ministry of Education and Science of Tajikistan |
+| 4 | `mort.tj` | wikidata | Ministry of Defence |
+| 4 | `vfarhang.tj` | wikidata | Ministry of Culture of Tajikistan |
 

@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | National Assembly | `parlament.hu` |
-| constitutional_court | piarist province of Hungary | `piarista.hu` |
-| supreme_court | National Assembly | `parlament.hu` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `parlament.hu` | wikidata;wikidata | National Assembly |
+| 6 | `magyarorszag.hu` | un_desa | UN/DESA national portal |
+| 4 | `piarista.hu` | wikidata | piarist province of Hungary |
 

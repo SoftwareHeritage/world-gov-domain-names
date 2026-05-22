@@ -23,12 +23,12 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Landtag of Liechtenstein | `landtag.li` |
-| supreme_court | Landtag of Liechtenstein | `landtag.li` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 2 | `landtag.li` | wikidata;wikidata | Landtag of Liechtenstein |
 

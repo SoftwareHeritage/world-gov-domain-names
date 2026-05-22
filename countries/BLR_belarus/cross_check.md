@@ -23,20 +23,26 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-16 entry/entries pending. Top 10:
+15 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Culture of the Republic of Belarus | `kultura.by` |
-| ministry | Ministry of Architecture and Construction of the Republic of Belarus | `mas.by` |
-| ministry | Ministry of Forestry of the Republic of Belarus | `mlh.by` |
-| ministry | Ministry of Defence of the Republic of Belarus | `mil.by` |
-| parliament | Homel Regional Council of Deputies | `gomel-region.by` |
-| parliament | Hrodna Regional Council of Deputies | `region.grodno.by` |
-| constitutional_court | Hrodna Regional Executive Committee | `region.grodno.by` |
-| constitutional_court | Piarist province of Poland | `pijarzy.pl` |
-| constitutional_court | Vaŭkavysk District Executive Committee | `volkovysk.grodno-region.by` |
-| constitutional_court | Smarhoń District Executive Committee | `smorgon.grodno-region.by` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `berestovitsa.grodno-region.by` | wikidata | Bierastavica District Executive Committee |
+| 4 | `kultura.by` | wikidata | Ministry of Culture of the Republic of Belarus |
+| 4 | `loev.gomel-region.by` | wikidata | Lojeŭ District Executive Committee |
+| 4 | `mas.by` | wikidata | Ministry of Architecture and Construction of the Republic of Belarus |
+| 4 | `mil.by` | wikidata | Ministry of Defence of the Republic of Belarus |
+| 4 | `mlh.by` | wikidata | Ministry of Forestry of the Republic of Belarus |
+| 4 | `rechitsa.by` | wikidata | Rečyca District Executive Committee |
+| 4 | `smorgon.grodno-region.by` | wikidata | Smarhoń District Executive Committee |
+| 4 | `svisloch.grodno-region.by` | wikidata | Svislač District Executive Committee |
+| 4 | `vetka.gomel-region.by` | wikidata | Vietka District Executive Committee |
+| 4 | `volkovysk.grodno-region.by` | wikidata | Vaŭkavysk District Executive Committee |
+| 4 | `yelsk.gomel-region.by` | wikidata | Jeĺsk District Executive Committee |
+| 3 | `pijarzy.pl` | wikidata | Piarist province of Poland |
+| 2 | `region.grodno.by` | wikidata;wikidata | Hrodna Regional Council of Deputies | Hrodna Regional Executive Committee |
+| 0 | `gomel-region.by` | wikidata | Homel Regional Council of Deputies |
 

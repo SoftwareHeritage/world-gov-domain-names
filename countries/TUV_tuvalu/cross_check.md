@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.tv` (manager: Ministry of Transport)
+- ccTLD: `.tv` (manager: Ministry of Transport, Energy, Communications and Innovations)
 - OECD: non-member
 - UN/DESA EGDI: Rank 158 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
@@ -23,7 +23,12 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 5 | `tuvaluislands.com` | un_desa | UN/DESA national portal |
 

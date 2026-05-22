@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.ar` (manager: Presidencia de la Nación )
+- ccTLD: `.ar` (manager: Presidencia de la Nación , Secretaría Legal y Técnica)
 - OECD: non-member
 - UN/DESA EGDI: Rank 42 of 193
 - Government type: presidential republic
@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-83 entry/entries pending. Top 10:
+42 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Buenos Aires Province Ministry of Security | `mseg.gba.gov.ar` |
-| ministry | Ministry of Production | `mp.gba.gov.ar` |
-| ministry | Ministry of Security of the Province of Santa Fe | `santafe.gov.ar` |
-| ministry | Q68720757 | `santafe.gov.ar` |
-| parliament | Deliberative Council of San Miguel de Tucumán | `hcdtucuman.com.ar` |
-| parliament | Deliberative Council of Santa Fe | `concejosantafe.gov.ar` |
-| parliament | Deliberative Council of Rosario | `concejorosario.gov.ar` |
-| parliament | Deliberative Council of La Plata Partido | `concejodeliberante.laplata.gov.ar` |
-| parliament | Deliberative Council of Quilmes Partido | `hcd.quilmes.gov.ar` |
-| parliament | Deliberative Council of Lanús Partido | `hcdlanus.gov.ar` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `allencd.gov.ar` | wikidata;wikidata | Q130287549 |
+| 8 | `almirantebrown.gov.ar` | wikidata;wikidata | Deliberative Council of Almirante Brown |
+| 8 | `cdnqn.gov.ar` | wikidata;wikidata | Deliberative Council of Neuquén |
+| 8 | `chivilcoy.gov.ar` | wikidata;wikidata | Q109424025 |
+| 8 | `concejobariloche.gov.ar` | wikidata;wikidata | Q130285595 |
+| 8 | `concejodeliberante.laplata.gov.ar` | wikidata;wikidata | Deliberative Council of La Plata Partido |
+| 8 | `concejodeliberante.sanmartindelosandes.gov.ar` | wikidata;wikidata | Q130285293 |
+| 8 | `concejomdp.gov.ar` | wikidata;wikidata | Deliberative Council of General Pueyrredón |
+| 8 | `concejorosario.gov.ar` | wikidata;wikidata | Deliberative Council of Rosario |
+| 8 | `diputadosmisiones.gov.ar` | wikidata;wikidata | Chamber of Deputies of Misiones |
+| 8 | `generalroca.gov.ar` | wikidata;wikidata | Q130295580 |
+| 8 | `hcd.quilmes.gov.ar` | wikidata;wikidata | Deliberative Council of Quilmes Partido |
+| 8 | `hcdcorrientes.gov.ar` | wikidata;wikidata | Chamber of Deputies of Corrientes | Q56316686 |
+| 8 | `hcdlamatanza.gov.ar` | wikidata;wikidata | Q118751530 |
+| 8 | `hcdlanus.gov.ar` | wikidata;wikidata | Deliberative Council of Lanús Partido |
+| 8 | `hcdpilar.gov.ar` | wikidata;wikidata | Deliberative Council of Pilar Partido |
+| 8 | `hcdsanmartin.gov.ar` | wikidata;wikidata | Deliberative Council of General San Martín Department |
+| 8 | `legislatura.gov.ar` | wikidata;wikidata | Buenos Aires City Legislature |
+| 8 | `legislaturaformosa.gov.ar` | wikidata;wikidata | Formosa Chamber of Deputies |
+| 8 | `legislaturajujuy.gov.ar` | wikidata;wikidata | Chamber of Deputies of Jujuy |
 

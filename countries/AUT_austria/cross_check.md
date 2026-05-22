@@ -23,17 +23,18 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-7 entry/entries pending. Top 10:
+7 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Federal Ministry of Labour | `sozialministerium.at` |
-| parliament | Landtag of Burgenland | `bgld-landtag.at` |
-| parliament | Landtag of Upper Austria | `ooe-landtag.at` |
-| parliament | Landtag of Styria | `landtag.steiermark.at` |
-| parliament | Landtag of Vorarlberg | `vorarlberg.at` |
-| constitutional_court | Jesuit Province of Central Europe | `jesuiten.org` |
-| constitutional_court | Piarist province of Austria | `piaristen.at` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `piaristen.at` | wikidata | Piarist province of Austria |
+| 4 | `sozialministerium.at` | wikidata | Federal Ministry of Labour, Social Affairs, Health, Care and Consumer Protection |
+| 3 | `jesuiten.org` | wikidata | Jesuit Province of Central Europe |
+| 0 | `bgld-landtag.at` | wikidata | Landtag of Burgenland |
+| 0 | `landtag.steiermark.at` | wikidata | Landtag of Styria |
+| 0 | `ooe-landtag.at` | wikidata | Landtag of Upper Austria |
+| 0 | `vorarlberg.at` | wikidata | Landtag of Vorarlberg |
 

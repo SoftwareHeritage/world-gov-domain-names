@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Youth and Sports | `minjud.gv.ao` |
-| parliament | National Assembly of Angola | `parlamento.ao` |
-| constitutional_court | Q10354750 | `franciscanos.org.br` |
-| supreme_court | National Assembly of Angola | `parlamento.ao` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parlamento.ao` | wikidata;wikidata | National Assembly of Angola |
+| 4 | `minjud.gv.ao` | wikidata | Ministry of Youth and Sports |
+| 3 | `franciscanos.org.br` | wikidata | Q10354750 |
 

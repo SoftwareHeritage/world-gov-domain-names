@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Defence of Vietnam | `bqp.vn` |
-| parliament | National Assembly of Vietnam | `quochoi.vn` |
-| supreme_court | National Assembly of Vietnam | `quochoi.vn` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `quochoi.vn` | wikidata;wikidata | National Assembly of Vietnam |
+| 4 | `bqp.vn` | wikidata | Ministry of Defence of Vietnam |
 

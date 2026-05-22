@@ -23,16 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-6 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Lagos State Ministry of Justice | `lagosministryofjustice.org` |
-| ministry | Sustainable Development Goals and Nigeria | `nigeria.un.org` |
-| ministry | Lagos State Agricultural Inputs Supply Authority | `lagsoagricuinputs.org` |
-| ministry | Rivers State Ministry of Water Resources and Rural Development (RSMWRRD) | `riversstate-mwrrd.com` |
-| ministry | Ondo State Ministry of information and Orientation | `ondostateministryofinformation.wordpress.com` |
-| ministry | Ondo State Ministry of Education | `yoursms.com.ng` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `nigeria.un.org` | wikidata | Sustainable Development Goals and Nigeria |
+| 0 | `ondostateministryofinformation.wordpress.com` | wikidata | Ondo State Ministry of information and Orientation |
+| 0 | `yoursms.com.ng` | wikidata | Ondo State Ministry of Education |
 

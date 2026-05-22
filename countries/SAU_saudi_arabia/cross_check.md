@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.sa` (manager: Communications)
+- ccTLD: `.sa` (manager: Communications, Space and Technology Commission)
 - OECD: non-member
 - UN/DESA EGDI: Rank 6 of 193
 - Government type: absolute monarchy
@@ -23,7 +23,7 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+No remaining candidates (every flagged institution is covered).
 

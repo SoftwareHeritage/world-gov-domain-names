@@ -23,12 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Public Health (Democratic Republic of Congo) | `minisanterdc.cd` |
-| constitutional_court | Piarist province of Central Africa | `piaristesafriquecentrale.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `presidentrdc.cd` | un_desa | UN/DESA national portal |
+| 4 | `minisanterdc.cd` | wikidata | Ministry of Public Health (Democratic Republic of Congo) |
+| 3 | `piaristesafriquecentrale.org` | wikidata | Piarist province of Central Africa |
 

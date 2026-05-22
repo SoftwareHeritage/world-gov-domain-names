@@ -6,7 +6,7 @@
 - ccTLD: `.cy` (manager: University of Cyprus)
 - OECD: non-member
 - UN/DESA EGDI: Rank 38 of 193
-- Government type: Republic of Cyprus - presidential republic; self-declared ""Turkish Republic of Northern Cyprus"" (TRNC) - parliamentary republic with enhanced presidency
+- Government type: Republic of Cyprus - presidential republic; self-declared "Turkish Republic of Northern Cyprus" (TRNC) - parliamentary republic with enhanced presidency
 - Capital: Nicosia (Lefkosia/Lefkosa)
 - Domains collected (HTTP 200): 56
 
@@ -23,20 +23,30 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-20 entry/entries pending. Top 10:
+19 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Deputy Ministry of Culture of Cyprus | `wikidata.org` |
-| parliament | House of Representatives | `parliament.cy` |
-| constitutional_court | Communal Council of Ayia Varvara | `ayiavarvara.com` |
-| constitutional_court | Communal Council of Ayia Marinoudha | `ayiamarinouda.org` |
-| constitutional_court | Communal Council of Ayia Marina Chrysochous | `agiamarinachrysochous.org` |
-| constitutional_court | Communal Council of Lysos | `lyssos.org.cy` |
-| constitutional_court | Communal Council of Argaka | `argaka.org` |
-| constitutional_court | Communal Council of Anarita | `anarita.org` |
-| constitutional_court | Communal Council of Drinia | `drinia.org` |
-| constitutional_court | Communal Council of Drymou | `drymou.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.cy` | wikidata;wikidata | House of Representatives |
+| 4 | `kouklia.org.cy` | wikidata | Communal Council of Kouklia |
+| 4 | `lemba.org.cy` | wikidata | Communal Council of Lempa |
+| 4 | `lyssos.org.cy` | wikidata | Communal Council of Lysos |
+| 3 | `agiamarinachrysochous.org` | wikidata | Communal Council of Ayia Marina Chrysochous |
+| 3 | `amargeti.org` | wikidata | Communal Council of Amargeti |
+| 3 | `anarita.org` | wikidata | Communal Council of Anarita |
+| 3 | `argaka.org` | wikidata | Communal Council of Argaka |
+| 3 | `ayiamarinouda.org` | wikidata | Communal Council of Ayia Marinoudha |
+| 3 | `ayiavarvara.com` | wikidata | Communal Council of Ayia Varvara |
+| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
+| 3 | `drinia.org` | wikidata | Communal Council of Drinia |
+| 3 | `drymou.org` | wikidata | Communal Council of Drymou |
+| 3 | `goudi.org` | wikidata | Communal Council of Goudi |
+| 3 | `kissonerga.org` | wikidata | Communal Council of Kissonerga |
+| 3 | `kritouterra.org` | wikidata | Communal Council of Kritou Terra |
+| 3 | `letymbou.org` | wikidata | Communal Council of Letymvou |
+| 3 | `pelendri.org` | wikidata | Communal Council of Pelendri |
+| 3 | `wikidata.org` | wikidata | Deputy Ministry of Culture of Cyprus |
 

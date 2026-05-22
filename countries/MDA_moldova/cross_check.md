@@ -23,18 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-8 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Defense | `army.md` |
-| ministry | Ministry of State Security | `kgb-pmr.com` |
-| parliament | People's Assembly of Gagauzia | `halktoplushu.md` |
-| parliament | Parliament of the Republic of Moldova | `parlament.md` |
-| constitutional_court | Executive Committee of Gagauzia | `gagauzia.md` |
-| constitutional_court | Armed Forces of the Republic of Moldova | `army.md` |
-| supreme_court | People's Assembly of Gagauzia | `halktoplushu.md` |
-| supreme_court | Parliament of the Republic of Moldova | `parlament.md` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `army.md` | wikidata;wikidata | Ministry of Defense | Armed Forces of the Republic of Moldova |
+| 7 | `halktoplushu.md` | wikidata;wikidata | People's Assembly of Gagauzia |
+| 7 | `parlament.md` | wikidata;wikidata | Parliament of the Republic of Moldova |
+| 4 | `gagauzia.md` | wikidata | Executive Committee of Gagauzia |
 

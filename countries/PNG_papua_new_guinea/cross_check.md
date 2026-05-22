@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.pg` (manager: PNG DNS Administration)
+- ccTLD: `.pg` (manager: PNG DNS Administration, Vice Chancellors Office, The Papua New Guinea University of Technology)
 - OECD: non-member
 - UN/DESA EGDI: Rank 171 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
@@ -23,7 +23,7 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+No remaining candidates (every flagged institution is covered).
 

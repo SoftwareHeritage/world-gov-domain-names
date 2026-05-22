@@ -23,13 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Health of Palau | `palauhealth.org` |
-| parliament | Palau National Congress | `palauoek.com` |
-| supreme_court | Palau National Congress | `palauoek.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `palaugov.pw` | un_desa | UN/DESA national portal |
+| 6 | `palauoek.com` | wikidata;wikidata | Palau National Congress |
+| 3 | `palauhealth.org` | wikidata | Ministry of Health of Palau |
 

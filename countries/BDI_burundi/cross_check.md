@@ -23,12 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Public Health of Burundi | `minisante.bi` |
-| parliament | East African Legislative Assembly | `eala.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `minisante.bi` | wikidata | Ministry of Public Health of Burundi |
+| 3 | `eala.org` | wikidata | East African Legislative Assembly |
 

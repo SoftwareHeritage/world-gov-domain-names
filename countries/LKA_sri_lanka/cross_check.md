@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Defence and Urban Development | `defence.lk` |
-| ministry | Ministry of Urban Development | `uda.lk` |
-| parliament | Parliament of Sri Lanka | `parliament.lk` |
-| supreme_court | Parliament of Sri Lanka | `parliament.lk` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.lk` | wikidata;wikidata | Parliament of Sri Lanka |
+| 4 | `defence.lk` | wikidata | Ministry of Defence and Urban Development |
+| 4 | `uda.lk` | wikidata | Ministry of Urban Development |
 

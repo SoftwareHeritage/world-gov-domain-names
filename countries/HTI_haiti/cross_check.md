@@ -23,15 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-5 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Parliament of Haiti | `leparlementhaitien.info` |
-| constitutional_court | Canada Province of the Society of Jesus | `jesuites.ca` |
-| constitutional_court | Canada Province of the Society of Jesus | `jesuits.ca` |
-| constitutional_court | Piarist province Central America- Caribbean | `centroamericaribeschp.com` |
-| supreme_court | Parliament of Haiti | `leparlementhaitien.info` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `leparlementhaitien.info` | wikidata;wikidata | Parliament of Haiti |
+| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
+| 3 | `jesuites.ca` | wikidata | Canada Province of the Society of Jesus |
+| 3 | `jesuits.ca` | wikidata | Canada Province of the Society of Jesus |
 

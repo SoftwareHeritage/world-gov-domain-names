@@ -23,14 +23,12 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | House of Representatives | `parliament.nz` |
-| parliament | New Zealand Parliament | `parliament.nz` |
-| supreme_court | House of Representatives | `parliament.nz` |
-| supreme_court | New Zealand Parliament | `parliament.nz` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `parliament.nz` | wikidata;wikidata;wikidata;wikidata | House of Representatives | New Zealand Parliament |
 

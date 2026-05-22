@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-33 entry/entries pending. Top 10:
+21 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Environment and Water | `moew.government.bg` |
-| ministry | Ministry of Environment and Water | `moew.government.bg` |
-| ministry | Ministry of Tourism | `tourism.government.bg` |
-| ministry | Ministry of Tourism | `tourism.government.bg` |
-| ministry | Ministry of Foreign Affairs of Bulgaria | `mfa.bg` |
-| ministry | Ministry of Foreign Affairs of Bulgaria | `mfa.bg` |
-| ministry | Ministry of Electronic Government | `egov.government.bg` |
-| ministry | Ministry of Defence of Bulgaria | `mod.bg` |
-| ministry | Ministry of Finance | `minfin.bg` |
-| ministry | Ministry of Finance | `minfin.bg` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.bg` | wikidata;wikidata | National Assembly of Bulgaria |
+| 7 | `mc.government.bg` | wikidata;wikidata | Ministry of Culture of Bulgaria |
+| 7 | `me.government.bg` | wikidata;wikidata | Ministry of Energy of Bulgaria |
+| 7 | `mfa.bg` | wikidata;wikidata | Ministry of Foreign Affairs of Bulgaria |
+| 7 | `mh.government.bg` | wikidata;wikidata | Ministry of Health of Bulgaria |
+| 7 | `minfin.bg` | wikidata;wikidata | Ministry of Finance |
+| 7 | `moew.government.bg` | wikidata;wikidata | Ministry of Environment and Water |
+| 7 | `mon.bg` | wikidata;wikidata | Ministry of Education and Science of Bulgaria |
+| 7 | `mpes.government.bg` | wikidata;wikidata | Ministry of Youth and Sports of Bulgaria |
+| 7 | `mtitc.government.bg` | wikidata;wikidata | Ministry of Transport, Information Technology and Communications |
+| 7 | `mvr.bg` | wikidata;wikidata | Ministry of Interior of Bulgaria |
+| 7 | `tourism.government.bg` | wikidata;wikidata | Ministry of Tourism |
+| 6 | `egov.bg` | un_desa | UN/DESA national portal |
+| 4 | `egov.government.bg` | wikidata | Ministry of Electronic Government |
+| 4 | `justice.government.bg` | wikidata | Ministry of Justice |
+| 4 | `mi.government.bg` | wikidata | Ministry of Economy and Industry |
+| 4 | `mig.government.bg` | wikidata | Ministry of Innovation and Growth |
+| 4 | `mlsp.government.bg` | wikidata | Ministry of Labour and Social Policy |
+| 4 | `mod.bg` | wikidata | Ministry of Defence of Bulgaria |
+| 4 | `mzh.government.bg` | wikidata | Ministry of Agriculture, Food and Forestry |
 

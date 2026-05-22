@@ -23,16 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-6 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education of Myanmar | `myanmar-education.edu.mm` |
-| parliament | Committee Representing Pyidaungsu Hluttaw | `crphmyanmar.org` |
-| constitutional_court | National Unity Government of Myanmar | `nugmyanmar.org` |
-| constitutional_court | National Unity Government of Myanmar | `nugmyanmar.org` |
-| constitutional_court | Dominican Province of Our Lady of the Rosary | `holyrosaryprovince.org` |
-| constitutional_court | Dominican Province of Our Lady of the Rosary | `holyrosaryprovince.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| 6 | `nugmyanmar.org` | wikidata;wikidata | National Unity Government of Myanmar |
+| 4 | `myanmar-education.edu.mm` | wikidata | Ministry of Education of Myanmar |
+| 3 | `crphmyanmar.org` | wikidata | Committee Representing Pyidaungsu Hluttaw |
 

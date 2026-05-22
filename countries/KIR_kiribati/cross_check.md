@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.ki` (manager: Ministry of Information)
+- ccTLD: `.ki` (manager: Ministry of Information, Communications and Transport (MICT))
 - OECD: non-member
 - UN/DESA EGDI: Rank 147 of 193
 - Government type: presidential republic
@@ -23,7 +23,7 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-None (all Wikidata institutions are covered).
+No remaining candidates (every flagged institution is covered).
 

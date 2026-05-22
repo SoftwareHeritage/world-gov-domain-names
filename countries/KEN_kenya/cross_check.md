@@ -23,20 +23,26 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-15 entry/entries pending. Top 10:
+15 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education | `education.go.ke` |
-| ministry | Ministry Of Information | `ict.go.ke` |
-| ministry | Ministry of Sports | `sportsheritage.go.ke` |
-| ministry | Ministry of Defence | `mod.go.ke` |
-| ministry | Ministry of Labour | `labour.go.ke` |
-| ministry | Ministry of Mining | `mining.go.ke` |
-| ministry | Ministry of Foreign and Diaspora Affairs of the Republic of Kenya | `mfa.go.ke` |
-| ministry | Ministry of Finance | `treasury.go.ke` |
-| ministry | Ministry of Interior and National Administration | `interior.go.ke` |
-| ministry | Ministry of roads and transport | `transport.go.ke` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.go.ke` | wikidata;wikidata | Parliament of Kenya |
+| 6 | `mygov.go.ke` | un_desa | UN/DESA national portal |
+| 4 | `education.go.ke` | wikidata | Ministry of Education, Science and Technology |
+| 4 | `health.go.ke` | wikidata | Ministry of Health |
+| 4 | `ict.go.ke` | wikidata | Ministry Of Information, Communications And The Digital Economy |
+| 4 | `interior.go.ke` | wikidata | Ministry of Interior and National Administration |
+| 4 | `kilimo.go.ke` | wikidata | Ministry of Agriculture and Livestock Development |
+| 4 | `labour.go.ke` | wikidata | Ministry of Labour, Social Security and Services |
+| 4 | `mfa.go.ke` | wikidata | Ministry of Foreign and Diaspora Affairs of the Republic of Kenya |
+| 4 | `mining.go.ke` | wikidata | Ministry of Mining |
+| 4 | `mod.go.ke` | wikidata | Ministry of Defence |
+| 4 | `sportsheritage.go.ke` | wikidata | Ministry of Sports, Culture and the Arts |
+| 4 | `transport.go.ke` | wikidata | Ministry of roads and transport |
+| 4 | `treasury.go.ke` | wikidata | Ministry of Finance |
+| 3 | `eala.org` | wikidata | East African Legislative Assembly |
 

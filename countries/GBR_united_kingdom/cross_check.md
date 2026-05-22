@@ -23,20 +23,30 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-38 entry/entries pending. Top 10:
+19 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Supreme Court of the United Kingdom | `supremecourt.uk` |
-| ministry | Supreme Court of the United Kingdom | `supremecourt.uk` |
-| ministry | Scottish Fiscal Commission | `fiscalcommission.scot` |
-| ministry | Scottish Housing Regulator | `housingregulator.gov.scot` |
-| ministry | National Savings and Investments | `nsandi.com` |
-| ministry | Office of the Scottish Charity Regulator | `oscr.org.uk` |
-| ministry | Department for Education and Skills | `gov.wales` |
-| ministry | Department for Enterprise | `gov.im` |
-| ministry | Revenue Scotland | `revenue.scot` |
-| ministry | Food Standards Scotland | `foodstandards.gov.scot` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 9 | `supremecourt.uk` | wikidata;wikidata | Supreme Court of the United Kingdom |
+| 8 | `parliament.uk` | wikidata;wikidata | Parliament of the United Kingdom |
+| 7 | `alderney.gov.gg` | wikidata;wikidata | States of Alderney |
+| 7 | `gov.ky` | wikidata;wikidata | Parliament of the Cayman Islands |
+| 7 | `parliament.gi` | wikidata;wikidata | Parliament of Gibraltar |
+| 7 | `parliament.ms` | wikidata;wikidata | Legislative Assembly of Montserrat |
+| 7 | `parliament.scot` | wikidata;wikidata | Scottish Parliament |
+| 6 | `senedd.cymru` | wikidata;wikidata | Senedd |
+| 6 | `senedd.wales` | wikidata;wikidata | Senedd |
+| 5 | `admin.ox.ac.uk` | wikidata | University Chest |
+| 4 | `falklands.gov.fk` | wikidata | Government of the Falkland Islands |
+| 4 | `gov.scot` | wikidata | Scottish Government |
+| 4 | `gov.wales` | wikidata | Welsh Government |
+| 4 | `laugharnecorporation.co.uk` | wikidata | Laugharne Corporation |
+| 4 | `ordnancesurvey.co.uk` | wikidata | British Ordnance Survey |
+| 3 | `derrystrabane.com` | wikidata | Derry City and Strabane District Council |
+| 3 | `llyw.cymru` | wikidata | Welsh Government |
+| 3 | `newrymournedown.org` | wikidata | Newry, Mourne and Down District Council |
+| 3 | `nsandi.com` | wikidata | National Savings and Investments |
 

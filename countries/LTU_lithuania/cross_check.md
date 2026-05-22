@@ -23,19 +23,19 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-9 entry/entries pending. Top 10:
+8 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education | `smm.lt` |
-| ministry | Ministry of Health of Lithuania | `sam.lt` |
-| ministry | Ministry of Finance (Lithuania) | `finmin.lt` |
-| ministry | Ministry of Foreign Affairs of Lithuania | `urm.lt` |
-| ministry | Ministry of National Defence of Lithuania | `kam.lt` |
-| parliament | Seimas | `lrs.lt` |
-| constitutional_court | Jesuit Province of Central Europe | `jesuiten.org` |
-| constitutional_court | Vilnius City Municipality Administration | `vilnius.lt` |
-| supreme_court | Seimas | `lrs.lt` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `lrs.lt` | wikidata;wikidata | Seimas |
+| 4 | `finmin.lt` | wikidata | Ministry of Finance (Lithuania) |
+| 4 | `kam.lt` | wikidata | Ministry of National Defence of Lithuania |
+| 4 | `sam.lt` | wikidata | Ministry of Health of Lithuania |
+| 4 | `smm.lt` | wikidata | Ministry of Education, Science and Sport |
+| 4 | `urm.lt` | wikidata | Ministry of Foreign Affairs of Lithuania |
+| 3 | `jesuiten.org` | wikidata | Jesuit Province of Central Europe |
+| 0 | `vilnius.lt` | wikidata | Vilnius City Municipality Administration |
 

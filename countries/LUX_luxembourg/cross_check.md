@@ -23,17 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-7 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Education | `men.public.lu` |
-| parliament | Chamber of Deputies | `chd.lu` |
-| parliament | Benelux Parliament | `beneluxparl.eu` |
-| parliament | Benelux Parliament | `beneluxparl.eu` |
-| supreme_court | Chamber of Deputies | `chd.lu` |
-| supreme_court | Benelux Parliament | `beneluxparl.eu` |
-| supreme_court | Benelux Parliament | `beneluxparl.eu` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `chd.lu` | wikidata;wikidata | Chamber of Deputies |
+| 4 | `men.public.lu` | wikidata | Ministry of Education, Children and Youth |
+| 1 | `beneluxparl.eu` | wikidata;wikidata;wikidata;wikidata | Benelux Parliament |
 

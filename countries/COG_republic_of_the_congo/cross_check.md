@@ -23,15 +23,17 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-5 entry/entries pending. Top 10:
+6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Foreign Affairs | `diplobrazza.net` |
-| ministry | Q138711324 | `postetelecom.gouv.cg` |
-| ministry | Q138754653 | `meppsa.org` |
-| ministry | Q138766330 | `finances.gouv.cg` |
-| ministry | Q139836464 | `hydrocarbures.gouv.cg` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `presidence.cg` | un_desa | UN/DESA national portal |
+| 5 | `finances.gouv.cg` | wikidata | Q138766330 |
+| 5 | `hydrocarbures.gouv.cg` | wikidata | Q139836464 |
+| 5 | `postetelecom.gouv.cg` | wikidata | Q138711324 |
+| 3 | `diplobrazza.net` | wikidata | Ministry of Foreign Affairs, Francophonie and Congolese Abroad |
+| 3 | `meppsa.org` | wikidata | Q138754653 |
 

@@ -23,15 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-5 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Interior ministry of Djibouti | `presidence.dj` |
-| ministry | Ministry of Agriculture | `maem.dj` |
-| ministry | Ministry of Economy and Finances | `ministere-finances.dj` |
-| parliament | National Assembly | `assemblee-nationale.dj` |
-| supreme_court | National Assembly | `assemblee-nationale.dj` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `assemblee-nationale.dj` | wikidata;wikidata | National Assembly |
+| 7 | `presidence.dj` | un_desa | UN/DESA national portal |
+| 4 | `ministere-finances.dj` | wikidata | Ministry of Economy and Finances |
 

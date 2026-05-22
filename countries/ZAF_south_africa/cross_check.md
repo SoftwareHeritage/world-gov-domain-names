@@ -23,19 +23,16 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-9 entry/entries pending. Top 10:
+5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Department of Defence | `dod.mil.za` |
-| ministry | Department of Defence | `dod.mil.za` |
-| ministry | Department of Military Veterans | `dmv.mil.za` |
-| ministry | Department of Military Veterans | `dmv.mil.za` |
-| parliament | City of Johannesburg Municipal Council | `joburg.org.za` |
-| parliament | Mangaung Municipal Council | `mangaung.co.za` |
-| constitutional_court | South African Military Health Service | `mhs.mil.za` |
-| supreme_court | City of Johannesburg Municipal Council | `joburg.org.za` |
-| supreme_court | Mangaung Municipal Council | `mangaung.co.za` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `dmv.mil.za` | wikidata;wikidata | Department of Military Veterans |
+| 7 | `dod.mil.za` | wikidata;wikidata | Department of Defence |
+| 4 | `mhs.mil.za` | wikidata | South African Military Health Service |
+| 2 | `joburg.org.za` | wikidata;wikidata | City of Johannesburg Municipal Council |
+| 2 | `mangaung.co.za` | wikidata;wikidata | Mangaung Municipal Council |
 

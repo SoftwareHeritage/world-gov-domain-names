@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.sk` (manager: SK-NIC)
+- ccTLD: `.sk` (manager: SK-NIC, a.s.)
 - OECD: member since 2000
 - UN/DESA EGDI: Rank 60 of 193
 - Government type: parliamentary republic
@@ -23,20 +23,24 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-16 entry/entries pending. Top 10:
+13 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Agriculture and Rural Development of the Slovak Republic | `mpsr.sk` |
-| ministry | Ministry of Agriculture and Rural Development of the Slovak Republic | `mpsr.sk` |
-| ministry | Ministry of the Environment of the Slovak Republic | `minzp.sk` |
-| ministry | Ministry of Finance of the Slovak Republic | `mfsr.sk` |
-| ministry | Ministry of Interior of the Slovak Republic | `minv.sk` |
-| ministry | Ministry of Finance of the Slovak Republic | `mfsr.sk` |
-| ministry | Ministry of Tourism and Sports of the Slovak Republic | `mincrs.sk` |
-| ministry | Ministry of Education | `minedu.sk` |
-| ministry | Ministry of Foreign and European Affairs of the Slovak Republic | `mzv.sk` |
-| ministry | Ministry of Transport and Construction of the Slovak Republic | `mindop.sk` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `mfsr.sk` | wikidata;wikidata | Ministry of Finance of the Slovak Republic |
+| 7 | `mindop.sk` | wikidata;wikidata | Ministry of Transport and Construction of the Slovak Republic |
+| 7 | `mpsr.sk` | wikidata;wikidata | Ministry of Agriculture and Rural Development of the Slovak Republic |
+| 7 | `nrsr.sk` | wikidata;wikidata | National Council of the Slovak Republic |
+| 6 | `slovensko.sk` | un_desa | UN/DESA national portal |
+| 4 | `dominikani.sk` | wikidata | Dominican Province of Slovakia |
+| 4 | `frantiskani.sk` | wikidata | Province of the Most Holy Redeemer of the Friars Minor in Slovakia |
+| 4 | `mincrs.sk` | wikidata | Ministry of Tourism and Sports of the Slovak Republic |
+| 4 | `minedu.sk` | wikidata | Ministry of Education, Research, Development and Youth of the Slovak Republic |
+| 4 | `minv.sk` | wikidata | Ministry of Interior of the Slovak Republic |
+| 4 | `minzp.sk` | wikidata | Ministry of the Environment of the Slovak Republic |
+| 4 | `mzv.sk` | wikidata | Ministry of Foreign and European Affairs of the Slovak Republic |
+| 4 | `piaristi.sk` | wikidata | Piarist province of Slovakia |
 

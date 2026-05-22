@@ -23,20 +23,31 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-84 entry/entries pending. Top 10:
+82 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Q22696032 | `slobidka.kl.com.ua` |
-| parliament | Savran Town council | `savranrada.odessa.ua` |
-| parliament | Kharkiv Oblast Council | `oblrada.kharkov.ua` |
-| parliament | Q96483151 | `rozhrada.volyn.ua` |
-| parliament | Chernivtsi Oblast Council | `oblrada.cv.ua` |
-| parliament | Luhansk Oblast Council | `oblrada.lg.ua` |
-| parliament | Kremenets Raion council | `rairadakremenets.org` |
-| parliament | Q93277134 | `r-rada.lutsk.ua` |
-| parliament | Q93363311 | `berezne-rada.rv.ua` |
-| parliament | Kirovohrad Oblast Council | `oblrada.kr.ua` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `rada.crimea.ua` | wikidata;wikidata | Supreme Council of Crimea |
+| 6 | `qtmm.org` | wikidata;wikidata | Qurultay of the Crimean Tatar People |
+| 4 | `berezne-rada.rv.ua` | wikidata | Q93363311 |
+| 4 | `berrayrada.ks.ua` | wikidata | Q20073124 |
+| 4 | `bilozerka-rada.ks.ua` | wikidata | Q20074215 |
+| 4 | `bobr-rada.com.ua` | wikidata | Q20073776 |
+| 4 | `chervrada.kharkov.ua` | wikidata | Q12169641 |
+| 4 | `chortkivrr.te.ua` | wikidata | Q20096661 |
+| 4 | `city.kherson.ua` | wikidata | Kherson City Council |
+| 4 | `dzerzhrada.kharkov.ua` | wikidata | Q12100929 |
+| 4 | `golovanivsk-rada.com.ua` | wikidata | Q20075763 |
+| 4 | `gorn-vlada.ks.ua` | wikidata | Q20075838 |
+| 4 | `gorrayrada.if.ua` | wikidata | Q12097056 |
+| 4 | `hadiach-rajon-vlada.org.ua` | wikidata | Q12093794 |
+| 4 | `husyatyn.te.ua` | wikidata | Q20076035 |
+| 4 | `ivrada.com.ua` | wikidata | Ivanychi Raion Council |
+| 4 | `ivrada.ks.ua` | wikidata | Q20073384 |
+| 4 | `kievrik.kharkov.ua` | wikidata | Q12110194 |
+| 4 | `komrada.kharkov.ua` | wikidata | Q12112163 |
+| 4 | `koretsrada.in.ua` | wikidata | Q20078006 |
 

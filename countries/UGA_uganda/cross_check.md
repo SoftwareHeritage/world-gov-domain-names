@@ -23,20 +23,28 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-20 entry/entries pending. Top 10:
+17 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry for Karamoja | `opm.go.ug` |
-| ministry | Ministry of Agriculture | `agriculture.go.ug` |
-| ministry | Ministry of Water and Environment | `mwe.go.ug` |
-| ministry | Ministry of Local Government | `molg.go.ug` |
-| ministry | Ministry of Science | `sti.go.ug` |
-| ministry | Ministry of Information and Communications Technology | `ict.go.ug` |
-| ministry | Ministry of Finance | `finance.go.ug` |
-| ministry | Ministry of Trade | `mtti.go.ug` |
-| ministry | Ministry of Health | `health.go.ug` |
-| ministry | Ministry of Energy and Mineral Development | `energyandminerals.go.ug` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.go.ug` | wikidata;wikidata | Parliament of Uganda |
+| 7 | `opm.go.ug` | wikidata;wikidata | Ministry of Relief and Disaster Preparedness | Ministry of Disaster Preparedn... |
+| 6 | `gou.go.ug` | un_desa | UN/DESA national portal |
+| 4 | `agriculture.go.ug` | wikidata | Ministry of Agriculture, Animal Industry and Fisheries |
+| 4 | `education.go.ug` | wikidata | Ministry of Education and Sports |
+| 4 | `energyandminerals.go.ug` | wikidata | Ministry of Energy and Mineral Development |
+| 4 | `finance.go.ug` | wikidata | Ministry of Finance, Planning and Economic Development |
+| 4 | `health.go.ug` | wikidata | Ministry of Health |
+| 4 | `ict.go.ug` | wikidata | Ministry of Information and Communications Technology |
+| 4 | `mia.go.ug` | wikidata | Ministry of Internal Affairs |
+| 4 | `mlhud.go.ug` | wikidata | Ministry of Lands, Housing and Urban Development |
+| 4 | `mofa.go.ug` | wikidata | Ministry of Foreign Affairs of the Republic of Uganda |
+| 4 | `mtic.go.ug` | wikidata | Ministry of Trade, Industry and Cooperatives |
+| 4 | `mtti.go.ug` | wikidata | Ministry of Trade, Tourism and Industry |
+| 4 | `mwe.go.ug` | wikidata | Ministry of Water and Environment |
+| 4 | `sti.go.ug` | wikidata | Ministry of Science, Technology and Innovation |
+| 3 | `eala.org` | wikidata | East African Legislative Assembly |
 

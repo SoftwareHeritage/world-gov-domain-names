@@ -5,7 +5,7 @@
 - UN status: **Observer State** (include as observer, not as member)
 - ccTLD: `.va` (manager: Holy See - Vatican City State)
 - OECD: non-member
-- Government type: ecclesiastical elective monarchy; self-described as an ""absolute monarchy""
+- Government type: ecclesiastical elective monarchy; self-described as an "absolute monarchy"
 - Capital: Vatican City
 - Domains collected (HTTP 200): 7
 
@@ -17,20 +17,17 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-14 entry/entries pending. Top 10:
+6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Dicastery for Laity | `laityfamilylife.va` |
-| ministry | Roman Rota | `rotaromana.va` |
-| ministry | Dicastery for Promoting Integral Human Development | `humandevelopment.va` |
-| ministry | Dicastery for Culture and Education | `dce.va` |
-| ministry | Dicastery for Bishops | `congregazionevescovi.va` |
-| ministry | Dicastery for the Clergy | `clerus.va` |
-| ministry | Office of Papal Charities | `elemosineria.va` |
-| ministry | Office of Papal Charities | `elemosineria.va` |
-| ministry | Dicastery for the Doctrine of the Faith | `doctrinafidei.va` |
-| ministry | Dicastery for Interreligious Dialogue | `dicasteryinterreligious.va` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `clerus.va` | wikidata | Dicastery for the Clergy |
+| 4 | `congregazionevescovi.va` | wikidata | Dicastery for Bishops |
+| 4 | `dicasteryinterreligious.va` | wikidata | Dicastery for Interreligious Dialogue |
+| 4 | `humandevelopment.va` | wikidata | Dicastery for Promoting Integral Human Development |
+| 4 | `laityfamilylife.va` | wikidata | Dicastery for Laity, Family and Life |
+| 2 | `vaticanstate.va` | wikidata;wikidata;wikidata;wikidata | Pontifical Commission for the Vatican City State | Governorate of Vatican Cit... |
 

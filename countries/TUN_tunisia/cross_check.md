@@ -23,18 +23,19 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-8 entry/entries pending. Top 10:
+8 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Transport | `transport.tn` |
-| ministry | Ministry of Agriculture | `agriculture.tn` |
-| ministry | Ministry of Defence | `defense.tn` |
-| ministry | Ministry of Youth and Sports | `sport.tn` |
-| ministry | Ministry of Higher Education and Scientific Research | `mes.tn` |
-| ministry | Ministry of State Domains | `domainetat.tn` |
-| ministry | Ministry of Religious Affairs | `affaires-religieuses.tn` |
-| ministry | Ministry of Health | `santetunisie.rns.tn` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `affaires-religieuses.tn` | wikidata | Ministry of Religious Affairs |
+| 4 | `agriculture.tn` | wikidata | Ministry of Agriculture |
+| 4 | `defense.tn` | wikidata | Ministry of Defence |
+| 4 | `domainetat.tn` | wikidata | Ministry of State Domains |
+| 4 | `mes.tn` | wikidata | Ministry of Higher Education and Scientific Research |
+| 4 | `santetunisie.rns.tn` | wikidata | Ministry of Health |
+| 4 | `sport.tn` | wikidata | Ministry of Youth and Sports |
+| 4 | `transport.tn` | wikidata | Ministry of Transport |
 

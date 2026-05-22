@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.tt` (manager: University of the West Indies)
+- ccTLD: `.tt` (manager: University of the West Indies, Faculty of Engineering)
 - OECD: non-member
 - UN/DESA EGDI: Rank 86 of 193
 - Government type: parliamentary republic
@@ -23,12 +23,12 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-2 entry/entries pending. Top 10:
+1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | Parliament of Trinidad and Tobago | `ttparliament.org` |
-| supreme_court | Parliament of Trinidad and Tobago | `ttparliament.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `ttparliament.org` | wikidata;wikidata | Parliament of Trinidad and Tobago |
 

@@ -23,20 +23,21 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-12 entry/entries pending. Top 10:
+10 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Higher Education and Scientific Research | `mesrs.dz` |
-| ministry | Ministry of Post and Telecommunications | `mptic.dz` |
-| ministry | Ministère de la Santé | `sante.dz` |
-| ministry | Ministry of Agriculture and Rural Development | `wikidata.org` |
-| ministry | Ministry of Mujahidin | `m-moudjahidine.dz` |
-| ministry | Ministry of National Defense (Algeria) | `mdn.dz` |
-| ministry | Ministry of National Defense (Algeria) | `mdn.dz` |
-| ministry | Ministry of National Defense (Algeria) | `mdn.dz` |
-| ministry | Ministry of Justice | `mjustice.dz` |
-| parliament | Parliament of Algeria | `apn-dz.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `mdn.dz` | wikidata;wikidata;wikidata | Ministry of National Defense (Algeria) |
+| 6 | `apn-dz.org` | wikidata;wikidata | Parliament of Algeria |
+| 6 | `el-mouradia.dz` | un_desa | UN/DESA national portal |
+| 4 | `elmadjlis-hci.dz` | wikidata | Supreme Islamic Council of Algeria |
+| 4 | `m-moudjahidine.dz` | wikidata | Ministry of Mujahidin |
+| 4 | `mesrs.dz` | wikidata | Ministry of Higher Education and Scientific Research |
+| 4 | `mjustice.dz` | wikidata | Ministry of Justice |
+| 4 | `mptic.dz` | wikidata | Ministry of Post and Telecommunications |
+| 4 | `sante.dz` | wikidata | Ministère de la Santé |
+| 3 | `wikidata.org` | wikidata | Ministry of Agriculture and Rural Development |
 

@@ -23,14 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | General Prosecutor of the Republic | `fgr.org.mx` |
-| constitutional_court | Jesuit Province of Mexico | `jesuitasmexico.org` |
-| constitutional_court | Piarist province of Mexico | `escolapiosmexico.org` |
-| constitutional_court | Q25408184 | `sites.google.com` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `fgr.org.mx` | wikidata | General Prosecutor of the Republic |
+| 3 | `escolapiosmexico.org` | wikidata | Piarist province of Mexico |
+| 3 | `jesuitasmexico.org` | wikidata | Jesuit Province of Mexico |
+| 3 | `sites.google.com` | wikidata | Q25408184 |
 

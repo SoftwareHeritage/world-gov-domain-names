@@ -23,14 +23,14 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-4 entry/entries pending. Top 10:
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| parliament | The Royal Hashemite Court | `rhc.jo` |
-| parliament | Parliament of Jordan | `parliament.jo` |
-| constitutional_court | Custodian of the Holy Land | `custodia.org` |
-| supreme_court | Parliament of Jordan | `parliament.jo` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.jo` | wikidata;wikidata | Parliament of Jordan |
+| 4 | `rhc.jo` | wikidata | The Royal Hashemite Court |
+| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
 

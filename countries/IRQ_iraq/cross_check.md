@@ -23,15 +23,15 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-5 entry/entries pending. Top 10:
+4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Defence of Iraq | `mod.mil.iq` |
-| ministry | Ministry of Natural Resources | `gov.krd` |
-| parliament | Council of Representatives of Iraq | `parliament.iq` |
-| constitutional_court | Kurdistan Regional Government | `gov.krd` |
-| supreme_court | Council of Representatives of Iraq | `parliament.iq` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `parliament.iq` | wikidata;wikidata | Council of Representatives of Iraq |
+| 6 | `cabinet.iq` | un_desa | UN/DESA national portal |
+| 4 | `mod.mil.iq` | wikidata | Ministry of Defence of Iraq |
+| 0 | `gov.krd` | wikidata | Kurdistan Regional Government |
 

@@ -23,11 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-1 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Information | `omaninfo.om` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `oman.om` | un_desa | UN/DESA national portal |
+| 4 | `omaninfo.om` | wikidata | Ministry of Information |
 

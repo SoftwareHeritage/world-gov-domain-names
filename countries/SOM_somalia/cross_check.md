@@ -23,13 +23,13 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-3 entry/entries pending. Top 10:
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Foreign Affairs and International Cooperation of the Federal Republic of Somalia | `mfa.somaligov.net` |
-| ministry | Ministry of Education (Somalia) | `moesomalia.net` |
-| ministry | Ministry of Education | `moesomalia.net` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `moesomalia.net` | wikidata;wikidata | Ministry of Education (Somalia) | Ministry of Education, Culture and Higher E... |
+| 3 | `mfa.somaligov.net` | wikidata | Ministry of Foreign Affairs and International Cooperation of the Federal Repu... |
 

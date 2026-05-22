@@ -23,19 +23,19 @@
 
 (institution names usable as seeds for further research)
 
-## Wikidata -- institutions with no root domain covered yet
+## Candidate domains ranked by score
 
-9 entry/entries pending. Top 10:
+8 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| type | label | hostname |
-|------|-------|----------|
-| ministry | Ministry of Finance and Economic Development | `mof.govmu.org` |
-| ministry | Ministry of Tourism | `tourism.govmu.org` |
-| ministry | Ministry of Agro Industry and Food Security | `agriculture.govmu.org` |
-| ministry | Ministry of Health and Quality of Life | `health.govmu.org` |
-| ministry | Ministry of Gender Equality | `gender.govmu.org` |
-| parliament | National Assembly of Mauritius | `mauritiusassembly.govmu.org` |
-| parliament | Rodrigues Regional Assembly | `assembly-rra.govmu.org` |
-| supreme_court | National Assembly of Mauritius | `mauritiusassembly.govmu.org` |
-| supreme_court | Rodrigues Regional Assembly | `assembly-rra.govmu.org` |
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `mauritiusassembly.govmu.org` | wikidata;wikidata | National Assembly of Mauritius |
+| 5 | `govmu.org` | un_desa | UN/DESA national portal |
+| 3 | `agriculture.govmu.org` | wikidata | Ministry of Agro Industry and Food Security |
+| 3 | `gender.govmu.org` | wikidata | Ministry of Gender Equality, Child Development and Family Welfare |
+| 3 | `health.govmu.org` | wikidata | Ministry of Health and Quality of Life |
+| 3 | `mof.govmu.org` | wikidata | Ministry of Finance and Economic Development |
+| 3 | `tourism.govmu.org` | wikidata | Ministry of Tourism |
+| 1 | `assembly-rra.govmu.org` | wikidata;wikidata | Rodrigues Regional Assembly |
 
