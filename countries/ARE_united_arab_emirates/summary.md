@@ -25,18 +25,11 @@
 
 ## Candidate domains ranked by score
 
-9 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `almajles.gov.ae` | wikidata;wikidata | Federal National Council |
-| 8 | `moccae.gov.ae` | wikidata;wikidata | Ministry of Climate Change and Environment |
-| 8 | `mofaic.gov.ae` | wikidata;wikidata | Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and Inte... |
 | 6 | `government.ae` | un_desa | UN/DESA national portal |
-| 5 | `economy.gov.ae` | wikidata | Ministry of Economy |
-| 5 | `moe.gov.ae` | wikidata | Ministry of Education |
-| 5 | `mof.gov.ae` | wikidata | Ministry of Finance |
-| 5 | `moh.gov.ae` | wikidata | Ministry of Health and Prevention |
-| 5 | `mohesr.gov.ae` | wikidata | Ministry of Higher Education and Scientific Research |
 

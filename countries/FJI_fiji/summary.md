@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.fj` (manager: The University of the South PacificIT Services)
+- ccTLD: `.fj` (manager: The University of the South Pacific)
 - OECD: non-member
 - UN/DESA EGDI: Rank 93 of 193
 - Government type: parliamentary republic

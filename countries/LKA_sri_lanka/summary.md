@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.lk` (manager: Council for Information TechnologyLK Domain Registrar)
+- ccTLD: `.lk` (manager: Council for Information Technology)
 - OECD: non-member
 - UN/DESA EGDI: Rank 98 of 193
 - Government type: presidential republic

@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.mx` (manager: NIC-MexicoITESM - Campus Monterrey)
+- ccTLD: `.mx` (manager: NIC-Mexico)
 - OECD: member since 1994
 - UN/DESA EGDI: Rank 65 of 193
 - Government type: federal presidential republic

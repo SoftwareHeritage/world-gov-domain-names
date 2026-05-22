@@ -3,7 +3,7 @@
 ## Overview
 
 - UN status: **Member State**
-- ccTLD: `.sz` (manager: University of SwazilandDepartment of Computer Science)
+- ccTLD: `.sz` (manager: University of Swaziland)
 - OECD: non-member
 - UN/DESA EGDI: Rank 113 of 193
 - Government type: absolute monarchy

@@ -25,12 +25,11 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.govt.lc` | wikidata;wikidata | Parliament of Saint Lucia |
 | 7 | `govt.lc` | un_desa | UN/DESA national portal |
-| 5 | `health.govt.lc` | wikidata | Ministry of Health and Wellness |
 

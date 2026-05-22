@@ -25,7 +25,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -33,4 +33,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `parliament.ge` | wikidata;wikidata | Parliament of Georgia |
 | 7 | `sca.ge` | wikidata;wikidata | Supreme Council of the Autonomous Republic of Adjara |
 | 6 | `parliamentrso.org` | wikidata;wikidata | Parliament of South Ossetia |
+| 4 | `economy.ge` | wikidata | Ministry of Economy and Sustainable Development |
+| 4 | `mof.ge` | wikidata | Ministry of Finance of Georgia |
+| 4 | `police.ge` | wikidata | Ministry of Internal Affairs |
 
