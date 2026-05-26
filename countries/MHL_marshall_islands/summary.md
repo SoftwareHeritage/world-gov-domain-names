@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Micronesia
+- Languages: English; Marshallese
+- Population: 42418
+- GDP per capita: 7726 US$ (2024)
+- Currencies: USD
 - ccTLD: `.mh` (manager: Office of the Cabinet)
 - OECD: non-member
 - UN/DESA EGDI: Rank 143 of 193

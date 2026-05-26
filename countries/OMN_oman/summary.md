@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic
+- Population: 5343630
+- GDP per capita: 20285 US$ (2024)
+- Currencies: OMR
 - ccTLD: `.om` (manager: Telecommunications Regulatory Authority (TRA))
 - OECD: non-member
 - UN/DESA EGDI: Rank 41 of 193

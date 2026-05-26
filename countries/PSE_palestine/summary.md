@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Observer State** (include as observer, not as member)
+- Region: Asia / Western Asia
+- Languages: Arabic
+- Population: 5483450
+- GDP per capita: 2592 US$ (2024)
+- Currencies: EGP; ILS; JOD
 - ccTLD: `.ps` (manager: Ministry of Telecommunications &amp; Information Technology, Government Computer Center)
 - OECD: non-member
 - Domains collected (HTTP 200): 22

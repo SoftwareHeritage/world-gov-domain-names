@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Southeast Europe
+- Languages: Bulgarian
+- Population: 6437360
+- GDP per capita: 17596 US$ (2024)
+- Currencies: BGN
 - ccTLD: `.bg` (manager: Register.BG)
 - OECD: non-member
 - UN/DESA EGDI: Rank 55 of 193

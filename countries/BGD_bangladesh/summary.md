@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Southern Asia
+- Languages: Bengali
+- Population: 169828911
+- GDP per capita: 2593 US$ (2024)
+- Currencies: BDT
 - ccTLD: `.bd` (manager: Posts and Telecommunications Division)
 - OECD: non-member
 - UN/DESA EGDI: Rank 100 of 193

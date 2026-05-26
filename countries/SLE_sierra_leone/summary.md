@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: English
+- Population: 9077691
+- GDP per capita: 807 US$ (2024)
+- Currencies: SLE
 - ccTLD: `.sl` (manager: Sierratel)
 - OECD: non-member
 - UN/DESA EGDI: Rank 172 of 193

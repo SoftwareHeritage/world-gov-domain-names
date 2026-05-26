@@ -1,0 +1,36 @@
+#+TITLE: scripts/obsolete/ -- archived scripts
+
+Scripts no longer in the active pipeline, kept for reference or to
+reproduce a similar migration in the future.
+
+* =pipeline.sh=
+
+The bash implementation of the pipeline, replaced by
+=scripts/pipeline.clj= (Babashka). Kept here for reference -- both
+versions exposed the same sub-commands, so the bash code can be
+consulted when debugging the Clojure port.
+
+* =migrate_to_countries.sh=
+
+One-shot. A été utilisé une fois (mai 2026) pour migrer l'ancienne
+structure =domains/<portal>/= vers =countries/<ISO3>_<slug>/<portal>/=.
+
+Dépend d'un fichier =/tmp/iso3_mapping.tsv= qui n'existe plus dans
+l'environnement courant ; à régénérer via une requête Wikidata si une
+migration similaire devait être refaite.
+
+À conserver en témoin de la convention de nommage retenue
+(=<ISO3>_<slug>=).
+
+* Scripts fusionnés (supprimés, pas conservés ici)
+
+Pour mémoire, deux scripts ont été fusionnés et n'existent plus :
+
+- =wikidata_diff.sh= → maintenant fonction =write_missing_domains()=
+  interne à =wikidata_fetch.sh=. Le diff (comparaison avec les
+  =countries/<c>/<domain>/= existants) tourne désormais en fin de
+  fetch, idempotent.
+- =score_candidates.sh= → maintenant fonction =score_candidates_for()=
+  interne à =cross_check.sh=. Le score 0-10 est calculé avant
+  l'écriture du rapport markdown, et matérialisé dans
+  =countries/<c>/candidates.csv=.

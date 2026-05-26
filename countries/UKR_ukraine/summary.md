@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Eastern Europe
+- Languages: Ukrainian
+- Population: 32862000
+- GDP per capita: 5389 US$ (2024)
+- Currencies: UAH
 - ccTLD: `.ua` (manager: Hostmaster Ltd.)
 - OECD: non-member
 - UN/DESA EGDI: Rank 30 of 193

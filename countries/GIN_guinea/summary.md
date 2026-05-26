@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: French
+- Population: 14363931
+- GDP per capita: 1695 US$ (2024)
+- Currencies: GNF
 - ccTLD: `.gn` (manager: Centre National des Sciences Halieutiques de Boussoura)
 - OECD: non-member
 - UN/DESA EGDI: Rank 160 of 193

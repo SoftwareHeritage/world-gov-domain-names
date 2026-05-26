@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Northern Europe
+- Languages: English; Irish
+- Population: 5458600
+- GDP per capita: 112895 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.ie` (manager: University College Dublin, Computing Services, Computer Centre)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 20 of 193

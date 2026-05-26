@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Caribbean
+- Languages: English
+- Population: 109021
+- GDP per capita: 11705 US$ (2024)
+- Currencies: XCD
 - ccTLD: `.gd` (manager: The National Telecommunications Regulatory Commission (NTRC))
 - OECD: non-member
 - UN/DESA EGDI: Rank 104 of 193

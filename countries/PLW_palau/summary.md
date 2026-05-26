@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Micronesia
+- Languages: English; Palauan
+- Population: 16733
+- GDP per capita: 15611 US$ (2023)
+- Currencies: USD
 - ccTLD: `.pw` (manager: Micronesia Investment and Development Corporation)
 - OECD: non-member
 - UN/DESA EGDI: Rank 137 of 193

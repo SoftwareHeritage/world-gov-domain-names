@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Central America
+- Languages: Spanish
+- Population: 5309625
+- GDP per capita: 18587 US$ (2024)
+- Currencies: CRC
 - ccTLD: `.cr` (manager: National Academy of Sciences (Academia Nacional de Ciencias))
 - OECD: member since 2021
 - UN/DESA EGDI: Rank 61 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Western Europe
+- Languages: Dutch
+- Population: 18100436
+- GDP per capita: 67520 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.nl` (manager: SIDN (Stichting Internet Domeinregistratie Nederland))
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 10 of 193

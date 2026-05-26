@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Caribbean
+- Languages: French; Haitian Creole
+- Population: 11867032
+- GDP per capita: 2143 US$ (2024)
+- Currencies: HTG
 - ccTLD: `.ht` (manager: Consortium FDS/RDDH)
 - OECD: non-member
 - UN/DESA EGDI: Rank 186 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Caribbean
+- Languages: English
+- Population: 51320
+- GDP per capita: 23961 US$ (2024)
+- Currencies: XCD
 - ccTLD: `.kn` (manager: Ministry of Finance, Sustainable Development Information &amp; Technology)
 - OECD: non-member
 - UN/DESA EGDI: Rank 110 of 193

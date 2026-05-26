@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Eastern Asia
+- Languages: Japanese
+- Population: 123210000
+- GDP per capita: 32487 US$ (2024)
+- Currencies: JPY
 - ccTLD: `.jp` (manager: Japan Registry Services Co., Ltd.)
 - OECD: member since 1964
 - UN/DESA EGDI: Rank 13 of 193

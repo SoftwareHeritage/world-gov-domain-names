@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / South-Eastern Asia
+- Languages: Khmer
+- Population: 17577760
+- GDP per capita: 2628 US$ (2024)
+- Currencies: KHR; USD
 - ccTLD: `.kh` (manager: Telecommunication Regulator of Cambodia (TRC))
 - OECD: non-member
 - UN/DESA EGDI: Rank 120 of 193

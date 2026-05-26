@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Southern Europe
+- Languages: Spanish; Catalan; Basque; Galician
+- Population: 49315949
+- GDP per capita: 35327 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.es` (manager: Red.es)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 17 of 193

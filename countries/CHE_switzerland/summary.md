@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Western Europe
+- Languages: French; Swiss German; Italian; Romansh
+- Population: 9082848
+- GDP per capita: 103998 US$ (2024)
+- Currencies: CHF
 - ccTLD: `.ch` (manager: SWITCH The Swiss Education &amp; Research Network)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 26 of 193

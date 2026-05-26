@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / South-Eastern Asia
+- Languages: English; Chinese; Malay; Tamil
+- Population: 6110200
+- GDP per capita: 90674 US$ (2024)
+- Currencies: SGD
 - ccTLD: `.sg` (manager: Singapore Network Information Centre (SGNIC) Pte Ltd)
 - OECD: non-member
 - UN/DESA EGDI: Rank 3 of 193

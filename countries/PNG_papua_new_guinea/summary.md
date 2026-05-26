@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Melanesia
+- Languages: English; Hiri Motu; Tok Pisin
+- Population: 11781559
+- GDP per capita: 3007 US$ (2024)
+- Currencies: PGK
 - ccTLD: `.pg` (manager: PNG DNS Administration, Vice Chancellors Office, The Papua New Guinea University of Technology)
 - OECD: non-member
 - UN/DESA EGDI: Rank 171 of 193

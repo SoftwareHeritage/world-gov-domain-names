@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: French
+- Population: 31719275
+- GDP per capita: 2728 US$ (2024)
+- Currencies: XOF
 - ccTLD: `.ci` (manager: Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire (ARTCI))
 - OECD: non-member
 - UN/DESA EGDI: Rank 124 of 193

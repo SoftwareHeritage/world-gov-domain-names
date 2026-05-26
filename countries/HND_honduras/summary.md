@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Central America
+- Languages: Spanish
+- Population: 9892632
+- GDP per capita: 3426 US$ (2024)
+- Currencies: HNL
 - ccTLD: `.hn` (manager: Red de Desarrollo Sostenible Honduras)
 - OECD: non-member
 - UN/DESA EGDI: Rank 142 of 193

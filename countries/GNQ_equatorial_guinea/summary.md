@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Middle Africa
+- Languages: French; Portuguese; Spanish
+- Population: 1668768
+- GDP per capita: 6745 US$ (2024)
+- Currencies: XAF
 - ccTLD: `.com` (manager: VeriSign Global Registry Services)
 - OECD: non-member
 - UN/DESA EGDI: Rank 176 of 193

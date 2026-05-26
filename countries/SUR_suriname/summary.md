@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / South America
+- Languages: Dutch
+- Population: 616500
+- GDP per capita: 6962 US$ (2024)
+- Currencies: SRD
 - ccTLD: `.sr` (manager: Telesur)
 - OECD: non-member
 - UN/DESA EGDI: Rank 106 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Western Europe
+- Languages: French
+- Population: 38423
+- GDP per capita: 288001 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.mc` (manager: Direction des Plateformes et des Ressources Numériques)
 - OECD: non-member
 - UN/DESA EGDI: Rank 82 of 193

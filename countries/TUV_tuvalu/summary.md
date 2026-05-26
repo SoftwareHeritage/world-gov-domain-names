@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Polynesia
+- Languages: English; Tuvaluan
+- Population: 10643
+- GDP per capita: 6345 US$ (2023)
+- Currencies: AUD; TVD
 - ccTLD: `.tv` (manager: Ministry of Transport, Energy, Communications and Innovations)
 - OECD: non-member
 - UN/DESA EGDI: Rank 158 of 193

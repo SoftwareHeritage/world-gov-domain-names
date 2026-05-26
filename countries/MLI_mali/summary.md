@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: French
+- Population: 22395489
+- GDP per capita: 1095 US$ (2024)
+- Currencies: XOF
 - ccTLD: `.ml` (manager: Agence des Technologies de l’Information et de la Communication)
 - OECD: non-member
 - UN/DESA EGDI: Rank 173 of 193

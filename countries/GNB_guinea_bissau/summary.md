@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: Portuguese; Upper Guinea Creole
+- Population: 1781308
+- GDP per capita: 1008 US$ (2024)
+- Currencies: XOF
 - ccTLD: `.gw` (manager: Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau)
 - OECD: non-member
 - UN/DESA EGDI: Rank 170 of 193

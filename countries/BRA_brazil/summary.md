@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / South America
+- Languages: Portuguese
+- Population: 213421037
+- GDP per capita: 10311 US$ (2024)
+- Currencies: BRL
 - ccTLD: `.br` (manager: Comite Gestor da Internet no Brasil)
 - OECD: non-member
 - UN/DESA EGDI: Rank 50 of 193

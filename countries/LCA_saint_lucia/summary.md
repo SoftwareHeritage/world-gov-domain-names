@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Caribbean
+- Languages: English
+- Population: 184100
+- GDP per capita: 14182 US$ (2024)
+- Currencies: XCD
 - ccTLD: `.lc` (manager: University of Puerto Rico)
 - OECD: non-member
 - UN/DESA EGDI: Rank 133 of 193

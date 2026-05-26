@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / South-Eastern Asia
+- Languages: Indonesian
+- Population: 284438782
+- GDP per capita: 4925 US$ (2024)
+- Currencies: IDR
 - ccTLD: `.id` (manager: Perkumpulan Pengelola Nama Domain Internet Indonesia (PANDI))
 - OECD: non-member
 - UN/DESA EGDI: Rank 64 of 193

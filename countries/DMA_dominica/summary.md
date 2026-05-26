@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Caribbean
+- Languages: English
+- Population: 67408
+- GDP per capita: 10405 US$ (2024)
+- Currencies: XCD
 - ccTLD: `.dm` (manager: DotDM Corporation)
 - OECD: non-member
 - UN/DESA EGDI: Rank 127 of 193

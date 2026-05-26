@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Southern Asia
+- Languages: English; Urdu
+- Population: 241499431
+- GDP per capita: 1479 US$ (2024)
+- Currencies: PKR
 - ccTLD: `.pk` (manager: PKNIC)
 - OECD: non-member
 - UN/DESA EGDI: Rank 136 of 193

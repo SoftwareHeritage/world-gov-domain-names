@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Turkish
+- Population: 85664944
+- GDP per capita: 15893 US$ (2024)
+- Currencies: TRY
 - ccTLD: `.tr` (manager: Bilgi Teknolojileri ve İletişim Kurumu (BTK))
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 27 of 193

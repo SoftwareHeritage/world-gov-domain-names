@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Eastern Europe
+- Languages: Romanian
+- Population: 2749076
+- GDP per capita: 7576 US$ (2024)
+- Currencies: MDL
 - ccTLD: `.md` (manager: IP Serviciul Tehnologia Informatiei si Securitate Cibernetica)
 - OECD: non-member
 - UN/DESA EGDI: Rank 70 of 193

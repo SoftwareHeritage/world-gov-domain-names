@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Northern Africa
+- Languages: Arabic; Berber
+- Population: 36828330
+- GDP per capita: 4153 US$ (2024)
+- Currencies: MAD
 - ccTLD: `.ma` (manager: Agence Nationale de Réglementation des Télécommunications (ANRT))
 - OECD: non-member
 - UN/DESA EGDI: Rank 90 of 193

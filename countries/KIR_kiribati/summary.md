@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Micronesia
+- Languages: English; Gilbertese
+- Population: 120740
+- GDP per capita: 2289 US$ (2024)
+- Currencies: AUD; KID
 - ccTLD: `.ki` (manager: Ministry of Information, Communications and Transport (MICT))
 - OECD: non-member
 - UN/DESA EGDI: Rank 147 of 193

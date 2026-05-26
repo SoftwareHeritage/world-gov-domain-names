@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: Portuguese
+- Population: 491233
+- GDP per capita: 5192 US$ (2024)
+- Currencies: CVE
 - ccTLD: `.cv` (manager: Agência Reguladora Multissectorial da Economia (ARME))
 - OECD: non-member
 - UN/DESA EGDI: Rank 111 of 193

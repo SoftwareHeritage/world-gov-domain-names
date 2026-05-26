@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: French
+- Population: 26312034
+- GDP per capita: 735 US$ (2024)
+- Currencies: XOF
 - ccTLD: `.ne` (manager: SONITEL)
 - OECD: non-member
 - UN/DESA EGDI: Rank 187 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Southern Europe
+- Languages: Greek; Turkish
+- Population: 1442614
+- GDP per capita: 38674 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.cy` (manager: University of Cyprus)
 - OECD: non-member
 - UN/DESA EGDI: Rank 38 of 193

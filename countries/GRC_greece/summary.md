@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Southern Europe
+- Languages: Greek
+- Population: 10400720
+- GDP per capita: 24626 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.gr` (manager: ICS-FORTH GR)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 36 of 193

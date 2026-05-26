@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic; Aramaic; Sorani
+- Population: 46118793
+- GDP per capita: 6074 US$ (2024)
+- Currencies: IQD
 - ccTLD: `.iq` (manager: Communications and Media Commission (CMC))
 - OECD: non-member
 - UN/DESA EGDI: Rank 148 of 193

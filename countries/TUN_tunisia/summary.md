@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Northern Africa
+- Languages: Arabic
+- Population: 11972169
+- GDP per capita: 4181 US$ (2024)
+- Currencies: TND
 - ccTLD: `.tn` (manager: Agence Tunisienne d&#x27;Internet)
 - OECD: non-member
 - UN/DESA EGDI: Rank 87 of 193

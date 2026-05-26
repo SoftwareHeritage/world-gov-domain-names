@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / South-Eastern Asia
+- Languages: Malay
+- Population: 455500
+- GDP per capita: 33153 US$ (2024)
+- Currencies: BND; SGD
 - ccTLD: `.bn` (manager: Authority for Info-communications Technology Industry of Brunei Darussalam (AITI))
 - OECD: non-member
 - UN/DESA EGDI: Rank 75 of 193

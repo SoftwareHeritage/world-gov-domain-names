@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Southern Asia
+- Languages: Dari; Pashto; Turkmen
+- Population: 43844000
+- GDP per capita: 414 US$ (2023)
+- Currencies: AFN
 - ccTLD: `.af` (manager: Ministry of Communications and IT)
 - OECD: non-member
 - UN/DESA EGDI: Rank 188 of 193

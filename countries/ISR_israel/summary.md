@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic; Hebrew
+- Population: 10134800
+- GDP per capita: 54177 US$ (2024)
+- Currencies: ILS
 - ccTLD: `.il` (manager: The Israel Internet Association (RA))
 - OECD: member since 2010
 - UN/DESA EGDI: Rank 23 of 193

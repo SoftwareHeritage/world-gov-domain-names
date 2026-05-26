@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic
+- Population: 32684503
+- GDP per capita: 634 US$ (2018)
+- Currencies: YER
 - ccTLD: `.ye` (manager: TeleYemen)
 - OECD: non-member
 - UN/DESA EGDI: Rank 185 of 193

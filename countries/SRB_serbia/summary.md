@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Southeast Europe
+- Languages: Serbian
+- Population: 6567783
+- GDP per capita: 13679 US$ (2024)
+- Currencies: RSD
 - ccTLD: `.rs` (manager: Serbian National Internet Domain Registry (RNIDS))
 - OECD: non-member
 - UN/DESA EGDI: Rank 39 of 193

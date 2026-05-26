@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Melanesia
+- Languages: English
+- Population: 750325
+- GDP per capita: 1934 US$ (2024)
+- Currencies: SBD
 - ccTLD: `.sb` (manager: Solomon Telekom Company Limited)
 - OECD: non-member
 - UN/DESA EGDI: Rank 164 of 193

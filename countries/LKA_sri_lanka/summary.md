@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Southern Asia
+- Languages: Sinhala; Tamil
+- Population: 21763170
+- GDP per capita: 4516 US$ (2024)
+- Currencies: LKR
 - ccTLD: `.lk` (manager: Council for Information Technology)
 - OECD: non-member
 - UN/DESA EGDI: Rank 98 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Eastern Europe
+- Languages: Belarusian; Russian
+- Population: 9109280
+- GDP per capita: 8318 US$ (2024)
+- Currencies: BYN
 - ccTLD: `.by` (manager: Belarusian Cloud Technologies LLC)
 - OECD: non-member
 - UN/DESA EGDI: Rank 77 of 193

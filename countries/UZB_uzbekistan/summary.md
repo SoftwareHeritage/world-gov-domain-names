@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Central Asia
+- Languages: Russian; Uzbek
+- Population: 37859698
+- GDP per capita: 3162 US$ (2024)
+- Currencies: UZS
 - ccTLD: `.uz` (manager: Single Integrator for Creation and Support of State Information Systems UZINFOCOM)
 - OECD: non-member
 - UN/DESA EGDI: Rank 63 of 193

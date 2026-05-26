@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Southeast Europe
+- Languages: Bosnian; Croatian; Serbian
+- Population: 3422000
+- GDP per capita: 9359 US$ (2024)
+- Currencies: BAM
 - ccTLD: `.ba` (manager: University Tele-Informatic Center (UTIC))
 - OECD: non-member
 - UN/DESA EGDI: Rank 107 of 193

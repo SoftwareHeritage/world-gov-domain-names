@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: Arabic
+- Population: 4927532
+- GDP per capita: 2110 US$ (2024)
+- Currencies: MRU
 - ccTLD: `.mr` (manager: Université de Nouakchott Al Aasriya)
 - OECD: non-member
 - UN/DESA EGDI: Rank 165 of 193

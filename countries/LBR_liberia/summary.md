@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: English
+- Population: 5248621
+- GDP per capita: 851 US$ (2024)
+- Currencies: LRD
 - ccTLD: `.lr` (manager: Data Technology Solutions, Inc.)
 - OECD: non-member
 - UN/DESA EGDI: Rank 182 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Northern Europe
+- Languages: Norwegian Nynorsk; Norwegian Bokmål; Sami
+- Population: 5606944
+- GDP per capita: 86785 US$ (2024)
+- Currencies: NOK
 - ccTLD: `.no` (manager: Norid A/S)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 15 of 193

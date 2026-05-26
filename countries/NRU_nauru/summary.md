@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Micronesia
+- Languages: English; Nauru
+- Population: 11680
+- GDP per capita: 13609 US$ (2024)
+- Currencies: AUD
 - ccTLD: `.nr` (manager: CENPAC NET)
 - OECD: non-member
 - UN/DESA EGDI: Rank 151 of 193

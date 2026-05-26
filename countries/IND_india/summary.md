@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Southern Asia
+- Languages: English; Hindi; Tamil
+- Population: 1417492000
+- GDP per capita: 2695 US$ (2024)
+- Currencies: INR
 - ccTLD: `.in` (manager: National Internet Exchange of India)
 - OECD: non-member
 - UN/DESA EGDI: Rank 97 of 193

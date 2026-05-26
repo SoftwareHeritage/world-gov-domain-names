@@ -1,0 +1,146 @@
+#+TITLE: scripts/ -- Babashka pipeline
+#+OPTIONS: toc:1
+
+The whole pipeline lives in =scripts/pipeline.clj= (Babashka, ~1200
+lines). Sub-commands map to dataset phases. The bash predecessor is
+archived under =scripts/obsolete/pipeline.sh=.
+
+* Single format: subdomains.csv
+
+The pipeline operates on one file per domain,
+=countries/<c>/<d>/subdomains.csv=, with header =subdomain,http_status=.
+Status is empty after =fetch= / =normalize=, filled by =probe=, and
+preserved by later phases.
+
+* Overview
+
+#+begin_src
+                    crt.sh               normalize         HTTPS
+                    ──────               ─────────         ─────
+   collect : fetch -> retry -> normalize -> probe -> collect-200
+
+                                              in parallel
+                                              ───────────
+                                              ┌─ iana
+                                              ├─ cia
+   enrich  : wikidata  ───────>  ─────────────┤
+                                              ├─ un-desa
+                                              └─ oecd
+
+   report  : cross-check  (score candidates.csv + cross_check.md)
+#+end_src
+
+All phases are *incremental* (unless =FORCE=1=).
+
+* Commands
+
+** Aggregated phases
+
+Available both as =bb pipeline <cmd>= (via =bb.edn=) and as
+=bb scripts/pipeline.clj <cmd>=:
+
+#+begin_src bash
+  bb pipeline collect            # crt.sh -> probe -> 200
+  bb pipeline enrich             # wikidata + 4 parallel sources
+  bb pipeline report             # candidates.csv + cross_check.md
+  bb pipeline all                # everything in sequence
+
+  bb pipeline report FRA_france  # restrict to one country
+  FORCE=1 bb pipeline enrich     # force-overwrite outputs
+#+end_src
+
+** Targeted phases
+
+#+begin_src bash
+  bb scripts/pipeline.clj fetch gov.it gouv.fr  # crt.sh on specific domains
+  bb scripts/pipeline.clj retry                 # replay FAILs from last log
+  bb scripts/pipeline.clj normalize             # clean every CSV
+  bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe
+  bb scripts/pipeline.clj collect-200           # rebuild all_200_domains.csv
+
+  bb scripts/pipeline.clj un-status             # regen countries/<c>/un_status
+
+  bb scripts/pipeline.clj wikidata Q142:FRA_france
+  bb scripts/pipeline.clj iana FRA_france
+  bb scripts/pipeline.clj cia FRA_france
+  bb scripts/pipeline.clj un-desa FRA_france
+  bb scripts/pipeline.clj oecd FRA_france
+  bb scripts/pipeline.clj cross-check FRA_france
+
+  bb scripts/pipeline.clj build-qid             # rebuild data/country_qid.csv
+#+end_src
+
+* Prerequisites
+
+- =babashka= (1.12+)
+- =curl=, =jq= (used internally by some phases via shell-out for speed)
+- =data/world-governments.csv= (master list with =un_status= column)
+- =data/country_qid.csv= (Wikidata mapping, built via =bb pipeline build-qid=)
+- =data/factbook_aliases.csv= and =data/un_desa_aliases.csv= (country-name overrides)
+- =countries/<ISO3>_<slug>/<domain>/= directories initialized
+
+* Environment variables
+
+| Var         | Effect                                          | Default |
+|-------------+-------------------------------------------------+---------|
+| =FORCE=     | overwrite existing outputs                      | =0=     |
+| =PARALLEL=  | concurrent requests (fetch / probe)             | varies  |
+| =TIMEOUT=   | curl timeout per HTTPS request (probe), seconds | =5=     |
+
+* Scoring (cross-check)
+
+For each uncovered candidate hostname:
+
+| Criterion                                                       | Points |
+|-----------------------------------------------------------------+--------|
+| UN/DESA-declared national portal                                |     +5 |
+| Per distinct Wikidata mention (capped at +6 = 2 mentions)       |     +3 |
+| Hostname under the country's primary ccTLD                      |     +1 |
+| Central pattern (=gov./bund./gouv./governo./gobierno./…=)       |     +1 |
+| Wikidata label contains a Factbook institution name             |     +2 |
+| Label suggests a territorial subdivision (Land, region, …)      |     -5 |
+| 3+ Wikidata mentions, none with =federal/national/sovereign=    |     -5 |
+
+Score clamped to =[0, 10]=.
+
+Output: =countries/<c>/candidates.csv= with columns
+=hostname,score,sources,label=, sorted score desc / hostname asc.
+
+* Manual curation workflow
+
+To promote a candidate into the dataset:
+
+#+begin_src bash
+  # 1. Inspect the scored candidates
+  less countries/ITA_italy/candidates.csv
+
+  # 2. If legit, create the root directory
+  mkdir -p countries/ITA_italy/quirinale.it
+
+  # 3. Run the standard pipeline on that domain
+  bb scripts/pipeline.clj fetch quirinale.it
+  bb scripts/pipeline.clj normalize
+  bb scripts/pipeline.clj probe quirinale.it
+  bb scripts/pipeline.clj collect-200
+
+  # 4. Confirm the candidate is no longer flagged
+  bb scripts/pipeline.clj report ITA_italy
+#+end_src
+
+* UN status
+
+Materialized in =countries/<c>/un_status= (=member= / =observer= /
+=non_un=), derived from the =un_status= column of
+=data/world-governments.csv=. =collect-200= regenerates the markers
+automatically when at least one is missing.
+
+Policy: status is purely informational, *no automatic filtering*.
+Filtering for the UN report:
+=awk -F, 'NR==1 || $4!="non_un"' all_200_domains.csv=.
+
+* =scripts/obsolete/=
+
+Archived scripts: =migrate_to_countries.sh= (one-shot
+=domains/= -> =countries/= migration, already done) and
+=pipeline.sh= (the previous bash implementation, replaced by
+=pipeline.clj=). See =scripts/obsolete/README.org=.

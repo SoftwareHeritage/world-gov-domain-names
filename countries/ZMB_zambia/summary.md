@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Eastern Africa
+- Languages: English
+- Population: 19693423
+- GDP per capita: 1187 US$ (2024)
+- Currencies: ZMW
 - ccTLD: `.zm` (manager: Zambia Information and Communications Technology Authority (ZICTA))
 - OECD: non-member
 - UN/DESA EGDI: Rank 130 of 193

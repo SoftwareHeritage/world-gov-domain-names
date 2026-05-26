@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: English
+- Population: 33742380
+- GDP per capita: 2391 US$ (2024)
+- Currencies: GHS
 - ccTLD: `.gh` (manager: Network Computer Systems Limited)
 - OECD: non-member
 - UN/DESA EGDI: Rank 108 of 193

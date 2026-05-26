@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Northern Africa
+- Languages: Arabic
+- Population: 7459000
+- GDP per capita: 6569 US$ (2024)
+- Currencies: LYD
 - ccTLD: `.ly` (manager: General Authority of Communications and Informatics (GACI))
 - OECD: non-member
 - UN/DESA EGDI: Rank 125 of 193

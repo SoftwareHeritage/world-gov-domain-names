@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Central America
+- Languages: Belizean Creole; English; Spanish
+- Population: 417634
+- GDP per capita: 7681 US$ (2024)
+- Currencies: BZD
 - ccTLD: `.bz` (manager: University of Belize)
 - OECD: non-member
 - UN/DESA EGDI: Rank 141 of 193

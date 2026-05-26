@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Eastern Africa
+- Languages: English; French; Mauritian Creole
+- Population: 1243741
+- GDP per capita: 11991 US$ (2024)
+- Currencies: MUR
 - ccTLD: `.mu` (manager: Internet Direct Ltd)
 - OECD: non-member
 - UN/DESA EGDI: Rank 76 of 193

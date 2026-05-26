@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Central Europe
+- Languages: Slovak
+- Population: 5413813
+- GDP per capita: 25993 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.sk` (manager: SK-NIC, a.s.)
 - OECD: member since 2000
 - UN/DESA EGDI: Rank 60 of 193

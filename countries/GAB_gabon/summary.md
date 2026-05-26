@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Middle Africa
+- Languages: French
+- Population: 2469296
+- GDP per capita: 8230 US$ (2024)
+- Currencies: XAF
 - ccTLD: `.ga` (manager: Agence Nationale des Infrastructures Numériques et des Fréquences (ANINF))
 - OECD: non-member
 - UN/DESA EGDI: Rank 121 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / South-Eastern Asia
+- Languages: Thai
+- Population: 65859640
+- GDP per capita: 7347 US$ (2024)
+- Currencies: THB
 - ccTLD: `.th` (manager: Thai Network Information Center Foundation)
 - OECD: non-member
 - UN/DESA EGDI: Rank 52 of 193

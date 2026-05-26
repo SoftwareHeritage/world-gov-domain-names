@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: English
+- Population: 223800000
+- GDP per capita: 1084 US$ (2024)
+- Currencies: NGN
 - ccTLD: `.ng` (manager: Nigeria Internet Registration Association)
 - OECD: non-member
 - UN/DESA EGDI: Rank 144 of 193

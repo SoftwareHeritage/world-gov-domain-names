@@ -3,6 +3,10 @@
 ## Overview
 
 - UN status: **Observer State** (include as observer, not as member)
+- Region: Europe / Southern Europe
+- Languages: Italian; Latin
+- Population: 882
+- Currencies: EUR
 - ccTLD: `.va` (manager: Holy See - Vatican City State)
 - OECD: non-member
 - Government type: ecclesiastical elective monarchy; self-described as an "absolute monarchy"

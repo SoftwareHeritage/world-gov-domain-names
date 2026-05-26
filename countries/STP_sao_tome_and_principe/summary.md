@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Middle Africa
+- Languages: Portuguese
+- Population: 209607
+- GDP per capita: 3491 US$ (2024)
+- Currencies: STN
 - ccTLD: `.st` (manager: Tecnisys)
 - OECD: non-member
 - UN/DESA EGDI: Rank 154 of 193

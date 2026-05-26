@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Eastern Africa
+- Languages: English; Swahili
+- Population: 68153004
+- GDP per capita: 1187 US$ (2024)
+- Currencies: TZS
 - ccTLD: `.tz` (manager: Tanzania Communications Regulatory Authority)
 - OECD: non-member
 - UN/DESA EGDI: Rank 153 of 193

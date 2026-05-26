@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: French
+- Population: 8095498
+- GDP per capita: 1119 US$ (2024)
+- Currencies: XOF
 - ccTLD: `.tg` (manager: Autorité de Régulation des Communications Electroniques et des Postes (ARCEP))
 - OECD: non-member
 - UN/DESA EGDI: Rank 161 of 193

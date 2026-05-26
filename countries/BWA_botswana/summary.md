@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Southern Africa
+- Languages: English; Tswana
+- Population: 2359609
+- GDP per capita: 7696 US$ (2024)
+- Currencies: BWP
 - ccTLD: `.bw` (manager: Botswana Communications Regulatory Authority (BOCRA))
 - OECD: non-member
 - UN/DESA EGDI: Rank 112 of 193

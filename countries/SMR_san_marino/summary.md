@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Southern Europe
+- Languages: Italian
+- Population: 34132
+- GDP per capita: 59880 US$ (2023)
+- Currencies: EUR
 - ccTLD: `.sm` (manager: Telecom Italia San Marino S.p.A.)
 - OECD: non-member
 - UN/DESA EGDI: Rank 102 of 193

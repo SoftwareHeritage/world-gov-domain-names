@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Middle Africa
+- Languages: English; French
+- Population: 29442327
+- GDP per capita: 1830 US$ (2024)
+- Currencies: XAF
 - ccTLD: `.cm` (manager: Agence Nationale des Technologies de l&#x27;Information et de la Communication (ANTIC))
 - OECD: non-member
 - UN/DESA EGDI: Rank 155 of 193

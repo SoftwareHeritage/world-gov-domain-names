@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Southern Asia
+- Languages: Maldivian
+- Population: 515132
+- GDP per capita: 13379 US$ (2024)
+- Currencies: MVR
 - ccTLD: `.mv` (manager: Dhivehi Raajjeyge Gulhun PLC)
 - OECD: non-member
 - UN/DESA EGDI: Rank 94 of 193

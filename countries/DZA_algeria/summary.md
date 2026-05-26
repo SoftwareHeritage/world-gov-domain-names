@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Northern Africa
+- Languages: Arabic
+- Population: 47400000
+- GDP per capita: 5753 US$ (2024)
+- Currencies: DZD
 - ccTLD: `.dz` (manager: CERIST)
 - OECD: non-member
 - UN/DESA EGDI: Rank 116 of 193

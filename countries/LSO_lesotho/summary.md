@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Southern Africa
+- Languages: English; Sotho
+- Population: 2116427
+- GDP per capita: 972 US$ (2024)
+- Currencies: LSL; ZAR
 - ccTLD: `.ls` (manager: Lesotho Network Information Centre Proprietary (LSNIC))
 - OECD: non-member
 - UN/DESA EGDI: Rank 157 of 193

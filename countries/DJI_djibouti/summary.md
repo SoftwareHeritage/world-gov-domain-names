@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Eastern Africa
+- Languages: Arabic; French
+- Population: 1066809
+- GDP per capita: 3553 US$ (2024)
+- Currencies: DJF
 - ccTLD: `.dj` (manager: Djibouti Telecom S.A)
 - OECD: non-member
 - UN/DESA EGDI: Rank 174 of 193

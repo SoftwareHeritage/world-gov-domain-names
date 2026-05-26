@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Central Europe
+- Languages: Slovene
+- Population: 2130638
+- GDP per capita: 34301 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.si` (manager: Academic and Research Network of Slovenia (ARNES))
 - OECD: member since 2010
 - UN/DESA EGDI: Rank 33 of 193

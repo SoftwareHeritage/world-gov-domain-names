@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Eastern Africa
+- Languages: French; Malagasy
+- Population: 31727042
+- GDP per capita: 545 US$ (2024)
+- Currencies: MGA
 - ccTLD: `.mg` (manager: NIC-MG (Network Information Center Madagascar))
 - OECD: non-member
 - UN/DESA EGDI: Rank 168 of 193

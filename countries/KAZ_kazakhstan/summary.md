@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Central Asia
+- Languages: Kazakh; Russian
+- Population: 20426568
+- GDP per capita: 14155 US$ (2024)
+- Currencies: KZT
 - ccTLD: `.kz` (manager: Association of IT Companies of Kazakhstan)
 - OECD: non-member
 - UN/DESA EGDI: Rank 24 of 193

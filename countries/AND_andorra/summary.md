@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Southern Europe
+- Languages: Catalan
+- Population: 88406
+- GDP per capita: 49304 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.ad` (manager: Andorra Telecom)
 - OECD: non-member
 - UN/DESA EGDI: Rank 88 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Central America
+- Languages: Spanish
+- Population: 4064780
+- GDP per capita: 19161 US$ (2024)
+- Currencies: PAB; USD
 - ccTLD: `.pa` (manager: Universidad Tecnologica de Panama)
 - OECD: non-member
 - UN/DESA EGDI: Rank 79 of 193

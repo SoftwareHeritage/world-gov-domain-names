@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic
+- Population: 11734000
+- GDP per capita: 4618 US$ (2024)
+- Currencies: JOD
 - ccTLD: `.jo` (manager: Ministry of Digital Economy and Entrepreneurship (MoDEE))
 - OECD: non-member
 - UN/DESA EGDI: Rank 89 of 193

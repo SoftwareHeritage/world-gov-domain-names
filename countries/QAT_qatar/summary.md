@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic
+- Population: 3173024
+- GDP per capita: 76689 US$ (2024)
+- Currencies: QAR
 - ccTLD: `.qa` (manager: Communications Regulatory Authority)
 - OECD: non-member
 - UN/DESA EGDI: Rank 53 of 193

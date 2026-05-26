@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / North America
+- Languages: Spanish
+- Population: 130575786
+- GDP per capita: 14186 US$ (2024)
+- Currencies: MXN
 - ccTLD: `.mx` (manager: NIC-Mexico)
 - OECD: member since 1994
 - UN/DESA EGDI: Rank 65 of 193

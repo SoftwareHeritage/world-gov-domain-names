@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Caribbean
+- Languages: Spanish
+- Population: 9748007
+- GDP per capita: 9605 US$ (2020)
+- Currencies: CUC; CUP
 - ccTLD: `.cu` (manager: CENIAInternet)
 - OECD: non-member
 - UN/DESA EGDI: Rank 139 of 193

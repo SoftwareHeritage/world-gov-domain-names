@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Middle Africa
+- Languages: French; Sango
+- Population: 6470307
+- GDP per capita: 516 US$ (2024)
+- Currencies: XAF
 - ccTLD: `.cf` (manager: Societe Centrafricaine de Telecommunications (SOCATEL))
 - OECD: non-member
 - UN/DESA EGDI: Rank 193 of 193

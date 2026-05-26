@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Southern Asia
+- Languages: Dzongkha
+- Population: 784043
+- GDP per capita: 3831 US$ (2023)
+- Currencies: BTN; INR
 - ccTLD: `.bt` (manager: Ministry of Information and Communications)
 - OECD: non-member
 - UN/DESA EGDI: Rank 103 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / South America
+- Languages: Spanish
+- Population: 18103660
+- GDP per capita: 6875 US$ (2024)
+- Currencies: USD
 - ccTLD: `.ec` (manager: ECUADORDOMAIN S.A.)
 - OECD: non-member
 - UN/DESA EGDI: Rank 67 of 193

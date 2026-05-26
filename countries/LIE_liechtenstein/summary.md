@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Western Europe
+- Languages: German
+- Population: 40900
+- GDP per capita: 206781 US$ (2023)
+- Currencies: CHF
 - ccTLD: `.li` (manager: SWITCH The Swiss Education &amp; Research Network)
 - OECD: non-member
 - UN/DESA EGDI: Rank 44 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Micronesia
+- Languages: English
+- Population: 105564
+- GDP per capita: 4166 US$ (2024)
+- Currencies: USD
 - ccTLD: `.fm` (manager: FSM Telecommunications Corporation)
 - OECD: non-member
 - UN/DESA EGDI: Rank 167 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Southern Africa
+- Languages: Xhosa; Southern Sotho; Tsonga; Southern Ndebele; Venda; Swazi; English; Afrikaans; Northern Sotho; Zulu; Tswana
+- Population: 63100945
+- GDP per capita: 6267 US$ (2024)
+- Currencies: ZAR
 - ccTLD: `.za` (manager: ZA Domain Name Authority)
 - OECD: non-member
 - UN/DESA EGDI: Rank 40 of 193

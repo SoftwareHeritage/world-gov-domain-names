@@ -1,0 +1,1342 @@
+#!/usr/bin/env bb
+;; world-gov-domain-names -- full pipeline (Babashka).
+;;
+;; Main commands:
+;;   collect            crt.sh harvest + normalize + probe + collect-200
+;;   enrich             wikidata (hardened) + iana/cia/un-desa/oecd/meta (parallel)
+;;   report             cross-check: score + per-country report
+;;   all                collect + enrich + report
+;;
+;; Targeted commands:
+;;   fetch [DOM…]       crt.sh fetch (1+ domains)
+;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
+;;   normalize          clean every subdomains.csv
+;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status
+;;   collect-200        aggregate all_200_domains.csv
+;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
+;;   iana [C…]          IANA ccTLD registry
+;;   cia [C…]           Government section from factbook.json
+;;   un-desa [C…]       UN/DESA national portal + EGDI
+;;   oecd [C…]          OECD membership flag
+;;   meta [C…]          country metadata (REST Countries + World Bank GDP)
+;;   cross-check [C…]   alias of report
+;;   build-qid          (re)build data/country_qid.csv
+;;
+;; Environment variables:
+;;   FORCE=1            force-overwrite existing outputs
+;;   PARALLEL           # concurrent requests (fetch/probe)
+;;   TIMEOUT            curl timeout per HTTPS request (probe), default 5s
+
+(ns pipeline
+  (:require [babashka.curl :as curl]
+            [babashka.fs :as fs]
+            [cheshire.core :as json]
+            [clojure.data.csv :as csv]
+            [clojure.java.io :as io]
+            [clojure.string :as str]))
+
+;; ===========================================================================
+;;  Config & helpers
+;; ===========================================================================
+
+(def ua "world-gov-domain-names/0.1 (https://github.com/bzg)")
+(def force? (= "1" (System/getenv "FORCE")))
+
+;; Per-source concurrency limits. Each thread fires HTTP requests against
+;; the same endpoint; numbers are picked to stay well under typical rate
+;; limits while still saturating bandwidth. Tunable via env vars.
+(defn- env-int [name default]
+  (let [v (System/getenv name)]
+    (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default)))
+
+(def conc-wikidata (env-int "CONC_WIKIDATA" 3))
+(def conc-iana     (env-int "CONC_IANA"     4))
+(def conc-cia      (env-int "CONC_CIA"      8))
+(def conc-un-desa  (env-int "CONC_UN_DESA"  4))
+
+(defn err [& xs] (binding [*out* *err*] (println (apply str xs))))
+
+(defn read-csv-file
+  "Read a CSV with header as a seq of maps {col-name value}. Column names
+  are kept as strings (preserves spaces, e.g. 'Government Portal Domain')."
+  [path]
+  (when (fs/exists? path)
+    (with-open [r (io/reader (str path))]
+      (let [rows (doall (csv/read-csv r))]
+        (when (seq rows)
+          (let [headers (first rows)]
+            (vec (for [row (rest rows)]
+                   (zipmap headers row)))))))))
+
+(defn read-csv-raw
+  "Read a CSV as a seq of vectors (header included)."
+  [path]
+  (when (fs/exists? path)
+    (with-open [r (io/reader (str path))]
+      (doall (csv/read-csv r)))))
+
+(defn write-csv-file [path header rows]
+  (when-let [parent (fs/parent path)]
+    (fs/create-dirs parent))
+  (with-open [w (io/writer (str path))]
+    (csv/write-csv w (cons header rows))))
+
+(defn ensure-dir [path] (fs/create-dirs path) path)
+
+(defn country-dirs
+  "All country_dir present under countries/. ASCII-sorted."
+  []
+  (->> (fs/list-dir "countries")
+       (filter fs/directory?)
+       (map (comp str fs/file-name))
+       sort
+       vec))
+
+(defn country-slug
+  "FRA_france -> france, COD_democratic_republic_of_the_congo -> democraticrepublicofthecongo."
+  [country-dir]
+  (-> country-dir
+      (str/split #"_" 2)
+      second
+      (or "")
+      (str/replace #"[^a-zA-Z0-9]" "")
+      str/lower-case))
+
+(defn extract-host
+  "https://www.example.com/path -> example.com. Returns nil on blank input."
+  [url]
+  (when (and url (not (str/blank? url)))
+    (-> url
+        str/lower-case
+        (str/replace #"^https?://" "")
+        (str/replace #"^www\." "")
+        (str/replace #"/.*$" "")
+        (str/replace #":.*$" ""))))
+
+(defn bounded-pmap
+  "Like pmap but with a fixed thread pool of size n. Returns a vector of
+  results. Useful when each task does HTTP and we want a controlled
+  concurrency (avoids saturating endpoints like Wikidata SPARQL)."
+  [n f coll]
+  (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int n))]
+    (try
+      (->> coll
+           (mapv #(.submit pool ^Callable (fn [] (f %))))
+           (mapv #(.get ^java.util.concurrent.Future %)))
+      (finally
+        (.shutdown pool)))))
+
+(defn iter-countries
+  "Apply f to each country_dir. concurrency >= 2 runs up to that many in
+  parallel via bounded-pmap; default 1 = sequential doseq."
+  ([f selection] (iter-countries f selection 1))
+  ([f selection concurrency]
+   (let [targets (if (seq selection) selection (country-dirs))]
+     (if (<= concurrency 1)
+       (doseq [c targets] (f c))
+       (bounded-pmap concurrency f targets)))))
+
+(defn build-un-status-map
+  "Read data/world-governments.csv once and return a map country_dir -> un_status.
+  The country_dir is recovered by matching ISO3-stripped slugs."
+  []
+  (let [master (or (read-csv-file "data/world-governments.csv") [])
+        slug->status
+        (into {}
+              (for [row master
+                    :let [country (or (get row "Country") "")
+                          slug (-> country str/lower-case
+                                   (str/replace #"[^a-z0-9]" ""))
+                          status (str/trim (or (get row "un_status") "member"))]
+                    :when (not (str/blank? slug))]
+                [slug status]))]
+    (into {}
+          (for [c (country-dirs)
+                :let [s (get slug->status (country-slug c))]
+                :when s]
+            [c s]))))
+
+(defn csv-field
+  "Read column 2 of a key-value CSV for the row where col1 == k."
+  [csv-path k]
+  (some (fn [[col1 col2]]
+          (when (= col1 k) col2))
+        (rest (read-csv-raw csv-path))))
+
+(defn skip? [out-path] (and (fs/exists? out-path) (not force?)))
+
+;; ===========================================================================
+;;  HTTP helpers
+;; ===========================================================================
+
+(defn http-get
+  "GET via babashka.curl with User-Agent and retries on network errors.
+  Returns the body string on HTTP 200, nil otherwise. Honors :timeout
+  (seconds, default 30), :retries (default 3), :query-params and :accept."
+  ([url] (http-get url {}))
+  ([url {:keys [timeout retries query-params accept]
+         :or {timeout 30 retries 3 accept "*/*"}}]
+   (loop [attempt 1]
+     (let [resp (try (curl/get url
+                               {:headers {"User-Agent" ua "Accept" accept}
+                                :query-params query-params
+                                :throw false
+                                :raw-args ["--max-time" (str timeout)]})
+                     (catch Exception _ nil))]
+       (if (and resp (= 200 (:status resp)) (not (str/blank? (:body resp))))
+         (:body resp)
+         (if (< attempt retries)
+           (do (Thread/sleep (* attempt 3000))
+               (recur (inc attempt)))
+           nil))))))
+
+;; ===========================================================================
+;;  Phase 1 -- fetch / retry (crt.sh)
+;; ===========================================================================
+
+(def source-dirs-set #{"wikidata" "iana" "un_desa" "cia_factbook" "oecd" "country_data"})
+
+(defn resolve-dirs
+  "Resolve domain names -> countries/<c>/sources/<d>/ paths. With no args,
+  returns all root-domain directories (excluding the enrichment-source
+  subdirectories iana/cia_factbook/un_desa/oecd/wikidata)."
+  [args]
+  (if (seq args)
+    (vec (mapcat (fn [d]
+                   (let [matches (filter fs/directory?
+                                         (fs/glob "countries" (str "*/sources/" d)))]
+                     (if (seq matches)
+                       (map str matches)
+                       (do (err "ERR: no country contains '" d "'") []))))
+                 args))
+    (->> (fs/glob "countries" "*/sources/*")
+         (filter fs/directory?)
+         (map str)
+         (remove #(source-dirs-set (str (fs/file-name %))))
+         vec)))
+
+(defn merge-crt-csv
+  "Merge an existing CSV (sub,status) with a fresh list of subdomain names
+  (one per line). On duplicates, preserve the non-empty status."
+  [existing-path fresh-names]
+  (let [existing (when (fs/exists? existing-path)
+                   (rest (read-csv-raw existing-path)))
+        from-existing (for [[sub status] existing]
+                        [sub (or status "")])
+        from-fresh (for [n fresh-names] [n ""])
+        merged (reduce (fn [m [sub st]]
+                         (let [cur (get m sub)]
+                           (if (or (nil? cur) (and (str/blank? cur)
+                                                   (not (str/blank? st))))
+                             (assoc m sub st)
+                             m)))
+                       {} (concat from-existing from-fresh))]
+    (sort-by first merged)))
+
+(defn fetch-one!
+  "Fetch subdomains for basename(dir) from crt.sh and merge them into
+  dir/subdomains.csv. Returns :ok or :fail."
+  [dir]
+  (let [domain (str (fs/file-name dir))
+        out (str dir "/subdomains.csv")
+        url (str "https://crt.sh/?q=%25." domain "&output=json")
+        body (http-get url {:timeout 120 :retries 1 :accept "application/json"})]
+    (if body
+      (let [names (try
+                    (->> (json/parse-string body true)
+                         (map :name_value)
+                         (mapcat #(str/split-lines (str %)))
+                         (map #(str/replace % #"^\*\." ""))
+                         (filter seq)
+                         distinct)
+                    (catch Exception _ []))
+            merged (merge-crt-csv out names)]
+        (write-csv-file out ["subdomain" "http_status"] (map vec merged))
+        (println (str "OK   " domain " (" (count merged) " lignes)"))
+        :ok)
+      (do (println (str "FAIL " domain))
+          (when-not (fs/exists? out)
+            (write-csv-file out ["subdomain" "http_status"] []))
+          :fail))))
+
+(defn parallel
+  "Read PARALLEL env var, fall back to default-n."
+  [default-n]
+  (let [v (System/getenv "PARALLEL")]
+    (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default-n)))
+
+(defn cmd-fetch [args]
+  (bounded-pmap (parallel 4) fetch-one! (resolve-dirs args)))
+
+(defn retry-one!
+  [dir]
+  (let [domain (str (fs/file-name dir))
+        url (str "https://crt.sh/?q=%25." domain "&output=json")]
+    (loop [attempt 1]
+      (let [body (http-get url {:timeout 180 :retries 1 :accept "application/json"})]
+        (if body
+          (do (fetch-one! dir)
+              (println (str "  [retry=" attempt "] OK " domain)))
+          (if (< attempt 3)
+            (do (Thread/sleep (* attempt 5000))
+                (recur (inc attempt)))
+            (println (str "FAIL " domain " after 3 attempts"))))))))
+
+(defn cmd-retry [args]
+  (let [domains (if (seq args)
+                  args
+                  (let [log "/tmp/fetch_subdomains.log"]
+                    (when (fs/exists? log)
+                      (->> (slurp log) str/split-lines
+                           (filter #(str/starts-with? % "FAIL"))
+                           (map #(second (str/split % #"\s+")))
+                           (filter seq)))))]
+    (if (empty? domains)
+      (do (err "No FAIL in /tmp/fetch_subdomains.log (and no argument provided).") 1)
+      (do (bounded-pmap (parallel 2) retry-one! (resolve-dirs (vec domains)))
+          0))))
+
+;; ===========================================================================
+;;  Phase 2 -- normalize
+;; ===========================================================================
+
+(defn normalize-csv-rows
+  "For each subdomain row: trim, lowercase, strip leading *., drop residual
+  wildcards and email addresses, dedup keeping non-empty status, ASCII sort."
+  [rows]
+  (let [cleaned
+        (for [[dom & rest-cols] rows
+              :let [dom (some-> dom str/trim str/lower-case
+                                (str/replace #"^\*\." ""))
+                    status (str/join "," (or rest-cols []))]
+              :when (and dom (not (str/blank? dom))
+                         (not (re-find #"\*" dom))
+                         (not (re-find #"@" dom)))]
+          [dom status])
+        merged (reduce (fn [m [dom st]]
+                         (let [cur (get m dom)]
+                           (if (or (nil? cur)
+                                   (and (str/blank? cur) (not (str/blank? st))))
+                             (assoc m dom st)
+                             m)))
+                       {} cleaned)]
+    (sort-by first merged)))
+
+(defn cmd-normalize [_]
+  (doseq [csv (fs/glob "countries" "*/sources/*/subdomains.csv")
+          :let [path (str csv)
+                parent-name (str (fs/file-name (fs/parent csv)))]
+          :when (not (source-dirs-set parent-name))]
+    (let [rows (rest (read-csv-raw path))
+          before (count rows)
+          normalized (normalize-csv-rows rows)
+          after (count normalized)]
+      (write-csv-file path ["subdomain" "http_status"]
+                      (for [[d s] normalized] [d s]))
+      (println (str "[" parent-name "] " before " -> " after)))))
+
+;; ===========================================================================
+;;  Phase 3 -- probe
+;; ===========================================================================
+
+(defn probe-one!
+  "HTTPS HEAD via babashka.curl. Returns [sub status] where status is the
+  HTTP code (e.g. \"200\") on success or a short error message on failure."
+  [sub timeout]
+  (let [resp (try
+               (curl/head (str "https://" sub "/")
+                          {:throw false
+                           :raw-args ["--max-time" (str timeout)
+                                      "--connect-timeout" (str timeout)]})
+               (catch Exception e
+                 {:err (or (.getMessage e) "exception")}))
+        code (some-> resp :status str)
+        status (cond
+                 (and code (not (#{"0" "000"} code))) code
+                 (:err resp)                          (:err resp)
+                 :else                                 "unknown error")]
+    [sub status]))
+
+(defn probe-domain! [dir timeout]
+  (let [csv (str dir "/subdomains.csv")
+        name (str (fs/file-name dir))]
+    (when (and (fs/exists? csv) (not (source-dirs-set name)))
+      (let [all-rows (rest (read-csv-raw csv))
+            to-probe (filter (fn [[_ s]] (str/blank? s)) all-rows)
+            kept     (remove (fn [[_ s]] (str/blank? s)) all-rows)]
+        (if (empty? to-probe)
+          (println (str "[" name "] no empty-status row to probe"))
+          (do
+            (println (str "[" name "] " (count to-probe) " subdomains to probe"))
+            (let [probed (bounded-pmap (parallel 50)
+                                       #(probe-one! (first %) timeout)
+                                       to-probe)]
+              (write-csv-file csv ["subdomain" "http_status"]
+                              (sort-by first (concat kept probed))))))))))
+
+(defn cmd-probe [args]
+  (let [timeout (Integer/parseInt (or (System/getenv "TIMEOUT") "5"))]
+    (doseq [d (resolve-dirs args)] (probe-domain! d timeout))))
+
+;; ===========================================================================
+;;  Phase 4 -- collect_200
+;; ===========================================================================
+
+(defn- regenerate-country-subdomains!
+  "Aggregate countries/<c>/sources/<root>/subdomains.csv into one
+  countries/<c>/subdomains.csv with columns subdomain,parent_domain,http_status.
+  Skips the enrichment-source subdirs."
+  [country-dir]
+  (let [out (str "countries/" country-dir "/subdomains.csv")
+        rows (->> (fs/glob (str "countries/" country-dir "/sources") "*/subdomains.csv")
+                  (mapcat (fn [csv]
+                            (let [parent (str (fs/file-name (fs/parent csv)))]
+                              (when-not (source-dirs-set parent)
+                                (for [[sub & rest-cols] (rest (read-csv-raw (str csv)))
+                                      :when (and sub (not (str/blank? sub)))]
+                                  [sub parent (str/join "," (or rest-cols []))])))))
+                  (sort-by first))]
+    (write-csv-file out ["subdomain" "parent_domain" "http_status"] rows)))
+
+(defn- country-meta-field
+  "Read one field from countries/<c>/sources/country_data/info.csv (or \"\")."
+  [country-dir field]
+  (or (csv-field (str "countries/" country-dir "/sources/country_data/info.csv") field)
+      ""))
+
+(defn cmd-collect-200 [_]
+  (let [out "all_200_domains.csv"
+        un-by-country (build-un-status-map)
+        meta-by-country
+        (into {}
+              (for [c (country-dirs)]
+                [c {:region   (country-meta-field c "region")
+                    :langs    (country-meta-field c "languages")
+                    :gdp      (country-meta-field c "gdp_per_capita")}]))
+        rows (->> (fs/glob "countries" "*/sources/*/subdomains.csv")
+                  (mapcat (fn [csv]
+                            (let [parent  (str (fs/file-name (fs/parent csv)))
+                                  country (str (fs/file-name
+                                                 (fs/parent (fs/parent (fs/parent csv)))))
+                                  un (get un-by-country country "member")
+                                  m  (get meta-by-country country)]
+                              (when-not (source-dirs-set parent)
+                                (for [[sub status] (rest (read-csv-raw (str csv)))
+                                      :when (= status "200")]
+                                  [sub parent country un
+                                   (:region m) (:langs m) (:gdp m)])))))
+                  (sort-by first)
+                  distinct)]
+    (write-csv-file out
+                    ["subdomain" "parent_domain" "country" "un_status"
+                     "region" "languages" "gdp_per_capita"]
+                    rows)
+    (doseq [c (country-dirs)] (regenerate-country-subdomains! c))
+    (let [counts (frequencies (map #(nth % 3) rows))]
+      (println (str "Wrote " out " (" (count rows) " HTTP 200 subdomains)"))
+      (println (str "  UN members: " (get counts "member" 0)
+                    " ; observers: " (get counts "observer" 0)
+                    " ; non-UN: " (get counts "non_un" 0))))))
+
+;; ===========================================================================
+;;  Phase 5 -- Wikidata (fetch + diff)
+;; ===========================================================================
+
+(def wikidata-endpoint "https://query.wikidata.org/sparql")
+
+;; qid type strictness. :strict applies heavy anti-subdivision filters
+;; (P1001 jurisdiction + exclude territorial entities). Useful for high-volume
+;; classes that pollute with subnational entities. :light keeps only the
+;; "not dissolved" filter -- needed for classes whose strict SPARQL times out
+;; (parliament does timeout). The score function applies the subdivision
+;; penalty downstream regardless of strictness.
+(def wikidata-classes
+  [["Q192350" "ministry"             :strict]
+   ["Q11204"  "parliament"           :light]
+   ["Q193445" "central_bank"         :light]
+   ["Q35798"  "constitutional_court" :light]
+   ["Q35749"  "supreme_court"        :light]])
+
+(defn wikidata-query [class-qid country-qid strictness]
+  (let [strict-filters
+        (if (= strictness :strict)
+          (str "  FILTER NOT EXISTS { ?org wdt:P1001 ?j . FILTER(?j != wd:" country-qid ") }\n"
+               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q56061 }\n"
+               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q10864048 }\n"
+               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q13220204 }\n"
+               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q1799794 }\n")
+          "")]
+    (str "SELECT DISTINCT ?org ?orgLabel ?website WHERE {\n"
+         "  ?org wdt:P31/wdt:P279* wd:" class-qid " ;\n"
+         "       wdt:P17 wd:" country-qid " ;\n"
+         "       wdt:P856 ?website .\n"
+         "  FILTER NOT EXISTS { ?org wdt:P576 ?d }\n"
+         strict-filters
+         "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
+         "}")))
+
+(defn wikidata-run-query [q]
+  (http-get wikidata-endpoint
+            {:timeout 180 :retries 3
+             :accept "application/sparql-results+json"
+             :query-params {"query" q}}))
+
+(defn known-roots
+  "Already-covered roots: every countries/<c>/sources/<root>/ excluding
+  the enrichment-source subdirectories (iana/cia_factbook/un_desa/oecd/wikidata)."
+  []
+  (->> (fs/glob "countries" "*/sources/*")
+       (filter fs/directory?)
+       (map (comp str fs/file-name))
+       (remove source-dirs-set)
+       distinct
+       sort))
+
+(defn host-covered? [host known]
+  (some (fn [k] (or (= host k) (str/ends-with? host (str "." k)))) known))
+
+(defn wikidata-write-missing! [in-path out-path]
+  (let [known (known-roots)
+        rows (rest (read-csv-raw in-path))
+        missing (filter (fn [row]
+                          (let [host (last row)]
+                            (and (not (str/blank? host))
+                                 (not (host-covered? host known)))))
+                        rows)]
+    (write-csv-file out-path ["type" "label" "website" "hostname"] missing)
+    (count missing)))
+
+(defn wikidata-process! [country-qid country-dir]
+  (let [out (str "countries/" country-dir "/sources/wikidata/central_admin.csv")
+        missing-out (str "countries/" country-dir "/sources/wikidata/missing_domains.csv")]
+    (ensure-dir (fs/parent out))
+    (if (skip? out)
+      (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
+          (wikidata-write-missing! out missing-out))
+      (do
+        (println (str "=== " country-dir " (" country-qid ") ==="))
+        (let [all-rows
+              (apply concat
+                     (for [[qid type strictness] wikidata-classes
+                           :let [q (wikidata-query qid country-qid strictness)
+                                 body (wikidata-run-query q)]]
+                       (if body
+                         (let [bindings (-> (json/parse-string body true)
+                                            :results :bindings)
+                               n (count bindings)
+                               _ (err (str "  [" type "] " n " results"))]
+                           (Thread/sleep 1000)
+                           (for [b bindings
+                                 :let [url (-> b :website :value)
+                                       lbl (-> b :orgLabel :value)
+                                       host (extract-host url)]
+                                 :when host]
+                             [type lbl url host]))
+                         (do (err (str "  [" type "] failed after 3 attempts")) []))))]
+          (write-csv-file out ["type" "label" "website" "hostname"] all-rows)
+          (println (str "  -> " out " (" (count all-rows) " entries)"))
+          (let [n-miss (wikidata-write-missing! out missing-out)]
+            (println (str "  -> " missing-out " (" n-miss " uncovered candidates)"))))))))
+
+(defn cmd-wikidata [args]
+  (let [pairs (cond
+                (seq args)
+                (mapv #(let [[qid c] (str/split % #":" 2)] [qid c]) args)
+
+                (fs/exists? "data/country_qid.csv")
+                (mapv (fn [row] [(get row "wikidata_qid") (get row "country_dir")])
+                      (read-csv-file "data/country_qid.csv"))
+
+                :else nil)]
+    (if (nil? pairs)
+      (do (err "ERR: data/country_qid.csv missing. Run 'bb pipeline build-qid' first")
+          (System/exit 1))
+      (bounded-pmap conc-wikidata
+                    (fn [[qid c]] (wikidata-process! qid c))
+                    pairs))))
+
+;; ===========================================================================
+;;  Phase 6 -- IANA
+;; ===========================================================================
+
+(defn iana-portal-for [country-dir]
+  (let [target (country-slug country-dir)]
+    (some (fn [row]
+            (let [s (-> (or (get row "Country") "")
+                        str/lower-case
+                        (str/replace #"[^a-z0-9]" ""))]
+              (when (= s target) (get row "Government Portal Domain"))))
+          (read-csv-file "data/world-governments.csv"))))
+
+(defn iana-fetch-html [cctld]
+  (http-get (str "https://www.iana.org/domains/root/db/" cctld ".html")
+            {:timeout 30}))
+
+(defn iana-extract-field [html h2]
+  (when html
+    (when-let [match (second
+                       (re-find (re-pattern
+                                  (str "<h2>" (java.util.regex.Pattern/quote h2)
+                                       "</h2>[\\s\\S]*?<b>([^<]+)"))
+                                html))]
+      (str/trim match))))
+
+(defn iana-extract-url [html label]
+  (when html
+    (second
+      (re-find (re-pattern (str "<b>" (java.util.regex.Pattern/quote label)
+                                ":</b> <a href=\"([^\"]+)\""))
+               html))))
+
+(defn iana-extract-whois [html]
+  (when html
+    (some-> (re-find #"WHOIS Server:</b>\s*([^<\s]+)" html)
+            second
+            str/trim)))
+
+(defn iana-process! [country-dir]
+  (let [portal (iana-portal-for country-dir)]
+    (cond
+      (str/blank? portal)
+      (err "  [" country-dir "] no portal in data/world-governments.csv")
+
+      :else
+      (let [cctld (-> portal (str/split #"\.") last str/lower-case)
+            out (str "countries/" country-dir "/sources/iana/cctld.csv")]
+        (cond
+          (or (str/blank? cctld) (< (count cctld) 2))
+          (err "  [" country-dir "] invalid cctld derived from '" portal "'")
+
+          (skip? out)
+          (println (str "=== " country-dir " (." cctld ") : SKIP"))
+
+          :else
+          (do
+            (println (str "=== " country-dir " (." cctld ") ==="))
+            (if-let [html (iana-fetch-html cctld)]
+              (let [manager  (or (iana-extract-field html "ccTLD Manager")
+                                 (iana-extract-field html "Sponsoring Organisation")
+                                 "")
+                    registry (or (iana-extract-url html "URL for registration services") "")
+                    whois    (or (iana-extract-whois html) "")]
+                (write-csv-file out ["cctld" "manager" "registry_url" "whois_server"]
+                                [[(str "." cctld) manager registry whois]])
+                (println (str "  -> " out " (manager: " (or manager "?") ")"))
+                (Thread/sleep 1000))
+              (err "  failed after 3 attempts for ." cctld))))))))
+
+(defn cmd-iana [args] (iter-countries iana-process! args conc-iana))
+
+;; ===========================================================================
+;;  Phase 6 -- CIA Factbook
+;; ===========================================================================
+
+(def factbook-map-file "data/factbook_gec.csv")
+(def factbook-tree-cache "/tmp/world-gov-factbook-tree.json")
+
+(defn cia-build-map! []
+  (when-not (and (fs/exists? factbook-map-file)
+                 (not force?)
+                 (> (dec (count (read-csv-raw factbook-map-file))) 150))
+    (err "Building country_dir <-> Factbook GEC map…")
+    (when (or (not (fs/exists? factbook-tree-cache)) force?)
+      (when-let [body (http-get "https://api.github.com/repos/factbook/factbook.json/git/trees/master?recursive=1"
+                                {:timeout 30 :accept "application/json"})]
+        (spit factbook-tree-cache body)))
+    (let [tree (-> (slurp factbook-tree-cache)
+                   (json/parse-string true)
+                   :tree)
+          json-paths (->> tree
+                          (filter #(str/ends-with? (:path %) ".json"))
+                          (map :path))
+          region-by-gec (into {}
+                              (for [p json-paths
+                                    :let [[region file] (str/split p #"/")
+                                          gec (str/replace file #"\.json$" "")]]
+                                [gec region]))
+          summary (or (http-get "https://raw.githubusercontent.com/factbook/factbook.json/master/SUMMARY.md")
+                      "")
+          pairs (for [[_ gec name] (re-seq #"`([a-z]+)` ([^`\n]+)" summary)
+                      :let [norm (-> name str/trim str/lower-case
+                                     (str/replace #"[^a-z0-9]" ""))]]
+                  [gec name norm])
+          slug->dir (into {} (for [c (country-dirs)] [(country-slug c) c]))
+          matched (for [[gec _name norm] pairs
+                        :let [dir (get slug->dir norm)
+                              region (get region-by-gec gec)]
+                        :when (and dir region)]
+                    [dir gec region])
+          aliases (or (read-csv-raw "data/factbook_aliases.csv") [])
+          alias-rows (rest aliases)
+          all (concat matched alias-rows)
+          dedup (->> all
+                     (reduce (fn [acc r] (if (get acc (first r)) acc
+                                             (assoc acc (first r) r)))
+                             {})
+                     vals
+                     (sort-by first))]
+      (write-csv-file factbook-map-file ["country_dir" "gec" "region"] dedup)
+      (err "  -> " factbook-map-file " (" (count dedup) " countries mapped)"))))
+
+(defn decode-html-entities [s]
+  (when s
+    (-> s
+        (str/replace #"&#x([0-9a-fA-F]+);" (fn [[_ hex]] (str (char (Integer/parseInt hex 16)))))
+        (str/replace #"&#(\d+);" (fn [[_ n]] (str (char (Integer/parseInt n)))))
+        (str/replace #"&amp;" "&")
+        (str/replace #"&lt;" "<")
+        (str/replace #"&gt;" ">")
+        (str/replace #"&quot;" "\"")
+        (str/replace #"&#39;" "'")
+        (str/replace #"&eacute;" "é") (str/replace #"&egrave;" "è")
+        (str/replace #"&ecirc;" "ê")  (str/replace #"&agrave;" "à")
+        (str/replace #"&acirc;" "â")  (str/replace #"&ccedil;" "ç")
+        (str/replace #"&ouml;" "ö")   (str/replace #"&auml;" "ä")
+        (str/replace #"&uuml;" "ü")   (str/replace #"&ntilde;" "ñ")
+        (str/replace #"<[^>]+>" "")
+        (str/replace #"\s+" " ")
+        str/trim)))
+
+(defn cia-extract [gov-json paths]
+  (loop [m gov-json [k & ks] paths]
+    (cond
+      (nil? k) (-> m :text decode-html-entities)
+      (map? m) (recur (get m k) ks)
+      :else nil)))
+
+(def cia-fields
+  [["country_name"            ["Country name" "conventional long form"]]
+   ["government_type"         ["Government type"]]
+   ["capital"                 ["Capital" "name"]]
+   ["chief_of_state"          ["Executive branch" "chief of state"]]
+   ["head_of_government"      ["Executive branch" "head of government"]]
+   ["legislature"             ["Legislative branch" "description"]]
+   ["judicial_highest_courts" ["Judicial branch" "highest court(s)"]]
+   ["constitution_history"    ["Constitution" "history"]]])
+
+(defn cia-process! [country-dir]
+  (let [map-row (some #(when (= (first %) country-dir) %)
+                      (rest (read-csv-raw factbook-map-file)))]
+    (if-not map-row
+      (err "  [" country-dir "] no Factbook GEC mapping")
+      (let [[_ gec region] map-row
+            raw (str "countries/" country-dir "/sources/cia_factbook/government.json")
+            out (str "countries/" country-dir "/sources/cia_factbook/summary.csv")]
+        (ensure-dir (fs/parent raw))
+        (if (skip? raw)
+          (println (str "=== " country-dir " (" gec ") : SKIP"))
+          (do
+            (println (str "=== " country-dir " (" gec ", " region ") ==="))
+            (let [url (str "https://raw.githubusercontent.com/factbook/factbook.json/master/"
+                           region "/" gec ".json")
+                  body (http-get url {:timeout 30 :accept "application/json"})]
+              (if (str/blank? body)
+                (err "  fetch failed")
+                (let [parsed (json/parse-string body true)
+                      gov (:Government parsed)]
+                  (if (nil? gov)
+                    (err "  no Government section in response")
+                    (do (spit raw (json/generate-string gov {:pretty true}))
+                        (write-csv-file
+                          out ["field" "text"]
+                          (for [[k path] cia-fields
+                                :let [v (cia-extract gov (map keyword path))]
+                                :when (not (str/blank? v))]
+                            [k v]))
+                        (println (str "  -> " raw " + " out))
+                        (Thread/sleep 1000))))))))))))
+
+(defn cmd-cia [args]
+  (cia-build-map!)
+  (iter-countries cia-process! args conc-cia))
+
+;; ===========================================================================
+;;  Phase 6 -- UN/DESA
+;; ===========================================================================
+
+(def un-desa-map-file "data/un_desa_ids.csv")
+
+(defn un-desa-build-map! []
+  (when-not (and (fs/exists? un-desa-map-file)
+                 (not force?)
+                 (> (dec (count (read-csv-raw un-desa-map-file))) 150))
+    (err "Building country_dir <-> UN/DESA id map…")
+    (let [body (or (http-get "https://publicadministration.un.org/egovkb/en-us/Data-Center"
+                             {:timeout 30})
+                   "")
+          pairs (->> (re-seq #"/Data/Country-Information/id/(\d+)-([A-Za-z-]+)" body)
+                     (map (fn [[_ id name]]
+                            [id name (-> name str/lower-case
+                                         (str/replace #"-" ""))]))
+                     distinct)
+          slug->dir (into {} (for [c (country-dirs)] [(country-slug c) c]))
+          matched (for [[id name norm] pairs
+                        :let [dir (get slug->dir norm)]
+                        :when dir]
+                    [dir id name])
+          aliases (rest (or (read-csv-raw "data/un_desa_aliases.csv") []))
+          all (concat matched aliases)
+          dedup (->> all
+                     (reduce (fn [acc r] (if (get acc (first r)) acc
+                                             (assoc acc (first r) r)))
+                             {})
+                     vals
+                     (sort-by first))]
+      (write-csv-file un-desa-map-file ["country_dir" "un_id" "un_name"] dedup)
+      (err "  -> " un-desa-map-file " (" (count dedup) " countries mapped)"))))
+
+(defn un-desa-process! [country-dir]
+  (let [map-row (some #(when (= (first %) country-dir) %)
+                      (rest (read-csv-raw un-desa-map-file)))]
+    (if-not map-row
+      (err "  [" country-dir "] no UN/DESA id mapping")
+      (let [[_ un-id un-name] map-row
+            out (str "countries/" country-dir "/sources/un_desa/summary.csv")]
+        (ensure-dir (fs/parent out))
+        (if (skip? out)
+          (println (str "=== " country-dir " (UN id=" un-id ") : SKIP"))
+          (do
+            (println (str "=== " country-dir " (UN id=" un-id " " un-name ") ==="))
+            (let [url (str "https://publicadministration.un.org/egovkb/en-us/Data/Country-Information/id/"
+                           un-id "-" un-name)
+                  html (http-get url {:timeout 30})]
+              (if (str/blank? html)
+                (err "  fetch failed")
+                (let [portal (second (re-find #"<a href=\"([^\"]+)\">National Portal</a>" html))
+                      rank (re-find #"Rank \d+ of \d+" html)
+                      rows (cond-> []
+                             portal (conj ["national_portal" portal])
+                             rank   (conj ["egdi_rank" rank])
+                             true   (conj ["source_url" url]))]
+                  (write-csv-file out ["field" "text"] rows)
+                  (println (str "  -> " out " (portal: " (or portal "?")
+                                ", " (or rank "no rank") ")"))
+                  (Thread/sleep 1000))))))))))
+
+(defn cmd-un-desa [args]
+  (un-desa-build-map!)
+  (iter-countries un-desa-process! args conc-un-desa))
+
+;; ===========================================================================
+;;  Phase 6 -- OECD
+;; ===========================================================================
+
+(def oecd-gag-url "https://www.oecd.org/en/topics/government-at-a-glance.html")
+(def oecd-sdmx-url "https://sdmx.oecd.org/public/rest/dataflow/OECD.GOV.GIP/DSD_GOV@DF_GOV_2025")
+
+;; 38 members as of May 2026 (latest accession: Croatia 2025).
+(def oecd-members
+  {"AUS" 1971 "AUT" 1961 "BEL" 1961 "CAN" 1961 "CHL" 2010 "COL" 2020
+   "CRI" 2021 "CZE" 1995 "DNK" 1961 "EST" 2010 "FIN" 1969 "FRA" 1961
+   "DEU" 1961 "GRC" 1961 "HRV" 2025 "HUN" 1996 "ISL" 1961 "IRL" 1961
+   "ISR" 2010 "ITA" 1962 "JPN" 1964 "KOR" 1996 "LVA" 2016 "LTU" 2018
+   "LUX" 1961 "MEX" 1994 "NLD" 1961 "NZL" 1973 "NOR" 1961 "POL" 1996
+   "PRT" 1961 "SVK" 2000 "SVN" 2010 "ESP" 1961 "SWE" 1961 "CHE" 1961
+   "TUR" 1961 "GBR" 1961 "USA" 1961})
+
+(defn oecd-process! [country-dir]
+  (let [iso3 (first (str/split country-dir #"_"))
+        out (str "countries/" country-dir "/sources/oecd/membership.csv")
+        since (get oecd-members iso3)]
+    (ensure-dir (fs/parent out))
+    (cond
+      (skip? out)
+      (println (str "=== " country-dir " : SKIP"))
+
+      since
+      (do (write-csv-file out ["field" "text"]
+                          [["oecd_member" "yes"]
+                           ["member_since" (str since)]
+                           ["gov_at_a_glance" oecd-gag-url]
+                           ["sdmx_dataflow" oecd-sdmx-url]])
+          (println (str "=== " country-dir " : OECD member (since " since ")")))
+
+      :else
+      (do (write-csv-file out ["field" "text"] [["oecd_member" "no"]])
+          (println (str "=== " country-dir " : non-member"))))))
+
+(defn cmd-oecd [args] (iter-countries oecd-process! args))
+
+;; ===========================================================================
+;;  Phase 6 -- Country metadata (REST Countries + World Bank)
+;; ===========================================================================
+
+(def conc-meta (env-int "CONC_META" 4))
+
+(defn meta-rest-countries
+  "Fetch region/subregion/languages/currency/population/capital for an ISO3
+  code from restcountries.com. Returns a map or nil."
+  [iso3]
+  (let [body (http-get (str "https://restcountries.com/v3.1/alpha/" iso3
+                            "?fields=region,subregion,languages,currencies,population,capital")
+                       {:timeout 30 :accept "application/json"})]
+    (when body
+      (try
+        (let [d (json/parse-string body true)]
+          {:region     (or (:region d) "")
+           :subregion  (or (:subregion d) "")
+           :languages  (->> (vals (:languages d)) (str/join "; "))
+           :currencies (->> (:currencies d) keys (map name) (str/join "; "))
+           :population (str (or (:population d) ""))
+           :capital    (->> (:capital d) (str/join "; "))})
+        (catch Exception _ nil)))))
+
+(defn meta-world-bank-gdp
+  "Fetch most recent GDP per capita (current US$, NY.GDP.PCAP.CD) for an ISO3
+  code from the World Bank API. Returns [value year] or nil."
+  [iso3]
+  (let [body (http-get (str "https://api.worldbank.org/v2/country/" iso3
+                            "/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1")
+                       {:timeout 30 :accept "application/json"})]
+    (when body
+      (try
+        (let [entry (some-> (json/parse-string body true) second first)]
+          (when (:value entry)
+            [(:value entry) (:date entry)]))
+        (catch Exception _ nil)))))
+
+(defn meta-process! [country-dir]
+  (let [iso3 (first (str/split country-dir #"_"))
+        out  (str "countries/" country-dir "/sources/country_data/info.csv")]
+    (ensure-dir (fs/parent out))
+    (if (skip? out)
+      (println (str "=== " country-dir " : SKIP"))
+      (let [rc  (meta-rest-countries iso3)
+            gdp (meta-world-bank-gdp iso3)
+            [gdp-val gdp-year] gdp]
+        (write-csv-file
+          out ["field" "value"]
+          [["region"          (or (:region rc) "")]
+           ["subregion"       (or (:subregion rc) "")]
+           ["languages"       (or (:languages rc) "")]
+           ["currencies"      (or (:currencies rc) "")]
+           ["population"      (or (:population rc) "")]
+           ["capital"         (or (:capital rc) "")]
+           ["gdp_per_capita"  (if gdp-val (format "%.0f" (double gdp-val)) "")]
+           ["gdp_year"        (or gdp-year "")]])
+        (println (str "=== " country-dir " : " (or (:region rc) "?")
+                      " / GDP " (if gdp-val (format "%.0f" (double gdp-val)) "?")
+                      " (" (or gdp-year "?") ")"))
+        (Thread/sleep 300)))))
+
+(defn cmd-meta [args] (iter-countries meta-process! args conc-meta))
+
+;; ===========================================================================
+;;  enrich = wikidata + (iana + cia + un-desa + oecd + meta in parallel)
+;; ===========================================================================
+
+(defn cmd-enrich
+  "Run the 5 enrichment sources fully in parallel. Each source manages its
+  own intra-source concurrency (see conc-wikidata, conc-iana, …).
+  Logs are streamed to temp files, displayed after all sources finish."
+  [args]
+  (err "-> wikidata + iana + cia + un-desa + oecd (all in parallel)…")
+  (let [logs (fs/create-temp-dir)
+        spawn (fn [name f]
+                (future
+                  (try
+                    (let [out-file (str logs "/" name ".log")]
+                      (with-open [w (io/writer out-file)]
+                        (binding [*out* w] (f args)))
+                      [name :ok nil])
+                    (catch Exception e
+                      [name :fail (str (.getMessage e)
+                                       " (" (.getName (class e)) ")")]))))
+        sources [["wikidata" cmd-wikidata]
+                 ["iana"     cmd-iana]
+                 ["cia"      cmd-cia]
+                 ["un_desa"  cmd-un-desa]
+                 ["oecd"     cmd-oecd]
+                 ["meta"     cmd-meta]]
+        futures (mapv (fn [[n f]] (spawn n f)) sources)
+        results (mapv deref futures)]
+    (doseq [[name status msg] results]
+      (err (str (if (= status :ok) "  ✓ " "  ✗ ") name
+                (if (= status :ok) " OK"
+                    (str " failed: " (or msg "(no message)"))))))
+    (println "\n=== enrich summary ===")
+    (doseq [[name _] sources]
+      (println (str "--- " name " ---"))
+      (let [log-file (str logs "/" name ".log")]
+        (when (fs/exists? log-file)
+          (doseq [l (take-last 10 (str/split-lines (slurp log-file)))]
+            (println l)))))
+    (fs/delete-tree logs)))
+
+;; ===========================================================================
+;;  Phase 7 -- cross-check (score + rapport)
+;; ===========================================================================
+
+(def gov-pattern
+  #"(?i)(?:^|\.)(?:gov|bund|govt|gouv|governo|gobierno|kormany|hallinto|riksdag|presidencia|presidence|parlement|parlamento|parliament|admin)(?:\.|$)")
+
+(def subdiv-pattern
+  #"(?i)(?:departmental|départemental|departementale|départementale|regional|régional|state ministry|prefecture|préfecture|conseil général|general council|county council|provincial|county of|municipal|metropolitan|community of|communauté|comunidad autónoma|comunità|länder|bundesland|senate department|staatskanzlei|landtag|free state of|land of |bavaria|bavarian|bayer(?:ian|n)|saxony|saxon|sächs|hessian|hesse|hessisch|niedersä|niedersaechs|lower saxony|nordrhein|north rhine|westfalen|westphalia|baden-würt|baden-wuert|saarland|saarl|brandenburg|bremen ministry|free hanseatic|schleswig-holstein|mecklenburg|vorpommern|thüring|thuering|thuringia|rheinland-pfalz|rhineland-palatinate|hamburg ministry|hamburg(?:ische|er) (?:ministerium|behörde)|berlin senate|berlin(?:er) senat)")
+
+(def federal-pattern
+  #"(?i)(?:federal|national|sovereign|state of [a-z]+ federation)")
+
+(def secondary-tlds
+  {"GBR_united_kingdom" #{"scot" "wales" "im" "je" "gg" "gi" "io"}
+   "DNK_denmark"        #{"fo" "gl"}
+   "NLD_netherlands"    #{"aw" "cw" "sx"}})
+
+(def multi-tlds
+  #{"co.uk" "gov.uk" "ac.uk" "org.uk" "com.au" "gov.au" "org.au"
+    "co.nz" "gov.nz" "com.br" "gov.br" "co.za" "gov.za"})
+
+(defn parent-domain [host]
+  (or (some #(when (str/ends-with? host (str "." %)) %) multi-tlds)
+      (let [parts (str/split host #"\.")
+            n (count parts)]
+        (when (>= n 2)
+          (str (nth parts (- n 2)) "." (last parts))))))
+
+(defn extract-factbook-phrases
+  "Split the Factbook description into phrases >= 12 chars, lowercase."
+  [s]
+  (when s
+    (->> (-> s
+             (str/replace #"\([^)]*\)" "")
+             (str/replace #" or " "\n")
+             (str/replace #", " "\n")
+             (str/replace #";" "\n"))
+         str/split-lines
+         (map str/trim)
+         (filter #(>= (count %) 12))
+         (map str/lower-case))))
+
+(defn read-collected-cache
+  "Pre-split all_200_domains.csv into a map country -> seq of subdomains."
+  []
+  (when (fs/exists? "all_200_domains.csv")
+    (->> (rest (read-csv-raw "all_200_domains.csv"))
+         (group-by #(nth % 2))
+         (reduce-kv (fn [m k v] (assoc m k (mapv first v))) {}))))
+
+(defn host-collected? [host subs]
+  (some (fn [s] (or (= s host) (str/ends-with? s (str "." host)))) subs))
+
+(defn score-candidate
+  "Compute the 0-10 confidence score for one candidate hostname.
+  Inputs:
+    :host            candidate hostname (lowercased)
+    :wd-count        # of Wikidata mentions (1+ per distinct entity)
+    :label           pipe-joined Wikidata labels for this host
+    :fb-phrases      Factbook institution phrases (lowercased)
+    :un-portal-host  UN/DESA-declared national portal host (or nil)
+    :cctld-primary   country's primary ccTLD (without leading dot)"
+  [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary]}]
+  (let [label (or label "")
+        un?           (= host un-portal-host)
+        on-cctld?     (and cctld-primary
+                           (or (= host cctld-primary)
+                               (str/ends-with? host (str "." cctld-primary))))
+        gov-host?     (boolean (re-find gov-pattern host))
+        fb-match?     (and (seq fb-phrases) (seq label)
+                           (let [lc (str/lower-case label)]
+                             (boolean (some #(str/includes? lc %) fb-phrases))))
+        subdivision?  (and (seq label) (boolean (re-find subdiv-pattern label)))
+        many-no-fed?  (and (>= wd-count 3) (seq label)
+                           (not (re-find federal-pattern label)))
+        score (+ (if un?          5 0)
+                 (* 3 (min 2 (max 0 wd-count)))
+                 (if on-cctld?    1 0)
+                 (if gov-host?    1 0)
+                 (if fb-match?    2 0)
+                 (if subdivision? -5 0)
+                 (if many-no-fed? -5 0))]
+    (-> score (max 0) (min 10))))
+
+(defn score-candidates-for!
+  "Compute countries/<c>/candidates.csv (hostname,score,sources,label).
+  Aggregates Wikidata mentions, UN/DESA national portal, IANA ccTLD,
+  Factbook institution names; applies subdivision penalties."
+  [country-dir]
+  (let [iana-path (str "countries/" country-dir "/sources/iana/cctld.csv")
+        un-path   (str "countries/" country-dir "/sources/un_desa/summary.csv")
+        cia-path  (str "countries/" country-dir "/sources/cia_factbook/summary.csv")
+        wd-path   (str "countries/" country-dir "/sources/wikidata/central_admin.csv")
+        out       (str "countries/" country-dir "/candidates.csv")
+        cctld-primary
+        (when (fs/exists? iana-path)
+          (some-> (first (second (read-csv-raw iana-path)))    ; row 2, col 1
+                  (str/replace #"^\." "")))
+        un-portal      (csv-field un-path "national_portal")
+        un-portal-host (extract-host un-portal)
+        fb-courts      (csv-field cia-path "judicial_highest_courts")
+        fb-phrases     (extract-factbook-phrases fb-courts)
+        wd-rows        (when (fs/exists? wd-path) (rest (read-csv-raw wd-path)))
+        wd-by-host
+        (reduce (fn [m row]
+                  (let [host (last row) label (second row)]
+                    (if (str/blank? host)
+                      m
+                      (-> m
+                          (update-in [host :cnt] (fnil inc 0))
+                          (update-in [host :labels]
+                                     (fn [ls]
+                                       (let [ls (or ls [])]
+                                         (if (some #{label} ls) ls (conj ls label)))))))))
+                {} wd-rows)
+        all-hosts (cond-> (set (keys wd-by-host))
+                    un-portal-host (conj un-portal-host))
+        known     (set (known-roots))
+        candidates
+        (->> all-hosts
+             (remove #(host-covered? % known))
+             (map (fn [h]
+                    (let [{:keys [cnt labels] :or {cnt 0 labels []}}
+                          (get wd-by-host h)
+                          un? (= h un-portal-host)
+                          label (cond-> (str/join " | " labels)
+                                  un? (str (when (seq labels) " | ")
+                                           "UN/DESA national portal"))
+                          sources (cond-> []
+                                    un? (conj "un_desa"))
+                          sources (into sources (repeat cnt "wikidata"))
+                          score (score-candidate
+                                  {:host h :wd-count cnt :label label
+                                   :fb-phrases fb-phrases
+                                   :un-portal-host un-portal-host
+                                   :cctld-primary cctld-primary})]
+                      [h score (str/join ";" sources) label])))
+             (sort-by (juxt #(- (nth % 1)) first)))]
+    (write-csv-file out ["hostname" "score" "sources" "label"]
+                    (for [[h sc src lbl] candidates] [h (str sc) src lbl]))))
+
+(defn truncate [s n]
+  (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
+
+(defn- section-overview [{:keys [un-st cctld manager oecd-status oecd-since
+                                  un-rank fb-govtype fb-capital n-collected
+                                  region subregion languages population
+                                  gdp-per-capita gdp-year currencies]}]
+  (println "## Overview")
+  (println)
+  (case un-st
+    "member"   (println "- UN status: **Member State**")
+    "observer" (println "- UN status: **Observer State** (include as observer, not as member)")
+    "non_un"   (println "- UN status: **Not recognised by the UN** (exclude from UN-facing report)")
+    nil)
+  (when (and region (seq region))
+    (println (str "- Region: " region
+                  (when (seq subregion) (str " / " subregion)))))
+  (when (and languages (seq languages)) (println (str "- Languages: " languages)))
+  (when (and population (seq population)) (println (str "- Population: " population)))
+  (when (and gdp-per-capita (seq gdp-per-capita))
+    (println (str "- GDP per capita: " gdp-per-capita " US$"
+                  (when (seq gdp-year) (str " (" gdp-year ")")))))
+  (when (and currencies (seq currencies)) (println (str "- Currencies: " currencies)))
+  (when cctld     (println (str "- ccTLD: `" cctld "` (manager: " (or manager "?") ")")))
+  (when (= oecd-status "yes") (println (str "- OECD: member since " oecd-since)))
+  (when (= oecd-status "no")  (println "- OECD: non-member"))
+  (when un-rank   (println (str "- UN/DESA EGDI: " un-rank)))
+  (when fb-govtype (println (str "- Government type: " fb-govtype)))
+  (when fb-capital (println (str "- Capital: " fb-capital)))
+  (println (str "- Domains collected (HTTP 200): " n-collected))
+  (println))
+
+(defn- section-un-portal [country-dir un-portal collected]
+  (when un-portal
+    (println "## UN/DESA national portal")
+    (println)
+    (let [host (extract-host un-portal)]
+      (println (str "- Declared: [" un-portal "](" un-portal ") (host `" host "`)"))
+      (cond
+        (host-collected? host collected)
+        (println "- ✅ Covered by collected domains")
+
+        :else
+        (let [parent (parent-domain host)]
+          (if (and parent (fs/directory? (str "countries/" country-dir "/sources/" parent)))
+            (println (str "- ⚠️ Exact hostname not in the 200s, but a `" parent "` root directory exists (to be probed)"))
+            (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/" (or parent host) "/` directory present"))))))
+    (println)))
+
+(defn- section-factbook [{:keys [fb-chief fb-head fb-courts]}]
+  (when (or fb-courts fb-chief)
+    (println "## Institutions named by CIA Factbook")
+    (println)
+    (when fb-chief  (println (str "- Chief of state: " fb-chief)))
+    (when fb-head   (println (str "- Head of government: " fb-head)))
+    (when fb-courts (println (str "- Highest courts: " fb-courts)))
+    (println)
+    (println "(institution names usable as seeds for further research)")
+    (println)))
+
+(defn- section-candidates [cand-path]
+  (when (fs/exists? cand-path)
+    (let [cands (rest (read-csv-raw cand-path))]
+      (println "## Candidate domains ranked by score")
+      (println)
+      (if (seq cands)
+        (do
+          (println (str (count cands) " candidate(s). Full list in [`candidates.csv`](candidates.csv)."))
+          (println "Top 20 by score (0-10) -- higher = stronger cross-source evidence:")
+          (println)
+          (println "| score | hostname | sources | label |")
+          (println "|------:|----------|---------|-------|")
+          (doseq [[h sc src lbl] (take 20 cands)]
+            (println (str "| " sc " | `" h "` | " src " | " (truncate (or lbl "") 80) " |"))))
+        (println "No remaining candidates (every flagged institution is covered)."))
+      (println))))
+
+(defn- section-cctld-anomalies [country-dir cctld collected]
+  (when cctld
+    (let [primary (str/replace cctld #"^\." "")
+          extras  (get secondary-tlds country-dir #{})
+          accept  (set (concat [primary "eu" "com" "net" "org" "int"] extras))
+          anomalies (->> collected
+                         (filter (fn [s]
+                                   (let [tld (last (str/split s #"\."))]
+                                     (not (accept tld)))))
+                         sort
+                         distinct)]
+      (when (seq anomalies)
+        (println "## ccTLD anomalies")
+        (println)
+        (println (str "Domains outside `" cctld "` (allowed: common gTLDs + `"
+                      (str/join " " extras) "`):"))
+        (println)
+        (println "```")
+        (doseq [s (take 20 anomalies)]
+          (println (str "." (last (str/split s #"\.")) " " s)))
+        (println "```")
+        (println)))))
+
+(defn report-country!
+  "Generate countries/<c>/summary.md (and candidates.csv) for one country."
+  [country-dir collected-by-country un-status-by-country]
+  (score-candidates-for! country-dir)
+  (let [iana-path (str "countries/" country-dir "/sources/iana/cctld.csv")
+        oecd-path (str "countries/" country-dir "/sources/oecd/membership.csv")
+        un-path   (str "countries/" country-dir "/sources/un_desa/summary.csv")
+        cia-path  (str "countries/" country-dir "/sources/cia_factbook/summary.csv")
+        meta-path (str "countries/" country-dir "/sources/country_data/info.csv")
+        cand-path (str "countries/" country-dir "/candidates.csv")
+        out       (str "countries/" country-dir "/summary.md")
+        [cctld manager] (when (fs/exists? iana-path)
+                          (let [r (second (read-csv-raw iana-path))]
+                            [(nth r 0 nil) (nth r 1 nil)]))
+        ctx {:un-st          (get un-status-by-country country-dir)
+             :cctld          cctld
+             :manager        manager
+             :region         (csv-field meta-path "region")
+             :subregion      (csv-field meta-path "subregion")
+             :languages      (csv-field meta-path "languages")
+             :population     (csv-field meta-path "population")
+             :gdp-per-capita (csv-field meta-path "gdp_per_capita")
+             :gdp-year       (csv-field meta-path "gdp_year")
+             :currencies     (csv-field meta-path "currencies")
+             :oecd-status    (csv-field oecd-path "oecd_member")
+             :oecd-since     (csv-field oecd-path "member_since")
+             :un-rank        (csv-field un-path "egdi_rank")
+             :fb-govtype     (csv-field cia-path "government_type")
+             :fb-capital     (csv-field cia-path "capital")
+             :fb-courts      (csv-field cia-path "judicial_highest_courts")
+             :fb-chief       (csv-field cia-path "chief_of_state")
+             :fb-head        (csv-field cia-path "head_of_government")}
+        collected   (get collected-by-country country-dir [])
+        un-portal   (csv-field un-path "national_portal")]
+    (spit out
+          (with-out-str
+            (println (str "# " country-dir " -- summary"))
+            (println)
+            (section-overview (assoc ctx :n-collected (count collected)))
+            (section-un-portal country-dir un-portal collected)
+            (section-factbook ctx)
+            (section-candidates cand-path)
+            (section-cctld-anomalies country-dir cctld collected)))
+    (println (str "=== " country-dir " -> " out))))
+
+(defn cmd-cross-check [args]
+  (let [cache (or (read-collected-cache) {})
+        un-status (build-un-status-map)]
+    (iter-countries #(report-country! % cache un-status) args)))
+
+;; ===========================================================================
+;;  Utilitaire -- build-qid
+;; ===========================================================================
+
+(defn cmd-build-qid [_]
+  (println "Querying Wikidata…")
+  (let [q "SELECT DISTINCT ?country ?iso3 WHERE { ?country wdt:P31 wd:Q6256 ; wdt:P298 ?iso3 . }"
+        body (http-get wikidata-endpoint
+                       {:timeout 120 :retries 3
+                        :accept "application/sparql-results+json"
+                        :query-params {"query" q}})]
+    (if (str/blank? body)
+      (do (err "ERR: empty or invalid Wikidata response") 1)
+      (let [iso3->qid (->> (-> body (json/parse-string true) :results :bindings)
+                           (map (fn [b]
+                                  [(-> b :iso3 :value)
+                                   (-> b :country :value (str/replace #"^.*/" ""))]))
+                           (into {}))
+            rows (for [c (country-dirs)
+                       :let [iso3 (first (str/split c #"_"))
+                             qid (get iso3->qid iso3)]
+                       :when qid]
+                   [c iso3 qid])]
+        (write-csv-file "data/country_qid.csv"
+                        ["country_dir" "iso3" "wikidata_qid"] rows)
+        (println (str "Wrote data/country_qid.csv (" (count rows) " countries mapped)"))
+        0))))
+
+;; ===========================================================================
+;;  Dispatcher
+;; ===========================================================================
+
+(defn- run-collect [args]
+  (cmd-fetch args)
+  (cmd-retry [])
+  (cmd-normalize nil)
+  (cmd-probe args)
+  (cmd-collect-200 nil))
+
+(def commands
+  "Map sub-command name -> handler. Used both by dispatcher and usage banner."
+  {"collect"     run-collect
+   "enrich"      cmd-enrich
+   "report"      cmd-cross-check
+   "fetch"       cmd-fetch
+   "retry"       cmd-retry
+   "normalize"   (fn [_] (cmd-normalize nil))
+   "probe"       cmd-probe
+   "collect-200" (fn [_] (cmd-collect-200 nil))
+   "wikidata"    cmd-wikidata
+   "iana"        cmd-iana
+   "cia"         cmd-cia
+   "un-desa"     cmd-un-desa
+   "oecd"        cmd-oecd
+   "meta"        cmd-meta
+   "cross-check" cmd-cross-check
+   "build-qid"   (fn [_] (cmd-build-qid nil))})
+
+(defn usage []
+  (println "Usage: bb scripts/pipeline.clj <command> [args…]")
+  (println)
+  (println "Main commands:")
+  (println "  collect | enrich | report | all")
+  (println)
+  (println "Targeted commands:")
+  (println "  fetch | retry | normalize | probe | collect-200")
+  (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
+  (println)
+  (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
+
+(defn dispatch [cmd args]
+  (cond
+    (= cmd "all") (do (run-collect args) (cmd-enrich args) (cmd-cross-check args))
+    (#{"-h" "--help" "help"} cmd) (usage)
+    :else
+    (if-let [f (get commands cmd)]
+      (f args)
+      (do (err "ERR: unknown sub-command '" cmd "'")
+          (usage)
+          (System/exit 1)))))
+
+(let [args *command-line-args*]
+  (if (empty? args)
+    (do (usage) (System/exit 1))
+    (dispatch (first args) (vec (rest args)))))

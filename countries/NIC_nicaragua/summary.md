@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Central America
+- Languages: Spanish
+- Population: 6803886
+- GDP per capita: 2848 US$ (2024)
+- Currencies: NIO
 - ccTLD: `.ni` (manager: Universidad Nacional del Ingernieria. Division de Tecnologias de la Informacion.)
 - OECD: non-member
 - UN/DESA EGDI: Rank 132 of 193

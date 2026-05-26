@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: French
+- Population: 24070553
+- GDP per capita: 982 US$ (2024)
+- Currencies: XOF
 - ccTLD: `.bf` (manager: Autorité de Régulation des Communications Electroniques et des Postes (ARCEP))
 - OECD: non-member
 - UN/DESA EGDI: Rank 175 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / South America
+- Languages: Spanish
+- Population: 3499451
+- GDP per capita: 23907 US$ (2024)
+- Currencies: UYU
 - ccTLD: `.uy` (manager: SeCIU - Universidad de la Republica)
 - OECD: non-member
 - UN/DESA EGDI: Rank 25 of 193

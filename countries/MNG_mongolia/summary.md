@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Eastern Asia
+- Languages: Mongolian
+- Population: 3544835
+- GDP per capita: 6751 US$ (2024)
+- Currencies: MNT
 - ccTLD: `.mn` (manager: Datacom Co., Ltd.)
 - OECD: non-member
 - UN/DESA EGDI: Rank 46 of 193

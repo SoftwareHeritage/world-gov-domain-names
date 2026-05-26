@@ -1,7 +1,7 @@
 subdomain,parent_domain,http_status
-admin.denmark.dk,denmark.dk,"403"
-denmark.dk,denmark.dk,"200"
-edit.denmark.dk,denmark.dk,"Could not resolve host: edit.denmark.dk"
-video.denmark.dk,denmark.dk,"SSL: no alternative certificate subject name matches target hostname 'video.denmark.dk'"
-www.admin.denmark.dk,denmark.dk,"Could not resolve host: www.admin.denmark.dk"
-www.denmark.dk,denmark.dk,"302"
+admin.denmark.dk,denmark.dk,403
+denmark.dk,denmark.dk,200
+edit.denmark.dk,denmark.dk,Could not resolve host: edit.denmark.dk
+video.denmark.dk,denmark.dk,SSL: no alternative certificate subject name matches target hostname 'video.denmark.dk'
+www.admin.denmark.dk,denmark.dk,Could not resolve host: www.admin.denmark.dk
+www.denmark.dk,denmark.dk,302

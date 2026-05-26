@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Central Europe
+- Languages: German
+- Population: 9200931
+- GDP per capita: 58269 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.at` (manager: nic.at GmbH)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 22 of 193

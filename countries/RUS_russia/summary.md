@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Eastern Europe
+- Languages: Russian
+- Population: 146028325
+- GDP per capita: 14889 US$ (2024)
+- Currencies: RUB
 - ccTLD: `.ru` (manager: Coordination Center for TLD RU)
 - OECD: non-member
 - UN/DESA EGDI: Rank 43 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Polynesia
+- Languages: English; Tongan
+- Population: 100179
+- GDP per capita: 5652 US$ (2023)
+- Currencies: TOP
 - ccTLD: `.to` (manager: Government of the Kingdom of Tonga, H.R.H. Crown Prince Tupouto&#x27;a, c/o Consulate of Tonga)
 - OECD: non-member
 - UN/DESA EGDI: Rank 134 of 193

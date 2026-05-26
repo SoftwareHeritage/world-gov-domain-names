@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic
+- Population: 1594654
+- GDP per capita: 29654 US$ (2024)
+- Currencies: BHD
 - ccTLD: `.bh` (manager: Telecommunications Regulatory Authority (TRA))
 - OECD: non-member
 - UN/DESA EGDI: Rank 18 of 193

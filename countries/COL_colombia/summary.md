@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / South America
+- Languages: Spanish
+- Population: 53057212
+- GDP per capita: 7919 US$ (2024)
+- Currencies: COP
 - ccTLD: `.co` (manager: Ministry of Information and Communications Technologies (MinTIC))
 - OECD: member since 2020
 - UN/DESA EGDI: Rank 68 of 193

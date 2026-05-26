@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Central Europe
+- Languages: Hungarian
+- Population: 9539502
+- GDP per capita: 23292 US$ (2024)
+- Currencies: HUF
 - ccTLD: `.hu` (manager: Council of Hungarian Internet Providers (CHIP))
 - OECD: member since 1996
 - UN/DESA EGDI: Rank 59 of 193

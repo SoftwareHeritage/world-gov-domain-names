@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: French
+- Population: 13224860
+- GDP per capita: 1485 US$ (2024)
+- Currencies: XOF
 - ccTLD: `.bj` (manager: Autorité de Régulation des Communications Electroniques et de la Poste du Bénin (ARCEP BENIN))
 - OECD: non-member
 - UN/DESA EGDI: Rank 146 of 193

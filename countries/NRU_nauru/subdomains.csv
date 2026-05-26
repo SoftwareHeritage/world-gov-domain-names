@@ -1,42 +1,42 @@
 subdomain,parent_domain,http_status
-admin.naurujudiciary.gov.nr,gov.nr,"404"
-autodiscover.nauru.gov.nr,gov.nr,"200"
-autodiscover.nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'autodiscover.nauruhealth.gov.nr'"
-cpanel.nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'cpanel.nauruhealth.gov.nr'"
-cpanel.naurujudiciary.gov.nr,gov.nr,"200"
-cpcalendars.nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'cpcalendars.nauruhealth.gov.nr'"
-cpcalendars.naurujudiciary.gov.nr,gov.nr,"503"
-cpcontacts.nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'cpcontacts.nauruhealth.gov.nr'"
-cpcontacts.naurujudiciary.gov.nr,gov.nr,"503"
-ecrcp.gov.nr,gov.nr,"301"
-finance.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'finance.gov.nr'"
-ict.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'ict.gov.nr'"
-justice.gov.nr,gov.nr,"200"
-limiter.gov.nr,gov.nr,"Connection timed out after 3002 milliseconds"
-link.brisbane.gov.nr,gov.nr,"404"
-mail.gov.nr,gov.nr,"Connection timed out after 3000 milliseconds"
-mail.nauru.gov.nr,gov.nr,"200"
-mail.nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'mail.nauruhealth.gov.nr'"
-mail.naurujudiciary.gov.nr,gov.nr,"301"
-mail.npf.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'mail.npf.gov.nr'"
-nauru.gov.nr,gov.nr,"200"
-nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'nauruhealth.gov.nr'"
-nauruhr.gov.nr,gov.nr,"200"
-naurujudiciary.gov.nr,gov.nr,"200"
-nmc.gov.nr,gov.nr,"Operation timed out after 3002 milliseconds with 0 bytes received"
-notification.naurujudiciary.gov.nr,gov.nr,"502"
-npf.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'npf.gov.nr'"
-ronlaw.gov.nr,gov.nr,"200"
-ronwanonline.gov.nr,gov.nr,"Could not resolve host: ronwanonline.gov.nr"
-stats.gov.nr,gov.nr,"Operation timed out after 3001 milliseconds with 0 bytes received"
-vpn.npf.gov.nr,gov.nr,"SSL certificate problem: self-signed certificate"
+admin.naurujudiciary.gov.nr,gov.nr,404
+autodiscover.nauru.gov.nr,gov.nr,200
+autodiscover.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'autodiscover.nauruhealth.gov.nr'
+cpanel.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'cpanel.nauruhealth.gov.nr'
+cpanel.naurujudiciary.gov.nr,gov.nr,200
+cpcalendars.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'cpcalendars.nauruhealth.gov.nr'
+cpcalendars.naurujudiciary.gov.nr,gov.nr,503
+cpcontacts.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'cpcontacts.nauruhealth.gov.nr'
+cpcontacts.naurujudiciary.gov.nr,gov.nr,503
+ecrcp.gov.nr,gov.nr,301
+finance.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'finance.gov.nr'
+ict.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'ict.gov.nr'
+justice.gov.nr,gov.nr,200
+limiter.gov.nr,gov.nr,Connection timed out after 3002 milliseconds
+link.brisbane.gov.nr,gov.nr,404
+mail.gov.nr,gov.nr,Connection timed out after 3000 milliseconds
+mail.nauru.gov.nr,gov.nr,200
+mail.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'mail.nauruhealth.gov.nr'
+mail.naurujudiciary.gov.nr,gov.nr,301
+mail.npf.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'mail.npf.gov.nr'
+nauru.gov.nr,gov.nr,200
+nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'nauruhealth.gov.nr'
+nauruhr.gov.nr,gov.nr,200
+naurujudiciary.gov.nr,gov.nr,200
+nmc.gov.nr,gov.nr,Operation timed out after 3002 milliseconds with 0 bytes received
+notification.naurujudiciary.gov.nr,gov.nr,502
+npf.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'npf.gov.nr'
+ronlaw.gov.nr,gov.nr,200
+ronwanonline.gov.nr,gov.nr,Could not resolve host: ronwanonline.gov.nr
+stats.gov.nr,gov.nr,Operation timed out after 3001 milliseconds with 0 bytes received
+vpn.npf.gov.nr,gov.nr,SSL certificate problem: self-signed certificate
 vrid.gov.nr,gov.nr,"OpenSSL SSL_read: OpenSSL/3.5.3: error:0A000126:SSL routines::unexpected eof while reading, errno 0"
-webdisk.nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'webdisk.nauruhealth.gov.nr'"
-webdisk.naurujudiciary.gov.nr,gov.nr,"401"
-webmail.nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'webmail.nauruhealth.gov.nr'"
-webmail.naurujudiciary.gov.nr,gov.nr,"200"
-www.ecrcp.gov.nr,gov.nr,"200"
-www.nauruhealth.gov.nr,gov.nr,"SSL: no alternative certificate subject name matches target hostname 'www.nauruhealth.gov.nr'"
-www.naurujudiciary.gov.nr,gov.nr,"301"
-www.nmc.gov.nr,gov.nr,"Operation timed out after 3001 milliseconds with 0 bytes received"
+webdisk.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'webdisk.nauruhealth.gov.nr'
+webdisk.naurujudiciary.gov.nr,gov.nr,401
+webmail.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'webmail.nauruhealth.gov.nr'
+webmail.naurujudiciary.gov.nr,gov.nr,200
+www.ecrcp.gov.nr,gov.nr,200
+www.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'www.nauruhealth.gov.nr'
+www.naurujudiciary.gov.nr,gov.nr,301
+www.nmc.gov.nr,gov.nr,Operation timed out after 3001 milliseconds with 0 bytes received
 www.vrid.gov.nr,gov.nr,"OpenSSL SSL_read: OpenSSL/3.5.3: error:0A000126:SSL routines::unexpected eof while reading, errno 0"

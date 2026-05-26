@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Eastern Asia
+- Languages: Korean
+- Population: 51159889
+- GDP per capita: 36239 US$ (2024)
+- Currencies: KRW
 - ccTLD: `.kr` (manager: Korea Internet &amp; Security Agency (KISA))
 - OECD: member since 1996
 - UN/DESA EGDI: Rank 4 of 193

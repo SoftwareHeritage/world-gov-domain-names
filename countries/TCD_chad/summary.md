@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Middle Africa
+- Languages: Arabic; French
+- Population: 19340757
+- GDP per capita: 962 US$ (2024)
+- Currencies: XAF
 - ccTLD: `.td` (manager: l&#x27;Agence de Développement des Technologies de l&#x27;Information et de la Communication (ADETIC))
 - OECD: non-member
 - UN/DESA EGDI: Rank 189 of 193

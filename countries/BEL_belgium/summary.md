@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Western Europe
+- Languages: German; French; Dutch
+- Population: 11825551
+- GDP per capita: 56615 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.be` (manager: DNS Belgium vzw/asbl)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 56 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic
+- Population: 25620000
+- GDP per capita: 1052 US$ (2022)
+- Currencies: SYP
 - ccTLD: `.sy` (manager: National Authority for Information Technology Services (NAITS))
 - OECD: non-member
 - UN/DESA EGDI: Rank 162 of 193

@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic; French
+- Population: 5490000
+- GDP per capita: 3478 US$ (2023)
+- Currencies: LBP
 - ccTLD: `.lb` (manager: Internet Society Lebanon)
 - OECD: non-member
 - UN/DESA EGDI: Rank 126 of 193

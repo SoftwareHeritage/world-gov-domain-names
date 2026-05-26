@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / South America
+- Languages: Aymara; Quechua; Spanish
+- Population: 34350244
+- GDP per capita: 8452 US$ (2024)
+- Currencies: PEN
 - ccTLD: `.pe` (manager: Red Cientifica Peruana)
 - OECD: non-member
 - UN/DESA EGDI: Rank 58 of 193

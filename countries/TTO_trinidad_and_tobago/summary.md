@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Caribbean
+- Languages: English
+- Population: 1367764
+- GDP per capita: 18733 US$ (2024)
+- Currencies: TTD
 - ccTLD: `.tt` (manager: University of the West Indies, Faculty of Engineering)
 - OECD: non-member
 - UN/DESA EGDI: Rank 86 of 193

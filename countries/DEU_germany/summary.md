@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Western Europe
+- Languages: German
+- Population: 83491249
+- GDP per capita: 56104 US$ (2024)
+- Currencies: EUR
 - ccTLD: `.de` (manager: DENIC eG)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 12 of 193

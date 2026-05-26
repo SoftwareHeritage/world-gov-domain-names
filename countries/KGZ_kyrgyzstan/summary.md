@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Central Asia
+- Languages: Kyrgyz; Russian
+- Population: 7281800
+- GDP per capita: 2420 US$ (2024)
+- Currencies: KGS
 - ccTLD: `.kg` (manager: AsiaInfo Telecommunication Enterprise)
 - OECD: non-member
 - UN/DESA EGDI: Rank 78 of 193

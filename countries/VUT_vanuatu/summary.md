@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Oceania / Melanesia
+- Languages: Bislama; English; French
+- Population: 321409
+- GDP per capita: 3411 US$ (2024)
+- Currencies: VUV
 - ccTLD: `.vu` (manager: Telecommunications Radiocommunications and Broadcasting Regulator (TRBR))
 - OECD: non-member
 - UN/DESA EGDI: Rank 129 of 193

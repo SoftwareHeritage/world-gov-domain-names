@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Europe / Central Europe
+- Languages: Polish
+- Population: 37392000
+- GDP per capita: 25104 US$ (2024)
+- Currencies: PLN
 - ccTLD: `.pl` (manager: Research and Academic Computer Network)
 - OECD: member since 1996
 - UN/DESA EGDI: Rank 37 of 193

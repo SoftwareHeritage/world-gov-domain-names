@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Western Asia
+- Languages: Arabic
+- Population: 4881254
+- GDP per capita: 32718 US$ (2024)
+- Currencies: KWD
 - ccTLD: `.kw` (manager: Communications and Information Technology Regulatory Authority)
 - OECD: non-member
 - UN/DESA EGDI: Rank 66 of 193

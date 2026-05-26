@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / South-Eastern Asia
+- Languages: English; Filipino
+- Population: 114123600
+- GDP per capita: 3985 US$ (2024)
+- Currencies: PHP
 - ccTLD: `.ph` (manager: PH Domain Foundation)
 - OECD: non-member
 - UN/DESA EGDI: Rank 73 of 193

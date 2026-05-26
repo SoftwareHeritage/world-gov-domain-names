@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Western Africa
+- Languages: English
+- Population: 2422712
+- GDP per capita: 871 US$ (2024)
+- Currencies: GMD
 - ccTLD: `.gm` (manager: GM-NIC)
 - OECD: non-member
 - UN/DESA EGDI: Rank 181 of 193

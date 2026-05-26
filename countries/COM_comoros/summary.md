@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Africa / Eastern Africa
+- Languages: Arabic; French; Comorian
+- Population: 919901
+- GDP per capita: 1663 US$ (2024)
+- Currencies: KMF
 - ccTLD: `.km` (manager: Comores Telecom)
 - OECD: non-member
 - UN/DESA EGDI: Rank 180 of 193

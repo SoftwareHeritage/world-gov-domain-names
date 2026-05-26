@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Americas / Caribbean
+- Languages: English
+- Population: 267800
+- GDP per capita: 26545 US$ (2024)
+- Currencies: BBD
 - ccTLD: `.bb` (manager: Ministry of Innovation, Science and Smart Technology)
 - OECD: non-member
 - UN/DESA EGDI: Rank 91 of 193

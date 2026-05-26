@@ -3,6 +3,11 @@
 ## Overview
 
 - UN status: **Member State**
+- Region: Asia / Central Asia
+- Languages: Russian; Turkmen
+- Population: 7057841
+- GDP per capita: 6857 US$ (2024)
+- Currencies: TMT
 - ccTLD: `.tm` (manager: TM Domain Registry Ltd)
 - OECD: non-member
 - UN/DESA EGDI: Rank 145 of 193
