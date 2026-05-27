@@ -2,7 +2,7 @@
 ;; world-gov-domain-names -- full pipeline (Babashka).
 ;;
 ;; Main commands:
-;;   collect            crt.sh harvest + normalize + probe + collect-200
+;;   collect            crt.sh harvest + normalize + probe + aggregate
 ;;   enrich             wikidata (hardened) + iana/cia/un-desa/oecd/meta (parallel)
 ;;   report             cross-check: score + per-country report
 ;;   all                collect + enrich + report
@@ -12,7 +12,7 @@
 ;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
 ;;   normalize          clean every subdomains.csv
 ;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status
-;;   collect-200        aggregate all_200_domains.csv
+;;   aggregate          aggregate consolidate_domain_names_list.csv
 ;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
@@ -92,15 +92,16 @@
        sort
        vec))
 
+(defn normalize-name
+  "Lowercase a name and strip everything but [a-z0-9], for matching country
+  names (from CSVs or remote sources) against country_dir slugs."
+  [s]
+  (-> (or s "") str/lower-case (str/replace #"[^a-z0-9]" "")))
+
 (defn country-slug
   "FRA_france -> france, COD_democratic_republic_of_the_congo -> democraticrepublicofthecongo."
   [country-dir]
-  (-> country-dir
-      (str/split #"_" 2)
-      second
-      (or "")
-      (str/replace #"[^a-zA-Z0-9]" "")
-      str/lower-case))
+  (normalize-name (second (str/split country-dir #"_" 2))))
 
 (defn extract-host
   "https://www.example.com/path -> example.com. Returns nil on blank input."
@@ -144,9 +145,7 @@
         slug->status
         (into {}
               (for [row master
-                    :let [country (or (get row "Country") "")
-                          slug (-> country str/lower-case
-                                   (str/replace #"[^a-z0-9]" ""))
+                    :let [slug (normalize-name (get row "Country"))
                           status (str/trim (or (get row "un_status") "member"))]
                     :when (not (str/blank? slug))]
                 [slug status]))]
@@ -162,6 +161,35 @@
   (some (fn [[col1 col2]]
           (when (= col1 k) col2))
         (rest (read-csv-raw csv-path))))
+
+(defn mapping-row
+  "First data row (header dropped) of a CSV whose first column equals k, or nil."
+  [csv-path k]
+  (some #(when (= (first %) k) %)
+        (rest (read-csv-raw csv-path))))
+
+(defn merge-status
+  "Reduce a seq of [key status] pairs into a map keeping, per key, the first
+  non-blank status seen; return it as a seq of [key status] sorted by key."
+  [pairs]
+  (->> pairs
+       (reduce (fn [m [k st]]
+                 (let [cur (get m k)]
+                   (if (or (nil? cur)
+                           (and (str/blank? cur) (not (str/blank? st))))
+                     (assoc m k st)
+                     m)))
+               {})
+       (sort-by first)))
+
+(defn dedup-by-first
+  "Keep the first row per first-column value, sorted by first column."
+  [rows]
+  (->> rows
+       (reduce (fn [acc r] (if (contains? acc (first r)) acc (assoc acc (first r) r)))
+               {})
+       vals
+       (sort-by first)))
 
 (defn skip? [out-path] (and (fs/exists? out-path) (not force?)))
 
@@ -196,6 +224,23 @@
 
 (def source-dirs-set #{"wikidata" "iana" "un_desa" "cia_factbook" "oecd" "country_data"})
 
+(defn root-domain-dirs
+  "All countries/<c>/sources/<root>/ directories (full paths), excluding the
+  enrichment-source subdirectories (iana/cia_factbook/un_desa/oecd/wikidata)."
+  []
+  (->> (fs/glob "countries" "*/sources/*")
+       (filter fs/directory?)
+       (map str)
+       (remove #(source-dirs-set (str (fs/file-name %))))))
+
+(defn root-subdomain-csvs
+  "All countries/<c>/sources/<root>/subdomains.csv paths, excluding the
+  enrichment-source subdirectories. Scoped to one country_dir if given."
+  ([] (root-subdomain-csvs "*"))
+  ([country-glob]
+   (->> (fs/glob "countries" (str country-glob "/sources/*/subdomains.csv"))
+        (remove #(source-dirs-set (str (fs/file-name (fs/parent %))))))))
+
 (defn resolve-dirs
   "Resolve domain names -> countries/<c>/sources/<d>/ paths. With no args,
   returns all root-domain directories (excluding the enrichment-source
@@ -209,11 +254,7 @@
                        (map str matches)
                        (do (err "ERR: no country contains '" d "'") []))))
                  args))
-    (->> (fs/glob "countries" "*/sources/*")
-         (filter fs/directory?)
-         (map str)
-         (remove #(source-dirs-set (str (fs/file-name %))))
-         vec)))
+    (vec (root-domain-dirs))))
 
 (defn merge-crt-csv
   "Merge an existing CSV (sub,status) with a fresh list of subdomain names
@@ -223,15 +264,8 @@
                    (rest (read-csv-raw existing-path)))
         from-existing (for [[sub status] existing]
                         [sub (or status "")])
-        from-fresh (for [n fresh-names] [n ""])
-        merged (reduce (fn [m [sub st]]
-                         (let [cur (get m sub)]
-                           (if (or (nil? cur) (and (str/blank? cur)
-                                                   (not (str/blank? st))))
-                             (assoc m sub st)
-                             m)))
-                       {} (concat from-existing from-fresh))]
-    (sort-by first merged)))
+        from-fresh (for [n fresh-names] [n ""])]
+    (merge-status (concat from-existing from-fresh))))
 
 (defn fetch-one!
   "Fetch subdomains for basename(dir) from crt.sh and merge them into
@@ -312,21 +346,13 @@
               :when (and dom (not (str/blank? dom))
                          (not (re-find #"\*" dom))
                          (not (re-find #"@" dom)))]
-          [dom status])
-        merged (reduce (fn [m [dom st]]
-                         (let [cur (get m dom)]
-                           (if (or (nil? cur)
-                                   (and (str/blank? cur) (not (str/blank? st))))
-                             (assoc m dom st)
-                             m)))
-                       {} cleaned)]
-    (sort-by first merged)))
+          [dom status])]
+    (merge-status cleaned)))
 
 (defn cmd-normalize [_]
-  (doseq [csv (fs/glob "countries" "*/sources/*/subdomains.csv")
+  (doseq [csv (root-subdomain-csvs)
           :let [path (str csv)
-                parent-name (str (fs/file-name (fs/parent csv)))]
-          :when (not (source-dirs-set parent-name))]
+                parent-name (str (fs/file-name (fs/parent csv)))]]
     (let [rows (rest (read-csv-raw path))
           before (count rows)
           normalized (normalize-csv-rows rows)
@@ -388,13 +414,12 @@
   Skips the enrichment-source subdirs."
   [country-dir]
   (let [out (str "countries/" country-dir "/subdomains.csv")
-        rows (->> (fs/glob (str "countries/" country-dir "/sources") "*/subdomains.csv")
+        rows (->> (root-subdomain-csvs country-dir)
                   (mapcat (fn [csv]
                             (let [parent (str (fs/file-name (fs/parent csv)))]
-                              (when-not (source-dirs-set parent)
-                                (for [[sub & rest-cols] (rest (read-csv-raw (str csv)))
-                                      :when (and sub (not (str/blank? sub)))]
-                                  [sub parent (str/join "," (or rest-cols []))])))))
+                              (for [[sub & rest-cols] (rest (read-csv-raw (str csv)))
+                                    :when (and sub (not (str/blank? sub)))]
+                                [sub parent (str/join "," (or rest-cols []))]))))
                   (sort-by first))]
     (write-csv-file out ["subdomain" "parent_domain" "http_status"] rows)))
 
@@ -404,8 +429,8 @@
   (or (csv-field (str "countries/" country-dir "/sources/country_data/info.csv") field)
       ""))
 
-(defn cmd-collect-200 [_]
-  (let [out "all_200_domains.csv"
+(defn cmd-aggregate [_]
+  (let [out "consolidate_domain_names_list.csv"
         un-by-country (build-un-status-map)
         meta-by-country
         (into {}
@@ -413,18 +438,17 @@
                 [c {:region   (country-meta-field c "region")
                     :langs    (country-meta-field c "languages")
                     :gdp      (country-meta-field c "gdp_per_capita")}]))
-        rows (->> (fs/glob "countries" "*/sources/*/subdomains.csv")
+        rows (->> (root-subdomain-csvs)
                   (mapcat (fn [csv]
                             (let [parent  (str (fs/file-name (fs/parent csv)))
                                   country (str (fs/file-name
                                                  (fs/parent (fs/parent (fs/parent csv)))))
                                   un (get un-by-country country "member")
                                   m  (get meta-by-country country)]
-                              (when-not (source-dirs-set parent)
-                                (for [[sub status] (rest (read-csv-raw (str csv)))
-                                      :when (= status "200")]
-                                  [sub parent country un
-                                   (:region m) (:langs m) (:gdp m)])))))
+                              (for [[sub status] (rest (read-csv-raw (str csv)))
+                                    :when (= status "200")]
+                                [sub parent country un
+                                 (:region m) (:langs m) (:gdp m)]))))
                   (sort-by first)
                   distinct)]
     (write-csv-file out
@@ -482,13 +506,10 @@
              :query-params {"query" q}}))
 
 (defn known-roots
-  "Already-covered roots: every countries/<c>/sources/<root>/ excluding
-  the enrichment-source subdirectories (iana/cia_factbook/un_desa/oecd/wikidata)."
+  "Already-covered roots: the basename of every root-domain directory."
   []
-  (->> (fs/glob "countries" "*/sources/*")
-       (filter fs/directory?)
+  (->> (root-domain-dirs)
        (map (comp str fs/file-name))
-       (remove source-dirs-set)
        distinct
        sort))
 
@@ -562,10 +583,8 @@
 (defn iana-portal-for [country-dir]
   (let [target (country-slug country-dir)]
     (some (fn [row]
-            (let [s (-> (or (get row "Country") "")
-                        str/lower-case
-                        (str/replace #"[^a-z0-9]" ""))]
-              (when (= s target) (get row "Government Portal Domain"))))
+            (when (= (normalize-name (get row "Country")) target)
+              (get row "Government Portal Domain")))
           (read-csv-file "data/world-governments.csv"))))
 
 (defn iana-fetch-html [cctld]
@@ -656,25 +675,16 @@
                                 [gec region]))
           summary (or (http-get "https://raw.githubusercontent.com/factbook/factbook.json/master/SUMMARY.md")
                       "")
-          pairs (for [[_ gec name] (re-seq #"`([a-z]+)` ([^`\n]+)" summary)
-                      :let [norm (-> name str/trim str/lower-case
-                                     (str/replace #"[^a-z0-9]" ""))]]
-                  [gec name norm])
+          pairs (for [[_ gec name] (re-seq #"`([a-z]+)` ([^`\n]+)" summary)]
+                  [gec name (normalize-name name)])
           slug->dir (into {} (for [c (country-dirs)] [(country-slug c) c]))
           matched (for [[gec _name norm] pairs
                         :let [dir (get slug->dir norm)
                               region (get region-by-gec gec)]
                         :when (and dir region)]
                     [dir gec region])
-          aliases (or (read-csv-raw "data/factbook_aliases.csv") [])
-          alias-rows (rest aliases)
-          all (concat matched alias-rows)
-          dedup (->> all
-                     (reduce (fn [acc r] (if (get acc (first r)) acc
-                                             (assoc acc (first r) r)))
-                             {})
-                     vals
-                     (sort-by first))]
+          aliases (rest (or (read-csv-raw "data/factbook_aliases.csv") []))
+          dedup (dedup-by-first (concat matched aliases))]
       (write-csv-file factbook-map-file ["country_dir" "gec" "region"] dedup)
       (err "  -> " factbook-map-file " (" (count dedup) " countries mapped)"))))
 
@@ -715,8 +725,7 @@
    ["constitution_history"    ["Constitution" "history"]]])
 
 (defn cia-process! [country-dir]
-  (let [map-row (some #(when (= (first %) country-dir) %)
-                      (rest (read-csv-raw factbook-map-file)))]
+  (let [map-row (mapping-row factbook-map-file country-dir)]
     (if-not map-row
       (err "  [" country-dir "] no Factbook GEC mapping")
       (let [[_ gec region] map-row
@@ -766,8 +775,7 @@
                    "")
           pairs (->> (re-seq #"/Data/Country-Information/id/(\d+)-([A-Za-z-]+)" body)
                      (map (fn [[_ id name]]
-                            [id name (-> name str/lower-case
-                                         (str/replace #"-" ""))]))
+                            [id name (normalize-name name)]))
                      distinct)
           slug->dir (into {} (for [c (country-dirs)] [(country-slug c) c]))
           matched (for [[id name norm] pairs
@@ -775,19 +783,12 @@
                         :when dir]
                     [dir id name])
           aliases (rest (or (read-csv-raw "data/un_desa_aliases.csv") []))
-          all (concat matched aliases)
-          dedup (->> all
-                     (reduce (fn [acc r] (if (get acc (first r)) acc
-                                             (assoc acc (first r) r)))
-                             {})
-                     vals
-                     (sort-by first))]
+          dedup (dedup-by-first (concat matched aliases))]
       (write-csv-file un-desa-map-file ["country_dir" "un_id" "un_name"] dedup)
       (err "  -> " un-desa-map-file " (" (count dedup) " countries mapped)"))))
 
 (defn un-desa-process! [country-dir]
-  (let [map-row (some #(when (= (first %) country-dir) %)
-                      (rest (read-csv-raw un-desa-map-file)))]
+  (let [map-row (mapping-row un-desa-map-file country-dir)]
     (if-not map-row
       (err "  [" country-dir "] no UN/DESA id mapping")
       (let [[_ un-id un-name] map-row
@@ -1007,10 +1008,10 @@
          (map str/lower-case))))
 
 (defn read-collected-cache
-  "Pre-split all_200_domains.csv into a map country -> seq of subdomains."
+  "Pre-split consolidate_domain_names_list.csv into a map country -> seq of subdomains."
   []
-  (when (fs/exists? "all_200_domains.csv")
-    (->> (rest (read-csv-raw "all_200_domains.csv"))
+  (when (fs/exists? "consolidate_domain_names_list.csv")
+    (->> (rest (read-csv-raw "consolidate_domain_names_list.csv"))
          (group-by #(nth % 2))
          (reduce-kv (fn [m k v] (assoc m k (mapv first v))) {}))))
 
@@ -1292,7 +1293,7 @@
   (cmd-retry [])
   (cmd-normalize nil)
   (cmd-probe args)
-  (cmd-collect-200 nil))
+  (cmd-aggregate nil))
 
 (def commands
   "Map sub-command name -> handler. Used both by dispatcher and usage banner."
@@ -1303,7 +1304,7 @@
    "retry"       cmd-retry
    "normalize"   (fn [_] (cmd-normalize nil))
    "probe"       cmd-probe
-   "collect-200" (fn [_] (cmd-collect-200 nil))
+   "aggregate"   (fn [_] (cmd-aggregate nil))
    "wikidata"    cmd-wikidata
    "iana"        cmd-iana
    "cia"         cmd-cia
@@ -1320,7 +1321,7 @@
   (println "  collect | enrich | report | all")
   (println)
   (println "Targeted commands:")
-  (println "  fetch | retry | normalize | probe | collect-200")
+  (println "  fetch | retry | normalize | probe | aggregate")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
