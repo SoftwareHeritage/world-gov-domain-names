@@ -1,33 +1,35 @@
 subdomain,http_status
-access.quirinale.it,"Connection timed out after 5002 milliseconds"
-archivio.quirinale.it,"403"
-concorsi.quirinale.it,"403"
-conf.quirinale.it,"Connection timed out after 5002 milliseconds"
-console-esourcing.quirinale.it,"Connection timed out after 5002 milliseconds"
-contemporaneo.quirinale.it,"403"
-dati.quirinale.it,"403"
-dialin.quirinale.it,"Connection timed out after 5002 milliseconds"
-eprocurement.quirinale.it,"Connection timed out after 5002 milliseconds"
-exibit.quirinale.it,"403"
+access.quirinale.it,Connection timed out after 5002 milliseconds
+archivio.quirinale.it,403
+concorsi.quirinale.it,403
+conf.quirinale.it,Connection timed out after 5002 milliseconds
+console-esourcing.quirinale.it,Connection timed out after 5002 milliseconds
+contemporaneo.quirinale.it,403
+dati.quirinale.it,403
+dialin.quirinale.it,Connection timed out after 5002 milliseconds
+eprocurement.quirinale.it,Connection timed out after 5002 milliseconds
+exibit.quirinale.it,403
 gm.quirinale.it,"OpenSSL SSL_read: OpenSSL/3.5.3: error:0A00045C:SSL routines::tlsv13 alert certificate required, errno 0"
-lfe.quirinale.it,"Connection timed out after 5002 milliseconds"
-lyncdiscover.quirinale.it,"Connection timed out after 5002 milliseconds"
-mdm.quirinale.it,"503"
-meet.quirinale.it,"Connection timed out after 5002 milliseconds"
-officewa.quirinale.it,"Connection timed out after 5002 milliseconds"
-one.quirinale.it,"302"
-palazzo.quirinale.it,"403"
-pdrmdm.quirinale.it,"Failed to connect to pdrmdm.quirinale.it port 443 after 3130 ms: Could not connect to server"
-pdrsentry.quirinale.it,"Failed to connect to pdrsentry.quirinale.it port 443 after 3132 ms: Could not connect to server"
-prep-console-esourcing.quirinale.it,"Connection timed out after 5002 milliseconds"
-prep-eprocurement.quirinale.it,"Connection timed out after 5002 milliseconds"
-prep-esourcing.quirinale.it,"Could not resolve host: prep-esourcing.quirinale.it"
-presidenti.quirinale.it,"403"
-quirinale.it,"SSL: no alternative certificate subject name matches target hostname 'quirinale.it'"
-servizi.quirinale.it,"503"
-sip.quirinale.it,"Connection timed out after 5002 milliseconds"
-sisinfo.quirinale.it,"Connection timed out after 5002 milliseconds"
-sw.quirinale.it,"503"
+ivoltidellarepubblica.quirinale.it,403
+lfe.quirinale.it,Connection timed out after 5002 milliseconds
+lyncdiscover.quirinale.it,Connection timed out after 5002 milliseconds
+mdm.quirinale.it,503
+meet.quirinale.it,Connection timed out after 5002 milliseconds
+officewa.quirinale.it,Connection timed out after 5002 milliseconds
+one.quirinale.it,302
+palazzo.quirinale.it,403
+pdrmdm.quirinale.it,Failed to connect to pdrmdm.quirinale.it port 443 after 3130 ms: Could not connect to server
+pdrsentry.quirinale.it,Failed to connect to pdrsentry.quirinale.it port 443 after 3132 ms: Could not connect to server
+prep-console-esourcing.quirinale.it,Connection timed out after 5002 milliseconds
+prep-eprocurement.quirinale.it,Connection timed out after 5002 milliseconds
+prep-esourcing.quirinale.it,Could not resolve host: prep-esourcing.quirinale.it
+presidenti.quirinale.it,403
+quirinale.it,SSL: no alternative certificate subject name matches target hostname 'quirinale.it'
+servizi.quirinale.it,503
+sip.quirinale.it,Connection timed out after 5002 milliseconds
+sisinfo.quirinale.it,Connection timed out after 5002 milliseconds
+sw.quirinale.it,503
 tp.quirinale.it,"OpenSSL SSL_read: OpenSSL/3.5.3: error:0A00045C:SSL routines::tlsv13 alert certificate required, errno 0"
-visite.quirinale.it,"403"
-www.quirinale.it,"403"
+visite.quirinale.it,403
+www.ivoltidellarepubblica.quirinale.it,403
+www.quirinale.it,403

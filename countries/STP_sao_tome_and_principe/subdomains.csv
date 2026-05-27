@@ -10,8 +10,11 @@ api.homolog.declaracao-rendimento.mf.gov.st,gov.st,404
 api.homolog.declaracao.mf.gov.st,gov.st,401
 api.public.di.mf.gov.st,gov.st,SSL: no alternative certificate subject name matches target hostname 'api.public.di.mf.gov.st'
 api.sis2apd.gov.st,gov.st,Could not resolve host: api.sis2apd.gov.st
+api.sit.mf.gov.st,gov.st,200
 app-kilalanucha.gov.st,gov.st,404
 app-nguenon.gov.st,gov.st,404
+app.sit.mf.gov.st,gov.st,"curl: (6) Could not resolve host: app.sit.mf.gov.st
+"
 auth-dmr-inss.gov.st,gov.st,302
 autodiscover.anp-stp.gov.st,gov.st,400
 autodiscover.igf.gov.st,gov.st,Could not resolve host: autodiscover.igf.gov.st
@@ -53,6 +56,7 @@ efatura-test.financas.gov.st,gov.st,403
 efatura.financas.gov.st,gov.st,403
 embaixadastpcv.gov.st,gov.st,302
 fazendanon.mf.gov.st,gov.st,200
+fazendanon2.mf.gov.st,gov.st,200
 financas.gov.st,gov.st,403
 gov.st,gov.st,200
 gpm.gov.st,gov.st,200
@@ -61,6 +65,8 @@ homolog.declaracao-rendimento.mf.gov.st,gov.st,200
 homolog.fazendanon.mf.gov.st,gov.st,502
 igf.gov.st,gov.st,200
 impostos.financas.gov.st,gov.st,404
+impostos.mef.gov.st,gov.st,502
+impostos.mf.gov.st,gov.st,404
 ine.gov.st,gov.st,Could not resolve host: ine.gov.st
 inic.gov.st,gov.st,200
 injap.gov.st,gov.st,200
@@ -68,6 +74,7 @@ justicastp.gov.st,gov.st,SSL certificate problem: certificate has expired
 kilalanucha-dev.gov.st,gov.st,200
 kilalanucha.gov.st,gov.st,200
 leginon.dgrn.gov.st,gov.st,200
+lentla.mf.gov.st,gov.st,200
 liquidacao.mf.gov.st,gov.st,Operation timed out after 3000 milliseconds with 0 bytes received
 mail.anp-stp.gov.st,gov.st,200
 mail.cnmc.gov.st,gov.st,301
@@ -98,9 +105,11 @@ opportunities.empreendedorismo.gov.st,gov.st,Could not resolve host: opportuniti
 otoca.igf.gov.st,gov.st,Could not resolve host: otoca.igf.gov.st
 pm.gov.st,gov.st,200
 portainer.mf.gov.st,gov.st,200
+portainer2.mf.gov.st,gov.st,200
 principe.gov.st,gov.st,200
 protecaosocial.gov.st,gov.st,302
 proxy-manager.financas.gov.st,gov.st,200
+proxy-manager2.mf.gov.st,gov.st,200
 rc.registry.gov.st,gov.st,Resolving timed out after 3000 milliseconds
 rctribunal.gov.st,gov.st,200
 repositoriodigital.me.gov.st,gov.st,SSL certificate problem: unable to get local issuer certificate
@@ -112,6 +121,7 @@ sirp.dgrn.gov.st,gov.st,Could not resolve host: sirp.dgrn.gov.st
 sis2apd.gov.st,gov.st,Could not resolve host: sis2apd.gov.st
 sisa.gov.st,gov.st,SSL: no alternative certificate subject name matches target hostname 'sisa.gov.st'
 sisa.uca.gov.st,gov.st,Failed to connect to sisa.uca.gov.st port 443 after 345 ms: Could not connect to server
+sit.mf.gov.st,gov.st,200
 site.mf.gov.st,gov.st,502
 snmf.app.gov.st,gov.st,SSL: no alternative certificate subject name matches target hostname 'snmf.app.gov.st'
 snmf.gov.st,gov.st,Recv failure: Connexion ré-initialisée par le correspondant
@@ -148,6 +158,14 @@ www.financas.gov.st,gov.st,403
 www.gov.st,gov.st,301
 www.igf.gov.st,gov.st,SSL: no alternative certificate subject name matches target hostname 'www.igf.gov.st'
 www.impostos.financas.gov.st,gov.st,Could not resolve host: www.impostos.financas.gov.st
+www.impostos.mef.gov.st,gov.st,"curl: (60) SSL certificate problem: self-signed certificate
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+"
+www.impostos.mf.gov.st,gov.st,404
 www.inic.gov.st,gov.st,SSL: no alternative certificate subject name matches target hostname 'www.inic.gov.st'
 www.injap.gov.st,gov.st,Could not resolve host: www.injap.gov.st
 www.leginon.dgrn.gov.st,gov.st,Could not resolve host: www.leginon.dgrn.gov.st

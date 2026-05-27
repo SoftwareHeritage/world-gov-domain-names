@@ -1,7 +1,9 @@
 subdomain,parent_domain,http_status
 40years.gov.sz,gov.sz,200
+api.liquorlicensing.gov.sz,gov.sz,200
 business.gov.sz,gov.sz,SSL certificate problem: certificate has expired
 csfm.gov.sz,gov.sz,Connection timed out after 3001 milliseconds
+dpmogrants.gov.sz,gov.sz,200
 dsw.gov.sz,gov.sz,"OpenSSL SSL_read: OpenSSL/3.5.3: error:0A000126:SSL routines::unexpected eof while reading, errno 0"
 ecabinet.gov.sz,gov.sz,Operation timed out after 3002 milliseconds with 0 bytes received
 ena.gov.sz,gov.sz,SSL certificate problem: unable to get local issuer certificate
@@ -19,6 +21,7 @@ parliament.gov.sz,gov.sz,200
 parlicloud.gov.sz,gov.sz,Connection timed out after 3002 milliseconds
 police.gov.sz,gov.sz,Could not resolve host: police.gov.sz
 social.police.gov.sz,gov.sz,Could not resolve host: social.police.gov.sz
+staging.liquorlicensing.gov.sz,gov.sz,200
 swazimet.gov.sz,gov.sz,200
 umsebeifmis.gov.sz,gov.sz,502
 webmail.gov.sz,gov.sz,Could not resolve host: webmail.gov.sz
@@ -26,6 +29,7 @@ www.business.gov.sz,gov.sz,SSL certificate problem: certificate has expired
 www.ena.gov.sz,gov.sz,SSL certificate problem: unable to get local issuer certificate
 www.eswatinitradeportal.gov.sz,gov.sz,Connection timed out after 3001 milliseconds
 www.gov.sz,gov.sz,200
+www.liquorlicensing.gov.sz,gov.sz,200
 www.loadbalancer.gov.sz,gov.sz,Could not resolve host: www.loadbalancer.gov.sz
 www.online.gov.sz,gov.sz,SSL: no alternative certificate subject name matches target hostname 'www.online.gov.sz'
 www.parliament.gov.sz,gov.sz,SSL: no alternative certificate subject name matches target hostname 'www.parliament.gov.sz'

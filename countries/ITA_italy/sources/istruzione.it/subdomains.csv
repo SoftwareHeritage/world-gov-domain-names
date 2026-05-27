@@ -1,166 +1,173 @@
 subdomain,http_status
-accreditamento.istruzione.it,"200"
-adfs.istruzione.it,"Connection timed out after 5001 milliseconds"
-anagrafeits.istruzione.it,"403"
-anist-val.istruzione.it,"403"
-anist.istruzione.it,"403"
-autodiscover.istruzione.it,"Failed to connect to autodiscover.istruzione.it port 443 after 74 ms: Could not connect to server"
-cartadeldocente.istruzione.it,"301"
-cercalatuascuola.istruzione.it,"301"
-cmgistruzione.istruzione.it,"500"
-cns.pubblica.istruzione.it,"403"
-cnscoll.pubblica.istruzione.it,"Could not resolve host: cnscoll.pubblica.istruzione.it"
-cnsval.pubblica.istruzione.it,"403"
-communitymi.urp.istruzione.it,"301"
-concorsi-test-mig.ext.istruzione.it,"Could not resolve host: concorsi-test-mig.ext.istruzione.it"
-concorsi-test.ext.istruzione.it,"Could not resolve host: concorsi-test.ext.istruzione.it"
-concorsi.istruzione.it,"403"
-concorso-dsga.ext.istruzione.it,"Could not resolve host: concorso-dsga.ext.istruzione.it"
-coronavirus.static.istruzione.it,"Could not resolve host: coronavirus.static.istruzione.it"
-covid-ms-py-test.ext.istruzione.it,"Could not resolve host: covid-ms-py-test.ext.istruzione.it"
-covidse-ms-py-test.ext.istruzione.it,"Could not resolve host: covidse-ms-py-test.ext.istruzione.it"
-covidse-ms-test.ext.istruzione.it,"Could not resolve host: covidse-ms-test.ext.istruzione.it"
-cpuucc.istruzione.it,"Could not resolve host: cpuucc.istruzione.it"
-crescereinsieme.istruzione.it,"Connection timed out after 5002 milliseconds"
-cvpersonalescolasticoval.istruzione.it,"403"
-didattico.istruzione.it,"Connection timed out after 5002 milliseconds"
-dirigentiscolastici.istruzione.it,"200"
-ema.istruzione.it,"SSL certificate problem: unable to get local issuer certificate"
-emagateway.istruzione.it,"SSL certificate problem: unable to get local issuer certificate"
-esame2013.istruzione.it,"Could not resolve host: esame2013.istruzione.it"
-esame2014.istruzione.it,"Could not resolve host: esame2014.istruzione.it"
-esame2015.istruzione.it,"Could not resolve host: esame2015.istruzione.it"
-esamidistato-test-migr.ext.istruzione.it,"Could not resolve host: esamidistato-test-migr.ext.istruzione.it"
-esamidistato.istruzione.it,"403"
-ext.istruzione.it,"Could not resolve host: ext.istruzione.it"
-fascicolodigitale.istruzione.it,"301"
-firmadigitale-coll.istruzione.it,"302"
-firmadigitale.istruzione.it,"302"
-gitlab.pubblica.istruzione.it,"503"
-iam.didattico.istruzione.it,"Connection timed out after 5002 milliseconds"
-iam.pubblica.istruzione.it,"301"
-iamcoll.pubblica.istruzione.it,"Could not resolve host: iamcoll.pubblica.istruzione.it"
-iamtest.didattico.istruzione.it,"SSL certificate problem: self-signed certificate in certificate chain"
-iamval.didattico.istruzione.it,"Connection timed out after 5002 milliseconds"
-iamval.pubblica.istruzione.it,"403"
-istruzione.it,"301"
-k1000b.istruzione.it,"TLS connect error: error:0A000126:SSL routines::unexpected eof while reading"
-learn.istruzione.it,"303"
-legacy.pubblica.istruzione.it,"Connection timed out after 5002 milliseconds"
-matesami.pubblica.istruzione.it,"302"
-minoristranieri.istruzione.it,"Connection timed out after 5002 milliseconds"
-modipa-val.istruzione.it,"404"
-modipa.istruzione.it,"404"
-monitoraggiomimregis.istruzione.it,"Could not resolve host: monitoraggiomimregis.istruzione.it"
-mx.pec.istruzione.it,"Could not resolve host: mx.pec.istruzione.it"
-mx.postacert.istruzione.it,"Could not resolve host: mx.postacert.istruzione.it"
-organicodifattoata.istruzione.it,"200"
-pec.istruzione.it,"Could not resolve host: pec.istruzione.it"
-postacert.istruzione.it,"Could not resolve host: postacert.istruzione.it"
-pubblica.istruzione.it,"Could not resolve host: pubblica.istruzione.it"
-qanalytics.istruzione.it,"Connection timed out after 5002 milliseconds"
-reclutamento.istruzione.it,"200"
-safi.istruzione.it,"301"
-scic.istruzione.it,"Could not resolve host: scic.istruzione.it"
-scuola-alta-formazione-istruzione.it,"301"
-scuoletargetpnrr.pubblica.istruzione.it,"200"
-segnalazione.urp.istruzione.it,"301"
-servizi.crescereinsieme.istruzione.it,"Could not resolve host: servizi.crescereinsieme.istruzione.it"
-servizi.didattico.istruzione.it,"Could not resolve host: servizi.didattico.istruzione.it"
-servizimdif.istruzione.it,"Could not resolve host: servizimdif.istruzione.it"
-servizipagopa.istruzione.it,"Could not resolve host: servizipagopa.istruzione.it"
-servizipagopacoll.istruzione.it,"SSL: no alternative certificate subject name matches target hostname 'servizipagopacoll.istruzione.it'"
-servizipagopadev.istruzione.it,"Could not resolve host: servizipagopadev.istruzione.it"
-servizipagopatest.istruzione.it,"Failed to connect to servizipagopatest.istruzione.it port 443 after 59 ms: Could not connect to server"
-servizipagopaval.istruzione.it,"Could not resolve host: servizipagopaval.istruzione.it"
-servizipir.istruzione.it,"Could not resolve host: servizipir.istruzione.it"
-servizipircoll.istruzione.it,"Could not resolve host: servizipircoll.istruzione.it"
-servizipirtest.istruzione.it,"Could not resolve host: servizipirtest.istruzione.it"
-servizipirval.istruzione.it,"Could not resolve host: servizipirval.istruzione.it"
-servizitest.didattico.istruzione.it,"Connection timed out after 5002 milliseconds"
-servizival.didattico.istruzione.it,"Could not resolve host: servizival.didattico.istruzione.it"
-siopeplus.istruzione.it,"Could not resolve host: siopeplus.istruzione.it"
-smtp.pec.istruzione.it,"Could not resolve host: smtp.pec.istruzione.it"
-smtp.postacert.istruzione.it,"Could not resolve host: smtp.postacert.istruzione.it"
-sondaggio.urp.istruzione.it,"Could not resolve host: sondaggio.urp.istruzione.it"
-sp.didattico.istruzione.it,"Could not resolve host: sp.didattico.istruzione.it"
-sp.scic.istruzione.it,"Could not resolve host: sp.scic.istruzione.it"
-spcoop.istruzione.it,"Could not resolve host: spcoop.istruzione.it"
-spcoopval.istruzione.it,"Could not resolve host: spcoopval.istruzione.it"
-sptest.didattico.istruzione.it,"Could not resolve host: sptest.didattico.istruzione.it"
-sptest.istruzione.it,"Could not resolve host: sptest.istruzione.it"
-spval.didattico.istruzione.it,"TLS connect error: error:0A000458:SSL routines::tlsv1 unrecognized name"
-sso.cartadeldocente.istruzione.it,"403"
-ssotest.cartadeldocente.istruzione.it,"Could not resolve host: ssotest.cartadeldocente.istruzione.it"
-static-iolfamiglia-test.ext.istruzione.it,"Could not resolve host: static-iolfamiglia-test.ext.istruzione.it"
-static.concorsi.istruzione.it,"Could not resolve host: static.concorsi.istruzione.it"
-static.istruzione.it,"Could not resolve host: static.istruzione.it"
-testcert.ext.istruzione.it,"Could not resolve host: testcert.ext.istruzione.it"
-unica.istruzione.it,"Could not resolve host: unica.istruzione.it"
-urp.istruzione.it,"Could not resolve host: urp.istruzione.it"
-val.cartadeldocente.istruzione.it,"403"
-val.didattico.istruzione.it,"Could not resolve host: val.didattico.istruzione.it"
-val.safi.istruzione.it,"403"
-verifica-cup.istruzione.it,"Could not resolve host: verifica-cup.istruzione.it"
-webmail.pubblica.istruzione.it,"Could not resolve host: webmail.pubblica.istruzione.it"
-ws.cartadeldocente.istruzione.it,"Could not resolve host: ws.cartadeldocente.istruzione.it"
-wstest.cartadeldocente.istruzione.it,"500"
-www.anagrafeedilizia.istruzione.it,"Could not resolve host: www.anagrafeedilizia.istruzione.it"
-www.anist.istruzione.it,"Could not resolve host: www.anist.istruzione.it"
-www.cartadeldocente.istruzione.it,"Could not resolve host: www.cartadeldocente.istruzione.it"
-www.cercalatuascuola.istruzione.it,"Could not resolve host: www.cercalatuascuola.istruzione.it"
-www.cmgistruzione.istruzione.it,"Could not resolve host: www.cmgistruzione.istruzione.it"
-www.communitymi.urp.istruzione.it,"Could not resolve host: www.communitymi.urp.istruzione.it"
-www.cpuucc.istruzione.it,"Could not resolve host: www.cpuucc.istruzione.it"
-www.crescereinsieme.istruzione.it,"Could not resolve host: www.crescereinsieme.istruzione.it"
-www.didattico.istruzione.it,"Connection timed out after 5002 milliseconds"
-www.dirigentiscolastici.istruzione.it,"Could not resolve host: www.dirigentiscolastici.istruzione.it"
-www.ema.istruzione.it,"Could not resolve host: www.ema.istruzione.it"
-www.esamidistato.istruzione.it,"Could not resolve host: www.esamidistato.istruzione.it"
-www.firmadigitale-coll.istruzione.it,"Could not resolve host: www.firmadigitale-coll.istruzione.it"
-www.firmadigitale.istruzione.it,"Could not resolve host: www.firmadigitale.istruzione.it"
-www.iam.didattico.istruzione.it,"Could not resolve host: www.iam.didattico.istruzione.it"
-www.iamval.didattico.istruzione.it,"Could not resolve host: www.iamval.didattico.istruzione.it"
-www.istruzione.it,"Could not resolve host: www.istruzione.it"
-www.k1000b.istruzione.it,"Could not resolve host: www.k1000b.istruzione.it"
-www.learn.istruzione.it,"Could not resolve host: www.learn.istruzione.it"
-www.modipa-val.istruzione.it,"Could not resolve host: www.modipa-val.istruzione.it"
-www.modipa.istruzione.it,"Could not resolve host: www.modipa.istruzione.it"
-www.monitoraggiomimregis.istruzione.it,"Could not resolve host: www.monitoraggiomimregis.istruzione.it"
-www.mpi.istruzione.it,"Could not resolve host: www.mpi.istruzione.it"
-www.organicodifattoata.istruzione.it,"Could not resolve host: www.organicodifattoata.istruzione.it"
-www.pubblica.istruzione.it,"302"
-www.qanalytics.istruzione.it,"Could not resolve host: www.qanalytics.istruzione.it"
-www.reclutamento.istruzione.it,"Could not resolve host: www.reclutamento.istruzione.it"
-www.safi.istruzione.it,"Could not resolve host: www.safi.istruzione.it"
-www.scic.istruzione.it,"Could not resolve host: www.scic.istruzione.it"
-www.scuola-alta-formazione-istruzione.it,"Could not resolve host: www.scuola-alta-formazione-istruzione.it"
-www.scuoletargetpnrr.pubblica.istruzione.it,"Could not resolve host: www.scuoletargetpnrr.pubblica.istruzione.it"
-www.segnalazione.urp.istruzione.it,"Could not resolve host: www.segnalazione.urp.istruzione.it"
-www.servizimdif.istruzione.it,"Could not resolve host: www.servizimdif.istruzione.it"
-www.servizipagopa.istruzione.it,"Could not resolve host: www.servizipagopa.istruzione.it"
-www.servizipagopacoll.istruzione.it,"Could not resolve host: www.servizipagopacoll.istruzione.it"
-www.servizipagopadev.istruzione.it,"Could not resolve host: www.servizipagopadev.istruzione.it"
-www.servizipagopatest.istruzione.it,"Could not resolve host: www.servizipagopatest.istruzione.it"
-www.servizipagopaval.istruzione.it,"Could not resolve host: www.servizipagopaval.istruzione.it"
-www.servizipir.istruzione.it,"Could not resolve host: www.servizipir.istruzione.it"
-www.servizipircoll.istruzione.it,"Could not resolve host: www.servizipircoll.istruzione.it"
-www.servizipirtest.istruzione.it,"Could not resolve host: www.servizipirtest.istruzione.it"
-www.servizipirval.istruzione.it,"Could not resolve host: www.servizipirval.istruzione.it"
-www.siopeplus.istruzione.it,"Could not resolve host: www.siopeplus.istruzione.it"
-www.sondaggio.urp.istruzione.it,"Could not resolve host: www.sondaggio.urp.istruzione.it"
-www.sp.scic.istruzione.it,"Could not resolve host: www.sp.scic.istruzione.it"
-www.spcoop.istruzione.it,"Could not resolve host: www.spcoop.istruzione.it"
-www.spcoopval.istruzione.it,"Could not resolve host: www.spcoopval.istruzione.it"
-www.sptest.istruzione.it,"Could not resolve host: www.sptest.istruzione.it"
-www.sso.cartadeldocente.istruzione.it,"Could not resolve host: www.sso.cartadeldocente.istruzione.it"
-www.trampi.istruzione.it,"Could not resolve host: www.trampi.istruzione.it"
-www.unica.istruzione.it,"Could not resolve host: www.unica.istruzione.it"
-www.urp.istruzione.it,"Could not resolve host: www.urp.istruzione.it"
-www.val.didattico.istruzione.it,"Could not resolve host: www.val.didattico.istruzione.it"
-www.verifica-cup.istruzione.it,"Could not resolve host: www.verifica-cup.istruzione.it"
-www.webmail.pubblica.istruzione.it,"Could not resolve host: www.webmail.pubblica.istruzione.it"
-www.ws.cartadeldocente.istruzione.it,"Could not resolve host: www.ws.cartadeldocente.istruzione.it"
-www.wstest.cartadeldocente.istruzione.it,"Could not resolve host: www.wstest.cartadeldocente.istruzione.it"
-www.zeus.istruzione.it,"Could not resolve host: www.zeus.istruzione.it"
-zeus.istruzione.it,"Could not resolve host: zeus.istruzione.it"
+accreditamento.istruzione.it,200
+adfs.istruzione.it,Connection timed out after 5001 milliseconds
+anagrafeits.istruzione.it,403
+anes.istruzione.it,"curl: (6) Could not resolve host: anes.istruzione.it
+"
+anist-val.istruzione.it,403
+anist.istruzione.it,403
+autodiscover.istruzione.it,Failed to connect to autodiscover.istruzione.it port 443 after 74 ms: Could not connect to server
+cartadeldocente.istruzione.it,301
+cercalatuascuola.istruzione.it,301
+cmgistruzione.istruzione.it,500
+cns.pubblica.istruzione.it,403
+cnscoll.pubblica.istruzione.it,Could not resolve host: cnscoll.pubblica.istruzione.it
+cnsval.pubblica.istruzione.it,403
+communitymi.urp.istruzione.it,301
+concorsi-test-mig.ext.istruzione.it,Could not resolve host: concorsi-test-mig.ext.istruzione.it
+concorsi-test.ext.istruzione.it,Could not resolve host: concorsi-test.ext.istruzione.it
+concorsi.istruzione.it,403
+concorso-dsga.ext.istruzione.it,Could not resolve host: concorso-dsga.ext.istruzione.it
+coronavirus.static.istruzione.it,Could not resolve host: coronavirus.static.istruzione.it
+covid-ms-py-test.ext.istruzione.it,Could not resolve host: covid-ms-py-test.ext.istruzione.it
+covidse-ms-py-test.ext.istruzione.it,Could not resolve host: covidse-ms-py-test.ext.istruzione.it
+covidse-ms-test.ext.istruzione.it,Could not resolve host: covidse-ms-test.ext.istruzione.it
+cpuucc.istruzione.it,Could not resolve host: cpuucc.istruzione.it
+crescereinsieme.istruzione.it,Connection timed out after 5002 milliseconds
+cvpersonalescolasticoval.istruzione.it,403
+didattico.istruzione.it,Connection timed out after 5002 milliseconds
+dirigentiscolastici.istruzione.it,200
+ema.istruzione.it,SSL certificate problem: unable to get local issuer certificate
+emagateway.istruzione.it,SSL certificate problem: unable to get local issuer certificate
+esame2013.istruzione.it,Could not resolve host: esame2013.istruzione.it
+esame2014.istruzione.it,Could not resolve host: esame2014.istruzione.it
+esame2015.istruzione.it,Could not resolve host: esame2015.istruzione.it
+esamidistato-test-migr.ext.istruzione.it,Could not resolve host: esamidistato-test-migr.ext.istruzione.it
+esamidistato.istruzione.it,403
+ext.istruzione.it,Could not resolve host: ext.istruzione.it
+fascicolodigitale.istruzione.it,301
+firmadigitale-coll.istruzione.it,302
+firmadigitale.istruzione.it,302
+gitlab.pubblica.istruzione.it,503
+iam.didattico.istruzione.it,Connection timed out after 5002 milliseconds
+iam.pubblica.istruzione.it,301
+iamcoll.pubblica.istruzione.it,Could not resolve host: iamcoll.pubblica.istruzione.it
+iamtest.didattico.istruzione.it,SSL certificate problem: self-signed certificate in certificate chain
+iamval.didattico.istruzione.it,Connection timed out after 5002 milliseconds
+iamval.pubblica.istruzione.it,403
+istruzione.it,301
+k1000b.istruzione.it,TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+kaf-136prod.learn.istruzione.it,200
+learn.istruzione.it,303
+legacy.pubblica.istruzione.it,Connection timed out after 5002 milliseconds
+matesami.pubblica.istruzione.it,302
+minoristranieri.istruzione.it,Connection timed out after 5002 milliseconds
+modipa-val.istruzione.it,404
+modipa.istruzione.it,404
+monitoraggiomimregis.istruzione.it,Could not resolve host: monitoraggiomimregis.istruzione.it
+mx.pec.istruzione.it,Could not resolve host: mx.pec.istruzione.it
+mx.postacert.istruzione.it,Could not resolve host: mx.postacert.istruzione.it
+organicodifattoata.istruzione.it,200
+pec.istruzione.it,Could not resolve host: pec.istruzione.it
+postacert.istruzione.it,Could not resolve host: postacert.istruzione.it
+pubblica.istruzione.it,Could not resolve host: pubblica.istruzione.it
+qanalytics.istruzione.it,Connection timed out after 5002 milliseconds
+reclutamento.istruzione.it,200
+safi.istruzione.it,301
+scic.istruzione.it,Could not resolve host: scic.istruzione.it
+scuola-alta-formazione-istruzione.it,301
+scuoletargetpnrr.pubblica.istruzione.it,200
+segnalazione.urp.istruzione.it,301
+servizi.crescereinsieme.istruzione.it,Could not resolve host: servizi.crescereinsieme.istruzione.it
+servizi.didattico.istruzione.it,Could not resolve host: servizi.didattico.istruzione.it
+servizimdif.istruzione.it,Could not resolve host: servizimdif.istruzione.it
+servizipagopa.istruzione.it,Could not resolve host: servizipagopa.istruzione.it
+servizipagopacoll.istruzione.it,SSL: no alternative certificate subject name matches target hostname 'servizipagopacoll.istruzione.it'
+servizipagopadev.istruzione.it,Could not resolve host: servizipagopadev.istruzione.it
+servizipagopatest.istruzione.it,Failed to connect to servizipagopatest.istruzione.it port 443 after 59 ms: Could not connect to server
+servizipagopaval.istruzione.it,Could not resolve host: servizipagopaval.istruzione.it
+servizipir.istruzione.it,Could not resolve host: servizipir.istruzione.it
+servizipircoll.istruzione.it,Could not resolve host: servizipircoll.istruzione.it
+servizipirtest.istruzione.it,Could not resolve host: servizipirtest.istruzione.it
+servizipirval.istruzione.it,Could not resolve host: servizipirval.istruzione.it
+servizitest.didattico.istruzione.it,Connection timed out after 5002 milliseconds
+servizival.didattico.istruzione.it,Could not resolve host: servizival.didattico.istruzione.it
+siopeplus.istruzione.it,Could not resolve host: siopeplus.istruzione.it
+smtp.pec.istruzione.it,Could not resolve host: smtp.pec.istruzione.it
+smtp.postacert.istruzione.it,Could not resolve host: smtp.postacert.istruzione.it
+sondaggio.urp.istruzione.it,Could not resolve host: sondaggio.urp.istruzione.it
+sp.didattico.istruzione.it,Could not resolve host: sp.didattico.istruzione.it
+sp.scic.istruzione.it,Could not resolve host: sp.scic.istruzione.it
+spcoop.istruzione.it,Could not resolve host: spcoop.istruzione.it
+spcoopval.istruzione.it,Could not resolve host: spcoopval.istruzione.it
+sptest.didattico.istruzione.it,Could not resolve host: sptest.didattico.istruzione.it
+sptest.istruzione.it,Could not resolve host: sptest.istruzione.it
+spval.didattico.istruzione.it,TLS connect error: error:0A000458:SSL routines::tlsv1 unrecognized name
+sso.cartadeldocente.istruzione.it,403
+ssotest.cartadeldocente.istruzione.it,Could not resolve host: ssotest.cartadeldocente.istruzione.it
+static-iolfamiglia-test.ext.istruzione.it,Could not resolve host: static-iolfamiglia-test.ext.istruzione.it
+static.concorsi.istruzione.it,Could not resolve host: static.concorsi.istruzione.it
+static.istruzione.it,Could not resolve host: static.istruzione.it
+testcert.ext.istruzione.it,Could not resolve host: testcert.ext.istruzione.it
+unica.istruzione.it,Could not resolve host: unica.istruzione.it
+urp.istruzione.it,Could not resolve host: urp.istruzione.it
+val.cartadeldocente.istruzione.it,403
+val.didattico.istruzione.it,Could not resolve host: val.didattico.istruzione.it
+val.safi.istruzione.it,403
+verifica-cup.istruzione.it,Could not resolve host: verifica-cup.istruzione.it
+webmail.pubblica.istruzione.it,Could not resolve host: webmail.pubblica.istruzione.it
+ws.cartadeldocente.istruzione.it,Could not resolve host: ws.cartadeldocente.istruzione.it
+wstest.cartadeldocente.istruzione.it,500
+www.anagrafeedilizia.istruzione.it,Could not resolve host: www.anagrafeedilizia.istruzione.it
+www.anes.istruzione.it,"curl: (6) Could not resolve host: www.anes.istruzione.it
+"
+www.anist.istruzione.it,Could not resolve host: www.anist.istruzione.it
+www.cartadeldocente.istruzione.it,Could not resolve host: www.cartadeldocente.istruzione.it
+www.cercalatuascuola.istruzione.it,Could not resolve host: www.cercalatuascuola.istruzione.it
+www.cmgistruzione.istruzione.it,Could not resolve host: www.cmgistruzione.istruzione.it
+www.communitymi.urp.istruzione.it,Could not resolve host: www.communitymi.urp.istruzione.it
+www.cpuucc.istruzione.it,Could not resolve host: www.cpuucc.istruzione.it
+www.crescereinsieme.istruzione.it,Could not resolve host: www.crescereinsieme.istruzione.it
+www.didattico.istruzione.it,Connection timed out after 5002 milliseconds
+www.dirigentiscolastici.istruzione.it,Could not resolve host: www.dirigentiscolastici.istruzione.it
+www.ema.istruzione.it,Could not resolve host: www.ema.istruzione.it
+www.esamidistato.istruzione.it,Could not resolve host: www.esamidistato.istruzione.it
+www.firmadigitale-coll.istruzione.it,Could not resolve host: www.firmadigitale-coll.istruzione.it
+www.firmadigitale.istruzione.it,Could not resolve host: www.firmadigitale.istruzione.it
+www.iam.didattico.istruzione.it,Could not resolve host: www.iam.didattico.istruzione.it
+www.iamval.didattico.istruzione.it,Could not resolve host: www.iamval.didattico.istruzione.it
+www.istruzione.it,Could not resolve host: www.istruzione.it
+www.k1000b.istruzione.it,Could not resolve host: www.k1000b.istruzione.it
+www.kaf-136prod.learn.istruzione.it,"curl: (6) Could not resolve host: www.kaf-136prod.learn.istruzione.it
+"
+www.learn.istruzione.it,Could not resolve host: www.learn.istruzione.it
+www.modipa-val.istruzione.it,Could not resolve host: www.modipa-val.istruzione.it
+www.modipa.istruzione.it,Could not resolve host: www.modipa.istruzione.it
+www.monitoraggiomimregis.istruzione.it,Could not resolve host: www.monitoraggiomimregis.istruzione.it
+www.mpi.istruzione.it,Could not resolve host: www.mpi.istruzione.it
+www.organicodifattoata.istruzione.it,Could not resolve host: www.organicodifattoata.istruzione.it
+www.pubblica.istruzione.it,302
+www.qanalytics.istruzione.it,Could not resolve host: www.qanalytics.istruzione.it
+www.reclutamento.istruzione.it,Could not resolve host: www.reclutamento.istruzione.it
+www.safi.istruzione.it,Could not resolve host: www.safi.istruzione.it
+www.scic.istruzione.it,Could not resolve host: www.scic.istruzione.it
+www.scuola-alta-formazione-istruzione.it,Could not resolve host: www.scuola-alta-formazione-istruzione.it
+www.scuoletargetpnrr.pubblica.istruzione.it,Could not resolve host: www.scuoletargetpnrr.pubblica.istruzione.it
+www.segnalazione.urp.istruzione.it,Could not resolve host: www.segnalazione.urp.istruzione.it
+www.servizimdif.istruzione.it,Could not resolve host: www.servizimdif.istruzione.it
+www.servizipagopa.istruzione.it,Could not resolve host: www.servizipagopa.istruzione.it
+www.servizipagopacoll.istruzione.it,Could not resolve host: www.servizipagopacoll.istruzione.it
+www.servizipagopadev.istruzione.it,Could not resolve host: www.servizipagopadev.istruzione.it
+www.servizipagopatest.istruzione.it,Could not resolve host: www.servizipagopatest.istruzione.it
+www.servizipagopaval.istruzione.it,Could not resolve host: www.servizipagopaval.istruzione.it
+www.servizipir.istruzione.it,Could not resolve host: www.servizipir.istruzione.it
+www.servizipircoll.istruzione.it,Could not resolve host: www.servizipircoll.istruzione.it
+www.servizipirtest.istruzione.it,Could not resolve host: www.servizipirtest.istruzione.it
+www.servizipirval.istruzione.it,Could not resolve host: www.servizipirval.istruzione.it
+www.siopeplus.istruzione.it,Could not resolve host: www.siopeplus.istruzione.it
+www.sondaggio.urp.istruzione.it,Could not resolve host: www.sondaggio.urp.istruzione.it
+www.sp.scic.istruzione.it,Could not resolve host: www.sp.scic.istruzione.it
+www.spcoop.istruzione.it,Could not resolve host: www.spcoop.istruzione.it
+www.spcoopval.istruzione.it,Could not resolve host: www.spcoopval.istruzione.it
+www.sptest.istruzione.it,Could not resolve host: www.sptest.istruzione.it
+www.sso.cartadeldocente.istruzione.it,Could not resolve host: www.sso.cartadeldocente.istruzione.it
+www.trampi.istruzione.it,Could not resolve host: www.trampi.istruzione.it
+www.unica.istruzione.it,Could not resolve host: www.unica.istruzione.it
+www.urp.istruzione.it,Could not resolve host: www.urp.istruzione.it
+www.val.didattico.istruzione.it,Could not resolve host: www.val.didattico.istruzione.it
+www.verifica-cup.istruzione.it,Could not resolve host: www.verifica-cup.istruzione.it
+www.webmail.pubblica.istruzione.it,Could not resolve host: www.webmail.pubblica.istruzione.it
+www.ws.cartadeldocente.istruzione.it,Could not resolve host: www.ws.cartadeldocente.istruzione.it
+www.wstest.cartadeldocente.istruzione.it,Could not resolve host: www.wstest.cartadeldocente.istruzione.it
+www.zeus.istruzione.it,Could not resolve host: www.zeus.istruzione.it
+zeus.istruzione.it,Could not resolve host: zeus.istruzione.it

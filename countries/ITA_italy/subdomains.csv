@@ -20,6 +20,7 @@ accessportal.esteri.it,esteri.it,Could not resolve host: accessportal.esteri.it
 account.liceodesio.gov.it,gov.it,Could not resolve host: account.liceodesio.gov.it
 accreditamento.agenziaentrate.gov.it,gov.it,403
 accreditamento.istruzione.it,istruzione.it,200
+accreditamentobor.esteri.it,esteri.it,200
 accrediti.giustizia.it,giustizia.it,200
 activesync.adisupg.gov.it,gov.it,Could not resolve host: activesync.adisupg.gov.it
 adfs.istruzione.it,istruzione.it,Connection timed out after 5001 milliseconds
@@ -183,6 +184,8 @@ anagrafe.sisma2016.gov.it,gov.it,SSL certificate problem: certificate has expire
 anagrafeits.istruzione.it,istruzione.it,403
 analytics.agid.gov.it,gov.it,Could not resolve host: analytics.agid.gov.it
 analytics.esteri.it,esteri.it,Failed to connect to analytics.esteri.it port 443 after 3088 ms: Could not connect to server
+anes.istruzione.it,istruzione.it,"curl: (6) Could not resolve host: anes.istruzione.it
+"
 animatoridigitali.alberghierosbt.gov.it,gov.it,Could not resolve host: animatoridigitali.alberghierosbt.gov.it
 anist-val.istruzione.it,istruzione.it,403
 anist.istruzione.it,istruzione.it,403
@@ -1201,11 +1204,13 @@ itscangrande.gov.it,gov.it,Could not resolve host: itscangrande.gov.it
 itsfilangieri.gov.it,gov.it,Could not resolve host: itsfilangieri.gov.it
 ittfedifermi.gov.it,gov.it,Could not resolve host: ittfedifermi.gov.it
 itzanon.gov.it,gov.it,Could not resolve host: itzanon.gov.it
+ivoltidellarepubblica.quirinale.it,quirinale.it,403
 jacoponizzola.gov.it,gov.it,Could not resolve host: jacoponizzola.gov.it
 japp.ipsema.gov.it,gov.it,Could not resolve host: japp.ipsema.gov.it
 join.cittadimantova.gov.it,gov.it,Could not resolve host: join.cittadimantova.gov.it
 join.comune.mantova.gov.it,gov.it,Could not resolve host: join.comune.mantova.gov.it
 k1000b.istruzione.it,istruzione.it,TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+kaf-136prod.learn.istruzione.it,istruzione.it,200
 kanban.carducci-dante.gov.it,gov.it,Could not resolve host: kanban.carducci-dante.gov.it
 kanboard.carducci-dante.gov.it,gov.it,Could not resolve host: kanboard.carducci-dante.gov.it
 lab.liceodesio.gov.it,gov.it,Could not resolve host: lab.liceodesio.gov.it
@@ -2164,6 +2169,8 @@ www.alboctuelenchitest.giustizia.it,giustizia.it,Could not resolve host: www.alb
 www.aldocapitini.gov.it,gov.it,Could not resolve host: www.aldocapitini.gov.it
 www.alpileviscampia.gov.it,gov.it,Could not resolve host: www.alpileviscampia.gov.it
 www.anagrafeedilizia.istruzione.it,istruzione.it,Could not resolve host: www.anagrafeedilizia.istruzione.it
+www.anes.istruzione.it,istruzione.it,"curl: (6) Could not resolve host: www.anes.istruzione.it
+"
 www.anist.istruzione.it,istruzione.it,Could not resolve host: www.anist.istruzione.it
 www.anniversarinazionali.governo.it,governo.it,302
 www.antoniopesenti.gov.it,gov.it,Could not resolve host: www.antoniopesenti.gov.it
@@ -2583,8 +2590,11 @@ www.ittfedifermi.gov.it,gov.it,Could not resolve host: www.ittfedifermi.gov.it
 www.itzanon.gov.it,gov.it,Could not resolve host: www.itzanon.gov.it
 www.iubilaeum.salute.gov.it,gov.it,Could not resolve host: www.iubilaeum.salute.gov.it
 www.iubileaum.salute.gov.it,gov.it,Could not resolve host: www.iubileaum.salute.gov.it
+www.ivoltidellarepubblica.quirinale.it,quirinale.it,403
 www.jacoponizzola.gov.it,gov.it,Could not resolve host: www.jacoponizzola.gov.it
 www.k1000b.istruzione.it,istruzione.it,Could not resolve host: www.k1000b.istruzione.it
+www.kaf-136prod.learn.istruzione.it,istruzione.it,"curl: (6) Could not resolve host: www.kaf-136prod.learn.istruzione.it
+"
 www.labuonascuola.gov.it,gov.it,Could not resolve host: www.labuonascuola.gov.it
 www.lcgalilei.gov.it,gov.it,Could not resolve host: www.lcgalilei.gov.it
 www.learn.istruzione.it,istruzione.it,Could not resolve host: www.learn.istruzione.it

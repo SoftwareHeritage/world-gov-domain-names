@@ -1217,7 +1217,15 @@ rm.ana.gov.br,gov.br,Connection timed out after 3002 milliseconds
 rpc.tce.pr.gov.br,gov.br,Could not resolve host: rpc.tce.pr.gov.br
 s2caixa.caixa.gov.br,gov.br,403
 s2gpr.sefaz.ce.gov.br,gov.br,SSL certificate problem: self-signed certificate in certificate chain
-s2gprhomol.sefaz.ce.gov.br,gov.br,",URL rejected: Bad hostname"
+s2gprhomol.sefaz.ce.gov.br,gov.br,"curl: (60) SSL certificate problem: self-signed certificate in certificate chain
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+"
+"s2gprhomol.sefaz.ce.gov.br,",gov.br,"curl: (3) URL rejected: Bad hostname
+"
 saa.previdencia.gov.br,gov.br,Could not resolve host: saa.previdencia.gov.br
 sadpmc.campinas.sp.gov.br,gov.br,Connection timed out after 3001 milliseconds
 saed.jucemg.mg.gov.br,gov.br,Could not resolve host: saed.jucemg.mg.gov.br

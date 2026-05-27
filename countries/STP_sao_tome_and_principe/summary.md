@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 154 of 193
 - Government type: semi-presidential republic
 - Capital: Sao Tome
-- Domains collected (HTTP 200): 49
+- Domains collected (HTTP 200): 55
 
 ## UN/DESA national portal
 

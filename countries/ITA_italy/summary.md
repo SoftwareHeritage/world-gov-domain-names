@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 51 of 193
 - Government type: parliamentary republic
 - Capital: Rome
-- Domains collected (HTTP 200): 90
+- Domains collected (HTTP 200): 92
 
 ## UN/DESA national portal
 

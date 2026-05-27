@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 113 of 193
 - Government type: absolute monarchy
 - Capital: Mbabane (administrative capital); Lobamba (royal and legislative capital)
-- Domains collected (HTTP 200): 9
+- Domains collected (HTTP 200): 13
 
 ## UN/DESA national portal
 
