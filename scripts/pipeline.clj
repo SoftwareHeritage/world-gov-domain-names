@@ -25,10 +25,10 @@
 ;; Environment variables:
 ;;   FORCE=1            force-overwrite existing outputs
 ;;   PARALLEL           # concurrent requests (fetch/probe)
-;;   TIMEOUT            curl timeout per HTTPS request (probe), default 5s
+;;   TIMEOUT            HTTPS request timeout in seconds (probe), default 5s
 
 (ns pipeline
-  (:require [babashka.curl :as curl]
+  (:require [babashka.http-client :as http]
             [babashka.fs :as fs]
             [cheshire.core :as json]
             [clojure.data.csv :as csv]
@@ -55,6 +55,12 @@
 (def conc-un-desa  (env-int "CONC_UN_DESA"  4))
 
 (defn err [& xs] (binding [*out* *err*] (println (apply str xs))))
+
+(defn single-line
+  "Collapse a (possibly multi-line) string to a single trimmed line. Keeps the
+  CSV well-formed when storing HTTP error messages as a status."
+  [s]
+  (-> (str s) (str/replace #"\s+" " ") str/trim))
 
 (defn read-csv-file
   "Read a CSV with header as a seq of maps {col-name value}. Column names
@@ -191,25 +197,61 @@
        vals
        (sort-by first)))
 
+(defn merge-field-rows
+  "Merge freshly-fetched [field value] rows into the existing field-CSV at path
+  so a (re)fetch only ADDS or UPDATES, never erases: a new non-blank value
+  updates its field, a blank new value falls back to the existing value, and any
+  pre-existing field the fetch did not emit is preserved. Order: emitted fields
+  first (in fetch order), then extra pre-existing fields."
+  [path new-rows]
+  (let [existing     (when (fs/exists? path) (rest (read-csv-raw path)))
+        existing-map (into {} (for [[k v] existing] [k v]))
+        emitted      (set (map first new-rows))
+        primary (for [[k v] new-rows]
+                  [k (if (str/blank? v) (get existing-map k "") v)])
+        extra   (for [[k v] existing :when (not (emitted k))] [k v])]
+    (concat primary extra)))
+
+(defn merge-rows-union
+  "Union the existing CSV rows (header dropped) at path with new-rows,
+  de-duplicated on the whole row: existing rows are never dropped, genuinely new
+  rows are added. Sorted by the column at sort-idx, then the full row."
+  [path new-rows sort-idx]
+  (let [existing (when (fs/exists? path) (rest (read-csv-raw path)))]
+    (->> (concat existing new-rows)
+         (map vec)
+         distinct
+         (sort-by (juxt #(nth % sort-idx "") identity)))))
+
 (defn skip? [out-path] (and (fs/exists? out-path) (not force?)))
 
 ;; ===========================================================================
 ;;  HTTP helpers
 ;; ===========================================================================
 
+;; Shared java.net.http client. :follow-redirects :never mirrors the previous
+;; curl behaviour (no -L): a 3xx is reported as-is rather than chased, which is
+;; what the probe relies on to record 301/302 statuses. Per-request :timeout
+;; bounds the whole exchange (incl. connect); :connect-timeout is a backstop.
+(def http-client
+  (http/client (assoc http/default-client-opts
+                      :follow-redirects :never
+                      :connect-timeout 15000)))
+
 (defn http-get
-  "GET via babashka.curl with User-Agent and retries on network errors.
+  "GET via babashka.http-client with User-Agent and retries on network errors.
   Returns the body string on HTTP 200, nil otherwise. Honors :timeout
   (seconds, default 30), :retries (default 3), :query-params and :accept."
   ([url] (http-get url {}))
   ([url {:keys [timeout retries query-params accept]
          :or {timeout 30 retries 3 accept "*/*"}}]
    (loop [attempt 1]
-     (let [resp (try (curl/get url
-                               {:headers {"User-Agent" ua "Accept" accept}
-                                :query-params query-params
+     (let [resp (try (http/get url
+                               {:client http-client
+                                :headers {"User-Agent" ua "Accept" accept}
+                                :query-params (or query-params {})
                                 :throw false
-                                :raw-args ["--max-time" (str timeout)]})
+                                :timeout (* timeout 1000)})
                      (catch Exception _ nil))]
        (if (and resp (= 200 (:status resp)) (not (str/blank? (:body resp))))
          (:body resp)
@@ -282,7 +324,11 @@
                          (mapcat #(str/split-lines (str %)))
                          (map #(str/replace % #"^\*\." ""))
                          (filter seq)
-                         distinct)
+                         distinct
+                         vec)               ; realize inside the try: cheshire
+                                            ; parses top-level arrays lazily, so a
+                                            ; truncated crt.sh body would otherwise
+                                            ; throw JsonEOFException downstream
                     (catch Exception _ []))
             merged (merge-crt-csv out names)]
         (write-csv-file out ["subdomain" "http_status"] (map vec merged))
@@ -366,16 +412,20 @@
 ;; ===========================================================================
 
 (defn probe-one!
-  "HTTPS HEAD via babashka.curl. Returns [sub status] where status is the
-  HTTP code (e.g. \"200\") on success or a short error message on failure."
+  "HTTPS HEAD via babashka.http-client. Returns [sub status] where status is the
+  HTTP code (e.g. \"200\") on success or a short single-line error message on
+  failure (e.g. \"UnknownHostException: foo.gov.fr\")."
   [sub timeout]
   (let [resp (try
-               (curl/head (str "https://" sub "/")
-                          {:throw false
-                           :raw-args ["--max-time" (str timeout)
-                                      "--connect-timeout" (str timeout)]})
+               (http/head (str "https://" sub "/")
+                          {:client http-client
+                           :headers {"User-Agent" ua}
+                           :throw false
+                           :timeout (* timeout 1000)})
                (catch Exception e
-                 {:err (or (.getMessage e) "exception")}))
+                 (let [msg (single-line (.getMessage e))
+                       cls (.getSimpleName (class e))]
+                   {:err (if (str/blank? msg) cls (str cls ": " msg))})))
         code (some-> resp :status str)
         status (cond
                  (and code (not (#{"0" "000"} code))) code
@@ -542,20 +592,26 @@
                            :let [q (wikidata-query qid country-qid strictness)
                                  body (wikidata-run-query q)]]
                        (if body
-                         (let [bindings (-> (json/parse-string body true)
-                                            :results :bindings)
-                               n (count bindings)
-                               _ (err (str "  [" type "] " n " results"))]
-                           (Thread/sleep 1000)
-                           (for [b bindings
-                                 :let [url (-> b :website :value)
-                                       lbl (-> b :orgLabel :value)
-                                       host (extract-host url)]
-                                 :when host]
-                             [type lbl url host]))
+                         (try
+                           (let [bindings (-> (json/parse-string body true)
+                                              :results :bindings)
+                                 n (count bindings)
+                                 _ (err (str "  [" type "] " n " results"))]
+                             (Thread/sleep 1000)
+                             (for [b bindings
+                                   :let [url (-> b :website :value)
+                                         lbl (-> b :orgLabel :value)
+                                         host (extract-host url)]
+                                   :when host]
+                               [type lbl url host]))
+                           (catch Exception e
+                             (err (str "  [" type "] parse error: " (.getMessage e)))
+                             []))
                          (do (err (str "  [" type "] failed after 3 attempts")) []))))]
-          (write-csv-file out ["type" "label" "website" "hostname"] all-rows)
-          (println (str "  -> " out " (" (count all-rows) " entries)"))
+          (let [merged (merge-rows-union out all-rows 3)]
+            (write-csv-file out ["type" "label" "website" "hostname"] merged)
+            (println (str "  -> " out " (" (count merged) " entries; "
+                          (count all-rows) " from this fetch, rest preserved)")))
           (let [n-miss (wikidata-write-missing! out missing-out)]
             (println (str "  -> " missing-out " (" n-miss " uncovered candidates)"))))))))
 
@@ -633,11 +689,13 @@
           (do
             (println (str "=== " country-dir " (." cctld ") ==="))
             (if-let [html (iana-fetch-html cctld)]
-              (let [manager  (or (iana-extract-field html "ccTLD Manager")
-                                 (iana-extract-field html "Sponsoring Organisation")
-                                 "")
-                    registry (or (iana-extract-url html "URL for registration services") "")
-                    whois    (or (iana-extract-whois html) "")]
+              (let [prev     (vec (when (fs/exists? out) (second (read-csv-raw out))))
+                    keep-old (fn [v i] (if (str/blank? v) (nth prev i "") v))
+                    manager  (keep-old (or (iana-extract-field html "ccTLD Manager")
+                                           (iana-extract-field html "Sponsoring Organisation")
+                                           "") 1)
+                    registry (keep-old (or (iana-extract-url html "URL for registration services") "") 2)
+                    whois    (keep-old (or (iana-extract-whois html) "") 3)]
                 (write-csv-file out ["cctld" "manager" "registry_url" "whois_server"]
                                 [[(str "." cctld) manager registry whois]])
                 (println (str "  -> " out " (manager: " (or manager "?") ")"))
@@ -748,10 +806,12 @@
                     (do (spit raw (json/generate-string gov {:pretty true}))
                         (write-csv-file
                           out ["field" "text"]
-                          (for [[k path] cia-fields
-                                :let [v (cia-extract gov (map keyword path))]
-                                :when (not (str/blank? v))]
-                            [k v]))
+                          (merge-field-rows
+                            out
+                            (for [[k path] cia-fields
+                                  :let [v (cia-extract gov (map keyword path))]
+                                  :when (not (str/blank? v))]
+                              [k v])))
                         (println (str "  -> " raw " + " out))
                         (Thread/sleep 1000))))))))))))
 
@@ -809,7 +869,7 @@
                              portal (conj ["national_portal" portal])
                              rank   (conj ["egdi_rank" rank])
                              true   (conj ["source_url" url]))]
-                  (write-csv-file out ["field" "text"] rows)
+                  (write-csv-file out ["field" "text"] (merge-field-rows out rows))
                   (println (str "  -> " out " (portal: " (or portal "?")
                                 ", " (or rank "no rank") ")"))
                   (Thread/sleep 1000))))))))))
@@ -907,14 +967,16 @@
             [gdp-val gdp-year] gdp]
         (write-csv-file
           out ["field" "value"]
-          [["region"          (or (:region rc) "")]
-           ["subregion"       (or (:subregion rc) "")]
-           ["languages"       (or (:languages rc) "")]
-           ["currencies"      (or (:currencies rc) "")]
-           ["population"      (or (:population rc) "")]
-           ["capital"         (or (:capital rc) "")]
-           ["gdp_per_capita"  (if gdp-val (format "%.0f" (double gdp-val)) "")]
-           ["gdp_year"        (or gdp-year "")]])
+          (merge-field-rows
+            out
+            [["region"          (or (:region rc) "")]
+             ["subregion"       (or (:subregion rc) "")]
+             ["languages"       (or (:languages rc) "")]
+             ["currencies"      (or (:currencies rc) "")]
+             ["population"      (or (:population rc) "")]
+             ["capital"         (or (:capital rc) "")]
+             ["gdp_per_capita"  (if gdp-val (format "%.0f" (double gdp-val)) "")]
+             ["gdp_year"        (or gdp-year "")]]))
         (println (str "=== " country-dir " : " (or (:region rc) "?")
                       " / GDP " (if gdp-val (format "%.0f" (double gdp-val)) "?")
                       " (" (or gdp-year "?") ")"))

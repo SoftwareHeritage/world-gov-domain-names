@@ -49,8 +49,8 @@ scripts/pipeline.clj <cmd>=:
 
 * Prerequisites
 
-- =babashka= (1.12+)
-- =curl= (=babashka.curl= shells out to it)
+- =babashka= (1.12+) -- HTTP via the bundled =babashka.http-client=, no
+  external tool needed
 - =data/world-governments.csv= (master list with =un_status= column)
 - =data/country_qid.csv= (Wikidata mapping, built via =bb pipeline build-qid=)
 - =data/factbook_aliases.csv= and =data/un_desa_aliases.csv= (country-name overrides)
@@ -62,7 +62,7 @@ scripts/pipeline.clj <cmd>=:
 |----------+-------------------------------------------------+---------|
 | =FORCE=    | overwrite existing outputs                      | =0=       |
 | =PARALLEL= | concurrent requests (fetch / probe)             | varies  |
-| =TIMEOUT=  | curl timeout per HTTPS request (probe), seconds | =5=       |
+| =TIMEOUT=  | HTTPS request timeout (probe), seconds          | =5=       |
 
 * Scoring (cross-check)
 
