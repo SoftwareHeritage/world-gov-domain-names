@@ -125,7 +125,14 @@ section) and propagated as the =region=, =languages= and
 ** =data/=
 
 - =world-governments.csv= -- master list of 197 countries
-  (=Country,Region,email address domain,Government Portal Domain,URL,un_status=)
+  (=Country,Region,email address domain,Government Portal Domain,URL,un_status,iso2,iso3,income_group=)
+  - =iso2=, =iso3= :: ISO 3166-1 alpha-2 / alpha-3 codes (=XK=/=XKX= for Kosovo,
+    following Eurostat / IMF / EU placeholder usage).
+  - =income_group= :: World Bank country-and-lending-group classification, FY2025
+    (=H= high, =UM= upper-middle, =LM= lower-middle, =L= low). Source:
+    https://datahelpdesk.worldbank.org/knowledgebase/articles/906519. Refresh
+    annually (every July) by re-running =scripts/populate_iso_income.py= after
+    updating its hardcoded reference table.
 - =country_qid.csv= -- generated mapping =country_dir,iso3,wikidata_qid=
 - =factbook_gec.csv=, =factbook_aliases.csv=, =un_desa_ids.csv=,
   =un_desa_aliases.csv= -- generated country-name <-> source-id mappings
