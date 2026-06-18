@@ -13,7 +13,8 @@
 ;;   normalize          clean every subdomains.csv
 ;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status
 ;;   mx [DOM…]          DNS MX lookup per host -> mx.csv (email signal)
-;;   aggregate          aggregate consolidate_domain_names_list.csv
+;;   aggregate          aggregate every host -> public-sector.csv
+;;   central            extract root domains -> public-sector-central-gov.csv
 ;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
@@ -549,15 +550,21 @@
   (or (csv-field (country-src country-dir "country_data" "info.csv") field)
       ""))
 
+(def public-sector-file "public-sector.csv")
+(def central-gov-file   "public-sector-central-gov.csv")
+
 (defn cmd-aggregate [_]
-  (let [out "consolidate_domain_names_list.csv"
-        un-by-country (build-un-status-map)
+  (let [un-by-country (build-un-status-map)
         meta-by-country
         (into {}
               (for [c (country-dirs)]
                 [c {:region   (country-meta-field c "region")
                     :langs    (country-meta-field c "languages")
                     :gdp      (country-meta-field c "gdp_per_capita")}]))
+        ;; public-sector.csv -- every harvested host (root apex AND subdomains),
+        ;; regardless of HTTP/MX. Inclusion criterion: the host existed in DNS at
+        ;; least once (it appeared in a source like crt.sh). http_status and mx
+        ;; travel along as signals, never as filters.
         rows (->> (root-subdomain-csvs)
                   (mapcat (fn [csv]
                             (let [parent  (str (fs/file-name (fs/parent csv)))
@@ -567,14 +574,6 @@
                                   un (get un-by-country country "member")
                                   m  (get meta-by-country country)
                                   mx-by-host (read-mx-map (fs/parent csv))]
-                              ;; Keep every harvested host regardless of HTTP status.
-                              ;; The dataset measures government EMAIL domains: a host
-                              ;; may carry mail (MX) without serving an HTTPS site -- an
-                              ;; email-only domain (MX, no A record) does not even
-                              ;; resolve over HTTP. The inclusion criterion is "the host
-                              ;; existed in DNS at least once" (it appeared in crt.sh).
-                              ;; http_status and mx travel along as signals, never as
-                              ;; filters.
                               (for [[sub status] (rest (read-csv-raw (str csv)))
                                     :when (not (str/blank? sub))]
                                 [sub parent country un
@@ -582,16 +581,45 @@
                                  (or status "") (get mx-by-host sub "")]))))
                   (sort-by first)
                   distinct)]
-    (write-csv-file out
+    (write-csv-file public-sector-file
                     ["subdomain" "parent_domain" "country" "un_status"
                      "region" "languages" "gdp_per_capita" "http_status" "mx"]
                     rows)
     (doseq [c (country-dirs)] (regenerate-country-subdomains! c))
     (let [counts (frequencies (map #(nth % 3) rows))]
-      (println (str "Wrote " out " (" (count rows) " rows; every host that ever existed in DNS)"))
+      (println (str "Wrote " public-sector-file " (" (count rows) " hosts)"))
       (println (str "  UN members: " (get counts "member" 0)
                     " ; observers: " (get counts "observer" 0)
                     " ; non-UN: " (get counts "non_un" 0))))))
+
+(defn cmd-central [_]
+  "Extract public-sector-central-gov.csv from public-sector.csv: collapse to one
+  row per root domain (column parent_domain). With suffix matching a root already
+  covers all its subdomains, so these roots are the email domains the report's
+  regex needs. Carries the root apex's http_status/mx as signals."
+  (let [hdr-rows (read-csv-raw public-sector-file)]
+    (if (empty? hdr-rows)
+      (err "ERR: " public-sector-file " missing -- run 'bb pipeline aggregate' first")
+      (let [rows (rest hdr-rows)
+            central
+            (->> (group-by #(nth % 1) rows)            ; group by parent_domain
+                 (keep (fn [[parent group]]
+                         (when-not (str/blank? parent)
+                           (let [r    (first group)
+                                 apex (first (filter #(= (first %) parent) group))
+                                 sig  (or apex r)]
+                             ;; columns of public-sector.csv:
+                             ;; 0 subdomain 1 parent 2 country 3 un 4 region
+                             ;; 5 languages 6 gdp 7 http_status 8 mx
+                             [parent (nth r 2 "") (nth r 3 "") (nth r 4 "")
+                              (nth r 5 "") (nth r 6 "")
+                              (if apex (nth apex 7 "") "") (if apex (nth apex 8 "") "")]))))
+                 (sort-by first))]
+        (write-csv-file central-gov-file
+                        ["domain" "country" "un_status"
+                         "region" "languages" "gdp_per_capita" "http_status" "mx"]
+                        central)
+        (println (str "Wrote " central-gov-file " (" (count central) " central-gov root domains)"))))))
 
 ;; ===========================================================================
 ;;  Phase 5 -- Wikidata (fetch + diff)
@@ -1151,10 +1179,10 @@
          (map str/lower-case))))
 
 (defn read-collected-cache
-  "Pre-split consolidate_domain_names_list.csv into a map country -> seq of subdomains."
+  "Pre-split public-sector.csv into a map country -> seq of subdomains."
   []
-  (when (fs/exists? "consolidate_domain_names_list.csv")
-    (->> (rest (read-csv-raw "consolidate_domain_names_list.csv"))
+  (when (fs/exists? public-sector-file)
+    (->> (rest (read-csv-raw public-sector-file))
          (group-by #(nth % 2))
          (reduce-kv (fn [m k v] (assoc m k (mapv first v))) {}))))
 
@@ -1454,7 +1482,8 @@
   (cmd-retry [])
   (cmd-normalize nil)
   (cmd-probe args)
-  (cmd-aggregate nil))
+  (cmd-aggregate nil)
+  (cmd-central nil))
 
 (def commands
   "Map sub-command name -> handler. Used both by dispatcher and usage banner."
@@ -1467,6 +1496,7 @@
    "probe"       cmd-probe
    "mx"          cmd-mx
    "aggregate"   (fn [_] (cmd-aggregate nil))
+   "central"     (fn [_] (cmd-central nil))
    "wikidata"    cmd-wikidata
    "iana"        cmd-iana
    "cia"         cmd-cia
@@ -1483,7 +1513,7 @@
   (println "  collect | enrich | report | all")
   (println)
   (println "Targeted commands:")
-  (println "  fetch | retry | normalize | probe | mx | aggregate")
+  (println "  fetch | retry | normalize | probe | mx | aggregate | central")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
