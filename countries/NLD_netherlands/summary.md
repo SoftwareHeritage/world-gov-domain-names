@@ -30,11 +30,12 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `staten-generaal.nl` | wikidata;wikidata | States General |
 | 6 | `overheid.nl` | un_desa | UN/DESA national portal |
+| 4 | `rijksoverheid.nl` | curated | Rijksoverheid (central-government portal) |
 

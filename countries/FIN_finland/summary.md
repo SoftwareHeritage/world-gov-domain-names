@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-22 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+23 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -48,11 +48,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `tampere.fi` | wikidata | Tampere City Board |
 | 4 | `tem.fi` | wikidata | Ministry of Economic Affairs and Employment |
 | 4 | `um.fi` | wikidata | Ministry of Foreign Affairs of Finland |
+| 4 | `valtioneuvosto.fi` | curated | Finnish Government (Council of State) |
 | 4 | `ym.fi` | wikidata | Ministry of the Environment |
 | 3 | `intermin.fi.` | wikidata | Ministry of the Interior of Finland |
 | 2 | `defmin.fi` | wikidata;wikidata;wikidata | Ministry of Defence of Finland |
 | 2 | `hel.fi` | wikidata;wikidata;wikidata | Helsinki City Board |
 | 2 | `lvm.fi` | wikidata;wikidata;wikidata | Ministry of Transport and Communications |
 | 2 | `oikeusministerio.fi` | wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of Justice |
-| 2 | `stm.fi` | wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of Social Affairs and Health |
 
