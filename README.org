@@ -21,8 +21,14 @@ The UN status of each country lives in =data/world-governments.csv=
 
 ** =consolidate_domain_names_list.csv= (root)
 
-The consolidated output: every government subdomain that returned HTTP
-=200= over HTTPS, with the UN status and key metadata of its country.
+The consolidated output: every government host discovered for a
+promoted root domain -- root apex *and* subdomains (e.g. =beta.gouv.fr=)
+-- kept regardless of its HTTP status. The dataset measures government
+*email* domains, so a host that carries mail behind =@host= without
+serving a website at =https://host= is kept just like a live =200=
+site; an email-only domain (MX, no =A= record) does not even resolve
+over HTTP. Each row comes with the UN status and key metadata of its
+country.
 
 #+begin_example
 subdomain,parent_domain,country,un_status,region,languages,gdp_per_capita

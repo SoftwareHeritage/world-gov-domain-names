@@ -12,6 +12,7 @@
 ;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
 ;;   normalize          clean every subdomains.csv
 ;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status
+;;   mx [DOM…]          DNS MX lookup per host -> mx.csv (email signal)
 ;;   aggregate          aggregate consolidate_domain_names_list.csv
 ;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
 ;;   iana [C…]          IANA ccTLD registry
@@ -30,6 +31,7 @@
 (ns pipeline
   (:require [babashka.http-client :as http]
             [babashka.fs :as fs]
+            [babashka.process :as proc]
             [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [clojure.java.io :as io]
@@ -88,6 +90,20 @@
     (csv/write-csv w (cons header rows))))
 
 (defn ensure-dir [path] (fs/create-dirs path) path)
+
+(defn country-src
+  "Path under countries/<c>/sources/<source>/. With a file, appends it:
+  (country-src \"FRA_france\" \"iana\" \"cctld.csv\"). With none, the dir."
+  [country-dir source & [file]]
+  (str "countries/" country-dir "/sources/" source (when file (str "/" file))))
+
+(defn read-mx-map
+  "Read a root dir's mx.csv into a {host mx} map (empty map if absent)."
+  [dir]
+  (let [path (str dir "/mx.csv")]
+    (if (fs/exists? path)
+      (into {} (for [[h mx] (rest (read-csv-raw path))] [h mx]))
+      {})))
 
 (defn country-dirs
   "All country_dir present under countries/. ASCII-sorted."
@@ -264,9 +280,6 @@
 ;;  Phase 1 -- fetch / retry (crt.sh)
 ;; ===========================================================================
 
-(def source-dirs-set #{"wikidata" "iana" "un_desa" "cia_factbook" "oecd" "country_data"
-                       "curated"})
-
 (defn root-domain-dirs
   "All countries/<c>/sources/roots/<root>/ directories (full paths). Promoted
   root domains live under sources/roots/, siblings-free of the enrichment
@@ -345,8 +358,17 @@
   (let [v (System/getenv "PARALLEL")]
     (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default-n)))
 
+(def fetch-fail-log "/tmp/fetch_subdomains.log")
+
 (defn cmd-fetch [args]
-  (bounded-pmap (parallel 4) fetch-one! (resolve-dirs args)))
+  (let [dirs    (resolve-dirs args)
+        results (bounded-pmap (parallel 4) (fn [d] [d (fetch-one! d)]) dirs)
+        fails   (->> results (filter #(= :fail (second %))) (map (comp str fs/file-name first)))]
+    ;; Record this run's failures (fresh, never appended) so `retry` -- whether
+    ;; called inside run-collect or as a standalone command -- replays exactly
+    ;; the domains that just failed, not a stale log from a previous session.
+    (spit fetch-fail-log (str/join "\n" (map #(str "FAIL " %) fails)))
+    results))
 
 (defn retry-one!
   [dir]
@@ -365,14 +387,13 @@
 (defn cmd-retry [args]
   (let [domains (if (seq args)
                   args
-                  (let [log "/tmp/fetch_subdomains.log"]
-                    (when (fs/exists? log)
-                      (->> (slurp log) str/split-lines
-                           (filter #(str/starts-with? % "FAIL"))
-                           (map #(second (str/split % #"\s+")))
-                           (filter seq)))))]
+                  (when (fs/exists? fetch-fail-log)
+                    (->> (slurp fetch-fail-log) str/split-lines
+                         (filter #(str/starts-with? % "FAIL"))
+                         (map #(second (str/split % #"\s+")))
+                         (filter seq))))]
     (if (empty? domains)
-      (do (err "No FAIL in /tmp/fetch_subdomains.log (and no argument provided).") 1)
+      (do (err "No FAIL in " fetch-fail-log " (and no argument provided).") 1)
       (do (bounded-pmap (parallel 2) retry-one! (resolve-dirs (vec domains)))
           0))))
 
@@ -385,14 +406,13 @@
   wildcards and email addresses, dedup keeping non-empty status, ASCII sort."
   [rows]
   (let [cleaned
-        (for [[dom & rest-cols] rows
+        (for [[dom status] rows
               :let [dom (some-> dom str/trim str/lower-case
-                                (str/replace #"^\*\." ""))
-                    status (str/join "," (or rest-cols []))]
+                                (str/replace #"^\*\." ""))]
               :when (and dom (not (str/blank? dom))
                          (not (re-find #"\*" dom))
                          (not (re-find #"@" dom)))]
-          [dom status])]
+          [dom (or status "")])]
     (merge-status cleaned)))
 
 (defn cmd-normalize [_]
@@ -436,7 +456,7 @@
 (defn probe-domain! [dir timeout]
   (let [csv (str dir "/subdomains.csv")
         name (str (fs/file-name dir))]
-    (when (and (fs/exists? csv) (not (source-dirs-set name)))
+    (when (fs/exists? csv)
       (let [all-rows (rest (read-csv-raw csv))
             to-probe (filter (fn [[_ s]] (str/blank? s)) all-rows)
             kept     (remove (fn [[_ s]] (str/blank? s)) all-rows)]
@@ -455,13 +475,63 @@
     (doseq [d (resolve-dirs args)] (probe-domain! d timeout))))
 
 ;; ===========================================================================
+;;  Phase 3b -- MX records (email signal, never a filter)
+;; ===========================================================================
+
+(defn mx-lookup
+  "MX records of a host as a single-line string (\"prio host; …\"), \"none\" if
+  the host has no MX, or a short error tag. Uses the system `dig`. This is a
+  recorded signal only -- it never gates inclusion in the consolidated file."
+  [host]
+  (let [{:keys [out exit]}
+        (try (proc/sh "dig" "+short" "+time=2" "+tries=1" "MX" host)
+             (catch Exception e {:exit 1 :out (.getSimpleName (class e))}))
+        ;; `dig +short MX` on a CNAME host prints the CNAME chain too; keep only
+        ;; genuine MX answers, which have the "<priority> <host>" shape.
+        lines (->> (str/split-lines (str out))
+                   (map str/trim)
+                   (filter #(re-matches #"\d+\s+\S+" %)))]
+    (cond
+      (not (zero? (or exit 1))) "dig error"
+      (seq lines)               (single-line (str/join "; " lines))
+      :else                     "none")))
+
+(defn mx-domain!
+  "Look up MX for every host in dir/subdomains.csv and write dir/mx.csv
+  (subdomain,mx). Reuses already-looked-up hosts unless FORCE=1."
+  [dir conc]
+  (let [sub-csv (str dir "/subdomains.csv")
+        out     (str dir "/mx.csv")
+        name    (str (fs/file-name dir))]
+    (when (fs/exists? sub-csv)
+      (let [hosts (->> (rest (read-csv-raw sub-csv))
+                       (map first)
+                       (remove str/blank?)
+                       distinct)
+            done  (if (and (not force?) (fs/exists? out))
+                    (into {} (for [[h mx] (rest (read-csv-raw out))] [h mx]))
+                    {})
+            todo  (remove #(contains? done %) hosts)]
+        (if (empty? todo)
+          (println (str "[" name "] mx: nothing to look up"))
+          (let [looked (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo)
+                rows   (sort-by first (concat (seq done) looked))]
+            (write-csv-file out ["subdomain" "mx"] rows)
+            (println (str "[" name "] mx: " (count todo) " looked up ("
+                          (count (filter #(not (#{"none" "dig error"} (second %))) looked))
+                          " with MX)"))))))))
+
+(defn cmd-mx [args]
+  (let [conc (parallel 50)]
+    (doseq [d (resolve-dirs args)] (mx-domain! d conc))))
+
+;; ===========================================================================
 ;;  Phase 4 -- collect_200
 ;; ===========================================================================
 
 (defn- regenerate-country-subdomains!
-  "Aggregate countries/<c>/sources/<root>/subdomains.csv into one
-  countries/<c>/subdomains.csv with columns subdomain,parent_domain,http_status.
-  Skips the enrichment-source subdirs."
+  "Aggregate countries/<c>/sources/roots/<root>/subdomains.csv into one
+  countries/<c>/subdomains.csv with columns subdomain,parent_domain,http_status."
   [country-dir]
   (let [out (str "countries/" country-dir "/subdomains.csv")
         rows (->> (root-subdomain-csvs country-dir)
@@ -476,7 +546,7 @@
 (defn- country-meta-field
   "Read one field from countries/<c>/sources/country_data/info.csv (or \"\")."
   [country-dir field]
-  (or (csv-field (str "countries/" country-dir "/sources/country_data/info.csv") field)
+  (or (csv-field (country-src country-dir "country_data" "info.csv") field)
       ""))
 
 (defn cmd-aggregate [_]
@@ -495,20 +565,30 @@
                                                  (fs/parent (fs/parent
                                                    (fs/parent (fs/parent csv))))))
                                   un (get un-by-country country "member")
-                                  m  (get meta-by-country country)]
+                                  m  (get meta-by-country country)
+                                  mx-by-host (read-mx-map (fs/parent csv))]
+                              ;; Keep every harvested host regardless of HTTP status.
+                              ;; The dataset measures government EMAIL domains: a host
+                              ;; may carry mail (MX) without serving an HTTPS site -- an
+                              ;; email-only domain (MX, no A record) does not even
+                              ;; resolve over HTTP. The inclusion criterion is "the host
+                              ;; existed in DNS at least once" (it appeared in crt.sh).
+                              ;; http_status and mx travel along as signals, never as
+                              ;; filters.
                               (for [[sub status] (rest (read-csv-raw (str csv)))
-                                    :when (= status "200")]
+                                    :when (not (str/blank? sub))]
                                 [sub parent country un
-                                 (:region m) (:langs m) (:gdp m)]))))
+                                 (:region m) (:langs m) (:gdp m)
+                                 (or status "") (get mx-by-host sub "")]))))
                   (sort-by first)
                   distinct)]
     (write-csv-file out
                     ["subdomain" "parent_domain" "country" "un_status"
-                     "region" "languages" "gdp_per_capita"]
+                     "region" "languages" "gdp_per_capita" "http_status" "mx"]
                     rows)
     (doseq [c (country-dirs)] (regenerate-country-subdomains! c))
     (let [counts (frequencies (map #(nth % 3) rows))]
-      (println (str "Wrote " out " (" (count rows) " HTTP 200 subdomains)"))
+      (println (str "Wrote " out " (" (count rows) " rows; every host that ever existed in DNS)"))
       (println (str "  UN members: " (get counts "member" 0)
                     " ; observers: " (get counts "observer" 0)
                     " ; non-UN: " (get counts "non_un" 0))))))
@@ -579,8 +659,8 @@
     (count missing)))
 
 (defn wikidata-process! [country-qid country-dir]
-  (let [out (str "countries/" country-dir "/sources/wikidata/central_admin.csv")
-        missing-out (str "countries/" country-dir "/sources/wikidata/missing_domains.csv")]
+  (let [out (country-src country-dir "wikidata" "central_admin.csv")
+        missing-out (country-src country-dir "wikidata" "missing_domains.csv")]
     (ensure-dir (fs/parent out))
     (if (skip? out)
       (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
@@ -678,7 +758,7 @@
 
       :else
       (let [cctld (-> portal (str/split #"\.") last str/lower-case)
-            out (str "countries/" country-dir "/sources/iana/cctld.csv")]
+            out (country-src country-dir "iana" "cctld.csv")]
         (cond
           (or (str/blank? cctld) (< (count cctld) 2))
           (err "  [" country-dir "] invalid cctld derived from '" portal "'")
@@ -788,8 +868,8 @@
     (if-not map-row
       (err "  [" country-dir "] no Factbook GEC mapping")
       (let [[_ gec region] map-row
-            raw (str "countries/" country-dir "/sources/cia_factbook/government.json")
-            out (str "countries/" country-dir "/sources/cia_factbook/summary.csv")]
+            raw (country-src country-dir "cia_factbook" "government.json")
+            out (country-src country-dir "cia_factbook" "summary.csv")]
         (ensure-dir (fs/parent raw))
         (if (skip? raw)
           (println (str "=== " country-dir " (" gec ") : SKIP"))
@@ -853,7 +933,7 @@
     (if-not map-row
       (err "  [" country-dir "] no UN/DESA id mapping")
       (let [[_ un-id un-name] map-row
-            out (str "countries/" country-dir "/sources/un_desa/summary.csv")]
+            out (country-src country-dir "un_desa" "summary.csv")]
         (ensure-dir (fs/parent out))
         (if (skip? out)
           (println (str "=== " country-dir " (UN id=" un-id ") : SKIP"))
@@ -898,7 +978,7 @@
 
 (defn oecd-process! [country-dir]
   (let [iso3 (first (str/split country-dir #"_"))
-        out (str "countries/" country-dir "/sources/oecd/membership.csv")
+        out (country-src country-dir "oecd" "membership.csv")
         since (get oecd-members iso3)]
     (ensure-dir (fs/parent out))
     (cond
@@ -959,7 +1039,7 @@
 
 (defn meta-process! [country-dir]
   (let [iso3 (first (str/split country-dir #"_"))
-        out  (str "countries/" country-dir "/sources/country_data/info.csv")]
+        out  (country-src country-dir "country_data" "info.csv")]
     (ensure-dir (fs/parent out))
     (if (skip? out)
       (println (str "=== " country-dir " : SKIP"))
@@ -1119,11 +1199,11 @@
   Aggregates Wikidata mentions, UN/DESA national portal, IANA ccTLD,
   Factbook institution names; applies subdivision penalties."
   [country-dir]
-  (let [iana-path (str "countries/" country-dir "/sources/iana/cctld.csv")
-        un-path   (str "countries/" country-dir "/sources/un_desa/summary.csv")
-        cia-path  (str "countries/" country-dir "/sources/cia_factbook/summary.csv")
-        wd-path   (str "countries/" country-dir "/sources/wikidata/central_admin.csv")
-        cur-path  (str "countries/" country-dir "/sources/curated/central_admin.csv")
+  (let [iana-path (country-src country-dir "iana" "cctld.csv")
+        un-path   (country-src country-dir "un_desa" "summary.csv")
+        cia-path  (country-src country-dir "cia_factbook" "summary.csv")
+        wd-path   (country-src country-dir "wikidata" "central_admin.csv")
+        cur-path  (country-src country-dir "curated" "central_admin.csv")
         out       (str "countries/" country-dir "/candidates.csv")
         cctld-primary
         (when (fs/exists? iana-path)
@@ -1231,7 +1311,7 @@
 
         :else
         (let [parent (parent-domain host)]
-          (if (and parent (fs/directory? (str "countries/" country-dir "/sources/roots/" parent)))
+          (if (and parent (fs/directory? (country-src country-dir "roots" parent)))
             (println (str "- ⚠️ Exact hostname not in the 200s, but a `" parent "` root directory exists (to be probed)"))
             (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/roots/" (or parent host) "/` directory present"))))))
     (println)))
@@ -1291,11 +1371,11 @@
   "Generate countries/<c>/summary.md (and candidates.csv) for one country."
   [country-dir collected-by-country un-status-by-country]
   (score-candidates-for! country-dir)
-  (let [iana-path (str "countries/" country-dir "/sources/iana/cctld.csv")
-        oecd-path (str "countries/" country-dir "/sources/oecd/membership.csv")
-        un-path   (str "countries/" country-dir "/sources/un_desa/summary.csv")
-        cia-path  (str "countries/" country-dir "/sources/cia_factbook/summary.csv")
-        meta-path (str "countries/" country-dir "/sources/country_data/info.csv")
+  (let [iana-path (country-src country-dir "iana" "cctld.csv")
+        oecd-path (country-src country-dir "oecd" "membership.csv")
+        un-path   (country-src country-dir "un_desa" "summary.csv")
+        cia-path  (country-src country-dir "cia_factbook" "summary.csv")
+        meta-path (country-src country-dir "country_data" "info.csv")
         cand-path (str "countries/" country-dir "/candidates.csv")
         out       (str "countries/" country-dir "/summary.md")
         [cctld manager] (when (fs/exists? iana-path)
@@ -1385,6 +1465,7 @@
    "retry"       cmd-retry
    "normalize"   (fn [_] (cmd-normalize nil))
    "probe"       cmd-probe
+   "mx"          cmd-mx
    "aggregate"   (fn [_] (cmd-aggregate nil))
    "wikidata"    cmd-wikidata
    "iana"        cmd-iana
@@ -1402,7 +1483,7 @@
   (println "  collect | enrich | report | all")
   (println)
   (println "Targeted commands:")
-  (println "  fetch | retry | normalize | probe | aggregate")
+  (println "  fetch | retry | normalize | probe | mx | aggregate")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))

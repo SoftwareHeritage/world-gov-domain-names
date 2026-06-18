@@ -35,6 +35,7 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj retry                 # replay FAILs from last log
   bb scripts/pipeline.clj normalize             # clean every CSV
   bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe
+  bb scripts/pipeline.clj mx gov.it             # DNS MX lookup -> mx.csv (email signal)
   bb scripts/pipeline.clj aggregate             # rebuild consolidate_domain_names_list.csv
 
   bb scripts/pipeline.clj wikidata Q142:FRA_france
