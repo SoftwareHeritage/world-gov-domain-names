@@ -48,8 +48,7 @@ elibrary-api.eparliament.gov.ls,gov.ls,Resolving timed out after 3001 millisecon
 elibrary-proxy.eparliament.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds
 elibrary.eparliament.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds
 elmis.gov.ls,gov.ls,200
-emis.gov.ls,gov.ls,"curl: (28) Resolving timed out after 5001 milliseconds
-"
+emis.gov.ls,gov.ls,curl: (28) Resolving timed out after 5001 milliseconds
 environment.gov.ls,gov.ls,Resolving timed out after 3004 milliseconds
 ep-api.eparliament.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds
 ep-index.eparliament.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds
@@ -165,10 +164,8 @@ seq.bonolohealth.gov.ls,gov.ls,Could not resolve host: seq.bonolohealth.gov.ls
 services.businessregistrations.gov.ls,gov.ls,Could not resolve host: services.businessregistrations.gov.ls
 share.csis.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds
 shared.internal.lnsw.gov.ls,gov.ls,Resolving timed out after 3002 milliseconds
-site1.gov.ls,gov.ls,"curl: (28) Connection timed out after 5002 milliseconds
-"
-site2.gov.ls,gov.ls,"curl: (28) Connection timed out after 5002 milliseconds
-"
+site1.gov.ls,gov.ls,curl: (28) Connection timed out after 5002 milliseconds
+site2.gov.ls,gov.ls,curl: (28) Connection timed out after 5002 milliseconds
 socialdevelopment.gov.ls,gov.ls,Could not resolve host: socialdevelopment.gov.ls
 splashbi.lesotho.gov.ls,gov.ls,Could not resolve host: splashbi.lesotho.gov.ls
 sswa.gov.ls,gov.ls,Could not resolve host: sswa.gov.ls
@@ -177,8 +174,7 @@ staging-api.gov.ls,gov.ls,Could not resolve host: staging-api.gov.ls
 stats.businessregistrations.gov.ls,gov.ls,Could not resolve host: stats.businessregistrations.gov.ls
 superset.elmis.gov.ls,gov.ls,Could not resolve host: superset.elmis.gov.ls
 tourism.ecitizen.gov.ls,gov.ls,Could not resolve host: tourism.ecitizen.gov.ls
-training.emis.gov.ls,gov.ls,"curl: (28) Resolving timed out after 5001 milliseconds
-"
+training.emis.gov.ls,gov.ls,curl: (28) Resolving timed out after 5001 milliseconds
 training.vhw.gov.ls,gov.ls,Could not resolve host: training.vhw.gov.ls
 transportprices.gov.ls,gov.ls,200
 uat.nonprod.internal.lnsw.gov.ls,gov.ls,Could not resolve host: uat.nonprod.internal.lnsw.gov.ls
@@ -254,19 +250,12 @@ www.publicworks.gov.ls,gov.ls,Could not resolve host: www.publicworks.gov.ls
 www.publicworksandtransport.gov.ls,gov.ls,Could not resolve host: www.publicworksandtransport.gov.ls
 www.renoka.gov.ls,gov.ls,Could not resolve host: www.renoka.gov.ls
 www.renokagisdata.gov.ls,gov.ls,Could not resolve host: www.renokagisdata.gov.ls
-www.rollproject.gov.ls,gov.ls,"curl: (28) Resolving timed out after 5001 milliseconds
-"
+www.rollproject.gov.ls,gov.ls,curl: (28) Resolving timed out after 5001 milliseconds
 www.sampletracking.gov.ls,gov.ls,Could not resolve host: www.sampletracking.gov.ls
 www.socialdevelopment.gov.ls,gov.ls,SSL certificate problem: EE certificate key too weak
 www.sswa.gov.ls,gov.ls,Recv failure: Connexion ré-initialisée par le correspondant
 www.tourism.ecitizen.gov.ls,gov.ls,Could not resolve host: www.tourism.ecitizen.gov.ls
-www.transportprices.gov.ls,gov.ls,"curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.transportprices.gov.ls'
-More details here: https://curl.se/docs/sslcerts.html
-
-curl failed to verify the legitimacy of the server and therefore could not
-establish a secure connection to it. To learn more about this situation and
-how to fix it, please visit the webpage mentioned above.
-"
+www.transportprices.gov.ls,gov.ls,"curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.transportprices.gov.ls' More details here: https://curl.se/docs/sslcerts.html curl failed to verify the legitimacy of the server and therefore could not establish a secure connection to it. To learn more about this situation and how to fix it, please visit the webpage mentioned above."
 www.vhw.gov.ls,gov.ls,Could not resolve host: www.vhw.gov.ls
 www.youth.gov.ls,gov.ls,Could not resolve host: www.youth.gov.ls
 youth.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds

@@ -402,18 +402,29 @@
 ;;  Phase 2 -- normalize
 ;; ===========================================================================
 
+(defn valid-hostname?
+  "True if h is a syntactically valid hostname: dotted labels of a-z0-9 with
+  internal hyphens, at least two labels. Rejects URLs, paths, wildcards, email
+  addresses and stray punctuation (spaces, quotes, commas, pipes, '?', ...)."
+  [h]
+  (boolean
+    (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
+
 (defn normalize-csv-rows
-  "For each subdomain row: trim, lowercase, strip leading *., drop residual
-  wildcards and email addresses, dedup keeping non-empty status, ASCII sort."
+  "For each subdomain row: lowercase; strip wildcard prefix, URL scheme, path,
+  port and trailing dot; keep only syntactically valid hostnames; single-line
+  the status; dedup keeping the non-empty status; ASCII sort."
   [rows]
   (let [cleaned
         (for [[dom status] rows
               :let [dom (some-> dom str/trim str/lower-case
-                                (str/replace #"^\*\." ""))]
-              :when (and dom (not (str/blank? dom))
-                         (not (re-find #"\*" dom))
-                         (not (re-find #"@" dom)))]
-          [dom (or status "")])]
+                                (str/replace #"^\*\." "")
+                                (str/replace #"^https?://" "")
+                                (str/replace #"/.*$" "")
+                                (str/replace #":\d+$" "")
+                                (str/replace #"\.$" ""))]
+              :when (valid-hostname? dom)]
+          [dom (single-line (or status ""))])]
     (merge-status cleaned)))
 
 (defn cmd-normalize [_]
@@ -516,7 +527,7 @@
         (if (empty? todo)
           (println (str "[" name "] mx: nothing to look up"))
           (let [looked (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo)
-                rows   (sort-by first (concat (seq done) looked))]
+                rows   (sort-by first (concat (map vec done) looked))]
             (write-csv-file out ["subdomain" "mx"] rows)
             (println (str "[" name "] mx: " (count todo) " looked up ("
                           (count (filter #(not (#{"none" "dig error"} (second %))) looked))

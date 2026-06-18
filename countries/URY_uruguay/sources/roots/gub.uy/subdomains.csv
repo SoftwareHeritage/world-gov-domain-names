@@ -1,7 +1,7 @@
 subdomain,http_status
 acce-serv-test.catalogodatos.gub.uy,Connection timed out after 3001 milliseconds
 aduanas.gub.uy,200
-agenda.cerrolargo.gub.uy,"Remote peer returned unexpected data while we expected SETTINGS frame.  Perhaps, peer does not support HTTP/2 properly."
+agenda.cerrolargo.gub.uy,"Remote peer returned unexpected data while we expected SETTINGS frame. Perhaps, peer does not support HTTP/2 properly."
 agenda.mintur.gub.uy,SSL certificate problem: unable to get local issuer certificate
 agenda.rionegro.gub.uy,SSL: no alternative certificate subject name matches target hostname 'agenda.rionegro.gub.uy'
 agendatransito.salto.gub.uy,Could not resolve host: agendatransito.salto.gub.uy
@@ -220,14 +220,12 @@ guardian.minterior.gub.uy,Could not resolve host: guardian.minterior.gub.uy
 guiaambiental.mvotma.gub.uy,Could not resolve host: guiaambiental.mvotma.gub.uy
 hercules.oalm.gub.uy,SSL: no alternative certificate subject name matches target hostname 'hercules.oalm.gub.uy'
 herramientas.uruguayxxi.gub.uy,200
-https://mail.dinacia.gub.uy,Could not resolve host: https
 ide.gub.uy,SSL certificate problem: unable to get local issuer certificate
 idt.gub.uy,403
 iduruguay.gub.uy,Connection timed out after 3001 milliseconds
 imcanelones.gub.uy,200
 imflores.gub.uy,Could not resolve host: imflores.gub.uy
 inac.gub.uy,Connection timed out after 3002 milliseconds
-inac.gub.uy/,Connection timed out after 3002 milliseconds
 inau.gub.uy,200
 inauuy.inau.gub.uy,Could not resolve host: inauuy.inau.gub.uy
 inca.gub.uy,Could not resolve host: inca.gub.uy
@@ -287,7 +285,7 @@ mail.d2c2.gub.uy,Could not resolve host: mail.d2c2.gub.uy
 mail.desarrollo.treintaytres.gub.uy,Could not resolve host: mail.desarrollo.treintaytres.gub.uy
 mail.destinotermas.gub.uy,200
 mail.dgssffaa.gub.uy,Resolving timed out after 3000 milliseconds
-mail.dinacia.gub.uy,200
+mail.dinacia.gub.uy,Could not resolve host: https
 mail.dramaturgiauruguaya.gub.uy,Could not resolve host: mail.dramaturgiauruguaya.gub.uy
 mail.fiscalia.gub.uy,302
 mail.flores.gub.uy,Resolving timed out after 3000 milliseconds
@@ -448,7 +446,7 @@ sdbackend.diputados.gub.uy,Could not resolve host: sdbackend.diputados.gub.uy
 sepma.bpmgob.mdn.gub.uy,302
 servicio.sanidadpolicial.gub.uy,Could not resolve host: servicio.sanidadpolicial.gub.uy
 servicios.aduanas.gub.uy,401
-servicios.cerrolargo.gub.uy,"Remote peer returned unexpected data while we expected SETTINGS frame.  Perhaps, peer does not support HTTP/2 properly."
+servicios.cerrolargo.gub.uy,"Remote peer returned unexpected data while we expected SETTINGS frame. Perhaps, peer does not support HTTP/2 properly."
 servicios.dgi.gub.uy,302
 servicios.pge.gub.uy,Connection timed out after 3001 milliseconds
 sg.fnr.gub.uy,SSL: no alternative certificate subject name matches target hostname 'sg.fnr.gub.uy'
@@ -648,7 +646,7 @@ www.capacitacion.uruguayconcursa.gub.uy,Resolving timed out after 3000 milliseco
 www.catalogodatos.gub.uy,SSL: no alternative certificate subject name matches target hostname 'www.catalogodatos.gub.uy'
 www.cbe.gub.uy,301
 www.cenfores.inau.gub.uy,Could not resolve host: www.cenfores.inau.gub.uy
-www.cerrolargo.gub.uy,"Remote peer returned unexpected data while we expected SETTINGS frame.  Perhaps, peer does not support HTTP/2 properly."
+www.cerrolargo.gub.uy,"Remote peer returned unexpected data while we expected SETTINGS frame. Perhaps, peer does not support HTTP/2 properly."
 www.cgn.gub.uy,302
 www.cod.gub.uy,200
 www.cod.vuce.gub.uy,301

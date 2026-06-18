@@ -468,9 +468,6 @@ hidroven.gob.ve,gob.ve,TLS connect error: error:0A000458:SSL routines::tlsv1 unr
 honeynet.vencert.gob.ve,gob.ve,Could not resolve host: honeynet.vencert.gob.ve
 hospitalaguablanca.gob.ve,gob.ve,Could not resolve host: hospitalaguablanca.gob.ve
 hospitalrazettibarinas.gob.ve,gob.ve,Could not resolve host: hospitalrazettibarinas.gob.ve
-http://ar.fii.gob.ve,gob.ve,Could not resolve host: http
-http://ripac.insopesca.gob.ve,gob.ve,Could not resolve host: http
-http://www.fii.gob.ve,gob.ve,Could not resolve host: http
 iactp.gob.ve,gob.ve,SSL certificate problem: certificate has expired
 iamib.gob.ve,gob.ve,404
 ianet.gob.ve,gob.ve,Could not resolve host: ianet.gob.ve
@@ -812,7 +809,7 @@ prueba.bibliotecayacucho.gob.ve,gob.ve,Could not resolve host: prueba.biblioteca
 prueba.bt.gob.ve,gob.ve,Could not resolve host: prueba.bt.gob.ve
 prueba.pescalba.gob.ve,gob.ve,Could not resolve host: prueba.pescalba.gob.ve
 prueba.rncenlinea.snc.gob.ve,gob.ve,Could not resolve host: prueba.rncenlinea.snc.gob.ve
-publicador-fii.gob.ve:2560/ocsp,gob.ve,Could not resolve host: publicador-fii.gob.ve
+publicador-fii.gob.ve,gob.ve,Could not resolve host: publicador-fii.gob.ve
 publicador-psc.fii.gob.ve,gob.ve,Connection timed out after 3001 milliseconds
 put.intranet.intt.gob.ve,gob.ve,Resolving timed out after 3000 milliseconds
 put.intt.gob.ve,gob.ve,Resolving timed out after 3000 milliseconds
@@ -839,7 +836,7 @@ revistas.fundacite-falcon.gob.ve,gob.ve,Could not resolve host: revistas.fundaci
 rh.fundacite-barinas.gob.ve,gob.ve,Could not resolve host: rh.fundacite-barinas.gob.ve
 rhv2.fundacite-barinas.gob.ve,gob.ve,Could not resolve host: rhv2.fundacite-barinas.gob.ve
 riot.mppp.gob.ve,gob.ve,Could not resolve host: riot.mppp.gob.ve
-ripac.insopesca.gob.ve,gob.ve,Resolving timed out after 3001 milliseconds
+ripac.insopesca.gob.ve,gob.ve,Could not resolve host: http
 rncenlinea.snc.gob.ve,gob.ve,Connection timed out after 3001 milliseconds
 rosariodeperija.gob.ve,gob.ve,Could not resolve host: rosariodeperija.gob.ve
 rotc.intt.gob.ve,gob.ve,Resolving timed out after 3000 milliseconds
@@ -1295,6 +1292,7 @@ www.festival.fundarte.gob.ve,gob.ve,Could not resolve host: www.festival.fundart
 www.festivalesymuestrasdecine.cnac.gob.ve,gob.ve,Resolving timed out after 3000 milliseconds
 www.fidetel.gob.ve,gob.ve,SSL: no alternative certificate subject name matches target hostname 'www.fidetel.gob.ve'
 www.fievzla.fundacite-barinas.gob.ve,gob.ve,Could not resolve host: www.fievzla.fundacite-barinas.gob.ve
+www.fii.gob.ve,gob.ve,Could not resolve host: http
 www.flisol.fundacite-barinas.gob.ve,gob.ve,Could not resolve host: www.flisol.fundacite-barinas.gob.ve
 www.fmn.gob.ve,gob.ve,Could not resolve host: www.fmn.gob.ve
 www.fomdes.gob.ve,gob.ve,Could not resolve host: www.fomdes.gob.ve

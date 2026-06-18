@@ -769,7 +769,6 @@ homsinespcidadao.serpro.gov.br,gov.br,Connection timed out after 3001 millisecon
 homsisplan.serpro.gov.br,gov.br,Connection timed out after 3001 milliseconds
 hpm.pr.gov.br,gov.br,Could not resolve host: hpm.pr.gov.br
 hsigefes.sefaz.es.gov.br,gov.br,Connection timed out after 3000 milliseconds
-http://nfse.blumenau.sc.gov.br,gov.br,Could not resolve host: http
 hydra.caixa.gov.br,gov.br,Could not resolve host: hydra.caixa.gov.br
 i3gov.planejamento.gov.br,gov.br,Could not resolve host: i3gov.planejamento.gov.br
 i3govagendaprefeitos.planejamento.gov.br,gov.br,Could not resolve host: i3govagendaprefeitos.planejamento.gov.br
@@ -1026,7 +1025,7 @@ nfem.joinville.sc.gov.br,gov.br,200
 nfews.sef.sc.gov.br,gov.br,Could not resolve host: nfews.sef.sc.gov.br
 nfsd.altamira.pa.gov.br,gov.br,Could not resolve host: nfsd.altamira.pa.gov.br
 nfse.americana.sp.gov.br,gov.br,302
-nfse.blumenau.sc.gov.br,gov.br,Could not resolve host: nfse.blumenau.sc.gov.br
+nfse.blumenau.sc.gov.br,gov.br,Could not resolve host: http
 nfse.campobom.rs.gov.br,gov.br,301
 nfse.carapebus.rj.gov.br,gov.br,Could not resolve host: nfse.carapebus.rj.gov.br
 nfse.carrancas.mg.gov.br,gov.br,SSL certificate problem: certificate has expired
@@ -1217,15 +1216,7 @@ rm.ana.gov.br,gov.br,Connection timed out after 3002 milliseconds
 rpc.tce.pr.gov.br,gov.br,Could not resolve host: rpc.tce.pr.gov.br
 s2caixa.caixa.gov.br,gov.br,403
 s2gpr.sefaz.ce.gov.br,gov.br,SSL certificate problem: self-signed certificate in certificate chain
-s2gprhomol.sefaz.ce.gov.br,gov.br,"curl: (60) SSL certificate problem: self-signed certificate in certificate chain
-More details here: https://curl.se/docs/sslcerts.html
-
-curl failed to verify the legitimacy of the server and therefore could not
-establish a secure connection to it. To learn more about this situation and
-how to fix it, please visit the webpage mentioned above.
-"
-"s2gprhomol.sefaz.ce.gov.br,",gov.br,"curl: (3) URL rejected: Bad hostname
-"
+s2gprhomol.sefaz.ce.gov.br,gov.br,"curl: (60) SSL certificate problem: self-signed certificate in certificate chain More details here: https://curl.se/docs/sslcerts.html curl failed to verify the legitimacy of the server and therefore could not establish a secure connection to it. To learn more about this situation and how to fix it, please visit the webpage mentioned above."
 saa.previdencia.gov.br,gov.br,Could not resolve host: saa.previdencia.gov.br
 sadpmc.campinas.sp.gov.br,gov.br,Connection timed out after 3001 milliseconds
 saed.jucemg.mg.gov.br,gov.br,Could not resolve host: saed.jucemg.mg.gov.br
@@ -1728,7 +1719,6 @@ www.1guf645oyuv.caixa.gov.br,gov.br,Could not resolve host: www.1guf645oyuv.caix
 www.aatrh.ima.sp.gov.br,gov.br,Could not resolve host: www.aatrh.ima.sp.gov.br
 www.ac.rs.gov.br,gov.br,302
 www.acesso.itaipu.gov.br,gov.br,Could not resolve host: www.acesso.itaipu.gov.br
-www.acesso_sigbc_dw.caixa.gov.br,gov.br,Could not resolve host: www.acesso_sigbc_dw.caixa.gov.br
 www.acessoainformacao.gov.br,gov.br,Could not resolve host: www.acessoainformacao.gov.br
 www.acfweb.mg.gov.br,gov.br,302
 www.admin.proderj.rj.gov.br,gov.br,Could not resolve host: www.admin.proderj.rj.gov.br

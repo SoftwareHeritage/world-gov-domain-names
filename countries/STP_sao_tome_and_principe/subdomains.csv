@@ -13,8 +13,7 @@ api.sis2apd.gov.st,gov.st,Could not resolve host: api.sis2apd.gov.st
 api.sit.mf.gov.st,gov.st,200
 app-kilalanucha.gov.st,gov.st,404
 app-nguenon.gov.st,gov.st,404
-app.sit.mf.gov.st,gov.st,"curl: (6) Could not resolve host: app.sit.mf.gov.st
-"
+app.sit.mf.gov.st,gov.st,curl: (6) Could not resolve host: app.sit.mf.gov.st
 auth-dmr-inss.gov.st,gov.st,302
 autodiscover.anp-stp.gov.st,gov.st,400
 autodiscover.igf.gov.st,gov.st,Could not resolve host: autodiscover.igf.gov.st
@@ -158,13 +157,7 @@ www.financas.gov.st,gov.st,403
 www.gov.st,gov.st,301
 www.igf.gov.st,gov.st,SSL: no alternative certificate subject name matches target hostname 'www.igf.gov.st'
 www.impostos.financas.gov.st,gov.st,Could not resolve host: www.impostos.financas.gov.st
-www.impostos.mef.gov.st,gov.st,"curl: (60) SSL certificate problem: self-signed certificate
-More details here: https://curl.se/docs/sslcerts.html
-
-curl failed to verify the legitimacy of the server and therefore could not
-establish a secure connection to it. To learn more about this situation and
-how to fix it, please visit the webpage mentioned above.
-"
+www.impostos.mef.gov.st,gov.st,"curl: (60) SSL certificate problem: self-signed certificate More details here: https://curl.se/docs/sslcerts.html curl failed to verify the legitimacy of the server and therefore could not establish a secure connection to it. To learn more about this situation and how to fix it, please visit the webpage mentioned above."
 www.impostos.mf.gov.st,gov.st,404
 www.inic.gov.st,gov.st,SSL: no alternative certificate subject name matches target hostname 'www.inic.gov.st'
 www.injap.gov.st,gov.st,Could not resolve host: www.injap.gov.st
