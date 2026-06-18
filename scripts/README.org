@@ -6,7 +6,8 @@ The whole pipeline lives in =scripts/pipeline.clj=.
 * Single format: subdomains.csv
 
 The pipeline operates on one file per domain,
-=countries/<c>/<d>/subdomains.csv=, with header =subdomain,http_status=.
+=countries/<c>/sources/roots/<d>/subdomains.csv=, with header
+=subdomain,http_status=.
 Status is empty after =fetch= / =normalize=, filled by =probe=, and
 preserved by later phases.
 
@@ -54,7 +55,7 @@ scripts/pipeline.clj <cmd>=:
 - =data/world-governments.csv= (master list with =un_status= column)
 - =data/country_qid.csv= (Wikidata mapping, built via =bb pipeline build-qid=)
 - =data/factbook_aliases.csv= and =data/un_desa_aliases.csv= (country-name overrides)
-- =countries/<ISO3>_<slug>/<domain>/= directories initialized
+- =countries/<ISO3>_<slug>/sources/roots/<domain>/= directories initialized
 
 * Environment variables
 
@@ -105,8 +106,8 @@ To promote a candidate into the dataset:
 # 1. Inspect the scored candidates
 less countries/ITA_italy/candidates.csv
 
-# 2. If legit, create the root directory (under sources/)
-mkdir -p countries/ITA_italy/sources/quirinale.it
+# 2. If legit, create the root directory (under sources/roots/)
+mkdir -p countries/ITA_italy/sources/roots/quirinale.it
 
 # 3. Run the standard pipeline on that domain
 bb scripts/pipeline.clj fetch quirinale.it

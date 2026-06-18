@@ -268,21 +268,20 @@
                        "curated"})
 
 (defn root-domain-dirs
-  "All countries/<c>/sources/<root>/ directories (full paths), excluding the
-  enrichment-source subdirectories (iana/cia_factbook/un_desa/oecd/wikidata)."
+  "All countries/<c>/sources/roots/<root>/ directories (full paths). Promoted
+  root domains live under sources/roots/, siblings-free of the enrichment
+  sources (iana/cia_factbook/un_desa/oecd/wikidata/curated)."
   []
-  (->> (fs/glob "countries" "*/sources/*")
+  (->> (fs/glob "countries" "*/sources/roots/*")
        (filter fs/directory?)
-       (map str)
-       (remove #(source-dirs-set (str (fs/file-name %))))))
+       (map str)))
 
 (defn root-subdomain-csvs
-  "All countries/<c>/sources/<root>/subdomains.csv paths, excluding the
-  enrichment-source subdirectories. Scoped to one country_dir if given."
+  "All countries/<c>/sources/roots/<root>/subdomains.csv paths.
+  Scoped to one country_dir if given."
   ([] (root-subdomain-csvs "*"))
   ([country-glob]
-   (->> (fs/glob "countries" (str country-glob "/sources/*/subdomains.csv"))
-        (remove #(source-dirs-set (str (fs/file-name (fs/parent %))))))))
+   (fs/glob "countries" (str country-glob "/sources/roots/*/subdomains.csv"))))
 
 (defn resolve-dirs
   "Resolve domain names -> countries/<c>/sources/<d>/ paths. With no args,
@@ -292,7 +291,7 @@
   (if (seq args)
     (vec (mapcat (fn [d]
                    (let [matches (filter fs/directory?
-                                         (fs/glob "countries" (str "*/sources/" d)))]
+                                         (fs/glob "countries" (str "*/sources/roots/" d)))]
                      (if (seq matches)
                        (map str matches)
                        (do (err "ERR: no country contains '" d "'") []))))
@@ -493,7 +492,8 @@
                   (mapcat (fn [csv]
                             (let [parent  (str (fs/file-name (fs/parent csv)))
                                   country (str (fs/file-name
-                                                 (fs/parent (fs/parent (fs/parent csv)))))
+                                                 (fs/parent (fs/parent
+                                                   (fs/parent (fs/parent csv))))))
                                   un (get un-by-country country "member")
                                   m  (get meta-by-country country)]
                               (for [[sub status] (rest (read-csv-raw (str csv)))
@@ -1231,9 +1231,9 @@
 
         :else
         (let [parent (parent-domain host)]
-          (if (and parent (fs/directory? (str "countries/" country-dir "/sources/" parent)))
+          (if (and parent (fs/directory? (str "countries/" country-dir "/sources/roots/" parent)))
             (println (str "- ⚠️ Exact hostname not in the 200s, but a `" parent "` root directory exists (to be probed)"))
-            (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/" (or parent host) "/` directory present"))))))
+            (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/roots/" (or parent host) "/` directory present"))))))
     (println)))
 
 (defn- section-factbook [{:keys [fb-chief fb-head fb-courts]}]
