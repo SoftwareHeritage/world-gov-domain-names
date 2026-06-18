@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 9 of 193
 - Government type: parliamentary republic
 - Capital: Helsinki
-- Domains collected (HTTP 200): 10
+- Domains collected (HTTP 200): 26
 
 ## UN/DESA national portal
 
@@ -30,29 +30,18 @@
 
 ## Candidate domains ranked by score
 
-23 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+9 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `eduskunta.fi` | wikidata;wikidata | Parliament of Finland |
 | 7 | `ouka.fi` | wikidata;wikidata | Oulu City Board |
 | 7 | `samediggi.fi` | wikidata;wikidata | Sami Parliament of Finland |
 | 6 | `lagtinget.ax` | wikidata;wikidata | Parliament of Åland |
 | 4 | `evl.fi` | wikidata | Church Council |
-| 4 | `intermin.fi` | wikidata | Ministry of the Interior of Finland |
 | 4 | `keuda.fi` | wikidata | Keuda |
-| 4 | `mmm.fi` | wikidata | Ministry of Agriculture and Forestry |
-| 4 | `okm.fi` | wikidata | Ministry of Education and Culture |
 | 4 | `ort.fi` | wikidata | Q11885811 |
 | 4 | `tampere.fi` | wikidata | Tampere City Board |
-| 4 | `tem.fi` | wikidata | Ministry of Economic Affairs and Employment |
-| 4 | `um.fi` | wikidata | Ministry of Foreign Affairs of Finland |
-| 4 | `valtioneuvosto.fi` | curated | Finnish Government (Council of State) |
-| 4 | `ym.fi` | wikidata | Ministry of the Environment |
 | 3 | `intermin.fi.` | wikidata | Ministry of the Interior of Finland |
-| 2 | `defmin.fi` | wikidata;wikidata;wikidata | Ministry of Defence of Finland |
 | 2 | `hel.fi` | wikidata;wikidata;wikidata | Helsinki City Board |
-| 2 | `lvm.fi` | wikidata;wikidata;wikidata | Ministry of Transport and Communications |
-| 2 | `oikeusministerio.fi` | wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of Justice |
 

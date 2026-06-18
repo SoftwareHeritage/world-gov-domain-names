@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 5 of 193
 - Government type: unitary parliamentary republic
 - Capital: Reykjavik
-- Domains collected (HTTP 200): 1
+- Domains collected (HTTP 200): 6
 
 ## UN/DESA national portal
 
@@ -30,12 +30,5 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `althingi.is` | wikidata;wikidata | Althing |
-| 4 | `domstolasyslan.is` | wikidata | Judicial Administration of Iceland |
-| 4 | `stjornarradid.is` | wikidata | Prime Minister’s Office |
+No remaining candidates (every flagged institution is covered).
 

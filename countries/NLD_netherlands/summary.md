@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 10 of 193
 - Government type: parliamentary constitutional monarchy; part of the Kingdom of the Netherlands
 - Capital: Amsterdam
-- Domains collected (HTTP 200): 2
+- Domains collected (HTTP 200): 8
 
 ## UN/DESA national portal
 
 - Declared: [https://www.overheid.nl](https://www.overheid.nl) (host `overheid.nl`)
-- ⚠️ ABSENT -- neither `overheid.nl` covered nor `countries/NLD_netherlands/sources/overheid.nl/` directory present
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,12 +30,5 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `staten-generaal.nl` | wikidata;wikidata | States General |
-| 6 | `overheid.nl` | un_desa | UN/DESA national portal |
-| 4 | `rijksoverheid.nl` | curated | Rijksoverheid (central-government portal) |
+No remaining candidates (every flagged institution is covered).
 

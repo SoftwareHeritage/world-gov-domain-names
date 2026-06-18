@@ -1,2 +1,70 @@
 subdomain,parent_domain,http_status
+administracion.gob.es,administracion.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+ciencia.gob.es,ciencia.gob.es,ConnectException
+congreso.es,congreso.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+consejo-estado.es,consejo-estado.es,403
+cultura.gob.es,cultura.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+defensa.gob.es,defensa.gob.es,301
+digital.gob.es,digital.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+dsca.gob.es,dsca.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+educacionfpydeportes.gob.es,educacionfpydeportes.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+exteriores.gob.es,exteriores.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+hacienda.gob.es,hacienda.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+igualdad.gob.es,igualdad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+inclusion.gob.es,inclusion.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+interior.gob.es,interior.gob.es,HttpConnectTimeoutException: HTTP connect timed out
+juventudeinfancia.gob.es,juventudeinfancia.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 lamoncloa.gob.es,lamoncloa.gob.es,302
+mapa.gob.es,mapa.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+mapama.gob.es,mapama.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+mcu.es,mcu.es,ConnectException
+mdsocialesa2030.gob.es,mdsocialesa2030.gob.es,ConnectException
+mineco.gob.es,mineco.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+minetad.gob.es,minetad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+minhafp.gob.es,minhafp.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+mintur.gob.es,mintur.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+miteco.gob.es,miteco.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+mites.gob.es,mites.gob.es,ConnectException
+mitramiss.gob.es,mitramiss.gob.es,ConnectException
+mjusticia.gob.es,mjusticia.gob.es,ConnectException
+mpr.gob.es,mpr.gob.es,302
+mpt.gob.es,mpt.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+mptfp.gob.es,mptfp.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+msssi.gob.es,msssi.gob.es,ConnectException
+sanidad.gob.es,sanidad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+senado.es,senado.es,403
+transportes.gob.es,transportes.gob.es,HttpConnectTimeoutException: HTTP connect timed out
+www.administracion.gob.es,administracion.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.ciencia.gob.es,ciencia.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.congreso.es,congreso.es,403
+www.consejo-estado.es,consejo-estado.es,403
+www.cultura.gob.es,cultura.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.defensa.gob.es,defensa.gob.es,200
+www.digital.gob.es,digital.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.dsca.gob.es,dsca.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.educacionfpydeportes.gob.es,educacionfpydeportes.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.exteriores.gob.es,exteriores.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.hacienda.gob.es,hacienda.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.igualdad.gob.es,igualdad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.inclusion.gob.es,inclusion.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.interior.gob.es,interior.gob.es,200
+www.juventudeinfancia.gob.es,juventudeinfancia.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mapa.gob.es,mapa.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mapama.gob.es,mapama.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mcu.es,mcu.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mdsocialesa2030.gob.es,mdsocialesa2030.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mineco.gob.es,mineco.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.minetad.gob.es,minetad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.minhafp.gob.es,minhafp.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mintur.gob.es,mintur.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.miteco.gob.es,miteco.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mites.gob.es,mites.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mitramiss.gob.es,mitramiss.gob.es,ConnectException
+www.mjusticia.gob.es,mjusticia.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mpr.gob.es,mpr.gob.es,302
+www.mpt.gob.es,mpt.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.mptfp.gob.es,mptfp.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.msssi.gob.es,msssi.gob.es,ConnectException
+www.sanidad.gob.es,sanidad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.senado.es,senado.es,403
+www.transportes.gob.es,transportes.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target

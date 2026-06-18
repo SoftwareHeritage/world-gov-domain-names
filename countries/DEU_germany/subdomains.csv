@@ -7,7 +7,20 @@ analytics.bundesregierung.de,bundesregierung.de,403
 analytics.bundesregierung.de.stage.bundesregierung.de,bundesregierung.de,403
 archiv.bundesregierung.de,bundesregierung.de,SSL: no alternative certificate subject name matches target hostname 'archiv.bundesregierung.de'
 aussenredaktion.bundesregierung.de,bundesregierung.de,Could not resolve host: aussenredaktion.bundesregierung.de
+auswaertiges-amt.de,auswaertiges-amt.de,301
 bildwortmarkenassistent.de.stage.bundesregierung.de,bundesregierung.de,403
+bmas.de,bmas.de,HttpConnectTimeoutException: HTTP connect timed out
+bmbf.de,bmbf.de,303
+bmbfsfj.bund.de,bmbfsfj.bund.de,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+bmds.bund.de,bmds.bund.de,303
+bmftr.bund.de,bmftr.bund.de,303
+bmi.bund.de,bmi.bund.de,307
+bmjv.de,bmjv.de,303
+bmleh.de,bmleh.de,303
+bmv.de,bmv.de,302
+bmvg.de,bmvg.de,301
+bmwsb.bund.de,bmwsb.bund.de,303
+bmz.de,bmz.de,301
 bpa2011.bundesregierung.de,bundesregierung.de,Could not resolve host: bpa2011.bundesregierung.de
 bpaadmin.bundesregierung.de,bundesregierung.de,403
 bpaadmin.bundesregierung.de.schulung.bundesregierung.de,bundesregierung.de,403
@@ -16,11 +29,16 @@ bpaq.de.prod.bundesregierung.de,bundesregierung.de,SSL: no alternative certifica
 bpaq.de.stage.bundesregierung.de,bundesregierung.de,403
 buergerdialog.gut-leben.de.schulung.bundesregierung.de,bundesregierung.de,403
 buergerdialog.gut-leben.de.stage.bundesregierung.de,bundesregierung.de,403
+bundesfinanzministerium.de,bundesfinanzministerium.de,302
+bundesgesundheitsministerium.de,bundesgesundheitsministerium.de,301
 bundeskanzler.de.schulung.bundesregierung.de,bundesregierung.de,301
 bundeskanzler.de.stage.bundesregierung.de,bundesregierung.de,301
 bundesregierung.de,bundesregierung.de,301
 bundesregierung.de.schulung.bundesregierung.de,bundesregierung.de,301
 bundesregierung.de.stage.bundesregierung.de,bundesregierung.de,301
+bundestag.de,bundestag.de,301
+bundesumweltministerium.de,bundesumweltministerium.de,301
+bundeswirtschaftsministerium.de,bundeswirtschaftsministerium.de,302
 content-export-import.bundesregierung.de,bundesregierung.de,Could not resolve host: content-export-import.bundesregierung.de
 contentportierung.bundesregierung.de,bundesregierung.de,401
 contentportierung.bundesregierung.de.schulung.bundesregierung.de,bundesregierung.de,401
@@ -105,13 +123,31 @@ webeditor.bundesregierung.de,bundesregierung.de,Could not resolve host: webedito
 www.accounts.dev.newscenter.bundesregierung.de,bundesregierung.de,Could not resolve host: www.accounts.dev.newscenter.bundesregierung.de
 www.accounts.prod.newscenter.bundesregierung.de,bundesregierung.de,Could not resolve host: www.accounts.prod.newscenter.bundesregierung.de
 www.akkreditierung.bundesregierung.de,bundesregierung.de,301
+www.auswaertiges-amt.de,auswaertiges-amt.de,200
+www.bmas.de,bmas.de,301
+www.bmbf.de,bmbf.de,303
+www.bmbfsfj.bund.de,bmbfsfj.bund.de,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+www.bmds.bund.de,bmds.bund.de,303
+www.bmftr.bund.de,bmftr.bund.de,303
+www.bmi.bund.de,bmi.bund.de,307
+www.bmjv.de,bmjv.de,303
+www.bmleh.de,bmleh.de,303
+www.bmv.de,bmv.de,302
+www.bmvg.de,bmvg.de,301
+www.bmwsb.bund.de,bmwsb.bund.de,303
+www.bmz.de,bmz.de,301
 www.bpaq.de.prod.bundesregierung.de,bundesregierung.de,SSL: no alternative certificate subject name matches target hostname 'www.bpaq.de.prod.bundesregierung.de'
 www.bpaq.de.stage.bundesregierung.de,bundesregierung.de,Could not resolve host: www.bpaq.de.stage.bundesregierung.de
+www.bundesfinanzministerium.de,bundesfinanzministerium.de,302
+www.bundesgesundheitsministerium.de,bundesgesundheitsministerium.de,200
 www.bundeskanzler.de.schulung.bundesregierung.de,bundesregierung.de,Could not resolve host: www.bundeskanzler.de.schulung.bundesregierung.de
 www.bundeskanzler.de.stage.bundesregierung.de,bundesregierung.de,Could not resolve host: www.bundeskanzler.de.stage.bundesregierung.de
 www.bundesregierung.de,bundesregierung.de,302
 www.bundesregierung.de.schulung.bundesregierung.de,bundesregierung.de,Could not resolve host: www.bundesregierung.de.schulung.bundesregierung.de
 www.bundesregierung.de.stage.bundesregierung.de,bundesregierung.de,Could not resolve host: www.bundesregierung.de.stage.bundesregierung.de
+www.bundestag.de,bundestag.de,200
+www.bundesumweltministerium.de,bundesumweltministerium.de,200
+www.bundeswirtschaftsministerium.de,bundeswirtschaftsministerium.de,302
 www.cvd.bundesregierung.de,bundesregierung.de,Could not resolve host: www.cvd.bundesregierung.de
 www.dieglorreichen17.de.schulung.bundesregierung.de,bundesregierung.de,Could not resolve host: www.dieglorreichen17.de.schulung.bundesregierung.de
 www.dieglorreichen17.de.stage.bundesregierung.de,bundesregierung.de,302

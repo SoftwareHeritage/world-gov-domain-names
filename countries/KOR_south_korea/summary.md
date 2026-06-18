@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 4 of 193
 - Government type: presidential republic
 - Capital: Seoul
-- Domains collected (HTTP 200): 3
+- Domains collected (HTTP 200): 34
 
 ## UN/DESA national portal
 
@@ -30,29 +30,29 @@
 
 ## Candidate domains ranked by score
 
-62 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+37 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `assembly.go.kr` | wikidata;wikidata | National Assembly |
 | 7 | `council.gangwon.kr` | wikidata;wikidata | Gangwon State Council |
 | 7 | `ggc.go.kr` | wikidata;wikidata | Gyeonggido Assembly |
-| 7 | `molit.go.kr` | wikidata;wikidata | Ministry of Land, Infrastructure and Transport | Q16100644 |
 | 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
-| 4 | `eng.mcee.go.kr` | wikidata | Ministry of Climate, Energy and Environment |
-| 4 | `eng.president.go.kr` | wikidata | Office of the President of South Korea |
 | 4 | `global.seoul.go.kr` | wikidata | Seoul Global Center |
-| 4 | `mafra.go.kr` | wikidata | Ministry of Agriculture, Food and Rural Affairs |
-| 4 | `mcee.go.kr` | wikidata | Ministry of Climate, Energy and Environment |
-| 4 | `mcst.go.kr` | wikidata | Ministry of Culture, Sports and Tourism |
-| 4 | `me.go.kr` | wikidata | Ministry of Environment |
-| 4 | `mnd.go.kr` | wikidata | Ministry of National Defense of South Korea |
-| 4 | `moe.go.kr` | wikidata | Ministry of Education of the Republic of Korea |
-| 4 | `moef.go.kr` | wikidata | Ministry of Economy and Finance |
-| 4 | `moel.go.kr` | wikidata | Ministry of Employment and Labor |
-| 4 | `mof.go.kr` | wikidata | Ministry of Oceans and Fisheries |
-| 4 | `mofa.go.kr` | wikidata | Ministry of Foreign Affairs of the Republic of Korea |
-| 4 | `mogef.go.kr` | wikidata | Ministry of Gender Equality and Family |
-| 4 | `mohw.go.kr` | wikidata | Ministry of Health and Welfare |
+| 4 | `provin.gangwon.kr` | wikidata | Gangwon State Office |
+| 4 | `sejong.go.kr` | wikidata | Sejong Special City Government |
+| 4 | `youthassembly.or.kr` | wikidata | National Youth Assembly of Korea |
+| 2 | `council.busan.go.kr` | wikidata;wikidata | Busan municipal council |
+| 2 | `council.chungbuk.kr` | wikidata;wikidata | North Chungcheong Province municipal council |
+| 2 | `council.daegu.go.kr` | wikidata;wikidata | Daegu municipal council |
+| 2 | `council.daejeon.go.kr` | wikidata;wikidata | Daejeon municipal council |
+| 2 | `council.gb.go.kr` | wikidata;wikidata | North Gyeongsang Province municipal council |
+| 2 | `council.gwangju.kr` | wikidata;wikidata | Gwangju municipal council |
+| 2 | `council.jeju.kr` | wikidata;wikidata | Jeju municipal council |
+| 2 | `council.sejong.go.kr` | wikidata;wikidata | Sejong City municipal council |
+| 2 | `council.ulsan.kr` | wikidata;wikidata | Ulsan Metropolitan Council |
+| 2 | `gncl.or.kr` | wikidata;wikidata | South Gyeongsang Province municipal council |
+| 2 | `jbstatecouncil.jeonbuk.kr` | wikidata;wikidata | North Jeolla Province municipal council |
+| 2 | `jnassembly.go.kr` | wikidata;wikidata | South Jeolla Province municipal council |
+| 1 | `council.chungnam.net` | wikidata;wikidata | South Chungcheong Province municipal council |
 

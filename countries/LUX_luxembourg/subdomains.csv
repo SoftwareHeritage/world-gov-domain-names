@@ -1,6 +1,8 @@
 subdomain,parent_domain,http_status
+chd.lu,chd.lu,301
 chiffres-cles.mesr.gouvernement.lu,gouvernement.lu,301
 gouvernement.lu,gouvernement.lu,302
+men.public.lu,men.public.lu,302
 mta-sts.digital.gouvernement.lu,gouvernement.lu,403
 mta-sts.eau.gouvernement.lu,gouvernement.lu,403
 mta-sts.gouvernement.lu,gouvernement.lu,403
@@ -10,5 +12,7 @@ mta-sts.mpc.gouvernement.lu,gouvernement.lu,403
 stephanie-obertin.gouvernement.lu,gouvernement.lu,302
 www.ana.gouvernement.lu,gouvernement.lu,Could not resolve host: www.ana.gouvernement.lu
 www.cad.gouvernement.lu,gouvernement.lu,Could not resolve host: www.cad.gouvernement.lu
+www.chd.lu,chd.lu,301
 www.gouvernement.lu,gouvernement.lu,302
+www.men.public.lu,men.public.lu,ConnectException
 www.stephanie-obertin.gouvernement.lu,gouvernement.lu,302

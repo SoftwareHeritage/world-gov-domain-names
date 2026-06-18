@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 34 of 193
 - Government type: semi-presidential republic
 - Capital: Paris
-- Domains collected (HTTP 200): 49
+- Domains collected (HTTP 200): 2302
 
 ## UN/DESA national portal
 
 - Declared: [http://www.gouvernement.fr](http://www.gouvernement.fr) (host `gouvernement.fr`)
-- ⚠️ ABSENT -- neither `gouvernement.fr` covered nor `countries/FRA_france/sources/gouvernement.fr/` directory present
+- ⚠️ ABSENT -- neither `gouvernement.fr` covered nor `countries/FRA_france/sources/roots/gouvernement.fr/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-49 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+48 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `parlement.fr` | wikidata;wikidata | French Parliament |
 | 7 | `assemblee-nationale.fr` | wikidata;wikidata;wikidata | Franco-German Parliamentary Assembly | National Assembly |
 | 7 | `ctguyane.fr` | wikidata;wikidata | Assembly of French Guiana |
-| 6 | `bundestag.de` | wikidata;wikidata | Franco-German Parliamentary Assembly |
 | 4 | `assemblee-afe.fr` | wikidata | Assembly of French Citizens Abroad |
 | 4 | `conseil-etat.fr` | wikidata | Conseil d'État |
 | 4 | `corse.fr` | wikidata | Executive Council of Corsica |
@@ -55,4 +54,19 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 0 | `ariege.fr` | wikidata | departmental council of Ariège |
 | 0 | `bas-rhin.fr` | wikidata | departmental council of Bas-Rhin |
 | 0 | `bourgogne-franche-comte.eu` | wikidata | Regional Council of Burgundy |
+| 0 | `bourgognefranchecomte.fr` | wikidata | Regional council of Bourgogne-Franche-Comté |
+
+## ccTLD anomalies
+
+Domains outside `.fr` (allowed: common gTLDs + ``):
+
+```
+.fr302240 collext.sante.gouv.fr302240
+.fr/ https://ee-igc.agriculture.gouv.fr/
+.fr/ https://ee.igc.agriculture.gouv.fr/
+.fr/ https://igc-dpma.minefi.gouv.fr/
+.fr/ https://scm.dgtresor.gouv.fr/
+.info rhp1.terre.defense.gouv.fr.1rhp.info
+.info www.rhp1.terre.defense.gouv.fr.1rhp.info
+```
 

@@ -1,5 +1,9 @@
 subdomain,parent_domain,http_status
 government.se,government.se,403
+regeringen.se,regeringen.se,200
+riksdagen.se,riksdagen.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 stage-archive.government.se,government.se,403
 www-stage.government.se,government.se,403
 www.government.se,government.se,403
+www.regeringen.se,regeringen.se,200
+www.riksdagen.se,riksdagen.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target

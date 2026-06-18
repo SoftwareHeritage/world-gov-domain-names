@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 20 of 193
 - Government type: parliamentary republic
 - Capital: Dublin
-- Domains collected (HTTP 200): 25
+- Domains collected (HTTP 200): 29
 
 ## UN/DESA national portal
 
@@ -30,11 +30,5 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `oireachtas.ie` | wikidata;wikidata | Oireachtas |
-| 4 | `ireland.ie` | wikidata | Department of Foreign Affairs of Ireland |
+No remaining candidates (every flagged institution is covered).
 

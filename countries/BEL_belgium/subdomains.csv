@@ -138,6 +138,7 @@ ebirth-medicalform.pr.belgium.be,belgium.be,Could not resolve host: ebirth-medic
 ebirth-medicalform.ta.belgium.be,belgium.be,Connection timed out after 3002 milliseconds
 ebirth.belgium.be,belgium.be,Could not resolve host: ebirth.belgium.be
 ecommunities.belgium.be,belgium.be,Could not resolve host: ecommunities.belgium.be
+economie.fgov.be,economie.fgov.be,302
 edrl.belgium.be,belgium.be,301
 efacturatie.belgium.be,belgium.be,Could not resolve host: efacturatie.belgium.be
 efacturation.belgium.be,belgium.be,301
@@ -171,6 +172,8 @@ fas.services.belgium.be,belgium.be,Could not resolve host: fas.services.belgium.
 fas.services.ta.belgium.be,belgium.be,Could not resolve host: fas.services.ta.belgium.be
 fasp.services.belgium.be,belgium.be,Connection timed out after 3002 milliseconds
 fasp.services.ta.belgium.be,belgium.be,Could not resolve host: fasp.services.ta.belgium.be
+fed-parl.be,fed-parl.be,200
+federale-regering.be,federale-regering.be,403
 fedict.belgium.be,belgium.be,400
 fedimbo.belgium.be,belgium.be,Connection timed out after 3002 milliseconds
 fido.belgium.be,belgium.be,403
@@ -196,6 +199,7 @@ gdpr.digital.belgium.be,belgium.be,Could not resolve host: gdpr.digital.belgium.
 germany.diplomatie.belgium.be,belgium.be,Could not resolve host: germany.diplomatie.belgium.be
 gitlab.gcloud.belgium.be,belgium.be,Connection timed out after 3002 milliseconds
 goedafgerond.belgium.be,belgium.be,Could not resolve host: goedafgerond.belgium.be
+gouvernement-federal.be,gouvernement-federal.be,403
 grece.diplomatie.belgium.be,belgium.be,302
 greece.diplomatie.belgium.be,belgium.be,302
 griekenland.diplomatie.belgium.be,belgium.be,Could not resolve host: griekenland.diplomatie.belgium.be
@@ -210,6 +214,7 @@ hungary.diplomatie.belgium.be,belgium.be,302
 iamfas.belgium.be,belgium.be,Could not resolve host: iamfas.belgium.be
 iamfas.int.belgium.be,belgium.be,403
 iamfas.qa.belgium.be,belgium.be,Could not resolve host: iamfas.qa.belgium.be
+ibz.be,ibz.be,301
 icdo.belgium.be,belgium.be,Could not resolve host: icdo.belgium.be
 idp.iamfas.belgium.be,belgium.be,Could not resolve host: idp.iamfas.belgium.be
 idp.iamfas.int.belgium.be,belgium.be,403
@@ -280,6 +285,7 @@ meet.p-o.belgium.be,belgium.be,Connection timed out after 3002 milliseconds
 mexico.diplomatie.belgium.be,belgium.be,302
 mexique.diplomatie.belgium.be,belgium.be,302
 mijnopinie.belgium.be,belgium.be,301
+mil.be,mil.be,301
 monopinion.belgium.be,belgium.be,301
 morocco.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received
 mozambique.diplomatie.belgium.be,belgium.be,302
@@ -560,6 +566,7 @@ www.duitsland.diplomatie.belgium.be,belgium.be,301
 www.ebirth-city.belgium.be,belgium.be,Could not resolve host: www.ebirth-city.belgium.be
 www.ebirth-hospital.belgium.be,belgium.be,Could not resolve host: www.ebirth-hospital.belgium.be
 www.ebirth.belgium.be,belgium.be,Could not resolve host: www.ebirth.belgium.be
+www.economie.fgov.be,economie.fgov.be,301
 www.edrl.belgium.be,belgium.be,Could not resolve host: www.edrl.belgium.be
 www.efacturatie.belgium.be,belgium.be,301
 www.efacturation.belgium.be,belgium.be,Could not resolve host: www.efacturation.belgium.be
@@ -581,6 +588,8 @@ www.ethiopie.diplomatie.belgium.be,belgium.be,Could not resolve host: www.ethiop
 www.europeanelections.belgium.be,belgium.be,HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
 www.europeanunion.diplomatie.belgium.be,belgium.be,301
 www.events.employment.belgium.be,belgium.be,301
+www.fed-parl.be,fed-parl.be,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching www.fed-parl.be found.
+www.federale-regering.be,federale-regering.be,403
 www.fedict.belgium.be,belgium.be,400
 www.fido.belgium.be,belgium.be,403
 www.filipijnen.diplomatie.belgium.be,belgium.be,301
@@ -598,6 +607,7 @@ www.gcloud.belgium.be,belgium.be,200
 www.gdpr.belgium.be,belgium.be,Could not resolve host: www.gdpr.belgium.be
 www.germany.diplomatie.belgium.be,belgium.be,301
 www.goedafgerond.belgium.be,belgium.be,Could not resolve host: www.goedafgerond.belgium.be
+www.gouvernement-federal.be,gouvernement-federal.be,403
 www.grece.diplomatie.belgium.be,belgium.be,301
 www.greece.diplomatie.belgium.be,belgium.be,301
 www.griekenland.diplomatie.belgium.be,belgium.be,Could not resolve host: www.griekenland.diplomatie.belgium.be
@@ -608,6 +618,7 @@ www.hongarije.diplomatie.belgium.be,belgium.be,301
 www.hongkongmacau.diplomatie.belgium.be,belgium.be,Could not resolve host: www.hongkongmacau.diplomatie.belgium.be
 www.hongrie.diplomatie.belgium.be,belgium.be,301
 www.hungary.diplomatie.belgium.be,belgium.be,Could not resolve host: www.hungary.diplomatie.belgium.be
+www.ibz.be,ibz.be,301
 www.icdo.belgium.be,belgium.be,403
 www.iefh-igvm.belgium.be,belgium.be,Could not resolve host: www.iefh-igvm.belgium.be
 www.iefh.belgium.be,belgium.be,Could not resolve host: www.iefh.belgium.be
@@ -670,6 +681,7 @@ www.medic.handicap.belgium.be,belgium.be,Could not resolve host: www.medic.handi
 www.meldpuntsocialefraude.belgium.be,belgium.be,200
 www.mexico.diplomatie.belgium.be,belgium.be,301
 www.mexique.diplomatie.belgium.be,belgium.be,Could not resolve host: www.mexique.diplomatie.belgium.be
+www.mil.be,mil.be,302
 www.morocco.diplomatie.belgium.be,belgium.be,301
 www.mozambique.diplomatie.belgium.be,belgium.be,301
 www.my.belgium.be,belgium.be,301

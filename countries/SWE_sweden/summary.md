@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 14 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Stockholm
-- Domains collected (HTTP 200): 0
+- Domains collected (HTTP 200): 4
 
 ## UN/DESA national portal
 
 - Declared: [http://www.regeringen.se](http://www.regeringen.se) (host `regeringen.se`)
-- ⚠️ ABSENT -- neither `regeringen.se` covered nor `countries/SWE_sweden/sources/regeringen.se/` directory present
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,13 +30,11 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `regeringen.se` | un_desa;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of Education and Research | Ministry of Finance of Sweden | Ministry... |
-| 7 | `riksdagen.se` | wikidata;wikidata | Parliament of Sweden |
 | 7 | `sametinget.se` | wikidata;wikidata | Sami Parliament of Sweden |
 | 2 | `lansstyrelsen.se` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Östergötland County Administrative Board | Uppsala County Administrative Boar... |
 

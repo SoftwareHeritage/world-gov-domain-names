@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 56 of 193
 - Government type: federal parliamentary democracy under a constitutional monarchy
 - Capital: Brussels
-- Domains collected (HTTP 200): 38
+- Domains collected (HTTP 200): 45
 
 ## UN/DESA national portal
 
@@ -30,15 +30,12 @@
 
 ## Candidate domains ranked by score
 
-26 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+20 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `ewi-vlaanderen.be` | wikidata;wikidata | Department of Economy, Sciency & Innovation |
-| 7 | `fed-parl.be` | wikidata;wikidata | Belgian Federal Parliament |
-| 7 | `federale-regering.be` | wikidata;wikidata | De Wever Government | Federal Government of Belgium |
-| 7 | `mil.be` | wikidata;wikidata | Defence |
 | 7 | `parlement-wallonie.be` | wikidata;wikidata | Parliament of Wallonia |
 | 7 | `parlement.brussels` | wikidata;wikidata | Parliament of the Brussels-Capital Region |
 | 7 | `pdg.be` | wikidata;wikidata | Parliament of the German-speaking Community |
@@ -49,10 +46,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `ejp.eu` | wikidata;wikidata | European Jewish Parliament |
 | 6 | `nato-pa.int` | wikidata;wikidata | NATO Parliamentary Assembly |
 | 4 | `dglive.be` | wikidata | Ministry of the German-speaking Community |
-| 4 | `economie.fgov.be` | wikidata | Federal Public Service Economy |
-| 4 | `gouvernement-federal.be` | wikidata | Federal Government of Belgium |
 | 4 | `gouvernement.cfwb.be` | wikidata | Government of the French Community |
 | 4 | `gouvernement.wallonie.be` | wikidata | Government of Wallonia |
-| 4 | `ibz.be` | wikidata | Federal Public Service Interior |
 | 4 | `ostbelgienlive.be` | wikidata | Government of the German-speaking Community |
+| 4 | `pfb.irisnet.be` | wikidata | French-speaking Brussels Parliament |
+| 4 | `raadvgc.be` | wikidata | Assembly of the Flemish Community Commission |
+| 3 | `be.brussels` | wikidata | Government of the Brussels-Capital Region |
+| 3 | `commission.europa.eu` | wikidata | European Commission |
+| 3 | `equal.brussels` | wikidata | equal.brussels |
+| 1 | `beneluxparl.eu` | wikidata;wikidata;wikidata;wikidata | Benelux Parliament |
 

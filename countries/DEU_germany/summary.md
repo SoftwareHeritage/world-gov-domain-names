@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 12 of 193
 - Government type: federal parliamentary republic
 - Capital: Berlin
-- Domains collected (HTTP 200): 1
+- Domains collected (HTTP 200): 24
 
 ## UN/DESA national portal
 
@@ -30,29 +30,29 @@
 
 ## Candidate domains ranked by score
 
-38 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+21 candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 8 | `bmbfsfj.bund.de` | wikidata;wikidata | Federal Ministry for Education, Family Affairs, Senior Citizens, Women and Youth |
-| 8 | `bmftr.bund.de` | wikidata;wikidata | Federal Ministry of Research, Technology and Space |
-| 7 | `bmjv.de` | wikidata;wikidata | Federal Ministry of Justice and Consumer Protection |
-| 7 | `bmvg.de` | wikidata;wikidata | Federal Ministry of Defence of Germany |
 | 6 | `assemblee-nationale.fr` | wikidata;wikidata | Franco-German Parliamentary Assembly |
-| 5 | `bmds.bund.de` | wikidata | Federal Ministry for Digital Transformation and Government Modernisation |
-| 5 | `bmi.bund.de` | wikidata | Federal Ministry of the Interior |
-| 5 | `bmwsb.bund.de` | wikidata | Federal Ministry for Housing, Urban Development and Building |
-| 4 | `auswaertiges-amt.de` | wikidata | Federal Foreign Office |
-| 4 | `bmas.de` | wikidata | Federal Ministry of Labour and Social Affairs of Germany |
-| 4 | `bmv.de` | wikidata | Federal Ministry for Transport |
-| 4 | `bmz.de` | wikidata | Federal Ministry for Economic Cooperation and Development |
 | 4 | `bremische-buergerschaft.de` | wikidata | Bürgerschaft of Bremen |
-| 4 | `bundesfinanzministerium.de` | wikidata | Federal Ministry of Finance |
-| 4 | `bundesgesundheitsministerium.de` | wikidata | Federal Ministry of Health of Germany |
-| 4 | `bundesumweltministerium.de` | wikidata | Federal Ministry for the Environment, Climate Protection, Nature Conservation... |
-| 4 | `bundeswirtschaftsministerium.de` | wikidata | Federal Ministry for Economic Affairs and Energy |
 | 4 | `hamburg.de` | wikidata | Senate of the Free and Hanseatic City of Hamburg |
 | 4 | `hamburgische-buergerschaft.de` | wikidata | Hamburg Parliament |
 | 4 | `neckarwestheim.de` | wikidata | Q134619980 |
+| 4 | `parlament-berlin.de` | wikidata | Berlin House of Representatives |
+| 3 | `franziskaner.net` | wikidata | Q19971564 |
+| 3 | `jesuiten.org` | wikidata | Jesuit Province of Central Europe |
+| 2 | `landtag-bayern.de` | wikidata;wikidata | Landtag of Bavaria |
+| 0 | `baden-wuerttemberg.de` | wikidata | Government of Baden-Württemberg |
+| 0 | `hessischer-landtag.de` | wikidata | Landtag of Hesse |
+| 0 | `landtag-bw.de` | wikidata | Landtag of Baden-Württemberg |
+| 0 | `landtag-mv.de` | wikidata | Landtag of Mecklenburg-Vorpommern |
+| 0 | `landtag-niedersachsen.de` | wikidata | Landtag of Lower Saxony |
+| 0 | `landtag-saar.de` | wikidata | Landtag of Saarland |
+| 0 | `landtag.brandenburg.de` | wikidata | Landtag of Brandenburg |
+| 0 | `landtag.ltsh.de` | wikidata | Landtag of Schleswig-Holstein |
+| 0 | `landtag.nrw.de` | wikidata | Landtag of North Rhine-Westphalia |
+| 0 | `landtag.sachsen-anhalt.de` | wikidata | Landtag of Saxony-Anhalt |
+| 0 | `landtag.sachsen.de` | wikidata | Landtag of Saxony |
 
