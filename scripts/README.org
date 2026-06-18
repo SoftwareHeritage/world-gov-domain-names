@@ -72,6 +72,7 @@ For each uncovered candidate hostname:
 |------------------------------------------------------------+--------|
 | UN/DESA-declared national portal                           |     +5 |
 | Per distinct Wikidata mention (capped at +6 = 2 mentions)  |     +3 |
+| Hostname listed in the curated source channel (manual)     |     +3 |
 | Hostname under the country's primary ccTLD                 |     +1 |
 | Central pattern (=gov./bund./gouv./governo./gobierno./…=)    |     +1 |
 | Wikidata label contains a Factbook institution name        |     +2 |
@@ -82,6 +83,19 @@ Score clamped to =[0, 10]=.
 
 Output: =countries/<c>/candidates.csv= with columns
 =hostname,score,sources,label=, sorted score desc / hostname asc.
+
+* Curated candidates (manual)
+
+Central-government domains the automated harvest (Wikidata / UN-DESA)
+misses can be added by hand in an isolated, versioned source:
+
+=countries/<c>/sources/curated/central_admin.csv= -- schema
+=type,label,website,hostname,provenance=. The =report= phase reads it
+alongside Wikidata and UN/DESA, so listed hosts re-enter
+=candidates.csv= reproducibly, scored =+3= and tagged =sources=curated=.
+The =provenance= column records where each entry came from. The
+directory is excluded from root-domain promotion (it is part of
+=source-dirs-set=), so adding a candidate here never auto-promotes it.
 
 * Manual curation workflow
 

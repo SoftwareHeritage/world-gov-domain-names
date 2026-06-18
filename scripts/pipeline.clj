@@ -264,7 +264,8 @@
 ;;  Phase 1 -- fetch / retry (crt.sh)
 ;; ===========================================================================
 
-(def source-dirs-set #{"wikidata" "iana" "un_desa" "cia_factbook" "oecd" "country_data"})
+(def source-dirs-set #{"wikidata" "iana" "un_desa" "cia_factbook" "oecd" "country_data"
+                       "curated"})
 
 (defn root-domain-dirs
   "All countries/<c>/sources/<root>/ directories (full paths), excluding the
@@ -1088,8 +1089,9 @@
     :label           pipe-joined Wikidata labels for this host
     :fb-phrases      Factbook institution phrases (lowercased)
     :un-portal-host  UN/DESA-declared national portal host (or nil)
-    :cctld-primary   country's primary ccTLD (without leading dot)"
-  [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary]}]
+    :cctld-primary   country's primary ccTLD (without leading dot)
+    :curated?        host comes from the manually-curated source channel"
+  [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary curated?]}]
   (let [label (or label "")
         un?           (= host un-portal-host)
         on-cctld?     (and cctld-primary
@@ -1104,6 +1106,7 @@
                            (not (re-find federal-pattern label)))
         score (+ (if un?          5 0)
                  (* 3 (min 2 (max 0 wd-count)))
+                 (if curated?     3 0)
                  (if on-cctld?    1 0)
                  (if gov-host?    1 0)
                  (if fb-match?    2 0)
@@ -1120,6 +1123,7 @@
         un-path   (str "countries/" country-dir "/sources/un_desa/summary.csv")
         cia-path  (str "countries/" country-dir "/sources/cia_factbook/summary.csv")
         wd-path   (str "countries/" country-dir "/sources/wikidata/central_admin.csv")
+        cur-path  (str "countries/" country-dir "/sources/curated/central_admin.csv")
         out       (str "countries/" country-dir "/candidates.csv")
         cctld-primary
         (when (fs/exists? iana-path)
@@ -1142,7 +1146,14 @@
                                        (let [ls (or ls [])]
                                          (if (some #{label} ls) ls (conj ls label)))))))))
                 {} wd-rows)
-        all-hosts (cond-> (set (keys wd-by-host))
+        cur-rows       (when (fs/exists? cur-path) (rest (read-csv-raw cur-path)))
+        ;; curated host -> label (schema: type,label,website,hostname,provenance)
+        cur-by-host
+        (reduce (fn [m row]
+                  (let [host (nth row 3 nil) label (nth row 1 nil)]
+                    (if (str/blank? host) m (assoc m host (or label "")))))
+                {} cur-rows)
+        all-hosts (cond-> (into (set (keys wd-by-host)) (keys cur-by-host))
                     un-portal-host (conj un-portal-host))
         known     (set (known-roots))
         candidates
@@ -1152,17 +1163,25 @@
                     (let [{:keys [cnt labels] :or {cnt 0 labels []}}
                           (get wd-by-host h)
                           un? (= h un-portal-host)
+                          curated? (contains? cur-by-host h)
+                          cur-label (get cur-by-host h)
+                          labels (cond-> labels
+                                   (and curated? (seq cur-label)
+                                        (not (some #{cur-label} labels)))
+                                   (conj cur-label))
                           label (cond-> (str/join " | " labels)
                                   un? (str (when (seq labels) " | ")
                                            "UN/DESA national portal"))
                           sources (cond-> []
                                     un? (conj "un_desa"))
                           sources (into sources (repeat cnt "wikidata"))
+                          sources (cond-> sources curated? (conj "curated"))
                           score (score-candidate
                                   {:host h :wd-count cnt :label label
                                    :fb-phrases fb-phrases
                                    :un-portal-host un-portal-host
-                                   :cctld-primary cctld-primary})]
+                                   :cctld-primary cctld-primary
+                                   :curated? curated?})]
                       [h score (str/join ";" sources) label])))
              (sort-by (juxt #(- (nth % 1)) first)))]
     (write-csv-file out ["hostname" "score" "sources" "label"]
