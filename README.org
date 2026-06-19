@@ -30,6 +30,10 @@ status. Inclusion criterion: the host *existed in DNS at least once*
 along as per-host signals, never as filters. Each row also carries the
 UN status and key metadata of its country.
 
+Both consolidated outputs are *UN-facing*: they contain UN member and
+observer states only. Non-UN entities (Taiwan, Kosovo) keep their
+per-country directory for technical context but are *excluded* here.
+
 #+begin_example
 subdomain,parent_domain,country,un_status,region,languages,gdp_per_capita,http_status,mx
 www.gouv.fr,gouv.fr,FRA_france,member,Europe,French,46103,200,

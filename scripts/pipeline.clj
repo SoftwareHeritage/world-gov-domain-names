@@ -589,11 +589,14 @@
                                   un (get un-by-country country "member")
                                   m  (get meta-by-country country)
                                   mx-by-host (read-mx-map (fs/parent csv))]
-                              (for [[sub status] (rest (read-csv-raw (str csv)))
-                                    :when (not (str/blank? sub))]
-                                [sub parent country un
-                                 (:region m) (:langs m) (:gdp m)
-                                 (or status "") (get mx-by-host sub "")]))))
+                              ;; UN-facing output: keep UN members and observers
+                              ;; only, never non-UN entities (Taiwan, Kosovo).
+                              (when (not= un "non_un")
+                                (for [[sub status] (rest (read-csv-raw (str csv)))
+                                      :when (not (str/blank? sub))]
+                                  [sub parent country un
+                                   (:region m) (:langs m) (:gdp m)
+                                   (or status "") (get mx-by-host sub "")])))))
                   (sort-by first)
                   distinct)]
     (write-csv-file public-sector-file
@@ -618,19 +621,21 @@
         meta-by-country (country-meta-map)
         rows
         (->> (root-domain-dirs)
-             (map (fn [dir]
-                    (let [root    (str (fs/file-name dir))
-                          country (str (fs/file-name
-                                         (fs/parent (fs/parent (fs/parent dir)))))
-                          un (get un-by-country country "member")
-                          m  (get meta-by-country country)
-                          sub-csv (str dir "/subdomains.csv")
-                          apex-status (when (fs/exists? sub-csv)
-                                        (some (fn [[sub st]] (when (= sub root) st))
-                                              (rest (read-csv-raw sub-csv))))
-                          mx (get (read-mx-map dir) root "")]
-                      [root country un (:region m) (:langs m) (:gdp m)
-                       (or apex-status "") (or mx "")])))
+             (keep (fn [dir]
+                     (let [root    (str (fs/file-name dir))
+                           country (str (fs/file-name
+                                          (fs/parent (fs/parent (fs/parent dir)))))
+                           un (get un-by-country country "member")
+                           m  (get meta-by-country country)
+                           sub-csv (str dir "/subdomains.csv")
+                           apex-status (when (fs/exists? sub-csv)
+                                         (some (fn [[sub st]] (when (= sub root) st))
+                                               (rest (read-csv-raw sub-csv))))
+                           mx (get (read-mx-map dir) root "")]
+                       ;; UN-facing output: UN members and observers only.
+                       (when (not= un "non_un")
+                         [root country un (:region m) (:langs m) (:gdp m)
+                          (or apex-status "") (or mx "")]))))
              (sort-by first))]
     (write-csv-file central-gov-file
                     ["domain" "country" "un_status"
