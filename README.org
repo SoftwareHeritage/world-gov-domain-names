@@ -48,9 +48,11 @@ domain*. Because the report's email regex matches by suffix
 subdomains -- so this is the list of central-government email domains the
 regex needs. Roots come from two places: the promoted root directories
 (=sources/roots/<d>/=) and per-country *registry* files
-(=sources/registry/roots.csv=) for large official lists, e.g. the US
+(=sources/registry/roots.csv=) for large official lists -- e.g. the US
 federal =.gov= registry from CISA (=bb pipeline cisa=, ~1340 domains:
-=nasa.gov=, =nist.gov=, …). UN members and observers only. The root
+=nasa.gov=, =nist.gov=, …) and France's central-administration directory
+(=bb pipeline lannuaire=, ~44 =.fr= domains: =insee.fr=, =cnes.fr=, …).
+UN members and observers only. The root
 apex's =http_status= / =mx= are carried as signals when available.
 
 #+begin_example

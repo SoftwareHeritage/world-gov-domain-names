@@ -16,6 +16,7 @@
 ;;   aggregate          aggregate every host -> public-sector.csv
 ;;   central            extract root domains -> public-sector-central-gov.csv
 ;;   cisa               fetch CISA federal .gov registry -> US root registry
+;;   lannuaire          fetch FR service-public.gouv.fr directory -> FR registry
 ;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
@@ -672,6 +673,14 @@
                     rows)
     (println (str "Wrote " central-gov-file " (" (count rows) " central-gov root domains)"))))
 
+(defn registrable
+  "Best-effort registrable domain: the last two dot-labels of a host
+  (insee.fr, culture.gouv.fr -> gouv.fr). Good enough for single-label TLDs."
+  [host]
+  (when host
+    (let [p (str/split host #"\.")]
+      (when (>= (count p) 2) (str/join "." (take-last 2 p))))))
+
 (def cisa-federal-url
   "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv")
 
@@ -695,6 +704,39 @@
         (ensure-dir (fs/parent out))
         (write-csv-file out ["domain" "type" "organization"] domains)
         (println (str "Wrote " out " (" (count domains) " federal .gov domains from CISA)"))
+        0))))
+
+(def lannuaire-url
+  (str "https://api-lannuaire.service-public.fr/api/explore/v2.1/catalog/"
+       "datasets/api-lannuaire-administration/exports/json"))
+
+(defn cmd-lannuaire [_]
+  ;; Fetch France's official national administration directory and write the FR
+  ;; root registry: distinct .fr registrable domains of the central administrations
+  ;; (ministries + central services). The .fr filter drops the international-org
+  ;; cross-references (imf.org, wmo.int, ...) that pollute the listed websites.
+  (let [where "type_organisme=\"Administration centrale (ou Ministère)\""
+        body (http-get lannuaire-url
+                       {:timeout 90
+                        :query-params {"select" "site_internet" "where" where}})]
+    (if (str/blank? body)
+      (do (err "ERR: lannuaire fetch failed") 1)
+      (let [domains (->> (json/parse-string body true)
+                         (mapcat (fn [r]
+                                   (when-let [si (:site_internet r)]
+                                     (map :valeur (try (json/parse-string si true)
+                                                       (catch Exception _ nil))))))
+                         (keep extract-host)
+                         (keep registrable)
+                         (filter #(str/ends-with? % ".fr"))
+                         (filter valid-hostname?)
+                         distinct
+                         sort)
+            out (country-src "FRA_france" "registry" "roots.csv")]
+        (ensure-dir (fs/parent out))
+        (write-csv-file out ["domain" "source"]
+                        (for [d domains] [d "lannuaire.service-public.gouv.fr"]))
+        (println (str "Wrote " out " (" (count domains) " .fr central-admin domains)"))
         0))))
 
 ;; ===========================================================================
@@ -1574,6 +1616,7 @@
    "aggregate"   (fn [_] (cmd-aggregate nil))
    "central"     (fn [_] (cmd-central nil))
    "cisa"        (fn [_] (cmd-cisa nil))
+   "lannuaire"   (fn [_] (cmd-lannuaire nil))
    "wikidata"    cmd-wikidata
    "iana"        cmd-iana
    "cia"         cmd-cia
@@ -1590,7 +1633,8 @@
   (println "  collect | enrich | report | all")
   (println)
   (println "Targeted commands:")
-  (println "  fetch | retry | normalize | probe | mx | aggregate | central | cisa")
+  (println "  fetch | retry | normalize | probe | mx | aggregate | central")
+  (println "  cisa | lannuaire")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))

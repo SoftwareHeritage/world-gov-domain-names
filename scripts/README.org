@@ -39,6 +39,7 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj aggregate             # rebuild public-sector.csv
   bb scripts/pipeline.clj central               # extract public-sector-central-gov.csv
   bb scripts/pipeline.clj cisa                  # refresh US federal .gov registry (CISA)
+  bb scripts/pipeline.clj lannuaire             # refresh FR central-admin registry (service-public)
 
   bb scripts/pipeline.clj wikidata Q142:FRA_france
   bb scripts/pipeline.clj iana FRA_france
