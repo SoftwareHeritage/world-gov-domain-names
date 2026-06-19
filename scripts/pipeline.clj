@@ -15,6 +15,7 @@
 ;;   mx [DOM…]          DNS MX lookup per host -> mx.csv (email signal)
 ;;   aggregate          aggregate every host -> public-sector.csv
 ;;   central            extract root domains -> public-sector-central-gov.csv
+;;   cisa               fetch CISA federal .gov registry -> US root registry
 ;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
@@ -610,38 +611,91 @@
                     " ; observers: " (get counts "observer" 0)
                     " ; non-UN: " (get counts "non_un" 0))))))
 
+(defn registry-roots
+  "Authoritative root domains declared per country in
+  sources/registry/roots.csv (column 1 = domain). Seq of [country domain].
+  This is how large official lists (e.g. the US CISA federal .gov registry)
+  enter the central-gov file without one directory per domain."
+  []
+  (for [c (country-dirs)
+        :let [path (country-src c "registry" "roots.csv")]
+        :when (fs/exists? path)
+        row (rest (read-csv-raw path))
+        :let [domain (some-> (first row) str/trim str/lower-case)]
+        :when (valid-hostname? domain)]
+    [c domain]))
+
+(defn- central-root-entries
+  "All [country domain http_status mx] feeding the central-gov file: one per
+  promoted root directory (carrying its apex signals) plus the per-country
+  registry domains. De-duplicated by [country domain], preferring the directory
+  entry (which has signals)."
+  []
+  (let [from-dirs
+        (for [dir (root-domain-dirs)
+              :let [root    (str (fs/file-name dir))
+                    country (str (fs/file-name
+                                   (fs/parent (fs/parent (fs/parent dir)))))
+                    sub-csv (str dir "/subdomains.csv")
+                    apex    (when (fs/exists? sub-csv)
+                              (some (fn [[sub st]] (when (= sub root) st))
+                                    (rest (read-csv-raw sub-csv))))
+                    mx      (get (read-mx-map dir) root "")]]
+          [country root (or apex "") (or mx "")])
+        from-registry (for [[c d] (registry-roots)] [c d "" ""])]
+    (->> (concat from-dirs from-registry)
+         (reduce (fn [m [c d s mx]]
+                   (cond-> m (not (contains? m [c d])) (assoc [c d] [c d s mx])))
+                 {})
+         vals)))
+
 (defn cmd-central [_]
-  ;; Extract public-sector-central-gov.csv: one row per *promoted root domain*.
-  ;; With suffix matching a root already covers all its subdomains, so these
-  ;; roots are the email domains the report's regex needs. Derived from the
-  ;; promoted root directories (not from public-sector.csv) so that roots with
-  ;; no harvested host yet (e.g. gov.ke) still appear. Carries the root apex's
-  ;; http_status/mx as signals when available.
+  ;; Extract public-sector-central-gov.csv: one row per central-government root
+  ;; domain. With suffix matching a root already covers all its subdomains, so
+  ;; these roots are the email domains the report's regex needs. Sources: the
+  ;; promoted root directories (incl. ones with no harvested host yet, e.g.
+  ;; gov.ke) and the per-country registry files. UN-facing: members/observers
+  ;; only. Carries the root apex's http_status/mx as signals when available.
   (let [un-by-country  (build-un-status-map)
         meta-by-country (country-meta-map)
         rows
-        (->> (root-domain-dirs)
-             (keep (fn [dir]
-                     (let [root    (str (fs/file-name dir))
-                           country (str (fs/file-name
-                                          (fs/parent (fs/parent (fs/parent dir)))))
-                           un (get un-by-country country "member")
-                           m  (get meta-by-country country)
-                           sub-csv (str dir "/subdomains.csv")
-                           apex-status (when (fs/exists? sub-csv)
-                                         (some (fn [[sub st]] (when (= sub root) st))
-                                               (rest (read-csv-raw sub-csv))))
-                           mx (get (read-mx-map dir) root "")]
-                       ;; UN-facing output: UN members and observers only.
+        (->> (central-root-entries)
+             (keep (fn [[country domain http mx]]
+                     (let [un (get un-by-country country "member")
+                           m  (get meta-by-country country)]
                        (when (not= un "non_un")
-                         [root country un (:region m) (:langs m) (:gdp m)
-                          (or apex-status "") (or mx "")]))))
+                         [domain country un (:region m) (:langs m) (:gdp m) http mx]))))
              (sort-by first))]
     (write-csv-file central-gov-file
                     ["domain" "country" "un_status"
                      "region" "languages" "gdp_per_capita" "http_status" "mx"]
                     rows)
     (println (str "Wrote " central-gov-file " (" (count rows) " central-gov root domains)"))))
+
+(def cisa-federal-url
+  "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv")
+
+(defn cmd-cisa [_]
+  ;; Fetch CISA's authoritative federal .gov registry and write it as the US
+  ;; central-gov root registry (sources/registry/roots.csv). Every entry is a
+  ;; verified US federal executive/legislative/judicial domain, so this is the
+  ;; clean central-gov source for the US -- preferred over a bare 'gov' suffix,
+  ;; which false-matches 'government.com', 'govtech.io', etc.
+  (let [body (http-get cisa-federal-url {:timeout 60})]
+    (if (str/blank? body)
+      (do (err "ERR: CISA fetch failed (" cisa-federal-url ")") 1)
+      (let [domains (->> (rest (csv/read-csv (java.io.StringReader. body)))
+                         (map (fn [r] [(some-> (nth r 0 "") str/trim str/lower-case)
+                                       (nth r 1 "")     ; Domain type
+                                       (nth r 2 "")]))  ; Organization name
+                         (filter #(valid-hostname? (first %)))
+                         (sort-by first)
+                         distinct)
+            out (country-src "USA_united_states" "registry" "roots.csv")]
+        (ensure-dir (fs/parent out))
+        (write-csv-file out ["domain" "type" "organization"] domains)
+        (println (str "Wrote " out " (" (count domains) " federal .gov domains from CISA)"))
+        0))))
 
 ;; ===========================================================================
 ;;  Phase 5 -- Wikidata (fetch + diff)
@@ -1519,6 +1573,7 @@
    "mx"          cmd-mx
    "aggregate"   (fn [_] (cmd-aggregate nil))
    "central"     (fn [_] (cmd-central nil))
+   "cisa"        (fn [_] (cmd-cisa nil))
    "wikidata"    cmd-wikidata
    "iana"        cmd-iana
    "cia"         cmd-cia
@@ -1535,7 +1590,7 @@
   (println "  collect | enrich | report | all")
   (println)
   (println "Targeted commands:")
-  (println "  fetch | retry | normalize | probe | mx | aggregate | central")
+  (println "  fetch | retry | normalize | probe | mx | aggregate | central | cisa")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))

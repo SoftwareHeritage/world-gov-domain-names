@@ -42,12 +42,16 @@ api.moi.gov.ps,gov.ps,PSE_palestine,observer,Asia,Arabic,3464,403,10 mail.gov.ps
 
 ** =public-sector-central-gov.csv= (root domains)
 
-Extracted from =public-sector.csv= by =bb pipeline central=: one row per
-promoted *root domain* (=parent_domain=). Because the report's email
-regex matches by suffix (=@anything.gouv.fr= matches =gouv.fr=), a root
-already covers all its subdomains -- so this is the minimal list of
-central-government email domains the regex needs. The root apex's
-=http_status= / =mx= are carried as signals.
+Built by =bb pipeline central=: one row per central-government *root
+domain*. Because the report's email regex matches by suffix
+(=@anything.gouv.fr= matches =gouv.fr=), a root already covers all its
+subdomains -- so this is the list of central-government email domains the
+regex needs. Roots come from two places: the promoted root directories
+(=sources/roots/<d>/=) and per-country *registry* files
+(=sources/registry/roots.csv=) for large official lists, e.g. the US
+federal =.gov= registry from CISA (=bb pipeline cisa=, ~1340 domains:
+=nasa.gov=, =nist.gov=, …). UN members and observers only. The root
+apex's =http_status= / =mx= are carried as signals when available.
 
 #+begin_example
 domain,country,un_status,region,languages,gdp_per_capita,http_status,mx
