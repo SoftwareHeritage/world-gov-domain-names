@@ -1,260 +1,92 @@
 #+title: World Gov domain names
 
-This repository contains a list of government domain names from 199
-States and entities.
+This repository collects the government domain names of 197 States and
+entities, so we can measure how much governments contribute to
+publicly available software archived by Software Heritage.
 
-It is used to measure government contributions to publicly available
-software archived by Software Heritage.
+* Coverage
 
-Coverage : 197 jurisdictions, with their UN status explicitly marked :
+197 jurisdictions, each tagged with its UN status:
 
 - *193 UN member states*
 - *2 UN observer states*: Holy See, Palestine
-- *2 non-UN entities*: Taiwan, Kosovo (included for technical context
-  but excluded from any UN-facing aggregation).
+- *2 non-UN entities*: Taiwan, Kosovo (kept for context, but excluded
+  from any UN-facing aggregation).
 
-The UN status of each country lives in =data/world-governments.csv=
-(column =un_status=) and is propagated as a column in both consolidated
-outputs below.
+* What you get
 
-* Data
+The repository is organised around a few outputs.
 
-The pipeline produces two consolidated outputs at the repo root.
+** Consolidated lists (repo root)
 
-** =public-sector.csv= (every host)
+Two ready-to-use CSV files, covering UN members and observers only:
 
-Every government host discovered for a promoted root domain -- root apex
-*and* subdomains (e.g. =beta.gouv.fr=) -- kept regardless of its HTTP
-status. Inclusion criterion: the host *existed in DNS at least once*
-(it appeared in a source such as crt.sh). =http_status= and =mx= travel
-along as per-host signals, never as filters. Each row also carries the
-UN status and key metadata of its country.
+- =public-sector.csv= -- every government host we found, apex domains
+  *and* subdomains (e.g. =www.gouv.fr=, =beta.gouv.fr=).
+- =public-sector-central-gov.csv= -- one row per central-government
+  *root domain* (e.g. =gouv.fr=, =insee.fr=). A root already stands for
+  all its subdomains, so this is the short list of email domains to
+  watch.
 
-Both consolidated outputs are *UN-facing*: they contain UN member and
-observer states only. Non-UN entities (Taiwan, Kosovo) keep their
-per-country directory for technical context but are *excluded* here.
+Each row also carries country metadata: UN status, region, languages
+and GDP per capita.
 
-#+begin_example
-subdomain,parent_domain,country,un_status,region,languages,gdp_per_capita,http_status,mx
-www.gouv.fr,gouv.fr,FRA_france,member,Europe,French,46103,200,
-api.moi.gov.ps,gov.ps,PSE_palestine,observer,Asia,Arabic,3464,403,10 mail.gov.ps.
-#+end_example
+** Per-country data (=countries/<ISO3>_<slug>/=)
 
-** =public-sector-central-gov.csv= (root domains)
+One directory per country (=FRA_france=, =USA_united_states=, …), with:
 
-Built by =bb pipeline central=: one row per central-government *root
-domain*. Because the report's email regex matches by suffix
-(=@anything.gouv.fr= matches =gouv.fr=), a root already covers all its
-subdomains -- so this is the list of central-government email domains the
-regex needs. Roots come from two places: the promoted root directories
-(=sources/roots/<d>/=) and per-country *registry* files
-(=sources/registry/roots.csv=) for large official lists -- e.g. the US
-federal =.gov= registry from CISA (=bb pipeline cisa=, ~1340 domains:
-=nasa.gov=, =nist.gov=, …) and France's central-administration directory
-(=bb pipeline lannuaire=, ~44 =.fr= domains: =insee.fr=, =cnes.fr=, …).
-UN members and observers only. The root
-apex's =http_status= / =mx= are carried as signals when available.
+- =subdomains.csv= -- all known subdomains and their HTTP status,
+- =candidates.csv= -- domains we spotted but haven't confirmed yet,
+  scored 0--10 by how many sources agree,
+- =summary.md= -- a human-readable cross-check report,
+- =sources/= -- the raw data behind the above, one folder per source.
 
-#+begin_example
-domain,country,un_status,region,languages,gdp_per_capita,http_status,mx
-gouv.fr,FRA_france,member,Europe,French,46103,,
-bmjv.de,DEU_germany,member,Europe,German,56104,303,
-#+end_example
+** Master data (=data/=)
 
-** =countries/<ISO3>_<slug>/=
+- =world-governments.csv= -- the master list of the 197 countries
+  (name, region, portal, UN status, ISO codes, income group).
+- A few generated mapping files linking country names to source IDs.
 
-One directory per country (=FRA_france=, =USA_united_states=, etc.) 
+* Where the data comes from
 
-Each holds exactly four entries:
+The dataset is layered, from a broad harvest to authoritative
+enrichment:
 
-#+begin_example
-countries/FRA_france/
-├── summary.md       -- human-readable cross-check report
-├── subdomains.csv   -- all subdomains, aggregated across root domains
-├── candidates.csv   -- scored domain candidates (0-10) not yet covered
-└── sources/         -- raw per-source data (see below)
-#+end_example
+- *crt.sh* -- subdomains seen in public TLS certificates (main harvest).
+- *HTTPS probes* -- check that a host actually serves content.
+- *Wikidata* -- ministries, parliaments, central banks, courts and
+  their official websites.
+- *IANA, UN/DESA, CIA World Factbook, OECD* -- official sources used to
+  cross-check candidates.
 
-*** =subdomains.csv=
-
-All subdomains for the country, aggregating every root domain, with
-their HTTPS status:
-
-#+begin_example
-subdomain,parent_domain,http_status
-www.gouv.fr,gouv.fr,"200"
-ssl.gouv.fr,gouv.fr,"DNS error: ..."
-foo.gouv.fr,gouv.fr,
-#+end_example
-
-The =http_status= field holds the HTTPS HEAD response code, a short
-single-line error message, or is empty (not yet probed). Generated by
-the =aggregate= phase from =sources/roots/<root>/subdomains.csv=.
-
-*** =candidates.csv=
-
-Domain candidates not yet covered, scored 0-10 by cross-source
-agreement (UN/DESA portal, Wikidata mentions, ccTLD match, Factbook
-institution names ; minus penalties for territorial subdivisions):
-
-#+begin_example
-hostname,score,sources,label
-gouvernement.fr,9,un_desa;wikidata,Council of Ministers | UN/DESA national portal
-parlement.fr,8,wikidata;wikidata,French Parliament
-#+end_example
-
-*** =summary.md=
-
-Per-country cross-check report: UN status, ccTLD, OECD membership,
-EGDI rank, government type, top-20 scored candidates, ccTLD anomalies.
-Generated by the =report= phase. Do not edit by hand.
-
-*** =sources/=
-
-Raw per-source data, isolated from the curated dataset. Promoted root
-domains live under =sources/roots/=, kept apart from the enrichment
-sources:
-
-- =sources/roots/<root>/subdomains.csv= -- one directory per promoted root
-  domain (most countries have one, e.g. =gouv.fr= ; Italy has several:
-  =gov.it=, =governo.it=, ministry-specific domains).
-- =sources/wikidata/central_admin.csv= + =missing_domains.csv=
-- =sources/iana/cctld.csv=
-- =sources/cia_factbook/government.json= + =summary.csv=
-- =sources/un_desa/summary.csv=
-- =sources/oecd/membership.csv=
-- =sources/country_data/info.csv=
-
-⚠️ Promotion of a candidate from =sources/= or =candidates.csv= to a real
-root-domain directory under =sources/roots/<root>/= is *manual*.
-
-*** =sources/country_data/info.csv=
-
-Country metadata, a =field,value= CSV combining two open sources:
-
-#+begin_example
-field,value
-region,Europe
-subregion,Western Europe
-languages,French
-currencies,EUR
-population,66351959
-capital,Paris
-gdp_per_capita,46103
-gdp_year,2024
-#+end_example
-
-- =region=, =subregion=, =languages=, =currencies=, =population=, =capital= come
-  from [[https://restcountries.com][REST Countries]] (keyed by ISO3).
-- =gdp_per_capita= (current US$) + =gdp_year= come from the [[https://data.worldbank.org][World Bank]] API
-  (indicator =NY.GDP.PCAP.CD=, most recent non-empty value).
-
-These fields are surfaced in each country's =summary.md= (Overview
-section) and propagated as the =region=, =languages= and =gdp_per_capita=
-columns of =public-sector.csv=.
-
-** =data/=
-
-- =world-governments.csv= -- master list of 197 countries
-  (=Country,Region,email address domain,Government Portal
-  Domain,URL,un_status,iso2,iso3,income_group=)
-  - =iso2=, =iso3= :: ISO 3166-1 alpha-2 / alpha-3 codes (=XK=/=XKX= for
-    Kosovo, following Eurostat / IMF / EU placeholder usage).
-  - =income_group= :: World Bank country-and-lending-group
-    classification, FY2025 (=H= high, =UM= upper-middle, =LM= lower-middle,
-    =L= low). See [[https://datahelpdesk.worldbank.org/knowledgebase/articles/906519][source]]. Refresh annually (every July) by re-running
-    =scripts/populate_iso_income.py= after updating its hardcoded
-    reference table.
-- =country_qid.csv= -- generated mapping =country_dir,iso3,wikidata_qid=
-- =factbook_gec.csv=, =factbook_aliases.csv=, =un_desa_ids.csv=,
-  =un_desa_aliases.csv= -- generated country-name <-> source-id mappings
-
-* Sources
-
-This dataset is built from multiple sources, layered from broad
-harvest to authoritative enrichment. All enrichment sources are
-*isolated* under =countries/<c>/sources/<source>/= ; promotion of any
-candidate to a root-domain directory is *manual*.
-
-** In use
-
-- crt.sh  :: Primary harvest of subdomains observed in publicly issued
-  certificates.
-- HTTPS HEAD probes :: verification that a subdomain actually serves
-  content (status =200=).
-- Wikidata :: enrichment with central administration bodies
-  (ministries, parliaments, central banks, supreme/constitutional
-  courts) and their official websites.
-
-** International official sources for cross-validation
-
-Scope: *central administrations and independent authorities attached to
-central government only*. For now, we exclude local and regional
-authorities, universities, hospitals, etc.
-
-- IANA Root Zone Database :: authoritative registry of ccTLDs;
-  identifies the sponsoring organisation of each country's top-level
-  domain.
-- UN/DESA Public Administration :: UN E-Government Knowledgebase:
-  per-country National Portal URL and EGDI ranking.
-- CIA World Factbook (via [[https://github.com/factbook/factbook.json][factbook.json]] mirror) :: structured
-  government section per country (executive / legislative / judicial
-  branches). Note: the original Factbook was wiped by the CIA in
-  February 2026 ; we use a community JSON mirror.
-- OECD Government at a Glance :: flags OECD membership and links to
-  the relevant SDMX dataset for governance indicators.
+Scope is *central government only* for now: local and regional
+authorities, universities and hospitals are left out. Promoting a
+candidate to a confirmed root domain is always a *manual* decision.
 
 * Running the pipeline
 
-The pipeline is a single script, =scripts/pipeline.clj=, exposed through
-=bb.edn= tasks.
-
-** Install Babashka
+Everything is driven by Babashka through =bb.edn= tasks.
 
 #+begin_src bash
-# Linux / macOS (official installer)
+# Install Babashka (Linux / macOS)
 bash <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)
 
-# or with Homebrew (macOS / Linux)
-brew install borkdude/brew/babashka
+# From the repository root:
+bb pipeline help     # list all sub-commands
+bb pipeline all      # full run: collect + enrich + report
 #+end_src
 
-No other tool is required to run the pipeline: HTTP requests go
-through =babashka.http-client= (bundled with Babashka, backed by the
-JVM's built-in HTTP client). =curl= above is only used to fetch the
-Babashka installer.
-
-** Run
-
-From the repository root:
-
-#+begin_src bash
-  bb pipeline help          # list all sub-commands
-
-  bb pipeline enrich        # wikidata + iana/cia/un-desa/oecd/meta (parallel)
-  bb pipeline report        # generate candidates.csv + summary.md per country
-  bb pipeline collect       # crt.sh harvest -> probe -> public-sector.csv (+ central-gov)
-  bb pipeline all           # collect + enrich + report
-
-  # Targeted runs, optionally scoped to specific countries:
-  bb pipeline report FRA_france DEU_germany
-  FORCE=1 bb pipeline enrich     # force re-fetch of existing outputs
-#+end_src
-
-See =scripts/README.org= for the full command reference, scoring rules,
+See =scripts/README.org= for the full command reference, scoring rules
 and environment variables.
 
 * Contributing
 
-Please email me at =bastien.guerry@inria.fr= if you want to help with
-curating this list.
-
-* Conventions
+Please email me at =bastien.guerry@inria.fr= if you want to help curate
+this list.
 
 This repository uses [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]].
 
 * License
 
-Data in this repository are published under the [[LICENSES/CC0-1.0.txt][CC0 1.0 license]].
-
-Code in this repository is published under the [[LICENSES/EPL-2.0.txt][EPL 2.0 license]].
+Data are published under the [[LICENSES/CC0-1.0.txt][CC0 1.0 license]]; code under the
+[[LICENSES/EPL-2.0.txt][EPL 2.0 license]].
