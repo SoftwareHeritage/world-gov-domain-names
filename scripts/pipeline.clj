@@ -561,17 +561,21 @@
   (or (csv-field (country-src country-dir "country_data" "info.csv") field)
       ""))
 
+(defn- country-meta-map
+  "Map country_dir -> {:region :langs :gdp} from each country's metadata."
+  []
+  (into {}
+        (for [c (country-dirs)]
+          [c {:region (country-meta-field c "region")
+              :langs  (country-meta-field c "languages")
+              :gdp    (country-meta-field c "gdp_per_capita")}])))
+
 (def public-sector-file "public-sector.csv")
 (def central-gov-file   "public-sector-central-gov.csv")
 
 (defn cmd-aggregate [_]
   (let [un-by-country (build-un-status-map)
-        meta-by-country
-        (into {}
-              (for [c (country-dirs)]
-                [c {:region   (country-meta-field c "region")
-                    :langs    (country-meta-field c "languages")
-                    :gdp      (country-meta-field c "gdp_per_capita")}]))
+        meta-by-country (country-meta-map)
         ;; public-sector.csv -- every harvested host (root apex AND subdomains),
         ;; regardless of HTTP/MX. Inclusion criterion: the host existed in DNS at
         ;; least once (it appeared in a source like crt.sh). http_status and mx
@@ -604,33 +608,35 @@
                     " ; non-UN: " (get counts "non_un" 0))))))
 
 (defn cmd-central [_]
-  "Extract public-sector-central-gov.csv from public-sector.csv: collapse to one
-  row per root domain (column parent_domain). With suffix matching a root already
-  covers all its subdomains, so these roots are the email domains the report's
-  regex needs. Carries the root apex's http_status/mx as signals."
-  (let [hdr-rows (read-csv-raw public-sector-file)]
-    (if (empty? hdr-rows)
-      (err "ERR: " public-sector-file " missing -- run 'bb pipeline aggregate' first")
-      (let [rows (rest hdr-rows)
-            central
-            (->> (group-by #(nth % 1) rows)            ; group by parent_domain
-                 (keep (fn [[parent group]]
-                         (when-not (str/blank? parent)
-                           (let [r    (first group)
-                                 apex (first (filter #(= (first %) parent) group))
-                                 sig  (or apex r)]
-                             ;; columns of public-sector.csv:
-                             ;; 0 subdomain 1 parent 2 country 3 un 4 region
-                             ;; 5 languages 6 gdp 7 http_status 8 mx
-                             [parent (nth r 2 "") (nth r 3 "") (nth r 4 "")
-                              (nth r 5 "") (nth r 6 "")
-                              (if apex (nth apex 7 "") "") (if apex (nth apex 8 "") "")]))))
-                 (sort-by first))]
-        (write-csv-file central-gov-file
-                        ["domain" "country" "un_status"
-                         "region" "languages" "gdp_per_capita" "http_status" "mx"]
-                        central)
-        (println (str "Wrote " central-gov-file " (" (count central) " central-gov root domains)"))))))
+  ;; Extract public-sector-central-gov.csv: one row per *promoted root domain*.
+  ;; With suffix matching a root already covers all its subdomains, so these
+  ;; roots are the email domains the report's regex needs. Derived from the
+  ;; promoted root directories (not from public-sector.csv) so that roots with
+  ;; no harvested host yet (e.g. gov.ke) still appear. Carries the root apex's
+  ;; http_status/mx as signals when available.
+  (let [un-by-country  (build-un-status-map)
+        meta-by-country (country-meta-map)
+        rows
+        (->> (root-domain-dirs)
+             (map (fn [dir]
+                    (let [root    (str (fs/file-name dir))
+                          country (str (fs/file-name
+                                         (fs/parent (fs/parent (fs/parent dir)))))
+                          un (get un-by-country country "member")
+                          m  (get meta-by-country country)
+                          sub-csv (str dir "/subdomains.csv")
+                          apex-status (when (fs/exists? sub-csv)
+                                        (some (fn [[sub st]] (when (= sub root) st))
+                                              (rest (read-csv-raw sub-csv))))
+                          mx (get (read-mx-map dir) root "")]
+                      [root country un (:region m) (:langs m) (:gdp m)
+                       (or apex-status "") (or mx "")])))
+             (sort-by first))]
+    (write-csv-file central-gov-file
+                    ["domain" "country" "un_status"
+                     "region" "languages" "gdp_per_capita" "http_status" "mx"]
+                    rows)
+    (println (str "Wrote " central-gov-file " (" (count rows) " central-gov root domains)"))))
 
 ;; ===========================================================================
 ;;  Phase 5 -- Wikidata (fetch + diff)
