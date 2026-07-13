@@ -15,57 +15,46 @@ publicly available software archived by Software Heritage.
 
 * What you get
 
-The repository is organised around a few outputs.
-
-** Consolidated lists (repo root)
+** Consolidated lists
 
 Two ready-to-use CSV files, covering UN members and observers only:
 
 - =public-sector.csv= -- every government host we found, apex domains
-  *and* subdomains (e.g. =www.gouv.fr=, =beta.gouv.fr=).
-- =public-sector-central-gov.csv= -- one row per central-government
-  *root domain* (e.g. =gouv.fr=, =insee.fr=). A root already stands for
-  all its subdomains, so this is the short list of email domains to
-  watch.
+  *and* subdomains (e.g. =gouv.fr=, =beta.gouv.fr=).
+- =public-sector-central-gov.csv= -- one row per central-government *root
+  domain* (e.g. =gouv.fr=, =insee.fr=). A root already stands for all its
+  subdomains, so this is the short list of email domains to watch.
 
-Each row also carries country metadata: UN status, region, languages
-and GDP per capita.
+Each row carries metadata: UN status, region, languages and GDP
 
 ** Per-country data (=countries/<ISO3>_<slug>/=)
 
 One directory per country (=FRA_france=, =USA_united_states=, …), with:
 
-- =subdomains.csv= -- all known subdomains and their HTTP status,
-- =candidates.csv= -- central-administration domains we spotted but
-  haven't confirmed yet, scored 0--10 by how many sources agree,
-- =candidates-local.csv= -- same, for domains attributed to *local or
-  regional* administrations (Wikidata P1001 jurisdiction, curation, or
-  label heuristics); kept apart so the central-gov scope stays clean
-  while the groundwork for a future subnational extension accumulates,
-- =summary.md= -- a human-readable cross-check report,
+- =subdomains.csv= -- all known subdomains and their HTTP status.
+- =candidates.csv= -- central administration domains not confirmed yet,
+  scored 0 to 10 by how many sources agree.
+- =candidates-local.csv= -- same for domains attributed to local or
+  regional administrations.
+- =summary.md= -- a human-readable cross-check report.
 - =sources/= -- the raw data behind the above, one folder per source.
 
 ** Master data (=data/=)
 
-- =world-governments.csv= -- the master list of the 197 countries
-  (name, region, portal, UN status, ISO codes, income group).
+- =world-governments.csv= -- the master list of the 197 countries.
 - A few generated mapping files linking country names to source IDs.
 
 * Where the data comes from
 
-The dataset is layered, from a broad harvest to authoritative
-enrichment:
-
 - *crt.sh* -- subdomains seen in public TLS certificates (main harvest).
 - *HTTPS probes* -- check that a host actually serves content.
-- *Wikidata* -- ministries, parliaments, central banks, courts and
-  their official websites.
-- *IANA, UN/DESA, CIA World Factbook, OECD* -- official sources used to
-  cross-check candidates.
+- *Wikidata* -- ministries, parliaments, central banks, courts and their
+  official websites.
+- *IANA, UN/DESA, CIA World Factbook, OECD* -- other official sources
+  used to cross-check candidates.
 
-Scope is *central government only* for now: local and regional
-authorities, universities and hospitals are left out. Promoting a
-candidate to a confirmed root domain is always a *manual* decision.
+See [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] for a list of all data sources used in the
+final [[https://stateofpubliccode.org/][State of Public Code]].
 
 * Running the pipeline
 
@@ -85,10 +74,12 @@ and environment variables.
 
 * Contributing
 
-Please email me at =bastien.guerry@inria.fr= if you want to help curate
-this list.
-
 This repository uses [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]].
+
+Please don't push changes directly: create tickets and merge requests.
+
+Please email me at =bastien.guerry@inria.fr= if you have questions and 
+suggestions that don't fit in a ticket or merge request.
 
 * License
 
