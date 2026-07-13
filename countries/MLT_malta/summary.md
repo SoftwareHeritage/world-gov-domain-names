@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 28 of 193
 - Government type: parliamentary republic
 - Capital: Valletta
-- Domains collected (HTTP 200): 54
+- Domains collected (HTTP 200): 1279
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

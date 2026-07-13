@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 134 of 193
 - Government type: constitutional monarchy
 - Capital: Nuku'alofa
-- Domains collected (HTTP 200): 35
+- Domains collected (HTTP 200): 259
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 44 of 193
 - Government type: constitutional monarchy
 - Capital: Vaduz
-- Domains collected (HTTP 200): 7
+- Domains collected (HTTP 200): 14
 
 ## UN/DESA national portal
 
@@ -30,10 +30,13 @@
 
 ## Candidate domains ranked by score
 
-1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+No remaining candidates (every flagged institution is covered).
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 2 | `landtag.li` | wikidata;wikidata | Landtag of Liechtenstein |
+| 7 | `landtag.li` | wikidata;wikidata | Landtag of Liechtenstein |
 

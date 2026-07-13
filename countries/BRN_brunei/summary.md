@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 75 of 193
 - Government type: absolute monarchy or sultanate
 - Capital: Bandar Seri Begawan
-- Domains collected (HTTP 200): 69
+- Domains collected (HTTP 200): 554
 
 ## UN/DESA national portal
 
 - Declared: [https://www.brunei.gov.bn](https://www.brunei.gov.bn) (host `brunei.gov.bn`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.bn` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

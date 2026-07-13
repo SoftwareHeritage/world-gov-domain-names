@@ -17,7 +17,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.korea-dpr.com](http://www.korea-dpr.com) (host `korea-dpr.com`)
-- ⚠️ ABSENT -- neither `korea-dpr.com` covered nor `countries/PRK_north_korea/sources/korea-dpr.com/` directory present
+- ⚠️ ABSENT -- neither `korea-dpr.com` covered nor `countries/PRK_north_korea/sources/roots/korea-dpr.com/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -29,7 +29,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

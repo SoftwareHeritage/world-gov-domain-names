@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 144 of 193
 - Government type: federal presidential republic
 - Capital: Abuja
-- Domains collected (HTTP 200): 259
+- Domains collected (HTTP 200): 1911
 
 ## UN/DESA national portal
 
@@ -30,12 +30,19 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 3 | `nigeria.un.org` | wikidata | Sustainable Development Goals and Nigeria |
-| 0 | `ondostateministryofinformation.wordpress.com` | wikidata | Ondo State Ministry of information and Orientation |
-| 0 | `yoursms.com.ng` | wikidata | Ondo State Ministry of Education |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `yoursms.com.ng` | wikidata | Ondo State Ministry of Education |
+| 3 | `ondostateministryofinformation.wordpress.com` | wikidata | Ondo State Ministry of information and Orientation |
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 51 of 193
 - Government type: parliamentary republic
 - Capital: Rome
-- Domains collected (HTTP 200): 92
+- Domains collected (HTTP 200): 3108
 
 ## UN/DESA national portal
 
@@ -30,29 +30,33 @@
 
 ## Candidate domains ranked by score
 
-41 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `comune.bari.it` | wikidata;wikidata | Bari City Council |
-| 7 | `comune.bologna.it` | wikidata;wikidata | Bologna City Council |
-| 7 | `comune.catania.it` | wikidata;wikidata | Catania City Council |
-| 7 | `comune.fi.it` | wikidata;wikidata | Florence City Council |
-| 7 | `comune.genova.it` | wikidata;wikidata | Genoa City Council |
-| 7 | `comune.milano.it` | wikidata;wikidata | City Council of Milan |
 | 7 | `comune.montecatini-terme.pt.it` | wikidata;wikidata | Q63494658 |
-| 7 | `comune.monza.it` | wikidata;wikidata | City Council of Monza |
-| 7 | `comune.napoli.it` | wikidata;wikidata | Naples City Council |
-| 7 | `comune.palermo.it` | wikidata;wikidata | Palermo city council |
-| 7 | `comune.roma.it` | wikidata;wikidata | Rome City Council |
-| 7 | `comune.torino.it` | wikidata;wikidata | Turin City Council |
-| 7 | `comune.verona.it` | wikidata;wikidata | Verona city council |
-| 7 | `consigliocomunale.comune.venezia.it` | wikidata;wikidata | Venice City Council |
 | 4 | `gesuiti.it` | wikidata | Euromediterranean Province of the Jesuits |
 | 4 | `ofmsalu.it` | wikidata | Q113365774 |
 | 4 | `regione.lombardia.it` | wikidata | Government of Lombardy |
 | 4 | `regione.marche.it` | wikidata | Government of Marche |
 | 4 | `regione.veneto.it` | wikidata | Government of Veneto |
 | 4 | `scolopi.it` | wikidata | Piarist province of Italy |
+
+## Local / regional candidates
+
+34 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `ars.sicilia.it` | wikidata;wikidata | Sicilian Regional Assembly |
+| 7 | `comune.bari.it` | wikidata;wikidata | Bari City Council |
+| 7 | `comune.bologna.it` | wikidata;wikidata | Bologna City Council |
+| 7 | `comune.cagliari.it` | wikidata;wikidata;wikidata | city council of Cagliari | municipal council of Cagliari |
+| 7 | `comune.catania.it` | wikidata;wikidata | Catania City Council |
+| 7 | `comune.fi.it` | wikidata;wikidata | Florence City Council |
+| 7 | `comune.genova.it` | wikidata;wikidata | Genoa City Council |
+| 7 | `comune.milano.it` | wikidata;wikidata | City Council of Milan |
+| 7 | `comune.monza.it` | wikidata;wikidata | City Council of Monza |
+| 7 | `comune.napoli.it` | wikidata;wikidata | Naples City Council |
 

@@ -18,7 +18,7 @@
 
 ## Candidate domains ranked by score
 
-16 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,5 +38,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `msh.rks-gov.net` | wikidata | Ministry of Health of Kosovo |
 | 3 | `president-ksgov.net` | wikidata | Presidency of the Republic of Kosovo |
 | 3 | `rks-gov.net` | wikidata | Government of Kosovo |
-| 0 | `mzr.rks-gov.net` | wikidata | Ministry of Regional Development of Kosovo |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `mzr.rks-gov.net` | wikidata | Ministry of Regional Development of Kosovo |
 

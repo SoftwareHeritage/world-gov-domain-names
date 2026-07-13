@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 84 of 193
 - Government type: parliamentary republic
 - Capital: Skopje
-- Domains collected (HTTP 200): 195
+- Domains collected (HTTP 200): 907
 
 ## UN/DESA national portal
 
 - Declared: [http://www.vlada.mk](http://www.vlada.mk) (host `vlada.mk`)
-- ⚠️ ABSENT -- neither `vlada.mk` covered nor `countries/MKD_north_macedonia/sources/vlada.mk/` directory present
+- ⚠️ ABSENT -- neither `vlada.mk` covered nor `countries/MKD_north_macedonia/sources/roots/vlada.mk/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 140 of 193
 - Government type: parliamentary republic
 - Capital: Apia
-- Domains collected (HTTP 200): 40
+- Domains collected (HTTP 200): 197
 
 ## UN/DESA national portal
 
 - Declared: [http://www.samoagovt.ws](http://www.samoagovt.ws) (host `samoagovt.ws`)
-- ⚠️ ABSENT -- neither `samoagovt.ws` covered nor `countries/WSM_samoa/sources/samoagovt.ws/` directory present
+- ⚠️ ABSENT -- neither `samoagovt.ws` covered nor `countries/WSM_samoa/sources/roots/samoagovt.ws/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

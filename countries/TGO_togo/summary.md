@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 161 of 193
 - Government type: presidential republic
 - Capital: Lome
-- Domains collected (HTTP 200): 90
+- Domains collected (HTTP 200): 661
 
 ## UN/DESA national portal
 
 - Declared: [http://www.togo.tg](http://www.togo.tg) (host `togo.tg`)
-- ⚠️ ABSENT -- neither `togo.tg` covered nor `countries/TGO_togo/sources/togo.tg/` directory present
+- ⚠️ ABSENT -- neither `togo.tg` covered nor `countries/TGO_togo/sources/roots/togo.tg/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 41 of 193
 - Government type: absolute monarchy
 - Capital: Muscat
-- Domains collected (HTTP 200): 38
+- Domains collected (HTTP 200): 841
 
 ## UN/DESA national portal
 
 - Declared: [http://www.oman.om](http://www.oman.om) (host `oman.om`)
-- ⚠️ ABSENT -- neither `oman.om` covered nor `countries/OMN_oman/sources/oman.om/` directory present
+- ⚠️ ABSENT -- neither `oman.om` covered nor `countries/OMN_oman/sources/roots/oman.om/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 182 of 193
 - Government type: presidential republic
 - Capital: Monrovia
-- Domains collected (HTTP 200): 96
+- Domains collected (HTTP 200): 465
 
 ## UN/DESA national portal
 
 - Declared: [http://www.eliberia.gov.lr](http://www.eliberia.gov.lr) (host `eliberia.gov.lr`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.lr` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

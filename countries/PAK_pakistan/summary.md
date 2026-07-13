@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 136 of 193
 - Government type: federal parliamentary republic
 - Capital: Islamabad
-- Domains collected (HTTP 200): 163
+- Domains collected (HTTP 200): 1331
 
 ## UN/DESA national portal
 
@@ -30,14 +30,17 @@
 
 ## Candidate domains ranked by score
 
-5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+No remaining candidates (every flagged institution is covered).
+
+## Local / regional candidates
+
+5 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 2 | `gujranwala.gop.pk` | wikidata;wikidata | Municipal Corporation Gujranwala |
-| 2 | `kmc.gos.pk` | wikidata;wikidata | Karachi Metropolitan Corporation |
-| 2 | `lahore.gop.pk` | wikidata;wikidata | Metropolitan Corporation Lahore |
-| 2 | `mcbahawalpur.gop.pk` | wikidata;wikidata | Municipal Corporation of Bahawalpur |
-| 1 | `mcrawalpindi.org` | wikidata;wikidata | Rawalpindi Municipal Corporation |
+| 7 | `gujranwala.gop.pk` | wikidata;wikidata | Municipal Corporation Gujranwala |
+| 7 | `kmc.gos.pk` | wikidata;wikidata | Karachi Metropolitan Corporation |
+| 7 | `lahore.gop.pk` | wikidata;wikidata | Metropolitan Corporation Lahore |
+| 7 | `mcbahawalpur.gop.pk` | wikidata;wikidata | Municipal Corporation of Bahawalpur |
+| 6 | `mcrawalpindi.org` | wikidata;wikidata | Rawalpindi Municipal Corporation |
 

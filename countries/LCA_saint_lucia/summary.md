@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 133 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Castries
-- Domains collected (HTTP 200): 20
+- Domains collected (HTTP 200): 157
 
 ## UN/DESA national portal
 
 - Declared: [http://www.govt.lc](http://www.govt.lc) (host `govt.lc`)
-- ⚠️ ABSENT -- neither `govt.lc` covered nor `countries/LCA_saint_lucia/sources/govt.lc/` directory present
+- ⚠️ ABSENT -- neither `govt.lc` covered nor `countries/LCA_saint_lucia/sources/roots/govt.lc/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

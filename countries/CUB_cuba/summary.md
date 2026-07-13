@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 139 of 193
 - Government type: communist state
 - Capital: Havana
-- Domains collected (HTTP 200): 8
+- Domains collected (HTTP 200): 324
 
 ## UN/DESA national portal
 
 - Declared: [http://www.cubagob.cu](http://www.cubagob.cu) (host `cubagob.cu`)
-- ⚠️ ABSENT -- neither `cubagob.cu` covered nor `countries/CUB_cuba/sources/cubagob.cu/` directory present
+- ⚠️ ABSENT -- neither `cubagob.cu` covered nor `countries/CUB_cuba/sources/roots/cubagob.cu/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

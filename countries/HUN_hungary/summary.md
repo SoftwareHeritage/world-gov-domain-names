@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 59 of 193
 - Government type: parliamentary republic
 - Capital: Budapest
-- Domains collected (HTTP 200): 4
+- Domains collected (HTTP 200): 154
 
 ## UN/DESA national portal
 
 - Declared: [https://magyarorszag.hu](https://magyarorszag.hu) (host `magyarorszag.hu`)
-- ⚠️ ABSENT -- neither `magyarorszag.hu` covered nor `countries/HUN_hungary/sources/magyarorszag.hu/` directory present
+- ⚠️ ABSENT -- neither `magyarorszag.hu` covered nor `countries/HUN_hungary/sources/roots/magyarorszag.hu/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

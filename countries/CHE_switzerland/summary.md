@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 26 of 193
 - Government type: federal republic (formally a confederation)
 - Capital: Bern
-- Domains collected (HTTP 200): 61
+- Domains collected (HTTP 200): 2847
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-29 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -55,4 +55,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `www4.ti.ch` | wikidata;wikidata | Grand Council of Ticino |
 | 7 | `zg.ch` | wikidata;wikidata | Cantonal Council of Zug |
 | 4 | `landsgemeinde.gl.ch` | wikidata | Landsgemeinde Glarus |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `gemeinderat.winterthur.ch` | wikidata;wikidata | Winterthur Municipal Council |
+| 4 | `stadt-zuerich.ch` | wikidata | Zurich City Council |
 

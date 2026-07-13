@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 138 of 193
 - Government type: military regime
 - Capital: Rangoon (aka Yangon, continues to be recognized as the primary Burmese capital by the US Government); Nay Pyi Taw is the administrative capital
-- Domains collected (HTTP 200): 71
+- Domains collected (HTTP 200): 483
 
 ## UN/DESA national portal
 
 - Declared: [http://www.president-office.gov.mm](http://www.president-office.gov.mm) (host `president-office.gov.mm`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.mm` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

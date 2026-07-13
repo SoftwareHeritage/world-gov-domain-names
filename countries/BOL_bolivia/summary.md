@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 99 of 193
 - Government type: presidential republic
 - Capital: La Paz (administrative capital); Sucre (constitutional [legislative and judicial] capital)
-- Domains collected (HTTP 200): 100
+- Domains collected (HTTP 200): 1168
 
 ## UN/DESA national portal
 
 - Declared: [https://bolivia.gob.bo](https://bolivia.gob.bo) (host `bolivia.gob.bo`)
-- ⚠️ Exact hostname not in the 200s, but a `gob.bo` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

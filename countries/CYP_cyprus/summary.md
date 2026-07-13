@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 38 of 193
 - Government type: Republic of Cyprus - presidential republic; self-declared "Turkish Republic of Northern Cyprus" (TRNC) - parliamentary republic with enhanced presidency
 - Capital: Nicosia (Lefkosia/Lefkosa)
-- Domains collected (HTTP 200): 56
+- Domains collected (HTTP 200): 634
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-19 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

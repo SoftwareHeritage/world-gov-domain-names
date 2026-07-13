@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 90 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Rabat
-- Domains collected (HTTP 200): 26
+- Domains collected (HTTP 200): 691
 
 ## UN/DESA national portal
 
 - Declared: [http://www.egov.ma](http://www.egov.ma) (host `egov.ma`)
-- ⚠️ ABSENT -- neither `egov.ma` covered nor `countries/MAR_morocco/sources/egov.ma/` directory present
+- ⚠️ ABSENT -- neither `egov.ma` covered nor `countries/MAR_morocco/sources/roots/egov.ma/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-11 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -40,10 +40,17 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `diplomatie.ma` | wikidata | Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates |
 | 4 | `madrastna.ma` | wikidata | Ministry of National Education |
 | 3 | `ofmsantiago.com` | wikidata | Franciscan province of Santiago |
-| 0 | `casasettat.ma` | wikidata | Casablanca-Settat Regional Council |
-| 0 | `conseilregionoriental.ma` | wikidata | Oriental Regional Council |
-| 0 | `crtta.ma` | wikidata | Tangier-Tetouan-Al Hoceima Regional Council |
-| 0 | `region-fes-meknes.ma` | wikidata | Fez-Meknes Regional Council |
-| 0 | `regionmarrakech-safi.ma` | wikidata | Marrakesh–Safi Regional Council |
-| 0 | `soussmassa.ma` | wikidata | Souss-Massa Regional Council |
+
+## Local / regional candidates
+
+6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `casasettat.ma` | wikidata | Casablanca-Settat Regional Council |
+| 4 | `conseilregionoriental.ma` | wikidata | Oriental Regional Council |
+| 4 | `crtta.ma` | wikidata | Tangier-Tetouan-Al Hoceima Regional Council |
+| 4 | `region-fes-meknes.ma` | wikidata | Fez-Meknes Regional Council |
+| 4 | `regionmarrakech-safi.ma` | wikidata | Marrakesh–Safi Regional Council |
+| 4 | `soussmassa.ma` | wikidata | Souss-Massa Regional Council |
 

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 180 of 193
 - Government type: federal presidential republic
 - Capital: Moroni
-- Domains collected (HTTP 200): 0
+- Domains collected (HTTP 200): 3
 
 ## UN/DESA national portal
 
 - Declared: [https://gouvernement.km](https://gouvernement.km) (host `gouvernement.km`)
-- ⚠️ Exact hostname not in the 200s, but a `gouvernement.km` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

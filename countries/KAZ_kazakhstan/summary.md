@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 24 of 193
 - Government type: presidential republic
 - Capital: Astana
-- Domains collected (HTTP 200): 17
+- Domains collected (HTTP 200): 1056
 
 ## UN/DESA national portal
 
 - Declared: [http://www.government.kz](http://www.government.kz) (host `government.kz`)
-- ⚠️ ABSENT -- neither `government.kz` covered nor `countries/KAZ_kazakhstan/sources/government.kz/` directory present
+- ⚠️ ABSENT -- neither `government.kz` covered nor `countries/KAZ_kazakhstan/sources/roots/government.kz/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

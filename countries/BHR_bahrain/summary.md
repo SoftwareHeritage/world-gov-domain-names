@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 18 of 193
 - Government type: constitutional monarchy
 - Capital: Manama
-- Domains collected (HTTP 200): 26
+- Domains collected (HTTP 200): 837
 
 ## UN/DESA national portal
 
 - Declared: [https://www.bahrain.bh](https://www.bahrain.bh) (host `bahrain.bh`)
-- ⚠️ ABSENT -- neither `bahrain.bh` covered nor `countries/BHR_bahrain/sources/bahrain.bh/` directory present
+- ⚠️ ABSENT -- neither `bahrain.bh` covered nor `countries/BHR_bahrain/sources/roots/bahrain.bh/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

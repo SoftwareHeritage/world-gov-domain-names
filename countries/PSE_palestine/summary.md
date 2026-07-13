@@ -10,11 +10,11 @@
 - Currencies: EGP; ILS; JOD
 - ccTLD: `.ps` (manager: Ministry of Telecommunications &amp; Information Technology, Government Computer Center)
 - OECD: non-member
-- Domains collected (HTTP 200): 22
+- Domains collected (HTTP 200): 553
 
 ## Candidate domains ranked by score
 
-19 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -37,5 +37,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `site.moh.ps` | wikidata | Ministry of Health |
 | 4 | `tourism.ps` | wikidata | Ministry of Tourism and Antiquities |
 | 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
-| 1 | `mtulkarm.com` | wikidata;wikidata | Municipality of Tulkarm |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `mtulkarm.com` | wikidata;wikidata | Municipality of Tulkarm |
 

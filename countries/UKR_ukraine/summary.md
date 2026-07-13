@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 30 of 193
 - Government type: semi-presidential republic
 - Capital: Kyiv (Kiev is the transliteration from Russian)
-- Domains collected (HTTP 200): 218
+- Domains collected (HTTP 200): 1827
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-82 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+81 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -43,7 +43,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bobr-rada.com.ua` | wikidata | Q20073776 |
 | 4 | `chervrada.kharkov.ua` | wikidata | Q12169641 |
 | 4 | `chortkivrr.te.ua` | wikidata | Q20096661 |
-| 4 | `city.kherson.ua` | wikidata | Kherson City Council |
 | 4 | `dzerzhrada.kharkov.ua` | wikidata | Q12100929 |
 | 4 | `golovanivsk-rada.com.ua` | wikidata | Q20075763 |
 | 4 | `gorn-vlada.ks.ua` | wikidata | Q20075838 |
@@ -55,4 +54,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `kievrik.kharkov.ua` | wikidata | Q12110194 |
 | 4 | `komrada.kharkov.ua` | wikidata | Q12112163 |
 | 4 | `koretsrada.in.ua` | wikidata | Q20078006 |
+| 4 | `korosten-rayrada.in.ua` | wikidata | Q94654582 |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `city.kherson.ua` | wikidata | Kherson City Council |
 

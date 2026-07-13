@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 177 of 193
 - Government type: presidential republic
 - Capital: Maputo
-- Domains collected (HTTP 200): 61
+- Domains collected (HTTP 200): 663
 
 ## UN/DESA national portal
 
 - Declared: [http://www.portaldogoverno.gov.mz](http://www.portaldogoverno.gov.mz) (host `portaldogoverno.gov.mz`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.mz` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 141 of 193
 - Government type: parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm
 - Capital: Belmopan
-- Domains collected (HTTP 200): 62
+- Domains collected (HTTP 200): 335
 
 ## UN/DESA national portal
 
 - Declared: [http://www.belize.gov.bz](http://www.belize.gov.bz) (host `belize.gov.bz`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.bz` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 40 of 193
 - Government type: parliamentary republic
 - Capital: Pretoria (administrative capital); Cape Town (legislative capital); Bloemfontein (judicial capital)
-- Domains collected (HTTP 200): 186
+- Domains collected (HTTP 200): 1841
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,6 +38,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `dmv.mil.za` | wikidata;wikidata | Department of Military Veterans |
 | 7 | `dod.mil.za` | wikidata;wikidata | Department of Defence |
 | 4 | `mhs.mil.za` | wikidata | South African Military Health Service |
-| 2 | `joburg.org.za` | wikidata;wikidata | City of Johannesburg Municipal Council |
-| 2 | `mangaung.co.za` | wikidata;wikidata | Mangaung Municipal Council |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `joburg.org.za` | wikidata;wikidata | City of Johannesburg Municipal Council |
+| 7 | `mangaung.co.za` | wikidata;wikidata | Mangaung Municipal Council |
 

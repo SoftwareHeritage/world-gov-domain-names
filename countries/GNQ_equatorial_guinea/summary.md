@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 176 of 193
 - Government type: presidential republic
 - Capital: Malabo; note - Malabo is on the island of Bioko; some months of the year, the government operates out of Bata on the mainland region.
-- Domains collected (HTTP 200): 1
+- Domains collected (HTTP 200): 5
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 164 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Honiara
-- Domains collected (HTTP 200): 40
+- Domains collected (HTTP 200): 165
 
 ## UN/DESA national portal
 

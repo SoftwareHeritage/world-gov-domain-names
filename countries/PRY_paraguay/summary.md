@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 80 of 193
 - Government type: presidential republic
 - Capital: Asunción
-- Domains collected (HTTP 200): 166
+- Domains collected (HTTP 200): 907
 
 ## UN/DESA national portal
 
@@ -30,11 +30,18 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 3 | `dominicoshispania.org` | wikidata | Province of Hispania of the Order of Preachers |
-| 1 | `facebook.com` | wikidata;wikidata | departmental board of Misiones |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `facebook.com` | wikidata;wikidata | departmental board of Misiones |
 

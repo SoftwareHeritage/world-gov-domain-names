@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 31 of 193
 - Government type: presidential republic
 - Capital: Santiago; note - Valparaiso is the seat of the national legislature
-- Domains collected (HTTP 200): 79
+- Domains collected (HTTP 200): 678
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-24 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -45,14 +45,21 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `minsal.cl` | wikidata | Ministry of Health |
 | 4 | `minsegpublica.cl` | wikidata | Ministry of Public Security of Chile |
 | 4 | `municipalidaddevalparaiso.cl` | wikidata | Valparaíso |
-| 3 | `goretarapaca.gov.cl` | wikidata;wikidata | Regional Council of Tarapacá |
-| 2 | `corecoquimbo.cl` | wikidata;wikidata | Regional Council of Coquimbo |
-| 2 | `coredelosrios.cl` | wikidata;wikidata | Regional Council of Los Ríos |
-| 2 | `coremagallanes.cl` | wikidata;wikidata | Regional Council of Magallanes y la Antártica Chilena |
-| 2 | `corevalparaiso.cl` | wikidata;wikidata | Regional Council of Valparaíso |
-| 2 | `dellibertador.cl` | wikidata;wikidata | Regional Council of O'Higgins |
-| 2 | `gobiernosantiago.cl` | wikidata;wikidata | Regional Council of the Metropolitan Region of Santiago |
-| 2 | `goreantofagasta.cl` | wikidata;wikidata | Regional Council of Antofagasta |
-| 2 | `gorearaucania.cl` | wikidata;wikidata | Regional Council of La Araucanía |
-| 2 | `gorearicayparinacota.cl` | wikidata;wikidata | Regional Council of Arica and Parinacota |
+
+## Local / regional candidates
+
+14 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 8 | `goretarapaca.gov.cl` | wikidata;wikidata | Regional Council of Tarapacá |
+| 7 | `corecoquimbo.cl` | wikidata;wikidata | Regional Council of Coquimbo |
+| 7 | `coredelosrios.cl` | wikidata;wikidata | Regional Council of Los Ríos |
+| 7 | `coremagallanes.cl` | wikidata;wikidata | Regional Council of Magallanes y la Antártica Chilena |
+| 7 | `corevalparaiso.cl` | wikidata;wikidata | Regional Council of Valparaíso |
+| 7 | `dellibertador.cl` | wikidata;wikidata | Regional Council of O'Higgins |
+| 7 | `gobiernosantiago.cl` | wikidata;wikidata | Regional Council of the Metropolitan Region of Santiago |
+| 7 | `goreantofagasta.cl` | wikidata;wikidata | Regional Council of Antofagasta |
+| 7 | `gorearaucania.cl` | wikidata;wikidata | Regional Council of La Araucanía |
+| 7 | `gorearicayparinacota.cl` | wikidata;wikidata | Regional Council of Arica and Parinacota |
 

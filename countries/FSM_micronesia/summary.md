@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 167 of 193
 - Government type: federal republic in free association with the US
 - Capital: Palikir
-- Domains collected (HTTP 200): 16
+- Domains collected (HTTP 200): 146
 
 ## UN/DESA national portal
 
 - Declared: [http://www.fsmgov.org](http://www.fsmgov.org) (host `fsmgov.org`)
-- ⚠️ ABSENT -- neither `fsmgov.org` covered nor `countries/FSM_micronesia/sources/fsmgov.org/` directory present
+- ⚠️ ABSENT -- neither `fsmgov.org` covered nor `countries/FSM_micronesia/sources/roots/fsmgov.org/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

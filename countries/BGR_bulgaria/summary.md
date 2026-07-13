@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 55 of 193
 - Government type: parliamentary republic
 - Capital: Sofia
-- Domains collected (HTTP 200): 8
+- Domains collected (HTTP 200): 67
 
 ## UN/DESA national portal
 
 - Declared: [https://egov.bg](https://egov.bg) (host `egov.bg`)
-- ⚠️ ABSENT -- neither `egov.bg` covered nor `countries/BGR_bulgaria/sources/egov.bg/` directory present
+- ⚠️ ABSENT -- neither `egov.bg` covered nor `countries/BGR_bulgaria/sources/roots/egov.bg/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-21 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -55,4 +55,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mlsp.government.bg` | wikidata | Ministry of Labour and Social Policy |
 | 4 | `mod.bg` | wikidata | Ministry of Defence of Bulgaria |
 | 4 | `mzh.government.bg` | wikidata | Ministry of Agriculture, Food and Forestry |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `mrrb.bg` | wikidata;wikidata | Ministry of Regional Development and Public Works |
 

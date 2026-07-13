@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 112 of 193
 - Government type: parliamentary republic
 - Capital: Gaborone
-- Domains collected (HTTP 200): 25
+- Domains collected (HTTP 200): 521
 
 ## UN/DESA national portal
 

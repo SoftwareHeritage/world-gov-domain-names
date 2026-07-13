@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 53 of 193
 - Government type: absolute monarchy
 - Capital: Doha
-- Domains collected (HTTP 200): 32
+- Domains collected (HTTP 200): 1332
 
 ## UN/DESA national portal
 
 - Declared: [http://portal.www.gov.qa](http://portal.www.gov.qa) (host `portal.www.gov.qa`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.qa` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

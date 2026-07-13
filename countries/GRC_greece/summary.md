@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 36 of 193
 - Government type: parliamentary republic
 - Capital: Athens
-- Domains collected (HTTP 200): 115
+- Domains collected (HTTP 200): 675
 
 ## UN/DESA national portal
 
 - Declared: [http://www.ermis.gov.gr](http://www.ermis.gov.gr) (host `ermis.gov.gr`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.gr` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-12 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -46,5 +46,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ynanp.gr` | wikidata | Ministry of Shipping and Island Policy (Greece) |
 | 4 | `ypakp.gr` | wikidata | Ministry of Labour and Social Security |
 | 4 | `ypes.gr` | wikidata | Ministry of the Interior (Greece) |
-| 0 | `radio899.gr` | wikidata | Xanthi Municipal Radio |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `radio899.gr` | wikidata | Xanthi Municipal Radio |
 

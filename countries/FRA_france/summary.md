@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 34 of 193
 - Government type: semi-presidential republic
 - Capital: Paris
-- Domains collected (HTTP 200): 2302
+- Domains collected (HTTP 200): 2295
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-48 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -45,16 +45,23 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ihemi.fr` | wikidata | Institut des hautes études du ministère de l'Intérieur |
 | 3 | `escolapiesinstitutions.org` | wikidata | Piarist province of West Africa |
 | 3 | `jesuites.com` | wikidata | Jesuit Province of Francophone Western Europe |
-| 2 | `essonne.fr` | wikidata;wikidata | departmental council of Essonne | general council of Essonne |
-| 2 | `gard.fr` | wikidata;wikidata | departmental council of Gard | general council of Gard |
-| 2 | `lot.fr` | wikidata;wikidata | departmental council of Lot | general council of Lot |
-| 2 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Regional Council of Limousin | Nouvelle-Aquitaine Regional Council |
-| 2 | `vosges.fr` | wikidata;wikidata | departmental council of Vosges | general council of Vosges |
-| 0 | `aquitaine.fr` | wikidata | Aquitaine Regional Council |
-| 0 | `ariege.fr` | wikidata | departmental council of Ariège |
-| 0 | `bas-rhin.fr` | wikidata | departmental council of Bas-Rhin |
-| 0 | `bourgogne-franche-comte.eu` | wikidata | Regional Council of Burgundy |
-| 0 | `bourgognefranchecomte.fr` | wikidata | Regional council of Bourgogne-Franche-Comté |
+
+## Local / regional candidates
+
+38 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `essonne.fr` | wikidata;wikidata | departmental council of Essonne | general council of Essonne |
+| 7 | `gard.fr` | wikidata;wikidata | departmental council of Gard | general council of Gard |
+| 7 | `lot.fr` | wikidata;wikidata | departmental council of Lot | general council of Lot |
+| 7 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Regional Council of Limousin | Nouvelle-Aquitaine Regional Council |
+| 7 | `vosges.fr` | wikidata;wikidata | departmental council of Vosges | general council of Vosges |
+| 4 | `aquitaine.fr` | wikidata | Aquitaine Regional Council |
+| 4 | `ariege.fr` | wikidata | departmental council of Ariège |
+| 4 | `bas-rhin.fr` | wikidata | departmental council of Bas-Rhin |
+| 4 | `bourgognefranchecomte.fr` | wikidata | Regional council of Bourgogne-Franche-Comté |
+| 4 | `cg64.fr` | wikidata | general council of Pyrénées-Atlantiques |
 
 ## ccTLD anomalies
 
@@ -62,10 +69,6 @@ Domains outside `.fr` (allowed: common gTLDs + ``):
 
 ```
 .fr302240 collext.sante.gouv.fr302240
-.fr/ https://ee-igc.agriculture.gouv.fr/
-.fr/ https://ee.igc.agriculture.gouv.fr/
-.fr/ https://igc-dpma.minefi.gouv.fr/
-.fr/ https://scm.dgtresor.gouv.fr/
 .info rhp1.terre.defense.gouv.fr.1rhp.info
 .info www.rhp1.terre.defense.gouv.fr.1rhp.info
 ```

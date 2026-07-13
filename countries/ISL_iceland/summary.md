@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 5 of 193
 - Government type: unitary parliamentary republic
 - Capital: Reykjavik
-- Domains collected (HTTP 200): 6
+- Domains collected (HTTP 200): 13
 
 ## UN/DESA national portal
 

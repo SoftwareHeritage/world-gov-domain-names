@@ -1,12 +1,6 @@
-hostname,score,sources,label
-parlement.ma,8,wikidata;wikidata,Parliament of Morocco
-egov.ma,6,un_desa,UN/DESA national portal
-diplomatie.ma,4,wikidata,"Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates"
-madrastna.ma,4,wikidata,Ministry of National Education
-ofmsantiago.com,3,wikidata,Franciscan province of Santiago
-casasettat.ma,0,wikidata,Casablanca-Settat Regional Council
-conseilregionoriental.ma,0,wikidata,Oriental Regional Council
-crtta.ma,0,wikidata,Tangier-Tetouan-Al Hoceima Regional Council
-region-fes-meknes.ma,0,wikidata,Fez-Meknes Regional Council
-regionmarrakech-safi.ma,0,wikidata,Marrakesh–Safi Regional Council
-soussmassa.ma,0,wikidata,Souss-Massa Regional Council
+hostname,score,sources,label,level
+parlement.ma,8,wikidata;wikidata,Parliament of Morocco,
+egov.ma,6,un_desa,UN/DESA national portal,
+diplomatie.ma,4,wikidata,"Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates",
+madrastna.ma,4,wikidata,Ministry of National Education,
+ofmsantiago.com,3,wikidata,Franciscan province of Santiago,

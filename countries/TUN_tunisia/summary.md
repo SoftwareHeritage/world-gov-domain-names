@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 87 of 193
 - Government type: parliamentary republic
 - Capital: Tunis
-- Domains collected (HTTP 200): 19
+- Domains collected (HTTP 200): 319
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-8 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

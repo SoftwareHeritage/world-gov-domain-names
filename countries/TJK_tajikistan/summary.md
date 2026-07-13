@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 123 of 193
 - Government type: presidential republic
 - Capital: Dushanbe
-- Domains collected (HTTP 200): 2
+- Domains collected (HTTP 200): 447
 
 ## UN/DESA national portal
 
 - Declared: [http://president.tj](http://president.tj) (host `president.tj`)
-- ⚠️ ABSENT -- neither `president.tj` covered nor `countries/TJK_tajikistan/sources/president.tj/` directory present
+- ⚠️ ABSENT -- neither `president.tj` covered nor `countries/TJK_tajikistan/sources/roots/president.tj/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-5 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

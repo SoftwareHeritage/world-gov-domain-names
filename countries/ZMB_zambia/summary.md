@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 130 of 193
 - Government type: presidential republic
 - Capital: Lusaka
-- Domains collected (HTTP 200): 30
+- Domains collected (HTTP 200): 566
 
 ## UN/DESA national portal
 
 - Declared: [http://www.parliament.gov.zm](http://www.parliament.gov.zm) (host `parliament.gov.zm`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.zm` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

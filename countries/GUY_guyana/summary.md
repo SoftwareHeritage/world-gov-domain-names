@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 128 of 193
 - Government type: parliamentary republic
 - Capital: Georgetown
-- Domains collected (HTTP 200): 60
+- Domains collected (HTTP 200): 494
 
 ## UN/DESA national portal
 

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 149 of 193
 - Government type: presidential republic
 - Capital: Harare
-- Domains collected (HTTP 200): 66
+- Domains collected (HTTP 200): 333
 
 ## UN/DESA national portal
 
 - Declared: [http://www.zim.gov.zw](http://www.zim.gov.zw) (host `zim.gov.zw`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.zw` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

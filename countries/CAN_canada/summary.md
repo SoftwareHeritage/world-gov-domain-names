@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 47 of 193
 - Government type: federal parliamentary democracy (Parliament of Canada) under a constitutional monarchy; a Commonwealth realm; federal and state authorities and responsibilities regulated in constitution
 - Capital: Ottawa
-- Domains collected (HTTP 200): 46
+- Domains collected (HTTP 200): 1012
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-47 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+35 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -53,6 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `mcscs.jus.gov.on.ca` | wikidata | Ministry of Community Safety and Correctional Services |
 | 5 | `mcss.gov.on.ca` | wikidata | Ministry of Community and Social Services |
 | 5 | `mnr.gov.on.ca` | wikidata | Ministry of Natural Resources and Forestry |
-| 4 | `canada.justice.gc.ca` | wikidata | Department of Justice of Canada |
-| 4 | `dfo-mpo.gc.ca` | wikidata | Fisheries and Oceans Canada |
+| 4 | `gnb.ca` | wikidata | Government of New Brunswick |
+| 4 | `governingcouncil.utoronto.ca` | wikidata | University of Toronto Governing Council |
 

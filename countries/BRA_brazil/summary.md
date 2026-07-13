@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 50 of 193
 - Government type: federal presidential republic
 - Capital: Brasília
-- Domains collected (HTTP 200): 183
+- Domains collected (HTTP 200): 2423
 
 ## UN/DESA national portal
 
 - Declared: [http://www.brasil.gov.br](http://www.brasil.gov.br) (host `brasil.gov.br`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.br` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-55 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -55,4 +55,21 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `escolapiosbrasilbolivia.org` | wikidata | Piarist province of Brazil-Bolivia |
 | 3 | `marechalcandidorondon.atende.net` | wikidata | Q97936438 |
 | 3 | `pinhais.atende.net` | wikidata | Pinhais City Hall |
+
+## Local / regional candidates
+
+35 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `anapolis.go.leg.br` | wikidata;wikidata | municipal council of Anapolis |
+| 7 | `aracaju.se.leg.br` | wikidata;wikidata | municipal Chamber of Aracaju |
+| 7 | `bauru.sp.leg.br` | wikidata;wikidata | municipal chamber of Bauru |
+| 7 | `boavista.rr.leg.br` | wikidata;wikidata | municipal chamber of Boa Vista |
+| 7 | `camara.slz.br` | wikidata;wikidata;wikidata | City Hall of São Luís | Municipal Chamber of São Luís |
+| 7 | `camaracg.com.br` | wikidata;wikidata | municipal chamber of Campina Grande |
+| 7 | `campinas.sp.leg.br` | wikidata;wikidata | Municipal Chamber of Campinas |
+| 7 | `caruaru.pe.leg.br` | wikidata;wikidata | municipal chamber of Caruaru |
+| 7 | `cmmc.com.br` | wikidata;wikidata | municipal chamber of Mogi das Cruzes |
+| 7 | `feiradesantana.ba.leg.br` | wikidata;wikidata | municipal chamber of Feira de Santana |
 

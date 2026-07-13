@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 57 of 193
 - Government type: federal parliamentary constitutional monarchy
 - Capital: Kuala Lumpur
-- Domains collected (HTTP 200): 120
+- Domains collected (HTTP 200): 2079
 
 ## UN/DESA national portal
 
 - Declared: [http://www.malaysia.gov.my](http://www.malaysia.gov.my) (host `malaysia.gov.my`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.my` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

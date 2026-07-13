@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 179 of 193
 - Government type: semi-presidential republic
 - Capital: Kinshasa
-- Domains collected (HTTP 200): 83
+- Domains collected (HTTP 200): 640
 
 ## UN/DESA national portal
 
 - Declared: [http://presidentrdc.cd](http://presidentrdc.cd) (host `presidentrdc.cd`)
-- ⚠️ ABSENT -- neither `presidentrdc.cd` covered nor `countries/COD_democratic_republic_of_the_congo/sources/presidentrdc.cd/` directory present
+- ⚠️ ABSENT -- neither `presidentrdc.cd` covered nor `countries/COD_democratic_republic_of_the_congo/sources/roots/presidentrdc.cd/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

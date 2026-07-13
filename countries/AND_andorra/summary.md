@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 88 of 193
 - Government type: parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the President of France and Bishop of Seu d'Urgell, Spain
 - Capital: Andorra la Vella
-- Domains collected (HTTP 200): 18
+- Domains collected (HTTP 200): 133
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -40,5 +40,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `finances.ad` | wikidata | Ministry of Finance of Andorra |
 | 4 | `mobilitat.ad` | wikidata | Ministry of Territorial Planning of Andorra |
 | 4 | `turisme.ad` | wikidata | Ministry of Tourism of Andorra |
-| 2 | `consellgeneral.ad` | wikidata;wikidata | General Council of Andorra |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `consellgeneral.ad` | wikidata;wikidata | General Council of Andorra |
 

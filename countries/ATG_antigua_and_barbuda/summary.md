@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 105 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Saint John's
-- Domains collected (HTTP 200): 16
+- Domains collected (HTTP 200): 133
 
 ## UN/DESA national portal
 
@@ -31,4 +31,13 @@
 ## Candidate domains ranked by score
 
 No remaining candidates (every flagged institution is covered).
+
+## ccTLD anomalies
+
+Domains outside `.ag` (allowed: common gTLDs + ``):
+
+```
+.site adoms.gov.ag.192-199-240-235.cpanel.site
+.site www.adoms.gov.ag.192-199-240-235.cpanel.site
+```
 

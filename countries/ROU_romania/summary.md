@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 72 of 193
 - Government type: semi-presidential republic
 - Capital: Bucharest
-- Domains collected (HTTP 200): 35
+- Domains collected (HTTP 200): 412
 
 ## UN/DESA national portal
 
 - Declared: [http://www.guv.ro](http://www.guv.ro) (host `guv.ro`)
-- ⚠️ ABSENT -- neither `guv.ro` covered nor `countries/ROU_romania/sources/guv.ro/` directory present
+- ⚠️ ABSENT -- neither `guv.ro` covered nor `countries/ROU_romania/sources/roots/guv.ro/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-14 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

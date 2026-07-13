@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 152 of 193
 - Government type: communist party-led state
 - Capital: Vientiane (Viangchan)
-- Domains collected (HTTP 200): 35
+- Domains collected (HTTP 200): 774
 
 ## UN/DESA national portal
 

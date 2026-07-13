@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 107 of 193
 - Government type: parliamentary republic
 - Capital: Sarajevo
-- Domains collected (HTTP 200): 180
+- Domains collected (HTTP 200): 650
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

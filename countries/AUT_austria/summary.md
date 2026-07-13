@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 22 of 193
 - Government type: federal parliamentary republic
 - Capital: Vienna
-- Domains collected (HTTP 200): 218
+- Domains collected (HTTP 200): 2510
 
 ## UN/DESA national portal
 
 - Declared: [https://www.digitales.oesterreich.gv.at](https://www.digitales.oesterreich.gv.at) (host `digitales.oesterreich.gv.at`)
-- ⚠️ Exact hostname not in the 200s, but a `gv.at` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-7 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,8 +38,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `piaristen.at` | wikidata | Piarist province of Austria |
 | 4 | `sozialministerium.at` | wikidata | Federal Ministry of Labour, Social Affairs, Health, Care and Consumer Protection |
 | 3 | `jesuiten.org` | wikidata | Jesuit Province of Central Europe |
-| 0 | `bgld-landtag.at` | wikidata | Landtag of Burgenland |
-| 0 | `landtag.steiermark.at` | wikidata | Landtag of Styria |
-| 0 | `ooe-landtag.at` | wikidata | Landtag of Upper Austria |
-| 0 | `vorarlberg.at` | wikidata | Landtag of Vorarlberg |
+
+## Local / regional candidates
+
+4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `bgld-landtag.at` | wikidata | Landtag of Burgenland |
+| 4 | `landtag.steiermark.at` | wikidata | Landtag of Styria |
+| 4 | `ooe-landtag.at` | wikidata | Landtag of Upper Austria |
+| 4 | `vorarlberg.at` | wikidata | Landtag of Vorarlberg |
 

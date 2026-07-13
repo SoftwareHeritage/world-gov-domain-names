@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.mygov.go.ke](http://www.mygov.go.ke) (host `mygov.go.ke`)
-- ⚠️ ABSENT -- neither `mygov.go.ke` covered nor `countries/KEN_kenya/sources/go.ke/` directory present
+- ⚠️ ABSENT -- neither `mygov.go.ke` covered nor `countries/KEN_kenya/sources/roots/go.ke/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-15 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

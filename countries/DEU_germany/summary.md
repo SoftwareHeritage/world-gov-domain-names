@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 12 of 193
 - Government type: federal parliamentary republic
 - Capital: Berlin
-- Domains collected (HTTP 200): 24
+- Domains collected (HTTP 200): 193
 
 ## UN/DESA national portal
 
@@ -30,29 +30,33 @@
 
 ## Candidate domains ranked by score
 
-21 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `assemblee-nationale.fr` | wikidata;wikidata | Franco-German Parliamentary Assembly |
 | 4 | `bremische-buergerschaft.de` | wikidata | Bürgerschaft of Bremen |
-| 4 | `hamburg.de` | wikidata | Senate of the Free and Hanseatic City of Hamburg |
 | 4 | `hamburgische-buergerschaft.de` | wikidata | Hamburg Parliament |
 | 4 | `neckarwestheim.de` | wikidata | Q134619980 |
 | 4 | `parlament-berlin.de` | wikidata | Berlin House of Representatives |
 | 3 | `franziskaner.net` | wikidata | Q19971564 |
 | 3 | `jesuiten.org` | wikidata | Jesuit Province of Central Europe |
-| 2 | `landtag-bayern.de` | wikidata;wikidata | Landtag of Bavaria |
-| 0 | `baden-wuerttemberg.de` | wikidata | Government of Baden-Württemberg |
-| 0 | `hessischer-landtag.de` | wikidata | Landtag of Hesse |
-| 0 | `landtag-bw.de` | wikidata | Landtag of Baden-Württemberg |
-| 0 | `landtag-mv.de` | wikidata | Landtag of Mecklenburg-Vorpommern |
-| 0 | `landtag-niedersachsen.de` | wikidata | Landtag of Lower Saxony |
-| 0 | `landtag-saar.de` | wikidata | Landtag of Saarland |
-| 0 | `landtag.brandenburg.de` | wikidata | Landtag of Brandenburg |
-| 0 | `landtag.ltsh.de` | wikidata | Landtag of Schleswig-Holstein |
-| 0 | `landtag.nrw.de` | wikidata | Landtag of North Rhine-Westphalia |
-| 0 | `landtag.sachsen-anhalt.de` | wikidata | Landtag of Saxony-Anhalt |
-| 0 | `landtag.sachsen.de` | wikidata | Landtag of Saxony |
+
+## Local / regional candidates
+
+14 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `landtag-bayern.de` | wikidata;wikidata | Landtag of Bavaria |
+| 4 | `baden-wuerttemberg.de` | wikidata | Government of Baden-Württemberg |
+| 4 | `hamburg.de` | wikidata | Senate of the Free and Hanseatic City of Hamburg |
+| 4 | `hessischer-landtag.de` | wikidata | Landtag of Hesse |
+| 4 | `landtag-bw.de` | wikidata | Landtag of Baden-Württemberg |
+| 4 | `landtag-mv.de` | wikidata | Landtag of Mecklenburg-Vorpommern |
+| 4 | `landtag-niedersachsen.de` | wikidata | Landtag of Lower Saxony |
+| 4 | `landtag-saar.de` | wikidata | Landtag of Saarland |
+| 4 | `landtag.brandenburg.de` | wikidata | Landtag of Brandenburg |
+| 4 | `landtag.ltsh.de` | wikidata | Landtag of Schleswig-Holstein |
 

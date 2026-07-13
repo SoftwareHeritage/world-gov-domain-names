@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 15 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Oslo
-- Domains collected (HTTP 200): 12
+- Domains collected (HTTP 200): 191
 
 ## UN/DESA national portal
 
@@ -30,12 +30,19 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `oslo.kommune.no` | wikidata | Oslo city government |
 | 2 | `sametinget.no` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Sámi Parliament of Norway | Q11999242 |
-| 0 | `nfk.no` | wikidata | Board of the Nordland county municipality |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `nfk.no` | wikidata | Board of the Nordland county municipality |
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 97 of 193
 - Government type: federal parliamentary republic
 - Capital: New Delhi
-- Domains collected (HTTP 200): 166
+- Domains collected (HTTP 200): 2260
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-93 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+33 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -55,4 +55,21 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mls.org.in` | wikidata | Maharashtra Legislative Assembly |
 | 4 | `mofpi.nic.in` | wikidata | Ministry of Food Processing Industries |
 | 4 | `morth.nic.in` | wikidata | Ministry of Road Transport and Highways |
+
+## Local / regional candidates
+
+60 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `ayodhya.nic.in` | wikidata;wikidata | Ayodhya Municipal Corporation |
+| 7 | `bhadreswarmunicipality-gov.in` | wikidata;wikidata | Bhadreswar Municipality |
+| 7 | `bkpmuty.in` | wikidata;wikidata | Barrackpore Municipality |
+| 7 | `bmcwbgov.in` | wikidata;wikidata;wikidata;wikidata | Bidhannagar Municipal Corporation | Bidhannagar |
+| 7 | `chandernagoremunicipalcorporation.in` | wikidata;wikidata;wikidata;wikidata | Chandannagar | Chandannagar Municipal Corporation |
+| 7 | `corporationoftrivandrum.in` | wikidata;wikidata | Thiruvananthapuram Municipal Corporation |
+| 7 | `dalkholamunicipality.org.in` | wikidata;wikidata | Dalkhola Municipality |
+| 7 | `gmcportal.in` | wikidata;wikidata | Guwahati Municipal Corporation |
+| 7 | `hcm.net.in` | wikidata;wikidata | Hugli-Chinsurah Municipality |
+| 7 | `kmc.up.nic.in` | wikidata;wikidata | Kanpur Municipal Corporation |
 

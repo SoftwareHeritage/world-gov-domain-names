@@ -11,7 +11,7 @@
 - OECD: non-member
 - Government type: ecclesiastical elective monarchy; self-described as an "absolute monarchy"
 - Capital: Vatican City
-- Domains collected (HTTP 200): 7
+- Domains collected (HTTP 200): 20
 
 ## Institutions named by CIA Factbook
 
@@ -23,7 +23,7 @@
 
 ## Candidate domains ranked by score
 
-6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

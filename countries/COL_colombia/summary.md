@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 68 of 193
 - Government type: presidential republic
 - Capital: Bogotá
-- Domains collected (HTTP 200): 125
+- Domains collected (HTTP 200): 1722
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

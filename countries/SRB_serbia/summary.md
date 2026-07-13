@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 39 of 193
 - Government type: parliamentary republic
 - Capital: Belgrade (Beograd)
-- Domains collected (HTTP 200): 53
+- Domains collected (HTTP 200): 721
 
 ## UN/DESA national portal
 
@@ -30,12 +30,19 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `upravacarina.rs` | wikidata | Ministry of Finance and Economy |
 | 3 | `isusovci.hr` | wikidata | Croatian province of the Society of Jesus |
-| 1 | `sapkim.org` | wikidata;wikidata | Assembly of the Community of Municipalities of the Autonomous Province of Kos... |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `sapkim.org` | wikidata;wikidata | Assembly of the Community of Municipalities of the Autonomous Province of Kos... |
 

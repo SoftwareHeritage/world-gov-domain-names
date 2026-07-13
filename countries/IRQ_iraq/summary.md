@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 148 of 193
 - Government type: federal parliamentary republic
 - Capital: Baghdad
-- Domains collected (HTTP 200): 52
+- Domains collected (HTTP 200): 545
 
 ## UN/DESA national portal
 
 - Declared: [http://www.cabinet.iq](http://www.cabinet.iq) (host `cabinet.iq`)
-- ⚠️ ABSENT -- neither `cabinet.iq` covered nor `countries/IRQ_iraq/sources/cabinet.iq/` directory present
+- ⚠️ ABSENT -- neither `cabinet.iq` covered nor `countries/IRQ_iraq/sources/roots/cabinet.iq/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,5 +38,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `parliament.iq` | wikidata;wikidata | Council of Representatives of Iraq |
 | 6 | `cabinet.iq` | un_desa | UN/DESA national portal |
 | 4 | `mod.mil.iq` | wikidata | Ministry of Defence of Iraq |
-| 0 | `gov.krd` | wikidata | Kurdistan Regional Government |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `gov.krd` | wikidata | Kurdistan Regional Government |
 

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 54 of 193
 - Government type: parliamentary republic
 - Capital: Prague
-- Domains collected (HTTP 200): 142
+- Domains collected (HTTP 200): 735
 
 ## UN/DESA national portal
 
 - Declared: [https://www.vlada.cz](https://www.vlada.cz) (host `vlada.cz`)
-- ⚠️ ABSENT -- neither `vlada.cz` covered nor `countries/CZE_czechia/sources/vlada.cz/` directory present
+- ⚠️ ABSENT -- neither `vlada.cz` covered nor `countries/CZE_czechia/sources/roots/vlada.cz/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-7 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

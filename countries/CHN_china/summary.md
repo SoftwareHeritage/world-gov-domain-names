@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 35 of 193
 - Government type: communist party-led state
 - Capital: Beijing
-- Domains collected (HTTP 200): 64
+- Domains collected (HTTP 200): 2454
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-12 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -46,5 +46,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ccac.org.mo` | wikidata | Commission Against Corruption |
 | 2 | `al.gov.mo` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Legislative Assembly of Macau |
 | 2 | `gov.hk` | wikidata;wikidata;wikidata;wikidata | Government of Hong Kong |
-| 0 | `iacm.gov.mo` | wikidata | Civic and Municipal Affairs Bureau |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `iacm.gov.mo` | wikidata | Civic and Municipal Affairs Bureau |
 

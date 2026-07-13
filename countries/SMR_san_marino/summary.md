@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 102 of 193
 - Government type: parliamentary republic
 - Capital: San Marino (city)
-- Domains collected (HTTP 200): 0
+- Domains collected (HTTP 200): 2
 
 ## UN/DESA national portal
 
 - Declared: [http://www.sanmarino.sm](http://www.sanmarino.sm) (host `sanmarino.sm`)
-- ⚠️ ABSENT -- neither `sanmarino.sm` covered nor `countries/SMR_san_marino/sources/sanmarino.sm/` directory present
+- ⚠️ ABSENT -- neither `sanmarino.sm` covered nor `countries/SMR_san_marino/sources/roots/sanmarino.sm/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,12 +30,19 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `sanmarino.sm` | un_desa | UN/DESA national portal |
 | 4 | `esteri.sm` | wikidata | Ministry of Foreign Affairs of the Republic of San Marino |
-| 2 | `consigliograndeegenerale.sm` | wikidata;wikidata | Grand and General Council |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `consigliograndeegenerale.sm` | wikidata;wikidata | Grand and General Council |
 

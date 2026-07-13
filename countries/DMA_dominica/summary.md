@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 127 of 193
 - Government type: parliamentary republic
 - Capital: Roseau
-- Domains collected (HTTP 200): 193
+- Domains collected (HTTP 200): 694
 
 ## UN/DESA national portal
 

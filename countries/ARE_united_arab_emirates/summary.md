@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 11 of 193
 - Government type: federation of monarchies
 - Capital: Abu Dhabi
-- Domains collected (HTTP 200): 1
+- Domains collected (HTTP 200): 17
 
 ## UN/DESA national portal
 
 - Declared: [https://government.ae](https://government.ae) (host `government.ae`)
-- ⚠️ ABSENT -- neither `government.ae` covered nor `countries/ARE_united_arab_emirates/sources/government.ae/` directory present
+- ⚠️ ABSENT -- neither `government.ae` covered nor `countries/ARE_united_arab_emirates/sources/roots/government.ae/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 163 of 193
 - Government type: presidential republic
 - Capital: Lilongwe
-- Domains collected (HTTP 200): 41
+- Domains collected (HTTP 200): 423
 
 ## UN/DESA national portal
 

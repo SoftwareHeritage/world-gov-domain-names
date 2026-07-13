@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 62 of 193
 - Government type: parliamentary republic
 - Capital: Tirana (Tirane)
-- Domains collected (HTTP 200): 115
+- Domains collected (HTTP 200): 762
 
 ## UN/DESA national portal
 
 - Declared: [https://www.e-albania.al ](https://www.e-albania.al ) (host `e-albania.al `)
-- ⚠️ ABSENT -- neither `e-albania.al ` covered nor `countries/ALB_albania/sources/e-albania.al /` directory present
+- ⚠️ ABSENT -- neither `e-albania.al ` covered nor `countries/ALB_albania/sources/roots/e-albania.al /` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,13 +30,20 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `parlament.al` | wikidata;wikidata | Parliament of Albania |
 | 5 | `e-albania.al ` | un_desa | UN/DESA national portal |
-| 4 | `tirana.al` | wikidata | City Council of Tirana |
 | 3 | `gesuiti.it` | wikidata | Euromediterranean Province of the Jesuits |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `tirana.al` | wikidata | City Council of Tirana |
 

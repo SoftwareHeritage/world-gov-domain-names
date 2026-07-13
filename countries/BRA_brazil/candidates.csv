@@ -1,56 +1,21 @@
-hostname,score,sources,label
-al.ac.leg.br,7,wikidata;wikidata,Legislative Assembly of Acre
-al.al.leg.br,7,wikidata;wikidata,Legislative Assembly of Alagoas
-al.go.leg.br,7,wikidata;wikidata,Legislative Assembly of Goiás
-al.ma.leg.br,7,wikidata;wikidata,Legislative Assembly of Maranhão
-al.pb.leg.br,7,wikidata;wikidata,Legislative Assembly of Paraíba
-al.pi.leg.br,7,wikidata;wikidata,Legislative Assembly of Piauí
-al.ro.leg.br,7,wikidata;wikidata,Legislative Assembly of Rondônia
-al.rr.leg.br,7,wikidata;wikidata,Legislative Assembly of Roraima
-cearamirim.rn.leg.br,7,wikidata;wikidata,Q118353169
-congressonacional.leg.br,7,wikidata;wikidata,National Congress of Brazil
-hortolandia.sp.leg.br,7,wikidata;wikidata,Q137124048
-franciscanos.org.br,4,wikidata,Q10354750
-jesuitasbrasil.org.br,4,wikidata,Brazilian Province of the Society of Jesus
-laranjalpaulista.sp.leg.br,4,wikidata,Town Council of Laranjal Paulista
-prefeituradeatibaia.com.br,4,wikidata,Q97936697
-saofidelis.rj.leg.br,4,wikidata,Q138736739
-araucaria.atende.net,3,wikidata,Q104848034
-escolapiosbrasilbolivia.org,3,wikidata,Piarist province of Brazil-Bolivia
-marechalcandidorondon.atende.net,3,wikidata,Q97936438
-pinhais.atende.net,3,wikidata,Pinhais City Hall
-anapolis.go.leg.br,2,wikidata;wikidata,municipal council of Anapolis
-aracaju.se.leg.br,2,wikidata;wikidata,municipal Chamber of Aracaju
-bauru.sp.leg.br,2,wikidata;wikidata,municipal chamber of Bauru
-boavista.rr.leg.br,2,wikidata;wikidata,municipal chamber of Boa Vista
-camaracg.com.br,2,wikidata;wikidata,municipal chamber of Campina Grande
-campinas.sp.leg.br,2,wikidata;wikidata,Municipal Chamber of Campinas
-caruaru.pe.leg.br,2,wikidata;wikidata,municipal chamber of Caruaru
-cmmc.com.br,2,wikidata;wikidata,municipal chamber of Mogi das Cruzes
-feiradesantana.ba.leg.br,2,wikidata;wikidata,municipal chamber of Feira de Santana
-fozdoiguacu.pr.leg.br,2,wikidata;wikidata,municipal Chamber of Foz do Iguaçu
-franca.sp.leg.br,2,wikidata;wikidata,Municipal Chamber of Franca
-goiania.go.leg.br,2,wikidata;wikidata,Municipal Chamber of Goiânia
-jaboataodosguararapes.pe.leg.br,2,wikidata;wikidata,municipal chamber of Jaboatão dos Guararapes
-juazeiro.ba.leg.br,2,wikidata;wikidata,municipal Chamber of Juazeiro
-jundiai.sp.leg.br,2,wikidata;wikidata,municipal chamber of Jundiaí
-limeira.sp.leg.br,2,wikidata;wikidata,municipal chamber of Limeira
-macapa.ap.leg.br,2,wikidata;wikidata,Municipal Chamber of Macapá
-maraba.pa.leg.br,2,wikidata;wikidata,municipal Chamber of Marabá
-mossoro.rn.leg.br,2,wikidata;wikidata,municipal Chamber of Mossoró
-osasco.sp.leg.br,2,wikidata;wikidata,municipal chamber of Osasco
-palmas.to.leg.br,2,wikidata;wikidata,municipal Chamber of Palmas
-petrolina.pe.leg.br,2,wikidata;wikidata,municipal chamber of Petrolina
-petropolis.rj.leg.br,2,wikidata;wikidata,municipal Chamber of Petrópolis
-portovelho.ro.leg.br,2,wikidata;wikidata,municipal council of Porto Velho
-riobranco.ac.leg.br,2,wikidata;wikidata,municipal chamber of Rio Branco
-riopreto.sp.leg.br,2,wikidata;wikidata,municipal chamber of São José do Rio Preto
-saogoncalo.rj.leg.br,2,wikidata;wikidata,municipal chamber of São Gonçalo
-teresina.pi.leg.br,2,wikidata;wikidata,municipal chamber of Teresina
-vilavelha.es.leg.br,2,wikidata;wikidata,municipal chamber of Vila Velha
-voltaredonda.rj.leg.br,2,wikidata;wikidata,municipal Chamber of Volta Redonda
-camara.slz.br,0,wikidata;wikidata;wikidata,City Hall of São Luís | Municipal Chamber of São Luís
-pomerode.atende.net,0,wikidata,municipal prefecture of Pomerode
-recife.pe.leg.br,0,wikidata,Municipal Chamber of Recife
-salvador.ba.leg.br,0,wikidata,Municipal Chamber of Salvador
-saopaulo.sp.leg.br,0,wikidata,Municipal Chamber of São Paulo
+hostname,score,sources,label,level
+al.ac.leg.br,7,wikidata;wikidata,Legislative Assembly of Acre,
+al.al.leg.br,7,wikidata;wikidata,Legislative Assembly of Alagoas,
+al.go.leg.br,7,wikidata;wikidata,Legislative Assembly of Goiás,
+al.ma.leg.br,7,wikidata;wikidata,Legislative Assembly of Maranhão,
+al.pb.leg.br,7,wikidata;wikidata,Legislative Assembly of Paraíba,
+al.pi.leg.br,7,wikidata;wikidata,Legislative Assembly of Piauí,
+al.ro.leg.br,7,wikidata;wikidata,Legislative Assembly of Rondônia,
+al.rr.leg.br,7,wikidata;wikidata,Legislative Assembly of Roraima,
+cearamirim.rn.leg.br,7,wikidata;wikidata,Q118353169,
+congressonacional.leg.br,7,wikidata;wikidata,National Congress of Brazil,
+hortolandia.sp.leg.br,7,wikidata;wikidata,Q137124048,
+franciscanos.org.br,4,wikidata,Q10354750,
+jesuitasbrasil.org.br,4,wikidata,Brazilian Province of the Society of Jesus,
+laranjalpaulista.sp.leg.br,4,wikidata,Town Council of Laranjal Paulista,
+prefeituradeatibaia.com.br,4,wikidata,Q97936697,
+saofidelis.rj.leg.br,4,wikidata,Q138736739,
+araucaria.atende.net,3,wikidata,Q104848034,
+escolapiosbrasilbolivia.org,3,wikidata,Piarist province of Brazil-Bolivia,
+marechalcandidorondon.atende.net,3,wikidata,Q97936438,
+pinhais.atende.net,3,wikidata,Pinhais City Hall,

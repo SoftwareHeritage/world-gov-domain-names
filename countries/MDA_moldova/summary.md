@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 70 of 193
 - Government type: parliamentary republic
 - Capital: Chisinau in Romanian (Kishinev in Russian)
-- Domains collected (HTTP 200): 129
+- Domains collected (HTTP 200): 484
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 64 of 193
 - Government type: presidential republic
 - Capital: Jakarta
-- Domains collected (HTTP 200): 265
+- Domains collected (HTTP 200): 2581
 
 ## UN/DESA national portal
 

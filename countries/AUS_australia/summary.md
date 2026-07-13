@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 8 of 193
 - Government type: federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Canberra
-- Domains collected (HTTP 200): 151
+- Domains collected (HTTP 200): 4450
 
 ## UN/DESA national portal
 
 - Declared: [http://www.australia.gov.au](http://www.australia.gov.au) (host `australia.gov.au`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.au` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,11 +30,18 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `curtin.edu.au` | wikidata | Curtin Connect |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
 | 3 | `burnie.net` | wikidata | Burnie City Council |
 

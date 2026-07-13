@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 150 of 193
 - Government type: presidential republic
 - Capital: Kampala
-- Domains collected (HTTP 200): 0
+- Domains collected (HTTP 200): 112
 
 ## UN/DESA national portal
 
 - Declared: [http://www.gou.go.ug](http://www.gou.go.ug) (host `gou.go.ug`)
-- ⚠️ ABSENT -- neither `gou.go.ug` covered nor `countries/UGA_uganda/sources/go.ug/` directory present
+- ⚠️ ABSENT -- neither `gou.go.ug` covered nor `countries/UGA_uganda/sources/roots/go.ug/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-17 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

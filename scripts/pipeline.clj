@@ -12,7 +12,8 @@
 ;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
 ;;   normalize          clean every subdomains.csv
 ;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status
-;;   mx [DOM…]          DNS MX lookup per host -> mx.csv (email signal)
+;;   mx [DOM…]          DNS MX lookup per host -> mx.csv (email signal);
+;;                      a full run also covers the registry roots (CISA, …)
 ;;   aggregate          aggregate every host -> public-sector.csv
 ;;   central            extract root domains -> public-sector-central-gov.csv
 ;;   cisa               fetch CISA federal .gov registry -> US root registry
@@ -513,33 +514,69 @@
       :else                     "none")))
 
 (defn mx-domain!
-  "Look up MX for every host in dir/subdomains.csv and write dir/mx.csv
-  (subdomain,mx). Reuses already-looked-up hosts unless FORCE=1."
+  "Look up MX for the root apex plus every host in dir/subdomains.csv and
+  write dir/mx.csv (subdomain,mx). The apex is included even when the
+  harvest never saw it -- it IS the email domain the central-gov file
+  watches. Reuses already-looked-up hosts unless FORCE=1."
   [dir conc]
   (let [sub-csv (str dir "/subdomains.csv")
         out     (str dir "/mx.csv")
-        name    (str (fs/file-name dir))]
-    (when (fs/exists? sub-csv)
-      (let [hosts (->> (rest (read-csv-raw sub-csv))
-                       (map first)
-                       (remove str/blank?)
-                       distinct)
-            done  (if (and (not force?) (fs/exists? out))
-                    (into {} (for [[h mx] (rest (read-csv-raw out))] [h mx]))
-                    {})
-            todo  (remove #(contains? done %) hosts)]
-        (if (empty? todo)
-          (println (str "[" name "] mx: nothing to look up"))
-          (let [looked (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo)
-                rows   (sort-by first (concat (map vec done) looked))]
-            (write-csv-file out ["subdomain" "mx"] rows)
-            (println (str "[" name "] mx: " (count todo) " looked up ("
-                          (count (filter #(not (#{"none" "dig error"} (second %))) looked))
-                          " with MX)"))))))))
+        name    (str (fs/file-name dir))
+        hosts (->> (when (fs/exists? sub-csv)
+                     (map first (rest (read-csv-raw sub-csv))))
+                   (cons name)
+                   (remove str/blank?)
+                   distinct)
+        done  (if (and (not force?) (fs/exists? out))
+                (into {} (for [[h mx] (rest (read-csv-raw out))] [h mx]))
+                {})
+        todo  (remove #(contains? done %) hosts)]
+    (if (empty? todo)
+      (println (str "[" name "] mx: nothing to look up"))
+      (let [looked (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo)
+            rows   (sort-by first (concat (map vec done) looked))]
+        (write-csv-file out ["subdomain" "mx"] rows)
+        (println (str "[" name "] mx: " (count todo) " looked up ("
+                      (count (filter #(not (#{"none" "dig error"} (second %))) looked))
+                      " with MX)"))))))
+
+(defn mx-registry!
+  "Look up MX for the per-country registry root domains (CISA, lannuaire, …)
+  and write countries/<c>/sources/registry/mx.csv. These roots have no
+  sources/roots/ directory, so the per-directory pass never sees them --
+  yet their apexes ARE email domains the central-gov file watches. Domains
+  that do have a root directory are skipped (mx-domain! covers them).
+  Reuses already-looked-up domains unless FORCE=1."
+  [conc]
+  (doseq [c (country-dirs)
+          :let [roots-csv (country-src c "registry" "roots.csv")]
+          :when (fs/exists? roots-csv)]
+    (let [out   (country-src c "registry" "mx.csv")
+          hosts (->> (rest (read-csv-raw roots-csv))
+                     (map #(some-> (first %) str/trim str/lower-case))
+                     (filter valid-hostname?)
+                     (remove #(fs/directory? (country-src c "roots" %)))
+                     distinct)
+          done  (if (and (not force?) (fs/exists? out))
+                  (into {} (for [[h mx] (rest (read-csv-raw out))] [h mx]))
+                  {})
+          todo  (remove #(contains? done %) hosts)]
+      (if (empty? todo)
+        (println (str "[" c "/registry] mx: nothing to look up"))
+        (let [looked (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo)
+              rows   (sort-by first (concat (map vec done) looked))]
+          (write-csv-file out ["subdomain" "mx"] rows)
+          (println (str "[" c "/registry] mx: " (count todo) " looked up ("
+                        (count (filter #(not (#{"none" "dig error"} (second %))) looked))
+                        " with MX)")))))))
 
 (defn cmd-mx [args]
   (let [conc (parallel 50)]
-    (doseq [d (resolve-dirs args)] (mx-domain! d conc))))
+    (doseq [d (resolve-dirs args)] (mx-domain! d conc))
+    ;; Registry roots (CISA, lannuaire, …) have no root directory; cover
+    ;; their apexes on a full run (a domain-scoped run stays scoped).
+    (when (empty? args)
+      (mx-registry! conc))))
 
 ;; ===========================================================================
 ;;  Phase 4 -- collect_200
@@ -631,8 +668,8 @@
 (defn- central-root-entries
   "All [country domain http_status mx] feeding the central-gov file: one per
   promoted root directory (carrying its apex signals) plus the per-country
-  registry domains. De-duplicated by [country domain], preferring the directory
-  entry (which has signals)."
+  registry domains (carrying the MX cached by mx-registry!). De-duplicated by
+  [country domain], preferring the directory entry (which has more signals)."
   []
   (let [from-dirs
         (for [dir (root-domain-dirs)
@@ -645,7 +682,11 @@
                                     (rest (read-csv-raw sub-csv))))
                     mx      (get (read-mx-map dir) root "")]]
           [country root (or apex "") (or mx "")])
-        from-registry (for [[c d] (registry-roots)] [c d "" ""])]
+        registry-mx (into {}
+                          (for [c (country-dirs)]
+                            [c (read-mx-map (country-src c "registry"))]))
+        from-registry (for [[c d] (registry-roots)]
+                        [c d "" (get-in registry-mx [c d] "")])]
     (->> (concat from-dirs from-registry)
          (reduce (fn [m [c d s mx]]
                    (cond-> m (not (contains? m [c d])) (assoc [c d] [c d s mx])))
@@ -747,12 +788,13 @@
 
 (def wikidata-endpoint "https://query.wikidata.org/sparql")
 
-;; qid type strictness. :strict applies heavy anti-subdivision filters
-;; (P1001 jurisdiction + exclude territorial entities). Useful for high-volume
-;; classes that pollute with subnational entities. :light keeps only the
-;; "not dissolved" filter -- needed for classes whose strict SPARQL times out
-;; (parliament does timeout). The score function applies the subdivision
-;; penalty downstream regardless of strictness.
+;; qid type strictness. :strict excludes entities that ARE territorial units
+;; (states, municipalities…) -- pure class pollution. Subnational
+;; *organisations* are NOT filtered out anymore: the query captures their
+;; P1001 jurisdiction and the pipeline derives a level (central vs local),
+;; so they land in candidates-local.csv instead of being silently dropped.
+;; :light skips the class exclusions -- needed for classes whose strict
+;; SPARQL times out (parliament does timeout).
 (def wikidata-classes
   [["Q192350" "ministry"             :strict]
    ["Q11204"  "parliament"           :light]
@@ -763,18 +805,18 @@
 (defn wikidata-query [class-qid country-qid strictness]
   (let [strict-filters
         (if (= strictness :strict)
-          (str "  FILTER NOT EXISTS { ?org wdt:P1001 ?j . FILTER(?j != wd:" country-qid ") }\n"
-               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q56061 }\n"
+          (str "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q56061 }\n"
                "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q10864048 }\n"
                "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q13220204 }\n"
                "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q1799794 }\n")
           "")]
-    (str "SELECT DISTINCT ?org ?orgLabel ?website WHERE {\n"
+    (str "SELECT DISTINCT ?org ?orgLabel ?website ?juris WHERE {\n"
          "  ?org wdt:P31/wdt:P279* wd:" class-qid " ;\n"
          "       wdt:P17 wd:" country-qid " ;\n"
          "       wdt:P856 ?website .\n"
          "  FILTER NOT EXISTS { ?org wdt:P576 ?d }\n"
          strict-filters
+         "  OPTIONAL { ?org wdt:P1001 ?juris . }\n"
          "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
          "}")))
 
@@ -783,6 +825,52 @@
             {:timeout 180 :retries 3
              :accept "application/sparql-results+json"
              :query-params {"query" q}}))
+
+(defn juris-level
+  "Administrative level of an org from its P1001 jurisdiction QIDs:
+  \"central\" when one of them is the country itself, \"local\" when they all
+  point elsewhere (state, region, city…), \"\" when the property is absent
+  (unknown -- to be consolidated over time)."
+  [juris-qids country-qid]
+  (cond
+    (empty? juris-qids)                ""
+    (contains? juris-qids country-qid) "central"
+    :else                              "local"))
+
+(defn- pad-row
+  "Pad (or trim) a CSV row to exactly n columns."
+  [n row]
+  (vec (take n (concat row (repeat "")))))
+
+(defn- upgrade-wikidata-csv!
+  "Migrate a pre-level wikidata CSV (type,label,website,hostname) in place by
+  appending an empty level column, so unions with 5-column rows line up."
+  [path]
+  (when (fs/exists? path)
+    (let [[header & rows] (read-csv-raw path)]
+      (when (and header (= 4 (count header)))
+        (write-csv-file path (conj (vec header) "level")
+                        (map #(pad-row 5 %) rows))))))
+
+(defn- dedup-level-rows
+  "One row per (type,label,website,hostname), preferring a non-blank level.
+  Feed the fresh rows FIRST: a fetch that knows the level then overrides a
+  stale one, while an old non-blank level survives a fetch that lost it.
+  Sorted by hostname."
+  [rows]
+  (->> rows
+       (reduce (fn [m r]
+                 (let [r (pad-row 5 r)
+                       k (vec (take 4 r))
+                       cur (get m k)]
+                   (if (or (nil? cur)
+                           (and (str/blank? (nth cur 4))
+                                (not (str/blank? (nth r 4)))))
+                     (assoc m k r)
+                     m)))
+               {})
+       vals
+       (sort-by #(nth % 3))))
 
 (defn known-roots
   "Already-covered roots: the basename of every root-domain directory."
@@ -799,17 +887,19 @@
   (let [known (known-roots)
         rows (rest (read-csv-raw in-path))
         missing (filter (fn [row]
-                          (let [host (last row)]
+                          (let [host (nth row 3 nil)]
                             (and (not (str/blank? host))
                                  (not (host-covered? host known)))))
                         rows)]
-    (write-csv-file out-path ["type" "label" "website" "hostname"] missing)
+    (write-csv-file out-path ["type" "label" "website" "hostname" "level"]
+                    (map #(pad-row 5 %) missing))
     (count missing)))
 
 (defn wikidata-process! [country-qid country-dir]
   (let [out (country-src country-dir "wikidata" "central_admin.csv")
         missing-out (country-src country-dir "wikidata" "missing_domains.csv")]
     (ensure-dir (fs/parent out))
+    (upgrade-wikidata-csv! out)
     (if (skip? out)
       (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
           (wikidata-write-missing! out missing-out))
@@ -827,18 +917,31 @@
                                  n (count bindings)
                                  _ (err (str "  [" type "] " n " results"))]
                              (Thread/sleep 1000)
-                             (for [b bindings
-                                   :let [url (-> b :website :value)
-                                         lbl (-> b :orgLabel :value)
-                                         host (extract-host url)]
-                                   :when host]
-                               [type lbl url host]))
+                             ;; One org can bind several ?juris (and several
+                             ;; websites): aggregate per org to derive its
+                             ;; level, then emit one row per distinct host.
+                             (->> (group-by #(get-in % [:org :value]) bindings)
+                                  (mapcat
+                                    (fn [[_ bs]]
+                                      (let [juris (into #{}
+                                                        (keep #(some-> (get-in % [:juris :value])
+                                                                       (str/replace #"^.*/" ""))
+                                                              bs))
+                                            level (juris-level juris country-qid)]
+                                        (for [b bs
+                                              :let [url (get-in b [:website :value])
+                                                    lbl (get-in b [:orgLabel :value])
+                                                    host (extract-host url)]
+                                              :when host]
+                                          [type lbl url host level]))))
+                                  distinct))
                            (catch Exception e
                              (err (str "  [" type "] parse error: " (.getMessage e)))
                              []))
                          (do (err (str "  [" type "] failed after 3 attempts")) []))))]
-          (let [merged (merge-rows-union out all-rows 3)]
-            (write-csv-file out ["type" "label" "website" "hostname"] merged)
+          (let [existing (when (fs/exists? out) (rest (read-csv-raw out)))
+                merged (dedup-level-rows (concat all-rows existing))]
+            (write-csv-file out ["type" "label" "website" "hostname" "level"] merged)
             (println (str "  -> " out " (" (count merged) " entries; "
                           (count all-rows) " from this fetch, rest preserved)")))
           (let [n-miss (wikidata-write-missing! out missing-out)]
@@ -1263,7 +1366,7 @@
   #"(?i)(?:^|\.)(?:gov|bund|govt|gouv|governo|gobierno|kormany|hallinto|riksdag|presidencia|presidence|parlement|parlamento|parliament|admin)(?:\.|$)")
 
 (def subdiv-pattern
-  #"(?i)(?:departmental|départemental|departementale|départementale|regional|régional|state ministry|prefecture|préfecture|conseil général|general council|county council|provincial|county of|municipal|metropolitan|community of|communauté|comunidad autónoma|comunità|länder|bundesland|senate department|staatskanzlei|landtag|free state of|land of |bavaria|bavarian|bayer(?:ian|n)|saxony|saxon|sächs|hessian|hesse|hessisch|niedersä|niedersaechs|lower saxony|nordrhein|north rhine|westfalen|westphalia|baden-würt|baden-wuert|saarland|saarl|brandenburg|bremen ministry|free hanseatic|schleswig-holstein|mecklenburg|vorpommern|thüring|thuering|thuringia|rheinland-pfalz|rhineland-palatinate|hamburg ministry|hamburg(?:ische|er) (?:ministerium|behörde)|berlin senate|berlin(?:er) senat)")
+  #"(?i)(?:departmental|départemental|departementale|départementale|regional|régional|state ministry|prefecture|préfecture|conseil général|general council|county council|provincial|county of|municipal|metropolitan|community of|communauté|comunidad autónoma|comunità|länder|bundesland|senate department|staatskanzlei|landtag|free state of|land of |bavaria|bavarian|bayer(?:ian|n)|saxony|saxon|sächs|hessian|hesse|hessisch|niedersä|niedersaechs|lower saxony|nordrhein|north rhine|westfalen|westphalia|baden-würt|baden-wuert|saarland|saarl|brandenburg|bremen ministry|free hanseatic|schleswig-holstein|mecklenburg|vorpommern|thüring|thuering|thuringia|rheinland-pfalz|rhineland-palatinate|hamburg ministry|hamburg(?:ische|er) (?:ministerium|behörde)|berlin senate|berlin(?:er) senat|state legislature|state senate|state assembly|state house of representatives|city council|city of|town of|village of|borough|township|county executive|school district|office of education)")
 
 (def federal-pattern
   #"(?i)(?:federal|national|sovereign|state of [a-z]+ federation)")
@@ -1318,8 +1421,13 @@
     :fb-phrases      Factbook institution phrases (lowercased)
     :un-portal-host  UN/DESA-declared national portal host (or nil)
     :cctld-primary   country's primary ccTLD (without leading dot)
-    :curated?        host comes from the manually-curated source channel"
-  [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary curated?]}]
+    :curated?        host comes from the manually-curated source channel
+    :subdiv-penalty? apply the anti-subnational penalties (default true);
+                     false when ranking candidates-local.csv, where burying
+                     subnational entries would defeat the file's purpose"
+  [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary curated?
+           subdiv-penalty?]
+    :or {subdiv-penalty? true}}]
   (let [label (or label "")
         un?           (= host un-portal-host)
         on-cctld?     (and cctld-primary
@@ -1338,14 +1446,19 @@
                  (if on-cctld?    1 0)
                  (if gov-host?    1 0)
                  (if fb-match?    2 0)
-                 (if subdivision? -5 0)
-                 (if many-no-fed? -5 0))]
+                 (if (and subdiv-penalty? subdivision?) -5 0)
+                 (if (and subdiv-penalty? many-no-fed?) -5 0))]
     (-> score (max 0) (min 10))))
 
 (defn score-candidates-for!
-  "Compute countries/<c>/candidates.csv (hostname,score,sources,label).
-  Aggregates Wikidata mentions, UN/DESA national portal, IANA ccTLD,
-  Factbook institution names; applies subdivision penalties."
+  "Compute countries/<c>/candidates.csv (central administrations) and
+  countries/<c>/candidates-local.csv (local/regional bodies), both with
+  columns hostname,score,sources,label,level. Aggregates Wikidata mentions
+  (incl. their P1001-derived level), UN/DESA national portal, IANA ccTLD and
+  Factbook institution names. A host is 'local' when Wikidata or curation
+  says so, or when its label matches the subdivision pattern; level stays
+  blank (and the host stays in candidates.csv) when nothing is known -- to
+  be consolidated over time."
   [country-dir]
   (let [iana-path (country-src country-dir "iana" "cctld.csv")
         un-path   (country-src country-dir "un_desa" "summary.csv")
@@ -1353,6 +1466,7 @@
         wd-path   (country-src country-dir "wikidata" "central_admin.csv")
         cur-path  (country-src country-dir "curated" "central_admin.csv")
         out       (str "countries/" country-dir "/candidates.csv")
+        out-local (str "countries/" country-dir "/candidates-local.csv")
         cctld-primary
         (when (fs/exists? iana-path)
           (some-> (first (second (read-csv-raw iana-path)))    ; row 2, col 1
@@ -1364,7 +1478,9 @@
         wd-rows        (when (fs/exists? wd-path) (rest (read-csv-raw wd-path)))
         wd-by-host
         (reduce (fn [m row]
-                  (let [host (last row) label (second row)]
+                  (let [host  (nth row 3 nil)
+                        label (nth row 1 nil)
+                        level (str/trim (or (nth row 4 nil) ""))]
                     (if (str/blank? host)
                       m
                       (-> m
@@ -1372,18 +1488,34 @@
                           (update-in [host :labels]
                                      (fn [ls]
                                        (let [ls (or ls [])]
-                                         (if (some #{label} ls) ls (conj ls label)))))))))
+                                         (if (some #{label} ls) ls (conj ls label)))))
+                          (update-in [host :levels] (fnil conj #{}) level)))))
                 {} wd-rows)
         cur-rows       (when (fs/exists? cur-path) (rest (read-csv-raw cur-path)))
-        ;; curated host -> label (schema: type,label,website,hostname,provenance)
+        ;; curated host -> {:label :level}
+        ;; (schema: type,label,website,hostname,provenance[,level])
         cur-by-host
         (reduce (fn [m row]
-                  (let [host (nth row 3 nil) label (nth row 1 nil)]
-                    (if (str/blank? host) m (assoc m host (or label "")))))
+                  (let [host (nth row 3 nil)]
+                    (if (str/blank? host)
+                      m
+                      (assoc m host {:label (or (nth row 1 nil) "")
+                                     :level (str/trim (or (nth row 5 nil) ""))}))))
                 {} cur-rows)
         all-hosts (cond-> (into (set (keys wd-by-host)) (keys cur-by-host))
                     un-portal-host (conj un-portal-host))
         known     (set (known-roots))
+        host-level
+        (fn [h label]
+          (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")
+                cur-level (get-in cur-by-host [h :level] "")]
+            (cond
+              (#{"central" "local"} cur-level)  cur-level  ; curation wins
+              (contains? wd-levels "central")   "central"  ; over P1001,
+              (contains? wd-levels "local")     "local"    ; central over local
+              (and (seq label)
+                   (re-find subdiv-pattern label)) "local"
+              :else "")))
         candidates
         (->> all-hosts
              (remove #(host-covered? % known))
@@ -1392,7 +1524,7 @@
                           (get wd-by-host h)
                           un? (= h un-portal-host)
                           curated? (contains? cur-by-host h)
-                          cur-label (get cur-by-host h)
+                          cur-label (get-in cur-by-host [h :label])
                           labels (cond-> labels
                                    (and curated? (seq cur-label)
                                         (not (some #{cur-label} labels)))
@@ -1404,16 +1536,22 @@
                                     un? (conj "un_desa"))
                           sources (into sources (repeat cnt "wikidata"))
                           sources (cond-> sources curated? (conj "curated"))
+                          level (host-level h label)
                           score (score-candidate
                                   {:host h :wd-count cnt :label label
                                    :fb-phrases fb-phrases
                                    :un-portal-host un-portal-host
                                    :cctld-primary cctld-primary
-                                   :curated? curated?})]
-                      [h score (str/join ";" sources) label])))
-             (sort-by (juxt #(- (nth % 1)) first)))]
-    (write-csv-file out ["hostname" "score" "sources" "label"]
-                    (for [[h sc src lbl] candidates] [h (str sc) src lbl]))))
+                                   :curated? curated?
+                                   :subdiv-penalty? (not= level "local")})]
+                      [h score (str/join ";" sources) label level])))
+             (sort-by (juxt #(- (nth % 1)) first)))
+        {local true central false} (group-by #(= "local" (nth % 4)) candidates)
+        ->rows (fn [cands] (for [[h sc src lbl lvl] cands] [h (str sc) src lbl lvl]))]
+    (write-csv-file out ["hostname" "score" "sources" "label" "level"]
+                    (->rows central))
+    (write-csv-file out-local ["hostname" "score" "sources" "label" "level"]
+                    (->rows local))))
 
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
@@ -1475,22 +1613,36 @@
     (println "(institution names usable as seeds for further research)")
     (println)))
 
-(defn- section-candidates [cand-path]
+(defn- candidate-table [cands]
+  (println "| score | hostname | sources | label |")
+  (println "|------:|----------|---------|-------|")
+  (doseq [[h sc src lbl] cands]
+    (println (str "| " sc " | `" h "` | " src " | " (truncate (or lbl "") 80) " |"))))
+
+(defn- section-candidates [cand-path local-path]
   (when (fs/exists? cand-path)
     (let [cands (rest (read-csv-raw cand-path))]
       (println "## Candidate domains ranked by score")
       (println)
       (if (seq cands)
         (do
-          (println (str (count cands) " candidate(s). Full list in [`candidates.csv`](candidates.csv)."))
+          (println (str (count cands) " central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv)."))
           (println "Top 20 by score (0-10) -- higher = stronger cross-source evidence:")
           (println)
-          (println "| score | hostname | sources | label |")
-          (println "|------:|----------|---------|-------|")
-          (doseq [[h sc src lbl] (take 20 cands)]
-            (println (str "| " sc " | `" h "` | " src " | " (truncate (or lbl "") 80) " |"))))
+          (candidate-table (take 20 cands)))
         (println "No remaining candidates (every flagged institution is covered)."))
-      (println))))
+      (println)))
+  (when (fs/exists? local-path)
+    (let [cands (rest (read-csv-raw local-path))]
+      (when (seq cands)
+        (println "## Local / regional candidates")
+        (println)
+        (println (str (count cands) " candidate(s) attributed to a non-central "
+                      "administration (out of the registry's central-gov scope). "
+                      "Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:"))
+        (println)
+        (candidate-table (take 10 cands))
+        (println)))))
 
 (defn- section-cctld-anomalies [country-dir cctld collected]
   (when cctld
@@ -1524,8 +1676,9 @@
         un-path   (country-src country-dir "un_desa" "summary.csv")
         cia-path  (country-src country-dir "cia_factbook" "summary.csv")
         meta-path (country-src country-dir "country_data" "info.csv")
-        cand-path (str "countries/" country-dir "/candidates.csv")
-        out       (str "countries/" country-dir "/summary.md")
+        cand-path  (str "countries/" country-dir "/candidates.csv")
+        local-path (str "countries/" country-dir "/candidates-local.csv")
+        out        (str "countries/" country-dir "/summary.md")
         [cctld manager] (when (fs/exists? iana-path)
                           (let [r (second (read-csv-raw iana-path))]
                             [(nth r 0 nil) (nth r 1 nil)]))
@@ -1556,7 +1709,7 @@
             (section-overview (assoc ctx :n-collected (count collected)))
             (section-un-portal country-dir un-portal collected)
             (section-factbook ctx)
-            (section-candidates cand-path)
+            (section-candidates cand-path local-path)
             (section-cctld-anomalies country-dir cctld collected)))
     (println (str "=== " country-dir " -> " out))))
 

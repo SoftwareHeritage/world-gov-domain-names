@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 73 of 193
 - Government type: presidential republic
 - Capital: Manila
-- Domains collected (HTTP 200): 178
+- Domains collected (HTTP 200): 1613
 
 ## UN/DESA national portal
 
@@ -30,13 +30,20 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
-| 4 | `citycouncilofmanila.com.ph` | wikidata | Manila City Council |
 | 4 | `recoletos.ph` | wikidata | Province of Saint Ezequiél Moreno |
-| 0 | `nuevaecija.ph` | wikidata | Provincial Government of Nueva Ecija |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `citycouncilofmanila.com.ph` | wikidata | Manila City Council |
+| 4 | `nuevaecija.ph` | wikidata | Provincial Government of Nueva Ecija |
 

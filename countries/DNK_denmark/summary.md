@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 1 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Copenhagen
-- Domains collected (HTTP 200): 29
+- Domains collected (HTTP 200): 46
 
 ## UN/DESA national portal
 
@@ -30,11 +30,18 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `oscepa.org` | wikidata;wikidata | Parliamentary Assembly of the Organization for Security and Co-operation in E... |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
 | 4 | `kolding.dk` | wikidata | Kolding City Council |
 

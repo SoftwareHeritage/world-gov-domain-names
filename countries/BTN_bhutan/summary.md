@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 103 of 193
 - Government type: constitutional monarchy
 - Capital: Thimphu
-- Domains collected (HTTP 200): 48
+- Domains collected (HTTP 200): 438
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

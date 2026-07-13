@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 189 of 193
 - Government type: presidential republic
 - Capital: N'Djamena
-- Domains collected (HTTP 200): 17
+- Domains collected (HTTP 200): 344
 
 ## UN/DESA national portal
 
 - Declared: [http://www.gouvernement.td](http://www.gouvernement.td) (host `gouvernement.td`)
-- ⚠️ ABSENT -- neither `gouvernement.td` covered nor `countries/TCD_chad/sources/gouvernement.td/` directory present
+- ⚠️ ABSENT -- neither `gouvernement.td` covered nor `countries/TCD_chad/sources/roots/gouvernement.td/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

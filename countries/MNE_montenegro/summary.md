@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 81 of 193
 - Government type: parliamentary republic
 - Capital: Podgorica
-- Domains collected (HTTP 200): 10
+- Domains collected (HTTP 200): 288
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -36,8 +36,12 @@ and GDP per capita.
 One directory per country (=FRA_france=, =USA_united_states=, …), with:
 
 - =subdomains.csv= -- all known subdomains and their HTTP status,
-- =candidates.csv= -- domains we spotted but haven't confirmed yet,
-  scored 0--10 by how many sources agree,
+- =candidates.csv= -- central-administration domains we spotted but
+  haven't confirmed yet, scored 0--10 by how many sources agree,
+- =candidates-local.csv= -- same, for domains attributed to *local or
+  regional* administrations (Wikidata P1001 jurisdiction, curation, or
+  label heuristics); kept apart so the central-gov scope stays clean
+  while the groundwork for a future subnational extension accumulates,
 - =summary.md= -- a human-readable cross-check report,
 - =sources/= -- the raw data behind the above, one folder per source.
 

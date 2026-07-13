@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 93 of 193
 - Government type: parliamentary republic
 - Capital: Suva (on Viti Levu)
-- Domains collected (HTTP 200): 27
+- Domains collected (HTTP 200): 332
 
 ## UN/DESA national portal
 
 - Declared: [http://www.fiji.gov.fj](http://www.fiji.gov.fj) (host `fiji.gov.fj`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.fj` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

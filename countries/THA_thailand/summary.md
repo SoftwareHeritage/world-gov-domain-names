@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 52 of 193
 - Government type: constitutional monarchy
 - Capital: Bangkok
-- Domains collected (HTTP 200): 41
+- Domains collected (HTTP 200): 627
 
 ## UN/DESA national portal
 
 - Declared: [http://www.thaigov.go.th](http://www.thaigov.go.th) (host `thaigov.go.th`)
-- ⚠️ Exact hostname not in the 200s, but a `go.th` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

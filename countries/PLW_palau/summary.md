@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 137 of 193
 - Government type: presidential republic in free association with the US
 - Capital: Ngerulmud
-- Domains collected (HTTP 200): 6
+- Domains collected (HTTP 200): 11
 
 ## UN/DESA national portal
 
 - Declared: [http://palaugov.pw](http://palaugov.pw) (host `palaugov.pw`)
-- ⚠️ ABSENT -- neither `palaugov.pw` covered nor `countries/PLW_palau/sources/palaugov.pw/` directory present
+- ⚠️ ABSENT -- neither `palaugov.pw` covered nor `countries/PLW_palau/sources/roots/palaugov.pw/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

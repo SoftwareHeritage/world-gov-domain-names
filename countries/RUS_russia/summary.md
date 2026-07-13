@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 43 of 193
 - Government type: semi-presidential federation
 - Capital: Moscow
-- Domains collected (HTTP 200): 21
+- Domains collected (HTTP 200): 620
 
 ## UN/DESA national portal
 
 - Declared: [http://government.ru](http://government.ru) (host `government.ru`)
-- ⚠️ ABSENT -- neither `government.ru` covered nor `countries/RUS_russia/sources/government.ru/` directory present
+- ⚠️ ABSENT -- neither `government.ru` covered nor `countries/RUS_russia/sources/roots/government.ru/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-119 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+108 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -50,9 +50,26 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `gshra.ru` | wikidata;wikidata | State Council of the Republic of Adygea |
 | 7 | `hural-buryatia.ru` | wikidata;wikidata | People's Khural of the Republic of Buryatia |
 | 7 | `huralrk.ru` | wikidata;wikidata | People's Khural of Kalmykia |
-| 7 | `iltumen.ru` | wikidata;wikidata | State Assembly of the Sakha Republic |
 | 7 | `karelia-zs.ru` | wikidata;wikidata | Legislative Assembly of the Republic of Karelia |
 | 7 | `mid.ru` | wikidata;wikidata | Ministry of Foreign Affairs of the Russian Federation |
 | 7 | `mil.ru` | wikidata;wikidata | Ministry of Defense of the Russian Federation |
 | 7 | `mosoblduma.ru` | wikidata;wikidata | Moscow Oblast Duma |
+| 7 | `mziorb.ru` | wikidata;wikidata | Ministry of Land and Property Relations |
+
+## Local / regional candidates
+
+11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `iltumen.ru` | wikidata;wikidata | State Assembly of the Sakha Republic |
+| 7 | `zskaluga.ru` | wikidata;wikidata | Regional parliament of Kaluga |
+| 5 | `parliament.mari.ru` | wikidata | State Assembly of the Mari El Republic |
+| 4 | `admgor.nnov.ru` | wikidata | Municipal government of Nizhny Novgorod |
+| 4 | `dumask.ru` | wikidata | Regional Parliament of Stavropol Krai |
+| 4 | `dumatlt.ru` | wikidata | Tolyatti City Council |
+| 4 | `elkurultay.ru` | wikidata | State Assembly of the Altai Republic |
+| 4 | `gsrb.ru` | wikidata | State Assembly of Bashkortostan |
+| 4 | `gsrm.ru` | wikidata | State Assembly of the Republic of Mordovia |
+| 4 | `samgd.ru` | wikidata | Samara Regional Duma |
 

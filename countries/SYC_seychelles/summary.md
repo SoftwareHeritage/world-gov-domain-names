@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 92 of 193
 - Government type: presidential republic
 - Capital: Victoria
-- Domains collected (HTTP 200): 55
+- Domains collected (HTTP 200): 295
 
 ## UN/DESA national portal
 
 - Declared: [http://www.egov.sc](http://www.egov.sc) (host `egov.sc`)
-- ⚠️ ABSENT -- neither `egov.sc` covered nor `countries/SYC_seychelles/sources/egov.sc/` directory present
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -43,7 +43,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 Domains outside `.sc` (allowed: common gTLDs + ``):
 
 ```
+.name src.gov.sc.cloudsrc.name
 .tech srcaeoiuat.src.gov.sc.encoun.tech
+.name www.src.gov.sc.cloudsrc.name
 .tech www.srcaeoiuat.src.gov.sc.encoun.tech
 ```
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 121 of 193
 - Government type: presidential republic
 - Capital: Libreville
-- Domains collected (HTTP 200): 1
+- Domains collected (HTTP 200): 5
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-7 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

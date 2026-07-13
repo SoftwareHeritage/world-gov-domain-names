@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 178 of 193
 - Government type: presidential republic
 - Capital: Khartoum
-- Domains collected (HTTP 200): 24
+- Domains collected (HTTP 200): 556
 
 ## UN/DESA national portal
 
 - Declared: [http://esudan.gov.sd](http://esudan.gov.sd) (host `esudan.gov.sd`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.sd` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

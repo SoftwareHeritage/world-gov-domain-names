@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 60 of 193
 - Government type: parliamentary republic
 - Capital: Bratislava
-- Domains collected (HTTP 200): 55
+- Domains collected (HTTP 200): 446
 
 ## UN/DESA national portal
 
 - Declared: [https://www.slovensko.sk](https://www.slovensko.sk) (host `slovensko.sk`)
-- ⚠️ ABSENT -- neither `slovensko.sk` covered nor `countries/SVK_slovakia/sources/slovensko.sk/` directory present
+- ⚠️ ABSENT -- neither `slovensko.sk` covered nor `countries/SVK_slovakia/sources/roots/slovensko.sk/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-13 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

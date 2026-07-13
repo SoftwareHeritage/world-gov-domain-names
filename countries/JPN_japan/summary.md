@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 13 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Tokyo
-- Domains collected (HTTP 200): 190
+- Domains collected (HTTP 200): 1898
 
 ## UN/DESA national portal
 
 - Declared: [http://www.e-gov.go.jp](http://www.e-gov.go.jp) (host `e-gov.go.jp`)
-- ⚠️ Exact hostname not in the 200s, but a `go.jp` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-1888 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1811 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -55,4 +55,21 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `pref.hokkaido.lg.jp` | wikidata;wikidata | Hokkaidō | Hokkaido Government |
 | 7 | `town.tsuruta.lg.jp` | wikidata;wikidata | Itayanagi | Tsuruta |
 | 7 | `vill.hakuba.lg.jp` | wikidata;wikidata | Hakuba |
+
+## Local / regional candidates
+
+77 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `city.kakegawa.shizuoka.jp` | wikidata;wikidata;wikidata | Kakegawa City Council | Kakegawa |
+| 7 | `metro.tokyo.lg.jp` | wikidata;wikidata | Tokyo Metropolitan Government | Tokyo |
+| 7 | `pref.aichi.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Aichi Prefectural Public Safety Commission | Aichi Prefecture | Aichi prefect... |
+| 7 | `pref.aomori.lg.jp` | wikidata;wikidata | Aomori Prefecture |
+| 7 | `pref.chiba.lg.jp` | wikidata;wikidata | Chiba Prefecture | Chiba Prefectural Government |
+| 7 | `pref.ehime.jp` | wikidata;wikidata | Ehime Prefecture | Ehime prefectural government |
+| 7 | `pref.fukui.lg.jp` | wikidata;wikidata | Fukui Prefectural Public Safety Commission | Fukui Prefecture |
+| 7 | `pref.fukuoka.lg.jp` | wikidata;wikidata;wikidata;wikidata;wikidata | Fukuoka Prefectural Board of Education | Fukuoka Prefecture | Fukuoka prefect... |
+| 7 | `pref.fukushima.lg.jp` | wikidata;wikidata | Fukushima Prefecture |
+| 7 | `pref.gifu.lg.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Gifu Prefectural Board of Education | Gifu Prefecture |
 

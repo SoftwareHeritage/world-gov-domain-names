@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 32 of 193
 - Government type: parliamentary republic
 - Capital: Zagreb
-- Domains collected (HTTP 200): 21
+- Domains collected (HTTP 200): 507
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-20 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -54,5 +54,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ofm.hr` | wikidata | Croatian Franciscan Province of Saints Cyril and Methodius |
 | 4 | `public.mzos.hr` | wikidata | Ministry of Science and Education |
 | 4 | `uprava.hr` | wikidata | Ministry of Public Administration |
-| 0 | `mrrfeu.hr` | wikidata | Ministry of Regional Development and EU Funds |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `mrrfeu.hr` | wikidata | Ministry of Regional Development and EU Funds |
 

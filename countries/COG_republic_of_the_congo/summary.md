@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 166 of 193
 - Government type: presidential republic
 - Capital: Brazzaville
-- Domains collected (HTTP 200): 0
+- Domains collected (HTTP 200): 20
 
 ## UN/DESA national portal
 
 - Declared: [http://www.presidence.cg/accueil](http://www.presidence.cg/accueil) (host `presidence.cg`)
-- ⚠️ ABSENT -- neither `presidence.cg` covered nor `countries/COG_republic_of_the_congo/sources/presidence.cg/` directory present
+- ⚠️ ABSENT -- neither `presidence.cg` covered nor `countries/COG_republic_of_the_congo/sources/roots/presidence.cg/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-6 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

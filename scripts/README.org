@@ -85,10 +85,23 @@ For each uncovered candidate hostname:
 | Label suggests a territorial subdivision (Land, region, …) |     -5 |
 | 3+ Wikidata mentions, none with =federal/national/sovereign= |     -5 |
 
-Score clamped to =[0, 10]=.
+Score clamped to =[0, 10]=. The two penalties only apply when ranking
+central candidates -- =candidates-local.csv= has its own ranking where
+burying subnational entries would defeat the purpose.
 
-Output: =countries/<c>/candidates.csv= with columns
-=hostname,score,sources,label=, sorted score desc / hostname asc.
+Output: two files with columns =hostname,score,sources,label,level=,
+sorted score desc / hostname asc:
+
+- =countries/<c>/candidates.csv= -- central-administration candidates
+  (=level= is =central=, or blank when nothing is known yet);
+- =countries/<c>/candidates-local.csv= -- candidates attributed to a
+  local or regional administration (=level=local=).
+
+The =level= comes from the Wikidata P1001 jurisdiction captured at
+fetch time (the country itself ⇒ =central=, anything else ⇒ =local=),
+from the optional =level= column of the curated source (which wins),
+or from the subdivision label pattern as a fallback. Blank levels are
+consolidated over time as sources are refetched or curated.
 
 * Curated candidates (manual)
 
@@ -96,9 +109,11 @@ Central-government domains the automated harvest (Wikidata / UN-DESA)
 misses can be added by hand in an isolated, versioned source:
 
 =countries/<c>/sources/curated/central_admin.csv= -- schema
-=type,label,website,hostname,provenance=. The =report= phase reads it
-alongside Wikidata and UN/DESA, so listed hosts re-enter
+=type,label,website,hostname,provenance[,level]=. The =report= phase
+reads it alongside Wikidata and UN/DESA, so listed hosts re-enter
 =candidates.csv= reproducibly, scored =+3= and tagged =sources=curated=.
+The optional =level= column (=central= / =local=) overrides every other
+level signal -- this is where manual consolidation happens.
 The =provenance= column records where each entry came from. The
 directory is excluded from root-domain promotion (it is part of
 =source-dirs-set=), so adding a candidate here never auto-promotes it.

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 37 of 193
 - Government type: parliamentary republic
 - Capital: Warsaw
-- Domains collected (HTTP 200): 230
+- Domains collected (HTTP 200): 1651
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-10 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -43,6 +43,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `bernardyni.com` | wikidata | Bernardines (Franciscans) |
 | 3 | `franciszkanie.com` | wikidata | Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław |
 | 3 | `franciszkanie.net` | wikidata | Province of Saint Francis of the Friars Minor in Poznań |
-| 0 | `malopolskie.pl` | wikidata | Lesser Poland Regional Assembly |
-| 0 | `sejmik.slaskie.pl` | wikidata | Silesian Regional Assembly |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `malopolskie.pl` | wikidata | Lesser Poland Regional Assembly |
+| 4 | `sejmik.slaskie.pl` | wikidata | Silesian Regional Assembly |
 

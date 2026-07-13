@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 145 of 193
 - Government type: presidential republic; authoritarian
 - Capital: Ashgabat (Ashkhabad)
-- Domains collected (HTTP 200): 162
+- Domains collected (HTTP 200): 555
 
 ## UN/DESA national portal
 
 - Declared: [www.turkmenistan.gov.tm](www.turkmenistan.gov.tm) (host `turkmenistan.gov.tm`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.tm` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

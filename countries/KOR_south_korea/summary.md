@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 4 of 193
 - Government type: presidential republic
 - Capital: Seoul
-- Domains collected (HTTP 200): 34
+- Domains collected (HTTP 200): 54
 
 ## UN/DESA national portal
 
@@ -30,29 +30,28 @@
 
 ## Candidate domains ranked by score
 
-37 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `council.gangwon.kr` | wikidata;wikidata | Gangwon State Council |
-| 7 | `ggc.go.kr` | wikidata;wikidata | Gyeonggido Assembly |
 | 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
-| 4 | `global.seoul.go.kr` | wikidata | Seoul Global Center |
 | 4 | `provin.gangwon.kr` | wikidata | Gangwon State Office |
-| 4 | `sejong.go.kr` | wikidata | Sejong Special City Government |
 | 4 | `youthassembly.or.kr` | wikidata | National Youth Assembly of Korea |
-| 2 | `council.busan.go.kr` | wikidata;wikidata | Busan municipal council |
-| 2 | `council.chungbuk.kr` | wikidata;wikidata | North Chungcheong Province municipal council |
-| 2 | `council.daegu.go.kr` | wikidata;wikidata | Daegu municipal council |
-| 2 | `council.daejeon.go.kr` | wikidata;wikidata | Daejeon municipal council |
-| 2 | `council.gb.go.kr` | wikidata;wikidata | North Gyeongsang Province municipal council |
-| 2 | `council.gwangju.kr` | wikidata;wikidata | Gwangju municipal council |
-| 2 | `council.jeju.kr` | wikidata;wikidata | Jeju municipal council |
-| 2 | `council.sejong.go.kr` | wikidata;wikidata | Sejong City municipal council |
-| 2 | `council.ulsan.kr` | wikidata;wikidata | Ulsan Metropolitan Council |
-| 2 | `gncl.or.kr` | wikidata;wikidata | South Gyeongsang Province municipal council |
-| 2 | `jbstatecouncil.jeonbuk.kr` | wikidata;wikidata | North Jeolla Province municipal council |
-| 2 | `jnassembly.go.kr` | wikidata;wikidata | South Jeolla Province municipal council |
-| 1 | `council.chungnam.net` | wikidata;wikidata | South Chungcheong Province municipal council |
+
+## Local / regional candidates
+
+8 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `council.chungbuk.kr` | wikidata;wikidata | North Chungcheong Province municipal council |
+| 7 | `council.gwangju.kr` | wikidata;wikidata | Gwangju municipal council |
+| 7 | `council.jeju.kr` | wikidata;wikidata | Jeju municipal council |
+| 7 | `council.ulsan.kr` | wikidata;wikidata | Ulsan Metropolitan Council |
+| 7 | `gncl.or.kr` | wikidata;wikidata | South Gyeongsang Province municipal council |
+| 7 | `jbstatecouncil.jeonbuk.kr` | wikidata;wikidata | North Jeolla Province municipal council |
+| 7 | `smc.seoul.kr` | wikidata;wikidata;wikidata;wikidata | Seoul municipal council |
+| 6 | `council.chungnam.net` | wikidata;wikidata | South Chungcheong Province municipal council |
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 9 of 193
 - Government type: parliamentary republic
 - Capital: Helsinki
-- Domains collected (HTTP 200): 26
+- Domains collected (HTTP 200): 290
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-9 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -44,4 +44,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `tampere.fi` | wikidata | Tampere City Board |
 | 3 | `intermin.fi.` | wikidata | Ministry of the Interior of Finland |
 | 2 | `hel.fi` | wikidata;wikidata;wikidata | Helsinki City Board |
+
+## ccTLD anomalies
+
+Domains outside `.fi` (allowed: common gTLDs + ``):
+
+```
+.fi-verkkopalvelu suomi.fi-verkkopalvelu
+```
 

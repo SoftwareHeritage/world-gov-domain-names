@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 85 of 193
 - Government type: presidential republic
 - Capital: Santo Domingo
-- Domains collected (HTTP 200): 77
+- Domains collected (HTTP 200): 792
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

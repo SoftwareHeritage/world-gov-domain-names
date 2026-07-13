@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 6 of 193
 - Government type: absolute monarchy
 - Capital: Riyadh
-- Domains collected (HTTP 200): 23
+- Domains collected (HTTP 200): 2162
 
 ## UN/DESA national portal
 
 - Declared: [https://www.saudi.gov.sa](https://www.saudi.gov.sa) (host `saudi.gov.sa`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.sa` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

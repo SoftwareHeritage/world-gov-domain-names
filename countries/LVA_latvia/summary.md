@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 29 of 193
 - Government type: parliamentary republic
 - Capital: Riga
-- Domains collected (HTTP 200): 3
+- Domains collected (HTTP 200): 12
 
 ## UN/DESA national portal
 
 - Declared: [https://www.latvija.lv](https://www.latvija.lv) (host `latvija.lv`)
-- ⚠️ ABSENT -- neither `latvija.lv` covered nor `countries/LVA_latvia/sources/latvija.lv/` directory present
+- ⚠️ Exact hostname not in the 200s, but a `latvija.lv` root directory exists (to be probed)
 
 ## Institutions named by CIA Factbook
 
@@ -30,26 +30,10 @@
 
 ## Candidate domains ranked by score
 
-17 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 8 | `km.gov.lv` | wikidata;wikidata | Ministry of Culture of the Republic of Latvia |
-| 7 | `saeima.lv` | wikidata;wikidata | Saeima |
-| 6 | `latvija.lv` | un_desa | UN/DESA national portal |
-| 5 | `em.gov.lv` | wikidata | Ministry of Economics |
-| 5 | `fm.gov.lv` | wikidata | Ministry of Finance |
-| 5 | `iem.gov.lv` | wikidata | Ministry of the Interior of the Republic of Latvia |
-| 5 | `izm.gov.lv` | wikidata | Ministry of Education and Science |
-| 5 | `kem.gov.lv` | wikidata | Ministry of Climate and Energy of Latvia |
-| 5 | `lm.gov.lv` | wikidata | Ministry of Welfare |
-| 5 | `mfa.gov.lv` | wikidata | Ministry of Foreign Affairs |
-| 5 | `mod.gov.lv` | wikidata | Ministry of Defence of Latvia |
-| 5 | `sam.gov.lv` | wikidata | Ministry of Transport |
-| 5 | `tm.gov.lv` | wikidata | Ministry of Justice |
-| 5 | `vm.gov.lv` | wikidata | Ministry of Health |
-| 5 | `zm.gov.lv` | wikidata | Ministry of Agriculture |
 | 3 | `jesuiten.org` | wikidata | Jesuit Province of Central Europe |
-| 0 | `varam.gov.lv` | wikidata | Ministry of Environmental Protection and Regional Development |
 

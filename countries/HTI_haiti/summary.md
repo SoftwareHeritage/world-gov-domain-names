@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 186 of 193
 - Government type: semi-presidential republic
 - Capital: Port-au-Prince
-- Domains collected (HTTP 200): 56
+- Domains collected (HTTP 200): 556
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-4 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

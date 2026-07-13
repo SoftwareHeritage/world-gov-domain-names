@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 33 of 193
 - Government type: parliamentary republic
 - Capital: Ljubljana
-- Domains collected (HTTP 200): 77
+- Domains collected (HTTP 200): 588
 
 ## UN/DESA national portal
 
 - Declared: [http://www.vlada.si](http://www.vlada.si) (host `vlada.si`)
-- ⚠️ ABSENT -- neither `vlada.si` covered nor `countries/SVN_slovenia/sources/vlada.si/` directory present
+- ⚠️ ABSENT -- neither `vlada.si` covered nor `countries/SVN_slovenia/sources/roots/vlada.si/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

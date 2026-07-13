@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 76 of 193
 - Government type: parliamentary republic
 - Capital: Port Louis
-- Domains collected (HTTP 200): 0
+- Domains collected (HTTP 200): 73
 
 ## UN/DESA national portal
 
 - Declared: [http://www.govmu.org](http://www.govmu.org) (host `govmu.org`)
-- ⚠️ ABSENT -- neither `govmu.org` covered nor `countries/MUS_mauritius/sources/govmu.org/` directory present
+- ⚠️ ABSENT -- neither `govmu.org` covered nor `countries/MUS_mauritius/sources/roots/govmu.org/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-8 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,5 +42,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `health.govmu.org` | wikidata | Ministry of Health and Quality of Life |
 | 3 | `mof.govmu.org` | wikidata | Ministry of Finance and Economic Development |
 | 3 | `tourism.govmu.org` | wikidata | Ministry of Tourism |
-| 1 | `assembly-rra.govmu.org` | wikidata;wikidata | Rodrigues Regional Assembly |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `assembly-rra.govmu.org` | wikidata;wikidata | Rodrigues Regional Assembly |
 

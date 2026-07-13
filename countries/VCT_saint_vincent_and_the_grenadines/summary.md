@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 117 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Kingstown
-- Domains collected (HTTP 200): 32
+- Domains collected (HTTP 200): 160
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 20 of 193
 - Government type: parliamentary republic
 - Capital: Dublin
-- Domains collected (HTTP 200): 29
+- Domains collected (HTTP 200): 658
 
 ## UN/DESA national portal
 
@@ -31,4 +31,21 @@
 ## Candidate domains ranked by score
 
 No remaining candidates (every flagged institution is covered).
+
+## ccTLD anomalies
+
+Domains outside `.ie` (allowed: common gTLDs + ``):
+
+```
+.sh housing.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh housing.old.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh marineplan.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh mayors.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh registerreform.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh tithiocht.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh www.marineplan.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh www.mayors.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh www.registerreform.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+.sh www.tithiocht.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh
+```
 

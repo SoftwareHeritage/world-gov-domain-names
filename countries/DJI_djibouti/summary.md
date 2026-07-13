@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 174 of 193
 - Government type: presidential republic
 - Capital: Djibouti
-- Domains collected (HTTP 200): 14
+- Domains collected (HTTP 200): 63
 
 ## UN/DESA national portal
 
 - Declared: [http://www.presidence.dj](http://www.presidence.dj) (host `presidence.dj`)
-- ⚠️ ABSENT -- neither `presidence.dj` covered nor `countries/DJI_djibouti/sources/presidence.dj/` directory present
+- ⚠️ ABSENT -- neither `presidence.dj` covered nor `countries/DJI_djibouti/sources/roots/presidence.dj/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

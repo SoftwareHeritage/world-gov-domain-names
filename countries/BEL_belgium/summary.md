@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 56 of 193
 - Government type: federal parliamentary democracy under a constitutional monarchy
 - Capital: Brussels
-- Domains collected (HTTP 200): 45
+- Domains collected (HTTP 200): 806
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-20 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 158 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Funafuti
-- Domains collected (HTTP 200): 17
+- Domains collected (HTTP 200): 60
 
 ## UN/DESA national portal
 
 - Declared: [http://www.tuvaluislands.com](http://www.tuvaluislands.com) (host `tuvaluislands.com`)
-- ⚠️ ABSENT -- neither `tuvaluislands.com` covered nor `countries/TUV_tuvalu/sources/tuvaluislands.com/` directory present
+- ⚠️ ABSENT -- neither `tuvaluislands.com` covered nor `countries/TUV_tuvalu/sources/roots/tuvaluislands.com/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 143 of 193
 - Government type: mixed presidential-parliamentary system in free association with the US
 - Capital: Majuro
-- Domains collected (HTTP 200): 1
+- Domains collected (HTTP 200): 6
 
 ## UN/DESA national portal
 
 - Declared: [http://www.rmiembassyus.org](http://www.rmiembassyus.org) (host `rmiembassyus.org`)
-- ⚠️ ABSENT -- neither `rmiembassyus.org` covered nor `countries/MHL_marshall_islands/sources/rmiembassyus.org/` directory present
+- ⚠️ ABSENT -- neither `rmiembassyus.org` covered nor `countries/MHL_marshall_islands/sources/roots/rmiembassyus.org/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

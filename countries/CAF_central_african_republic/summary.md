@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 193 of 193
 - Government type: presidential republic
 - Capital: Bangui
-- Domains collected (HTTP 200): 65
+- Domains collected (HTTP 200): 98
 
 ## UN/DESA national portal
 
 - Declared: [http://primature.govcf.org](http://primature.govcf.org) (host `primature.govcf.org`)
-- ⚠️ ABSENT -- neither `primature.govcf.org` covered nor `countries/CAF_central_african_republic/sources/govcf.org/` directory present
+- ⚠️ ABSENT -- neither `primature.govcf.org` covered nor `countries/CAF_central_african_republic/sources/roots/govcf.org/` directory present
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-1 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

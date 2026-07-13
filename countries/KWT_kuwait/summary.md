@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 66 of 193
 - Government type: constitutional monarchy (emirate)
 - Capital: Kuwait City
-- Domains collected (HTTP 200): 40
+- Domains collected (HTTP 200): 915
 
 ## UN/DESA national portal
 
 - Declared: [https://www.e.gov.kw](https://www.e.gov.kw) (host `e.gov.kw`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.kw` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 
@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-3 candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
