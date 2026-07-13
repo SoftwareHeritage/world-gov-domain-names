@@ -25,6 +25,7 @@
 ;;   meta [C…]          country metadata (REST Countries + World Bank GDP)
 ;;   cross-check [C…]   alias of report
 ;;   build-qid          (re)build data/country_qid.csv
+;;   validate-un        check un_status against the official UN member list
 ;;
 ;; Environment variables:
 ;;   FORCE=1            force-overwrite existing outputs
@@ -260,13 +261,14 @@
 (defn http-get
   "GET via babashka.http-client with User-Agent and retries on network errors.
   Returns the body string on HTTP 200, nil otherwise. Honors :timeout
-  (seconds, default 30), :retries (default 3), :query-params and :accept."
+  (seconds, default 30), :retries (default 3), :query-params, :accept and
+  :client (defaults to the no-redirect client above)."
   ([url] (http-get url {}))
-  ([url {:keys [timeout retries query-params accept]
+  ([url {:keys [timeout retries query-params accept client]
          :or {timeout 30 retries 3 accept "*/*"}}]
    (loop [attempt 1]
      (let [resp (try (http/get url
-                               {:client http-client
+                               {:client (or client http-client)
                                 :headers {"User-Agent" ua "Accept" accept}
                                 :query-params (or query-params {})
                                 :throw false
@@ -1592,6 +1594,96 @@
         0))))
 
 ;; ===========================================================================
+;;  UN membership validation (UN Digital Library)
+;; ===========================================================================
+
+(def un-members-record-url
+  "Record page of the UN member states dataset published by the Dag
+  Hammarskjöld Library. Links to a dated CSV snapshot whose name changes at
+  each refresh."
+  "https://digitallibrary.un.org/record/4082085")
+
+(def redirect-http-client
+  "The UN Digital Library serves record files behind a 302, which the
+  default no-redirect client refuses to follow."
+  (http/client (assoc http/default-client-opts
+                      :follow-redirects :normal
+                      :connect-timeout 15000)))
+
+(defn un-members-csv-url
+  "Full URL of the most recent member_states_auths_*.csv snapshot linked
+  from the record page, or nil when unreachable."
+  []
+  (when-let [body (http-get un-members-record-url)]
+    (some->> (re-seq #"files/(member_states_auths_[0-9-]+\.csv)" body)
+             (map second)
+             sort
+             last
+             (str un-members-record-url "/files/"))))
+
+(defn date-count
+  "Number of dates in a comma-separated list ('1945-10-24, 1971-09-02' -> 2)."
+  [s]
+  (count (remove str/blank? (str/split (str s) #","))))
+
+(defn un-member-iso3s
+  "Parse the UN library CSV into the set of ISO3 codes of current members.
+  The file is a name authority where Start/End date hold comma-separated
+  usage episodes: a name is in current use when it has more start dates
+  than end dates (a plain empty-End-date test misses countries that went
+  through renames, e.g. Egypt or Cambodia)."
+  [body]
+  (let [rows (csv/read-csv body)
+        headers (first rows)]
+    (into #{}
+          (for [row (rest rows)
+                :let [m (zipmap headers row)
+                      iso (str/trim (or (get m "ISO Code") ""))]
+                :when (and (not (str/blank? iso))
+                           (> (date-count (get m "Start date"))
+                              (date-count (get m "End date"))))]
+            iso))))
+
+(defn cmd-validate-un
+  "Check the un_status column of data/world-governments.csv against the
+  official UN member list. Exits 1 on any mismatch or blank un_status
+  (blank would silently default to member everywhere else in the pipeline)."
+  [_]
+  (println "Fetching official UN member list from digitallibrary.un.org…")
+  (let [url (un-members-csv-url)
+        body (when url (http-get url {:client redirect-http-client}))]
+    (if (str/blank? body)
+      (do (err "ERR: could not fetch the UN member states CSV")
+          (System/exit 1))
+      (let [official (un-member-iso3s body)
+            local (for [row (or (read-csv-file "data/world-governments.csv") [])]
+                    {:name (get row "Country")
+                     :iso (str/trim (or (get row "iso3") ""))
+                     :status (str/trim (or (get row "un_status") ""))})
+            local-iso3s (set (map :iso local))
+            problems
+            (concat
+             (for [{:keys [name status]} local
+                   :when (str/blank? status)]
+               (str name ": blank un_status (set member/observer/non_un explicitly)"))
+             (for [{:keys [name iso status]} local
+                   :when (and (= status "member") (not (official iso)))]
+               (str name ": marked member but absent from the official UN list"))
+             (for [{:keys [name iso status]} local
+                   :when (and (#{"observer" "non_un"} status) (official iso))]
+               (str name ": marked " status " but the UN lists it as a member"))
+             (for [iso (sort official)
+                   :when (not (local-iso3s iso))]
+               (str iso ": UN member missing from data/world-governments.csv")))]
+        (println (str "  official members: " (count official)
+                      " ; rows in world-governments.csv: " (count local)))
+        (if (seq problems)
+          (do (doseq [p problems] (println (str "  MISMATCH " p)))
+              (err "ERR: " (count problems) " mismatch(es)")
+              (System/exit 1))
+          (println "  un_status is consistent with the official UN list."))))))
+
+;; ===========================================================================
 ;;  Dispatcher
 ;; ===========================================================================
 
@@ -1624,7 +1716,8 @@
    "oecd"        cmd-oecd
    "meta"        cmd-meta
    "cross-check" cmd-cross-check
-   "build-qid"   (fn [_] (cmd-build-qid nil))})
+   "build-qid"   (fn [_] (cmd-build-qid nil))
+   "validate-un" (fn [_] (cmd-validate-un nil))})
 
 (defn usage []
   (println "Usage: bb scripts/pipeline.clj <command> [args…]")
@@ -1636,6 +1729,7 @@
   (println "  fetch | retry | normalize | probe | mx | aggregate | central")
   (println "  cisa | lannuaire")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
+  (println "  validate-un")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
 

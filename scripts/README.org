@@ -50,6 +50,7 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj cross-check FRA_france
 
   bb scripts/pipeline.clj build-qid             # rebuild data/country_qid.csv
+  bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
 #+end_src
 
 * Prerequisites
