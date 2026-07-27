@@ -58,18 +58,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `iltumen.ru` | wikidata;wikidata | State Assembly of the Sakha Republic |
-| 7 | `zskaluga.ru` | wikidata;wikidata | Regional parliament of Kaluga |
 | 5 | `parliament.mari.ru` | wikidata | State Assembly of the Mari El Republic |
-| 4 | `admgor.nnov.ru` | wikidata | Municipal government of Nizhny Novgorod |
 | 4 | `dumask.ru` | wikidata | Regional Parliament of Stavropol Krai |
-| 4 | `dumatlt.ru` | wikidata | Tolyatti City Council |
 | 4 | `elkurultay.ru` | wikidata | State Assembly of the Altai Republic |
 | 4 | `gsrb.ru` | wikidata | State Assembly of Bashkortostan |
 | 4 | `gsrm.ru` | wikidata | State Assembly of the Republic of Mordovia |
+| 7 | `zskaluga.ru` | wikidata;wikidata | Regional parliament of Kaluga |
+| 4 | `admgor.nnov.ru` | wikidata | Municipal government of Nizhny Novgorod |
+| 4 | `dumatlt.ru` | wikidata | Tolyatti City Council |
 | 4 | `samgd.ru` | wikidata | Samara Regional Duma |
 

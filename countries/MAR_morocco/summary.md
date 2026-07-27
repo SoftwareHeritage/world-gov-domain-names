@@ -43,14 +43,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 4 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `casasettat.ma` | wikidata | Casablanca-Settat Regional Council |
 | 4 | `conseilregionoriental.ma` | wikidata | Oriental Regional Council |
 | 4 | `crtta.ma` | wikidata | Tangier-Tetouan-Al Hoceima Regional Council |
+| 4 | `soussmassa.ma` | wikidata | Souss-Massa Regional Council |
 | 4 | `region-fes-meknes.ma` | wikidata | Fez-Meknes Regional Council |
 | 4 | `regionmarrakech-safi.ma` | wikidata | Marrakesh–Safi Regional Council |
-| 4 | `soussmassa.ma` | wikidata | Souss-Massa Regional Council |
 

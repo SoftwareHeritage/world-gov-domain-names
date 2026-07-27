@@ -48,20 +48,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-38 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+38 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Regional Council of Limousin | Nouvelle-Aquitaine Regional Council |
+| 4 | `cg971.fr` | wikidata | departmental council of Guadeloupe |
+| 4 | `hautenormandie.fr` | wikidata | Regional Council of Upper Normandy |
+| 4 | `regionpaca.fr` | wikidata | Regional Council of Provence-Alpes-Côte d'Azur |
+| 3 | `bretagne.bzh` | wikidata | Regional Council of Brittany |
+| 3 | `regionreunion.com` | wikidata | Regional council of Réunion |
 | 7 | `essonne.fr` | wikidata;wikidata | departmental council of Essonne | general council of Essonne |
 | 7 | `gard.fr` | wikidata;wikidata | departmental council of Gard | general council of Gard |
 | 7 | `lot.fr` | wikidata;wikidata | departmental council of Lot | general council of Lot |
-| 7 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Regional Council of Limousin | Nouvelle-Aquitaine Regional Council |
 | 7 | `vosges.fr` | wikidata;wikidata | departmental council of Vosges | general council of Vosges |
-| 4 | `aquitaine.fr` | wikidata | Aquitaine Regional Council |
-| 4 | `ariege.fr` | wikidata | departmental council of Ariège |
-| 4 | `bas-rhin.fr` | wikidata | departmental council of Bas-Rhin |
-| 4 | `bourgognefranchecomte.fr` | wikidata | Regional council of Bourgogne-Franche-Comté |
-| 4 | `cg64.fr` | wikidata | general council of Pyrénées-Atlantiques |
 
 ## ccTLD anomalies
 

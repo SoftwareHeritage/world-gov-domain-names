@@ -1,40 +1,40 @@
-type,label,website,hostname
-ministry,Ministry of Higher Education,http://www.mohe.gov.my/,mohe.gov.my
-ministry,Ministry of Agriculture and Food Security,https://www.kpkm.gov.my/,kpkm.gov.my
-ministry,Ministry of Works,https://www.kkr.gov.my/ms,kkr.gov.my
-ministry,Ministry of Environment and Water,https://www.kasa.gov.my/,kasa.gov.my
-ministry,Ministry of National Unity,https://www.perpaduan.gov.my/index.php/bm/,perpaduan.gov.my
-ministry,Ministry of Education of Malaysia,http://www.moe.gov.my/,moe.gov.my
-ministry,Ministry of Plantation Industries and Commodities,https://www.mpic.gov.my/mpi/,mpic.gov.my
-ministry,Ministry of International Trade and Industry,https://www.miti.gov.my/,miti.gov.my
-ministry,Ministry of Youth and Sports,https://www.kbs.gov.my/,kbs.gov.my
-ministry,Ministry of Human Resources,https://mohr.gov.my/index.php/ms/,mohr.gov.my
-ministry,Ministry of Rural and Regional Development,https://www.rurallink.gov.my/,rurallink.gov.my
-ministry,"Ministry of Tourism, Arts and Culture",https://www.motac.gov.my/,motac.gov.my
-ministry,Ministry of Digital,https://www.digital.gov.my,digital.gov.my
-ministry,Ministry of Transport,https://www.mot.gov.my/my,mot.gov.my
-ministry,Ministry of Home Affairs,http://www.moha.gov.my/,moha.gov.my
-ministry,Department of Environment,https://www.doe.gov.my/portalv1/,doe.gov.my
-ministry,Malaysian Prime Minister's Department,https://www.jpm.gov.my/ms/,jpm.gov.my
-ministry,Ministry of Housing and Local Government,https://www.kpkt.gov.my/,kpkt.gov.my
-ministry,Ministry of Energy and Natural Resources,https://www.ketsa.gov.my/ms-my/Pages/default.aspx,ketsa.gov.my
-ministry,"Ministry of Science, Technology and Innovation",http://www.kettha.gov.my/portal/index.php#,kettha.gov.my
-ministry,"Ministry of Science, Technology and Innovation",http://www.mosti.gov.my,mosti.gov.my
-ministry,Ministry of Health of Malaysia,https://www.moh.gov.my/,moh.gov.my
-ministry,Ministry of Defence of Malaysia,http://www.mod.gov.my,mod.gov.my
-ministry,"Ministry of Women, Family and Community Development",http://www.kpwkm.gov.my/,kpwkm.gov.my
-ministry,Ministry of the Federal Territories,http://www.kwp.gov.my,kwp.gov.my
-ministry,Ministry of Domestic Trade and Consumer Affairs,https://www.kpdnhep.gov.my/ms/,kpdnhep.gov.my
-ministry,Ministry of Communications and Multimedia,https://www.kkd.gov.my/,kkd.gov.my
-ministry,Ministry of Economic Affairs (Malaysia),http://mea.gov.my,mea.gov.my
-ministry,Ministry of Foreign Affairs of Malaysia,http://www.kln.gov.my/web/guest/home,kln.gov.my
-ministry,Ministry of Finance Malaysia,https://www.mof.gov.my/,mof.gov.my
-ministry,Ministry of Entrepreneurship Development and Co-operatives,https://www.medac.gov.my/,medac.gov.my
-parliament,Parliament of Malaysia,http://www.parlimen.gov.my/,parlimen.gov.my
-parliament,Sarawak State Legislative Assembly,https://duns.sarawak.gov.my,duns.sarawak.gov.my
-parliament,Bau District Council,https://baudc.sarawak.gov.my/,baudc.sarawak.gov.my
-parliament,Sabah State Legislative Assembly,https://dun.sabah.gov.my/ms/,dun.sabah.gov.my
-constitutional_court,Cabinet of Malaysia,https://www.kabinet.gov.my/bkpp/,kabinet.gov.my
-supreme_court,Parliament of Malaysia,http://www.parlimen.gov.my/,parlimen.gov.my
-supreme_court,Sarawak State Legislative Assembly,https://duns.sarawak.gov.my,duns.sarawak.gov.my
-supreme_court,Sabah State Legislative Assembly,https://dun.sabah.gov.my/ms/,dun.sabah.gov.my
+type,label,website,hostname,level
+ministry,Ministry of Higher Education,http://www.mohe.gov.my/,mohe.gov.my,
+ministry,Ministry of Agriculture and Food Security,https://www.kpkm.gov.my/,kpkm.gov.my,
+ministry,Ministry of Works,https://www.kkr.gov.my/ms,kkr.gov.my,
+ministry,Ministry of Environment and Water,https://www.kasa.gov.my/,kasa.gov.my,
+ministry,Ministry of National Unity,https://www.perpaduan.gov.my/index.php/bm/,perpaduan.gov.my,
+ministry,Ministry of Education of Malaysia,http://www.moe.gov.my/,moe.gov.my,
+ministry,Ministry of Plantation Industries and Commodities,https://www.mpic.gov.my/mpi/,mpic.gov.my,
+ministry,Ministry of International Trade and Industry,https://www.miti.gov.my/,miti.gov.my,
+ministry,Ministry of Youth and Sports,https://www.kbs.gov.my/,kbs.gov.my,
+ministry,Ministry of Human Resources,https://mohr.gov.my/index.php/ms/,mohr.gov.my,
+ministry,Ministry of Rural and Regional Development,https://www.rurallink.gov.my/,rurallink.gov.my,
+ministry,"Ministry of Tourism, Arts and Culture",https://www.motac.gov.my/,motac.gov.my,
+ministry,Ministry of Digital,https://www.digital.gov.my,digital.gov.my,
+ministry,Ministry of Transport,https://www.mot.gov.my/my,mot.gov.my,
+ministry,Ministry of Home Affairs,http://www.moha.gov.my/,moha.gov.my,
+ministry,Department of Environment,https://www.doe.gov.my/portalv1/,doe.gov.my,
+ministry,Malaysian Prime Minister's Department,https://www.jpm.gov.my/ms/,jpm.gov.my,
+ministry,Ministry of Housing and Local Government,https://www.kpkt.gov.my/,kpkt.gov.my,
+ministry,Ministry of Energy and Natural Resources,https://www.ketsa.gov.my/ms-my/Pages/default.aspx,ketsa.gov.my,
+ministry,"Ministry of Science, Technology and Innovation",http://www.kettha.gov.my/portal/index.php#,kettha.gov.my,
+ministry,"Ministry of Science, Technology and Innovation",http://www.mosti.gov.my,mosti.gov.my,
+ministry,Ministry of Health of Malaysia,https://www.moh.gov.my/,moh.gov.my,
+ministry,Ministry of Defence of Malaysia,http://www.mod.gov.my,mod.gov.my,
+ministry,"Ministry of Women, Family and Community Development",http://www.kpwkm.gov.my/,kpwkm.gov.my,
+ministry,Ministry of the Federal Territories,http://www.kwp.gov.my,kwp.gov.my,
+ministry,Ministry of Domestic Trade and Consumer Affairs,https://www.kpdnhep.gov.my/ms/,kpdnhep.gov.my,
+ministry,Ministry of Communications and Multimedia,https://www.kkd.gov.my/,kkd.gov.my,
+ministry,Ministry of Economic Affairs (Malaysia),http://mea.gov.my,mea.gov.my,
+ministry,Ministry of Foreign Affairs of Malaysia,http://www.kln.gov.my/web/guest/home,kln.gov.my,
+ministry,Ministry of Finance Malaysia,https://www.mof.gov.my/,mof.gov.my,
+ministry,Ministry of Entrepreneurship Development and Co-operatives,https://www.medac.gov.my/,medac.gov.my,
+parliament,Parliament of Malaysia,http://www.parlimen.gov.my/,parlimen.gov.my,
+parliament,Sarawak State Legislative Assembly,https://duns.sarawak.gov.my,duns.sarawak.gov.my,
+parliament,Bau District Council,https://baudc.sarawak.gov.my/,baudc.sarawak.gov.my,
+parliament,Sabah State Legislative Assembly,https://dun.sabah.gov.my/ms/,dun.sabah.gov.my,
+constitutional_court,Cabinet of Malaysia,https://www.kabinet.gov.my/bkpp/,kabinet.gov.my,
+supreme_court,Parliament of Malaysia,http://www.parlimen.gov.my/,parlimen.gov.my,
+supreme_court,Sarawak State Legislative Assembly,https://duns.sarawak.gov.my,duns.sarawak.gov.my,
+supreme_court,Sabah State Legislative Assembly,https://dun.sabah.gov.my/ms/,dun.sabah.gov.my,

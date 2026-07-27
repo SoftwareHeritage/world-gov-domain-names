@@ -1,29 +1,4 @@
-type,label,website,hostname
-ministry,Ministry of Interior and Health,https://www.ism.dk/,ism.dk
-ministry,Ministry of Ecclesiastical Affairs,https://www.km.dk/,km.dk
-ministry,Ministry of the State of Denmark,http://stm.dk/,stm.dk
-ministry,Ministry of Societal Safety and Emergency Management,https://mssb.dk/,mssb.dk
-ministry,Tax Ministry of Denmark,https://www.skm.dk/,skm.dk
-ministry,Ministry of the Implementation of the Green Three-Partite Agreement,https://mgtp.dk,mgtp.dk
-ministry,Ministry of Defence of Denmark,https://www.fmn.dk/,fmn.dk
-ministry,Ministry of Culture,https://kum.dk/,kum.dk
-ministry,Ministry of Justice,https://www.justitsministeriet.dk/,justitsministeriet.dk
-ministry,"Ministry of Industry, Business and Financial Affairs",https://em.dk/,em.dk
-ministry,"Ministry of Industry, Business and Financial Affairs",https://em.dk/english,em.dk
-ministry,Ministry of Transport of Denmark,https://www.trm.dk/,trm.dk
-ministry,"Ministry of Energy, Utilities, and Climate",https://kefm.dk/,kefm.dk
-ministry,Ministry of Finance of Denmark,https://fm.dk/,fm.dk
-ministry,Ministry of Labour,https://bm.dk/,bm.dk
-ministry,Ministry of the Elderly of Denmark,https://aeldremin.dk,aeldremin.dk
-ministry,Ministry of the Elderly of Denmark,https://english.aeldremin.dk,english.aeldremin.dk
-parliament,Folketing,https://ft.dk,ft.dk
-parliament,Folketing,https://thedanishparliament.dk,thedanishparliament.dk
-parliament,Folketing,https://www.folkatingid.dk,folkatingid.dk
-parliament,Folketing,https://www.folketingi.dk,folketingi.dk
-parliament,Kolding City Council,https://www.kolding.dk/politik/byradet-2/byradets-medlemmer-2018-21,kolding.dk
-parliament,Parliamentary Assembly of the Organization for Security and Co-operation in Europe,https://www.oscepa.org/,oscepa.org
-supreme_court,Folketing,https://ft.dk,ft.dk
-supreme_court,Folketing,https://thedanishparliament.dk,thedanishparliament.dk
-supreme_court,Folketing,https://www.folkatingid.dk,folkatingid.dk
-supreme_court,Folketing,https://www.folketingi.dk,folketingi.dk
-supreme_court,Parliamentary Assembly of the Organization for Security and Co-operation in Europe,https://www.oscepa.org/,oscepa.org
+type,label,website,hostname,level
+parliament,Kolding City Council,https://www.kolding.dk/politik/byradet-2/byradets-medlemmer-2018-21,kolding.dk,
+parliament,Parliamentary Assembly of the Organization for Security and Co-operation in Europe,https://www.oscepa.org/,oscepa.org,
+supreme_court,Parliamentary Assembly of the Organization for Security and Co-operation in Europe,https://www.oscepa.org/,oscepa.org,

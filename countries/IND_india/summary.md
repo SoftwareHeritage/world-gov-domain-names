@@ -58,10 +58,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-60 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+60 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `mcdonline.nic.in` | wikidata;wikidata | Municipal Corporation of Delhi |
 | 7 | `ayodhya.nic.in` | wikidata;wikidata | Ayodhya Municipal Corporation |
 | 7 | `bhadreswarmunicipality-gov.in` | wikidata;wikidata | Bhadreswar Municipality |
 | 7 | `bkpmuty.in` | wikidata;wikidata | Barrackpore Municipality |
@@ -71,5 +72,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `dalkholamunicipality.org.in` | wikidata;wikidata | Dalkhola Municipality |
 | 7 | `gmcportal.in` | wikidata;wikidata | Guwahati Municipal Corporation |
 | 7 | `hcm.net.in` | wikidata;wikidata | Hugli-Chinsurah Municipality |
-| 7 | `kmc.up.nic.in` | wikidata;wikidata | Kanpur Municipal Corporation |
 

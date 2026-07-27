@@ -1,56 +1,56 @@
-type,label,website,hostname
-ministry,Kementerian Perhubungan,https://www.dephub.go.id/,dephub.go.id
-ministry,Ministry of Defense,https://www.kemhan.go.id/,kemhan.go.id
-ministry,Ministry of Social Affairs,https://www.kemensos.go.id/,kemensos.go.id
-ministry,Ministry of Agriculture,https://www.pertanian.go.id/,pertanian.go.id
-ministry,Ministry of National Development Planning,https://www.bappenas.go.id/,bappenas.go.id
-ministry,Ministry of Youth and Sports,https://www.kemenpora.go.id/,kemenpora.go.id
-ministry,Ministry of Villages and Development of Disadvantaged Regions,https://www.kemendesa.go.id/,kemendesa.go.id
-ministry,Ministry of Women Empowerment and Child Protection,https://www.kemenpppa.go.id/,kemenpppa.go.id
-ministry,Ministry of Manpower,https://www.kemnaker.go.id/,kemnaker.go.id
-ministry,Ministry of Administrative and Bureaucratic Reform,https://www.menpan.go.id/,menpan.go.id
-ministry,Ministry of Marine Affairs and Fisheries,https://www.kkp.go.id/,kkp.go.id
-ministry,Ministry of Trade,http://www.kemendag.go.id/,kemendag.go.id
-ministry,Ministry of Trade,http://www.kemendag.go.id/en/perdagangan-kita/company-directory/data-center-collection/,kemendag.go.id
-ministry,Ministry of Social Affairs,https://kemensos.go.id/lang/en,kemensos.go.id
-ministry,Ministry of Social Affairs,https://kemensos.go.id/lang/id,kemensos.go.id
-ministry,Ministry of Cooperatives,https://www.kemenkopukm.go.id/,kemenkopukm.go.id
-ministry,Ministry of Investment and Downstream Industry,https://www.bkpm.go.id/,bkpm.go.id
-ministry,Ministry of Environment,https://www.kemenlh.go.id/,kemenlh.go.id
-ministry,Ministry of Marine Affairs and Fisheries,http://www.kkp.go.id,kkp.go.id
-ministry,Ministry of Agrarian and Spatial Planning,https://www.atrbpn.go.id/,atrbpn.go.id
-ministry,Ministry of Tourism,https://www.kemenparekraf.go.id/,kemenparekraf.go.id
-ministry,Coordinating Ministry for Maritime and Investments Affairs,https://maritim.go.id/,maritim.go.id
-ministry,Coordinating Ministry for Maritime and Investments Affairs,https://www.maritim.go.id/,maritim.go.id
-ministry,Ministry of Tourism,https://kemenpar.go.id/,kemenpar.go.id
-ministry,Ministry of Tourism,https://www.kemenparekraf.go.id/en,kemenparekraf.go.id
-ministry,Ministry of Population and Family Development,https://www.kemendukbangga.go.id,kemendukbangga.go.id
-ministry,Ministry of Human Rights,https://ham.go.id/,ham.go.id
-ministry,Ministry of Foreign Affairs,https://www.kemlu.go.id/,kemlu.go.id
-ministry,Ministry of Health of Indonesia,https://www.kemkes.go.id/,kemkes.go.id
-ministry,Ministry of Religious Affairs,https://www.kemenag.go.id/,kemenag.go.id
-ministry,"Coordinating Ministry for Legal, Human Rights, Immigration, and Correction",https://kumham-imipas.go.id/,kumham-imipas.go.id
-ministry,Coordinating Ministry for Human Development and Cultural Affairs,https://www.kemenkopmk.go.id/,kemenkopmk.go.id
-ministry,Ministry of Energy and Mineral Resources,https://www.esdm.go.id/,esdm.go.id
-ministry,Ministry of Communication and Digital Affairs,https://www.kominfo.go.id/,kominfo.go.id
-ministry,Ministry of Forestry,https://kehutanan.go.id/,kehutanan.go.id
-ministry,Ministry of Indonesian Migrant Workers Protection,https://bp2mi.go.id,bp2mi.go.id
-ministry,Coordinating Ministry for Political and Security Affairs,https://polkam.go.id/,polkam.go.id
-ministry,Coordinating Ministry for Economic Affairs,https://www.ekon.go.id/,ekon.go.id
-ministry,Ministry of Finance of Indonesia,https://www.kemenkeu.go.id/,kemenkeu.go.id
-ministry,Ministry of Health of Indonesia,https://www.kemkes.go.id/index.php?lg=LN02,kemkes.go.id
-ministry,Ministry of Trade,https://www.kemendag.go.id/,kemendag.go.id
-ministry,Ministry of Law,https://www.kemenkumham.go.id/,kemenkumham.go.id
-ministry,Ministry of Home Affairs,http://www.kemendagri.go.id/,kemendagri.go.id
-parliament,Banjar Regional People's Representative Council,https://dprd.banjarkota.go.id,dprd.banjarkota.go.id
-parliament,Jakarta Regional House of Representatives,http://dprd-dkijakartaprov.go.id/,dprd-dkijakartaprov.go.id
-parliament,Southeast Sulawesi Regional House of Representatives,https://www.lapor.go.id/instansi/dewan-perwakilan-rakyat-daerah-sulawesi-tenggara,lapor.go.id
-parliament,People's Consultative Assembly,https://mpr.go.id/,mpr.go.id
-parliament,Padang City Council,http://dprd.padang.go.id,dprd.padang.go.id
-parliament,Bandung City Regional House of Representatives,https://dprd.bandung.go.id/,dprd.bandung.go.id
-parliament,Pangandaran Regional People's Representative Council,https://dprd.pangandarankab.go.id,dprd.pangandarankab.go.id
-parliament,Ciamis Regional People's Representative Council,https://dprd.ciamiskab.go.id,dprd.ciamiskab.go.id
-parliament,Bekasi City Regional House of Representatives,https://dprd.bekasikota.go.id/,dprd.bekasikota.go.id
-parliament,Poso Regional People's Representative Council,http://www.dprd.posokab.go.id/,dprd.posokab.go.id
-supreme_court,People's Consultative Assembly,https://mpr.go.id/,mpr.go.id
-supreme_court,Poso Regional People's Representative Council,http://www.dprd.posokab.go.id/,dprd.posokab.go.id
+type,label,website,hostname,level
+ministry,Kementerian Perhubungan,https://www.dephub.go.id/,dephub.go.id,
+ministry,Ministry of Defense,https://www.kemhan.go.id/,kemhan.go.id,
+ministry,Ministry of Social Affairs,https://www.kemensos.go.id/,kemensos.go.id,
+ministry,Ministry of Agriculture,https://www.pertanian.go.id/,pertanian.go.id,
+ministry,Ministry of National Development Planning,https://www.bappenas.go.id/,bappenas.go.id,
+ministry,Ministry of Youth and Sports,https://www.kemenpora.go.id/,kemenpora.go.id,
+ministry,Ministry of Villages and Development of Disadvantaged Regions,https://www.kemendesa.go.id/,kemendesa.go.id,
+ministry,Ministry of Women Empowerment and Child Protection,https://www.kemenpppa.go.id/,kemenpppa.go.id,
+ministry,Ministry of Manpower,https://www.kemnaker.go.id/,kemnaker.go.id,
+ministry,Ministry of Administrative and Bureaucratic Reform,https://www.menpan.go.id/,menpan.go.id,
+ministry,Ministry of Marine Affairs and Fisheries,https://www.kkp.go.id/,kkp.go.id,
+ministry,Ministry of Trade,http://www.kemendag.go.id/,kemendag.go.id,
+ministry,Ministry of Trade,http://www.kemendag.go.id/en/perdagangan-kita/company-directory/data-center-collection/,kemendag.go.id,
+ministry,Ministry of Social Affairs,https://kemensos.go.id/lang/en,kemensos.go.id,
+ministry,Ministry of Social Affairs,https://kemensos.go.id/lang/id,kemensos.go.id,
+ministry,Ministry of Cooperatives,https://www.kemenkopukm.go.id/,kemenkopukm.go.id,
+ministry,Ministry of Investment and Downstream Industry,https://www.bkpm.go.id/,bkpm.go.id,
+ministry,Ministry of Environment,https://www.kemenlh.go.id/,kemenlh.go.id,
+ministry,Ministry of Marine Affairs and Fisheries,http://www.kkp.go.id,kkp.go.id,
+ministry,Ministry of Agrarian and Spatial Planning,https://www.atrbpn.go.id/,atrbpn.go.id,
+ministry,Ministry of Tourism,https://www.kemenparekraf.go.id/,kemenparekraf.go.id,
+ministry,Coordinating Ministry for Maritime and Investments Affairs,https://maritim.go.id/,maritim.go.id,
+ministry,Coordinating Ministry for Maritime and Investments Affairs,https://www.maritim.go.id/,maritim.go.id,
+ministry,Ministry of Tourism,https://kemenpar.go.id/,kemenpar.go.id,
+ministry,Ministry of Tourism,https://www.kemenparekraf.go.id/en,kemenparekraf.go.id,
+ministry,Ministry of Population and Family Development,https://www.kemendukbangga.go.id,kemendukbangga.go.id,
+ministry,Ministry of Human Rights,https://ham.go.id/,ham.go.id,
+ministry,Ministry of Foreign Affairs,https://www.kemlu.go.id/,kemlu.go.id,
+ministry,Ministry of Health of Indonesia,https://www.kemkes.go.id/,kemkes.go.id,
+ministry,Ministry of Religious Affairs,https://www.kemenag.go.id/,kemenag.go.id,
+ministry,"Coordinating Ministry for Legal, Human Rights, Immigration, and Correction",https://kumham-imipas.go.id/,kumham-imipas.go.id,
+ministry,Coordinating Ministry for Human Development and Cultural Affairs,https://www.kemenkopmk.go.id/,kemenkopmk.go.id,
+ministry,Ministry of Energy and Mineral Resources,https://www.esdm.go.id/,esdm.go.id,
+ministry,Ministry of Communication and Digital Affairs,https://www.kominfo.go.id/,kominfo.go.id,
+ministry,Ministry of Forestry,https://kehutanan.go.id/,kehutanan.go.id,
+ministry,Ministry of Indonesian Migrant Workers Protection,https://bp2mi.go.id,bp2mi.go.id,
+ministry,Coordinating Ministry for Political and Security Affairs,https://polkam.go.id/,polkam.go.id,
+ministry,Coordinating Ministry for Economic Affairs,https://www.ekon.go.id/,ekon.go.id,
+ministry,Ministry of Finance of Indonesia,https://www.kemenkeu.go.id/,kemenkeu.go.id,
+ministry,Ministry of Health of Indonesia,https://www.kemkes.go.id/index.php?lg=LN02,kemkes.go.id,
+ministry,Ministry of Trade,https://www.kemendag.go.id/,kemendag.go.id,
+ministry,Ministry of Law,https://www.kemenkumham.go.id/,kemenkumham.go.id,
+ministry,Ministry of Home Affairs,http://www.kemendagri.go.id/,kemendagri.go.id,
+parliament,Banjar Regional People's Representative Council,https://dprd.banjarkota.go.id,dprd.banjarkota.go.id,
+parliament,Jakarta Regional House of Representatives,http://dprd-dkijakartaprov.go.id/,dprd-dkijakartaprov.go.id,
+parliament,Southeast Sulawesi Regional House of Representatives,https://www.lapor.go.id/instansi/dewan-perwakilan-rakyat-daerah-sulawesi-tenggara,lapor.go.id,
+parliament,People's Consultative Assembly,https://mpr.go.id/,mpr.go.id,
+parliament,Padang City Council,http://dprd.padang.go.id,dprd.padang.go.id,
+parliament,Bandung City Regional House of Representatives,https://dprd.bandung.go.id/,dprd.bandung.go.id,
+parliament,Pangandaran Regional People's Representative Council,https://dprd.pangandarankab.go.id,dprd.pangandarankab.go.id,
+parliament,Ciamis Regional People's Representative Council,https://dprd.ciamiskab.go.id,dprd.ciamiskab.go.id,
+parliament,Bekasi City Regional House of Representatives,https://dprd.bekasikota.go.id/,dprd.bekasikota.go.id,
+parliament,Poso Regional People's Representative Council,http://www.dprd.posokab.go.id/,dprd.posokab.go.id,
+supreme_court,People's Consultative Assembly,https://mpr.go.id/,mpr.go.id,
+supreme_court,Poso Regional People's Representative Council,http://www.dprd.posokab.go.id/,dprd.posokab.go.id,

@@ -42,16 +42,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-8 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+8 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `council.chungbuk.kr` | wikidata;wikidata | North Chungcheong Province municipal council |
-| 7 | `council.gwangju.kr` | wikidata;wikidata | Gwangju municipal council |
-| 7 | `council.jeju.kr` | wikidata;wikidata | Jeju municipal council |
 | 7 | `council.ulsan.kr` | wikidata;wikidata | Ulsan Metropolitan Council |
 | 7 | `gncl.or.kr` | wikidata;wikidata | South Gyeongsang Province municipal council |
 | 7 | `jbstatecouncil.jeonbuk.kr` | wikidata;wikidata | North Jeolla Province municipal council |
 | 7 | `smc.seoul.kr` | wikidata;wikidata;wikidata;wikidata | Seoul municipal council |
 | 6 | `council.chungnam.net` | wikidata;wikidata | South Chungcheong Province municipal council |
+| 7 | `council.gwangju.kr` | wikidata;wikidata | Gwangju municipal council |
+| 7 | `council.jeju.kr` | wikidata;wikidata | Jeju municipal council |
 

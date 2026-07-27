@@ -58,10 +58,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-39 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+39 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 3 | `madrid.org` | wikidata | Government of the Community of Madrid |
 | 7 | `madrid.es` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Central District Municipal board | Carabanchel District Municipal board | Arg... |
 | 6 | `ddgi.cat` | wikidata;wikidata | Diputación Provincial de Gerona |
 | 4 | `burgos.es` | wikidata | Diputación Provincial de Burgos |
@@ -71,5 +72,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `dip-caceres.es` | wikidata | Diputación Provincial de Cáceres |
 | 4 | `dipcas.es` | wikidata | Diputación Provincial de Castellón |
 | 4 | `dipgra.es` | wikidata | Diputación Provincial de Granada |
-| 4 | `diphuelva.es` | wikidata | Diputación Provincial de Huelva |
 

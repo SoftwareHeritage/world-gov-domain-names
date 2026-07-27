@@ -45,18 +45,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-34 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+34 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 16 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `ars.sicilia.it` | wikidata;wikidata | Sicilian Regional Assembly |
-| 7 | `comune.bari.it` | wikidata;wikidata | Bari City Council |
-| 7 | `comune.bologna.it` | wikidata;wikidata | Bologna City Council |
-| 7 | `comune.cagliari.it` | wikidata;wikidata;wikidata | city council of Cagliari | municipal council of Cagliari |
-| 7 | `comune.catania.it` | wikidata;wikidata | Catania City Council |
-| 7 | `comune.fi.it` | wikidata;wikidata | Florence City Council |
-| 7 | `comune.genova.it` | wikidata;wikidata | Genoa City Council |
-| 7 | `comune.milano.it` | wikidata;wikidata | City Council of Milan |
-| 7 | `comune.monza.it` | wikidata;wikidata | City Council of Monza |
-| 7 | `comune.napoli.it` | wikidata;wikidata | Naples City Council |
+| 7 | `consiglio.basilicata.it` | wikidata;wikidata | Regional Council of Basilicata |
+| 7 | `consiglio.marche.it` | wikidata;wikidata | Regional Council of Marche |
+| 7 | `consiglio.puglia.it` | wikidata;wikidata | Regional Council of Apulia |
+| 7 | `consiglio.regione.abruzzo.it` | wikidata;wikidata | Regional Council of Abruzzo |
+| 7 | `consiglio.regione.lazio.it` | wikidata;wikidata | Regional Council of Lazio |
+| 7 | `consiglio.regione.lombardia.it` | wikidata;wikidata | Regional Council of Lombardy |
+| 7 | `consiglio.regione.molise.it` | wikidata;wikidata | Regional Council of Molise |
+| 7 | `consiglio.regione.sardegna.it` | wikidata;wikidata | Regional Council of Sardinia |
+| 7 | `consiglio.regione.toscana.it` | wikidata;wikidata | Regional Council of Tuscany |
+| 7 | `consiglio.regione.umbria.it` | wikidata;wikidata | Regional Council of Umbria |
 

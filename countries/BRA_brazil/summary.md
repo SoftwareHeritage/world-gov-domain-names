@@ -58,10 +58,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-35 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+35 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 4 | `saopaulo.sp.leg.br` | wikidata | Municipal Chamber of São Paulo |
 | 7 | `anapolis.go.leg.br` | wikidata;wikidata | municipal council of Anapolis |
 | 7 | `aracaju.se.leg.br` | wikidata;wikidata | municipal Chamber of Aracaju |
 | 7 | `bauru.sp.leg.br` | wikidata;wikidata | municipal chamber of Bauru |
@@ -71,5 +72,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `campinas.sp.leg.br` | wikidata;wikidata | Municipal Chamber of Campinas |
 | 7 | `caruaru.pe.leg.br` | wikidata;wikidata | municipal chamber of Caruaru |
 | 7 | `cmmc.com.br` | wikidata;wikidata | municipal chamber of Mogi das Cruzes |
-| 7 | `feiradesantana.ba.leg.br` | wikidata;wikidata | municipal chamber of Feira de Santana |
 

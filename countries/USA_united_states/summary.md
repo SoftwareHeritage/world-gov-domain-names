@@ -58,18 +58,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-129 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+129 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `azleg.gov` | wikidata;wikidata | Arizona State Legislature |
 | 8 | `capitol.hawaii.gov` | wikidata;wikidata | Hawaii State Legislature |
-| 8 | `harrisburgpa.gov` | wikidata;wikidata | Harrisburg City Council | Harrisburg |
 | 8 | `le.utah.gov` | wikidata;wikidata | Utah State Legislature |
 | 8 | `leg.wa.gov` | wikidata;wikidata | Washington State Legislature |
 | 8 | `legis.la.gov` | wikidata;wikidata | Louisiana State Legislature |
 | 8 | `nysenate.gov` | wikidata;wikidata | New York State Legislature |
 | 6 | `assembly.state.ny.us` | wikidata;wikidata | New York State Legislature |
-| 6 | `ci.petersburg.ak.us` | wikidata;wikidata | Petersburg | Petersburg Borough |
-| 6 | `citycouncil.cityofomaha.org` | wikidata;wikidata | Omaha City Council |
+| 3 | `ocsd62.org` | wikidata | Oregon City School District No. 62 |
+| 3 | `oregontrailschools.com` | wikidata | Oregon Trail School District No. 46 |
+| 8 | `harrisburgpa.gov` | wikidata;wikidata | Harrisburg City Council | Harrisburg |
 

@@ -58,11 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-77 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+77 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 59 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `city.kakegawa.shizuoka.jp` | wikidata;wikidata;wikidata | Kakegawa City Council | Kakegawa |
 | 7 | `metro.tokyo.lg.jp` | wikidata;wikidata | Tokyo Metropolitan Government | Tokyo |
 | 7 | `pref.aichi.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Aichi Prefectural Public Safety Commission | Aichi Prefecture | Aichi prefect... |
 | 7 | `pref.aomori.lg.jp` | wikidata;wikidata | Aomori Prefecture |
@@ -72,4 +71,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `pref.fukuoka.lg.jp` | wikidata;wikidata;wikidata;wikidata;wikidata | Fukuoka Prefectural Board of Education | Fukuoka Prefecture | Fukuoka prefect... |
 | 7 | `pref.fukushima.lg.jp` | wikidata;wikidata | Fukushima Prefecture |
 | 7 | `pref.gifu.lg.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Gifu Prefectural Board of Education | Gifu Prefecture |
+| 7 | `pref.gunma.jp` | wikidata;wikidata;wikidata | Gunma Prefectural Board of Education | Gunma Prefecture | Gunma prefectural g... |
 
