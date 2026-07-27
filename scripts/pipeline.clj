@@ -30,6 +30,7 @@
 ;;   forges             forge-looking hosts -> data/forge-candidates.csv
 ;;   forges-swh         forge targets unknown to SWH -> data/forge-unknown-swh.csv
 ;;   github-orgs        GitHub governments.yml -> data/github-gov-orgs.csv
+;;   regex              email-domain regexes -> data/domain-regexes.csv
 ;;
 ;; Environment variables:
 ;;   FORCE=1            force-overwrite existing outputs
@@ -2103,6 +2104,43 @@
     (err "ERR: could not fetch " governments-yml-url)))
 
 ;; ===========================================================================
+;;  Utilitaire -- regex (email-domain regexes for swh-institutional-analysis)
+;; ===========================================================================
+
+(defn domain-regex
+  "Email regex over root domains, in the domain_regex format expected by
+  swh-institutional-analysis: .*@(.*\\.)?(?:dom1|dom2)$ -- matches addresses
+  at any of the domains or their subdomains."
+  [domains]
+  (str ".*@(.*\\.)?(?:"
+       (str/join "|" (map #(str/replace % "." "\\.") (sort domains)))
+       ")$"))
+
+(defn cmd-regex
+  "Build per-country email-domain regexes from the confirmed
+  central-government roots (public-sector-central-gov.csv) into
+  data/domain-regexes.csv, plus a single all-countries regex in
+  data/domain-regex-all.txt. Both are meant for the domain_regex setting of
+  swh-institutional-analysis."
+  [_]
+  (if-not (fs/exists? central-gov-file)
+    (err "ERR: " central-gov-file " missing. Run 'bb pipeline central' first")
+    (let [rows (rest (read-csv-raw central-gov-file))
+          by-country (group-by second rows)
+          out-rows (for [[country crows] (sort-by first by-country)
+                         :let [domains (distinct (map first crows))
+                               un-status (nth (first crows) 2 "")]]
+                     [country un-status (str (count domains))
+                      (domain-regex domains)])]
+      (write-csv-file "data/domain-regexes.csv"
+                      ["country" "un_status" "n_domains" "regex"] out-rows)
+      (spit "data/domain-regex-all.txt"
+            (str (domain-regex (distinct (map first rows))) "\n"))
+      (println (str "Wrote data/domain-regexes.csv (" (count out-rows)
+                    " countries) and data/domain-regex-all.txt ("
+                    (count (distinct (map first rows))) " domains)")))))
+
+;; ===========================================================================
 ;;  Dispatcher
 ;; ===========================================================================
 
@@ -2139,7 +2177,8 @@
    "validate-un" (fn [_] (cmd-validate-un nil))
    "forges"      cmd-forges
    "forges-swh"  cmd-forges-swh
-   "github-orgs" (fn [_] (cmd-github-orgs nil))})
+   "github-orgs" (fn [_] (cmd-github-orgs nil))
+   "regex"       cmd-regex})
 
 (defn usage []
   (println "Usage: bb scripts/pipeline.clj <command> [args…]")
@@ -2151,7 +2190,7 @@
   (println "  fetch | retry | normalize | probe | mx | aggregate | central")
   (println "  cisa | lannuaire")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
-  (println "  validate-un | forges | forges-swh | github-orgs")
+  (println "  validate-un | forges | forges-swh | github-orgs | regex")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
 

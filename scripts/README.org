@@ -54,6 +54,7 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj forges                # forge-looking hosts -> data/forge-candidates.csv
   bb scripts/pipeline.clj forges-swh            # forge targets unknown to SWH -> data/forge-unknown-swh.csv
   bb scripts/pipeline.clj github-orgs           # GitHub governments.yml -> data/github-gov-orgs.csv
+  bb scripts/pipeline.clj regex                 # email-domain regexes -> data/domain-regexes.csv
 #+end_src
 
 =forges-swh= checks forge targets against the Software Heritage
@@ -69,6 +70,12 @@ so they are listed for reference but not searched. With the
 too. The anonymous API allows 10 requests per rate-limit window (the
 command paces itself accordingly); set =SWH_TOKEN= to authenticate and
 go faster -- recommended for the ~1000-org =github-orgs= sweep.
+
+=regex= derives, from the confirmed central-government roots, one
+email-domain regex per country (=data/domain-regexes.csv=) plus a
+global one (=data/domain-regex-all.txt=), in the =domain_regex= format
+expected by [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]]:
+=.*@(.*\.)?(?:gouv\.fr|insee\.fr|…)$=.
 
 * Prerequisites
 

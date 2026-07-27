@@ -57,6 +57,10 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - =forge-unknown-swh.csv= -- forge targets (harvested + curated) that
   the [[https://archive.softwareheritage.org][Software Heritage archive]] does not know yet (checked against
   its origin-search API): candidates for archival.
+- =domain-regexes.csv= (and =domain-regex-all.txt=) -- per-country (and
+  global) email-domain regexes over the confirmed central-government
+  roots, ready for the =domain_regex= setting of
+  [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]].
 - A few generated mapping files linking country names to source IDs.
 
 * Where the data comes from
