@@ -687,9 +687,19 @@
              :let [path (country-src c "registry" file)]
              :when (fs/exists? path)
              [domain label] (rest (read-csv-raw path))
-             :when (not (or (str/blank? domain) (str/blank? label)))]
-         [[c (str/lower-case (str/trim domain))]
-          (str/lower-case (str/trim label))])
+             :let [domain (some-> domain str/trim str/lower-case)
+                   label  (some-> label str/trim str/lower-case)
+                   ;; labels are interpolated unquoted in domain-regex's
+                   ;; lookahead, so they must be regex-safe by construction
+                   valid? (and (valid-hostname? domain)
+                               (some? label)
+                               (re-matches #"[a-z0-9-]+" label))
+                   _ (when (and (not valid?)
+                                (not (every? str/blank? [domain label])))
+                       (err "WARN: ignoring invalid excluded-label row ["
+                            domain " " label "] in " path))]
+             :when valid?]
+         [[c domain] label])
        (reduce (fn [m [k label]] (update m k (fnil conj #{}) label)) {})))
 
 (defn- central-root-entries
@@ -2180,9 +2190,13 @@
   ;; national (Natural England, Charity Commission, NIO…), not sub-central.
   #"^(E92|S92|W92|N92|K0)")
 
-(defn- govuk-label-of-website [web]
-  (some-> (re-find #"^https?://(?:www\.)?([a-z0-9-]+)\.gov\.uk"
-                   (str/lower-case (str web)))
+(defn- govuk-label-of-website
+  "The registrable gov.uk label of a website URL, whatever the host depth:
+  https://beta.xcouncil.gov.uk/ -> xcouncil. Nil when not a gov.uk site."
+  [web]
+  (some-> (re-find
+           #"^https?://(?:[a-z0-9-]+\.)*([a-z0-9-]+)\.gov\.uk(?:[/:?#]|$)"
+           (str/lower-case (str web)))
           second))
 
 (defn- govuk-wikidata-locals
@@ -2201,28 +2215,48 @@
               "  ?area wdt:P836 ?gss .\n" label-svc "}")]]
     (->> queries
          (mapcat (fn [q]
-                   ;; A slow WDQS answer can come back truncated (invalid
-                   ;; JSON): retry once, then fail loudly rather than
+                   ;; A missing (network failure) or truncated (invalid
+                   ;; JSON) WDQS answer must not pass for an empty result:
+                   ;; up to 3 attempts, then fail loudly rather than
                    ;; silently under-excluding.
                    (loop [attempt 1]
                      (let [body (wikidata-run-query q)
                            _ (Thread/sleep 1000)
-                           parsed (try (-> (json/parse-string (or body "{}") true)
-                                           :results :bindings)
-                                       (catch Exception e
-                                         (err "  [govuk] truncated WDQS response"
-                                              " (attempt " attempt "): "
-                                              (.getMessage e))
-                                         ::fail))]
+                           parsed
+                           (if (str/blank? body)
+                             (do (err "  [govuk] no WDQS response"
+                                      " (attempt " attempt ")")
+                                 ::fail)
+                             (try (-> (json/parse-string body true)
+                                      :results :bindings)
+                                  (catch Exception e
+                                    (err "  [govuk] truncated WDQS response"
+                                         " (attempt " attempt "): "
+                                         (.getMessage e))
+                                    ::fail)))]
                        (cond (not= parsed ::fail) parsed
                              (< attempt 3) (recur (inc attempt))
-                             :else (throw (ex-info "WDQS query failed after 3 attempts, aborting (rerun bb pipeline govuk)" {})))))))
+                             :else (throw (ex-info (str "WDQS query failed "
+                                                        "3 times, aborting")
+                                                   {})))))))
          (keep (fn [b]
-                 (let [gss   (get-in b [:gss :value] "")
-                       label (govuk-label-of-website (get-in b [:web :value]))]
+                 (let [web   (get-in b [:web :value] "")
+                       gss   (get-in b [:gss :value] "")
+                       label (govuk-label-of-website web)]
                    (when (and label (not (re-find govuk-national-gss gss)))
-                     [label (get-in b [:itemLabel :value] "")]))))
-         (into {}))))
+                     ;; apex? -> the site sits at label.gov.uk itself, so the
+                     ;; entity name is the label's canonical owner (a council)
+                     ;; rather than some deeper page under its domain (a
+                     ;; parish site hosted by its county)
+                     [label (get-in b [:itemLabel :value] "")
+                      (boolean (re-find #"^https?://(?:www\.)?[a-z0-9-]+\.gov\.uk(?:[/:?#]|$)"
+                                        (str/lower-case web)))]))))
+         (reduce (fn [m [label name apex?]]
+                   (if (or (and apex? (not (str/blank? name)))
+                           (not (contains? m label)))
+                     (assoc m label name)
+                     m))
+                 {}))))
 
 (defn cmd-govuk [_]
   ;; Build the GBR excluded-labels registry: every gov.uk label belonging to
@@ -2241,7 +2275,7 @@
                                           second))
                           set)
             wd (govuk-wikidata-locals)
-            wd-hits (select-keys wd (filter universe (keys wd)))
+            wd-hits (select-keys wd universe)
             pattern-hit? (fn [l] (and (not (govuk-central-allowlist l))
                                       (boolean (some #(re-find % l)
                                                      govuk-local-label-patterns))))
