@@ -40,6 +40,7 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj central               # extract public-sector-central-gov.csv
   bb scripts/pipeline.clj cisa                  # refresh US federal .gov registry (CISA)
   bb scripts/pipeline.clj lannuaire             # refresh FR central-admin registry (service-public)
+  bb scripts/pipeline.clj govuk                 # rebuild UK sub-central exclusions (CDDO + Wikidata)
 
   bb scripts/pipeline.clj wikidata Q142:FRA_france
   bb scripts/pipeline.clj iana FRA_france
@@ -76,6 +77,45 @@ email-domain regex per country (=data/domain-regexes.csv=) plus a
 global one (=data/domain-regex-all.txt=), in the =domain_regex= format
 expected by [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]]:
 =.*@(.*\.)?(?:gouv\.fr|insee\.fr|…)$=.
+
+A root domain falls under one of three regimes, so the regexes stay
+central-government-only:
+
+1. *Level-homogeneous suffix* (the default: =gouv.fr=, =gc.ca=,
+   =go.jp=…): everything under the root is central government, the
+   plain =(.*\.)?root= wildcard is correct.
+2. *Mixed suffix, structurally separable* (=gov.br=, =gov.au=): lower
+   government tiers live under known labels of the root. Those labels
+   are curated in =sources/registry/excluded-labels.csv=
+   (=domain,label,level,name= -- e.g. the 27 Brazilian state codes
+   under =gov.br= or the 8 Australian state/territory codes under
+   =gov.au=, whose subtrees mix subdivision agencies and
+   municipalities), and =regex= turns them into a negative lookahead:
+   =fazenda.gov.br= matches, =sp.gov.br= and =campinas.sp.gov.br= do
+   not. Hand-curated additions go in =excluded-labels-extra.csv= (same
+   columns), which generated files never overwrite. The =level= column
+   records the tier of the excluded subtree's apex (=central-1= for a
+   state), reusable when the report reaches that tier.
+
+   The UK is a heavier variant: councils of all tiers (incl. ~4500
+   parish councils), combined authorities and devolved administrations
+   sit directly under =gov.uk= next to the departments. =bb pipeline
+   govuk= generates the exclusions from the official CDDO list of all
+   registered gov.uk domains, classified via Wikidata GSS anchoring
+   (P836 statistical-geography codes, on the entity or its P1001
+   jurisdiction, country-level codes excluded) plus naming conventions
+   (=…parish=, =…-pc=, =…cc=, =…-ca=, =…-ni=, fire services, national
+   parks…), with a small allowlist protecting central acronym bodies
+   (DECC, JNCC, RPC…). Residual sub-central bodies with opaque names
+   are curated by hand in =excluded-labels-extra.csv= (locals plus
+   Scotland/Wales/NI devolved bodies tagged =central-1=). Refresh with
+   =bb pipeline govuk= after updating =govuk-domains-url= to the
+   latest yearly snapshot.
+3. *Mixed suffix, not separable by shape* (US =.gov=, where federal,
+   state and city domains share the same structure): the central-level
+   domains must be enumerated from an authoritative register into
+   =sources/registry/roots.csv= (e.g. CISA's federal =.gov= list via
+   =bb pipeline cisa=).
 
 * Prerequisites
 

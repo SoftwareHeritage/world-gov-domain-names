@@ -60,7 +60,10 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - =domain-regexes.csv= (and =domain-regex-all.txt=) -- per-country (and
   global) email-domain regexes over the confirmed central-government
   roots, ready for the =domain_regex= setting of
-  [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]].
+  [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]]. Mixed suffixes hosting lower government
+  tiers (e.g. Brazilian states and municipalities under =gov.br=) are
+  kept central-only via curated exclusions (see
+  =scripts/README.org=).
 - A few generated mapping files linking country names to source IDs.
 
 * Where the data comes from

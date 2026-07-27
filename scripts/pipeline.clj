@@ -18,6 +18,7 @@
 ;;   central            extract root domains -> public-sector-central-gov.csv
 ;;   cisa               fetch CISA federal .gov registry -> US root registry
 ;;   lannuaire          fetch FR service-public.gouv.fr directory -> FR registry
+;;   govuk              build UK sub-central exclusions -> GBR excluded-labels
 ;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
@@ -669,6 +670,27 @@
         :let [domain (some-> (first row) str/trim str/lower-case)]
         :when (valid-hostname? domain)]
     [c domain]))
+
+(defn registry-excluded-labels
+  "Curated lower-tier exclusions declared per country in
+  sources/registry/excluded-labels.csv (domain,label,level,name): labels
+  sitting directly under a central root whose whole subtree belongs to a
+  lower government tier (e.g. the 27 Brazilian state codes under gov.br,
+  whose subtrees mix state agencies and municipalities). Hand-curated
+  additions live in excluded-labels-extra.csv, which generated files (see
+  cmd-govuk) never overwrite. Returns {[country domain] #{label}}. Roots
+  without an entry are level-homogeneous: everything under them is central
+  government."
+  []
+  (->> (for [c (country-dirs)
+             file ["excluded-labels.csv" "excluded-labels-extra.csv"]
+             :let [path (country-src c "registry" file)]
+             :when (fs/exists? path)
+             [domain label] (rest (read-csv-raw path))
+             :when (not (or (str/blank? domain) (str/blank? label)))]
+         [[c (str/lower-case (str/trim domain))]
+          (str/lower-case (str/trim label))])
+       (reduce (fn [m [k label]] (update m k (fnil conj #{}) label)) {})))
 
 (defn- central-root-entries
   "All [country domain http_status mx] feeding the central-gov file: one per
@@ -2104,41 +2126,210 @@
     (err "ERR: could not fetch " governments-yml-url)))
 
 ;; ===========================================================================
+;;  Utilitaire -- govuk (UK sub-central exclusions for the gov.uk suffix)
+;; ===========================================================================
+
+(def govuk-domains-url
+  ;; Official CDDO list of every registered .gov.uk domain (one column).
+  ;; Snapshot asset: update the URL when a newer list is published on
+  ;; https://www.gov.uk/government/publications/list-of-gov-uk-domain-names
+  (str "https://assets.publishing.service.gov.uk/media/"
+       "69cbd582024cdf09254f3f7d/"
+       "List_of_.gov.uk_domain_names_as_of_31_March_2026_1.csv"))
+
+(def govuk-local-label-patterns
+  "Naming conventions of sub-central bodies registered directly under
+  gov.uk: parish/town/community and principal councils, the -pc/-tc/…
+  council suffixes, police-and-crime commissioners (-pcc), combined
+  authorities (-ca), Northern Ireland devolved departments (-ni), fire
+  services and national parks. fire.gov.uk and firekills.gov.uk are Home
+  Office campaigns, hence the anchored fire patterns."
+  [#"parish"
+   #"village"
+   #"(town|community|county|city|district|borough)-?council"
+   #"councils"
+   #"-council$"
+   #"-(pc|tc|cc|bc|dc|mbc|lbc|rbc|cbc|udc|rdc|gpc|jpc|pcc|pfcc|wcc|ecc|aptc|ca|cca|ni|vjb)$"
+   #"[a-z0-9](pc|tc|cc|bc|dc)$"
+   #"shire$"
+   #"district$"
+   #"(alc|lca|ifca)$"
+   #"idbs?$|drainageboards?$"
+   #"waste$"
+   #"foster"
+   #"porthealth|crematorium"
+   #".+-?fire(-?service|-?control)?$"
+   #"fire-?and-?rescue"
+   #"^firescotland$"
+   #"nationalpark|national-park|-npa$"])
+
+(def govuk-central-allowlist
+  "Central-government labels the patterns above would wrongly exclude:
+  acronym bodies ending in pc/tc/cc/bc (Regulatory Policy Committee, DECC,
+  HMG Communications Centre, Joint Nature Conservation Committee, IPCC,
+  Animal Procedures Committee, Agriculture and Environment Biotechnology
+  Commission, ...)."
+  #{"rpc" "apc" "otc" "decc" "hmgcc" "jncc" "ipcc" "aebc"})
+
+(def govuk-extra-local-labels
+  "Sub-central labels neither the patterns nor the Wikidata queries catch."
+  {"nidirect" "NI Direct (Northern Ireland citizen portal)"})
+
+(def govuk-national-gss
+  ;; Country/UK-level GSS code prefixes: a body anchored to one of these is
+  ;; national (Natural England, Charity Commission, NIO…), not sub-central.
+  #"^(E92|S92|W92|N92|K0)")
+
+(defn- govuk-label-of-website [web]
+  (some-> (re-find #"^https?://(?:www\.)?([a-z0-9-]+)\.gov\.uk"
+                   (str/lower-case (str web)))
+          second))
+
+(defn- govuk-wikidata-locals
+  "{gov.uk-label name} of Wikidata entities anchored below country level in
+  the UK statistical geography: the entity itself carries a GSS code
+  (P836 -- council areas) or its P1001 jurisdiction does (council
+  organisations). Country/UK-level GSS codes are filtered out (see
+  govuk-national-gss)."
+  []
+  (let [label-svc "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
+        queries
+        [(str "SELECT ?itemLabel ?gss ?web WHERE {\n"
+              "  ?item wdt:P836 ?gss ; wdt:P856 ?web .\n" label-svc "}")
+         (str "SELECT ?itemLabel ?gss ?web WHERE {\n"
+              "  ?item wdt:P1001 ?area ; wdt:P856 ?web .\n"
+              "  ?area wdt:P836 ?gss .\n" label-svc "}")]]
+    (->> queries
+         (mapcat (fn [q]
+                   ;; A slow WDQS answer can come back truncated (invalid
+                   ;; JSON): retry once, then fail loudly rather than
+                   ;; silently under-excluding.
+                   (loop [attempt 1]
+                     (let [body (wikidata-run-query q)
+                           _ (Thread/sleep 1000)
+                           parsed (try (-> (json/parse-string (or body "{}") true)
+                                           :results :bindings)
+                                       (catch Exception e
+                                         (err "  [govuk] truncated WDQS response"
+                                              " (attempt " attempt "): "
+                                              (.getMessage e))
+                                         ::fail))]
+                       (cond (not= parsed ::fail) parsed
+                             (< attempt 3) (recur (inc attempt))
+                             :else (throw (ex-info "WDQS query failed after 3 attempts, aborting (rerun bb pipeline govuk)" {})))))))
+         (keep (fn [b]
+                 (let [gss   (get-in b [:gss :value] "")
+                       label (govuk-label-of-website (get-in b [:web :value]))]
+                   (when (and label (not (re-find govuk-national-gss gss)))
+                     [label (get-in b [:itemLabel :value] "")]))))
+         (into {}))))
+
+(defn cmd-govuk [_]
+  ;; Build the GBR excluded-labels registry: every gov.uk label belonging to
+  ;; a sub-central body (councils of all tiers, combined authorities, fire
+  ;; services, national parks, NI devolved departments…), so the regexes
+  ;; keep only UK central government under the gov.uk suffix. Universe: the
+  ;; official CDDO list of registered gov.uk domains, classified by Wikidata
+  ;; GSS anchoring plus naming conventions.
+  (let [body (http-get govuk-domains-url {:timeout 90})]
+    (if (str/blank? body)
+      (do (err "ERR: gov.uk domain list fetch failed (" govuk-domains-url ")") 1)
+      (let [universe (->> (csv/read-csv (java.io.StringReader. body))
+                          rest
+                          (keep #(some->> (first %) str/trim str/lower-case
+                                          (re-matches #"([a-z0-9-]+)\.gov\.uk")
+                                          second))
+                          set)
+            wd (govuk-wikidata-locals)
+            wd-hits (select-keys wd (filter universe (keys wd)))
+            pattern-hit? (fn [l] (and (not (govuk-central-allowlist l))
+                                      (boolean (some #(re-find % l)
+                                                     govuk-local-label-patterns))))
+            named (->> (concat
+                        wd-hits
+                        (for [l universe :when (pattern-hit? l)] [l ""])
+                        (for [[l n] govuk-extra-local-labels
+                              :when (universe l)] [l n]))
+                       (reduce (fn [m [l n]]
+                                 (if (str/blank? (get m l)) (assoc m l n) m))
+                               {})
+                       (sort-by first))
+            level (fn [l] (if (or (str/ends-with? l "-ni")
+                                  (contains? #{"nidirect" "firescotland"} l))
+                            "central-1" "local"))
+            out (country-src "GBR_united_kingdom" "registry"
+                             "excluded-labels.csv")]
+        (ensure-dir (fs/parent out))
+        (write-csv-file out ["domain" "label" "level" "name"]
+                        (for [[l n] named] ["gov.uk" l (level l) n]))
+        (println (str "Wrote " out " (" (count named) " sub-central labels out"
+                      " of " (count universe) " registered gov.uk domains; "
+                      (count wd-hits) " matched via Wikidata GSS)"))
+        0))))
+
+;; ===========================================================================
 ;;  Utilitaire -- regex (email-domain regexes for swh-institutional-analysis)
 ;; ===========================================================================
 
 (defn domain-regex
   "Email regex over root domains, in the domain_regex format expected by
-  swh-institutional-analysis: .*@(.*\\.)?(?:dom1|dom2)$ -- matches addresses
-  at any of the domains or their subdomains."
-  [domains]
-  (str ".*@(.*\\.)?(?:"
-       (str/join "|" (map #(str/replace % "." "\\.") (sort domains)))
-       ")$"))
+  swh-institutional-analysis: matches addresses at any of the domains or
+  their subdomains. Entries are [domain excluded-labels]: when
+  excluded-labels is non-empty the domain is a mixed suffix (see
+  registry-excluded-labels) and a negative lookahead keeps out every host
+  under domain whose label directly left of it is excluded -- e.g. for
+  [\"gov.br\" #{\"sp\"}], fazenda.gov.br matches but sp.gov.br and
+  campinas.sp.gov.br do not. Level-homogeneous entries keep the plain
+  .*@(.*\\.)?(?:dom1|dom2)$ shape."
+  [entries]
+  (let [quote-dom #(str/replace % "." "\\.")
+        entries   (sort-by first entries)]
+    (if (every? #(empty? (second %)) entries)
+      (str ".*@(.*\\.)?(?:"
+           (str/join "|" (map (comp quote-dom first) entries))
+           ")$")
+      (str ".*@(?:"
+           (str/join "|"
+                     (for [[d excl] entries
+                           :let [qd (quote-dom d)]]
+                       (if (empty? excl)
+                         (str "(.*\\.)?" qd)
+                         (str "(?!(.*\\.)?(?:" (str/join "|" (sort excl))
+                              ")\\." qd "$)(.*\\.)?" qd))))
+           ")$"))))
 
 (defn cmd-regex
   "Build per-country email-domain regexes from the confirmed
   central-government roots (public-sector-central-gov.csv) into
   data/domain-regexes.csv, plus a single all-countries regex in
   data/domain-regex-all.txt. Both are meant for the domain_regex setting of
-  swh-institutional-analysis."
+  swh-institutional-analysis. Mixed-suffix roots (registry-excluded-labels)
+  get their lower-tier subtrees excluded so the regexes stay central-only."
   [_]
   (if-not (fs/exists? central-gov-file)
     (err "ERR: " central-gov-file " missing. Run 'bb pipeline central' first")
     (let [rows (rest (read-csv-raw central-gov-file))
+          excl (registry-excluded-labels)
           by-country (group-by second rows)
           out-rows (for [[country crows] (sort-by first by-country)
                          :let [domains (distinct (map first crows))
                                un-status (nth (first crows) 2 "")]]
                      [country un-status (str (count domains))
-                      (domain-regex domains)])]
+                      (domain-regex (for [d domains] [d (get excl [country d])]))])
+          ;; Same-domain rows across countries keep the union of exclusions.
+          all-entries (->> rows
+                           (reduce (fn [m [d c]]
+                                     (update m d (fnil into #{})
+                                             (get excl [c d])))
+                                   {})
+                           (sort-by first))]
       (write-csv-file "data/domain-regexes.csv"
                       ["country" "un_status" "n_domains" "regex"] out-rows)
       (spit "data/domain-regex-all.txt"
-            (str (domain-regex (distinct (map first rows))) "\n"))
+            (str (domain-regex all-entries) "\n"))
       (println (str "Wrote data/domain-regexes.csv (" (count out-rows)
                     " countries) and data/domain-regex-all.txt ("
-                    (count (distinct (map first rows))) " domains)")))))
+                    (count all-entries) " domains)")))))
 
 ;; ===========================================================================
 ;;  Dispatcher
@@ -2166,6 +2357,7 @@
    "central"     (fn [_] (cmd-central nil))
    "cisa"        (fn [_] (cmd-cisa nil))
    "lannuaire"   (fn [_] (cmd-lannuaire nil))
+   "govuk"       (fn [_] (cmd-govuk nil))
    "wikidata"    cmd-wikidata
    "iana"        cmd-iana
    "cia"         cmd-cia
