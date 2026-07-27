@@ -51,7 +51,24 @@ scripts/pipeline.clj <cmd>=:
 
   bb scripts/pipeline.clj build-qid             # rebuild data/country_qid.csv
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
+  bb scripts/pipeline.clj forges                # forge-looking hosts -> data/forge-candidates.csv
+  bb scripts/pipeline.clj forges-swh            # forge targets unknown to SWH -> data/forge-unknown-swh.csv
+  bb scripts/pipeline.clj github-orgs           # GitHub governments.yml -> data/github-gov-orgs.csv
 #+end_src
+
+=forges-swh= checks forge targets against the Software Heritage
+origin-search API and keeps those the archive does not know yet.
+Targets are the harvested hosts of =data/forge-candidates.csv= plus
+the curated entries of =data/known-forges.csv= (seeded from the
+[[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] catalog list) whose =kind= is =forge= or
+=github-org= -- =catalog= entries only point at code hosted elsewhere,
+so they are listed for reference but not searched. With the
+=github-orgs= argument, the organizations of
+=data/github-gov-orgs.csv= (from GitHub's community-maintained
+=governments.yml=, fetched by =bb pipeline github-orgs=) are checked
+too. The anonymous API allows 10 requests per rate-limit window (the
+command paces itself accordingly); set =SWH_TOKEN= to authenticate and
+go faster -- recommended for the ~1000-org =github-orgs= sweep.
 
 * Prerequisites
 
@@ -66,9 +83,10 @@ scripts/pipeline.clj <cmd>=:
 
 | Var      | Effect                                          | Default |
 |----------+-------------------------------------------------+---------|
-| =FORCE=    | overwrite existing outputs                      | =0=       |
-| =PARALLEL= | concurrent requests (fetch / probe)             | varies  |
-| =TIMEOUT=  | HTTPS request timeout (probe), seconds          | =5=       |
+| =FORCE=     | overwrite existing outputs                      | =0=       |
+| =PARALLEL=  | concurrent requests (fetch / probe)             | varies  |
+| =TIMEOUT=   | HTTPS request timeout (probe), seconds          | =5=       |
+| =SWH_TOKEN= | SWH API bearer token (=forges-swh=)               | unset   |
 
 * Scoring (cross-check)
 

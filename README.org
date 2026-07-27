@@ -45,6 +45,18 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 ** Master data (=data/=)
 
 - =world-governments.csv= -- the master list of the 197 countries.
+- =forge-candidates.csv= -- hosts that look like software forges or
+  source-code catalogs (=git.*=, =gitlab.*=, =forge.*=, =code.*=, …),
+  extracted from the harvested subdomains; leads for the
+  [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] catalog list.
+- =known-forges.csv= -- curated list of government source-code
+  catalogs, self-hosted forges and GitHub organizations, seeded from
+  the [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] catalog list.
+- =github-gov-orgs.csv= -- government GitHub organizations from
+  GitHub's community-maintained [[https://government.github.com/community/][governments.yml]].
+- =forge-unknown-swh.csv= -- forge targets (harvested + curated) that
+  the [[https://archive.softwareheritage.org][Software Heritage archive]] does not know yet (checked against
+  its origin-search API): candidates for archival.
 - A few generated mapping files linking country names to source IDs.
 
 * Where the data comes from

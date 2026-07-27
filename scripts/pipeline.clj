@@ -27,6 +27,9 @@
 ;;   cross-check [C…]   alias of report
 ;;   build-qid          (re)build data/country_qid.csv
 ;;   validate-un        check un_status against the official UN member list
+;;   forges             forge-looking hosts -> data/forge-candidates.csv
+;;   forges-swh         forge targets unknown to SWH -> data/forge-unknown-swh.csv
+;;   github-orgs        GitHub governments.yml -> data/github-gov-orgs.csv
 ;;
 ;; Environment variables:
 ;;   FORCE=1            force-overwrite existing outputs
@@ -38,6 +41,7 @@
             [babashka.fs :as fs]
             [babashka.process :as proc]
             [cheshire.core :as json]
+            [clj-yaml.core :as yaml]
             [clojure.data.csv :as csv]
             [clojure.java.io :as io]
             [clojure.string :as str]))
@@ -1915,6 +1919,190 @@
           (println "  un_status is consistent with the official UN list."))))))
 
 ;; ===========================================================================
+;;  Utilitaire -- forges
+;; ===========================================================================
+
+(def forge-host-pattern
+  #"(?i)^(?:git|gitlab|gitea|forgejo|forges?|codes?|source|open-?source|oss|developers?)\.")
+
+(defn cmd-forges
+  "Scan every countries/<c>/subdomains.csv for hostnames that look like a
+  software forge or source-code catalog (git.*, gitlab.*, forge.*, code.*…)
+  and write data/forge-candidates.csv. These are leads for the
+  'Government source-code catalogs' section of swh-sopc-data-sources."
+  [_]
+  (let [rows (->> (for [c (country-dirs)
+                        :let [path (str "countries/" c "/subdomains.csv")]
+                        :when (fs/exists? path)
+                        [host _parent status] (rest (read-csv-raw path))
+                        :when (and host (re-find forge-host-pattern host))]
+                    [host c (or status "")])
+                  distinct
+                  (sort-by (juxt second first)))
+        reachable (count (filter #(re-matches #"[23]\d\d" (nth % 2)) rows))]
+    (write-csv-file "data/forge-candidates.csv"
+                    ["hostname" "country" "http_status"] rows)
+    (println (str "Wrote data/forge-candidates.csv (" (count rows)
+                  " hosts, " reachable " reachable)"))))
+
+(def swh-search-endpoint "https://archive.softwareheritage.org/api/1/origin/search/")
+
+(defn swh-origins-count
+  "Number of origins the SWH archive knows under host (0 = unknown), or nil
+  when the API could not be answered. The anonymous rate limit is tight
+  (10 requests per window): a 429 waits the window out and retries, and an
+  exhausted quota triggers a pre-emptive pause. Honors SWH_TOKEN for
+  authenticated (higher rate limit) requests."
+  [host]
+  (let [token (System/getenv "SWH_TOKEN")]
+    (loop [attempt 1]
+      (let [resp (try (http/get (str swh-search-endpoint host "/")
+                                {:client http-client
+                                 :headers (cond-> {"User-Agent" ua
+                                                   "Accept" "application/json"}
+                                            token (assoc "Authorization"
+                                                         (str "Bearer " token)))
+                                 :query-params {"limit" "10"}
+                                 :throw false
+                                 :timeout 30000})
+                      (catch Exception _ nil))
+            remaining (some-> (get-in resp [:headers "x-ratelimit-remaining"])
+                              parse-long)]
+        (cond
+          (and resp (= 200 (:status resp)))
+          (let [n (try (count (json/parse-string (:body resp)))
+                       (catch Exception _ nil))]
+            (when (and remaining (<= remaining 1))
+              (err "  (rate-limit window exhausted, pausing 60s)")
+              (Thread/sleep 60000))
+            n)
+
+          (and resp (= 429 (:status resp)) (< attempt 6))
+          (do (err "  (HTTP 429, pausing 60s)")
+              (Thread/sleep 60000)
+              (recur (inc attempt)))
+
+          (and (nil? resp) (< attempt 3))
+          (do (Thread/sleep 3000)
+              (recur (inc attempt)))
+
+          :else nil)))))
+
+(def known-forges-file "data/known-forges.csv")
+
+(defn swh-auth-check!
+  "When SWH_TOKEN is set, make one authenticated request and fail fast when
+  the API rejects the token (an expired or revoked offline token gives HTTP
+  403). Returns true when the sweep may proceed (with or without token)."
+  []
+  (let [token (System/getenv "SWH_TOKEN")]
+    (if-not token
+      true
+      (let [resp (try (http/get (str swh-search-endpoint "github.com/torvalds/linux/")
+                                {:client http-client
+                                 :headers {"User-Agent" ua
+                                           "Accept" "application/json"
+                                           "Authorization" (str "Bearer " token)}
+                                 :query-params {"limit" "1"}
+                                 :throw false
+                                 :timeout 30000})
+                      (catch Exception _ nil))]
+        (cond
+          (and resp (= 200 (:status resp)))
+          (do (err (str "  SWH_TOKEN accepted (rate limit: "
+                        (get-in resp [:headers "x-ratelimit-limit"] "?")
+                        " requests per window)"))
+              true)
+
+          (contains? #{401 403} (:status resp))
+          (do (err "ERR: SWH_TOKEN rejected by the SWH API (expired or revoked?).")
+              (err "     Generate a new one at https://archive.softwareheritage.org/oidc/profile/#tokens")
+              false)
+
+          :else
+          (do (err "WARN: could not validate SWH_TOKEN (network error); proceeding anyway")
+              true))))))
+
+(defn cmd-forges-swh
+  "Check forge targets against the Software Heritage archive (origin search
+  API) and write the ones SWH does not know yet to
+  data/forge-unknown-swh.csv. Targets are the harvested forge-looking hosts
+  (data/forge-candidates.csv) plus the curated entries of
+  data/known-forges.csv with kind 'forge' or 'github-org' (a 'catalog' only
+  points at code hosted elsewhere, so there is nothing to search for).
+  With the 'github-orgs' argument, every organization of
+  data/github-gov-orgs.csv is checked too -- slow anonymously, set
+  SWH_TOKEN. Anonymous API rate limits apply in all cases."
+  [args]
+  (let [harvest (when (fs/exists? "data/forge-candidates.csv")
+                  (for [[host country _status]
+                        (rest (read-csv-raw "data/forge-candidates.csv"))]
+                    [host country "forge" "harvest"]))
+        curated (when (fs/exists? known-forges-file)
+                  (for [[target country kind _label]
+                        (rest (read-csv-raw known-forges-file))
+                        :when (contains? #{"forge" "github-org"} kind)]
+                    [target country kind "curated"]))
+        gh-orgs (when (some #{"github-orgs"} args)
+                  (if (fs/exists? "data/github-gov-orgs.csv")
+                    (for [[org group] (rest (read-csv-raw "data/github-gov-orgs.csv"))]
+                      [(str "github.com/" org) group "github-org" "governments.yml"])
+                    (do (err "ERR: data/github-gov-orgs.csv missing. "
+                             "Run 'bb pipeline github-orgs' first")
+                        nil)))
+        targets (->> (concat harvest curated gh-orgs)
+                     (reduce (fn [m [target :as row]]
+                               (if (contains? m target) m (assoc m target row)))
+                             {})
+                     vals
+                     (sort-by first))]
+    (cond
+      (empty? targets)
+      (err "ERR: no targets. Run 'bb pipeline forges' first")
+
+      (not (swh-auth-check!))
+      (err "ERR: aborting (unset SWH_TOKEN to run anonymously, slower)")
+
+      :else
+      (let [checked (doall
+                      (for [[target country kind source] targets]
+                        (let [n (swh-origins-count target)]
+                          (err (str "  " target " -> "
+                                    (cond (nil? n) "API error"
+                                          (zero? n) "UNKNOWN to SWH"
+                                          :else (str n " origin(s)"))))
+                          (Thread/sleep 500)
+                          [target country kind source n])))
+            unknown (filter #(and (some? (nth % 4)) (zero? (nth % 4))) checked)
+            errors  (filter #(nil? (nth % 4)) checked)]
+        (write-csv-file "data/forge-unknown-swh.csv"
+                        ["target" "country" "kind" "source"]
+                        (map #(vec (take 4 %)) unknown))
+        (println (str "Wrote data/forge-unknown-swh.csv (" (count unknown)
+                      " of " (count targets) " targets unknown to SWH"
+                      (when (seq errors)
+                        (str "; " (count errors) " API errors, not listed"))
+                      ")"))))))
+
+(def governments-yml-url
+  "https://raw.githubusercontent.com/github/government.github.com/gh-pages/_data/governments.yml")
+
+(defn cmd-github-orgs
+  "Fetch GitHub's community-maintained list of government organizations
+  (governments.yml, behind government.github.com/community) and write it as
+  data/github-gov-orgs.csv (org,group). Groups are the file's own headings:
+  mostly countries, sometimes regions or programs. Feed the result to
+  'forges-swh github-orgs' to spot orgs the SWH archive does not know."
+  [_]
+  (if-let [body (http-get governments-yml-url {:accept "text/plain"})]
+    (let [data (yaml/parse-string body :keywords false)
+          rows (for [[group orgs] data, org orgs] [(str org) (str group)])]
+      (write-csv-file "data/github-gov-orgs.csv" ["org" "group"] rows)
+      (println (str "Wrote data/github-gov-orgs.csv (" (count rows)
+                    " orgs in " (count data) " groups)")))
+    (err "ERR: could not fetch " governments-yml-url)))
+
+;; ===========================================================================
 ;;  Dispatcher
 ;; ===========================================================================
 
@@ -1948,7 +2136,10 @@
    "meta"        cmd-meta
    "cross-check" cmd-cross-check
    "build-qid"   (fn [_] (cmd-build-qid nil))
-   "validate-un" (fn [_] (cmd-validate-un nil))})
+   "validate-un" (fn [_] (cmd-validate-un nil))
+   "forges"      cmd-forges
+   "forges-swh"  cmd-forges-swh
+   "github-orgs" (fn [_] (cmd-github-orgs nil))})
 
 (defn usage []
   (println "Usage: bb scripts/pipeline.clj <command> [args…]")
@@ -1960,7 +2151,7 @@
   (println "  fetch | retry | normalize | probe | mx | aggregate | central")
   (println "  cisa | lannuaire")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
-  (println "  validate-un")
+  (println "  validate-un | forges | forges-swh | github-orgs")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
 
