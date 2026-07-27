@@ -34,8 +34,11 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - =subdomains.csv= -- all known subdomains and their HTTP status.
 - =candidates.csv= -- central administration domains not confirmed yet,
   scored 0 to 10 by how many sources agree.
-- =candidates-local.csv= -- same for domains attributed to local or
-  regional administrations.
+- =candidates-local.csv= -- same for domains attributed to subnational
+  administrations; the =level= column separates =central-1= (bodies of
+  a first-level subdivision: Land, state, region…) from =local= (the
+  rest), so a report can cover central government plus the first
+  administrative tier below it.
 - =summary.md= -- a human-readable cross-check report.
 - =sources/= -- the raw data behind the above, one folder per source.
 

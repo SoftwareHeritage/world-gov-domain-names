@@ -89,19 +89,35 @@ Score clamped to =[0, 10]=. The two penalties only apply when ranking
 central candidates -- =candidates-local.csv= has its own ranking where
 burying subnational entries would defeat the purpose.
 
-Output: two files with columns =hostname,score,sources,label,level=,
-sorted score desc / hostname asc:
+Output: two files with columns =hostname,score,sources,label,level=:
 
 - =countries/<c>/candidates.csv= -- central-administration candidates
-  (=level= is =central=, or blank when nothing is known yet);
+  (=level= is =central=, or blank when nothing is known yet), sorted
+  score desc / hostname asc;
 - =countries/<c>/candidates-local.csv= -- candidates attributed to a
-  local or regional administration (=level=local=).
+  subnational administration: =level=central-1= for bodies of a
+  first-level subdivision of the country (Land, state, region,
+  province…), =level=local= for anything below (city, county,
+  department…). =central-1= rows sort first, then score desc /
+  hostname asc.
 
 The =level= comes from the Wikidata P1001 jurisdiction captured at
-fetch time (the country itself ⇒ =central=, anything else ⇒ =local=),
-from the optional =level= column of the curated source (which wins),
-or from the subdivision label pattern as a fallback. Blank levels are
-consolidated over time as sources are refetched or curated.
+fetch time (the country itself ⇒ =central=, one of its first-level
+subdivisions ⇒ =central-1=, anything else ⇒ =local=), from the
+optional =level= column of the curated source (which wins), or from
+label patterns as a fallback: the subdivision vocabulary pattern marks
+a host =local=, upgraded to =central-1= when its label names one of
+the country's first-level subdivisions. Those subdivisions (the
+country's Wikidata P150 values, dissolved ones excluded) are fetched
+during the =wikidata= phase into
+=countries/<c>/sources/wikidata/subdivisions_level1.csv= -- also under
+=FORCE=1= refetch semantics. Blank levels are consolidated over time
+as sources are refetched or curated.
+
+The =central-1= tier exists so downstream reports (e.g. /State of
+Public Code/) can widen their scope from the central administration to
+central + first subdivision level without pulling in the long tail of
+municipal domains.
 
 * Curated candidates (manual)
 
@@ -112,8 +128,9 @@ misses can be added by hand in an isolated, versioned source:
 =type,label,website,hostname,provenance[,level]=. The =report= phase
 reads it alongside Wikidata and UN/DESA, so listed hosts re-enter
 =candidates.csv= reproducibly, scored =+3= and tagged =sources=curated=.
-The optional =level= column (=central= / =local=) overrides every other
-level signal -- this is where manual consolidation happens.
+The optional =level= column (=central= / =central-1= / =local=)
+overrides every other level signal -- this is where manual
+consolidation happens.
 The =provenance= column records where each entry came from. The
 directory is excluded from root-domain promotion (it is part of
 =source-dirs-set=), so adding a candidate here never auto-promotes it.

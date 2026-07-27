@@ -791,8 +791,9 @@
 ;; qid type strictness. :strict excludes entities that ARE territorial units
 ;; (states, municipalities…) -- pure class pollution. Subnational
 ;; *organisations* are NOT filtered out anymore: the query captures their
-;; P1001 jurisdiction and the pipeline derives a level (central vs local),
-;; so they land in candidates-local.csv instead of being silently dropped.
+;; P1001 jurisdiction and the pipeline derives a level (central vs
+;; central-1 vs local), so they land in candidates-local.csv instead of
+;; being silently dropped.
 ;; :light skips the class exclusions -- needed for classes whose strict
 ;; SPARQL times out (parliament does timeout).
 (def wikidata-classes
@@ -828,14 +829,51 @@
 
 (defn juris-level
   "Administrative level of an org from its P1001 jurisdiction QIDs:
-  \"central\" when one of them is the country itself, \"local\" when they all
-  point elsewhere (state, region, city…), \"\" when the property is absent
-  (unknown -- to be consolidated over time)."
-  [juris-qids country-qid]
+  \"central\" when one of them is the country itself, \"central-1\" when one
+  is a first-level subdivision of the country (Land, state, region… -- the
+  P150 values of the country), \"local\" when they all point further down
+  (city, county…), \"\" when the property is absent (unknown -- to be
+  consolidated over time)."
+  [juris-qids country-qid level1-qids]
   (cond
     (empty? juris-qids)                ""
     (contains? juris-qids country-qid) "central"
+    (some level1-qids juris-qids)      "central-1"
     :else                              "local"))
+
+(defn wikidata-subdivisions-query [country-qid]
+  (str "SELECT DISTINCT ?sub ?subLabel WHERE {\n"
+       "  wd:" country-qid " wdt:P150 ?sub .\n"
+       "  FILTER NOT EXISTS { ?sub wdt:P576 ?d }\n"     ; skip dissolved ones
+       "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
+       "}"))
+
+(defn wikidata-fetch-subdivisions!
+  "Fetch the country's first-level administrative subdivisions (its P150
+  values) into sources/wikidata/subdivisions_level1.csv (qid,label).
+  Cached like every other source (FORCE=1 to refetch). Returns the set of
+  subdivision QIDs known for the country (empty when nothing could be
+  fetched)."
+  [country-qid country-dir]
+  (let [out (country-src country-dir "wikidata" "subdivisions_level1.csv")]
+    (when-not (skip? out)
+      (when-let [body (wikidata-run-query (wikidata-subdivisions-query country-qid))]
+        (try
+          (let [rows (->> (-> (json/parse-string body true) :results :bindings)
+                          (keep (fn [b]
+                                  (when-let [qid (some-> (get-in b [:sub :value])
+                                                         (str/replace #"^.*/" ""))]
+                                    [qid (get-in b [:subLabel :value] "")])))
+                          distinct
+                          (sort-by first))]
+            (write-csv-file out ["qid" "label"] rows)
+            (err (str "  [subdivisions] " (count rows) " first-level entities"))
+            (Thread/sleep 1000))
+          (catch Exception e
+            (err (str "  [subdivisions] parse error: " (.getMessage e)))))))
+    (if (fs/exists? out)
+      (into #{} (map first (rest (read-csv-raw out))))
+      #{})))
 
 (defn- pad-row
   "Pad (or trim) a CSV row to exactly n columns."
@@ -902,10 +940,14 @@
     (upgrade-wikidata-csv! out)
     (if (skip? out)
       (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
+          ;; Still fetch the subdivision list when absent: the report phase
+          ;; uses it to tell first-level bodies (central-1) from the rest.
+          (wikidata-fetch-subdivisions! country-qid country-dir)
           (wikidata-write-missing! out missing-out))
       (do
         (println (str "=== " country-dir " (" country-qid ") ==="))
-        (let [all-rows
+        (let [level1 (wikidata-fetch-subdivisions! country-qid country-dir)
+              all-rows
               (apply concat
                      (for [[qid type strictness] wikidata-classes
                            :let [q (wikidata-query qid country-qid strictness)
@@ -927,7 +969,7 @@
                                                         (keep #(some-> (get-in % [:juris :value])
                                                                        (str/replace #"^.*/" ""))
                                                               bs))
-                                            level (juris-level juris country-qid)]
+                                            level (juris-level juris country-qid level1)]
                                         (for [b bs
                                               :let [url (get-in b [:website :value])
                                                     lbl (get-in b [:orgLabel :value])
@@ -1452,18 +1494,21 @@
 
 (defn score-candidates-for!
   "Compute countries/<c>/candidates.csv (central administrations) and
-  countries/<c>/candidates-local.csv (local/regional bodies), both with
+  countries/<c>/candidates-local.csv (subnational bodies), both with
   columns hostname,score,sources,label,level. Aggregates Wikidata mentions
   (incl. their P1001-derived level), UN/DESA national portal, IANA ccTLD and
-  Factbook institution names. A host is 'local' when Wikidata or curation
-  says so, or when its label matches the subdivision pattern; level stays
-  blank (and the host stays in candidates.csv) when nothing is known -- to
-  be consolidated over time."
+  Factbook institution names. A host is subnational when Wikidata or
+  curation says so, or when its label matches the subdivision pattern; a
+  subnational host whose jurisdiction (or label) points to a first-level
+  subdivision of the country (Land, state, region…) is tagged 'central-1',
+  the rest 'local'. Level stays blank (and the host stays in
+  candidates.csv) when nothing is known -- to be consolidated over time."
   [country-dir]
   (let [iana-path (country-src country-dir "iana" "cctld.csv")
         un-path   (country-src country-dir "un_desa" "summary.csv")
         cia-path  (country-src country-dir "cia_factbook" "summary.csv")
         wd-path   (country-src country-dir "wikidata" "central_admin.csv")
+        sub-path  (country-src country-dir "wikidata" "subdivisions_level1.csv")
         cur-path  (country-src country-dir "curated" "central_admin.csv")
         out       (str "countries/" country-dir "/candidates.csv")
         out-local (str "countries/" country-dir "/candidates-local.csv")
@@ -1505,16 +1550,38 @@
         all-hosts (cond-> (into (set (keys wd-by-host)) (keys cur-by-host))
                     un-portal-host (conj un-portal-host))
         known     (set (known-roots))
+        ;; English labels of the country's first-level subdivisions, as a
+        ;; word-bounded pattern. Used to promote a subnational host to
+        ;; central-1 when its label names such a subdivision -- covers rows
+        ;; fetched before levels carried central-1 (no refetch needed).
+        level1-pattern
+        (when (fs/exists? sub-path)
+          (let [labels (->> (rest (read-csv-raw sub-path))
+                            (map second)
+                            (remove str/blank?)
+                            (filter #(>= (count %) 4)))]
+            (when (seq labels)
+              (re-pattern
+                (str "(?iu)\\b(?:"
+                     (str/join "|" (map #(java.util.regex.Pattern/quote %) labels))
+                     ")\\b")))))
+        level1-label? (fn [label]
+                        (boolean (and level1-pattern (seq label)
+                                      (re-find level1-pattern label))))
         host-level
         (fn [h label]
           (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")
                 cur-level (get-in cur-by-host [h :level] "")]
             (cond
-              (#{"central" "local"} cur-level)  cur-level  ; curation wins
+              (#{"central" "central-1" "local"} cur-level)
+              cur-level                                    ; curation wins
               (contains? wd-levels "central")   "central"  ; over P1001,
-              (contains? wd-levels "local")     "local"    ; central over local
+              (contains? wd-levels "central-1") "central-1"
+              (contains? wd-levels "local")     (if (level1-label? label)
+                                                  "central-1" "local")
               (and (seq label)
-                   (re-find subdiv-pattern label)) "local"
+                   (re-find subdiv-pattern label)) (if (level1-label? label)
+                                                     "central-1" "local")
               :else "")))
         candidates
         (->> all-hosts
@@ -1543,15 +1610,22 @@
                                    :un-portal-host un-portal-host
                                    :cctld-primary cctld-primary
                                    :curated? curated?
-                                   :subdiv-penalty? (not= level "local")})]
+                                   :subdiv-penalty?
+                                   (not (contains? #{"local" "central-1"} level))})]
                       [h score (str/join ";" sources) label level])))
              (sort-by (juxt #(- (nth % 1)) first)))
-        {local true central false} (group-by #(= "local" (nth % 4)) candidates)
+        {subnational true central false}
+        (group-by #(contains? #{"local" "central-1"} (nth % 4)) candidates)
+        ;; candidates-local.csv: central-1 first (the report's next tier),
+        ;; then score desc / hostname asc within each level.
+        subnational (sort-by (juxt #(if (= "central-1" (nth % 4)) 0 1)
+                                   #(- (nth % 1)) first)
+                             subnational)
         ->rows (fn [cands] (for [[h sc src lbl lvl] cands] [h (str sc) src lbl lvl]))]
     (write-csv-file out ["hostname" "score" "sources" "label" "level"]
                     (->rows central))
     (write-csv-file out-local ["hostname" "score" "sources" "label" "level"]
-                    (->rows local))))
+                    (->rows subnational))))
 
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
@@ -1635,14 +1709,18 @@
   (when (fs/exists? local-path)
     (let [cands (rest (read-csv-raw local-path))]
       (when (seq cands)
-        (println "## Local / regional candidates")
-        (println)
-        (println (str (count cands) " candidate(s) attributed to a non-central "
-                      "administration (out of the registry's central-gov scope). "
-                      "Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:"))
-        (println)
-        (candidate-table (take 10 cands))
-        (println)))))
+        (let [n-level1 (count (filter #(= "central-1" (nth % 4 "")) cands))]
+          (println "## Local / regional candidates")
+          (println)
+          (println (str (count cands) " candidate(s) attributed to a non-central "
+                        "administration (out of the registry's central-gov scope)"
+                        (when (pos? n-level1)
+                          (str ", of which " n-level1 " at the first subdivision "
+                               "level (`central-1`: Land, state, region…)"))
+                        ". Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:"))
+          (println)
+          (candidate-table (take 10 cands))
+          (println))))))
 
 (defn- section-cctld-anomalies [country-dir cctld collected]
   (when cctld
