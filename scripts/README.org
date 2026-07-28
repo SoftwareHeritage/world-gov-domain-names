@@ -77,10 +77,11 @@ go faster -- recommended for the ~1000-org =github-orgs= sweep.
 (=data/public-sector-domains-central+.csv=: central roots plus
 first-tier bodies), one email-domain regex per country
 (=data/domain-regexes.csv=) plus a global one
-(=data/domain-regex-all.txt=), in the =domain_regex= format expected
+(=data/public-sector-domains-central+-regex.txt=), in the
+=domain_regex= format expected
 by [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]]: =.*@(.*\.)?(?:gouv\.fr|insee\.fr|…)$=.
-Central-1 domains already covered by a root (e.g. =sp.gov.br= under
-=gov.br=) are pruned as redundant.
+Domains already covered by a root wildcard (e.g. =fazenda.gov.br=
+under =gov.br=) are pruned as redundant.
 
 A root domain falls under one of three regimes, so the regexes cover
 central government plus the first subdivision tier and nothing below:
@@ -93,15 +94,17 @@ central government plus the first subdivision tier and nothing below:
    are curated in =sources/registry/excluded-labels.csv=
    (=domain,label,level,name= -- e.g. the 27 Brazilian state codes
    under =gov.br= or the 8 Australian state/territory codes under
-   =gov.au=), and =regex= turns the ones below the report scope into a
-   negative lookahead. The =level= column records the tier of the
-   subtree's apex: =central-1= labels stay in the regex (the scope is
-   central + first tier), =local= ones are excluded --
-   =fazenda.gov.br= and =sp.gov.br= match, =abingdon.gov.uk= does not.
-   Caveat: a =central-1= subtree may itself host lower tiers
-   (=campinas.sp.gov.br=, a municipality, matches). Hand-curated
-   additions go in =excluded-labels-extra.csv= (same columns), which
-   generated files never overwrite.
+   =gov.au=), and =regex= turns them all into a negative lookahead on
+   the root's wildcard branch. The =level= column records the tier of
+   the subtree's apex and drives what is whitelisted back: a
+   =central-1= label keeps its apex domain as an exact match (the
+   scope is central + first tier), a =local= subtree is excluded
+   entirely. Anything deeper inside a =central-1= subtree only matches
+   once listed explicitly in the central+ scope, so lower tiers hosted
+   there stay out -- =fazenda.gov.br= and =sp.gov.br= match,
+   =campinas.sp.gov.br= (a municipality) and =abingdon.gov.uk= do
+   not. Hand-curated additions go in =excluded-labels-extra.csv= (same
+   columns), which generated files never overwrite.
 
    The UK is a heavier variant: councils of all tiers (incl. ~4500
    parish councils), combined authorities and devolved administrations

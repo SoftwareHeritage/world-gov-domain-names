@@ -289,6 +289,26 @@
                (recur (inc attempt)))
            nil))))))
 
+(defn http-get-curl
+  "GET via the curl binary, for hosts whose WAF rejects the JVM HTTP client
+  (publicadministration.un.org answers 400 to it regardless of headers).
+  Returns the body string on HTTP 2xx, nil otherwise. Honors :timeout
+  (seconds, default 30) and :retries (default 3)."
+  ([url] (http-get-curl url {}))
+  ([url {:keys [timeout retries] :or {timeout 30 retries 3}}]
+   (loop [attempt 1]
+     (let [{:keys [exit out]}
+           (try (proc/sh "curl" "-sfL" "--max-time" (str timeout)
+                         "-A" ua url)
+                (catch Exception _ nil))
+           body (when (and exit (zero? exit)) out)]
+       (if (not (str/blank? body))
+         body
+         (if (< attempt retries)
+           (do (Thread/sleep (* attempt 3000))
+               (recur (inc attempt)))
+           nil))))))
+
 ;; ===========================================================================
 ;;  Phase 1 -- fetch / retry (crt.sh)
 ;; ===========================================================================
@@ -708,13 +728,11 @@
        (reduce (fn [m [k label info]] (assoc-in m [k label] info)) {})))
 
 (defn sub-central-labels
-  "Labels to keep out of a scope's regex for a mixed-suffix root:
-  everything below the scope tier. :central excludes every declared label
-  (central-1 and local); :central-1 only the local ones."
-  [excl scope [country domain]]
-  (set (for [[label {:keys [level]}] (get excl [country domain])
-             :when (or (= scope :central) (= level "local"))]
-         label)))
+  "All labels declared for a mixed-suffix root, to keep out of its
+  wildcard regex branch: local subtrees stay out entirely, central-1
+  subtree apexes are whitelisted back by cmd-regex."
+  [excl [country domain]]
+  (set (keys (get excl [country domain]))))
 
 (defn- central-root-entries
   "All [country domain http_status mx] feeding the central-gov file: one per
@@ -1307,8 +1325,8 @@
                  (not force?)
                  (> (dec (count (read-csv-raw un-desa-map-file))) 150))
     (err "Building country_dir <-> UN/DESA id map…")
-    (let [body (or (http-get "https://publicadministration.un.org/egovkb/en-us/Data-Center"
-                             {:timeout 30})
+    (let [body (or (http-get-curl "https://publicadministration.un.org/egovkb/en-us/Data-Center"
+                                  {:timeout 30})
                    "")
           pairs (->> (re-seq #"/Data/Country-Information/id/(\d+)-([A-Za-z-]+)" body)
                      (map (fn [[_ id name]]
@@ -1337,7 +1355,7 @@
             (println (str "=== " country-dir " (UN id=" un-id " " un-name ") ==="))
             (let [url (str "https://publicadministration.un.org/egovkb/en-us/Data/Country-Information/id/"
                            un-id "-" un-name)
-                  html (http-get url {:timeout 30})]
+                  html (http-get-curl url {:timeout 30})]
               (if (str/blank? html)
                 (err "  fetch failed")
                 (let [portal (second (re-find #"<a href=\"([^\"]+)\">National Portal</a>" html))
@@ -2372,45 +2390,57 @@
 ;; ===========================================================================
 
 (defn domain-regex
-  "Email regex over root domains, in the domain_regex format expected by
-  swh-institutional-analysis: matches addresses at any of the domains or
-  their subdomains. Entries are [domain excluded-labels]: when
-  excluded-labels is non-empty the domain is a mixed suffix (see
-  registry-excluded-labels) and a negative lookahead keeps out every host
-  under domain whose label directly left of it is excluded -- e.g. for
-  [\"gov.br\" #{\"sp\"}], fazenda.gov.br matches but sp.gov.br and
-  campinas.sp.gov.br do not. Level-homogeneous entries keep the plain
+  "Email regex over scope entries, in the domain_regex format expected by
+  swh-institutional-analysis. Entries are [domain excluded-labels apex?]:
+
+  - no exclusions, apex? false: (.*\\.)?domain -- the domain and its
+    whole subtree match.
+  - excluded labels, apex? false: mixed suffix (see
+    registry-excluded-labels); a negative lookahead keeps out every host
+    under an excluded label -- for [\"gov.br\" #{\"sp\"} false],
+    fazenda.gov.br matches but sp.gov.br and campinas.sp.gov.br do not.
+  - apex? true: the domain matches exactly, without subdomains. Used to
+    whitelist the apex of a mixed subtree (sp.gov.br itself) whose
+    central bodies must be listed explicitly to match, keeping the
+    lower tiers hosted in the subtree out.
+
+  All-free level-homogeneous entries keep the plain
   .*@(.*\\.)?(?:dom1|dom2)$ shape."
   [entries]
   (let [quote-dom #(str/replace % "." "\\.")
         entries   (sort-by first entries)]
-    (if (every? #(empty? (second %)) entries)
+    (if (every? (fn [[_ excl apex?]] (and (empty? excl) (not apex?)))
+                entries)
       (str ".*@(.*\\.)?(?:"
            (str/join "|" (map (comp quote-dom first) entries))
            ")$")
       (str ".*@(?:"
            (str/join "|"
-                     (for [[d excl] entries
+                     (for [[d excl apex?] entries
                            :let [qd (quote-dom d)]]
-                       (if (empty? excl)
-                         (str "(.*\\.)?" qd)
+                       (cond
+                         apex? qd
+                         (empty? excl) (str "(.*\\.)?" qd)
+                         :else
                          (str "(?!(.*\\.)?(?:" (str/join "|" (sort excl))
                               ")\\." qd "$)(.*\\.)?" qd))))
            ")$"))))
 
 (defn- covered-by?
-  "True when domain d is redundant given entry [d2 excl2]: d sits under d2
-  and the label chaining it to d2 is not excluded, so d2's regex branch
-  already matches every host under d."
-  [d [d2 excl2]]
-  (and (not= d d2)
+  "True when domain d is redundant given entry [d2 excl2 apex?]: d sits
+  under d2, d2's branch matches subdomains (apex entries cover nothing
+  but themselves) and the label chaining d to d2 is not excluded, so
+  d2's branch already matches every host under d."
+  [d [d2 excl2 apex?]]
+  (and (not apex?)
+       (not= d d2)
        (str/ends-with? d (str "." d2))
        (let [prefix (subs d 0 (- (count d) (inc (count d2))))
              label  (last (str/split prefix #"\."))]
          (not (contains? (set excl2) label)))))
 
 (defn- prune-covered
-  "Drop [domain excl] entries already covered by another entry."
+  "Drop [domain excl apex?] entries already covered by another entry."
   [entries]
   (filter (fn [[d _]] (not-any? #(covered-by? d %) entries)) entries))
 
@@ -2418,19 +2448,29 @@
   "Build per-country email-domain regexes over the central+ scope
   (data/public-sector-domains-central+.csv: central roots plus first-tier
   bodies) into data/domain-regexes.csv, plus a single all-countries regex
-  in data/domain-regex-all.txt. Both are meant for the domain_regex
-  setting of swh-institutional-analysis. Mixed-suffix roots
-  (registry-excluded-labels) keep their central-1 subtrees and only get
-  the local ones excluded; central-1 domains already covered by a root
-  (e.g. sp.gov.br under gov.br) are pruned as redundant."
+  in data/public-sector-domains-central+-regex.txt. Both are meant for
+  the domain_regex setting of swh-institutional-analysis and cover
+  central administration plus one tier below it, and nothing lower.
+  Mixed-suffix roots (registry-excluded-labels) get every declared label
+  excluded from their wildcard branch; each central-1 label's own domain
+  (sp.gov.br) is whitelisted back as an exact-match apex, so lower-tier
+  hosts registered anywhere in its subtree (campinas.sp.gov.br) stay out
+  until a central body of the subtree is listed explicitly in the
+  central+ scope. Domains already covered by a root branch
+  (e.g. fazenda.gov.br under gov.br) are pruned as redundant."
   [_]
   (if-not (fs/exists? central-plus-file)
     (err "ERR: " central-plus-file " missing. Run 'bb pipeline central' first")
     (let [rows (rest (read-csv-raw central-plus-file))
           excl (registry-excluded-labels)
+          apexes (set (for [[[c root] labels] excl
+                            [label {:keys [level]}] labels
+                            :when (= level "central-1")]
+                        [c (str label "." root)]))
           entry (fn [country domain]
-                  [domain (sub-central-labels excl :central-1
-                                              [country domain])])
+                  [domain
+                   (sub-central-labels excl [country domain])
+                   (contains? apexes [country domain])])
           by-country (group-by second rows)
           out-rows (for [[country crows] (sort-by first by-country)
                          :let [domains (distinct (map first crows))
@@ -2439,20 +2479,26 @@
                                         (map #(entry country %) domains))]]
                      [country un-status (str (count entries))
                       (domain-regex entries)])
-          ;; Same-domain rows across countries keep the union of exclusions.
+          ;; Same-domain rows across countries keep the union of
+          ;; exclusions; a domain that is an apex in any country stays
+          ;; an apex.
           all-entries (->> rows
                            (reduce (fn [m [d c]]
-                                     (update m d (fnil into #{})
-                                             (second (entry c d))))
+                                     (let [[_ e a] (entry c d)]
+                                       (update m d
+                                               (fn [[es ap]]
+                                                 [(into (or es #{}) e)
+                                                  (or ap a)]))))
                                    {})
+                           (map (fn [[d [es ap]]] [d es ap]))
                            prune-covered
                            (sort-by first))]
       (write-csv-file "data/domain-regexes.csv"
                       ["country" "un_status" "n_domains" "regex"] out-rows)
-      (spit "data/domain-regex-all.txt"
+      (spit "data/public-sector-domains-central+-regex.txt"
             (str (domain-regex all-entries) "\n"))
       (println (str "Wrote data/domain-regexes.csv (" (count out-rows)
-                    " countries) and data/domain-regex-all.txt ("
+                    " countries) and data/public-sector-domains-central+-regex.txt ("
                     (count all-entries) " domains)")))))
 
 ;; ===========================================================================
