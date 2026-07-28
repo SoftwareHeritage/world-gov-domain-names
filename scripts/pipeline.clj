@@ -14,8 +14,9 @@
 ;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status
 ;;   mx [DOM…]          DNS MX lookup per host -> mx.csv (email signal);
 ;;                      a full run also covers the registry roots (CISA, …)
-;;   aggregate          aggregate every host -> public-sector.csv
-;;   central            extract root domains -> public-sector-central-gov.csv
+;;   aggregate          aggregate every host -> data/public-sector-domains.csv
+;;   central            extract root domains -> data/public-sector-domains-central.csv
+;;                      + central+central-1 -> data/public-sector-domains-central+.csv
 ;;   cisa               fetch CISA federal .gov registry -> US root registry
 ;;   lannuaire          fetch FR service-public.gouv.fr directory -> FR registry
 ;;   govuk              build UK sub-central exclusions -> GBR excluded-labels
@@ -617,13 +618,14 @@
               :langs  (country-meta-field c "languages")
               :gdp    (country-meta-field c "gdp_per_capita")}])))
 
-(def public-sector-file "public-sector.csv")
-(def central-gov-file   "public-sector-central-gov.csv")
+(def public-sector-file "data/public-sector-domains.csv")
+(def central-gov-file   "data/public-sector-domains-central.csv")
+(def central-plus-file  "data/public-sector-domains-central+.csv")
 
 (defn cmd-aggregate [_]
   (let [un-by-country (build-un-status-map)
         meta-by-country (country-meta-map)
-        ;; public-sector.csv -- every harvested host (root apex AND subdomains),
+        ;; data/public-sector-domains.csv -- every harvested host (root apex AND subdomains),
         ;; regardless of HTTP/MX. Inclusion criterion: the host existed in DNS at
         ;; least once (it appeared in a source like crt.sh). http_status and mx
         ;; travel along as signals, never as filters.
@@ -678,17 +680,19 @@
   lower government tier (e.g. the 27 Brazilian state codes under gov.br,
   whose subtrees mix state agencies and municipalities). Hand-curated
   additions live in excluded-labels-extra.csv, which generated files (see
-  cmd-govuk) never overwrite. Returns {[country domain] #{label}}. Roots
-  without an entry are level-homogeneous: everything under them is central
-  government."
+  cmd-govuk) never overwrite. Returns {[country domain] {label {:level l
+  :name n}}} -- :level is \"central-1\" (first-tier body) or \"local\".
+  Roots without an entry are level-homogeneous: everything under them is
+  central government."
   []
   (->> (for [c (country-dirs)
              file ["excluded-labels.csv" "excluded-labels-extra.csv"]
              :let [path (country-src c "registry" file)]
              :when (fs/exists? path)
-             [domain label] (rest (read-csv-raw path))
+             [domain label level name] (rest (read-csv-raw path))
              :let [domain (some-> domain str/trim str/lower-case)
                    label  (some-> label str/trim str/lower-case)
+                   level  (some-> level str/trim str/lower-case)
                    ;; labels are interpolated unquoted in domain-regex's
                    ;; lookahead, so they must be regex-safe by construction
                    valid? (and (valid-hostname? domain)
@@ -699,8 +703,18 @@
                        (err "WARN: ignoring invalid excluded-label row ["
                             domain " " label "] in " path))]
              :when valid?]
-         [[c domain] label])
-       (reduce (fn [m [k label]] (update m k (fnil conj #{}) label)) {})))
+         [[c domain] label {:level (if (= level "central-1") level "local")
+                            :name (or name "")}])
+       (reduce (fn [m [k label info]] (assoc-in m [k label] info)) {})))
+
+(defn sub-central-labels
+  "Labels to keep out of a scope's regex for a mixed-suffix root:
+  everything below the scope tier. :central excludes every declared label
+  (central-1 and local); :central-1 only the local ones."
+  [excl scope [country domain]]
+  (set (for [[label {:keys [level]}] (get excl [country domain])
+             :when (or (= scope :central) (= level "local"))]
+         label)))
 
 (defn- central-root-entries
   "All [country domain http_status mx] feeding the central-gov file: one per
@@ -730,28 +744,80 @@
                  {})
          vals)))
 
+(defn- central1-entries
+  "First-tier (central-1) domains feeding the central+ file: the curated
+  central-1 labels under mixed suffixes (label.root, confirmed by the
+  registry) plus the candidates-local.csv rows tagged central-1 (scored,
+  unconfirmed -- their score/sources columns let consumers filter).
+  Returns [country domain name score sources], deduped by [country domain]
+  preferring the curated entry."
+  []
+  (let [curated (for [[[c domain] labels] (registry-excluded-labels)
+                      [label {:keys [level name]}] labels
+                      :when (= level "central-1")]
+                  [c (str label "." domain) name "" "registry"])
+        candidates (for [c (country-dirs)
+                         :let [path (str "countries/" c "/candidates-local.csv")]
+                         :when (fs/exists? path)
+                         [hostname score sources label level]
+                         (rest (read-csv-raw path))
+                         :when (and (= level "central-1")
+                                    (valid-hostname? hostname))]
+                     [c hostname (or label "") (or score "") (or sources "")])]
+    (->> (concat curated candidates)
+         (reduce (fn [m [c d & _ :as row]]
+                   (cond-> m (not (contains? m [c d])) (assoc [c d] row)))
+                 {})
+         vals)))
+
 (defn cmd-central [_]
-  ;; Extract public-sector-central-gov.csv: one row per central-government root
-  ;; domain. With suffix matching a root already covers all its subdomains, so
-  ;; these roots are the email domains the report's regex needs. Sources: the
-  ;; promoted root directories (incl. ones with no harvested host yet, e.g.
-  ;; gov.ke) and the per-country registry files. UN-facing: members/observers
-  ;; only. Carries the root apex's http_status/mx as signals when available.
+  ;; Extract data/public-sector-domains-central.csv: one row per
+  ;; central-government root domain. With suffix matching a root already covers
+  ;; all its subdomains, so these roots are the email domains the report's
+  ;; regex needs. Sources: the promoted root directories (incl. ones with no
+  ;; harvested host yet, e.g. gov.ke) and the per-country registry files.
+  ;; UN-facing: members/observers only. Carries the root apex's http_status/mx
+  ;; as signals when available.
+  ;; Also writes data/public-sector-domains-central+.csv: the same roots
+  ;; (level central) plus the first-tier bodies (level central-1, see
+  ;; central1-entries) for the central + first-subdivision report scope.
   (let [un-by-country  (build-un-status-map)
         meta-by-country (country-meta-map)
+        with-meta (fn [country row-fn]
+                    (let [un (get un-by-country country "member")
+                          m  (get meta-by-country country)]
+                      (when (not= un "non_un")
+                        (row-fn un m))))
         rows
         (->> (central-root-entries)
              (keep (fn [[country domain http mx]]
-                     (let [un (get un-by-country country "member")
-                           m  (get meta-by-country country)]
-                       (when (not= un "non_un")
-                         [domain country un (:region m) (:langs m) (:gdp m) http mx]))))
-             (sort-by first))]
+                     (with-meta country
+                       (fn [un m]
+                         [domain country un (:region m) (:langs m) (:gdp m)
+                          http mx]))))
+             (sort-by first))
+        plus-rows
+        (->> (concat
+              (for [[domain country un region langs gdp _ _] rows]
+                [domain country "central" un region langs gdp "" "" ""])
+              (keep (fn [[country domain name score sources]]
+                      (with-meta country
+                        (fn [un m]
+                          [domain country "central-1" un (:region m)
+                           (:langs m) (:gdp m) name score sources])))
+                    (central1-entries)))
+             (sort-by (juxt first #(nth % 2))))]
     (write-csv-file central-gov-file
                     ["domain" "country" "un_status"
                      "region" "languages" "gdp_per_capita" "http_status" "mx"]
                     rows)
-    (println (str "Wrote " central-gov-file " (" (count rows) " central-gov root domains)"))))
+    (write-csv-file central-plus-file
+                    ["domain" "country" "level" "un_status" "region"
+                     "languages" "gdp_per_capita" "name" "score" "sources"]
+                    plus-rows)
+    (println (str "Wrote " central-gov-file " (" (count rows)
+                  " central-gov root domains) and " central-plus-file
+                  " (" (count plus-rows) " central + central-1 domains)"))))
 
 (defn registrable
   "Best-effort registrable domain: the last two dot-labels of a host
@@ -1481,7 +1547,7 @@
          (map str/lower-case))))
 
 (defn read-collected-cache
-  "Pre-split public-sector.csv into a map country -> seq of subdomains."
+  "Pre-split data/public-sector-domains.csv into a map country -> seq of subdomains."
   []
   (when (fs/exists? public-sector-file)
     (->> (rest (read-csv-raw public-sector-file))
@@ -2332,30 +2398,54 @@
                               ")\\." qd "$)(.*\\.)?" qd))))
            ")$"))))
 
+(defn- covered-by?
+  "True when domain d is redundant given entry [d2 excl2]: d sits under d2
+  and the label chaining it to d2 is not excluded, so d2's regex branch
+  already matches every host under d."
+  [d [d2 excl2]]
+  (and (not= d d2)
+       (str/ends-with? d (str "." d2))
+       (let [prefix (subs d 0 (- (count d) (inc (count d2))))
+             label  (last (str/split prefix #"\."))]
+         (not (contains? (set excl2) label)))))
+
+(defn- prune-covered
+  "Drop [domain excl] entries already covered by another entry."
+  [entries]
+  (filter (fn [[d _]] (not-any? #(covered-by? d %) entries)) entries))
+
 (defn cmd-regex
-  "Build per-country email-domain regexes from the confirmed
-  central-government roots (public-sector-central-gov.csv) into
-  data/domain-regexes.csv, plus a single all-countries regex in
-  data/domain-regex-all.txt. Both are meant for the domain_regex setting of
-  swh-institutional-analysis. Mixed-suffix roots (registry-excluded-labels)
-  get their lower-tier subtrees excluded so the regexes stay central-only."
+  "Build per-country email-domain regexes over the central+ scope
+  (data/public-sector-domains-central+.csv: central roots plus first-tier
+  bodies) into data/domain-regexes.csv, plus a single all-countries regex
+  in data/domain-regex-all.txt. Both are meant for the domain_regex
+  setting of swh-institutional-analysis. Mixed-suffix roots
+  (registry-excluded-labels) keep their central-1 subtrees and only get
+  the local ones excluded; central-1 domains already covered by a root
+  (e.g. sp.gov.br under gov.br) are pruned as redundant."
   [_]
-  (if-not (fs/exists? central-gov-file)
-    (err "ERR: " central-gov-file " missing. Run 'bb pipeline central' first")
-    (let [rows (rest (read-csv-raw central-gov-file))
+  (if-not (fs/exists? central-plus-file)
+    (err "ERR: " central-plus-file " missing. Run 'bb pipeline central' first")
+    (let [rows (rest (read-csv-raw central-plus-file))
           excl (registry-excluded-labels)
+          entry (fn [country domain]
+                  [domain (sub-central-labels excl :central-1
+                                              [country domain])])
           by-country (group-by second rows)
           out-rows (for [[country crows] (sort-by first by-country)
                          :let [domains (distinct (map first crows))
-                               un-status (nth (first crows) 2 "")]]
-                     [country un-status (str (count domains))
-                      (domain-regex (for [d domains] [d (get excl [country d])]))])
+                               un-status (nth (first crows) 3 "")
+                               entries (prune-covered
+                                        (map #(entry country %) domains))]]
+                     [country un-status (str (count entries))
+                      (domain-regex entries)])
           ;; Same-domain rows across countries keep the union of exclusions.
           all-entries (->> rows
                            (reduce (fn [m [d c]]
                                      (update m d (fnil into #{})
-                                             (get excl [c d])))
+                                             (second (entry c d))))
                                    {})
+                           prune-covered
                            (sort-by first))]
       (write-csv-file "data/domain-regexes.csv"
                       ["country" "un_status" "n_domains" "regex"] out-rows)

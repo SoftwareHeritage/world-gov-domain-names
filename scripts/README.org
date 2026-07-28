@@ -36,8 +36,9 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj normalize             # clean every CSV
   bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe
   bb scripts/pipeline.clj mx gov.it             # DNS MX lookup -> mx.csv (email signal)
-  bb scripts/pipeline.clj aggregate             # rebuild public-sector.csv
-  bb scripts/pipeline.clj central               # extract public-sector-central-gov.csv
+  bb scripts/pipeline.clj aggregate             # rebuild data/public-sector-domains.csv
+  bb scripts/pipeline.clj central               # extract data/public-sector-domains-central.csv
+                                                # + data/public-sector-domains-central+.csv
   bb scripts/pipeline.clj cisa                  # refresh US federal .gov registry (CISA)
   bb scripts/pipeline.clj lannuaire             # refresh FR central-admin registry (service-public)
   bb scripts/pipeline.clj govuk                 # rebuild UK sub-central exclusions (CDDO + Wikidata)
@@ -72,14 +73,17 @@ too. The anonymous API allows 10 requests per rate-limit window (the
 command paces itself accordingly); set =SWH_TOKEN= to authenticate and
 go faster -- recommended for the ~1000-org =github-orgs= sweep.
 
-=regex= derives, from the confirmed central-government roots, one
-email-domain regex per country (=data/domain-regexes.csv=) plus a
-global one (=data/domain-regex-all.txt=), in the =domain_regex= format
-expected by [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]]:
-=.*@(.*\.)?(?:gouv\.fr|insee\.fr|…)$=.
+=regex= derives, from the central+ scope
+(=data/public-sector-domains-central+.csv=: central roots plus
+first-tier bodies), one email-domain regex per country
+(=data/domain-regexes.csv=) plus a global one
+(=data/domain-regex-all.txt=), in the =domain_regex= format expected
+by [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]]: =.*@(.*\.)?(?:gouv\.fr|insee\.fr|…)$=.
+Central-1 domains already covered by a root (e.g. =sp.gov.br= under
+=gov.br=) are pruned as redundant.
 
-A root domain falls under one of three regimes, so the regexes stay
-central-government-only:
+A root domain falls under one of three regimes, so the regexes cover
+central government plus the first subdivision tier and nothing below:
 
 1. *Level-homogeneous suffix* (the default: =gouv.fr=, =gc.ca=,
    =go.jp=…): everything under the root is central government, the
@@ -89,13 +93,15 @@ central-government-only:
    are curated in =sources/registry/excluded-labels.csv=
    (=domain,label,level,name= -- e.g. the 27 Brazilian state codes
    under =gov.br= or the 8 Australian state/territory codes under
-   =gov.au=, whose subtrees mix subdivision agencies and
-   municipalities), and =regex= turns them into a negative lookahead:
-   =fazenda.gov.br= matches, =sp.gov.br= and =campinas.sp.gov.br= do
-   not. Hand-curated additions go in =excluded-labels-extra.csv= (same
-   columns), which generated files never overwrite. The =level= column
-   records the tier of the excluded subtree's apex (=central-1= for a
-   state), reusable when the report reaches that tier.
+   =gov.au=), and =regex= turns the ones below the report scope into a
+   negative lookahead. The =level= column records the tier of the
+   subtree's apex: =central-1= labels stay in the regex (the scope is
+   central + first tier), =local= ones are excluded --
+   =fazenda.gov.br= and =sp.gov.br= match, =abingdon.gov.uk= does not.
+   Caveat: a =central-1= subtree may itself host lower tiers
+   (=campinas.sp.gov.br=, a municipality, matches). Hand-curated
+   additions go in =excluded-labels-extra.csv= (same columns), which
+   generated files never overwrite.
 
    The UK is a heavier variant: councils of all tiers (incl. ~4500
    parish councils), combined authorities and devolved administrations
