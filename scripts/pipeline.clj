@@ -2171,9 +2171,9 @@
 
 ;; 200-responses that do not expose the forge itself.
 (def page-note-markers
-  [[#"_Incapsula_Resource"                           "blocked by Incapsula WAF"]
-   [#"(?i)Attention Required! \| Cloudflare|cf-chl-" "blocked by Cloudflare"]
-   [#"(?i)Nginx Proxy Manager"                       "reverse-proxy default page, forge not exposed"]])
+  [["blocked by Incapsula WAF"  #"_Incapsula_Resource"]
+   ["blocked by Cloudflare"     #"(?i)Attention Required! \| Cloudflare|cf-chl-"]
+   ["reverse-proxy default page, forge not exposed" #"(?i)Nginx Proxy Manager"]])
 
 (def curl-exit-notes
   {6  "DNS does not resolve"
@@ -2183,26 +2183,41 @@
    52 "empty reply"
    56 "connection reset"})
 
-(defn- forge-note [target final-url body exit]
+(defn- first-matching
+  "First label of the [label regex] pairs whose regex matches s, else nil."
+  [pairs s]
+  (some (fn [[label re]] (when (re-find re s) label)) pairs))
+
+(defn- forge-type
+  "'github' when the target or the final URL lives on github.com, else the
+  first forge-type-markers match on the homepage, else 'unknown'."
+  [target final-url body]
+  (cond
+    (or (str/starts-with? target "github.com/")
+        (str/starts-with? (str final-url) "https://github.com/")) "github"
+    (str/blank? body)                                             "unknown"
+    :else (or (first-matching forge-type-markers body)            "unknown")))
+
+(defn- forge-note
+  "Short diagnostic for a probe: curl error, WAF or default page, or a
+  redirect that left the target's host. Empty string otherwise."
+  [target final-url body exit]
   (or (when-not (zero? exit)
         (get curl-exit-notes exit (str "curl exit " exit)))
-      (some (fn [[re note]] (when (re-find re body) note)) page-note-markers)
-      ;; a redirect that leaves the host altogether is worth flagging
+      (first-matching page-note-markers body)
       (let [[_ host] (re-find #"^https?://([^/]+)" (str final-url))]
-        (when (and host
-                   (not (str/starts-with? target "github.com/"))
-                   (not= host (first (str/split target #"/"))))
-          (str "redirects to " final-url)))
+        (when (and host (not= host (first (str/split target #"/"))))
+          ;; drop the query string: SSO redirects carry volatile state/nonce
+          ;; parameters that would churn the CSV on every run
+          (str "redirects to " (str/replace final-url #"\?.*" ""))))
       ""))
 
 (defn probe-forge!
   "GET https://target/ with curl (-k: government forges often sit behind
   self-signed certificates; -L: the landing page usually redirects) and
   sniff the forge software from the final page. Returns {:type :status
-  :note}: :type from forge-type-markers ('github' for github.com targets
-  and redirects, 'unknown' otherwise), :status the final HTTP code as a
-  string ('000' when no response came back) and :note a short diagnostic
-  (curl error, WAF page, cross-host redirect) or the empty string."
+  :note}: :type from forge-type, :status the final HTTP code as a string
+  ('000' when no response came back) and :note from forge-note."
   [target]
   (let [url (str "https://" target (when-not (str/includes? target "/") "/"))
         tmp (fs/create-temp-file)]
@@ -2214,22 +2229,12 @@
                           "-w" "%{http_code}\t%{url_effective}" url)
                  (catch Exception _ {:exit 1 :out ""}))
             [code final-url] (str/split (str/trim (str out)) #"\t" 2)
-            body (try (slurp (fs/file tmp)) (catch Exception _ ""))
-            body (subs body 0 (min (count body) 300000))
-            type (cond
-                   (or (str/starts-with? target "github.com/")
-                       (re-find #"^https://github\.com/" (str final-url)))
-                   "github"
-
-                   (str/blank? body) "unknown"
-
-                   :else
-                   (or (some (fn [[t re]] (when (re-find re body) t))
-                             forge-type-markers)
-                       "unknown"))]
-        {:type type
-         :status (if (or (str/blank? code) (= "000" code)) "000" code)
-         :note (single-line (forge-note target final-url body exit))})
+            body (let [s (try (slurp (fs/file tmp)) (catch Exception _ ""))]
+                   ;; cap what the marker regexes have to scan
+                   (subs s 0 (min (count s) 300000)))]
+        {:type   (forge-type target final-url body)
+         :status (if (str/blank? code) "000" code)
+         :note   (single-line (forge-note target final-url body exit))})
       (finally (fs/delete-if-exists tmp)))))
 
 (def forge-unknown-header
@@ -2256,12 +2261,11 @@
     (if (empty? rows)
       (err "ERR: data/forge-unknown-swh.csv missing or empty. "
            "Run 'bb pipeline forges-swh' first")
-      (let [probed (probe-forge-rows rows)]
+      (let [probed (probe-forge-rows rows)
+            n200   (->> probed (filter #(= "200" (nth % 5))) count)]
         (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header probed)
         (println (str "Wrote data/forge-unknown-swh.csv (" (count probed)
-                      " targets probed, "
-                      (count (filter #(= "200" (nth % 5)) probed))
-                      " answering 200)"))))))
+                      " targets probed, " n200 " answering 200)"))))))
 
 (defn cmd-forges-swh
   "Check forge targets against the Software Heritage archive (origin search
@@ -2316,11 +2320,11 @@
                           (Thread/sleep 500)
                           [target country kind source n])))
             unknown (filter #(and (some? (nth % 4)) (zero? (nth % 4))) checked)
-            errors  (filter #(nil? (nth % 4)) checked)
-            _       (err (str "  probing " (count unknown)
-                              " unknown targets (forge type + accessibility)"))
-            probed  (probe-forge-rows (map #(vec (take 4 %)) unknown))]
-        (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header probed)
+            errors  (filter #(nil? (nth % 4)) checked)]
+        (err (str "  probing " (count unknown)
+                  " unknown targets (forge type + accessibility)"))
+        (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header
+                        (probe-forge-rows unknown))
         (println (str "Wrote data/forge-unknown-swh.csv (" (count unknown)
                       " of " (count targets) " targets unknown to SWH"
                       (when (seq errors)

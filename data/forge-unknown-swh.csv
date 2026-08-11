@@ -11,7 +11,7 @@ developer.uidai.gov.in,IND_india,forge,harvest,unknown,000,timeout
 forge.application.developpement-durable.gouv.fr,FRA_france,forge,harvest,unknown,000,DNS does not resolve
 forge.diplomatie.gouv.fr,FRA_france,forge,harvest,unknown,000,DNS does not resolve
 forge.douane.gouv.fr,FRA_france,forge,harvest,unknown,000,DNS does not resolve
-forge.sigp.aviation-civile.gouv.fr,FRA_france,forge,harvest,unknown,401,redirects to https://authentification-sesame.sigp.aviation-civile.gouv.fr/auth/?contextId=LVYFXZXLY7QMMNBPZBX2GXGOGU%3D%3D%3D%3D%3D%3D
+forge.sigp.aviation-civile.gouv.fr,FRA_france,forge,harvest,unknown,401,redirects to https://authentification-sesame.sigp.aviation-civile.gouv.fr/auth/
 git.app.jalisco.gob.mx,MEX_mexico,forge,harvest,unknown,000,DNS does not resolve
 git.army.gov.lb,LBN_lebanon,forge,harvest,unknown,000,timeout
 git.audit.gov.to,TON_tonga,forge,harvest,unknown,200,
@@ -43,7 +43,7 @@ github.com/directgov-innovate,U.K. Central,github-org,governments.yml,github,200
 github.com/gopleader,U.S. Federal,github-org,governments.yml,github,200,
 github.com/swibwi,U.S. States,github-org,governments.yml,github,200,
 gitlab.adsib.gob.bo,BOL_bolivia,forge,harvest,unknown,000,DNS does not resolve
-gitlab.anptic.gov.bf,BFA_burkina_faso,forge,harvest,unknown,000,connection refused
+gitlab.anptic.gov.bf,BFA_burkina_faso,forge,harvest,unknown,000,timeout
 gitlab.casi.gov.sy,SYR_syria,forge,harvest,unknown,000,TLS handshake failed
 gitlab.catamarca.gob.ar,ARG_argentina,forge,harvest,unknown,000,DNS does not resolve
 gitlab.cetechihuahua.gob.mx,MEX_mexico,forge,harvest,unknown,000,timeout
@@ -70,7 +70,7 @@ gitlab.minedu.gov.gr,GRC_greece,forge,harvest,unknown,000,DNS does not resolve
 gitlab.mk.gov.ua,UKR_ukraine,forge,harvest,unknown,200,
 gitlab.modernizacion.gob.ar,ARG_argentina,forge,harvest,unknown,000,timeout
 gitlab.mppp.gob.ve,VEN_venezuela,forge,harvest,unknown,000,timeout
-gitlab.nukib.gov.cz,CZE_czechia,forge,harvest,gitlab,200,redirects to https://sso.nukib.gov.cz/realms/portal/protocol/openid-connect/auth?response_type=code&scope=openid&client_id=gitlab-apache&state=d0ftrj7uY3xyGV8w3mVHf4_aIjo&redirect_uri=https%3A%2F%2Fgitlab.nukib.gov.cz%2Fsentinel%2Foauth&nonce=8XBcQhD_6BWXZYJjTc9tCuXoKKyLVhjXCVgLzj9ruHo&code_challenge=amQm0-pUfs4pq3fk0anLpTIlbP_b_KYQK3XhnBhgUbs&code_challenge_method=S256
+gitlab.nukib.gov.cz,CZE_czechia,forge,harvest,gitlab,200,redirects to https://sso.nukib.gov.cz/realms/portal/protocol/openid-connect/auth
 gitlab.oopp.gob.bo,BOL_bolivia,forge,harvest,unknown,000,DNS does not resolve
 gitlab.pubblica.istruzione.it,ITA_italy,forge,harvest,unknown,503,
 gitlab.rpb.gov.tw,TWN_taiwan,forge,harvest,unknown,000,timeout
