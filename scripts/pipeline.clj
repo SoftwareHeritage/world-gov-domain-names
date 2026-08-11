@@ -31,6 +31,7 @@
 ;;   validate-un        check un_status against the official UN member list
 ;;   forges             forge-looking hosts -> data/forge-candidates.csv
 ;;   forges-swh         forge targets unknown to SWH -> data/forge-unknown-swh.csv
+;;   forges-probe       re-probe forge-unknown-swh.csv (type + accessibility)
 ;;   github-orgs        GitHub governments.yml -> data/github-gov-orgs.csv
 ;;   regex              email-domain regexes -> data/domain-regexes.csv
 ;;
@@ -2140,10 +2141,134 @@
           (do (err "WARN: could not validate SWH_TOKEN (network error); proceeding anyway")
               true))))))
 
+;; ===========================================================================
+;;  Forge probing (type + accessibility)
+;; ===========================================================================
+
+;; Homepage markers checked in order; the first match wins. Forgejo before
+;; Gitea (a Forgejo page mentions both), Gitea/Gogs before GitLab (their
+;; pages never embed GitLab assets), cgit before gitweb.
+(def forge-type-markers
+  [["forgejo"     #"(?i)forgejo"]
+   ["gitea"       #"(?i)content=\"Gitea|powered by gitea|href=\"https://gitea\.io"]
+   ["gogs"        #"(?i)content=\"Gogs|powered by gogs"]
+   ["gitlab"      #"(?i)content=\"GitLab\"|GitLab (?:Community|Enterprise) Edition|users/sign_in|users/auth/|gitlab-\w|/assets/webpack/"]
+   ["cgit"        #"(?i)id='cgit'|class='cgit|cgit v\d"]
+   ["gitweb"      #"(?i)gitweb"]
+   ["gerrit"      #"(?i)Gerrit Code Review"]
+   ["bonobo"      #"(?i)Bonobo Git Server|href=\"/Home/LogOn\""]
+   ["phabricator" #"(?i)phabricator|phorge"]
+   ["tuleap"      #"(?i)tuleap"]
+   ["fusionforge" #"(?i)fusionforge"]
+   ["redmine"     #"(?i)redmine"]
+   ["rhodecode"   #"(?i)rhodecode"]
+   ["kallithea"   #"(?i)kallithea"]
+   ["gitbucket"   #"(?i)gitbucket"]
+   ["bitbucket"   #"(?i)bitbucket"]
+   ["allura"      #"(?i)Apache Allura"]
+   ["pagure"      #"(?i)pagure"]
+   ["trac"        #"(?i)powered by trac"]])
+
+;; 200-responses that do not expose the forge itself.
+(def page-note-markers
+  [[#"_Incapsula_Resource"                           "blocked by Incapsula WAF"]
+   [#"(?i)Attention Required! \| Cloudflare|cf-chl-" "blocked by Cloudflare"]
+   [#"(?i)Nginx Proxy Manager"                       "reverse-proxy default page, forge not exposed"]])
+
+(def curl-exit-notes
+  {6  "DNS does not resolve"
+   7  "connection refused"
+   28 "timeout"
+   35 "TLS handshake failed"
+   52 "empty reply"
+   56 "connection reset"})
+
+(defn- forge-note [target final-url body exit]
+  (or (when-not (zero? exit)
+        (get curl-exit-notes exit (str "curl exit " exit)))
+      (some (fn [[re note]] (when (re-find re body) note)) page-note-markers)
+      ;; a redirect that leaves the host altogether is worth flagging
+      (let [[_ host] (re-find #"^https?://([^/]+)" (str final-url))]
+        (when (and host
+                   (not (str/starts-with? target "github.com/"))
+                   (not= host (first (str/split target #"/"))))
+          (str "redirects to " final-url)))
+      ""))
+
+(defn probe-forge!
+  "GET https://target/ with curl (-k: government forges often sit behind
+  self-signed certificates; -L: the landing page usually redirects) and
+  sniff the forge software from the final page. Returns {:type :status
+  :note}: :type from forge-type-markers ('github' for github.com targets
+  and redirects, 'unknown' otherwise), :status the final HTTP code as a
+  string ('000' when no response came back) and :note a short diagnostic
+  (curl error, WAF page, cross-host redirect) or the empty string."
+  [target]
+  (let [url (str "https://" target (when-not (str/includes? target "/") "/"))
+        tmp (fs/create-temp-file)]
+    (try
+      (let [{:keys [exit out]}
+            (try (proc/sh {:continue true}
+                          "curl" "-ksL" "--max-time" "25" "--connect-timeout" "10"
+                          "-A" ua "-o" (str tmp)
+                          "-w" "%{http_code}\t%{url_effective}" url)
+                 (catch Exception _ {:exit 1 :out ""}))
+            [code final-url] (str/split (str/trim (str out)) #"\t" 2)
+            body (try (slurp (fs/file tmp)) (catch Exception _ ""))
+            body (subs body 0 (min (count body) 300000))
+            type (cond
+                   (or (str/starts-with? target "github.com/")
+                       (re-find #"^https://github\.com/" (str final-url)))
+                   "github"
+
+                   (str/blank? body) "unknown"
+
+                   :else
+                   (or (some (fn [[t re]] (when (re-find re body) t))
+                             forge-type-markers)
+                       "unknown"))]
+        {:type type
+         :status (if (or (str/blank? code) (= "000" code)) "000" code)
+         :note (single-line (forge-note target final-url body exit))})
+      (finally (fs/delete-if-exists tmp)))))
+
+(def forge-unknown-header
+  ["target" "country" "kind" "source" "forge_type" "http_status" "note"])
+
+(defn probe-forge-rows
+  "Probe each [target country kind source …] row and return
+  [target country kind source forge_type http_status note] rows, in order."
+  [rows]
+  (bounded-pmap (parallel 8)
+                (fn [[target country kind source]]
+                  (let [{:keys [type status note]} (probe-forge! target)]
+                    (err (str "  " target " -> " type " (HTTP " status
+                              (when-not (str/blank? note) (str ", " note)) ")"))
+                    [target country kind source type status note]))
+                rows))
+
+(defn cmd-forges-probe
+  "Re-probe the targets of data/forge-unknown-swh.csv and refresh the
+  forge_type/http_status/note columns in place, without touching the SWH
+  API. Useful to re-check forge accessibility between two forges-swh runs."
+  [_args]
+  (let [rows (rest (read-csv-raw "data/forge-unknown-swh.csv"))]
+    (if (empty? rows)
+      (err "ERR: data/forge-unknown-swh.csv missing or empty. "
+           "Run 'bb pipeline forges-swh' first")
+      (let [probed (probe-forge-rows rows)]
+        (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header probed)
+        (println (str "Wrote data/forge-unknown-swh.csv (" (count probed)
+                      " targets probed, "
+                      (count (filter #(= "200" (nth % 5)) probed))
+                      " answering 200)"))))))
+
 (defn cmd-forges-swh
   "Check forge targets against the Software Heritage archive (origin search
   API) and write the ones SWH does not know yet to
-  data/forge-unknown-swh.csv. Targets are the harvested forge-looking hosts
+  data/forge-unknown-swh.csv, along with the forge software (sniffed from
+  the homepage) and its HTTP accessibility (probe-forge!).
+  Targets are the harvested forge-looking hosts
   (data/forge-candidates.csv) plus the curated entries of
   data/known-forges.csv with kind 'forge' or 'github-org' (a 'catalog' only
   points at code hosted elsewhere, so there is nothing to search for).
@@ -2191,10 +2316,11 @@
                           (Thread/sleep 500)
                           [target country kind source n])))
             unknown (filter #(and (some? (nth % 4)) (zero? (nth % 4))) checked)
-            errors  (filter #(nil? (nth % 4)) checked)]
-        (write-csv-file "data/forge-unknown-swh.csv"
-                        ["target" "country" "kind" "source"]
-                        (map #(vec (take 4 %)) unknown))
+            errors  (filter #(nil? (nth % 4)) checked)
+            _       (err (str "  probing " (count unknown)
+                              " unknown targets (forge type + accessibility)"))
+            probed  (probe-forge-rows (map #(vec (take 4 %)) unknown))]
+        (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header probed)
         (println (str "Wrote data/forge-unknown-swh.csv (" (count unknown)
                       " of " (count targets) " targets unknown to SWH"
                       (when (seq errors)
@@ -2539,6 +2665,7 @@
    "validate-un" (fn [_] (cmd-validate-un nil))
    "forges"      cmd-forges
    "forges-swh"  cmd-forges-swh
+   "forges-probe" cmd-forges-probe
    "github-orgs" (fn [_] (cmd-github-orgs nil))
    "regex"       cmd-regex})
 
@@ -2552,7 +2679,7 @@
   (println "  fetch | retry | normalize | probe | mx | aggregate | central")
   (println "  cisa | lannuaire")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
-  (println "  validate-un | forges | forges-swh | github-orgs | regex")
+  (println "  validate-un | forges | forges-swh | forges-probe | github-orgs | regex")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
 

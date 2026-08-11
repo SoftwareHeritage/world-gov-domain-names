@@ -55,6 +55,7 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
   bb scripts/pipeline.clj forges                # forge-looking hosts -> data/forge-candidates.csv
   bb scripts/pipeline.clj forges-swh            # forge targets unknown to SWH -> data/forge-unknown-swh.csv
+  bb scripts/pipeline.clj forges-probe          # re-probe forge-unknown-swh.csv (type + accessibility)
   bb scripts/pipeline.clj github-orgs           # GitHub governments.yml -> data/github-gov-orgs.csv
   bb scripts/pipeline.clj regex                 # email-domain regexes -> data/domain-regexes.csv
 #+end_src
@@ -72,6 +73,13 @@ so they are listed for reference but not searched. With the
 too. The anonymous API allows 10 requests per rate-limit window (the
 command paces itself accordingly); set =SWH_TOKEN= to authenticate and
 go faster -- recommended for the ~1000-org =github-orgs= sweep.
+
+Each unknown target is then probed over HTTPS (curl =-ksL=) to record
+the forge software sniffed from its homepage (=forge_type=), the final
+HTTP status code (=http_status=, =000= when unreachable) and a short
+diagnostic (=note=: DNS failure, timeout, WAF, default page,
+cross-host redirect). =forges-probe= refreshes those three columns in
+place without re-querying the SWH API.
 
 =regex= derives, from the central+ scope
 (=data/public-sector-domains-central+.csv=: central roots plus

@@ -84,7 +84,13 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   GitHub's community-maintained [[https://government.github.com/community/][governments.yml]].
 - =forge-unknown-swh.csv= -- forge targets (harvested + curated) that
   the [[https://archive.softwareheritage.org][Software Heritage archive]] does not know yet (checked against
-  its origin-search API): candidates for archival.
+  its origin-search API): candidates for archival. Each target is
+  also probed over HTTPS: =forge_type= is the forge software sniffed
+  from the homepage (gitlab, gitea, cgit…, or =github= for
+  redirects), =http_status= the final HTTP code (=000= when
+  unreachable) and =note= a short diagnostic (DNS failure, timeout,
+  WAF, default page, cross-host redirect). =bb pipeline forges-probe=
+  refreshes these columns without re-querying the SWH API.
 - =domain-regexes.csv= (and =public-sector-domains-central+-regex.txt=)
   -- per-country (and global) email-domain regexes over the central+
   scope (central government plus the first subdivision tier, i.e.
