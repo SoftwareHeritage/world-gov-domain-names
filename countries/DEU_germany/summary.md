@@ -62,10 +62,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `baden-wuerttemberg.de` | wikidata;linkgraph | Government of Baden-Württemberg |
+| 8 | `hamburg.de` | wikidata;linkgraph | Senate of the Free and Hanseatic City of Hamburg |
 | 7 | `landtag-bayern.de` | wikidata;wikidata | Landtag of Bavaria |
-| 4 | `baden-wuerttemberg.de` | wikidata | Government of Baden-Württemberg |
 | 4 | `bremische-buergerschaft.de` | wikidata | Bürgerschaft of Bremen |
-| 4 | `hamburg.de` | wikidata | Senate of the Free and Hanseatic City of Hamburg |
 | 4 | `hamburgische-buergerschaft.de` | wikidata | Hamburg Parliament |
 | 4 | `hessischer-landtag.de` | wikidata | Landtag of Hesse |
 | 4 | `landtag-bw.de` | wikidata | Landtag of Baden-Württemberg |

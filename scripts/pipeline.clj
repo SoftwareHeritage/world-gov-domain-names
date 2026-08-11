@@ -1583,15 +1583,19 @@
   candidates.csv (single blogroll link, typo'd domain...)."
   3)
 
-(def central+-domains-by-country
-  "{country_dir #{domain...}} from the consolidated central+ CSV. Used to
-  keep already-confirmed central(-1) domains out of the link-graph
-  candidate channel: unlike Wikidata hosts they carry no new label, so
-  re-listing them would only add noise to the manual validation pass."
+(def central-domains-by-country
+  "{country_dir #{domain...}} from the consolidated central CSV -- the
+  confirmed central-government roots (promoted roots + registries). Used
+  to keep them out of the link-graph candidate channel: re-listing
+  confirmed domains would only add noise to the manual validation pass.
+  NOT the central+ file: its central-1 rows are themselves unconfirmed
+  candidates (fed back from candidates-local.csv), so deduping against
+  them strips or drops candidate rows that produced them, making entries
+  oscillate in and out of central+ on alternate runs."
   (delay
     (reduce (fn [m {:strs [domain country]}]
               (update m country (fnil conj #{}) domain))
-            {} (read-csv-file "data/public-sector-domains-central+.csv"))))
+            {} (read-csv-file "data/public-sector-domains-central.csv"))))
 
 (defn score-candidate
   "Compute the 0-10 confidence score for one candidate hostname.
@@ -1694,7 +1698,7 @@
         ;; link-graph in-degree (see cmd-indegree): hosts linked from at
         ;; least linkgraph-min-indegree distinct same-country public-sector
         ;; domains enter the candidate pool with a strong score bonus.
-        lg-known       (get @central+-domains-by-country country-dir #{})
+        lg-known       (get @central-domains-by-country country-dir #{})
         lg-by-host
         (reduce (fn [m {:strs [hostname indegree]}]
                   (let [n (parse-long (or indegree ""))]
