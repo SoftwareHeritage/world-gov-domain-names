@@ -6,7 +6,7 @@
 - Region: Europe / Northern Europe
 - Languages: Lithuanian
 - Population: 2894886
-- GDP per capita: 29384 US$ (2024)
+- GDP per capita: 32959 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.lt` (manager: Kaunas University of Technology)
 - OECD: member since 2018

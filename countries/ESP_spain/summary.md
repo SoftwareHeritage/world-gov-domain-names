@@ -6,7 +6,7 @@
 - Region: Europe / Southern Europe
 - Languages: Spanish; Catalan; Basque; Galician
 - Population: 49315949
-- GDP per capita: 35327 US$ (2024)
+- GDP per capita: 38627 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.es` (manager: Red.es)
 - OECD: member since 1961
@@ -30,46 +30,46 @@
 
 ## Candidate domains ranked by score
 
-101 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+38 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `asambleamadrid.es` | wikidata;wikidata | Assembly of Madrid |
-| 7 | `ccyl.es` | wikidata;wikidata | Cortes of Castile-La Mancha |
-| 7 | `ceice.gva.es` | wikidata;wikidata | Ministry of Education, Research, Culture and Sport | Ministry of Education, C... |
-| 7 | `cortesaragon.es` | wikidata;wikidata | Aragonese Corts |
+| 7 | `aemet.es` | linkgraph | Linked from 22 public-sector domains |
+| 7 | `aepd.es` | linkgraph | Linked from 28 public-sector domains |
+| 7 | `boe.es` | linkgraph | Linked from 70 public-sector domains |
+| 7 | `ceice.gva.es` | wikidata;wikidata | Ministry of Education, Culture and Sport of the Valencian Government | Minist... |
 | 7 | `cortesgenerales.es` | wikidata;wikidata | Cortes Generales |
-| 7 | `cortsvalencianes.es` | wikidata;wikidata | Corts Valencianes |
-| 7 | `gva.es` | wikidata;wikidata | Generalitat Valenciana | Q2993785 |
-| 7 | `juntaex.es` | wikidata;wikidata | Consejería de Educación y Empleo | Junta de Extremadura |
-| 7 | `melilla.es` | wikidata;wikidata | Assembly of Melilla |
-| 7 | `parcan.es` | wikidata;wikidata | Canarian Parliament |
-| 7 | `parlamentib.es` | wikidata;wikidata | Parliament of the Balearic Islands |
-| 7 | `parlamento-cantabria.es` | wikidata;wikidata | Parliament of Cantabria |
-| 7 | `parlamentodeandalucia.es` | wikidata;wikidata | Parliament of Andalusia |
-| 7 | `parlamentodenavarra.es` | wikidata;wikidata | Parliament of Navarre |
+| 7 | `sedelectronica.es` | linkgraph | Linked from 27 public-sector domains |
 | 6 | `bngipuzkoa.eus` | wikidata;wikidata | General Assemblies of Gipuzkoa |
-| 6 | `conselharan.org` | wikidata;wikidata | Conselh |
-| 6 | `euskadi.eus` | wikidata;wikidata | Basque Government |
 | 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
 | 6 | `miteco.gob.es.` | wikidata;wikidata | Ministry for the Ecological Transition and the Demographic Challenge |
-| 6 | `parlament.cat` | wikidata;wikidata | Parliament of Catalonia |
+| 6 | `red.es` | linkgraph | Linked from 13 public-sector domains |
+| 5 | `dgt.es` | linkgraph | Linked from 6 public-sector domains |
+| 5 | `gov.gva.es` | wikidata | Q21094623 |
+| 5 | `ine.es` | linkgraph | Linked from 6 public-sector domains |
+| 5 | `seg-social.es` | linkgraph | Linked from 7 public-sector domains |
+| 4 | `agricultura.gva.es` | wikidata | Q11915347 |
+| 4 | `agroambient.gva.es` | wikidata | Q107653107 |
+| 4 | `comunidad.madrid` | linkgraph | Linked from 9 public-sector domains |
+| 4 | `csic.es` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `franciscanosconventuales.es` | wikidata | Province of Our Lady of Montserrat |
+| 4 | `ign.es` | linkgraph | Linked from 3 public-sector domains |
 
 ## Local / regional candidates
 
-39 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+117 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 31 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `madrid.org` | wikidata | Government of the Community of Madrid |
-| 7 | `madrid.es` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Central District Municipal board | Carabanchel District Municipal board | Arg... |
-| 6 | `ddgi.cat` | wikidata;wikidata | Diputación Provincial de Gerona |
-| 4 | `burgos.es` | wikidata | Diputación Provincial de Burgos |
-| 4 | `castillalamancha.es` | wikidata | Regional Government of Castile-La Mancha |
-| 4 | `dguadalajara.es` | wikidata | Diputación Provincial de Guadalajara |
-| 4 | `dip-badajoz.es` | wikidata | Diputación Provincial de Badajoz |
-| 4 | `dip-caceres.es` | wikidata | Diputación Provincial de Cáceres |
-| 4 | `dipcas.es` | wikidata | Diputación Provincial de Castellón |
-| 4 | `dipgra.es` | wikidata | Diputación Provincial de Granada |
+| 10 | `castillalamancha.es` | wikidata;wikidata;linkgraph | Regional Government of Castile-La Mancha | Regional Government of Castilla–La... |
+| 10 | `gva.es` | wikidata;wikidata;linkgraph | Q2993785 | Generalitat Valenciana |
+| 10 | `juntadeandalucia.es` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q16552044 | Q5783679 | Q5485584 | Consejería de Medio Ambiente y Ordenación d... |
+| 8 | `asturias.es` | wikidata;linkgraph | Government of the Principality of Asturias |
+| 7 | `asambleamadrid.es` | wikidata;wikidata | Assembly of Madrid |
+| 7 | `carm.es` | wikidata;linkgraph | Council of Government of the Region of Murcia |
+| 7 | `ccyl.es` | wikidata;wikidata | Cortes of Castile-La Mancha |
+| 7 | `cortesaragon.es` | wikidata;wikidata | Aragonese Corts |
+| 7 | `cortsvalencianes.es` | wikidata;wikidata | Corts Valencianes |
+| 7 | `juntaex.es` | wikidata;wikidata | Junta de Extremadura | Consejería de Educación y Empleo |
 

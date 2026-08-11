@@ -6,7 +6,7 @@
 - Region: Europe / Northern Europe
 - Languages: English
 - Population: 69281437
-- GDP per capita: 53246 US$ (2024)
+- GDP per capita: 57602 US$ (2025)
 - Currencies: GBP
 - ccTLD: `.uk` (manager: Nominet UK)
 - OECD: member since 1961
@@ -30,28 +30,46 @@
 
 ## Candidate domains ranked by score
 
-19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+339 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 10 | `parliament.uk` | wikidata;wikidata;linkgraph | Parliament of the United Kingdom |
 | 9 | `supremecourt.uk` | wikidata;wikidata | Supreme Court of the United Kingdom |
-| 8 | `parliament.uk` | wikidata;wikidata | Parliament of the United Kingdom |
+| 8 | `ordnancesurvey.co.uk` | wikidata;linkgraph | British Ordnance Survey |
+| 7 | `111.nhs.uk` | linkgraph | Linked from 402 public-sector domains |
+| 7 | `999bsl.co.uk` | linkgraph | Linked from 20 public-sector domains |
+| 7 | `abilitynet.org.uk` | linkgraph | Linked from 25 public-sector domains |
+| 7 | `accessable.co.uk` | linkgraph | Linked from 27 public-sector domains |
+| 7 | `accurx.nhs.uk` | linkgraph | Linked from 183 public-sector domains |
+| 7 | `bbc.co.uk` | linkgraph | Linked from 23 public-sector domains |
+| 7 | `cheshireandmerseyside.nhs.uk` | linkgraph | Linked from 25 public-sector domains |
+| 7 | `civicaepay.co.uk` | linkgraph | Linked from 24 public-sector domains |
+| 7 | `cqc.org.uk` | linkgraph | Linked from 297 public-sector domains |
+| 7 | `digital.nhs.uk` | linkgraph | Linked from 62 public-sector domains |
+| 7 | `england.nhs.uk` | linkgraph | Linked from 615 public-sector domains |
+| 7 | `eventbrite.co.uk` | linkgraph | Linked from 28 public-sector domains |
+| 7 | `eyelidproductions.co.uk` | linkgraph | Linked from 24 public-sector domains |
+| 7 | `frankltd.co.uk` | linkgraph | Linked from 72 public-sector domains |
+| 7 | `frontlinedata.co.uk` | linkgraph | Linked from 21 public-sector domains |
+| 7 | `google.co.uk` | linkgraph | Linked from 72 public-sector domains |
+| 7 | `gp-patient.co.uk` | linkgraph | Linked from 27 public-sector domains |
+
+## Local / regional candidates
+
+14 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 10 | `gov.scot` | wikidata;linkgraph | Scottish Government |
+| 9 | `gov.wales` | wikidata;linkgraph | Welsh Government |
+| 9 | `senedd.wales` | wikidata;wikidata;linkgraph | Senedd |
+| 7 | `parliament.scot` | wikidata;wikidata | Scottish Parliament |
+| 6 | `llyw.cymru` | wikidata;linkgraph | Welsh Government |
+| 6 | `senedd.cymru` | wikidata;wikidata | Senedd |
 | 7 | `alderney.gov.gg` | wikidata;wikidata | States of Alderney |
 | 7 | `gov.ky` | wikidata;wikidata | Parliament of the Cayman Islands |
 | 7 | `parliament.gi` | wikidata;wikidata | Parliament of Gibraltar |
 | 7 | `parliament.ms` | wikidata;wikidata | Legislative Assembly of Montserrat |
-| 7 | `parliament.scot` | wikidata;wikidata | Scottish Parliament |
-| 6 | `senedd.cymru` | wikidata;wikidata | Senedd |
-| 6 | `senedd.wales` | wikidata;wikidata | Senedd |
-| 5 | `admin.ox.ac.uk` | wikidata | University Chest |
-| 4 | `falklands.gov.fk` | wikidata | Government of the Falkland Islands |
-| 4 | `gov.scot` | wikidata | Scottish Government |
-| 4 | `gov.wales` | wikidata | Welsh Government |
-| 4 | `laugharnecorporation.co.uk` | wikidata | Laugharne Corporation |
-| 4 | `ordnancesurvey.co.uk` | wikidata | British Ordnance Survey |
-| 3 | `derrystrabane.com` | wikidata | Derry City and Strabane District Council |
-| 3 | `llyw.cymru` | wikidata | Welsh Government |
-| 3 | `newrymournedown.org` | wikidata | Newry, Mourne and Down District Council |
-| 3 | `nsandi.com` | wikidata | National Savings and Investments |
 

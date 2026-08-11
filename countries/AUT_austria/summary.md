@@ -6,7 +6,7 @@
 - Region: Europe / Central Europe
 - Languages: German
 - Population: 9200931
-- GDP per capita: 58269 US$ (2024)
+- GDP per capita: 62930 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.at` (manager: nic.at GmbH)
 - OECD: member since 1961

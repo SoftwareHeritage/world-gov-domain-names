@@ -6,7 +6,7 @@
 - Region: Europe / Southeast Europe
 - Languages: Romanian
 - Population: 19036031
-- GDP per capita: 20080 US$ (2024)
+- GDP per capita: 22538 US$ (2025)
 - Currencies: RON
 - ccTLD: `.ro` (manager: National Institute for R&amp;D in Informatics)
 - OECD: non-member
@@ -30,16 +30,17 @@
 
 ## Candidate domains ranked by score
 
-14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `just.ro` | wikidata;linkgraph | Ministry of Justice |
 | 7 | `parlament.ro` | wikidata;wikidata | Parliament of Romania |
 | 6 | `guv.ro` | un_desa | UN/DESA national portal |
 | 4 | `cultura.ro` | wikidata | Ministry of Culture |
+| 4 | `dataprotection.ro` | linkgraph | Linked from 3 public-sector domains |
 | 4 | `edu.ro` | wikidata | Ministry of Education of Romania |
-| 4 | `just.ro` | wikidata | Ministry of Justice |
 | 4 | `madr.ro` | wikidata | Ministry of Agriculture and Rural Development of Romania |
 | 4 | `mae.ro` | wikidata | Ministry of Foreign Affairs of Romania |
 | 4 | `mapn.ro` | wikidata | Ministry of National Defense |

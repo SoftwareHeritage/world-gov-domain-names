@@ -6,7 +6,7 @@
 - Region: Europe / Western Europe
 - Languages: German; French; Dutch
 - Population: 11825551
-- GDP per capita: 56615 US$ (2024)
+- GDP per capita: 60750 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.be` (manager: DNS Belgium vzw/asbl)
 - OECD: member since 1961
@@ -30,29 +30,34 @@
 
 ## Candidate domains ranked by score
 
-20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `ewi-vlaanderen.be` | wikidata;wikidata | Department of Economy, Sciency & Innovation |
+| 6 | `ejp.eu` | wikidata;wikidata | European Jewish Parliament |
+| 6 | `nato-pa.int` | wikidata;wikidata | NATO Parliamentary Assembly |
+| 4 | `autoriteprotectiondonnees.be` | linkgraph | Linked from 3 public-sector domains |
+| 4 | `dglive.be` | wikidata | Ministry of the German-speaking Community |
+| 4 | `gegevensbeschermingsautoriteit.be` | linkgraph | Linked from 3 public-sector domains |
+| 4 | `wallonie.be` | linkgraph | Linked from 4 public-sector domains |
+| 1 | `beneluxparl.eu` | wikidata;wikidata;wikidata;wikidata | Benelux Parliament |
+
+## Local / regional candidates
+
+15 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 11 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
 | 7 | `parlement-wallonie.be` | wikidata;wikidata | Parliament of Wallonia |
 | 7 | `parlement.brussels` | wikidata;wikidata | Parliament of the Brussels-Capital Region |
 | 7 | `pdg.be` | wikidata;wikidata | Parliament of the German-speaking Community |
 | 7 | `pfwb.be` | wikidata;wikidata | Parliament of the French Community |
 | 7 | `vlaamsparlement.be` | wikidata;wikidata | Flemish Parliament |
-| 7 | `vlaanderen.be` | wikidata;wikidata | Department for Culture, Youth and Media | Flemish Government |
-| 6 | `consilium.europa.eu` | wikidata;wikidata | Council of the European Union |
-| 6 | `ejp.eu` | wikidata;wikidata | European Jewish Parliament |
-| 6 | `nato-pa.int` | wikidata;wikidata | NATO Parliamentary Assembly |
-| 4 | `dglive.be` | wikidata | Ministry of the German-speaking Community |
 | 4 | `gouvernement.cfwb.be` | wikidata | Government of the French Community |
 | 4 | `gouvernement.wallonie.be` | wikidata | Government of Wallonia |
 | 4 | `ostbelgienlive.be` | wikidata | Government of the German-speaking Community |
-| 4 | `pfb.irisnet.be` | wikidata | French-speaking Brussels Parliament |
 | 4 | `raadvgc.be` | wikidata | Assembly of the Flemish Community Commission |
 | 3 | `be.brussels` | wikidata | Government of the Brussels-Capital Region |
-| 3 | `commission.europa.eu` | wikidata | European Commission |
-| 3 | `equal.brussels` | wikidata | equal.brussels |
-| 1 | `beneluxparl.eu` | wikidata;wikidata;wikidata;wikidata | Benelux Parliament |
 

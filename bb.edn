@@ -9,5 +9,7 @@
               :task (apply shell "bb scripts/pipeline.clj enrich" *command-line-args*)}
   report     {:doc  "cross-check: candidates.csv + summary.md"
               :task (apply shell "bb scripts/pipeline.clj report" *command-line-args*)}
+  indegree   {:doc  "link-graph in-degree (eu-plus-government-scans) -> sources/linkgraph/"
+              :task (apply shell "bb scripts/pipeline.clj indegree" *command-line-args*)}
   all        {:doc  "collect + enrich + report"
               :task (apply shell "bb scripts/pipeline.clj all" *command-line-args*)}}}

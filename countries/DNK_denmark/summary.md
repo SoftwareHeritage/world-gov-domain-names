@@ -6,7 +6,7 @@
 - Region: Europe / Northern Europe
 - Languages: Danish
 - Population: 6011488
-- GDP per capita: 71026 US$ (2024)
+- GDP per capita: 76970 US$ (2025)
 - Currencies: DKK
 - ccTLD: `.dk` (manager: Dansk Internet Forum)
 - OECD: member since 1961
@@ -30,12 +30,23 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `borger.dk` | linkgraph | Linked from 22 public-sector domains |
+| 7 | `digst.dk` | linkgraph | Linked from 65 public-sector domains |
 | 6 | `oscepa.org` | wikidata;wikidata | Parliamentary Assembly of the Organization for Security and Co-operation in E... |
+| 6 | `retsinformation.dk` | linkgraph | Linked from 11 public-sector domains |
+| 5 | `datatilsynet.dk` | linkgraph | Linked from 6 public-sector domains |
+| 5 | `mitid.dk` | linkgraph | Linked from 6 public-sector domains |
+| 5 | `virk.dk` | linkgraph | Linked from 9 public-sector domains |
+| 4 | `naevneneshus.dk` | linkgraph | Linked from 3 public-sector domains |
+| 4 | `politi.dk` | linkgraph | Linked from 3 public-sector domains |
+| 4 | `sikkerdigital.dk` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `stps.dk` | linkgraph | Linked from 3 public-sector domains |
+| 4 | `sundhed.dk` | linkgraph | Linked from 3 public-sector domains |
 
 ## Local / regional candidates
 

@@ -30,12 +30,13 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `dz-rs.si` | wikidata;wikidata | Slovenian Parliament |
 | 6 | `vlada.si` | un_desa | UN/DESA national portal |
+| 4 | `ip-rs.si` | linkgraph | Linked from 3 public-sector domains |
 | 3 | `dominikanci.hr` | wikidata | Croatian Dominican Province |
 

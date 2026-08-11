@@ -34,6 +34,8 @@
 ;;   forges-probe       re-probe forge-unknown-swh.csv (type + accessibility)
 ;;   github-orgs        GitHub governments.yml -> data/github-gov-orgs.csv
 ;;   regex              email-domain regexes -> data/domain-regexes.csv
+;;   indegree [C…]      link-graph in-degree (eu-plus-government-scans)
+;;                      -> countries/<c>/sources/linkgraph/indegree.csv
 ;;
 ;; Environment variables:
 ;;   FORCE=1            force-overwrite existing outputs
@@ -1576,6 +1578,21 @@
 (defn host-collected? [host subs]
   (some (fn [s] (or (= s host) (str/ends-with? s (str "." host)))) subs))
 
+(def linkgraph-min-indegree
+  "Below this many distinct linking domains a host stays out of
+  candidates.csv (single blogroll link, typo'd domain...)."
+  3)
+
+(def central+-domains-by-country
+  "{country_dir #{domain...}} from the consolidated central+ CSV. Used to
+  keep already-confirmed central(-1) domains out of the link-graph
+  candidate channel: unlike Wikidata hosts they carry no new label, so
+  re-listing them would only add noise to the manual validation pass."
+  (delay
+    (reduce (fn [m {:strs [domain country]}]
+              (update m country (fnil conj #{}) domain))
+            {} (read-csv-file "data/public-sector-domains-central+.csv"))))
+
 (defn score-candidate
   "Compute the 0-10 confidence score for one candidate hostname.
   Inputs:
@@ -1586,11 +1603,15 @@
     :un-portal-host  UN/DESA-declared national portal host (or nil)
     :cctld-primary   country's primary ccTLD (without leading dot)
     :curated?        host comes from the manually-curated source channel
+    :indegree        # of distinct same-country public-sector domains
+                     linking to the host (nil when absent from the link
+                     graph); being linked from many independent government
+                     sites is a strong presumption of validity
     :subdiv-penalty? apply the anti-subnational penalties (default true);
                      false when ranking candidates-local.csv, where burying
                      subnational entries would defeat the file's purpose"
   [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary curated?
-           subdiv-penalty?]
+           indegree subdiv-penalty?]
     :or {subdiv-penalty? true}}]
   (let [label (or label "")
         un?           (= host un-portal-host)
@@ -1604,9 +1625,19 @@
         subdivision?  (and (seq label) (boolean (re-find subdiv-pattern label)))
         many-no-fed?  (and (>= wd-count 3) (seq label)
                            (not (re-find federal-pattern label)))
+        ;; 20+ distinct linking government domains is evidence as strong as
+        ;; the UN/DESA portal declaration; scaled down to +3 at the
+        ;; linkgraph-min-indegree floor.
+        lg-points     (cond (nil? indegree)                       0
+                            (>= indegree 20)                      6
+                            (>= indegree 10)                      5
+                            (>= indegree 5)                       4
+                            (>= indegree linkgraph-min-indegree)  3
+                            :else                                 0)
         score (+ (if un?          5 0)
                  (* 3 (min 2 (max 0 wd-count)))
                  (if curated?     3 0)
+                 lg-points
                  (if on-cctld?    1 0)
                  (if gov-host?    1 0)
                  (if fb-match?    2 0)
@@ -1618,8 +1649,9 @@
   "Compute countries/<c>/candidates.csv (central administrations) and
   countries/<c>/candidates-local.csv (subnational bodies), both with
   columns hostname,score,sources,label,level. Aggregates Wikidata mentions
-  (incl. their P1001-derived level), UN/DESA national portal, IANA ccTLD and
-  Factbook institution names. A host is subnational when Wikidata or
+  (incl. their P1001-derived level), UN/DESA national portal, IANA ccTLD,
+  Factbook institution names and link-graph in-degree (sources/linkgraph/,
+  see cmd-indegree). A host is subnational when Wikidata or
   curation says so, or when its label matches the subdivision pattern; a
   subnational host whose jurisdiction (or label) points to a first-level
   subdivision of the country (Land, state, region…) is tagged 'central-1',
@@ -1658,6 +1690,19 @@
                                          (if (some #{label} ls) ls (conj ls label)))))
                           (update-in [host :levels] (fnil conj #{}) level)))))
                 {} wd-rows)
+        lg-path        (country-src country-dir "linkgraph" "indegree.csv")
+        ;; link-graph in-degree (see cmd-indegree): hosts linked from at
+        ;; least linkgraph-min-indegree distinct same-country public-sector
+        ;; domains enter the candidate pool with a strong score bonus.
+        lg-known       (get @central+-domains-by-country country-dir #{})
+        lg-by-host
+        (reduce (fn [m {:strs [hostname indegree]}]
+                  (let [n (parse-long (or indegree ""))]
+                    (if (and n (>= n linkgraph-min-indegree)
+                             (not (host-covered? hostname lg-known)))
+                      (assoc m hostname n)
+                      m)))
+                {} (read-csv-file lg-path))
         cur-rows       (when (fs/exists? cur-path) (rest (read-csv-raw cur-path)))
         ;; curated host -> {:label :level}
         ;; (schema: type,label,website,hostname,provenance[,level])
@@ -1669,7 +1714,9 @@
                       (assoc m host {:label (or (nth row 1 nil) "")
                                      :level (str/trim (or (nth row 5 nil) ""))}))))
                 {} cur-rows)
-        all-hosts (cond-> (into (set (keys wd-by-host)) (keys cur-by-host))
+        all-hosts (cond-> (-> (set (keys wd-by-host))
+                              (into (keys cur-by-host))
+                              (into (keys lg-by-host)))
                     un-portal-host (conj un-portal-host))
         known     (set (known-roots))
         ;; English labels of the country's first-level subdivisions, as a
@@ -1713,6 +1760,7 @@
                           (get wd-by-host h)
                           un? (= h un-portal-host)
                           curated? (contains? cur-by-host h)
+                          linked-n (get lg-by-host h)
                           cur-label (get-in cur-by-host [h :label])
                           labels (cond-> labels
                                    (and curated? (seq cur-label)
@@ -1721,10 +1769,18 @@
                           label (cond-> (str/join " | " labels)
                                   un? (str (when (seq labels) " | ")
                                            "UN/DESA national portal"))
+                          ;; a hint for the manual validation pass when the
+                          ;; link graph is the only thing we know
+                          label (if (and linked-n (str/blank? label))
+                                  (str "Linked from " linked-n
+                                       " public-sector domains")
+                                  label)
                           sources (cond-> []
                                     un? (conj "un_desa"))
                           sources (into sources (repeat cnt "wikidata"))
-                          sources (cond-> sources curated? (conj "curated"))
+                          sources (cond-> sources
+                                    curated? (conj "curated")
+                                    linked-n (conj "linkgraph"))
                           level (host-level h label)
                           score (score-candidate
                                   {:host h :wd-count cnt :label label
@@ -1732,6 +1788,7 @@
                                    :un-portal-host un-portal-host
                                    :cctld-primary cctld-primary
                                    :curated? curated?
+                                   :indegree linked-n
                                    :subdiv-penalty?
                                    (not (contains? #{"local" "central-1"} level))})]
                       [h score (str/join ";" sources) label level])))
@@ -2632,6 +2689,129 @@
                     (count all-entries) " domains)")))))
 
 ;; ===========================================================================
+;;  Utilitaire -- indegree (link-graph centrality, eu-plus-government-scans)
+;; ===========================================================================
+
+(def linkgraph-base-url
+  ;; Data published by https://github.com/mgifford/eu-plus-government-scans:
+  ;; a crawl of government sites (EU + neighbours) recording outbound links
+  ;; and asset dependencies. gov-domains.json maps hostname -> country;
+  ;; relationships.jsonl holds one edge per line.
+  "https://raw.githubusercontent.com/mgifford/eu-plus-government-scans/main/docs/data/")
+
+(def linkgraph-cache "/tmp/linkgraph")
+
+(defn- linkgraph-fetch!
+  "Download one published data file into the /tmp cache (relationships.jsonl
+  is ~100 MB, hence curl -o and a long timeout). Returns the path, nil on
+  failure. FORCE=1 re-downloads."
+  [file]
+  (let [path (str linkgraph-cache "/" file)]
+    (if (and (fs/exists? path) (not force?))
+      path
+      (do (ensure-dir linkgraph-cache)
+          (println (str "Downloading " file "..."))
+          (let [{:keys [exit]}
+                (try (proc/sh "curl" "-sfL" "--max-time" "600" "-A" ua
+                              "-o" path (str linkgraph-base-url file))
+                     (catch Exception _ nil))]
+            (if (and exit (zero? exit))
+              path
+              (do (err "ERR: could not fetch " linkgraph-base-url file)
+                  (when (fs/exists? path) (fs/delete path))
+                  nil)))))))
+
+(def linkgraph-country-aliases
+  "Crawler country names whose normalize-name does not equal our slug."
+  {"unitedkingdomuk"  "unitedkingdom"
+   "republicofcyprus" "cyprus"})
+
+(defn- linkgraph-suffix->dir
+  "{domain-suffix country_dir} built from the crawler's inventory. Every
+  dotted suffix of each hostname is registered (2+ labels), so the
+  domain-level source/target fields of the graph (paris.fr,
+  culture.gouv.fr) match; suffixes claimed by two countries are dropped."
+  []
+  (when-let [path (linkgraph-fetch! "gov-domains.json")]
+    (let [by-slug   (into {} (map (juxt country-slug identity)) (country-dirs))
+          name->dir (fn [n] (let [n (normalize-name n)]
+                              (by-slug (get linkgraph-country-aliases n n))))
+          domains   (get (json/parse-string (slurp path)) "domains")
+          mapping   (into {} (keep (fn [n] (when-let [d (name->dir n)] [n d])))
+                          (distinct (vals domains)))]
+      (doseq [n (remove mapping (distinct (vals domains)))]
+        (err "WARN: unmapped country in link graph: " n))
+      (->> domains
+           (reduce (fn [m [host cname]]
+                     (if-let [dir (mapping cname)]
+                       (let [parts (str/split (str/lower-case host) #"\.")]
+                         (reduce (fn [m i]
+                                   (update m (str/join "." (subvec parts i))
+                                           (fnil conj #{}) dir))
+                                 m (range (dec (count parts)))))
+                       m))
+                   {})
+           (keep (fn [[suf dirs]] (when (= 1 (count dirs)) [suf (first dirs)])))
+           (into {})))))
+
+(defn- linkgraph-lookup
+  "Longest-suffix match of a domain in the {suffix country_dir} map."
+  [suffix->dir domain]
+  (let [parts (str/split domain #"\.")]
+    (some (fn [i] (suffix->dir (str/join "." (subvec parts i))))
+          (range (dec (count parts))))))
+
+(defn cmd-indegree
+  "For every country covered by the eu-plus-government-scans crawl, compute
+  each government domain's in-degree: how many distinct public-sector
+  domains of the same country link to it. Editorial links and form
+  destinations feed =indegree=; script/stylesheet/media dependencies feed
+  =indegree_tech=. Auto-links are excluded, and the crawler's own
+  target_category is ignored (it tags well-known government sites as
+  external). Writes countries/<c>/sources/linkgraph/indegree.csv; the
+  report phase then folds hosts at or above linkgraph-min-indegree into
+  candidates.csv with a strong score bonus. Optional args restrict to the
+  given country_dirs."
+  [args]
+  (let [suffix->dir (linkgraph-suffix->dir)
+        rel-path    (and suffix->dir (linkgraph-fetch! "relationships.jsonl"))]
+    (if-not rel-path
+      (err "ERR: link-graph data unavailable")
+      (let [only       (when (seq args) (set args))
+            editorial? #{"editorial_link" "form_destination"}
+            acc        ;; {country_dir {target {:ed #{src...} :tech #{src...}}}}
+            (with-open [r (io/reader rel-path)]
+              (reduce
+               (fn [acc line]
+                 (let [row (json/parse-string line)
+                       src (get row "source_domain")
+                       tgt (get row "target_domain")
+                       dir (and (seq src) (seq tgt) (not= src tgt)
+                                (linkgraph-lookup suffix->dir src))]
+                   (if (and dir
+                            (or (nil? only) (contains? only dir))
+                            (= dir (linkgraph-lookup suffix->dir tgt)))
+                     (let [k (if (editorial? (get row "relationship_type"))
+                               :ed :tech)]
+                       (update-in acc [dir tgt k] (fnil conj #{}) src))
+                     acc)))
+               {} (line-seq r)))]
+        (doseq [[dir targets] (sort-by key acc)]
+          (let [rows   (->> targets
+                            (map (fn [[tgt {:keys [ed tech]}]]
+                                   [tgt (count ed) (count tech)]))
+                            (sort-by (juxt #(- (nth % 1)) first)))
+                strong (count (filter #(>= (nth % 1) linkgraph-min-indegree)
+                                      rows))]
+            (write-csv-file (country-src dir "linkgraph" "indegree.csv")
+                            ["hostname" "indegree" "indegree_tech"]
+                            (map (fn [[t e c]] [t (str e) (str c)]) rows))
+            (println (str dir ": " (count rows) " linked domains ("
+                          strong " with indegree >= "
+                          linkgraph-min-indegree ")"))))
+        (println "Run 'bb pipeline report' to fold them into candidates.csv.")))))
+
+;; ===========================================================================
 ;;  Dispatcher
 ;; ===========================================================================
 
@@ -2671,7 +2851,8 @@
    "forges-swh"  cmd-forges-swh
    "forges-probe" cmd-forges-probe
    "github-orgs" (fn [_] (cmd-github-orgs nil))
-   "regex"       cmd-regex})
+   "regex"       cmd-regex
+   "indegree"    cmd-indegree})
 
 (defn usage []
   (println "Usage: bb scripts/pipeline.clj <command> [args…]")
@@ -2684,6 +2865,7 @@
   (println "  cisa | lannuaire")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
   (println "  validate-un | forges | forges-swh | forges-probe | github-orgs | regex")
+  (println "  indegree")
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
 

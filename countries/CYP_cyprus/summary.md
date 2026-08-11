@@ -6,7 +6,7 @@
 - Region: Europe / Southern Europe
 - Languages: Greek; Turkish
 - Population: 1442614
-- GDP per capita: 38674 US$ (2024)
+- GDP per capita: 41783 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.cy` (manager: University of Cyprus)
 - OECD: non-member
@@ -30,12 +30,21 @@
 
 ## Candidate domains ranked by score
 
-19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.cy` | wikidata;wikidata | House of Representatives |
+| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
+| 3 | `wikidata.org` | wikidata | Deputy Ministry of Culture of Cyprus |
+
+## Local / regional candidates
+
+16 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
 | 4 | `kouklia.org.cy` | wikidata | Communal Council of Kouklia |
 | 4 | `lemba.org.cy` | wikidata | Communal Council of Lempa |
 | 4 | `lyssos.org.cy` | wikidata | Communal Council of Lysos |
@@ -45,13 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `argaka.org` | wikidata | Communal Council of Argaka |
 | 3 | `ayiamarinouda.org` | wikidata | Communal Council of Ayia Marinoudha |
 | 3 | `ayiavarvara.com` | wikidata | Communal Council of Ayia Varvara |
-| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
 | 3 | `drinia.org` | wikidata | Communal Council of Drinia |
-| 3 | `drymou.org` | wikidata | Communal Council of Drymou |
-| 3 | `goudi.org` | wikidata | Communal Council of Goudi |
-| 3 | `kissonerga.org` | wikidata | Communal Council of Kissonerga |
-| 3 | `kritouterra.org` | wikidata | Communal Council of Kritou Terra |
-| 3 | `letymbou.org` | wikidata | Communal Council of Letymvou |
-| 3 | `pelendri.org` | wikidata | Communal Council of Pelendri |
-| 3 | `wikidata.org` | wikidata | Deputy Ministry of Culture of Cyprus |
 

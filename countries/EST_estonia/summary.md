@@ -6,7 +6,7 @@
 - Region: Europe / Northern Europe
 - Languages: Estonian
 - Population: 1369995
-- GDP per capita: 31428 US$ (2024)
+- GDP per capita: 34418 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.ee` (manager: Eesti Interneti Sihtasutus (EIS))
 - OECD: member since 2010
@@ -30,8 +30,19 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `riigiteataja.ee` | linkgraph | Linked from 10 public-sector domains |
+| 4 | `just.ee` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `kliimaministeerium.ee` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `riigikantselei.ee` | linkgraph | Linked from 4 public-sector domains |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

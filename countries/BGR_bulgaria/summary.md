@@ -6,7 +6,7 @@
 - Region: Europe / Southeast Europe
 - Languages: Bulgarian
 - Population: 6437360
-- GDP per capita: 17596 US$ (2024)
+- GDP per capita: 20328 US$ (2025)
 - Currencies: BGN
 - ccTLD: `.bg` (manager: Register.BG)
 - OECD: non-member
@@ -30,12 +30,14 @@
 
 ## Candidate domains ranked by score
 
-20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 8 | `parliament.bg` | wikidata;wikidata | National Assembly of Bulgaria |
+| 10 | `egov.bg` | un_desa;linkgraph | UN/DESA national portal |
+| 10 | `parliament.bg` | wikidata;wikidata;linkgraph | National Assembly of Bulgaria |
+| 7 | `government.bg` | linkgraph | Linked from 20 public-sector domains |
 | 7 | `mc.government.bg` | wikidata;wikidata | Ministry of Culture of Bulgaria |
 | 7 | `me.government.bg` | wikidata;wikidata | Ministry of Energy of Bulgaria |
 | 7 | `mfa.bg` | wikidata;wikidata | Ministry of Foreign Affairs of Bulgaria |
@@ -47,14 +49,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mtitc.government.bg` | wikidata;wikidata | Ministry of Transport, Information Technology and Communications |
 | 7 | `mvr.bg` | wikidata;wikidata | Ministry of Interior of Bulgaria |
 | 7 | `tourism.government.bg` | wikidata;wikidata | Ministry of Tourism |
-| 6 | `egov.bg` | un_desa | UN/DESA national portal |
+| 5 | `cpdp.bg` | linkgraph | Linked from 5 public-sector domains |
 | 4 | `egov.government.bg` | wikidata | Ministry of Electronic Government |
 | 4 | `justice.government.bg` | wikidata | Ministry of Justice |
+| 4 | `kzp.bg` | linkgraph | Linked from 3 public-sector domains |
 | 4 | `mi.government.bg` | wikidata | Ministry of Economy and Industry |
 | 4 | `mig.government.bg` | wikidata | Ministry of Innovation and Growth |
-| 4 | `mlsp.government.bg` | wikidata | Ministry of Labour and Social Policy |
-| 4 | `mod.bg` | wikidata | Ministry of Defence of Bulgaria |
-| 4 | `mzh.government.bg` | wikidata | Ministry of Agriculture, Food and Forestry |
 
 ## Local / regional candidates
 

@@ -6,7 +6,7 @@
 - Region: Europe / Northern Europe
 - Languages: Latvian
 - Population: 1829000
-- GDP per capita: 23409 US$ (2024)
+- GDP per capita: 26312 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.lv` (manager: University of Latvia, Institute of Mathematics and Computer Science, Department of Network Solutions (DNS))
 - OECD: member since 2016
@@ -30,10 +30,11 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `likumi.lv` | linkgraph | Linked from 33 public-sector domains |
 | 3 | `jesuiten.org` | wikidata | Jesuit Province of Central Europe |
 

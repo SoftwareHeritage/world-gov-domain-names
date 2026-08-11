@@ -6,7 +6,7 @@
 - Region: Europe / Central Europe
 - Languages: Hungarian
 - Population: 9539502
-- GDP per capita: 23292 US$ (2024)
+- GDP per capita: 25907 US$ (2025)
 - Currencies: HUF
 - ccTLD: `.hu` (manager: Council of Hungarian Internet Providers (CHIP))
 - OECD: member since 1996
@@ -30,12 +30,22 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 10 | `magyarorszag.hu` | un_desa;linkgraph | UN/DESA national portal |
 | 7 | `parlament.hu` | wikidata;wikidata | National Assembly |
-| 6 | `magyarorszag.hu` | un_desa | UN/DESA national portal |
+| 5 | `valasztas.hu` | linkgraph | Linked from 7 public-sector domains |
 | 4 | `piarista.hu` | wikidata | piarist province of Hungary |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `bacskiskun.hu` | wikidata | Bács-Kiskun County Assembly |
+| 4 | `szszbvmo.hu` | wikidata | Szabolcs-Szatmár-Bereg County Assembly |
 

@@ -8,7 +8,7 @@
 - Population: 5458600
 - GDP per capita: 112895 US$ (2024)
 - Currencies: EUR
-- ccTLD: `.ie` (manager: University College Dublin, Computing Services, Computer Centre)
+- ccTLD: `.ie` (manager: IE Domain Registry CLG)
 - OECD: member since 1961
 - UN/DESA EGDI: Rank 20 of 193
 - Government type: parliamentary republic

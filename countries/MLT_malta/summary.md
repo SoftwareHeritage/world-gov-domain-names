@@ -6,7 +6,7 @@
 - Region: Europe / Southern Europe
 - Languages: English; Maltese
 - Population: 574250
-- GDP per capita: 43899 US$ (2024)
+- GDP per capita: 47907 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.mt` (manager: NIC (Malta))
 - OECD: non-member

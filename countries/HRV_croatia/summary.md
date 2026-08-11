@@ -6,7 +6,7 @@
 - Region: Europe / Southeast Europe
 - Languages: Croatian
 - Population: 3866233
-- GDP per capita: 24050 US$ (2024)
+- GDP per capita: 27104 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.hr` (manager: CARNet - Croatian Academic and Research Network)
 - OECD: member since 2025

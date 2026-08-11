@@ -69,6 +69,11 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   administrative tier below it.
 - =summary.md= -- a human-readable cross-check report.
 - =sources/= -- the raw data behind the above, one folder per source.
+  =sources/linkgraph/indegree.csv= (EU + neighbours only) counts, for
+  each domain, how many distinct public-sector domains of the same
+  country link to it, from the crawl published by
+  [[https://github.com/mgifford/eu-plus-government-scans][eu-plus-government-scans]] (=bb indegree= refreshes it); well-linked
+  hosts enter =candidates.csv= with a strong score bonus.
 
 ** Master data (=data/=)
 

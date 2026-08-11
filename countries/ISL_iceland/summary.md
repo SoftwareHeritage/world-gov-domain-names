@@ -6,7 +6,7 @@
 - Region: Europe / Northern Europe
 - Languages: Icelandic
 - Population: 391810
-- GDP per capita: 86041 US$ (2024)
+- GDP per capita: 98323 US$ (2025)
 - Currencies: ISK
 - ccTLD: `.is` (manager: ISNIC - Internet á Íslandi hf.)
 - OECD: member since 1961
@@ -30,5 +30,10 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 5 | `island.is` | linkgraph | Linked from 7 public-sector domains |
 

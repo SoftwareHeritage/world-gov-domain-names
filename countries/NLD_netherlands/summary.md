@@ -30,5 +30,12 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 5 | `autoriteitpersoonsgegevens.nl` | linkgraph | Linked from 6 public-sector domains |
+| 4 | `cbs.nl` | linkgraph | Linked from 3 public-sector domains |
+| 4 | `kvk.nl` | linkgraph | Linked from 4 public-sector domains |
 

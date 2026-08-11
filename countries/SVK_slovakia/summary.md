@@ -35,11 +35,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 10 | `slovensko.sk` | un_desa;linkgraph | UN/DESA national portal |
 | 7 | `mfsr.sk` | wikidata;wikidata | Ministry of Finance of the Slovak Republic |
 | 7 | `mindop.sk` | wikidata;wikidata | Ministry of Transport and Construction of the Slovak Republic |
 | 7 | `mpsr.sk` | wikidata;wikidata | Ministry of Agriculture and Rural Development of the Slovak Republic |
 | 7 | `nrsr.sk` | wikidata;wikidata | National Council of the Slovak Republic |
-| 6 | `slovensko.sk` | un_desa | UN/DESA national portal |
 | 4 | `dominikani.sk` | wikidata | Dominican Province of Slovakia |
 | 4 | `frantiskani.sk` | wikidata | Province of the Most Holy Redeemer of the Friars Minor in Slovakia |
 | 4 | `mincrs.sk` | wikidata | Ministry of Tourism and Sports of the Slovak Republic |

@@ -6,7 +6,7 @@
 - Region: Europe / Northern Europe
 - Languages: Swedish
 - Population: 10605098
-- GDP per capita: 57117 US$ (2024)
+- GDP per capita: 63133 US$ (2025)
 - Currencies: SEK
 - ccTLD: `.se` (manager: The Internet Infrastructure Foundation)
 - OECD: member since 1961
@@ -30,11 +30,18 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `1177.se` | linkgraph | Linked from 22 public-sector domains |
 | 7 | `sametinget.se` | wikidata;wikidata | Sami Parliament of Sweden |
+| 6 | `pts.se` | linkgraph | Linked from 14 public-sector domains |
+| 5 | `digg.se` | linkgraph | Linked from 6 public-sector domains |
+| 5 | `imy.se` | linkgraph | Linked from 7 public-sector domains |
+| 4 | `arbetsformedlingen.se` | linkgraph | Linked from 3 public-sector domains |
+| 4 | `kb.se` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `skolverket.se` | linkgraph | Linked from 4 public-sector domains |
 | 2 | `lansstyrelsen.se` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Östergötland County Administrative Board | Uppsala County Administrative Boar... |
 

@@ -6,7 +6,7 @@
 - Region: Europe / Western Europe
 - Languages: German; French; Luxembourgish
 - Population: 681973
-- GDP per capita: 137782 US$ (2024)
+- GDP per capita: 147252 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.lu` (manager: RESTENA)
 - OECD: member since 1961
@@ -30,10 +30,11 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 4 | `etat.lu` | linkgraph | Linked from 4 public-sector domains |
 | 1 | `beneluxparl.eu` | wikidata;wikidata;wikidata;wikidata | Benelux Parliament |
 

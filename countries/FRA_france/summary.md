@@ -6,7 +6,7 @@
 - Region: Europe / Western Europe
 - Languages: French
 - Population: 66351959
-- GDP per capita: 46103 US$ (2024)
+- GDP per capita: 48986 US$ (2025)
 - Currencies: EUR
 - ccTLD: `.fr` (manager: Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.))
 - OECD: member since 1961
@@ -30,38 +30,48 @@
 
 ## Candidate domains ranked by score
 
-10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 10 | `assemblee-nationale.fr` | wikidata;wikidata;wikidata;linkgraph | National Assembly | Franco-German Parliamentary Assembly |
 | 9 | `gouvernement.fr` | un_desa;wikidata | Council of Ministers | UN/DESA national portal |
-| 8 | `parlement.fr` | wikidata;wikidata | French Parliament |
-| 7 | `assemblee-nationale.fr` | wikidata;wikidata;wikidata | Franco-German Parliamentary Assembly | National Assembly |
+| 7 | `cnil.fr` | linkgraph | Linked from 44 public-sector domains |
 | 7 | `ctguyane.fr` | wikidata;wikidata | Assembly of French Guiana |
+| 7 | `france.fr` | linkgraph | Linked from 29 public-sector domains |
+| 7 | `service-public.fr` | linkgraph | Linked from 165 public-sector domains |
+| 6 | `ameli.fr` | linkgraph | Linked from 11 public-sector domains |
+| 6 | `caf.fr` | linkgraph | Linked from 12 public-sector domains |
+| 6 | `francetravail.fr` | linkgraph | Linked from 12 public-sector domains |
+| 6 | `vie-publique.fr` | linkgraph | Linked from 12 public-sector domains |
+| 5 | `auvergnerhonealpes.fr` | linkgraph | Linked from 8 public-sector domains |
+| 5 | `elysee.fr` | linkgraph | Linked from 9 public-sector domains |
+| 5 | `meteofrance.fr` | linkgraph | Linked from 7 public-sector domains |
+| 5 | `paris.fr` | linkgraph | Linked from 5 public-sector domains |
+| 5 | `paysdelaloire.fr` | linkgraph | Linked from 5 public-sector domains |
+| 5 | `senat.fr` | linkgraph | Linked from 5 public-sector domains |
 | 4 | `assemblee-afe.fr` | wikidata | Assembly of French Citizens Abroad |
 | 4 | `conseil-etat.fr` | wikidata | Conseil d'État |
-| 4 | `corse.fr` | wikidata | Executive Council of Corsica |
-| 4 | `ihemi.fr` | wikidata | Institut des hautes études du ministère de l'Intérieur |
-| 3 | `escolapiesinstitutions.org` | wikidata | Piarist province of West Africa |
-| 3 | `jesuites.com` | wikidata | Jesuit Province of Francophone Western Europe |
+| 4 | `grandest.fr` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `hautsdefrance.fr` | linkgraph | Linked from 3 public-sector domains |
 
 ## Local / regional candidates
 
-38 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+39 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Regional Council of Limousin | Nouvelle-Aquitaine Regional Council |
+| 7 | `bourgognefranchecomte.fr` | wikidata;linkgraph | Regional council of Bourgogne-Franche-Comté |
+| 7 | `iledefrance.fr` | wikidata;linkgraph | Regional Council of Île-de-France |
+| 7 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Nouvelle-Aquitaine Regional Council | Regional Council of Limousin |
 | 4 | `cg971.fr` | wikidata | departmental council of Guadeloupe |
+| 4 | `corse.fr` | wikidata | Executive Council of Corsica |
 | 4 | `hautenormandie.fr` | wikidata | Regional Council of Upper Normandy |
 | 4 | `regionpaca.fr` | wikidata | Regional Council of Provence-Alpes-Côte d'Azur |
 | 3 | `bretagne.bzh` | wikidata | Regional Council of Brittany |
 | 3 | `regionreunion.com` | wikidata | Regional council of Réunion |
-| 7 | `essonne.fr` | wikidata;wikidata | departmental council of Essonne | general council of Essonne |
-| 7 | `gard.fr` | wikidata;wikidata | departmental council of Gard | general council of Gard |
-| 7 | `lot.fr` | wikidata;wikidata | departmental council of Lot | general council of Lot |
-| 7 | `vosges.fr` | wikidata;wikidata | departmental council of Vosges | general council of Vosges |
+| 7 | `essonne.fr` | wikidata;wikidata | general council of Essonne | departmental council of Essonne |
 
 ## ccTLD anomalies
 

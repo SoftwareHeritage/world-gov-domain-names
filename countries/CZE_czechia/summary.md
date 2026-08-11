@@ -6,7 +6,7 @@
 - Region: Europe / Central Europe
 - Languages: Czech; Slovak
 - Population: 10882341
-- GDP per capita: 31823 US$ (2024)
+- GDP per capita: 35917 US$ (2025)
 - Currencies: CZK
 - ccTLD: `.cz` (manager: CZ.NIC, z.s.p.o)
 - OECD: member since 1995
@@ -30,15 +30,20 @@
 
 ## Candidate domains ranked by score
 
-7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `ofm.cz` | wikidata;wikidata | Province of Saint Wenceslaus of the Friars Minor in Czech Republic | Province... |
+| 7 | `ofm.cz` | wikidata;wikidata | Province of the Franciscan Brothers in the Czech Republic | Province of Saint... |
 | 6 | `vlada.cz` | un_desa | UN/DESA national portal |
+| 5 | `mpsv.cz` | linkgraph | Linked from 7 public-sector domains |
 | 4 | `congregatio-jesu.tode.cz` | wikidata | Czech province Congregatio Jesu |
 | 4 | `hedvicky.cz` | wikidata | Czech Province Congregation of the Sisters of St. Hedwig |
+| 4 | `justice.cz` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `mdcr.cz` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `mfcr.cz` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `mzcr.cz` | linkgraph | Linked from 4 public-sector domains |
 | 4 | `oblati.cz` | wikidata | Central European Province O. M. I. |
 | 4 | `sdb.cz` | wikidata | Salesian Province of Prague |
 | 3 | `pijarzy.pl` | wikidata | Piarist province of Poland |

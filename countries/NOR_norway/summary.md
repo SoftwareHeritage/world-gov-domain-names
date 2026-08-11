@@ -6,7 +6,7 @@
 - Region: Europe / Northern Europe
 - Languages: Norwegian Nynorsk; Norwegian Bokmål; Sami
 - Population: 5606944
-- GDP per capita: 86785 US$ (2024)
+- GDP per capita: 94594 US$ (2025)
 - Currencies: NOK
 - ccTLD: `.no` (manager: Norid A/S)
 - OECD: member since 1961
@@ -35,14 +35,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `oslo.kommune.no` | wikidata | Oslo city government |
-| 2 | `sametinget.no` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Sámi Parliament of Norway | Q11999242 |
+| 5 | `lovdata.no` | linkgraph | Linked from 6 public-sector domains |
+| 2 | `sametinget.no` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Q11999242 | Sámi Parliament of Norway |
 
 ## Local / regional candidates
 
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `nfk.no` | wikidata | Board of the Nordland county municipality |
+| 4 | `oslo.kommune.no` | wikidata | Oslo city government |
 

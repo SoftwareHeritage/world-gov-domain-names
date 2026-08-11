@@ -1,11 +1,28 @@
 hostname,score,sources,label,level
-gouvernement.fr,9,un_desa;wikidata,Council of Ministers | UN/DESA national portal,
-parlement.fr,8,wikidata;wikidata,French Parliament,
-assemblee-nationale.fr,7,wikidata;wikidata;wikidata,Franco-German Parliamentary Assembly | National Assembly,
+assemblee-nationale.fr,10,wikidata;wikidata;wikidata;linkgraph,National Assembly | Franco-German Parliamentary Assembly,central
+gouvernement.fr,9,un_desa;wikidata,Council of Ministers | UN/DESA national portal,central
+cnil.fr,7,linkgraph,Linked from 44 public-sector domains,
 ctguyane.fr,7,wikidata;wikidata,Assembly of French Guiana,
+france.fr,7,linkgraph,Linked from 29 public-sector domains,
+service-public.fr,7,linkgraph,Linked from 165 public-sector domains,
+ameli.fr,6,linkgraph,Linked from 11 public-sector domains,
+caf.fr,6,linkgraph,Linked from 12 public-sector domains,
+francetravail.fr,6,linkgraph,Linked from 12 public-sector domains,
+vie-publique.fr,6,linkgraph,Linked from 12 public-sector domains,
+auvergnerhonealpes.fr,5,linkgraph,Linked from 8 public-sector domains,
+elysee.fr,5,linkgraph,Linked from 9 public-sector domains,
+meteofrance.fr,5,linkgraph,Linked from 7 public-sector domains,
+paris.fr,5,linkgraph,Linked from 5 public-sector domains,
+paysdelaloire.fr,5,linkgraph,Linked from 5 public-sector domains,
+senat.fr,5,linkgraph,Linked from 5 public-sector domains,
 assemblee-afe.fr,4,wikidata,Assembly of French Citizens Abroad,
-conseil-etat.fr,4,wikidata,Conseil d'État,
-corse.fr,4,wikidata,Executive Council of Corsica,
+conseil-etat.fr,4,wikidata,Conseil d'État,central
+grandest.fr,4,linkgraph,Linked from 4 public-sector domains,
+hautsdefrance.fr,4,linkgraph,Linked from 3 public-sector domains,
 ihemi.fr,4,wikidata,Institut des hautes études du ministère de l'Intérieur,
+meteofrance.com,4,linkgraph,Linked from 9 public-sector domains,
+urssaf.fr,4,linkgraph,Linked from 3 public-sector domains,
+clermontmetropole.eu,3,linkgraph,Linked from 3 public-sector domains,
 escolapiesinstitutions.org,3,wikidata,Piarist province of West Africa,
 jesuites.com,3,wikidata,Jesuit Province of Francophone Western Europe,
+parlement.fr,3,wikidata;wikidata;wikidata;wikidata,French Parliament,central
