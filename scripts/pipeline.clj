@@ -766,25 +766,27 @@
          vals)))
 
 (defn- central1-entries
-  "First-tier (central-1) domains feeding the central+ file: the curated
-  central-1 labels under mixed suffixes (label.root, confirmed by the
-  registry) plus the candidates-local.csv rows tagged central-1 (scored,
-  unconfirmed -- their score/sources columns let consumers filter).
-  Returns [country domain name score sources], deduped by [country domain]
-  preferring the curated entry."
+  "Below-central domains feeding the central+ file: the curated central-1
+  labels under mixed suffixes (label.root, confirmed by the registry)
+  plus the candidates-local.csv rows tagged central-1 or university
+  (scored, unconfirmed -- their score/sources columns let consumers
+  filter; universities are in the central+ scope since 2026-08-13).
+  Returns [country domain name score sources level], deduped by
+  [country domain] preferring the curated entry."
   []
   (let [curated (for [[[c domain] labels] (registry-excluded-labels)
                       [label {:keys [level name]}] labels
                       :when (= level "central-1")]
-                  [c (str label "." domain) name "" "registry"])
+                  [c (str label "." domain) name "" "registry" "central-1"])
         candidates (for [c (country-dirs)
                          :let [path (str "countries/" c "/candidates-local.csv")]
                          :when (fs/exists? path)
                          [hostname score sources label level]
                          (rest (read-csv-raw path))
-                         :when (and (= level "central-1")
+                         :when (and (contains? #{"central-1" "university"} level)
                                     (valid-hostname? hostname))]
-                     [c hostname (or label "") (or score "") (or sources "")])]
+                     [c hostname (or label "") (or score "") (or sources "")
+                      level])]
     (->> (concat curated candidates)
          (reduce (fn [m [c d & _ :as row]]
                    (cond-> m (not (contains? m [c d])) (assoc [c d] row)))
@@ -821,10 +823,10 @@
         (->> (concat
               (for [[domain country un region langs gdp _ _] rows]
                 [domain country "central" un region langs gdp "" "" ""])
-              (keep (fn [[country domain name score sources]]
+              (keep (fn [[country domain name score sources level]]
                       (with-meta country
                         (fn [un m]
-                          [domain country "central-1" un (:region m)
+                          [domain country level un (:region m)
                            (:langs m) (:gdp m) name score sources])))
                     (central1-entries)))
              (sort-by (juxt first #(nth % 2))))]
@@ -925,15 +927,34 @@
    ["Q11204"  "parliament"           :light]
    ["Q193445" "central_bank"         :light]
    ["Q35798"  "constitutional_court" :light]
-   ["Q35749"  "supreme_court"        :light]])
+   ["Q35749"  "supreme_court"        :light]
+   ;; Government agencies cast wide (national research bodies like CNRS or
+   ;; CNR are typed here, but so are subnational agencies); the
+   ;; P1001-derived level sorts them out. :light -- the strict class
+   ;; exclusions time out on a class this large.
+   ["Q327333" "government_agency"    :light]
+   ;; Universities count in the central+ scope (decision of 2026-08-13).
+   ;; :academic excludes private and religious institutions; the rows get
+   ;; the fixed level "university" (P1001 is rarely set on them).
+   ["Q3918"   "university"           :academic]])
 
 (defn wikidata-query [class-qid country-qid strictness]
   (let [strict-filters
-        (if (= strictness :strict)
+        (case strictness
+          :strict
           (str "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q56061 }\n"
                "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q10864048 }\n"
                "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q13220204 }\n"
                "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q1799794 }\n")
+          ;; public-sector academia only: drop private (Q902104), Catholic
+          ;; (Q557206), pontifical (Q2120466) universities, seminaries
+          ;; (Q14911880) and Roman Colleges (Q1322589)
+          :academic
+          (str "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q902104 }\n"
+               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q557206 }\n"
+               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q2120466 }\n"
+               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q14911880 }\n"
+               "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:Q1322589 }\n")
           "")]
     (str "SELECT DISTINCT ?org ?orgLabel ?website ?juris WHERE {\n"
          "  ?org wdt:P31/wdt:P279* wd:" class-qid " ;\n"
@@ -1093,7 +1114,9 @@
                                                         (keep #(some-> (get-in % [:juris :value])
                                                                        (str/replace #"^.*/" ""))
                                                               bs))
-                                            level (juris-level juris country-qid level1)]
+                                            level (if (= type "university")
+                                                    "university"
+                                                    (juris-level juris country-qid level1))]
                                         (for [b bs
                                               :let [url (get-in b [:website :value])
                                                     lbl (get-in b [:orgLabel :value])
@@ -1746,10 +1769,11 @@
           (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")
                 cur-level (get-in cur-by-host [h :level] "")]
             (cond
-              (#{"central" "central-1" "local"} cur-level)
+              (#{"central" "central-1" "local" "university"} cur-level)
               cur-level                                    ; curation wins
               (contains? wd-levels "central")   "central"  ; over P1001,
               (contains? wd-levels "central-1") "central-1"
+              (contains? wd-levels "university") "university"
               (contains? wd-levels "local")     (if (level1-label? label)
                                                   "central-1" "local")
               (and (seq label)
@@ -1794,14 +1818,20 @@
                                    :curated? curated?
                                    :indegree linked-n
                                    :subdiv-penalty?
-                                   (not (contains? #{"local" "central-1"} level))})]
+                                   (not (contains? #{"local" "central-1" "university"}
+                                                   level))})]
                       [h score (str/join ";" sources) label level])))
              (sort-by (juxt #(- (nth % 1)) first)))
         {subnational true central false}
-        (group-by #(contains? #{"local" "central-1"} (nth % 4)) candidates)
+        (group-by #(contains? #{"local" "central-1" "university"} (nth % 4))
+                  candidates)
         ;; candidates-local.csv: central-1 first (the report's next tier),
-        ;; then score desc / hostname asc within each level.
-        subnational (sort-by (juxt #(if (= "central-1" (nth % 4)) 0 1)
+        ;; then universities (in the central+ scope since 2026-08-13),
+        ;; then local; score desc / hostname asc within each level.
+        subnational (sort-by (juxt #(case (nth % 4)
+                                      "central-1" 0
+                                      "university" 1
+                                      2)
                                    #(- (nth % 1)) first)
                              subnational)
         ->rows (fn [cands] (for [[h sc src lbl lvl] cands] [h (str sc) src lbl lvl]))]

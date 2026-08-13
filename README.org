@@ -15,12 +15,16 @@ publicly available software archived by Software Heritage.
 
 * Scope
 
-We sort government domains into three levels:
+We sort government domains into levels:
 
 - =central= -- the central government: ministries, national agencies
-  and the root domains that stand for them (=gouv.fr=, =gov.uk=).
+  (including national research bodies: CNRS, CNR…) and the root
+  domains that stand for them (=gouv.fr=, =gov.uk=).
 - =central-1= -- the first administrative tier below: state, Land,
   region… (=sp.gov.br=, =nouvelle-aquitaine.fr=).
+- =university= -- public universities and academic institutions,
+  counted in the central+ scope (private and religious institutions
+  are excluded).
 - the rest -- everything lower (municipalities, counties, parishes…),
   kept *out* of the lists and regexes.
 
@@ -47,11 +51,13 @@ Three ready-to-use CSV files, covering UN members and observers only:
   email domains to watch.
 - =data/public-sector-domains-central+.csv= -- the central roots
   (=level= =central=) plus the bodies of the first administrative tier
-  below (=level= =central-1=: Land, state, region…). Central-1 rows
-  come either from curated registries (Brazilian/Australian states,
-  UK devolved bodies; =sources= is =registry=) or from scored
-  cross-source candidates (German Länder, Japanese prefectures…; see
-  the =score= and =sources= columns to filter by confidence).
+  below (=level= =central-1=: Land, state, region…) and public
+  universities (=level= =university=). Central-1 rows come either
+  from curated registries (Brazilian/Australian states, UK devolved
+  bodies; =sources= is =registry=) or from scored cross-source
+  candidates (German Länder, Japanese prefectures…); university rows
+  come from Wikidata. See the =score= and =sources= columns to filter
+  by confidence.
 
 Each row carries metadata: UN status, region, languages and GDP
 
@@ -63,10 +69,10 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - =candidates.csv= -- central administration domains not confirmed yet,
   scored 0 to 10 by how many sources agree.
 - =candidates-local.csv= -- same for domains attributed to subnational
-  administrations; the =level= column separates =central-1= (bodies of
-  a first-level subdivision: Land, state, region…) from =local= (the
-  rest), so a report can cover central government plus the first
-  administrative tier below it.
+  administrations and academia; the =level= column separates
+  =central-1= (bodies of a first-level subdivision: Land, state,
+  region…) and =university= (both in the central+ scope) from =local=
+  (the rest).
 - =summary.md= -- a human-readable cross-check report.
 - =sources/= -- the raw data behind the above, one folder per source.
   =sources/linkgraph/indegree.csv= (EU + neighbours only) counts, for
