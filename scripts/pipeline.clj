@@ -62,8 +62,8 @@
 ;; Per-source concurrency limits. Each thread fires HTTP requests against
 ;; the same endpoint; numbers are picked to stay well under typical rate
 ;; limits while still saturating bandwidth. Tunable via env vars.
-(defn- env-int [name default]
-  (let [v (System/getenv name)]
+(defn- env-int [env-name default]
+  (let [v (System/getenv env-name)]
     (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default)))
 
 (def conc-wikidata (env-int "CONC_WIKIDATA" 3))
@@ -156,10 +156,14 @@
   results. Useful when each task does HTTP and we want a controlled
   concurrency (avoids saturating endpoints like Wikidata SPARQL)."
   [n f coll]
-  (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int n))]
+  (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int n))
+        ;; convey dynamic bindings (*out* rebinding in cmd-enrich's log
+        ;; capture...) to the pool threads; a bare fn would print to the
+        ;; real stdout instead
+        g (bound-fn* f)]
     (try
       (->> coll
-           (mapv #(.submit pool ^Callable (fn [] (f %))))
+           (mapv #(.submit pool ^Callable (fn [] (g %))))
            (mapv #(.get ^java.util.concurrent.Future %)))
       (finally
         (.shutdown pool)))))
@@ -284,13 +288,22 @@
                                 :query-params (or query-params {})
                                 :throw false
                                 :timeout (* timeout 1000)})
-                     (catch Exception _ nil))]
-       (if (and resp (= 200 (:status resp)) (not (str/blank? (:body resp))))
+                     (catch Exception _ nil))
+           status (:status resp)]
+       (cond
+         (and resp (= 200 status) (not (str/blank? (:body resp))))
          (:body resp)
-         (if (< attempt retries)
-           (do (Thread/sleep (* attempt 3000))
-               (recur (inc attempt)))
-           nil))))))
+
+         ;; a 4xx is deterministic (404, 403...): retrying cannot help.
+         ;; 429 is the exception -- it clears once the rate window resets.
+         (and status (<= 400 status 499) (not= 429 status))
+         nil
+
+         (< attempt retries)
+         (do (Thread/sleep (* attempt 3000))
+             (recur (inc attempt)))
+
+         :else nil)))))
 
 (defn http-get-curl
   "GET via the curl binary, for hosts whose WAF rejects the JVM HTTP client
@@ -408,17 +421,16 @@
 
 (defn retry-one!
   [dir]
-  (let [domain (str (fs/file-name dir))
-        url (str "https://crt.sh/?q=%25." domain "&output=json")]
+  ;; loop on fetch-one! directly: probing the URL first with a separate
+  ;; http-get would download the (heavy) crt.sh response twice per success
+  (let [domain (str (fs/file-name dir))]
     (loop [attempt 1]
-      (let [body (http-get url {:timeout 180 :retries 1 :accept "application/json"})]
-        (if body
-          (do (fetch-one! dir)
-              (println (str "  [retry=" attempt "] OK " domain)))
-          (if (< attempt 3)
-            (do (Thread/sleep (* attempt 5000))
-                (recur (inc attempt)))
-            (println (str "FAIL " domain " after 3 attempts"))))))))
+      (if (= :ok (fetch-one! dir))
+        (println (str "  [retry=" attempt "] OK " domain))
+        (if (< attempt 3)
+          (do (Thread/sleep (* attempt 5000))
+              (recur (inc attempt)))
+          (println (str "FAIL " domain " after " attempt " attempts")))))))
 
 (defn cmd-retry [args]
   (let [domains (if (seq args)
@@ -502,15 +514,15 @@
 
 (defn probe-domain! [dir timeout]
   (let [csv (str dir "/subdomains.csv")
-        name (str (fs/file-name dir))]
+        root-name (str (fs/file-name dir))]
     (when (fs/exists? csv)
       (let [all-rows (rest (read-csv-raw csv))
             to-probe (filter (fn [[_ s]] (str/blank? s)) all-rows)
             kept     (remove (fn [[_ s]] (str/blank? s)) all-rows)]
         (if (empty? to-probe)
-          (println (str "[" name "] no empty-status row to probe"))
+          (println (str "[" root-name "] no empty-status row to probe"))
           (do
-            (println (str "[" name "] " (count to-probe) " subdomains to probe"))
+            (println (str "[" root-name "] " (count to-probe) " subdomains to probe"))
             (let [probed (bounded-pmap (parallel 50)
                                        #(probe-one! (first %) timeout)
                                        to-probe)]
@@ -551,10 +563,10 @@
   [dir conc]
   (let [sub-csv (str dir "/subdomains.csv")
         out     (str dir "/mx.csv")
-        name    (str (fs/file-name dir))
+        root-name (str (fs/file-name dir))
         hosts (->> (when (fs/exists? sub-csv)
                      (map first (rest (read-csv-raw sub-csv))))
-                   (cons name)
+                   (cons root-name)
                    (remove str/blank?)
                    distinct)
         done  (if (and (not force?) (fs/exists? out))
@@ -562,11 +574,11 @@
                 {})
         todo  (remove #(contains? done %) hosts)]
     (if (empty? todo)
-      (println (str "[" name "] mx: nothing to look up"))
+      (println (str "[" root-name "] mx: nothing to look up"))
       (let [looked (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo)
             rows   (sort-by first (concat (map vec done) looked))]
         (write-csv-file out ["subdomain" "mx"] rows)
-        (println (str "[" name "] mx: " (count todo) " looked up ("
+        (println (str "[" root-name "] mx: " (count todo) " looked up ("
                       (count (filter #(not (#{"none" "dig error"} (second %))) looked))
                       " with MX)"))))))
 
@@ -808,15 +820,15 @@
   ;; central1-entries) for the central + first-subdivision report scope.
   (let [un-by-country  (build-un-status-map)
         meta-by-country (country-meta-map)
-        with-meta (fn [country row-fn]
-                    (let [un (get un-by-country country "member")
-                          m  (get meta-by-country country)]
-                      (when (not= un "non_un")
-                        (row-fn un m))))
+        with-country-meta (fn [country row-fn]
+                            (let [un (get un-by-country country "member")
+                                  m  (get meta-by-country country)]
+                              (when (not= un "non_un")
+                                (row-fn un m))))
         rows
         (->> (central-root-entries)
              (keep (fn [[country domain http mx]]
-                     (with-meta country
+                     (with-country-meta country
                        (fn [un m]
                          [domain country un (:region m) (:langs m) (:gdp m)
                           http mx]))))
@@ -826,11 +838,21 @@
               (for [[domain country un region langs gdp _ _] rows]
                 [domain country "central" un region langs gdp "" "" ""])
               (keep (fn [[country domain name score sources level]]
-                      (with-meta country
+                      (with-country-meta country
                         (fn [un m]
                           [domain country level un (:region m)
                            (:langs m) (:gdp m) name score sources])))
                     (central1-entries)))
+             ;; one row per [domain country]: a central-1 candidate whose
+             ;; domain is also a confirmed central root (via a registry)
+             ;; must not appear twice; central rows come first in the
+             ;; concat, so they win
+             (reduce (fn [m [domain country :as row]]
+                       (cond-> m
+                         (not (contains? m [domain country]))
+                         (assoc [domain country] row)))
+                     {})
+             vals
              (sort-by (juxt first #(nth % 2))))]
     (write-csv-file central-gov-file
                     ["domain" "country" "un_status"
@@ -1109,6 +1131,10 @@
                                           ;; load (502): fall back to the
                                           ;; unfiltered query rather than
                                           ;; losing the class entirely.
+                                          ;; No such fallback for
+                                          ;; :academic -- dropping its
+                                          ;; filters would let private
+                                          ;; universities through.
                                           (when (= strictness :strict)
                                             (err (str "  [" type "] strict"
                                                       " query failed;"
@@ -1211,11 +1237,8 @@
 
 (defn iana-process! [country-dir]
   (let [portal (iana-portal-for country-dir)]
-    (cond
-      (str/blank? portal)
+    (if (str/blank? portal)
       (err "  [" country-dir "] no portal in data/world-governments.csv")
-
-      :else
       (let [cctld (-> portal (str/split #"\.") last str/lower-case)
             out (country-src country-dir "iana" "cctld.csv")]
         (cond
@@ -1260,6 +1283,9 @@
       (when-let [body (http-get "https://api.github.com/repos/factbook/factbook.json/git/trees/master?recursive=1"
                                 {:timeout 30 :accept "application/json"})]
         (spit factbook-tree-cache body)))
+    (when-not (fs/exists? factbook-tree-cache)
+      (err "ERR: factbook tree unavailable (fetch failed and no cache)")
+      (throw (ex-info "factbook tree unavailable" {})))
     (let [tree (-> (slurp factbook-tree-cache)
                    (json/parse-string true)
                    :tree)
@@ -1282,25 +1308,34 @@
                         :when (and dir region)]
                     [dir gec region])
           aliases (rest (or (read-csv-raw "data/factbook_aliases.csv") []))
-          dedup (dedup-by-first (concat matched aliases))]
+          ;; aliases FIRST: the curated file must be able to correct a
+          ;; wrong automatic name match, not only fill gaps
+          dedup (dedup-by-first (concat aliases matched))]
       (write-csv-file factbook-map-file ["country_dir" "gec" "region"] dedup)
       (err "  -> " factbook-map-file " (" (count dedup) " countries mapped)"))))
 
 (defn decode-html-entities [s]
   (when s
+    ;; &amp; is decoded LAST among entities: decoding it first would turn a
+    ;; double-encoded &amp;lt; into &lt; then <, and the tag-strip below
+    ;; would swallow the text. Astral codepoints (emojis) need
+    ;; Character/toChars -- (char n) throws beyond 0xFFFF.
     (-> s
-        (str/replace #"&#x([0-9a-fA-F]+);" (fn [[_ hex]] (str (char (Integer/parseInt hex 16)))))
-        (str/replace #"&#(\d+);" (fn [[_ n]] (str (char (Integer/parseInt n)))))
-        (str/replace #"&amp;" "&")
+        (str/replace #"&#x([0-9a-fA-F]+);"
+                     (fn [[_ hex]]
+                       (String. (Character/toChars (Integer/parseInt hex 16)))))
+        (str/replace #"&#(\d+);"
+                     (fn [[_ n]]
+                       (String. (Character/toChars (Integer/parseInt n)))))
         (str/replace #"&lt;" "<")
         (str/replace #"&gt;" ">")
         (str/replace #"&quot;" "\"")
-        (str/replace #"&#39;" "'")
         (str/replace #"&eacute;" "é") (str/replace #"&egrave;" "è")
         (str/replace #"&ecirc;" "ê")  (str/replace #"&agrave;" "à")
         (str/replace #"&acirc;" "â")  (str/replace #"&ccedil;" "ç")
         (str/replace #"&ouml;" "ö")   (str/replace #"&auml;" "ä")
         (str/replace #"&uuml;" "ü")   (str/replace #"&ntilde;" "ñ")
+        (str/replace #"&amp;" "&")
         (str/replace #"<[^>]+>" "")
         (str/replace #"\s+" " ")
         str/trim)))
@@ -1505,21 +1540,27 @@
       (let [rc  (meta-rest-countries iso3)
             gdp (meta-world-bank-gdp iso3)
             [gdp-val gdp-year] gdp]
-        (write-csv-file
-          out ["field" "value"]
-          (merge-field-rows
-            out
-            [["region"          (or (:region rc) "")]
-             ["subregion"       (or (:subregion rc) "")]
-             ["languages"       (or (:languages rc) "")]
-             ["currencies"      (or (:currencies rc) "")]
-             ["population"      (or (:population rc) "")]
-             ["capital"         (or (:capital rc) "")]
-             ["gdp_per_capita"  (if gdp-val (format "%.0f" (double gdp-val)) "")]
-             ["gdp_year"        (or gdp-year "")]]))
-        (println (str "=== " country-dir " : " (or (:region rc) "?")
-                      " / GDP " (if gdp-val (format "%.0f" (double gdp-val)) "?")
-                      " (" (or gdp-year "?") ")"))
+        ;; when BOTH fetches failed, do not write: an all-blank info.csv
+        ;; would satisfy skip? on the next runs and freeze the failure
+        (if (and (nil? rc) (nil? gdp))
+          (err (str "=== " country-dir " : both metadata fetches failed;"
+                    " not writing " out))
+          (do
+            (write-csv-file
+              out ["field" "value"]
+              (merge-field-rows
+                out
+                [["region"          (or (:region rc) "")]
+                 ["subregion"       (or (:subregion rc) "")]
+                 ["languages"       (or (:languages rc) "")]
+                 ["currencies"      (or (:currencies rc) "")]
+                 ["population"      (or (:population rc) "")]
+                 ["capital"         (or (:capital rc) "")]
+                 ["gdp_per_capita"  (if gdp-val (format "%.0f" (double gdp-val)) "")]
+                 ["gdp_year"        (or gdp-year "")]]))
+            (println (str "=== " country-dir " : " (or (:region rc) "?")
+                          " / GDP " (if gdp-val (format "%.0f" (double gdp-val)) "?")
+                          " (" (or gdp-year "?") ")"))))
         (Thread/sleep 300)))))
 
 (defn cmd-meta [args] (iter-countries meta-process! args conc-meta))
@@ -1529,11 +1570,11 @@
 ;; ===========================================================================
 
 (defn cmd-enrich
-  "Run the 5 enrichment sources fully in parallel. Each source manages its
+  "Run the enrichment sources fully in parallel. Each source manages its
   own intra-source concurrency (see conc-wikidata, conc-iana, …).
   Logs are streamed to temp files, displayed after all sources finish."
   [args]
-  (err "-> wikidata + iana + cia + un-desa + oecd (all in parallel)…")
+  (err "-> wikidata + iana + cia + un-desa + oecd + meta (all in parallel)…")
   (let [logs (fs/create-temp-dir)
         spawn (fn [name f]
                 (future
@@ -1574,7 +1615,7 @@
   #"(?i)(?:^|\.)(?:gov|bund|govt|gouv|governo|gobierno|kormany|hallinto|riksdag|presidencia|presidence|parlement|parlamento|parliament|admin)(?:\.|$)")
 
 (def subdiv-pattern
-  #"(?i)(?:departmental|départemental|departementale|départementale|regional|régional|state ministry|prefecture|préfecture|conseil général|general council|county council|provincial|county of|municipal|metropolitan|community of|communauté|comunidad autónoma|comunità|länder|bundesland|senate department|staatskanzlei|landtag|free state of|land of |bavaria|bavarian|bayer(?:ian|n)|saxony|saxon|sächs|hessian|hesse|hessisch|niedersä|niedersaechs|lower saxony|nordrhein|north rhine|westfalen|westphalia|baden-würt|baden-wuert|saarland|saarl|brandenburg|bremen ministry|free hanseatic|schleswig-holstein|mecklenburg|vorpommern|thüring|thuering|thuringia|rheinland-pfalz|rhineland-palatinate|hamburg ministry|hamburg(?:ische|er) (?:ministerium|behörde)|berlin senate|berlin(?:er) senat|state legislature|state senate|state assembly|state house of representatives|city council|city of|town of|village of|borough|township|county executive|school district|office of education)")
+  #"(?i)(?:departmental|départemental|departementale|départementale|regional|régional|state ministry|prefecture|préfecture|conseil général|general council|county council|provincial|county of|municipal|metropolitan|community of|communauté|comunidad autónoma|comunità|länder|bundesland|senate department|staatskanzlei|landtag|free state of|land of |bavaria|bavarian|bayer(?:ian|n)|saxony|saxon|sächs|hessian|hesse|hessisch|niedersä|niedersaechs|lower saxony|nordrhein|north rhine|westfalen|westphalia|baden-würt|baden-wuert|saarland|saarl|brandenburg|bremen ministry|free hanseatic|schleswig-holstein|mecklenburg|vorpommern|thüring|thuering|thuringia|rheinland-pfalz|rhineland-palatinate|hamburg ministry|hamburg(?:ische|er) (?:ministerium|behörde)|berlin senate|berlin(?:er) senat|state legislature|state senate|state assembly|state house of representatives|city council|city of|town of|village of|borough|township|county executive|school district|office of education|comune di|città metropolitana|citta metropolitana|provincia di|provincia autonoma|unione dei comuni|regione\b|azienda sanitaria|azienda usl|azienda ospedalier)")
 
 (def federal-pattern
   #"(?i)(?:federal|national|sovereign|state of [a-z]+ federation)")
@@ -1691,18 +1732,95 @@
                  (if (and subdiv-penalty? many-no-fed?) -5 0))]
     (-> score (max 0) (min 10))))
 
+(defn- level1-label?
+  "Does the label name one of the country's first-level subdivisions?"
+  [level1-pattern label]
+  (boolean (and level1-pattern (seq label) (re-find level1-pattern label))))
+
+(defn- candidate-level
+  "Administrative level of a candidate host: explicit curation wins, then
+  the P1001-derived Wikidata levels, then the label heuristics (a label
+  matching subdiv-pattern is subnational; one naming a first-level
+  subdivision is promoted to central-1). Blank when nothing is known."
+  [{:keys [cur-by-host wd-by-host level1-pattern]} h label]
+  (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")
+        cur-level (get-in cur-by-host [h :level] "")]
+    (cond
+      (#{"central" "central-1" "local" "university"} cur-level)
+      cur-level                                    ; curation wins
+      (contains? wd-levels "central")   "central"  ; over P1001,
+      (contains? wd-levels "central-1") "central-1"
+      (contains? wd-levels "university") "university"
+      (contains? wd-levels "local")     (if (level1-label? level1-pattern label)
+                                          "central-1" "local")
+      (and (seq label)
+           (re-find subdiv-pattern label)) (if (level1-label? level1-pattern
+                                                              label)
+                                             "central-1" "local")
+      :else "")))
+
+(defn- candidate-row
+  "Assemble one candidate row [hostname score sources label level] from the
+  already-loaded per-country context (pure -- see score-candidates-for!
+  for the context construction)."
+  [{:keys [wd-by-host cur-by-host lg-by-host un-portal-host fb-phrases
+           cctld-primary]
+    :as ctx}
+   h]
+  (let [{:keys [cnt labels] :or {cnt 0 labels []}} (get wd-by-host h)
+        un? (= h un-portal-host)
+        curated? (contains? cur-by-host h)
+        linked-n (get lg-by-host h)
+        cur-label (get-in cur-by-host [h :label])
+        labels (cond-> labels
+                 (and curated? (seq cur-label)
+                      (not (some #{cur-label} labels)))
+                 (conj cur-label))
+        label (cond-> (str/join " | " labels)
+                un? (str (when (seq labels) " | ")
+                         "UN/DESA national portal"))
+        ;; a hint for the manual validation pass when the link graph is
+        ;; the only thing we know
+        label (if (and linked-n (str/blank? label))
+                (str "Linked from " linked-n " public-sector domains")
+                label)
+        sources (cond-> []
+                  un? (conj "un_desa"))
+        sources (into sources (repeat cnt "wikidata"))
+        sources (cond-> sources
+                  curated? (conj "curated")
+                  linked-n (conj "linkgraph"))
+        level (candidate-level ctx h label)
+        score (score-candidate
+                {:host h :wd-count cnt :label label
+                 :fb-phrases fb-phrases
+                 :un-portal-host un-portal-host
+                 :cctld-primary cctld-primary
+                 :curated? curated?
+                 :indegree linked-n
+                 ;; the anti-subnational penalties catch entities
+                 ;; *pretending* central; when curation explicitly says
+                 ;; central, they must not apply
+                 :subdiv-penalty?
+                 (and (not (contains? #{"local" "central-1" "university"}
+                                      level))
+                      (not= "central" (get-in cur-by-host [h :level])))})]
+    [h score (str/join ";" sources) label level]))
+
 (defn score-candidates-for!
   "Compute countries/<c>/candidates.csv (central administrations) and
   countries/<c>/candidates-local.csv (subnational bodies), both with
   columns hostname,score,sources,label,level. Aggregates Wikidata mentions
   (incl. their P1001-derived level), UN/DESA national portal, IANA ccTLD,
   Factbook institution names and link-graph in-degree (sources/linkgraph/,
-  see cmd-indegree). A host is subnational when Wikidata or
-  curation says so, or when its label matches the subdivision pattern; a
-  subnational host whose jurisdiction (or label) points to a first-level
-  subdivision of the country (Land, state, region…) is tagged 'central-1',
-  the rest 'local'. Level stays blank (and the host stays in
-  candidates.csv) when nothing is known -- to be consolidated over time."
+  see cmd-indegree). Loads the per-country sources into a context map,
+  then delegates each host to the pure candidate-row/candidate-level
+  above: a host is subnational when Wikidata or curation says so, or when
+  its label matches the subdivision pattern; a subnational host whose
+  jurisdiction (or label) points to a first-level subdivision of the
+  country (Land, state, region…) is tagged 'central-1', the rest 'local'.
+  Level stays blank (and the host stays in candidates.csv) when nothing
+  is known -- to be consolidated over time."
   [country-dir]
   (let [iana-path (country-src country-dir "iana" "cctld.csv")
         un-path   (country-src country-dir "un_desa" "summary.csv")
@@ -1780,80 +1898,25 @@
                 (str "(?iu)\\b(?:"
                      (str/join "|" (map #(java.util.regex.Pattern/quote %) labels))
                      ")\\b")))))
-        level1-label? (fn [label]
-                        (boolean (and level1-pattern (seq label)
-                                      (re-find level1-pattern label))))
-        host-level
-        (fn [h label]
-          (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")
-                cur-level (get-in cur-by-host [h :level] "")]
-            (cond
-              (#{"central" "central-1" "local" "university"} cur-level)
-              cur-level                                    ; curation wins
-              (contains? wd-levels "central")   "central"  ; over P1001,
-              (contains? wd-levels "central-1") "central-1"
-              (contains? wd-levels "university") "university"
-              (contains? wd-levels "local")     (if (level1-label? label)
-                                                  "central-1" "local")
-              (and (seq label)
-                   (re-find subdiv-pattern label)) (if (level1-label? label)
-                                                     "central-1" "local")
-              :else "")))
+        ctx {:wd-by-host wd-by-host
+             :cur-by-host cur-by-host
+             :lg-by-host lg-by-host
+             :un-portal-host un-portal-host
+             :fb-phrases fb-phrases
+             :cctld-primary cctld-primary
+             :level1-pattern level1-pattern}
         candidates
         (->> all-hosts
              (remove #(host-covered? % known))
-             (map (fn [h]
-                    (let [{:keys [cnt labels] :or {cnt 0 labels []}}
-                          (get wd-by-host h)
-                          un? (= h un-portal-host)
-                          curated? (contains? cur-by-host h)
-                          linked-n (get lg-by-host h)
-                          cur-label (get-in cur-by-host [h :label])
-                          labels (cond-> labels
-                                   (and curated? (seq cur-label)
-                                        (not (some #{cur-label} labels)))
-                                   (conj cur-label))
-                          label (cond-> (str/join " | " labels)
-                                  un? (str (when (seq labels) " | ")
-                                           "UN/DESA national portal"))
-                          ;; a hint for the manual validation pass when the
-                          ;; link graph is the only thing we know
-                          label (if (and linked-n (str/blank? label))
-                                  (str "Linked from " linked-n
-                                       " public-sector domains")
-                                  label)
-                          sources (cond-> []
-                                    un? (conj "un_desa"))
-                          sources (into sources (repeat cnt "wikidata"))
-                          sources (cond-> sources
-                                    curated? (conj "curated")
-                                    linked-n (conj "linkgraph"))
-                          level (host-level h label)
-                          score (score-candidate
-                                  {:host h :wd-count cnt :label label
-                                   :fb-phrases fb-phrases
-                                   :un-portal-host un-portal-host
-                                   :cctld-primary cctld-primary
-                                   :curated? curated?
-                                   :indegree linked-n
-                                   ;; the anti-subnational penalties catch
-                                   ;; entities *pretending* central; when
-                                   ;; curation explicitly says central,
-                                   ;; they must not apply
-                                   :subdiv-penalty?
-                                   (and (not (contains?
-                                              #{"local" "central-1" "university"}
-                                              level))
-                                        (not= "central"
-                                              (get-in cur-by-host [h :level])))})]
-                      [h score (str/join ";" sources) label level])))
+             (map #(candidate-row ctx %))
              (sort-by (juxt #(- (nth % 1)) first)))
         {subnational true central false}
         (group-by #(contains? #{"local" "central-1" "university"} (nth % 4))
                   candidates)
         ;; candidates-local.csv: central-1 first (the report's next tier),
-        ;; then universities (in the central+ scope since 2026-08-13),
-        ;; then local; score desc / hostname asc within each level.
+        ;; then universities (kept OUT of central+ since 2026-08-13, see
+        ;; central1-entries), then local; score desc / hostname asc within
+        ;; each level.
         subnational (sort-by (juxt #(case (nth % 4)
                                       "central-1" 0
                                       "university" 1
@@ -2433,6 +2496,9 @@
                           (err (str "  " target " -> "
                                     (cond (nil? n) "API error"
                                           (zero? n) "UNKNOWN to SWH"
+                                          ;; the query asks limit=10: the
+                                          ;; count is capped, not exact
+                                          (>= n 10) "10+ origin(s)"
                                           :else (str n " origin(s)"))))
                           (Thread/sleep 500)
                           [target country kind source n])))
@@ -2766,19 +2832,23 @@
   is ~100 MB, hence curl -o and a long timeout). Returns the path, nil on
   failure. FORCE=1 re-downloads."
   [file]
-  (let [path (str linkgraph-cache "/" file)]
+  (let [path (str linkgraph-cache "/" file)
+        tmp  (str path ".tmp")]
     (if (and (fs/exists? path) (not force?))
       path
       (do (ensure-dir linkgraph-cache)
           (println (str "Downloading " file "..."))
+          ;; download to a .tmp then rename: an interrupted download must
+          ;; not leave a truncated file that the cache would then serve
           (let [{:keys [exit]}
                 (try (proc/sh "curl" "-sfL" "--max-time" "600" "-A" ua
-                              "-o" path (str linkgraph-base-url file))
+                              "-o" tmp (str linkgraph-base-url file))
                      (catch Exception _ nil))]
             (if (and exit (zero? exit))
-              path
+              (do (fs/move tmp path {:replace-existing true})
+                  path)
               (do (err "ERR: could not fetch " linkgraph-base-url file)
-                  (when (fs/exists? path) (fs/delete path))
+                  (when (fs/exists? tmp) (fs/delete tmp))
                   nil)))))))
 
 (def linkgraph-country-aliases
@@ -2890,14 +2960,14 @@
    "report"      cmd-cross-check
    "fetch"       cmd-fetch
    "retry"       cmd-retry
-   "normalize"   (fn [_] (cmd-normalize nil))
+   "normalize"   cmd-normalize
    "probe"       cmd-probe
    "mx"          cmd-mx
-   "aggregate"   (fn [_] (cmd-aggregate nil))
-   "central"     (fn [_] (cmd-central nil))
-   "cisa"        (fn [_] (cmd-cisa nil))
-   "lannuaire"   (fn [_] (cmd-lannuaire nil))
-   "govuk"       (fn [_] (cmd-govuk nil))
+   "aggregate"   cmd-aggregate
+   "central"     cmd-central
+   "cisa"        cmd-cisa
+   "lannuaire"   cmd-lannuaire
+   "govuk"       cmd-govuk
    "wikidata"    cmd-wikidata
    "iana"        cmd-iana
    "cia"         cmd-cia
@@ -2905,12 +2975,12 @@
    "oecd"        cmd-oecd
    "meta"        cmd-meta
    "cross-check" cmd-cross-check
-   "build-qid"   (fn [_] (cmd-build-qid nil))
-   "validate-un" (fn [_] (cmd-validate-un nil))
+   "build-qid"   cmd-build-qid
+   "validate-un" cmd-validate-un
    "forges"      cmd-forges
    "forges-swh"  cmd-forges-swh
    "forges-probe" cmd-forges-probe
-   "github-orgs" (fn [_] (cmd-github-orgs nil))
+   "github-orgs" cmd-github-orgs
    "regex"       cmd-regex
    "indegree"    cmd-indegree})
 
@@ -2922,7 +2992,7 @@
   (println)
   (println "Targeted commands:")
   (println "  fetch | retry | normalize | probe | mx | aggregate | central")
-  (println "  cisa | lannuaire")
+  (println "  cisa | lannuaire | govuk")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
   (println "  validate-un | forges | forges-swh | forges-probe | github-orgs | regex")
   (println "  indegree")

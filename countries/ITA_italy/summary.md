@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-299 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+288 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -54,15 +54,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `istat.it` | wikidata;linkgraph | Italian National Institute of Statistics |
 | 7 | `ofmsalu.it` | wikidata;wikidata | Q113365774 |
 | 7 | `regione.campania.it` | wikidata;linkgraph | Campania |
-| 7 | `regione.toscana.it` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana |
+| 7 | `roma.mfa.gov.ct.tr` | wikidata;wikidata | Representative office of Northern Cyprus, Rome |
 
 ## Local / regional candidates
 
-101 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 26 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+112 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 27 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `regione.lombardia.it` | wikidata;wikidata;wikidata;linkgraph | Government of Lombardy | Lombardy |
+| 10 | `regione.toscana.it` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana |
 | 10 | `regione.veneto.it` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Veneto | Government of Veneto | Q3630806 | Q56753389 |
 | 7 | `arpalombardia.it` | wikidata;wikidata | Regional Environmental Protection Agency - Lombardy |
 | 7 | `ars.sicilia.it` | wikidata;wikidata | Sicilian Regional Assembly |
@@ -71,5 +72,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `consiglio.puglia.it` | wikidata;wikidata | Regional Council of Apulia |
 | 7 | `consiglio.regione.abruzzo.it` | wikidata;wikidata | Regional Council of Abruzzo |
 | 7 | `consiglio.regione.fvg.it` | wikidata;wikidata | Regional Council of Friuli-Venezia Giulia |
-| 7 | `consiglio.regione.lazio.it` | wikidata;wikidata | Regional Council of Lazio |
 
