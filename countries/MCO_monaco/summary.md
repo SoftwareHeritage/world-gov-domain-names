@@ -6,7 +6,7 @@
 - Region: Europe / Western Europe
 - Languages: French
 - Population: 38423
-- GDP per capita: 288001 US$ (2024)
+- GDP per capita: 288002 US$ (2024)
 - Currencies: EUR
 - ccTLD: `.mc` (manager: Direction des Plateformes et des Ressources Numériques)
 - OECD: non-member
@@ -30,10 +30,22 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `conseil-national.mc` | wikidata;wikidata | National Council |
+| 7 | `conseil-national.mc` | wikidata;wikidata;wikidata | National Council |
+| 4 | `imsee.mc` | wikidata | Q16643758 |
+| 4 | `mediatheque.mc` | wikidata | Louis Notari Library |
+| 3 | `ambafrance-mc.org` | wikidata | Embassy of France, Monaco |
+| 2 | `culture.mc` | wikidata;wikidata;wikidata;wikidata | Directorate of Cultural Affairs | Heritage Institute |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `mairie.mc` | wikidata | Communal Council of Monaco |
 

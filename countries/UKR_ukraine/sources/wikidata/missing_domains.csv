@@ -1,85 +1,565 @@
 type,label,website,hostname,level
-parliament,Q100235469,http://zarrada.org/,zarrada.org,
-parliament,Q100565356,http://zdolbrada.rv.ua/,zdolbrada.rv.ua,
-parliament,Q12113696,http://kosivrada.if.ua,kosivrada.if.ua,
-parliament,Q12115575,http://krada.da.zp.ua/,krada.da.zp.ua,
-parliament,Q12117631,http://podil.kr.ua,podil.kr.ua,
-parliament,Q12117632,http://lenrada.kharkov.ua/rus/index.php,lenrada.kharkov.ua,
-parliament,Q12119293,http://lbmrada.lt.ukrtel.net/1.html,lbmrada.lt.ukrtel.net,
-parliament,Q12123466,http://oblrada.pl.ua/index.php/mirgorodskij-rajon,oblrada.pl.ua,
-parliament,Q12130220,http://www.mrik.kharkov.ua/index.html,mrik.kharkov.ua,
-parliament,Q12134127,http://novomyrhorod.osp-ua.info/,novomyrhorod.osp-ua.info,
-parliament,Q12136270,http://ordg.rada.kharkov.ua/,ordg.rada.kharkov.ua,
-parliament,Q12146597,http://www.radadm.rv.ua/,radadm.rv.ua,
-parliament,Q12169641,http://chervrada.kharkov.ua/?p=10&secure=&lang=,chervrada.kharkov.ua,
-parliament,Q12170058,https://radachernigivka.at.ua/,radachernigivka.at.ua,
-parliament,Qurultay of the Crimean Tatar People,http://qtmm.org/ru,qtmm.org,
-parliament,Q51755332,http://nedr-rr.org.ua,nedr-rr.org.ua,
-parliament,Q51755383,http://sb-rada.org.ua,sb-rada.org.ua,
-parliament,Q51755386,http://krasrada.sumy.ua,krasrada.sumy.ua,
-parliament,Q51755396,http://vprr.org.ua,vprr.org.ua,
-parliament,Q16699211,http://zhydachivrairada.com.ua/,zhydachivrairada.com.ua,
-parliament,Ivano-Frankivsk Oblast Council,https://orada.if.ua/,orada.if.ua,
-parliament,Q96323944,http://www.vijvarada.volyn.ua/,vijvarada.volyn.ua,
-parliament,Kharkiv Oblast Council,http://oblrada.kharkov.ua/,oblrada.kharkov.ua,
-parliament,Q96483151,http://rozhrada.volyn.ua/,rozhrada.volyn.ua,
-parliament,Chernivtsi Oblast Council,http://oblrada.cv.ua/,oblrada.cv.ua,
-parliament,Luhansk Oblast Council,http://www.oblrada.lg.ua/,oblrada.lg.ua,
-parliament,Kremenets Raion council,http://rairadakremenets.org/,rairadakremenets.org,
-parliament,Q22696032,http://slobidka.kl.com.ua/,slobidka.kl.com.ua,
-parliament,Q93277134,https://r-rada.lutsk.ua/,r-rada.lutsk.ua,
+government_agency,"Embassy of Afghanistan, Kyiv",http://www.afghanembassy.com.ua/,afghanembassy.com.ua,central
+government_agency,Agrarian Science State Publishing House of the National Academy of Agrarian Sciences of Ukraine,https://www.agroscience-publishing.org.ua,agroscience-publishing.org.ua,
+government_agency,Oleksandria municipality,http://www.alexandria.kr.ua,alexandria.kr.ua,
+government_agency,"Embassy of Algeria, Kyiv",http://www.algerianembassy.kiev.ua/,algerianembassy.kiev.ua,central
+government_agency,Alushta city council,http://www.alushta.info/,alushta.info,local
+university,National Academy of Legal Sciences of Ukraine,http://www.aprnu.kharkiv.org/,aprnu.kharkiv.org,university
+government_agency,Armyansk municipality council,http://armgov.ru/,armgov.ru,local
+government_agency,"State Enterprise ""KYIV REGIONAL RESEARCH AND PRODUCTION CENTER FOR STANDARDIZATION, METROLOGY AND CERTIFICATION""",https://bcdst.kiev.ua,bcdst.kiev.ua,
+government_agency,"Consulate of Hungary, Berehove",https://beregszasz.mfa.gov.hu/,beregszasz.mfa.gov.hu,
+government_agency,Q17095150,http://berezivska.rada.org.ua/,berezivska.rada.org.ua,
 parliament,Q93363311,http://www.berezne-rada.rv.ua/,berezne-rada.rv.ua,
-parliament,Kirovohrad Oblast Council,https://oblrada.kr.ua/,oblrada.kr.ua,
-parliament,Dnipropetrovsk Oblast Council,http://www.oblrada.dp.ua/,oblrada.dp.ua,
-parliament,Orativskyi Raion,http://yakimivka.rada.org.ua/,yakimivka.rada.org.ua,
-parliament,Lanivtsi Raion council,http://lanivtsi.org.ua/,lanivtsi.org.ua,
-parliament,Terebovlia Raion council,http://terebrada.te.ua/,terebrada.te.ua,
-parliament,Ternopil Raion Council,http://www.trrada.te.ua/,trrada.te.ua,
-parliament,Q94654582,http://korosten-rayrada.in.ua/,korosten-rayrada.in.ua,
-parliament,Q94699063,http://xn--h1aahjhy.xn--j1amh/index.php,xn--h1aahjhy.xn--j1amh,
-parliament,Supreme Council of Crimea,http://www.rada.crimea.ua/ua/,rada.crimea.ua,
-parliament,Q19936632,http://novovoroncovka.rada.org.ua/,novovoroncovka.rada.org.ua,
-parliament,Q20073074,http://www.rrada.ber.te.ua/,rrada.ber.te.ua,
 parliament,Q20073124,http://berrayrada.ks.ua/,berrayrada.ks.ua,
-parliament,Q20073384,http://ivrada.ks.ua/,ivrada.ks.ua,
-parliament,Q20073776,http://bobr-rada.com.ua/,bobr-rada.com.ua,
 parliament,Q20074215,http://bilozerka-rada.ks.ua/,bilozerka-rada.ks.ua,
-parliament,Q20074491,http://rogachik-rada.ks.ua/,rogachik-rada.ks.ua,
-parliament,Q20074608,http://visokopilsk-rada.ks.ua/,visokopilsk-rada.ks.ua,
-parliament,Q20074712,http://www.voznesensk.org,voznesensk.org,
+university,State Biotechnological University,https://biotechuniv.edu.ua/,biotechuniv.edu.ua,university
+government_agency,Q4082513,http://bkselrada.ucoz.ua/,bkselrada.ucoz.ua,
+government_agency,Blyzniuky settlement council,http://bliznjuki.org.ua/,bliznjuki.org.ua,
+university,Berezne Forestry College,http://blk.edu.ua/,blk.edu.ua,university
+parliament,Q20073776,http://bobr-rada.com.ua/,bobr-rada.com.ua,
+government_agency,Q4089523,http://bogodukhov-city.com.ua/official_bogodukhiv/,bogodukhov-city.com.ua,
+government_agency,Q20073917,http://bratska.selrada.org.ua/feedback/,bratska.selrada.org.ua,
+government_agency,Q4096650,http://brovarki.rada.org.ua/,brovarki.rada.org.ua,
+government_agency,Q16693283,http://bryuhovychi.com/,bryuhovychi.com,
+university,Bukovinian State Medical University,http://www.bsmu.edu.ua/,bsmu.edu.ua,university
+government_agency,Q4097721,http://bugaivka.rada.org.ua/,bugaivka.rada.org.ua,
+university,Bukovyna lyceum boarding school with enhanced military and physical training,https://buk.licey.org.ua/,buk.licey.org.ua,university
+university,Bukovinian University,https://bukuniver.edu.ua/en/,bukuniver.edu.ua,university
+university,Bukovinian University,https://bukuniver.edu.ua/,bukuniver.edu.ua,university
+university,Berdyan University of Management and Business,http://bumib.edu.ua/uk,bumib.edu.ua,university
+government_agency,Basin Agency of Water Resources of Low Dnipro,http://buvr.kherson.ua/,buvr.kherson.ua,
+government_agency,Basin Agency of Water Resources of Middle Dnipro,http://buvrd.org.ua/,buvrd.org.ua,
+university,Cherkasy National University,https://cdu.edu.ua/,cdu.edu.ua,university
+government_agency,Thermal Energy Technology Institute of the National Academy of Sciences of Ukraine,http://www.ceti-nasu.org.ua,ceti-nasu.org.ua,
+university,V.I. Vernadsky Crimean Federal University,https://cfuv.ru,cfuv.ru,university
+university,Cherkasy State Technological University,http://chdtu.edu.ua/,chdtu.edu.ua,university
+government_agency,Q19342996,http://cherepashineck.kalynivka-rr.org.ua/,cherepashineck.kalynivka-rr.org.ua,
+government_agency,Q20096629,http://chernivci.rada.org.ua/,chernivci.rada.org.ua,
+government_agency,Q16723280,http://chernivtsy.eu/portal/,chernivtsy.eu,
+government_agency,Chernivetska miska rada,http://chernivtsy.eu/portal/,chernivtsy.eu,
+parliament,Q12169641,http://chervrada.kharkov.ua/?p=10&secure=&lang=,chervrada.kharkov.ua,
+university,Petro Mohyla Black Sea National University,https://chmnu.edu.ua/,chmnu.edu.ua,university
+university,T. H. Shevchenko National University «Chernihiv Colehium»,http://www.chnpu.edu.ua/,chnpu.edu.ua,university
+university,Chernivtsi University,https://www.chnu.edu.ua/,chnu.edu.ua,university
+government_agency,Chornobaiivska selyshchna rada,http://chornobay.rada.org.ua/,chornobay.rada.org.ua,
+parliament,Q20096661,http://www.chortkivrr.te.ua/,chortkivrr.te.ua,
+government_agency,Kharkiv City council,http://www.city.kharkov.ua/uk/gorodskaya-vlast/gorodskoj-sovet/deputatyi.html,city.kharkov.ua,local
+parliament,Kherson City Council,http://www.city.kherson.ua/,city.kherson.ua,local
+government_agency,Institute of Forensic Psychiatry of the Ministry of health of Ukraine,https://cmhmda.org.ua/,cmhmda.org.ua,
+government_agency,Centre for Social Innovation,http://www.cntei.kiev.ua/,cntei.kiev.ua,
+university,Ukrainian-American Concordia University,https://www.concordia.edu.ua/uk,concordia.edu.ua,university
+university,Ukrainian-American Concordia University,https://www.concordia.edu.ua,concordia.edu.ua,university
+university,Crimea State Medical University named after S. I. Georgievsky,http://www.csmu.edu.ua/,csmu.edu.ua,university
+government_agency,"Embassy of Cuba, Kyiv",http://www.cubadiplomatica.cu/es/ucrania/embajada-de-cuba-en-ucrania,cubadiplomatica.cu,central
+government_agency,Democracy Development Centre,http://ddcentr.org.ua/en/,ddcentr.org.ua,
+university,Donbas State Pedagogical University,https://ddpu.edu.ua/,ddpu.edu.ua,university
+university,Dnipro State University of Internal Affairs,https://dduvs.edu.ua,dduvs.edu.ua,university
+government_agency,Demydivka Rural Settlement Council,http://demydivska.gromada.org.ua,demydivska.gromada.org.ua,
+government_agency,Q25422912,http://der.org.ua/,der.org.ua,
+government_agency,"State Enterprise “Dnipropetrovsk Regional State Research and Technical Center for Standardization, Metrology and Certification”",http://www.dgcsms.dp.ua,dgcsms.dp.ua,
+government_agency,"Embassy of Morocco, Kyiv",http://www.diplomatie.ma/marocrepresentationetranger.aspx?pays=UKRAINE&id_pays=90,diplomatie.ma,central
+university,Drohobych Petroleum and Gas College,http://www.dkng.net.ua/,dkng.net.ua,university
+university,Dnipro State Medical University,https://dmu.edu.ua/,dmu.edu.ua,university
+government_agency,"State Enterprise ""Scientific and Research Institute for Metrology of Measurement and Control Systems""",http://www.dndi-systema.lviv.ua,dndi-systema.lviv.ua,
+government_agency,Q4163252,http://dneprorudnoe.org/,dneprorudnoe.org,
+university,Donetsk National Medical University,https://dnmu.ru,dnmu.ru,university
+university,Oles Honchar Dnipro National University,https://www.dnu.dp.ua,dnu.dp.ua,university
+university,Donetsk State University of Internal Affairs,https://dnuvs.ukr.education/,dnuvs.ukr.education,university
+government_agency,Q20076426,http://dolmiskrada.org.ua/,dolmiskrada.org.ua,
+university,Donbas National Academy of Civil Engineering and Architecture,http://www.donnaba.edu.ua,donnaba.edu.ua,university
+university,Donetsk National Technical University,https://donntu.edu.ua/,donntu.edu.ua,university
+university,Vasyl' Stus Donetsk National University,http://www.donnu.edu.ua,donnu.edu.ua,university
+university,State Tax University,https://www.dpu.edu.ua,dpu.edu.ua,university
+university,Dnipropetrovsk Regional Institute of Public Administration,http://dridu.dp.ua/,dridu.dp.ua,university
+university,Donetsk Railway Transport Institute,http://drti.donbass.com/,drti.donbass.com,university
+government_agency,Q12102524,http://druzhba.rada.org.ua/,druzhba.rada.org.ua,
+university,Dnipro State Agrarian University,http://www.dsau.dp.ua/,dsau.dp.ua,university
+university,Dnipro State Financial Academy,http://www.dsfa.dp.ua,dsfa.dp.ua,university
+university,Donetsk National Medical University,http://dsmu.edu.ua,dsmu.edu.ua,university
+university,Drohobych Ivan Franko State Pedagogical University,http://dspu.edu.ua,dspu.edu.ua,university
+university,Dniprovsky State Technical University,http://www.dstu.dp.ua//,dstu.dp.ua,university
+government_agency,Q20076543,http://dubechnenska.gromada.org.ua/,dubechnenska.gromada.org.ua,
+government_agency,Q12102603,http://www.dubno-adm.rv.ua/,dubno-adm.rv.ua,
+government_agency,Q12102703,http://dubove.in.ua/,dubove.in.ua,
+government_agency,Q16698553,http://dubrmrada.rv.ua/,dubrmrada.rv.ua,
+university,Alfred Nobel University,http://duep.edu,duep.edu,university
+university,State University of Economics and Technology,https://www.duet.edu.ua/en,duet.edu.ua,university
+university,State University of Economics and Technology,https://www.duet.edu.ua/ua,duet.edu.ua,university
+university,State University of Infrastructure and Technologies,https://duit.edu.ua/,duit.edu.ua,university
+university,State University of Telecommunications,http://dut.edu.ua/,dut.edu.ua,university
+government_agency,Q4161449,http://dykanka.rada.org.ua/,dykanka.rada.org.ua,
+government_agency,Q20076312,http://dymer.rada.org.ua/,dymer.rada.org.ua,
+parliament,Q12100929,http://www.dzerzhrada.kharkov.ua/rus/view.php?n=newsrai&mn=1,dzerzhrada.kharkov.ua,
+government_agency,Delegation of the European Union to Ukraine,https://eeas.europa.eu/delegations/ukraine_en,eeas.europa.eu,
+government_agency,Delegation of the European Union to Ukraine,https://eeas.europa.eu/delegations/ukraine_uk,eeas.europa.eu,
+government_agency,Q20073312,http://elanec.rada.org.ua/,elanec.rada.org.ua,
+government_agency,Q17095256,http://emrada.in.ua/,emrada.in.ua,
+university,Kyiv National University of Technologies and Design,http://en.knutd.com.ua/,en.knutd.com.ua,university
+university,Poltava University of Economics and Trade,http://en.puet.edu.ua,en.puet.edu.ua,university
+government_agency,Embassy of Estonia in Kyiv,http://www.estemb.kiev.ua/ukr,estemb.kiev.ua,central
+government_agency,"Embassy of Argentina, Kyiv",http://eucra.mrecic.gov.ar,eucra.mrecic.gov.ar,central
+university,Evangel Theological Seminary,http://www.evangelts.org/,evangelts.org,university
+government_agency,Probation in Ukraine,https://www.facebook.com/probation.ua/?fref=ts,facebook.com,
+government_agency,Q20092493,https://www.facebook.com/profile.php?id=100011365946803,facebook.com,
+government_agency,Feodosiya City Council,http://feodosea.com/,feodosea.com,local
+government_agency,"Embassy of Finland, Kyiv",https://finlandabroad.fi/web/ukr/,finlandabroad.fi,central
+university,Horlivka Institute for Foreign Languages,http://forlan.org.ua,forlan.org.ua,university
+government_agency,Institute of Feed and Agriculture of Podillya of the National Academy of Agrarian Sciences,http://fri.vin.ua/,fri.vin.ua,
+government_agency,Hadiach urban council,http://gadiach.osp-ua.info,gadiach.osp-ua.info,
+government_agency,Q12094420,http://gaspra-ps.crimea.ua/,gaspra-ps.crimea.ua,
+government_agency,Directorate-General for Rendering Services to Diplomatic Missions,http://gdip.com.ua/menus/view/golovna,gdip.com.ua,
+government_agency,Directorate-General for Rendering Services to Diplomatic Missions,https://gdip.com.ua,gdip.com.ua,
+government_agency,Research Institute of Geodesy and Cartography,https://gki.com.ua,gki.com.ua,
+government_agency,Q4140320,http://gluhiv.net/,gluhiv.net,
+university,Hlukhiv National Pedagogical University of Oleksandr Dovzhenko,http://www.gnpu.edu.ua/gnpu/,gnpu.edu.ua,university
+government_agency,Q4141037,http://gogoleve.rada.org.ua/,gogoleve.rada.org.ua,
 parliament,Q20075763,http://golovanivsk-rada.com.ua/,golovanivsk-rada.com.ua,
 parliament,Q20075789,http://goprirada.com/,goprirada.com,
+government_agency,Q4143663,http://gorby.rada.org.ua/,gorby.rada.org.ua,
 parliament,Q20075838,http://gorn-vlada.ks.ua/,gorn-vlada.ks.ua,
-parliament,Q20076035,http://www.husyatyn.te.ua/,husyatyn.te.ua,
-parliament,Q20076999,http://radazal.at.ua/,radazal.at.ua,
-parliament,Q20077107,http://zborivrayrada.org.ua/,zborivrayrada.org.ua,
-parliament,Q20077839,http://rrada.ko.te.ua/,rrada.ko.te.ua,
-parliament,Q20078006,http://koretsrada.in.ua/,koretsrada.in.ua,
-parliament,Q20082208,http://www.mykolaiv.lviv.ua,mykolaiv.lviv.ua,
-parliament,Q20082396,http://monastyryska.rayrada.org.ua/,monastyryska.rayrada.org.ua,
-parliament,Q20083079,http://ntrayrada.ks.ua/,ntrayrada.ks.ua,
-parliament,Q20083441,http://www.ostrada.rv.ua/,ostrada.rv.ua,
-parliament,Q20092254,http://radrajrada.at.ua/,radrajrada.at.ua,
-parliament,Q20092605,http://rivnerayrada.rv.ua/,rivnerayrada.rv.ua,
-parliament,Q20092822,http://svitlodarsk-rada.dn.ua/index.php?id=17882&show=89141,svitlodarsk-rada.dn.ua,
-parliament,Q20093025,http://rayradaskad.ks.ua/,rayradaskad.ks.ua,
-parliament,Q20093768,http://siverskarada.com.ua/,siverskarada.com.ua,
-parliament,Q20096661,http://www.chortkivrr.te.ua/,chortkivrr.te.ua,
-parliament,Q20097338,http://tsyurupinsk-rr.at.ua/,tsyurupinsk-rr.at.ua,
-parliament,Savran Town council,http://savranrada.odessa.ua,savranrada.odessa.ua,
-parliament,Ivanychi Raion Council,http://www.ivrada.com.ua/,ivrada.com.ua,
-parliament,Q12088401,http://velikabilozerka.rada.org.ua/,velikabilozerka.rada.org.ua,
-parliament,Q12088899,http://verhovyna-rada.at.ua/,verhovyna-rada.at.ua,
-parliament,Q12093264,http://vilnyanska.rayrada.org.ua/,vilnyanska.rayrada.org.ua,
-parliament,Q12093794,http://hadiach-rajon-vlada.org.ua/index.php?option=com_content&view=article&id=219:2010-03-22-10-57-21&catid=50:2009-09-10-10-25-13&Itemid=30,hadiach-rajon-vlada.org.ua,
 parliament,Q12097056,http://gorrayrada.if.ua,gorrayrada.if.ua,
-parliament,Q12100929,http://www.dzerzhrada.kharkov.ua/rus/view.php?n=newsrai&mn=1,dzerzhrada.kharkov.ua,
-parliament,Q12104713,http://www.oct.rada.kharkov.ua/user/default.php?topic_id=1&lang=ru,oct.rada.kharkov.ua,
-parliament,Q12107312,http://rada-zinkiv.com.ua/index.php,rada-zinkiv.com.ua,
-parliament,Kherson City Council,http://www.city.kherson.ua/,city.kherson.ua,
+government_agency,Krasnoiilska selyshchna rada,http://gromady.cv.ua/st/rada/216/,gromady.cv.ua,
+government_agency,Storozhynetska miska rada,http://gromady.cv.ua/st/rada/215,gromady.cv.ua,
+government_agency,Q48941903,http://gs.sev.sudrf.ru/,gs.sev.sudrf.ru,
+parliament,Q12093794,http://hadiach-rajon-vlada.org.ua/index.php?option=com_content&view=article&id=219:2010-03-22-10-57-21&catid=50:2009-09-10-10-25-13&Itemid=30,hadiach-rajon-vlada.org.ua,
+university,Kharkiv State University of Food Technology and Trade,http://www.hduht.edu.ua,hduht.edu.ua,university
+government_agency,Khmilnyk Urban Council,http://www.hmilnyk.osp-ua.info,hmilnyk.osp-ua.info,
+university,Kharkiv National University of Economics,http://www.hneu.edu.ua/,hneu.edu.ua,university
+university,H.S. Skovoroda Kharkiv National Pedagogical University,http://hnpu.edu.ua,hnpu.edu.ua,university
+parliament,Q20076035,http://www.husyatyn.te.ua/,husyatyn.te.ua,
+government_agency,National Scientific Centre “Institute of Agrarian Economics”,http://www.iae.org.ua,iae.org.ua,
+government_agency,Institute of Cell Biology and Genetic Engineering of the National Academy of Sciences of Ukraine,https://icbge.org.ua,icbge.org.ua,
+government_agency,Institute of Climate-Smart Agriculture of the National Academy of Agrarian Sciences of Ukraine,https://icsanaas.com.ua,icsanaas.com.ua,
+government_agency,"State Institution ""Institute of Ecological Renovation and Development of Ukraine""",https://ierdu.org.ua,ierdu.org.ua,
+university,International European University,https://ieu.edu.ua/en,ieu.edu.ua,university
+university,International European University,https://ieu.edu.ua/,ieu.edu.ua,university
+university,Ivano-Frankivsk Theological Academy of Greek-Catholic Church,http://ifds.org.ua/main.html,ifds.org.ua,university
+university,Ivano-Frankivsk National Medical University,http://www.ifnmu.edu.ua,ifnmu.edu.ua,university
+university,King Danyo University,http://iful.at.ua,iful.at.ua,university
+university,International Institute of Business,http://www.iib.com.ua/,iib.com.ua,university
+government_agency,Potebnia Institute of Linguistics,http://www.inmo.org.ua/,inmo.org.ua,
+government_agency,State Enterprise Institute of Grain Crops of the National Academy of Agrarian Sciences of Ukraine,https://institut-zerna.com,institut-zerna.com,
+government_agency,"Polish Institute, Kyiv",https://instytutpolski.pl/kyiv/,instytutpolski.pl,
+university,Zaporizhzhia State Medical and Pharmaceutical University,https://int.mphu.edu.ua/,int.mphu.edu.ua,university
+government_agency,Ukrainian State Employment Service Training Institute,http://ipk.edu.ua/engl/,ipk.edu.ua,
+government_agency,"Embassy of Iraq, Kyiv",http://www.iraqiembassy.com.ua/,iraqiembassy.com.ua,central
+university,Odesa State Academy of Refrigeration,http://www.irce.onaft.edu.ua/,irce.onaft.edu.ua,university
+university,International Solomon University,http://www.isu.edu.ua/,isu.edu.ua,university
+government_agency,Institute of the Ukrainian Language of the National Academy of Sciences of Ukraine,https://iul-nasu.org.ua/,iul-nasu.org.ua,
+government_agency,Q4196524,http://iv-selysche.rada.org.ua/,iv-selysche.rada.org.ua,
+government_agency,Q12073653,http://ivaselrada.com.ua,ivaselrada.com.ua,
+parliament,Ivanychi Raion Council,http://www.ivrada.com.ua/,ivrada.com.ua,
+parliament,Q20073384,http://ivrada.ks.ua/,ivrada.ks.ua,
+government_agency,Main Territorial Department of Justice in Lviv region,http://www.just.lviv.ua/,just.lviv.ua,
+government_agency,Main Territorial Department of Justice in Kharkiv region,http://justic.kh.ua/,justic.kh.ua,
+university,Tulchyn Lyceum,https://kadetu.tulchin-licey.net/,kadetu.tulchin-licey.net,university
+university,"Boarding Lyceum No. 23 ""Cadet Corps",http://www.kadety.org.ua/,kadety.org.ua,university
+government_agency,Q20077350,http://kagarlyk.org.ua,kagarlyk.org.ua,
+government_agency,"1 Ivana Franka Street, Kalush",http://www.kalushciti.if.ua,kalushciti.if.ua,
+university,National University of Kharkiv,https://karazin.ua/,karazin.ua,university
+university,Ukrainian State University of Railway Transport,https://kart.edu.ua/,kart.edu.ua,university
+university,Kyiv Academic University,https://kau.org.ua/,kau.org.ua,university
+government_agency,Kamianka rural council,http://www.kbv.zp.ua/,kbv.zp.ua,
+university,Kryvyi Rih State Pedagogical University,http://www.kdpu.edu.ua/,kdpu.edu.ua,university
+university,Kremenchuk Mykhailo Ostrohradskyi National University,http://www.kdu.edu.ua/,kdu.edu.ua,university
+university,Kharkiv National Automobile and Highway University,http://www.khadi.kharkov.ua/,khadi.kharkov.ua,university
+university,National Aerospace University – Kharkiv Aviation Institute,https://khai.edu/,khai.edu,university
+university,Kharkiv National Medical University,https://kharkivmedicaluniversity.com,kharkivmedicaluniversity.com,university
+university,Khmelnytskyi National University,https://khmnu.edu.ua/,khmnu.edu.ua,university
+university,Kharkiv Petro Vasylenko National Technical University of Agriculture,http://khntusg.com.ua/,khntusg.com.ua,university
+government_agency,"Embassy of Romania, Kyiv",http://kiev.mae.ro/,kiev.mae.ro,central
+government_agency,"Embassy of Iran, Kyiv",http://kiev.mfa.ir,kiev.mfa.ir,central
 parliament,Q12110194,http://www.kievrik.kharkov.ua/,kievrik.kharkov.ua,
+government_agency,"Embassy of Hungary, Kyiv",https://kijev.mfa.gov.hu/,kijev.mfa.gov.hu,central
+government_agency,"Embassy of Slovenia, Kyiv",http://www.kijev.veleposlanistvo.si/,kijev.veleposlanistvo.si,central
+government_agency,Q4221668,http://kirovskoe-dp.org/,kirovskoe-dp.org,
+university,Kremenets Forestry College,http://klk-kremenets.at.ua,klk-kremenets.at.ua,university
+university,Kryvyi Rih Lyceum Boarding School with enhanced military physical training,http://klpvfp.dnepredu.com/,klpvfp.dnepredu.com,university
+university,Kyiv Medical University,https://kmu.edu.ua/,kmu.edu.ua,university
+university,O.M.Beketov National University of Urban Economy in Kharkiv,https://www.kname.edu.ua/,kname.edu.ua,university
+university,Kharkiv National Agrarian University named after V.V. Dokuchayev,http://knau.kharkov.ua,knau.kharkov.ua,university
+university,Kyiv National Economic University named after Vadym Hetman,https://kneu.edu.ua/,kneu.edu.ua,university
+university,Kyiv National Economic University named after Vadym Hetman,http://www.kneu.kiev.ua/,kneu.kiev.ua,university
+university,Kyiv National Linguistic University,https://knlu.edu.ua,knlu.edu.ua,university
+university,Kherson National Technical University,https://kntu.net.ua,kntu.net.ua,university
+university,Kryvyi Rih National University,http://www.knu.edu.ua,knu.edu.ua,university
+university,Taras Shevchenko National University of Kyiv,https://knu.ua/,knu.ua,university
+university,Kyiv National University of Construction and Architecture,https://www.knuba.edu.ua/,knuba.edu.ua,university
+university,Kyiv National University of Culture and Arts,http://www.knukim.edu.ua,knukim.edu.ua,university
+university,"Kyiv National I. K. Karpenko-Kary Theatre, Cinema and Television University",http://www.knutkt.com.ua/,knutkt.com.ua,university
+government_agency,Q20077855,http://kolky.rada.org.ua/,kolky.rada.org.ua,
 parliament,Q12112163,http://komrada.kharkov.ua/,komrada.kharkov.ua,
+government_agency,Q12112816,http://www.korec-misto.rv.ua/,korec-misto.rv.ua,
+parliament,Q20078006,http://koretsrada.in.ua/,koretsrada.in.ua,
+parliament,Q94654582,http://korosten-rayrada.in.ua/,korosten-rayrada.in.ua,
+government_agency,Q12113695,http://kosivmr.if.ua,kosivmr.if.ua,
+parliament,Q12113696,http://kosivrada.if.ua,kosivrada.if.ua,
+government_agency,Q4235935,http://www.kotelva-sr.ucoz.ua/,kotelva-sr.ucoz.ua,
+government_agency,Q19913544,http://kozacka.rada.org.ua/,kozacka.rada.org.ua,
+government_agency,Q4226531,http://kozelshyna.rada.org.ua/,kozelshyna.rada.org.ua,
+university,Kharkiv Polytechnic Institute,https://www.kpi.kharkov.ua/,kpi.kharkov.ua,university
+university,"Physical and Technical Institute of NTUU ""KPI",http://kpi.ua/ru/institute/fti,kpi.ua,university
+university,Igor Sikorsky Kyiv Polytechnic Institute,https://kpi.ua/,kpi.ua,university
+university,Kamyanets-Podilskyi Lyceum with enhanced military-physical training,http://kpml.com.ua/,kpml.com.ua,university
+university,Kamianets-Podilskyi Ivan Ohiienko National University,http://www.kpnu.edu.ua/,kpnu.edu.ua,university
+parliament,Q12115575,http://krada.da.zp.ua/,krada.da.zp.ua,
+parliament,Q51755386,http://krasrada.sumy.ua,krasrada.sumy.ua,
+government_agency,Q25431767,http://krasyliv.org.ua,krasyliv.org.ua,
+university,Kherson State Maritime Academy,https://ksma.ks.ua/,ksma.ks.ua,university
+university,Kharkiv National Medical University,https://ksmu.university/,ksmu.university,university
+university,Volodymyr Vynnychenko Central Ukrainian State Pedagogical University,http://www.kspu.kr.ua/,kspu.kr.ua,university
+university,Kharkiv National University of Construction and Architecture,http://www.kstuca.kharkov.ua/,kstuca.kharkov.ua,university
+university,Ivan Kozhedub National University of the Air Force,http://kuaf.kharkov.ua/,kuaf.kharkov.ua,university
+university,Borys Grinchenko Kyiv Metropolitan University,https://kubg.edu.ua/,kubg.edu.ua,university
+university,Crimea University of Culture Art and Tourism,https://kukiit.ru/,kukiit.ru,university
+university,Kyiv University of Law,http://www.kul.kiev.ua/,kul.kiev.ua,university
+government_agency,Q12115858,http://kupevate.rada.org.ua/,kupevate.rada.org.ua,
+government_agency,Q19568987,http://kurnenska.gromada.org.ua/,kurnenska.gromada.org.ua,local
+university,"Kyiv University of Tourism, Economics and Law",http://kutep.ua/ua,kutep.ua,university
+government_agency,Q20078478,http://kuty.rada.org.ua/,kuty.rada.org.ua,
+university,Kyiv University of Management and Entrepreneurship,http://www.kuup-dvnz.com.ua/,kuup-dvnz.com.ua,university
+government_agency,"Embassy of Qatar, Kyiv",http://kyiv.embassy.qa/en/home,kyiv.embassy.qa,central
+university,Kyiv International University,https://kymu.edu.ua/,kymu.edu.ua,university
+government_agency,"Embassy of Kyrgyzstan, Kyiv",http://kyrgyzembassy.com.ua/,kyrgyzembassy.com.ua,central
+parliament,Lanivtsi Raion council,http://lanivtsi.org.ua/,lanivtsi.org.ua,
+parliament,Q12119293,http://lbmrada.lt.ukrtel.net/1.html,lbmrada.lt.ukrtel.net,
+university,Lviv State University of Life Safety,http://ldubgd.edu.ua/,ldubgd.edu.ua,university
+university,Lviv State University of Physical Culture,http://ldufk.edu.ua/,ldufk.edu.ua,university
+government_agency,"Embassy of Lebanon, Kyiv",http://www.lebanonembassy.org.ua/,lebanonembassy.org.ua,central
+government_agency,Lebedyn,http://lebedyn.info/,lebedyn.info,
+parliament,Q12117632,http://lenrada.kharkov.ua/rus/index.php,lenrada.kharkov.ua,
+university,Lugansk State Medical University,https://lgmu.ru/,lgmu.ru,university
+university,University of Luhansk,https://lgpu.org/,lgpu.org,university
+government_agency,Scientific library of the Ukrainian Academy of Banking,http://lib.uabs.edu.ua/,lib.uabs.edu.ua,
+government_agency,Lypovets Municipality,http://lipovec.com.ua/,lipovec.com.ua,
+government_agency,Q20081833,http://lityn-selrada.com.ua,lityn-selrada.com.ua,
+university,Lviv National Academy of Arts,http://www.lnam.edu.ua/,lnam.edu.ua,university
+university,Lviv National Environmental University,http://lnau.edu.ua/lnau/,lnau.edu.ua,university
+university,Lugansk National Agrarian University,http://www.lnau.in.ua,lnau.in.ua,university
+university,Lugansk National Agrarian University,http://lnau.su/,lnau.su,university
+university,Lutsk National Technical University,https://lntu.edu.ua/uk,lntu.edu.ua,university
+university,Lviv University,https://lnu.edu.ua/,lnu.edu.ua,university
+university,Lviv Polytechnic,https://lpnu.ua/,lpnu.ua,university
+government_agency,Liubotyn urban council,http://www.lubotin.kharkov.ua,lubotin.kharkov.ua,
+government_agency,Q17095354,http://lugyny.rada.org.ua/,lugyny.rada.org.ua,local
+university,Lviv University of Trade and Economics,http://lute.lviv.ua,lute.lviv.ua,university
+university,Stepan Gzhytskyi National University of Veterinary Medicine and Biotechnologies Lviv,https://lvet.edu.ua/,lvet.edu.ua,university
+university,"National Institute of Grape and Wine ""Magarach""",http://magarach-institut.ru,magarach-institut.ru,university
+government_agency,Q4280384,http://manzheliya.rada.org.ua/,manzheliya.rada.org.ua,
+government_agency,Q4281139,http://marganets-rada.dp.ua/ua/,marganets-rada.dp.ua,
+university,Interregional Academy of Personnel Management,http://www.maup.com.ua/,maup.com.ua,university
+university,Bogdan Khmelnitsky Melitopol State Pedagogical University,http://www.mdpu.org.ua/,mdpu.org.ua,university
+university,V.О. Sukhomlynskyi National University of Mykolaiv,http://mdu.edu.ua/,mdu.edu.ua,university
+university,Ukrainian Military Medical Academy,http://med-akademiya.com.ua/,med-akademiya.com.ua,university
+university,Kharkiv Medical Academy of Post-graduate Education,http://med.edu.ua,med.edu.ua,university
+government_agency,"Embassy of Bulgaria, Kyiv",https://www.mfa.bg/embassies/ukraine,mfa.bg,central
+government_agency,"Embassy of Greece, Kyiv",http://www.mfa.gr/kiev,mfa.gr,central
+government_agency,"Embassy of Kazakhstan, Kyiv",http://www.mfa.kz/en/kiev,mfa.kz,central
+government_agency,Q25443592,http://mgorodok.km.ua,mgorodok.km.ua,
+university,Bogdan Khmelnitsky Melitopol State Pedagogical University,https://mgu-mlt.ru/,mgu-mlt.ru,university
+government_agency,Q4297746,http://mihajlivka.rada.org.ua/,mihajlivka.rada.org.ua,
+university,International Management Institute,https://mim.kiev.ua/en,mim.kiev.ua,university
+university,International Management Institute,http://mim.kiev.ua/,mim.kiev.ua,university
+government_agency,Q12123463,http://mirgorod.osp-ua.info/,mirgorod.osp-ua.info,
+government_agency,Novodnistrovska miska rada,http://miska-rada.com.ua,miska-rada.com.ua,
+government_agency,Q20093175,http://miskrada.sokal.lviv.ua/,miskrada.sokal.lviv.ua,
+government_agency,Q4191484,http://misto-zinkiv.com.ua/index.php,misto-zinkiv.com.ua,
+government_agency,Okhtyrka City Council,http://www.misto.okhtyrka.net/,misto.okhtyrka.net,
+university,Mykolayiv State Agrarian University,http://www.mnau.edu.ua,mnau.edu.ua,university
+government_agency,"Embassy of the United Arab Emirates, Kyiv",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=83cfb7cd-e5b0-4db2-8d89-4e73f4f7a0d9,mofaic.gov.ae,central
+government_agency,Monastyryska City Council,http://monastyryska.rada.org.ua/,monastyryska.rada.org.ua,
+parliament,Q20082396,http://monastyryska.rayrada.org.ua/,monastyryska.rayrada.org.ua,
+parliament,Q12130220,http://www.mrik.kharkov.ua/index.html,mrik.kharkov.ua,
+government_agency,Q4378710,http://mrprim.zp.ua,mrprim.zp.ua,
+university,Mukachevo State University,http://msu.edu.ua/,msu.edu.ua,university
+university,Mariupol State University,https://mu.edu.ua/,mu.edu.ua,university
+university,Mariupol Training School for Police Officers,http://mupppm.org,mupppm.org,university
+government_agency,Q20082205,http://mykolaiv-misto.lviv.ua,mykolaiv-misto.lviv.ua,
+parliament,Q20082208,http://www.mykolaiv.lviv.ua,mykolaiv.lviv.ua,
+government_agency,Q4180857,http://mykolayvka.rada.org.ua/,mykolayvka.rada.org.ua,
+government_agency,Embassy of the Czech Republic in Kyiv,https://www.mzv.cz/kiev,mzv.cz,central
+government_agency,"Embassy of Slovakia, Kyiv",http://www.mzv.sk/kyjev,mzv.sk,central
+university,National Academy of the State Border Guard Service of Ukraine,http://nadpsu.edu.ua/,nadpsu.edu.ua,university
+university,National Academy of Culture and Arts Management,http://nakkkim.edu.ua,nakkkim.edu.ua,university
+university,National Academy of Management,http://nam.kiev.ua,nam.kiev.ua,university
+university,National Academy of Environmental Protection and Resort Development,http://www.napks.edu.ua/,napks.edu.ua,university
+government_agency,NATO Delegation to Ukraine,https://www.nato.int/cps/en/natolive/topics_79926.htm,nato.int,
+university,Kyiv Aviation University,http://nau.edu.ua/,nau.edu.ua,university
+government_agency,Lviv Scientific Research Forensic Center of the Ministry of Internal Affairs of Ukraine,http://ndekc.lviv.ua,ndekc.lviv.ua,
+government_agency,National Research Institute of Industrial Safety and Labor Protection,http://www.ndiop.kiev.ua,ndiop.kiev.ua,
+university,Nizhyn Gogol State University,http://www.ndu.edu.ua/,ndu.edu.ua,university
+government_agency,"Embassy of the Netherlands, Kyiv",https://www.nederlandwereldwijd.nl/landen/oekraine,nederlandwereldwijd.nl,central
+government_agency,"Embassy of the Netherlands, Kyiv",https://www.nederlandwereldwijd.nl/landen/oekraine/over-ons/ambassade-in-kyiv,nederlandwereldwijd.nl,central
+parliament,Q51755332,http://nedr-rr.org.ua,nedr-rr.org.ua,
+university,Danylo Halytsky Lviv National Medical University,https://new.meduniv.lviv.ua/,new.meduniv.lviv.ua,university
+government_agency,"Embassy of Nigeria, Kyiv",http://nigeriaembassykyiv.com.ua/,nigeriaembassykyiv.com.ua,central
+government_agency,Nizhynska miska rada,http://www.nizhynrada.org/,nizhynrada.org,
+university,National Forestry University,http://www.nltu.edu.ua/,nltu.edu.ua,university
+university,National University “Yaroslav the Wise Law Academy of Ukraine”,https://nlu.edu.ua/,nlu.edu.ua,university
+university,Shupyk National Healthcare University of Ukraine,http://www.nmapo.edu.ua/,nmapo.edu.ua,university
+university,National Metallurgical Academy of Ukraine,http://www.nmetau.edu.ua,nmetau.edu.ua,university
+university,Dnipro University of Technology,https://nmu.org.ua/,nmu.org.ua,university
+university,Bogomolets National Medical University,https://nmu.university/?lang=ar,nmu.university,university
+government_agency,"Embassy of Norway, Kyiv",https://www.norway.no/en/ukraine/,norway.no,central
+government_agency,Q4323401,http://nova-galeshyna.rada.org.ua/,nova-galeshyna.rada.org.ua,
+government_agency,Q20082906,http://novgorodka.rada.org.ua/,novgorodka.rada.org.ua,
+government_agency,Q20082956,http://www.novograd.osp-ua.info,novograd.osp-ua.info,local
+government_agency,Q17095413,http://novoguivinske-rada.org.ua/,novoguivinske-rada.org.ua,
+government_agency,Q12134125,http://novomirgorod.com.ua/,novomirgorod.com.ua,
+government_agency,Q4324703,http://novomykolayivka.rada.org.ua/,novomykolayivka.rada.org.ua,
+parliament,Q12134127,http://novomyrhorod.osp-ua.info/,novomyrhorod.osp-ua.info,
+parliament,Q19936632,http://novovoroncovka.rada.org.ua/,novovoroncovka.rada.org.ua,local
+government_agency,Scientific-Practical Center of Endovascular Neuroradiology of the National Academy of Medical Sciences of Ukraine,https://npc-kiev.com.ua,npc-kiev.com.ua,
+government_agency,Yaroslav Mudryi National Library of Ukraine,http://nplu.org/,nplu.org,
+university,National Pedagogical Dragomanov University,https://npu.edu.ua/,npu.edu.ua,university
+parliament,Q20083079,http://ntrayrada.ks.ua/,ntrayrada.ks.ua,
+university,National Transport University,http://www.ntu.kar.net,ntu.kar.net,university
+university,Kharkiv University of Humanities “People’s Ukrainian Academy”,http://www.nua.kharkov.ua/,nua.kharkov.ua,university
+university,National University of Life and Environmental Sciences of Ukraine,http://nubip.edu.ua/en,nubip.edu.ua,university
+university,National University of Civil Protection of Ukraine,https://nuczu.edu.ua,nuczu.edu.ua,university
+university,National University of Food Technologies,https://nuft.edu.ua/,nuft.edu.ua,university
+university,Ivano-Frankivsk National Technical University of Oil and Gas,http://nung.edu.ua/,nung.edu.ua,university
+government_agency,Apostolic Nunciature to Ukraine,http://www.nuntiatura.kiev.ua/,nuntiatura.kiev.ua,central
+university,Admiral Makarov National University of Shipbuilding,https://nuos.edu.ua/,nuos.edu.ua,university
+university,Shupyk National Healthcare University of Ukraine,https://nuozu.edu.ua/,nuozu.edu.ua,university
+university,National University of Pharmacy,http://nuph.edu.ua/,nuph.edu.ua,university
+university,National University «Yuri Kondratyuk Poltava Polytechnic»,https://nupp.edu.ua/,nupp.edu.ua,university
+university,National University «Yuri Kondratyuk Poltava Polytechnic»,https://nupp.edu.ua/en,nupp.edu.ua,university
+university,Kharkiv National University of Radioelectronics,https://nure.ua/,nure.ua,university
+university,National University of Water and Environmental Engineering,https://nuwm.edu.ua/,nuwm.edu.ua,university
+university,National University of Ostroh Academy,http://www.oa.edu.ua,oa.edu.ua,university
+parliament,Chernivtsi Oblast Council,http://oblrada.cv.ua/,oblrada.cv.ua,
+parliament,Dnipropetrovsk Oblast Council,http://www.oblrada.dp.ua/,oblrada.dp.ua,central-1
+parliament,Kharkiv Oblast Council,http://oblrada.kharkov.ua/,oblrada.kharkov.ua,central-1
+parliament,Kirovohrad Oblast Council,https://oblrada.kr.ua/,oblrada.kr.ua,central-1
+parliament,Luhansk Oblast Council,http://www.oblrada.lg.ua/,oblrada.lg.ua,central-1
+parliament,Q12123466,http://oblrada.pl.ua/index.php/mirgorodskij-rajon,oblrada.pl.ua,
+government_agency,Q4329482,http://oboznivka.rada.org.ua/,oboznivka.rada.org.ua,
+parliament,Q12104713,http://www.oct.rada.kharkov.ua/user/default.php?topic_id=1&lang=ru,oct.rada.kharkov.ua,
+university,Odesa National Music Academy,https://odma.edu.ua/,odma.edu.ua,university
+university,Odesa National Music Academy,https://odma.edu.ua/en/,odma.edu.ua,university
+university,Odesa National Medical University,http://odmu.edu.ua/,odmu.edu.ua,university
+university,Odesa State University of Internal Affairs,http://www.oduvs.edu.ua,oduvs.edu.ua,university
+university,Odesa State Academy of Civil Engineering and Architecture,http://www.ogasa.org.ua/,ogasa.org.ua,university
+government_agency,Q22696029,http://olshanske.rada.org.ua/,olshanske.rada.org.ua,
+university,Odesa National Academy of Food Technologies,http://www.onaft.edu.ua,onaft.edu.ua,university
+university,National University «Odesa Maritime Academy»,http://www.onma.edu.ua,onma.edu.ua,university
+university,Odesa University,https://onu.edu.ua/,onu.edu.ua,university
+university,"National University ""Odesa Law Academy""",http://www.onua.edu.ua,onua.edu.ua,university
+university,Odesa Polytechnic National University,https://op.edu.ua/en/,op.edu.ua,university
+parliament,Ivano-Frankivsk Oblast Council,https://orada.if.ua/,orada.if.ua,
+government_agency,Q20083345,http://orativska.gromada.org.ua/,orativska.gromada.org.ua,
+government_agency,"Embassy of the Sovereign Military Order of Malta, Kyiv",https://www.orderofmalta.int/contacts/ukraine/,orderofmalta.int,central
+parliament,Q12136270,http://ordg.rada.kharkov.ua/,ordg.rada.kharkov.ua,
+university,Odesa State Agrarian University,https://osau.edu.ua/,osau.edu.ua,university
+university,Odesa National Economics University,http://www.oseu.edu.ua,oseu.edu.ua,university
+university,Odesa National Maritime University,http://www.osmu.odessa.ua/,osmu.odessa.ua,university
+parliament,Q20083441,http://www.ostrada.rv.ua/,ostrada.rv.ua,
+government_agency,Ostroh City Council,http://www.ostroh.rv.ua,ostroh.rv.ua,
+government_agency,Yaroslav Mudryi National Library of Ukraine,https://oth.nlu.org.ua/,oth.nlu.org.ua,
+government_agency,Q20083190,https://ovruch.in.ua/,ovruch.in.ua,local
+government_agency,"Embassy of Palestine, Kyiv",https://palemb.com.ua/,palemb.com.ua,central
+government_agency,Parafiivska selyshchna rada,http://www.parafiivska-rada.org,parafiivska-rada.org,
+university,Poltava State Agrarian University,http://www.pdaa.edu.ua,pdaa.edu.ua,university
+university,State Agrarian and Engineering University in Podilia,http://pdatu.edu.ua,pdatu.edu.ua,university
+university,Poltava State Medical University,https://www.pdmu.edu.ua,pdmu.edu.ua,university
+university,"The State Institution ""South Ukrainian National Pedagogical University named after K. D. Ushynsky""",http://www.pdpu.edu.ua,pdpu.edu.ua,university
+government_agency,Q12139481,http://www.pervomaisk.mk.ua,pervomaisk.mk.ua,
+university,Prydniprovska State Academy of Civil Engineering and Architecture,https://www.pgasa.dp.ua/,pgasa.dp.ua,university
+government_agency,Center for Public Health of the Ministry of Health of Ukraine,https://www.phc.org.ua/,phc.org.ua,
+government_agency,Center for Public Health of the Ministry of Health of Ukraine,https://www.phc.org.ua,phc.org.ua,
 constitutional_court,Piarist province of Poland,https://www.pijarzy.pl,pijarzy.pl,
-constitutional_court,Ukrainian Cultural Foundation,https://ucf.in.ua/,ucf.in.ua,
-supreme_court,Supreme Council of Crimea,http://www.rada.crimea.ua/ua/,rada.crimea.ua,
+government_agency,Piarist province of Poland,https://www.pijarzy.pl,pijarzy.pl,
+university,Poltava National Pedagogical University,http://www.pnpu.edu.ua,pnpu.edu.ua,university
+university,Vasyl Stefanyk Carpathian National University,http://www.pnu.edu.ua,pnu.edu.ua,university
+parliament,Q12117631,http://podil.kr.ua,podil.kr.ua,
+university,Polissia National University,https://polissiauniver.edu.ua/,polissiauniver.edu.ua,university
+government_agency,Q12142515,http://www.poromivska-gromada.org.ua/,poromivska-gromada.org.ua,
+government_agency,"Embassy of Portugal, Kyiv",https://www.portaldascomunidades.mne.pt/pt/rede-consular/europa/ucrania,portaldascomunidades.mne.pt,central
+government_agency,Prylutska miska rada,http://pryluky.osp-ua.info,pryluky.osp-ua.info,
+government_agency,Q4378720,http://www.pss.crimea.ua,pss.crimea.ua,
+university,State Higher Education Institution “Pryazovskyi State Technical University”,http://www.pstu.edu,pstu.edu,university
+university,Poltava University of Economics and Trade,http://puet.edu.ua/,puet.edu.ua,university
+government_agency,Q12145555,http://www.pultivci.vinrajrada.org.ua,pultivci.vinrajrada.org.ua,
+government_agency,Piryatinska City Council,http://pyriatyn.osp-ua.info/,pyriatyn.osp-ua.info,local
 supreme_court,Qurultay of the Crimean Tatar People,http://qtmm.org/ru,qtmm.org,
+parliament,Qurultay of the Crimean Tatar People,http://qtmm.org/ru,qtmm.org,
+government_agency,Qurultay of the Crimean Tatar People,http://qtmm.org/ru,qtmm.org,
+parliament,Q93277134,https://r-rada.lutsk.ua/,r-rada.lutsk.ua,
+government_agency,Q20074655,http://www.rada-vlasovka.at.ua,rada-vlasovka.at.ua,
+parliament,Q12107312,http://rada-zinkiv.com.ua/index.php,rada-zinkiv.com.ua,
+government_agency,Cherkaska miska rada,http://www.rada.cherkassy.ua,rada.cherkassy.ua,
+parliament,Supreme Council of Crimea,http://www.rada.crimea.ua/ua/,rada.crimea.ua,central-1
+supreme_court,Supreme Council of Crimea,http://www.rada.crimea.ua/ua/,rada.crimea.ua,central-1
+government_agency,Konotop City Council,http://rada.konotop.org/,rada.konotop.org,
+government_agency,Q20092995,http://www.rada.sinelnikovo.net,rada.sinelnikovo.net,
+government_agency,Ternopil City Council,http://rada.te.ua/,rada.te.ua,
+parliament,Q12170058,https://radachernigivka.at.ua/,radachernigivka.at.ua,
+parliament,Q12146597,http://www.radadm.rv.ua/,radadm.rv.ua,
+parliament,Q20076999,http://radazal.at.ua/,radazal.at.ua,
+government_agency,Q20092251,http://radekhiv-miskrada.in.ua/,radekhiv-miskrada.in.ua,
+parliament,Q20092254,http://radrajrada.at.ua/,radrajrada.at.ua,
+parliament,Kremenets Raion council,http://rairadakremenets.org/,rairadakremenets.org,
+parliament,Q20093025,http://rayradaskad.ks.ua/,rayradaskad.ks.ua,
+government_agency,Ripkynska selyshchna rada,http://ripky.rada.org.ua/,ripky.rada.org.ua,
+parliament,Q20092605,http://rivnerayrada.rv.ua/,rivnerayrada.rv.ua,
+parliament,Q20074491,http://rogachik-rada.ks.ua/,rogachik-rada.ks.ua,
+government_agency,Q20092449,http://rozdil.rada.org.ua/,rozdil.rada.org.ua,
+parliament,Q96483151,http://rozhrada.volyn.ua/,rozhrada.volyn.ua,
+university,"University of Kyiv Faculty of Radio Physics, Electronics and Computer Systems",http://www.rpd.univ.kiev.ua,rpd.univ.kiev.ua,university
+parliament,Q20073074,http://www.rrada.ber.te.ua/,rrada.ber.te.ua,
+parliament,Q20077839,http://rrada.ko.te.ua/,rrada.ko.te.ua,
+university,Rivne State University of the Humanities,http://rshu.edu.ua/,rshu.edu.ua,university
+government_agency,Q4409546,http://sahnovschina.rada.org.ua/,sahnovschina.rada.org.ua,
+government_agency,Q22696053,http://satanivska.gromada.org.ua/,satanivska.gromada.org.ua,local
+university,Sumy National Agrarian University,http://www.sau.sumy.ua,sau.sumy.ua,university
+parliament,Savran Town council,http://savranrada.odessa.ua,savranrada.odessa.ua,local
+parliament,Q51755383,http://sb-rada.org.ua,sb-rada.org.ua,
+government_agency,Sednivska selyshchna rada,http://sedniv.rada.org.ua/,sedniv.rada.org.ua,
+government_agency,Semenivska miska rada,http://semenivka-rada.com,semenivka-rada.com,
+university,Sevastopol State University,http://sevsu.ru/,sevsu.ru,university
+university,Sevastopol Institute of Banking,http://www.sibs.uabs.edu.ua/,sibs.uabs.edu.ua,university
+parliament,Q20093768,http://siverskarada.com.ua/,siverskarada.com.ua,local
+government_agency,Q16716712,http://www.slavuta-mvk.info,slavuta-mvk.info,
+parliament,Q22696032,http://slobidka.kl.com.ua/,slobidka.kl.com.ua,local
+government_agency,Q4533558,http://slobozhanska.gromada.site/,slobozhanska.gromada.site,
+government_agency,Q4507207,http://slobozhanska.rada.org.ua/,slobozhanska.rada.org.ua,
+government_agency,Smilianska miska rada,http://smila.ck.ua/,smila.ck.ua,
+government_agency,Q22696061,http://smotrich.rada.org.ua/,smotrich.rada.org.ua,
+government_agency,Q20093135,http://smyzka.gromada.org.ua/pasport-gromadi-14-25-39-10-04-2017/,smyzka.gromada.org.ua,
+university,East Ukrainian Volodymyr Dahl National University,https://snu.edu.ua/,snu.edu.ua,university
+government_agency,Q4429685,https://sosnivka.rada.today,sosnivka.rada.today,
+university,Sumy State A.S. Makarenko Pedagogical University,https://sspu.edu.ua/,sspu.edu.ua,university
+government_agency,Q17095506,http://stanyshivska.gromada.org.ua/,stanyshivska.gromada.org.ua,local
+government_agency,Q20093523,http://stara-vyzhivka.rada.org.ua/,stara-vyzhivka.rada.org.ua,
+government_agency,Q20093541,http://starkon.km.ua,starkon.km.ua,
+government_agency,Science and Technology Center in Ukraine,http://www.stcu.int/,stcu.int,
+university,Chernihiv Polytechnic National University,https://stu.cn.ua/,stu.cn.ua,university
+government_agency,"Embassy of Sudan, Kyiv",http://sudanembassy.kiev.ua/ru/novosti-i-sobytiya,sudanembassy.kiev.ua,central
+university,State University of Intelligent Technologies and Telecommunications,https://suitt.edu.ua/,suitt.edu.ua,university
+university,Sumy State University,https://sumdu.edu.ua/,sumdu.edu.ua,university
+university,"State institution ""National Scientific Center of surgery and transplantation named after O.O. Shalimov to National Academy of medical sciences of Ukraine""",https://www.surgery.org.ua,surgery.org.ua,university
+university,State University of Trade and Economics,https://sute.edu.ua/,sute.edu.ua,university
+government_agency,Svesa Settlement Council,http://sveska.silrada.org/,sveska.silrada.org,
+parliament,Q20092822,http://svitlodarsk-rada.dn.ua/index.php?id=17882&show=89141,svitlodarsk-rada.dn.ua,local
+government_agency,"Embassy of Sweden, Kyiv",https://www.swedenabroad.se/sv/utlandsmyndigheter/ukraina-kiev/,swedenabroad.se,central
+government_agency,"Embassy of Tajikistan, Kyiv",http://tajemb.kiev.ua/,tajemb.kiev.ua,central
+university,I. Ya. Horbachevsky Ternopil National Medical University of Ministry of Health Care of Ukraine,https://www.tdmu.edu.ua/,tdmu.edu.ua,university
+government_agency,Technical Centre of the National Academy of Sciences of Ukraine (Ukraine),https://techcenter.kyiv.ua,techcenter.kyiv.ua,
+parliament,Terebovlia Raion council,http://terebrada.te.ua/,terebrada.te.ua,
+government_agency,Q4456064,http://ternrada.dp.ua,ternrada.dp.ua,
+university,Tavri Humanitarian and Environmental Institute,https://www.thei.org.ua,thei.org.ua,university
+government_agency,L.T. Malaya National Therapy Institute of the National Academy of Medical Sciences of Ukraine,https://therapy.org.ua/,therapy.org.ua,
+university,Jewish University of Odesa,http://www.tikva.odessa.ua/?univer,tikva.odessa.ua,university
+university,Ternopil Volodymyr Hnatiuk National Pedagogical University,http://www.tnpu.edu.ua,tnpu.edu.ua,university
+university,Ternopil Ivan Puluj National Technical University,https://tntu.edu.ua/,tntu.edu.ua,university
+university,Tavrida National V.I. Vernadsky University,http://www.tnu.edu.ua/,tnu.edu.ua,university
+government_agency,Q20094084,http://tomashpil.rada.org.ua,tomashpil.rada.org.ua,
+government_agency,Torez City council,http://www.torez.dn.ua,torez.dn.ua,
+government_agency,Prozori Rady,http://transparentcouncils.anticorruption.club,transparentcouncils.anticorruption.club,
+parliament,Ternopil Raion Council,http://www.trrada.te.ua/,trrada.te.ua,
+university,Tavrian State Agrotechnological University,http://www.tsatu.edu.ua/,tsatu.edu.ua,university
+parliament,Q20097338,http://tsyurupinsk-rr.at.ua/,tsyurupinsk-rr.at.ua,
+government_agency,Q20096421,http://turkamrada.in.ua/,turkamrada.in.ua,
+government_agency,"Embassy of France, Kyiv",https://ua.ambafrance.org,ua.ambafrance.org,central
+government_agency,"Embassy of the People's Republic of China, Kyiv",http://ua.chineseembassy.org,ua.chineseembassy.org,central
+government_agency,Q20076223,https://ua.energy/about/struktura/derzhinspekciya,ua.energy,
+government_agency,"Embassy of Croatia, Kyiv",http://ua.mfa.hr/,ua.mfa.hr,central
+government_agency,"Embassy of Lithuania, Kyiv",http://ua.mfa.lt/,ua.mfa.lt,central
+government_agency,"Embassy of the United States, Kyiv",https://ua.usembassy.gov/,ua.usembassy.gov,central
+university,Ukrainian Academy of Banking of the National Bank of Ukraine,http://www.uabs.edu.ua/,uabs.edu.ua,university
+government_agency,Ukrainian Book Institute,https://ubi.org.ua/uk,ubi.org.ua,
+government_agency,Ukrainian Book Institute,https://ubi.org.ua/en,ubi.org.ua,
+constitutional_court,Ukrainian Cultural Foundation,https://ucf.in.ua/,ucf.in.ua,central
+government_agency,Ukrainian Cultural Foundation,https://ucf.in.ua/,ucf.in.ua,central
+university,Uman National University of Horticulture,http://www.udau.edu.ua,udau.edu.ua,university
+university,Ukrainian State University of Chemical Engineering,http://udhtu.com.ua/,udhtu.com.ua,university
+university,Pavlo Tychyna Uman State Pedagogical University,http://udpu.edu.ua/,udpu.edu.ua,university
+government_agency,Q19348734,http://ugarove.rada.org.ua/,ugarove.rada.org.ua,
+government_agency,Ukrainian Institute,https://ui.org.ua/,ui.org.ua,
+university,Ukrainian Engineering Pedagogics Academy,http://uipa.edu.ua/,uipa.edu.ua,university
+university,Q4479336,http://uipavart.xirad.ru/,uipavart.xirad.ru,university
+university,National University of Kyiv-Mohyla Academy,https://ukma.edu.ua,ukma.edu.ua,university
+government_agency,Ukrainian Admission Center,http://ukraine.admission.center/,ukraine.admission.center,
+government_agency,"Embassy of Germany, Kyiv",https://ukraine.diplo.de/,ukraine.diplo.de,central
+government_agency,"Embassy of Armenia, Kyiv",http://ukraine.mfa.am,ukraine.mfa.am,central
+government_agency,"Embassy of Russia, Kyiv",https://ukraine.mid.ru/,ukraine.mid.ru,central
+government_agency,"Embassy of Denmark, Kyiv",http://ukraine.um.dk/,ukraine.um.dk,central
+government_agency,Ukrinform,https://www.ukrinform.ua,ukrinform.ua,central
+government_agency,"State Enterprise ""Ukrainian Scientific Railway Car Building Research Institute""",https://ukrndiv.com.ua,ukrndiv.com.ua,
+government_agency,Ukrainian Institute of Industrial Property,https://ukrpatent.org/uk,ukrpatent.org,
+government_agency,Ukrainian Institute of Industrial Property,https://ukrpatent.org/en,ukrpatent.org,
+university,American-Ukrainian School of Computer Sciences and Technologies,http://www.umcs.maine.edu/~aus,umcs.maine.edu,university
+university,First Ukrainian maritime institute,http://www.umi.com.ua/,umi.com.ua,university
+university,Ukrainian Medical And Dental Academy,http://www.umsa.edu.ua/,umsa.edu.ua,university
+university,Poltava State Medical University,http://umsa.edu.ua,umsa.edu.ua,university
+university,University of Customs and Finance,http://umsf.dp.ua/,umsf.dp.ua,university
+university,University of Customs and Finance,http://umsf.dp.ua,umsf.dp.ua,university
+government_agency,Consulate General of Hungary in Uzhhorod,https://ungvar.mfa.gov.hu/,ungvar.mfa.gov.hu,
+university,National University of Physical Education and Sport of Ukraine,https://uni-sport.edu.ua/,uni-sport.edu.ua,university
+university,National University of Internal Affairs,http://www.univd.edu.ua/,univd.edu.ua,university
+university,Ukrainian Medical Dental Academy,http://www.unmsa.com,unmsa.com,university
+university,Ukrainian State University of Science and Technologies,https://ust.edu.ua/,ust.edu.ua,university
+university,Dnipro Institute of Infrastructure and Transport,https://ust.edu.ua/,ust.edu.ua,university
+government_agency,"Embassy of Uzbekistan, Kyiv",http://www.uzbekistan.org.ua/,uzbekistan.org.ua,central
+university,Uzhhorod National University,https://www.uzhnu.edu.ua/uk/,uzhnu.edu.ua,university
+university,Uzhhorod National University,https://www.uzhnu.edu.ua/en,uzhnu.edu.ua,university
+university,Uzhhorod National University,http://www.uzhnu.edu.ua/en/affiliations=,uzhnu.edu.ua,university
+government_agency,Velyki Birky Town Counsil,http://v-birky.rada.org.ua/,v-birky.rada.org.ua,
+government_agency,Q20074321,http://vasylkiv.org,vasylkiv.org,
+government_agency,Velykyi Burluk settlement council,http://vel-burlyk.rada.org.ua/,vel-burlyk.rada.org.ua,
+parliament,Q12088401,http://velikabilozerka.rada.org.ua/,velikabilozerka.rada.org.ua,
+government_agency,Velyka Bahachka hromada,http://velyka-bagachka.rada.org.ua/,velyka-bagachka.rada.org.ua,
+parliament,Q12088899,http://verhovyna-rada.at.ua/,verhovyna-rada.at.ua,
+government_agency,Q20074521,http://veselynove.rada.org.ua/,veselynove.rada.org.ua,
+government_agency,"Embassy of Vietnam, Kyiv",http://www.vietnamembassy-ukraine.org,vietnamembassy-ukraine.org,central
+parliament,Q96323944,http://www.vijvarada.volyn.ua/,vijvarada.volyn.ua,
+parliament,Q12093264,http://vilnyanska.rayrada.org.ua/,vilnyanska.rayrada.org.ua,
+parliament,Q20074608,http://visokopilsk-rada.ks.ua/,visokopilsk-rada.ks.ua,
+university,Poltava Military Institute of Communication,http://viti.edu.ua/index.php,viti.edu.ua,university
+university,Open International University of Human Development “Ukraine”,http://www.vmurol.com.ua/,vmurol.com.ua,university
+university,Vinnytsia National Medical University. M. I. Pirogov,https://vnmu.edu.ua/,vnmu.edu.ua,university
+university,Vinnytsia National Medical University. M. I. Pirogov,http://vnmu.vn.ua,vnmu.vn.ua,university
+university,Vinnytsia National Technical University,http://vntu.edu.ua/,vntu.edu.ua,university
+university,Lesya Ukrainka Volyn National University,https://vnu.edu.ua,vnu.edu.ua,university
+government_agency,Q20074736,http://www.volodymyrets-rada.com/,volodymyrets-rada.com,
+government_agency,Q20074740,http://volodymyrivska.rada.org.ua/,volodymyrivska.rada.org.ua,
+government_agency,Q4124205,http://vovchmr.kh.ua,vovchmr.kh.ua,
+parliament,Q20074712,http://www.voznesensk.org,voznesensk.org,local
+parliament,Q51755396,http://vprr.org.ua,vprr.org.ua,
+university,Vinnytsia Institute of Economics and Social Sciences,http://www.vsei.vn.ua,vsei.vn.ua,university
+university,Vinnytsia State Pedagogical University,http://www.vspu.edu.ua/,vspu.edu.ua,university
+university,West Ukrainian National University,https://wunu.edu.ua,wunu.edu.ua,university
+government_agency,Q12083768,http://ww2.gov.if.ua/bolehivskiy/,ww2.gov.if.ua,
+parliament,Q94699063,http://xn--h1aahjhy.xn--j1amh/index.php,xn--h1aahjhy.xn--j1amh,
+university,Kharkiv College of Textile and Design,http://www.xtt.kharkov.ua/,xtt.kharkov.ua,university
+government_agency,Q20096789,http://yabluniv.kosiv.net,yabluniv.kosiv.net,
+parliament,Orativskyi Raion,http://yakimivka.rada.org.ua/,yakimivka.rada.org.ua,
+government_agency,Q4537732,http://yampil.rada.org.ua/,yampil.rada.org.ua,
+government_agency,Q20096813,http://yampmrada.com.ua/,yampmrada.com.ua,
+government_agency,Yasynuvata City Council,http://www.yasinovataya.org.ua/press/184/,yasinovataya.org.ua,
+government_agency,Q20096770,http://yujnoukrainsk.mk.ua,yujnoukrainsk.mk.ua,
+university,Yalta University of Management,http://www.yum.edu.ua/,yum.edu.ua,university
+government_agency,Q20076820,http://www.z-rada.blogspot.com,z-rada.blogspot.com,
+university,Zaporizhzhia Lyceum with enhanced military physical training,http://zahisnik.at.ua/,zahisnik.at.ua,university
+university,Transcarpathian State University,http://www.zakdu.edu.ua/,zakdu.edu.ua,university
+government_agency,Zaliztsi Town Сouncil,http://zalizci.rada.org.ua/,zalizci.rada.org.ua,
+government_agency,Q12105640,http://zaliznychne.rada.org.ua/,zaliznychne.rada.org.ua,
+parliament,Q100235469,http://zarrada.org/,zarrada.org,
+parliament,Q20077107,http://zborivrayrada.org.ua/,zborivrayrada.org.ua,
+government_agency,Q20076763,http://zdn.esy.es,zdn.esy.es,
+parliament,Q100565356,http://zdolbrada.rv.ua/,zdolbrada.rv.ua,
+government_agency,Q20077156,http://zelenovka.org.ua/,zelenovka.org.ua,
+university,Classic Private University,http://www.zhu.edu.ua/index.rus.html,zhu.edu.ua,university
+parliament,Q16699211,http://zhydachivrairada.com.ua/,zhydachivrairada.com.ua,
+university,Zaporizhzhia Medical Academy of Post-Graduate Education Ministry of Health of Ukraine,http://www.zmapo.edu.ua,zmapo.edu.ua,university
+government_agency,Q20077259,http://zmr.org.ua,zmr.org.ua,
+government_agency,Q4192959,http://znob-nov.sb-rada.org.ua/,znob-nov.sb-rada.org.ua,
+university,Zaporizhzhia National University,https://www.znu.edu.ua/frontpage/3594.eng.html,znu.edu.ua,university
+university,Engineering Institute of Zaporizhzhia National University,https://www.znu.edu.ua/ukr/university/11929,znu.edu.ua,university
+university,Zaporizhzhia National University,https://www.znu.edu.ua/,znu.edu.ua,university
+university,"National University ""Zaporizhzhia Polytechnic""",https://zp.edu.ua/,zp.edu.ua,university
+university,Zhytomyr State Technological University,https://ztu.edu.ua/,ztu.edu.ua,university
+university,Zhytomyr State Technological University,https://ztu.edu.ua/en/,ztu.edu.ua,university
+government_agency,Q4194211,http://zubani.rada.org.ua/,zubani.rada.org.ua,
+government_agency,Q17095248,http://довбиська-рада.укр,довбиська-рада.укр,

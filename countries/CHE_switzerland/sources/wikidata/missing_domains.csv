@@ -1,61 +1,558 @@
 type,label,website,hostname,level
 parliament,Grand Council of Aargau,https://www.ag.ch/grossrat/grweb/,ag.ch,central-1
+government_agency,Department of Health and Social Affairs (Aargau),https://www.ag.ch/de/verwaltung/dgs,ag.ch,
+government_agency,Verwaltungsgericht des Kantons Aargau,https://www.ag.ch/de/gerichte/obergericht/verwaltungsgericht/verwaltungsgericht.jsp,ag.ch,
+government_agency,"Department of Construction, Transport and Environment (Aargau)",https://www.ag.ch/de/verwaltung/bvu,ag.ch,
 supreme_court,Grand Council of Aargau,https://www.ag.ch/grossrat/grweb/,ag.ch,central-1
+government_agency,Department of Economics and Home Affairs (Aargau),https://www.ag.ch/de/verwaltung/dvi,ag.ch,
+government_agency,"Departement Bildung, Kultur und Sport",https://www.ag.ch/de/bks/bks.jsp,ag.ch,
+government_agency,Cantonal archaeology Aargau,https://www.ag.ch/de/bks/kultur/archaeologie_denkmalpflege/archaeologie/archaeologie.jsp,ag.ch,
+government_agency,Departement Gesundheit und Soziales,https://www.ag.ch/de/dgs/dgs.jsp,ag.ch,
+government_agency,Department of Finance and Resources (Aargau),https://www.ag.ch/de/verwaltung/dfr,ag.ch,
+government_agency,Monument Preservation Service of the Canton of Aargau,https://www.ag.ch/de/verwaltung/bks/kultur/kulturpflege/denkmalpflege,ag.ch,
+government_agency,State Chancellery (Aargau),https://www.ag.ch/de/verwaltung/sk,ag.ch,
+government_agency,"Department of Education, Culture and Sport (Aargau)",https://www.ag.ch/de/verwaltung/bks,ag.ch,
+government_agency,Cantonal police of the canton of Aargau,https://www.ag.ch/de/verwaltung/dvi/kantonspolizei___neu__/teaser_startseite.jsp,ag.ch,central-1
 parliament,Landsgemeinde Appenzell Innerrhoden,https://www.ai.ch/politik/landsgemeinde,ai.ch,
+government_agency,Q27479493,https://www.ai.ch/,ai.ch,
+government_agency,Grand Council of Appenzell Innerrhoden,https://www.ai.ch/politik/grosser-rat,ai.ch,central-1
+government_agency,Q113162032,https://www.ai.ch/verwaltung/erziehungsdepartement,ai.ch,central-1
+government_agency,Q113162128,https://www.ai.ch/verwaltung/gesundheits-und-sozialdepartement,ai.ch,central-1
 parliament,Grand Council of Appenzell Innerrhoden,https://www.ai.ch/politik/grosser-rat,ai.ch,central-1
+government_agency,Q113162110,https://www.ai.ch/verwaltung/finanzdepartement,ai.ch,central-1
+government_agency,Q113162139,https://www.ai.ch/verwaltung/justiz-polizei-und-militaerdepartement,ai.ch,central-1
+government_agency,Q113162177,https://www.ai.ch/verwaltung/land-und-forstwirtschaftsdepartement,ai.ch,central-1
+government_agency,Q113162196,https://www.ai.ch/verwaltung/volkwirtschaftsdepartement,ai.ch,central-1
+government_agency,Q113161982,https://www.ai.ch/verwaltung/ratskanzlei,ai.ch,central-1
+government_agency,Q113162005,https://www.ai.ch/verwaltung/bau-und-umweltdepartement,ai.ch,central-1
 supreme_court,Grand Council of Appenzell Innerrhoden,https://www.ai.ch/politik/grosser-rat,ai.ch,central-1
+government_agency,Liechtensteinisches Landesarchiv,http://www.aku.llv.li,aku.llv.li,
 parliament,Q114859480,https://www.allschwil.ch/en/politics/,allschwil.ch,local
 supreme_court,Q114859480,https://www.allschwil.ch/en/politics/,allschwil.ch,local
 parliament,Q114859480,https://www.allschwil.ch/de/politik/einwohnerrat/,allschwil.ch,local
 supreme_court,Q114859480,https://www.allschwil.ch/de/politik/einwohnerrat/,allschwil.ch,local
+government_agency,embassy of Burkina Faso to Switzerland,http://www.ambaburkinafaso-ch.org/,ambaburkinafaso-ch.org,central
+government_agency,"Embassy of Cameroon, Bern",http://www.ambacamberne.ch,ambacamberne.ch,central
+government_agency,"Embassy of Kosovo, Bern",https://ambasadat.net/Zvicer/,ambasadat.net,central
+government_agency,"Embassy of Algeria, Bern",https://ambassade-algerie.ch/,ambassade-algerie.ch,central
+government_agency,embassy of Chad to Switzerland,http://www.ambassade-mission-tchad.ch,ambassade-mission-tchad.ch,central
+government_agency,embassy of Niger to Switzerland,http://www.ambassade-niger-geneve.net/,ambassade-niger-geneve.net,central
+university,American College of Switzerland,http://www.american-college.com/front_content.php,american-college.com,university
+government_agency,Q113156945,https://www.ar.ch/verwaltung/departement-finanzen/,ar.ch,central-1
 supreme_court,Cantonal Council of Appenzell Ausserrhoden,https://www.ar.ch/kantonsrat/,ar.ch,central-1
+government_agency,Q113156957,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/,ar.ch,central-1
+government_agency,Q113156951,https://www.ar.ch/verwaltung/departement-bildung-und-kultur/,ar.ch,central-1
+government_agency,Cantonal Council of Appenzell Ausserrhoden,https://www.ar.ch/kantonsrat/,ar.ch,central-1
+government_agency,Q113156931,https://www.ar.ch/verwaltung/kantonskanzlei/,ar.ch,central-1
+government_agency,Q113156962,https://www.ar.ch/verwaltung/departement-bau-und-volkswirtschaft/,ar.ch,central-1
 parliament,Cantonal Council of Appenzell Ausserrhoden,https://www.ar.ch/kantonsrat/,ar.ch,central-1
+government_agency,Q56704506,https://www.ar.ch/verwaltung/departement-inneres-und-sicherheit/kantonspolizei/,ar.ch,central-1
+university,ETH Zurich Faculty of Architecture,http://www.arch.ethz.ch/,arch.ethz.ch,university
+government_agency,Archaeology Baselland,https://www.archaeologie.bl.ch,archaeologie.bl.ch,
+government_agency,Archäologische Bodenforschung Basel-Stadt,http://www.archaeologie.bs.ch/,archaeologie.bs.ch,
+government_agency,Archaeological Service of the Grisons,https://www.archaeologie.gr.ch,archaeologie.gr.ch,
+government_agency,Office for Archaeology of the canton of Thurgau,https://archaeologie.tg.ch,archaeologie.tg.ch,
+government_agency,Q3685879,https://www.arcobaleno.ch,arcobaleno.ch,
+government_agency,Building Department Kanton Zürich,http://www.are.zh.ch/internet/baudirektion/are/de/home.html,are.zh.ch,central-1
+government_agency,Q27480036,http://www.are.zh.ch/internet/baudirektion/are/de/archaeologie/archaeologie.html,are.zh.ch,
+government_agency,Swiss Armed Forces,https://www.armee.ch/,armee.ch,
+university,Military Academy at ETH Zurich,http://www.armee.ch/milak,armee.ch,university
+government_agency,Armed Forces Pharmacy,https://www.armeeapotheke.ch,armeeapotheke.ch,
+university,Swiss Hotel Schools Association,http://www.aseh.ch,aseh.ch,university
+university,American University in Switzerland,http://www.auis.ch,auis.ch,university
+government_agency,Abwasserverband Altenrhein,http://www.ava-altenrhein.ch/,ava-altenrhein.ch,
+government_agency,Q113156754,https://www.baselland.ch/politik-und-behorden/direktionen/finanz-und-kirchendirektion,baselland.ch,central-1
+government_agency,Q113156709,https://www.baselland.ch/politik-und-behorden/gerichte,baselland.ch,central-1
+government_agency,"Education, Culture and Sports Directorate of Canton Basel-Landschaft",https://www.baselland.ch/politik-und-behorden/direktionen/bildungs-kultur-und-sportdirektion,baselland.ch,central-1
+government_agency,Q113156759,https://www.baselland.ch/politik-und-behorden/direktionen/sicherheitsdirektion,baselland.ch,central-1
 parliament,Landrat of Basel-Landschaft,https://www.baselland.ch/politik-und-behorden/landrat-parlament,baselland.ch,central-1
+government_agency,Landrat of Basel-Landschaft,https://www.baselland.ch/politik-und-behorden/landrat-parlament,baselland.ch,central-1
 supreme_court,Landrat of Basel-Landschaft,https://www.baselland.ch/politik-und-behorden/landrat-parlament,baselland.ch,central-1
+government_agency,Q113156719,https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion,baselland.ch,central-1
+government_agency,Monument Preservation Service of the Canton of Basel-Landschaft,https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/raumplanung/denkmalpflege,baselland.ch,
+government_agency,Q113156765,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion,baselland.ch,central-1
+university,Benedict International Education Group,http://www.benedict.ch/,benedict.ch,university
+university,Benedict Schools,http://www.benedict.ch/,benedict.ch,university
+government_agency,Gesundheitsdienst,http://www.bern.ch/politik-und-verwaltung/stadtverwaltung/bss/gesundheitsdienst,bern.ch,
+government_agency,fire department Bern,https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/feuerwehr-zivilschutz-und-quartieramt/feuerwehr-der-stadt-bern,bern.ch,local
+government_agency,Monument Preservation Service of the City of Bern,https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/prd/denkmalpflege,bern.ch,
+government_agency,Stadtgrün Bern,https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/tvs/stadtgrun-bern,bern.ch,
+government_agency,Embassy of Germany Bern,https://bern.diplo.de/,bern.diplo.de,central
+government_agency,Embassy of Romania in Bern,https://bern.mae.ro,bern.mae.ro,central
+government_agency,Embassy of Hungary in Bern,https://bern.mfa.gov.hu,bern.mfa.gov.hu,central
+government_agency,"Embassy of Slovenia, Bern",http://www.bern.veleposlanistvo.si/,bern.veleposlanistvo.si,central
+government_agency,Bern Economic Development Agency,https://www.berninvest.be.ch/berninvest/en/index.html,berninvest.be.ch,
+government_agency,Federal Supreme Court of Switzerland,https://www.bger.ch/,bger.ch,central
 supreme_court,Q137886745,https://www.biel-bienne.ch/fr/conseil-ville.html/746,biel-bienne.ch,local
 parliament,Q137886745,https://www.biel-bienne.ch/fr/conseil-ville.html/746,biel-bienne.ch,local
+university,Biozentrum University of Basel,http://www.biozentrum.unibas.ch,biozentrum.unibas.ch,university
+government_agency,Institut für Rechtsmedizin der Universität Basel,https://www.bs.ch/gd/irm,bs.ch,
+university,Basel School of Business,http://www.bsob.ch,bsob.ch,university
+government_agency,Federal Criminal Court of Switzerland,http://www.bstger.ch/,bstger.ch,central
+government_agency,Office of the Attorney General of Switzerland,https://www.bundesanwaltschaft.ch/mpc/en/home.html,bundesanwaltschaft.ch,
+government_agency,Office of the Attorney General of Switzerland,https://www.bundesanwaltschaft.ch/mpc/de/home.html,bundesanwaltschaft.ch,
+government_agency,Office of the Attorney General of Switzerland,https://www.bundesanwaltschaft.ch/mpc/fr/home.html,bundesanwaltschaft.ch,
+government_agency,Office of the Attorney General of Switzerland,https://www.bundesanwaltschaft.ch/mpc/it/home.html,bundesanwaltschaft.ch,
+government_agency,Q113082790,https://www.bvd.bs.ch/,bvd.bs.ch,central-1
+government_agency,Federal Administrative Court,http://www.bvger.ch/,bvger.ch,
+government_agency,Q2993819,http://www.caf-bienne.ch/index.php?id=41,caf-bienne.ch,
+government_agency,embassy of Cambodia to Switzerland,http://cambodiaembassy.ch,cambodiaembassy.ch,central
+government_agency,Q23977985,http://www.ccif.ch,ccif.ch,
+government_agency,Q56289707,http://www.cdc-ge.ch/,cdc-ge.ch,central-1
+university,Centre européen de calcul atomique et moléculaire,http://www.cecam.org/,cecam.org,university
+university,César Ritz Colleges,https://www.cesarritzcolleges.edu/,cesarritzcolleges.edu,university
+government_agency,"Embassy of France, Bern",https://ch.ambafrance.org/,ch.ambafrance.org,central
+government_agency,embassy of Lithuania in Switzerland,https://ch.mfa.lt/,ch.mfa.lt,central
+government_agency,"Embassy of the United States, Bern",https://ch.usembassy.gov/,ch.usembassy.gov,central
+government_agency,Q2992929,https://www.ciip.ch/,ciip.ch,
+government_agency,Secretariat of the Convention on International Trade in Endangered Species of Wild Fauna and Flora,https://cites.org/eng/disc/sec/index.php,cites.org,
+government_agency,Big Custom House,https://daziogrande.ch,daziogrande.ch,
+government_agency,Department of Construction and Environment (Thurgau),https://dbu.tg.ch/,dbu.tg.ch,
+government_agency,Departement für Erziehung und Kultur,https://dek.tg.ch/,dek.tg.ch,
+government_agency,Department of Education and Culture (Thurgau),https://dek.tg.ch/#js-accordion_control--00,dek.tg.ch,
+government_agency,Swiss Agency for Development and Cooperation,http://www.deza.ch/,deza.ch,
+government_agency,Department of Finance and Social Affairs (Thurgau),https://dfs.tg.ch/,dfs.tg.ch,
+government_agency,Department of the Interior and National Economy (Thurgau),https://div.tg.ch/,div.tg.ch,
+government_agency,embassy of Djibouti to Switzerland,http://www.djibouti.ch,djibouti.ch,central
+government_agency,Department of Justice and Security (Thurgau),https://djs.tg.ch/,djs.tg.ch,
+government_agency,Q113083517,https://www.dsb.bs.ch/,dsb.bs.ch,
+government_agency,Q114896443,https://www.dtap.ch/fr/dtap,dtap.ch,
+government_agency,Department of Education Basel-Stadt,http://www.ed.bs.ch/,ed.bs.ch,
+government_agency,Swiss Conference of Cantonal Ministers of Education,https://www.edk.ch/,edk.ch,
+government_agency,Delegation of the European Union to Switzerland and Liechtenstein,https://www.eeas.europa.eu/delegations/svizzera_it,eeas.europa.eu,
+government_agency,Delegation of the European Union to the UN and other international organisations in Geneva,https://eeas.europa.eu/delegations/un-geneva_en,eeas.europa.eu,
+government_agency,Permanent Mission of the European Union to the World Trade Organization,https://eeas.europa.eu/delegations/world-trade-organization-wto_en,eeas.europa.eu,local
+government_agency,Delegation of the European Union to Switzerland and Liechtenstein,https://www.eeas.europa.eu/delegations/switzerland_en,eeas.europa.eu,
+government_agency,Delegation of the European Union to Switzerland and Liechtenstein,https://www.eeas.europa.eu/delegations/suisse_fr,eeas.europa.eu,
+government_agency,Delegation of the European Union to Switzerland and Liechtenstein,https://www.eeas.europa.eu/delegations/schweiz_de,eeas.europa.eu,
+government_agency,Swiss Federal University for Vocational Education and Training,https://www.ehb.swiss/,ehb.swiss,
+university,École Hôtelière de Genève,https://www.ehg.ch,ehg.ch,university
+government_agency,"Embassy of Peru, Bern",https://www.embaperu.ch,embaperu.ch,central
+government_agency,ENSI Board,https://www.ensi-rat.ch/en/,ensi-rat.ch,
+government_agency,ENSI Board,https://www.ensi-rat.ch,ensi-rat.ch,
+government_agency,Swiss Federal Nuclear Safety Inspectorate,https://www.ensi.ch/fr/,ensi.ch,
+government_agency,Swiss Federal Nuclear Safety Inspectorate,https://www.ensi.ch/de/,ensi.ch,
+university,Swiss Federal Institute of Technology in Lausanne,https://www.epfl.ch/,epfl.ch,university
+government_agency,Abteilung Bildungsplanung und Evaluation,http://www.erz.be.ch/erz/de/index/direktion/organisation/generalsekretariat/bildungsplanung_und-evaluation1.html,erz.be.ch,
+government_agency,ETH Board,https://ethrat.ch/fr/,ethrat.ch,
+government_agency,ETH Domain,https://ethrat.ch,ethrat.ch,
+government_agency,ETH Board,http://www.ethrat.ch/en,ethrat.ch,
+government_agency,ETH Board,https://ethrat.ch,ethrat.ch,
+government_agency,ETH Board,https://ethrat.ch/de/,ethrat.ch,
+university,ETH Zurich,https://www.ethz.ch/,ethz.ch,university
+university,EU Business School,https://www.euruni.edu,euruni.edu,university
+government_agency,"Government Delegation of the Generalitat, Geneva",http://exteriors.gencat.cat/ca/ambits-dactuacio/afers_exteriors/delegacions_govern/suissa/,exteriors.gencat.cat,central
+government_agency,Q113083136,https://www.fd.bs.ch/,fd.bs.ch,
+government_agency,Federal Office of Police,http://www.fedpol.ch,fedpol.ch,
+government_agency,Feuerwehr Winterthur,http://www.feuerwehr.winterthur.ch,feuerwehr.winterthur.ch,
+government_agency,Office for equality between women and men,http://www.ffg.zh.ch/internet/justiz_inneres/ffg/de/home.html,ffg.zh.ch,
+university,University of Applied Sciences of the Grisons,https://www.fhgr.ch,fhgr.ch,university
+university,University of Applied Sciences Northwestern Switzerland,https://www.fhnw.ch/,fhnw.ch,university
+government_agency,Q113083547,https://www.finanzkontrolle.bs.ch/,finanzkontrolle.bs.ch,
+government_agency,"Embassy of Finland, Bern",https://finlandabroad.fi/web/che,finlandabroad.fi,central
+government_agency,"Permanent Mission of Finland to the United Nations, Geneva",https://finlandabroad.fi/web/geneve/,finlandabroad.fi,
+government_agency,Financial Market Supervisory Authority,https://www.finma.ch/de/finma-public/bewilligte-institute-personen-und-produkte/,finma.ch,central
+government_agency,Financial Market Supervisory Authority,http://www.finma.ch,finma.ch,central
+government_agency,Permanent Mission of Denmark to the UN in Geneve,https://fngeneve.um.dk,fngeneve.um.dk,
+government_agency,Permanent Mission of Denmark to the UN in Geneve,https://fngeneve.um.dk/en,fngeneve.um.dk,
 parliament,Grand Council of Fribourg,https://www.fr.ch/gc,fr.ch,central-1
+government_agency,Service de la Santé Publique,http://www.fr.ch/ssp/fr/pub/index.cfm,fr.ch,
+government_agency,Grand Council of Fribourg,https://www.fr.ch/de/gr,fr.ch,central-1
+government_agency,Q113032869,https://www.fr.ch/de/bkad,fr.ch,central-1
+government_agency,Q113033049,https://www.fr.ch/de/ilfd,fr.ch,central-1
+government_agency,Q113033091,https://www.fr.ch/de/vwbd,fr.ch,central-1
 supreme_court,Grand Council of Fribourg,https://www.fr.ch/de/gr,fr.ch,central-1
 supreme_court,Grand Council of Fribourg,https://www.fr.ch/gc,fr.ch,central-1
+government_agency,Direction de la Sécurité et de la Justice,http://www.fr.ch/dsj/fr/pub/index.cfm,fr.ch,
+government_agency,Q113033177,https://www.fr.ch/de/find,fr.ch,central-1
+government_agency,Grand Council of Fribourg,https://www.fr.ch/gc,fr.ch,central-1
+government_agency,Q76652408,https://www.fr.ch/etat-et-droit/statistiques/renseignements-aupres-du-service-de-la-statistique,fr.ch,
+government_agency,Service de l'Enfance et de la Jeunesse,http://www.fr.ch/sej/fr/pub/index.cfm,fr.ch,
+government_agency,Q113032988,https://www.fr.ch/de/sjsd,fr.ch,central-1
+government_agency,Q76652408,https://www.fr.ch/de/staat-und-recht/statistik/auskunft-beim-amt-fuer-statistik,fr.ch,
 parliament,Grand Council of Fribourg,https://www.fr.ch/de/gr,fr.ch,central-1
+government_agency,Q113033341,https://www.fr.ch/de/sk,fr.ch,
+government_agency,Caisse de Prévoyance du Personnel de l'Etat de Fribourg,http://www.fr.ch/cppef/fr/pub/index.cfm,fr.ch,
+government_agency,Frimobil,https://frimobil.ch/de/,frimobil.ch,
+government_agency,Frimobil,https://frimobil.ch,frimobil.ch,
+university,Geneva Business School,http://www.gbs-ge.ch,gbs-ge.ch,university
+government_agency,Health Department of the Canton of Basel-Stadt,http://www.gd.bs.ch/,gd.bs.ch,
+government_agency,Department of Health Canton of Zurich,https://gd.zh.ch/internet/gesundheitsdirektion/en/home.html,gd.zh.ch,central-1
+government_agency,Swiss Conference of the Cantonal Ministers of Public Health,https://www.gdk-cds.ch,gdk-cds.ch,
+government_agency,Infrastructure Department (Geneva),https://www.ge.ch/organisation/departement-infrastructures-di,ge.ch,
+government_agency,"Department of Security, Population and Health (Geneva)",https://www.ge.ch/organisation/departement-securite-population-sante-dsps,ge.ch,
+government_agency,Service de la recherche éducation,https://www.ge.ch/sred/,ge.ch,
+government_agency,"Department of Public Instruction, Training and Youth (Geneva)",https://www.ge.ch/organisation/departement-instruction-publique-formation-jeunesse-dip,ge.ch,
+government_agency,Q27481263,http://www.ge.ch/patrimoine/sca/welcome.asp,ge.ch,
+government_agency,State Chancellery (Geneva),https://www.ge.ch/organisation/chancellerie-etat,ge.ch,
+government_agency,Geneva Finance and Human Resources Department,https://www.ge.ch/organisation/departement-finances-ressources-humaines-df,ge.ch,
 parliament,Grand Council of Geneva,https://ge.ch/grandconseil/,ge.ch,central-1
+government_agency,Office Médico Pédagogique,https://www.ge.ch/omp/,ge.ch,
+government_agency,Genève Lab,https://www.ge.ch/dossier/geneve-lab,ge.ch,
+government_agency,Department of Economy and Employment (Geneva),https://www.ge.ch/organisation/departement-economie-emploi-dee,ge.ch,
+government_agency,Direction Générale de l'Enseignement Obligatoire - Enseignement Primaire,https://www.ge.ch/primaire/organisation.asp,ge.ch,
+government_agency,Territory Department (Geneva),https://www.ge.ch/organisation/departement-du-territoire-dt,ge.ch,
+government_agency,Department of Social Cohesion (Geneva),https://www.ge.ch/organisation/departement-cohesion-sociale-dcs,ge.ch,
 supreme_court,Grand Council of Geneva,https://ge.ch/grandconseil/,ge.ch,central-1
+government_agency,Regierungskonferenz der Gebirgskantone,https://www.gebirgskantone.ch/,gebirgskantone.ch,
+government_agency,Gesundheits- und Fürsorgedirektion des Kantons Bern,https://www.gef.be.ch/,gef.be.ch,
 parliament,Zurich City Parliament,http://www.gemeinderat-zuerich.ch/,gemeinderat-zuerich.ch,local
 supreme_court,Zurich City Parliament,http://www.gemeinderat-zuerich.ch/,gemeinderat-zuerich.ch,local
 supreme_court,Winterthur Municipal Council,https://gemeinderat.winterthur.ch/,gemeinderat.winterthur.ch,local
 parliament,Winterthur Municipal Council,https://gemeinderat.winterthur.ch/,gemeinderat.winterthur.ch,local
+government_agency,embassy of Mongolia in Switzerland,https://www.geneva.embassy.mn,geneva.embassy.mn,central
+government_agency,"Embassy of Afghanistan, Geneva",https://www.geneva.mfa.af,geneva.mfa.af,central
+government_agency,U.S. Mission to International Organizations in Geneva,https://geneva.usmission.gov/,geneva.usmission.gov,
+university,Geneva School of Diplomacy and International Relations,http://www.genevadiplomacy.com,genevadiplomacy.com,university
+government_agency,Police Cantonale de Genève,https://www.geneve.ch/police/,geneve.ch,
+government_agency,consulat général de France à Genève,https://geneve.consulfrance.org,geneve.consulfrance.org,central-1
+government_agency,Q111203843,https://genf-cd.diplo.de/,genf-cd.diplo.de,
+government_agency,Permanent Mission of Germany to the United Nations in Genava,https://genf-io.diplo.de/,genf-io.diplo.de,
+government_agency,Gerichte Zürich,http://www.gerichte-zh.ch/organisation/handelsgericht.html,gerichte-zh.ch,
+government_agency,Zurich district court,http://www.gerichte-zh.ch/organisation/bezirksgerichte/bezirksgericht-zuerich.html,gerichte-zh.ch,central-1
+government_agency,Q113082411,https://www.gerichte.bs.ch/,gerichte.bs.ch,
+university,Geneva Institute for Democracy and Development,http://gidd.eu.org,gidd.eu.org,university
 supreme_court,Landrat of Glarus,https://www.gl.ch/parlament/landrat.html/250,gl.ch,central-1
+government_agency,Q113162685,https://www.gl.ch/,gl.ch,central-1
+government_agency,Q113162767,https://www.gl.ch,gl.ch,central-1
+government_agency,Q113162691,https://www.gl.ch/,gl.ch,central-1
+government_agency,Q113162848,https://www.gl.ch,gl.ch,central-1
+government_agency,Q113162724,https://www.gl.ch,gl.ch,central-1
+government_agency,Q113162707,https://www.gl.ch,gl.ch,central-1
+government_agency,Q113162696,https://www.gl.ch/,gl.ch,central-1
 parliament,Landrat of Glarus,https://www.gl.ch/parlament/landrat.html/250,gl.ch,central-1
+university,Glion Institute of Higher Education,http://www.glion.edu/,glion.edu,university
+government_agency,Q113162384,https://www.gr.ch/DE/institutionen/verwaltung/dfg/ds/Seiten/welcome.aspx,gr.ch,central-1
+government_agency,Q113162391,https://www.gr.ch/DE/institutionen/verwaltung/diem/ds/Seiten/home.aspx,gr.ch,central-1
 parliament,Grand Council of Grisons,https://www.gr.ch/DE/institutionen/parlament/Seiten/GrosserRat.aspx,gr.ch,central-1
+government_agency,Q113162376,https://www.gr.ch/DE/institutionen/verwaltung/ekud/dd/Seiten/welcome.aspx,gr.ch,central-1
+government_agency,Q113162356,https://www.gr.ch/DE/institutionen/verwaltung/STAKA/Seiten/home.aspx,gr.ch,central-1
+government_agency,Q113162362,https://www.gr.ch/DE/institutionen/verwaltung/dvs/ds/Seiten/welcome.aspx,gr.ch,central-1
+government_agency,Grand Council of Grisons,https://www.gr.ch/DE/institutionen/parlament/Seiten/GrosserRat.aspx,gr.ch,central-1
 supreme_court,Grand Council of Grisons,https://www.gr.ch/DE/institutionen/parlament/Seiten/GrosserRat.aspx,gr.ch,central-1
+government_agency,Q113162370,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ds/Seiten/Welcome.aspx,gr.ch,central-1
+government_agency,Amt für Wald und Naturgefahren,https://www.gr.ch/DE/institutionen/verwaltung/bvfd/awn/ueberuns/Seiten/default.aspx,gr.ch,
+university,Geneva Graduate Institute,https://www.graduateinstitute.ch/,graduateinstitute.ch,university
+government_agency,German-Swiss Chamber of Commerce,https://www.handelskammer-d-ch.ch/,handelskammer-d-ch.ch,
+university,Haute école de musique de Genève,http://www.hemge.ch/,hemge.ch,university
+university,Q1591389,https://www.hep-bejune.ch/,hep-bejune.ch,university
+university,Pedagogical University of Fribourg,https://hepfr.ch/,hepfr.ch,university
+university,Q1001137,https://www.hepvs.ch/,hepvs.ch,university
+university,University of Applied Sciences Western Switzerland - Valais,http://www.hevs.ch,hevs.ch,university
+government_agency,Q104233143,https://www.ifa-swiss.ch/,ifa-swiss.ch,
+government_agency,Federal Data Protection and Information Commissioner,http://www.ifpdt.ch,ifpdt.ch,central
+government_agency,Swiss Federal Institute of Intellectual Property,https://www.ige.ch,ige.ch,
+government_agency,regional chamber of commerce Thurgau,https://www.ihk-thurgau.ch/,ihk-thurgau.ch,central-1
+university,International Institute for Management Development,https://www.imd.org/,imd.org,university
+government_agency,Innosuisse,https://www.innosuisse.ch/inno/en/home/about-us/organisation.html,innosuisse.ch,
+government_agency,Innosuisse,https://www.innosuisse.ch/inno/de/home.html,innosuisse.ch,
+government_agency,Innosuisse,https://www.innosuisse.ch/,innosuisse.ch,
+government_agency,Q136912619,https://invia.ch/DE/engadinmobil.html,invia.ch,
+government_agency,International Organization for Migration,https://www.iom.cz/,iom.cz,
+government_agency,International Organization for Migration,https://www.iom.int/fr,iom.int,
+government_agency,International Organization for Migration,https://www.iom.int/es,iom.int,
+government_agency,International Organization for Migration,https://www.iom.int/,iom.int,
+university,International School of Business Management,http://www.isbm-school.com/,isbm-school.com,university
+government_agency,Swiss Institute of Comparative Law,http://www.isdc.ch,isdc.ch,
+university,International University in Geneva,http://www.iug.ch/,iug.ch,university
 constitutional_court,Jesuit Province of Central Europe,https://www.jesuiten.org/,jesuiten.org,
+government_agency,Jesuit Province of Central Europe,https://www.jesuiten.org/,jesuiten.org,
+government_agency,Amt für Gemeinden und Raumordnung,http://www.jgk.be.ch/jgk/de/index/direktion/organisation/agr.html,jgk.be.ch,
+government_agency,Q113083320,https://www.jsd.bs.ch/,jsd.bs.ch,
+government_agency,State Chancellery (Jura),https://www.jura.ch/fr/Autorites/Administration/CHA.html,jura.ch,
+government_agency,"Department of Education, Culture and Sports (Jura)",https://www.jura.ch/fr/Autorites/Administration/DFCS.html,jura.ch,
+government_agency,Interior Department (Jura),https://www.jura.ch/fr/Autorites/Administration/DIN.html,jura.ch,
+government_agency,Department of Economics and Health (Jura),https://www.jura.ch/fr/Autorites/Administration/DES.html,jura.ch,
+government_agency,Finance Department (Jura),https://www.jura.ch/fr/Autorites/Administration/DFI.html,jura.ch,
+government_agency,Archaeology and Paleontology Section of the Canton of Jura,https://www.jura.ch/fr/Autorites/Archeologie/Accueil/Archeologie-et-paleontologie.html,jura.ch,
+government_agency,Environment Department (Jura),https://www.jura.ch/fr/Autorites/Administration/DEN.html,jura.ch,
+government_agency,Q3538851,https://justice.ge.ch/fr/contenu/chambre-des-assurances-sociales,justice.ge.ch,central-1
+government_agency,Q3190187,https://justice.ge.ch/fr/contenu/tribunal-des-prudhommes,justice.ge.ch,central-1
+government_agency,Cantonal police of the canton of Graubünden,http://www.kapo.gr.ch,kapo.gr.ch,central-1
+government_agency,Cantonal police of the canton of St. Gallen,https://www.kapo.sg.ch/,kapo.sg.ch,central-1
+government_agency,Kantonspolizei Zürich,http://www.kapo.zh.ch,kapo.zh.ch,central-1
+government_agency,Q134733195,https://www.kath-tg.ch/de,kath-tg.ch,
+government_agency,Conference of the Cantonal Governments,https://kdk.ch,kdk.ch,
+government_agency,Wirtschaftskammer Baselland,https://www.kmu.org/,kmu.org,
+government_agency,Monument Preservation Service of the Canton of Bern,https://www.kultur.bkd.be.ch/fr/start/themen/denkmalpflege.html,kultur.bkd.be.ch,
+government_agency,Monument Preservation Service of the Canton of Bern,https://www.kultur.bkd.be.ch/de/start/themen/denkmalpflege.html,kultur.bkd.be.ch,
+government_agency,Archaeological Service of the Canton of Bern,https://www.kultur.bkd.be.ch/de/start/themen/archaeologie.html,kultur.bkd.be.ch,
+government_agency,Archaeological Service of the Canton of Bern,https://www.kultur.bkd.be.ch/fr/start/themen/archaeologie.html,kultur.bkd.be.ch,
+government_agency,"Embassy of Kuwait, Bern",http://kuwaitembassy.ch,kuwaitembassy.ch,central
 parliament,Landsgemeinde Glarus,https://www.landsgemeinde.gl.ch,landsgemeinde.gl.ch,
 parliament,Q71801799,https://www.lausanne.ch/officiel/conseil-communal.html,lausanne.ch,local
 supreme_court,Q71801799,https://www.lausanne.ch/officiel/conseil-communal.html,lausanne.ch,local
+university,Les Roches International School of Hotel Management,https://www.lesroches.edu/,lesroches.edu,university
+government_agency,Vagabond,https://www.levagabond.ch/,levagabond.ch,
+university,LRG University of Applied Sciences,http://www.lrguas.ch/les_roches_gruyere/en/en-en/index.cfm?,lrguas.ch,university
+government_agency,Q113041982,https://www.lu.ch/verwaltung/BKD,lu.ch,central-1
 supreme_court,Cantonal Council of Lucerne,http://www.lu.ch/kantonsrat,lu.ch,central-1
 parliament,Cantonal Council of Lucerne,http://www.lu.ch/kantonsrat,lu.ch,central-1
+government_agency,embassy of the Maldives to Switzerland,http://maldivesmission.ch,maldivesmission.ch,central
+government_agency,Federal Institute of Metrology,https://www.metas.ch,metas.ch,
+government_agency,embassy of Bulgaria,https://www.mfa.bg/embassies/switzerland,mfa.bg,central
+government_agency,"Embassy of Greece, Bern",https://www.mfa.gr/switzerland/,mfa.gr,central
+government_agency,Permanent Mission of Iceland in Geneva,https://www.mfa.is/geneva,mfa.is,central
+government_agency,embassy of Mali to Switzerland,http://www.missionmali.ch/,missionmali.ch,central
+government_agency,embassy of Namibia to Switzerland,http://missionofnamibia.ch/,missionofnamibia.ch,central
+government_agency,"Embassy of Senegal, Geneve",http://www.missionsenegal-geneve.org/,missionsenegal-geneve.org,central
+government_agency,Mobilis,http://www.mobilis-vaud.ch/,mobilis-vaud.ch,
+government_agency,"Permanent Mission of the United Arab Emirates to the United Nations, Geneva",https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=5794733c-4002-49b4-9415-4bf92e74bd98,mofaic.gov.ae,
+government_agency,"Embassy of Mozambique, Geneva",https://www.mozambiqueembassy.ch/,mozambiqueembassy.ch,central
+government_agency,Libero-Tarifverbund,https://www.mylibero.ch/de/,mylibero.ch,
+government_agency,Embassy of the Czech Republic in Switzerland,https://www.mzv.cz/bern,mzv.cz,central
+government_agency,"Embassy of Slovakia, Bern",https://www.mzv.sk/web/bern/,mzv.sk,central
+government_agency,Swiss National Museum,https://www.nationalmuseum.ch,nationalmuseum.ch,
+government_agency,Department of Employment and Social Cohesion (Neuchâtel),https://www.ne.ch/autorites/DECS/Pages/accueil.aspx,ne.ch,
+government_agency,"Department of Economy, Security and Culture (Neuchâtel)",https://www.ne.ch/autorites/DESC/Pages/accueil.aspx,ne.ch,
+government_agency,Department of Territorial Development and Environment (Neuchâtel),https://www.ne.ch/autorites/DDTE/Pages/accueil.aspx,ne.ch,
+government_agency,"Department of Training, Digitalization and Sports (Neuchâtel)",https://www.ne.ch/autorites/DFDS/Pages/accueil.aspx,ne.ch,
+government_agency,State Chancellery (Neuchâtel),https://www.ne.ch/autorites/CHAN/Pages/accueil.aspx,ne.ch,
+government_agency,Appellate Court of the Canton of Neuchâtel,https://www.ne.ch/autorites/PJNE/TC/Pages/accueil.aspx,ne.ch,central-1
+government_agency,Department of Finance and Health (Neuchâtel),https://www.ne.ch/autorites/DFS/Pages/accueil.aspx,ne.ch,
+government_agency,"Embassy of Norway, Bern",https://www.norway.no/de/switzerland,norway.no,central
+government_agency,Permanent Missions of Norway to the UN and WTO/EFTA in Geneva,https://www.norway.no/en/missions/wto-un/,norway.no,
+government_agency,Apostolic Nunciature to Switzerland,http://www.nunziatura.ch,nunziatura.ch,central
+government_agency,Q113156959,https://www.nw.ch/,nw.ch,central-1
+government_agency,Q113156979,https://www.nw.ch/,nw.ch,central-1
 supreme_court,Landrat of Nidwalden,https://www.nw.ch/landratmain/2114,nw.ch,central-1
 parliament,Landrat of Nidwalden,https://www.nw.ch/landratmain/2114,nw.ch,central-1
+government_agency,Q113156987,https://www.nw.ch/,nw.ch,central-1
+government_agency,Q113156948,https://www.nw.ch/,nw.ch,central-1
+government_agency,Q113156963,https://www.nw.ch/,nw.ch,central-1
+government_agency,Q113156982,https://www.nw.ch/,nw.ch,central-1
+government_agency,Q113156944,https://www.nw.ch/,nw.ch,central-1
+government_agency,Q113156972,https://www.nw.ch/,nw.ch,central-1
+government_agency,Q113156967,https://www.nw.ch/,nw.ch,central-1
+university,Oeschger Centre for Climate Change Research,https://www.oeschger.unibe.ch/,oeschger.unibe.ch,university
+government_agency,Q113083566,https://www.ombudsstelle.bs.ch/,ombudsstelle.bs.ch,
+government_agency,Onde Verte,http://www.ondeverte.ch/,ondeverte.ch,
+university,EU Business School,https://onlinembadegree.in/online-mba-with-manipal-university-jaipur/,onlinembadegree.in,university
+government_agency,Ostwind,https://www.ostwind.ch,ostwind.ch,
+government_agency,Q113156853,https://www.ow.ch/,ow.ch,central-1
+government_agency,Q113156842,https://www.ow.ch/,ow.ch,central-1
+government_agency,Q113156826,https://www.ow.ch/,ow.ch,central-1
+government_agency,Q113156866,https://www.ow.ch/,ow.ch,central-1
+government_agency,Q113156859,https://www.ow.ch/,ow.ch,central-1
 parliament,Cantonal Council of Obwalden,https://www.ow.ch/de/politik/kantonsratmain/kantonsratview/,ow.ch,central-1
+government_agency,Q113156833,https://www.ow.ch/,ow.ch,central-1
 supreme_court,Cantonal Council of Obwalden,https://www.ow.ch/de/politik/kantonsratmain/kantonsratview/,ow.ch,central-1
+government_agency,Q113156837,https://www.ow.ch/,ow.ch,central-1
+government_agency,Q113156846,https://www.ow.ch/,ow.ch,central-1
 supreme_court,Federal Assembly of Switzerland,https://www.parlament.ch,parlament.ch,central
+government_agency,National Council of Switzerland,https://www.parlament.ch/,parlament.ch,central
+government_agency,Council of States of Switzerland,https://parlament.ch,parlament.ch,central
 parliament,Federal Assembly of Switzerland,https://www.parlament.ch,parlament.ch,central
 parliament,Grand Council of Valais,https://parlement.vs.ch/app/fr/home,parlement.vs.ch,central-1
 supreme_court,Grand Council of Valais,https://parlement.vs.ch/app/fr/home,parlement.vs.ch,central-1
+government_agency,Passepartout,http://www.passepartout.ch,passepartout.ch,
+government_agency,Federal Patent Court of Switzerland,http://www.patentgericht.ch,patentgericht.ch,
+government_agency,Basel-Stadt Presidential Department,https://www.pd.bs.ch/,pd.bs.ch,
+government_agency,Federal Data Protection and Information Commissioner,http://www.pfpdt.ch,pfpdt.ch,central
+government_agency,Cantonal police of the canton of Bern,https://www.police.be.ch/fr/start.html,police.be.ch,central-1
+government_agency,Cantonal police of the canton of Bern,https://www.police.be.ch/,police.be.ch,central-1
+government_agency,Luzerner Polizei,https://polizei.lu.ch/,polizei.lu.ch,central-1
+government_agency,Pro Helvetia,http://www.prohelvetia.ch/,prohelvetia.ch,
+government_agency,Fribourg Development Agency,http://www.promfr.ch/?page_id=24,promfr.ch,
+government_agency,Civil protection of Switzerland,http://www.protectioncivile.ch/,protectioncivile.ch,
+government_agency,PUBLICA,https://publica.ch/,publica.ch,
+government_agency,Q122783031,https://www.repolzurzibiet.ch/,repolzurzibiet.ch,
+university,Russian and Eurasian Security Network,http://www.res.ethz.ch,res.ethz.ch,university
+government_agency,"Permanent Mission of the Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu to the World Trade Organization",https://www.roc-taiwan.org/wto,roc-taiwan.org,
+government_agency,Q100487529,http://www.roc-taiwan.org/ch_en/index.html,roc-taiwan.org,
+government_agency,Q109415086,https://www.roc-taiwan.org/ch/,roc-taiwan.org,
+government_agency,Q100487759,http://www.roc-taiwan.org/chgva_fr/index.html,roc-taiwan.org,
+government_agency,"Embassy of Rwanda, Geneva",https://rwandamission.ch,rwandamission.ch,central
+government_agency,Swiss Academy of Humanities and Social Sciences,https://sagw.ch/sagw/,sagw.ch,
+university,Swiss Association for Private Schools and Universities,http://www.sapsu.org/,sapsu.org,university
+government_agency,SBB Transport Police,https://www.sbb.ch/it/aiuto-e-contatto/prodotti-servizi/altri-servizi/altri-servizi-ffs/polizia-dei-transporti.html,sbb.ch,
+government_agency,Swiss Seismological Service,http://www.seismo.ethz.ch/,seismo.ethz.ch,
+government_agency,Q113162330,https://www.sg.ch/content/sgch/politik-verwaltung/departemente-und-staatskanzlei/sicherheits--und-justizdepartement.html,sg.ch,central-1
+government_agency,Q113162337,https://www.sg.ch/content/sgch/politik-verwaltung/departemente-und-staatskanzlei/gesundheitsdepartement.html,sg.ch,central-1
+government_agency,Cantonal Archaeology St. Gallen,https://www.sg.ch/kultur/archaeologie.html,sg.ch,
+government_agency,Q113162307,https://www.sg.ch/content/sgch/politik-verwaltung/departemente-und-staatskanzlei/bildungsdepartement.html,sg.ch,central-1
+government_agency,Q113162292,https://www.sg.ch/content/sgch/politik-verwaltung/departemente-und-staatskanzlei/volkswirtschaftsdepartement.html,sg.ch,central-1
+government_agency,Q113162300,https://www.sg.ch/content/sgch/politik-verwaltung/departemente-und-staatskanzlei/departement-des-innern.html,sg.ch,central-1
+government_agency,Q113162281,https://www.sg.ch/content/sgch/politik-verwaltung/departemente-und-staatskanzlei/staatskanzlei.html,sg.ch,central-1
+government_agency,Cantonal Council of Sankt Gallen,https://www.sg.ch/politik-verwaltung/kantonsrat.html,sg.ch,central-1
+government_agency,Q113162322,https://www.sg.ch/content/sgch/politik-verwaltung/departemente-und-staatskanzlei/bau--und-umweltdepartement.html,sg.ch,central-1
 supreme_court,Cantonal Council of Sankt Gallen,https://www.sg.ch/politik-verwaltung/kantonsrat.html,sg.ch,central-1
 parliament,Cantonal Council of Sankt Gallen,https://www.sg.ch/politik-verwaltung/kantonsrat.html,sg.ch,central-1
+government_agency,Q113162313,https://www.sg.ch/content/sgch/politik-verwaltung/departemente-und-staatskanzlei/finanzdepartement.html,sg.ch,central-1
+government_agency,Q113156836,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Regierung/Staatskanzlei-2758-DE.html,sh.ch,central-1
+government_agency,Q113156872,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Volkswirtschaftsdepartement-2736-DE.html,sh.ch,central-1
+government_agency,Q113156845,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Baudepartement-2752-DE.html,sh.ch,central-1
+government_agency,Cantonal Archaeology Schaffhausen,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Baudepartement/Amt-f-r-Denkmalpflege-und-Arch-ologie/Kantonsarch-ologie-3608-DE.html,sh.ch,
+government_agency,Q113156858,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Erziehungsdepartement-2750-DE.html,sh.ch,central-1
 parliament,Cantonal Council of Schaffhausen,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Parlament/Der-Kantonsrat-40609-DE.html,sh.ch,central-1
+government_agency,Q113156852,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern-2748-DE.html,sh.ch,central-1
+government_agency,Q113156867,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Finanzdepartement-2738-DE.html,sh.ch,central-1
 supreme_court,Cantonal Council of Schaffhausen,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Parlament/Der-Kantonsrat-40609-DE.html,sh.ch,central-1
+government_agency,Q135560728,https://www.sion.ch/conseilmunicipal/13728,sion.ch,local
 constitutional_court,Q135560728,https://www.sion.ch/conseilmunicipal/13728,sion.ch,local
+university,Schaffhausen Institute of Technology,https://sit.org/,sit.org,university
+government_agency,Staatskanzlei des Kantons Zürich,http://www.sk.zh.ch/internet/staatskanzlei/de/home.html,sk.zh.ch,
+government_agency,Schweizerische Koordinationsstelle für Bildungsforschung,http://www.skbf-csre.ch/en/,skbf-csre.ch,
+government_agency,Swiss National Bank,https://www.snb.ch/,snb.ch,
+government_agency,Q113080949,https://so.ch/verwaltung/bau-und-justizdepartement/,so.ch,
+government_agency,Q113081037,https://so.ch/verwaltung/departement-fuer-bildung-und-kultur/,so.ch,
+government_agency,Q113081771,https://so.ch/verwaltung/volkswirtschaftsdepartement/,so.ch,central-1
+government_agency,Q113081102,https://so.ch/verwaltung/finanzdepartement/,so.ch,central-1
+government_agency,Q113081688,https://so.ch/verwaltung/departement-des-innern/,so.ch,central-1
+government_agency,Cantonal archaeology Solothurn,https://so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-denkmalpflege-und-archaeologie/archaeologie/,so.ch,
+government_agency,"Embassy of South Africa, Bern",http://www.southafrica.ch/,southafrica.ch,central
+government_agency,Sozialamt des Kantons Thurgau,http://www.sozialamt.tg.ch/xml_58/internet/de/intro.cfm,sozialamt.tg.ch,
+government_agency,Q2306001,http://www.sozialversicherungsgericht.zh.ch/,sozialversicherungsgericht.zh.ch,
+government_agency,State Chancellery of Basel-Stadt,https://www.staatskanzlei.bs.ch/,staatskanzlei.bs.ch,central-1
+government_agency,State Chancellery (Thurgau),https://staatskanzlei.tg.ch/,staatskanzlei.tg.ch,
 supreme_court,Q131731590,https://www.stadt-schaffhausen.ch/dergrossestadtrat/28655,stadt-schaffhausen.ch,local
 parliament,Q131731590,https://www.stadt-schaffhausen.ch/dergrossestadtrat/28655,stadt-schaffhausen.ch,local
+government_agency,Q115267460,https://www.stadt-zuerich.ch/ted/de/index/taz.html,stadt-zuerich.ch,
+government_agency,Amt für Städtebau,https://www.stadt-zuerich.ch/afs,stadt-zuerich.ch,
 constitutional_court,Zurich City Council,https://www.stadt-zuerich.ch/stadtrat,stadt-zuerich.ch,local
+government_agency,Office of Parks and Open Spaces of Zurich,http://www.stadt-zuerich.ch/gsz,stadt-zuerich.ch,
+government_agency,Office for Structural Engineering of the City of Zurich,https://www.stadt-zuerich.ch/content/hbd/de/index/hochbau/ahb.html,stadt-zuerich.ch,
+government_agency,Stadtpolizei Zürich,https://www.stadt-zuerich.ch/pd/de/index/stadtpolizei_zuerich.html,stadt-zuerich.ch,
+government_agency,Q115271935,https://www.stadt-zuerich.ch/gud/de/index/departement/organisation/ugz.html,stadt-zuerich.ch,
+government_agency,Schul- und Sportdepartement,https://www.stadt-zuerich.ch/ssd/de/index.html,stadt-zuerich.ch,
+government_agency,Stadt Zürich Hochbaudepartement,https://www.stadt-zuerich.ch/,stadt-zuerich.ch,
+government_agency,Office for Structural Engineering of the City of Zurich,https://www.stadt-zuerich.ch/hbd/de/index/ueber_das_departement/organisation/ahb.html,stadt-zuerich.ch,
+government_agency,Schutz und Rettung Zürich,https://www.stadt-zuerich.ch/srz/,stadt-zuerich.ch,
+government_agency,Zurich City Council,https://www.stadt-zuerich.ch/stadtrat,stadt-zuerich.ch,local
+government_agency,Zürich Board of Education,https://www.stadt-zuerich.ch/ssd/de/index/departement_schul_sport/organisation/schulamt.html,stadt-zuerich.ch,
+government_agency,Monument Preservation Service of the Canton of St. Gallen,https://www.stadt.sg.ch/home/raum-umwelt/bauen-sanieren/denkmalpflege.html,stadt.sg.ch,
+government_agency,Winterthur municipal police,http://www.stapo.winterthur.ch/,stapo.winterthur.ch,
+government_agency,Statistical Office of the Canton of Basel-Stadt,http://www.statistik.bs.ch/,statistik.bs.ch,
+government_agency,Q113083577,https://www.stawa.bs.ch/,stawa.bs.ch,
+government_agency,Q105211207,https://www.steuerkonferenz.ch/,steuerkonferenz.ch,
+government_agency,Q105211207,https://www.steuerkonferenz.ch/fr/,steuerkonferenz.ch,
+university,State-independent Theological University of Basel,https://sthbasel.ch,sthbasel.ch,university
+government_agency,Q104819347,https://www.strafgericht.bs.ch/,strafgericht.bs.ch,central-1
+government_agency,"Embassy of Sweden, Bern",http://www.swedenabroad.com/Bern/,swedenabroad.com,central
+government_agency,Swiss Science Council,http://www.swir.ch/en/,swir.ch,
+government_agency,Swissmedic,https://www.swissmedic.ch/,swissmedic.ch,
+government_agency,Swissmint,https://www.swissmint.ch,swissmint.ch,
+government_agency,"Embassy of Russia, Bern",https://switzerland.mid.ru,switzerland.mid.ru,central
+government_agency,"Embassy of the Netherlands, Bern",http://switzerland.nlembassy.org/,switzerland.nlembassy.org,central
+government_agency,Cantonal Council of Schwyz,https://www.sz.ch,sz.ch,central-1
+government_agency,Q113156723,https://www.sz.ch,sz.ch,central-1
+government_agency,Q113156710,https://www.sz.ch,sz.ch,central-1
+government_agency,Cantonal Council of Schwyz,https://www.sz.ch/behoerden/regierung-parlament-gerichte/parlament/auf-einen-blick.html/72-416-375-365-357,sz.ch,central-1
 supreme_court,Cantonal Council of Schwyz,https://www.sz.ch/behoerden/regierung-parlament-gerichte/parlament/auf-einen-blick.html/72-416-375-365-357,sz.ch,central-1
+government_agency,Q113156739,https://www.sz.ch,sz.ch,central-1
+government_agency,Q113156806,https://www.sz.ch,sz.ch,central-1
 parliament,Cantonal Council of Schwyz,https://www.sz.ch/behoerden/regierung-parlament-gerichte/parlament/auf-einen-blick.html/72-416-375-365-357,sz.ch,central-1
+government_agency,Q113156659,https://www.sz.ch,sz.ch,central-1
+government_agency,Q113156715,https://www.sz.ch,sz.ch,central-1
+government_agency,Monument preservation service of the canton of Schwyz,https://www.sz.ch/behoerden/verwaltung/bildungsdepartement/amt-fuer-kultur/denkmalpflege.html/8756-8758-8802-9466-9471-9921,sz.ch,
 supreme_court,Cantonal Council of Schwyz,https://www.sz.ch,sz.ch,central-1
 parliament,Cantonal Council of Schwyz,https://www.sz.ch,sz.ch,central-1
+government_agency,Q113156654,https://www.sz.ch/,sz.ch,central-1
+government_agency,Q113156755,https://www.sz.ch,sz.ch,central-1
+government_agency,Q113156763,https://www.sz.ch,sz.ch,central-1
+government_agency,Transports publics de la région lausannoise,https://www.t-l.ch/,t-l.ch,
+government_agency,embassy of Tajikistan to Switzerland,https://www.tajikistanmission.ch/,tajikistanmission.ch,central
+government_agency,Tarifverbund Zug,https://www.tarifverbund-zug.ch,tarifverbund-zug.ch,
+government_agency,Court of Arbitration for Sport,https://www.tas-cas.org/,tas-cas.org,
+government_agency,Tarifverbund Nordwestschweiz,https://www.tnw.ch/,tnw.ch,
+government_agency,Tarifverbund Schwyz,http://www.tvsz.ch,tvsz.ch,
+government_agency,embassy of Uganda to Switzerland,http://www.ugandamission.ch/,ugandamission.ch,central
+university,Swiss UMEF University,https://www.umef-university.ch/,umef-university.ch,university
+government_agency,Swiss commission for UNESCO,http://www.unesco.ch/fr/,unesco.ch,
+government_agency,Swiss National Commission for UNESCO,https://www.unesco.ch/,unesco.ch,
+university,University of Basel,https://www.unibas.ch/,unibas.ch,university
+university,University of Bern,https://www.unibe.ch/,unibe.ch,university
+university,University of Fribourg,https://www.unifr.ch,unifr.ch,university
+university,University of Geneva,https://www.unige.ch,unige.ch,university
+university,University of Lausanne,https://www.unil.ch/,unil.ch,university
+university,University of Lucerne,https://www.unilu.ch/,unilu.ch,university
+university,University of Neuchâtel,https://www.unine.ch/,unine.ch,university
+government_agency,Unireso,https://www.unireso.com,unireso.com,
+university,University of St. Gallen,https://www.unisg.ch/,unisg.ch,university
+government_agency,Joint Inspection Unit,https://www.unjiu.org/,unjiu.org,
+government_agency,Q113042413,https://www.ur.ch/,ur.ch,central-1
+government_agency,Q113156929,https://www.ur.ch/,ur.ch,central-1
+government_agency,Q113042639,https://www.ur.ch/,ur.ch,central-1
+government_agency,Q113042523,https://www.ur.ch/,ur.ch,central-1
+government_agency,Q113042702,https://www.ur.ch/,ur.ch,central-1
+government_agency,Q113042263,https://www.ur.ch/,ur.ch,central-1
+government_agency,Council of State of Uri,https://www.ur.ch/,ur.ch,central-1
+government_agency,Q113042233,https://www.ur.ch/,ur.ch,central-1
+government_agency,Q113042498,https://www.ur.ch/,ur.ch,central-1
+university,Università della Svizzera italiana,https://www.usi.ch/,usi.ch,university
+university,University of Zurich,https://www.uzh.ch/,uzh.ch,university
+government_agency,Education and training professional (Vaud),https://www.vd.ch/toutes-les-autorites/departements/departement-de-lenseignement-et-de-la-formation-professionnelle-def/,vd.ch,
+government_agency,Département de la Santé et de l'Action Sociale,http://www.vd.ch/autorites/departements/dsas,vd.ch,
+government_agency,"Institution, Territory and Sport (Vaud)",https://www.vd.ch/toutes-les-autorites/departements/departement-des-institutions-du-territoire-et-du-sport-dits/,vd.ch,
+government_agency,Finance and Agriculture (Vaud),https://www.vd.ch/toutes-les-autorites/departements/departement-des-finances-et-de-lagriculture-dfa/,vd.ch,
+government_agency,Vaud Cantonal Court,https://www.vd.ch/ojv/tribunal-cantonal,vd.ch,central-1
+government_agency,"Département de la Formation, de la Jeunesse et de la Culture",http://www.vd.ch/autorites/departements/dfjc/,vd.ch,
+government_agency,Health and social action (Vaud),https://www.vd.ch/toutes-les-autorites/departements/departement-de-la-sante-et-de-laction-sociale-dsas/,vd.ch,
+government_agency,"Youth, environment and security (Vaud)",https://www.vd.ch/toutes-les-autorites/departements/departement-de-la-jeunesse-de-lenvironnement-et-de-la-securite-djes/,vd.ch,
+government_agency,Cantonal police of the canton of Vaud,https://www.vd.ch/toutes-les-autorites/departements/departement-des-institutions-et-de-la-securite-dis/police-cantonale-vaudoise-polcant/,vd.ch,central-1
+government_agency,"Culture, infrastructure and human ressources (Vaud)",https://www.vd.ch/toutes-les-autorites/departements/departement-de-la-culture-des-infrastructures-et-des-ressources-humaines-dcirh/,vd.ch,
+government_agency,Département des Finances et des Relations Extérieures,http://www.vd.ch/autorites/departements/dfire/,vd.ch,
+government_agency,"Economy, innovation, employment and heritage (Vaud)",https://www.vd.ch/toutes-les-autorites/departements/departement-de-leconomie-de-linnovation-de-lemploi-et-du-patrimoine-deiep/,vd.ch,
+government_agency,Department for Economic Affairs,https://vd.zh.ch/internet/volkswirtschaftsdirektion/en/home.html,vd.zh.ch,central-1
+government_agency,Verwaltungsgericht Kantons Zürich,http://www.vgr.zh.ch/internet/verwaltungsgericht/de/home.html,vgr.zh.ch,
+government_agency,"Mobility, spatial development and the environment (Valais)",https://www.vs.ch/de/web/administration,vs.ch,
+government_agency,"Security, Institutions and Sports (Valais)",https://www.vs.ch/de/web/administration,vs.ch,
+government_agency,Valais Cantonal Court,https://www.vs.ch/web/tribunaux/tribunal-cantonal,vs.ch,central-1
+government_agency,"Health, Social Affairs and Culture (Valais)",https://www.vs.ch/de/web/administration,vs.ch,
+government_agency,Economics and Education (Valais),https://www.vs.ch/de/web/administration,vs.ch,
+government_agency,Finance and Energy (Valais),https://www.vs.ch/de/web/administration,vs.ch,
+government_agency,Bureau (Valais),https://www.vs.ch/de/web/administration,vs.ch,
+government_agency,Office of Elementary Education,http://www.vsa.zh.ch/internet/bildungsdirektion/vsa/de/home.html,vsa.zh.ch,
+government_agency,Office de la Culture Section d'archéologie et Paléontologie,http://w3.jura.ch/services/oph/sar/,w3.jura.ch,
+university,Webster Geneva Campus,http://www.webster.ch/,webster.ch,university
 parliament,World Health Assembly,https://www.who.int/about/governance/world-health-assembly,who.int,
+government_agency,Swiss Science Council,https://wissenschaftsrat.ch/de/,wissenschaftsrat.ch,
+government_agency,Swiss Science Council,https://wissenschaftsrat.ch/fr/,wissenschaftsrat.ch,
+government_agency,Swiss Science Council,https://wissenschaftsrat.ch/it/,wissenschaftsrat.ch,
+government_agency,"Department of Economy, Social Affairs and Environment",http://www.wsu.bs.ch/,wsu.bs.ch,
+government_agency,Department of Finance and Economy (Ticino),https://www4.ti.ch/dfe/dipartimento/,www4.ti.ch,
 supreme_court,Grand Council of Ticino,http://www4.ti.ch/index.php?id=36534,www4.ti.ch,central-1
+government_agency,State Chancellery (Ticino),https://www4.ti.ch/can/cancelleria/,www4.ti.ch,
+government_agency,Organizzazione Sociopsichiatrica Cantonale,https://www4.ti.ch/dss/dsp/osc/organizzazione/,www4.ti.ch,
+government_agency,Repubblica e Cantone Ticino,http://www4.ti.ch/stato-e-organizzazione/,www4.ti.ch,
 parliament,Grand Council of Ticino,http://www4.ti.ch/index.php?id=36534,www4.ti.ch,central-1
+government_agency,Department of Territory (Ticino),https://www4.ti.ch/dt/dipartimento/,www4.ti.ch,
+government_agency,Department of Institutions (Ticino),https://www4.ti.ch/di/dipartimento/,www4.ti.ch,
+government_agency,Department of Health and Social Affairs (Ticino),https://www4.ti.ch/dss/dipartimento/,www4.ti.ch,
+government_agency,Ufficio di Statistica,https://www4.ti.ch/dfe/dr/ustat/ufficio/,www4.ti.ch,
+government_agency,"Department of Education, Culture and Sport (Ticino)",https://www4.ti.ch/decs/dipartimento/,www4.ti.ch,
+government_agency,Dipartimento dell Educazione della Cultura e dello Sport,http://www4.ti.ch/decs/,www4.ti.ch,
+government_agency,embassy of Zambia to Switzerland,http://www.zambianmission.ch,zambianmission.ch,central
+government_agency,Permanent Mission of Slovenia to the United Nations and other International Organizations in Geneva,http://zeneva.predstavnistvo.si/,zeneva.predstavnistvo.si,
+government_agency,Q113162962,https://www.zg.ch,zg.ch,central-1
+government_agency,Q113162972,https://www.zg.ch,zg.ch,central-1
+government_agency,Q113162907,https://www.zg.ch,zg.ch,central-1
+government_agency,Q113162999,https://www.zg.ch,zg.ch,central-1
 supreme_court,Cantonal Council of Zug,https://www.zg.ch/behoerden/kr,zg.ch,central-1
+government_agency,Q113162956,https://www.zg.ch,zg.ch,central-1
+government_agency,Q113162864,https://www.zg.ch,zg.ch,central-1
+government_agency,Q113162877,https://www.zg.ch,zg.ch,central-1
 parliament,Cantonal Council of Zug,https://www.zg.ch/behoerden/kr,zg.ch,central-1
+government_agency,Q113162978,https://www.zg.ch,zg.ch,central-1
+government_agency,Q27490172,https://www.zg.ch/behoerden/direktion-des-innern/amt-fuer-denkmalpflege-und-archaeologie/archiv-und-funde,zg.ch,
+government_agency,Q113162986,https://www.zg.ch,zg.ch,central-1
+government_agency,Q113162942,https://www.zg.ch,zg.ch,central-1
+government_agency,Q113162898,https://www.zg.ch,zg.ch,central-1
+government_agency,Q113162893,https://www.zg.ch,zg.ch,central-1
+government_agency,Department for Economic Affairs,https://www.zh.ch/en/volkswirtschaftsdirektion.html,zh.ch,central-1
+government_agency,Department of Health Canton of Zurich,https://www.zh.ch/de/gesundheitsdirektion.html,zh.ch,central-1
+government_agency,"Direktion der Justiz und des Innern, Kanton Zürich",https://www.zh.ch/en/direktion-der-justiz-und-des-innern.html,zh.ch,central-1
+government_agency,Q113033130,https://www.zh.ch/de/bildungsdirektion.html,zh.ch,central-1
+government_agency,Department for Economic Affairs,https://www.zh.ch/de/volkswirtschaftsdirektion.html,zh.ch,central-1
+government_agency,Monuments Preservation Service of the Canton of Zurich,https://www.zh.ch/de/sport-kultur/kultur/kulturerbe/denkmalpflege.html,zh.ch,
+government_agency,Q113033130,https://www.zh.ch/en/bildungsdirektion.html,zh.ch,central-1
+government_agency,"Direktion der Justiz und des Innern, Kanton Zürich",https://www.zh.ch/de/direktion-der-justiz-und-des-innern.html,zh.ch,central-1
+government_agency,Building Department Kanton Zürich,https://www.zh.ch/de/baudirektion.html,zh.ch,central-1
+government_agency,Building Department Kanton Zürich,https://www.zh.ch/en/baudirektion.html,zh.ch,central-1
+government_agency,Department of Health Canton of Zurich,https://www.zh.ch/en/gesundheitsdirektion.html,zh.ch,central-1
+university,ZHAW Zurich University of Applied Sciences,https://www.zhaw.ch,zhaw.ch,university
+university,Zurich University of the Arts,https://www.zhdk.ch/,zhdk.ch,university
+government_agency,Regional Court Bernese Jura-Seeland,https://www.zsg.justice.be.ch/fr/start/ueber-uns/regionalgerichte/berner-jura-seeland.html,zsg.justice.be.ch,
+government_agency,Regional Court Bernese Jura-Seeland,https://www.zsg.justice.be.ch/de/start/ueber-uns/regionalgerichte/berner-jura-seeland.html,zsg.justice.be.ch,
+government_agency,Q15125972,https://www.zsg.justice.be.ch/de/start/ueber-uns/regionalgerichte/bern-mittelland.html,zsg.justice.be.ch,
+government_agency,Zurich Transport Network,https://www.zvv.ch/,zvv.ch,

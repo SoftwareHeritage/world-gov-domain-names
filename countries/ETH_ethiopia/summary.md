@@ -6,7 +6,7 @@
 - Region: Africa / Eastern Africa
 - Languages: Amharic
 - Population: 111652998
-- GDP per capita: 1134 US$ (2024)
+- GDP per capita: 933 US$ (2025)
 - Currencies: ETB
 - ccTLD: `.et` (manager: Ethio telecom)
 - OECD: non-member
@@ -30,11 +30,39 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+31 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `au.int` | wikidata | African Union Commission |
-| 3 | `tourismethiopia.org` | wikidata | Ministry of Culture and Tourism |
+| 6 | `au.int` | wikidata;wikidata | African Union Commission |
+| 6 | `tourismethiopia.org` | wikidata;wikidata | Ministry of Culture and Tourism |
+| 4 | `emwa.org.et` | wikidata | Ethiopian Midwives Association (EMwA) |
+| 4 | `epaethiopia.org.et` | wikidata | Ethiopian Pharmaceutical Association |
+| 4 | `et.usembassy.gov` | wikidata | embassy of the United States in Ethiopia |
+| 4 | `ethiondc.org.et` | wikidata | Ethiopian National Dialogue Commission |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Addis Ababa |
+| 4 | `nvi.com.et` | wikidata | National Veterinary Institute |
+| 4 | `psi.org.et` | wikidata | Ethiopian Policy Studies Institute |
+| 4 | `rrs.et` | wikidata | Refugees and Returnees Service |
+| 3 | `addis-abeba.diplo.de` | wikidata | Embassy of Germany, Addis Ababa |
+| 3 | `addisabeba.mae.ro` | wikidata | Embassy of Romania, Addis Abeba |
+| 3 | `cehro.org` | wikidata | Consortium of Ethiopian Human Rights Organizations |
+| 3 | `electionethiopia.org` | wikidata | National Election Board of Ethiopia |
+| 3 | `esog-eth.org` | wikidata | Ethiopian Society of Obstetricians and Gynecologists |
+| 3 | `et.ambafrance.org` | wikidata | Embassy of France, Addis Ababa |
+| 3 | `et.undp.org` | wikidata | United Nations Development Programme |
+| 3 | `ethiopia.mid.ru` | wikidata | embassy of Russia in Ethiopia |
+| 3 | `ethiopianreconciliation.org` | wikidata | Ethiopian Reconciliation Commission |
+| 3 | `etiopien.um.dk` | wikidata | embassy of Denmark in Ethiopia |
+
+## Local / regional candidates
+
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `su.edu.et` | wikidata | Samara University |
+| 6 | `eeas.europa.eu` | wikidata;wikidata | Delegation of the European Union to Ethiopia | Delegation of the European Uni... |
+| 4 | `usau.usmission.gov` | wikidata | United States Mission to the African Union |
 

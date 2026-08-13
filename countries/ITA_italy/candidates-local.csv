@@ -1,6 +1,7 @@
 hostname,score,sources,label,level
-regione.lombardia.it,9,wikidata;linkgraph,Government of Lombardy,central-1
-regione.veneto.it,8,wikidata;linkgraph,Government of Veneto,central-1
+regione.lombardia.it,10,wikidata;wikidata;wikidata;linkgraph,Government of Lombardy | Lombardy,central-1
+regione.veneto.it,10,wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,Veneto | Government of Veneto | Q3630806 | Q56753389,central-1
+arpalombardia.it,7,wikidata;wikidata,Regional Environmental Protection Agency - Lombardy,central-1
 ars.sicilia.it,7,wikidata;wikidata,Sicilian Regional Assembly,central-1
 consiglio.basilicata.it,7,wikidata;wikidata,Regional Council of Basilicata,central-1
 consiglio.marche.it,7,wikidata;wikidata,Regional Council of Marche,central-1
@@ -19,21 +20,83 @@ consiglioveneto.it,7,wikidata;wikidata,Regional Council of Veneto,central-1
 cr.campania.it,7,wikidata;wikidata,Regional Council of Campania,central-1
 cr.piemonte.it,7,wikidata;wikidata,Regional Council of Piedmont,central-1
 regionalrat.tnst.it,7,wikidata;wikidata,Regional council of Trentino-Alto Adige/Südtirol,central-1
-regione.liguria.it,7,wikidata;wikidata,Regional Council of Liguria,central-1
-regione.marche.it,4,wikidata,Government of Marche,central-1
-comune.bari.it,7,wikidata;wikidata,Bari City Council,local
-comune.bologna.it,7,wikidata;wikidata,Bologna City Council,local
-comune.cagliari.it,7,wikidata;wikidata;wikidata,city council of Cagliari | municipal council of Cagliari,local
-comune.catania.it,7,wikidata;wikidata,Catania City Council,local
-comune.fi.it,7,wikidata;wikidata,Florence City Council,local
-comune.genova.it,7,wikidata;wikidata,Genoa City Council,local
-comune.milano.it,7,wikidata;wikidata,City Council of Milan,local
+regione.liguria.it,7,wikidata;wikidata;wikidata,Regional Council of Liguria | Liguria,central-1
+regione.marche.it,7,wikidata;wikidata;wikidata,Government of Marche | Marche,central-1
+areu.lombardia.it,4,wikidata,Agenzia Regionale Emergenza Urgenza,central-1
+arpa.emr.it,4,wikidata,Agenzia Regionale Prevenzione E Ambiente Della Regione Emilia-Romagna,central-1
+statistica.regione.veneto.it,4,wikidata,Q109669672,central-1
+unipi.it,7,wikidata;wikidata;wikidata;wikidata,University of Pisa,university
+uniroma1.it,7,wikidata;wikidata,Sapienza University of Rome,university
+uniroma3.it,7,wikidata;wikidata,Università degli Studi Roma Tre,university
+unisalento.it,7,wikidata;wikidata,University of Salento,university
+conservatoriodicosenza.it,4,wikidata,Conservatoire of Cosenza,university
+fondazionecsc.it,4,wikidata,National Film School,university
+international.unina.it,4,wikidata,University of Naples Federico II,university
+portale.conservatoriodicosenza.it,4,wikidata,Conservatoire of Cosenza,university
+portale.unibas.it,4,wikidata,University of Basilicata,university
+portale.unipv.it,4,wikidata,University of Pavia,university
+unibg.it,4,wikidata,University of Bergamo,university
+unibo.it,4,wikidata,University of Bologna,university
+unica.it,4,wikidata,University of Cagliari,university
+unimc.it,4,wikidata,University of Macerata,university
+unimi.it,4,wikidata,University of Milan,university
+unina.it,4,wikidata,University of Naples Federico II,university
+unipr.it,4,wikidata,University of Parma,university
+uniroma4.it,4,wikidata,Foro Italico University of Rome,university
+unisa.it,4,wikidata,University of Salerno,university
+unistrapg.it,4,wikidata,Università per Stranieri di Perugia,university
+unite.it,4,wikidata,University of Teramo,university
+units.it,4,wikidata,University of Trieste,university
+uni-med.net,3,wikidata,Mediterranean Universities Union,university
+comune.bari.it,7,wikidata;wikidata;wikidata,Bari City Council,local
+comune.bologna.it,7,wikidata;wikidata;wikidata,Bologna City Council,local
+comune.cagliari.it,7,wikidata;wikidata;wikidata;wikidata,city council of Cagliari | municipal council of Cagliari,local
+comune.catania.it,7,wikidata;wikidata;wikidata,Catania City Council,local
+comune.fi.it,7,wikidata;wikidata;wikidata,Florence City Council,local
+comune.genova.it,7,wikidata;wikidata;wikidata,Genoa City Council,local
+comune.milano.it,7,wikidata;wikidata;wikidata;wikidata;wikidata,City Council of Milan | City of Milan Local Police | Municipality of Milan,local
 comune.montecatini-terme.pt.it,7,wikidata;wikidata,Q63494658,local
 comune.monza.it,7,wikidata;wikidata,City Council of Monza,local
-comune.napoli.it,7,wikidata;wikidata,Naples City Council,local
-comune.palermo.it,7,wikidata;wikidata,Palermo city council,local
-comune.roma.it,7,wikidata;wikidata,Rome City Council,local
-comune.torino.it,7,wikidata;wikidata,Turin City Council,local
-comune.verona.it,7,wikidata;wikidata,Verona city council,local
-consigliocomunale.comune.venezia.it,7,wikidata;wikidata,Venice City Council,local
-consiglio.provincia.tn.it,4,wikidata,Provincial Council of Trentino,local
+comune.napoli.it,7,wikidata;wikidata;wikidata,Naples City Council,local
+comune.palermo.it,7,wikidata;wikidata;wikidata,Palermo city council,local
+comune.roma.it,7,wikidata;wikidata;wikidata;wikidata,Rome City Council | Roma Capitale,local
+comune.torino.it,7,wikidata;wikidata;wikidata,Turin City Council,local
+comune.verona.it,7,wikidata;wikidata;wikidata,Verona city council,local
+consiglio.provincia.tn.it,7,wikidata;wikidata,Provincial Council of Trentino,local
+consigliocomunale.comune.venezia.it,7,wikidata;wikidata;wikidata,Venice City Council,local
+sanita.puglia.it,7,wikidata;wikidata;wikidata;wikidata,Agenzia Regionale Sanitaria della Puglia | Q131104801 | Q131104933 | Q131104041,local
+agenziapo.it,4,wikidata,Agenzia Interregionale per il fiume Po,local
+ambientesa.beniculturali.it,4,wikidata,"Soprintendenza Archeologia, belle arti e paesaggio per le province di Salerno e Avellino",local
+arpat.toscana.it,4,wikidata,Agenzia Regionale per la Protezione Ambientale della Toscana,local
+arti.puglia.it,4,wikidata,Agenzia Regionale per la Tecnologia e l'Innovazione,local
+asfo.sanita.fvg.it,4,wikidata,Western Friuli Health Authority,local
+assr.regione.emilia-romagna.it,4,wikidata,Agenzia Sanitaria e Sociale Regionale,local
+ats-bg.it,4,wikidata,ATS Bergamo,local
+ats-brescia.it,4,wikidata,ATS Brescia,local
+ats-insubria.it,4,wikidata,ATS Insubria,local
+ats-milano.it,4,wikidata,ATS Città Metropolitana di Milano,local
+comune.crotone.it,4,wikidata,Municipality of Crotone,local
+comune.rovigo.it,4,wikidata,Municipality of Rovigo,local
+edisu.piemonte.it,4,wikidata,Ente Regionale per il Diritto allo Studio Universitario del Piemonte,local
+embassyofnigeriatotheholysee.it,4,wikidata,embassy of Nigeria to the Holy See,local
+ersaf.lombardia.it,4,wikidata,Ente Regionale per i Servizi all'Agricoltura e alle Foreste,local
+exdogana.it,4,wikidata,Dogana austroungarica,local
+ghanaembassyholysee.it,4,wikidata,embassy of Ghana to the Holy See,local
+poliziamunicipale.it,4,wikidata,"Comand of Municipal Police,Modena",local
+pti.regione.sicilia.it,4,wikidata,Regione Siciliana,local
+sabap-siena.beniculturali.it,4,wikidata,"Soprintendenza Archeologia, belle arti e paesaggio per le province di Siena, Grosseto e Arezzo",local
+va.usembassy.gov,4,wikidata,Embassy of the United States to the Holy See,local
+eeas.europa.eu,3,wikidata,"Delegation of the European Union to the Holy See, Order of Malta, UN Organisations in Rome, and to San Marino",local
+efsa.europa.eu,3,wikidata,European Food Safety Authority,local
+etf.europa.eu,3,wikidata,European Training Foundation,local
+heiliger-stuhl.diplo.de,3,wikidata,Embassy of Germany to the Holy See,local
+landtag-bz.org,3,wikidata,Landtag of South Tyrol,local
+mfa.bg,3,wikidata,Embassy of Bulgaria to the Holy See,local
+saholysee.com,3,wikidata,embassy of South Africa to the Holy See,local
+santase.embaixadaportugal.mne.pt,3,wikidata,embassy of Portugal to the Holy See,local
+taiwanembassy.org,3,wikidata,"Embassy of the Republic of China (Taiwan), Holy See",local
+va.mfa.lt,3,wikidata,embassy of Lithuania to the Holy See,local
+va.mvep.hr,3,wikidata,Embassy of Croatia to the Holy See,local
+vatican.mae.ro,3,wikidata,embassy of Romania to the Holy See,local
+vatican.mfa.am,3,wikidata,embassy of Armenia to the Holy See,local
+vatikan.veleposlanistvo.si,3,wikidata,Embassy of Slovenia to The Holy See,local

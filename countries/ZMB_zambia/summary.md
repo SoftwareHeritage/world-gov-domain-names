@@ -30,5 +30,37 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `boz.zm` | wikidata | Bank of Zambia |
+| 4 | `nac.org.zm` | wikidata | National HIV/AIDS/STI/TB Council |
+| 4 | `nhra.org.zm` | wikidata | National Health Research Authority |
+| 4 | `zema.org.zm` | wikidata | Zambia Environmental Management Agency |
+| 4 | `zicta.zm` | wikidata | Zambia Information and Communications Technology Authority |
+| 4 | `zm.usembassy.gov` | wikidata | embassy of the United States in Zambia |
+| 4 | `zma.org.zm` | wikidata | Zambia Metrology Agency |
+| 4 | `znphi.co.zm` | wikidata | Zambia National Public Health Institute |
+| 3 | `ambafrance-zm.org` | wikidata | Embassy of France, Lusaka |
+| 3 | `cosecsa.org` | wikidata | Surgical Society of Zambia |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Zambia and COMESA |
+| 3 | `finlandabroad.fi` | wikidata | embassy of Finland in Zambia |
+| 3 | `gartzambia.org` | wikidata | Golden Valley Agricultural Research Trust |
+| 3 | `ghanahighcommission-zambia.com` | wikidata | high commission of Ghana in Zambia |
+| 3 | `lusaka.diplo.de` | wikidata | Embassy of Germany, Lusaka |
+| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Zambia |
+| 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Lusaka |
+| 3 | `who.int` | wikidata | World Health Organization - Zambia |
+| 3 | `zambia.mid.ru` | wikidata | embassy of Russia in Zambia |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `unza.zm` | wikidata | University of Zambia |
+| 3 | `zambiaforestrycollege.org` | wikidata | Zambia Forestry College |
 

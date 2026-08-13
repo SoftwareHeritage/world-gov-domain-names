@@ -30,14 +30,34 @@
 
 ## Candidate domains ranked by score
 
-5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `agroprod.kg` | wikidata;wikidata | Ministry of Agriculture, Food Industry and Melioration |
+| 7 | `en.mes.kg` | wikidata;wikidata | Ministry of Emergency Situations of Kyrgyzstan |
 | 7 | `kenesh.kg` | wikidata;wikidata | Supreme Council |
-| 4 | `agroprod.kg` | wikidata | Ministry of Agriculture, Food Industry and Melioration |
-| 4 | `en.mes.kg` | wikidata | Ministry of Emergency Situations of Kyrgyzstan |
-| 4 | `med.kg` | wikidata | Ministry of Health of Kyrgyzstan |
-| 4 | `mvd.kg` | wikidata | Ministry of the Interior |
+| 7 | `med.kg` | wikidata;wikidata | Ministry of Health of Kyrgyzstan |
+| 7 | `mvd.kg` | wikidata;wikidata | Ministry of the Interior |
+| 4 | `archive.kg` | wikidata | Central State Archives of the Republic of Kyrgyzstan |
+| 4 | `biskek.mfa.gov.hu` | wikidata | Embassy of Hungary to Kyrgyzstan |
+| 4 | `kg.usembassy.gov` | wikidata | Embassy of the United States, Bishkek |
+| 4 | `mfa.kg` | wikidata | Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic |
+| 4 | `nbkr.kg` | wikidata | National Bank of the Kyrgyz Republic |
+| 4 | `stat.kg` | wikidata | National Statistical Committee |
+| 4 | `vak.kg` | wikidata | Higher Attestation Commission of Kyrgyzstan |
+| 3 | `bischkek.diplo.de` | wikidata | Embassy of Germany, Bishkek |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to the Kyrgyz Republic |
+| 3 | `geoportal-kg.org` | wikidata | Geological Survey of Kyrgyzstan |
+| 3 | `kg.ambafrance.org` | wikidata | Embassy of France, Bishkek |
+| 3 | `mfa.tj` | wikidata | Embassy of Tajikistan, Bishkek |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `manas.edu.kg` | wikidata | Manas University |
 

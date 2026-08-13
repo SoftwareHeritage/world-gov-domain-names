@@ -6,7 +6,7 @@
 - Region: Africa / Southern Africa
 - Languages: English; Sotho
 - Population: 2116427
-- GDP per capita: 972 US$ (2024)
+- GDP per capita: 1089 US$ (2025)
 - Currencies: LSL; ZAR
 - ccTLD: `.ls` (manager: Lesotho Network Information Centre Proprietary (LSNIC))
 - OECD: non-member
@@ -30,10 +30,24 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.ls` | wikidata;wikidata | Parliament of Lesotho |
+| 5 | `nationalassembly.parliament.ls` | wikidata | National Assembly |
+| 4 | `agricresearch.org.ls` | wikidata | Department of Agricultural Research |
+| 4 | `centralbank.org.ls` | wikidata | Central Bank of Lesotho |
+| 4 | `ls.usembassy.gov` | wikidata | embassy of the United States in Lesotho |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Lesotho |
+| 3 | `ls.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Maseru |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `nul.ls` | wikidata | National University of Lesotho |
 

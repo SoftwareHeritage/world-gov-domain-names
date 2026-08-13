@@ -6,7 +6,7 @@
 - Region: Asia / Western Asia
 - Languages: Arabic; French
 - Population: 5490000
-- GDP per capita: 3478 US$ (2023)
+- GDP per capita: 4473 US$ (2024)
 - Currencies: LBP
 - ccTLD: `.lb` (manager: Internet Society Lebanon)
 - OECD: non-member
@@ -30,10 +30,37 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
+| 6 | `custodia.org` | wikidata;wikidata | Custodian of the Holy Land |
+| 5 | `conseilconstitutionnelliban.com` | wikidata | Constitutional Council (Lebanon) |
+| 4 | `bejrut.mfa.gov.hu` | wikidata | Embassy of Hungary, Beirut |
+| 4 | `cnrs.edu.lb` | wikidata | National Council for Scientific Research |
+| 4 | `lb.usembassy.gov` | wikidata | Embassy of the United States in Beirut |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Beirut |
+| 3 | `alarabiahcouncil.org` | wikidata | Arabic Language International Council |
+| 3 | `ambafrance-lb.org` | wikidata | French Embassy, Beirut |
+| 3 | `bangladeshembassybeirut.org` | wikidata | Embassy of Bangladesh, Beirut |
+| 3 | `beirut.diplo.de` | wikidata | Embassy of Germany, Beirut |
+| 3 | `beirut.mae.ro` | wikidata | Embassy of Romania, Beirut |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Lebanon |
+| 3 | `emro.who.int` | wikidata | World Health Organization - Lebanon |
+| 3 | `finlandabroad.fi` | wikidata | embassy of Finland in Lebanon |
+| 3 | `lb.ambafrance.org` | wikidata | consulat général de France à Beyrouth |
+| 3 | `lebanon.mid.ru` | wikidata | Embassy of Russia, Beirut |
+| 3 | `libanon.um.dk` | wikidata | embassy of Denmark in Lebanon |
+| 3 | `lncu.org` | wikidata | Lebanese National Commission for UNESCO |
+| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Lebanon |
+| 3 | `mfa.gr` | wikidata | embassy of Greece in Lebanon |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `ul.edu.lb` | wikidata | Lebanese University |
 

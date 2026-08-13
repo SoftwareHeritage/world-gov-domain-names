@@ -6,7 +6,7 @@
 - Region: Americas / Caribbean
 - Languages: Spanish
 - Population: 10771504
-- GDP per capita: 10876 US$ (2024)
+- GDP per capita: 11059 US$ (2025)
 - Currencies: DOP
 - ccTLD: `.do` (manager: Pontificia Universidad Catolica Madre y Maestra, Recinto Santo Tomas de Aquino)
 - OECD: non-member
@@ -30,12 +30,28 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `fuerzasarmadas.mil.do` | wikidata | Q17347140 |
-| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
-| 3 | `dominicoshispania.org` | wikidata | Province of Hispania of the Order of Preachers |
+| 7 | `fuerzasarmadas.mil.do` | wikidata;wikidata | Q17347140 |
+| 6 | `centroamericaribeschp.com` | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `dominicoshispania.org` | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 5 | `bancentral.gov.do` | wikidata | Central Bank of the Dominican Republic |
+| 4 | `cesfront.mil.do` | wikidata | Cuerpo Especializado en Seguridad Fronteriza Terrestre |
+| 4 | `do.usembassy.gov` | wikidata | Embassy of the United States in Dominican Republic |
+| 3 | `do.ambafrance.org` | wikidata | Embassy of France, Santo Domingo |
+| 3 | `do.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Santo Domingo |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to the Dominican Republic |
+| 3 | `nederlandwereldwijd.nl` | wikidata | Embassy of the Netherlands, Santo Domingo |
+| 3 | `santo-domingo.diplo.de` | wikidata | Embassy of Germany, Santo Domingo |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `uasd.edu.do` | wikidata | Autonomous University of Santo Domingo |
 

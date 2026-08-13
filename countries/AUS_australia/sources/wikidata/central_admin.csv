@@ -1,48 +1,886 @@
 type,label,website,hostname,level
+government_agency,Australian Access Federation,http://aaf.edu.au/,aaf.edu.au,
+government_agency,Aboriginal Areas Protection Authority,https://www.aapant.org.au,aapant.org.au,central-1
+government_agency,Administrative Appeals Tribunal,https://www.aat.gov.au/,aat.gov.au,
+government_agency,Australian Broadcasting Corporation,https://www.abc.net.au/,abc.net.au,
+government_agency,Australian Building Codes Board,https://abcb.gov.au,abcb.gov.au,
+government_agency,Australian Border Force,https://www.abf.gov.au/,abf.gov.au,
+government_agency,Australian Bureau of Statistics,https://www.abs.gov.au,abs.gov.au,central
+government_agency,Adelaide Cemeteries Authority,http://www.aca.sa.gov.au/,aca.sa.gov.au,central-1
+government_agency,"Australian Curriculum, Assessment and Reporting Authority",https://www.acara.edu.au/,acara.edu.au,
+government_agency,ACT Civil and Administrative Tribunal,https://www.acat.act.gov.au/,acat.act.gov.au,central-1
+government_agency,Australian Competition and Consumer Commission,https://www.accc.gov.au/,accc.gov.au,
+government_agency,Australian Children’s Education & Care Quality Authority,https://www.acecqa.gov.au,acecqa.gov.au,
+government_agency,NSW Agency for Clinical Innovation,https://aci.health.nsw.gov.au,aci.health.nsw.gov.au,
+government_agency,Australian Centre for International Agricultural Research,http://aciar.gov.au/,aciar.gov.au,
+government_agency,Australian Criminal Intelligence Commission,http://www.acic.gov.au/,acic.gov.au,
+government_agency,Australian Commission for Law Enforcement Integrity,http://www.aclei.gov.au/,aclei.gov.au,
+government_agency,Australian Communications and Media Authority,http://acma.gov.au,acma.gov.au,
+government_agency,Australian Charities and Not-For-Profits Commission,https://www.acnc.gov.au/,acnc.gov.au,
+government_agency,Australian Acoustical Society,https://www.acoustics.asn.au/joomla/,acoustics.asn.au,
+government_agency,Adelaide Metro,https://www.adelaidemetro.com.au,adelaidemetro.com.au,central-1
+government_agency,Advance Queensland,https://advance.qld.gov.au,advance.qld.gov.au,
+government_agency,Australian Electoral Commission,https://aec.gov.au,aec.gov.au,central
+government_agency,Australian Energy Market Commission,http://www.aemc.gov.au/,aemc.gov.au,
+government_agency,Australian Fisheries Management Authority,http://www.afma.gov.au,afma.gov.au,
+government_agency,Australian Federal Police,https://www.afp.gov.au/,afp.gov.au,central
+government_agency,Australian Film Television and Radio School,http://www.aftrs.edu.au/,aftrs.edu.au,
+government_agency,Attorney-General's Department,http://www.ag.gov.au/,ag.gov.au,
 ministry,Attorney-General's Department,http://www.ag.gov.au/,ag.gov.au,
+government_agency,Attorney-General's Department,https://www.agd.sa.gov.au/,agd.sa.gov.au,central-1
+government_agency,Royal Commission into Aged Care Quality and Safety,http://agedcare.royalcommission.gov.au,agedcare.royalcommission.gov.au,
+government_agency,NSW Ageing and Disability Commission,https://www.ageingdisabilitycommission.nsw.gov.au/,ageingdisabilitycommission.nsw.gov.au,
+government_agency,Department of Agriculture and Food,https://www.agric.wa.gov.au/,agric.wa.gov.au,
+government_agency,Agriculture Victoria,http://agriculture.vic.gov.au/home,agriculture.vic.gov.au,
+government_agency,AgriFutures Australia,https://www.agrifutures.com.au,agrifutures.com.au,
+government_agency,Adelaide Hills Council,http://www.ahc.sa.gov.au/,ahc.sa.gov.au,local
+government_agency,Aboriginal Health and Medical Research Council of New South Wales,http://www.ahmrc.org.au/,ahmrc.org.au,
+government_agency,Aboriginal Housing Office,http://www.aho.nsw.gov.au,aho.nsw.gov.au,central-1
+government_agency,Australian Health Practitioner Regulation Agency,https://www.ahpra.gov.au/,ahpra.gov.au,
+government_agency,Australian Institute of Aboriginal and Torres Strait Islander Studies,http://www.aiatsis.gov.au/,aiatsis.gov.au,
+government_agency,Australian Institute of Criminology,http://www.aic.gov.au/,aic.gov.au,
+government_agency,Australian Institute of Family Studies,https://aifs.gov.au/,aifs.gov.au,
+government_agency,Australian Institute of Health and Welfare,http://www.aihw.gov.au,aihw.gov.au,
+government_agency,Australian Institute of Marine Science,http://www.aims.gov.au/,aims.gov.au,
+government_agency,Australian Institute of Nuclear Science and Engineering,http://www.ainse.edu.au/,ainse.edu.au,
+government_agency,Airservices Australia,https://www.airservicesaustralia.com/,airservicesaustralia.com,central
+government_agency,Alexandrina Council,http://www.alexandrina.sa.gov.au,alexandrina.sa.gov.au,local
+government_agency,"Embassy of Algeria, Canberra",http://www.algeriaemb.org.au/,algeriaemb.org.au,central
+government_agency,Alpine Resorts Victoria,https://www.alpineresorts.vic.gov.au/,alpineresorts.vic.gov.au,local
+government_agency,Australian Law Reform Commission,http://www.alrc.gov.au/,alrc.gov.au,central
+government_agency,Consulate-General of France in  Sydney,http://www.ambafrance-au.org/-Consulat-general-a-Sydney-,ambafrance-au.org,
+government_agency,"Embassy of Albania, Canberra",https://ambasadat.gov.al/australia/,ambasadat.gov.al,central
+government_agency,"Embassy of Kosovo, Canberra",https://ambasadat.net/Australi/,ambasadat.net,central
+government_agency,Embassy of Italy in Canberra,https://ambcanberra.esteri.it,ambcanberra.esteri.it,central
+government_agency,New South Wales Ambulance,https://www.ambulance.nsw.gov.au/,ambulance.nsw.gov.au,
+government_agency,Queensland Ambulance Service,https://www.ambulance.qld.gov.au/,ambulance.qld.gov.au,
+government_agency,Ambulance Victoria,https://www.ambulance.vic.gov.au/,ambulance.vic.gov.au,
+government_agency,Australian Maritime College,http://www.amc.edu.au,amc.edu.au,
+government_agency,Australian Maritime Safety Authority,http://www.amsa.gov.au/,amsa.gov.au,
+government_agency,Australian National Audit Office,http://www.anao.gov.au/,anao.gov.au,
+government_agency,Australian Nuclear Science and Technology Organisation,http://www.ansto.gov.au/,ansto.gov.au,
+government_agency,Antarctic Tasmania and Maritime Industries,https://www.antarctic.tas.gov.au,antarctic.tas.gov.au,central-1
+government_agency,Australian National University,https://www.anu.edu.au/,anu.edu.au,
+government_agency,Australian House of Representatives,https://www.aph.gov.au/About_Parliament/House_of_Representatives,aph.gov.au,central
 supreme_court,Parliament of Australia,https://www.aph.gov.au/,aph.gov.au,central
+government_agency,Department of the Senate,https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Department_of_the_Senate,aph.gov.au,
+government_agency,Australian Senate,https://www.aph.gov.au/About_Parliament/Senate,aph.gov.au,central
 parliament,Parliament of Australia,https://www.aph.gov.au/,aph.gov.au,central
+government_agency,APM Group,https://apm.net.au/,apm.net.au,
+government_agency,ACT Department of Treasury,http://apps.treasury.act.gov.au/home,apps.treasury.act.gov.au,
+government_agency,Australian Prudential Regulation Authority,http://www.apra.gov.au,apra.gov.au,
+government_agency,Australian Public Service Commission,http://www.apsc.gov.au,apsc.gov.au,
+government_agency,Australian Quarantine and Inspection Service,http://www.aqis.gov.au/,aqis.gov.au,
+government_agency,Australian Research Council,http://www.arc.gov.au/,arc.gov.au,
+government_agency,State Records of South Australia,https://www.archives.sa.gov.au/,archives.sa.gov.au,central-1
+government_agency,Australian Renewable Energy Agency,http://arena.gov.au,arena.gov.au,central
+government_agency,North-West Mobile Force,https://www.army.gov.au/our-people/units/forces-command/2nd-division/north-west-mobile-force,army.gov.au,
+government_agency,Forces Command,https://www.army.gov.au/our-people/units/forces-command,army.gov.au,
+government_agency,Australian Radiation Protection and Nuclear Safety Agency,http://www.arpansa.gov.au/,arpansa.gov.au,
+government_agency,Artbank,http://artbank.gov.au/,artbank.gov.au,
+government_agency,Australian Rail Track Corporation,http://www.artc.com.au/,artc.com.au,
+government_agency,Artlab Australia,http://www.artlabaustralia.com.au,artlabaustralia.com.au,
+government_agency,artsACT,https://www.arts.act.gov.au/,arts.act.gov.au,
+government_agency,Arts NSW,http://www.arts.nsw.gov.au/,arts.nsw.gov.au,central-1
+government_agency,Arts SA,http://www.arts.sa.gov.au/,arts.sa.gov.au,central-1
+government_agency,Arts Tasmania,http://www.arts.tas.gov.au,arts.tas.gov.au,central-1
+government_agency,Department of Arts and Museums,https://artsandmuseums.nt.gov.au/,artsandmuseums.nt.gov.au,
+government_agency,Royal Commission on Antisemitism and Social Cohesion,https://asc.royalcommission.gov.au/,asc.royalcommission.gov.au,central
+government_agency,Australian Signals Directorate,https://www.asd.gov.au/,asd.gov.au,central
+government_agency,Australian Securities & Investments Commission,http://www.asic.gov.au/,asic.gov.au,
+government_agency,Australian Security Intelligence Organisation,http://www.asio.gov.au/,asio.gov.au,central
+government_agency,Australian Secret Intelligence Service,https://www.asis.gov.au/,asis.gov.au,
+government_agency,Australian Salaried Medical Officers' Federation,http://www.asmof.org.au,asmof.org.au,
+government_agency,Australian Taxation Office,https://www.ato.gov.au/,ato.gov.au,central
+government_agency,Australian Transport Safety Bureau,https://www.atsb.gov.au/,atsb.gov.au,
+government_agency,"embassy of France, Canberra",https://au.ambafrance.org,au.ambafrance.org,central
+government_agency,"Embassy of the People's Republic of China, Canberra",http://au.china-embassy.org,au.china-embassy.org,central
+government_agency,"Embassy of Japan, Canberra",https://www.au.emb-japan.go.jp,au.emb-japan.go.jp,central
+government_agency,embassy of Lithuania in Australia,https://au.mfa.lt/,au.mfa.lt,central
+government_agency,embassy of Croatia in Australia,http://au.mvep.hr,au.mvep.hr,central
+government_agency,embassy of Nepal in Australia,https://au.nepalembassy.gov.np/,au.nepalembassy.gov.np,central
+government_agency,"Embassy of the United States, Canberra",https://au.usembassy.gov,au.usembassy.gov,central
+government_agency,"Consulate General of the United States, Perth",https://au.usembassy.gov/perth/,au.usembassy.gov,
+government_agency,Consulate General of the United States in Sydney,https://au.usembassy.gov/sydney/,au.usembassy.gov,central-1
+government_agency,"Consulate General of the United States, Melbourne",https://au.usembassy.gov/melbourne/,au.usembassy.gov,
+government_agency,.au Domain Administration,https://www.auda.org.au/,auda.org.au,
+government_agency,Auditor-General's Department,https://www.audit.sa.gov.au/,audit.sa.gov.au,central-1
+government_agency,Victorian Auditor-General's Office,https://www.audit.vic.gov.au,audit.vic.gov.au,central-1
+government_agency,Australian Transaction Reports and Analysis Centre,http://www.austrac.gov.au/,austrac.gov.au,
+government_agency,Australian Trade and Investment Commission,https://www.austrade.gov.au/,austrade.gov.au,
+government_agency,"Embassy of Belgium, Canberra",https://australia.diplomatie.belgium.be,australia.diplomatie.belgium.be,central
+government_agency,embassy of Venezuela in Australia,http://australia.embajada.gob.ve,australia.embajada.gob.ve,central
+government_agency,embassy of Colombia in Australia,http://australia.embajada.gov.co/,australia.embajada.gov.co,central
+government_agency,embassy of Georgia in Australia,http://australia.mfa.gov.ge,australia.mfa.gov.ge,central
+government_agency,embassy of Iran in Australia,https://australia.mfa.gov.ir,australia.mfa.gov.ir,central
+government_agency,"Embassy of Ukraine, Canberra",http://australia.mfa.gov.ua/,australia.mfa.gov.ua,central
+government_agency,"Embassy of Russia, Canberra",http://www.australia.mid.ru,australia.mid.ru,central
+government_agency,embassy of Guatemala in Australia,https://australia.minex.gob.gt,australia.minex.gob.gt,central
+government_agency,National Foundation for Australia-China Relations,https://www.australiachinafoundation.org.au,australiachinafoundation.org.au,
+government_agency,National Australia Day Council,https://www.australiaday.org.au,australiaday.org.au,
+government_agency,Phenomics Australia,http://australianphenomics.org.au/,australianphenomics.org.au,
+government_agency,embassy of Ivory Coast in Australia,http://www.australie.diplomatie.gouv.ci/,australie.diplomatie.gouv.ci,central
+government_agency,"German Honorary Consulate, Perth",https://australien.diplo.de/au-en/service/consulate-finder,australien.diplo.de,
+government_agency,"Embassy of Germany, Canberra",https://australien.diplo.de/,australien.diplo.de,central
+government_agency,"German Honorary Consulate, Perth",https://australien.diplo.de/au-de/vertretungen,australien.diplo.de,
+government_agency,"Consulate General of Germany, Sydney",https://australien.diplo.de/au-de/ueber-uns/generalkonsulat-sydn,australien.diplo.de,
+government_agency,embassy of Denmark in Australia,https://australien.um.dk,australien.um.dk,central
+government_agency,Australian War Memorial,http://www.awm.gov.au/,awm.gov.au,
+government_agency,Australian Wine Research Institute,http://www.awri.com.au/,awri.com.au,
+government_agency,Bargo Rural Fire Brigade,http://bargo.rfsa.org.au,bargo.rfsa.org.au,
+government_agency,Barossa Council,https://www.barossa.sa.gov.au/,barossa.sa.gov.au,local
+government_agency,District Council of Barunga West,http://www.barungawest.sa.gov.au,barungawest.sa.gov.au,local
+government_agency,Bastow Institute of Educational Leadership,https://www.bastow.vic.edu.au,bastow.vic.edu.au,
+government_agency,Benalla College,http://www.benalla-college.vic.edu.au/,benalla-college.vic.edu.au,
+government_agency,Berri Barmera Council,http://www.berribarmera.sa.gov.au/,berribarmera.sa.gov.au,local
+government_agency,Botanic Gardens and Parks Authority,https://www.bgpa.wa.gov.au/,bgpa.wa.gov.au,
+government_agency,"High Commission of Bangladesh, Canberra",https://www.bhcanberra.com/,bhcanberra.com,central
+government_agency,"Embassy of Bosnia and Herzegovina, Canberra",http://www.bihembassy.org,bihembassy.org,central
+government_agency,embassy of Austria in Australia,https://www.bmeia.gv.at/oeb-canberra/,bmeia.gv.at,central
+government_agency,NSW Bureau of Crime Statistics and Research,https://www.bocsar.nsw.gov.au/,bocsar.nsw.gov.au,central-1
+government_agency,Bureau of Meteorology,http://www.bom.gov.au/,bom.gov.au,
+government_agency,BreastScreen WA,https://www.breastscreen.health.wa.gov.au/,breastscreen.health.wa.gov.au,
+government_agency,"Consulate-General of Japan, Brisbane",https://www.brisbane.au.emb-japan.go.jp,brisbane.au.emb-japan.go.jp,
+government_agency,"Consular Office of Japan, Cairns",https://www.brisbane.au.emb-japan.go.jp/itpr_en/about_cairns.html,brisbane.au.emb-japan.go.jp,
+government_agency,high commission of Brunei in Australia,http://www.brunei.org.au/,brunei.org.au,central
+government_agency,City of Bunbury Council,http://www.bunbury.wa.gov.au/SitePages/Council.aspx_,bunbury.wa.gov.au,local
 constitutional_court,Burnie City Council,https://www.burnie.net/,burnie.net,local
+government_agency,Burnie City Council,https://www.burnie.net/,burnie.net,local
+government_agency,City of Burnside,https://www.burnside.sa.gov.au/About-Council,burnside.sa.gov.au,local
+government_agency,Geological Survey of Queensland,https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq,business.qld.gov.au,
+government_agency,Department of Conservation and Land Management,http://www.calm.wa.gov.au/,calm.wa.gov.au,
+government_agency,embassy of Portugal in Australia,https://camberra.embaixadaportugal.mne.gov.pt,camberra.embaixadaportugal.mne.gov.pt,central
+government_agency,embassy of Brazil in Australia,http://camberra.itamaraty.gov.br,camberra.itamaraty.gov.br,central
+government_agency,Corporation of the City of Campbelltown,https://www.campbelltown.sa.gov.au/council,campbelltown.sa.gov.au,local
+government_agency,High Commission of Canada in Australia,https://www.canadainternational.gc.ca/australia-australie/index.aspx,canadainternational.gc.ca,central
+government_agency,embassy of Qatar in Australia,https://canberra.embassy.qa/,canberra.embassy.qa,central
+government_agency,"Embassy of Slovenia, Canberra",http://canberra.embassy.si/,canberra.embassy.si,central
+government_agency,embassy of Romania in Australia,http://canberra.mae.ro,canberra.mae.ro,central
+government_agency,"Embassy of Afghanistan, Canberra",https://www.canberra.mfa.af/,canberra.mfa.af,central
+government_agency,Embassy of Estonia in Canberra,http://canberra.mfa.ee/,canberra.mfa.ee,central
+government_agency,embassy of Azerbaijan in Australia,https://canberra.mfa.gov.az/,canberra.mfa.gov.az,central
+government_agency,embassy of Hungary in Australia,https://canberra.mfa.gov.hu,canberra.mfa.gov.hu,central
+government_agency,embassy of Lebanon in Australia,http://www.canberra.mfa.gov.lb,canberra.mfa.gov.lb,central
+government_agency,embassy of North Macedonia in Australia,https://canberra.mfa.gov.mk,canberra.mfa.gov.mk,central
+government_agency,embassy of Serbia in Australia,http://canberra.mfa.gov.rs,canberra.mfa.gov.rs,central
+government_agency,embassy of Thailand in Australia,https://canberra.thaiembassy.org,canberra.thaiembassy.org,central
+government_agency,Cancer Australia,https://www.canceraustralia.gov.au/,canceraustralia.gov.au,
+government_agency,Cancer Institute of New South Wales,http://www.cancerinstitute.org.au,cancerinstitute.org.au,central-1
+government_agency,Civil Aviation Safety Authority,http://www.casa.gov.au/,casa.gov.au,
+government_agency,Charles Campbell College,http://www.ccc.sa.edu.au/,ccc.sa.edu.au,
+government_agency,Centre for Clinical Interventions,https://www.cci.health.wa.gov.au/,cci.health.wa.gov.au,
+government_agency,Director of Public Prosecutions,https://www.cdpp.gov.au/,cdpp.gov.au,central
+government_agency,Clinical Excellence Commission,https://cec.health.nsw.gov.au,cec.health.nsw.gov.au,
+government_agency,District Council of Ceduna,http://www.ceduna.net,ceduna.net,local
+government_agency,Country Fire Authority,https://www.cfa.vic.gov.au/,cfa.vic.gov.au,central-1
+government_agency,South Australian Country Fire Service,https://www.cfs.sa.gov.au,cfs.sa.gov.au,central-1
+government_agency,"Consulate General of India, Melbourne",http://www.cgimelbourne.gov.in,cgimelbourne.gov.in,
+government_agency,"Consulate General of India, Perth",http://www.cgiperth.org/,cgiperth.org,
+government_agency,"Consulate General of India, Sydney",http://www.cgisydney.gov.in,cgisydney.gov.in,
+government_agency,City of Charles Sturt,http://www.charlessturt.sa.gov.au/,charlessturt.sa.gov.au,local
+government_agency,Department for Child Protection,https://www.childprotection.sa.gov.au/,childprotection.sa.gov.au,central-1
+government_agency,embassy of Chile in Australia,https://chile.gob.cl/australia,chile.gob.cl,central
+government_agency,Corporation of the City of Adelaide,https://www.cityofadelaide.com.au/about-council/your-council/,cityofadelaide.com.au,local
+government_agency,Transport Canberra & City Services,https://www.cityservices.act.gov.au/,cityservices.act.gov.au,central-1
+government_agency,Clare and Gilbert Valleys Council,http://claregilbertvalleys.sa.gov.au/,claregilbertvalleys.sa.gov.au,local
+government_agency,Australian Classification Review Board,http://www.classification.gov.au,classification.gov.au,
+government_agency,Clean Energy Regulator,https://www.cleanenergyregulator.gov.au/,cleanenergyregulator.gov.au,
+government_agency,Climate Change Authority,https://www.climatechangeauthority.gov.au,climatechangeauthority.gov.au,
+government_agency,Crime and Corruption Commission,http://www.cmc.qld.gov.au/%20Crime%20and%20Misconduct%20Commission,cmc.qld.gov.au,
+government_agency,"Chief Minister, Treasury and Economic Development Directorate",https://www.cmtedd.act.gov.au/,cmtedd.act.gov.au,central-1
+government_agency,Comcare,http://www.comcare.gov.au/,comcare.gov.au,
+government_agency,Commonwealth Bank,https://www.commbank.com.au/,commbank.com.au,
+government_agency,Worksafe,https://www.commerce.wa.gov.au/worksafe,commerce.wa.gov.au,
+government_agency,Department of Community Safety,http://www.communitysafety.qld.gov.au/,communitysafety.qld.gov.au,
+government_agency,Community Services Directorate,https://www.communityservices.act.gov.au/,communityservices.act.gov.au,central-1
+government_agency,District Council of Coober Pedy,http://www.cooberpedy.sa.gov.au/,cooberpedy.sa.gov.au,local
+government_agency,The Coorong District Council,http://www.coorong.sa.gov.au/,coorong.sa.gov.au,local
+government_agency,Copyright Tribunal,https://www.copyrighttribunal.gov.au/,copyrighttribunal.gov.au,
+government_agency,Coroner's Court of New South Wales,http://www.coroners.lawlink.nsw.gov.au/coroners/index.html,coroners.lawlink.nsw.gov.au,
+government_agency,Department for Correctional Services,http://www.corrections.sa.gov.au/,corrections.sa.gov.au,central-1
+government_agency,ACT Corrective Services,https://correctiveservices.act.gov.au/,correctiveservices.act.gov.au,central-1
+government_agency,Corrective Services NSW,http://www.correctiveservices.justice.nsw.gov.au/,correctiveservices.justice.nsw.gov.au,central-1
+government_agency,District Council of Robe,http://www.council.robe.sa.gov.au/,council.robe.sa.gov.au,local
+government_agency,County Court of Victoria,https://www.countycourt.vic.gov.au,countycourt.vic.gov.au,central-1
+government_agency,Supreme Court of the Australian Capital Territory,https://www.courts.act.gov.au/supreme,courts.act.gov.au,central-1
+government_agency,Magistrates Court of the Australian Capital Territory,https://www.courts.act.gov.au/magistrates,courts.act.gov.au,central-1
+government_agency,Office of the Sheriff of New South Wales,http://www.courts.justice.nsw.gov.au/,courts.justice.nsw.gov.au,
+government_agency,Supreme Court of South Australia,http://www.courts.sa.gov.au/OurCourts/SupremeCourt/Pages/default.aspx,courts.sa.gov.au,central-1
+government_agency,District Court of South Australia,http://www.courts.sa.gov.au/OurCourts/DistrictCourt/Pages/default.aspx,courts.sa.gov.au,central-1
+government_agency,State Courts Administration Council of South Australia,http://www.courts.sa.gov.au/OurCourts/CourtsAdministrationAuthority/Pages/Governance.aspx,courts.sa.gov.au,central-1
+government_agency,Magistrates Court of South Australia,http://www.courts.sa.gov.au/OurCourts/MagistratesCourt/Pages/default.aspx,courts.sa.gov.au,central-1
+government_agency,Warden’s Court of South Australia,http://www.courts.sa.gov.au/OurCourts/WardensCourt/Pages/default.aspx,courts.sa.gov.au,central-1
+government_agency,Coroner's Court of South Australia,http://www.courts.sa.gov.au/OurCourts/CoronersCourt/Pages/default.aspx,courts.sa.gov.au,central-1
+government_agency,Youth Court of South Australia,http://www.courts.sa.gov.au/OurCourts/YouthCourt/Pages/default.aspx,courts.sa.gov.au,central-1
+government_agency,Courts Administration Authority of South Australia,http://www.courts.sa.gov.au,courts.sa.gov.au,central-1
+government_agency,"Environment, Resources and Development Court of South Australia",http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx,courts.sa.gov.au,
+government_agency,Centre for Australian National Biodiversity Research,http://www.cpbr.gov.au/,cpbr.gov.au,
+government_agency,Cotton Research and Development Corporation,http://www.crdc.com.au/,crdc.com.au,
+government_agency,Creative Victoria,http://creative.vic.gov.au/,creative.vic.gov.au,
+government_agency,New South Wales Crime Commission,http://www.crimecommission.nsw.gov.au,crimecommission.nsw.gov.au,
+government_agency,CSIRO Manufacturing,https://www.csiro.au/en/Research/MF,csiro.au,
+government_agency,Plant Industry,http://www.csiro.au/Organisation-Structure/Divisions/Plant-Industry.aspx,csiro.au,
+government_agency,CSIRO Environment,https://www.csiro.au/en/about/people/business-units/environment,csiro.au,
+government_agency,Division of Entomology,http://www.csiro.au/Organisation-Structure/Divisions/Ecosystem-Sciences.aspx,csiro.au,
+government_agency,CSIRO Mineral Resources,https://www.csiro.au/en/Research/MRF,csiro.au,
+government_agency,Commonwealth Scientific and Industrial Research Organisation,http://www.csiro.au/,csiro.au,
+government_agency,CSIRO Oceans and Atmosphere,http://www.csiro.au/en/Research/OandA,csiro.au,
+government_agency,CSIRO Scientific Computing,https://www.csiro.au/en/Research/Technology/Scientific-computing,csiro.au,
+government_agency,Curtin Connect,https://www.curtin.edu.au/students/connect/,curtin.edu.au,
 constitutional_court,Curtin Connect,https://www.curtin.edu.au/students/connect/,curtin.edu.au,
+government_agency,Australian Cyber Security Centre,https://www.cyber.gov.au,cyber.gov.au,
+government_agency,Australian Cyber Collaboration Centre,https://www.cybercollaboration.org.au,cybercollaboration.org.au,
+government_agency,"Department of Agriculture, Fisheries and Forestry",https://www.daf.qld.gov.au/,daf.qld.gov.au,
+government_agency,Australian Plague Locust Commission,http://www.daff.gov.au/animal-plant-health/locusts,daff.gov.au,
+government_agency,"Department of Agriculture, Fisheries and Forestry",http://www.daff.qld.gov.au,daff.qld.gov.au,
+government_agency,Dairy Australia Limited,http://www.dairyaustralia.com.au/,dairyaustralia.com.au,
+government_agency,"Department of Biodiversity, Conservation and Attractions",https://www.dbca.wa.gov.au/,dbca.wa.gov.au,
+government_agency,Department of Culture and the Arts,http://www.dca.wa.gov.au/,dca.wa.gov.au,
+government_agency,"Department of Climate Change, Energy, the Environment and Water",https://www.dcceew.gov.au/,dcceew.gov.au,central
 ministry,"Department of Climate Change, Energy, the Environment and Water",https://www.dcceew.gov.au/,dcceew.gov.au,
+government_agency,District Council of Grant,http://www.dcgrant.sa.gov.au/,dcgrant.sa.gov.au,local
+government_agency,New South Wales Department of Communities & Justice,https://dcj.nsw.gov.au/,dcj.nsw.gov.au,central-1
 constitutional_court,Department of the Chief Minister,https://dcm.nt.gov.au/,dcm.nt.gov.au,central-1
+government_agency,Department of the Chief Minister,https://dcm.nt.gov.au/,dcm.nt.gov.au,central-1
+government_agency,Department for Child Protection,http://www.dcp.wa.gov.au/Pages/Home.aspx,dcp.wa.gov.au,
+government_agency,"Department for Education, Children and Young People",https://www.decyp.tas.gov.au/,decyp.tas.gov.au,central-1
+government_agency,"Department of Energy, Environment and Climate Action",https://www.deeca.vic.gov.au/,deeca.vic.gov.au,central-1
+government_agency,Australian Geospatial-Intelligence Organisation,http://www.defence.gov.au/AGO/,defence.gov.au,central
+government_agency,Australian Defence Force Academy,https://defence.gov.au/ADFA/,defence.gov.au,
+government_agency,Department of Defence,https://www.defence.gov.au/,defence.gov.au,
+government_agency,Defence Intelligence Organisation,http://www.defence.gov.au/dio/index.shtml,defence.gov.au,
+government_agency,Australian Defence College,http://www.defence.gov.au/adc/,defence.gov.au,
 ministry,Department of Defence,https://www.defence.gov.au/,defence.gov.au,
+government_agency,Defence SA,https://defencesa.com/,defencesa.com,central-1
+government_agency,Dementia Collaborative Research Centres,http://www.dementiaresearch.org.au/,dementiaresearch.org.au,
+government_agency,Department of Environment and Primary Industries,http://www.depi.vic.gov.au/,depi.vic.gov.au,
+government_agency,"Department of Environment, Parks and Water Security",https://depws.nt.gov.au,depws.nt.gov.au,
+government_agency,Department of Environment Regulation,https://www.der.wa.gov.au/,der.wa.gov.au,
+government_agency,Department of Environment and Science,http://www.des.qld.gov.au/,des.qld.gov.au,central-1
+government_agency,Destination NSW,http://www.destinationnsw.com.au,destinationnsw.com.au,central-1
+government_agency,Department of Employment and Workplace Relations,https://www.dewr.gov.au/,dewr.gov.au,
 ministry,Department of Employment and Workplace Relations,https://www.dewr.gov.au/,dewr.gov.au,
+government_agency,Australia Awards,https://dfat.gov.au/people-to-people/australia-awards/Pages/australia-awards.aspx,dfat.gov.au,
 ministry,Department of Foreign Affairs and Trade,https://www.dfat.gov.au/,dfat.gov.au,
+government_agency,Council for Australian-Arab Relations,https://www.dfat.gov.au/people-to-people/foundations-councils-institutes/caar/council-for-australian-arab-relations,dfat.gov.au,
+government_agency,Australian National Commission for UNESCO,https://www.dfat.gov.au/intorgs/unesco/,dfat.gov.au,
+government_agency,Australia-Korea Foundation,https://www.dfat.gov.au/akf,dfat.gov.au,
+government_agency,Department of Foreign Affairs and Trade,https://www.dfat.gov.au/,dfat.gov.au,
+government_agency,Department of Fire and Emergency Services,https://www.dfes.wa.gov.au/,dfes.wa.gov.au,
+government_agency,"Department of Families, Fairness and Housing",https://www.dffh.vic.gov.au/,dffh.vic.gov.au,central-1
+government_agency,Defence Housing Australia,http://www.dha.gov.au,dha.gov.au,central
+government_agency,Department of Housing and Community Development,https://dhcd.nt.gov.au/,dhcd.nt.gov.au,
+government_agency,Tasmanian Ambulance Service,http://www.dhhs.tas.gov.au/service_information/hospitals/tasmanian_ambulance_service,dhhs.tas.gov.au,
+government_agency,Department of Human Services,https://dhs.sa.gov.au/,dhs.sa.gov.au,central-1
 ministry,"Department of Infrastructure, Energy and Resources",http://www.dier.tas.gov.au/,dier.tas.gov.au,
+government_agency,"Department of Infrastructure, Energy and Resources",http://www.dier.tas.gov.au/,dier.tas.gov.au,
+government_agency,Cyber Security NSW,https://www.digital.nsw.gov.au/delivery/cyber-security,digital.nsw.gov.au,
+government_agency,Australian Digital Health Agency,https://www.digitalhealth.gov.au/,digitalhealth.gov.au,central
+government_agency,"Honorary Consulate of South Africa, Melbourne",http://www.dirco.gov.za/foreign/sa_abroad/saa.htm#aus,dirco.gov.za,
 constitutional_court,Cabinet of Australia,https://www.directory.gov.au/commonwealth-parliament/cabinet,directory.gov.au,central
+government_agency,Cabinet of Australia,https://www.directory.gov.au/commonwealth-parliament/cabinet,directory.gov.au,central
+government_agency,Federal Executive Council (Australia),https://www.directory.gov.au/governor-general/federal-executive-council,directory.gov.au,central
+government_agency,District Court of New South Wales,https://www.districtcourt.nsw.gov.au,districtcourt.nsw.gov.au,central-1
+government_agency,District Court of Western Australia,http://www.districtcourt.wa.gov.au/,districtcourt.wa.gov.au,
+government_agency,Department for Infrastructure and Transport,https://www.dit.sa.gov.au/,dit.sa.gov.au,central-1
+government_agency,"Department of Jobs, Precincts and Regions",https://djpr.vic.gov.au/,djpr.vic.gov.au,central-1
+government_agency,"Department of Jobs, Skills, Industry and Regions",https://djsir.vic.gov.au/,djsir.vic.gov.au,
+government_agency,Geological Survey of Western Australia,http://www.dmp.wa.gov.au/371.aspx,dmp.wa.gov.au,
+government_agency,"Department of Mines, Industry Regulation and Safety",http://www.dmp.wa.gov.au/index.aspx,dmp.wa.gov.au,
+government_agency,Defence Materials Technology Centre,http://dmtc.com.au/,dmtc.com.au,
+government_agency,Department of Consumer and Employment Protection,http://www.docep.wa.gov.au/,docep.wa.gov.au,
+government_agency,Organ and Tissue Authority,https://donatelife.gov.au/,donatelife.gov.au,
+government_agency,Department of Justice,http://www.dotag.wa.gov.au/,dotag.wa.gov.au,
+government_agency,Department of Parks and Wildlife,http://www.dpaw.wa.gov.au/,dpaw.wa.gov.au,
+government_agency,Department of Premier and Cabinet,http://www.dpc.nsw.gov.au,dpc.nsw.gov.au,
 ministry,Department of Premier and Cabinet,http://www.dpc.nsw.gov.au,dpc.nsw.gov.au,
+government_agency,Department of the Premier and Cabinet,http://www.dpc.sa.gov.au/,dpc.sa.gov.au,central-1
+government_agency,Department of the Premier and Cabinet,https://www.dpc.wa.gov.au/,dpc.wa.gov.au,
 ministry,Department of Primary Industries,https://www.dpi.nsw.gov.au/,dpi.nsw.gov.au,
+government_agency,Department of Primary Industries,https://www.dpi.nsw.gov.au/,dpi.nsw.gov.au,
+government_agency,Department for Planning and Infrastructure,http://www.dpi.wa.gov.au/,dpi.wa.gov.au,
+government_agency,Department of Primary Industry and Resources,https://dpir.nt.gov.au/,dpir.nt.gov.au,
+government_agency,Department of Primary Industries and Regional Development,https://www.dpird.wa.gov.au/,dpird.wa.gov.au,
+government_agency,"Department of Planning, Lands and Heritage",http://www.dplh.wa.gov.au/,dplh.wa.gov.au,central-1
 ministry,Department of the Prime Minister and Cabinet,http://www.dpmc.gov.au/,dpmc.gov.au,
+government_agency,Department of the Prime Minister and Cabinet,http://www.dpmc.gov.au/,dpmc.gov.au,
+government_agency,Director of Public Prosecutions,https://www.dpp.sa.gov.au/,dpp.sa.gov.au,
+government_agency,Department of Sport and Recreation,http://www.dsr.wa.gov.au/,dsr.wa.gov.au,
+government_agency,Department of Social Services,https://www.dss.gov.au/,dss.gov.au,
 ministry,Department of Social Services,https://www.dss.gov.au/,dss.gov.au,
+government_agency,Defence Science and Technology Group,https://www.dst.defence.gov.au/,dst.defence.gov.au,central
+government_agency,Digital Transformation Agency,https://www.dta.gov.au/,dta.gov.au,central
+government_agency,"Department of Trade, Business and Asian Relations",https://dtbar.nt.gov.au,dtbar.nt.gov.au,
+government_agency,Department of Treasury and Finance,http://www.dtf.vic.gov.au/,dtf.vic.gov.au,central-1
+government_agency,Department for Trade and Investment,https://dti.sa.gov.au/,dti.sa.gov.au,central-1
 ministry,Department of Veterans' Affairs,http://www.dva.gov.au/,dva.gov.au,
+government_agency,Office of Australian War Graves,http://www.dva.gov.au/commem/oawg/general.htm,dva.gov.au,
+government_agency,Department of Veterans' Affairs,http://www.dva.gov.au/,dva.gov.au,
+government_agency,embassy of Argentina in Australia,https://eaust.cancilleria.gob.ar,eaust.cancilleria.gob.ar,central
+government_agency,Electoral Commission of Queensland,http://www.ecq.qld.gov.au/,ecq.qld.gov.au,central-1
+government_agency,Electoral Commission of South Australia,https://www.ecsa.sa.gov.au/,ecsa.sa.gov.au,central-1
+government_agency,embassy of Switzerland in Australia,https://www.eda.admin.ch/canberra,eda.admin.ch,central
+government_agency,Electoral Districts Boundaries Commission,http://edbc.sa.gov.au/,edbc.sa.gov.au,
+government_agency,ACT Education Directorate,https://www.education.act.gov.au/,education.act.gov.au,
+government_agency,Department of Education,https://www.education.gov.au,education.gov.au,
 ministry,Department of Education,https://www.education.gov.au,education.gov.au,
+government_agency,NSW Office for Learning and Teaching,https://education.nsw.gov.au/teaching-and-learning,education.nsw.gov.au,
+government_agency,NSW Department of Education,https://education.nsw.gov.au/,education.nsw.gov.au,
 ministry,NSW Department of Education,https://education.nsw.gov.au/,education.nsw.gov.au,
+government_agency,Queensland Department of Education,https://education.qld.gov.au/,education.qld.gov.au,central-1
+government_agency,Department for Education,https://www.education.sa.gov.au/,education.sa.gov.au,central-1
+government_agency,Department of Education,https://education.vic.gov.au/,education.vic.gov.au,central-1
+government_agency,Department of Education,https://www.education.wa.edu.au/,education.wa.edu.au,
+government_agency,NSW Education Standards Authority,http://educationstandards.nsw.edu.au/,educationstandards.nsw.edu.au,
+government_agency,Delegation of the European Union to Australia,https://eeas.europa.eu/delegations/australia_en,eeas.europa.eu,
+government_agency,Export Finance and Insurance Corporation,http://www.efic.gov.au/,efic.gov.au,central
+government_agency,Australian Capital Territory Electoral Commission,https://www.elections.act.gov.au/,elections.act.gov.au,central-1
+government_agency,New South Wales Electoral Commission,https://www.elections.nsw.gov.au/,elections.nsw.gov.au,central-1
+government_agency,Western Australian Electoral Commission,https://www.elections.wa.gov.au/,elections.wa.gov.au,central-1
+government_agency,Tasmanian Electoral Commission,http://www.electoral.tas.gov.au/,electoral.tas.gov.au,central-1
+government_agency,District Council of Elliston,http://www.elliston.sa.gov.au/,elliston.sa.gov.au,local
+government_agency,Embassy of El Salvador in Canberra,http://embajadaaustralia.rree.gob.sv/,embajadaaustralia.rree.gob.sv,central
+government_agency,embassy of Mexico in Australia,https://embamex.sre.gob.mx/australia/,embamex.sre.gob.mx,central
+government_agency,embassy of Israel in Australia,https://embassies.gov.il/canberra,embassies.gov.il,central
+government_agency,embassy of Israel in Australia,https://embassies.gov.il/canberra/Pages/default.aspx,embassies.gov.il,central
+government_agency,"Embassy of Saudi Arabia, Canberra",https://embassies.mofa.gov.sa/sites/Australia/AR/Pages/default.aspx,embassies.mofa.gov.sa,central
+government_agency,embassy of Cambodia in Australia,https://www.embassyofcambodia.org.au/,embassyofcambodia.org.au,central
+government_agency,EMBL Australia,http://www.emblaustralia.org/,emblaustralia.org,
+government_agency,Employment Plus,https://www.employmentplus.com.au/,employmentplus.com.au,
+government_agency,Emergency Management Victoria,https://www.emv.vic.gov.au/,emv.vic.gov.au,
+government_agency,embassy of Sudan in Australia,https://en.sudanicanberra.com/,en.sudanicanberra.com,central
+government_agency,Department for Energy and Mining,http://www.energymining.sa.gov.au/,energymining.sa.gov.au,central-1
+government_agency,"Environment, Planning and Sustainable Development Directorate",https://www.environment.act.gov.au/,environment.act.gov.au,central-1
+government_agency,Director of National Parks,http://www.environment.gov.au/topics/national-parks/parks-australia/director-national-parks,environment.gov.au,
+government_agency,Office of Environment and Heritage,https://www.environment.nsw.gov.au/,environment.nsw.gov.au,central-1
+government_agency,Department for Environment and Water,http://www.environment.sa.gov.au/Home,environment.sa.gov.au,central-1
+government_agency,New South Wales Environment Protection Authority,https://www.epa.nsw.gov.au/,epa.nsw.gov.au,central-1
+government_agency,Environment Protection Authority,https://www.epa.sa.gov.au,epa.sa.gov.au,central-1
+government_agency,Environment Protection Authority Victoria,http://www.epa.vic.gov.au/,epa.vic.gov.au,central-1
+government_agency,Environmental Protection Authority of Western Australia,https://www.epa.wa.gov.au,epa.wa.gov.au,central-1
+government_agency,Australian Capital Territory Ambulance Service,https://esa.act.gov.au/ambulance,esa.act.gov.au,central-1
+government_agency,Australian Capital Territory Emergency Services Agency,https://www.esa.act.gov.au/,esa.act.gov.au,central-1
+government_agency,ACT Rural Fire Service,https://esa.act.gov.au/rural-fire-service,esa.act.gov.au,
+government_agency,ACT Fire and Rescue,https://www.esa.act.gov.au/fire-rescue,esa.act.gov.au,central-1
+government_agency,Office of the eSafety Commissioner,https://www.esafety.gov.au/,esafety.gov.au,
+government_agency,Essential Services Commission of South Australia,https://www.escosa.sa.gov.au,escosa.sa.gov.au,central-1
+government_agency,embassy of Ethiopia in Australia,http://www.ethiopianembassy.net/,ethiopianembassy.net,central
+government_agency,"Embassy of Spain, Canberra",http://www.exteriores.gob.es/Embajadas/Canberra/es/Paginas/inicio.aspx,exteriores.gob.es,central
+government_agency,Q5431205,http://www.faithlutheran.qld.edu.au/,faithlutheran.qld.edu.au,
+government_agency,Family Court of Western Australia,https://www.familycourt.wa.gov.au/,familycourt.wa.gov.au,
+government_agency,Federal Circuit and Family Court of Australia,https://www.fcfcoa.gov.au/,fcfcoa.gov.au,central
+government_agency,Federal Court of Australia,http://www.fedcourt.gov.au/,fedcourt.gov.au,central
+government_agency,Forest Fire Management Victoria,https://www.ffm.vic.gov.au/,ffm.vic.gov.au,
+government_agency,high commission of Fiji in Australia,https://www.fijihighcommission.com.au/,fijihighcommission.com.au,central
+government_agency,Department of Finance,https://www.finance.gov.au/,finance.gov.au,central
 ministry,Department of Finance,https://www.finance.gov.au/,finance.gov.au,
+government_agency,Public Utilities Office,http://www.finance.wa.gov.au/cms/Public_Utilities_Office/,finance.wa.gov.au,
+government_agency,Embassy of Finland to Australia,https://finlandabroad.fi/web/aus/,finlandabroad.fi,central
+government_agency,Foreign Investment Review Board,http://www.firb.gov.au/content/default.asp,firb.gov.au,
+government_agency,Fire and Rescue NSW,https://www.fire.nsw.gov.au/,fire.nsw.gov.au,central-1
+government_agency,Tasmania Fire Service,https://www.fire.tas.gov.au,fire.tas.gov.au,central-1
+government_agency,Western Australia Department of Fisheries,https://www.fish.wa.gov.au,fish.wa.gov.au,
+government_agency,New South Wales Food Authority,http://www.foodauthority.nsw.gov.au,foodauthority.nsw.gov.au,
+government_agency,Food Standards Australia New Zealand,https://www.foodstandards.gov.au/Pages/default.aspx,foodstandards.gov.au,
+government_agency,high commission of Malta in Australia,https://foreignandeu.gov.mt/en/Embassies/Hc_Canberra,foreignandeu.gov.mt,central
+government_agency,Forestry Corporation,http://www.forestrycorporation.com.au/,forestrycorporation.com.au,
+government_agency,Forestry SA,https://www.forestrysa.com.au/,forestrysa.com.au,central-1
+government_agency,Sustainable Timber Tasmania,http://www.forestrytas.com.au/,forestrytas.com.au,
+government_agency,Forest Products Commission,http://www.fpc.wa.gov.au/,fpc.wa.gov.au,
+government_agency,Fisheries Research and Development Corporation,http://www.frdc.com.au,frdc.com.au,
+government_agency,Fremantle Ports,http://www.fremantleports.com.au,fremantleports.com.au,
+government_agency,Fire Rescue Victoria,https://www.frv.vic.gov.au/,frv.vic.gov.au,
+government_agency,Fair Work Commission,https://www.fwc.gov.au/,fwc.gov.au,
+government_agency,Far West Local Health District,http://www.fwlhd.health.nsw.gov.au/,fwlhd.health.nsw.gov.au,
+government_agency,Goulburn–Murray Water,https://www.g-mwater.com.au/,g-mwater.com.au,
+government_agency,Goulburn–Murray Water,http://www.g-mwater.com.au/,g-mwater.com.au,
+government_agency,Geoscience Australia,http://www.ga.gov.au/,ga.gov.au,
+government_agency,Corporation of the Town of Gawler,http://www.gawler.sa.gov.au/,gawler.sa.gov.au,local
+government_agency,Goulburn Broken Catchment Management Authority,https://www.gbcma.vic.gov.au/,gbcma.vic.gov.au,
+government_agency,Great Barrier Reef Marine Park Authority,http://www.gbrmpa.gov.au/,gbrmpa.gov.au,central
+government_agency,Gawler and District College,http://gdc.sa.edu.au/,gdc.sa.edu.au,
+government_agency,high commission of Ghana in Australia,https://ghanahighcom.org.au/,ghanahighcom.org.au,central
+government_agency,Geographical Names Board of New South Wales,http://www.gnb.nsw.gov.au/,gnb.nsw.gov.au,central-1
+government_agency,embassy of Peru in Australia,https://www.gob.pe/embajada-del-peru-en-australia/,gob.pe,central
+government_agency,City of Gold Coast,https://www.goldcoast.qld.gov.au/,goldcoast.qld.gov.au,local
+government_agency,"Embassy of Poland, Canberra",https://www.gov.pl/web/australia,gov.pl,central
+government_agency,"British High Commission, Canberra",https://www.gov.uk/world/organisations/british-high-commission-canberra,gov.uk,central
+government_agency,British Consulate General Sydney,https://www.gov.uk/world/organisations/british-consulate-general-sydney,gov.uk,
+government_agency,British Consulate Perth,https://www.gov.uk/world/organisations/british-consulate-perth,gov.uk,
+government_agency,British Consulate General Melbourne,https://www.gov.uk/world/organisations/british-consulate-general-melbourne,gov.uk,
+government_agency,British Consulate Brisbane,https://www.gov.uk/world/organisations/british-consulate-general-brisbane,gov.uk,
+government_agency,Regional Council of Goyder,http://www.goyder.sa.gov.au/,goyder.sa.gov.au,local
+government_agency,Grains Research and Development Corporation,http://www.grdc.com.au/,grdc.com.au,
+government_agency,Australian Greenhouse Office,http://www.greenhouse.gov.au/,greenhouse.gov.au,
+government_agency,National Centre for Groundwater Research and Training,http://www.groundwater.com.au/,groundwater.com.au,
+government_agency,Greater Southern Area Health Service,http://www.gsahs.nsw.gov.au,gsahs.nsw.gov.au,
+government_agency,Pharmacy Guild of Australia,http://guild.org.au/,guild.org.au,
+government_agency,High Blood Pressure Research Council of Australia,http://www.hbprca.com.au/,hbprca.com.au,
+government_agency,"High Commission of India, Canberra",https://www.hcicanberra.gov.in,hcicanberra.gov.in,central
+government_agency,High Court of Australia,https://www.hcourt.gov.au/,hcourt.gov.au,central
+government_agency,ACT Health Directorate,https://www.health.act.gov.au/,health.act.gov.au,central-1
+government_agency,Medical Research Future Fund,https://www.health.gov.au/our-work/mrff,health.gov.au,
+government_agency,Australian Health Protection Principal Committee,https://www.health.gov.au/committees-and-groups/australian-health-protection-principal-committee-ahppc,health.gov.au,
+government_agency,"Department of Health, Disability and Ageing",https://health.gov.au,health.gov.au,
 ministry,"Department of Health, Disability and Ageing",https://health.gov.au,health.gov.au,
+government_agency,Ministry of Health,https://www.health.nsw.gov.au/,health.nsw.gov.au,
 ministry,Ministry of Health,https://www.health.nsw.gov.au/,health.nsw.gov.au,
+government_agency,Northern Territory Health Services,https://health.nt.gov.au,health.nt.gov.au,
+government_agency,Queensland Health,https://www.health.qld.gov.au/,health.qld.gov.au,
+government_agency,Department of Health,https://www.health.tas.gov.au,health.tas.gov.au,central-1
+government_agency,Healthway,https://www.healthway.wa.gov.au/,healthway.wa.gov.au,
+government_agency,Hearing Australia,https://www.hearing.com.au/,hearing.com.au,
+government_agency,Helena College,https://www.helenacollege.wa.edu.au,helenacollege.wa.edu.au,
+government_agency,New South Wales State Heritage Register,https://www.heritage.nsw.gov.au/search-for-heritage/state-heritage-inventory/,heritage.nsw.gov.au,central-1
+government_agency,Heritage Council of Victoria,https://heritagecouncil.vic.gov.au/,heritagecouncil.vic.gov.au,central-1
+government_agency,City of Holdfast Bay,http://www.holdfast.sa.gov.au,holdfast.sa.gov.au,local
+government_agency,Australian Department of Home Affairs,http://www.homeaffairs.gov.au/,homeaffairs.gov.au,
 ministry,Australian Department of Home Affairs,http://www.homeaffairs.gov.au/,homeaffairs.gov.au,
+government_agency,Horticulture Innovation Australia Limited,http://www.horticulture.com.au/,horticulture.com.au,
+government_agency,South Australian Housing Authority,https://www.housing.sa.gov.au/,housing.sa.gov.au,central-1
+government_agency,High Speed Rail Authority,https://www.hsra.gov.au/,hsra.gov.au,
+government_agency,Australian Human Rights Commission,https://www.humanrights.gov.au/,humanrights.gov.au,central
+government_agency,Indigenous Business Australia (IBA),http://www.iba.gov.au/,iba.gov.au,
+government_agency,Independent Commission Against Corruption,http://www.icac.nsw.gov.au,icac.nsw.gov.au,central-1
+government_agency,Independent Commissioner Against Corruption,https://icac.nt.gov.au,icac.nt.gov.au,central-1
+government_agency,The Intergovernmental Committee on Surveying and Mapping,https://www.icsm.gov.au/,icsm.gov.au,
+government_agency,Inland Fisheries Service,https://www.ifs.tas.gov.au/,ifs.tas.gov.au,
+government_agency,Indigenous Land and Sea Corporation,https://www.ilsc.gov.au/,ilsc.gov.au,
+government_agency,Australian Industrial Chemicals Introduction Scheme,https://www.industrialchemicals.gov.au,industrialchemicals.gov.au,
+government_agency,Australian Space Agency,https://www.industry.gov.au/australian-space-agency,industry.gov.au,
+government_agency,Department for Industry and Skills,http://www.industryandskills.sa.gov.au/,industryandskills.sa.gov.au,central-1
 ministry,"Department of Infrastructure, Transport, Regional Development, Communications and the Arts",http://www.infrastructure.gov.au/,infrastructure.gov.au,
+government_agency,"Department of Infrastructure, Transport, Regional Development, Communications and the Arts",http://www.infrastructure.gov.au/,infrastructure.gov.au,
+government_agency,Infrastructure NSW,http://www.infrastructure.nsw.gov.au,infrastructure.nsw.gov.au,
+government_agency,Infrastructure Australia,http://www.infrastructureaustralia.gov.au/,infrastructureaustralia.gov.au,
+government_agency,IP Australia,http://www.ipaustralia.gov.au,ipaustralia.gov.au,central
+government_agency,embassy of Ireland in Australia,https://www.ireland.ie/en/australia/canberra/,ireland.ie,central
+government_agency,Joint Agency Coordination Centre,http://www.jacc.gov.au/,jacc.gov.au,
+government_agency,Jobs and Skills Australia,https://www.jobsandskills.gov.au/,jobsandskills.gov.au,
+government_agency,embassy of Jordan in Australia,https://jordanembassy.org.au,jordanembassy.org.au,central
+government_agency,Justice and Community Safety Directorate,https://justice.act.gov.au/,justice.act.gov.au,
+government_agency,Department of Justice,https://www.justice.tas.gov.au/,justice.tas.gov.au,
+government_agency,Department of Justice and Community Safety,https://www.justice.vic.gov.au/,justice.vic.gov.au,
+government_agency,Department of Justice,https://www.justice.wa.gov.au/,justice.wa.gov.au,
+government_agency,"Embassy of Turkey, Canberra",https://kanberra-be.mfa.gov.tr,kanberra-be.mfa.gov.tr,central
+government_agency,"consulate of Indonesia, Darwin",https://kemlu.go.id/darwin,kemlu.go.id,central-1
+government_agency,"embassy of Indonesia, Canberra",https://kemlu.go.id/canberra,kemlu.go.id,central
+government_agency,"consulate general of Indonesia, Sydney",https://kemlu.go.id/sydney,kemlu.go.id,central-1
+government_agency,"consulate general of Indonesia, Perth",https://kemlu.go.id/perth,kemlu.go.id,central-1
+government_agency,"consulate general of Indonesia, Melbourne",https://kemlu.go.id/melbourne,kemlu.go.id,central-1
+government_agency,high commission of Kenya in Australia,https://www.kenya.asn.au/,kenya.asn.au,central
+government_agency,"High Commission of Malaysia, Canberra",https://www.kln.gov.my/web/aus_canberra,kln.gov.my,central
+government_agency,embassy of Kuwait in Australia,http://www.kuwaitemb-australia.com/,kuwaitemb-australia.com,central
+government_agency,Landgate,http://www.landgate.wa.gov.au/,landgate.wa.gov.au,
+government_agency,"Department of Lands and Surveys, Western Australia",http://www.landgate.wa.gov.au/,landgate.wa.gov.au,
+government_agency,Department of Land Resource Management,https://landresources.nt.gov.au/,landresources.nt.gov.au,
+government_agency,embassy of Laos in Australia,http://www.laosembassy.net/,laosembassy.net,central
+government_agency,South Australian Law Reform Institute,https://law.adelaide.edu.au/research/law-reform-institute,law.adelaide.edu.au,central-1
+government_agency,Victims Compensation Tribunal,http://www.lawlink.nsw.gov.au/lawlink/victimsservices/ll_vs.nsf/pages/VS_aboutus#tribunal,lawlink.nsw.gov.au,
 ministry,Department of Attorney General and Justice,http://www.lawlink.nsw.gov.au/Lawlink/Corporate/ll_corporate.nsf/pages/attorney_generals_department_index,lawlink.nsw.gov.au,
+government_agency,Law Reform Commission of New South Wales,http://www.lawlink.nsw.gov.au/lrc,lawlink.nsw.gov.au,
+government_agency,Department of Attorney General and Justice,http://www.lawlink.nsw.gov.au/Lawlink/Corporate/ll_corporate.nsf/pages/attorney_generals_department_index,lawlink.nsw.gov.au,
+government_agency,Victoria Legal Aid,http://www.legalaid.vic.gov.au/,legalaid.vic.gov.au,
+government_agency,Level Crossing Removal Authority,http://levelcrossings.vic.gov.au,levelcrossings.vic.gov.au,
+government_agency,Tasmanian Archive and Heritage Office,https://www.libraries.tas.gov.au/archive-heritage/Pages/default.aspx,libraries.tas.gov.au,
+government_agency,Lifetime Support Authority,https://www.lifetimesupport.sa.gov.au,lifetimesupport.sa.gov.au,
+government_agency,Light Regional Council,http://www.light.sa.gov.au/,light.sa.gov.au,local
+government_agency,Local Court of New South Wales,http://www.localcourt.lawlink.nsw.gov.au/localcourts/index.html,localcourt.lawlink.nsw.gov.au,
+government_agency,Logan City Council,http://www.logan.qld.gov.au/,logan.qld.gov.au,local
+government_agency,District Council of Loxton Waikerie,http://www.loxtonwaikerie.sa.gov.au,loxtonwaikerie.sa.gov.au,local
+government_agency,Legal Services Commission of South Australia,http://www.lsc.sa.gov.au/,lsc.sa.gov.au,central-1
+government_agency,Magistrates Court of Tasmania,https://www.magistratescourt.tas.gov.au/,magistratescourt.tas.gov.au,central-1
+government_agency,Motor Accident Insurance Commission,https://maic.qld.gov.au,maic.qld.gov.au,
+government_agency,Main Roads Western Australia,https://www.mainroads.wa.gov.au/,mainroads.wa.gov.au,
+government_agency,Adelaide Plains Council,http://www.mallala.sa.gov.au/,mallala.sa.gov.au,local
+government_agency,Migration Agents Registration Authority,https://www.mara.gov.au/,mara.gov.au,
+government_agency,Corporation of the City of Marion,https://www.marion.sa.gov.au/about-council,marion.sa.gov.au,local
+government_agency,MatchWorks,https://www.matchworks.com.au,matchworks.com.au,
+government_agency,MAX,https://maxsolutions.com.au/,maxsolutions.com.au,
+government_agency,Medical Council of New South Wales,https://www.mcnsw.org.au,mcnsw.org.au,central-1
+government_agency,Magistrates' Court of Victoria,https://www.mcv.vic.gov.au/,mcv.vic.gov.au,central-1
+government_agency,Murray-Darling Basin Authority,http://www.mdba.gov.au/,mdba.gov.au,
+government_agency,"National Measurement Institute, Australia",http://www.measurement.gov.au/Pages/default.aspx,measurement.gov.au,
+government_agency,embassy of Myanmar in Australia,http://www.mecanberra.com.au,mecanberra.com.au,central
+government_agency,Medibank Private,https://www.medibank.com.au,medibank.com.au,
+government_agency,Medicare Australia,http://www.medicareaustralia.gov.au/,medicareaustralia.gov.au,
+government_agency,"Consulate-General of Japan, Melbourne",https://www.melbourne.au.emb-japan.go.jp,melbourne.au.emb-japan.go.jp,
+government_agency,Melbourne Water,https://www.melbournewater.com.au,melbournewater.com.au,
+government_agency,"Consulate General of Turkey, Melbourne",https://melburn-bk.mfa.gov.tr,melburn-bk.mfa.gov.tr,
+government_agency,Minerals and Energy Research Institute of Western Australia,http://meriwa.wa.gov.au/,meriwa.wa.gov.au,
+government_agency,Metropolitan Memorial Parks,https://www.metropolitanmemorialparks.com.au/,metropolitanmemorialparks.com.au,
+government_agency,embassy of Bulgaria in Australia,https://www.mfa.bg/embassies/australia,mfa.bg,central
+government_agency,high commission of Cyprus in Australia,http://www.mfa.gov.cy/mfa/highcom/highcomcanberra.nsf,mfa.gov.cy,central
+government_agency,High Commission of Singapore in Canberra,https://www.mfa.gov.sg/canberra,mfa.gov.sg,central
+government_agency,"Embassy of Greece, Canberra",https://www.mfa.gr/australia/,mfa.gr,central
+government_agency,"High Commission of New Zealand, Canberra",https://www.mfat.govt.nz/en/countries-and-regions/australia/new-zealand-high-commission/,mfat.govt.nz,central
+government_agency,South Australian Metropolitan Fire Service,https://www.mfs.sa.gov.au/home/,mfs.sa.gov.au,central-1
+government_agency,Mental Health Commission,https://www.mhc.wa.gov.au/,mhc.wa.gov.au,
+government_agency,Minerals Council of Australia,http://www.minerals.org.au/,minerals.org.au,
+government_agency,Geological Survey of South Australia,http://www.minerals.statedevelopment.sa.gov.au/about_us#gssa,minerals.statedevelopment.sa.gov.au,local
+government_agency,Geological Survey of Victoria,http://www.minerals.statedevelopment.sa.gov.au/about_us#gssa,minerals.statedevelopment.sa.gov.au,
+government_agency,Embassy of Panama in Australia,https://mire.gob.pa/ministerio/embajada-y-consulado/camberra/,mire.gob.pa,central
+government_agency,embassy of Cuba in Australia,http://misiones.minrex.gob.cu/australia,misiones.minrex.gob.cu,central
+government_agency,City of Mitcham,https://www.mitchamcouncil.sa.gov.au/Our-city-and-council/your-council,mitchamcouncil.sa.gov.au,local
+government_agency,Meat and Livestock Australia,http://www.mla.com.au/,mla.com.au,
+government_agency,Old Parliament House,http://moadoph.gov.au/,moadoph.gov.au,
+government_agency,embassy of Iraq in Australia,http://www.mofa.gov.iq/canberra/,mofa.gov.iq,central
+government_agency,"Consulate General of the United Arab Emirates, Melbourne",https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=4c4715f0-3ec8-4c63-bc79-2a66b7a535a0,mofaic.gov.ae,
+government_agency,embassy of Mongolia in Australia,http://mongolianembassy.org.au,mongolianembassy.org.au,central
+government_agency,Melbourne and Olympic Park Trust,https://mopt.com.au/,mopt.com.au,
+government_agency,embassy of Morocco in Australia,http://www.moroccoembassy.org.au/,moroccoembassy.org.au,central
+government_agency,Moss Vale Rural Fire Brigade,https://www.mossvalerfb.org.au,mossvalerfb.org.au,
+government_agency,Corporation of the City of Mount Gambier,http://www.mountgambier.sa.gov.au,mountgambier.sa.gov.au,local
+government_agency,Metropolitan Redevelopment Authority,http://www.mra.wa.gov.au/,mra.wa.gov.au,
+government_agency,embassy of Paraguay in Australia,https://www.mre.gov.py/embapar-australia/,mre.gov.py,central
+government_agency,Minerals Research Institute of Western Australia,https://www.mriwa.wa.gov.au,mriwa.wa.gov.au,
+government_agency,Maritime Safety Queensland,http://www.msq.qld.gov.au/,msq.qld.gov.au,
+government_agency,Victorian Multicultural Commission,http://www.multicultural.vic.gov.au/,multicultural.vic.gov.au,
+government_agency,embassy of the Czech Republic in Australia,https://www.mzv.cz/canberra,mzv.cz,central
+government_agency,embassy of Slovakia in Australia,https://www.mzv.sk/canberra,mzv.sk,central
+government_agency,National Archives of Australia,https://www.naa.gov.au/,naa.gov.au,central
+government_agency,National Anti-Corruption Commission,https://www.nacc.gov.au/,nacc.gov.au,
+government_agency,Northern Areas Council,http://www.nacouncil.sa.gov.au/,nacouncil.sa.gov.au,local
+government_agency,National Drug Strategy,http://www.nationaldrugstrategy.gov.au/,nationaldrugstrategy.gov.au,
+government_agency,NSW National Parks and Wildlife Service,https://www.nationalparks.nsw.gov.au/,nationalparks.nsw.gov.au,
+government_agency,National Critical Care and Trauma Response Centre,https://www.nationaltraumacentre.nt.gov.au/,nationaltraumacentre.nt.gov.au,
+government_agency,North Central Catchment Management Authority,https://www.nccma.vic.gov.au/,nccma.vic.gov.au,
+government_agency,NDIS Quality and Safeguards Commission,https://www.ndiscommission.gov.au,ndiscommission.gov.au,central-1
+government_agency,National Electronic Health Transition Authority,http://www.nehta.gov.au/,nehta.gov.au,
+government_agency,National Emergency Management Agency,https://nema.gov.au/,nema.gov.au,
+government_agency,National Film and Sound Archive of Australia,http://www.nfsa.gov.au/,nfsa.gov.au,
+government_agency,National Gallery of Australia,https://nga.gov.au/,nga.gov.au,
+government_agency,National Health and Medical Research Council,http://www.nhmrc.gov.au/,nhmrc.gov.au,
+government_agency,National Indigenous Australians Agency,https://www.niaa.gov.au/,niaa.gov.au,
+government_agency,National Industrial Chemicals Notification and Assessment Scheme,https://www.nicnas.gov.au,nicnas.gov.au,
+government_agency,National Institute of Dramatic Art,https://www.nida.edu.au/,nida.edu.au,
+government_agency,High Commission of Nigeria in Canberra,https://nigeria-can.org.au/,nigeria-can.org.au,central
+government_agency,National Library of Australia,https://www.nla.gov.au/,nla.gov.au,central
+government_agency,National Museum of Australia,http://www.nma.gov.au/,nma.gov.au,
+government_agency,National Native Title Tribunal,http://www.nntt.gov.au,nntt.gov.au,central
+government_agency,National Offshore Petroleum Safety Authority,http://www.nopsema.gov.au/,nopsema.gov.au,
+government_agency,National Offshore Petroleum Safety and Environmental Management Authority,https://www.nopsema.gov.au/,nopsema.gov.au,
+government_agency,National Offshore Petroleum Titles Administrator,https://www.nopta.gov.au/,nopta.gov.au,
+government_agency,"Embassy of Norway, Canberra",https://www.norway.no/en/australia/,norway.no,central
+government_agency,"City of Norwood, Payneham and St Peters",http://www.npsp.sa.gov.au/,npsp.sa.gov.au,local
+government_agency,Department of Natural Resources and Environment Tasmania,https://nre.tas.gov.au/,nre.tas.gov.au,
+government_agency,National Landcare Programme,http://www.nrm.gov.au/,nrm.gov.au,
+government_agency,Northern Sydney Local Health District,http://www.nslhd.health.nsw.gov.au/,nslhd.health.nsw.gov.au,
+government_agency,National Statistical Service,http://www.nss.gov.au/,nss.gov.au,
+government_agency,"NSW Department of Industrial Relations, Employment and Training",https://www.nsw.gov.au/departments-and-agencies/premiers-department/nsw-industrial-relations,nsw.gov.au,
+government_agency,"Department of Climate Change, Energy, the Environment and Water",https://www.nsw.gov.au/departments-and-agencies/dcceew,nsw.gov.au,central-1
+government_agency,"NSW Department of Planning, Housing and Infrastructure",https://www.nsw.gov.au/departments-and-agencies/department-of-planning-housing-and-infrastructure,nsw.gov.au,
+government_agency,Department of Customer Service,https://www.nsw.gov.au/customer-service,nsw.gov.au,central-1
+government_agency,New South Wales Department of Aboriginal Affairs,https://www.nsw.gov.au/departments-and-agencies/aboriginal-affairs-nsw,nsw.gov.au,central-1
+government_agency,NSW Land Registry Services,https://www.nswlrs.com.au/,nswlrs.com.au,
+government_agency,National Transport Commission,http://www.ntc.gov.au,ntc.gov.au,
+government_agency,Northern Territory Electoral Commission,http://www.ntec.nt.gov.au/,ntec.nt.gov.au,central-1
+government_agency,Northern Territory Environment Protection Authority,http://www.ntepa.nt.gov.au/,ntepa.nt.gov.au,
+government_agency,National Water Commission,http://www.nwc.gov.au/home,nwc.gov.au,
+government_agency,Office of the Australian Information Commissioner,https://www.oaic.gov.au/,oaic.gov.au,
+government_agency,Outback Communities Authority,http://www.oca.sa.gov.au/,oca.sa.gov.au,local
+government_agency,Director of Public Prosecutions,http://www.odpp.nsw.gov.au/,odpp.nsw.gov.au,
+government_agency,Office of the Gene Technology Regulator,https://www.ogtr.gov.au/,ogtr.gov.au,
+government_agency,Australian Commonwealth Ombudsman,http://www.ombudsman.gov.au/,ombudsman.gov.au,
+government_agency,Office of Multicultural Interests,http://www.omi.wa.gov.au/,omi.wa.gov.au,
+government_agency,Office of National Intelligence,https://www.oni.gov.au/,oni.gov.au,central
+government_agency,City of Onkaparinga,http://www.onkaparingacity.sa.gov.au,onkaparingacity.sa.gov.au,local
+government_agency,"Office for Recreation, Sport and Racing",http://www.ors.sa.gov.au,ors.sa.gov.au,central-1
+government_agency,"Consulate General of South Korea, Sydney",https://overseas.mofa.go.kr/au-sydney-ko/index.do,overseas.mofa.go.kr,
+government_agency,"Embassy of South Korea, Canberra",https://overseas.mofa.go.kr/au-en/index.do,overseas.mofa.go.kr,central
+government_agency,"Embassy of South Korea, Canberra",https://overseas.mofa.go.kr/au-ko/index.do,overseas.mofa.go.kr,central
+government_agency,"Consulate General of South Korea, Sydney",https://overseas.mofa.go.kr/au-sydney-en/index.do,overseas.mofa.go.kr,
+government_agency,"High Commission of Pakistan, Canberra",https://www.pakistan.org.au/,pakistan.org.au,local
+government_agency,high commission of Pakistan in Australia,https://www.pakistan.org.au/,pakistan.org.au,central
+government_agency,"General Delegation of Palestine to Australia, Aotearoa New Zealand and the Pacific",https://www.palestine-australia.com/,palestine-australia.com,central
+government_agency,National Parks and Wildlife Service South Australia,https://www.parks.sa.gov.au/,parks.sa.gov.au,local
+government_agency,Tasmania Parks and Wildlife Service,http://www.parks.tas.gov.au,parks.tas.gov.au,central-1
+government_agency,Parks Victoria,https://www.parks.vic.gov.au/,parks.vic.gov.au,
+government_agency,Parks and Wildlife Commission of the Northern Territory,http://www.parksandwildlife.nt.gov.au/,parksandwildlife.nt.gov.au,
 supreme_court,Australian Capital Territory Legislative Assembly,https://www.parliament.act.gov.au/,parliament.act.gov.au,central-1
 parliament,Australian Capital Territory Legislative Assembly,https://www.parliament.act.gov.au/,parliament.act.gov.au,central-1
 supreme_court,Parliament of New South Wales,http://www.parliament.nsw.gov.au/,parliament.nsw.gov.au,central-1
 parliament,Parliament of New South Wales,http://www.parliament.nsw.gov.au/,parliament.nsw.gov.au,central-1
+government_agency,New South Wales Legislative Assembly,https://www.parliament.nsw.gov.au/,parliament.nsw.gov.au,central-1
+government_agency,New South Wales Legislative Council,https://www.parliament.nsw.gov.au/,parliament.nsw.gov.au,central-1
 parliament,New South Wales Legislative Council,https://www.parliament.nsw.gov.au/,parliament.nsw.gov.au,central-1
+government_agency,Northern Territory Legislative Assembly,https://parliament.nt.gov.au/,parliament.nt.gov.au,central-1
 parliament,Parliament of Queensland,http://www.parliament.qld.gov.au/,parliament.qld.gov.au,central-1
 supreme_court,Legislative Assembly of Queensland,https://www.parliament.qld.gov.au/,parliament.qld.gov.au,central-1
 parliament,Legislative Assembly of Queensland,https://www.parliament.qld.gov.au/,parliament.qld.gov.au,central-1
+government_agency,Legislative Assembly of Queensland,https://www.parliament.qld.gov.au/,parliament.qld.gov.au,central-1
 supreme_court,Parliament of Queensland,http://www.parliament.qld.gov.au/,parliament.qld.gov.au,central-1
+government_agency,South Australian Legislative Council,https://www.parliament.sa.gov.au/Legislative-Council/Legislative-Council-Home,parliament.sa.gov.au,central-1
 parliament,Parliament of South Australia,https://www.parliament.sa.gov.au/,parliament.sa.gov.au,central-1
+government_agency,South Australian House of Assembly,https://www.parliament.sa.gov.au/House-of-Assembly/House-of-Assembly-Home,parliament.sa.gov.au,central-1
 supreme_court,Parliament of South Australia,https://www.parliament.sa.gov.au/,parliament.sa.gov.au,central-1
+government_agency,Tasmanian House of Assembly,https://www.parliament.tas.gov.au/house-of-assembly,parliament.tas.gov.au,central-1
 parliament,Parliament of Tasmania,https://www.parliament.tas.gov.au/,parliament.tas.gov.au,central-1
+government_agency,Tasmanian Legislative Council,https://www.parliament.tas.gov.au/legislative-council,parliament.tas.gov.au,central-1
 supreme_court,Parliament of Tasmania,https://www.parliament.tas.gov.au/,parliament.tas.gov.au,central-1
+government_agency,Victorian Legislative Assembly,https://www.parliament.vic.gov.au/assembly,parliament.vic.gov.au,central-1
+government_agency,Victorian Legislative Council,https://www.parliament.vic.gov.au/council/,parliament.vic.gov.au,central-1
 supreme_court,Parliament of Victoria,https://www.parliament.vic.gov.au/,parliament.vic.gov.au,central-1
 parliament,Parliament of Victoria,https://www.parliament.vic.gov.au/,parliament.vic.gov.au,central-1
+government_agency,Western Australian Legislative Assembly,https://www.parliament.wa.gov.au/,parliament.wa.gov.au,central-1
 supreme_court,Parliament of Western Australia,http://www.parliament.wa.gov.au/,parliament.wa.gov.au,central-1
 parliament,Parliament of Western Australia,http://www.parliament.wa.gov.au/,parliament.wa.gov.au,central-1
+government_agency,Western Australian Legislative Council,https://www.parliament.wa.gov.au/,parliament.wa.gov.au,central-1
+government_agency,NSW Health Pathology,https://pathology.health.nsw.gov.au/,pathology.health.nsw.gov.au,
+government_agency,Productivity Commission,http://www.pc.gov.au,pc.gov.au,
+government_agency,"Consulate-General of Japan, Perth",https://www.perth.au.emb-japan.go.jp,perth.au.emb-japan.go.jp,
+government_agency,Consulate-General of the People's Republic of China in Perth,http://perth.china-consulate.gov.cn/chn/,perth.china-consulate.gov.cn,central-1
+government_agency,Northern Territory Fire and Rescue Service,http://www.pfes.nt.gov.au/Fire-and-Rescue.aspx,pfes.nt.gov.au,
+government_agency,Northern Territory Police Force,https://pfes.nt.gov.au/police,pfes.nt.gov.au,
+government_agency,Private Forests Tasmania,http://www.pft.tas.gov.au/,pft.tas.gov.au,
+government_agency,"Embassy of the Philippines, Canberra",https://www.philembassy.org.au/,philembassy.org.au,central
+government_agency,Population Health Research Network,https://www.phrn.org.au/,phrn.org.au,
+government_agency,Department for Primary Industries and Regions SA,http://www.pir.sa.gov.au/,pir.sa.gov.au,central-1
+government_agency,South Australian Research and Development Institute,http://pir.sa.gov.au/research,pir.sa.gov.au,central-1
+government_agency,Port Pirie Regional Council,http://www.pirie.sa.gov.au/,pirie.sa.gov.au,local
+government_agency,Prostitution Licensing Authority,http://www.pla.qld.gov.au,pla.qld.gov.au,central-1
+government_agency,"Environment, Planning and Sustainable Development Directorate",https://www.planning.act.gov.au/,planning.act.gov.au,central-1
+government_agency,City of Playford,https://www.playford.sa.gov.au/council/about-council,playford.sa.gov.au,local
+government_agency,high commission of Papua New Guinea in Australia,http://pngcanberra.org/,pngcanberra.org,central
+government_agency,ACT Policing,https://www.police.act.gov.au/,police.act.gov.au,central-1
+government_agency,New South Wales Police Force,https://www.police.nsw.gov.au,police.nsw.gov.au,central-1
+government_agency,Queensland Police Service,https://www.police.qld.gov.au/,police.qld.gov.au,central-1
+government_agency,South Australia Police,https://www.police.sa.gov.au/,police.sa.gov.au,central-1
+government_agency,Tasmania Police,https://www.police.tas.gov.au/,police.tas.gov.au,central-1
+government_agency,Victoria Police,https://www.police.vic.gov.au/,police.vic.gov.au,central-1
+government_agency,Gold Stealing Detection Unit,http://www.police.wa.gov.au,police.wa.gov.au,
+government_agency,Western Australia Police,https://www.police.wa.gov.au/,police.wa.gov.au,central-1
+government_agency,Department of Water,http://portal.water.wa.gov.au/portal/page/portal/home,portal.water.wa.gov.au,
+government_agency,Corporation of the City of Port Augusta,http://www.portaugusta.sa.gov.au/,portaugusta.sa.gov.au,local
+government_agency,Port Authority of New South Wales,https://www.portauthoritynsw.com.au/,portauthoritynsw.com.au,central-1
+government_agency,City of Port Adelaide Enfield,http://www.portenf.sa.gov.au,portenf.sa.gov.au,local
+government_agency,Corporation of the City of Port Lincoln,http://www.portlincoln.sa.gov.au/,portlincoln.sa.gov.au,local
+government_agency,Port of Melbourne Corporation,http://www.portofmelbourne.com/,portofmelbourne.com,
+government_agency,National Portrait Gallery,http://www.portrait.gov.au,portrait.gov.au,
+government_agency,Ports Australia,http://www.portsaustralia.com.au/,portsaustralia.com.au,
+government_agency,Honorary Consulate of Portugal in Perth,https://portugalperth.com/,portugalperth.com,
+government_agency,office of the Premier of Tasmania,http://www.premier.tas.gov.au/,premier.tas.gov.au,central-1
 constitutional_court,office of the Premier of Tasmania,http://www.premier.tas.gov.au/,premier.tas.gov.au,central-1
 constitutional_court,office of the Premier of Victoria,https://www.premier.vic.gov.au/,premier.vic.gov.au,central-1
+government_agency,office of the Premier of Victoria,https://www.premier.vic.gov.au/,premier.vic.gov.au,central-1
+government_agency,"Department of Premier and Cabinet, Queensland",http://www.premiers.qld.gov.au/,premiers.qld.gov.au,
+government_agency,Prince of Peace Lutheran College,http://www.princeofpeace.qld.edu.au,princeofpeace.qld.edu.au,
+government_agency,City of Prospect,http://www.prospect.sa.gov.au/,prospect.sa.gov.au,local
+government_agency,TransRegional,https://www.pta.wa.gov.au/our-services/transregional,pta.wa.gov.au,
+government_agency,Public Transport Authority,http://www.pta.wa.gov.au,pta.wa.gov.au,central-1
+government_agency,Perth Theatre Trust,http://ptt.wa.gov.au/,ptt.wa.gov.au,
+government_agency,Office of the Commissioner for Public Sector Employment,https://publicsector.sa.gov.au,publicsector.sa.gov.au,central-1
+government_agency,NSW Public Works,https://www.publicworks.nsw.gov.au/,publicworks.nsw.gov.au,central-1
+government_agency,CSIRO Publishing,https://www.publish.csiro.au/,publish.csiro.au,
+government_agency,Qantas Airways,https://www.qantas.com,qantas.com,
+government_agency,Queensland Building and Construction Commission,https://www.qbcc.qld.gov.au/,qbcc.qld.gov.au,
+government_agency,Queensland Competition Authority,http://www.qca.org.au/,qca.org.au,
+government_agency,Queensland Curriculum and Assessment Authority,https://www.qcaa.qld.edu.au/,qcaa.qld.edu.au,
+government_agency,Queensland State Archives,https://www.qld.gov.au/dsiti/qsa,qld.gov.au,
+government_agency,Queensland Reconstruction Authority,https://www.qra.qld.gov.au/,qra.qld.gov.au,
+government_agency,Questacon,http://www.questacon.edu.au/,questacon.edu.au,
+government_agency,Royal Australian Mint,http://www.ramint.gov.au/,ramint.gov.au,central
+government_agency,Reserve Bank of Australia,https://www.rba.gov.au/,rba.gov.au,central
+government_agency,Rural City of Murray Bridge,http://rcmb.sa.gov.au/,rcmb.sa.gov.au,local
+government_agency,State Records Authority of New South Wales,https://www.records.nsw.gov.au/,records.nsw.gov.au,
+government_agency,Victorian Regional Channels Authority,http://www.regionalchannels.vic.gov.au/,regionalchannels.vic.gov.au,central-1
+government_agency,Regional Roads Victoria,https://regionalroads.vic.gov.au/,regionalroads.vic.gov.au,central-1
+government_agency,District Council of Renmark Paringa,http://www.renmarkparinga.sa.gov.au/,renmarkparinga.sa.gov.au,local
+government_agency,"Department of Natural Resources, Mines and Energy",https://www.resources.qld.gov.au/,resources.qld.gov.au,central-1
+government_agency,Northern Territory Geological Survey,https://resourcingtheterritory.nt.gov.au/northern-territory-geological-survey-ntgs,resourcingtheterritory.nt.gov.au,
+government_agency,Revenue SA,https://www.revenuesa.sa.gov.au,revenuesa.sa.gov.au,central-1
+government_agency,New South Wales Rural Fire Service,https://www.rfs.nsw.gov.au,rfs.nsw.gov.au,
+government_agency,Regional Investment Corporation,http://www.ric.gov.au,ric.gov.au,
+government_agency,AgriFutures Australia,http://www.rirdc.gov.au,rirdc.gov.au,
+government_agency,Roads and Maritime Services,http://www.rms.nsw.gov.au/,rms.nsw.gov.au,
+government_agency,Robertson Rural Fire Brigade,https://robertsonrfs.org.au,robertsonrfs.org.au,
+government_agency,"Taipei Economic and Cultural Office, Sydney",https://www.roc-taiwan.org/ausyd_en/index.html,roc-taiwan.org,
+government_agency,"Taipei Economic and Cultural Office, Sydney",http://www.roc-taiwan.org/ausyd_en/index.html,roc-taiwan.org,
+government_agency,Taipei Economic and Cultural Office in Australia,https://www.roc-taiwan.org/au_en/index.html,roc-taiwan.org,
+government_agency,"Taipei Economic and Cultural Office, Melbourne",http://www.roc-taiwan.org/aumel_en/index.html,roc-taiwan.org,
+government_agency,"Taipei Economic and Cultural Office, Sydney",https://www.roc-taiwan.org/ausyd/index.html,roc-taiwan.org,
+government_agency,Q109344646,https://www.roc-taiwan.org/aubne/index.html,roc-taiwan.org,
+government_agency,Taipei Economic and Cultural Office in Australia,https://www.roc-taiwan.org/au/index.html,roc-taiwan.org,
+government_agency,"Taipei Economic and Cultural Office, Brisbane",http://www.roc-taiwan.org/aubne_en/index.html,roc-taiwan.org,
+government_agency,Municipal Council of Roxby Downs,http://www.roxbydowns.com,roxbydowns.com,local
+government_agency,Roads and Traffic Authority,http://www.rta.nsw.gov.au/,rta.nsw.gov.au,
+government_agency,Racing Victoria Limited,https://rv.racing.com/,rv.racing.com,
+government_agency,SA Ambulance Service,https://saambulance.sa.gov.au/,saambulance.sa.gov.au,central-1
+government_agency,South Australian Civil and Administrative Tribunal,http://www.sacat.sa.gov.au/,sacat.sa.gov.au,central-1
+government_agency,"Honorary Consulate of South Africa, Perth",https://www.saconsulwa.com/,saconsulwa.com,
+government_agency,South Australian Employment Tribunal,http://www.saet.sa.gov.au/,saet.sa.gov.au,central-1
+government_agency,South Australian Fire and Emergency Services Commission,http://www.safecom.sa.gov.au/site/home.jsp,safecom.sa.gov.au,central-1
+government_agency,Safe Transport Victoria,https://safetransport.vic.gov.au/,safetransport.vic.gov.au,
+government_agency,Australian Commission on Safety and Quality in Health Care,http://www.safetyandquality.gov.au/,safetyandquality.gov.au,
+government_agency,Safe Work Australia,https://www.safeworkaustralia.gov.au/,safeworkaustralia.gov.au,
+government_agency,"High Commission of South Africa, Canberra",https://www.sahc.org.au/,sahc.org.au,central
+government_agency,MedSTAR,http://www.sahealth.sa.gov.au/medstar,sahealth.sa.gov.au,
+government_agency,Southern Adelaide Local Health Network,https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/about+us/our+local+health+networks/southern+adelaide+local+health+network/southern+adelaide+local+health+network+salhn,sahealth.sa.gov.au,
+government_agency,Central Adelaide Local Health Network,https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/about+us/our+local+health+networks/central+adelaide+local+health+network,sahealth.sa.gov.au,
+government_agency,Women's and Children's Health Network,https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/about+us/our+local+health+networks/womens+and+childrens+health+network,sahealth.sa.gov.au,
+government_agency,South Australian Health,http://www.sahealth.sa.gov.au/,sahealth.sa.gov.au,central-1
+government_agency,Northern Adelaide Local Health Network,https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/about+us/our+local+health+networks/northern+adelaide+local+health+network/northern+adelaide+local+health+network,sahealth.sa.gov.au,
+government_agency,Corporation of the City of Salisbury,http://www.salisbury.sa.gov.au/,salisbury.sa.gov.au,local
+government_agency,South Australian Mental Health Commission,http://samentalhealthcommission.com.au,samentalhealthcommission.com.au,
+government_agency,State Opera of South Australia,http://www.saopera.sa.gov.au/,saopera.sa.gov.au,central-1
+government_agency,Sarina Russo Job Access,https://sarinarusso.com/,sarinarusso.com,
+government_agency,SA Water,https://www.sawater.com.au/,sawater.com.au,central-1
+government_agency,Special Broadcasting Service,https://www.sbs.com.au/,sbs.com.au,
+government_agency,Sydney Catchment Authority,http://www.sca.nsw.gov.au/,sca.nsw.gov.au,
+government_agency,Sydney Cricket Ground Trust,http://www.scgt.nsw.gov.au/,scgt.nsw.gov.au,central-1
+government_agency,Victorian School Building Authority,http://www.schoolbuildings.vic.gov.au,schoolbuildings.vic.gov.au,
+government_agency,School Bus Services,https://www.schoolbuses.wa.gov.au/,schoolbuses.wa.gov.au,
+government_agency,Screen NSW,https://www.screen.nsw.gov.au/,screen.nsw.gov.au,
+government_agency,Screen Tasmania,https://www.screen.tas.gov.au/,screen.tas.gov.au,
+government_agency,Screen Australia,http://www.screenaustralia.gov.au,screenaustralia.gov.au,
+government_agency,Screen Queensland Studios,https://screenqueensland.com.au,screenqueensland.com.au,
+government_agency,Screen Queensland,https://screenqueensland.com.au/,screenqueensland.com.au,
+government_agency,Australian National Maritime Museum,https://www.sea.museum/,sea.museum,
+government_agency,Service Victoria,https://service.vic.gov.au/,service.vic.gov.au,central-1
+government_agency,Centrelink,https://www.servicesaustralia.gov.au/individuals/centrelink,servicesaustralia.gov.au,
+government_agency,Services Australia,https://www.servicesaustralia.gov.au/,servicesaustralia.gov.au,
+government_agency,"Consulate General of Turkey, Sydney",https://sidney-bk.mfa.gov.tr,sidney-bk.mfa.gov.tr,
+government_agency,State Insurance Regulatory Authority,https://www.sira.nsw.gov.au,sira.nsw.gov.au,
+government_agency,high commission of Sri Lanka in Australia,http://www.slhcaust.org,slhcaust.org,central
+government_agency,Sydney Local Health District,http://www.slhd.nsw.gov.au/,slhd.nsw.gov.au,
+government_agency,State Library of South Australia,http://www.slsa.sa.gov.au,slsa.sa.gov.au,
+government_agency,Snowy Hydro,https://www.snowyhydro.com.au/,snowyhydro.com.au,
+government_agency,Sydney Olympic Park Authority,http://www.sopa.nsw.gov.au/,sopa.nsw.gov.au,
+government_agency,Southern Mallee District Council,http://www.southernmallee.sa.gov.au/,southernmallee.sa.gov.au,local
+government_agency,"Embassy of the United Arab Emirates, Canberra",https://sp.mofaic.gov.ae/EN/DiplomaticMissions/Embassies/Canberra/Pages/home.aspx,sp.mofaic.gov.ae,central
+government_agency,NSW Sport and Recreation,https://sportandrecreation.nsw.gov.au,sportandrecreation.nsw.gov.au,
+government_agency,Department of Sport and Recreation,https://sportandrecreation.nt.gov.au/,sportandrecreation.nt.gov.au,
+government_agency,Sports Australia,https://www.sportaus.gov.au/,sportaus.gov.au,central
+government_agency,State Records Office of Western Australia,http://sro.wa.gov.au/,sro.wa.gov.au,
+government_agency,Sydney South West Area Health Service,http://www.sswahs.nsw.gov.au,sswahs.nsw.gov.au,
+government_agency,Stadiums Queensland,https://www.stadiums.qld.gov.au,stadiums.qld.gov.au,central-1
+government_agency,"Department of State Development, Infrastructure, Local Government and Planning",https://statedevelopment.qld.gov.au,statedevelopment.qld.gov.au,
+government_agency,Department of State Growth,http://www.stategrowth.tas.gov.au/,stategrowth.tas.gov.au,central-1
+government_agency,State Heritage Office of Western Australia,http://www.stateheritage.wa.gov.au/,stateheritage.wa.gov.au,central-1
+government_agency,State Theatre Company of South Australia,http://statetheatrecompany.com.au/,statetheatrecompany.com.au,central-1
+government_agency,State Transit Authority of New South Wales,http://www.statetransit.info/,statetransit.info,
+government_agency,Suncoast Christian College,https://suncoastcc.qld.edu.au/,suncoastcc.qld.edu.au,
+government_agency,Super SA,https://www.supersa.sa.gov.au/,supersa.sa.gov.au,
+government_agency,New South Wales Court of Criminal Appeal,https://supremecourt.nsw.gov.au/about-us/court-of-criminal-appeal.html,supremecourt.nsw.gov.au,central-1
+government_agency,Supreme Court of New South Wales,https://supremecourt.nsw.gov.au/,supremecourt.nsw.gov.au,central-1
+government_agency,Supreme Court of the Northern Territory,http://www.supremecourt.nt.gov.au,supremecourt.nt.gov.au,central-1
+government_agency,Supreme Court of Tasmania,http://www.supremecourt.tas.gov.au/,supremecourt.tas.gov.au,central-1
+government_agency,Supreme Court of Victoria,https://www.supremecourt.vic.gov.au/,supremecourt.vic.gov.au,central-1
+government_agency,Supreme Court of Western Australia,http://www.supremecourt.wa.gov.au/,supremecourt.wa.gov.au,central-1
+government_agency,Sustainability Victoria,https://www.sustainability.vic.gov.au,sustainability.vic.gov.au,
+government_agency,Swan River Trust,https://swanrivertrust.dpaw.wa.gov.au/,swanrivertrust.dpaw.wa.gov.au,
+government_agency,Swedish embassy in Canberra,https://www.swedenabroad.se/sv/utlandsmyndigheter/australien-canberra/,swedenabroad.se,central
+government_agency,South Western Sydney Local Health District,https://www.swslhd.health.nsw.gov.au/,swslhd.health.nsw.gov.au,
+government_agency,"Consulate-General of Japan, Sydney",https://www.sydney.au.emb-japan.go.jp,sydney.au.emb-japan.go.jp,
+government_agency,"Consulate-General of China, Sydney",http://sydney.china-consulate.gov.cn/chn/,sydney.china-consulate.gov.cn,central-1
+government_agency,"Consulate-General of China, Sydney",http://sydney.china-consulate.gov.cn/eng/,sydney.china-consulate.gov.cn,central-1
+government_agency,Consulate General of the Republic of Poland in Sydney,http://www.sydney.msz.gov.pl,sydney.msz.gov.pl,
+government_agency,Sydney Airports Corporation Limited,http://www.sydneyairport.com.au/Corporate,sydneyairport.com.au,
+government_agency,TAFE SA,https://www.tafesa.edu.au/,tafesa.edu.au,
+government_agency,Tasmanian Ports Corporation,http://www.tasports.com.au,tasports.com.au,central-1
+government_agency,District Council of Tatiara,http://www.tatiara.sa.gov.au/,tatiara.sa.gov.au,local
+government_agency,Corporation of the City of Tea Tree Gully,http://www.teatreegully.sa.gov.au/,teatreegully.sa.gov.au,local
+government_agency,TechInSA,http://techinsa.com.au/,techinsa.com.au,
+government_agency,Tertiary Education Quality and Standards Agency,http://www.teqsa.gov.au/,teqsa.gov.au,central
+government_agency,"Department of Territory Families, Housing and Communities",https://tfhc.nt.gov.au,tfhc.nt.gov.au,central-1
+government_agency,Therapeutic Goods Administration,http://www.tga.gov.au/,tga.gov.au,
+government_agency,office of the Premier of Queensland,https://www.thepremier.qld.gov.au/,thepremier.qld.gov.au,central-1
 constitutional_court,office of the Premier of Queensland,https://www.thepremier.qld.gov.au/,thepremier.qld.gov.au,central-1
+government_agency,Tiwi Land Council,https://www.tiwilandcouncil.com,tiwilandcouncil.com,
+government_agency,Department of Transport and Main Roads,http://www.tmr.qld.gov.au/,tmr.qld.gov.au,central-1
+government_agency,High Commission of Tonga in Australia,http://www.tongahighcom.com.au,tongahighcom.com.au,central
+government_agency,South Australian Tourism Commission,http://tourism.sa.gov.au/,tourism.sa.gov.au,central-1
+government_agency,Tourism Western Australia,https://www.tourism.wa.gov.au,tourism.wa.gov.au,
+government_agency,Tourism Tasmania,https://www.tourismtasmania.com.au,tourismtasmania.com.au,central-1
+government_agency,Transperth,https://www.transperth.wa.gov.au,transperth.wa.gov.au,
 ministry,Transport for NSW,http://www.transport.nsw.gov.au/,transport.nsw.gov.au,
+government_agency,Transport for NSW,http://www.transport.nsw.gov.au/,transport.nsw.gov.au,
+government_agency,Transport Victoria,https://transport.vic.gov.au/,transport.vic.gov.au,central-1
+government_agency,Department of Transport,http://www.transport.vic.gov.au,transport.vic.gov.au,
+government_agency,Department of Transport,http://www.transport.wa.gov.au/,transport.wa.gov.au,
+government_agency,Independent Transport Safety Regulator,http://transportregulator.nsw.gov.au/,transportregulator.nsw.gov.au,
+government_agency,Transwa,https://www.transwa.wa.gov.au/,transwa.wa.gov.au,
 ministry,Department of the Treasury,http://www.treasury.gov.au/,treasury.gov.au,
+government_agency,Department of the Treasury,http://www.treasury.gov.au/,treasury.gov.au,
+government_agency,The Treasury,http://www.treasury.nsw.gov.au/,treasury.nsw.gov.au,central-1
+government_agency,Department for Treasury and Finance,http://www.treasury.sa.gov.au/,treasury.sa.gov.au,central-1
+government_agency,Tasmanian Symphony Orchestra,https://www.tso.com.au,tso.com.au,
+government_agency,Torres Strait Regional Authority,https://www.tsra.gov.au/,tsra.gov.au,
+government_agency,high commission of Uganda in Australia,https://www.ugandahighcommissionaustralia.org,ugandahighcommissionaustralia.org,central
+government_agency,Corporation of the City of Unley,https://www.unley.sa.gov.au/Council,unley.sa.gov.au,local
+government_agency,Queensland Urban Utilities,https://urbanutilities.com.au/,urbanutilities.com.au,
+government_agency,Oceans Institute,https://www.uwa.edu.au/oceans-institute,uwa.edu.au,
+government_agency,Victorian Assisted Reproductive Treatment Authority,https://www.varta.org.au,varta.org.au,
+government_agency,Victorian Curriculum and Assessment Authority,https://vcaa.vic.edu.au,vcaa.vic.edu.au,central-1
+government_agency,Victorian Civil and Administrative Tribunal,https://www.vcat.vic.gov.au/,vcat.vic.gov.au,central-1
+government_agency,Victorian Commission for Gambling and Liquor Regulation,https://www.vcglr.vic.gov.au/,vcglr.vic.gov.au,
+government_agency,Victorian Electoral Commission,https://www.vec.vic.gov.au/,vec.vic.gov.au,central-1
+government_agency,Venues NSW,https://www.venuesnsw.com/,venuesnsw.com,central-1
+government_agency,Department of Transport and Planning,https://www.vic.gov.au/department-transport-and-planning,vic.gov.au,central-1
+government_agency,Department of Premier and Cabinet,https://www.vic.gov.au/department-premier-and-cabinet,vic.gov.au,central-1
+government_agency,VicRoads,https://www.vicroads.vic.gov.au,vicroads.vic.gov.au,central-1
+government_agency,City of Victor Harbor,http://www.victor.sa.gov.au/,victor.sa.gov.au,local
+government_agency,VicTrack,https://www.victrack.com.au/,victrack.com.au,
+government_agency,embassy of Vietnam in Australia,https://vietnamembassy.org.au/,vietnamembassy.org.au,central
+government_agency,Victorian Managed Insurance Authority,https://www.vmia.vic.gov.au,vmia.vic.gov.au,
+government_agency,Department of Justice,https://www.wa.gov.au/organisation/department-of-justice,wa.gov.au,
+government_agency,WA Country Health Service,http://www.wacountry.health.wa.gov.au/index.php?id=433&no_cache=1,wacountry.health.wa.gov.au,
+government_agency,Western Australian Government Railways Commission,http://wagr.wa.gov.au/,wagr.wa.gov.au,
+government_agency,Wakefield Regional Council,http://www.wakefieldrc.sa.gov.au/,wakefieldrc.sa.gov.au,local
+government_agency,Western Australian Land Information System,http://www.walis.wa.gov.au/,walis.wa.gov.au,
+government_agency,Corporation of the Town of Walkerville,http://www.walkerville.sa.gov.au/,walkerville.sa.gov.au,local
+government_agency,Water Corporation,https://www.watercorporation.com.au/,watercorporation.com.au,central-1
+government_agency,WaterNSW,https://www.waternsw.com.au/,waternsw.com.au,
+government_agency,City of West Torrens,https://www.westtorrens.sa.gov.au/Council,westtorrens.sa.gov.au,local
+government_agency,Wet Tropics Management Authority,https://www.wettropics.gov.au/,wettropics.gov.au,
+government_agency,World Health Organization (Australia),http://www.who.int/countries/aus/en/,who.int,
+government_agency,Corporation of the City of Whyalla,http://www.whyalla.sa.gov.au,whyalla.sa.gov.au,local
+government_agency,Wine Australia,https://www.wineaustralia.com/,wineaustralia.com,
+government_agency,Australian Grape and Wine Authority,http://www.wineaustralia.com/,wineaustralia.com,
+government_agency,Western NSW Local Health District,https://wnswlhd.health.nsw.gov.au/,wnswlhd.health.nsw.gov.au,
+government_agency,Working Heritage,https://www.workingheritage.com.au/,workingheritage.com.au,
+government_agency,WorkSafe Victoria,https://www.worksafe.vic.gov.au,worksafe.vic.gov.au,
+government_agency,Department of Health,http://ww2.health.wa.gov.au/,ww2.health.wa.gov.au,
+government_agency,Department of Health,https://www2.health.vic.gov.au,www2.health.vic.gov.au,central-1
+government_agency,"embassy of Latvia, Canberra",https://www2.mfa.gov.lv/australija,www2.mfa.gov.lv,central
+government_agency,District Council of Yankalilla,http://www.yankalilla.sa.gov.au/,yankalilla.sa.gov.au,local
+government_agency,Yoorrook Justice Commission,https://yoorrookjusticecommission.org.au/,yoorrookjusticecommission.org.au,
+government_agency,Yorke Peninsula Council,http://www.yorke.sa.gov.au/,yorke.sa.gov.au,local
+government_agency,high commission of Zambia in Australia,https://www.zambia.org.au/,zambia.org.au,central
+government_agency,embassy of Zimbabwe in Australia,http://zimembassycanberra.org.au,zimembassycanberra.org.au,central
+university,Murdoch University,https://www.murdoch.edu.au/,murdoch.edu.au,university
+university,University of Southern Queensland,http://www.usq.edu.au/,usq.edu.au,university
+university,University of New South Wales,https://www.unsw.edu.au/,unsw.edu.au,university
+university,Federation University Australia,https://federation.edu.au/,federation.edu.au,university
+university,Swinburne University of Technology,https://www.swinburne.edu.au,swinburne.edu.au,university
+university,University of New England,https://www.une.edu.au/,une.edu.au,university
+university,Flinders University,https://www.flinders.edu.au/,flinders.edu.au,university
+university,Queensland University of Technology,https://www.qut.edu.au/,qut.edu.au,university
+university,Central Queensland University,https://www.cqu.edu.au/,cqu.edu.au,university
+university,University of Newcastle,http://www.newcastle.edu.au/,newcastle.edu.au,university
+university,Monash University,https://www.monashuniversity.cn,monashuniversity.cn,university
+university,Southern Cross University,http://www.scu.edu.au/,scu.edu.au,university
+university,Western Sydney University,https://www.westernsydney.edu.au/,westernsydney.edu.au,university
+university,La Trobe University,https://www.latrobe.edu.au,latrobe.edu.au,university
+university,Curtin University,https://www.curtin.edu.au/,curtin.edu.au,university
+university,University of Tasmania,https://www.utas.edu.au/,utas.edu.au,university
+university,RMIT University,https://www.rmit.edu.au/,rmit.edu.au,university
+university,University of Sydney,https://www.sydney.edu.au/,sydney.edu.au,university
+university,Edith Cowan University,https://www.ecu.edu.au/,ecu.edu.au,university
+university,Charles Darwin University,http://www.cdu.edu.au/,cdu.edu.au,university
+university,Macquarie University,https://www.mq.edu.au/,mq.edu.au,university
+university,James Cook University,http://www.jcu.edu.au/,jcu.edu.au,university
+university,University of Technology Sydney,https://www.uts.edu.au/,uts.edu.au,university
+university,Victoria University,https://www.vu.edu.au/,vu.edu.au,university
+university,Deakin University,http://www.deakin.edu.au/,deakin.edu.au,university
+university,Charles Sturt University,http://csu.edu.au/,csu.edu.au,university
+university,University of Queensland,https://www.uq.edu.au,uq.edu.au,university
+university,Swinburne University of Technology,http://www.swinburne.edu.au,swinburne.edu.au,university
+university,Griffith University,http://www.griffith.edu.au/,griffith.edu.au,university
+university,University of Canberra,https://www.canberra.edu.au/,canberra.edu.au,university
+university,University of Melbourne,https://www.unimelb.edu.au/,unimelb.edu.au,university
+university,University of Wollongong,https://uow.edu.au,uow.edu.au,university
+university,University of Wollongong,https://www.uowaustralia.com,uowaustralia.com,university
+university,University of the Sunshine Coast,http://www.usc.edu.au/,usc.edu.au,university
+university,Australian National University,https://www.anu.edu.au/,anu.edu.au,university
+university,Monash University,https://www.monash.edu/,monash.edu,university

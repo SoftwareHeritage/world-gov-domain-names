@@ -6,7 +6,7 @@
 - Region: Americas / Central America
 - Languages: Spanish
 - Population: 5309625
-- GDP per capita: 18587 US$ (2024)
+- GDP per capita: 19970 US$ (2025)
 - Currencies: CRC
 - ccTLD: `.cr` (manager: National Academy of Sciences (Academia Nacional de Ciencias))
 - OECD: member since 2021
@@ -30,11 +30,25 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
-| 3 | `jesuitascam.org` | wikidata | Jesuit Province of Central America |
+| 6 | `centroamericaribeschp.com` | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `jesuitascam.org` | wikidata;wikidata | Jesuit Province of Central America |
+| 6 | `procomer.com` | wikidata;wikidata | Costa Rican Foreign Trade Promoter |
+| 4 | `ane.cr` | wikidata | Agencia Nacional de Empleo |
+| 4 | `bccr.fi.cr` | wikidata | Central Bank of Costa Rica |
+| 4 | `comisionunesco.cr` | wikidata | Costa Rica National Commission for Cooperation with UNESCO |
+| 4 | `cr.usembassy.gov` | wikidata | embassy of the United States in Costa Rica |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, San Jose |
+| 4 | `sen.inec.cr` | wikidata | Sistema Estadístico Nacional |
+| 3 | `costarica.mid.ru` | wikidata | embassy of Russia in Costa Rica |
+| 3 | `cr.ambafrance.org` | wikidata | Embassy of France, San José |
+| 3 | `cr.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, San José |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Costa Rica |
+| 3 | `embocr.com` | wikidata | embassy of Bolivia in Costa Rica |
+| 3 | `san-jose.diplo.de` | wikidata | Embassy of Germany, San José |
+| 3 | `san-jose.embassy.qa` | wikidata | embassy of Qatar in Costa Rica |
 

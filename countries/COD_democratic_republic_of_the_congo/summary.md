@@ -6,7 +6,7 @@
 - Region: Africa / Middle Africa
 - Languages: French; Kikongo; Lingala; Tshiluba; Swahili
 - Population: 112832000
-- GDP per capita: 649 US$ (2024)
+- GDP per capita: 807 US$ (2025)
 - Currencies: CDF
 - ccTLD: `.cd` (manager: Office Congolais des Postes et Télécommunications - OCPT)
 - OECD: non-member
@@ -30,12 +30,40 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+23 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `minisanterdc.cd` | wikidata;wikidata | Ministry of Public Health (Democratic Republic of Congo) |
+| 6 | `cour-constitutionnelle.cd` | wikidata | Constitutional Court of the Democratic Republic of the Congo |
+| 6 | `piaristesafriquecentrale.org` | wikidata;wikidata | Piarist province of Central Africa |
 | 6 | `presidentrdc.cd` | un_desa | UN/DESA national portal |
-| 4 | `minisanterdc.cd` | wikidata | Ministry of Public Health (Democratic Republic of Congo) |
-| 3 | `piaristesafriquecentrale.org` | wikidata | Piarist province of Central Africa |
+| 4 | `aplc.cd` | wikidata | Agency for the Prevention and Fight against Corruption |
+| 4 | `assemblee-nationale.cd` | wikidata | National Assembly |
+| 4 | `bcc.cd` | wikidata | Central Bank of Congo |
+| 4 | `cd.usembassy.gov` | wikidata | Embassy of the United States, Kinshasa |
+| 4 | `ins.cd` | wikidata | Institut National de la Statistique |
+| 4 | `onem.cd` | wikidata | Q132560441 |
+| 4 | `senat.cd` | wikidata | Senate of the Democratic Republic of the Congo |
+| 4 | `transco-rdc.cd` | wikidata | Société de transports du Congo |
+| 3 | `cd.ambafrance.org` | wikidata | Embassy of France, Kinshasa |
+| 3 | `crem-rdc.com` | wikidata | Centre de Recherche sur l'Enseignement de la Mathématique |
+| 3 | `csnrdc.net` | wikidata | Conseil Scientifique National |
+| 3 | `drc.mid.ru` | wikidata | embassy of Russia in the Democratic Republic of Congo |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to the Democratic Republic of the Congo |
+| 3 | `ghanaembassy-drc.com` | wikidata | Embassy of Ghana in Kinsasha |
+| 3 | `inrb.net` | wikidata | National Institute of Biomedical Research |
+| 3 | `kinshasa.diplo.de` | wikidata | Embassy of Germany, Kinshasa |
+
+## Local / regional candidates
+
+4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `unikin.ac.cd` | wikidata | University of Kinshasa |
+| 4 | `unikis.ac.cd` | wikidata | University of Kisangani |
+| 4 | `uom.cd` | wikidata | Université Officielle de Mbujimayi |
+| 3 | `univofbukavu.org` | wikidata | Université Officielle de Bukavu |
 

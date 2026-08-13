@@ -30,46 +30,46 @@
 
 ## Candidate domains ranked by score
 
-1811 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1688 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `city.aizuwakamatsu.fukushima.jp` | wikidata;wikidata | Aizuwakamatsu |
-| 7 | `city.ama.aichi.jp` | wikidata;wikidata | Ama |
-| 7 | `city.asahikawa.hokkaido.jp` | wikidata;wikidata | Asahikawa |
-| 7 | `city.bunkyo.lg.jp` | wikidata;wikidata | Q11499750 | Bunkyō-ku |
-| 7 | `city.kawagoe.saitama.jp` | wikidata;wikidata | Kawagoe |
-| 7 | `city.komae.tokyo.jp` | wikidata;wikidata | Komae | Q118945566 |
-| 7 | `city.koriyama.lg.jp` | wikidata;wikidata | Kōriyama |
-| 7 | `city.matsudo.chiba.jp` | wikidata;wikidata | Matsudo City Board of Education | Matsudo |
-| 7 | `city.meguro.tokyo.jp` | wikidata;wikidata | Meguro |
-| 7 | `city.ota.tokyo.jp` | wikidata;wikidata | Ota |
-| 7 | `city.shibuya.tokyo.jp` | wikidata;wikidata | Shibuya |
-| 7 | `city.suginami.tokyo.jp` | wikidata;wikidata | Suginami |
-| 7 | `city.tokushima.tokushima.jp` | wikidata;wikidata | Tokushima |
-| 7 | `city.toshima.lg.jp` | wikidata;wikidata | Toshima |
-| 7 | `city.toyonaka.osaka.jp` | wikidata;wikidata | Toyonaka City Board of Education | Toyonaka |
-| 7 | `city.yokosuka.kanagawa.jp` | wikidata;wikidata | Yokosuka |
-| 7 | `police.pref.hokkaido.lg.jp` | wikidata;wikidata | Hokkaido Hakodate Area Prefectural Public Safety Commission | Q11396033 |
-| 7 | `pref.hokkaido.lg.jp` | wikidata;wikidata | Hokkaidō | Hokkaido Government |
-| 7 | `town.tsuruta.lg.jp` | wikidata;wikidata | Itayanagi | Tsuruta |
-| 7 | `vill.hakuba.lg.jp` | wikidata;wikidata | Hakuba |
+| 7 | `adachikouiki.lg.jp` | wikidata;wikidata | Q85879382 |
+| 7 | `aizu-kouiki.jp` | wikidata;wikidata | Q11381268 |
+| 7 | `akiota.jp` | wikidata;wikidata | Akiota |
+| 7 | `akitakata.jp` | wikidata;wikidata | Akitakata |
+| 7 | `akkeshi-town.jp` | wikidata;wikidata | Akkeshi |
+| 7 | `asukamura.jp` | wikidata;wikidata | Asuka |
+| 7 | `az9.or.jp` | wikidata;wikidata | Q85876148 |
+| 7 | `betsukai.jp` | wikidata;wikidata | Betsukai |
+| 7 | `boj.or.jp` | wikidata;wikidata | Bank of Japan |
+| 7 | `bungo-ohno.jp` | wikidata;wikidata | Bungo-ōno-shi |
+| 7 | `chatan.jp` | wikidata;wikidata | Chatan |
+| 7 | `city-kirishima.jp` | wikidata;wikidata | Kirishima |
+| 7 | `city-matsuura.jp` | wikidata;wikidata | Matsuura |
+| 7 | `city-yanai.jp` | wikidata;wikidata | Yanai |
+| 7 | `city-yuzawa.jp` | wikidata;wikidata | Yuzawa |
+| 7 | `city.abashiri.hokkaido.jp` | wikidata;wikidata | Abashiri |
+| 7 | `city.abiko.chiba.jp` | wikidata;wikidata | Abiko |
+| 7 | `city.adachi.tokyo.jp` | wikidata;wikidata | Adachi |
+| 7 | `city.aira.lg.jp` | wikidata;wikidata | Aira |
+| 7 | `city.aki.kochi.jp` | wikidata;wikidata | Aki |
 
 ## Local / regional candidates
 
-77 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 59 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+501 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 100 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `metro.tokyo.lg.jp` | wikidata;wikidata | Tokyo Metropolitan Government | Tokyo |
-| 7 | `pref.aichi.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Aichi Prefectural Public Safety Commission | Aichi Prefecture | Aichi prefect... |
-| 7 | `pref.aomori.lg.jp` | wikidata;wikidata | Aomori Prefecture |
-| 7 | `pref.chiba.lg.jp` | wikidata;wikidata | Chiba Prefecture | Chiba Prefectural Government |
-| 7 | `pref.ehime.jp` | wikidata;wikidata | Ehime Prefecture | Ehime prefectural government |
-| 7 | `pref.fukui.lg.jp` | wikidata;wikidata | Fukui Prefectural Public Safety Commission | Fukui Prefecture |
-| 7 | `pref.fukuoka.lg.jp` | wikidata;wikidata;wikidata;wikidata;wikidata | Fukuoka Prefectural Board of Education | Fukuoka Prefecture | Fukuoka prefect... |
-| 7 | `pref.fukushima.lg.jp` | wikidata;wikidata | Fukushima Prefecture |
-| 7 | `pref.gifu.lg.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Gifu Prefectural Board of Education | Gifu Prefecture |
-| 7 | `pref.gunma.jp` | wikidata;wikidata;wikidata | Gunma Prefectural Board of Education | Gunma Prefecture | Gunma prefectural g... |
+| 7 | `city.osaka.lg.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Chūō-ku | Taishō-ku | Osaka | Hirano-ku | Kita-ku | Jōtō-ku | Higashisumiyosh... |
+| 7 | `kankyo.metro.tokyo.lg.jp` | wikidata;wikidata | Tokyo Metropolitan Government Bureau of Environment |
+| 7 | `kansa.metro.tokyo.lg.jp` | wikidata;wikidata | Secretariat to Audit and Inspection Commissioners of the Tokyo Metropolitan G... |
+| 7 | `keishicho.metro.tokyo.lg.jp` | wikidata;wikidata;wikidata;wikidata | Tokyo Metropolitan Police Department | Tokyo Airport Police Station |
+| 7 | `kensetsu.metro.tokyo.lg.jp` | wikidata;wikidata | Tokyo Metropolitan Government Bureau of Construction |
+| 7 | `kotsu.metro.tokyo.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Tokyo Metropolitan Bureau of Transportation |
+| 7 | `kouaniinkai.metro.tokyo.jp` | wikidata;wikidata | Tokyo Metropolitan Public Safety Commission |
+| 7 | `kyoiku.metro.tokyo.lg.jp` | wikidata;wikidata | Tokyo Metropolitan Government Board of Education |
+| 7 | `metro.tokyo.lg.jp` | wikidata;wikidata;wikidata;wikidata | Tokyo Metropolitan Government | Tokyo |
+| 7 | `police.pref.akita.jp` | wikidata;wikidata | Akita Prefectural Public Safety Commission | Akita Prefectural Police |
 

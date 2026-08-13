@@ -30,10 +30,40 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+48 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 5 | `island.is` | linkgraph | Linked from 7 public-sector domains |
+| 9 | `haestirettur.is` | wikidata;wikidata | Supreme Court of Iceland |
+| 7 | `landlaeknir.is` | wikidata;wikidata | Directorate of Health |
+| 7 | `skogur.is` | wikidata;wikidata | Icelandic Forest Service |
+| 7 | `ust.is` | wikidata;wikidata | Environment Agency of Iceland |
+| 6 | `island.is` | wikidata;wikidata;wikidata;linkgraph | Land and Forest Iceland | Icelandic Naming Committee |
+| 4 | `cb.is` | wikidata | Central Bank of Iceland |
+| 4 | `customs.is` | wikidata | Directorate of Customs |
+| 4 | `en.vedur.is` | wikidata | Icelandic Meteorological Office |
+| 4 | `fangelsi.is` | wikidata | Icelandic Prison Service |
+| 4 | `ferdamalastofa.is` | wikidata | Icelandic Tourist Board |
+| 4 | `fiskistofa.is` | wikidata | Directorate of Fisheries |
+| 4 | `fme.is` | wikidata | Financial Supervisory Authority |
+| 4 | `forseti.is` | wikidata | Office of the President of Iceland |
+| 4 | `geothermal.is` | wikidata | Iceland Geosurvey |
+| 4 | `hagstofa.is` | wikidata | Statistics Iceland |
+| 4 | `icetra.is` | wikidata | Q1151075 |
+| 4 | `is.usembassy.gov` | wikidata | embassy of the United States in Iceland |
+| 4 | `landsbokasafn.is` | wikidata | National and University Library of Iceland |
+| 4 | `lmi.is` | wikidata | National Land Survey of Iceland |
+| 4 | `logreglan.is` | wikidata | Icelandic Police |
+
+## Local / regional candidates
+
+4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `english.hi.is` | wikidata | University of Iceland |
+| 4 | `hi.is` | wikidata | University of Iceland |
+| 4 | `landsrettur.is` | wikidata | Court of Appeal |
+| 4 | `reykjavik.is` | wikidata | Reykjavík City Council |
 

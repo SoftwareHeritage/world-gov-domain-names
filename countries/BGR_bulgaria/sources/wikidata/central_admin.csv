@@ -1,34 +1,961 @@
 type,label,website,hostname,level
+government_agency,State Agency for Bulgarians Abroad,https://www.aba.government.bg/,aba.government.bg,central
+government_agency,Public Financial Inspection Agency,https://www.adfi.minfin.bg,adfi.minfin.bg,
+government_agency,Executive Agency Audit of European Union Funds,https://aeuf.minfin.bg/bg/2,aeuf.minfin.bg,central
+government_agency,Aglen,https://aglen.bg,aglen.bg,
+government_agency,Agency for Persons with Disabilities,https://ahu.mlsp.government.bg/,ahu.mlsp.government.bg,central
+government_agency,Aytos,http://www.aitos.org/,aitos.org,
+government_agency,Aksakovo,https://aksakovo.bg/,aksakovo.bg,
+government_agency,Agency for the Quality of Social Services,https://aksu.government.bg,aksu.government.bg,
+government_agency,Alfatar,http://alfatar.egov.bg,alfatar.egov.bg,
+government_agency,"Embassy of Albania, Sofia",https://ambasadat.gov.al/bulgaria/,ambasadat.gov.al,central
+government_agency,"Embassy of Kosovo, Sofia",https://ambasadat.net/Maqedonia-e-Veriut/,ambasadat.net,central
+government_agency,"Embassy of Italy, Sofia",https://ambsofia.esteri.it/,ambsofia.esteri.it,central
+government_agency,Anti-Doping Center,https://www.anti-doping.government.bg,anti-doping.government.bg,
+government_agency,National Commission for Combating Trafficking in Human Beings,https://www.antitraffic.government.bg,antitraffic.government.bg,
+government_agency,Anton,https://antonbg.eu/,antonbg.eu,
+government_agency,Antonovo,https://www.antonovo.bg/,antonovo.bg,
+government_agency,Road Infrastructure Agency,https://www.api.bg,api.bg,
+government_agency,Executive Agency for Exploration and Maintenance of the Danube River,https://www.appd-bg.org/,appd-bg.org,central
+government_agency,Executive Agency for Exploration and Maintenance of the Danube River,https://www.appd-bg.org/index-en,appd-bg.org,central
+government_agency,Public Enterprises and Control Agency,https://www.appk.government.bg,appk.government.bg,
+government_agency,Arbanasi,http://arbanassi.org/indexen.html,arbanassi.org,
+government_agency,Blagoevgrad State Archives,http://www.archives.government.bg/17-%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B5%D0%B2%D0%B3%D1%80%D0%B0%D0%B4,archives.government.bg,
+government_agency,Dobrich State Archives,http://www.archives.government.bg/45-Dobrich,archives.government.bg,
+government_agency,Kyustendil State Archives,http://www.archives.government.bg/47-Kyustendil,archives.government.bg,
+government_agency,Montana State Archives,http://www.archives.government.bg/49-Montana,archives.government.bg,
+government_agency,Lovech State Archives,http://www.archives.government.bg/48-Lovech,archives.government.bg,
+government_agency,Kyustendil State Archives,http://www.archives.government.bg/47-Кюстендил,archives.government.bg,
+government_agency,"ASAB, Varna",http://www.archives.government.bg/19-%D0%92%D0%B0%D1%80%D0%BD%D0%B0,archives.government.bg,
+government_agency,"ASAB, Varna",http://www.archives.government.bg/19-Varna,archives.government.bg,
+government_agency,Central State Archives of Bulgaria,http://www.archives.government.bg/6-CSA,archives.government.bg,
+government_agency,Gabrovo State Archives,http://www.archives.government.bg/44-Gabrovo,archives.government.bg,
+government_agency,Ruse State Archives,http://www.archives.government.bg/55-%D0%A0%D1%83%D1%81%D0%B5,archives.government.bg,
+government_agency,Burgas State Archives,http://www.archives.government.bg/18-%D0%91%D1%83%D1%80%D0%B3%D0%B0%D1%81,archives.government.bg,
+government_agency,Central State Archives of Bulgaria,http://www.archives.government.bg/6-Централен_държавен_архив,archives.government.bg,
+government_agency,Kardzhali State Archives,http://www.archives.government.bg/46-Kardzhali,archives.government.bg,
+government_agency,Silistra State Archives,http://www.archives.government.bg/56-%D0%A1%D0%B8%D0%BB%D0%B8%D1%81%D1%82%D1%80%D0%B0,archives.government.bg,
+government_agency,Vidin State Archives,https://www.archives.government.bg/42-%d0%92%d0%b8%d0%b4%d0%b8%d0%bd,archives.government.bg,
+government_agency,Pleven State Archives,http://www.archives.government.bg/52-Pleven,archives.government.bg,
+government_agency,Pazardzhik State Archives,http://www.archives.government.bg/50-Pazardzhik,archives.government.bg,
+government_agency,Targovishte State Archives,http://www.archives.government.bg/61-Targovishte,archives.government.bg,
+government_agency,Archives State Agency,http://www.archives.government.bg/,archives.government.bg,central
+government_agency,Haskovo State Archives,http://www.archives.government.bg/62-Haskovo,archives.government.bg,
+government_agency,Shumen State Archives,http://www.archives.government.bg/63-Shumen,archives.government.bg,
+government_agency,Vidin State Archives,http://www.archives.government.bg/42-%D0%92%D0%B8%D0%B4%D0%B8%D0%BD,archives.government.bg,
+government_agency,Vratsa State Archives,http://www.archives.government.bg/43-Vratsa,archives.government.bg,
+government_agency,Yambol State Archives,http://www.archives.government.bg/64-Yambol,archives.government.bg,
+government_agency,Regional Court - Ardinо,https://ardino-rs.justice.bg/,ardino-rs.justice.bg,local
+government_agency,Ardino,http://www.ardino.bg,ardino.bg,
+government_agency,State Agency for Refugees,https://aref.government.bg/,aref.government.bg,central
+government_agency,Information Center of the Ministry of Defence,https://www.armymedia.bg,armymedia.bg,
+government_agency,Regional Court - Asenovgrad,https://asenovgrad-rs.justice.bg/,asenovgrad-rs.justice.bg,local
+government_agency,Asenovgrad,https://www.asenovgrad.bg/,asenovgrad.bg,
+government_agency,Social Assistance Agency,http://www.asp.government.bg,asp.government.bg,central
+government_agency,Asparuhovo,https://asparuhovo.bg/,asparuhovo.bg,
+government_agency,Avren,https://avren.bg/,avren.bg,
+government_agency,Regional Court - Aytos,https://aytos-rs.justice.bg/,aytos-rs.justice.bg,local
+government_agency,Employment Agency,http://www.az.government.bg/,az.government.bg,central
+government_agency,Babyak,http://babiak.selo.bg/,babiak.selo.bg,
+government_agency,Regional Court - Balchik,https://balchik-rs.justice.bg/,balchik-rs.justice.bg,local
+government_agency,Balchik,https://www.balchik.bg/,balchik.bg,
+government_agency,Banite,https://banite.egov.bg/,banite.egov.bg,
+government_agency,Bankya District,https://bankya.bg/,bankya.bg,
+government_agency,Bansko,http://www.bansko.bg,bansko.bg,
+government_agency,Batak,https://batak.bg/,batak.bg,
+government_agency,River Basin Directorate - Danube,https://www.bd-dunav.bg,bd-dunav.bg,
+government_agency,Bulgarian Drug Agency,https://www.bda.bg,bda.bg,central
+government_agency,Bulgarian Drug Agency,https://www.bda.bg/en/,bda.bg,central
+government_agency,Bulgarian Diplomatic Institute,https://bdi.bg/,bdi.bg,
+government_agency,Belasitsa Nature Park,http://www.belasitsa.net/index.php/bg/,belasitsa.net,
+government_agency,Belene,https://belene.bg/,belene.bg,
+government_agency,Regional Court - Belogradchik,https://belogradchik-rs.justice.bg/,belogradchik-rs.justice.bg,local
+government_agency,Belogradchik,https://belogradchik.egov.bg,belogradchik.egov.bg,
+government_agency,Beloslav,http://www.beloslav.org/,beloslav.org,
+government_agency,Belovo,http://www.belovo.eu,belovo.eu,
+government_agency,Regional Forest Directorate - Berkovitza,https://www.berkovitca.iag.bg,berkovitca.iag.bg,central-1
+government_agency,Regional Court - Berkovitsa,https://berkovitsa-rs.justice.bg/,berkovitsa-rs.justice.bg,local
+government_agency,Berkovitsa,http://www.berkovitsa.bg/,berkovitsa.bg,
+government_agency,Bulgarian Food Safety Agency,https://bfsa.egov.bg/,bfsa.egov.bg,
+government_agency,"Embassy of France, Sofia",https://bg.ambafrance.org/,bg.ambafrance.org,central
+government_agency,"Embassy of the People's Republic of China, Sofia",http://bg.china-embassy.gov.cn/,bg.china-embassy.gov.cn,central
+government_agency,"Embassy of Japan, Sofia",https://www.bg.emb-japan.go.jp,bg.emb-japan.go.jp,central
+government_agency,embassy of Croatia in Bulgaria,http://bg.mvep.hr,bg.mvep.hr,central
+government_agency,embassy of the United States in Bulgaria,https://bg.usembassy.gov,bg.usembassy.gov,central
+government_agency,Bulgarian Institute of Metrology,http://www.bim.government.bg,bim.government.bg,
+government_agency,Blagoevgrad,http://www.bl.government.bg/,bl.government.bg,
+government_agency,Administrative Court - Blagoevgrad,https://blagoevgrad-adms.justice.bg/,blagoevgrad-adms.justice.bg,central-1
+government_agency,District Court - Blagoevgrad,https://blagoevgrad-os.justice.bg/,blagoevgrad-os.justice.bg,central-1
+government_agency,Regional Court - Blagoevgrad,https://blagoevgrad-rs.justice.bg/,blagoevgrad-rs.justice.bg,local
+government_agency,Blagoevgrad,https://blagoevgrad.bg/,blagoevgrad.bg,
+government_agency,Regional Forest Directorate - Blagoevgrad,https://blagoevgrad.iag.bg/,blagoevgrad.iag.bg,central-1
+government_agency,embassy of Austria in Bulgaria,https://www.bmeia.gv.at/oeb-sofia/,bmeia.gv.at,central
+government_agency,Bulgarian National Bank,http://www.bnb.bg/,bnb.bg,
+government_agency,Bulgarian National Bank,http://www.bnb.bg/?toLang=_EN,bnb.bg,
+government_agency,Nuclear Regulatory Agency of Bulgaria,https://bnra.bg,bnra.bg,
+government_agency,Bobov dol,https://bobovdol.egov.bg/,bobovdol.egov.bg,
+government_agency,Bolyarovo,https://www.bolyarovo.bg/,bolyarovo.bg,
+government_agency,Borino,http://www.borino.org/,borino.org,
+government_agency,Borovan,http://www.borovan.bg,borovan.bg,
+government_agency,Borovo,http://www.borovo.org/,borovo.org,
+government_agency,Regional Court - Botevgrad,https://botevgrad-rs.justice.bg/,botevgrad-rs.justice.bg,local
+government_agency,Botevgrad,http://www.botevgrad.org/,botevgrad.org,
+government_agency,Boychinovtsi,http://www.boychinovtsi.bg/,boychinovtsi.bg,
+government_agency,Bozhurishte,http://www.bozhurishte.bg/,bozhurishte.bg,
+government_agency,Bratya Daskalovi,http://www.bratia-daskalovi.com/,bratia-daskalovi.com,
+government_agency,Bratsigovo,https://bratsigovo.egov.bg/wps/portal/municipality-bratsigovo/home,bratsigovo.egov.bg,
+government_agency,Bregovo,http://www.bregovo.net/,bregovo.net,
+government_agency,Regional Court - Breznik,https://breznik-rs.justice.bg/,breznik-rs.justice.bg,local
+government_agency,Breznik,https://www.breznik.info/,breznik.info,
+government_agency,Brezovo,http://www.brezovo.bg/,brezovo.bg,
+government_agency,Brusartsi,http://brusartsi.com/,brusartsi.com,
+government_agency,River Basin Directorate - Black Sea,https://www.bsbd.bg,bsbd.bg,
+government_agency,Regional Court - Byala Slatina,https://bslatina-rs.justice.bg/,bslatina-rs.justice.bg,local
+government_agency,Burgas,http://www.bsregion.org/,bsregion.org,
+government_agency,Bulgarian News Agency,http://www.bta.bg/site/bg/index.shtml,bta.bg,
+government_agency,"Embassy of Belgium, Sofia",https://bulgaria.diplomatie.belgium.be,bulgaria.diplomatie.belgium.be,central
+government_agency,"Embassy of Armenia, Sofia",https://bulgaria.mfa.am,bulgaria.mfa.am,central
+government_agency,"Embassy of Belarus, Sofia",https://bulgaria.mfa.gov.by,bulgaria.mfa.gov.by,central
+government_agency,embassy of Georgia in Bulgaria,https://bulgaria.mfa.gov.ge/,bulgaria.mfa.gov.ge,central
+government_agency,embassy of Georgia in Bulgaria,http://bulgaria.mfa.gov.ge,bulgaria.mfa.gov.ge,central
+government_agency,embassy of Moldova in Bulgaria,https://bulgaria.mfa.gov.md/,bulgaria.mfa.gov.md,central
+government_agency,embassy of Moldova in Bulgaria,https://bulgaria.mfa.gov.md,bulgaria.mfa.gov.md,central
+government_agency,"Embassy of Ukraine, Sofia",http://bulgaria.mfa.gov.ua,bulgaria.mfa.gov.ua,central
+government_agency,"Embassy of Russia, Sofia",https://bulgaria.mid.ru,bulgaria.mid.ru,central
+government_agency,European Commission Representation in Bulgaria,https://bulgaria.representation.ec.europa.eu/,bulgaria.representation.ec.europa.eu,
+government_agency,embassy of Denmark in Bulgaria,https://bulgarien.um.dk,bulgarien.um.dk,central
+government_agency,embassy of Denmark in Bulgaria,https://bulgarien.um.dk/,bulgarien.um.dk,central
+government_agency,Chamber of Audit,http://www.bulnao.government.bg/en,bulnao.government.bg,
+government_agency,Administrative Court - Burgas,https://burgas-adms.justice.bg/,burgas-adms.justice.bg,central-1
+government_agency,Appellate court - Burgas,https://burgas-as.justice.bg/,burgas-as.justice.bg,central-1
+government_agency,District Court - Burgas,https://burgas-os.justice.bg/,burgas-os.justice.bg,central-1
+government_agency,Regional Court - Burgas,https://burgas-rs.justice.bg/,burgas-rs.justice.bg,local
+government_agency,Burgas,http://www.burgas.bg,burgas.bg,
+government_agency,Regional Forest Directorate - Burgas,https://burgas.iag.bg,burgas.iag.bg,central-1
+government_agency,"Consulate General of Turkey, Burgas",https://burgaz-bk.mfa.gov.tr,burgaz-bk.mfa.gov.tr,
+government_agency,Regional Court - Byala,https://byala-rs.justice.bg/,byala-rs.justice.bg,local
+government_agency,Byala Slatina,https://byala-slatina.bg/,byala-slatina.bg,
+government_agency,Byala,http://byala.bg/,byala.bg,
+government_agency,Byala,http://www.byala.org/,byala.org,
+government_agency,Civil Aviation Administration (Bulgaria),http://www.caa.bg,caa.bg,
+government_agency,Executive Agency Certification Audit of European Agricultural Funds,https://www.caaf.bg/,caaf.bg,central
+government_agency,Commission for Anti-Corruption,https://cacbg.bg,cacbg.bg,central
+government_agency,Commission for Illegal Asset Forfeiture,https://www.caciaf.bg,caciaf.bg,central
+government_agency,"Geodesy, Cartography and Cadastre Agency",https://www.cadastre.bg/,cadastre.bg,central
+government_agency,Council for electronic media,https://www.cem.bg/,cem.bg,central
+government_agency,Center for Assisted Reproduction,http://cfar.bg,cfar.bg,
+government_agency,Chavdar,http://www.chavdar.eu/,chavdar.eu,
+government_agency,Regional Court - Cherven bryag,https://chbryag-rs.justice.bg/,chbryag-rs.justice.bg,local
+government_agency,Chelopech,https://chelopech.egov.bg/,chelopech.egov.bg,
+government_agency,Regional Court - Chepelare,https://chepelare-rs.justice.bg/,chepelare-rs.justice.bg,local
+government_agency,Chepelare,http://chepelare.org,chepelare.org,
+government_agency,Cherkovo,http://www.cherkovo.com,cherkovo.com,
+government_agency,Chernoochene,https://chernoochene.com/,chernoochene.com,
+government_agency,Cherven bryag,https://www.chervenbryag.bg/,chervenbryag.bg,
+government_agency,Association for the Promotion of Agricultural Cooperation between China and the Central and Eastern European Countries,https://www.china2ceec.org,china2ceec.org,
+government_agency,"Embassy of the People's Republic of China, Sofia",http://www.chinaembassy.bg,chinaembassy.bg,central
+government_agency,Chiprovtsi,https://www.chiprovtsi.bg/,chiprovtsi.bg,
+government_agency,Regional Court - Chirpan,https://chirpan-rs.justice.bg/,chirpan-rs.justice.bg,local
+government_agency,Chirpan,https://www.chirpan.bg/bg/,chirpan.bg,
+government_agency,Center for Human Resources Development and Regional Initiatives,https://www.chrdri.net,chrdri.net,
+government_agency,Chuprene,https://www.chuprene.com/,chuprene.com,
+government_agency,Central Election Commission,https://www.cik.bg/,cik.bg,central
+government_agency,Central commission against the Antisocial Acts and Crimes of Minors and Juveniles,https://ckbppmn.government.bg,ckbppmn.government.bg,
+government_agency,Centre for Educational Integration of Children and Students from Ethnic Minorities,http://coiduem.mon.bg/,coiduem.mon.bg,
+government_agency,Commission for disclosing affiliation to the Bulgarian state security,https://comdos.bg,comdos.bg,central
+government_agency,Constitutional Court of Bulgaria,http://www.constcourt.bg/,constcourt.bg,central
+government_agency,Risk Assessment Center on Food chain,https://corhv.government.bg/,corhv.government.bg,
+government_agency,Commission for Protection of Competition,https://www.cpc.bg/en/homepage,cpc.bg,central
+government_agency,Commission for Protection of Competition,https://www.cpc.bg/,cpc.bg,central
+government_agency,Commission for Personal Data Protection,https://www.cpdp.bg,cpdp.bg,central
+government_agency,Commision for public oversight of statutory auditors,https://www.cposa.bg,cposa.bg,central
+government_agency,Industrial Center of the Republic of Bulgaria in Moscow,https://www.cprb.ru,cprb.ru,
+government_agency,Communications Regulation Commission,https://www.crc.bg/,crc.bg,central
+government_agency,State Institute for Culture under the Minister of Foreign Affairs,http://www.culture-mfa.bg,culture-mfa.bg,
+government_agency,National Customs Agency,https://customs.bg/,customs.bg,
+government_agency,Dalgopol,https://www.dalgopol.bg/,dalgopol.bg,
+government_agency,State Agency for Metrological and Technical Surveillance,http://www.damtn.government.bg/index.php?lang=en,damtn.government.bg,central
+government_agency,State Agency for National Security,https://www.dans.bg/en,dans.bg,central
+government_agency,State Intelligence Agency,https://www.dar.bg/bg,dar.bg,central
+government_agency,State Intelligence Agency,https://www.dar.bg/en,dar.bg,central
+government_agency,State Agency for Technical Operations,https://www.dato.bg,dato.bg,central
+government_agency,Regional Court - Devin,https://devin-rs.justice.bg/,devin-rs.justice.bg,local
+government_agency,Devin,http://www.devin.bg/,devin.bg,
+government_agency,Regional Court - Devnya,https://devnya-rs.justice.bg/,devnya-rs.justice.bg,local
+government_agency,Devnya,https://www.devnya.bg,devnya.bg,
+government_agency,"State Fund ""Agriculture""",https://www.dfz.bg,dfz.bg,
+government_agency,"""Professor Tsvetan Lazarov"" Defence Institute",https://di.mod.bg/,di.mod.bg,
+government_agency,Regional Court - Dimitrovgrad,https://dimitrovgrad-rs.justice.bg/,dimitrovgrad-rs.justice.bg,local
+government_agency,Dimitrovgrad,http://www.dimitrovgrad.bg/,dimitrovgrad.bg,
+government_agency,Dimovo,http://www.dimovo.bg/?page=pages&pid=5,dimovo.bg,
+government_agency,embassy of South Africa in Bulgaria,http://www.dirco.gov.za/sofia,dirco.gov.za,central
+government_agency,Energy and Water State Regulatory Commission,https://www.dker.bg,dker.bg,central
+government_agency,State Commission on Commodity Exchanges and Markets,https://www.dksbt.bg,dksbt.bg,
+government_agency,State commission on information security,https://www.dksi.bg/,dksi.bg,
+government_agency,Directorate for National Construction Control,https://www.dnsk.bg,dnsk.bg,
+government_agency,Administrative Court - Dobrich,https://dobrich-adms.justice.bg/,dobrich-adms.justice.bg,central-1
+government_agency,District Court - Dobrich,https://dobrich-os.justice.bg/,dobrich-os.justice.bg,central-1
+government_agency,Regional Court - Dobrich,https://dobrich-rs.justice.bg/,dobrich-rs.justice.bg,local
+government_agency,Dobrich,https://www.dobrich.bg/,dobrich.bg,
+government_agency,Dobrich,https://www.dobrich.bg,dobrich.bg,
+government_agency,Dobrich-selska,http://www.dobrichka.bg,dobrichka.bg,
+government_agency,Dolna banya,https://dolna-banya.egov.bg/,dolna-banya.egov.bg,
+government_agency,Dolna Mitropolia,https://www.dolnamitropolia.bg/,dolnamitropolia.bg,
+government_agency,Dolni chiflik,http://dolni-chiflik.acstre.com/lang_en-GB_home.html,dolni-chiflik.acstre.com,
+government_agency,Dolni Dabnik,https://www.dolnidabnik.egov.bg,dolnidabnik.egov.bg,
+government_agency,Dospat,http://www.dospat-bg.com/,dospat-bg.com,
+government_agency,Sinite kamani,https://www.dppsk.org,dppsk.org,
+government_agency,Dragoman,https://dragoman.bg/,dragoman.bg,
+government_agency,Drazhevo,http://drazhevo.c1.biz/zeml.html,drazhevo.c1.biz,
+government_agency,Regional Court - Dryanovo,https://dryanovo-rs.justice.bg/,dryanovo-rs.justice.bg,local
+government_agency,Dryanovo,http://www.dryanovo.bg/,dryanovo.bg,
+government_agency,Regional Court - Dulovo,https://dulovo-rs.justice.bg/,dulovo-rs.justice.bg,local
+government_agency,Dulovo,http://dulovo.bg,dulovo.bg,
+government_agency,Regional Court - Dupnitsa,https://dupnitsa-rs.justice.bg/,dupnitsa-rs.justice.bg,local
+government_agency,Dupnitsa,http://www.dupnitsa.bg,dupnitsa.bg,
+government_agency,Dushantsi,http://dushantsi.webnode.com/,dushantsi.webnode.com,
+government_agency,Dve mogili,http://www.dvemogili.bg/,dvemogili.bg,
+government_agency,Dzhebel,http://www.dzhebelbg.com/,dzhebelbg.com,
+government_agency,River Basin Directorate - White Sea East,https://www.earbd.bg,earbd.bg,
+government_agency,Executive Agency for Vine and Wine,https://eavw.com/,eavw.com,central
+government_agency,"Embassy of Argentina, Sofia",https://ebulg.cancilleria.gob.ar/,ebulg.cancilleria.gob.ar,central
+government_agency,embassy of Switzerland in Bulgaria,https://www.eda.admin.ch/sofia,eda.admin.ch,central
+government_agency,Executive Environment Agency,https://eea.government.bg/en,eea.government.bg,central
+government_agency,Executive Environment Agency,https://eea.government.bg/,eea.government.bg,central
 ministry,Ministry of Electronic Government,https://egov.government.bg/,egov.government.bg,
+government_agency,Ministry of Electronic Government,https://egov.government.bg/,egov.government.bg,central
+government_agency,Regional Court - Elena,https://elena-rs.justice.bg/,elena-rs.justice.bg,local
+government_agency,Elena,http://www.elena.bg/,elena.bg,
+government_agency,Regional Court - Elhovo,https://elhovo-rs.justice.bg/,elhovo-rs.justice.bg,local
+government_agency,Elhovo,http://www.elhovobg.org/,elhovobg.org,
+government_agency,Elin Pelin,http://www.elinpelin.org,elinpelin.org,
+government_agency,Regional Court - Elin Pelin,https://elpelin-rs.justice.bg/,elpelin-rs.justice.bg,local
+government_agency,"Embassy of Israel, Sofia",https://embassies.gov.il/sofia,embassies.gov.il,central
+government_agency,Executive Agency Electronic Communication Networks and Information Systems,http://www.esmis.government.bg/en/,esmis.government.bg,
+government_agency,Regional Court - Etropole,https://etropole-rs.justice.bg/,etropole-rs.justice.bg,local
+government_agency,Etropole,https://etropole.bg,etropole.bg,
+government_agency,"Consulate General of Turkey, Plovdiv",https://filibe-bk.mfa.gov.tr,filibe-bk.mfa.gov.tr,
+government_agency,"Embassy of Finland, Sofia",https://finlandabroad.fi/web/bgr/,finlandabroad.fi,central
+government_agency,Bulgarian Science Fund,http://www.fni.bg/,fni.bg,
+government_agency,Financial Supervision Commission,http://www.fsc.bg/en/,fsc.bg,central
+government_agency,Gorna Oryahovitsa,http://www.g-oryahovica.org,g-oryahovica.org,
+government_agency,Administrative Court - Gabrovo,https://gabrovo-adms.justice.bg/,gabrovo-adms.justice.bg,central-1
+government_agency,District Court - Gabrovo,https://gabrovo-os.justice.bg/,gabrovo-os.justice.bg,central-1
+government_agency,Regional Court - Gabrovo,https://gabrovo-rs.justice.bg/,gabrovo-rs.justice.bg,local
+government_agency,Gabrovo,http://www.gabrovo.bg/,gabrovo.bg,
+government_agency,Regional Court - Galabovo,https://galabovo-rs.justice.bg/,galabovo-rs.justice.bg,local
+government_agency,Galabovo,http://www.galabovo.org,galabovo.org,
+government_agency,Garmen,https://www.garmen.bg/,garmen.bg,
+government_agency,Gabrovo,http://www.gb.government.bg/,gb.government.bg,
+government_agency,General Directorate Combating Organized Crime,https://www.gdbop.bg/bg/,gdbop.bg,
+government_agency,Q12276994,https://www.gdbop.bg,gdbop.bg,
+government_agency,Regional Court - Gotse Delchev,https://gdelchev-rs.justice.bg/,gdelchev-rs.justice.bg,local
+government_agency,Execution of Punishments General Directorate,http://www.gdin.bg,gdin.bg,
+government_agency,"Chief Directorate ""Security""",https://www.gdo.bg,gdo.bg,
+government_agency,Georgi Damyanovo,https://georgidamyanovo.com/,georgidamyanovo.com,
+government_agency,Glavinitsa,http://www.glavinitsa.bg/,glavinitsa.bg,
+government_agency,General Labour Inspectorate Executive Agency,https://www.gli.government.bg/bg,gli.government.bg,central
+government_agency,Godech,https://www.godech.bg/,godech.bg,
+government_agency,Gorna Breznitsa,https://gornabreznitsa.bg/,gornabreznitsa.bg,
+government_agency,Gorna Malina,https://www.gornamalina.bg/,gornamalina.bg,
+government_agency,Regional Court - Gorna Oryahovitsa,https://goryahovitsa-rs.justice.bg/,goryahovitsa-rs.justice.bg,local
+government_agency,Gotse Delchev,https://www.gotsedelchev.bg/?newlang=eng,gotsedelchev.bg,
+government_agency,Gotse Delchev,http://www.gotsedelchev.bg/,gotsedelchev.bg,
+government_agency,embassy of Kazakhstan in Bulgaria,https://www.gov.kz/memleket/entities/mfa-sofia,gov.kz,central
+government_agency,"Polish Embassy, Sofia",https://www.gov.pl/web/bulgaria,gov.pl,central
+government_agency,embassy of Slovenia in Bulgaria,https://www.gov.si/predstavnistva/veleposlanistvo-sofija/,gov.si,central
+government_agency,embassy of Slovenia in Bulgaria,https://www.gov.si/en/representations/embassy-sofia/,gov.si,central
+government_agency,British Embassy Sofia,https://www.gov.uk/world/organisations/british-embassy-sofia,gov.uk,central
+government_agency,Council of Ministers of Bulgaria,http://www.government.bg/,government.bg,central
+government_agency,Rila,https://grad-rila.bg,grad-rila.bg,
+government_agency,Gramada,http://www.gramada.net/,gramada.net,
+government_agency,ESGRAON,https://www.grao.bg/esgraon.html,grao.bg,
+government_agency,Forest Seed Control Station - Plovdiv,https://gssplovdiv.iag.bg,gssplovdiv.iag.bg,
+government_agency,Forest Seed Control Station - Sofia,https://gsssofia.iag.bg,gsssofia.iag.bg,
+government_agency,Regional Court - General Toshevo,https://gtoshevo-rs.justice.bg/,gtoshevo-rs.justice.bg,local
+government_agency,Gulyantsi,https://gulyantsi.bg/en/,gulyantsi.bg,
+government_agency,Gulyantsi,https://gulyantsi.bg,gulyantsi.bg,
+government_agency,Gurkovo,https://www.gurkovo.bg/,gurkovo.bg,
+government_agency,Hadzhidimovo,http://hadzhidimovo.com/,hadzhidimovo.com,
+government_agency,Regional Court - Harmanli,https://harmanli-rs.justice.bg/,harmanli-rs.justice.bg,local
+government_agency,Harmanli,https://www.harmanli.bg/,harmanli.bg,
+government_agency,Administrative Court - Haskovo,https://haskovo-adms.justice.bg/,haskovo-adms.justice.bg,central-1
+government_agency,District Court - Haskovo,https://haskovo-os.justice.bg/,haskovo-os.justice.bg,central-1
+government_agency,Regional Inspectorate of Environment and Water - Haskovo,https://haskovo-riew.egov.bg,haskovo-riew.egov.bg,central-1
+government_agency,Regional Court - Haskovo,https://haskovo-rs.justice.bg/,haskovo-rs.justice.bg,local
+government_agency,Haskovo,http://www.haskovo.bg/,haskovo.bg,
+government_agency,Hayredin,https://www.hayredin.com,hayredin.com,
+government_agency,Hisarya,http://www.hisar.bg,hisar.bg,
+government_agency,Hitrino,http://www.hitrino.org/,hitrino.org,
+government_agency,Human Resource Development Center,http://hrdc.bg/en/,hrdc.bg,
+government_agency,Haskovo,http://hs.government.bg,hs.government.bg,
+government_agency,Executive Agency for Hail Suppression,https://iabg.government.bg/,iabg.government.bg,central
+government_agency,Executive Forest Agency,https://www.iag.bg/,iag.bg,central
+government_agency,Executive Forest Agency,http://www.iag.bg/lang/2/index,iag.bg,central
+government_agency,Executive Agency for Electronic Governance Infrastructure,https://iaieu.egov.bg/,iaieu.egov.bg,central
+government_agency,Railway Administration Executive Agency,https://iaja.bg/,iaja.bg,central
+government_agency,Medical Supervision Executive Agency,https://iamn.bg/,iamn.bg,central
+government_agency,Executive Agency for Fisheries and Aquaculture,https://iara-iss.egov.bg/,iara-iss.egov.bg,central
+government_agency,"Executive Agency for Variety Testing, Field Inspection and Seed Control",https://www.iasas.government.bg/,iasas.government.bg,central
+government_agency,Executive Agency for Selection and Reproduction in Animal Breeding,https://www.iasrj.eu/,iasrj.eu,central
+government_agency,Institute for Bulgarian Language,http://ibl.bas.bg/,ibl.bas.bg,
+government_agency,Ihtiman,http://ihtiman-obshtina.com/,ihtiman-obshtina.com,
+government_agency,Regional Court - Ihtiman,https://ihtiman-rs.justice.bg/,ihtiman-rs.justice.bg,local
+government_agency,Ilinden District,https://ilinden.sofia.bg/,ilinden.sofia.bg,
+government_agency,"Embassy of India, Sofia",https://www.indembsofia.gov.in/,indembsofia.gov.in,central
+government_agency,Q136528835,https://www.inspectoratvss.bg,inspectoratvss.bg,
+government_agency,Polish Institute in Sofia,https://instytutpolski.pl/sofia/,instytutpolski.pl,
+government_agency,InvestBulgaria Agency,https://investbg.government.bg/,investbg.government.bg,central
+government_agency,embassy of Ireland in Bulgaria,https://www.ireland.ie/en/bulgaria/sofia/,ireland.ie,central
+government_agency,Iskar,https://iskarbg.bg/,iskarbg.bg,
+government_agency,Regional Court - Isperih,https://isperih-rs.justice.bg/,isperih-rs.justice.bg,local
+government_agency,Isperih,http://www.isperih.bg/,isperih.bg,
+government_agency,Ivanovo,http://www.ivanovo.bg/,ivanovo.bg,
+government_agency,Regional Court - Ivaylovgrad,https://ivaylovgrad-rs.justice.bg/,ivaylovgrad-rs.justice.bg,local
+government_agency,Ivaylovgrad,https://ivaylovgrad.bg/,ivaylovgrad.bg,
+government_agency,Eastern district,https://iztochen-plovdiv.bg/,iztochen-plovdiv.bg,
 ministry,Ministry of Justice,https://www.justice.government.bg/,justice.government.bg,
+government_agency,Ministry of Justice,https://www.justice.government.bg/,justice.government.bg,central
+government_agency,Kaloyanovo,http://kaloianovo.org/,kaloianovo.org,
+government_agency,Kameno,http://www.kameno.bg,kameno.bg,
+government_agency,Kaolinovo,http://www.kaolinovo.bg/,kaolinovo.bg,
+government_agency,Kardzhali,http://www.kardjali.bg,kardjali.bg,
+government_agency,Regional Forest Directorate - Kardzhali,http://www.kardjali.iag.bg/,kardjali.iag.bg,central-1
+government_agency,Administrative Court - Kardzhali,https://kardzhali-adms.justice.bg/,kardzhali-adms.justice.bg,central-1
+government_agency,District Court - Kardzhali,https://kardzhali-os.justice.bg/,kardzhali-os.justice.bg,central-1
+government_agency,Regional Court - Kardzhali,https://kardzhali-rs.justice.bg/,kardzhali-rs.justice.bg,local
+government_agency,Regional Court - Karlovo,https://karlovo-rs.justice.bg/,karlovo-rs.justice.bg,local
+government_agency,Karlovo,https://www.karlovo.bg,karlovo.bg,
+government_agency,Regional Court - Karnobat,https://karnobat-rs.justice.bg/,karnobat-rs.justice.bg,local
+government_agency,Karnobat,http://karnobat.acstre.com,karnobat.acstre.com,
+government_agency,Kaspichan,http://www.kaspichan.org/,kaspichan.org,
+government_agency,Regional Court - Kavarna,https://kavarna-rs.justice.bg/,kavarna-rs.justice.bg,local
+government_agency,Kavarna,http://www.kavarna.bg,kavarna.bg,
+government_agency,Kaynardzha,https://www.kaynardzha.egov.bg,kaynardzha.egov.bg,
+government_agency,Regional Court - Kazanlak,https://kazanlak-rs.justice.bg/,kazanlak-rs.justice.bg,local
+government_agency,Kazanlak,http://www.kazanlak.bg/,kazanlak.bg,
+government_agency,"embassy of Indonesia, Sofia",https://kemlu.go.id/sofia,kemlu.go.id,central
+government_agency,Kirkovo,http://kirkovo.bg/,kirkovo.bg,
+government_agency,Kardzhali,http://www.kj.government.bg/,kj.government.bg,
+government_agency,Klimentovo,http://www.klimentovo.bg,klimentovo.bg,
+government_agency,Kyustendil,https://kn.egov.bg,kn.egov.bg,
+government_agency,Regional Court - Knezha,https://knezha-rs.justice.bg/,knezha-rs.justice.bg,local
+government_agency,Knezha,https://knezha.bg,knezha.bg,
+government_agency,Kocherinovo,https://kocherinovo.bg/,kocherinovo.bg,
+government_agency,Koprivshtitsa,http://koprivshtitsa-bg.com,koprivshtitsa-bg.com,
+government_agency,Kornitsa,http://www.kornitsa.com/forum/,kornitsa.com,
+government_agency,Kostenets,http://www.kostenetz.com,kostenetz.com,
+government_agency,Regional Court - Kostinbrod,https://kostinbrod-rs.justice.bg/,kostinbrod-rs.justice.bg,local
+government_agency,Kostinbrod,https://kostinbrod.bg/,kostinbrod.bg,
+government_agency,Regional Court - Kotel,https://kotel-rs.justice.bg/,kotel-rs.justice.bg,local
+government_agency,Kotel,http://www.kotel.bg/,kotel.bg,
+government_agency,Kovachevtsi,https://kovachevtsi.bg/wps/portal/municipality-kovachevtsi/home,kovachevtsi.bg,
+government_agency,Regional Court - Kozloduy,https://kozloduy-rs.justice.bg/,kozloduy-rs.justice.bg,local
+government_agency,Kozloduy,https://kozloduy.bg,kozloduy.bg,
+government_agency,Krasna Polyana District,https://krasnapolyana.bg/,krasnapolyana.bg,
+government_agency,Krasno Selo District,https://krasnoselo.bg,krasnoselo.bg,
+government_agency,Kremikovtsi District,https://kremikovtsi.sofia.bg,kremikovtsi.sofia.bg,
+government_agency,Kresna,http://kresna-bg.com/,kresna-bg.com,
+government_agency,Krichim,https://www.krichim.bg,krichim.bg,
+government_agency,Krivodol,https://www.krivodol.com,krivodol.com,
+government_agency,Regional Court - Krumovgrad,https://krumovgrad-rs.justice.bg/,krumovgrad-rs.justice.bg,local
+government_agency,Krumovgrad,http://www.krumovgrad.bg/,krumovgrad.bg,
+government_agency,Krushari,http://www.krushari.bg,krushari.bg,
+government_agency,Regional Court - Kubrat,https://kubrat-rs.justice.bg/,kubrat-rs.justice.bg,local
+government_agency,Kubrat,http://www.kubrat.bg,kubrat.bg,
+government_agency,Kuklen,https://kuklen.org/,kuklen.org,
+government_agency,Regional Court - Kula,https://kula-rs.justice.bg/,kula-rs.justice.bg,local
+government_agency,Regional Forest Directorate - Kyustendil,https://kustendil.iag.bg/,kustendil.iag.bg,central-1
+government_agency,"Embassy of Kuwait, Sofia",http://www.kuwaitembassy.bg/,kuwaitembassy.bg,central
+government_agency,Administrative Court - Kyustendil,https://kyustendil-adms.justice.bg/,kyustendil-adms.justice.bg,central-1
+government_agency,District Court - Kyustendil,https://kyustendil-os.justice.bg/,kyustendil-os.justice.bg,central-1
+government_agency,Regional Court - Kyustendil,https://kyustendil-rs.justice.bg/,kyustendil-rs.justice.bg,local
+government_agency,Kyustendil,https://kyustendil.bg/,kyustendil.bg,
+government_agency,Commission for Protection against Discrimination,http://www.kzd-nondiscrimination.com/,kzd-nondiscrimination.com,central
+government_agency,Consumer Protection Commission,https://kzp.bg/,kzp.bg,central
+government_agency,Lesichovo,https://www.lesichovo.bg,lesichovo.bg,
+government_agency,Letnitsa,http://www.letnitsa.bg/,letnitsa.bg,
+government_agency,Regional Court - Levski,https://levski-rs.justice.bg/,levski-rs.justice.bg,local
+government_agency,Ivan Vazov National Library,http://www.libplovdiv.com,libplovdiv.com,
+government_agency,Regional Court - Lom,https://lom-rs.justice.bg/,lom-rs.justice.bg,local
+government_agency,Lom,https://www.lom.bg/,lom.bg,
+government_agency,Administrative Court - Lovech,https://lovech-adms.justice.bg/,lovech-adms.justice.bg,central-1
+government_agency,District Court - Lovech,https://lovech-os.justice.bg/,lovech-os.justice.bg,central-1
+government_agency,Regional Court - Lovech,https://lovech-rs.justice.bg/,lovech-rs.justice.bg,local
+government_agency,Lovech,https://www.lovech.bg/,lovech.bg,
+government_agency,Lovech,https://lovech.government.bg/,lovech.government.bg,
+government_agency,Regional Forest Directorate - Lovech,http://lovech.iag.bg,lovech.iag.bg,central-1
+government_agency,Lozenets District,https://lozenets.sofia.bg/,lozenets.sofia.bg,
+government_agency,Loznitsa,https://www.loznitsa.bg,loznitsa.bg,
+government_agency,Regional Court - Lukovit,https://lukovit-rs.justice.bg/,lukovit-rs.justice.bg,local
+government_agency,Lukovit,https://www.lukovit.bg/,lukovit.bg,
+government_agency,Lyaskovets,http://www.lyaskovets.net,lyaskovets.net,
+government_agency,Lyubimets,http://www.lyubimets.org/,lyubimets.org,
+government_agency,Lyulin District,https://lyulin.sofia.bg/,lyulin.sofia.bg,
+government_agency,Forest Protection Station - Plovdiv,https://lzsplovdiv.iag.bg,lzsplovdiv.iag.bg,
+government_agency,Forest Protection Station - Sofia,https://lzssofia.com,lzssofia.com,local
+government_agency,Forest Protection Station - Varna,https://lzsvarna.iag.bg,lzsvarna.iag.bg,local
+government_agency,Velingrad,https://m.velingrad.bg/,m.velingrad.bg,
+government_agency,Regional Court - Madan,https://madan-rs.justice.bg/,madan-rs.justice.bg,local
+government_agency,Madan,https://www.madan.bg/,madan.bg,
+government_agency,Madzharovo,http://www.madzharovo.bg,madzharovo.bg,
+government_agency,Maglizh,http://www.maglizh.bg/,maglizh.bg,
+government_agency,Makresh,http://www.makreshbg.com/,makreshbg.com,
+government_agency,Malko Tarnovo,http://www.malkotarnovo.org/,malkotarnovo.org,
+government_agency,Executive Agency Maritime Administration,http://www.marad.bg/,marad.bg,central
+government_agency,Maritsa,http://maritsa.bg/,maritsa.bg,
 ministry,Ministry of Culture of Bulgaria,http://mc.government.bg/,mc.government.bg,
 ministry,Ministry of Culture of Bulgaria,http://mc.government.bg/index.php?l=2,mc.government.bg,
+government_agency,Ministry of Culture of Bulgaria,http://mc.government.bg/index.php?l=2,mc.government.bg,central
+government_agency,Ministry of Culture of Bulgaria,http://mc.government.bg/,mc.government.bg,central
 ministry,Ministry of Energy of Bulgaria,https://www.me.government.bg/bg,me.government.bg,
+government_agency,Ministry of Energy of Bulgaria,https://www.me.government.bg/en,me.government.bg,central
+government_agency,Ministry of Energy of Bulgaria,https://www.me.government.bg/bg,me.government.bg,central
 ministry,Ministry of Energy of Bulgaria,https://www.me.government.bg/en,me.government.bg,
+government_agency,Medkovets,http://www.medkovec.bg,medkovec.bg,
+government_agency,Regional Court - Mezdra,https://mezdra-rs.justice.bg/,mezdra-rs.justice.bg,local
+government_agency,Mezdra,https://www.mezdra.bg,mezdra.bg,
 ministry,Ministry of Foreign Affairs of Bulgaria,https://www.mfa.bg/en/,mfa.bg,
 ministry,Ministry of Foreign Affairs of Bulgaria,https://www.mfa.bg/,mfa.bg,
+government_agency,Ministry of Foreign Affairs of Bulgaria,https://www.mfa.bg/en/,mfa.bg,central
+government_agency,Ministry of Foreign Affairs of Bulgaria,https://www.mfa.bg/,mfa.bg,central
+government_agency,embassy of Cyprus in Bulgaria,http://www.mfa.gov.cy/mfa/embassies/embassy_sofia.nsf,mfa.gov.cy,central
+government_agency,embassy of Greece in Bulgaria,https://www.mfa.gr/bulgaria,mfa.gr,central
 ministry,Ministry of Health of Bulgaria,https://www.mh.government.bg/bg/,mh.government.bg,
+government_agency,Ministry of Health of Bulgaria,https://www.mh.government.bg/en/,mh.government.bg,central
+government_agency,Ministry of Health of Bulgaria,https://www.mh.government.bg/bg/,mh.government.bg,central
 ministry,Ministry of Health of Bulgaria,https://www.mh.government.bg/en/,mh.government.bg,
 ministry,Ministry of Economy and Industry,https://mi.government.bg/,mi.government.bg,
+government_agency,Ministry of Economy and Industry,https://mi.government.bg/,mi.government.bg,central
+government_agency,Ministry of Innovation and Digital Transformation,https://www.midt.bg/,midt.bg,central
 ministry,Ministry of Innovation and Growth,https://mig.government.bg/,mig.government.bg,
+government_agency,Ministry of Innovation and Growth,https://mig.government.bg/,mig.government.bg,central
+government_agency,Executive Agency for Military Clubs and Recreation,https://militaryclubs.bg/,militaryclubs.bg,central
+government_agency,National Museum of Military History,http://www.militarymuseum.bg,militarymuseum.bg,
+government_agency,Mineralni bani,https://mineralnibani.bg/,mineralnibani.bg,
+government_agency,Ministry of Finance,https://www.minfin.bg/en/2,minfin.bg,central
 ministry,Ministry of Finance,https://www.minfin.bg/en/2,minfin.bg,
 ministry,Ministry of Finance,https://www.minfin.bg/,minfin.bg,
+government_agency,Ministry of Finance,https://www.minfin.bg/,minfin.bg,central
+government_agency,Balanovo,https://www.mirela.bg/en/off-plan-properties/village-of-Balanovo-zxc35q2689.html,mirela.bg,
+government_agency,Mirkovo,https://www.mirkovo.bg,mirkovo.bg,
+government_agency,embassy of Cuba in Bulgaria,https://misiones.cubaminrex.cu/bulgaria,misiones.cubaminrex.cu,central
+government_agency,embassy of Cuba in Bulgaria,http://misiones.minrex.gob.cu/bulgaria,misiones.minrex.gob.cu,central
+government_agency,Bureau for protection of endangered persons,https://mjs.bg/home/index/bzzl-start?top=1,mjs.bg,
+government_agency,Mladost District,https://mladost.bg,mladost.bg,
+government_agency,Working Conditions Fund,https://www.mlsp.government.bg/fond-usloviya-na-trud,mlsp.government.bg,
+government_agency,Social Protection Fund,https://www.mlsp.government.bg/fond-sotsialna-zakrila,mlsp.government.bg,
+government_agency,Ministry of Labour and Social Policy,https://www.mlsp.government.bg/,mlsp.government.bg,central
 ministry,Ministry of Labour and Social Policy,https://www.mlsp.government.bg/,mlsp.government.bg,
 ministry,Ministry of Defence of Bulgaria,https://www.mod.bg/,mod.bg,
+government_agency,Defence Headquarters,https://www.mod.bg/bg/ministry_NO.html,mod.bg,
+government_agency,Ministry of Defence of Bulgaria,https://www.mod.bg/,mod.bg,central
+government_agency,Ministry of Environment and Water,https://www.moew.government.bg/en/?show=226&lang=en,moew.government.bg,central
 ministry,Ministry of Environment and Water,https://www.moew.government.bg/en/?show=226&lang=en,moew.government.bg,
+government_agency,Ministry of Environment and Water,https://www.moew.government.bg/?show=226&lang=en,moew.government.bg,central
 ministry,Ministry of Environment and Water,https://www.moew.government.bg/?show=226&lang=en,moew.government.bg,
+government_agency,"Embassy of the United Arab Emirates, Sofia",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=13ba836f-6983-4557-acf2-2edd593f82e5,mofaic.gov.ae,central
+government_agency,Regional Court - Momchilgrad,https://momchilgrad-rs.justice.bg/,momchilgrad-rs.justice.bg,local
+government_agency,Momchilgrad,https://www.momchilgrad.bg,momchilgrad.bg,
+government_agency,Ministry of Education and Science of Bulgaria,https://mon.bg/,mon.bg,central
 ministry,Ministry of Education and Science of Bulgaria,https://mon.bg/en/,mon.bg,
+government_agency,Ministry of Education and Science of Bulgaria,https://mon.bg/en/,mon.bg,central
 ministry,Ministry of Education and Science of Bulgaria,https://mon.bg/,mon.bg,
+government_agency,Administrative Court - Montana,https://montana-adms.justice.bg/,montana-adms.justice.bg,central-1
+government_agency,District Court - Montana,https://montana-os.justice.bg/,montana-os.justice.bg,central-1
+government_agency,Regional Court - Montana,https://montana-rs.justice.bg/,montana-rs.justice.bg,local
+government_agency,Montana,http://www.montana.bg/,montana.bg,
+government_agency,Montana,https://montanaoblast.egov.bg/,montanaoblast.egov.bg,
+government_agency,Ministry of Youth and Sports of Bulgaria,http://mpes.government.bg/Default.aspx,mpes.government.bg,central
+government_agency,Ministry of Youth and Sports of Bulgaria,http://mpes.government.bg/,mpes.government.bg,central
 ministry,Ministry of Youth and Sports of Bulgaria,http://mpes.government.bg/,mpes.government.bg,
 ministry,Ministry of Youth and Sports of Bulgaria,http://mpes.government.bg/Default.aspx,mpes.government.bg,
+government_agency,Ministry of Regional Development and Public Works,https://www.mrrb.bg/en/,mrrb.bg,central
 ministry,Ministry of Regional Development and Public Works,https://www.mrrb.bg/en/,mrrb.bg,
+government_agency,Ministry of Regional Development and Public Works,https://www.mrrb.bg/,mrrb.bg,central
 ministry,Ministry of Regional Development and Public Works,https://www.mrrb.bg/,mrrb.bg,
+government_agency,Regional Court - Malko Tarnovo,https://mtarnovo-rs.justice.bg/,mtarnovo-rs.justice.bg,local
 ministry,"Ministry of Transport, Information Technology and Communications",https://www.mtitc.government.bg/en,mtitc.government.bg,
 ministry,"Ministry of Transport, Information Technology and Communications",https://www.mtitc.government.bg/bg,mtitc.government.bg,
+government_agency,"Ministry of Transport, Information Technology and Communications",https://www.mtitc.government.bg/bg,mtitc.government.bg,central
+government_agency,"Ministry of Transport, Information Technology and Communications",https://www.mtitc.government.bg/en,mtitc.government.bg,central
+government_agency,embassy of Croatia in Bulgaria,https://mvep.gov.hr/bg,mvep.gov.hr,central
+government_agency,Ministry of Interior of Bulgaria,https://www.mvr.bg/,mvr.bg,central
 ministry,Ministry of Interior of Bulgaria,https://www.mvr.bg/,mvr.bg,
 ministry,Ministry of Interior of Bulgaria,https://www.mvr.bg/en/home,mvr.bg,
+government_agency,Ministry of Interior of Bulgaria,https://www.mvr.bg/en/home,mvr.bg,central
+government_agency,Regional Directorate of Agriculture - Ruse,http://www.mzh.government.bg/ODZ-Ruse/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Shumen,https://www.mzh.government.bg/Odz-shumen/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Vidin Oblast,https://www.mzh.government.bg/ODZ-Vidin/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Dobrich,http://www.mzh.government.bg/ODZ-Dobrich/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Vratsa,http://www.mzh.government.bg/ODZ-Vratza/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Pleven,https://www.mzh.government.bg/ODZ-Pleven/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Varna,http://www.mzh.government.bg/ODZ-Varna,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Smolyan,https://www.mzh.government.bg/ODZ-Smolian/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Razgrad,https://www.mzh.government.bg/ODZ-Razgrad/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Targovishte,http://www.mzh.government.bg/ODZ-Targovishte/bg/Contacts.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Kardzhali,http://www.mzh.government.bg/ODZ-Kardzhali/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Sofia,http://www.mzh.government.bg/ODZ-Sofiaoblast/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Montana Oblast,http://www.mzh.government.bg/ODZ-Montana/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Yambol,https://www.mzh.government.bg/ODZ-Yambol/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Pernik,https://www.mzh.government.bg/ODZ-Pernik/bg/Home.aspx,mzh.government.bg,central-1
 ministry,"Ministry of Agriculture, Food and Forestry",http://www.mzh.government.bg,mzh.government.bg,
+government_agency,Regional Directorate of Agriculture - Burgas,http://www.mzh.government.bg/odz-burgas/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Blagoevgrad,https://www.mzh.government.bg/odz-blagoevgrad,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Sliven,http://www.mzh.government.bg/ODZ-Sliven/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Silistra,http://www.mzh.government.bg/odz-silistra/bg/home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Lovech,http://www.mzh.government.bg/ODZ-Lovech/,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Kyustendil,https://www.mzh.government.bg/ODZ-Kustendil/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Veliko Tarnovo,https://www.mzh.government.bg/ODZ-Vtarnovo/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Plovdiv,http://www.mzh.government.bg/ODZ-Plovdiv/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Pazardzhik,https://www.mzh.government.bg/odz-pazardzhik/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,"Ministry of Agriculture, Food and Forestry",http://www.mzh.government.bg,mzh.government.bg,central
+government_agency,Regional Directorate of Agriculture - Sofia City,https://www.mzh.government.bg/ODZ-Sofiagrad/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Gabrovo,https://www.mzh.government.bg/ODZ-Gabrovo/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Haskovo,http://www.mzh.government.bg/ODZ-Haskovo/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,Regional Directorate of Agriculture - Stara Zagora,http://www.mzh.government.bg/ODZ-Stzagora/bg/Home.aspx,mzh.government.bg,central-1
+government_agency,"Embassy of the Czech Republic, Sofia",https://www.mzv.cz/sofia,mzv.cz,central
+government_agency,"Embassy of Slovakia, Sofia",https://www.mzv.sk/web/sofia,mzv.sk,central
+government_agency,National Agricultural Advisory Service,https://www.naas.government.bg,naas.government.bg,
+government_agency,Bulgarian Accreditation Service Executive Agency,https://www.nab-bas.bg/,nab-bas.bg,central
+government_agency,National Centre for Information and Documentation,https://nacid.bg,nacid.bg,
+government_agency,Nadezhda District,https://nadezhda.sofia.bg/,nadezhda.sofia.bg,
+government_agency,National Revenue Agency,http://www.nap.bg/,nap.bg,central
+government_agency,SS. Cyril and Methodius National Library,http://www.nationallibrary.bg/,nationallibrary.bg,
+government_agency,National Agency for Vocational Education and Training,https://navet.government.bg,navet.government.bg,
+government_agency,National Special Intelligence Devices Control Bureau,https://www.nbksrs.bg/,nbksrs.bg,central
+government_agency,National Legal Aid Bureau,https://www.nbpp.government.bg,nbpp.government.bg,
+government_agency,National Culture Fund of Bulgaria,https://www.ncf.bg,ncf.bg,
+government_agency,National Council on Prices and Reimbursement of Medicinal Products,https://www.ncpr.bg,ncpr.bg,
+government_agency,National Evaluation and Accreditation Agency,https://www.neaa.government.bg/en/,neaa.government.bg,
+government_agency,Nedelino,http://www.nedelino.bg/,nedelino.bg,
+government_agency,Regional Court - Nesebar,https://nesebar-rs.justice.bg/,nesebar-rs.justice.bg,local
+government_agency,Nesebar,http://www.nesebarinfo.com,nesebarinfo.com,
+government_agency,Nevestino,https://www.nevestino.bg,nevestino.bg,
+government_agency,National Film Center,https://www.nfc.bg/,nfc.bg,central
+government_agency,National Health Insurance Fund,http://www.nhif.bg/,nhif.bg,central
+government_agency,Nikolaevo,http://www.nikolaevo.net/,nikolaevo.net,
+government_agency,Nikola Kozlevo,https://www.nikolakozlevo.bg,nikolakozlevo.bg,
+government_agency,Nikolovo,https://www.nikolovo.com,nikolovo.com,
+government_agency,Nikopol,https://www.nikopol-bg.com,nikopol-bg.com,
+government_agency,Regional Court - Nikopol,https://nikopol-rs.justice.bg/,nikopol-rs.justice.bg,local
+government_agency,National Institute of Immovable Cultural Heritage,http://ninkn.bg/,ninkn.bg,
+government_agency,National Inspectorate of Education,https://nio.government.bg/,nio.government.bg,
+government_agency,National Institute for Conciliation and Arbitration,https://www.nipa.bg/,nipa.bg,central
+government_agency,Nova Zagora,https://nova-zagora.bg/bg,nova-zagora.bg,
+government_agency,Novi Iskar District,https://novi-iskar.sofia.bg/,novi-iskar.sofia.bg,
+government_agency,Novi pazar,http://www.novipazar.acstre.com/,novipazar.acstre.com,
+government_agency,Regional Court - Novi Pazar,https://npazar-rs.justice.bg/,npazar-rs.justice.bg,local
+government_agency,National Revenue Agency,https://www.nra.bg/,nra.bg,central
+government_agency,National Statistical Institute,http://www.nsi.bg/,nsi.bg,central
+government_agency,National Statistical Institute,http://www.nsi.bg/en,nsi.bg,central
+government_agency,National Security Service,https://www.nso.bg,nso.bg,
+government_agency,National Social Security Institute,https://www.nssi.bg/,nssi.bg,central
+government_agency,"National Board for aircraft, maritime and railway accident investigation",https://www.ntib.bg/,ntib.bg,
+government_agency,Regional Court - Nova Zagora,https://nzagora-rs.justice.bg/,nzagora-rs.justice.bg,local
+government_agency,Laki,http://www.oblaki.com/,oblaki.com,
+government_agency,Vratsa,http://www.oblast.vratsa.bg/,oblast.vratsa.bg,
+government_agency,Shumen,http://www.oblastshumen.icon.bg/en/,oblastshumen.icon.bg,
+government_agency,Levski,https://oblevski.egov.bg,oblevski.egov.bg,
+government_agency,Apriltsi,http://www.obshtina-apriltsi.com/,obshtina-apriltsi.com,
+government_agency,Boboshevo,https://obshtina-boboshevo.eu/,obshtina-boboshevo.eu,
+government_agency,Boynitsa,https://obshtina-boinica.com,obshtina-boinica.com,
+government_agency,Kula,http://obshtina-kula.com/bg/,obshtina-kula.com,
+government_agency,Novo selo,https://obshtina-novoselo.com/bg/,obshtina-novoselo.com,
+government_agency,Ruzhintsi,http://obshtina-ruzhintsi.com/,obshtina-ruzhintsi.com,
+government_agency,Belitsa,https://obshtinabelitsa.com/,obshtinabelitsa.com,
+government_agency,Mizia,https://www.obshtinamizia.com,obshtinamizia.com,
+government_agency,Ruse,https://obshtinaruse.bg/,obshtinaruse.bg,
+government_agency,Topchiysko,http://www.obstinaruen.com/,obstinaruen.com,
+government_agency,Odessos,https://odesos.bg/,odesos.bg,
+government_agency,Ombudsman of the Republic of Bulgaria,https://www.ombudsman.bg/bg,ombudsman.bg,
+government_agency,Ombudsman of the Republic of Bulgaria,https://www.ombudsman.bg/en,ombudsman.bg,
+government_agency,Regional Court - Omurtag,https://omurtag-rs.justice.bg/,omurtag-rs.justice.bg,local
+government_agency,Omurtag,https://www.omurtag.bg,omurtag.bg,
+government_agency,Opaka,https://www.opaka.bg,opaka.bg,
+government_agency,Opan,http://www.opan.bg/,opan.bg,
+government_agency,Oryahovo,https://www.oriahovo.bg,oriahovo.bg,
+government_agency,Regional Court - Oryahovo,https://oryahovo-rs.justice.bg/,oryahovo-rs.justice.bg,local
+government_agency,Ovcha Kupel District,https://ovchakupel.bg,ovchakupel.bg,
+government_agency,Regional Court - Panagyurishte,https://panagyurishte-rs.justice.bg/,panagyurishte-rs.justice.bg,local
+government_agency,Panagyurishte,https://panagyurishte.bg,panagyurishte.bg,
+government_agency,Pancharevo District,http://www.pancharevo.org/,pancharevo.org,
+government_agency,Vitosha nature park,https://park-vitosha.org,park-vitosha.org,
+government_agency,Rila Monastery Nature Park,https://www.parkrilski-manastir.eu,parkrilski-manastir.eu,
+government_agency,Golden Sands Nature Park,http://www.parkzlatnipiasaci.com/,parkzlatnipiasaci.com,
 supreme_court,National Assembly of Bulgaria,https://www.parliament.bg,parliament.bg,central
 parliament,National Assembly of Bulgaria,https://www.parliament.bg,parliament.bg,central
+government_agency,Parvomay,http://www.parvomai.bg/,parvomai.bg,
+government_agency,Regional Court - Parvomay,https://parvomay-rs.justice.bg/,parvomay-rs.justice.bg,local
+government_agency,Pavel banya,https://www.pavelbanya.bg,pavelbanya.bg,
+government_agency,Regional Court - Pavlikeni,https://pavlikeni-rs.justice.bg/,pavlikeni-rs.justice.bg,local
+government_agency,Pavlikeni,http://www.pavlikeni.bg/,pavlikeni.bg,
+government_agency,Regional Forest Directorate - Pazardzhik,https://www.pazardjik.iag.bg,pazardjik.iag.bg,central-1
+government_agency,Administrative Court - Pazardzhik,https://pazardzhik-adms.justice.bg/,pazardzhik-adms.justice.bg,central-1
+government_agency,District Court - Pazardzhik,https://pazardzhik-os.justice.bg/,pazardzhik-os.justice.bg,central-1
+government_agency,Regional Court - Pazardzhik,https://pazardzhik-rs.justice.bg/,pazardzhik-rs.justice.bg,local
+government_agency,Pazardzhik,https://www.pazardzhik.bg,pazardzhik.bg,
+government_agency,Plovdiv,http://www.pd.government.bg/,pd.government.bg,
+government_agency,Administrative Court - Pernik,https://pernik-adms.justice.bg/,pernik-adms.justice.bg,central-1
+government_agency,District Court - Pernik,https://pernik-os.justice.bg/,pernik-os.justice.bg,central-1
+government_agency,Regional Court - Pernik,https://pernik-rs.justice.bg/,pernik-rs.justice.bg,local
+government_agency,Pernik,https://www.pernik.bg,pernik.bg,
+government_agency,Persina Nature Park,http://www.persina.bg/index.php?&amp;cli_lang=EN,persina.bg,
+government_agency,Perushtitsa,https://perushtitsa.egov.bg,perushtitsa.egov.bg,
+government_agency,Regional Court - Peshtera,https://peshtera-rs.justice.bg/,peshtera-rs.justice.bg,local
+government_agency,Peshtera,http://www.peshtera.bg,peshtera.bg,
+government_agency,Regional Court - Petrich,https://petrich-rs.justice.bg/,petrich-rs.justice.bg,local
+government_agency,Petrich,https://www.petrich.bg,petrich.bg,
+government_agency,Regional Court - Pirdop,https://pirdop-rs.justice.bg/,pirdop-rs.justice.bg,local
+government_agency,Pirdop,http://www.pirdop.bg/,pirdop.bg,
+government_agency,Pirin National Park,http://www.pirin.bg/,pirin.bg,
+government_agency,Pernik,https://www.pk.government.bg/,pk.government.bg,
+government_agency,Administrative Court - Plevna,https://pleven-adms.justice.bg/,pleven-adms.justice.bg,central-1
+government_agency,Pleven,http://www.pleven-oblast.bg/,pleven-oblast.bg,
+government_agency,District Court - Pleven,https://pleven-os.justice.bg/,pleven-os.justice.bg,central-1
+government_agency,Regional Court - Pleven,https://pleven-rs.justice.bg/,pleven-rs.justice.bg,local
+government_agency,Pleven,http://www.pleven.bg,pleven.bg,
+government_agency,Administrative Court - Plovdiv,https://plovdiv-adms.justice.bg/,plovdiv-adms.justice.bg,central-1
+government_agency,Appellate court - Plovdiv,https://plovdiv-as.justice.bg/,plovdiv-as.justice.bg,central-1
+government_agency,District Court - Plovdiv,https://plovdiv-os.justice.bg/,plovdiv-os.justice.bg,central-1
+government_agency,Regional Court - Plovdiv,https://plovdiv-rs.justice.bg/,plovdiv-rs.justice.bg,local
+government_agency,Military Court - Plovdiv,https://plovdiv-vs.justice.bg/,plovdiv-vs.justice.bg,central-1
+government_agency,Plovdiv,http://www.plovdiv.bg/en/,plovdiv.bg,
+government_agency,Regional Forest Directorate - Plovdiv,https://www.plovdiv.iag.bg,plovdiv.iag.bg,central-1
+government_agency,Regional Inspectorate of Environment and Water - Plovdiv,http://plovdiv.riosv.com,plovdiv.riosv.com,central-1
+government_agency,Central district,https://plovdivcentral.org/,plovdivcentral.org,
+government_agency,Poduyane District,https://poduyane.sofia.bg,poduyane.sofia.bg,
+government_agency,Regional Court - Pomorie,https://pomorie-rs.justice.bg/,pomorie-rs.justice.bg,local
+government_agency,Pomorie,http://www.pomorie.org/,pomorie.org,
+government_agency,Regional Court - Popovo,https://popovo-rs.justice.bg/,popovo-rs.justice.bg,local
+government_agency,Popovo,http://www.popovo.bg,popovo.bg,
+government_agency,Pordim,https://www.pordim.bg,pordim.bg,
+government_agency,Bulgarka Nature Park,https://www.ppbulgarka.net,ppbulgarka.net,
+government_agency,Pravets,https://www.pravets.bg/,pravets.bg,
+government_agency,National Investigative Service,https://prb.bg/nsls/,prb.bg,
+government_agency,Presidency of Bulgaria,https://www.president.bg/?lang=en,president.bg,
+government_agency,Presidency of Bulgaria,https://www.president.bg/,president.bg,
+government_agency,Primorski,https://primorski.bg/,primorski.bg,
+government_agency,Primorsko,http://www.primorsko.bg,primorsko.bg,
+government_agency,Provadia,https://www.provadia.bg/,provadia.bg,
+government_agency,Regional Court - Provadiya,https://provadiya-rs.justice.bg/,provadiya-rs.justice.bg,local
+government_agency,Pazardzhik,http://www.pz.government.bg/,pz.government.bg,
+government_agency,Regional Court - Radnevo,https://radnevo-rs.justice.bg/,radnevo-rs.justice.bg,local
+government_agency,Radnevo,https://radnevo.bg/,radnevo.bg,
+government_agency,Regional Court - Radomir,https://radomir-rs.justice.bg/,radomir-rs.justice.bg,local
+government_agency,Radomir,https://www.radomir.bg,radomir.bg,
+government_agency,Iskar District,http://raioniskar.bg/,raioniskar.bg,
+government_agency,Vitosha District,https://www.raionvitosha.eu/,raionvitosha.eu,
+government_agency,Rakitovo,https://rakitovo.bg/,rakitovo.bg,
+government_agency,Rakovski,http://www.rakovski.bg,rakovski.bg,
+government_agency,Oborishte District,https://rayon-oborishte.bg/,rayon-oborishte.bg,
+government_agency,Administrative Court - Razgrad,https://razgrad-adms.justice.bg/,razgrad-adms.justice.bg,central-1
+government_agency,Razgrad,https://razgrad-oblast.egov.bg/wps/portal/district-razgrad/home,razgrad-oblast.egov.bg,
+government_agency,District Court - Razgrad,https://razgrad-os.justice.bg/,razgrad-os.justice.bg,central-1
+government_agency,Regional Court - Razgrad,https://razgrad-rs.justice.bg/,razgrad-rs.justice.bg,local
+government_agency,Razgrad,https://www.razgrad.bg,razgrad.bg,
+government_agency,Regional Court - Razlog,https://razlog-rs.justice.bg/,razlog-rs.justice.bg,local
+government_agency,Razlog,https://www.razlog.bg,razlog.bg,
+government_agency,Smolyan,http://www.region-smolyan.org/,region-smolyan.org,
+government_agency,Registry Agency,https://www.registryagency.bg/bg/,registryagency.bg,central
+government_agency,Registry Agency,https://www.registryagency.bg/en/,registryagency.bg,central
+government_agency,Ribnovo,http://www.ribnovo.com/,ribnovo.com,
+government_agency,Regional Inspectorate of Environment and Water - Pleven,http://riew-pleven.eu/,riew-pleven.eu,central-1
+government_agency,Regional Inspectorate of Environment and Water - Sofia,https://www.riew-sofia.org,riew-sofia.org,central-1
+government_agency,Regional Inspectorate of Environment and Water - Pazardzhik,https://www.riewpz.org,riewpz.org,central-1
+government_agency,Rila National Park,http://rilanationalpark.bg,rilanationalpark.bg,
+government_agency,Regional Education Directorate - Kyustendil,https://rio-kyustendil.bg,rio-kyustendil.bg,central-1
+government_agency,Regional Education Directorate - Vidin Oblast,https://www.rio-vidin.org,rio-vidin.org,central-1
+government_agency,Regional Health Inspectorate - Plovdiv,https://www.riokozpd.com,riokozpd.com,central-1
+government_agency,Regional Inspectorate of Environment and Water - Montana Oblast,https://www.riosv-montana.com,riosv-montana.com,central-1
+government_agency,Regional Inspectorate of Environment and Water - Ruse,https://www.riosv-ruse.org,riosv-ruse.org,central-1
+government_agency,Regional Inspectorate of Environment and Water - Shumen,https://www.riosv-shumen.eu,riosv-shumen.eu,central-1
+government_agency,Regional Inspectorate of Environment and Water - Varna,http://www.riosv-varna.bg,riosv-varna.bg,central-1
+government_agency,Regional Inspectorate of Environment and Water - Vratsa,https://riosv.vracakarst.com/,riosv.vracakarst.com,central-1
+government_agency,Regional Inspectorate of Environment and Water - Blagoevgrad,http://riosvbl.org,riosvbl.org,central-1
+government_agency,Regional Inspectorate of Environment and Water - Burgas,http://www.riosvbs.com/,riosvbs.com,central-1
+government_agency,Regional Inspectorate of Environment and Water - Veliko Tarnovo,https://www.riosvt.org,riosvt.org,central-1
+government_agency,Rodopi,http://www.rodopi-bg.org/,rodopi-bg.org,
+government_agency,Roman,https://www.roman.bg,roman.bg,
+government_agency,Road Transport Administration Executive Agency,https://rta.government.bg/,rta.government.bg,central
+government_agency,Rudozem,https://www.rudozem.bg/,rudozem.bg,
+government_agency,Ruen,https://ruen.egov.bg/wps/portal/municipality-ruen/home,ruen.egov.bg,
+government_agency,Regional Education Directorate - Blagoevgrad,https://ruo-blg.bg/,ruo-blg.bg,central-1
+government_agency,Regional Education Directorate - Gabrovo,https://ruo-gabrovo.bg,ruo-gabrovo.bg,central-1
+government_agency,Regional Education Directorate - Haskovo,https://www.ruo-haskovo.bg,ruo-haskovo.bg,central-1
+government_agency,Regional Education Directorate - Kardzhali,https://www.ruo-kardzhali.bg/,ruo-kardzhali.bg,central-1
+government_agency,Regional Education Directorate - Lovech,https://www.ruo-lovech.bg,ruo-lovech.bg,central-1
+government_agency,Regional Education Directorate - Montana Oblast,https://ruo-montana.bg/,ruo-montana.bg,central-1
+government_agency,Regional Education Directorate - Pazardzhik,https://ruo-pazardjik.bg,ruo-pazardjik.bg,central-1
+government_agency,Regional Education Directorate - Pernik,https://www.ruo-pernik.bg/,ruo-pernik.bg,central-1
+government_agency,Regional Education Directorate - Razgrad,https://ruo-razgrad.bg,ruo-razgrad.bg,central-1
+government_agency,Regional Education Directorate - Ruse,https://ruo-ruse.bg,ruo-ruse.bg,central-1
+government_agency,Regional Education Directorate - Sofia,https://www.ruo-sfo.bg/,ruo-sfo.bg,central-1
+government_agency,Regional Education Directorate - Shumen,https://ruo-shumen.bg/,ruo-shumen.bg,central-1
+government_agency,Regional Education Directorate - Silistra,http://www.ruo-silistra.bg/news,ruo-silistra.bg,central-1
+government_agency,Regional Education Directorate - Sliven,https://ruo-sliven.bg,ruo-sliven.bg,central-1
+government_agency,Regional Education Directorate - Sofia City,http://www.ruo-sofia-grad.com,ruo-sofia-grad.com,central-1
+government_agency,Regional Education Directorate - Stara Zagora,http://www.ruo-sz.bg,ruo-sz.bg,central-1
+government_agency,Regional Education Directorate - Varna,http://www.ruo-varna.bg,ruo-varna.bg,central-1
+government_agency,Regional Education Directorate - Vratsa,https://ruo-vratsa.bg,ruo-vratsa.bg,central-1
+government_agency,Regional Education Directorate - Veliko Tarnovo,http://ruo-vt.bg/,ruo-vt.bg,central-1
+government_agency,Regional Education Directorate - Yambol,https://ruo-yambol.bg,ruo-yambol.bg,central-1
+government_agency,Regional Education Directorate - Smolyan,https://www.ruobg.com,ruobg.com,central-1
+government_agency,Regional Education Directorate - Burgas,https://ruoburgas.bg/,ruoburgas.bg,central-1
+government_agency,Regional Education Directorate - Dobrich,http://ruodobrich.bg/,ruodobrich.bg,central-1
+government_agency,Regional Education Directorate - Pleven,https://www.ruopleven.bg,ruopleven.bg,central-1
+government_agency,Regional Education Directorate - Plovdiv,https://www.ruoplovdiv.bg,ruoplovdiv.bg,central-1
+government_agency,Regional Education Directorate - Targovishte,https://www.ruotargovishte.bg/,ruotargovishte.bg,central-1
+government_agency,Administrative Court - Ruse,https://ruse-adms.justice.bg/,ruse-adms.justice.bg,central-1
+government_agency,Ruse,http://www.ruse-bg.eu/,ruse-bg.eu,
+government_agency,District Court - Ruse,https://ruse-os.justice.bg/,ruse-os.justice.bg,central-1
+government_agency,Regional Court - Ruse,https://ruse-rs.justice.bg/,ruse-rs.justice.bg,local
+government_agency,Ruse,https://ruse.egov.bg,ruse.egov.bg,
+government_agency,Regional Forest Directorate - Ruse,https://www.ruse.iag.bg,ruse.iag.bg,central-1
+government_agency,Rusenski Lom Nature Park,https://rusenski-lom.bg/,rusenski-lom.bg,
+government_agency,Regional Health Inspectorate - Blagoevgrad,https://rzi-blagoevgrad.egov.bg/,rzi-blagoevgrad.egov.bg,central-1
+government_agency,Regional Health Inspectorate - Burgas,https://rzi-burgas.bg/,rzi-burgas.bg,central-1
+government_agency,Regional Health Inspectorate - Dobrich,https://www.rzi-dobrich.org,rzi-dobrich.org,central-1
+government_agency,Regional Health Inspectorate - Gabrovo,https://www.rzi-gbr.org,rzi-gbr.org,central-1
+government_agency,Regional Health Inspectorate - Haskovo,https://rzi-haskovo.org,rzi-haskovo.org,central-1
+government_agency,Regional Health Inspectorate - Kardzhali,https://www.rzi-kardjali.com,rzi-kardjali.com,central-1
+government_agency,Regional Health Inspectorate - Kyustendil,https://www.rzi-kn.net,rzi-kn.net,central-1
+government_agency,Regional Health Inspectorate - Lovech,https://www.rzi-lovech.bg,rzi-lovech.bg,central-1
+government_agency,Regional Health Inspectorate - Montana,https://www.rzi-montana.org,rzi-montana.org,central-1
+government_agency,Regional Health Inspectorate - Pernik,https://rzi-pernik.com,rzi-pernik.com,central-1
+government_agency,Regional Health Inspectorate - Pleven,https://www.rzi-pleven.egov.bg,rzi-pleven.egov.bg,central-1
+government_agency,Regional Health Inspectorate - Razgrad,https://rzi-razgrad.egov.bg/,rzi-razgrad.egov.bg,central-1
+government_agency,Regional Health Inspectorate - Ruse,http://rzi-ruse.com/,rzi-ruse.com,central-1
+government_agency,Regional Health Inspectorate - Sofia,https://rzi-sfo.egov.bg/,rzi-sfo.egov.bg,central-1
+government_agency,Regional Health Inspectorate - Shumen,https://www.rzi-shumen.egov.bg,rzi-shumen.egov.bg,central-1
+government_agency,Regional Health Inspectorate - Silistra,https://rzi-silistra.egov.bg,rzi-silistra.egov.bg,central-1
+government_agency,Regional Health Inspectorate - Sliven,https://rzi-sliven.org,rzi-sliven.org,central-1
+government_agency,Regional Health Inspectorate - Smolyan,https://www.rzi-smolyan.com,rzi-smolyan.com,central-1
+government_agency,Regional Health Inspectorate - Stara Zagora,https://rzi-starazagora.egov.bg,rzi-starazagora.egov.bg,central-1
+government_agency,Regional Health Inspectorate - Targovishte,http://rzi-targovishte.bg,rzi-targovishte.bg,central-1
+government_agency,Regional Health Inspectorate - Varna,http://www.rzi-varna.com,rzi-varna.com,central-1
+government_agency,Regional Health Inspectorate - Vidin,https://rzi-vidin.egov.bg,rzi-vidin.egov.bg,central-1
+government_agency,Regional Health Inspectorate - Vratsa,https://www.rzi-vratsa.com,rzi-vratsa.com,central-1
+government_agency,Regional Health Inspectorate - Veliko Tarnovo,https://www.rzi-vt.bg,rzi-vt.bg,central-1
+government_agency,Regional Health Inspectorate - Yambol,https://rzi-yambol.bg/rziwp/,rzi-yambol.bg,central-1
+government_agency,Regional Health Inspectorate - Pazardzhik,http://www.rzipz.net,rzipz.net,central-1
+government_agency,Supreme Administrative Court,http://www.sac.government.bg/,sac.government.bg,central
+government_agency,State Agency for Child Protection,https://sacp.government.bg/,sacp.government.bg,central
+government_agency,Sadovo,http://www.sadovo.bg/,sadovo.bg,
+government_agency,Saedinenie,https://saedinenie.bg/,saedinenie.bg,
+government_agency,Regional Court - Samokov,https://samokov-rs.justice.bg/,samokov-rs.justice.bg,local
+government_agency,Samokov,http://www.samokov.bg/,samokov.bg,
+government_agency,Samuil,https://www.samuil.bg,samuil.bg,
+government_agency,Regional Court - Sandanski,https://sandanski-rs.justice.bg/,sandanski-rs.justice.bg,local
+government_agency,Sandanski,https://sandanski.bg,sandanski.bg,
+government_agency,Sapareva banya,https://saparevabanya.bg/,saparevabanya.bg,
+government_agency,Sarnitsa,http://www.sarnitsa.bg/,sarnitsa.bg,
+government_agency,State Agency for Road Safety,https://www.sars.gov.bg/,sars.gov.bg,central
+government_agency,Satovcha,http://www.satovcha.bg,satovcha.bg,
+government_agency,Sustainable Energy Development Agency,https://www.seea.government.bg/bg/,seea.government.bg,central
+government_agency,Sustainable Energy Development Agency,https://www.seea.government.bg/en/,seea.government.bg,central
+government_agency,Smilyan,https://selo-smilyan.com/,selo-smilyan.com,
+government_agency,Septemvri,http://www.septemvri.org/,septemvri.org,
+government_agency,Serdika District,http://serdika.egov.bg/,serdika.egov.bg,
+government_agency,Northern district,https://severen.bg/plovdiv/,severen.bg,
+government_agency,Regional Court - Sevlievo,https://sevlievo-rs.justice.bg/,sevlievo-rs.justice.bg,local
+government_agency,Sevlievo,http://www.sevlievo.bg/,sevlievo.bg,
+government_agency,Sofia City,http://www.sf.government.bg/,sf.government.bg,
+government_agency,Executive Agency Education Programme,https://sf.mon.bg/,sf.mon.bg,central
+government_agency,Sofia City Court,https://sgs.justice.bg/,sgs.justice.bg,central-1
+government_agency,Shumen,http://www.sh.government.bg,sh.government.bg,
+government_agency,Shabla,https://shabla.bg/,shabla.bg,
+government_agency,Administrative Court - Shumen,https://shumen-adms.justice.bg/,shumen-adms.justice.bg,central-1
+government_agency,District Court - Shumen,https://shumen-os.justice.bg/,shumen-os.justice.bg,central-1
+government_agency,Regional Court - Shumen,https://shumen-rs.justice.bg/,shumen-rs.justice.bg,local
+government_agency,Regional Forest Directorate - Shumen,https://www.shumen.iag.bg,shumen.iag.bg,central-1
+government_agency,Shumen Plateau Nature Park,https://www.shumenskoplato.bg,shumenskoplato.bg,
+government_agency,Administrative Court - Silistra,https://silistra-adms.justice.bg/,silistra-adms.justice.bg,central-1
+government_agency,District Court - Silistra,https://silistra-os.justice.bg/,silistra-os.justice.bg,central-1
+government_agency,Regional Court - Silistra,https://silistra-rs.justice.bg/,silistra-rs.justice.bg,local
+government_agency,Silistra,http://www.silistra.bg,silistra.bg,
+government_agency,Simeonovgrad,https://simeonovgrad.bg/,simeonovgrad.bg,
+government_agency,Simitli,https://simitli.bg/,simitli.bg,
+government_agency,Sitovo,http://www.sitovo.bg/sitovo.html,sitovo.bg,
+government_agency,Slatina,http://www.slatinabg.free.bg,slatinabg.free.bg,
+government_agency,Administrative Court - Sliven,https://sliven-adms.justice.bg/,sliven-adms.justice.bg,central-1
+government_agency,District Court - Sliven,https://sliven-os.justice.bg/,sliven-os.justice.bg,central-1
+government_agency,Regional Court - Sliven,https://sliven-rs.justice.bg/,sliven-rs.justice.bg,local
+government_agency,Military Court - Sliven,https://sliven-vs.justice.bg/,sliven-vs.justice.bg,central-1
+government_agency,Sliven,http://www.sliven.bg/,sliven.bg,
+government_agency,Sliven,http://www.sliven.government.bg/,sliven.government.bg,
+government_agency,Regional Forest Directorate - Sliven,https://www.sliven.iag.bg,sliven.iag.bg,central-1
+government_agency,Regional Court - Slivnitsa,https://slivnitsa-rs.justice.bg/,slivnitsa-rs.justice.bg,local
+government_agency,Slivnitsa,https://www.slivnitsa.bg/,slivnitsa.bg,
+government_agency,Slivo pole,http://www.slivopole.ru-se.com/,slivopole.ru-se.com,
+government_agency,Executive Agency for Small and Medium Enterprises,https://www.sme.government.bg/en/,sme.government.bg,central
+government_agency,Executive Agency for Small and Medium Enterprises,https://www.sme.government.bg/,sme.government.bg,central
+government_agency,Regional Forest Directorate - Smolyan,https://www.smolian.iag.bg,smolian.iag.bg,central-1
+government_agency,Administrative Court - Smolyan,https://smolyan-adms.justice.bg/,smolyan-adms.justice.bg,central-1
+government_agency,District Court - Smolyan,https://smolyan-os.justice.bg/,smolyan-os.justice.bg,central-1
+government_agency,Regional Court - Smolyan,https://smolyan-rs.justice.bg/,smolyan-rs.justice.bg,local
+government_agency,Smolyan,http://www.smolyan.bg/,smolyan.bg,
+government_agency,Regional Inspectorate of Environment and Water - Smolyan,https://smolyan.riosv.com,smolyan.riosv.com,central-1
+government_agency,Smyadovo,http://www.smyadovo.bg/,smyadovo.bg,
+government_agency,Izgrev District,http://www.so-izgrev.bg/,so-izgrev.bg,
+government_agency,Slatina District,https://so-slatina.org,so-slatina.org,
+government_agency,Vazrazhdane District,https://www.so-vazrajdane.bg,so-vazrajdane.bg,
+government_agency,Administrative Court - Sofia-City,https://sofia-adms-g.justice.bg/,sofia-adms-g.justice.bg,central-1
+government_agency,Administrative Court - Sofia-Region,https://sofia-adms-o.justice.bg/,sofia-adms-o.justice.bg,central-1
+government_agency,Appellate court - Sofia,https://sofia-as.justice.bg/,sofia-as.justice.bg,central-1
+government_agency,"Embassy of Turkey, Sofia",https://sofia-emb.mfa.gov.tr,sofia-emb.mfa.gov.tr,central
+government_agency,Sofia District Court,https://sofia-os.justice.bg/,sofia-os.justice.bg,central-1
+government_agency,Military Court - Sofia,https://sofia-vs.justice.bg/,sofia-vs.justice.bg,central-1
+government_agency,Stolichna Municipality,http://www.sofia.bg,sofia.bg,
+government_agency,"Embassy of Germany, Sofia",https://sofia.diplo.de,sofia.diplo.de,central
+government_agency,embassy of Portugal in Bulgaria,https://sofia.embaixadaportugal.mne.gov.pt,sofia.embaixadaportugal.mne.gov.pt,central
+government_agency,European Parliament Liaison Office in Bulgaria,https://sofia.europarl.europa.eu,sofia.europarl.europa.eu,central
+government_agency,Regional Forest Directorate - Sofia,http://www.sofia.iag.bg/lang/1/index,sofia.iag.bg,central-1
+government_agency,embassy of Brazil in Bulgaria,http://sofia.itamaraty.gov.br,sofia.itamaraty.gov.br,central
+government_agency,"Embassy of Romania, Sofia",http://sofia.mae.ro/,sofia.mae.ro,central
+government_agency,"Embassy of Azerbaijan, Sofia",https://sofia.mfa.gov.az,sofia.mfa.gov.az,central
+government_agency,embassy of Lebanon in Bulgaria,http://www.sofia.mfa.gov.lb,sofia.mfa.gov.lb,central
+government_agency,"Embassy of Mongolia, Sofia",https://sofia.mfa.gov.mn,sofia.mfa.gov.mn,central
+government_agency,embassy of Serbia in Bulgaria,http://sofia.mfa.gov.rs,sofia.mfa.gov.rs,central
+government_agency,Sofia Oblast,https://sofoblast.egov.bg/,sofoblast.egov.bg,
+government_agency,Sopot,http://www.sopot-municipality.com,sopot-municipality.com,
+government_agency,Southern district,https://south-plovdiv.bg/,south-plovdiv.bg,
+government_agency,Sozopol,http://www.sozopol.bg/,sozopol.bg,
+government_agency,Sredets District,https://sredec-sofia.org,sredec-sofia.org,
+government_agency,Regional Court - Sredets,https://sredets-rs.justice.bg/,sredets-rs.justice.bg,local
+government_agency,Sredets,http://sredets.bg/,sredets.bg,
+government_agency,Sofia Regional Court,https://srs.justice.bg/,srs.justice.bg,local
+government_agency,Regional Health Inspectorate - Sofia City,https://srzi.bg/bg,srzi.bg,central-1
+government_agency,Silistra,http://www.ss.government.bg/,ss.government.bg,
+government_agency,Stamboliyski,http://www.stamb.info/,stamb.info,
+government_agency,Stambolovo,https://www.stambolovo.bg/,stambolovo.bg,
+government_agency,Stara Zagora,https://www.starazagora.bg/,starazagora.bg,
+government_agency,State Agency State Reserve and War-Time Stocks,https://www.statereserve.bg,statereserve.bg,central
+government_agency,Straldzha,https://www.straldzha.bg,straldzha.bg,
+government_agency,Strandzha Nature Park,http://www.strandja.bg,strandja.bg,
+government_agency,Strazhitsa,http://strazhitsa.e-gov.bg/,strazhitsa.e-gov.bg,
+government_agency,Strelcha,http://www.strelcha.bg,strelcha.bg,
+government_agency,Strumyani,https://www.strumyani.org,strumyani.org,
+government_agency,"National students house, Sofia",https://studenthouse.bg/,studenthouse.bg,
+government_agency,Studentski District,https://studentski.bg,studentski.bg,
+government_agency,Regional Inspectorate of Environment and Water - Stara Zagora,https://www.stz.riew.egov.bg,stz.riew.egov.bg,central-1
+government_agency,Administrative Court - Stara Zagora,https://stzagora-adms.justice.bg/,stzagora-adms.justice.bg,central-1
+government_agency,District Court - Stara Zagora,https://stzagora-os.justice.bg/,stzagora-os.justice.bg,central-1
+government_agency,Regional Court - Stara Zagora,https://stzagora-rs.justice.bg/,stzagora-rs.justice.bg,local
+government_agency,Regional Forest Directorate - Stara Zagora,https://stzagora.iag.bg/,stzagora.iag.bg,central-1
+government_agency,Suhindol,http://www.suhindol.bg/#,suhindol.bg,
+government_agency,Sungurlare,http://www.sungurlare.org/,sungurlare.org,
+government_agency,Suvorovo,http://www.suvorovo.bg/bg,suvorovo.bg,
+government_agency,Regional Court - Svilengrad,https://svilengrad-rs.justice.bg/,svilengrad-rs.justice.bg,local
+government_agency,Svilengrad,http://svilengrad.bg/,svilengrad.bg,
+government_agency,Regional Court - Svishtov,https://svishtov-rs.justice.bg/,svishtov-rs.justice.bg,local
+government_agency,Svishtov,http://www.svishtov.bg/,svishtov.bg,
+government_agency,Regional Court - Svoge,https://svoge-rs.justice.bg/,svoge-rs.justice.bg,local
+government_agency,Svoge,http://www.svoge.bg,svoge.bg,
+government_agency,Stara Zagora,http://www.sz.government.bg/,sz.government.bg,
+government_agency,"Embassy of Hungary, Sofia",https://szofia.mfa.gov.hu/,szofia.mfa.gov.hu,central
+government_agency,Administrative Court - Targovishte,https://targovishte-adms.justice.bg/,targovishte-adms.justice.bg,central-1
+government_agency,District Court - Targovishte,https://targovishte-os.justice.bg/,targovishte-os.justice.bg,central-1
+government_agency,Regional Court - Targovishte,https://targovishte-rs.justice.bg/,targovishte-rs.justice.bg,local
+government_agency,Targovishte Municipality,https://targovishte.bg//,targovishte.bg,
+government_agency,Regional Court - Tervel,https://tervel-rs.justice.bg/,tervel-rs.justice.bg,local
+government_agency,Tervel,https://tervel.egov.bg/,tervel.egov.bg,
+government_agency,Regional Court - Teteven,https://teteven-rs.justice.bg/,teteven-rs.justice.bg,local
+government_agency,Teteven,http://www.teteven.bg/,teteven.bg,
+government_agency,Targovishte,http://www.tg.government.bg/,tg.government.bg,
+government_agency,Regional Court - Topolovgrad,https://topolovgrad-rs.justice.bg/,topolovgrad-rs.justice.bg,local
+government_agency,Topolovgrad,https://topolovgrad.bg/,topolovgrad.bg,
+government_agency,Gorno Prahovo,http://www.toscalikoyu.com/,toscalikoyu.com,
+government_agency,General Toshevo,http://www.toshevo.com,toshevo.com,
+government_agency,Ministry of Tourism,http://www.tourism.government.bg/,tourism.government.bg,central
 ministry,Ministry of Tourism,https://www.tourism.government.bg/en,tourism.government.bg,
+government_agency,Ministry of Tourism,https://www.tourism.government.bg/en,tourism.government.bg,central
 ministry,Ministry of Tourism,http://www.tourism.government.bg/,tourism.government.bg,
+government_agency,Trakiya district,https://trakia-plovdiv.bg/,trakia-plovdiv.bg,
+government_agency,Polski Trambesh,https://www.trambesh.eu/,trambesh.eu,
+government_agency,Regional Court - Tran,https://tran-rs.justice.bg/,tran-rs.justice.bg,local
+government_agency,Tran,https://tran.bg/,tran.bg,
+government_agency,Treklyano,https://www.trekliano.eu/,trekliano.eu,
+government_agency,Triaditsa District,https://triaditza.org,triaditza.org,
+government_agency,Regional Court - Troyan,https://troyan-rs.justice.bg/,troyan-rs.justice.bg,local
+government_agency,Troyan,https://www.troyan.bg,troyan.bg,
+government_agency,Regional Court - Tryavna,https://tryavna-rs.justice.bg/,tryavna-rs.justice.bg,local
+government_agency,Tryavna,http://www.tryavna.bg,tryavna.bg,
+government_agency,Regional Court - Tsarevo,https://tsarevo-rs.justice.bg/,tsarevo-rs.justice.bg,local
+government_agency,Tsarevo,https://tsarevo.bg/,tsarevo.bg,
+government_agency,Tsar Kaloyan,https://tsarkaloyan.bg,tsarkaloyan.bg,
+government_agency,Tsenovo,http://tsenovo.eu/,tsenovo.eu,
+government_agency,Tundzha,http://www.tundzha.net/,tundzha.net,
+government_agency,Regional Court - Tutrakan,https://tutrakan-rs.justice.bg/,tutrakan-rs.justice.bg,local
+government_agency,Tutrakan,http://www.tutrakan.bg/,tutrakan.bg,
+government_agency,Tvarditsa,http://www.tvarditsa.org,tvarditsa.org,
+government_agency,Q106702638,http://ucdp-smolian.com/?page_id=7538&lang=bg,ucdp-smolian.com,
+government_agency,Ugarchin,https://www.ugarchin.bg,ugarchin.bg,
+government_agency,National Commission of the Republic of Bulgaria for UNESCO,https://www.unesco-bg.org/,unesco-bg.org,
+government_agency,Valchedram,http://www.valchedram.com,valchedram.com,
+government_agency,Valchi dol,https://www.valchidol.bg,valchidol.bg,
+government_agency,Varbitsa,http://www.varbitsa.org/,varbitsa.org,
+government_agency,Administrative Court - Varna,https://varna-adms.justice.bg/,varna-adms.justice.bg,central-1
+government_agency,Appellate court - Varna,https://varna-as.justice.bg/,varna-as.justice.bg,central-1
+government_agency,Mladost,https://varna-mladost.com,varna-mladost.com,
+government_agency,District Court - Varna,https://varna-os.justice.bg/,varna-os.justice.bg,central-1
+government_agency,Regional Court - Varna,https://varna-rs.justice.bg/,varna-rs.justice.bg,local
+government_agency,Varna,https://www.varna.bg/,varna.bg,
+government_agency,Regional Forest Directorate - Varna,https://varna.iag.bg,varna.iag.bg,central-1
+government_agency,Varshets,http://www.varshets.bg,varshets.bg,
+government_agency,Veliki Preslav,http://velikipreslav.bg/,velikipreslav.bg,
+government_agency,Veliko Tarnovo,http://veliko-turnovo.bg/,veliko-turnovo.bg,
+government_agency,Regional Court - Velingrad,https://velingrad-rs.justice.bg/,velingrad-rs.justice.bg,local
+government_agency,Venets,http://www.venets.bg/,venets.bg,
+government_agency,Vetovo,https://www.vetovo.bg/,vetovo.bg,
+government_agency,Vetren,https://vetrenforever.alle.bg/,vetrenforever.alle.bg,
+government_agency,Vetrino,http://www.vetrino.bg/,vetrino.bg,
+government_agency,Administrative Court - Vidin,https://vidin-adms.justice.bg/,vidin-adms.justice.bg,central-1
+government_agency,District Court - Vidin,https://vidin-os.justice.bg/,vidin-os.justice.bg,central-1
+government_agency,Regional Court - Vidin,https://vidin-rs.justice.bg/,vidin-rs.justice.bg,local
+government_agency,Vidin,http://vidin.bg/,vidin.bg,
+government_agency,Vidin,http://www.vidin.government.bg/,vidin.government.bg,
+government_agency,Central Balkan National Park,https://visitcentralbalkan.net/,visitcentralbalkan.net,
+government_agency,Supreme Court of Cassation of Bulgaria,http://www.vks.bg,vks.bg,central
+government_agency,Vladaya,http://www.vladaya.net/,vladaya.net,
+government_agency,Vladislav Varnenchik,https://vladislavovo.bg/,vladislavovo.bg,
+government_agency,Varna,http://www.vn.government.bg/,vn.government.bg,
+government_agency,"Embassy of Vietnam, Sofia",https://vnembassy-sofia.mofa.gov.vn/vi-vn/Trang/default.aspx,vnembassy-sofia.mofa.gov.vn,central
+government_agency,Military-Appelate Court,https://voas.justice.bg/,voas.justice.bg,central
+government_agency,Voynyagovo,http://www.voynyagovo.free.bg,voynyagovo.free.bg,
+government_agency,Military Police Service (Bulgaria),https://vp.mod.bg/,vp.mod.bg,
+government_agency,Regional Court - Veliki Preslav,https://vpreslav-rs.justice.bg/,vpreslav-rs.justice.bg,local
+government_agency,Vrachanski Balkan Nature Park,http://www.vr-balkan.net/,vr-balkan.net,
+government_agency,Vrabnitsa District,https://vrabnitsa.sofia.bg/,vrabnitsa.sofia.bg,
+government_agency,Administrative Court - Vratsa,https://vratsa-adms.justice.bg/,vratsa-adms.justice.bg,central-1
+government_agency,District Court - Vratsa,https://vratsa-os.justice.bg/,vratsa-os.justice.bg,central-1
+government_agency,Regional Court - Vratsa,https://vratsa-rs.justice.bg/,vratsa-rs.justice.bg,local
+government_agency,Vratsa,http://www.vratza.bg/,vratza.bg,
+government_agency,Supreme Judicial Council,http://www.vss.justice.bg/,vss.justice.bg,
+government_agency,Veliko Tarnovo,http://www.vt.government.bg/,vt.government.bg,
+government_agency,Administrative Court - Veliko Tarnovo,https://vtarnovo-adms.justice.bg/,vtarnovo-adms.justice.bg,central-1
+government_agency,Appellate court - Veliko Tarnovo,https://vtarnovo-as.justice.bg/,vtarnovo-as.justice.bg,central-1
+government_agency,District Court - Veliko Tarnovo,https://vtarnovo-os.justice.bg/,vtarnovo-os.justice.bg,central-1
+government_agency,Regional Court - Veliko Tarnovo,https://vtarnovo-rs.justice.bg/,vtarnovo-rs.justice.bg,local
+government_agency,Regional Forest Directorate - Veliko Tarnovo,http://www.vtarnovo.iag.bg,vtarnovo.iag.bg,central-1
+government_agency,River Basin Directorate - White Sea West,https://www.wabd.bg,wabd.bg,
+government_agency,Public Procurement Agency,https://www2.aop.bg/,www2.aop.bg,central
+government_agency,Yablanitsa,https://yablanitsa.bg/,yablanitsa.bg,
+government_agency,Yakimovo,http://yakimovo.org,yakimovo.org,
+government_agency,Yakoruda,http://yakoruda.gateway.bg/,yakoruda.gateway.bg,
+government_agency,Administrative Court - Yambol,https://yambol-adms.justice.bg/,yambol-adms.justice.bg,central-1
+government_agency,District Court - Yambol,https://yambol-os.justice.bg/,yambol-os.justice.bg,central-1
+government_agency,Regional Court - Yambol,https://yambol-rs.justice.bg/,yambol-rs.justice.bg,local
+government_agency,Yambol,http://www.yambol.bg/,yambol.bg,
+government_agency,Yambol,http://yambol.government.bg/stk/,yambol.government.bg,
+government_agency,Western district,https://zapaden.plovdiv.bg/,zapaden.plovdiv.bg,
+government_agency,Zavet,http://www.zavet-bg.com/,zavet-bg.com,
+government_agency,Zemen,http://zemen-bg.com/,zemen-bg.com,
+government_agency,Zlataritsa,https://zlataritsa.bg/,zlataritsa.bg,
+government_agency,Zlatitsa,https://zlatitsa.egov.bg,zlatitsa.egov.bg,
+government_agency,Regional Court - Zlatograd,https://zlatograd-rs.justice.bg/,zlatograd-rs.justice.bg,local
+government_agency,Zlatograd,http://www.zlatograd.bg/,zlatograd.bg,
+university,University of National and World Economy,https://www.unwe.bg/,unwe.bg,university
+university,Sofia University,https://uni-sofia.bg,uni-sofia.bg,university
+university,Vasil Levski National Military University,http://www.nvu.bg/,nvu.bg,university
+university,Medical University of Varna,https://www.mu-varna.bg,mu-varna.bg,university

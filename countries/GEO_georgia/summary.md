@@ -6,7 +6,7 @@
 - Region: Asia / Western Asia
 - Languages: Georgian
 - Population: 4000921
-- GDP per capita: 9241 US$ (2024)
+- GDP per capita: 9692 US$ (2025)
 - Currencies: GEL
 - ccTLD: `.ge` (manager: Caucasus Online LLC)
 - OECD: non-member
@@ -30,15 +30,43 @@
 
 ## Candidate domains ranked by score
 
-6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+35 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.ge` | wikidata;wikidata | Parliament of Georgia |
+| 7 | `economy.ge` | wikidata;wikidata | Ministry of Economy and Sustainable Development |
+| 7 | `mof.ge` | wikidata;wikidata | Ministry of Finance of Georgia |
+| 7 | `police.ge` | wikidata;wikidata | Ministry of Internal Affairs | Special Tasks Department |
+| 6 | `supremecourt.ge` | wikidata | Supreme Court of Georgia |
+| 4 | `aidscenter.ge` | wikidata | AIDS and Clinical Immunology Research Center |
+| 4 | `cesko.ge` | wikidata | Election Administration of Georgia |
+| 4 | `comcom.ge` | wikidata | Georgian National Communications Commission |
+| 4 | `ge.usembassy.gov` | wikidata | Embassy of the United States, Tbilisi |
+| 4 | `geostat.ge` | wikidata | National Statistics Office of Georgia |
+| 4 | `geostm.ge` | wikidata | Georgian National Agency for Standards and Metrology |
+| 4 | `heraldika.ge` | wikidata | State Council of Heraldry |
+| 4 | `heritagesites.ge` | wikidata | National Agency for Cultural Heritage Preservation of Georgia |
+| 4 | `mia.police.ge` | wikidata | Ministry of Internal Affairs of Georgia |
+| 4 | `ncdc.ge` | wikidata | National Center for Disease Control and Public Health |
+| 4 | `rustaveli.org.ge` | wikidata | Shota Rustaveli National Science Foundation |
+| 4 | `sciencelib.ge` | wikidata | National Science Library |
+| 4 | `tbiliszi.mfa.gov.hu` | wikidata | Embassy of Hungary, Tbilisi |
+| 4 | `unesco.ge` | wikidata | Georgian National Commission for UNESCO |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Georgia |
+
+## Local / regional candidates
+
+7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
 | 7 | `sca.ge` | wikidata;wikidata | Supreme Council of the Autonomous Republic of Adjara |
+| 7 | `tafu.edu.ge` | wikidata;wikidata | Shota Rustaveli Theatre and Film University |
+| 4 | `art.edu.ge` | wikidata | Tbilisi State Academy of Arts |
+| 4 | `ngu.edu.ge` | wikidata | New Georgian University |
+| 4 | `tsu.ge` | wikidata | Tbilisi State University |
 | 6 | `parliamentrso.org` | wikidata;wikidata | Parliament of South Ossetia |
-| 4 | `economy.ge` | wikidata | Ministry of Economy and Sustainable Development |
-| 4 | `mof.ge` | wikidata | Ministry of Finance of Georgia |
-| 4 | `police.ge` | wikidata | Ministry of Internal Affairs |
+| 3 | `nb-ra.org` | wikidata | National Bank of the Republic of Abkhazia |
 

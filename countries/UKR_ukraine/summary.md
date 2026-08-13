@@ -30,37 +30,46 @@
 
 ## Candidate domains ranked by score
 
-81 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+279 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `rada.crimea.ua` | wikidata;wikidata | Supreme Council of Crimea |
-| 6 | `qtmm.org` | wikidata;wikidata | Qurultay of the Crimean Tatar People |
+| 7 | `gdip.com.ua` | wikidata;wikidata | Directorate-General for Rendering Services to Diplomatic Missions |
+| 7 | `gromady.cv.ua` | wikidata;wikidata | Krasnoiilska selyshchna rada | Storozhynetska miska rada |
+| 7 | `phc.org.ua` | wikidata;wikidata | Center for Public Health of the Ministry of Health of Ukraine |
+| 7 | `ubi.org.ua` | wikidata;wikidata | Ukrainian Book Institute |
+| 7 | `ucf.in.ua` | wikidata;wikidata | Ukrainian Cultural Foundation |
+| 6 | `chernivtsy.eu` | wikidata;wikidata | Q16723280 | Chernivetska miska rada |
+| 6 | `eeas.europa.eu` | wikidata;wikidata | Delegation of the European Union to Ukraine |
+| 6 | `facebook.com` | wikidata;wikidata | Probation in Ukraine | Q20092493 |
+| 6 | `nederlandwereldwijd.nl` | wikidata;wikidata | Embassy of the Netherlands, Kyiv |
+| 6 | `pijarzy.pl` | wikidata;wikidata | Piarist province of Poland |
+| 6 | `ukrpatent.org` | wikidata;wikidata | Ukrainian Institute of Industrial Property |
+| 5 | `ww2.gov.if.ua` | wikidata | Q12083768 |
+| 4 | `afghanembassy.com.ua` | wikidata | Embassy of Afghanistan, Kyiv |
+| 4 | `agroscience-publishing.org.ua` | wikidata | Agrarian Science State Publishing House of the National Academy of Agrarian S... |
+| 4 | `algerianembassy.kiev.ua` | wikidata | Embassy of Algeria, Kyiv |
+| 4 | `beregszasz.mfa.gov.hu` | wikidata | Consulate of Hungary, Berehove |
+| 4 | `berezivska.rada.org.ua` | wikidata | Q17095150 |
 | 4 | `berezne-rada.rv.ua` | wikidata | Q93363311 |
 | 4 | `berrayrada.ks.ua` | wikidata | Q20073124 |
 | 4 | `bilozerka-rada.ks.ua` | wikidata | Q20074215 |
-| 4 | `bobr-rada.com.ua` | wikidata | Q20073776 |
-| 4 | `chervrada.kharkov.ua` | wikidata | Q12169641 |
-| 4 | `chortkivrr.te.ua` | wikidata | Q20096661 |
-| 4 | `dzerzhrada.kharkov.ua` | wikidata | Q12100929 |
-| 4 | `golovanivsk-rada.com.ua` | wikidata | Q20075763 |
-| 4 | `gorn-vlada.ks.ua` | wikidata | Q20075838 |
-| 4 | `gorrayrada.if.ua` | wikidata | Q12097056 |
-| 4 | `hadiach-rajon-vlada.org.ua` | wikidata | Q12093794 |
-| 4 | `husyatyn.te.ua` | wikidata | Q20076035 |
-| 4 | `ivrada.com.ua` | wikidata | Ivanychi Raion Council |
-| 4 | `ivrada.ks.ua` | wikidata | Q20073384 |
-| 4 | `kievrik.kharkov.ua` | wikidata | Q12110194 |
-| 4 | `komrada.kharkov.ua` | wikidata | Q12112163 |
-| 4 | `koretsrada.in.ua` | wikidata | Q20078006 |
-| 4 | `korosten-rayrada.in.ua` | wikidata | Q94654582 |
 
 ## Local / regional candidates
 
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+48 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `city.kherson.ua` | wikidata | Kherson City Council |
+| 7 | `rada.crimea.ua` | wikidata;wikidata | Supreme Council of Crimea |
+| 4 | `bcdst.kiev.ua` | wikidata | State Enterprise "KYIV REGIONAL RESEARCH AND PRODUCTION CENTER FOR STANDARDIZ... |
+| 4 | `oblrada.dp.ua` | wikidata | Dnipropetrovsk Oblast Council |
+| 4 | `oblrada.kharkov.ua` | wikidata | Kharkiv Oblast Council |
+| 4 | `oblrada.kr.ua` | wikidata | Kirovohrad Oblast Council |
+| 4 | `oblrada.lg.ua` | wikidata | Luhansk Oblast Council |
+| 7 | `odma.edu.ua` | wikidata;wikidata | Odesa National Music Academy |
+| 4 | `chnu.edu.ua` | wikidata | Chernivtsi University |
+| 4 | `donntu.edu.ua` | wikidata | Donetsk National Technical University |
+| 4 | `donnu.edu.ua` | wikidata | Vasyl' Stus Donetsk National University |
 

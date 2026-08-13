@@ -30,10 +30,28 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `moee-ye.com` | wikidata | Ministry of Electricity and Energy |
+| 6 | `moee-ye.com` | wikidata;wikidata | Ministry of Electricity and Energy |
+| 4 | `saba.ye` | wikidata | Saba News Agency |
+| 3 | `ambafrance-ye.org` | wikidata | Embassy of France, Sana'a |
+| 3 | `arabiafelixacademy.org` | wikidata | Majmaʻ al-ʻArabīyah al-saʻīdah |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Yemen |
+| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Yemen |
+| 3 | `nlye.org` | wikidata | National Library of Yemen |
+| 3 | `sabanew.net` | wikidata | Saba News Agency |
+| 3 | `yemen-nic.info` | wikidata | Q12192852 |
+| 3 | `yemen.mid.ru` | wikidata | embassy of Russia in Yemen |
+| 1 | `ye.chineseembassy.org` | wikidata;wikidata;wikidata | Embassy of the People's Republic of China, Sanaa |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `seiyunu.edu.ye` | wikidata | Seiyun University |
 

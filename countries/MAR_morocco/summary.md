@@ -6,7 +6,7 @@
 - Region: Africa / Northern Africa
 - Languages: Arabic; Berber
 - Population: 36828330
-- GDP per capita: 4153 US$ (2024)
+- GDP per capita: 4672 US$ (2025)
 - Currencies: MAD
 - ccTLD: `.ma` (manager: Agence Nationale de Réglementation des Télécommunications (ANRT))
 - OECD: non-member
@@ -30,27 +30,46 @@
 
 ## Candidate domains ranked by score
 
-5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+197 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parlement.ma` | wikidata;wikidata | Parliament of Morocco |
+| 7 | `bkam.ma` | wikidata;wikidata | Bank Al-Maghrib | Q3015910 |
+| 7 | `chuibnrochd.ma` | wikidata;wikidata | CHU Ibn Rochd |
+| 7 | `diplomatie.ma` | wikidata;wikidata | Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates |
+| 7 | `ma.usembassy.gov` | wikidata;wikidata | Consulate General of the United States, Casablanca | embassy of the United St... |
+| 7 | `madrastna.ma` | wikidata;wikidata | Ministry of National Education |
+| 7 | `ofppt.ma` | wikidata;wikidata | Vocational Training and Labor Promotion Office |
+| 7 | `tamwilcom.ma` | wikidata;wikidata | Q122972557 | Tamwilcom |
+| 7 | `ump.ma` | wikidata;wikidata | Mohamed I University |
+| 6 | `cour-constitutionnelle.ma` | wikidata | Constitutional Court of Morocco |
 | 6 | `egov.ma` | un_desa | UN/DESA national portal |
-| 4 | `diplomatie.ma` | wikidata | Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates |
-| 4 | `madrastna.ma` | wikidata | Ministry of National Education |
-| 3 | `ofmsantiago.com` | wikidata | Franciscan province of Santiago |
+| 6 | `marokko.ahk.de` | wikidata;wikidata | German Chamber of Commerce and Industry in Morocco |
+| 6 | `ofmsantiago.com` | wikidata;wikidata | Franciscan province of Santiago |
+| 4 | `abhdon.ma` | wikidata | Q126953080 |
+| 4 | `abhgzr.ma` | wikidata | Q126953082 |
+| 4 | `abhl.ma` | wikidata | Q126953084 |
+| 4 | `abhsebou.ma` | wikidata | Agence du Bassin Hydraulique de Sebou |
+| 4 | `abhshod.ma` | wikidata | Q126953073 |
+| 4 | `abht.ma` | wikidata | Q126953078 |
+| 4 | `adm.co.ma` | wikidata | Société Nationale des Autoroutes du Maroc |
 
 ## Local / regional candidates
 
-6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 4 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+13 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `casasettat.ma` | wikidata | Casablanca-Settat Regional Council |
 | 4 | `conseilregionoriental.ma` | wikidata | Oriental Regional Council |
 | 4 | `crtta.ma` | wikidata | Tangier-Tetouan-Al Hoceima Regional Council |
-| 4 | `soussmassa.ma` | wikidata | Souss-Massa Regional Council |
 | 4 | `region-fes-meknes.ma` | wikidata | Fez-Meknes Regional Council |
 | 4 | `regionmarrakech-safi.ma` | wikidata | Marrakesh–Safi Regional Council |
+| 4 | `soussmassa.ma` | wikidata | Souss-Massa Regional Council |
+| 7 | `uca.ma` | wikidata;wikidata | Cadi Ayyad University |
+| 7 | `uit.ac.ma` | wikidata;wikidata | Ibn Tofail University |
+| 7 | `univh2c.ma` | wikidata;wikidata | Hassan II University of Casablanca |
+| 7 | `usms.ac.ma` | wikidata;wikidata | Sultan Moulay Slimane University |
 

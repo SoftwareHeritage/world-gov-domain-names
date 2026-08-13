@@ -6,7 +6,7 @@
 - Region: Africa / Middle Africa
 - Languages: French; Sango
 - Population: 6470307
-- GDP per capita: 516 US$ (2024)
+- GDP per capita: 556 US$ (2025)
 - Currencies: XAF
 - ccTLD: `.cf` (manager: Societe Centrafricaine de Telecommunications (SOCATEL))
 - OECD: non-member
@@ -30,10 +30,25 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 5 | `primature.govcf.org` | un_desa | UN/DESA national portal |
+| 4 | `cf.usembassy.gov` | wikidata | embassy of the United States in Central African Republic |
+| 4 | `cpsrca.cf` | wikidata | Q112584726 |
+| 3 | `cf.ambafrance.org` | wikidata | Embassy of France, Bangui |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Central African Republic |
+| 3 | `mae.ro` | wikidata | Honorary Consulate of Romania, Bangui |
+| 3 | `rca.mid.ru` | wikidata | embassy of Russia in Central African Republic |
+| 3 | `stat-centrafrique.com` | wikidata | ICASEES |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `beac.int` | wikidata | Bank of Central African States |
 

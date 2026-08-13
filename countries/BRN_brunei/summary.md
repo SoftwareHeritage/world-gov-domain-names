@@ -6,7 +6,7 @@
 - Region: Asia / South-Eastern Asia
 - Languages: Malay
 - Population: 455500
-- GDP per capita: 33153 US$ (2024)
+- GDP per capita: 32235 US$ (2025)
 - Currencies: BND; SGD
 - ccTLD: `.bn` (manager: Authority for Info-communications Technology Industry of Brunei Darussalam (AITI))
 - OECD: non-member
@@ -30,5 +30,16 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `bn.usembassy.gov` | wikidata | Embassy of the United States in Bandar Seri Begawan |
+| 4 | `brunet.bn` | wikidata | Brunei International Airport |
+| 3 | `ambafrance-bn.org` | wikidata | Embassy of France, Bandar Seri Begawan |
+| 3 | `bandar-seri-begawan.diplo.de` | wikidata | Embassy of Germany, Bandar Seri Begawan |
+| 3 | `brunei.mid.ru` | wikidata | embassy of Russia in Brunei |
+| 3 | `philippine-embassybrunei.com` | wikidata | Embassy of the Philippines, Bandar Seri Begawan |
+| 3 | `roc-taiwan.org` | wikidata | Taipei Economic and Cultural Office in Brunei Darussalam |
 

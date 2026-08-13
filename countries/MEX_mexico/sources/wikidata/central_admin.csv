@@ -1,5 +1,46 @@
 type,label,website,hostname,level
+government_agency,Agencia Digital de Innovación Pública de la Ciudad de México,https://adip.cdmx.gob.mx/,adip.cdmx.gob.mx,
+government_agency,Animal Care Agency of Mexico City,https://www.agatan.cdmx.gob.mx/,agatan.cdmx.gob.mx,central-1
+government_agency,Health Protection Agency of the Government of Mexico City,https://agepsa.cdmx.gob.mx/,agepsa.cdmx.gob.mx,central-1
+government_agency,Instituto Cultural de Aguascalientes,https://www.aguascalientes.gob.mx/ICA/,aguascalientes.gob.mx,
+government_agency,embassy of Italy in Mexico,https://ambcittadelmessico.esteri.it,ambcittadelmessico.esteri.it,central
+government_agency,Q5657829,http://www.apiacapulcoport.com/,apiacapulcoport.com,
+government_agency,Auditoría Superior de la Ciudad de México,https://ascm.gob.mx/,ascm.gob.mx,
+government_agency,Banco Nacional de México,https://www.banamex.com/,banamex.com,
+government_agency,Bank of Mexico,http://www.banxico.org.mx/,banxico.org.mx,
+government_agency,embassy of Austria in Mexico,https://www.bmeia.gv.at/oeb-mexiko/,bmeia.gv.at,central
+government_agency,National Library of Mexico,https://bnm.iib.unam.mx/,bnm.iib.unam.mx,
+government_agency,Heroico Cuerpo de Bomberos de la Ciudad de México,https://www.bomberos.cdmx.gob.mx/,bomberos.cdmx.gob.mx,central-1
+government_agency,"Centro de Comando, Control, Cómputo, Comunicaciones y Contacto Ciudadano de la Ciudad de México",https://www.c5.cdmx.gob.mx/,c5.cdmx.gob.mx,central-1
+government_agency,"Embassy of Canada, Mexico City",https://www.canadainternational.gc.ca/mexico-mexique/index.aspx,canadainternational.gc.ca,central
+government_agency,Instituto Nacional de Cardiología,https://www.cardiologia.org.mx/,cardiologia.org.mx,
+government_agency,Centro Cultural de España,http://ccemx.org/,ccemx.org,
+government_agency,Consejo de Ciencia y Tecnología del Estado de Tabasco,http://www.ccytet.gob.mx/,ccytet.gob.mx,
+government_agency,Comisión de Derechos Humanos de la Ciudad de México,https://cdhcm.org.mx/,cdhcm.org.mx,central-1
+government_agency,Q135321497,https://cecan.nayarit.gob.mx/,cecan.nayarit.gob.mx,
+government_agency,Q135419752,https://www.chihuahua.gob.mx/secretariadecultura,chihuahua.gob.mx,central-1
+government_agency,embassy of Chile in Mexico,https://chile.gob.cl/mexico,chile.gob.cl,central
+government_agency,Research Center for Food and Development A.C.,http://www.ciad.mx/,ciad.mx,
+government_agency,Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco,https://www.ciatej.mx,ciatej.mx,
+government_agency,Consejo Veracruzano de Investigación Científica y Desarrollo Tecnológico,https://ciencia.covecyt.gob.mx,ciencia.covecyt.gob.mx,
+government_agency,Q5784092,http://www.cjf.gob.mx/,cjf.gob.mx,
+government_agency,Comisión Nacional Bancaria y de Valores,http://www.cnbv.gob.mx/,cnbv.gob.mx,central
+government_agency,"Consejo Estatal de Ciencia, Tecnología e Innovación de Chihuahua",http://www.coecytech.gob.mx/,coecytech.gob.mx,
+government_agency,Comisión Federal de Competencia,https://www.cofece.mx,cofece.mx,
+government_agency,Federal Commission for the Protection against Sanitary Risk,http://www.cofepris.gob.mx/,cofepris.gob.mx,
+government_agency,Consejo Mexiquense de Ciencia y Tecnología,https://comecyt.edomex.gob.mx,comecyt.edomex.gob.mx,
+government_agency,Q138312504,https://comisiondebusqueda.cdmx.gob.mx/,comisiondebusqueda.cdmx.gob.mx,central-1
+government_agency,CONABIO,http://www.conabio.gob.mx/,conabio.gob.mx,
+government_agency,National Water Commission,http://www.conagua.gob.mx,conagua.gob.mx,
+government_agency,"Consejo Nacional de Humanidades, Ciencias y Tecnologías",https://conahcyt.mx,conahcyt.mx,
+government_agency,Q4524011,http://www.conapo.gob.mx/,conapo.gob.mx,
+government_agency,National Council to Prevent Discrimination,http://www.conapred.org.mx/,conapred.org.mx,
+government_agency,Q24960577,http://www.conavi.gob.mx,conavi.gob.mx,
 ministry,Q24960577,http://www.conavi.gob.mx,conavi.gob.mx,
+government_agency,"Secretaría de Innovación, Ciencia y Educación Superior",http://www.concyteg.gob.mx/,concyteg.gob.mx,
+government_agency,Council of Science and Technology of the State of Puebla,https://www.concytep.gob.mx,concytep.gob.mx,
+government_agency,Q135418567,https://www.conecultachiapas.gob.mx/,conecultachiapas.gob.mx,central-1
+government_agency,"Consejo Estatal de Ciencia y Tecnología, Gobierno del estado de Sinaloa",https://confie.gob.mx,confie.gob.mx,
 supreme_court,Congress of Mexico City,https://congresocdmx.gob.mx/,congresocdmx.gob.mx,central-1
 parliament,Congress of Mexico City,https://congresocdmx.gob.mx/,congresocdmx.gob.mx,central-1
 supreme_court,Congress of Coahuila,https://congresocoahuila.gob.mx/portal/,congresocoahuila.gob.mx,central-1
@@ -12,65 +53,348 @@ supreme_court,Congress of Michoacan,http://www.congresomich.gob.mx,congresomich.
 parliament,Congress of Michoacan,http://www.congresomich.gob.mx,congresomich.gob.mx,central-1
 supreme_court,Congress of Yucatán,http://www.congresoyucatan.gob.mx/,congresoyucatan.gob.mx,central-1
 parliament,Congress of Yucatán,http://www.congresoyucatan.gob.mx/,congresoyucatan.gob.mx,central-1
+government_agency,Consejería Jurídica y de Servicios Legales de la Ciudad de México,https://www.consejeria.cdmx.gob.mx/,consejeria.cdmx.gob.mx,central-1
+government_agency,Secretaría de la Contraloría General de la Ciudad de México,https://contraloria.cdmx.gob.mx/,contraloria.cdmx.gob.mx,central-1
+government_agency,Q106072119,https://www.copred.cdmx.gob.mx/,copred.cdmx.gob.mx,
+government_agency,Consejo Tamaulipeco de Ciencia y Tecnología,https://cotacyt.gob.mx,cotacyt.gob.mx,
+government_agency,"Consejo Zacatecano de Ciencia, Tecnología e Innovación",https://cozcyt.gob.mx,cozcyt.gob.mx,
 parliament,Ayuntamiento de Cuautitlán Izcalli,https://cuautitlanizcalli.gob.mx/,cuautitlanizcalli.gob.mx,local
 supreme_court,Ayuntamiento de Cuautitlán Izcalli,https://cuautitlanizcalli.gob.mx/,cuautitlanizcalli.gob.mx,local
+government_agency,Ayuntamiento de Cuautitlán Izcalli,https://cuautitlanizcalli.gob.mx/,cuautitlanizcalli.gob.mx,local
+government_agency,Secretaría de Cultura de la Ciudad de México,https://www.cultura.cdmx.gob.mx/,cultura.cdmx.gob.mx,central-1
+government_agency,Secretaría de Cultura y Turismo del Estado de México,https://cultura.edomex.gob.mx/,cultura.edomex.gob.mx,
+government_agency,Q133265473,https://cultura.michoacan.gob.mx/,cultura.michoacan.gob.mx,
+government_agency,Secretaría de Cultura de Hidalgo,https://culturahidalgo.gob.mx/,culturahidalgo.gob.mx,central-1
+government_agency,Cultura,http://www.culturamazatlan.mx/,culturamazatlan.mx,
+government_agency,Secretaría de Cultura del Estado de Querétaro,http://culturaqueretaro.gob.mx/iqca/sitio/,culturaqueretaro.gob.mx,
+government_agency,"Dirección General de Culturas Populares, Indígenas y Urbanas",https://www.culturaspopulareseindigenas.gob.mx/,culturaspopulareseindigenas.gob.mx,
+government_agency,General Directorate of Technological Higher Education,http://www.dgest.gob.mx/,dgest.gob.mx,
+government_agency,"Directorate-General of Technological, Industrial, and Services Education",https://dgeti.sep.gob.mx,dgeti.sep.gob.mx,
+government_agency,Mexican Commission for Cooperation with UNESCO,https://www.dgpempyc.sep.gob.mx/,dgpempyc.sep.gob.mx,
+government_agency,Sistema para el Desarrollo Integral de la Familia de la Ciudad de México,https://www.dif.cdmx.gob.mx/,dif.cdmx.gob.mx,central-1
+government_agency,Chamber of Deputies,http://www.diputados.gob.mx/,diputados.gob.mx,central
 supreme_court,Town Hall of Ecatepec,http://ecatepec.gob.mx/sala-de-regidores/,ecatepec.gob.mx,local
 parliament,Town Hall of Ecatepec,http://ecatepec.gob.mx/sala-de-regidores/,ecatepec.gob.mx,local
+government_agency,Secretariat of Economy,http://www.economia.gob.mx,economia.gob.mx,central
 ministry,Secretariat of Economy,http://www.economia.gob.mx,economia.gob.mx,
+government_agency,embassy of Switzerland in Mexico,https://www.eda.admin.ch/mexico,eda.admin.ch,central
+government_agency,Delegation of the European Union to Mexico,https://eeas.europa.eu/delegations/mexico_en,eeas.europa.eu,
+government_agency,embassy of the Dominican Republic in Mexico,http://embadom.org,embadom.org,central
+government_agency,embassy of Costa Rica in Mexico,http://embajadadecostarica.com.mx/,embajadadecostarica.com.mx,central
+government_agency,"Embassy of the Sahrawi Arab Democratic Republic, Mexico City",https://www.embajadasaharauimexico.org/,embajadasaharauimexico.org,central
+government_agency,embassy of South Africa in Mexico,http://embajadasudafrica.mx,embajadasudafrica.mx,central
+government_agency,"Embassy of Saudi Arabia, Mexico City",https://embassies.mofa.gov.sa/sites/mexico,embassies.mofa.gov.sa,central
+government_agency,embassy of Argentina in Mexico,https://emexi.cancilleria.gob.ar/,emexi.cancilleria.gob.ar,central
+government_agency,Directorate General of Epidemiology,http://www.epidemiologia.salud.gob.mx/,epidemiologia.salud.gob.mx,
+government_agency,Piarist province of Mexico,http://www.escolapiosmexico.org,escolapiosmexico.org,
 constitutional_court,Piarist province of Mexico,http://www.escolapiosmexico.org,escolapiosmexico.org,
+government_agency,Consejo de Evaluación de la Ciudad de México,https://www.evalua.cdmx.gob.mx/,evalua.cdmx.gob.mx,central-1
+government_agency,Embassy of Spain in Mexico City,http://www.exteriores.gob.es/Embajadas/MEXICO,exteriores.gob.es,central
+government_agency,Fiscalía General de Justicia de la Ciudad de México,https://www.fgjcdmx.gob.mx/,fgjcdmx.gob.mx,central-1
+government_agency,Fiscalía General de Justicia del Estado de México,https://fgjem.edomex.gob.mx/,fgjem.edomex.gob.mx,central-1
 ministry,General Prosecutor of the Republic,https://www.fgr.org.mx/,fgr.org.mx,
+government_agency,General Prosecutor of the Republic,https://www.fgr.org.mx/,fgr.org.mx,central
+government_agency,Secretaría de Finanzas de la Ciudad de México,https://www.finanzas.cdmx.gob.mx/,finanzas.cdmx.gob.mx,central-1
+government_agency,Embassy of Finland in Mexico,https://finlandabroad.fi/web/mex,finlandabroad.fi,central
+government_agency,Fiscalía General del Estado de Guerrero,https://fiscaliaguerrero.gob.mx/,fiscaliaguerrero.gob.mx,central-1
+government_agency,Fondo para el Desarrollo Social de la Ciudad de México,https://www.fondeso.cdmx.gob.mx/,fondeso.cdmx.gob.mx,central-1
+constitutional_court,Province of the Holy Gospel in Mexico,https://franciscanosenmexico.com.mx/,franciscanosenmexico.com.mx,
+government_agency,Province of the Holy Gospel in Mexico,https://franciscanosenmexico.com.mx/,franciscanosenmexico.com.mx,
 ministry,Secretariat for Anti-Corruption and Good Governance,http://www.funcionpublica.gob.mx,funcionpublica.gob.mx,
+government_agency,Secretariat for Anti-Corruption and Good Governance,http://www.funcionpublica.gob.mx,funcionpublica.gob.mx,central
+government_agency,Laboratorio Nacional de GeoInteligencia,https://geoint.mx,geoint.mx,
+government_agency,"Secretariat of Infrastructure, Communications and Transportation",https://www.gob.mx/sct,gob.mx,central
+government_agency,Federal Protection Service (Mexico),https://www.gob.mx/proteccionfederal/,gob.mx,
+government_agency,AMEXCID,https://www.gob.mx/amexcid,gob.mx,
+government_agency,PROFECO,http://www.gob.mx/profeco,gob.mx,
+government_agency,Secretariat of National Defense,https://www.gob.mx/sedena,gob.mx,central
 ministry,Secretaría de Seguridad y Protección Ciudadana,http://www.gob.mx/sspc,gob.mx,
+government_agency,Secretaría de Seguridad y Protección Ciudadana,http://www.gob.mx/sspc,gob.mx,central
+government_agency,Secretariat of the Interior,https://www.gob.mx/segob/,gob.mx,central
 ministry,Secretariat of Agriculture and Rural Development,https://www.gob.mx/sader,gob.mx,
 ministry,General Prosecutor of the Republic,https://www.gob.mx/fgr,gob.mx,
+government_agency,Centro Nacional de Referencia de Control Biológico,https://www.gob.mx/senasica/acciones-y-programas/centro-nacional-de-referencia-de-control-biologico-103097,gob.mx,
+government_agency,"Secretariat of Agrarian, Land, and Urban Development",https://www.gob.mx/sedatu,gob.mx,central
+government_agency,CENAPRED,https://www.gob.mx/cenapred,gob.mx,
+government_agency,Instituto Mexicano del Transporte,https://www.gob.mx/imt,gob.mx,
+government_agency,Secretariat of Agriculture and Rural Development,https://www.gob.mx/sader,gob.mx,central
+government_agency,National Intelligence Center,https://www.gob.mx/cni,gob.mx,
+government_agency,Q18590714,https://www.gob.mx/snics,gob.mx,
+government_agency,General Prosecutor of the Republic,https://www.gob.mx/fgr,gob.mx,central
+government_agency,National Commission of Protected Natural Areas,https://www.gob.mx/conanp,gob.mx,
+government_agency,Q131705835,https://www.gob.mx/mujeres,gob.mx,
+government_agency,Agencia Federal de Aviación Civil,https://www.gob.mx/afac,gob.mx,
 ministry,Secretariat of Culture,https://www.gob.mx/cultura,gob.mx,
 ministry,"Secretariat of Agrarian, Land, and Urban Development",https://www.gob.mx/sedatu,gob.mx,
 ministry,Secretariat of National Defense,https://www.gob.mx/sedena,gob.mx,
+government_agency,Q134473499,https://www.gob.mx/senasica/,gob.mx,
+government_agency,Mexican National Guard,https://www.gob.mx/guardianacional,gob.mx,
 ministry,Secretariat of Environment and Natural Resources,https://www.gob.mx/semarnat,gob.mx,
+government_agency,CENAGAS,https://www.gob.mx/cenagas,gob.mx,
+government_agency,Instituto para Devolver al Pueblo lo Robado,https://www.gob.mx/indep,gob.mx,
+government_agency,General Archive of the Nation of Mexico,https://www.gob.mx/agn,gob.mx,
+government_agency,Mexican Space Agency,https://www.gob.mx/aem,gob.mx,
+government_agency,Train and Integrated Public Transport Agency,https://www.gob.mx/attrapi,gob.mx,
+government_agency,Liconsa,https://www.gob.mx/liconsa,gob.mx,
 ministry,Secretariat of the Interior,https://www.gob.mx/segob/,gob.mx,
+government_agency,Secretariat of Environment and Natural Resources,https://www.gob.mx/semarnat,gob.mx,central
 ministry,"Secretariat of Infrastructure, Communications and Transportation",https://www.gob.mx/sct,gob.mx,
+government_agency,Secretariat of Culture,https://www.gob.mx/cultura,gob.mx,central
+government_agency,Mexican Food Security,https://www.gob.mx/segalmex,gob.mx,
+government_agency,Comisión Coordinadora de Institutos Nacionales de Salud y Hospitales de Alta Especialidad,https://www.gob.mx/insalud,gob.mx,
+government_agency,embassy of Peru in Mexico,https://www.gob.pe/embajada-del-peru-en-mexico,gob.pe,central
+government_agency,embassy of Kazakhstan in Mexico,https://www.gov.kz/memleket/entities/mfa-mexico,gov.kz,central
+government_agency,"Embassy of Poland, Mexico City",https://www.gov.pl/web/meksyk,gov.pl,central
+government_agency,British Consulate General Cancun,https://www.gov.uk/world/organisations/british-consulate-general-cancun,gov.uk,
+government_agency,"Embassy of the United Kingdom, Mexico City",https://www.gov.uk/government/world/organisations/british-embassy-mexico-city/,gov.uk,central
 parliament,Town Hall of Guadalajara,https://guadalajara.gob.mx/regidores,guadalajara.gob.mx,local
 supreme_court,Town Hall of Guadalajara,https://guadalajara.gob.mx/regidores,guadalajara.gob.mx,local
 constitutional_court,Guanajuato government,https://www.guanajuato.gob.mx/,guanajuato.gob.mx,central-1
+government_agency,Guanajuato government,https://www.guanajuato.gob.mx/,guanajuato.gob.mx,central-1
+government_agency,Hospital General Dr. Manuel Gea González,http://www.hospitalgea.salud.gob.mx/,hospitalgea.salud.gob.mx,
+government_agency,Instituto de Acuacultura del Estado de Sonora,https://www.iaes.gob.mx,iaes.gob.mx,
+government_agency,Instituto de Cultura del Estado de Durango,https://iced.durango.gob.mx/,iced.durango.gob.mx,central-1
+government_agency,Institute of Science and Technology of the Federal District,http://www.icyt.df.gob.mx/,icyt.df.gob.mx,
+government_agency,Instituto de Educación de Aguascalientes,https://www.iea.gob.mx,iea.gob.mx,
+government_agency,State Electoral Institute of Baja California,http://www.ieebc.mx,ieebc.mx,
+government_agency,Q110720948,https://ieechihuahua.org.mx/,ieechihuahua.org.mx,central-1
+government_agency,Instituto de Educación Media Superior del Distrito Federal,http://www.iems.df.gob.mx/,iems.df.gob.mx,
+government_agency,Instituto Mexicano de Cinematografía,http://www.imcine.gob.mx,imcine.gob.mx,
+government_agency,Mexican Institute of Industrial Property,http://www.impi.gob.mx/,impi.gob.mx,
+government_agency,Mexican Social Security Institute,http://www.imss.gob.mx/,imss.gob.mx,
+government_agency,Instituto Nacional de Antropología e Historia,https://www.inah.gob.mx/,inah.gob.mx,
+government_agency,Instituto Nacional de Administración Pública,http://www.inap.mx/portal/,inap.mx,central
+government_agency,Instituto del Deporte de la Ciudad de México,https://indeporte.cdmx.gob.mx/,indeporte.cdmx.gob.mx,central-1
+government_agency,"Embassy of India, Mexico City",https://www.indiainmexico.gov.in,indiainmexico.gov.in,central
+government_agency,Instituto Nacional de Estadística y Geografía,http://www.inegi.org.mx/,inegi.org.mx,
+government_agency,National Institute of Historical Studies on the Mexican Revolution,http://www.inehrm.gob.mx/,inehrm.gob.mx,
+government_agency,National Institute of Historical Studies on the Mexican Revolution,https://www.inehrm.gob.mx/,inehrm.gob.mx,
+government_agency,Instituto Nacional de Enfermedades Respiratorias,http://www.iner.salud.gob.mx/,iner.salud.gob.mx,
+government_agency,Q128060894,https://www.injuve.cdmx.gob.mx/,injuve.cdmx.gob.mx,central-1
+government_agency,Instituto Nacional de Psiquiatría Dr. Ramón de la Fuente Muñiz,http://www.inprf.gob.mx/english.html,inprf.gob.mx,
+government_agency,Instituto Nacional de Psiquiatría Dr. Ramón de la Fuente Muñiz,http://www.inprf.gob.mx/,inprf.gob.mx,
+government_agency,Instituto Nacional de Salud Pública,http://www.insp.mx/home.html,insp.mx,
+government_agency,Instituto Nacional de Salud Pública,https://www.insp.mx/,insp.mx,
+government_agency,Quebec general delegation in Mexico,https://www.international.gouv.qc.ca/fr/mexico,international.gouv.qc.ca,
+government_agency,Q128505755,https://www.invea.cdmx.gob.mx/,invea.cdmx.gob.mx,central-1
+government_agency,Instituto de Vivienda de la Ciudad de México,https://www.invi.cdmx.gob.mx/,invi.cdmx.gob.mx,central-1
+government_agency,Instituto de Planeación Democrática y Prospectiva de la Ciudad de México,https://ipdp.cdmx.gob.mx/,ipdp.cdmx.gob.mx,
+government_agency,embassy of Ireland in Mexico,https://www.ireland.ie/en/mexico/mexicocity,ireland.ie,central
+government_agency,Instituto para la Seguridad de las Construcciones de la Ciudad de México,https://www.isc.cdmx.gob.mx/,isc.cdmx.gob.mx,
 ministry,Instituto de Servicios de Salud del Estado de Aguascalientes,https://www.issea.gob.mx,issea.gob.mx,
+government_agency,Instituto de Servicios de Salud del Estado de Aguascalientes,https://www.issea.gob.mx/Default.aspx,issea.gob.mx,
 ministry,Instituto de Servicios de Salud del Estado de Aguascalientes,https://www.issea.gob.mx/Default.aspx,issea.gob.mx,
+government_agency,Instituto de Servicios de Salud del Estado de Aguascalientes,https://www.issea.gob.mx,issea.gob.mx,
+government_agency,Q16579271,https://www.issemym.gob.mx,issemym.gob.mx,
 ministry,Q16579271,https://www.issemym.gob.mx,issemym.gob.mx,
+government_agency,Institute for Social Security and Services for State Workers,http://www.issste.gob.mx/,issste.gob.mx,
+government_agency,Q90767080,http://issstep.puebla.gob.mx/,issstep.puebla.gob.mx,
 ministry,Q90767080,http://issstep.puebla.gob.mx/,issstep.puebla.gob.mx,
+government_agency,Q90440921,http://www.isssteson.gob.mx/,isssteson.gob.mx,
 ministry,Q90440921,http://www.isssteson.gob.mx/,isssteson.gob.mx,
+government_agency,Q138312588,https://www.jap.cdmx.gob.mx,jap.cdmx.gob.mx,central-1
+government_agency,governor and cabinet of Ciudad de México,https://www.jefaturadegobierno.cdmx.gob.mx/,jefaturadegobierno.cdmx.gob.mx,central-1
 constitutional_court,governor and cabinet of Ciudad de México,https://www.jefaturadegobierno.cdmx.gob.mx/,jefaturadegobierno.cdmx.gob.mx,central-1
 constitutional_court,Jesuit Province of Mexico,https://jesuitasmexico.org/,jesuitasmexico.org,
+government_agency,Jesuit Province of Mexico,https://jesuitasmexico.org/,jesuitasmexico.org,
 parliament,Town Hall of Ciudad Juarez,http://juarez.gob.mx/dependencia/20/secretaria-del-ayuntamiento/,juarez.gob.mx,local
 supreme_court,Town Hall of Ciudad Juarez,http://juarez.gob.mx/dependencia/20/secretaria-del-ayuntamiento/,juarez.gob.mx,local
+government_agency,"embassy of Indonesia, Mexico City",https://kemlu.go.id/mexicocity,kemlu.go.id,central
+government_agency,"Embassy of Malaysia, Mexico City",https://www.kln.gov.my/web/mex_mexico-city,kln.gov.my,central
 parliament,Congress of Veracruz,https://www.legisver.gob.mx/,legisver.gob.mx,central-1
 supreme_court,Congress of Veracruz,https://www.legisver.gob.mx/,legisver.gob.mx,central-1
+government_agency,"Consulate-General of Japan, León",https://www.leon.mx.emb-japan.go.jp/,leon.mx.emb-japan.go.jp,
+government_agency,"Embassy of Turkey, Mexico City",https://meksika-be.mfa.gov.tr,meksika-be.mfa.gov.tr,central
+government_agency,Memórica,https://memoricamexico.gob.mx/,memoricamexico.gob.mx,
+government_agency,Metrobús,https://www.metrobus.cdmx.gob.mx,metrobus.cdmx.gob.mx,central-1
+government_agency,"Embassy of Belgium, Mexico",https://mexico.diplomatie.belgium.be,mexico.diplomatie.belgium.be,central
+government_agency,embassy of Portugal in Mexico,https://mexico.embaixadaportugal.mne.gov.pt,mexico.embaixadaportugal.mne.gov.pt,central
+government_agency,"Embassy of Colombia, Mexico City",https://mexico.embajada.gov.co/,mexico.embajada.gov.co,central
+government_agency,embassy of Australia in Mexico,https://mexico.embassy.gov.au/,mexico.embassy.gov.au,central
+government_agency,Embassy of Brazil in Mexico City,http://mexico.itamaraty.gov.br,mexico.itamaraty.gov.br,central
+government_agency,embassy of Romania in Mexico,http://mexico.mae.ro,mexico.mae.ro,central
+government_agency,embassy of Armenia in Mexico,https://mexico.mfa.am,mexico.mfa.am,central
+government_agency,embassy of Azerbaijan in Mexico,https://mexico.mfa.gov.az,mexico.mfa.gov.az,central
+government_agency,embassy of Georgia in Mexico,http://mexico.mfa.gov.ge,mexico.mfa.gov.ge,central
+government_agency,embassy of Iran in Mexico,https://mexico.mfa.gov.ir,mexico.mfa.gov.ir,central
+government_agency,embassy of Lebanon in Mexico,http://mexico.mfa.gov.lb/mexico,mexico.mfa.gov.lb,central
+government_agency,embassy of Serbia in Mexico,http://www.mexico.mfa.gov.rs,mexico.mfa.gov.rs,central
+government_agency,"Embassy of Ukraine, Mexico City",https://mexico.mfa.gov.ua/,mexico.mfa.gov.ua,central
+government_agency,embassy of Russia in Mexico,https://mexico.mid.ru,mexico.mid.ru,central
+government_agency,"Embassy of Bangladesh, Mexico City",https://mexico.mofa.gov.bd,mexico.mofa.gov.bd,central
+government_agency,embassy of Denmark in Mexico,https://mexico.um.dk,mexico.um.dk,central
+government_agency,"Embassy of the Philippines, Mexico City",https://mexicope.dfa.gov.ph/,mexicope.dfa.gov.ph,central
+government_agency,Cámara Mexicano-Alemana de Comercio e Industria,https://mexiko.ahk.de/,mexiko.ahk.de,
+government_agency,Cámara Mexicano-Alemana de Comercio e Industria,https://mexiko.ahk.de/es/,mexiko.ahk.de,
+government_agency,"Embassy of Germany, Mexico City",https://mexiko.diplo.de,mexiko.diplo.de,central
+government_agency,"Embassy of Hungary, Mexico City",https://mexiko.mfa.gov.hu/,mexiko.mfa.gov.hu,central
+government_agency,"Embassy of Hungary, Mexico City",https://mexikovaros.mfa.gov.hu/,mexikovaros.mfa.gov.hu,central
+government_agency,embassy of Ivory Coast in Mexico,http://www.mexique.diplomatie.gouv.ci/,mexique.diplomatie.gouv.ci,central
+government_agency,embassy of Bulgaria in Mexico,https://www.mfa.bg/embassies/mexico,mfa.bg,central
+government_agency,embassy of Cyprus in Mexico,http://www.mfa.gov.cy/mfa/embassies/embassy_mexico.nsf,mfa.gov.cy,central
+government_agency,embassy of Greece in Mexico,https://www.mfa.gr/missionsabroad/mexico.html,mfa.gr,central
+government_agency,"Embassy of New Zealand, Mexico City",https://www.mfat.govt.nz/en/countries-and-regions/americas/mexico/new-zealand-embassy/,mfat.govt.nz,central
+government_agency,Undersecretariat of Infrastructure,https://micrs.sct.gob.mx/infraestructura,micrs.sct.gob.mx,
+government_agency,embassy of Pakistan in Mexico,https://mofa.gov.pk/mexico,mofa.gov.pk,central
+government_agency,"Embassy of the United Arab Emirates, Mexico",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=9ee8168d-9426-437d-a17d-b002d766f41d,mofaic.gov.ae,central
 parliament,Town Hall of Monterrey,http://www.monterrey.gob.mx/oficial/secretaria.asp?idSecretaria=1,monterrey.gob.mx,local
 supreme_court,Town Hall of Monterrey,http://www.monterrey.gob.mx/oficial/secretaria.asp?idSecretaria=1,monterrey.gob.mx,local
+government_agency,Consejo de Ciencia y Tecnología del Estado de Morelos,https://www.morelos.gob.mx/inicio/consejo-de-ciencia-y-tecnologia-del-estado-de-morelos,morelos.gob.mx,
+government_agency,"Embassy of France, Mexico City",https://mx.ambafrance.org/,mx.ambafrance.org,central
+government_agency,"Embassy of the People's Republic of China, Mexico City",http://mx.china-embassy.gov.cn,mx.china-embassy.gov.cn,central
+government_agency,"Embassy of Japan, Mexico City",https://www.mx.emb-japan.go.jp,mx.emb-japan.go.jp,central
+government_agency,"Consulate General of the United States, Nogales",https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-in-nogales/,mx.usembassy.gov,central-1
+government_agency,"Embassy of the United States, Mexico City",https://mx.usembassy.gov/,mx.usembassy.gov,central
+government_agency,Consulate General of the United States in Hermosillo,https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-hermosillo/,mx.usembassy.gov,central-1
+government_agency,Consulate General of the United States in Ciudad Juárez,https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-ciudad-juarez/,mx.usembassy.gov,central-1
+government_agency,Consulate General of the United States in Merida,https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-merida/,mx.usembassy.gov,central-1
+government_agency,Consulate General of the United States in Matamoros,https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-in-matamoros/,mx.usembassy.gov,central-1
+government_agency,Consulate General of the United States in Monterrey,https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-monterrey/,mx.usembassy.gov,central-1
+government_agency,Consulate General of the United States in Nuevo Laredo,https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-in-nuevo-laredo/,mx.usembassy.gov,central-1
+government_agency,Consulate General of the United States in Guadalajara,https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-guadalajara/,mx.usembassy.gov,central-1
+government_agency,Consulate General of the United States in Tijuana,https://mx.usembassy.gov/visas/u-s-embassy-mexico-city/u-s-consulate-general-tijuana/,mx.usembassy.gov,central-1
+government_agency,embassy of the Czech republic in Mexico,https://www.mzv.cz/mexico,mzv.cz,central
+government_agency,embassy of Slovakia in Mexico,https://www.mzv.sk/web/mexico,mzv.sk,central
+government_agency,"Embassy of Israel, Mexico City",https://new.embassies.gov.il/mexico,new.embassies.gov.il,central
 parliament,Town Hall of the City of Nezahualcóyotl,http://neza.gob.mx/,neza.gob.mx,local
 supreme_court,Town Hall of the City of Nezahualcóyotl,http://neza.gob.mx/,neza.gob.mx,local
+government_agency,embassy of Nigeria in Mexico,https://www.nigerianembmexico.org,nigerianembmexico.org,central
+government_agency,Secretariat of Education of Nuevo León,https://www.nl.gob.mx/educacion,nl.gob.mx,central-1
+government_agency,"Embassy of Norway, Mexico City",https://www.norway.no/es/mexico/,norway.no,central
+government_agency,Secretaría de Obras y Servicios de la Ciudad de México,https://www.obras.cdmx.gob.mx/,obras.cdmx.gob.mx,central-1
+government_agency,Oficina Nacional Antidrogas,http://www.ona.gob.ve/,ona.gob.ve,
+government_agency,Q91380052,http://www.oplever.org.mx/,oplever.org.mx,
+government_agency,Embassy of South Korea in Mexico City,https://overseas.mofa.go.kr/mx-es/index.do,overseas.mofa.go.kr,central
+government_agency,Embassy of South Korea in Mexico City,https://overseas.mofa.go.kr/mx-ko/index.do,overseas.mofa.go.kr,central
+government_agency,Policía Auxiliar de la Ciudad de México,https://www.pa.cdmx.gob.mx/,pa.cdmx.gob.mx,
+government_agency,Subsecretaría de Sistema Penitenciario de la Ciudad de México,https://penitenciario.cdmx.gob.mx/,penitenciario.cdmx.gob.mx,central-1
+government_agency,Procuraduría General de la República,http://www.pgr.gob.mx,pgr.gob.mx,central
+government_agency,Deputy Attorney Specialized Investigation of Organized Crime,http://www.pgr.gob.mx/Paginas/default.aspx,pgr.gob.mx,
+government_agency,Q138312946,https://www.plantadeasfalto.cdmx.gob.mx/,plantadeasfalto.cdmx.gob.mx,central-1
+government_agency,Consejo de la Judicatura de la Ciudad de México,https://www.poderjudicialcdmx.gob.mx/consejo/,poderjudicialcdmx.gob.mx,central-1
+government_agency,Tribunal Superior de Justicia de la Ciudad de México,https://www.poderjudicialcdmx.gob.mx/tribunal/,poderjudicialcdmx.gob.mx,
+government_agency,Policía Bancaria e Industrial de la Ciudad de México,https://www.policiabancaria.cdmx.gob.mx/,policiabancaria.cdmx.gob.mx,
+government_agency,Institute of the National Housing Fund for Workers,https://portalmx.infonavit.org.mx,portalmx.infonavit.org.mx,
+government_agency,Secretaría de Educación Jalisco,https://portalsej.jalisco.gob.mx,portalsej.jalisco.gob.mx,
+government_agency,Q100980372,http://programasotavento.blogspot.com/2009/07/ediciones.html,programasotavento.blogspot.com,
+government_agency,ProMéxico,http://www.ProMexico.gob.mx,promexico.gob.mx,
+government_agency,Procuraduría Social de la Ciudad de México,https://www.prosoc.cdmx.gob.mx/,prosoc.cdmx.gob.mx,central-1
+government_agency,Secretariat of Comprehensive Risk Management and Civil Protection of Mexico City,http://www.proteccioncivil.cdmx.gob.mx,proteccioncivil.cdmx.gob.mx,central-1
 supreme_court,Town Hall of Puebla,http://pueblacapital.gob.mx/ayuntamiento/regidores,pueblacapital.gob.mx,local
 parliament,Town Hall of Puebla,http://pueblacapital.gob.mx/ayuntamiento/regidores,pueblacapital.gob.mx,local
+government_agency,Comisión de la Reconstrucción de la Ciudad de México,https://www.reconstruccion.cdmx.gob.mx/,reconstruccion.cdmx.gob.mx,central-1
+government_agency,Sistema de Aguas de la Ciudad de México,https://www.sacmex.cdmx.gob.mx/,sacmex.cdmx.gob.mx,central-1
+government_agency,Secretaría de Salud de la Ciudad de México,https://www.salud.cdmx.gob.mx/,salud.cdmx.gob.mx,central-1
+government_agency,Instituto de Salud del Estado de México,http://salud.edomexico.gob.mx/html/,salud.edomexico.gob.mx,
 ministry,Secretariat of Health,http://www.salud.gob.mx,salud.gob.mx,
+government_agency,Secretariat of Health,http://www.salud.gob.mx,salud.gob.mx,central
+government_agency,Servicios de Salud de Yucatán,https://salud.yucatan.gob.mx,salud.yucatan.gob.mx,
+government_agency,Servicios de Salud de Yucatán,http://salud.yucatan.gob.mx/,salud.yucatan.gob.mx,
 ministry,Servicios de Salud de Yucatán,https://salud.yucatan.gob.mx,salud.yucatan.gob.mx,
 ministry,Servicios de Salud de Yucatán,http://salud.yucatan.gob.mx/,salud.yucatan.gob.mx,
 ministry,Q89416481,https://www.saludbc.gob.mx/,saludbc.gob.mx,
+government_agency,Q89416481,https://www.saludbc.gob.mx/,saludbc.gob.mx,
+government_agency,Q92828424,http://saludchiapas.gob.mx/,saludchiapas.gob.mx,
 ministry,Q92828424,http://saludchiapas.gob.mx/,saludchiapas.gob.mx,
 ministry,Q90603383,http://saludsinaloa.gob.mx/,saludsinaloa.gob.mx,
+government_agency,Q90603383,http://saludsinaloa.gob.mx/,saludsinaloa.gob.mx,
+government_agency,Q138009964,https://www.sapci.cdmx.gob.mx/,sapci.cdmx.gob.mx,central-1
+government_agency,Internal Revenue Service,https://www.sat.gob.mx/,sat.gob.mx,
+government_agency,Q140187637,https://sayc.puebla.gob.mx/,sayc.puebla.gob.mx,
+government_agency,Q136500473,https://sc.jalisco.gob.mx/inicio,sc.jalisco.gob.mx,central-1
+government_agency,Supreme Court of Justice of the Nation,https://www.scjn.gob.mx/,scjn.gob.mx,central
+government_agency,Secretaría de Inclusión y Bienestar Social de la Ciudad de México,https://www.sds.cdmx.gob.mx/,sds.cdmx.gob.mx,central-1
+government_agency,Secretaría de Gobierno de la Ciudad de México,http://www.secgob.cdmx.gob.mx,secgob.cdmx.gob.mx,central-1
+government_agency,Secretaría de Ciencia Tecnología e Innovación,http://www.seciti.cdmx.gob.mx/,seciti.cdmx.gob.mx,
+government_agency,Secretaría de Educación de la Ciudad de México,https://www.sectei.cdmx.gob.mx/,sectei.cdmx.gob.mx,central-1
 ministry,Secretariat of Tourism,http://www.sectur.gob.mx/,sectur.gob.mx,
+government_agency,Secretariat of Tourism,http://www.sectur.gob.mx/,sectur.gob.mx,central
+government_agency,Secretaría de Desarrollo Económico de la Ciudad de México,http://www.sedeco.cdmx.gob.mx/,sedeco.cdmx.gob.mx,central-1
+government_agency,Secretaría del Medio Ambiente de la Ciudad de México,https://www.sedema.cdmx.gob.mx/,sedema.cdmx.gob.mx,central-1
+government_agency,Secretariat of Welfare,http://www.sedesol.gob.mx,sedesol.gob.mx,central
 ministry,Secretariat of Welfare,http://www.sedesol.gob.mx,sedesol.gob.mx,
+government_agency,Secretariat of Urban Development and Housing of Mexico City,https://www.seduvi.cdmx.gob.mx/,seduvi.cdmx.gob.mx,central-1
+government_agency,Q138010021,https://segiagua.cdmx.gob.mx/,segiagua.cdmx.gob.mx,central-1
+government_agency,Secretariat of the Interior,http://www.segob.gob.mx,segob.gob.mx,central
 ministry,Secretariat of the Interior,http://www.segob.gob.mx,segob.gob.mx,
+government_agency,Secretaría de Seguridad Pública,http://seguridad.tamaulipas.gob.mx/secretaria/operacion-policial/policia-estatal/,seguridad.tamaulipas.gob.mx,
+government_agency,Policía Estatal de Guerrero,https://www.seguridadgro.gob.mx/,seguridadgro.gob.mx,
+government_agency,Secretaría de Medio Ambiente e Historia Natural,https://www.semahn.chiapas.gob.mx,semahn.chiapas.gob.mx,
+government_agency,Secretariat of the Navy,http://www.semar.gob.mx,semar.gob.mx,central
 ministry,Secretariat of the Navy,http://www.semar.gob.mx,semar.gob.mx,
+government_agency,Secretaría de Movilidad de la Ciudad de México,https://www.semovi.cdmx.gob.mx/,semovi.cdmx.gob.mx,central-1
+government_agency,Secretaría de las Mujeres de la Ciudad de México,https://www.semujeres.cdmx.gob.mx/,semujeres.cdmx.gob.mx,central-1
+government_agency,Senate of the Republic,http://www.senado.gob.mx,senado.gob.mx,central
 ministry,Secretariat of Energy,http://www.sener.gob.mx,sener.gob.mx,
+government_agency,Secretariat of Energy,http://www.sener.gob.mx,sener.gob.mx,central
 ministry,Secretariat of Public Education,http://www.sep.gob.mx/,sep.gob.mx,
+government_agency,Secretariat of Public Education,http://www.sep.gob.mx/,sep.gob.mx,central
+government_agency,Secretaría de Pueblos y Barrios Originarios y Comunidades Indígenas Residentes de la Ciudad de México,https://www.sepi.cdmx.gob.mx/,sepi.cdmx.gob.mx,central-1
+government_agency,Q138312974,https://servimet.cdmx.gob.mx,servimet.cdmx.gob.mx,central-1
+government_agency,Secretría Ejecutiva del Sistema Local Anticorrupción de Nayarit,https://www.seslan.gob.mx,seslan.gob.mx,
+government_agency,Secretariat of Finance and Public Credit,http://www.shcp.gob.mx/,shcp.gob.mx,central
 ministry,Secretariat of Finance and Public Credit,http://www.shcp.gob.mx/,shcp.gob.mx,
+government_agency,Q138312580,https://sidh.cdmx.gob.mx/,sidh.cdmx.gob.mx,central-1
+government_agency,"Secretaría de Investigación, Innovación y Educación Superior",http://www.siies.yucatan.gob.mx/,siies.yucatan.gob.mx,
 constitutional_court,Q25408184,https://sites.google.com/site/provinciafranciscanamichoacan/,sites.google.com,
+government_agency,Q25408184,https://sites.google.com/site/provinciafranciscanamichoacan/,sites.google.com,
+government_agency,Q90616945,https://slp.gob.mx/ssalud/Paginas/Inicio.aspx,slp.gob.mx,
 constitutional_court,Gobierno del Estado de San Luis Potosí,https://slp.gob.mx/,slp.gob.mx,central-1
+government_agency,Gobierno del Estado de San Luis Potosí,https://slp.gob.mx/,slp.gob.mx,central-1
 ministry,Q90616945,https://slp.gob.mx/ssalud/Paginas/Inicio.aspx,slp.gob.mx,
 ministry,Q92514666,https://www.smsecc38.gob.mx/,smsecc38.gob.mx,
+government_agency,Q92514666,https://www.smsecc38.gob.mx/,smsecc38.gob.mx,
+government_agency,Sistema Nacional de Información Estadística y Geográfica,http://www.snieg.mx/,snieg.mx,
 ministry,Secretariat of Foreign Affairs,http://www.sre.gob.mx/,sre.gob.mx,
+government_agency,Secretariat of Foreign Affairs,http://www.sre.gob.mx/,sre.gob.mx,central
+government_agency,Ministry of Public Security of Mexico City,https://www.ssc.cdmx.gob.mx/,ssc.cdmx.gob.mx,central-1
+government_agency,Secretaría de Salud de Jalisco,http://ssj.jalisco.gob.mx/,ssj.jalisco.gob.mx,
 ministry,Q91024249,http://www.ssn.gob.mx/Portal/index.php,ssn.gob.mx,
+government_agency,Q91024249,http://www.ssn.gob.mx/Portal/index.php,ssn.gob.mx,
+government_agency,Yucatán State Police,http://www.ssp.yucatan.gob.mx,ssp.yucatan.gob.mx,
+government_agency,Servicio de Transportes Eléctricos,http://www.ste.cdmx.gob.mx,ste.cdmx.gob.mx,central-1
 ministry,Secretariat of Labor and Social Welfare,http://www.stps.gob.mx,stps.gob.mx,
+government_agency,Secretariat of Labor and Social Welfare,http://www.stps.gob.mx,stps.gob.mx,central
+government_agency,"Embassy of Sweden, Mexico City",http://www.swedenabroad.com/Mexico/,swedenabroad.com,central
+government_agency,Q90422320,https://tabasco.gob.mx/isset,tabasco.gob.mx,
 ministry,Q90422320,https://tabasco.gob.mx/isset,tabasco.gob.mx,
+government_agency,Federal Electoral Tribunal,http://www.te.gob.mx/,te.gob.mx,
 supreme_court,Town Hall of Tijuana,http://www.tijuana.gob.mx/dependencias/cabildo/,tijuana.gob.mx,local
 parliament,Town Hall of Tijuana,http://www.tijuana.gob.mx/dependencias/cabildo/,tijuana.gob.mx,local
+government_agency,Secretariat of Labor and Employment Promotion of Mexico City,https://www.trabajo.cdmx.gob.mx/,trabajo.cdmx.gob.mx,central-1
+government_agency,Transparency for the People,https://transparencia.gob.mx/,transparencia.gob.mx,central
+government_agency,Consejo Estatal Para la Cultura y las Artes de Hidalgo,http://transparencia.hidalgo.gob.mx/?p=553,transparencia.hidalgo.gob.mx,
+government_agency,Secretaría de Turismo de la Ciudad de México,https://turismo.cdmx.gob.mx/,turismo.cdmx.gob.mx,central-1
+government_agency,United States-Mexico Chamber of Commerce,https://usmcoc.org/,usmcoc.org,
+government_agency,Taipei Economic and Cultural Office in Mexico,http://web.roc-taiwan.org/mx_es/index.html,web.roc-taiwan.org,
 supreme_court,Town Hall of Zapopan,https://www.zapopan.gob.mx/ayuntamiento-abierto/,zapopan.gob.mx,local
 parliament,Town Hall of Zapopan,https://www.zapopan.gob.mx/ayuntamiento-abierto/,zapopan.gob.mx,local
+university,Autonomous University of Sinaloa,http://uas.edu.mx,uas.edu.mx,university
+university,Autonomous University of Chihuahua,https://uach.mx,uach.mx,university
+university,National Autonomous University of Mexico,http://www.unam.mx,unam.mx,university
+university,Universidad Veracruzana,https://www.uv.mx/,uv.mx,university
+university,Universidad Ciudadana de Nuevo León,http://www.ucnl.edu.mx,ucnl.edu.mx,university
+university,Open and Distance Education University of Mexico,https://www.unadmexico.mx/,unadmexico.mx,university
+university,"Public, Open and Distance University of the State of Durango",http://upaded.educadgo.gob.mx/,upaded.educadgo.gob.mx,university
+university,Universidad Juárez Autónoma de Tabasco,http://www.ujat.mx,ujat.mx,university
+university,Guanajuato State Virtual University,https://uveg.edu.mx/,uveg.edu.mx,university
+university,Digital Education Institute of Puebla,https://www.iedep.edu.mx,iedep.edu.mx,university
+university,Autonomous University of Sinaloa,https://www.uas.edu.mx/,uas.edu.mx,university
+university,Autonomous University of Tamaulipas,https://www.uat.edu.mx/,uat.edu.mx,university
+university,Hidalgo State Digital University,https://www.unideh.edu.mx/,unideh.edu.mx,university
+university,Virtual University of Guerrero,https://www.uvegro.edu.mx,uvegro.edu.mx,university
+university,Benemérita Escuela Nacional de Maestros,https://www.benm.mx,benm.mx,university
+university,Universidad del Papaloapan,http://www.unpa.edu.mx/,unpa.edu.mx,university
+university,Universidad del Papaloapan,https://www.unpa.edu.mx,unpa.edu.mx,university
+university,University of Technology Nezahualcóyotl,http://www.utn.edu.mx/,utn.edu.mx,university
+university,University of Technology Nezahualcóyotl,http://www.utneza.edu.mx/,utneza.edu.mx,university
+university,"National Institute of Astrophysics, Optics and Electronics",http://www.inaoep.mx/,inaoep.mx,university
+university,Autonomous University of San Luis Potosí,https://www.uaslp.mx/,uaslp.mx,university
+university,Polytechnic University of Quintana Roo,http://www.upqroo.edu.mx/,upqroo.edu.mx,university
+university,Universidad de Oriente,http://www.uno.edu.mx,uno.edu.mx,university
+university,University of Guadalajara,https://www.udg.mx/en,udg.mx,university
+university,University of Guadalajara,https://www.udg.mx/,udg.mx,university
+university,Universidad Michoacana de San Nicolás de Hidalgo,http://www.umich.mx,umich.mx,university
+university,Mexico State Digital University,https://www.udemex.edu.mx/,udemex.edu.mx,university
+university,National Autonomous University of Mexico,https://www.unam.mx/,unam.mx,university
+university,Universidad Autónoma Metropolitana,http://www.uam.mx,uam.mx,university

@@ -1,21 +1,88 @@
 type,label,website,hostname,level
-ministry,Ministry of Tourism,http://www.mitur.gob.sv/,mitur.gob.sv,
-ministry,"Ministry of Education, Science and Technology",http://www.mined.gob.sv/,mined.gob.sv,
-ministry,Ministry of Foreign Affairs of El Salvador,http://www.rree.gob.sv/,rree.gob.sv,
-ministry,Ministry of Health,http://www.salud.gob.sv/,salud.gob.sv,
-ministry,Ministry of Local Development of El Salvador,http://www.fisdl.gob.sv/,fisdl.gob.sv,
-ministry,Ministry of Justice and Public Security,http://www.seguridad.gob.sv/,seguridad.gob.sv,
-ministry,Ministry of Finance of El Salvador,http://www.mh.gob.sv,mh.gob.sv,
-ministry,Ministry of Governance and Territorial Development of El Salvador,http://www.gobernacion.gob.sv/,gobernacion.gob.sv,
-ministry,Ministry of Environment and Natural Resources of El Salvador,http://www.marn.gob.sv/,marn.gob.sv,
-ministry,Ministry of Culture,http://www.cultura.gob.sv/,cultura.gob.sv,
-ministry,Ministry of Labor and Social Welfare of El Salvador,http://www.mtps.gob.sv,mtps.gob.sv,
-ministry,Ministry of Economy of El Salvador,http://www.minec.gob.sv/,minec.gob.sv,
-ministry,Ministry of Agriculture and Livestock,http://www.mag.gob.sv/,mag.gob.sv,
-ministry,Ministry of Public Works,http://www.mop.gob.sv/,mop.gob.sv,
-ministry,Ministry of Labour and Social Provision of El Salvador,http://www.mtps.gob.sv/,mtps.gob.sv,
-ministry,Ministry of Housing of El Salvador,http://www.vivienda.gob.sv/,vivienda.gob.sv,
-parliament,Legislative Assembly of El Salvador,https://www.asamblea.gob.sv,asamblea.gob.sv,
+government_agency,Civil Aviation Authority,http://www.aac.gob.sv/,aac.gob.sv,
+government_agency,embassy of Italy in El Salvador,https://ambsansalvador.esteri.it,ambsansalvador.esteri.it,central
+parliament,Legislative Assembly of El Salvador,https://www.asamblea.gob.sv,asamblea.gob.sv,central
+supreme_court,Legislative Assembly of El Salvador,https://www.asamblea.gob.sv,asamblea.gob.sv,central
+government_agency,Central Reserve Bank of El Salvador,http://www.bcr.gob.sv/,bcr.gob.sv,
+government_agency,National Library of El Salvador,http://www.binaes.gob.sv/,binaes.gob.sv,
+government_agency,Q5793910,http://www.bomberos.gob.sv,bomberos.gob.sv,
+government_agency,embassy of Canada in El Salvador,https://www.canadainternational.gc.ca/el_salvador-salvador/index.aspx,canadainternational.gc.ca,central
+government_agency,Cultural Center of Spain in El Salvador,https://ccesv.aecid.es/,ccesv.aecid.es,
 constitutional_court,Comisión Ejecutiva Portuaria Autónoma,http://www.cepa.gob.sv/,cepa.gob.sv,
+government_agency,Comisión Ejecutiva Portuaria Autónoma,http://www.cepa.gob.sv/,cepa.gob.sv,
+government_agency,embassy of Chile in El Salvador,https://chile.gob.cl/el-salvador/,chile.gob.cl,central
+government_agency,National Council of the Judicature of El Salvador,http://www.cnj.gob.sv/,cnj.gob.sv,
+government_agency,Q25410516,https://www.cnr.gob.sv/servicios/instituto-geografico-y-del-catastro-nacional/,cnr.gob.sv,central
+government_agency,Centro Nacional de Registros,http://www.cnr.gob.sv/,cnr.gob.sv,
+government_agency,Correos de El Salvador,http://www.correos.gob.sv/,correos.gob.sv,
+government_agency,Q5789530,https://www.cortedecuentas.gob.sv,cortedecuentas.gob.sv,
+government_agency,Constitucional Court of the Supreme Court of El Salvador,https://www.csj.gob.sv/sala-de-lo-constitucional-magistrados-de-sala/,csj.gob.sv,central
+government_agency,Supreme Court of El Salvador,http://www.csj.gob.sv/idioma.html,csj.gob.sv,
+government_agency,Consejo Superior de Salud Pública,http://cssp.gob.sv/,cssp.gob.sv,
+government_agency,Ministry of Culture,http://www.cultura.gob.sv/,cultura.gob.sv,central
+ministry,Ministry of Culture,http://www.cultura.gob.sv/,cultura.gob.sv,
+government_agency,Dirección General de Estadística y Censos,http://www.digestyc.gob.sv/,digestyc.gob.sv,central
+government_agency,Dirección de Hidrocarburos y Minas,https://www.edrhym.gob.sv/drhm/,edrhym.gob.sv,
+government_agency,Delegation of the European Union to El Salvador,https://eeas.europa.eu/delegations/el-salvador_en,eeas.europa.eu,central
+government_agency,"Embassy of Colombia, San Salvador",https://elsalvador.embajada.gov.co,elsalvador.embajada.gov.co,central
+government_agency,embassy of Mexico in El Salvador,https://embamex.sre.gob.mx/elsalvador,embamex.sre.gob.mx,central
+government_agency,Embassy of Israel in El Salvador,https://embassies.gov.il/san-salvador,embassies.gov.il,central
+government_agency,El Salvador Aerospace Institute,https://www.esai.sv/,esai.sv,
+government_agency,embassy of Argentina in El Salvador,https://esalv.cancilleria.gob.ar/,esalv.cancilleria.gob.ar,central
+government_agency,Embassy of Spain in San Salvador,http://www.exteriores.gob.es/Embajadas/SANSALVADOR,exteriores.gob.es,central
+government_agency,Office of the Prosecutor General of the Republic of El Salvador,http://www.fiscalia.gob.sv/,fiscalia.gob.sv,
+government_agency,Ministry of Local Development of El Salvador,http://www.fisdl.gob.sv/,fisdl.gob.sv,central
+ministry,Ministry of Local Development of El Salvador,http://www.fisdl.gob.sv/,fisdl.gob.sv,
+government_agency,embassy of Peru in El Salvador,https://www.gob.pe/embajada-del-peru-en-el-salvador,gob.pe,central
+government_agency,Ministry of Governance and Territorial Development of El Salvador,http://www.gobernacion.gob.sv/,gobernacion.gob.sv,central
+ministry,Ministry of Governance and Territorial Development of El Salvador,http://www.gobernacion.gob.sv/,gobernacion.gob.sv,
+government_agency,British Embassy San Salvador,https://www.gov.uk/world/organisations/british-embassy-san-salvador,gov.uk,central
+government_agency,National Press of El Salvador,http://www.imprentanacional.gob.sv/,imprentanacional.gob.sv,
+government_agency,Q136757253,https://www.inabve.gob.sv,inabve.gob.sv,
+government_agency,Q5917704,http://www.isss.gob.sv/,isss.gob.sv,
+government_agency,Instituto Salvadoreño de Transformación Agraria,http://www.ista.gob.sv,ista.gob.sv,
+government_agency,Instituto Salvadoreño de Turismo,http://www.istu.gob.sv/,istu.gob.sv,
+government_agency,Jesuit Province of Central America,https://jesuitascam.org/,jesuitascam.org,
 constitutional_court,Jesuit Province of Central America,https://jesuitascam.org/,jesuitascam.org,
-supreme_court,Legislative Assembly of El Salvador,https://www.asamblea.gob.sv,asamblea.gob.sv,
+government_agency,Cultural Center of Spain in El Salvador,https://lab.ccesv.org/,lab.ccesv.org,
+ministry,Ministry of Agriculture and Livestock,http://www.mag.gob.sv/,mag.gob.sv,
+government_agency,Ministry of Agriculture and Livestock,http://www.mag.gob.sv/,mag.gob.sv,central
+government_agency,Ministry of Environment and Natural Resources of El Salvador,http://www.marn.gob.sv/,marn.gob.sv,central
+ministry,Ministry of Environment and Natural Resources of El Salvador,http://www.marn.gob.sv/,marn.gob.sv,
+government_agency,Ministry of Finance of El Salvador,http://www.mh.gob.sv,mh.gob.sv,central
+ministry,Ministry of Finance of El Salvador,http://www.mh.gob.sv,mh.gob.sv,
+government_agency,Ministry of Economy of El Salvador,http://www.minec.gob.sv/,minec.gob.sv,central
+ministry,Ministry of Economy of El Salvador,http://www.minec.gob.sv/,minec.gob.sv,
+government_agency,Salvadorian National Commission for Cooperation with UNESCO,https://www.mined.gob.sv/,mined.gob.sv,
+ministry,"Ministry of Education, Science and Technology",http://www.mined.gob.sv/,mined.gob.sv,
+government_agency,"Ministry of Education, Science and Technology",http://www.mined.gob.sv/,mined.gob.sv,central
+government_agency,Ministry of Tourism,http://www.mitur.gob.sv/,mitur.gob.sv,central
+ministry,Ministry of Tourism,http://www.mitur.gob.sv/,mitur.gob.sv,
+ministry,Ministry of Public Works,http://www.mop.gob.sv/,mop.gob.sv,
+government_agency,Ministry of Public Works,http://www.mop.gob.sv/,mop.gob.sv,central
+ministry,Ministry of Labour and Social Provision of El Salvador,http://www.mtps.gob.sv/,mtps.gob.sv,
+ministry,Ministry of Labor and Social Welfare of El Salvador,http://www.mtps.gob.sv,mtps.gob.sv,
+government_agency,Ministry of Labour and Social Provision of El Salvador,http://www.mtps.gob.sv/,mtps.gob.sv,central
+government_agency,Ministry of Labor and Social Welfare of El Salvador,http://www.mtps.gob.sv,mtps.gob.sv,central
+government_agency,National Civil Police of El Salvador,https://www.pnc.gob.sv/,pnc.gob.sv,
+government_agency,"National System for Civil Protection, Disaster Prevention and Mitigation",http://www.proteccioncivil.gob.sv/,proteccioncivil.gob.sv,
+ministry,Ministry of Foreign Affairs of El Salvador,http://www.rree.gob.sv/,rree.gob.sv,
+government_agency,Ministry of Foreign Affairs of El Salvador,http://www.rree.gob.sv/,rree.gob.sv,central
+government_agency,Ministry of Health,http://www.salud.gob.sv/,salud.gob.sv,central
+ministry,Ministry of Health,http://www.salud.gob.sv/,salud.gob.sv,
+government_agency,"Embassy of Germany, San Salvador",https://san-salvador.diplo.de/,san-salvador.diplo.de,central
+government_agency,"Embassy of Turkey, San Salvador",https://sansalvador-be.mfa.gov.tr,sansalvador-be.mfa.gov.tr,central
+government_agency,embassy of Brazil in El Salvador,http://saosalvador.itamaraty.gov.br,saosalvador.itamaraty.gov.br,central
+ministry,Ministry of Justice and Public Security,http://www.seguridad.gob.sv/,seguridad.gob.sv,
+government_agency,Ministry of Justice and Public Security,http://www.seguridad.gob.sv/,seguridad.gob.sv,central
+government_agency,General Superintendency of Electricity and Telecommunications,https://www.siget.gob.sv,siget.gob.sv,
+government_agency,"Embassy of France, San Salvador",https://sv.ambafrance.org,sv.ambafrance.org,central
+government_agency,"Embassy of the People's Republic of China, San Salvador",http://sv.china-embassy.gov.cn/,sv.china-embassy.gov.cn,central
+government_agency,"Embassy of Japan, San Salvador",https://www.sv.emb-japan.go.jp,sv.emb-japan.go.jp,central
+government_agency,Embassy of the United States in San Salvador,https://sv.usembassy.gov,sv.usembassy.gov,central
+government_agency,Tribunal Supremo Electoral de El Salvador,https://www.tse.gob.sv/,tse.gob.sv,central
+ministry,Ministry of Housing of El Salvador,http://www.vivienda.gob.sv/,vivienda.gob.sv,
+government_agency,Ministry of Housing of El Salvador,http://www.vivienda.gob.sv/,vivienda.gob.sv,central
+government_agency,Vice ministry of Housing and Urban Development,http://www.vivienda.gob.sv/,vivienda.gob.sv,
+government_agency,Vice Ministry of Transport,http://www.vmt.gob.sv,vmt.gob.sv,
+university,University of El Salvador,https://www.ues.edu.sv/,ues.edu.sv,university

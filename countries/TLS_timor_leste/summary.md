@@ -30,11 +30,17 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parlamento.tl` | wikidata;wikidata | National Parliament |
-| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| 4 | `anpm.tl` | wikidata | Q124094298 |
+| 4 | `bancocentral.tl` | wikidata | Banco Central de Timor-Leste |
+| 4 | `mineralstender.anpm.tl` | wikidata | Q124094424 |
+| 4 | `pntl.tl` | wikidata | National Police of East Timor |
+| 4 | `tl.usembassy.gov` | wikidata | Embassy of the United States, Dili |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Timor-Leste |
+| 1 | `holyrosaryprovince.org` | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
 

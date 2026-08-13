@@ -29,12 +29,32 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `kftrade.com.kp` | wikidata;wikidata | Ministry of Foreign Trade of North Korea |
+| 7 | `korart.sca.kp` | wikidata;wikidata | Ministry of Culture |
+| 6 | `kp.china-embassy.org` | wikidata;wikidata | Consulate-General of the People's Republic of China, Chongjin | Embassy of th... |
 | 5 | `korea-dpr.com` | un_desa | UN/DESA national portal |
-| 4 | `kftrade.com.kp` | wikidata | Ministry of Foreign Trade of North Korea |
-| 4 | `korart.sca.kp` | wikidata | Ministry of Culture |
+| 4 | `fia.law.kp` | wikidata | Financial Intelligence Agency |
+| 4 | `gnu.rep.kp` | wikidata | Korean Central Broadcasting Committee |
+| 4 | `gpsh.edu.kp` | wikidata | Grand People’s Study House |
+| 4 | `minzu.rep.kp` | wikidata | Cabinet of North Korea |
+| 3 | `chondjin.mid.ru` | wikidata | Consulate of Russia in North Korea |
+| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Pyongyang |
+| 3 | `misiones.cubaminrex.cu` | wikidata | embassy of Cuba in Pyongyang |
+| 3 | `mzv.cz` | wikidata | embassy of Czech republic in Pyongyang |
+| 3 | `pjoengjang.diplo.de` | wikidata | Embassy of Germany, Pyongyang |
+| 3 | `rusembdprk.ru` | wikidata | Embassy of Russia in North Korea |
+| 3 | `swedenabroad.se` | wikidata | embassy of Sweden in Pyongyang |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `ryomyong.edu.kp` | wikidata | Pyongyang Medical University |
 

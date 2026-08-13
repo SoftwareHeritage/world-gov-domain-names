@@ -30,18 +30,46 @@
 
 ## Candidate domains ranked by score
 
-9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+315 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 10 | `imy.se` | wikidata;wikidata;linkgraph | Swedish Authority for Privacy Protection |
+| 9 | `domstol.se` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Swedish National Courts Administration | Q97143444 | Q10501718 | Malmö Distri... |
+| 9 | `pts.se` | wikidata;linkgraph | Swedish Post and Telecom Agency |
+| 8 | `digg.se` | wikidata;linkgraph | Agency for Digital Government |
 | 7 | `1177.se` | linkgraph | Linked from 22 public-sector domains |
-| 7 | `sametinget.se` | wikidata;wikidata | Sami Parliament of Sweden |
-| 6 | `pts.se` | linkgraph | Linked from 14 public-sector domains |
-| 5 | `digg.se` | linkgraph | Linked from 6 public-sector domains |
-| 5 | `imy.se` | linkgraph | Linked from 7 public-sector domains |
-| 4 | `arbetsformedlingen.se` | linkgraph | Linked from 3 public-sector domains |
-| 4 | `kb.se` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `skolverket.se` | linkgraph | Linked from 4 public-sector domains |
-| 2 | `lansstyrelsen.se` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Östergötland County Administrative Board | Uppsala County Administrative Boar... |
+| 7 | `arbetsformedlingen.se` | wikidata;linkgraph | Swedish Public Employment Service |
+| 7 | `bolagsverket.se` | wikidata;wikidata | Patent Attorneys Board | Swedish Companies Registration Office |
+| 7 | `fi.se` | wikidata;wikidata | Financial Supervisory Authority |
+| 7 | `fmv.se` | wikidata;wikidata | Defence Materiel Administration |
+| 7 | `forte.se` | wikidata;wikidata | Swedish Research Council for Health Working Life and Welfare |
+| 7 | `irf.se` | wikidata;wikidata | Swedish Institute of Space Physics |
+| 7 | `isof.se` | wikidata;wikidata | Swedish Language Council | Swedish Institute for Language and Folklore |
+| 7 | `kau.se` | wikidata;wikidata | Karlstad University |
+| 7 | `kb.se` | wikidata;linkgraph | National Library of Sweden |
+| 7 | `kth.se` | wikidata;wikidata | Royal Institute of Technology |
+| 7 | `lnu.se` | wikidata;wikidata | Linnaeus University |
+| 7 | `lu.se` | wikidata;wikidata | Lund University |
+| 7 | `mcf.se` | wikidata;wikidata | Swedish Civil Defence and Resilience Agency |
+| 7 | `palestineembassy.se` | wikidata;wikidata | Embassy of Palestine, Stockholm |
+| 7 | `polar.se` | wikidata;wikidata | Swedish Polar Research Secretariat |
+
+## Local / regional candidates
+
+48 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `alingsastingsratt.domstol.se` | wikidata | Alingsås tingsrätt |
+| 4 | `angermanlandstingsratt.domstol.se` | wikidata | Ångermanland District Court |
+| 4 | `attundatingsratt.domstol.se` | wikidata | Attunda District Court |
+| 4 | `blekingetingsratt.domstol.se` | wikidata | Blekinge District Court |
+| 4 | `eksjotingsratt.domstol.se` | wikidata | Eksjö District Court |
+| 4 | `eskilstunatingsratt.domstol.se` | wikidata | Eskilstuna District Court |
+| 4 | `falutingsratt.domstol.se` | wikidata | Falun District Court |
+| 4 | `gallivaretingsratt.domstol.se` | wikidata | Q10512316 |
+| 4 | `gavletingsratt.domstol.se` | wikidata | Gävle District Court |
+| 4 | `goteborgstingsratt.domstol.se` | wikidata | Göteborgs tingsrätt |
 

@@ -30,12 +30,27 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 5 | `autoriteitpersoonsgegevens.nl` | linkgraph | Linked from 6 public-sector domains |
+| 4 | `atkm.nl` | wikidata | Q131629747 |
+| 4 | `bureauncdr.nl` | wikidata | Netherlands National Coordinator against Discrimination and Racism |
 | 4 | `cbs.nl` | linkgraph | Linked from 3 public-sector domains |
+| 4 | `kennispunttwente.nl` | wikidata | Kennispunt Twente |
 | 4 | `kvk.nl` | linkgraph | Linked from 4 public-sector domains |
+| 4 | `ncab.nl` | wikidata | Netherlands National Coordinator for Combating Antisemitism |
+| 3 | `eurogendfor.org` | wikidata | European Gendarmerie Force |
+| 3 | `kparuba.com` | wikidata | Aruba Police Force |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `dimasaruba.aw` | wikidata | DIMAS |
+| 3 | `courbeneluxhof.be` | wikidata | Benelux Court of Justice |
 

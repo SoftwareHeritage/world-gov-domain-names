@@ -1,39 +1,378 @@
 type,label,website,hostname,level
+government_agency,Academy of Sciences of Lisbon,https://acad-ciencias.pt,acad-ciencias.pt,
+government_agency,Academia de Marinha,http://academia.marinha.pt/,academia.marinha.pt,
+government_agency,Alto Comissariado para as Migrações,https://www.acm.gov.pt,acm.gov.pt,
+government_agency,Administracao Central do Sistema de Saude,http://www.acss.min-saude.pt/,acss.min-saude.pt,
+government_agency,Autoridade Antidopagem de Portugal,https://adop.pt,adop.pt,
+government_agency,Agência de Desenvolvimento Regional do Alentejo,https://www.adral.pt,adral.pt,
+government_agency,Portuguese Business Association,http://www.aeportugal.pt,aeportugal.pt,
+government_agency,Lajes Field,https://aerogarelajes.azores.gov.pt,aerogarelajes.azores.gov.pt,
+government_agency,Q92758918,https://www.ahbva.pt/,ahbva.pt,
+government_agency,"Agency for Integration, Migration and Asylum",https://aima.gov.pt/pt,aima.gov.pt,
+government_agency,Portuguese Industrial Association,http://www.aip.pt,aip.pt,
 parliament,Legislative Assembly of the Azores,http://www.alra.pt/,alra.pt,central-1
 parliament,Legislative Assembly of Madeira,https://www.alram.pt/pt/inicio/,alram.pt,central-1
+government_agency,Agência para a Modernização Administrativa,https://www.ama.gov.pt/,ama.gov.pt,
+government_agency,"Embassy of France, Lisbon",http://www.ambafrance-pt.org/,ambafrance-pt.org,central
+government_agency,"Embassy of Kosovo, Lisbon",https://ambasadat.net/Portugali/,ambasadat.net,central
+government_agency,Embassy of Italy in Portugal,https://amblisbona.esteri.it,amblisbona.esteri.it,central
+government_agency,Agência Municipal de Energia do Seixal,https://www.ameseixal.pt,ameseixal.pt,
+government_agency,Polícia Marítima,http://www.amn.pt/PM,amn.pt,
+government_agency,Autoridade Nacional de Comunicações,http://www.anacom.pt/,anacom.pt,
+government_agency,National Agency for Qualification and Professional Education,https://www.anqep.gov.pt,anqep.gov.pt,
+government_agency,National Agency for Qualification and Professional Education,http://www.anqep.gov.pt,anqep.gov.pt,
+government_agency,Torre do Tombo National Archive,http://antt.dglab.gov.pt/,antt.dglab.gov.pt,
+government_agency,Portuguese Environment Agency,http://www.apambiente.pt/,apambiente.pt,
+government_agency,Autoridade para a Prevenção e o Combate à Violência no Desporto,https://www.apcvd.gov.pt,apcvd.gov.pt,
+government_agency,Centro Nacional de Reprodução de Lince Ibérico,http://areasprotegidas.icnf.pt/lince/index.php/item/306-cnrli,areasprotegidas.icnf.pt,
+government_agency,Regional Health Administration of Alentejo,http://arsalentejo.min-saude.pt/,arsalentejo.min-saude.pt,
+government_agency,Regional Health Administration of Algarve,http://www.arsalgarve.min-saude.pt/,arsalgarve.min-saude.pt,
+government_agency,Regional Health Administration of Central Portugal,http://www.arscentro.min-saude.pt/,arscentro.min-saude.pt,
+government_agency,Regional Health Administration of Lisbon and Vale do Tejo,http://www.arslvt.min-saude.pt/,arslvt.min-saude.pt,
+government_agency,Regional Health Administration of Northern Portugal,http://www.arsnorte.min-saude.pt/,arsnorte.min-saude.pt,
+government_agency,Insurance and Pension Funds Supervisory Authority,http://www.asf.com.pt/NR/exeres/3DCB6032-0C4A-4F1E-95CA-1502D724C4C8.htm,asf.com.pt,
+government_agency,"Regional Secretariat for the Sea, Science and Technology",http://www.azores.gov.pt/Portal/pt/entidades/srmct/?lang=pt,azores.gov.pt,
+government_agency,Direção Regional dos Assuntos do Mar,https://www.azores.gov.pt/Gra/SRMCT-MAR,azores.gov.pt,
+government_agency,Direção Regional dos Recursos Florestais,https://www.azores.gov.pt/Portal/pt/entidades/sraf-drrf,azores.gov.pt,
+government_agency,embassy of Austria in Portugal,https://www.bmeia.gv.at/oeb-lissabon,bmeia.gv.at,central
+government_agency,National Library of Portugal,http://www.bnportugal.gov.pt/,bnportugal.gov.pt,
+government_agency,Banco de Portugal,https://www.bportugal.pt,bportugal.pt,
+government_agency,Associação Humanitária dos Bombeiros Voluntários de Guimarães,http://www.bv-guimaraes.org/site/,bv-guimaraes.org,
+government_agency,Q9661188,http://www.bvpacodearcos.pt,bvpacodearcos.pt,
+government_agency,Q92061606,https://www.bvseixal.pt/,bvseixal.pt,
+government_agency,Associação Humanitária dos Bombeiros Voluntários do Sul e Sueste,http://www.bvsulesueste.pt/,bvsulesueste.pt,
+government_agency,Q91779220,https://www.bvtaipas.com/site/,bvtaipas.com,
+government_agency,Q93903539,https://www.bvvizela.pt,bvvizela.pt,
+government_agency,embassy of Canada in Portugal,https://www.canadainternational.gc.ca/portugal/index.aspx,canadainternational.gc.ca,central
+government_agency,Comissão de Coordenação e Desenvolvimento Regional do Algarve,https://www.ccdr-alg.pt,ccdr-alg.pt,
+government_agency,Comissão de Coordenação e Desenvolvimento Regional do Centro,https://www.ccdrc.pt,ccdrc.pt,
+government_agency,German-Portuguese Chamber of Industry and Commerce,https://www.ccila-portugal.com/,ccila-portugal.com,
+government_agency,German-Portuguese Chamber of Industry and Commerce,https://www.ccila-portugal.com/pt/,ccila-portugal.com,
+government_agency,Conselho Científico-Pedagógico da Formação Contínua,https://www.ccpfc.uminho.pt,ccpfc.uminho.pt,
+government_agency,Centro de Estudos de História do Atlântico,https://ceha.madeira.gov.pt/,ceha.madeira.gov.pt,
+government_agency,Centro de Estudos de História do Atlântico,https://ceha.madeira.gov.pt,ceha.madeira.gov.pt,
+government_agency,Unidade Local de Saúde do Arco Ribeirinho,http://www.chbm.min-saude.pt/,chbm.min-saude.pt,
+government_agency,Unidade Local de Saúde da Região de Aveiro,http://www.chbv.min-saude.pt/,chbv.min-saude.pt,
+government_agency,Unidade Local de Saúde da Cova da Beira,https://www.chcbeira.min-saude.pt/,chcbeira.min-saude.pt,
+government_agency,Unidade Local de Saúde de Entre Douro e Vouga,https://www.chedv.min-saude.pt/,chedv.min-saude.pt,
+government_agency,embassy of Chile in Portugal,https://chile.gob.cl/portugal/,chile.gob.cl,central
+government_agency,Unidade Local de Saúde de São José,http://www.chlc.min-saude.pt/,chlc.min-saude.pt,
+government_agency,Unidade Local de Saúde da Região de Leiria,https://www.chleiria.pt/,chleiria.pt,
+government_agency,Unidade Local de Saúde de Santa Maria,http://www.chln.min-saude.pt/,chln.min-saude.pt,
+government_agency,Unidade Local de Saúde de Lisboa Ocidental,http://www.chlo.min-saude.pt/,chlo.min-saude.pt,
+government_agency,Unidade Local de Saúde do Médio Tejo,https://www.chmt.min-saude.pt/,chmt.min-saude.pt,
+government_agency,Unidade Local de Saúde do Oeste,https://www.choeste.min-saude.pt/,choeste.min-saude.pt,
+government_agency,Unidade Local de Saúde de Santo António,http://www.chporto.pt/,chporto.pt,
+government_agency,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,https://www.chpvvc.min-saude.pt/,chpvvc.min-saude.pt,
+government_agency,Unidade Local de Saúde de Póvoa de Varzim/Vila do Conde,https://www.chpvvc.min-saude.pt/,chpvvc.min-saude.pt,
+government_agency,Unidade Local de Saúde da Arrábida,http://www.chs.min-saude.pt,chs.min-saude.pt,
+government_agency,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,https://www.chtmad.min-saude.pt/,chtmad.min-saude.pt,
+government_agency,Centro Hospitalar do Tâmega e Sousa,https://www.chts.min-saude.pt/,chts.min-saude.pt,
+government_agency,Unidade Local de Saúde de Viseu Dão-Lafões,https://www.chtv.min-saude.pt/,chtv.min-saude.pt,
+government_agency,Unidade Local de Saúde do Algarve,https://www.chualgarve.min-saude.pt/,chualgarve.min-saude.pt,
+government_agency,Unidade Local de Saúde de Coimbra,https://www.chuc.min-saude.pt/,chuc.min-saude.pt,
+government_agency,Commission for Citizenship and Gender Equality,https://www.cig.gov.pt/,cig.gov.pt,
+government_agency,Comunidade Intermunicipal do Alto Tâmega e Barroso,https://cimat.pt,cimat.pt,
+government_agency,Comissão para a igualdade no Trabalho e no Emprego,https://www.cite.gov.pt,cite.gov.pt,
+government_agency,Q108499620,https://www.cm-barreiro.pt/,cm-barreiro.pt,
+government_agency,Braga City Council,https://www.cm-braga.pt,cm-braga.pt,
+government_agency,Câmara Municipal do Funchal,http://www.cm-funchal.pt/,cm-funchal.pt,local
+government_agency,Câmara Municipal do Fundão,https://www.cm-fundao.pt,cm-fundao.pt,
+government_agency,Q117475669,https://www.cm-guimaraes.pt/municipio/freguesias/uniao-das-freguesias-de-sande-vila-nova-e-sande-sao-clemente,cm-guimaraes.pt,local
 constitutional_court,Q117475669,https://www.cm-guimaraes.pt/municipio/freguesias/uniao-das-freguesias-de-sande-vila-nova-e-sande-sao-clemente,cm-guimaraes.pt,local
 constitutional_court,Q116830317,https://www.cm-guimaraes.pt/municipio/freguesias/uniao-das-freguesias-de-souto-sta-maria-souto-s-salvador-e-gondomar,cm-guimaraes.pt,local
+government_agency,Q116830317,https://www.cm-guimaraes.pt/municipio/freguesias/uniao-das-freguesias-de-souto-sta-maria-souto-s-salvador-e-gondomar,cm-guimaraes.pt,local
+government_agency,Lisbon City Council,http://www.cm-lisboa.pt/en,cm-lisboa.pt,local
+government_agency,Porto City Council,http://www.cm-porto.pt/,cm-porto.pt,local
+government_agency,Câmara Municipal de São João da Madeira,https://www.cm-sjm.pt,cm-sjm.pt,
+government_agency,Securities Market Commission,http://www.cmvm.pt/en,cmvm.pt,central
+government_agency,Securities Market Commission,http://www.cmvm.pt/,cmvm.pt,central
+government_agency,Conselho Nacional de Ética para as Ciências da Vida,https://www.cnecv.pt,cnecv.pt,
+government_agency,Comissão Nacional de Protecção de Dados,https://www.cnpd.pt,cnpd.pt,central
+government_agency,Q133265926,https://www.cnsf.com/,cnsf.com,
+government_agency,Autoridade de Gestão do Programa Operacional Competitividade e Internacionalização,https://www.compete2020.gov.pt,compete2020.gov.pt,
+government_agency,Centro Português de Fotografia,http://cpf.pt,cpf.pt,
+government_agency,Regional Directorate of Culture of the Alentejo,http://www.cultura-alentejo.pt/,cultura-alentejo.pt,
+government_agency,Cultura Madeira,https://cultura.madeira.gov.pt/,cultura.madeira.gov.pt,
+government_agency,Cultura Madeira,https://cultura.madeira.gov.pt/en,cultura.madeira.gov.pt,
+government_agency,Q65162421,https://culturanorte.gov.pt/,culturanorte.gov.pt,
+government_agency,Q108045689,http://www.dgadr.pt/,dgadr.pt,
+government_agency,Direção-Geral da Administração e do Emprego Público,https://www.dgaep.gov.pt,dgaep.gov.pt,
+government_agency,Republica Portuguesa Direção-Geral das Artes,https://www.dgartes.gov.pt,dgartes.gov.pt,
+government_agency,Direcção-Geral de Alimentação e Veterinária,https://www.dgav.pt,dgav.pt,
+government_agency,Q136310447,https://www.dgav.pt/,dgav.pt,
+government_agency,Direção-Geral de Estatísticas da Educação e Ciência,https://www.dgeec.medu.pt,dgeec.medu.pt,
+government_agency,Direção Geral de Energia e Geologia,https://www.dgeg.gov.pt,dgeg.gov.pt,
+government_agency,DGERT,https://www.dgert.gov.pt,dgert.gov.pt,
+government_agency,DGERT,https://www.dgert.gov.pt/dgert,dgert.gov.pt,
+government_agency,Q124167992,https://www.dges.gov.pt/,dges.gov.pt,
+government_agency,"Direção-Geral do Livro, dos Arquivos e das Bibliotecas",https://dglab.gov.pt/,dglab.gov.pt,
+government_agency,"Direção-Geral do Livro, dos Arquivos e das Bibliotecas",https://dglab.gov.pt,dglab.gov.pt,
+government_agency,Direção-Geral do Orçamento,http://www.dgo.pt/,dgo.pt,
+government_agency,Q108045682,http://www.dgotdu.pt/,dgotdu.pt,
+government_agency,General Directorate of Reinsertion and Prison Services (DGRSP) (PT),https://dgrsp.justica.gov.pt/,dgrsp.justica.gov.pt,
+government_agency,Directorate-General of Health,http://www.dgs.pt/,dgs.pt,
+government_agency,Direção Geral do Território,http://www.dgterritorio.pt/,dgterritorio.pt,
+government_agency,Portugal Direção-Geral do Tesouro e Finanças,https://www.dgtf.gov.pt,dgtf.gov.pt,
+government_agency,Agência DNA Cascais Cascais um concelho empreendedor,https://www.dnacascais.pt,dnacascais.pt,
+government_agency,Direção Regional de Agricultura e Pescas do Centro,https://www.drapc.gov.pt,drapc.gov.pt,
+government_agency,embassy of Switzerland in Portugal,https://www.eda.admin.ch/lisbon,eda.admin.ch,central
+government_agency,Açores Direção Regional da Educação,https://edu.azores.gov.pt,edu.azores.gov.pt,
+government_agency,Unidade Nacional de Gestão do Mecanismo Financeiro do Espaço Económico Europeu,https://www.eeagrants.gov.pt,eeagrants.gov.pt,
+government_agency,"Embassy of Algeria, Lisbon",https://www.emb-argelia.pt/,emb-argelia.pt,central
+government_agency,embassy of South Africa in Portugal,https://www.embaixada-africadosul.pt,embaixada-africadosul.pt,central
+government_agency,embassy of Angola in Portugal,http://www.embaixadadeangola.pt/,embaixadadeangola.pt,central
+government_agency,Embassy of Cape Verde in Portugal,https://embaixadadecaboverde.pt/,embaixadadecaboverde.pt,central
+government_agency,embassy of Panama in Portugal,http://www.embaixadadopanama.pt/,embaixadadopanama.pt,central
+government_agency,embassy of Paraguay in Portugal,http://embaixadadoparaguai.pt/,embaixadadoparaguai.pt,central
+government_agency,Embassy of Guinea-Bissau in Portugal,http://embaixadaguinebissau.pt/,embaixadaguinebissau.pt,central
+government_agency,embassy of Peru in Portugal,http://www.embaixadaperu.pt,embaixadaperu.pt,central
+government_agency,embassy of the Dominican Republic in Portugal,http://www.embajadadominicana.pt,embajadadominicana.pt,central
+government_agency,"Embassy of Mexico, Lisbon",https://embamex.sre.gob.mx/portugal/,embamex.sre.gob.mx,central
+government_agency,"embassy of Mozambique, Portugal",http://www.embamoc-lisboa.gov.mz/,embamoc-lisboa.gov.mz,central
+government_agency,embassy of Israel in Portugal,https://embassies.gov.il/lisboa,embassies.gov.il,central
+government_agency,Centro de Medicina Aeronáutica,https://www.emfa.pt/unidade-48-centro-de-medicina-aeronautica,emfa.pt,
+government_agency,European Maritime Safety Agency,http://emsa.europa.eu/,emsa.europa.eu,local
+government_agency,"ENSE - Entidade Nacional para o Setor Energético, E.P.E.",https://www.ense-epe.pt/,ense-epe.pt,
+government_agency,"Embassy of India, Lisbon",https://www.eoilisbon.gov.in/,eoilisbon.gov.in,central
+government_agency,embassy of Argentina in Portugal,https://eport.cancilleria.gob.ar/,eport.cancilleria.gob.ar,central
+government_agency,Entidade Reguladora da Saúde,https://www.ers.pt/pt/,ers.pt,
+government_agency,Portugal Water and Waste Services Regulation Authority,https://www.ersar.pt/,ersar.pt,
+government_agency,Energy Services Regulatory Authority,http://www.erse.pt/,erse.pt,
+government_agency,Government Shared Services Entity,https://www.espap.pt/en/Pages/Home.aspx,espap.pt,
+government_agency,European Union Drugs Agency,https://www.euda.europa.eu/,euda.europa.eu,local
+government_agency,Centro de Informação Europeia Jacques Delors,https://eurocid.mne.gov.pt,eurocid.mne.gov.pt,
+government_agency,European Gendarmerie Force,http://www.eurogendfor.org,eurogendfor.org,
+government_agency,Direção de Formação,https://www.exercito.pt/pt/quem-somos/organizacao/ceme/cmdpess/df,exercito.pt,
+government_agency,Direção de História e Cultura Militar,https://www.exercito.pt/pt/quem-somos/organizacao/ceme/vceme/dhcm,exercito.pt,
+government_agency,embassy of Spain in Portugal,http://www.exteriores.gob.es/Embajadas/LISBOA,exteriores.gob.es,central
+government_agency,Fundacao de Computacao Cientifica Nacional,https://www.fccn.pt,fccn.pt,
+government_agency,Fundação para a Ciência e Tecnologia,http://www.fct.pt/,fct.pt,
+government_agency,embassy of Finland in Portugal,https://finlandabroad.fi/web/prt,finlandabroad.fi,central
+government_agency,embassy of Malta in Portugal,https://foreignandeu.gov.mt/en/Embassies/Me_Lisbon,foreignandeu.gov.mt,central
+government_agency,embassy of Malta in Portugal,https://foreignandeu.gov.mt/mt/Embassies/Me_Lisbon,foreignandeu.gov.mt,central
+government_agency,Q113512771,http://freguesiaardegaoarnozelaseidoes.pt/,freguesiaardegaoarnozelaseidoes.pt,local
 constitutional_court,Q113512771,http://freguesiaardegaoarnozelaseidoes.pt/,freguesiaardegaoarnozelaseidoes.pt,local
+government_agency,Junta de Freguesia of Lamego (Almacave e Sé),https://www.freguesiadelamego.pt/,freguesiadelamego.pt,local
 constitutional_court,Junta de Freguesia of Lamego (Almacave e Sé),https://www.freguesiadelamego.pt/,freguesiadelamego.pt,local
+government_agency,Departamento de Ciência e de Recursos Naturais,https://www.funchal.pt/areas-intervencao/ciencia,funchal.pt,
+government_agency,Gabinete de Estratégia e Estudos,https://www.gee.gov.pt,gee.gov.pt,
+government_agency,Governo da República Portuguesa Gabinete de Estrategia e Planeamento,https://www.gep.mtsss.gov.pt,gep.mtsss.gov.pt,
+government_agency,National Republican Guard,http://www.gnr.pt/,gnr.pt,central
+government_agency,Direcção-Geral dos Assuntos Europeus,https://www.gov.pt/entidades/direcao-geral-dos-assuntos-europeus,gov.pt,
+government_agency,Direção Regional de Agricultura e Pescas de Lisboa e Vale do Tejo,https://www.gov.pt/entidades/direcao-regional-de-agricultura-e-pescas-de-lisboa-e-vale-do-tejo,gov.pt,
+government_agency,British Embassy Lisbon,https://www.gov.uk/world/organisations/british-embassy-lisbon,gov.uk,central
+government_agency,British Vice Consulate Portimão,https://www.gov.uk/world/organisations/british-vice-consulate-portimao,gov.uk,
+government_agency,Gabinete de Planeamento Estratégia Avaliação e Relações Internacionais,https://www.gpeari.gov.pt/web/pt,gpeari.gov.pt,
+government_agency,Q124789184,https://www.hdfigueira.min-saude.pt/,hdfigueira.min-saude.pt,
+government_agency,Unidade Local de Saúde do Alentejo Central,https://www.hevora.min-saude.pt/,hevora.min-saude.pt,
+government_agency,Unidade Local de Saúde de Amadora/Sintra,https://hff.min-saude.pt/,hff.min-saude.pt,
+government_agency,Unidade Local de Saúde de Almada-Seixal,https://www.hgo.min-saude.pt/,hgo.min-saude.pt,
+government_agency,Unidade Local de Saúde de Braga,https://www.hospitaldebraga.pt/,hospitaldebraga.pt,
+government_agency,Unidade Local de Saúde do Alto Ave,https://www.hospitaldeguimaraes.min-saude.pt/,hospitaldeguimaraes.min-saude.pt,
+government_agency,Unidade Local de Saúde do Estuário do Tejo,https://www.hospitalvilafrancadexira.pt/,hospitalvilafrancadexira.pt,
+government_agency,IAPMEI,https://www.iapmei.pt,iapmei.pt,
+government_agency,Institute for Nature Conservation and Forests,http://www.icnf.pt/portal,icnf.pt,
+government_agency,Institute for Nature Conservation and Forests,https://www.icnf.pt/,icnf.pt,
+government_agency,Institute of Employment and Professional Training,http://www.iefp.pt,iefp.pt,
+government_agency,Instituto das Florestas e Conservação da Natureza,http://ifcn.madeira.gov.pt,ifcn.madeira.gov.pt,
+government_agency,Instituto Financeiro para o Desenvolvimento Regional,http://www.ifdr.pt/paginainicial.aspx,ifdr.pt,
+government_agency,Inspeção-Geral das Atividades Culturais,https://www.igac.gov.pt/,igac.gov.pt,
+government_agency,Inspeção-Geral da Administração Interna,https://www.igai.pt,igai.pt,
+government_agency,Inspeção-Geral da Educação e Ciência,https://www.igec.mec.pt,igec.mec.pt,
+government_agency,Inspecção-Geral de Finanças,https://igf.gov.pt,igf.gov.pt,
+government_agency,Instituto de Gestão Financeira e Equipamentos da Justiça,https://igfej.justica.gov.pt/,igfej.justica.gov.pt,
+government_agency,Q1665246,http://www.imt-ip.pt/,imt-ip.pt,
+government_agency,Instituto Nacional de Administração,https://www.ina.pt,ina.pt,
+government_agency,Q108045686,http://www.inag.pt/,inag.pt,
+government_agency,National Institute of Statistics,https://www.ine.pt/,ine.pt,central
+government_agency,Centro de Informação Antivenenos,https://www.inem.pt/category/servicos/centro-de-informacao-antivenenos,inem.pt,
+government_agency,National Authority of Medicines and Health Products,https://www.infarmed.pt/,infarmed.pt,
+government_agency,National Authority of Medicines and Health Products,https://www.infarmed.pt/web/infarmed-en/,infarmed.pt,
+government_agency,Centro de Estudos Fiscais,https://info.portaldasfinancas.gov.pt/_layouts/15/portal/404.html?requestUrl=http://info.portaldasfinancas.gov.pt/pt/dgci/organica_dgciicosicos_centrais/news_cef.htm,info.portaldasfinancas.gov.pt,
+government_agency,Instituto Nacional de Medicina Legal,http://www.inml.mj.pt/,inml.mj.pt,
+government_agency,Portugal Inovação Social,https://inovacaosocial.portugal2020.pt,inovacaosocial.portugal2020.pt,
+government_agency,National Industrial Property Institute,http://www.inpi.pt,inpi.pt,
+government_agency,Instituto Nacional para a Reabilitação,https://www.inr.pt,inr.pt,
+government_agency,Q10302957,https://ipdj.gov.pt/,ipdj.gov.pt,
+government_agency,Portuguese Institute for Quality,http://www.ipq.pt/,ipq.pt,central
+government_agency,Instituto da Qualidade em Saúde,https://www.iqs.pt,iqs.pt,
+government_agency,embassy of Ireland in Portugal,https://www.ireland.ie/en/portugal/lisbon/,ireland.ie,central
+government_agency,Douro and Port Wine Institute,http://www.ivp.pt/,ivp.pt,
+government_agency,Instituto da Vinha e do Vinho IP,https://www.ivv.gov.pt,ivv.gov.pt,
+government_agency,Junta de Freguesia da Ajuda,https://www.jf-ajuda.pt/,jf-ajuda.pt,local
 constitutional_court,Junta de Freguesia da Ajuda,https://www.jf-ajuda.pt/,jf-ajuda.pt,local
+government_agency,Junta de Freguesia de Alcântara,https://www.jf-alcantara.pt/,jf-alcantara.pt,local
 constitutional_court,Junta de Freguesia de Alcântara,https://www.jf-alcantara.pt/,jf-alcantara.pt,local
 constitutional_court,Junta de Freguesia de Alvalade,https://www.jf-alvalade.pt/,jf-alvalade.pt,local
+government_agency,Junta de Freguesia de Alvalade,https://www.jf-alvalade.pt/,jf-alvalade.pt,local
+government_agency,Junta de Freguesia das Avenidas Novas,https://www.jf-avenidasnovas.pt/,jf-avenidasnovas.pt,local
 constitutional_court,Junta de Freguesia das Avenidas Novas,https://www.jf-avenidasnovas.pt/,jf-avenidasnovas.pt,local
+government_agency,Junta de Freguesia of Beato,https://jf-beato.pt/,jf-beato.pt,local
 constitutional_court,Junta de Freguesia of Beato,https://jf-beato.pt/,jf-beato.pt,local
 constitutional_court,Junta de Freguesia de Estrela,https://www.jf-estrela.pt/,jf-estrela.pt,local
+government_agency,Junta de Freguesia de Estrela,https://www.jf-estrela.pt/,jf-estrela.pt,local
+government_agency,Junta de Freguesia do Parque das Nações,http://jf-parquedasnacoes.pt/,jf-parquedasnacoes.pt,local
 constitutional_court,Junta de Freguesia do Parque das Nações,http://jf-parquedasnacoes.pt/,jf-parquedasnacoes.pt,local
+government_agency,Junta de Freguesia de São Domingos de Benfica,https://jf-sdomingosbenfica.pt,jf-sdomingosbenfica.pt,
+government_agency,Embaixada da República da Indonésia,https://www.kemlu.go.id/lisbon/,kemlu.go.id,
+government_agency,"embassy of Indonesia, Lisbon",https://kemlu.go.id/lisbon,kemlu.go.id,central
+government_agency,65th Force Support Squadron,https://www.lajesfss.com,lajesfss.com,
+government_agency,Lajes Airman and Family Readiness Center,https://www.lajesfss.com,lajesfss.com,
+government_agency,"Embassy of Romania, Lisbon",http://lisabona.mae.ro/,lisabona.mae.ro,central
+government_agency,"Embassy of Brazil, Lisbon",http://lisboa.itamaraty.gov.br/,lisboa.itamaraty.gov.br,central
+government_agency,Lisbon City Council,https://www.lisboa.pt/municipio/camara-municipal/executivo,lisboa.pt,local
+government_agency,embassy of Qatar in Portugal,https://lisbon.embassy.qa,lisbon.embassy.qa,central
+government_agency,European Parliament Liaison Office in Portugal,https://lisbon.europarl.europa.eu,lisbon.europarl.europa.eu,central
+government_agency,embassy of Estonia in Lisbon,https://lisbon.mfa.ee,lisbon.mfa.ee,central
+government_agency,embassy of Serbia in Portugal,http://www.lisbon.mfa.gov.rs,lisbon.mfa.gov.rs,central
+government_agency,embassy of Iran in Portugal,https://lisbon.mfa.ir,lisbon.mfa.ir,central
+government_agency,embassy of Thailand in Portugal,https://lisbon.thaiembassy.org/,lisbon.thaiembassy.org,central
+government_agency,embassy of Luxembourg in Portugal,https://lisbonne.mae.lu/,lisbonne.mae.lu,central
+government_agency,Embassy of the Philippines in Portugal,https://lisbonpe.dfa.gov.ph/,lisbonpe.dfa.gov.ph,central
+government_agency,"Embassy of Germany, Lisbon",https://lissabon.diplo.de/,lissabon.diplo.de,central
+government_agency,"Hungarian embassy, Lisbon",https://lisszabon.mfa.gov.hu/,lisszabon.mfa.gov.hu,central
+government_agency,Embassy of Turkey in Lisbon,https://lizbon-be.mfa.gov.tr,lizbon-be.mfa.gov.tr,central
+government_agency,"Embassy of Poland, Lisbon",http://lizbona.msz.gov.pl/pl/,lizbona.msz.gov.pl,central
+government_agency,National Laboratory for Energy and Geology,http://www.lneg.pt/,lneg.pt,
+government_agency,Laboratório Regional de Engenharia Civil,https://www.lrec.pt,lrec.pt,
+government_agency,Q25442442,https://www.madeira.gov.pt/sraa,madeira.gov.pt,
+government_agency,Secretaria Regional de Agricultura e Pescas Direção Regional de Agricultura,https://www.madeira.gov.pt/dradr/,madeira.gov.pt,
+government_agency,Regional Health Secretariat (Madeira),https://www.madeira.gov.pt/srs/,madeira.gov.pt,
+government_agency,Secretaria Regional do Turismo e Cultura,https://www.madeira.gov.pt/srtc,madeira.gov.pt,
+government_agency,Centro de Maricultura da Calheta,https://marmadeira.madeira.gov.pt/centro-de-maricultura-da-calheta,marmadeira.madeira.gov.pt,
+government_agency,Estrutura de Missão para os Assuntos do Mar,http://www.maroceano.pt/emam,maroceano.pt,
+government_agency,embassy of Bulgaria in Portugal,https://www.mfa.bg/embassies/portugal,mfa.bg,central
+government_agency,embassy of Greece in Portugal,https://www.mfa.gr/missionsabroad/portugal.html,mfa.gr,central
+government_agency,"Ministry of Agriculture, Rural Development and Fisheries",http://www.min-agricultura.pt/,min-agricultura.pt,central
+government_agency,"Ministry of Agriculture, Rural Development and Fisheries",https://www.min-agricultura.pt/,min-agricultura.pt,central
 ministry,"Ministry of Agriculture, Rural Development and Fisheries",https://www.min-agricultura.pt/,min-agricultura.pt,
 ministry,"Ministry of Agriculture, Rural Development and Fisheries",http://www.min-agricultura.pt/,min-agricultura.pt,
 ministry,Ministry of Education of Portugal,http://www.min-edu.pt,min-edu.pt,
 ministry,Ministry of Education of Portugal,https://www.min-edu.pt,min-edu.pt,
+government_agency,Ministry of Education of Portugal,https://www.min-edu.pt,min-edu.pt,central
+government_agency,Ministry of Education of Portugal,http://www.min-edu.pt,min-edu.pt,central
+government_agency,Ministry of Finance of Portugal,http://www.min-financas.pt/,min-financas.pt,central
 ministry,Ministry of Finance of Portugal,https://www.min-financas.pt/,min-financas.pt,
 ministry,Ministry of Finance of Portugal,http://www.min-financas.pt/,min-financas.pt,
+government_agency,Ministry of Finance of Portugal,https://www.min-financas.pt/,min-financas.pt,central
+government_agency,"Embassy of the United Arab Emirates, Lisbon",https://www.mofa.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=a46be18c-e0d5-486f-a9e7-a6148e3a45fa,mofa.gov.ae,central
+government_agency,embassy of Pakistan in Portugal,http://mofa.gov.pk/lisbon-portugal/,mofa.gov.pk,central
 ministry,"Ministry of Public Works, Transport and Communications",http://www.moptc.pt,moptc.pt,
+government_agency,"Ministry of Public Works, Transport and Communications",http://www.moptc.pt,moptc.pt,central
+government_agency,Municipal Assembly of Setúbal,https://www.mun-setubal.pt/assembleia-municipal/,mun-setubal.pt,local
+government_agency,embassy of the Czech Republic in Portugal,https://www.mzv.cz/lisbon,mzv.cz,central
+government_agency,embassy of Slovakia in Portugal,https://www.mzv.sk/web/lisabon,mzv.sk,central
+government_agency,NAV Portugal,https://www.nav.pt/,nav.pt,central
+government_agency,embassy of Nigeria in Portugal,http://www.nigeriaemblisbon.org/,nigeriaemblisbon.org,central
+government_agency,"Embassy of Norway, Lisbon",https://www.norway.no/pt/portugal,norway.no,central
+government_agency,Oeiras City Council,https://www.oeiras.pt,oeiras.pt,local
+government_agency,embassy of South Korea in Portugal,http://overseas.mofa.go.kr/pt-pt/,overseas.mofa.go.kr,central
+government_agency,embassy of South Korea in Portugal,http://overseas.mofa.go.kr/pt-ko,overseas.mofa.go.kr,central
 supreme_court,Assembly of the Republic,https://www.parlamento.pt/,parlamento.pt,central
 parliament,Assembly of the Republic,https://www.parlamento.pt/,parlamento.pt,central
+government_agency,Republica Portuguesa Direção-Geral do Património Cultural,https://www.patrimoniocultural.gov.pt,patrimoniocultural.gov.pt,
+government_agency,"Património Cultural, I.P.",http://www.patrimoniocultural.gov.pt,patrimoniocultural.gov.pt,
+government_agency,"Património Cultural, I.P.",http://www.patrimoniocultural.gov.pt/en,patrimoniocultural.gov.pt,
+government_agency,Q108045660,http://www.pnm.pt/,pnm.pt,
+government_agency,Laboratório de Polícia Científica,https://www.policiajudiciaria.pt/lpc,policiajudiciaria.pt,
+government_agency,Polícia Judiciária,http://www.policiajudiciaria.pt/,policiajudiciaria.pt,
+government_agency,Portuguese Province of the Society of Jesus,https://pontosj.pt/jesuitas/,pontosj.pt,
 constitutional_court,Portuguese Province of the Society of Jesus,https://pontosj.pt/jesuitas/,pontosj.pt,
+government_agency,Unidade Local de Saúde de São João,https://portal-chsj.min-saude.pt/,portal-chsj.min-saude.pt,
+government_agency,Q9638998,https://portal.act.gov.pt,portal.act.gov.pt,
+government_agency,Açores Direção Regional da Saúde,https://portal.azores.gov.pt/web/drs,portal.azores.gov.pt,
+government_agency,Secretaria Regional da Saúde e Segurança Social,https://portal.azores.gov.pt/web/srsss,portal.azores.gov.pt,
+government_agency,Q108045669,http://portal.sram.azores.gov.pt/default.asp?cat=28,portal.sram.azores.gov.pt,
+government_agency,Q98510678,http://www.portalautarquico.dgal.gov.pt/,portalautarquico.dgal.gov.pt,
+government_agency,Tax and Customs Authority (Portugal),https://www.portaldasfinancas.gov.pt/at/html/index.html,portaldasfinancas.gov.pt,central
 ministry,Ministry of Foreign Affairs of Portugal,https://portaldiplomatico.mne.gov.pt/,portaldiplomatico.mne.gov.pt,
+government_agency,Ministry of Foreign Affairs of Portugal,https://portaldiplomatico.mne.gov.pt/,portaldiplomatico.mne.gov.pt,central
+government_agency,GRICES,https://portalnacional.com.pt/entidade/gabinete-de-relacoes-internacionais-da-ciencia-e-do-ensino-superior-282662/,portalnacional.com.pt,
+government_agency,"Embassy of Belgium, Lisbon",http://portugal.diplomatie.belgium.be,portugal.diplomatie.belgium.be,central
+government_agency,embassy of Ivory Coast in Portugal,http://www.portugal.diplomatie.gouv.ci/,portugal.diplomatie.gouv.ci,central
+government_agency,Embassy of Colombia in Portugal,http://portugal.embajada.gov.co/,portugal.embajada.gov.co,central
+government_agency,"Embassy of Australia, Lisbon",https://portugal.embassy.gov.au/,portugal.embassy.gov.au,central
+government_agency,Ministra Adjunta e dos Assuntos Parlamentares,https://www.portugal.gov.pt/pt/gc23/area-de-governo/ministra-adjunta-e-dos-assuntos-parlamentares,portugal.gov.pt,
+government_agency,"Ministry of Labour, Solidarity and Social Protection of Portugal",https://www.portugal.gov.pt/pt/gc21/area-de-governo/trabalho-solidariedade-e-seguranca-social,portugal.gov.pt,central
 ministry,Ministry of Culture of Portugal,http://www.portugal.gov.pt/pt/ministerios/mc.aspx,portugal.gov.pt,
+government_agency,XXV Constitutional Government of Portugal,https://www.portugal.gov.pt/pt/gc25,portugal.gov.pt,central
+government_agency,Ministry of the Sea of Portugal,https://www.portugal.gov.pt/pt/gc21/area-de-governo/mar,portugal.gov.pt,central
 ministry,Ministry of the Internal Administration,https://www.portugal.gov.pt/en/gc21/ministries/internal-administration,portugal.gov.pt,
 ministry,Ministry of Justice,https://www.portugal.gov.pt/pt/ministerios/mj.aspx,portugal.gov.pt,
 constitutional_court,Government of Portugal,http://www.portugal.gov.pt/en.aspx,portugal.gov.pt,central
+government_agency,Ministry of Justice,http://www.portugal.gov.pt/pt/ministerios/mj.aspx,portugal.gov.pt,central
 ministry,Ministry of Justice,http://www.portugal.gov.pt/pt/ministerios/mj.aspx,portugal.gov.pt,
+government_agency,Ministry of Justice,https://www.portugal.gov.pt/pt/ministerios/mj.aspx,portugal.gov.pt,central
 ministry,Ministry of the Sea of Portugal,https://www.portugal.gov.pt/pt/gc21/area-de-governo/mar,portugal.gov.pt,
 ministry,Ministry of Culture of Portugal,https://www.portugal.gov.pt/pt/ministerios/mc.aspx,portugal.gov.pt,
 ministry,"Ministry of Labour, Solidarity and Social Protection of Portugal",https://www.portugal.gov.pt/pt/gc21/area-de-governo/trabalho-solidariedade-e-seguranca-social,portugal.gov.pt,
+government_agency,Ministry of Culture of Portugal,http://www.portugal.gov.pt/pt/ministerios/mc.aspx,portugal.gov.pt,central
 constitutional_court,XXV Constitutional Government of Portugal,https://www.portugal.gov.pt/pt/gc25,portugal.gov.pt,central
+government_agency,Government of Portugal,http://www.portugal.gov.pt/en.aspx,portugal.gov.pt,central
+government_agency,Ministry of the Internal Administration,https://www.portugal.gov.pt/en/gc21/ministries/internal-administration,portugal.gov.pt,central
+government_agency,Ministry of Culture of Portugal,https://www.portugal.gov.pt/pt/ministerios/mc.aspx,portugal.gov.pt,central
+government_agency,embassy of Georgia in Portugal,http://portugal.mfa.gov.ge,portugal.mfa.gov.ge,central
+government_agency,"Embassy of Ukraine, Lisbon",http://portugal.mfa.gov.ua/,portugal.mfa.gov.ua,central
+government_agency,"Embassy of Russia, Lisbon",https://portugal.mid.ru,portugal.mid.ru,central
+government_agency,European Commission Representation in Portugal,https://portugal.representation.ec.europa.eu/,portugal.representation.ec.europa.eu,
+government_agency,embassy of Denmark in Portugal,https://portugal.um.dk/,portugal.um.dk,central
+government_agency,Agência para o Investimento e Comércio Externo de Portugal EPE,https://www.portugalglobal.pt,portugalglobal.pt,
+government_agency,embassy of Moldova in Portugal,https://portugalia.mfa.gov.md,portugalia.mfa.gov.md,central
+government_agency,Serviço Regional de Proteção Civil e Bombeiros dos Açores,https://www.prociv.azores.gov.pt,prociv.azores.gov.pt,
+government_agency,Corpo de Intervenção,http://www.psp.pt/,psp.pt,
+government_agency,Polícia de Segurança Pública,http://www.psp.pt/,psp.pt,
+government_agency,"Embassy of the People's Republic of China, Lisbon",http://pt.china-embassy.org/,pt.china-embassy.org,central
+government_agency,"Embassy of Japan, Lisbon",https://www.pt.emb-japan.go.jp,pt.emb-japan.go.jp,central
+government_agency,embassy of Croatia in Portugal,http://pt.mvep.hr/,pt.mvep.hr,central
+government_agency,"Embassy of the United States, Lisbon",https://pt.usembassy.gov,pt.usembassy.gov,central
+government_agency,"Consulate of the United States, Ponta Delgada",https://pt.usembassy.gov/u-s-consulate-ponta-delgada/,pt.usembassy.gov,
+government_agency,Agência Espacial Portuguesa,https://ptspace.pt,ptspace.pt,
+government_agency,Republica Portuguesa Secretaria-Geral da Educação e Ciência,https://www.sec-geral.mec.pt,sec-geral.mec.pt,
+government_agency,Social security in Portugal,https://www.seg-social.pt,seg-social.pt,
+government_agency,Serviço de Saúde da Região Autónoma da Madeira,https://www.sesaram.pt,sesaram.pt,
+government_agency,Serviço de Informações Estratégicas de Defesa,https://www.sied.pt/,sied.pt,
+government_agency,Sistema de Informações da República Portuguesa,http://www.sirp.pt,sirp.pt,
+government_agency,Serviço de Informações de Segurança,http://www.sis.pt,sis.pt,
+government_agency,Ministry of Health of Portugal,https://www.sns.gov.pt/institucional/ministerio-da-saude/,sns.gov.pt,central
 ministry,Ministry of Health of Portugal,https://www.sns.gov.pt/institucional/ministerio-da-saude/,sns.gov.pt,
+government_agency,Serviços Partilhados do Ministério da Saúde,http://spms.min-saude.pt/a-spms/,spms.min-saude.pt,
+government_agency,Regional Secretariat for Environment and Natural Resources,http://sra.madeira.gov.pt/,sra.madeira.gov.pt,
+government_agency,Portuguese Supreme Administrative Court,http://www.stadministrativo.pt,stadministrativo.pt,
+government_agency,Portuguese Supreme Court of Justice,https://www.stj.pt/,stj.pt,central
+government_agency,"Embassy of Sweden, Lisbon",http://www.swedenabroad.com/portugal,swedenabroad.com,central
+government_agency,Portuguese Court of Audits,https://www.tcontas.pt/,tcontas.pt,
+government_agency,Portuguese Constitutional Court,http://www.tribunalconstitucional.pt/tc/en/home.html,tribunalconstitucional.pt,
+government_agency,Turismo de Portugal,http://www.turismodeportugal.pt/,turismodeportugal.pt,
+government_agency,Q116293210,https://uf-airao-vermil.pt/,uf-airao-vermil.pt,local
 constitutional_court,Q116293210,https://uf-airao-vermil.pt/,uf-airao-vermil.pt,local
 constitutional_court,Q116980868,https://www.uf-leitoesoleirosefigueiredo.pt/,uf-leitoesoleirosefigueiredo.pt,local
+government_agency,Q116980868,https://www.uf-leitoesoleirosefigueiredo.pt/,uf-leitoesoleirosefigueiredo.pt,local
 constitutional_court,Q115102399,http://ufcidadeguimaraes.com/,ufcidadeguimaraes.com,local
+government_agency,Q115102399,http://ufcidadeguimaraes.com/,ufcidadeguimaraes.com,local
+government_agency,Q115102293,http://ufcidadeguimaraes.com/,ufcidadeguimaraes.com,local
 constitutional_court,Q115102293,http://ufcidadeguimaraes.com/,ufcidadeguimaraes.com,local
+government_agency,Unidade Local de Saúde do Alto Minho,https://www.ulsam.min-saude.pt/,ulsam.min-saude.pt,
+government_agency,Unidade Local de Saúde do Baixo Alentejo,http://www.ulsba.min-saude.pt/,ulsba.min-saude.pt,
+government_agency,Unidade Local de Saúde de Castelo Branco,https://www.ulscb.min-saude.pt/,ulscb.min-saude.pt,
+government_agency,Unidade Local de Saúde de Gaia e Espinho,https://www.ulsge.min-saude.pt/,ulsge.min-saude.pt,
+government_agency,Unidade Local de Saúde da Guarda,https://www.ulsguarda.min-saude.pt/,ulsguarda.min-saude.pt,
+government_agency,Unidade Local de Saúde do Litoral Alentejano,https://www.ulsla.min-saude.pt/,ulsla.min-saude.pt,
+government_agency,Unidade Local de Saúde de Matosinhos,https://www.ulsm.min-saude.pt/,ulsm.min-saude.pt,
+government_agency,Unidade Local de Saúde do Alto Alentejo,http://www.ulsna.min-saude.pt/,ulsna.min-saude.pt,
+government_agency,Unidade Local de Saúde do Nordeste,https://www.ulsne.min-saude.pt/,ulsne.min-saude.pt,
+government_agency,Portuguese National Commission for UNESCO,https://unescoportugal.mne.gov.pt/,unescoportugal.mne.gov.pt,
+government_agency,Turismo de Lisboa,https://www.visitlisboa.com/,visitlisboa.com,
+government_agency,"Taipei Economic and Cultural Center, Lisbon",http://web.roc-taiwan.org/pt_pt/index.html,web.roc-taiwan.org,
+university,University of the Azores,http://www.uac.pt,uac.pt,university
+university,University of Porto,http://www.up.pt,up.pt,university
+university,University of Lisbon,https://www.ulisboa.pt/,ulisboa.pt,university
+university,Coimbra Academic Association,http://www.academica.pt,academica.pt,university
+university,University of Aveiro,http://www.ua.pt,ua.pt,university
+university,University of Minho,https://www.uminho.pt/EN,uminho.pt,university
+university,University of Minho,https://www.uminho.pt/PT,uminho.pt,university
+university,University of Algarve,http://www.ualg.pt/,ualg.pt,university
+university,University of Coimbra,https://www.uc.pt/,uc.pt,university
+university,University of Évora,https://www.uevora.pt/,uevora.pt,university
+university,Instituto Superior de Ciências Policiais e Segurança Interna,http://www.iscpsi.pt/,iscpsi.pt,university
+university,Universidade Aberta de Portugal,https://www.uab.pt,uab.pt,university

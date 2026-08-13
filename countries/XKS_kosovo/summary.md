@@ -18,32 +18,39 @@
 
 ## Candidate domains ranked by score
 
-15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+82 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `gjk-ks.org` | wikidata;wikidata | Constitutional Court of Kosovo | Commercial Court of Kosovo |
+| 6 | `antitrafikimi.rks-gov.net` | wikidata;wikidata | Prosecutorial Council of Kosovo | Basic Prosecution Office in Gjakova |
+| 6 | `ih-rks.org` | wikidata;wikidata | Institute of the History of Kosovo |
+| 6 | `kosovopolice.com` | wikidata;wikidata | Kosovo Police | Bomb Squad (IED/EOD) Kosovo |
+| 6 | `kryeministri.rks-gov.net` | wikidata;wikidata | Government of Kosovo |
 | 6 | `kuvendikosoves.org` | wikidata;wikidata | Assembly of the Republic of Kosovo |
-| 6 | `mfpt.rks-gov.net` | wikidata;wikidata | Ministry of Finance (Kosovo) | Ministry of Economy and Finance of Kosovo |
-| 3 | `masht.rks-gov.net` | wikidata | Ministry of Education, Science and Technology |
-| 3 | `md.rks-gov.net` | wikidata | Ministry of Justice |
-| 3 | `me.rks-gov.net` | wikidata | Ministry of Economy |
-| 3 | `mfa-ks.net` | wikidata | Ministry of Foreign Affairs and Diaspora of the Republic of Kosovo |
-| 3 | `mint.rks-gov.net` | wikidata | Ministry of Industry, Entrepreneurship, and Trade of Kosovo |
-| 3 | `mkrs-ks.org` | wikidata | Ministry of Culture, Youth and Sport of Kosovo |
-| 3 | `mmphi.rks-gov.net` | wikidata | Ministry of Environment and Spatial Planning and Infrastructure of Kosovo |
-| 3 | `mod.rks-gov.net` | wikidata | Ministry of Defence of Kosovo |
-| 3 | `mpb.rks-gov.net` | wikidata | Ministry of Internal Affairs of Kosovo |
-| 3 | `mpms.rks-gov.net` | wikidata | Ministry of Labour and Social Welfare of Kosovo |
-| 3 | `msh.rks-gov.net` | wikidata | Ministry of Health of Kosovo |
-| 3 | `president-ksgov.net` | wikidata | Presidency of the Republic of Kosovo |
-| 3 | `rks-gov.net` | wikidata | Government of Kosovo |
+| 6 | `masht.rks-gov.net` | wikidata;wikidata | Ministry of Education, Science and Technology |
+| 6 | `md.rks-gov.net` | wikidata;wikidata | Ministry of Justice |
+| 6 | `me.rks-gov.net` | wikidata;wikidata | Ministry of Economy |
+| 6 | `mfa-ks.net` | wikidata;wikidata | Ministry of Foreign Affairs and Diaspora of the Republic of Kosovo |
+| 6 | `mint.rks-gov.net` | wikidata;wikidata | Ministry of Industry, Entrepreneurship, and Trade of Kosovo |
+| 6 | `mkrs-ks.org` | wikidata;wikidata | Ministry of Culture, Youth and Sport of Kosovo |
+| 6 | `mmphi.rks-gov.net` | wikidata;wikidata | Ministry of Environment and Spatial Planning and Infrastructure of Kosovo |
+| 6 | `mod.rks-gov.net` | wikidata;wikidata | Ministry of Defence of Kosovo |
+| 6 | `mpb.rks-gov.net` | wikidata;wikidata | Ministry of Internal Affairs of Kosovo |
+| 6 | `mpms.rks-gov.net` | wikidata;wikidata | Ministry of Labour and Social Welfare of Kosovo |
+| 6 | `msh.rks-gov.net` | wikidata;wikidata | Ministry of Health of Kosovo |
+| 6 | `president-ksgov.net` | wikidata;wikidata;wikidata | Presidency of the Republic of Kosovo | National Council for European Integration |
+| 5 | `supreme.gjyqesori-rks.org` | wikidata | Supreme court of Kosovo |
+| 4 | `kia.gov` | wikidata | Kosovo Intelligence Agency |
 
 ## Local / regional candidates
 
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `mzr.rks-gov.net` | wikidata | Ministry of Regional Development of Kosovo |
+| 3 | `unhz.eu` | wikidata | University “Haxhi Zeka” |
+| 3 | `uni-pr.edu` | wikidata | University of Pristina |
+| 3 | `ushaf.net` | wikidata | University of Applied Sciences in Ferizaj |
 

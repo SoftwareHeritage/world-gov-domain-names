@@ -30,28 +30,46 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+472 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `council.gangwon.kr` | wikidata;wikidata | Gangwon State Council |
-| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
-| 4 | `provin.gangwon.kr` | wikidata | Gangwon State Office |
-| 4 | `youthassembly.or.kr` | wikidata | National Youth Assembly of Korea |
+| 7 | `cbnuh.or.kr` | wikidata;wikidata | Chungbuk National University Hospital |
+| 7 | `cnuh.co.kr` | wikidata;wikidata | Chungnam National University Hospital |
+| 7 | `cuh.co.kr` | wikidata;wikidata | Jeonbuk National University Hospital |
+| 7 | `ex.co.kr` | wikidata;wikidata | Korea Expressway Corporation |
+| 7 | `fira.or.kr` | wikidata;wikidata | Korea Fisheries Resources Agency |
+| 7 | `foodinfo.or.kr` | wikidata;wikidata | National Food Safety Information Service |
+| 7 | `gnuh.co.kr` | wikidata;wikidata | Gyeongsang National University Hospital |
+| 7 | `grac.or.kr` | wikidata;wikidata | Game Rating and Administration Committee |
+| 7 | `hira.or.kr` | wikidata;wikidata | Health Insurance Review and Assessment Service |
+| 7 | `home.kepco.co.kr` | wikidata;wikidata | Korea Electric Power Corporation |
+| 7 | `i815.or.kr` | wikidata;wikidata | Independence Hall of Korea |
+| 7 | `ibs.re.kr` | wikidata;wikidata | Institute for Basic Science |
+| 7 | `icpa.or.kr` | wikidata;wikidata | Incheon Port Authority |
+| 7 | `iitp.kr` | wikidata;wikidata | Institute for Information and Communications Technology Planning and Evaluation |
+| 7 | `jcs.mil.kr` | wikidata;wikidata | Joint Chiefs of Staff |
+| 7 | `jejunuh.co.kr` | wikidata;wikidata | Jeju National University Hospital |
+| 7 | `kaia.re.kr` | wikidata;wikidata | Korea Agency for Infrastructure Technology Advancement |
+| 7 | `kanc.re.kr` | wikidata;wikidata | Korea Advanced Nano Fab Center |
+| 7 | `kari.re.kr` | wikidata;wikidata | Korea Aerospace Research Institute |
+| 7 | `katon.or.kr` | wikidata;wikidata | Korea Navigation Beacon Technology Institute |
 
 ## Local / regional candidates
 
-8 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+61 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 11 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `council.chungbuk.kr` | wikidata;wikidata | North Chungcheong Province municipal council |
-| 7 | `council.ulsan.kr` | wikidata;wikidata | Ulsan Metropolitan Council |
+| 7 | `council.gangwon.kr` | wikidata;wikidata | Gangwon State Council |
+| 7 | `council.jeju.kr` | wikidata;wikidata | Jeju municipal council |
+| 7 | `council.ulsan.kr` | wikidata;wikidata;wikidata | Ulsan Metropolitan Council |
 | 7 | `gncl.or.kr` | wikidata;wikidata | South Gyeongsang Province municipal council |
 | 7 | `jbstatecouncil.jeonbuk.kr` | wikidata;wikidata | North Jeolla Province municipal council |
-| 7 | `smc.seoul.kr` | wikidata;wikidata;wikidata;wikidata | Seoul municipal council |
+| 7 | `provin.gangwon.kr` | wikidata;wikidata | Gangwon State Office |
+| 7 | `smc.seoul.kr` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Seoul municipal council |
 | 6 | `council.chungnam.net` | wikidata;wikidata | South Chungcheong Province municipal council |
-| 7 | `council.gwangju.kr` | wikidata;wikidata | Gwangju municipal council |
-| 7 | `council.jeju.kr` | wikidata;wikidata | Jeju municipal council |
+| 4 | `sobang.kr` | wikidata | Jeollabuk-do Fire Department |
 

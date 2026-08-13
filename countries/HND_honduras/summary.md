@@ -6,7 +6,7 @@
 - Region: Americas / Central America
 - Languages: Spanish
 - Population: 9892632
-- GDP per capita: 3426 US$ (2024)
+- GDP per capita: 3598 US$ (2025)
 - Currencies: HNL
 - ccTLD: `.hn` (manager: Red de Desarrollo Sostenible Honduras)
 - OECD: non-member
@@ -30,11 +30,24 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `congresonacional.hn` | wikidata;wikidata | National Congress of Honduras |
-| 3 | `jesuitascam.org` | wikidata | Jesuit Province of Central America |
+| 6 | `jesuitascam.org` | wikidata;wikidata | Jesuit Province of Central America |
+| 6 | `taiwanembassy.org` | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Tegucigalpa |
+| 4 | `bch.hn` | wikidata | Central Bank of Honduras |
+| 4 | `cne.hn` | wikidata | National Electoral Council of Honduras |
+| 4 | `hn.usembassy.gov` | wikidata | Embassy of the United States of America in Tegucigalpa |
+| 4 | `ihah.hn` | wikidata | Instituto Hondureño de Antropología e Historia |
+| 4 | `ihss.hn` | wikidata | Honduran Social Security Institute |
+| 4 | `iht.hn` | wikidata | Q17634842 |
+| 4 | `mp.hn` | wikidata | Public Prosecutor's Office |
+| 3 | `ccetegucigalpa.org` | wikidata | Centro Cultural de España Tegucigalpa |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Honduras |
+| 3 | `hn.ambafrance.org` | wikidata | Embassy of France, Tegucigalpa |
+| 3 | `tegucigalpa.diplo.de` | wikidata | Embassy of Germany, Tegucigalpa |
+| 3 | `web.archive.org` | wikidata | Archivo Nacional de Honduras |
 

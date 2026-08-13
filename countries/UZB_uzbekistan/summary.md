@@ -6,7 +6,7 @@
 - Region: Asia / Central Asia
 - Languages: Russian; Uzbek
 - Population: 37859698
-- GDP per capita: 3162 US$ (2024)
+- GDP per capita: 3968 US$ (2025)
 - Currencies: UZS
 - ccTLD: `.uz` (manager: Single Integrator for Creation and Support of State Information Systems UZINFOCOM)
 - OECD: non-member
@@ -30,20 +30,38 @@
 
 ## Candidate domains ranked by score
 
-11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+38 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `iiv.uz` | wikidata;wikidata | Ministry of Internal Affairs |
 | 7 | `joqargikenes.uz` | wikidata;wikidata | Supreme Council of Karakalpakstan |
-| 4 | `iiv.uz` | wikidata | Ministry of Internal Affairs |
-| 4 | `mc.uz` | wikidata | Ministry of Construction of the Republic of Uzbekistan |
-| 4 | `mdo.uz` | wikidata | Ministry of Preschool Education of the Republic of Uzbekistan |
-| 4 | `mehnat.uz` | wikidata | Ministry of Labor and Social Protection of Population |
-| 4 | `mfa.uz` | wikidata | Ministry of Foreign Affairs of Uzbekistan |
-| 4 | `minjust.uz` | wikidata | Ministry of Justice |
-| 4 | `minzdrav.uz` | wikidata | Ministry of Public Health of Uzbekistan |
-| 4 | `motas.uz` | wikidata | Ministry of Tourism and Cultural Heritage |
-| 4 | `mudofaa.uz` | wikidata | Ministry of Defense |
-| 4 | `uzedu.uz` | wikidata | Ministry of Preschool an School Education of the Republic of Uzbekistan |
+| 7 | `mc.uz` | wikidata;wikidata | Ministry of Construction of the Republic of Uzbekistan |
+| 7 | `mdo.uz` | wikidata;wikidata | Ministry of Preschool Education of the Republic of Uzbekistan |
+| 7 | `mehnat.uz` | wikidata;wikidata | Ministry of Labor and Social Protection of Population |
+| 7 | `mfa.uz` | wikidata;wikidata | Ministry of Foreign Affairs of Uzbekistan |
+| 7 | `minjust.uz` | wikidata;wikidata | Ministry of Justice |
+| 7 | `minzdrav.uz` | wikidata;wikidata | Ministry of Public Health of Uzbekistan |
+| 7 | `motas.uz` | wikidata;wikidata | Ministry of Tourism and Cultural Heritage |
+| 7 | `mudofaa.uz` | wikidata;wikidata | Ministry of Defense |
+| 7 | `uzedu.uz` | wikidata;wikidata | Ministry of Preschool an School Education of the Republic of Uzbekistan |
+| 6 | `sud.uz` | wikidata | Supreme Court of Uzbekistan |
+| 4 | `cbu.uz` | wikidata | Central Bank of Uzbekistan |
+| 4 | `davaktiv.uz` | wikidata | State Assets Management Agency |
+| 4 | `hydroengeo.uz` | wikidata | Institute of Hydrogeology and Engineering Geology |
+| 4 | `ich.uz` | wikidata | National Commission of the Republic of Uzbekistan for UNESCO |
+| 4 | `indembassy.uz` | wikidata | Embassy of India, Tashkent |
+| 4 | `ingeo.uz` | wikidata | Institute of Geology and Geophysics named after Kh.M. Abdullaev |
+| 4 | `meteo.uz` | wikidata | Centre of Hydrometeorological Service |
+| 4 | `mininnovation.uz` | wikidata | Ministry of Innovative Development of the Republic of Uzbekistan |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `nuu.uz` | wikidata | National University of Uzbekistan named after Mirzo Ulugbek |
+| 4 | `uzgeouniver.uz` | wikidata | University of Geological Sciences |
 

@@ -30,46 +30,46 @@
 
 ## Candidate domains ranked by score
 
-339 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+887 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `parliament.uk` | wikidata;wikidata;linkgraph | Parliament of the United Kingdom |
-| 9 | `supremecourt.uk` | wikidata;wikidata | Supreme Court of the United Kingdom |
-| 8 | `ordnancesurvey.co.uk` | wikidata;linkgraph | British Ordnance Survey |
+| 10 | `cqc.org.uk` | wikidata;linkgraph | Care Quality Commission |
+| 10 | `england.nhs.uk` | wikidata;linkgraph | NHS England |
+| 10 | `ico.org.uk` | wikidata;linkgraph | Information Commissioner's Office |
+| 10 | `ordnancesurvey.co.uk` | wikidata;wikidata;linkgraph | British Ordnance Survey |
+| 10 | `rbht.nhs.uk` | wikidata;wikidata;linkgraph | NIHR Royal Brompton Cardiovascular Biomedical Research Unit | NIHR Royal Brom... |
+| 9 | `hee.nhs.uk` | wikidata;linkgraph | Health Education England |
+| 9 | `nhs.uk` | wikidata;linkgraph | National Health Service |
+| 8 | `admin.ox.ac.uk` | wikidata;wikidata | University Chest |
+| 8 | `hampshire.police.uk` | wikidata;linkgraph | Hampshire and Isle of Wight Constabulary |
+| 8 | `healthwatch.co.uk` | wikidata;linkgraph | HealthWatch England |
+| 8 | `healthwatchnorfolk.co.uk` | wikidata;linkgraph | Healthwatch Norfolk |
+| 8 | `healthwatchstaffordshire.co.uk` | wikidata;linkgraph | Healthwatch Staffordshire |
+| 8 | `leics.police.uk` | wikidata;linkgraph | Leicestershire Police |
+| 8 | `ombudsman.org.uk` | wikidata;linkgraph | Parliamentary and Health Service Ombudsman |
+| 8 | `parliament.uk` | wikidata;wikidata;wikidata;wikidata;linkgraph | House of Commons | Parliament of the United Kingdom | House of Lords |
+| 8 | `scot.nhs.uk` | wikidata;linkgraph | NHS Scotland |
+| 8 | `shropshiretelfordandwrekin.nhs.uk` | wikidata;linkgraph | NHS Shropshire, Telford and Wrekin Integrated Care Board |
 | 7 | `111.nhs.uk` | linkgraph | Linked from 402 public-sector domains |
 | 7 | `999bsl.co.uk` | linkgraph | Linked from 20 public-sector domains |
 | 7 | `abilitynet.org.uk` | linkgraph | Linked from 25 public-sector domains |
-| 7 | `accessable.co.uk` | linkgraph | Linked from 27 public-sector domains |
-| 7 | `accurx.nhs.uk` | linkgraph | Linked from 183 public-sector domains |
-| 7 | `bbc.co.uk` | linkgraph | Linked from 23 public-sector domains |
-| 7 | `cheshireandmerseyside.nhs.uk` | linkgraph | Linked from 25 public-sector domains |
-| 7 | `civicaepay.co.uk` | linkgraph | Linked from 24 public-sector domains |
-| 7 | `cqc.org.uk` | linkgraph | Linked from 297 public-sector domains |
-| 7 | `digital.nhs.uk` | linkgraph | Linked from 62 public-sector domains |
-| 7 | `england.nhs.uk` | linkgraph | Linked from 615 public-sector domains |
-| 7 | `eventbrite.co.uk` | linkgraph | Linked from 28 public-sector domains |
-| 7 | `eyelidproductions.co.uk` | linkgraph | Linked from 24 public-sector domains |
-| 7 | `frankltd.co.uk` | linkgraph | Linked from 72 public-sector domains |
-| 7 | `frontlinedata.co.uk` | linkgraph | Linked from 21 public-sector domains |
-| 7 | `google.co.uk` | linkgraph | Linked from 72 public-sector domains |
-| 7 | `gp-patient.co.uk` | linkgraph | Linked from 27 public-sector domains |
 
 ## Local / regional candidates
 
-14 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+338 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 106 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `gov.scot` | wikidata;linkgraph | Scottish Government |
-| 9 | `gov.wales` | wikidata;linkgraph | Welsh Government |
-| 9 | `senedd.wales` | wikidata;wikidata;linkgraph | Senedd |
-| 7 | `parliament.scot` | wikidata;wikidata | Scottish Parliament |
-| 6 | `llyw.cymru` | wikidata;linkgraph | Welsh Government |
-| 6 | `senedd.cymru` | wikidata;wikidata | Senedd |
-| 7 | `alderney.gov.gg` | wikidata;wikidata | States of Alderney |
-| 7 | `gov.ky` | wikidata;wikidata | Parliament of the Cayman Islands |
-| 7 | `parliament.gi` | wikidata;wikidata | Parliament of Gibraltar |
-| 7 | `parliament.ms` | wikidata;wikidata | Legislative Assembly of Montserrat |
+| 10 | `gov.scot` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | ... |
+| 10 | `gov.wales` | wikidata;wikidata;wikidata;linkgraph | Department for Education and Skills | Welsh Government |
+| 9 | `llyw.cymru` | wikidata;wikidata;linkgraph | Welsh Government |
+| 9 | `senedd.wales` | wikidata;wikidata;wikidata;linkgraph | Senedd |
+| 8 | `scotland.police.uk` | wikidata;linkgraph | Police Scotland |
+| 7 | `btp.police.uk` | wikidata;wikidata | British Transport Police |
+| 7 | `oscr.org.uk` | wikidata;wikidata | Scottish Charity Regulator | Office of the Scottish Charity Regulator |
+| 7 | `parliament.scot` | wikidata;wikidata;wikidata | Scottish Parliament |
+| 6 | `scottish-enterprise.com` | wikidata;wikidata | Scottish Enterprise | South of Scotland Enterprise |
+| 6 | `senedd.cymru` | wikidata;wikidata;wikidata | Senedd |
 

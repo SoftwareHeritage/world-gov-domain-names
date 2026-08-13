@@ -6,7 +6,7 @@
 - Region: Americas / South America
 - Languages: English
 - Population: 772975
-- GDP per capita: 29675 US$ (2024)
+- GDP per capita: 32414 US$ (2025)
 - Currencies: GYD
 - ccTLD: `.gy` (manager: University of Guyana)
 - OECD: non-member
@@ -30,5 +30,26 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `bankofguyana.org.gy` | wikidata | Bank of Guyana |
+| 4 | `cdc.gy` | wikidata | Civil Defense Commission of Guyana |
+| 4 | `gy.usembassy.gov` | wikidata | embassy of the United States in Guyana |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Guyana, for Suriname, and with responsibi... |
+| 3 | `gnbsgy.org` | wikidata | Guyana National Bureau of Standards |
+| 3 | `guyana.mid.ru` | wikidata | embassy of Russia in Guyana |
+| 3 | `hcigeorgetown.org` | wikidata | High Commission of India, Georgetown |
+| 3 | `nationallibraryofguyana.com` | wikidata | National Library of Guyana |
+| 3 | `surguychamber.org` | wikidata | Suriname-Guyana Kamer van Koophandel |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `uog.edu.gy` | wikidata | University of Guyana |
 

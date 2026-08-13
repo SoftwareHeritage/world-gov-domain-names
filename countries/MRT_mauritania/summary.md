@@ -6,7 +6,7 @@
 - Region: Africa / Western Africa
 - Languages: Arabic
 - Population: 4927532
-- GDP per capita: 2110 US$ (2024)
+- GDP per capita: 2198 US$ (2025)
 - Currencies: MRU
 - ccTLD: `.mr` (manager: Université de Nouakchott Al Aasriya)
 - OECD: non-member
@@ -30,10 +30,25 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `ami.mr` | wikidata;wikidata | Mauritanian Information Agency | Mauritanian News Agency |
 | 7 | `assembleenationale.mr` | wikidata;wikidata | National Assembly |
+| 7 | `tdm.mr` | wikidata;wikidata | Broadcasting of Mauritania |
+| 4 | `ansade.mr` | wikidata | National Agency for Statistics, Demographic and Economic Analysis |
+| 4 | `bcm.mr` | wikidata | Central Bank of Mauritania |
+| 4 | `cndh.mr` | wikidata | National Human Rights Commission of Mauritania |
+| 4 | `cnla.mr` | wikidata | Centre National de Lutte Antiacridienne |
+| 4 | `gendarmerie.mr` | wikidata | Law enforcement in Mauritania |
+| 4 | `mr.usembassy.gov` | wikidata | Embassy of the United States, Nouakchott |
+| 4 | `ons.mr` | wikidata | Office National de la Statistique |
+| 4 | `palemb.mr` | wikidata | Embassy of the State of Palestine, Nouakchott |
+| 3 | `ccfr.rimpresse.com` | wikidata | Q19885895 |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Mauritania |
+| 3 | `mauritanie.mid.ru` | wikidata | embassy of Russia in Mauritania |
+| 3 | `mr.ambafrance.org` | wikidata | Embassy of France, Nouakchott |
+| 3 | `nouakchott.diplo.de` | wikidata | Embassy of Germany, Nouakchott |
 

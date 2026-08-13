@@ -6,7 +6,7 @@
 - Region: Americas / Caribbean
 - Languages: French; Haitian Creole
 - Population: 11867032
-- GDP per capita: 2143 US$ (2024)
+- GDP per capita: 2694 US$ (2025)
 - Currencies: HTG
 - ccTLD: `.ht` (manager: Consortium FDS/RDDH)
 - OECD: non-member
@@ -30,13 +30,30 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 6 | `leparlementhaitien.info` | wikidata;wikidata | Parliament of Haiti |
-| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
-| 3 | `jesuites.ca` | wikidata | Canada Province of the Society of Jesus |
-| 3 | `jesuits.ca` | wikidata | Canada Province of the Society of Jesus |
+| 6 | `centroamericaribeschp.com` | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `jesuites.ca` | wikidata;wikidata | Canada Province of the Society of Jesus |
+| 6 | `jesuits.ca` | wikidata;wikidata | Canada Province of the Society of Jesus |
+| 6 | `roc-taiwan.org` | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Port-au-Prince |
+| 4 | `brh.ht` | wikidata | Bank of the Republic of Haiti |
+| 4 | `cephaiti.ht` | wikidata | Provisional Electoral Council |
+| 4 | `ht.usembassy.gov` | wikidata | embassy of the United States in Haiti |
+| 4 | `pnh.ht` | wikidata | Haitian National Police |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Haiti |
+| 3 | `ht.ambafrance.org` | wikidata | Embassy of France, Port-au-Prince |
+| 3 | `ihsi.ayiti.digital` | wikidata | Institut Haïtien de Statistique et d'Informatique |
+| 3 | `port-au-prince.diplo.de` | wikidata | embassy of Germany, Port-au-Prince |
+| 1 | `leparlementhaitien.info` | wikidata;wikidata;wikidata | Parliament of Haiti | Chamber of Deputies |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `ueh.edu.ht` | wikidata | Q1205322 |
 

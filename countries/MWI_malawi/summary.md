@@ -6,7 +6,7 @@
 - Region: Africa / Eastern Africa
 - Languages: English; Chewa
 - Population: 20734262
-- GDP per capita: 523 US$ (2024)
+- GDP per capita: 672 US$ (2025)
 - Currencies: MWK
 - ccTLD: `.mw` (manager: Malawi Sustainable Development Network Programme (Malawi SDNP))
 - OECD: non-member
@@ -30,5 +30,29 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `aidsmalawi.org.mw` | wikidata | National AIDS Commission |
+| 4 | `frim.org.mw` | wikidata | Forestry Research Institute of Malawi |
+| 4 | `mra.mw` | wikidata | Malawi Revenue Authority |
+| 4 | `mw.usembassy.gov` | wikidata | embassy of the United States in Malawi |
+| 4 | `ncst.mw` | wikidata | National Commission for Science and Technology Malawi |
+| 4 | `nls.mw` | wikidata | National Library Service of Malawi |
+| 4 | `rbm.mw` | wikidata | Reserve Bank of Malawi |
+| 4 | `sdnp.org.mw` | wikidata | Department of Agricultural Research & Technical Services |
+| 3 | `afro.who.int` | wikidata | World Health Organization - Malawi |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Malawi |
+| 3 | `lilongwe.diplo.de` | wikidata | Embassy of Germany, Lilongwe |
+| 3 | `norway.no` | wikidata | Embassy of Norway in Malawi |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `mzuni.ac.mw` | wikidata | Mzuzu University |
 

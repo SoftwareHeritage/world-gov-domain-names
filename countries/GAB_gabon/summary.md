@@ -6,7 +6,7 @@
 - Region: Africa / Middle Africa
 - Languages: French
 - Population: 2469296
-- GDP per capita: 8230 US$ (2024)
+- GDP per capita: 8263 US$ (2025)
 - Currencies: XAF
 - ccTLD: `.ga` (manager: Agence Nationale des Infrastructures Numériques et des Fréquences (ANINF))
 - OECD: non-member
@@ -30,16 +30,39 @@
 
 ## Candidate domains ranked by score
 
-7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 5 | `fonction-publique.gouv.ga` | wikidata | Q125907067 |
-| 5 | `interieur.gouv.ga` | wikidata | Q128231957 |
-| 5 | `justice.gouv.ga` | wikidata | Ministry of Justice |
-| 5 | `relations-institutions.gouv.ga` | wikidata | Q137536983 |
-| 5 | `sante.gouv.ga` | wikidata | Ministry of Health |
-| 5 | `transports.gouv.ga` | wikidata | Ministry of Transport (Gabon) |
-| 3 | `piaristesafriquecentrale.org` | wikidata | Piarist province of Central Africa |
+| 8 | `fonction-publique.gouv.ga` | wikidata;wikidata | Q125907067 |
+| 8 | `interieur.gouv.ga` | wikidata;wikidata | Q128231957 |
+| 8 | `relations-institutions.gouv.ga` | wikidata;wikidata | Q137536983 |
+| 8 | `sante.gouv.ga` | wikidata;wikidata | Ministry of Health |
+| 8 | `transports.gouv.ga` | wikidata;wikidata | Ministry of Transport (Gabon) |
+| 7 | `journal-officiel.ga` | wikidata;wikidata | Tribunal de première instance (Gabon) |
+| 6 | `piaristesafriquecentrale.org` | wikidata;wikidata | Piarist province of Central Africa |
+| 5 | `budget.gouv.ga` | wikidata | Q139961312 |
+| 5 | `eaux-forets.gouv.ga` | wikidata | Ministre de la Forêt, de la Mer et de l'Environnement |
+| 4 | `aninf.ga` | wikidata | Q62107195 |
+| 4 | `assemblee-nationale.ga` | wikidata | National Assembly |
+| 4 | `cour-constitutionnelle.ga` | wikidata | Constitutional Court of Gabon |
+| 4 | `dgabd.ga` | wikidata | National Library of Gabon |
+| 4 | `ga.usembassy.gov` | wikidata | embassy of the United States, Libreville |
+| 3 | `ambaburkina-ga.org` | wikidata | embassy of Burkina Faso in Gabon |
+| 3 | `ambalglibreville.com` | wikidata | Embassy of Algeria, Libreville |
+| 3 | `ambassade-tchad-gabon.com` | wikidata | Q134385965 |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Pri... |
+| 3 | `ga.ambafrance.org` | wikidata | Embassy of France, Libreville |
+| 3 | `gabon.mid.ru` | wikidata | embassy of Russia in Gabon |
+
+## Local / regional candidates
+
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `univ-masuku.ga` | wikidata | Université des Sciences et Techniques de Masuku |
+| 3 | `univ-masuku.org` | wikidata | Université des Sciences et Techniques de Masuku |
+| 3 | `beac.int` | wikidata | Bank of Central African States |
 

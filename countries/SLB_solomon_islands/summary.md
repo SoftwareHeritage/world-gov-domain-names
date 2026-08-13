@@ -6,7 +6,7 @@
 - Region: Oceania / Melanesia
 - Languages: English
 - Population: 750325
-- GDP per capita: 1934 US$ (2024)
+- GDP per capita: 2086 US$ (2025)
 - Currencies: SBD
 - ccTLD: `.sb` (manager: Solomon Telekom Company Limited)
 - OECD: non-member
@@ -30,5 +30,19 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `cbsi.com.sb` | wikidata | Central Bank of Solomon Islands |
+| 4 | `sb.usembassy.gov` | wikidata | Embassy of the United States, Honiara |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `usp.ac.fj` | wikidata | University of the South Pacific |
 

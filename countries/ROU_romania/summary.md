@@ -30,24 +30,46 @@
 
 ## Candidate domains ranked by score
 
-15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+123 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `just.ro` | wikidata;linkgraph | Ministry of Justice |
+| 10 | `just.ro` | wikidata;wikidata;linkgraph | Ministry of Justice |
+| 7 | `ahkrumaenien.ro` | wikidata;wikidata | German-Romanian Chamber of Industry and Commerce |
+| 7 | `arhivelenationale.ro` | wikidata;wikidata | National Historical Central Archives | National Archives of Romania |
+| 7 | `cultura.ro` | wikidata;wikidata | Ministry of Culture |
+| 7 | `dataprotection.ro` | wikidata;linkgraph | National Supervisory Authority for Personal Data Processing |
+| 7 | `edu.ro` | wikidata;wikidata | Ministry of Education of Romania |
+| 7 | `madr.ro` | wikidata;wikidata | Ministry of Agriculture and Rural Development of Romania |
+| 7 | `mae.ro` | wikidata;wikidata | Ministry of Foreign Affairs of Romania |
+| 7 | `mapn.ro` | wikidata;wikidata | Ministry of National Defense |
+| 7 | `mcsi.ro` | wikidata;wikidata | Ministry of Communications and Information Society |
+| 7 | `mdlpa.ro` | wikidata;wikidata | Ministry for Development, Public Works and Administration |
+| 7 | `mmediu.ro` | wikidata;wikidata | Ministry of Environment, Water and Forests |
+| 7 | `mmuncii.ro` | wikidata;wikidata | Ministry of Labour, Family, Youth and Social Solidarity |
+| 7 | `ms.ro` | wikidata;wikidata | Ministry of Health |
 | 7 | `parlament.ro` | wikidata;wikidata | Parliament of Romania |
+| 7 | `rosa.ro` | wikidata;wikidata | Romanian Space Agency |
+| 6 | `gesuiti.it` | wikidata;wikidata | Euromediterranean Province of the Jesuits |
 | 6 | `guv.ro` | un_desa | UN/DESA national portal |
-| 4 | `cultura.ro` | wikidata | Ministry of Culture |
-| 4 | `dataprotection.ro` | linkgraph | Linked from 3 public-sector domains |
-| 4 | `edu.ro` | wikidata | Ministry of Education of Romania |
-| 4 | `madr.ro` | wikidata | Ministry of Agriculture and Rural Development of Romania |
-| 4 | `mae.ro` | wikidata | Ministry of Foreign Affairs of Romania |
-| 4 | `mapn.ro` | wikidata | Ministry of National Defense |
-| 4 | `mcsi.ro` | wikidata | Ministry of Communications and Information Society |
-| 4 | `mdlpa.ro` | wikidata | Ministry for Development, Public Works and Administration |
-| 4 | `mmediu.ro` | wikidata | Ministry of Environment, Water and Forests |
-| 4 | `mmuncii.ro` | wikidata | Ministry of Labour, Family, Youth and Social Solidarity |
-| 4 | `ms.ro` | wikidata | Ministry of Health |
-| 3 | `gesuiti.it` | wikidata | Euromediterranean Province of the Jesuits |
+| 6 | `mpublic.ro` | wikidata | Prosecutor's Office attached to the High Court of Cassation and Justice |
+| 6 | `rumaenien.um.dk` | wikidata;wikidata | Embassy of Denmark, Bucharest | Embassy of Croatia in Romania |
+
+## Local / regional candidates
+
+10 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `b.politiaromana.ro` | wikidata | Direcția Generală de Poliție a Municipiului București |
+| 4 | `ase.ro` | wikidata | Bucharest University of Economic Studies |
+| 4 | `ulbsibiu.ro` | wikidata | Lucian Blaga University of Sibiu |
+| 4 | `unatc.ro` | wikidata | I. L. Caragiale National University of Theatre and Film |
+| 4 | `unibuc.ro` | wikidata | University of Bucharest |
+| 4 | `unitbv.ro` | wikidata | Transilvania University of Brașov |
+| 4 | `usamvcluj.ro` | wikidata | University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca |
+| 4 | `uvt.ro` | wikidata | West University of Timișoara |
+| 4 | `valahia.ro` | wikidata | Valahia University of Târgoviște |
+| 4 | `anaf.ro` | wikidata | National Agency of Fiscal Administration |
 

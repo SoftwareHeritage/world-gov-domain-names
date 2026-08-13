@@ -30,22 +30,46 @@
 
 ## Candidate domains ranked by score
 
-13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+67 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `slovensko.sk` | un_desa;linkgraph | UN/DESA national portal |
-| 7 | `mfsr.sk` | wikidata;wikidata | Ministry of Finance of the Slovak Republic |
-| 7 | `mindop.sk` | wikidata;wikidata | Ministry of Transport and Construction of the Slovak Republic |
-| 7 | `mpsr.sk` | wikidata;wikidata | Ministry of Agriculture and Rural Development of the Slovak Republic |
+| 7 | `dominikani.sk` | wikidata;wikidata | Dominican Province of Slovakia |
+| 7 | `frantiskani.sk` | wikidata;wikidata | Province of the Most Holy Redeemer of the Friars Minor in Slovakia |
+| 7 | `mincrs.sk` | wikidata;wikidata | Ministry of Tourism and Sports of the Slovak Republic |
+| 7 | `minedu.sk` | wikidata;wikidata | Ministry of Education, Research, Development and Youth of the Slovak Republic |
+| 7 | `minv.sk` | wikidata;wikidata;wikidata;wikidata;wikidata | Slovak National Archives | Ministry of Interior of the Slovak Republic | Fire... |
+| 7 | `minzp.sk` | wikidata;wikidata | Ministry of the Environment of the Slovak Republic |
+| 7 | `mzv.sk` | wikidata;wikidata | Ministry of Foreign and European Affairs of the Slovak Republic |
+| 7 | `nbs.sk` | wikidata;wikidata | National Bank of Slovakia |
 | 7 | `nrsr.sk` | wikidata;wikidata | National Council of the Slovak Republic |
-| 4 | `dominikani.sk` | wikidata | Dominican Province of Slovakia |
-| 4 | `frantiskani.sk` | wikidata | Province of the Most Holy Redeemer of the Friars Minor in Slovakia |
-| 4 | `mincrs.sk` | wikidata | Ministry of Tourism and Sports of the Slovak Republic |
-| 4 | `minedu.sk` | wikidata | Ministry of Education, Research, Development and Youth of the Slovak Republic |
-| 4 | `minv.sk` | wikidata | Ministry of Interior of the Slovak Republic |
-| 4 | `minzp.sk` | wikidata | Ministry of the Environment of the Slovak Republic |
-| 4 | `mzv.sk` | wikidata | Ministry of Foreign and European Affairs of the Slovak Republic |
-| 4 | `piaristi.sk` | wikidata | Piarist province of Slovakia |
+| 7 | `piaristi.sk` | wikidata;wikidata | Piarist province of Slovakia |
+| 7 | `skgeodesy.sk` | wikidata;wikidata | Geodesy, Cartography and Cadastre Authority of the Slovak Republic |
+| 7 | `snk.sk` | wikidata;wikidata | Slovak National Library |
+| 6 | `nsud.sk` | wikidata | Supreme court of the Slovak Republic |
+| 6 | `slowakei.ahk.de` | wikidata;wikidata | German-Slovak Chamber of Industry and Commerce |
+| 4 | `apvv.sk` | wikidata | Slovak Research and Development Agency |
+| 4 | `caa.sk` | wikidata | Civil Aviation Authority of the Slovak Republic |
+| 4 | `dposr.sk` | wikidata | Voluntary Fire Protection of the Slovak Republic |
+| 4 | `egypt-embassy.sk` | wikidata | Embassy of Egypt, Bratislava |
+| 4 | `financnasprava.sk` | wikidata | The Financial Administration of the Slovak Republic |
+
+## Local / regional candidates
+
+14 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `euba.sk` | wikidata;wikidata | University of Economics in Bratislava |
+| 7 | `truni.sk` | wikidata;wikidata | Trnava University in Trnava |
+| 4 | `stuba.sk` | wikidata | Slovak University of Technology in Bratislava |
+| 4 | `tuke.sk` | wikidata | Technical University of Košice |
+| 4 | `ujs.sk` | wikidata | Selye János University |
+| 4 | `ukf.sk` | wikidata | University of Constantine the Philosopher |
+| 4 | `umb.sk` | wikidata | Matej Bel University |
+| 4 | `uniag.sk` | wikidata | Slovak University of Agriculture |
+| 4 | `uniba.sk` | wikidata | Comenius University |
+| 4 | `unipo.sk` | wikidata | University of Prešov |
 

@@ -30,34 +30,46 @@
 
 ## Candidate domains ranked by score
 
-8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+229 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `ewi-vlaanderen.be` | wikidata;wikidata | Department of Economy, Sciency & Innovation |
+| 7 | `arch.be` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | State Archives in Kortrijk | Algemeen Rijksarchief en Rijksarchief in de Prov... |
+| 7 | `autoriteprotectiondonnees.be` | wikidata;linkgraph | Data Protection Authority |
+| 7 | `beci.be` | wikidata;wikidata | Brussels Enterprises Commerce and Industry |
+| 7 | `dglive.be` | wikidata;wikidata | Ministry of the German-speaking Community |
+| 7 | `gegevensbeschermingsautoriteit.be` | wikidata;linkgraph | Data Protection Authority |
+| 7 | `mofaic.gov.ae` | wikidata;wikidata | embassy of United Arab Emirates in Belgium | Permanent Mission of the United ... |
+| 7 | `om-mp.be` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Q107677931 | Q111686458 | Q107677924 | Q111686279 | Q107677926 | Q111686333 |... |
+| 6 | `const-court.be` | wikidata | Constitutional Court of Belgium |
 | 6 | `ejp.eu` | wikidata;wikidata | European Jewish Parliament |
+| 6 | `gemeenschappelijknautischbeheer.net` | wikidata;wikidata | Q137655938 |
+| 6 | `mzv.cz` | wikidata;wikidata | Permanent Mission of the Czech Republic to the European Union | embassy of th... |
+| 6 | `mzv.sk` | wikidata;wikidata | Embassy of Slovenia, Brussels |
 | 6 | `nato-pa.int` | wikidata;wikidata | NATO Parliamentary Assembly |
-| 4 | `autoriteprotectiondonnees.be` | linkgraph | Linked from 3 public-sector domains |
-| 4 | `dglive.be` | wikidata | Ministry of the German-speaking Community |
-| 4 | `gegevensbeschermingsautoriteit.be` | linkgraph | Linked from 3 public-sector domains |
-| 4 | `wallonie.be` | linkgraph | Linked from 4 public-sector domains |
-| 1 | `beneluxparl.eu` | wikidata;wikidata;wikidata;wikidata | Benelux Parliament |
+| 6 | `nato.mfa.am` | wikidata;wikidata | Permanent Mission of Armenia to NATO |
+| 6 | `norway.no` | wikidata;wikidata | Embassy of Norway, Brussels | Permanent Mission of Norway to NATO |
+| 6 | `swedenabroad.se` | wikidata;wikidata | Permanent Mission of Sweden to NATO | Consulate General of Sweden in Brussels |
+| 6 | `taiwanembassy.org` | wikidata;wikidata | Taipei Representative Office in the EU and Belgium |
+| 4 | `aeronomie.be` | wikidata | Royal Belgian Institute for Space Aeronomy |
+| 4 | `agentschapmdk.be` | wikidata | Agency for Maritime and Coastal Services |
+| 4 | `algerian-embassy.be` | wikidata | Embassy of Algeria, Brussels |
 
 ## Local / regional candidates
 
-15 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 11 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+93 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 47 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 10 | `vlaanderen.be` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Flemish Government | Flemish Tax Service | Research Institute for Nature and ... |
+| 7 | `dbrc.be` | wikidata;wikidata | Council for Permit Disputes | Council for Election Disputes |
+| 7 | `departementwvg.be` | wikidata;wikidata | Flemish Infrastructure Fund for Person-related Matters | Department of Welfar... |
+| 7 | `gouvernement.cfwb.be` | wikidata;wikidata | Government of the French Community |
+| 7 | `gouvernement.wallonie.be` | wikidata;wikidata | Government of Wallonia |
+| 7 | `omgeving.vlaanderen.be` | wikidata;wikidata | Department of Environment and Health |
+| 7 | `ostbelgienlive.be` | wikidata;wikidata;wikidata | Government of the German-speaking Community | Representation of the German-sp... |
 | 7 | `parlement-wallonie.be` | wikidata;wikidata | Parliament of Wallonia |
 | 7 | `parlement.brussels` | wikidata;wikidata | Parliament of the Brussels-Capital Region |
 | 7 | `pdg.be` | wikidata;wikidata | Parliament of the German-speaking Community |
-| 7 | `pfwb.be` | wikidata;wikidata | Parliament of the French Community |
-| 7 | `vlaamsparlement.be` | wikidata;wikidata | Flemish Parliament |
-| 4 | `gouvernement.cfwb.be` | wikidata | Government of the French Community |
-| 4 | `gouvernement.wallonie.be` | wikidata | Government of Wallonia |
-| 4 | `ostbelgienlive.be` | wikidata | Government of the German-speaking Community |
-| 4 | `raadvgc.be` | wikidata | Assembly of the Flemish Community Commission |
-| 3 | `be.brussels` | wikidata | Government of the Brussels-Capital Region |
 

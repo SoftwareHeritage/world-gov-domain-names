@@ -766,11 +766,13 @@
          vals)))
 
 (defn- central1-entries
-  "Below-central domains feeding the central+ file: the curated central-1
-  labels under mixed suffixes (label.root, confirmed by the registry)
-  plus the candidates-local.csv rows tagged central-1 or university
-  (scored, unconfirmed -- their score/sources columns let consumers
-  filter; universities are in the central+ scope since 2026-08-13).
+  "First-tier (central-1) domains feeding the central+ file: the curated
+  central-1 labels under mixed suffixes (label.root, confirmed by the
+  registry) plus the candidates-local.csv rows tagged central-1 (scored,
+  unconfirmed -- their score/sources columns let consumers filter).
+  University rows are deliberately NOT included (decision of
+  2026-08-13): public universities stay in candidates-local.csv under
+  level \"university\", stored for a later re-exploration.
   Returns [country domain name score sources level], deduped by
   [country domain] preferring the curated entry."
   []
@@ -783,7 +785,7 @@
                          :when (fs/exists? path)
                          [hostname score sources label level]
                          (rest (read-csv-raw path))
-                         :when (and (contains? #{"central-1" "university"} level)
+                         :when (and (= level "central-1")
                                     (valid-hostname? hostname))]
                      [c hostname (or label "") (or score "") (or sources "")
                       level])]
@@ -933,10 +935,15 @@
    ;; P1001-derived level sorts them out. :light -- the strict class
    ;; exclusions time out on a class this large.
    ["Q327333" "government_agency"    :light]
-   ;; Universities count in the central+ scope (decision of 2026-08-13).
-   ;; :academic excludes private and religious institutions; the rows get
-   ;; the fixed level "university" (P1001 is rarely set on them).
-   ["Q3918"   "university"           :academic]])
+   ;; Universities: only the strictly public subtrees -- the broad Q3918
+   ;; class leaks mistyped private universities (Japan, India). Kept OUT
+   ;; of central+ for now (decision of 2026-08-13): the rows carry the
+   ;; fixed level "university" and stay in candidates-local.csv, stored
+   ;; for a later re-exploration. :academic drops residual private and
+   ;; religious typings.
+   ["Q875538"   "university"         :academic]  ; public university
+   ["Q62078547" "university"         :academic]  ; public research univ.
+   ["Q1145118"  "university"         :academic]]); national university
 
 (defn wikidata-query [class-qid country-qid strictness]
   (let [strict-filters
@@ -1096,7 +1103,19 @@
               (apply concat
                      (for [[qid type strictness] wikidata-classes
                            :let [q (wikidata-query qid country-qid strictness)
-                                 body (wikidata-run-query q)]]
+                                 body (or (wikidata-run-query q)
+                                          ;; WDQS chokes on the :strict
+                                          ;; class-exclusion paths under
+                                          ;; load (502): fall back to the
+                                          ;; unfiltered query rather than
+                                          ;; losing the class entirely.
+                                          (when (= strictness :strict)
+                                            (err (str "  [" type "] strict"
+                                                      " query failed;"
+                                                      " retrying light"))
+                                            (wikidata-run-query
+                                             (wikidata-query qid country-qid
+                                                             :light))))]]
                        (if body
                          (try
                            (let [bindings (-> (json/parse-string body true)
@@ -1817,9 +1836,16 @@
                                    :cctld-primary cctld-primary
                                    :curated? curated?
                                    :indegree linked-n
+                                   ;; the anti-subnational penalties catch
+                                   ;; entities *pretending* central; when
+                                   ;; curation explicitly says central,
+                                   ;; they must not apply
                                    :subdiv-penalty?
-                                   (not (contains? #{"local" "central-1" "university"}
-                                                   level))})]
+                                   (and (not (contains?
+                                              #{"local" "central-1" "university"}
+                                              level))
+                                        (not= "central"
+                                              (get-in cur-by-host [h :level])))})]
                       [h score (str/join ";" sources) label level])))
              (sort-by (juxt #(- (nth % 1)) first)))
         {subnational true central false}

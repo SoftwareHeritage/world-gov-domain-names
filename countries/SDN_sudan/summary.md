@@ -6,7 +6,7 @@
 - Region: Africa / Northern Africa
 - Languages: Arabic; English
 - Population: 51662000
-- GDP per capita: 985 US$ (2024)
+- GDP per capita: 1165 US$ (2025)
 - Currencies: SDG
 - ccTLD: `.sd` (manager: Sudan Internet Society)
 - OECD: non-member
@@ -30,5 +30,36 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `aprc.sd` | wikidata | Animal Production Research Center |
+| 4 | `meteosudan.sd` | wikidata | Sudan Meteorological Authority |
+| 4 | `sudapost.sd` | wikidata | SudaPost |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Sudan |
+| 3 | `khartoum.mae.ro` | wikidata | embassy of Romania in Sudan |
+| 3 | `khartum.diplo.de` | wikidata | Embassy of Germany, Khartoum |
+| 3 | `norway.no` | wikidata | Embassy of Norway, Khartoum |
+| 3 | `sd.ambafrance.org` | wikidata | Embassy of France, Khartoum |
+| 3 | `sudan.mid.ru` | wikidata | embassy of Russia in Sudan |
+| 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Khartoum |
+
+## Local / regional candidates
+
+12 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `iua.edu.sd` | wikidata | International University of Africa |
+| 4 | `merowe.edu.sd` | wikidata | Merowe University of Technology - Abdulatif Alhamad |
+| 4 | `must.edu.sd` | wikidata | Managil University of Science and Technology |
+| 4 | `nyalau.edu.sd` | wikidata | Nyala University |
+| 4 | `quran-unv.edu.sd` | wikidata | University of the Holy Quran and Islamic Sciences |
+| 4 | `rsu.edu.sd` | wikidata | Red Sea University |
+| 4 | `stu.edu.sd` | wikidata | Sudan Technological University |
+| 4 | `uofg.edu.sd` | wikidata | University of Gezira |
+| 4 | `uofs.edu.sd` | wikidata | Sinnar University |
+| 4 | `ush.sd` | wikidata | Shendi University |
 

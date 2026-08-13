@@ -6,7 +6,7 @@
 - Region: Oceania / Australia and New Zealand
 - Languages: English
 - Population: 27536874
-- GDP per capita: 64604 US$ (2024)
+- GDP per capita: 65130 US$ (2025)
 - Currencies: AUD
 - ccTLD: `.au` (manager: .au Domain Administration (auDA))
 - OECD: member since 1971
@@ -30,18 +30,46 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+150 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `curtin.edu.au` | wikidata | Curtin Connect |
+| 7 | `g-mwater.com.au` | wikidata;wikidata | Goulburn–Murray Water |
+| 7 | `pakistan.org.au` | wikidata;wikidata | High Commission of Pakistan, Canberra | high commission of Pakistan in Australia |
+| 7 | `screenqueensland.com.au` | wikidata;wikidata | Screen Queensland Studios | Screen Queensland |
+| 6 | `wineaustralia.com` | wikidata;wikidata | Wine Australia | Australian Grape and Wine Authority |
+| 4 | `aaf.edu.au` | wikidata | Australian Access Federation |
+| 4 | `abc.net.au` | wikidata | Australian Broadcasting Corporation |
+| 4 | `acara.edu.au` | wikidata | Australian Curriculum, Assessment and Reporting Authority |
+| 4 | `acoustics.asn.au` | wikidata | Australian Acoustical Society |
+| 4 | `aftrs.edu.au` | wikidata | Australian Film Television and Radio School |
+| 4 | `agrifutures.com.au` | wikidata | AgriFutures Australia |
+| 4 | `ahmrc.org.au` | wikidata | Aboriginal Health and Medical Research Council of New South Wales |
+| 4 | `ainse.edu.au` | wikidata | Australian Institute of Nuclear Science and Engineering |
+| 4 | `algeriaemb.org.au` | wikidata | Embassy of Algeria, Canberra |
+| 4 | `amc.edu.au` | wikidata | Australian Maritime College |
+| 4 | `apm.net.au` | wikidata | APM Group |
+| 4 | `artc.com.au` | wikidata | Australian Rail Track Corporation |
+| 4 | `artlabaustralia.com.au` | wikidata | Artlab Australia |
+| 4 | `asmof.org.au` | wikidata | Australian Salaried Medical Officers' Federation |
+| 4 | `auda.org.au` | wikidata | .au Domain Administration |
+| 4 | `australiachinafoundation.org.au` | wikidata | National Foundation for Australia-China Relations |
 
 ## Local / regional candidates
 
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+56 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 16 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `burnie.net` | wikidata | Burnie City Council |
+| 4 | `aapant.org.au` | wikidata | Aboriginal Areas Protection Authority |
+| 4 | `adelaidemetro.com.au` | wikidata | Adelaide Metro |
+| 4 | `cancerinstitute.org.au` | wikidata | Cancer Institute of New South Wales |
+| 4 | `destinationnsw.com.au` | wikidata | Destination NSW |
+| 4 | `forestrysa.com.au` | wikidata | Forestry SA |
+| 4 | `law.adelaide.edu.au` | wikidata | South Australian Law Reform Institute |
+| 4 | `mcnsw.org.au` | wikidata | Medical Council of New South Wales |
+| 4 | `portauthoritynsw.com.au` | wikidata | Port Authority of New South Wales |
+| 4 | `sawater.com.au` | wikidata | SA Water |
+| 4 | `statetheatrecompany.com.au` | wikidata | State Theatre Company of South Australia |
 

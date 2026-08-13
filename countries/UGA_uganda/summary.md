@@ -30,26 +30,41 @@
 
 ## Candidate domains ranked by score
 
-17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+70 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 8 | `parliament.go.ug` | wikidata;wikidata | Parliament of Uganda |
-| 7 | `opm.go.ug` | wikidata;wikidata | Ministry of Relief and Disaster Preparedness | Ministry of Disaster Preparedn... |
+| 7 | `agriculture.go.ug` | wikidata;wikidata | Ministry of Agriculture, Animal Industry and Fisheries |
+| 7 | `education.go.ug` | wikidata;wikidata | Ministry of Education and Sports |
+| 7 | `energyandminerals.go.ug` | wikidata;wikidata | Ministry of Energy and Mineral Development |
+| 7 | `finance.go.ug` | wikidata;wikidata | Ministry of Finance, Planning and Economic Development |
+| 7 | `health.go.ug` | wikidata;wikidata | Ministry of Health |
+| 7 | `ict.go.ug` | wikidata;wikidata | Ministry of Information and Communications Technology |
+| 7 | `mia.go.ug` | wikidata;wikidata | Ministry of Internal Affairs |
+| 7 | `mlhud.go.ug` | wikidata;wikidata | Ministry of Lands, Housing and Urban Development |
+| 7 | `mofa.go.ug` | wikidata;wikidata | Ministry of Foreign Affairs of the Republic of Uganda |
+| 7 | `mtic.go.ug` | wikidata;wikidata | Ministry of Trade, Industry and Cooperatives |
+| 7 | `mtti.go.ug` | wikidata;wikidata | Ministry of Trade, Tourism and Industry |
+| 7 | `mwe.go.ug` | wikidata;wikidata | Ministry of Water and Environment |
+| 7 | `nema.go.ug` | wikidata;wikidata | National Environment Management Authority of Uganda |
+| 7 | `sti.go.ug` | wikidata;wikidata | Ministry of Science, Technology and Innovation |
 | 6 | `gou.go.ug` | un_desa | UN/DESA national portal |
-| 4 | `agriculture.go.ug` | wikidata | Ministry of Agriculture, Animal Industry and Fisheries |
-| 4 | `education.go.ug` | wikidata | Ministry of Education and Sports |
-| 4 | `energyandminerals.go.ug` | wikidata | Ministry of Energy and Mineral Development |
-| 4 | `finance.go.ug` | wikidata | Ministry of Finance, Planning and Economic Development |
-| 4 | `health.go.ug` | wikidata | Ministry of Health |
-| 4 | `ict.go.ug` | wikidata | Ministry of Information and Communications Technology |
-| 4 | `mia.go.ug` | wikidata | Ministry of Internal Affairs |
-| 4 | `mlhud.go.ug` | wikidata | Ministry of Lands, Housing and Urban Development |
-| 4 | `mofa.go.ug` | wikidata | Ministry of Foreign Affairs of the Republic of Uganda |
-| 4 | `mtic.go.ug` | wikidata | Ministry of Trade, Industry and Cooperatives |
-| 4 | `mtti.go.ug` | wikidata | Ministry of Trade, Tourism and Industry |
-| 4 | `mwe.go.ug` | wikidata | Ministry of Water and Environment |
-| 4 | `sti.go.ug` | wikidata | Ministry of Science, Technology and Innovation |
+| 4 | `bou.or.ug` | wikidata | Bank of Uganda |
+| 4 | `caa.go.ug` | wikidata | Civil Aviation Authority of Uganda |
+| 4 | `cdc.gov` | wikidata | Centers for Disease Control and Prevention |
+| 4 | `cmauganda.co.ug` | wikidata | Capital Markets Authority |
+| 4 | `coctu.go.ug` | wikidata | Coordinating Office for Control of Trypanosomiasis in Uganda |
+
+## Local / regional candidates
+
+5 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `mak.ac.ug` | wikidata | Makerere University |
+| 4 | `mubs.ac.ug` | wikidata | Makerere University Business School |
+| 4 | `jmc.go.ug` | wikidata | Jinja Municipal Council |
+| 4 | `molg.go.ug` | wikidata | Ministry of Local Government |
 | 3 | `eala.org` | wikidata | East African Legislative Assembly |
 

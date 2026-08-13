@@ -6,7 +6,7 @@
 - Region: Africa / Eastern Africa
 - Languages: Seychellois Creole; English; French
 - Population: 122729
-- GDP per capita: 17859 US$ (2024)
+- GDP per capita: 19449 US$ (2025)
 - Currencies: SCR
 - ccTLD: `.sc` (manager: VCS Pty Ltd)
 - OECD: non-member
@@ -30,13 +30,39 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+42 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `nationalassembly.sc` | wikidata;wikidata | National Assembly |
+| 7 | `cbs.sc` | wikidata;wikidata | Central Bank of Seychelles |
+| 7 | `nationalassembly.sc` | wikidata;wikidata;wikidata;wikidata | National Assembly of Seychelles | National Assembly |
+| 7 | `sfa.sc` | wikidata;wikidata | Seychelles Fisheries Authority |
 | 6 | `egov.sc` | un_desa | UN/DESA national portal |
+| 6 | `judiciary.sc` | wikidata | Supreme Court of Seychelles |
+| 6 | `seychellescultureinstitute.org` | wikidata;wikidata | Culture, Art and National Heritage Department | Seychelles National Institute... |
+| 4 | `ago.sc` | wikidata | Department of Legal Affairs |
+| 4 | `curatelleoffice.sc` | wikidata | Curatelle Office |
+| 4 | `drdm.sc` | wikidata | Department of Risk and Disaster Management |
+| 4 | `ecs.sc` | wikidata | Electoral Commission of Seychelles |
+| 4 | `esa.egov.sc` | wikidata | Ministry of Industry and Enterprise |
+| 4 | `infocom.sc` | wikidata | Information Commission |
+| 4 | `meteo.sc` | wikidata | Seychelles Meteorological Authority |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Victoria |
+| 4 | `nacseychelles.sc` | wikidata | National Arts and Crafts Council |
+| 4 | `national-library.edu.sc` | wikidata | National Library of the Seychelles |
+| 4 | `nsc.sc` | wikidata | National Sports Council |
+| 4 | `ntb.sc` | wikidata | National Tender Board |
+| 4 | `pemc.sc` | wikidata | Public Enterprise Monitoring Commission |
+| 4 | `saa.sc` | wikidata | Seychelles Airports Authority |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `unisey.ac.sc` | wikidata | University of Seychelles |
 
 ## ccTLD anomalies
 

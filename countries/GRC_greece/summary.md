@@ -30,34 +30,45 @@
 
 ## Candidate domains ranked by score
 
-17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+105 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 10 | `gsis.gr` | wikidata;linkgraph | General Secretariat for Information Systems and Digital Governance |
 | 10 | `hellenicparliament.gr` | wikidata;wikidata;linkgraph | Hellenic Parliament |
-| 10 | `ypes.gr` | wikidata;linkgraph | Ministry of the Interior (Greece) |
-| 8 | `mfa.gr` | wikidata;linkgraph | Ministry of Foreign Affairs (Greece) |
-| 7 | `gsis.gr` | linkgraph | Linked from 27 public-sector domains |
-| 7 | `minagric.gr` | wikidata;linkgraph | Ministry of Rural Development and Food (Greece) |
-| 7 | `ypakp.gr` | wikidata;linkgraph | Ministry of Labour and Social Security |
-| 6 | `et.gr` | linkgraph | Linked from 18 public-sector domains |
-| 5 | `aade.gr` | linkgraph | Linked from 7 public-sector domains |
-| 5 | `areiospagos.gr` | linkgraph | Linked from 6 public-sector domains |
-| 5 | `dpa.gr` | linkgraph | Linked from 9 public-sector domains |
-| 5 | `minfin.gr` | linkgraph | Linked from 6 public-sector domains |
-| 4 | `mindigital.gr` | wikidata | Ministry of Digital Governance (Greece) |
-| 4 | `ministryofjustice.gr` | wikidata | Ministry of Justice (Greece) |
-| 4 | `mnec.gr` | wikidata | Ministry of Economy, Development and Tourism |
-| 4 | `mod.mil.gr` | wikidata | Ministry of National Defence (Greece) |
-| 4 | `yme.gr` | wikidata | Ministry of Infrastructure and Transport (Greece) |
-| 4 | `ynanp.gr` | wikidata | Ministry of Shipping and Island Policy (Greece) |
+| 10 | `mfa.gr` | wikidata;wikidata;linkgraph | Ministry of Foreign Affairs (Greece) | Ministry of Foreign Affairs of Greece |
+| 10 | `minagric.gr` | wikidata;wikidata;linkgraph | Ministry of Rural Development and Food (Greece) |
+| 10 | `ypakp.gr` | wikidata;wikidata;linkgraph | Ministry of Labour and Social Security |
+| 10 | `ypes.gr` | wikidata;wikidata;linkgraph | Ministry of the Interior (Greece) |
+| 9 | `et.gr` | wikidata;linkgraph | National Printing Office |
+| 8 | `aade.gr` | wikidata;linkgraph | General Chemical State Laboratory |
+| 8 | `areiospagos.gr` | wikidata;linkgraph | Court of Cassation |
+| 8 | `dpa.gr` | wikidata;linkgraph | Hellenic Data Protection Authority |
+| 7 | `aead.gr` | wikidata;wikidata | National Transparency Authority |
+| 7 | `eeae.gr` | wikidata;wikidata | Greek Atomic Energy Commission |
+| 7 | `gak.gr` | wikidata;wikidata | General State Archives |
+| 7 | `gr.usembassy.gov` | wikidata;wikidata | Embassy of the United States, Athens | Consulate General of the United States... |
+| 7 | `hcmc.gr` | wikidata;wikidata | Hellenic Capital Market Commission |
+| 7 | `mindigital.gr` | wikidata;wikidata | Ministry of Digital Governance (Greece) |
+| 7 | `ministryofjustice.gr` | wikidata;wikidata | Ministry of Justice (Greece) |
+| 7 | `mnec.gr` | wikidata;wikidata | Ministry of Economy, Development and Tourism |
+| 7 | `mod.mil.gr` | wikidata;wikidata | Ministry of National Defence (Greece) |
+| 7 | `nam.culture.gr` | wikidata;wikidata | Directorate for the Curation of the National Archive of Monuments |
 
 ## Local / regional candidates
 
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+9 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `radio899.gr` | wikidata | Xanthi Municipal Radio |
+| 4 | `auth.gr` | wikidata | Aristotle University of Thessaloniki |
+| 4 | `duth.gr` | wikidata | Democritus University of Thrace |
+| 4 | `ionio.gr` | wikidata | Ionian University |
+| 4 | `uoi.gr` | wikidata | University of Ioannina |
+| 4 | `uom.gr` | wikidata | University of Macedonia |
+| 7 | `radio899.gr` | wikidata;wikidata | Xanthi Municipal Radio |
+| 4 | `opanda.gr` | wikidata | Athens Municipality Agency for Culture, Athletics and Youth |
+| 3 | `cedefop.europa.eu` | wikidata | European Centre for the Development of Professional Training |
+| 3 | `enisa.europa.eu` | wikidata | European Union Agency for Cybersecurity |
 

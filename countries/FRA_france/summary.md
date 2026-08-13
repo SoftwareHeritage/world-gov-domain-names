@@ -30,48 +30,48 @@
 
 ## Candidate domains ranked by score
 
-27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+317 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `assemblee-nationale.fr` | wikidata;wikidata;wikidata;linkgraph | National Assembly | Franco-German Parliamentary Assembly |
-| 9 | `gouvernement.fr` | un_desa;wikidata | Council of Ministers | UN/DESA national portal |
-| 7 | `cnil.fr` | linkgraph | Linked from 44 public-sector domains |
+| 10 | `assemblee-nationale.fr` | wikidata;wikidata;wikidata;wikidata;linkgraph | National Assembly | Franco-German Parliamentary Assembly |
+| 10 | `cea.fr` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;curated | Institut d'Imagerie Biomédicale | Plateformes régionales de transferts techno... |
+| 10 | `cnil.fr` | wikidata;linkgraph | National Commission on Informatics and Liberty |
+| 10 | `gouvernement.fr` | un_desa;wikidata;wikidata | Council of Ministers | UN/DESA national portal |
+| 9 | `ameli.fr` | wikidata;linkgraph | health insurance in France |
+| 9 | `caf.fr` | wikidata;linkgraph | Caisse d'allocations familiales |
+| 8 | `paris.fr` | wikidata;linkgraph | Inspection générale des carrières |
+| 8 | `senat.fr` | wikidata;linkgraph | Senate |
+| 7 | `bnf.fr` | wikidata;wikidata | Bibliothèque nationale de France |
+| 7 | `cnes.fr` | wikidata;wikidata | CNES |
+| 7 | `cnrgv.toulouse.inrae.fr` | wikidata;wikidata | Q2945937 |
+| 7 | `cnrs.fr` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Rous... |
 | 7 | `ctguyane.fr` | wikidata;wikidata | Assembly of French Guiana |
 | 7 | `france.fr` | linkgraph | Linked from 29 public-sector domains |
+| 7 | `ihemi.fr` | wikidata;wikidata | Institut des hautes études du ministère de l'Intérieur |
+| 7 | `inria.fr` | wikidata;wikidata;wikidata;wikidata;wikidata | Institut National de Recherche en Informatique et en Automatique | INRIA Bord... |
+| 7 | `insee.fr` | wikidata;wikidata;wikidata | National Institute of Statistics and Economic Studies | Official Statistical ... |
+| 7 | `inserm.fr` | wikidata;wikidata;wikidata;wikidata | Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre... |
 | 7 | `service-public.fr` | linkgraph | Linked from 165 public-sector domains |
-| 6 | `ameli.fr` | linkgraph | Linked from 11 public-sector domains |
-| 6 | `caf.fr` | linkgraph | Linked from 12 public-sector domains |
-| 6 | `francetravail.fr` | linkgraph | Linked from 12 public-sector domains |
-| 6 | `vie-publique.fr` | linkgraph | Linked from 12 public-sector domains |
-| 5 | `auvergnerhonealpes.fr` | linkgraph | Linked from 8 public-sector domains |
-| 5 | `elysee.fr` | linkgraph | Linked from 9 public-sector domains |
-| 5 | `meteofrance.fr` | linkgraph | Linked from 7 public-sector domains |
-| 5 | `paris.fr` | linkgraph | Linked from 5 public-sector domains |
-| 5 | `paysdelaloire.fr` | linkgraph | Linked from 5 public-sector domains |
-| 5 | `senat.fr` | linkgraph | Linked from 5 public-sector domains |
-| 4 | `assemblee-afe.fr` | wikidata | Assembly of French Citizens Abroad |
-| 4 | `conseil-etat.fr` | wikidata | Conseil d'État |
-| 4 | `grandest.fr` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `hautsdefrance.fr` | linkgraph | Linked from 3 public-sector domains |
+| 7 | `tribunal-de-paris.justice.fr` | wikidata;wikidata;wikidata;wikidata | Parquet national financier | Tribunal de grande instance de Paris | Tribunal ... |
 
 ## Local / regional candidates
 
-39 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+188 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 19 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `bourgognefranchecomte.fr` | wikidata;linkgraph | Regional council of Bourgogne-Franche-Comté |
+| 7 | `corse.fr` | wikidata;wikidata | Executive Council of Corsica |
+| 7 | `gouv.nc` | wikidata;wikidata | Q3112596 |
+| 7 | `guadeloupe.ars.sante.fr` | wikidata;wikidata | Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy |
 | 7 | `iledefrance.fr` | wikidata;linkgraph | Regional Council of Île-de-France |
 | 7 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Nouvelle-Aquitaine Regional Council | Regional Council of Limousin |
+| 4 | `ac-spm.fr` | wikidata | Service of the National Education of Saint Pierre and Miquelon |
 | 4 | `cg971.fr` | wikidata | departmental council of Guadeloupe |
-| 4 | `corse.fr` | wikidata | Executive Council of Corsica |
 | 4 | `hautenormandie.fr` | wikidata | Regional Council of Upper Normandy |
-| 4 | `regionpaca.fr` | wikidata | Regional Council of Provence-Alpes-Côte d'Azur |
-| 3 | `bretagne.bzh` | wikidata | Regional Council of Brittany |
-| 3 | `regionreunion.com` | wikidata | Regional council of Réunion |
-| 7 | `essonne.fr` | wikidata;wikidata | general council of Essonne | departmental council of Essonne |
+| 4 | `justice.fr` | wikidata | Q115471229 |
 
 ## ccTLD anomalies
 

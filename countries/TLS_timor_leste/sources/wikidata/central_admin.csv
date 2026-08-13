@@ -1,21 +1,53 @@
 type,label,website,hostname,level
-ministry,Ministry of Foreign Affairs and Cooperation,https://mnec.gov.tl/,mnec.gov.tl,
-ministry,"Ministry of Education, Youth and Sport",http://moe.gov.tl/pt/,moe.gov.tl,
-ministry,Ministry of Transport and Communications,http://www.mtc.gov.tl/,mtc.gov.tl,
-ministry,Ministry of Health,http://www.ms.gov.tl/en,ms.gov.tl,
-ministry,Ministry of Agriculture and Fisheries,https://www.maf.gov.tl/tl/,maf.gov.tl,
-ministry,Ministry of Petroleum and Minerals,http://mpm.gov.tl/en/,mpm.gov.tl,
-ministry,Ministry of State Administration,https://estatal.gov.tl/,estatal.gov.tl,
-ministry,Ministry of Social Solidarity and Inclusion,http://mss.gov.tl/,mss.gov.tl,
-ministry,"Ministry of Higher Education, Science and Culture",https://mescc.gov.tl/,mescc.gov.tl,
-ministry,Ministry of Veterans Affairs,https://www.macln.gov.tl/,macln.gov.tl,
-ministry,Ministry of Public Works,https://mop.gov.tl/,mop.gov.tl,
-ministry,"Ministry of Tourism, Trade and Industry",https://mtci.gov.tl/,mtci.gov.tl,
+government_agency,Q124094298,http://www.anpm.tl/,anpm.tl,
+government_agency,Banco Central de Timor-Leste,https://www.bancocentral.tl/en,bancocentral.tl,
 ministry,Ministry of Defense of East Timor,https://defesa.gov.tl/,defesa.gov.tl,
-ministry,Ministry of Finance,https://www.mof.gov.tl/,mof.gov.tl,
-ministry,Ministry of Justice,http://www.mj.gov.tl/,mj.gov.tl,
-ministry,Ministry of the Interior,http://www.minterior.gov.tl/,minterior.gov.tl,
-parliament,National Parliament,https://www.parlamento.tl/,parlamento.tl,
+government_agency,Ministry of Defense of East Timor,https://defesa.gov.tl/,defesa.gov.tl,central
+government_agency,"Portuguese Embassy, Dili",https://dili.embaixadaportugal.mne.gov.pt,dili.embaixadaportugal.mne.gov.pt,central
+government_agency,embassy of Brazil in East Timor,http://dili.itamaraty.gov.br,dili.itamaraty.gov.br,central
+government_agency,Delegation of the European Union to Timor-Leste,https://eeas.europa.eu/delegations/timor-leste_en,eeas.europa.eu,
+government_agency,Ministry of State Administration,https://estatal.gov.tl/,estatal.gov.tl,central
+ministry,Ministry of State Administration,https://estatal.gov.tl/,estatal.gov.tl,
+government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en,holyrosaryprovince.org,
+government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
 constitutional_court,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
 constitutional_court,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en,holyrosaryprovince.org,
-supreme_court,National Parliament,https://www.parlamento.tl/,parlamento.tl,
+government_agency,Instituto Nacional de Estatística de Timor-Leste,https://inetl-ip.gov.tl/,inetl-ip.gov.tl,
+government_agency,"embassy of Indonesia, Dili",https://kemlu.go.id/dili,kemlu.go.id,central
+government_agency,"Embassy of Malaysia, Dili",https://www.kln.gov.my/web/tls_dili,kln.gov.my,
+government_agency,Ministry of Veterans Affairs,https://www.macln.gov.tl/,macln.gov.tl,central
+ministry,Ministry of Veterans Affairs,https://www.macln.gov.tl/,macln.gov.tl,
+government_agency,Ministry of Agriculture and Fisheries,https://www.maf.gov.tl/tl/,maf.gov.tl,central
+ministry,Ministry of Agriculture and Fisheries,https://www.maf.gov.tl/tl/,maf.gov.tl,
+ministry,"Ministry of Higher Education, Science and Culture",https://mescc.gov.tl/,mescc.gov.tl,
+government_agency,"Ministry of Higher Education, Science and Culture",https://mescc.gov.tl/,mescc.gov.tl,central
+government_agency,"Embassy of New Zealand, Díli",https://www.mfat.govt.nz/en/countries-and-regions/south-east-asia/timor-leste/new-zealand-embassy/,mfat.govt.nz,central
+government_agency,Q124094424,https://mineralstender.anpm.tl/,mineralstender.anpm.tl,
+government_agency,Ministry of the Interior,http://www.minterior.gov.tl/,minterior.gov.tl,central
+ministry,Ministry of the Interior,http://www.minterior.gov.tl/,minterior.gov.tl,
+ministry,Ministry of Justice,http://www.mj.gov.tl/,mj.gov.tl,
+government_agency,Ministry of Justice,http://www.mj.gov.tl/,mj.gov.tl,central
+government_agency,Ministry of Foreign Affairs and Cooperation,https://mnec.gov.tl/,mnec.gov.tl,central
+ministry,Ministry of Foreign Affairs and Cooperation,https://mnec.gov.tl/,mnec.gov.tl,
+government_agency,"Ministry of Education, Youth and Sport",http://moe.gov.tl/pt/,moe.gov.tl,central
+ministry,"Ministry of Education, Youth and Sport",http://moe.gov.tl/pt/,moe.gov.tl,
+ministry,Ministry of Finance,https://www.mof.gov.tl/,mof.gov.tl,
+government_agency,Ministry of Finance,https://www.mof.gov.tl/,mof.gov.tl,central
+ministry,Ministry of Public Works,https://mop.gov.tl/,mop.gov.tl,
+government_agency,Ministry of Public Works,https://mop.gov.tl/,mop.gov.tl,central
+government_agency,Ministry of Petroleum and Minerals,http://mpm.gov.tl/en/,mpm.gov.tl,central
+ministry,Ministry of Petroleum and Minerals,http://mpm.gov.tl/en/,mpm.gov.tl,
+government_agency,Ministry of Health,http://www.ms.gov.tl/en,ms.gov.tl,central
+ministry,Ministry of Health,http://www.ms.gov.tl/en,ms.gov.tl,
+ministry,Ministry of Social Solidarity and Inclusion,http://mss.gov.tl/,mss.gov.tl,
+government_agency,Ministry of Social Solidarity and Inclusion,http://mss.gov.tl/,mss.gov.tl,central
+ministry,Ministry of Transport and Communications,http://www.mtc.gov.tl/,mtc.gov.tl,
+government_agency,Ministry of Transport and Communications,http://www.mtc.gov.tl/,mtc.gov.tl,central
+government_agency,"Ministry of Tourism, Trade and Industry",https://mtci.gov.tl/,mtci.gov.tl,central
+ministry,"Ministry of Tourism, Trade and Industry",https://mtci.gov.tl/,mtci.gov.tl,
+supreme_court,National Parliament,https://www.parlamento.tl/,parlamento.tl,central
+parliament,National Parliament,https://www.parlamento.tl/,parlamento.tl,central
+government_agency,National Police of East Timor,https://www.pntl.tl/,pntl.tl,
+government_agency,"Embassy of Japan, Dili",https://www.timor-leste.emb-japan.go.jp,timor-leste.emb-japan.go.jp,central
+government_agency,embassy of Australia in East Timor,https://timorleste.embassy.gov.au/,timorleste.embassy.gov.au,central
+government_agency,"Embassy of the United States, Dili",https://tl.usembassy.gov,tl.usembassy.gov,central

@@ -6,7 +6,7 @@
 - Region: Asia / Western Asia
 - Languages: Arabic
 - Population: 11734000
-- GDP per capita: 4618 US$ (2024)
+- GDP per capita: 5348 US$ (2025)
 - Currencies: JOD
 - ccTLD: `.jo` (manager: Ministry of Digital Economy and Entrepreneurship (MoDEE))
 - OECD: non-member
@@ -30,12 +30,40 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.jo` | wikidata;wikidata | Parliament of Jordan |
+| 6 | `amman.diplo.de` | wikidata;wikidata | Embassy of Germany, Amman |
+| 6 | `cco.gov.jot` | wikidata | Jordanian Constitutional Court |
+| 6 | `custodia.org` | wikidata;wikidata | Custodian of the Holy Land |
+| 6 | `roc-taiwan.org` | wikidata;wikidata | Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural ... |
+| 4 | `arabic.jo` | wikidata | Jordan Academy of Arabic |
+| 4 | `hpc.org.jo` | wikidata | Higher Population Council |
+| 4 | `jo.usembassy.gov` | wikidata | Embassy of the United States, Amman |
+| 4 | `representatives.jo` | wikidata | House of Representatives of Jordan |
 | 4 | `rhc.jo` | wikidata | The Royal Hashemite Court |
-| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
+| 4 | `senate.jo` | wikidata | Senate of Jordan |
+| 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Amman |
+| 3 | `amman.mae.ro` | wikidata | Embassy of Romania, Amman |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Jordan |
+| 3 | `emro.who.int` | wikidata | World Health Organization - Jordan |
+| 3 | `hazine.info` | wikidata | National Library of Jordan |
+| 3 | `jo.ambafrance.org` | wikidata | Embassy of France, Amman |
+| 3 | `jordan.mid.ru` | wikidata | embassy of Russia in Jordan |
+| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Jordan |
+| 3 | `mfa.gr` | wikidata | embassy of Greece in Jordan |
+
+## Local / regional candidates
+
+4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `ju.edu.jo` | wikidata | University of Jordan |
+| 4 | `just.edu.jo` | wikidata | Jordan University of Science and Technology |
+| 4 | `yu.edu.jo` | wikidata | Yarmouk University |
+| 3 | `qou.edu` | wikidata | Al-Quds Open University |
 

@@ -6,7 +6,7 @@
 - Region: Asia / Western Asia
 - Languages: Arabic
 - Population: 35300280
-- GDP per capita: 35122 US$ (2024)
+- GDP per capita: 34537 US$ (2025)
 - Currencies: SAR
 - ccTLD: `.sa` (manager: Communications, Space and Technology Commission)
 - OECD: non-member
@@ -30,5 +30,38 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+50 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `shps.org.sa` | wikidata;wikidata | Saudi Heritage Preservation Society |
+| 4 | `bangladeshembassy.org.sa` | wikidata | Embassy of Bangladesh, Riyadh |
+| 4 | `cma.org.sa` | wikidata | Capital Market Authority |
+| 4 | `darah.org.sa` | wikidata | Darah |
+| 4 | `kacst.edu.sa` | wikidata | Saudi Patent Office |
+| 4 | `kapl.org.sa` | wikidata | Q137555839 |
+| 4 | `kenyaembassy.org.sa` | wikidata | embassy of Kenya in Saudi Arabia |
+| 4 | `kfmrc.kau.edu.sa` | wikidata | King Fahd Medical Research Center |
+| 4 | `maldivesembassy.sa` | wikidata | Embassy of Maldives, Riyadh |
+| 4 | `mofaic.gov.ae` | wikidata | Consulate General of the United Arab Emirates, Jeddah |
+| 4 | `moroccanembassy.sa` | wikidata | embassy of Morocco in Saudi Arabia |
+| 4 | `nigeria.org.sa` | wikidata | Embassy of Nigeria, Riyadh |
+| 4 | `palestineembassy.org.sa` | wikidata | Embassy of the State of Palestine in Saudi Arabia |
+| 4 | `qiyas.sa` | wikidata | National Center for Assessment in Higher Education |
+| 4 | `rijad.mfa.gov.hu` | wikidata | Embassy of Hungary, Rijadh |
+| 4 | `safcsp.org.sa` | wikidata | Saudi Federation for Cybersecurity, Programming and Drones |
+| 4 | `scfhs.org.sa` | wikidata | Saudi Commission for Health Specialties |
+| 4 | `slemb.org.sa` | wikidata | embassy of Sri Lanka in Saudi Arabia |
+| 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Al Riyadh |
+| 4 | `ssf.sa` | wikidata | Saudi Shooting Federation |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `kfu.edu.sa` | wikidata;wikidata | King Faisal University |
+| 4 | `rua.edu.sa` | wikidata | Riyadh University of Arts |
 

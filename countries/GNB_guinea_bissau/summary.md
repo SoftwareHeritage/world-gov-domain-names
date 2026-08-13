@@ -6,7 +6,7 @@
 - Region: Africa / Western Africa
 - Languages: Portuguese; Upper Guinea Creole
 - Population: 1781308
-- GDP per capita: 1008 US$ (2024)
+- GDP per capita: 1124 US$ (2025)
 - Currencies: XOF
 - ccTLD: `.gw` (manager: Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau)
 - OECD: non-member
@@ -30,10 +30,25 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parlamento.gw` | wikidata;wikidata | National People's Assembly |
+| 3 | `bceao.int` | wikidata | Central Bank of West African States |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Guinea-Bissau |
+| 3 | `guinea-bissau.mid.ru` | wikidata | embassy of Russia in Guinea-Bissau |
+| 3 | `gw.ambafrance.org` | wikidata | Embassy of France, Bissau |
+| 3 | `gw.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Bissau |
+| 3 | `inep-bissau.org` | wikidata | National Library of Guinea-Bissau |
+| 3 | `stat-guinebissau.com` | wikidata | Instituto Nacional de Estatística |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `uac.gw` | wikidata | Universidade Amílcar Cabral |
 

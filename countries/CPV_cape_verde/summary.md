@@ -6,7 +6,7 @@
 - Region: Africa / Western Africa
 - Languages: Portuguese
 - Population: 491233
-- GDP per capita: 5192 US$ (2024)
+- GDP per capita: 5796 US$ (2025)
 - Currencies: CVE
 - ccTLD: `.cv` (manager: Agência Reguladora Multissectorial da Economia (ARME))
 - OECD: non-member
@@ -38,4 +38,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `parlamento.cv` | wikidata;wikidata | National Assembly of Cape Verde |
 | 5 | `mai.gov.cv` | wikidata | Ministry of Internal Affairs |
 | 5 | `mesci.gov.cv` | wikidata | Ministry of Higher Education, Science and Innovation |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `uta.cv` | wikidata | Atlantic Technical University |
 

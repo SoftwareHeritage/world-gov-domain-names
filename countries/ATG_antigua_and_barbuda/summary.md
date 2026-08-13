@@ -6,7 +6,7 @@
 - Region: Americas / Caribbean
 - Languages: English
 - Population: 103603
-- GDP per capita: 23542 US$ (2024)
+- GDP per capita: 24819 US$ (2025)
 - Currencies: XCD
 - ccTLD: `.ag` (manager: UHSA School of Medicine)
 - OECD: non-member
@@ -30,7 +30,14 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `ag.china-embassy.org` | wikidata | Embassy of the People's Republic of China, St. John's |
+| 3 | `eccb-centralbank.org` | wikidata | Eastern Caribbean Central Bank |
+| 3 | `nationallibraryofantiguaandbarbuda.org` | wikidata | Antigua Public Library |
 
 ## ccTLD anomalies
 

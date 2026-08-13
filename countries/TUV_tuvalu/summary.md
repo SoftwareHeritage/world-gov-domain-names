@@ -30,10 +30,22 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 5 | `tuvaluislands.com` | un_desa | UN/DESA national portal |
+| 4 | `tuvaluarchives.tv` | wikidata | Tuvalu National Library and Archives |
+| 3 | `roc-taiwan.org` | wikidata | Embassy of the Republic of China (Taiwan), Funafuti |
+| 3 | `stampsoftuvalu.com` | wikidata | Tuvalu Philatelic Bureau |
+| 3 | `taiwanembassy.org` | wikidata | Embassy of the Republic of China (Taiwan), Funafuti |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `usp.ac.fj` | wikidata | University of the South Pacific |
 

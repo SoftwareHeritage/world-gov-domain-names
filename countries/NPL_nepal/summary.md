@@ -30,10 +30,32 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `khajurabajaar.com` | wikidata | Khajura Bajaar |
+| 6 | `khajurabajaar.com` | wikidata;wikidata | Khajura Bajaar |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Kathmandu |
+| 4 | `narc.org.np` | wikidata | Nepal Agricultural Research Council |
+| 4 | `nea.org.np` | wikidata | Nepal Electricity Authority |
+| 4 | `nncu.org.np` | wikidata | Nepal National Commission for UNESCO |
+| 4 | `np.usembassy.gov` | wikidata | Embassy of the United States, Kathmandu |
+| 4 | `nrb.org.np` | wikidata | Nepal Rastra Bank |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Nepal |
+| 3 | `finlandabroad.fi` | wikidata | embassy of Finland in Nepal |
+| 3 | `kathmandu.diplo.de` | wikidata | Embassy of Germany, Kathmandu |
+| 3 | `nepal.mid.ru` | wikidata | embassy of Russia in Nepal |
+| 3 | `norway.no` | wikidata | Embassy of Norway, Kathmandu |
+| 3 | `np.ambafrance.org` | wikidata | Embassy of France, Kathmandu |
+| 3 | `np.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Kathmandu |
+| 3 | `welcomenepal.com` | wikidata | Nepal Tourism Board |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `pncampus.edu.np` | wikidata | Prithvi Narayan Campus |
 

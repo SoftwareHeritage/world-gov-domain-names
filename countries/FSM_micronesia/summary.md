@@ -6,7 +6,7 @@
 - Region: Oceania / Micronesia
 - Languages: English
 - Population: 105564
-- GDP per capita: 4166 US$ (2024)
+- GDP per capita: 4414 US$ (2025)
 - Currencies: USD
 - ccTLD: `.fm` (manager: FSM Telecommunications Corporation)
 - OECD: non-member
@@ -30,10 +30,13 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 5 | `fsmgov.org` | un_desa | UN/DESA national portal |
+| 4 | `fm.usembassy.gov` | wikidata | embassy of the United States in the Federated States of Micronesia |
+| 4 | `fsmhealth.fm` | wikidata | Department of Health and Social Affairs |
+| 4 | `fsmstatistics.fm` | wikidata | FM Statistics |
 

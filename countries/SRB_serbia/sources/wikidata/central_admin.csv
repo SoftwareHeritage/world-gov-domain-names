@@ -1,33 +1,171 @@
 type,label,website,hostname,level
-ministry,Ministry of Defense of the Republic of Serbia,http://www.mod.gov.rs,mod.gov.rs,
-ministry,Ministry of Internal Affairs of the Republic of Serbia,http://www.mup.gov.rs,mup.gov.rs,
-ministry,Ministry of Foreign Affairs of the Republic of Serbia,https://www.mfa.gov.rs/,mfa.gov.rs,
-ministry,Ministry of Construction and Urbanism,http://www.mgu.gov.rs,mgu.gov.rs,
-ministry,"Ministry of Education, Science and Technological Development of the Republic of Serbia",http://www.mpn.gov.rs,mpn.gov.rs,
-ministry,Ministry of Justice of the Republic of Serbia,http://www.mpravde.gov.rs,mpravde.gov.rs,
-ministry,Ministry of Culture of the Republic of Serbia,http://www.kultura.gov.rs,kultura.gov.rs,
-ministry,Ministry of Public Administration and Local-Self Government of the Republic of Serbia,http://www.mfp.gov.rs,mfp.gov.rs,
-ministry,"Ministry of Transportation, Construction and Infrastructure of the Republic of Serbia",http://www.ms.gov.rs,ms.gov.rs,
-ministry,Ministry of Environmental Protection,http://www.mprrpp.gov.rs,mprrpp.gov.rs,
-ministry,"Ministry of Trade, Tourism and Telecommunications of the Republic of Serbia",http://mtt.gov.rs,mtt.gov.rs,
-ministry,Ministry of Health of the Republic of Serbia,http://www.zdravlje.gov.rs,zdravlje.gov.rs,
-ministry,Ministry of Defense of the Republic of Serbia,https://www.mod.gov.rs/,mod.gov.rs,
-ministry,"Ministry of Labour, Employment, Veteran, and Social Policy of the Republic of Serbia",http://www.minrzs.gov.rs,minrzs.gov.rs,
-ministry,Ministry of Finance and Economy,http://www.upravacarina.rs/en/,upravacarina.rs,
-ministry,Ministry of Public Administration and Local Self-Government,https://mduls.gov.rs/,mduls.gov.rs,
-ministry,Ministry of Economy,http://www.privreda.gov.rs/,privreda.gov.rs,
-ministry,Ministry of Finance,http://www.mfin.gov.rs/,mfin.gov.rs,
-ministry,Ministry of Mining and Energy of the Republic of Serbia,http://www.merz.gov.rs,merz.gov.rs,
-ministry,Ministry of Mining and Energy of the Republic of Serbia,http://www.mre.gov.rs/,mre.gov.rs,
-ministry,Ministry of Family Welfare and Demography,https://www.minbpd.gov.rs/,minbpd.gov.rs,
-ministry,Ministry of Youth and Sports of the Republic of Serbia,http://www.mos.gov.rs,mos.gov.rs,
-ministry,"Ministry of Agriculture, Forestry and Water Economy of the Republic of Serbia",http://www.mpt.gov.rs,mpt.gov.rs,
-parliament,Assembly of the Community of Municipalities of the Autonomous Province of Kosovo and Metohija,http://www.sapkim.org,sapkim.org,
-parliament,Assembly of Vojvodina,https://www.skupstinavojvodine.gov.rs/,skupstinavojvodine.gov.rs,
-parliament,National Assembly of Serbia,http://www.parlament.gov.rs/,parlament.gov.rs,
-constitutional_court,Second cabinet of Ana Brnabić,https://www.srbija.gov.rs/sastav/en/10/members-of-government.php,srbija.gov.rs,
-constitutional_court,Government of Serbia,http://www.srbija.gov.rs/,srbija.gov.rs,
+government_agency,"Embassy of Algeria, Belgrade",https://www.ambalgserbia.rs/,ambalgserbia.rs,central
+government_agency,"Embassy of Albania, Belgrade",https://ambasadat.gov.al/serbia/,ambasadat.gov.al,central
+government_agency,embassy of Italy in Serbia,https://ambbelgrado.esteri.it,ambbelgrado.esteri.it,central
+government_agency,"Embassy of Angola, Belgrade",https://www.angolaembassy.org.rs/,angolaembassy.org.rs,central
+government_agency,Serbian Business Registers Agency,https://www.apr.gov.rs/,apr.gov.rs,
+government_agency,Serbian Business Registers Agency,https://apr.gov.rs/home.1435.html,apr.gov.rs,
+government_agency,Serbian Business Registers Agency,https://apr.gov.rs/pocetna.1898.html,apr.gov.rs,
+government_agency,Serbian Business Registers Agency,https://apr.gov.rs/%d0%bf%d0%be%d1%87%d0%b5%d1%82%d0%bd%d0%b0.3.html,apr.gov.rs,
+government_agency,Pokrajinski Sekretarijat za Nauku i Tehnološki Razvoj,http://apv-nauka.ns.ac.rs/,apv-nauka.ns.ac.rs,
+government_agency,"Provincial Secretariat for Higher Education and Scientific Research, Autonomous Province of Vojvodina",https://apv.visokoobrazovanje.vojvodina.gov.rs,apv.visokoobrazovanje.vojvodina.gov.rs,
+government_agency,Archive of Serbia,https://arhivsrbije.rs/,arhivsrbije.rs,
+government_agency,Archives of Yugoslavia,http://www.arhivyu.gov.rs/active/en/home.html,arhivyu.gov.rs,
+government_agency,"Embassy of Turkey, Belgrade",https://belgrad-be.mfa.gov.tr,belgrad-be.mfa.gov.tr,central
+government_agency,"Embassy of Germany, Belgrade",https://belgrad.diplo.de/,belgrad.diplo.de,central
+government_agency,"Embassy of Romania, Belgrade",https://belgrad.mae.ro,belgrad.mae.ro,central
+government_agency,"Embassy of Hungary in Belgrade, Serbia",https://belgrad.mfa.gov.hu/,belgrad.mfa.gov.hu,central
+government_agency,"Embassy of Poland, Belgrade",http://www.belgrad.msz.gov.pl/,belgrad.msz.gov.pl,central
+government_agency,embassy of Qatar in Serbia,https://belgrade.embassy.qa,belgrade.embassy.qa,central
+government_agency,embassy of Slovenia in Serbia,http://www.belgrade.embassy.si/,belgrade.embassy.si,central
+government_agency,"Embassy of Azerbaijan, Belgrade",http://belgrade.mfa.gov.az/,belgrade.mfa.gov.az,central
+government_agency,embassy of North Macedonia in Serbia,https://belgrade.mfa.gov.mk,belgrade.mfa.gov.mk,central
+government_agency,embassy of Portugal in Serbia,https://belgrado.embaixadaportugal.mne.gov.pt,belgrado.embaixadaportugal.mne.gov.pt,central
+government_agency,embassy of Brazil in Serbia,http://belgrado.itamaraty.gov.br,belgrado.itamaraty.gov.br,central
+government_agency,Belgrade Centre for Security Policy,http://www.bezbednost.org/BCSP/2/BCSP.shtml,bezbednost.org,
+government_agency,Security Information Agency,http://www.bia.gov.rs,bia.gov.rs,central
+government_agency,"embassy of Austria, Belgrade",https://www.bmeia.gv.at/oeb-belgrad/,bmeia.gv.at,central
+government_agency,embassy of Canada in Serbia,https://www.canadainternational.gc.ca/serbia-serbie/index.aspx,canadainternational.gc.ca,central
+government_agency,Center for Investigation of Accidents in Transport of the Republic of Serbia,https://cins.gov.rs/,cins.gov.rs,
+government_agency,Centar za Promociju Nauke,http://www.cpn.rs/,cpn.rs,
+government_agency,Center for Social Work Novi Sad,https://www.csrns.org.rs/,csrns.org.rs,
+government_agency,Directorate of Measures and Precious Metals of the Republic of Serbia,https://www.dmdm.rs,dmdm.rs,
+government_agency,embassy of Democratic Republic of the Congo in Serbia,http://drcongo-embassy.rs,drcongo-embassy.rs,central
+government_agency,embassy of Switzerland in Serbia,https://www.eda.admin.ch/belgrade,eda.admin.ch,central
+government_agency,Delegation of the European Union to Serbia,https://eeas.europa.eu/delegations/serbia_en,eeas.europa.eu,
+government_agency,embassy of Mexico in Serbia,https://embamex.sre.gob.mx/serbia,embamex.sre.gob.mx,central
+government_agency,embassy of Israel in Serbia,https://embassies.gov.il/beograd/,embassies.gov.il,central
+government_agency,embassy of India in Serbia,https://www.eoibelgrade.gov.in/,eoibelgrade.gov.in,central
+government_agency,embassy of Argentina in Serbia,https://eserb.cancilleria.gob.ar,eserb.cancilleria.gob.ar,central
+government_agency,Embassy of Spain in Serbia,http://www.exteriores.gob.es/Embajadas/BELGRADO,exteriores.gob.es,central
+government_agency,embassy of Finland in Serbia,https://finlandabroad.fi/web/srb,finlandabroad.fi,central
+government_agency,embassy of Kazakhstan in Serbia,https://www.gov.kz/memleket/entities/mfa-belgrad,gov.kz,central
+government_agency,British Embassy Belgrade,https://www.gov.uk/world/organisations/british-embassy-belgrade,gov.uk,central
+government_agency,Republic Hydrometeorological Institute of Serbia,https://www.hidmet.gov.rs/,hidmet.gov.rs,
+government_agency,Innovation Fund of the Republic of Serbia,https://www.inovacionifond.rs,inovacionifond.rs,
+government_agency,"Institute for Medicinal Plants Research ""dr Josif Pančić""",https://www.institutjosifpancic.rs,institutjosifpancic.rs,
+government_agency,Polish Institute in Belgrade,https://instytutpolski.pl/belgrade/,instytutpolski.pl,
+government_agency,Institute for Science Application in Agriculture,https://www.ipn.bg.ac.rs,ipn.bg.ac.rs,
+government_agency,Institute for the Serbian Language of SASA,http://www.isj.sanu.ac.rs,isj.sanu.ac.rs,
+government_agency,Croatian province of the Society of Jesus,https://www.isusovci.hr/,isusovci.hr,
 constitutional_court,Croatian province of the Society of Jesus,https://www.isusovci.hr/,isusovci.hr,
+government_agency,"embassy of Indonesia, Beograd",https://kemlu.go.id/belgrade,kemlu.go.id,central
+government_agency,Office for Kosovo and Metohija,https://www.kim.gov.rs,kim.gov.rs,
+government_agency,Office for Kosovo and Metohija,https://www.kim.gov.rs/lat/index.php,kim.gov.rs,
+government_agency,"Embassy of Malaysia, Belgrade",https://www.kln.gov.my/web/srb_belgrade/,kln.gov.my,central
+ministry,Ministry of Culture of the Republic of Serbia,http://www.kultura.gov.rs,kultura.gov.rs,
+government_agency,Ministry of Culture of the Republic of Serbia,http://www.kultura.gov.rs,kultura.gov.rs,central
+ministry,Ministry of Public Administration and Local Self-Government,https://mduls.gov.rs/,mduls.gov.rs,
+government_agency,Ministry of Public Administration and Local Self-Government,https://mduls.gov.rs/,mduls.gov.rs,central
+government_agency,Ministry of Mining and Energy of the Republic of Serbia,http://www.merz.gov.rs,merz.gov.rs,central
+ministry,Ministry of Mining and Energy of the Republic of Serbia,http://www.merz.gov.rs,merz.gov.rs,
+government_agency,"embassy of Bulgaria, Belgrade",https://www.mfa.bg/embassies/serbia,mfa.bg,central
+government_agency,embassy of Cyprus in Serbia,http://www.mfa.gov.cy/mfa/embassies/Embassy_Belgrade.nsf,mfa.gov.cy,central
+ministry,Ministry of Foreign Affairs of the Republic of Serbia,https://www.mfa.gov.rs/,mfa.gov.rs,
+government_agency,Ministry of Foreign Affairs of the Republic of Serbia,https://www.mfa.gov.rs/,mfa.gov.rs,central
+government_agency,Diplomatic Archives of the Ministry of Foreign Affairs of Serbia,https://www.mfa.gov.rs/ministarstvo/diplomatski-arhiv,mfa.gov.rs,
+government_agency,embassy of Greece in Serbia,https://www.mfa.gr/serbia,mfa.gr,central
+ministry,Ministry of Finance,http://www.mfin.gov.rs/,mfin.gov.rs,
+government_agency,Ministry of Finance,http://www.mfin.gov.rs/,mfin.gov.rs,central
+ministry,Ministry of Public Administration and Local-Self Government of the Republic of Serbia,http://www.mfp.gov.rs,mfp.gov.rs,
+government_agency,Ministry of Public Administration and Local-Self Government of the Republic of Serbia,http://www.mfp.gov.rs,mfp.gov.rs,central
+government_agency,Ministry of Construction and Urbanism,http://www.mgu.gov.rs,mgu.gov.rs,central
+ministry,Ministry of Construction and Urbanism,http://www.mgu.gov.rs,mgu.gov.rs,
+ministry,Ministry of Family Welfare and Demography,https://www.minbpd.gov.rs/,minbpd.gov.rs,
+government_agency,Ministry of Family Welfare and Demography,https://www.minbpd.gov.rs/,minbpd.gov.rs,central
+ministry,"Ministry of Labour, Employment, Veteran, and Social Policy of the Republic of Serbia",http://www.minrzs.gov.rs,minrzs.gov.rs,
+government_agency,"Ministry of Labour, Employment, Veteran, and Social Policy of the Republic of Serbia",http://www.minrzs.gov.rs,minrzs.gov.rs,central
+government_agency,embassy of Cuba in Serbia,http://misiones.minrex.gob.cu/es/serbia,misiones.minrex.gob.cu,central
+ministry,Ministry of Defense of the Republic of Serbia,http://www.mod.gov.rs,mod.gov.rs,
+government_agency,Ministry of Defense of the Republic of Serbia,https://www.mod.gov.rs/,mod.gov.rs,central
+ministry,Ministry of Defense of the Republic of Serbia,https://www.mod.gov.rs/,mod.gov.rs,
+government_agency,Ministry of Defense of the Republic of Serbia,http://www.mod.gov.rs,mod.gov.rs,central
+government_agency,embassy of Iraq in Serbia,https://www.mofa.gov.iq/belgrade,mofa.gov.iq,central
+government_agency,embassy of Pakistan in Serbia,http://mofa.gov.pk/serbia,mofa.gov.pk,central
+government_agency,"Embassy of the United Arab Emirates, Belgrade",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=52079906-41e7-4c96-ab42-66302ddf35e6,mofaic.gov.ae,central
+government_agency,Ministry of Youth and Sports of the Republic of Serbia,http://www.mos.gov.rs,mos.gov.rs,central
+ministry,Ministry of Youth and Sports of the Republic of Serbia,http://www.mos.gov.rs,mos.gov.rs,
+government_agency,"Ministry of Education, Science and Technological Development of the Republic of Serbia",http://www.mpn.gov.rs,mpn.gov.rs,central
+ministry,"Ministry of Education, Science and Technological Development of the Republic of Serbia",http://www.mpn.gov.rs,mpn.gov.rs,
+government_agency,Ministry of Justice of the Republic of Serbia,http://www.mpravde.gov.rs,mpravde.gov.rs,central
+ministry,Ministry of Justice of the Republic of Serbia,http://www.mpravde.gov.rs,mpravde.gov.rs,
+government_agency,Ministry of Environmental Protection,http://www.mprrpp.gov.rs,mprrpp.gov.rs,central
+ministry,Ministry of Environmental Protection,http://www.mprrpp.gov.rs,mprrpp.gov.rs,
+ministry,"Ministry of Agriculture, Forestry and Water Economy of the Republic of Serbia",http://www.mpt.gov.rs,mpt.gov.rs,
+government_agency,"Ministry of Agriculture, Forestry and Water Economy of the Republic of Serbia",http://www.mpt.gov.rs,mpt.gov.rs,central
+government_agency,Ministry of Mining and Energy of the Republic of Serbia,http://www.mre.gov.rs/,mre.gov.rs,central
+ministry,Ministry of Mining and Energy of the Republic of Serbia,http://www.mre.gov.rs/,mre.gov.rs,
+government_agency,"Ministry of Transportation, Construction and Infrastructure of the Republic of Serbia",http://www.ms.gov.rs,ms.gov.rs,central
+ministry,"Ministry of Transportation, Construction and Infrastructure of the Republic of Serbia",http://www.ms.gov.rs,ms.gov.rs,
+government_agency,"Ministry of Trade, Tourism and Telecommunications of the Republic of Serbia",http://mtt.gov.rs,mtt.gov.rs,central
+ministry,"Ministry of Trade, Tourism and Telecommunications of the Republic of Serbia",http://mtt.gov.rs,mtt.gov.rs,
+government_agency,Ministry of Internal Affairs of the Republic of Serbia,http://www.mup.gov.rs,mup.gov.rs,central
+ministry,Ministry of Internal Affairs of the Republic of Serbia,http://www.mup.gov.rs,mup.gov.rs,
+government_agency,Gendarmery,http://www.mup.gov.rs/cms_cir/direkcija.nsf/zandarmerija.h,mup.gov.rs,central
+government_agency,embassy of the Czech republic in Serbia,https://www.mzv.cz/belgrade,mzv.cz,central
+government_agency,embassy of Slovakia in Serbia,https://www.mzv.sk/web/belehrad,mzv.sk,central
+government_agency,National Library of Serbia,https://nb.rs/,nb.rs,
+government_agency,"National library ""Radoje Domanović"" Leskovac",https://nbleskovac.rs/,nbleskovac.rs,
+government_agency,National Bank of Serbia,http://www.nbs.rs/,nbs.rs,central
+government_agency,"Consulate of Turkey, Niš",https://nis-kb.mfa.gov.tr,nis-kb.mfa.gov.tr,
+government_agency,"Embassy of Norway, Belgrade",https://www.norway.no/serbia/,norway.no,central
+government_agency,"Embassy of the Sovereign Military Order of Malta, Belgrade",https://orderofmalta.org.rs/,orderofmalta.org.rs,central
+government_agency,embassy of South Korea in Serbia,https://overseas.mofa.go.kr/rs-ko/index.do,overseas.mofa.go.kr,central
+government_agency,embassy of South Korea in Serbia,https://overseas.mofa.go.kr/rs-sr/index.do,overseas.mofa.go.kr,central
+parliament,National Assembly of Serbia,http://www.parlament.gov.rs/,parlament.gov.rs,central
+supreme_court,National Assembly of Serbia,http://www.parlament.gov.rs/,parlament.gov.rs,central
+government_agency,National Assembly of Serbia,http://www.parlament.gov.rs/,parlament.gov.rs,central
+government_agency,Directorate for Inland Waterways,http://www.plovput.rs/main,plovput.rs,
+government_agency,Ministry of Economy,http://www.privreda.gov.rs/,privreda.gov.rs,central
+ministry,Ministry of Economy,http://www.privreda.gov.rs/,privreda.gov.rs,
+government_agency,Development Agency of Serbia,http://www.ras.gov.rs/en,ras.gov.rs,
+government_agency,Regulatory Agency for Electronic Communications and Postal Services,http://www.ratel.rs/,ratel.rs,
+government_agency,Republic Geodetic Authority,https://www.rgz.gov.rs,rgz.gov.rs,
+government_agency,Q131541504,https://www.rik.parlament.gov.rs/,rik.parlament.gov.rs,central
+government_agency,"embassy of France, Belgrade",https://rs.ambafrance.org/,rs.ambafrance.org,central
+government_agency,"Embassy of the People's Republic of China, Belgrade",http://rs.chineseembassy.org/,rs.chineseembassy.org,central
+government_agency,embassy of Croatia in Serbia,http://rs.mvep.hr,rs.mvep.hr,central
+government_agency,"Embassy of the United States, Belgrade",https://rs.usembassy.gov/,rs.usembassy.gov,central
 supreme_court,Assembly of the Community of Municipalities of the Autonomous Province of Kosovo and Metohija,http://www.sapkim.org,sapkim.org,
+parliament,Assembly of the Community of Municipalities of the Autonomous Province of Kosovo and Metohija,http://www.sapkim.org,sapkim.org,
+government_agency,"Embassy of Belgium, Belgrade",http://serbia.diplomatie.belgium.be,serbia.diplomatie.belgium.be,central
+government_agency,embassy of Venezuela in Serbia,http://serbia.embajada.gob.ve/,serbia.embajada.gob.ve,central
+government_agency,embassy of Australia in Serbia,https://serbia.embassy.gov.au/,serbia.embassy.gov.au,central
+government_agency,embassy of Belarus in Serbia,https://serbia.mfa.gov.by,serbia.mfa.gov.by,central
+government_agency,embassy of Iran in Serbia,https://serbia.mfa.gov.ir,serbia.mfa.gov.ir,central
+government_agency,"Embassy of Ukraine, Belgrade",http://serbia.mfa.gov.ua/,serbia.mfa.gov.ua,central
+government_agency,"Embassy of Russia, Belgrade",https://serbia.mid.ru,serbia.mid.ru,central
+government_agency,German-Serbian Chamber of Commerce,https://serbien.ahk.de/sr/,serbien.ahk.de,
+government_agency,German-Serbian Chamber of Commerce,https://serbien.ahk.de/,serbien.ahk.de,
+government_agency,embassy of Denmark in Serbia,https://serbien.um.dk,serbien.um.dk,central
 supreme_court,Assembly of Vojvodina,https://www.skupstinavojvodine.gov.rs/,skupstinavojvodine.gov.rs,
-supreme_court,National Assembly of Serbia,http://www.parlament.gov.rs/,parlament.gov.rs,
+parliament,Assembly of Vojvodina,https://www.skupstinavojvodine.gov.rs/,skupstinavojvodine.gov.rs,
+government_agency,Serbia and Montenegro Air Traffic Services Agency,http://www.smatsa.rs/,smatsa.rs,
+government_agency,"Center for Social Work ""Solidarity""",https://solidarnost.org.rs/,solidarnost.org.rs,
+constitutional_court,Second cabinet of Ana Brnabić,https://www.srbija.gov.rs/sastav/en/10/members-of-government.php,srbija.gov.rs,central
+constitutional_court,Government of Serbia,http://www.srbija.gov.rs/,srbija.gov.rs,central
+government_agency,Government of Serbia,http://www.srbija.gov.rs/,srbija.gov.rs,central
+government_agency,Second cabinet of Ana Brnabić,https://www.srbija.gov.rs/sastav/en/10/members-of-government.php,srbija.gov.rs,central
+government_agency,"Embassy of Sweden, Belgrade",http://www.swedenabroad.com/Belgrade,swedenabroad.com,central
+government_agency,Public Prosecution Office for Organized Crime,https://tok.jt.rs,tok.jt.rs,
+government_agency,Q16088177,https://www.up.sud.rs,up.sud.rs,
+government_agency,Ministry of Finance and Economy,http://www.upravacarina.rs/en/,upravacarina.rs,central
+ministry,Ministry of Finance and Economy,http://www.upravacarina.rs/en/,upravacarina.rs,
+government_agency,Constitutional Court of Serbia,http://www.ustavni.sud.rs,ustavni.sud.rs,
+government_agency,Military Geographical Institute,http://www.vgi.mod.gov.rs/,vgi.mod.gov.rs,
+government_agency,Vojvodina Investment Promotion,http://www.vip.org.rs,vip.org.rs,
+government_agency,Supreme Court of Republic of Serbia,https://www.vk.sud.rs/,vk.sud.rs,
+government_agency,Intelligence and Reconnaissance Directorate,http://www.vs.rs/,vs.rs,
+government_agency,"Consulate General of Turkey, Novi Pazar",https://yenipazar-bk.mfa.gov.tr,yenipazar-bk.mfa.gov.tr,
+government_agency,embassy of Japan in Serbia,https://www.yu.emb-japan.go.jp,yu.emb-japan.go.jp,central
+government_agency,Ministry of Health of the Republic of Serbia,http://www.zdravlje.gov.rs,zdravlje.gov.rs,central
+ministry,Ministry of Health of the Republic of Serbia,http://www.zdravlje.gov.rs,zdravlje.gov.rs,
+government_agency,Institute of Public Health of Sabac,https://www.zjz.org.rs,zjz.org.rs,
+government_agency,Zavod za zaštitu prirode Srbije,http://www.zzps.rs,zzps.rs,
+government_agency,Zavod za zaštitu prirode Srbije,https://www.zzps.rs/wp/,zzps.rs,
+university,Academy of Vocational Studies Šabac,https://www.akademijasabac.edu.rs,akademijasabac.edu.rs,university
+university,Academy of Vocational Studies Šabac,https://www.akademijasabac.edu.rs/,akademijasabac.edu.rs,university
+university,University of Kragujevac,http://www.kg.ac.rs/,kg.ac.rs,university
+university,University of Novi Sad,http://www.uns.ac.rs/,uns.ac.rs,university
+university,University of Belgrade Faculty of Economics,http://www.ekof.bg.ac.rs,ekof.bg.ac.rs,university
+university,University of Belgrade,https://www.bg.ac.rs/,bg.ac.rs,university

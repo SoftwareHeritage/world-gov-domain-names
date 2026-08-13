@@ -6,7 +6,7 @@
 - Region: Asia / Southern Asia
 - Languages: Persian (Farsi)
 - Population: 85961000
-- GDP per capita: 5190 US$ (2024)
+- GDP per capita: 3924 US$ (2025)
 - Currencies: IRR
 - ccTLD: `.ir` (manager: Institute for Research in Fundamental Sciences)
 - OECD: non-member
@@ -30,24 +30,46 @@
 
 ## Candidate domains ranked by score
 
-15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+70 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `dolat.ir` | wikidata;wikidata | Government of Iran |
+| 7 | `emsrt.ir` | wikidata;wikidata | Ministry of Science, Research and Technology (Iran) |
+| 7 | `en.mfa.ir` | wikidata;wikidata | Ministry of Foreign Affairs of Iran |
+| 7 | `justice.ir` | wikidata;wikidata | Ministry of Justice (Iran) |
+| 7 | `maj.ir` | wikidata;wikidata | Ministry of Agriculture Jihad |
+| 7 | `mcth.ir` | wikidata;wikidata | Ministry of Cultural Heritage, Tourism and Handicrafts |
+| 7 | `medu.ir` | wikidata;wikidata | Ministry of Education of Iran |
+| 7 | `mefa.ir` | wikidata;wikidata | Ministry of Economic Affairs and Finance (Iran) |
+| 7 | `mod.ir` | wikidata;wikidata | Ministry of Defense and Armed Forces Logistics |
+| 7 | `moi.ir` | wikidata;wikidata | Ministry of Interior (Iran) |
+| 7 | `mop.ir` | wikidata;wikidata | Ministry of Petroleum |
+| 7 | `mrt.ir` | wikidata;wikidata | Ministry of Roads and Transportation |
+| 7 | `mrud.ir` | wikidata;wikidata | Ministry of Roads and Urban Development |
+| 7 | `police.ir` | wikidata;wikidata | Police Command of the Islamic Republic of Iran | Guidance Patrol |
 | 7 | `rc.majlis.ir` | wikidata;wikidata | Islamic Consultative Assembly |
-| 4 | `dolat.ir` | wikidata | Government of Iran |
-| 4 | `emsrt.ir` | wikidata | Ministry of Science, Research and Technology (Iran) |
-| 4 | `en.mfa.ir` | wikidata | Ministry of Foreign Affairs of Iran |
-| 4 | `justice.ir` | wikidata | Ministry of Justice (Iran) |
-| 4 | `maj.ir` | wikidata | Ministry of Agriculture Jihad |
-| 4 | `mcth.ir` | wikidata | Ministry of Cultural Heritage, Tourism and Handicrafts |
-| 4 | `medu.ir` | wikidata | Ministry of Education of Iran |
-| 4 | `mefa.ir` | wikidata | Ministry of Economic Affairs and Finance (Iran) |
-| 4 | `mod.ir` | wikidata | Ministry of Defense and Armed Forces Logistics |
-| 4 | `moi.ir` | wikidata | Ministry of Interior (Iran) |
-| 4 | `mop.ir` | wikidata | Ministry of Petroleum |
-| 4 | `mrt.ir` | wikidata | Ministry of Roads and Transportation |
-| 4 | `mrud.ir` | wikidata | Ministry of Roads and Urban Development |
-| 4 | `vaja.ir` | wikidata | Ministry of Intelligence |
+| 7 | `vaja.ir` | wikidata;wikidata | Ministry of Intelligence |
+| 7 | `wri.ac.ir` | wikidata;wikidata | Water Research Institute |
+| 6 | `divanealee.eadl.ir` | wikidata | Supreme Court of Iran |
+| 4 | `acecr.ir` | wikidata | Academic Center for Education, Culture and Research |
+| 4 | `afghanembassy.ir` | wikidata | Embassy of Afghanistan, Tehran |
+
+## Local / regional candidates
+
+29 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `ostandari.khorasan.ir` | wikidata | Khorasan Razavi Provincial Government |
+| 4 | `alzahra.ac.ir` | wikidata | Alzahra University |
+| 4 | `art.ac.ir` | wikidata | Iran University of Art |
+| 4 | `aut.ac.ir` | wikidata | Amirkabir University of Technology |
+| 4 | `d-kazeroon.nus.ac.ir` | wikidata | Women's Skill National University of Kazerun |
+| 4 | `en.hut.ac.ir` | wikidata | Hamadan University of Technology |
+| 4 | `en.sbu.ac.ir` | wikidata | Shahid Beheshti University |
+| 4 | `en.um.ac.ir` | wikidata | Ferdowsi University of Mashhad |
+| 4 | `ihu.ac.ir` | wikidata | Imam Hossein University |
+| 4 | `kazeroon.fars.pnu.ac.ir` | wikidata | Payame Noor University of Kazerun |
 

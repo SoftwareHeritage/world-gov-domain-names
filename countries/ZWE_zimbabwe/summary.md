@@ -30,5 +30,40 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `arczw.ac.zw` | wikidata | Agricultural Research Council of Zimbabwe |
+| 4 | `competition.co.zw` | wikidata | Competition and Tariff Commission |
+| 4 | `ema.co.zw` | wikidata | Environmental Management Agency |
+| 4 | `forestry.co.zw` | wikidata | Forestry Commission |
+| 4 | `ipec.co.zw` | wikidata | Insurance and Pensions Commission (IPEC). |
+| 4 | `mediacommission.co.zw` | wikidata | Zimbabwe Media Commission |
+| 4 | `mohcc.org.zw` | wikidata | National Institute of Health Research, Zimbabwe |
+| 4 | `mrcz.org.zw` | wikidata | Medical Research Council of Zimbabwe |
+| 4 | `nac.org.zw` | wikidata | National AIDS Council |
+| 4 | `rbz.co.zw` | wikidata | Reserve Bank of Zimbabwe |
+| 4 | `rcz.ac.zw` | wikidata | Research Council of Zimbabwe |
+| 4 | `sirdc.ac.zw` | wikidata | National Metrology Institute |
+| 4 | `zimche.ac.zw` | wikidata | National Council for Higher Education, Zimbabwe |
+| 4 | `zimstat.co.zw` | wikidata | Zimbabwe National Statistics Agency |
+| 4 | `zingsa.ac.zw` | wikidata | Zimbabwe National Geospatial and Space Agency |
+| 4 | `zinwa.co.zw` | wikidata | Zimbabwe National Water Authority |
+| 4 | `zw.usembassy.gov` | wikidata | embassy of the United States in Zimbabwe |
+| 3 | `ambafrance-zw.org` | wikidata | Embassy of France, Harare |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Zimbabwe |
+| 3 | `ghanaembassy-zimbabwe.com` | wikidata | embassy of Ghana in Zimbabwe |
+
+## Local / regional candidates
+
+4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `hit.ac.zw` | wikidata | Harare Institute of Technology |
+| 4 | `nust.ac.zw` | wikidata | National University of Science and Technology, Zimbabwe |
+| 4 | `uz.ac.zw` | wikidata | University of Zimbabwe |
+| 4 | `chitungwiza.co.zw` | wikidata | Chitungwiza Municipality |
 

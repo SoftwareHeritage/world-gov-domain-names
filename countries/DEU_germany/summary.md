@@ -30,46 +30,46 @@
 
 ## Candidate domains ranked by score
 
-51 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2906 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `gesetze-im-internet.de` | linkgraph | Linked from 21 public-sector domains |
-| 6 | `assemblee-nationale.fr` | wikidata;wikidata | Franco-German Parliamentary Assembly |
-| 6 | `bayern.de` | linkgraph | Linked from 16 public-sector domains |
-| 6 | `hessen.de` | linkgraph | Linked from 11 public-sector domains |
-| 6 | `justiz.de` | linkgraph | Linked from 10 public-sector domains |
-| 6 | `niedersachsen.de` | linkgraph | Linked from 10 public-sector domains |
-| 6 | `nrw.de` | linkgraph | Linked from 11 public-sector domains |
-| 5 | `arbeitsagentur.de` | linkgraph | Linked from 8 public-sector domains |
-| 5 | `bamf.de` | linkgraph | Linked from 8 public-sector domains |
-| 5 | `berlin.de` | linkgraph | Linked from 9 public-sector domains |
-| 5 | `bioeg.de` | linkgraph | Linked from 5 public-sector domains |
-| 5 | `bka.de` | linkgraph | Linked from 5 public-sector domains |
-| 5 | `bmel.de` | linkgraph | Linked from 9 public-sector domains |
-| 5 | `bmfsfj.de` | linkgraph | Linked from 6 public-sector domains |
-| 5 | `bpb.de` | linkgraph | Linked from 5 public-sector domains |
-| 5 | `brandenburg.de` | linkgraph | Linked from 9 public-sector domains |
-| 5 | `bremen.de` | linkgraph | Linked from 5 public-sector domains |
-| 5 | `destatis.de` | linkgraph | Linked from 6 public-sector domains |
-| 5 | `dwd.de` | linkgraph | Linked from 9 public-sector domains |
-| 5 | `govdata.de` | linkgraph | Linked from 6 public-sector domains |
+| 10 | `bundespolizei.de` | wikidata;wikidata;wikidata;wikidata;linkgraph | Bundespolizeidirektion | Direktion Bundesbereitschaftspolizei | Federal Polic... |
+| 10 | `bzst.de` | wikidata;wikidata;linkgraph | Federal Central Tax Office |
+| 10 | `umweltbundesamt.de` | wikidata;wikidata;linkgraph | Federal Environment Agency |
+| 9 | `bundesgerichtshof.de` | wikidata;wikidata;wikidata;wikidata;wikidata | Q85848834 | Federal Court of Justice of Germany |
+| 8 | `bamf.de` | wikidata;linkgraph | Bundesamt für Migration und Flüchtlinge |
+| 8 | `bioeg.de` | wikidata;linkgraph | Federal Institute of Public Health |
+| 8 | `bka.de` | wikidata;linkgraph | Federal Criminal Police Office |
+| 8 | `bmel.de` | wikidata;linkgraph | Q119440152 |
+| 8 | `bmfsfj.de` | wikidata;linkgraph | Q124708848 |
+| 8 | `bpb.de` | wikidata;linkgraph | Federal Agency for Civic Education |
+| 8 | `destatis.de` | wikidata;linkgraph | Federal Statistical Office of Germany |
+| 8 | `dwd.de` | wikidata;linkgraph | Deutscher Wetterdienst |
+| 8 | `polizei.de` | wikidata;linkgraph | Landespolizei |
+| 7 | `ahk.de` | wikidata;wikidata | German Chambers of Commerce Abroad |
+| 7 | `antidiskriminierungsstelle.de` | wikidata;wikidata | German Federal Anti-Discrimination Agency |
+| 7 | `bafg.de` | wikidata;linkgraph | Federal Institute of Hydrology |
+| 7 | `bafin.de` | wikidata;wikidata;wikidata | Federal Financial Supervisory Authority |
+| 7 | `bafza.de` | wikidata;wikidata | Federal Office of Family Affairs and Civil Society Functions |
+| 7 | `bam.de` | wikidata;wikidata;wikidata;wikidata | Federal Institute for Materials Research and Testing | Bundesanstalt für Mate... |
+| 7 | `bfarm.de` | wikidata;wikidata | Q1006437 | Federal Institute for Drugs and Medical Devices |
 
 ## Local / regional candidates
 
-17 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 17 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1477 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1012 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 8 | `baden-wuerttemberg.de` | wikidata;linkgraph | Government of Baden-Württemberg |
-| 8 | `hamburg.de` | wikidata;linkgraph | Senate of the Free and Hanseatic City of Hamburg |
-| 7 | `landtag-bayern.de` | wikidata;wikidata | Landtag of Bavaria |
-| 4 | `bremische-buergerschaft.de` | wikidata | Bürgerschaft of Bremen |
-| 4 | `hamburgische-buergerschaft.de` | wikidata | Hamburg Parliament |
-| 4 | `hessischer-landtag.de` | wikidata | Landtag of Hesse |
-| 4 | `landtag-bw.de` | wikidata | Landtag of Baden-Württemberg |
-| 4 | `landtag-mv.de` | wikidata | Landtag of Mecklenburg-Vorpommern |
-| 4 | `landtag-niedersachsen.de` | wikidata | Landtag of Lower Saxony |
-| 4 | `landtag-saar.de` | wikidata | Landtag of Saarland |
+| 10 | `baden-wuerttemberg.de` | wikidata;wikidata;wikidata;linkgraph | Representation of the State of Baden-Württemberg to the European Union | Gove... |
+| 10 | `bayern.de` | wikidata;wikidata;wikidata;linkgraph | Bavarian State Chancellery | Representation of Bavaria to the European Union ... |
+| 10 | `berlin.de` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q28841021 | Q28841025 | Steglitz-Zehlendorf District Office | Wasserschutzpol... |
+| 10 | `hamburg.de` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q28841071 | Landesvertretung Hamburg Berlin | Q2072142 | Q28841067 | Q2884105... |
+| 10 | `saarland.de` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q104600204 | Ministry for Social Affairs, Public Health Female and Family Aff... |
+| 10 | `schleswig-holstein.de` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q131777618 | Schleswig-Holstein Supreme Court of Justice | Q107632663 | Schle... |
+| 10 | `thueringen.de` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Thuringia State archive | Office for the Protection of the Constitution for T... |
+| 8 | `brandenburg.de` | wikidata;linkgraph | Staatskanzlei des Landes Brandenburg |
+| 8 | `rlp.de` | wikidata;linkgraph | Staatskanzlei Rheinland-Pfalz |
+| 8 | `sachsen-anhalt.de` | wikidata;linkgraph | Ministry of Economy, Science and Digitalisation |
 

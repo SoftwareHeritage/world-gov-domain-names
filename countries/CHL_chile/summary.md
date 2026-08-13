@@ -6,7 +6,7 @@
 - Region: Americas / South America
 - Languages: Spanish
 - Population: 20206953
-- GDP per capita: 16710 US$ (2024)
+- GDP per capita: 17995 US$ (2025)
 - Currencies: CLP
 - ccTLD: `.cl` (manager: NIC Chile (University of Chile))
 - OECD: member since 2010
@@ -30,25 +30,35 @@
 
 ## Candidate domains ranked by score
 
-10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+128 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `bienesnacionales.cl` | wikidata;wikidata;wikidata | Ministry of National Property | Q5655486 |
 | 7 | `congreso.cl` | wikidata;wikidata | National Congress of Chile |
-| 4 | `bienesnacionales.cl` | wikidata | Ministry of National Property |
-| 4 | `defensa.cl` | wikidata | Ministry of National Defense of Chile |
-| 4 | `hacienda.cl` | wikidata | Ministry of Finance |
-| 4 | `mindep.cl` | wikidata | Ministry of Sports (Chile) |
-| 4 | `mineduc.cl` | wikidata | Ministry of Education of Chile |
-| 4 | `minmineria.cl` | wikidata | Ministry of Mining |
-| 4 | `minsal.cl` | wikidata | Ministry of Health |
-| 4 | `minsegpublica.cl` | wikidata | Ministry of Public Security of Chile |
-| 4 | `municipalidaddevalparaiso.cl` | wikidata | Valparaíso |
+| 7 | `defensa.cl` | wikidata;wikidata | Ministry of National Defense of Chile |
+| 7 | `minmineria.cl` | wikidata;wikidata | Ministry of Mining |
+| 7 | `minsegpublica.cl` | wikidata;wikidata | Ministry of Public Security of Chile |
+| 6 | `tribunalconstitucional.cl` | wikidata | Constitutional Court of Chile |
+| 5 | `onemi.gov.cl` | wikidata | National Office of Emergency of the Interior Ministry |
+| 4 | `academialenguarapanui.cl` | wikidata | Q130492298 |
+| 4 | `aduana.cl` | wikidata | Servicio Nacional de Aduanas |
+| 4 | `agenciaeducacion.cl` | wikidata | Q5659763 |
+| 4 | `anid.cl` | wikidata | Chilean National Agency for Research and Development |
+| 4 | `archivonacional.cl` | wikidata | National Archives of Chile |
+| 4 | `bcentral.cl` | wikidata | Central Bank of Chile |
+| 4 | `bibliotecaspublicas.cl` | wikidata | Q37812651 |
+| 4 | `bomberos.cl` | wikidata | Bomberos de Chile |
+| 4 | `bomberosancud.cl` | wikidata | Q16554157 |
+| 4 | `bomberosconchali.cl` | wikidata | Q24936343 |
+| 4 | `bomberoscopiapo.cl` | wikidata | Q20994801 |
+| 4 | `bomberosmaipu.cl` | wikidata | Q20014332 |
+| 4 | `bomberosvinadelmar.cl` | wikidata | Cuerpo de Bomberos de Viña del Mar |
 
 ## Local / regional candidates
 
-14 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+25 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

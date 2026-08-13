@@ -30,46 +30,46 @@
 
 ## Candidate domains ranked by score
 
-10441 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13931 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 8 | `capitol.texas.gov` | wikidata;wikidata | Texas Legislature |
-| 8 | `cga.ct.gov` | wikidata;wikidata | Connecticut General Assembly |
-| 8 | `cincinnati-oh.gov` | wikidata;wikidata | Cincinnati Division of Aviation | Cincinnati Division of Development, Permits... |
-| 8 | `congress.gov` | wikidata;wikidata | United States Congress |
-| 8 | `iga.in.gov` | wikidata;wikidata | Indiana General Assembly |
-| 8 | `ilga.gov` | wikidata;wikidata | Illinois General Assembly |
-| 8 | `lauderhill-fl.gov` | wikidata;wikidata | Lauderhill |
-| 8 | `lawrenceburgtn.gov` | wikidata;wikidata | Baker | Lawrenceburg |
-| 8 | `leg.colorado.gov` | wikidata;wikidata | Colorado General Assembly |
-| 8 | `leg.mt.gov` | wikidata;wikidata | Montana Legislature |
-| 8 | `legis.delaware.gov` | wikidata;wikidata | Delaware General Assembly |
-| 8 | `legis.ga.gov` | wikidata;wikidata | Georgia General Assembly |
-| 8 | `legis.iowa.gov` | wikidata;wikidata | Iowa General Assembly |
-| 8 | `legislature.maine.gov` | wikidata;wikidata | Maine Legislature |
-| 8 | `legislature.mi.gov` | wikidata;wikidata | Michigan Legislature |
-| 8 | `legislature.ohio.gov` | wikidata;wikidata | Ohio General Assembly |
-| 8 | `malegislature.gov` | wikidata;wikidata | Massachusetts General Court |
-| 8 | `mgaleg.maryland.gov` | wikidata;wikidata | Maryland General Assembly |
-| 8 | `mo.gov` | wikidata;wikidata | Missouri General Assembly |
-| 8 | `ncleg.gov` | wikidata;wikidata | North Carolina General Assembly |
+| 8 | `aberdeenwa.gov` | wikidata;wikidata | Aberdeen |
+| 8 | `abilityone.gov` | wikidata;wikidata | U.S. AbilityOne Commission | Office of Inspector General, Committee for Purch... |
+| 8 | `abingdon-va.gov` | wikidata;wikidata | Abingdon |
+| 8 | `abingtonma.gov` | wikidata;wikidata | Abington |
+| 8 | `abseconnj.gov` | wikidata;wikidata | Absecon |
+| 8 | `acl.gov` | wikidata;wikidata | Administration for Community Living | National Institute on Disability, Indep... |
+| 8 | `acton-ma.gov` | wikidata;wikidata | Acton |
+| 8 | `adamn.gov` | wikidata;wikidata | Ada |
+| 8 | `addisontx.gov` | wikidata;wikidata | Addison |
+| 8 | `alamoheightstx.gov` | wikidata;wikidata | Alamo Heights |
+| 8 | `albanyga.gov` | wikidata;wikidata | Albany |
+| 8 | `albanyny.gov` | wikidata;wikidata | Albany |
+| 8 | `algonaiowa.gov` | wikidata;wikidata | Algona |
+| 8 | `algonawa.gov` | wikidata;wikidata | Algona |
+| 8 | `aliquippapa.gov` | wikidata;wikidata | Aliquippa |
+| 8 | `allendalenj.gov` | wikidata;wikidata | Allendale |
+| 8 | `allenstownnh.gov` | wikidata;wikidata | Allenstown |
+| 8 | `allentownpa.gov` | wikidata;wikidata | Allentown |
+| 8 | `alna.maine.gov` | wikidata;wikidata | Alna |
+| 8 | `alpinecountyca.gov` | wikidata;wikidata | Alpine County Sheriff's Office | Alpine County District Attorney's Office |
 
 ## Local / regional candidates
 
-129 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+5521 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1308 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `ag.ky.gov` | wikidata;wikidata | Kentucky Department of Criminal Investigation | Kentucky Office of the Attorn... |
+| 8 | `ag.ny.gov` | wikidata;wikidata | Office of the Attorney General | Office of the New York State Attorney General |
+| 8 | `agri.ohio.gov` | wikidata;wikidata;wikidata | Ohio Department of Agriculture | Ohio Soil and Water Conservation Commission ... |
+| 8 | `alaska.gov` | wikidata;wikidata;wikidata | State of Alaska | government of Alaska |
+| 8 | `alea.gov` | wikidata;wikidata | Alabama Law Enforcement Agency | Alabama Department of Public Safety |
+| 8 | `americansamoa.gov` | wikidata;wikidata;wikidata | American Samoa Government Department of Health | Department of Public Health ... |
+| 8 | `archives.ncdcr.gov` | wikidata;wikidata | State Archives of North Carolina | North Carolina State Historical Records Ad... |
+| 8 | `ardot.gov` | wikidata;wikidata | Arkansas Highway Police | Arkansas Department of Transportation |
+| 8 | `asp.arkansas.gov` | wikidata;wikidata | Arkansas Highway Patrol | Arkansas State Police |
 | 8 | `azleg.gov` | wikidata;wikidata | Arizona State Legislature |
-| 8 | `capitol.hawaii.gov` | wikidata;wikidata | Hawaii State Legislature |
-| 8 | `le.utah.gov` | wikidata;wikidata | Utah State Legislature |
-| 8 | `leg.wa.gov` | wikidata;wikidata | Washington State Legislature |
-| 8 | `legis.la.gov` | wikidata;wikidata | Louisiana State Legislature |
-| 8 | `nysenate.gov` | wikidata;wikidata | New York State Legislature |
-| 6 | `assembly.state.ny.us` | wikidata;wikidata | New York State Legislature |
-| 3 | `ocsd62.org` | wikidata | Oregon City School District No. 62 |
-| 3 | `oregontrailschools.com` | wikidata | Oregon Trail School District No. 46 |
-| 8 | `harrisburgpa.gov` | wikidata;wikidata | Harrisburg City Council | Harrisburg |
 

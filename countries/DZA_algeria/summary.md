@@ -6,7 +6,7 @@
 - Region: Africa / Northern Africa
 - Languages: Arabic
 - Population: 47400000
-- GDP per capita: 5753 US$ (2024)
+- GDP per capita: 6051 US$ (2025)
 - Currencies: DZD
 - ccTLD: `.dz` (manager: CERIST)
 - OECD: non-member
@@ -30,19 +30,46 @@
 
 ## Candidate domains ranked by score
 
-10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+65 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `mdn.dz` | wikidata;wikidata;wikidata | Ministry of National Defense (Algeria) |
+| 7 | `ansej.org.dz` | wikidata;wikidata | Agence nationale de soutien à l'emploi des jeunes |
+| 7 | `dgf.org.dz` | wikidata;wikidata | Q25386281 | Q25387129 |
+| 7 | `dgsn.dz` | wikidata;wikidata;wikidata;wikidata;wikidata | Algerian police | General Directorate of National Security |
+| 7 | `elmadjlis-hci.dz` | wikidata;wikidata | Supreme Islamic Council of Algeria |
+| 7 | `m-moudjahidine.dz` | wikidata;wikidata | Ministry of Mujahidin |
+| 7 | `mdn.dz` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of National Defense (Algeria) | État-major de l'armée algérienne | N... |
+| 7 | `mesrs.dz` | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
+| 7 | `mptic.dz` | wikidata;wikidata | Ministry of Post and Telecommunications |
+| 7 | `ogebc.dz` | wikidata;wikidata | Q92324509 |
+| 7 | `sante.dz` | wikidata;wikidata | Ministère de la Santé |
 | 6 | `apn-dz.org` | wikidata;wikidata | Parliament of Algeria |
+| 6 | `coursupreme.dz` | wikidata | Supreme Court of Algeria |
 | 6 | `el-mouradia.dz` | un_desa | UN/DESA national portal |
-| 4 | `elmadjlis-hci.dz` | wikidata | Supreme Islamic Council of Algeria |
-| 4 | `m-moudjahidine.dz` | wikidata | Ministry of Mujahidin |
-| 4 | `mesrs.dz` | wikidata | Ministry of Higher Education and Scientific Research |
-| 4 | `mjustice.dz` | wikidata | Ministry of Justice |
-| 4 | `mptic.dz` | wikidata | Ministry of Post and Telecommunications |
-| 4 | `sante.dz` | wikidata | Ministère de la Santé |
-| 3 | `wikidata.org` | wikidata | Ministry of Agriculture and Rural Development |
+| 6 | `wikidata.org` | wikidata;wikidata | Ministry of Agriculture and Rural Development |
+| 4 | `abhcsm.dz` | wikidata | Agence de Bassin Hydrographique Constantinois-Seybousse-Mellegue |
+| 4 | `alnaft.dz` | wikidata | National agency for the valorization of hydrocarbon resource |
+| 4 | `anem.dz` | wikidata | National Employment Agency |
+| 4 | `anvredet.org.dz` | wikidata | Anvredet |
+| 4 | `apn.dz` | wikidata | People's National Assembly |
+| 4 | `archives-can.dz` | wikidata | Algerian National Archives |
+
+## Local / regional candidates
+
+16 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `courdeboumerdes.mjustice.dz` | wikidata | Boumerdès Court |
+| 4 | `de-boumerdes.dz` | wikidata | Boumerdès Province School District |
+| 7 | `univ-chlef.dz` | wikidata;wikidata | Hassiba Benbouali University of Chlef |
+| 4 | `cu-tipaza.dz` | wikidata | Centre Universitaire Morsli Abdellah de Tipaza |
+| 4 | `univ-alger.dz` | wikidata | University of Algiers 1 |
+| 4 | `univ-alger2.dz` | wikidata | Algiers 2 University |
+| 4 | `univ-alger3.dz` | wikidata | University of Algiers 3 |
+| 4 | `univ-annaba.dz` | wikidata | Badji Mokhtar-Annaba University |
+| 4 | `univ-bejaia.dz` | wikidata | University of Béjaïa |
+| 4 | `univ-boumerdes.dz` | wikidata | M'hamed Bougara University of Boumerdès |
 

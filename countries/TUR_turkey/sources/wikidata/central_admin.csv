@@ -1,28 +1,503 @@
 type,label,website,hostname,level
+government_agency,Ankara 29 Mayis State Hospital,https://29mayisdh.saglik.gov.tr,29mayisdh.saglik.gov.tr,
 ministry,Ministry of Justice,http://adalet.gov.tr/,adalet.gov.tr,
-ministry,Ministry of Justice,http://www.justice.gov.tr/,justice.gov.tr,
+government_agency,Ministry of Justice,http://adalet.gov.tr/,adalet.gov.tr,central
+government_agency,Afet ve Acil Durum Yönetimi Başkanlığı,https://www.afad.gov.tr/,afad.gov.tr,
+government_agency,Ministry of Labour and Social Security,https://ailevecalisma.gov.tr,ailevecalisma.gov.tr,central
 ministry,Ministry of Labour and Social Security,https://ailevecalisma.gov.tr,ailevecalisma.gov.tr,
+government_agency,Presidency for Alevi-Bektashi Culture and Cemevi,https://alevibektasi.ktb.gov.tr,alevibektasi.ktb.gov.tr,
+government_agency,Embassy of Cameroon in Ankara,https://ambacamturquie.com,ambacamturquie.com,central
+government_agency,Embassy of Niger to Turkey,http://www.ambaniger-tr.org/,ambaniger-tr.org,central
+government_agency,"Embassy of Italy, Ankara",https://ambankara.esteri.it,ambankara.esteri.it,central
+government_agency,Embassy of Albania in Ankara,https://ambasadat.gov.al/turkey/,ambasadat.gov.al,central
+government_agency,Embassy of Kosovo in Ankara,https://ambasadat.net/Turqi,ambasadat.net,central
+government_agency,Constitutional Court of Turkey,https://www.anayasa.gov.tr/,anayasa.gov.tr,central
+government_agency,Embassy of Portugal in Ankara,https://ancara.embaixadaportugal.mne.gov.pt,ancara.embaixadaportugal.mne.gov.pt,central
+government_agency,Embassy of Brazil in Ankara,http://ancara.itamaraty.gov.br,ancara.itamaraty.gov.br,central
+government_agency,Embassy of Qatar in Ankara,https://ankara.embassy.qa,ankara.embassy.qa,central
+government_agency,Embassy of Slovenia in Ankara,http://ankara.embassy.si/,ankara.embassy.si,central
+government_agency,Ankara Directorate of Revenue,https://ankara.gib.gov.tr/,ankara.gib.gov.tr,
+government_agency,Embassy of Luxembourg in Ankara,https://ankara.mae.lu,ankara.mae.lu,central
+government_agency,"Embassy of Romania, Ankara",https://ankara.mae.ro/,ankara.mae.ro,central
+government_agency,Embassy of Estonia in Ankara,https://ankara.mfa.ee/,ankara.mfa.ee,central
+government_agency,Embassy of Azerbaijan in Ankara,https://ankara.mfa.gov.az,ankara.mfa.gov.az,central
+government_agency,"Embassy of Northern Cyprus, Ankara",https://ankara.mfa.gov.ct.tr/,ankara.mfa.gov.ct.tr,central
+government_agency,Embassy of Ethiopia in Ankara,http://www.ankara.mfa.gov.et,ankara.mfa.gov.et,central
+government_agency,"Hungarian embassy, Ankara",https://ankara.mfa.gov.hu/,ankara.mfa.gov.hu,central
+government_agency,Embassy of North Macedonia in Ankara,https://ankara.mfa.gov.mk,ankara.mfa.gov.mk,central
+government_agency,embassy of Serbia in Turkey,http://www.ankara.mfa.gov.rs/,ankara.mfa.gov.rs,central
+government_agency,Embassy of Somalia in Ankara,https://ankara.mfa.gov.so,ankara.mfa.gov.so,central
+government_agency,Embassy of Uganda in Ankara,https://ankara.mofa.go.ug/,ankara.mofa.go.ug,central
+government_agency,"Embassy of Bangladesh, Ankara",https://ankara.mofa.gov.bd,ankara.mofa.gov.bd,central
+government_agency,"Embassy of Thailand, Ankara",https://ankara.thaiembassy.org,ankara.thaiembassy.org,central
+government_agency,Embassy of the Philippines in Ankara,https://ankarape.dfa.gov.ph,ankarape.dfa.gov.ph,central
+government_agency,German Consulate Antalya,https://antalya.diplo.de/,antalya.diplo.de,
+government_agency,Atatürk Bahçe Kültürleri Merkez Araştırma Enstitüsü,https://arastirma.tarimorman.gov.tr/yalovabahce,arastirma.tarimorman.gov.tr,
+government_agency,Doğu Akdeniz Geçit Kuşağı Tarımsal Araştırma Enstitüsü,https://arastirma.tarimorman.gov.tr/dagtem,arastirma.tarimorman.gov.tr,
+government_agency,Black Sea Agricultural Research Institute,https://arastirma.tarimorman.gov.tr/ktae/,arastirma.tarimorman.gov.tr,
+government_agency,Plant Protection Central Research Institute,https://arastirma.tarimorman.gov.tr/zmmae,arastirma.tarimorman.gov.tr,
+government_agency,Koyunculuk Araştırma Enstitüsü Müdürlüğü,https://arastirma.tarimorman.gov.tr/koyunculuk,arastirma.tarimorman.gov.tr,
+government_agency,Central Fisheries Research Institute,https://arastirma.tarimorman.gov.tr/sumae,arastirma.tarimorman.gov.tr,
+government_agency,Ankara Water and Sewerage Administration,http://www.aski.gov.tr/,aski.gov.tr,
+government_agency,Ankara Chamber of Industry,http://www.aso.org.tr/,aso.org.tr,
+government_agency,Forensic Medicine Institution,http://www.atk.gov.tr/,atk.gov.tr,
+government_agency,Banking Regulation and Supervision Agency,http://www.bddk.org.tr/WebSitesi/Default.aspx,bddk.org.tr,
+government_agency,"Embassy of Austria, Ankara",https://www.bmeia.gv.at/oeb-ankara/,bmeia.gv.at,central
+government_agency,National Boron Research Institute,http://www.boren.gov.tr/en,boren.gov.tr,
+government_agency,Information and Communication Technologies Authority,http://www.btk.gov.tr,btk.gov.tr,
+government_agency,embassy of Canada in Turkey,https://www.canadainternational.gc.ca/turkey-turquie,canadainternational.gc.ca,central
+government_agency,Çalışma ve Sosyal Güvenlik Eğitim ve Araştırma Merkezi,https://casgem.gov.tr,casgem.gov.tr,
+government_agency,Digital Transformation Office,https://cbddo.gov.tr/,cbddo.gov.tr,
+government_agency,Presidency of The Republic of Turkey Human Resources Office,https://www.cbiko.gov.tr/,cbiko.gov.tr,
+government_agency,Çölleşme ve Erozyonla Mücadele Genel Müdürlüğü,https://cem.csb.gov.tr,cem.csb.gov.tr,
+government_agency,Embassy of Chile in Ankara,https://chile.gob.cl/turquia,chile.gob.cl,central
+government_agency,Capital Markets Board of Turkey,https://cmb.gov.tr,cmb.gov.tr,central
+government_agency,Consulate General of Italy in Istanbul,https://consistanbul.esteri.it,consistanbul.esteri.it,
+government_agency,"Consulate General of Palestine, Istanbul",https://consulateofpalestine.com.tr/tr,consulateofpalestine.com.tr,
+ministry,"Ministry of Environment, Urbanization and Climate",http://www.csb.gov.tr/,csb.gov.tr,
+government_agency,"Ministry of Environment, Urbanization and Climate",http://www.csb.gov.tr/,csb.gov.tr,central
+government_agency,Ministry of Labour and Social Security,https://www.csgb.gov.tr/,csgb.gov.tr,central
 ministry,Ministry of Labour and Social Security,https://www.csgb.gov.tr/,csgb.gov.tr,
-ministry,Ministry of Youth and Sports,https://www.gsb.gov.tr/,gsb.gov.tr,
+government_agency,General Directorate of Prisons and Detention Houses (TR),http://www.cte.adalet.gov.tr/,cte.adalet.gov.tr,
+government_agency,Turkish Council of State,http://www.danistay.gov.tr/,danistay.gov.tr,
+government_agency,National Disaster Insurance Institution,http://dask.gov.tr/,dask.gov.tr,
+government_agency,Denizli Yatırım İzleme ve Koordinasyon Başkanlığı,http://www.denizliyikob.gov.tr/,denizliyikob.gov.tr,
+government_agency,government of Turkey,https://detsis.gov.tr/,detsis.gov.tr,central
+constitutional_court,government of Turkey,https://detsis.gov.tr/,detsis.gov.tr,central
+government_agency,Prime Ministry Republic Archives,https://www.devletarsivleri.gov.tr/,devletarsivleri.gov.tr,
+government_agency,Turkish State Theatres,http://www.devtiyatro.gov.tr/,devtiyatro.gov.tr,
+government_agency,General Directorate of State Airports (Turkey),http://www.dhmi.gov.tr/,dhmi.gov.tr,
+government_agency,Directorate of Religious Affairs,http://www.diyanet.gov.tr,diyanet.gov.tr,
+government_agency,Turkish State Opera and Ballet,http://www.dobgm.gov.tr,dobgm.gov.tr,
+government_agency,State Personnel Administration,http://www.dpb.gov.tr/,dpb.gov.tr,
+government_agency,State Hydraulic Works,http://www.dsi.gov.tr/,dsi.gov.tr,
+government_agency,Embassy of Switzerland in Ankara,https://www.eda.admin.ch/ankara,eda.admin.ch,central
+government_agency,"Consulate General of Switzerland, Istanbul",https://www.eda.admin.ch/istanbul,eda.admin.ch,
+government_agency,Delegation of the European Union to Türkiye,https://www.eeas.europa.eu/delegations/türkiye_en,eeas.europa.eu,
+government_agency,General Directorate of Security,http://www.egm.gov.tr,egm.gov.tr,
+government_agency,Intelligence Presidency of General Directorate of Security,https://www.egm.gov.tr/istihbarat,egm.gov.tr,
+government_agency,General Directorate of Renewable Energy (Turkey),http://www.eie.gov.tr/anasayfa.aspx,eie.gov.tr,
+government_agency,Embassy of Mexico in Ankara,https://embamex.sre.gob.mx/turquia,embamex.sre.gob.mx,central
+government_agency,"Embassy of Saudi Arabia, Ankara",https://embassies.mofa.gov.sa/sites/Turkey,embassies.mofa.gov.sa,central
+government_agency,Embassy of Angola in Ankara,https://www.embassyangolatr.org,embassyangolatr.org,central
+government_agency,Embassy of Nigeria in Ankara,https://embassynigeriaturkey.com/,embassynigeriaturkey.com,central
+government_agency,Embassy of Palestine in Ankara,https://www.embassyofpalestine.org.tr/,embassyofpalestine.org.tr,central
+government_agency,Ministry of Energy and Natural Resources,http://www.enerji.gov.tr,enerji.gov.tr,central
 ministry,Ministry of Energy and Natural Resources,http://www.enerji.gov.tr,enerji.gov.tr,
+government_agency,Energy Market Regulatory Authority,http://www.epdk.org.tr/,epdk.org.tr,
+government_agency,Association of Access Providers (Turkey),https://www.esb.org.tr/,esb.org.tr,
+government_agency,Embassy of Argentina in Ankara,https://eturq.cancilleria.gob.ar/,eturq.cancilleria.gob.ar,central
+government_agency,Turk Eximbank,https://www.eximbank.gov.tr/,eximbank.gov.tr,
+government_agency,Embassy of Spain in Ankara,http://www.exteriores.gob.es/Embajadas/ANKARA,exteriores.gob.es,central
+government_agency,Consulate-General of Spain in Istanbul,http://www.exteriores.gob.es/Consulados/ESTAMBUL/es/Consulado/Paginas/LocalizacionContacto.aspx,exteriores.gob.es,
+government_agency,Embassy of Finland in Ankara,https://finlandabroad.fi/web/tur,finlandabroad.fi,central
+government_agency,Embassy of Malta in Ankara,https://foreignandeu.gov.mt/en/Embassies/ME_Ankara,foreignandeu.gov.mt,central
+government_agency,Embassy of Ghana in Ankara,https://ghanaembassy-turkey.com/,ghanaembassy-turkey.com,central
+government_agency,Revenue Administration,http://gib.gov.tr/,gib.gov.tr,central
+supreme_court,Grand National Assembly of Turkey,https://global.tbmm.gov.tr/,global.tbmm.gov.tr,central
+parliament,Grand National Assembly of Turkey,https://global.tbmm.gov.tr/,global.tbmm.gov.tr,central
+government_agency,Embassy of Peru in Ankara,https://www.gob.pe/embajada-del-peru-en-turquia,gob.pe,central
+government_agency,Directorate General of Migration Management (Turkey),http://www.goc.gov.tr,goc.gov.tr,
+government_agency,embassy of Kazakhstan in Turkey,https://www.gov.kz/memleket/entities/mfa-ankara,gov.kz,central
+government_agency,"Embassy of Poland, Ankara",https://www.gov.pl/web/turcja,gov.pl,central
+government_agency,British Honorary Consulate Fethiye,https://www.gov.uk/world/organisations/british-honorary-consulate-fethiye,gov.uk,
+government_agency,British Vice Consulate Antalya,https://www.gov.uk/world/organisations/british-vice-consulate-antalya,gov.uk,
+government_agency,British Honorary Consulate Marmaris,https://www.gov.uk/world/organisations/british-honorary-consulate-marmaris,gov.uk,
+government_agency,British Consulate General Istanbul,https://www.gov.uk/world/organisations/british-consulate-general-istanbul,gov.uk,
+government_agency,British Consulate Izmir,https://www.gov.uk/world/organisations/british-consulate-izmir,gov.uk,
+government_agency,British Embassy Ankara,https://www.gov.uk/world/organisations/british-embassy-ankara,gov.uk,central
+government_agency,British Honorary Consulate Bodrum,https://www.gov.uk/world/organisations/british-honorary-consulate-bodrum,gov.uk,
+government_agency,Ministry of Youth and Sports,https://www.gsb.gov.tr/,gsb.gov.tr,central
+ministry,Ministry of Youth and Sports,https://www.gsb.gov.tr/,gsb.gov.tr,
+government_agency,General Command of Mapping,https://www.harita.gov.tr,harita.gov.tr,
+government_agency,Izmir Biomedicine and Genome Center,https://www.ibg.edu.tr,ibg.edu.tr,
+government_agency,Ministry of Interior of Turkey,https://www.icisleri.gov.tr/,icisleri.gov.tr,central
+ministry,Ministry of Interior of Turkey,https://www.icisleri.gov.tr/,icisleri.gov.tr,
+government_agency,Directorate of Communications,https://iletisim.gov.tr/,iletisim.gov.tr,
+government_agency,General Directorate of Provincial Administration (Turkey),http://www.illeridaresi.gov.tr/,illeridaresi.gov.tr,
+government_agency,"Embassy of India, Ankara",http://www.indembassyankara.gov.in,indembassyankara.gov.in,central
+government_agency,Q109419667,https://www.invest.gov.tr/,invest.gov.tr,
+government_agency,Investment Support and Promotion Agency of Turkey,http://www.invest.gov.tr/,invest.gov.tr,
+government_agency,Embassy of Ireland in Ankara,https://www.ireland.ie/en/turkiye/ankara/,ireland.ie,central
+government_agency,İSKİ,https://www.iski.istanbul/web/en-US,iski.istanbul,
+government_agency,İSKİ,http://www.iski.istanbul/web/tr-TR,iski.istanbul,
+government_agency,Turkish Labor Agency,https://www.iskur.gov.tr,iskur.gov.tr,
+government_agency,"Consulate-General of the People's Republic of China, Istanbul",http://istanbul.china-consulate.org,istanbul.china-consulate.org,central-1
+government_agency,"French Consulate General in Istanbul, Turkey",https://istanbul.consulfrance.org/,istanbul.consulfrance.org,
+government_agency,"Consulate General of Germany, Istanbul",https://istanbul.diplo.de,istanbul.diplo.de,
+government_agency,Consulate-General of Russia in Istanbul,https://istanbul.mid.ru/,istanbul.mid.ru,
+government_agency,Consulate-General of Japan in Istanbul,http://www.istanbul.tr.emb-japan.go.jp/,istanbul.tr.emb-japan.go.jp,
+government_agency,Consulate-General of Japan in Istanbul,http://www.istanbul.tr.emb-japan.go.jp/index_j.html,istanbul.tr.emb-japan.go.jp,
+government_agency,Istanbul Provincial Health Directorate,https://istanbulism.saglik.gov.tr,istanbulism.saglik.gov.tr,
+government_agency,Intelligence Presidency of General Directorate of Security,http://www.istihbarat.pol.tr/,istihbarat.pol.tr,
+government_agency,İstanbul Kalkınma Ajansı,http://www.istka.org.tr/,istka.org.tr,
+government_agency,"Consulate General of Hungary, Istanbul",https://isztambul.mfa.gov.hu/,isztambul.mfa.gov.hu,
+government_agency,Istanbul Fire Department,https://itfaiye.ibb.gov.tr,itfaiye.ibb.gov.tr,
+government_agency,İzmir Fire Department,https://itfaiye.izmir.bel.tr,itfaiye.izmir.bel.tr,central-1
+government_agency,"Consulate General of Germany, İzmir",https://izmir.diplo.de/,izmir.diplo.de,
+government_agency,İZSU,https://www.izsu.gov.tr,izsu.gov.tr,
+government_agency,İzmir Chamber of Commerce,https://www.izto.org.tr/,izto.org.tr,
+government_agency,Gendarmerie General Command,https://www.jandarma.gov.tr/,jandarma.gov.tr,central
+government_agency,Ministry of Justice,http://www.justice.gov.tr/,justice.gov.tr,central
+ministry,Ministry of Justice,http://www.justice.gov.tr/,justice.gov.tr,
+government_agency,Q131170119,http://kardelen.baglar.bel.tr/,kardelen.baglar.bel.tr,
+government_agency,Kastamonu Ölçme Değerlendirme Merkezi,https://kastamonuodm.meb.gov.tr,kastamonuodm.meb.gov.tr,
+government_agency,"embassy of Indonesia, Ankara",https://kemlu.go.id/ankara,kemlu.go.id,central
+government_agency,"consulate general of Indonesia, Istanbul",https://kemlu.go.id/istanbul,kemlu.go.id,central-1
+government_agency,"Embassy of Kenya, Ankara",https://kenyaembassy.org.tr/,kenyaembassy.org.tr,central
+government_agency,General Directorate of Highways in Turkey,http://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Root/default.aspx,kgm.gov.tr,
+government_agency,Q6035534,http://kik.gov.tr/,kik.gov.tr,
+government_agency,Directorate General of Coastal Safety,http://www.kiyiemniyeti.gov.tr,kiyiemniyeti.gov.tr,
+government_agency,Embassy of Malaysia in Ankara,https://www.kln.gov.my/web/tur_ankara,kln.gov.my,central
+government_agency,Bursa Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88684/bursa-kultur-varliklarini-koruma-bolge-kurulu-mudurlugu.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Gaziantep Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89075/gaziantep-kultur-varliklarini-koruma-bolge-kurulu-mudur-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Diyarbakır Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88846/diyarbakir-kultur-varliklarini-koruma-bolge-kurulu-mudu-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Ankara Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88378/ankara-kultur-varliklarini-koruma-bolge-kurulu-mudurlug-.html,korumakurullari.ktb.gov.tr,
+government_agency,Edirne Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88905/edirne-kultur-varliklarini-koruma-bolge-kurulu-mudurlug-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Samsun Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89610/samsun-kultur-varliklarini-koruma-bolge-kurulu-mudurlug-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Eskişehir Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88949/eskisehir-kultur-varliklarini-koruma-bolge-kurulu-mudur-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Istanbul 4th Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89157/istanbul-4-numarali-kultur-varliklarini-koruma-bolge-ku-.html,korumakurullari.ktb.gov.tr,local
+government_agency,Kocaeli Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89442/kocaeli-kultur-varliklarini-koruma-bolge-kurulu-mudurlu-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Istanbul 5th Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89178/istanbul-5-numarali-kultur-varliklarini-koruma-bolge-ku-.html,korumakurullari.ktb.gov.tr,local
+government_agency,Istanbul 1st Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89086/istanbul-1-numarali-kultur-varliklarini-koruma-bolge-ku-.html,korumakurullari.ktb.gov.tr,local
+government_agency,Aydın Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88462/aydin-kultur-varliklarini-koruma-bolge-kurulu-mudurlugu.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Hatay Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-242230/hatay--kultur-varliklarini-koruma-bolge-kurulu-mudurlug-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Kars Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89386/kars-kultur-varliklarini-koruma-bolge-kurulu-mudurlugu.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Sivas Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89622/sivas-kultur-varliklarini-koruma-bolge-kurulu-mudurlugu.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Istanbul 6th Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89203/istanbul-6-numarali-kultur-varliklarini-koruma-bolge-ku-.html,korumakurullari.ktb.gov.tr,local
+government_agency,Muğla Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89544/mugla-kultur-varliklarini-koruma-bolge-kurulu-mudurlugu.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Antalya Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88426/antalya-kultur-varliklarini-koruma-bolge-kurulu-mudurlu-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Nevşehir Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89568/genel-bilgiler.html,korumakurullari.ktb.gov.tr,
+government_agency,Kütahya Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89530/kutahya-kultur-varliklarini-koruma-bolge-kurulu-mudurlu-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Istanbul 2nd Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89096/istanbul-2-numarali-kultur-varliklarini-koruma-bolge-ku-.html,korumakurullari.ktb.gov.tr,local
+government_agency,Balıkesir Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-154175/balikesir-kultur-varliklarini-koruma-bolge-kurulu-mudur-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Council for the Conservation of Cultural Heritage,https://korumakurullari.ktb.gov.tr/,korumakurullari.ktb.gov.tr,
+government_agency,Izmir 2nd Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89299/izmir-2-numarali-kultur-varliklarini-koruma-bolge-kurul-.html,korumakurullari.ktb.gov.tr,local
+government_agency,Karabük Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89334/karabuk-kultur-varliklarini-koruma-bolge-kurulu-mudurlu-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Şanlıurfa Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89632/sanliurfa-kultur-varliklarini-koruma-bolge-kurulu-mudur-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Konya Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89464/konya-kultur-varliklarini-koruma-bolge-kurulu-mudurlugu.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Istanbul 3rd Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89111/istanbul-3-numarali-kultur-varliklarini-koruma-bolge-ku-.html,korumakurullari.ktb.gov.tr,local
+government_agency,Izmir 1st Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89261/izmir-1-numarali-kultur-varliklarini-koruma-bolge-kurul-.html,korumakurullari.ktb.gov.tr,local
+government_agency,Çanakkale Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88702/canakkale-kultur-varliklarini-koruma-bolge-kurulu-mudur-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Adana Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88351/adana-kultur-varliklarini-koruma-bolge-kurulu-mudurlugu.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Erzurum Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-88918/erzurum-kultur-varliklarini-koruma-bolge-kurulu-mudurlu-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Trabzon Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89731/trabzon-kultur-varliklarini-koruma-bolge-kurulu-mudurlu-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Kayseri Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89388/kayseri-kultur-varliklarini-koruma-bolge-kurulu-mudurlu-.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Mardin Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-342147/mardin-kultur-varliklarini-koruma-bolge-kurulu-mudurlug-.html,korumakurullari.ktb.gov.tr,
+government_agency,Van Regional Directorate of the Conservation Board of Cultural Assets,https://korumakurullari.ktb.gov.tr/TR-89741/van-kultur-varliklarini-koruma-bolge-kurulu-mudurlugu.html,korumakurullari.ktb.gov.tr,central-1
+government_agency,Small and Medium Industry Development Organization,http://www.kosgeb.gov.tr/,kosgeb.gov.tr,
+government_agency,KOSKİ,https://www.koski.gov.tr/,koski.gov.tr,
+government_agency,Ministry of Culture and Tourism,https://www.ktb.gov.tr/,ktb.gov.tr,central
+ministry,Ministry of Culture and Tourism,https://www.ktb.gov.tr/,ktb.gov.tr,
+government_agency,Turkey's Culture Portal,https://www.kulturportali.gov.tr/,kulturportali.gov.tr,
+government_agency,Embassy of Kuwait in Ankara,http://kuwaitembassy.org.tr,kuwaitembassy.org.tr,central
+government_agency,Directorate General of Cultural Assets and Museums,http://kvmgm.ktb.gov.tr/,kvmgm.ktb.gov.tr,
+government_agency,Museum Directorate of Adana,https://kvmgm.ktb.gov.tr/TR-44055/adana-muze-mudurlugu.html,kvmgm.ktb.gov.tr,
+government_agency,Higher Education Student Loan and Housing Board,https://kygm.gsb.gov.tr,kygm.gsb.gov.tr,
+ministry,Ministry of Treasury and Finance,http://www.maliye.gov.tr,maliye.gov.tr,
+government_agency,Ministry of Treasury and Finance,http://www.maliye.gov.tr,maliye.gov.tr,central
 ministry,Ministry of National Education,http://www.meb.gov.tr,meb.gov.tr,
+government_agency,Ministry of National Education,http://www.meb.gov.tr,meb.gov.tr,central
+government_agency,Embassy of Bulgaria in Ankara,https://www.mfa.bg/embassies/turkey,mfa.bg,central
+government_agency,Embassy of Brunei in Ankara,http://www.mfa.gov.bn/turkey-ankara,mfa.gov.bn,central
+government_agency,"Embassy of Jordan, Ankara",https://mfa.gov.jo/en/embassy/ankara,mfa.gov.jo,central
+government_agency,"Embassy of Jordan, Ankara",https://mfa.gov.jo/ar/embassy/ankara,mfa.gov.jo,central
+government_agency,Embassy of Kyrgyzstan in Ankara,https://mfa.gov.kg/en/dm/Embassy-of-the-Kyrgyz-Republic-to-the-Republic-of-Turkey,mfa.gov.kg,central
+government_agency,Embassy of Latvia in Ankara,https://www.mfa.gov.lv/turkey,mfa.gov.lv,central
+government_agency,Ministry of Foreign Affairs of the Republic of Turkey,http://www.mfa.gov.tr/default.en.mfa,mfa.gov.tr,central
+ministry,Ministry of Foreign Affairs of the Republic of Turkey,http://www.mfa.gov.tr/default.en.mfa,mfa.gov.tr,
+government_agency,Embassy of Greece in Ankara,https://www.mfa.gr/turkey/,mfa.gr,central
+government_agency,Consulate-General of Greece in Istanbul,https://www.mfa.gr/turkey/tr/consulate-general-in-istanbul,mfa.gr,
+government_agency,Consulate General of Greece in İzmir,https://www.mfa.gr/turkey/tr/consulate-general-in-izmir/,mfa.gr,
+government_agency,"Embassy of New Zealand, Ankara",https://www.mfat.govt.nz/en/countries-and-regions/middle-east/turkey/new-zealand-embassy/,mfat.govt.nz,central
+government_agency,Turkish State Meteorological Service,https://mgm.gov.tr/,mgm.gov.tr,
+government_agency,Directorate of Natural Estate (Turkey),https://www.milliemlak.gov.tr,milliemlak.gov.tr,
+government_agency,National Library of Turkey,http://www.millikutuphane.gov.tr/,millikutuphane.gov.tr,
+government_agency,Directorate of National Palaces,https://millisaraylar.gov.tr/,millisaraylar.gov.tr,
+government_agency,Directorate of National Palaces,https://millisaraylar.gov.tr/en,millisaraylar.gov.tr,
+government_agency,Embassy of Cuba in Ankara,https://misiones.cubaminrex.cu/es/turquia,misiones.cubaminrex.cu,central
+government_agency,National Intelligence Organization,https://mit.gov.tr,mit.gov.tr,local
+government_agency,Embassy of Bahrain in Ankara,https://www.mofa.gov.bh/turkiye/en/home,mofa.gov.bh,central
+government_agency,Embassy of Bahrain in Ankara,https://www.mofa.gov.bh/turkiye/ar/home/,mofa.gov.bh,central
+government_agency,"Embassy of the United Arab Emirates, Ankara",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=722009a5-b98e-42a3-ab4e-f16ec93c4742,mofaic.gov.ae,central
+government_agency,"Consulate General of the United Arab Emirates, Istanbul",https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=722009a5-b98e-42a3-ab4e-f16ec93c4742,mofaic.gov.ae,
+government_agency,"Embassy of Mongolia, Ankara",https://www.mongolianembassy.com.tr/,mongolianembassy.com.tr,central
+government_agency,General Directorate of the National Lottery,http://www.mpi.gov.tr/,mpi.gov.tr,
+government_agency,Embassy of Paraguay in Ankara,https://www.mre.gov.py/embapar-turquia,mre.gov.py,central
+government_agency,Ministry of National Defense,https://www.msb.gov.tr/,msb.gov.tr,central
+ministry,Ministry of National Defense,https://www.msb.gov.tr/,msb.gov.tr,
+government_agency,General Directorate of Customs Protection,http://muhafaza.gtb.gov.tr,muhafaza.gtb.gov.tr,
+government_agency,Embassy of the Czech Republic in Ankara,https://www.mzv.cz/ankara,mzv.cz,central
+government_agency,Embassy of Slovakia in Ankara,https://www.mzv.sk/web/ankara,mzv.sk,central
+government_agency,Embassy of the Netherlands in Ankara,https://www.netherlandsandyou.nl/web/turkiye/home,netherlandsandyou.nl,central
+government_agency,Embassy of Israel in Ankara,https://new.embassies.gov.il/ankara,new.embassies.gov.il,central
+government_agency,Embassy of Norway in Ankara,https://www.norway.no/en/turkiye/,norway.no,central
+government_agency,General Directorate of Civil Registration and Nationality (Turkey),http://www.nvi.gov.tr/,nvi.gov.tr,
+government_agency,General Directorate of Forestry,https://www.ogm.gov.tr,ogm.gov.tr,
+government_agency,Privatization Board of Turkey,http://www.oib.gov.tr/,oib.gov.tr,
+government_agency,Ombudsman Institution,https://www.ombudsman.gov.tr/,ombudsman.gov.tr,
+government_agency,"Center of Test Evaluation, Program Selection and Placement",http://www.osym.gov.tr/,osym.gov.tr,
+government_agency,Embassy of South Korea in Ankara,https://overseas.mofa.go.kr/tr-ko/index.do,overseas.mofa.go.kr,central
+government_agency,"Consulate General of South Korea, Istanbul",https://overseas.mofa.go.kr/tr-istanbul-ko/index.do,overseas.mofa.go.kr,
+government_agency,Embassy of South Korea in Ankara,https://overseas.mofa.go.kr/tr-tr/index.do,overseas.mofa.go.kr,central
+government_agency,"Consulate General of South Korea, Istanbul",https://overseas.mofa.go.kr/tr-istanbul-tr/index.do,overseas.mofa.go.kr,
+government_agency,Embassy of Pakistan in Ankara,https://www.pakembassyankara.com/,pakembassyankara.com,central
+government_agency,PTT,https://www.ptt.gov.tr/,ptt.gov.tr,
+government_agency,Competition Authority (Turkey),http://www.rekabet.gov.tr/,rekabet.gov.tr,
+government_agency,Taipei Economic and Cultural Mission in Ankara,http://www.roc-taiwan.org/TR/mp.asp?mp=652,roc-taiwan.org,
+government_agency,Taipei Economic and Cultural Mission in Ankara,https://www.roc-taiwan.org/tr_tr/index.html,roc-taiwan.org,
+government_agency,RTÜK,http://www.rtuk.gov.tr/,rtuk.gov.tr,
+government_agency,Embassy of Rwanda in Ankara,https://www.rwandainturkey.gov.rw,rwandainturkey.gov.rw,central
+ministry,Ministry of Health of Turkey,http://www.saglik.gov.tr,saglik.gov.tr,
+government_agency,Ministry of Health of Turkey,http://www.saglik.gov.tr,saglik.gov.tr,central
+ministry,"Ministry of Science, Industry and Technology",http://www.sanayi.gov.tr,sanayi.gov.tr,
+government_agency,"Ministry of Science, Industry and Technology",http://www.sanayi.gov.tr,sanayi.gov.tr,central
+ministry,"Ministry of Science, Industry and Technology",https://www.sanayi.gov.tr/en/home,sanayi.gov.tr,
+government_agency,"Ministry of Science, Industry and Technology",https://www.sanayi.gov.tr/en/home,sanayi.gov.tr,central
+government_agency,Court of Accounts of Turkey,http://www.sayistay.gov.tr/,sayistay.gov.tr,
+government_agency,Authority of Sugar Industry (Turkey),http://www.sekerkurumu.gov.tr/en,sekerkurumu.gov.tr,
+government_agency,Embassy of Senegal in Ankara,http://senegalbuyukelciligi.com,senegalbuyukelciligi.com,central
+government_agency,"Statistical, Economic and Social Research and Training Centre for Islamic Countries",http://www.sesric.org/,sesric.org,
+government_agency,Directorate General of Sports,https://www.sgm.gov.tr,sgm.gov.tr,
+government_agency,Embassy of Sierra Leone in Ankara,http://www.sierraleoneembassy.org.tr/,sierraleoneembassy.org.tr,central
+government_agency,Embassy of South Africa in Ankara,http://www.southafrica.org.tr/,southafrica.org.tr,central
+government_agency,Embassy of South Sudan in Ankara,https://southsudanankara.org/,southsudanankara.org,central
+government_agency,Capital Markets Board of Turkey,https://www.spk.gov.tr,spk.gov.tr,central
+government_agency,Spor Toto,http://www.sportoto.gov.tr/,sportoto.gov.tr,
+government_agency,Embassy of Sri Lanka in Ankara,https://srilanka.org.tr,srilanka.org.tr,central
+government_agency,Undersecretariat for Defense Industries (Turkey),http://www.ssm.gov.tr/,ssm.gov.tr,
+government_agency,"Polish Consulate General, Istanbul",http://www.stambul.msz.gov.pl,stambul.msz.gov.pl,
+government_agency,Consulate General of Sweden in Istanbul,https://www.swedenabroad.se/tr/embassies/türkiye-İstanbul/,swedenabroad.se,
+government_agency,Consulate General of Sweden in Istanbul,https://www.swedenabroad.se/en/embassies/turkey-istanbul/,swedenabroad.se,
+government_agency,"Embassy of Sweden, Ankara",https://www.swedenabroad.se/ankara,swedenabroad.se,central
+government_agency,Consulate General of Sweden in Istanbul,https://www.swedenabroad.se/sv/utlandsmyndigheter/turkiet-istanbul/,swedenabroad.se,
+government_agency,Turkish Atomic Energy Authority,http://www.taek.gov.tr/,taek.gov.tr,
+government_agency,Republic of Turkey Promotion Fund,http://www.tanitmafonu.gov.tr/,tanitmafonu.gov.tr,
+government_agency,General Directorate of Agricultural Research and Policies,https://www.tarim.gov.tr/TAGEM/Sayfalar/EN/AnaSayfa.aspx,tarim.gov.tr,
+government_agency,The Agricultural Credit Cooperatives of Turkey,http://www.tarimkredi.org.tr/,tarimkredi.org.tr,
+government_agency,Ministry of Agriculture and Forestry,https://www.tarimorman.gov.tr/Sayfalar/EN/AnaSayfa.aspx,tarimorman.gov.tr,central
 ministry,Ministry of Agriculture and Forestry,https://www.tarimorman.gov.tr/,tarimorman.gov.tr,
 ministry,Ministry of Agriculture and Forestry,https://www.tarimorman.gov.tr/Sayfalar/EN/AnaSayfa.aspx,tarimorman.gov.tr,
-ministry,Ministry of Foreign Affairs of the Republic of Turkey,http://www.mfa.gov.tr/default.en.mfa,mfa.gov.tr,
+government_agency,General Directorate of Natural Conservation and National Parks,https://www.tarimorman.gov.tr/DKMP,tarimorman.gov.tr,
+government_agency,Ministry of Agriculture and Forestry,https://www.tarimorman.gov.tr/,tarimorman.gov.tr,central
+government_agency,Turkish Hard Coal Institution,http://www.taskomuru.gov.tr/,taskomuru.gov.tr,
+supreme_court,Grand National Assembly of Turkey,https://www.tbmm.gov.tr/,tbmm.gov.tr,central
+parliament,Grand National Assembly of Turkey,https://www.tbmm.gov.tr/,tbmm.gov.tr,central
+government_agency,Turkish State Railways,http://www.tcdd.gov.tr/,tcdd.gov.tr,
+government_agency,Central Bank of the Republic of Turkey,http://www.tcmb.gov.tr,tcmb.gov.tr,
+government_agency,Turkish Language Association,https://www.tdk.gov.tr/,tdk.gov.tr,
+government_agency,Q111434490,https://tga.gov.tr/,tga.gov.tr,
 ministry,Ministry of Trade,https://www.ticaret.gov.tr/,ticaret.gov.tr,
+government_agency,Ministry of Trade,https://www.ticaret.gov.tr/,ticaret.gov.tr,central
+government_agency,General Directorate of Agricultural Enterprises,http://www.tigem.gov.tr/,tigem.gov.tr,
+government_agency,Türkiye İnsan Hakları ve Eşitlik Kurumu,https://www.tihek.gov.tr,tihek.gov.tr,
+government_agency,Turkish International Cooperation and Development Agency,http://www.tika.gov.tr/en,tika.gov.tr,
+government_agency,Turkish Medicines and Medical Devices Agency,http://www.titck.gov.tr/,titck.gov.tr,
+government_agency,Q20472745,http://www.tkdk.gov.tr/,tkdk.gov.tr,
+government_agency,General Directorate of Land Registry and Cadastre,https://www.tkgm.gov.tr/,tkgm.gov.tr,
+government_agency,General Directorate of Turkish Coal Enterprises,http://www.tki.gov.tr/,tki.gov.tr,
+government_agency,Savings Deposit Insurance Fund of Turkey,http://www.tmsf.org.tr,tmsf.org.tr,central
+government_agency,Mass Housing Development Administration,http://www.toki.gov.tr/,toki.gov.tr,
+government_agency,"Embassy of France, Ankara",https://tr.ambafrance.org/,tr.ambafrance.org,central
+government_agency,"Embassy of the People's Republic of China, Ankara",http://tr.china-embassy.org,tr.china-embassy.org,central
+government_agency,"Embassy of Japan, Ankara",https://www.tr.emb-japan.go.jp,tr.emb-japan.go.jp,central
+government_agency,Embassy of Lithuania in Ankara,http://tr.mfa.lt,tr.mfa.lt,central
+government_agency,Embassy of Croatia in Ankara,http://tr.mvep.hr,tr.mvep.hr,central
+government_agency,Embassy of Tanzania in Ankara,https://www.tr.tzembassy.go.tz,tr.tzembassy.go.tz,central
+government_agency,"Consulate General of the United States, Istanbul",https://tr.usembassy.gov/istanbul/,tr.usembassy.gov,
+government_agency,"Embassy of the United States, Ankara",https://tr.usembassy.gov/,tr.usembassy.gov,central
+government_agency,"Consulate of the United States, Adana",https://tr.usembassy.gov/adana/,tr.usembassy.gov,
+government_agency,TR Network Information System,https://trabis.gov.tr,trabis.gov.tr,
 ministry,Ministry of Trade,https://www.trade.gov.tr/,trade.gov.tr,
-ministry,Ministry of National Defense,https://www.msb.gov.tr/,msb.gov.tr,
-ministry,Ministry of Culture and Tourism,https://www.ktb.gov.tr/,ktb.gov.tr,
-ministry,Ministry of Interior of Turkey,https://www.icisleri.gov.tr/,icisleri.gov.tr,
-ministry,Ministry of Health of Turkey,http://www.saglik.gov.tr,saglik.gov.tr,
-ministry,"Ministry of Environment, Urbanization and Climate",http://www.csb.gov.tr/,csb.gov.tr,
-ministry,"Ministry of Science, Industry and Technology",http://www.sanayi.gov.tr,sanayi.gov.tr,
-ministry,"Ministry of Science, Industry and Technology",https://www.sanayi.gov.tr/en/home,sanayi.gov.tr,
-ministry,Ministry of Treasury and Finance,http://www.maliye.gov.tr,maliye.gov.tr,
+government_agency,Ministry of Trade,https://www.trade.gov.tr/,trade.gov.tr,central
+government_agency,Turkish Standards Institution,https://www.tse.org.tr/,tse.org.tr,
+government_agency,Technology Development Foundation of Turkey,http://www.ttgv.org.tr/en/,ttgv.org.tr,
+government_agency,Turkish Historical Society,http://www.ttk.gov.tr,ttk.gov.tr,
+government_agency,Turkish Education Board,http://ttkb.meb.gov.tr/,ttkb.meb.gov.tr,
+government_agency,Turkish Space Agency,http://tua.gov.tr/,tua.gov.tr,
+government_agency,TÜBİTAK,https://www.tubitak.gov.tr/,tubitak.gov.tr,
+government_agency,Environmental Protection Agency of Turkey,https://tuca.gov.tr/,tuca.gov.tr,
+government_agency,"Embassy of Germany, Ankara",https://tuerkei.diplo.de,tuerkei.diplo.de,central
+government_agency,Turkish Statistical Institute,https://www.tuik.gov.tr/,tuik.gov.tr,
+government_agency,Embassy of Moldova in Ankara,https://turcia.mfa.gov.md,turcia.mfa.gov.md,central
+government_agency,Turkish Accreditation Agency,http://www.turkak.org.tr/,turkak.org.tr,
+government_agency,Embassy of Belgium in Ankara,http://turkey.diplomatie.belgium.be,turkey.diplomatie.belgium.be,central
+government_agency,"Embassy of Australia, Ankara",https://turkey.embassy.gov.au/ankaturkish/home.html,turkey.embassy.gov.au,central
+government_agency,"Embassy of Australia, Ankara",https://turkey.embassy.gov.au/,turkey.embassy.gov.au,central
+government_agency,Embassy of Belarus in Ankara,https://turkey.mfa.gov.by,turkey.mfa.gov.by,central
+government_agency,Embassy of Georgia in Ankara,http://turkey.mfa.gov.ge,turkey.mfa.gov.ge,central
+government_agency,Embassy of Iran in Ankara,https://turkey.mfa.gov.ir,turkey.mfa.gov.ir,central
+government_agency,"Embassy of Ukraine, Ankara",http://turkey.mfa.gov.ua/,turkey.mfa.gov.ua,central
+government_agency,Embassy of Russia in Ankara,https://turkey.mid.ru,turkey.mid.ru,central
+government_agency,Embassy of Turkmenistan in Ankara,https://turkey.tmembassy.gov.tm,turkey.tmembassy.gov.tm,central
+government_agency,Consulate-General of Belgium in Istanbul,https://turkiye.diplomatie.belgium.be/nl/ambassade-en-consulaten/consulaat-generaal-istanboel,turkiye.diplomatie.belgium.be,central-1
+government_agency,Consulate-General of Belgium in Istanbul,https://turkiye.diplomatie.belgium.be/en/embassy-and-consulates/consulate-general-istanbul,turkiye.diplomatie.belgium.be,central-1
+government_agency,Consulate-General of Belgium in Istanbul,https://turkiye.diplomatie.belgium.be/fr/ambassade-et-consulats/consulat-general-istanbul,turkiye.diplomatie.belgium.be,central-1
+government_agency,Consulate-General of Belgium in Istanbul,https://turkiye.diplomatie.belgium.be/tr/buyukelcilik-ve-konsolosluklar/istanbul-baskonsolosluk,turkiye.diplomatie.belgium.be,central-1
+constitutional_court,government of Turkey,https://www.turkiye.gov.tr,turkiye.gov.tr,central
+government_agency,government of Turkey,https://www.turkiye.gov.tr,turkiye.gov.tr,central
+government_agency,Turkish Patent and Trademark Organization,http://www.turkpatent.gov.tr/TurkPatent/,turkpatent.gov.tr,
+government_agency,Embassy of Colombia in Ankara,http://turquia.embajada.gov.co/,turquia.embajada.gov.co,central
+government_agency,Embassy of Côte d'Ivoire in Ankara,https://www.turquie.diplomatie.gouv.ci,turquie.diplomatie.gouv.ci,central
+government_agency,Türkiye Sağlık Enstitüleri Başkanlığı,https://www.tuseb.gov.tr,tuseb.gov.tr,
+government_agency,embassy of Denmark in Ankara,https://tyrkiet.um.dk,tyrkiet.um.dk,central
+government_agency,Center for European Union Education and Youth Programs,http://www.ua.gov.tr/,ua.gov.tr,
 ministry,Ministry of Transport and Infrastructure,https://www.uab.gov.tr/,uab.gov.tr,
-parliament,Grand National Assembly of Turkey,https://global.tbmm.gov.tr/,global.tbmm.gov.tr,
-parliament,Grand National Assembly of Turkey,https://www.tbmm.gov.tr/,tbmm.gov.tr,
-constitutional_court,government of Turkey,https://detsis.gov.tr/,detsis.gov.tr,
-constitutional_court,government of Turkey,https://www.turkiye.gov.tr,turkiye.gov.tr,
-supreme_court,Grand National Assembly of Turkey,https://global.tbmm.gov.tr/,global.tbmm.gov.tr,
-supreme_court,Grand National Assembly of Turkey,https://www.tbmm.gov.tr/,tbmm.gov.tr,
+government_agency,Ministry of Transport and Infrastructure,https://www.uab.gov.tr/,uab.gov.tr,central
+government_agency,National Metrology Institute,http://ume.tubitak.gov.tr,ume.tubitak.gov.tr,
+government_agency,Turkish National Commission for UNESCO,http://www.unesco.org.tr/,unesco.org.tr,
+government_agency,Computer Emergency Response Team of Turkey,https://www.usom.gov.tr/,usom.gov.tr,
+government_agency,Court of Jurisdictional Disputes,https://www.uyusmazlik.gov.tr,uyusmazlik.gov.tr,central
+government_agency,Embassy of Uzbekistan in Ankara,http://www.uzembassy.org.tr,uzembassy.org.tr,central
+government_agency,Tax Inspection Board (Turkey),http://www.vdk.gov.tr/,vdk.gov.tr,
+government_agency,İstanbul Pendik Veteriner Kontrol Enstitüsü,https://vetkontrol.tarim.gov.tr/pendik,vetkontrol.tarim.gov.tr,
+government_agency,Konya Veterinary Control Institute,https://vetkontrol.tarimorman.gov.tr/konya/Sayfalar/AnaSayfa.aspx,vetkontrol.tarimorman.gov.tr,
+government_agency,Directorate General of Foundations,http://www.vgm.gov.tr/,vgm.gov.tr,
+government_agency,Embassy of Vietnam in Ankara,https://vnembassy-ankara.mofa.gov.vn,vnembassy-ankara.mofa.gov.vn,central
+government_agency,Directorate General of Civil Aviation,http://web.shgm.gov.tr/,web.shgm.gov.tr,
+government_agency,Court of Cassation,http://www.yargitay.gov.tr/,yargitay.gov.tr,
+government_agency,Yildirim Beyazit University Yenimahalle Education and Research Hospital,https://yenimahalleeah.saglik.gov.tr,yenimahalleeah.saglik.gov.tr,
+government_agency,Council of Higher Education,https://www.yok.gov.tr/,yok.gov.tr,
+government_agency,Council of Higher Education,http://www.yok.gov.tr/en,yok.gov.tr,
+government_agency,Turkish Higher Education Quality Council,https://yokak.gov.tr/,yokak.gov.tr,
+government_agency,Turkish Higher Education Quality Council,http://yokak.gov.tr,yokak.gov.tr,
+government_agency,Supreme Election Council,https://www.ysk.gov.tr,ysk.gov.tr,central
+government_agency,Administration for Turks living Abroad and Related Communities,https://www.ytb.gov.tr/,ytb.gov.tr,
+government_agency,Embassy of Zambia in Ankara,https://www.zambiaembassy.org.tr/,zambiaembassy.org.tr,central
+government_agency,Embassy of Zimbabwe in Ankara,https://www.zimankara.org.tr,zimankara.org.tr,central
+university,Batman University,http://www.batman.edu.tr/,batman.edu.tr,university
+university,Zonguldak Bülent Ecevit University,http://www.beun.edu.tr/,beun.edu.tr,university
+university,Yüksek İhtisas University,http://www.yuksekihtisasuniversitesi.edu.tr/tr,yuksekihtisasuniversitesi.edu.tr,university
+university,Selçuk University,http://www.selcuk.edu.tr,selcuk.edu.tr,university
+university,Turkish Naval Academy,http://www.dho.edu.tr,dho.edu.tr,university
+university,Adana Alparslan Türkeş Science and Technology University,http://www.atu.edu.tr/,atu.edu.tr,university
+university,Bingöl University,http://www.bingol.edu.tr/,bingol.edu.tr,university
+university,Istanbul University-Cerrahpaşa,https://www.iuc.edu.tr,iuc.edu.tr,university
+university,Yıldırım Beyazıt University,http://www.ybu.edu.tr,ybu.edu.tr,university
+university,Ahi Evran University,http://www.ahievran.edu.tr/,ahievran.edu.tr,university
+university,Bilecik Şeyh Edebali University,https://www.bilecik.edu.tr/,bilecik.edu.tr,university
+university,Abant Izzet Baysal University,http://www.ibu.edu.tr/,ibu.edu.tr,university
+university,Fırat University,https://www.firat.edu.tr,firat.edu.tr,university
+university,Bandırma Onyedi Eylül University,http://bandirma.edu.tr,bandirma.edu.tr,university
+university,Boğaziçi University,https://bogazici.edu.tr/,bogazici.edu.tr,university
+university,Kırıkkale University,http://www.kku.edu.tr/,kku.edu.tr,university
+university,Ondokuz Mayıs University,http://www.omu.edu.tr/tr,omu.edu.tr,university
+university,Osmangazi University,http://www.ogu.edu.tr/,ogu.edu.tr,university
+university,İzmir Democracy University,http://www.idu.edu.tr/,idu.edu.tr,university
+university,Gaziantep Islam Science and Technology University,http://www.gibtu.net,gibtu.net,university
+university,Turkish Air Force Academy,http://www.hho.edu.tr/,hho.edu.tr,university
+university,Turkish Air Force Academy,http://www.hho.edu.tr/EN/,hho.edu.tr,university
+university,Şırnak University,https://sirnak.edu.tr/,sirnak.edu.tr,university
+university,Ardahan University,http://www.ardahan.edu.tr/,ardahan.edu.tr,university
+university,Munzur University,http://www.munzur.edu.tr,munzur.edu.tr,university
+university,Recep Tayyip Erdoğan University,http://www.erdogan.edu.tr/,erdogan.edu.tr,university
+university,Mardin Artuklu University,http://www.artuklu.edu.tr,artuklu.edu.tr,university
+university,Sakarya University,https://www.sakarya.edu.tr/,sakarya.edu.tr,university
+university,Afyon Kocatepe University,http://www.aku.edu.tr/,aku.edu.tr,university
+university,Kastamonu University,http://www.kastamonu.edu.tr,kastamonu.edu.tr,university
+university,Aksaray University,http://www.aksaray.edu.tr/,aksaray.edu.tr,university
+university,Dokuz Eylül University,http://www.deu.edu.tr/,deu.edu.tr,university
+university,Burdur Mehmet Akif Ersoy University,https://www.mehmetakif.edu.tr/,mehmetakif.edu.tr,university
+university,Karamanoğlu Mehmetbey University,http://www.kmu.edu.tr/,kmu.edu.tr,university
+university,Kayseri University,http://www.kayseri.edu.tr/,kayseri.edu.tr,university
+university,Eskişehir Technical University,https://www.eskisehir.edu.tr/,eskisehir.edu.tr,university
+university,Sivas University of Science and Technology,https://www.sivas.edu.tr/,sivas.edu.tr,university
+university,Yıldız Technical University,http://www.yildiz.edu.tr/,yildiz.edu.tr,university
+university,Sakarya University of Applied Sciences,http://www.subu.edu.tr/,subu.edu.tr,university
+university,Istanbul University,https://www.istanbul.edu.tr,istanbul.edu.tr,university
+university,Giresun University,https://www.giresun.edu.tr/,giresun.edu.tr,university
+university,Aydın Adnan Menderes University,http://www.adu.edu.tr/,adu.edu.tr,university
+university,Kırklareli University,http://www.kirklareli.edu.tr/,kirklareli.edu.tr,university
+university,Kilis 7 Aralık University,http://www.kilis.edu.tr/,kilis.edu.tr,university
+university,Iskenderun Technical University,http://www.iste.edu.tr,iste.edu.tr,university
+university,Van Yüzüncü Yıl University,http://www.yyu.edu.tr,yyu.edu.tr,university
+university,Erzincan Binali Yıldırım University,http://www.ebyu.edu.tr/,ebyu.edu.tr,university
+university,Ağrı İbrahim Çeçen University,http://www.agri.edu.tr/,agri.edu.tr,university
+university,Kahramanmaraş Sütçü İmam University,http://www.ksu.edu.tr,ksu.edu.tr,university
+university,Kafkas University,https://www.kafkas.edu.tr/,kafkas.edu.tr,university
+university,Erciyes University,http://www.erciyes.edu.tr/,erciyes.edu.tr,university
+university,Kütahya Dumlupınar University,https://www.dpu.edu.tr/,dpu.edu.tr,university
+university,Karadeniz Technical University,http://www.ktu.edu.tr/,ktu.edu.tr,university
+university,Siirt University,http://www.siirt.edu.tr/,siirt.edu.tr,university
+university,Balıkesir University,http://www.balikesir.edu.tr/,balikesir.edu.tr,university
+university,Marmara University,https://www.marmara.edu.tr,marmara.edu.tr,university
+university,Anadolu University,http://www.anadolu.edu.tr/,anadolu.edu.tr,university
+university,Çanakkale Onsekiz Mart University,http://www.comu.edu.tr,comu.edu.tr,university
+university,National Defense University,http://msu.edu.tr,msu.edu.tr,university
+university,Gazi University,http://www.gazi.edu.tr/,gazi.edu.tr,university
+university,İnönü University,http://inonu.edu.tr,inonu.edu.tr,university
+university,İzmir Institute of Technology,http://www.iyte.edu.tr,iyte.edu.tr,university
+university,Istanbul Technical University,https://www.itu.edu.tr/,itu.edu.tr,university
+university,Istanbul Medeniyet University,http://www.medeniyet.edu.tr/,medeniyet.edu.tr,university
+university,Gümüşhane University,http://www.gumushane.edu.tr/,gumushane.edu.tr,university
+university,Harran University,http://www.harran.edu.tr/,harran.edu.tr,university
+university,Hakkari University,http://en.hu.edu.tr/Default.aspx,en.hu.edu.tr,university
+university,Hakkari University,http://hu.edu.tr/,hu.edu.tr,university
+university,Hatay Mustafa Kemal University,http://www.mku.edu.tr/,mku.edu.tr,university
+university,Bitlis Eren University,http://www.bitliseren.edu.tr/,bitliseren.edu.tr,university
+university,Karabük University,http://www.karabuk.edu.tr/,karabuk.edu.tr,university
+university,Alanya Alaaddin Keykubat University,https://www.alanya.edu.tr/,alanya.edu.tr,university
+university,Alanya Alaaddin Keykubat University,https://www.alanya.edu.tr/index-EN,alanya.edu.tr,university
+university,Mimar Sinan Fine Arts University,http://www.msgsu.edu.tr/,msgsu.edu.tr,university
+university,İzmir Kâtip Çelebi University,http://www.ikc.edu.tr/,ikc.edu.tr,university
+university,Dicle University,http://www.dicle.edu.tr/,dicle.edu.tr,university
+university,Bursa Technical University,http://www.btu.edu.tr/,btu.edu.tr,university
+university,Nevşehir Hacı Bektaş Veli University,http://www.nevsehir.edu.tr,nevsehir.edu.tr,university
+university,Istanbul Medeniyet University,https://www.medeniyet.edu.tr/tr,medeniyet.edu.tr,university
+university,Atatürk University,http://www.atauni.edu.tr/,atauni.edu.tr,university
+university,Erzurum Technical University,http://www.erzurum.edu.tr/,erzurum.edu.tr,university
+university,Uşak University,http://www.usak.edu.tr/,usak.edu.tr,university
+university,Amasya University,http://www.amasya.edu.tr/,amasya.edu.tr,university
+university,Gebze Technical University,http://www.gtu.edu.tr,gtu.edu.tr,university
+university,Osmaniye Korkut Ata University,http://www.osmaniye.edu.tr,osmaniye.edu.tr,university
+university,Abdullah Gül University,http://www.agu.edu.tr,agu.edu.tr,university
+university,Düzce University,http://www.duzce.edu.tr/,duzce.edu.tr,university
+university,Afyonkarahisar Health Sciences University,http://afsu.edu.tr/,afsu.edu.tr,university
+university,Kahramanmaraş İstiklal University,http://www.istiklal.edu.tr/,istiklal.edu.tr,university
+university,Tarsus University,http://www.tarsus.edu.tr/,tarsus.edu.tr,university
+university,Isparta University of Applied Sciences,https://www.isparta.edu.tr/,isparta.edu.tr,university
+university,Trabzon University,https://trabzon.edu.tr/,trabzon.edu.tr,university
+university,Namık Kemal University,http://www.nku.edu.tr/,nku.edu.tr,university
+university,Middle East Technical University,http://www.metu.edu.tr,metu.edu.tr,university
+university,Bartın University,http://www.bartin.edu.tr/,bartin.edu.tr,university
+university,Bayburt University,http://www.bayburt.edu.tr/,bayburt.edu.tr,university
+university,Yozgat Bozok University,http://www.bozok.edu.tr/,bozok.edu.tr,university
+university,Pamukkale University,http://pau.edu.tr/pau/,pau.edu.tr,university
+university,Çankırı Karatekin University,http://www.karatekin.edu.tr,karatekin.edu.tr,university
+university,Necmettin Erbakan University,http://www.konya.edu.tr/,konya.edu.tr,university
+university,Galatasaray University,https://gsu.edu.tr/,gsu.edu.tr,university
+university,Iğdır University,http://www.igdir.edu.tr/,igdir.edu.tr,university
+university,Sinop University,http://www.sinop.edu.tr/,sinop.edu.tr,university
+university,Artvin Çoruh University,http://www.artvin.edu.tr/,artvin.edu.tr,university
+university,Hitit University,http://www.hitit.edu.tr,hitit.edu.tr,university
+university,Konya Technical University,http://ktun.edu.tr/,ktun.edu.tr,university
+university,Kütahya Health Sciences University,http://www.ksbu.edu.tr/,ksbu.edu.tr,university
+university,Malatya Turgut Özal University,http://ozal.edu.tr/,ozal.edu.tr,university
+university,Ankara Hacı Bayram Veli University,https://www.hacibayram.edu.tr/,hacibayram.edu.tr,university
+university,Samsun University,https://samsun.edu.tr/,samsun.edu.tr,university
+university,Ordu University,http://www.odu.edu.tr,odu.edu.tr,university
+university,Gaziantep University,http://www.gaziantep.edu.tr/en/,gaziantep.edu.tr,university
+university,Gaziantep University,https://www.gantep.edu.tr/,gantep.edu.tr,university
+university,Muş Alparslan University,http://www.alparslan.edu.tr,alparslan.edu.tr,university
+university,Muğla Sıtkı Koçman University,http://www.mu.edu.tr,mu.edu.tr,university
+university,Manisa Celal Bayar University,http://cbu.edu.tr/,cbu.edu.tr,university
+university,Ankara University of Music and Fine Arts,http://mgu.edu.tr,mgu.edu.tr,university
+university,Kocaeli University,http://www.kocaeli.edu.tr/,kocaeli.edu.tr,university
+university,Çukurova University,http://www.cu.edu.tr,cu.edu.tr,university
+university,Ege University,http://www.ege.edu.tr/,ege.edu.tr,university
+university,Trakya University,http://www.trakya.edu.tr,trakya.edu.tr,university
+university,Mersin University,http://www.mersin.edu.tr/,mersin.edu.tr,university
+university,Akdeniz University,http://www.akdeniz.edu.tr/,akdeniz.edu.tr,university
+university,University of Health Sciences,https://www.sbu.edu.tr,sbu.edu.tr,university
+university,Niğde Ömer Halisdemir University,http://www.nigde.edu.tr/,nigde.edu.tr,university
+university,Turkish-German University,http://www.tau.edu.tr/,tau.edu.tr,university
+university,Social Sciences University of Ankara,http://www.asbu.edu.tr/,asbu.edu.tr,university
+university,Ankara University,https://www.ankara.edu.tr/,ankara.edu.tr,university
+university,Ankara University,https://www.ankara.edu.tr/en/,ankara.edu.tr,university
+university,Hacettepe University,http://www.hacettepe.edu.tr/,hacettepe.edu.tr,university
+university,Istanbul University State Conservatory,http://konservatuvar.istanbul.edu.tr/tr/index.asp,konservatuvar.istanbul.edu.tr,university
+university,Yalova University,http://www.yalova.edu.tr,yalova.edu.tr,university
+university,Bursa Uludağ University,http://www.uludag.edu.tr,uludag.edu.tr,university
+university,Sivas Cumhuriyet University,http://www.cumhuriyet.edu.tr/,cumhuriyet.edu.tr,university
+university,İzmir Bakırçay University,http://bakircay.edu.tr/,bakircay.edu.tr,university
+university,Adıyaman University,http://www.adiyaman.edu.tr/,adiyaman.edu.tr,university

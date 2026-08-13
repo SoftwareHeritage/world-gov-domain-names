@@ -30,22 +30,39 @@
 
 ## Candidate domains ranked by score
 
-13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+51 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 8 | `parliament.am` | wikidata;wikidata | National Assembly of Armenia |
-| 4 | `edu.am` | wikidata | Ministry of Education and Science |
-| 4 | `escs.am` | wikidata | Ministry of Education, Science, Culture and Sports of Armenia |
-| 4 | `mfa.am` | wikidata | Ministry of Foreign Affairs of Armenia |
-| 4 | `mil.am` | wikidata | Ministry of Defence of Armenia |
-| 4 | `mineconomy.am` | wikidata | Ministry of Economy of the Republic of Armenia |
-| 4 | `minfin.am` | wikidata | Ministry of Finance |
-| 4 | `mlsa.am` | wikidata | Ministry of Labor and Social Affairs |
-| 4 | `moh.am` | wikidata | Ministry of Health |
-| 4 | `moj.am` | wikidata | Ministry of Justice (Armenia) |
-| 4 | `msy.am` | wikidata | Ministry of Youth and Sports |
-| 4 | `mtad.am` | wikidata | Ministry of Territorial Administration and Infrastructure |
-| 4 | `yerevan.am` | wikidata | Council of the Elders, Yerevan |
+| 8 | `parliament.am` | wikidata;wikidata;wikidata;wikidata | National Assembly of Armenia |
+| 7 | `armstat.am` | wikidata;wikidata;wikidata | Statistical Committee of Armenia | National Statistical Service |
+| 7 | `edu.am` | wikidata;wikidata | Ministry of Education and Science |
+| 7 | `mfa.am` | wikidata;wikidata | Ministry of Foreign Affairs of Armenia |
+| 7 | `mil.am` | wikidata;wikidata | Ministry of Defence of Armenia |
+| 7 | `mineconomy.am` | wikidata;wikidata | Ministry of Economy of the Republic of Armenia |
+| 7 | `minfin.am` | wikidata;wikidata | Ministry of Finance |
+| 7 | `mlsa.am` | wikidata;wikidata | Ministry of Labor and Social Affairs |
+| 7 | `moh.am` | wikidata;wikidata | Ministry of Health |
+| 7 | `moj.am` | wikidata;wikidata | Ministry of Justice (Armenia) |
+| 7 | `msy.am` | wikidata;wikidata | Ministry of Youth and Sports |
+| 7 | `mtad.am` | wikidata;wikidata | Ministry of Territorial Administration and Infrastructure |
+| 6 | `cassationcourt.am` | wikidata | Court of Cassation of Armenia |
+| 6 | `concourt.am` | wikidata | Constitutional Court of Armenia |
+| 4 | `am.usembassy.gov` | wikidata | Embassy of the United States, Yerevan |
+| 4 | `anra.am` | wikidata | Armenian Nuclear Regulatory Authority |
+| 4 | `armarchives.am` | wikidata | National Archives of Armenia |
+| 4 | `aviation.am` | wikidata | Civil Aviation Committee of Armenia |
+| 4 | `cba.am` | wikidata | Central Bank of Armenia |
+| 4 | `datalex.am` | wikidata | DataLex |
+
+## Local / regional candidates
+
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `aspu.am` | wikidata | Armenian State Pedagogical University |
+| 4 | `polytech.am` | wikidata | National Polytechnic University of Armenia |
+| 4 | `ysu.am` | wikidata | Yerevan State University |
 

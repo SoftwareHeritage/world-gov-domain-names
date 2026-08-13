@@ -30,10 +30,16 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 5 | `shabait.com` | un_desa | UN/DESA national portal |
+| 4 | `er.usembassy.gov` | wikidata | embassy of the United States in Eritrea |
+| 3 | `asmara.diplo.de` | wikidata | Embassy of Germany, Asmara |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Eritrea |
+| 3 | `er.ambafrance.org` | wikidata | Embassy of France, Asmara |
+| 3 | `eritrea.mid.ru` | wikidata | embassy of Russia in Eritrea |
+| 3 | `eritreanarchives.org` | wikidata | Research and Documentation Center |
 

@@ -1,19 +1,220 @@
 hostname,score,sources,label,level
-gov.mb.ca,10,wikidata;wikidata;linkgraph,Legislative Assembly of Manitoba,central-1
-ontario.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,"Ministry of Colleges and Universities | Ontario Ministry of Natural Resources and Forestry | Government of Ontario | Ministry of Education | Ministry of Economic Development, Trade and Employment | Ministry of the Environment, Conservation and Parks",central-1
-yukon.ca,10,wikidata;wikidata;linkgraph,Government of Yukon,central-1
-premier.gouv.qc.ca,8,wikidata;wikidata,Executive Council of Quebec,central-1
-assembly.ab.ca,7,wikidata;wikidata,Legislative Assembly of Alberta,central-1
-assembly.nl.ca,7,wikidata;wikidata,Newfoundland and Labrador House of Assembly,central-1
-assembly.nu.ca,7,wikidata;wikidata;wikidata,6th Nunavut Legislature | Legislative Assembly of Nunavut,central-1
-assembly.pe.ca,7,wikidata;wikidata,Legislative Assembly of Prince Edward Island,central-1
-assnat.qc.ca,7,wikidata;wikidata;wikidata;wikidata,National Assembly of Quebec,central-1
-gnb.ca,7,wikidata;linkgraph,Government of New Brunswick,central-1
-leg.bc.ca,7,wikidata;wikidata,Legislative Assembly of British Columbia,central-1
-legassembly.sk.ca,7,wikidata;wikidata;wikidata;wikidata,Legislative Assembly of Saskatchewan,central-1
-legnb.ca,7,wikidata;wikidata,Legislative Assembly of New Brunswick,central-1
-nslegislature.ca,7,wikidata;wikidata;wikidata;wikidata,Nova Scotia House of Assembly,central-1
-ntassembly.ca,7,wikidata;wikidata,Legislative Assembly of the Northwest Territories,central-1
-ola.org,6,wikidata;wikidata;wikidata;wikidata,Legislative Assembly of Ontario,central-1
-princeedwardisland.ca,4,wikidata,Government of Prince Edward Island,central-1
-governingcouncil.utoronto.ca,4,wikidata,University of Toronto Governing Council,local
+gnb.ca,10,wikidata;wikidata;wikidata;wikidata;linkgraph,Court of King's Bench of New Brunswick | Government of New Brunswick | Department of Education and Early Childhood Development,central-1
+gov.mb.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,"Minister of Labour and Immigration | Legislative Assembly of Manitoba | Manitoba Agriculture, Food and Rural Initiatives | Manitoba Health | Department of Infrastructure",central-1
+ontario.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,"Ministry of Education | Ministry of Colleges and Universities | Ministry of Transportation | Ontario Ministry of Natural Resources and Forestry | Office of the Chief Coroner for Ontario | Government of Ontario | Ministry of Economic Development, Trade and Employment | Ministry of the Environment, Conservation and Parks",central-1
+quebec.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,"Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | Q138574035 | Ministry of Immigration, Francisation and Integration",central-1
+saskatchewan.ca,10,wikidata;wikidata;wikidata;linkgraph,Ministry of Health | Ministry of Agriculture of Saskatchewan,central-1
+yukon.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,Yukon Archives | Government of Yukon | Yukon Parks | Yukon Department of Environment | Yukon Department of Tourism and Culture,central-1
+education.gouv.qc.ca,8,wikidata;wikidata,Ministry of Education and Higher Education | Ministry of Higher Education,central-1
+environnement.gouv.qc.ca,8,wikidata;wikidata,Ministry of Environment and Fight Against Climate Change,central-1
+gov.nu.ca,8,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Corrections Directorate | Department of Justice | Nunavut Liquor Commission | Government of Nunavut,central-1
+mce.gouv.qc.ca,8,wikidata;wikidata,Q3315432,central-1
+omafra.gov.on.ca,8,wikidata;wikidata,"Agricultural Research Institute of Ontario | Ministry of Agriculture, Food and Rural Affairs",central-1
+premier.gouv.qc.ca,8,wikidata;wikidata;wikidata;wikidata,Executive Council of Quebec,central-1
+www2.gov.bc.ca,8,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Provincial Emergency Program | Ministry of Agriculture | Ministry of Public Safety and Solicitor General | Ministry of Technology, Innovation & Citizens' Services | B.C. Conservation Data Centre | Ministry of Education | Ministry of Jobs, Tourism and Skills Training | British Columbia Ministry of Transportation and Infrastructure",central-1
+albertacourts.ca,7,wikidata;wikidata,Court of King's Bench of Alberta | Court of Appeal of Alberta,central-1
+assembly.ab.ca,7,wikidata;wikidata;wikidata,Legislative Assembly of Alberta,central-1
+assembly.nl.ca,7,wikidata;wikidata;wikidata,Newfoundland and Labrador House of Assembly,central-1
+assembly.nu.ca,7,wikidata;wikidata;wikidata;wikidata,6th Nunavut Legislature | Legislative Assembly of Nunavut,central-1
+assembly.pe.ca,7,wikidata;wikidata;wikidata,Legislative Assembly of Prince Edward Island,central-1
+assnat.qc.ca,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,National Assembly of Quebec,central-1
+banq.qc.ca,7,wikidata;wikidata;wikidata,Bibliothèque et Archives nationales du Québec | BAnQ Québec,central-1
+cdpdj.qc.ca,7,wikidata;wikidata,Commission des droits de la personne et des droits de la jeunesse,central-1
+court.nl.ca,7,wikidata;wikidata;wikidata,Supreme Court of Newfoundland and Labrador | Provincial Court of Newfoundland and Labrador | Court of Appeal of Newfoundland and Labrador,central-1
+cqsb.qc.ca,7,wikidata;wikidata,Central Quebec School Board,central-1
+leg.bc.ca,7,wikidata;wikidata;wikidata,Legislative Assembly of British Columbia,central-1
+legassembly.sk.ca,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Legislative Assembly of Saskatchewan,central-1
+legnb.ca,7,wikidata;wikidata;wikidata,Legislative Assembly of New Brunswick,central-1
+montreal.ca,7,wikidata;wikidata;wikidata,Saint-Leonard borough council | Accès culture,central-1
+nslegislature.ca,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Nova Scotia House of Assembly,central-1
+ntassembly.ca,7,wikidata;wikidata;wikidata,Legislative Assembly of the Northwest Territories,central-1
+nunavutcourts.ca,7,wikidata;wikidata,Nunavut Court of Justice | Nunavut Court of Appeal,central-1
+princeedwardisland.ca,7,wikidata;wikidata,Government of Prince Edward Island,central-1
+revenuquebec.ca,7,wikidata;wikidata,Revenu Québec,central-1
+sasklawcourts.ca,7,wikidata;wikidata;wikidata,Provincial Court of Saskatchewan | Court of Appeal for Saskatchewan | Court of King's Bench for Saskatchewan,central-1
+tribunaux.qc.ca,7,wikidata;wikidata,Superior Court of Quebec | Court of Quebec,central-1
+ola.org,6,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Legislative Assembly of Ontario,central-1
+autochtones.gouv.qc.ca,5,wikidata,Ministry of Native Affairs,central-1
+bape.gouv.qc.ca,5,wikidata,Bureau d'audiences publiques sur l'environnement,central-1
+cnesst.gouv.qc.ca,5,wikidata,"Commission des normes, de l'équité, de la santé et de la sécurité du travail",central-1
+courts.gov.bc.ca,5,wikidata,British Columbia Court of Appeal,central-1
+curateur.gouv.qc.ca,5,wikidata,Q3007613,central-1
+economie.gouv.qc.ca,5,wikidata,"Ministry of Economic Development, Innovation and Export Trade",central-1
+energy.gov.on.ca,5,wikidata,Ministry of Energy,central-1
+epq.gouv.qc.ca,5,wikidata,Épargne Placements Québec,central-1
+ethique.gouv.qc.ca,5,wikidata,Commission on Ethics in Science and Technology,central-1
+fin.gov.on.ca,5,wikidata,Ministry of Finance,central-1
+finances.gouv.qc.ca,5,wikidata,Ministry of Finance,central-1
+frq.gouv.qc.ca,5,wikidata,Fonds de recherche du Québec,central-1
+habitation.gouv.qc.ca,5,wikidata,Société d'habitation du Québec,central-1
+inf.gov.nt.ca,5,wikidata,Department of Infrastructure,central-1
+international.gov.ab.ca,5,wikidata,Alberta International and Intergovernmental Relations,central-1
+justice.gouv.qc.ca,5,wikidata,Ministry of Justice,central-1
+labour.gov.on.ca,5,wikidata,Ministry of Labour,central-1
+mah.gov.on.ca,5,wikidata,Ministry of Municipal Affairs and Housing,central-1
+mamh.gouv.qc.ca,5,wikidata,Ministry of Municipal Affairs and Housing,central-1
+mapaq.gouv.qc.ca,5,wikidata,"Ministry of Agriculture, Fisheries and Food",central-1
+mcc.gouv.qc.ca,5,wikidata,ministère de la Culture et des Communications,central-1
+mess.gouv.qc.ca,5,wikidata,Ministry of Employment and Social Solidarity,central-1
+mfa.gouv.qc.ca,5,wikidata,Ministry of Families,central-1
+mndm.gov.on.ca,5,wikidata,Ministry of Northern Development and Mines,central-1
+mrif.gouv.qc.ca,5,wikidata,Ministry of International Relations and La Francophonie,central-1
+mrnf.gouv.qc.ca,5,wikidata,Ministry of Natural Resources and Wildlife,central-1
+msg.gouv.qc.ca,5,wikidata,Ministère des Services gouvernementaux,central-1
+msp.gouv.qc.ca,5,wikidata,Ministry of Public Security,central-1
+msss.gouv.qc.ca,5,wikidata,Ministry of Health and Social Services,central-1
+mtc.gov.on.ca,5,wikidata,"Ministry of Tourism, Culture and Sport",central-1
+ophq.gouv.qc.ca,5,wikidata,Office of the handicapped of Quebec,central-1
+oqlf.gouv.qc.ca,5,wikidata,Office québécois de la langue française,central-1
+osc.gov.on.ca,5,wikidata,Ontario Securities Commission,central-1
+racj.gouv.qc.ca,5,wikidata,"Régie des alcools, des courses et des jeux",central-1
+recyc-quebec.gouv.qc.ca,5,wikidata,Q107092161,central-1
+sq.gouv.qc.ca,5,wikidata,Sûreté du Québec,central-1
+tourisme.gouv.qc.ca,5,wikidata,Ministry of Tourism,central-1
+transports.gouv.qc.ca,5,wikidata,Transports Québec,central-1
+travail.gouv.qc.ca,5,wikidata,Ministry of Labour,central-1
+asc.ca,4,wikidata,Alberta Securities Commission,central-1
+auditor.on.ca,4,wikidata,Auditor General of Ontario,central-1
+bccdc.ca,4,wikidata,BC Centre for Disease Control,central-1
+bccourts.ca,4,wikidata,Supreme Court of British Columbia,central-1
+bcsc.bc.ca,4,wikidata,British Columbia Securities Commission,central-1
+beta.novascotia.ca,4,wikidata,"Nova Scotia Department of Communities, Culture, Tourism and Heritage",central-1
+cfseu.bc.ca,4,wikidata,Combined Forces Special Enforcement Unit – British Columbia,central-1
+courdappelduquebec.ca,4,wikidata,Quebec Court of Appeal,central-1
+district1.nbed.nb.ca,4,wikidata,New Brunswick School District 01,central-1
+district11.nbed.nb.ca,4,wikidata,New Brunswick School District 11,central-1
+district3.nbed.nb.ca,4,wikidata,New Brunswick School District 03,central-1
+district5.nbed.nb.ca,4,wikidata,New Brunswick School District 05,central-1
+district9.nbed.nb.ca,4,wikidata,New Brunswick School District 09,central-1
+elections.ab.ca,4,wikidata,Elections Alberta,central-1
+elections.bc.ca,4,wikidata,Elections BC,central-1
+elections.on.ca,4,wikidata,Elections Ontario,central-1
+elections.sk.ca,4,wikidata,Elections Saskatchewan,central-1
+electionsmanitoba.ca,4,wikidata,Elections Manitoba,central-1
+electionsnovascotia.ns.ca,4,wikidata,Elections Nova Scotia,central-1
+electionsquebec.qc.ca,4,wikidata,Chief Electoral Officer of Quebec,central-1
+health.alberta.ca,4,wikidata,Alberta Health,central-1
+ipc.on.ca,4,wikidata,Information and Privacy Commissioner of Ontario,central-1
+manitobacourts.mb.ca,4,wikidata,Court of King's Bench of Manitoba,central-1
+ombudsman.on.ca,4,wikidata,Ontario Ombudsman,central-1
+ontariocourts.ca,4,wikidata,Ontario Superior Court of Justice,central-1
+opp.ca,4,wikidata,Ontario Provincial Police,central-1
+parks.novascotia.ca,4,wikidata,Nova Scotia Provincial Parks,central-1
+provincialcourt.bc.ca,4,wikidata,Provincial Court of British Columbia,central-1
+reglements.ville.quebec.qc.ca,4,wikidata,Quebec City Council,central-1
+skcouncil.sk.ca,4,wikidata,Insurance Councils of Saskatchewan,central-1
+statistique.quebec.ca,4,wikidata,Institut de la statistique du Québec,central-1
+tribunalsontario.ca,4,wikidata,Landlord and Tenant Board,central-1
+www2.gnb.ca,4,wikidata,"Department of Agriculture, Aquaculture and Fisheries",central-1
+yukoncourts.ca,4,wikidata,Court of Appeal of the Yukon Territory,central-1
+accesculture.com,3,wikidata,Accès culture,central-1
+indonesiavancouver.org,3,wikidata,"consulate general of Indonesia, Vancouver",central-1
+sepaq.com,3,wikidata,Société des établissements de plein air du Québec,central-1
+transfusionontario.org,3,wikidata,Ontario Regional Blood Coordinating Network,central-1
+vancouverpcg.org,3,wikidata,"Philippine Consulate General, Vancouver, Canada",central-1
+umanitoba.ca,7,wikidata;wikidata,Prairie and Arctic Storm Prediction Centre | University of Manitoba,university
+uottawa.ca,7,wikidata;wikidata,University of Ottawa,university
+uwaterloo.ca,7,wikidata;wikidata,"United College, Waterloo | University of Waterloo",university
+athabascau.ca,4,wikidata,Athabasca University,university
+auarts.ca,4,wikidata,Alberta University of the Arts,university
+brocku.ca,4,wikidata,Brock University,university
+capilanou.ca,4,wikidata,Capilano University,university
+carleton.ca,4,wikidata,Carleton University,university
+dal.ca,4,wikidata,Dalhousie University,university
+douglascollege.ca,4,wikidata,Douglas College,university
+ecuad.ca,4,wikidata,Emily Carr University of Art and Design,university
+macewan.ca,4,wikidata,MacEwan University,university
+mcgill.ca,4,wikidata,McGill University,university
+mtroyal.ca,4,wikidata,Mount Royal University,university
+queensu.ca,4,wikidata,Queen's University,university
+sfu.ca,4,wikidata,Simon Fraser University,university
+torontomu.ca,4,wikidata,Toronto Metropolitan University,university
+ualberta.ca,4,wikidata,University of Alberta,university
+ubc.ca,4,wikidata,University of British Columbia,university
+ucalgary.ca,4,wikidata,University of Calgary,university
+ulaval.ca,4,wikidata,Laval University,university
+uleth.ca,4,wikidata,University of Lethbridge,university
+umontreal.ca,4,wikidata,Université de Montréal,university
+unb.ca,4,wikidata,University of New Brunswick,university
+upei.ca,4,wikidata,University of Prince Edward Island,university
+uregina.ca,4,wikidata,University of Regina,university
+usask.ca,4,wikidata,University of Saskatchewan,university
+utoronto.ca,4,wikidata,University of Toronto,university
+uwo.ca,4,wikidata,University of Western Ontario,university
+yorku.ca,4,wikidata,York University Markham Centre Campus,university
+york.ac.uk,3,wikidata,University of York,university
+barrie.ca,7,wikidata;wikidata,Barrie City Council | Barrie Transit,local
+etsb.qc.ca,7,wikidata;wikidata,Eastern Townships School Board,local
+governingcouncil.utoronto.ca,7,wikidata;wikidata,University of Toronto Governing Council,local
+halifax.ca,7,wikidata;wikidata;wikidata,Halifax Regional Police | Halifax Regional Fire and Emergency | Halifax Transit,local
+oshawa.ca,7,wikidata;wikidata,"City of Oshawa Parks, Recreation and Culture | Oshawa City Council",local
+ottawa.ca,7,wikidata;wikidata;wikidata,Ottawa Fire Services | City of Ottawa | Ottawa By-law Services,local
+ottawapoliceboard.ca,7,wikidata;wikidata,Ottawa Police Services Board,local
+sd61.bc.ca,7,wikidata;wikidata,Greater Victoria School District | School District 61 Greater Victoria,local
+toronto.ca,7,wikidata;wikidata;wikidata;wikidata,Toronto Technical Services Division | Toronto (CAN-TF3) Heavy Urban Search and Rescue | City of Toronto Emergency Management Office | Toronto Water,local
+saskparks.net,6,wikidata;wikidata,Cumberland House Provincial Park | Fort Pitt Provincial Park,local
+capitale.gouv.qc.ca,5,wikidata,Commission de la capitale nationale du Québec,local
+abbypd.ca,4,wikidata,Abbotsford Police Department,local
+blackgold.ca,4,wikidata,Black Gold Regional Division No. 18,local
+brsd.ab.ca,4,wikidata,Battle River Regional Division No. 31,local
+btps.ca,4,wikidata,Buffalo Trail Public Schools Regional Division No. 28,local
+burlington.ca,4,wikidata,Burlington City Council,local
+burnabyschools.ca,4,wikidata,School District 41 Burnaby,local
+busonline.ca,4,wikidata,Kelowna Regional Transit System,local
+chatham-kent.ca,4,wikidata,Chatham-Kent Municipal Council,local
+cmquebec.qc.ca,4,wikidata,Communauté métropolitaine de Québec,local
+cmsd.bc.ca,4,wikidata,School District 82 Coast Mountains,local
+cssd.ab.ca,4,wikidata,Calgary Catholic School District,local
+district18.nbed.nb.ca,4,wikidata,School District 18,local
+drps.ca,4,wikidata,Durham Regional Police Service,local
+eics.ab.ca,4,wikidata,Elk Island Catholic Separate Regional Division No. 41,local
+eips.ca,4,wikidata,Elk Island Public Schools Regional Division No. 14,local
+fcm.ca,4,wikidata,Federation of Canadian Municipalities,local
+fmpsd.ab.ca,4,wikidata,Fort McMurray Public School District,local
+gpcsd.ca,4,wikidata,Grande Prairie Roman Catholic Separate School District No. 28,local
+gppsd.ab.ca,4,wikidata,Grande Prairie Public School District,local
+grasslands.ab.ca,4,wikidata,Grasslands Regional Division No. 6,local
+greibj-eijbrg.ca,4,wikidata,Eeyou Istchee James Bay Regional Government,local
+haltonpolice.ca,4,wikidata,Halton Regional Police Service,local
+hdsb.ca,4,wikidata,Halton District School Board,local
+holyspirit.ab.ca,4,wikidata,Holy Spirit Roman Catholic Separate Regional Division No. 4,local
+hrce.ca,4,wikidata,Halifax Regional Centre for Education,local
+icao.usmission.gov,4,wikidata,United States Mission to the ICAO,local
+jobs-emplois.ottawa.ca,4,wikidata,Ottawa Police Service,local
+lethbridgepolice.ca,4,wikidata,Lethbridge Regional Police Service,local
+newwestschools.ca,4,wikidata,School District 40 New Westminster,local
+ngps.ca,4,wikidata,Northern Gateway Regional Division No. 10,local
+niagarapolice.ca,4,wikidata,Niagara Regional Police Service,local
+nisgaa.bc.ca,4,wikidata,School District 92 Nisga'a,local
+nvsd44.bc.ca,4,wikidata,School District 44 North Vancouver,local
+ottawapolice.ca,4,wikidata,Ottawa Police Service,local
+peelpolice.ca,4,wikidata,Peel Regional Police,local
+phrd.ab.ca,4,wikidata,Pembina Hills Regional Division No. 7,local
+pvnccdsb.on.ca,4,wikidata,Peterborough Victoria Northumberland and Clarington Catholic District School Board,local
+redeemer.ab.ca,4,wikidata,Christ the Redeemer Catholic Separate Regional Division No. 3,local
+rupertschools.ca,4,wikidata,School District 52 Prince Rupert,local
+sd23.bc.ca,4,wikidata,School District 23 Central Okanagan,local
+sd28.bc.ca,4,wikidata,School District 28 Quesnel,local
+sd38.bc.ca,4,wikidata,Richmond School District,local
+sd43.bc.ca,4,wikidata,School District 43 Coquitlam,local
+sd53.bc.ca,4,wikidata,School District 53 Okanagan Similkameen,local
+sd59.bc.ca,4,wikidata,School District 59 Peace River South,local
+sd67.bc.ca,4,wikidata,School District 67 Okanagan Skaha,local
+sd68.bc.ca,4,wikidata,School District 68 Nanaimo-Ladysmith,local
+sd83.bc.ca,4,wikidata,School District 83 North Okanagan-Shuswap,local
+starcatholic.ab.ca,4,wikidata,St. Thomas Aquinas Roman Catholic Separate Regional Division No. 38,local
+sttr.qc.ca,4,wikidata,Société de transport de Trois-Rivières,local
+surreyschools.ca,4,wikidata,School District 36 Surrey,local
+townofriverview.ca,4,wikidata,"Town of Riverview, Parks and Recreation",local
+transcollines.ca,4,wikidata,Régie intermunicipale de transport des Collines,local
+translink.ca,4,wikidata,TransLink,local
+vicpd.ca,4,wikidata,Victoria Police Department,local
+wcdsb.ca,4,wikidata,Waterloo Catholic District School Board,local
+wrps.on.ca,4,wikidata,Waterloo Regional Police Service,local
+wrps11.ca,4,wikidata,Wetaskiwin Regional Division No. 11,local
+yrp.ca,4,wikidata,York Regional Police,local
+cobourgpolice.com,3,wikidata,Cobourg Police Service,local
+metrovancouver.org,3,wikidata,Metro Vancouver Regional Parks,local
+portmoodypolice.com,3,wikidata,Port Moody Police Department,local
+spschools.org,3,wikidata,St. Albert Public School District No. 5565,local
+threeriverspei.com,3,wikidata,Three Rivers Town Council,local

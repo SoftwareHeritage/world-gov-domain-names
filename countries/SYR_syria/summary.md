@@ -6,7 +6,7 @@
 - Region: Asia / Western Asia
 - Languages: Arabic
 - Population: 25620000
-- GDP per capita: 1052 US$ (2022)
+- GDP per capita: 1057 US$ (2022)
 - Currencies: SYP
 - ccTLD: `.sy` (manager: National Authority for Information Technology Services (NAITS))
 - OECD: non-member
@@ -30,13 +30,41 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+23 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `mosy.sy` | wikidata;wikidata | Ministry of Youth and Sports |
+| 7 | `nscl.sy` | wikidata;wikidata | National Standards and Calibration Laboratory |
+| 6 | `custodia.org` | wikidata;wikidata | Custodian of the Holy Land |
 | 6 | `egov.sy` | un_desa | UN/DESA national portal |
-| 4 | `mosy.sy` | wikidata | Ministry of Youth and Sports |
-| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
-| 3 | `syriaig.org` | wikidata | Syrian Interim Government |
+| 6 | `sanasyria.org` | wikidata;wikidata | Syrian Arab News Agency |
+| 6 | `syriaig.org` | wikidata;wikidata | Syrian Interim Government |
+| 6 | `syrien.um.dk` | wikidata;wikidata | embassy of Denmark in Syria |
+| 4 | `aec.org.sy` | wikidata | Atomic Energy Commission of Syria |
+| 4 | `gors.sy` | wikidata | General Organization of Remote Sensing |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Damascus |
+| 4 | `scfms.sy` | wikidata | Syrian Commission on Financial Markets and Securities |
+| 4 | `sisc.sy` | wikidata | Q123925129 |
+| 3 | `damasc.mae.ro` | wikidata | Embassy of Romania, Damascus |
+| 3 | `damaskus.diplo.de` | wikidata | Embassy of Germany, Damascus |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Syria |
+| 3 | `finlandabroad.fi` | wikidata | Embassy of Finland, Damascus |
+| 3 | `mfa.gr` | wikidata | embassy of Greece in Syria |
+| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Damascus |
+| 3 | `palemb-sy.com` | wikidata | Embassy of the State of Palestine in Syria |
+| 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Damascus |
+
+## Local / regional candidates
+
+5 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `damascusuniversity.edu.sy` | wikidata | Damascus University |
+| 4 | `idlib.edu.sy` | wikidata | Idlib University |
+| 4 | `latakia-univ.edu.sy` | wikidata | University of Latakia |
+| 3 | `svuonline.org` | wikidata | Syrian Virtual University |
+| 3 | `https` | wikidata | Syrian Space Agency |
 

@@ -6,7 +6,7 @@
 - Region: Oceania / Polynesia
 - Languages: English; Samoan
 - Population: 205557
-- GDP per capita: 5393 US$ (2024)
+- GDP per capita: 5873 US$ (2025)
 - Currencies: WST
 - ccTLD: `.ws` (manager: Government of Samoa Ministry of Foreign Affairs &amp; Trade)
 - OECD: non-member
@@ -30,11 +30,13 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `palemene.ws` | wikidata;wikidata | Legislative Assembly of Samoa |
 | 6 | `samoagovt.ws` | un_desa | UN/DESA national portal |
+| 4 | `ws.usembassy.gov` | wikidata | embassy of the United States in Samoa |
+| 3 | `samoashipping.com` | wikidata | Samoa Shipping Corporation |
 

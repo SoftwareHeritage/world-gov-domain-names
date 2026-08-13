@@ -22,9 +22,11 @@ We sort government domains into levels:
   domains that stand for them (=gouv.fr=, =gov.uk=).
 - =central-1= -- the first administrative tier below: state, Land,
   region… (=sp.gov.br=, =nouvelle-aquitaine.fr=).
-- =university= -- public universities and academic institutions,
-  counted in the central+ scope (private and religious institutions
-  are excluded).
+- =university= -- strictly public universities (Wikidata public /
+  public-research / national university classes). Tracked in
+  =candidates-local.csv= but kept *out* of the central+ file and
+  regexes for now: reliably separating public from private
+  universities needs more curation (see =score=/=sources=).
 - the rest -- everything lower (municipalities, counties, parishes…),
   kept *out* of the lists and regexes.
 
@@ -51,13 +53,13 @@ Three ready-to-use CSV files, covering UN members and observers only:
   email domains to watch.
 - =data/public-sector-domains-central+.csv= -- the central roots
   (=level= =central=) plus the bodies of the first administrative tier
-  below (=level= =central-1=: Land, state, region…) and public
-  universities (=level= =university=). Central-1 rows come either
-  from curated registries (Brazilian/Australian states, UK devolved
-  bodies; =sources= is =registry=) or from scored cross-source
-  candidates (German Länder, Japanese prefectures…); university rows
-  come from Wikidata. See the =score= and =sources= columns to filter
-  by confidence.
+  below (=level= =central-1=: Land, state, region…). Central-1 rows
+  come either from curated registries (Brazilian/Australian states,
+  UK devolved bodies; =sources= is =registry=) or from scored
+  cross-source candidates (German Länder, Japanese prefectures…; see
+  the =score= and =sources= columns to filter by confidence).
+  Universities are deliberately not included yet (they live in the
+  per-country =candidates-local.csv= under =level= =university=).
 
 Each row carries metadata: UN status, region, languages and GDP
 

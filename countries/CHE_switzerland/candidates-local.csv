@@ -1,26 +1,63 @@
 hostname,score,sources,label,level
 parlement.vs.ch,8,wikidata;wikidata,Grand Council of Valais,central-1
-ag.ch,7,wikidata;wikidata,Grand Council of Aargau,central-1
-ai.ch,7,wikidata;wikidata;wikidata,Landsgemeinde Appenzell Innerrhoden | Grand Council of Appenzell Innerrhoden,central-1
-ar.ch,7,wikidata;wikidata,Cantonal Council of Appenzell Ausserrhoden,central-1
-baselland.ch,7,wikidata;wikidata,Landrat of Basel-Landschaft,central-1
-fr.ch,7,wikidata;wikidata;wikidata;wikidata,Grand Council of Fribourg,central-1
-ge.ch,7,wikidata;wikidata,Grand Council of Geneva,central-1
-gl.ch,7,wikidata;wikidata,Landrat of Glarus,central-1
-gr.ch,7,wikidata;wikidata,Grand Council of Grisons,central-1
-lu.ch,7,wikidata;wikidata,Cantonal Council of Lucerne,central-1
-nw.ch,7,wikidata;wikidata,Landrat of Nidwalden,central-1
-ow.ch,7,wikidata;wikidata,Cantonal Council of Obwalden,central-1
-sg.ch,7,wikidata;wikidata,Cantonal Council of Sankt Gallen,central-1
-sh.ch,7,wikidata;wikidata,Cantonal Council of Schaffhausen,central-1
-sz.ch,7,wikidata;wikidata;wikidata;wikidata,Cantonal Council of Schwyz,central-1
-www4.ti.ch,7,wikidata;wikidata,Grand Council of Ticino,central-1
-zg.ch,7,wikidata;wikidata,Cantonal Council of Zug,central-1
+ag.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Grand Council of Aargau | Department of Health and Social Affairs (Aargau) | Verwaltungsgericht des Kantons Aargau | Department of Construction, Transport and Environment (Aargau) | Department of Economics and Home Affairs (Aargau) | Departement Bildung, Kultur und Sport | Cantonal archaeology Aargau | Departement Gesundheit und Soziales | Department of Finance and Resources (Aargau) | Monument Preservation Service of the Canton of Aargau | State Chancellery (Aargau) | Department of Education, Culture and Sport (Aargau) | Cantonal police of the canton of Aargau",central-1
+ai.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Landsgemeinde Appenzell Innerrhoden | Q27479493 | Grand Council of Appenzell Innerrhoden | Q113162032 | Q113162128 | Q113162110 | Q113162139 | Q113162177 | Q113162196 | Q113161982 | Q113162005,central-1
+ar.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113156945 | Cantonal Council of Appenzell Ausserrhoden | Q113156957 | Q113156951 | Q113156931 | Q113156962 | Q56704506,central-1
+are.zh.ch,7,wikidata;wikidata,Building Department Kanton Zürich | Q27480036,central-1
+baselland.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Q113156754 | Q113156709 | Education, Culture and Sports Directorate of Canton Basel-Landschaft | Q113156759 | Landrat of Basel-Landschaft | Q113156719 | Monument Preservation Service of the Canton of Basel-Landschaft | Q113156765",central-1
+fr.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Grand Council of Fribourg | Service de la Santé Publique | Q113032869 | Q113033049 | Q113033091 | Direction de la Sécurité et de la Justice | Q113033177 | Q76652408 | Service de l'Enfance et de la Jeunesse | Q113032988 | Q113033341 | Caisse de Prévoyance du Personnel de l'Etat de Fribourg,central-1
+ge.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Infrastructure Department (Geneva) | Department of Security, Population and Health (Geneva) | Service de la recherche éducation | Department of Public Instruction, Training and Youth (Geneva) | Q27481263 | State Chancellery (Geneva) | Geneva Finance and Human Resources Department | Grand Council of Geneva | Office Médico Pédagogique | Genève Lab | Department of Economy and Employment (Geneva) | Direction Générale de l'Enseignement Obligatoire - Enseignement Primaire | Territory Department (Geneva) | Department of Social Cohesion (Geneva)",central-1
+gerichte-zh.ch,7,wikidata;wikidata,Gerichte Zürich | Zurich district court,central-1
+gl.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Landrat of Glarus | Q113162685 | Q113162767 | Q113162691 | Q113162848 | Q113162724 | Q113162707 | Q113162696,central-1
+gr.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113162384 | Q113162391 | Grand Council of Grisons | Q113162376 | Q113162356 | Q113162362 | Q113162370 | Amt für Wald und Naturgefahren,central-1
+justice.ge.ch,7,wikidata;wikidata,Q3538851 | Q3190187,central-1
+lu.ch,7,wikidata;wikidata;wikidata,Q113041982 | Cantonal Council of Lucerne,central-1
+ne.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Department of Employment and Social Cohesion (Neuchâtel) | Department of Economy, Security and Culture (Neuchâtel) | Department of Territorial Development and Environment (Neuchâtel) | Department of Training, Digitalization and Sports (Neuchâtel) | State Chancellery (Neuchâtel) | Appellate Court of the Canton of Neuchâtel | Department of Finance and Health (Neuchâtel)",central-1
+nw.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113156959 | Q113156979 | Landrat of Nidwalden | Q113156987 | Q113156948 | Q113156963 | Q113156982 | Q113156944 | Q113156972 | Q113156967,central-1
+ow.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113156853 | Q113156842 | Q113156826 | Q113156866 | Q113156859 | Cantonal Council of Obwalden | Q113156833 | Q113156837 | Q113156846,central-1
+police.be.ch,7,wikidata;wikidata,Cantonal police of the canton of Bern,central-1
+sg.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113162330 | Q113162337 | Cantonal Archaeology St. Gallen | Q113162307 | Q113162292 | Q113162300 | Q113162281 | Cantonal Council of Sankt Gallen | Q113162322 | Q113162313,central-1
+sh.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113156836 | Q113156872 | Q113156845 | Cantonal Archaeology Schaffhausen | Q113156858 | Cantonal Council of Schaffhausen | Q113156852 | Q113156867,central-1
+so.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113080949 | Q113081037 | Q113081771 | Q113081102 | Q113081688 | Cantonal archaeology Solothurn,central-1
+sz.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Cantonal Council of Schwyz | Q113156723 | Q113156710 | Q113156739 | Q113156806 | Q113156659 | Q113156715 | Monument preservation service of the canton of Schwyz | Q113156654 | Q113156755 | Q113156763,central-1
+ur.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113042413 | Q113156929 | Q113042639 | Q113042523 | Q113042702 | Q113042263 | Council of State of Uri | Q113042233 | Q113042498,central-1
+vd.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Education and training professional (Vaud) | Département de la Santé et de l'Action Sociale | Institution, Territory and Sport (Vaud) | Finance and Agriculture (Vaud) | Vaud Cantonal Court | Département de la Formation, de la Jeunesse et de la Culture | Health and social action (Vaud) | Youth, environment and security (Vaud) | Cantonal police of the canton of Vaud | Culture, infrastructure and human ressources (Vaud) | Département des Finances et des Relations Extérieures | Economy, innovation, employment and heritage (Vaud)",central-1
+vs.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Mobility, spatial development and the environment (Valais) | Security, Institutions and Sports (Valais) | Valais Cantonal Court | Health, Social Affairs and Culture (Valais) | Economics and Education (Valais) | Finance and Energy (Valais) | Bureau (Valais)",central-1
+www4.ti.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Department of Finance and Economy (Ticino) | Grand Council of Ticino | State Chancellery (Ticino) | Organizzazione Sociopsichiatrica Cantonale | Repubblica e Cantone Ticino | Department of Territory (Ticino) | Department of Institutions (Ticino) | Department of Health and Social Affairs (Ticino) | Ufficio di Statistica | Department of Education, Culture and Sport (Ticino) | Dipartimento dell Educazione della Cultura e dello Sport",central-1
+zg.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113162962 | Q113162972 | Q113162907 | Q113162999 | Cantonal Council of Zug | Q113162956 | Q113162864 | Q113162877 | Q113162978 | Q27490172 | Q113162986 | Q113162942 | Q113162898 | Q113162893,central-1
+zh.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Department for Economic Affairs | Department of Health Canton of Zurich | Direktion der Justiz und des Innern, Kanton Zürich | Q113033130 | Monuments Preservation Service of the Canton of Zurich | Building Department Kanton Zürich",central-1
+bvd.bs.ch,4,wikidata,Q113082790,central-1
+cdc-ge.ch,4,wikidata,Q56289707,central-1
+gd.zh.ch,4,wikidata,Department of Health Canton of Zurich,central-1
+ihk-thurgau.ch,4,wikidata,regional chamber of commerce Thurgau,central-1
+kapo.gr.ch,4,wikidata,Cantonal police of the canton of Graubünden,central-1
+kapo.sg.ch,4,wikidata,Cantonal police of the canton of St. Gallen,central-1
+kapo.zh.ch,4,wikidata,Kantonspolizei Zürich,central-1
+polizei.lu.ch,4,wikidata,Luzerner Polizei,central-1
+staatskanzlei.bs.ch,4,wikidata,State Chancellery of Basel-Stadt,central-1
+strafgericht.bs.ch,4,wikidata,Q104819347,central-1
+vd.zh.ch,4,wikidata,Department for Economic Affairs,central-1
+geneve.consulfrance.org,3,wikidata,consulat général de France à Genève,central-1
+epfl.ch,7,wikidata;linkgraph,Swiss Federal Institute of Technology in Lausanne,university
+ethz.ch,4,wikidata,ETH Zurich,university
+unibas.ch,4,wikidata,University of Basel,university
+unibe.ch,4,wikidata,University of Bern,university
+unifr.ch,4,wikidata,University of Fribourg,university
+unige.ch,4,wikidata,University of Geneva,university
+unil.ch,4,wikidata,University of Lausanne,university
+unilu.ch,4,wikidata,University of Lucerne,university
+unine.ch,4,wikidata,University of Neuchâtel,university
+unisg.ch,4,wikidata,University of St. Gallen,university
 allschwil.ch,7,wikidata;wikidata;wikidata;wikidata,Q114859480,local
+bern.ch,7,wikidata;wikidata;wikidata;wikidata,Gesundheitsdienst | fire department Bern | Monument Preservation Service of the City of Bern | Stadtgrün Bern,local
 biel-bienne.ch,7,wikidata;wikidata,Q137886745,local
 gemeinderat-zuerich.ch,7,wikidata;wikidata,Zurich City Parliament,local
 gemeinderat.winterthur.ch,7,wikidata;wikidata,Winterthur Municipal Council,local
 lausanne.ch,7,wikidata;wikidata,Q71801799,local
+sion.ch,7,wikidata;wikidata,Q135560728,local
 stadt-schaffhausen.ch,7,wikidata;wikidata,Q131731590,local
-sion.ch,4,wikidata,Q135560728,local
-stadt-zuerich.ch,4,wikidata,Zurich City Council,local
+stadt-zuerich.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q115267460 | Amt für Städtebau | Zurich City Council | Office of Parks and Open Spaces of Zurich | Office for Structural Engineering of the City of Zurich | Stadtpolizei Zürich | Q115271935 | Schul- und Sportdepartement | Stadt Zürich Hochbaudepartement | Schutz und Rettung Zürich | Zürich Board of Education,local
+zsg.justice.be.ch,7,wikidata;wikidata;wikidata,Regional Court Bernese Jura-Seeland | Q15125972,local
+eeas.europa.eu,6,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Delegation of the European Union to Switzerland and Liechtenstein | Delegation of the European Union to the UN and other international organisations in Geneva | Permanent Mission of the European Union to the World Trade Organization,local
+sk.zh.ch,4,wikidata,Staatskanzlei des Kantons Zürich,local
+stapo.winterthur.ch,4,wikidata,Winterthur municipal police,local

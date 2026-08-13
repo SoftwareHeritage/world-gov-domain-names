@@ -30,15 +30,29 @@
 
 ## Candidate domains ranked by score
 
-6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+21 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `bahamas.com` | wikidata | Ministry of Tourism, Investments and Aviation |
-| 3 | `bahamaspublicservice.com` | wikidata | Ministry of Public Service |
-| 3 | `energyandtransportbahamas.com` | wikidata | Ministry of Energy and Transport |
-| 3 | `ministryforgb.com` | wikidata | Ministry for Grand Bahama |
-| 3 | `ministryofeducationbahamas.com` | wikidata | Ministry of Education and Technical and Vocational Training |
-| 3 | `moh-ur.com` | wikidata | Ministry of Housing and Urban Renewal |
+| 6 | `bahamas.com` | wikidata;wikidata | Ministry of Tourism, Investments and Aviation |
+| 6 | `bahamaspublicservice.com` | wikidata;wikidata | Ministry of Public Service |
+| 6 | `energyandtransportbahamas.com` | wikidata;wikidata | Ministry of Energy and Transport |
+| 6 | `ministryforgb.com` | wikidata;wikidata | Ministry for Grand Bahama |
+| 6 | `ministryofeducationbahamas.com` | wikidata;wikidata | Ministry of Education and Technical and Vocational Training |
+| 6 | `moh-ur.com` | wikidata;wikidata | Ministry of Housing and Urban Renewal |
+| 4 | `bs.usembassy.gov` | wikidata | Embassy of the United States, Nassau |
+| 4 | `wsc.com.bs` | wikidata | Water and Sewage Corporation |
+| 3 | `airportsbahamas.com` | wikidata | Airport Authority of the Bahamas |
+| 3 | `bahamasdevelopmentbank.com` | wikidata | Bahamas Development Bank |
+| 3 | `bahamasmaritime.com` | wikidata | The Bahamas Maritime Authority |
+| 3 | `bplco.com` | wikidata | Bahamas Power and Light |
+| 3 | `caabahamas.com` | wikidata | Civil Aviation Authority Bahamas |
+| 3 | `centralbankbahamas.com` | wikidata | Central Bank of The Bahamas |
+| 3 | `dphbahamas.org` | wikidata | Department of Public Health |
+| 3 | `gamingboardbahamas.com` | wikidata | Gaming Board for The Bahamas |
+| 3 | `nema-bahamas.info` | wikidata | National Emergency Management Agency |
+| 3 | `nib-bahamas.com` | wikidata | National Insurance Board of The Commonwealth of The Bahamas |
+| 3 | `phabahamas.org` | wikidata | Public Hospitals Authority |
+| 3 | `royalbahamaspolice.org` | wikidata | Royal Bahamas Police Force |
 

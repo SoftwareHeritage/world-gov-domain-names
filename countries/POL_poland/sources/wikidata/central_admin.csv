@@ -1,36 +1,513 @@
 type,label,website,hostname,level
+government_agency,Medical Research Agency of Poland,https://abm.gov.pl,abm.gov.pl,central
+government_agency,The Internal Security Agency,http://www.abw.gov.pl,abw.gov.pl,central
+government_agency,"Embassy of Afghanistan, Warsaw",http://www.afghanembassy.com.pl,afghanembassy.com.pl,central
+government_agency,Polish Central Archives of Historical Records,http://agad.archiwa.gov.pl,agad.archiwa.gov.pl,
+government_agency,Polish Central Archives of Historical Records,http://agad.gov.pl/,agad.gov.pl,
+government_agency,Polish-German Chamber of Commerce and Industry,https://ahk.pl/pl/,ahk.pl,
+government_agency,Polish-German Chamber of Commerce and Industry,https://ahk.pl/,ahk.pl,
+government_agency,"Embassy of Algeria, Warsaw",http://www.algerianembassy.pl,algerianembassy.pl,central
+government_agency,"Embassy of Portugal, Warsaw",http://ambasada-portugalii.pl,ambasada-portugalii.pl,central
+government_agency,"Embassy of the Sovereign Military Order of Malta, Warsaw",http://www.ambasada.zakonmaltanski.pl/,ambasada.zakonmaltanski.pl,central
+government_agency,"Embassy of Libya, Warsaw",http://ambasadalibii.pl,ambasadalibii.pl,central
+government_agency,"Embassy of Mongolia, Warsaw",http://www.ambasadamongolii.pl/,ambasadamongolii.pl,central
+government_agency,"Embassy of Albania, Warsaw",https://ambasadat.gov.al/poland/,ambasadat.gov.al,central
+government_agency,"Embassy of the Democratic Republic of the Congo, Warsaw",https://www.ambassaderdcpologne.com/,ambassaderdcpologne.com,central
+government_agency,"Embassy of Italy, Warsaw",https://ambvarsavia.esteri.it/it/,ambvarsavia.esteri.it,central
+government_agency,Q9149948,https://amcham.pl/,amcham.pl,
+government_agency,Military Property Agency,http://www.amw.com.pl,amw.com.pl,
+government_agency,State Archive in Kraków,https://ank.gov.pl/,ank.gov.pl,
+government_agency,Head Office of State Archives,https://archiwa.gov.pl/,archiwa.gov.pl,central
+government_agency,The Material Reserves Agency,http://www.arm.gov.pl,arm.gov.pl,
+government_agency,Agencja Rozwoju Miasta,http://www.arm.krakow.pl/,arm.krakow.pl,
+government_agency,ATERIMA MED,https://www.aterima-med.pl,aterima-med.pl,
+government_agency,Agencja Wywiadu,https://aw.gov.pl/en,aw.gov.pl,central
+government_agency,"Embassy of Azerbaijan, Warsaw",http://azembassy.pl/pl/index.php?section=11,azembassy.pl,central
+government_agency,National Security Bureau,http://www.bbn.gov.pl/,bbn.gov.pl,
+government_agency,Bernardines (Franciscans),http://www.bernardyni.com/,bernardyni.com,
 constitutional_court,Bernardines (Franciscans),http://www.bernardyni.com/,bernardyni.com,
+government_agency,Hydrographic Office of the Polish Navy,https://bhmw.gov.pl/,bhmw.gov.pl,
+government_agency,Q9352870,https://bialystok.so.gov.pl/,bialystok.so.gov.pl,
+government_agency,Q124542246,https://bielsko-biala.so.gov.pl/,bielsko-biala.so.gov.pl,
+government_agency,Q124317492,https://bielsko-biala.sr.gov.pl/,bielsko-biala.sr.gov.pl,local
+government_agency,Kraków City Council,http://bip.krakow.pl/?bip_id=1&mmi=12874,bip.krakow.pl,local
+government_agency,State Commission for the Investigation of Cases of Acts Against Sexual Freedom and Morality Committed Against Minors Under 15 Years of Age,https://bip.pkdp.gov.pl/,bip.pkdp.gov.pl,central
+government_agency,Marshal's Office of Podkarpackie Voivodeship,https://bip.podkarpackie.pl/,bip.podkarpackie.pl,central-1
+government_agency,Marshal's Office of Pomeranian Voivodeship,https://www.bip.pomorskie.eu/,bip.pomorskie.eu,central-1
+government_agency,Government Legislation Centre,http://bip.rcl.gov.pl,bip.rcl.gov.pl,
+government_agency,Q124287585,https://www.bip.rzeszow.wsa.gov.pl/,bip.rzeszow.wsa.gov.pl,central-1
+government_agency,Marshal's Office of Świętokrzyskie Voivodeship,https://bip.sejmik.kielce.pl/,bip.sejmik.kielce.pl,central-1
+government_agency,Marshal's Office of Silesian Voivodeship,https://bip.slaskie.pl/,bip.slaskie.pl,central-1
+government_agency,Marshal's Office of Warmian-Masurian Voivodeship,https://bip.warmia.mazury.pl/,bip.warmia.mazury.pl,central-1
+government_agency,Provincial Administrative Court in Warsaw,https://bip.warszawa.wsa.gov.pl/,bip.warszawa.wsa.gov.pl,central-1
+government_agency,Marshal's Office of West Pomeranian Voivodeship,https://www.bip.wzp.pl/,bip.wzp.pl,central-1
+government_agency,"Embassy of Austria, Warsaw",http://www.bmeia.gv.at/pl/ambasada/warszawa.html,bmeia.gv.at,central
+government_agency,National Library of Poland,https://www.bn.org.pl/,bn.org.pl,
+government_agency,National Library of Poland,https://www.bn.org.pl/en,bn.org.pl,
+government_agency,"Consulate General of Germany, Wrocław",https://breslau.diplo.de,breslau.diplo.de,
+government_agency,Q117193706,https://buk.gmina.pl/kat/komunikacja-gminna/,buk.gmina.pl,
+government_agency,Q120758363,https://bydgoszcz.so.gov.pl/,bydgoszcz.so.gov.pl,
+government_agency,Q124287615,https://bydgoszcz.sr.gov.pl/,bydgoszcz.sr.gov.pl,local
+government_agency,Q124287573,https://www.bydgoszcz.wsa.gov.pl/,bydgoszcz.wsa.gov.pl,central-1
+government_agency,Central Anticorruption Bureau,https://cba.gov.pl/,cba.gov.pl,
+government_agency,French Chamber of Commerce and Indusrty in Poland,http://www.ccifp.pl,ccifp.pl,
+government_agency,Q9382926,http://www.cciip.pl/,cciip.pl,
+government_agency,Q139780702,https://cd.uj.edu.pl,cd.uj.edu.pl,
+government_agency,Centrum Doradztwa Zawodowego dla Młodzieży w Poznaniu,https://www.cdzdm.pl,cdzdm.pl,
+government_agency,"Chile Embassy, Warsaw",https://chile.gob.cl/polonia/,chile.gob.cl,central
+government_agency,"Embassy of the People's Republic of China, Warsaw",http://www.chinaembassy.org.pl,chinaembassy.org.pl,central
+government_agency,Centrum Informatyczne Edukacji,https://cie.gov.pl/,cie.gov.pl,
+government_agency,Q124293074,https://cieszyn.sr.gov.pl/,cieszyn.sr.gov.pl,local
+government_agency,Q110387988,https://consulate-sejny.mfa.lt/sejny/pl/,consulate-sejny.mfa.lt,
+government_agency,Q9186085,https://www.cos.pl/,cos.pl,
+government_agency,Q132586341,https://crpk.pl,crpk.pl,
+government_agency,"Embassy of Cuba, Warsaw",http://www.cubadiplomatica.cu/polonia/ES/Inicio.aspx,cubadiplomatica.cu,central
+government_agency,Circuit Court in Częstochowa,https://czestochowa.so.gov.pl/,czestochowa.so.gov.pl,
+government_agency,"Consulate General of Germany, Gdańsk",https://danzig.diplo.de/,danzig.diplo.de,
+government_agency,"Embassy of Tunisia, Warsaw",https://www.diplomatie.gov.tn/en/nc/mission/etranger/ambassade-de-tunisie-a-warsaw-pologne/,diplomatie.gov.tn,central
+government_agency,"Embassy of South Africa, Warsaw",http://www.dirco.gov.za/warsaw/,dirco.gov.za,central
 constitutional_court,Polish Dominican Province,https://dominikanie.pl/,dominikanie.pl,
+government_agency,Polish Dominican Province,https://dominikanie.pl/,dominikanie.pl,
+government_agency,Komunikacja Gminy Dopiewo,https://dopiewo.pl/rozklady-jazdy,dopiewo.pl,
+government_agency,Q11795669,http://www.dziebaltow.osp.org.pl,dziebaltow.osp.org.pl,
+government_agency,"Embassy of Switzerland, Warsaw",https://www.eda.admin.ch/warsaw,eda.admin.ch,central
+government_agency,"Embassy of Mexico, Warsaw",http://embamex.sre.gob.mx/polonia/,embamex.sre.gob.mx,central
+government_agency,"Embassy of Angola, Warsaw",http://embangola.pl,embangola.pl,central
+government_agency,"Embassy of Israel, Warsaw",http://embassies.gov.il/warsaw,embassies.gov.il,central
+government_agency,"Embassy of Saudi Arabia, Warsaw",http://embassies.mofa.gov.sa/sites/poland/EN/Pages/default.aspx,embassies.mofa.gov.sa,central
+government_agency,"Embassy of Yemen, Warsaw",http://www.embassy-of-yemen.pl,embassy-of-yemen.pl,central
+government_agency,Warsaw City Council,https://en.um.warszawa.pl/-/warsaw-city-council,en.um.warszawa.pl,local
+government_agency,"Embassy of Argentina, Warsaw",http://epolo.cancilleria.gov.ar/pl,epolo.cancilleria.gov.ar,central
+government_agency,European Gendarmerie Force,http://www.eurogendfor.org,eurogendfor.org,
+government_agency,European Parliament Liaison Office in Poland,https://www.europarl.europa.eu/poland/,europarl.europa.eu,central
+government_agency,"Embassy of Spain, Warsaw",http://www.exteriores.gob.es/Embajadas/VARSOVIA/pl/Paginas/inicio.aspx,exteriores.gob.es,central
+government_agency,Filharmonia Zielonogórska,http://filharmoniazg.pl/,filharmoniazg.pl,
+government_agency,"Embassy of Finland, Warsaw",https://finlandabroad.fi/web/pol/,finlandabroad.fi,central
+government_agency,"Embassy of Malta, Warsaw",http://foreignaffairs.gov.mt/en/Embassies/Me_Warsaw/Pages/Me_Warsaw.aspx,foreignaffairs.gov.mt,central
 constitutional_court,Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław,http://www.franciszkanie.com/,franciszkanie.com,
+government_agency,Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław,http://www.franciszkanie.com/,franciszkanie.com,
 constitutional_court,Province of Saint Francis of the Friars Minor in Poznań,http://www.franciszkanie.net/,franciszkanie.net,
+government_agency,Province of Saint Francis of the Friars Minor in Poznań,http://www.franciszkanie.net/,franciszkanie.net,
 constitutional_court,Province of Our Lady of the Angels of the Friars Minor in Kraków,http://www.franciszkanie.org.pl/,franciszkanie.org.pl,
+government_agency,Province of Our Lady of the Angels of the Friars Minor in Kraków,http://www.franciszkanie.org.pl/,franciszkanie.org.pl,
+government_agency,European Border and Coast Guard Agency,https://frontex.europa.eu/,frontex.europa.eu,local
+government_agency,"Consulate General of China, Gdansk",http://gdansk.china-consulate.gov.cn/chn/,gdansk.china-consulate.gov.cn,central-1
+government_agency,Consulate General of Ukraine in Gdańsk,https://gdansk.mfa.gov.ua/ua,gdansk.mfa.gov.ua,
+government_agency,"Consulate General of Russia, Gdansk",https://gdansk.mid.ru/web/gdansk_pl,gdansk.mid.ru,
+government_agency,Gdańsk City Council,https://gdansk.pl/urzad-miejski,gdansk.pl,local
+government_agency,Q124286777,https://gdansk.sa.gov.pl/,gdansk.sa.gov.pl,
+government_agency,Q124545193,https://gdansk.so.gov.pl/,gdansk.so.gov.pl,
+government_agency,Q9173920,http://www.giodo.gov.pl,giodo.gov.pl,
+government_agency,Chief Inspector of Environmental Protection,http://www.gios.gov.pl,gios.gov.pl,central
+government_agency,Q124545211,https://gliwice.so.gov.pl/,gliwice.so.gov.pl,
+government_agency,Q124317458,https://gliwice.sr.gov.pl/,gliwice.sr.gov.pl,local
+government_agency,Q124291547,https://glogow.sr.gov.pl/,glogow.sr.gov.pl,local
+government_agency,embassy of Peru in Poland,https://www.gob.pe/embajada-del-peru-en-polonia/,gob.pe,central
+government_agency,"Ministry of Family, Labour and Social Policy",https://www.gov.pl/web/rodzina,gov.pl,central
+government_agency,"General Directorate for National Roads and Highways, Wrocław Branch",https://www.gov.pl/web/gddkia-wroclaw,gov.pl,
 ministry,Ministry of Agriculture and Rural Development,https://www.gov.pl/web/rolnictwo/,gov.pl,
 ministry,Ministry of Development and Technology (Poland),https://www.gov.pl/web/rozwoj-technologia,gov.pl,
+government_agency,"General Directorate for National Roads and Highways, Łódź Branch",https://www.gov.pl/web/gddkia-lodz,gov.pl,
+government_agency,Patient Rights Authority,https://www.gov.pl/web/rpp,gov.pl,central
 ministry,Ministry of State Assets,https://www.gov.pl/web/aktywa-panstwowe,gov.pl,
+government_agency,Government Centre for Security,https://www.gov.pl/web/rcb,gov.pl,central
+government_agency,Ministry of Culture and National Heritage,http://www.gov.pl/kultura,gov.pl,central
+government_agency,Agricultural Social Insurance Fund,https://www.gov.pl/web/krus/,gov.pl,central
+government_agency,Chief Pharmaceutical Inspectorate,https://www.gov.pl/web/gif,gov.pl,central
+government_agency,"General Directorate for National Roads and Highways, Białystok Branch",https://www.gov.pl/web/gddkia-bialystok,gov.pl,
+government_agency,Świętokrzyskie Voivodeship Office,https://www.gov.pl/web/uw-swietokrzyski/,gov.pl,central-1
+government_agency,Łódź Voivodeship Office,https://www.gov.pl/web/uw-lodzki,gov.pl,central-1
+government_agency,Agency for Restructurization and Modernization of Agriculture,https://www.gov.pl/web/arimr,gov.pl,central
+government_agency,Lower Silesian Voivodeship Office,https://www.gov.pl/web/dolnoslaski-uw,gov.pl,central-1
+government_agency,Ministry of Justice,https://www.gov.pl/web/sprawiedliwosc/,gov.pl,central
+government_agency,Office for Foreigners,https://www.gov.pl/web/udsc/,gov.pl,central
+government_agency,Agricultural and Food Quality Inspection,https://www.gov.pl/web/ijhars,gov.pl,central
+government_agency,Podkarpackie Voivodeship Office,https://www.gov.pl/web/uw-podkarpacki,gov.pl,central-1
 ministry,Ministry of Science and Higher Education,https://www.gov.pl/web/nauka,gov.pl,
+government_agency,Head Office of Geodesy and Cartography,https://www.gov.pl/web/gugik,gov.pl,central
+government_agency,Refugee Council,https://www.gov.pl/web/rada-ds-uchodzcow,gov.pl,
+government_agency,Lublin Voivodeship Office,https://www.gov.pl/web/uw-lubelski/,gov.pl,central-1
+government_agency,"General Directorate for National Roads and Highways, Szczecin Branch",https://www.gov.pl/web/gddkia-szczecin,gov.pl,
+government_agency,"State Water Holding ""Polish Waters""",https://www.gov.pl/wody-polskie/,gov.pl,central
 ministry,"Ministry of Family, Labour and Social Policy",https://www.gov.pl/web/rodzina,gov.pl,
+government_agency,Polish Church Fund,https://www.gov.pl/web/mswia/fundusz-koscielny,gov.pl,
+government_agency,"General Directorate for National Roads and Highways, Rzeszów Branch",https://www.gov.pl/web/gddkia-rzeszow,gov.pl,
+government_agency,"General Directorate for National Roads and Highways, Lublin Branch",https://www.gov.pl/web/gddkia-lublin,gov.pl,
+government_agency,Lubusz Voivodeship Office,https://www.gov.pl/web/uw-lubuski,gov.pl,central-1
+government_agency,Ministry of Climate and Environment,https://www.gov.pl/web/klimat,gov.pl,central
+government_agency,Podlaskie Voivodeship Office,https://www.gov.pl/web/uw-podlaski,gov.pl,central-1
+government_agency,"General Directorate for National Roads and Highways, Katowice Branch",https://www.gov.pl/web/gddkia-katowice,gov.pl,
+government_agency,Ministry of Development Funds and Regional Policy,https://www.gov.pl/web/fundusze-regiony,gov.pl,central
+government_agency,Ministry of Health of Poland,https://www.gov.pl/web/zdrowie,gov.pl,central
+government_agency,Main Inspectorate of Marine Fisheries,https://www.gov.pl/web/girm,gov.pl,central
+government_agency,Ministry of Digital Affairs,https://www.gov.pl/web/cyfryzacja,gov.pl,central
+government_agency,Chancellery of the Prime Minister of Poland,https://www.gov.pl/web/premier,gov.pl,central
+government_agency,General Directorate of Environmental Protection,https://www.gov.pl/web/gdos,gov.pl,central
+government_agency,The General Office of Building Control,https://www.gov.pl/web/gunb,gov.pl,central
+government_agency,Ministry of Foreign Affairs of Poland,http://www.gov.pl/dyplomacja,gov.pl,central
+government_agency,West Pomeranian Voivodeship Office,https://www.gov.pl/web/uw-zachodniopomorski,gov.pl,central-1
+government_agency,Q140445475,https://www.gov.pl/web/nck/,gov.pl,
+government_agency,Ministry of Finance of Poland,https://www.gov.pl/web/finanse,gov.pl,central
 ministry,Ministry of Climate and Environment,https://www.gov.pl/web/klimat,gov.pl,
 ministry,Ministry of Development Funds and Regional Policy,https://www.gov.pl/web/fundusze-regiony,gov.pl,
+government_agency,Ministry of Development and Technology,https://www.gov.pl/web/rozwoj-technologia,gov.pl,central
 ministry,Ministry of National Defence of Poland,https://www.gov.pl/web/obrona-narodowa,gov.pl,
+government_agency,Bureau for Chemical Substances,https://www.gov.pl/web/chemikalia,gov.pl,central
 ministry,Ministry of Infrastructure of Poland,https://www.gov.pl/web/infrastruktura,gov.pl,
+government_agency,Main Inspectorate of Plant Health and Seed Inspection,https://www.gov.pl/web/piorin,gov.pl,central
+government_agency,"General Directorate for National Roads and Highways, Kraków Branch",https://www.gov.pl/web/gddkia-krakow,gov.pl,
+government_agency,"General Directorate for National Roads and Highways, Gdańsk Branch",https://www.gov.pl/web/gddkia-gdansk,gov.pl,
+government_agency,"General Directorate for National Roads and Highways, Olsztyn Branch",https://www.gov.pl/web/gddkia-olsztyn,gov.pl,
+government_agency,"General Directorate for National Roads and Highways, Warszawa Branch",https://www.gov.pl/web/gddkia-warszawa,gov.pl,
+government_agency,"General Directorate for National Roads and Highways, Zielona Góra Branch",https://www.gov.pl/web/gddkia-zielona-gora,gov.pl,
+government_agency,National Atomic Energy Agency,https://www.gov.pl/web/paa/,gov.pl,central
+government_agency,"General Directorate for National Roads and Highways, Kielce Branch",https://www.gov.pl/web/gddkia-kielce,gov.pl,
+government_agency,Ministry of Agriculture and Rural Development,https://www.gov.pl/web/rolnictwo/,gov.pl,central
+government_agency,"General Directorate for National Roads and Highways, Bydgoszcz Branch",https://www.gov.pl/web/gddkia-bydgoszcz,gov.pl,
 ministry,Ministry of Health of Poland,https://www.gov.pl/web/zdrowie,gov.pl,
+government_agency,Warmian-Masurian Voivodeship Office,https://www.gov.pl/web/uw-warminsko-mazurski,gov.pl,central-1
+government_agency,Opole Voivodeship Office,https://www.gov.pl/web/uw-opolski,gov.pl,central-1
 ministry,Ministry of Industry,https://www.gov.pl/web/przemysl,gov.pl,
 ministry,Ministry of Interior and Administration,https://www.gov.pl/web/mswia,gov.pl,
+government_agency,Ministry of State Assets,https://www.gov.pl/web/aktywa-panstwowe,gov.pl,central
+government_agency,"General Directorate for National Roads and Highways, Poznań Branch",https://www.gov.pl/web/gddkia-poznan,gov.pl,
 ministry,Ministry of Culture and National Heritage,http://www.gov.pl/kultura,gov.pl,
 ministry,Ministry of Foreign Affairs of Poland,http://www.gov.pl/dyplomacja,gov.pl,
+government_agency,Ministry of National Defence of Poland,https://www.gov.pl/web/obrona-narodowa,gov.pl,central
+government_agency,"General Directorate for National Roads and Highways, Opole Branch",https://www.gov.pl/web/gddkia-opole,gov.pl,
+government_agency,Krajowa Rada Radiofonii i Telewizji,https://www.gov.pl/web/krrit,gov.pl,
+government_agency,Main Inspectorate of Road Transport,https://www.gov.pl/web/gitd,gov.pl,central
+government_agency,Chief Inspectorate for Environmental Protection,https://www.gov.pl/web/gios,gov.pl,central
 constitutional_court,Chancellery of the Prime Minister of Poland,https://www.gov.pl/web/premier,gov.pl,central
+government_agency,Masovian Voivodeship Office,https://www.gov.pl/web/uw-mazowiecki,gov.pl,central-1
+government_agency,The General Counsel to the Republic of Poland,https://www.gov.pl/web/prokuratoria,gov.pl,central
+government_agency,Ministry of Infrastructure of Poland,https://www.gov.pl/web/infrastruktura,gov.pl,central
+government_agency,General Directorate for National Roads and Highways,https://www.gov.pl/web/gddkia,gov.pl,
+government_agency,Pomeranian Voivodeship Office,https://www.gov.pl/web/uw-pomorski/strona-glowna,gov.pl,central-1
+government_agency,Ministry of Science and Higher Education,https://www.gov.pl/web/nauka,gov.pl,central
+government_agency,Ministry of Sport and Tourism,https://www.gov.pl/web/sport,gov.pl,central
+government_agency,Kuyavian-Pomeranian Voivodeship Office,https://www.gov.pl/web/uw-kujawsko-pomorski,gov.pl,central-1
+government_agency,Ministry of Interior and Administration,https://www.gov.pl/web/mswia,gov.pl,central
+government_agency,Chief Sanitary Inspectorate,https://www.gov.pl/web/gis,gov.pl,central
+government_agency,Ministry of National Education,https://www.gov.pl/web/edukacja,gov.pl,central
 ministry,Ministry of Sport and Tourism,https://www.gov.pl/web/sport,gov.pl,
+government_agency,"Embassy of the United Kingdom, Warsaw",https://www.gov.uk/government/world/organisations/british-embassy-warsaw/,gov.uk,central
+government_agency,embassy of Iceland in Poland,https://www.government.is/other-languages/ambasada-islandii-w-warszawie/o-ambasadzie/,government.is,central
+government_agency,Main Office of Measures,https://www.gum.gov.pl/,gum.gov.pl,central
+government_agency,Q124214491,https://iderepublica.pl/,iderepublica.pl,
+government_agency,"Embassy of India, Warsaw",https://www.indianembassywarsaw.gov.in/,indianembassywarsaw.gov.in,central
+government_agency,Polish Institute,https://instytutpolski.pl,instytutpolski.pl,
+government_agency,"Embassy of Canada, Warsaw",https://www.international.gc.ca/country-pays/poland-pologne/warsaw-varsovie.aspx?lang=fra,international.gc.ca,central
+government_agency,International Organization for Migration,http://www.iom.pl/,iom.pl,
+government_agency,"Embassy of Ireland, Warsaw",https://www.ireland.ie/en/poland/warsaw/,ireland.ie,central
+government_agency,"Institute of Art, Polish Academy of Sciences",http://www.ispan.pl/,ispan.pl,
+government_agency,Q136182643,https://jawor.wroclaw.lasy.gov.pl/,jawor.wroclaw.lasy.gov.pl,
+government_agency,Q124542133,https://jelenia-gora.so.gov.pl/,jelenia-gora.so.gov.pl,
+government_agency,Polish National Energy Conservation Agency,http://kape.gov.pl/index.php/en/,kape.gov.pl,
+government_agency,Q124286823,https://katowice.sa.gov.pl/,katowice.sa.gov.pl,
+government_agency,Q60855429,https://katowice.so.gov.pl/,katowice.so.gov.pl,
+government_agency,Silesian Voivodeship Office,https://www.katowice.uw.gov.pl/,katowice.uw.gov.pl,central-1
+government_agency,"embassy of Indonesia, Warsaw",https://kemlu.go.id/warsawa,kemlu.go.id,central
+government_agency,"embassy of Indonesia, Warsaw",https://kemlu.go.id/warsaw,kemlu.go.id,central
+government_agency,Railway Security Guard,http://www.kgsok.pl,kgsok.pl,
+government_agency,Polish Chamber of Commerce,https://kig.pl,kig.pl,
+government_agency,Q56328851,http://www.kis.gov.pl,kis.gov.pl,
+government_agency,Q18432569,http://www.kliniska.szczecin.lasy.gov.pl/,kliniska.szczecin.lasy.gov.pl,
+government_agency,"Embassy of Malaysia, Warsaw",http://www.kln.gov.my/web/pol_warsaw/home,kln.gov.my,central
+government_agency,Financial Supervision Authority,http://www.knf.gov.pl/,knf.gov.pl,
+government_agency,Q133459352,https://kolobrzeg.eu/4231-kolobrzeg-straz-miejska-w-kolobrzegu,kolobrzeg.eu,local
+government_agency,Office for War Veterans and Victims of Oppression,http://www.kombatanci.gov.pl/,kombatanci.gov.pl,central
+government_agency,Q136527926,https://komunikacja.zakrzew.pl/,komunikacja.zakrzew.pl,
+government_agency,Q86723836,https://www.koszalin.so.gov.pl/,koszalin.so.gov.pl,
+government_agency,National Support Centre for Agriculture,http://www.kowr.gov.pl,kowr.gov.pl,
+government_agency,Securities and Exchange Commission (Poland),http://www.kpwig.gov.pl,kpwig.gov.pl,
+government_agency,"Consulate General of Germany, Krakow",https://krakau.diplo.de/,krakau.diplo.de,
+government_agency,Consulate General of Hungary in Krakow,https://krakko.mfa.gov.hu/,krakko.mfa.gov.hu,central
+government_agency,Consulate General of Russia in Kraków,https://krakow.mid.ru,krakow.mid.ru,
+government_agency,Court of Appeal in Kraków,https://krakow.sa.gov.pl/,krakow.sa.gov.pl,
+government_agency,Regional Court in Kraków,https://www.krakow.so.gov.pl/,krakow.so.gov.pl,
+government_agency,"Embassy of North Korea, Warsaw",http://www.krld.pl/krld/index,krld.pl,central
+government_agency,Q124287562,https://krosno.so.gov.pl/,krosno.so.gov.pl,
+government_agency,National Council of the Judiciary,http://www.krs.pl/,krs.pl,
+government_agency,Marshal's Office of Kuyavian-Pomeranian Voivodeship,https://kujawsko-pomorskie.pl/en/category/marshals-office/,kujawsko-pomorskie.pl,central-1
+government_agency,National Water Management Authority,http://www.kzgw.gov.pl/,kzgw.gov.pl,central
+government_agency,Q124293121,https://lancut.sr.gov.pl,lancut.sr.gov.pl,local
+government_agency,Directorate General of State Forests,https://www.lasy.gov.pl/pl,lasy.gov.pl,
+government_agency,State Forests,https://www.lasy.gov.pl/,lasy.gov.pl,
+government_agency,Kostrzyca Forest Gene Bank,http://lbg.home.pl/en/index.htm,lbg.home.pl,
+government_agency,Q124542223,https://www.legnica.so.gov.pl,legnica.so.gov.pl,
+government_agency,Archiwum Państwowe w Łodzi,http://www.lodz.ap.gov.pl,lodz.ap.gov.pl,
+government_agency,Q124286854,https://lodz.sa.gov.pl/,lodz.sa.gov.pl,
+government_agency,Provincial Administrative Court in Łódź,https://lodz.wsa.gov.pl/58/132/strona-glowna.html,lodz.wsa.gov.pl,central-1
+government_agency,Łódź Voivodeship Marshal's Office,https://www.lodzkie.pl/,lodzkie.pl,central-1
+government_agency,Marshal's Office of Lublin Voivodeship,https://www.lubelskie.pl/kontakt/,lubelskie.pl,central-1
+government_agency,Q86680072,https://lublin.mfa.gov.ua/,lublin.mfa.gov.ua,
+government_agency,Q124286836,https://www.lublin.sa.gov.pl/,lublin.sa.gov.pl,
+government_agency,Zarząd Województwa Lubuskiego,https://lubuskie.pl,lubuskie.pl,
+government_agency,Marshal's Office of Lubusz Voivodeship,https://lubuskie.pl/,lubuskie.pl,central-1
+government_agency,Ludowy Theatre,http://ludowy.pl/,ludowy.pl,
+government_agency,Q48847316,https://lwowekslaski.sr.gov.pl/,lwowekslaski.sr.gov.pl,local
+government_agency,Marshal’s Office of Lesser Poland Voivodeship,https://www.malopolska.pl/urzad-marszalkowski/o-urzedzie,malopolska.pl,central-1
+government_agency,Lesser Poland Voivodeship Office,https://www.malopolska.uw.gov.pl/index.aspx,malopolska.uw.gov.pl,central-1
 parliament,Lesser Poland Regional Assembly,http://www.malopolskie.pl/Sejmik/Informacje,malopolskie.pl,central-1
+government_agency,Marshal’s Office of Masovian Voivodeship,https://mazovia.pl/pl/urzad_marszalkowski/informacje-ogolne.html,mazovia.pl,central-1
 ministry,Ministry of Digital Affairs,https://mc.gov.pl/,mc.gov.pl,
 ministry,Ministry of National Education,http://www.men.gov.pl/,men.gov.pl,
+government_agency,Zarząd Transportu Metropolitalnego,https://www.metropoliaztm.pl/,metropoliaztm.pl,
 ministry,Ministry of Finance of Poland,http://www.mf.gov.pl/,mf.gov.pl,
+government_agency,"Embassy of Bulgaria, Warsaw",http://www.mfa.bg/embassies/poland,mfa.bg,central
+government_agency,"Embassy of Cyprus, Warsaw",http://www.mfa.gov.cy/mfa/Embassies/Embassy_Warsaw.nsf/DMLindex_en/DMLindex_en?OpenDocument,mfa.gov.cy,central
+government_agency,"Embassy of Kazakhstan, Warsaw",http://www.mfa.gov.kz/pl/warsaw,mfa.gov.kz,central
+government_agency,"Embassy of Latvia, Warsaw",http://www.mfa.gov.lv/poland/,mfa.gov.lv,central
+government_agency,"Embassy of Greece, Warsaw",https://www.mfa.gr/missionsabroad/poland.html,mfa.gr,central
+government_agency,"Embassy of New Zealand, Warsaw",https://www.mfat.govt.nz/en/countries-and-regions/europe/poland/new-zealand-embassy/,mfat.govt.nz,central
+government_agency,Juliusz Mieroszewski Centre for Dialogue,http://mieroszewski.pl,mieroszewski.pl,
+government_agency,"Embassy of Panama, Warsaw",https://www.mire.gob.pa/index.php/en/embajada-de-polonia,mire.gob.pa,central
+government_agency,"Embassy of Pakistan, Warsaw",http://mofa.gov.pk/warsaw-poland/,mofa.gov.pk,central
+government_agency,"Embassy of the United Arab Emirates, Warsaw",https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=a3150b6a-a269-4f00-9590-45d88e7d4a6e,mofaic.gov.ae,central
+government_agency,Warsaw-Mokotów District Court in Warsaw,https://mokotow.sr.gov.pl/,mokotow.sr.gov.pl,local
+government_agency,Ministry of Entrepreneurship and Technology,http://www.mpit.gov.pl/,mpit.gov.pl,central
 ministry,Ministry of Justice,https://www.ms.gov.pl/,ms.gov.pl,
+government_agency,Museum of the Masovian Nobility in Ciechanów,http://muzeumciechanow.pl/,muzeumciechanow.pl,
+government_agency,"Embassy of the Czech Republic, Warsaw",http://www.mzv.cz/warsaw,mzv.cz,central
+government_agency,"Embassy of Slovakia, Warsaw",https://www.mzv.sk/web/varsava/,mzv.sk,central
+government_agency,"Consulate General of Slovakia, Kraków",https://www.mzv.sk/web/cgkrakow/domov,mzv.sk,
+government_agency,"Consulate General of Slovakia, Kraków",http://www.mzv.sk/cgkrakow,mzv.sk,
+government_agency,National Digital Archives,https://www.nac.gov.pl/,nac.gov.pl,
+government_agency,Q20034060,"https://www.nadbuzanski.strazgraniczna.pl/nos/placowki/psg-horodlo/10977,PSG-Horodlo.html",nadbuzanski.strazgraniczna.pl,
+government_agency,Polish National Agency for Academic Exchange,https://nawa.gov.pl/,nawa.gov.pl,
+government_agency,Narodowy Bank Polski,https://www.nbp.pl/,nbp.pl,
+government_agency,National Centre for Research and Development in Poland,http://www.ncbr.gov.pl/,ncbr.gov.pl,
+government_agency,Narodowe Centrum Kultury,http://www.nck.pl,nck.pl,
+government_agency,National Science Centre Poland,http://www.ncn.gov.pl/,ncn.gov.pl,central
+government_agency,Narodowy Instytut Dziedzictwa,http://www.nid.pl/en/,nid.pl,
+government_agency,Narodowy Instytut Dziedzictwa,http://www.nid.pl,nid.pl,
+government_agency,"Embassy of Nigeria, Warsaw",https://www.nigeriaembassypoland.org,nigeriaembassypoland.org,central
+government_agency,National Freedom Institute – Centre for Civil Society Development,https://www.niw.gov.pl/,niw.gov.pl,
+government_agency,Związek Powiatowo-Gminny „Nadwiślańska Komunikacja Autobusowa”,https://nka.powiat-otwocki.pl/,nka.powiat-otwocki.pl,
+government_agency,"Embassy of Norway, Warsaw",https://www.norway.no/poland/,norway.no,central
+government_agency,Chief Military Prosecutor Office,http://www.npw.gov.pl,npw.gov.pl,
+government_agency,Supreme Administrative Court of Poland,http://www.nsa.gov.pl/,nsa.gov.pl,
+government_agency,Apostolic Nunciature to Poland,http://nuncjatura.pl,nuncjatura.pl,central
+government_agency,Q49331132,https://olsztyn.olsztyn.lasy.gov.pl,olsztyn.olsztyn.lasy.gov.pl,
+government_agency,Silesian Opera,https://opera-slaska.pl/,opera-slaska.pl,
+government_agency,Marshal’s Office of Opole Voivodeship,https://www.opolskie.pl/,opolskie.pl,central-1
+government_agency,German Consulate Opole,https://oppeln.diplo.de/,oppeln.diplo.de,central-1
+government_agency,Centre for the Development of Polish Education Abroad,http://www.orpeg.pl,orpeg.pl,
+government_agency,Q11795685,http://www.osp-oldrzychowice.pl.tl/Strona-g%26%23322%3B%F3wna.htm,osp-oldrzychowice.pl.tl,
+government_agency,Q16583461,http://www.osp-ozarow.pl/,osp-ozarow.pl,
+government_agency,Q11795695,http://www.osp.lasin.pl/,osp.lasin.pl,
+government_agency,Q30903822,http://www.ospchojnice.pl,ospchojnice.pl,
+government_agency,"Embassy of South Korea, Warsaw",http://overseas.mofa.go.kr/pl-ko/index.do,overseas.mofa.go.kr,central
+government_agency,"Embassy of South Korea, Warsaw",https://overseas.mofa.go.kr/pl-pl/index.do,overseas.mofa.go.kr,central
+government_agency,Embassy of Palestine in Poland,https://www.palestine.pl/,palestine.pl,central
+government_agency,Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in Katowice,http://www.panewniki.franciszkanie.pl/,panewniki.franciszkanie.pl,
 constitutional_court,Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in Katowice,http://www.panewniki.franciszkanie.pl/,panewniki.franciszkanie.pl,
+government_agency,Polish Agency for Enterprise Development,http://www.parp.gov.pl/,parp.gov.pl,
+government_agency,Polish Accreditation Centre,https://www.pca.gov.pl,pca.gov.pl,
+government_agency,National Disabled Persons Rehabilitation Fund,https://www.pfron.org.pl/,pfron.org.pl,
+government_agency,Q136650989,https://pgztppm.pl,pgztppm.pl,
+government_agency,Ignacy Jan Paderewski Polish Institute of Diplomacy,http://www.pid.gov.pl/,pid.gov.pl,
 constitutional_court,Piarist province of Poland,https://www.pijarzy.pl,pijarzy.pl,
+government_agency,Piarist province of Poland,https://www.pijarzy.pl,pijarzy.pl,
+government_agency,Regional Directorate of State Forests in Piła,https://www.pila.lasy.gov.pl,pila.lasy.gov.pl,
+government_agency,1 Zwycięstwa Street in Pionki,http://pionki.osp.org.pl/index.php?pid=1,pionki.osp.org.pl,
+government_agency,State Labour Inspection,http://www.pip.gov.pl,pip.gov.pl,
+government_agency,Terminal Koroszczyn,https://www.pkgsa.pl/ru/o-nas-русский/,pkgsa.pl,
+government_agency,Terminal Koroszczyn,https://www.pkgsa.pl/en/o-nas-english/,pkgsa.pl,
+government_agency,Terminal Koroszczyn,https://www.pkgsa.pl/terminal/,pkgsa.pl,
+government_agency,National Electoral Commission (Poland),http://pkw.gov.pl/,pkw.gov.pl,central
+government_agency,Consulate General of France in Krakow,https://pl.ambafrance.org/-Consulat-general-de-France-a-Cracovie-,pl.ambafrance.org,
+government_agency,"Embassy of France, Warsaw",https://pl.ambafrance.org/,pl.ambafrance.org,central
+government_agency,"Embassy of Bosnia and Herzegovina, Warsaw",http://pl.ambasadabih.pl/,pl.ambasadabih.pl,central
+government_agency,"Embassy of Japan,  Warsaw",https://www.pl.emb-japan.go.jp/,pl.emb-japan.go.jp,central
+government_agency,"Embassy of Lebanon, Warsaw",http://pl.lebanon.pl/,pl.lebanon.pl,central
+government_agency,"Embassy of Lithuania, Warsaw",https://pl.mfa.lt/,pl.mfa.lt,central
+government_agency,"Embassy of Croatia, Warsaw",http://pl.mvep.hr/pl/,pl.mvep.hr,central
+government_agency,"Embassy of the United States, Warsaw",https://pl.usembassy.gov/,pl.usembassy.gov,central
+government_agency,Consulate General of the United States in Kraków,https://pl.usembassy.gov/u-s-consulate-general-krakow/,pl.usembassy.gov,
+government_agency,Q11788856,https://plaska.bialystok.lasy.gov.pl/,plaska.bialystok.lasy.gov.pl,
+government_agency,Q124542120,https://plock.so.gov.pl/,plock.so.gov.pl,
+government_agency,Marshal’s Office of Podlaskie Voivodeship,https://podlaskie.eu/urzad,podlaskie.eu,central-1
+government_agency,"Embassy of Belgium, Warsaw",https://poland.diplomatie.belgium.be,poland.diplomatie.belgium.be,central
+government_agency,"Embassy of Australia, Warsaw",https://poland.embassy.gov.au,poland.embassy.gov.au,central
+government_agency,"Embassy of Armenia, Warsaw",https://poland.mfa.am/,poland.mfa.am,central
+government_agency,"Consulate-General of Belarus, Białystok",https://poland.mfa.gov.by/pl/kunsulaty/general/,poland.mfa.gov.by,
+government_agency,"Embassy of Belarus, Warsaw",http://poland.mfa.gov.by/,poland.mfa.gov.by,central
+government_agency,"Embassy of Georgia, Warsaw",http://www.poland.mfa.gov.ge,poland.mfa.gov.ge,central
+government_agency,"Embassy of Ukraine, Warsaw",http://poland.mfa.gov.ua/,poland.mfa.gov.ua,central
+government_agency,Embassy of Russia in Poland,http://poland.mid.ru,poland.mid.ru,central
+government_agency,"Embassy of the Netherlands, Warsaw",http://poland.nlembassy.org/,poland.nlembassy.org,central
+government_agency,European Commission Representation in Poland,https://poland.representation.ec.europa.eu/,poland.representation.ec.europa.eu,
+government_agency,European Commission Regional Representation in Wrocław,https://poland.representation.ec.europa.eu/index_en,poland.representation.ec.europa.eu,
+government_agency,"Embassy of Germany, Warsaw",https://polen.diplo.de,polen.diplo.de,central
+government_agency,German Consulate Opole,https://polen.diplo.de/pl-pl/01-vertretungen/01-5-gk-oppeln,polen.diplo.de,central-1
+government_agency,"Embassy of Denmark, Warsaw",http://polen.um.dk/,polen.um.dk,central
+government_agency,Policja,http://www.policja.pl,policja.pl,
+government_agency,"Embassy of Colombia, Warsaw",https://polonia.embajada.gov.co/,polonia.embajada.gov.co,central
+government_agency,"Embassy of Moldova, Warsaw",https://polonia.mfa.gov.md,polonia.mfa.gov.md,central
+government_agency,Polish Space Agency,https://polsa.gov.pl/,polsa.gov.pl,
+government_agency,Polish Space Agency,https://polsa.gov.pl/en/,polsa.gov.pl,
+government_agency,Q119576716,https://poznan-staremiasto.sr.gov.pl/,poznan-staremiasto.sr.gov.pl,
+government_agency,Q11834042,http://www.poznan.lasy.gov.pl/,poznan.lasy.gov.pl,
+government_agency,Q124286865,https://poznan.sa.gov.pl/,poznan.sa.gov.pl,
+government_agency,Q124542168,https://www.poznan.so.gov.pl/,poznan.so.gov.pl,
+government_agency,Greater Poland Voivodeship Office,https://www.poznan.uw.gov.pl/,poznan.uw.gov.pl,central-1
 constitutional_court,Chancellery of the Prime Minister of Poland,https://www.premier.gov.pl,premier.gov.pl,
+government_agency,Chancellery of the President of the Republic of Poland,https://www.president.pl/,president.pl,
+government_agency,Chancellery of the President of the Republic of Poland,https://www.prezydent.pl/,prezydent.pl,
+government_agency,Q124287556,https://www.przemysl.so.gov.pl/,przemysl.so.gov.pl,
+government_agency,Rada Języka Śląskiego,https://radaslonskigojynzyka.org/,radaslonskigojynzyka.org,
+government_agency,Governmental Strategic Reserves Agency,http://www.rars.gov.pl/index.php,rars.gov.pl,
+government_agency,RCKiK Katowice,https://rckik-katowice.pl/,rckik-katowice.pl,
+government_agency,Scientific Excellence Council,https://www.rdn.gov.pl/,rdn.gov.pl,
+government_agency,Council for the Polish Language,https://rjp.pan.pl/,rjp.pan.pl,
+government_agency,Kraków City Council,https://www.rmk.krakow.pl,rmk.krakow.pl,local
+government_agency,Taipei Representative Office in Poland,http://www.roc-taiwan.org/PL/mp.asp?mp=197,roc-taiwan.org,
+government_agency,Q49331172,https://rozanna.torun.lasy.gov.pl/,rozanna.torun.lasy.gov.pl,
+government_agency,Court of Appeal in Rzeszów,https://www.rzeszow.sa.gov.pl/,rzeszow.sa.gov.pl,
+government_agency,Q122641979,https://rzeszow.so.gov.pl/,rzeszow.so.gov.pl,
+government_agency,Q16583464,http://www.sadowne.osp.org.pl,sadowne.osp.org.pl,
+government_agency,Q125511749,https://sanokolchowce.osp.pl/,sanokolchowce.osp.pl,
+government_agency,National Media Council,http://sejm.gov.pl/Sejm8.nsf/page.xsp/rmn_sklad,sejm.gov.pl,
+government_agency,Chancellary of the Sejm,http://www.sejm.gov.pl/kancelaria/podstrony/struktura.htm,sejm.gov.pl,
+government_agency,Sejm of the Republic of Poland,https://sejm.gov.pl,sejm.gov.pl,central
 parliament,Podkarpackie Regional Assembly,http://www.sejmik.podkarpackie.pl,sejmik.podkarpackie.pl,central-1
 parliament,Silesian Regional Assembly,http://sejmik.slaskie.pl/,sejmik.slaskie.pl,central-1
 parliament,West Pomeranian Regional Assembly,https://sejmik.wzp.pl/,sejmik.wzp.pl,central-1
+government_agency,Chancellery of the Senate,https://www.senat.gov.pl/en/,senat.gov.pl,
+government_agency,Chancellery of the Senate,http://www.senat.gov.pl/kancelaria/,senat.gov.pl,
+government_agency,Senate of Poland,https://senat.gov.pl,senat.gov.pl,central
+government_agency,Military Counterintelligence Service,http://www.skw.gov.pl,skw.gov.pl,
+government_agency,Q133030557,https://sm.miastozabrze.pl/,sm.miastozabrze.pl,local
+government_agency,Q131390394,https://sm.poznan.pl/,sm.poznan.pl,local
+government_agency,Q133030266,https://www.sm.szczecin.pl/,sm.szczecin.pl,local
+government_agency,Supreme Court of Poland,http://www.sn.pl,sn.pl,central
+government_agency,Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego,http://www.sniadecja.pl/,sniadecja.pl,
+government_agency,State Protection Service,http://sop.gov.pl/,sop.gov.pl,
+government_agency,District Court in Sosnowiec,https://www.sosnowiec.sr.gov.pl/,sosnowiec.sr.gov.pl,local
+government_agency,"Embassy of Sri Lanka, Warsaw",http://srilankaembassy.com.pl,srilankaembassy.com.pl,central
+government_agency,Q124293093,https://starogard-gd.sr.gov.pl/,starogard-gd.sr.gov.pl,local
+government_agency,Statistics Poland,https://stat.gov.pl,stat.gov.pl,central
+government_agency,Statistics Poland,https://stat.gov.pl/en,stat.gov.pl,central
+government_agency,State Fire Service,http://www.straz.gov.pl,straz.gov.pl,
+government_agency,Q131390296,http://strazmiejska.bialystok.pl/,strazmiejska.bialystok.pl,local
+government_agency,Q133030169,https://strazmiejska.bytom.pl/,strazmiejska.bytom.pl,local
+government_agency,Q133091267,https://strazmiejska.gda.pl/,strazmiejska.gda.pl,local
+government_agency,Q133030465,https://strazmiejska.krakow.pl/,strazmiejska.krakow.pl,local
+government_agency,Q131392077,https://strazmiejska.lodz.pl/,strazmiejska.lodz.pl,local
+government_agency,Q133030323,https://strazmiejska.olsztyn.eu/,strazmiejska.olsztyn.eu,local
+government_agency,Q133091593,https://strazmiejska.tomaszow-maz.pl/,strazmiejska.tomaszow-maz.pl,local
+government_agency,Q131390402,https://www.strazmiejska.waw.pl/,strazmiejska.waw.pl,local
+government_agency,Służba Więzienna,http://www.sw.gov.pl/,sw.gov.pl,
+government_agency,"Embassy of Sweden, Warsaw",http://www.swedenabroad.com/Warszawa/,swedenabroad.com,central
+government_agency,Military Intelligence Service (Poland),http://www.sww.gov.pl,sww.gov.pl,
+government_agency,"Embassy of Syria, Warsaw",http://syrianembassy.com.pl/,syrianembassy.com.pl,central
+government_agency,Q124286886,https://www.szczecin.sa.gov.pl/,szczecin.sa.gov.pl,
+government_agency,Q124287497,https://www.tarnobrzeg.so.gov.pl/,tarnobrzeg.so.gov.pl,
+government_agency,Q56328675,http://www.tdt.gov.pl,tdt.gov.pl,
+government_agency,Teatr Polski in Bielsko-Biała,https://teatr.bielsko.pl/,teatr.bielsko.pl,
+government_agency,Teatr im. Ludwika Solskiego w Tarnowie,http://www.teatr.tarnow.pl/,teatr.tarnow.pl,
+government_agency,Cyprian Kamil Norwid Theatre,http://teatrnorwida.pl/,teatrnorwida.pl,
+government_agency,Teatr im. Juliusza Osterwy,http://www.teatrosterwy.pl,teatrosterwy.pl,
+government_agency,Q124317478,https://tgory.sr.gov.pl/,tgory.sr.gov.pl,local
+government_agency,"Embassy of Thailand, Warsaw",http://www.thaiembassy.org/warsaw/pl/,thaiembassy.org,central
+government_agency,Q120717214,https://www.torun.pl/pl/rozwin-menu-miasto/samorzad/rada-miasta-torunia,torun.pl,local
+government_agency,Constitutional Tribunal of the Republic of Poland,http://www.trybunal.gov.pl/,trybunal.gov.pl,
+government_agency,Office of Technical Inspection,http://www.udt.gov.pl,udt.gov.pl,
+government_agency,Office of Electronic Communication,https://www.uke.gov.pl,uke.gov.pl,central
+government_agency,Civil Aviation Authority,http://www.ulc.gov.pl/,ulc.gov.pl,central
+government_agency,Warsaw City Council,https://um.warszawa.pl/waw/radawarszawy,um.warszawa.pl,local
+government_agency,Maritime Office in Gdynia,http://www.umgdy.gov.pl,umgdy.gov.pl,
+government_agency,Łódź City Council,https://uml.lodz.pl/urzad-miasta-lodzi/rada-miejska-w-lodzi/,uml.lodz.pl,
+government_agency,Maritime Office in Szczecin,https://www.ums.gov.pl,ums.gov.pl,
+government_agency,Marshal's Office of Lower Silesian Voivodeship,https://umwd.dolnyslask.pl/,umwd.dolnyslask.pl,central-1
 parliament,Lower Silesian Regional Assembly,https://umwd.dolnyslask.pl/index.php?id=sejmik,umwd.dolnyslask.pl,central-1
 parliament,Opole Regional Assembly,http://umwo.opole.pl/serwis/index.php?id=75,umwo.opole.pl,central-1
+government_agency,Marshal's Office of Greater Poland Voivodeship,https://www.umww.pl/,umww.pl,central-1
+government_agency,Polish National Commission for UNESCO,http://www.unesco.pl/,unesco.pl,
+government_agency,Personal Data Protection Office,https://uodo.gov.pl/,uodo.gov.pl,central
+government_agency,Office for Competition and Consumer Protection,https://www.uokik.gov.pl,uokik.gov.pl,central
+government_agency,Polish Patent Office,https://uprp.gov.pl/pl,uprp.gov.pl,central
+government_agency,The Energy Regulatory Authority of Poland,https://www.ure.gov.pl/,ure.gov.pl,central
+government_agency,"The Office for Registration of Medicinal Products, Medical Devices and Biocidal Products",https://www.urpl.gov.pl,urpl.gov.pl,central
+government_agency,Polish Office of Rail Transportation,https://utk.gov.pl/,utk.gov.pl,central
+government_agency,"Embassy of Uzbekistan, Warsaw",http://www.uzbekistan.pl/index.php?lang=pl,uzbekistan.pl,central
+government_agency,Public Procurement Office,http://www.uzp.gov.pl,uzp.gov.pl,central
+government_agency,"Embassy of Slovenia, Warsaw",http://varsava.veleposlanistvo.si/,varsava.veleposlanistvo.si,central
+government_agency,"Embassy of Hungary, Warsaw",https://varso.mfa.gov.hu/,varso.mfa.gov.hu,central
+government_agency,"Embassy of Turkey, Warsaw",https://varsova-be.mfa.gov.tr,varsova-be.mfa.gov.tr,central
+government_agency,"Embassy of Brazil, Warsaw",http://varsovia.itamaraty.gov.br/pl/,varsovia.itamaraty.gov.br,central
+government_agency,"Embassy of Romania, Warsaw",http://varsovia.mae.ro/,varsovia.mae.ro,central
+government_agency,"Embassy of Luxembourg, Warsaw",http://varsovie.mae.lu/,varsovie.mae.lu,central
+government_agency,"Embassy of Venezuela, Warsaw",http://www.venez.pl/language/pl/,venez.pl,central
+government_agency,Visit Bydgoszcz,https://visitbydgoszcz.pl/de,visitbydgoszcz.pl,
+government_agency,Visit Bydgoszcz,https://visitbydgoszcz.pl,visitbydgoszcz.pl,
+government_agency,Visit Bydgoszcz,https://visitbydgoszcz.pl/pl,visitbydgoszcz.pl,
+government_agency,Visit Bydgoszcz,https://visitbydgoszcz.pl/en,visitbydgoszcz.pl,
+government_agency,"Embassy of Vietnam, Warsaw",https://vnembassy-warsaw.mofa.gov.vn/en-us/Pages/default.aspx,vnembassy-warsaw.mofa.gov.vn,central
+government_agency,"Embassy of Qatar, Warsaw",https://warsaw.embassy.qa,warsaw.embassy.qa,central
+government_agency,European Parliament Liaison Office in Warsaw,https://warsaw.europarl.europa.eu,warsaw.europarl.europa.eu,
+government_agency,Embassy of Estonia in Warsaw,https://warsaw.mfa.ee,warsaw.mfa.ee,central
+government_agency,"Embassy of North Macedonia, Warsaw",https://warsaw.mfa.gov.mk,warsaw.mfa.gov.mk,central
+government_agency,"Embassy of Serbia, Warsaw",http://www.warsaw.mfa.gov.rs/,warsaw.mfa.gov.rs,central
+government_agency,"Embassy of Iran, Warsaw",https://warsaw.mfa.ir/,warsaw.mfa.ir,central
+government_agency,"Embassy of Bangladesh, Warsaw",https://warsaw.mofa.gov.bd/,warsaw.mofa.gov.bd,central
+government_agency,"Embassy of the Philippines, Warsaw",http://warsawpe.dfa.gov.ph,warsawpe.dfa.gov.ph,central
+government_agency,Warsaw-Śródmieście District Court in Warsaw,https://warszawa-srodmiescie.sr.gov.pl/,warszawa-srodmiescie.sr.gov.pl,local
+government_agency,Warsaw Fire Brigade,http://warszawa-straz.pl/,warszawa-straz.pl,
+government_agency,Regional Court in Warsaw,https://warszawa.so.gov.pl/,warszawa.so.gov.pl,
+government_agency,Q124293543,https://warszawa.sr.gov.pl/,warszawa.sr.gov.pl,
+government_agency,Regional Statistical Office in Warsaw,https://warszawa.stat.gov.pl/,warszawa.stat.gov.pl,
+government_agency,Q119623652,https://warszawapraga.so.gov.pl/,warszawapraga.so.gov.pl,
+government_agency,Court of Appeal in Warsaw,https://waw.sa.gov.pl/,waw.sa.gov.pl,
+government_agency,Q48848945,http://wbh.wp.mil.pl/pl/1.html,wbh.wp.mil.pl,
+government_agency,"Embassy of Egypt, Warsaw",https://web.archive.org/web/20170720111728/http://www.mfa.gov.eg:80/english/embassies/Egyptian_Embassy_Poland/Pages/default.aspx,web.archive.org,central
+government_agency,Q124317535,https://wejherowo.sr.gov.pl/,wejherowo.sr.gov.pl,local
+government_agency,Veterinary Inspection,https://www.wetgiw.gov.pl/,wetgiw.gov.pl,central
+government_agency,Wojewódzki Inspektorat Ochrony Środowiska w Warszawie,http://www.wios.warszawa.pl/,wios.warszawa.pl,central-1
+government_agency,Military Gendarmerie,https://www.wojsko-polskie.pl/kgzw,wojsko-polskie.pl,
+government_agency,Polish General Staff,https://www.wojsko-polskie.pl/sgwp,wojsko-polskie.pl,
+government_agency,European Parliament Liaison Office in Wrocław,https://wroclaw.europarl.europa.eu,wroclaw.europarl.europa.eu,
+government_agency,Q112829331,https://wroclaw.mfa.gov.ua/pl,wroclaw.mfa.gov.ua,
+government_agency,Q124286890,https://wroclaw.sa.gov.pl/,wroclaw.sa.gov.pl,
+government_agency,State Mining Authority,http://www.wug.gov.pl/,wug.gov.pl,central
+government_agency,Greater Poland Voivodeship Roads Authority,https://wzdw.pl,wzdw.pl,central-1
+government_agency,Q28673892,http://zabiele.pl/osp-zabiele,zabiele.pl,
 constitutional_court,Q11828045,http://www.zakonfranciszkanów.pl/,zakonfranciszkanów.pl,
+government_agency,Q11828045,http://www.zakonfranciszkanów.pl/,zakonfranciszkanów.pl,
+government_agency,Q124287595,https://zamosc.so.gov.pl/,zamosc.so.gov.pl,
+government_agency,Q124287629,https://zamosc.sr.gov.pl/,zamosc.sr.gov.pl,local
+government_agency,Zwia̦zek Banków Polskich,http://www.zbp.pl,zbp.pl,
+government_agency,Zarząd Dróg i Transportu w Łodzi,https://zdit.uml.lodz.pl/,zdit.uml.lodz.pl,
+government_agency,ZDiTM Szczecin,https://www.zditm.szczecin.pl/,zditm.szczecin.pl,
+government_agency,ZDiTM Lublin,https://www.zdtm.lublin.eu/,zdtm.lublin.eu,
+government_agency,ZTM Gdańsk,http://www.ztm.gda.pl,ztm.gda.pl,
+government_agency,ZTM Kielce,http://ztm.kielce.pl/,ztm.kielce.pl,
+government_agency,ZTM Poznań,https://www.ztm.poznan.pl/,ztm.poznan.pl,
+government_agency,Zarząd Transportu Miejskiego w Warszawie,https://www.ztm.waw.pl/,ztm.waw.pl,
+government_agency,Zakład Ubezpieczeń Społecznych,http://www.zus.pl/,zus.pl,
+government_agency,Q124317643,https://zywiec.sr.gov.pl/,zywiec.sr.gov.pl,local
+government_agency,Q113654054,https://www.zzm.katowice.pl/,zzm.katowice.pl,
+university,Jagiellonian University,https://www.uj.edu.pl/,uj.edu.pl,university
+university,SGH Warsaw School of Economics,https://ssl-www.sgh.waw.pl/en,ssl-www.sgh.waw.pl,university
+university,SGH Warsaw School of Economics,https://ssl-www.sgh.waw.pl/pl,ssl-www.sgh.waw.pl,university
+university,University of Applied Sciences in Nysa,http://www.pwsz.nysa.pl/,pwsz.nysa.pl,university
+university,Rzeszów University,https://www.ur.edu.pl/en,ur.edu.pl,university
+university,Warsaw University of Life Sciences,http://www.sggw.pl/,sggw.pl,university
+university,University of Szczecin,https://usz.edu.pl/,usz.edu.pl,university
+university,Jan Długosz University,http://www.ujd.edu.pl/,ujd.edu.pl,university
+university,University of Opole,http://uni.opole.pl/en,uni.opole.pl,university
+university,University of Applied Sciences in Nysa,https://pans.nysa.pl/,pans.nysa.pl,university
+university,Łódź University of Technology,https://www.p.lodz.pl,p.lodz.pl,university
+university,Maria Curie-Skłodowska University,https://www.umcs.pl,umcs.pl,university
+university,Maria Curie-Skłodowska University,https://www.umcs.pl/en/,umcs.pl,university
+university,Q119103923,https://apt.edu.pl,apt.edu.pl,university
+university,Pomeranian University in Słupsk,https://www.upsl.edu.pl/,upsl.edu.pl,university
+university,Polish Naval Academy,http://www.amw.gdynia.pl,amw.gdynia.pl,university
+university,Academy of Fine Arts In Łódź,http://www.asp.lodz.pl/,asp.lodz.pl,university
+university,AGH University of Science and Technology,https://www.agh.edu.pl/,agh.edu.pl,university
+university,Poznań University of Economics,https://ue.poznan.pl/,ue.poznan.pl,university
+university,Gdańsk University of Technology,https://pg.edu.pl/,pg.edu.pl,university
+university,Rzeszów University,https://www.ur.edu.pl/,ur.edu.pl,university
+university,Police Academy in Szczytno,https://www.akademiapolicji.edu.pl,akademiapolicji.edu.pl,university

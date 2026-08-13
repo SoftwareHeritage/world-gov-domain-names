@@ -6,7 +6,7 @@
 - Region: Americas / Caribbean
 - Languages: English
 - Population: 109021
-- GDP per capita: 11705 US$ (2024)
+- GDP per capita: 12107 US$ (2025)
 - Currencies: XCD
 - ccTLD: `.gd` (manager: The National Telecommunications Regulatory Commission (NTRC))
 - OECD: non-member
@@ -30,11 +30,19 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `grenadaparliament.gd` | wikidata;wikidata | Parliament of Grenada |
-| 4 | `finance.gd` | wikidata | Ministry of Finance of Grenada |
+| 7 | `finance.gd` | wikidata;wikidata | Ministry of Finance of Grenada |
+| 4 | `gdbs.gd` | wikidata | Grenada Bureau of Standards |
+| 4 | `imagrenada.gd` | wikidata | Investment Migration Agency Grenada |
+| 4 | `ird.gd` | wikidata | Inland Revenue Division of Grenada |
+| 4 | `nadma.gd` | wikidata | National Disaster Management Agency of Grenada |
+| 4 | `procurement.gd` | wikidata | Office of Public Procurement of Grenada |
+| 3 | `eccb-centralbank.org` | wikidata | Eastern Caribbean Central Bank |
+| 3 | `grenadacustoms.com` | wikidata | Customs & Excise Division of Grenada |
+| 3 | `grenadafiu.com` | wikidata | Financial Intelligence Unit of Grenada |
+| 2 | `grenadaparliament.gd` | wikidata;wikidata;wikidata;wikidata;wikidata | Parliament of Grenada | Senate of Grenada | House of Representatives of Grena... |
 

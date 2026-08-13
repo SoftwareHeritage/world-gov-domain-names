@@ -6,7 +6,7 @@
 - Region: Asia / South-Eastern Asia
 - Languages: Khmer
 - Population: 17577760
-- GDP per capita: 2628 US$ (2024)
+- GDP per capita: 2872 US$ (2025)
 - Currencies: KHR; USD
 - ccTLD: `.kh` (manager: Telecommunication Regulator of Cambodia (TRC))
 - OECD: non-member
@@ -30,10 +30,22 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `hiscambodia.org` | wikidata | Ministry of Health |
+| 6 | `hiscambodia.org` | wikidata;wikidata | Ministry of Health |
+| 4 | `grk.com.kh` | wikidata | Royal Gendarmerie of Cambodia |
+| 4 | `kh.usembassy.gov` | wikidata | Embassy of the United States, Phnom Penh |
+| 4 | `nac.org.kh` | wikidata | National Assembly |
+| 4 | `nbc.org.kh` | wikidata | National Bank of Cambodia |
+| 4 | `necelect.org.kh` | wikidata | National Election Committee of Cambodia |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Cambodia |
+| 3 | `embrusscambodia.mid.ru` | wikidata | Embassy of Russia, Phnom Penh |
+| 3 | `kh.ambafrance.org` | wikidata | Embassy of France, Phnom Penh |
+| 3 | `kh.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Phnom Penh |
+| 3 | `nchads.org` | wikidata | National Centre for HIV/AIDS Dermatology and STDs, Cambodia |
+| 3 | `phnom-penh.diplo.de` | wikidata | Embassy of Germany, Phnom Penh |
+| 3 | `thaiembassy.org` | wikidata | Embassy of Thailand in Phnom Penh |
 

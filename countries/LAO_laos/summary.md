@@ -6,7 +6,7 @@
 - Region: Asia / South-Eastern Asia
 - Languages: Lao
 - Population: 7647000
-- GDP per capita: 2124 US$ (2024)
+- GDP per capita: 2325 US$ (2025)
 - Currencies: LAK
 - ccTLD: `.la` (manager: Lao National Internet Center (LANIC), Ministry of Technology and Communications)
 - OECD: non-member
@@ -30,5 +30,16 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `la.usembassy.gov` | wikidata | embassy of the United States in Laos |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Laos |
+| 3 | `la.ambafrance.org` | wikidata | Embassy of France, Vientiane |
+| 3 | `la.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Vientiane |
+| 3 | `laos.mid.ru` | wikidata | embassy of Russia in Laos |
+| 3 | `nationallibraryoflaos.org` | wikidata | National Library of Laos |
+| 3 | `vientiane.diplo.de` | wikidata | Embassy of Germany, Vientiane |
 

@@ -1,22 +1,196 @@
 type,label,website,hostname,level
-ministry,Ministry of Finance,http://www.mof.gov.sg,mof.gov.sg,
-ministry,Ministry of Education,https://www.moe.gov.sg/,moe.gov.sg,
-ministry,Ministry of Health,http://www.moh.gov.sg,moh.gov.sg,
-ministry,Prime Minister's Office,http://www.pmo.gov.sg/,pmo.gov.sg,
-ministry,"Ministry of Community Development, Youth and Sports",http://www.mcys.gov.sg,mcys.gov.sg,
-ministry,Ministry of Law,http://www.minlaw.gov.sg,minlaw.gov.sg,
-ministry,Ministry of Social and Family Development,http://www.msf.gov.sg/,msf.gov.sg,
-ministry,Ministry of Digital Development and Information,https://www.mci.gov.sg/,mci.gov.sg,
-ministry,"Ministry of Culture, Community and Youth",https://www.mccy.gov.sg,mccy.gov.sg,
-ministry,"Ministry of Home Affairs, Singapore",http://www.mha.gov.sg,mha.gov.sg,
-ministry,Ministry of National Development,http://www.mnd.gov.sg/,mnd.gov.sg,
-ministry,Ministry of Manpower,http://www.mom.gov.sg,mom.gov.sg,
-ministry,Ministry of Foreign Affairs of the Republic of Singapore,http://www.mfa.gov.sg/,mfa.gov.sg,
-ministry,Ministry of Defence Singapore,https://www.mindef.gov.sg,mindef.gov.sg,
-ministry,Ministry of Sustainability and the Environment,https://www.mse.gov.sg,mse.gov.sg,
-ministry,Ministry of Transport,https://www.mot.gov.sg/,mot.gov.sg,
-ministry,Ministry of Trade and Industry,https://www.mti.gov.sg,mti.gov.sg,
-parliament,Parliament of Singapore,https://www.parliament.gov.sg/,parliament.gov.sg,
+government_agency,Science and Engineering Research Council,http://www.a-star.edu.sg/About-A-STAR/Science-and-Engineering-Research-Council.aspx,a-star.edu.sg,
+government_agency,Advanced Remanufacturing & Technology Centre,https://www.a-star.edu.sg/artc,a-star.edu.sg,
+government_agency,Skin Research Institute of Singapore,https://www.a-star.edu.sg/sris,a-star.edu.sg,
+government_agency,"Agency for Science, Technology and Research",http://www.a-star.edu.sg/,a-star.edu.sg,
+government_agency,A*STAR Research Entities,https://www.a-star.edu.sg/Research,a-star.edu.sg,
+government_agency,Biomedical Research Council,https://www.a-star.edu.sg/About-A-STAR/Biomedical-Research-Council/Overview.aspx,a-star.edu.sg,
+government_agency,Accounting and Corporate Regulatory Authority,https://www.acra.gov.sg/,acra.gov.sg,
+government_agency,Aljunied-Hougang Town Council,https://www.ahtc.sg/,ahtc.sg,
+government_agency,AI Singapore,https://www.aisingapore.org,aisingapore.org,
+government_agency,embassy of Italy in Singapore,https://ambsingapore.esteri.it,ambsingapore.esteri.it,central
+government_agency,Ang Mo Kio Town Council,https://www.amktc.org.sg/,amktc.org.sg,
+government_agency,embassy of Angola in Singapore,http://www.angolaembassy.sg,angolaembassy.sg,central
+government_agency,AustCham Singapore,https://www.austcham.org.sg,austcham.org.sg,
+government_agency,Building and Construction Authority,http://www.bca.gov.sg/,bca.gov.sg,
+government_agency,"High Commission of Bangladesh, Singapore",http://www.bdhc.sg/,bdhc.sg,central
+government_agency,embassy of Austria in Singapore,https://www.bmeia.gv.at/oeb-singapur/,bmeia.gv.at,central
+government_agency,Bishan-Toa Payoh Town Council,https://www.btptc.org.sg/,btptc.org.sg,
+government_agency,Civil Aviation Authority of Singapore,http://www.caas.gov.sg,caas.gov.sg,
+government_agency,High commission of Canada in Singapore,https://www.canadainternational.gc.ca/singapore-singapour/index.aspx,canadainternational.gc.ca,central
+government_agency,Chua Chu Kang Town Council,https://www.ccktc.org.sg/,ccktc.org.sg,
+government_agency,Council for Estate Agencies,https://www.cea.gov.sg/,cea.gov.sg,
+government_agency,embassy of Chile in Singapore,https://chile.gob.cl/republica-de-singapur,chile.gob.cl,central
+government_agency,"Embassy of the People's Republic of China, Singapore",http://www.chinaembassy.org.sg/,chinaembassy.org.sg,central
+government_agency,embassy of Brazil in Singapore,http://cingapura.itamaraty.gov.br,cingapura.itamaraty.gov.br,central
+government_agency,Community Chest,https://www.comchest.gov.sg/,comchest.gov.sg,
+government_agency,Council for Private Education,http://www.cpe.gov.sg,cpe.gov.sg,
+government_agency,Central Provident Fund,http://www.cpf.gov.sg,cpf.gov.sg,
+government_agency,Corrupt Practices Investigation Bureau,https://www.cpib.gov.sg/,cpib.gov.sg,
+government_agency,Cyber Security Agency,https://www.csa.gov.sg/,csa.gov.sg,
+government_agency,Civil Service College,https://www.csc.gov.sg/,csc.gov.sg,
+government_agency,Centre for Strategic Infocomm Technologies,https://www.csit.gov.sg/,csit.gov.sg,
+government_agency,high commission of South Africa in Singapore,http://www.dirco.gov.za/singapore,dirco.gov.za,central
+government_agency,Defence Science Organisation,https://www.dso.org.sg/,dso.org.sg,
+government_agency,Defence Science and Technology Agency,https://www.dsta.gov.sg/,dsta.gov.sg,
+government_agency,Early Childhood Development Agency,https://www.ecda.gov.sg/,ecda.gov.sg,
+government_agency,East Coast Town Council,https://ectc.org.sg/,ectc.org.sg,
+government_agency,"Embassy of Switzerland, Singapore",https://www.eda.admin.ch/singapore,eda.admin.ch,central
+government_agency,Economic Development Board,http://www.edb.gov.sg,edb.gov.sg,
+government_agency,Delegation of the European Union to Singapore,https://eeas.europa.eu/delegations/singapore_en,eeas.europa.eu,
+government_agency,Elections Department,http://www.eld.gov.sg,eld.gov.sg,
+government_agency,Energy Market Authority,http://www.ema.gov.sg/,ema.gov.sg,
+government_agency,embassy of Mexico in Singapore,https://embamex.sre.gob.mx/singapur,embamex.sre.gob.mx,central
+government_agency,"Embassy of Israel, Singapore",https://embassies.gov.il/singapore,embassies.gov.il,central
+government_agency,"Embassy of Saudi Arabia, Singapore",https://embassies.mofa.gov.sa/sites/singapore,embassies.mofa.gov.sa,central
+government_agency,embassy of Costa Rica in Singapore,https://www.embassycrsg.com,embassycrsg.com,central
+government_agency,Enterprise Singapore,https://www.enterprisesg.gov.sg/,enterprisesg.gov.sg,
+government_agency,embassy of Argentina in Singapore,https://esing.cancilleria.gob.ar,esing.cancilleria.gob.ar,central
+government_agency,embassy of Spain in Singapore,http://www.exteriores.gob.es/Embajadas/Singapur,exteriores.gob.es,central
+government_agency,embassy of Finland in Singapore,https://finlandabroad.fi/web/sgp,finlandabroad.fi,central
+government_agency,embassy of Peru in Singapore,https://www.gob.pe/embajada-del-peru-en-singapur,gob.pe,central
+government_agency,"Embassy of Kazakhstan, Singapore",https://www.gov.kz/memleket/entities/mfa-singapore,gov.kz,central
+government_agency,"Embassy of Poland, Singapore",https://www.gov.pl/web/singapur,gov.pl,central
+government_agency,British High Commission Singapore,https://www.gov.uk/world/organisations/british-high-commission-singapore,gov.uk,central
+government_agency,Holland-Bukit Panjang Town Council,https://www.hbptc.org.sg/,hbptc.org.sg,
+government_agency,high commission of India in Singapore,https://hcisingapore.gov.in,hcisingapore.gov.in,central
+government_agency,Housing and Development Board,http://www.hdb.gov.sg/,hdb.gov.sg,
+government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en,holyrosaryprovince.org,
+government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
 constitutional_court,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
 constitutional_court,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en,holyrosaryprovince.org,
-supreme_court,Parliament of Singapore,https://www.parliament.gov.sg/,parliament.gov.sg,
+government_agency,Health Promotion Board,http://www.hpb.gov.sg,hpb.gov.sg,
+government_agency,Health Sciences Authority,http://www.hsa.gov.sg/,hsa.gov.sg,
+government_agency,Immigration and Checkpoints Authority,http://www.ica.gov.sg,ica.gov.sg,
+government_agency,Infocomm Media Development Authority of Singapore,https://www.ida.gov.sg/,ida.gov.sg,
+government_agency,Media Development Authority,https://www.imda.gov.sg/,imda.gov.sg,
+government_agency,Québec Government Office in Singapore,https://www.international.gouv.qc.ca/fr/singapour,international.gouv.qc.ca,
+government_agency,Intellectual Property Office of Singapore,http://www.ipos.gov.sg,ipos.gov.sg,
+government_agency,Inland Revenue Authority of Singapore,http://www.iras.gov.sg,iras.gov.sg,
+government_agency,embassy of Ireland in Singapore,https://www.ireland.ie/en/singapore/embassy,ireland.ie,central
+government_agency,ISEAS – Yusof Ishak Institute,https://www.iseas.edu.sg,iseas.edu.sg,
+government_agency,Institute of Technical Education,http://www.ite.edu.sg,ite.edu.sg,
+government_agency,Jalan Besar Town Council,https://www.jbtc.org.sg/,jbtc.org.sg,
+government_agency,Jurong–Clementi Town Council,https://www.jrtc.org.sg/,jrtc.org.sg,
+government_agency,"embassy of Indonesia, Singapore",https://kemlu.go.id/singapore,kemlu.go.id,central
+government_agency,"embassy of Indonesia, Singapore",https://kemlu.go.id/singapore/,kemlu.go.id,central
+government_agency,"High Commission of Malaysia, Singapore",https://www.kln.gov.my/web/sgp_singapore/,kln.gov.my,central
+government_agency,Land Transport Authority,http://www.lta.gov.sg/,lta.gov.sg,
+government_agency,"High Commission of the Maldives, Singapore",https://maldivesmission.sg,maldivesmission.sg,central
+government_agency,Monetary Authority of Singapore,http://www.mas.gov.sg/,mas.gov.sg,
+government_agency,"Ministry of Culture, Community and Youth",https://www.mccy.gov.sg,mccy.gov.sg,central
+ministry,"Ministry of Culture, Community and Youth",https://www.mccy.gov.sg,mccy.gov.sg,
+ministry,Ministry of Digital Development and Information,https://www.mci.gov.sg/,mci.gov.sg,
+government_agency,Ministry of Digital Development and Information,https://www.mci.gov.sg/,mci.gov.sg,central
+government_agency,"Ministry of Community Development, Youth and Sports",http://www.mcys.gov.sg,mcys.gov.sg,central
+ministry,"Ministry of Community Development, Youth and Sports",http://www.mcys.gov.sg,mcys.gov.sg,
+government_agency,high commission of Brunei in Singapore,http://www.mfa.gov.bn/singapore/,mfa.gov.bn,central
+ministry,Ministry of Foreign Affairs of the Republic of Singapore,http://www.mfa.gov.sg/,mfa.gov.sg,
+government_agency,Ministry of Foreign Affairs of the Republic of Singapore,http://www.mfa.gov.sg/,mfa.gov.sg,central
+government_agency,"Embassy of Greece, Singapore",https://www.mfa.gr/missionsabroad/singapore,mfa.gr,central
+government_agency,"High Commission of New Zealand, Singapore",https://www.mfat.govt.nz/en/countries-and-regions/asia/singapore/new-zealand-high-commission-singapore/,mfat.govt.nz,central
+government_agency,Internal Security Department,http://www.mha.gov.sg/isd/abt-isd.htm,mha.gov.sg,
+government_agency,"Ministry of Home Affairs, Singapore",http://www.mha.gov.sg,mha.gov.sg,central
+government_agency,Home Team Academy,http://www.mha.gov.sg/basic_content.aspx?pageid=324,mha.gov.sg,
+ministry,"Ministry of Home Affairs, Singapore",http://www.mha.gov.sg,mha.gov.sg,
+government_agency,Ministry of Defence Singapore,https://www.mindef.gov.sg,mindef.gov.sg,central
+ministry,Ministry of Defence Singapore,https://www.mindef.gov.sg,mindef.gov.sg,
+ministry,Ministry of Law,http://www.minlaw.gov.sg,minlaw.gov.sg,
+government_agency,Ministry of Law,http://www.minlaw.gov.sg,minlaw.gov.sg,central
+ministry,Ministry of National Development,http://www.mnd.gov.sg/,mnd.gov.sg,
+government_agency,Ministry of National Development,http://www.mnd.gov.sg/,mnd.gov.sg,central
+government_agency,Ministry of Education,https://www.moe.gov.sg/,moe.gov.sg,central
+ministry,Ministry of Education,https://www.moe.gov.sg/,moe.gov.sg,
+government_agency,Ministry of Finance,http://www.mof.gov.sg,mof.gov.sg,central
+ministry,Ministry of Finance,http://www.mof.gov.sg,mof.gov.sg,
+ministry,Ministry of Health,http://www.moh.gov.sg,moh.gov.sg,
+government_agency,Ministry of Health,http://www.moh.gov.sg,moh.gov.sg,central
+government_agency,Ministry of Manpower,http://www.mom.gov.sg,mom.gov.sg,central
+ministry,Ministry of Manpower,http://www.mom.gov.sg,mom.gov.sg,
+government_agency,Ministry of Transport,https://www.mot.gov.sg/,mot.gov.sg,central
+ministry,Ministry of Transport,https://www.mot.gov.sg/,mot.gov.sg,
+government_agency,Maritime and Port Authority of Singapore,http://www.mpa.gov.sg,mpa.gov.sg,
+government_agency,Marine Parade Town Council,https://www.mptc.org.sg/,mptc.org.sg,
+government_agency,Ministry of Sustainability and the Environment,https://www.mse.gov.sg,mse.gov.sg,central
+ministry,Ministry of Sustainability and the Environment,https://www.mse.gov.sg,mse.gov.sg,
+government_agency,Ministry of Social and Family Development,http://www.msf.gov.sg/,msf.gov.sg,central
+ministry,Ministry of Social and Family Development,http://www.msf.gov.sg/,msf.gov.sg,
+ministry,Ministry of Trade and Industry,https://www.mti.gov.sg,mti.gov.sg,
+government_agency,Ministry of Trade and Industry,https://www.mti.gov.sg,mti.gov.sg,central
+government_agency,Majlis Ugama Islam Singapura,https://www.muis.gov.sg/,muis.gov.sg,central
+government_agency,Marsiling-Yew Tee Town Council,https://www.myttc.org.sg/,myttc.org.sg,
+government_agency,National Arts Council,https://www.nac.gov.sg/,nac.gov.sg,
+government_agency,National Additive Manufacturing Innovation Cluster,https://namic.sg,namic.sg,
+government_agency,National Archives of Singapore,https://www.nas.gov.sg/,nas.gov.sg,
+government_agency,National Climate Change Secretariat,https://www.nccs.gov.sg,nccs.gov.sg,
+government_agency,National Council on Problem Gambling,https://www.ncpg.org.sg/,ncpg.org.sg,
+government_agency,National Council of Social Service,http://www.ncss.org.sg/,ncss.org.sg,
+government_agency,National Environment Agency,http://www.nea.gov.sg,nea.gov.sg,
+government_agency,National Heritage Board (Singapore),https://www.nhb.gov.sg/,nhb.gov.sg,
+government_agency,National Health Innovation Centre,https://www.nhic.sg,nhic.sg,
+government_agency,National Library Board,https://www.nlb.gov.sg/,nlb.gov.sg,
+government_agency,National Library Singapore,https://www.nlb.gov.sg/,nlb.gov.sg,
+government_agency,National Medical Research Council,http://www.nmrc.gov.sg/content/nmrc_internet/home.html,nmrc.gov.sg,
+government_agency,"Embassy of Norway, Singapore",https://www.norway.no/singapore,norway.no,central
+government_agency,National Biodiversity Centre,https://www.nparks.gov.sg/cms/index.php?option=com_content&view=article&id=122&Itemid=124,nparks.gov.sg,
+government_agency,National Parks Board,http://www.nparks.gov.sg,nparks.gov.sg,
+government_agency,"Precision Health Research, Singapore",https://npm.sg,npm.sg,
+government_agency,National Research Foundation,http://www.nrf.gov.sg/,nrf.gov.sg,
+government_agency,People's Association,http://www.pa.gov.sg/,pa.gov.sg,
+supreme_court,Parliament of Singapore,https://www.parliament.gov.sg/,parliament.gov.sg,central
+parliament,Parliament of Singapore,https://www.parliament.gov.sg/,parliament.gov.sg,central
+government_agency,Prime Minister's Office,http://www.pmo.gov.sg/,pmo.gov.sg,central
+ministry,Prime Minister's Office,http://www.pmo.gov.sg/,pmo.gov.sg,
+government_agency,Singapore Police Force,http://police.gov.sg/,police.gov.sg,
+government_agency,National Population and Talent Division,https://www.population.gov.sg/,population.gov.sg,
+government_agency,Pasir Ris-Punggol Town Council,https://www.prpg-tc.org.sg/,prpg-tc.org.sg,
+government_agency,Public Service Commission,https://www.psc.gov.sg/,psc.gov.sg,
+government_agency,Public Service Division,https://www.psd.gov.sg/,psd.gov.sg,
+government_agency,Public Transport Council,http://www.ptc.gov.sg/,ptc.gov.sg,
+government_agency,Public Utilities Board,https://www.pub.gov.sg/,pub.gov.sg,
+government_agency,Government Technology Agency,https://repository.nca.gov.sg/,repository.nca.gov.sg,
+government_agency,high commission of Rwanda in Singapore,http://rwandahighcomm.org.sg,rwandahighcomm.org.sg,central
+government_agency,Singapore Accountancy Commission,https://www.sac.gov.sg/,sac.gov.sg,
+government_agency,Singapore Academy of Law,https://www.sal.org.sg/,sal.org.sg,
+government_agency,Singapore Business Federation,https://sbf.org.sg/,sbf.org.sg,
+government_agency,Sembawang Town Council,https://www.sbtc.org.sg/,sbtc.org.sg,
+government_agency,Singapore Chinese Chamber of Commerce and Industry,https://www.sccci.org.sg/,sccci.org.sg,
+government_agency,Singapore Civil Defence Force,https://www.scdf.gov.sg,scdf.gov.sg,
+government_agency,Singapore Examinations and Assessment Board,http://www.seab.gov.sg/,seab.gov.sg,
+government_agency,Singapore Food Agency,https://www.sfa.gov.sg/,sfa.gov.sg,
+government_agency,"Embassy of France, Singapore",https://sg.ambafrance.org/,sg.ambafrance.org,central
+government_agency,"Embassy of Japan, Singapore",https://www.sg.emb-japan.go.jp/,sg.emb-japan.go.jp,central
+government_agency,embassy of Lithuania in Singapore,https://sg.mfa.lt/,sg.mfa.lt,central
+government_agency,"Embassy of the United States, Singapore",https://sg.usembassy.gov/,sg.usembassy.gov,central
+government_agency,Česko-singapurská obchodní komora,https://www.singapore.cz/,singapore.cz,
+government_agency,"Embassy of Belgium, Singapore",https://singapore.diplomatie.belgium.be,singapore.diplomatie.belgium.be,central
+government_agency,embassy of Romania in Singapore,http://singapore.mae.ro,singapore.mae.ro,central
+government_agency,embassy of Estonia in Singapore,https://singapore.mfa.ee,singapore.mfa.ee,central
+government_agency,"Embassy of Ukraine, Singapore",http://singapore.mfa.gov.ua/,singapore.mfa.gov.ua,central
+government_agency,embassy of Russia in Singapore,https://singapore.mid.ru,singapore.mid.ru,central
+government_agency,"Embassy of Thailand, Singapore",https://singapore.thaiembassy.org/en/index,singapore.thaiembassy.org,
+government_agency,embassy of Denmark in Singapore,https://singapore.um.dk,singapore.um.dk,central
+government_agency,Embassy of Turkey in Singapore,https://singapur-be.mfa.gov.tr,singapur-be.mfa.gov.tr,central
+government_agency,"Embassy of Germany, Singapore",https://singapur.diplo.de,singapur.diplo.de,central
+government_agency,embassy of Colombia in Singapore,https://singapur.embajada.gov.co,singapur.embajada.gov.co,central
+government_agency,embassy of Portugal in Singapore,https://singapura.embaixadaportugal.mne.gov.pt,singapura.embaixadaportugal.mne.gov.pt,central
+government_agency,Department of Statistics Singapore,http://www.singstat.gov.sg/,singstat.gov.sg,central
+government_agency,Sengkang Town Council,https://sktc.sg/,sktc.sg,
+government_agency,Singapore Land Authority,https://www.sla.gov.sg,sla.gov.sg,
+government_agency,"Embassy of the United Arab Emirates, Singapore",https://sp.mofaic.gov.ae/EN/DiplomaticMissions/Embassies/Singapore/Pages/home.aspx,sp.mofaic.gov.ae,central
+government_agency,Singapore Sports Council,https://www.sportsingapore.gov.sg/,sportsingapore.gov.sg,
+government_agency,Singapore Prison Service,https://www.sps.gov.sg,sps.gov.sg,
+government_agency,State Courts of Singapore,https://www.statecourts.gov.sg,statecourts.gov.sg,
+government_agency,High Court of Singapore,http://www.supremecourt.gov.sg,supremecourt.gov.sg,
+government_agency,"Embassy of Sweden, Singapore",https://www.swedenabroad.se/sv/utlandsmyndigheter/singapore-singapore/,swedenabroad.se,central
+government_agency,Syariah Court of Singapore,https://syariahcourt.gov.sg,syariahcourt.gov.sg,
+government_agency,"Embassy of Hungary, Singapore",https://szingapur.mfa.gov.hu/hu/,szingapur.mfa.gov.hu,central
+government_agency,Taipei Representative Office in Singapore,http://www.taiwanembassy.org/SG,taiwanembassy.org,
+government_agency,Tampines Town Council,https://www.tampines.org.sg/,tampines.org.sg,
+government_agency,Government Technology Agency,https://www.tech.gov.sg/,tech.gov.sg,
+government_agency,Tote Board,http://www.toteboard.gov.sg/,toteboard.gov.sg,
+government_agency,Tanjong Pagar Town Council,https://www.tptc.org.sg/,tptc.org.sg,
+government_agency,Urban Redevelopment Authority,http://www.ura.gov.sg/,ura.gov.sg,
+government_agency,embassy of Uzbekistan in Singapore,http://uzembassy.sg,uzembassy.sg,central
+government_agency,Singapore Tourism Board,https://www.visitsingapore.com/,visitsingapore.com,
+government_agency,West Coast Town Council,https://wctc.org.sg/,wctc.org.sg,

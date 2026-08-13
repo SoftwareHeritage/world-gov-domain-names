@@ -6,7 +6,7 @@
 - Region: Europe / Eastern Europe
 - Languages: Belarusian; Russian
 - Population: 9109280
-- GDP per capita: 8318 US$ (2024)
+- GDP per capita: 10279 US$ (2025)
 - Currencies: BYN
 - ccTLD: `.by` (manager: Belarusian Cloud Technologies LLC)
 - OECD: non-member
@@ -30,31 +30,46 @@
 
 ## Candidate domains ranked by score
 
-13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+32 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `berestovitsa.grodno-region.by` | wikidata | Bierastavica District Executive Committee |
-| 4 | `kultura.by` | wikidata | Ministry of Culture of the Republic of Belarus |
-| 4 | `loev.gomel-region.by` | wikidata | Lojeŭ District Executive Committee |
-| 4 | `mas.by` | wikidata | Ministry of Architecture and Construction of the Republic of Belarus |
-| 4 | `mil.by` | wikidata | Ministry of Defence of the Republic of Belarus |
-| 4 | `mlh.by` | wikidata | Ministry of Forestry of the Republic of Belarus |
-| 4 | `rechitsa.by` | wikidata | Rečyca District Executive Committee |
-| 4 | `smorgon.grodno-region.by` | wikidata | Smarhoń District Executive Committee |
-| 4 | `svisloch.grodno-region.by` | wikidata | Svislač District Executive Committee |
-| 4 | `vetka.gomel-region.by` | wikidata | Vietka District Executive Committee |
-| 4 | `volkovysk.grodno-region.by` | wikidata | Vaŭkavysk District Executive Committee |
-| 4 | `yelsk.gomel-region.by` | wikidata | Jeĺsk District Executive Committee |
-| 3 | `pijarzy.pl` | wikidata | Piarist province of Poland |
+| 7 | `kultura.by` | wikidata;wikidata | Ministry of Culture of the Republic of Belarus |
+| 7 | `mas.by` | wikidata;wikidata | Ministry of Architecture and Construction of the Republic of Belarus |
+| 7 | `mil.by` | wikidata;wikidata | Ministry of Defence of the Republic of Belarus |
+| 7 | `mlh.by` | wikidata;wikidata | Ministry of Forestry of the Republic of Belarus |
+| 7 | `nbrb.by` | wikidata;wikidata | National Bank of the Republic of Belarus |
+| 6 | `pijarzy.pl` | wikidata;wikidata | Piarist province of Poland |
+| 6 | `supcourt.by` | wikidata | Supreme Court of Belarus |
+| 4 | `cci.by` | wikidata | Belarusian Chamber of Commerce and Industry |
+| 4 | `embavenez.by` | wikidata | Embassy of Venezuela, Minsk |
+| 4 | `fond.bas-net.by` | wikidata | Belarusian Republican Foundation for Fundamental Research |
+| 4 | `minszk.mfa.gov.hu` | wikidata | Embassy of Hungary, Minsk |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Minsk |
+| 4 | `narb.by` | wikidata | National Archives of Belarus |
+| 4 | `nca.by` | wikidata | Q137565559 |
+| 4 | `nlb.by` | wikidata | National Library of Belarus |
+| 4 | `nunciature.catholic.by` | wikidata | Apostolic Nunciature to Belarus |
+| 4 | `pl.instpol.by` | wikidata | Polish Institute in Minsk |
+| 4 | `tajembassy.by` | wikidata | embassy of Tajikistan in Belarus |
+| 3 | `belarus.mid.ru` | wikidata | Embassy of Russia, Minsk |
+| 3 | `belarusembassy.orderofmalta.int` | wikidata | Embassy of the Sovereign Military Order of Malta, Minsk |
 
 ## Local / regional candidates
 
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+16 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `region.grodno.by` | wikidata;wikidata | Hrodna Regional Council of Deputies | Hrodna Regional Executive Committee |
+| 7 | `region.grodno.by` | wikidata;wikidata;wikidata | Hrodna Regional Executive Committee | Hrodna Regional Council of Deputies |
 | 4 | `gomel-region.by` | wikidata | Homel Regional Council of Deputies |
+| 7 | `grsu.by` | wikidata;wikidata | Yanka Kupala State University of Grodno |
+| 4 | `bgam.by` | wikidata | Belarusian State Academy of Music |
+| 4 | `bsu.by` | wikidata | Belarusian State University |
+| 4 | `en.grsu.by` | wikidata | Yanka Kupala State University of Grodno |
+| 4 | `mspu.by` | wikidata | Mozyr State Pedagogical University named after I.P. Shamyakin |
+| 7 | `berestovitsa.grodno-region.by` | wikidata;wikidata | Bierastavica District Executive Committee |
+| 7 | `loev.gomel-region.by` | wikidata;wikidata | Lojeŭ District Executive Committee |
+| 7 | `rechitsa.by` | wikidata;wikidata | Rečyca District Executive Committee |
 

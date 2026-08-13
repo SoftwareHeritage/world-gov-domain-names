@@ -6,7 +6,7 @@
 - Region: Africa / Eastern Africa
 - Languages: Arabic; French; Comorian
 - Population: 919901
-- GDP per capita: 1663 US$ (2024)
+- GDP per capita: 2056 US$ (2025)
 - Currencies: KMF
 - ccTLD: `.km` (manager: Comores Telecom)
 - OECD: non-member
@@ -30,5 +30,22 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `coursupremecomores.km` | wikidata | Supreme Court of the Comoros |
+| 4 | `banque-comores.km` | wikidata | Central Bank of the Comoros |
+| 4 | `inseed.km` | wikidata | INSEED |
+| 3 | `km.ambafrance.org` | wikidata | Embassy of France, Moroni |
+| 3 | `km.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Moroni |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `anjouanoffshorefinancialauthority.org` | wikidata | Anjouan Offshore Finance Authority |
 

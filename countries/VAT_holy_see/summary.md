@@ -23,15 +23,33 @@
 
 ## Candidate domains ranked by score
 
-6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `clerus.va` | wikidata | Dicastery for the Clergy |
-| 4 | `congregazionevescovi.va` | wikidata | Dicastery for Bishops |
-| 4 | `dicasteryinterreligious.va` | wikidata | Dicastery for Interreligious Dialogue |
-| 4 | `humandevelopment.va` | wikidata | Dicastery for Promoting Integral Human Development |
-| 4 | `laityfamilylife.va` | wikidata | Dicastery for Laity, Family and Life |
-| 2 | `vaticanstate.va` | wikidata;wikidata;wikidata;wikidata | Pontifical Commission for the Vatican City State | Governorate of Vatican Cit... |
+| 7 | `clerus.va` | wikidata;wikidata | Dicastery for the Clergy |
+| 7 | `comunicazione.va` | wikidata;wikidata | Dicastery for Communication |
+| 7 | `congregazionevescovi.va` | wikidata;wikidata | Dicastery for Bishops |
+| 7 | `dicasteryinterreligious.va` | wikidata;wikidata | Dicastery for Interreligious Dialogue |
+| 7 | `humandevelopment.va` | wikidata;wikidata | Dicastery for Promoting Integral Human Development |
+| 7 | `laityfamilylife.va` | wikidata;wikidata | Dicastery for Laity, Family and Life |
+| 4 | `archivioapostolicovaticano.va` | wikidata | Vatican Apostolic Archives |
+| 4 | `asif.va` | wikidata | Financial Information Authority |
+| 4 | `ulsa.va` | wikidata | Labour Office of the Apostolic See |
+| 4 | `vaticanlibrary.va` | wikidata | Vatican Library |
+| 3 | `palvaticanembassy.org` | wikidata | embassy of the State of Palestine to the Holy See |
+| 3 | `pontificiaacademialatinitatis.org` | wikidata | Pontifical Academy for Latin |
+| 2 | `vaticanstate.va` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Governorate of Vatican City State | Pontifical Commission for the Vatican Cit... |
+
+## Local / regional candidates
+
+4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `elemosineria.va` | wikidata;wikidata | Office of Papal Charities |
+| 4 | `dce.va` | wikidata | Dicastery for Culture and Education |
+| 4 | `doctrinafidei.va` | wikidata | Dicastery for the Doctrine of the Faith |
+| 4 | `rotaromana.va` | wikidata | Roman Rota |
 

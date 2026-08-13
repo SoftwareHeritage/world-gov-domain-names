@@ -1,16 +1,81 @@
 hostname,score,sources,label,level
-parliament.go.ke,8,wikidata;wikidata,Parliament of Kenya,
+parliament.go.ke,8,wikidata;wikidata;wikidata;wikidata,National Assembly | Parliament of Kenya | Senate of Kenya,central
+education.go.ke,7,wikidata;wikidata,"Ministry of Education, Science and Technology",central
+health.go.ke,7,wikidata;wikidata,Ministry of Health,central
+ict.go.ke,7,wikidata;wikidata,"Ministry Of Information, Communications And The Digital Economy",central
+interior.go.ke,7,wikidata;wikidata,Ministry of Interior and National Administration,central
+kilimo.go.ke,7,wikidata;wikidata,Ministry of Agriculture and Livestock Development,central
+knls.ac.ke,7,wikidata;wikidata,"Kenya National Library Service | Kenya National Library Service, Nairobi Area",
+labour.go.ke,7,wikidata;wikidata,"Ministry of Labour, Social Security and Services",central
+mfa.go.ke,7,wikidata;wikidata,Ministry of Foreign and Diaspora Affairs of the Republic of Kenya,central
+mining.go.ke,7,wikidata;wikidata,Ministry of Mining,central
+mod.go.ke,7,wikidata;wikidata,Ministry of Defence,central
+sportsheritage.go.ke,7,wikidata;wikidata,"Ministry of Sports, Culture and the Arts",central
+transport.go.ke,7,wikidata;wikidata,Ministry of roads and transport,central
+treasury.go.ke,7,wikidata;wikidata,Ministry of Finance,central
+judiciary.go.ke,6,wikidata,Supreme Court of Kenya,central
 mygov.go.ke,6,un_desa,UN/DESA national portal,
-education.go.ke,4,wikidata,"Ministry of Education, Science and Technology",
-health.go.ke,4,wikidata,Ministry of Health,
-ict.go.ke,4,wikidata,"Ministry Of Information, Communications And The Digital Economy",
-interior.go.ke,4,wikidata,Ministry of Interior and National Administration,
-kilimo.go.ke,4,wikidata,Ministry of Agriculture and Livestock Development,
-labour.go.ke,4,wikidata,"Ministry of Labour, Social Security and Services",
-mfa.go.ke,4,wikidata,Ministry of Foreign and Diaspora Affairs of the Republic of Kenya,
-mining.go.ke,4,wikidata,Ministry of Mining,
-mod.go.ke,4,wikidata,Ministry of Defence,
-sportsheritage.go.ke,4,wikidata,"Ministry of Sports, Culture and the Arts",
-transport.go.ke,4,wikidata,Ministry of roads and transport,
-treasury.go.ke,4,wikidata,Ministry of Finance,
-eala.org,3,wikidata,East African Legislative Assembly,
+ca.go.ke,4,wikidata,Communications Authority of Kenya,
+cdc.gov,4,wikidata,Centers for Disease Control and Prevention,
+centralbank.go.ke,4,wikidata,Central Bank of Kenya,
+cma.or.ke,4,wikidata,Capital Markets Authority,
+costaricanembassy.co.ke,4,wikidata,embassy of Costa Rica in Kenya,central
+cue.or.ke,4,wikidata,Commission for University Education,
+cwsk.go.ke,4,wikidata,Child Welfare Society of Kenya,
+eacc.go.ke,4,wikidata,Ethics and Anti-Corruption Commission,
+epra.go.ke,4,wikidata,Energy and Petroleum Regulatory Authority,
+gdc.co.ke,4,wikidata,Geothermal Development Company,central
+icta.go.ke,4,wikidata,Information and Communication Technology Authority,
+irrigationauthority.go.ke,4,wikidata,National Irrigation Authority,
+kcaa.or.ke,4,wikidata,Kenya Civil Aviation Authority,
+kcgs.go.ke,4,wikidata,Kenya Coast Guard Service,
+ke.usembassy.gov,4,wikidata,"Embassy of the United States, Nairobi",central
+kenha.co.ke,4,wikidata,Kenya National Highway Authority,central
+kenyafisheriesservice.go.ke,4,wikidata,Kenya Fisheries Service,
+kenyapolice.go.ke,4,wikidata,Kenya Police,
+kephis.go.ke,4,wikidata,Kenya Plant Health Inspectorate Services,
+khrc.or.ke,4,wikidata,Kenya Human Rights Commission,
+klb.co.ke,4,wikidata,Kenya Literature Bureau,
+klrc.go.ke,4,wikidata,Kenya Law Reform Commission,
+knbs.or.ke,4,wikidata,Kenya National Bureau of Statistics,central
+kra.go.ke,4,wikidata,Kenya Revenue Authority,
+ksa.go.ke,4,wikidata,Kenya Space Agency,
+ksg.ac.ke,4,wikidata,Kenya School of Government,
+landcommission.go.ke,4,wikidata,National Land Commission,
+meteo.go.ke,4,wikidata,Kenya Meteorological Department,
+mozambiquehighcommission.co.ke,4,wikidata,"High Commission of Mozambique, Nairobi",central
+nacc.or.ke,4,wikidata,National Aids Control Council,
+nacosti.go.ke,4,wikidata,"National Commission for Science, Technology and Innovation",
+nairobi.mfa.gov.hu,4,wikidata,Embassy of Hungary to Kenya,central
+ndma.go.ke,4,wikidata,National Drought Management Authority,
+nema.go.ke,4,wikidata,National Environment Management Authority,
+nrf.go.ke,4,wikidata,National Research Fund Kenya,
+ombudsman.go.ke,4,wikidata,Commission on Administrative Justice,
+posta.co.ke,4,wikidata,Postal Corporation of Kenya,
+publicservice.go.ke,4,wikidata,Public Service Commission,
+rba.go.ke,4,wikidata,Retirement Benefits Authority of Kenya,
+unesco.go.ke,4,wikidata,Kenya National Commission for UNESCO,
+wajir.go.ke,4,wikidata,Wajir County Government,
+waterfund.go.ke,4,wikidata,Water Services Trust Fund,
+wrti.go.ke,4,wikidata,Wildlife Research and Training Institute,
+au-ibar.org,3,wikidata,African Union Interafrican Bureau for Animal Resources,
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Kenya,
+finlandabroad.fi,3,wikidata,embassy of Finland in Kenya,central
+icpac.net,3,wikidata,IGAD Climate Prediction and Applications Center,
+icrisat.org,3,wikidata,International Crops Research Institute for the Semi-Arid Tropics,
+ke.ambafrance.org,3,wikidata,"Embassy of France, Nairobi",central
+kebs.org,3,wikidata,Kenya Bureau of Standards,
+ken-djiboutiembassy.com,3,wikidata,embassy of Djibouti in Kenya,central
+kenya.um.dk,3,wikidata,embassy of Denmark in Kenya,central
+kenyaforestservice.org,3,wikidata,Kenya Forest Service,
+knchr.org,3,wikidata,Kenya National Commission on Human Rights,
+mae.ro,3,wikidata,"Embassy of Romania, Nairobi",central
+mfa.gr,3,wikidata,embassy of Greece in Kenya,central
+mzv.cz,3,wikidata,embassy of the Czech republic in Kenya,central
+mzv.sk,3,wikidata,embassy of Slovakia in Kenya,central
+nairobi.diplo.de,3,wikidata,"Embassy of Germany, Nairobi",central
+norway.no,3,wikidata,"Embassy of Norway, Nairobi",central
+pharmacyboardkenya.org,3,wikidata,Pharmacy and Poisons Board,
+russembkenya.mid.ru,3,wikidata,embassy of Russia in Kenya,central
+seaturtle.wildlifedirect.org,3,wikidata,Kenya Sea Turtle Conservation Committee,
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Nairobi",central

@@ -6,7 +6,7 @@
 - Region: Oceania / Polynesia
 - Languages: English; Tongan
 - Population: 100179
-- GDP per capita: 5652 US$ (2023)
+- GDP per capita: 6547 US$ (2025)
 - Currencies: TOP
 - ccTLD: `.to` (manager: Government of the Kingdom of Tonga, H.R.H. Crown Prince Tupouto&#x27;a, c/o Consulate of Tonga)
 - OECD: non-member
@@ -30,5 +30,20 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `to.chineseembassy.org` | wikidata;wikidata | Embassy of the People's Republic of China, Nuku'alofa |
+| 4 | `reservebank.to` | wikidata | National Reserve Bank of Tonga |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `tnu.edu.to` | wikidata | Tonga National University |
+| 3 | `usp.ac.fj` | wikidata | University of the South Pacific |
 

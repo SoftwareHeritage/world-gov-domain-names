@@ -30,22 +30,46 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+145 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `magyarorszag.hu` | un_desa;linkgraph | UN/DESA national portal |
-| 7 | `parlament.hu` | wikidata;wikidata | National Assembly |
-| 5 | `valasztas.hu` | linkgraph | Linked from 7 public-sector domains |
-| 4 | `piarista.hu` | wikidata | piarist province of Hungary |
+| 10 | `valasztas.hu` | wikidata;wikidata;linkgraph | National Election Office | National Election Commission |
+| 8 | `mnl.gov.hu` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Magyar Nemzeti Levéltár Pest Megyei Levéltára | National Archives of Hungary ... |
+| 7 | `ahkungarn.hu` | wikidata;wikidata | German-Hungarian Chamber of Industry and Commerce |
+| 7 | `birosag.hu` | wikidata;wikidata | Q140998828 | National Court Office |
+| 7 | `ksh.hu` | wikidata;wikidata | Hungarian Central Statistical Office | Official Statistical Service |
+| 7 | `kuria-birosag.hu` | wikidata;wikidata | Supreme Court of Hungary |
+| 7 | `parlament.hu` | wikidata;wikidata;wikidata | National Assembly | Office of the National Assembly |
+| 7 | `piarista.hu` | wikidata;wikidata | piarist province of Hungary |
+| 7 | `police.hu` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | National Bureau of Investigation | Baranya  County Police Headquarters | Komá... |
+| 7 | `ugyeszseg.hu` | wikidata;wikidata | Prosecution Service of Hungary |
+| 6 | `budapest.diplo.de` | wikidata;wikidata | Embassy of Germany, Budapest |
+| 5 | `ah.gov.hu` | wikidata | Constitution Protection Office |
+| 5 | `allamkincstar.gov.hu` | wikidata | Hungarian State Treasury |
+| 5 | `haea.gov.hu` | wikidata | Hungarian Atomic Energy Authority |
+| 5 | `ih.gov.hu` | wikidata | Information Office Hungary |
+| 5 | `intezet.nori.gov.hu` | wikidata | Q1216622 |
+| 5 | `kef.gov.hu` | wikidata | Directorate General for Public Procurement and Supply |
+| 5 | `kki.gov.hu` | wikidata | Institute for Foreign Affairs and Trade |
+| 5 | `knbsz.gov.hu` | wikidata | Military National Security Service |
 
 ## Local / regional candidates
 
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+12 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `bv.gov.hu` | wikidata;wikidata | Jász-Nagykun-Szolnok County Remand Prison | Hungarian Prison Service |
 | 4 | `bacskiskun.hu` | wikidata | Bács-Kiskun County Assembly |
 | 4 | `szszbvmo.hu` | wikidata | Szabolcs-Szatmár-Bereg County Assembly |
+| 4 | `bme.hu` | wikidata | Budapest University of Technology and Economics |
+| 4 | `elte.hu` | wikidata | Eötvös Loránd University |
+| 4 | `u-szeged.hu` | wikidata | University of Szeged |
+| 4 | `zeneakademia.hu` | wikidata | Franz Liszt Academy of Music |
+| 3 | `uni-bme.ir` | wikidata | Budapest University of Technology and Economics |
+| 8 | `kk.gov.hu` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Kecskeméti Tankerületi Központ | Békéscsaba school district | Pápai Tankerüle... |
+| 4 | `darinno.hu` | wikidata | South Great Plain Regional Innovation Agency |
 

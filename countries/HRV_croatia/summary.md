@@ -30,36 +30,39 @@
 
 ## Candidate domains ranked by score
 
-19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+72 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `franjevci-split.hr` | wikidata;wikidata | Franciscan Province of the Most Holy Redeemer |
+| 7 | `dominikanci.hr` | wikidata;wikidata | Croatian Dominican Province |
+| 7 | `fzoeu.hr` | wikidata;wikidata | Environmental Protection and Energy Efficiency Fund |
+| 7 | `hzjz.hr` | wikidata;wikidata | Croatian Institute for Public Health |
+| 7 | `ihjj.hr` | wikidata;wikidata | Institute of Croatian Language |
+| 7 | `isusovci.hr` | wikidata;wikidata | Croatian province of the Society of Jesus |
+| 7 | `kapucini.hr` | wikidata;wikidata | Croatian Capuchin Province of St. Leopold Bogdan Mandić |
 | 7 | `mgipu.hr` | wikidata;wikidata | Ministry of Construction and Spatial Planning |
+| 7 | `minfin.hr` | wikidata;wikidata | Ministry of Finance of the Republic of Croatia |
+| 7 | `mint.hr` | wikidata;wikidata | Ministry of Tourism and Sports |
+| 7 | `mmpi.hr` | wikidata;wikidata | Ministry of Maritime Affairs, Transport and Infrastructure |
+| 7 | `morh.hr` | wikidata;wikidata | Ministry of Defence |
+| 7 | `mps.hr` | wikidata;wikidata | Ministry of Agriculture of Croatia |
+| 7 | `mrms.hr` | wikidata;wikidata | Ministry of Labour and Pension System (Croatia) |
+| 7 | `mup.hr` | wikidata;wikidata | Ministry of the Interior of Croatia |
+| 7 | `nsk.hr` | wikidata;wikidata | National and University Library in Zagreb |
+| 7 | `ofm-sv-jeronim.hr` | wikidata;wikidata | Franciscan Province of St. Jerome |
+| 7 | `ofm.hr` | wikidata;wikidata | Croatian Franciscan Province of Saints Cyril and Methodius |
+| 7 | `public.mzos.hr` | wikidata;wikidata | Ministry of Science and Education |
 | 7 | `sabor.hr` | wikidata;wikidata | Parliament of Croatia |
-| 4 | `dominikanci.hr` | wikidata | Croatian Dominican Province |
-| 4 | `isusovci.hr` | wikidata | Croatian province of the Society of Jesus |
-| 4 | `kapucini.hr` | wikidata | Croatian Capuchin Province of St. Leopold Bogdan Mandić |
-| 4 | `minfin.hr` | wikidata | Ministry of Finance of the Republic of Croatia |
-| 4 | `mingo.hr` | wikidata | Ministry of Economy |
-| 4 | `mint.hr` | wikidata | Ministry of Tourism and Sports |
-| 4 | `mmpi.hr` | wikidata | Ministry of Maritime Affairs, Transport and Infrastructure |
-| 4 | `morh.hr` | wikidata | Ministry of Defence |
-| 4 | `mps.hr` | wikidata | Ministry of Agriculture of Croatia |
-| 4 | `mrms.hr` | wikidata | Ministry of Labour and Pension System (Croatia) |
-| 4 | `mup.hr` | wikidata | Ministry of the Interior of Croatia |
-| 4 | `mzoip.hr` | wikidata | Ministry of Environmental and Nature Protection |
-| 4 | `ofm-sv-jeronim.hr` | wikidata | Franciscan Province of St. Jerome |
-| 4 | `ofm.hr` | wikidata | Croatian Franciscan Province of Saints Cyril and Methodius |
-| 4 | `public.mzos.hr` | wikidata | Ministry of Science and Education |
-| 4 | `uprava.hr` | wikidata | Ministry of Public Administration |
+| 7 | `soa.hr` | wikidata;wikidata | Security and Intelligence Agency | Military Security and Intelligence Agency |
 
 ## Local / regional candidates
 
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `mrrfeu.hr` | wikidata | Ministry of Regional Development and EU Funds |
+| 4 | `skupstina.zagreb.hr` | wikidata | Zagreb Assembly |
+| 7 | `unin.hr` | wikidata;wikidata | University North |
+| 7 | `unizg.hr` | wikidata;wikidata | University of Zagreb |
 

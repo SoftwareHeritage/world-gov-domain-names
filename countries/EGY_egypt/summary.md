@@ -6,7 +6,7 @@
 - Region: Africa / Northern Africa
 - Languages: Arabic
 - Population: 107271260
-- GDP per capita: 3338 US$ (2024)
+- GDP per capita: 3086 US$ (2025)
 - Currencies: EGP
 - ccTLD: `.eg` (manager: Egyptian Universities Network (EUN), Supreme Council of Universities)
 - OECD: non-member
@@ -30,14 +30,45 @@
 
 ## Candidate domains ranked by score
 
-5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+70 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `nspo.com.eg` | wikidata;wikidata | National Service Products Organization |
+| 6 | `custodia.org` | wikidata;wikidata | Custodian of the Holy Land |
 | 6 | `egypt.gov.org` | un_desa | UN/DESA national portal |
-| 4 | `nspo.com.eg` | wikidata | National Service Products Organization |
-| 3 | `custodia.org` | wikidata | Custodian of the Holy Land |
-| 3 | `egyptconsulates.org` | wikidata | Ministry of Foreign Affairs of Egypt |
-| 3 | `sca-egypt.org` | wikidata | Ministry of State for Antiquities |
+| 6 | `egyptconsulates.org` | wikidata;wikidata | Ministry of Foreign Affairs of Egypt |
+| 6 | `egyptera.org` | wikidata;wikidata | Egyptian Electric Utility and Consumer Protection Regulatory Agency |
+| 6 | `kairo.diplo.de` | wikidata;wikidata | Embassy of Germany, Cairo |
+| 6 | `sca-egypt.org` | wikidata;wikidata | Ministry of State for Antiquities |
+| 6 | `swedenabroad.se` | wikidata;wikidata | Embassy of Sweden, Cairo |
+| 4 | `aoi.org.eg` | wikidata | Arab Organization for Industrialization |
+| 4 | `britishcouncil.org.eg` | wikidata | British Council Egypt |
+| 4 | `cbe.org.eg` | wikidata | Central Bank of Egypt |
+| 4 | `cmrdi.sci.eg` | wikidata | Central Metallurgical Research and Development Institute |
+| 4 | `drugcontrol.org.eg` | wikidata | Q95947970 |
+| 4 | `eaea.org.eg` | wikidata | Egyptian Atomic Energy Authority |
+| 4 | `eca.org.eg` | wikidata | Q12206326 |
+| 4 | `eg.usembassy.gov` | wikidata | Embassy of the United States, Cairo |
+| 4 | `egnatcom.org.eg` | wikidata | Egyptian National Commission for UNESCO |
+| 4 | `ehc.eg` | wikidata | Egyptian Health Council |
+| 4 | `elections.eg` | wikidata | National Elections Commission |
+| 4 | `epri.sci.eg` | wikidata | Egyptian Petroleum Research Institute |
+
+## Local / regional candidates
+
+9 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `alexu.edu.eg` | wikidata | Alexandria University |
+| 4 | `asu.edu.eg` | wikidata | Ain Shams University |
+| 4 | `azhar.edu.eg` | wikidata | Al-Azhar University |
+| 4 | `cu.edu.eg` | wikidata | Cairo University |
+| 4 | `dtu.edu.eg` | wikidata | Delta Technological University |
+| 4 | `helwan.edu.eg` | wikidata | Capital University (Egypt) |
+| 4 | `sohag-univ.edu.eg` | wikidata | Sohag University |
+| 4 | `zu.edu.eg` | wikidata | Zagazig University |
+| 3 | `batechu.com` | wikidata | Borg El Arab Technological University |
 

@@ -30,38 +30,41 @@
 
 ## Candidate domains ranked by score
 
-18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+299 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 6 | `garanteprivacy.it` | linkgraph | Linked from 10 public-sector domains |
-| 6 | `regione.emilia-romagna.it` | linkgraph | Linked from 13 public-sector domains |
-| 6 | `regione.toscana.it` | linkgraph | Linked from 13 public-sector domains |
-| 5 | `arpa.piemonte.it` | linkgraph | Linked from 6 public-sector domains |
-| 5 | `camera.it` | linkgraph | Linked from 9 public-sector domains |
-| 5 | `inps.it` | linkgraph | Linked from 6 public-sector domains |
-| 5 | `minambiente.it` | linkgraph | Linked from 5 public-sector domains |
-| 5 | `regione.lazio.it` | linkgraph | Linked from 6 public-sector domains |
-| 5 | `regione.piemonte.it` | linkgraph | Linked from 7 public-sector domains |
-| 5 | `regione.sicilia.it` | linkgraph | Linked from 6 public-sector domains |
-| 5 | `senato.it` | linkgraph | Linked from 8 public-sector domains |
-| 4 | `cortecostituzionale.it` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `gesuiti.it` | wikidata | Euromediterranean Province of the Jesuits |
-| 4 | `istat.it` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `ofmsalu.it` | wikidata | Q113365774 |
-| 4 | `plugandpay.it` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `regione.campania.it` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `scolopi.it` | wikidata | Piarist province of Italy |
+| 9 | `cortecostituzionale.it` | wikidata;linkgraph | Constitutional Court of Italy |
+| 9 | `garanteprivacy.it` | wikidata;linkgraph | Italian Data Protection Authority |
+| 9 | `regione.emilia-romagna.it` | wikidata;linkgraph | Emilia-Romagna |
+| 8 | `camera.it` | wikidata;linkgraph | Chamber of Deputies of Italy |
+| 8 | `inps.it` | wikidata;linkgraph | Istituto nazionale della previdenza sociale |
+| 8 | `regione.lazio.it` | wikidata;linkgraph | Lazio |
+| 8 | `regione.piemonte.it` | wikidata;linkgraph | Piedmont |
+| 8 | `senato.it` | wikidata;linkgraph | Senate of the Republic |
+| 7 | `ahk-italien.it` | wikidata;wikidata | German-Italian Chamber of Commerce |
+| 7 | `asi.it` | wikidata;wikidata | Italian Space Agency |
+| 7 | `asst-crema.it` | wikidata;wikidata | ASST Crema |
+| 7 | `asst-valcamonica.it` | wikidata;wikidata | ASST Valcamonica |
+| 7 | `braidense.it` | wikidata;wikidata | Biblioteca nazionale Braidense |
+| 7 | `carabinieri.it` | wikidata;wikidata | Comando unità per la tutela forestale, ambientale e agroalimentare | Carabinieri |
+| 7 | `fisiocritici.it` | wikidata;wikidata | Accademia dei Fisiocritici |
+| 7 | `gesuiti.it` | wikidata;wikidata | Euromediterranean Province of the Jesuits |
+| 7 | `istat.it` | wikidata;linkgraph | Italian National Institute of Statistics |
+| 7 | `ofmsalu.it` | wikidata;wikidata | Q113365774 |
+| 7 | `regione.campania.it` | wikidata;linkgraph | Campania |
+| 7 | `regione.toscana.it` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana |
 
 ## Local / regional candidates
 
-38 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 22 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+101 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 26 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 9 | `regione.lombardia.it` | wikidata;linkgraph | Government of Lombardy |
-| 8 | `regione.veneto.it` | wikidata;linkgraph | Government of Veneto |
+| 10 | `regione.lombardia.it` | wikidata;wikidata;wikidata;linkgraph | Government of Lombardy | Lombardy |
+| 10 | `regione.veneto.it` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Veneto | Government of Veneto | Q3630806 | Q56753389 |
+| 7 | `arpalombardia.it` | wikidata;wikidata | Regional Environmental Protection Agency - Lombardy |
 | 7 | `ars.sicilia.it` | wikidata;wikidata | Sicilian Regional Assembly |
 | 7 | `consiglio.basilicata.it` | wikidata;wikidata | Regional Council of Basilicata |
 | 7 | `consiglio.marche.it` | wikidata;wikidata | Regional Council of Marche |
@@ -69,5 +72,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `consiglio.regione.abruzzo.it` | wikidata;wikidata | Regional Council of Abruzzo |
 | 7 | `consiglio.regione.fvg.it` | wikidata;wikidata | Regional Council of Friuli-Venezia Giulia |
 | 7 | `consiglio.regione.lazio.it` | wikidata;wikidata | Regional Council of Lazio |
-| 7 | `consiglio.regione.lombardia.it` | wikidata;wikidata | Regional Council of Lombardy |
 

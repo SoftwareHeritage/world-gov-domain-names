@@ -6,7 +6,7 @@
 - Region: Africa / Western Africa
 - Languages: French
 - Population: 18593258
-- GDP per capita: 1773 US$ (2024)
+- GDP per capita: 1955 US$ (2025)
 - Currencies: XOF
 - ccTLD: `.sn` (manager: Universite Cheikh Anta Diop)
 - OECD: non-member
@@ -30,12 +30,42 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+38 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `assemblee-nationale.sn` | wikidata;wikidata | National Assembly |
-| 4 | `mesrisenegal.sn` | wikidata | Q139297158 |
-| 3 | `escolapiesinstitutions.org` | wikidata | Piarist province of West Africa |
+| 7 | `mesrisenegal.sn` | wikidata;wikidata | Q139297158 | Ministry of Higher Education, Research and Innovation of Senegal |
+| 6 | `escolapiesinstitutions.org` | wikidata;wikidata | Piarist province of West Africa |
+| 4 | `anacim.sn` | wikidata | Agence Nationale de l'Aviation Civile du Sénégal |
+| 4 | `ansd.sn` | wikidata | Agence Nationale de la Statistique et de la Démographie |
+| 4 | `cena.sn` | wikidata | National Autonomous Electoral Commission |
+| 4 | `conseilconstitutionnel.sn` | wikidata | Q2993691 |
+| 4 | `dge.sn` | wikidata | Q140275459 |
+| 4 | `douanes.sn` | wikidata | Q140315305 |
+| 4 | `education.sn` | wikidata | Ministry of National Education of Senegal |
+| 4 | `gendarmerie.sn` | wikidata | Gendarmerie of Senegal |
+| 4 | `hcct.sn` | wikidata | Q121668717 |
+| 4 | `international.gouv.qc.ca` | wikidata | general delegation of Quebec in Dakar |
+| 4 | `mctn.sn` | wikidata | Ministry of Telecommunications and Digital Affairs of Senegal |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Dakar |
+| 4 | `onas.sn` | wikidata | National Office for Sanitation of Senegal |
+| 4 | `sip.sn` | wikidata | Commune de Matam |
+| 4 | `sn.usembassy.gov` | wikidata | Embassy of the United States, Dakar |
+| 4 | `statsenegal.sn` | wikidata | Système Statistique National du Sénégal |
+| 3 | `amba-senegal.ga` | wikidata | Gabonese Embassy in Senegal |
+
+## Local / regional candidates
+
+6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `ussein.sn` | wikidata;wikidata | Université El Hadji Ibrahima Niasse | Université Sine-Saloum El Hadji Ibrahim... |
+| 4 | `uam.sn` | wikidata | Université Amadou Mahtar Mbow |
+| 4 | `uasz.sn` | wikidata | Assane Seck University |
+| 4 | `ucad.sn` | wikidata | Université Cheikh Anta Diop |
+| 4 | `ugb.sn` | wikidata | Université Gaston Berger |
+| 3 | `spcsrp.org` | wikidata | Sub-Regional Fisheries Commission |
 

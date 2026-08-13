@@ -6,7 +6,7 @@
 - Region: Oceania / Melanesia
 - Languages: Bislama; English; French
 - Population: 321409
-- GDP per capita: 3411 US$ (2024)
+- GDP per capita: 4039 US$ (2025)
 - Currencies: VUV
 - ccTLD: `.vu` (manager: Telecommunications Radiocommunications and Broadcasting Regulator (TRBR))
 - OECD: non-member
@@ -30,5 +30,11 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `vt.usembassy.gov` | wikidata | Embassy of the United States in Port Vila |
+| 3 | `vu.ambafrance.org` | wikidata | Embassy of France, Port Vila |
 

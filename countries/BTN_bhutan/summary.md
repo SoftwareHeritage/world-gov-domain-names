@@ -30,10 +30,21 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.bt` | wikidata;wikidata | Parliament of Bhutan |
+| 4 | `acc.org.bt` | wikidata | Anti-Corruption Commission |
+| 4 | `nationalcouncil.bt` | wikidata | National Council of Bhutan |
+| 4 | `rma.org.bt` | wikidata | Royal Monetary Authority of Bhutan |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `rub.edu.bt` | wikidata | Royal University of Bhutan |
 

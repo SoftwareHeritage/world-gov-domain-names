@@ -30,21 +30,46 @@
 
 ## Candidate domains ranked by score
 
-12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6461 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `ofm.cz` | wikidata;wikidata | Province of the Franciscan Brothers in the Czech Republic | Province of Saint... |
-| 6 | `vlada.cz` | un_desa | UN/DESA national portal |
-| 5 | `mpsv.cz` | linkgraph | Linked from 7 public-sector domains |
-| 4 | `congregatio-jesu.tode.cz` | wikidata | Czech province Congregatio Jesu |
-| 4 | `hedvicky.cz` | wikidata | Czech Province Congregation of the Sisters of St. Hedwig |
-| 4 | `justice.cz` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `mdcr.cz` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `mfcr.cz` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `mzcr.cz` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `oblati.cz` | wikidata | Central European Province O. M. I. |
-| 4 | `sdb.cz` | wikidata | Salesian Province of Prague |
-| 3 | `pijarzy.pl` | wikidata | Piarist province of Poland |
+| 7 | `antee.cz` | wikidata;wikidata | Vidice | Němčice |
+| 7 | `congregatio-jesu.tode.cz` | wikidata;wikidata | Czech province Congregatio Jesu |
+| 7 | `czechspace.cz` | wikidata;wikidata | Czech Space Office |
+| 7 | `eagri.cz` | wikidata;wikidata | Národní Agentura pro Zemědělský Výzkum | State Phytosanitary Administration |
+| 7 | `hedvicky.cz` | wikidata;wikidata | Czech Province Congregation of the Sisters of St. Hedwig |
+| 7 | `hostka.cz` | wikidata;wikidata | Q12049095 | Hoštka |
+| 7 | `idpk.cz` | wikidata;wikidata | Integrated Transport of the Pilsen Region |
+| 7 | `idsjmk.cz` | wikidata;wikidata | Integrated transport system of the South Moravian region |
+| 7 | `ivanovicenahane.cz` | wikidata;wikidata | Ivanovice na Hané | Q12022068 |
+| 7 | `jaromericenr.cz` | wikidata;wikidata | Q12049657 | Jaroměřice nad Rokytnou |
+| 7 | `jevisovice.cz` | wikidata;wikidata | Jevišovice | Q11812799 |
+| 7 | `kralicenosl.cz` | wikidata;wikidata | Kralice nad Oslavou | Q11730729 |
+| 7 | `mbudejovice.cz` | wikidata;wikidata | Moravskobudějovický microregion | Moravské Budějovice |
+| 7 | `mzcr.cz` | wikidata;linkgraph | Q45898143 |
+| 7 | `nechanicko.cz` | wikidata;wikidata | Třesovice | Mžany |
+| 7 | `obec-lidice.cz` | wikidata;wikidata | Lidice | Q12037054 |
+| 7 | `oblati.cz` | wikidata;wikidata | Central European Province O. M. I. |
+| 7 | `pid.cz` | wikidata;wikidata | Q12048433 |
+| 7 | `pmscr.cz` | wikidata;wikidata | Probační a mediační služba | Q122828118 |
+| 7 | `psp.cz` | wikidata;wikidata | Office of the Chamber of Deputies | Chamber of Deputies of the Parliament of ... |
+
+## Local / regional candidates
+
+127 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 15 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 10 | `justice.cz` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | District Court in Teplice | District Court in Kutná Hora | District Court in ... |
+| 7 | `pocernice.cz` | wikidata;wikidata | Prague 20 | Municipal district office of Prague 20 |
+| 7 | `praha10.cz` | wikidata;wikidata | Municipal District Office of Prague 10 | Prague 10 |
+| 7 | `praha11.cz` | wikidata;wikidata | Prague 11 municipal district office | Prague 11 |
+| 7 | `praha12.cz` | wikidata;wikidata | Úřad městské části Praha 12 | Prague 12 |
+| 7 | `praha22.cz` | wikidata;wikidata | Úřad městské části Praha 22 | Prague 22 |
+| 7 | `praha4.cz` | wikidata;wikidata | Prague 4 | Prague 4 Municipal District Office |
+| 7 | `praha6.cz` | wikidata;wikidata | Úřad městské části Praha 6 | Prague 6 |
+| 7 | `praha7.cz` | wikidata;wikidata | Prague 7 | Úřad městské části Praha 7 |
+| 6 | `praha.eu` | wikidata;wikidata;wikidata | Prague | Prague City Hall | Prague City Assembly |
 

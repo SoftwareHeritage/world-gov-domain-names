@@ -1,24 +1,507 @@
 type,label,website,hostname,level
-parliament,Sami Parliament of Sweden,https://sametinget.se,sametinget.se,
-constitutional_court,Östergötland County Administrative Board,https://www.lansstyrelsen.se/ostergotland,lansstyrelsen.se,
-constitutional_court,Uppsala County Administrative Board,https://www.lansstyrelsen.se/uppsala/,lansstyrelsen.se,
-constitutional_court,Stockholm County Administrative Board,https://www.lansstyrelsen.se/stockholm,lansstyrelsen.se,
-constitutional_court,Skåne County Administrative Board,https://www.lansstyrelsen.se/skane,lansstyrelsen.se,
-constitutional_court,Gävleborg County Administrative Board,https://www.lansstyrelsen.se/gavleborg,lansstyrelsen.se,
-constitutional_court,Kalmar County Administrative Board,https://www.lansstyrelsen.se/kalmar,lansstyrelsen.se,
-constitutional_court,Norrbotten County Administrative Board,https://www.lansstyrelsen.se/norrbotten,lansstyrelsen.se,
-constitutional_court,Halland County Administrative Board,https://www.lansstyrelsen.se/halland,lansstyrelsen.se,
-constitutional_court,Blekinge County Administrative Board,https://www.lansstyrelsen.se/blekinge,lansstyrelsen.se,
-constitutional_court,Dalarna County Administrative Board,https://www.lansstyrelsen.se/dalarna,lansstyrelsen.se,
-constitutional_court,Gotland County Administrative Board,https://www.lansstyrelsen.se/gotland,lansstyrelsen.se,
-constitutional_court,Jämtland County Administrative Board,https://www.lansstyrelsen.se/jamtland,lansstyrelsen.se,
-constitutional_court,Jönköping County Administrative Board,https://www.lansstyrelsen.se/jonkoping,lansstyrelsen.se,
-constitutional_court,Kronoberg County Administrative Board,https://www.lansstyrelsen.se/kronoberg,lansstyrelsen.se,
-constitutional_court,Södermanland County Administrative Board,https://www.lansstyrelsen.se/sodermanland,lansstyrelsen.se,
-constitutional_court,Örebro County Administrative Board,https://www.lansstyrelsen.se/orebro,lansstyrelsen.se,
-constitutional_court,Värmland County Administrative Board,https://www.lansstyrelsen.se/varmland,lansstyrelsen.se,
-constitutional_court,Västerbotten County Administrative Board,https://www.lansstyrelsen.se/vasterbotten,lansstyrelsen.se,
-constitutional_court,Västernorrland County Administrative Board,https://www.lansstyrelsen.se/vasternorrland,lansstyrelsen.se,
-constitutional_court,Västra Götaland County Administrative Board,https://www.lansstyrelsen.se/vastragotaland,lansstyrelsen.se,
-constitutional_court,Västmanland County Administrative Board,https://www.lansstyrelsen.se/vastmanland,lansstyrelsen.se,
-supreme_court,Sami Parliament of Sweden,https://sametinget.se,sametinget.se,
+government_agency,Swedish Prosecution Authority,http://www.aklagare.se,aklagare.se,central
+government_agency,Alingsås tingsrätt,http://www.alingsastingsratt.domstol.se/,alingsastingsratt.domstol.se,local
+government_agency,"Embassy of France, Stockholm",http://www.ambafrance-se.org/,ambafrance-se.org,central
+government_agency,"embassy of Democratic Republic of the Congo, Stockholm",https://www.ambardcstockholm.com,ambardcstockholm.com,central
+government_agency,"Embassy of Kosovo, Stockholm",https://ambasadat.net/Suedi/,ambasadat.net,central
+government_agency,Ångermanland District Court,http://www.angermanlandstingsratt.domstol.se/,angermanlandstingsratt.domstol.se,local
+government_agency,Labour Court,http://www.arbetsdomstolen.se/,arbetsdomstolen.se,
+government_agency,Swedish Public Employment Service,https://www.arbetsformedlingen.se,arbetsformedlingen.se,central
+government_agency,Swedish Agency for Government Employers,http://www.arbetsgivarverket.se,arbetsgivarverket.se,central
+government_agency,The National Board for Consumer Disputes,http://www.arn.se/,arn.se,central
+government_agency,Q80224507,https://www.arvsfonden.se,arvsfonden.se,central
+government_agency,Attunda District Court,http://www.attundatingsratt.domstol.se/,attundatingsratt.domstol.se,local
+government_agency,Swedish Work Environment Authority,https://www.av.se,av.se,central
+government_agency,"Embassy of Bangladesh, Stockholm",http://bangladoot.se/,bangladoot.se,central
+government_agency,Ombudsman for Children in Sweden,https://www.barnombudsmannen.se,barnombudsmannen.se,central
+government_agency,Swedish Accounting Standards Board,https://www.bfn.se,bfn.se,central
+government_agency,Embassy of Bosnia and Herzegovina in Stockholm,https://www.bihambasada.se/,bihambasada.se,central
+government_agency,Blekinge District Court,http://www.blekingetingsratt.domstol.se/,blekingetingsratt.domstol.se,local
+government_agency,Patent Attorneys Board,https://www.bolagsverket.se/om/oss/fler/patentombud,bolagsverket.se,central
+government_agency,Swedish Companies Registration Office,http://www.bolagsverket.se,bolagsverket.se,central
+government_agency,"Embassy of Botswana, Stockholm",http://www.botswana.se/,botswana.se,central
+government_agency,"National Board of Housing, Building and Planning",http://www.boverket.se,boverket.se,central
+government_agency,Swedish National Council for Crime Prevention,http://www.bra.se/,bra.se,central
+government_agency,Crime Victim Compensation and Support Authority,https://www.brottsoffermyndigheten.se,brottsoffermyndigheten.se,central
+government_agency,Blekinge Institute of Technology,https://www.bth.se/,bth.se,central
+government_agency,Business Sweden,https://www.business-sweden.com/expand-globally/trade--development/?lang=en,business-sweden.com,
+government_agency,Swedish National board on research animal ethics,https://www.cdfn.se,cdfn.se,central
+university,Chalmers University of Technology,http://chalmers.se,chalmers.se,university
+university,Chalmers University of Technology,http://www.chalmers.se/,chalmers.se,university
+government_agency,"Embassy of the People's Republic of China, Stockholm",http://www.chinaembassy.se/eng/,chinaembassy.se,central
+government_agency,Consulate of Sweden Seattle,http://www.consulateofswedenseattle.com/,consulateofswedenseattle.com,
+government_agency,Coronakommissionen,https://coronakommissionen.com/,coronakommissionen.com,
+government_agency,Swedish Board for Study Support,http://www.csn.se,csn.se,central
+government_agency,Agency for Digital Government,https://www.digg.se,digg.se,central
+government_agency,Din Tur,http://www.dintur.se/,dintur.se,
+government_agency,Discrimination Ombudsman,https://www.do.se,do.se,central
+government_agency,Swedish National Courts Administration,https://www.domstol.se/domstolsverket/,domstol.se,central
+government_agency,Q97143444,https://www.domstol.se/migrationsdomstolen-vid-forvaltningsratten-i-stockholm/,domstol.se,
+government_agency,Q10501718,https://www.domstol.se/forvaltningsratten-i-stockholm/,domstol.se,
+government_agency,Malmö District Court,https://www.domstol.se/malmo-tingsratt/,domstol.se,local
+government_agency,Supreme Court of Sweden,https://www.domstol.se/hogsta-domstolen/,domstol.se,central
+government_agency,Umeå District Court,https://www.domstol.se/umea-tingsratt/,domstol.se,local
+government_agency,Stockholm District Court,https://www.domstol.se/stockholms-tingsratt/,domstol.se,local
+government_agency,Judges Proposals Board,https://www.domstol.se/Om-Sveriges-Domstolar/Domarnamnden,domstol.se,central
+government_agency,administrative court of appeal in Stockholm,https://www.domstol.se/kammarratten-i-stockholm/,domstol.se,
+government_agency,Örebro rättscentrum,https://www.domstol.se/orebro-tingsratt/,domstol.se,local
+government_agency,Migration Court in Gothenburg,https://www.domstol.se/migrationsdomstolen-vid-forvaltningsratten-i-goteborg/,domstol.se,
+government_agency,Law Clerks Board,https://www.domstol.se/Om-Sveriges-Domstolar/Notarienamnden,domstol.se,central
+government_agency,Swedish National Courts Administration,http://www.domstol.se/,domstol.se,
+government_agency,Q80207153,https://www.domstol.se/overklagandenamnden-for-namndemannauppdrag/,domstol.se,central
+government_agency,Legal Aid Board,https://www.domstol.se/rattshjalpsnamnden,domstol.se,central
+government_agency,Borås tingsrätt,https://www.domstol.se/boras-tingsratt/,domstol.se,local
+government_agency,Q97143443,https://www.domstol.se/migrationsdomstolen-vid-forvaltningsratten-i-malmo/,domstol.se,
+government_agency,Q97143442,https://www.domstol.se/migrationsdomstolen-vid-forvaltningsratten-i-lulea/,domstol.se,
+government_agency,Dalarna University,http://www.du.se/,du.se,central
+government_agency,European Centre for Disease Prevention and Control,https://www.ecdc.europa.eu/,ecdc.europa.eu,local
+government_agency,Swedish eHealth Agency,https://www.ehalsomyndigheten.se,ehalsomyndigheten.se,central
+government_agency,Swedish Energy Markets Inspectorate,https://www.ei.se,ei.se,central
+government_agency,Swedish Export Credits Guarantee Board,https://www.ekn.se/,ekn.se,central
+government_agency,Swedish Economic Crime Authority,https://www.ekobrottsmyndigheten.se/,ekobrottsmyndigheten.se,central
+government_agency,Eksjö District Court,http://www.eksjotingsratt.domstol.se/,eksjotingsratt.domstol.se,local
+government_agency,National Electrical Safety Board,http://www.elsakerhetsverket.se,elsakerhetsverket.se,central
+government_agency,"Embassy of Mozambique, Stockholm",http://www.embassymozambique.se/,embassymozambique.se,central
+government_agency,"Embassy of Bolivia, Stockholm",http://www.embolivia.se/,embolivia.se,central
+government_agency,Swedish Energy Agency,http://www.energimyndigheten.se,energimyndigheten.se,central
+government_agency,"Embassy of Eritrea, Stockholm",http://eritrean-embassy.se/,eritrean-embassy.se,central
+government_agency,Swedish European Social Fund Council,http://www.esf.se/,esf.se,central
+government_agency,Eskilstuna District Court,http://www.eskilstunatingsratt.domstol.se/,eskilstunatingsratt.domstol.se,local
+government_agency,embassy of Ethiopia to Sweden,http://ethemb.se/,ethemb.se,central
+government_agency,Swedish Ethical Review Authority,https://www.etikprovning.se,etikprovning.se,central
+government_agency,Falun District Court,http://www.falutingsratt.domstol.se/,falutingsratt.domstol.se,local
+government_agency,Folke Bernadotte Academy,https://www.fba.se,fba.se,central
+government_agency,Swedish Defence University,http://www.fhs.se,fhs.se,
+university,Swedish Defence University,http://www.fhs.se,fhs.se,university
+government_agency,Financial Supervisory Authority,https://www.fi.se/en/,fi.se,central
+government_agency,Financial Supervisory Authority,https://www.fi.se,fi.se,central
+government_agency,"Embassy of Finland, Stockholm",https://finlandabroad.fi/web/swe/,finlandabroad.fi,central
+government_agency,Swedish Estate Agents Inspectorate,https://www.fmi.se,fmi.se,central
+government_agency,Defence Materiel Administration,https://www.fmv.se/,fmv.se,central
+government_agency,Defence Materiel Administration,https://www.fmv.se/english/,fmv.se,central
+government_agency,Swedish Defence Research Agency,https://www.foi.se,foi.se,central
+government_agency,Public Health Agency of Sweden,https://www.folkhalsomyndigheten.se,folkhalsomyndigheten.se,central
+government_agency,Formas,https://www.formas.se,formas.se,central
+government_agency,Swedish Social Insurance Agency,https://www.forsakringskassan.se/,forsakringskassan.se,central
+government_agency,The Taxation of Research Workers Board,https://www.forskarskattenamnden.se,forskarskattenamnden.se,central
+university,Military Academy Karlberg,http://www.forsvarsmakten.se/en/about/organisation/training-units-schools-and-centres/military-academy-karlberg/,forsvarsmakten.se,university
+university,Military Academy Halmstad,https://www.forsvarsmakten.se/en/about/organisation/training-units-schools-and-centres/military-academy-halmstad/,forsvarsmakten.se,university
+university,Military Academy Karlberg,https://www.forsvarsmakten.se/sv/organisation/militarhogskolan-karlberg/,forsvarsmakten.se,university
+university,Military Academy Halmstad,https://www.forsvarsmakten.se/sv/organisation/militarhogskolan-halmstad/,forsvarsmakten.se,university
+government_agency,Swedish Armed Forces,https://www.forsvarsmakten.se/,forsvarsmakten.se,central
+government_agency,Swedish Research Council for Health Working Life and Welfare,http://www.forte.se/,forte.se,central
+government_agency,Swedish Research Council for Health Working Life and Welfare,http://www.forte.se/en/,forte.se,central
+government_agency,National Fortifications Administration,https://www.fortifikationsverket.se,fortifikationsverket.se,central
+government_agency,Regional Research Council in Uppsala-Örebro Region,http://www.fou.nu/is/rfr/,fou.nu,
+government_agency,Swedish Fiscal Policy Council,https://www.fpr.se,fpr.se,central
+government_agency,National Defence Radio Establishment,http://www.fra.se,fra.se,central
+government_agency,Swedish Fund Selection Agency,https://www.ftn.se/,ftn.se,
+government_agency,Q10512316,http://www.gallivaretingsratt.domstol.se/,gallivaretingsratt.domstol.se,local
+government_agency,Gävle District Court,http://www.gavletingsratt.domstol.se/,gavletingsratt.domstol.se,local
+government_agency,Swedish Gene Technology Advisory Board,https://www.genteknik.se,genteknik.se,central
+government_agency,Sámi Giellagáldu,http://www.giella.org/,giella.org,
+government_agency,Swedish School of Sport and Health Sciences,http://www.gih.se,gih.se,central
+government_agency,Göta Court of Appeal,http://www.gotahovratt.se/,gotahovratt.se,
+government_agency,Q122750397,https://goteborg.se/wps/portal/start/kommun-och-politik/kommunens-organisation/forvaltningar-och-namnder/kulturforvaltningen/organisation-och-ledning-i-kulturforvaltningen,goteborg.se,
+government_agency,Göteborgs tingsrätt,http://www.goteborgstingsratt.domstol.se/,goteborgstingsratt.domstol.se,local
+government_agency,Region Gotland,http://www.gotland.se,gotland.se,
+government_agency,Gotland District Court,http://www.gotlandstingsratt.domstol.se/,gotlandstingsratt.domstol.se,local
+government_agency,Q10594844,https://www.gu.se/nsfg,gu.se,
+university,University of Gothenburg,https://www.gu.se/en,gu.se,university
+government_agency,University of Gothenburg,https://www.gu.se/en,gu.se,central
+government_agency,University of Gothenburg,https://www.gu.se,gu.se,central
+government_agency,University of Gothenburg,http://www.gu.se,gu.se,central
+university,University of Gothenburg,https://www.gu.se,gu.se,university
+university,University of Gothenburg,http://www.gu.se,gu.se,university
+government_agency,Halmstads tingsrätt,http://www.halmstadstingsratt.domstol.se/,halmstadstingsratt.domstol.se,local
+government_agency,The Higher Education Expulsions Board,https://www.han.se,han.se,central
+government_agency,German-Swedish Chamber of Commerce,https://www.handelskammer.se/en,handelskammer.se,
+government_agency,German-Swedish Chamber of Commerce,https://www.handelskammer.se/de,handelskammer.se,
+government_agency,German-Swedish Chamber of Commerce,https://www.handelskammer.se/,handelskammer.se,
+government_agency,Haparanda District Court,http://www.haparandatingsratt.domstol.se/,haparandatingsratt.domstol.se,local
+government_agency,Harpsund Committee,https://www.harpsund.se,harpsund.se,central
+government_agency,Hässleholm District Court,http://www.hassleholmstingsratt.domstol.se/,hassleholmstingsratt.domstol.se,local
+government_agency,Swedish Agency for Marine and Water Management,http://www.havochvatten.se,havochvatten.se,central
+government_agency,University of Borås,http://www.hb.se,hb.se,central
+government_agency,Helsingborgs tingsrätt,http://www.helsingborgstingsratt.domstol.se/,helsingborgstingsratt.domstol.se,local
+government_agency,Halmstad University College,http://www.hh.se/,hh.se,central
+government_agency,University of Gävle,http://www.hig.se/,hig.se,central
+government_agency,Higab,https://www.higab.se/,higab.se,local
+government_agency,University of Skövde,https://www.his.se/,his.se,central
+government_agency,Kristianstad University,https://www.hkr.se/,hkr.se,central
+government_agency,Supreme Administrative Court of Sweden,http://www.hogstaforvaltningsdomstolen.se,hogstaforvaltningsdomstolen.se,central
+government_agency,Court of Appeal for Southern Norrland,http://www.hovrattenfornedrenorrland.se/,hovrattenfornedrenorrland.se,
+government_agency,Court of Appeal for Northern Norrland,http://www.hovrattenovrenorrland.domstol.se/,hovrattenovrenorrland.domstol.se,
+government_agency,Scania and Blekinge Court of Appeal,http://www.hovrattenskaneblekinge.domstol.se/,hovrattenskaneblekinge.domstol.se,
+government_agency,Medical Responsibility Board,http://www.hsan.se/,hsan.se,central
+government_agency,National Claims Adjustment Board,https://http://www.kammarkollegiet.se/n-mndmyndigheter/skaderegleringsn-mnden,http,central
+government_agency,Hälsingland District Court,http://www.hudiksvallstingsratt.domstol.se/,hudiksvallstingsratt.domstol.se,local
+government_agency,University West,http://www.hv.se,hv.se,central
+government_agency,The Swedish Unemployment Insurance Inspectorate,https://www.iaf.se,iaf.se,central
+government_agency,Institute for Evaluation of Labour Market and Education Policy,http://www.ifau.se,ifau.se,central
+university,IIIEE,http://www.iiiee.lu.se,iiiee.lu.se,university
+government_agency,Swedish Authority for Privacy Protection,https://www.imy.se/,imy.se,central
+government_agency,Swedish Authority for Privacy Protection,https://www.imy.se/en/,imy.se,central
+government_agency,Swedish Social Insurance Inspectorate,https://inspsf.se,inspsf.se,central
+government_agency,Polish Institute in Stockholm,https://instytutpolski.pl/stockholm/,instytutpolski.pl,
+government_agency,Swedish Institute of Space Physics,https://www.irf.se/en/,irf.se,central
+government_agency,Swedish Institute of Space Physics,https://www.irf.se/sv/,irf.se,central
+government_agency,Swedish Language Council,http://www.isof.se/sprakradet,isof.se,
+government_agency,Swedish Institute for Language and Folklore,https://www.isof.se/,isof.se,central
+government_agency,Swedish Agency for Non-Proliferation and Export Controls,http://www.isp.se/,isp.se,central
+government_agency,Health and Social Care Inspectorate,https://www.ivo.se,ivo.se,central
+government_agency,Swedish Gender Equality Agency,https://www.jamstalldhetsmyndigheten.se,jamstalldhetsmyndigheten.se,central
+government_agency,Chancellor of Justice,https://www.jk.se,jk.se,central
+government_agency,Jönköping District Court,http://www.jonkopingstingsratt.domstol.se/,jonkopingstingsratt.domstol.se,local
+government_agency,Swedish Board of Agriculture,http://www.jordbruksverket.se,jordbruksverket.se,central
+government_agency,Kalmar District Court,http://www.kalmartingsratt.domstol.se/,kalmartingsratt.domstol.se,local
+government_agency,Fideikommissnämnden,https://www.kammarkollegiet.se/namndmyndigheter/fideikommissnamnden,kammarkollegiet.se,central
+government_agency,"Legal, Financial and Administrative Services Agency",https://www.kammarkollegiet.se/,kammarkollegiet.se,central
+government_agency,Arbitration Tribunal for Occupational Injury Compensation,https://www.kammarkollegiet.se/om-oss/organisation/stod-till-andra-myndigheter/skiljenamnden-i-vissa-trygghetsfragor,kammarkollegiet.se,central
+government_agency,Alcoholic Beverages Product Range Board,https://www.kammarkollegiet.se/om-oss/organisation/stod-till-andra-myndigheter/alkoholsortimentsnamnden,kammarkollegiet.se,central
+government_agency,Q10677737,https://www.kammarkollegiet.se/om-oss/organisation/stod-till-andra-myndigheter/statens-overklagandenamnd,kammarkollegiet.se,central
+government_agency,administrative court of appeal in Gothenburg,http://www.kammarrattenigoteborg.domstol.se/,kammarrattenigoteborg.domstol.se,
+government_agency,administrative court of appeal in Jönköping,http://www.kammarrattenijonkoping.domstol.se/,kammarrattenijonkoping.domstol.se,
+government_agency,administrative court of appeal in Sundsvall,http://www.kammarrattenisundsvall.se/,kammarrattenisundsvall.se,
+government_agency,Nuclear Waste Fund,https://www.karnavfallsfonden.se,karnavfallsfonden.se,central
+university,Karlstad University,https://www.kau.se,kau.se,university
+government_agency,Karlstad University,https://www.kau.se,kau.se,central
+government_agency,Q80207105,https://www.kavlinge.se/kommunochpolitik/sakerhetochkris/lokalasakerhetsnamndenkso.4.18214b0d140c4bc7c212480.html,kavlinge.se,central
+government_agency,National Library of Sweden,http://www.kb.se,kb.se,central
+government_agency,Swedish Chemicals Agency,http://www.kemi.se,kemi.se,central
+government_agency,"Embassy of Kenya, Stockholm",https://kenyaembassystockholm.com/,kenyaembassystockholm.com,central
+university,Karolinska Institutet,https://ki.se,ki.se,university
+government_agency,Karolinska Institutet,https://ki.se,ki.se,central
+government_agency,Royal Institute of Art,http://www.kkh.se,kkh.se,central
+government_agency,Swedish Climate Policy Council,https://www.klimatpolitiskaradet.se,klimatpolitiskaradet.se,central
+government_agency,Royal College of Music in Stockholm,http://www.kmh.se,kmh.se,central
+government_agency,National Board of Trade,https://www.kommerskollegium.se/,kommerskollegium.se,central
+government_agency,National Institute of Economic Research,http://www.konj.se,konj.se,central
+government_agency,Swedish Competition Authority,https://www.konkurrensverket.se,konkurrensverket.se,central
+university,Konstfack,http://www.konstfack.se,konstfack.se,university
+government_agency,Konstfack,http://www.konstfack.se,konstfack.se,central
+government_agency,Swedish Arts Grants Committee,https://www.konstnarsnamnden.se,konstnarsnamnden.se,central
+government_agency,Swedish Consumer Agency,https://www.konsumentverket.se,konsumentverket.se,central
+government_agency,Swedish Prison and Probation Service,https://www.kriminalvarden.se,kriminalvarden.se,central
+government_agency,Q18291386,http://www.kristianstadstingsratt.domstol.se/,kristianstadstingsratt.domstol.se,local
+government_agency,Swedish Enforcement Authority,https://www.kronofogden.se,kronofogden.se,central
+university,Royal Institute of Technology,https://www.kth.se/en,kth.se,university
+government_agency,Royal Institute of Technology,https://www.kth.se/en,kth.se,central
+government_agency,Royal Institute of Technology,https://www.kth.se,kth.se,central
+university,Royal Institute of Technology,https://www.kth.se,kth.se,university
+government_agency,Swedish Agency for Cultural Policy Analysis,https://www.kulturanalys.se,kulturanalys.se,central
+government_agency,Swedish Arts Council,http://www.kulturradet.se,kulturradet.se,central
+government_agency,Royal Court of Sweden,https://www.kungahuset.se/,kungahuset.se,
+government_agency,Swedish Coast Guard,https://www.kustbevakningen.se/,kustbevakningen.se,central
+government_agency,"Embassy of Kuwait, Stockholm",http://kuwaitembassy.se/,kuwaitembassy.se,central
+government_agency,Council on Legislation,https://www.lagradet.se,lagradet.se,central
+government_agency,Swedish Medical Products Agency,http://www.lakemedelsverket.se,lakemedelsverket.se,central
+government_agency,Dalarna County Administrative Board,https://www.lansstyrelsen.se/dalarna,lansstyrelsen.se,central
+constitutional_court,Stockholm County Administrative Board,https://www.lansstyrelsen.se/stockholm,lansstyrelsen.se,central
+constitutional_court,Norrbotten County Administrative Board,https://www.lansstyrelsen.se/norrbotten,lansstyrelsen.se,central
+government_agency,Västra Götaland County Administrative Board,https://www.lansstyrelsen.se/vastragotaland,lansstyrelsen.se,central
+government_agency,Gotland County Administrative Board,https://www.lansstyrelsen.se/gotland,lansstyrelsen.se,central
+constitutional_court,Uppsala County Administrative Board,https://www.lansstyrelsen.se/uppsala/,lansstyrelsen.se,central
+constitutional_court,Örebro County Administrative Board,https://www.lansstyrelsen.se/orebro,lansstyrelsen.se,central
+constitutional_court,Östergötland County Administrative Board,https://www.lansstyrelsen.se/ostergotland,lansstyrelsen.se,central
+government_agency,Kronoberg County Administrative Board,https://www.lansstyrelsen.se/kronoberg,lansstyrelsen.se,central
+constitutional_court,Gävleborg County Administrative Board,https://www.lansstyrelsen.se/gavleborg,lansstyrelsen.se,central
+government_agency,Västernorrland County Administrative Board,https://www.lansstyrelsen.se/vasternorrland,lansstyrelsen.se,central
+government_agency,Blekinge County Administrative Board,https://www.lansstyrelsen.se/blekinge,lansstyrelsen.se,central
+government_agency,Jämtland County Administrative Board,https://www.lansstyrelsen.se/jamtland,lansstyrelsen.se,central
+constitutional_court,Gotland County Administrative Board,https://www.lansstyrelsen.se/gotland,lansstyrelsen.se,central
+government_agency,Gävleborg County Administrative Board,https://www.lansstyrelsen.se/gavleborg,lansstyrelsen.se,central
+government_agency,Örebro County Administrative Board,https://www.lansstyrelsen.se/orebro,lansstyrelsen.se,central
+government_agency,Västmanland County Administrative Board,https://www.lansstyrelsen.se/vastmanland,lansstyrelsen.se,central
+government_agency,Västerbotten County Administrative Board,https://www.lansstyrelsen.se/vasterbotten,lansstyrelsen.se,central
+government_agency,Jönköping County Administrative Board,https://www.lansstyrelsen.se/jonkoping,lansstyrelsen.se,central
+constitutional_court,Dalarna County Administrative Board,https://www.lansstyrelsen.se/dalarna,lansstyrelsen.se,central
+government_agency,Skåne County Administrative Board,https://www.lansstyrelsen.se/skane,lansstyrelsen.se,central
+constitutional_court,Västernorrland County Administrative Board,https://www.lansstyrelsen.se/vasternorrland,lansstyrelsen.se,central
+constitutional_court,Västmanland County Administrative Board,https://www.lansstyrelsen.se/vastmanland,lansstyrelsen.se,central
+constitutional_court,Västerbotten County Administrative Board,https://www.lansstyrelsen.se/vasterbotten,lansstyrelsen.se,central
+constitutional_court,Västra Götaland County Administrative Board,https://www.lansstyrelsen.se/vastragotaland,lansstyrelsen.se,central
+constitutional_court,Halland County Administrative Board,https://www.lansstyrelsen.se/halland,lansstyrelsen.se,central
+constitutional_court,Jönköping County Administrative Board,https://www.lansstyrelsen.se/jonkoping,lansstyrelsen.se,central
+constitutional_court,Södermanland County Administrative Board,https://www.lansstyrelsen.se/sodermanland,lansstyrelsen.se,central
+constitutional_court,Blekinge County Administrative Board,https://www.lansstyrelsen.se/blekinge,lansstyrelsen.se,central
+constitutional_court,Kalmar County Administrative Board,https://www.lansstyrelsen.se/kalmar,lansstyrelsen.se,central
+constitutional_court,Jämtland County Administrative Board,https://www.lansstyrelsen.se/jamtland,lansstyrelsen.se,central
+constitutional_court,Skåne County Administrative Board,https://www.lansstyrelsen.se/skane,lansstyrelsen.se,central
+constitutional_court,Värmland County Administrative Board,https://www.lansstyrelsen.se/varmland,lansstyrelsen.se,central
+government_agency,Stockholm County Administrative Board,https://www.lansstyrelsen.se/stockholm,lansstyrelsen.se,central
+government_agency,Värmland County Administrative Board,https://www.lansstyrelsen.se/varmland,lansstyrelsen.se,central
+government_agency,Kalmar County Administrative Board,https://www.lansstyrelsen.se/kalmar,lansstyrelsen.se,central
+government_agency,Halland County Administrative Board,https://www.lansstyrelsen.se/halland,lansstyrelsen.se,central
+government_agency,Uppsala County Administrative Board,https://www.lansstyrelsen.se/uppsala/,lansstyrelsen.se,central
+constitutional_court,Kronoberg County Administrative Board,https://www.lansstyrelsen.se/kronoberg,lansstyrelsen.se,central
+government_agency,Södermanland County Administrative Board,https://www.lansstyrelsen.se/sodermanland,lansstyrelsen.se,central
+government_agency,Östergötland County Administrative Board,https://www.lansstyrelsen.se/ostergotland,lansstyrelsen.se,central
+government_agency,Norrbotten County Administrative Board,https://www.lansstyrelsen.se/norrbotten,lansstyrelsen.se,central
+government_agency,Lantmäteriet,https://www.lantmateriet.se,lantmateriet.se,central
+government_agency,"Embassy of Laos, Stockholm",http://www.laosembassystockholm.egnaverk.se,laosembassystockholm.egnaverk.se,central
+government_agency,"Embassy of Lebanon, Stockholm",http://www.lebanonembassy.se/,lebanonembassy.se,central
+government_agency,Forum för levande historia,https://www.levandehistoria.se,levandehistoria.se,central
+government_agency,Civil Aviation Administration,http://lfv.se,lfv.se,
+government_agency,Linköping District Court,http://www.linkopingstingsratt.domstol.se/,linkopingstingsratt.domstol.se,local
+university,Linköping University,https://liu.se,liu.se,university
+government_agency,Linköping University,https://liu.se,liu.se,central
+government_agency,National Food Agency,https://www.livsmedelsverket.se,livsmedelsverket.se,central
+government_agency,Linnaeus University,http://lnu.se,lnu.se,central
+university,Linnaeus University,http://lnu.se,lnu.se,university
+government_agency,Spelinspektionen,https://lotteriinspektionen.se,lotteriinspektionen.se,central
+university,Luleå University of Technology,https://www.ltu.se,ltu.se,university
+government_agency,Luleå University of Technology,https://www.ltu.se,ltu.se,central
+university,Lund University,https://www.lu.se,lu.se,university
+government_agency,Lund University,https://www.lu.se,lu.se,central
+government_agency,Luleå District Court,http://www.luleatingsratt.domstol.se/,luleatingsratt.domstol.se,local
+government_agency,Lund District Court,http://www.lundstingsratt.domstol.se/,lundstingsratt.domstol.se,local
+government_agency,Lycksele District Court,http://www.lyckseletingsratt.domstol.se/,lyckseletingsratt.domstol.se,local
+government_agency,Land and Environment Court of Appeal,http://www.markochmiljooverdomstolen.se/,markochmiljooverdomstolen.se,
+government_agency,Malmö University,https://www.mau.se,mau.se,central
+university,Malmö University,https://www.mau.se,mau.se,university
+government_agency,Swedish Civil Defence and Resilience Agency,https://www.mcf.se/,mcf.se,central
+government_agency,Swedish Civil Defence and Resilience Agency,https://www.mcf.se/en/,mcf.se,central
+government_agency,Mälardalen University,https://www.mdu.se,mdu.se,central
+government_agency,Swedish Agency for the Media,https://mediemyndigheten.se/,mediemyndigheten.se,central
+government_agency,The Swedish Agency for Participation,http://www.mfd.se/,mfd.se,central
+government_agency,Swedish Intercountry Adoptions Authority,https://www.mfof.se,mfof.se,central
+government_agency,National Mediation Office,http://www.mi.se/,mi.se,central
+government_agency,Swedish Migration Agency,http://www.migrationsverket.se/,migrationsverket.se,central
+university,Mid Sweden University,https://www.miun.se/,miun.se,university
+government_agency,Mid Sweden University,https://www.miun.se/,miun.se,central
+government_agency,Moderna Museet,http://www.modernamuseet.se,modernamuseet.se,central
+government_agency,"Embassy of United Arab Emirates, Stockholm",https://www.mofaic.gov.ae/missions/stockholm,mofaic.gov.ae,central
+government_agency,Mora District Court,http://www.moratingsratt.domstol.se/,moratingsratt.domstol.se,local
+government_agency,Office of Psychological Defense,https://www.mpf.se/,mpf.se,
+government_agency,The Swedish Institute for Human Rights,https://mrinstitutet.se/,mrinstitutet.se,central
+government_agency,Swedish Commission on Security and Integrity Protection,https://www.msi.se,msi.se,central
+government_agency,Swedish Agency for Defence Analysis,https://www.mtfa.se/,mtfa.se,central
+government_agency,Swedish Agency for Accessible Media,http://www.mtm.se,mtm.se,central
+government_agency,National Board for Youth Affairs,https://www.mucf.se,mucf.se,central
+government_agency,"National Collections of Music, Theatre and Dance",https://www.musikverket.se,musikverket.se,central
+government_agency,Swedish National Agency for Higher Vocational Education,https://www.myh.se/,myh.se,central
+government_agency,Embassy of the Czech Republic in Stockholm,https://www.mzv.cz/stockholm,mzv.cz,central
+government_agency,"Embassy of Slovakia, Stockholm",https://www.mzv.sk/web/stokholm/,mzv.sk,central
+government_agency,Nacka District Court,http://www.nackatingsratt.domstol.se/,nackatingsratt.domstol.se,local
+government_agency,Nordic Africa Institute,http://www.nai.uu.se,nai.uu.se,central
+government_agency,Q10605072,https://www.namndenmotdiskriminering.se,namndenmotdiskriminering.se,central
+government_agency,Nationalmuseum,http://www.nationalmuseum.se,nationalmuseum.se,central
+government_agency,Swedish Environmental Protection Agency,https://www.naturvardsverket.se,naturvardsverket.se,central
+government_agency,National Cybersecurity Centre,https://www.ncsc.se/,ncsc.se,
+government_agency,National Laboratory of Forensic Science,http://nfc.polisen.se/,nfc.polisen.se,
+government_agency,The National Swedish Handicraft Council,https://www.nfh.se,nfh.se,central
+government_agency,"Embassy of Nigeria, Stockholm",https://nigerianembassy.nu/,nigerianembassy.nu,central
+government_agency,Northern healthcare region,https://www.norrasjukvardsregionforbundet.se/,norrasjukvardsregionforbundet.se,
+government_agency,Region Norrbotten,http://www.norrbotten.se,norrbotten.se,
+government_agency,Norrköping District Court,http://www.norrkopingstingsratt.domstol.se/,norrkopingstingsratt.domstol.se,local
+government_agency,Norrtälje District Court,http://www.norrtaljetingsratt.domstol.se/,norrtaljetingsratt.domstol.se,local
+government_agency,Norwegian embassy in Stockholm,https://www.norway.no/no/sweden/,norway.no,central
+government_agency,Swedish Museum of Natural History,https://www.nrm.se,nrm.se,central
+government_agency,Apostolic Nunciature to Sweden,http://nunciature.se,nunciature.se,central
+government_agency,Nyköping District Court,http://www.nykopingstingsratt.domstol.se/,nykopingstingsratt.domstol.se,local
+government_agency,The National Board of Appeal for Student Aid,https://www.oks.se,oks.se,central
+government_agency,The Ethics Review Appeals Board,https://www.onep.se/,onep.se,central
+government_agency,The Higher Education Appeals Board,https://www.onh.se,onh.se,central
+government_agency,The Swedish National Board for Assessment of Research Misconduct,https://oredlighetsprovning.se,oredlighetsprovning.se,central
+university,Örebro University,http://www.oru.se/,oru.se,university
+government_agency,Örebro University,http://www.oru.se/,oru.se,central
+government_agency,Q80207116,https://www.oskarshamn.se/mer-om-kommunen/karnenergi-och-karnavfall/lokala-sakerhetsnamnden-vid-oskarshamns-karnkraftverk-och-karnenergiberedskap,oskarshamn.se,central
+government_agency,Östersund District Court,http://www.ostersundstingsratt.domstol.se/,ostersundstingsratt.domstol.se,local
+government_agency,Q80207112,https://www.osthammar.se/sv/organisation/namnd/lokala-sakerhetsnamnden/,osthammar.se,central
+government_agency,The Board of Appeal for Education,https://www.overklagandenamnden.se,overklagandenamnden.se,central
+government_agency,"Embassy of Palestine, Stockholm",https://palestineembassy.se/خدمات-قنصليه/,palestineembassy.se,central
+government_agency,"Embassy of Palestine, Stockholm",https://palestineembassy.se,palestineembassy.se,central
+government_agency,Swedish Pensions Agency,https://www.pensionsmyndigheten.se/,pensionsmyndigheten.se,central
+government_agency,Swedish Polar Research Secretariat,https://www.polar.se/en/,polar.se,central
+government_agency,Swedish Polar Research Secretariat,https://www.polar.se,polar.se,central
+government_agency,Swedish Police,https://polisen.se/fi/,polisen.se,
+government_agency,Swedish Police Authority,https://www.polisen.se,polisen.se,central
+government_agency,Swedish Police,https://www.polisen.se,polisen.se,
+government_agency,Swedish Police,https://polisen.se/de/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/fa/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/se/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/en/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/bks/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/fit/,polisen.se,
+government_agency,Swedish Police Aviation,http://www.polisen.se/Dalarna/Om-polisen/Sa-arbetar-Polisen/Specialkompetenser/Polisflyget/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/fr/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/es/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/rom/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/yi/,polisen.se,
+government_agency,Swedish Police,https://polisen.se/ar/,polisen.se,
+government_agency,Swedish Patent and Registration Office,http://www.prv.se/,prv.se,central
+government_agency,Swedish Post and Telecom Agency,http://www.pts.se,pts.se,central
+government_agency,Swedish National Heritage Board,http://www.raa.se,raa.se,central
+government_agency,National Legal Aid Authority,http://www.rattshjalp.se/,rattshjalp.se,central
+government_agency,Regelrådet,https://www.regelradet.se,regelradet.se,
+government_agency,Region Blekinge,https://regionblekinge.se,regionblekinge.se,
+government_agency,Region Dalarna,https://www.regiondalarna.se,regiondalarna.se,
+government_agency,Region Gävleborg,http://www.regiongavleborg.se/,regiongavleborg.se,
+government_agency,Region Halland,https://www.regionhalland.se/,regionhalland.se,
+government_agency,Region Jämtland Härjedalen,https://www.regionjh.se/,regionjh.se,
+government_agency,Region Kalmar County,https://www.regionkalmar.se/,regionkalmar.se,
+government_agency,Region Kronoberg,http://www.regionkronoberg.se/,regionkronoberg.se,
+government_agency,Region Örebro County,https://www.regionorebrolan.se/,regionorebrolan.se,
+government_agency,Region Östergötland,https://www.regionostergotland.se/,regionostergotland.se,
+government_agency,Region Sörmland,https://regionsormland.se/,regionsormland.se,
+government_agency,Q10680639,https://www.regionstockholm.se/sthlm-gotland,regionstockholm.se,
+government_agency,Q10680639,https://www.regionstockholm.se/sthlm-gotland/,regionstockholm.se,
+government_agency,Region Stockholm,https://www.regionstockholm.se/,regionstockholm.se,
+government_agency,Region Uppsala,https://www.regionuppsala.se/,regionuppsala.se,
+government_agency,Region Värmland,https://www.regionvarmland.se/,regionvarmland.se,
+government_agency,Region Västerbotten,https://www.regionvasterbotten.se,regionvasterbotten.se,
+government_agency,Region Västmanland,https://regionvastmanland.se/,regionvastmanland.se,
+government_agency,Swedish Defence Recruitment Agency,http://www.rekryteringsmyndigheten.se,rekryteringsmyndigheten.se,central
+government_agency,Swedish Inspectorate of Auditors,https://www.revisorsinspektionen.se,revisorsinspektionen.se,central
+government_agency,National Archives of Sweden,https://riksarkivet.se/,riksarkivet.se,central
+government_agency,Sveriges Riksbank,https://riksbank.se,riksbank.se,
+government_agency,Swedish National Debt Office,https://www.riksgalden.se/,riksgalden.se,central
+government_agency,Region Jönköping County,https://www.rjl.se/,rjl.se,
+government_agency,National Board of Forensic Medicine,http://www.rmv.se/,rmv.se,central
+government_agency,Taipei Mission in Sweden,http://www.roc-taiwan.org/SE/mp.asp?mp=172,roc-taiwan.org,central
+government_agency,Region Västernorrland,https://www.rvn.se/,rvn.se,
+government_agency,"Embassy of Rwanda, Stockholm",https://rwandaembassy.se,rwandaembassy.se,central
+government_agency,Swedish National Space Agency,http://www.rymdstyrelsen.se,rymdstyrelsen.se,central
+government_agency,Swedish Security Service,https://www.sakerhetspolisen.se/ovriga-sidor/other-languages/english-engelska.html,sakerhetspolisen.se,central
+government_agency,Swedish Security Service,https://www.sakerhetspolisen.se,sakerhetspolisen.se,central
+government_agency,Sami Education Board,https://www.sameskolstyrelsen.se,sameskolstyrelsen.se,central
+parliament,Sami Parliament of Sweden,https://sametinget.se,sametinget.se,central
+government_agency,Sami Parliament of Sweden,https://sametinget.se,sametinget.se,central
+government_agency,The Sami Foundation Board,https://www.sametinget.se/samefonden,sametinget.se,central
+supreme_court,Sami Parliament of Sweden,https://sametinget.se,sametinget.se,central
+government_agency,Truth Commission for the Sami People,https://sanningskommissionensamer.se/,sanningskommissionensamer.se,
+government_agency,Swedish Agency for Health Technology Assessment and Assessment of Social Services,http://www.sbu.se,sbu.se,central
+government_agency,Statistics Sweden,https://www.scb.se,scb.se,central
+government_agency,"Embassy of Lithuania, Stockholm",https://se.mfa.lt/,se.mfa.lt,central
+government_agency,"Embassy of Croatia, Stockholm",http://se.mvep.hr/,se.mvep.hr,central
+government_agency,"Embassy of the United States, Stockholm",https://se.usembassy.gov/,se.usembassy.gov,central
+government_agency,National Property Board of Sweden,http://www.sfv.se,sfv.se,central
+government_agency,Geological Survey of Sweden,https://www.sgu.se/en/,sgu.se,central
+government_agency,Geological Survey of Sweden,https://www.sgu.se,sgu.se,central
+government_agency,Södertörn University,http://www.sh.se,sh.se,central
+government_agency,Swedish Accident Investigation Authority,https://shk.se/,shk.se,central
+government_agency,National Historical Museums of Sweden,http://www.shm.se,shm.se,central
+government_agency,Swedish Institute,https://si.se,si.se,central
+government_agency,Swedish International Development Cooperation Agency,https://www.sida.se,sida.se,central
+government_agency,Swedish International Development Cooperation Agency,https://www.sida.se/en,sida.se,central
+government_agency,The Swedish Institute for European Policy Studies,https://www.sieps.se,sieps.se,central
+government_agency,The Swedish Foreign Intelligence Inspectorate,https://www.siun.se,siun.se,central
+government_agency,Swedish Maritime Administration,http://www.sjofartsverket.se,sjofartsverket.se,
+government_agency,Healthcare region Mid Sweden,https://www.sjukvardsregionmellan.se/,sjukvardsregionmellan.se,
+government_agency,Region Skåne,https://www.skane.se/,skane.se,
+government_agency,Region Skåne,http://www.skane.se,skane.se,
+government_agency,Skaraborg District Court,http://www.skaraborgstingsratt.domstol.se/,skaraborgstingsratt.domstol.se,local
+government_agency,Skatterättsnämnden,https://www.skatterattsnamnden.se,skatterattsnamnden.se,central
+government_agency,Swedish Tax Agency,https://www.skatteverket.se/,skatteverket.se,central
+government_agency,Skellefteå District Court,http://www.skellefteatingsratt.domstol.se/,skellefteatingsratt.domstol.se,local
+government_agency,National Laboratory of Forensic Science,http://www.skl.polisen.se/,skl.polisen.se,
+government_agency,Swedish Forest Agency,http://www.skogsstyrelsen.se,skogsstyrelsen.se,central
+government_agency,Swedish Institute for Educational Research,https://www.skolfi.se,skolfi.se,central
+government_agency,Swedish School Inspectorate,https://www.skolinspektionen.se,skolinspektionen.se,central
+government_agency,National Agency for Education,http://www.skolverket.se/,skolverket.se,central
+university,Swedish University of Agricultural Sciences,https://www.slu.se,slu.se,university
+government_agency,Swedish University of Agricultural Sciences,https://www.slu.se,slu.se,central
+government_agency,National Food Agency,http://www.slv.se,slv.se,central
+government_agency,Swedish Meteorological and Hydrological Institute,http://www.smhi.se,smhi.se,central
+government_agency,National Board of Health and Welfare,https://www.socialstyrelsen.se,socialstyrelsen.se,central
+government_agency,Södertälje District Court,http://www.sodertaljetingsratt.domstol.se/,sodertaljetingsratt.domstol.se,local
+government_agency,Södertörn District Court,http://www.sodertornstingsratt.domstol.se/,sodertornstingsratt.domstol.se,local
+government_agency,Southern Healthcare Region,https://sodrasjukvardsregionen.se/,sodrasjukvardsregionen.se,
+government_agency,Solna District Court,http://www.solnatingsratt.domstol.se/,solnatingsratt.domstol.se,local
+government_agency,Swedish Institute for Language and Folklore,https://www.sprakochfolkminnen.se,sprakochfolkminnen.se,central
+government_agency,The National Agency for Special Needs Education and Schools,https://www.spsm.se,spsm.se,central
+government_agency,National Government Employee Pensions Board,http://www.spv.se,spv.se,central
+government_agency,State Occupational Pensions and Group Life Board,https://www.spv.se,spv.se,central
+government_agency,STAD,https://www.stad.org,stad.org,
+government_agency,Stockholm City Council,https://start.stockholm/om-stockholms-stad/politik-och-demokrati/kommunfullmaktige/,start.stockholm,local
+government_agency,National Board of Institutional Care,https://www.stat-inst.se,stat-inst.se,central
+government_agency,State Accountability Board,http://www.statensansvarsnamnd.se,statensansvarsnamnd.se,central
+government_agency,"Swedish National Maritime, Transport and Military Museums",https://www.statensmuseermtf.se,statensmuseermtf.se,central
+government_agency,National Government Service Centre,http://www.statenssc.se/,statenssc.se,central
+government_agency,The Swedish Agency for Financial and Public Management,https://www.statskontoret.se,statskontoret.se,central
+government_agency,"Embassy of Germany, Stockholm",https://stockholm.diplo.de,stockholm.diplo.de,central
+government_agency,European Parliament Liaison Office in Sweden,https://stockholm.europarl.europa.eu,stockholm.europarl.europa.eu,central
+government_agency,"Embassy of Hungary, Stockholm",https://stockholm.mfa.gov.hu/,stockholm.mfa.gov.hu,central
+government_agency,Firefighting in Stockholm,https://www.storstockholm.brand.se/,storstockholm.brand.se,
+government_agency,Swedish Radiation Safety Authority,http://www.stralsakerhetsmyndigheten.se,stralsakerhetsmyndigheten.se,central
+university,Stockholm University,https://su.se,su.se,university
+government_agency,Stockholm University,https://su.se,su.se,central
+government_agency,"Embassy of Sudan, Stockholm",https://sudanembassy.se/,sudanembassy.se,central
+government_agency,Sundsvall District Court,http://www.sundsvallstingsratt.se/,sundsvallstingsratt.se,local
+government_agency,National Veterinary Institute,http://www.sva.se,sva.se,central
+government_agency,Svea Court of Appeal,http://www.svea.se/,svea.se,
+government_agency,The Swedish FAO Committee,https://www.svenskafaokommitten.se,svenskafaokommitten.se,central
+government_agency,Swedish ILO Committee,https://www.svenskailo-kommitten.se,svenskailo-kommitten.se,central
+government_agency,Embassy of Denmark in Stockholm,https://sverige.um.dk/en,sverige.um.dk,central
+government_agency,Embassy of Denmark in Stockholm,https://sverige.um.dk,sverige.um.dk,central
+government_agency,Swedish Authors’ Fund,https://www.svff.se,svff.se,central
+government_agency,Svenska Kraftnät,https://www.svk.se/,svk.se,
+government_agency,Swedish Board for Accreditation and Conformity Assessment,https://www.swedac.se,swedac.se,central
+government_agency,"Embassy of Armenia, Stockholm",http://www.sweden.mfa.am/,sweden.mfa.am,central
+government_agency,"Embassy of Russia, Stockholm",https://sweden.mid.ru/ru/,sweden.mid.ru,central
+government_agency,"Embassy of The Netherlands, Stockholm",http://sweden.nlembassy.org/,sweden.nlembassy.org,central
+government_agency,European Commission Representation in Sweden,https://sweden.representation.ec.europa.eu/,sweden.representation.ec.europa.eu,
+government_agency,Swedish Geotechnical Institute,http://www.swedgeo.se,swedgeo.se,central
+government_agency,Q10686788,https://sydostrasjukvardsregionen.se/,sydostrasjukvardsregionen.se,
+government_agency,"Embassy of Syria, Stockholm",http://www.syrianembassy.se/,syrianembassy.se,central
+government_agency,"Embassy of Tanzania, Stockholm",https://www.tanemb.se/,tanemb.se,central
+government_agency,Embassy of Thailand in Stockholm,http://thaiembassy.se,thaiembassy.se,central
+government_agency,Swedish Agency for Growth Policy Analysis,http://www.tillvaxtanalys.se/en,tillvaxtanalys.se,central
+government_agency,Swedish Agency for Economic and Regional Growth,http://www.tillvaxtverket.se,tillvaxtverket.se,central
+government_agency,Dental and Pharmaceutical Benefits Agency,https://www.tlv.se,tlv.se,central
+government_agency,Dental and Pharmaceutical Benefits Agency,https://www.tlv.se/in-english.html,tlv.se,central
+government_agency,Q67217073,https://www.toll.no/en/about-norwegian-customs/contact-us/customs-offices/all-customs-offices/bjornfjell-customs-office-e10/,toll.no,
+government_agency,Transport Analysis,https://www.trafa.se/etiketter/statistik/,trafa.se,central
+government_agency,Transport Analysis,https://www.trafa.se,trafa.se,central
+government_agency,Swedish Transport Administration,https://www.trafikverket.se,trafikverket.se,central
+government_agency,Swedish Transport Agency,http://www.transportstyrelsen.se,transportstyrelsen.se,central
+government_agency,Dalarö custom house,http://tullhuset.org/,tullhuset.org,
+government_agency,Swedish Customs,http://www.tullverket.se/,tullverket.se,central
+government_agency,Swedish Payments Agency,https://ubm.se/,ubm.se,
+government_agency,Uddevalla district court,http://www.uddevallatingsratt.domstol.se/,uddevallatingsratt.domstol.se,local
+government_agency,Swedish Council for Higher Education,https://www.uhr.se,uhr.se,central
+government_agency,Swedish Higher Education Authority,https://www.uka.se,uka.se,central
+government_agency,Umeå District Court,http://www.umeatingsratt.domstol.se/,umeatingsratt.domstol.se,local
+university,Umeå University,https://www.umu.se/en/,umu.se,university
+university,Umeå University,https://www.umu.se,umu.se,university
+government_agency,Umeå University,https://www.umu.se,umu.se,central
+government_agency,Umeå University,https://www.umu.se/en/,umu.se,central
+government_agency,Swedish National Commission for UNESCO,https://unesco.se/,unesco.se,
+government_agency,Stockholm University of the Arts,https://www.uniarts.se/,uniarts.se,central
+government_agency,The National Agency for Public Procurement,https://www.upphandlingsmyndigheten.se,upphandlingsmyndigheten.se,central
+government_agency,Uppsala District Court,http://www.uppsalatingsratt.domstol.se/,uppsalatingsratt.domstol.se,local
+university,Uppsala University,https://www.uu.se,uu.se,university
+government_agency,Uppsala University,https://www.uu.se,uu.se,central
+government_agency,Swedish Election Authority,https://www.val.se,val.se,central
+government_agency,Vänersborg District Court,http://www.vanersborgstingsratt.domstol.se/,vanersborgstingsratt.domstol.se,local
+government_agency,Q80207119,https://www.varberg.se/kommunpolitik/kommunensorganisation/lokalasakerhetsnamnden.4.12d3b98d13f7ba71e5a1edb.html,varberg.se,central
+government_agency,Varberg District Court,http://www.varbergstingsratt.domstol.se/,varbergstingsratt.domstol.se,local
+government_agency,Swedish Agency for Health and Care Services Analysis,https://www.vardanalys.se,vardanalys.se,central
+government_agency,The National Museums of World Culture,https://www.varldskulturmuseerna.se,varldskulturmuseerna.se,central
+government_agency,Värmland District Court,http://www.varmlandstingsratt.domstol.se/,varmlandstingsratt.domstol.se,local
+government_agency,Västmanland District Court,http://www.vastmanlandstingsratt.domstol.se/,vastmanlandstingsratt.domstol.se,local
+government_agency,Court of Appeal for Western Sweden,http://www.vastrahovratten.domstol.se/,vastrahovratten.domstol.se,
+government_agency,West Sweden Chamber of Commerce,https://www.vastsvenskahandelskammaren.se/,vastsvenskahandelskammaren.se,
+government_agency,VA SYD,http://www.vasyd.se/,vasyd.se,
+government_agency,Water District Authorities,http://www.vattenmyndigheterna.se/,vattenmyndigheterna.se,
+government_agency,Växjö District Court,http://www.vaxjotingsratt.domstol.se/,vaxjotingsratt.domstol.se,local
+government_agency,Q10413037,https://www.vetansvar.se,vetansvar.se,central
+government_agency,Q10718442,https://www.vgregion.se/politik/politisk-organisation/namnder-och-styrelser-for-halso--och-sjukvard/samverkansnamnden/,vgregion.se,
+government_agency,Region Västra Götaland,https://www.vgregion.se/en/,vgregion.se,
+government_agency,Region Västra Götaland,https://www.vgregion.se/fit/,vgregion.se,
+government_agency,Region Västra Götaland,https://www.vgregion.se/rom/,vgregion.se,
+government_agency,Region Västra Götaland,https://www.vgregion.se/fi/,vgregion.se,
+government_agency,Region Västra Götaland,https://www.vgregion.se/,vgregion.se,
+government_agency,Region Västra Götaland,https://www.vgregion.se/yi/,vgregion.se,
+government_agency,Region Västra Götaland,https://www.vgregion.se/se/,vgregion.se,
+government_agency,Swedish Governmental Agency for Innovation Systems,http://www.vinnova.se/,vinnova.se,central
+government_agency,Q27573476,http://www.visitumeacity.se/en,visitumeacity.se,
+government_agency,Swedish Research Council,https://www.vr.se/,vr.se,central
+government_agency,Swedish Research Council,https://www.vr.se/english.html,vr.se,central
+government_agency,Swedish National Road and Transport Research Institute,https://www.vti.se/,vti.se,central
+government_agency,Swedish National Road and Transport Research Institute,https://www.vti.se/en,vti.se,central
+university,World Maritime University,http://www.wmu.se/,wmu.se,university
+government_agency,Swedish Institute of Space Physics,https://www2.irf.se/,www2.irf.se,central
+government_agency,Ystad District Court,http://www.ystadstingsratt.domstol.se/,ystadstingsratt.domstol.se,local
+government_agency,"Embassy of Zambia, Stockholm",https://zambiaembassy.se/,zambiaembassy.se,central

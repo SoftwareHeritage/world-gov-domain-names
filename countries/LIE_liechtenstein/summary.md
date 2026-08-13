@@ -6,7 +6,7 @@
 - Region: Europe / Western Europe
 - Languages: German
 - Population: 40900
-- GDP per capita: 206781 US$ (2023)
+- GDP per capita: 220167 US$ (2024)
 - Currencies: CHF
 - ccTLD: `.li` (manager: SWITCH The Swiss Education &amp; Research Network)
 - OECD: non-member
@@ -30,13 +30,19 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `landtag.li` | wikidata;wikidata | Landtag of Liechtenstein |
+| 7 | `fma-li.li` | wikidata;wikidata | Financial Market Authority |
+| 6 | `stgh.li` | wikidata | Constitutional Court of the Principality of Liechtenstein |
+| 4 | `aku.llv.li` | wikidata | Liechtensteinisches Landesarchiv |
+| 4 | `as.llv.li` | wikidata | Office of Statistics |
+| 4 | `datenschutzkommission.li` | wikidata | Q55506652 |
+| 4 | `dss.llv.li` | wikidata | Data Protection Office |
+| 4 | `landesbibliothek.li` | wikidata | Liechtenstein State Library |
+| 4 | `landespolizei.li` | wikidata | Liechtenstein National Police Force |
+| 4 | `llv.li` | wikidata | Schulamt Fürstentum Liechtenstein |
+| 2 | `landtag.li` | wikidata;wikidata | Landtag of Liechtenstein |
 

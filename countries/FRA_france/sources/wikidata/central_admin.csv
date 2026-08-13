@@ -1,100 +1,833 @@
 type,label,website,hostname,level
+government_agency,Service of the National Education of Saint Pierre and Miquelon,http://www.ac-spm.fr/,ac-spm.fr,central-1
+government_agency,Académie Française,https://www.academie-francaise.fr/,academie-francaise.fr,
+government_agency,Marquesan Academy,http://www.academiemarquisienne.com,academiemarquisienne.com,
+government_agency,Q48755315,https://www.accueil.ccsp.fr,accueil.ccsp.fr,
+government_agency,French Prudential Supervisory Authority,https://acpr.banque-france.fr/,acpr.banque-france.fr,
+government_agency,Agency for French Education Abroad,https://www.aefe.gouv.fr,aefe.gouv.fr,
+government_agency,"Embassy of South Africa, Paris",https://www.afriquesud.net,afriquesud.net,central
+government_agency,Q54828841,http://www.ag50pas-guadeloupe.fr/,ag50pas-guadeloupe.fr,
+government_agency,Agence de l'eau Loire-Bretagne,https://agence.eau-loire-bretagne.fr/,agence.eau-loire-bretagne.fr,
+government_agency,Q138745523,https://agence.erasmusplus.fr/,agence.erasmusplus.fr,
+government_agency,Q55385475,https://www.agencedpc.fr/,agencedpc.fr,
+government_agency,Agence générale des équipements et produits de santé,http://ageps.aphp.fr,ageps.aphp.fr,
+government_agency,Ministry of Agriculture and Food,https://agriculture.gouv.fr,agriculture.gouv.fr,
 ministry,Ministry of Agriculture and Food,https://agriculture.gouv.fr,agriculture.gouv.fr,
+government_agency,Q117408151,https://www.aixenprovence.fr/Direction-Archeologie,aixenprovence.fr,
+government_agency,Département Alimentation Humaine,http://www.alimh.inra.fr/,alimh.inra.fr,
+government_agency,"Embassy of Germany, Paris",https://allemagneenfrance.diplo.de/,allemagneenfrance.diplo.de,local
+government_agency,"CNRS, Délégation Alpes",http://www.alpes.cnrs.fr/?,alpes.cnrs.fr,
+government_agency,CNRS Délégation Alsace,http://www.alsace.cnrs.fr/webdel/actus.del,alsace.cnrs.fr,
+government_agency,"Embassy of Afghanistan, Paris",https://www.amb-afg.fr/,amb-afg.fr,central
+government_agency,"Embassy of Algeria, Paris",https://amb-algerie.fr/,amb-algerie.fr,central
+government_agency,Embassy of Kazakhstan in France,http://www.amb-kazakhstan.fr/,amb-kazakhstan.fr,local
+government_agency,Embassy of Gabon in France,https://amba-france.ga,amba-france.ga,local
+government_agency,Embassy of Cameroun in France,http://www.ambacamparis.org/,ambacamparis.org,central
+government_agency,"Embassy of Guinea-Bissau, Paris",https://ambaguineebxo.com,ambaguineebxo.com,local
+government_agency,Embassy of Laos in France,https://www.ambalaos-france.com/home/,ambalaos-france.com,central
+government_agency,"Embassy of Madagascar, Paris",https://ambamad-paris.diplomatie.gov.mg/,ambamad-paris.diplomatie.gov.mg,central
+government_agency,Embassy of Central African Republic in Paris,https://ambarca-paris.org,ambarca-paris.org,local
+government_agency,Embassy of Democratic Republic of the Congo in Paris,https://www.ambardcparis.com/,ambardcparis.com,central
+government_agency,"Embassy of Mauritania, Paris",https://ambarimparis.fr/,ambarimparis.fr,central
+government_agency,"Embassy of Albania, Paris",https://ambasadat.gov.al/france/,ambasadat.gov.al,central
+government_agency,"Embassy of Kosovo, Paris",https://ambasadat.net/France/,ambasadat.net,central
+government_agency,"Embassy of Angola, Paris",https://www.ambassade-angola.org/,ambassade-angola.org,local
+government_agency,"Embassy of Comoros, Paris",http://www.ambassade-comores.com,ambassade-comores.com,central
+government_agency,Embassy of Burundi in France,https://www.ambassade-du-burundi.fr/,ambassade-du-burundi.fr,central
+government_agency,Embassy of Sudan in France,https://ambassade-du-soudan.fr,ambassade-du-soudan.fr,central
+government_agency,"Embassy of Monaco, Paris",https://ambassade-en-france.gouv.mc/,ambassade-en-france.gouv.mc,central
+government_agency,Embassy of Ethiopia in France,https://www.ambassade-ethiopie.fr/,ambassade-ethiopie.fr,local
+government_agency,"Embassy of Vietnam, Paris",https://ambassade-vietnam.com/,ambassade-vietnam.com,central
+government_agency,"Embassy of Mozambique, Paris",https://ambassademozambiquefrance.fr/,ambassademozambiquefrance.fr,local
+government_agency,embassy of Niger in France,https://www.ambassadeniger-fr.org/,ambassadeniger-fr.org,local
+government_agency,"Embassy of Syria, Paris",https://ambassadesyrie.fr/,ambassadesyrie.fr,central
+government_agency,"Embassy of Senegal, Paris",http://www.ambasseneparis.com,ambasseneparis.com,central
+government_agency,Embassy of Bulgaria in France,https://www.ambbulgarie.fr/,ambbulgarie.fr,local
+government_agency,"Embassy of Cambodia, Paris",https://www.ambcambodgeparis.info/,ambcambodgeparis.info,local
+government_agency,"Embassy of Honduras, Paris",https://www.ambhonduras.fr/,ambhonduras.fr,local
+government_agency,embassy of Italy in France,https://ambparigi.esteri.it,ambparigi.esteri.it,
+government_agency,Embassy of Chad in France,https://www.ambtchad-paris.org/,ambtchad-paris.org,central
+government_agency,health insurance in France,https://www.ameli.fr,ameli.fr,
+government_agency,Autorité des marchés financiers,https://www.amf-france.org/,amf-france.org,
+government_agency,Q55475503,https://amiens.tribunal-administratif.fr,amiens.tribunal-administratif.fr,local
+government_agency,Ancienne Douane,http://www.anciennedouane.fr,anciennedouane.fr,
+government_agency,Centre Angers-Nantes Pays de la Loire,http://www.angers-nantes.inra.fr/,angers-nantes.inra.fr,
+government_agency,Unité sous contrat Caractérisation et suivi des phénomènes d'évolution des résistances,https://www.anses.fr/fr/content/USC-CASPER-du-laboratoire-de-Lyon,anses.fr,
+government_agency,"Délégation Aquitaine, Poitou-Charentes",http://www.aquitaine-poitou-charentes.inserm.fr/,aquitaine-poitou-charentes.inserm.fr,
 parliament,Aquitaine Regional Council,http://www.aquitaine.fr/,aquitaine.fr,local
+government_agency,National archives of the world of work,https://archives-nationales-travail.culture.gouv.fr,archives-nationales-travail.culture.gouv.fr,
+government_agency,Archives nationales,https://www.archives-nationales.culture.gouv.fr/,archives-nationales.culture.gouv.fr,
+government_agency,Archives nationales,http://www.archivesnationales.culture.gouv.fr/,archivesnationales.culture.gouv.fr,
+government_agency,Regulatory Authority for Audiovisual and Digital Communication,https://www.arcom.fr/,arcom.fr,
+government_agency,Agence régionale de l'environnement et des nouvelles énergies,https://www.arec-idf.fr/,arec-idf.fr,
+government_agency,Agence Régionale d'évaluation Environnement et Climat,http://www.arecpc.com/,arecpc.com,
 parliament,departmental council of Ariège,http://www.ariege.fr/,ariege.fr,
 parliament,Assembly of French Citizens Abroad,https://www.assemblee-afe.fr/,assemblee-afe.fr,
 parliament,National Assembly,https://www.assemblee-nationale.fr/,assemblee-nationale.fr,central
 parliament,Franco-German Parliamentary Assembly,https://www.assemblee-nationale.fr/dyn/16/organes/europe-international/apfa,assemblee-nationale.fr,
 supreme_court,Franco-German Parliamentary Assembly,https://www.assemblee-nationale.fr/dyn/16/organes/europe-international/apfa,assemblee-nationale.fr,
+government_agency,National Assembly,https://www.assemblee-nationale.fr/,assemblee-nationale.fr,central
+government_agency,Consulate-General of Australia in Nouméa,http://www.australianconsulatenoumea.embassy.gov.au/nmeafrench/home.html,australianconsulatenoumea.embassy.gov.au,
+government_agency,Autorité de la concurrence de la Nouvelle-Calédonie,https://autorite-concurrence.nc/,autorite-concurrence.nc,
+government_agency,French National Alliance for Life Sciences and Health,http://www.aviesan.fr/en,aviesan.fr,
+government_agency,Bank of France,http://www.banque-france.fr/,banque-france.fr,
+government_agency,Département Biologie et amélioration des plantes,http://www.bap.inra.fr/,bap.inra.fr,
 parliament,departmental council of Bas-Rhin,https://www.bas-rhin.fr/,bas-rhin.fr,
+government_agency,Bretagne Développement Innovation,http://www.bdi.fr/serving-the-regional-economy,bdi.fr,
+government_agency,Bureau d'Enquêtes sur les Événements de Mer,http://www.bea-mer.developpement-durable.gouv.fr/,bea-mer.developpement-durable.gouv.fr,
+government_agency,Bureau of Enquiry and Analysis for Civil Aviation Safety,https://www.bea.aero/,bea.aero,
+government_agency,Embassy of Benin in France,https://www.benin-ambassade.fr/,benin-ambassade.fr,central
+government_agency,Embassy of Austria in Paris,https://www.bmeia.gv.at/fr/ambassade-dautriche-a-paris/,bmeia.gv.at,local
+government_agency,"Consulate General of Austria, Strasbourg",http://www.bmeia.gv.at/fr/ambassade/paris/conseils-pratiques/representations-consulaires-de-lautriche/konsulate-mit-passbefugnis/consulat-general-dautriche-a-strasbourg.html,bmeia.gv.at,
+government_agency,Bibliothèque nationale de France,https://www.bnf.fr/en,bnf.fr,
+government_agency,Bibliothèque nationale de France,https://www.bnf.fr/,bnf.fr,
+government_agency,Bibliothèque nationale et universitaire de Strasbourg,http://www.bnu.fr,bnu.fr,
+government_agency,Q3000914,http://bordeaux.cour-administrative-appel.fr/,bordeaux.cour-administrative-appel.fr,
+government_agency,"Consulate General of Germany, Bordeaux",http://bordeaux.diplo.de,bordeaux.diplo.de,
+government_agency,"Consulate General of Portugal, in Bordeaux",https://www.bordeus.consuladoportugal.mne.pt/pt/,bordeus.consuladoportugal.mne.pt,
+government_agency,"Consulate General of Turkey, Bordeaux",https://bordo-bk.mfa.gov.tr,bordo-bk.mfa.gov.tr,
 parliament,Regional Council of Burgundy,https://www.bourgogne-franche-comte.eu/,bourgogne-franche-comte.eu,local
+government_agency,Chambre de commerce et d'industrie de région Bourgogne-Franche-Comté,https://www.bourgognefranchecomte.cci.fr,bourgognefranchecomte.cci.fr,
 parliament,Regional council of Bourgogne-Franche-Comté,https://www.bourgognefranchecomte.fr/,bourgognefranchecomte.fr,central-1
 parliament,Regional Council of Brittany,http://www.bretagne.bzh/,bretagne.bzh,central-1
+government_agency,Ofis publik ar brezhoneg,https://www.brezhoneg.bzh,brezhoneg.bzh,
+government_agency,BRGM Pays de la Loire,https://www.brgm.fr/fr/implantation-regionale/pays-loire,brgm.fr,
+government_agency,BRGM Grand Est - Reims,https://www.brgm.fr/fr/implantation-regionale/grand-est,brgm.fr,
+government_agency,BRGM Auvergne-Rhone-Alpes - Clermont-Ferrand,https://www.brgm.fr/fr/implantation-regionale/auvergne-rhone-alpes,brgm.fr,
+government_agency,BRGM Grand Est - Nancy,https://www.brgm.fr/fr/implantation-regionale/grand-est,brgm.fr,
+government_agency,BRGM Paris region,https://www.brgm.fr/en/regional-agency/paris-region,brgm.fr,
+government_agency,BRGM Occitanie - Montpellier,https://www.brgm.fr/fr/implantation-regionale/occitanie,brgm.fr,
+government_agency,BRGM Mayotte,https://www.brgm.fr/fr/implantation-regionale/mayotte,brgm.fr,
+government_agency,BRGM Corsica,https://www.brgm.fr/en/regional-agency/corsica,brgm.fr,
+government_agency,BRGM Hauts-de-France,https://www.brgm.fr/fr/implantation-regionale/hauts-france,brgm.fr,
+government_agency,BRGM Nouvelle-Aquitaine - Poitiers,https://www.brgm.fr/fr/implantation-regionale/nouvelle-aquitaine,brgm.fr,
+government_agency,BRGM Bourgogne Franche- Comte,https://www.brgm.fr/fr/implantation-regionale/bourgogne-franche-comte,brgm.fr,
+government_agency,BRGM Nouvelle-Aquitaine - Bordeaux,https://www.brgm.fr/fr/implantation-regionale/nouvelle-aquitaine,brgm.fr,
+government_agency,BRGM Brittany,https://www.brgm.fr/en/regional-agency/brittany,brgm.fr,
+government_agency,BRGM Provence-Alpes-Cote d’Azur,https://www.brgm.fr/fr/implantation-regionale/provence-alpes-cote-azur,brgm.fr,
+government_agency,BRGM Normandy,https://www.brgm.fr/fr/implantation-regionale/normandie,brgm.fr,
+government_agency,BRGM Auvergne-Rhone-Alpes - Lyon,https://www.brgm.fr/fr/implantation-regionale/auvergne-rhone-alpes,brgm.fr,
+government_agency,BRGM Grand Est - Strasbourg,https://www.brgm.fr/fr/implantation-regionale/grand-est,brgm.fr,
+government_agency,BRGM Occitanie - Toulouse,https://www.brgm.fr/fr/implantation-regionale/occitanie,brgm.fr,
 ministry,"Ministry of Budget, Public Accounts and Civil Administration",https://www.budget.gouv.fr/,budget.gouv.fr,
+government_agency,"Ministry of Budget, Public Accounts and Civil Administration",https://www.budget.gouv.fr/,budget.gouv.fr,
 parliament,Franco-German Parliamentary Assembly,https://www.bundestag.de/dfpv,bundestag.de,
 supreme_court,Franco-German Parliamentary Assembly,https://www.bundestag.de/dfpv,bundestag.de,
+government_agency,TUB Meuse Grand Sud,http://www.bus-tub.com/,bus-tub.com,
+government_agency,Caisse d'allocations familiales,https://www.caf.fr,caf.fr,
+government_agency,"Consulate-General of Brazil, Cayenne",http://caiena.itamaraty.gov.br/pt-br,caiena.itamaraty.gov.br,
+government_agency,Q117407697,https://www.calvados.fr/culture/archeologie,calvados.fr,
+government_agency,CAVIMAC,https://www.cavimac.fr,cavimac.fr,
+government_agency,Court of Audit,https://www.ccomptes.fr/,ccomptes.fr,central
+government_agency,Swedish Chamber of Commerce in France,https://www.ccsf.fr/,ccsf.fr,
+government_agency,Institut d'Imagerie Biomédicale,http://www.cea.fr/drf/i2bm,cea.fr,
+government_agency,Plateformes régionales de transferts technologiques,https://www.cea.fr/cea-tech,cea.fr,
+government_agency,CEA Paris-Saclay,https://www.cea.fr/paris-saclay,cea.fr,
+government_agency,Direction des Sciences du Vivant du CEA,http://www.cea.fr/drf/,cea.fr,
+government_agency,Direction de la recherche fondamentale,https://www.cea.fr/drf,cea.fr,
+government_agency,Direction des énergies,http://www.cea.fr/Pages/le-cea/la-direction-de-l-energie-nucleaire.aspx,cea.fr,
+government_agency,Délégation Centre Limousin Poitou-Charentes,http://www.centre-poitou-charentes.cnrs.fr/,centre-poitou-charentes.cnrs.fr,
+government_agency,"Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement",https://www.cerema.fr/,cerema.fr,
+government_agency,Computer Emergency Response Team,http://www.cert-ist.com/public/en/,cert-ist.com,
 parliament,general council of Pyrénées-Atlantiques,http://www.cg64.fr,cg64.fr,
 parliament,general council of Seine-Saint-Denis,http://www.cg93.fr,cg93.fr,
 parliament,departmental council of Guadeloupe,https://www.cg971.fr/,cg971.fr,
+government_agency,"Consulate-General of Brazil, Paris",http://www.cgbresil.org,cgbresil.org,
+government_agency,"Consulate General of India, Saint-Denis",http://www.cgireunion.com,cgireunion.com,
+government_agency,"Consulate General of Tunisia, Nice",http://www.cgt-nice.diplomatie.gov.tn/,cgt-nice.diplomatie.gov.tn,
+government_agency,"Embassy of Chile, Paris",https://chile.gob.cl/francia,chile.gob.cl,local
+government_agency,International Centre for Advanced Mediterranean Agronomic Studies,http://ciheam.org/,ciheam.org,
+government_agency,French Agricultural Research Centre for International Development,http://www.cirad.fr/,cirad.fr,
+government_agency,Fédération Nationale des Centres d'Initiatives pour Valoriser l’Agriculture et le Milieu Rural,http://www.civam.org/,civam.org,
+government_agency,Commission for the restitution of property and compensation for victims of anti-semitic spoliations,http://www.civs.gouv.fr,civs.gouv.fr,
+government_agency,Commission nationale consultative des droits de l'homme,http://www.cncdh.fr/,cncdh.fr,
+government_agency,National court for asylum right,http://www.cnda.fr,cnda.fr,
+government_agency,CNES,https://cnes.fr/,cnes.fr,
+government_agency,CNES,https://cnes.fr/en,cnes.fr,
+government_agency,National Commission on Informatics and Liberty,https://www.cnil.fr/,cnil.fr,central
+government_agency,Q2945937,https://cnrgv.toulouse.inra.fr/,cnrgv.toulouse.inra.fr,
+government_agency,Q2945937,https://cnrgv.toulouse.inrae.fr/en,cnrgv.toulouse.inrae.fr,
+government_agency,Q2945937,https://cnrgv.toulouse.inrae.fr/fr,cnrgv.toulouse.inrae.fr,
+government_agency,CNRS Délégation Aquitaine,http://www.cnrs.fr/aquitaine/,cnrs.fr,
+government_agency,Délégation Centre-Est,http://www.cnrs.fr/centre-est/,cnrs.fr,
+government_agency,Délégation Languedoc Roussillon,http://www.cnrs.fr/languedoc-roussillon/index.htm,cnrs.fr,
+government_agency,Institut de chimie,http://www.cnrs.fr/inc/,cnrs.fr,
+government_agency,Direction Générale Déléguée à la Science,http://www.cnrs.fr/dgds/,cnrs.fr,
+government_agency,Délégation Midi Pyrénées,http://www.cnrs.fr/midi-pyrenees/,cnrs.fr,
+government_agency,National Center for Scientific Research,https://www.cnrs.fr/,cnrs.fr,
 ministry,Ministry of Cohesion of the Territories,https://www.cohesion-territoires.gouv.fr/,cohesion-territoires.gouv.fr,
+government_agency,Ministry of Cohesion of the Territories,https://www.cohesion-territoires.gouv.fr/,cohesion-territoires.gouv.fr,
+government_agency,Q134570315,https://www.commission-malraux.fr,commission-malraux.fr,
+government_agency,Constitutional Council of France,http://www.conseil-constitutionnel.fr/,conseil-constitutionnel.fr,central
+government_agency,Conseil d'État,http://www.conseil-etat.fr,conseil-etat.fr,central
+government_agency,interior section of the French Conseil d'État,http://www.conseil-etat.fr/Conseil-d-Etat/Missions/Conseiller/Les-sections-consultatives/La-section-de-l-interieur,conseil-etat.fr,
 constitutional_court,Conseil d'État,http://www.conseil-etat.fr,conseil-etat.fr,central
+government_agency,Permanent Mission of France to the Council of Europe,https://conseil-europe.delegfrance.org/,conseil-europe.delegfrance.org,
+government_agency,Conseil supérieur de la magistrature,http://www.conseil-superieur-magistrature.fr/,conseil-superieur-magistrature.fr,
+government_agency,"italian Consulate, Lyon",http://www.conslione.esteri.it/Consolato_Lione,conslione.esteri.it,
+government_agency,Q2995347,http://www.consmadrun.com,consmadrun.com,
+government_agency,Consulate-General of Italy in Marseille,http://www.consmarsiglia.esteri.it/Consolato_Marsiglia,consmarsiglia.esteri.it,
+government_agency,"Consulate General of Italy, Metz",https://consmetz.esteri.it/,consmetz.esteri.it,
+government_agency,"Consulate General of Italy, Nice",http://www.consnizza.esteri.it/Consolato_Nizza,consnizza.esteri.it,
+government_agency,Consulate-General of Italy in Paris,http://www.consparigi.esteri.it/Consolato_Parigi,consparigi.esteri.it,
+government_agency,Consulate general of Portugal in Paris,http://www.consuladoportugalparis.com,consuladoportugalparis.com,
+government_agency,Q16543720,http://www.consuladordmarsella.com,consuladordmarsella.com,
+government_agency,"Consulate of Algeria, Besançon",http://consulat-besancon-algerie.fr/,consulat-besancon-algerie.fr,central
+government_agency,"Consulate of Algeria, Bordeaux",https://consulat-bordeaux-algerie.fr/,consulat-bordeaux-algerie.fr,
+government_agency,Consulate general of Tunisia in Paris,https://www.consulat-general-tunisie-paris.com/,consulat-general-tunisie-paris.com,
+government_agency,Consulate General of Mali in Lyon,https://consulat-mali-lyon.fr/,consulat-mali-lyon.fr,
+government_agency,Consulate of Algeria in Metz,http://www.consulat-metz-algerie.fr/,consulat-metz-algerie.fr,
+government_agency,"Consulate General of Algeria, Strasbourg",https://consulat-strasbourg-algerie.fr/,consulat-strasbourg-algerie.fr,
+government_agency,"consulate general of Indonesia, Marseille",http://consulat.indonesie.pagesperso-orange.fr,consulat.indonesie.pagesperso-orange.fr,
+government_agency,"Algerian general consulate, Lyon",http://www.consulatalgerie-lyon.org,consulatalgerie-lyon.org,
+government_agency,"Algerian General Consulate, Paris",http://www.consulatalgerie-paris.org,consulatalgerie-paris.org,
+government_agency,"Consulate General of Algeria, Lille",http://www.consulatalgerielille.org,consulatalgerielille.org,
+government_agency,"Consulate General of China, Strasbourg",http://www.consulatchine-strasbourg.org/fra,consulatchine-strasbourg.org,central-1
+government_agency,Consulate General of Colombia in Paris,http://www.consulatcolombie.com,consulatcolombie.com,
+government_agency,Consulate general of Mali in France,http://www.consulatdumalienfrance.fr/,consulatdumalienfrance.fr,
+government_agency,"General Consulate of Morocco, Lyon",https://www.consulatmaroclyon.com/,consulatmaroclyon.com,
+government_agency,"General Consulate of Morocco, Strasbourg",https://www.consulatmarocstrasbourg.fr,consulatmarocstrasbourg.fr,
+government_agency,Q16507624,http://www.consulmada-marseille.com,consulmada-marseille.com,
+government_agency,Consulate general of Senegal in Paris,http://www.consulsen-paris.fr,consulsen-paris.fr,
+government_agency,Q16507655,http://www.consulsenbordeaux.com/,consulsenbordeaux.com,
 parliament,departmental council of Corrèze,https://www.correze.fr/,correze.fr,
 constitutional_court,Executive Council of Corsica,http://www.corse.fr,corse.fr,central-1
+government_agency,Executive Council of Corsica,http://www.corse.fr,corse.fr,central-1
+government_agency,CNRS Délégation Côte d'Azur,http://www.cote-azur.cnrs.fr,cote-azur.cnrs.fr,
+government_agency,chambre de commerce et d'industrie de Dijon,https://www.cotedor.cci.fr/,cotedor.cci.fr,local
+government_agency,Court of Cassation,http://www.courdecassation.fr/,courdecassation.fr,central
+government_agency,Tribunal judiciaire de Toulouse,https://www.cours-appel.justice.fr/toulouse/palais-de-justice-de-toulouse,cours-appel.justice.fr,
+government_agency,Tribunal judiciaire de Rennes,https://www.cours-appel.justice.fr/rennes/tribunal-judiciaire-de-rennes,cours-appel.justice.fr,
+government_agency,tribunal judiciaire de Nîmes,https://www.cours-appel.justice.fr/nimes/les-tribunaux-de-nimes,cours-appel.justice.fr,
+government_agency,Dijon Judicial Court,https://www.cours-appel.justice.fr/dijon/tribunal-judiciaire-de-dijon,cours-appel.justice.fr,
+government_agency,Q84319097,https://www.cours-appel.justice.fr/colmar/tribunal-judiciaire-de-mulhouse,cours-appel.justice.fr,
+government_agency,Atlantic Arc Commission,http://cpmr-atlantic.org/,cpmr-atlantic.org,
+government_agency,Community Plant Variety Office,https://cpvo.europa.eu/,cpvo.europa.eu,local
 supreme_court,Assembly of French Guiana,https://www.ctguyane.fr/,ctguyane.fr,
 parliament,Assembly of French Guiana,https://www.ctguyane.fr/,ctguyane.fr,
+government_agency,Ministry of Culture of France,https://www.culture.gouv.fr/,culture.gouv.fr,central
+government_agency,Bretagne. Service régional de l'archéologie,https://www.culture.gouv.fr/Regions/DRAC-Bretagne/Ressources-documentaires/Centre-de-documentation-archeologique,culture.gouv.fr,
+government_agency,Nouvelle-Aquitaine. Service régional de l'archéologie,https://www.culture.gouv.fr/Regions/DRAC-Nouvelle-Aquitaine/Patrimoines-Architecture/Archeologie,culture.gouv.fr,
+government_agency,General inventory of cultural heritage,https://www.culture.gouv.fr/thematiques/inventaire-general-du-patrimoine-culturel/l-inventaire-general-en-france,culture.gouv.fr,
+government_agency,Musées Nationaux Récupération,http://www.culture.gouv.fr/documentation/mnr/MnR-accueil.htm,culture.gouv.fr,
+government_agency,Provence-Alpes-Côte d'Azur. Service régional de l'archéologie,https://www.culture.gouv.fr/Regions/Drac-Provence-Alpes-Cote-d-Azur/La-Direction-regionale/La-direction-et-ses-services/Service-regional-de-l-archeologie,culture.gouv.fr,
+government_agency,Normandie. Service régional de l'archéologie,https://www.culture.gouv.fr/Regions/DRAC-Normandie/Les-poles/Le-pole-patrimoines-et-architecture/Le-service-regional-de-l-archeologie2,culture.gouv.fr,
+government_agency,Hauts-de-France. Service régional de l'archéologie,https://www.culture.gouv.fr/Regions/DRAC-Hauts-de-France/Politique-et-actions-des-services/Pole-patrimoines-et-architecture/Service-regional-de-l-archeologie-SRA-des-Hauts-de-France,culture.gouv.fr,
+government_agency,Centre-Val de Loire. Service régional de l'archéologie,https://www.culture.gouv.fr/Regions/Drac-Centre-Val-de-Loire/La-DRAC-et-la-culture-en-region/La-DRAC-et-ses-services/Service-regional-de-l-Archeologie-SRA,culture.gouv.fr,
 ministry,Ministry of Culture of France,https://www.culture.gouv.fr/,culture.gouv.fr,
+government_agency,Cybermalveillance,https://www.cybermalveillance.gouv.fr/,cybermalveillance.gouv.fr,
+government_agency,French Archeological Delegation to Afghanistan,https://www.dafa-afgh.org/,dafa-afgh.org,
 constitutional_court,Q55469706,https://www.defense.gouv.fr/dgris,defense.gouv.fr,
+government_agency,Ministry of the Armed Forces,https://www.defense.gouv.fr,defense.gouv.fr,central
+government_agency,Q55469706,https://www.defense.gouv.fr/dgris,defense.gouv.fr,
+government_agency,Direction du renseignement militaire,https://www.defense.gouv.fr/drm,defense.gouv.fr,
+government_agency,DPSD,https://www.defense.gouv.fr/drsd,defense.gouv.fr,local
+government_agency,État-major des armées,https://www.defense.gouv.fr/ema,defense.gouv.fr,
+government_agency,National Gendarmerie,http://www.defense.gouv.fr/gendarmerie,defense.gouv.fr,central
+government_agency,Directorate-General for External Security,http://www.defense.gouv.fr/dgse,defense.gouv.fr,central
 ministry,Ministry of the Armed Forces,https://www.defense.gouv.fr,defense.gouv.fr,
+government_agency,Direction générale de l'Armement,http://www.defense.gouv.fr/dga,defense.gouv.fr,
+government_agency,Service Industriel de l’Aéronautique,http://www.defense.gouv.fr/air,defense.gouv.fr,
+government_agency,Direction Générale Déléguée aux Ressources,http://www.dgdr.cnrs.fr,dgdr.cnrs.fr,
 ministry,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr,diplomatie.gouv.fr,
+government_agency,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/en/,diplomatie.gouv.fr,central
 ministry,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/ar/,diplomatie.gouv.fr,
+government_agency,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/ru/,diplomatie.gouv.fr,central
+government_agency,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/de/,diplomatie.gouv.fr,central
 ministry,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/de/,diplomatie.gouv.fr,
+government_agency,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/es/,diplomatie.gouv.fr,central
 ministry,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/ru/,diplomatie.gouv.fr,
+government_agency,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/ar/,diplomatie.gouv.fr,central
+government_agency,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr,diplomatie.gouv.fr,central
 ministry,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/en/,diplomatie.gouv.fr,
 ministry,Ministry for Europe and Foreign Affairs,https://www.diplomatie.gouv.fr/es/,diplomatie.gouv.fr,
+government_agency,Q3000915,http://douai.cour-administrative-appel.fr/,douai.cour-administrative-appel.fr,
+government_agency,Délégation Bretagne et Pays de la Loire,http://www.dr17.cnrs.fr/,dr17.cnrs.fr,
+government_agency,"Délégation Nord, Pas-de-Calais et Picardie",http://www.dr18.cnrs.fr/,dr18.cnrs.fr,
+government_agency,Délégation Normandie,http://www.dr19.cnrs.fr/,dr19.cnrs.fr,
+government_agency,Délégation Rhône Auvergne,http://www.dr7.cnrs.fr/,dr7.cnrs.fr,
+government_agency,Mission Interministérielle de Lutte contre les Drogues Et les Conduites Addictives,http://www.drogues.gouv.fr/la-mildeca/qui-sommes-nous/la-mission,drogues.gouv.fr,
+government_agency,Direction de la recherche technologique,http://www.drt-cea.com/accueil.htm,drt-cea.com,
+government_agency,Direction des Sciences du Vivant du CEA,http://dsv.cea.fr/dsv/english/,dsv.cea.fr,
+government_agency,European Banking Authority,https://www.eba.europa.eu/,eba.europa.eu,local
+government_agency,European Court of Human Rights,https://www.echr.coe.int,echr.coe.int,local
 ministry,Ministry of the Ecological Transition,https://www.ecologie.gouv.fr/,ecologie.gouv.fr,
+government_agency,Ministry of the Ecological Transition,https://www.ecologie.gouv.fr/,ecologie.gouv.fr,central
+government_agency,"Ministry of Economics, Finance and Industrial and Digital Sovereignty",https://www.economie.gouv.fr/,economie.gouv.fr,central
 ministry,"Ministry of Economics, Finance and Industrial and Digital Sovereignty",https://www.economie.gouv.fr/,economie.gouv.fr,
+government_agency,Institute of public management and economical development,https://www.economie.gouv.fr/igpde,economie.gouv.fr,
 constitutional_court,Institute of public management and economical development,https://www.economie.gouv.fr/igpde,economie.gouv.fr,
 ministry,Ministry of Commerce,https://www.economie.gouv.fr/,economie.gouv.fr,
+government_agency,Ministry of Commerce,https://www.economie.gouv.fr/,economie.gouv.fr,central
+government_agency,"Embassy of Switzerland, Paris",https://www.eda.admin.ch/countries/france/fr/home/representations/ambassade-a-paris.html,eda.admin.ch,central
 ministry,French Ministry of education,https://www.education.gouv.fr/,education.gouv.fr,
+government_agency,French Ministry of education,https://www.education.gouv.fr/,education.gouv.fr,central
+government_agency,Delegation of the European Union to the OECD and the UNESCO in Paris,https://eeas.europa.eu/delegations/paris-oecd-and-un_en,eeas.europa.eu,local
+government_agency,Delegation of the European Union to the Council of Europe,https://eeas.europa.eu/delegations/council-europe_en,eeas.europa.eu,
+government_agency,"Département Écologie des Forêts, Prairies et milieux Aquatiques",http://www.efpa.inra.fr/,efpa.inra.fr,
+government_agency,"Embassy of Argentina, Paris",https://efran.cancilleria.gob.ar/,efran.cancilleria.gob.ar,local
 ministry,Ministry of Women's Rights,https://www.egalite-femmes-hommes.gouv.fr/,egalite-femmes-hommes.gouv.fr,
+government_agency,Ministry of Women's Rights,https://www.egalite-femmes-hommes.gouv.fr/,egalite-femmes-hommes.gouv.fr,
+government_agency,National penal ecclesiastical court,https://eglise.catholique.fr/conference-des-eveques-de-france/cef/tribunal-penal-canonique-national,eglise.catholique.fr,
+government_agency,Embassy of Panama in France,https://embajadadepanamaenfrancia.fr,embajadadepanamaenfrancia.fr,local
+government_agency,Embassy of the Dominican Republic in France,https://www.embajadadominicanaenfrancia.com/,embajadadominicanaenfrancia.com,central
+government_agency,"Embassy of Mexico, Paris",https://embamex.sre.gob.mx/francia/index.php/fr/,embamex.sre.gob.mx,local
+government_agency,Mexican Consulate General in Paris,http://embamex.sre.gob.mx/francia/index.php/fr/lambasssade,embamex.sre.gob.mx,
+government_agency,Q16543692,http://embassies.gov.il/marseille/Pages/default.aspx,embassies.gov.il,
+government_agency,Embassy of Saudi Arabia in France,https://embassies.mofa.gov.sa/sites/France,embassies.mofa.gov.sa,central
+government_agency,Embassy of Liberia in France,https://embassyofliberia-paris.org/,embassyofliberia-paris.org,local
+government_agency,Embassy of Namibia in Paris,https://embassyofnamibia.fr/,embassyofnamibia.fr,central
+government_agency,embassy of Bolivia in France,https://www.emboliviafrancia.fr,emboliviafrancia.fr,central
+government_agency,"Immunology, inflammation, infectiology and microbiology",http://english.inserm.fr/thematiques/immunology-inflammation-infectiology-and-microbiology/organization-of-the-institute,english.inserm.fr,
+government_agency,"Genetics, Genomics and Bioinformatics",http://english.inserm.fr/thematiques/genetics-genomics-and-bioinformatics/organization-of-the-institute,english.inserm.fr,
+government_agency,Cancer,http://english.inserm.fr/thematiques/cancer/organization-of-the-institute,english.inserm.fr,
+government_agency,Molecular and structural basis of life sciences,http://english.inserm.fr/thematiques/molecular-and-structural-basis-of-life-sciences/organization-of-the-institute,english.inserm.fr,
+government_agency,"Cell Biology, Development and Evolution",http://english.inserm.fr/thematiques/cell-biology-development-and-evolution/organization-of-the-institute,english.inserm.fr,
+government_agency,Health technologies,http://english.inserm.fr/thematiques/health-technologies/organization-of-the-institute,english.inserm.fr,
+government_agency,"Neurosciences, cognitive sciences, neurology and psychiatry",http://english.inserm.fr/thematiques/neurosciences-cognitive-sciences-neurology-and-psychiatry/organization-of-the-institute,english.inserm.fr,
+government_agency,"Physiopathology, metabolism and nutrition",http://english.inserm.fr/thematiques/physiopathology-metabolism-nutrition/organization-of-the-institute,english.inserm.fr,
 ministry,Ministry of Higher Education and Research,https://www.enseignementsup-recherche.gouv.fr/,enseignementsup-recherche.gouv.fr,
+government_agency,Ministry of Higher Education and Research,https://www.enseignementsup-recherche.gouv.fr/,enseignementsup-recherche.gouv.fr,central
+government_agency,Sous-direction des systèmes d'information et des études statistiques,https://www.enseignementsup-recherche.gouv.fr/fr/sies,enseignementsup-recherche.gouv.fr,
+government_agency,"Embassy of India, Paris",https://www.eoiparis.gov.in/,eoiparis.gov.in,central
+government_agency,European Union Agency for Railways,https://www.era.europa.eu/,era.europa.eu,local
+government_agency,European Space Agency,https://esa.int,esa.int,
+government_agency,ESAN Basque Police,https://esan.eus,esan.eus,
+government_agency,Piarist province of West Africa,https://www.escolapiesinstitutions.org,escolapiesinstitutions.org,
 constitutional_court,Piarist province of West Africa,https://www.escolapiesinstitutions.org,escolapiesinstitutions.org,
+government_agency,European Securities and Markets Authority,https://www.esma.europa.eu/,esma.europa.eu,local
 parliament,general council of Essonne,http://www.essonne.fr/,essonne.fr,
 parliament,departmental council of Essonne,http://www.essonne.fr/,essonne.fr,
+government_agency,"Consulate general of Portugal, Strasbourg",https://estrasburgo.consuladoportugal.mne.gov.pt/pt/,estrasburgo.consuladoportugal.mne.gov.pt,
+government_agency,Etalab,https://www.etalab.gouv.fr/,etalab.gouv.fr,
+government_agency,European Gendarmerie Force,http://www.eurogendfor.org,eurogendfor.org,
+government_agency,Permanent Representation of Denmark to the Council of Europe,https://europaraadet.um.dk,europaraadet.um.dk,
+government_agency,Permanent Representation of Denmark to the Council of Europe,https://europaraadet.um.dk/,europaraadet.um.dk,
+government_agency,Euskaltzaindia,https://www.euskaltzaindia.eus/en/,euskaltzaindia.eus,
+government_agency,Euskaltzaindia,https://www.euskaltzaindia.eus/fr/,euskaltzaindia.eus,
+government_agency,Euskaltzaindia,http://www.euskaltzaindia.eus,euskaltzaindia.eus,
+government_agency,Euskaltzaindia,https://www.euskaltzaindia.eus/es/,euskaltzaindia.eus,
+government_agency,Consulate General of Spain in Toulouse,http://www.exteriores.gob.es/Consulados/Toulouse/es/Paginas/inicio.aspx,exteriores.gob.es,
+government_agency,"Spanish consulate, Lyon",http://www.exteriores.gob.es/consulados/lyon,exteriores.gob.es,
+government_agency,Consular Section of the Embassy of Spain in Paris,https://www.exteriores.gob.es/Consulados/paris/es/Paginas/index.aspx,exteriores.gob.es,
+government_agency,"Consulate General of Spain, Strasbourg",https://www.exteriores.gob.es/Consulados/estrasburgo/es/Paginas/index.aspx,exteriores.gob.es,
+government_agency,consulate general of Spain in Bayonne,https://www.exteriores.gob.es/consulados/bayona/,exteriores.gob.es,
+government_agency,"Embassy of Spain, Paris",https://www.exteriores.gob.es/Embajadas/paris/es/Paginas/index.aspx,exteriores.gob.es,local
+government_agency,"Embassy of Andorra, Paris",https://www.exteriors.ad/fr/component/content/article?id=468:comores&catid=27,exteriors.ad,central
+government_agency,Ministry of the Family of France,http://www.familles-enfance-droitsdesfemmes.gouv.fr/,familles-enfance-droitsdesfemmes.gouv.fr,central
 ministry,Ministry of the Family of France,http://www.familles-enfance-droitsdesfemmes.gouv.fr/,familles-enfance-droitsdesfemmes.gouv.fr,
 parliament,departmental council of Finistère,https://www.finistere.fr,finistere.fr,
+government_agency,Permanent Representation of Finland to the Council of Europe,https://www.finlandabroad.fi/coe,finlandabroad.fi,
+government_agency,"Embassy of Finland, Paris",https://finlandabroad.fi/web/fra/,finlandabroad.fi,central
+government_agency,Permanent Delegation of Finland to the OECD,https://www.finlandabroad.fi/oecd,finlandabroad.fi,
+government_agency,Ministry of Public Sector Transformation and the Civil Service,https://www.fonction-publique.gouv.fr/,fonction-publique.gouv.fr,central
 ministry,Ministry of Public Sector Transformation and the Civil Service,https://www.fonction-publique.gouv.fr/,fonction-publique.gouv.fr,
+government_agency,"Embassy of Malta, Paris",https://foreign.gov.mt/fr/embassies/me_paris/Pages/ME_Paris.aspx,foreign.gov.mt,central
+government_agency,Embassy of Guinea in Paris,https://fr.ambaguinee.org/,fr.ambaguinee.org,local
+government_agency,"Embassy of the People's Republic of China, Paris",https://fr.china-embassy.gov.cn/fra,fr.china-embassy.gov.cn,central
+government_agency,"Embassy of Morocco, Paris",https://fr.diplomatie.ma/,fr.diplomatie.ma,central
+government_agency,"Consular Office of Japan, Nouméa",https://www.fr.emb-japan.go.jp/itpr_ja/noumea.html,fr.emb-japan.go.jp,central-1
+government_agency,"Embassy of Japan, Paris",https://www.fr.emb-japan.go.jp/,fr.emb-japan.go.jp,central
+government_agency,"Embassy of Lithuania, Paris",https://fr.mfa.lt/,fr.mfa.lt,central
+government_agency,Embassy of Nepal in France,https://fr.nepalembassy.gov.np/,fr.nepalembassy.gov.np,central
+government_agency,"Embassy of Tanzania, Paris",https://www.fr.tzembassy.go.tz/,fr.tzembassy.go.tz,local
+government_agency,"Consulate of the United States, Lyon",https://fr.usembassy.gov/u-s-consulate-lyon/,fr.usembassy.gov,
+government_agency,U.S. Consulate Rennes,https://fr.usembassy.gov/u-s-consulate-rennes/,fr.usembassy.gov,
+government_agency,"Consulate General of the United States, Strasbourg",https://fr.usembassy.gov/u-s-consulate-general-strasbourg/,fr.usembassy.gov,
+government_agency,"Consulate of the United States, Bordeaux",https://fr.usembassy.gov/u-s-consulate-bordeaux/,fr.usembassy.gov,
+government_agency,U.S. Consulate General Marseille,https://fr.usembassy.gov/u-s-consulate-general-marseille/,fr.usembassy.gov,
+government_agency,"Embassy of the United States, Paris",https://fr.usembassy.gov/,fr.usembassy.gov,central
+government_agency,France Éducation international,https://www.france-education-international.fr/,france-education-international.fr,
+government_agency,Embassy of Togo in France,https://www.france.ambassadetogo.org/,france.ambassadetogo.org,central
+government_agency,"Consulate General of Belgium, Marseille",https://france.diplomatie.belgium.be/fr/ambassade-et-consulats/consulat-general-marseille,france.diplomatie.belgium.be,local
+government_agency,"Consulate General of Belgium, Marseille",https://france.diplomatie.belgium.be/nl/ambassade-en-consulaten/consulaat-generaal-marseille,france.diplomatie.belgium.be,local
+government_agency,Permanent Representation of Belgium to the Council of Europe,https://france.diplomatie.belgium.be/fr/representations-de-la-belgique-en-france,france.diplomatie.belgium.be,
+government_agency,Permanent Representation of Belgium to the Council of Europe,https://france.diplomatie.belgium.be/nl/vertegenwoordigingen-van-belgie-frankrijk,france.diplomatie.belgium.be,
+government_agency,"Embassy of Belgium, Paris",https://france.diplomatie.belgium.be,france.diplomatie.belgium.be,local
+government_agency,Embassy of Ivory Coast in Paris,https://france.diplomatie.gouv.ci/,france.diplomatie.gouv.ci,local
+government_agency,"Embassy of Australia, Paris",https://france.embassy.gov.au/,france.embassy.gov.au,central
+government_agency,"Embassy of Armenia, Paris",https://france.mfa.am/fr,france.mfa.am,central
+government_agency,"Consulate of Armenia, Lyon",http://www.france.mfa.am/fr/contact/,france.mfa.am,
+government_agency,"Embassy of Belarus, Paris",https://france.mfa.gov.by/fr/,france.mfa.gov.by,central
+government_agency,"Embassy of Georgia, Paris",https://france.mfa.gov.ge,france.mfa.gov.ge,local
+government_agency,"Embassy of Ukraine, Paris",https://france.mfa.gov.ua/fr,france.mfa.gov.ua,central
+government_agency,"Embassy of Russia, Paris",https://france.mid.ru,france.mid.ru,central
+government_agency,Representative Office of the European Commission in Paris,https://france.representation.ec.europa.eu/index_fr,france.representation.ec.europa.eu,
+government_agency,European Commission Representation in France,https://france.representation.ec.europa.eu/index_fr,france.representation.ec.europa.eu,
+government_agency,"Embassy of Turkmenistan, Paris",https://france.tmembassy.gov.tm/en,france.tmembassy.gov.tm,central
+government_agency,FranceAgriMer,http://www.franceagrimer.fr/,franceagrimer.fr,
+government_agency,Q2946080,https://www.franceclat.fr/,franceclat.fr,
+government_agency,"Embassy of Venezuela, Paris",https://francia.consuladovenezuela.org/,francia.consuladovenezuela.org,central
+government_agency,"Embassy of Colombia, Paris",https://francia.embajada.gov.co/,francia.embajada.gov.co,local
+government_agency,Embassy of Guatemala in France,https://francia.minex.gob.gt,francia.minex.gob.gt,local
+government_agency,Deutsch-Französische Industrie- und Handelskammer,https://www.francoallemand.com/,francoallemand.com,
+government_agency,Deutsch-Französische Industrie- und Handelskammer,https://www.francoallemand.com/fr/,francoallemand.com,
+government_agency,"Embassy of Denmark, Paris",https://frankrig.um.dk/fr,frankrig.um.dk,central
+government_agency,"Embassy of Denmark, Paris",https://frankrig.um.dk,frankrig.um.dk,central
+government_agency,"Embassy of Moldova, Paris",https://franta.mfa.gov.md/,franta.mfa.gov.md,central
 parliament,general council of Gard,http://www.gard.fr,gard.fr,
 parliament,departmental council of Gard,http://www.gard.fr,gard.fr,
+government_agency,National Gendarmerie,http://www.gendarmerie.interieur.gouv.fr/,gendarmerie.interieur.gouv.fr,central
 parliament,general council of Gironde,https://www.gironde.fr/,gironde.fr,
+government_agency,"Embassy of Peru, Paris",https://www.gob.pe/embajada-del-peru-en-francia,gob.pe,local
+government_agency,Q3112596,https://gouv.nc/,gouv.nc,central-1
+constitutional_court,Q3112596,https://gouv.nc/,gouv.nc,central-1
+government_agency,Quebec general delegation to Paris,http://www.gouv.qc.ca/portail/quebec/international/france/,gouv.qc.ca,central
 constitutional_court,Council of Ministers,http://www.gouvernement.fr/comptes-rendus-du-conseil-des-ministres,gouvernement.fr,central
+government_agency,Council of Ministers,http://www.gouvernement.fr/comptes-rendus-du-conseil-des-ministres,gouvernement.fr,central
+government_agency,"Embassy of Brazil, Paris",https://www.gov.br/mre/pt-br/embaixada-paris,gov.br,local
+government_agency,Embassy of Poland in Paris,https://www.gov.pl/web/france,gov.pl,central
+government_agency,"Consulate General of Poland, Lyon",https://www.gov.pl/web/france/consulat-general-lyon,gov.pl,
+government_agency,Permanent Delegation of the Republic of Poland to UNESCO,https://www.gov.pl/web/onz/staly-przedstawiciel-rp-przy-unesco-w-paryzu,gov.pl,
+government_agency,Permanent Representation of the Republic of Poland to the Organisation for Economic Co-operation and Development,https://www.gov.pl/web/oecd,gov.pl,
+government_agency,Permanent Representation of Poland to the Council of Europe,https://www.gov.pl/web/re,gov.pl,
+government_agency,Embassy of Poland in Paris,https://www.gov.pl/web/francja,gov.pl,central
+government_agency,Embassy of Slovenia in France,https://www.gov.si/predstavnistva/veleposlanistvo-pariz/,gov.si,local
+government_agency,British Consulate in Paris,https://www.gov.uk/world/organisations/british-consulate-paris,gov.uk,
+government_agency,UK Permanent Delegation to the OECD,https://www.gov.uk/world/organisations/uk-permanent-delegation-to-the-oecd,gov.uk,local
+government_agency,British Consulate Bordeaux,https://www.gov.uk/world/organisations/british-consulate-bordeaux,gov.uk,
+government_agency,"Embassy of the United Kingdom, Paris",https://www.gov.uk/world/organisations/british-embassy-paris,gov.uk,local
+government_agency,British Consulate Marseille,https://www.gov.uk/world/organisations/british-consulate-marseille,gov.uk,
+government_agency,Délégation Grand-Est,http://www.grand-est.inserm.fr/,grand-est.inserm.fr,
+government_agency,Délégation Grand-Ouest,http://www.grand-ouest.inserm.fr/,grand-ouest.inserm.fr,
+government_agency,Q16303550,http://www.grandparisamenagement.fr,grandparisamenagement.fr,
+government_agency,"Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy",https://www.guadeloupe.ars.sante.fr,guadeloupe.ars.sante.fr,central-1
+government_agency,"Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy",http://www.guadeloupe.ars.sante.fr,guadeloupe.ars.sante.fr,central-1
+government_agency,Q55475537,http://guadeloupe.tribunal-administratif.fr/,guadeloupe.tribunal-administratif.fr,
+government_agency,Q55475559,http://guyane.tribunal-administratif.fr/,guyane.tribunal-administratif.fr,
 parliament,departmental council of Haute-Loire,http://www.hauteloire.fr/,hauteloire.fr,local
 parliament,Regional Council of Upper Normandy,http://www.hautenormandie.fr/,hautenormandie.fr,local
 parliament,departmental council of Haute-Savoie,https://www.hautesavoie.fr/,hautesavoie.fr,
 parliament,departmental council of Hautes-Pyrénées,https://www.hautespyrenees.fr/,hautespyrenees.fr,
+government_agency,Chamber of commerce Grand Lille,https://hautsdefrance.cci.fr/cci-grand-lille/,hautsdefrance.cci.fr,
+government_agency,Health Data Hub,https://www.health-data-hub.fr/,health-data-hub.fr,
+government_agency,Honorary consulate of Slovenia in Toulouse,http://hegodeveza.com,hegodeveza.com,
+government_agency,Heronax,https://heronax.com/,heronax.com,
+government_agency,Institut d'Imagerie Biomédicale,http://i2bm.cea.fr/dsv/i2bm,i2bm.cea.fr,
+government_agency,Infrastructures en Biologie Santé et Agronomie,https://www.ibisa.net,ibisa.net,
+government_agency,International Court of Arbitration,https://iccwbo.org/,iccwbo.org,
+government_agency,Living Heritage Entity,https://ich.unesco.org/es/secretara-00032,ich.unesco.org,
+government_agency,Living Heritage Entity,https://ich.unesco.org/en/secretariat-00032,ich.unesco.org,
+government_agency,Living Heritage Entity,https://ich.unesco.org/fr/secrtariat-00032,ich.unesco.org,
+government_agency,Délégation Paris 5,http://www.idf.inserm.fr/rubriques/l-inserm-en-ile-de-france/delegation-paris-5,idf.inserm.fr,
+government_agency,Délégation Paris 6,http://www.idf.inserm.fr/rubriques/l-inserm-en-ile-de-france/delegation-paris-6,idf.inserm.fr,
+government_agency,Délégation Paris 7,http://www.idf.inserm.fr/rubriques/l-inserm-en-ile-de-france/delegation-paris-7,idf.inserm.fr,
+government_agency,Délégation Paris 12,http://www.idf.inserm.fr/rubriques/l-inserm-en-ile-de-france/delegation-paris-12,idf.inserm.fr,
+government_agency,Délégation Paris 11,http://www.idf.inserm.fr/rubriques/l-inserm-en-ile-de-france/delegation-paris-11,idf.inserm.fr,
+government_agency,Institut d'émission d'outre-mer,http://ieom.fr/,ieom.fr,
+government_agency,IFSTTAR,http://www.ifsttar.fr/,ifsttar.fr,
+government_agency,Institut national de l'information géographique et forestière,https://www.ign.fr/,ign.fr,
+government_agency,Institut des hautes études du ministère de l'Intérieur,https://www.ihemi.fr,ihemi.fr,
 constitutional_court,Institut des hautes études du ministère de l'Intérieur,https://www.ihemi.fr,ihemi.fr,
+government_agency,Délégation Ile-de-France Gif-sur-Yvette (DR4),https://www.iledefrance-gif.cnrs.fr,iledefrance-gif.cnrs.fr,
+government_agency,Délégation Ile-de-France Meudon (DR5),https://www.iledefrance-meudon.cnrs.fr/fr,iledefrance-meudon.cnrs.fr,
+government_agency,Délégation Ile-de-France Villejuif (DR1),https://www.iledefrance-villejuif.cnrs.fr/fr,iledefrance-villejuif.cnrs.fr,
 parliament,Regional Council of Île-de-France,http://www.iledefrance.fr/,iledefrance.fr,central-1
+government_agency,Q3148710,https://www.illevia.bzh/,illevia.bzh,
+government_agency,Institut national de physique nucléaire et de physique des particules,https://www.in2p3.cnrs.fr,in2p3.cnrs.fr,
+government_agency,Government of the French Republic,https://www.info.gouv.fr,info.gouv.fr,central
 constitutional_court,Government of the French Republic,https://www.info.gouv.fr,info.gouv.fr,central
+government_agency,National Industrial Property Institute,https://www.inpi.fr/,inpi.fr,
+government_agency,INRAE Bordeaux-Aquitaine,https://www.inrae.fr/centres/nouvelle-aquitaine-bordeaux,inrae.fr,
+government_agency,Département de Génétique Animale,https://www.inrae.fr/departements/ga,inrae.fr,
+government_agency,INRAE Bordeaux-Aquitaine,https://www.inrae.fr/en/centers/nouvelle-aquitaine-bordeaux,inrae.fr,
+government_agency,Institut National de Recherche en Informatique et en Automatique,https://www.inria.fr/,inria.fr,
+government_agency,INRIA Bordeaux–Sud-Ouest research centre,http://www.inria.fr/en/centre/bordeaux,inria.fr,
+government_agency,Institut National de Recherche en Informatique et en Automatique,https://www.inria.fr/en,inria.fr,
+government_agency,Inria Centre at Rennes University,http://www.inria.fr/fr/centre-inria-universite-rennes,inria.fr,
+government_agency,INRIA Bordeaux–Sud-Ouest research centre,https://www.inria.fr/centre/bordeaux,inria.fr,
+government_agency,National Institute of Statistics and Economic Studies,https://www.insee.fr/,insee.fr,central
+government_agency,Official Statistical System,https://www.insee.fr/en/information/2386424,insee.fr,
+government_agency,Official Statistical System,https://www.insee.fr/fr/information/1302192,insee.fr,
+government_agency,Délégation Occitanie Pyrénées,https://www.inserm.fr/delegation/occitanie-pyrenees/,inserm.fr,
+government_agency,L’Inserm dans Paris et l’Île-de-France Centre Nord,https://www.inserm.fr/delegation/idf-nord/,inserm.fr,
+government_agency,French National Institute of Health and Medical Research,https://www.inserm.fr/en/home/,inserm.fr,
+government_agency,French National Institute of Health and Medical Research,https://www.inserm.fr/,inserm.fr,
+government_agency,Institut français,http://www.institutfrancais.com,institutfrancais.com,
+government_agency,Polish Institute Paris,https://instytutpolski.pl/paris/,instytutpolski.pl,
+government_agency,Compagnies Républicaines de Sécurité,http://www.interieur.gouv.fr/sections/a_l_interieur/la_police_nationale/organisation/dccrs,interieur.gouv.fr,
 ministry,Ministry of the Interior,https://www.interieur.gouv.fr/,interieur.gouv.fr,
+government_agency,General Inspectorate for Civil Protection,https://www.interieur.gouv.fr/le-ministere/securite-civile/inspection-generale-de-la-securite-civile,interieur.gouv.fr,central
+government_agency,Ministry of the Interior,https://www.interieur.gouv.fr/,interieur.gouv.fr,central
+government_agency,"Embassy of Canada, Paris",https://www.international.gc.ca/country-pays/france/paris.aspx?lang=fra,international.gc.ca,central
+government_agency,Interpol,https://interpol.int,interpol.int,
+government_agency,Institut de Radiobiologie Cellulaire et Moléculaire,http://ircm.cea.fr/dsv/ircm,ircm.cea.fr,
+government_agency,French National Research Institute for Sustainable Development,https://www.ird.fr/,ird.fr,
+government_agency,"Embassy of Ireland, Paris",https://www.ireland.ie/fr/france/paris/,ireland.ie,local
+government_agency,"Embassy of Ireland, Paris",https://www.ireland.ie/en/france/paris/,ireland.ie,local
+government_agency,Institut de Recherches en Technologies et Sciences pour le Vivant,http://irtsv.cea.fr/dsv/irtsv,irtsv.cea.fr,
+government_agency,Institut des Sciences et technologies pour une Economie Circulaire des énergies bas carbone,https://isec.cea.fr,isec.cea.fr,
+government_agency,Institute of Statistics and Economic Studies,https://www.isee.nc/,isee.nc,central-1
 parliament,general council of Isère,https://www.isere.fr/,isere.fr,
+government_agency,Q19375721,http://www.ispf.pf/Home.aspx,ispf.pf,central-1
+government_agency,European Union Institute for Security Studies,https://www.iss.europa.eu/,iss.europa.eu,local
+government_agency,Jesuit Province of Francophone Western Europe,https://www.jesuites.com/,jesuites.com,
 constitutional_court,Jesuit Province of Francophone Western Europe,https://www.jesuites.com/,jesuites.com,
+government_agency,Jeunes Sapeurs Pompiers de Saint-Maurice-de-Beynost,https://www.jsp-saintmauricedebeynost.com,jsp-saintmauricedebeynost.com,
+government_agency,Q115471229,https://www.justice.fr/annuaire/tribunal-premi%C3%A8re-instance-mata-utu,justice.fr,central-1
 ministry,Ministry of Justice of France,https://www.justice.gouv.fr/,justice.gouv.fr,
+government_agency,General Directorate of Penitentiary Administration,http://www.justice.gouv.fr/,justice.gouv.fr,
+government_agency,Ministry of Justice of France,https://www.justice.gouv.fr/,justice.gouv.fr,central
+government_agency,"consulate general of Indonesia, Marseille",https://kemlu.go.id/marseille,kemlu.go.id,
+government_agency,"embassy of Indonesia, Paris",https://kemlu.go.id/paris/,kemlu.go.id,central
+government_agency,"embassy of Indonesia, Paris",https://kemlu.go.id/paris,kemlu.go.id,central
+government_agency,"consulate general of Indonesia, Nouméa",https://kemlu.go.id/noumea,kemlu.go.id,central-1
+government_agency,Embassy of Kenya in France,https://kenyaembassyparis.fr/,kenyaembassyparis.fr,central
+government_agency,"Embassy of Malaysia, Paris",http://www.kln.gov.my/web/fra_paris/home,kln.gov.my,central
+government_agency,"Embassy of Malaysia, Paris",https://www.kln.gov.my/web/fra_paris/home,kln.gov.my,central
+government_agency,Q3538842,http://la-reunion.tribunal-administratif.fr/,la-reunion.tribunal-administratif.fr,
+government_agency,Agence de l'outre-mer pour la mobilité (France),https://www.ladom.fr/,ladom.fr,
+government_agency,Délégation Languedoc-Roussillon,http://www.languedoc-roussillon.inserm.fr/,languedoc-roussillon.inserm.fr,
+government_agency,Caisse Nationale d'Assurance Vieillesse,https://www.lassuranceretraite.fr/,lassuranceretraite.fr,
 parliament,departmental council of Pyrénées-Atlantiques,http://www.le64.fr/,le64.fr,
 parliament,departmental council of Nord,https://lenord.fr/,lenord.fr,
+government_agency,CEA-List: Laboratory for Integration of Systems and Technology,https://list.cea.fr,list.cea.fr,central
+government_agency,Laboratoire d'innovation pour les technologies des énergies nouvelles et les nanomatériaux,https://www.liten.cea.fr,liten.cea.fr,
+government_agency,Permanent Congress of the Occitan Language,https://locongres.org/fr/,locongres.org,
+government_agency,Permanent Congress of the Occitan Language,https://locongres.org/oc/,locongres.org,
+government_agency,Ministry of Housing,http://www.logement.gouv.fr/,logement.gouv.fr,
 ministry,Ministry of Housing,http://www.logement.gouv.fr/,logement.gouv.fr,
 parliament,general council of Loire-Atlantique,http://www.loire-atlantique.fr/,loire-atlantique.fr,
 parliament,Regional Council of Lorraine,http://www.lorraine.eu/accueil.html,lorraine.eu,local
 parliament,general council of Lot,http://www.lot.fr/,lot.fr,
 parliament,departmental council of Lot,https://lot.fr/,lot.fr,
+government_agency,Basque Country Development Council,http://www.lurraldea.net/fr.html,lurraldea.net,
+government_agency,"Consulate General of Tunisia, Lyon",https://lyo.econsulat.tn/,lyo.econsulat.tn,
+government_agency,"Consulate General of Turkey, Lyon",https://lyon-bk.mfa.gov.tr,lyon-bk.mfa.gov.tr,
+government_agency,Consulate General of China in Lyon,http://lyon.china-consulate.org/fra/,lyon.china-consulate.org,central-1
+government_agency,Q3000916,http://lyon.cour-administrative-appel.fr/,lyon.cour-administrative-appel.fr,
+government_agency,"Consulate General of Germany, Lyon",https://lyon.diplo.de,lyon.diplo.de,
+government_agency,"Consular Office of Japan, Lyon",https://www.lyon.fr.emb-japan.go.jp,lyon.fr.emb-japan.go.jp,
+government_agency,"Consulate General of Romania, Lyon",http://lyon.mae.ro/fr,lyon.mae.ro,
+government_agency,Consulate General of Spain in Perpignan,http://www.maec.es/subwebs/Consulados/Perpignan/fr/home/Paginas/home_fr_perpi%C3%B1an.aspx,maec.es,
+government_agency,"Consulate General of Spain in Pau, France",http://www.maec.es/subwebs/Consulados/Pau/es/home/Paginas/home_pau.aspx,maec.es,
+government_agency,"Consulate General of Spain, Bordeaux",http://www.maec.es/subwebs/Consulados/Burdeos/fr/home/Paginas/home.aspx,maec.es,
+government_agency,"Consulate-General of Spain, Montpellier",http://www.maec.es/subwebs/Consulados/Montpellier/fr/home/Paginas/Home.aspx,maec.es,
+government_agency,Consulate General of Spain in Marseille,http://www.maec.es/subwebs/Consulados/Marsella/es/home/Paginas/homemarsella.aspx,maec.es,
+government_agency,Marseille Naval Fire Battalion,http://www.marinspompiersdemarseille.com/,marinspompiersdemarseille.com,local
+government_agency,"Consulate General of China, Marseille",http://marseille.china-consulate.org/fra,marseille.china-consulate.org,central-1
+government_agency,Q3000919,http://marseille.cour-administrative-appel.fr/,marseille.cour-administrative-appel.fr,
+government_agency,"Consulate General of Germany, Marseille",https://marseille.diplo.de,marseille.diplo.de,
+government_agency,European Parliament Liaison Office in Marseille,https://marseille.europarl.europa.eu,marseille.europarl.europa.eu,
+government_agency,"Consulate General of Japan, Marseille",https://www.marseille.fr.emb-japan.go.jp,marseille.fr.emb-japan.go.jp,
+government_agency,"Russian Consulate, Marseille",http://www.marseille.mid.ru/fr.html,marseille.mid.ru,
+government_agency,Q16507615,http://marsilia.mae.ro/fr,marsilia.mae.ro,
+government_agency,"Consulate General of Turkey, Marseille",https://marsilya-bk.mfa.gov.tr,marsilya-bk.mfa.gov.tr,
+government_agency,Q55475607,http://martinique.tribunal-administratif.fr/,martinique.tribunal-administratif.fr,
+government_agency,"Embassy of Mauritius, Paris",https://mauritius-paris.govmu.org,mauritius-paris.govmu.org,central
+government_agency,Embassy of Myanmar in France,https://www.meparis.org,meparis.org,central
+government_agency,Ministry of the Sea,https://mer.gouv.fr/,mer.gouv.fr,
 ministry,Ministry of the Sea,https://mer.gouv.fr/,mer.gouv.fr,
+government_agency,"Embassy of Brunei, Paris",http://www.mfa.gov.bn/france-paris/,mfa.gov.bn,central
+government_agency,"Embassy of Cyprus, Paris",http://www.mfa.gov.cy/mfa/embassies/Embassy_Paris.nsf,mfa.gov.cy,central
+government_agency,"Embassy of Kyrgyzstan, Paris",https://mfa.gov.kg/en/dm/Ambassade-de-la-Rpublique-Kirghize-en-Rpublique-Franaise,mfa.gov.kg,central
+government_agency,Permanent Representation of Latvia to the Council of Europe,https://www.mfa.gov.lv/lv/pastaviga-parstavnieciba-eiropas-padome,mfa.gov.lv,local
+government_agency,Permanent Representation of Latvia to the Council of Europe,https://www.mfa.gov.lv/en/permanent-representation-council-europe,mfa.gov.lv,local
+government_agency,Permanent Representation of Latvia to the OECD and UNESCO,https://www.mfa.gov.lv/en/permanent-representation-oecd-and-unesco,mfa.gov.lv,local
+government_agency,Permanent Representation of Latvia to the OECD and UNESCO,https://www.mfa.gov.lv/lv/pastaviga-parstavnieciba-oecd-un-unesco,mfa.gov.lv,local
+government_agency,"Embassy of Singapore, Paris",https://www.mfa.gov.sg/paris,mfa.gov.sg,central
+government_agency,Embassy of Greece in France,https://www.mfa.gr/france/fr/,mfa.gr,central
+government_agency,"Embassy of Tajikistan, Paris",https://mfa.tj/paris,mfa.tj,central
+government_agency,"Consulate General of New Zealand, Nouméa",https://www.mfat.govt.nz/en/countries-and-regions/pacific/new-caledonia/new-zealand-consulate-general/,mfat.govt.nz,
+government_agency,"embassy of New Zealand, Paris",https://www.mfat.govt.nz/en/countries-and-regions/europe/france/new-zealand-embassy/,mfat.govt.nz,local
+government_agency,Département Mathématiques et Informatique Appliquées,http://www.mia.inra.fr/,mia.inra.fr,
+government_agency,Département Microbiologie et chaîne alimentaire,http://www.mica.inra.fr/,mica.inra.fr,
+government_agency,Regional Chamber of Commerce and Industry Midi-Pyrénées,http://www.midi-pyrenees.cci.fr/,midi-pyrenees.cci.fr,
+government_agency,"Embassy of Cuba, France",http://misiones.cubaminrex.cu/fr/france/ambassade-de-cuba-en-france,misiones.cubaminrex.cu,central
+government_agency,"Embassy of Bahrain, Paris",http://www.mofa.gov.bh/paris,mofa.gov.bh,central
+government_agency,"Embassy of Iraq, Paris",https://mofa.gov.iq/paris/?lang=fr,mofa.gov.iq,central
+government_agency,"Embassy of Pakistan, Paris",https://mofa.gov.pk/paris,mofa.gov.pk,central
+government_agency,"Consular Section of the United Arab Emirates, Paris",https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=98ad6f2a-22f3-4f69-b8f6-d11cd06653d2,mofaic.gov.ae,
+government_agency,Chambre de commerce et d'industrie de Montpellier,http://www.montpellier.cci.fr,montpellier.cci.fr,
+government_agency,Q3538841,http://montreuil.tribunal-administratif.fr/,montreuil.tribunal-administratif.fr,
+government_agency,Embassy of Croatia in France,https://mvep.gov.hr/fr/fr,mvep.gov.hr,local
+government_agency,"Embassy of The Czech Republic, Paris",https://www.mzv.cz/paris,mzv.cz,local
+government_agency,"Embassy of Slovakia, Paris",https://www.mzv.sk/web/pariz/,mzv.sk,central
+government_agency,Hôtel de Fontenoy,http://nancy.cour-administrative-appel.fr/,nancy.cour-administrative-appel.fr,
+government_agency,"Consulate General of Turkey, Nantes",https://nant-bk.mfa.gov.tr,nant-bk.mfa.gov.tr,
+government_agency,Cour administrative d'appel de Nantes,http://nantes.cour-administrative-appel.fr/,nantes.cour-administrative-appel.fr,
+government_agency,Q3348454,https://naturefrance.fr/,naturefrance.fr,
+government_agency,"Embassy of Israel, Paris",https://new.embassies.gov.il/france,new.embassies.gov.il,central
 parliament,departmental council of Nièvre,http://nievre.fr/,nievre.fr,
+government_agency,Embassy of Nigeria in France,https://www.nigeriafrance.org/,nigeriafrance.org,local
+government_agency,Tribunal Administratif de Nîmes,http://nimes.tribunal-administratif.fr,nimes.tribunal-administratif.fr,
+government_agency,Délégation Nord-Ouest,http://www.nord-ouest.inserm.fr/,nord-ouest.inserm.fr,
+government_agency,Q97168901,https://www.normandie.cci.fr/,normandie.cci.fr,
 parliament,Regional Council of Basse-Normandie,https://www.normandie.fr/,normandie.fr,local
+government_agency,"Embassy of Norway, Paris",https://www.norway.no/fr/france/,norway.no,central
 parliament,Nouvelle-Aquitaine Regional Council,https://www.nouvelle-aquitaine.fr/,nouvelle-aquitaine.fr,central-1
 parliament,Regional Council of Limousin,https://www.nouvelle-aquitaine.fr/,nouvelle-aquitaine.fr,local
+government_agency,Q19951308,http://nouvelle-caledonie.tribunal-administratif.fr/,nouvelle-caledonie.tribunal-administratif.fr,
+government_agency,Interministerial Digital Directorate,https://www.numerique.gouv.fr/dinum/,numerique.gouv.fr,
+government_agency,"Consulate General of New Zealand, Nouméa",http://www.nzembassy.com/fr/nouvelle-caledonie,nzembassy.com,
+government_agency,Permanent Mission of France to the OECD,https://ocde.delegfrance.org/,ocde.delegfrance.org,
+government_agency,Permanent Representation of Belgium to the OECD and UNESCO,https://oecd-unesco.diplomatie.belgium.be/,oecd-unesco.diplomatie.belgium.be,
+government_agency,Permanent Delegation of Japan to the Organisation for Economic Co-operation and Development,https://www.oecd.emb-japan.go.jp/,oecd.emb-japan.go.jp,
+government_agency,Permanent Mission of Denmark to the OECD,https://oecd.um.dk/,oecd.um.dk,local
 parliament,general council of Oise,http://www.oise.fr/,oise.fr,
+government_agency,Office National d'Études et de Recherches Aérospatiales,https://www.onera.fr,onera.fr,
+government_agency,Permanent Mission of France to the United Nations Office in Geneva,https://onu-geneve.delegfrance.org/,onu-geneve.delegfrance.org,
+government_agency,Q88580888,https://onu-rome.delegfrance.org/,onu-rome.delegfrance.org,
+government_agency,Q96335508,http://oplcat.eu,oplcat.eu,
+government_agency,OQEI - Observatoires de la qualité des environnements intérieurs,https://www.oqai.fr,oqai.fr,
+government_agency,Q108772353,https://www.orientalement.com/78-consulat-a-grenoble.html,orientalement.com,
+government_agency,Q3349604,https://otc.corsica/,otc.corsica,
+government_agency,Ministry of the Overseas,https://www.outre-mer.gouv.fr/,outre-mer.gouv.fr,
 ministry,Ministry of the Overseas,https://www.outre-mer.gouv.fr/,outre-mer.gouv.fr,
+government_agency,"Embassy of Uzbekistan, Paris",https://www.ouzbekistan.fr,ouzbekistan.fr,central
+government_agency,"Embassy of South Korea, Paris",https://overseas.mofa.go.kr/fr-fr,overseas.mofa.go.kr,local
+government_agency,Délégation Provence-Alpes-Côte d’Azur et Corse,http://www.paca.inserm.fr/,paca.inserm.fr,
+government_agency,Chinese Consulate in Papeete,http://papeete.china-consulate.gov.cn/chn/,papeete.china-consulate.gov.cn,central-1
+government_agency,"Consulate General of Turkey, Paris",https://paris-bk.mfa.gov.tr,paris-bk.mfa.gov.tr,
+government_agency,Délégation Paris-Centre (DR2),https://www.paris-centre.cnrs.fr/fr,paris-centre.cnrs.fr,
+government_agency,Conciergerie,https://www.paris-conciergerie.fr/,paris-conciergerie.fr,
+government_agency,"Embassy of Turkey, Paris",https://paris-emb.mfa.gov.tr,paris-emb.mfa.gov.tr,central
+government_agency,Délégation Paris-Normandie (DR16),https://www.paris-normandie.cnrs.fr/fr,paris-normandie.cnrs.fr,
+government_agency,Q131406130,https://paris-oecd.diplo.de/,paris-oecd.diplo.de,
+government_agency,Administrative Court of Appeal of Paris,http://paris.cour-administrative-appel.fr/,paris.cour-administrative-appel.fr,
+government_agency,Embassy of Portugal in France,https://paris.embaixadaportugal.mne.gov.pt/fr/,paris.embaixadaportugal.mne.gov.pt,local
+government_agency,Embassy of Mongolia in France,https://paris.embassy.mn/,paris.embassy.mn,central
+government_agency,European Parliament Liaison Office in Paris,https://paris.europarl.europa.eu,paris.europarl.europa.eu,
+government_agency,Inspection générale des carrières,https://www.paris.fr/pages/tout-savoir-sur-les-sous-sols-2317,paris.fr,
+government_agency,Embassy of Luxemburg in France,https://paris.mae.lu/fr.html,paris.mae.lu,local
+government_agency,"Embassy of Romania, Paris",https://paris.mae.ro/fr,paris.mae.ro,central
+government_agency,"Embassy of Estonia, Paris",https://paris.mfa.ee,paris.mfa.ee,local
+government_agency,"Embassy of Azerbaijan, Paris",https://paris.mfa.gov.az,paris.mfa.gov.az,central
+government_agency,Embassy of Ghana in France,https://paris.mfa.gov.gh,paris.mfa.gov.gh,local
+government_agency,"Embassy of Iran, Paris",https://paris.mfa.gov.ir/fr,paris.mfa.gov.ir,local
+government_agency,"Embassy of Lebanon, Paris",http://www.paris.mfa.gov.lb,paris.mfa.gov.lb,central
+government_agency,"Embassy of North Macedonia, Paris",https://paris.mfa.gov.mk,paris.mfa.gov.mk,central
+government_agency,"Embassy of Serbia, Paris",http://www.paris.mfa.gov.rs/,paris.mfa.gov.rs,central
+government_agency,"Embassy of Uganda, Paris",https://paris.mofa.go.ug/,paris.mofa.go.ug,central
+government_agency,Embassy of Bangladesh in France,https://paris.mofa.gov.bd/,paris.mofa.gov.bd,central
+government_agency,Embassy of the Philippines in France,https://parispe.dfa.gov.ph/,parispe.dfa.gov.ph,local
+government_agency,"Embassy of Hungary, Paris",https://parizs.mfa.gov.hu/,parizs.mfa.gov.hu,local
 supreme_court,French Parliament,https://www.parlement.fr,parlement.fr,central
 parliament,French Parliament,http://www.parlement.fr,parlement.fr,
 parliament,French Parliament,https://www.parlement.fr,parlement.fr,central
 supreme_court,French Parliament,http://www.parlement.fr,parlement.fr,
+government_agency,Partnaire France,https://www.partnaire.fr/,partnaire.fr,
+government_agency,mission nationale de sauvegarde du patrimoine scientifique et technique contemporain,https://www.patstec.fr/,patstec.fr,
+government_agency,"Embassy of The Netherlands, Paris",https://www.paysbasetvous.nl/votre-pays-et-les-pays-bas/france/qui-sommes-nous/ambassade-paris,paysbasetvous.nl,central
+government_agency,Département Physiologie animale et systèmes d’élevage,http://www.phase.inra.fr/,phase.inra.fr,
+government_agency,Q112220141,https://police-chambourcy.fr/,police-chambourcy.fr,local
+government_agency,Q104601946,https://www.police-nationale.interieur.gouv.fr/nous-decouvrir/notre-organisation/organisation/service-national-de-police-scientifique-snps,police-nationale.interieur.gouv.fr,
+government_agency,National Police of France,https://www.police-nationale.interieur.gouv.fr/,police-nationale.interieur.gouv.fr,
 constitutional_court,Q104601946,https://www.police-nationale.interieur.gouv.fr/nous-decouvrir/notre-organisation/organisation/service-national-de-police-scientifique-snps,police-nationale.interieur.gouv.fr,
+government_agency,Q55475613,http://polynesie-francaise.tribunal-administratif.fr/,polynesie-francaise.tribunal-administratif.fr,
+government_agency,Paris Fire Brigade,https://www.pompiersparis.fr/,pompiersparis.fr,local
+government_agency,Q54819665,http://www.port-rhenan-colmar.fr/,port-rhenan-colmar.fr,
+government_agency,CEA Gramat,http://portail.cea.fr/Pages/le-cea/les-centres-cea/gramat.aspx,portail.cea.fr,
+government_agency,GIP International,http://pro.ovh.net/~gipinter/,pro.ovh.net,
+government_agency,Délégation Provence et Corse,http://www.provence-corse.cnrs.fr/,provence-corse.cnrs.fr,
 ministry,Ministry of Industry,http://www.redressement-productif.gouv.fr/,redressement-productif.gouv.fr,
+government_agency,Ministry of Industry,http://www.redressement-productif.gouv.fr/,redressement-productif.gouv.fr,central
 parliament,Regional Council of Provence-Alpes-Côte d'Azur,http://www.regionpaca.fr,regionpaca.fr,central-1
 parliament,Regional council of Réunion,https://www.regionreunion.com/,regionreunion.com,central-1
+government_agency,Rémi,https://www.remi-centrevaldeloire.fr/,remi-centrevaldeloire.fr,
+government_agency,Centre Rennes,http://www.rennes.inra.fr/,rennes.inra.fr,
+government_agency,Q55475755,http://rennes.tribunal-administratif.fr/,rennes.tribunal-administratif.fr,
+government_agency,Réseau Mistral,https://www.reseaumistral.com/,reseaumistral.com,
+government_agency,Consulate General of China in Saint-Denis,http://reunion-sdn.china-consulate.org/fra,reunion-sdn.china-consulate.org,central-1
+government_agency,"délégation Rhône-Alpes, Auvergne",http://www.rhone-alpes-auvergne.inserm.fr/,rhone-alpes-auvergne.inserm.fr,
+government_agency,Rhône-Alpes Regional Chamber of Commerce and Industry,http://www.rhone-alpes.cci.fr/,rhone-alpes.cci.fr,
 parliament,general council of Rhône,http://www.rhone.fr/,rhone.fr,
+government_agency,Taipei Representative Office in France,https://www.roc-taiwan.org/fr_fr/,roc-taiwan.org,
+government_agency,Q60167268,https://www.rouen.fr/adresse/police-municipale,rouen.fr,
+government_agency,Régie des transports de l'Aisne,http://www.rta02.com/default.asp,rta02.com,
+government_agency,"Embassy of Rwanda, Paris",https://www.rwandainfrance.gov.rw/,rwandainfrance.gov.rw,central
+government_agency,Département Santé animale,http://www.sa.inra.fr/,sa.inra.fr,
+government_agency,Département Sciences pour l’action et le développement,http://www.sad.inra.fr/,sad.inra.fr,
+government_agency,"Département Sciences sociales, agriculture et alimentation, espace et environnement",http://www.sae2.inra.fr/,sae2.inra.fr,
+government_agency,Q55475758,http://saint-martin.tribunal-administratif.fr/,saint-martin.tribunal-administratif.fr,
+government_agency,Q56146650,http://saint-pierre-et-miquelon.tribunal-administratif.fr/,saint-pierre-et-miquelon.tribunal-administratif.fr,
+government_agency,Ministry of Health and Sport of France,http://www.sante-sports.gouv.fr,sante-sports.gouv.fr,central
 ministry,Ministry of Health and Sport of France,http://www.sante-sports.gouv.fr,sante-sports.gouv.fr,
 ministry,"Ministry of Labour, Health and Solidarity",https://sante.gouv.fr,sante.gouv.fr,
+government_agency,"Ministry of Labour, Health and Solidarity",https://sante.gouv.fr,sante.gouv.fr,
 parliament,departmental council of Savoie,https://www.savoie.fr/,savoie.fr,
+government_agency,"Consulate General of Portugal, Marseille",http://www.secomunidades.pt/web/marselha,secomunidades.pt,
+government_agency,"portuguese consulate, Lyon",http://www.secomunidades.pt/web/lyon,secomunidades.pt,
+government_agency,Civil defense of France,https://www.securite-civile.interieur.gouv.fr/,securite-civile.interieur.gouv.fr,central
 ministry,Civil defense of France,https://www.securite-civile.interieur.gouv.fr/,securite-civile.interieur.gouv.fr,
 parliament,general council of Seine-et-Marne,http://www.seine-et-marne.fr/,seine-et-marne.fr,
 parliament,departmental council of Seine-Maritime,https://www.seinemaritime.fr/,seinemaritime.fr,
 parliament,general council of Seine-Maritime,http://www.seinemaritime.net/,seinemaritime.net,
+government_agency,Senate,https://www.senat.fr/,senat.fr,central
+government_agency,Q16507658,http://senconsulatmarseille.com,senconsulatmarseille.com,
+government_agency,Directorate of Health of French Polynesia,https://www.service-public.pf/dsp/,service-public.pf,
+government_agency,"Service d'études sur les transports, les routes et leurs aménagements",http://www.setra.developpement-durable.gouv.fr/,setra.developpement-durable.gouv.fr,
 ministry,"Service d'études sur les transports, les routes et leurs aménagements",http://www.setra.developpement-durable.gouv.fr/,setra.developpement-durable.gouv.fr,
+government_agency,Secrétariat général de la défense et de la sécurité nationale,http://www.sgdsn.gouv.fr/,sgdsn.gouv.fr,
+government_agency,VIGINUM,https://www.sgdsn.gouv.fr/notre-organisation/composantes/service-de-vigilance-et-protection-contre-les-ingerences-numeriques,sgdsn.gouv.fr,
 ministry,Ministry of People with Disabilities and the Fight against Exclusion,"http://www.social-sante.gouv.fr/espaces,770/handicap,775/",social-sante.gouv.fr,
+government_agency,Ministry of People with Disabilities and the Fight against Exclusion,"http://www.social-sante.gouv.fr/espaces,770/handicap,775/",social-sante.gouv.fr,central
+government_agency,Direction générale de la Santé,https://solidarites-sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-generale-de-la-sante-dgs,solidarites-sante.gouv.fr,
+government_agency,"Ministry of Labour, Health and Solidarity",https://solidarites.gouv.fr,solidarites.gouv.fr,
 ministry,"Ministry of Labour, Health and Solidarity",https://solidarites.gouv.fr,solidarites.gouv.fr,
+government_agency,Embassy of South Sudan in France,http://www.southsudanembassyparis.net/,southsudanembassyparis.net,local
+government_agency,Département Santé des plantes et environnement,http://www.spe.inra.fr/,spe.inra.fr,
 ministry,Ministry of Sports,https://www.sports.gouv.fr/,sports.gouv.fr,
+government_agency,Ministry of Sports,https://www.sports.gouv.fr/,sports.gouv.fr,
+government_agency,Embassy of Sri Lanka in France,https://www.srilankaembassy.fr,srilankaembassy.fr,local
+government_agency,"Embassy of Iceland, Paris",https://www.stjornarradid.is/sendiskrifstofur/sendirad-islands-i-paris/,stjornarradid.is,local
+government_agency,"Consulate General of Japan, Strasbourg",https://www.strasbourg.fr.emb-japan.go.jp,strasbourg.fr.emb-japan.go.jp,
+government_agency,Q16507623,https://strasbourg.mae.lu/fr/service_citoyens.html,strasbourg.mae.lu,
+government_agency,Q16507613,http://strasbourg.mae.ro/fr,strasbourg.mae.ro,
+government_agency,"Consulate General of Russia, Strasbourg",https://strasbourg.mid.ru/,strasbourg.mid.ru,
+government_agency,Permanent Mission of Slovenia to the Council of Europe,http://strasbourg.representation.si/,strasbourg.representation.si,
+government_agency,Q3538843,http://strasbourg.tribunal-administratif.fr/,strasbourg.tribunal-administratif.fr,
+government_agency,Permanent Mission of the Federal Republic of Germany to the Council of Europe,https://strassburg-europarat.diplo.de/,strassburg-europarat.diplo.de,
+government_agency,"Consulate General of Germany, Strasbourg",https://strassburg.diplo.de,strassburg.diplo.de,
+government_agency,"Consulate General of Turkey, Strasbourg",https://strazburg-bk.mfa.gov.tr,strazburg-bk.mfa.gov.tr,
+government_agency,Q140701082,https://www.supplay.fr/,supplay.fr,
+government_agency,"Embassy of Sweden, Paris",https://www.swedenabroad.se/sv/utlandsmyndigheter/frankrike-paris/,swedenabroad.se,central
+government_agency,Synergie,https://www.synergie.fr,synergie.fr,
+government_agency,Q139379163,https://www.tae-paris.org/,tae-paris.org,
+government_agency,Transports en commun lyonnais,http://www.tcl.fr/,tcl.fr,
+government_agency,Temporis,https://www.temporis-franchise.fr/,temporis-franchise.fr,
+government_agency,"Embassy of Thailand, Paris",https://www.thaiembassy.fr,thaiembassy.fr,local
+government_agency,National Court for Health and Social Services Rates,http://titss-cntss.fr/,titss-cntss.fr,central
+government_agency,Q21027490,http://toulouse.tribunal-administratif.fr/,toulouse.tribunal-administratif.fr,
+government_agency,Q111083328,https://www.tours.fr/services-infos-pratiques/289-police-municipale.htm,tours.fr,
+government_agency,Tribunal des conflits,http://www.tribunal-conflits.fr,tribunal-conflits.fr,
+government_agency,Parquet national financier,https://www.tribunal-de-paris.justice.fr/75/accueil-parquet-national-financier,tribunal-de-paris.justice.fr,
+government_agency,Tribunal de grande instance de Paris,https://www.tribunal-de-paris.justice.fr/75,tribunal-de-paris.justice.fr,
+government_agency,Tribunal judiciaire de Paris,https://www.tribunal-de-paris.justice.fr/75,tribunal-de-paris.justice.fr,
+government_agency,Q108457439,https://www.tribunal-de-paris.justice.fr,tribunal-de-paris.justice.fr,
+government_agency,Q48755315,https://tribunal-stationnement-payant.fr/,tribunal-stationnement-payant.fr,
+government_agency,Txik Txak,https://www.txiktxak.fr/,txiktxak.fr,
+government_agency,Health technologies,https://www.u-bordeaux.fr/Colleges-et-departements/Departement-Sciences-du-vivant-et-de-la-sante/Technologies-pour-la-Sante-Technologies-for-Health,u-bordeaux.fr,
+government_agency,Q63147119,http://ugcb.net,ugcb.net,
+government_agency,Permanent Delegation of Denmark to the OECD,https://um.dk/oecd/,um.dk,
+government_agency,Instituts Français de Recherche à l'Etranger,https://www.umifre.fr/,umifre.fr,
+government_agency,French National Commission for UNESCO,https://unesco.delegfrance.org/,unesco.delegfrance.org,
+government_agency,"Permanent Mission of the Federal Republic of Germany to the United Nations Educational, Scientific and Cultural Organization",https://unesco.diplo.de/,unesco.diplo.de,
+government_agency,Permanent Delegation of Japan to the United Nations Educational Scientific and Cultural Organization,http://www.unesco.emb-japan.go.jp/,unesco.emb-japan.go.jp,
+government_agency,Permanent Mission of Denmark to UNESCO,https://unesco.um.dk,unesco.um.dk,
+government_agency,URBA 2000,http://www.urba2000.com/urba21/,urba2000.com,
+government_agency,United States Mission to OECD,https://usoecd.usmission.gov/,usoecd.usmission.gov,local
+government_agency,Q3000924,http://versailles.cour-administrative-appel.fr/,versailles.cour-administrative-appel.fr,
+government_agency,SCHAPI,http://www.vigicrues.gouv.fr,vigicrues.gouv.fr,
 constitutional_court,SCHAPI,http://www.vigicrues.gouv.fr,vigicrues.gouv.fr,
 ministry,Ministry of City Affairs,http://www.ville.gouv.fr/,ville.gouv.fr,
+government_agency,Ministry of City Affairs,http://www.ville.gouv.fr/,ville.gouv.fr,central
 parliament,departmental council of Vosges,http://www.vosges.fr/,vosges.fr,local
 parliament,general council of Vosges,http://www.vosges.fr,vosges.fr,
+government_agency,Q56146789,http://wallis-et-futuna.tribunal-administratif.fr/,wallis-et-futuna.tribunal-administratif.fr,
+government_agency,World Health Organization (France),http://www.who.int/ihr/lyon/en/,who.int,
+government_agency,Research and Technology Computing Center,https://www-ccrt.cea.fr/,www-ccrt.cea.fr,
+government_agency,CEA Saclay,http://www-centre-saclay.cea.fr/fr,www-centre-saclay.cea.fr,
+government_agency,Direction des Applications Militaires,http://www-dam.cea.fr,www-dam.cea.fr,
+government_agency,CEA Le Ripault,http://www-dam.cea.fr/organisation-competences/le-ripault.html,www-dam.cea.fr,
+government_agency,CEA de Bruyères-le-Châtel,http://www-dam.cea.fr/organisation-competences/dif.html,www-dam.cea.fr,
+government_agency,CEA LIST,http://www-list.cea.fr/index.php,www-list.cea.fr,
+government_agency,CEA Marcoule,http://www-marcoule.cea.fr/scripts/home/publigen/content/templates/show.asp?L=FR&P=581&vticker=news,www-marcoule.cea.fr,
 parliament,general council of Doubs,http://www2.doubs.fr/index.php,www2.doubs.fr,
+government_agency,Embassy of Latvia in Paris,https://www2.mfa.gov.lv/paris,www2.mfa.gov.lv,central
+government_agency,"Embassy of Zimbabwe, Paris",http://www.zimparis.gov.zw/,zimparis.gov.zw,central
+university,"Paul-Valéry University (Montpellier, 1970-2024)",https://www.univ-montp3.fr/,univ-montp3.fr,university
+university,École nationale supérieure des sciences de l'information et des bibliothèques,http://www.enssib.fr,enssib.fr,university
+university,Paris Nanterre University,https://www.parisnanterre.fr/,parisnanterre.fr,university
+university,University of Le Havre,https://www.univ-lehavre.fr/,univ-lehavre.fr,university
+university,University of Technology of Troyes,http://www.utt.fr/,utt.fr,university
+university,Institut national des langues et civilisations orientales,http://www.inalco.fr/,inalco.fr,university
+university,Institut national des langues et civilisations orientales,http://www.inalco.fr/en/,inalco.fr,university
+university,Nantes University,https://english.univ-nantes.fr/,english.univ-nantes.fr,university
+university,Nantes University,https://www.univ-nantes.fr/,univ-nantes.fr,university
+university,University of Corsica Pasquale Paoli,https://www.universita.corsica,universita.corsica,university
+university,University of French Polynesia,https://www.upf.pf/fr,upf.pf,university
+university,University of Toulon,http://www.univ-tln.fr/,univ-tln.fr,university
+university,University of La Rochelle,http://www.univ-larochelle.fr/,univ-larochelle.fr,university
+university,Aix-Marseille University,https://www.univ-amu.fr/,univ-amu.fr,university
+university,Aix-Marseille University,https://www.univ-amu.fr/en,univ-amu.fr,university
+university,University of Southern Brittany,https://www.univ-ubs.fr/,univ-ubs.fr,university
+university,University of Picardie Jules Verne,https://www.u-picardie.fr,u-picardie.fr,university
+university,University of Paris 1 Pantheon-Sorbonne,https://www.pantheonsorbonne.fr,pantheonsorbonne.fr,university
+university,University of Lille,https://www.univ-lille.fr/,univ-lille.fr,university
+university,University of Nîmes,http://www.unimes.fr/en/,unimes.fr,university
+university,Polytechnic University of Hauts-de-France,http://www.uphf.fr/,uphf.fr,university
+university,National Polytechnic Institute of Toulouse,http://www.inp-toulouse.fr,inp-toulouse.fr,university
+university,École des chartes,https://www.chartes.psl.eu/,chartes.psl.eu,university
+university,École pratique des hautes études,https://www.ephe.psl.eu/,ephe.psl.eu,university
+university,School for Advanced Studies in the Social Sciences,https://www.ehess.fr/,ehess.fr,university
+university,University of Reims,https://www.univ-reims.eu/,univ-reims.eu,university
+university,University of Évry Val d'Essonne,https://www.univ-evry.fr,univ-evry.fr,university
+university,University Toulouse - Jean Jaurès,http://www.univ-tlse2.fr/,univ-tlse2.fr,university
+university,University of Angers,https://www.univ-angers.fr/,univ-angers.fr,university
+university,Paris Dauphine University,https://dauphine.psl.eu/,dauphine.psl.eu,university
+university,Clermont Auvergne University,https://www.uca.fr,uca.fr,university
+university,Paris 12 University,https://www.u-pec.fr/,u-pec.fr,university
+university,Languedoc Roussillon Universities,http://www.languedoc-roussillon-universites.fr/,languedoc-roussillon-universites.fr,university
+university,PSL Research University,https://psl.eu,psl.eu,university
+university,Savoy Mont Blanc University,https://www.univ-smb.fr/,univ-smb.fr,university
+university,University of Reims,https://www.univ-reims.fr/,univ-reims.fr,university
+university,Université de Bretagne Occidentale,https://www.univ-brest.fr,univ-brest.fr,university
+university,University of Burgundy Europe,https://www.ube.fr/,ube.fr,university
+university,Institut d'études politiques de Rennes,https://www.sciencespo-rennes.fr,sciencespo-rennes.fr,university
+university,INSEP,https://www.insep.fr/fr,insep.fr,university
+university,Institut polytechnique de Bordeaux,https://www.bordeaux-inp.fr/,bordeaux-inp.fr,university
+university,Avignon University,https://univ-avignon.fr/,univ-avignon.fr,university
+university,Upper Alsace University,https://www.uha.fr/fr,uha.fr,university
+university,University of Paris-Seine,http://www.universiteparisseine.fr,universiteparisseine.fr,university
+university,University of Perpignan,https://www.univ-perp.fr/,univ-perp.fr,university
+university,"AgroParisTech, Paris-Saclay University",http://www.agroparistech.fr/,agroparistech.fr,university
+university,University of Limoges,https://unilim.fr,unilim.fr,university
+university,Paris North University,https://www.univ-spn.fr/,univ-spn.fr,university
+university,Paris 8 University,https://www.univ-paris8.fr/,univ-paris8.fr,university
+university,École Centrale de Lille,https://centralelille.fr/,centralelille.fr,university
+university,University of Lorraine,https://www.univ-lorraine.fr/,univ-lorraine.fr,university
+university,Normandy University,http://www.normandie-univ.fr/,normandie-univ.fr,university
+university,University of Burgundy Europe,https://www.ube.fr/en/,ube.fr,university
+university,University of Burgundy Europe,http://www.u-bourgogne.fr/,u-bourgogne.fr,university
+university,Grenoble Institute of Technology,https://www.grenoble-inp.fr,grenoble-inp.fr,university
+university,Côte d'Azur Observatory,https://www.oca.eu/en/,oca.eu,university
+university,Côte d'Azur Observatory,https://www.oca.eu/fr/,oca.eu,university
+university,Burgundy - Franche-Comté University Group,http://www.ubfc.fr/,ubfc.fr,university
+university,École nationale supérieure de chimie de Rennes,https://www.ensc-rennes.fr,ensc-rennes.fr,university
+university,École nationale supérieure de chimie de Mulhouse,https://www.enscmu.uha.fr,enscmu.uha.fr,university
+university,France's National Police College,https://www.ensp.interieur.gouv.fr/,ensp.interieur.gouv.fr,university
+university,Panthéon-Assas University Paris,https://www.assas-universite.fr,assas-universite.fr,university
+university,CentraleSupélec,https://www.centralesupelec.fr/,centralesupelec.fr,university
+university,University of Caen Normandy,https://www.unicaen.fr/,unicaen.fr,university
+university,University of Côte d'Azur,https://univ-cotedazur.fr/,univ-cotedazur.fr,university
+university,University of Pau and Pays de l'Adour,https://www.univ-pau.fr,univ-pau.fr,university
+university,Sorbonne University,https://www.sorbonne-universite.fr/,sorbonne-universite.fr,university
+university,University of French Guiana,https://www.univ-guyane.fr/,univ-guyane.fr,university
+university,University of the French Antilles,https://www.univ-antilles.fr/,univ-antilles.fr,university
+university,University of Rennes 2 – Upper Brittany,https://www.univ-rennes2.fr/,univ-rennes2.fr,university
+university,"Paris Observatory, PSL University",https://www.observatoiredeparis.psl.eu/,observatoiredeparis.psl.eu,university
+university,University of La Réunion,https://www.univ-reunion.fr/,univ-reunion.fr,university
+university,University of Strasbourg,https://www.unistra.fr,unistra.fr,university
+university,University of Strasbourg,https://www.unistra.fr/,unistra.fr,university
+university,Sorbonne Nouvelle-Paris 3,https://www.sorbonne-nouvelle.fr/,sorbonne-nouvelle.fr,university
+university,Jean Moulin University - Lyon 3,https://www.univ-lyon3.fr/,univ-lyon3.fr,university
+university,Claude Bernard University Lyon 1,https://www.univ-lyon1.fr/,univ-lyon1.fr,university
+university,Gustave Eiffel University,https://www.univ-gustave-eiffel.fr/,univ-gustave-eiffel.fr,university
+university,University of Lyon,https://www.universite-lyon.fr/,universite-lyon.fr,university
+university,Lumière University Lyon 2,https://www.univ-lyon2.fr/,univ-lyon2.fr,university
+university,Paris-Saclay University,https://www.universite-paris-saclay.fr,universite-paris-saclay.fr,university
+university,Le Mans Université,https://www.univ-lemans.fr/,univ-lemans.fr,university
+university,Tours University,https://www.univ-tours.fr/,univ-tours.fr,university
+university,University of Côte d'Azur,https://univ-cotedazur.eu/,univ-cotedazur.eu,university
+university,Artois University,https://www.univ-artois.fr/,univ-artois.fr,university
+university,University of Rouen-Normandy,https://www.univ-rouen.fr,univ-rouen.fr,university
+university,Paris Cité University,https://u-paris.fr,u-paris.fr,university
+university,Sciences Po,https://www.sciencespo.fr/,sciencespo.fr,university
+university,Grenoble Alpes University,https://www.univ-grenoble-alpes.fr/,univ-grenoble-alpes.fr,university
+university,Marie and Louis Pasteur University,https://umlp.fr/,umlp.fr,university
+university,University of New Caledonia,https://unc.nc/,unc.nc,university
+university,Jean Monnet University,https://www.univ-st-etienne.fr,univ-st-etienne.fr,university
+university,Bretagne Institute of Technology,https://bretagne-inp.fr/,bretagne-inp.fr,university
+university,CY Cergy Paris University,https://www.cyu.fr,cyu.fr,university
+university,University of Valenciennes,http://univ-valenciennes.fr/,univ-valenciennes.fr,university
+university,University of Montpellier,http://www.umontpellier.fr/,umontpellier.fr,university
+university,University of Orléans,https://www.univ-orleans.fr/,univ-orleans.fr,university
+university,Bordeaux Montaigne University,http://www.u-bordeaux-montaigne.fr/,u-bordeaux-montaigne.fr,university
+university,University of Toulouse,http://www.univ-toulouse.fr/,univ-toulouse.fr,university
+university,National Polytechnic Institute of Clermont Auvergne,https://www.clermont-auvergne-inp.fr/,clermont-auvergne-inp.fr,university
+university,Université de Versailles Saint-Quentin-en-Yvelines,https://www.uvsq.fr/,uvsq.fr,university
+university,Toulouse Capitole University,https://www.ut-capitole.fr/,ut-capitole.fr,university
+university,University of Bordeaux,https://www.u-bordeaux.fr/,u-bordeaux.fr,university
+university,University of Montpellier,https://www.umontpellier.fr/en/,umontpellier.fr,university
+university,University of Poitiers,https://www.univ-poitiers.fr/,univ-poitiers.fr,university

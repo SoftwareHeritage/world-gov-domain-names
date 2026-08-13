@@ -30,11 +30,27 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 6 | `moesomalia.net` | wikidata;wikidata | Ministry of Education (Somalia) | Ministry of Education, Culture and Higher E... |
-| 3 | `mfa.somaligov.net` | wikidata | Ministry of Foreign Affairs and International Cooperation of the Federal Repu... |
+| 6 | `mfa.somaligov.net` | wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation of the Federal Repu... |
+| 4 | `dns.org.so` | wikidata | Directorate of National Statistics |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Mogadishu |
+| 4 | `pha.pl.so` | wikidata | Puntland Highway Authority |
+| 4 | `pmpf.so` | wikidata | Puntland Maritime Police Force |
+| 4 | `so.usembassy.gov` | wikidata | Embassy of the United States, Mogadishu |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Somalia |
+| 3 | `mict.govsomaliland.org` | wikidata | Ministry of Information and Communication Technology |
+| 1 | `moesomalia.net` | wikidata;wikidata;wikidata;wikidata | Ministry of Education, Culture and Higher Education | Ministry of Education (... |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `snu.edu.so` | wikidata | Somali National University |
+| 4 | `moitt.pl.so` | wikidata | Ministry of Information, Technology and Tourism |
 

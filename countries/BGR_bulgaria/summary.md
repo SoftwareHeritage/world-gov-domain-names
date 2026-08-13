@@ -30,37 +30,46 @@
 
 ## Candidate domains ranked by score
 
-24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+533 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `egov.bg` | un_desa;linkgraph | UN/DESA national portal |
+| 10 | `government.bg` | wikidata;linkgraph | Council of Ministers of Bulgaria |
 | 10 | `parliament.bg` | wikidata;wikidata;linkgraph | National Assembly of Bulgaria |
-| 7 | `government.bg` | linkgraph | Linked from 20 public-sector domains |
-| 7 | `mc.government.bg` | wikidata;wikidata | Ministry of Culture of Bulgaria |
-| 7 | `me.government.bg` | wikidata;wikidata | Ministry of Energy of Bulgaria |
-| 7 | `mfa.bg` | wikidata;wikidata | Ministry of Foreign Affairs of Bulgaria |
-| 7 | `mh.government.bg` | wikidata;wikidata | Ministry of Health of Bulgaria |
-| 7 | `minfin.bg` | wikidata;wikidata | Ministry of Finance |
-| 7 | `moew.government.bg` | wikidata;wikidata | Ministry of Environment and Water |
-| 7 | `mon.bg` | wikidata;wikidata | Ministry of Education and Science of Bulgaria |
-| 7 | `mpes.government.bg` | wikidata;wikidata | Ministry of Youth and Sports of Bulgaria |
-| 7 | `mtitc.government.bg` | wikidata;wikidata | Ministry of Transport, Information Technology and Communications |
-| 7 | `mvr.bg` | wikidata;wikidata | Ministry of Interior of Bulgaria |
-| 7 | `tourism.government.bg` | wikidata;wikidata | Ministry of Tourism |
-| 5 | `cpdp.bg` | linkgraph | Linked from 5 public-sector domains |
-| 4 | `egov.government.bg` | wikidata | Ministry of Electronic Government |
-| 4 | `justice.government.bg` | wikidata | Ministry of Justice |
-| 4 | `kzp.bg` | linkgraph | Linked from 3 public-sector domains |
-| 4 | `mi.government.bg` | wikidata | Ministry of Economy and Industry |
-| 4 | `mig.government.bg` | wikidata | Ministry of Innovation and Growth |
+| 8 | `cpdp.bg` | wikidata;linkgraph | Commission for Personal Data Protection |
+| 7 | `bda.bg` | wikidata;wikidata | Bulgarian Drug Agency |
+| 7 | `bnb.bg` | wikidata;wikidata | Bulgarian National Bank |
+| 7 | `cpc.bg` | wikidata;wikidata | Commission for Protection of Competition |
+| 7 | `dar.bg` | wikidata;wikidata | State Intelligence Agency |
+| 7 | `dobrich.bg` | wikidata;wikidata | Dobrich |
+| 7 | `eea.government.bg` | wikidata;wikidata | Executive Environment Agency |
+| 7 | `egov.government.bg` | wikidata;wikidata | Ministry of Electronic Government |
+| 7 | `gdbop.bg` | wikidata;wikidata | General Directorate Combating Organized Crime | Q12276994 |
+| 7 | `gotsedelchev.bg` | wikidata;wikidata | Gotse Delchev |
+| 7 | `gulyantsi.bg` | wikidata;wikidata | Gulyantsi |
+| 7 | `iag.bg` | wikidata;wikidata | Executive Forest Agency |
+| 7 | `justice.government.bg` | wikidata;wikidata | Ministry of Justice |
+| 7 | `kzp.bg` | wikidata;linkgraph | Consumer Protection Commission |
+| 7 | `mi.government.bg` | wikidata;wikidata | Ministry of Economy and Industry |
+| 7 | `mig.government.bg` | wikidata;wikidata | Ministry of Innovation and Growth |
+| 7 | `nra.bg` | wikidata;linkgraph | National Revenue Agency |
 
 ## Local / regional candidates
 
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+273 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 179 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `mrrb.bg` | wikidata;wikidata | Ministry of Regional Development and Public Works |
+| 4 | `berkovitca.iag.bg` | wikidata | Regional Forest Directorate - Berkovitza |
+| 4 | `blagoevgrad-adms.justice.bg` | wikidata | Administrative Court - Blagoevgrad |
+| 4 | `blagoevgrad-os.justice.bg` | wikidata | District Court - Blagoevgrad |
+| 4 | `blagoevgrad-rs.justice.bg` | wikidata | Regional Court - Blagoevgrad |
+| 4 | `blagoevgrad.iag.bg` | wikidata | Regional Forest Directorate - Blagoevgrad |
+| 4 | `burgas-adms.justice.bg` | wikidata | Administrative Court - Burgas |
+| 4 | `burgas-as.justice.bg` | wikidata | Appellate court - Burgas |
+| 4 | `burgas-os.justice.bg` | wikidata | District Court - Burgas |
+| 4 | `burgas-rs.justice.bg` | wikidata | Regional Court - Burgas |
+| 4 | `burgas.iag.bg` | wikidata | Regional Forest Directorate - Burgas |
 

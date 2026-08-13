@@ -6,7 +6,7 @@
 - Region: Americas / Caribbean
 - Languages: English
 - Population: 67408
-- GDP per capita: 10405 US$ (2024)
+- GDP per capita: 10989 US$ (2025)
 - Currencies: XCD
 - ccTLD: `.dm` (manager: DotDM Corporation)
 - OECD: non-member
@@ -30,5 +30,11 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `daic.dm` | wikidata | Dominica Association of Industry and Commerce |
+| 3 | `eccb-centralbank.org` | wikidata | Eastern Caribbean Central Bank |
 

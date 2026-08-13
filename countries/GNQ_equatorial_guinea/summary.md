@@ -6,7 +6,7 @@
 - Region: Africa / Middle Africa
 - Languages: French; Portuguese; Spanish
 - Population: 1668768
-- GDP per capita: 6745 US$ (2024)
+- GDP per capita: 6615 US$ (2025)
 - Currencies: XAF
 - ccTLD: `.com` (manager: VeriSign Global Registry Services)
 - OECD: non-member
@@ -30,13 +30,29 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `geagricultura.com` | wikidata | Ministry of Agriculture and Forestry |
-| 3 | `dominicoshispania.org` | wikidata | Province of Hispania of the Order of Preachers |
+| 7 | `geagricultura.com` | wikidata;wikidata | Ministry of Agriculture and Forestry |
+| 6 | `dominicoshispania.org` | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 6 | `piaristesafriquecentrale.org` | wikidata;wikidata | Piarist province of Central Africa |
+| 4 | `ghanaembassy-equatorialguinea.com` | wikidata | embassy of Ghana in Equatorial Guinea |
+| 4 | `gq.usembassy.gov` | wikidata | Embassy of the United States, Malabo |
+| 3 | `aegle.gq` | wikidata | Academia Ecuatoguineana de la Lengua Española |
+| 3 | `gq.ambafrance.org` | wikidata | Embassy of France, Malabo |
+| 3 | `gq.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Malabo |
+| 3 | `inege.gq` | wikidata | Instituto Nacional de Estadística de Guinea Ecuatorial |
 | 3 | `mae-ge.org` | wikidata | Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea |
-| 3 | `piaristesafriquecentrale.org` | wikidata | Piarist province of Central Africa |
+| 3 | `senado-gq.org` | wikidata | Senate of Equatorial Guinea |
+
+## Local / regional candidates
+
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `uned.es` | wikidata | Campus UNED Guinea Ecuatorial |
+| 3 | `beac.int` | wikidata | Bank of Central African States |
 

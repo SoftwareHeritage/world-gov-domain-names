@@ -1,33 +1,499 @@
 type,label,website,hostname,level
+government_agency,"Norwegian Archive, Library and Museum Authority",http://www.abm-utvikling.no,abm-utvikling.no,
+government_agency,Advokatnemnda,https://advnemnda.no/,advnemnda.no,central
+government_agency,"Embassy of Afghanistan, Oslo",https://www.afghanistanembassy.no,afghanistanembassy.no,central
+government_agency,Akershus University Hospital,https://www.ahus.no,ahus.no,
+government_agency,Norwegian Accreditation,http://www.akkreditert.no,akkreditert.no,
+government_agency,Agder Kollektivtrafikk,http://www.akt.no/,akt.no,
+government_agency,"Embassy of Algeria, Oslo",https://algerianembassy.no/,algerianembassy.no,central
+government_agency,"Embassy of France, Oslo",http://www.ambafrance-no.org/,ambafrance-no.org,central
+government_agency,"Embassy of Kosovo, Oslo",https://ambasadat.net/Norvegji/,ambasadat.net,central
+government_agency,"Embassy of Italy, Oslo",https://amboslo.esteri.it/ambasciata_oslo/it/,amboslo.esteri.it,central
+government_agency,Q11957688,http://www.ambulanse-midt.no/,ambulanse-midt.no,
+government_agency,Labour Court,https://arbeidsretten.no,arbeidsretten.no,
+government_agency,Norwegian Labour Inspection Authority,http://www.arbeidstilsynet.no,arbeidstilsynet.no,
+government_agency,Norwegian Biodiversity Information Centre,https://www.artsdatabanken.no,artsdatabanken.no,
+government_agency,AtB,http://www.atb.no/,atb.no,
+government_agency,Norwegian Barents Secretariat,http://www.barents.no/,barents.no,
+government_agency,Children's Ombudsperson of Norway,https://barneombudet.no,barneombudet.no,
+government_agency,Children's Ombudsperson of Norway,https://barneombudet.no/julevsamegiella,barneombudet.no,
+government_agency,Children's Ombudsperson of Norway,https://barneombudet.no/english,barneombudet.no,
+government_agency,Children's Ombudsperson of Norway,https://barneombudet.no/samegiella,barneombudet.no,
+government_agency,Children's Ombudsperson of Norway,https://barneombudet.no/aarjelsaemien,barneombudet.no,
+government_agency,Bergen Chamber of Commerce and Industry,https://www.bergen-chamber.no/,bergen-chamber.no,
+government_agency,Bergen City Government,https://bergen.kommune.no/bystyret,bergen.kommune.no,local
+government_agency,Bergen Kommune Byrådsavd for Helse og Omsorg,https://www.bergen.kommune.no/omkommunen/avdelinger/byradsavd-for-helse-og-omsorg,bergen.kommune.no,
+government_agency,Bymiljøetaten,https://www.bergen.kommune.no/omkommunen/avdelinger/bymiljoetaten,bergen.kommune.no,local
+government_agency,Q11960671,https://bergenhavn.no/,bergenhavn.no,
+government_agency,Norwegian Biotechnology Advisory Board,https://www.bioteknologiradet.no/,bioteknologiradet.no,
+government_agency,Brakar,http://www.brakar.no/,brakar.no,
+government_agency,Q18646822,http://www.brann-og-redningsetaten.oslo.kommune.no/,brann-og-redningsetaten.oslo.kommune.no,
+government_agency,Brannvesenet Midt IKS,https://brannmidt.no/,brannmidt.no,
+government_agency,Brønnøysund Register Centre,https://www.brreg.no/,brreg.no,
+government_agency,Q11992098,https://www.brsk.no/,brsk.no,
+government_agency,"Office for Children, Youth and Family Affairs",https://bufdir.no/,bufdir.no,
+government_agency,"Office for Children, Youth and Family Affairs",https://bufdir.no/en,bufdir.no,
+government_agency,"Norwegian Directorate for Children, Youth and Family Affairs",https://www.bufdir.no/,bufdir.no,
+government_agency,"Norwegian Directorate for Children, Youth and Family Affairs",https://bufdir.no/en,bufdir.no,
+government_agency,County Social Welfare Boards,https://www.bvhn.no/,bvhn.no,
+government_agency,Q11999959,https://www.bvhn.no/,bvhn.no,
+government_agency,Oslo City Council,https://bystyret.oslo.kommune.no,bystyret.oslo.kommune.no,local
+government_agency,"Embassy of Canada, Oslo",http://www.canadainternational.gc.ca/norway-norvege/index.aspx?lang=eng,canadainternational.gc.ca,central
+government_agency,Oslo Chamber of Commerce,http://chamber.no/,chamber.no,
+government_agency,"Embassy of Chile, Oslo",https://www.chile.gob.cl/noruega/,chile.gob.cl,central
+government_agency,Comparative Research Programme on Poverty,http://www.crop.org/,crop.org,
+government_agency,The Norwegian Data Protection Authority,https://www.datatilsynet.no/en,datatilsynet.no,central
+government_agency,The Norwegian Data Protection Authority,https://www.datatilsynet.no/,datatilsynet.no,central
+government_agency,Norwegian Agency for Export Control and Sanctions,https://www.deksa.no/,deksa.no,
+government_agency,Norwegian Academy,https://www.detnorskeakademi.no/,detnorskeakademi.no,
+government_agency,Norwegian Agency for Public and Financial Management,http://www.dfo.no/,dfo.no,
+government_agency,Norwegian Digitalisation Agency,https://www.digdir.no,digdir.no,
+government_agency,Digitaliseringsrådet,https://www.digdir.no/digitaliseringsradet/digitaliseringsradet/1877,digdir.no,
+government_agency,Q123862765,https://www.dio.dep.no/,dio.dep.no,central
+government_agency,Norwegian Directorate of Mining,https://www.dirmin.no/,dirmin.no,
+government_agency,Centre of Competence on Rural Development,https://distriktssenteret.no/,distriktssenteret.no,
+government_agency,Norwegian Medical Products Agency,https://www.dmp.no/,dmp.no,
+government_agency,Norwegian Centre for Design and Architecture,http://doga.no/english,doga.no,
+government_agency,Hardanger og Voss District Court,https://www.domstol.no/no/domstoler/tingrett/hardanger-og-voss-tingrett/,domstol.no,local
+government_agency,Ringerike og Hallingdal District Court,https://www.domstol.no/no/domstoler/tingrett/ringerike-og-hallingdal-tingrett/,domstol.no,local
+government_agency,Oslo and Østre Viken Land Consolidation Court,https://www.domstol.no/jordskifte-enkelt-domstol/oslo-og-ostre-viken/,domstol.no,
+government_agency,Follo og Nordre Østfold District Court,https://www.domstol.no/enkelt-domstol/follo-og-nordre-ostfold-tingrett/,domstol.no,local
+government_agency,Hordaland District Court,https://www.domstol.no/enkelt-domstol/hordaland-tingrett/,domstol.no,local
+government_agency,Hålogaland Court of Appeal,https://www.domstol.no/nn/enkelt-domstol/halogaland-lagmannsrett/,domstol.no,central-1
+government_agency,Q20112220,https://www.domstol.no/en/domstoler/annen/finnmarkskommisjonen/,domstol.no,central-1
+government_agency,Nedre Telemark District Court,https://www.domstol.no/no/domstoler/tingrett/nedre-telemark-tingrett/,domstol.no,local
+government_agency,Gulating Court of Appeal,https://www.domstol.no/no/domstoler/lagmannsrett/gulating-lagmannsrett/,domstol.no,central-1
+government_agency,Agder District Court,https://www.domstol.no/enkelt-domstol/agder-tingrett/,domstol.no,local
+government_agency,Haugaland og Sunnhordland District Court,https://www.domstol.no/enkelt-domstol/haugaland-og-sunnhordland-tingrett/,domstol.no,local
+government_agency,Judicial Conduct Board of Norway,https://www.domstol.no/no/tilsynsutvalget-for-dommere/,domstol.no,
+government_agency,Midtre Hålogaland tingrett,https://www.domstol.no/enkelt-domstol/midtre-halogaland-tingrett/,domstol.no,local
+government_agency,Vestoppland og Valdres tingrett,https://www.domstol.no/no/domstoler/tingrett/vestoppland-og-valdres-tingrett/,domstol.no,local
+government_agency,The Norwegian Courts Administration,https://www.domstol.no/no/domstoladministrasjonen/,domstol.no,
+government_agency,Borgarting Court of Appeal,http://www.domstol.no/borgarting,domstol.no,central-1
+government_agency,Buskerud District Court,https://www.domstol.no/enkelt-domstol/buskerud-tingrett/,domstol.no,local
+government_agency,Søndre Østfold District Court,https://www.domstol.no/no/domstoler/tingrett/sondre-ostfold-tingrett/,domstol.no,local
+government_agency,Frostating Court of Appeal,https://www.domstol.no/no/domstoler/lagmannsrett/frostating-lagmannsrett/,domstol.no,central-1
+government_agency,Vestre Finnmark District Court,https://www.domstol.no/enkelt-domstol/vestre-finnmark-tingrett/,domstol.no,local
+government_agency,Indre og Østre Finnmark District Court,https://www.domstol.no/enkelt-domstol/indre-og-ostre-finnmark-tingrett/,domstol.no,local
+government_agency,The Finnmark Land Tribunal,https://www.domstol.no/se/enkelt-domstol/Finnmarkku-meahcceduopmostuollu/,domstol.no,
+government_agency,Gudbrandsdal tingrett,https://www.domstol.no/no/domstoler/tingrett/gudbrandsdal-tingrett/,domstol.no,local
+government_agency,Romerike og Glåmdal District Court,https://www.domstol.no/enkelt-domstol/romerike-og-glamdal-tingrett/,domstol.no,local
+government_agency,Hålogaland Court of Appeal,https://www.domstol.no/se/enkelt-domstol/halogaland-lagmannsrett/,domstol.no,central-1
+government_agency,Trøndelag District Court,https://www.domstol.no/enkelt-domstol/trondelag-tingrett/,domstol.no,local
+government_agency,The Finnmark Land Tribunal,https://www.domstol.no/nn/enkelt-domstol/utmarksdomstolen-for-finnmark/,domstol.no,
+government_agency,Oslo District Court,https://www.domstol.no/oslo,domstol.no,local
+government_agency,Nord-Troms og Senja District Court,https://www.domstol.no/enkelt-domstol/nord-troms-og-senja-tingrett/,domstol.no,local
+government_agency,Hålogaland Court of Appeal,https://www.domstol.no/halogaland,domstol.no,central-1
+government_agency,Agder Court of Appeal,http://www.domstol.no/agder,domstol.no,central-1
+government_agency,Eidsivating Court of Appeal,http://www.domstol.no/eidsivating,domstol.no,central-1
+government_agency,The Finnmark Land Tribunal,https://www.domstol.no/enkelt-domstol/utmarksdomstolen-for-finnmark/,domstol.no,
+government_agency,Vestfold District Court,https://www.domstol.no/vestfold,domstol.no,local
+government_agency,Helgeland District Court,https://www.domstol.no/enkelt-domstol/helgeland-tingrett/,domstol.no,local
+government_agency,Q134960601,https://www.domstol.no/sunnmore,domstol.no,local
+government_agency,Sogn og Fjordane District Court,https://www.domstol.no/no/domstoler/tingrett/sogn-og-fjordane-tingrett/,domstol.no,local
+government_agency,Hedmarken og Østerdal District Court,https://www.domstol.no/enkelt-domstol/ostre-innlandet-tingrett/,domstol.no,local
+government_agency,The Finnmark Land Tribunal,https://www.domstol.no/en/enkelt-domstol/Utmarkskommmisjonen/,domstol.no,
+government_agency,Salten og Lofoten District Court,https://www.domstol.no/enkelt-domstol/salten-og-lofoten-tingrett/,domstol.no,local
+government_agency,Supreme Court of Norway,https://www.domstol.no/hoyesterett/,domstol.no,central
+government_agency,Sør-Rogaland District Court,https://www.domstol.no/no/domstoler/tingrett/sor-rogaland-tingrett/,domstol.no,local
+government_agency,Hålogaland Court of Appeal,https://www.domstol.no/en/enkelt-domstol/halogaland-lagmannsrett/,domstol.no,central-1
+government_agency,Norwegian Radiation and Nuclear Safety Authority,https://www.dsa.no/,dsa.no,
+government_agency,Directorate for Civil Protection and Emergency Planning,https://www.dsb.no,dsb.no,
+government_agency,Norwegian Government Security and Service Organisation,http://www.dss.dep.no/,dss.dep.no,
+government_agency,Delegation of the European Union to Norway,https://eeas.europa.eu/delegations/norway_en,eeas.europa.eu,
+government_agency,Norwegian Ombudsman for the Ageing,https://www.eldreombudet.no/,eldreombudet.no,
+government_agency,"Embassy of Mexico, Oslo",https://embamex.sre.gob.mx/noruega,embamex.sre.gob.mx,central
+government_agency,"Embassy of Israel, Oslo",https://embassies.gov.il/oslo,embassies.gov.il,central
+government_agency,Embassy of Saudi Arabia in Oslo,http://embassies.mofa.gov.sa/sites/Norway/,embassies.mofa.gov.sa,central
+government_agency,"Embassy of South Sudan, Oslo",http://www.embrss-norway.org,embrss-norway.org,central
+government_agency,South Norway European Office,http://en.south-norway.no/,en.south-norway.no,
+government_agency,Norwegian Parliamentary Intelligence Oversight Committee,https://eos-utvalget.no,eos-utvalget.no,
+government_agency,Norwegian Parliamentary Intelligence Oversight Committee,https://eos-utvalget.no/en,eos-utvalget.no,
+government_agency,Norwegian National Research Ethics Committees,https://www.etikkom.no/en/,etikkom.no,
+government_agency,Norwegian National Research Ethics Committees,https://www.etikkom.no/,etikkom.no,
+government_agency,Norwegian Intelligence Service,https://www.etterretningstjenesten.no/,etterretningstjenesten.no,
+government_agency,"Embassy of Spain, Oslo",https://www.exteriores.gob.es/Embajadas/oslo/es/Paginas/index.aspx,exteriores.gob.es,central
+government_agency,Farte,https://www.farte.no/,farte.no,central-1
+government_agency,Finnmark Estate,https://fefo.no/?sprak=12,fefo.no,
+government_agency,Finnmark Estate,https://fefo.no/english-menu,fefo.no,
+government_agency,Finnmark Estate,https://fefo.no/?sprak=1,fefo.no,
+government_agency,Norwegian Defence Research Establishment,http://www.ffi.no/,ffi.no,
+government_agency,Norwegian Institute of Public Health,https://fhi.no,fhi.no,
+government_agency,Norwegian Institute of Public Health,https://fhi.no/en,fhi.no,
+government_agency,Financial Supervisory Authority of Norway,http://www.finanstilsynet.no/,finanstilsynet.no,
+government_agency,"Embassy of Finland, Oslo",https://finlandabroad.fi/web/nor,finlandabroad.fi,central
+government_agency,Finnmark Hospital Trust,https://finnmarkssykehuset.no/sa,finnmarkssykehuset.no,
+government_agency,Finnmark Hospital Trust,http://www.finnmarkssykehuset.no/,finnmarkssykehuset.no,
+government_agency,Norwegian Directorate of Fisheries,https://www.fiskeridir.no/,fiskeridir.no,
+government_agency,Norwegian Defence Materiel Agency,https://www.fma.no/,fma.no,
+government_agency,Norwegian Consumer Council,https://www.forbrukerradet.no/,forbrukerradet.no,
+government_agency,Norwegian Consumer Authority,https://www.forbrukertilsynet.no/,forbrukertilsynet.no,
+government_agency,Research Council of Norway,https://forskningsradet.no/en,forskningsradet.no,
+government_agency,Research Council of Norway,https://forskningsradet.no,forskningsradet.no,
+government_agency,Norwegian Defence Estates Agency,https://forsvarsbygg.no,forsvarsbygg.no,
+government_agency,Forsvarshistorisk museum,https://www.forsvarshistoriskmuseum.no/,forsvarshistoriskmuseum.no,
+government_agency,Q111036544,https://forsvarskommisjonen.no/,forsvarskommisjonen.no,
+government_agency,Parliamentary Ombud’s Committee for the Norwegian Armed Forces,https://forsvarsombudet.no/,forsvarsombudet.no,
+government_agency,Parliamentary Ombud’s Committee for the Norwegian Armed Forces,https://forsvarsombudet.no/english/,forsvarsombudet.no,
+government_agency,Fram,http://www.frammr.no/,frammr.no,central-1
+government_agency,Government Pension Fund Norway,http://www.ftf.no/,ftf.no,
+government_agency,County Governor of Vestfold og Telemark,https://www.fylkesmannen.no/vestfold-og-telemark/,fylkesmannen.no,central-1
+government_agency,County Governor of Agder,https://www.fylkesmannen.no/agder/,fylkesmannen.no,central-1
+government_agency,County Governor of Innlandet,https://www.fylkesmannen.no/innlandet/,fylkesmannen.no,central-1
+government_agency,County Governor of Trøndelag,https://www.fylkesmannen.no/Trondelag/,fylkesmannen.no,central-1
+government_agency,County Governor of Møre og Romsdal,https://www.fylkesmannen.no/More-og-Romsdal/,fylkesmannen.no,central-1
+government_agency,County Governor of Vestland,https://www.fylkesmannen.no/nb/vestland/,fylkesmannen.no,central-1
+government_agency,County Governor of Troms and Finnmark,https://www.fylkesmannen.no/troms-finnmark/,fylkesmannen.no,central-1
+government_agency,County Governor of Nordland,https://www.fylkesmannen.no/Nordland/,fylkesmannen.no,central-1
+government_agency,Garantikassen for fiskere,http://www.garantikassen.no/,garantikassen.no,
+government_agency,embassy of Ghana in Norway,https://ghanaembassyoslo.no/,ghanaembassyoslo.no,central
+government_agency,Norwegian Guarantee Institute for Export Credits,http://www.giek.no/,giek.no,
+government_agency,Sámi Giellagáldu,http://www.giella.org/,giella.org,
+government_agency,Criminal Cases Review Commission of Norway,http://www.gjenopptakelse.no/,gjenopptakelse.no,
+government_agency,"Embassy of Kazakhstan, Oslo",https://www.gov.kz/memleket/entities/mfa-oslo,gov.kz,central
+government_agency,"Embassy of Poland, Oslo",https://www.gov.pl/web/norwegia/,gov.pl,central
+government_agency,"Embassy of the United Kingdom, Oslo",https://www.gov.uk/government/world/organisations/british-embassy-oslo/,gov.uk,central
+government_agency,"Embassy of Iceland, Oslo",https://www.government.is/diplomatic-missions/embassy-of-iceland-in-oslo/,government.is,central
+government_agency,Norwegian Border Commisioner for the Norwegian-Russian Border,http://www.grensekom.no/,grensekom.no,
+government_agency,Norwegian Safety Investigation Authority,https://havarikommisjonen.no/Forside,havarikommisjonen.no,
+government_agency,Norwegian Ocean Industry Authority,https://www.havtil.no/,havtil.no,
+government_agency,Q19374104,https://www.hdo.no/,hdo.no,
+government_agency,Norwegian Health Economics Administration,https://www.helfo.no/,helfo.no,
+government_agency,Helgeland Hospital,http://www.helgelandssykehuset.no/,helgelandssykehuset.no,
+government_agency,Bergen Hospital Trust,https://helse-bergen.no,helse-bergen.no,
+government_agency,Bergen Hospital Trust,https://helse-bergen.no/en,helse-bergen.no,
+government_agency,Fonna Hospital Trust,https://helse-fonna.no/,helse-fonna.no,
+government_agency,Førde Health Trust,https://helse-forde.no/,helse-forde.no,
+government_agency,Central Norway Regional Health Authority,http://www.helse-midt.no/,helse-midt.no,
+government_agency,Møre og Romsdal Hospital Trust,http://www.helse-mr.no,helse-mr.no,
+government_agency,Northern Norway Regional Health Authority,http://www.helse-nord.no,helse-nord.no,
+government_agency,Southern and Eastern Norway Regional Health Authority,https://helse-sorost.no/,helse-sorost.no,
+government_agency,Stavanger Health Trust,http://www.helse-stavanger.no,helse-stavanger.no,
+government_agency,Western Norway Regional Health Authority,http://www.helse-vest.no,helse-vest.no,
+government_agency,Norwegian Directorate of Health,https://helsedirektoratet.no/,helsedirektoratet.no,
+government_agency,National Office for Health Service Appeals,https://www.helseklage.no/,helseklage.no,
+government_agency,Northern Norway Regional Health Authority ICT Trust,https://helsenordikt.no/,helsenordikt.no,
+government_agency,Norwegian Board of Health Supervision,https://helsetilsynet.no,helsetilsynet.no,
+government_agency,The Norwegian Directorate for Higher Education and Skills,https://hkdir.no/,hkdir.no,
+government_agency,Nord-Trøndelag Hospital Trust,http://www.hnt.no,hnt.no,
+government_agency,Joint Rescue Coordination Centre of Southern Norway,http://www.hovedredningssentralen.no,hovedredningssentralen.no,
+government_agency,Joint Rescue Coordination Centre of Northern Norway,http://www.hovedredningssentralen.no,hovedredningssentralen.no,
+government_agency,Joint Rescue Coordination Centres,https://www.hovedredningssentralen.no/,hovedredningssentralen.no,
+government_agency,Directorate of Integration and Diversity,https://www.imdi.no/,imdi.no,
+government_agency,"Embassy of India, Oslo",https://www.indianembassyoslo.gov.in/,indianembassyoslo.gov.in,central
+government_agency,Innlandstrafikk,https://innlandstrafikk.no/,innlandstrafikk.no,
+government_agency,"Embassy of Iran, Oslo",http://www.iranembassy.no/,iranembassy.no,central
+government_agency,"Embassy of Ireland, Oslo",https://www.ireland.ie/en/norway/oslo/,ireland.ie,central
+government_agency,Norwegian Railway Directorate,http://www.jernbanedirektoratet.no/,jernbanedirektoratet.no,
+government_agency,Norwegian Metrology Service,http://www.justervesenet.no,justervesenet.no,
+government_agency,Norwegian Mapping Authority,https://kartverket.no,kartverket.no,
+government_agency,Norwegian Mapping Authority,https://kartverket.no/en,kartverket.no,
+government_agency,Klareringsdirektoratet,https://www.kdir.no/,kdir.no,
+government_agency,"embassy of Indonesia, Oslo",https://kemlu.go.id/oslo,kemlu.go.id,central
+government_agency,Norwegian Board of Appeal for Industrial Property Rights,https://kfir.no/,kfir.no,
+government_agency,Joint Tribunal Secretariat of Norway,https://www.klagenemndssekretariatet.no/,klagenemndssekretariatet.no,
+government_agency,Finanstilsynsklagenemnda,https://www.klagenemndssekretariatet.no/finanstilsynsklagenemnda,klagenemndssekretariatet.no,
+government_agency,Q11981087,https://www.klagenemndssekretariatet.no/klagenemda-for-offentlige-anskaffelser-kofa,klagenemndssekretariatet.no,
+government_agency,Energy Tribunal of Norway,https://www.klagenemndssekretariatet.no/energiklagenemnda,klagenemndssekretariatet.no,
+government_agency,Norwegian Climate and Pollution Agency,http://www.klif.no,klif.no,
+government_agency,Q11981087,http://www.kofa.no/,kofa.no,
+government_agency,Kolumbus,http://www.kolumbus.no,kolumbus.no,
+government_agency,Skills Norway,https://www.kompetansenorge.no,kompetansenorge.no,
+government_agency,Norwegian Mediation Service,http://www.konfliktraadet.no/,konfliktraadet.no,
+government_agency,Norwegian Competition Authority,https://konkurransetilsynet.no/,konkurransetilsynet.no,
+government_agency,KORO - Public Art Norway,https://koro.no/,koro.no,central
+government_agency,Norwegian Covid-19 Commission,https://www.koronakommisjonen.no/,koronakommisjonen.no,
+government_agency,Norwegian Correctional Service,http://www.kriminalomsorgen.no/,kriminalomsorgen.no,
+government_agency,Directorate of Correctional Services,https://www.kriminalomsorgen.no/kriminalomsorgsdirektoratet.535879.no.html,kriminalomsorgen.no,
+government_agency,Arts Council Norway,https://www.kulturdirektoratet.no/norsk-kulturfond,kulturdirektoratet.no,
+government_agency,Arts and Culture Norway,https://www.kulturdirektoratet.no/,kulturdirektoratet.no,
+government_agency,Norsk kulturminnefond,https://kulturminnefondet.no/,kulturminnefondet.no,
+government_agency,Arts Council Norway,https://kulturradet.no/english,kulturradet.no,
+government_agency,Kulturtanken – Arts for Young Audiences Norway,https://www.kulturtanken.no/,kulturtanken.no,
 ministry,Ministry of Education and Research of Norway,http://kunnskapsdepartementet.no,kunnskapsdepartementet.no,
+government_agency,Ministry of Education and Research of Norway,http://kunnskapsdepartementet.no,kunnskapsdepartementet.no,central
+government_agency,Norwegian Knowledge Centre for Health Services,http://www.kunnskapssenteret.no/,kunnskapssenteret.no,
+government_agency,Norwegian Coastal Administration,http://www.kystverket.no/,kystverket.no,
+government_agency,Q104223649,https://www.landbruksdirektoratet.no/nb/styrer-rad-og-utvalg/reindriftsstyret,landbruksdirektoratet.no,
+government_agency,Q11993831,https://www.landbruksdirektoratet.no/nb/styrer-rad-og-utvalg/omsetningsradet-skisse,landbruksdirektoratet.no,
+government_agency,Norwegian Agriculture Agency,https://landbruksdirektoratet.no/se/innhold-pa-samegiella,landbruksdirektoratet.no,
+government_agency,Norwegian Agriculture Agency,https://landbruksdirektoratet.no,landbruksdirektoratet.no,
+government_agency,Norwegian State Educational Loan Fund,https://www.lanekassen.no/nn-NO/,lanekassen.no,
+government_agency,Norwegian State Educational Loan Fund,https://www.lanekassen.no/,lanekassen.no,
+government_agency,Norwegian State Educational Loan Fund,https://www.lanekassen.no/en-US/,lanekassen.no,
+government_agency,Equality and Anti-Discrimination Ombud,https://ldo.no,ldo.no,
+government_agency,Gender Equality Ombud,http://www.likestillingsombudet.no/,likestillingsombudet.no,
+government_agency,Lillehammer municipal council,http://www.lillehammer.kommune.no/index.php?cat=187378,lillehammer.kommune.no,local
+government_agency,Norwegian Institute of Local History,http://www.lokalhistorie.no/,lokalhistorie.no,
+government_agency,Longyearbyen Community Council,https://www.lokalstyre.no/,lokalstyre.no,local
+government_agency,Norwegian Gaming  and Foundation Authority,https://lottstift.no/,lottstift.no,
+government_agency,Norwegian Air Ambulance,http://www.luftambulanse.no/,luftambulanse.no,
+government_agency,Civil Aviation Authority of Norway,https://luftfartstilsynet.no/,luftfartstilsynet.no,
+government_agency,Norwegian Centre for Oil Spill Preparedness and Marine Environment,https://www.marintmiljo.no/,marintmiljo.no,
+government_agency,Norwegian Food Safety Authority,http://www.mattilsynet.no,mattilsynet.no,
+government_agency,Rådet for Anvendt Medieforskning,https://www.medietilsynet.no/om-medietilsynet/fagutvalg-og-klagenemnder/fagutvalget-for-medieforskning/,medietilsynet.no,
+government_agency,Norwegian Media Authority,https://www.medietilsynet.no/,medietilsynet.no,
+government_agency,Norwegian Mediation Board for Employee Inventions,https://meklingsnemnda.no/,meklingsnemnda.no,
+government_agency,"Embassy of Myanmar, Oslo",http://www.meoslo.org,meoslo.org,central
+government_agency,Mesterbrevnemnda,https://www.mesterbrev.no/,mesterbrev.no,
+government_agency,Embassy of Latvia in Oslo,https://www.mfa.gov.lv/norway,mfa.gov.lv,central
+government_agency,Trøndelags Europakontor,https://mid-norway.no/,mid-norway.no,
+government_agency,Norwegian Environment Agency,https://www.miljodirektoratet.no/,miljodirektoratet.no,
+government_agency,Q12002704,https://www.miljodirektoratet.no/om-oss/miljodirektoratets-organisasjon/statens-naturoppsyn/,miljodirektoratet.no,
+government_agency,Q25429074,https://www.miljoklagenemnda.no/,miljoklagenemnda.no,
+government_agency,Svalbard Environmental Protection Fund,https://www.miljovernfondet.no/,miljovernfondet.no,
+government_agency,"Embassy of the United Arab Emirates, Oslo",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=fd558b84-77ca-404f-9d7a-d49e4cde209a,mofaic.gov.ae,central
+government_agency,Maritim pensjonskasse,https://www.mpk.no/,mpk.no,
+government_agency,"Embassy of Czech Republic, Oslo",https://www.mzv.cz/oslo,mzv.cz,central
+government_agency,National Archives of Norway (Riksarkivet),https://www.nasjonalarkivet.no/besok-informasjon/lesesaler-og-bibliotek/#oslo,nasjonalarkivet.no,
+government_agency,National Archives of Norway,https://www.nasjonalarkivet.no/,nasjonalarkivet.no,
+government_agency,Labour and Welfare Service,https://www.nav.no/,nav.no,
+government_agency,Norwegian Labour and Welfare Administration,https://www.nav.no,nav.no,
+government_agency,National Library of Norway,https://nb.no,nb.no,
+government_agency,Q19384043,http://www.nccc.no/,nccc.no,
+government_agency,"Embassy of the Netherlands, Oslo",https://www.netherlandsworldwide.nl/countries/norway/about-us/embassy-in-oslo,netherlandsworldwide.nl,central
+government_agency,Norwegian Film Institute,https://www.nfi.no/,nfi.no,
 constitutional_court,Board of the Nordland county municipality,https://www.nfk.no/politikk/fylkesradet/,nfk.no,central-1
+government_agency,Board of the Nordland county municipality,https://www.nfk.no/politikk/fylkesradet/,nfk.no,central-1
+government_agency,Geological Survey of Norway,https://www.ngu.no/,ngu.no,
+government_agency,Nidaros Cathedral Restoration Workshop,https://www.nidarosdomen.no/ndr,nidarosdomen.no,
+government_agency,Norwegian ID Centre,https://www.nidsenter.no/,nidsenter.no,
+government_agency,Nordic Joint Committee for Agricultural and Food Research,http://nkj.nordforsk.org/en,nkj.nordforsk.org,
+government_agency,Norwegian Communications Authority,http://nkom.no,nkom.no,
+government_agency,Norwegian Library of Talking Books and Braille,https://nlb.no,nlb.no,
+government_agency,"Embassy of Japan, Oslo",https://www.no.emb-japan.go.jp,no.emb-japan.go.jp,central
+government_agency,Embassy of Lithuania in Oslo,http://no.mfa.lt,no.mfa.lt,central
+government_agency,"Embassy of the United States, Oslo",https://no.usembassy.gov/,no.usembassy.gov,central
+government_agency,Norwegian Nobel Institute,https://nobelpeaceprize.org,nobelpeaceprize.org,
+government_agency,Norwegian Nobel Institute,https://nobelpeaceprize.org/no,nobelpeaceprize.org,
+government_agency,NOKUT,https://www.nokut.no/,nokut.no,
+government_agency,Norwegian Agency for Development Cooperation,https://www.norad.no/,norad.no,
+government_agency,Regionrådet i Nord-Gudbrandsdal,http://www.nord-gudbrandsdal.no/,nord-gudbrandsdal.no,
+government_agency,North Cape Municipality,http://www.nordkapp.kommune.no/startsiden.2925.en.html,nordkapp.kommune.no,
+government_agency,Nordland Hospital Trust,https://nordlandssykehuset.no/,nordlandssykehuset.no,
+government_agency,Norec,https://www.norec.no/,norec.no,
+government_agency,"Royal Danish Embassy, Oslo",http://norge.um.dk/,norge.um.dk,central
+government_agency,Norges Bank,http://www.norges-bank.no/,norges-bank.no,
+government_agency,Norges Bank,https://www.norges-bank.no/en/,norges-bank.no,
+government_agency,Norwegian Nuclear Decommissioning,https://www.norskdekommisjonering.no/,norskdekommisjonering.no,
+government_agency,The Norwegian Museum of Cultural History,http://www.norskfolkemuseum.no/,norskfolkemuseum.no,
+government_agency,Embassy of Colombia in Oslo,https://noruega.embajada.gov.co,noruega.embajada.gov.co,central
+government_agency,"Embassy of Belgium, Oslo",https://norway.diplomatie.belgium.be,norway.diplomatie.belgium.be,central
+government_agency,"Embassy of Georgia, Oslo",http://norway.mfa.gov.ge,norway.mfa.gov.ge,central
+government_agency,"Embassy of Ukraine, Oslo",http://norway.mfa.gov.ua/,norway.mfa.gov.ua,central
+government_agency,Embassy of Russia in Oslo,https://norway.mid.ru/,norway.mid.ru,central
+government_agency,German-Norwegian Chamber of Commerce,https://norwegen.ahk.de/no/,norwegen.ahk.de,
+government_agency,German-Norwegian Chamber of Commerce,https://norwegen.ahk.de/,norwegen.ahk.de,
+government_agency,Norwegian System of Patient Injury Compensation,https://www.npe.no,npe.no,
+government_agency,Norwegian Polar Institute,https://www.npolar.no/,npolar.no,
+government_agency,Norwegian-Russian Trade Council,https://nrcc.no/,nrcc.no,
+government_agency,Norwegian National Security Authority,https://nsm.no/,nsm.no,
+government_agency,Norwegian National Cyber Security Centre,https://nsm.no/fagomrader/digital-sikkerhet/nasjonalt-cybersikkerhetssenter/,nsm.no,
+government_agency,Norwegian National Cyber Security Centre,https://nsm.no/areas-of-expertise/cyber-security/norwegian-national-cyber-security-centre-ncsc/,nsm.no,
+government_agency,Avdeling for Utdanning Nord-Trøndelag Fylkeskommune,http://www.ntfk.no/Arbeidsomrader/utdanning/Sider/default.aspx,ntfk.no,
+government_agency,Q19383736,http://www.nucc.no/,nucc.no,
+government_agency,Norwegian Corporate Governance Board,http://www.nues.no/en/,nues.no,
+government_agency,Norwegian Institute of International Affairs,https://www.nupi.no/,nupi.no,
+government_agency,Norwegian Water Resources and Energy Directorate,https://www.nve.no/,nve.no,central
+government_agency,National Authority for Investigation and Prosecution of Economic and Environmental Crime in Norway,http://www.okokrim.no/,okokrim.no,
+government_agency,"Embassy of Turkey, Oslo",https://oslo-be.mfa.gov.tr,oslo-be.mfa.gov.tr,central
+government_agency,Oslo University Hospital,https://www.oslo-universitetssykehus.no,oslo-universitetssykehus.no,
+government_agency,"Embassy of Germany, Oslo",https://oslo.diplo.de/,oslo.diplo.de,central
+government_agency,Gravferdsetaten i Oslo kommune,https://www.oslo.kommune.no/politikk-og-administrasjon/etater-foretak-og-ombud/gravferdsetaten/,oslo.kommune.no,
+government_agency,Oslo city government,https://www.oslo.kommune.no/politikk-og-administrasjon/politikk/byradet/,oslo.kommune.no,local
+government_agency,Q11981507,https://www.oslo.kommune.no/etater-foretak-og-ombud/kommuneadvokaten/,oslo.kommune.no,
+government_agency,Q103826469,https://www.oslo.kommune.no/etater-foretak-og-ombud/barne-og-familieetaten/,oslo.kommune.no,
+government_agency,Rådhusets forvaltningstjeneste,https://www.oslo.kommune.no/etater-foretak-og-ombud/radhusets-forvaltningstjeneste/,oslo.kommune.no,
 constitutional_court,Oslo city government,https://www.oslo.kommune.no/politikk-og-administrasjon/politikk/byradet/,oslo.kommune.no,local
+government_agency,Q56405730,https://www.oslo.kommune.no/etater-foretak-og-ombud/velferdsetaten/,oslo.kommune.no,
+government_agency,Q19384867,https://www.oslo.kommune.no/etater-foretak-og-ombud/bymiljoetaten/,oslo.kommune.no,central-1
+government_agency,Q12008634,https://www.oslo.kommune.no/etater-foretak-og-ombud/utdanningsetaten/,oslo.kommune.no,
+government_agency,Fornebubanen,https://www.oslo.kommune.no/etater-foretak-og-ombud/fornebubanen/,oslo.kommune.no,
+government_agency,"Embassy of Romania, Oslo",https://oslo.mae.ro,oslo.mae.ro,central
+government_agency,Embassy of Estonia in Oslo,https://oslo.mfa.ee/,oslo.mfa.ee,central
+government_agency,"Embassy of Hungary, Oslo",https://oslo.mfa.gov.hu/,oslo.mfa.gov.hu,central
+government_agency,"Embassy of Serbia, Oslo",http://www.oslo.mfa.gov.rs/,oslo.mfa.gov.rs,central
+government_agency,Oslo Port Authority,http://www.oslohavn.no,oslohavn.no,
+government_agency,"Embassy of the Philippines, Oslo",https://oslope.dfa.gov.ph,oslope.dfa.gov.ph,central
+government_agency,Østfold kollektivtrafikk,http://www.ostfold-kollektiv.no/,ostfold-kollektiv.no,
+government_agency,mission of the State of Palestine in Norway,http://www.palestine.no/,palestine.no,central
+government_agency,Pasientreiser,https://pasientreiser.no/,pasientreiser.no,
+government_agency,Norwegian Patent Office,https://www.patentstyret.no/,patentstyret.no,central
+government_agency,Q114080031,https://personvernkommisjon.no/,personvernkommisjon.no,
+government_agency,Psychiatry of Vestfold Trust,http://www.piv.no/,piv.no,
+government_agency,National Police Directorate,https://www.politi.no/politidirektoratet,politi.no,
+government_agency,National Criminal Investigation Service,https://www.politi.no/kripos/,politi.no,
+government_agency,National Police Immigration Service,https://www.politiet.no/om/organisasjonen/sarorganene/politiets-utlendingsenhet/,politiet.no,
+government_agency,Norwegian Border Commisioner for the Norwegian-Russian Border,https://www.politiet.no/om-politiet/organisasjonen/sarorganene/grensekommissariatet/,politiet.no,
+government_agency,Norwegian National Road Policing Service,https://www.politiet.no/utrykningspolitiet/,politiet.no,
+government_agency,Norwegian National Road Policing Service,https://www.politiet.no/en/utrykningspolitiet,politiet.no,
+government_agency,Norwegian Police Shared Services,https://www.politiet.no/om/organisasjonen/sarorganene/pft/,politiet.no,
+government_agency,Norwegian Police Service,https://www.politiet.no/,politiet.no,
+government_agency,Norwegian Police Security Service,https://pst.no,pst.no,central
+government_agency,Norwegian Council for Mental Health,https://psykiskhelse.no/om-oss/about-us,psykiskhelse.no,
+government_agency,Norwegian Council for Mental Health,https://psykiskhelse.no,psykiskhelse.no,
+government_agency,Council for Animal Ethics,https://www.radetfordyreetikk.no/,radetfordyreetikk.no,
+government_agency,Council for Animal Ethics,https://www.radetfordyreetikk.no/about-the-council-for-animal-ethics/,radetfordyreetikk.no,
+government_agency,Norwegian Armed Forces Materiel Inspection Unit,https://www.regjeringen.no/no/dep/fd/organisering-og-ledelse/avdelinger/forsvarets-materielltilsyn/id2485407/,regjeringen.no,
 ministry,Ministry of Justice and Public Security of Norway,https://www.regjeringen.no/no/dep/jd/id463/,regjeringen.no,
+government_agency,Norwegian Ministry of Health and Care Services,https://www.regjeringen.no/dep/hod/,regjeringen.no,central
 ministry,"Ministry of Trade, Industry and Fisheries",https://www.regjeringen.no/no/dep/nfd/id709/,regjeringen.no,
 ministry,Ministry of Agriculture and Food,https://www.regjeringen.no/no/dep/lmd/id627/,regjeringen.no,
+government_agency,Ministry of Culture of Norway,https://www.regjeringen.no/no/dep/kud/,regjeringen.no,central
 ministry,Ministry of Finance of Norway,https://www.regjeringen.no/no/dep/fin/id216/,regjeringen.no,
+government_agency,Ministry of Justice and Public Security of Norway,https://www.regjeringen.no/se/dep/jd/id463/,regjeringen.no,central
 ministry,Norwegian Ministry of Health and Care Services,https://www.regjeringen.no/dep/hod/,regjeringen.no,
 ministry,Ministry of Climate and Environment,https://www.regjeringen.no/no/dep/kld/id668/,regjeringen.no,
+government_agency,Ministry of Justice and Public Security of Norway,https://www.regjeringen.no/en/dep/jd/id463/,regjeringen.no,central
 ministry,Ministry of Foreign Affairs of Norway,https://www.regjeringen.no/no/dep/ud/id833/,regjeringen.no,
+government_agency,"Ministry of Trade, Industry and Fisheries",https://www.regjeringen.no/no/dep/nfd/id709/,regjeringen.no,central
+government_agency,Ministry of Foreign Affairs of Norway,https://www.regjeringen.no/no/dep/ud/id833/,regjeringen.no,central
+government_agency,Ministry of Agriculture and Food,https://www.regjeringen.no/no/dep/lmd/id627/,regjeringen.no,central
 ministry,Ministry of Defence of Norway,http://www.regjeringen.no/en/dep/fd.html?id=380,regjeringen.no,
+government_agency,Ministry of Justice and Public Security of Norway,http://www.regjeringen.no/jd,regjeringen.no,central
+government_agency,Ministry of Children and Families,https://www.regjeringen.no/no/dep/bfd/id298/,regjeringen.no,central
+government_agency,Ministry of Climate and Environment,https://www.regjeringen.no/no/dep/kld/id668/,regjeringen.no,central
 ministry,Norway's Ministry of Local Government and Modernisation,https://regjeringen.no/kdd/,regjeringen.no,
 ministry,Ministry of Culture of Norway,https://www.regjeringen.no/no/dep/kud/,regjeringen.no,
+government_agency,Office of the Prime Minister,https://www.regjeringen.no/se/dep/smk/id875/,regjeringen.no,central
+government_agency,Ministry of Justice and Public Security of Norway,https://www.regjeringen.no/no/dep/jd/id463/,regjeringen.no,central
+government_agency,Ministry of Labour and Social Inclusion of Norway,https://regjeringen.no/aid/,regjeringen.no,central
 ministry,Ministry of Energy of Norway,https://www.regjeringen.no/no/dep/ed/id750/,regjeringen.no,
+government_agency,Ministry of Digitalization and Administration,https://www.regjeringen.no/no/dep/dfd/id810/,regjeringen.no,
 ministry,Ministry of Children and Families,https://www.regjeringen.no/no/dep/bfd/id298/,regjeringen.no,
+government_agency,Ministry of Transport and Communications,http://www.regjeringen.no/nb/dep/sd.html?id=791,regjeringen.no,central
+government_agency,Ministry of Defence of Norway,http://www.regjeringen.no/en/dep/fd.html?id=380,regjeringen.no,central
 ministry,Ministry of Digitalization and Administration,https://www.regjeringen.no/no/dep/dfd/id810/,regjeringen.no,
 ministry,Office of the Prime Minister,https://www.regjeringen.no/se/dep/smk/id875/,regjeringen.no,
 ministry,Ministry of Labour and Social Inclusion of Norway,https://regjeringen.no/aid/,regjeringen.no,
 ministry,Office of the Prime Minister,https://www.regjeringen.no/en/dep/smk/id875/,regjeringen.no,
+government_agency,Ministry of Finance of Norway,https://www.regjeringen.no/no/dep/fin/id216/,regjeringen.no,central
 ministry,Ministry of Transport and Communications,http://www.regjeringen.no/nb/dep/sd.html?id=791,regjeringen.no,
 ministry,Office of the Prime Minister,https://www.regjeringen.no/no/dep/smk/id875/,regjeringen.no,
 ministry,Ministry of Justice and Public Security of Norway,http://www.regjeringen.no/jd,regjeringen.no,
+government_agency,Q17770776,https://www.regjeringen.no/no/dep/kd/org/styrer-rad-og-utvalg/felles-klagenemnd/id2990139/,regjeringen.no,
+government_agency,Office of the Prime Minister,https://www.regjeringen.no/no/dep/smk/id875/,regjeringen.no,central
+government_agency,Norway's Ministry of Local Government and Modernisation,https://regjeringen.no/kdd/,regjeringen.no,central
 ministry,Ministry of Justice and Public Security of Norway,https://www.regjeringen.no/en/dep/jd/id463/,regjeringen.no,
+government_agency,Office of the Prime Minister,https://www.regjeringen.no/en/dep/smk/id875/,regjeringen.no,central
 ministry,Ministry of Justice and Public Security of Norway,https://www.regjeringen.no/se/dep/jd/id463/,regjeringen.no,
+government_agency,Ministry of Energy of Norway,https://www.regjeringen.no/no/dep/ed/id750/,regjeringen.no,central
+government_agency,Office of the Attorney General of Norway,https://www.regjeringsadvokaten.no/en/,regjeringsadvokaten.no,
+government_agency,Office of the Attorney General of Norway,https://www.regjeringsadvokaten.no/,regjeringsadvokaten.no,
+government_agency,International Centre for Reindeer Husbandry,https://reindeerherding.org/,reindeerherding.org,
+government_agency,Reis Nordland,https://www.reisnordland.no/,reisnordland.no,central-1
+government_agency,Q136326313,https://www.riksadvokaten.no/embet/oslo-statsadvokatembeter/,riksadvokaten.no,
+government_agency,Office of the Director of Public Prosecutions of Norway,http://www.riksadvokaten.no/,riksadvokaten.no,central
+government_agency,Norwegian Directorate for Cultural Heritage,https://riksantikvaren.no/en/,riksantikvaren.no,
+government_agency,Norwegian Directorate for Cultural Heritage,https://riksantikvaren.no/,riksantikvaren.no,
+government_agency,Norwegian Directorate for Cultural Heritage,https://riksantikvaren.no/se/,riksantikvaren.no,
+government_agency,State Conciliator of Norway,https://www.riksmekleren.no/,riksmekleren.no,central
+government_agency,National Auditor Office of Norway,http://www.riksrevisjonen.no,riksrevisjonen.no,
+government_agency,Norwegian Space Agency,http://www.romsenter.no/,romsenter.no,
+government_agency,Norwegian Space Agency,https://www.romsenter.no/en,romsenter.no,
+government_agency,Q11998678,http://www.rus-midt.no/,rus-midt.no,
+government_agency,Ruter,https://ruter.no,ruter.no,
+government_agency,Q11999242,https://sametinget.no/politihke/politihkeles-oornedimmie-jih-stuvreme/saemiedigkieraerie/,sametinget.no,
 constitutional_court,Q11999242,https://sametinget.no/politihkka/politihkalasj-organisierim-ja-jadedibme/samedikkerade/,sametinget.no,
 constitutional_court,Q11999242,https://sametinget.no/politihke/politihkeles-oornedimmie-jih-stuvreme/saemiedigkieraerie/,sametinget.no,
 constitutional_court,Q11999242,https://sametinget.no/politikk/politisk-organisering-og-ledelse/sametingsradet/?sprak=12,sametinget.no,
+government_agency,Q11999242,https://sametinget.no/politikk/politisk-organisering-og-ledelse/sametingsradet/,sametinget.no,
+government_agency,Q11999242,https://sametinget.no/politihkka/politihkalasj-organisierim-ja-jadedibme/samedikkerade/,sametinget.no,
 constitutional_court,Q11999242,https://sametinget.no/politikk/politisk-organisering-og-ledelse/sametingsradet/,sametinget.no,
 supreme_court,Sámi Parliament of Norway,http://www.sametinget.no/,sametinget.no,
 parliament,Sámi Parliament of Norway,http://www.sametinget.no/,sametinget.no,
+government_agency,Q11999242,https://sametinget.no/politikk/politisk-organisering-og-ledelse/sametingsradet/?sprak=12,sametinget.no,
+government_agency,Norwegian Universities and Colleges Admission Service,https://www.samordnaopptak.no/info/,samordnaopptak.no,
+government_agency,Norwegian Universities and Colleges Admission Service,https://www.samordnaopptak.no/info/english/,samordnaopptak.no,
+government_agency,Norwegian Ship Registers,https://www.sdir.no/,sdir.no,
+government_agency,Norwegian Maritime Authority,https://www.sdir.no/,sdir.no,
+government_agency,Norwegian Agency for Classified Information Systems,https://sgp.norgov.no/,sgp.norgov.no,
+government_agency,Norwegian Agency for Shared Services in Education and Research,https://sikt.no/en/home,sikt.no,
+government_agency,Norwegian Agency for Shared Services in Education and Research,https://www.sikt.no/,sikt.no,
+government_agency,Vestfold Hospital,http://www.siv.no/,siv.no,
+government_agency,Norwegian Civil Defence,https://www.sivilforsvaret.no/,sivilforsvaret.no,
+government_agency,Parliamentary Ombud,https://www.sivilombudet.no/,sivilombudet.no,
+government_agency,Norwegian Civil Affairs Authority,https://www.sivilrett.no/,sivilrett.no,
+government_agency,Intimate Partner Homicide Commission of Norway,https://www.sivilrett.no/partnerdrapskommisjonen,sivilrett.no,
+government_agency,Norwegian Railway Inspectorate,https://sjt.no/en,sjt.no,
+government_agency,Norwegian Railway Inspectorate,https://sjt.no,sjt.no,
+government_agency,Q12000729,http://www.sjukehusapoteka-vest.no/,sjukehusapoteka-vest.no,
+government_agency,Norwegian Tax Administration,https://www.skatteetaten.no/nn,skatteetaten.no,central
+government_agency,Norwegian Tax Administration,https://www.skatteetaten.no/en,skatteetaten.no,central
+government_agency,Norwegian Tax Administration,https://www.skatteetaten.no/,skatteetaten.no,central
+government_agency,Skrivesenteret,https://skrivesenteret.no/,skrivesenteret.no,
+government_agency,Skyss,https://www.skyss.no/,skyss.no,central-1
+government_agency,"Consulate of Slovenia, Norway",http://www.slovenia.no/,slovenia.no,
+government_agency,Snelandia,http://www.snelandia.no/,snelandia.no,central-1
+government_agency,Norwegian Offshore Directorate,https://www.sodir.no/,sodir.no,
+government_agency,Norwegian Bureau for the Investigation of Police Affairs,http://www.spesialenheten.no/,spesialenheten.no,
+government_agency,Norwegian Public Service Pension Fund,https://www.spk.no,spk.no,
+government_agency,Norwegian Language Council,https://www.sprakradet.no/,sprakradet.no,
+government_agency,Statistics Norway,https://ssb.no/,ssb.no,central
+government_agency,Hospital of Southern Norway,https://sshf.no/,sshf.no,
+government_agency,National Institute of Occupational Health in Norway,https://www.stami.no/,stami.no,
+government_agency,The National Support System for Special Education,https://www.statped.no/,statped.no,
+government_agency,Norwegian Directorate of Public Construction and Property,https://www.statsbygg.no/,statsbygg.no,
+government_agency,"County Governor of Østfold, Buskerud, Oslo and Akershus",https://www.statsforvalteren.no/ostfold-buskerud-oslo-og-akershus/,statsforvalteren.no,central-1
+government_agency,Fylkesmennenes fellesadministrasjon,https://www.statsforvalteren.no/nb/staf/,statsforvalteren.no,
+government_agency,County Governor of Rogaland,https://www.statsforvalteren.no/nn/Rogaland/,statsforvalteren.no,central-1
+government_agency,country governor,https://www.statsforvalteren.no/nn/,statsforvalteren.no,
+government_agency,country governor,https://www.statsforvalteren.no/,statsforvalteren.no,
+government_agency,Telemark Hospital Trust,http://www.sthf.no/,sthf.no,
+government_agency,Bryggen,http://www.stiftelsenbryggen.no,stiftelsenbryggen.no,
+government_agency,"St. Olavs hospital, Trondheim University Hospital",https://stolav.no/,stolav.no,
 parliament,Stortinget,https://stortinget.no,stortinget.no,central
 supreme_court,Stortinget,https://stortinget.no,stortinget.no,central
+government_agency,Q65115201,https://www.stortinget.no,stortinget.no,
+government_agency,"Embassy of Sudan, Oslo",http://www.sudanoslo.no/,sudanoslo.no,central
+government_agency,Sunnaas Hospital,http://www.sunnaas.no/om-oss/english,sunnaas.no,
+government_agency,Svipper,https://svipper.no/,svipper.no,
+government_agency,"Embassy of Sweden, Oslo",http://www.swedenabroad.com/Oslo/,swedenabroad.com,central
+government_agency,Northern Norway Pharmaceutical Trust,http://www.sykehusapotek-nord.no/,sykehusapotek-nord.no,
+government_agency,Southern and Eastern Norway Pharmaceutical Trust,http://www.sykehusapotekene.no/,sykehusapotekene.no,
+government_agency,Q19391465,http://www.sykehusapoteket.no/,sykehusapoteket.no,
+government_agency,Q19391466,https://sykehusbygg.no/,sykehusbygg.no,
+government_agency,Innlandet Hospital Trust,https://sykehuset-innlandet.no/,sykehuset-innlandet.no,
+government_agency,Østfold Hospital Trust,https://sykehuset-ostfold.no,sykehuset-ostfold.no,
+government_agency,Q25426887,https://sykehusinnkjop.no/,sykehusinnkjop.no,
+government_agency,Q19391467,https://www.sykehuspartner.no/,sykehuspartner.no,
+government_agency,Office of the Governor of Svalbard,http://www.sysselmannen.no/,sysselmannen.no,
+government_agency,Office of the Governor of Svalbard,https://www.sysselmesteren.no/,sysselmesteren.no,
+government_agency,Technical Supervisory Authority for Cableways,http://www.taubanetilsynet.no,taubanetilsynet.no,
+government_agency,Advokattilsynet,https://tilsynet.no/,tilsynet.no,central
+government_agency,Norwegian Customs Service,https://www.toll.no/en/,toll.no,
+government_agency,Norwegian Customs Service,https://www.toll.no/,toll.no,
+government_agency,Norwegian Customs Service,http://www.toll.no/,toll.no,
+government_agency,Q67217073,https://www.toll.no/en/about-norwegian-customs/contact-us/customs-offices/all-customs-offices/bjornfjell-customs-office-e10/,toll.no,
+government_agency,Q113561959,https://totalberedskapskommisjonen.no/,totalberedskapskommisjonen.no,
+government_agency,Trondheim City Government,https://www.trondheim.kommune.no/tema/politikk-og-planer/Politikk/,trondheim.kommune.no,local
+government_agency,National Insurance Service,http://www.trygdeetaten.no,trygdeetaten.no,
+government_agency,National Insurance Court,http://www.trygderetten.no/,trygderetten.no,
+government_agency,"Embassy of Tunisia, Oslo",http://www.tunisiaamb.no/,tunisiaamb.no,central
+government_agency,Norwegian Directorate of Immigration,https://udi.no/,udi.no,
+government_agency,Norwegian Directorate for Education and Training,http://www.udir.no,udir.no,
+government_agency,The Truth and Reconciliation Commission,https://uit.no/kommisjonen_js,uit.no,
+government_agency,The Truth and Reconciliation Commission,https://uit.no/kommisjonen_ds,uit.no,
+government_agency,The Truth and Reconciliation Commission,https://www.uit.no/kommisjonen,uit.no,
+government_agency,The Truth and Reconciliation Commission,https://uit.no/kommisjonen_kv,uit.no,
+government_agency,The Truth and Reconciliation Commission,https://uit.no/kommisjonen_%C3%A5s,uit.no,
+government_agency,The Truth and Reconciliation Commission,https://uit.no/kommisjonen_fi,uit.no,
+government_agency,The Truth and Reconciliation Commission,https://uit.no/kommisjonen_en,uit.no,
+government_agency,Statens undersøkelseskommisjon for helse- og omsorgstjenesten,https://ukom.no/,ukom.no,
+government_agency,Immigration Appeals Board,https://www.une.no/,une.no,
+government_agency,Norwegian National Commission for UNESCO,https://unesco.no/,unesco.no,
+government_agency,Q17765624,https://unesco.no/,unesco.no,
+government_agency,University Hospital of North Norway,https://unn.no,unn.no,
+government_agency,Norwegian Directorate of Elections,https://valg.no,valg.no,
+government_agency,Norwegian Directorate of Elections,https://valgresultat.no,valgresultat.no,
+government_agency,Norwegian Roads Administration,https://www.vegvesen.no,vegvesen.no,
+government_agency,Vestre Viken Hospital Trust,http://www.vestreviken.no/,vestreviken.no,
+government_agency,Norwegian Veterinary Institute,https://www.vetinst.no/,vetinst.no,
+government_agency,Vetlis,http://www.vetlis.no/,vetlis.no,
+government_agency,VISIT ALTA AS,https://visitalta.no,visitalta.no,
+government_agency,VISIT ALTA AS,https://visitalta.no/en,visitalta.no,
+government_agency,Norwegian Road Supervisory Authority,https://vt.no/,vt.no,
+university,Folkeuniversitet,https://www.folkeuniversitetet.no/,folkeuniversitetet.no,university
+university,University of Oslo,https://www.uio.no,uio.no,university
+university,University of Tromsø – The Arctic University of Norway,https://en.uit.no/startsida,en.uit.no,university
+university,University of Tromsø – The Arctic University of Norway,https://uit.no,uit.no,university

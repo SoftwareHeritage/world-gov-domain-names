@@ -1,19 +1,105 @@
 type,label,website,hostname,level
+government_agency,World Health Organization - Uganda,https://www.afro.who.int/countries/uganda,afro.who.int,
 ministry,"Ministry of Agriculture, Animal Industry and Fisheries",http://www.agriculture.go.ug/,agriculture.go.ug,
-ministry,Ministry of Water and Environment,http://www.mwe.go.ug/,mwe.go.ug,
-ministry,"Ministry of Science, Technology and Innovation",http://www.sti.go.ug/,sti.go.ug,
-ministry,Ministry of Information and Communications Technology,http://www.ict.go.ug/,ict.go.ug,
-ministry,"Ministry of Finance, Planning and Economic Development",http://www.finance.go.ug/,finance.go.ug,
-ministry,"Ministry of Trade, Tourism and Industry",http://www.mtti.go.ug/,mtti.go.ug,
-ministry,Ministry of Health,https://www.health.go.ug,health.go.ug,
-ministry,Ministry of Energy and Mineral Development,http://www.energyandminerals.go.ug/,energyandminerals.go.ug,
-ministry,Ministry of Foreign Affairs of the Republic of Uganda,http://www.mofa.go.ug,mofa.go.ug,
-ministry,"Ministry of Trade, Industry and Cooperatives",http://www.mtic.go.ug/,mtic.go.ug,
-ministry,Ministry of Relief and Disaster Preparedness,https://opm.go.ug/disaster-preparedness-and-management/,opm.go.ug,
-ministry,Ministry of Internal Affairs,http://www.mia.go.ug/,mia.go.ug,
+government_agency,"Ministry of Agriculture, Animal Industry and Fisheries",http://www.agriculture.go.ug/,agriculture.go.ug,central
+government_agency,embassy of Italy in Uganda,https://ambkampala.esteri.it,ambkampala.esteri.it,central
+government_agency,Bank of Uganda,http://www.bou.or.ug/,bou.or.ug,
+government_agency,Civil Aviation Authority of Uganda,https://caa.go.ug/,caa.go.ug,
+government_agency,Centers for Disease Control and Prevention,https://www.cdc.gov/globalhealth/countries/uganda/default.htm,cdc.gov,
+government_agency,Capital Markets Authority,http://www.cmauganda.co.ug,cmauganda.co.ug,central
+government_agency,Coordinating Office for Control of Trypanosomiasis in Uganda,http://www.coctu.go.ug/,coctu.go.ug,
+government_agency,Dairy Development Authority,http://www.dda.or.ug/,dda.or.ug,
+government_agency,high commission of South Africa in Uganda,http://www.dirco.gov.za/uganda,dirco.gov.za,central
+government_agency,Deposit Protection Fund of Uganda,https://dpf.or.ug/,dpf.or.ug,
+parliament,East African Legislative Assembly,http://www.eala.org/,eala.org,local
+government_agency,Electoral Commission of Uganda,http://www.ec.or.ug/,ec.or.ug,
+government_agency,Ministry of Education and Sports,http://www.education.go.ug/,education.go.ug,central
 ministry,Ministry of Education and Sports,http://www.education.go.ug/,education.go.ug,
+government_agency,Delegation of the European Union to Uganda,https://eeas.europa.eu/delegations/uganda_en,eeas.europa.eu,
+government_agency,Ministry of Energy and Mineral Development,http://www.energyandminerals.go.ug/,energyandminerals.go.ug,central
+ministry,Ministry of Energy and Mineral Development,http://www.energyandminerals.go.ug/,energyandminerals.go.ug,
+government_agency,"Equal Opportunities Commission, Uganda",https://www.eoc.go.ug,eoc.go.ug,
+government_agency,Electricity Regulatory Authority,http://www.era.or.ug/,era.or.ug,
+government_agency,Uganda Financial Intelligence Authority,https://www.fia.go.ug/,fia.go.ug,
+government_agency,"Ministry of Finance, Planning and Economic Development",http://www.finance.go.ug/,finance.go.ug,central
+ministry,"Ministry of Finance, Planning and Economic Development",http://www.finance.go.ug/,finance.go.ug,
+government_agency,Uganda Free Zones Authority,https://freezones.go.ug/,freezones.go.ug,
+government_agency,Ministry of Justice and Constitutional Affairs,http://www.gov.ug/ministry/ministry-justice-and-constitutional-affairs/,gov.ug,
+government_agency,British High Commission Kampala,https://www.gov.uk/world/organisations/british-high-commission-kampala,gov.uk,central
+government_agency,"High Commission of India, Kampala",https://hci.gov.in/kampala,hci.gov.in,central
+government_agency,Ministry of Health,https://www.health.go.ug,health.go.ug,central
+ministry,Ministry of Health,https://www.health.go.ug,health.go.ug,
+government_agency,Ministry of Information and Communications Technology,http://www.ict.go.ug/,ict.go.ug,central
+ministry,Ministry of Information and Communications Technology,http://www.ict.go.ug/,ict.go.ug,
+government_agency,Inspectorate of Government,https://www.igg.go.ug/,igg.go.ug,
+government_agency,Insurance Regulatory Authority of Uganda,http://www.ira.go.ug/,ira.go.ug,
+government_agency,embassy of Ireland in Uganda,https://www.ireland.ie/en/uganda/kampala/,ireland.ie,central
+government_agency,Jinja Municipal Council,http://jmc.go.ug/,jmc.go.ug,
+government_agency,"Embassy of Turkey, Kampala",https://kampala-be.mfa.gov.tr,kampala-be.mfa.gov.tr,central
+government_agency,"Embassy of Germany, Kampala",https://kampala.diplo.de/,kampala.diplo.de,central
+government_agency,Kumi District Local Government,http://kumi.go.ug/,kumi.go.ug,
+government_agency,Ministry of East African Community Affairs,http://www.meaca.go.ug/,meaca.go.ug,
+government_agency,"Ministry of Gender, Labour and Social Development (Uganda)",http://www.mglsd.go.ug/,mglsd.go.ug,
+ministry,Ministry of Internal Affairs,http://www.mia.go.ug/,mia.go.ug,
+government_agency,Ministry of Internal Affairs,http://www.mia.go.ug/,mia.go.ug,central
+government_agency,"Ministry of Lands, Housing and Urban Development",http://mlhud.go.ug/,mlhud.go.ug,central
 ministry,"Ministry of Lands, Housing and Urban Development",http://mlhud.go.ug/,mlhud.go.ug,
+ministry,Ministry of Foreign Affairs of the Republic of Uganda,http://www.mofa.go.ug,mofa.go.ug,
+government_agency,Ministry of Foreign Affairs of the Republic of Uganda,http://www.mofa.go.ug,mofa.go.ug,central
+government_agency,"Embassy of the United Arab Emirates, Kampala",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=48a0941b-063b-47eb-aa41-fa55d89698d2,mofaic.gov.ae,central
+government_agency,Ministry of Local Government,http://www.molg.go.ug/,molg.go.ug,local
+government_agency,"Ministry of Trade, Industry and Cooperatives",http://www.mtic.go.ug/,mtic.go.ug,
+ministry,"Ministry of Trade, Industry and Cooperatives",http://www.mtic.go.ug/,mtic.go.ug,
+government_agency,"Ministry of Trade, Tourism and Industry",http://www.mtti.go.ug/,mtti.go.ug,central
+ministry,"Ministry of Trade, Tourism and Industry",http://www.mtti.go.ug/,mtti.go.ug,
+government_agency,Ministry of Water and Environment,http://www.mwe.go.ug/,mwe.go.ug,central
+ministry,Ministry of Water and Environment,http://www.mwe.go.ug/,mwe.go.ug,
+government_agency,National Agricultural Research Organisation,http://www.naro.go.ug/,naro.go.ug,
+government_agency,National Drug Authority,http://www.nda.or.ug/,nda.or.ug,
+government_agency,National Environment Management Authority of Uganda,http://www.nema.go.ug/,nema.go.ug,
+government_agency,National Environment Management Authority of Uganda,https://www.nema.go.ug/,nema.go.ug,
+government_agency,National Forestry Authority,http://nfa.org.ug/,nfa.org.ug,
+government_agency,National Bureau for Non Governmental Organizations,https://www.ngobureau.go.ug/,ngobureau.go.ug,
+government_agency,National Library of Uganda,http://www.nlu.go.ug/,nlu.go.ug,
+government_agency,"Embassy of Norway, Kampala",https://www.norway.no/en/uganda,norway.no,central
+government_agency,Ministry of Relief and Disaster Preparedness,https://opm.go.ug/disaster-preparedness-and-management/,opm.go.ug,central
+government_agency,Ministry of Disaster Preparedness and Refugees,http://opm.go.ug/,opm.go.ug,central
+government_agency,Office of the Prime Minister,https://opm.go.ug/,opm.go.ug,
 ministry,Ministry of Disaster Preparedness and Refugees,http://opm.go.ug/,opm.go.ug,
-parliament,Parliament of Uganda,https://www.parliament.go.ug/,parliament.go.ug,
-parliament,East African Legislative Assembly,http://www.eala.org/,eala.org,
-supreme_court,Parliament of Uganda,https://www.parliament.go.ug/,parliament.go.ug,
+government_agency,Ministry for Karamoja,http://opm.go.ug/,opm.go.ug,local
+ministry,Ministry of Relief and Disaster Preparedness,https://opm.go.ug/disaster-preparedness-and-management/,opm.go.ug,
+government_agency,"Honorary Consulate of Pakistan, Kampala",http://www.pakhc.or.ke/consulate.html,pakhc.or.ke,
+parliament,Parliament of Uganda,https://www.parliament.go.ug/,parliament.go.ug,central
+supreme_court,Parliament of Uganda,https://www.parliament.go.ug/,parliament.go.ug,central
+government_agency,"Committee on Commissions, Statutory Authorities and State Enterprises",https://www.parliament.go.ug/,parliament.go.ug,
+government_agency,"Ministry of Science, Technology and Innovation",http://www.sti.go.ug/,sti.go.ug,central
+ministry,"Ministry of Science, Technology and Innovation",http://www.sti.go.ug/,sti.go.ug,
+government_agency,"Embassy of Sweden, Kampala",https://www.swedenabroad.se/sv/utlandsmyndigheter/uganda-kampala/,swedenabroad.se,central
+government_agency,Uganda Bureau of Statistics,http://www.ubos.org/,ubos.org,central
+government_agency,Uganda Communications Commission,http://www.ucc.co.ug/,ucc.co.ug,
+government_agency,Uganda Development Corporation,https://www.udc.go.ug/,udc.go.ug,
+government_agency,Uganda Energy Credit Capitalisation Company,http://www.ueccc.or.ug/,ueccc.or.ug,
+government_agency,"Embassy of France, Kampala",https://ug.ambafrance.org/,ug.ambafrance.org,central
+government_agency,embassy of Japan in Uganda,https://www.ug.emb-japan.go.jp,ug.emb-japan.go.jp,central
+government_agency,embassy of the United States in Uganda,https://ug.usembassy.gov,ug.usembassy.gov,central
+government_agency,"Embassy of Belgium, Kampala",http://uganda.diplomatie.belgium.be,uganda.diplomatie.belgium.be,central
+government_agency,embassy of Russia in Uganda,https://uganda.mid.ru,uganda.mid.ru,central
+government_agency,embassy of Denmark in Uganda,https://uganda.um.dk,uganda.um.dk,central
+government_agency,Uganda Export Promotion Board,http://www.ugandaexports.go.ug/en/,ugandaexports.go.ug,
+government_agency,Uganda Wildlife Authority,http://www.ugandawildlife.org/,ugandawildlife.org,
+government_agency,Uganda Human Rights Commission,https://www.uhrc.ug/,uhrc.ug,
+government_agency,Uganda Industrial Research Institute,http://www.uiri.org/,uiri.org,
+government_agency,Uganda National Academy of Sciences,https://unas.org.ug/,unas.org.ug,
+government_agency,Uganda National Teachers Union,http://www.unatu.org/,unatu.org,
+government_agency,Uganda National Council for Higher Education,http://www.unche.or.ug/,unche.or.ug,
+government_agency,Uganda National Council for Science and Technology,http://www.uncst.go.ug/,uncst.go.ug,
+government_agency,Uganda National Examinations Board,https://uneb.ac.ug/,uneb.ac.ug,
+government_agency,Uganda National Commission for UNESCO,https://unesco-uganda.ug/,unesco-uganda.ug,
+government_agency,Uganda National Meteorological Authority,https://www.unma.go.ug/,unma.go.ug,
+government_agency,Uganda Nurses and Midwives Council,https://unmc.ug/,unmc.ug,central
+government_agency,Uganda Police Force,https://www.upf.go.ug/,upf.go.ug,central
+government_agency,Uganda Retirement Benefits Regulatory Authority,http://urbra.go.ug/,urbra.go.ug,
+government_agency,Uganda Tourism Board,https://utb.go.ug/,utb.go.ug,
+government_agency,Ministry of Works and Transport,http://www.works.go.ug/,works.go.ug,
+university,Makerere University,https://www.mak.ac.ug/,mak.ac.ug,university
+university,Makerere University Business School,http://www.mubs.ac.ug,mubs.ac.ug,university

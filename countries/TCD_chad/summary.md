@@ -30,13 +30,33 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `assemblee-nationale.td` | wikidata;wikidata | National Assembly |
+| 7 | `onecs.td` | wikidata;wikidata | Q129709968 |
+| 6 | `eeas.europa.eu` | wikidata;wikidata | Delegation of the European Union to Chad |
 | 6 | `gouvernement.td` | un_desa | UN/DESA national portal |
-| 4 | `onecs.td` | wikidata | Q129709968 |
-| 3 | `minjustchad.org` | wikidata | Ministry of Justice |
+| 6 | `minjustchad.org` | wikidata;wikidata | Ministry of Justice |
+| 4 | `adetic.td` | wikidata | Agency for the Development of Information and Communication Technologies |
+| 4 | `cndh.td` | wikidata | National Human Rights Commission (Tchad) |
+| 4 | `conseilconstitutionnel.td` | wikidata | Constitutional Council of Chad |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, N'Djamena |
+| 4 | `td.usembassy.gov` | wikidata | embassy of the United States in Chad |
+| 3 | `hamatchad.org` | wikidata | Q65157984 |
+| 3 | `inseed-tchad.org` | wikidata | INSEED |
+| 3 | `inseedtchad.com` | wikidata | INSEED |
+| 3 | `ndjamena.diplo.de` | wikidata | Embassy of Germany, N'Djamena |
+| 3 | `tchad.mid.ru` | wikidata | embassy of Russia in Chad |
+| 3 | `td.ambafrance.org` | wikidata | Embassy of France, N'Djamena |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 3 | `beac.int` | wikidata | Bank of Central African States |
 

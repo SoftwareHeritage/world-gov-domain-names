@@ -6,7 +6,7 @@
 - Region: Americas / South America
 - Languages: Spanish
 - Population: 18103660
-- GDP per capita: 6875 US$ (2024)
+- GDP per capita: 7125 US$ (2025)
 - Currencies: USD
 - ccTLD: `.ec` (manager: ECUADORDOMAIN S.A.)
 - OECD: non-member
@@ -30,10 +30,38 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `escolapios.org.co` | wikidata | Nazareth piarist province |
+| 7 | `bce.ec` | wikidata;wikidata | Central Bank of Ecuador |
+| 7 | `ec.usembassy.gov` | wikidata;wikidata | embassy of the United States in Ecuador | Consulate General of the United Sta... |
+| 7 | `exa.ec` | wikidata;wikidata | Ecuadorian Civilian Space Agency |
+| 6 | `escolapios.org.co` | wikidata;wikidata | Nazareth piarist province |
+| 5 | `ane.gov.ec` | wikidata | National Archives of Ecuador |
+| 4 | `ccq.ec` | wikidata | Quito Chamber of Commerce |
+| 4 | `inocar.mil.ec` | wikidata | Oceanographic Institute of the Ecuadorian Navy |
+| 4 | `quito.mfa.gov.hu` | wikidata | embassy of Hungary in Ecuador |
+| 3 | `ambafrance-ec.org` | wikidata | Embassy of France to Quito |
+| 3 | `cubadiplomatica.cu` | wikidata | embassy of Cuba in Ecuador |
+| 3 | `ec.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Quito |
+| 3 | `ecuador.mid.ru` | wikidata | embassy of Russia in Ecuador |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Ecuador |
+| 3 | `embajadadominicanaecuador.com` | wikidata | embassy of the Dominican Republic in Ecuador |
+| 3 | `quiport.com` | wikidata | Q1413753 |
+| 3 | `quito.diplo.de` | wikidata | Embassy of Germany, Quito |
+| 3 | `quito.embassy.qa` | wikidata | embassy of Qatar in Ecuador |
+| 3 | `quito.mfa.ir` | wikidata | embassy of Iran in Ecuador |
+| 3 | `roc-taiwan.org` | wikidata | Commercial Office of Taipei, Quito |
+
+## Local / regional candidates
+
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `unach.edu.ec` | wikidata;wikidata | Universidad Nacional de Chimborazo |
+| 4 | `espol.edu.ec` | wikidata | Escuela Superior Politécnica del Litoral |
+| 4 | `uea.edu.ec` | wikidata | Estatal Amazonica University |
 

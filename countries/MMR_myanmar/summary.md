@@ -30,13 +30,26 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
-| 6 | `nugmyanmar.org` | wikidata;wikidata | National Unity Government of Myanmar |
-| 4 | `myanmar-education.edu.mm` | wikidata | Ministry of Education of Myanmar |
+| 7 | `mm.usembassy.gov` | wikidata;wikidata | Embassy of the United States of America, Rangoon | American Center Yangon |
+| 7 | `myanmar-education.edu.mm` | wikidata;wikidata | Ministry of Education of Myanmar |
+| 6 | `nugmyanmar.org` | wikidata;wikidata;wikidata;wikidata | National Unity Government of Myanmar |
+| 6 | `roc-taiwan.org` | wikidata;wikidata | Taipei Economic and Cultural Office in Myanmar |
+| 4 | `myanmarstandards.org.mm` | wikidata | National Institute of Metrology Myanmar |
 | 3 | `crphmyanmar.org` | wikidata | Committee Representing Pyidaungsu Hluttaw |
+| 3 | `dsmrmm.com` | wikidata | Defence Services Medical Research Centre |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Myanmar / Burma |
+| 3 | `finlandabroad.fi` | wikidata | embassy of Finland in Myanmar |
+| 3 | `mm.ambafrance.org` | wikidata | Embassy of France, Yangon |
+| 3 | `mm.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Yangon |
+| 3 | `myanmar.mid.ru` | wikidata | embassy of Russia in Myanmar |
+| 3 | `myanmar.um.dk` | wikidata | embassy of Denmark in Myanmar |
+| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Myanmar |
+| 3 | `norway.no` | wikidata | Embassy of Norway in Myanmar |
+| 3 | `rangun.diplo.de` | wikidata | Embassy of Germany, Yangon |
+| 1 | `holyrosaryprovince.org` | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
 

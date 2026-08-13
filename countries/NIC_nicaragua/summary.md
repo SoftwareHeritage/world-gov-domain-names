@@ -6,7 +6,7 @@
 - Region: Americas / Central America
 - Languages: Spanish
 - Population: 6803886
-- GDP per capita: 2848 US$ (2024)
+- GDP per capita: 3173 US$ (2025)
 - Currencies: NIO
 - ccTLD: `.ni` (manager: Universidad Nacional del Ingernieria. Division de Tecnologias de la Informacion.)
 - OECD: non-member
@@ -30,11 +30,22 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 3 | `centroamericaribeschp.com` | wikidata | Piarist province Central America- Caribbean |
-| 3 | `jesuitascam.org` | wikidata | Jesuit Province of Central America |
+| 6 | `centroamericaribeschp.com` | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `jesuitascam.org` | wikidata;wikidata | Jesuit Province of Central America |
+| 4 | `cvjp.org.ni` | wikidata | Commission for Truth, Justice and Peace |
+| 4 | `eaai.com.ni` | wikidata | Administrative Company of National and International Airports |
+| 4 | `ni.usembassy.gov` | wikidata | Embassy of the United States in Managua |
+| 4 | `tecnacional.edu.ni` | wikidata | National Technical and Technological Institute of Nicaragua |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Nicaragua and to the Central American Int... |
+| 3 | `managua.diplo.de` | wikidata | Embassy of Germany, Managua |
+| 3 | `managua.mae.lu` | wikidata | embassy of Luxembourg in Nicaragua |
+| 3 | `ni.ambafrance.org` | wikidata | Embassy of France, Managua |
+| 3 | `nicaragua.mid.ru` | wikidata | embassy of Russia in Nicaragua |
+| 3 | `taiwanembassy.org` | wikidata | Embassy of the Republic of China (Taiwan), Managua |
+| 3 | `web.archive.org` | wikidata | Investment Promotion Secretariat |
 

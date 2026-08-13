@@ -23,20 +23,46 @@
 
 ## Candidate domains ranked by score
 
-11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+67 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 6 | `holyrosaryprovince.org` | wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
-| 4 | `edu.tw` | wikidata | Ministry of Education of Taiwan |
-| 4 | `english.doh.gov.taipei` | wikidata | Ministry of Health and Welfare |
-| 4 | `english.gov.taipei` | wikidata | Taipei City Government |
-| 4 | `family.gov.taipei` | wikidata | Q130404967 |
-| 4 | `gov.taipei` | wikidata | Taipei City Government |
-| 4 | `ngdo.gov.taipei` | wikidata | Nangang District Office, Taipei City |
-| 4 | `whdo.gov.taipei` | wikidata | Wanhua District Office, Taipei City |
-| 4 | `wsdo.gov.taipei` | wikidata | Wenshan District Office |
-| 4 | `youth.gov.taipei` | wikidata | Department for Youth of Taipei City Government |
-| 3 | `recoletos.ph` | wikidata | Province of Saint Ezequiél Moreno |
+| 7 | `edu.tw` | wikidata;wikidata | Ministry of Education of Taiwan |
+| 7 | `english.doh.gov.taipei` | wikidata;wikidata | Ministry of Health and Welfare |
+| 7 | `family.gov.taipei` | wikidata;wikidata | Q130404967 |
+| 7 | `meco.org.tw` | wikidata;wikidata | Manila Economic and Cultural Office, Taichung Extension Office | Manila Econo... |
+| 7 | `naer.edu.tw` | wikidata;wikidata | National Academy for Educational Research |
+| 7 | `ncl.edu.tw` | wikidata;wikidata;wikidata | Open Lab Multimedia Center National Central Library | National Central Library |
+| 7 | `youth.gov.taipei` | wikidata;wikidata | Department for Youth of Taipei City Government |
+| 6 | `eeas.europa.eu` | wikidata;wikidata | European Economic and Trade Office in Taiwan |
+| 6 | `france-taipei.org` | wikidata;wikidata | French Office in Taipei |
+| 6 | `koryu.or.jp` | wikidata;wikidata | Japan-Taiwan Exchange Association, Kaohsiung Office | Interchange Association... |
+| 6 | `recoletos.ph` | wikidata;wikidata | Province of Saint Ezequiél Moreno |
+| 6 | `tmc.taipei` | wikidata;wikidata | Taipei Music Center |
+| 4 | `australia.org.tw` | wikidata | Australian Office, Taipei |
+| 4 | `bola.gov.taipei` | wikidata | Department of Labor, Taipei City Government |
+| 4 | `cadf.org.tw` | wikidata | Aviation Safety Council |
+| 4 | `dbas.gov.taipei` | wikidata | Department of Budget, Accounting and Statistics |
+| 4 | `decm.gov.mo` | wikidata | Macau Economic and Cultural Office |
+| 4 | `dep.gov.taipei` | wikidata | Department of Environmental Protection, Taipei City Government |
+| 4 | `docms.gov.taipei` | wikidata | Department of Military Compulsory service, Taipei City Government |
+| 4 | `doe.gov.taipei` | wikidata | Department of Education, Taipei City Government |
+
+## Local / regional candidates
+
+33 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 7 | `ait.org.tw` | wikidata;wikidata;wikidata | American Institute in Taiwan | Kaohsiung Branch Office of the American Instit... |
+| 7 | `english.gov.taipei` | wikidata;wikidata | Taipei City Government |
+| 7 | `gov.taipei` | wikidata;wikidata | Taipei City Government |
+| 7 | `ngdo.gov.taipei` | wikidata;wikidata | Nangang District Office, Taipei City |
+| 7 | `whdo.gov.taipei` | wikidata;wikidata | Wanhua District Office, Taipei City |
+| 4 | `ca.gov.taipei` | wikidata | Department of Civil Affairs, Taipei City Government |
+| 7 | `ccu.edu.tw` | wikidata;wikidata | National Chung Cheng University |
+| 7 | `nccu.edu.tw` | wikidata;wikidata | National Chengchi University |
+| 7 | `ndu.edu.tw` | wikidata;wikidata | National Defense University |
+| 7 | `ntu.edu.tw` | wikidata;wikidata | National Taiwan University |
 

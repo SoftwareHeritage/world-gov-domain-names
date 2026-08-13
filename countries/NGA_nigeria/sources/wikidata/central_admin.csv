@@ -1,91 +1,437 @@
 type,label,website,hostname,level
 supreme_court,Abia State House of Assembly,https://www.abiastate.gov.ng/,abiastate.gov.ng,central-1
 parliament,Abia State House of Assembly,https://www.abiastate.gov.ng/,abiastate.gov.ng,central-1
+government_agency,"Embassy of Turkey, Abuja",https://abuja-emb.mfa.gov.tr,abuja-emb.mfa.gov.tr,central
+government_agency,"Consulate General of Germany, Lagos",https://abuja.diplo.de/,abuja.diplo.de,
+government_agency,"Embassy of the State of Qatar, Nigeria",https://abuja.embassy.qa,abuja.embassy.qa,central
+government_agency,embassy of Brazil in Nigeria,http://abuja.itamaraty.gov.br,abuja.itamaraty.gov.br,central
+government_agency,"Embassy of Romania, Abuja",https://abuja.mae.ro,abuja.mae.ro,central
+government_agency,"Hungarian embassy, Abuja",https://abuja.mfa.gov.hu/,abuja.mfa.gov.hu,
+government_agency,embassy of Serbia in Nigeria,http://www.abuja.mfa.gov.rs,abuja.mfa.gov.rs,central
+government_agency,"Uganda High Commission, Abuja - Nigeria",http://www.abuja.mofa.go.ug/,abuja.mofa.go.ug,central
+government_agency,ACReSAL,https://acresal.gov.ng/,acresal.gov.ng,local
+government_agency,Adamawa State MINISTRY OF ENVIRONMENT AND NATURAL RESOURCES DEVELOPMENT,https://adspc.ad.gov.ng/ministry-of-environment-and-natural-resources-development/,adspc.ad.gov.ng,
 ministry,Adamawa State MINISTRY OF ENVIRONMENT AND NATURAL RESOURCES DEVELOPMENT,https://adspc.ad.gov.ng/ministry-of-environment-and-natural-resources-development/,adspc.ad.gov.ng,
+government_agency,"Lagos State Agency for Mass Literacy,Adult and Non formal Education",https://adulteducation.lagosstate.gov.ng/,adulteducation.lagosstate.gov.ng,
+government_agency,"Ministry of Education, Science and Technology",https://agric.kdsg.gov.ng/,agric.kdsg.gov.ng,central
 ministry,"Ministry of Education, Science and Technology",https://agric.kdsg.gov.ng/,agric.kdsg.gov.ng,
+government_agency,Federal Ministry of Agriculture and Food Security,https://agriculture.gov.ng/,agriculture.gov.ng,central
+government_agency,Lagos State Ministry of Agriculture and Cooperatives,http://www.agriculture.lagosstate.gov.ng/,agriculture.lagosstate.gov.ng,central-1
 parliament,Akwa Ibom State House of Assembly,https://akwaibomstate.gov.ng/the-legislative/,akwaibomstate.gov.ng,central-1
 supreme_court,Akwa Ibom State House of Assembly,https://akwaibomstate.gov.ng/the-legislative/,akwaibomstate.gov.ng,central-1
+government_agency,embassy of Italy in Nigeria,https://ambabuja.esteri.it,ambabuja.esteri.it,central
+government_agency,embassy of Burkina Faso in Nigeria,http://ambaburkina-ng.org,ambaburkina-ng.org,central
 supreme_court,Anambra State House Of Assembly,https://anambrastate.gov.ng/legislature/,anambrastate.gov.ng,central-1
 parliament,Anambra State House Of Assembly,https://anambrastate.gov.ng/legislature/,anambrastate.gov.ng,central-1
+government_agency,"Ministry of Justice, Anambra State",https://anambrastate.gov.ng/ministry-of-justice/,anambrastate.gov.ng,central-1
+government_agency,Agricultural Research Council of Nigeria,https://arcn.gov.ng/,arcn.gov.ng,
+government_agency,Architects Registration Council of Nigeria,https://arconigeria.gov.ng/,arconigeria.gov.ng,
 parliament,Bauchi State House of Assembly,https://www.bauchistate.gov.ng/the-legislative/,bauchistate.gov.ng,central-1
 supreme_court,Bauchi State House of Assembly,https://www.bauchistate.gov.ng/the-legislative/,bauchistate.gov.ng,central-1
 supreme_court,Bayelsa State House of Assembly,https://www.bayelsa.gov.ng/node/66,bayelsa.gov.ng,central-1
 parliament,Bayelsa State House of Assembly,https://www.bayelsa.gov.ng/node/66,bayelsa.gov.ng,central-1
 supreme_court,Benue State House of Assembly,https://benuestate.gov.ng/portfolio-type/assembly-members/,benuestate.gov.ng,central-1
 parliament,Benue State House of Assembly,https://benuestate.gov.ng/portfolio-type/assembly-members/,benuestate.gov.ng,central-1
+government_agency,Lagos State Blood Transfusion Service,https://bloodtransfusion.lagosstate.gov.ng/,bloodtransfusion.lagosstate.gov.ng,
+government_agency,embassy of Austria in Nigeria,https://www.bmeia.gv.at/oeb-abuja/,bmeia.gv.at,central
+government_agency,Lagos state building control agency,https://buildingcontrol.lagosstate.gov.ng,buildingcontrol.lagosstate.gov.ng,
+government_agency,Corporate Affairs Commission,http://www.cac.gov.ng/,cac.gov.ng,
+government_agency,High commission of Canada in Nigeria,https://www.canadainternational.gc.ca/nigeria/index.aspx,canadainternational.gc.ca,central
+government_agency,Centre For Black And African Arts And Civilization,https://cbaac.org,cbaac.org,
+government_agency,Lagos Central Business District,https://cbd.lagosstate.gov.ng/,cbd.lagosstate.gov.ng,local
+government_agency,Central Bank of Nigeria,http://www.cbn.gov.ng/,cbn.gov.ng,
+government_agency,Lagos State Christian Pilgrims Welfare Board,https://christianpilgrims.lagosstate.gov.ng/contact-us-2/,christianpilgrims.lagosstate.gov.ng,central-1
+government_agency,Lagos State Civil Service,https://civilservice.lagosstate.gov.ng/,civilservice.lagosstate.gov.ng,local
+government_agency,Centre for Management Development,https://www.cmd.gov.ng,cmd.gov.ng,
+government_agency,Council for the Regulation of Engineering in Nigeria,http://coren.gov.ng/,coren.gov.ng,
+government_agency,Fedral Prisons umauhia,http://www.corrections.gov.ng/,corrections.gov.ng,
 supreme_court,Cross River State House of Assembly,http://www.crossriverstate.gov.ng/features/legislature,crossriverstate.gov.ng,central-1
 parliament,Cross River State House of Assembly,http://www.crossriverstate.gov.ng/features/legislature,crossriverstate.gov.ng,central-1
+government_agency,Nigerian Customs Service,https://www.customs.gov.ng,customs.gov.ng,
 ministry,Nigerian Ministry of Defence,http://defence.gov.ng,defence.gov.ng,
+government_agency,Nigerian Ministry of Defence,http://defence.gov.ng,defence.gov.ng,central
 parliament,Delta State House of Assembly,https://www.deltastate.gov.ng/index.php/assembly,deltastate.gov.ng,central-1
 supreme_court,Delta State House of Assembly,https://www.deltastate.gov.ng/index.php/assembly,deltastate.gov.ng,central-1
+government_agency,Defence Intelligence Agency,http://www.dia.gov.ng/,dia.gov.ng,central
+government_agency,high commission of South Africa in Nigeria,http://www.dirco.gov.za/abuja,dirco.gov.za,central
+government_agency,Debt Management Office,https://dmo.gov.ng,dmo.gov.ng,
+government_agency,Department of Petroleum Resources,https://dpr.gov.ng/index/,dpr.gov.ng,
 supreme_court,Ebonyi State House of Assembly,http://www.ebonyistate.gov.ng/legislative.aspx,ebonyistate.gov.ng,central-1
 parliament,Ebonyi State House of Assembly,http://www.ebonyistate.gov.ng/legislative.aspx,ebonyistate.gov.ng,central-1
+government_agency,embassy of Switzerland in Nigeria,https://www.eda.admin.ch/abuja,eda.admin.ch,central
+government_agency,Edo State Geographic Information Service,http://www.edogis.org/,edogis.org,
 parliament,Edo State House of Assembly,http://www.edostate.gov.ng/house-of-assembly/,edostate.gov.ng,central-1
 supreme_court,Edo State House of Assembly,http://www.edostate.gov.ng/house-of-assembly/,edostate.gov.ng,central-1
+government_agency,Nigerian Federal Ministry of Education,https://education.gov.ng/,education.gov.ng,central
 ministry,Nigerian Federal Ministry of Education,https://education.gov.ng/,education.gov.ng,
+government_agency,"Ministry of Education, Science and Technology",https://education.kdsg.gov.ng/,education.kdsg.gov.ng,central
 ministry,"Ministry of Education, Science and Technology",https://education.kdsg.gov.ng/,education.kdsg.gov.ng,
+government_agency,Lagos State Ministry of Education,https://education.lagosstate.gov.ng,education.lagosstate.gov.ng,central-1
+government_agency,Delegation of the European Union to Nigeria and ECOWAS,https://eeas.europa.eu/delegations/nigeria_en,eeas.europa.eu,central
+government_agency,Economic and Financial Crimes Commission,https://www.efcc.gov.ng/,efcc.gov.ng,
+government_agency,Environmental Health Council of Nigeria (EHCON),https://ehcon.gov.ng/,ehcon.gov.ng,
 parliament,Ekiti State House of Assembly,https://ekitistate.gov.ng/administration/legislature/members-of-the-house-of-assembly/,ekitistate.gov.ng,central-1
 ministry,Ekiti state Ministry of Agriculture and Food Security,https://www.ekitistate.gov.ng/executive-council/mdas/ministry-of-agriculture-and-rural-development,ekitistate.gov.ng,
+government_agency,"Ministry of Women Affairs, Ado-Ekiti",https://www.ekitistate.gov.ng/executive-council/mdas/ministry-of-women-affairs-and-social-development,ekitistate.gov.ng,central-1
+government_agency,Ekiti State Ministry of Environment and Natural Resources,https://www.ekitistate.gov.ng/executive-council/mdas/ministry-of-environment-and-natural-resources/#1683230132009-53b0a62a-ede2,ekitistate.gov.ng,
 supreme_court,Ekiti State House of Assembly,https://ekitistate.gov.ng/administration/legislature/members-of-the-house-of-assembly/,ekitistate.gov.ng,central-1
 ministry,Ekiti State Ministry of Environment and Natural Resources,https://www.ekitistate.gov.ng/executive-council/mdas/ministry-of-environment-and-natural-resources/#1683230132009-53b0a62a-ede2,ekitistate.gov.ng,
+government_agency,Ekiti state Ministry of Agriculture and Food Security,https://www.ekitistate.gov.ng/executive-council/mdas/ministry-of-agriculture-and-rural-development,ekitistate.gov.ng,
+government_agency,embassy of Mexico in Nigeria,https://embamex.sre.gob.mx/nigeria,embamex.sre.gob.mx,central
+government_agency,embassy of Israel in Nigeria,https://embassies.gov.il/abuja,embassies.gov.il,central
+government_agency,"Embassy of Saudi Arabia, Abuja",https://embassies.mofa.gov.sa/sites/Nigeria,embassies.mofa.gov.sa,central
+government_agency,Energy Commission of Nigeria,https://www.energy.gov.ng,energy.gov.ng,
+government_agency,embassy of Argentina in Nigeria,https://enige.cancilleria.gob.ar,enige.cancilleria.gob.ar,central
+government_agency,Enugu Chamber of Commerce Industry Mines and Agriculture,https://enuguchamber.org,enuguchamber.org,
+government_agency,Federal Ministry of Environment of Nigeria,http://environment.gov.ng/,environment.gov.ng,central
 ministry,Federal Ministry of Environment of Nigeria,http://environment.gov.ng/,environment.gov.ng,
+government_agency,Lagos State Ministry of Environment,https://environment.lagosstate.gov.ng/,environment.lagosstate.gov.ng,central-1
+government_agency,Oyo State Ministry of Environment and Water Resources,https://environment.oyostate.gov.ng/,environment.oyostate.gov.ng,
 ministry,Oyo State Ministry of Environment and Water Resources,https://environment.oyostate.gov.ng/,environment.oyostate.gov.ng,
+government_agency,OYO STATE MINISTRY OF ENVIRONMENT AND NATURAL RESOURCES,https://environment.oyostate.gov.ng/,environment.oyostate.gov.ng,
 ministry,OYO STATE MINISTRY OF ENVIRONMENT AND NATURAL RESOURCES,https://environment.oyostate.gov.ng/,environment.oyostate.gov.ng,
+government_agency,Lagos state planning and environmental monitoring authority,https://environmentalmonitoring.lagosstate.gov.ng/,environmentalmonitoring.lagosstate.gov.ng,
+government_agency,Lagos State Examination Board,http://examsboard.lagosstate.gov.ng/,examsboard.lagosstate.gov.ng,
+government_agency,"Embassy of Spain, Abuja",http://www.exteriores.gob.es/Embajadas/Abuja,exteriores.gob.es,central
+government_agency,Kwara State Council of Arts and Culture,https://www.facebook.com/share/1GtiF6vF5j/,facebook.com,
+government_agency,High Court of the Federal Capital Territory,https://www.fcthighcourt.gov.ng,fcthighcourt.gov.ng,central-1
+government_agency,Federal Polytechnic Ugep,https://www.fedpolyugep.edu.ng,fedpolyugep.edu.ng,
+government_agency,Lagos State Ferry Services Corporation,https://ferryservices.lagosstate.gov.ng/,ferryservices.lagosstate.gov.ng,
+government_agency,Federal Housing Authority,https://www.fha.gov.ng/,fha.gov.ng,
+government_agency,Federal High Court of Nigeria,https://www.fhc.gov.ng,fhc.gov.ng,
+government_agency,Lagos State Ministry of Finance,https://finance.lagosstate.gov.ng/,finance.lagosstate.gov.ng,central-1
+government_agency,"Embassy of Finland, Abuja",https://finlandabroad.fi/web/nga,finlandabroad.fi,central
+government_agency,Lagos State Fire Service,https://fireservice.lagosstate.gov.ng,fireservice.lagosstate.gov.ng,central-1
+government_agency,Strategic Grains Reserve Department,http://www.fmard.gov.ng/strategic-grains-reserve,fmard.gov.ng,
 ministry,Federal Ministry of Agriculture,http://fmard.gov.ng/,fmard.gov.ng,
+government_agency,Nigeria Federal Department of Agriculture,https://fmard.gov.ng,fmard.gov.ng,
+government_agency,Federal Ministry of Agriculture,http://fmard.gov.ng/,fmard.gov.ng,central
+government_agency,Federal Mortgage Bank of Nigeria,https://www.fmbn.gov.ng/Home/index.html,fmbn.gov.ng,
+government_agency,Federal Ministry of Communication and Digital Economy,https://fmcide.gov.ng/,fmcide.gov.ng,central
+government_agency,Federal Ministry of Humanitarian Affairs and Poverty Reduction,https://fmhds.gov.ng/,fmhds.gov.ng,central
+government_agency,"Federal Ministry of Industry, Trade and Investment",https://fmiti.gov.ng/,fmiti.gov.ng,
+government_agency,Federal Ministry of Marine and Blue Economy,https://fmmbe.gov.ng/,fmmbe.gov.ng,
 ministry,Federal Ministry of Special Duties & Intergovernmental Affairs,https://fmsdiga.gov.ng,fmsdiga.gov.ng,
+government_agency,Federal Ministry of Special Duties & Intergovernmental Affairs,https://fmsdiga.gov.ng,fmsdiga.gov.ng,
+government_agency,Lagos State Ministry of Foreign affairs,https://www.foreign.gov.bb,foreign.gov.bb,central-1
 ministry,Ministry of Foreign Affairs of the Federal Republic of Nigeria,http://www.foreignaffairs.gov.ng/,foreignaffairs.gov.ng,
+government_agency,Ministry of Foreign Affairs of the Federal Republic of Nigeria,http://www.foreignaffairs.gov.ng/,foreignaffairs.gov.ng,central
+government_agency,Federal Road Safety Corps,http://frsc.gov.ng,frsc.gov.ng,
+government_agency,"High Commission of Ghana, Abuja",https://ghanahighcommission-nigeria.com/,ghanahighcommission-nigeria.com,central
 parliament,Gombe State House of Assembly,http://gombestate.gov.ng/house-of-assembly/,gombestate.gov.ng,central-1
 supreme_court,Gombe State House of Assembly,http://gombestate.gov.ng/house-of-assembly/,gombestate.gov.ng,central-1
+government_agency,Embassy of Poland in Abuja,https://www.gov.pl/web/nigeria,gov.pl,central
+government_agency,"British High Commission, Abuja",https://www.gov.uk/government/world/organisations/british-high-commission-abuja,gov.uk,central
+government_agency,high commission of India in Nigeria,https://hciabuja.gov.in,hciabuja.gov.in,central
+government_agency,Federal Ministry of Health,https://health.gov.ng,health.gov.ng,central
 ministry,Federal Ministry of Health,https://health.gov.ng,health.gov.ng,
+government_agency,Lagos State Ministry of Health,https://health.lagosstate.gov.ng/,health.lagosstate.gov.ng,central-1
+government_agency,Lagos State Hotel Licensing Authority,https://hla.lagosstate.gov.ng,hla.lagosstate.gov.ng,central-1
 parliament,Osun State House of Assembly,http://www.houseofassembly.os.gov.ng/,houseofassembly.os.gov.ng,central-1
 supreme_court,Osun State House of Assembly,http://www.houseofassembly.os.gov.ng/,houseofassembly.os.gov.ng,central-1
+government_agency,Lagos State Ministry of Housing,https://housing.lagosstate.gov.ng/,housing.lagosstate.gov.ng,central-1
+government_agency,Lagos State Health Service Commission,http://hsc.lagosstate.gov.ng/,hsc.lagosstate.gov.ng,
+government_agency,Independent Corrupt Practices Commission,http://www.icpc.gov.ng,icpc.gov.ng,
+government_agency,Anambra State ICT Agency,https://ict.anambrastate.gov.ng,ict.anambrastate.gov.ng,central-1
+government_agency,Institute of Human Virology,http://ihvnigeria.org/ihvnweb/webnew/,ihvnigeria.org,
 parliament,Imo State House of Assembly,http://imostate.gov.ng/arms-of-government/the-legislature/,imostate.gov.ng,central-1
 supreme_court,Imo State House of Assembly,http://imostate.gov.ng/arms-of-government/the-legislature/,imostate.gov.ng,central-1
+government_agency,Lagos State Ministry of Information and Strategy,https://information.lagosstate.gov.ng/,information.lagosstate.gov.ng,central-1
+government_agency,"Oyo State Ministry of Information, Culture and Tourism",https://information.oyostate.gov.ng/,information.oyostate.gov.ng,
+government_agency,Kwara State Council of Arts and Culture,https://www.instagram.com/kwara_stateartsandculture/?utm_source=ig_web_button_share_sheet,instagram.com,
+government_agency,embassy of Ireland in Nigeria,https://www.ireland.ie/en/nigeria/abuja/,ireland.ie,central
+government_agency,Gombe State Board Of Intrenal Revenue,https://irs.gm.gov.ng/ads/gombe-internal-revenue-service,irs.gm.gov.ng,
+government_agency,Joint Admissions and Matriculation Board,https://www.jamb.gov.ng/,jamb.gov.ng,
 parliament,Jigawa State House of Assembly,http://www.jigawastate.gov.ng/state-asembly_3.php,jigawastate.gov.ng,central-1
+government_agency,Jigawa State Ministry of Environment,"https://jigawastate.gov.ng/environment.php#:~:text=The%20Ministry%20of%20Environment%20was,JISEPA)%20and%20Alternative%20Energy%20Fund.",jigawastate.gov.ng,
 supreme_court,Jigawa State House of Assembly,http://www.jigawastate.gov.ng/state-asembly_3.php,jigawastate.gov.ng,central-1
 ministry,Jigawa State Ministry of Environment,"https://jigawastate.gov.ng/environment.php#:~:text=The%20Ministry%20of%20Environment%20was,JISEPA)%20and%20Alternative%20Energy%20Fund.",jigawastate.gov.ng,
 ministry,Nigerian Federal Ministry of Justice,http://www.justice.gov.ng,justice.gov.ng,
+government_agency,Nigerian Federal Ministry of Justice,http://www.justice.gov.ng,justice.gov.ng,central
 parliament,Kano State House of Assembly,https://kanoassembly.gov.ng/home/,kanoassembly.gov.ng,central-1
 supreme_court,Kano State House of Assembly,https://kanoassembly.gov.ng/home/,kanoassembly.gov.ng,central-1
+government_agency,"KANO STATE WATERSHED, EROSION, AND CLIMATE CHANGE MANAGEMENT AGENCY",https://kanoweccma.org.ng/,kanoweccma.org.ng,
+government_agency,Katsina State Ministry of Education,https://katsinastate.gov.ng/education/,katsinastate.gov.ng,
 ministry,Katsina State Ministry of Education,https://katsinastate.gov.ng/education/,katsinastate.gov.ng,
+government_agency,KADUNA STATE Ministry Of Environment & Natural Resources,https://kdsg.gov.ng/2021/03/06/ministry-of-environment-natural-resources/,kdsg.gov.ng,
 ministry,KADUNA STATE Ministry Of Environment & Natural Resources,https://kdsg.gov.ng/2021/03/06/ministry-of-environment-natural-resources/,kdsg.gov.ng,
 parliament,Kebbi State House of Assembly,http://www.kebbistate.gov.ng/lagislative,kebbistate.gov.ng,central-1
+government_agency,Kebbi State Ministry of Information and Culture,https://www.kebbistate.gov.ng/ministry-information-culture,kebbistate.gov.ng,
 ministry,Ministry of Environment & Solid Minerals Kebbi State,https://www.kebbistate.gov.ng/ministry-environment-solid-minerals,kebbistate.gov.ng,
+government_agency,Ministry of Environment & Solid Minerals Kebbi State,https://www.kebbistate.gov.ng/ministry-environment-solid-minerals,kebbistate.gov.ng,
 supreme_court,Kebbi State House of Assembly,http://www.kebbistate.gov.ng/lagislative,kebbistate.gov.ng,central-1
+government_agency,Kano Electricity Distribution Company,http://www.kedco.ng,kedco.ng,
+government_agency,"embassy of Indonesia, Abuja",https://kemlu.go.id/abuja,kemlu.go.id,central
+government_agency,"High Commission of Malaysia, Abuja",https://www.kln.gov.my/web/nga_abuja/home,kln.gov.my,central
 supreme_court,Kogi State House of Assembly,https://kogistate.gov.ng/government.php?pg=The%20Legislative,kogistate.gov.ng,central-1
 parliament,Kogi State House of Assembly,https://kogistate.gov.ng/government.php?pg=The%20Legislative,kogistate.gov.ng,central-1
+government_agency,Kwara  State Ministry of Health,https://www.kwarastate.gov.ng/,kwarastate.gov.ng,
+government_agency,Kwara State Ministry of Environment,https://kwarastate.gov.ng/ministry/lorem-ipsum/,kwarastate.gov.ng,
 ministry,Kwara State Ministry of Environment,https://kwarastate.gov.ng/ministry/lorem-ipsum/,kwarastate.gov.ng,
 parliament,Kwara State House of Assembly,http://www.kwha.gov.ng/,kwha.gov.ng,central-1
 supreme_court,Kwara State House of Assembly,http://www.kwha.gov.ng/,kwha.gov.ng,central-1
+government_agency,National Library of Nigeria Kwara State Branch,http://kwsbnln.blogspot.com/?m=1,kwsbnln.blogspot.com,
+government_agency,Federal Ministry of Labour and Employment,https://labour.gov.ng/,labour.gov.ng,central
 parliament,Lagos State House of Assembly,https://www.lagoshouseofassembly.gov.ng/,lagoshouseofassembly.gov.ng,central-1
 supreme_court,Lagos State House of Assembly,https://www.lagoshouseofassembly.gov.ng/,lagoshouseofassembly.gov.ng,central-1
+government_agency,Lagos State Ministry of Economic Planning and Budget,https://lagosmepb.org/,lagosmepb.org,central-1
+government_agency,Lagos State Ministry of Justice,http://lagosministryofjustice.org/,lagosministryofjustice.org,central-1
+government_agency,Lagos State Public Procurement Agency,https://www.lagosppa.gov.ng/,lagosppa.gov.ng,central-1
+government_agency,Lagos state residents registration agency,https://www.lagosresidents.gov.ng/,lagosresidents.gov.ng,
+government_agency,Lagos State Residents Registration Agency,https://www.lagosresidents.gov.ng,lagosresidents.gov.ng,local
+government_agency,Lagos State Resilience Office,https://www.lagosresilience.net/,lagosresilience.net,
+government_agency,Lagos State Scholarship Board,http://lagosscholarship.org/,lagosscholarship.org,local
+government_agency,Lagos State Executive Council,http://www.lagosstate.gov.ng,lagosstate.gov.ng,central-1
 constitutional_court,Lagos State Executive Council,http://www.lagosstate.gov.ng,lagosstate.gov.ng,central-1
+government_agency,Lagos State Security Trust Fund,https://lagosstatesecuritytrustfund.com/,lagosstatesecuritytrustfund.com,central-1
+government_agency,Lagos State Agricultural Inputs Supply Authority,http://www.lagsoagricuinputs.org,lagsoagricuinputs.org,central-1
+government_agency,Lagos State Agric Inputs Supply Authority,http://www.lagsoagricuinputs.org,lagsoagricuinputs.org,central-1
+government_agency,Lagos State Agric Inputs Supply Authority,https://laisa.lagosstate.gov.ng/,laisa.lagosstate.gov.ng,central-1
+government_agency,Lagos State Agricultural Inputs Supply Authority,https://laisa.lagosstate.gov.ng/,laisa.lagosstate.gov.ng,central-1
+government_agency,Lagos Metropolitan Area Transport Authority,https://www.lamata-ng.com/,lamata-ng.com,
+government_agency,Lagos State Neighborhood Safety Agency,https://lansa.lagosstate.gov.ng/,lansa.lagosstate.gov.ng,central-1
+government_agency,Lagos State Signage and Advertisement Agency,http://www.lasaa.com/,lasaa.com,central-1
+government_agency,Lagos state bulding control agency,https://lasbca.lagosstate.gov.ng/,lasbca.lagosstate.gov.ng,
+government_agency,Lagos state coconut development authority,https://lascoda.lagosstate.gov.ng,lascoda.lagosstate.gov.ng,central-1
+government_agency,Lagos State Consumer protection Agency,https://lascopa.lagosstate.gov.ng/,lascopa.lagosstate.gov.ng,central-1
+government_agency,Lagos State Driver's Institute,https://lasdri.org/,lasdri.org,central-1
+government_agency,Lagos State Emergency Management Agency,https://lasema.lagosstate.gov.ng/,lasema.lagosstate.gov.ng,central-1
+government_agency,Lagos state health management agency,https://www.lashmaregulations.com.ng,lashmaregulations.com.ng,
+government_agency,Lagos State Independent Electoral Commission,https://lasiec.gov.ng/,lasiec.gov.ng,central-1
+government_agency,Lagos state infrastructure maintenance & Regulatory agency,https://www.lasimra.gov.ng,lasimra.gov.ng,
+government_agency,Lagos State Pension Commission,https://laspec.gov.ng/,laspec.gov.ng,central-1
+government_agency,Lagos state physical planning permit authority,https://laspppa.lagosstate.gov.ng/,laspppa.lagosstate.gov.ng,central-1
+government_agency,Lagos State Records and Archives Bureau,https://lasrab.lagosstate.gov.ng/,lasrab.lagosstate.gov.ng,central-1
+government_agency,"Lagos State Science, Research and Innovation Council",https://lasric.lagosstate.gov.ng/,lasric.lagosstate.gov.ng,central-1
+government_agency,Lagos State Technical and Vocational Education Board,https://www.lastveb.com.ng/,lastveb.com.ng,
+government_agency,Lagos state universal basic education board,https://lasubeb.lg.gov.ng,lasubeb.lg.gov.ng,local
+government_agency,Lagos State Urban Renewal Agency,https://lasura.lagosstate.gov.ng/,lasura.lagosstate.gov.ng,central-1
+government_agency,Lagos State Waterways Authority,http://laswa.lagosstate.gov.ng/,laswa.lagosstate.gov.ng,
+government_agency,Lagos State Waste Management Authority,http://www.lawma.gov.ng/,lawma.gov.ng,central-1
+government_agency,Lagos State Law Enforcement Training Institute,https://leti.lagosstate.gov.ng/,leti.lagosstate.gov.ng,central-1
+government_agency,Lagos State Law Enforcement Training Institute,https://leti.lg.gov.ng/,leti.lg.gov.ng,central-1
+government_agency,Lagos State Liaison Office,https://liaisonoffice.lagosstate.gov.ng/,liaisonoffice.lagosstate.gov.ng,
+government_agency,Librarians' Registration Council of Nigeria,https://www.lrcn.gov.ng,lrcn.gov.ng,
+government_agency,Lagos State Agricultural Development Authority,https://lsada.org/,lsada.org,central-1
+government_agency,Lagos State Employment Trust Fund,https://lsetf.ng/,lsetf.ng,
+government_agency,Lagos State Film and Video Censors Board,https://lsfvcb.lagosstate.gov.ng/,lsfvcb.lagosstate.gov.ng,
+government_agency,Lagos state material testing laboratory,https://lsmtl.lagosstate.gov.ng,lsmtl.lagosstate.gov.ng,central-1
+government_agency,Lagos State  Number Plate Production Authority,http://lsnppa.com/,lsnppa.com,
+government_agency,Lagos state waste water management office,https://lswmo.lagosstate.gov.ng,lswmo.lagosstate.gov.ng,local
+government_agency,Lagos State Water Regulatory Commission,https://lswrc.lagosstate.gov.ng/,lswrc.lagosstate.gov.ng,
+government_agency,Lagos State Market Development Board,http://www.marketdevelopment.lagosstate.gov.ng/,marketdevelopment.lagosstate.gov.ng,central-1
+government_agency,Lagos State Ministry of Commerce and Industry,https://mcic.lagosstate.gov.ng,mcic.lagosstate.gov.ng,central-1
+government_agency,"Lagos state ministry of commerce, industry and cooperatives",https://mcic.lagosstate.gov.ng,mcic.lagosstate.gov.ng,central-1
+government_agency,Ministry of Energy and Mineral Resources (Lagos),https://memr.lagosstate.gov.ng/,memr.lagosstate.gov.ng,central-1
+government_agency,Lagos State Ministry of Economic Planning and Budget,https://mepb.lagosstate.gov.ng/,mepb.lagosstate.gov.ng,central-1
+government_agency,"Lagos State Ministry of Establishments, Training and Pensions",https://metp.lagosstate.gov.ng/,metp.lagosstate.gov.ng,central-1
+government_agency,embassy of Bulgaria in Nigeria,https://www.mfa.bg/embassies/nigeria,mfa.bg,central
+government_agency,embassy of Greece in Nigeria,https://www.mfa.gr/missionsabroad/nigeria.html,mfa.gr,central
+government_agency,Kano State Ministry of Education,https://ministryofeducation.kn.gov.ng/,ministryofeducation.kn.gov.ng,
 ministry,Kano State Ministry of Education,https://ministryofeducation.kn.gov.ng/,ministryofeducation.kn.gov.ng,
+government_agency,Lagos State Ministry of Local Government and Community Affairs,https://mlgca.lagosstate.gov.ng/,mlgca.lagosstate.gov.ng,central-1
+government_agency,Lagos State Ministry of Local Government and Chieftaincy Affairs,https://mlgca.lagosstate.gov.ng,mlgca.lagosstate.gov.ng,central-1
+government_agency,Medical Laboratory Science Council of Nigeria,http://www.mlscn.gov.ng/,mlscn.gov.ng,
+government_agency,"Katsina State Ministry of Commerce, Industry, Tourism & Investment",https://mocit.kt.gov.ng/the-ministry/,mocit.kt.gov.ng,
+government_agency,Ogun State Ministry of Environment,https://moe.og.gov.ng/,moe.og.gov.ng,
 ministry,Ogun State Ministry of Environment,https://moe.og.gov.ng/,moe.og.gov.ng,
+government_agency,Ondo State Ministry Of Environment,https://moe.on.gov.ng/,moe.on.gov.ng,central-1
+government_agency,Lagos State Ministry of Environment,https://moelagos.gov.ng/,moelagos.gov.ng,central-1
+government_agency,Lagos State Ministry of the Environment and Water Resources,https://moelagos.gov.ng/,moelagos.gov.ng,central-1
 ministry,Gombe State Ministry of Finance and Economic Development,https://mof.gm.gov.ng/,mof.gm.gov.ng,
+government_agency,Gombe State Ministry of Finance and Economic Development,https://mof.gm.gov.ng/,mof.gm.gov.ng,
+government_agency,Yobe State Ministry of Health,https://moh.yb.gov.ng/Health/index.php/operational-areas/ministry-projects/15-operational-areas,moh.yb.gov.ng,
 ministry,Yobe State Ministry of Health,https://moh.yb.gov.ng/Health/index.php/operational-areas/ministry-projects/15-operational-areas,moh.yb.gov.ng,
+government_agency,"Nasarawa State Ministry of Information, Culture and Tourism",https://moi.na.gov.ng,moi.na.gov.ng,
+government_agency,"Zamfara State Ministry of information, Culture and Tourism",https://moic.zamfara.gov.ng,moic.zamfara.gov.ng,
+government_agency,Lagos State Ministry of Science and Technology,https://most.lagosstate.gov.ng/,most.lagosstate.gov.ng,central-1
+government_agency,Lagos State Ministry of Physical Planning and Urban Development,https://mppud.lagosstate.gov.ng/,mppud.lagosstate.gov.ng,central-1
+government_agency,Ministry of Solid Minerals Development,https://msmd.gov.ng/,msmd.gov.ng,central
 ministry,"Gombe State Ministry of Science, Technology and Innovation",https://msti.gm.gov.ng/home/,msti.gm.gov.ng,
+government_agency,"Gombe State Ministry of Science, Technology and Innovation",https://msti.gm.gov.ng/home/,msti.gm.gov.ng,
+government_agency,Lagos state muslim pilgrims welfare board,https://muslimpilgrims.lagosstate.gov.ng,muslimpilgrims.lagosstate.gov.ng,
+government_agency,Lagos State Motor Vehicle Administration Agency,https://mvaa.lagosstate.gov.ng/,mvaa.lagosstate.gov.ng,
+government_agency,embassy of the Czech republic in Nigeria,https://www.mzv.cz/abuja,mzv.cz,central
+government_agency,embassy of Slovakia in Nigeria,https://www.mzv.sk/web/abuja,mzv.sk,central
+government_agency,National Biotechnology Development Agency,https://nabda.gov.ng,nabda.gov.ng,
+government_agency,National Agency for the Control of AIDS,http://naca.gov.ng/,naca.gov.ng,
+government_agency,National Center for Technology Management,http://www.nacetem.gov.ng/,nacetem.gov.ng,
+government_agency,National Agency for Food and Drug Administration and Control,http://www.nafdac.gov.ng/,nafdac.gov.ng,
+government_agency,News Agency of Nigeria,http://www.nannewsngr.com/,nannewsngr.com,
+government_agency,"National Power Training Institute of Nigeria, Kaduna",http://naptin.gov.ng/,naptin.gov.ng,
+government_agency,Nigeria Agricultural Quarantine Service,http://www.naqs.gov.ng/,naqs.gov.ng,
 parliament,National Assembly Service Commission,https://nasc.gov.ng/,nasc.gov.ng,local
+government_agency,National Space Research and Development Agency,http://www.nasrda.gov.ng/,nasrda.gov.ng,
+government_agency,Senate of Nigeria,https://nass.gov.ng/,nass.gov.ng,central
 supreme_court,National Assembly of Nigeria,https://nass.gov.ng/,nass.gov.ng,central
+government_agency,House of Representatives of Nigeria,https://nass.gov.ng/,nass.gov.ng,central
 parliament,National Assembly of Nigeria,https://nass.gov.ng/,nass.gov.ng,central
+government_agency,National Council on Climate Change,https://natccc.gov.ng/,natccc.gov.ng,
+government_agency,National Intelligence Agency,https://www.nationalintelligenceagency.gov.ng,nationalintelligenceagency.gov.ng,
+government_agency,Federal Ministry of Budget and Economic Planning,https://nationalplanning.gov.ng/,nationalplanning.gov.ng,central
+government_agency,National Population Commission Abuja Nigeria,http://nationalpopulation.gov.ng/,nationalpopulation.gov.ng,
 ministry,National Population Commission Abuja Nigeria,http://nationalpopulation.gov.ng/,nationalpopulation.gov.ng,
+government_agency,National Lottery Regulatory Commission,http://www.natlotregcom.gov.ng,natlotregcom.gov.ng,
+government_agency,Nigeria Centre for Disease Control,https://ncdc.gov.ng/ncdc,ncdc.gov.ng,
+government_agency,Nigeria Centre for Disease Control,https://ncdc.gov.ng/index.html/,ncdc.gov.ng,
+government_agency,National Centre for Petroleum Research and Development,https://ncprd.org.ng,ncprd.org.ng,
+government_agency,Niger Delta Development Commission,https://www.nddc.gov.ng/,nddc.gov.ng,
+government_agency,Nigeria Deposit Insurance Corporation,http://www.ndic.org.ng/,ndic.org.ng,
+government_agency,National Examination Council,http://www.neconigeria.org,neconigeria.org,
+government_agency,National Emergency Management Agency,https://nema.gov.ng,nema.gov.ng,
+government_agency,National Electric Power Authority,http://www.nepanigeria.org,nepanigeria.org,
+government_agency,National Environmental Standards and Regulations Enforcement Agency,https://www.nesrea.gov.ng,nesrea.gov.ng,local
+government_agency,National Board for Technical Education,https://net.nbte.gov.ng/,net.nbte.gov.ng,
+government_agency,Nigerian Financial Intelligence Unit,http://www.nfiu.gov.ng/,nfiu.gov.ng,
+government_agency,National Film and Video Censors Boards,https://www.nfvcb.gov.ng/,nfvcb.gov.ng,
+government_agency,Embassy of France in Abuja,https://ng.ambafrance.org/,ng.ambafrance.org,central
+government_agency,High Commission of the United Republic of Tanzania,https://www.ng.tzembassy.go.tz/,ng.tzembassy.go.tz,central
+government_agency,Consulate General of the United States in Lagos,https://ng.usembassy.gov/consulate-lagos/,ng.usembassy.gov,
+government_agency,Embassy of the United States in Nigeria,https://ng.usembassy.gov,ng.usembassy.gov,central
+government_agency,Nigerian Geological Survey Agency,http://www.ngsa-nig.org/,ngsa-nig.org,
+government_agency,Nigerians in Diaspora Commission,https://nidcom.gov.ng,nidcom.gov.ng,
+government_agency,Nigerian Institute For Oil Palm Research,http://www.nifor.gov.ng/,nifor.gov.ng,
+government_agency,"Embassy of Germany, Abuja",https://nigeria.diplo.de,nigeria.diplo.de,central
+government_agency,"Embassy of Belgium, Abuja",http://nigeria.diplomatie.belgium.be,nigeria.diplomatie.belgium.be,central
+government_agency,embassy of Ivory Coast in Nigeria,https://www.nigeria.diplomatie.gouv.ci,nigeria.diplomatie.gouv.ci,central
+government_agency,Australian high commission in Nigeria,https://nigeria.embassy.gov.au,nigeria.embassy.gov.au,central
+government_agency,Federal Government of Nigeria,http://www.nigeria.gov.ng/,nigeria.gov.ng,central
+government_agency,embassy of Belarus in Nigeria,http://nigeria.mfa.gov.by,nigeria.mfa.gov.by,central
+government_agency,"Embassy of Ukraine, Abuja",http://nigeria.mfa.gov.ua/,nigeria.mfa.gov.ua,central
+government_agency,embassy of Russia in Nigeria,https://nigeria.mid.ru,nigeria.mid.ru,central
+government_agency,embassy of Denmark in Nigeria,https://nigeria.um.dk,nigeria.um.dk,central
+government_agency,Sustainable Development Goals and Nigeria,https://nigeria.un.org/,nigeria.un.org,
 ministry,Sustainable Development Goals and Nigeria,https://nigeria.un.org/,nigeria.un.org,
+government_agency,Nigerian Ports Authority,http://nigerianports.gov.ng,nigerianports.gov.ng,
+government_agency,National Bureau of Statistics,https://www.nigerianstat.gov.ng/,nigerianstat.gov.ng,central
+government_agency,Niger State Ministry of Health,http://www.nigerstatemoh.org/,nigerstatemoh.org,
+government_agency,Nigeria Hydrological Services Agency,https://nihsa.gov.ng/,nihsa.gov.ng,
+government_agency,Nigerian Institute of International Affairs,http://niianet.org/,niianet.org,
+government_agency,National Institute for Legislative Studies,https://nilds.gov.ng,nilds.gov.ng,
+government_agency,Nigerian Maritime Administration and Safety Agency,http://nimasa.gov.ng/,nimasa.gov.ng,
+government_agency,National Identity Management Commission,https://www.nimc.gov.ng,nimc.gov.ng,local
+government_agency,Nigerian Meteorological Agency,https://nimet.gov.ng/,nimet.gov.ng,
+government_agency,National Institute for Pharmaceutical Research and Development,http://www.niprd.net/,niprd.net,
+government_agency,National Information Technology Development Agency,https://nitda.gov.ng/,nitda.gov.ng,
+government_agency,National Library of Nigeria,https://nln.gov.ng/,nln.gov.ng,
+government_agency,Nigeria Natural Medicine Development Agency,https://www.nnmda.gov.ng,nnmda.gov.ng,
+government_agency,Nigerian National Petroleum Corporation,http://www.nnpcgroup.com/,nnpcgroup.com,
+government_agency,Nigerian Nuclear Regulatory Authority,https://nnra.gov.ng/nnra/,nnra.gov.ng,
+government_agency,National Orientation Agency,https://www.noa.gov.ng/,noa.gov.ng,
+government_agency,"Embassy of Norway, Abuja",https://www.norway.no/nigeria,norway.no,central
+government_agency,National Oil Spill Detection and Response Agency,https://nosdra.gov.ng/,nosdra.gov.ng,
+government_agency,National Office for Technology Acquisition and Promotion,http://www.notap.gov.ng/,notap.gov.ng,
+government_agency,National Planning Commission of Nigeria,http://www.npc.gov.ng,npc.gov.ng,
 ministry,National Planning Commission of Nigeria,http://www.npc.gov.ng,npc.gov.ng,
+government_agency,Nigeria Police Force,http://www.npf.gov.ng/,npf.gov.ng,central
+government_agency,National Primary Health Care Development Agency,http://www.nphcda.gov.ng/,nphcda.gov.ng,
+government_agency,National Sugar Development Council,https://www.nsdcnigeria.org,nsdcnigeria.org,
+government_agency,Nigerian Safety Investigation Bureau,http://nsib.gov.ng/,nsib.gov.ng,
+government_agency,Nigeria Social Insurance Trust Fund,https://www.nsitf.gov.ng/html/index.cfm,nsitf.gov.ng,
+government_agency,Nasarawa State Ministry of Health,http://nsmoh.org.ng/,nsmoh.org.ng,
+government_agency,Nigerian Television Authority,https://nta.ng/,nta.ng,
+government_agency,Lagos State New Towns Development Authority,https://www.ntda.lg.gov.ng/,ntda.lg.gov.ng,
+government_agency,National Universities Commission,https://www.nuc.edu.ng/,nuc.edu.ng,
+government_agency,Nigerian Universities Commission,https://www.nuc.edu.ng/,nuc.edu.ng,
+government_agency,National Veterinary Research Institute,http://www.nvri.gov.ng/,nvri.gov.ng,
+government_agency,Optometrists and Dispensing Opticians Registration Board of Nigeria,https://odorbn.gov.ng,odorbn.gov.ng,
+government_agency,Lagos State Office of Education Quality Assurance,https://oeqa.lagosstate.gov.ng/,oeqa.lagosstate.gov.ng,
+government_agency,OGEPA,https://www.ogepa.og.gov.ng/,ogepa.og.gov.ng,
 parliament,Ogun State House Of Assembly,https://www.ogha.og.gov.ng/,ogha.og.gov.ng,central-1
 supreme_court,Ogun State House Of Assembly,https://www.ogha.og.gov.ng/,ogha.og.gov.ng,central-1
 ministry,Ondo State Ministry of information and Orientation,https://ondostateministryofinformation.wordpress.com/,ondostateministryofinformation.wordpress.com,
+government_agency,Ondo State Ministry of information and Orientation,https://ondostateministryofinformation.wordpress.com/,ondostateministryofinformation.wordpress.com,
 supreme_court,Ondo State House of Assembly,http://www.ondoweb.ondostate.gov.ng/odha/,ondoweb.ondostate.gov.ng,central-1
 parliament,Ondo State House of Assembly,http://www.ondoweb.ondostate.gov.ng/odha/,ondoweb.ondostate.gov.ng,central-1
+government_agency,Ondo State Primary Health Care Development Board,http://www.osphcdb.org/,osphcdb.org,
+government_agency,"Office of Transformation, Creativity and Innovation",https://otci.lagosstate.gov.ng/,otci.lagosstate.gov.ng,central-1
 parliament,Oyo State House of Assembly,https://www.oyostatelegislature.gov.ng/,oyostatelegislature.gov.ng,central-1
 supreme_court,Oyo State House of Assembly,https://www.oyostatelegislature.gov.ng/,oyostatelegislature.gov.ng,central-1
+government_agency,Pharmacy Council of Nigeria,https://www.pcn.gov.ng/,pcn.gov.ng,
 parliament,Plateau State House of Assembly,http://www.plateaustate.gov.ng/page/house-of-assembly,plateaustate.gov.ng,central-1
 supreme_court,Plateau State House of Assembly,http://www.plateaustate.gov.ng/page/house-of-assembly,plateaustate.gov.ng,central-1
+government_agency,Ministry of Power,https://power.gov.ng/,power.gov.ng,central
+government_agency,Lagos state office of public-private partnership,https://ppplagos.lagosstate.gov.ng/,ppplagos.lagosstate.gov.ng,central-1
+government_agency,Post Primary School Service Commision,https://www.ppsscanambra.net/,ppsscanambra.net,
+government_agency,Projects Development Institute,https://proda.gov.ng,proda.gov.ng,
+government_agency,Lagos State Public Service Staff Development Centre,https://www.pssdc.com.ng/,pssdc.com.ng,central-1
+government_agency,Petroleum Technology Development Fund,https://ptdf.gov.ng,ptdf.gov.ng,
+government_agency,Federal Radio Corporation of Nigeria,http://www.radionigeria.gov.ng,radionigeria.gov.ng,
+government_agency,Rural Electrification Agency Nigeria,https://rea.gov.ng/,rea.gov.ng,
+government_agency,Rivers State Ministry of Water Resources and Rural Development (RSMWRRD),http://riversstate-mwrrd.com/,riversstate-mwrrd.com,local
+government_agency,Rivers State Ministry of Housing,https://www.riversstate.gov.ng/ova_dep/ministry-of-housing/,riversstate.gov.ng,central-1
+government_agency,Raw Materials Research and Development Council,https://www.rmrdc.gov.ng/,rmrdc.gov.ng,
+government_agency,Taipei Trade Office in the Federal Republic of Nigeria,https://www.roc-taiwan.org/ng_en/index.html,roc-taiwan.org,central
+government_agency,Taipei Trade Office in the Federal Republic of Nigeria,http://www.roc-taiwan.org/NG/,roc-taiwan.org,central
+government_agency,Federal Ministry of Science and Technology,http://www.scienceandtech.gov.ng/,scienceandtech.gov.ng,central
 ministry,Federal Ministry of Science and Technology,http://www.scienceandtech.gov.ng/,scienceandtech.gov.ng,
+government_agency,Special control unit against money laundering,https://www.scuml.org/,scuml.org,
+government_agency,Security and exchange commission abuja,https://sec.gov.ng/,sec.gov.ng,
+government_agency,"Consulate General of the United Arab Emirates, Lagos",https://sp.mofaic.gov.ae/EN/consulates/Lagos/Pages/home.aspx,sp.mofaic.gov.ae,
+government_agency,"Embassy of the United Arab Emirates, Abuja",https://sp.mofaic.gov.ae/EN/DiplomaticMissions/Embassies/Nigeria/Pages/home.aspx,sp.mofaic.gov.ae,central
+government_agency,Lagos State Ministry of Special Duties and Intergovernmental relations,http://specialduties.lagosstate.gov.ng/,specialduties.lagosstate.gov.ng,central-1
 ministry,Ministry of Lagos State Sport Commission,https://sportcommission.lagosstate.gov.ng,sportcommission.lagosstate.gov.ng,
+government_agency,Lagos State sport commission,https://sportcommission.lagosstate.gov.ng,sportcommission.lagosstate.gov.ng,central-1
+government_agency,"Lagos State Ministry of Youth, Sports and Social Development",https://sportcommission.lagosstate.gov.ng/,sportcommission.lagosstate.gov.ng,central-1
+government_agency,Ministry of Lagos State Sport Commission,https://sportcommission.lagosstate.gov.ng,sportcommission.lagosstate.gov.ng,
+government_agency,Supreme Court of Nigeria,https://supremecourt.gov.ng/,supremecourt.gov.ng,central
+government_agency,Lagos State Office of Surveyor-General,https://surveyorgeneral.lagosstate.gov.ng/,surveyorgeneral.lagosstate.gov.ng,central-1
+government_agency,"Embassy of Sweden, Abuja",https://www.swedenabroad.se/abuja,swedenabroad.se,central
 supreme_court,Taraba State House of Assembly,http://tarabastate.gov.ng/legislative-branch/,tarabastate.gov.ng,central-1
 parliament,Taraba State House of Assembly,http://tarabastate.gov.ng/legislative-branch/,tarabastate.gov.ng,central-1
+government_agency,Lagos state environmental and special offences enforcement agency,https://taskforce.lagosstate.gov.ng/,taskforce.lagosstate.gov.ng,central-1
+government_agency,Transmission Company of Nigeria,https://www.tcn.org.ng/,tcn.org.ng,
+government_agency,Rivers State Road Traffic Management Authority,http://www.timariv.gov.ng,timariv.gov.ng,
+government_agency,Kano State Ministry of Tourism and Cultural Development,https://tourism.kn.gov.ng/,tourism.kn.gov.ng,
+government_agency,"Lagos state Ministry of Tourism, Arts and Culture",https://tourismartandculture.lagosstate.gov.ng/,tourismartandculture.lagosstate.gov.ng,central-1
+government_agency,Standards Organisation of Nigeria,https://trade.gov.ng,trade.gov.ng,
+government_agency,Ministry of Transportation,http://www.transport.gov.ng,transport.gov.ng,central
+government_agency,Lagos State Ministry of Transport,https://transportation.lagosstate.gov.ng/,transportation.lagosstate.gov.ng,central-1
+government_agency,Teachers Registration Council of Nigeria,https://www.trcn.gov.ng/,trcn.gov.ng,
+government_agency,embassy of Russia in Nigeria,https://twitter.com/RusEmbNigeriahttps://www.facebook.com/nigeria.mid.ru,twitter.com,central
+government_agency,Universal Basic Education Commission,https://ubec.gov.ng/,ubec.gov.ng,
+government_agency,Lagos State Valuation Office,https://valuationoffice.lagosstate.gov.ng/,valuationoffice.lagosstate.gov.ng,central-1
+government_agency,embassy of Vietnam in Nigeria,https://vnembassy-abuja.mofa.gov.vn/,vnembassy-abuja.mofa.gov.vn,
+government_agency,Lagos State Ministry of Women Affairs and Poverty Alleviation,https://wapa.lagosstate.gov.ng/,wapa.lagosstate.gov.ng,central-1
+government_agency,Kaduna State Water Board Treatment Plant,https://water.kdsg.gov.ng/,water.kdsg.gov.ng,
+government_agency,Lagos State Ministry of Waterfront Infrastructure Development,https://waterfront.lagosstate.gov.ng,waterfront.lagosstate.gov.ng,central-1
+government_agency,Federal Ministry of Water Resources and Sanitation,https://waterresources.gov.ng/,waterresources.gov.ng,central
 ministry,Federal Ministry of Water Resources,https://www.waterresources.gov.ng/,waterresources.gov.ng,
+government_agency,Lagos State Ministry of wealth creation and employment,https://wealthcreation.lagosstate.gov.ng,wealthcreation.lagosstate.gov.ng,central-1
+government_agency,World Health Organization (Nigeria),http://www.who.int/hac/network/who/co_nigeria/en/,who.int,
+government_agency,Nigerian Ministry of Women Affairs,https://womenaffairs.gov.ng/,womenaffairs.gov.ng,central
 ministry,Federal ministry of works and housing,https://worksandhousing.gov.ng/,worksandhousing.gov.ng,
+government_agency,Federal ministry of works and housing,https://worksandhousing.gov.ng/,worksandhousing.gov.ng,central
+government_agency,Lagos State Ministry of Works and Infrastructure,http://worksandinfrastructure.lagosstate.gov.ng/,worksandinfrastructure.lagosstate.gov.ng,central-1
 parliament,Yobe State House of Assembly,http://www.yobestate.gov.ng/node/33,yobestate.gov.ng,central-1
 supreme_court,Yobe State House of Assembly,http://www.yobestate.gov.ng/node/33,yobestate.gov.ng,central-1
 ministry,Ondo State Ministry of Education,https://www.yoursms.com.ng/,yoursms.com.ng,
+government_agency,Ondo State Ministry of Education,https://www.yoursms.com.ng/,yoursms.com.ng,
+government_agency,"Lagos State Ministry of Youth, Sports and Social Development",http://www.youthandsocialdevelopment.lagosstate.gov.ng/,youthandsocialdevelopment.lagosstate.gov.ng,central-1
+university,Nigerian Army University Biu,https://naub.edu.ng/,naub.edu.ng,university
+university,"Federal University of Health Sciences, Azare",https://fuhsa.edu.ng/,fuhsa.edu.ng,university
+university,University of Benin,https://www.uniben.edu/,uniben.edu,university
+university,Zamfara State University,https://www.zamsut.edu.ng,zamsut.edu.ng,university
+university,"Kwara State University, Malete",https://kwasu.edu.ng/,kwasu.edu.ng,university
+university,"Delta State University, Abraka",https://www.delsu.edu.ng/,delsu.edu.ng,university
+university,"Federal University, Otuoke",http://www.fuotuoke.edu.ng/,fuotuoke.edu.ng,university
+university,University of Uyo,https://uniuyo.edu.ng,uniuyo.edu.ng,university
+university,Usmanu Danfodiyo University,https://www.udusok.edu.ng/,udusok.edu.ng,university
+university,"Federal University, Wukari",https://www.fuwukari.edu.ng/,fuwukari.edu.ng,university
+university,University of Ibadan,https://www.ui.edu.ng/,ui.edu.ng,university
+university,University of Port Harcourt,https://www.uniport.edu.ng/,uniport.edu.ng,university
+university,Osun State University,https://www.uniosun.edu.ng/,uniosun.edu.ng,university
+university,University of Benin Ekehuan Campus,https://www.uniben.edu,uniben.edu,university
+university,Nigeria Police Academy,https://polac.edu.ng/,polac.edu.ng,university
+university,Obafemi Awolowo University,https://oauife.edu.ng,oauife.edu.ng,university
+university,University of Abuja,https://www.uniabuja.edu.ng/,uniabuja.edu.ng,university
+university,Federal University Gashua,https://www.fugashua.edu.ng,fugashua.edu.ng,university
+university,Federal University Gashua,https://www.fugashua.edu.ng/,fugashua.edu.ng,university
+university,Federal University Dutse,http://fud.edu.ng/,fud.edu.ng,university
+university,"University of Africa, Toru-Orua",http://www.uat.edu.ng/,uat.edu.ng,university
+university,"Federal University, Birnin Kebbi",https://www.fubk.edu.ng/,fubk.edu.ng,university
+university,Ahmadu Bello University,https://www.abu.edu.ng,abu.edu.ng,university
+university,Abubakar Tafawa Balewa University,http://www.atbu.edu.ng/,atbu.edu.ng,university
+university,"Bayero University, Kano",http://www.buk.edu.ng/,buk.edu.ng,university
+university,"Federal University of Health Science, Otukpo",https://fuhso.edu.ng/,fuhso.edu.ng,university
+university,Emmanuel Alayande University of Education,https://eauedoyo.edu.ng/,eauedoyo.edu.ng,university

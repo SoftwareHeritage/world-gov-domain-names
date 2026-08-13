@@ -1,49 +1,281 @@
 type,label,website,hostname,level
+government_agency,"Embassy of France, Lima",http://www.ambafrance-pe.org/,ambafrance-pe.org,central
+government_agency,"Embassy of Italy, Lima",https://amblima.esteri.it,amblima.esteri.it,central
+government_agency,National Water Authority,http://www.ana.gob.pe/,ana.gob.pe,central
+government_agency,Academia Nacional de Ciencia y Tecnología,http://www.ancyt.org.pe/,ancyt.org.pe,
+government_agency,embassy of Finland in Peru,http://barrioperu.terra.com.pe/finlandia/,barrioperu.terra.com.pe,central
+government_agency,Central Reserve Bank of Peru,https://www.bcrp.gob.pe,bcrp.gob.pe,
+government_agency,"Embassy of Austria, Lima",https://www.bmeia.gv.at/oeb-lima/,bmeia.gv.at,central
+government_agency,National Library of Peru,http://www.bnp.gob.pe/,bnp.gob.pe,
+government_agency,"Chamber of Commerce, Industry and Tourism of Ancash",https://www.camaradeancash.org.pe/,camaradeancash.org.pe,
+government_agency,Chamber of Commerce and Production of Piura,https://www.camcopiura.org.pe/,camcopiura.org.pe,
+government_agency,embassy of Canada in Peru,https://www.canadainternational.gc.ca/peru-perou/index.aspx,canadainternational.gc.ca,central
+government_agency,"Embassy of Ecuador, Lima",https://www.cancilleria.gob.ec/peru/,cancilleria.gob.ec,central
+government_agency,Q29035492,http://www.cenepred.gob.pe/web/,cenepred.gob.pe,
+government_agency,CENFOTUR,http://www.cenfotur.edu.pe/,cenfotur.edu.pe,
+government_agency,Q136290451,https://cenvul.igp.gob.pe/,cenvul.igp.gob.pe,
+government_agency,Centro Nacional de Planeamiento Estratégico (Peru),http://www.ceplan.gob.pe/,ceplan.gob.pe,
+government_agency,Consejo Fiscal del Perú,https://cf.gob.pe/,cf.gob.pe,
+government_agency,"Embassy of Chile, Lima",https://chile.gob.cl/peru,chile.gob.cl,central
+government_agency,National Council of the Magistrature,https://www.cnm.gob.pe/,cnm.gob.pe,
+government_agency,Q138493972,https://www.colcaperu.gob.pe/,colcaperu.gob.pe,
+government_agency,Peruvian National Commission of Cooperation for UNESCO,http://www.comiunesco.org.pe/,comiunesco.org.pe,
+government_agency,Q30112659,http://www.conadisperu.gob.pe,conadisperu.gob.pe,
 parliament,Congress of the Republic of Peru,http://www.congreso.gob.pe/,congreso.gob.pe,central
 supreme_court,Congress of the Republic of Peru,http://www.congreso.gob.pe/,congreso.gob.pe,central
+government_agency,"Embassy of Panama, Lima",http://www.consuladopanamalima.com.pe/,consuladopanamalima.com.pe,central
+government_agency,Ministry of Culture,https://www.cultura.gob.pe/,cultura.gob.pe,central
 ministry,Ministry of Culture,https://www.cultura.gob.pe/,cultura.gob.pe,
+government_agency,Decentralized Culture Directorate (DDC) in Cusco,https://www.culturacusco.gob.pe/,culturacusco.gob.pe,
+government_agency,"Audiovisual, Phonography and New Media Directorate",https://dafo.cultura.pe/,dafo.cultura.pe,
+government_agency,Peruvian ombudsman,http://www.defensoria.gob.pe/,defensoria.gob.pe,
+government_agency,National Commission for Development and a Drug-free Lifestyle,https://www.devida.gob.pe,devida.gob.pe,
+government_agency,National Center for Epidemiology and Disease Control,https://www.dge.gob.pe/portal/,dge.gob.pe,
+government_agency,Q138412009,https://www.dhn.mil.pe/,dhn.mil.pe,
+government_agency,Peruvian Coast Guard,https://www.dicapi.mil.pe/,dicapi.mil.pe,
+government_agency,"General Directorate of Medicines, Supplies and Drugs (Peru)",http://www.digemid.minsa.gob.pe/home.asp,digemid.minsa.gob.pe,
+government_agency,National Directorate of Intelligence,http://www.dini.gob.pe/,dini.gob.pe,
+government_agency,Dirección Regional de Salud del Callao,http://www.diresacallao.gob.pe/wdiresa/,diresacallao.gob.pe,
+government_agency,"Embassy of Switzerland, Lima",https://www.eda.admin.ch/lima,eda.admin.ch,central
+government_agency,"Embassy of Switzerland, Lima",http://www.eda.admin.ch/eda/es/home/reps/sameri/vper/emblim.html,eda.admin.ch,central
+government_agency,Delegation of the European Union to Peru,https://www.eeas.europa.eu/delegations/peru_en,eeas.europa.eu,
+government_agency,"Embassy of Germany, Lima",http://www.embajada-alemana.org.pe/,embajada-alemana.org.pe,central
+government_agency,"Embassy of Brazil, Lima",http://www.embajadabrasil.org.pe/,embajadabrasil.org.pe,central
+government_agency,"Embassy of Costa Rica, Lima",http://www.embajadacostaricaenperu.org/,embajadacostaricaenperu.org,central
+government_agency,"Embassy of Bolivia, Lima",http://www.embajadadeboliviaenperu.com,embajadadeboliviaenperu.com,central
+government_agency,embassy of Guatemala in Peru,http://www.embajadadeguatemalaenperu.org/,embajadadeguatemalaenperu.org,central
+government_agency,"Embassy of Venezuela, Lima",https://embajadadevenezuela.pe,embajadadevenezuela.pe,
+government_agency,"Embassy of Mexico, Lima",https://embamex.sre.gob.mx/peru,embamex.sre.gob.mx,central
+government_agency,"Embassy of Israel, Lima",https://embassies.gov.il/lima,embassies.gov.il,central
+government_agency,"Embassy of Honduras, Lima",https://embhondurasperu.com,embhondurasperu.com,central
+government_agency,"Embassy of India, Lima",https://www.eoilima.gov.in,eoilima.gov.in,central
+government_agency,"Embassy of Argentina, Lima",https://eperu.cancilleria.gob.ar/,eperu.cancilleria.gob.ar,central
+government_agency,Nazareth piarist province,https://www.escolapios.org.co,escolapios.org.co,
 constitutional_court,Nazareth piarist province,https://www.escolapios.org.co,escolapios.org.co,
+government_agency,Institute of Health Technology Assessment and Research,http://www.essalud.gob.pe/ietsi/,essalud.gob.pe,
+government_agency,Seguro Social de Salud del Perú,https://www.essalud.gob.pe/,essalud.gob.pe,
+government_agency,Institute for Traditional Medicine,http://www.essalud.gob.pe/instituto-de-medicina-tradicional/,essalud.gob.pe,
+government_agency,"Embassy of Spain, Lima",https://www.exteriores.gob.es/Embajadas/lima/es/Paginas/index.aspx,exteriores.gob.es,central
+government_agency,embassy of Finland in Peru,https://finlandabroad.fi/web/per,finlandabroad.fi,central
+government_agency,embassy of Finland in Peru,http://www.finlandiaperu.org.pe/,finlandiaperu.org.pe,central
+government_agency,Ministerio Público,https://www.fiscalia.gob.pe/,fiscalia.gob.pe,
+government_agency,FONAFE,http://www.fonafe.gob.pe/,fonafe.gob.pe,
+government_agency,"Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica",https://www.fondecyt.gob.pe/,fondecyt.gob.pe,
+government_agency,embassy of Canada in Peru,http://geo.international.gc.ca/latin-america/peru/,geo.international.gc.ca,central
 constitutional_court,Regional Government of Lambayeque,https://www.gob.pe/regionlambayeque,gob.pe,central-1
+government_agency,Regional Government of Ancash,https://www.gob.pe/regionancash,gob.pe,central-1
+government_agency,Regional Government of Cuzco,https://www.gob.pe/regioncusco,gob.pe,central-1
+government_agency,Instituto Nacional de Defensa Civil,https://www.gob.pe/indeci,gob.pe,
 constitutional_court,Regional Government of Ayacucho,https://www.gob.pe/regionayacucho,gob.pe,
+government_agency,Organismo Supervisor de Inversión Privada en Telecomunicaciones,https://www.gob.pe/osiptel,gob.pe,
+government_agency,Supervisory Organism for Investment in Energy and Mining,https://www.gob.pe/osinergmin,gob.pe,
+government_agency,Regional Government of Ucayali,https://www.gob.pe/regionucayali,gob.pe,central-1
+government_agency,Organismo Supervisor de las Contrataciones del Estado,https://www.gob.pe/osce,gob.pe,
+government_agency,Instituto de Investigación de la Amazonía Peruana,https://www.gob.pe/iiap,gob.pe,
+government_agency,Regional Government of San Martin,https://www.gob.pe/regionsanmartin,gob.pe,central-1
+government_agency,Agencia Peruana de Cooperación Internacional,https://www.gob.pe/apci,gob.pe,
 constitutional_court,Regional Government of Tacna,https://www.gob.pe/regiontacna,gob.pe,central-1
 ministry,Ministry of Foreign Affairs of Peru,https://www.gob.pe/rree,gob.pe,
+government_agency,Regional Government of Lima,https://www.gob.pe/regionlima/,gob.pe,central-1
 ministry,Ministry of Education of Peru,https://www.gob.pe/minedu,gob.pe,
 constitutional_court,Regional Government of Arequipa,https://www.gob.pe/regionarequipa,gob.pe,central-1
 constitutional_court,Regional Government of San Martin,https://www.gob.pe/regionsanmartin,gob.pe,central-1
 constitutional_court,Regional Government of Ancash,https://www.gob.pe/regionancash,gob.pe,central-1
+government_agency,Regional Government of Piura,https://www.gob.pe/regionpiura,gob.pe,central-1
+government_agency,Autoridad Portuaria Nacional,https://www.gob.pe/apn,gob.pe,
+government_agency,Ministry of Women and Vulnerable Populations,https://www.gob.pe/mimp,gob.pe,central
+government_agency,Regional Government of Lambayeque,https://www.gob.pe/regionlambayeque,gob.pe,central-1
+government_agency,Q129880137,https://www.gob.pe/pcn,gob.pe,
 constitutional_court,Regional Government of Ica,https://www.gob.pe/regionica,gob.pe,central-1
+government_agency,Q125847562,https://www.gob.pe/sanipes,gob.pe,
+government_agency,Estacion Experimental Agraria Pucallpa - INIA,https://www.gob.pe/10866-instituto-nacional-de-innovacion-agraria-eea-pucallpa,gob.pe,
+government_agency,National Board of Justice,https://www.gob.pe/jnj,gob.pe,
+government_agency,Organismo Supervisor de la Inversión en Infraestructura de Transporte de Uso Público,https://www.gob.pe/ositran,gob.pe,
 constitutional_court,Regional Government of Madre de Dios,https://www.gob.pe/regionmadrededios,gob.pe,central-1
 constitutional_court,Regional Government of Callao,https://www.gob.pe/regioncallao,gob.pe,local
+government_agency,Environmental Assessment and Control Agency,https://www.gob.pe/oefa,gob.pe,
+government_agency,Q5702926,http://www.gob.pe/agn,gob.pe,
 constitutional_court,Regional Government of Lima,https://www.gob.pe/regionlima/,gob.pe,central-1
+government_agency,Q130312414,https://www.gob.pe/foncodes,gob.pe,
 constitutional_court,Regional Government of Cuzco,https://www.gob.pe/regioncusco,gob.pe,central-1
+government_agency,"National Superintendency of Control of Security Services, Weapons, Ammunition and Explosives for Civil Use",https://www.gob.pe/sucamec,gob.pe,
 ministry,Ministry of Health of Peru,https://www.gob.pe/minsa,gob.pe,
+government_agency,Regional Government of Ica,https://www.gob.pe/regionica,gob.pe,central-1
+government_agency,Instituto Tecnológico de la Producción,https://www.gob.pe/itp,gob.pe,
+government_agency,National Superintendency of State Assets,https://www.gob.pe/sbn,gob.pe,
+government_agency,Q113855466,https://www.gob.pe/can,gob.pe,
+government_agency,Ministry of Defense of Peru,https://www.gob.pe/mindef,gob.pe,central
+government_agency,Q130221805,https://www.gob.pe/otass,gob.pe,
+government_agency,Organismo de Supervisión de los Recursos Forestales y de Fauna Silvestre,https://www.gob.pe/osinfor,gob.pe,
+government_agency,Regional Government of Arequipa,https://www.gob.pe/regionarequipa,gob.pe,central-1
+government_agency,Geophysics Institute of Peru,https://www.gob.pe/igp,gob.pe,
+government_agency,Regional Government of Moquegua,https://www.gob.pe/regionmoquegua,gob.pe,central-1
 constitutional_court,Regional Government of Amazonas,https://www.gob.pe/regionamazonas,gob.pe,central-1
+government_agency,Q81459429,https://www.gob.pe/servir,gob.pe,
+government_agency,Regional Government of Madre de Dios,https://www.gob.pe/regionmadrededios,gob.pe,central-1
+government_agency,Autoridad de Transporte Urbano para Lima y Callao,https://www.gob.pe/atu,gob.pe,
 ministry,Ministry of Women and Vulnerable Populations,https://www.gob.pe/mimp,gob.pe,
+government_agency,Regional Government of Callao,https://www.gob.pe/regioncallao,gob.pe,local
+government_agency,Ministry of Foreign Affairs of Peru,https://www.gob.pe/rree,gob.pe,central
 constitutional_court,Regional Government of Moquegua,https://www.gob.pe/regionmoquegua,gob.pe,central-1
+government_agency,Regional Government of Apurimac,https://www.gob.pe/regionapurimac,gob.pe,central-1
+government_agency,Ministry of Health of Peru,https://www.gob.pe/minsa,gob.pe,central
+government_agency,CONCYTEC,https://www.gob.pe/concytec,gob.pe,
 constitutional_court,Regional Government of Apurimac,https://www.gob.pe/regionapurimac,gob.pe,central-1
+government_agency,Ministry of Education of Peru,https://www.gob.pe/minedu,gob.pe,central
+government_agency,Comisión Nacional de Investigación y Desarrollo Aeroespacial,https://www.gob.pe/conida,gob.pe,
 constitutional_court,Regional Government of Ucayali,https://www.gob.pe/regionucayali,gob.pe,central-1
+government_agency,Contraloría General de la República del Perú,https://www.gob.pe/contraloria,gob.pe,
+government_agency,Regional Government of Amazonas,https://www.gob.pe/regionamazonas,gob.pe,central-1
+government_agency,Regional Government of Tacna,https://www.gob.pe/regiontacna,gob.pe,central-1
+government_agency,Q123478629,https://www.gob.pe/proyectolegado,gob.pe,
 constitutional_court,Regional Government of Piura,https://www.gob.pe/regionpiura,gob.pe,central-1
+government_agency,Q116935727,https://www.gob.pe/imp,gob.pe,
+government_agency,Q9063424,https://www.gob.pe/caral,gob.pe,
+government_agency,"Embassy of Poland, Lima",https://www.gov.pl/web/peru,gov.pl,central
+government_agency,"Embassy of the United Kingdom, Lima",https://www.gov.uk/world/organisations/british-embassy-peru,gov.uk,central
+government_agency,Regional Government of Ayacucho,https://gra.regionayacucho.gob.pe,gra.regionayacucho.gob.pe,central-1
 constitutional_court,Regional Government of Ayacucho,https://gra.regionayacucho.gob.pe,gra.regionayacucho.gob.pe,central-1
+government_agency,Public Technological Higher Education Institute Design and Communication,https://www.idc.edu.pe/,idc.edu.pe,
+government_agency,Institute of the Sea of Peru,http://www.imarpe.gob.pe/,imarpe.gob.pe,
+government_agency,National Institute of Quality,http://www.inacal.gob.pe,inacal.gob.pe,
+government_agency,Glaciers and Ecosystems Research National Institute,https://www.inaigem.gob.pe/,inaigem.gob.pe,
+government_agency,National Institute for the Defense of Free Competition and the Protection of Intellectual Property,http://www.indecopi.gob.pe/,indecopi.gob.pe,
+government_agency,"Embassy of India, Lima",http://www.indembassy.org.pe/,indembassy.org.pe,central
+government_agency,Q5917511,http://www.indepa.gob.pe/,indepa.gob.pe,
+government_agency,Instituto Nacional de Estadística e Informática,https://www.inei.gob.pe/,inei.gob.pe,central
+government_agency,Q29035510,http://www.ingemmet.gob.pe/,ingemmet.gob.pe,
+government_agency,National Institute of Agrarian Innovation,http://www.inia.gob.pe,inia.gob.pe,
+government_agency,National Penitentiary Institute,https://www.inpe.gob.pe/,inpe.gob.pe,
+government_agency,Peruvian Institute of Sport,http://www.ipd.gob.pe,ipd.gob.pe,
+government_agency,National Jury of Elections,https://www.jne.gob.pe,jne.gob.pe,central
+government_agency,"embassy of Indonesia, Lima",https://kemlu.go.id/lima,kemlu.go.id,central
+government_agency,"Embassy of Malaysia, Lima",https://www.kln.gov.my/web/per_lima,kln.gov.my,central
+government_agency,"Embassy of Turkey, Lima",https://lima-be.mfa.gov.tr,lima-be.mfa.gov.tr,central
+government_agency,"Embassy of Germany, Lima",https://lima.diplo.de/,lima.diplo.de,central
+government_agency,"Embassy of Portugal, Lima",https://lima.embaixadaportugal.mne.gov.pt,lima.embaixadaportugal.mne.gov.pt,central
+government_agency,"Embassy of Brazil, Lima",http://lima.itamaraty.gov.br,lima.itamaraty.gov.br,central
+government_agency,"Embassy of Romania, Lima",http://lima.mae.ro,lima.mae.ro,central
+government_agency,"Embassy of Hungary, Lima",https://lima.mfa.gov.hu/,lima.mfa.gov.hu,central
+government_agency,"Embassy of Israel, Lima",http://lima.mfa.gov.il,lima.mfa.gov.il,central
+government_agency,"Embassy of Thailand, Lima",https://lima.thaiembassy.org,lima.thaiembassy.org,central
+government_agency,"Embassy of Ecuador, Lima",http://www.mecuadorperu.org.pe/,mecuadorperu.org.pe,central
+government_agency,Ministry of Economy and Finance,https://www.mef.gob.pe/,mef.gob.pe,central
 ministry,Ministry of Economy and Finance,https://www.mef.gob.pe/,mef.gob.pe,
+government_agency,"Embassy of Greece, Lima",https://www.mfa.gr/missionsabroad/peru.html,mfa.gr,central
+government_agency,Ministry of Agricultural Development and Irrigation,http://www.midagri.gob.pe/,midagri.gob.pe,central
 ministry,Ministry of Agricultural Development and Irrigation,http://www.midagri.gob.pe/,midagri.gob.pe,
 ministry,Ministry of Development and Social Inclusion,https://www.midis.gob.pe,midis.gob.pe,
+government_agency,Ministry of Development and Social Inclusion,https://www.midis.gob.pe,midis.gob.pe,central
+government_agency,Superintendencia Nacional de Migraciones,https://www.migraciones.gob.pe/,migraciones.gob.pe,
+government_agency,Ministry of Environment,http://www.minam.gob.pe/,minam.gob.pe,central
 ministry,Ministry of Environment,http://www.minam.gob.pe/,minam.gob.pe,
 ministry,Ministry of Foreign Commerce and Tourism,https://www.mincetur.gob.pe/,mincetur.gob.pe,
+government_agency,Ministry of Foreign Commerce and Tourism,https://www.mincetur.gob.pe/,mincetur.gob.pe,central
+government_agency,Ministry of Defense of Peru,https://www.mindef.gob.pe/,mindef.gob.pe,central
 ministry,Ministry of Defense of Peru,https://www.mindef.gob.pe/,mindef.gob.pe,
+government_agency,Ministry of Energy and Mines,https://www.minem.gob.pe/,minem.gob.pe,central
 ministry,Ministry of Energy and Mines,https://www.minem.gob.pe/,minem.gob.pe,
 ministry,Ministry of the Interior,https://www.mininter.gob.pe/,mininter.gob.pe,
+government_agency,Ministry of the Interior,https://www.mininter.gob.pe/,mininter.gob.pe,central
+government_agency,Ministry of Justice and Human Rights,https://www.minjus.gob.pe/,minjus.gob.pe,central
 ministry,Ministry of Justice and Human Rights,https://www.minjus.gob.pe/,minjus.gob.pe,
+government_agency,embassy of Cuba in Peru,http://misiones.minrex.gob.cu/es/peru,misiones.minrex.gob.cu,central
+government_agency,"Embassy of the United Arab Emirates, Lima",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=d9c74e88-9c1c-47e8-8f7c-9988488bddba,mofaic.gov.ae,central
+government_agency,Specialized Attorney’s Offices for the Environment,https://www.mpfn.gob.pe/fiscalias_especializadas/,mpfn.gob.pe,
 ministry,Ministry of Transportation and Communications,http://www.mtc.gob.pe/,mtc.gob.pe,
+government_agency,Ministry of Transportation and Communications,http://www.mtc.gob.pe/,mtc.gob.pe,central
+government_agency,"Embassy of the Czech Republic, Lima",https://www.mzv.cz/lima,mzv.cz,central
+government_agency,National Office of Electoral Processes,http://www.onpe.gob.pe/,onpe.gob.pe,central
+government_agency,"Embassy of the State of Palestine, Lima",https://www.palestinaperu.com/,palestinaperu.com,central
+government_agency,"Embassy of Panama, Lima",http://www.panaembaperu.com.pe,panaembaperu.com.pe,central
 ministry,Presidency of the Council of Ministers (Peru),https://www.pcm.gob.pe/,pcm.gob.pe,
+government_agency,Presidency of the Council of Ministers (Peru),https://www.pcm.gob.pe/,pcm.gob.pe,central
+government_agency,"Embassy of France, Lima",https://pe.ambafrance.org/,pe.ambafrance.org,central
+government_agency,"Embassy of the People's Republic of China, Lima",http://pe.china-embassy.gov.cn,pe.china-embassy.gov.cn,central
+government_agency,"Embassy of Japan, Lima",https://www.pe.emb-japan.go.jp,pe.emb-japan.go.jp,central
+government_agency,"Embassy of the United States, Lima",https://pe.usembassy.gov,pe.usembassy.gov,central
+government_agency,"Embassy of Belgium, Lima",https://peru.diplomatie.belgium.be,peru.diplomatie.belgium.be,central
+government_agency,"Embassy of Venezuela, Lima",http://peru.embajada.gob.ve/,peru.embajada.gob.ve,
+government_agency,"Embassy of Colombia, Lima",https://peru.embajada.gov.co/,peru.embajada.gov.co,central
+government_agency,"Embassy of Australia, Lima",https://peru.embassy.gov.au/,peru.embassy.gov.au,central
+government_agency,"Embassy of Ukraine, Lima",https://peru.mfa.gov.ua,peru.mfa.gov.ua,central
+government_agency,embassy of Russia in Peru,https://peru.mid.ru,peru.mid.ru,central
+government_agency,embassy of Russia in Peru,https://peru.mid.ru/es/,peru.mid.ru,central
+government_agency,embassy of Guatemala in Peru,https://peru.minex.gob.gt/home/home.aspx,peru.minex.gob.gt,central
+government_agency,embassy of Guatemala in Peru,https://peru.minex.gob.gt,peru.minex.gob.gt,central
+government_agency,Corte Superior de Justicia del Cusco,https://www.pj.gob.pe/wps/wcm/connect/CorteSuperiorCuscoPJ/s_csj_cusco_nuevo/as_inicio/,pj.gob.pe,central-1
+government_agency,Supreme Court of Peru,http://www.pj.gob.pe,pj.gob.pe,
+government_agency,National Police of Peru,http://www.pnp.gob.pe/,pnp.gob.pe,
+government_agency,Anti-Corruption Directorate,https://www.policia.gob.pe/direccion/dircocor,policia.gob.pe,
+government_agency,Q30904072,https://portal.indeci.gob.pe/informe/reportes-preliminares-complementarios-emergencias/,portal.indeci.gob.pe,
+government_agency,National Institute of Neoplastic Diseases,https://portal.inen.sld.pe/,portal.inen.sld.pe,
+government_agency,National Superintendency of Health,http://portales.susalud.gob.pe/web/portal/inicio,portales.susalud.gob.pe,
+government_agency,PROCIENCIA,https://prociencia.gob.pe,prociencia.gob.pe,
+government_agency,Ministry of Production,https://www.produce.gob.pe/,produce.gob.pe,central
 ministry,Ministry of Production,https://www.produce.gob.pe/,produce.gob.pe,
+government_agency,ProInversion,https://www.proinversion.gob.pe/,proinversion.gob.pe,
+government_agency,Comisión de Promoción del Perú para la Exportación y el Turismo,http://www.promperu.gob.pe/,promperu.gob.pe,
+government_agency,Q134475876,https://qhapaqnan.cultura.pe/,qhapaqnan.cultura.pe,
+government_agency,Q81459274,http://www.rcc.gob.pe/,rcc.gob.pe,
 constitutional_court,Regional Government of Cajamarca,https://www.regioncajamarca.gob.pe,regioncajamarca.gob.pe,central-1
+government_agency,Regional Government of Cajamarca,https://www.regioncajamarca.gob.pe,regioncajamarca.gob.pe,central-1
 constitutional_court,Regional Government of Callao,http://www.regioncallao.gob.pe/,regioncallao.gob.pe,
 constitutional_court,Regional Government of Huancavelica,https://regionhuancavelica.gob.pe,regionhuancavelica.gob.pe,central-1
+government_agency,Regional Government of Huancavelica,https://regionhuancavelica.gob.pe,regionhuancavelica.gob.pe,central-1
 constitutional_court,Regional Government of Huanuco,http://www.regionhuanuco.gob.pe,regionhuanuco.gob.pe,central-1
+government_agency,Regional Government of Huanuco,http://www.regionhuanuco.gob.pe,regionhuanuco.gob.pe,central-1
 constitutional_court,Regional Government of Junin,https://www.regionjunin.gob.pe,regionjunin.gob.pe,central-1
+government_agency,Regional Government of Junin,https://www.regionjunin.gob.pe,regionjunin.gob.pe,central-1
 constitutional_court,Regional Government of Loreto,https://regionloreto.gob.pe,regionloreto.gob.pe,central-1
+government_agency,Regional Government of Loreto,https://regionloreto.gob.pe,regionloreto.gob.pe,central-1
 constitutional_court,Regional Government of Pasco,https://regionpasco.gob.pe,regionpasco.gob.pe,central-1
+government_agency,Regional Government of Pasco,https://regionpasco.gob.pe,regionpasco.gob.pe,central-1
 constitutional_court,Regional Government of Puno,https://www.regionpuno.gob.pe,regionpuno.gob.pe,central-1
+government_agency,Regional Government of Puno,https://www.regionpuno.gob.pe,regionpuno.gob.pe,central-1
 constitutional_court,Regional Government of Tumbes,https://regiontumbes.gob.pe,regiontumbes.gob.pe,central-1
+government_agency,Regional Government of Tumbes,https://regiontumbes.gob.pe,regiontumbes.gob.pe,central-1
+government_agency,National Registry of Identification and Civil Status,http://www.reniec.gob.pe,reniec.gob.pe,
+government_agency,"Embassy of the Dominican Republic, Lima",https://republicadominicana.pe,republicadominicana.pe,central
+government_agency,Taipei Economic and Cultural Office in Peru,http://www.roc-taiwan.org/pe/,roc-taiwan.org,
+government_agency,Taipei Economic and Cultural Office in Peru,http://www.roc-taiwan.org/pe_es/index.html,roc-taiwan.org,
+government_agency,Q30536646,https://www.sat.gob.pe/,sat.gob.pe,
+government_agency,Society of Public Charity of Lima,http://www.sblm.gob.pe/,sblm.gob.pe,
+government_agency,"Superintendencia de Banca, Seguros y AFP",http://www.sbs.gob.pe/,sbs.gob.pe,
+government_agency,Corte Superior de Justicia de Ica,https://scc.pj.gob.pe/wps/wcm/connect/CorteSuperiorIcaPJ/s_csj_ica_nuevo/as_inicio/,scc.pj.gob.pe,central-1
+government_agency,Corte Superior de Justicia de La Libertad,https://scc.pj.gob.pe/wps/wcm/connect/corte+superior+la+libertad+pj/s_corte_superior_la_libertad_utilitarios/as_home/home_lalibertad/,scc.pj.gob.pe,local
+government_agency,Servicio Nacional de Certificación Ambiental para las Inversiones Sostenibles,http://www.senace.gob.pe/,senace.gob.pe,
+government_agency,Peru. Servicio Nacional de Meteorología e Hidrología,http://www.senamhi.gob.pe/,senamhi.gob.pe,
+government_agency,National Service of Agrarian Sanity,https://www.senasa.gob.pe/,senasa.gob.pe,central
+government_agency,National Forestry and Wildlife Service,https://www.serfor.gob.pe/portal/,serfor.gob.pe,
+government_agency,Peruvian Service for Natural Protected Areas,http://www.sernanp.gob.pe/,sernanp.gob.pe,
+government_agency,Servicio de Parques de Lima,https://www.serpar.gob.pe/,serpar.gob.pe,
+government_agency,Q99980812,https://www.sierraexportadora.gob.pe/,sierraexportadora.gob.pe,
+government_agency,"National System for the Evaluation, Accreditation, and Certification of University Quality",https://www.sineace.gob.pe,sineace.gob.pe,
+government_agency,Sistema de Focalización de Hogares,https://www.sisfoh.gob.pe,sisfoh.gob.pe,
+government_agency,Superintendencia del Mercado de Valores,https://www.smv.gob.pe/,smv.gob.pe,
+government_agency,Superintendencia Nacional de Fiscalización Laboral,https://www.sunafil.gob.pe/,sunafil.gob.pe,
+government_agency,National Superintendency of Public Registries,https://www.sunarp.gob.pe/,sunarp.gob.pe,
+government_agency,National Superintendency of Sanitation Services,http://www.sunass.gob.pe/,sunass.gob.pe,
+government_agency,National Superintendency of Customs and Tax Administration,https://www.sunat.gob.pe/,sunat.gob.pe,central
+government_agency,University Higher Education National Authority,https://www.sunedu.gob.pe/,sunedu.gob.pe,
+government_agency,Q20024829,http://www.sutran.gob.pe/,sutran.gob.pe,
+government_agency,Constitutional Court of Peru,https://www.tc.gob.pe,tc.gob.pe,central
+government_agency,Q139572807,https://www.toulouselautrec.edu.pe/,toulouselautrec.edu.pe,
 ministry,Ministry of Labor and Promotion of Employment,https://www.trabajo.gob.pe/,trabajo.gob.pe,
+government_agency,Ministry of Labor and Promotion of Employment,https://www.trabajo.gob.pe/,trabajo.gob.pe,central
+government_agency,"Ministry of Housing, Construction and Sanitation",https://www.vivienda.gob.pe/,vivienda.gob.pe,central
 ministry,"Ministry of Housing, Construction and Sanitation",https://www.vivienda.gob.pe/,vivienda.gob.pe,
+government_agency,National Center for Intercultural Health,https://web.ins.gob.pe/es/censi,web.ins.gob.pe,
+university,National University of St Augustin of Arequipa,http://www.unsa.edu.pe/,unsa.edu.pe,university
+university,National University of San Marcos,https://www.unmsm.edu.pe,unmsm.edu.pe,university
+university,Jorge Basadre Grohmann National University,http://www.unjbg.edu.pe,unjbg.edu.pe,university
+university,National University of Engineering,http://www.uni.edu.pe/,uni.edu.pe,university
+university,San Cristóbal of Huamanga University,http://www.unsch.edu.pe/,unsch.edu.pe,university
+university,San Luis Gonzaga National University,http://www.unica.edu.pe/,unica.edu.pe,university
+university,National University of Moquegua,http://www.unam.edu.pe,unam.edu.pe,university
+university,Universidad Nacional Intercultural de Quillabamba,https://www.uniq.edu.pe/,uniq.edu.pe,university
+university,"National University of Altiplano, Puno",https://www.gob.pe/unap,gob.pe,university
+university,Universidad Nacional Autónoma de Tayacaja Daniel Hernández Morillo,https://unat.edu.pe/,unat.edu.pe,university
+university,Universidad Nacional Ciro Alegría,https://www.unca.edu.pe/,unca.edu.pe,university
+university,National University of San Antonio Abad in Cusco,http://www.unsaac.edu.pe,unsaac.edu.pe,university

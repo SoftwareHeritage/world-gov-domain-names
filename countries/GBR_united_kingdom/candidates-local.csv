@@ -1,15 +1,339 @@
 hostname,score,sources,label,level
-gov.scot,10,wikidata;linkgraph,Scottish Government,central-1
-gov.wales,9,wikidata;linkgraph,Welsh Government,central-1
-senedd.wales,9,wikidata;wikidata;linkgraph,Senedd,central-1
-parliament.scot,7,wikidata;wikidata,Scottish Parliament,central-1
-llyw.cymru,6,wikidata;linkgraph,Welsh Government,central-1
-senedd.cymru,6,wikidata;wikidata,Senedd,central-1
+gov.scot,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | Inspectorate of Prosecution in Scotland | Marine Scotland | Scottish Agricultural Wages Board,central-1
+gov.wales,10,wikidata;wikidata;wikidata;linkgraph,Department for Education and Skills | Welsh Government,central-1
+llyw.cymru,9,wikidata;wikidata;linkgraph,Welsh Government,central-1
+senedd.wales,9,wikidata;wikidata;wikidata;linkgraph,Senedd,central-1
+scotland.police.uk,8,wikidata;linkgraph,Police Scotland,central-1
+btp.police.uk,7,wikidata;wikidata,British Transport Police,central-1
+oscr.org.uk,7,wikidata;wikidata,Scottish Charity Regulator | Office of the Scottish Charity Regulator,central-1
+parliament.scot,7,wikidata;wikidata;wikidata,Scottish Parliament,central-1
+scottish-enterprise.com,6,wikidata;wikidata,Scottish Enterprise | South of Scotland Enterprise,central-1
+senedd.cymru,6,wikidata;wikidata;wikidata,Senedd,central-1
+ads.org.uk,4,wikidata,Architecture and Design Scotland,central-1
+cypcs.org.uk,4,wikidata,Children and Young People's  Commissioner Scotland,central-1
+disclosure.gov.scot,4,wikidata,Disclosure Scotland,central-1
+eani.org.uk,4,wikidata,Education Authority,central-1
+education.gov.scot,4,wikidata,Education Scotland,central-1
+estyn.gov.wales,4,wikidata,Estyn,central-1
+foodstandards.gov.scot,4,wikidata,Food Standards Scotland,central-1
+forestry.gov.scot,4,wikidata,Scottish Forestry,central-1
+forestryandland.gov.scot,4,wikidata,Forestry and Land Scotland,central-1
+forestryengland.uk,4,wikidata,Forestry England,central-1
+gtce.org.uk,4,wikidata,General Teaching Council for England,central-1
+gtcs.org.uk,4,wikidata,General Teaching Council for Scotland,central-1
+hial.co.uk,4,wikidata,Highlands and Islands Airports,central-1
+hie.co.uk,4,wikidata,Highlands and Islands Enterprise,central-1
+housingregulator.gov.scot,4,wikidata,Scottish Housing Regulator,central-1
+hpa.org.uk,4,wikidata,Health Protection Agency,central-1
+icrir.independent-inquiry.uk,4,wikidata,Independent Commission for Reconciliation and Information Recovery,central-1
+landcommission.gov.scot,4,wikidata,Scottish Land Commission,central-1
+lands-tribunal-scotland.org.uk,4,wikidata,Lands Tribunal for Scotland,central-1
+lgbce.org.uk,4,wikidata,Local Government Boundary Commission for England,central-1
+lra.org.uk,4,wikidata,Labour Relations Agency,central-1
+mwcscot.org.uk,4,wikidata,Mental Welfare Commission for Scotland,central-1
+nlb.org.uk,4,wikidata,Northern Lighthouse Board,central-1
+nls.uk,4,wikidata,National Library of Scotland,central-1
+nms.ac.uk,4,wikidata,National Museums Scotland,central-1
+parolecomni.org.uk,4,wikidata,Parole Commissioners for Northern Ireland,central-1
+patscotland.org.uk,4,wikidata,Pensions Appeal Tribunal Scotland,central-1
+pensions.gov.scot,4,wikidata,Scottish Public Pensions Agency,central-1
+qmscotland.co.uk,4,wikidata,Quality Meat Scotland,central-1
+rbge.org.uk,4,wikidata,Royal Botanic Garden Edinburgh,central-1
+scottish-land-court.org.uk,4,wikidata,Scottish Land Court,central-1
+scottishcanals.co.uk,4,wikidata,Scottish Canals,central-1
+scottishfuturestrust.org.uk,4,wikidata,Scottish Futures Trust,central-1
+scottishlegalcomplaints.org.uk,4,wikidata,Scottish Legal Complaints Commission,central-1
+sepa.org.uk,4,wikidata,Scottish Environment Protection Agency,central-1
+sfc.ac.uk,4,wikidata,Scottish Funding Council,central-1
+skillsdevelopmentscotland.co.uk,4,wikidata,Skills Development Scotland,central-1
+socialsecurity.gov.scot,4,wikidata,Social Security Scotland,central-1
+socialworkengland.org.uk,4,wikidata,Social Work England,central-1
+spa.police.uk,4,wikidata,Scottish Police Authority,central-1
+sportscotland.org.uk,4,wikidata,Sportscotland,central-1
+spso.org.uk,4,wikidata,Scottish Public Services Ombudsman,central-1
+sqa.org.uk,4,wikidata,Scottish Qualifications Authority,central-1
+standardscommissionscotland.org.uk,4,wikidata,Standards Commission for Scotland,central-1
+transport.gov.scot,4,wikidata,Transport Scotland,central-1
+tsh.scot.nhs.uk,4,wikidata,The State Hospitals Board for Scotland,central-1
+zerowastescotland.org.uk,4,wikidata,Zero Waste Scotland,central-1
+audit.scot,3,wikidata,Audit Scotland,central-1
+audit.wales,3,wikidata,Auditor General for Wales,central-1
+bgateway.com,3,wikidata,Business Gateway,central-1
+careinspectorate.com,3,wikidata,Care Inspectorate,central-1
+cjini.org,3,wikidata,Criminal Justice Inspection Northern Ireland,central-1
+communityjustice.scot,3,wikidata,Community Justice Scotland,central-1
+consumer.scot,3,wikidata,Consumer Scotland,central-1
+counciltaxreductionreview.scot,3,wikidata,Council Tax Reduction Review Panel,central-1
+courtofthelordlyon.scot,3,wikidata,Court of the Lord Lyon,central-1
+creativescotland.com,3,wikidata,Creative Scotland,central-1
+dwqr.scot,3,wikidata,Drinking Water Quality Regulator,central-1
+edinburgh.diplo.de,3,wikidata,"Consulate General of Germany, Edinburgh",central-1
+environmentalstandards.scot,3,wikidata,Environmental Standards Scotland,central-1
+estyn.llyw.cymru,3,wikidata,Estyn,central-1
+fiscalcommission.scot,3,wikidata,Scottish Fiscal Commission,central-1
+gaidhlig.scot,3,wikidata,Bòrd na Gàidhlig,central-1
+generalregulatorychamber.scot,3,wikidata,General Regulatory Chamber,central-1
+gig.cymru,3,wikidata,NHS Wales,central-1
+gofalcymdeithasol.cymru,3,wikidata,Social Care Wales,central-1
+healthandeducationchamber.scot,3,wikidata,Health and Education Chamber,central-1
+healthcareimprovementscotland.org,3,wikidata,Healthcare Improvement Scotland,central-1
+historicenvironment.scot,3,wikidata,Historic Environment Scotland,central-1
+housingandpropertychamber.scot,3,wikidata,Housing and Property Chamber,central-1
+ilf.scot,3,wikidata,Independent Living Fund Scotland,central-1
+lochlomond-trossachs.org,3,wikidata,Loch Lomond and the Trossachs National Park Authority,central-1
+nationalgalleries.org,3,wikidata,National Galleries Scotland,central-1
+nature.scot,3,wikidata,NatureScot,central-1
+nhs.wales,3,wikidata,NHS Wales,central-1
+nhs24.scot,3,wikidata,NHS 24,central-1
+nhsnss.org,3,wikidata,NHS National Services Scotland,central-1
+nihrc.org,3,wikidata,Northern Ireland Human Rights Commission,central-1
+pharmacyregulation.org,3,wikidata,General Pharmaceutical Council,central-1
+pirc.scot,3,wikidata,Police Investigations and Review Commissioner,central-1
+railholdings.scot,3,wikidata,Scottish Rail Holdings,central-1
+redress.scot,3,wikidata,Redress Scotland,central-1
+revenue.scot,3,wikidata,Revenue Scotland,central-1
+rma.scot,3,wikidata,Risk Management Authority,central-1
+roadworks.scot,3,wikidata,Scottish Road Works Commissioner,central-1
+scottishambulance.com,3,wikidata,Scottish Ambulance Service,central-1
+scottishhumanrights.com,3,wikidata,Scottish Human Rights Commission,central-1
+scottishparoleboard.scot,3,wikidata,Parole Board for Scotland,central-1
+scrp.scot,3,wikidata,School Closure Review Panels,central-1
+socialcare.wales,3,wikidata,Social Care Wales,central-1
+socialsecuritychamber.scot,3,wikidata,Social Security Chamber,central-1
+sssc.uk.com,3,wikidata,Scottish Social Services Council,central-1
+taxtribunals.scot,3,wikidata,Tax Chamber,central-1
+thebank.scot,3,wikidata,Scottish National Investment Bank,central-1
+visitscotland.com,3,wikidata,VisitScotland,central-1
+wics.scot,3,wikidata,Water Industry Commission for Scotland,central-1
+bath.ac.uk,7,wikidata;wikidata,University of Bath,university
+bcu.ac.uk,7,wikidata;wikidata,Birmingham City University,university
+birmingham.ac.uk,7,wikidata;wikidata,NIHR Birmingham Liver Biomedical Research Unit | University of Birmingham,university
+canterbury.ac.uk,7,wikidata;wikidata,Canterbury Christ Church University,university
+dmu.ac.uk,7,wikidata;wikidata,De Montfort University,university
+gla.ac.uk,7,wikidata;wikidata,MRC-University of Glasgow Centre For Virus Research | University of Glasgow,university
+liverpool.ac.uk,7,wikidata;wikidata,University of Liverpool,university
+mmu.ac.uk,7,wikidata;wikidata,Manchester Metropolitan University,university
+salford.ac.uk,7,wikidata;wikidata,University of Salford,university
+warwick.ac.uk,7,wikidata;wikidata,University of Warwick,university
+abdn.ac.uk,4,wikidata,University of Aberdeen,university
+aber.ac.uk,4,wikidata,Aberystwyth University,university
+aru.ac.uk,4,wikidata,Anglia Ruskin University,university
+aston.ac.uk,4,wikidata,Aston University,university
+bangor.ac.uk,4,wikidata,Bangor University,university
+bbk.ac.uk,4,wikidata,"Birkbeck, University of London",university
+bolton.ac.uk,4,wikidata,University of Greater Manchester,university
+brad.ac.uk,4,wikidata,University of Bradford,university
+bristol.ac.uk,4,wikidata,University of Bristol,university
+brookes.ac.uk,4,wikidata,Oxford Brookes University,university
+brunel.ac.uk,4,wikidata,Brunel University London,university
+cam.ac.uk,4,wikidata,University of Cambridge,university
+cardiff.ac.uk,4,wikidata,Cardiff University,university
+courtauld.ac.uk,4,wikidata,Courtauld Institute of Art,university
+cssd.ac.uk,4,wikidata,Royal Central School of Speech and Drama,university
+derby.ac.uk,4,wikidata,University of Derby,university
+dundee.ac.uk,4,wikidata,University of Dundee,university
+durham.ac.uk,4,wikidata,Durham University,university
+ed.ac.uk,4,wikidata,University of Edinburgh,university
+edgehill.ac.uk,4,wikidata,Edge Hill University,university
+essex.ac.uk,4,wikidata,University of Essex,university
+exeter.ac.uk,4,wikidata,University of Exeter,university
+gcu.ac.uk,4,wikidata,Glasgow Caledonian University,university
+gold.ac.uk,4,wikidata,"Goldsmiths, University of London",university
+herts.ac.uk,4,wikidata,University of Hertfordshire,university
+hud.ac.uk,4,wikidata,University of Huddersfield,university
+hull.ac.uk,4,wikidata,University of Hull,university
+imperial.ac.uk,4,wikidata,Imperial College London,university
+info.ex.ac.uk,4,wikidata,University of Exeter,university
+kcl.ac.uk,4,wikidata,King's College London,university
+kent.ac.uk,4,wikidata,University of Kent,university
+lancaster.ac.uk,4,wikidata,University of Lancaster,university
+lancs.ac.uk,4,wikidata,University of Lancaster,university
+lboro.ac.uk,4,wikidata,Loughborough University,university
+leeds.ac.uk,4,wikidata,University of Leeds,university
+lincoln.ac.uk,4,wikidata,University of Lincoln,university
+lincolnbishop.ac.uk,4,wikidata,Lincoln Bishop University,university
+ljmu.ac.uk,4,wikidata,Liverpool John Moores University,university
+londonmet.ac.uk,4,wikidata,London Metropolitan University,university
+lsbu.ac.uk,4,wikidata,London South Bank University,university
+lse.ac.uk,4,wikidata,London School of Economics and Political Science,university
+lshtm.ac.uk,4,wikidata,London School of Hygiene and Tropical Medicine,university
+napier.ac.uk,4,wikidata,Edinburgh Napier University,university
+newman.ac.uk,4,wikidata,Newman University,university
+northumbria.ac.uk,4,wikidata,Northumbria University,university
+nottingham.ac.uk,4,wikidata,University of Nottingham,university
+open.ac.uk,4,wikidata,The Open University,university
+ox.ac.uk,4,wikidata,University of Oxford,university
+port.ac.uk,4,wikidata,University of Portsmouth,university
+qmul.ac.uk,4,wikidata,Queen Mary University of London,university
+qub.ac.uk,4,wikidata,Queen's University Belfast,university
+rau.ac.uk,4,wikidata,Royal Agricultural University,university
+rca.ac.uk,4,wikidata,Royal College of Art,university
+rcm.ac.uk,4,wikidata,Royal College of Music,university
+roehampton.ac.uk,4,wikidata,University of Roehampton,university
+sheffield.ac.uk,4,wikidata,University of Sheffield,university
+soas.ac.uk,4,wikidata,"SOAS, University of London",university
+southampton.ac.uk,4,wikidata,University of Southampton,university
+southbank-university.ac.uk,4,wikidata,London South Bank University,university
+st-andrews.ac.uk,4,wikidata,University of St Andrews,university
+stir.ac.uk,4,wikidata,University of Stirling,university
+strath.ac.uk,4,wikidata,University of Strathclyde,university
+surrey.ac.uk,4,wikidata,University of Surrey,university
+sussex.ac.uk,4,wikidata,University of Sussex,university
+swansea.ac.uk,4,wikidata,Swansea University,university
+tulliallan.police.uk,4,wikidata,Scottish Police College,university
+uea.ac.uk,4,wikidata,University of East Anglia,university
+uel.ac.uk,4,wikidata,University of East London,university
+unn.ac.uk,4,wikidata,Northumbria University,university
+uwe.ac.uk,4,wikidata,University of the West of England,university
+uwl.ac.uk,4,wikidata,London College of Music,university
+westminster.ac.uk,4,wikidata,University of Westminster,university
+winchester.ac.uk,4,wikidata,University of Winchester,university
+wkac.ac.uk,4,wikidata,University of Winchester,university
+worcester.ac.uk,4,wikidata,University of Worcester,university
+york.ac.uk,4,wikidata,University of York,university
+gmintegratedcare.org.uk,10,wikidata;wikidata;linkgraph,Greater Manchester Health and Social Care Partnership | NHS Greater Manchester Integrated Care Board,local
 alderney.gov.gg,7,wikidata;wikidata,States of Alderney,local
+ammanfordtc.co.uk,7,wikidata;wikidata,Ammanford Town Council,local
+atprestatyn.co.uk,7,wikidata;wikidata,Prestatyn Town Council,local
+avonandsomerset.police.uk,7,wikidata;linkgraph,Avon and Somerset Police,local
+caerphillytowncouncil.co.uk,7,wikidata;wikidata,Caerphilly Town Council,local
+cityoflondon.police.uk,7,wikidata;wikidata,City of London Police | National Fraud Intelligence Bureau,local
+falklands.gov.fk,7,wikidata;wikidata;wikidata,"Government of the Falkland Islands | Representative of the Falkland Islands, London",local
+gov.im,7,wikidata;wikidata;wikidata,Isle of Man Fire and Rescue Service | Department for Enterprise | Department of Infrastructure,local
 gov.ky,7,wikidata;wikidata,Parliament of the Cayman Islands,local
+imb.org.uk,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,HMP Lowdham Grange Independent Monitoring Board | HMP Moorland Closed Independent Monitoring Board | HMP Eastwood Park Independent Monitoring Board | HMP Hull Independent Monitoring Board | HMP Dovegate Independent Monitoring Board | HMP Whitemoor Independent Monitoring Board | HMP Standford Hill Independent Monitoring Board | HMP Coldingley Independent Monitoring Board | HMP Dorchester Independent Monitoring Board | HMP Bullwood Hall Independent Monitoring Board | HMP Holloway Independent Monitoring Board | HMP Rye Hill Independent Monitoring Board | HMP High Down Independent Monitoring Board | HMP Cookham Wood Independent Monitoring Board | HMP Sudbury Independent Monitoring Board | HMP Everthorpe Independent Monitoring Board | HMP New Hall Independent Monitoring Board | HMP Norwich Independent Monitoring Board | HMP Altcourse Independent Monitoring Board | HMP Wandsworth Independent Monitoring Board | HMP Hollesley Bay Independent Monitoring Board | Young Offenders' Institution Feltham Independent Monitoring Board | HMP Lewes Independent Monitoring Board | HMP Camp Hill Independent Monitoring Board | HMP Swaleside Independent Monitoring Board | HMP East Sutton Park Independent Monitoring Board | HMP Reading Independent Monitoring Board | HMP Erlestoke Independent Monitoring Board | HMP Acklington Independent Monitoring Board | HMP Parkhurst Independent Monitoring Board | HMP Styal Independent Monitoring Board | HMP Albany Independent Monitoring Board | HMP Kennet Independent Monitoring Board | HMP Gartree Independent Monitoring Board | HMP Grendon Independent Monitoring Board | HMP Canterbury Independent Monitoring Board | HMP Manchester Independent Monitoring Board | HMP Castington Independent Monitoring Board | HMP Nottingham Independent Monitoring Board | HMP Gloucester Independent Monitoring Board | HMP Prescoed Independent Monitoring Board | HMP Rochester Independent Monitoring Board | HMP Buckley Hall Independent Monitoring Board | HMP Birmingham Independent Monitoring Board | HMP Parc Independent Monitoring Board | HMP Bronzefield Independent Monitoring Board | HMP Brixton Independent Monitoring Board | HMP Wymott Independent Monitoring Board | HMP Liverpool Independent Monitoring Board | HMP Usk Independent Monitoring Board | HMP Pentonville Independent Monitoring Board | HMP Belmarsh Independent Monitoring Board | HMP Winchester Independent Monitoring Board | HMP Askham Grange Independent Monitoring Board | HMP Peterborough Independent Monitoring Board | HMP Doncaster Independent Monitoring Board | HMP Lancaster farms Independent Monitoring Board | HMP Risley Independent Monitoring Board | HMP the Verne Independent Monitoring Board | HMP Brinsford Independent Monitoring Board | HMP Shepton Mallet Independent Monitoring Board | HMP Whatton Independent Monitoring Board | HMP Guys Marsh Independent Monitoring Board | HMP Bedford Independent Monitoring Board | HMP Chelmsford Independent Monitoring Board | HMP Preston Independent Monitoring Board | HMP Bristol Independent Monitoring Board | HMP Blantyre House Independent Monitoring Board | HMP Elmley Independent Monitoring Board | HMP Full Sutton Independent Monitoring Board | HMP Hewell Independent Monitoring Board | HMP Ranby Independent Monitoring Board | HMP Featherstone Independent Monitoring Board | HMP Stocken Independent Monitoring Board | HMP Morton Hall Independent Monitoring Board | HMP Moorland Open Independent Monitoring Board | HMP Cardiff Independent Monitoring Board | HMP Shrewsbury Independent Monitoring Board | HMP Ashwell Independent Monitoring Board | HMP Holme House Independent Monitoring Board | HMP Wellingborough Independent Monitoring Board | HMP Stafford Independent Monitoring Board | HMP Leyhill Independent Monitoring Board | HMP Foston Hall Independent Monitoring Board | HMP Wormwood Scrubs Independent Monitoring Board | HMP Exeter Independent Monitoring Board | HMP North Sea Camp Independent Monitoring Board | HMP Wolds Independent Monitoring Board | HMP Frankland Independent Monitoring Board | HMP Drake Hall Independent Monitoring Board | HMP Edmunds Hill Independent Monitoring Board | HMP Kingston Independent Monitoring Board | HMP the Mount Independent Monitoring Board | HMP Bullingdon Independent Monitoring Board | HMP Wealstun Independent Monitoring Board | HMP Woodhill Independent Monitoring Board | HMP Leicester Independent Monitoring Board | HMP Swansea Independent Monitoring Board | HMP Littlehey Independent Monitoring Board | HMP Highpoint Independent Monitoring Board | HMP Lancaster Castle Independent Monitoring Board | HMP Durham Independent Monitoring Board | HMP Maidstone Independent Monitoring Board | HMP Spring Hill Independent Monitoring Board | HMP Ashfield Independent Monitoring Board | HMP Wakefield Independent Monitoring Board | HMP Blundeston Independent Monitoring Board | HMP Forest Bank Independent Monitoring Board | HMP Wayland Independent Monitoring Board | HMP Leeds Independent Monitoring Board | HMP Long Lartin Independent Monitoring Board | HMP Ford Independent Monitoring Board | HMP Kirkham Independent Monitoring Board | HMP Channings Wood Independent Monitoring Board | HMP Downview Independent Monitoring Board | HMP Dartmoor Independent Monitoring Board | HMP Haverigg Independent Monitoring Board | HMP Send Independent Monitoring Board | HMP Kirklevington Grange Independent Monitoring Board | HMP Lincoln Independent Monitoring Board | HMP Latchmere House Independent Monitoring Board | HMP Garth Independent Monitoring Board,local
+joinedupcarederbyshire.co.uk,7,wikidata;linkgraph,NHS Derby and Derbyshire Integrated Care Board,local
+laugharnecorporation.co.uk,7,wikidata;wikidata,Laugharne Corporation,local
+menaibridgetowncouncil.co.uk,7,wikidata;wikidata,Menai Bridge Town Council,local
+met.police.uk,7,wikidata;linkgraph,Metropolitan Police,local
+moldtowncouncil.org.uk,7,wikidata;wikidata,Mold Town Council,local
+newcastleemlyntowncouncil.co.uk,7,wikidata;wikidata,Newcastle Emlyn Town Council,local
+parliament.bm,7,wikidata;wikidata,House of Assembly of Bermuda | Senate of Bermuda,local
 parliament.gi,7,wikidata;wikidata,Parliament of Gibraltar,local
 parliament.ms,7,wikidata;wikidata,Legislative Assembly of Montserrat,local
-falklands.gov.fk,4,wikidata,Government of the Falkland Islands,local
-laugharnecorporation.co.uk,4,wikidata,Laugharne Corporation,local
+pembstcc.co.uk,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Camrose Community Council | Ambleston Community Council | Martletwy Community Council | Amroth Community Council | Wiston Community Council | Manorbier Community Council | Narberth Town Council | Wolfscastle Community Council | Llawhaden Community Council | Angle Community Council | Burton Community Council,local
+rhyltowncouncil.org.uk,7,wikidata;wikidata,Rhyl Town Council,local
+stclearstowncouncil.co.uk,7,wikidata;wikidata,St Clears Town Council,local
+whitlandtowncouncil.co.uk,7,wikidata;wikidata,Whitland Town Council,local
+cyngortrefcaernarfon.llyw.cymru,6,wikidata;wikidata,Caernarfon Royal Town Council,local
+llangefni.org,6,wikidata;wikidata,Llangefni Town Council,local
+abergele-towncouncil.co.uk,4,wikidata,Abergele Town Council,local
+abergelepensarn.co.uk,4,wikidata,Abergele Town Council,local
+authority.eryri.gov.wales,4,wikidata,Eryri National Park Authority,local
+bargoedtc.org.uk,4,wikidata,Bargoed Town Council,local
+beds.police.uk,4,wikidata,Bedfordshire Police,local
+birminghamsolihull.icb.nhs.uk,4,wikidata,NHS Birmingham and Solihull Integrated Care Board,local
+blackcountry.icb.nhs.uk,4,wikidata,NHS Black Country Integrated Care Board,local
+blackwoodtowncouncil.org.uk,4,wikidata,Blackwood Town Council,local
+blaenavontowncouncil.co.uk,4,wikidata,Blaenavon Town Council,local
+bnssg.icb.nhs.uk,4,wikidata,"NHS Bristol, North Somerset and South Gloucestershire Integrated Care Board",local
+bodelwyddan.org.uk,4,wikidata,Bodelwyddan Town Council,local
+brecontowncouncil.org.uk,4,wikidata,Brecon Town Council,local
+bristolport.co.uk,4,wikidata,Port of Bristol Police,local
+brynmawrtc.co.uk,4,wikidata,Brynmawr Town Council,local
+buckleytc.org.uk,4,wikidata,Buckley Town Council,local
+bucksoxonberksw.icb.nhs.uk,4,wikidata,"NHS Buckinghamshire, Oxfordshire and Berkshire West Integrated Care Board",local
+builthwellstowncouncil.org.uk,4,wikidata,Builth Wells Town Council,local
+caldicottc.org.uk,4,wikidata,Caldicot Town Council,local
+chepstow.co.uk,4,wikidata,Chepstow Town Council,local
+cios.icb.nhs.uk,4,wikidata,NHS Cornwall and the Isles of Scilly Integrated Care Board,local
+cityofelycouncil.org.uk,4,wikidata,City of Ely Council,local
+connahs-quay.co.uk,4,wikidata,Connah's Quay Town Council,local
+cowesharbourcommission.co.uk,4,wikidata,Cowes Harbour Commission,local
+crouchharbour.uk,4,wikidata,Crouch Harbour Authority,local
+cyngortrefamlwch.co.uk,4,wikidata,Amlwch Town Council,local
+devon.icb.nhs.uk,4,wikidata,NHS Devon Integrated Care Board,local
+dunbarharbourtrust.co.uk,4,wikidata,Dunbar Harbour Trust,local
+falmouthharbour.co.uk,4,wikidata,Falmouth Harbour Commissioners,local
+fishguardgoodwick-tc.gov.wales,4,wikidata,Fishguard & Goodwick Town Council,local
+flinttowncouncil.gov.wales,4,wikidata,Flint Town Council,local
+foweyharbour.co.uk,4,wikidata,Fowey Harbour Commissioners,local
+gov.gg,4,wikidata,Guernsey Fire and Rescue Service,local
+gov.je,4,wikidata,Jersey Fire and Rescue Service,local
+hantsiow.icb.nhs.uk,4,wikidata,NHS Hampshire and Isle of Wight Integrated Care Board,local
+happyhealthylives.uk,4,wikidata,NHS Coventry and Warwickshire Integrated Care Board,local
+haverfordwesttown.co.uk,4,wikidata,Haverfordwest Town Council,local
+healthwatchbedfordborough.co.uk,4,wikidata,Healthwatch Bedford borough,local
+healthwatchcityoflondon.org.uk,4,wikidata,Healthwatch City of London,local
+healthwatchpeterborough.co.uk,4,wikidata,Healthwatch Peterborough,local
+hha.co.uk,4,wikidata,Harwich Haven Authority,local
+icnorthamptonshire.org.uk,4,wikidata,NHS Northamptonshire Integrated Care Board,local
+jcpc.uk,4,wikidata,Judicial Committee of the Privy Council,local
+land-data.org.uk,4,wikidata,Land Data,local
+leevalleypark.org.uk,4,wikidata,Lee Valley Regional Park Authority,local
+ll.dlpa.bru.nihr.ac.uk,4,wikidata,"NIHR Leicester-Loughborough Diet, Lifestyle and Physical Activity Biomedical Research Unit",local
+llandrindod.co.uk,4,wikidata,Llandrindod Wells Town Council,local
+llanfairfechantowncouncil.co.uk,4,wikidata,Llanfairfechan Town Council,local
+llanidloestowncouncil.co.uk,4,wikidata,Llanidloes Town Council,local
+mablethorpeandsutton.org.uk,4,wikidata,Mablethorpe and Sutton Town Council,local
+maryportharbour.co.uk,4,wikidata,Maryport Harbour Authority,local
+merseyside.police.uk,4,wikidata,Merseyside Police,local
+mhpa.co.uk,4,wikidata,Milford Haven Port Authority,local
+milfordhaventowncouncil.co.uk,4,wikidata,Milford Haven Town Council,local
+montgomery-wales.co.uk,4,wikidata,Montgomery Town Council,local
+needhammarkettc.co.uk,4,wikidata,Needham Market Town Council,local
+neston.org.uk,4,wikidata,Neston Town Council,local
+new-quaytowncouncil.co.uk,4,wikidata,New Quay Town Council,local
+newport-pagnell.org.uk,4,wikidata,Newport Pagnell Town Council,local
+newport-pembs.co.uk,4,wikidata,Newport Town Council,local
+newportsaloptowncouncil.co.uk,4,wikidata,Newport Town Council,local
+newquaycouncil.uk,4,wikidata,Newquay Town Council,local
+newtown.org.uk,4,wikidata,Newtown and Llanllwchaiarn Town Council,local
+neyland.org.uk,4,wikidata,Neyland Town Council,local
+nhssomerset.nhs.uk,4,wikidata,NHS Somerset Integrated Care Board,local
+normantontowncouncil.co.uk,4,wikidata,Normanton Town Council,local
+northumberlandnationalpark.org.uk,4,wikidata,Northumberland National Park Authority,local
+northyorkmoors.org.uk,4,wikidata,North York Moors National Park Authority,local
+northyorkshire.police.uk,4,wikidata,North Yorkshire Police,local
+nortononderwent.co.uk,4,wikidata,Norton-on-Derwent Town Council,local
+notts.icb.nhs.uk,4,wikidata,NHS Nottingham and Nottinghamshire Integrated Care Board,local
+nwtc.org.uk,4,wikidata,North Walsham Town Council,local
+pembrokedocktc.org.uk,4,wikidata,Pembroke Dock Town Council,local
+pembrokeshirecoast.org.uk,4,wikidata,Pembrokeshire Coast National Park Authority,local
+pembroketownguide.org.uk,4,wikidata,Pembroke Town Council,local
+plymouthport.org.uk,4,wikidata,Cattewater Harbour Commissioners,local
+porthcawltowncouncil.co.uk,4,wikidata,Porthcawl Town Council,local
+portskillsandsafety.co.uk,4,wikidata,Cromarty Firth Port Authority,local
+powys.moderngov.co.uk,4,wikidata,Machynlleth Town Council,local
+presteigne.org.uk,4,wikidata,Presteigne and Norton Town Council,local
+riscatowncouncil.org.uk,4,wikidata,Risca Town Council,local
+shotton-tc.co.uk,4,wikidata,Shotton Town Council,local
+surrey.police.uk,4,wikidata,Surrey Police,local
+tenbytowncouncil.co.uk,4,wikidata,Tenby Town Council,local
+tkbtc.co.uk,4,wikidata,Towyn and Kinmel Bay Town Council,local
+tredegartowncouncil.co.uk,4,wikidata,Tredegar Town Council,local
+warkworthharbour.co.uk,4,wikidata,Warkworth Harbour Commissioners,local
+warwickshire.police.uk,4,wikidata,Warwickshire Police,local
+westmercia.police.uk,4,wikidata,West Mercia Police,local
+westmidlands.police.uk,4,wikidata,West Midlands Police,local
+westyorkshire.icb.nhs.uk,4,wikidata,NHS West Yorkshire Integrated Care Board,local
+whitehavenhc.org.uk,4,wikidata,Whitehaven Harbour Commissioners,local
+wiltshire.police.uk,4,wikidata,Wiltshire Police,local
+yealmharbourauthority.co.uk,4,wikidata,River Yealm Harbour Authority,local
+yorkshiredales.org.uk,4,wikidata,Yorkshire Dales National Park Authority,local
+aberffraw.cymru,3,wikidata,Aberffraw Community Council,local
+aberffraw.wordpress.com,3,wikidata,Aberffraw Community Council,local
+bannau.wales,3,wikidata,Bannau Brycheiniog National Park Authority,local
+caerwys-town.com,3,wikidata,Caerwys Town Council,local
+chirk.info,3,wikidata,Chirk Town Council,local
+comisiynyddygymraeg.cymru,3,wikidata,Welsh Language Commissioner,local
+cyngorllanrwst.cymru,3,wikidata,Llanrwst Town Council,local
 derrystrabane.com,3,wikidata,Derry City and Strabane District Council,local
+discovercarmarthenshire.com,3,wikidata,Tourism & Marketing Division of Carmarthenshire County Council,local
+equalityhumanrights.com,3,wikidata,Equality and Human Rights Commission,local
+gmbusinessboard.com,3,wikidata,Greater Manchester Business Board (LEP),local
+gra.gi,3,wikidata,Gibraltar Regulatory Authority,local
+holyheadtowncouncil.com,3,wikidata,Holyhead Town Council,local
+holywell.wales,3,wikidata,Holywell Town Council,local
+knightontc.wales,3,wikidata,Knighton Town Council,local
+llangybi.org,3,wikidata,Llangybi Fawr Community Council,local
+llanwrtyd-town-council.wales,3,wikidata,Llanwrtyd Wells Town Council,local
+londonderryport.com,3,wikidata,Londonderry Port and Harbour Commissioners,local
+maestegcouncil.org,3,wikidata,Maesteg Town Council,local
 newrymournedown.org,3,wikidata,"Newry, Mourne and Down District Council",local
+nptc.info,3,wikidata,North Petherton Town Council,local
+penmaenmawr.org,3,wikidata,Penmaenmawr Town Council,local
+teignmouthharbour.com,3,wikidata,Teignmouth Harbour Commission,local
+usktown.org,3,wikidata,Usk Town Council,local
+warrenpointport.com,3,wikidata,Warrenpoint Harbour Authority,local
+welshlanguagecommissioner.wales,3,wikidata,Welsh Language Commissioner,local

@@ -6,7 +6,7 @@
 - Region: Asia / Southern Asia
 - Languages: Dari; Pashto; Turkmen
 - Population: 43844000
-- GDP per capita: 414 US$ (2023)
+- GDP per capita: 417 US$ (2024)
 - Currencies: AFN
 - ccTLD: `.af` (manager: Ministry of Communications and IT)
 - OECD: non-member
@@ -30,10 +30,23 @@
 
 ## Candidate domains ranked by score
 
-1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.af` | wikidata;wikidata | National Assembly of Afghanistan |
+| 4 | `aihrc.org.af` | wikidata | Afghan Independent Human Rights Commission |
+| 3 | `af.ambafrance.org` | wikidata | Embassy of France, Kabul |
+| 3 | `afghanistan.diplo.de` | wikidata | Embassy of Germany, Kabul |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Afghanistan |
+| 3 | `emro.who.int` | wikidata | World Health Organization - Afghanistan |
+| 3 | `finlandabroad.fi` | wikidata | Embassy of Finland, Kabul |
+| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Afghanistan |
+| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Afghanistan |
+| 3 | `nederlandwereldwijd.nl` | wikidata | Embassy of the Netherlands, Kabul |
+| 3 | `norway.no` | wikidata | Embassy of Norway, Kabul |
+| 3 | `pakembassykabul.org` | wikidata | Embassy of Pakistan, Kabul |
+| 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Kabul |
+| 3 | `unesco.org` | wikidata | UNESCO office Afghanistan |
 

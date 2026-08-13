@@ -30,14 +30,22 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 8 | `goss-online.org` | un_desa;wikidata | Ministry of Foreign Affairs and International Cooperation | UN/DESA national ... |
-| 3 | `mop-rss.org` | wikidata | Ministry of Petroleum and Mining |
-| 3 | `ssmogei.org` | wikidata | Ministry of Education, Science and Technology |
+| 10 | `goss-online.org` | un_desa;wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation | UN/DESA national ... |
+| 6 | `mop-rss.org` | wikidata;wikidata | Ministry of Petroleum and Mining |
+| 6 | `ssmogei.org` | wikidata;wikidata | Ministry of Education, Science and Technology |
+| 4 | `ss.usembassy.gov` | wikidata | Embassy of the United States, Juba |
+| 4 | `usaf@gov.ss` | wikidata | Universal Service and Access Fund (South Sudan) |
+| 3 | `dschuba.diplo.de` | wikidata | Embassy of Germany, Juba |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to South Sudan |
+| 3 | `norway.no` | wikidata | Embassy of Norway in South Sudan |
+| 3 | `ss.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Juba |
+| 3 | `ssd.ambafrance.org` | wikidata | Embassy of France, Juba |
+| 3 | `ssnbs.org` | wikidata | National Bureau of Statistics |
 
 ## ccTLD anomalies
 

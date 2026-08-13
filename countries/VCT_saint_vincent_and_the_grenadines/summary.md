@@ -30,5 +30,11 @@
 
 ## Candidate domains ranked by score
 
-No remaining candidates (every flagged institution is covered).
+2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+Top 20 by score (0-10) -- higher = stronger cross-source evidence:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 6 | `taiwanembassy.org` | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Kingstown |
+| 3 | `eccb-centralbank.org` | wikidata | Eastern Caribbean Central Bank |
 
