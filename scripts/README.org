@@ -53,23 +53,31 @@ scripts/pipeline.clj <cmd>=:
 
   bb scripts/pipeline.clj build-qid             # rebuild data/country_qid.csv
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
-  bb scripts/pipeline.clj forges                # forge-looking hosts -> data/forge-candidates.csv
-  bb scripts/pipeline.clj forges-swh            # forge targets unknown to SWH -> data/forge-unknown-swh.csv
-  bb scripts/pipeline.clj forges-probe          # re-probe forge-unknown-swh.csv (type + accessibility)
-  bb scripts/pipeline.clj github-orgs           # GitHub governments.yml -> data/github-gov-orgs.csv
   bb scripts/pipeline.clj regex                 # email-domain regexes -> data/domain-regexes.csv
+#+end_src
+
+Forge and source-code-catalog detection lives in its own script,
+=scripts/detect-forges.clj= (=bb forges <command>=): it shares the
+harvested data of this repository but serves the Software Heritage
+catalog goal of [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]], not the domain-regex goal.
+
+#+begin_src bash
+  bb forges forges                              # forge-looking hosts -> data/forge-candidates.csv
+  bb forges forges-swh [github-orgs]            # forge targets unknown to SWH -> data/forge-unknown-swh.csv
+  bb forges forges-probe                        # re-probe forge-unknown-swh.csv (type + accessibility)
+  bb forges github-orgs                         # GitHub governments.yml -> data/github-gov-orgs.csv
 #+end_src
 
 =forges-swh= checks forge targets against the Software Heritage
 origin-search API and keeps those the archive does not know yet.
 Targets are the harvested hosts of =data/forge-candidates.csv= plus
 the curated entries of =data/known-forges.csv= (seeded from the
-[[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] catalog list) whose =kind= is =forge= or
+swh-sopc-data-sources catalog list) whose =kind= is =forge= or
 =github-org= -- =catalog= entries only point at code hosted elsewhere,
 so they are listed for reference but not searched. With the
 =github-orgs= argument, the organizations of
 =data/github-gov-orgs.csv= (from GitHub's community-maintained
-=governments.yml=, fetched by =bb pipeline github-orgs=) are checked
+=governments.yml=, fetched by =bb forges github-orgs=) are checked
 too. The anonymous API allows 10 requests per rate-limit window (the
 command paces itself accordingly); set =SWH_TOKEN= to authenticate and
 go faster -- recommended for the ~1000-org =github-orgs= sweep.

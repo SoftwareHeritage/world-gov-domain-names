@@ -22,13 +22,14 @@ We sort government domains into levels:
   domains that stand for them (=gouv.fr=, =gov.uk=).
 - =central-1= -- the first administrative tier below: state, Land,
   region… (=sp.gov.br=, =nouvelle-aquitaine.fr=).
-- =university= -- strictly public universities (Wikidata public /
-  public-research / national university classes). Tracked in
-  =candidates-local.csv= but kept *out* of the central+ file and
-  regexes for now: reliably separating public from private
-  universities needs more curation (see =score=/=sources=).
 - the rest -- everything lower (municipalities, counties, parishes…),
   kept *out* of the lists and regexes.
+
+Universities are out of scope: the strictly public ones (Wikidata
+public / public-research / national university classes) are kept as a
+parked dataset in =data/public-universities.csv=, refreshed by
+=scripts/detect-universities.clj= (=bb universities=), for a possible
+later re-exploration. Nothing in the pipeline reads that file.
 
 * Method
 
@@ -54,12 +55,13 @@ Three ready-to-use CSV files, covering UN members and observers only:
 - =data/public-sector-domains-central+.csv= -- the central roots
   (=level= =central=) plus the bodies of the first administrative tier
   below (=level= =central-1=: Land, state, region…). Central-1 rows
-  come either from curated registries (Brazilian/Australian states,
-  UK devolved bodies; =sources= is =registry=) or from scored
-  cross-source candidates (German Länder, Japanese prefectures…; see
-  the =score= and =sources= columns to filter by confidence).
-  Universities are deliberately not included yet (they live in the
-  per-country =candidates-local.csv= under =level= =university=).
+  only enter once *confirmed*, mirroring the manual gate of the
+  central level: either through a curated registry
+  (Brazilian/Australian states, UK devolved bodies; =sources= is
+  =registry=) or through the per-country curation channel
+  (=sources/curated/central_admin.csv=; =sources= includes =curated=).
+  Unconfirmed central-1 candidates stay in =candidates-local.csv= --
+  that file is the curation worklist.
 
 Each row carries metadata: UN status, region, languages and GDP
 
@@ -71,10 +73,9 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - =candidates.csv= -- central administration domains not confirmed yet,
   scored 0 to 10 by how many sources agree.
 - =candidates-local.csv= -- same for domains attributed to subnational
-  administrations and academia; the =level= column separates
-  =central-1= (bodies of a first-level subdivision: Land, state,
-  region…) and =university= (both in the central+ scope) from =local=
-  (the rest).
+  administrations; the =level= column separates =central-1= (bodies of
+  a first-level subdivision: Land, state, region…) from =local= (the
+  rest). Central-1 rows enter the central+ scope once curated.
 - =summary.md= -- a human-readable cross-check report.
 - =sources/= -- the raw data behind the above, one folder per source.
   =sources/linkgraph/indegree.csv= (EU + neighbours only) counts, for
@@ -102,8 +103,11 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   from the homepage (gitlab, gitea, cgit…, or =github= for
   redirects), =http_status= the final HTTP code (=000= when
   unreachable) and =note= a short diagnostic (DNS failure, timeout,
-  WAF, default page, cross-host redirect). =bb pipeline forges-probe=
-  refreshes these columns without re-querying the SWH API.
+  WAF, default page, cross-host redirect). =bb forges forges-probe=
+  refreshes these columns without re-querying the SWH API. The whole
+  forge/catalog channel lives in =scripts/detect-forges.clj=: it
+  shares this repository's harvested data but serves the Software
+  Heritage catalog goal, not the domain-regex goal.
 - =domain-regexes.csv= (and =public-sector-domains-central+-regex.txt=)
   -- per-country (and global) email-domain regexes over the central+
   scope (central government plus the first subdivision tier, i.e.

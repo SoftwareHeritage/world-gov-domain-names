@@ -11,5 +11,9 @@
               :task (apply shell "bb scripts/pipeline.clj report" *command-line-args*)}
   indegree   {:doc  "link-graph in-degree (eu-plus-government-scans) -> sources/linkgraph/"
               :task (apply shell "bb scripts/pipeline.clj indegree" *command-line-args*)}
+  forges     {:doc  "forge/catalog detection for swh-sopc-data-sources -- run 'bb forges help'"
+              :task (apply shell "bb scripts/detect-forges.clj" *command-line-args*)}
+  universities {:doc  "public-universities harvest (parked dataset) -- run 'bb universities help'"
+                :task (apply shell "bb scripts/detect-universities.clj" *command-line-args*)}
   all        {:doc  "collect + enrich + report"
               :task (apply shell "bb scripts/pipeline.clj all" *command-line-args*)}}}
