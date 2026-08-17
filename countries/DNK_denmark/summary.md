@@ -58,18 +58,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `au.dk` | wikidata | Aarhus University |
-| 4 | `dtu.dk` | wikidata | Technical University of Denmark |
-| 4 | `filmskolen.dk` | wikidata | National Film School of Denmark |
-| 4 | `ku.dk` | wikidata | University of Copenhagen |
-| 4 | `sdu.dk` | wikidata | University of Southern Denmark |
 | 9 | `domstol.dk` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Hjørring District Court | Frederiksberg District Court | Danish Appeals Permi... |
 | 7 | `kongehuset.dk` | wikidata;wikidata | The Royal Household of Denmark |
 | 7 | `um.dk` | wikidata;wikidata | Danish International Development Agency | Ministry of Foreign Affairs of Denmark |
 | 4 | `kolding.dk` | wikidata | Kolding City Council |
 | 3 | `eea.europa.eu` | wikidata | European Environment Agency |
+| 3 | `who.int` | wikidata | World Health Organization Regional Office for Europe |
 

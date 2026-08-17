@@ -58,20 +58,19 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-16 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+9 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `limerick.ie` | wikidata | Limerick City and County Council |
 | 4 | `waterfordcouncil.ie` | wikidata | Waterford City and County Council |
-| 4 | `dcu.ie` | wikidata | Dublin City University |
-| 4 | `ollscoilnagaillimhe.ie` | wikidata | University of Galway |
-| 4 | `riam.ie` | wikidata | Royal Irish Academy of Music |
-| 4 | `tcd.ie` | wikidata | University of Dublin |
-| 4 | `ucc.ie` | wikidata | University College Cork |
-| 4 | `ucd.ie` | wikidata | University College Dublin |
-| 4 | `universityofgalway.ie` | wikidata | University of Galway |
 | 7 | `dublincity.ie` | wikidata;wikidata;wikidata | Dublin Fire Brigade | Dublin City Council |
+| 4 | `clarearts.ie` | wikidata | Clare County Council Arts Office |
+| 4 | `corkcity.ie` | wikidata | Cork City Council |
+| 4 | `galwaycity.ie` | wikidata | Galway City Council |
+| 4 | `southernassembly.ie` | wikidata | Southern Regional Assembly |
+| 4 | `swra.ie` | wikidata | South West Regional Authority |
+| 3 | `eurofound.europa.eu` | wikidata | European Foundation for the Improvement of Living and Working Conditions |
 
 ## ccTLD anomalies
 

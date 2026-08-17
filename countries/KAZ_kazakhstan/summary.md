@@ -56,13 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `rfembassy.kz` | wikidata | Embassy of Russia, Astana |
 | 4 | `rniiot.kz` | wikidata | Republican Research Institute for Occupational Safety and Health |
 
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `kaznpu.kz` | wikidata | Kazakh National Pedagogical University |
-| 3 | `ayu.edu.tr` | wikidata | Ahmet Yesevi University |
-| 3 | `farabi.university` | wikidata | Al-Farabi Kazakh National University |
-

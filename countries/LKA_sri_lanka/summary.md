@@ -56,13 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `colombo.diplo.de` | wikidata | Embassy of Germany, Colombo |
 | 3 | `colombo.mae.ro` | wikidata | embassy of Romania in Sri Lanka |
 
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `cmb.ac.lk` | wikidata | University of Colombo |
-| 4 | `jfn.ac.lk` | wikidata | University of Jaffna |
-| 4 | `pdn.ac.lk` | wikidata | University of Peradeniya |
-

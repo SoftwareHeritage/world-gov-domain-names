@@ -58,12 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `english.hi.is` | wikidata | University of Iceland |
-| 4 | `hi.is` | wikidata | University of Iceland |
 | 4 | `landsrettur.is` | wikidata | Court of Appeal |
 | 4 | `reykjavik.is` | wikidata | Reykjavík City Council |
 

@@ -58,13 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-5 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `amu.edu.az` | wikidata | Azerbaijan Medical University |
-| 4 | `beu.edu.az` | wikidata | Baku Engineering University |
-| 4 | `mmu.edu.az` | wikidata | Azerbaijan National Defense University |
-| 4 | `unec.edu.az` | wikidata | Azerbaijan State University of Economics |
 | 7 | `alimeclis.az` | wikidata;wikidata | Supreme Assembly (Nakhchivan) |
 

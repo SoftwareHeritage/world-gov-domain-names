@@ -58,11 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `univ-masuku.ga` | wikidata | Université des Sciences et Techniques de Masuku |
-| 3 | `univ-masuku.org` | wikidata | Université des Sciences et Techniques de Masuku |
 | 3 | `beac.int` | wikidata | Bank of Central African States |
 

@@ -58,18 +58,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-29 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+8 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `ostandari.khorasan.ir` | wikidata | Khorasan Razavi Provincial Government |
-| 4 | `alzahra.ac.ir` | wikidata | Alzahra University |
-| 4 | `art.ac.ir` | wikidata | Iran University of Art |
-| 4 | `aut.ac.ir` | wikidata | Amirkabir University of Technology |
-| 4 | `d-kazeroon.nus.ac.ir` | wikidata | Women's Skill National University of Kazerun |
-| 4 | `en.hut.ac.ir` | wikidata | Hamadan University of Technology |
-| 4 | `en.sbu.ac.ir` | wikidata | Shahid Beheshti University |
-| 4 | `en.um.ac.ir` | wikidata | Ferdowsi University of Mashhad |
-| 4 | `ihu.ac.ir` | wikidata | Imam Hossein University |
-| 4 | `kazeroon.fars.pnu.ac.ir` | wikidata | Payame Noor University of Kazerun |
+| 4 | `jahromshora.ir` | wikidata | Islamic City Council of Jahrom |
+| 4 | `qomshora.ir` | wikidata | Islamic City Council of Qom |
+| 4 | `ricest.ac.ir` | wikidata | Regional Information Center for Science and Technology |
+| 4 | `sabzevarshora.ir` | wikidata | Islamic City Council of Sabzevar |
+| 4 | `shora.karaj.ir` | wikidata | Islamic City Council of Karaj |
+| 4 | `shora.tehran.ir` | wikidata | Islamic City Council of Tehran |
+| 4 | `shorashiraz.ir` | wikidata | Islamic City Council of Shiraz |
 

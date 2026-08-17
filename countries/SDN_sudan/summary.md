@@ -46,20 +46,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `sudan.mid.ru` | wikidata | embassy of Russia in Sudan |
 | 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Khartoum |
 
-## Local / regional candidates
-
-12 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `iua.edu.sd` | wikidata | International University of Africa |
-| 4 | `merowe.edu.sd` | wikidata | Merowe University of Technology - Abdulatif Alhamad |
-| 4 | `must.edu.sd` | wikidata | Managil University of Science and Technology |
-| 4 | `nyalau.edu.sd` | wikidata | Nyala University |
-| 4 | `quran-unv.edu.sd` | wikidata | University of the Holy Quran and Islamic Sciences |
-| 4 | `rsu.edu.sd` | wikidata | Red Sea University |
-| 4 | `stu.edu.sd` | wikidata | Sudan Technological University |
-| 4 | `uofg.edu.sd` | wikidata | University of Gezira |
-| 4 | `uofs.edu.sd` | wikidata | Sinnar University |
-| 4 | `ush.sd` | wikidata | Shendi University |
-

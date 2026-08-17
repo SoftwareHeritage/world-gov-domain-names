@@ -38,12 +38,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `to.chineseembassy.org` | wikidata;wikidata | Embassy of the People's Republic of China, Nuku'alofa |
 | 4 | `reservebank.to` | wikidata | National Reserve Bank of Tonga |
 
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `tnu.edu.to` | wikidata | Tonga National University |
-| 3 | `usp.ac.fj` | wikidata | University of the South Pacific |
-

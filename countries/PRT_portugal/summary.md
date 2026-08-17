@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-50 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+39 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -71,5 +71,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cm-sjm.pt` | wikidata | Câmara Municipal de São João da Madeira |
 | 4 | `lisboa.pt` | wikidata | Lisbon City Council |
 | 4 | `mun-setubal.pt` | wikidata | Municipal Assembly of Setúbal |
-| 7 | `uminho.pt` | wikidata;wikidata | University of Minho |
+| 7 | `cm-guimaraes.pt` | wikidata;wikidata;wikidata;wikidata | Q117475669 | Q116830317 |
 

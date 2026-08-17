@@ -40,11 +40,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nationalcouncil.bt` | wikidata | National Council of Bhutan |
 | 4 | `rma.org.bt` | wikidata | Royal Monetary Authority of Bhutan |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `rub.edu.bt` | wikidata | Royal University of Bhutan |
-

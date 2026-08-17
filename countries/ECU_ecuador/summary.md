@@ -55,13 +55,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `quito.mfa.ir` | wikidata | embassy of Iran in Ecuador |
 | 3 | `roc-taiwan.org` | wikidata | Commercial Office of Taipei, Quito |
 
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `unach.edu.ec` | wikidata;wikidata | Universidad Nacional de Chimborazo |
-| 4 | `espol.edu.ec` | wikidata | Escuela Superior Politécnica del Litoral |
-| 4 | `uea.edu.ec` | wikidata | Estatal Amazonica University |
-

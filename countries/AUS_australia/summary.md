@@ -30,11 +30,12 @@
 
 ## Candidate domains ranked by score
 
-150 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+152 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `curtin.edu.au` | wikidata;wikidata | Curtin Connect |
 | 7 | `g-mwater.com.au` | wikidata;wikidata | Goulburn–Murray Water |
 | 7 | `pakistan.org.au` | wikidata;wikidata | High Commission of Pakistan, Canberra | high commission of Pakistan in Australia |
 | 7 | `screenqueensland.com.au` | wikidata;wikidata | Screen Queensland Studios | Screen Queensland |
@@ -49,16 +50,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ainse.edu.au` | wikidata | Australian Institute of Nuclear Science and Engineering |
 | 4 | `algeriaemb.org.au` | wikidata | Embassy of Algeria, Canberra |
 | 4 | `amc.edu.au` | wikidata | Australian Maritime College |
+| 4 | `anu.edu.au` | wikidata | Australian National University |
 | 4 | `apm.net.au` | wikidata | APM Group |
 | 4 | `artc.com.au` | wikidata | Australian Rail Track Corporation |
 | 4 | `artlabaustralia.com.au` | wikidata | Artlab Australia |
 | 4 | `asmof.org.au` | wikidata | Australian Salaried Medical Officers' Federation |
-| 4 | `auda.org.au` | wikidata | .au Domain Administration |
-| 4 | `australiachinafoundation.org.au` | wikidata | National Foundation for Australia-China Relations |
 
 ## Local / regional candidates
 
-56 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 16 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+21 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 16 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

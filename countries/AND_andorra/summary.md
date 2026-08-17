@@ -58,12 +58,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `canillo.ad` | wikidata | Q117288422 |
 | 4 | `comuencamp.ad` | wikidata | Q117808860 |
 | 4 | `comusantjulia.ad` | wikidata | Q105488867 |
-| 4 | `uda.ad` | wikidata | Universitat d'Andorra |
 

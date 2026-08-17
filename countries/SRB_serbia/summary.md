@@ -58,14 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `akademijasabac.edu.rs` | wikidata;wikidata | Academy of Vocational Studies Šabac |
-| 4 | `bg.ac.rs` | wikidata | University of Belgrade |
-| 4 | `ekof.bg.ac.rs` | wikidata | University of Belgrade Faculty of Economics |
-| 4 | `kg.ac.rs` | wikidata | University of Kragujevac |
-| 4 | `uns.ac.rs` | wikidata | University of Novi Sad |
 | 6 | `sapkim.org` | wikidata;wikidata | Assembly of the Community of Municipalities of the Autonomous Province of Kos... |
 

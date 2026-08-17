@@ -58,18 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-28 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `uoitc.edu.iq` | wikidata;wikidata | University of Information Technology and Communication |
-| 4 | `en.uosamarra.edu.iq` | wikidata | University of Samarra |
-| 4 | `iubaghdad.edu.iq` | wikidata | Iraqi University |
-| 4 | `mtu.edu.iq` | wikidata | Middle Technical University |
-| 4 | `nahrainuniv.edu.iq` | wikidata | Nahrain University |
-| 4 | `qadissuni.edu.iq` | wikidata | University of Al-Qadisiyah |
-| 4 | `stu.edu.iq` | wikidata | Southern Technical University |
-| 4 | `tu.edu.iq` | wikidata | University of Tikrit |
-| 4 | `uoalmuthana.edu.iq` | wikidata | Al-Muthana University |
-| 4 | `uoanbar.edu.iq` | wikidata | University of Anbar |
+| 7 | `gov.krd` | wikidata;wikidata;wikidata | Kurdistan Regional Government | Ministry of Natural Resources |
 

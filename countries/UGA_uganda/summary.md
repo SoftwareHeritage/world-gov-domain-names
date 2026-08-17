@@ -58,12 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-5 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `mak.ac.ug` | wikidata | Makerere University |
-| 4 | `mubs.ac.ug` | wikidata | Makerere University Business School |
 | 4 | `jmc.go.ug` | wikidata | Jinja Municipal Council |
 | 4 | `molg.go.ug` | wikidata | Ministry of Local Government |
 | 3 | `eala.org` | wikidata | East African Legislative Assembly |

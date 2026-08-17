@@ -58,18 +58,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-16 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `region.grodno.by` | wikidata;wikidata;wikidata | Hrodna Regional Executive Committee | Hrodna Regional Council of Deputies |
 | 4 | `gomel-region.by` | wikidata | Homel Regional Council of Deputies |
-| 7 | `grsu.by` | wikidata;wikidata | Yanka Kupala State University of Grodno |
-| 4 | `bgam.by` | wikidata | Belarusian State Academy of Music |
-| 4 | `bsu.by` | wikidata | Belarusian State University |
-| 4 | `en.grsu.by` | wikidata | Yanka Kupala State University of Grodno |
-| 4 | `mspu.by` | wikidata | Mozyr State Pedagogical University named after I.P. Shamyakin |
 | 7 | `berestovitsa.grodno-region.by` | wikidata;wikidata | Bierastavica District Executive Committee |
 | 7 | `loev.gomel-region.by` | wikidata;wikidata | Lojeŭ District Executive Committee |
 | 7 | `rechitsa.by` | wikidata;wikidata | Rečyca District Executive Committee |
+| 7 | `smorgon.grodno-region.by` | wikidata;wikidata | Smarhoń District Executive Committee |
+| 7 | `svisloch.grodno-region.by` | wikidata;wikidata | Svislač District Executive Committee |
+| 7 | `vetka.gomel-region.by` | wikidata;wikidata | Vietka District Executive Committee |
+| 7 | `volkovysk.grodno-region.by` | wikidata;wikidata | Vaŭkavysk District Executive Committee |
+| 7 | `yelsk.gomel-region.by` | wikidata;wikidata | Jeĺsk District Executive Committee |
 

@@ -42,11 +42,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `alele.org` | wikidata | National Archives of the Marshall Islands |
 | 3 | `rmieppso.org` | wikidata | Economic Policy, Planning and Statistics Office |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `usp.ac.fj` | wikidata | University of the South Pacific |
-

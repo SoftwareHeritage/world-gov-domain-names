@@ -56,19 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `elections.eg` | wikidata | National Elections Commission |
 | 4 | `epri.sci.eg` | wikidata | Egyptian Petroleum Research Institute |
 
-## Local / regional candidates
-
-9 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `alexu.edu.eg` | wikidata | Alexandria University |
-| 4 | `asu.edu.eg` | wikidata | Ain Shams University |
-| 4 | `azhar.edu.eg` | wikidata | Al-Azhar University |
-| 4 | `cu.edu.eg` | wikidata | Cairo University |
-| 4 | `dtu.edu.eg` | wikidata | Delta Technological University |
-| 4 | `helwan.edu.eg` | wikidata | Capital University (Egypt) |
-| 4 | `sohag-univ.edu.eg` | wikidata | Sohag University |
-| 4 | `zu.edu.eg` | wikidata | Zagazig University |
-| 3 | `batechu.com` | wikidata | Borg El Arab Technological University |
-

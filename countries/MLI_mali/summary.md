@@ -56,13 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Mali |
 | 3 | `norway.no` | wikidata | Embassy of Norway in Mali |
 
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `ulshb.edu.ml` | wikidata | Université des lettres et des sciences humaines de Bamako |
-| 4 | `usjpb.edu.ml` | wikidata | University of Legal and Political Sciences of Bamako |
-| 4 | `usttb.edu.ml` | wikidata | Université des Sciences, des Techniques et des Technologies de Bamako |
-

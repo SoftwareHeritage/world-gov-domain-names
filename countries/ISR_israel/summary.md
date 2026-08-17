@@ -58,17 +58,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-9 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `envihaifa.org.il` | wikidata | Haifa District Municipal Association for Environmental Protection |
-| 4 | `ariel.ac.il` | wikidata | Ariel University |
-| 4 | `bgu.ac.il` | wikidata | Ben-Gurion University of the Negev |
-| 4 | `biu.ac.il` | wikidata | Bar-Ilan University |
-| 4 | `haifa.ac.il` | wikidata | University of Haifa |
-| 4 | `openu.ac.il` | wikidata | Open University of Israel |
-| 4 | `tau.ac.il` | wikidata | Tel Aviv University |
 | 4 | `handasa.ramat-gan.muni.il` | wikidata | Ramat Gan |
 | 4 | `yoqneam.org.il` | wikidata | Yokneam City Council |
 

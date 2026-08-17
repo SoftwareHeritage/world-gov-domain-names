@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-9 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -68,7 +68,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ded.ae` | wikidata | Department of Economic Development - Dubai |
 | 4 | `ead.ae` | wikidata | Environment Agency Abu Dhabi |
 | 4 | `hra.ae` | wikidata | Human Resources Authority |
-| 7 | `islamic-college.ae` | wikidata;wikidata | Kullīyat al-Dirāsāt al-Islāmīyah wa-al-ʻArabīyah |
-| 4 | `aau.ac.ae` | wikidata | Al Ain University |
-| 4 | `zu.ac.ae` | wikidata | Zayed University |
 

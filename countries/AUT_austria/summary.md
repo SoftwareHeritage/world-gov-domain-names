@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-15 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -68,8 +68,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `lrh-ktn.at` | wikidata | Q98815341 |
 | 4 | `ooe-landtag.at` | wikidata | Landtag of Upper Austria |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to the International Organisations in Vienna |
-| 4 | `akbild.ac.at` | wikidata | Academy of Fine Arts Vienna |
-| 4 | `boku.ac.at` | wikidata | University of Natural Resources and Life Sciences, Vienna |
-| 4 | `dieangewandte.at` | wikidata | University of Applied Arts Vienna |
-| 4 | `mdw.ac.at` | wikidata | University of Music and Performing Arts Vienna |
+| 3 | `fra.europa.eu` | wikidata | European Union Agency for Fundamental Rights |
 

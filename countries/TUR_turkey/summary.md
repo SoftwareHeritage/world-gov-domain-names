@@ -58,18 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-134 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `itfaiye.izmir.bel.tr` | wikidata | İzmir Fire Department |
 | 3 | `istanbul.china-consulate.org` | wikidata | Consulate-General of the People's Republic of China, Istanbul |
-| 7 | `alanya.edu.tr` | wikidata;wikidata | Alanya Alaaddin Keykubat University |
-| 7 | `ankara.edu.tr` | wikidata;wikidata | Ankara University |
-| 7 | `hho.edu.tr` | wikidata;wikidata | Turkish Air Force Academy |
-| 7 | `medeniyet.edu.tr` | wikidata;wikidata | Istanbul Medeniyet University |
-| 4 | `adiyaman.edu.tr` | wikidata | Adıyaman University |
-| 4 | `adu.edu.tr` | wikidata | Aydın Adnan Menderes University |
-| 4 | `afsu.edu.tr` | wikidata | Afyonkarahisar Health Sciences University |
-| 4 | `agri.edu.tr` | wikidata | Ağrı İbrahim Çeçen University |
 

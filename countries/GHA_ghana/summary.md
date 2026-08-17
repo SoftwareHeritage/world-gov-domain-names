@@ -56,20 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ghanamuseums.org` | wikidata | Ghana Museums and Monuments Board |
 | 3 | `ghanawildlife.org` | wikidata | Ghana Wildlife Division |
 
-## Local / regional candidates
-
-18 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `ubids.edu.gh` | wikidata;wikidata | Simon Diedong Dombo University of Business and Integrated Development Studies... |
-| 7 | `ug.edu.gh` | wikidata;wikidata | University of Ghana | University of Ghana Medical School |
-| 4 | `atu.edu.gh` | wikidata | Accra Technical University |
-| 4 | `cctu.edu.gh` | wikidata | Cape Coast Technical University |
-| 4 | `gij.edu.gh` | wikidata | University of Media, Arts and Communication |
-| 4 | `gimpa.edu.gh` | wikidata | Ghana Institute of Management and Public Administration, Achimota |
-| 4 | `htu.edu.gh` | wikidata | Ho Technical University |
-| 4 | `knust.edu.gh` | wikidata | Kwame Nkrumah University of Science and Technology |
-| 4 | `ktu.edu.gh` | wikidata | Koforidua Technical University |
-| 4 | `ucc.edu.gh` | wikidata | University of Cape Coast |
-

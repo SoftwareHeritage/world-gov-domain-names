@@ -58,18 +58,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-16 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `courdeboumerdes.mjustice.dz` | wikidata | Boumerdès Court |
 | 4 | `de-boumerdes.dz` | wikidata | Boumerdès Province School District |
-| 7 | `univ-chlef.dz` | wikidata;wikidata | Hassiba Benbouali University of Chlef |
-| 4 | `cu-tipaza.dz` | wikidata | Centre Universitaire Morsli Abdellah de Tipaza |
-| 4 | `univ-alger.dz` | wikidata | University of Algiers 1 |
-| 4 | `univ-alger2.dz` | wikidata | Algiers 2 University |
-| 4 | `univ-alger3.dz` | wikidata | University of Algiers 3 |
-| 4 | `univ-annaba.dz` | wikidata | Badji Mokhtar-Annaba University |
-| 4 | `univ-bejaia.dz` | wikidata | University of Béjaïa |
-| 4 | `univ-boumerdes.dz` | wikidata | M'hamed Bougara University of Boumerdès |
+| 4 | `algir.mfa.gov.hu` | wikidata | embassy of Hungary, Algiers |
+| 4 | `apctiziouzou.dz` | wikidata | People's Municipal Assembly of Tizi Ouzou |
+| 3 | `afripol.africa-union.org` | wikidata | Afripol |
+| 3 | `afripol.peaceau.org` | wikidata | Afripol |
 

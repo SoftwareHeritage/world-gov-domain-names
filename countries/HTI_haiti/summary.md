@@ -49,11 +49,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `port-au-prince.diplo.de` | wikidata | embassy of Germany, Port-au-Prince |
 | 1 | `leparlementhaitien.info` | wikidata;wikidata;wikidata | Parliament of Haiti | Chamber of Deputies |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `ueh.edu.ht` | wikidata | Q1205322 |
-

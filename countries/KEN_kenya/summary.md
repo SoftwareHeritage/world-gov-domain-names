@@ -58,18 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `jkuat.ac.ke` | wikidata | Jomo Kenyatta University of Agriculture and Technology |
-| 4 | `karu.ac.ke` | wikidata | Karatina University |
-| 4 | `kibu.ac.ke` | wikidata | Kibabii University |
-| 4 | `ku.ac.ke` | wikidata | Kenyatta University |
-| 4 | `kyu.ac.ke` | wikidata | Kirinyaga University |
-| 4 | `mksu.ac.ke` | wikidata | Machakos University |
-| 4 | `mu.ac.ke` | wikidata | Moi University |
-| 4 | `uoeld.ac.ke` | wikidata | University of Eldoret |
-| 4 | `uonbi.ac.ke` | wikidata | University of Nairobi |
 | 3 | `eala.org` | wikidata | East African Legislative Assembly |
+| 3 | `kenyamissionhabitat.org` | wikidata | Permanent Mission of Kenya to UN-Habitat |
 

@@ -58,15 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 3 | `jpjsabahmy.com` | wikidata | Sabah State Road Transport Department |
-| 7 | `ukm.my` | wikidata;wikidata | National University of Malaysia |
-| 4 | `upm.edu.my` | wikidata | University of Putra Malaysia |
-| 4 | `upnm.edu.my` | wikidata | National Defence University of Malaysia |
-| 4 | `usim.edu.my` | wikidata | Universiti Sains Islam Malaysia |
-| 4 | `utm.my` | wikidata | University of Technology Malaysia |
-| 4 | `uum.edu.my` | wikidata | Universiti Utara Malaysia |
 

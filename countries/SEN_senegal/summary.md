@@ -58,14 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `ussein.sn` | wikidata;wikidata | Université El Hadji Ibrahima Niasse | Université Sine-Saloum El Hadji Ibrahim... |
-| 4 | `uam.sn` | wikidata | Université Amadou Mahtar Mbow |
-| 4 | `uasz.sn` | wikidata | Assane Seck University |
-| 4 | `ucad.sn` | wikidata | Université Cheikh Anta Diop |
-| 4 | `ugb.sn` | wikidata | Université Gaston Berger |
 | 3 | `spcsrp.org` | wikidata | Sub-Regional Fisheries Commission |
 

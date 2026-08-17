@@ -58,18 +58,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-18 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+5 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 3 | `kznwildlife.com` | wikidata | Ezemvelo KZN Wildlife |
-| 4 | `mandela.ac.za` | wikidata | Nelson Mandela University |
-| 4 | `nwu.ac.za` | wikidata | North-West University |
-| 4 | `ru.ac.za` | wikidata | Rhodes University |
-| 4 | `su.ac.za` | wikidata | Stellenbosch University |
-| 4 | `tut.ac.za` | wikidata | Tshwane University of Technology |
-| 4 | `uct.ac.za` | wikidata | University of Cape Town |
-| 4 | `ufh.ac.za` | wikidata | University of Fort Hare |
-| 4 | `ufs.ac.za` | wikidata | University of the Free State |
-| 4 | `unisa.ac.za` | wikidata | University of South Africa |
+| 7 | `demarcation.org.za` | wikidata;wikidata | Municipal Demarcation Board |
+| 7 | `joburg.org.za` | wikidata;wikidata | City of Johannesburg Municipal Council |
+| 7 | `mangaung.co.za` | wikidata;wikidata | Mangaung Municipal Council |
+| 3 | `icsu.org` | wikidata | ICSU Regional Office for Africa |
 

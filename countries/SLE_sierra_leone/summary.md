@@ -44,11 +44,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Sierra Leone |
 | 3 | `freetown.diplo.de` | wikidata | Embassy of Germany, Freetown |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `fourahbaycollege.net` | wikidata | Fourah Bay College |
-

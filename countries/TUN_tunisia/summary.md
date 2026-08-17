@@ -58,11 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `ucar.rnu.tn` | wikidata | Carthage University |
 | 4 | `ly.usembassy.gov` | wikidata | Embassy of the United States of America, Tripoli |
 | 3 | `tripolis.diplo.de` | wikidata | Embassy of Germany, Tripoli |
 

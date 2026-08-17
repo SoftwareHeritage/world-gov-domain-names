@@ -56,20 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `luanda.mae.ro` | wikidata | embassy of Romania in Angola |
 | 3 | `nationallibraryofangola.org` | wikidata | National Library of Angola |
 
-## Local / regional candidates
-
-11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `uan.ao` | wikidata | Agostinho Neto University |
-| 4 | `ujes.co.ao` | wikidata | Universidade José Eduardo dos Santos |
-| 4 | `ukb.ed.ao` | wikidata | Katyavala Bwila University |
-| 4 | `ulan.ed.ao` | wikidata | Universidade Lueji A'Nkonde |
-| 4 | `umn.ed.ao` | wikidata | Mandume ya Ndemufayo University |
-| 4 | `unikivi.ao` | wikidata | Universidade Kimpa Vita |
-| 4 | `uniluanda.ao` | wikidata | University of Luanda |
-| 4 | `uninbe.ao` | wikidata | University of Namibe |
-| 4 | `uninjingambande.ed.ao` | wikidata | Rainha Njinga a Mbandi University |
-| 4 | `uon.ed.ao` | wikidata | 11 de Novembro University |
-

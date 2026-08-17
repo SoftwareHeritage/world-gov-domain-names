@@ -40,13 +40,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ip-rs.si` | linkgraph | Linked from 3 public-sector domains |
 | 3 | `dominikanci.hr` | wikidata | Croatian Dominican Province |
 
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `um.si` | wikidata | University of Maribor |
-| 4 | `uni-lj.si` | wikidata | University of Ljubljana |
-| 4 | `upr.si` | wikidata | University of Primorska |
-

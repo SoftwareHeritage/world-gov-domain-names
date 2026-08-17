@@ -58,15 +58,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `mup.vladars.net` | wikidata;wikidata | Ministry of Interior of Republika Srpska | Police of Republika Srpska |
 | 6 | `narodnaskupstinars.net` | wikidata;wikidata | National Assembly of Republic of Srpska |
 | 6 | `vladars.net` | wikidata;wikidata | Ministry of Science and Technology | Q108052814 |
-| 4 | `ffuis.edu.ba` | wikidata | Faculty of Philosophy, University of East Sarajevo |
-| 4 | `unsa.ba` | wikidata | University of Sarajevo |
-| 3 | `fpn.unibl.org` | wikidata | Faculty of Political Science |
-| 3 | `unibl.org` | wikidata | University of Banja Luka |
 

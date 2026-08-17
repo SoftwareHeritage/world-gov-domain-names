@@ -56,12 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `meteo.uz` | wikidata | Centre of Hydrometeorological Service |
 | 4 | `mininnovation.uz` | wikidata | Ministry of Innovative Development of the Republic of Uzbekistan |
 
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `nuu.uz` | wikidata | National University of Uzbekistan named after Mirzo Ulugbek |
-| 4 | `uzgeouniver.uz` | wikidata | University of Geological Sciences |
-

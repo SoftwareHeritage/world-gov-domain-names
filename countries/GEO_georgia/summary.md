@@ -58,15 +58,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `sca.ge` | wikidata;wikidata | Supreme Council of the Autonomous Republic of Adjara |
-| 7 | `tafu.edu.ge` | wikidata;wikidata | Shota Rustaveli Theatre and Film University |
-| 4 | `art.edu.ge` | wikidata | Tbilisi State Academy of Arts |
-| 4 | `ngu.edu.ge` | wikidata | New Georgian University |
-| 4 | `tsu.ge` | wikidata | Tbilisi State University |
 | 6 | `parliamentrso.org` | wikidata;wikidata | Parliament of South Ossetia |
 | 3 | `nb-ra.org` | wikidata | National Bank of the Republic of Abkhazia |
 

@@ -56,12 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `montevideo.diplo.de` | wikidata | Embassy of Germany, Montevideo |
 | 3 | `montevideo.mae.ro` | wikidata | embassy of Romania in Uruguay |
 
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `universidad.edu.uy` | wikidata | University of the Republic |
-| 4 | `utec.edu.uy` | wikidata | Universidad Tecnológica |
-

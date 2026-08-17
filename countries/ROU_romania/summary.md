@@ -58,18 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-10 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `b.politiaromana.ro` | wikidata | Direcția Generală de Poliție a Municipiului București |
-| 4 | `ase.ro` | wikidata | Bucharest University of Economic Studies |
-| 4 | `ulbsibiu.ro` | wikidata | Lucian Blaga University of Sibiu |
-| 4 | `unatc.ro` | wikidata | I. L. Caragiale National University of Theatre and Film |
-| 4 | `unibuc.ro` | wikidata | University of Bucharest |
-| 4 | `unitbv.ro` | wikidata | Transilvania University of Brașov |
-| 4 | `usamvcluj.ro` | wikidata | University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca |
-| 4 | `uvt.ro` | wikidata | West University of Timișoara |
-| 4 | `valahia.ro` | wikidata | Valahia University of Târgoviște |
 | 4 | `anaf.ro` | wikidata | National Agency of Fiscal Administration |
 

@@ -56,14 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `inaf.co.cu` | wikidata | Instituto de Investigaciones Agro-Forestales |
 | 4 | `inca.edu.cu` | wikidata | National Institute of Agricultural Sciences |
 
-## Local / regional candidates
-
-4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `cujae.edu.cu` | wikidata | Polytechnic José Antonio Echeverría |
-| 4 | `instituciones.sld.cu` | wikidata | Universidad de Ciencias Médicas de la Habana |
-| 4 | `uh.cu` | wikidata | University of Havana |
-| 4 | `uo.edu.cu` | wikidata | University of Santiago de Cuba |
-

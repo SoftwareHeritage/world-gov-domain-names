@@ -58,18 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-74 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `pnj.ac.id` | wikidata;wikidata | Jakarta State Polytechnic |
-| 7 | `polije.ac.id` | wikidata;wikidata | Politeknik Negeri Jember |
-| 7 | `polimedia.ac.id` | wikidata;wikidata | State Polytechnic of Creative Media |
-| 7 | `polinema.ac.id` | wikidata;wikidata | State Polytechnic of Malang |
-| 7 | `politanipyk.ac.id` | wikidata;wikidata | Politeknik Pertanian Negeri Payakumbuh |
-| 7 | `poliupg.ac.id` | wikidata;wikidata | Ujung Pandang State Polytechnics |
-| 7 | `polman-bandung.ac.id` | wikidata;wikidata;wikidata | Politeknik Manufaktur Bandung |
-| 7 | `polnam.ac.id` | wikidata;wikidata | Ambon State Polytechnic |
-| 7 | `polnes.ac.id` | wikidata;wikidata | Samarinda State Polytechnic |
-| 7 | `radenintan.ac.id` | wikidata;wikidata | Universitas Islam Negeri Raden Intan Lampung |
+| 4 | `asean.usmission.gov` | wikidata | United States Mission to ASEAN |
+| 4 | `danantaraindonesia.co.id` | wikidata | Daya Anagata Nusantara Investment Management Agency |
 

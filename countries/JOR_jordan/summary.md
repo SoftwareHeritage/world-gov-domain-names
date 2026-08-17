@@ -56,14 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Jordan |
 | 3 | `mfa.gr` | wikidata | embassy of Greece in Jordan |
 
-## Local / regional candidates
-
-4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `ju.edu.jo` | wikidata | University of Jordan |
-| 4 | `just.edu.jo` | wikidata | Jordan University of Science and Technology |
-| 4 | `yu.edu.jo` | wikidata | Yarmouk University |
-| 3 | `qou.edu` | wikidata | Al-Quds Open University |
-

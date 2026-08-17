@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-2906 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+2908 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -53,12 +53,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `bafg.de` | wikidata;linkgraph | Federal Institute of Hydrology |
 | 7 | `bafin.de` | wikidata;wikidata;wikidata | Federal Financial Supervisory Authority |
 | 7 | `bafza.de` | wikidata;wikidata | Federal Office of Family Affairs and Civil Society Functions |
-| 7 | `bam.de` | wikidata;wikidata;wikidata;wikidata | Federal Institute for Materials Research and Testing | Bundesanstalt für Mate... |
+| 7 | `bam.de` | wikidata;wikidata;wikidata | Federal Institute for Materials Research and Testing |
 | 7 | `bfarm.de` | wikidata;wikidata | Q1006437 | Federal Institute for Drugs and Medical Devices |
 
 ## Local / regional candidates
 
-1477 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1012 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1213 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1012 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

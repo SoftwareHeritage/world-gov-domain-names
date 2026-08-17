@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-197 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+201 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-13 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -68,8 +68,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `region-fes-meknes.ma` | wikidata | Fez-Meknes Regional Council |
 | 4 | `regionmarrakech-safi.ma` | wikidata | Marrakesh–Safi Regional Council |
 | 4 | `soussmassa.ma` | wikidata | Souss-Massa Regional Council |
-| 7 | `uca.ma` | wikidata;wikidata | Cadi Ayyad University |
-| 7 | `uit.ac.ma` | wikidata;wikidata | Ibn Tofail University |
-| 7 | `univh2c.ma` | wikidata;wikidata | Hassan II University of Casablanca |
-| 7 | `usms.ac.ma` | wikidata;wikidata | Sultan Moulay Slimane University |
+| 4 | `ormva-ouarzazate.ma` | wikidata | Office Régional de Mise en Valeur Agricole de Ouarzazate |
 

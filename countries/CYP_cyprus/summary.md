@@ -41,11 +41,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-17 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+16 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `ucy.ac.cy` | wikidata | University of Cyprus |
 | 4 | `kouklia.org.cy` | wikidata | Communal Council of Kouklia |
 | 4 | `lemba.org.cy` | wikidata | Communal Council of Lempa |
 | 4 | `lyssos.org.cy` | wikidata | Communal Council of Lysos |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `argaka.org` | wikidata | Communal Council of Argaka |
 | 3 | `ayiamarinouda.org` | wikidata | Communal Council of Ayia Marinoudha |
 | 3 | `ayiavarvara.com` | wikidata | Communal Council of Ayia Varvara |
+| 3 | `drinia.org` | wikidata | Communal Council of Drinia |
 

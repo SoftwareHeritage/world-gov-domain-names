@@ -56,20 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `indembassy.org.pe` | wikidata | Embassy of India, Lima |
 | 4 | `lima.mfa.gov.hu` | wikidata | Embassy of Hungary, Lima |
 
-## Local / regional candidates
-
-11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `unam.edu.pe` | wikidata | National University of Moquegua |
-| 4 | `unat.edu.pe` | wikidata | Universidad Nacional Autónoma de Tayacaja Daniel Hernández Morillo |
-| 4 | `unca.edu.pe` | wikidata | Universidad Nacional Ciro Alegría |
-| 4 | `uni.edu.pe` | wikidata | National University of Engineering |
-| 4 | `unica.edu.pe` | wikidata | San Luis Gonzaga National University |
-| 4 | `uniq.edu.pe` | wikidata | Universidad Nacional Intercultural de Quillabamba |
-| 4 | `unjbg.edu.pe` | wikidata | Jorge Basadre Grohmann National University |
-| 4 | `unmsm.edu.pe` | wikidata | National University of San Marcos |
-| 4 | `unsa.edu.pe` | wikidata | National University of St Augustin of Arequipa |
-| 4 | `unsaac.edu.pe` | wikidata | National University of San Antonio Abad in Cusco |
-

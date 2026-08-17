@@ -56,14 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `inrb.net` | wikidata | National Institute of Biomedical Research |
 | 3 | `kinshasa.diplo.de` | wikidata | Embassy of Germany, Kinshasa |
 
-## Local / regional candidates
-
-4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `unikin.ac.cd` | wikidata | University of Kinshasa |
-| 4 | `unikis.ac.cd` | wikidata | University of Kisangani |
-| 4 | `uom.cd` | wikidata | Université Officielle de Mbujimayi |
-| 3 | `univofbukavu.org` | wikidata | Université Officielle de Bukavu |
-

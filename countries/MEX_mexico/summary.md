@@ -58,18 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-26 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `cdhcm.org.mx` | wikidata | Comisión de Derechos Humanos de la Ciudad de México |
 | 4 | `ieechihuahua.org.mx` | wikidata | Q110720948 |
-| 7 | `uas.edu.mx` | wikidata;wikidata | Autonomous University of Sinaloa |
-| 7 | `udg.mx` | wikidata;wikidata | University of Guadalajara |
-| 7 | `unam.mx` | wikidata;wikidata | National Autonomous University of Mexico |
-| 7 | `unpa.edu.mx` | wikidata;wikidata | Universidad del Papaloapan |
-| 4 | `benm.mx` | wikidata | Benemérita Escuela Nacional de Maestros |
-| 4 | `iedep.edu.mx` | wikidata | Digital Education Institute of Puebla |
-| 4 | `inaoep.mx` | wikidata | National Institute of Astrophysics, Optics and Electronics |
-| 4 | `uach.mx` | wikidata | Autonomous University of Chihuahua |
 

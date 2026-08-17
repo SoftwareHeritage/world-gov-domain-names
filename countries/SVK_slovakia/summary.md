@@ -58,18 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-14 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `euba.sk` | wikidata;wikidata | University of Economics in Bratislava |
-| 7 | `truni.sk` | wikidata;wikidata | Trnava University in Trnava |
-| 4 | `stuba.sk` | wikidata | Slovak University of Technology in Bratislava |
-| 4 | `tuke.sk` | wikidata | Technical University of Košice |
-| 4 | `ujs.sk` | wikidata | Selye János University |
-| 4 | `ukf.sk` | wikidata | University of Constantine the Philosopher |
-| 4 | `umb.sk` | wikidata | Matej Bel University |
-| 4 | `uniag.sk` | wikidata | Slovak University of Agriculture |
-| 4 | `uniba.sk` | wikidata | Comenius University |
-| 4 | `unipo.sk` | wikidata | University of Prešov |
+| 4 | `ruzomberok.sk` | wikidata | Municipal Police of Ružomberok |
+| 3 | `ela.europa.eu` | wikidata | European Labour Authority |
 

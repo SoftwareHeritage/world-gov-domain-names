@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-273 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 179 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+269 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 179 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

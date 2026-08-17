@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-13 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -67,9 +67,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `liepaja.lv` | wikidata | Liepaja City Council |
 | 4 | `rpp.riga.lv` | wikidata | Riga Municipal Police |
 | 4 | `tukums.lv` | wikidata | Tukums Municipality council |
-| 4 | `lu.lv` | wikidata | University of Latvia |
-| 4 | `rtu.lv` | wikidata | Riga Technical University |
 | 4 | `akniste.lv` | wikidata | Q90306458 |
 | 4 | `baltinava.lv` | wikidata | Q90307897 |
 | 4 | `bauska.lv` | wikidata | Q90308446 |
+| 4 | `beverinasnovads.lv` | wikidata | Q90308913 |
+| 4 | `ciblasnovads.lv` | wikidata | Q90309939 |
 

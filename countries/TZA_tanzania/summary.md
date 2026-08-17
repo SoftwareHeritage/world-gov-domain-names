@@ -58,14 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `nm-aist.ac.tz` | wikidata | Nelson Mandela African Institution of Science and Technology |
-| 4 | `out.ac.tz` | wikidata | The Open University of Tanzania |
-| 4 | `suza.ac.tz` | wikidata | State University of Zanzibar |
-| 4 | `udom.ac.tz` | wikidata | University of Dodoma |
-| 4 | `udsm.ac.tz` | wikidata | University of Dar es Salaam |
 | 3 | `eala.org` | wikidata | East African Legislative Assembly |
 

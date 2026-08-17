@@ -56,12 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `fscjamaica.org` | wikidata | Financial Services Commission |
 | 3 | `generallegalcouncil.org` | wikidata | General Legal Council of Jamaica |
 
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `utech.edu.jm` | wikidata | University of Technology |
-| 3 | `uwi.edu` | wikidata | University of the West Indies |
-

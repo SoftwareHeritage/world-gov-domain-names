@@ -48,18 +48,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-10 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `facebook.com` | wikidata;wikidata | departmental board of Misiones |
-| 4 | `una.py` | wikidata | Universidad Nacional de Asunción |
-| 4 | `unamis.edu.py` | wikidata | Q131857856 |
-| 4 | `unc.edu.py` | wikidata | Universidad Nacional de Concepción |
-| 4 | `unca.edu.py` | wikidata | Universidad Nacional De Caaguazú |
-| 4 | `une.edu.py` | wikidata | Universidad Nacional del Este |
-| 4 | `uni.edu.py` | wikidata | Universidad Nacional de Itapúa |
-| 4 | `unican.edu.py` | wikidata | Universidad Nacional de Canindeyú |
-| 4 | `unp.edu.py` | wikidata | Universidad Nacional de Pilar |
-| 4 | `unves.edu.py` | wikidata | Q65246420 |
 

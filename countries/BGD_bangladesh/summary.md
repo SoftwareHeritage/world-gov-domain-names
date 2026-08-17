@@ -56,20 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `cagbd.org` | wikidata | Office of the Comptroller and Auditor General, Bangladesh |
 | 3 | `dhaka.diplo.de` | wikidata | Embassy of Germany, Bangladesh |
 
-## Local / regional candidates
-
-51 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `aaub.edu.bd` | wikidata | Aviation and Aerospace University, Bangladesh |
-| 4 | `bau.edu.bd` | wikidata | Bangladesh Agricultural University |
-| 4 | `bmu.ac.bd` | wikidata | Bangladesh Medical University |
-| 4 | `bou.edu.bd` | wikidata | Bangladesh Open University |
-| 4 | `brur.ac.bd` | wikidata | Begum Rokeya University, Rangpur |
-| 4 | `bsfmstu.ac.bd` | wikidata | Jamalpur Science and Technology University |
-| 4 | `bsmrmu.edu.bd` | wikidata | Bangladesh Maritime University |
-| 4 | `bsmrstup.ac.bd` | wikidata | Pirojpur Science and Technology University |
-| 4 | `bsmru.ac.bd` | wikidata | Kishoreganj University |
-| 4 | `bu.ac.bd` | wikidata | University of Barishal |
-

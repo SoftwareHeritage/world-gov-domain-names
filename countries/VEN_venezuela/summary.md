@@ -56,20 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `emb-abjasia.com` | wikidata | Embassy of Abkhazia, Caracas |
 | 3 | `nigerianembassycaracas.org` | wikidata | embassy of Nigeria in Venezuela |
 
-## Local / regional candidates
-
-15 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `col.luz.edu.ve` | wikidata | Universidad del Zulia Núcleo Costa Oriental del Lago |
-| 4 | `luz.edu.ve` | wikidata | University of Zulia |
-| 4 | `uc.edu.ve` | wikidata | University of Carabobo bachiller |
-| 4 | `ucla.edu.ve` | wikidata | Universidad Centroccidental Lisandro Alvarado |
-| 4 | `ucv.ve` | wikidata | Central University of Venezuela |
-| 4 | `ula.ve` | wikidata | University of the Andes |
-| 4 | `ulac.edu.ve` | wikidata | Q136745144 |
-| 4 | `una.edu.ve` | wikidata | Universidad Nacional Abierta (Venezuela) |
-| 4 | `unefm.edu.ve` | wikidata | Universidad Francisco de Miranda |
-| 4 | `unellez.edu.ve` | wikidata | Universidad Nacional Experimental de los Llanos Occidentales Ezequiel Zamora |
-

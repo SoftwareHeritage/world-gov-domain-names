@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-230 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+235 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-64 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+45 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

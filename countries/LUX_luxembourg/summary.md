@@ -58,11 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-12 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+11 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `uni.lu` | wikidata | University of Luxembourg |
 | 6 | `curia.europa.eu` | wikidata;wikidata;wikidata | General Court | European Court of Justice | Court of Justice of the European ... |
 | 6 | `ec.europa.eu` | wikidata;wikidata;wikidata | Eurostat |
 | 4 | `kayl.lu` | wikidata | Kayl communal council |
@@ -72,4 +71,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `cdt.europa.eu` | wikidata | Translation Centre for the Bodies of the European Union |
 | 3 | `courbeneluxhof.be` | wikidata | Benelux Court of Justice |
 | 3 | `eca.europa.eu` | wikidata | European Court of Auditors |
+| 3 | `euratom-supply.ec.europa.eu` | wikidata | Euratom Supply Agency |
 

@@ -58,18 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-12 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 3 | `ainteractivo.net` | wikidata | Q120061989 |
-| 7 | `endeporte.edu.co` | wikidata;wikidata | Institución Universitaria Escuela Nacional del Deporte |
-| 7 | `unal.edu.co` | wikidata;wikidata | National University of Colombia |
-| 4 | `esap.edu.co` | wikidata | High School of Public Administration of Colombia. (ESAP) |
-| 4 | `fasab.udistrital.edu.co` | wikidata | Superior Academy of Arts of Bogotá |
-| 4 | `uaiinpebi-cric.edu.co` | wikidata | Universidad Autónoma Indígena Intercultural |
-| 4 | `udea.edu.co` | wikidata | University of Antioquia |
-| 4 | `uniatlantico.edu.co` | wikidata | University of Atlántico |
-| 4 | `unicauca.edu.co` | wikidata | University of Cauca |
-| 4 | `univalle.edu.co` | wikidata | University of Valle |
+| 6 | `concejodecartagena.com` | wikidata;wikidata | district council of Cartagena de Indias |
 

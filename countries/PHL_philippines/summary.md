@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-211 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+177 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -68,8 +68,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `depedroxi.ph` | wikidata | Department of Education Regional Office XI |
 | 3 | `depedro9.info` | wikidata | Department of Education Regional Office IX |
 | 3 | `depedroxii.org` | wikidata | Department of Education Regional Office XII |
-| 4 | `antiquespride.edu.ph` | wikidata | University of Antique |
-| 4 | `basc.edu.ph` | wikidata | Bulacan State Agricultural University |
-| 4 | `bassc.edu.ph` | wikidata | Basilan State University |
-| 4 | `batstate-u.edu.ph` | wikidata | Batangas State University |
+| 7 | `citycouncilofmanila.com.ph` | wikidata;wikidata | Manila City Council |
+| 7 | `nuevaecija.ph` | wikidata;wikidata | Provincial Government of Nueva Ecija |
+| 6 | `sites.google.com` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Schools Division Office of Passi City | Schools Division Office of Romblon | ... |
+| 4 | `bulacandeped.com.ph` | wikidata | Schools Division Office of Bulacan |
 

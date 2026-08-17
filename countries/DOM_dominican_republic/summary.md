@@ -47,11 +47,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `nederlandwereldwijd.nl` | wikidata | Embassy of the Netherlands, Santo Domingo |
 | 3 | `santo-domingo.diplo.de` | wikidata | Embassy of Germany, Santo Domingo |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `uasd.edu.do` | wikidata | Autonomous University of Santo Domingo |
-

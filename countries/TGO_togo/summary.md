@@ -56,13 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `tg.ambafrance.org` | wikidata | Embassy of France, Lomé |
 | 3 | `unesco.tg.refer.org` | wikidata | Togolese National Commissions for UNESCO |
 
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `paul.univ-lome.tg` | wikidata | University of Lomé |
-| 4 | `univ-kara.tg` | wikidata | University of Kara |
-| 4 | `univ-lome.tg` | wikidata | University of Lomé |
-

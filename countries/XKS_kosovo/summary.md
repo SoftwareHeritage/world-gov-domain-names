@@ -44,13 +44,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `supreme.gjyqesori-rks.org` | wikidata | Supreme court of Kosovo |
 | 4 | `kia.gov` | wikidata | Kosovo Intelligence Agency |
 
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `unhz.eu` | wikidata | University “Haxhi Zeka” |
-| 3 | `uni-pr.edu` | wikidata | University of Pristina |
-| 3 | `ushaf.net` | wikidata | University of Applied Sciences in Ferizaj |
-

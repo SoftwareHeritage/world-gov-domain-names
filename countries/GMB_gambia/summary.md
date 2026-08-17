@@ -30,12 +30,13 @@
 
 ## Candidate domains ranked by score
 
-33 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+34 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `assembly.gm` | wikidata;wikidata | National Assembly of The Gambia |
+| 7 | `utg.edu.gm` | wikidata;wikidata | University of the Gambia |
 | 4 | `cbg.gm` | wikidata | Central Bank of The Gambia |
 | 4 | `gambiaports.gm` | wikidata | Gambia Ports Authority |
 | 4 | `gamcel.gm` | wikidata | Gambia Telecommunications Cellular Company |
@@ -54,13 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nao.gm` | wikidata | National Audit Office |
 | 4 | `naqaa.gm` | wikidata | National Accreditation and Quality Assurance Authority |
 | 4 | `nawec.gm` | wikidata | NAWEC |
-| 4 | `ncac.gm` | wikidata | National Council for Arts and Culture |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `utg.edu.gm` | wikidata;wikidata;wikidata;wikidata | University of the Gambia |
 

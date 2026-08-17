@@ -56,12 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Al Riyadh |
 | 4 | `ssf.sa` | wikidata | Saudi Shooting Federation |
 
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `kfu.edu.sa` | wikidata;wikidata | King Faisal University |
-| 4 | `rua.edu.sa` | wikidata | Riyadh University of Arts |
-

@@ -58,15 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `auckland.ac.nz` | wikidata;wikidata | University of Auckland |
-| 7 | `lincoln.ac.nz` | wikidata;wikidata | Lincoln University |
-| 7 | `otago.ac.nz` | wikidata;wikidata | University of Otago |
-| 4 | `victoria.ac.nz` | wikidata | Victoria University of Wellington |
-| 4 | `waikato.ac.nz` | wikidata | University of Waikato |
-| 4 | `wgtn.ac.nz` | wikidata | Victoria University of Wellington |
 | 4 | `rotorualakescouncil.nz` | wikidata | Rotorua Lakes Council |
 

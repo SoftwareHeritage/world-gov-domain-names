@@ -56,11 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `bceao.int` | wikidata | Central Bank of West African States |
 | 3 | `ceici.org` | wikidata | Q283004 |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `univ-na.edu.ci` | wikidata | University of Abobo-Adjamé |
-

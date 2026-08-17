@@ -43,11 +43,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `necliberia.org` | wikidata | National Elections Commission of Liberia |
 | 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Monrovia |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `ul.edu.lr` | wikidata | University of Liberia |
-

@@ -58,14 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `unitir.edu.al` | wikidata;wikidata | University of Tirana |
-| 4 | `unishk.edu.al` | wikidata | University of Shkodra |
-| 4 | `unkorce.edu.al` | wikidata | Fan S. Noli University |
-| 4 | `uogj.edu.al` | wikidata | Eqrem Çabej University of Gjirokastër |
 | 4 | `imt.tirana.al` | wikidata | Territorial Protection Inspectorate of Tirana Municipality |
 | 4 | `policiabashkiake.al` | wikidata | Tirana Municipal Police |
 | 4 | `tirana.al` | wikidata | City Council of Tirana |

@@ -40,11 +40,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Papua New Guinea |
 | 3 | `pg.ambafrance.org` | wikidata | Embassy of France, Port Moresby |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `upng.ac.pg` | wikidata | University of Papua New Guinea |
-

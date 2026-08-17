@@ -58,15 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-9 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `auth.gr` | wikidata | Aristotle University of Thessaloniki |
-| 4 | `duth.gr` | wikidata | Democritus University of Thrace |
-| 4 | `ionio.gr` | wikidata | Ionian University |
-| 4 | `uoi.gr` | wikidata | University of Ioannina |
-| 4 | `uom.gr` | wikidata | University of Macedonia |
 | 7 | `radio899.gr` | wikidata;wikidata | Xanthi Municipal Radio |
 | 4 | `opanda.gr` | wikidata | Athens Municipality Agency for Culture, Athletics and Youth |
 | 3 | `cedefop.europa.eu` | wikidata | European Centre for the Development of Professional Training |

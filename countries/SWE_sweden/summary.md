@@ -47,14 +47,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `forte.se` | wikidata;wikidata | Swedish Research Council for Health Working Life and Welfare |
 | 7 | `irf.se` | wikidata;wikidata | Swedish Institute of Space Physics |
 | 7 | `isof.se` | wikidata;wikidata | Swedish Language Council | Swedish Institute for Language and Folklore |
-| 7 | `kau.se` | wikidata;wikidata | Karlstad University |
 | 7 | `kb.se` | wikidata;linkgraph | National Library of Sweden |
 | 7 | `kth.se` | wikidata;wikidata | Royal Institute of Technology |
-| 7 | `lnu.se` | wikidata;wikidata | Linnaeus University |
-| 7 | `lu.se` | wikidata;wikidata | Lund University |
 | 7 | `mcf.se` | wikidata;wikidata | Swedish Civil Defence and Resilience Agency |
 | 7 | `palestineembassy.se` | wikidata;wikidata | Embassy of Palestine, Stockholm |
 | 7 | `polar.se` | wikidata;wikidata | Swedish Polar Research Secretariat |
+| 7 | `sakerhetspolisen.se` | wikidata;wikidata | Swedish Security Service |
+| 7 | `sgu.se` | wikidata;wikidata | Geological Survey of Sweden |
+| 7 | `sida.se` | wikidata;wikidata | Swedish International Development Cooperation Agency |
 
 ## Local / regional candidates
 

@@ -51,7 +51,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-33 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -61,8 +61,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ngdo.gov.taipei` | wikidata;wikidata | Nangang District Office, Taipei City |
 | 7 | `whdo.gov.taipei` | wikidata;wikidata | Wanhua District Office, Taipei City |
 | 4 | `ca.gov.taipei` | wikidata | Department of Civil Affairs, Taipei City Government |
-| 7 | `ccu.edu.tw` | wikidata;wikidata | National Chung Cheng University |
-| 7 | `nccu.edu.tw` | wikidata;wikidata | National Chengchi University |
-| 7 | `ndu.edu.tw` | wikidata;wikidata | National Defense University |
-| 7 | `ntu.edu.tw` | wikidata;wikidata | National Taiwan University |
+| 7 | `wsdo.gov.taipei` | wikidata;wikidata | Wenshan District Office |
 

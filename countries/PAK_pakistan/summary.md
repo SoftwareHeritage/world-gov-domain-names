@@ -58,18 +58,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-82 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+6 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `iub.edu.pk` | wikidata;wikidata | Islamia University of Bahawalpur |
-| 7 | `uog.edu.pk` | wikidata;wikidata | University of Gujrat |
-| 4 | `aiou.edu.pk` | wikidata | Allama Iqbal Open University |
-| 4 | `ajku.edu.pk` | wikidata | University of Azad Jammu and Kashmir |
-| 4 | `au.edu.pk` | wikidata | Air University |
-| 4 | `aup.edu.pk` | wikidata | University of Agriculture, Peshawar |
-| 4 | `aust.edu.pk` | wikidata | Abbottabad University of Science and Technology |
-| 4 | `awkum.edu.pk` | wikidata | Abdul Wali Khan University Mardan |
-| 4 | `bbsul.edu.pk` | wikidata | Benazir Bhutto Shaheed University |
-| 4 | `bkuc.edu.pk` | wikidata | Bacha Khan University |
+| 7 | `gujranwala.gop.pk` | wikidata;wikidata | Municipal Corporation Gujranwala |
+| 7 | `kmc.gos.pk` | wikidata;wikidata | Karachi Metropolitan Corporation |
+| 7 | `lahore.gop.pk` | wikidata;wikidata | Metropolitan Corporation Lahore |
+| 7 | `mcbahawalpur.gop.pk` | wikidata;wikidata | Municipal Corporation of Bahawalpur |
+| 6 | `mcrawalpindi.org` | wikidata;wikidata | Rawalpindi Municipal Corporation |
+| 4 | `mcgojra.lgpunjab.org.pk` | wikidata | Municipal Council Gojra |
 

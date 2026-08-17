@@ -58,18 +58,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-12 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `bv.gov.hu` | wikidata;wikidata | Jász-Nagykun-Szolnok County Remand Prison | Hungarian Prison Service |
 | 4 | `bacskiskun.hu` | wikidata | Bács-Kiskun County Assembly |
 | 4 | `szszbvmo.hu` | wikidata | Szabolcs-Szatmár-Bereg County Assembly |
-| 4 | `bme.hu` | wikidata | Budapest University of Technology and Economics |
-| 4 | `elte.hu` | wikidata | Eötvös Loránd University |
-| 4 | `u-szeged.hu` | wikidata | University of Szeged |
-| 4 | `zeneakademia.hu` | wikidata | Franz Liszt Academy of Music |
-| 3 | `uni-bme.ir` | wikidata | Budapest University of Technology and Economics |
 | 8 | `kk.gov.hu` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Kecskeméti Tankerületi Központ | Békéscsaba school district | Pápai Tankerüle... |
 | 4 | `darinno.hu` | wikidata | South Great Plain Regional Innovation Agency |
+| 3 | `cepol.europa.eu` | wikidata | European Union Agency for Law Enforcement Training |
+| 3 | `eit.europa.eu` | wikidata | European Institute of Innovation and Technology |
 

@@ -58,12 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-5 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `tlu.ee` | wikidata;wikidata;wikidata | Tallinn University |
-| 4 | `ut.ee` | wikidata | University of Tartu |
 | 7 | `tallinn.ee` | wikidata;wikidata | Tallinn City Government |
 | 4 | `tallinn.munitsipaalpolitsei.ee` | wikidata | Tallinn Municipal Police Department |
 | 3 | `eulisa.europa.eu` | wikidata | European Union Agency for the Operational Management of Large-Scale IT System... |

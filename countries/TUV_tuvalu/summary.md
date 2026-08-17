@@ -41,11 +41,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `stampsoftuvalu.com` | wikidata | Tuvalu Philatelic Bureau |
 | 3 | `taiwanembassy.org` | wikidata | Embassy of the Republic of China (Taiwan), Funafuti |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `usp.ac.fj` | wikidata | University of the South Pacific |
-

@@ -55,11 +55,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `rahimotransport.com` | wikidata | Rahimo transport |
 | 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Ouagadougou |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `uts.bf` | wikidata | Université Ouaga II |
-

@@ -55,12 +55,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `who.int` | wikidata | World Health Organization - Zambia |
 | 3 | `zambia.mid.ru` | wikidata | embassy of Russia in Zambia |
 
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `unza.zm` | wikidata | University of Zambia |
-| 3 | `zambiaforestrycollege.org` | wikidata | Zambia Forestry College |
-

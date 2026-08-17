@@ -52,12 +52,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mz.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Maputo |
 | 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Maputo |
 
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `isri3.ix.co.mz` | wikidata | Joaquim Chissano University |
-| 4 | `unizambeze.ac.mz` | wikidata | Zambezi University |
-

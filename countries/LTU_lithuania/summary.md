@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-17 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 4 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+7 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 4 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -66,10 +66,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `jonava.lt` | wikidata | Jonava District Municipality Council |
 | 4 | `kauno.teismai.lt` | wikidata | Kėdainiai Region District Court |
 | 4 | `klaipeda.lt` | wikidata | Klaipeda City Municipality Council |
-| 7 | `lsmu.lt` | wikidata;wikidata | Lithuanian University of Health Sciences |
-| 4 | `ku.lt` | wikidata | Klaipėda University |
-| 4 | `lka.lt` | wikidata | General Jonas Žemaitis Military Academy of Lithuania |
-| 4 | `lmta.lt` | wikidata | Lithuanian Academy of Music and Theatre |
-| 4 | `lsu.lt` | wikidata | Lithuanian Sports University |
-| 4 | `vdu.lt` | wikidata | Vytautas Magnus University |
+| 4 | `klat.teismas.lt` | wikidata | Klaipėda Regional Court |
+| 4 | `lithuanianculture.lt` | wikidata | Lithuanian Culture Institute |
+| 3 | `eige.europa.eu` | wikidata | European Institute for Gender Equality |
 

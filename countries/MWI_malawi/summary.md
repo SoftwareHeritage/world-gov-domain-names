@@ -48,11 +48,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `lilongwe.diplo.de` | wikidata | Embassy of Germany, Lilongwe |
 | 3 | `norway.no` | wikidata | Embassy of Norway in Malawi |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `mzuni.ac.mw` | wikidata | Mzuzu University |
-

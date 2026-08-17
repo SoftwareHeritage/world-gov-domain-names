@@ -58,11 +58,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `su.edu.et` | wikidata | Samara University |
 | 6 | `eeas.europa.eu` | wikidata;wikidata | Delegation of the European Union to Ethiopia | Delegation of the European Uni... |
 | 4 | `usau.usmission.gov` | wikidata | United States Mission to the African Union |
 

@@ -56,13 +56,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mfa.gr` | wikidata | embassy of Greece in North Macedonia |
 | 3 | `mk.ambafrance.org` | wikidata | Embassy of France, Skopje |
 
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `ff.ugd.edu.mk` | wikidata | Q12911322 |
-| 4 | `ukim.edu.mk` | wikidata | Ss. Cyril and Methodius University of Skopje |
-| 4 | `uklo.edu.mk` | wikidata | St. Clement of Ohrid University of Bitola |
-

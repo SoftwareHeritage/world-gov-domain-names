@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-48 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+34 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -68,8 +68,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `oblrada.kharkov.ua` | wikidata | Kharkiv Oblast Council |
 | 4 | `oblrada.kr.ua` | wikidata | Kirovohrad Oblast Council |
 | 4 | `oblrada.lg.ua` | wikidata | Luhansk Oblast Council |
-| 7 | `odma.edu.ua` | wikidata;wikidata | Odesa National Music Academy |
-| 4 | `chnu.edu.ua` | wikidata | Chernivtsi University |
-| 4 | `donntu.edu.ua` | wikidata | Donetsk National Technical University |
-| 4 | `donnu.edu.ua` | wikidata | Vasyl' Stus Donetsk National University |
+| 4 | `alexandria.kr.ua` | wikidata | Oleksandria municipality |
+| 4 | `city.kharkov.ua` | wikidata | Kharkiv City council |
+| 4 | `city.kherson.ua` | wikidata | Kherson City Council |
+| 4 | `dgcsms.dp.ua` | wikidata | State Enterprise “Dnipropetrovsk Regional State Research and Technical Center... |
 

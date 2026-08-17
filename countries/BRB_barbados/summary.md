@@ -41,11 +41,3 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Barbados, the Eastern Caribbean States, t... |
 | 1 | `barbadosparliament.com` | wikidata;wikidata;wikidata;wikidata | Parliament of Barbados | Senate of Barbados | House of Assembly of Barbados |
 
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `uwi.edu` | wikidata | University of the West Indies |
-
