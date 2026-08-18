@@ -1,14 +1,25 @@
 hostname,score,sources,label,level
-gov.scot,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | Inspectorate of Prosecution in Scotland | Marine Scotland | Scottish Agricultural Wages Board,central-1
-gov.wales,10,wikidata;wikidata;wikidata;linkgraph,Department for Education and Skills | Welsh Government,central-1
+gov.scot,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph;directory,His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | Inspectorate of Prosecution in Scotland | Marine Scotland | Scottish Agricultural Wages Board,central-1
+gov.wales,10,wikidata;wikidata;wikidata;linkgraph;directory,Department for Education and Skills | Welsh Government,central-1
 llyw.cymru,9,wikidata;wikidata;linkgraph,Welsh Government,central-1
 senedd.wales,9,wikidata;wikidata;wikidata;linkgraph,Senedd,central-1
+forestryengland.uk,8,wikidata;directory,Forestry England,central-1
+icrir.independent-inquiry.uk,8,wikidata;directory,Independent Commission for Reconciliation and Information Recovery,central-1
+lra.org.uk,8,wikidata;directory,Labour Relations Agency,central-1
+nlb.org.uk,8,wikidata;directory,Northern Lighthouse Board,central-1
 scotland.police.uk,8,wikidata;linkgraph,Police Scotland,central-1
+socialworkengland.org.uk,8,wikidata;directory,Social Work England,central-1
 btp.police.uk,7,wikidata;wikidata,British Transport Police,central-1
+nihrc.org,7,wikidata;directory,Northern Ireland Human Rights Commission,central-1
 oscr.org.uk,7,wikidata;wikidata,Scottish Charity Regulator | Office of the Scottish Charity Regulator,central-1
 parliament.scot,7,wikidata;wikidata;wikidata,Scottish Parliament,central-1
 scottish-enterprise.com,6,wikidata;wikidata,Scottish Enterprise | South of Scotland Enterprise,central-1
 senedd.cymru,6,wikidata;wikidata;wikidata,Senedd,central-1
+artscouncil.org.uk,5,directory,Arts Council England (Executive non-departmental public body) | The Reviewing Committee on the Export of Works of Art and Objects of Cultural Inter...,central-1
+ccea.org.uk,5,directory,"Northern Ireland Council for the Curriculum, Examinations and Assessment (Executive non-departmental public body)",central-1
+historicengland.org.uk,5,directory,Historic England (Executive non-departmental public body),central-1
+nipolicingboard.org.uk,5,directory,Northern Ireland Policing Board (Executive non-departmental public body),central-1
+sentencingcouncil.org.uk,5,directory,Sentencing Council for England and Wales (Advisory non-departmental public body),central-1
 ads.org.uk,4,wikidata,Architecture and Design Scotland,central-1
 cypcs.org.uk,4,wikidata,Children and Young People's  Commissioner Scotland,central-1
 disclosure.gov.scot,4,wikidata,Disclosure Scotland,central-1
@@ -18,22 +29,20 @@ estyn.gov.wales,4,wikidata,Estyn,central-1
 foodstandards.gov.scot,4,wikidata,Food Standards Scotland,central-1
 forestry.gov.scot,4,wikidata,Scottish Forestry,central-1
 forestryandland.gov.scot,4,wikidata,Forestry and Land Scotland,central-1
-forestryengland.uk,4,wikidata,Forestry England,central-1
 gtce.org.uk,4,wikidata,General Teaching Council for England,central-1
 gtcs.org.uk,4,wikidata,General Teaching Council for Scotland,central-1
 hial.co.uk,4,wikidata,Highlands and Islands Airports,central-1
 hie.co.uk,4,wikidata,Highlands and Islands Enterprise,central-1
 housingregulator.gov.scot,4,wikidata,Scottish Housing Regulator,central-1
 hpa.org.uk,4,wikidata,Health Protection Agency,central-1
-icrir.independent-inquiry.uk,4,wikidata,Independent Commission for Reconciliation and Information Recovery,central-1
+hscbusiness.hscni.net,4,directory,HSC Business Services Organisation (Northern Ireland) (Executive non-departmental public body),central-1
 landcommission.gov.scot,4,wikidata,Scottish Land Commission,central-1
 lands-tribunal-scotland.org.uk,4,wikidata,Lands Tribunal for Scotland,central-1
 lgbce.org.uk,4,wikidata,Local Government Boundary Commission for England,central-1
-lra.org.uk,4,wikidata,Labour Relations Agency,central-1
 mwcscot.org.uk,4,wikidata,Mental Welfare Commission for Scotland,central-1
-nlb.org.uk,4,wikidata,Northern Lighthouse Board,central-1
 nls.uk,4,wikidata,National Library of Scotland,central-1
 nms.ac.uk,4,wikidata,National Museums Scotland,central-1
+paradescommission.org,4,directory,Parades Commission for Northern Ireland (Executive non-departmental public body),central-1
 parolecomni.org.uk,4,wikidata,Parole Commissioners for Northern Ireland,central-1
 patscotland.org.uk,4,wikidata,Pensions Appeal Tribunal Scotland,central-1
 pensions.gov.scot,4,wikidata,Scottish Public Pensions Agency,central-1
@@ -47,8 +56,8 @@ sepa.org.uk,4,wikidata,Scottish Environment Protection Agency,central-1
 sfc.ac.uk,4,wikidata,Scottish Funding Council,central-1
 skillsdevelopmentscotland.co.uk,4,wikidata,Skills Development Scotland,central-1
 socialsecurity.gov.scot,4,wikidata,Social Security Scotland,central-1
-socialworkengland.org.uk,4,wikidata,Social Work England,central-1
 spa.police.uk,4,wikidata,Scottish Police Authority,central-1
+sportengland.org,4,directory,Sport England (Executive non-departmental public body),central-1
 sportscotland.org.uk,4,wikidata,Sportscotland,central-1
 spso.org.uk,4,wikidata,Scottish Public Services Ombudsman,central-1
 sqa.org.uk,4,wikidata,Scottish Qualifications Authority,central-1
@@ -86,7 +95,6 @@ nature.scot,3,wikidata,NatureScot,central-1
 nhs.wales,3,wikidata,NHS Wales,central-1
 nhs24.scot,3,wikidata,NHS 24,central-1
 nhsnss.org,3,wikidata,NHS National Services Scotland,central-1
-nihrc.org,3,wikidata,Northern Ireland Human Rights Commission,central-1
 pharmacyregulation.org,3,wikidata,General Pharmaceutical Council,central-1
 pirc.scot,3,wikidata,Police Investigations and Review Commissioner,central-1
 railholdings.scot,3,wikidata,Scottish Rail Holdings,central-1
@@ -106,16 +114,22 @@ thebank.scot,3,wikidata,Scottish National Investment Bank,central-1
 visitscotland.com,3,wikidata,VisitScotland,central-1
 wics.scot,3,wikidata,Water Industry Commission for Scotland,central-1
 gmintegratedcare.org.uk,10,wikidata;wikidata;linkgraph,Greater Manchester Health and Social Care Partnership | NHS Greater Manchester Integrated Care Board,local
+imb.org.uk,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;directory,HMP Lowdham Grange Independent Monitoring Board | HMP Moorland Closed Independent Monitoring Board | HMP Eastwood Park Independent Monitoring Board | HMP Hull Independent Monitoring Board | HMP Dovegate Independent Monitoring Board | HMP Whitemoor Independent Monitoring Board | HMP Standford Hill Independent Monitoring Board | HMP Coldingley Independent Monitoring Board | HMP Dorchester Independent Monitoring Board | HMP Bullwood Hall Independent Monitoring Board | HMP Holloway Independent Monitoring Board | HMP Rye Hill Independent Monitoring Board | HMP High Down Independent Monitoring Board | HMP Cookham Wood Independent Monitoring Board | HMP Sudbury Independent Monitoring Board | HMP Everthorpe Independent Monitoring Board | HMP New Hall Independent Monitoring Board | HMP Norwich Independent Monitoring Board | HMP Altcourse Independent Monitoring Board | HMP Wandsworth Independent Monitoring Board | HMP Hollesley Bay Independent Monitoring Board | Young Offenders' Institution Feltham Independent Monitoring Board | HMP Lewes Independent Monitoring Board | HMP Camp Hill Independent Monitoring Board | HMP Swaleside Independent Monitoring Board | HMP East Sutton Park Independent Monitoring Board | HMP Reading Independent Monitoring Board | HMP Erlestoke Independent Monitoring Board | HMP Acklington Independent Monitoring Board | HMP Parkhurst Independent Monitoring Board | HMP Styal Independent Monitoring Board | HMP Albany Independent Monitoring Board | HMP Kennet Independent Monitoring Board | HMP Gartree Independent Monitoring Board | HMP Grendon Independent Monitoring Board | HMP Canterbury Independent Monitoring Board | HMP Manchester Independent Monitoring Board | HMP Castington Independent Monitoring Board | HMP Nottingham Independent Monitoring Board | HMP Gloucester Independent Monitoring Board | HMP Prescoed Independent Monitoring Board | HMP Rochester Independent Monitoring Board | HMP Buckley Hall Independent Monitoring Board | HMP Birmingham Independent Monitoring Board | HMP Parc Independent Monitoring Board | HMP Bronzefield Independent Monitoring Board | HMP Brixton Independent Monitoring Board | HMP Wymott Independent Monitoring Board | HMP Liverpool Independent Monitoring Board | HMP Usk Independent Monitoring Board | HMP Pentonville Independent Monitoring Board | HMP Belmarsh Independent Monitoring Board | HMP Winchester Independent Monitoring Board | HMP Askham Grange Independent Monitoring Board | HMP Peterborough Independent Monitoring Board | HMP Doncaster Independent Monitoring Board | HMP Lancaster farms Independent Monitoring Board | HMP Risley Independent Monitoring Board | HMP the Verne Independent Monitoring Board | HMP Brinsford Independent Monitoring Board | HMP Shepton Mallet Independent Monitoring Board | HMP Whatton Independent Monitoring Board | HMP Guys Marsh Independent Monitoring Board | HMP Bedford Independent Monitoring Board | HMP Chelmsford Independent Monitoring Board | HMP Preston Independent Monitoring Board | HMP Bristol Independent Monitoring Board | HMP Blantyre House Independent Monitoring Board | HMP Elmley Independent Monitoring Board | HMP Full Sutton Independent Monitoring Board | HMP Hewell Independent Monitoring Board | HMP Ranby Independent Monitoring Board | HMP Featherstone Independent Monitoring Board | HMP Stocken Independent Monitoring Board | HMP Morton Hall Independent Monitoring Board | HMP Moorland Open Independent Monitoring Board | HMP Cardiff Independent Monitoring Board | HMP Shrewsbury Independent Monitoring Board | HMP Ashwell Independent Monitoring Board | HMP Holme House Independent Monitoring Board | HMP Wellingborough Independent Monitoring Board | HMP Stafford Independent Monitoring Board | HMP Leyhill Independent Monitoring Board | HMP Foston Hall Independent Monitoring Board | HMP Wormwood Scrubs Independent Monitoring Board | HMP Exeter Independent Monitoring Board | HMP North Sea Camp Independent Monitoring Board | HMP Wolds Independent Monitoring Board | HMP Frankland Independent Monitoring Board | HMP Drake Hall Independent Monitoring Board | HMP Edmunds Hill Independent Monitoring Board | HMP Kingston Independent Monitoring Board | HMP the Mount Independent Monitoring Board | HMP Bullingdon Independent Monitoring Board | HMP Wealstun Independent Monitoring Board | HMP Woodhill Independent Monitoring Board | HMP Leicester Independent Monitoring Board | HMP Swansea Independent Monitoring Board | HMP Littlehey Independent Monitoring Board | HMP Highpoint Independent Monitoring Board | HMP Lancaster Castle Independent Monitoring Board | HMP Durham Independent Monitoring Board | HMP Maidstone Independent Monitoring Board | HMP Spring Hill Independent Monitoring Board | HMP Ashfield Independent Monitoring Board | HMP Wakefield Independent Monitoring Board | HMP Blundeston Independent Monitoring Board | HMP Forest Bank Independent Monitoring Board | HMP Wayland Independent Monitoring Board | HMP Leeds Independent Monitoring Board | HMP Long Lartin Independent Monitoring Board | HMP Ford Independent Monitoring Board | HMP Kirkham Independent Monitoring Board | HMP Channings Wood Independent Monitoring Board | HMP Downview Independent Monitoring Board | HMP Dartmoor Independent Monitoring Board | HMP Haverigg Independent Monitoring Board | HMP Send Independent Monitoring Board | HMP Kirklevington Grange Independent Monitoring Board | HMP Lincoln Independent Monitoring Board | HMP Latchmere House Independent Monitoring Board | HMP Garth Independent Monitoring Board,local
+nice.org.uk,10,linkgraph;directory,National Institute for Health and Care Excellence (Executive non-departmental public body),local
+nationalhighways.co.uk,8,linkgraph;directory,National Highways (Executive non-departmental public body),local
+northumberlandnationalpark.org.uk,8,wikidata;directory,Northumberland National Park Authority,local
+northyorkmoors.org.uk,8,wikidata;directory,North York Moors National Park Authority,local
+yorkshiredales.org.uk,8,wikidata;directory,Yorkshire Dales National Park Authority,local
 alderney.gov.gg,7,wikidata;wikidata,States of Alderney,local
 ammanfordtc.co.uk,7,wikidata;wikidata,Ammanford Town Council,local
 atprestatyn.co.uk,7,wikidata;wikidata,Prestatyn Town Council,local
 avonandsomerset.police.uk,7,wikidata;linkgraph,Avon and Somerset Police,local
 caerphillytowncouncil.co.uk,7,wikidata;wikidata,Caerphilly Town Council,local
 cityoflondon.police.uk,7,wikidata;wikidata,City of London Police | National Fraud Intelligence Bureau,local
+equalityhumanrights.com,7,wikidata;directory,Equality and Human Rights Commission,local
 falklands.gov.fk,7,wikidata;wikidata;wikidata,"Government of the Falkland Islands | Representative of the Falkland Islands, London",local
 gov.im,7,wikidata;wikidata;wikidata,Isle of Man Fire and Rescue Service | Department for Enterprise | Department of Infrastructure,local
 gov.ky,7,wikidata;wikidata,Parliament of the Cayman Islands,local
-imb.org.uk,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,HMP Lowdham Grange Independent Monitoring Board | HMP Moorland Closed Independent Monitoring Board | HMP Eastwood Park Independent Monitoring Board | HMP Hull Independent Monitoring Board | HMP Dovegate Independent Monitoring Board | HMP Whitemoor Independent Monitoring Board | HMP Standford Hill Independent Monitoring Board | HMP Coldingley Independent Monitoring Board | HMP Dorchester Independent Monitoring Board | HMP Bullwood Hall Independent Monitoring Board | HMP Holloway Independent Monitoring Board | HMP Rye Hill Independent Monitoring Board | HMP High Down Independent Monitoring Board | HMP Cookham Wood Independent Monitoring Board | HMP Sudbury Independent Monitoring Board | HMP Everthorpe Independent Monitoring Board | HMP New Hall Independent Monitoring Board | HMP Norwich Independent Monitoring Board | HMP Altcourse Independent Monitoring Board | HMP Wandsworth Independent Monitoring Board | HMP Hollesley Bay Independent Monitoring Board | Young Offenders' Institution Feltham Independent Monitoring Board | HMP Lewes Independent Monitoring Board | HMP Camp Hill Independent Monitoring Board | HMP Swaleside Independent Monitoring Board | HMP East Sutton Park Independent Monitoring Board | HMP Reading Independent Monitoring Board | HMP Erlestoke Independent Monitoring Board | HMP Acklington Independent Monitoring Board | HMP Parkhurst Independent Monitoring Board | HMP Styal Independent Monitoring Board | HMP Albany Independent Monitoring Board | HMP Kennet Independent Monitoring Board | HMP Gartree Independent Monitoring Board | HMP Grendon Independent Monitoring Board | HMP Canterbury Independent Monitoring Board | HMP Manchester Independent Monitoring Board | HMP Castington Independent Monitoring Board | HMP Nottingham Independent Monitoring Board | HMP Gloucester Independent Monitoring Board | HMP Prescoed Independent Monitoring Board | HMP Rochester Independent Monitoring Board | HMP Buckley Hall Independent Monitoring Board | HMP Birmingham Independent Monitoring Board | HMP Parc Independent Monitoring Board | HMP Bronzefield Independent Monitoring Board | HMP Brixton Independent Monitoring Board | HMP Wymott Independent Monitoring Board | HMP Liverpool Independent Monitoring Board | HMP Usk Independent Monitoring Board | HMP Pentonville Independent Monitoring Board | HMP Belmarsh Independent Monitoring Board | HMP Winchester Independent Monitoring Board | HMP Askham Grange Independent Monitoring Board | HMP Peterborough Independent Monitoring Board | HMP Doncaster Independent Monitoring Board | HMP Lancaster farms Independent Monitoring Board | HMP Risley Independent Monitoring Board | HMP the Verne Independent Monitoring Board | HMP Brinsford Independent Monitoring Board | HMP Shepton Mallet Independent Monitoring Board | HMP Whatton Independent Monitoring Board | HMP Guys Marsh Independent Monitoring Board | HMP Bedford Independent Monitoring Board | HMP Chelmsford Independent Monitoring Board | HMP Preston Independent Monitoring Board | HMP Bristol Independent Monitoring Board | HMP Blantyre House Independent Monitoring Board | HMP Elmley Independent Monitoring Board | HMP Full Sutton Independent Monitoring Board | HMP Hewell Independent Monitoring Board | HMP Ranby Independent Monitoring Board | HMP Featherstone Independent Monitoring Board | HMP Stocken Independent Monitoring Board | HMP Morton Hall Independent Monitoring Board | HMP Moorland Open Independent Monitoring Board | HMP Cardiff Independent Monitoring Board | HMP Shrewsbury Independent Monitoring Board | HMP Ashwell Independent Monitoring Board | HMP Holme House Independent Monitoring Board | HMP Wellingborough Independent Monitoring Board | HMP Stafford Independent Monitoring Board | HMP Leyhill Independent Monitoring Board | HMP Foston Hall Independent Monitoring Board | HMP Wormwood Scrubs Independent Monitoring Board | HMP Exeter Independent Monitoring Board | HMP North Sea Camp Independent Monitoring Board | HMP Wolds Independent Monitoring Board | HMP Frankland Independent Monitoring Board | HMP Drake Hall Independent Monitoring Board | HMP Edmunds Hill Independent Monitoring Board | HMP Kingston Independent Monitoring Board | HMP the Mount Independent Monitoring Board | HMP Bullingdon Independent Monitoring Board | HMP Wealstun Independent Monitoring Board | HMP Woodhill Independent Monitoring Board | HMP Leicester Independent Monitoring Board | HMP Swansea Independent Monitoring Board | HMP Littlehey Independent Monitoring Board | HMP Highpoint Independent Monitoring Board | HMP Lancaster Castle Independent Monitoring Board | HMP Durham Independent Monitoring Board | HMP Maidstone Independent Monitoring Board | HMP Spring Hill Independent Monitoring Board | HMP Ashfield Independent Monitoring Board | HMP Wakefield Independent Monitoring Board | HMP Blundeston Independent Monitoring Board | HMP Forest Bank Independent Monitoring Board | HMP Wayland Independent Monitoring Board | HMP Leeds Independent Monitoring Board | HMP Long Lartin Independent Monitoring Board | HMP Ford Independent Monitoring Board | HMP Kirkham Independent Monitoring Board | HMP Channings Wood Independent Monitoring Board | HMP Downview Independent Monitoring Board | HMP Dartmoor Independent Monitoring Board | HMP Haverigg Independent Monitoring Board | HMP Send Independent Monitoring Board | HMP Kirklevington Grange Independent Monitoring Board | HMP Lincoln Independent Monitoring Board | HMP Latchmere House Independent Monitoring Board | HMP Garth Independent Monitoring Board,local
 joinedupcarederbyshire.co.uk,7,wikidata;linkgraph,NHS Derby and Derbyshire Integrated Care Board,local
 laugharnecorporation.co.uk,7,wikidata;wikidata,Laugharne Corporation,local
 menaibridgetowncouncil.co.uk,7,wikidata;wikidata,Menai Bridge Town Council,local
@@ -131,6 +145,49 @@ stclearstowncouncil.co.uk,7,wikidata;wikidata,St Clears Town Council,local
 whitlandtowncouncil.co.uk,7,wikidata;wikidata,Whitland Town Council,local
 cyngortrefcaernarfon.llyw.cymru,6,wikidata;wikidata,Caernarfon Royal Town Council,local
 llangefni.org,6,wikidata;wikidata,Llangefni Town Council,local
+acas.org.uk,5,directory,"Advisory, Conciliation and Arbitration Service (Executive non-departmental public body)",local
+bfi.org.uk,5,directory,British Film Institute (Executive non-departmental public body),local
+ccw.org.uk,5,directory,Consumer Council for Water (Executive non-departmental public body),local
+citb.co.uk,5,directory,Construction Industry Training Board (Executive non-departmental public body),local
+covenantfund.org.uk,5,directory,Armed Forces Covenant Fund Trust (Executive non-departmental public body),local
+eastwestrail.co.uk,5,directory,East West Railway Company Limited (Executive non-departmental public body),local
+ebbsfleetdc.org.uk,5,directory,Ebbsfleet Development Corporation (Executive non-departmental public body),local
+ecitb.org.uk,5,directory,Engineering Construction Industry Training Board (Executive non-departmental public body),local
+finds.org.uk,5,directory,Treasure Valuation Committee (Advisory non-departmental public body),local
+footballregulator.org.uk,5,directory,Independent Football Regulator (Executive non-departmental public body),local
+gbcc.org.uk,5,directory,Great Britain-China Centre (Executive non-departmental public body),local
+greatercambridge-dc.org.uk,5,directory,Greater Cambridge Development Corporation (Executive non-departmental public body),local
+group.sciencemuseum.org.uk,5,directory,Science Museum Group (Executive non-departmental public body),local
+horniman.ac.uk,5,directory,Horniman Public Museum and Public Park Trust (Executive non-departmental public body),local
+housing-ombudsman.org.uk,5,directory,Housing Ombudsman (Executive non-departmental public body),local
+hssib.org.uk,5,directory,Health Services Safety Investigations Body (Executive non-departmental public body),local
+ima-citizensrights.org.uk,5,directory,Independent Monitoring Authority for the Citizens’ Rights Agreements (Executive non-departmental public body),local
+iwm.org.uk,5,directory,Imperial War Museum (Executive non-departmental public body),local
+legalservicesboard.org.uk,5,directory,Legal Services Board (Executive non-departmental public body),local
+moneyandpensionsservice.org.uk,5,directory,Money and Pensions Service (Executive non-departmental public body),local
+museumofthehome.org.uk,5,directory,Museum of the Home (Executive non-departmental public body),local
+nam.ac.uk,5,directory,National Army Museum (Executive non-departmental public body),local
+nationalgallery.org.uk,5,directory,National Gallery (Executive non-departmental public body),local
+networkrail.co.uk,5,directory,Network Rail (Executive non-departmental public body),local
+nhm.ac.uk,5,directory,Natural History Museum (Executive non-departmental public body),local
+nhmf.org.uk,5,directory,National Heritage Memorial Fund (Executive non-departmental public body),local
+nmrn.org.uk,5,directory,Royal Marines Museum (Sub organisation) | Royal Navy Museums (Executive non-departmental public body),local
+npg.org.uk,5,directory,National Portrait Gallery (Executive non-departmental public body),local
+obr.uk,5,directory,Office for Budget Responsibility (Executive non-departmental public body),local
+rafmuseum.org.uk,5,directory,Royal Air Force Museum (Executive non-departmental public body),local
+rmg.co.uk,5,directory,Royal Museums Greenwich (Executive non-departmental public body),local
+safetyatsportsgrounds.org.uk,5,directory,Sports Grounds Safety Authority (Executive non-departmental public body),local
+salixfinance.co.uk,5,directory,Salix Finance Ltd (Executive non-departmental public body),local
+socialmobility.independent-commission.uk,5,directory,Social Mobility Commission (Advisory non-departmental public body),local
+tate.org.uk,5,directory,Tate (Executive non-departmental public body),local
+theatrestrust.org.uk,5,directory,The Theatres Trust (Advisory non-departmental public body),local
+theccc.org.uk,5,directory,Committee on Climate Change (Executive non-departmental public body),local
+theipsa.org.uk,5,directory,Independent Parliamentary Standards Authority (Executive non-departmental public body),local
+theoep.org.uk,5,directory,Office for Environmental Protection (Executive non-departmental public body),local
+tnlcommunityfund.org.uk,5,directory,The National Lottery Community Fund (Executive non-departmental public body),local
+transportfocus.org.uk,5,directory,Transport Focus (Executive non-departmental public body),local
+ukad.org.uk,5,directory,UK Anti-Doping (Executive non-departmental public body),local
+vam.ac.uk,5,directory,Victoria and Albert Museum (Executive non-departmental public body),local
 abergele-towncouncil.co.uk,4,wikidata,Abergele Town Council,local
 abergelepensarn.co.uk,4,wikidata,Abergele Town Council,local
 authority.eryri.gov.wales,4,wikidata,Eryri National Park Authority,local
@@ -144,6 +201,8 @@ bnssg.icb.nhs.uk,4,wikidata,"NHS Bristol, North Somerset and South Gloucestershi
 bodelwyddan.org.uk,4,wikidata,Bodelwyddan Town Council,local
 brecontowncouncil.org.uk,4,wikidata,Brecon Town Council,local
 bristolport.co.uk,4,wikidata,Port of Bristol Police,local
+britishcouncil.org,4,directory,British Council (Executive non-departmental public body),local
+britishmuseum.org,4,directory,British Museum (Executive non-departmental public body),local
 brynmawrtc.co.uk,4,wikidata,Brynmawr Town Council,local
 buckleytc.org.uk,4,wikidata,Buckley Town Council,local
 bucksoxonberksw.icb.nhs.uk,4,wikidata,"NHS Buckinghamshire, Oxfordshire and Berkshire West Integrated Care Board",local
@@ -173,13 +232,16 @@ healthwatchpeterborough.co.uk,4,wikidata,Healthwatch Peterborough,local
 hha.co.uk,4,wikidata,Harwich Haven Authority,local
 icnorthamptonshire.org.uk,4,wikidata,NHS Northamptonshire Integrated Care Board,local
 jcpc.uk,4,wikidata,Judicial Committee of the Privy Council,local
+kew.org,4,directory,Board of Trustees of the Royal Botanic Gardens Kew (Executive non-departmental public body),local
 land-data.org.uk,4,wikidata,Land Data,local
+lease-advice.org,4,directory,Leasehold Advisory Service (Executive non-departmental public body),local
 leevalleypark.org.uk,4,wikidata,Lee Valley Regional Park Authority,local
 ll.dlpa.bru.nihr.ac.uk,4,wikidata,"NIHR Leicester-Loughborough Diet, Lifestyle and Physical Activity Biomedical Research Unit",local
 llandrindod.co.uk,4,wikidata,Llandrindod Wells Town Council,local
 llanfairfechantowncouncil.co.uk,4,wikidata,Llanfairfechan Town Council,local
 llanidloestowncouncil.co.uk,4,wikidata,Llanidloes Town Council,local
 mablethorpeandsutton.org.uk,4,wikidata,Mablethorpe and Sutton Town Council,local
+marshallscholarship.org,4,directory,Marshall Aid Commemoration Commission (Executive non-departmental public body),local
 maryportharbour.co.uk,4,wikidata,Maryport Harbour Authority,local
 merseyside.police.uk,4,wikidata,Merseyside Police,local
 mhpa.co.uk,4,wikidata,Milford Haven Port Authority,local
@@ -196,8 +258,6 @@ newtown.org.uk,4,wikidata,Newtown and Llanllwchaiarn Town Council,local
 neyland.org.uk,4,wikidata,Neyland Town Council,local
 nhssomerset.nhs.uk,4,wikidata,NHS Somerset Integrated Care Board,local
 normantontowncouncil.co.uk,4,wikidata,Normanton Town Council,local
-northumberlandnationalpark.org.uk,4,wikidata,Northumberland National Park Authority,local
-northyorkmoors.org.uk,4,wikidata,North York Moors National Park Authority,local
 northyorkshire.police.uk,4,wikidata,North Yorkshire Police,local
 nortononderwent.co.uk,4,wikidata,Norton-on-Derwent Town Council,local
 notts.icb.nhs.uk,4,wikidata,NHS Nottingham and Nottinghamshire Integrated Care Board,local
@@ -205,26 +265,31 @@ nwtc.org.uk,4,wikidata,North Walsham Town Council,local
 pembrokedocktc.org.uk,4,wikidata,Pembroke Dock Town Council,local
 pembrokeshirecoast.org.uk,4,wikidata,Pembrokeshire Coast National Park Authority,local
 pembroketownguide.org.uk,4,wikidata,Pembroke Town Council,local
+pharmacopoeia.com,4,directory,British Pharmacopoeia Commission (Advisory non-departmental public body),local
 plymouthport.org.uk,4,wikidata,Cattewater Harbour Commissioners,local
 porthcawltowncouncil.co.uk,4,wikidata,Porthcawl Town Council,local
 portskillsandsafety.co.uk,4,wikidata,Cromarty Firth Port Authority,local
 powys.moderngov.co.uk,4,wikidata,Machynlleth Town Council,local
 presteigne.org.uk,4,wikidata,Presteigne and Norton Town Council,local
 riscatowncouncil.org.uk,4,wikidata,Risca Town Council,local
+royalarmouries.org,4,directory,Royal Armouries Museum (Executive non-departmental public body),local
 shotton-tc.co.uk,4,wikidata,Shotton Town Council,local
+soane.org,4,directory,Sir John Soane's Museum (Executive non-departmental public body),local
 surrey.police.uk,4,wikidata,Surrey Police,local
 tenbytowncouncil.co.uk,4,wikidata,Tenby Town Council,local
+thenational.academy,4,directory,Oak National Academy (Executive non-departmental public body),local
 tkbtc.co.uk,4,wikidata,Towyn and Kinmel Bay Town Council,local
 tredegartowncouncil.co.uk,4,wikidata,Tredegar Town Council,local
+wallacecollection.org,4,directory,Wallace Collection (Executive non-departmental public body),local
 warkworthharbour.co.uk,4,wikidata,Warkworth Harbour Commissioners,local
 warwickshire.police.uk,4,wikidata,Warwickshire Police,local
 westmercia.police.uk,4,wikidata,West Mercia Police,local
 westmidlands.police.uk,4,wikidata,West Midlands Police,local
 westyorkshire.icb.nhs.uk,4,wikidata,NHS West Yorkshire Integrated Care Board,local
+wfd.org,4,directory,Westminster Foundation for Democracy (Executive non-departmental public body),local
 whitehavenhc.org.uk,4,wikidata,Whitehaven Harbour Commissioners,local
 wiltshire.police.uk,4,wikidata,Wiltshire Police,local
 yealmharbourauthority.co.uk,4,wikidata,River Yealm Harbour Authority,local
-yorkshiredales.org.uk,4,wikidata,Yorkshire Dales National Park Authority,local
 aberffraw.cymru,3,wikidata,Aberffraw Community Council,local
 aberffraw.wordpress.com,3,wikidata,Aberffraw Community Council,local
 bannau.wales,3,wikidata,Bannau Brycheiniog National Park Authority,local
@@ -234,7 +299,6 @@ comisiynyddygymraeg.cymru,3,wikidata,Welsh Language Commissioner,local
 cyngorllanrwst.cymru,3,wikidata,Llanrwst Town Council,local
 derrystrabane.com,3,wikidata,Derry City and Strabane District Council,local
 discovercarmarthenshire.com,3,wikidata,Tourism & Marketing Division of Carmarthenshire County Council,local
-equalityhumanrights.com,3,wikidata,Equality and Human Rights Commission,local
 gmbusinessboard.com,3,wikidata,Greater Manchester Business Board (LEP),local
 gra.gi,3,wikidata,Gibraltar Regulatory Authority,local
 holyheadtowncouncil.com,3,wikidata,Holyhead Town Council,local

@@ -30,46 +30,46 @@
 
 ## Candidate domains ranked by score
 
-889 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+955 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `cqc.org.uk` | wikidata;linkgraph | Care Quality Commission |
-| 10 | `england.nhs.uk` | wikidata;linkgraph | NHS England |
-| 10 | `ico.org.uk` | wikidata;linkgraph | Information Commissioner's Office |
-| 10 | `ordnancesurvey.co.uk` | wikidata;wikidata;linkgraph | British Ordnance Survey |
+| 10 | `bankofengland.co.uk` | wikidata;wikidata;directory | Prudential Regulation Authority | Bank of England |
+| 10 | `bbc.co.uk` | linkgraph;directory | BBC (Public corporation) | BBC World Service (Other) |
+| 10 | `cqc.org.uk` | wikidata;linkgraph;directory | Care Quality Commission |
+| 10 | `electoralcommission.org.uk` | wikidata;linkgraph;directory | Electoral Commission |
+| 10 | `england.nhs.uk` | wikidata;linkgraph;directory | NHS England |
+| 10 | `hra.nhs.uk` | wikidata;linkgraph;directory | Gene Therapy Advisory Committee |
+| 10 | `ico.org.uk` | wikidata;linkgraph;directory | Information Commissioner's Office |
+| 10 | `nhsbsa.nhs.uk` | linkgraph;directory | NHS Business Services Authority (Special health authority) |
+| 10 | `nsandi.com` | wikidata;wikidata;directory | National Savings and Investments |
+| 10 | `ofcom.org.uk` | wikidata;linkgraph;directory | Ofcom |
+| 10 | `ombudsman.org.uk` | wikidata;linkgraph;directory | Parliamentary and Health Service Ombudsman |
+| 10 | `ordnancesurvey.co.uk` | wikidata;wikidata;linkgraph;directory | British Ordnance Survey |
+| 10 | `parliament.uk` | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | House of Commons | Parliament of the United Kingdom | House of Lords |
 | 10 | `rbht.nhs.uk` | wikidata;wikidata;linkgraph | NIHR Royal Brompton Cardiovascular Biomedical Research Unit | NIHR Royal Brom... |
 | 9 | `hee.nhs.uk` | wikidata;linkgraph | Health Education England |
 | 9 | `nhs.uk` | wikidata;linkgraph | National Health Service |
+| 9 | `postoffice.co.uk` | linkgraph;directory | Post Office (Public corporation) |
 | 8 | `admin.ox.ac.uk` | wikidata;wikidata | University Chest |
-| 8 | `hampshire.police.uk` | wikidata;linkgraph | Hampshire and Isle of Wight Constabulary |
-| 8 | `healthwatch.co.uk` | wikidata;linkgraph | HealthWatch England |
-| 8 | `healthwatchnorfolk.co.uk` | wikidata;linkgraph | Healthwatch Norfolk |
-| 8 | `healthwatchstaffordshire.co.uk` | wikidata;linkgraph | Healthwatch Staffordshire |
-| 8 | `leics.police.uk` | wikidata;linkgraph | Leicestershire Police |
-| 8 | `ombudsman.org.uk` | wikidata;linkgraph | Parliamentary and Health Service Ombudsman |
-| 8 | `parliament.uk` | wikidata;wikidata;wikidata;wikidata;linkgraph | House of Commons | Parliament of the United Kingdom | House of Lords |
-| 8 | `scot.nhs.uk` | wikidata;linkgraph | NHS Scotland |
-| 8 | `shropshiretelfordandwrekin.nhs.uk` | wikidata;linkgraph | NHS Shropshire, Telford and Wrekin Integrated Care Board |
-| 7 | `111.nhs.uk` | linkgraph | Linked from 402 public-sector domains |
-| 7 | `999bsl.co.uk` | linkgraph | Linked from 20 public-sector domains |
-| 7 | `abilitynet.org.uk` | linkgraph | Linked from 25 public-sector domains |
+| 8 | `ahdb.org.uk` | wikidata;directory | Agriculture and Horticulture Development Board |
+| 8 | `arb.org.uk` | wikidata;directory | Architects Registration Board |
 
 ## Local / regional candidates
 
-252 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 106 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+316 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 114 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `gov.scot` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | ... |
-| 10 | `gov.wales` | wikidata;wikidata;wikidata;linkgraph | Department for Education and Skills | Welsh Government |
+| 10 | `gov.scot` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph;directory | His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | ... |
+| 10 | `gov.wales` | wikidata;wikidata;wikidata;linkgraph;directory | Department for Education and Skills | Welsh Government |
 | 9 | `llyw.cymru` | wikidata;wikidata;linkgraph | Welsh Government |
 | 9 | `senedd.wales` | wikidata;wikidata;wikidata;linkgraph | Senedd |
+| 8 | `forestryengland.uk` | wikidata;directory | Forestry England |
+| 8 | `icrir.independent-inquiry.uk` | wikidata;directory | Independent Commission for Reconciliation and Information Recovery |
+| 8 | `lra.org.uk` | wikidata;directory | Labour Relations Agency |
+| 8 | `nlb.org.uk` | wikidata;directory | Northern Lighthouse Board |
 | 8 | `scotland.police.uk` | wikidata;linkgraph | Police Scotland |
-| 7 | `btp.police.uk` | wikidata;wikidata | British Transport Police |
-| 7 | `oscr.org.uk` | wikidata;wikidata | Scottish Charity Regulator | Office of the Scottish Charity Regulator |
-| 7 | `parliament.scot` | wikidata;wikidata;wikidata | Scottish Parliament |
-| 6 | `scottish-enterprise.com` | wikidata;wikidata | Scottish Enterprise | South of Scotland Enterprise |
-| 6 | `senedd.cymru` | wikidata;wikidata;wikidata | Senedd |
+| 8 | `socialworkengland.org.uk` | wikidata;directory | Social Work England |
 

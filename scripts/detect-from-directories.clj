@@ -177,6 +177,27 @@
     :website-col "website"
     :source      "open.canada.ca"}
 
+   "GBR_united_kingdom"
+   ;; gov.uk organisations register: the domains under gov.uk are
+   ;; already covered by the CDDO registry; the value is the ~300
+   ;; 'exempt' arm's-length bodies running their own website off
+   ;; gov.uk (ukri.org, aria.org.uk, acas.org.uk...). Their nature
+   ;; varies (NDPBs, levy boards, NI bodies) -> candidates.
+   {:channel     :candidates
+    :format      :govuk
+    :list-url    "https://www.gov.uk/api/organisations?page="
+    :content-url "https://www.gov.uk/api/content/government/organisations/"
+    :source      "gov.uk/api/organisations"}
+
+   ;; No spec for ESP_spain (investigated 2026-08-18): DIR3 is an
+   ;; e-invoicing unit-code registry without website fields, and both
+   ;; administracionelectronica.gob.es and its file downloads sit behind
+   ;; a WAF that rejects automated requests ("Request Rejected", 244-byte
+   ;; bodies behind HTTP 200). The need is low anyway: the gob.es root
+   ;; covers the ministries, and the wikidata+linkgraph channels already
+   ;; surface the bare-.es agencies (csic.es, aemet.es, boe.es at score
+   ;; 10). The PAG directory (administracion.gob.es) is HTML-only.
+
    "NLD_netherlands"
    ;; Register van Overheidsorganisaties: full XML dump with clean
    ;; organisation types. The central types below (~325 bodies) leave
@@ -284,6 +305,46 @@
                [(str org-name) web])))))
       (finally (fs/delete-if-exists tmp)))))
 
+(defn- directory-fetch-govuk
+  "[[name website] ...] for the gov.uk organisations register. Two-stage
+  and gov.uk-specific: the paginated listing carries every organisation
+  but only gov.uk paths as web_url; the organisations whose govuk_status
+  is 'exempt' (arm's-length bodies running their own website) expose
+  that external URL in the per-organisation Content API, one call each.
+  Live/joining organisations sit under www.gov.uk and are already
+  covered by the CDDO registry; closed ones are skipped."
+  [{:keys [list-url content-url]}]
+  (let [exempt
+        (loop [page 1 acc []]
+          (let [body (http-get (str list-url page) {:accept "application/json"})
+                d (when body (json/parse-string body true))
+                results (:results d)]
+            (if (empty? results)
+              acc
+              (let [acc (into acc
+                              (for [o results
+                                    :when (= "exempt"
+                                             (get-in o [:details :govuk_status]))]
+                                [(str (:title o)
+                                      (when (seq (str (:format o)))
+                                        (str " (" (:format o) ")")))
+                                 (get-in o [:details :slug])]))]
+                (if (>= page (or (:pages d) page))
+                  acc
+                  (recur (inc page) acc))))))]
+    (err (str "  " (count exempt) " exempt organisations; fetching their"
+              " external URLs (one call each)"))
+    (doall
+     (for [[title slug] exempt
+           :let [body (http-get (str content-url slug)
+                                {:accept "application/json"})
+                 url (when body
+                       (get-in (json/parse-string body true)
+                               [:details :organisation_govuk_status :url]))
+                 _ (Thread/sleep 200)]
+           :when (seq (str url))]
+       [title url]))))
+
 (defn- directory-hosts
   "{host {:n mentions :names #{...}}} from the spec's [name website] rows;
   hosts filtered by :host-filter, organisations dropped by :exclude-name
@@ -314,7 +375,8 @@
     (let [rows (case format
                  :csv        (directory-fetch-csv spec)
                  :json-pages (directory-fetch-json-pages spec)
-                 :xml        (directory-fetch-xml spec))]
+                 :xml        (directory-fetch-xml spec)
+                 :govuk      (directory-fetch-govuk spec))]
       (if (nil? rows)
         (err "ERR: could not fetch the " country " directory (" source ")")
         (let [hosts (directory-hosts spec rows)]
