@@ -30,35 +30,35 @@
 
 ## Candidate domains ranked by score
 
-2908 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3320 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `bundespolizei.de` | wikidata;wikidata;wikidata;wikidata;linkgraph | Bundespolizeidirektion | Direktion Bundesbereitschaftspolizei | Federal Polic... |
-| 10 | `bzst.de` | wikidata;wikidata;linkgraph | Federal Central Tax Office |
-| 10 | `umweltbundesamt.de` | wikidata;wikidata;linkgraph | Federal Environment Agency |
-| 9 | `bundesgerichtshof.de` | wikidata;wikidata;wikidata;wikidata;wikidata | Q85848834 | Federal Court of Justice of Germany |
-| 8 | `bamf.de` | wikidata;linkgraph | Bundesamt für Migration und Flüchtlinge |
-| 8 | `bioeg.de` | wikidata;linkgraph | Federal Institute of Public Health |
-| 8 | `bka.de` | wikidata;linkgraph | Federal Criminal Police Office |
-| 8 | `bmel.de` | wikidata;linkgraph | Q119440152 |
-| 8 | `bmfsfj.de` | wikidata;linkgraph | Q124708848 |
-| 8 | `bpb.de` | wikidata;linkgraph | Federal Agency for Civic Education |
-| 8 | `destatis.de` | wikidata;linkgraph | Federal Statistical Office of Germany |
-| 8 | `dwd.de` | wikidata;linkgraph | Deutscher Wetterdienst |
-| 8 | `polizei.de` | wikidata;linkgraph | Landespolizei |
-| 7 | `ahk.de` | wikidata;wikidata | German Chambers of Commerce Abroad |
-| 7 | `antidiskriminierungsstelle.de` | wikidata;wikidata | German Federal Anti-Discrimination Agency |
-| 7 | `bafg.de` | wikidata;linkgraph | Federal Institute of Hydrology |
-| 7 | `bafin.de` | wikidata;wikidata;wikidata | Federal Financial Supervisory Authority |
-| 7 | `bafza.de` | wikidata;wikidata | Federal Office of Family Affairs and Civil Society Functions |
-| 7 | `bam.de` | wikidata;wikidata;wikidata | Federal Institute for Materials Research and Testing |
-| 7 | `bfarm.de` | wikidata;wikidata | Q1006437 | Federal Institute for Drugs and Medical Devices |
+| 10 | `antidiskriminierungsstelle.de` | wikidata;wikidata;directory | German Federal Anti-Discrimination Agency |
+| 10 | `arbeitsagentur.de` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Bundesagentur für Arbeit | Arbeitsamt Reutlingen | Q111049587 | Agentur für A... |
+| 10 | `bafg.de` | wikidata;linkgraph;directory | Federal Institute of Hydrology |
+| 10 | `bafin.de` | wikidata;wikidata;wikidata;directory | Federal Financial Supervisory Authority |
+| 10 | `bafza.de` | wikidata;wikidata;directory | Federal Office of Family Affairs and Civil Society Functions |
+| 10 | `bam.de` | wikidata;wikidata;wikidata;directory | Federal Institute for Materials Research and Testing |
+| 10 | `bamf.de` | wikidata;linkgraph;directory | Bundesamt für Migration und Flüchtlinge |
+| 10 | `bfarm.de` | wikidata;wikidata;directory | Q1006437 | Federal Institute for Drugs and Medical Devices |
+| 10 | `bfn.de` | wikidata;linkgraph;directory | Federal Agency for Nature Conservation |
+| 10 | `bioeg.de` | wikidata;linkgraph;directory | Federal Institute of Public Health |
+| 10 | `bka.de` | wikidata;linkgraph;directory | Federal Criminal Police Office |
+| 10 | `bmfsfj.de` | wikidata;linkgraph;directory | Q124708848 |
+| 10 | `bpb.de` | wikidata;linkgraph;directory | Federal Agency for Civic Education |
+| 10 | `bsh.de` | wikidata;linkgraph;directory | Federal Maritime and Hydrographic Agency of Germany |
+| 10 | `bundesarchiv.de` | wikidata;wikidata;directory | German Federal Archives |
+| 10 | `bundesfinanzhof.de` | wikidata;linkgraph;directory | Federal Fiscal Court |
+| 10 | `bundesgerichtshof.de` | wikidata;wikidata;wikidata;wikidata;wikidata;directory | Q85848834 | Federal Court of Justice of Germany |
+| 10 | `bundesjustizamt.de` | wikidata;linkgraph;directory | Federal Office of Justice |
+| 10 | `bundesnetzagentur.de` | wikidata;linkgraph;directory | Federal Network Agency |
+| 10 | `bundespolizei.de` | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Bundespolizeidirektion | Direktion Bundesbereitschaftspolizei | Federal Polic... |
 
 ## Local / regional candidates
 
-1213 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1012 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1221 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1015 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

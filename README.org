@@ -125,6 +125,14 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   official websites.
 - *IANA, UN/DESA, CIA World Factbook, OECD* -- other official sources
   used to cross-check candidates.
+- *Official directories of public bodies* (=bb pipeline directory=,
+  declarative specs in =directory-specs=) -- the per-country
+  directories listed in [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]]. When the directory's
+  central scoping is authoritative (Norway's Enhetsregisteret,
+  sector 6100) its domains enter the registry channel directly; when
+  levels or types are mixed (Germany's Behördenwegweiser) its hosts
+  feed =candidates.csv= with a strong score bonus and the =directory=
+  source tag, and curation decides.
 
 See [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] for a list of all data sources used in the
 final [[https://stateofpubliccode.org/][State of Public Code]].

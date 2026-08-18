@@ -29,6 +29,8 @@
 ;;   cross-check [C…]   alias of report
 ;;   build-qid          (re)build data/country_qid.csv
 ;;   validate-un        check un_status against the official UN member list
+;;   directory [C…]     official directories of public bodies (declarative
+;;                      specs) -> registry roots or directory candidates
 ;;   regex              email-domain regexes -> data/domain-regexes.csv
 ;;   indegree [C…]      link-graph in-degree (eu-plus-government-scans)
 ;;                      -> countries/<c>/sources/linkgraph/indegree.csv
@@ -1671,11 +1673,14 @@
                      linking to the host (nil when absent from the link
                      graph); being linked from many independent government
                      sites is a strong presumption of validity
+    :directory-listed? host appears in the country's official directory
+                     of public bodies (cmd-directory, :candidates
+                     channel): authoritative existence, unknown level
     :subdiv-penalty? apply the anti-subnational penalties (default true);
                      false when ranking candidates-local.csv, where burying
                      subnational entries would defeat the file's purpose"
   [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary curated?
-           indegree subdiv-penalty?]
+           indegree directory-listed? subdiv-penalty?]
     :or {subdiv-penalty? true}}]
   (let [label (or label "")
         un?           (= host un-portal-host)
@@ -1702,6 +1707,9 @@
                  (* 3 (min 2 (max 0 wd-count)))
                  (if curated?     3 0)
                  lg-points
+                 ;; an official-directory listing is authoritative on the
+                 ;; body's existence but silent on its level
+                 (if directory-listed? 4 0)
                  (if on-cctld?    1 0)
                  (if gov-host?    1 0)
                  (if fb-match?    2 0)
@@ -1739,14 +1747,15 @@
   "Assemble one candidate row [hostname score sources label level] from the
   already-loaded per-country context (pure -- see score-candidates-for!
   for the context construction)."
-  [{:keys [wd-by-host cur-by-host lg-by-host un-portal-host fb-phrases
-           cctld-primary]
+  [{:keys [wd-by-host cur-by-host lg-by-host dir-by-host un-portal-host
+           fb-phrases cctld-primary]
     :as ctx}
    h]
   (let [{:keys [cnt labels] :or {cnt 0 labels []}} (get wd-by-host h)
         un? (= h un-portal-host)
         curated? (contains? cur-by-host h)
         linked-n (get lg-by-host h)
+        dir-info (get dir-by-host h)
         cur-label (get-in cur-by-host [h :label])
         labels (cond-> labels
                  (and curated? (seq cur-label)
@@ -1755,17 +1764,21 @@
         label (cond-> (str/join " | " labels)
                 un? (str (when (seq labels) " | ")
                          "UN/DESA national portal"))
-        ;; a hint for the manual validation pass when the link graph is
-        ;; the only thing we know
-        label (if (and linked-n (str/blank? label))
-                (str "Linked from " linked-n " public-sector domains")
-                label)
+        ;; hints for the manual validation pass when the directory or the
+        ;; link graph is all we know
+        label (cond
+                (not (str/blank? label)) label
+                (seq (:evidence dir-info)) (:evidence dir-info)
+                linked-n (str "Linked from " linked-n
+                              " public-sector domains")
+                :else label)
         sources (cond-> []
                   un? (conj "un_desa"))
         sources (into sources (repeat cnt "wikidata"))
         sources (cond-> sources
                   curated? (conj "curated")
-                  linked-n (conj "linkgraph"))
+                  linked-n (conj "linkgraph")
+                  dir-info (conj "directory"))
         level (candidate-level ctx h label)
         score (score-candidate
                 {:host h :wd-count cnt :label label
@@ -1774,6 +1787,7 @@
                  :cctld-primary cctld-primary
                  :curated? curated?
                  :indegree linked-n
+                 :directory-listed? (some? dir-info)
                  ;; the anti-subnational penalties catch entities
                  ;; *pretending* central; when curation explicitly says
                  ;; central, they must not apply
@@ -1842,6 +1856,19 @@
                       (assoc m hostname n)
                       m)))
                 {} (read-csv-file lg-path))
+        dir-path       (country-src country-dir "directory" "orgs.csv")
+        ;; official-directory listing (see cmd-directory, :candidates
+        ;; channel): authoritative that the body exists and is anchored to
+        ;; the country's administration, silent on its level -- strong
+        ;; score bonus, curation decides.
+        dir-by-host
+        (reduce (fn [m {:strs [hostname mentions evidence]}]
+                  (if (host-covered? hostname lg-known)
+                    m
+                    (assoc m hostname
+                           {:n (or (parse-long (or mentions "")) 1)
+                            :evidence (or evidence "")})))
+                {} (read-csv-file dir-path))
         cur-rows       (when (fs/exists? cur-path) (rest (read-csv-raw cur-path)))
         ;; curated host -> {:label :level}
         ;; (schema: type,label,website,hostname,provenance[,level])
@@ -1855,7 +1882,8 @@
                 {} cur-rows)
         all-hosts (cond-> (-> (set (keys wd-by-host))
                               (into (keys cur-by-host))
-                              (into (keys lg-by-host)))
+                              (into (keys lg-by-host))
+                              (into (keys dir-by-host)))
                     un-portal-host (conj un-portal-host))
         known     (set (known-roots))
         ;; English labels of the country's first-level subdivisions, as a
@@ -1876,6 +1904,7 @@
         ctx {:wd-by-host wd-by-host
              :cur-by-host cur-by-host
              :lg-by-host lg-by-host
+             :dir-by-host dir-by-host
              :un-portal-host un-portal-host
              :fb-phrases fb-phrases
              :cctld-primary cctld-primary
@@ -2468,6 +2497,149 @@
                     (count all-entries) " domains)")))))
 
 ;; ===========================================================================
+;;  Utilitaire -- directory (official directories of public bodies)
+;; ===========================================================================
+
+;; Declarative per-country specs for the machine-readable government
+;; directories listed in swh-sopc-data-sources ("Government website
+;; directories"). One generic fetcher per format family; each country is
+;; a data entry, not code. :channel picks where the hosts land:
+;;   :registry   -- the directory's central-government scoping is
+;;                  authoritative (organisation-form filter, federal-only
+;;                  export): sources/registry/roots.csv, entering the
+;;                  central file directly like the CISA/Lannuaire
+;;                  registries. :host-filter guards against off-TLD
+;;                  entries (a stray sites.google.com must never become
+;;                  a confirmed root).
+;;   :candidates -- the directory mixes levels or types without a
+;;                  reliable marker: sources/directory/orgs.csv, feeding
+;;                  candidates.csv with a strong score bonus; curation
+;;                  decides.
+(def directory-specs
+  {"DEU_germany"
+   ;; Behördenwegweiser: federal bodies only, but no type column and a
+   ;; sprinkling of federally-anchored foundations and associations ->
+   ;; candidates, not registry.
+   {:channel     :candidates
+    :format      :csv
+    :url         (str "https://www.service.bund.de/SharedDocs/CSV/"
+                      "Anschriftenverzeichnis-CSV.csv?__blob=publicationFile")
+    :encoding    "ISO-8859-1"
+    :separator   \;
+    :name-col    "Organisation"
+    :website-col "Internetadresse"
+    :source      "service.bund.de"}
+
+   "NOR_norway"
+   ;; Enhetsregisteret: institutional sector code 6100 = central
+   ;; government (statsforvaltningen) -- ministries, directorates,
+   ;; courts, police districts. Authoritative central scoping ->
+   ;; registry. (organisasjonsform STAT alone only carries the ~18
+   ;; top-level organs.)
+   {:channel       :registry
+    :format        :json-pages
+    :url           (str "https://data.brreg.no/enhetsregisteret/api/enheter"
+                        "?institusjonellSektorkode=6100&size=500&page=")
+    :items-path    [:_embedded :enheter]
+    :name-field    :navn
+    :website-field :hjemmeside
+    :host-filter   #"\.no$"
+    ;; academia is out of scope (see detect-universities.clj); the \b
+    ;; keeps university hospitals (UNIVERSITETSSYKEHUS) in -- Norwegian
+    ;; hospitals are central-state bodies.
+    ;; (?iu): plain (?i) does not case-fold Ø/ø
+    :exclude-name  #"(?iu)universitetet|universitetssenter|universitet\b|høgskole|høyskole|fagskole|allaskuvla"
+    :source        "data.brreg.no"}})
+
+(defn- directory-fetch-csv
+  "[[name website] ...] from a CSV directory export. Fetched as bytes:
+  these exports are often latin-1 and the default UTF-8 decoding would
+  garble the organisation names."
+  [{:keys [url encoding separator name-col website-col]}]
+  (let [resp (try (http/get url {:client http-client
+                                 :headers {"User-Agent" ua}
+                                 :as :bytes :throw false :timeout 60000})
+                  (catch Exception _ nil))]
+    (when (and resp (= 200 (:status resp)))
+      (let [rows (csv/read-csv (String. ^bytes (:body resp)
+                                        (or encoding "UTF-8"))
+                               :separator (or separator \,))
+            idx  (zipmap (first rows) (range))
+            name-i (get idx name-col)
+            web-i  (get idx website-col)]
+        (when (and name-i web-i)
+          (for [r (rest rows)
+                :let [web (str/trim (or (nth r web-i nil) ""))]
+                :when (seq web)]
+            [(str/trim (or (nth r name-i nil) "")) web]))))))
+
+(defn- directory-fetch-json-pages
+  "[[name website] ...] from a paginated JSON API: URL ends in 'page=',
+  pages are fetched until one comes back empty."
+  [{:keys [url items-path name-field website-field]}]
+  (loop [page 0 acc []]
+    (let [body (http-get (str url page) {:accept "application/json"})
+          items (when body
+                  (get-in (json/parse-string body true) items-path))]
+      (if (empty? items)
+        (seq acc)
+        (recur (inc page)
+               (into acc (for [it items
+                               :let [web (str (get it website-field))]
+                               :when (seq web)]
+                           [(str (get it name-field)) web])))))))
+
+(defn- directory-hosts
+  "{host {:n mentions :names #{...}}} from the spec's [name website] rows;
+  hosts filtered by :host-filter, organisations dropped by :exclude-name
+  (both optional)."
+  [{:keys [host-filter exclude-name]} rows]
+  (reduce (fn [m [org-name web]]
+            (let [h (extract-host web)]
+              (if (and h
+                       (or (nil? host-filter) (re-find host-filter h))
+                       (or (nil? exclude-name)
+                           (not (re-find exclude-name (str org-name)))))
+                (-> m
+                    (update-in [h :n] (fnil inc 0))
+                    (update-in [h :names] (fnil conj (sorted-set))
+                               (single-line org-name)))
+                m)))
+          {} rows))
+
+(defn cmd-directory
+  "Harvest the official government directories of directory-specs (all of
+  them, or the given country_dirs) and write, per the spec's :channel,
+  either sources/registry/roots.csv (authoritative central scoping) or
+  sources/directory/orgs.csv (candidates channel, curation decides)."
+  [args]
+  (doseq [[country {:keys [channel format source] :as spec}]
+          (sort-by key directory-specs)
+          :when (or (empty? args) (some #{country} args))]
+    (let [rows (case format
+                 :csv        (directory-fetch-csv spec)
+                 :json-pages (directory-fetch-json-pages spec))]
+      (if (nil? rows)
+        (err "ERR: could not fetch the " country " directory (" source ")")
+        (let [hosts (directory-hosts spec rows)]
+          (case channel
+            :registry
+            (let [out (country-src country "registry" "roots.csv")]
+              (write-csv-file out ["domain" "organization" "source"]
+                              (for [[h {:keys [names]}] (sort-by key hosts)]
+                                [h (str/join " | " names) source]))
+              (println (str country ": " (count hosts) " domains -> " out
+                            " (" (count rows) " orgs listed)")))
+            :candidates
+            (let [out (country-src country "directory" "orgs.csv")]
+              (write-csv-file out ["hostname" "mentions" "evidence"]
+                              (for [[h {:keys [n names]}] (sort-by key hosts)]
+                                [h (str n)
+                                 (truncate (str/join " | " names) 150)]))
+              (println (str country ": " (count hosts) " hosts -> " out
+                            " (" (count rows) " orgs listed)")))))))))
+
+;; ===========================================================================
 ;;  Utilitaire -- indegree (link-graph centrality, eu-plus-government-scans)
 ;; ===========================================================================
 
@@ -2630,6 +2802,7 @@
    "cross-check" cmd-cross-check
    "build-qid"   cmd-build-qid
    "validate-un" cmd-validate-un
+   "directory"   cmd-directory
    "regex"       cmd-regex
    "indegree"    cmd-indegree})
 
@@ -2643,7 +2816,7 @@
   (println "  fetch | retry | normalize | probe | mx | aggregate | central")
   (println "  cisa | lannuaire | govuk")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
-  (println "  validate-un | regex | indegree")
+  (println "  validate-un | directory | regex | indegree")
   (println)
   (println "Forge/catalog detection moved to scripts/detect-forges.clj (bb forges)")
   (println)
