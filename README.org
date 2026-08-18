@@ -153,6 +153,10 @@ bb pipeline all      # full run: collect + enrich + report
 See =scripts/README.org= for the full command reference, scoring rules
 and environment variables.
 
+* AI policy
+
+See [[file:~/.swh/git/insights/operations/AI_policy.md][AI_policy.md]].
+
 * Contributing
 
 This repository uses [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]].
