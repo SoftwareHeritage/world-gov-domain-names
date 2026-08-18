@@ -15,5 +15,7 @@
               :task (apply shell "bb scripts/detect-forges.clj" *command-line-args*)}
   universities {:doc  "public-universities harvest (parked dataset) -- run 'bb universities help'"
                 :task (apply shell "bb scripts/detect-universities.clj" *command-line-args*)}
+  directories {:doc  "harvest official directories of public bodies -> registry/candidates"
+               :task (apply shell "bb scripts/detect-from-directories.clj" *command-line-args*)}
   all        {:doc  "collect + enrich + report"
               :task (apply shell "bb scripts/pipeline.clj all" *command-line-args*)}}}
