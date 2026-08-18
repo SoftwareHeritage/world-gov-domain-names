@@ -159,9 +159,28 @@
                       "d09adf99-dc10-4349-8c53-27b1e5aa97b6?format=csv")
     :name-col    "Denominazione_ente"
     :website-col "Sito_istituzionale"
-    :type-col    "Codice_Categoria"
-    :type-filter #"^(?:C1|C2|C5|C8|C10|C11|C16)$"
+    :col-filters [["Codice_Categoria" #"^(?:C1|C2|C5|C8|C10|C11|C16)$"]]
     :source      "indicepa.gov.it"}
+
+   "POL_poland"
+   ;; Katalog Podmiotów Publicznych: 87k entities of every level (mostly
+   ;; schools and municipal bodies), reduced to the ACTIVE central types
+   ;; -- ministries, central institutions, top courts, ministry units.
+   ;; Deconcentrated field services (district inspectorates, local
+   ;; prosecutors...) stay out: their HQs are in 'instytucje centralne'.
+   ;; Snapshot resource URL: update it when dane.gov.pl publishes a new
+   ;; export (dataset 3520). The file is UTF-8 with a few stray invalid
+   ;; bytes -> replaced, cosmetic only.
+   {:channel     :candidates
+    :format      :csv
+    :url         "https://api.dane.gov.pl/media/resources/20260529/export_gov.csv"
+    :separator   \;
+    :name-col    "Nazwa podmiotu"
+    :website-col "Strona www"
+    :col-filters [["Status" #"^ACTIVE$"]
+                  ["Typ podmiotu"
+                   #"^(?:ministerstwa|instytucje centralne|sądy administracyjne|sądy apelacyjne|jednostki organizacyjne (?:Ministerstwa|Kancelarii))"]]
+    :source      "dane.gov.pl (dataset 3520)"}
 
    "CAN_canada"
    ;; Inventory of Federal Organizations and Interests: federal by
@@ -220,34 +239,52 @@
                       :follow-redirects :normal
                       :connect-timeout 15000)))
 
+(defn- directory-curl-bytes
+  "Download url with curl and return its bytes, nil on failure. The
+  system CA store (unlike the JVM truststore) carries the national CA
+  chains several government hosts sit behind."
+  [url]
+  (let [tmp (fs/create-temp-file)]
+    (try
+      (let [{:keys [exit]}
+            (try (proc/sh "curl" "-sfL" "--max-time" "300" "-A" ua
+                          "-o" (str tmp) url)
+                 (catch Exception _ {:exit 1}))]
+        (when (zero? (or exit 1))
+          (fs/read-all-bytes tmp)))
+      (finally (fs/delete-if-exists tmp)))))
+
 (defn- directory-fetch-csv
   "[[name website] ...] from a CSV directory export. Fetched as bytes:
-  these exports are often latin-1 and the default UTF-8 decoding would
-  garble the organisation names. When :type-col/:type-filter are set,
-  only the rows whose type matches the filter are kept (how IndicePA's
-  23k mixed-level entities reduce to the central categories)."
-  [{:keys [url encoding separator name-col website-col type-col type-filter]}]
-  (let [resp (try (http/get url {:client directory-http-client
-                                 :headers {"User-Agent" ua}
-                                 :as :bytes :throw false :timeout 120000})
-                  (catch Exception _ nil))]
-    (when (and resp (= 200 (:status resp)))
-      (let [rows (csv/read-csv (String. ^bytes (:body resp)
-                                        (or encoding "UTF-8"))
+  these exports are often latin-1 (or UTF-8 with stray invalid bytes,
+  which String replaces rather than rejects) and the default decoding
+  would garble the organisation names. :col-filters, a vector of
+  [column-name regex] pairs, keeps only the rows matching every filter
+  (how IndicePA's 23k mixed-level entities reduce to the central
+  categories, or Poland's catalog to ACTIVE central types).
+  Downloaded with curl: several government hosts chain through national
+  CAs the JVM truststore does not carry (dane.gov.pl)."
+  [{:keys [url encoding separator name-col website-col col-filters]}]
+  (let [body (directory-curl-bytes url)]
+    (when body
+      (let [rows (csv/read-csv (String. ^bytes body (or encoding "UTF-8"))
                                :separator (or separator \,))
             ;; a UTF-8 BOM would glue itself to the first header cell
             header (update (vec (first rows)) 0 #(str/replace % "﻿" ""))
             idx  (zipmap header (range))
             name-i (get idx name-col)
             web-i  (get idx website-col)
-            type-i (when type-col (get idx type-col))]
+            filters (for [[col re] col-filters
+                          :let [i (get idx col)]
+                          :when i]
+                      [i re])]
         (when (and name-i web-i)
           (for [r (rest rows)
                 :let [web (str/trim (or (nth r web-i nil) ""))]
                 :when (and (seq web)
-                           (or (nil? type-i)
-                               (re-find type-filter
-                                        (str/trim (or (nth r type-i nil) "")))))]
+                           (every? (fn [[i re]]
+                                     (re-find re (str/trim (or (nth r i nil) ""))))
+                                   filters))]
             [(str/trim (or (nth r name-i nil) "")) web]))))))
 
 (defn- directory-fetch-json-pages

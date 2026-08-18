@@ -30,31 +30,31 @@
 
 ## Candidate domains ranked by score
 
-235 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+300 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 9 | `policja.pl` | wikidata;linkgraph | Policja |
-| 9 | `zus.pl` | wikidata;linkgraph | Zakład Ubezpieczeń Społecznych |
+| 10 | `bn.org.pl` | wikidata;wikidata;directory | National Library of Poland |
+| 10 | `nbp.pl` | wikidata;linkgraph;directory | Narodowy Bank Polski |
+| 10 | `policja.pl` | wikidata;linkgraph;directory | Policja |
+| 10 | `sn.pl` | wikidata;directory | Supreme Court of Poland |
+| 10 | `wojsko-polskie.pl` | wikidata;wikidata;directory | Military Gendarmerie | Polish General Staff |
+| 10 | `zus.pl` | wikidata;linkgraph;directory | Zakład Ubezpieczeń Społecznych |
+| 8 | `krs.pl` | wikidata;directory | National Council of the Judiciary |
+| 8 | `pfron.org.pl` | wikidata;directory | National Disabled Persons Rehabilitation Fund |
 | 8 | `zditm.szczecin.pl` | wikidata;linkgraph | ZDiTM Szczecin |
 | 7 | `ahk.pl` | wikidata;wikidata | Polish-German Chamber of Commerce and Industry |
 | 7 | `bip.radom.pl` | linkgraph | Linked from 35 public-sector domains |
-| 7 | `bn.org.pl` | wikidata;wikidata | National Library of Poland |
 | 7 | `dominikanie.pl` | wikidata;wikidata | Polish Dominican Province |
 | 7 | `edu.bydgoszcz.pl` | linkgraph | Linked from 22 public-sector domains |
 | 7 | `franciszkanie.org.pl` | wikidata;wikidata | Province of Our Lady of the Angels of the Friars Minor in Kraków |
-| 7 | `nbp.pl` | wikidata;linkgraph | Narodowy Bank Polski |
 | 7 | `nid.pl` | wikidata;wikidata | Narodowy Instytut Dziedzictwa |
 | 7 | `ore.edu.pl` | linkgraph | Linked from 22 public-sector domains |
 | 7 | `panewniki.franciszkanie.pl` | wikidata;wikidata | Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in ... |
 | 7 | `pijarzy.pl` | wikidata;wikidata | Piarist province of Poland |
 | 7 | `pl.usembassy.gov` | wikidata;wikidata | Embassy of the United States, Warsaw | Consulate General of the United States... |
 | 7 | `um.szczecin.pl` | linkgraph | Linked from 21 public-sector domains |
-| 7 | `wojsko-polskie.pl` | wikidata;wikidata | Military Gendarmerie | Polish General Staff |
-| 7 | `wroc.pl` | linkgraph | Linked from 51 public-sector domains |
-| 7 | `www.bialystok.pl` | linkgraph | Linked from 22 public-sector domains |
-| 7 | `www.bydgoszcz.pl` | linkgraph | Linked from 33 public-sector domains |
 
 ## Local / regional candidates
 
