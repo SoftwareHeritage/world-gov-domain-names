@@ -30,39 +30,39 @@
 
 ## Candidate domains ranked by score
 
-531 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+648 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 10 | `elections.ca` | wikidata;wikidata;directory | Elections Canada |
+| 10 | `gg.ca` | wikidata;wikidata;directory | Canadian Heraldic Authority |
 | 10 | `gov.bc.ca` | wikidata;wikidata;linkgraph | Ministry of Forests Lands and Natural Resource Operations (British Columbia) ... |
+| 10 | `scics.ca` | wikidata;wikidata;directory | Canadian Intergovernmental Conference Secretariat |
+| 10 | `viarail.ca` | wikidata;wikidata;directory | Via Rail Police Service |
 | 8 | `agric.gov.ab.ca` | wikidata;wikidata | Alberta Ministry of Agriculture and Forestry |
 | 8 | `alberta.ca` | wikidata;linkgraph | Alberta Education |
 | 8 | `attorneygeneral.jus.gov.on.ca` | wikidata;wikidata | Ministry of the Attorney General |
+| 8 | `bankofcanada.ca` | wikidata;directory | Bank of Canada |
+| 8 | `cadth.ca` | wikidata;directory | Canada's Drug Agency |
+| 8 | `ccohs.ca` | wikidata;directory | Canadian Centre for Occupational Health and Safety |
+| 8 | `ccsa.ca` | wikidata;directory | Canadian Centre on Substance Abuse |
+| 8 | `cdic.ca` | wikidata;directory | Canada Deposit Insurance Corporation |
 | 8 | `edu.gov.on.ca` | wikidata;wikidata | Ministry of Education |
 | 8 | `frqs.gouv.qc.ca` | wikidata;wikidata | Fonds de Recherche du Québec  Santé |
 | 8 | `frqsc.gouv.qc.ca` | wikidata;wikidata | Fonds de Recherche du Québec Société et Culture |
 | 8 | `gov.nl.ca` | wikidata;linkgraph | Department of Energy and Mines |
 | 8 | `health.gov.on.ca` | wikidata;wikidata | Ministry of Health |
+| 8 | `innovation.ca` | wikidata;directory | Canada Foundation for Innovation |
 | 8 | `mcscs.jus.gov.on.ca` | wikidata;wikidata | Ministry of Community Safety and Correctional Services |
-| 8 | `mcss.gov.on.ca` | wikidata;wikidata | Ministry of Community and Social Services |
-| 7 | `affta.ab.ca` | wikidata;wikidata | Alberta Foundation for the Arts |
-| 7 | `ccog-cocg.ca` | wikidata;wikidata | Canadian Council on Geomatics |
-| 7 | `cpr.ca` | wikidata;wikidata | Canadian Pacific Railway Police Service |
-| 7 | `crrf-fcrr.ca` | wikidata;wikidata | Canadian Race Relations Foundation |
-| 7 | `csdla.qc.ca` | wikidata;wikidata | Centre de services scolaire du Lac-Abitibi | Q52149481 |
-| 7 | `cslt.qc.ca` | wikidata;wikidata | Q52149637 | Centre de services scolaire du Lac-Témiscamingue |
-| 7 | `csvt.qc.ca` | wikidata;wikidata | Commission scolaire de la Vallée-des-Tisserands | Centre de services scolaire... |
-| 7 | `elections.ca` | wikidata;wikidata | Elections Canada |
-| 7 | `flysudbury.ca` | wikidata;wikidata | Sudbury Airport |
 
 ## Local / regional candidates
 
-188 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 113 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+189 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 113 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `gnb.ca` | wikidata;wikidata;wikidata;wikidata;linkgraph | Court of King's Bench of New Brunswick | Government of New Brunswick | Depart... |
+| 10 | `gnb.ca` | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Court of King's Bench of New Brunswick | Government of New Brunswick | Depart... |
 | 10 | `gov.mb.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Minister of Labour and Immigration | Legislative Assembly of Manitoba | Manit... |
 | 10 | `ontario.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Education | Ministry of Colleges and Universities | Ministry of T... |
 | 10 | `quebec.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | ... |

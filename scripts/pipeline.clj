@@ -2549,28 +2549,74 @@
     ;; hospitals are central-state bodies.
     ;; (?iu): plain (?i) does not case-fold Ø/ø
     :exclude-name  #"(?iu)universitetet|universitetssenter|universitet\b|høgskole|høyskole|fagskole|allaskuvla"
-    :source        "data.brreg.no"}})
+    :source        "data.brreg.no"}
+
+   "ITA_italy"
+   ;; IndicePA: 23k+ entities of every level; the category code isolates
+   ;; the central ones -- C1 ministries, C2 constitutional organs, C5
+   ;; independent authorities, C8 national research bodies (CNR, ISTAT,
+   ;; ISS, ASI), C10 fiscal agencies, C11 interior-ministry departments,
+   ;; C16 social-security institutes (~130 entities). The categories mix
+   ;; a few parapublic bodies -> candidates, curation decides.
+   {:channel     :candidates
+    :format      :csv
+    :url         (str "https://indicepa.gov.it/ipa-dati/datastore/dump/"
+                      "d09adf99-dc10-4349-8c53-27b1e5aa97b6?format=csv")
+    :name-col    "Denominazione_ente"
+    :website-col "Sito_istituzionale"
+    :type-col    "Codice_Categoria"
+    :type-filter #"^(?:C1|C2|C5|C8|C10|C11|C16)$"
+    :source      "indicepa.gov.it"}
+
+   "CAN_canada"
+   ;; Inventory of Federal Organizations and Interests: federal by
+   ;; construction, but includes Crown corporations and shared-governance
+   ;; interests without a clean central marker -> candidates.
+   {:channel     :candidates
+    :format      :csv
+    :url         (str "https://open.canada.ca/data/dataset/"
+                      "a35cf382-690c-4221-a971-cf0fd189a46f/resource/"
+                      "7c131a87-7784-4208-8e5c-043451240d95/download/"
+                      "ifoi_roif_en.csv")
+    :name-col    "legal_title"
+    :website-col "website"
+    :source      "open.canada.ca"}})
+
+(def ^:private directory-http-client
+  ;; unlike the no-redirect default client, directory exports often sit
+  ;; behind a redirect to a storage host (open.canada.ca)
+  (http/client (assoc http/default-client-opts
+                      :follow-redirects :normal
+                      :connect-timeout 15000)))
 
 (defn- directory-fetch-csv
   "[[name website] ...] from a CSV directory export. Fetched as bytes:
   these exports are often latin-1 and the default UTF-8 decoding would
-  garble the organisation names."
-  [{:keys [url encoding separator name-col website-col]}]
-  (let [resp (try (http/get url {:client http-client
+  garble the organisation names. When :type-col/:type-filter are set,
+  only the rows whose type matches the filter are kept (how IndicePA's
+  23k mixed-level entities reduce to the central categories)."
+  [{:keys [url encoding separator name-col website-col type-col type-filter]}]
+  (let [resp (try (http/get url {:client directory-http-client
                                  :headers {"User-Agent" ua}
-                                 :as :bytes :throw false :timeout 60000})
+                                 :as :bytes :throw false :timeout 120000})
                   (catch Exception _ nil))]
     (when (and resp (= 200 (:status resp)))
       (let [rows (csv/read-csv (String. ^bytes (:body resp)
                                         (or encoding "UTF-8"))
                                :separator (or separator \,))
-            idx  (zipmap (first rows) (range))
+            ;; a UTF-8 BOM would glue itself to the first header cell
+            header (update (vec (first rows)) 0 #(str/replace % "﻿" ""))
+            idx  (zipmap header (range))
             name-i (get idx name-col)
-            web-i  (get idx website-col)]
+            web-i  (get idx website-col)
+            type-i (when type-col (get idx type-col))]
         (when (and name-i web-i)
           (for [r (rest rows)
                 :let [web (str/trim (or (nth r web-i nil) ""))]
-                :when (seq web)]
+                :when (and (seq web)
+                           (or (nil? type-i)
+                               (re-find type-filter
+                                        (str/trim (or (nth r type-i nil) "")))))]
             [(str/trim (or (nth r name-i nil) "")) web]))))))
 
 (defn- directory-fetch-json-pages
@@ -2596,7 +2642,7 @@
   [{:keys [host-filter exclude-name]} rows]
   (reduce (fn [m [org-name web]]
             (let [h (extract-host web)]
-              (if (and h
+              (if (and h (valid-hostname? h)
                        (or (nil? host-filter) (re-find host-filter h))
                        (or (nil? exclude-name)
                            (not (re-find exclude-name (str org-name)))))

@@ -30,35 +30,35 @@
 
 ## Candidate domains ranked by score
 
-288 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+331 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 9 | `cortecostituzionale.it` | wikidata;linkgraph | Constitutional Court of Italy |
+| 10 | `asi.it` | wikidata;wikidata;directory | Italian Space Agency |
+| 10 | `camera.it` | wikidata;linkgraph;directory | Chamber of Deputies of Italy |
+| 10 | `carabinieri.it` | wikidata;wikidata;directory | Comando unità per la tutela forestale, ambientale e agroalimentare | Carabinieri |
+| 10 | `cortecostituzionale.it` | wikidata;linkgraph;directory | Constitutional Court of Italy |
+| 10 | `inps.it` | wikidata;linkgraph;directory | Istituto nazionale della previdenza sociale |
+| 10 | `istat.it` | wikidata;linkgraph;directory | Italian National Institute of Statistics |
+| 10 | `senato.it` | wikidata;linkgraph;directory | Senate of the Republic |
 | 9 | `garanteprivacy.it` | wikidata;linkgraph | Italian Data Protection Authority |
 | 9 | `regione.emilia-romagna.it` | wikidata;linkgraph | Emilia-Romagna |
-| 8 | `camera.it` | wikidata;linkgraph | Chamber of Deputies of Italy |
-| 8 | `inps.it` | wikidata;linkgraph | Istituto nazionale della previdenza sociale |
-| 8 | `regione.lazio.it` | wikidata;linkgraph | Lazio |
-| 8 | `regione.piemonte.it` | wikidata;linkgraph | Piedmont |
-| 8 | `senato.it` | wikidata;linkgraph | Senate of the Republic |
-| 7 | `ahk-italien.it` | wikidata;wikidata | German-Italian Chamber of Commerce |
-| 7 | `asi.it` | wikidata;wikidata | Italian Space Agency |
-| 7 | `asst-crema.it` | wikidata;wikidata | ASST Crema |
-| 7 | `asst-valcamonica.it` | wikidata;wikidata | ASST Valcamonica |
-| 7 | `braidense.it` | wikidata;wikidata | Biblioteca nazionale Braidense |
-| 7 | `carabinieri.it` | wikidata;wikidata | Comando unità per la tutela forestale, ambientale e agroalimentare | Carabinieri |
-| 7 | `fisiocritici.it` | wikidata;wikidata | Accademia dei Fisiocritici |
-| 7 | `gesuiti.it` | wikidata;wikidata | Euromediterranean Province of the Jesuits |
-| 7 | `istat.it` | wikidata;linkgraph | Italian National Institute of Statistics |
-| 7 | `ofmsalu.it` | wikidata;wikidata | Q113365774 |
-| 7 | `regione.campania.it` | wikidata;linkgraph | Campania |
-| 7 | `roma.mfa.gov.ct.tr` | wikidata;wikidata | Representative office of Northern Cyprus, Rome |
+| 8 | `agcm.it` | wikidata;directory | Autorità Garante della Concorrenza e del Mercato |
+| 8 | `agcom.it` | wikidata;directory | Autorità per le Garanzie nelle Comunicazioni |
+| 8 | `agenziademanio.it` | wikidata;directory | Agenzia del demanio |
+| 8 | `agenziaitaliameteo.it` | wikidata;directory | ItaliaMeteo |
+| 8 | `anticorruzione.it` | wikidata;directory | National Anti-Corruption Authority |
+| 8 | `anvur.it` | wikidata;directory | Agenzia nazionale di valutazione del sistema universitario e della ricerca |
+| 8 | `arera.it` | wikidata;directory | Autorità di Regolazione per Energia Reti e Ambiente |
+| 8 | `autorita-trasporti.it` | wikidata;directory | Autorità di Regolazione dei Trasporti |
+| 8 | `avvocaturastato.it` | wikidata;directory | State prosecutor's office |
+| 8 | `bancaditalia.it` | wikidata;directory | Bank of Italy |
+| 8 | `cnel.it` | wikidata;directory | National Council for Economics and Labour |
 
 ## Local / regional candidates
 
-89 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 27 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+94 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 27 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
