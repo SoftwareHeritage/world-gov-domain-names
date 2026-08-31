@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-131 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+132 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -54,7 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bpbes.net.br` | wikidata | Brazilian Platform for Biodiversity and Ecosystem Services |
 | 4 | `braziliavaros.mfa.gov.hu` | wikidata | Hungarian Embassy, Brasília |
 | 4 | `camara.leg.br` | wikidata | Chamber of Deputies |
-| 4 | `cnj.jus.br` | wikidata | National Justice Council |
+| 4 | `canalsaude.fiocruz.br` | wikidata | Canal Saúde |
 
 ## Local / regional candidates
 

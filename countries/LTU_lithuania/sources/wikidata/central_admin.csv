@@ -2,7 +2,7 @@ type,label,website,hostname,level
 government_agency,Environmental Protection Agency of Lithuania,https://aaa.lrv.lt,aaa.lrv.lt,
 government_agency,Environmental Protection Department,https://aad.lrv.lt,aad.lrv.lt,
 government_agency,State Data Protection Inspectorate,https://ada.lt,ada.lt,central
-ministry,Ministry of Environment,https://am.lrv.lt/,am.lrv.lt,
+ministry,Ministry of Environment,https://am.lrv.lt/,am.lrv.lt,central
 government_agency,Ministry of Environment,https://am.lrv.lt/,am.lrv.lt,central
 government_agency,embassy of Italy in Lithuania,https://ambvilnius.esteri.it,ambvilnius.esteri.it,central
 government_agency,Lithuanian State Forest Service,http://amvmt.lrv.lt/lt/,amvmt.lrv.lt,
@@ -14,17 +14,17 @@ government_agency,The Office of the Chief Archivist of Lithuania,https://archyva
 government_agency,"The Authority of Audit, Accounting, Property Valuation and Insolvency Management",https://avnt.lrv.lt,avnt.lrv.lt,
 government_agency,Emergency Response Centre,https://bpc.lrv.lt/,bpc.lrv.lt,
 government_agency,European Institute for Gender Equality,https://eige.europa.eu/,eige.europa.eu,local
-ministry,Ministry of the Economy and Innovation of the Republic of Lithuania,http://eimin.lrv.lt/,eimin.lrv.lt,
+ministry,Ministry of the Economy and Innovation of the Republic of Lithuania,http://eimin.lrv.lt/,eimin.lrv.lt,central
 government_agency,Ministry of the Economy and Innovation of the Republic of Lithuania,http://eimin.lrv.lt/,eimin.lrv.lt,central
 government_agency,embassy of Israel in Lithuania,https://embassies.gov.il/Vilnius,embassies.gov.il,central
 government_agency,Lithuanian Energy Agency,https://www.ena.lt/,ena.lt,
 government_agency,Ministry of Energy of Lithuania,https://enmin.lrv.lt/,enmin.lrv.lt,central
-ministry,Ministry of Energy of Lithuania,https://enmin.lrv.lt/,enmin.lrv.lt,
+ministry,Ministry of Energy of Lithuania,https://enmin.lrv.lt/,enmin.lrv.lt,central
 government_agency,"Office of the Ombudsperson for Academic Ethics and Procedures, Lithuania",http://www.etikostarnyba.lt,etikostarnyba.lt,
 government_agency,"Embassy of Spain, Vilnius",http://www.exteriores.gob.es/Embajadas/VILNIUS,exteriores.gob.es,central
 government_agency,embassy of Finland in Lithuania,https://finlandabroad.fi/web/ltu,finlandabroad.fi,central
 government_agency,Ministry of Finance (Lithuania),http://www.finmin.lt/,finmin.lt,central
-ministry,Ministry of Finance (Lithuania),http://www.finmin.lt/,finmin.lt,
+ministry,Ministry of Finance (Lithuania),http://www.finmin.lt/,finmin.lt,central
 government_agency,Financial Crime Investigation Service,https://fntt.lrv.lt,fntt.lrv.lt,central
 government_agency,Nature Research Centre,http://www.gamtostyrimai.lt/en/,gamtostyrimai.lt,
 government_agency,Genocide and Resistance Research Centre of Lithuania,http://www.genocid.lt,genocid.lt,
@@ -47,7 +47,8 @@ government_agency,Agency of Youth Affairs of Lithuania,https://jra.lrv.lt,jra.lr
 government_agency,Lithuanian Prison Service,https://kalejimai.lrv.lt,kalejimai.lrv.lt,
 government_agency,Second Investigation Department,https://kam.lt/en/structure_and_contacts/second_investigation_department_under_mnd.html,kam.lt,
 government_agency,Ministry of National Defence of Lithuania,http://www.kam.lt,kam.lt,central
-ministry,Ministry of National Defence of Lithuania,http://www.kam.lt,kam.lt,
+government_agency,Infrastructure Management Agency,https://kam.lt/infrastrukturos-valdymo-agentura/,kam.lt,
+ministry,Ministry of National Defence of Lithuania,http://www.kam.lt,kam.lt,central
 government_agency,Kėdainiai Region District Court,https://kauno.teismai.lt/struktura-ir-kontaktine-informacija/kontaktai/18/kauno-apylinkes-teismo-kedainiu-rumai/d24,kauno.teismai.lt,central-1
 government_agency,Klaipeda City Municipality Council,http://www.klaipeda.lt/,klaipeda.lt,central-1
 government_agency,Klaipėda Regional Court,https://klat.teismas.lt,klat.teismas.lt,
@@ -82,7 +83,7 @@ government_agency,Martynas Mažvydas National Library of Lithuania,https://www.l
 government_agency,Lithuanian Assay Office,https://lpr.lrv.lt,lpr.lrv.lt,
 government_agency,Gaming Control Authority of Lithuania,https://lpt.lrv.lt,lpt.lrv.lt,
 government_agency,Ministry of Culture of Lithuania,https://lrkm.lrv.lt/lt/,lrkm.lrv.lt,central
-ministry,Ministry of Culture of Lithuania,https://lrkm.lrv.lt/lt/,lrkm.lrv.lt,
+ministry,Ministry of Culture of Lithuania,https://lrkm.lrv.lt/lt/,lrkm.lrv.lt,central
 government_agency,Constitutional Court of Lithuania,https://www.lrkt.lt,lrkt.lt,central
 supreme_court,Seimas,https://www.lrs.lt/,lrs.lt,central
 parliament,Seimas,https://www.lrs.lt/,lrs.lt,central
@@ -116,6 +117,7 @@ government_agency,National Cyber Security Centre of Lithuania,https://www.nksc.l
 government_agency,National Paying Agency,https://nma.lrv.lt,nma.lrv.lt,
 government_agency,"Embassy of Norway, Vilnius",https://www.norway.no/en/lithuania,norway.no,central
 government_agency,National Agency for Education of Lithuania,https://www.nsa.smsm.lt/,nsa.smsm.lt,
+government_agency,National Transplant Bureau,https://ntb.lrv.lt,ntb.lrv.lt,
 government_agency,National public health centre of Lithuania,https://nvsc.lrv.lt,nvsc.lrv.lt,
 government_agency,National Land Service of Lithuania,https://nzt.lrv.lt,nzt.lrv.lt,
 government_agency,Fire-Prevention and Rescue Department,https://pagd.lrv.lt,pagd.lrv.lt,
@@ -126,27 +128,29 @@ government_agency,State Enterprise Centre of Registers,https://www.registrucentr
 government_agency,Communications Regulatory Authority,https://www.rrt.lt,rrt.lt,
 government_agency,Radiation Protection Centre of Lithuania,https://rsc.lrv.lt,rsc.lrv.lt,
 government_agency,Ministry of Health of Lithuania,https://sam.lrv.lt,sam.lrv.lt,central
+ministry,Ministry of Health of Lithuania,https://sam.lrv.lt,sam.lrv.lt,central
 ministry,Ministry of Health of Lithuania,http://www.sam.lt/,sam.lt,
 government_agency,National Family Council of Lithuania,https://seimostaryba.lt/,seimostaryba.lt,
 government_agency,Centre for Quality Assessment in Higher Education,https://skvc.lrv.lt,skvc.lrv.lt,
 government_agency,"Ministry of Education, Science and Sport",http://www.smm.lt,smm.lt,central
-ministry,"Ministry of Education, Science and Sport",http://www.smm.lt,smm.lt,
+ministry,"Ministry of Education, Science and Sport",http://www.smm.lt,smm.lt,central
 government_agency,Ministry of Social Security and Labour of Lithuania,https://socmin.lrv.lt/,socmin.lrv.lt,central
-ministry,Ministry of Social Security and Labour of Lithuania,https://socmin.lrv.lt/,socmin.lrv.lt,
+ministry,Ministry of Social Security and Labour of Lithuania,https://socmin.lrv.lt/,socmin.lrv.lt,central
 government_agency,The Board of the State Social Insurance Fund,https://sodra.lt/,sodra.lt,
+government_agency,Department of Supervision of Social Services,https://sppd.lrv.lt,sppd.lrv.lt,
 government_agency,State Data Agency of Lithuania,http://www.stat.gov.lt,stat.gov.lt,central
 government_agency,Government Strategic Analysis Center,https://strata.gov.lt,strata.gov.lt,
 government_agency,Special Investigation Service of the Republic of Lithuania,http://www.stt.lt/,stt.lt,
 government_agency,Ministry of Transport and Communications,https://sumin.lrv.lt/,sumin.lrv.lt,central
-ministry,Ministry of Transport and Communications,https://sumin.lrv.lt/,sumin.lrv.lt,
+ministry,Ministry of Transport and Communications,https://sumin.lrv.lt/,sumin.lrv.lt,central
 government_agency,"Embassy of Sweden, Vilnius",http://www.swedenabroad.com/Vilnius/,swedenabroad.com,central
 government_agency,Tauragė Castle,https://tauragesmuziejus.lt/en/edukacijos/taurages-pilis/,tauragesmuziejus.lt,
 government_agency,National Courts Administration of Lithuania,https://www.teismai.lt/,teismai.lt,
 government_agency,Ministry of Justice of Lithuania,https://tm.lrv.lt/,tm.lrv.lt,central
-ministry,Ministry of Justice of Lithuania,https://tm.lrv.lt/,tm.lrv.lt,
+ministry,Ministry of Justice of Lithuania,https://tm.lrv.lt/,tm.lrv.lt,central
 government_agency,The Department Of National Minorities,https://tmde.lrv.lt,tmde.lrv.lt,
 government_agency,Lithuanian National Commission for UNESCO,https://unesco.lt/,unesco.lt,
-ministry,Ministry of Foreign Affairs of Lithuania,https://www.urm.lt/,urm.lt,
+ministry,Ministry of Foreign Affairs of Lithuania,https://www.urm.lt/,urm.lt,central
 government_agency,Ministry of Foreign Affairs of Lithuania,https://www.urm.lt/,urm.lt,central
 government_agency,Lithuanian Employment Service,http://www.uzt.lt,uzt.lt,
 government_agency,State Child Rights Protection and Adoption Service of Lithuania,https://vaikoteises.lrv.lt,vaikoteises.lrv.lt,
@@ -173,13 +177,14 @@ government_agency,State Food and Veterinary Service,https://vmvt.lrv.lt,vmvt.lrv
 government_agency,Public Procurement Office of Lithuania,https://vpt.lrv.lt,vpt.lrv.lt,
 government_agency,Central Electoral Committee of Lithuania,https://www.vrk.lt/,vrk.lt,central
 government_agency,Ministry of the Interior of Lithuania,https://vrm.lrv.lt/,vrm.lrv.lt,central
-ministry,Ministry of the Interior of Lithuania,https://vrm.lrv.lt/,vrm.lrv.lt,
+ministry,Ministry of the Interior of Lithuania,https://vrm.lrv.lt/,vrm.lrv.lt,central
 government_agency,Lithuanian State Border Guard Service,https://vsat.lrv.lt,vsat.lrv.lt,
 government_agency,State Security Department of Lithuania,http://www.vsd.lt,vsd.lt,
 government_agency,Lithuanian State Studies Foundation,https://vsf.lrv.lt/,vsf.lrv.lt,
 government_agency,State Digital Solutions Agency of Lithuania,https://vssa.lrv.lt,vssa.lrv.lt,
 government_agency,Public Security Service,https://vstarnyba.lrv.lt/,vstarnyba.lrv.lt,
 government_agency,State Service for Protected Areas,https://vstt.lrv.lt/lt/,vstt.lrv.lt,
+government_agency,The Office of the Ombudsperson of Child's Rights of Lithuania,http://vtaki.lt/,vtaki.lt,
 government_agency,Chief Commission of Official Ethics,https://vtek.lt/,vtek.lt,
 government_agency,State Forensic Medicine Service of Lithuania,https://vtmt.lrv.lt,vtmt.lrv.lt,
 government_agency,State Territorial Planning and Construction Inspectorate,https://vtpsi.lrv.lt,vtpsi.lrv.lt,
@@ -188,8 +193,9 @@ government_agency,Public Management Agency,https://vva.lrv.lt,vva.lrv.lt,
 government_agency,State Medicines Control Agency,https://vvkt.lrv.lt,vvkt.lrv.lt,
 government_agency,State Consumer Rights Protection Authority of Lithuania,https://vvtat.lrv.lt/,vvtat.lrv.lt,
 government_agency,"Embassy of Germany, Vilnius",https://wilna.diplo.de,wilna.diplo.de,central
+government_agency,The Office of the Inspector of Journalist Ethics,https://zeit.lt/,zeit.lt,
 government_agency,The Office of the Inspector of Journalist Ethics,http://zeit.lt/,zeit.lt,
 government_agency,The Intelligence Ombudspersons' Office,https://www.zki.lt,zki.lt,
 government_agency,The Agency of Agriculture of Lithuania,https://zua.lrv.lt,zua.lrv.lt,
-ministry,Ministry of Agriculture of Lithuania,https://zum.lrv.lt/,zum.lrv.lt,
+ministry,Ministry of Agriculture of Lithuania,https://zum.lrv.lt/,zum.lrv.lt,central
 government_agency,Ministry of Agriculture of Lithuania,https://zum.lrv.lt/,zum.lrv.lt,central

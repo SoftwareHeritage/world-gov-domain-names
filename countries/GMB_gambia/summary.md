@@ -36,6 +36,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `assembly.gm` | wikidata;wikidata | National Assembly of The Gambia |
+| 7 | `mope.gm` | wikidata;wikidata | Ministry of Petroleum, Energy and Mines |
 | 7 | `utg.edu.gm` | wikidata;wikidata | University of the Gambia |
 | 4 | `cbg.gm` | wikidata | Central Bank of The Gambia |
 | 4 | `gambiaports.gm` | wikidata | Gambia Ports Authority |
@@ -50,7 +51,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `gra.gm` | wikidata | Gambia Revenue Authority |
 | 4 | `grts.gm` | wikidata | Gambia Radio & Television Service |
 | 4 | `iec.gm` | wikidata | Independent Electoral Commission |
-| 4 | `mope.gm` | wikidata | Ministry of Petroleum, Energy and Mines |
 | 4 | `nana.gm` | wikidata | National Nutrition Agency |
 | 4 | `nao.gm` | wikidata | National Audit Office |
 | 4 | `naqaa.gm` | wikidata | National Accreditation and Quality Assurance Authority |

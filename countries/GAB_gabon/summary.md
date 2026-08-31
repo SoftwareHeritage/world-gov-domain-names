@@ -30,11 +30,13 @@
 
 ## Candidate domains ranked by score
 
-25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `economie-numerique.gouv.ga` | wikidata;wikidata | Q141165552 |
+| 8 | `enseignement-superieur.gouv.ga` | wikidata;wikidata | Q141161520 |
 | 8 | `fonction-publique.gouv.ga` | wikidata;wikidata | Q125907067 |
 | 8 | `interieur.gouv.ga` | wikidata;wikidata | Q128231957 |
 | 8 | `relations-institutions.gouv.ga` | wikidata;wikidata | Q137536983 |
@@ -53,8 +55,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ambalglibreville.com` | wikidata | Embassy of Algeria, Libreville |
 | 3 | `ambassade-tchad-gabon.com` | wikidata | Q134385965 |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Pri... |
-| 3 | `ga.ambafrance.org` | wikidata | Embassy of France, Libreville |
-| 3 | `gabon.mid.ru` | wikidata | embassy of Russia in Gabon |
 
 ## Local / regional candidates
 

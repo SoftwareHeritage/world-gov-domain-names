@@ -35,6 +35,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `caicyt-conicet.gov.ar` | wikidata;wikidata | Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino ... |
 | 8 | `casarosada.gov.ar` | wikidata;wikidata | Poder Ejecutivo Nacional |
 | 8 | `mp.gba.gov.ar` | wikidata;wikidata | Ministry of Production, Science and Technology |
 | 8 | `ms.gba.gov.ar` | wikidata;wikidata | Ministry of Health of the Province of Buenos Aires | Dr. Tomás Perón Biologic... |
@@ -45,7 +46,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `jesuitasaru.org` | wikidata;wikidata | Argentine-Uruguayan Jesuit Province |
 | 5 | `agn.gov.ar` | wikidata | Auditoría General de la Nación |
 | 5 | `bn.gov.ar` | wikidata | Mariano Moreno National Library |
-| 5 | `caicyt-conicet.gov.ar` | wikidata | Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino ... |
 | 5 | `cba.gov.ar` | wikidata | Ministerio de Ciencia y Tecnología |
 | 5 | `cnv.gov.ar` | wikidata | National Securities Commission |
 | 5 | `conicet.gov.ar` | wikidata | National Scientific and Technical Research Council |
@@ -71,5 +71,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `legislaturaformosa.gov.ar` | wikidata;wikidata | Formosa Chamber of Deputies |
 | 8 | `legislaturajujuy.gov.ar` | wikidata;wikidata | Chamber of Deputies of Jujuy |
 | 8 | `legislaturamendoza.gov.ar` | wikidata;wikidata | legislature of Mendoza |
-| 8 | `santafe.gov.ar` | wikidata;wikidata;wikidata;wikidata;wikidata | Santa Fe Provincial Police | Ministry of Security of the Province of Santa Fe... |
+| 8 | `mseg.gba.gov.ar` | wikidata;wikidata | Buenos Aires Province Ministry of Security |
 

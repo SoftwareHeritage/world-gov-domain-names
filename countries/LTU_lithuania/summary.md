@@ -30,13 +30,14 @@
 
 ## Candidate domains ranked by score
 
-71 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+72 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `lnb.lt` | wikidata;wikidata | Martynas Mažvydas National Library of Lithuania |
 | 7 | `vert.lt` | wikidata;wikidata | National Energy Regulatory Council of Lithuania | The National Energy Regulat... |
+| 7 | `zeit.lt` | wikidata;wikidata | The Office of the Inspector of Journalist Ethics |
 | 6 | `jesuiten.org` | wikidata;wikidata | Jesuit Province of Central Europe |
 | 6 | `lat.lt` | wikidata | Supreme Court of Lithuania |
 | 6 | `lrkt.lt` | wikidata | Constitutional Court of Lithuania |
@@ -54,7 +55,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `komisija.lt` | wikidata | International Commission for the Evaluation of the Crimes of the Nazi and Sov... |
 | 4 | `lb.lt` | wikidata | Bank of Lithuania |
 | 4 | `lcn.lt` | wikidata | Apostolic Nunciature to Lithuania |
-| 4 | `lcss.lt` | wikidata | Lithuanian Centre for Social Sciences |
 
 ## Local / regional candidates
 

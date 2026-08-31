@@ -58,11 +58,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `envihaifa.org.il` | wikidata | Haifa District Municipal Association for Environmental Protection |
 | 4 | `handasa.ramat-gan.muni.il` | wikidata | Ramat Gan |
+| 4 | `ramat-gan.muni.il` | wikidata | Ramat Gan |
 | 4 | `yoqneam.org.il` | wikidata | Yokneam City Council |
 

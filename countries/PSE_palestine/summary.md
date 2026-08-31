@@ -32,13 +32,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `nsf.ps` | wikidata;wikidata | Palestinian National Security Forces |
 | 7 | `pal-wakf.ps` | wikidata;wikidata | Ministry of Awqaf and Religious Affairs (Palestine) |
 | 7 | `plc.ps` | wikidata;wikidata | Palestinian Legislative Council |
-| 7 | `site.moh.ps` | wikidata;wikidata | Ministry of Health | Ministry of Health of Palestine |
 | 7 | `tourism.ps` | wikidata;wikidata | Ministry of Tourism and Antiquities |
 | 6 | `custodia.org` | wikidata;wikidata | Custodian of the Holy Land |
 | 6 | `pal-plc.org` | wikidata;wikidata | Palestinian Legislative Council |
 | 6 | `palestinepnc.org` | wikidata;wikidata | Palestinian National Council |
 | 4 | `cwrc.ps` | wikidata | Colonization and Wall Resistance Commission |
 | 4 | `darifta.ps` | wikidata | The Palestinian Fatwa House |
+| 4 | `elections.ps` | wikidata | Central Election Commission |
 
 ## Local / regional candidates
 
@@ -47,7 +47,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 3 | `tulkarm-chamber.org` | wikidata | Tulkarm Chamber of Commerce, Industry and Agriculture |
+| 7 | `moee.pna.ps` | wikidata;wikidata | Q117819910 |
 | 6 | `mtulkarm.com` | wikidata;wikidata;wikidata | Municipality of Tulkarm |
 | 4 | `mdlf.org.ps` | wikidata | The Municipal Development and Lending Fund (MDLF) |
-| 4 | `moee.pna.ps` | wikidata | Q117819910 |
 

@@ -62,7 +62,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `molg.go.ug` | wikidata;wikidata | Ministry of Local Government |
 | 4 | `jmc.go.ug` | wikidata | Jinja Municipal Council |
-| 4 | `molg.go.ug` | wikidata | Ministry of Local Government |
 | 3 | `eala.org` | wikidata | East African Legislative Assembly |
 

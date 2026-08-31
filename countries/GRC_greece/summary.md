@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-105 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+106 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `gsis.gr` | wikidata;linkgraph | General Secretariat for Information Systems and Digital Governance |
 | 10 | `hellenicparliament.gr` | wikidata;wikidata;linkgraph | Hellenic Parliament |
-| 10 | `mfa.gr` | wikidata;wikidata;linkgraph | Ministry of Foreign Affairs (Greece) | Ministry of Foreign Affairs of Greece |
 | 10 | `minagric.gr` | wikidata;wikidata;linkgraph | Ministry of Rural Development and Food (Greece) |
 | 10 | `ypakp.gr` | wikidata;wikidata;linkgraph | Ministry of Labour and Social Security |
 | 10 | `ypes.gr` | wikidata;wikidata;linkgraph | Ministry of the Interior (Greece) |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mnec.gr` | wikidata;wikidata | Ministry of Economy, Development and Tourism |
 | 7 | `mod.mil.gr` | wikidata;wikidata | Ministry of National Defence (Greece) |
 | 7 | `nam.culture.gr` | wikidata;wikidata | Directorate for the Curation of the National Archive of Monuments |
+| 7 | `protodikeio-ath.gr` | wikidata;wikidata | Athens Chamber of Commerce and Industry | Court of First Instance of Athens |
 
 ## Local / regional candidates
 

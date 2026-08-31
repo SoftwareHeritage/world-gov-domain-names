@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-163 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+164 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-52 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 39 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+53 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 39 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -69,7 +69,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `are.zh.ch` | wikidata;wikidata | Building Department Kanton Zürich | Q27480036 |
 | 7 | `baselland.ch` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Q113156754 | Q113156709 | Education, Culture and Sports Directorate of Canton... |
 | 7 | `fr.ch` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Grand Council of Fribourg | Service de la Santé Publique | Q113032869 | Q1130... |
+| 7 | `gd.zh.ch` | wikidata;wikidata | Department of Health Canton of Zurich |
 | 7 | `ge.ch` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Infrastructure Department (Geneva) | Department of Security, Population and H... |
 | 7 | `gerichte-zh.ch` | wikidata;wikidata | Gerichte Zürich | Zurich district court |
-| 7 | `gl.ch` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Landrat of Glarus | Q113162685 | Q113162767 | Q113162691 | Q113162848 | Q1131... |
 

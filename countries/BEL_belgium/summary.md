@@ -64,12 +64,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 |------:|----------|---------|-------|
 | 10 | `vlaanderen.be` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Flemish Government | Flemish Tax Service | Research Institute for Nature and ... |
 | 7 | `dbrc.be` | wikidata;wikidata | Council for Permit Disputes | Council for Election Disputes |
-| 7 | `departementwvg.be` | wikidata;wikidata | Flemish Infrastructure Fund for Person-related Matters | Department of Welfar... |
+| 7 | `departementwvg.be` | wikidata;wikidata;wikidata | Department of Welfare, Public Health and Family | Flemish Infrastructure Fund... |
 | 7 | `gouvernement.cfwb.be` | wikidata;wikidata | Government of the French Community |
 | 7 | `gouvernement.wallonie.be` | wikidata;wikidata | Government of Wallonia |
+| 7 | `lv.vlaanderen.be` | wikidata;wikidata | Department of Agriculture and Fisheries |
 | 7 | `omgeving.vlaanderen.be` | wikidata;wikidata | Department of Environment and Health |
+| 7 | `onderwijs.vlaanderen.be` | wikidata;wikidata | Flemish Ministry of Education and Training |
 | 7 | `ostbelgienlive.be` | wikidata;wikidata;wikidata | Government of the German-speaking Community | Representation of the German-sp... |
 | 7 | `parlement-wallonie.be` | wikidata;wikidata | Parliament of Wallonia |
-| 7 | `parlement.brussels` | wikidata;wikidata | Parliament of the Brussels-Capital Region |
-| 7 | `pdg.be` | wikidata;wikidata | Parliament of the German-speaking Community |
 

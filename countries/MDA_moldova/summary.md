@@ -65,5 +65,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `gagauzia.md` | wikidata;wikidata | Executive Committee of Gagauzia |
 | 7 | `halktoplushu.md` | wikidata;wikidata | People's Assembly of Gagauzia |
 | 4 | `balti.md` | wikidata | Q114640735 |
-| 3 | `kgb-pmr.com` | wikidata | Ministry of State Security |
+| 6 | `kgb-pmr.com` | wikidata;wikidata | Ministry of State Security |
 

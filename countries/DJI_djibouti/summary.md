@@ -52,6 +52,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `presidence.dj` | un_desa;wikidata | Interior ministry of Djibouti | UN/DESA national portal |
-| 4 | `maem.dj` | wikidata | Ministry of Agriculture, Livestock, & Fisheries |
+| 10 | `presidence.dj` | un_desa;wikidata;wikidata | Interior ministry of Djibouti | UN/DESA national portal |
+| 7 | `maem.dj` | wikidata;wikidata | Ministry of Agriculture, Livestock, & Fisheries |
 

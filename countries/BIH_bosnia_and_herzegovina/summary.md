@@ -62,7 +62,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 6 | `mup.vladars.net` | wikidata;wikidata | Ministry of Interior of Republika Srpska | Police of Republika Srpska |
+| 6 | `mup.vladars.net` | wikidata;wikidata;wikidata | Ministry of Interior of Republika Srpska | Police of Republika Srpska |
 | 6 | `narodnaskupstinars.net` | wikidata;wikidata | National Assembly of Republic of Srpska |
-| 6 | `vladars.net` | wikidata;wikidata | Ministry of Science and Technology | Q108052814 |
+| 6 | `vladars.net` | wikidata;wikidata;wikidata | Ministry of Science and Technology | Q108052814 |
 

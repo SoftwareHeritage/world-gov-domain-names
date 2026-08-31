@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-318 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+319 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -62,13 +62,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 7 | `ac-spm.fr` | wikidata;wikidata | Service of the National Education of Saint Pierre and Miquelon |
 | 7 | `bourgognefranchecomte.fr` | wikidata;linkgraph | Regional council of Bourgogne-Franche-Comté |
 | 7 | `corse.fr` | wikidata;wikidata | Executive Council of Corsica |
 | 7 | `gouv.nc` | wikidata;wikidata | Q3112596 |
 | 7 | `guadeloupe.ars.sante.fr` | wikidata;wikidata | Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy |
 | 7 | `iledefrance.fr` | wikidata;linkgraph | Regional Council of Île-de-France |
 | 7 | `nouvelle-aquitaine.fr` | wikidata;wikidata | Nouvelle-Aquitaine Regional Council | Regional Council of Limousin |
-| 4 | `ac-spm.fr` | wikidata | Service of the National Education of Saint Pierre and Miquelon |
 | 4 | `cg971.fr` | wikidata | departmental council of Guadeloupe |
 | 4 | `hautenormandie.fr` | wikidata | Regional Council of Upper Normandy |
 | 4 | `justice.fr` | wikidata | Q115471229 |

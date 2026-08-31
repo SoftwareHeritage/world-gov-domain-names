@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-31 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+32 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -47,6 +47,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ihec.iq` | wikidata | Independent High Electoral Commission |
 | 4 | `iraqfsc.iq` | wikidata | Supreme Court of Iraq |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Baghdad |
+| 4 | `nazaha.iq` | wikidata | Commission of Integrity |
 | 4 | `post.iq` | wikidata | Iraqi Post |
 | 4 | `src.edu.iq` | wikidata | Scientific Research Commission |
 | 3 | `b7or.net` | wikidata | Badr News Agency |
@@ -54,7 +55,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `darculture.com` | wikidata | The General House of Cultural Affairs |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Iraq |
 | 3 | `en.aswataliraq.info` | wikidata | Aswat al-Iraq |
-| 3 | `erbil.diplo.de` | wikidata | Consulate General of Germany, Erbil |
 
 ## Local / regional candidates
 
@@ -62,5 +62,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `gov.krd` | wikidata;wikidata;wikidata | Kurdistan Regional Government | Ministry of Natural Resources |
+| 7 | `gov.krd` | wikidata;wikidata;wikidata;wikidata | Ministry of Natural Resources | Kurdistan Regional Government |
 

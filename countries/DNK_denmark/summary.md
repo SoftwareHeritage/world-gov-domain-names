@@ -64,7 +64,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 |------:|----------|---------|-------|
 | 9 | `domstol.dk` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Hjørring District Court | Frederiksberg District Court | Danish Appeals Permi... |
 | 7 | `kongehuset.dk` | wikidata;wikidata | The Royal Household of Denmark |
-| 7 | `um.dk` | wikidata;wikidata | Danish International Development Agency | Ministry of Foreign Affairs of Denmark |
+| 7 | `um.dk` | wikidata;wikidata;wikidata | Danish International Development Agency | Ministry of Foreign Affairs of Denmark |
 | 4 | `kolding.dk` | wikidata | Kolding City Council |
 | 3 | `eea.europa.eu` | wikidata | European Environment Agency |
 | 3 | `who.int` | wikidata | World Health Organization Regional Office for Europe |

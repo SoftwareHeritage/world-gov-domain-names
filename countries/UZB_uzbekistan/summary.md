@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-38 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+39 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -53,6 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ich.uz` | wikidata | National Commission of the Republic of Uzbekistan for UNESCO |
 | 4 | `indembassy.uz` | wikidata | Embassy of India, Tashkent |
 | 4 | `ingeo.uz` | wikidata | Institute of Geology and Geophysics named after Kh.M. Abdullaev |
+| 4 | `kti.iiv.uz` | wikidata | Research Institute of Criminology of the Republic of Uzbekistan |
 | 4 | `meteo.uz` | wikidata | Centre of Hydrometeorological Service |
-| 4 | `mininnovation.uz` | wikidata | Ministry of Innovative Development of the Republic of Uzbekistan |
 

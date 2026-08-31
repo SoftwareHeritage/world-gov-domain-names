@@ -36,6 +36,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.gh` | wikidata;wikidata | Parliament of Ghana |
+| 6 | `govgh.org` | wikidata;wikidata | Ministry of Aviation |
 | 4 | `accra.mfa.gov.hu` | wikidata | Embassy of Hungary to Ghana |
 | 4 | `cocobod.gh` | wikidata | Ghana Cocoa Board |
 | 4 | `csir.org.gh` | wikidata | Council for Scientific and Industrial Research – Ghana |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ghana.travel` | wikidata | Ghana Tourism Authority |
 | 3 | `ghana.um.dk` | wikidata | embassy of Denmark in Ghana |
 | 3 | `ghanamuseums.org` | wikidata | Ghana Museums and Monuments Board |
-| 3 | `ghanawildlife.org` | wikidata | Ghana Wildlife Division |
 

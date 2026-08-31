@@ -58,18 +58,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-141 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 136 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+142 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 137 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `gov.hnedu.cn` | wikidata;wikidata | Hunan Provincial Department of Education |
 | 7 | `al.gov.mo` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Legislative Assembly of Macau |
-| 7 | `customs.gov.hk` | wikidata;wikidata;wikidata;wikidata | Customs and Excise Department |
-| 7 | `dscc.gov.mo` | wikidata;wikidata;wikidata;wikidata | Cartography and Cadastre Bureau |
-| 7 | `dsedt.gov.mo` | wikidata;wikidata;wikidata;wikidata | Economic and Technological Development Bureau |
-| 7 | `dsop.gov.mo` | wikidata;wikidata;wikidata | Direcção dos Serviços de Obras Públicas |
-| 7 | `fsm.gov.mo` | wikidata;wikidata;wikidata;wikidata | Fire Services Bureau | Public Security Police Force | Escola Superior das For... |
-| 7 | `gov.hk` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Government of Hong Kong |
-| 7 | `healthbureau.gov.hk` | wikidata;wikidata | Primary Healthcare Commission | Health Bureau |
-| 7 | `ihm.gov.mo` | wikidata;wikidata;wikidata | Housing Bureau |
-| 7 | `judiciary.gov.hk` | wikidata;wikidata;wikidata | Court of First Instance of the High Court | District Court | Court of Appeal ... |
+| 7 | `amcm.gov.mo` | wikidata;wikidata | Monetary Authority of Macao |
+| 7 | `amcm.macau.gov.mo` | wikidata;wikidata | Monetary Authority of Macao |
+| 7 | `ca.gov.mo` | wikidata;wikidata | Commission of Audit |
+| 7 | `cedb.gov.hk` | wikidata;wikidata | Commerce and Economic Development Bureau |
+| 7 | `cmab.gov.hk` | wikidata;wikidata | Constitutional and Mainland Affairs Bureau |
+| 7 | `csb.gov.hk` | wikidata;wikidata | Civil Service Bureau |
+| 7 | `cstb.gov.hk` | wikidata;wikidata | Culture, Sports and Tourism Bureau, Hong Kong |
+| 7 | `ctt.gov.mo` | wikidata;wikidata | Macao Post and Telecommunications Bureau |
 

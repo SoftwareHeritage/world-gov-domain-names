@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-648 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+650 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -63,13 +63,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `gnb.ca` | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Court of King's Bench of New Brunswick | Government of New Brunswick | Depart... |
-| 10 | `gov.mb.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Minister of Labour and Immigration | Legislative Assembly of Manitoba | Manit... |
-| 10 | `ontario.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Education | Ministry of Colleges and Universities | Ministry of T... |
-| 10 | `quebec.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | ... |
-| 10 | `saskatchewan.ca` | wikidata;wikidata;wikidata;linkgraph | Ministry of Health | Ministry of Agriculture of Saskatchewan |
+| 10 | `gov.mb.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Minister of Labour and Immigration | Legislative Assembly of Manitoba | Depar... |
+| 10 | `ontario.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Education | Ministry of Colleges and Universities | Ministry of T... |
+| 10 | `quebec.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | ... |
+| 10 | `saskatchewan.ca` | wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Health | Ministry of Agriculture of Saskatchewan |
 | 10 | `yukon.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Yukon Archives | Government of Yukon | Yukon Parks | Yukon Department of Envi... |
-| 8 | `education.gouv.qc.ca` | wikidata;wikidata | Ministry of Education and Higher Education | Ministry of Higher Education |
-| 8 | `environnement.gouv.qc.ca` | wikidata;wikidata | Ministry of Environment and Fight Against Climate Change |
-| 8 | `gov.nu.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Corrections Directorate | Department of Justice | Nunavut Liquor Commission |... |
-| 8 | `mce.gouv.qc.ca` | wikidata;wikidata | Q3315432 |
+| 8 | `autochtones.gouv.qc.ca` | wikidata;wikidata | Ministry of Native Affairs |
+| 8 | `economie.gouv.qc.ca` | wikidata;wikidata | Ministry of Economic Development, Innovation and Export Trade |
+| 8 | `education.gouv.qc.ca` | wikidata;wikidata;wikidata;wikidata | Ministry of Education and Higher Education | Ministry of Higher Education |
+| 8 | `energy.gov.on.ca` | wikidata;wikidata | Ministry of Energy |
 

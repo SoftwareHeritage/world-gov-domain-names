@@ -51,15 +51,15 @@ government_agency,Civil Service Commission,http://www.csc.gov.ph,csc.gov.ph,
 government_agency,Schools Division Office of City of Batac,https://csdbatac.com/,csdbatac.com,local
 government_agency,Bureau of Customs,https://customs.gov.ph,customs.gov.ph,
 government_agency,Department of Agriculture,https://www.da.gov.ph/,da.gov.ph,central
-ministry,Department of Agriculture,https://www.da.gov.ph/,da.gov.ph,
-ministry,Department of Agrarian Reform,https://dar.gov.ph/,dar.gov.ph,
+ministry,Department of Agriculture,https://www.da.gov.ph/,da.gov.ph,central
+ministry,Department of Agrarian Reform,https://dar.gov.ph/,dar.gov.ph,central
 government_agency,Department of Agrarian Reform,https://dar.gov.ph/,dar.gov.ph,central
 government_agency,Consulate-General of the People's Republic of China in Davao,http://davao.china-consulate.gov.cn/,davao.china-consulate.gov.cn,central-1
 government_agency,"Consulate-General of Japan, Davao",https://www.davao.ph.emb-japan.go.jp,davao.ph.emb-japan.go.jp,
-ministry,Department of Budget and Management,https://dbm.gov.ph/,dbm.gov.ph,
+ministry,Department of Budget and Management,https://dbm.gov.ph/,dbm.gov.ph,central
 government_agency,Department of Budget and Management,https://dbm.gov.ph/,dbm.gov.ph,central
 government_agency,Department of Environment and Natural Resources,https://denr.gov.ph/,denr.gov.ph,central
-ministry,Department of Environment and Natural Resources,https://denr.gov.ph/,denr.gov.ph,
+ministry,Department of Environment and Natural Resources,https://denr.gov.ph/,denr.gov.ph,central
 government_agency,Schools Division Office of Davao de Oro,https://www.deped-ddo.com/,deped-ddo.com,local
 government_agency,Schools Division Office of Dumaguete City,https://deped-dgte.com/,deped-dgte.com,local
 government_agency,Schools Division Office of Borongan City,https://deped-divisionofborongancity.com/,deped-divisionofborongancity.com,local
@@ -75,7 +75,7 @@ government_agency,Department of Education Cordillera Administrative Regional Off
 government_agency,Schools Division Office of Cabuyao City,https://www.deped.gov.ph/cabuyao/,deped.gov.ph,local
 government_agency,Department of Education Regional Office V,https://www.deped.gov.ph/regions/region-v/,deped.gov.ph,central-1
 government_agency,Schools Division Office of Bataan,https://www.deped.gov.ph/sdo-bataan/,deped.gov.ph,local
-ministry,Department of Education,https://deped.gov.ph,deped.gov.ph,
+ministry,Department of Education,https://deped.gov.ph,deped.gov.ph,central
 government_agency,Department of Education,https://deped.gov.ph,deped.gov.ph,central
 government_agency,Department of Education Regional Office I,https://www.deped.gov.ph/regions/region-i/,deped.gov.ph,central-1
 government_agency,Schools Division Office of Tagum City,https://deped.tagumcity.gov.ph/,deped.tagumcity.gov.ph,local
@@ -224,39 +224,41 @@ government_agency,Schools Division Office of Zamboanga Sibugay,https://www.deped
 government_agency,Schools Division Office of Zamboanga del Norte,https://depedzn.net/,depedzn.net,local
 government_agency,Design Center of the Philippines,https://www.designcenter.gov.ph/,designcenter.gov.ph,
 government_agency,Department of Foreign Affairs,https://www.dfa.gov.ph,dfa.gov.ph,central
-ministry,Department of Foreign Affairs,https://www.dfa.gov.ph,dfa.gov.ph,
+ministry,Department of Foreign Affairs,https://www.dfa.gov.ph,dfa.gov.ph,central
 government_agency,Department of Human Settlements and Urban Development,https://dhsud.gov.ph/,dhsud.gov.ph,central
-ministry,Department of Human Settlements and Urban Development,https://dhsud.gov.ph/,dhsud.gov.ph,
+ministry,Department of Human Settlements and Urban Development,https://dhsud.gov.ph/,dhsud.gov.ph,central
 government_agency,Department of Information and Communications Technology,https://dict.gov.ph/,dict.gov.ph,central
-ministry,Department of Information and Communications Technology,https://dict.gov.ph/,dict.gov.ph,
+ministry,Department of Information and Communications Technology,https://dict.gov.ph/,dict.gov.ph,central
 government_agency,Department of the Interior and Local Government,https://dilg.gov.ph/,dilg.gov.ph,central
-ministry,Department of the Interior and Local Government,https://dilg.gov.ph/,dilg.gov.ph,
+ministry,Department of the Interior and Local Government,https://dilg.gov.ph/,dilg.gov.ph,central
 government_agency,Philippine Commission on Sports Scuba Diving,https://divephilippines.com.ph/,divephilippines.com.ph,
 government_agency,Schools Division Office of Sultan Kudarat,https://divisionsk.org/,divisionsk.org,local
-ministry,Department of Migrant Workers,https://dmw.gov.ph,dmw.gov.ph,
+ministry,Department of Migrant Workers,https://dmw.gov.ph,dmw.gov.ph,central
 government_agency,Department of Migrant Workers,https://dmw.gov.ph,dmw.gov.ph,central
 government_agency,Department of National Defense,http://www.dnd.gov.ph,dnd.gov.ph,central
-ministry,Department of National Defense,http://www.dnd.gov.ph,dnd.gov.ph,
+ministry,Department of National Defense,http://www.dnd.gov.ph,dnd.gov.ph,central
 government_agency,Department of Energy,https://www.doe.gov.ph,doe.gov.ph,central
-ministry,Department of Energy,https://www.doe.gov.ph,doe.gov.ph,
-ministry,Department of Finance,http://www.dof.gov.ph/,dof.gov.ph,
+ministry,Department of Energy,https://www.doe.gov.ph,doe.gov.ph,central
+ministry,Department of Finance,http://www.dof.gov.ph/,dof.gov.ph,central
 government_agency,Department of Finance,http://www.dof.gov.ph/,dof.gov.ph,central
 government_agency,Philippine Tax Academy,https://doftaxacademy.gov.ph/,doftaxacademy.gov.ph,
 government_agency,Department of Health,https://doh.gov.ph,doh.gov.ph,central
+ministry,Department of Health,https://doh.gov.ph,doh.gov.ph,central
 ministry,Department of Health of the Philippines,https://doh.gov.ph,doh.gov.ph,
 government_agency,Department of Justice,http://doj.gov.ph,doj.gov.ph,central
 ministry,Department of Justice (Philippines),http://doj.gov.ph,doj.gov.ph,
-ministry,Department of Labor and Employment,https://www.dole.gov.ph,dole.gov.ph,
+ministry,Department of Justice,http://doj.gov.ph,doj.gov.ph,central
+ministry,Department of Labor and Employment,https://www.dole.gov.ph,dole.gov.ph,central
 government_agency,Department of Labor and Employment,https://www.dole.gov.ph,dole.gov.ph,central
-ministry,Department of Science and Technology,https://www.dost.gov.ph,dost.gov.ph,
+ministry,Department of Science and Technology,https://www.dost.gov.ph,dost.gov.ph,central
 government_agency,Department of Science and Technology,https://www.dost.gov.ph,dost.gov.ph,central
-ministry,Department of Transportation,https://dotr.gov.ph/,dotr.gov.ph,
+ministry,Department of Transportation,https://dotr.gov.ph/,dotr.gov.ph,central
 government_agency,Department of Transportation,https://dotr.gov.ph/,dotr.gov.ph,central
-ministry,Department of Public Works and Highways,https://www.dpwh.gov.ph/dpwh/,dpwh.gov.ph,
+ministry,Department of Public Works and Highways,https://www.dpwh.gov.ph/dpwh/,dpwh.gov.ph,central
 government_agency,Department of Public Works and Highways,https://www.dpwh.gov.ph/dpwh/,dpwh.gov.ph,central
-ministry,Department of Social Welfare and Development,https://www.dswd.gov.ph,dswd.gov.ph,
+ministry,Department of Social Welfare and Development,https://www.dswd.gov.ph,dswd.gov.ph,central
 government_agency,Department of Social Welfare and Development,https://www.dswd.gov.ph,dswd.gov.ph,central
-ministry,Department of Trade and Industry,https://www.dti.gov.ph/,dti.gov.ph,
+ministry,Department of Trade and Industry,https://www.dti.gov.ph/,dti.gov.ph,central
 government_agency,Department of Trade and Industry,https://www.dti.gov.ph/,dti.gov.ph,central
 government_agency,Technical Education and Skills Development Authority,https://e-tesda.gov.ph,e-tesda.gov.ph,
 government_agency,Employees' Compensation Commission,https://ecc.gov.ph/,ecc.gov.ph,
@@ -316,6 +318,7 @@ government_agency,Land Transportation Franchising and Regulatory Board,https://l
 government_agency,Local Water Utilities Administration,http://www.lwua.gov.ph/,lwua.gov.ph,
 government_agency,Schools Division Office of Mountain Province,https://m.depedcar.ph/sdo-s/mtprovince,m.depedcar.ph,local
 government_agency,"Ministry of Agriculture, Fisheries and Agrarian Reform",https://mafar.bangsamoro.gov.ph/,mafar.bangsamoro.gov.ph,central-1
+ministry,"Ministry of Agriculture, Fisheries and Agrarian Reform",https://mafar.bangsamoro.gov.ph/,mafar.bangsamoro.gov.ph,central-1
 government_agency,Philippine Creative Industries Development Council,https://www.malikhaingpinoy.ph/government-agency/the-philippine-creative-industries-development-council-pcidc/,malikhaingpinoy.ph,
 government_agency,"Embassy of Turkey, Manila",https://manila-be.mfa.gov.tr,manila-be.mfa.gov.tr,central
 government_agency,"Embassy of Germany, Manila",https://manila.diplo.de/,manila.diplo.de,central
@@ -331,13 +334,16 @@ government_agency,embassy of Greece in the Philippines,https://www.mfa.gr/missio
 government_agency,"Embassy of New Zealand, Manila",https://www.mfat.govt.nz/en/countries-and-regions/south-east-asia/the-philippines/new-zealand-embassy/,mfat.govt.nz,central
 government_agency,Mines and Geosciences Bureau,https://mgb.gov.ph/,mgb.gov.ph,
 government_agency,Movie and Television Review and Classification Board,https://midas.mtrcb.gov.ph/,midas.mtrcb.gov.ph,
+ministry,"Ministry of Basic, Higher and Technical Education",https://min-edu.bangsamoro.gov.ph/,min-edu.bangsamoro.gov.ph,central-1
 government_agency,"Ministry of Basic, Higher and Technical Education",https://min-edu.bangsamoro.gov.ph/,min-edu.bangsamoro.gov.ph,central-1
 government_agency,Mindanao Development Authority,https://minda.gov.ph,minda.gov.ph,local
 government_agency,Metals Industry Research and Development Center,https://mirdc.dost.gov.ph/,mirdc.dost.gov.ph,
 government_agency,Metropolitan Manila Development Authority,https://mmda.gov.ph,mmda.gov.ph,central-1
 government_agency,"Embassy of the United Arab Emirates, Manila",https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=ea7d8449-e62a-44d6-ae23-360b3ae6a610,mofaic.gov.ae,central
+ministry,Ministry of Health,http://moh.bangsamoro.gov.ph/,moh.bangsamoro.gov.ph,central-1
 government_agency,Ministry of Health,http://moh.bangsamoro.gov.ph/,moh.bangsamoro.gov.ph,central-1
 government_agency,Manila Police District,https://mpd.ncrpo.pnp.gov.ph/,mpd.ncrpo.pnp.gov.ph,
+ministry,Ministry of Public Works,https://mpw.bangsamoro.gov.ph,mpw.bangsamoro.gov.ph,central-1
 government_agency,Ministry of Public Works,https://mpw.bangsamoro.gov.ph,mpw.bangsamoro.gov.ph,central-1
 government_agency,Metropolitan Waterworks and Sewerage System,https://mwss.gov.ph,mwss.gov.ph,
 government_agency,Subic Bay Metropolitan Authority,https://www.mysubicbay.com.ph/,mysubicbay.com.ph,
@@ -525,9 +531,9 @@ government_agency,Tariff Commission,https://tariffcommission.gov.ph/,tariffcommi
 government_agency,Technical Education and Skills Development Authority,https://tesda.gov.ph,tesda.gov.ph,
 government_agency,"embassy of Thailand, Manila",https://www.thaiembassymnl.ph/,thaiembassymnl.ph,
 government_agency,Department of Tourism,https://www.tourism.gov.ph/,tourism.gov.ph,central
-ministry,Department of Tourism,https://www.tourism.gov.ph/,tourism.gov.ph,
+ministry,Department of Tourism,https://www.tourism.gov.ph/,tourism.gov.ph,central
 government_agency,Tourism Promotions Board,https://tpb.gov.ph/,tpb.gov.ph,
-ministry,Bureau of the Treasury,https://www.treasury.gov.ph/,treasury.gov.ph,
+ministry,Bureau of the Treasury,https://www.treasury.gov.ph/,treasury.gov.ph,central
 government_agency,Bureau of the Treasury,https://www.treasury.gov.ph/,treasury.gov.ph,central
 government_agency,Schools Division Office of Valencia City,https://valenciacity.deped.gov.ph/,valenciacity.deped.gov.ph,local
 government_agency,National Library of the Philippines,https://web.nlp.gov.ph/,web.nlp.gov.ph,

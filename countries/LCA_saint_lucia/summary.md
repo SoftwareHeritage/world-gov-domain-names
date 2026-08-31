@@ -35,9 +35,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `health.govt.lc` | wikidata;wikidata | Ministry of Health and Wellness |
 | 8 | `parliament.govt.lc` | wikidata;wikidata | Parliament of Saint Lucia |
 | 7 | `govt.lc` | un_desa | UN/DESA national portal |
-| 5 | `health.govt.lc` | wikidata | Ministry of Health and Wellness |
 | 3 | `eccb-centralbank.org` | wikidata | Eastern Caribbean Central Bank |
 | 3 | `lc.ambafrance.org` | wikidata | Embassy of France in Castries |
 | 3 | `slbs.org` | wikidata | Saint Lucia Bureau of Standards |

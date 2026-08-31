@@ -30,15 +30,19 @@
 
 ## Candidate domains ranked by score
 
-72 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+73 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `adpolice.gov.ae` | wikidata;wikidata | Abu Dhabi Police |
 | 8 | `almajles.gov.ae` | wikidata;wikidata | Federal National Council |
-| 8 | `moccae.gov.ae` | wikidata;wikidata | Ministry of Climate Change and Environment |
-| 8 | `mofaic.gov.ae` | wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation | Ministry of Forei... |
+| 8 | `economy.gov.ae` | wikidata;wikidata | Ministry of Economy |
+| 8 | `moe.gov.ae` | wikidata;wikidata | Ministry of Education |
+| 8 | `mof.gov.ae` | wikidata;wikidata | Ministry of Finance |
+| 8 | `mofaic.gov.ae` | wikidata;wikidata;wikidata;wikidata | Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and Inte... |
+| 8 | `moh.gov.ae` | wikidata;wikidata | Ministry of Health and Prevention |
+| 8 | `mohesr.gov.ae` | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
 | 8 | `nma.gov.ae` | wikidata;wikidata | National Media Authority |
 | 8 | `space.gov.ae` | wikidata;wikidata | United Arab Emirates Space Agency |
 | 7 | `wam.ae` | wikidata;wikidata | Emirates News Agency |
@@ -50,11 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `dewa.gov.ae` | wikidata | Dubai Electricity and Water Authority |
 | 5 | `dha.gov.ae` | wikidata | Dubai Health Authority |
 | 5 | `dubaipolice.gov.ae` | wikidata | Dubai Police Force |
-| 5 | `economy.gov.ae` | wikidata | Ministry of Economy |
 | 5 | `emi.qcc.gov.ae` | wikidata | Emirates Metrology Institute |
-| 5 | `etcc.gov.ae` | wikidata | Q138571897 |
-| 5 | `fanr.gov.ae` | wikidata | Federal Authority for Nuclear Regulation |
-| 5 | `fcsa.gov.ae` | wikidata | Federal Competitiveness and Statistics Authority |
 
 ## Local / regional candidates
 

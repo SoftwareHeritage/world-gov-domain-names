@@ -56,6 +56,21 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj regex                 # email-domain regexes -> data/domain-regexes.csv
 #+end_src
 
+Two more side scripts share the same layout:
+
+- =scripts/detect-from-directories.clj= (=bb directories harvest [C…]=)
+  harvests the machine-readable official directories of public bodies
+  (declarative =directory-specs=, one entry per country: NO, DE, IT,
+  CA, NL, UK, PL). Depending on the spec's =:channel= it writes
+  =sources/registry/roots.csv= (authoritative central scoping, entering
+  the central file directly) or =sources/directory/orgs.csv= (feeding
+  =candidates.csv= with a +4 bonus and the =directory= source tag).
+  Unlike the two others it serves the core goal; it lives apart only
+  to keep =pipeline.clj= lean.
+- =scripts/detect-universities.clj= (=bb universities fetch|migrate=)
+  keeps the strictly public universities as a parked dataset in
+  =data/public-universities.csv=, out of the pipeline's scope.
+
 Forge and source-code-catalog detection lives in its own script,
 =scripts/detect-forges.clj= (=bb forges <command>=): it shares the
 harvested data of this repository but serves the Software Heritage

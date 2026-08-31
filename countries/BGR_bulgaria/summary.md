@@ -53,8 +53,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `justice.government.bg` | wikidata;wikidata | Ministry of Justice |
 | 7 | `kzp.bg` | wikidata;linkgraph | Consumer Protection Commission |
 | 7 | `mi.government.bg` | wikidata;wikidata | Ministry of Economy and Industry |
+| 7 | `midt.bg` | wikidata;wikidata | Ministry of Innovation and Digital Transformation |
 | 7 | `mig.government.bg` | wikidata;wikidata | Ministry of Innovation and Growth |
-| 7 | `nra.bg` | wikidata;linkgraph | National Revenue Agency |
 
 ## Local / regional candidates
 

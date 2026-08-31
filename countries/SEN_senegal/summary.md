@@ -36,7 +36,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `assemblee-nationale.sn` | wikidata;wikidata | National Assembly |
-| 7 | `mesrisenegal.sn` | wikidata;wikidata | Q139297158 | Ministry of Higher Education, Research and Innovation of Senegal |
+| 7 | `education.sn` | wikidata;wikidata | Ministry of National Education of Senegal |
+| 7 | `mctn.sn` | wikidata;wikidata | Ministry of Telecommunications and Digital Affairs of Senegal |
 | 6 | `escolapiesinstitutions.org` | wikidata;wikidata | Piarist province of West Africa |
 | 4 | `anacim.sn` | wikidata | Agence Nationale de l'Aviation Civile du Sénégal |
 | 4 | `ansd.sn` | wikidata | Agence Nationale de la Statistique et de la Démographie |
@@ -44,17 +45,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `conseilconstitutionnel.sn` | wikidata | Q2993691 |
 | 4 | `dge.sn` | wikidata | Q140275459 |
 | 4 | `douanes.sn` | wikidata | Q140315305 |
-| 4 | `education.sn` | wikidata | Ministry of National Education of Senegal |
 | 4 | `gendarmerie.sn` | wikidata | Gendarmerie of Senegal |
 | 4 | `hcct.sn` | wikidata | Q121668717 |
 | 4 | `international.gouv.qc.ca` | wikidata | general delegation of Quebec in Dakar |
-| 4 | `mctn.sn` | wikidata | Ministry of Telecommunications and Digital Affairs of Senegal |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Dakar |
 | 4 | `onas.sn` | wikidata | National Office for Sanitation of Senegal |
 | 4 | `sip.sn` | wikidata | Commune de Matam |
 | 4 | `sn.usembassy.gov` | wikidata | Embassy of the United States, Dakar |
 | 4 | `statsenegal.sn` | wikidata | Système Statistique National du Sénégal |
 | 3 | `amba-senegal.ga` | wikidata | Gabonese Embassy in Senegal |
+| 3 | `ambaburkina-sn.org` | wikidata | embassy of Burkina Faso in Senegal |
 
 ## Local / regional candidates
 

@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-955 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+956 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -46,7 +46,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `nsandi.com` | wikidata;wikidata;directory | National Savings and Investments |
 | 10 | `ofcom.org.uk` | wikidata;linkgraph;directory | Ofcom |
 | 10 | `ombudsman.org.uk` | wikidata;linkgraph;directory | Parliamentary and Health Service Ombudsman |
-| 10 | `ordnancesurvey.co.uk` | wikidata;wikidata;linkgraph;directory | British Ordnance Survey |
+| 10 | `ordnancesurvey.co.uk` | wikidata;wikidata;wikidata;linkgraph;directory | British Ordnance Survey |
 | 10 | `parliament.uk` | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | House of Commons | Parliament of the United Kingdom | House of Lords |
 | 10 | `rbht.nhs.uk` | wikidata;wikidata;linkgraph | NIHR Royal Brompton Cardiovascular Biomedical Research Unit | NIHR Royal Brom... |
 | 9 | `hee.nhs.uk` | wikidata;linkgraph | Health Education England |
@@ -58,12 +58,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-316 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 114 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+317 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 114 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `gov.scot` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph;directory | His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | ... |
-| 10 | `gov.wales` | wikidata;wikidata;wikidata;linkgraph;directory | Department for Education and Skills | Welsh Government |
+| 10 | `gov.wales` | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Department for Education and Skills | Welsh Government |
 | 9 | `llyw.cymru` | wikidata;wikidata;linkgraph | Welsh Government |
 | 9 | `senedd.wales` | wikidata;wikidata;wikidata;linkgraph | Senedd |
 | 8 | `forestryengland.uk` | wikidata;directory | Forestry England |

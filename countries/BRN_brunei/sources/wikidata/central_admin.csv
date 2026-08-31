@@ -2,6 +2,7 @@ type,label,website,hostname,level
 government_agency,"Attorney General's Chambers, Prime Minister's Office, Brunei Darussalam",https://www.agc.gov.bn,agc.gov.bn,central
 government_agency,Authority for Info-communications Technology Industry,https://www.aiti.gov.bn/,aiti.gov.bn,
 government_agency,"Embassy of France, Bandar Seri Begawan",http://www.ambafrance-bn.org/,ambafrance-bn.org,central
+government_agency,Brunei Darussalam Central Bank,http://www.ambd.gov.bn,ambd.gov.bn,
 government_agency,Monetary Authority of Brunei Darussalam,http://www.ambd.gov.bn,ambd.gov.bn,
 government_agency,"Embassy of Turkey, Bandar Seri Begawan",https://bandar-be.mfa.gov.tr,bandar-be.mfa.gov.tr,central
 government_agency,"Embassy of Germany, Bandar Seri Begawan",https://bandar-seri-begawan.diplo.de,bandar-seri-begawan.diplo.de,central
@@ -15,11 +16,11 @@ government_agency,High commission of Canada in Brunei,https://www.canadainternat
 supreme_court,Legislative Council of Brunei,http://www.councils.gov.bn/,councils.gov.bn,central
 parliament,Legislative Council of Brunei,http://www.councils.gov.bn/,councils.gov.bn,central
 government_agency,Dewan Bahasa dan Pustaka Brunei,http://www.dbp.gov.bn,dbp.gov.bn,
-ministry,Department of Economic Planning and Development,http://www.depd.gov.bn/,depd.gov.bn,
+ministry,Department of Economic Planning and Development,http://www.depd.gov.bn/,depd.gov.bn,central
 government_agency,Department of Economic Planning and Development,http://www.depd.gov.bn/,depd.gov.bn,central
 government_agency,Department of Economic Planning and Statistics,http://www.deps.gov.bn/Theme/Home.aspx,deps.gov.bn,
 government_agency,Ministry of Energy (Energy and Manpower) and Industry,http://www.ei.gov.bn,ei.gov.bn,central
-ministry,Ministry of Energy (Energy and Manpower) and Industry,http://www.ei.gov.bn,ei.gov.bn,
+ministry,Ministry of Energy (Energy and Manpower) and Industry,http://www.ei.gov.bn,ei.gov.bn,central
 government_agency,Dewan Bahasa dan Pustaka Brunei,http://gerbangbahasa.gov.bn,gerbangbahasa.gov.bn,
 government_agency,Maritime and Port Authority of Brunei Darussalam,https://www.gov.bn/directories/MPA.aspx,gov.bn,
 government_agency,British High Commission Bandar Seri Begawan,https://www.gov.uk/world/organisations/british-high-commission-bandar-seri-begawan,gov.uk,central
@@ -28,36 +29,38 @@ government_agency,Internal Security Department,http://www.internal-security.gov.
 government_agency,Prime Minister's Office,http://www.jpm.gov.bn/Theme/Home.aspx,jpm.gov.bn,
 government_agency,"embassy of Indonesia, Bandar Seri Begawan",https://www.kemlu.go.id/bandarseribegawan,kemlu.go.id,central
 government_agency,"embassy of Indonesia, Bandar Seri Begawan",https://kemlu.go.id/bandarseribegawan,kemlu.go.id,central
-ministry,Ministry of Home Affairs of Brunei,http://www.khedn.gov.bn,khedn.gov.bn,
+ministry,Ministry of Home Affairs of Brunei,http://www.khedn.gov.bn,khedn.gov.bn,central
 government_agency,Ministry of Home Affairs of Brunei,http://www.khedn.gov.bn,khedn.gov.bn,central
-ministry,"Ministry of Culture, Youth and Sports",http://kkbs.gov.bn,kkbs.gov.bn,
+ministry,"Ministry of Culture, Youth and Sports",http://kkbs.gov.bn,kkbs.gov.bn,central
 government_agency,"Ministry of Culture, Youth and Sports",http://kkbs.gov.bn,kkbs.gov.bn,central
-ministry,Ministry of Foreign Affairs,http://www.mfa.gov.bn,mfa.gov.bn,
+government_agency,Brunei Darussalam Meteorological Department,https://www.met.gov.bn,met.gov.bn,
+ministry,Ministry of Foreign Affairs,http://www.mfa.gov.bn,mfa.gov.bn,central
 government_agency,Ministry of Foreign Affairs,http://www.mfa.gov.bn,mfa.gov.bn,central
 government_agency,high commission of Singapore in Brunei,https://www.mfa.gov.sg/Brunei,mfa.gov.sg,central
-ministry,Ministry of Defence Brunei Darussalam,https://MinDef.gov.bn,mindef.gov.bn,
+ministry,Ministry of Defence Brunei Darussalam,https://MinDef.gov.bn,mindef.gov.bn,central
 government_agency,Ministry of Defence Brunei Darussalam,https://MinDef.gov.bn,mindef.gov.bn,central
 government_agency,Ministry of Development,http://www.mod.gov.bn,mod.gov.bn,central
-ministry,Ministry of Development,http://www.mod.gov.bn,mod.gov.bn,
-ministry,Ministry of Education,http://moe.gov.bn/Theme/Home.aspx,moe.gov.bn,
+ministry,Ministry of Development,http://www.mod.gov.bn,mod.gov.bn,central
+ministry,Ministry of Education,http://moe.gov.bn/Theme/Home.aspx,moe.gov.bn,central
 government_agency,Ministry of Education,http://moe.gov.bn/Theme/Home.aspx,moe.gov.bn,central
 government_agency,Ministry of Education,http://www.moe.gov.bn,moe.gov.bn,central
-ministry,Ministry of Education,http://www.moe.gov.bn,moe.gov.bn,
+ministry,Ministry of Education,http://www.moe.gov.bn,moe.gov.bn,central
 government_agency,Brunei Darussalam National Commission for UNESCO,https://www.moe.gov.bn/,moe.gov.bn,
 government_agency,Ministry of Finance and Economy,https://www.mofe.gov.bn/,mofe.gov.bn,central
-ministry,Ministry of Finance and Economy,https://www.mofe.gov.bn/,mofe.gov.bn,
+ministry,Ministry of Finance and Economy,https://www.mofe.gov.bn/,mofe.gov.bn,central
 government_agency,Measurement Standards Section,https://www.moh.gov.bn/SitePages/MeasurementStandardsSectionDSS.aspx,moh.gov.bn,
-ministry,Ministry of Health,http://www.moh.gov.bn,moh.gov.bn,
+ministry,Ministry of Health,http://www.moh.gov.bn,moh.gov.bn,central
 government_agency,Ministry of Health,http://www.moh.gov.bn,moh.gov.bn,central
+government_agency,Department of Scientific Services,https://moh.gov.bn/facilities/department-of-scienfic-services/,moh.gov.bn,
 government_agency,Ministry of Religious Affairs,http://www.mora.gov.bn,mora.gov.bn,central
-ministry,Ministry of Religious Affairs,http://www.mora.gov.bn,mora.gov.bn,
+ministry,Ministry of Religious Affairs,http://www.mora.gov.bn,mora.gov.bn,central
 government_agency,Ministry of Primary Resources and Tourism,http://www.mprt.gov.bn,mprt.gov.bn,central
-ministry,Ministry of Primary Resources and Tourism,http://www.mprt.gov.bn,mprt.gov.bn,
-ministry,Ministry of Transport and Infocommunications of Brunei,https://www.mtic.gov.bn/,mtic.gov.bn,
+ministry,Ministry of Primary Resources and Tourism,http://www.mprt.gov.bn,mprt.gov.bn,central
+ministry,Ministry of Transport and Infocommunications of Brunei,https://www.mtic.gov.bn/,mtic.gov.bn,central
 government_agency,Ministry of Transport and Infocommunications of Brunei,https://www.mtic.gov.bn/,mtic.gov.bn,central
 government_agency,Brunei State Mufti Department,https://www.mufti.gov.bn/,mufti.gov.bn,
 government_agency,"Embassy of the Philippines, Bandar Seri Begawan",http://www.philippine-embassybrunei.com,philippine-embassybrunei.com,central
-ministry,Prime Minister's Office,https://www.pmo.gov.bn/,pmo.gov.bn,
+ministry,Prime Minister's Office,https://www.pmo.gov.bn/,pmo.gov.bn,central
 government_agency,Prime Minister's Office,https://www.pmo.gov.bn/,pmo.gov.bn,central
 government_agency,Royal Brunei Police Force,http://www.police.gov.bn/,police.gov.bn,
 government_agency,Taipei Economic and Cultural Office in Brunei Darussalam,http://www.roc-taiwan.org/bn_en/index.html,roc-taiwan.org,central

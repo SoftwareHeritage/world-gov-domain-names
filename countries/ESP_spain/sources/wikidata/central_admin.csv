@@ -143,6 +143,8 @@ government_agency,town hall of Artà,http://www.arta.cat/,arta.cat,local
 government_agency,Q58947404,http://www.artea-udala.org,artea-udala.org,local
 government_agency,Q58946113,http://www.artzentales.org,artzentales.org,local
 government_agency,Q58944578,http://www.artziniegakoudala.com,artziniegakoudala.com,local
+parliament,Assembly of Extremadura,https://www.asambleaex.es,asambleaex.es,central-1
+supreme_court,Assembly of Extremadura,https://www.asambleaex.es,asambleaex.es,central-1
 parliament,Assembly of Madrid,http://www.asambleamadrid.es/,asambleamadrid.es,central-1
 supreme_court,Assembly of Madrid,http://www.asambleamadrid.es/,asambleamadrid.es,central-1
 government_agency,Q58943598,http://www.asparrena.eus,asparrena.eus,local
@@ -190,6 +192,7 @@ government_agency,Q60051743,https://www.aytosotoyamio.es/,aytosotoyamio.es,local
 government_agency,Trescasas City Council,https://www.aytotrescasas.es/,aytotrescasas.es,local
 government_agency,Ayuntamiento de Valdemorillo,https://www.aytovaldemorillo.net/,aytovaldemorillo.net,local
 government_agency,Cuenca City Council,http://ayuntamiento.cuenca.es/,ayuntamiento.cuenca.es,local
+government_agency,Q5714818,http://ayuntamiento.cuenca.es/,ayuntamiento.cuenca.es,local
 government_agency,Q58943966,http://www.ayuntamiento.elburgo-burgelu.com,ayuntamiento.elburgo-burgelu.com,local
 government_agency,Ayuntamiento de Guadarrama,http://www.ayuntamientodeguadarrama.es/,ayuntamientodeguadarrama.es,local
 government_agency,Q58944262,https://www.ayuntamientodeleza.com,ayuntamientodeleza.com,local
@@ -393,10 +396,13 @@ government_agency,Comarcal Council of Segarra,http://www.ccsegarra.cat/,ccsegarr
 constitutional_court,Comarcal Council of Vallès Occidental,http://www.ccvoc.cat/,ccvoc.cat,local
 government_agency,Comarcal Council of Vallès Occidental,http://www.ccvoc.cat/,ccvoc.cat,local
 supreme_court,Cortes of Castile-La Mancha,https://www.ccyl.es/,ccyl.es,central-1
+parliament,Cortes of Castile and León,https://www.ccyl.es,ccyl.es,central-1
 parliament,Cortes of Castile-La Mancha,https://www.ccyl.es/,ccyl.es,central-1
+supreme_court,Cortes of Castile and León,https://www.ccyl.es,ccyl.es,central-1
 government_agency,Centro de Referencia Estatal de Autonomía Personal y Ayudas Técnicas,http://www.ceapat.es/,ceapat.es,
 government_agency,Q63770810,http://www.ceei.es/,ceei.es,
 government_agency,"Ministry of Economy and Industry, Galicia",http://ceei.xunta.gal/portada,ceei.xunta.gal,central-1
+ministry,"Ministry of Economy and Industry, Galicia",http://ceei.xunta.gal/portada,ceei.xunta.gal,central-1
 government_agency,"Ministry of Education, Culture and Sport of the Valencian Government",http://www.ceice.gva.es/,ceice.gva.es,
 government_agency,"Ministry of Education, Research, Culture and Sport",http://www.ceice.gva.es/inicio,ceice.gva.es,
 ministry,"Ministry of Education, Culture and Sport of the Valencian Government",http://www.ceice.gva.es/,ceice.gva.es,
@@ -435,17 +441,19 @@ government_agency,Q93883381,http://www.ciemat.es/portal.do?IDM=6&NM=2,ciemat.es,
 government_agency,"Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas",http://www.ciemat.es/,ciemat.es,
 government_agency,Ministry of Science of Spain,https://www.ciencia.gob.es/,ciencia.gob.es,central
 government_agency,"Ministry of Science, Innovation and Universities",https://www.ciencia.gob.es/,ciencia.gob.es,central
-ministry,Ministry of Science of Spain,https://www.ciencia.gob.es/,ciencia.gob.es,
+ministry,Ministry of Science of Spain,https://www.ciencia.gob.es/,ciencia.gob.es,central
 government_agency,"Secretariat of State for Universities, Research, Development and Innovation of Spain",http://www.ciencia.gob.es/,ciencia.gob.es,
-ministry,"Ministry of Science, Innovation and Universities",https://www.ciencia.gob.es/,ciencia.gob.es,
+ministry,"Ministry of Science, Innovation and Universities",https://www.ciencia.gob.es/,ciencia.gob.es,central
 government_agency,Centro de Investigación y Formación Agrarias,https://www.cifacantabria.org,cifacantabria.org,
 government_agency,Q11913794,http://www.cimalsa.cat/,cimalsa.cat,
 government_agency,Cajal International Neuroscience Center,https://www.cinc.csic.es,cinc.csic.es,
+ministry,"Ministry of Sustainable Economy, Productive Sectors, Trade and Labour",https://cindi.gva.es/va/inicio,cindi.gva.es,central-1
 government_agency,"Ministry of Sustainable Economy, Productive Sectors, Trade and Labour",https://cindi.gva.es/va/inicio,cindi.gva.es,central-1
 government_agency,Consorcio Interuniversitario do Sistema Universitario de Galicia (CISUG),https://www.cisug.gal,cisug.gal,
 government_agency,Ciudad Real City Council,http://www.ciudadreal.es/,ciudadreal.es,local
 government_agency,Sant Feliu de Guíxols Town Council,http://ciutada.guixols.cat,ciutada.guixols.cat,local
 government_agency,Q121735330,https://cjusticia.gva.es/va/,cjusticia.gva.es,central-1
+ministry,Q121735330,https://cjusticia.gva.es/va/,cjusticia.gva.es,central-1
 government_agency,Q38895755,http://www.clasespasivas.sepg.pap.minhafp.gob.es/sitios/clasespasivas/es-ES/Paginas/Inicio.aspx,clasespasivas.sepg.pap.minhafp.gob.es,central
 government_agency,Centro Nacional de Inteligencia,https://www.cni.es,cni.es,
 government_agency,Centro Nacional de Información Geográfica,https://www.cnig.es,cnig.es,
@@ -496,6 +504,7 @@ parliament,Corts Valencianes,http://www.cortsvalencianes.es,cortsvalencianes.es,
 supreme_court,Corts Valencianes,http://www.cortsvalencianes.es,cortsvalencianes.es,central-1
 government_agency,Coruña City Council,http://www.coruna.gal/,coruna.gal,local
 government_agency,"Ministry of Presidency, Civil Service and Justice",http://cpapx.xunta.es/portal/,cpapx.xunta.es,central-1
+ministry,"Ministry of Presidency, Civil Service and Justice",http://cpapx.xunta.es/portal/,cpapx.xunta.es,central-1
 government_agency,Center for Research in Agricultural Genomics,http://www.cragenomica.es/,cragenomica.es,
 government_agency,Consorcio Regional de Transportes de Madrid,https://www.crtm.es/,crtm.es,
 government_agency,Corporación de Servizos Audiovisuais de Galicia,https://www.crtvg.gal,crtvg.gal,
@@ -519,7 +528,7 @@ government_agency,Añana City council,http://www.cuadrilladeanana.es/anana,cuadr
 government_agency,Q58943196,http://www.cuadrilladeanana.es/arminon,cuadrilladeanana.es,local
 government_agency,National Police University Training Centre,https://www.cufpn.es/_es/,cufpn.es,
 government_agency,Q11914914,https://cultura.gencat.cat/ca/temes/arxius-i-gestio-documental/cnaatd/,cultura.gencat.cat,
-ministry,Ministry of Culture of Spain,https://www.cultura.gob.es/,cultura.gob.es,
+ministry,Ministry of Culture of Spain,https://www.cultura.gob.es/,cultura.gob.es,central
 government_agency,General Directorate of Cultural Heritage and Fine Arts,https://www.cultura.gob.es/cultura/mc/bellasartes/portada.html,cultura.gob.es,
 government_agency,Ministry of Culture of Spain,https://www.cultura.gob.es/,cultura.gob.es,central
 ministry,Q120542741,https://culturadigital.blog.gencat.cat/,culturadigital.blog.gencat.cat,
@@ -539,7 +548,7 @@ constitutional_court,Diputación Provincial de Gerona,https://www.ddgi.cat/web/,
 government_agency,Diputación Provincial de Gerona,http://www.ddgi.cat/,ddgi.cat,local
 government_agency,Q59145514,http://www.deba.eus,deba.eus,local
 government_agency,Undersecretariat of Defence of Spain,http://www.defensa.gob.es/ministerio/organigrama/subdef/,defensa.gob.es,
-ministry,Ministry of Defence of Spain,https://www.defensa.gob.es/,defensa.gob.es,
+ministry,Ministry of Defence of Spain,https://www.defensa.gob.es/,defensa.gob.es,central
 government_agency,Ministry of Defence of Spain,https://www.defensa.gob.es/,defensa.gob.es,central
 government_agency,Secretariat of State of Defence of Spain,http://www.defensa.gob.es/,defensa.gob.es,central
 government_agency,"Government Delegation of the Generalitat, Madrid",http://delegaciomadrid.gencat.cat,delegaciomadrid.gencat.cat,
@@ -565,6 +574,7 @@ government_agency,Provincial Deputation of Barcelona,https://www.diba.cat/,diba.
 government_agency,Xarxa de Biblioteques Municipals,http://www.diba.cat/web/biblioteques/xarxa-de-biblioteques-municipals,diba.cat,
 constitutional_court,Provincial Deputation of Barcelona,https://www.diba.cat/,diba.cat,local
 ministry,Ministry of Digital Transformation,https://digital.gob.es/,digital.gob.es,
+ministry,Ministry for Digital and Civil Service Transformation,https://digital.gob.es/,digital.gob.es,
 government_agency,Ministry for Digital and Civil Service Transformation,https://digital.gob.es/,digital.gob.es,
 government_agency,Q58945554,http://www.dima.eus,dima.eus,local
 government_agency,Diputación Provincial de Badajoz,https://www.dip-badajoz.es/,dip-badajoz.es,local
@@ -637,8 +647,10 @@ constitutional_court,Diputación Provincial de Teruel,http://www.dpteruel.es/,dp
 government_agency,Zaragoza Provincial Deputation Fire Department,http://www.dpz.es/areas/area-de-servicios-y-desarrollo-municipal/servicio-provincial-de-extincion-de-incendios,dpz.es,local
 constitutional_court,Provincial Deputation of Zaragoza,http://www.dpz.es/,dpz.es,local
 government_agency,Provincial Deputation of Zaragoza,http://www.dpz.es/,dpz.es,local
+ministry,Departament de Drets Socials de la Generalitat de Catalunya,http://dretssocials.gencat.cat/,dretssocials.gencat.cat,central-1
 government_agency,Departament de Drets Socials de la Generalitat de Catalunya,http://dretssocials.gencat.cat/,dretssocials.gencat.cat,central-1
 government_agency,Institut Català de l'Acolliment i de l'Adopció,https://dretssocials.gencat.cat/ca/el_departament/adreces_i_telefons/seus_i_serveis_territorials/institut_catala_de_lacolliment_i_de_ladopcio/index.html,dretssocials.gencat.cat,
+ministry,Ministry of Social Affairs,https://www.dsca.gob.es/,dsca.gob.es,central
 ministry,"Ministry for Social Rights, Consumer Affairs and 2030 Agenda",https://www.dsca.gob.es/,dsca.gob.es,
 government_agency,Ministry of Social Affairs,https://www.dsca.gob.es/,dsca.gob.es,central
 government_agency,Department of National Security,https://www.dsn.gob.es/,dsn.gob.es,central
@@ -647,13 +659,17 @@ government_agency,Durango City Council,https://www.durango.eus/,durango.eus,loca
 government_agency,Q58947057,http://www.eakoudala.eus,eakoudala.eus,local
 government_agency,European Commission Regional Representation in Barcelona,http://ec.europa.eu/spain/barcelona/la-ue-a-catalunya-i-les-illes-balears/index_ca.htm,ec.europa.eu,
 government_agency,embassy of Switzerland in Spain,https://www.eda.admin.ch/madrid,eda.admin.ch,central
+ministry,"Consellería de Cultura, Educación e Ordenación Universitaria",https://www.edu.xunta.gal/portal/,edu.xunta.gal,central-1
 government_agency,"Consellería de Cultura, Educación e Ordenación Universitaria",https://www.edu.xunta.gal/portal/,edu.xunta.gal,central-1
+ministry,Consejería de Educación de la Junta de Castilla y León,https://www.educa.jcyl.es/es/consejeria-educacion,educa.jcyl.es,central-1
 government_agency,Consejería de Educación de la Junta de Castilla y León,https://www.educa.jcyl.es/es/consejeria-educacion,educa.jcyl.es,central-1
 government_agency,Departament d'Educació de la Generalitat de Catalunya,https://educacio.gencat.cat/ca/inici/index.html,educacio.gencat.cat,central-1
 government_agency,Ministry of Education of Catalonia,https://educacio.gencat.cat/ca/inici,educacio.gencat.cat,central-1
+ministry,Ministry of Education of Catalonia,https://educacio.gencat.cat/ca/inici,educacio.gencat.cat,central-1
+ministry,Departament d'Educació de la Generalitat de Catalunya,https://educacio.gencat.cat/ca/inici/index.html,educacio.gencat.cat,central-1
 government_agency,Departamento de Educación,http://www.educacion.navarra.es/,educacion.navarra.es,
 government_agency,Ministry of Education of Spain,https://www.educacionfpydeportes.gob.es/,educacionfpydeportes.gob.es,central
-ministry,Ministry of Education of Spain,https://www.educacionfpydeportes.gob.es/,educacionfpydeportes.gob.es,
+ministry,Ministry of Education of Spain,https://www.educacionfpydeportes.gob.es/,educacionfpydeportes.gob.es,central
 government_agency,Q39135579,https://www.educacionyfp.gob.es/ca/ministerio/organigrama/ministra/secretaria-estado-educacion/dg-planificacion-gestion-educativa.html,educacionyfp.gob.es,central
 government_agency,embassy of Argentina in Spain,https://eespa.cancilleria.gob.ar,eespa.cancilleria.gob.ar,central
 government_agency,European Fisheries Control Agency,https://www.efca.europa.eu/,efca.europa.eu,local
@@ -703,6 +719,7 @@ government_agency,"European Molecular Biology Laboratory, Barcelona",https://www
 government_agency,embassy of Yemen in Spain,http://www.embyemenesp.com/,embyemenesp.com,central
 government_agency,Q40459710,http://www.empleo.gob.es/es/estadisticas/,empleo.gob.es,central
 government_agency,Public Employment Service of Castilla y León,http://www.empleo.jcyl.es/,empleo.jcyl.es,
+ministry,Ministry of Business and Knowledge of Catalonia,https://empresa.gencat.cat/,empresa.gencat.cat,central-1
 government_agency,Ministry of Business and Knowledge of Catalonia,https://empresa.gencat.cat/,empresa.gencat.cat,central-1
 government_agency,EMT Valencia,https://www.emtvalencia.es,emtvalencia.es,
 government_agency,Empresa Municipal de la Vivienda y Suelo de Madrid,https://www.emvs.es/,emvs.es,
@@ -771,7 +788,8 @@ government_agency,Language Interpretation Office,https://www.exteriores.gob.es/e
 government_agency,"Ministry of Foreign Affairs, European Union and Cooperation of Spain",http://www.exteriores.gob.es/,exteriores.gob.es,central
 government_agency,Secretariat of State for Foreign Affairs,http://www.exteriores.gob.es/Portal/en/Paginas/inicio.aspx,exteriores.gob.es,
 government_agency,Secretariat of State for the European Union,http://www.exteriores.gob.es/Portal/es/Ministerio/FuncionesEstructura/Organigrama/Paginas/SecretariaDeEstadoParaLaUnionEuropea.aspx,exteriores.gob.es,
-ministry,"Ministry of Foreign Affairs, European Union and Cooperation of Spain",http://www.exteriores.gob.es/,exteriores.gob.es,
+ministry,"Ministry of Foreign Affairs, European Union and Cooperation of Spain",http://www.exteriores.gob.es/,exteriores.gob.es,central
+ministry,Ministry for Foreign Action and European Union,https://exteriors.gencat.cat/ca/inici,exteriors.gencat.cat,central-1
 government_agency,Ministry for Foreign Action and European Union,https://exteriors.gencat.cat/ca/inici,exteriors.gencat.cat,central-1
 government_agency,Catalan Public Sector Contracts Court,http://exteriors.gencat.cat/ca/ambits-dactuacio/contractacio-publica/tribunal-catala-de-contractes-del-sector-public/,exteriors.gencat.cat,
 government_agency,Secretariat of State for Migration,http://extranjeros.mitramiss.gob.es/,extranjeros.mitramiss.gob.es,central
@@ -814,7 +832,9 @@ government_agency,Q58947020,http://www.gatika.net,gatika.net,local
 government_agency,Q58947642,http://www.gautegizarteaga.com,gautegizarteaga.com,local
 government_agency,Institut Català de les Empreses Culturals,http://www.gencat.cat/cultura/icec,gencat.cat,
 government_agency,Ministry of Health of the Government of Catalonia,http://www.gencat.cat/salut,gencat.cat,central-1
+ministry,Ministry of Health of the Government of Catalonia,http://www.gencat.cat/salut,gencat.cat,central-1
 government_agency,Catalan Food Safety Agency,http://www.gencat.cat/salut/acsa/,gencat.cat,
+ministry,Economy and Treasury ministry of Catalunya,http://www.gencat.cat/economia/,gencat.cat,central-1
 government_agency,Economy and Treasury ministry of Catalunya,http://www.gencat.cat/economia/,gencat.cat,central-1
 government_agency,Q58947669,http://www.gernika-lumo.net,gernika-lumo.net,local
 government_agency,Getafe City Council,http://getafe.es/,getafe.es,local
@@ -839,6 +859,7 @@ government_agency,Q58946667,http://www.gordexola.net,gordexola.net,local
 government_agency,Q58946503,https://www.gorliz.eu,gorliz.eu,local
 government_agency,Q21094623,http://www.gov.gva.es/va/home,gov.gva.es,
 ministry,Q21094623,http://www.gov.gva.es/va/home,gov.gva.es,
+ministry,Q11915354,http://www.gov.gva.es/,gov.gva.es,central-1
 government_agency,Q11915354,http://www.gov.gva.es/,gov.gva.es,central-1
 government_agency,"Embassy of Poland, Madrid",https://www.gov.pl/web/hiszpania,gov.pl,central
 government_agency,British Consulate General Barcelona,https://www.gov.uk/world/organisations/british-consulate-general-barcelona,gov.uk,
@@ -866,15 +887,17 @@ government_agency,Q2993785,http://www.gva.es/va/inicio/la_administracion_valenci
 constitutional_court,Q2993785,http://www.gva.es/va/inicio/la_administracion_valenciana/lav_org_gobierno_val,gva.es,central-1
 constitutional_court,Generalitat Valenciana,https://www.gva.es,gva.es,
 government_agency,Q47282388,http://www.habitatge.gva.es/va/,habitatge.gva.es,central-1
+ministry,Q47282388,http://www.habitatge.gva.es/va/,habitatge.gva.es,central-1
 government_agency,Ministry of Finance,https://www.hacienda.gob.es/,hacienda.gob.es,central
 government_agency,State Vehicle Fleet,https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/ParqueMovil/Paginas/Parque%20Movil%20del%20Estado.aspx,hacienda.gob.es,
-ministry,Ministry of Finance,https://www.hacienda.gob.es/,hacienda.gob.es,
+ministry,Ministry of Finance,https://www.hacienda.gob.es/,hacienda.gob.es,central
 constitutional_court,Capuchin Province of Spain,https://www.hermanoscapuchinos.org/,hermanoscapuchinos.org,
 government_agency,Capuchin Province of Spain,https://www.hermanoscapuchinos.org/,hermanoscapuchinos.org,
 government_agency,Q59146591,http://www.hernani.eus,hernani.eus,local
 government_agency,Q58948931,http://www.hernialde.eus,hernialde.eus,local
 government_agency,Zarzuela race track,https://www.hipodromodelazarzuela.es/,hipodromodelazarzuela.es,
 government_agency,Q20104998,http://www.hisenda.gva.es/va/,hisenda.gva.es,central-1
+ministry,Q20104998,http://www.hisenda.gva.es/va/,hisenda.gva.es,central-1
 government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en,holyrosaryprovince.org,
 government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
 constitutional_court,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
@@ -967,6 +990,7 @@ ministry,Ministry of Equality,http://www.igualdad.gob.es/,igualdad.gob.es,
 government_agency,Ministry of Equality,http://www.igualdad.gob.es/,igualdad.gob.es,
 government_agency,Directorate-General for Sexual Diversity and LGTBI+ Rights,https://www.igualdad.gob.es/ministerio/dglgtbi/Paginas/index.aspx,igualdad.gob.es,
 government_agency,Departament d'Igualtat i Feminisme de la Generalitat de Catalunya,https://igualtat.gencat.cat,igualtat.gencat.cat,central-1
+ministry,Departament d'Igualtat i Feminisme de la Generalitat de Catalunya,https://igualtat.gencat.cat,igualtat.gencat.cat,central-1
 government_agency,Instituto de Historia,http://ih.csic.es/,ih.csic.es,
 government_agency,"Ingurumen Jarduketarako Sozietate Publikoa, IHOBE, S.A.",https://www.ihobe.eus/,ihobe.eus,
 government_agency,"Ingurumen Jarduketarako Sozietate Publikoa, IHOBE, S.A.",https://www.ihobe.eus,ihobe.eus,
@@ -997,9 +1021,10 @@ government_agency,INCIBE,https://www.incibe.es,incibe.es,
 government_agency,Institute of Heritage Sciences,http://www.incipit.csic.es/,incipit.csic.es,
 ministry,Q796610,http://www.inclusio.gva.es,inclusio.gva.es,
 government_agency,Q11915355,http://www.inclusio.gva.es/va/,inclusio.gva.es,central-1
+ministry,Q11915355,http://www.inclusio.gva.es/va/,inclusio.gva.es,central-1
 government_agency,Q796610,http://www.inclusio.gva.es,inclusio.gva.es,
 government_agency,"Ministry of Inclusion, Social Security and Migration",http://www.inclusion.gob.es/,inclusion.gob.es,central
-ministry,"Ministry of Inclusion, Social Security and Migration",http://www.inclusion.gob.es/,inclusion.gob.es,
+ministry,"Ministry of Inclusion, Social Security and Migration",http://www.inclusion.gob.es/,inclusion.gob.es,central
 government_agency,Q5918081,http://www.incoex.org,incoex.org,central-1
 government_agency,Q11915344,http://www.indi.gva.es/,indi.gva.es,
 ministry,Q11915344,http://www.indi.gva.es/,indi.gva.es,
@@ -1016,6 +1041,8 @@ government_agency,National Institute for Agricultural and Food Research and Tech
 government_agency,Institute for Women,http://www.inmujer.es,inmujer.es,
 government_agency,Agencia de Investigación e Innovación de Castilla-La-Mancha,https://innocam.castillalamancha.es,innocam.castillalamancha.es,
 government_agency,"Conselleria de Innovación, Universidades, Ciencia y Sociedad Digital",http://innova.gva.es/va/,innova.gva.es,central-1
+ministry,"Conselleria de Innovación, Universidades, Ciencia y Sociedad Digital",http://innova.gva.es/va/,innova.gva.es,central-1
+ministry,"Conselleria de Innovación, Universidades, Ciencia y Sociedad Digital",https://innova.gva.es,innova.gva.es,central-1
 government_agency,"Conselleria de Innovación, Universidades, Ciencia y Sociedad Digital",https://innova.gva.es,innova.gva.es,central-1
 government_agency,Ciudad Politécnica de la Innovación,https://innovacion.upv.es/es/ciudad-politecnica-de-la-innovacion-parque-cientifico-de-la-universitat-politecnica-de-valencia/,innovacion.upv.es,
 government_agency,Instituto Nacional de Seguridad e Higiene en el Trabajo,https://www.insst.es/,insst.es,
@@ -1031,9 +1058,11 @@ government_agency,Instituto Nacional de Técnica Aeroespacial Esteban Terradas,h
 government_agency,National Institute of Technology and Professional Development,https://intef.es,intef.es,
 government_agency,Generalitat of Catalunya Firefighters,http://interior.gencat.cat/ca/arees_dactuacio/bombers/,interior.gencat.cat,central-1
 government_agency,Ranger Corps,https://interior.gencat.cat/ca/arees_dactuacio/agents-rurals/index.html,interior.gencat.cat,
+ministry,Ministry of Home Affairs of Catalonia,http://interior.gencat.cat/,interior.gencat.cat,central-1
 government_agency,Ministry of Home Affairs of Catalonia,http://interior.gencat.cat/,interior.gencat.cat,central-1
 ministry,Ministry of the Interior of Spain,http://www.interior.gob.es/,interior.gob.es,
 government_agency,Ministry of the Interior,http://www.interior.gob.es/,interior.gob.es,central
+ministry,Ministry of the Interior,http://www.interior.gob.es/,interior.gob.es,central
 government_agency,Instituto Tecnológico de Rocas Ornamentales y Materiales de Construcción (INTROMAC),http://intromac.juntaex.es,intromac.juntaex.es,
 government_agency,Q127690166,https://invassat.gva.es/va/inicio,invassat.gva.es,
 government_agency,Instituto de Óptica Daza de Valdés,http://www.io.csic.es,io.csic.es,
@@ -1077,6 +1106,7 @@ government_agency,Q60052810,https://www.jaca.es/,jaca.es,local
 government_agency,Jafre Town Council,http://www.jafre.cat,jafre.cat,local
 government_agency,Junta of Castile and León,http://www.jcyl.es,jcyl.es,central-1
 constitutional_court,Junta of Castile and León,http://www.jcyl.es,jcyl.es,central-1
+ministry,Consejería de Educación de la Junta de Castilla y León,https://www.jcyl.es/web/jcyl/Portada/es/Plantilla100DirectorioPortada/1248366924958/0/1284181175622/DirectorioPadre,jcyl.es,central-1
 government_agency,Consejería de Educación de la Junta de Castilla y León,https://www.jcyl.es/web/jcyl/Portada/es/Plantilla100DirectorioPortada/1248366924958/0/1284181175622/DirectorioPadre,jcyl.es,central-1
 government_agency,Jerez de la Frontera City Council,http://www.jerez.es/,jerez.es,local
 constitutional_court,Jesuit province of Spain,https://jesuitas.es/es/,jesuitas.es,
@@ -1103,6 +1133,7 @@ ministry,Consejería de Educación de la Junta de Andalucía,http://www.juntadea
 government_agency,Consejería de Educación Cultura y Deporte,http://www.juntadeandalucia.es/educacion,juntadeandalucia.es,central-1
 government_agency,Q140535849,https://www.juntadeandalucia.es/organismos/ema/areas/incendios-forestales.html,juntadeandalucia.es,central-1
 government_agency,Q5783652,https://www.juntadeandalucia.es/organismos/economiaconocimientoempresasyuniversidad.html,juntadeandalucia.es,
+ministry,Consejería de Educación Cultura y Deporte,http://www.juntadeandalucia.es/educacion,juntadeandalucia.es,central-1
 government_agency,Q5485584,http://www.juntadeandalucia.es/innovacioncienciayempresa/cocoon/index.html,juntadeandalucia.es,
 government_agency,Centro Andaluz de las Letras,http://www.juntadeandalucia.es/cultura/caletras/,juntadeandalucia.es,
 government_agency,Ministry of the Presidency of the Junta de Andalucía,http://www.juntadeandalucia.es/presidencia/impe/presidencia/portada,juntadeandalucia.es,
@@ -1118,6 +1149,7 @@ ministry,Q5783673,https://www.juntadeandalucia.es/organismos/fomentoinfraestruct
 ministry,Q10862925,http://www.juntadeandalucia.es/viviendayordenaciondelterritorio/,juntadeandalucia.es,
 ministry,Q5783652,https://www.juntadeandalucia.es/organismos/economiaconocimientoempresasyuniversidad.html,juntadeandalucia.es,
 constitutional_court,Government of Andalusia,https://www.juntadeandalucia.es,juntadeandalucia.es,central-1
+ministry,Ministry of Culture and Historical Heritage of the Junta de Andalucía,https://www.juntadeandalucia.es/organismos/culturaypatrimoniohistorico/consejeria.html,juntadeandalucia.es,central-1
 ministry,Q5783671,http://www.juntadeandalucia.es/agriculturapescaymedioambiente,juntadeandalucia.es,
 government_agency,Government of Andalusia,https://www.juntadeandalucia.es,juntadeandalucia.es,central-1
 ministry,Q5783647,http://www.juntadeandalucia.es/agriculturaypesca,juntadeandalucia.es,
@@ -1127,16 +1159,22 @@ government_agency,"Consejería de Igualdad, Salud y Políticas Sociales",http://
 government_agency,Q16552044,https://www.juntadeandalucia.es/organismos/haciendaindustriayenergia.html,juntadeandalucia.es,
 government_agency,Q5783675,https://www.juntadeandalucia.es/organismos/saludyfamilias/consejeria.html,juntadeandalucia.es,
 government_agency,Q5783647,http://www.juntadeandalucia.es/agriculturaypesca,juntadeandalucia.es,
+ministry,Q65159293,http://www.juntaex.es,juntaex.es,central-1
 government_agency,Consejería de Educación y Empleo,http://www.juntaex.es/con04/consejara-de-educacion-y-empleo,juntaex.es,
 government_agency,"Consejería de Presidencia, Interior y Diálogo Social de la Junta de Extremadura",https://www.juntaex.es/,juntaex.es,central-1
 government_agency,Junta de Extremadura,http://www.juntaex.es,juntaex.es,central-1
+ministry,Q17462673,http://www.juntaex.es,juntaex.es,central-1
 government_agency,Q17462673,http://www.juntaex.es,juntaex.es,central-1
 constitutional_court,Junta de Extremadura,http://www.juntaex.es,juntaex.es,central-1
+ministry,"Consejería de Presidencia, Interior y Diálogo Social de la Junta de Extremadura",https://www.juntaex.es/,juntaex.es,central-1
 ministry,Consejería de Educación y Empleo,http://www.juntaex.es/con04/consejara-de-educacion-y-empleo,juntaex.es,
 government_agency,Q65159293,http://www.juntaex.es,juntaex.es,central-1
 government_agency,"Ministry of Justice, Rights and Memory",https://justicia.gencat.cat/ca/inici/index.html,justicia.gencat.cat,central-1
+ministry,Ministry of Justice of Catalonia,https://justicia.gencat.cat/,justicia.gencat.cat,central-1
+ministry,"Ministry of Justice, Rights and Memory",https://justicia.gencat.cat/ca/inici/index.html,justicia.gencat.cat,central-1
 government_agency,Ministry of Justice of Catalonia,https://justicia.gencat.cat/,justicia.gencat.cat,central-1
 government_agency,Q20106809,http://www.justicia.gva.es/va/,justicia.gva.es,central-1
+ministry,Q20106809,http://www.justicia.gva.es/va/,justicia.gva.es,central-1
 government_agency,Ministry of Youth and Children,https://www.juventudeinfancia.gob.es/,juventudeinfancia.gob.es,
 ministry,Ministry of Youth and Children,https://www.juventudeinfancia.gob.es/,juventudeinfancia.gob.es,
 government_agency,Q58947726,http://www.karrantza.org,karrantza.org,local
@@ -1280,12 +1318,12 @@ government_agency,Q58945275,http://www.manaria.org,manaria.org,local
 government_agency,Manresa city council,https://www.manresa.cat/,manresa.cat,local
 government_agency,Junta Nacional Asesora de Cultivos Marinos,https://www.mapa.gob.es/pesca/temas/acuicultura/junta-asesora-de-cultivos-marinos/,mapa.gob.es,
 government_agency,Cuerpo de Ingenieros Agrónomos del Estado,https://www.mapa.gob.es/es/,mapa.gob.es,
-ministry,"Ministry of Agriculture, Fisheries and Food",https://www.mapa.gob.es/,mapa.gob.es,
+ministry,"Ministry of Agriculture, Fisheries and Food",https://www.mapa.gob.es/,mapa.gob.es,central
 government_agency,"Ministry of Agriculture, Fisheries and Food",https://www.mapa.gob.es/,mapa.gob.es,central
 government_agency,General Secretariat for Fisheries,http://www.mapama.gob.es/es/pesca/temas/default.aspx,mapama.gob.es,
 government_agency,"Undersecretariat of Agriculture, Fisheries and Food of Spain",http://www.mapama.gob.es/es/pesca/temas/default.aspx,mapama.gob.es,
 government_agency,"Ministry of Agriculture and Fisheries, Food and Environment",http://www.mapama.gob.es/,mapama.gob.es,central
-ministry,"Ministry of Agriculture and Fisheries, Food and Environment",http://www.mapama.gob.es/,mapama.gob.es,
+ministry,"Ministry of Agriculture and Fisheries, Food and Environment",http://www.mapama.gob.es/,mapama.gob.es,central
 government_agency,Marbella City Council,https://www.marbella.es/,marbella.es,local
 government_agency,Q58944731,http://www.markina-xemein.com,markina-xemein.com,local
 government_agency,Martos City Council,https://martos.es/,martos.es,local
@@ -1293,17 +1331,19 @@ government_agency,Q58947809,http://www.maruri-jatabe.eus,maruri-jatabe.eus,local
 government_agency,Galicia Biological Mission,http://www.mbg.csic.es/es/la-mision-biologica-de-galicia/,mbg.csic.es,
 government_agency,Commonwealth of the Taibilla Canals,https://www.mct.es/web/mct/inicio,mct.es,
 government_agency,Ministry of Culture of Spain,http://www.mcu.es,mcu.es,central
-ministry,Ministry of Culture of Spain,http://www.mcu.es,mcu.es,
+ministry,Ministry of Culture of Spain,http://www.mcu.es,mcu.es,central
 government_agency,Ministry of Social Affairs,https://www.mdsocialesa2030.gob.es/,mdsocialesa2030.gob.es,central
 government_agency,Directorate-General for Animal Rights,https://www.mdsocialesa2030.gob.es/derechos-animales/,mdsocialesa2030.gob.es,
-ministry,Ministry of Social Affairs,https://www.mdsocialesa2030.gob.es/,mdsocialesa2030.gob.es,
+ministry,Ministry of Social Affairs,https://www.mdsocialesa2030.gob.es/,mdsocialesa2030.gob.es,central
 government_agency,Secretariat of State for Education,http://www.mecd.gob.es/portada-mecd/,mecd.gob.es,
 government_agency,National Historical Archive,http://www.mecd.gob.es/cultura-mecd/areas-cultura/archivos/mc/archivos/ahn/portada.html,mecd.gob.es,
 government_agency,Directorate-General for Cultural Rights,http://www.mecd.gob.es/cultura-mecd/,mecd.gob.es,
 government_agency,Instituto de la Cinematografía y de las Artes Audiovisuales,http://www.mecd.gob.es/cultura-mecd/areas-cultura/cine/inicio.html,mecd.gob.es,
 government_agency,Subdirección General de Protección del Patrimonio Histórico,https://www.mecd.gob.es/cultura-mecd/areas-cultura/patrimonio/informacion-general/gestion-en-el-ministerio/subdireccion-general-de-proteccion-del-patrimonio.html,mecd.gob.es,
 government_agency,Q121816559,https://mediambient.gva.es,mediambient.gva.es,central-1
+ministry,Q121816559,https://mediambient.gva.es,mediambient.gva.es,central-1
 government_agency,Q127790496,https://mediambient.gva.es,mediambient.gva.es,central-1
+ministry,Q127790496,https://mediambient.gva.es,mediambient.gva.es,central-1
 government_agency,Q126069761,https://medinaderioseco.org/,medinaderioseco.org,local
 parliament,Assembly of Melilla,http://www.melilla.es/melillaPortal/contenedor.jsp?seccion=distribuidor_menus.jsp&language=es&codResi=1&codMenuPN=600&codMenu=231&layout=contenedor.jsp&layout=contenedor.jsp,melilla.es,central-1
 supreme_court,Assembly of Melilla,http://www.melilla.es/melillaPortal/contenedor.jsp?seccion=distribuidor_menus.jsp&language=es&codResi=1&codMenuPN=600&codMenu=231&layout=contenedor.jsp&layout=contenedor.jsp,melilla.es,central-1
@@ -1322,14 +1362,14 @@ government_agency,embassy of Greece in Spain,https://www.mfa.gr/spain/,mfa.gr,ce
 government_agency,"embassy of New Zealand, Madrid",https://www.mfat.govt.nz/en/countries-and-regions/europe/spain/new-zealand-embassy/,mfat.govt.nz,central
 government_agency,Mieres City Council,https://www.mieres.es/,mieres.es,local
 government_agency,Secretariat of State for Energy,http://www.mincotur.gob.es/energia/es-ES/Paginas/index.aspx,mincotur.gob.es,
-ministry,Ministry of Economy of Spain,https://www.mineco.gob.es/,mineco.gob.es,
+ministry,Ministry of Economy of Spain,https://www.mineco.gob.es/,mineco.gob.es,central
 government_agency,Ministry of Economy of Spain,https://www.mineco.gob.es/,mineco.gob.es,central
 government_agency,Secretariat of State for the Economy and Business Affairs,http://www.mineco.gob.es/portal/site/mineco/economia,mineco.gob.es,
 government_agency,"Ministry of Energy, Tourism, and Digital Agenda",http://www.minetad.gob.es/,minetad.gob.es,
 ministry,"Ministry of Energy, Tourism, and Digital Agenda",http://www.minetad.gob.es/,minetad.gob.es,
-ministry,Ministry of Finance and Public Function,http://www.minhafp.gob.es/,minhafp.gob.es,
+ministry,Ministry of Finance and Public Function,http://www.minhafp.gob.es/,minhafp.gob.es,central
 government_agency,Ministry of Finance and Public Function,http://www.minhafp.gob.es/,minhafp.gob.es,central
-ministry,"Ministry of Industry, Trade, and Tourism",https://www.mintur.gob.es/,mintur.gob.es,
+ministry,"Ministry of Industry, Trade, and Tourism",https://www.mintur.gob.es/,mintur.gob.es,central
 government_agency,"Ministry of Industry, Trade, and Tourism",https://www.mintur.gob.es/,mintur.gob.es,central
 government_agency,Secretariat of State for Security,http://www.mir.es,mir.es,
 government_agency,Miranda de Ebro City Council,http://www.mirandadeebro.es/Miranda,mirandadeebro.es,local
@@ -1339,17 +1379,19 @@ government_agency,Mislata City Council,https://www.mislata.es/,mislata.es,local
 government_agency,Directorate General for Water,https://www.miteco.gob.es/es/ministerio/funciones-estructura/organigrama/DG_Agua.aspx,miteco.gob.es,
 government_agency,National Parks Autonomous Agency,https://www.miteco.gob.es/es/parques-nacionales-oapn/quienes-somos/,miteco.gob.es,
 ministry,Ministry for the Ecological Transition and the Demographic Challenge,https://www.miteco.gob.es.,miteco.gob.es.,
+ministry,Ministry for Ecological Transition and the Demographic Challenge,https://www.miteco.gob.es.,miteco.gob.es.,
 government_agency,Ministry for Ecological Transition and the Demographic Challenge,https://www.miteco.gob.es./en.html,miteco.gob.es.,
 ministry,Ministry for the Ecological Transition and the Demographic Challenge,https://www.miteco.gob.es./en.html,miteco.gob.es.,
+ministry,Ministry for Ecological Transition and the Demographic Challenge,https://www.miteco.gob.es./en.html,miteco.gob.es.,
 government_agency,Ministry for Ecological Transition and the Demographic Challenge,https://www.miteco.gob.es.,miteco.gob.es.,
 ministry,Ministry of Labour and Social Economy,http://www.mites.gob.es/,mites.gob.es,
 government_agency,Q11922279,https://www.mites.gob.es/fogasa/default.html,mites.gob.es,
 government_agency,Ministry of Labour and Social Economy,http://www.mites.gob.es/,mites.gob.es,
-ministry,Ministry of Labour of Spain,http://www.mitramiss.gob.es/,mitramiss.gob.es,
+ministry,Ministry of Labour of Spain,http://www.mitramiss.gob.es/,mitramiss.gob.es,central
 government_agency,Ministry of Labour of Spain,http://www.mitramiss.gob.es/,mitramiss.gob.es,central
 government_agency,"Directorate-General for the Modernization of Justice, Technological Development and Recovery and Asset Management",http://www.mjusticia.gob.es/cs/Satellite/Portal/es/areas-tematicas/oficina-recuperacion-gestion,mjusticia.gob.es,
-ministry,"Ministry of the Presidency, Justice and Relations with the Courts",https://www.mjusticia.gob.es/,mjusticia.gob.es,
-ministry,Ministry of Justice of Spain,https://www.mjusticia.gob.es/,mjusticia.gob.es,
+ministry,"Ministry of the Presidency, Justice and Relations with the Courts",https://www.mjusticia.gob.es/,mjusticia.gob.es,central
+ministry,Ministry of Justice of Spain,https://www.mjusticia.gob.es/,mjusticia.gob.es,central
 government_agency,Ministry of Justice of Spain,https://www.mjusticia.gob.es/,mjusticia.gob.es,central
 government_agency,Solicitor General of Spain,http://www.mjusticia.gob.es/cs/Satellite/Portal/es/ministerio/organigrama/abogacia-general-estado,mjusticia.gob.es,
 government_agency,"Ministry of the Presidency, Justice and Relations with the Courts",https://www.mjusticia.gob.es/,mjusticia.gob.es,central
@@ -1374,10 +1416,12 @@ government_agency,Ministry of the Presidency of Spain,https://www.mpr.gob.es/,mp
 government_agency,Secretariat of State for Equality and against Gender Violence,http://www.mpr.gob.es/Paginas/index.aspx,mpr.gob.es,
 government_agency,Ministry for the Presidency and the Territorial Administrations,http://www.mpr.gob.es,mpr.gob.es,central
 government_agency,Directorate-General for Equal Treatment and Racial Ethnic Diversity,http://www.mpr.gob.es/Paginas/index.aspx,mpr.gob.es,
-ministry,Ministry for the Presidency and the Territorial Administrations,http://www.mpr.gob.es,mpr.gob.es,
+ministry,Ministry for the Presidency and the Territorial Administrations,http://www.mpr.gob.es,mpr.gob.es,central
 government_agency,Secretariat of State for Democratic Memory,https://www.mpr.gob.es/memoriademocratica/Paginas/index.aspx,mpr.gob.es,
+ministry,Ministry of Territorial Policy and Democratic Memory,https://mpt.gob.es/index.html,mpt.gob.es,central
 ministry,Ministry of Territorial Policy,https://mpt.gob.es/index.html,mpt.gob.es,
 government_agency,Ministry of Territorial Policy and Democratic Memory,https://mpt.gob.es/index.html,mpt.gob.es,central
+ministry,Ministry of Territorial Policy,https://www.mptfp.gob.es/,mptfp.gob.es,central
 government_agency,Ministry of Territorial Policy,https://www.mptfp.gob.es/,mptfp.gob.es,central
 ministry,Ministry of Territorial Policy and Civil Service,https://www.mptfp.gob.es/,mptfp.gob.es,
 government_agency,Directorate-General for Consumer Affairs,http://www.mscbs.gob.es/consumo/portada/home.htm,mscbs.gob.es,
@@ -1411,6 +1455,7 @@ government_agency,"Nigerian Embassy, Madrid",https://www.ng-embassyspain.org/,ng
 government_agency,Navarra de Infraestructuras Locales,http://www.nilsa.com/,nilsa.com,
 government_agency,"Embassy of Norway, Madrid",https://www.norway.no/es/spain/,norway.no,central
 government_agency,Tribunal of the Rota of the Apostolic Nunciature in Spain,https://www.nunciaturapostolica.es/index.php/tribunal-de-la-rota/,nunciaturapostolica.es,local
+ministry,Tribunal of the Rota of the Apostolic Nunciature in Spain,https://www.nunciaturapostolica.es/index.php/tribunal-de-la-rota/,nunciaturapostolica.es,local
 government_agency,Apostolic Nunciature to Spain,http://nunciaturapostolica.es/,nunciaturapostolica.es,central
 government_agency,Q41533874,http://www.oadis.mscbs.gob.es/,oadis.mscbs.gob.es,central
 government_agency,Q118443656,http://oatpfe.es/,oatpfe.es,
@@ -1482,6 +1527,7 @@ parliament,Parliament of Galicia,https://www.parlamentodegalicia.gal/,parlamento
 parliament,Parliament of Navarre,https://www.parlamentodenavarra.es/es,parlamentodenavarra.es,central-1
 supreme_court,Parliament of Navarre,https://www.parlamentodenavarra.es/es,parlamentodenavarra.es,central-1
 government_agency,Parlavà Town Council,http://www.parlava.cat/,parlava.cat,local
+ministry,"Conselleria de Justícia, Transparencia y Participación",https://participacio.gva.es/va/,participacio.gva.es,central-1
 government_agency,"Conselleria de Justícia, Transparencia y Participación",https://participacio.gva.es/va/,participacio.gva.es,central-1
 government_agency,Q58948636,http://www.pasaia.eus,pasaia.eus,local
 government_agency,Pasaia Port Authority,https://www.pasaiaport.eus,pasaiaport.eus,local
@@ -1525,6 +1571,7 @@ government_agency,General Commissariat of Information,https://www.policia.es/org
 government_agency,General Commissariat of Judiciary Police,https://www.policia.es/org_central/judicial/judicial.html,policia.es,
 government_agency,National Police Corps of Spain,https://www.policia.es/_gl/index.php?idiomaActual=gl,policia.es,central
 government_agency,Policía Local de Murcia,http://policia.murcia.es,policia.murcia.es,
+ministry,Q105393783,http://politicaterritorial.gva.es/va/,politicaterritorial.gva.es,central-1
 government_agency,Q105393783,http://politicaterritorial.gva.es/va/,politicaterritorial.gva.es,central-1
 government_agency,Catalan Space Agency,https://politiquesdigitals.gencat.cat/ca/tic/estrategia-new-space-de-catalunya,politiquesdigitals.gencat.cat,
 government_agency,Ponferrada City Council,https://www.ponferrada.org/,ponferrada.org,local
@@ -1539,6 +1586,7 @@ government_agency,Portugalete City Council,http://www.portugalete.org,portugalet
 government_agency,Pozuelo de Alarcón City Council,https://www.pozuelodealarcon.org/,pozuelodealarcon.org,local
 government_agency,Institute for Self-Government Studies,http://presidencia.gencat.cat/ca/ambits_d_actuacio/desenvolupament_autogovern/institut-destudis-autogovern/,presidencia.gencat.cat,central-1
 government_agency,Institute for Self-Government Studies,https://presidencia.gencat.cat/ca/ambits_d_actuacio/desenvolupament_autogovern/institut-destudis-autogovern/,presidencia.gencat.cat,central-1
+ministry,Ministry of the Presidency of the Government of Catalonia,https://presidencia.gencat.cat/ca/inici/,presidencia.gencat.cat,central-1
 government_agency,Ministry of the Presidency of the Government of Catalonia,https://presidencia.gencat.cat/ca/inici/,presidencia.gencat.cat,central-1
 constitutional_court,Comarcal Council of Priorat,http://priorat.cat/,priorat.cat,local
 government_agency,Comarcal Council of Priorat,http://priorat.cat/,priorat.cat,local
@@ -1591,12 +1639,13 @@ government_agency,Agència de Salut Pública de Catalunya,http://salutpublica.ge
 government_agency,Q126709295,https://www.salvamentolugo.org/parque.asp,salvamentolugo.org,local
 government_agency,Q8191347,http://www.san.gva.es/,san.gva.es,
 government_agency,Conselleria de Sanitat,http://www.san.gva.es/,san.gva.es,central-1
+ministry,Conselleria de Sanitat,http://www.san.gva.es/,san.gva.es,central-1
 government_agency,San Felices de Buelna City Council,https://sanfelicesdebuelna.es/,sanfelicesdebuelna.es,local
 government_agency,San Fernando City Council,http://www.sanfernando.es/ayto/,sanfernando.es,local
 government_agency,Servicio de Salud de Castilla La Mancha,https://sanidad.castillalamancha.es,sanidad.castillalamancha.es,
 government_agency,Coordination Center for Health Alerts and Emergencies,https://www.sanidad.gob.es/areas/alertasEmergenciasSanitarias/home.htm,sanidad.gob.es,central
 government_agency,Ministry of Health,https://www.sanidad.gob.es/,sanidad.gob.es,central
-ministry,Ministry of Health,https://www.sanidad.gob.es/,sanidad.gob.es,
+ministry,Ministry of Health,https://www.sanidad.gob.es/,sanidad.gob.es,central
 government_agency,Q58943877,http://www.sanmillan.org,sanmillan.org,local
 government_agency,San Roque city government,https://www.sanroque.es/,sanroque.es,local
 government_agency,Santa Coloma de Cervelló city council,https://www.santacolomadecervello.cat/,santacolomadecervello.cat,local
@@ -1623,6 +1672,7 @@ government_agency,Social Security in Spain,http://www.seg-social.es,seg-social.e
 government_agency,Secretariat of State for Social Security,https://www.seg-social.es/,seg-social.es,central
 government_agency,Q59496570,http://www.seg-social.es,seg-social.es,
 government_agency,Instituto Nacional de la Seguridad Social,https://www.seg-social.es,seg-social.es,
+government_agency,Policía Local de Segovia,https://segovia.es/area/seguridad-y-emergencias/servicios-de-la-policia-local,segovia.es,local
 government_agency,Segovia City Council,http://www.segovia.es/,segovia.es,local
 government_agency,Comarcal Council of Segrià,https://www.segria.cat/,segria.cat,local
 constitutional_court,Comarcal Council of Segrià,https://www.segria.cat/,segria.cat,local
@@ -1649,6 +1699,7 @@ government_agency,Institute of Aquaculture Torre de la Sal,http://server.iats.cs
 government_agency,Directorate-General for Macroeconomic Analysis,http://serviciosede.mineco.gob.es/indeco/,serviciosede.mineco.gob.es,
 government_agency,Q116240713,https://ses.san.gva.es/inici,ses.san.gva.es,
 government_agency,Sestao City Hall,http://www.sestao.net,sestao.net,local
+government_agency,Spanish Society for Technological Transformation,https://sett.gob.es/,sett.gob.es,
 government_agency,Seville City Council,http://www.sevilla.org/,sevilla.org,local
 government_agency,Síndic de Greuges de Catalunya,https://www.sindic.cat,sindic.cat,central-1
 government_agency,Q108627384,https://www.sindicabarcelona.cat,sindicabarcelona.cat,local
@@ -1687,7 +1738,9 @@ government_agency,Q131934927,https://www.tenerifeislasolidaria.org/,tenerifeisla
 government_agency,Comarcal Council of Terra Alta,http://terra-alta.cat/,terra-alta.cat,local
 constitutional_court,Comarcal Council of Terra Alta,http://terra-alta.cat/,terra-alta.cat,local
 government_agency,Terrassa City Council,https://www.terrassa.cat,terrassa.cat,local
+ministry,Ministry of Territory,https://territori.gencat.cat/ca/inici,territori.gencat.cat,central-1
 government_agency,Q107059396,https://territori.gencat.cat,territori.gencat.cat,central-1
+ministry,Q107059396,https://territori.gencat.cat,territori.gencat.cat,central-1
 government_agency,Ministry of Territory,https://territori.gencat.cat/ca/inici,territori.gencat.cat,central-1
 government_agency,Q133848436,https://www.teruel.es/portal/contenedor1.jsp?seccion=landing.jsp&language=es&codResi=1&codMenuPN=57&codMenu=88&layout=contenedor1.jsp,teruel.es,local
 government_agency,Teruel City Council,http://www.teruel.es/,teruel.es,local
@@ -1701,12 +1754,13 @@ government_agency,Torroella de Montgrí town council,http://www.torroella-estart
 government_agency,Tortellà City Council,http://www.tortella.cat/,tortella.cat,local
 government_agency,Turespaña,http://www.tourspain.es,tourspain.es,
 government_agency,"Consellería de Economía, Emprego e Industria",http://traballoebenestar.xunta.es/,traballoebenestar.xunta.es,central-1
+ministry,"Consellería de Economía, Emprego e Industria",http://traballoebenestar.xunta.es/,traballoebenestar.xunta.es,central-1
 government_agency,Tragsa,http://www.tragsa.es,tragsa.es,
 government_agency,Institute for Just Transition,https://www.transicionjusta.gob.es/,transicionjusta.gob.es,
 government_agency,Q100728466,https://transparencia.asturias.es/ast/detalle/-/categories/694522?p_r_p_categoryId=694522&_com_liferay_asset_categories_navigation_web_portlet_AssetCategoriesNavigationPortlet_articleId=893293&articleId=893293&title=Conseyu%20Asesor%20de%20Pol%C3%ADtica%20Lling%C3%BC%C3%ADstica%20del%20Principado%20de%20Asturias&redirect=https%3A%2F%2Ftransparencia.asturias.es%2Fast%2Fgeneral%2F-%2Fcategories%2F694522%3Fp_r_p_categoryId%3D694522,transparencia.asturias.es,
 government_agency,Ministry of Development,https://www.transportes.gob.es/,transportes.gob.es,central
 government_agency,Comisión de Investigación de Accidentes Ferroviarios,https://www.transportes.gob.es/organos-colegiados/ciaf/presentacion,transportes.gob.es,
-ministry,Ministry of Development,https://www.transportes.gob.es/,transportes.gob.es,
+ministry,Ministry of Development,https://www.transportes.gob.es/,transportes.gob.es,central
 government_agency,Q58946861,http://www.trapagaran.net,trapagaran.net,local
 government_agency,Constitutional Court of Spain,https://www.tribunalconstitucional.es/es/Paginas/default.aspx,tribunalconstitucional.es,central
 government_agency,Metropolitan ecclesiastical court of Madrid,https://tribunaleclesiastico.archimadrid.es/,tribunaleclesiastico.archimadrid.es,

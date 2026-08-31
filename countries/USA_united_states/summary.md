@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-13939 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13963 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -58,18 +58,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-5305 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1308 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+5323 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1317 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `adpht.arkansas.gov` | wikidata;wikidata | Arkansas Department of Parks, Heritage, and Tourism |
+| 8 | `ag.colorado.gov` | wikidata;wikidata | Colorado Department of Agriculture |
 | 8 | `ag.ky.gov` | wikidata;wikidata | Kentucky Department of Criminal Investigation | Kentucky Office of the Attorn... |
 | 8 | `ag.ny.gov` | wikidata;wikidata | Office of the Attorney General | Office of the New York State Attorney General |
-| 8 | `agri.ohio.gov` | wikidata;wikidata;wikidata | Ohio Department of Agriculture | Ohio Soil and Water Conservation Commission ... |
-| 8 | `alaska.gov` | wikidata;wikidata;wikidata | State of Alaska | government of Alaska |
-| 8 | `alea.gov` | wikidata;wikidata | Alabama Law Enforcement Agency | Alabama Department of Public Safety |
-| 8 | `americansamoa.gov` | wikidata;wikidata;wikidata | American Samoa Government Department of Health | Department of Public Health ... |
-| 8 | `archives.ncdcr.gov` | wikidata;wikidata | State Archives of North Carolina | North Carolina State Historical Records Ad... |
-| 8 | `ardot.gov` | wikidata;wikidata | Arkansas Highway Police | Arkansas Department of Transportation |
-| 8 | `asp.arkansas.gov` | wikidata;wikidata | Arkansas Highway Patrol | Arkansas State Police |
-| 8 | `azleg.gov` | wikidata;wikidata | Arizona State Legislature |
+| 8 | `agr.georgia.gov` | wikidata;wikidata | Georgia Department of Agriculture |
+| 8 | `agr.illinois.gov` | wikidata;wikidata | Illinois Department of Agriculture |
+| 8 | `agr.wa.gov` | wikidata;wikidata | Washington State Department of Agriculture |
+| 8 | `agri.nv.gov` | wikidata;wikidata | Nevada Department of Agriculture |
+| 8 | `agri.ohio.gov` | wikidata;wikidata;wikidata;wikidata | Ohio Department of Agriculture | Ohio Soil and Water Conservation Commission ... |
+| 8 | `agriculture.ks.gov` | wikidata;wikidata | Kansas Department of Agriculture |
 

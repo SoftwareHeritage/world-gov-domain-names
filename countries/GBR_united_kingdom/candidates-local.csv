@@ -1,6 +1,6 @@
 hostname,score,sources,label,level
 gov.scot,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph;directory,His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | Inspectorate of Prosecution in Scotland | Marine Scotland | Scottish Agricultural Wages Board,central-1
-gov.wales,10,wikidata;wikidata;wikidata;linkgraph;directory,Department for Education and Skills | Welsh Government,central-1
+gov.wales,10,wikidata;wikidata;wikidata;wikidata;linkgraph;directory,Department for Education and Skills | Welsh Government,central-1
 llyw.cymru,9,wikidata;wikidata;linkgraph,Welsh Government,central-1
 senedd.wales,9,wikidata;wikidata;wikidata;linkgraph,Senedd,central-1
 forestryengland.uk,8,wikidata;directory,Forestry England,central-1
@@ -10,9 +10,15 @@ nlb.org.uk,8,wikidata;directory,Northern Lighthouse Board,central-1
 scotland.police.uk,8,wikidata;linkgraph,Police Scotland,central-1
 socialworkengland.org.uk,8,wikidata;directory,Social Work England,central-1
 btp.police.uk,7,wikidata;wikidata,British Transport Police,central-1
+foodstandards.gov.scot,7,wikidata;wikidata,Food Standards Scotland,central-1
+housingregulator.gov.scot,7,wikidata;wikidata,Scottish Housing Regulator,central-1
 nihrc.org,7,wikidata;directory,Northern Ireland Human Rights Commission,central-1
-oscr.org.uk,7,wikidata;wikidata,Scottish Charity Regulator | Office of the Scottish Charity Regulator,central-1
+oscr.org.uk,7,wikidata;wikidata;wikidata,Office of the Scottish Charity Regulator | Scottish Charity Regulator,central-1
 parliament.scot,7,wikidata;wikidata;wikidata,Scottish Parliament,central-1
+consumer.scot,6,wikidata;wikidata,Consumer Scotland,central-1
+environmentalstandards.scot,6,wikidata;wikidata,Environmental Standards Scotland,central-1
+fiscalcommission.scot,6,wikidata;wikidata,Scottish Fiscal Commission,central-1
+revenue.scot,6,wikidata;wikidata,Revenue Scotland,central-1
 scottish-enterprise.com,6,wikidata;wikidata,Scottish Enterprise | South of Scotland Enterprise,central-1
 senedd.cymru,6,wikidata;wikidata;wikidata,Senedd,central-1
 artscouncil.org.uk,5,directory,Arts Council England (Executive non-departmental public body) | The Reviewing Committee on the Export of Works of Art and Objects of Cultural Inter...,central-1
@@ -26,14 +32,12 @@ disclosure.gov.scot,4,wikidata,Disclosure Scotland,central-1
 eani.org.uk,4,wikidata,Education Authority,central-1
 education.gov.scot,4,wikidata,Education Scotland,central-1
 estyn.gov.wales,4,wikidata,Estyn,central-1
-foodstandards.gov.scot,4,wikidata,Food Standards Scotland,central-1
 forestry.gov.scot,4,wikidata,Scottish Forestry,central-1
 forestryandland.gov.scot,4,wikidata,Forestry and Land Scotland,central-1
 gtce.org.uk,4,wikidata,General Teaching Council for England,central-1
 gtcs.org.uk,4,wikidata,General Teaching Council for Scotland,central-1
 hial.co.uk,4,wikidata,Highlands and Islands Airports,central-1
 hie.co.uk,4,wikidata,Highlands and Islands Enterprise,central-1
-housingregulator.gov.scot,4,wikidata,Scottish Housing Regulator,central-1
 hpa.org.uk,4,wikidata,Health Protection Agency,central-1
 hscbusiness.hscni.net,4,directory,HSC Business Services Organisation (Northern Ireland) (Executive non-departmental public body),central-1
 landcommission.gov.scot,4,wikidata,Scottish Land Commission,central-1
@@ -71,15 +75,12 @@ bgateway.com,3,wikidata,Business Gateway,central-1
 careinspectorate.com,3,wikidata,Care Inspectorate,central-1
 cjini.org,3,wikidata,Criminal Justice Inspection Northern Ireland,central-1
 communityjustice.scot,3,wikidata,Community Justice Scotland,central-1
-consumer.scot,3,wikidata,Consumer Scotland,central-1
 counciltaxreductionreview.scot,3,wikidata,Council Tax Reduction Review Panel,central-1
 courtofthelordlyon.scot,3,wikidata,Court of the Lord Lyon,central-1
 creativescotland.com,3,wikidata,Creative Scotland,central-1
 dwqr.scot,3,wikidata,Drinking Water Quality Regulator,central-1
 edinburgh.diplo.de,3,wikidata,"Consulate General of Germany, Edinburgh",central-1
-environmentalstandards.scot,3,wikidata,Environmental Standards Scotland,central-1
 estyn.llyw.cymru,3,wikidata,Estyn,central-1
-fiscalcommission.scot,3,wikidata,Scottish Fiscal Commission,central-1
 gaidhlig.scot,3,wikidata,Bòrd na Gàidhlig,central-1
 generalregulatorychamber.scot,3,wikidata,General Regulatory Chamber,central-1
 gig.cymru,3,wikidata,NHS Wales,central-1
@@ -99,7 +100,6 @@ pharmacyregulation.org,3,wikidata,General Pharmaceutical Council,central-1
 pirc.scot,3,wikidata,Police Investigations and Review Commissioner,central-1
 railholdings.scot,3,wikidata,Scottish Rail Holdings,central-1
 redress.scot,3,wikidata,Redress Scotland,central-1
-revenue.scot,3,wikidata,Revenue Scotland,central-1
 rma.scot,3,wikidata,Risk Management Authority,central-1
 roadworks.scot,3,wikidata,Scottish Road Works Commissioner,central-1
 scottishambulance.com,3,wikidata,Scottish Ambulance Service,central-1
@@ -128,7 +128,7 @@ caerphillytowncouncil.co.uk,7,wikidata;wikidata,Caerphilly Town Council,local
 cityoflondon.police.uk,7,wikidata;wikidata,City of London Police | National Fraud Intelligence Bureau,local
 equalityhumanrights.com,7,wikidata;directory,Equality and Human Rights Commission,local
 falklands.gov.fk,7,wikidata;wikidata;wikidata,"Government of the Falkland Islands | Representative of the Falkland Islands, London",local
-gov.im,7,wikidata;wikidata;wikidata,Isle of Man Fire and Rescue Service | Department for Enterprise | Department of Infrastructure,local
+gov.im,7,wikidata;wikidata;wikidata;wikidata;wikidata,Department for Enterprise | Isle of Man Fire and Rescue Service | Department of Infrastructure,local
 gov.ky,7,wikidata;wikidata,Parliament of the Cayman Islands,local
 joinedupcarederbyshire.co.uk,7,wikidata;linkgraph,NHS Derby and Derbyshire Integrated Care Board,local
 laugharnecorporation.co.uk,7,wikidata;wikidata,Laugharne Corporation,local
@@ -303,6 +303,7 @@ gmbusinessboard.com,3,wikidata,Greater Manchester Business Board (LEP),local
 gra.gi,3,wikidata,Gibraltar Regulatory Authority,local
 holyheadtowncouncil.com,3,wikidata,Holyhead Town Council,local
 holywell.wales,3,wikidata,Holywell Town Council,local
+jerseyfire.je,3,wikidata,Jersey Fire and Rescue Service,local
 knightontc.wales,3,wikidata,Knighton Town Council,local
 llangybi.org,3,wikidata,Llangybi Fawr Community Council,local
 llanwrtyd-town-council.wales,3,wikidata,Llanwrtyd Wells Town Council,local

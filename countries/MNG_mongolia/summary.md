@@ -30,11 +30,37 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 10 | `zasag.mn` | un_desa;wikidata;wikidata | Government of Mongolia | UN/DESA national portal |
-| 8 | `parliament.mn` | wikidata;wikidata | State Great Khural |
+| 10 | `zasag.mn` | un_desa;wikidata;wikidata;wikidata;wikidata | Government of Mongolia | UN/DESA national portal |
+| 9 | `supremecourt.mn` | wikidata;wikidata | Supreme Court of Mongolia |
+| 4 | `flu.mn` | wikidata | National Influenza Center |
+| 4 | `frc.mn` | wikidata | Financial Regulatory Commission of Mongolia |
+| 4 | `imsm.mn` | wikidata | Institute of Medical Sciences, Mongolia |
+| 4 | `m-election.mn` | wikidata | General Election Commission of Mongolia |
+| 4 | `mik.mn` | wikidata | Mongolian Mortgage Corporation |
+| 4 | `mn.usembassy.gov` | wikidata | Embassy of the United States, Ulaanbaatar |
+| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Ulaanbaatar |
+| 4 | `mongolbank.mn` | wikidata | Bank of Mongolia |
+| 4 | `nationallibrary.mn` | wikidata | National Library of Mongolia |
+| 4 | `nso.mn` | wikidata | Mongolia National Statistical Committee |
+| 4 | `riah.mn` | wikidata | Research Institute of Animal Husbandry |
+| 4 | `ulanbator.mfa.gov.hu` | wikidata | Embassy of Hungary in Ulaanbaatar |
+| 4 | `unesco.mn` | wikidata | Mongolian National Commission for UNESCO |
+| 4 | `vnembassy-ulaanbaatar.mofa.gov.vn​` | wikidata | Embassy of Vietnam, Ulaanbaatar |
+| 3 | `cubadiplomatica.cu` | wikidata | Embassy of Cuba, Ulaanbaatar |
+| 3 | `darkhan.mid.ru` | wikidata | General Consulate of Russia to Darkhan |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Mongolia |
+| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Mongolia |
+
+## Local / regional candidates
+
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+
+| score | hostname | sources | label |
+|------:|----------|---------|-------|
+| 4 | `judcouncil.mn` | wikidata | Judicial General Council of Mongolia |
 

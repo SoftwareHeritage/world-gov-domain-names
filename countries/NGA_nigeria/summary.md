@@ -63,13 +63,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `yoursms.com.ng` | wikidata;wikidata | Ondo State Ministry of Education |
-| 6 | `lagsoagricuinputs.org` | wikidata;wikidata | Lagos State Agricultural Inputs Supply Authority | Lagos State Agric Inputs S... |
+| 6 | `lagosministryofjustice.org` | wikidata;wikidata | Lagos State Ministry of Justice |
+| 6 | `lagsoagricuinputs.org` | wikidata;wikidata;wikidata | Lagos State Agricultural Inputs Supply Authority | Lagos State Agric Inputs S... |
 | 6 | `ondostateministryofinformation.wordpress.com` | wikidata;wikidata | Ondo State Ministry of information and Orientation |
+| 6 | `riversstate-mwrrd.com` | wikidata;wikidata | Rivers State Ministry of Water Resources and Rural Development (RSMWRRD) |
 | 4 | `nsmoh.org.ng` | wikidata | Nasarawa State Ministry of Health |
 | 4 | `pssdc.com.ng` | wikidata | Lagos State Public Service Staff Development Centre |
 | 3 | `lagosmepb.org` | wikidata | Lagos State Ministry of Economic Planning and Budget |
-| 3 | `lagosministryofjustice.org` | wikidata | Lagos State Ministry of Justice |
 | 3 | `lagosscholarship.org` | wikidata | Lagos State Scholarship Board |
 | 3 | `lagosstatesecuritytrustfund.com` | wikidata | Lagos State Security Trust Fund |
-| 3 | `lasaa.com` | wikidata | Lagos State Signage and Advertisement Agency |
 

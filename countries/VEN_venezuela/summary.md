@@ -35,7 +35,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 6 | `asambleanacionalvenezuela.org` | wikidata;wikidata | National Assembly |
+| 6 | `asambleanacionalvenezuela.org` | wikidata;wikidata;wikidata;wikidata | National Assembly | National Assembly  of Venezuela |
 | 6 | `centroamericaribeschp.com` | wikidata;wikidata | Piarist province Central America- Caribbean |
 | 6 | `dominicoshispania.org` | wikidata;wikidata | Province of Hispania of the Order of Preachers |
 | 6 | `gobiernoenlinea.ve` | un_desa | UN/DESA national portal |

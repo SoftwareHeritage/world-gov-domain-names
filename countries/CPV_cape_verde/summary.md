@@ -30,12 +30,28 @@
 
 ## Candidate domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
+| 8 | `justica.gov.cv` | wikidata;wikidata | Ministry of Justice of Cape Verde |
+| 8 | `mai.gov.cv` | wikidata;wikidata | Ministry of Internal Affairs |
+| 8 | `mesci.gov.cv` | wikidata;wikidata | Ministry of Higher Education, Science and Innovation |
 | 8 | `parlamento.cv` | wikidata;wikidata | National Assembly of Cape Verde |
-| 5 | `mai.gov.cv` | wikidata | Ministry of Internal Affairs |
-| 5 | `mesci.gov.cv` | wikidata | Ministry of Higher Education, Science and Innovation |
+| 7 | `ine.cv` | wikidata;wikidata;wikidata | National Statistics Institute |
+| 5 | `dgesc.gov.cv` | wikidata | Direcção Geral de Ensino Superior Ciencia |
+| 5 | `insp.gov.cv` | wikidata | Instituto Nacional de Saúde Pública |
+| 5 | `minsaude.gov.cv` | wikidata | Ministério da Saúde |
+| 4 | `arme.cv` | wikidata | Q136356251 |
+| 4 | `arquivonacional.cv` | wikidata | Institute of National Archives of Cabo Verde |
+| 4 | `bcv.cv` | wikidata | Bank of Cape Verde |
+| 4 | `cv.usembassy.gov` | wikidata | Embassy of the United States, Praia |
+| 4 | `iefp.cv` | wikidata | Institute of Employment and Professional Training (Cape Verde) |
+| 4 | `stj.cv` | wikidata | Cabo Verde. Supremo Tribunal de Justiça |
+| 3 | `capeverde.mid.ru` | wikidata | Embassy of Russia in Cape Verde |
+| 3 | `cv.ambafrance.org` | wikidata | Embassy of France, Praia |
+| 3 | `cv.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Praia |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Cabo Verde |
+| 3 | `praia.mae.lu` | wikidata | embassy of Luxembourg in Cape Verde |
 

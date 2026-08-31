@@ -58,7 +58,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-663 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 84 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+664 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 85 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
@@ -67,9 +67,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `castillalamancha.es` | wikidata;wikidata;wikidata;linkgraph | Regional Government of Castilla–La Mancha | Regional Government of Castile-La... |
 | 10 | `comunidad.madrid` | wikidata;wikidata;linkgraph | Community of Madrid Fire Department | Instituto Madrileño de Investigación y ... |
 | 10 | `gva.es` | wikidata;wikidata;wikidata;wikidata;linkgraph | Generalitat Valenciana | Q2993785 |
-| 10 | `juntadeandalucia.es` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Jaen University Hospital | Q10862925 | Q16552044 | Ministry of Culture and Hi... |
+| 10 | `juntadeandalucia.es` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Jaen University Hospital | Q10862925 | Q16552044 | Ministry of Culture and Hi... |
 | 10 | `madrid.org` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Consejería de Educación, Juventud y Deporte | Government of the Community of ... |
 | 10 | `navarra.es` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Government of Navarra | Departamento de Salud (Navarre) | Servicio Navarro de... |
 | 9 | `gobiernodecanarias.org` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Caldera de Taburiente National Park | Agencia Canaria de Investigación, Innov... |
-| 8 | `gov.gva.es` | wikidata;wikidata;wikidata | Q21094623 | Q11915354 |
+| 8 | `gov.gva.es` | wikidata;wikidata;wikidata;wikidata | Q21094623 | Q11915354 |
 

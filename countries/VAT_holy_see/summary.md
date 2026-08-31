@@ -29,7 +29,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `clerus.va` | wikidata;wikidata | Dicastery for the Clergy |
-| 7 | `comunicazione.va` | wikidata;wikidata | Dicastery for Communication |
 | 7 | `congregazionevescovi.va` | wikidata;wikidata | Dicastery for Bishops |
 | 7 | `dicasteryinterreligious.va` | wikidata;wikidata | Dicastery for Interreligious Dialogue |
 | 7 | `humandevelopment.va` | wikidata;wikidata | Dicastery for Promoting Integral Human Development |
@@ -40,6 +39,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `vaticanlibrary.va` | wikidata | Vatican Library |
 | 3 | `palvaticanembassy.org` | wikidata | embassy of the State of Palestine to the Holy See |
 | 3 | `pontificiaacademialatinitatis.org` | wikidata | Pontifical Academy for Latin |
+| 2 | `comunicazione.va` | wikidata;wikidata;wikidata;wikidata | Dicastery for Communication |
 | 2 | `vaticanstate.va` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Governorate of Vatican City State | Pontifical Commission for the Vatican Cit... |
 
 ## Local / regional candidates
@@ -48,8 +48,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `elemosineria.va` | wikidata;wikidata | Office of Papal Charities |
-| 4 | `dce.va` | wikidata | Dicastery for Culture and Education |
-| 4 | `doctrinafidei.va` | wikidata | Dicastery for the Doctrine of the Faith |
-| 4 | `rotaromana.va` | wikidata | Roman Rota |
+| 7 | `dce.va` | wikidata;wikidata | Dicastery for Culture and Education |
+| 7 | `doctrinafidei.va` | wikidata;wikidata | Dicastery for the Doctrine of the Faith |
+| 7 | `elemosineria.va` | wikidata;wikidata;wikidata;wikidata | Office of Papal Charities |
+| 7 | `rotaromana.va` | wikidata;wikidata | Roman Rota |
 

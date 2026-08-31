@@ -1,8 +1,12 @@
 hostname,score,sources,label,level
 adpolice.gov.ae,8,wikidata;wikidata,Abu Dhabi Police,
 almajles.gov.ae,8,wikidata;wikidata,Federal National Council,central
-moccae.gov.ae,8,wikidata;wikidata,Ministry of Climate Change and Environment,
-mofaic.gov.ae,8,wikidata;wikidata,Ministry of Foreign Affairs and International Cooperation | Ministry of Foreign Affairs of the UAE,central
+economy.gov.ae,8,wikidata;wikidata,Ministry of Economy,central
+moe.gov.ae,8,wikidata;wikidata,Ministry of Education,central
+mof.gov.ae,8,wikidata;wikidata,Ministry of Finance,
+mofaic.gov.ae,8,wikidata;wikidata;wikidata;wikidata,Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and International Cooperation,central
+moh.gov.ae,8,wikidata;wikidata,Ministry of Health and Prevention,central
+mohesr.gov.ae,8,wikidata;wikidata,Ministry of Higher Education and Scientific Research,central
 nma.gov.ae,8,wikidata;wikidata,National Media Authority,
 space.gov.ae,8,wikidata;wikidata,United Arab Emirates Space Agency,
 wam.ae,7,wikidata;wikidata,Emirates News Agency,
@@ -14,7 +18,6 @@ ajmanpolice.gov.ae,5,wikidata,Ajman Police Force,
 dewa.gov.ae,5,wikidata,Dubai Electricity and Water Authority,
 dha.gov.ae,5,wikidata,Dubai Health Authority,
 dubaipolice.gov.ae,5,wikidata,Dubai Police Force,
-economy.gov.ae,5,wikidata,Ministry of Economy,central
 emi.qcc.gov.ae,5,wikidata,Emirates Metrology Institute,
 etcc.gov.ae,5,wikidata,Q138571897,
 fanr.gov.ae,5,wikidata,Federal Authority for Nuclear Regulation,
@@ -22,12 +25,9 @@ fcsa.gov.ae,5,wikidata,Federal Competitiveness and Statistics Authority,central
 fcsc.gov.ae,5,wikidata,Federal Competitiveness and Statistics Centre,
 icp.gov.ae,5,wikidata,"Federal Authority for Identity, Citizenship, Customs and Port Security",
 mfnca.gov.ae,5,wikidata,"Ministry of State for Federal National Council Affairs, United Arab Emirates",central
-moe.gov.ae,5,wikidata,Ministry of Education,central
-mof.gov.ae,5,wikidata,Ministry of Finance,
-moh.gov.ae,5,wikidata,Ministry of Health and Prevention,central
-mohesr.gov.ae,5,wikidata,Ministry of Higher Education and Scientific Research,central
 moi.gov.ae,5,wikidata,Ministry of the Interior,
 qcc.gov.ae,5,wikidata,Abu Dhabi Quality and Conformity Council,
+sca.gov.ae,5,wikidata,Capital Market Authority,
 sdc.gov.ae,5,wikidata,Sharjah Department of Culture,
 uaecma.gov.ae,5,wikidata,Capital Market Authority,
 adach.ae,4,wikidata,UAE Public Library and Cultural Center,
@@ -62,6 +62,7 @@ finlandabroad.fi,3,wikidata,embassy of Finland in the United Arab Emirates,centr
 frenchwam.com,3,wikidata,Emirates News Agency,
 gcatholic.org,3,wikidata,Apostolic Nunciature to United Arab Emirates,central
 mfa.gr,3,wikidata,embassy of Greece in the United Arab Emirates,central
+moccae.gov.ae,3,wikidata;wikidata;wikidata;wikidata,Ministry of Climate Change and Environment,
 mzv.cz,3,wikidata,embassy of the Czech republic in the United Arab Emirates,central
 mzv.sk,3,wikidata,embassy of Slovakia in the United Arab Emirates,central
 norway.no,3,wikidata,Embassy of Norway in the United Arab Emirates,central

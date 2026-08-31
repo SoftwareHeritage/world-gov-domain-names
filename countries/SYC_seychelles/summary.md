@@ -36,6 +36,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `cbs.sc` | wikidata;wikidata | Central Bank of Seychelles |
+| 7 | `esa.egov.sc` | wikidata;wikidata | Ministry of Industry and Enterprise |
 | 7 | `nationalassembly.sc` | wikidata;wikidata;wikidata;wikidata | National Assembly of Seychelles | National Assembly |
 | 7 | `sfa.sc` | wikidata;wikidata | Seychelles Fisheries Authority |
 | 6 | `egov.sc` | un_desa | UN/DESA national portal |
@@ -45,7 +46,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `curatelleoffice.sc` | wikidata | Curatelle Office |
 | 4 | `drdm.sc` | wikidata | Department of Risk and Disaster Management |
 | 4 | `ecs.sc` | wikidata | Electoral Commission of Seychelles |
-| 4 | `esa.egov.sc` | wikidata | Ministry of Industry and Enterprise |
 | 4 | `infocom.sc` | wikidata | Information Commission |
 | 4 | `meteo.sc` | wikidata | Seychelles Meteorological Authority |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Victoria |

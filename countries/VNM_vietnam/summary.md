@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-43 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+50 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,11 +41,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `vovworld.vn` | wikidata;wikidata | Voice of Vietnam |
 | 4 | `bienphongvietnam.vn` | wikidata | Vietnam Border Defense Force |
 | 4 | `canhsatbien.vn` | wikidata | Vietnam Coast Guard |
+| 4 | `dav.edu.vn` | wikidata | Viện Nghiên cứu Chiến lược Ngoại giao |
 | 4 | `dised.vn` | wikidata | Da Nang Institute For Socio - Economic Development |
 | 4 | `english.vov.vn` | wikidata | Voice of Vietnam |
 | 4 | `english.vtv.vn` | wikidata | Vietnam Television |
 | 4 | `hanoi.mfa.gov.hu` | wikidata | Embassy of Hungary, Hanoi |
 | 4 | `hosiminh.mfa.gov.hu` | wikidata | Consulate General of Hungary, Ho Chi Minh City |
+| 4 | `ibst.vn` | wikidata | Viện Khoa học Công nghệ Xây dựng |
 | 4 | `itt.vast.vn` | wikidata | Institute for Tropical Technology |
 | 4 | `m.vovworld.vn` | wikidata | Voice of Vietnam |
 | 4 | `mocban.vn` | wikidata | National Archives Centre |
@@ -53,8 +55,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `moroccoembassy.vn` | wikidata | embassy of Morocco in Vietnam |
 | 4 | `nimpe.vn` | wikidata | National Institute of Malariology, Parasitology and Entomology |
 | 4 | `palestineembassy.vn` | wikidata | Embassy of the State of Palestine in Vietnam |
-| 4 | `sie.vast.vn` | wikidata | Southern Institute of Ecology |
-| 4 | `siwrr.org.vn` | wikidata | Southern Institute of Water Resources Research |
 
 ## Local / regional candidates
 

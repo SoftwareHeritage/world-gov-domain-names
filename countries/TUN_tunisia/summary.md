@@ -38,7 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `affaires-religieuses.tn` | wikidata;wikidata | Ministry of Religious Affairs |
 | 7 | `agriculture.tn` | wikidata;wikidata | Ministry of Agriculture |
 | 7 | `defense.tn` | wikidata;wikidata | Ministry of Defence |
-| 7 | `domainetat.tn` | wikidata;wikidata | Ministry of State Domains and Land Affairs | Ministry of State Domains |
 | 7 | `mes.tn` | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
 | 7 | `mofaic.gov.ae` | wikidata;wikidata | Embassy of the United Arab Emirates, Tunis |
 | 7 | `santetunisie.rns.tn` | wikidata;wikidata | Ministry of Health |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `apal.nat.tn` | wikidata | Agence de Protection et d'Aménagement du Littoral |
 | 4 | `apia.com.tn` | wikidata | Q2826614 |
 | 4 | `archives.nat.tn` | wikidata | National Archives of Tunisia |
+| 4 | `arp.tn` | wikidata | Assembly of the Representatives of the People |
 
 ## Local / regional candidates
 

@@ -69,7 +69,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `kensetsu.metro.tokyo.lg.jp` | wikidata;wikidata | Tokyo Metropolitan Government Bureau of Construction |
 | 7 | `kotsu.metro.tokyo.jp` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Tokyo Metropolitan Bureau of Transportation |
 | 7 | `kouaniinkai.metro.tokyo.jp` | wikidata;wikidata | Tokyo Metropolitan Public Safety Commission |
+| 7 | `kouaniinkai.police.pref.chiba.jp` | wikidata;wikidata | Chiba Prefectural Public Safety Commission |
 | 7 | `kyoiku.metro.tokyo.lg.jp` | wikidata;wikidata | Tokyo Metropolitan Government Board of Education |
 | 7 | `metro.tokyo.lg.jp` | wikidata;wikidata;wikidata;wikidata | Tokyo Metropolitan Government | Tokyo |
-| 7 | `police.pref.akita.jp` | wikidata;wikidata | Akita Prefectural Public Safety Commission | Akita Prefectural Police |
 

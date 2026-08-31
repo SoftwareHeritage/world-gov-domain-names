@@ -2,6 +2,7 @@ type,label,website,hostname,level
 constitutional_court,Government of the Autonomous Republic of Abkhazia,https://abkhazia.gov.ge,abkhazia.gov.ge,central-1
 government_agency,Ministry of Education and Culture of the Autonomous Republic of Abkhazia,http://abkhazia.gov.ge/saministro/MINISTRY-OF-EDUCATION-AND-CULTURE,abkhazia.gov.ge,central-1
 government_agency,Government of the Autonomous Republic of Abkhazia,https://abkhazia.gov.ge,abkhazia.gov.ge,central-1
+ministry,Ministry of Education and Culture of the Autonomous Republic of Abkhazia,http://abkhazia.gov.ge/saministro/MINISTRY-OF-EDUCATION-AND-CULTURE,abkhazia.gov.ge,central-1
 government_agency,AIDS and Clinical Immunology Research Center,http://aidscenter.ge/,aidscenter.ge,
 government_agency,embassy of Italy in Georgia,https://ambtbilisi.esteri.it,ambtbilisi.esteri.it,central
 government_agency,Agency of Protected Areas of Georgia,https://apa.gov.ge/ru,apa.gov.ge,central
@@ -18,10 +19,13 @@ government_agency,embassy of Austria in Georgia,https://www.bmeia.gv.at/oeb-tifl
 government_agency,Border Police of Georgia,http://bpg.gov.ge/,bpg.gov.ge,
 government_agency,Election Administration of Georgia,http://cesko.ge,cesko.ge,
 government_agency,Georgian National Communications Commission,https://comcom.ge/en/,comcom.ge,
-ministry,Ministry of Culture and Monument Protection,http://culture.gov.ge/,culture.gov.ge,
+ministry,Ministry of Culture and Monument Protection,http://culture.gov.ge/,culture.gov.ge,central
 government_agency,Ministry of Culture and Monument Protection,http://culture.gov.ge/,culture.gov.ge,central
+ministry,Ministry of Culture of Georgia,https://culture.gov.ge/,culture.gov.ge,central
 ministry,State Ministry on Diaspora Issues,http://www.diaspora.gov.ge,diaspora.gov.ge,
 government_agency,State Ministry on Diaspora Issues,http://www.diaspora.gov.ge,diaspora.gov.ge,
+ministry,Ministry of Economy and Sustainable Development of Georgia,https://www.economy.ge/?lang=en,economy.ge,central
+ministry,Ministry of Economy and Sustainable Development of Georgia,https://www.economy.ge/?lang=ge,economy.ge,central
 ministry,Ministry of Economy and Sustainable Development,http://www.economy.ge,economy.ge,
 government_agency,Ministry of Economy and Sustainable Development,http://www.economy.ge,economy.ge,central
 government_agency,Delegation of the European Union to Georgia,https://eeas.europa.eu/delegations/georgia_en,eeas.europa.eu,
@@ -39,39 +43,52 @@ government_agency,National Statistics Office of Georgia,http://www.geostat.ge/,g
 government_agency,Georgian National Agency for Standards and Metrology,https://geostm.ge,geostm.ge,
 government_agency,Georgia's Innovation and Technology Agency,https://gita.gov.ge/,gita.gov.ge,
 government_agency,Abkhaz State Archive,https://gosarchive.apsny.land/ru/,gosarchive.apsny.land,
+constitutional_court,Government of Georgia,https://www.gov.ge/,gov.ge,central
 government_agency,"Embassy of Poland, Tbilisi",https://www.gov.pl/web/gruzja/,gov.pl,central
 government_agency,British Embassy Tbilisi,https://www.gov.uk/world/organisations/british-embassy-tbilisi,gov.uk,central
 government_agency,State Council of Heraldry,http://heraldika.ge/,heraldika.ge,
 government_agency,National Agency for Cultural Heritage Preservation of Georgia,https://heritagesites.ge/ka,heritagesites.ge,
 government_agency,Ministry of Justice,https://justice.gov.ge,justice.gov.ge,central
 ministry,Ministry of Justice,https://justice.gov.ge,justice.gov.ge,
+ministry,Ministry of Justice of Georgia,https://justice.gov.ge,justice.gov.ge,central
 government_agency,Ministry of Environmental Protection and Agriculture of Georgia,https://mepa.gov.ge/,mepa.gov.ge,central
-ministry,Ministry of Environmental Protection and Agriculture of Georgia,https://mepa.gov.ge/En/,mepa.gov.ge,
+ministry,Ministry of Environmental Protection and Agriculture of Georgia,https://mepa.gov.ge/En/,mepa.gov.ge,central
 government_agency,Ministry of Environmental Protection and Agriculture of Georgia,https://mepa.gov.ge/En/,mepa.gov.ge,central
-ministry,Ministry of Environmental Protection and Agriculture of Georgia,https://mepa.gov.ge/,mepa.gov.ge,
+ministry,Ministry of Environmental Protection and Agriculture of Georgia,https://mepa.gov.ge/,mepa.gov.ge,central
 ministry,Ministry of Education and Science,http://www.mes.gov.ge,mes.gov.ge,
+ministry,"Ministry of Education, Science and Youth of Georgia",https://mes.gov.ge/,mes.gov.ge,central
 government_agency,Ministry of Education and Science,http://www.mes.gov.ge,mes.gov.ge,central
+ministry,"Ministry of Education, Science and Youth of Georgia",https://mes.gov.ge/?lang=eng,mes.gov.ge,central
 government_agency,embassy of Bulgaria in Georgia,https://www.mfa.bg/embassies/georgia,mfa.bg,central
+ministry,Ministry of Foreign Affairs of Georgia,https://mfa.gov.ge/,mfa.gov.ge,central
 government_agency,Ministry of Foreign Affairs of Georgia,http://www.mfa.gov.ge/index.php?lang_id=ENG&sec_id=1,mfa.gov.ge,central
 ministry,Ministry of Foreign Affairs of Georgia,http://www.mfa.gov.ge/index.php?lang_id=ENG&sec_id=1,mfa.gov.ge,
+ministry,Ministry of Foreign Affairs of Georgia,https://mfa.gov.ge/en,mfa.gov.ge,central
 government_agency,embassy of Latvia in Georgia,https://www.mfa.gov.lv/georgia,mfa.gov.lv,central
 government_agency,embassy of Greece in Georgia,https://www.mfa.gr/missionsabroad/georgia.html,mfa.gr,central
+ministry,Ministry of Internal Affairs of Georgia,https://mia.police.ge/,mia.police.ge,central
+ministry,Ministry of Internal Affairs of Georgia,https://mia.police.ge/en/,mia.police.ge,central
 government_agency,Ministry of Internal Affairs of Georgia,https://mia.police.ge/,mia.police.ge,central
-ministry,Ministry of Energy and Natural Resources,http://www.minenergy.gov.ge/,minenergy.gov.ge,
+ministry,Ministry of Energy and Natural Resources,http://www.minenergy.gov.ge/,minenergy.gov.ge,central
 government_agency,Ministry of Energy and Natural Resources,http://www.minenergy.gov.ge/,minenergy.gov.ge,central
 ministry,Ministry of Defense of Georgia,http://www.mod.gov.ge/?lang=eng,mod.gov.ge,
 government_agency,Ministry of Defense of Georgia,http://www.mod.gov.ge/?lang=eng,mod.gov.ge,central
-ministry,Ministry of Environment Protection and Natural Resources,http://moe.gov.ge,moe.gov.ge,
+ministry,Ministry of Defence of Georgia,https://mod.gov.ge/,mod.gov.ge,central
+ministry,Ministry of Environment Protection and Natural Resources,http://moe.gov.ge,moe.gov.ge,central
 government_agency,Ministry of Environment Protection and Natural Resources,http://moe.gov.ge,moe.gov.ge,central
-ministry,Ministry of Finance of Georgia,https://mof.ge/,mof.ge,
+ministry,Ministry of Finance of Georgia,https://www.mof.ge/en,mof.ge,central
+ministry,Ministry of Finance of Georgia,https://mof.ge/,mof.ge,central
 government_agency,Ministry of Finance of Georgia,https://mof.ge/,mof.ge,central
 government_agency,"Ministry of Internally Displaced Persons from the Occupied Territories, Labour, Health and Social Affairs of Georgia",http://www.moh.gov.ge,moh.gov.ge,central
+ministry,"Ministry of Internally Displaced Persons from the Occupied Territories, Labour, Health and Social Affairs of Georgia",https://www.moh.gov.ge/,moh.gov.ge,central
 ministry,"Ministry of Internally Displaced Persons from the Occupied Territories, Labour, Health and Social Affairs of Georgia",http://www.moh.gov.ge,moh.gov.ge,
+ministry,Ministry of Infrastructure of Georgia,https://moi.gov.ge/ka,moi.gov.ge,central
+ministry,Ministry of Infrastructure of Georgia,https://moi.gov.ge/en,moi.gov.ge,central
 government_agency,United States Army Medical Research Directorate - Georgia,https://mrdg.health.mil,mrdg.health.mil,
 ministry,Ministry of Regional Development and Infrastructure,http://www.mrdi.gov.ge,mrdi.gov.ge,
 government_agency,Ministry of Regional Development and Infrastructure,http://www.mrdi.gov.ge,mrdi.gov.ge,central
 government_agency,Ministry of Sport and Youth Affairs,http://msy.gov.ge,msy.gov.ge,central
-ministry,Ministry of Sport and Youth Affairs,http://msy.gov.ge,msy.gov.ge,
+ministry,Ministry of Sport and Youth Affairs,http://msy.gov.ge,msy.gov.ge,central
 government_agency,embassy of the Czech republic in Georgia,https://www.mzv.cz/tbilisi,mzv.cz,central
 government_agency,embassy of Slovakia in Georgia,https://www.mzv.sk/web/tbilisi,mzv.sk,central
 government_agency,National Bank of the Republic of Abkhazia,https://www.nb-ra.org/,nb-ra.org,local
@@ -99,15 +116,18 @@ government_agency,National Science Library,http://www.sciencelib.ge/,sciencelib.
 government_agency,Public Service Development Agency,http://sda.gov.ge/?lang=en,sda.gov.ge,
 government_agency,State Ministry for Reconciliation and Civic Equality of Georgia,https://www.smr.gov.ge/,smr.gov.ge,central
 ministry,State Ministry for Reconciliation and Civic Equality of Georgia,https://www.smr.gov.ge/,smr.gov.ge,
+ministry,Ministry of Sport of Georgia,https://sport.gov.ge/,sport.gov.ge,central
 government_agency,State Security Service of Georgia,http://ssg.gov.ge/en,ssg.gov.ge,
 government_agency,Special State Protection Service of Georgia,https://ssps.gov.ge/eng,ssps.gov.ge,central
 government_agency,Special State Protection Service of Georgia,https://www.ssps.gov.ge/,ssps.gov.ge,central
 government_agency,Supreme Court of Georgia,http://www.supremecourt.ge,supremecourt.ge,
 government_agency,"Embassy of Sweden, Tbilisi",https://www.swedenabroad.se/sv/utlandsmyndigheter/georgien-tbilisi,swedenabroad.se,central
+constitutional_court,Tbilisi City Hall,https://tbilisi.gov.ge/,tbilisi.gov.ge,central-1
 government_agency,Embassy of Brazil in Georgia,http://tbilisi.itamaraty.gov.br,tbilisi.itamaraty.gov.br,central
 government_agency,embassy of Romania in Georgia,http://tbilisi.mae.ro,tbilisi.mae.ro,central
 government_agency,embassy of Estonia in Tbilisi,https://tbilisi.mfa.ee/,tbilisi.mfa.ee,central
 government_agency,"Embassy of Hungary, Tbilisi",https://tbiliszi.mfa.gov.hu/,tbiliszi.mfa.gov.hu,central
+parliament,Tbilisi City Assembly,https://tbsakrebulo.gov.ge/,tbsakrebulo.gov.ge,central-1
 parliament,Tbilisi City Assembly,http://tbsakrebulo.gov.ge/,tbsakrebulo.gov.ge,
 parliament,Tbilisi City Assembly,http://tbsakrebulo.gov.ge/?lng=eng,tbsakrebulo.gov.ge,
 government_agency,"Embassy of Turkey, Tbilisi",https://tiflis-be.mfa.gov.tr,tiflis-be.mfa.gov.tr,central
