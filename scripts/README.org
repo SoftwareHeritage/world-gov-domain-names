@@ -93,7 +93,9 @@ so they are listed for reference but not searched. With the
 =github-orgs= argument, the organizations of
 =data/github-gov-orgs.csv= (from GitHub's community-maintained
 =governments.yml=, fetched by =bb forges github-orgs=) are checked
-too. The anonymous API allows 10 requests per rate-limit window (the
+too. Only the origins hosted on the target (or a subdomain of it)
+count as hits: the API matches URL tokens, not substrings. The
+anonymous API allows 10 requests per rate-limit window (the
 command paces itself accordingly); set =SWH_TOKEN= to authenticate and
 go faster -- recommended for the ~1000-org =github-orgs= sweep.
 

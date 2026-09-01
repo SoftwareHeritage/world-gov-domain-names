@@ -166,19 +166,35 @@
     (err (str "  (" why ", pausing " wait "s)"))
     (Thread/sleep (* 1000 wait))))
 
+(defn origin-matches?
+  "Does origin url live on target (host or subdomain; for github.com/<org>,
+  under /<org>/)? The search API matches URL tokens, so its hits need this."
+  [target url]
+  (let [[thost tpath] (str/split (str/lower-case target) #"/" 2)
+        [_ host path] (re-find #"^[a-z+]+://([^/]+)(.*)" (str/lower-case (str url)))]
+    (and host
+         (or (= host thost) (str/ends-with? host (str "." thost)))
+         (or (nil? tpath) (str/starts-with? path (str "/" tpath "/"))))))
+
+(def swh-search-limit 100)
+
 (defn swh-origins-count
-  "Number of origins the SWH archive knows under host (0 = unknown), or nil
-  when the API could not be answered. A 429 waits the rate-limit window
-  out and retries; an exhausted quota triggers a pre-emptive pause."
-  [host]
+  "Number of origins the SWH archive knows on target (0 = unknown), capped
+  at swh-search-limit, or nil when the API could not be answered. A 429
+  waits the rate-limit window out and retries; an exhausted quota triggers
+  a pre-emptive pause."
+  [target]
   (loop [attempt 1]
-    (let [resp      (swh-get host 10)
+    (let [resp      (swh-get target swh-search-limit)
           status    (:status resp)
           remaining (some-> (get-in resp [:headers "x-ratelimit-remaining"])
                             parse-long)]
       (cond
         (= 200 status)
-        (let [n (try (count (json/parse-string (:body resp)))
+        (let [n (try (->> (json/parse-string (:body resp))
+                          (map #(get % "url"))
+                          (filter #(origin-matches? target %))
+                          count)
                      (catch Exception _ nil))]
           (when (and remaining (<= remaining 1))
             (rate-limit-pause! resp "rate-limit window exhausted"))
@@ -401,9 +417,10 @@
                           (err (str "  " target " -> "
                                     (cond (nil? n) "API error"
                                           (zero? n) "UNKNOWN to SWH"
-                                          ;; the query asks limit=10: the
-                                          ;; count is capped, not exact
-                                          (>= n 10) "10+ origin(s)"
+                                          ;; the count is capped by the
+                                          ;; query limit, not exact
+                                          (>= n swh-search-limit)
+                                          (str swh-search-limit "+ origin(s)")
                                           :else (str n " origin(s)"))))
                           (Thread/sleep 500)
                           [target country kind source n])))
