@@ -59,10 +59,10 @@
 
 (defn parallel [default-n]
   (let [v (System/getenv "PARALLEL")]
-    (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default-n)))
+    (if (and v (re-matches #"\d+" v)) (max 1 (Integer/parseInt v)) default-n)))
 
 (defn bounded-pmap [n f coll]
-  (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int n))
+  (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int (max 1 n)))
         g (bound-fn* f)]
     (try
       (->> coll
