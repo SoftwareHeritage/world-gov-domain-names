@@ -399,7 +399,8 @@
                     (do (err "ERR: data/github-gov-orgs.csv missing. "
                              "Run 'bb forges github-orgs' first")
                         nil)))
-        targets (->> (concat harvest curated gh-orgs)
+        ;; curated first: on a duplicate target its kind and country win
+        targets (->> (concat curated harvest gh-orgs)
                      (reduce (fn [m [target :as row]]
                                (if (contains? m target) m (assoc m target row)))
                              {})
