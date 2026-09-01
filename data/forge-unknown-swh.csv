@@ -1,14 +1,16 @@
 target,country,kind,source,forge_type,http_status,note
-code.ach.gov.ru,RUS_russia,forge,harvest,gitlab,200,
-code.gov.cz,CZE_czechia,forge,harvest,gitlab,200,
+code.ach.gov.ru,RUS_russia,forge,harvest,unknown,000,DNS does not resolve
+code.gov.cz,CZE_czechia,forge,curated,gitlab,200,
 code.neyduetewa.gov.bt,BTN_bhutan,forge,harvest,gitlab,200,
 code.nla.gov.au,AUS_australia,forge,harvest,github,200,redirects to https://github.com/nla
+code.open.canada.ca,CAN_canada,forge,harvest,unknown,200,
 code.ouvert.canada.ca,CAN_canada,forge,harvest,unknown,200,
 codes.trl.gov.tm,TKM_turkmenistan,forge,harvest,unknown,000,timeout
 developer.derash.gov.et,ETH_ethiopia,forge,harvest,unknown,000,DNS does not resolve
 developer.ofatma.gouv.ht,HTI_haiti,forge,harvest,unknown,000,DNS does not resolve
 developer.uidai.gov.in,IND_india,forge,harvest,unknown,000,timeout
 forge.application.developpement-durable.gouv.fr,FRA_france,forge,harvest,unknown,000,DNS does not resolve
+forge.din.developpement-durable.gouv.fr,FRA_france,forge,harvest,unknown,200,
 forge.diplomatie.gouv.fr,FRA_france,forge,harvest,unknown,000,DNS does not resolve
 forge.douane.gouv.fr,FRA_france,forge,harvest,unknown,000,DNS does not resolve
 forge.sigp.aviation-civile.gouv.fr,FRA_france,forge,harvest,unknown,401,redirects to https://authentification-sesame.sigp.aviation-civile.gouv.fr/auth/
@@ -21,11 +23,15 @@ git.digital.gov.my,MYS_malaysia,forge,harvest,unknown,000,TLS handshake failed
 git.dmfy.gov.cn,CHN_china,forge,harvest,unknown,000,DNS does not resolve
 git.dominica.gov.dm,DMA_dominica,forge,harvest,bonobo,200,
 git.eba.gov.tr,TUR_turkey,forge,harvest,unknown,000,DNS does not resolve
+git.educacion.gob.ar,ARG_argentina,forge,harvest,unknown,000,DNS does not resolve
 git.emed.gov.kg,KGZ_kyrgyzstan,forge,harvest,unknown,000,timeout
+git.geo.admin.ch,CHE_switzerland,forge,harvest,unknown,000,DNS does not resolve
+git.gob.cl,CHL_chile,forge,harvest,unknown,000,timeout
+git.gov.kn,KNA_saint_kitts_and_nevis,forge,harvest,gitlab,200,
 git.hmfd.mes.gov.kg,KGZ_kyrgyzstan,forge,harvest,unknown,000,DNS does not resolve
-git.i.gov.ph,PHL_philippines,forge,harvest,unknown,000,connection refused
+git.i.gov.ph,PHL_philippines,forge,harvest,unknown,000,timeout
 git.isceco.admin.ch,CHE_switzerland,forge,harvest,gitlab,200,
-git.itc.gov.mn,MNG_mongolia,forge,harvest,unknown,000,timeout
+git.itc.gov.mn,MNG_mongolia,forge,harvest,unknown,404,
 git.lsrenkou.gov.cn,CHN_china,forge,harvest,unknown,000,DNS does not resolve
 git.minedu.gov.gr,GRC_greece,forge,harvest,gitlab,200,
 git.mof.gov.la,LAO_laos,forge,harvest,unknown,000,connection refused
@@ -34,16 +40,8 @@ git.police.gov.mv,MDV_maldives,forge,harvest,unknown,000,DNS does not resolve
 git.redoaxaca.gob.mx,MEX_mexico,forge,harvest,unknown,000,DNS does not resolve
 git.snia.gub.uy,URY_uruguay,forge,harvest,unknown,500,
 git.softwarelibre.conocimiento.gob.ec,ECU_ecuador,forge,harvest,unknown,000,DNS does not resolve
-github.com/DCGovWeb,U.S. States,github-org,governments.yml,github,200,
-github.com/Fire-and-Rescue-NSW,Australia,github-org,governments.yml,github,200,
-github.com/SAS-NCDC,Saudi Arabia,github-org,governments.yml,github,200,
-github.com/berkeleypubliclibrary,U.S. City,github-org,governments.yml,github,200,
-github.com/cityofwestsacramento,U.S. City,github-org,governments.yml,github,200,
-github.com/directgov-innovate,U.K. Central,github-org,governments.yml,github,200,
-github.com/gopleader,U.S. Federal,github-org,governments.yml,github,200,
-github.com/swibwi,U.S. States,github-org,governments.yml,github,200,
 gitlab.adsib.gob.bo,BOL_bolivia,forge,harvest,unknown,000,DNS does not resolve
-gitlab.anptic.gov.bf,BFA_burkina_faso,forge,harvest,unknown,000,timeout
+gitlab.anptic.gov.bf,BFA_burkina_faso,forge,harvest,unknown,000,connection refused
 gitlab.casi.gov.sy,SYR_syria,forge,harvest,unknown,000,TLS handshake failed
 gitlab.catamarca.gob.ar,ARG_argentina,forge,harvest,unknown,000,DNS does not resolve
 gitlab.cetechihuahua.gob.mx,MEX_mexico,forge,harvest,unknown,000,timeout
@@ -80,10 +78,12 @@ gitlab.softwarelibre.gob.bo,BOL_bolivia,forge,harvest,gitlab,200,
 gitlab.techin.gov.et,ETH_ethiopia,forge,harvest,unknown,000,DNS does not resolve
 gitlab.test.portalverbund.gv.at,AUT_austria,forge,harvest,unknown,000,DNS does not resolve
 gitlab.tic.gov.tl,TLS_timor_leste,forge,harvest,gitlab,200,
+koodivaramu.eesti.ee,EST_estonia,forge,curated,gitlab,200,
 openforge.gov.in,IND_india,forge,curated,unknown,403,
-opensource.unicc.org,UN_united_nations,forge,curated,gitlab,200,
+opensource.unicc.org,UN_united_nations,forge,curated,unknown,502,
 oss.dga.gov.sa,SAU_saudi_arabia,forge,curated,unknown,403,blocked by Cloudflare
 oss.economy.gov.ru,RUS_russia,forge,harvest,unknown,000,DNS does not resolve
 oss.ema.gov.sg,SGP_singapore,forge,harvest,unknown,200,blocked by Incapsula WAF
 oss.lancashire.gov.uk,GBR_united_kingdom,forge,harvest,unknown,000,timeout
 oss.sa.gov.au,AUS_australia,forge,harvest,unknown,000,DNS does not resolve
+softwarepublico.gov.br,BRA_brazil,forge,curated,unknown,404,redirects to https://www.gov.br/governodigital/pt-br/software-publico
