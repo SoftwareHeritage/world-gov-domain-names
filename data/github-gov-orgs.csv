@@ -20,6 +20,7 @@ consumerdataright,Australia
 data61,Australia
 datagovau,Australia
 dbca-wa,Australia
+digitalnsw,Australia
 dpc-sdp,Australia
 dpipwe,Australia
 dssgovaus,Australia
@@ -169,7 +170,6 @@ kb-dk,Denmark
 Kortforsyningen,Denmark
 NationalMuseumofDenmark,Denmark
 Notalib,Denmark
-OS2offdig,Denmark
 skat,Denmark
 ssi-dk,Denmark
 StatensMuseumforKunst,Denmark
@@ -195,7 +195,6 @@ openeuropa,European Union
 6Aika,Finland
 City-of-Helsinki,Finland
 City-of-Turku,Finland
-cossfi,Finland
 CSC-IT-Center-for-Science,Finland
 espoon-voltti,Finland
 finnishtransportagency,Finland
@@ -225,7 +224,7 @@ cea-sec,France
 clipos,France
 clipos-archive,France
 communaute-cimi,France
-culturecommunication,France
+culturegouv,France
 cw-leia,France
 DGFiP,France
 diplomatiegouvfr,France
@@ -308,7 +307,6 @@ pcm-dpc,Italy
 PloneGov-IT,Italy
 RegioneER,Italy
 TeamDigitale,Italy
-city-of-kobe,Japan
 codefornamie,Japan
 gsi-cyberjapan,Japan
 nhohq,Japan
@@ -339,6 +337,7 @@ mxabierto,Mexico
 PJECZ,Mexico
 profeco,Mexico
 redoaxacadetodos,Mexico
+moest-np,Nepal
 Amsterdam,Netherlands
 dataoverheid,Netherlands
 GemeenteAlmelo,Netherlands
@@ -394,7 +393,7 @@ Rogaland,Norway
 rutebanken,Norway
 ruterno,Norway
 Skatteetaten,Norway
-StatensPensjonskasse,Norway
+statens-pensjonskasse,Norway
 statisticsnorway,Norway
 telemark,Norway
 telemark-arkiv,Norway
@@ -494,10 +493,11 @@ Vastra-Gotalandsregionen,Sweden
 vasttrafik,Sweden
 admin-ch,Switzerland
 alv-ch,Switzerland
-BFS-SHS-MSAS,Switzerland
+BFS-Web,Switzerland
 dsi-vd,Switzerland
 FNSKtZH,Switzerland
 geoadmin,Switzerland
+Geoinformation-Winterthur,Switzerland
 gisktzh,Switzerland
 kanton-aargau,Switzerland
 kanton-bern,Switzerland
@@ -520,48 +520,80 @@ DGA-Thailand,Thailand
 111online,U.K. Central
 acteng,U.K. Central
 alphagov,U.K. Central
+bank-of-england,U.K. Central
 BEACmodel,U.K. Central
+best-practice-and-impact,U.K. Central
+Birmingham-and-Solihull-ICS,U.K. Central
 britishlibrary,U.K. Central
 cabinetoffice,U.K. Central
+CareQualityCommission,U.K. Central
+CDU-data-science-team,U.K. Central
+CDEIUK,U.K. Central
 CDPS-Wales,U.K. Central
+Civil-Service-Human-Resources,U.K. Central
 CJSCommonPlatform,U.K. Central
+cmagovuk,U.K. Central
 co-cddo,U.K. Central
 communitiesuk,U.K. Central
 companieshouse,U.K. Central
 CPS-Innovation,U.K. Central
+Crown-Commercial-Service,U.K. Central
 datagovuk,U.K. Central
 datasciencecampus,U.K. Central
 decc,U.K. Central
+defencedigital,U.K. Central
 defra,U.K. Central
+defra-design,U.K. Central
+Defra-CAPD,U.K. Central
+department-for-transport,U.K. Central
+department-for-transport-BODS,U.K. Central
 DFE-Digital,U.K. Central
 dfid,U.K. Central
+dhsc-govuk,U.K. Central
+Digital-Intelligence-Unit,U.K. Central
+digital-land,U.K. Central
 digital-preservation,U.K. Central
 directgov-innovate,U.K. Central
 dstl,U.K. Central
 dvla,U.K. Central
 dvsa,U.K. Central
 dwp,U.K. Central
+dwpdigital,U.K. Central
+FoodStandardsAgency,U.K. Central
+forestresearch,U.K. Central
+fsadata,U.K. Central
 GCHQ,U.K. Central
 gds-dead,U.K. Central
 gds-operations,U.K. Central
+gosh-dre,U.K. Central
+govuk-digital-backbone,U.K. Central
+govuk-forms,U.K. Central
+govuk-once,U.K. Central
 govuk-one-login,U.K. Central
+govuk-pay,U.K. Central
+govuk-paas,U.K. Central
 guidance-guarantee-programme,U.K. Central
 hmcts,U.K. Central
 HMPO,U.K. Central
 hmrc,U.K. Central
 HO-CTO,U.K. Central
+homesengland,U.K. Central
 houseofcommonslibrary,U.K. Central
 i-dot-ai,U.K. Central
 informatics-lab,U.K. Central
+InnovateUKGitHub,U.K. Central
 insolvencyservice,U.K. Central
 intellectual-property-office,U.K. Central
 IQuOD,U.K. Central
+iuec,U.K. Central
 jncc,U.K. Central
 JNCC-UK,U.K. Central
 jules-lsm,U.K. Central
 LandRegistry,U.K. Central
 landregistry-ops,U.K. Central
+LandRegistry-Attic,U.K. Central
 lgss,U.K. Central
+LlGC-NLW,U.K. Central
 LocalGovDigital,U.K. Central
 MarineScotlandScience,U.K. Central
 MetOffice,U.K. Central
@@ -574,37 +606,93 @@ naouk,U.K. Central
 nationalarchives,U.K. Central
 NationalCrimeAgency,U.K. Central
 NationalLibraryOfScotland,U.K. Central
+Network-Rail-Business-Systems,U.K. Central
+nhs-england-tools,U.K. Central
+NHS-Blood-and-Transplant,U.K. Central
+nhs-bnssg-analytics,U.K. Central
+nhsbsa,U.K. Central
+nhsbsa-data-analytics,U.K. Central
 nhsconnect,U.K. Central
+nhscymru,U.K. Central
+nhselect,U.K. Central
+nwisbeta,U.K. Central
 nhsdigital,U.K. Central
+nhs-digital-gp-it-futures,U.K. Central
+nhs-digital-website,U.K. Central
+nhsd-a2si,U.K. Central
+nhsd-exeter,U.K. Central
 nhsengland,U.K. Central
+nhsleadership,U.K. Central
+NHSE-NDRS,U.K. Central
+nhse-dementia,U.K. Central
+nhse-talking-therapies,U.K. Central
+nhs-r-community,U.K. Central
+nhs-oa-community,U.K. Central
 nhsuk,U.K. Central
+nhsuk-archive,U.K. Central
+nhsalpha,U.K. Central
 NHSX,U.K. Central
+NHS-South-Central-and-West,U.K. Central
+NHS-Transformation-Unit,U.K. Central
+nhs-ney-analytics,U.K. Central
+nhs-test-digital-design,U.K. Central
+nottmhospitals,U.K. Central
+Nottingham-and-Nottinghamshire-ICS,U.K. Central
+nw-gmsa,U.K. Central
 nice-digital,U.K. Central
 nihp-public,U.K. Central
+no10ds,U.K. Central
 OfqualGovUK,U.K. Central
+ONSBigData,U.K. Central
+ONS-Innovation,U.K. Central
+ONS-OpenData,U.K. Central
+GSS-Cogs,U.K. Central
 ONSdigital,U.K. Central
 openregister,U.K. Central
 OrdnanceSurvey,U.K. Central
 osgeouk,U.K. Central
+Planning-Inspectorate,U.K. Central
+Public-Health-Scotland,U.K. Central
+Public-Health-Wales,U.K. Central
+ScotGovAnalysis,U.K. Central
+scottish-environment-protection-agency,U.K. Central
+scottish-government-design-system,U.K. Central
+Scottish-Natural-Heritage,U.K. Central
 scottishgovernment,U.K. Central
+ScottishParliament,U.K. Central
 SkillsFundingAgency,U.K. Central
 tanc-ahrc,U.K. Central
+technologyenhancedlearning,U.K. Central
+The-Strategy-Unit,U.K. Central
+thepensionsregulator,U.K. Central
+TransportForLondon,U.K. Central
+TransportScotland,U.K. Central
+ukaea,U.K. Central
+UK-Export-Finance,U.K. Central
 ukforeignoffice,U.K. Central
+ukhsa-collaboration,U.K. Central
+UKHSA-Internal,U.K. Central
+UKHO,U.K. Central
+ukgov-equality-hub,U.K. Central
 ukgovdatascience,U.K. Central
 UKGovernmentBEIS,U.K. Central
 UKHomeOffice,U.K. Central
+UKHomeOffice-attic,U.K. Central
 UKHomeOfficeForms,U.K. Central
 UKLocation,U.K. Central
 ukncsc,U.K. Central
+UKParliData,U.K. Central
 ukparliament,U.K. Central
 uktrade,U.K. Central
 ukwa,U.K. Central
+VMDDTE,U.K. Central
 BathnesDevelopment,U.K. Councils
 BracknellForestCouncil,U.K. Councils
 brighton-hove-gov-uk,U.K. Councils
 BristolCityCouncil,U.K. Councils
 CamdenCouncil,U.K. Councils
 cityofyork,U.K. Councils
+coventry-city-council,U.K. Councils
 devoncc,U.K. Councils
 DevonCountyCouncil,U.K. Councils
 Dorset-Council-UK,U.K. Councils
@@ -612,23 +700,37 @@ DundeeCityCouncil,U.K. Councils
 east-sussex-county-council,U.K. Councils
 edinburghcouncil,U.K. Councils
 essexcountycouncil,U.K. Councils
+Falkirk-Council,U.K. Councils
 gmfrs,U.K. Councils
-GuildfordBC,U.K. Councils
 HfdsCouncil,U.K. Councils
+hull-city-council,U.K. Councils
 kentcc,U.K. Councils
+KLBC-WebTeam,U.K. Councils
 LambethCouncil,U.K. Councils
+LBHackney-IT,U.K. Councils
+LBHounslow,U.K. Councils
 lichfield-district-council,U.K. Councils
+LiverpoolCityCouncil,U.K. Councils
+LondonBoroughOfBexley,U.K. Councils
 LondonBoroughSutton,U.K. Councils
 LutonCouncil,U.K. Councils
+northamptonshire-county-council,U.K. Councils
 openglasgow,U.K. Councils
+OxfordshireCountyCouncil,U.K. Councils
+Reading-Borough-Council,U.K. Councils
+rothgov,U.K. Councils
 RoyalBoroughKingston,U.K. Councils
+rushmoor,U.K. Councils
 smbc-digital,U.K. Councils
 surreydigitalservices,U.K. Councils
 thehighlandcouncil,U.K. Councils
 TraffordCouncil,U.K. Councils
+ukfrs-CDDFRS,U.K. Councils
+ukfrs-hertsfrs,U.K. Councils
 warwickshire,U.K. Councils
 wealden,U.K. Councils
 west-berkshire-council,U.K. Councils
+wfcouncil,U.K. Councils
 wmfs,U.K. Councils
 austincodeit,U.S. City
 Baltimore-City-EGIS,U.S. City
@@ -743,6 +845,7 @@ digital-analytics-program,U.S. Federal
 dodcio,U.S. Federal
 doecode,U.S. Federal
 doi-open-data,U.S. Federal
+DSACMS,U.S. Federal
 EEOC,U.S. Federal
 energyapps,U.S. Federal
 erdc,U.S. Federal
@@ -775,7 +878,6 @@ IMDProjects,U.S. Federal
 imls,U.S. Federal
 informaticslab,U.S. Federal
 Innovation-Toolkit,U.S. Federal
-internationaltradeadministration,U.S. Federal
 ioos,U.S. Federal
 IRSgov,U.S. Federal
 keplergo,U.S. Federal
@@ -929,8 +1031,10 @@ LibraryofVA,U.S. States
 massgov,U.S. States
 MESMD,U.S. States
 MFWP-GIS,U.S. States
+NC-DIT-Open-Source,U.S. States
 nebraskamap,U.S. States
 nelegislature,U.S. States
+newjersey,U.S. States
 NJOGIS,U.S. States
 njstatelibrary,U.S. States
 ny,U.S. States
@@ -961,7 +1065,6 @@ WSDOT-GIS,U.S. States
 coquille-indian-tribe,U.S. Tribal Nations
 MSBandofChoctawIndians,U.S. Tribal Nations
 osage-nation,U.S. Tribal Nations
-diia-open-source,Ukraine
 openprocurement,Ukraine
 GFDRR,United Nations
 OCHA-DAP,United Nations
@@ -977,6 +1080,9 @@ UNStats,United Nations
 worldbank,United Nations
 WorldBank-Transport,United Nations
 WorldHealthOrganization,United Nations
-AGESIC-UY,Uruguay
 CanaimaGNULinux,Venezuela
 suscerte,Venezuela
+OS2offdig,Denmark
+cossfi,Finland
+diia-open-source,Ukraine
+AGESIC-UY,Uruguay
