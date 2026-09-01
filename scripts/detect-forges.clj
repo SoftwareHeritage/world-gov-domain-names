@@ -61,7 +61,11 @@
   (let [v (System/getenv "PARALLEL")]
     (if (and v (re-matches #"\d+" v)) (max 1 (Integer/parseInt v)) default-n)))
 
-(defn bounded-pmap [n f coll]
+(defn bounded-pmap
+  "pmap over coll with at most n threads, preserving order. An exception in
+  f propagates to the caller (and cancels the pending tasks): wrap f when
+  one failing item must not abort the whole batch."
+  [n f coll]
   (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int (max 1 n)))
         g (bound-fn* f)]
     (try
@@ -69,7 +73,7 @@
            (mapv #(.submit pool ^Callable (fn [] (g %))))
            (mapv #(.get ^java.util.concurrent.Future %)))
       (finally
-        (.shutdown pool)))))
+        (.shutdownNow pool)))))
 
 (def http-client
   (http/client (assoc http/default-client-opts
@@ -316,7 +320,11 @@
   [rows]
   (bounded-pmap (parallel 8)
                 (fn [[target country kind source]]
-                  (let [{:keys [type status note]} (probe-forge! target)]
+                  (let [{:keys [type status note]}
+                        (try (probe-forge! target)
+                             (catch Exception e
+                               {:type "unknown" :status "000"
+                                :note (str "probe error: " (single-line (ex-message e)))}))]
                     (err (str "  " target " -> " type " (HTTP " status
                               (when-not (str/blank? note) (str ", " note)) ")"))
                     [target country kind source type status note]))
