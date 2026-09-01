@@ -78,7 +78,7 @@
 
 (defn http-get
   "GET returning the body string on HTTP 200, nil otherwise (no retry on
-  deterministic 4xx)."
+  deterministic 3xx/4xx: the client never follows redirects)."
   ([url] (http-get url {}))
   ([url {:keys [timeout retries accept] :or {timeout 30 retries 3 accept "*/*"}}]
    (loop [attempt 1]
@@ -93,7 +93,7 @@
          (and resp (= 200 status) (not (str/blank? (:body resp))))
          (:body resp)
 
-         (and status (<= 400 status 499) (not= 429 status))
+         (and status (<= 300 status 499) (not= 429 status))
          nil
 
          (< attempt retries)
