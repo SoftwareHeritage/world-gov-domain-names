@@ -156,11 +156,20 @@
                     :timeout 30000})
          (catch Exception _ nil))))
 
+(defn- rate-limit-pause!
+  "Sleep until the API's x-ratelimit-reset epoch (60s when absent, at most
+  an hour), announcing why on stderr."
+  [resp why]
+  (let [reset (some-> (get-in resp [:headers "x-ratelimit-reset"]) parse-long)
+        now   (quot (System/currentTimeMillis) 1000)
+        wait  (if reset (min 3600 (max 1 (- reset now))) 60)]
+    (err (str "  (" why ", pausing " wait "s)"))
+    (Thread/sleep (* 1000 wait))))
+
 (defn swh-origins-count
   "Number of origins the SWH archive knows under host (0 = unknown), or nil
-  when the API could not be answered. The anonymous rate limit is tight
-  (10 requests per window): a 429 waits the window out and retries, and an
-  exhausted quota triggers a pre-emptive pause."
+  when the API could not be answered. A 429 waits the rate-limit window
+  out and retries; an exhausted quota triggers a pre-emptive pause."
   [host]
   (loop [attempt 1]
     (let [resp      (swh-get host 10)
@@ -172,13 +181,11 @@
         (let [n (try (count (json/parse-string (:body resp)))
                      (catch Exception _ nil))]
           (when (and remaining (<= remaining 1))
-            (err "  (rate-limit window exhausted, pausing 60s)")
-            (Thread/sleep 60000))
+            (rate-limit-pause! resp "rate-limit window exhausted"))
           n)
 
         (and (= 429 status) (< attempt 6))
-        (do (err "  (HTTP 429, pausing 60s)")
-            (Thread/sleep 60000)
+        (do (rate-limit-pause! resp "HTTP 429")
             (recur (inc attempt)))
 
         (and (nil? resp) (< attempt 3))
