@@ -139,46 +139,53 @@
 
 (def swh-search-endpoint "https://archive.softwareheritage.org/api/1/origin/search/")
 
+(defn- swh-get
+  "GET the SWH origin-search API for pattern (at most limit results).
+  Returns the response map (never throws), nil on a network error. Honors
+  SWH_TOKEN for authenticated (higher rate limit) requests."
+  [pattern limit]
+  (let [token (System/getenv "SWH_TOKEN")]
+    (try (http/get (str swh-search-endpoint pattern "/")
+                   {:client http-client
+                    :headers (cond-> {"User-Agent" ua
+                                      "Accept" "application/json"}
+                               token (assoc "Authorization"
+                                            (str "Bearer " token)))
+                    :query-params {"limit" (str limit)}
+                    :throw false
+                    :timeout 30000})
+         (catch Exception _ nil))))
+
 (defn swh-origins-count
   "Number of origins the SWH archive knows under host (0 = unknown), or nil
   when the API could not be answered. The anonymous rate limit is tight
   (10 requests per window): a 429 waits the window out and retries, and an
-  exhausted quota triggers a pre-emptive pause. Honors SWH_TOKEN for
-  authenticated (higher rate limit) requests."
+  exhausted quota triggers a pre-emptive pause."
   [host]
-  (let [token (System/getenv "SWH_TOKEN")]
-    (loop [attempt 1]
-      (let [resp (try (http/get (str swh-search-endpoint host "/")
-                                {:client http-client
-                                 :headers (cond-> {"User-Agent" ua
-                                                   "Accept" "application/json"}
-                                            token (assoc "Authorization"
-                                                         (str "Bearer " token)))
-                                 :query-params {"limit" "10"}
-                                 :throw false
-                                 :timeout 30000})
-                      (catch Exception _ nil))
-            remaining (some-> (get-in resp [:headers "x-ratelimit-remaining"])
-                              parse-long)]
-        (cond
-          (and resp (= 200 (:status resp)))
-          (let [n (try (count (json/parse-string (:body resp)))
-                       (catch Exception _ nil))]
-            (when (and remaining (<= remaining 1))
-              (err "  (rate-limit window exhausted, pausing 60s)")
-              (Thread/sleep 60000))
-            n)
+  (loop [attempt 1]
+    (let [resp      (swh-get host 10)
+          status    (:status resp)
+          remaining (some-> (get-in resp [:headers "x-ratelimit-remaining"])
+                            parse-long)]
+      (cond
+        (= 200 status)
+        (let [n (try (count (json/parse-string (:body resp)))
+                     (catch Exception _ nil))]
+          (when (and remaining (<= remaining 1))
+            (err "  (rate-limit window exhausted, pausing 60s)")
+            (Thread/sleep 60000))
+          n)
 
-          (and resp (= 429 (:status resp)) (< attempt 6))
-          (do (err "  (HTTP 429, pausing 60s)")
-              (Thread/sleep 60000)
-              (recur (inc attempt)))
+        (and (= 429 status) (< attempt 6))
+        (do (err "  (HTTP 429, pausing 60s)")
+            (Thread/sleep 60000)
+            (recur (inc attempt)))
 
-          (and (nil? resp) (< attempt 3))
-          (do (Thread/sleep 3000)
-              (recur (inc attempt)))
+        (and (nil? resp) (< attempt 3))
+        (do (Thread/sleep 3000)
+            (recur (inc attempt)))
 
-          :else nil)))))
+        :else nil))))
 
 (def known-forges-file "data/known-forges.csv")
 
@@ -187,33 +194,26 @@
   the API rejects the token (an expired or revoked offline token gives HTTP
   403). Returns true when the sweep may proceed (with or without token)."
   []
-  (let [token (System/getenv "SWH_TOKEN")]
-    (if-not token
-      true
-      (let [resp (try (http/get (str swh-search-endpoint "github.com/torvalds/linux/")
-                                {:client http-client
-                                 :headers {"User-Agent" ua
-                                           "Accept" "application/json"
-                                           "Authorization" (str "Bearer " token)}
-                                 :query-params {"limit" "1"}
-                                 :throw false
-                                 :timeout 30000})
-                      (catch Exception _ nil))]
-        (cond
-          (and resp (= 200 (:status resp)))
-          (do (err (str "  SWH_TOKEN accepted (rate limit: "
-                        (get-in resp [:headers "x-ratelimit-limit"] "?")
-                        " requests per window)"))
-              true)
+  (if-not (System/getenv "SWH_TOKEN")
+    true
+    (let [resp (swh-get "github.com/torvalds/linux" 1)]
+      (cond
+        (= 200 (:status resp))
+        (do (err (str "  SWH_TOKEN accepted (rate limit: "
+                      (get-in resp [:headers "x-ratelimit-remaining"] "?")
+                      " of "
+                      (get-in resp [:headers "x-ratelimit-limit"] "?")
+                      " requests left in this window)"))
+            true)
 
-          (contains? #{401 403} (:status resp))
-          (do (err "ERR: SWH_TOKEN rejected by the SWH API (expired or revoked?).")
-              (err "     Generate a new one at https://archive.softwareheritage.org/oidc/profile/#tokens")
-              false)
+        (contains? #{401 403} (:status resp))
+        (do (err "ERR: SWH_TOKEN rejected by the SWH API (expired or revoked?).")
+            (err "     Generate a new one at https://archive.softwareheritage.org/oidc/profile/#tokens")
+            false)
 
-          :else
-          (do (err "WARN: could not validate SWH_TOKEN (network error); proceeding anyway")
-              true))))))
+        :else
+        (do (err "WARN: could not validate SWH_TOKEN (network error); proceeding anyway")
+            true)))))
 
 ;; ---------------------------------------------------------------------------
 ;; Forge probing (type + accessibility)
