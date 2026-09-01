@@ -374,9 +374,9 @@
   data/forge-unknown-swh.csv, along with the forge software (sniffed from
   the homepage) and its HTTP accessibility (probe-forge!).
   Targets are the harvested forge-looking hosts
-  (data/forge-candidates.csv) plus the curated entries of
-  data/known-forges.csv with kind 'forge' or 'github-org' (a 'catalog' only
-  points at code hosted elsewhere, so there is nothing to search for).
+  (data/forge-candidates.csv) plus the curated forges of
+  data/known-forges.csv (the catalogs of data/known-catalogs.csv only
+  point at code hosted elsewhere, so there is nothing to search for).
   With the 'github-orgs' argument, every organization of
   data/github-gov-orgs.csv is checked too -- slow anonymously, set
   SWH_TOKEN. Anonymous API rate limits apply in all cases. Targets whose

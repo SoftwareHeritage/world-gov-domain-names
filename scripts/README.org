@@ -86,10 +86,10 @@ catalog goal of [[https://gitlab.softwareheritage.org/swh/products/insights/swh-
 =forges-swh= checks forge targets against the Software Heritage
 origin-search API and keeps those the archive does not know yet.
 Targets are the harvested hosts of =data/forge-candidates.csv= plus
-the curated entries of =data/known-forges.csv= (seeded from the
-swh-sopc-data-sources catalog list) whose =kind= is =forge= or
-=github-org= -- =catalog= entries only point at code hosted elsewhere,
-so they are listed for reference but not searched. With the
+the curated forges of =data/known-forges.csv= (seeded from the
+swh-sopc-data-sources catalog list); the source-code catalogs of
+=data/known-catalogs.csv= only point at code hosted elsewhere, so they
+are kept for reference but not searched. With the
 =github-orgs= argument, the organizations of
 =data/github-gov-orgs.csv= (from GitHub's community-maintained
 =governments.yml=, fetched by =bb forges github-orgs=, plus the local

@@ -91,9 +91,12 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   source-code catalogs (=git.*=, =gitlab.*=, =forge.*=, =code.*=, …),
   extracted from the harvested subdomains; leads for the
   [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] catalog list.
-- =known-forges.csv= -- curated list of government source-code
-  catalogs, self-hosted forges and GitHub organizations, seeded from
-  the [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] catalog list.
+- =known-forges.csv= -- curated list of self-hosted government forges
+  (GitLab, Forgejo…), seeded from the [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] catalog
+  list.
+- =known-catalogs.csv= -- curated list of government source-code
+  catalogs (portals pointing at code hosted elsewhere), same columns;
+  kept for reference, never searched.
 - =github-gov-orgs.csv= -- government GitHub organizations from
   GitHub's community-maintained [[https://government.github.com/community/][governments.yml]], plus the local
   additions of =github-gov-orgs-extra.csv= (orgs not merged upstream yet).
