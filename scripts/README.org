@@ -98,6 +98,8 @@ count as hits: the API matches URL tokens, not substrings. The
 anonymous API allows 10 requests per rate-limit window (the
 command paces itself accordingly); set =SWH_TOKEN= to authenticate and
 go faster -- recommended for the ~1000-org =github-orgs= sweep.
+Targets whose lookup failed stay in the output with the note =SWH API
+error= instead of being dropped.
 
 Each unknown target is then probed over HTTPS (curl =-ksL=) to record
 the forge software sniffed from its homepage (=forge_type=), the final

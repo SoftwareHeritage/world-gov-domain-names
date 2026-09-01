@@ -379,7 +379,9 @@
   points at code hosted elsewhere, so there is nothing to search for).
   With the 'github-orgs' argument, every organization of
   data/github-gov-orgs.csv is checked too -- slow anonymously, set
-  SWH_TOKEN. Anonymous API rate limits apply in all cases."
+  SWH_TOKEN. Anonymous API rate limits apply in all cases. Targets whose
+  SWH lookup failed are kept in the file (note 'SWH API error') rather
+  than silently dropped, so a flaky run cannot erase a forge."
   [args]
   (let [harvest (when (fs/exists? "data/forge-candidates.csv")
                   (for [[host country _status]
@@ -425,15 +427,23 @@
                           (Thread/sleep 500)
                           [target country kind source n])))
             unknown (filter #(and (some? (nth % 4)) (zero? (nth % 4))) checked)
-            errors  (filter #(nil? (nth % 4)) checked)]
-        (err (str "  probing " (count unknown)
-                  " unknown targets (forge type + accessibility)"))
-        (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header
-                        (probe-forge-rows unknown))
+            errors  (filter #(nil? (nth % 4)) checked)
+            to-probe (concat unknown errors)
+            _       (err (str "  probing " (count unknown) " unknown targets"
+                              (when (seq errors) (str " + " (count errors) " API errors"))
+                              " (forge type + accessibility)"))
+            api-error-note "SWH API error, archival status unknown"
+            probed  (map (fn [row [_ _ _ _ n]]
+                           (if (nil? n)
+                             (update row 6 #(str/join "; " (remove str/blank? [api-error-note %])))
+                             row))
+                         (probe-forge-rows to-probe)
+                         to-probe)]
+        (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header probed)
         (println (str "Wrote data/forge-unknown-swh.csv (" (count unknown)
                       " of " (count targets) " targets unknown to SWH"
                       (when (seq errors)
-                        (str "; " (count errors) " API errors, not listed"))
+                        (str "; " (count errors) " API errors, kept with a note"))
                       ")"))))))
 
 ;; ---------------------------------------------------------------------------
