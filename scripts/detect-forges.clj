@@ -454,19 +454,30 @@
 (def governments-yml-url
   "https://raw.githubusercontent.com/github/government.github.com/gh-pages/_data/governments.yml")
 
+(def github-gov-orgs-extra-file "data/github-gov-orgs-extra.csv")
+
 (defn cmd-github-orgs
   "Fetch GitHub's community-maintained list of government organizations
   (governments.yml, behind government.github.com/community) and write it as
   data/github-gov-orgs.csv (org,group). Groups are the file's own headings:
-  mostly countries, sometimes regions or programs. Feed the result to
+  mostly countries, sometimes regions or programs. Local additions not (yet)
+  merged upstream live in data/github-gov-orgs-extra.csv (same columns) and
+  are appended, so regenerating never loses them. Feed the result to
   'forges-swh github-orgs' to spot orgs the SWH archive does not know."
   [_]
   (if-let [body (http-get governments-yml-url {:accept "text/plain"})]
-    (let [data (yaml/parse-string body :keywords false)
-          rows (for [[group orgs] data, org orgs] [(str org) (str group)])]
+    (let [data     (yaml/parse-string body :keywords false)
+          upstream (for [[group orgs] data, org orgs] [(str org) (str group)])
+          known    (set (map (comp str/lower-case first) upstream))
+          extra    (for [[org group] (rest (read-csv-raw github-gov-orgs-extra-file))
+                         :when (not (contains? known (str/lower-case org)))]
+                     [org group])
+          rows     (concat upstream extra)]
       (write-csv-file "data/github-gov-orgs.csv" ["org" "group"] rows)
-      (println (str "Wrote data/github-gov-orgs.csv (" (count rows)
-                    " orgs in " (count data) " groups)")))
+      (println (str "Wrote data/github-gov-orgs.csv (" (count upstream)
+                    " orgs in " (count data) " groups"
+                    (when (seq extra) (str " + " (count extra) " local extras"))
+                    ")")))
     (err "ERR: could not fetch " governments-yml-url)))
 
 ;; ---------------------------------------------------------------------------

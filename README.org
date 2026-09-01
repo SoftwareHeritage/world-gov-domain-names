@@ -95,7 +95,8 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   catalogs, self-hosted forges and GitHub organizations, seeded from
   the [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] catalog list.
 - =github-gov-orgs.csv= -- government GitHub organizations from
-  GitHub's community-maintained [[https://government.github.com/community/][governments.yml]].
+  GitHub's community-maintained [[https://government.github.com/community/][governments.yml]], plus the local
+  additions of =github-gov-orgs-extra.csv= (orgs not merged upstream yet).
 - =forge-unknown-swh.csv= -- forge targets (harvested + curated) that
   the [[https://archive.softwareheritage.org][Software Heritage archive]] does not know yet (checked against
   its origin-search API): candidates for archival. Each target is
