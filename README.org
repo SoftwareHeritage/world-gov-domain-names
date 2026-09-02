@@ -23,7 +23,7 @@ We sort government domains into levels:
 - =central-1= -- the first administrative tier below: state, Land,
   region… (=sp.gov.br=, =nouvelle-aquitaine.fr=).
 - the rest -- everything lower (municipalities, counties, parishes…),
-  kept *out* of the lists and regexes.
+  kept *out* of the lists.
 
 Universities are out of scope: the strictly public ones (Wikidata
 public / public-research / national university classes) are kept as a
@@ -111,14 +111,18 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   refreshes these columns without re-querying the SWH API. The whole
   forge/catalog channel lives in =scripts/detect-forges.clj=: it
   shares this repository's harvested data but serves the Software
-  Heritage catalog goal, not the domain-regex goal.
-- =domain-regexes.csv= (and =public-sector-domains-central+-regex.txt=)
-  -- per-country (and global) email-domain regexes over the central+
-  scope (central government plus the first subdivision tier, i.e.
-  =public-sector-domains-central+.csv=), ready for the =domain_regex=
-  setting of [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]]. On mixed suffixes (=gov.uk=,
-  =gov.br=…), subtrees below the first tier are kept out via curated
-  exclusions (see =scripts/README.org=).
+  Heritage catalog goal, not the email-domain goal.
+- =public-sector-domains-central+-policy.csv= -- the match policy over
+  the central+ scope (central government plus the first subdivision
+  tier, i.e. =public-sector-domains-central+.csv=) as a single table,
+  =domain,kind,country=: =subtree= is a domain and everything below
+  it, =exact= a domain alone (nothing below it), =exclude= a domain
+  and everything below it to keep out. When a host falls under several
+  rows, the most specific one (the longest domain) decides. On mixed
+  suffixes (=gov.uk=, =gov.br=…), =exact= and =exclude= rows keep
+  subtrees below the first tier out (see =scripts/README.org=). Meant
+  to be consumed directly by downstream pipelines, with any regex
+  engine or none.
 - A few generated mapping files linking country names to source IDs.
 
 * Where the data comes from

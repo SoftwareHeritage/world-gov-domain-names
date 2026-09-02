@@ -6,7 +6,7 @@
 ;; "Government website directories" section of swh-sopc-data-sources and
 ;; writes, per the spec's :channel, either
 ;; countries/<c>/sources/registry/roots.csv (authoritative central
-;; scoping: domains enter data/public-sector-domains-central.csv
+;; scoping: domains enter data/public-sector-domains-central+.csv
 ;; directly, like the CISA/Lannuaire registries) or
 ;; countries/<c>/sources/directory/orgs.csv (mixed levels or types:
 ;; hosts feed candidates.csv with a strong score bonus and the

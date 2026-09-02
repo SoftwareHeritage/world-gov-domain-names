@@ -29,7 +29,7 @@
 ;;   cross-check [C…]   alias of report
 ;;   build-qid          (re)build data/country_qid.csv
 ;;   validate-un        check un_status against the official UN member list
-;;   regex              email-domain regexes -> data/domain-regexes.csv
+;;   domains            match policy table -> data/public-sector-domains-central+-policy.csv
 ;;   indegree [C…]      link-graph in-degree (eu-plus-government-scans)
 ;;                      -> countries/<c>/sources/linkgraph/indegree.csv
 ;;
@@ -723,8 +723,8 @@
              :let [domain (some-> domain str/trim str/lower-case)
                    label  (some-> label str/trim str/lower-case)
                    level  (some-> level str/trim str/lower-case)
-                   ;; labels are interpolated unquoted in domain-regex's
-                   ;; lookahead, so they must be regex-safe by construction
+                   ;; labels become hostname labels of policy rows, so
+                   ;; they must be plain DNS labels
                    valid? (and (valid-hostname? domain)
                                (some? label)
                                (re-matches #"[a-z0-9-]+" label))
@@ -739,8 +739,8 @@
 
 (defn sub-central-labels
   "All labels declared for a mixed-suffix root, to keep out of its
-  wildcard regex branch: local subtrees stay out entirely, central-1
-  subtree apexes are whitelisted back by cmd-regex."
+  subtree: local ones become exclude rows, central-1 ones exact rows
+  (cmd-domains)."
   [excl [country domain]]
   (set (keys (get excl [country domain]))))
 
@@ -952,7 +952,7 @@
    ;; exclusions time out on a class this large.
    ["Q327333" "government_agency"    :light]])
    ;; Universities are out of scope (see scripts/detect-universities.clj):
-   ;; the per-country regex covers central government, national research
+   ;; the central+ scope covers central government, national research
    ;; bodies and the first tier below -- not academia.
 
 (defn wikidata-query [class-qid country-qid strictness]
@@ -2331,8 +2331,8 @@
 (defn cmd-govuk [_]
   ;; Build the GBR excluded-labels registry: every gov.uk label belonging to
   ;; a sub-central body (councils of all tiers, combined authorities, fire
-  ;; services, national parks, NI devolved departments…), so the regexes
-  ;; keep only UK central government under the gov.uk suffix. Universe: the
+  ;; services, national parks, NI devolved departments…), so the policy
+  ;; table keeps only UK central government under the gov.uk suffix. Universe: the
   ;; official CDDO list of registered gov.uk domains, classified by Wikidata
   ;; GSS anchoring plus naming conventions.
   (let [body (http-get govuk-domains-url {:timeout 90})]
@@ -2372,51 +2372,14 @@
         0))))
 
 ;; ===========================================================================
-;;  Utilitaire -- regex (email-domain regexes for swh-institutional-analysis)
+;;  Utilitaire -- domains (match policy table over the central+ scope)
 ;; ===========================================================================
-
-(defn domain-regex
-  "Email regex over scope entries, in the domain_regex format expected by
-  swh-institutional-analysis. Entries are [domain excluded-labels apex?]:
-
-  - no exclusions, apex? false: (.*\\.)?domain -- the domain and its
-    whole subtree match.
-  - excluded labels, apex? false: mixed suffix (see
-    registry-excluded-labels); a negative lookahead keeps out every host
-    under an excluded label -- for [\"gov.br\" #{\"sp\"} false],
-    fazenda.gov.br matches but sp.gov.br and campinas.sp.gov.br do not.
-  - apex? true: the domain matches exactly, without subdomains. Used to
-    whitelist the apex of a mixed subtree (sp.gov.br itself) whose
-    central bodies must be listed explicitly to match, keeping the
-    lower tiers hosted in the subtree out.
-
-  All-free level-homogeneous entries keep the plain
-  .*@(.*\\.)?(?:dom1|dom2)$ shape."
-  [entries]
-  (let [quote-dom #(str/replace % "." "\\.")
-        entries   (sort-by first entries)]
-    (if (every? (fn [[_ excl apex?]] (and (empty? excl) (not apex?)))
-                entries)
-      (str ".*@(.*\\.)?(?:"
-           (str/join "|" (map (comp quote-dom first) entries))
-           ")$")
-      (str ".*@(?:"
-           (str/join "|"
-                     (for [[d excl apex?] entries
-                           :let [qd (quote-dom d)]]
-                       (cond
-                         apex? qd
-                         (empty? excl) (str "(.*\\.)?" qd)
-                         :else
-                         (str "(?!(.*\\.)?(?:" (str/join "|" (sort excl))
-                              ")\\." qd "$)(.*\\.)?" qd))))
-           ")$"))))
 
 (defn- covered-by?
   "True when domain d is redundant given entry [d2 excl2 apex?]: d sits
-  under d2, d2's branch matches subdomains (apex entries cover nothing
-  but themselves) and the label chaining d to d2 is not excluded, so
-  d2's branch already matches every host under d."
+  under d2, d2 covers its subtree (apex entries cover nothing but
+  themselves) and the label chaining d to d2 is not excluded, so d2
+  already covers every host under d."
   [d [d2 excl2 apex?]]
   (and (not apex?)
        (not= d d2)
@@ -2430,20 +2393,26 @@
   [entries]
   (filter (fn [[d _]] (not-any? #(covered-by? d %) entries)) entries))
 
-(defn cmd-regex
-  "Build per-country email-domain regexes over the central+ scope
-  (data/public-sector-domains-central+.csv: central roots plus first-tier
-  bodies) into data/domain-regexes.csv, plus a single all-countries regex
-  in data/public-sector-domains-central+-regex.txt. Both are meant for
-  the domain_regex setting of swh-institutional-analysis and cover
-  central administration plus one tier below it, and nothing lower.
-  Mixed-suffix roots (registry-excluded-labels) get every declared label
-  excluded from their wildcard branch; each central-1 label's own domain
-  (sp.gov.br) is whitelisted back as an exact-match apex, so lower-tier
-  hosts registered anywhere in its subtree (campinas.sp.gov.br) stay out
-  until a central body of the subtree is listed explicitly in the
-  central+ scope. Domains already covered by a root branch
-  (e.g. fazenda.gov.br under gov.br) are pruned as redundant."
+(defn cmd-domains
+  "Compile the central+ scope (data/public-sector-domains-central+.csv:
+  central roots plus first-tier bodies) into the match policy table
+  data/public-sector-domains-central+-policy.csv (domain,kind,country):
+  `subtree` is a domain and everything below it, `exact` is a domain
+  alone (nothing below it), `exclude` is a domain and everything below
+  it to keep out. When a host falls under several rows
+  (campinas.sp.gov.br is under gov.br subtree and under sp.gov.br
+  exact), the most specific row, the one with the longest domain,
+  decides. The table needs no lookaround and no regex engine, so any
+  consumer (RE2, SQL) can apply it.
+
+  It covers central administration plus one tier below it, and nothing
+  lower: every label declared for a mixed-suffix root
+  (registry-excluded-labels) becomes an exclude row, except central-1
+  labels whose own domain (sp.gov.br) becomes an exact row instead, so
+  lower-tier hosts registered anywhere in their subtree
+  (campinas.sp.gov.br) stay out until a central body of the subtree is
+  listed explicitly in the central+ scope. Domains already covered by a
+  root (e.g. fazenda.gov.br under gov.br) are pruned as redundant."
   [_]
   (if-not (fs/exists? central-plus-file)
     (err "ERR: " central-plus-file " missing. Run 'bb pipeline central' first")
@@ -2453,39 +2422,36 @@
                             [label {:keys [level]}] labels
                             :when (= level "central-1")]
                         [c (str label "." root)]))
-          entry (fn [country domain]
-                  [domain
-                   (sub-central-labels excl [country domain])
-                   (contains? apexes [country domain])])
-          by-country (group-by second rows)
-          out-rows (for [[country crows] (sort-by first by-country)
-                         :let [domains (distinct (map first crows))
-                               un-status (nth (first crows) 3 "")
-                               entries (prune-covered
-                                        (map #(entry country %) domains))]]
-                     [country un-status (str (count entries))
-                      (domain-regex entries)])
           ;; Same-domain rows across countries keep the union of
           ;; exclusions; a domain that is an apex in any country stays
           ;; an apex.
-          all-entries (->> rows
-                           (reduce (fn [m [d c]]
-                                     (let [[_ e a] (entry c d)]
-                                       (update m d
-                                               (fn [[es ap]]
-                                                 [(into (or es #{}) e)
-                                                  (or ap a)]))))
-                                   {})
-                           (map (fn [[d [es ap]]] [d es ap]))
-                           prune-covered
-                           (sort-by first))]
-      (write-csv-file "data/domain-regexes.csv"
-                      ["country" "un_status" "n_domains" "regex"] out-rows)
-      (spit "data/public-sector-domains-central+-regex.txt"
-            (str (domain-regex all-entries) "\n"))
-      (println (str "Wrote data/domain-regexes.csv (" (count out-rows)
-                    " countries) and data/public-sector-domains-central+-regex.txt ("
-                    (count all-entries) " domains)")))))
+          entries (->> rows
+                       (reduce (fn [m [d c]]
+                                 (update m d
+                                         (fn [[es ap]]
+                                           [(into (or es #{})
+                                                  (sub-central-labels excl [c d]))
+                                            (or ap (contains? apexes [c d]))])))
+                               {})
+                       (map (fn [[d [es ap]]] [d es ap]))
+                       prune-covered)
+          country-of (into {} (map (fn [[d c]] [d c]) (reverse rows)))
+          apex-domains (set (for [[d _ apex?] entries :when apex?] d))
+          ;; One row per entry, plus one per excluded label under it; an
+          ;; exact row already keeps its own subtree out, so central-1
+          ;; labels need no exclude twin.
+          policy (->> (for [[d excl apex?] entries
+                            row (cons [d (if apex? "exact" "subtree")]
+                                      (for [l excl
+                                            :let [ld (str l "." d)]
+                                            :when (not (apex-domains ld))]
+                                        [ld "exclude"]))]
+                        (conj row (country-of d)))
+                      (sort-by (juxt first second)))]
+      (write-csv-file "data/public-sector-domains-central+-policy.csv"
+                      ["domain" "kind" "country"] policy)
+      (println (str "Wrote data/public-sector-domains-central+-policy.csv ("
+                    (count policy) " rows)")))))
 
 ;; ===========================================================================
 ;;  Utilitaire -- indegree (link-graph centrality, eu-plus-government-scans)
@@ -2650,7 +2616,7 @@
    "cross-check" cmd-cross-check
    "build-qid"   cmd-build-qid
    "validate-un" cmd-validate-un
-   "regex"       cmd-regex
+   "domains"     cmd-domains
    "indegree"    cmd-indegree})
 
 (defn usage []
@@ -2663,7 +2629,7 @@
   (println "  fetch | retry | normalize | probe | mx | aggregate | central")
   (println "  cisa | lannuaire | govuk")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
-  (println "  validate-un | regex | indegree")
+  (println "  validate-un | domains | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)

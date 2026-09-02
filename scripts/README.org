@@ -52,7 +52,7 @@ scripts/pipeline.clj <cmd>=:
 
   bb scripts/pipeline.clj build-qid             # rebuild data/country_qid.csv
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
-  bb scripts/pipeline.clj regex                 # email-domain regexes -> data/domain-regexes.csv
+  bb scripts/pipeline.clj domains               # compile it into the match policy table
 #+end_src
 
 Two more side scripts share the same layout:
@@ -73,7 +73,7 @@ Two more side scripts share the same layout:
 Forge and source-code-catalog detection lives in its own script,
 =scripts/detect-forges.clj= (=bb forges <command>=): it shares the
 harvested data of this repository but serves the Software Heritage
-catalog goal of [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]], not the domain-regex goal.
+catalog goal of [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]], not the email-domain goal.
 
 #+begin_src bash
   bb forges forges                              # forge-looking hosts -> data/forge-candidates.csv
@@ -107,33 +107,37 @@ diagnostic (=note=: DNS failure, timeout, WAF, default page,
 cross-host redirect). =forges-probe= refreshes those three columns in
 place without re-querying the SWH API.
 
-=regex= derives, from the central+ scope
+=domains= derives, from the central+ scope
 (=data/public-sector-domains-central+.csv=: central roots plus
-first-tier bodies), one email-domain regex per country
-(=data/domain-regexes.csv=) plus a global one
-(=data/public-sector-domains-central+-regex.txt=), in the
-=domain_regex= format expected
-by [[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]]: =.*@(.*\.)?(?:gouv\.fr|insee\.fr|…)$=.
-Domains already covered by a root wildcard (e.g. =fazenda.gov.br=
-under =gov.br=) are pruned as redundant.
+first-tier bodies), the match policy as a single table,
+=data/public-sector-domains-central+-policy.csv=
+(=domain,kind,country=): =subtree= is a domain and everything below
+it, =exact= a domain alone (nothing below it), =exclude= a domain and
+everything below it to keep out. When a host falls under several rows
+(=campinas.sp.gov.br= is under =gov.br= subtree and under =sp.gov.br=
+exact), the most specific one, the longest domain, decides. This is
+the file downstream pipelines such as
+[[https://gitlab.softwareheritage.org/swh/products/insights/swh-institutional-analysis][swh-institutional-analysis]] consume: it needs no lookaround and no
+regex engine at all. Domains already covered by a root
+(e.g. =fazenda.gov.br= under =gov.br=) are pruned as redundant.
 
-A root domain falls under one of three regimes, so the regexes cover
+A root domain falls under one of three regimes, so the table covers
 central government plus the first subdivision tier and nothing below:
 
 1. *Level-homogeneous suffix* (the default: =gouv.fr=, =gc.ca=,
-   =go.jp=…): everything under the root is central government, the
-   plain =(.*\.)?root= wildcard is correct.
+   =go.jp=…): everything under the root is central government, a
+   single =subtree= row is correct.
 2. *Mixed suffix, structurally separable* (=gov.br=, =gov.au=): lower
    government tiers live under known labels of the root. Those labels
    are curated in =sources/registry/excluded-labels.csv=
    (=domain,label,level,name= -- e.g. the 27 Brazilian state codes
    under =gov.br= or the 8 Australian state/territory codes under
-   =gov.au=), and =regex= turns them all into a negative lookahead on
-   the root's wildcard branch. The =level= column records the tier of
+   =gov.au=), and =domains= turns them into =exact= or =exclude= rows.
+   The =level= column records the tier of
    the subtree's apex and drives what is whitelisted back: a
-   =central-1= label keeps its apex domain as an exact match (the
-   scope is central + first tier), a =local= subtree is excluded
-   entirely. Anything deeper inside a =central-1= subtree only matches
+   =central-1= label keeps its apex domain as an =exact= match (the
+   scope is central + first tier), a =local= subtree is an =exclude=,
+   out entirely. Anything deeper inside a =central-1= subtree only matches
    once listed explicitly in the central+ scope, so lower tiers hosted
    there stay out -- =fazenda.gov.br= and =sp.gov.br= match,
    =campinas.sp.gov.br= (a municipality) and =abingdon.gov.uk= do
