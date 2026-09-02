@@ -1644,14 +1644,10 @@
   3)
 
 (def central-domains-by-country
-  "{country_dir #{domain...}} from the consolidated central CSV -- the
-  confirmed central-government roots (promoted roots + registries). Used
-  to keep them out of the link-graph candidate channel: re-listing
-  confirmed domains would only add noise to the manual validation pass.
-  NOT the central+ file: its central-1 rows are themselves unconfirmed
-  candidates (fed back from candidates-local.csv), so deduping against
-  them strips or drops candidate rows that produced them, making entries
-  oscillate in and out of central+ on alternate runs."
+  "{country_dir #{domain...}} from data/public-sector-domains-central.csv:
+  the confirmed central-government roots (promoted roots + registries).
+  The link-graph candidate channel drops them, since re-listing confirmed
+  roots would only add noise to the manual validation pass."
   (delay
     (reduce (fn [m {:strs [domain country]}]
               (update m country (fnil conj #{}) domain))
