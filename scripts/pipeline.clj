@@ -15,8 +15,8 @@
 ;;   mx [DOM…]          DNS MX lookup per host -> mx.csv (email signal);
 ;;                      a full run also covers the registry roots (CISA, …)
 ;;   aggregate          aggregate every host -> data/public-sector-domains.csv
-;;   central            extract root domains -> data/public-sector-domains-central.csv
-;;                      + central+central-1 -> data/public-sector-domains-central+.csv
+;;   central            extract central + central-1 domains
+;;                      -> data/public-sector-domains-central+.csv
 ;;   cisa               fetch CISA federal .gov registry -> US root registry
 ;;   lannuaire          fetch FR service-public.gouv.fr directory -> FR registry
 ;;   govuk              build UK sub-central exclusions -> GBR excluded-labels
@@ -650,7 +650,6 @@
               :gdp    (country-meta-field c "gdp_per_capita")}])))
 
 (def public-sector-file "data/public-sector-domains.csv")
-(def central-gov-file   "data/public-sector-domains-central.csv")
 (def central-plus-file  "data/public-sector-domains-central+.csv")
 
 (defn cmd-aggregate [_]
@@ -745,31 +744,32 @@
   [excl [country domain]]
   (set (keys (get excl [country domain]))))
 
+(def ^:private registry-mx-map
+  "{host mx} cached by mx-registry! for a country's registry, read once."
+  (memoize (fn [country] (read-mx-map (country-src country "registry")))))
+
+(defn- registry-mx
+  "MX of a per-country registry domain, or \"\"."
+  [country domain]
+  (get (registry-mx-map country) domain ""))
+
 (defn- central-root-entries
-  "All [country domain http_status mx] feeding the central-gov file: one per
-  promoted root directory (carrying its apex signals) plus the per-country
-  registry domains (carrying the MX cached by mx-registry!). De-duplicated by
-  [country domain], preferring the directory entry (which has more signals)."
+  "All [country domain mx] feeding the central+ file's central rows: one
+  per promoted root directory (carrying its apex MX) plus the per-country
+  registry domains (carrying the MX cached by mx-registry!). De-duplicated
+  by [country domain], preferring the directory entry."
   []
   (let [from-dirs
         (for [dir (root-domain-dirs)
               :let [root    (str (fs/file-name dir))
                     country (str (fs/file-name
-                                   (fs/parent (fs/parent (fs/parent dir)))))
-                    sub-csv (str dir "/subdomains.csv")
-                    apex    (when (fs/exists? sub-csv)
-                              (some (fn [[sub st]] (when (= sub root) st))
-                                    (rest (read-csv-raw sub-csv))))
-                    mx      (get (read-mx-map dir) root "")]]
-          [country root (or apex "") (or mx "")])
-        registry-mx (into {}
-                          (for [c (country-dirs)]
-                            [c (read-mx-map (country-src c "registry"))]))
+                                   (fs/parent (fs/parent (fs/parent dir)))))]]
+          [country root (get (read-mx-map dir) root "")])
         from-registry (for [[c d] (registry-roots)]
-                        [c d "" (get-in registry-mx [c d] "")])]
+                        [c d (registry-mx c d)])]
     (->> (concat from-dirs from-registry)
-         (reduce (fn [m [c d s mx]]
-                   (cond-> m (not (contains? m [c d])) (assoc [c d] [c d s mx])))
+         (reduce (fn [m [c d :as row]]
+                   (cond-> m (not (contains? m [c d])) (assoc [c d] row)))
                  {})
          vals)))
 
@@ -807,16 +807,15 @@
          vals)))
 
 (defn cmd-central [_]
-  ;; Extract data/public-sector-domains-central.csv: one row per
-  ;; central-government root domain. With suffix matching a root already covers
-  ;; all its subdomains, so these roots are the email domains the report's
-  ;; regex needs. Sources: the promoted root directories (incl. ones with no
-  ;; harvested host yet, e.g. gov.ke) and the per-country registry files.
-  ;; UN-facing: members/observers only. Carries the root apex's http_status/mx
-  ;; as signals when available.
-  ;; Also writes data/public-sector-domains-central+.csv: the same roots
-  ;; (level central) plus the first-tier bodies (level central-1, see
-  ;; central1-entries) for the central + first-subdivision report scope.
+  ;; Extract data/public-sector-domains-central+.csv: one row per
+  ;; central-government root domain (level central) plus the first-tier
+  ;; bodies (level central-1, see central1-entries), for the central +
+  ;; first-subdivision report scope. A root stands for all its
+  ;; subdomains, so these are the email domains the report needs.
+  ;; Sources: the promoted root directories (incl. ones with no harvested
+  ;; host yet, e.g. gov.ke), the per-country registry files and the
+  ;; curated central-1 entries. UN-facing: members/observers only.
+  ;; Carries the domain's MX as an email signal when available.
   (let [un-by-country  (build-un-status-map)
         meta-by-country (country-meta-map)
         with-country-meta (fn [country row-fn]
@@ -824,23 +823,20 @@
                                   m  (get meta-by-country country)]
                               (when (not= un "non_un")
                                 (row-fn un m))))
-        rows
-        (->> (central-root-entries)
-             (keep (fn [[country domain http mx]]
-                     (with-country-meta country
-                       (fn [un m]
-                         [domain country un (:region m) (:langs m) (:gdp m)
-                          http mx]))))
-             (sort-by first))
         plus-rows
         (->> (concat
-              (for [[domain country un region langs gdp _ _] rows]
-                [domain country "central" un region langs gdp "" "" ""])
+              (keep (fn [[country domain mx]]
+                      (with-country-meta country
+                        (fn [un m]
+                          [domain country "central" un (:region m)
+                           (:langs m) (:gdp m) "" "" "" mx])))
+                    (central-root-entries))
               (keep (fn [[country domain name score sources level]]
                       (with-country-meta country
                         (fn [un m]
                           [domain country level un (:region m)
-                           (:langs m) (:gdp m) name score sources])))
+                           (:langs m) (:gdp m) name score sources
+                           (registry-mx country domain)])))
                     (central1-entries)))
              ;; one row per [domain country]: a central-1 candidate whose
              ;; domain is also a confirmed central root (via a registry)
@@ -853,17 +849,16 @@
                      {})
              vals
              (sort-by (juxt first #(nth % 2))))]
-    (write-csv-file central-gov-file
-                    ["domain" "country" "un_status"
-                     "region" "languages" "gdp_per_capita" "http_status" "mx"]
-                    rows)
     (write-csv-file central-plus-file
                     ["domain" "country" "level" "un_status" "region"
-                     "languages" "gdp_per_capita" "name" "score" "sources"]
+                     "languages" "gdp_per_capita" "name" "score" "sources"
+                     "mx"]
                     plus-rows)
-    (println (str "Wrote " central-gov-file " (" (count rows)
-                  " central-gov root domains) and " central-plus-file
-                  " (" (count plus-rows) " central + central-1 domains)"))))
+    (println (str "Wrote " central-plus-file " ("
+                  (count (filter #(= "central" (nth % 2)) plus-rows))
+                  " central + "
+                  (count (remove #(= "central" (nth % 2)) plus-rows))
+                  " central-1 domains)"))))
 
 (defn registrable
   "Best-effort registrable domain: the last two dot-labels of a host
@@ -1644,14 +1639,16 @@
   3)
 
 (def central-domains-by-country
-  "{country_dir #{domain...}} from data/public-sector-domains-central.csv:
-  the confirmed central-government roots (promoted roots + registries).
-  The link-graph candidate channel drops them, since re-listing confirmed
-  roots would only add noise to the manual validation pass."
+  "{country_dir #{domain...}} from the level=central rows of
+  data/public-sector-domains-central+.csv: the confirmed
+  central-government roots (promoted roots + registries). The link-graph
+  candidate channel drops them, since re-listing confirmed roots would
+  only add noise to the manual validation pass."
   (delay
-    (reduce (fn [m {:strs [domain country]}]
-              (update m country (fnil conj #{}) domain))
-            {} (read-csv-file "data/public-sector-domains-central.csv"))))
+    (reduce (fn [m {:strs [domain country level]}]
+              (cond-> m
+                (= level "central") (update country (fnil conj #{}) domain)))
+            {} (read-csv-file central-plus-file))))
 
 (defn score-candidate
   "Compute the 0-10 confidence score for one candidate hostname.

@@ -48,13 +48,13 @@ Three ready-to-use CSV files, covering UN members and observers only:
 
 - =data/public-sector-domains.csv= -- every government host we found,
   apex domains *and* subdomains (e.g. =gouv.fr=, =beta.gouv.fr=).
-- =data/public-sector-domains-central.csv= -- one row per
-  central-government *root domain* (e.g. =gouv.fr=, =insee.fr=). A root
-  already stands for all its subdomains, so this is the short list of
-  email domains to watch.
-- =data/public-sector-domains-central+.csv= -- the central roots
-  (=level= =central=) plus the bodies of the first administrative tier
-  below (=level= =central-1=: Land, state, region…). Central-1 rows
+- =data/public-sector-domains-central+.csv= -- one row per
+  central-government *root domain* (=level= =central=, e.g. =gouv.fr=,
+  =insee.fr=) plus the bodies of the first administrative tier below
+  (=level= =central-1=: Land, state, region…). A root already stands
+  for all its subdomains, so this is the short list of email domains
+  to watch; =mx= carries the domain's mail exchanger when known, as an
+  email signal. Central-1 rows
   only enter once *confirmed*, mirroring the manual gate of the
   central level: either through a curated registry
   (Brazilian/Australian states, UK devolved bodies; =sources= is

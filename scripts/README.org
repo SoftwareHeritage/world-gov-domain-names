@@ -37,8 +37,7 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe
   bb scripts/pipeline.clj mx gov.it             # DNS MX lookup -> mx.csv (email signal)
   bb scripts/pipeline.clj aggregate             # rebuild data/public-sector-domains.csv
-  bb scripts/pipeline.clj central               # extract data/public-sector-domains-central.csv
-                                                # + data/public-sector-domains-central+.csv
+  bb scripts/pipeline.clj central               # extract data/public-sector-domains-central+.csv
   bb scripts/pipeline.clj cisa                  # refresh US federal .gov registry (CISA)
   bb scripts/pipeline.clj lannuaire             # refresh FR central-admin registry (service-public)
   bb scripts/pipeline.clj govuk                 # rebuild UK sub-central exclusions (CDDO + Wikidata)
