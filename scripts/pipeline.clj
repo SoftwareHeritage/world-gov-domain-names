@@ -689,20 +689,6 @@
                     " ; observers: " (get counts "observer" 0)
                     " ; non-UN: " (get counts "non_un" 0))))))
 
-(defn registry-roots
-  "Authoritative root domains declared per country in
-  sources/registry/roots.csv (column 1 = domain). Seq of [country domain].
-  This is how large official lists (e.g. the US CISA federal .gov registry)
-  enter the central-gov file without one directory per domain."
-  []
-  (for [c (country-dirs)
-        :let [path (country-src c "registry" "roots.csv")]
-        :when (fs/exists? path)
-        row (rest (read-csv-raw path))
-        :let [domain (some-> (first row) str/trim str/lower-case)]
-        :when (valid-hostname? domain)]
-    [c domain]))
-
 (defn registry-excluded-labels
   "Curated lower-tier exclusions declared per country in
   sources/registry/excluded-labels.csv (domain,label,level,name): labels
@@ -753,25 +739,31 @@
   [country domain]
   (get (registry-mx-map country) domain ""))
 
-(defn- central-root-entries
-  "All [country domain mx] feeding the central+ file's central rows: one
-  per promoted root directory (carrying its apex MX) plus the per-country
-  registry domains (carrying the MX cached by mx-registry!). De-duplicated
-  by [country domain], preferring the directory entry."
+(defn validated-rows
+  "All rows of countries/<c>/validated.csv, the explicit per-country list
+  of confirmed roots (domain,level,source; level is central or
+  central-1). Seq of [country domain level source]."
   []
-  (let [from-dirs
-        (for [dir (root-domain-dirs)
-              :let [root    (str (fs/file-name dir))
-                    country (str (fs/file-name
-                                   (fs/parent (fs/parent (fs/parent dir)))))]]
-          [country root (get (read-mx-map dir) root "")])
-        from-registry (for [[c d] (registry-roots)]
-                        [c d (registry-mx c d)])]
-    (->> (concat from-dirs from-registry)
-         (reduce (fn [m [c d :as row]]
-                   (cond-> m (not (contains? m [c d])) (assoc [c d] row)))
-                 {})
-         vals)))
+  (for [c (country-dirs)
+        :let [path (str "countries/" c "/validated.csv")]
+        :when (fs/exists? path)
+        [domain level source] (rest (read-csv-raw path))
+        :let [domain (some-> domain str/trim str/lower-case)]
+        :when (valid-hostname? domain)]
+    [c domain (str/trim (or level "")) (str/trim (or source ""))]))
+
+(defn- central-root-entries
+  "All [country domain mx] feeding the central+ file's central rows: the
+  level=central rows of validated.csv. The MX comes from the root's
+  harvest directory when it has one (apex row of its mx.csv), else from
+  the registry MX cached by mx-registry!."
+  []
+  (for [[c d level] (validated-rows)
+        :when (= level "central")
+        :let [dir (country-src c "roots" d)]]
+    [c d (if (fs/directory? dir)
+           (get (read-mx-map dir) d "")
+           (registry-mx c d))]))
 
 (defn- central1-entries
   "First-tier (central-1) domains feeding the central+ file. Only
@@ -812,9 +804,8 @@
   ;; bodies (level central-1, see central1-entries), for the central +
   ;; first-subdivision report scope. A root stands for all its
   ;; subdomains, so these are the email domains the report needs.
-  ;; Sources: the promoted root directories (incl. ones with no harvested
-  ;; host yet, e.g. gov.ke), the per-country registry files and the
-  ;; curated central-1 entries. UN-facing: members/observers only.
+  ;; Sources: the level=central rows of countries/<c>/validated.csv and
+  ;; the curated central-1 entries. UN-facing: members/observers only.
   ;; Carries the domain's MX as an email signal when available.
   (let [un-by-country  (build-un-status-map)
         meta-by-country (country-meta-map)
