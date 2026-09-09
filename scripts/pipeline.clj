@@ -1322,16 +1322,25 @@
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
 
-(defn dispatch [cmd args]
-  (cond
-    (= cmd "all") (do (run-collect args) (enrich/cmd-enrich args) (cmd-cross-check args))
-    (#{"-h" "--help" "help"} cmd) (usage)
-    :else
-    (if-let [f (get commands cmd)]
-      (f args)
-      (do (err "ERR: unknown sub-command '" cmd "'")
-          (usage)
-          (System/exit 1)))))
+(defn dispatch
+  "Run cmd. A command that returns an integer sets the exit code (cisa,
+  lannuaire, govuk, build-qid and retry return 1 when their fetch failed),
+  so a failed refresh is visible to a shell or a cron job; anything else
+  exits 0."
+  [cmd args]
+  (let [result (cond
+                 (= cmd "all")
+                 (do (run-collect args) (enrich/cmd-enrich args) (cmd-cross-check args))
+
+                 (#{"-h" "--help" "help"} cmd) (usage)
+
+                 :else
+                 (if-let [f (get commands cmd)]
+                   (f args)
+                   (do (err "ERR: unknown sub-command '" cmd "'")
+                       (usage)
+                       1)))]
+    (System/exit (if (integer? result) result 0))))
 
 ;; Run only as a script (bb scripts/pipeline.clj …), not when required
 ;; from another namespace or loaded in a REPL.

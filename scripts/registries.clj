@@ -162,15 +162,16 @@
 
 (defn cmd-validate-un
   "Check the un_status column of data/world-governments.csv against the
-  official UN member list. Exits 1 on any mismatch or blank un_status
-  (blank would silently default to member everywhere else in the pipeline)."
+  official UN member list. Returns 1 -- the dispatcher exits with it -- on
+  a fetch failure, any mismatch or a blank un_status (blank would silently
+  default to member everywhere else in the pipeline)."
   [_]
   (println "Fetching official UN member list from digitallibrary.un.org…")
   (let [url (un-members-csv-url)
         body (when url (http-get url {:client redirect-http-client}))]
     (if (str/blank? body)
       (do (err "ERR: could not fetch the UN member states CSV")
-          (System/exit 1))
+          1)
       (let [official (un-member-iso3s body)
             local (for [row (or (read-csv-file "data/world-governments.csv") [])]
                     {:name (get row "Country")
@@ -196,7 +197,7 @@
         (if (seq problems)
           (do (doseq [p problems] (println (str "  MISMATCH " p)))
               (err "ERR: " (count problems) " mismatch(es)")
-              (System/exit 1))
+              1)
           (println "  un_status is consistent with the official UN list."))))))
 
 ;; ===========================================================================
