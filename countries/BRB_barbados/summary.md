@@ -28,15 +28,15 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `cbc.bb` | wikidata | Caribbean Broadcasting Corporation |
-| 4 | `centralbank.org.bb` | wikidata | Central Bank of Barbados |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Barbados, the Eastern Caribbean States, t... |
-| 1 | `barbadosparliament.com` | wikidata;wikidata;wikidata;wikidata | Parliament of Barbados | Senate of Barbados | House of Assembly of Barbados |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 4 | `cbc.bb` |  | wikidata | Caribbean Broadcasting Corporation |
+| 4 | `centralbank.org.bb` |  | wikidata | Central Bank of Barbados |
+| 3 | `eeas.europa.eu` | central | wikidata | Delegation of the European Union to Barbados, the Eastern Caribbean States, t... |
+| 1 | `barbadosparliament.com` | central | wikidata;wikidata;wikidata;wikidata | Parliament of Barbados | Senate of Barbados | House of Assembly of Barbados |
 

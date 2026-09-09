@@ -28,39 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-47 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+47 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `eeas.europa.eu` | wikidata;wikidata | Delegation of the European Union to Indonesia and Brunei Darussalam | EU Miss... |
-| 6 | `mkri.id` | wikidata | Constitutional Court of the Republic of Indonesia |
-| 4 | `aipi.or.id` | wikidata | Indonesian Academy of Sciences |
-| 4 | `bdi-kejatijambi.id` | wikidata | Q131424574 |
-| 4 | `bpdp.or.id` | wikidata | Badan Pengelola Dana Perkebunan |
-| 4 | `jakarta.mfa.gov.hu` | wikidata | Embassy of Hungary, Jakarta |
-| 4 | `jordanembassy.or.id` | wikidata | embassy of Jordan in Indonesia |
-| 4 | `lldikti9.id` | wikidata | LLDIKTI Wilayah IX Sulawesi |
-| 4 | `lmkn.id` | wikidata | National Collective Management Organization |
-| 4 | `rri.co.id` | wikidata | Radio Republik Indonesia |
-| 4 | `sejarah-tni.mil.id` | wikidata | Center for Indonesian National Military's History |
-| 4 | `uzembassy.id` | wikidata | embassy of Uzbekistan in Indonesia |
-| 3 | `bdembassyjakarta.org` | wikidata | Embassy of Bangladesh, Jakarta |
-| 3 | `cubadiplomatica.cu` | wikidata | embassy of Cuba in Indonesia |
-| 3 | `emb-algeria.org` | wikidata | Embassy of Algeria, Jakarta |
-| 3 | `embamoc-indonesia.com` | wikidata | embassy of Mozambique in Indonesia |
-| 3 | `fijiembajak.com` | wikidata | embassy of Fiji in Indonesia |
-| 3 | `finlandabroad.fi` | wikidata | embassy of Finland in Indonesia |
-| 3 | `id.ambafrance.org` | wikidata | Embassy of France, Jakarta |
-| 3 | `id.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Jakarta |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `danantaraindonesia.co.id` | wikidata | Daya Anagata Nusantara Investment Management Agency |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `eeas.europa.eu` | central | wikidata;wikidata | Delegation of the European Union to Indonesia and Brunei Darussalam | EU Miss... |
+| 6 | `mkri.id` |  | wikidata | Constitutional Court of the Republic of Indonesia |
+| 4 | `aipi.or.id` |  | wikidata | Indonesian Academy of Sciences |
+| 4 | `bdi-kejatijambi.id` |  | wikidata | Q131424574 |
+| 4 | `bpdp.or.id` |  | wikidata | Badan Pengelola Dana Perkebunan |
+| 4 | `jakarta.mfa.gov.hu` | central | wikidata | Embassy of Hungary, Jakarta |
+| 4 | `jordanembassy.or.id` | central | wikidata | embassy of Jordan in Indonesia |
+| 4 | `lldikti9.id` |  | wikidata | LLDIKTI Wilayah IX Sulawesi |
+| 4 | `lmkn.id` |  | wikidata | National Collective Management Organization |
+| 4 | `rri.co.id` |  | wikidata | Radio Republik Indonesia |
+| 4 | `sejarah-tni.mil.id` |  | wikidata | Center for Indonesian National Military's History |
+| 4 | `uzembassy.id` | central | wikidata | embassy of Uzbekistan in Indonesia |
+| 3 | `bdembassyjakarta.org` | central | wikidata | Embassy of Bangladesh, Jakarta |
+| 3 | `cubadiplomatica.cu` | central | wikidata | embassy of Cuba in Indonesia |
+| 3 | `emb-algeria.org` | central | wikidata | Embassy of Algeria, Jakarta |
+| 3 | `embamoc-indonesia.com` | central | wikidata | embassy of Mozambique in Indonesia |
+| 3 | `fijiembajak.com` | central | wikidata | embassy of Fiji in Indonesia |
+| 3 | `finlandabroad.fi` | central | wikidata | embassy of Finland in Indonesia |
+| 3 | `id.ambafrance.org` | central | wikidata | Embassy of France, Jakarta |
+| 3 | `id.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Jakarta |
 

@@ -28,48 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-516 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+601 domain(s) proposed for validation, of which 85 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `aemet.es` | wikidata;linkgraph | Agencia Estatal de Meteorología |
-| 10 | `aepd.es` | wikidata;linkgraph | Spanish Data Protection Agency |
-| 10 | `boe.es` | wikidata;linkgraph | State Agency for the Official State Gazette |
-| 10 | `csic.es` | wikidata;wikidata;wikidata;linkgraph | Spanish National Research Council | Centro de Recursos Fitogenéticos |
-| 10 | `dgt.es` | wikidata;wikidata;linkgraph | Directorate-General for Traffic |
-| 10 | `ordenacionjuego.es` | wikidata;wikidata;linkgraph | Dirección General de Ordenación del Juego |
-| 9 | `red.es` | wikidata;linkgraph | Red.es |
-| 8 | `ine.es` | wikidata;linkgraph | National Statistics Institute |
-| 7 | `agricultura.gva.es` | wikidata;wikidata | Q11915347 |
-| 7 | `agroambient.gva.es` | wikidata;wikidata | Q107653107 |
-| 7 | `ahk.es` | wikidata;wikidata | Cámara de Comercio Alemana para España |
-| 7 | `armada.mde.es` | wikidata;wikidata | General Staff of the Spanish Navy | Spanish Navy |
-| 7 | `cabimer.es` | wikidata;wikidata | Centro Andaluz de Biología Molecular y Medicina Regenerativa |
-| 7 | `casareal.es` | wikidata;wikidata | Royal Household Security Service | Royal Household of Spain |
-| 7 | `cial.uam-csic.es` | wikidata;wikidata | Instituto de Investigación en Ciencias de la Alimentación |
-| 7 | `ciemat.es` | wikidata;wikidata | Q93883381 | Centro de Investigaciones Energéticas, Medioambientales y Tecnoló... |
-| 7 | `cortesgenerales.es` | wikidata;wikidata | Cortes Generales |
-| 7 | `dgsfp.mineco.es` | wikidata;wikidata | Directorate General for Insurances and Pension Funds |
-| 7 | `franciscanosconventuales.es` | wikidata;wikidata | Province of Our Lady of Montserrat |
-| 7 | `ifca.unican.es` | wikidata;wikidata | Instituto de Física de Cantabria |
-
-## Local / regional candidates
-
-664 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 85 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `asturias.es` | wikidata;wikidata;wikidata;linkgraph | Government of the Principality of Asturias | Q9076467 |
-| 10 | `carm.es` | wikidata;wikidata;linkgraph | Council of Government of the Region of Murcia |
-| 10 | `castillalamancha.es` | wikidata;wikidata;wikidata;linkgraph | Regional Government of Castilla–La Mancha | Regional Government of Castile-La... |
-| 10 | `comunidad.madrid` | wikidata;wikidata;linkgraph | Community of Madrid Fire Department | Instituto Madrileño de Investigación y ... |
-| 10 | `gva.es` | wikidata;wikidata;wikidata;wikidata;linkgraph | Generalitat Valenciana | Q2993785 |
-| 10 | `juntadeandalucia.es` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Jaen University Hospital | Q10862925 | Q16552044 | Ministry of Culture and Hi... |
-| 10 | `madrid.org` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Consejería de Educación, Juventud y Deporte | Government of the Community of ... |
-| 10 | `navarra.es` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Government of Navarra | Departamento de Salud (Navarre) | Servicio Navarro de... |
-| 9 | `gobiernodecanarias.org` | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Caldera de Taburiente National Park | Agencia Canaria de Investigación, Innov... |
-| 8 | `gov.gva.es` | wikidata;wikidata;wikidata;wikidata | Q21094623 | Q11915354 |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 10 | `aemet.es` |  | wikidata;linkgraph | Agencia Estatal de Meteorología |
+| 10 | `aepd.es` | central | wikidata;linkgraph | Spanish Data Protection Agency |
+| 10 | `asturias.es` | central-1 | wikidata;wikidata;wikidata;linkgraph | Government of the Principality of Asturias | Q9076467 |
+| 10 | `boe.es` |  | wikidata;linkgraph | State Agency for the Official State Gazette |
+| 10 | `carm.es` | central-1 | wikidata;wikidata;linkgraph | Council of Government of the Region of Murcia |
+| 10 | `castillalamancha.es` | central-1 | wikidata;wikidata;wikidata;linkgraph | Regional Government of Castilla–La Mancha | Regional Government of Castile-La... |
+| 10 | `comunidad.madrid` | central-1 | wikidata;wikidata;linkgraph | Community of Madrid Fire Department | Instituto Madrileño de Investigación y ... |
+| 10 | `csic.es` | central | wikidata;wikidata;wikidata;linkgraph | Spanish National Research Council | Centro de Recursos Fitogenéticos |
+| 10 | `dgt.es` |  | wikidata;wikidata;linkgraph | Directorate-General for Traffic |
+| 10 | `gva.es` | central-1 | wikidata;wikidata;wikidata;wikidata;linkgraph | Generalitat Valenciana | Q2993785 |
+| 10 | `juntadeandalucia.es` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Jaen University Hospital | Q10862925 | Q16552044 | Ministry of Culture and Hi... |
+| 10 | `madrid.org` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Consejería de Educación, Juventud y Deporte | Government of the Community of ... |
+| 10 | `navarra.es` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Government of Navarra | Departamento de Salud (Navarre) | Servicio Navarro de... |
+| 10 | `ordenacionjuego.es` | central | wikidata;wikidata;linkgraph | Dirección General de Ordenación del Juego |
+| 9 | `gobiernodecanarias.org` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Caldera de Taburiente National Park | Agencia Canaria de Investigación, Innov... |
+| 9 | `red.es` | central | wikidata;linkgraph | Red.es |
+| 8 | `gov.gva.es` | central-1 | wikidata;wikidata;wikidata;wikidata | Q21094623 | Q11915354 |
+| 8 | `ine.es` |  | wikidata;linkgraph | National Statistics Institute |
+| 7 | `agricultura.gva.es` |  | wikidata;wikidata | Q11915347 |
+| 7 | `agroambient.gva.es` |  | wikidata;wikidata | Q107653107 |
 

@@ -28,48 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-313 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+313 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `imy.se` | wikidata;wikidata;linkgraph | Swedish Authority for Privacy Protection |
-| 9 | `domstol.se` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Swedish National Courts Administration | Q97143444 | Q10501718 | Malmö Distri... |
-| 9 | `pts.se` | wikidata;linkgraph | Swedish Post and Telecom Agency |
-| 8 | `digg.se` | wikidata;linkgraph | Agency for Digital Government |
-| 7 | `1177.se` | linkgraph | Linked from 22 public-sector domains |
-| 7 | `arbetsformedlingen.se` | wikidata;linkgraph | Swedish Public Employment Service |
-| 7 | `bolagsverket.se` | wikidata;wikidata | Patent Attorneys Board | Swedish Companies Registration Office |
-| 7 | `fi.se` | wikidata;wikidata | Financial Supervisory Authority |
-| 7 | `fmv.se` | wikidata;wikidata | Defence Materiel Administration |
-| 7 | `forte.se` | wikidata;wikidata | Swedish Research Council for Health Working Life and Welfare |
-| 7 | `irf.se` | wikidata;wikidata | Swedish Institute of Space Physics |
-| 7 | `isof.se` | wikidata;wikidata | Swedish Language Council | Swedish Institute for Language and Folklore |
-| 7 | `kb.se` | wikidata;linkgraph | National Library of Sweden |
-| 7 | `kth.se` | wikidata;wikidata | Royal Institute of Technology |
-| 7 | `mcf.se` | wikidata;wikidata | Swedish Civil Defence and Resilience Agency |
-| 7 | `palestineembassy.se` | wikidata;wikidata | Embassy of Palestine, Stockholm |
-| 7 | `polar.se` | wikidata;wikidata | Swedish Polar Research Secretariat |
-| 7 | `sakerhetspolisen.se` | wikidata;wikidata | Swedish Security Service |
-| 7 | `sgu.se` | wikidata;wikidata | Geological Survey of Sweden |
-| 7 | `sida.se` | wikidata;wikidata | Swedish International Development Cooperation Agency |
-
-## Local / regional candidates
-
-48 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `alingsastingsratt.domstol.se` | wikidata | Alingsås tingsrätt |
-| 4 | `angermanlandstingsratt.domstol.se` | wikidata | Ångermanland District Court |
-| 4 | `attundatingsratt.domstol.se` | wikidata | Attunda District Court |
-| 4 | `blekingetingsratt.domstol.se` | wikidata | Blekinge District Court |
-| 4 | `eksjotingsratt.domstol.se` | wikidata | Eksjö District Court |
-| 4 | `eskilstunatingsratt.domstol.se` | wikidata | Eskilstuna District Court |
-| 4 | `falutingsratt.domstol.se` | wikidata | Falun District Court |
-| 4 | `gallivaretingsratt.domstol.se` | wikidata | Q10512316 |
-| 4 | `gavletingsratt.domstol.se` | wikidata | Gävle District Court |
-| 4 | `goteborgstingsratt.domstol.se` | wikidata | Göteborgs tingsrätt |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 10 | `imy.se` | central | wikidata;wikidata;linkgraph | Swedish Authority for Privacy Protection |
+| 9 | `domstol.se` | central | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Swedish National Courts Administration | Q97143444 | Q10501718 | Malmö Distri... |
+| 9 | `pts.se` | central | wikidata;linkgraph | Swedish Post and Telecom Agency |
+| 8 | `digg.se` | central | wikidata;linkgraph | Agency for Digital Government |
+| 7 | `1177.se` |  | linkgraph | Linked from 22 public-sector domains |
+| 7 | `arbetsformedlingen.se` | central | wikidata;linkgraph | Swedish Public Employment Service |
+| 7 | `bolagsverket.se` | central | wikidata;wikidata | Patent Attorneys Board | Swedish Companies Registration Office |
+| 7 | `fi.se` | central | wikidata;wikidata | Financial Supervisory Authority |
+| 7 | `fmv.se` | central | wikidata;wikidata | Defence Materiel Administration |
+| 7 | `forte.se` | central | wikidata;wikidata | Swedish Research Council for Health Working Life and Welfare |
+| 7 | `irf.se` | central | wikidata;wikidata | Swedish Institute of Space Physics |
+| 7 | `isof.se` | central | wikidata;wikidata | Swedish Language Council | Swedish Institute for Language and Folklore |
+| 7 | `kb.se` | central | wikidata;linkgraph | National Library of Sweden |
+| 7 | `kth.se` | central | wikidata;wikidata | Royal Institute of Technology |
+| 7 | `mcf.se` | central | wikidata;wikidata | Swedish Civil Defence and Resilience Agency |
+| 7 | `palestineembassy.se` | central | wikidata;wikidata | Embassy of Palestine, Stockholm |
+| 7 | `polar.se` | central | wikidata;wikidata | Swedish Polar Research Secretariat |
+| 7 | `sakerhetspolisen.se` | central | wikidata;wikidata | Swedish Security Service |
+| 7 | `sgu.se` | central | wikidata;wikidata | Geological Survey of Sweden |
+| 7 | `sida.se` | central | wikidata;wikidata | Swedish International Development Cooperation Agency |
 

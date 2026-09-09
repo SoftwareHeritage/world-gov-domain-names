@@ -28,25 +28,25 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `parliament.af` | wikidata;wikidata | National Assembly of Afghanistan |
-| 4 | `aihrc.org.af` | wikidata | Afghan Independent Human Rights Commission |
-| 3 | `af.ambafrance.org` | wikidata | Embassy of France, Kabul |
-| 3 | `afghanistan.diplo.de` | wikidata | Embassy of Germany, Kabul |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Afghanistan |
-| 3 | `emro.who.int` | wikidata | World Health Organization - Afghanistan |
-| 3 | `finlandabroad.fi` | wikidata | Embassy of Finland, Kabul |
-| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Afghanistan |
-| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Afghanistan |
-| 3 | `nederlandwereldwijd.nl` | wikidata | Embassy of the Netherlands, Kabul |
-| 3 | `norway.no` | wikidata | Embassy of Norway, Kabul |
-| 3 | `pakembassykabul.org` | wikidata | Embassy of Pakistan, Kabul |
-| 3 | `swedenabroad.se` | wikidata | Embassy of Sweden, Kabul |
-| 3 | `unesco.org` | wikidata | UNESCO office Afghanistan |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 8 | `parliament.af` | central | wikidata;wikidata | National Assembly of Afghanistan |
+| 4 | `aihrc.org.af` |  | wikidata | Afghan Independent Human Rights Commission |
+| 3 | `af.ambafrance.org` | central | wikidata | Embassy of France, Kabul |
+| 3 | `afghanistan.diplo.de` | central | wikidata | Embassy of Germany, Kabul |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Afghanistan |
+| 3 | `emro.who.int` |  | wikidata | World Health Organization - Afghanistan |
+| 3 | `finlandabroad.fi` | central | wikidata | Embassy of Finland, Kabul |
+| 3 | `mfa.bg` | central | wikidata | embassy of Bulgaria in Afghanistan |
+| 3 | `mzv.cz` | central | wikidata | embassy of the Czech republic in Afghanistan |
+| 3 | `nederlandwereldwijd.nl` | central | wikidata | Embassy of the Netherlands, Kabul |
+| 3 | `norway.no` | central | wikidata | Embassy of Norway, Kabul |
+| 3 | `pakembassykabul.org` | central | wikidata | Embassy of Pakistan, Kabul |
+| 3 | `swedenabroad.se` | central | wikidata | Embassy of Sweden, Kabul |
+| 3 | `unesco.org` |  | wikidata | UNESCO office Afghanistan |
 

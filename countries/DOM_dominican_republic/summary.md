@@ -28,21 +28,21 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `fuerzasarmadas.mil.do` | wikidata;wikidata | Q17347140 |
-| 6 | `centroamericaribeschp.com` | wikidata;wikidata | Piarist province Central America- Caribbean |
-| 6 | `dominicoshispania.org` | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 5 | `bancentral.gov.do` | wikidata | Central Bank of the Dominican Republic |
-| 4 | `cesfront.mil.do` | wikidata | Cuerpo Especializado en Seguridad Fronteriza Terrestre |
-| 3 | `do.ambafrance.org` | wikidata | Embassy of France, Santo Domingo |
-| 3 | `do.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Santo Domingo |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to the Dominican Republic |
-| 3 | `nederlandwereldwijd.nl` | wikidata | Embassy of the Netherlands, Santo Domingo |
-| 3 | `santo-domingo.diplo.de` | wikidata | Embassy of Germany, Santo Domingo |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `fuerzasarmadas.mil.do` |  | wikidata;wikidata | Q17347140 |
+| 6 | `centroamericaribeschp.com` |  | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `dominicoshispania.org` |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 5 | `bancentral.gov.do` |  | wikidata | Central Bank of the Dominican Republic |
+| 4 | `cesfront.mil.do` | central | wikidata | Cuerpo Especializado en Seguridad Fronteriza Terrestre |
+| 3 | `do.ambafrance.org` | central | wikidata | Embassy of France, Santo Domingo |
+| 3 | `do.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Santo Domingo |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to the Dominican Republic |
+| 3 | `nederlandwereldwijd.nl` | central | wikidata | Embassy of the Netherlands, Santo Domingo |
+| 3 | `santo-domingo.diplo.de` | central | wikidata | Embassy of Germany, Santo Domingo |
 

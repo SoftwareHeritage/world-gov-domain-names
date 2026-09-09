@@ -28,33 +28,25 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `minisante.bi` | wikidata;wikidata | Ministry of Public Health of Burundi |
-| 4 | `assemblee.bi` | wikidata | National Assembly |
-| 4 | `brb.bi` | wikidata | Bank of the Republic of Burundi |
-| 4 | `ceniburundi.bi` | wikidata | Q21008237 |
-| 4 | `igebu.bi` | wikidata | Institut Géographique du Burundi |
-| 4 | `insbu.bi` | wikidata | National Institute of Statistics of Burundi |
-| 4 | `senat.bi` | wikidata | Senate |
-| 3 | `bi.ambafrance.org` | wikidata | Embassy of France, Bujumbura |
-| 3 | `bujumbura.diplo.de` | wikidata | Embassy of Germany, Bujumbura |
-| 3 | `burundi.mid.ru` | wikidata | embassy of Russia in Burundi |
-| 3 | `burundistats.org` | wikidata | Burundi Institute of Statistics and Economic Studies |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Burundi |
-| 3 | `lta.iwlearn.org` | wikidata | Lake Tanganyika Authority |
-| 3 | `nationallibraryofburundi.org` | wikidata | National Library of Burundi |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `eala.org` | wikidata | East African Legislative Assembly |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `minisante.bi` | central | wikidata;wikidata | Ministry of Public Health of Burundi |
+| 4 | `assemblee.bi` | central | wikidata | National Assembly |
+| 4 | `brb.bi` |  | wikidata | Bank of the Republic of Burundi |
+| 4 | `ceniburundi.bi` | central | wikidata | Q21008237 |
+| 4 | `igebu.bi` |  | wikidata | Institut Géographique du Burundi |
+| 4 | `insbu.bi` | central | wikidata | National Institute of Statistics of Burundi |
+| 4 | `senat.bi` | central | wikidata | Senate |
+| 3 | `bi.ambafrance.org` | central | wikidata | Embassy of France, Bujumbura |
+| 3 | `bujumbura.diplo.de` | central | wikidata | Embassy of Germany, Bujumbura |
+| 3 | `burundi.mid.ru` | central | wikidata | embassy of Russia in Burundi |
+| 3 | `burundistats.org` |  | wikidata | Burundi Institute of Statistics and Economic Studies |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Burundi |
+| 3 | `lta.iwlearn.org` |  | wikidata | Lake Tanganyika Authority |
+| 3 | `nationallibraryofburundi.org` |  | wikidata | National Library of Burundi |
 

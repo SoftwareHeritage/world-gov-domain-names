@@ -28,40 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-67 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+67 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `slovensko.sk` | un_desa;linkgraph | UN/DESA national portal |
-| 7 | `dominikani.sk` | wikidata;wikidata | Dominican Province of Slovakia |
-| 7 | `frantiskani.sk` | wikidata;wikidata | Province of the Most Holy Redeemer of the Friars Minor in Slovakia |
-| 7 | `mincrs.sk` | wikidata;wikidata | Ministry of Tourism and Sports of the Slovak Republic |
-| 7 | `minedu.sk` | wikidata;wikidata | Ministry of Education, Research, Development and Youth of the Slovak Republic |
-| 7 | `minv.sk` | wikidata;wikidata;wikidata;wikidata;wikidata | Slovak National Archives | Ministry of Interior of the Slovak Republic | Fire... |
-| 7 | `minzp.sk` | wikidata;wikidata | Ministry of the Environment of the Slovak Republic |
-| 7 | `mzv.sk` | wikidata;wikidata | Ministry of Foreign and European Affairs of the Slovak Republic |
-| 7 | `nbs.sk` | wikidata;wikidata | National Bank of Slovakia |
-| 7 | `nrsr.sk` | wikidata;wikidata | National Council of the Slovak Republic |
-| 7 | `piaristi.sk` | wikidata;wikidata | Piarist province of Slovakia |
-| 7 | `skgeodesy.sk` | wikidata;wikidata | Geodesy, Cartography and Cadastre Authority of the Slovak Republic |
-| 7 | `snk.sk` | wikidata;wikidata | Slovak National Library |
-| 6 | `nsud.sk` | wikidata | Supreme court of the Slovak Republic |
-| 6 | `slowakei.ahk.de` | wikidata;wikidata | German-Slovak Chamber of Industry and Commerce |
-| 4 | `apvv.sk` | wikidata | Slovak Research and Development Agency |
-| 4 | `caa.sk` | wikidata | Civil Aviation Authority of the Slovak Republic |
-| 4 | `dposr.sk` | wikidata | Voluntary Fire Protection of the Slovak Republic |
-| 4 | `egypt-embassy.sk` | wikidata | Embassy of Egypt, Bratislava |
-| 4 | `financnasprava.sk` | wikidata | The Financial Administration of the Slovak Republic |
-
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `ruzomberok.sk` | wikidata | Municipal Police of Ružomberok |
-| 3 | `ela.europa.eu` | wikidata | European Labour Authority |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 10 | `slovensko.sk` |  | un_desa;linkgraph | UN/DESA national portal |
+| 7 | `dominikani.sk` |  | wikidata;wikidata | Dominican Province of Slovakia |
+| 7 | `frantiskani.sk` |  | wikidata;wikidata | Province of the Most Holy Redeemer of the Friars Minor in Slovakia |
+| 7 | `mincrs.sk` | central | wikidata;wikidata | Ministry of Tourism and Sports of the Slovak Republic |
+| 7 | `minedu.sk` | central | wikidata;wikidata | Ministry of Education, Research, Development and Youth of the Slovak Republic |
+| 7 | `minv.sk` | central | wikidata;wikidata;wikidata;wikidata;wikidata | Slovak National Archives | Ministry of Interior of the Slovak Republic | Fire... |
+| 7 | `minzp.sk` | central | wikidata;wikidata | Ministry of the Environment of the Slovak Republic |
+| 7 | `mzv.sk` | central | wikidata;wikidata | Ministry of Foreign and European Affairs of the Slovak Republic |
+| 7 | `nbs.sk` | central | wikidata;wikidata | National Bank of Slovakia |
+| 7 | `nrsr.sk` | central | wikidata;wikidata | National Council of the Slovak Republic |
+| 7 | `piaristi.sk` |  | wikidata;wikidata | Piarist province of Slovakia |
+| 7 | `skgeodesy.sk` |  | wikidata;wikidata | Geodesy, Cartography and Cadastre Authority of the Slovak Republic |
+| 7 | `snk.sk` |  | wikidata;wikidata | Slovak National Library |
+| 6 | `nsud.sk` |  | wikidata | Supreme court of the Slovak Republic |
+| 6 | `slowakei.ahk.de` |  | wikidata;wikidata | German-Slovak Chamber of Industry and Commerce |
+| 4 | `apvv.sk` |  | wikidata | Slovak Research and Development Agency |
+| 4 | `caa.sk` | central | wikidata | Civil Aviation Authority of the Slovak Republic |
+| 4 | `dposr.sk` |  | wikidata | Voluntary Fire Protection of the Slovak Republic |
+| 4 | `egypt-embassy.sk` | central | wikidata | Embassy of Egypt, Bratislava |
+| 4 | `financnasprava.sk` |  | wikidata | The Financial Administration of the Slovak Republic |
 

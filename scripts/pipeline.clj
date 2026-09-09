@@ -777,6 +777,23 @@
            [[c root] label])
          (reduce (fn [m [k label]] (update m k (fnil conj #{}) label)) {}))))
 
+(def excluded-domains
+  "{country_dir #{domain…}}: every hostname of countries/<c>/excluded.csv
+  and countries/<c>/sources/*/excluded.csv. A host equal to or under one
+  of them is out of scope, whatever the sources say, so proposed.csv never
+  lists it again: excluded.csv is where a reviewer's 'no' is recorded."
+  (delay
+    (into {}
+          (for [c (country-dirs)]
+            [c (set (for [path (cons (str "countries/" c "/excluded.csv")
+                                     (map str (fs/glob (str "countries/" c "/sources")
+                                                       "*/excluded.csv")))
+                          :when (fs/exists? path)
+                          [domain] (rest (read-csv-raw path))
+                          :let [domain (some-> domain str/trim str/lower-case)]
+                          :when (valid-hostname? domain)]
+                      domain))]))))
+
 (defn sub-central-labels
   "All labels to keep out of a mixed-suffix root's subtree: the excluded
   labels declared for it (exclude rows) and the labels of its validated
@@ -812,7 +829,7 @@
   level=central-1 rows of validated.csv. Only CONFIRMED entries pass,
   mirroring the manual gate of the central level (decision of
   2026-08-17); unconfirmed central-1 candidates -- however well scored --
-  stay in the candidate list as the curation worklist.
+  stay in proposed.csv as the curation worklist.
   Returns [country domain name score sources level]."
   []
   (for [[c domain level _source name] (validated-rows)
@@ -948,8 +965,8 @@
 ;; (states, municipalities…) -- pure class pollution. Subnational
 ;; *organisations* are NOT filtered out anymore: the query captures their
 ;; P1001 jurisdiction and the pipeline derives a level (central vs
-;; central-1 vs local), so they land in candidates-local.csv instead of
-;; being silently dropped.
+;; central-1 vs local): central-1 ones land in proposed.csv with their
+;; level, local ones are dropped.
 ;; :light skips the class exclusions -- needed for classes whose strict
 ;; SPARQL times out (parliament does timeout).
 (def wikidata-classes
@@ -1649,7 +1666,7 @@
 
 (def linkgraph-min-indegree
   "Below this many distinct linking domains a host stays out of
-  candidates.csv (single blogroll link, typo'd domain...)."
+  proposed.csv (single blogroll link, typo'd domain...)."
   3)
 
 (defn score-candidate
@@ -1669,8 +1686,8 @@
                      of public bodies (detect-from-directories.clj,
                      :candidates channel): authoritative existence, unknown level
     :subdiv-penalty? apply the anti-subnational penalties (default true);
-                     false when ranking candidates-local.csv, where burying
-                     subnational entries would defeat the file's purpose"
+                     false for hosts already known as subnational, where
+                     penalising again would only bury the central-1 rows"
   [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary
            indegree directory-listed? subdiv-penalty?]
     :or {subdiv-penalty? true}}]
@@ -1775,9 +1792,9 @@
     [h score (str/join ";" sources) label level]))
 
 (defn score-candidates-for!
-  "Compute countries/<c>/candidates.csv (central administrations) and
-  countries/<c>/candidates-local.csv (subnational bodies), both with
-  columns hostname,score,sources,label,level. Aggregates Wikidata mentions
+  "Compute countries/<c>/proposed.csv, the domains proposed for
+  validation (columns hostname,score,sources,label,level), best scores
+  first. Aggregates Wikidata mentions
   (incl. their P1001-derived level), UN/DESA national portal, IANA ccTLD,
   Factbook institution names and link-graph in-degree (sources/linkgraph/,
   see cmd-indegree). Loads the per-country sources into a context map,
@@ -1786,16 +1803,17 @@
   its label matches the subdivision pattern; a subnational host whose
   jurisdiction (or label) points to a first-level subdivision of the
   country (Land, state, region…) is tagged 'central-1', the rest 'local'.
-  Level stays blank (and the host stays in candidates.csv) when nothing
-  is known -- to be consolidated over time."
+  Level stays blank when nothing is known. Hosts already validated, hosts
+  under an excluded domain (see excluded-domains) and local hosts are
+  left out: only central, central-1 and unknown-level hosts are proposed."
   [country-dir]
   (let [iana-path (country-src country-dir "iana" "cctld.csv")
         un-path   (country-src country-dir "un_desa" "summary.csv")
         cia-path  (country-src country-dir "cia_factbook" "summary.csv")
         wd-path   (country-src country-dir "wikidata" "central_admin.csv")
         sub-path  (country-src country-dir "wikidata" "subdivisions_level1.csv")
-        out       (str "countries/" country-dir "/candidates.csv")
-        out-local (str "countries/" country-dir "/candidates-local.csv")
+        out       (str "countries/" country-dir "/proposed.csv")
+        excluded  (get @excluded-domains country-dir #{})
         cctld-primary
         (when (fs/exists? iana-path)
           (some-> (first (second (read-csv-raw iana-path)))    ; row 2, col 1
@@ -1872,23 +1890,15 @@
              :fb-phrases fb-phrases
              :cctld-primary cctld-primary
              :level1-pattern level1-pattern}
-        candidates
+        proposed
         (->> all-hosts
              (remove #(host-covered? % known))
+             (remove #(host-covered? % excluded))
              (map #(candidate-row ctx %))
-             (sort-by (juxt #(- (nth % 1)) first)))
-        {subnational true central false}
-        (group-by #(contains? #{"local" "central-1"} (nth % 4)) candidates)
-        ;; candidates-local.csv: central-1 first (the report's next tier),
-        ;; then score desc / hostname asc within each level.
-        subnational (sort-by (juxt #(if (= "central-1" (nth % 4)) 0 1)
-                                   #(- (nth % 1)) first)
-                             subnational)
-        ->rows (fn [cands] (for [[h sc src lbl lvl] cands] [h (str sc) src lbl lvl]))]
+             (remove #(= "local" (nth % 4)))
+             (sort-by (juxt #(- (nth % 1)) first)))]
     (write-csv-file out ["hostname" "score" "sources" "label" "level"]
-                    (->rows central))
-    (write-csv-file out-local ["hostname" "score" "sources" "label" "level"]
-                    (->rows subnational))))
+                    (for [[h sc src lbl lvl] proposed] [h (str sc) src lbl lvl]))))
 
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
@@ -1951,39 +1961,30 @@
     (println)))
 
 (defn- candidate-table [cands]
-  (println "| score | hostname | sources | label |")
-  (println "|------:|----------|---------|-------|")
-  (doseq [[h sc src lbl] cands]
-    (println (str "| " sc " | `" h "` | " src " | " (truncate (or lbl "") 80) " |"))))
+  (println "| score | hostname | level | sources | label |")
+  (println "|------:|----------|-------|---------|-------|")
+  (doseq [[h sc src lbl lvl] cands]
+    (println (str "| " sc " | `" h "` | " (or lvl "") " | " src " | "
+                  (truncate (or lbl "") 80) " |"))))
 
-(defn- section-candidates [cand-path local-path]
-  (when (fs/exists? cand-path)
-    (let [cands (rest (read-csv-raw cand-path))]
-      (println "## Candidate domains ranked by score")
+(defn- section-proposed [path]
+  (when (fs/exists? path)
+    (let [cands (rest (read-csv-raw path))
+          n-level1 (count (filter #(= "central-1" (nth % 4 "")) cands))]
+      (println "## Proposed domains ranked by score")
       (println)
       (if (seq cands)
         (do
-          (println (str (count cands) " central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv)."))
-          (println "Top 20 by score (0-10) -- higher = stronger cross-source evidence:")
-          (println)
-          (candidate-table (take 20 cands)))
-        (println "No remaining candidates (every flagged institution is covered)."))
-      (println)))
-  (when (fs/exists? local-path)
-    (let [cands (rest (read-csv-raw local-path))]
-      (when (seq cands)
-        (let [n-level1 (count (filter #(= "central-1" (nth % 4 "")) cands))]
-          (println "## Local / regional candidates")
-          (println)
-          (println (str (count cands) " candidate(s) attributed to a non-central "
-                        "administration (out of the registry's central-gov scope)"
+          (println (str (count cands) " domain(s) proposed for validation"
                         (when (pos? n-level1)
                           (str ", of which " n-level1 " at the first subdivision "
                                "level (`central-1`: Land, state, region…)"))
-                        ". Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:"))
+                        ". Full list in [`proposed.csv`](proposed.csv)."))
+          (println "Top 20 by score (0-10) -- higher = stronger cross-source evidence:")
           (println)
-          (candidate-table (take 10 cands))
-          (println))))))
+          (candidate-table (take 20 cands)))
+        (println "No remaining proposal (every flagged institution is covered)."))
+      (println))))
 
 (defn- section-cctld-anomalies [country-dir cctld collected]
   (when cctld
@@ -2009,7 +2010,7 @@
         (println)))))
 
 (defn report-country!
-  "Generate countries/<c>/summary.md (and candidates.csv) for one country."
+  "Generate countries/<c>/summary.md (and proposed.csv) for one country."
   [country-dir collected-by-country un-status-by-country]
   (score-candidates-for! country-dir)
   (let [iana-path (country-src country-dir "iana" "cctld.csv")
@@ -2017,8 +2018,7 @@
         un-path   (country-src country-dir "un_desa" "summary.csv")
         cia-path  (country-src country-dir "cia_factbook" "summary.csv")
         meta-path (country-src country-dir "country_data" "info.csv")
-        cand-path  (str "countries/" country-dir "/candidates.csv")
-        local-path (str "countries/" country-dir "/candidates-local.csv")
+        prop-path  (str "countries/" country-dir "/proposed.csv")
         out        (str "countries/" country-dir "/summary.md")
         [cctld manager] (when (fs/exists? iana-path)
                           (let [r (second (read-csv-raw iana-path))]
@@ -2050,7 +2050,7 @@
             (section-overview (assoc ctx :n-collected (count collected)))
             (section-un-portal country-dir un-portal collected)
             (section-factbook ctx)
-            (section-candidates cand-path local-path)
+            (section-proposed prop-path)
             (section-cctld-anomalies country-dir cctld collected)))
     (println (str "=== " country-dir " -> " out))))
 
@@ -2516,7 +2516,7 @@
   target_category is ignored (it tags well-known government sites as
   external). Writes countries/<c>/sources/linkgraph/indegree.csv; the
   report phase then folds hosts at or above linkgraph-min-indegree into
-  candidates.csv with a strong score bonus. Optional args restrict to the
+  proposed.csv with a strong score bonus. Optional args restrict to the
   given country_dirs."
   [args]
   (let [suffix->dir (linkgraph-suffix->dir)
@@ -2555,7 +2555,7 @@
             (println (str dir ": " (count rows) " linked domains ("
                           strong " with indegree >= "
                           linkgraph-min-indegree ")"))))
-        (println "Run 'bb pipeline report' to fold them into candidates.csv.")))))
+        (println "Run 'bb pipeline report' to fold them into proposed.csv.")))))
 
 ;; ===========================================================================
 ;;  Dispatcher

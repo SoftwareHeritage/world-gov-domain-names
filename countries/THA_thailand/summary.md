@@ -28,43 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-55 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+60 domain(s) proposed for validation, of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `gistda.or.th` | wikidata;wikidata | Geo-Informatics and Space Technology Development Agency |
-| 7 | `royaloffice.th` | wikidata;wikidata | Bureau of the Royal Household |
-| 6 | `constitutionalcourt.or.th` | wikidata | Constitutional Court of Thailand |
-| 6 | `office.constitutionalcourt.or.th` | wikidata | Office of the Constitutional Court of Thailand |
-| 4 | `aerothai.co.th` | wikidata | Aeronautical Radio of Thailand |
-| 4 | `bangkok.mfa.gov.hu` | wikidata | embassy of Hungary to Thailand |
-| 4 | `biotec.or.th` | wikidata | BIOTEC |
-| 4 | `bot.or.th` | wikidata | Bank of Thailand |
-| 4 | `cicot.or.th` | wikidata | Central Islamic Council of Thailand |
-| 4 | `en.thaihealth.or.th` | wikidata | Thai Health Promotion Foundation |
-| 4 | `glo.or.th` | wikidata | Thai Government Lottery Office |
-| 4 | `gpo.or.th` | wikidata | Government Pharmaceutical Organization |
-| 4 | `ksp.or.th` | wikidata | Teachers' Council of Thailand |
-| 4 | `nectec.or.th` | wikidata | National Electronics and Computer Technology Center |
-| 4 | `nimt.or.th` | wikidata | National Institute of Metrology (Thailand) |
-| 4 | `nxpo.or.th` | wikidata | Office of National Higher Education Science Research and Innovation Policy Co... |
-| 4 | `old.hsri.or.th` | wikidata | Health Systems Research Institute |
-| 4 | `rtsd.mi.th` | wikidata | Royal Thai Survey Department |
-| 4 | `sec.or.th` | wikidata | The Securities and Exchange Commission, Thailand |
-| 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Bangkok |
-
-## Local / regional candidates
-
-5 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `chpao.org` | wikidata | Chaiyaphum Provincial Administrative Organization |
-| 3 | `loppao.com` | wikidata | Lopburi Provincial Administrative Organization |
-| 3 | `nkppao.com` | wikidata | Nakhon Phanom Provincial Administrative Organization |
-| 3 | `phuketcity.org` | wikidata | Phuket Provincial Administrative Organization |
-| 3 | `surinpao.org` | wikidata | Surin Provincial Administrative Organization |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `gistda.or.th` |  | wikidata;wikidata | Geo-Informatics and Space Technology Development Agency |
+| 7 | `royaloffice.th` | central | wikidata;wikidata | Bureau of the Royal Household |
+| 6 | `constitutionalcourt.or.th` |  | wikidata | Constitutional Court of Thailand |
+| 6 | `office.constitutionalcourt.or.th` |  | wikidata | Office of the Constitutional Court of Thailand |
+| 4 | `aerothai.co.th` |  | wikidata | Aeronautical Radio of Thailand |
+| 4 | `bangkok.mfa.gov.hu` | central | wikidata | embassy of Hungary to Thailand |
+| 4 | `biotec.or.th` |  | wikidata | BIOTEC |
+| 4 | `bot.or.th` |  | wikidata | Bank of Thailand |
+| 4 | `cicot.or.th` |  | wikidata | Central Islamic Council of Thailand |
+| 4 | `en.thaihealth.or.th` |  | wikidata | Thai Health Promotion Foundation |
+| 4 | `glo.or.th` |  | wikidata | Thai Government Lottery Office |
+| 4 | `gpo.or.th` |  | wikidata | Government Pharmaceutical Organization |
+| 4 | `ksp.or.th` |  | wikidata | Teachers' Council of Thailand |
+| 4 | `nectec.or.th` |  | wikidata | National Electronics and Computer Technology Center |
+| 4 | `nimt.or.th` |  | wikidata | National Institute of Metrology (Thailand) |
+| 4 | `nxpo.or.th` |  | wikidata | Office of National Higher Education Science Research and Innovation Policy Co... |
+| 4 | `old.hsri.or.th` |  | wikidata | Health Systems Research Institute |
+| 4 | `rtsd.mi.th` |  | wikidata | Royal Thai Survey Department |
+| 4 | `sec.or.th` |  | wikidata | The Securities and Exchange Commission, Thailand |
+| 4 | `sp.mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Bangkok |
 

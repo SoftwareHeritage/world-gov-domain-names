@@ -28,41 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-40 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+43 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `bosnasrebrena.ba` | wikidata;wikidata | Franciscan Province of Bosna Srebrena |
-| 6 | `dominikanci.hr` | wikidata;wikidata | Croatian Dominican Province |
-| 6 | `franjevci.info` | wikidata;wikidata | Franciscan Province of the Assumption of the Blessed Virgin Mary |
-| 6 | `isusovci.hr` | wikidata;wikidata | Croatian province of the Society of Jesus |
-| 6 | `sarajevo.mid.ru` | wikidata;wikidata | Embassy of Russia, Sarajevo |
-| 4 | `akaz.ba` | wikidata | Q127505551 |
-| 4 | `cbbh.ba` | wikidata | Central Bank of Bosnia and Herzegovina |
-| 4 | `domkulturejajce.ba` | wikidata | Kršlak house |
-| 4 | `fzs.ba` | wikidata | Federal Bureau of Statistics |
-| 4 | `nub.ba` | wikidata | National and University Library of Bosnia and Herzegovina |
-| 4 | `rak.ba` | wikidata | Communications Regulatory Agency of Bosnia and Herzegovina |
-| 4 | `szarajevo.mfa.gov.hu` | wikidata | Embassy of Hungary, Sarajevo |
-| 4 | `ustavnisud.ba` | wikidata | Constitutional Court of Bosnia and Herzegovina |
-| 4 | `ustavnisudfbih.ba` | wikidata | Constitutional Court of the Federation of Bosnia and Herzegovina |
-| 3 | `arhivrs.org` | wikidata | Archives of Republika Srpska |
-| 3 | `ba.ambafrance.org` | wikidata | Embassy of France, Sarajevo |
-| 3 | `ba.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Sarajevo |
-| 3 | `ba.mvep.hr` | wikidata | Embassy of Croatia, Sarajevo |
-| 3 | `bosnienhercegovina.um.dk` | wikidata | Embassy of Denmark in Bosnia-Herzegovina II |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Bosnia and Herzegovina |
-
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `mup.vladars.net` | wikidata;wikidata;wikidata | Ministry of Interior of Republika Srpska | Police of Republika Srpska |
-| 6 | `narodnaskupstinars.net` | wikidata;wikidata | National Assembly of Republic of Srpska |
-| 6 | `vladars.net` | wikidata;wikidata;wikidata | Ministry of Science and Technology | Q108052814 |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `bosnasrebrena.ba` |  | wikidata;wikidata | Franciscan Province of Bosna Srebrena |
+| 6 | `dominikanci.hr` |  | wikidata;wikidata | Croatian Dominican Province |
+| 6 | `franjevci.info` |  | wikidata;wikidata | Franciscan Province of the Assumption of the Blessed Virgin Mary |
+| 6 | `isusovci.hr` |  | wikidata;wikidata | Croatian province of the Society of Jesus |
+| 6 | `mup.vladars.net` | central-1 | wikidata;wikidata;wikidata | Ministry of Interior of Republika Srpska | Police of Republika Srpska |
+| 6 | `narodnaskupstinars.net` | central-1 | wikidata;wikidata | National Assembly of Republic of Srpska |
+| 6 | `sarajevo.mid.ru` | central | wikidata;wikidata | Embassy of Russia, Sarajevo |
+| 6 | `vladars.net` | central-1 | wikidata;wikidata;wikidata | Ministry of Science and Technology | Q108052814 |
+| 4 | `akaz.ba` |  | wikidata | Q127505551 |
+| 4 | `cbbh.ba` |  | wikidata | Central Bank of Bosnia and Herzegovina |
+| 4 | `domkulturejajce.ba` |  | wikidata | Kršlak house |
+| 4 | `fzs.ba` |  | wikidata | Federal Bureau of Statistics |
+| 4 | `nub.ba` |  | wikidata | National and University Library of Bosnia and Herzegovina |
+| 4 | `rak.ba` |  | wikidata | Communications Regulatory Agency of Bosnia and Herzegovina |
+| 4 | `szarajevo.mfa.gov.hu` | central | wikidata | Embassy of Hungary, Sarajevo |
+| 4 | `ustavnisud.ba` | central | wikidata | Constitutional Court of Bosnia and Herzegovina |
+| 4 | `ustavnisudfbih.ba` |  | wikidata | Constitutional Court of the Federation of Bosnia and Herzegovina |
+| 3 | `arhivrs.org` |  | wikidata | Archives of Republika Srpska |
+| 3 | `ba.ambafrance.org` | central | wikidata | Embassy of France, Sarajevo |
+| 3 | `ba.chineseembassy.org` | central | wikidata | Embassy of the People's Republic of China, Sarajevo |
 

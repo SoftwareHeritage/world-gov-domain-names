@@ -28,17 +28,17 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `esteri.sm` | wikidata;wikidata | Ministry of Foreign Affairs of the Republic of San Marino |
-| 6 | `sanmarino.sm` | un_desa | UN/DESA national portal |
-| 4 | `bibliotecadistato.sm` | wikidata | State Library of San Marino |
-| 4 | `cultura.sm` | wikidata | State Archives of San Marino |
-| 3 | `sanmarinosite.com` | wikidata | Civil Police |
-| 2 | `consigliograndeegenerale.sm` | wikidata;wikidata | Grand and General Council |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `esteri.sm` | central | wikidata;wikidata | Ministry of Foreign Affairs of the Republic of San Marino |
+| 6 | `sanmarino.sm` |  | un_desa | UN/DESA national portal |
+| 4 | `bibliotecadistato.sm` |  | wikidata | State Library of San Marino |
+| 4 | `cultura.sm` |  | wikidata | State Archives of San Marino |
+| 3 | `sanmarinosite.com` |  | wikidata | Civil Police |
+| 2 | `consigliograndeegenerale.sm` | central | wikidata;wikidata | Grand and General Council |
 

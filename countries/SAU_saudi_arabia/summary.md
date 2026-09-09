@@ -28,31 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-49 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+49 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `shps.org.sa` | wikidata;wikidata | Saudi Heritage Preservation Society |
-| 4 | `bangladeshembassy.org.sa` | wikidata | Embassy of Bangladesh, Riyadh |
-| 4 | `cma.org.sa` | wikidata | Capital Market Authority |
-| 4 | `darah.org.sa` | wikidata | Darah |
-| 4 | `kacst.edu.sa` | wikidata | Saudi Patent Office |
-| 4 | `kapl.org.sa` | wikidata | Q137555839 |
-| 4 | `kenyaembassy.org.sa` | wikidata | embassy of Kenya in Saudi Arabia |
-| 4 | `kfmrc.kau.edu.sa` | wikidata | King Fahd Medical Research Center |
-| 4 | `maldivesembassy.sa` | wikidata | Embassy of Maldives, Riyadh |
-| 4 | `mofaic.gov.ae` | wikidata | Consulate General of the United Arab Emirates, Jeddah |
-| 4 | `moroccanembassy.sa` | wikidata | embassy of Morocco in Saudi Arabia |
-| 4 | `nigeria.org.sa` | wikidata | Embassy of Nigeria, Riyadh |
-| 4 | `palestineembassy.org.sa` | wikidata | Embassy of the State of Palestine in Saudi Arabia |
-| 4 | `qiyas.sa` | wikidata | National Center for Assessment in Higher Education |
-| 4 | `rijad.mfa.gov.hu` | wikidata | Embassy of Hungary, Rijadh |
-| 4 | `safcsp.org.sa` | wikidata | Saudi Federation for Cybersecurity, Programming and Drones |
-| 4 | `scfhs.org.sa` | wikidata | Saudi Commission for Health Specialties |
-| 4 | `slemb.org.sa` | wikidata | embassy of Sri Lanka in Saudi Arabia |
-| 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Al Riyadh |
-| 4 | `ssf.sa` | wikidata | Saudi Shooting Federation |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `shps.org.sa` |  | wikidata;wikidata | Saudi Heritage Preservation Society |
+| 4 | `bangladeshembassy.org.sa` | central | wikidata | Embassy of Bangladesh, Riyadh |
+| 4 | `cma.org.sa` | central | wikidata | Capital Market Authority |
+| 4 | `darah.org.sa` |  | wikidata | Darah |
+| 4 | `kacst.edu.sa` |  | wikidata | Saudi Patent Office |
+| 4 | `kapl.org.sa` |  | wikidata | Q137555839 |
+| 4 | `kenyaembassy.org.sa` | central | wikidata | embassy of Kenya in Saudi Arabia |
+| 4 | `kfmrc.kau.edu.sa` |  | wikidata | King Fahd Medical Research Center |
+| 4 | `maldivesembassy.sa` | central | wikidata | Embassy of Maldives, Riyadh |
+| 4 | `mofaic.gov.ae` |  | wikidata | Consulate General of the United Arab Emirates, Jeddah |
+| 4 | `moroccanembassy.sa` | central | wikidata | embassy of Morocco in Saudi Arabia |
+| 4 | `nigeria.org.sa` | central | wikidata | Embassy of Nigeria, Riyadh |
+| 4 | `palestineembassy.org.sa` | central | wikidata | Embassy of the State of Palestine in Saudi Arabia |
+| 4 | `qiyas.sa` |  | wikidata | National Center for Assessment in Higher Education |
+| 4 | `rijad.mfa.gov.hu` | central | wikidata | Embassy of Hungary, Rijadh |
+| 4 | `safcsp.org.sa` | central | wikidata | Saudi Federation for Cybersecurity, Programming and Drones |
+| 4 | `scfhs.org.sa` |  | wikidata | Saudi Commission for Health Specialties |
+| 4 | `slemb.org.sa` | central | wikidata | embassy of Sri Lanka in Saudi Arabia |
+| 4 | `sp.mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Al Riyadh |
+| 4 | `ssf.sa` | central | wikidata | Saudi Shooting Federation |
 

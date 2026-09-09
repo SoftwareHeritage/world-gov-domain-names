@@ -28,15 +28,15 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `parliament.bt` | wikidata;wikidata | Parliament of Bhutan |
-| 4 | `acc.org.bt` | wikidata | Anti-Corruption Commission |
-| 4 | `nationalcouncil.bt` | wikidata | National Council of Bhutan |
-| 4 | `rma.org.bt` | wikidata | Royal Monetary Authority of Bhutan |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 8 | `parliament.bt` | central | wikidata;wikidata | Parliament of Bhutan |
+| 4 | `acc.org.bt` |  | wikidata | Anti-Corruption Commission |
+| 4 | `nationalcouncil.bt` | central | wikidata | National Council of Bhutan |
+| 4 | `rma.org.bt` |  | wikidata | Royal Monetary Authority of Bhutan |
 

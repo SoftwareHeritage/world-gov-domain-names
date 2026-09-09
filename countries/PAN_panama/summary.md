@@ -28,27 +28,27 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `jesuitascam.org` | wikidata;wikidata | Jesuit Province of Central America |
-| 4 | `banconal.com.pa` | wikidata | National Bank of Panama |
-| 4 | `binal.ac.pa` | wikidata | National Library of Panama |
-| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Panama |
-| 3 | `ccecasadelsoldado.aecid.es` | wikidata | Q141094139 |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Panama |
-| 3 | `embahn-panama.com` | wikidata | embassy of Honduras in Panama |
-| 3 | `embajadabolpan.com` | wikidata | embassy of Bolivia in Panama |
-| 3 | `embajadacostaricaenpanama.com` | wikidata | embassy of Costa Rica in Panama |
-| 3 | `indianembassyinpanama.com` | wikidata | Embassy of India, Panama City |
-| 3 | `pa.ambafrance.org` | wikidata | Embassy of France, Panama City |
-| 3 | `pa.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Panama City |
-| 3 | `panama-city.embassy.qa` | wikidata | embassy of Qatar in Panama |
-| 3 | `panama.diplo.de` | wikidata | Embassy of Germany, Panama |
-| 3 | `panama.mid.ru` | wikidata | embassy of Russia in Panama |
-| 3 | `pancanal.com` | wikidata | Panama Canal Authority |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `jesuitascam.org` |  | wikidata;wikidata | Jesuit Province of Central America |
+| 4 | `banconal.com.pa` |  | wikidata | National Bank of Panama |
+| 4 | `binal.ac.pa` |  | wikidata | National Library of Panama |
+| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Panama |
+| 3 | `ccecasadelsoldado.aecid.es` |  | wikidata | Q141094139 |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Panama |
+| 3 | `embahn-panama.com` | central | wikidata | embassy of Honduras in Panama |
+| 3 | `embajadabolpan.com` | central | wikidata | embassy of Bolivia in Panama |
+| 3 | `embajadacostaricaenpanama.com` | central | wikidata | embassy of Costa Rica in Panama |
+| 3 | `indianembassyinpanama.com` | central | wikidata | Embassy of India, Panama City |
+| 3 | `pa.ambafrance.org` | central | wikidata | Embassy of France, Panama City |
+| 3 | `pa.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Panama City |
+| 3 | `panama-city.embassy.qa` | central | wikidata | embassy of Qatar in Panama |
+| 3 | `panama.diplo.de` | central | wikidata | Embassy of Germany, Panama |
+| 3 | `panama.mid.ru` | central | wikidata | embassy of Russia in Panama |
+| 3 | `pancanal.com` |  | wikidata | Panama Canal Authority |
 

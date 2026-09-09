@@ -28,50 +28,33 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-139 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+163 domain(s) proposed for validation, of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `evl.fi` | wikidata;wikidata | Church Council |
-| 7 | `huoltovarmuuskeskus.fi` | wikidata;wikidata;wikidata | National Emergency Supply Agency |
-| 7 | `kansalliskirjasto.fi` | wikidata;wikidata | National Library of Finland |
-| 7 | `keuda.fi` | wikidata;wikidata | Keuda |
-| 7 | `keva.fi` | wikidata;wikidata | Keva Pension Agency |
-| 7 | `ltky.fi` | wikidata;wikidata | Student Union of LUT University |
-| 7 | `maanmittauslaitos.fi` | wikidata;wikidata;wikidata;wikidata | National Land Survey of Finland |
-| 7 | `ort.fi` | wikidata;wikidata | Q11885811 |
-| 7 | `poliisi.fi` | wikidata;wikidata;wikidata;wikidata;wikidata | National Police Board | Police of Finland | National Bureau of Investigation |
-| 7 | `rikosseuraamus.fi` | wikidata;wikidata | Prison and Probation Service of Finland |
-| 7 | `samediggi.fi` | wikidata;wikidata | Sami Parliament of Finland |
-| 7 | `syyttajalaitos.fi` | wikidata;wikidata;wikidata | National Prosecution Authority |
-| 7 | `tulli.fi` | wikidata;wikidata;wikidata;wikidata;wikidata | National Board of Customs | Finnish Customs |
-| 7 | `tyotuomioistuin.fi` | wikidata;wikidata | Labour Court |
-| 7 | `ulosottolaitos.fi` | wikidata;wikidata;wikidata | National Enforcement Authority Finland |
-| 7 | `vtv.fi` | wikidata;wikidata;wikidata | National Audit Office of Finland |
-| 7 | `yvtltk.fi` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | National Non-Discrimination and Equality Tribunal of Finland |
-| 6 | `helsinki.europarl.europa.eu` | wikidata;wikidata | European Parliament Liaison Office in Finland |
-| 6 | `intermin.fi.` | wikidata;wikidata | Ministry of the Interior of Finland |
-| 6 | `kho.fi` | wikidata | Supreme Administrative Court of Finland |
-
-## Local / regional candidates
-
-46 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `pohde.fi` | wikidata;wikidata | Wellbeing Services County of North Ostrobothnia |
-| 7 | `varha.fi` | wikidata;wikidata;wikidata;wikidata | Wellbeing Services County of Southwest Finland |
-| 6 | `lagtinget.ax` | wikidata;wikidata | Parliament of Åland |
-| 4 | `ekhva.fi` | wikidata | Wellbeing Services County of South Karelia |
-| 4 | `en.itauusimaa.fi` | wikidata | Wellbeing Services County of East Uusimaa |
-| 4 | `en.osterbottensvalfard.fi` | wikidata | Wellbeing Services County of Ostrobothnia |
-| 4 | `etela-savo.fi` | wikidata | Wellbeing Services County of South Savo |
-| 4 | `hyvaep.fi` | wikidata | Wellbeing Services County of South Ostrobothnia |
-| 4 | `hyvaks.fi` | wikidata | Wellbeing Services County of Central Finland |
-| 4 | `itauusimaa.fi` | wikidata | Wellbeing Services County of East Uusimaa |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `evl.fi` |  | wikidata;wikidata | Church Council |
+| 7 | `huoltovarmuuskeskus.fi` |  | wikidata;wikidata;wikidata | National Emergency Supply Agency |
+| 7 | `kansalliskirjasto.fi` |  | wikidata;wikidata | National Library of Finland |
+| 7 | `keuda.fi` |  | wikidata;wikidata | Keuda |
+| 7 | `keva.fi` |  | wikidata;wikidata | Keva Pension Agency |
+| 7 | `ltky.fi` |  | wikidata;wikidata | Student Union of LUT University |
+| 7 | `maanmittauslaitos.fi` |  | wikidata;wikidata;wikidata;wikidata | National Land Survey of Finland |
+| 7 | `ort.fi` |  | wikidata;wikidata | Q11885811 |
+| 7 | `pohde.fi` | central-1 | wikidata;wikidata | Wellbeing Services County of North Ostrobothnia |
+| 7 | `poliisi.fi` | central | wikidata;wikidata;wikidata;wikidata;wikidata | National Police Board | Police of Finland | National Bureau of Investigation |
+| 7 | `rikosseuraamus.fi` |  | wikidata;wikidata | Prison and Probation Service of Finland |
+| 7 | `samediggi.fi` |  | wikidata;wikidata | Sami Parliament of Finland |
+| 7 | `syyttajalaitos.fi` |  | wikidata;wikidata;wikidata | National Prosecution Authority |
+| 7 | `tulli.fi` |  | wikidata;wikidata;wikidata;wikidata;wikidata | National Board of Customs | Finnish Customs |
+| 7 | `tyotuomioistuin.fi` |  | wikidata;wikidata | Labour Court |
+| 7 | `ulosottolaitos.fi` |  | wikidata;wikidata;wikidata | National Enforcement Authority Finland |
+| 7 | `varha.fi` | central-1 | wikidata;wikidata;wikidata;wikidata | Wellbeing Services County of Southwest Finland |
+| 7 | `vtv.fi` |  | wikidata;wikidata;wikidata | National Audit Office of Finland |
+| 7 | `yvtltk.fi` |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | National Non-Discrimination and Equality Tribunal of Finland |
+| 6 | `helsinki.europarl.europa.eu` | central | wikidata;wikidata | European Parliament Liaison Office in Finland |
 
 ## ccTLD anomalies
 

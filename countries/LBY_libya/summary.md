@@ -28,31 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+20 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `parliament.ly` | wikidata;wikidata | House of Representatives |
-| 7 | `hnec.ly` | wikidata;wikidata;wikidata | High National Election Commission |
-| 4 | `aonsrt.ly` | wikidata | Q125912040 |
-| 4 | `bsc.ly` | wikidata | Bureau of Statistics and Census Libya |
-| 4 | `lccrc.ly` | wikidata | Libyan Climate Change Research Center |
-| 4 | `lsrss.com.ly` | wikidata | Libyan Society for Research and Scientific Studies |
-| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Tripoli |
-| 4 | `ncdc.org.ly` | wikidata | National Centre for Disease Control |
-| 4 | `tripoli.mfa.gov.hu` | wikidata | Embassy of Hungary, Tripoli |
-| 3 | `arsheef.org` | wikidata | Libyan Center for Archives and Historical Studies |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Libya |
-| 3 | `ly.ambafrance.org` | wikidata | Embassy of France, Tripoli |
-| 3 | `ly.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Tripoli |
-| 3 | `mfa.gr` | wikidata | embassy of Greece in Libya |
-| 3 | `mvep.hr` | wikidata | Embassy of Croatia, Tripoli |
-| 3 | `nigeriantripoli.org` | wikidata | embassy of Nigeria in Libya |
-| 3 | `nllnet.net` | wikidata | National Library of Libya |
-| 3 | `sveriges-konsulat.com` | wikidata | Honorary Consulate of Sweden, Benghazi |
-| 3 | `tripoli.mae.ro` | wikidata | Embassy of Romania, Tripoli |
-| 0 | `ccmce.ly` | wikidata | Central Committee for Municipal Council Elections |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 8 | `parliament.ly` | central | wikidata;wikidata | House of Representatives |
+| 7 | `hnec.ly` | central | wikidata;wikidata;wikidata | High National Election Commission |
+| 4 | `aonsrt.ly` |  | wikidata | Q125912040 |
+| 4 | `bsc.ly` | central | wikidata | Bureau of Statistics and Census Libya |
+| 4 | `lccrc.ly` |  | wikidata | Libyan Climate Change Research Center |
+| 4 | `lsrss.com.ly` |  | wikidata | Libyan Society for Research and Scientific Studies |
+| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Tripoli |
+| 4 | `ncdc.org.ly` |  | wikidata | National Centre for Disease Control |
+| 4 | `tripoli.mfa.gov.hu` | central | wikidata | Embassy of Hungary, Tripoli |
+| 3 | `arsheef.org` |  | wikidata | Libyan Center for Archives and Historical Studies |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Libya |
+| 3 | `ly.ambafrance.org` | central | wikidata | Embassy of France, Tripoli |
+| 3 | `ly.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Tripoli |
+| 3 | `mfa.gr` | central | wikidata | embassy of Greece in Libya |
+| 3 | `mvep.hr` | central | wikidata | Embassy of Croatia, Tripoli |
+| 3 | `nigeriantripoli.org` | central | wikidata | embassy of Nigeria in Libya |
+| 3 | `nllnet.net` |  | wikidata | National Library of Libya |
+| 3 | `sveriges-konsulat.com` |  | wikidata | Honorary Consulate of Sweden, Benghazi |
+| 3 | `tripoli.mae.ro` | central | wikidata | Embassy of Romania, Tripoli |
+| 0 | `ccmce.ly` | central | wikidata | Central Committee for Municipal Council Elections |
 

@@ -28,39 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-34 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+34 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `cert.az` | wikidata;wikidata;wikidata;wikidata | Electronic Security Service | National Cybersecurity Agency |
-| 6 | `e-gov.az` | un_desa | UN/DESA national portal |
-| 4 | `afghanemb.az` | wikidata | Embassy of Afghanistan, Baku |
-| 4 | `aida.az` | wikidata | Azerbaijan International Development Agency |
-| 4 | `azercosmos.az` | wikidata | Azercosmos |
-| 4 | `azerishiq.az` | wikidata | Azerishiq Open Joint-Stock Company |
-| 4 | `azersu.az` | wikidata | Azersu Open Joint-Stock Company |
-| 4 | `azertag.az` | wikidata | Azerbaijan State News Agency |
-| 4 | `azpromo.az` | wikidata | Azerbaijan Export and İnvestment Promotion Fund |
-| 4 | `baku.mfa.gov.hu` | wikidata | Embassy of Hungary in Baku |
-| 4 | `cbar.az` | wikidata | Central Bank of Azerbaijan |
-| 4 | `drim.az` | wikidata | DOST Digital Innovations Center |
-| 4 | `embassyofpalestine.az` | wikidata | Embassy of the State of Palestine in Azerbaijan |
-| 4 | `fiu.az` | wikidata | Financial Monitoring Service |
-| 4 | `ier.az` | wikidata | Institute for Scientific Research on Economic Reforms |
-| 4 | `millikitabxana.az` | wikidata | National Library of Azerbaijan |
-| 4 | `pharma.az` | wikidata | Azərbaycan Respublikası Səhiyyə Nazirliyi "Analitik Ekspertiza Mərkəzi" Publi... |
-| 4 | `president.az` | wikidata | The Office of Azerbaijan President |
-| 4 | `smeti.az` | wikidata | Water and Amelioration Scientific Research Institute PLE |
-| 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Baku |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `alimeclis.az` | wikidata;wikidata | Supreme Assembly (Nakhchivan) |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `cert.az` |  | wikidata;wikidata;wikidata;wikidata | Electronic Security Service | National Cybersecurity Agency |
+| 6 | `e-gov.az` |  | un_desa | UN/DESA national portal |
+| 4 | `afghanemb.az` | central | wikidata | Embassy of Afghanistan, Baku |
+| 4 | `aida.az` |  | wikidata | Azerbaijan International Development Agency |
+| 4 | `azercosmos.az` |  | wikidata | Azercosmos |
+| 4 | `azerishiq.az` |  | wikidata | Azerishiq Open Joint-Stock Company |
+| 4 | `azersu.az` |  | wikidata | Azersu Open Joint-Stock Company |
+| 4 | `azertag.az` |  | wikidata | Azerbaijan State News Agency |
+| 4 | `azpromo.az` |  | wikidata | Azerbaijan Export and İnvestment Promotion Fund |
+| 4 | `baku.mfa.gov.hu` | central | wikidata | Embassy of Hungary in Baku |
+| 4 | `cbar.az` | central | wikidata | Central Bank of Azerbaijan |
+| 4 | `drim.az` |  | wikidata | DOST Digital Innovations Center |
+| 4 | `embassyofpalestine.az` | central | wikidata | Embassy of the State of Palestine in Azerbaijan |
+| 4 | `fiu.az` |  | wikidata | Financial Monitoring Service |
+| 4 | `ier.az` |  | wikidata | Institute for Scientific Research on Economic Reforms |
+| 4 | `millikitabxana.az` |  | wikidata | National Library of Azerbaijan |
+| 4 | `pharma.az` |  | wikidata | Azərbaycan Respublikası Səhiyyə Nazirliyi "Analitik Ekspertiza Mərkəzi" Publi... |
+| 4 | `president.az` |  | wikidata | The Office of Azerbaijan President |
+| 4 | `smeti.az` |  | wikidata | Water and Amelioration Scientific Research Institute PLE |
+| 4 | `sp.mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Baku |
 

@@ -28,41 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-55 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+55 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `fi.ee` | wikidata;wikidata | Financial Supervision Authority |
-| 7 | `politsei.ee` | wikidata;wikidata | Estonian Police | Police and Border Guard Board |
-| 7 | `riigikantselei.ee` | wikidata;linkgraph | Government Office |
-| 6 | `riigikohus.ee` | wikidata | Supreme Court of Estonia |
-| 6 | `riigiteataja.ee` | linkgraph | Linked from 10 public-sector domains |
-| 4 | `aki.ee` | wikidata | Estonian Data Protection Inspectorate |
-| 4 | `archimedes.ee` | wikidata | Archimedes Foundation |
-| 4 | `chinaembassy.ee` | wikidata | Embassy of the People's Republic of China in Tallinn |
-| 4 | `e-tervis.ee` | wikidata | Estonian E-Health Foundation |
-| 4 | `eas.ee` | wikidata | Estonian Space Office |
-| 4 | `eestipank.ee` | wikidata | Bank of Estonia |
-| 4 | `egt.ee` | wikidata | Geological Survey of Estonia |
-| 4 | `eki.ee` | wikidata | Institute of the Estonian Language |
-| 4 | `emta.ee` | wikidata | Estonian Tax and Customs Board |
-| 4 | `epa.ee` | wikidata | Estonian Patent Office |
-| 4 | `etag.ee` | wikidata | Estonian Research Agency |
-| 4 | `hitsa.ee` | wikidata | Information Technology Foundation for Education |
-| 4 | `just.ee` | linkgraph | Linked from 4 public-sector domains |
-| 4 | `kapo.ee` | wikidata | Estonian Internal Security Service |
-| 4 | `keeleamet.ee` | wikidata | Language Board |
-
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `tallinn.ee` | wikidata;wikidata | Tallinn City Government |
-| 4 | `tallinn.munitsipaalpolitsei.ee` | wikidata | Tallinn Municipal Police Department |
-| 3 | `eulisa.europa.eu` | wikidata | European Union Agency for the Operational Management of Large-Scale IT System... |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `fi.ee` | central | wikidata;wikidata | Financial Supervision Authority |
+| 7 | `politsei.ee` |  | wikidata;wikidata | Estonian Police | Police and Border Guard Board |
+| 7 | `riigikantselei.ee` |  | wikidata;linkgraph | Government Office |
+| 6 | `riigikohus.ee` | central | wikidata | Supreme Court of Estonia |
+| 6 | `riigiteataja.ee` |  | linkgraph | Linked from 10 public-sector domains |
+| 4 | `aki.ee` | central | wikidata | Estonian Data Protection Inspectorate |
+| 4 | `archimedes.ee` |  | wikidata | Archimedes Foundation |
+| 4 | `chinaembassy.ee` | central | wikidata | Embassy of the People's Republic of China in Tallinn |
+| 4 | `e-tervis.ee` |  | wikidata | Estonian E-Health Foundation |
+| 4 | `eas.ee` |  | wikidata | Estonian Space Office |
+| 4 | `eestipank.ee` |  | wikidata | Bank of Estonia |
+| 4 | `egt.ee` |  | wikidata | Geological Survey of Estonia |
+| 4 | `eki.ee` |  | wikidata | Institute of the Estonian Language |
+| 4 | `emta.ee` |  | wikidata | Estonian Tax and Customs Board |
+| 4 | `epa.ee` | central | wikidata | Estonian Patent Office |
+| 4 | `etag.ee` |  | wikidata | Estonian Research Agency |
+| 4 | `hitsa.ee` |  | wikidata | Information Technology Foundation for Education |
+| 4 | `just.ee` |  | linkgraph | Linked from 4 public-sector domains |
+| 4 | `kapo.ee` |  | wikidata | Estonian Internal Security Service |
+| 4 | `keeleamet.ee` |  | wikidata | Language Board |
 

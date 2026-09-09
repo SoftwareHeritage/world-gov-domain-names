@@ -28,21 +28,21 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `fma-li.li` | wikidata;wikidata | Financial Market Authority |
-| 6 | `stgh.li` | wikidata | Constitutional Court of the Principality of Liechtenstein |
-| 4 | `aku.llv.li` | wikidata | Liechtensteinisches Landesarchiv |
-| 4 | `as.llv.li` | wikidata | Office of Statistics |
-| 4 | `datenschutzkommission.li` | wikidata | Q55506652 |
-| 4 | `dss.llv.li` | wikidata | Data Protection Office |
-| 4 | `landesbibliothek.li` | wikidata | Liechtenstein State Library |
-| 4 | `landespolizei.li` | wikidata | Liechtenstein National Police Force |
-| 4 | `llv.li` | wikidata | Schulamt Fürstentum Liechtenstein |
-| 2 | `landtag.li` | wikidata;wikidata | Landtag of Liechtenstein |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `fma-li.li` | central | wikidata;wikidata | Financial Market Authority |
+| 6 | `stgh.li` | central | wikidata | Constitutional Court of the Principality of Liechtenstein |
+| 4 | `aku.llv.li` |  | wikidata | Liechtensteinisches Landesarchiv |
+| 4 | `as.llv.li` | central | wikidata | Office of Statistics |
+| 4 | `datenschutzkommission.li` | central | wikidata | Q55506652 |
+| 4 | `dss.llv.li` | central | wikidata | Data Protection Office |
+| 4 | `landesbibliothek.li` |  | wikidata | Liechtenstein State Library |
+| 4 | `landespolizei.li` |  | wikidata | Liechtenstein National Police Force |
+| 4 | `llv.li` |  | wikidata | Schulamt Fürstentum Liechtenstein |
+| 2 | `landtag.li` | central | wikidata;wikidata | Landtag of Liechtenstein |
 

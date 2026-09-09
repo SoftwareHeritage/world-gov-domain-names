@@ -28,48 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-649 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+762 domain(s) proposed for validation, of which 113 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `elections.ca` | wikidata;wikidata;directory | Elections Canada |
-| 10 | `gg.ca` | wikidata;wikidata;directory | Canadian Heraldic Authority |
-| 10 | `gov.bc.ca` | wikidata;wikidata;linkgraph | Ministry of Forests Lands and Natural Resource Operations (British Columbia) ... |
-| 10 | `scics.ca` | wikidata;wikidata;directory | Canadian Intergovernmental Conference Secretariat |
-| 10 | `viarail.ca` | wikidata;wikidata;directory | Via Rail Police Service |
-| 8 | `agric.gov.ab.ca` | wikidata;wikidata | Alberta Ministry of Agriculture and Forestry |
-| 8 | `alberta.ca` | wikidata;linkgraph | Alberta Education |
-| 8 | `attorneygeneral.jus.gov.on.ca` | wikidata;wikidata | Ministry of the Attorney General |
-| 8 | `bankofcanada.ca` | wikidata;directory | Bank of Canada |
-| 8 | `cadth.ca` | wikidata;directory | Canada's Drug Agency |
-| 8 | `ccohs.ca` | wikidata;directory | Canadian Centre for Occupational Health and Safety |
-| 8 | `ccsa.ca` | wikidata;directory | Canadian Centre on Substance Abuse |
-| 8 | `cdic.ca` | wikidata;directory | Canada Deposit Insurance Corporation |
-| 8 | `edu.gov.on.ca` | wikidata;wikidata | Ministry of Education |
-| 8 | `frqs.gouv.qc.ca` | wikidata;wikidata | Fonds de Recherche du Québec  Santé |
-| 8 | `frqsc.gouv.qc.ca` | wikidata;wikidata | Fonds de Recherche du Québec Société et Culture |
-| 8 | `gov.nl.ca` | wikidata;linkgraph | Department of Energy and Mines |
-| 8 | `health.gov.on.ca` | wikidata;wikidata | Ministry of Health |
-| 8 | `innovation.ca` | wikidata;directory | Canada Foundation for Innovation |
-| 8 | `mcscs.jus.gov.on.ca` | wikidata;wikidata | Ministry of Community Safety and Correctional Services |
-
-## Local / regional candidates
-
-188 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 113 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `gnb.ca` | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Court of King's Bench of New Brunswick | Government of New Brunswick | Depart... |
-| 10 | `gov.mb.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Minister of Labour and Immigration | Legislative Assembly of Manitoba | Depar... |
-| 10 | `ontario.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Education | Ministry of Colleges and Universities | Ministry of T... |
-| 10 | `quebec.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | ... |
-| 10 | `saskatchewan.ca` | wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Health | Ministry of Agriculture of Saskatchewan |
-| 10 | `yukon.ca` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Yukon Archives | Government of Yukon | Yukon Parks | Yukon Department of Envi... |
-| 8 | `autochtones.gouv.qc.ca` | wikidata;wikidata | Ministry of Native Affairs |
-| 8 | `economie.gouv.qc.ca` | wikidata;wikidata | Ministry of Economic Development, Innovation and Export Trade |
-| 8 | `education.gouv.qc.ca` | wikidata;wikidata;wikidata;wikidata | Ministry of Education and Higher Education | Ministry of Higher Education |
-| 8 | `energy.gov.on.ca` | wikidata;wikidata | Ministry of Energy |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 10 | `elections.ca` | central | wikidata;wikidata;directory | Elections Canada |
+| 10 | `gg.ca` |  | wikidata;wikidata;directory | Canadian Heraldic Authority |
+| 10 | `gnb.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Court of King's Bench of New Brunswick | Government of New Brunswick | Depart... |
+| 10 | `gov.bc.ca` |  | wikidata;wikidata;linkgraph | Ministry of Forests Lands and Natural Resource Operations (British Columbia) ... |
+| 10 | `gov.mb.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Minister of Labour and Immigration | Legislative Assembly of Manitoba | Depar... |
+| 10 | `ontario.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Education | Ministry of Colleges and Universities | Ministry of T... |
+| 10 | `quebec.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | ... |
+| 10 | `saskatchewan.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Health | Ministry of Agriculture of Saskatchewan |
+| 10 | `scics.ca` |  | wikidata;wikidata;directory | Canadian Intergovernmental Conference Secretariat |
+| 10 | `viarail.ca` | central | wikidata;wikidata;directory | Via Rail Police Service |
+| 10 | `yukon.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Yukon Archives | Government of Yukon | Yukon Parks | Yukon Department of Envi... |
+| 8 | `agric.gov.ab.ca` |  | wikidata;wikidata | Alberta Ministry of Agriculture and Forestry |
+| 8 | `alberta.ca` |  | wikidata;linkgraph | Alberta Education |
+| 8 | `attorneygeneral.jus.gov.on.ca` |  | wikidata;wikidata | Ministry of the Attorney General |
+| 8 | `autochtones.gouv.qc.ca` | central-1 | wikidata;wikidata | Ministry of Native Affairs |
+| 8 | `bankofcanada.ca` |  | wikidata;directory | Bank of Canada |
+| 8 | `cadth.ca` | central | wikidata;directory | Canada's Drug Agency |
+| 8 | `ccohs.ca` |  | wikidata;directory | Canadian Centre for Occupational Health and Safety |
+| 8 | `ccsa.ca` |  | wikidata;directory | Canadian Centre on Substance Abuse |
+| 8 | `cdic.ca` |  | wikidata;directory | Canada Deposit Insurance Corporation |
 

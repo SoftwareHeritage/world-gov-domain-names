@@ -28,16 +28,16 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `roc-taiwan.org` | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Belize City |
-| 4 | `centralbank.org.bz` | wikidata | Central Bank of Belize |
-| 4 | `nemo.org.bz` | wikidata | Belize National Emergency Management Organisation |
-| 4 | `sib.org.bz` | wikidata | The Statistical Institute of Belize |
-| 3 | `bnlsis.org` | wikidata | National Library Service of Belize |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `roc-taiwan.org` | central | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Belize City |
+| 4 | `centralbank.org.bz` |  | wikidata | Central Bank of Belize |
+| 4 | `nemo.org.bz` |  | wikidata | Belize National Emergency Management Organisation |
+| 4 | `sib.org.bz` | central | wikidata | The Statistical Institute of Belize |
+| 3 | `bnlsis.org` |  | wikidata | National Library Service of Belize |
 

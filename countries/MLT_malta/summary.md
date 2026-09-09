@@ -28,39 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `parlament.mt` | wikidata;wikidata | Parliament of Malta |
-| 6 | `gesuiti.it` | wikidata;wikidata | Euromediterranean Province of the Jesuits |
-| 4 | `era.org.mt` | wikidata | Environment and Resources Authority |
-| 4 | `festivals.mt` | wikidata | Festivals Malta Agency |
-| 4 | `foodagency.mt` | wikidata | Malta Food Agency |
-| 4 | `idpc.org.mt` | wikidata | Office of the Information and Data Protection Commissioner |
-| 4 | `maltaheraldry.mt` | wikidata | Office of the Chief Herald of Arms of Malta |
-| 4 | `mccaa.org.mt` | wikidata | Malta Competition and Consumer Affairs Authority |
-| 4 | `mfsa.com.mt` | wikidata | Malta Financial Service Authority |
-| 4 | `mfsa.mt` | wikidata | Malta Financial Service Authority |
-| 4 | `mra.org.mt` | wikidata | Malta Resources Authority |
-| 4 | `pa.org.mt` | wikidata | Planning Authority |
-| 3 | `centralbankmalta.org` | wikidata | Central Bank of Malta |
-| 3 | `ghanahighcommission-malta.com` | wikidata | high commission of Ghana in Malta |
-| 3 | `heritagemalta.org` | wikidata | Heritage Malta |
-| 3 | `infrastructuremalta.com` | wikidata | Infrastructure Malta |
-| 3 | `malta.mid.ru` | wikidata | embassy of Russia in Malta |
-| 3 | `malta.representation.ec.europa.eu` | wikidata | European Commission Representation in Malta |
-| 3 | `maltaenterprise.com` | wikidata | Malta Enterprise |
-| 3 | `maltafilmcommission.com` | wikidata | Malta Film Commission |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `euaa.europa.eu` | wikidata | European Union Agency for Asylum |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `parlament.mt` | central | wikidata;wikidata | Parliament of Malta |
+| 6 | `gesuiti.it` |  | wikidata;wikidata | Euromediterranean Province of the Jesuits |
+| 4 | `era.org.mt` |  | wikidata | Environment and Resources Authority |
+| 4 | `festivals.mt` |  | wikidata | Festivals Malta Agency |
+| 4 | `foodagency.mt` |  | wikidata | Malta Food Agency |
+| 4 | `idpc.org.mt` | central | wikidata | Office of the Information and Data Protection Commissioner |
+| 4 | `maltaheraldry.mt` |  | wikidata | Office of the Chief Herald of Arms of Malta |
+| 4 | `mccaa.org.mt` |  | wikidata | Malta Competition and Consumer Affairs Authority |
+| 4 | `mfsa.com.mt` | central | wikidata | Malta Financial Service Authority |
+| 4 | `mfsa.mt` | central | wikidata | Malta Financial Service Authority |
+| 4 | `mra.org.mt` |  | wikidata | Malta Resources Authority |
+| 4 | `pa.org.mt` |  | wikidata | Planning Authority |
+| 3 | `centralbankmalta.org` |  | wikidata | Central Bank of Malta |
+| 3 | `ghanahighcommission-malta.com` | central | wikidata | high commission of Ghana in Malta |
+| 3 | `heritagemalta.org` |  | wikidata | Heritage Malta |
+| 3 | `infrastructuremalta.com` |  | wikidata | Infrastructure Malta |
+| 3 | `malta.mid.ru` | central | wikidata | embassy of Russia in Malta |
+| 3 | `malta.representation.ec.europa.eu` |  | wikidata | European Commission Representation in Malta |
+| 3 | `maltaenterprise.com` |  | wikidata | Malta Enterprise |
+| 3 | `maltafilmcommission.com` |  | wikidata | Malta Film Commission |
 

@@ -28,18 +28,18 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `jesuitascam.org` | wikidata;wikidata | Jesuit Province of Central America |
-| 4 | `esai.sv` | wikidata | El Salvador Aerospace Institute |
-| 3 | `ccesv.aecid.es` | wikidata | Cultural Center of Spain in El Salvador |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to El Salvador |
-| 3 | `lab.ccesv.org` | wikidata | Cultural Center of Spain in El Salvador |
-| 3 | `san-salvador.diplo.de` | wikidata | Embassy of Germany, San Salvador |
-| 3 | `sv.ambafrance.org` | wikidata | Embassy of France, San Salvador |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `jesuitascam.org` |  | wikidata;wikidata | Jesuit Province of Central America |
+| 4 | `esai.sv` |  | wikidata | El Salvador Aerospace Institute |
+| 3 | `ccesv.aecid.es` |  | wikidata | Cultural Center of Spain in El Salvador |
+| 3 | `eeas.europa.eu` | central | wikidata | Delegation of the European Union to El Salvador |
+| 3 | `lab.ccesv.org` |  | wikidata | Cultural Center of Spain in El Salvador |
+| 3 | `san-salvador.diplo.de` | central | wikidata | Embassy of Germany, San Salvador |
+| 3 | `sv.ambafrance.org` | central | wikidata | Embassy of France, San Salvador |
 

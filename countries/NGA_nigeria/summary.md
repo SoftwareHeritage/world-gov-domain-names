@@ -28,48 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-55 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+69 domain(s) proposed for validation, of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `nuc.edu.ng` | wikidata;wikidata | National Universities Commission | Nigerian Universities Commission |
-| 7 | `sp.mofaic.gov.ae` | wikidata;wikidata | Consulate General of the United Arab Emirates, Lagos | Embassy of the United ... |
-| 6 | `nigeria.un.org` | wikidata;wikidata | Sustainable Development Goals and Nigeria |
-| 6 | `roc-taiwan.org` | wikidata;wikidata | Taipei Trade Office in the Federal Republic of Nigeria |
-| 4 | `abuja.mfa.gov.hu` | wikidata | Hungarian embassy, Abuja |
-| 4 | `fedpolyugep.edu.ng` | wikidata | Federal Polytechnic Ugep |
-| 4 | `kanoweccma.org.ng` | wikidata | KANO STATE WATERSHED, EROSION, AND CLIMATE CHANGE MANAGEMENT AGENCY |
-| 4 | `kedco.ng` | wikidata | Kano Electricity Distribution Company |
-| 4 | `lashmaregulations.com.ng` | wikidata | Lagos state health management agency |
-| 4 | `lastveb.com.ng` | wikidata | Lagos State Technical and Vocational Education Board |
-| 4 | `lsetf.ng` | wikidata | Lagos State Employment Trust Fund |
-| 4 | `ncprd.org.ng` | wikidata | National Centre for Petroleum Research and Development |
-| 4 | `ndic.org.ng` | wikidata | Nigeria Deposit Insurance Corporation |
-| 4 | `nta.ng` | wikidata | Nigerian Television Authority |
-| 4 | `tcn.org.ng` | wikidata | Transmission Company of Nigeria |
-| 3 | `abuja.diplo.de` | wikidata | Consulate General of Germany, Lagos |
-| 3 | `abuja.embassy.qa` | wikidata | Embassy of the State of Qatar, Nigeria |
-| 3 | `abuja.mae.ro` | wikidata | Embassy of Romania, Abuja |
-| 3 | `abuja.mofa.go.ug` | wikidata | Uganda High Commission, Abuja - Nigeria |
-| 3 | `ambaburkina-ng.org` | wikidata | embassy of Burkina Faso in Nigeria |
-
-## Local / regional candidates
-
-15 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `yoursms.com.ng` | wikidata;wikidata | Ondo State Ministry of Education |
-| 6 | `lagosministryofjustice.org` | wikidata;wikidata | Lagos State Ministry of Justice |
-| 6 | `lagsoagricuinputs.org` | wikidata;wikidata;wikidata | Lagos State Agricultural Inputs Supply Authority | Lagos State Agric Inputs S... |
-| 6 | `ondostateministryofinformation.wordpress.com` | wikidata;wikidata | Ondo State Ministry of information and Orientation |
-| 6 | `riversstate-mwrrd.com` | wikidata;wikidata | Rivers State Ministry of Water Resources and Rural Development (RSMWRRD) |
-| 4 | `nsmoh.org.ng` | wikidata | Nasarawa State Ministry of Health |
-| 4 | `pssdc.com.ng` | wikidata | Lagos State Public Service Staff Development Centre |
-| 3 | `lagosmepb.org` | wikidata | Lagos State Ministry of Economic Planning and Budget |
-| 3 | `lagosscholarship.org` | wikidata | Lagos State Scholarship Board |
-| 3 | `lagosstatesecuritytrustfund.com` | wikidata | Lagos State Security Trust Fund |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `nuc.edu.ng` |  | wikidata;wikidata | National Universities Commission | Nigerian Universities Commission |
+| 7 | `sp.mofaic.gov.ae` | central | wikidata;wikidata | Consulate General of the United Arab Emirates, Lagos | Embassy of the United ... |
+| 7 | `yoursms.com.ng` | central-1 | wikidata;wikidata | Ondo State Ministry of Education |
+| 6 | `lagosministryofjustice.org` | central-1 | wikidata;wikidata | Lagos State Ministry of Justice |
+| 6 | `lagsoagricuinputs.org` | central-1 | wikidata;wikidata;wikidata | Lagos State Agricultural Inputs Supply Authority | Lagos State Agric Inputs S... |
+| 6 | `nigeria.un.org` |  | wikidata;wikidata | Sustainable Development Goals and Nigeria |
+| 6 | `ondostateministryofinformation.wordpress.com` | central-1 | wikidata;wikidata | Ondo State Ministry of information and Orientation |
+| 6 | `riversstate-mwrrd.com` | central-1 | wikidata;wikidata | Rivers State Ministry of Water Resources and Rural Development (RSMWRRD) |
+| 6 | `roc-taiwan.org` | central | wikidata;wikidata | Taipei Trade Office in the Federal Republic of Nigeria |
+| 4 | `abuja.mfa.gov.hu` |  | wikidata | Hungarian embassy, Abuja |
+| 4 | `fedpolyugep.edu.ng` |  | wikidata | Federal Polytechnic Ugep |
+| 4 | `kanoweccma.org.ng` |  | wikidata | KANO STATE WATERSHED, EROSION, AND CLIMATE CHANGE MANAGEMENT AGENCY |
+| 4 | `kedco.ng` |  | wikidata | Kano Electricity Distribution Company |
+| 4 | `lashmaregulations.com.ng` |  | wikidata | Lagos state health management agency |
+| 4 | `lastveb.com.ng` |  | wikidata | Lagos State Technical and Vocational Education Board |
+| 4 | `lsetf.ng` |  | wikidata | Lagos State Employment Trust Fund |
+| 4 | `ncprd.org.ng` |  | wikidata | National Centre for Petroleum Research and Development |
+| 4 | `ndic.org.ng` |  | wikidata | Nigeria Deposit Insurance Corporation |
+| 4 | `nsmoh.org.ng` | central-1 | wikidata | Nasarawa State Ministry of Health |
+| 4 | `nta.ng` |  | wikidata | Nigerian Television Authority |
 

@@ -28,18 +28,18 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `parlamento.tl` | wikidata;wikidata | National Parliament |
-| 4 | `anpm.tl` | wikidata | Q124094298 |
-| 4 | `bancocentral.tl` | wikidata | Banco Central de Timor-Leste |
-| 4 | `mineralstender.anpm.tl` | wikidata | Q124094424 |
-| 4 | `pntl.tl` | wikidata | National Police of East Timor |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Timor-Leste |
-| 1 | `holyrosaryprovince.org` | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 8 | `parlamento.tl` | central | wikidata;wikidata | National Parliament |
+| 4 | `anpm.tl` |  | wikidata | Q124094298 |
+| 4 | `bancocentral.tl` |  | wikidata | Banco Central de Timor-Leste |
+| 4 | `mineralstender.anpm.tl` |  | wikidata | Q124094424 |
+| 4 | `pntl.tl` |  | wikidata | National Police of East Timor |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Timor-Leste |
+| 1 | `holyrosaryprovince.org` |  | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
 

@@ -28,29 +28,20 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `assemblee-nationale.dj` | wikidata;wikidata | National Assembly |
-| 7 | `ministere-finances.dj` | wikidata;wikidata | Ministry of Economy and Finances |
-| 4 | `banque-centrale.dj` | wikidata | Central Bank of Djibouti |
-| 4 | `dised.dj` | wikidata | DISED |
-| 4 | `instad.dj` | wikidata | Institut National de la Statistique de Djibouti |
-| 3 | `dj.ambafrance.org` | wikidata | Embassy of France, Djibouti |
-| 3 | `djibouti.diplo.de` | wikidata | Embassy of Germany, Djibouti |
-| 3 | `djibouti.mid.ru` | wikidata | embassy of Russia in Djibouti |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Djibouti and IGAD |
-
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `presidence.dj` | un_desa;wikidata;wikidata | Interior ministry of Djibouti | UN/DESA national portal |
-| 7 | `maem.dj` | wikidata;wikidata | Ministry of Agriculture, Livestock, & Fisheries |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `assemblee-nationale.dj` | central | wikidata;wikidata | National Assembly |
+| 7 | `ministere-finances.dj` | central | wikidata;wikidata | Ministry of Economy and Finances |
+| 4 | `banque-centrale.dj` | central | wikidata | Central Bank of Djibouti |
+| 4 | `dised.dj` | central | wikidata | DISED |
+| 4 | `instad.dj` |  | wikidata | Institut National de la Statistique de Djibouti |
+| 3 | `dj.ambafrance.org` | central | wikidata | Embassy of France, Djibouti |
+| 3 | `djibouti.diplo.de` | central | wikidata | Embassy of Germany, Djibouti |
+| 3 | `djibouti.mid.ru` | central | wikidata | embassy of Russia in Djibouti |
+| 3 | `eeas.europa.eu` | central | wikidata | Delegation of the European Union to Djibouti and IGAD |
 

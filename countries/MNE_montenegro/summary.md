@@ -28,31 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `skupstina.me` | wikidata;wikidata | Parliament of Montenegro |
-| 6 | `isusovci.hr` | wikidata;wikidata | Croatian province of the Society of Jesus |
-| 6 | `sudovi.me` | wikidata | Supreme Court of Montenegro |
-| 4 | `ambasadabih.me` | wikidata | embassy of Bosnia and Herzegovina in Montenegro |
-| 4 | `anb.me` | wikidata | National Security Agency |
-| 4 | `dacg.me` | wikidata | State Archives of Montenegro |
-| 4 | `metrologija.me` | wikidata | Montenegrin Bureau of Metrology |
-| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates in Montenegro |
-| 4 | `nb-cg.me` | wikidata | National Library of Montenegro "Đurđe Crnojević" |
-| 4 | `podgorica.mfa.gov.hu` | wikidata | embassy of Hungary in Montenegro |
-| 3 | `ambasadat.net` | wikidata | Embassy of Kosovo, Podgorica |
-| 3 | `cb-mn.org` | wikidata | Central Bank of Montenegro |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Montenegro |
-| 3 | `me.ambafrance.org` | wikidata | Embassy of France, Podgorica |
-| 3 | `me.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Podgorica |
-| 3 | `me.mvep.hr` | wikidata | Embassy of Croatia, Podgorica |
-| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Montenegro |
-| 3 | `mfa.gr` | wikidata | embassy of Greece in Montenegro |
-| 3 | `montenegro.mid.ru` | wikidata | embassy of Russia in Montenegro |
-| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Montenegro |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `skupstina.me` | central | wikidata;wikidata | Parliament of Montenegro |
+| 6 | `isusovci.hr` |  | wikidata;wikidata | Croatian province of the Society of Jesus |
+| 6 | `sudovi.me` | central | wikidata | Supreme Court of Montenegro |
+| 4 | `ambasadabih.me` | central | wikidata | embassy of Bosnia and Herzegovina in Montenegro |
+| 4 | `anb.me` | central | wikidata | National Security Agency |
+| 4 | `dacg.me` |  | wikidata | State Archives of Montenegro |
+| 4 | `metrologija.me` |  | wikidata | Montenegrin Bureau of Metrology |
+| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates in Montenegro |
+| 4 | `nb-cg.me` |  | wikidata | National Library of Montenegro "Đurđe Crnojević" |
+| 4 | `podgorica.mfa.gov.hu` | central | wikidata | embassy of Hungary in Montenegro |
+| 3 | `ambasadat.net` | central | wikidata | Embassy of Kosovo, Podgorica |
+| 3 | `cb-mn.org` |  | wikidata | Central Bank of Montenegro |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Montenegro |
+| 3 | `me.ambafrance.org` | central | wikidata | Embassy of France, Podgorica |
+| 3 | `me.chineseembassy.org` | central | wikidata | Embassy of the People's Republic of China, Podgorica |
+| 3 | `me.mvep.hr` | central | wikidata | Embassy of Croatia, Podgorica |
+| 3 | `mfa.bg` | central | wikidata | embassy of Bulgaria in Montenegro |
+| 3 | `mfa.gr` | central | wikidata | embassy of Greece in Montenegro |
+| 3 | `montenegro.mid.ru` | central | wikidata | embassy of Russia in Montenegro |
+| 3 | `mzv.cz` | central | wikidata | embassy of the Czech republic in Montenegro |
 

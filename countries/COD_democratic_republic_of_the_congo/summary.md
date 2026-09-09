@@ -28,31 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-22 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+22 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `minisanterdc.cd` | wikidata;wikidata | Ministry of Public Health (Democratic Republic of Congo) |
-| 6 | `cour-constitutionnelle.cd` | wikidata | Constitutional Court of the Democratic Republic of the Congo |
-| 6 | `piaristesafriquecentrale.org` | wikidata;wikidata | Piarist province of Central Africa |
-| 6 | `presidentrdc.cd` | un_desa | UN/DESA national portal |
-| 4 | `aplc.cd` | wikidata | Agency for the Prevention and Fight against Corruption |
-| 4 | `assemblee-nationale.cd` | wikidata | National Assembly |
-| 4 | `bcc.cd` | wikidata | Central Bank of Congo |
-| 4 | `ins.cd` | wikidata | Institut National de la Statistique |
-| 4 | `onem.cd` | wikidata | Q132560441 |
-| 4 | `senat.cd` | wikidata | Senate of the Democratic Republic of the Congo |
-| 4 | `transco-rdc.cd` | wikidata | Société de transports du Congo |
-| 3 | `cd.ambafrance.org` | wikidata | Embassy of France, Kinshasa |
-| 3 | `crem-rdc.com` | wikidata | Centre de Recherche sur l'Enseignement de la Mathématique |
-| 3 | `csnrdc.net` | wikidata | Conseil Scientifique National |
-| 3 | `drc.mid.ru` | wikidata | embassy of Russia in the Democratic Republic of Congo |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to the Democratic Republic of the Congo |
-| 3 | `ghanaembassy-drc.com` | wikidata | Embassy of Ghana in Kinsasha |
-| 3 | `inrb.net` | wikidata | National Institute of Biomedical Research |
-| 3 | `kinshasa.diplo.de` | wikidata | Embassy of Germany, Kinshasa |
-| 3 | `mfa.gr` | wikidata | embassy of Greece in the Democratic Republic of Congo |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `minisanterdc.cd` | central | wikidata;wikidata | Ministry of Public Health (Democratic Republic of Congo) |
+| 6 | `cour-constitutionnelle.cd` | central | wikidata | Constitutional Court of the Democratic Republic of the Congo |
+| 6 | `piaristesafriquecentrale.org` |  | wikidata;wikidata | Piarist province of Central Africa |
+| 6 | `presidentrdc.cd` |  | un_desa | UN/DESA national portal |
+| 4 | `aplc.cd` |  | wikidata | Agency for the Prevention and Fight against Corruption |
+| 4 | `assemblee-nationale.cd` | central | wikidata | National Assembly |
+| 4 | `bcc.cd` |  | wikidata | Central Bank of Congo |
+| 4 | `ins.cd` |  | wikidata | Institut National de la Statistique |
+| 4 | `onem.cd` |  | wikidata | Q132560441 |
+| 4 | `senat.cd` | central | wikidata | Senate of the Democratic Republic of the Congo |
+| 4 | `transco-rdc.cd` |  | wikidata | Société de transports du Congo |
+| 3 | `cd.ambafrance.org` | central | wikidata | Embassy of France, Kinshasa |
+| 3 | `crem-rdc.com` |  | wikidata | Centre de Recherche sur l'Enseignement de la Mathématique |
+| 3 | `csnrdc.net` |  | wikidata | Conseil Scientifique National |
+| 3 | `drc.mid.ru` | central | wikidata | embassy of Russia in the Democratic Republic of Congo |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to the Democratic Republic of the Congo |
+| 3 | `ghanaembassy-drc.com` | central | wikidata | Embassy of Ghana in Kinsasha |
+| 3 | `inrb.net` |  | wikidata | National Institute of Biomedical Research |
+| 3 | `kinshasa.diplo.de` | central | wikidata | Embassy of Germany, Kinshasa |
+| 3 | `mfa.gr` | central | wikidata | embassy of Greece in the Democratic Republic of Congo |
 

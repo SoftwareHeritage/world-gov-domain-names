@@ -28,14 +28,14 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `palemene.ws` | wikidata;wikidata | Legislative Assembly of Samoa |
-| 6 | `samoagovt.ws` | un_desa | UN/DESA national portal |
-| 3 | `samoashipping.com` | wikidata | Samoa Shipping Corporation |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `palemene.ws` | central | wikidata;wikidata | Legislative Assembly of Samoa |
+| 6 | `samoagovt.ws` |  | un_desa | UN/DESA national portal |
+| 3 | `samoashipping.com` |  | wikidata | Samoa Shipping Corporation |
 

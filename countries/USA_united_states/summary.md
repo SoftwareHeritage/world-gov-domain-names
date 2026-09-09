@@ -28,48 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-13489 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14798 domain(s) proposed for validation, of which 1309 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `aberdeenwa.gov` | wikidata;wikidata | Aberdeen |
-| 8 | `abingdon-va.gov` | wikidata;wikidata | Abingdon |
-| 8 | `abingtonma.gov` | wikidata;wikidata | Abington |
-| 8 | `abseconnj.gov` | wikidata;wikidata | Absecon |
-| 8 | `acton-ma.gov` | wikidata;wikidata | Acton |
-| 8 | `adamn.gov` | wikidata;wikidata | Ada |
-| 8 | `addisontx.gov` | wikidata;wikidata | Addison |
-| 8 | `alamoheightstx.gov` | wikidata;wikidata | Alamo Heights |
-| 8 | `albanyga.gov` | wikidata;wikidata | Albany |
-| 8 | `albanyny.gov` | wikidata;wikidata | Albany |
-| 8 | `algonaiowa.gov` | wikidata;wikidata | Algona |
-| 8 | `algonawa.gov` | wikidata;wikidata | Algona |
-| 8 | `aliquippapa.gov` | wikidata;wikidata | Aliquippa |
-| 8 | `allendalenj.gov` | wikidata;wikidata | Allendale |
-| 8 | `allenstownnh.gov` | wikidata;wikidata | Allenstown |
-| 8 | `allentownpa.gov` | wikidata;wikidata | Allentown |
-| 8 | `alna.maine.gov` | wikidata;wikidata | Alna |
-| 8 | `alpinecountyca.gov` | wikidata;wikidata | Alpine County Sheriff's Office | Alpine County District Attorney's Office |
-| 8 | `alton-tx.gov` | wikidata;wikidata | Alton |
-| 8 | `alton.nh.gov` | wikidata;wikidata | Alton |
-
-## Local / regional candidates
-
-5306 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1309 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `adpht.arkansas.gov` | wikidata;wikidata | Arkansas Department of Parks, Heritage, and Tourism |
-| 8 | `ag.colorado.gov` | wikidata;wikidata | Colorado Department of Agriculture |
-| 8 | `ag.ky.gov` | wikidata;wikidata | Kentucky Department of Criminal Investigation | Kentucky Office of the Attorn... |
-| 8 | `ag.ny.gov` | wikidata;wikidata | Office of the Attorney General | Office of the New York State Attorney General |
-| 8 | `agr.georgia.gov` | wikidata;wikidata | Georgia Department of Agriculture |
-| 8 | `agr.illinois.gov` | wikidata;wikidata | Illinois Department of Agriculture |
-| 8 | `agr.wa.gov` | wikidata;wikidata | Washington State Department of Agriculture |
-| 8 | `agri.nv.gov` | wikidata;wikidata | Nevada Department of Agriculture |
-| 8 | `agri.ohio.gov` | wikidata;wikidata;wikidata;wikidata | Ohio Department of Agriculture | Ohio Soil and Water Conservation Commission ... |
-| 8 | `agriculture.ks.gov` | wikidata;wikidata | Kansas Department of Agriculture |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 8 | `aberdeenwa.gov` |  | wikidata;wikidata | Aberdeen |
+| 8 | `abingdon-va.gov` |  | wikidata;wikidata | Abingdon |
+| 8 | `abingtonma.gov` |  | wikidata;wikidata | Abington |
+| 8 | `abseconnj.gov` |  | wikidata;wikidata | Absecon |
+| 8 | `acton-ma.gov` |  | wikidata;wikidata | Acton |
+| 8 | `adamn.gov` |  | wikidata;wikidata | Ada |
+| 8 | `addisontx.gov` |  | wikidata;wikidata | Addison |
+| 8 | `adpht.arkansas.gov` | central-1 | wikidata;wikidata | Arkansas Department of Parks, Heritage, and Tourism |
+| 8 | `ag.colorado.gov` | central-1 | wikidata;wikidata | Colorado Department of Agriculture |
+| 8 | `ag.ky.gov` | central-1 | wikidata;wikidata | Kentucky Department of Criminal Investigation | Kentucky Office of the Attorn... |
+| 8 | `ag.ny.gov` | central-1 | wikidata;wikidata | Office of the Attorney General | Office of the New York State Attorney General |
+| 8 | `agr.georgia.gov` | central-1 | wikidata;wikidata | Georgia Department of Agriculture |
+| 8 | `agr.illinois.gov` | central-1 | wikidata;wikidata | Illinois Department of Agriculture |
+| 8 | `agr.wa.gov` | central-1 | wikidata;wikidata | Washington State Department of Agriculture |
+| 8 | `agri.nv.gov` | central-1 | wikidata;wikidata | Nevada Department of Agriculture |
+| 8 | `agri.ohio.gov` | central-1 | wikidata;wikidata;wikidata;wikidata | Ohio Department of Agriculture | Ohio Soil and Water Conservation Commission ... |
+| 8 | `agriculture.ks.gov` | central-1 | wikidata;wikidata | Kansas Department of Agriculture |
+| 8 | `agriculture.pa.gov` | central-1 | wikidata;wikidata | Pennsylvania Department of Agriculture |
+| 8 | `agriculture.vermont.gov` | central-1 | wikidata;wikidata | Vermont Agency of Agriculture Food and Markets |
+| 8 | `agriculture.wv.gov` | central-1 | wikidata;wikidata | West Virginia Department of Agriculture |
 

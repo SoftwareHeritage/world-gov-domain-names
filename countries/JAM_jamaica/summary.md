@@ -28,31 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-32 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+32 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `boj.org.jm` | wikidata | Bank of Jamaica |
-| 4 | `cccj.edu.jm` | wikidata | Council of Community Colleges of Jamaica |
-| 4 | `cla.org.jm` | wikidata | Cannabis Licensing Authority |
-| 4 | `cmu.edu.jm` | wikidata | Caribbean Maritime University |
-| 4 | `instituteofjamaica.org.jm` | wikidata | Institute of Jamaica |
-| 4 | `jamaicapolice.org.jm` | wikidata | Jamaica Rural Police Force |
-| 4 | `jbi.org.jm` | wikidata | Jamaica Bauxite Institute |
-| 4 | `jbs.org.jm` | wikidata | Bureau of Standards Jamaica |
-| 4 | `jti.edu.jm` | wikidata | Justice Training Institute of Jamaica |
-| 4 | `mind.edu.jm` | wikidata | Management Institute for National Development |
-| 4 | `nhf.org.jm` | wikidata | National Health Fund |
-| 4 | `odpem.org.jm` | wikidata | Office of Disaster Preparedness and Emergency Management |
-| 4 | `our.org.jm` | wikidata | Office of Utilities Regulation |
-| 3 | `abilitiesfoundationja.com` | wikidata | Abilities Foundation |
-| 3 | `airportsauthorityjamaica.aero` | wikidata | Airports Authority of Jamaica |
-| 3 | `coconutindustryboardjm.org` | wikidata | Coconut Industry Board |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and C... |
-| 3 | `fscjamaica.org` | wikidata | Financial Services Commission |
-| 3 | `generallegalcouncil.org` | wikidata | General Legal Council of Jamaica |
-| 3 | `heart-nsta.org` | wikidata | Human Employment and Resource Training Trust/National Training Agency |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 4 | `boj.org.jm` |  | wikidata | Bank of Jamaica |
+| 4 | `cccj.edu.jm` |  | wikidata | Council of Community Colleges of Jamaica |
+| 4 | `cla.org.jm` |  | wikidata | Cannabis Licensing Authority |
+| 4 | `cmu.edu.jm` |  | wikidata | Caribbean Maritime University |
+| 4 | `instituteofjamaica.org.jm` | central | wikidata | Institute of Jamaica |
+| 4 | `jamaicapolice.org.jm` |  | wikidata | Jamaica Rural Police Force |
+| 4 | `jbi.org.jm` | central | wikidata | Jamaica Bauxite Institute |
+| 4 | `jbs.org.jm` |  | wikidata | Bureau of Standards Jamaica |
+| 4 | `jti.edu.jm` |  | wikidata | Justice Training Institute of Jamaica |
+| 4 | `mind.edu.jm` | central | wikidata | Management Institute for National Development |
+| 4 | `nhf.org.jm` |  | wikidata | National Health Fund |
+| 4 | `odpem.org.jm` |  | wikidata | Office of Disaster Preparedness and Emergency Management |
+| 4 | `our.org.jm` | central | wikidata | Office of Utilities Regulation |
+| 3 | `abilitiesfoundationja.com` |  | wikidata | Abilities Foundation |
+| 3 | `airportsauthorityjamaica.aero` |  | wikidata | Airports Authority of Jamaica |
+| 3 | `coconutindustryboardjm.org` | central | wikidata | Coconut Industry Board |
+| 3 | `eeas.europa.eu` | central | wikidata | Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and C... |
+| 3 | `fscjamaica.org` |  | wikidata | Financial Services Commission |
+| 3 | `generallegalcouncil.org` |  | wikidata | General Legal Council of Jamaica |
+| 3 | `heart-nsta.org` | central | wikidata | Human Employment and Resource Training Trust/National Training Agency |
 

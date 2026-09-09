@@ -28,31 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+27 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `parliament.gh` | wikidata;wikidata | Parliament of Ghana |
-| 6 | `govgh.org` | wikidata;wikidata | Ministry of Aviation |
-| 4 | `accra.mfa.gov.hu` | wikidata | Embassy of Hungary to Ghana |
-| 4 | `cocobod.gh` | wikidata | Ghana Cocoa Board |
-| 4 | `csir.org.gh` | wikidata | Council for Scientific and Industrial Research – Ghana |
-| 4 | `gcaa.com.gh` | wikidata | Ghana Civil Aviation Authority |
-| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Accra |
-| 4 | `nca.org.gh` | wikidata | National Communications Authority |
-| 4 | `ncte.edu.gh` | wikidata | National Council for Tertiary Education |
-| 3 | `accra.diplo.de` | wikidata | Embassy of Germany, Accra |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Ghana |
-| 3 | `fao.org` | wikidata | FAO Representation in Ghana |
-| 3 | `fcghana.org` | wikidata | Forestry Commission of Ghana |
-| 3 | `gh.ambafrance.org` | wikidata | Embassy of France, Accra |
-| 3 | `ghana-net.com` | wikidata | Cape Coast Castle |
-| 3 | `ghana.mid.ru` | wikidata | embassy of Russia in Ghana |
-| 3 | `ghana.travel` | wikidata | Ghana Tourism Authority |
-| 3 | `ghana.um.dk` | wikidata | embassy of Denmark in Ghana |
-| 3 | `ghanamuseums.org` | wikidata | Ghana Museums and Monuments Board |
-| 3 | `ghanawildlife.org` | wikidata | Ghana Wildlife Division |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 8 | `parliament.gh` | central | wikidata;wikidata | Parliament of Ghana |
+| 6 | `govgh.org` | central | wikidata;wikidata | Ministry of Aviation |
+| 4 | `accra.mfa.gov.hu` |  | wikidata | Embassy of Hungary to Ghana |
+| 4 | `cocobod.gh` |  | wikidata | Ghana Cocoa Board |
+| 4 | `csir.org.gh` |  | wikidata | Council for Scientific and Industrial Research – Ghana |
+| 4 | `gcaa.com.gh` |  | wikidata | Ghana Civil Aviation Authority |
+| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Accra |
+| 4 | `nca.org.gh` |  | wikidata | National Communications Authority |
+| 4 | `ncte.edu.gh` |  | wikidata | National Council for Tertiary Education |
+| 3 | `accra.diplo.de` | central | wikidata | Embassy of Germany, Accra |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Ghana |
+| 3 | `fao.org` |  | wikidata | FAO Representation in Ghana |
+| 3 | `fcghana.org` | central | wikidata | Forestry Commission of Ghana |
+| 3 | `gh.ambafrance.org` | central | wikidata | Embassy of France, Accra |
+| 3 | `ghana-net.com` |  | wikidata | Cape Coast Castle |
+| 3 | `ghana.mid.ru` | central | wikidata | embassy of Russia in Ghana |
+| 3 | `ghana.travel` |  | wikidata | Ghana Tourism Authority |
+| 3 | `ghana.um.dk` | central | wikidata | embassy of Denmark in Ghana |
+| 3 | `ghanamuseums.org` |  | wikidata | Ghana Museums and Monuments Board |
+| 3 | `ghanawildlife.org` |  | wikidata | Ghana Wildlife Division |
 

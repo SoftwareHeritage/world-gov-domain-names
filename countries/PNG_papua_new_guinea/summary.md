@@ -28,14 +28,14 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `roc-taiwan.org` | wikidata;wikidata | Taipei Economic and Cultural Office in Papua New Guinea | Taipei Economic Off... |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Papua New Guinea |
-| 3 | `pg.ambafrance.org` | wikidata | Embassy of France, Port Moresby |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `roc-taiwan.org` |  | wikidata;wikidata | Taipei Economic and Cultural Office in Papua New Guinea | Taipei Economic Off... |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Papua New Guinea |
+| 3 | `pg.ambafrance.org` | central | wikidata | Embassy of France, Port Moresby |
 

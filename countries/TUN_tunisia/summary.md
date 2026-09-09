@@ -28,39 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-89 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+89 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `affaires-religieuses.tn` | wikidata;wikidata | Ministry of Religious Affairs |
-| 7 | `agriculture.tn` | wikidata;wikidata | Ministry of Agriculture |
-| 7 | `defense.tn` | wikidata;wikidata | Ministry of Defence |
-| 7 | `mes.tn` | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
-| 7 | `mofaic.gov.ae` | wikidata;wikidata | Embassy of the United Arab Emirates, Tunis |
-| 7 | `santetunisie.rns.tn` | wikidata;wikidata | Ministry of Health |
-| 7 | `sport.tn` | wikidata;wikidata | Ministry of Youth and Sports |
-| 7 | `transport.tn` | wikidata;wikidata | Ministry of Transport |
-| 6 | `cassation.tn` | wikidata | Court of Cassation |
-| 4 | `afi.nat.tn` | wikidata | Q136699374 |
-| 4 | `ambdz.tn` | wikidata | Embassy of Algeria, Tunis |
-| 4 | `anged.nat.tn` | wikidata | National Waste Management Agency |
-| 4 | `anm.nat.tn` | wikidata | National Agency for Metrology |
-| 4 | `anme.nat.tn` | wikidata | National Agency for Energy Management |
-| 4 | `anpe.nat.tn` | wikidata | National Environment Protection Agency |
-| 4 | `anpr.tn` | wikidata | National Agency for Promotion of Research and Innovation |
-| 4 | `apal.nat.tn` | wikidata | Agence de Protection et d'Aménagement du Littoral |
-| 4 | `apia.com.tn` | wikidata | Q2826614 |
-| 4 | `archives.nat.tn` | wikidata | National Archives of Tunisia |
-| 4 | `arp.tn` | wikidata | Assembly of the Representatives of the People |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `tripolis.diplo.de` | wikidata | Embassy of Germany, Tripoli |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `affaires-religieuses.tn` | central | wikidata;wikidata | Ministry of Religious Affairs |
+| 7 | `agriculture.tn` | central | wikidata;wikidata | Ministry of Agriculture |
+| 7 | `defense.tn` | central | wikidata;wikidata | Ministry of Defence |
+| 7 | `mes.tn` | central | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
+| 7 | `mofaic.gov.ae` | central | wikidata;wikidata | Embassy of the United Arab Emirates, Tunis |
+| 7 | `santetunisie.rns.tn` | central | wikidata;wikidata | Ministry of Health |
+| 7 | `sport.tn` | central | wikidata;wikidata | Ministry of Youth and Sports |
+| 7 | `transport.tn` | central | wikidata;wikidata | Ministry of Transport |
+| 6 | `cassation.tn` |  | wikidata | Court of Cassation |
+| 4 | `afi.nat.tn` |  | wikidata | Q136699374 |
+| 4 | `ambdz.tn` | central | wikidata | Embassy of Algeria, Tunis |
+| 4 | `anged.nat.tn` |  | wikidata | National Waste Management Agency |
+| 4 | `anm.nat.tn` |  | wikidata | National Agency for Metrology |
+| 4 | `anme.nat.tn` |  | wikidata | National Agency for Energy Management |
+| 4 | `anpe.nat.tn` |  | wikidata | National Environment Protection Agency |
+| 4 | `anpr.tn` |  | wikidata | National Agency for Promotion of Research and Innovation |
+| 4 | `apal.nat.tn` |  | wikidata | Agence de Protection et d'Aménagement du Littoral |
+| 4 | `apia.com.tn` |  | wikidata | Q2826614 |
+| 4 | `archives.nat.tn` |  | wikidata | National Archives of Tunisia |
+| 4 | `arp.tn` | central | wikidata | Assembly of the Representatives of the People |
 

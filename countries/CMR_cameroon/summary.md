@@ -28,39 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-31 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+31 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `diplocam.cm` | wikidata;wikidata | Ministry of External Relations |
-| 7 | `minader.cm` | wikidata;wikidata | Ministry of Agriculture and rural development |
-| 7 | `minas.cm` | wikidata;wikidata | Ministry of Social Affairs |
-| 7 | `minedub.cm` | wikidata;wikidata | Ministry of Basic Education |
-| 7 | `minmap.cm` | wikidata;wikidata | Ministry of Public Procurement |
-| 7 | `minpmeesa.cm` | wikidata;wikidata | Ministry of small and medium-sized enterprises, social economy and handicrafts |
-| 7 | `minsante.cm` | wikidata;wikidata | Ministry of Public Health |
-| 7 | `minsep.cm` | wikidata;wikidata | Ministry of Sports in Cameroon |
-| 7 | `mintss.cm` | wikidata;wikidata | Ministry of Labour and Social Security |
-| 6 | `campack-cm.com` | wikidata;wikidata | Ministry of Scientific Research and Innovation |
-| 6 | `ccaa.aero` | wikidata;wikidata | CCAA |
-| 6 | `coursupreme.cm` | wikidata | Supreme Court of Cameroon |
-| 6 | `minmidt.net` | wikidata;wikidata | Ministry of Mines, Industry and Technological Development |
-| 6 | `piaristesafriquecentrale.org` | wikidata;wikidata | Piarist province of Central Africa |
-| 4 | `antic.cm` | wikidata | Agence Nationale des Technologies de l'Information et de la Communication |
-| 4 | `apn.cm` | wikidata | Q137164175 |
-| 4 | `archivesnationales.cm` | wikidata | National Archives of Cameroon |
-| 4 | `assnat.cm` | wikidata | National Assembly of Cameroon |
-| 4 | `ccousp.cm` | wikidata | Q109056172 |
-| 4 | `cnls.cm` | wikidata | Comité National de Lutte contre le SIDA |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `beac.int` | wikidata | Bank of Central African States |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `diplocam.cm` | central | wikidata;wikidata | Ministry of External Relations |
+| 7 | `minader.cm` | central | wikidata;wikidata | Ministry of Agriculture and rural development |
+| 7 | `minas.cm` | central | wikidata;wikidata | Ministry of Social Affairs |
+| 7 | `minedub.cm` | central | wikidata;wikidata | Ministry of Basic Education |
+| 7 | `minmap.cm` | central | wikidata;wikidata | Ministry of Public Procurement |
+| 7 | `minpmeesa.cm` | central | wikidata;wikidata | Ministry of small and medium-sized enterprises, social economy and handicrafts |
+| 7 | `minsante.cm` | central | wikidata;wikidata | Ministry of Public Health |
+| 7 | `minsep.cm` | central | wikidata;wikidata | Ministry of Sports in Cameroon |
+| 7 | `mintss.cm` | central | wikidata;wikidata | Ministry of Labour and Social Security |
+| 6 | `campack-cm.com` | central | wikidata;wikidata | Ministry of Scientific Research and Innovation |
+| 6 | `ccaa.aero` |  | wikidata;wikidata | CCAA |
+| 6 | `coursupreme.cm` | central | wikidata | Supreme Court of Cameroon |
+| 6 | `minmidt.net` | central | wikidata;wikidata | Ministry of Mines, Industry and Technological Development |
+| 6 | `piaristesafriquecentrale.org` |  | wikidata;wikidata | Piarist province of Central Africa |
+| 4 | `antic.cm` |  | wikidata | Agence Nationale des Technologies de l'Information et de la Communication |
+| 4 | `apn.cm` |  | wikidata | Q137164175 |
+| 4 | `archivesnationales.cm` |  | wikidata | National Archives of Cameroon |
+| 4 | `assnat.cm` | central | wikidata | National Assembly of Cameroon |
+| 4 | `ccousp.cm` |  | wikidata | Q109056172 |
+| 4 | `cnls.cm` |  | wikidata | Comité National de Lutte contre le SIDA |
 

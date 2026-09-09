@@ -28,40 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-71 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+73 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `mofaic.gov.ae` | wikidata;wikidata | Embassy of the United Arab Emirates, Ankara | Consulate General of the United... |
-| 6 | `iski.istanbul` | wikidata;wikidata | İSKİ |
-| 6 | `roc-taiwan.org` | wikidata;wikidata | Taipei Economic and Cultural Mission in Ankara |
-| 5 | `ankara.mfa.gov.ct.tr` | wikidata | Embassy of Northern Cyprus, Ankara |
-| 4 | `ankara.mfa.gov.hu` | wikidata | Hungarian embassy, Ankara |
-| 4 | `aso.org.tr` | wikidata | Ankara Chamber of Industry |
-| 4 | `bddk.org.tr` | wikidata | Banking Regulation and Supervision Agency |
-| 4 | `consulateofpalestine.com.tr` | wikidata | Consulate General of Palestine, Istanbul |
-| 4 | `embassyofpalestine.org.tr` | wikidata | Embassy of Palestine in Ankara |
-| 4 | `epdk.org.tr` | wikidata | Energy Market Regulatory Authority |
-| 4 | `esb.org.tr` | wikidata | Association of Access Providers (Turkey) |
-| 4 | `ibg.edu.tr` | wikidata | Izmir Biomedicine and Genome Center |
-| 4 | `istihbarat.pol.tr` | wikidata | Intelligence Presidency of General Directorate of Security |
-| 4 | `istka.org.tr` | wikidata | İstanbul Kalkınma Ajansı |
-| 4 | `isztambul.mfa.gov.hu` | wikidata | Consulate General of Hungary, Istanbul |
-| 4 | `izto.org.tr` | wikidata | İzmir Chamber of Commerce |
-| 4 | `kardelen.baglar.bel.tr` | wikidata | Q131170119 |
-| 4 | `kenyaembassy.org.tr` | wikidata | Embassy of Kenya, Ankara |
-| 4 | `kuwaitembassy.org.tr` | wikidata | Embassy of Kuwait in Ankara |
-| 4 | `mongolianembassy.com.tr` | wikidata | Embassy of Mongolia, Ankara |
-
-## Local / regional candidates
-
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `itfaiye.izmir.bel.tr` | wikidata | İzmir Fire Department |
-| 3 | `istanbul.china-consulate.org` | wikidata | Consulate-General of the People's Republic of China, Istanbul |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `mofaic.gov.ae` | central | wikidata;wikidata | Embassy of the United Arab Emirates, Ankara | Consulate General of the United... |
+| 6 | `iski.istanbul` |  | wikidata;wikidata | İSKİ |
+| 6 | `roc-taiwan.org` |  | wikidata;wikidata | Taipei Economic and Cultural Mission in Ankara |
+| 5 | `ankara.mfa.gov.ct.tr` | central | wikidata | Embassy of Northern Cyprus, Ankara |
+| 4 | `ankara.mfa.gov.hu` | central | wikidata | Hungarian embassy, Ankara |
+| 4 | `aso.org.tr` |  | wikidata | Ankara Chamber of Industry |
+| 4 | `bddk.org.tr` |  | wikidata | Banking Regulation and Supervision Agency |
+| 4 | `consulateofpalestine.com.tr` |  | wikidata | Consulate General of Palestine, Istanbul |
+| 4 | `embassyofpalestine.org.tr` | central | wikidata | Embassy of Palestine in Ankara |
+| 4 | `epdk.org.tr` |  | wikidata | Energy Market Regulatory Authority |
+| 4 | `esb.org.tr` |  | wikidata | Association of Access Providers (Turkey) |
+| 4 | `ibg.edu.tr` |  | wikidata | Izmir Biomedicine and Genome Center |
+| 4 | `istihbarat.pol.tr` |  | wikidata | Intelligence Presidency of General Directorate of Security |
+| 4 | `istka.org.tr` |  | wikidata | İstanbul Kalkınma Ajansı |
+| 4 | `isztambul.mfa.gov.hu` |  | wikidata | Consulate General of Hungary, Istanbul |
+| 4 | `itfaiye.izmir.bel.tr` | central-1 | wikidata | İzmir Fire Department |
+| 4 | `izto.org.tr` |  | wikidata | İzmir Chamber of Commerce |
+| 4 | `kardelen.baglar.bel.tr` |  | wikidata | Q131170119 |
+| 4 | `kenyaembassy.org.tr` | central | wikidata | Embassy of Kenya, Ankara |
+| 4 | `kuwaitembassy.org.tr` | central | wikidata | Embassy of Kuwait in Ankara |
 

@@ -28,26 +28,26 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `msp.ne` | wikidata;wikidata | Ministry of Public Health |
-| 4 | `ansi.ne` | wikidata | National Agency for the Information Society |
-| 4 | `inran.refer.ne` | wikidata | National Institute of Agronomic Research of Niger |
-| 4 | `police.ne` | wikidata | National Police of Niger |
-| 4 | `tribunalcommerceniamey.ne` | wikidata | Commercial court of Niamey |
-| 3 | `ambafrance-ne.org` | wikidata | Embassy of France in Niamey |
-| 3 | `ambarimniamey.com` | wikidata | Embassy of Mauritania, Niamey |
-| 3 | `bceao.int` | wikidata | Central Bank of West African States |
-| 3 | `cnc-niger.org` | wikidata | Centre National de la Cinématographie du Niger |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Niger |
-| 3 | `embassyofpakistan.com` | wikidata | Embassy of Pakistan in Niger |
-| 3 | `lesahel.org` | wikidata | Q139304709 |
-| 3 | `ne.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Niamey |
-| 3 | `niamey.diplo.de` | wikidata | Embassy of Germany, Niamey |
-| 3 | `stat-niger.org` | wikidata | Institut National de la Statistique |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `msp.ne` |  | wikidata;wikidata | Ministry of Public Health |
+| 4 | `ansi.ne` |  | wikidata | National Agency for the Information Society |
+| 4 | `inran.refer.ne` |  | wikidata | National Institute of Agronomic Research of Niger |
+| 4 | `police.ne` |  | wikidata | National Police of Niger |
+| 4 | `tribunalcommerceniamey.ne` |  | wikidata | Commercial court of Niamey |
+| 3 | `ambafrance-ne.org` | central | wikidata | Embassy of France in Niamey |
+| 3 | `ambarimniamey.com` | central | wikidata | Embassy of Mauritania, Niamey |
+| 3 | `bceao.int` |  | wikidata | Central Bank of West African States |
+| 3 | `cnc-niger.org` |  | wikidata | Centre National de la Cinématographie du Niger |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Niger |
+| 3 | `embassyofpakistan.com` |  | wikidata | Embassy of Pakistan in Niger |
+| 3 | `lesahel.org` |  | wikidata | Q139304709 |
+| 3 | `ne.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Niamey |
+| 3 | `niamey.diplo.de` | central | wikidata | Embassy of Germany, Niamey |
+| 3 | `stat-niger.org` | central | wikidata | Institut National de la Statistique |
 

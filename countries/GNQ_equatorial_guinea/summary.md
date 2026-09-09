@@ -28,29 +28,21 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `geagricultura.com` | wikidata;wikidata | Ministry of Agriculture and Forestry |
-| 6 | `dominicoshispania.org` | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 6 | `piaristesafriquecentrale.org` | wikidata;wikidata | Piarist province of Central Africa |
-| 4 | `ghanaembassy-equatorialguinea.com` | wikidata | embassy of Ghana in Equatorial Guinea |
-| 3 | `aegle.gq` | wikidata | Academia Ecuatoguineana de la Lengua Española |
-| 3 | `gq.ambafrance.org` | wikidata | Embassy of France, Malabo |
-| 3 | `gq.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Malabo |
-| 3 | `inege.gq` | wikidata | Instituto Nacional de Estadística de Guinea Ecuatorial |
-| 3 | `mae-ge.org` | wikidata | Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea |
-| 3 | `senado-gq.org` | wikidata | Senate of Equatorial Guinea |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `beac.int` | wikidata | Bank of Central African States |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `geagricultura.com` | central | wikidata;wikidata | Ministry of Agriculture and Forestry |
+| 6 | `dominicoshispania.org` |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 6 | `piaristesafriquecentrale.org` |  | wikidata;wikidata | Piarist province of Central Africa |
+| 4 | `ghanaembassy-equatorialguinea.com` | central | wikidata | embassy of Ghana in Equatorial Guinea |
+| 3 | `aegle.gq` |  | wikidata | Academia Ecuatoguineana de la Lengua Española |
+| 3 | `gq.ambafrance.org` | central | wikidata | Embassy of France, Malabo |
+| 3 | `gq.chineseembassy.org` | central | wikidata | Embassy of the People's Republic of China, Malabo |
+| 3 | `inege.gq` | central | wikidata | Instituto Nacional de Estadística de Guinea Ecuatorial |
+| 3 | `mae-ge.org` |  | wikidata | Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea |
+| 3 | `senado-gq.org` | central | wikidata | Senate of Equatorial Guinea |
 

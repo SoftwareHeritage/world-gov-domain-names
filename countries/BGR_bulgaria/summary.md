@@ -28,48 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-532 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+711 domain(s) proposed for validation, of which 179 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `egov.bg` | un_desa;linkgraph | UN/DESA national portal |
-| 10 | `government.bg` | wikidata;linkgraph | Council of Ministers of Bulgaria |
-| 10 | `parliament.bg` | wikidata;wikidata;linkgraph | National Assembly of Bulgaria |
-| 8 | `cpdp.bg` | wikidata;linkgraph | Commission for Personal Data Protection |
-| 7 | `bda.bg` | wikidata;wikidata | Bulgarian Drug Agency |
-| 7 | `bnb.bg` | wikidata;wikidata | Bulgarian National Bank |
-| 7 | `cpc.bg` | wikidata;wikidata | Commission for Protection of Competition |
-| 7 | `dar.bg` | wikidata;wikidata | State Intelligence Agency |
-| 7 | `dobrich.bg` | wikidata;wikidata | Dobrich |
-| 7 | `eea.government.bg` | wikidata;wikidata | Executive Environment Agency |
-| 7 | `egov.government.bg` | wikidata;wikidata | Ministry of Electronic Government |
-| 7 | `gdbop.bg` | wikidata;wikidata | General Directorate Combating Organized Crime | Q12276994 |
-| 7 | `gotsedelchev.bg` | wikidata;wikidata | Gotse Delchev |
-| 7 | `gulyantsi.bg` | wikidata;wikidata | Gulyantsi |
-| 7 | `iag.bg` | wikidata;wikidata | Executive Forest Agency |
-| 7 | `justice.government.bg` | wikidata;wikidata | Ministry of Justice |
-| 7 | `kzp.bg` | wikidata;linkgraph | Consumer Protection Commission |
-| 7 | `mi.government.bg` | wikidata;wikidata | Ministry of Economy and Industry |
-| 7 | `midt.bg` | wikidata;wikidata | Ministry of Innovation and Digital Transformation |
-| 7 | `mig.government.bg` | wikidata;wikidata | Ministry of Innovation and Growth |
-
-## Local / regional candidates
-
-269 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 179 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `berkovitca.iag.bg` | wikidata | Regional Forest Directorate - Berkovitza |
-| 4 | `blagoevgrad-adms.justice.bg` | wikidata | Administrative Court - Blagoevgrad |
-| 4 | `blagoevgrad-os.justice.bg` | wikidata | District Court - Blagoevgrad |
-| 4 | `blagoevgrad-rs.justice.bg` | wikidata | Regional Court - Blagoevgrad |
-| 4 | `blagoevgrad.iag.bg` | wikidata | Regional Forest Directorate - Blagoevgrad |
-| 4 | `burgas-adms.justice.bg` | wikidata | Administrative Court - Burgas |
-| 4 | `burgas-as.justice.bg` | wikidata | Appellate court - Burgas |
-| 4 | `burgas-os.justice.bg` | wikidata | District Court - Burgas |
-| 4 | `burgas-rs.justice.bg` | wikidata | Regional Court - Burgas |
-| 4 | `burgas.iag.bg` | wikidata | Regional Forest Directorate - Burgas |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 10 | `egov.bg` |  | un_desa;linkgraph | UN/DESA national portal |
+| 10 | `government.bg` | central | wikidata;linkgraph | Council of Ministers of Bulgaria |
+| 10 | `parliament.bg` | central | wikidata;wikidata;linkgraph | National Assembly of Bulgaria |
+| 8 | `cpdp.bg` | central | wikidata;linkgraph | Commission for Personal Data Protection |
+| 7 | `bda.bg` | central | wikidata;wikidata | Bulgarian Drug Agency |
+| 7 | `bnb.bg` |  | wikidata;wikidata | Bulgarian National Bank |
+| 7 | `cpc.bg` | central | wikidata;wikidata | Commission for Protection of Competition |
+| 7 | `dar.bg` | central | wikidata;wikidata | State Intelligence Agency |
+| 7 | `dobrich.bg` |  | wikidata;wikidata | Dobrich |
+| 7 | `eea.government.bg` | central | wikidata;wikidata | Executive Environment Agency |
+| 7 | `egov.government.bg` | central | wikidata;wikidata | Ministry of Electronic Government |
+| 7 | `gdbop.bg` |  | wikidata;wikidata | General Directorate Combating Organized Crime | Q12276994 |
+| 7 | `gotsedelchev.bg` |  | wikidata;wikidata | Gotse Delchev |
+| 7 | `gulyantsi.bg` |  | wikidata;wikidata | Gulyantsi |
+| 7 | `iag.bg` | central | wikidata;wikidata | Executive Forest Agency |
+| 7 | `justice.government.bg` | central | wikidata;wikidata | Ministry of Justice |
+| 7 | `kzp.bg` | central | wikidata;linkgraph | Consumer Protection Commission |
+| 7 | `mi.government.bg` | central | wikidata;wikidata | Ministry of Economy and Industry |
+| 7 | `midt.bg` | central | wikidata;wikidata | Ministry of Innovation and Digital Transformation |
+| 7 | `mig.government.bg` | central | wikidata;wikidata | Ministry of Innovation and Growth |
 

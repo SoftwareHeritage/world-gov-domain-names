@@ -28,35 +28,27 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 9 | `superiorcourts.org.na` | wikidata;wikidata | Supreme Court of Namibia | High Court of Namibia |
-| 8 | `parliament.na` | wikidata;wikidata;wikidata;wikidata | National Council of Namibia | Parliament of Namibia | National Assembly |
-| 7 | `mof.na` | wikidata;wikidata | Ministry of Finance |
-| 6 | `windhuk.diplo.de` | wikidata;wikidata | Embassy of Germany, Windhoek |
-| 4 | `bon.com.na` | wikidata | Bank of Namibia |
-| 4 | `citypolice.org.na` | wikidata | Windhoek City Police Service |
-| 4 | `ecn.na` | wikidata | Electoral Commission of Namibia |
-| 4 | `ncaa.com.na` | wikidata | Namibia Directorate of Civil Aviation |
-| 4 | `nfc.na` | wikidata | Namibia Film Commission |
-| 4 | `nsa.org.na` | wikidata | Namibia Statistics Agency |
-| 4 | `nsi.com.na` | wikidata | Namibian Standards Institution |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Namibia |
-| 3 | `finlandabroad.fi` | wikidata | Embassy of Finland, Windhoek |
-| 3 | `ghanahighcommission-namibia.com` | wikidata | high commission of Ghana in Namibia |
-| 3 | `na.ambafrance.org` | wikidata | Embassy of France, Windhoek |
-| 3 | `namibia.mid.ru` | wikidata | embassy of Russia in Namibia |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `sadc.int` | wikidata | SADC Tribunal |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 9 | `superiorcourts.org.na` |  | wikidata;wikidata | Supreme Court of Namibia | High Court of Namibia |
+| 8 | `parliament.na` | central | wikidata;wikidata;wikidata;wikidata | National Council of Namibia | Parliament of Namibia | National Assembly |
+| 7 | `mof.na` | central | wikidata;wikidata | Ministry of Finance |
+| 6 | `windhuk.diplo.de` | central | wikidata;wikidata | Embassy of Germany, Windhoek |
+| 4 | `bon.com.na` |  | wikidata | Bank of Namibia |
+| 4 | `citypolice.org.na` |  | wikidata | Windhoek City Police Service |
+| 4 | `ecn.na` | central | wikidata | Electoral Commission of Namibia |
+| 4 | `ncaa.com.na` |  | wikidata | Namibia Directorate of Civil Aviation |
+| 4 | `nfc.na` |  | wikidata | Namibia Film Commission |
+| 4 | `nsa.org.na` |  | wikidata | Namibia Statistics Agency |
+| 4 | `nsi.com.na` |  | wikidata | Namibian Standards Institution |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Namibia |
+| 3 | `finlandabroad.fi` | central | wikidata | Embassy of Finland, Windhoek |
+| 3 | `ghanahighcommission-namibia.com` | central | wikidata | high commission of Ghana in Namibia |
+| 3 | `na.ambafrance.org` | central | wikidata | Embassy of France, Windhoek |
+| 3 | `namibia.mid.ru` | central | wikidata | embassy of Russia in Namibia |
 

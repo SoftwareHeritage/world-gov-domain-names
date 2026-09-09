@@ -28,31 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `custodia.org` | wikidata;wikidata | Custodian of the Holy Land |
-| 5 | `conseilconstitutionnelliban.com` | wikidata | Constitutional Council (Lebanon) |
-| 4 | `bejrut.mfa.gov.hu` | wikidata | Embassy of Hungary, Beirut |
-| 4 | `cnrs.edu.lb` | wikidata | National Council for Scientific Research |
-| 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Beirut |
-| 3 | `alarabiahcouncil.org` | wikidata | Arabic Language International Council |
-| 3 | `ambafrance-lb.org` | wikidata | French Embassy, Beirut |
-| 3 | `bangladeshembassybeirut.org` | wikidata | Embassy of Bangladesh, Beirut |
-| 3 | `beirut.diplo.de` | wikidata | Embassy of Germany, Beirut |
-| 3 | `beirut.mae.ro` | wikidata | Embassy of Romania, Beirut |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Lebanon |
-| 3 | `emro.who.int` | wikidata | World Health Organization - Lebanon |
-| 3 | `finlandabroad.fi` | wikidata | embassy of Finland in Lebanon |
-| 3 | `lb.ambafrance.org` | wikidata | consulat général de France à Beyrouth |
-| 3 | `lebanon.mid.ru` | wikidata | Embassy of Russia, Beirut |
-| 3 | `libanon.um.dk` | wikidata | embassy of Denmark in Lebanon |
-| 3 | `lncu.org` | wikidata | Lebanese National Commission for UNESCO |
-| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Lebanon |
-| 3 | `mfa.gr` | wikidata | embassy of Greece in Lebanon |
-| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Lebanon |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `custodia.org` |  | wikidata;wikidata | Custodian of the Holy Land |
+| 5 | `conseilconstitutionnelliban.com` | central | wikidata | Constitutional Council (Lebanon) |
+| 4 | `bejrut.mfa.gov.hu` |  | wikidata | Embassy of Hungary, Beirut |
+| 4 | `cnrs.edu.lb` |  | wikidata | National Council for Scientific Research |
+| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Beirut |
+| 3 | `alarabiahcouncil.org` |  | wikidata | Arabic Language International Council |
+| 3 | `ambafrance-lb.org` | central | wikidata | French Embassy, Beirut |
+| 3 | `bangladeshembassybeirut.org` | central | wikidata | Embassy of Bangladesh, Beirut |
+| 3 | `beirut.diplo.de` | central | wikidata | Embassy of Germany, Beirut |
+| 3 | `beirut.mae.ro` | central | wikidata | Embassy of Romania, Beirut |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Lebanon |
+| 3 | `emro.who.int` |  | wikidata | World Health Organization - Lebanon |
+| 3 | `finlandabroad.fi` | central | wikidata | embassy of Finland in Lebanon |
+| 3 | `lb.ambafrance.org` |  | wikidata | consulat général de France à Beyrouth |
+| 3 | `lebanon.mid.ru` | central | wikidata | Embassy of Russia, Beirut |
+| 3 | `libanon.um.dk` | central | wikidata | embassy of Denmark in Lebanon |
+| 3 | `lncu.org` |  | wikidata | Lebanese National Commission for UNESCO |
+| 3 | `mfa.bg` | central | wikidata | embassy of Bulgaria in Lebanon |
+| 3 | `mfa.gr` | central | wikidata | embassy of Greece in Lebanon |
+| 3 | `mzv.cz` | central | wikidata | embassy of the Czech republic in Lebanon |
 

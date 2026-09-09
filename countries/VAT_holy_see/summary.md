@@ -21,35 +21,24 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `clerus.va` | wikidata;wikidata | Dicastery for the Clergy |
-| 7 | `congregazionevescovi.va` | wikidata;wikidata | Dicastery for Bishops |
-| 7 | `dicasteryinterreligious.va` | wikidata;wikidata | Dicastery for Interreligious Dialogue |
-| 7 | `humandevelopment.va` | wikidata;wikidata | Dicastery for Promoting Integral Human Development |
-| 7 | `laityfamilylife.va` | wikidata;wikidata | Dicastery for Laity, Family and Life |
-| 4 | `archivioapostolicovaticano.va` | wikidata | Vatican Apostolic Archives |
-| 4 | `asif.va` | wikidata | Financial Information Authority |
-| 4 | `ulsa.va` | wikidata | Labour Office of the Apostolic See |
-| 4 | `vaticanlibrary.va` | wikidata | Vatican Library |
-| 3 | `palvaticanembassy.org` | wikidata | embassy of the State of Palestine to the Holy See |
-| 3 | `pontificiaacademialatinitatis.org` | wikidata | Pontifical Academy for Latin |
-| 2 | `comunicazione.va` | wikidata;wikidata;wikidata;wikidata | Dicastery for Communication |
-| 2 | `vaticanstate.va` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Governorate of Vatican City State | Pontifical Commission for the Vatican Cit... |
-
-## Local / regional candidates
-
-4 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `dce.va` | wikidata;wikidata | Dicastery for Culture and Education |
-| 7 | `doctrinafidei.va` | wikidata;wikidata | Dicastery for the Doctrine of the Faith |
-| 7 | `elemosineria.va` | wikidata;wikidata;wikidata;wikidata | Office of Papal Charities |
-| 7 | `rotaromana.va` | wikidata;wikidata | Roman Rota |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `clerus.va` |  | wikidata;wikidata | Dicastery for the Clergy |
+| 7 | `congregazionevescovi.va` |  | wikidata;wikidata | Dicastery for Bishops |
+| 7 | `dicasteryinterreligious.va` |  | wikidata;wikidata | Dicastery for Interreligious Dialogue |
+| 7 | `humandevelopment.va` |  | wikidata;wikidata | Dicastery for Promoting Integral Human Development |
+| 7 | `laityfamilylife.va` |  | wikidata;wikidata | Dicastery for Laity, Family and Life |
+| 4 | `archivioapostolicovaticano.va` |  | wikidata | Vatican Apostolic Archives |
+| 4 | `asif.va` |  | wikidata | Financial Information Authority |
+| 4 | `ulsa.va` |  | wikidata | Labour Office of the Apostolic See |
+| 4 | `vaticanlibrary.va` |  | wikidata | Vatican Library |
+| 3 | `palvaticanembassy.org` | central | wikidata | embassy of the State of Palestine to the Holy See |
+| 3 | `pontificiaacademialatinitatis.org` |  | wikidata | Pontifical Academy for Latin |
+| 2 | `comunicazione.va` |  | wikidata;wikidata;wikidata;wikidata | Dicastery for Communication |
+| 2 | `vaticanstate.va` | central | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Governorate of Vatican City State | Pontifical Commission for the Vatican Cit... |
 

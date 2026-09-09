@@ -28,19 +28,19 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `roc-taiwan.org` | wikidata;wikidata | Trade Mission of the Republic of China (Taiwan) to the Republic of Fiji | Tai... |
-| 4 | `caaf.org.fj` | wikidata | Civil Aviation Authority of the Fiji Islands |
-| 4 | `ficac.org.fj` | wikidata | Fiji Independent Commission Against Corruption |
-| 4 | `itaukeitrustfund.com.fj` | wikidata | iTaukei Trust Fund Board |
-| 3 | `ambafrance-fj.org` | wikidata | Embassy of France, Suva |
-| 3 | `eeas.europa.eu` | wikidata | Delegation for the Pacific |
-| 3 | `fidschi.diplo.de` | wikidata | Embassy of Germany, Suva |
-| 3 | `fj.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Suva |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `roc-taiwan.org` |  | wikidata;wikidata | Trade Mission of the Republic of China (Taiwan) to the Republic of Fiji | Tai... |
+| 4 | `caaf.org.fj` |  | wikidata | Civil Aviation Authority of the Fiji Islands |
+| 4 | `ficac.org.fj` |  | wikidata | Fiji Independent Commission Against Corruption |
+| 4 | `itaukeitrustfund.com.fj` |  | wikidata | iTaukei Trust Fund Board |
+| 3 | `ambafrance-fj.org` | central | wikidata | Embassy of France, Suva |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation for the Pacific |
+| 3 | `fidschi.diplo.de` | central | wikidata | Embassy of Germany, Suva |
+| 3 | `fj.chineseembassy.org` | central | wikidata | Embassy of the People's Republic of China, Suva |
 

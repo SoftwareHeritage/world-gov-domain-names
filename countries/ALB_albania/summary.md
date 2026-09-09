@@ -28,41 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `parlament.al` | wikidata;wikidata | Parliament of Albania |
-| 6 | `bankofalbania.org` | wikidata;wikidata | Bank of Albania |
-| 6 | `gesuiti.it` | wikidata;wikidata | Euromediterranean Province of the Jesuits |
-| 6 | `tirana.embassy.si` | wikidata;wikidata | Embassy of Slovenia, Tirana | General Consulate of the Republic of Slovenia i... |
-| 5 | `e-albania.al ` | un_desa | UN/DESA national portal |
-| 4 | `aaf.mil.al` | wikidata | Military Police |
-| 4 | `akep.al` | wikidata | Autoriteti i Komunikimeve Elektronike dhe Postare |
-| 4 | `bksh.al` | wikidata | National Library of Albania |
-| 4 | `idp.al` | wikidata | Information and Data Protection Commissioner |
-| 4 | `kryeministria.al` | wikidata | Prime Minister's Office |
-| 4 | `tirana.mfa.gov.hu` | wikidata | Hungarian embassy, Tirana |
-| 3 | `al.ambafrance.org` | wikidata | Embassy of France, Tirana |
-| 3 | `albania.mid.ru` | wikidata | Russian Embassy in Tirana |
-| 3 | `albaniaembassy.orderofmalta.int` | wikidata | Embassy of the Sovereign Military Order of Malta, Tirana |
-| 3 | `ambasadat.net` | wikidata | Embassy of Kosovo, Tirana |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Albania |
-| 3 | `mfa.bg` | wikidata | Embassy of Bulgaria in Albania |
-| 3 | `mfa.gr` | wikidata | embassy of Greece in Albania |
-| 3 | `mzv.cz` | wikidata | Embassy of the Czech republic in Albania |
-| 3 | `mzv.sk` | wikidata | Embassy of Slovakia in Albania |
-
-## Local / regional candidates
-
-3 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 4 | `imt.tirana.al` | wikidata | Territorial Protection Inspectorate of Tirana Municipality |
-| 4 | `policiabashkiake.al` | wikidata | Tirana Municipal Police |
-| 4 | `tirana.al` | wikidata | City Council of Tirana |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `parlament.al` | central | wikidata;wikidata | Parliament of Albania |
+| 6 | `bankofalbania.org` |  | wikidata;wikidata | Bank of Albania |
+| 6 | `gesuiti.it` |  | wikidata;wikidata | Euromediterranean Province of the Jesuits |
+| 6 | `tirana.embassy.si` | central | wikidata;wikidata | Embassy of Slovenia, Tirana | General Consulate of the Republic of Slovenia i... |
+| 5 | `e-albania.al ` |  | un_desa | UN/DESA national portal |
+| 4 | `aaf.mil.al` |  | wikidata | Military Police |
+| 4 | `akep.al` |  | wikidata | Autoriteti i Komunikimeve Elektronike dhe Postare |
+| 4 | `bksh.al` |  | wikidata | National Library of Albania |
+| 4 | `idp.al` | central | wikidata | Information and Data Protection Commissioner |
+| 4 | `kryeministria.al` |  | wikidata | Prime Minister's Office |
+| 4 | `tirana.mfa.gov.hu` | central | wikidata | Hungarian embassy, Tirana |
+| 3 | `al.ambafrance.org` | central | wikidata | Embassy of France, Tirana |
+| 3 | `albania.mid.ru` | central | wikidata | Russian Embassy in Tirana |
+| 3 | `albaniaembassy.orderofmalta.int` | central | wikidata | Embassy of the Sovereign Military Order of Malta, Tirana |
+| 3 | `ambasadat.net` | central | wikidata | Embassy of Kosovo, Tirana |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Albania |
+| 3 | `mfa.bg` | central | wikidata | Embassy of Bulgaria in Albania |
+| 3 | `mfa.gr` | central | wikidata | embassy of Greece in Albania |
+| 3 | `mzv.cz` | central | wikidata | Embassy of the Czech republic in Albania |
+| 3 | `mzv.sk` | central | wikidata | Embassy of Slovakia in Albania |
 

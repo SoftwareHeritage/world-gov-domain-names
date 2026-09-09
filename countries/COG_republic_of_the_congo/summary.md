@@ -28,35 +28,27 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `finances.gouv.cg` | wikidata;wikidata | Q138766330 |
-| 8 | `hydrocarbures.gouv.cg` | wikidata;wikidata | Q139836464 |
-| 8 | `postetelecom.gouv.cg` | wikidata;wikidata | Q138711324 |
-| 7 | `presidence.cg` | un_desa | UN/DESA national portal |
-| 6 | `diplobrazza.net` | wikidata;wikidata | Ministry of Foreign Affairs, Francophonie and Congolese Abroad |
-| 6 | `meppsa.org` | wikidata;wikidata | Q138754653 |
-| 4 | `anaccongo.cg` | wikidata | Agence nationale de l'aviation civile (Republic of the Congo) |
-| 4 | `assemblee-nationale.cg` | wikidata | National Assembly |
-| 4 | `bea.cg` | wikidata | Aircraft Accident Investigation Bureau |
-| 4 | `ccj-congo.cg` | wikidata | Youth Advisory Council |
-| 4 | `senat.cg` | wikidata | Senate |
-| 3 | `brazzaville.diplo.de` | wikidata | Embassy of Germany, Brazzaville |
-| 3 | `cg.ambafrance.org` | wikidata | Embassy of France, Brazzaville |
-| 3 | `congo.mid.ru` | wikidata | embassy of Russia in Republic of the Congo |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Congo |
-| 3 | `pointe-noire.consulfrance.org` | wikidata | Consulate General of France in Pointe-Noire |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `beac.int` | wikidata | Bank of Central African States |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 8 | `finances.gouv.cg` |  | wikidata;wikidata | Q138766330 |
+| 8 | `hydrocarbures.gouv.cg` |  | wikidata;wikidata | Q139836464 |
+| 8 | `postetelecom.gouv.cg` |  | wikidata;wikidata | Q138711324 |
+| 7 | `presidence.cg` |  | un_desa | UN/DESA national portal |
+| 6 | `diplobrazza.net` |  | wikidata;wikidata | Ministry of Foreign Affairs, Francophonie and Congolese Abroad |
+| 6 | `meppsa.org` |  | wikidata;wikidata | Q138754653 |
+| 4 | `anaccongo.cg` |  | wikidata | Agence nationale de l'aviation civile (Republic of the Congo) |
+| 4 | `assemblee-nationale.cg` | central | wikidata | National Assembly |
+| 4 | `bea.cg` |  | wikidata | Aircraft Accident Investigation Bureau |
+| 4 | `ccj-congo.cg` |  | wikidata | Youth Advisory Council |
+| 4 | `senat.cg` | central | wikidata | Senate |
+| 3 | `brazzaville.diplo.de` | central | wikidata | Embassy of Germany, Brazzaville |
+| 3 | `cg.ambafrance.org` | central | wikidata | Embassy of France, Brazzaville |
+| 3 | `congo.mid.ru` | central | wikidata | embassy of Russia in Republic of the Congo |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Congo |
+| 3 | `pointe-noire.consulfrance.org` |  | wikidata | Consulate General of France in Pointe-Noire |
 

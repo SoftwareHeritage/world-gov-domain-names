@@ -28,17 +28,17 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 5 | `shabait.com` | un_desa | UN/DESA national portal |
-| 3 | `asmara.diplo.de` | wikidata | Embassy of Germany, Asmara |
-| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Eritrea |
-| 3 | `er.ambafrance.org` | wikidata | Embassy of France, Asmara |
-| 3 | `eritrea.mid.ru` | wikidata | embassy of Russia in Eritrea |
-| 3 | `eritreanarchives.org` | wikidata | Research and Documentation Center |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 5 | `shabait.com` |  | un_desa | UN/DESA national portal |
+| 3 | `asmara.diplo.de` | central | wikidata | Embassy of Germany, Asmara |
+| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Eritrea |
+| 3 | `er.ambafrance.org` | central | wikidata | Embassy of France, Asmara |
+| 3 | `eritrea.mid.ru` | central | wikidata | embassy of Russia in Eritrea |
+| 3 | `eritreanarchives.org` |  | wikidata | Research and Documentation Center |
 

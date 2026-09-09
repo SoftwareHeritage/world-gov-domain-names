@@ -28,16 +28,16 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `moeskn.org` | wikidata;wikidata | Ministry of Education |
-| 4 | `nema.kn` | wikidata | National Emergency Management Agency of Saint Kitts and Nevis |
-| 3 | `eccb-centralbank.org` | wikidata | Eastern Caribbean Central Bank |
-| 3 | `sknbs.org` | wikidata | Saint Kitts and Nevis Bureau of Standards |
-| 3 | `taiwanembassy.org` | wikidata | Embassy of the Republic of China (Taiwan), Basseterre |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `moeskn.org` | central | wikidata;wikidata | Ministry of Education |
+| 4 | `nema.kn` |  | wikidata | National Emergency Management Agency of Saint Kitts and Nevis |
+| 3 | `eccb-centralbank.org` |  | wikidata | Eastern Caribbean Central Bank |
+| 3 | `sknbs.org` |  | wikidata | Saint Kitts and Nevis Bureau of Standards |
+| 3 | `taiwanembassy.org` | central | wikidata | Embassy of the Republic of China (Taiwan), Basseterre |
 

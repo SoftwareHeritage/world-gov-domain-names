@@ -28,48 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-226 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+334 domain(s) proposed for validation, of which 108 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `government.ru` | un_desa;wikidata;wikidata | Government of Russia | UN/DESA national portal |
-| 7 | `19.mvd.ru` | wikidata;wikidata | Ministry of Internal Affairs of Khakassia | Ministry of Internal Affairs of K... |
-| 7 | `arbitr.ru` | wikidata;wikidata | Q4068672 | Supreme Court of Arbitration of Russia |
-| 7 | `cikrf.ru` | wikidata;wikidata | Central Election Commission of Russia |
-| 7 | `customs.ru` | wikidata;wikidata | Federal Customs Service of Russia |
-| 7 | `dagminobr.ru` | wikidata;wikidata | Q21641675 |
-| 7 | `en.sledcom.ru` | wikidata;wikidata | Investigative Committee of Russia |
-| 7 | `fedsfm.ru` | wikidata;wikidata | Rosfinmonitoring |
-| 7 | `fsb.ru` | wikidata;wikidata;wikidata;wikidata | Federal Security Service | Q4503984 | Central Archive of the Federal Security... |
-| 7 | `fstec.ru` | wikidata;wikidata | Federal Service for Technical and Export Control |
-| 7 | `gambiaembassy.ru` | wikidata;wikidata | embassy of the Gambia in Russia |
-| 7 | `gorduma-voronezh.ru` | wikidata;wikidata | Voronezh City Duma |
-| 7 | `gosnadzor.ru` | wikidata;wikidata | Rostekhnadzor |
-| 7 | `minecon.bashkortostan.ru` | wikidata;wikidata | Ministry of Economic Development |
-| 7 | `minfintuva.ru` | wikidata;wikidata | Ministry of Finance of Tyva |
-| 7 | `mk-chr.ru` | wikidata;wikidata | Q16676553 |
-| 7 | `mvdrd.ru` | wikidata;wikidata | Ministry of Internal Affairs of Dagestan |
-| 7 | `prlib.ru` | wikidata;wikidata | Boris Yeltsin Presidential Library |
-| 7 | `roscosmos.ru` | wikidata;wikidata | Roscosmos State Corporation |
-| 7 | `rospotrebnadzor.ru` | wikidata;wikidata | Federal Service for the Oversight of Consumer Protection and Welfare |
-
-## Local / regional candidates
-
-125 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 108 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `akzs.ru` | wikidata;wikidata | Altai Krai Legislative Assembly |
-| 7 | `culture.volgograd.ru` | wikidata;wikidata | Committee of Culture of the Volgograd Oblast |
-| 7 | `digital.tatarstan.ru` | wikidata;wikidata | Ministry of Digitalization of Public Administration, Information Technologies... |
-| 7 | `duma.mos.ru` | wikidata;wikidata;wikidata | Moscow City Duma |
-| 7 | `duma72.ru` | wikidata;wikidata | Tyumen Oblast Duma |
-| 7 | `dumahmao.ru` | wikidata;wikidata | Duma of Khanty-Mansi Autonomous Okrug — Yugra |
-| 7 | `eco.tatarstan.ru` | wikidata;wikidata | Ministry of Ecology and Natural Resources for the Republic of Tatarstan |
-| 7 | `egov-buryatia.ru` | wikidata;wikidata;wikidata | People's Khural of the Republic of Buryatia |
-| 7 | `gossov.tatarstan.ru` | wikidata;wikidata;wikidata | State Council of the Republic of Tatarstan |
-| 7 | `goszakupki.tatarstan.ru` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Q97231060 |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 10 | `government.ru` | central | un_desa;wikidata;wikidata | Government of Russia | UN/DESA national portal |
+| 7 | `19.mvd.ru` |  | wikidata;wikidata | Ministry of Internal Affairs of Khakassia | Ministry of Internal Affairs of K... |
+| 7 | `akzs.ru` | central-1 | wikidata;wikidata | Altai Krai Legislative Assembly |
+| 7 | `arbitr.ru` | central | wikidata;wikidata | Q4068672 | Supreme Court of Arbitration of Russia |
+| 7 | `cikrf.ru` | central | wikidata;wikidata | Central Election Commission of Russia |
+| 7 | `culture.volgograd.ru` | central-1 | wikidata;wikidata | Committee of Culture of the Volgograd Oblast |
+| 7 | `customs.ru` |  | wikidata;wikidata | Federal Customs Service of Russia |
+| 7 | `dagminobr.ru` |  | wikidata;wikidata | Q21641675 |
+| 7 | `digital.tatarstan.ru` | central-1 | wikidata;wikidata | Ministry of Digitalization of Public Administration, Information Technologies... |
+| 7 | `duma.mos.ru` | central-1 | wikidata;wikidata;wikidata | Moscow City Duma |
+| 7 | `duma72.ru` | central-1 | wikidata;wikidata | Tyumen Oblast Duma |
+| 7 | `dumahmao.ru` | central-1 | wikidata;wikidata | Duma of Khanty-Mansi Autonomous Okrug — Yugra |
+| 7 | `eco.tatarstan.ru` | central-1 | wikidata;wikidata | Ministry of Ecology and Natural Resources for the Republic of Tatarstan |
+| 7 | `egov-buryatia.ru` | central-1 | wikidata;wikidata;wikidata | People's Khural of the Republic of Buryatia |
+| 7 | `en.sledcom.ru` | central | wikidata;wikidata | Investigative Committee of Russia |
+| 7 | `fedsfm.ru` |  | wikidata;wikidata | Rosfinmonitoring |
+| 7 | `fsb.ru` | central | wikidata;wikidata;wikidata;wikidata | Federal Security Service | Q4503984 | Central Archive of the Federal Security... |
+| 7 | `fstec.ru` |  | wikidata;wikidata | Federal Service for Technical and Export Control |
+| 7 | `gambiaembassy.ru` | central | wikidata;wikidata | embassy of the Gambia in Russia |
+| 7 | `gorduma-voronezh.ru` |  | wikidata;wikidata | Voronezh City Duma |
 

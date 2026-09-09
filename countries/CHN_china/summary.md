@@ -28,48 +28,31 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-240 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+376 domain(s) proposed for validation, of which 136 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `en.npc.gov.cn.cdurl.cn` | wikidata;wikidata;wikidata | Standing Committee of the National People's Congress | National People's Cong... |
-| 7 | `aacm.gov.mo` | wikidata;wikidata | Civil Aviation Authority of Macau |
-| 7 | `bjast.ac.cn` | wikidata;wikidata | Beijing Academy of Science and Technology |
-| 7 | `caas.cn` | wikidata;wikidata | Chinese Academy of Agricultural Sciences |
-| 7 | `china.usembassy-china.org.cn` | wikidata;wikidata | Embassy of the United States, Beijing | Consulate General of the United State... |
-| 7 | `chinacdc.cn` | wikidata;wikidata;wikidata | National Institute for Radiological Protection | Chinese Center for Disease C... |
-| 7 | `draemp.gov.mo` | wikidata;wikidata | Office of the Macau Special Administrative Region in Beijing |
-| 7 | `hkpl.gov.hk` | wikidata;wikidata | Hong Kong Central Library |
-| 7 | `istic.ac.cn` | wikidata;wikidata | Institute of Scientific and Technical Information of China |
-| 7 | `itc.gov.hk` | wikidata;wikidata | Standards and Calibration Laboratory | Innovation and Technology Commission |
-| 7 | `maldivesembassy.cn` | wikidata;wikidata | Embassy of Maldives, Beijing |
-| 7 | `mofaic.gov.ae` | wikidata;wikidata | Consulate General of the United Arab Emirates, Shanghai | Consulate General o... |
-| 7 | `smg.gov.mo` | wikidata;wikidata | Macao Meteorological and Geophysical Bureau |
-| 7 | `tid.gov.hk` | wikidata;wikidata | Trade and Industry Department |
-| 6 | `ccac.org.mo` | wikidata;wikidata | Commission Against Corruption |
-| 6 | `mzv.sk` | wikidata;wikidata | embassy of Slovakia in China | Q126477683 |
-| 6 | `norway.no` | wikidata;wikidata | Consulate General of Norway in Guangzhou | Embassy of Norway, Beijing |
-| 6 | `swedenabroad.se` | wikidata;wikidata | Consulate General of Sweden, Hong Kong | General Consulate of Sweden Shanghai |
-| 4 | `12379.cn` | wikidata | Q125252164 |
-| 4 | `4io.org.cn` | wikidata | Fourth Institute of Oceanography |
-
-## Local / regional candidates
-
-141 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 136 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 8 | `gov.hnedu.cn` | wikidata;wikidata | Hunan Provincial Department of Education |
-| 7 | `al.gov.mo` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Legislative Assembly of Macau |
-| 7 | `amcm.gov.mo` | wikidata;wikidata | Monetary Authority of Macao |
-| 7 | `amcm.macau.gov.mo` | wikidata;wikidata | Monetary Authority of Macao |
-| 7 | `ca.gov.mo` | wikidata;wikidata | Commission of Audit |
-| 7 | `cedb.gov.hk` | wikidata;wikidata | Commerce and Economic Development Bureau |
-| 7 | `cmab.gov.hk` | wikidata;wikidata | Constitutional and Mainland Affairs Bureau |
-| 7 | `csb.gov.hk` | wikidata;wikidata | Civil Service Bureau |
-| 7 | `cstb.gov.hk` | wikidata;wikidata | Culture, Sports and Tourism Bureau, Hong Kong |
-| 7 | `ctt.gov.mo` | wikidata;wikidata | Macao Post and Telecommunications Bureau |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 8 | `en.npc.gov.cn.cdurl.cn` | central | wikidata;wikidata;wikidata | Standing Committee of the National People's Congress | National People's Cong... |
+| 8 | `gov.hnedu.cn` | central-1 | wikidata;wikidata | Hunan Provincial Department of Education |
+| 7 | `aacm.gov.mo` | central | wikidata;wikidata | Civil Aviation Authority of Macau |
+| 7 | `al.gov.mo` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Legislative Assembly of Macau |
+| 7 | `amcm.gov.mo` | central-1 | wikidata;wikidata | Monetary Authority of Macao |
+| 7 | `amcm.macau.gov.mo` | central-1 | wikidata;wikidata | Monetary Authority of Macao |
+| 7 | `bjast.ac.cn` |  | wikidata;wikidata | Beijing Academy of Science and Technology |
+| 7 | `ca.gov.mo` | central-1 | wikidata;wikidata | Commission of Audit |
+| 7 | `caas.cn` |  | wikidata;wikidata | Chinese Academy of Agricultural Sciences |
+| 7 | `cedb.gov.hk` | central-1 | wikidata;wikidata | Commerce and Economic Development Bureau |
+| 7 | `china.usembassy-china.org.cn` | central | wikidata;wikidata | Embassy of the United States, Beijing | Consulate General of the United State... |
+| 7 | `chinacdc.cn` |  | wikidata;wikidata;wikidata | National Institute for Radiological Protection | Chinese Center for Disease C... |
+| 7 | `cmab.gov.hk` | central-1 | wikidata;wikidata | Constitutional and Mainland Affairs Bureau |
+| 7 | `csb.gov.hk` | central-1 | wikidata;wikidata | Civil Service Bureau |
+| 7 | `cstb.gov.hk` | central-1 | wikidata;wikidata | Culture, Sports and Tourism Bureau, Hong Kong |
+| 7 | `ctt.gov.mo` | central-1 | wikidata;wikidata | Macao Post and Telecommunications Bureau |
+| 7 | `customs.gov.hk` | central-1 | wikidata;wikidata;wikidata;wikidata | Customs and Excise Department |
+| 7 | `devb.gov.hk` | central-1 | wikidata;wikidata | Development Bureau |
+| 7 | `draemp.gov.mo` | central | wikidata;wikidata | Office of the Macau Special Administrative Region in Beijing |
+| 7 | `dsasg.gov.mo` | central-1 | wikidata;wikidata | Direcção dos Serviços para os Assuntos da Sede do Governo |
 

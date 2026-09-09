@@ -28,22 +28,22 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 7 | `dna.sr` | wikidata;wikidata | National Assembly |
-| 4 | `cbvs.sr` | wikidata | Centrale Bank van Suriname |
-| 4 | `eas.sr` | wikidata | Energie Autoriteit Suriname |
-| 4 | `kkf.sr` | wikidata | Chamber of Commerce and Factories |
-| 4 | `nationaalarchief.sr` | wikidata | National Archives of Suriname |
-| 4 | `politie.sr` | wikidata | Korps Politie Suriname |
-| 4 | `sbb.sr` | wikidata | Q126371676 |
-| 3 | `nccr.sr.org` | wikidata | National Coordination Center for Disaster Relief of Suriname |
-| 3 | `statistics-suriname.org` | wikidata | General Bureau of Statistics |
-| 3 | `surguychamber.org` | wikidata | Suriname-Guyana Kamer van Koophandel |
-| 3 | `taalunie.org` | wikidata | Dutch Language Union |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 7 | `dna.sr` | central | wikidata;wikidata | National Assembly |
+| 4 | `cbvs.sr` |  | wikidata | Centrale Bank van Suriname |
+| 4 | `eas.sr` |  | wikidata | Energie Autoriteit Suriname |
+| 4 | `kkf.sr` |  | wikidata | Chamber of Commerce and Factories |
+| 4 | `nationaalarchief.sr` |  | wikidata | National Archives of Suriname |
+| 4 | `politie.sr` |  | wikidata | Korps Politie Suriname |
+| 4 | `sbb.sr` |  | wikidata | Q126371676 |
+| 3 | `nccr.sr.org` |  | wikidata | National Coordination Center for Disaster Relief of Suriname |
+| 3 | `statistics-suriname.org` | central | wikidata | General Bureau of Statistics |
+| 3 | `surguychamber.org` |  | wikidata | Suriname-Guyana Kamer van Koophandel |
+| 3 | `taalunie.org` |  | wikidata | Dutch Language Union |
 

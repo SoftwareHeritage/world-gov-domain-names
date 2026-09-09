@@ -28,15 +28,15 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 10 | `palaugov.pw` | un_desa;wikidata;wikidata | Palau National Archive | Palau Automated Land and Resources Information Syste... |
-| 6 | `palauhealth.org` | wikidata;wikidata | Ministry of Health of Palau |
-| 6 | `palauoek.com` | wikidata;wikidata | Palau National Congress |
-| 5 | `palausupremecourt.net` | wikidata | Supreme Court of Palau |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 10 | `palaugov.pw` |  | un_desa;wikidata;wikidata | Palau National Archive | Palau Automated Land and Resources Information Syste... |
+| 6 | `palauhealth.org` | central | wikidata;wikidata | Ministry of Health of Palau |
+| 6 | `palauoek.com` | central | wikidata;wikidata | Palau National Congress |
+| 5 | `palausupremecourt.net` | central | wikidata | Supreme Court of Palau |
 

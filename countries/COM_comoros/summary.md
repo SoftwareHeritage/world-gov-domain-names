@@ -28,24 +28,17 @@
 
 (institution names usable as seeds for further research)
 
-## Candidate domains ranked by score
+## Proposed domains ranked by score
 
-5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 6 | `coursupremecomores.km` | wikidata | Supreme Court of the Comoros |
-| 4 | `banque-comores.km` | wikidata | Central Bank of the Comoros |
-| 4 | `inseed.km` | wikidata | INSEED |
-| 3 | `km.ambafrance.org` | wikidata | Embassy of France, Moroni |
-| 3 | `km.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Moroni |
-
-## Local / regional candidates
-
-1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
-
-| score | hostname | sources | label |
-|------:|----------|---------|-------|
-| 3 | `anjouanoffshorefinancialauthority.org` | wikidata | Anjouan Offshore Finance Authority |
+| score | hostname | level | sources | label |
+|------:|----------|-------|---------|-------|
+| 6 | `coursupremecomores.km` |  | wikidata | Supreme Court of the Comoros |
+| 4 | `banque-comores.km` |  | wikidata | Central Bank of the Comoros |
+| 4 | `inseed.km` | central | wikidata | INSEED |
+| 3 | `anjouanoffshorefinancialauthority.org` | central-1 | wikidata | Anjouan Offshore Finance Authority |
+| 3 | `km.ambafrance.org` | central | wikidata | Embassy of France, Moroni |
+| 3 | `km.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Moroni |
 
