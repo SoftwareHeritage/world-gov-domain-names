@@ -19,7 +19,7 @@
 ;;                      -> data/public-sector-domains-central+.csv
 ;;   cisa               fetch CISA federal .gov registry -> US root registry
 ;;   lannuaire          fetch FR service-public.gouv.fr directory -> FR registry
-;;   govuk              build UK sub-central exclusions -> GBR excluded-labels
+;;   govuk              build UK sub-central exclusions -> GBR sources/govuk/
 ;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
@@ -689,57 +689,6 @@
                     " ; observers: " (get counts "observer" 0)
                     " ; non-UN: " (get counts "non_un" 0))))))
 
-(defn registry-excluded-labels
-  "Curated lower-tier exclusions declared per country in
-  sources/registry/excluded-labels.csv (domain,label,level,name): labels
-  sitting directly under a central root whose whole subtree belongs to a
-  lower government tier (e.g. the 27 Brazilian state codes under gov.br,
-  whose subtrees mix state agencies and municipalities). Hand-curated
-  additions live in excluded-labels-extra.csv, which generated files (see
-  cmd-govuk) never overwrite. Returns {[country domain] {label {:level l
-  :name n}}} -- :level is \"central-1\" (first-tier body) or \"local\".
-  Roots without an entry are level-homogeneous: everything under them is
-  central government."
-  []
-  (->> (for [c (country-dirs)
-             file ["excluded-labels.csv" "excluded-labels-extra.csv"]
-             :let [path (country-src c "registry" file)]
-             :when (fs/exists? path)
-             [domain label level name] (rest (read-csv-raw path))
-             :let [domain (some-> domain str/trim str/lower-case)
-                   label  (some-> label str/trim str/lower-case)
-                   level  (some-> level str/trim str/lower-case)
-                   ;; labels become hostname labels of policy rows, so
-                   ;; they must be plain DNS labels
-                   valid? (and (valid-hostname? domain)
-                               (some? label)
-                               (re-matches #"[a-z0-9-]+" label))
-                   _ (when (and (not valid?)
-                                (not (every? str/blank? [domain label])))
-                       (err "WARN: ignoring invalid excluded-label row ["
-                            domain " " label "] in " path))]
-             :when valid?]
-         [[c domain] label {:level (if (= level "central-1") level "local")
-                            :name (or name "")}])
-       (reduce (fn [m [k label info]] (assoc-in m [k label] info)) {})))
-
-(defn sub-central-labels
-  "All labels to keep out of a mixed-suffix root's subtree: the excluded
-  labels declared for it (exclude rows) and the labels of its validated
-  central-1 domains (exact rows, see cmd-domains)."
-  [excl c1-under [country domain]]
-  (into (set (keys (get excl [country domain])))
-        (get c1-under [country domain])))
-
-(def ^:private registry-mx-map
-  "{host mx} cached by mx-registry! for a country's registry, read once."
-  (memoize (fn [country] (read-mx-map (country-src country "registry")))))
-
-(defn- registry-mx
-  "MX of a per-country registry domain, or \"\"."
-  [country domain]
-  (get (registry-mx-map country) domain ""))
-
 (defn validated-rows
   "All rows of countries/<c>/validated.csv, the explicit per-country list
   of confirmed roots (domain,level,source; level is central or
@@ -771,6 +720,79 @@
                   (update m [c root] (fnil conj #{}) label)
                   m)))
             {} rows)))
+
+(defn merge-validated-rows
+  "Replace, among the [domain level source name] rows of a validated.csv,
+  the rows owned by source with fresh ones: the old rows of that source
+  go, the fresh rows come in unless the domain is already listed under
+  another source (a manual decision or another registry wins). Pure;
+  result ASCII-sorted by domain."
+  [rows source fresh]
+  (let [kept   (remove #(= source (nth % 2)) rows)
+        taken  (set (map first kept))]
+    (->> (concat kept (remove #(contains? taken (first %)) fresh))
+         (sort-by first))))
+
+(defn sync-validated!
+  "Rewrite the rows of countries/<c>/validated.csv owned by source with
+  fresh [domain level name] rows (see merge-validated-rows). This is how
+  a generated list (registry, cmd-govuk) enters the hand-edited file
+  without touching anyone else's rows."
+  [country-dir source fresh]
+  (let [path (str "countries/" country-dir "/validated.csv")
+        rows (for [[d level src name] (rest (read-csv-raw path))
+                   :let [d (some-> d str/trim str/lower-case)]
+                   :when (valid-hostname? d)]
+               [d (or level "") (or src "") (or name "")])
+        fresh (for [[d level name] fresh] [d level source (or name "")])]
+    (write-csv-file path ["domain" "level" "source" "name"]
+                    (merge-validated-rows rows source fresh))))
+
+(defn excluded-labels
+  "Sub-central labels declared under the validated central roots of a
+  country, from countries/<c>/excluded.csv (hand-curated) and every
+  countries/<c>/sources/*/excluded.csv (generated, e.g. cmd-govuk), both
+  with columns domain,name where domain is a full hostname
+  (abingdon.gov.uk). Returns {[country root] #{label…}}: the labels
+  sitting directly under a validated central root, whose whole subtree
+  belongs to a lower government tier (e.g. UK councils under gov.uk).
+  Excluded hostnames that do not sit under a central root are not
+  labels of anything; they only keep hosts out of proposed.csv. Roots
+  without an entry are level-homogeneous: everything under them is
+  central government."
+  []
+  (let [central (set (for [[c d level] (validated-rows)
+                           :when (= level "central")]
+                       [c d]))]
+    (->> (for [c (country-dirs)
+               path (cons (str "countries/" c "/excluded.csv")
+                          (map str (fs/glob (str "countries/" c "/sources")
+                                            "*/excluded.csv")))
+               :when (fs/exists? path)
+               [domain] (rest (read-csv-raw path))
+               :let [domain (some-> domain str/trim str/lower-case)
+                     [_ label root] (when (valid-hostname? domain)
+                                      (re-matches #"([a-z0-9-]+)\.(.+)" domain))]
+               :when (contains? central [c root])]
+           [[c root] label])
+         (reduce (fn [m [k label]] (update m k (fnil conj #{}) label)) {}))))
+
+(defn sub-central-labels
+  "All labels to keep out of a mixed-suffix root's subtree: the excluded
+  labels declared for it (exclude rows) and the labels of its validated
+  central-1 domains (exact rows, see cmd-domains)."
+  [excl c1-under [country domain]]
+  (into (get excl [country domain] #{})
+        (get c1-under [country domain])))
+
+(def ^:private registry-mx-map
+  "{host mx} cached by mx-registry! for a country's registry, read once."
+  (memoize (fn [country] (read-mx-map (country-src country "registry")))))
+
+(defn- registry-mx
+  "MX of a per-country registry domain, or \"\"."
+  [country domain]
+  (get (registry-mx-map country) domain ""))
 
 (defn- central-root-entries
   "All [country domain mx] feeding the central+ file's central rows: the
@@ -2339,12 +2361,14 @@
                  {}))))
 
 (defn cmd-govuk [_]
-  ;; Build the GBR excluded-labels registry: every gov.uk label belonging to
-  ;; a sub-central body (councils of all tiers, combined authorities, fire
+  ;; Build the GBR sub-central list: every gov.uk label belonging to a
+  ;; sub-central body (councils of all tiers, combined authorities, fire
   ;; services, national parks, NI devolved departments…), so the policy
-  ;; table keeps only UK central government under the gov.uk suffix. Universe: the
-  ;; official CDDO list of registered gov.uk domains, classified by Wikidata
-  ;; GSS anchoring plus naming conventions.
+  ;; table keeps only UK central government under the gov.uk suffix.
+  ;; Universe: the official CDDO list of registered gov.uk domains,
+  ;; classified by Wikidata GSS anchoring plus naming conventions. Local
+  ;; bodies go to sources/govuk/excluded.csv, devolved (central-1) ones
+  ;; to the govuk rows of validated.csv.
   (let [body (http-get govuk-domains-url {:timeout 90})]
     (if (str/blank? body)
       (do (err "ERR: gov.uk domain list fetch failed (" govuk-domains-url ")") 1)
@@ -2368,17 +2392,19 @@
                                  (if (str/blank? (get m l)) (assoc m l n) m))
                                {})
                        (sort-by first))
-            level (fn [l] (if (or (str/ends-with? l "-ni")
-                                  (contains? #{"nidirect" "firescotland"} l))
-                            "central-1" "local"))
-            out (country-src "GBR_united_kingdom" "registry"
-                             "excluded-labels.csv")]
+            central-1? (fn [l] (or (str/ends-with? l "-ni")
+                                   (contains? #{"nidirect" "firescotland"} l)))
+            {devolved true local false} (group-by (comp boolean central-1? first) named)
+            out (country-src "GBR_united_kingdom" "govuk" "excluded.csv")]
         (ensure-dir (fs/parent out))
-        (write-csv-file out ["domain" "label" "level" "name"]
-                        (for [[l n] named] ["gov.uk" l (level l) n]))
-        (println (str "Wrote " out " (" (count named) " sub-central labels out"
+        (write-csv-file out ["domain" "name"]
+                        (for [[l n] local] [(str l ".gov.uk") n]))
+        (sync-validated! "GBR_united_kingdom" "govuk"
+                         (for [[l n] devolved] [(str l ".gov.uk") "central-1" n]))
+        (println (str "Wrote " out " (" (count local) " local labels out"
                       " of " (count universe) " registered gov.uk domains; "
-                      (count wd-hits) " matched via Wikidata GSS)"))
+                      (count wd-hits) " matched via Wikidata GSS) and "
+                      (count devolved) " central-1 rows into validated.csv"))
         0))))
 
 ;; ===========================================================================
@@ -2417,7 +2443,7 @@
 
   It covers central administration plus one tier below it, and nothing
   lower: every excluded label of a mixed-suffix root
-  (registry-excluded-labels) becomes an exclude row, and every validated
+  (excluded-labels) becomes an exclude row, and every validated
   central-1 domain directly under a central root (sp.gov.br,
   central1-under) becomes an exact row, so
   lower-tier hosts registered anywhere in their subtree
@@ -2428,7 +2454,7 @@
   (if-not (fs/exists? central-plus-file)
     (err "ERR: " central-plus-file " missing. Run 'bb pipeline central' first")
     (let [rows (rest (read-csv-raw central-plus-file))
-          excl (registry-excluded-labels)
+          excl (excluded-labels)
           c1-under (central1-under)
           apexes (set (for [[[c root] labels] c1-under
                             label labels]
