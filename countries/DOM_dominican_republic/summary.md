@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 85 of 193
 - Government type: presidential republic
 - Capital: Santo Domingo
-- Domains collected (HTTP 200): 793
+- Hosts collected: 793
 
 ## UN/DESA national portal
 
 - Declared: [http://dominicana.gob.do](http://dominicana.gob.do) (host `dominicana.gob.do`)
-- ⚠️ Exact hostname not in the 200s, but `gob.do` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gob.do` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

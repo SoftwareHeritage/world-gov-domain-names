@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 135 of 193
 - Government type: presidential republic
 - Capital: Dakar
-- Domains collected (HTTP 200): 691
+- Hosts collected: 691
 
 ## UN/DESA national portal
 

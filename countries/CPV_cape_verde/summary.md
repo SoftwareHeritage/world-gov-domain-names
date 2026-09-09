@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 111 of 193
 - Government type: parliamentary republic
 - Capital: Praia
-- Domains collected (HTTP 200): 16
+- Hosts collected: 16
 
 ## UN/DESA national portal
 

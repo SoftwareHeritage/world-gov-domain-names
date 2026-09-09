@@ -2024,7 +2024,7 @@
   (when un-rank   (println (str "- UN/DESA EGDI: " un-rank)))
   (when fb-govtype (println (str "- Government type: " fb-govtype)))
   (when fb-capital (println (str "- Capital: " fb-capital)))
-  (println (str "- Domains collected (HTTP 200): " n-collected))
+  (println (str "- Hosts collected: " n-collected))
   (println))
 
 (defn- section-un-portal [country-dir un-portal collected]
@@ -2040,7 +2040,7 @@
         :else
         (let [parent (parent-domain host)]
           (if (and parent (fs/exists? (harvest-file country-dir parent)))
-            (println (str "- ⚠️ Exact hostname not in the 200s, but `" parent "` is harvested (to be probed)"))
+            (println (str "- ⚠️ Exact hostname not collected, but `" parent "` is harvested (to be probed)"))
             (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/crtsh/" (or parent host) ".csv` present"))))))
     (println)))
 

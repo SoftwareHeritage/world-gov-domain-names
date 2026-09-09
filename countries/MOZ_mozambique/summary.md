@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 177 of 193
 - Government type: presidential republic
 - Capital: Maputo
-- Domains collected (HTTP 200): 663
+- Hosts collected: 663
 
 ## UN/DESA national portal
 

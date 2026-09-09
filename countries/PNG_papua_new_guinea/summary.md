@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 171 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Port Moresby
-- Domains collected (HTTP 200): 869
+- Hosts collected: 869
 
 ## UN/DESA national portal
 

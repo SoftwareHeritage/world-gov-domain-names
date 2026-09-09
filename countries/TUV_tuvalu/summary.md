@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 158 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Funafuti
-- Domains collected (HTTP 200): 60
+- Hosts collected: 60
 
 ## UN/DESA national portal
 

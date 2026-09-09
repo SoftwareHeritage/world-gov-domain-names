@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 193 of 193
 - Government type: presidential republic
 - Capital: Bangui
-- Domains collected (HTTP 200): 98
+- Hosts collected: 98
 
 ## UN/DESA national portal
 

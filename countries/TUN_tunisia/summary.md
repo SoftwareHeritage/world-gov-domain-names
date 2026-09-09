@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 87 of 193
 - Government type: parliamentary republic
 - Capital: Tunis
-- Domains collected (HTTP 200): 320
+- Hosts collected: 320
 
 ## UN/DESA national portal
 
 - Declared: [http://www.tunisie.gov.tn](http://www.tunisie.gov.tn) (host `tunisie.gov.tn`)
-- ⚠️ Exact hostname not in the 200s, but `gov.tn` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.tn` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

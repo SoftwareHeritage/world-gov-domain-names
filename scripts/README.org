@@ -3,13 +3,31 @@
 
 The whole pipeline lives in =scripts/pipeline.clj=.
 
-* Single format: subdomains.csv
+* Per-country layout
 
-The pipeline operates on one file per domain,
-=countries/<c>/sources/roots/<d>/subdomains.csv=, with header
-=subdomain,http_status=.
-Status is empty after =fetch= / =normalize=, filled by =probe=, and
-preserved by later phases.
+Two hand-edited files per country carry every decision:
+
+- =countries/<c>/validated.csv= (=domain,level,source,name=) -- the
+  confirmed root domains, =level= =central= or =central-1=. =source=
+  is =manual= or the registry that owns the row (=cisa=, =lannuaire=,
+  =brreg=, =govuk=): a registry command rewrites its own rows and never
+  touches the others (=sync-validated!=); a =manual= row wins over a
+  registry duplicate.
+- =countries/<c>/excluded.csv= (=domain,name=) -- hostnames out of
+  scope: sub-central labels of a shared root and rejected proposals.
+
+Everything else is generated: =proposed.csv=, =subdomains.csv=,
+=summary.md= and the whole =sources/= tree.
+
+The harvest lives in one file per harvested root,
+=countries/<c>/sources/crtsh/<root>.csv=, header
+=subdomain,http_status,mx=, the root's own apex included. Status and
+MX are empty after =fetch= / =normalize=, filled by =probe= / =mx=,
+and preserved by later phases. Validating a root and harvesting it
+are two distinct steps: =fetch <root>= creates the harvest file of a
+root listed in some =validated.csv= (and refuses any other); a
+validated root without a harvest only gets its apex probed, into
+=sources/probes/roots.csv=.
 
 * Commands
 
@@ -21,7 +39,7 @@ scripts/pipeline.clj <cmd>=:
 #+begin_src bash
   bb pipeline collect            # crt.sh -> probe -> 200
   bb pipeline enrich             # wikidata + 4 parallel sources
-  bb pipeline report             # candidates.csv + summary.md
+  bb pipeline report             # proposed.csv + summary.md
   bb pipeline all                # everything in sequence
 
   bb pipeline report FRA_france  # restrict to one country
@@ -33,14 +51,15 @@ scripts/pipeline.clj <cmd>=:
 #+begin_src bash
   bb scripts/pipeline.clj fetch gov.it gouv.fr  # crt.sh on specific domains
   bb scripts/pipeline.clj retry                 # replay FAILs from last log
-  bb scripts/pipeline.clj normalize             # clean every CSV
-  bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe
-  bb scripts/pipeline.clj mx gov.it             # DNS MX lookup -> mx.csv (email signal)
+  bb scripts/pipeline.clj normalize             # clean every harvest file
+  bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe (no arg: + unharvested roots)
+  bb scripts/pipeline.clj mx gov.it             # DNS MX lookup -> mx column (no arg: + unharvested roots)
+  bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts
   bb scripts/pipeline.clj aggregate             # rebuild data/public-sector-domains.csv
   bb scripts/pipeline.clj central               # extract data/public-sector-domains-central+.csv
-  bb scripts/pipeline.clj cisa                  # refresh US federal .gov registry (CISA)
-  bb scripts/pipeline.clj lannuaire             # refresh FR central-admin registry (service-public)
-  bb scripts/pipeline.clj govuk                 # rebuild UK sub-central exclusions (CDDO + Wikidata)
+  bb scripts/pipeline.clj cisa                  # CISA federal .gov list -> sources/cisa/ + validated.csv
+  bb scripts/pipeline.clj lannuaire             # FR service-public directory -> sources/lannuaire/ + validated.csv
+  bb scripts/pipeline.clj govuk                 # UK sub-central bodies -> sources/govuk/ + validated.csv
 
   bb scripts/pipeline.clj wikidata Q142:FRA_france
   bb scripts/pipeline.clj iana FRA_france
@@ -61,14 +80,31 @@ Two more side scripts share the same layout:
   harvests the machine-readable official directories of public bodies
   (declarative =directory-specs=, one entry per country: NO, DE, IT,
   CA, NL, UK, PL). Depending on the spec's =:channel= it writes
-  =sources/registry/roots.csv= (authoritative central scoping, entering
-  the central file directly) or =sources/directory/orgs.csv= (feeding
-  =candidates.csv= with a +4 bonus and the =directory= source tag).
+  =sources/<registry>/roots.csv= and the registry's rows of
+  =validated.csv= (authoritative central scoping: Norway's =brreg=) or
+  =sources/directory/orgs.csv= (feeding =proposed.csv= with a +4 bonus
+  and the =directory= source tag).
   Unlike the two others it serves the core goal; it lives apart only
   to keep =pipeline.clj= lean.
 - =scripts/detect-universities.clj= (=bb universities fetch|migrate=)
   keeps the strictly public universities as a parked dataset in
   =data/public-universities.csv=, out of the pipeline's scope.
+
+Contributors who know a country's administration can review its
+candidates with =scripts/review.clj= (=bb review [COUNTRY]=): it asks
+for a country, shows the hosts of =proposed.csv= one at a time (best
+scores first, with their HTTPS status and MX when probed) and records
+the answer, given by a single key press -- =c= central, =1= central-1,
+=l= local, =?= unknown, =n= to add a note, =o= to open the host in
+the browser through =xdg-open= (or =OPENER=) -- in
+=review-<COUNTRY>.csv= in the current
+directory, after each host, so a session can be stopped and resumed.
+On exit it summarises the answers that differ from the proposed level
+and mails the file to the maintainer through =sendmail= (=--send=
+re-sends an existing file; =NO_MAIL=1= or a missing =sendmail= writes
+a =.eml= to send by hand; =REVIEW_TO= and =REVIEW_FROM= override the
+addresses). Reviews are merged by hand into =validated.csv= (=c= and
+=1= answers) or =excluded.csv= (=l= answers).
 
 Forge and source-code-catalog detection lives in its own script,
 =scripts/detect-forges.clj= (=bb forges <command>=): it shares the
@@ -128,21 +164,17 @@ central government plus the first subdivision tier and nothing below:
    =go.jp=…): everything under the root is central government, a
    single =subtree= row is correct.
 2. *Mixed suffix, structurally separable* (=gov.br=, =gov.au=): lower
-   government tiers live under known labels of the root. Those labels
-   are curated in =sources/registry/excluded-labels.csv=
-   (=domain,label,level,name= -- e.g. the 27 Brazilian state codes
-   under =gov.br= or the 8 Australian state/territory codes under
-   =gov.au=), and =domains= turns them into =exact= or =exclude= rows.
-   The =level= column records the tier of
-   the subtree's apex and drives what is whitelisted back: a
-   =central-1= label keeps its apex domain as an =exact= match (the
-   scope is central + first tier), a =local= subtree is an =exclude=,
-   out entirely. Anything deeper inside a =central-1= subtree only matches
+   government tiers live under known labels of the root. A first-tier
+   body (=sp.gov.br=, the 27 Brazilian states, the 8 Australian
+   states/territories) is a =central-1= row of =validated.csv=:
+   =domains= turns it into an =exact= row and takes its label out of
+   the root's subtree. A lower-tier label is a row of =excluded.csv=
+   (=abingdon.gov.uk=): =domains= turns it into an =exclude= row, out
+   entirely. Anything deeper inside a =central-1= subtree only matches
    once listed explicitly in the central+ scope, so lower tiers hosted
    there stay out -- =fazenda.gov.br= and =sp.gov.br= match,
    =campinas.sp.gov.br= (a municipality) and =abingdon.gov.uk= do
-   not. Hand-curated additions go in =excluded-labels-extra.csv= (same
-   columns), which generated files never overwrite.
+   not.
 
    The UK is a heavier variant: councils of all tiers (incl. ~4500
    parish councils), combined authorities and devolved administrations
@@ -153,16 +185,18 @@ central government plus the first subdivision tier and nothing below:
    jurisdiction, country-level codes excluded) plus naming conventions
    (=…parish=, =…-pc=, =…cc=, =…-ca=, =…-ni=, fire services, national
    parks…), with a small allowlist protecting central acronym bodies
-   (DECC, JNCC, RPC…). Residual sub-central bodies with opaque names
-   are curated by hand in =excluded-labels-extra.csv= (locals plus
-   Scotland/Wales/NI devolved bodies tagged =central-1=). Refresh with
-   =bb pipeline govuk= after updating =govuk-domains-url= to the
-   latest yearly snapshot.
+   (DECC, JNCC, RPC…). The generated list goes to
+   =sources/govuk/excluded.csv= (locals) and to the =govuk= rows of
+   =validated.csv= (devolved bodies, =central-1=); residual sub-central
+   bodies with opaque names are curated by hand in =excluded.csv= and
+   in the =manual= rows of =validated.csv=. Refresh with =bb pipeline
+   govuk= after updating =govuk-domains-url= to the latest yearly
+   snapshot.
 3. *Mixed suffix, not separable by shape* (US =.gov=, where federal,
    state and city domains share the same structure): the central-level
    domains must be enumerated from an authoritative register into
-   =sources/registry/roots.csv= (e.g. CISA's federal =.gov= list via
-   =bb pipeline cisa=).
+   =validated.csv= (e.g. CISA's federal =.gov= list via =bb pipeline
+   cisa=, which keeps its raw copy in =sources/cisa/roots.csv=).
 
 * Prerequisites
 
@@ -171,7 +205,7 @@ central government plus the first subdivision tier and nothing below:
 - =data/world-governments.csv= (master list with =un_status= column)
 - =data/country_qid.csv= (Wikidata mapping, built via =bb pipeline build-qid=)
 - =data/factbook_aliases.csv= and =data/un_desa_aliases.csv= (country-name overrides)
-- =countries/<ISO3>_<slug>/sources/roots/<domain>/= directories initialized
+- =countries/<ISO3>_<slug>/validated.csv= listing the roots to harvest
 
 * Environment variables
 
@@ -190,34 +224,31 @@ For each uncovered candidate hostname:
 |------------------------------------------------------------+--------|
 | UN/DESA-declared national portal                           |     +5 |
 | Per distinct Wikidata mention (capped at +6 = 2 mentions)  |     +3 |
-| Hostname listed in the curated source channel (manual)     |     +3 |
 | Hostname under the country's primary ccTLD                 |     +1 |
 | Central pattern (=gov./bund./gouv./governo./gobierno./…=)    |     +1 |
 | Wikidata label contains a Factbook institution name        |     +2 |
 | Label suggests a territorial subdivision (Land, region, …) |     -5 |
 | 3+ Wikidata mentions, none with =federal/national/sovereign= |     -5 |
 
-Score clamped to =[0, 10]=. The two penalties only apply when ranking
-central candidates -- =candidates-local.csv= has its own ranking where
-burying subnational entries would defeat the purpose.
+Score clamped to =[0, 10]=. The two penalties only apply to hosts not
+already known as subnational.
 
-Output: two files with columns =hostname,score,sources,label,level=:
-
-- =countries/<c>/candidates.csv= -- central-administration candidates
-  (=level= is =central=, or blank when nothing is known yet), sorted
-  score desc / hostname asc;
-- =countries/<c>/candidates-local.csv= -- candidates attributed to a
-  subnational administration: =level=central-1= for bodies of a
-  first-level subdivision of the country (Land, state, region,
-  province…), =level=local= for anything below (city, county,
-  department…). =central-1= rows sort first, then score desc /
-  hostname asc.
+Output: =countries/<c>/proposed.csv=, columns
+=hostname,score,sources,label,level,http_status,mx=, sorted score desc
+/ hostname asc. =level= is =central=, =central-1= (bodies of a
+first-level subdivision of the country: Land, state, region,
+province…) or blank when nothing is known yet; hosts attributed to a
+lower tier (city, county, department…) are not written anywhere.
+Hosts covered by a =validated.csv= domain (any country -- Wikidata
+files embassies under their host country) or by an =excluded.csv=
+domain are left out. The two probe columns come from
+=sources/probes/proposed.csv=, filled by =bb pipeline probe-proposed=
+and kept across =report= runs.
 
 The =level= comes from the Wikidata P1001 jurisdiction captured at
 fetch time (the country itself ⇒ =central=, one of its first-level
-subdivisions ⇒ =central-1=, anything else ⇒ =local=), from the
-optional =level= column of the curated source (which wins), or from
-label patterns as a fallback: the subdivision vocabulary pattern marks
+subdivisions ⇒ =central-1=, anything else ⇒ =local=), or from label
+patterns as a fallback: the subdivision vocabulary pattern marks
 a host =local=, upgraded to =central-1= when its label names one of
 the country's first-level subdivisions. Those subdivisions (the
 country's Wikidata P150 values, dissolved ones excluded) are fetched
@@ -231,39 +262,31 @@ Public Code/) can widen their scope from the central administration to
 central + first subdivision level without pulling in the long tail of
 municipal domains.
 
-* Curated candidates (manual)
-
-Central-government domains the automated harvest (Wikidata / UN-DESA)
-misses can be added by hand in an isolated, versioned source:
-
-=countries/<c>/sources/curated/central_admin.csv= -- schema
-=type,label,website,hostname,provenance[,level]=. The =report= phase
-reads it alongside Wikidata and UN/DESA, so listed hosts re-enter
-=candidates.csv= reproducibly, scored =+3= and tagged =sources=curated=.
-The optional =level= column (=central= / =central-1= / =local=)
-overrides every other level signal -- this is where manual
-consolidation happens.
-The =provenance= column records where each entry came from. The
-directory is excluded from root-domain promotion (it is part of
-=source-dirs-set=), so adding a candidate here never auto-promotes it.
-
 * Manual curation workflow
 
-To promote a candidate into the dataset:
+A decision is one line in a hand-edited file. To confirm a proposal:
 
 #+begin_src bash
-# 1. Inspect the scored candidates
-less countries/ITA_italy/candidates.csv
+# 1. Inspect the proposals
+less countries/ITA_italy/proposed.csv
 
-# 2. If legit, create the root directory (under sources/roots/)
-mkdir -p countries/ITA_italy/sources/roots/quirinale.it
+# 2. If legit, add it to validated.csv (level central or central-1)
+echo 'quirinale.it,central,manual,Presidency of the Republic' >> countries/ITA_italy/validated.csv
 
-# 3. Run the standard pipeline on that domain
+# 3. Optionally harvest its subdomains (validated roots need no harvest)
 bb scripts/pipeline.clj fetch quirinale.it
 bb scripts/pipeline.clj normalize
 bb scripts/pipeline.clj probe quirinale.it
-bb scripts/pipeline.clj aggregate
+bb scripts/pipeline.clj mx quirinale.it
 
-# 4. Confirm the candidate is no longer flagged
+# 4. Rebuild the outputs; the host is no longer proposed
+bb scripts/pipeline.clj aggregate
+bb scripts/pipeline.clj central
+bb scripts/pipeline.clj domains
 bb scripts/pipeline.clj report ITA_italy
 #+end_src
+
+To reject one, add its hostname to =countries/ITA_italy/excluded.csv=
+(=domain,name=) and run =report=: it never comes back. Keep both files
+sorted by domain; =git diff= stays readable and the registries'
+=sync-validated!= rewrites =validated.csv= sorted anyway.

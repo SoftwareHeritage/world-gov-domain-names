@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 102 of 193
 - Government type: parliamentary republic
 - Capital: San Marino (city)
-- Domains collected (HTTP 200): 2
+- Hosts collected: 2
 
 ## UN/DESA national portal
 

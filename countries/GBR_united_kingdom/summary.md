@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 7 of 193
 - Government type: parliamentary constitutional monarchy; a Commonwealth realm
 - Capital: London
-- Domains collected (HTTP 200): 4872
+- Hosts collected: 4872
 
 ## UN/DESA national portal
 

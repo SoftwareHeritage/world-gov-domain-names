@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 52 of 193
 - Government type: constitutional monarchy
 - Capital: Bangkok
-- Domains collected (HTTP 200): 628
+- Hosts collected: 628
 
 ## UN/DESA national portal
 

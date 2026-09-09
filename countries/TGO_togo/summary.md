@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 161 of 193
 - Government type: presidential republic
 - Capital: Lome
-- Domains collected (HTTP 200): 661
+- Hosts collected: 661
 
 ## UN/DESA national portal
 

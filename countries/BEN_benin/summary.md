@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 146 of 193
 - Government type: presidential republic
 - Capital: Porto-Novo (constitutional capital); Cotonou (seat of government)
-- Domains collected (HTTP 200): 421
+- Hosts collected: 421
 
 ## UN/DESA national portal
 

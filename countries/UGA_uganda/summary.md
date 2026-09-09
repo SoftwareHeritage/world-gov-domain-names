@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 150 of 193
 - Government type: presidential republic
 - Capital: Kampala
-- Domains collected (HTTP 200): 112
+- Hosts collected: 112
 
 ## UN/DESA national portal
 

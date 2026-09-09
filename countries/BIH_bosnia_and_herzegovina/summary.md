@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 107 of 193
 - Government type: parliamentary republic
 - Capital: Sarajevo
-- Domains collected (HTTP 200): 651
+- Hosts collected: 651
 
 ## UN/DESA national portal
 
 - Declared: [http://www.fbihvlada.gov.ba](http://www.fbihvlada.gov.ba) (host `fbihvlada.gov.ba`)
-- ⚠️ Exact hostname not in the 200s, but `gov.ba` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.ba` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

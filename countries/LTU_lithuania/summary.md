@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 21 of 193
 - Government type: semi-presidential republic
 - Capital: Vilnius
-- Domains collected (HTTP 200): 17
+- Hosts collected: 17
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 88 of 193
 - Government type: parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the President of France and Bishop of Seu d'Urgell, Spain
 - Capital: Andorra la Vella
-- Domains collected (HTTP 200): 133
+- Hosts collected: 133
 
 ## UN/DESA national portal
 

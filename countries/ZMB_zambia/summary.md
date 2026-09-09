@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 130 of 193
 - Government type: presidential republic
 - Capital: Lusaka
-- Domains collected (HTTP 200): 567
+- Hosts collected: 567
 
 ## UN/DESA national portal
 

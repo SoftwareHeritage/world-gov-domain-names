@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 82 of 193
 - Government type: constitutional monarchy
 - Capital: Monaco
-- Domains collected (HTTP 200): 127
+- Hosts collected: 127
 
 ## UN/DESA national portal
 

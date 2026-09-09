@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 185 of 193
 - Government type: in transition
 - Capital: Sanaa
-- Domains collected (HTTP 200): 567
+- Hosts collected: 567
 
 ## UN/DESA national portal
 
 - Declared: [http://www.yemen.gov.ye](http://www.yemen.gov.ye) (host `yemen.gov.ye`)
-- ⚠️ Exact hostname not in the 200s, but `gov.ye` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.ye` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

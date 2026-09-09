@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 58 of 193
 - Government type: presidential republic
 - Capital: Lima
-- Domains collected (HTTP 200): 2424
+- Hosts collected: 2424
 
 ## UN/DESA national portal
 
 - Declared: [http://www.peru.gob.pe](http://www.peru.gob.pe) (host `peru.gob.pe`)
-- ⚠️ Exact hostname not in the 200s, but `gob.pe` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gob.pe` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 173 of 193
 - Government type: semi-presidential republic
 - Capital: Bamako
-- Domains collected (HTTP 200): 677
+- Hosts collected: 677
 
 ## UN/DESA national portal
 

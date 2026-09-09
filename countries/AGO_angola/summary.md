@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 156 of 193
 - Government type: presidential republic
 - Capital: Luanda
-- Domains collected (HTTP 200): 1040
+- Hosts collected: 1040
 
 ## UN/DESA national portal
 

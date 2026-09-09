@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 181 of 193
 - Government type: presidential republic
 - Capital: Banjul
-- Domains collected (HTTP 200): 168
+- Hosts collected: 168
 
 ## UN/DESA national portal
 

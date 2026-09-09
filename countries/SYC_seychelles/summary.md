@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 92 of 193
 - Government type: presidential republic
 - Capital: Victoria
-- Domains collected (HTTP 200): 295
+- Hosts collected: 295
 
 ## UN/DESA national portal
 

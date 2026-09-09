@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 91 of 193
 - Government type: parliamentary republic; a Commonwealth realm
 - Capital: Bridgetown
-- Domains collected (HTTP 200): 413
+- Hosts collected: 413
 
 ## UN/DESA national portal
 

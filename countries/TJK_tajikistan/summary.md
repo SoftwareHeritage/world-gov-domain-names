@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 123 of 193
 - Government type: presidential republic
 - Capital: Dushanbe
-- Domains collected (HTTP 200): 448
+- Hosts collected: 448
 
 ## UN/DESA national portal
 

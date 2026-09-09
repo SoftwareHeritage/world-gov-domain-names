@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 94 of 193
 - Government type: presidential republic
 - Capital: Malé
-- Domains collected (HTTP 200): 489
+- Hosts collected: 489
 
 ## UN/DESA national portal
 

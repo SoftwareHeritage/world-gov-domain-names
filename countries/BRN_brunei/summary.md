@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 75 of 193
 - Government type: absolute monarchy or sultanate
 - Capital: Bandar Seri Begawan
-- Domains collected (HTTP 200): 554
+- Hosts collected: 554
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 37 of 193
 - Government type: parliamentary republic
 - Capital: Warsaw
-- Domains collected (HTTP 200): 1651
+- Hosts collected: 1651
 
 ## UN/DESA national portal
 

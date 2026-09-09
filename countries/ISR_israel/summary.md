@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 23 of 193
 - Government type: parliamentary democracy
 - Capital: Jerusalem
-- Domains collected (HTTP 200): 1008
+- Hosts collected: 1008
 
 ## UN/DESA national portal
 

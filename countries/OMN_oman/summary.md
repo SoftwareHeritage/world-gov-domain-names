@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 41 of 193
 - Government type: absolute monarchy
 - Capital: Muscat
-- Domains collected (HTTP 200): 842
+- Hosts collected: 842
 
 ## UN/DESA national portal
 

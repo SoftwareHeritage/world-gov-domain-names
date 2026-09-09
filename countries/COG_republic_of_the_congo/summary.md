@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 166 of 193
 - Government type: presidential republic
 - Capital: Brazzaville
-- Domains collected (HTTP 200): 20
+- Hosts collected: 20
 
 ## UN/DESA national portal
 

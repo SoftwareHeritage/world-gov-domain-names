@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 54 of 193
 - Government type: parliamentary republic
 - Capital: Prague
-- Domains collected (HTTP 200): 735
+- Hosts collected: 735
 
 ## UN/DESA national portal
 

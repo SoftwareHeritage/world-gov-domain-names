@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 73 of 193
 - Government type: presidential republic
 - Capital: Manila
-- Domains collected (HTTP 200): 1614
+- Hosts collected: 1614
 
 ## UN/DESA national portal
 

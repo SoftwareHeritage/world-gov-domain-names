@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 141 of 193
 - Government type: parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm
 - Capital: Belmopan
-- Domains collected (HTTP 200): 336
+- Hosts collected: 336
 
 ## UN/DESA national portal
 

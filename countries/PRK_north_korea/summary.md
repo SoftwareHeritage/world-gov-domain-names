@@ -12,7 +12,7 @@
 - UN/DESA EGDI: Rank 184 of 193
 - Government type: dictatorship, single-party communist state
 - Capital: Pyongyang
-- Domains collected (HTTP 200): 1
+- Hosts collected: 1
 
 ## UN/DESA national portal
 

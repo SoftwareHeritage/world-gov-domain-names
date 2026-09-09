@@ -10,7 +10,7 @@
 - Currencies: EGP; ILS; JOD
 - ccTLD: `.ps` (manager: Ministry of Telecommunications &amp; Information Technology, Government Computer Center)
 - OECD: non-member
-- Domains collected (HTTP 200): 553
+- Hosts collected: 553
 
 ## Proposed domains ranked by score
 

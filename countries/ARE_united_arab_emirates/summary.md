@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 11 of 193
 - Government type: federation of monarchies
 - Capital: Abu Dhabi
-- Domains collected (HTTP 200): 17
+- Hosts collected: 17
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 86 of 193
 - Government type: parliamentary republic
 - Capital: Port of Spain
-- Domains collected (HTTP 200): 610
+- Hosts collected: 610
 
 ## UN/DESA national portal
 

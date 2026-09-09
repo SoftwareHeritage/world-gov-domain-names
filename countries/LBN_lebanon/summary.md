@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 126 of 193
 - Government type: parliamentary democratic republic
 - Capital: Beirut
-- Domains collected (HTTP 200): 642
+- Hosts collected: 642
 
 ## UN/DESA national portal
 

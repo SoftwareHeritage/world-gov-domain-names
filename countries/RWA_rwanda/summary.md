@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 118 of 193
 - Government type: presidential republic
 - Capital: Kigali
-- Domains collected (HTTP 200): 1237
+- Hosts collected: 1237
 
 ## UN/DESA national portal
 

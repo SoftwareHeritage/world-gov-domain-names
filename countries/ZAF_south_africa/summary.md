@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 40 of 193
 - Government type: parliamentary republic
 - Capital: Pretoria (administrative capital); Cape Town (legislative capital); Bloemfontein (judicial capital)
-- Domains collected (HTTP 200): 1841
+- Hosts collected: 1841
 
 ## UN/DESA national portal
 

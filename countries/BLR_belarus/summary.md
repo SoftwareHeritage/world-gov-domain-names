@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 77 of 193
 - Government type: presidential republic in name, although in fact a dictatorship
 - Capital: Minsk
-- Domains collected (HTTP 200): 720
+- Hosts collected: 720
 
 ## UN/DESA national portal
 

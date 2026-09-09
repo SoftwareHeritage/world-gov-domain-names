@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 116 of 193
 - Government type: presidential republic
 - Capital: Algiers
-- Domains collected (HTTP 200): 407
+- Hosts collected: 407
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 133 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Castries
-- Domains collected (HTTP 200): 158
+- Hosts collected: 158
 
 ## UN/DESA national portal
 

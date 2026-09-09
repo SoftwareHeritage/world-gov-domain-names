@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 136 of 193
 - Government type: federal parliamentary republic
 - Capital: Islamabad
-- Domains collected (HTTP 200): 1332
+- Hosts collected: 1332
 
 ## UN/DESA national portal
 
 - Declared: [http://www.pakistan.gov.pk](http://www.pakistan.gov.pk) (host `pakistan.gov.pk`)
-- ⚠️ Exact hostname not in the 200s, but `gov.pk` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.pk` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

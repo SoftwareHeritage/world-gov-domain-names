@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 22 of 193
 - Government type: federal parliamentary republic
 - Capital: Vienna
-- Domains collected (HTTP 200): 2511
+- Hosts collected: 2511
 
 ## UN/DESA national portal
 

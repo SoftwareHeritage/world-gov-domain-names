@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 142 of 193
 - Government type: presidential republic
 - Capital: Tegucigalpa
-- Domains collected (HTTP 200): 869
+- Hosts collected: 869
 
 ## UN/DESA national portal
 

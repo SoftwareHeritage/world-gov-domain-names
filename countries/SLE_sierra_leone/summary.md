@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 172 of 193
 - Government type: presidential republic
 - Capital: Freetown
-- Domains collected (HTTP 200): 633
+- Hosts collected: 633
 
 ## UN/DESA national portal
 

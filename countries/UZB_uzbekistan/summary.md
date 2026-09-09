@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 63 of 193
 - Government type: presidential republic; highly authoritarian
 - Capital: Tashkent (Toshkent)
-- Domains collected (HTTP 200): 277
+- Hosts collected: 277
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 31 of 193
 - Government type: presidential republic
 - Capital: Santiago; note - Valparaiso is the seat of the national legislature
-- Domains collected (HTTP 200): 678
+- Hosts collected: 678
 
 ## UN/DESA national portal
 

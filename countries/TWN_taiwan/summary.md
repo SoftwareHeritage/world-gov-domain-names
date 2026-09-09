@@ -11,7 +11,7 @@
 - OECD: non-member
 - Government type: semi-presidential republic
 - Capital: Taipei
-- Domains collected (HTTP 200): 0
+- Hosts collected: 0
 
 ## Institutions named by CIA Factbook
 

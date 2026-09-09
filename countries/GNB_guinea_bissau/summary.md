@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 170 of 193
 - Government type: semi-presidential republic
 - Capital: Bissau
-- Domains collected (HTTP 200): 65
+- Hosts collected: 65
 
 ## UN/DESA national portal
 

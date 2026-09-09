@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 26 of 193
 - Government type: federal republic (formally a confederation)
 - Capital: Bern
-- Domains collected (HTTP 200): 2847
+- Hosts collected: 2847
 
 ## UN/DESA national portal
 

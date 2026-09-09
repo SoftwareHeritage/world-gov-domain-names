@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 71 of 193
 - Government type: communist party-led state
 - Capital: Hanoi (Ha Noi)
-- Domains collected (HTTP 200): 1692
+- Hosts collected: 1692
 
 ## UN/DESA national portal
 
 - Declared: [http://www.vietnam.gov.vn](http://www.vietnam.gov.vn) (host `vietnam.gov.vn`)
-- ⚠️ Exact hostname not in the 200s, but `gov.vn` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.vn` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

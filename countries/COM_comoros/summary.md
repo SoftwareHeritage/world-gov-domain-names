@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 180 of 193
 - Government type: federal presidential republic
 - Capital: Moroni
-- Domains collected (HTTP 200): 3
+- Hosts collected: 3
 
 ## UN/DESA national portal
 

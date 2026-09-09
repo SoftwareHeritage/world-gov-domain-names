@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 183 of 193
 - Government type: presidential republic
 - Capital: Gitega (political capital), Bujumbura (commercial capital)
-- Domains collected (HTTP 200): 612
+- Hosts collected: 612
 
 ## UN/DESA national portal
 

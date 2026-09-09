@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 43 of 193
 - Government type: semi-presidential federation
 - Capital: Moscow
-- Domains collected (HTTP 200): 621
+- Hosts collected: 621
 
 ## UN/DESA national portal
 

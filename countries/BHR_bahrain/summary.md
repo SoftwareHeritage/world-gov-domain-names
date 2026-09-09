@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 18 of 193
 - Government type: constitutional monarchy
 - Capital: Manama
-- Domains collected (HTTP 200): 838
+- Hosts collected: 838
 
 ## UN/DESA national portal
 

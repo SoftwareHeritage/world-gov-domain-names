@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 79 of 193
 - Government type: presidential republic
 - Capital: Panama City
-- Domains collected (HTTP 200): 772
+- Hosts collected: 772
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 95 of 193
 - Government type: presidential republic
 - Capital: Cairo
-- Domains collected (HTTP 200): 767
+- Hosts collected: 767
 
 ## UN/DESA national portal
 

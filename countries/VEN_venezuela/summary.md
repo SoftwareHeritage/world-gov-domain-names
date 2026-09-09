@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 131 of 193
 - Government type: federal presidential republic
 - Capital: Caracas
-- Domains collected (HTTP 200): 1484
+- Hosts collected: 1484
 
 ## UN/DESA national portal
 

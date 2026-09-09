@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 60 of 193
 - Government type: parliamentary republic
 - Capital: Bratislava
-- Domains collected (HTTP 200): 447
+- Hosts collected: 447
 
 ## UN/DESA national portal
 

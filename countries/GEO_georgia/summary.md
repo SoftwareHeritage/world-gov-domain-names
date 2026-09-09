@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 69 of 193
 - Government type: semi-presidential republic
 - Capital: Tbilisi
-- Domains collected (HTTP 200): 745
+- Hosts collected: 745
 
 ## UN/DESA national portal
 

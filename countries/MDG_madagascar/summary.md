@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 168 of 193
 - Government type: semi-presidential republic
 - Capital: Antananarivo
-- Domains collected (HTTP 200): 505
+- Hosts collected: 505
 
 ## UN/DESA national portal
 

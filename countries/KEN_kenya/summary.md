@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 109 of 193
 - Government type: presidential republic
 - Capital: Nairobi
-- Domains collected (HTTP 200): 1
+- Hosts collected: 1
 
 ## UN/DESA national portal
 

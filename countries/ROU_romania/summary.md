@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 72 of 193
 - Government type: semi-presidential republic
 - Capital: Bucharest
-- Domains collected (HTTP 200): 412
+- Hosts collected: 412
 
 ## UN/DESA national portal
 

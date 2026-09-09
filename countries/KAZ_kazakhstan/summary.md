@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 24 of 193
 - Government type: presidential republic
 - Capital: Astana
-- Domains collected (HTTP 200): 1057
+- Hosts collected: 1057
 
 ## UN/DESA national portal
 

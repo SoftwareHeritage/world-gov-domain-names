@@ -7,7 +7,7 @@
               :task (apply shell "bb scripts/pipeline.clj collect" *command-line-args*)}
   enrich     {:doc  "wikidata + iana/cia/un-desa/oecd/meta (parallel)"
               :task (apply shell "bb scripts/pipeline.clj enrich" *command-line-args*)}
-  report     {:doc  "cross-check: candidates.csv + summary.md"
+  report     {:doc  "cross-check: proposed.csv + summary.md"
               :task (apply shell "bb scripts/pipeline.clj report" *command-line-args*)}
   indegree   {:doc  "link-graph in-degree (eu-plus-government-scans) -> sources/linkgraph/"
               :task (apply shell "bb scripts/pipeline.clj indegree" *command-line-args*)}
@@ -15,7 +15,9 @@
               :task (apply shell "bb scripts/detect-forges.clj" *command-line-args*)}
   universities {:doc  "public-universities harvest (parked dataset) -- run 'bb universities help'"
                 :task (apply shell "bb scripts/detect-universities.clj" *command-line-args*)}
-  directories {:doc  "harvest official directories of public bodies -> registry/candidates"
+  directories {:doc  "harvest official directories of public bodies -> validated.csv / proposed.csv"
                :task (apply shell "bb scripts/detect-from-directories.clj" *command-line-args*)}
+  review     {:doc  "interactive review of a country's candidate domains, mailed to the maintainer"
+              :task (apply shell "bb scripts/review.clj" *command-line-args*)}
   all        {:doc  "collect + enrich + report"
               :task (apply shell "bb scripts/pipeline.clj all" *command-line-args*)}}}

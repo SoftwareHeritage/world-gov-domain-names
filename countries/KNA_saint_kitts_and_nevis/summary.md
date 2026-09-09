@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 110 of 193
 - Government type: federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Basseterre
-- Domains collected (HTTP 200): 212
+- Hosts collected: 212
 
 ## UN/DESA national portal
 

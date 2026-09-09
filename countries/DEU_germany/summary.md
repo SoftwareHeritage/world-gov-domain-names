@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 12 of 193
 - Government type: federal parliamentary republic
 - Capital: Berlin
-- Domains collected (HTTP 200): 193
+- Hosts collected: 193
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 89 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Amman
-- Domains collected (HTTP 200): 972
+- Hosts collected: 972
 
 ## UN/DESA national portal
 

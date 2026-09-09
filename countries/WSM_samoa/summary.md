@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 140 of 193
 - Government type: parliamentary republic
 - Capital: Apia
-- Domains collected (HTTP 200): 198
+- Hosts collected: 198
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 139 of 193
 - Government type: communist state
 - Capital: Havana
-- Domains collected (HTTP 200): 325
+- Hosts collected: 325
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 39 of 193
 - Government type: parliamentary republic
 - Capital: Belgrade (Beograd)
-- Domains collected (HTTP 200): 721
+- Hosts collected: 721
 
 ## UN/DESA national portal
 

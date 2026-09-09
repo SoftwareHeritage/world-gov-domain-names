@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 147 of 193
 - Government type: presidential republic
 - Capital: Tarawa
-- Domains collected (HTTP 200): 418
+- Hosts collected: 418
 
 ## UN/DESA national portal
 

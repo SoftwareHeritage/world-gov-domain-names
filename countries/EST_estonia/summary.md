@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 2 of 193
 - Government type: parliamentary republic
 - Capital: Tallinn
-- Domains collected (HTTP 200): 397
+- Hosts collected: 397
 
 ## UN/DESA national portal
 

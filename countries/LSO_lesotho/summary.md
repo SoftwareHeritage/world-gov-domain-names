@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 157 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Maseru
-- Domains collected (HTTP 200): 260
+- Hosts collected: 260
 
 ## UN/DESA national portal
 

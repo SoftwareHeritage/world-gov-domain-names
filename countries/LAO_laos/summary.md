@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 152 of 193
 - Government type: communist party-led state
 - Capital: Vientiane (Viangchan)
-- Domains collected (HTTP 200): 775
+- Hosts collected: 775
 
 ## UN/DESA national portal
 
 - Declared: [http://www.laogov.gov.la](http://www.laogov.gov.la) (host `laogov.gov.la`)
-- ⚠️ Exact hostname not in the 200s, but `gov.la` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.la` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

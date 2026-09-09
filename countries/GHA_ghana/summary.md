@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 108 of 193
 - Government type: presidential republic
 - Capital: Accra
-- Domains collected (HTTP 200): 822
+- Hosts collected: 822
 
 ## UN/DESA national portal
 
 - Declared: [http://www.ghana.gov.gh](http://www.ghana.gov.gh) (host `ghana.gov.gh`)
-- ⚠️ Exact hostname not in the 200s, but `gov.gh` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.gh` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 90 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Rabat
-- Domains collected (HTTP 200): 692
+- Hosts collected: 692
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 62 of 193
 - Government type: parliamentary republic
 - Capital: Tirana (Tirane)
-- Domains collected (HTTP 200): 763
+- Hosts collected: 763
 
 ## UN/DESA national portal
 

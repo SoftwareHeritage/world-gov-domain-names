@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 46 of 193
 - Government type: semi-presidential republic
 - Capital: Ulaanbaatar
-- Domains collected (HTTP 200): 2226
+- Hosts collected: 2226
 
 ## UN/DESA national portal
 

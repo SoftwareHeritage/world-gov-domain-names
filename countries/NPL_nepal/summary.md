@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 119 of 193
 - Government type: federal parliamentary republic
 - Capital: Kathmandu
-- Domains collected (HTTP 200): 2092
+- Hosts collected: 2092
 
 ## UN/DESA national portal
 

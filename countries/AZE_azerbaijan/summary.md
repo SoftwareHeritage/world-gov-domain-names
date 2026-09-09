@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 74 of 193
 - Government type: presidential republic
 - Capital: Baku (Baki, Baky)
-- Domains collected (HTTP 200): 854
+- Hosts collected: 854
 
 ## UN/DESA national portal
 

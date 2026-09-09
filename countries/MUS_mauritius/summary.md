@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 76 of 193
 - Government type: parliamentary republic
 - Capital: Port Louis
-- Domains collected (HTTP 200): 74
+- Hosts collected: 74
 
 ## UN/DESA national portal
 

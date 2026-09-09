@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 97 of 193
 - Government type: federal parliamentary republic
 - Capital: New Delhi
-- Domains collected (HTTP 200): 2339
+- Hosts collected: 2339
 
 ## UN/DESA national portal
 

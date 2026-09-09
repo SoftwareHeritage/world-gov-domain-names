@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 106 of 193
 - Government type: presidential republic
 - Capital: Paramaribo
-- Domains collected (HTTP 200): 86
+- Hosts collected: 86
 
 ## UN/DESA national portal
 

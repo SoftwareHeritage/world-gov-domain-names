@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 122 of 193
 - Government type: presidential republic
 - Capital: Guatemala City
-- Domains collected (HTTP 200): 1103
+- Hosts collected: 1103
 
 ## UN/DESA national portal
 

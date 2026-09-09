@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 84 of 193
 - Government type: parliamentary republic
 - Capital: Skopje
-- Domains collected (HTTP 200): 908
+- Hosts collected: 908
 
 ## UN/DESA national portal
 

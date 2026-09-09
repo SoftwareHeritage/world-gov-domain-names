@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 33 of 193
 - Government type: parliamentary republic
 - Capital: Ljubljana
-- Domains collected (HTTP 200): 588
+- Hosts collected: 588
 
 ## UN/DESA national portal
 

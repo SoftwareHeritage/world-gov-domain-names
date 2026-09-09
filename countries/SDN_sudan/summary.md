@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 178 of 193
 - Government type: presidential republic
 - Capital: Khartoum
-- Domains collected (HTTP 200): 557
+- Hosts collected: 557
 
 ## UN/DESA national portal
 

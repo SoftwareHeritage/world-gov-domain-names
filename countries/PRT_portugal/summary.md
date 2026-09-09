@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 49 of 193
 - Government type: semi-presidential republic
 - Capital: Lisbon
-- Domains collected (HTTP 200): 1618
+- Hosts collected: 1618
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 148 of 193
 - Government type: federal parliamentary republic
 - Capital: Baghdad
-- Domains collected (HTTP 200): 546
+- Hosts collected: 546
 
 ## UN/DESA national portal
 

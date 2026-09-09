@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 120 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Phnom Penh
-- Domains collected (HTTP 200): 904
+- Hosts collected: 904
 
 ## UN/DESA national portal
 
 - Declared: [http://www.cdc-crdb.gov.kh](http://www.cdc-crdb.gov.kh) (host `cdc-crdb.gov.kh`)
-- ⚠️ Exact hostname not in the 200s, but `gov.kh` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.kh` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

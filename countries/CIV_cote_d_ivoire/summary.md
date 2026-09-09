@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 124 of 193
 - Government type: presidential republic
 - Capital: Yamoussoukro (legislative capital), Abidjan (administrative and economic capital); note - the US Embassy is in Abidjan
-- Domains collected (HTTP 200): 347
+- Hosts collected: 347
 
 ## UN/DESA national portal
 

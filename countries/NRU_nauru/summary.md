@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 151 of 193
 - Government type: parliamentary republic
 - Capital: no official capital; government offices in the Yaren District
-- Domains collected (HTTP 200): 42
+- Hosts collected: 42
 
 ## UN/DESA national portal
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 83 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Nassau
-- Domains collected (HTTP 200): 616
+- Hosts collected: 616
 
 ## UN/DESA national portal
 

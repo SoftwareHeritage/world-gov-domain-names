@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 9 of 193
 - Government type: parliamentary republic
 - Capital: Helsinki
-- Domains collected (HTTP 200): 290
+- Hosts collected: 290
 
 ## UN/DESA national portal
 

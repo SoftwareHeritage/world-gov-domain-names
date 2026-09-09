@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 190 of 193
 - Government type: authoritarian
 - Capital: Asmara
-- Domains collected (HTTP 200): 3
+- Hosts collected: 3
 
 ## UN/DESA national portal
 

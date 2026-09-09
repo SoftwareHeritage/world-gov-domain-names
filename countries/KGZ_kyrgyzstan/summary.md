@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 78 of 193
 - Government type: parliamentary republic
 - Capital: Bishkek
-- Domains collected (HTTP 200): 345
+- Hosts collected: 345
 
 ## UN/DESA national portal
 

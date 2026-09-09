@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 44 of 193
 - Government type: constitutional monarchy
 - Capital: Vaduz
-- Domains collected (HTTP 200): 14
+- Hosts collected: 14
 
 ## UN/DESA national portal
 

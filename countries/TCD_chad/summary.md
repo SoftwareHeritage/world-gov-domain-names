@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 189 of 193
 - Government type: presidential republic
 - Capital: N'Djamena
-- Domains collected (HTTP 200): 345
+- Hosts collected: 345
 
 ## UN/DESA national portal
 

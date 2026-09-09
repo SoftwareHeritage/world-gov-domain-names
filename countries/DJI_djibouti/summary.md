@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 174 of 193
 - Government type: presidential republic
 - Capital: Djibouti
-- Domains collected (HTTP 200): 63
+- Hosts collected: 63
 
 ## UN/DESA national portal
 

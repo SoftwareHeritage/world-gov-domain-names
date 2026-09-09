@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 35 of 193
 - Government type: communist party-led state
 - Capital: Beijing
-- Domains collected (HTTP 200): 2568
+- Hosts collected: 2568
 
 ## UN/DESA national portal
 

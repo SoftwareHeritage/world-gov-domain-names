@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 50 of 193
 - Government type: federal presidential republic
 - Capital: Brasília
-- Domains collected (HTTP 200): 2448
+- Hosts collected: 2448
 
 ## UN/DESA national portal
 

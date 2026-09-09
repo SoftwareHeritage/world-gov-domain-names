@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 160 of 193
 - Government type: presidential republic
 - Capital: Conakry
-- Domains collected (HTTP 200): 509
+- Hosts collected: 509
 
 ## UN/DESA national portal
 

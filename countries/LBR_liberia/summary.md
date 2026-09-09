@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 182 of 193
 - Government type: presidential republic
 - Capital: Monrovia
-- Domains collected (HTTP 200): 466
+- Hosts collected: 466
 
 ## UN/DESA national portal
 

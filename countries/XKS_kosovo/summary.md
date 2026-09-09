@@ -6,7 +6,7 @@
 - OECD: non-member
 - Government type: parliamentary republic
 - Capital: Pristina (Prishtine, Prishtina)
-- Domains collected (HTTP 200): 0
+- Hosts collected: 0
 
 ## Institutions named by CIA Factbook
 

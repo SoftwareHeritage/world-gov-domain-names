@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 32 of 193
 - Government type: parliamentary republic
 - Capital: Zagreb
-- Domains collected (HTTP 200): 507
+- Hosts collected: 507
 
 ## UN/DESA national portal
 
 - Declared: [https://vlada.gov.hr](https://vlada.gov.hr) (host `vlada.gov.hr`)
-- ⚠️ Exact hostname not in the 200s, but `gov.hr` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.hr` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

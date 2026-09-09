@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 59 of 193
 - Government type: parliamentary republic
 - Capital: Budapest
-- Domains collected (HTTP 200): 154
+- Hosts collected: 154
 
 ## UN/DESA national portal
 

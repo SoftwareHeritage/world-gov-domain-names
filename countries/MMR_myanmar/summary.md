@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 138 of 193
 - Government type: military regime
 - Capital: Rangoon (aka Yangon, continues to be recognized as the primary Burmese capital by the US Government); Nay Pyi Taw is the administrative capital
-- Domains collected (HTTP 200): 484
+- Hosts collected: 484
 
 ## UN/DESA national portal
 

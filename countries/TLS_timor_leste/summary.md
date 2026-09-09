@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 159 of 193
 - Government type: semi-presidential republic
 - Capital: Dili
-- Domains collected (HTTP 200): 464
+- Hosts collected: 464
 
 ## UN/DESA national portal
 
 - Declared: [http://timor-leste.gov.tl](http://timor-leste.gov.tl) (host `timor-leste.gov.tl`)
-- ⚠️ Exact hostname not in the 200s, but `gov.tl` is harvested (to be probed)
+- ⚠️ Exact hostname not collected, but `gov.tl` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

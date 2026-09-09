@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 145 of 193
 - Government type: presidential republic; authoritarian
 - Capital: Ashgabat (Ashkhabad)
-- Domains collected (HTTP 200): 556
+- Hosts collected: 556
 
 ## UN/DESA national portal
 

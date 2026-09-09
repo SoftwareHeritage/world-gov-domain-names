@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 67 of 193
 - Government type: presidential republic
 - Capital: Quito
-- Domains collected (HTTP 200): 3241
+- Hosts collected: 3241
 
 ## UN/DESA national portal
 

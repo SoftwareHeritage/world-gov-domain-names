@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 105 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Saint John's
-- Domains collected (HTTP 200): 133
+- Hosts collected: 133
 
 ## UN/DESA national portal
 

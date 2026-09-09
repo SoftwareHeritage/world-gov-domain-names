@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 179 of 193
 - Government type: semi-presidential republic
 - Capital: Kinshasa
-- Domains collected (HTTP 200): 641
+- Hosts collected: 641
 
 ## UN/DESA national portal
 

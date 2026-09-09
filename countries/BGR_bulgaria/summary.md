@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 55 of 193
 - Government type: parliamentary republic
 - Capital: Sofia
-- Domains collected (HTTP 200): 67
+- Hosts collected: 67
 
 ## UN/DESA national portal
 

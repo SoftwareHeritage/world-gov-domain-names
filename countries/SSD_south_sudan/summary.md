@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 192 of 193
 - Government type: presidential republic
 - Capital: Juba
-- Domains collected (HTTP 200): 347
+- Hosts collected: 347
 
 ## UN/DESA national portal
 

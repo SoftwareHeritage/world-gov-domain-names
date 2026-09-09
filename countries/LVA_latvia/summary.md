@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 29 of 193
 - Government type: parliamentary republic
 - Capital: Riga
-- Domains collected (HTTP 200): 15
+- Hosts collected: 15
 
 ## UN/DESA national portal
 

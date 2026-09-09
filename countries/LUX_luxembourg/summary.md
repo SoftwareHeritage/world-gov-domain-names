@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 45 of 193
 - Government type: constitutional monarchy
 - Capital: Luxembourg
-- Domains collected (HTTP 200): 19
+- Hosts collected: 19
 
 ## UN/DESA national portal
 
