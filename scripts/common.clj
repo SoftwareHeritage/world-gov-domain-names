@@ -76,19 +76,23 @@
   (boolean
     (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
 
-(defn validated-rows
-  "All rows of countries/<c>/validated.csv, the explicit per-country list
-  of confirmed roots (domain,level,source; level is central or
-  central-1). Seq of [country domain level source]."
-  []
-  (for [c (country-dirs)
-        :let [path (str "countries/" c "/validated.csv")]
-        :when (fs/exists? path)
-        [domain level source name] (rest (read-csv-raw path))
+(defn validated-file [country-dir] (str "countries/" country-dir "/validated.csv"))
+
+(defn read-validated
+  "Rows [domain level source name] of countries/<c>/validated.csv, the
+  explicit list of confirmed roots (level is central or central-1);
+  hostnames normalised, cells trimmed. Empty when the file is absent."
+  [country-dir]
+  (for [[domain level source name] (rest (read-csv-raw (validated-file country-dir)))
         :let [domain (some-> domain str/trim str/lower-case)]
         :when (valid-hostname? domain)]
-    [c domain (str/trim (or level "")) (str/trim (or source ""))
-     (str/trim (or name ""))]))
+    [domain (str/trim (or level "")) (str/trim (or source "")) (str/trim (or name ""))]))
+
+(defn validated-rows
+  "read-validated over every country: seq of [country domain level source name]."
+  []
+  (for [c (country-dirs), [d level source name] (read-validated c)]
+    [c d level source name]))
 
 (defn normalize-name
   "Lowercase a name and strip everything but [a-z0-9], for matching country
@@ -111,6 +115,21 @@
         (str/replace #"^www\." "")
         (str/replace #"/.*$" "")
         (str/replace #":.*$" ""))))
+
+(def multi-tlds
+  #{"co.uk" "gov.uk" "ac.uk" "org.uk" "com.au" "gov.au" "org.au"
+    "co.nz" "gov.nz" "com.br" "gov.br" "co.za" "gov.za"})
+
+(defn parent-domain [host]
+  (or (some #(when (str/ends-with? host (str "." %)) %) multi-tlds)
+      (let [parts (str/split host #"\.")
+            n (count parts)]
+        (when (>= n 2)
+          (str (nth parts (- n 2)) "." (last parts))))))
+
+(def slug->country-dir
+  "{normalised country name -> country_dir}, e.g. \"france\" -> FRA_france."
+  (delay (into {} (for [c (country-dirs)] [(country-slug c) c]))))
 
 (defn bounded-pmap
   "Like pmap but with a fixed thread pool of size n. Returns a vector of
@@ -195,17 +214,6 @@
                   [k (if (str/blank? v) (get existing-map k "") v)])
         extra   (for [[k v] existing :when (not (emitted k))] [k v])]
     (concat primary extra)))
-
-(defn merge-rows-union
-  "Union the existing CSV rows (header dropped) at path with new-rows,
-  de-duplicated on the whole row: existing rows are never dropped, genuinely new
-  rows are added. Sorted by the column at sort-idx, then the full row."
-  [path new-rows sort-idx]
-  (let [existing (when (fs/exists? path) (rest (read-csv-raw path)))]
-    (->> (concat existing new-rows)
-         (map vec)
-         distinct
-         (sort-by (juxt #(nth % sort-idx "") identity)))))
 
 (defn skip? [out-path] (and (fs/exists? out-path) (not force?)))
 
@@ -292,14 +300,9 @@
   a generated list (registry, cmd-govuk) enters the hand-edited file
   without touching anyone else's rows."
   [country-dir source fresh]
-  (let [path (str "countries/" country-dir "/validated.csv")
-        rows (for [[d level src name] (rest (read-csv-raw path))
-                   :let [d (some-> d str/trim str/lower-case)]
-                   :when (valid-hostname? d)]
-               [d (or level "") (or src "") (or name "")])
-        fresh (for [[d level name] fresh] [d level source (or name "")])]
-    (write-csv-file path ["domain" "level" "source" "name"]
-                    (merge-validated-rows rows source fresh))))
+  (write-csv-file (validated-file country-dir) ["domain" "level" "source" "name"]
+                  (merge-validated-rows (read-validated country-dir) source
+                                        (for [[d level name] fresh] [d level source (or name "")]))))
 
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))

@@ -80,11 +80,6 @@
   [file]
   (str/replace (str (fs/file-name file)) #"\.csv$" ""))
 
-(defn harvest-country
-  "The country_dir a harvest file belongs to."
-  [file]
-  (str (fs/file-name (fs/parent (fs/parent (fs/parent file))))))
-
 (defn harvest-file
   "Path of the harvest file of root in country_dir (existing or not)."
   [country-dir root]
@@ -109,35 +104,25 @@
     (write-csv-file file harvest-header
                     (for [[h [st mx]] (sort-by first merged)] [h st mx]))))
 
-(def probes-header ["domain" "http_status" "mx"])
-
-(defn probes-file [country-dir] (country-src country-dir "probes" "roots.csv"))
-
-(defn read-probes
-  "{domain [http_status mx]} of countries/<c>/sources/probes/roots.csv: the
-  probes of the validated roots that have no harvest file."
-  [country-dir]
-  (into {} (for [[d st mx] (rest (read-csv-raw (probes-file country-dir)))
-                 :when (not (str/blank? d))]
-             [d [(or st "") (or mx "")]])))
-
-(defn write-probes! [country-dir probes]
-  (write-csv-file (probes-file country-dir) probes-header
-                  (for [[d [st mx]] (sort-by first probes)] [d st mx])))
-
-(defn proposed-probes-file [country-dir] (country-src country-dir "probes" "proposed.csv"))
-
-(defn read-proposed-probes
-  "{hostname [http_status mx]} of countries/<c>/sources/probes/proposed.csv:
-  the probes of the hosts proposed for validation."
-  [country-dir]
-  (into {} (for [[h st mx] (rest (read-csv-raw (proposed-probes-file country-dir)))
-                 :when (not (str/blank? h))]
+(defn read-probe-file
+  "{host [http_status mx]} of a probes file (<key>,http_status,mx)."
+  [path]
+  (into {} (for [[h st mx] (rest (read-csv-raw path)) :when (not (str/blank? h))]
              [h [(or st "") (or mx "")]])))
 
-(defn write-proposed-probes! [country-dir probes]
-  (write-csv-file (proposed-probes-file country-dir) ["hostname" "http_status" "mx"]
+(defn write-probe-file! [path key-header probes]
+  (write-csv-file path [key-header "http_status" "mx"]
                   (for [[h [st mx]] (sort-by first probes)] [h st mx])))
+
+;; sources/probes/roots.csv: the validated roots that have no harvest file.
+(defn read-probes [country-dir] (read-probe-file (country-src country-dir "probes" "roots.csv")))
+(defn write-probes! [country-dir probes]
+  (write-probe-file! (country-src country-dir "probes" "roots.csv") "domain" probes))
+
+;; sources/probes/proposed.csv: the hosts proposed for validation.
+(defn read-proposed-probes [country-dir] (read-probe-file (country-src country-dir "probes" "proposed.csv")))
+(defn write-proposed-probes! [country-dir probes]
+  (write-probe-file! (country-src country-dir "probes" "proposed.csv") "hostname" probes))
 
 (defn unharvested-roots
   "Validated domains of a country (any level) that have no harvest file:
@@ -331,7 +316,7 @@
                                probes probed))))))
 
 (defn cmd-probe [args]
-  (let [timeout (Integer/parseInt (or (System/getenv "TIMEOUT") "5"))]
+  (let [timeout (env-int "TIMEOUT" 5)]
     (doseq [f (resolve-harvest-files args)] (probe-domain! f timeout))
     ;; a domain-scoped run stays scoped; a full run also covers the
     ;; validated roots that have no harvest file
@@ -488,133 +473,89 @@
                     " ; observers: " (get counts "observer" 0)
                     " ; non-UN: " (get counts "non_un" 0))))))
 
-(defn central1-under
-  "{[country root] #{label…}}: the label of every validated central-1
-  domain sitting directly under a validated central root of the same
-  country (sp.gov.br under gov.br -> {[BRA gov.br] #{\"sp\"}}). Such a
-  domain is an apex of the policy table (exact row) and its label leaves
-  the root's subtree, so no lower-tier host registered under it
-  (campinas.sp.gov.br) passes as central."
+(defn- central-roots
+  "#{[country root]} of the level=central rows of every validated.csv."
   []
-  (let [rows (validated-rows)
-        central (set (for [[c d level] rows :when (= level "central")] [c d]))]
-    (reduce (fn [m [c d level]]
-              (let [[_ label root] (when (= level "central-1")
-                                     (re-matches #"([a-z0-9-]+)\.(.+)" d))]
+  (set (for [[c d level] (validated-rows) :when (= level "central")] [c d])))
+
+(defn- labels-under-central
+  "{[country root] #{label…}} from [country hostname] pairs: keep the
+  hostnames sitting directly under a validated central root of the same
+  country (sp.gov.br under gov.br -> {[BRA gov.br] #{\"sp\"}}), as labels
+  of that root."
+  [pairs]
+  (let [central (central-roots)]
+    (reduce (fn [m [c d]]
+              (let [[_ label root] (re-matches #"([a-z0-9-]+)\.(.+)" d)]
                 (if (and root (contains? central [c root]))
                   (update m [c root] (fnil conj #{}) label)
                   m)))
-            {} rows)))
+            {} pairs)))
+
+(defn central1-under
+  "{[country root] #{label…}}: the label of every validated central-1
+  domain sitting directly under a validated central root. Such a domain
+  is an apex of the policy table (exact row) and its label leaves the
+  root's subtree, so no lower-tier host registered under it
+  (campinas.sp.gov.br) passes as central."
+  []
+  (labels-under-central (for [[c d level] (validated-rows) :when (= level "central-1")] [c d])))
+
+(defn excluded-hostnames
+  "The hostnames of countries/<c>/excluded.csv (hand-curated) and every
+  countries/<c>/sources/*/excluded.csv (generated, e.g. cmd-govuk), both
+  with columns domain,name where domain is a full hostname."
+  [country-dir]
+  (for [path (cons (str "countries/" country-dir "/excluded.csv")
+                   (map str (fs/glob (str "countries/" country-dir "/sources") "*/excluded.csv")))
+        [domain] (rest (read-csv-raw path))
+        :let [domain (some-> domain str/trim str/lower-case)]
+        :when (valid-hostname? domain)]
+    domain))
 
 (defn excluded-labels
-  "Sub-central labels declared under the validated central roots of a
-  country, from countries/<c>/excluded.csv (hand-curated) and every
-  countries/<c>/sources/*/excluded.csv (generated, e.g. registries/cmd-govuk), both
-  with columns domain,name where domain is a full hostname
-  (abingdon.gov.uk). Returns {[country root] #{label…}}: the labels
-  sitting directly under a validated central root, whose whole subtree
-  belongs to a lower government tier (e.g. UK councils under gov.uk).
-  Excluded hostnames that do not sit under a central root are not
-  labels of anything; they only keep hosts out of proposed.csv. Roots
-  without an entry are level-homogeneous: everything under them is
-  central government."
+  "{[country root] #{label…}}: the excluded hostnames sitting directly
+  under a validated central root, whose whole subtree belongs to a lower
+  government tier (UK councils under gov.uk): exclude rows of the policy
+  table. Excluded hostnames elsewhere only keep hosts out of
+  proposed.csv. Roots without an entry are level-homogeneous: everything
+  under them is central government."
   []
-  (let [central (set (for [[c d level] (validated-rows)
-                           :when (= level "central")]
-                       [c d]))]
-    (->> (for [c (country-dirs)
-               path (cons (str "countries/" c "/excluded.csv")
-                          (map str (fs/glob (str "countries/" c "/sources")
-                                            "*/excluded.csv")))
-               :when (fs/exists? path)
-               [domain] (rest (read-csv-raw path))
-               :let [domain (some-> domain str/trim str/lower-case)
-                     [_ label root] (when (valid-hostname? domain)
-                                      (re-matches #"([a-z0-9-]+)\.(.+)" domain))]
-               :when (contains? central [c root])]
-           [[c root] label])
-         (reduce (fn [m [k label]] (update m k (fnil conj #{}) label)) {}))))
+  (labels-under-central (for [c (country-dirs), d (excluded-hostnames c)] [c d])))
 
 (def excluded-domains
-  "{country_dir #{domain…}}: every hostname of countries/<c>/excluded.csv
-  and countries/<c>/sources/*/excluded.csv. A host equal to or under one
-  of them is out of scope, whatever the sources say, so proposed.csv never
-  lists it again: excluded.csv is where a reviewer's 'no' is recorded."
-  (delay
-    (into {}
-          (for [c (country-dirs)]
-            [c (set (for [path (cons (str "countries/" c "/excluded.csv")
-                                     (map str (fs/glob (str "countries/" c "/sources")
-                                                       "*/excluded.csv")))
-                          :when (fs/exists? path)
-                          [domain] (rest (read-csv-raw path))
-                          :let [domain (some-> domain str/trim str/lower-case)]
-                          :when (valid-hostname? domain)]
-                      domain))]))))
-
-(defn sub-central-labels
-  "All labels to keep out of a mixed-suffix root's subtree: the excluded
-  labels declared for it (exclude rows) and the labels of its validated
-  central-1 domains (exact rows, see cmd-domains)."
-  [excl c1-under [country domain]]
-  (into (get excl [country domain] #{})
-        (get c1-under [country domain])))
-
-(defn- central-root-entries
-  "All [country domain mx] feeding the central+ file's central rows: the
-  level=central rows of validated.csv, with the apex MX (root-probes)."
-  []
-  (for [[c d level] (validated-rows)
-        :when (= level "central")]
-    [c d (second (root-probes c d))]))
-
-(defn- central1-entries
-  "First-tier (central-1) domains feeding the central+ file: the
-  level=central-1 rows of validated.csv. Only CONFIRMED entries pass,
-  mirroring the manual gate of the central level (decision of
-  2026-08-17); unconfirmed central-1 candidates -- however well scored --
-  stay in proposed.csv as the curation worklist.
-  Returns [country domain name score sources level]."
-  []
-  (for [[c domain level _source name] (validated-rows)
-        :when (= level "central-1")]
-    [c domain name "" "registry" "central-1"]))
+  "{country_dir #{domain…}}: every excluded hostname of a country. A host
+  equal to or under one of them is out of scope, whatever the sources
+  say, so proposed.csv never lists it again: excluded.csv is where a
+  reviewer's 'no' is recorded."
+  (delay (into {} (for [c (country-dirs)] [c (set (excluded-hostnames c))]))))
 
 (defn cmd-central [_]
   ;; Extract data/public-sector-domains-central+.csv: one row per
   ;; central-government root domain (level central) plus the first-tier
-  ;; bodies (level central-1, see central1-entries), for the central +
+  ;; bodies (level central-1), for the central +
   ;; first-subdivision report scope. A root stands for all its
   ;; subdomains, so these are the email domains the report needs.
-  ;; Sources: the level=central rows of countries/<c>/validated.csv and
-  ;; its central-1 rows. UN-facing: members/observers only.
-  ;; Carries the domain's MX as an email signal when available.
+  ;; Source: the central and central-1 rows of countries/<c>/validated.csv
+  ;; -- only CONFIRMED domains, mirroring the manual gate of the central
+  ;; level (decision of 2026-08-17); unconfirmed central-1 hosts stay in
+  ;; proposed.csv as the curation worklist. UN-facing: members/observers
+  ;; only. Carries the domain's MX as an email signal when available;
+  ;; central-1 rows keep their body's name and the `registry` channel.
   (let [un-by-country  (build-un-status-map)
         meta-by-country (country-meta-map)
-        with-country-meta (fn [country row-fn]
-                            (let [un (get un-by-country country "member")
-                                  m  (get meta-by-country country)]
-                              (when (not= un "non_un")
-                                (row-fn un m))))
         plus-rows
-        (->> (concat
-              (keep (fn [[country domain mx]]
-                      (with-country-meta country
-                        (fn [un m]
-                          [domain country "central" un (:region m)
-                           (:langs m) (:gdp m) "" "" "" mx])))
-                    (central-root-entries))
-              (keep (fn [[country domain name score sources level]]
-                      (with-country-meta country
-                        (fn [un m]
-                          [domain country level un (:region m)
-                           (:langs m) (:gdp m) name score sources
-                           (second (root-probes country domain))])))
-                    (central1-entries)))
-             ;; one row per [domain country]: a central-1 candidate whose
-             ;; domain is also a confirmed central root (via a registry)
-             ;; must not appear twice; central rows come first in the
-             ;; concat, so they win
+        (->> (for [[c d level _ name] (validated-rows)
+                   :when (#{"central" "central-1"} level)
+                   :let [un (get un-by-country c "member")
+                         m  (get meta-by-country c)
+                         c1? (= level "central-1")]
+                   :when (not= un "non_un")]
+               [d c level un (:region m) (:langs m) (:gdp m)
+                (if c1? name "") "" (if c1? "registry" "") (second (root-probes c d))])
+             ;; one row per [domain country]; should a domain be listed
+             ;; twice, the central row wins ("central" sorts first)
+             (sort-by #(nth % 2))
              (reduce (fn [m [domain country :as row]]
                        (cond-> m
                          (not (contains? m [domain country]))
@@ -650,17 +591,6 @@
   {"GBR_united_kingdom" #{"scot" "wales" "im" "je" "gg" "gi" "io"}
    "DNK_denmark"        #{"fo" "gl"}
    "NLD_netherlands"    #{"aw" "cw" "sx"}})
-
-(def multi-tlds
-  #{"co.uk" "gov.uk" "ac.uk" "org.uk" "com.au" "gov.au" "org.au"
-    "co.nz" "gov.nz" "com.br" "gov.br" "co.za" "gov.za"})
-
-(defn parent-domain [host]
-  (or (some #(when (str/ends-with? host (str "." %)) %) multi-tlds)
-      (let [parts (str/split host #"\.")
-            n (count parts)]
-        (when (>= n 2)
-          (str (nth parts (- n 2)) "." (last parts))))))
 
 (defn extract-factbook-phrases
   "Split the Factbook description into phrases >= 12 chars, lowercase."
@@ -883,12 +813,10 @@
         ;; the country's administration, silent on its level -- strong
         ;; score bonus, curation decides.
         dir-by-host
-        (reduce (fn [m {:strs [hostname mentions evidence]}]
+        (reduce (fn [m {:strs [hostname evidence]}]
                   (if (host-covered? hostname known)
                     m
-                    (assoc m hostname
-                           {:n (or (parse-long (or mentions "")) 1)
-                            :evidence (or evidence "")})))
+                    (assoc m hostname {:evidence (or evidence "")})))
                 {} (read-csv-file dir-path))
         all-hosts (cond-> (-> (set (keys wd-by-host))
                               (into (keys lg-by-host))
@@ -957,7 +885,7 @@
                       " with MX)"))))))
 
 (defn cmd-probe-proposed [args]
-  (let [timeout (Integer/parseInt (or (System/getenv "TIMEOUT") "5"))
+  (let [timeout (env-int "TIMEOUT" 5)
         conc    (parallel 50)]
     (iter-countries #(probe-proposed! % timeout conc) args)))
 
@@ -1177,8 +1105,13 @@
                        (reduce (fn [m [d c]]
                                  (update m d
                                          (fn [[es ap]]
-                                           [(into (or es #{})
-                                                  (sub-central-labels excl c1-under [c d]))
+                                           ;; labels to keep out of the root's
+                                           ;; subtree: excluded ones (exclude
+                                           ;; rows) and validated central-1
+                                           ;; ones (exact rows)
+                                           [(-> (or es #{})
+                                                (into (get excl [c d]))
+                                                (into (get c1-under [c d])))
                                             (or ap (contains? apexes [c d]))])))
                                {})
                        (map (fn [[d [es ap]]] [d es ap]))
@@ -1250,7 +1183,7 @@
   culture.gouv.fr) match; suffixes claimed by two countries are dropped."
   []
   (when-let [path (linkgraph-fetch! "gov-domains.json")]
-    (let [by-slug   (into {} (map (juxt country-slug identity)) (country-dirs))
+    (let [by-slug   @slug->country-dir
           name->dir (fn [n] (let [n (normalize-name n)]
                               (by-slug (get linkgraph-country-aliases n n))))
           domains   (get (json/parse-string (slurp path)) "domains")

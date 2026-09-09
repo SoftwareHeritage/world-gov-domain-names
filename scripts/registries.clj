@@ -17,14 +17,6 @@
 ;;  Registries -- CISA (US) and lannuaire (FR)
 ;; ===========================================================================
 
-(defn registrable
-  "Best-effort registrable domain: the last two dot-labels of a host
-  (insee.fr, culture.gouv.fr -> gouv.fr). Good enough for single-label TLDs."
-  [host]
-  (when host
-    (let [p (str/split host #"\.")]
-      (when (>= (count p) 2) (str/join "." (take-last 2 p))))))
-
 (def cisa-federal-url
   "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv")
 
@@ -45,7 +37,6 @@
                          (sort-by first)
                          distinct)
             out (country-src "USA_united_states" "cisa" "roots.csv")]
-        (ensure-dir (fs/parent out))
         (write-csv-file out ["domain" "type" "organization"] domains)
         (sync-validated! "USA_united_states" "cisa"
                          (for [[d _type org] domains] [d "central" org]))
@@ -76,13 +67,12 @@
                                      (map :valeur (try (json/parse-string si true)
                                                        (catch Exception _ nil))))))
                          (keep extract-host)
-                         (keep registrable)
+                         (keep parent-domain)
                          (filter #(str/ends-with? % ".fr"))
                          (filter valid-hostname?)
                          distinct
                          sort)
             out (country-src "FRA_france" "lannuaire" "roots.csv")]
-        (ensure-dir (fs/parent out))
         (write-csv-file out ["domain" "source"]
                         (for [d domains] [d "lannuaire.service-public.gouv.fr"]))
         (sync-validated! "FRA_france" "lannuaire"
@@ -368,7 +358,6 @@
                                    (contains? #{"nidirect" "firescotland"} l)))
             {devolved true local false} (group-by (comp boolean central-1? first) named)
             out (country-src "GBR_united_kingdom" "govuk" "excluded.csv")]
-        (ensure-dir (fs/parent out))
         (write-csv-file out ["domain" "name"]
                         (for [[l n] local] [(str l ".gov.uk") n]))
         (sync-validated! "GBR_united_kingdom" "govuk"

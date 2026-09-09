@@ -170,8 +170,7 @@
 (defn wikidata-process! [country-qid country-dir]
   (let [out (country-src country-dir "wikidata" "central_admin.csv")
         missing-out (country-src country-dir "wikidata" "missing_domains.csv")]
-    (ensure-dir (fs/parent out))
-    (upgrade-wikidata-csv! out)
+        (upgrade-wikidata-csv! out)
     (if (skip? out)
       (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
           ;; Still fetch the subdivision list when absent: the report phase
@@ -355,7 +354,7 @@
                       "")
           pairs (for [[_ gec name] (re-seq #"`([a-z]+)` ([^`\n]+)" summary)]
                   [gec name (normalize-name name)])
-          slug->dir (into {} (for [c (country-dirs)] [(country-slug c) c]))
+          slug->dir @slug->country-dir
           matched (for [[gec _name norm] pairs
                         :let [dir (get slug->dir norm)
                               region (get region-by-gec gec)]
@@ -466,7 +465,7 @@
                      (map (fn [[_ id name]]
                             [id name (normalize-name name)]))
                      distinct)
-          slug->dir (into {} (for [c (country-dirs)] [(country-slug c) c]))
+          slug->dir @slug->country-dir
           matched (for [[id name norm] pairs
                         :let [dir (get slug->dir norm)]
                         :when dir]
@@ -482,8 +481,7 @@
       (err "  [" country-dir "] no UN/DESA id mapping")
       (let [[_ un-id un-name] map-row
             out (country-src country-dir "un_desa" "summary.csv")]
-        (ensure-dir (fs/parent out))
-        (if (skip? out)
+                (if (skip? out)
           (println (str "=== " country-dir " (UN id=" un-id ") : SKIP"))
           (do
             (println (str "=== " country-dir " (UN id=" un-id " " un-name ") ==="))
@@ -528,8 +526,7 @@
   (let [iso3 (first (str/split country-dir #"_"))
         out (country-src country-dir "oecd" "membership.csv")
         since (get oecd-members iso3)]
-    (ensure-dir (fs/parent out))
-    (cond
+        (cond
       (skip? out)
       (println (str "=== " country-dir " : SKIP"))
 
