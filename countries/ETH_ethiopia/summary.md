@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 169 of 193
 - Government type: federal parliamentary republic
 - Capital: Addis Ababa
-- Domains collected (HTTP 200): 711
+- Domains collected (HTTP 200): 712
 
 ## UN/DESA national portal
 
 - Declared: [http://www.ethiopia.gov.et](http://www.ethiopia.gov.et) (host `ethiopia.gov.et`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.et` root directory exists (to be probed)
+- ⚠️ Exact hostname not in the 200s, but `gov.et` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

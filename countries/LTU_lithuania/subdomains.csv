@@ -1,12 +1,18 @@
-subdomain,parent_domain,http_status
-archyvai.lrv.lt,lrv.lt,403
-essc.lrv.lt,lrv.lt,403
-lrv.lt,lrv.lt,403
-policija.lrv.lt,lrv.lt,403
-ppvis.lrv.lt,lrv.lt,Connection timed out after 3001 milliseconds
-ppvistest.lrv.lt,lrv.lt,Connection timed out after 3002 milliseconds
-tmp.metrinsp.lrv.lt,lrv.lt,200
-tmp.uat.metrinsp.lrv.lt,lrv.lt,SSL certificate problem: certificate has expired
-vpb.lrv.lt,lrv.lt,403
-www.essc.lrv.lt,lrv.lt,403
-www.vpb.lrv.lt,lrv.lt,403
+subdomain,parent_domain,http_status,mx
+archyvai.lrv.lt,lrv.lt,403,none
+essc.lrv.lt,lrv.lt,403,none
+finmin.lt,finmin.lt,,0 finmin-lt.mail.protection.outlook.com.
+kam.lt,kam.lt,,10 smtpin.mil.lt.
+lrs.lt,lrs.lt,,0 lrs-lt.mail.protection.outlook.com.
+lrv.lt,lrv.lt,403,10 mail.lrv.lt.
+policija.lrv.lt,lrv.lt,403,none
+ppvis.lrv.lt,lrv.lt,Connection timed out after 3001 milliseconds,none
+ppvistest.lrv.lt,lrv.lt,Connection timed out after 3002 milliseconds,none
+sam.lt,sam.lt,,0 sam-lt.mail.protection.outlook.com.; 10 mail.sam.lt.
+smm.lt,smm.lt,,0 smm-lt.mail.protection.outlook.com.
+tmp.metrinsp.lrv.lt,lrv.lt,200,none
+tmp.uat.metrinsp.lrv.lt,lrv.lt,SSL certificate problem: certificate has expired,none
+urm.lt,urm.lt,,10 mxs1.urm.lt.
+vpb.lrv.lt,lrv.lt,403,none
+www.essc.lrv.lt,lrv.lt,403,none
+www.vpb.lrv.lt,lrv.lt,403,none

@@ -1,55 +1,56 @@
-subdomain,parent_domain,http_status
-assembly.go.kr,assembly.go.kr,400
-gov.kr,gov.kr,301
-intra.gov.kr,gov.kr,200
-kids.gov.kr,gov.kr,200
-mafra.go.kr,mafra.go.kr,200
-mcee.go.kr,mcee.go.kr,403
-mcst.go.kr,mcst.go.kr,301
-me.go.kr,me.go.kr,403
-mnd.go.kr,mnd.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-moe.go.kr,moe.go.kr,403
-moef.go.kr,moef.go.kr,301
-moel.go.kr,moel.go.kr,405
-mof.go.kr,mof.go.kr,302
-mofa.go.kr,mofa.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-mogef.go.kr,mogef.go.kr,302
-mohw.go.kr,mohw.go.kr,405
-mois.go.kr,mois.go.kr,200
-moj.go.kr,moj.go.kr,307
-molit.go.kr,molit.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-mopas.go.kr,mopas.go.kr,ConnectException
-motie.go.kr,motie.go.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching motie.go.kr found.
-mpva.go.kr,mpva.go.kr,200
-msit.go.kr,msit.go.kr,403
-mss.go.kr,mss.go.kr,200
-nrc.go.kr,nrc.go.kr,405
-oni.gov.kr,gov.kr,403
-president.go.kr,president.go.kr,302
-unikorea.go.kr,unikorea.go.kr,403
-www.assembly.go.kr,assembly.go.kr,400
-www.gov.kr,gov.kr,200
-www.intra.gov.kr,gov.kr,Could not resolve host: www.intra.gov.kr
-www.mafra.go.kr,mafra.go.kr,200
-www.mcee.go.kr,mcee.go.kr,403
-www.mcst.go.kr,mcst.go.kr,403
-www.me.go.kr,me.go.kr,403
-www.mnd.go.kr,mnd.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-www.moe.go.kr,moe.go.kr,403
-www.moef.go.kr,moef.go.kr,301
-www.moel.go.kr,moel.go.kr,405
-www.mof.go.kr,mof.go.kr,200
-www.mofa.go.kr,mofa.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-www.mogef.go.kr,mogef.go.kr,405
-www.mohw.go.kr,mohw.go.kr,405
-www.mois.go.kr,mois.go.kr,200
-www.moj.go.kr,moj.go.kr,307
-www.molit.go.kr,molit.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-www.mopas.go.kr,mopas.go.kr,ConnectException
-www.motie.go.kr,motie.go.kr,302
-www.mpva.go.kr,mpva.go.kr,200
-www.msit.go.kr,msit.go.kr,403
-www.mss.go.kr,mss.go.kr,200
-www.nrc.go.kr,nrc.go.kr,405
-www.president.go.kr,president.go.kr,200
-www.unikorea.go.kr,unikorea.go.kr,403
+subdomain,parent_domain,http_status,mx
+assembly.go.kr,assembly.go.kr,400,3 mail.assembly.go.kr.
+go.kr,go.kr,,none
+gov.kr,gov.kr,301,none
+intra.gov.kr,gov.kr,200,none
+kids.gov.kr,gov.kr,200,none
+mafra.go.kr,mafra.go.kr,200,0 antispam.korea.kr.
+mcee.go.kr,mcee.go.kr,403,0 antispam.korea.kr.
+mcst.go.kr,mcst.go.kr,301,0 antispam.korea.kr.
+me.go.kr,me.go.kr,403,0 antispam.korea.kr.
+mnd.go.kr,mnd.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 fmcpay.mnd.go.kr.; 0 mail.mnd.go.kr.
+moe.go.kr,moe.go.kr,403,46 antispam.korea.kr.
+moef.go.kr,moef.go.kr,301,5 antispam.korea.kr.
+moel.go.kr,moel.go.kr,405,0 antispam.korea.kr.
+mof.go.kr,mof.go.kr,302,none
+mofa.go.kr,mofa.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 antispam.mofa.go.kr.
+mogef.go.kr,mogef.go.kr,302,0 antispam.korea.kr.
+mohw.go.kr,mohw.go.kr,405,0 spam.korea.kr.
+mois.go.kr,mois.go.kr,200,10 antispam.korea.kr.
+moj.go.kr,moj.go.kr,307,0 antispam.korea.kr.
+molit.go.kr,molit.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 antispam.korea.kr.
+mopas.go.kr,mopas.go.kr,ConnectException,none
+motie.go.kr,motie.go.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching motie.go.kr found.,0 antispam.korea.kr.
+mpva.go.kr,mpva.go.kr,200,10 mpva.go.kr.; 0 antispam.korea.kr.
+msit.go.kr,msit.go.kr,403,0 antispam.korea.kr.
+mss.go.kr,mss.go.kr,200,10 antispam.korea.kr.
+nrc.go.kr,nrc.go.kr,405,0 antispam.korea.kr.
+oni.gov.kr,gov.kr,403,none
+president.go.kr,president.go.kr,302,0 nmail.president.go.kr.
+unikorea.go.kr,unikorea.go.kr,403,5 webmail.unikorea.go.kr.; 0 spam.unikorea.go.kr.
+www.assembly.go.kr,assembly.go.kr,400,none
+www.gov.kr,gov.kr,200,none
+www.intra.gov.kr,gov.kr,Could not resolve host: www.intra.gov.kr,none
+www.mafra.go.kr,mafra.go.kr,200,none
+www.mcee.go.kr,mcee.go.kr,403,none
+www.mcst.go.kr,mcst.go.kr,403,none
+www.me.go.kr,me.go.kr,403,none
+www.mnd.go.kr,mnd.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.mnd.go.kr.
+www.moe.go.kr,moe.go.kr,403,none
+www.moef.go.kr,moef.go.kr,301,none
+www.moel.go.kr,moel.go.kr,405,none
+www.mof.go.kr,mof.go.kr,200,none
+www.mofa.go.kr,mofa.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+www.mogef.go.kr,mogef.go.kr,405,none
+www.mohw.go.kr,mohw.go.kr,405,none
+www.mois.go.kr,mois.go.kr,200,none
+www.moj.go.kr,moj.go.kr,307,none
+www.molit.go.kr,molit.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+www.mopas.go.kr,mopas.go.kr,ConnectException,none
+www.motie.go.kr,motie.go.kr,302,none
+www.mpva.go.kr,mpva.go.kr,200,none
+www.msit.go.kr,msit.go.kr,403,none
+www.mss.go.kr,mss.go.kr,200,none
+www.nrc.go.kr,nrc.go.kr,405,none
+www.president.go.kr,president.go.kr,200,none
+www.unikorea.go.kr,unikorea.go.kr,403,none

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 80 of 193
 - Government type: presidential republic
 - Capital: Asunción
-- Domains collected (HTTP 200): 907
+- Domains collected (HTTP 200): 908
 
 ## UN/DESA national portal
 

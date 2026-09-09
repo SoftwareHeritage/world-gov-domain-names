@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 95 of 193
 - Government type: presidential republic
 - Capital: Cairo
-- Domains collected (HTTP 200): 766
+- Domains collected (HTTP 200): 767
 
 ## UN/DESA national portal
 
 - Declared: [Www.egypt.gov.org](Www.egypt.gov.org) (host `egypt.gov.org`)
-- ⚠️ ABSENT -- neither `egypt.gov.org` covered nor `countries/EGY_egypt/sources/roots/gov.org/` directory present
+- ⚠️ ABSENT -- neither `egypt.gov.org` covered nor `countries/EGY_egypt/sources/crtsh/gov.org.csv` present
 
 ## Institutions named by CIA Factbook
 

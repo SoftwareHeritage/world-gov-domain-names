@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 16 of 193
 - Government type: parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Wellington
-- Domains collected (HTTP 200): 2036
+- Domains collected (HTTP 200): 2037
 
 ## UN/DESA national portal
 

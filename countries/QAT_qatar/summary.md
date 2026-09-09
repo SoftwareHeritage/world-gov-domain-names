@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 53 of 193
 - Government type: absolute monarchy
 - Capital: Doha
-- Domains collected (HTTP 200): 1332
+- Domains collected (HTTP 200): 1333
 
 ## UN/DESA national portal
 

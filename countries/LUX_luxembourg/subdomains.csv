@@ -1,20 +1,20 @@
-subdomain,parent_domain,http_status
-chd.lu,chd.lu,301
-chiffres-cles.mesr.gouvernement.lu,gouvernement.lu,301
-gouvernement.lu,gouvernement.lu,302
-men.public.lu,men.public.lu,302
-mta-sts.digital.gouvernement.lu,gouvernement.lu,403
-mta-sts.eau.gouvernement.lu,gouvernement.lu,403
-mta-sts.gouvernement.lu,gouvernement.lu,403
-mta-sts.maee.gouvernement.lu,gouvernement.lu,403
-mta-sts.meco.gouvernement.lu,gouvernement.lu,Could not resolve host: mta-sts.meco.gouvernement.lu
-mta-sts.mpc.gouvernement.lu,gouvernement.lu,403
-public.lu,public.lu,302
-stephanie-obertin.gouvernement.lu,gouvernement.lu,302
-www.ana.gouvernement.lu,gouvernement.lu,Could not resolve host: www.ana.gouvernement.lu
-www.cad.gouvernement.lu,gouvernement.lu,Could not resolve host: www.cad.gouvernement.lu
-www.chd.lu,chd.lu,301
-www.gouvernement.lu,gouvernement.lu,302
-www.men.public.lu,men.public.lu,ConnectException
-www.public.lu,public.lu,302
-www.stephanie-obertin.gouvernement.lu,gouvernement.lu,302
+subdomain,parent_domain,http_status,mx
+chd.lu,chd.lu,301,10 mail1.chd.lu.; 20 mail2.chd.lu.
+chiffres-cles.mesr.gouvernement.lu,gouvernement.lu,301,none
+gouvernement.lu,gouvernement.lu,302,10 incoming-4.mail.etat.lu.; 10 incoming-2.mail.etat.lu.; 10 incoming-3.mail.etat.lu.; 10 incoming-1.mail.etat.lu.
+men.public.lu,men.public.lu,302,10 incoming-1.mail.etat.lu.; 10 incoming-3.mail.etat.lu.; 10 incoming-2.mail.etat.lu.; 10 incoming-4.mail.etat.lu.
+mta-sts.digital.gouvernement.lu,gouvernement.lu,403,none
+mta-sts.eau.gouvernement.lu,gouvernement.lu,403,none
+mta-sts.gouvernement.lu,gouvernement.lu,403,none
+mta-sts.maee.gouvernement.lu,gouvernement.lu,403,none
+mta-sts.meco.gouvernement.lu,gouvernement.lu,Could not resolve host: mta-sts.meco.gouvernement.lu,none
+mta-sts.mpc.gouvernement.lu,gouvernement.lu,403,none
+public.lu,public.lu,302,10 incoming-2.mail.etat.lu.; 10 incoming-4.mail.etat.lu.; 10 incoming-1.mail.etat.lu.; 10 incoming-3.mail.etat.lu.
+stephanie-obertin.gouvernement.lu,gouvernement.lu,302,none
+www.ana.gouvernement.lu,gouvernement.lu,Could not resolve host: www.ana.gouvernement.lu,none
+www.cad.gouvernement.lu,gouvernement.lu,Could not resolve host: www.cad.gouvernement.lu,none
+www.chd.lu,chd.lu,301,none
+www.gouvernement.lu,gouvernement.lu,302,none
+www.men.public.lu,men.public.lu,ConnectException,none
+www.public.lu,public.lu,302,none
+www.stephanie-obertin.gouvernement.lu,gouvernement.lu,302,none

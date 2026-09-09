@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.fsmgov.org](http://www.fsmgov.org) (host `fsmgov.org`)
-- ⚠️ ABSENT -- neither `fsmgov.org` covered nor `countries/FSM_micronesia/sources/roots/fsmgov.org/` directory present
+- ⚠️ ABSENT -- neither `fsmgov.org` covered nor `countries/FSM_micronesia/sources/crtsh/fsmgov.org.csv` present
 
 ## Institutions named by CIA Factbook
 

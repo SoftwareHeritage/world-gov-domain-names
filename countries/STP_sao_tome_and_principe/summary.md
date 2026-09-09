@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.parlamento.st](http://www.parlamento.st) (host `parlamento.st`)
-- ⚠️ ABSENT -- neither `parlamento.st` covered nor `countries/STP_sao_tome_and_principe/sources/roots/parlamento.st/` directory present
+- ⚠️ ABSENT -- neither `parlamento.st` covered nor `countries/STP_sao_tome_and_principe/sources/crtsh/parlamento.st.csv` present
 
 ## Institutions named by CIA Factbook
 

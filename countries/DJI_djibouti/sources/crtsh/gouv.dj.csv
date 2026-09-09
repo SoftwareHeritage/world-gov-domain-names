@@ -1,0 +1,64 @@
+subdomain,http_status,mx
+armeedelair.gouv.dj,SSL certificate problem: unable to get local issuer certificate,5 mail-protection.gouv.dj.; 10 mail-protection.gouv.dj.
+autodiscover.gouv.dj,Connection timed out after 3000 milliseconds,none
+backend-evisa.gouv.dj,200,none
+backend-evisagoubet.gouv.dj,SSL: no alternative certificate subject name matches target hostname 'backend-evisagoubet.gouv.dj',none
+backend-evisanouveau.gouv.dj,Could not resolve host: backend-evisanouveau.gouv.dj,none
+budget.gouv.dj,SSL certificate problem: unable to get local issuer certificate,10 mail-gtw1.gouv.dj.; 20 mail-gtw2.gouv.dj.
+catis-dev.gouv.dj,Connection timed out after 3001 milliseconds,none
+cert.gouv.dj,200,5 mail-protection.gouv.dj.; 10 mail-protection.gouv.dj.
+cpanel.travail.gouv.dj,Could not resolve host: cpanel.travail.gouv.dj,none
+cpcalendars.travail.gouv.dj,Could not resolve host: cpcalendars.travail.gouv.dj,none
+cpcontacts.travail.gouv.dj,Could not resolve host: cpcontacts.travail.gouv.dj,none
+douanes.gouv.dj,200,20 mail-gtw2.gouv.dj.; 10 mail-gtw1.gouv.dj.
+e-cabinet.gouv.dj,Operation timed out after 3000 milliseconds with 0 bytes received,none
+e-gouv.dj,200,10 mail-protection.gouv.dj.
+e-permishabitat.gouv.dj,200,none
+enregistrement-delegation.gouv.dj,200,none
+evisav2.gouv.dj,200,none
+gouv.dj,Could not resolve host: gouv.dj,20 mail-gtw2.gouv.dj.; 10 mail-gtw1.gouv.dj.
+import-email.gouv.dj,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
+interieur.gouv.dj,200,20 mail-gtw2.gouv.dj.; 10 mail-gtw1.gouv.dj.
+mail-gtw1.gouv.dj,Connection timed out after 3002 milliseconds,none
+mail-gtw2.gouv.dj,Connection timed out after 3000 milliseconds,none
+mail-server.gouv.dj,Connection timed out after 3001 milliseconds,10 mail-protection.gouv.dj.
+mail.e-gouv.dj,Connection timed out after 3002 milliseconds,none
+mail.gouv.dj,404,10 mail-protection.gouv.dj.
+mail.mefip.gouv.dj,Connection timed out after 3002 milliseconds,none
+mail.police-nationale.gouv.dj,Could not resolve host: mail.police-nationale.gouv.dj,none
+mail.travail.gouv.dj,Could not resolve host: mail.travail.gouv.dj,none
+meet.gouv.dj,SSL certificate problem: self-signed certificate in certificate chain,none
+mefip.gouv.dj,Could not resolve host: mefip.gouv.dj,10 smtp.mefip.gouv.dj.
+ministerebudget.gouv.dj,Connection timed out after 3002 milliseconds,none
+mpgpt.gouv.dj,SSL certificate problem: certificate has expired,none
+rnpp.gouv.dj,200,none
+sensibilisation-cniplc.gouv.dj,200,none
+siged.gouv.dj,Connection timed out after 3001 milliseconds,none
+sipref.gouv.dj,Connection timed out after 3002 milliseconds,none
+siprefback.gouv.dj,Connection timed out after 3002 milliseconds,none
+siprefbdd.gouv.dj,Connection timed out after 3002 milliseconds,none
+siprefcdn.gouv.dj,Could not resolve host: siprefcdn.gouv.dj,none
+snc.gouv.dj,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
+snis-dhis2.gouv.dj,302,none
+sormas.gouv.dj,Connection timed out after 3002 milliseconds,none
+suivi-covid.gouv.dj,404,none
+travail.gouv.dj,SSL certificate problem: unable to get local issuer certificate,none
+verification-education.gouv.dj,200,none
+webconf.gouv.dj,Connection timed out after 3002 milliseconds,none
+webdisk.travail.gouv.dj,Could not resolve host: webdisk.travail.gouv.dj,none
+webmail.gouv.dj,200,none
+webmail.travail.gouv.dj,Could not resolve host: webmail.travail.gouv.dj,none
+www.budget.gouv.dj,Could not resolve host: www.budget.gouv.dj,none
+www.decentralisation.gouv.dj,301,none
+www.e-gouv.dj,200,none
+www.evisa-admin.gouv.dj,Could not resolve host: www.evisa-admin.gouv.dj,none
+www.evisa-admission.gouv.dj,200,none
+www.evisa-admissiongoubet.gouv.dj,SSL certificate problem: self-signed certificate,none
+www.evisa-admissionnouv.gouv.dj,Could not resolve host: www.evisa-admissionnouv.gouv.dj,none
+www.evisa.gouv.dj,301,none
+www.evisagoubet.gouv.dj,SSL certificate problem: self-signed certificate,none
+www.evisanouv.gouv.dj,Could not resolve host: www.evisanouv.gouv.dj,none
+www.gouv.dj,Could not resolve host: www.gouv.dj,none
+www.ministerebudget.gouv.dj,Connection timed out after 3001 milliseconds,none
+www.sante.gouv.dj,301,none
+www.travail.gouv.dj,Could not resolve host: www.travail.gouv.dj,none

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 36 of 193
 - Government type: parliamentary republic
 - Capital: Athens
-- Domains collected (HTTP 200): 675
+- Domains collected (HTTP 200): 676
 
 ## UN/DESA national portal
 

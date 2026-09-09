@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 57 of 193
 - Government type: federal parliamentary constitutional monarchy
 - Capital: Kuala Lumpur
-- Domains collected (HTTP 200): 2079
+- Domains collected (HTTP 200): 2080
 
 ## UN/DESA national portal
 

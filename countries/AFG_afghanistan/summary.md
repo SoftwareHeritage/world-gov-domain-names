@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 188 of 193
 - Government type: theocratic; the United States does not recognize the Taliban Government
 - Capital: Kabul
-- Domains collected (HTTP 200): 787
+- Domains collected (HTTP 200): 788
 
 ## UN/DESA national portal
 

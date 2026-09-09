@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 93 of 193
 - Government type: parliamentary republic
 - Capital: Suva (on Viti Levu)
-- Domains collected (HTTP 200): 332
+- Domains collected (HTTP 200): 333
 
 ## UN/DESA national portal
 

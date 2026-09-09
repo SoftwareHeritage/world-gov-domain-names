@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 190 of 193
 - Government type: authoritarian
 - Capital: Asmara
-- Domains collected (HTTP 200): 2
+- Domains collected (HTTP 200): 3
 
 ## UN/DESA national portal
 
 - Declared: [http://www.shabait.com](http://www.shabait.com) (host `shabait.com`)
-- ⚠️ ABSENT -- neither `shabait.com` covered nor `countries/ERI_eritrea/sources/roots/shabait.com/` directory present
+- ⚠️ ABSENT -- neither `shabait.com` covered nor `countries/ERI_eritrea/sources/crtsh/shabait.com.csv` present
 
 ## Institutions named by CIA Factbook
 

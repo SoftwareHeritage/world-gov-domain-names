@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.presidence.dj](http://www.presidence.dj) (host `presidence.dj`)
-- ⚠️ ABSENT -- neither `presidence.dj` covered nor `countries/DJI_djibouti/sources/roots/presidence.dj/` directory present
+- ⚠️ ABSENT -- neither `presidence.dj` covered nor `countries/DJI_djibouti/sources/crtsh/presidence.dj.csv` present
 
 ## Institutions named by CIA Factbook
 

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 128 of 193
 - Government type: parliamentary republic
 - Capital: Georgetown
-- Domains collected (HTTP 200): 494
+- Domains collected (HTTP 200): 495
 
 ## UN/DESA national portal
 
 - Declared: [http://gina.gov.gy](http://gina.gov.gy) (host `gina.gov.gy`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.gy` root directory exists (to be probed)
+- ⚠️ Exact hostname not in the 200s, but `gov.gy` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

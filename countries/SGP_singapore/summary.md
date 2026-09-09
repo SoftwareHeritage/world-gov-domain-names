@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 3 of 193
 - Government type: parliamentary republic
 - Capital: Singapore
-- Domains collected (HTTP 200): 1697
+- Domains collected (HTTP 200): 1698
 
 ## UN/DESA national portal
 

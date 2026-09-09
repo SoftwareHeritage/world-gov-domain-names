@@ -1,39 +1,39 @@
-subdomain,parent_domain,http_status
-40years.gov.sz,gov.sz,200
-api.liquorlicensing.gov.sz,gov.sz,200
-business.gov.sz,gov.sz,SSL certificate problem: certificate has expired
-csfm.gov.sz,gov.sz,Connection timed out after 3001 milliseconds
-dpmogrants.gov.sz,gov.sz,200
-dsw.gov.sz,gov.sz,"OpenSSL SSL_read: OpenSSL/3.5.3: error:0A000126:SSL routines::unexpected eof while reading, errno 0"
-ecabinet.gov.sz,gov.sz,Operation timed out after 3002 milliseconds with 0 bytes received
-ena.gov.sz,gov.sz,SSL certificate problem: unable to get local issuer certificate
-eps.gov.sz,gov.sz,SSL certificate problem: certificate has expired
-eswatinitradeportal.gov.sz,gov.sz,Connection timed out after 3002 milliseconds
-expo.gov.sz,gov.sz,200
-gov.sz,gov.sz,200
-intranet.gov.sz,gov.sz,Could not resolve host: intranet.gov.sz
-loadbalancer.gov.sz,gov.sz,Could not resolve host: loadbalancer.gov.sz
-mail.eps.gov.sz,gov.sz,SSL certificate problem: certificate has expired
-mail.eswatinitradeportal.gov.sz,gov.sz,Could not resolve host: mail.eswatinitradeportal.gov.sz
-notsa.gov.sz,gov.sz,200
-online.gov.sz,gov.sz,200
-parliament.gov.sz,gov.sz,200
-parlicloud.gov.sz,gov.sz,Connection timed out after 3002 milliseconds
-police.gov.sz,gov.sz,Could not resolve host: police.gov.sz
-social.police.gov.sz,gov.sz,Could not resolve host: social.police.gov.sz
-staging.liquorlicensing.gov.sz,gov.sz,200
-swazimet.gov.sz,gov.sz,200
-umsebeifmis.gov.sz,gov.sz,502
-webmail.gov.sz,gov.sz,Could not resolve host: webmail.gov.sz
-www.business.gov.sz,gov.sz,SSL certificate problem: certificate has expired
-www.ena.gov.sz,gov.sz,SSL certificate problem: unable to get local issuer certificate
-www.eswatinitradeportal.gov.sz,gov.sz,Connection timed out after 3001 milliseconds
-www.gov.sz,gov.sz,200
-www.liquorlicensing.gov.sz,gov.sz,200
-www.loadbalancer.gov.sz,gov.sz,Could not resolve host: www.loadbalancer.gov.sz
-www.online.gov.sz,gov.sz,SSL: no alternative certificate subject name matches target hostname 'www.online.gov.sz'
-www.parliament.gov.sz,gov.sz,SSL: no alternative certificate subject name matches target hostname 'www.parliament.gov.sz'
-www.parlicloud.gov.sz,gov.sz,Connection timed out after 3002 milliseconds
-www.swazimet.gov.sz,gov.sz,200
-www.umsebeifmis.gov.sz,gov.sz,SSL: no alternative certificate subject name matches target hostname 'www.umsebeifmis.gov.sz'
-www.webmail.gov.sz,gov.sz,Could not resolve host: www.webmail.gov.sz
+subdomain,parent_domain,http_status,mx
+40years.gov.sz,gov.sz,200,none
+api.liquorlicensing.gov.sz,gov.sz,200,none
+business.gov.sz,gov.sz,SSL certificate problem: certificate has expired,none
+csfm.gov.sz,gov.sz,Connection timed out after 3001 milliseconds,none
+dpmogrants.gov.sz,gov.sz,200,none
+dsw.gov.sz,gov.sz,"OpenSSL SSL_read: OpenSSL/3.5.3: error:0A000126:SSL routines::unexpected eof while reading, errno 0",none
+ecabinet.gov.sz,gov.sz,Operation timed out after 3002 milliseconds with 0 bytes received,none
+ena.gov.sz,gov.sz,SSL certificate problem: unable to get local issuer certificate,none
+eps.gov.sz,gov.sz,SSL certificate problem: certificate has expired,none
+eswatinitradeportal.gov.sz,gov.sz,Connection timed out after 3002 milliseconds,none
+expo.gov.sz,gov.sz,200,none
+gov.sz,gov.sz,200,10 naviegw.swazi.net.
+intranet.gov.sz,gov.sz,Could not resolve host: intranet.gov.sz,none
+loadbalancer.gov.sz,gov.sz,Could not resolve host: loadbalancer.gov.sz,none
+mail.eps.gov.sz,gov.sz,SSL certificate problem: certificate has expired,none
+mail.eswatinitradeportal.gov.sz,gov.sz,Could not resolve host: mail.eswatinitradeportal.gov.sz,none
+notsa.gov.sz,gov.sz,200,none
+online.gov.sz,gov.sz,200,none
+parliament.gov.sz,gov.sz,200,none
+parlicloud.gov.sz,gov.sz,Connection timed out after 3002 milliseconds,none
+police.gov.sz,gov.sz,Could not resolve host: police.gov.sz,none
+social.police.gov.sz,gov.sz,Could not resolve host: social.police.gov.sz,none
+staging.liquorlicensing.gov.sz,gov.sz,200,none
+swazimet.gov.sz,gov.sz,200,100 naviegw.swazi.net.
+umsebeifmis.gov.sz,gov.sz,502,none
+webmail.gov.sz,gov.sz,Could not resolve host: webmail.gov.sz,none
+www.business.gov.sz,gov.sz,SSL certificate problem: certificate has expired,none
+www.ena.gov.sz,gov.sz,SSL certificate problem: unable to get local issuer certificate,none
+www.eswatinitradeportal.gov.sz,gov.sz,Connection timed out after 3001 milliseconds,none
+www.gov.sz,gov.sz,200,none
+www.liquorlicensing.gov.sz,gov.sz,200,none
+www.loadbalancer.gov.sz,gov.sz,Could not resolve host: www.loadbalancer.gov.sz,none
+www.online.gov.sz,gov.sz,SSL: no alternative certificate subject name matches target hostname 'www.online.gov.sz',none
+www.parliament.gov.sz,gov.sz,SSL: no alternative certificate subject name matches target hostname 'www.parliament.gov.sz',none
+www.parlicloud.gov.sz,gov.sz,Connection timed out after 3002 milliseconds,none
+www.swazimet.gov.sz,gov.sz,200,100 naviegw.swazi.net.
+www.umsebeifmis.gov.sz,gov.sz,SSL: no alternative certificate subject name matches target hostname 'www.umsebeifmis.gov.sz',none
+www.webmail.gov.sz,gov.sz,Could not resolve host: www.webmail.gov.sz,none

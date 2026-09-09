@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 61 of 193
 - Government type: presidential republic
 - Capital: San José
-- Domains collected (HTTP 200): 840
+- Domains collected (HTTP 200): 841
 
 ## UN/DESA national portal
 

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 192 of 193
 - Government type: presidential republic
 - Capital: Juba
-- Domains collected (HTTP 200): 346
+- Domains collected (HTTP 200): 347
 
 ## UN/DESA national portal
 
 - Declared: [http://www.goss-online.org](http://www.goss-online.org) (host `goss-online.org`)
-- ⚠️ ABSENT -- neither `goss-online.org` covered nor `countries/SSD_south_sudan/sources/roots/goss-online.org/` directory present
+- ⚠️ ABSENT -- neither `goss-online.org` covered nor `countries/SSD_south_sudan/sources/crtsh/goss-online.org.csv` present
 
 ## Institutions named by CIA Factbook
 

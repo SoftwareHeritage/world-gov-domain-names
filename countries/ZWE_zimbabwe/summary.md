@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 149 of 193
 - Government type: presidential republic
 - Capital: Harare
-- Domains collected (HTTP 200): 333
+- Domains collected (HTTP 200): 334
 
 ## UN/DESA national portal
 

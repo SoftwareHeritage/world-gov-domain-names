@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 186 of 193
 - Government type: semi-presidential republic
 - Capital: Port-au-Prince
-- Domains collected (HTTP 200): 556
+- Domains collected (HTTP 200): 557
 
 ## UN/DESA national portal
 
 - Declared: [http://primature.gouv.ht](http://primature.gouv.ht) (host `primature.gouv.ht`)
-- ⚠️ Exact hostname not in the 200s, but a `gouv.ht` root directory exists (to be probed)
+- ⚠️ Exact hostname not in the 200s, but `gouv.ht` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

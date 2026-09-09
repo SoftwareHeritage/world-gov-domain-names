@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 74 of 193
 - Government type: presidential republic
 - Capital: Baku (Baki, Baky)
-- Domains collected (HTTP 200): 853
+- Domains collected (HTTP 200): 854
 
 ## UN/DESA national portal
 
 - Declared: [https://www.e-gov.az](https://www.e-gov.az) (host `e-gov.az`)
-- ⚠️ ABSENT -- neither `e-gov.az` covered nor `countries/AZE_azerbaijan/sources/roots/e-gov.az/` directory present
+- ⚠️ ABSENT -- neither `e-gov.az` covered nor `countries/AZE_azerbaijan/sources/crtsh/e-gov.az.csv` present
 
 ## Institutions named by CIA Factbook
 

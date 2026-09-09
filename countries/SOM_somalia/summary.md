@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 191 of 193
 - Government type: federal parliamentary republic
 - Capital: Mogadishu
-- Domains collected (HTTP 200): 662
+- Domains collected (HTTP 200): 663
 
 ## UN/DESA national portal
 

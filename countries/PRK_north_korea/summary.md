@@ -12,12 +12,12 @@
 - UN/DESA EGDI: Rank 184 of 193
 - Government type: dictatorship, single-party communist state
 - Capital: Pyongyang
-- Domains collected (HTTP 200): 0
+- Domains collected (HTTP 200): 1
 
 ## UN/DESA national portal
 
 - Declared: [http://www.korea-dpr.com](http://www.korea-dpr.com) (host `korea-dpr.com`)
-- ⚠️ ABSENT -- neither `korea-dpr.com` covered nor `countries/PRK_north_korea/sources/roots/korea-dpr.com/` directory present
+- ⚠️ ABSENT -- neither `korea-dpr.com` covered nor `countries/PRK_north_korea/sources/crtsh/korea-dpr.com.csv` present
 
 ## Institutions named by CIA Factbook
 

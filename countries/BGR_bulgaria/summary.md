@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [https://egov.bg](https://egov.bg) (host `egov.bg`)
-- ⚠️ ABSENT -- neither `egov.bg` covered nor `countries/BGR_bulgaria/sources/roots/egov.bg/` directory present
+- ⚠️ ABSENT -- neither `egov.bg` covered nor `countries/BGR_bulgaria/sources/crtsh/egov.bg.csv` present
 
 ## Institutions named by CIA Factbook
 

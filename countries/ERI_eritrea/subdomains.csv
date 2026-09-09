@@ -1,3 +1,4 @@
-subdomain,parent_domain,http_status
-mail.zena.gov.er,gov.er,Could not resolve host: mail.zena.gov.er
-mfa.gov.er,gov.er,Connection timed out after 3001 milliseconds
+subdomain,parent_domain,http_status,mx
+gov.er,gov.er,,none
+mail.zena.gov.er,gov.er,Could not resolve host: mail.zena.gov.er,none
+mfa.gov.er,gov.er,Connection timed out after 3001 milliseconds,none

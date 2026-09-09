@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [https://magyarorszag.hu](https://magyarorszag.hu) (host `magyarorszag.hu`)
-- ⚠️ ABSENT -- neither `magyarorszag.hu` covered nor `countries/HUN_hungary/sources/roots/magyarorszag.hu/` directory present
+- ⚠️ ABSENT -- neither `magyarorszag.hu` covered nor `countries/HUN_hungary/sources/crtsh/magyarorszag.hu.csv` present
 
 ## Institutions named by CIA Factbook
 

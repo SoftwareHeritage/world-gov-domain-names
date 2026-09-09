@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [https://vlada.gov.hr](https://vlada.gov.hr) (host `vlada.gov.hr`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.hr` root directory exists (to be probed)
+- ⚠️ Exact hostname not in the 200s, but `gov.hr` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

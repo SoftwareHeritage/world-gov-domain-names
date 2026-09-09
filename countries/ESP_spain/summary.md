@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 17 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Madrid
-- Domains collected (HTTP 200): 69
+- Domains collected (HTTP 200): 70
 
 ## UN/DESA national portal
 

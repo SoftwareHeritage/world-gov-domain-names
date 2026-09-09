@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 116 of 193
 - Government type: presidential republic
 - Capital: Algiers
-- Domains collected (HTTP 200): 406
+- Domains collected (HTTP 200): 407
 
 ## UN/DESA national portal
 
 - Declared: [http://www.el-mouradia.dz](http://www.el-mouradia.dz) (host `el-mouradia.dz`)
-- ⚠️ ABSENT -- neither `el-mouradia.dz` covered nor `countries/DZA_algeria/sources/roots/el-mouradia.dz/` directory present
+- ⚠️ ABSENT -- neither `el-mouradia.dz` covered nor `countries/DZA_algeria/sources/crtsh/el-mouradia.dz.csv` present
 
 ## Institutions named by CIA Factbook
 

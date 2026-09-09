@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 103 of 193
 - Government type: constitutional monarchy
 - Capital: Thimphu
-- Domains collected (HTTP 200): 438
+- Domains collected (HTTP 200): 439
 
 ## UN/DESA national portal
 
 - Declared: [http://www.bhutan.gov.bt](http://www.bhutan.gov.bt) (host `bhutan.gov.bt`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.bt` root directory exists (to be probed)
+- ⚠️ Exact hostname not in the 200s, but `gov.bt` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

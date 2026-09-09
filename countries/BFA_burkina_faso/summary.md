@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 175 of 193
 - Government type: presidential republic
 - Capital: Ouagadougou
-- Domains collected (HTTP 200): 481
+- Domains collected (HTTP 200): 482
 
 ## UN/DESA national portal
 

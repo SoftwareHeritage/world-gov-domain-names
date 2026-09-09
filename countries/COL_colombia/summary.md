@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 68 of 193
 - Government type: presidential republic
 - Capital: Bogotá
-- Domains collected (HTTP 200): 1722
+- Domains collected (HTTP 200): 1723
 
 ## UN/DESA national portal
 
 - Declared: [http://estrategia.gobiernoenlinea.gov.co](http://estrategia.gobiernoenlinea.gov.co) (host `estrategia.gobiernoenlinea.gov.co`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.co` root directory exists (to be probed)
+- ⚠️ Exact hostname not in the 200s, but `gov.co` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

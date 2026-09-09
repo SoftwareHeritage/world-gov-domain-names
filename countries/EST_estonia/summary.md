@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 2 of 193
 - Government type: parliamentary republic
 - Capital: Tallinn
-- Domains collected (HTTP 200): 384
+- Domains collected (HTTP 200): 397
 
 ## UN/DESA national portal
 
 - Declared: [https://www.valitsus.ee](https://www.valitsus.ee) (host `valitsus.ee`)
-- ⚠️ Exact hostname not in the 200s, but a `valitsus.ee` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

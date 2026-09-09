@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.sanmarino.sm](http://www.sanmarino.sm) (host `sanmarino.sm`)
-- ⚠️ ABSENT -- neither `sanmarino.sm` covered nor `countries/SMR_san_marino/sources/roots/sanmarino.sm/` directory present
+- ⚠️ ABSENT -- neither `sanmarino.sm` covered nor `countries/SMR_san_marino/sources/crtsh/sanmarino.sm.csv` present
 
 ## Institutions named by CIA Factbook
 

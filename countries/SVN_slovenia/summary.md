@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.vlada.si](http://www.vlada.si) (host `vlada.si`)
-- ⚠️ ABSENT -- neither `vlada.si` covered nor `countries/SVN_slovenia/sources/roots/vlada.si/` directory present
+- ⚠️ ABSENT -- neither `vlada.si` covered nor `countries/SVN_slovenia/sources/crtsh/vlada.si.csv` present
 
 ## Institutions named by CIA Factbook
 

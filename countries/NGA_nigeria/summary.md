@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 144 of 193
 - Government type: federal presidential republic
 - Capital: Abuja
-- Domains collected (HTTP 200): 1911
+- Domains collected (HTTP 200): 1912
 
 ## UN/DESA national portal
 

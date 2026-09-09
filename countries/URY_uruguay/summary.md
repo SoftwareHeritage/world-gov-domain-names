@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 25 of 193
 - Government type: presidential republic
 - Capital: Montevideo
-- Domains collected (HTTP 200): 813
+- Domains collected (HTTP 200): 814
 
 ## UN/DESA national portal
 

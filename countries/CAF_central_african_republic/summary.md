@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://primature.govcf.org](http://primature.govcf.org) (host `primature.govcf.org`)
-- ⚠️ ABSENT -- neither `primature.govcf.org` covered nor `countries/CAF_central_african_republic/sources/roots/govcf.org/` directory present
+- ⚠️ ABSENT -- neither `primature.govcf.org` covered nor `countries/CAF_central_african_republic/sources/crtsh/govcf.org.csv` present
 
 ## Institutions named by CIA Factbook
 

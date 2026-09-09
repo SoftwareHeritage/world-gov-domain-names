@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.togo.tg](http://www.togo.tg) (host `togo.tg`)
-- ⚠️ ABSENT -- neither `togo.tg` covered nor `countries/TGO_togo/sources/roots/togo.tg/` directory present
+- ⚠️ ABSENT -- neither `togo.tg` covered nor `countries/TGO_togo/sources/crtsh/togo.tg.csv` present
 
 ## Institutions named by CIA Factbook
 

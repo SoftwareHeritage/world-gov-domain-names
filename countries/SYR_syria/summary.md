@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 162 of 193
 - Government type: transitional presidential republic
 - Capital: Damascus
-- Domains collected (HTTP 200): 707
+- Domains collected (HTTP 200): 708
 
 ## UN/DESA national portal
 
 - Declared: [http://www.egov.sy](http://www.egov.sy) (host `egov.sy`)
-- ⚠️ ABSENT -- neither `egov.sy` covered nor `countries/SYR_syria/sources/roots/egov.sy/` directory present
+- ⚠️ ABSENT -- neither `egov.sy` covered nor `countries/SYR_syria/sources/crtsh/egov.sy.csv` present
 
 ## Institutions named by CIA Factbook
 

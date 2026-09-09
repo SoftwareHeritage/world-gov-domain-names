@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 109 of 193
 - Government type: presidential republic
 - Capital: Nairobi
-- Domains collected (HTTP 200): 0
+- Domains collected (HTTP 200): 1
 
 ## UN/DESA national portal
 
 - Declared: [http://www.mygov.go.ke](http://www.mygov.go.ke) (host `mygov.go.ke`)
-- ⚠️ ABSENT -- neither `mygov.go.ke` covered nor `countries/KEN_kenya/sources/roots/go.ke/` directory present
+- ⚠️ ABSENT -- neither `mygov.go.ke` covered nor `countries/KEN_kenya/sources/crtsh/go.ke.csv` present
 
 ## Institutions named by CIA Factbook
 

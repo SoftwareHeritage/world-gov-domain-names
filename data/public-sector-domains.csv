@@ -1942,6 +1942,7 @@ agri-khs.gov.sd,gov.sd,SDN_sudan,member,Africa,Arabic; English,1165,Resolving ti
 agri-research.maf.gov.tl,gov.tl,TLS_timor_leste,member,Asia,Portuguese; Tetum,1332,Could not resolve host: agri-research.maf.gov.tl,none
 agri.back-economie-pf.minae.gov.mg,gov.mg,MDG_madagascar,member,Africa,French; Malagasy,599,Resolving timed out after 3000 milliseconds,none
 agri.cp.gov.lk,gov.lk,LKA_sri_lanka,member,Asia,Sinhala; Tamil,5002,Connection timed out after 3000 milliseconds,none
+agri.ee,agri.ee,EST_estonia,member,Europe,Estonian,34418,,5 mail1.agri.ee.; 5 mail2.agri.ee.
 agri.goa.gov.in,gov.in,IND_india,member,Asia,English; Hindi; Tamil,2695,405,none
 agri.gov.il,gov.il,ISR_israel,member,Asia,Arabic; Hebrew,60337,Could not resolve host: agri.gov.il,9 agri-gov-il.mail.protection.outlook.com.
 agri.jiwaka.gov.pg,gov.pg,PNG_papua_new_guinea,member,Oceania,English; Hiri Motu; Tok Pisin,3020,Could not resolve host: agri.jiwaka.gov.pg,none
@@ -32522,6 +32523,7 @@ envgis.nies.go.jp,go.jp,JPN_japan,member,Asia,Japanese,32487,Could not resolve h
 envgis2.nies.go.jp,go.jp,JPN_japan,member,Asia,Japanese,32487,Could not resolve host: envgis2.nies.go.jp,none
 envios.ssf.gob.sv,gob.sv,SLV_el_salvador,member,Americas,Spanish,5580,403,none
 envir-conserv.jiwaka.gov.pg,gov.pg,PNG_papua_new_guinea,member,Oceania,English; Hiri Motu; Tok Pisin,3020,Could not resolve host: envir-conserv.jiwaka.gov.pg,none
+envir.ee,envir.ee,EST_estonia,member,Europe,Estonian,34418,,5 mx5.envir.ee.; 5 mx4.envir.ee.
 enviro.doe.gov.my,gov.my,MYS_malaysia,member,Asia,English; Malay,13125,SSL certificate problem: certificate has expired,none
 enviro.gov.sk,gov.sk,SVK_slovakia,member,Europe,Slovak,25993,Could not resolve host: enviro.gov.sk,none
 environ.gov.ie,gov.ie,IRL_ireland,member,Europe,English; Irish,112895,Could not resolve host: environ.gov.ie,none
@@ -35595,6 +35597,7 @@ fimsvc.aucklandtransport.govt.nz,govt.nz,NZL_new_zealand,member,Oceania,English;
 fin.canada.ca,canada.ca,CAN_canada,member,Americas,English; French,55698,Could not resolve host: fin.canada.ca,none
 fin.dgi.gouv.cd,gouv.cd,COD_democratic_republic_of_the_congo,member,Africa,French; Kikongo; Lingala; Tshiluba; Swahili,807,Could not resolve host: fin.dgi.gouv.cd,none
 fin.dva.gov.au,gov.au,AUS_australia,member,Oceania,English,65130,503,none
+fin.ee,fin.ee,EST_estonia,member,Europe,Estonian,34418,,10 mail3.rit.ee.; 10 mail1.rit.ee.
 fin.mangystau.gov.kz,gov.kz,KAZ_kazakhstan,member,Asia,Kazakh; Russian,14692,Resolving timed out after 3000 milliseconds,none
 fin.rosnedra.gov.ru,gov.ru,RUS_russia,member,Europe,Russian,14889,404,none
 final.dgi.gouv.cd,gouv.cd,COD_democratic_republic_of_the_congo,member,Africa,French; Kikongo; Lingala; Tshiluba; Swahili,807,Could not resolve host: final.dgi.gouv.cd,none
@@ -35706,6 +35709,7 @@ finfoveskole.gov.cz,gov.cz,CZE_czechia,member,Europe,Czech; Slovak,35917,200,non
 finikemuftuluk.gov.tr,gov.tr,TUR_turkey,member,Asia,Turkish,15893,Could not resolve host: finikemuftuluk.gov.tr,none
 finland.diplomatie.belgium.be,belgium.be,BEL_belgium,member,Europe,German; French; Dutch,60750,Operation timed out after 3002 milliseconds with 0 bytes received,none
 finlande.diplomatie.belgium.be,belgium.be,BEL_belgium,member,Europe,German; French; Dutch,60750,Could not resolve host: finlande.diplomatie.belgium.be,none
+finmin.lt,finmin.lt,LTU_lithuania,member,Europe,Lithuanian,32959,,0 finmin-lt.mail.protection.outlook.com.
 finnauth.tunnistaminen.suomi.fi,suomi.fi,FIN_finland,member,Europe,Finnish; Swedish,56149,403,none
 finnet.gov.in,gov.in,IND_india,member,Asia,English; Hindi; Tamil,2695,Connection timed out after 3002 milliseconds,none
 finpol.bmf.gv.at,gv.at,AUT_austria,member,Europe,German,62930,Could not resolve host: finpol.bmf.gv.at,none
@@ -37528,6 +37532,7 @@ gbvs.gov.na,gov.na,NAM_namibia,member,Africa,Lozi; Herero; Kwangali; German; Eng
 gbvs2.gov.na,gov.na,NAM_namibia,member,Africa,Lozi; Herero; Kwangali; German; English; Afrikaans; Khoekhoe; Ndonga; Tswana,4876,Connection timed out after 3002 milliseconds,none
 gbxx.dtdjzx.gov.cn,gov.cn,CHN_china,member,Asia,Chinese,13862,Could not resolve host: gbxx.dtdjzx.gov.cn,none
 gc-lingua.canada.ca,canada.ca,CAN_canada,member,Americas,English; French,55698,Could not resolve host: gc-lingua.canada.ca,none
+gc.ca,gc.ca,CAN_canada,member,Americas,English; French,55698,,0 gc-ca.mail.protection.outlook.com.
 gc.luohu.gov.cn,gov.cn,CHN_china,member,Asia,Chinese,13862,Could not resolve host: gc.luohu.gov.cn,none
 gc.momra.gov.sa,gov.sa,SAU_saudi_arabia,member,Asia,Arabic,34537,Failed to connect to gc.momra.gov.sa port 443 after 181 ms: Could not connect to server,none
 gca.gov.sa,gov.sa,SAU_saudi_arabia,member,Asia,Arabic,34537,302,none
@@ -38577,16 +38582,22 @@ gntp.yesser.gov.sa,gov.sa,SAU_saudi_arabia,member,Asia,Arabic,34537,Could not re
 go-mdhwifi.gov.mt,gov.mt,MLT_malta,member,Europe,English; Maltese,47907,Could not resolve host: go-mdhwifi.gov.mt,none
 go.bracknell-forest.gov.uk,gov.uk,GBR_united_kingdom,member,Europe,English,57602,403,none
 go.capo.gov.cy,gov.cy,CYP_cyprus,member,Europe,Greek; Turkish,41783,200,none
+go.cr,go.cr,CRI_costa_rica,member,Americas,Spanish,19970,,none
 go.gai.gov.bd,gov.bd,BGD_bangladesh,member,Asia,Bengali,2597,Could not resolve host: go.gai.gov.bd,none
 go.gov.ao,gov.ao,AGO_angola,member,Africa,Portuguese,3129,SSL: no alternative certificate subject name matches target hostname 'go.gov.ao',none
 go.gov.me,gov.me,MNE_montenegro,member,Europe,Montenegrin,14817,302,1 primary.us.email.fireeyecloud.com.; 4 alt3.us.email.fireeyecloud.com.gov.me.; 2 alt1.us.email.fireeyecloud.com.gov.me.; 3 alt2.us.email.fireeyecloud.com.gov.me.
 go.gv.at,gv.at,AUT_austria,member,Europe,German,62930,403,none
+go.id,go.id,IDN_indonesia,member,Asia,Indonesian,5060,,none
 go.jcf.gov.jm,gov.jm,JAM_jamaica,member,Americas,English; Jamaican Patois,7754,Could not resolve host: go.jcf.gov.jm,none
+go.jp,go.jp,JPN_japan,member,Asia,Japanese,32487,,none
+go.kr,go.kr,KOR_south_korea,member,Asia,Korean,36239,,none
 go.minedu.gov.gr,gov.gr,GRC_greece,member,Europe,Greek,26948,404,none
 go.norfolk.gov.uk,gov.uk,GBR_united_kingdom,member,Europe,English,57602,Could not resolve host: go.norfolk.gov.uk,none
 go.officedespostesdhaiti.gouv.ht,gouv.ht,HTI_haiti,member,Americas,French; Haitian Creole,2694,Could not resolve host: go.officedespostesdhaiti.gouv.ht,none
 go.salzburg.gv.at,gv.at,AUT_austria,member,Europe,German,62930,302,none
+go.th,go.th,THA_thailand,member,Asia,Thai,8057,,none
 go.thieungoc.gov.vn,gov.vn,VNM_vietnam,member,Asia,Vietnamese,4717,Could not resolve host: go.thieungoc.gov.vn,none
+go.tz,go.tz,TZA_tanzania,member,Africa,English; Swahili,1319,,none
 go000138.contraloriaestadoamazonas.gob.ve,gob.ve,VEN_venezuela,member,Americas,Spanish,4218,200,none
 goa.gov.in,gov.in,IND_india,member,Asia,English; Hindi; Tamil,2695,301,none
 goaelectricity.gov.in,gov.in,IND_india,member,Asia,English; Hindi; Tamil,2695,SSL certificate problem: unable to get local issuer certificate,none
@@ -38603,9 +38614,22 @@ goaspcb.gov.in,gov.in,IND_india,member,Asia,English; Hindi; Tamil,2695,Operation
 goavidhansabha.gov.in,gov.in,IND_india,member,Asia,English; Hindi; Tamil,2695,200,none
 goawrd.gov.in,gov.in,IND_india,member,Asia,English; Hindi; Tamil,2695,200,none
 gob-rtc.barbados.gov.bb,gov.bb,BRB_barbados,member,Americas,English,28365,Could not resolve host: gob-rtc.barbados.gov.bb,none
+gob.ar,gob.ar,ARG_argentina,member,Americas,Guaraní; Spanish,13970,,none
+gob.bo,gob.bo,BOL_bolivia,member,Americas,Aymara; Guaraní; Quechua; Spanish,5148,,0 mail.gob.bo.
 gob.cl,gob.cl,CHL_chile,member,Americas,Spanish,17995,Could not resolve host: gob.cl,none
+gob.cu,gob.cu,CUB_cuba,member,Americas,Spanish,9605,,none
+gob.do,gob.do,DOM_dominican_republic,member,Americas,Spanish,11059,,none
+gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,,none
+gob.es,gob.es,ESP_spain,member,Europe,Spanish; Catalan; Basque; Galician,38627,,none
 gob.gov.bw,gov.bw,BWA_botswana,member,Africa,English; Tswana,7778,Could not resolve host: gob.gov.bw,none
+gob.gt,gob.gt,GTM_guatemala,member,Americas,Spanish,6598,,none
+gob.hn,gob.hn,HND_honduras,member,Americas,Spanish,3598,,none
 gob.mx,gob.mx,MEX_mexico,member,Americas,Spanish,13889,Could not resolve host: gob.mx,none
+gob.ni,gob.ni,NIC_nicaragua,member,Americas,Spanish,3173,,none
+gob.pa,gob.pa,PAN_panama,member,Americas,Spanish,19161,,none
+gob.pe,gob.pe,PER_peru,member,Americas,Aymara; Quechua; Spanish,8452,,none
+gob.sv,gob.sv,SLV_el_salvador,member,Americas,Spanish,5580,,none
+gob.ve,gob.ve,VEN_venezuela,member,Americas,Spanish,4218,,none
 gob1001.gob.gov.bb,gov.bb,BRB_barbados,member,Americas,English,28365,Connection timed out after 3000 milliseconds,none
 goberguayas.gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,200,none
 gobernabilidad.gob.hn,gob.hn,HND_honduras,member,Americas,Spanish,3598,Could not resolve host: gobernabilidad.gob.hn,none
@@ -38783,14 +38807,18 @@ goszakupki.open.gov.ru,gov.ru,RUS_russia,member,Europe,Russian,14889,Resolving t
 got.difesa.it,difesa.it,ITA_italy,member,Europe,Italian; Catalan,43309,Could not resolve host: got.difesa.it,none
 gothi.gov.eg,gov.eg,EGY_egypt,member,Africa,Arabic,3086,200,0 mail1.gothi.gov.eg.
 gouv.bj,gouv.bj,BEN_benin,member,Africa,French,1658,301,0 gouv-bj.mail.protection.outlook.com.
+gouv.cd,gouv.cd,COD_democratic_republic_of_the_congo,member,Africa,French; Kikongo; Lingala; Tshiluba; Swahili,807,,none
 gouv.cf,gouv.cf,CAF_central_african_republic,member,Africa,French; Sango,556,200,0 teletravail-gouv-cf.mail.protection.outlook.com.
 gouv.ci,gouv.ci,CIV_cote_d_ivoire,member,Africa,French,3050,SSL: no alternative certificate subject name matches target hostname 'gouv.ci',none
 gouv.dj,gouv.dj,DJI_djibouti,member,Africa,Arabic; French,3906,Could not resolve host: gouv.dj,20 mail-gtw2.gouv.dj.; 10 mail-gtw1.gouv.dj.
+gouv.fr,gouv.fr,FRA_france,member,Europe,French,48986,,none
+gouv.ht,gouv.ht,HTI_haiti,member,Americas,French; Haitian Creole,2694,,none
 gouv.mc,gouv.mc,MCO_monaco,member,Europe,French,288002,301,40 qg-monaco-03.gouv.mc.; 10 qg-monaco-02.gouv.mc.; 60 alpha.gouv.mc.
 gouv.ml,gouv.ml,MLI_mali,member,Africa,French,1193,Could not resolve host: gouv.ml,none
 gouv.ne,gouv.ne,NER_niger,member,Africa,French,775,Could not resolve host: gouv.ne,none
 gouv.sgg.gov.gn,gov.gn,GIN_guinea,member,Africa,French,1877,200,none
 gouv.sn,gouv.sn,SEN_senegal,member,Africa,French,1955,Could not resolve host: gouv.sn,none
+gouv.td,gouv.td,TCD_chad,member,Africa,Arabic; French,962,,none
 gouv.tg,gouv.tg,TGO_togo,member,Africa,French,1119,SSL: no alternative certificate subject name matches target hostname 'gouv.tg',5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 gouvernement-et-citoyens.consultation.etalab.gouv.fr,gouv.fr,FRA_france,member,Europe,French,48986,Could not resolve host: gouvernement-et-citoyens.consultation.etalab.gouv.fr,none
 gouvernement-federal.be,gouvernement-federal.be,BEL_belgium,member,Europe,German; French; Dutch,60750,403,none
@@ -38807,54 +38835,145 @@ gov-int.mobile.admin.ch,admin.ch,CHE_switzerland,member,Europe,French; Swiss Ger
 gov-mclb.gov.kn,gov.kn,KNA_saint_kitts_and_nevis,member,Americas,English,23961,Could not resolve host: gov-mclb.gov.kn,none
 gov-ref.mobile.admin.ch,admin.ch,CHE_switzerland,member,Europe,French; Swiss German; Italian; Romansh,114769,503,none
 gov-zz.gov.am,gov.am,ARM_armenia,member,Asia,Armenian,8556,Connection timed out after 3001 milliseconds,none
+gov.af,gov.af,AFG_afghanistan,member,Asia,Dari; Pashto; Turkmen,417,,5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
 gov.ag,gov.ag,ATG_antigua_and_barbuda,member,Americas,English,24819,Could not resolve host: gov.ag,10 mail.gov.ag.
+gov.al,gov.al,ALB_albania,member,Europe,Albanian,12998,,none
 gov.am,gov.am,ARM_armenia,member,Asia,Armenian,8556,Could not resolve host: gov.am,10 mail-gw.gov.am.
 gov.ao,gov.ao,AGO_angola,member,Africa,Portuguese,3129,302,none
+gov.au,gov.au,AUS_australia,member,Oceania,English,65130,,none
+gov.az,gov.az,AZE_azerbaijan,member,Asia,Azerbaijani,7411,,0 mmx.mail.gov.az.
+gov.ba,gov.ba,BIH_bosnia_and_herzegovina,member,Europe,Bosnian; Croatian; Serbian,10382,,none
 gov.bb,gov.bb,BRB_barbados,member,Americas,English,28365,Could not resolve host: gov.bb,none
+gov.bd,gov.bd,BGD_bangladesh,member,Asia,Bengali,2597,,none
+gov.bf,gov.bf,BFA_burkina_faso,member,Africa,French,1148,,none
 gov.bg,gov.bg,BGR_bulgaria,member,Europe,Bulgarian,20328,200,none
+gov.bh,gov.bh,BHR_bahrain,member,Asia,Arabic,30597,,none
 gov.bi,gov.bi,BDI_burundi,member,Africa,French; Kirundi,234,Connection timed out after 3002 milliseconds,none
 gov.bn,gov.bn,BRN_brunei,member,Asia,Malay,32235,Could not resolve host: gov.bn,none
+gov.br,gov.br,BRA_brazil,member,Americas,Portuguese,10713,,0 .
+gov.bs,gov.bs,BHS_bahamas,member,Americas,English,39455,,none
+gov.bt,gov.bt,BTN_bhutan,member,Asia,Dzongkha,3831,,10 ASPMX2.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
 gov.bw,gov.bw,BWA_botswana,member,Africa,English; Tswana,7778,301,10 mx6.gov.bw.
+gov.by,gov.by,BLR_belarus,member,Europe,Belarusian; Russian,10279,,10 m.gov.by.
+gov.bz,gov.bz,BLZ_belize,member,Americas,Belizean Creole; English; Spanish,7865,,none
 gov.caixa.gov.br,gov.br,BRA_brazil,member,Americas,Portuguese,10713,Could not resolve host: gov.caixa.gov.br,none
+gov.cm,gov.cm,CMR_cameroon,member,Africa,English; French,1972,,none
+gov.cn,gov.cn,CHN_china,member,Asia,Chinese,13862,,none
+gov.co,gov.co,COL_colombia,member,Americas,Spanish,8562,,none
+gov.cy,gov.cy,CYP_cyprus,member,Europe,Greek; Turkish,41783,,10 mail03.gov.cy.
 gov.cz,gov.cz,CZE_czechia,member,Europe,Czech; Slovak,35917,301,10 smtp-cms.gov.cz.
+gov.dm,gov.dm,DMA_dominica,member,Americas,English,10989,,none
+gov.dz,gov.dz,DZA_algeria,member,Africa,Arabic,6051,,none
+gov.eg,gov.eg,EGY_egypt,member,Africa,Arabic,3086,,none
+gov.er,gov.er,ERI_eritrea,member,Africa,Arabic; English; Tigrinya,689,,none
+gov.et,gov.et,ETH_ethiopia,member,Africa,Amharic,933,,none
+gov.fj,gov.fj,FJI_fiji,member,Oceania,English; Fijian; Fiji Hindi,6642,,10 imc4.govnet.gov.fj.; 20 imc5.govnet.gov.fj.; 10 imc7.govnet.gov.fj.; 20 imc6.govnet.gov.fj.; 10 imc9.govnet.gov.fj.; 10 imc8.govnet.gov.fj.
 gov.fm,gov.fm,FSM_micronesia,member,Oceania,English,4414,Could not resolve host: gov.fm,none
 gov.gd,gov.gd,GRD_grenada,member,Americas,English,12107,301,none
+gov.ge,gov.ge,GEO_georgia,member,Asia,Georgian,9692,,10 mail.gov.ge.
+gov.gh,gov.gh,GHA_ghana,member,Africa,English,3257,,none
 gov.gm,gov.gm,GMB_gambia,member,Africa,English,919,Could not resolve host: gov.gm,none
+gov.gn,gov.gn,GIN_guinea,member,Africa,French,1877,,none
+gov.gr,gov.gr,GRC_greece,member,Europe,Greek,26948,,none
 gov.gw,gov.gw,GNB_guinea_bissau,member,Africa,Portuguese; Upper Guinea Creole,1124,Could not resolve host: gov.gw,none
+gov.gy,gov.gy,GUY_guyana,member,Americas,English,32414,,none
 gov.hr,gov.hr,HRV_croatia,member,Europe,Croatian,27104,200,20 ma-02.gov.hr.; 10 ma-01.gov.hr.
 gov.ie,gov.ie,IRL_ireland,member,Europe,English; Irish,112895,301,none
+gov.il,gov.il,ISR_israel,member,Asia,Arabic; Hebrew,60337,,5 mail.tehila.gov.il.
+gov.in,gov.in,IND_india,member,Asia,English; Hindi; Tamil,2695,,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
+gov.iq,gov.iq,IRQ_iraq,member,Asia,Arabic; Aramaic; Sorani,5410,,none
+gov.ir,gov.ir,IRN_iran,member,Asia,Persian (Farsi),3924,,none
+gov.it,gov.it,ITA_italy,member,Europe,Italian; Catalan,43309,,none
+gov.jm,gov.jm,JAM_jamaica,member,Americas,English; Jamaican Patois,7754,,none
+gov.jo,gov.jo,JOR_jordan,member,Asia,Arabic,5348,,10 mx01.gov.jo.
 gov.kcb.gov.kw,gov.kw,KWT_kuwait,member,Asia,Arabic,32312,Could not resolve host: gov.kcb.gov.kw,none
+gov.ke,gov.ke,KEN_kenya,member,Africa,English; Swahili,2363,,none
 gov.kg,gov.kg,KGZ_kyrgyzstan,member,Asia,Kyrgyz; Russian,2420,Could not resolve host: gov.kg,10 webmail.infocom.kg.
+gov.kh,gov.kh,KHM_cambodia,member,Asia,Khmer,2872,,none
+gov.ki,gov.ki,KIR_kiribati,member,Oceania,English; Gilbertese,2559,,none
 gov.kn,gov.kn,KNA_saint_kitts_and_nevis,member,Americas,English,23961,SSL: no alternative certificate subject name matches target hostname 'gov.kn',10 mx1.emailsrvr.com.; 0 gov-kn.mail.protection.outlook.com.; 20 mx2.emailsrvr.com.
+gov.kp,gov.kp,PRK_north_korea,member,Asia,Korean,,,dig error
 gov.kr,gov.kr,KOR_south_korea,member,Asia,Korean,36239,301,none
+gov.kw,gov.kw,KWT_kuwait,member,Asia,Arabic,32312,,none
+gov.kz,gov.kz,KAZ_kazakhstan,member,Asia,Kazakh; Russian,14692,,none
+gov.la,gov.la,LAO_laos,member,Asia,Lao,2325,,none
+gov.lb,gov.lb,LBN_lebanon,member,Asia,Arabic; French,4473,,none
+gov.lc,gov.lc,LCA_saint_lucia,member,Americas,English,14182,,none
 gov.lk,gov.lk,LKA_sri_lanka,member,Asia,Sinhala; Tamil,5002,SSL: no alternative certificate subject name matches target hostname 'gov.lk',none
+gov.lr,gov.lr,LBR_liberia,member,Africa,English,851,,none
 gov.ls,gov.ls,LSO_lesotho,member,Africa,English; Sotho,1089,Connection timed out after 3002 milliseconds,1 gov-ls.mail.protection.outlook.com.
+gov.lv,gov.lv,LVA_latvia,member,Europe,Latvian,26312,,5 mail.gov.lv.
+gov.ly,gov.ly,LBY_libya,member,Africa,Arabic,6449,,none
+gov.ma,gov.ma,MAR_morocco,member,Africa,Arabic; Berber,4672,,none
 gov.md,gov.md,MDA_moldova,member,Europe,Romanian,8622,Could not resolve host: gov.md,none
 gov.me,gov.me,MNE_montenegro,member,Europe,Montenegrin,14817,301,none
+gov.mg,gov.mg,MDG_madagascar,member,Africa,French; Malagasy,599,,0 mail.gov.mg.
+gov.mh,gov.mh,MHL_marshall_islands,member,Oceania,English; Marshallese,8489,,none
+gov.mk,gov.mk,MKD_north_macedonia,member,Europe,Macedonian,9292,,none
+gov.mm,gov.mm,MMR_myanmar,member,Asia,Burmese,1359,,none
+gov.mn,gov.mn,MNG_mongolia,member,Asia,Mongolian,6751,,10 mx.mail.gov.mn.; 30 mx.mail.gov.mn.; 30 mx2.mail.gov.mn.; 10 mx2.mail.gov.mn.
 gov.mowr.gov.iq,gov.iq,IRQ_iraq,member,Asia,Arabic; Aramaic; Sorani,5410,Resolving timed out after 3000 milliseconds,none
+gov.mr,gov.mr,MRT_mauritania,member,Africa,Arabic,2198,,none
 gov.mt,gov.mt,MLT_malta,member,Europe,English; Maltese,47907,403,none
+gov.mu,gov.mu,MUS_mauritius,member,Africa,English; French; Mauritian Creole,11991,,none
+gov.mv,gov.mv,MDV_maldives,member,Asia,Maldivian,14615,,none
+gov.mw,gov.mw,MWI_malawi,member,Africa,English; Chewa,672,,none
+gov.my,gov.my,MYS_malaysia,member,Asia,English; Malay,13125,,none
 gov.mz,gov.mz,MOZ_mozambique,member,Africa,Portuguese,627,Could not resolve host: gov.mz,none
 gov.na,gov.na,NAM_namibia,member,Africa,Lozi; Herero; Kwangali; German; English; Afrikaans; Khoekhoe; Ndonga; Tswana,4876,Connection timed out after 3002 milliseconds,none
+gov.ng,gov.ng,NGA_nigeria,member,Africa,English,1084,,none
+gov.np,gov.np,NPL_nepal,member,Asia,Nepali,1447,,none
+gov.nr,gov.nr,NRU_nauru,member,Oceania,English; Nauru,13609,,10 mail.gov.nr.
+gov.om,gov.om,OMN_oman,member,Asia,Arabic,19947,,5 mail.gov.om.
+gov.pg,gov.pg,PNG_papua_new_guinea,member,Oceania,English; Hiri Motu; Tok Pisin,3020,,none
+gov.ph,gov.ph,PHL_philippines,member,Asia,English; Filipino,4171,,16 ne-mail2.gov.ph.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 15 ne-mail1.gov.ph.; 10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
+gov.pk,gov.pk,PAK_pakistan,member,Asia,English; Urdu,1596,,none
 gov.pl,gov.pl,POL_poland,member,Europe,Polish,28420,301,none
 gov.ps,gov.ps,PSE_palestine,observer,Asia,Arabic,3171,SSL: no alternative certificate subject name matches target hostname 'gov.ps',none
 gov.pt,gov.pt,PRT_portugal,member,Europe,Portuguese,29292,301,none
+gov.pw,gov.pw,PLW_palau,member,Oceania,English; Palauan,19532,,none
+gov.py,gov.py,PRY_paraguay,member,Americas,Guaraní; Spanish,7027,,none
+gov.qa,gov.qa,QAT_qatar,member,Asia,Arabic,72525,,none
 gov.ro,gov.ro,ROU_romania,member,Europe,Romanian,22538,Connection timed out after 3001 milliseconds,none
 gov.rs,gov.rs,SRB_serbia,member,Europe,Serbian,13679,SSL: no alternative certificate subject name matches target hostname 'gov.rs',10 smtp.gov.rs.
+gov.ru,gov.ru,RUS_russia,member,Europe,Russian,14889,,30 mx4.gov.ru.; 20 mx3.gov.ru.
+gov.rw,gov.rw,RWA_rwanda,member,Africa,English; French; Kinyarwanda,1124,,10 gateway.aos.rw.
+gov.sa,gov.sa,SAU_saudi_arabia,member,Asia,Arabic,34537,,none
+gov.sb,gov.sb,SLB_solomon_islands,member,Oceania,English,2086,,none
 gov.sc,gov.sc,SYC_seychelles,member,Africa,Seychellois Creole; English; French,19449,SSL: no alternative certificate subject name matches target hostname 'gov.sc',10 mx1.egov.sc.; 20 mx2.egov.sc.; 15 mx3.egov.sc.
+gov.sd,gov.sd,SDN_sudan,member,Africa,Arabic; English,1165,,none
+gov.sg,gov.sg,SGP_singapore,member,Asia,English; Chinese; Malay; Tamil,98814,,none
 gov.si,gov.si,SVN_slovenia,member,Europe,Slovene,34301,Connection timed out after 3002 milliseconds,none
+gov.sk,gov.sk,SVK_slovakia,member,Europe,Slovak,25993,,10 mail.gov.sk.
+gov.sl,gov.sl,SLE_sierra_leone,member,Africa,English,846,,none
 gov.sm,gov.sm,SMR_san_marino,member,Europe,Italian,59880,403,10 lavoripubblici.in.tmes.trendmicro.eu.
+gov.so,gov.so,SOM_somalia,member,Africa,Arabic; Somali,630,,none
 gov.sr,gov.sr,SUR_suriname,member,Americas,Dutch,6962,200,10 mailgwy.gov.sr.
+gov.ss,gov.ss,SSD_south_sudan,member,Africa,English,1080,,none
 gov.st,gov.st,STP_sao_tome_and_principe,member,Africa,Portuguese,3491,200,none
+gov.sy,gov.sy,SYR_syria,member,Asia,Arabic,1057,,none
 gov.sz,gov.sz,SWZ_eswatini,member,Africa,English; Swazi,3910,200,10 naviegw.swazi.net.
+gov.tj,gov.tj,TJK_tajikistan,member,Asia,Russian; Tajik,1341,,none
+gov.tl,gov.tl,TLS_timor_leste,member,Asia,Portuguese; Tetum,1332,,none
+gov.tm,gov.tm,TKM_turkmenistan,member,Asia,Russian; Turkmen,6857,,dig error
+gov.tn,gov.tn,TUN_tunisia,member,Africa,Arabic,4181,,50 mx2email.ingw.tn.; 10 mx1email.ingw.tn.
+gov.to,gov.to,TON_tonga,member,Oceania,English; Tongan,6547,,none
+gov.tr,gov.tr,TUR_turkey,member,Asia,Turkish,15893,,none
 gov.tt,gov.tt,TTO_trinidad_and_tobago,member,Americas,English,18733,301,20 smtp20.gov.tt.; 0 im.emailsecurity.trendmicro.com.; 10 smtp10.gov.tt.
 gov.tv,gov.tv,TUV_tuvalu,member,Oceania,English; Tuvaluan,6345,Could not resolve host: gov.tv,1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+gov.ua,gov.ua,UKR_ukraine,member,Europe,Ukrainian,5389,,none
 gov.ug,gov.ug,UGA_uganda,member,Africa,English; Swahili,1078,Could not resolve host: gov.ug,none
 gov.uk,gov.uk,GBR_united_kingdom,member,Europe,English,57602,301,none
 gov.uz,gov.uz,UZB_uzbekistan,member,Asia,Russian; Uzbek,3968,307,none
 gov.vc,gov.vc,VCT_saint_vincent_and_the_grenadines,member,Americas,English,11501,SSL: no alternative certificate subject name matches target hostname 'gov.vc',none
+gov.vn,gov.vn,VNM_vietnam,member,Asia,Vietnamese,4717,,none
 gov.vu,gov.vu,VUT_vanuatu,member,Oceania,Bislama; English; French,4039,200,0 gov-vu.mail.protection.outlook.com.
+gov.ws,gov.ws,WSM_samoa,member,Oceania,English; Samoan,5873,,none
 gov.www.gov.cn,gov.cn,CHN_china,member,Asia,Chinese,13862,Could not resolve host: gov.www.gov.cn,none
+gov.ye,gov.ye,YEM_yemen,member,Asia,Arabic,634,,none
 gov.za,gov.za,ZAF_south_africa,member,Africa,Xhosa; Southern Sotho; Tsonga; Southern Ndebele; Venda; Swazi; English; Afrikaans; Northern Sotho; Zulu; Tswana,6267,Connection timed out after 3001 milliseconds,none
+gov.zm,gov.zm,ZMB_zambia,member,Africa,English,1187,,none
+gov.zw,gov.zw,ZWE_zimbabwe,member,Africa,Chibarwe; Xhosa; Shona; Sotho; Ndau; Tsonga; Venda; Kalanga; English; Khoisan; Tonga; Chewa; Zimbabwean Sign Language; Tswana; Northern Ndebele,2497,,none
 govacc.per.gov.ie,gov.ie,IRL_ireland,member,Europe,English; Irish,112895,302,none
 govanmbeki.gov.za,gov.za,ZAF_south_africa,member,Africa,Xhosa; Southern Sotho; Tsonga; Southern Ndebele; Venda; Swazi; English; Afrikaans; Northern Sotho; Zulu; Tswana,6267,301,none
 govapp.gov.vc,gov.vc,VCT_saint_vincent_and_the_grenadines,member,Americas,English,11501,Could not resolve host: govapp.gov.vc,none
@@ -38927,6 +39046,7 @@ govstar.gov.cn,gov.cn,CHN_china,member,Asia,Chinese,13862,Could not resolve host
 govsub.mofne.gov.bh,gov.bh,BHR_bahrain,member,Asia,Arabic,30597,Could not resolve host: govsub.mofne.gov.bh,none
 govsubsidies.mofne.gov.bh,gov.bh,BHR_bahrain,member,Asia,Arabic,30597,Could not resolve host: govsubsidies.mofne.gov.bh,none
 govt-urls.usa.gov,usa.gov,USA_united_states,member,Americas,English,84534,Could not resolve host: govt-urls.usa.gov,none
+govt.nz,govt.nz,NZL_new_zealand,member,Oceania,English; Māori; New Zealand Sign Language,49591,,none
 govtech.gov.pt,gov.pt,PRT_portugal,member,Europe,Portuguese,29292,Could not resolve host: govtech.gov.pt,10 smtp.govtech.gov.pt.
 govtemployee.nadra.gov.pk,gov.pk,PAK_pakistan,member,Asia,English; Urdu,1596,Could not resolve host: govtemployee.nadra.gov.pk,none
 govtfactory.gov.lk,gov.lk,LKA_sri_lanka,member,Asia,Sinhala; Tamil,5002,Could not resolve host: govtfactory.gov.lk,none
@@ -39383,6 +39503,7 @@ guayaquil.gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,200,none
 guaytacama.gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,301,none
 guayusa.gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,200,none
 guazucua.gov.py,gov.py,PRY_paraguay,member,Americas,Guaraní; Spanish,7027,Could not resolve host: guazucua.gov.py,none
+gub.uy,gub.uy,URY_uruguay,member,Americas,Spanish,23907,,none
 gubb.ub.gov.mn,gov.mn,MNG_mongolia,member,Asia,Mongolian,6751,200,none
 guce.gouv.bj,gouv.bj,BEN_benin,member,Africa,French,1658,Could not resolve host: guce.gouv.bj,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
 guce.gouv.ci,gouv.ci,CIV_cote_d_ivoire,member,Africa,French,3050,200,0 guce-gouv-ci.mail.protection.outlook.com.
@@ -39477,6 +39598,7 @@ guyanatourismauthority.gov.gy,gov.gy,GUY_guyana,member,Americas,English,32414,SS
 guyane.safire.fonction-publique.gouv.fr,gouv.fr,FRA_france,member,Europe,French,48986,Could not resolve host: guyane.safire.fonction-publique.gouv.fr,none
 guydproject.minfor.gov.gy,gov.gy,GUY_guyana,member,Americas,English,32414,Could not resolve host: guydproject.minfor.gov.gy,none
 guzmo.gov.by,gov.by,BLR_belarus,member,Europe,Belarusian; Russian,10279,200,none
+gv.at,gv.at,AUT_austria,member,Europe,German,62930,,none
 gvdb.gov.tr,gov.tr,TUR_turkey,member,Asia,Turkish,15893,Connection timed out after 3001 milliseconds,none
 gvelikaja.rooivacevichi.gov.by,gov.by,BLR_belarus,member,Europe,Belarusian; Russian,10279,Connection timed out after 3002 milliseconds,none
 gvernlokalibeta.gov.mt,gov.mt,MLT_malta,member,Europe,English; Maltese,47907,SSL: no alternative certificate subject name matches target hostname 'gvernlokalibeta.gov.mt',none
@@ -40376,6 +40498,7 @@ hlp.fmoh.gov.sd,gov.sd,SDN_sudan,member,Africa,Arabic; English,1165,Could not re
 hltdmza002.health.sa.gov.au,gov.au,AUS_australia,member,Oceania,English,65130,Could not resolve host: hltdmza002.health.sa.gov.au,none
 hlukhiv-rada.gov.ua,gov.ua,UKR_ukraine,member,Europe,Ukrainian,5389,200,none
 hly.gov.il,gov.il,ISR_israel,member,Asia,Arabic; Hebrew,60337,403,none
+hm.ee,hm.ee,EST_estonia,member,Europe,Estonian,34418,,10 mail1.rit.ee.; 10 mail3.rit.ee.
 hm.hatosagihivatal.kormany.hu,kormany.hu,HUN_hungary,member,Europe,Hungarian,25907,200,none
 hm.vedelemgazdasagihivatal.kormany.hu,kormany.hu,HUN_hungary,member,Europe,Hungarian,25907,200,none
 hm.zirl.gv.at,gv.at,AUT_austria,member,Europe,German,62930,Could not resolve host: hm.zirl.gv.at,none
@@ -45961,6 +46084,7 @@ jusdnit.dnit.gov.br,gov.br,BRA_brazil,member,Americas,Portuguese,10713,Could not
 juspol.gov.sr,gov.sr,SUR_suriname,member,Americas,Dutch,6962,200,0 juspol-gov-sr.mail.protection.outlook.com.
 jussantacruz.gob.ar,gob.ar,ARG_argentina,member,Americas,Guaraní; Spanish,13970,Could not resolve host: jussantacruz.gob.ar,none
 just-minsk.gov.by,gov.by,BLR_belarus,member,Europe,Belarusian; Russian,10279,200,none
+justdigi.ee,justdigi.ee,EST_estonia,member,Europe,Estonian,34418,,10 mail3.rit.ee.; 10 mail1.rit.ee.
 justica.gov.pt,gov.pt,PRT_portugal,member,Europe,Portuguese,29292,Could not resolve host: justica.gov.pt,10 mailgw.mj.pt.
 justicamaisproxima.justica.gov.pt,gov.pt,PRT_portugal,member,Europe,Portuguese,29292,301,none
 justicastp.gov.st,gov.st,STP_sao_tome_and_principe,member,Africa,Portuguese,3491,SSL certificate problem: certificate has expired,none
@@ -46115,6 +46239,7 @@ kaikhum.go.th,go.th,THA_thailand,member,Asia,Thai,8057,Connection timed out afte
 kaipara.govt.nz,govt.nz,NZL_new_zealand,member,Oceania,English; Māori; New Zealand Sign Language,49591,302,none
 kairylman.mlsp.gov.kg,gov.kg,KGZ_kyrgyzstan,member,Asia,Kyrgyz; Russian,2420,Could not resolve host: kairylman.mlsp.gov.kg,none
 kaishi.e-tax.nta.go.jp,go.jp,JPN_japan,member,Asia,Japanese,32487,403,none
+kaitseministeerium.ee,kaitseministeerium.ee,EST_estonia,member,Europe,Estonian,34418,,5 fmail.mil.ee.
 kakanj.gov.ba,gov.ba,BIH_bosnia_and_herzegovina,member,Europe,Bosnian; Croatian; Serbian,10382,301,0 kakanj.gov.ba.
 kakanj.kakanj.gov.ba,gov.ba,BIH_bosnia_and_herzegovina,member,Europe,Bosnian; Croatian; Serbian,10382,301,none
 kakarvitta.nepalimmigration.gov.np,gov.np,NPL_nepal,member,Asia,Nepali,1447,SSL: no alternative certificate subject name matches target hostname 'kakarvitta.nepalimmigration.gov.np',none
@@ -46157,6 +46282,7 @@ kalushrda.gov.ua,gov.ua,UKR_ukraine,member,Europe,Ukrainian,5389,429,15 mx15.ukr
 kalymnos.gov.gr,gov.gr,GRC_greece,member,Europe,Greek,26948,301,none
 kalynivskarada.gov.ua,gov.ua,UKR_ukraine,member,Europe,Ukrainian,5389,403,none
 kam.cdu.gov.hr,gov.hr,HRV_croatia,member,Europe,Croatian,27104,401,none
+kam.lt,kam.lt,LTU_lithuania,member,Europe,Lithuanian,32959,,10 smtpin.mil.lt.
 kam.mail.cdu.gov.hr,gov.hr,HRV_croatia,member,Europe,Croatian,27104,SSL: no alternative certificate subject name matches target hostname 'kam.mail.cdu.gov.hr',none
 kam.ncdd.gov.kh,gov.kh,KHM_cambodia,member,Asia,Khmer,2872,Connection timed out after 3002 milliseconds,none
 kamasu.jpf.go.jp,go.jp,JPN_japan,member,Asia,Japanese,32487,Could not resolve host: kamasu.jpf.go.jp,none
@@ -47577,6 +47703,7 @@ kudngong.go.th,go.th,THA_thailand,member,Asia,Thai,8057,Connection timed out aft
 kudos.teststeder.regjeringen.no,regjeringen.no,NOR_norway,member,Europe,Norwegian Nynorsk; Norwegian Bokmål; Sami,94594,302,none
 kuip.ks.gov.ba,gov.ba,BIH_bosnia_and_herzegovina,member,Europe,Bosnian; Croatian; Serbian,10382,200,none
 kujawy.psp.gov.pl,gov.pl,POL_poland,member,Europe,Polish,28420,Failed to connect to kujawy.psp.gov.pl port 443 after 127 ms: Could not connect to server,none
+kul.ee,kul.ee,EST_estonia,member,Europe,Estonian,34418,,10 mail3.rit.ee.; 10 mail1.rit.ee.
 kulhudhuffushi.gov.mv,gov.mv,MDV_maldives,member,Asia,Maldivian,14615,Could not resolve host: kulhudhuffushi.gov.mv,none
 kulsubmission.dbkl.gov.my,gov.my,MYS_malaysia,member,Asia,English; Malay,13125,Could not resolve host: kulsubmission.dbkl.gov.my,none
 kultur.gov.tr,gov.tr,TUR_turkey,member,Asia,Turkish,15893,301,none
@@ -48048,6 +48175,7 @@ latola.gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,Could not resolve 
 latortuga.gob.pe,gob.pe,PER_peru,member,Americas,Aymara; Quechua; Spanish,8452,Could not resolve host: latortuga.gob.pe,none
 latrinidad.gov.ph,gov.ph,PHL_philippines,member,Asia,English; Filipino,4171,SSL certificate problem: certificate has expired,none
 latroncal.gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,200,none
+latvija.lv,latvija.lv,LVA_latvia,member,Europe,Latvian,26312,,none
 launion.go.cr,go.cr,CRI_costa_rica,member,Americas,Spanish,19970,200,none
 launionatacames.gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,Could not resolve host: launionatacames.gob.ec,none
 launionsantaana.gob.ec,gob.ec,ECU_ecuador,member,Americas,Spanish,7125,301,0 launionsantaana.gob.ec.
@@ -49597,6 +49725,7 @@ lri-bcsir.gov.bd,gov.bd,BGD_bangladesh,member,Asia,Bengali,2597,Could not resolv
 lrims.dolrm.gov.np,gov.np,NPL_nepal,member,Asia,Nepali,1447,Connection timed out after 3000 milliseconds,none
 lrk.skmm.gov.my,gov.my,MYS_malaysia,member,Asia,English; Malay,13125,Could not resolve host: lrk.skmm.gov.my,none
 lrmis.homeaffairs.gov.ls,gov.ls,LSO_lesotho,member,Africa,English; Sotho,1089,Recv failure: Connexion ré-initialisée par le correspondant,dig error
+lrs.lt,lrs.lt,LTU_lithuania,member,Europe,Lithuanian,32959,,0 lrs-lt.mail.protection.outlook.com.
 lrv.lt,lrv.lt,LTU_lithuania,member,Europe,Lithuanian,32959,403,10 mail.lrv.lt.
 lrweb1.gov.bh,gov.bh,BHR_bahrain,member,Asia,Arabic,30597,Could not resolve host: lrweb1.gov.bh,none
 lrweb2.gov.bh,gov.bh,BHR_bahrain,member,Asia,Arabic,30597,Could not resolve host: lrweb2.gov.bh,none
@@ -66368,6 +66497,7 @@ mkk.kga.gov.ua,gov.ua,UKR_ukraine,member,Europe,Ukrainian,5389,Could not resolve
 mkkdata.kga.gov.ua,gov.ua,UKR_ukraine,member,Europe,Ukrainian,5389,Could not resolve host: mkkdata.kga.gov.ua,none
 mkkservices.kga.gov.ua,gov.ua,UKR_ukraine,member,Europe,Ukrainian,5389,Could not resolve host: mkkservices.kga.gov.ua,none
 mklm-exch001.moseskotane.gov.za,gov.za,ZAF_south_africa,member,Africa,Xhosa; Southern Sotho; Tsonga; Southern Ndebele; Venda; Swazi; English; Afrikaans; Northern Sotho; Zulu; Tswana,6267,Could not resolve host: mklm-exch001.moseskotane.gov.za,none
+mkm.ee,mkm.ee,EST_estonia,member,Europe,Estonian,34418,,20 mail3.rit.ee.; 10 mail1.rit.ee.
 mkn.gov.my,gov.my,MYS_malaysia,member,Asia,English; Malay,13125,Could not resolve host: mkn.gov.my,10 mx2.mkn.gov.my.; 20 mx.mkn.gov.my.; 30 mail.mkn.gov.my.
 mkn01.svr03.1govuc.gov.my,gov.my,MYS_malaysia,member,Asia,English; Malay,13125,Could not resolve host: mkn01.svr03.1govuc.gov.my,none
 mkn01casarr.1govuc.gov.my,gov.my,MYS_malaysia,member,Asia,English; Malay,13125,Could not resolve host: mkn01casarr.1govuc.gov.my,none
@@ -82664,6 +82794,7 @@ rightsmng.jogmec.go.jp,go.jp,JPN_japan,member,Asia,Japanese,32487,Could not reso
 rigw.nwrc.gov.eg,gov.eg,EGY_egypt,member,Africa,Arabic,3086,406,dig error
 rih.gov.az,gov.az,AZE_azerbaijan,member,Asia,Azerbaijani,7411,Connection timed out after 3002 milliseconds,none
 riha-approver.eesti.ee,eesti.ee,EST_estonia,member,Europe,Estonian,34418,Could not resolve host: riha-approver.eesti.ee,none
+riigikogu.ee,riigikogu.ee,EST_estonia,member,Europe,Estonian,34418,,10 ns.riigikogu.ee.; 10 enos.riigikogu.ee.
 rijksoverheid.nl,rijksoverheid.nl,NLD_netherlands,member,Europe,Dutch,67520,301,10 mail2.ssonet.nl.; 10 mail.ssonet.nl.
 rik.api.pk2-client.eesti.ee,eesti.ee,EST_estonia,member,Europe,Estonian,34418,Could not resolve host: rik.api.pk2-client.eesti.ee,none
 rik.api.pk2-client.test.eesti.ee,eesti.ee,EST_estonia,member,Europe,Estonian,34418,Could not resolve host: rik.api.pk2-client.test.eesti.ee,none
@@ -83779,6 +83910,7 @@ sae.mtop.gub.uy,gub.uy,URY_uruguay,member,Americas,Spanish,23907,302,none
 sae.mvotma.gub.uy,gub.uy,URY_uruguay,member,Americas,Spanish,23907,Could not resolve host: sae.mvotma.gub.uy,none
 saed.jucemg.mg.gov.br,gov.br,BRA_brazil,member,Americas,Portuguese,10713,Could not resolve host: saed.jucemg.mg.gov.br,none
 saef.gov.sa,gov.sa,SAU_saudi_arabia,member,Asia,Arabic,34537,Could not resolve host: saef.gov.sa,none
+saeima.lv,saeima.lv,LVA_latvia,member,Europe,Latvian,26312,,10 spaceship2.saeima.lv.; 5 spaceship.saeima.lv.
 saep.gov.gd,gov.gd,GRD_grenada,member,Americas,English,12107,200,0 saep-gov-gd.mail.protection.outlook.com.
 saepmis.gov.gd,gov.gd,GRD_grenada,member,Americas,English,12107,Operation timed out after 3001 milliseconds with 0 bytes received,none
 saepro.jundiai.sp.gov.br,gov.br,BRA_brazil,member,Americas,Portuguese,10713,200,none
@@ -83964,6 +84096,7 @@ sam.bournemouth.gov.uk,gov.uk,GBR_united_kingdom,member,Europe,English,57602,Cou
 sam.gov.az,gov.az,AZE_azerbaijan,member,Asia,Azerbaijani,7411,Could not resolve host: sam.gov.az,none
 sam.gov.tr,gov.tr,TUR_turkey,member,Asia,Turkish,15893,Connection timed out after 3001 milliseconds,none
 sam.iosper.gob.ar,gob.ar,ARG_argentina,member,Americas,Guaraní; Spanish,13970,200,none
+sam.lt,sam.lt,LTU_lithuania,member,Europe,Lithuanian,32959,,0 sam-lt.mail.protection.outlook.com.; 10 mail.sam.lt.
 sam.ntis.gov.au,gov.au,AUS_australia,member,Oceania,English,65130,Could not resolve host: sam.ntis.gov.au,none
 sama-rec.finances.gouv.fr,gouv.fr,FRA_france,member,Europe,French,48986,Could not resolve host: sama-rec.finances.gouv.fr,none
 sama.finances.gouv.fr,gouv.fr,FRA_france,member,Europe,French,48986,302,none
@@ -88994,6 +89127,7 @@ siseg-sigp-metas-min.jefatura.gob.ar,gob.ar,ARG_argentina,member,Americas,Guaran
 siseg-sigp-onig.jefatura.gob.ar,gob.ar,ARG_argentina,member,Americas,Guaraní; Spanish,13970,Could not resolve host: siseg-sigp-onig.jefatura.gob.ar,none
 siseg-sip.jefatura.gob.ar,gob.ar,ARG_argentina,member,Americas,Guaraní; Spanish,13970,Could not resolve host: siseg-sip.jefatura.gob.ar,none
 siseg-tmc.jefatura.gob.ar,gob.ar,ARG_argentina,member,Americas,Guaraní; Spanish,13970,Could not resolve host: siseg-tmc.jefatura.gob.ar,none
+siseministeerium.ee,siseministeerium.ee,EST_estonia,member,Europe,Estonian,34418,,10 mx1.smit.ee.; 20 mx2.smit.ee.; 30 mx3.smit.ee.
 sisene.arendus.eesti.ee,eesti.ee,EST_estonia,member,Europe,Estonian,34418,Could not resolve host: sisene.arendus.eesti.ee,none
 sisene.eeltoodang.eesti.ee,eesti.ee,EST_estonia,member,Europe,Estonian,34418,Could not resolve host: sisene.eeltoodang.eesti.ee,none
 sisene.koolitus.eesti.ee,eesti.ee,EST_estonia,member,Europe,Estonian,34418,Could not resolve host: sisene.koolitus.eesti.ee,none
@@ -89462,6 +89596,7 @@ slyt.gob.ar,gob.ar,ARG_argentina,member,Americas,Guaraní; Spanish,13970,Could n
 sm.cnel.gov.pt,gov.pt,PRT_portugal,member,Europe,Portuguese,29292,Could not resolve host: sm.cnel.gov.pt,none
 sm.dgac.gob.cl,gob.cl,CHL_chile,member,Americas,Spanish,17995,Could not resolve host: sm.dgac.gob.cl,none
 sm.dover.gov.uk,gov.uk,GBR_united_kingdom,member,Europe,English,57602,Could not resolve host: sm.dover.gov.uk,none
+sm.ee,sm.ee,EST_estonia,member,Europe,Estonian,34418,,10 mail1.rit.ee.; 20 mail3.rit.ee.
 sm.fadn.gov.ru,gov.ru,RUS_russia,member,Europe,Russian,14889,Could not resolve host: sm.fadn.gov.ru,none
 sm.gov.bd,gov.bd,BGD_bangladesh,member,Asia,Bengali,2597,Could not resolve host: sm.gov.bd,none
 sm.gov.il,gov.il,ISR_israel,member,Asia,Arabic; Hebrew,60337,404,none
@@ -89597,6 +89732,7 @@ smit.gov.ma,gov.ma,MAR_morocco,member,Africa,Arabic; Berber,4672,403,none
 smjm.treasury.gov.my,gov.my,MYS_malaysia,member,Asia,English; Malay,13125,Connection timed out after 3002 milliseconds,none
 sml.gob.cl,gob.cl,CHL_chile,member,Americas,Spanish,17995,Could not resolve host: sml.gob.cl,10 correo.sml.gob.cl.
 smlouvy.gov.cz,gov.cz,CZE_czechia,member,Europe,Czech; Slovak,35917,200,none
+smm.lt,smm.lt,LTU_lithuania,member,Europe,Lithuanian,32959,,0 smm-lt.mail.protection.outlook.com.
 smm.swindon.gov.uk,gov.uk,GBR_united_kingdom,member,Europe,English,57602,Connection timed out after 3002 milliseconds,none
 smn-admin.sedena.gob.mx,gob.mx,MEX_mexico,member,Americas,Spanish,13889,Could not resolve host: smn-admin.sedena.gob.mx,none
 smnc.njjy.gov.cn,gov.cn,CHN_china,member,Asia,Chinese,13862,Could not resolve host: smnc.njjy.gov.cn,none
@@ -97694,6 +97830,7 @@ urheberrecht.bmb.gv.at,gv.at,AUT_austria,member,Europe,German,62930,Could not re
 uri.suomi.fi,suomi.fi,FIN_finland,member,Europe,Finnish; Swedish,56149,Could not resolve host: uri.suomi.fi,none
 url.xinba.gov.cn,gov.cn,CHN_china,member,Asia,Chinese,13862,Could not resolve host: url.xinba.gov.cn,none
 urlasim.gov.tr,gov.tr,TUR_turkey,member,Asia,Turkish,15893,Could not resolve host: urlasim.gov.tr,none
+urm.lt,urm.lt,LTU_lithuania,member,Europe,Lithuanian,32959,,10 mxs1.urm.lt.
 urmon.gov.uz,gov.uz,UZB_uzbekistan,member,Asia,Russian; Uzbek,3968,Connection timed out after 3002 milliseconds,none
 urna.capetown.gov.za,gov.za,ZAF_south_africa,member,Africa,Xhosa; Southern Sotho; Tsonga; Southern Ndebele; Venda; Swazi; English; Afrikaans; Northern Sotho; Zulu; Tswana,6267,Could not resolve host: urna.capetown.gov.za,none
 urnadecristal.gov.co,gov.co,COL_colombia,member,Americas,Spanish,8562,200,none
@@ -98027,6 +98164,7 @@ validationtest.nzta.govt.nz,govt.nz,NZL_new_zealand,member,Oceania,English; Māo
 validator.mot.gov.il,gov.il,ISR_israel,member,Asia,Arabic; Hebrew,60337,Could not resolve host: validator.mot.gov.il,none
 valise-permanence.developpement-durable.gouv.fr,gouv.fr,FRA_france,member,Europe,French,48986,Could not resolve host: valise-permanence.developpement-durable.gouv.fr,none
 valise-permanence.din.developpement-durable.gouv.fr,gouv.fr,FRA_france,member,Europe,French,48986,Could not resolve host: valise-permanence.din.developpement-durable.gouv.fr,none
+valitsus.ee,valitsus.ee,EST_estonia,member,Europe,Estonian,34418,,20 callisto.rk.ee.; 10 niobe.rk.ee.
 valivarasto.asiointitili.suomi.fi,suomi.fi,FIN_finland,member,Europe,Finnish; Swedish,56149,Connection timed out after 3002 milliseconds,none
 valky-rada.gov.ua,gov.ua,UKR_ukraine,member,Europe,Ukrainian,5389,403,none
 valladolid.gov.ph,gov.ph,PHL_philippines,member,Asia,English; Filipino,4171,Could not resolve host: valladolid.gov.ph,none
@@ -98817,6 +98955,7 @@ vm-expwe.fm.gov.jo,gov.jo,JOR_jordan,member,Asia,Arabic,5348,Could not resolve h
 vm-expwe1.fm.gov.jo,gov.jo,JOR_jordan,member,Asia,Arabic,5348,Connection timed out after 3002 milliseconds,none
 vm-expwe2.fm.gov.jo,gov.jo,JOR_jordan,member,Asia,Arabic,5348,Connection timed out after 3002 milliseconds,none
 vm.aramis.admin.ch,admin.ch,CHE_switzerland,member,Europe,French; Swiss German; Italian; Romansh,114769,Could not resolve host: vm.aramis.admin.ch,none
+vm.ee,vm.ee,EST_estonia,member,Europe,Estonian,34418,,10 jupiter.vm.ee.; 30 juno.vm.ee.
 vm.eletrobras.gov.br,gov.br,BRA_brazil,member,Americas,Portuguese,10713,Could not resolve host: vm.eletrobras.gov.br,none
 vm.fi,vm.fi,FIN_finland,member,Europe,Finnish; Swedish,56149,302,none
 vm.reading.gov.uk,gov.uk,GBR_united_kingdom,member,Europe,English,57602,Could not resolve host: vm.reading.gov.uk,none

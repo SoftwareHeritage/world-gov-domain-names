@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 13 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Tokyo
-- Domains collected (HTTP 200): 1898
+- Domains collected (HTTP 200): 1899
 
 ## UN/DESA national portal
 

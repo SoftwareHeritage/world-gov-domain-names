@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 153 of 193
 - Government type: presidential republic
 - Capital: Dodoma
-- Domains collected (HTTP 200): 1537
+- Domains collected (HTTP 200): 1538
 
 ## UN/DESA national portal
 

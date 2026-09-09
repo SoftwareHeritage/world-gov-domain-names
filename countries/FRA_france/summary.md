@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 34 of 193
 - Government type: semi-presidential republic
 - Capital: Paris
-- Domains collected (HTTP 200): 2295
+- Domains collected (HTTP 200): 2296
 
 ## UN/DESA national portal
 
 - Declared: [http://www.gouvernement.fr](http://www.gouvernement.fr) (host `gouvernement.fr`)
-- ⚠️ ABSENT -- neither `gouvernement.fr` covered nor `countries/FRA_france/sources/roots/gouvernement.fr/` directory present
+- ⚠️ ABSENT -- neither `gouvernement.fr` covered nor `countries/FRA_france/sources/crtsh/gouvernement.fr.csv` present
 
 ## Institutions named by CIA Factbook
 

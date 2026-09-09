@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 125 of 193
 - Government type: in transition
 - Capital: Tripoli (Tarabulus)
-- Domains collected (HTTP 200): 773
+- Domains collected (HTTP 200): 774
 
 ## UN/DESA national portal
 

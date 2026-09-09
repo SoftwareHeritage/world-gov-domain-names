@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 64 of 193
 - Government type: presidential republic
 - Capital: Jakarta
-- Domains collected (HTTP 200): 2581
+- Domains collected (HTTP 200): 2582
 
 ## UN/DESA national portal
 
 - Declared: [http://indonesia.go.id](http://indonesia.go.id) (host `indonesia.go.id`)
-- ⚠️ Exact hostname not in the 200s, but a `go.id` root directory exists (to be probed)
+- ⚠️ Exact hostname not in the 200s, but `go.id` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

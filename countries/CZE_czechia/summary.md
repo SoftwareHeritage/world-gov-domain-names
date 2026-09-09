@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [https://www.vlada.cz](https://www.vlada.cz) (host `vlada.cz`)
-- ⚠️ ABSENT -- neither `vlada.cz` covered nor `countries/CZE_czechia/sources/roots/vlada.cz/` directory present
+- ⚠️ ABSENT -- neither `vlada.cz` covered nor `countries/CZE_czechia/sources/crtsh/vlada.cz.csv` present
 
 ## Institutions named by CIA Factbook
 

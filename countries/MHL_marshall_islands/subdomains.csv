@@ -1,7 +1,8 @@
-subdomain,parent_domain,http_status
-mof.gov.mh,gov.mh,200
-ndmo.gov.mh,gov.mh,Resolving timed out after 3000 milliseconds
-tilmake.gov.mh,gov.mh,Resolving timed out after 3000 milliseconds
-webmail.gov.mh,gov.mh,Connection timed out after 3000 milliseconds
-www.mof.gov.mh,gov.mh,Operation timed out after 3001 milliseconds with 0 bytes received
-www.ndmo.gov.mh,gov.mh,Resolving timed out after 3001 milliseconds
+subdomain,parent_domain,http_status,mx
+gov.mh,gov.mh,,none
+mof.gov.mh,gov.mh,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+ndmo.gov.mh,gov.mh,Resolving timed out after 3000 milliseconds,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+tilmake.gov.mh,gov.mh,Resolving timed out after 3000 milliseconds,none
+webmail.gov.mh,gov.mh,Connection timed out after 3000 milliseconds,none
+www.mof.gov.mh,gov.mh,Operation timed out after 3001 milliseconds with 0 bytes received,5 mx1.hostinger.com.; 10 mx2.hostinger.com.
+www.ndmo.gov.mh,gov.mh,Resolving timed out after 3001 milliseconds,none

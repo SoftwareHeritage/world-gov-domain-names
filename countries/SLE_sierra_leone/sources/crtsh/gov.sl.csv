@@ -1,0 +1,634 @@
+subdomain,http_status,mx
+117-cc.mohs.gov.sl,200,none
+anticorruption.gov.sl,200,1 email.anticorruption.gov.sl.; 0 mail.anticorruption.gov.sl.
+api.dashboard.education.gov.sl,Connection timed out after 3002 milliseconds,none
+api.educationdatahub.dsti.gov.sl,Could not resolve host: api.educationdatahub.dsti.gov.sl,none
+appointment-api-dev.dsti.gov.sl,429,none
+appointment-api.dsti.gov.sl,429,none
+appointment.dsti.gov.sl,429,none
+assets.anticorruption.gov.sl,200,none
+auditservice.gov.sl,301,10 mx.zoho.com.; 20 mx2.zoho.com.; 50 mx3.zoho.com.
+autodiscover.anticorruption.gov.sl,SSL: no alternative certificate subject name matches target hostname 'autodiscover.anticorruption.gov.sl',0 mail.anticorruption.gov.sl.; 1 email.anticorruption.gov.sl.
+autodiscover.auditservice.gov.sl,SSL certificate problem: certificate has expired,20 mx2.zoho.com.; 10 mx.zoho.com.; 50 mx3.zoho.com.
+autodiscover.bac.gov.sl,SSL: no alternative certificate subject name matches target hostname 'autodiscover.bac.gov.sl',none
+autodiscover.csu.gov.sl,400,none
+autodiscover.foreignaffairs.gov.sl,Could not resolve host: autodiscover.foreignaffairs.gov.sl,none
+autodiscover.hrmo.gov.sl,Could not resolve host: autodiscover.hrmo.gov.sl,none
+autodiscover.jsco.gov.sl,Could not resolve host: autodiscover.jsco.gov.sl,none
+autodiscover.maritime.gov.sl,521,none
+autodiscover.mohsihpau.gov.sl,Failed to connect to autodiscover.mohsihpau.gov.sl port 443 after 204 ms: Could not connect to server,none
+autodiscover.mswgca.gov.sl,Could not resolve host: autodiscover.mswgca.gov.sl,none
+autodiscover.mta.gov.sl,Could not resolve host: autodiscover.mta.gov.sl,none
+autodiscover.mwpa.gov.sl,400,none
+autodiscover.ncpsl.gov.sl,302,none
+autodiscover.nma.gov.sl,400,none
+autodiscover.nsa.gov.sl,Could not resolve host: autodiscover.nsa.gov.sl,none
+autodiscover.nys.gov.sl,Could not resolve host: autodiscover.nys.gov.sl,none
+autodiscover.opii-pppu.gov.sl,Could not resolve host: autodiscover.opii-pppu.gov.sl,none
+autodiscover.ppp.gov.sl,Could not resolve host: autodiscover.ppp.gov.sl,none
+autodiscover.pprc.gov.sl,400,none
+autodiscover.rmfa.gov.sl,400,none
+autodiscover.salpost.gov.sl,400,none
+autodiscover.slari.gov.sl,Resolving timed out after 3000 milliseconds,none
+autodiscover.uadf.gov.sl,SSL: no alternative certificate subject name matches target hostname 'autodiscover.uadf.gov.sl',none
+bac.gov.sl,SSL: no alternative certificate subject name matches target hostname 'bac.gov.sl',none
+beijing.foreignaffairs.gov.sl,Could not resolve host: beijing.foreignaffairs.gov.sl,none
+bsl.gov.sl,200,0 smtp.secureserver.net.; 10 mailstore1.secureserver.net.
+check.slrsa.gov.sl,Could not resolve host: check.slrsa.gov.sl,none
+client.redisl.education.gov.sl,302,none
+commissionofinquiry.gov.sl,Could not resolve host: commissionofinquiry.gov.sl,none
+controlpanel.lrcsl.gov.sl,Could not resolve host: controlpanel.lrcsl.gov.sl,none
+covid19.dsti.gov.sl,Could not resolve host: covid19.dsti.gov.sl,none
+covid19.mic.gov.sl,Resolving timed out after 3000 milliseconds,none
+cpanel.anticorruption.gov.sl,Could not resolve host: cpanel.anticorruption.gov.sl,none
+cpanel.bac.gov.sl,SSL: no alternative certificate subject name matches target hostname 'cpanel.bac.gov.sl',none
+cpanel.csu.gov.sl,200,0 mail.csu.gov.sl.
+cpanel.diasporaaffairs.gov.sl,Could not resolve host: cpanel.diasporaaffairs.gov.sl,none
+cpanel.education.gov.sl,Recv failure: Connexion ré-initialisée par le correspondant,none
+cpanel.fiu.gov.sl,Could not resolve host: cpanel.fiu.gov.sl,none
+cpanel.foreignaffairs.gov.sl,Could not resolve host: cpanel.foreignaffairs.gov.sl,none
+cpanel.health.gov.sl,Could not resolve host: cpanel.health.gov.sl,none
+cpanel.hrmo.gov.sl,Could not resolve host: cpanel.hrmo.gov.sl,none
+cpanel.immigrationservices.gov.sl,Could not resolve host: cpanel.immigrationservices.gov.sl,none
+cpanel.jsco.gov.sl,Could not resolve host: cpanel.jsco.gov.sl,none
+cpanel.maritime.gov.sl,200,none
+cpanel.mfmr.gov.sl,Could not resolve host: cpanel.mfmr.gov.sl,none
+cpanel.mlgrd.gov.sl,Could not resolve host: cpanel.mlgrd.gov.sl,none
+cpanel.mohs.gov.sl,200,none
+cpanel.mohsihpau.gov.sl,200,none
+cpanel.mswgca.gov.sl,Could not resolve host: cpanel.mswgca.gov.sl,none
+cpanel.mta.gov.sl,Could not resolve host: cpanel.mta.gov.sl,none
+cpanel.mwpa.gov.sl,200,none
+cpanel.nacced.gov.sl,200,none
+cpanel.ncpsl.gov.sl,SSL: no alternative certificate subject name matches target hostname 'cpanel.ncpsl.gov.sl',none
+cpanel.nma.gov.sl,500,none
+cpanel.nsa.gov.sl,Could not resolve host: cpanel.nsa.gov.sl,none
+cpanel.nys.gov.sl,Could not resolve host: cpanel.nys.gov.sl,none
+cpanel.ombudsman.gov.sl,200,none
+cpanel.opii-pppu.gov.sl,Could not resolve host: cpanel.opii-pppu.gov.sl,none
+cpanel.phneoc.gov.sl,SSL certificate problem: self-signed certificate,none
+cpanel.pnb.gov.sl,Could not resolve host: cpanel.pnb.gov.sl,none
+cpanel.police.gov.sl,Could not resolve host: cpanel.police.gov.sl,none
+cpanel.ppp.gov.sl,Could not resolve host: cpanel.ppp.gov.sl,none
+cpanel.pprc.gov.sl,200,none
+cpanel.raic.gov.sl,SSL: no alternative certificate subject name matches target hostname 'cpanel.raic.gov.sl',none
+cpanel.rmfa.gov.sl,Could not resolve host: cpanel.rmfa.gov.sl,none
+cpanel.salpost.gov.sl,500,0 mail.salpost.gov.sl.
+cpanel.slari.gov.sl,Could not resolve host: cpanel.slari.gov.sl,none
+cpanel.sleiti.gov.sl,Could not resolve host: cpanel.sleiti.gov.sl,none
+cpanel.slicom.gov.sl,SSL certificate problem: self-signed certificate,none
+cpanel.statehouse.gov.sl,Could not resolve host: cpanel.statehouse.gov.sl,none
+cpanel.uadf.gov.sl,Could not resolve host: cpanel.uadf.gov.sl,none
+cpcalendars.bac.gov.sl,Could not resolve host: cpcalendars.bac.gov.sl,none
+cpcalendars.csu.gov.sl,503,none
+cpcalendars.foreignaffairs.gov.sl,Could not resolve host: cpcalendars.foreignaffairs.gov.sl,none
+cpcalendars.hrmo.gov.sl,Could not resolve host: cpcalendars.hrmo.gov.sl,none
+cpcalendars.jsco.gov.sl,Could not resolve host: cpcalendars.jsco.gov.sl,none
+cpcalendars.maritime.gov.sl,503,none
+cpcalendars.mohs.gov.sl,401,none
+cpcalendars.mohsihpau.gov.sl,Could not resolve host: cpcalendars.mohsihpau.gov.sl,none
+cpcalendars.mta.gov.sl,Could not resolve host: cpcalendars.mta.gov.sl,none
+cpcalendars.mwpa.gov.sl,401,none
+cpcalendars.ncpsl.gov.sl,503,none
+cpcalendars.nma.gov.sl,Could not resolve host: cpcalendars.nma.gov.sl,none
+cpcalendars.nsa.gov.sl,Could not resolve host: cpcalendars.nsa.gov.sl,none
+cpcalendars.nys.gov.sl,Could not resolve host: cpcalendars.nys.gov.sl,none
+cpcalendars.phneoc.gov.sl,SSL certificate problem: self-signed certificate,none
+cpcalendars.ppp.gov.sl,Could not resolve host: cpcalendars.ppp.gov.sl,none
+cpcalendars.pprc.gov.sl,401,none
+cpcalendars.raic.gov.sl,SSL: no alternative certificate subject name matches target hostname 'cpcalendars.raic.gov.sl',none
+cpcalendars.rmfa.gov.sl,500,none
+cpcalendars.salpost.gov.sl,500,none
+cpcalendars.slari.gov.sl,Resolving timed out after 3000 milliseconds,none
+cpcalendars.sleiti.gov.sl,Could not resolve host: cpcalendars.sleiti.gov.sl,none
+cpcalendars.uadf.gov.sl,Could not resolve host: cpcalendars.uadf.gov.sl,none
+cpcontacts.bac.gov.sl,Could not resolve host: cpcontacts.bac.gov.sl,none
+cpcontacts.csu.gov.sl,Could not resolve host: cpcontacts.csu.gov.sl,none
+cpcontacts.foreignaffairs.gov.sl,Could not resolve host: cpcontacts.foreignaffairs.gov.sl,none
+cpcontacts.hrmo.gov.sl,Could not resolve host: cpcontacts.hrmo.gov.sl,none
+cpcontacts.jsco.gov.sl,Could not resolve host: cpcontacts.jsco.gov.sl,none
+cpcontacts.maritime.gov.sl,503,none
+cpcontacts.mohs.gov.sl,401,none
+cpcontacts.mohsihpau.gov.sl,401,none
+cpcontacts.mta.gov.sl,Could not resolve host: cpcontacts.mta.gov.sl,none
+cpcontacts.mwpa.gov.sl,401,none
+cpcontacts.nacoverc.gov.sl,Could not resolve host: cpcontacts.nacoverc.gov.sl,none
+cpcontacts.ncpsl.gov.sl,503,none
+cpcontacts.nma.gov.sl,Could not resolve host: cpcontacts.nma.gov.sl,none
+cpcontacts.nsa.gov.sl,Could not resolve host: cpcontacts.nsa.gov.sl,none
+cpcontacts.nys.gov.sl,Could not resolve host: cpcontacts.nys.gov.sl,none
+cpcontacts.phneoc.gov.sl,SSL certificate problem: self-signed certificate,none
+cpcontacts.ppp.gov.sl,Could not resolve host: cpcontacts.ppp.gov.sl,none
+cpcontacts.pprc.gov.sl,401,none
+cpcontacts.raic.gov.sl,SSL: no alternative certificate subject name matches target hostname 'cpcontacts.raic.gov.sl',none
+cpcontacts.rmfa.gov.sl,500,none
+cpcontacts.salpost.gov.sl,500,none
+cpcontacts.slari.gov.sl,Could not resolve host: cpcontacts.slari.gov.sl,none
+cpcontacts.sleiti.gov.sl,Could not resolve host: cpcontacts.sleiti.gov.sl,none
+cpcontacts.uadf.gov.sl,Could not resolve host: cpcontacts.uadf.gov.sl,none
+csu.gov.sl,200,0 mail.csu.gov.sl.
+dashboard.education.gov.sl,Connection timed out after 3002 milliseconds,none
+ddms.health.gov.sl,Could not resolve host: ddms.health.gov.sl,none
+demo.imc.gov.sl,500,none
+demo.travel.gov.sl,Could not resolve host: demo.travel.gov.sl,none
+democracy.gov.sl,Could not resolve host: democracy.gov.sl,10 mx1-niche.atmailcloud.com.; 20 mx2-niche.atmailcloud.com.
+demosite.uadf.gov.sl,Could not resolve host: demosite.uadf.gov.sl,none
+dev.ewrc.gov.sl,Could not resolve host: dev.ewrc.gov.sl,none
+dev.ntb.gov.sl,Could not resolve host: dev.ntb.gov.sl,none
+dev.psru.gov.sl,Could not resolve host: dev.psru.gov.sl,none
+dev.tourism.gov.sl,Could not resolve host: dev.tourism.gov.sl,none
+dhis.health.gov.sl,Could not resolve host: dhis.health.gov.sl,none
+dhis2.mohs.gov.sl,301,none
+diasporaaffairs.gov.sl,Could not resolve host: diasporaaffairs.gov.sl,none
+distance-to-schools.dsti.gov.sl,Could not resolve host: distance-to-schools.dsti.gov.sl,none
+domain.gov.sl,Operation timed out after 3000 milliseconds with 0 bytes received,none
+drone.dsti.gov.sl,Could not resolve host: drone.dsti.gov.sl,none
+dsti.gov.sl,200,none
+ebola.diasporaaffairs.gov.sl,Could not resolve host: ebola.diasporaaffairs.gov.sl,none
+ecdata.dsti.gov.sl,Could not resolve host: ecdata.dsti.gov.sl,none
+ecommerce.salpost.gov.sl,Could not resolve host: ecommerce.salpost.gov.sl,none
+edat.dsti.gov.sl,Could not resolve host: edat.dsti.gov.sl,none
+education.dsti.gov.sl,Could not resolve host: education.dsti.gov.sl,none
+education.gov.sl,SSL certificate problem: certificate has expired,none
+educationdatahub.dsti.gov.sl,Could not resolve host: educationdatahub.dsti.gov.sl,none
+educationtest.dsti.gov.sl,429,none
+edutest.dsti.gov.sl,Could not resolve host: edutest.dsti.gov.sl,none
+ee-cc.mohs.gov.sl,Connection timed out after 3002 milliseconds,none
+ee.data.youthaffairs.gov.sl,Connection timed out after 3002 milliseconds,none
+efpu.gov.sl,SSL certificate problem: self-signed certificate,none
+eic-api.hcdincubator.dsti.gov.sl,429,none
+eic.dsti.gov.sl,429,none
+eic.hcdincubator.dsti.gov.sl,Could not resolve host: eic.hcdincubator.dsti.gov.sl,none
+eid.nas.gov.sl,Failed to connect to eid.nas.gov.sl port 443 after 317 ms: Could not connect to server,none
+email.health.gov.sl,Could not resolve host: email.health.gov.sl,none
+en.democracy.gov.sl,Could not resolve host: en.democracy.gov.sl,none
+energy.gov.sl,Could not resolve host: energy.gov.sl,none
+environment.dsti.gov.sl,Could not resolve host: environment.dsti.gov.sl,none
+epa.gov.sl,Could not resolve host: epa.gov.sl,none
+epets-staging.dsti.gov.sl,Could not resolve host: epets-staging.dsti.gov.sl,none
+epets.mof.gov.sl,Connection timed out after 3002 milliseconds,none
+erp.cac.gov.sl,Could not resolve host: erp.cac.gov.sl,none
+ewrc.gov.sl,Connection timed out after 3001 milliseconds,0 ewrc.gov.sl.
+fcc.gov.sl,Could not resolve host: fcc.gov.sl,10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
+firstlady.gov.sl,200,none
+fiu.gov.sl,SSL certificate problem: self-signed certificate,none
+foreignaffairs.gov.sl,Could not resolve host: foreignaffairs.gov.sl,none
+forum.youthaffairs.gov.sl,SSL: no alternative certificate subject name matches target hostname 'forum.youthaffairs.gov.sl',none
+freehealthcare.health.gov.sl,Could not resolve host: freehealthcare.health.gov.sl,none
+gims.nma.gov.sl,Connection timed out after 3002 milliseconds,none
+gis-dev.dsti.gov.sl,Could not resolve host: gis-dev.dsti.gov.sl,none
+gis-superset.dsti.gov.sl,Could not resolve host: gis-superset.dsti.gov.sl,none
+gis.dsti.gov.sl,Could not resolve host: gis.dsti.gov.sl,none
+github.dsti.gov.sl,Could not resolve host: github.dsti.gov.sl,none
+gitlab.dsti.gov.sl,Connection timed out after 3002 milliseconds,none
+gov.sl,,none
+grafyxplus.nma.gov.sl,503,none
+grm.anticorruption.gov.sl,200,none
+grm.redisl.education.gov.sl,302,none
+grm.tsc.gov.sl,SSL: no alternative certificate subject name matches target hostname 'grm.tsc.gov.sl',none
+grmtest.anticorruption.gov.sl,SSL: no alternative certificate subject name matches target hostname 'grmtest.anticorruption.gov.sl',none
+hcdincubator.dsti.gov.sl,429,none
+health.gov.sl,Connection timed out after 3002 milliseconds,none
+hris.health.gov.sl,Could not resolve host: hris.health.gov.sl,none
+hrisvolunteers.health.gov.sl,Could not resolve host: hrisvolunteers.health.gov.sl,none
+hrmo.gov.sl,Could not resolve host: hrmo.gov.sl,none
+hss.health.gov.sl,Could not resolve host: hss.health.gov.sl,none
+ihris.health.gov.sl,Could not resolve host: ihris.health.gov.sl,none
+ihrisvolunteers.health.gov.sl,Could not resolve host: ihrisvolunteers.health.gov.sl,none
+imc.gov.sl,200,none
+immigrationservices.gov.sl,Could not resolve host: immigrationservices.gov.sl,none
+jsco.gov.sl,200,none
+kc-cc.mohs.gov.sl,Connection timed out after 3002 milliseconds,none
+kc.data.youthaffairs.gov.sl,Connection timed out after 3002 milliseconds,none
+kf.data.youthaffairs.gov.sl,Connection timed out after 3002 milliseconds,none
+kpi-cc.mohs.gov.sl,Connection timed out after 3002 milliseconds,none
+lab.gov.sl,Connection timed out after 3001 milliseconds,none
+labour.gov.sl,SSL certificate problem: certificate has expired,10 mail.labour.gov.sl.
+lands.gov.sl,Could not resolve host: lands.gov.sl,none
+lmis.labour.gov.sl,Could not resolve host: lmis.labour.gov.sl,none
+lrcsl.gov.sl,SSL certificate problem: certificate has expired,none
+m.nma.gov.sl,SSL certificate problem: certificate has expired,none
+mail.anticorruption.gov.sl,200,0 mail.anticorruption.gov.sl.; 1 email.anticorruption.gov.sl.
+mail.auditservice.gov.sl,Could not resolve host: mail.auditservice.gov.sl,none
+mail.bac.gov.sl,SSL: no alternative certificate subject name matches target hostname 'mail.bac.gov.sl',none
+mail.csu.gov.sl,200,none
+mail.democracy.gov.sl,Could not resolve host: mail.democracy.gov.sl,none
+mail.diasporaaffairs.gov.sl,Could not resolve host: mail.diasporaaffairs.gov.sl,none
+mail.education.gov.sl,SSL: no alternative certificate subject name matches target hostname 'mail.education.gov.sl',none
+mail.ewrc.gov.sl,Connection timed out after 3002 milliseconds,none
+mail.fiu.gov.sl,SSL: no alternative certificate subject name matches target hostname 'mail.fiu.gov.sl',none
+mail.foreignaffairs.gov.sl,Could not resolve host: mail.foreignaffairs.gov.sl,none
+mail.health.gov.sl,Could not resolve host: mail.health.gov.sl,none
+mail.hrmo.gov.sl,Could not resolve host: mail.hrmo.gov.sl,none
+mail.imc.gov.sl,301,none
+mail.immigrationservices.gov.sl,Could not resolve host: mail.immigrationservices.gov.sl,none
+mail.jsco.gov.sl,Could not resolve host: mail.jsco.gov.sl,none
+mail.lab.gov.sl,Could not resolve host: mail.lab.gov.sl,none
+mail.maritime.gov.sl,301,none
+mail.mccu-sl.gov.sl,Could not resolve host: mail.mccu-sl.gov.sl,none
+mail.mfmr.gov.sl,Could not resolve host: mail.mfmr.gov.sl,none
+mail.mlgrd.gov.sl,Could not resolve host: mail.mlgrd.gov.sl,none
+mail.mohs.gov.sl,301,0 mohs.gov.sl.
+mail.mohsihpau.gov.sl,200,0 mohsihpau-gov-sl.mail.protection.outlook.com.
+mail.mswgca.gov.sl,Could not resolve host: mail.mswgca.gov.sl,none
+mail.mta.gov.sl,Could not resolve host: mail.mta.gov.sl,none
+mail.mwpa.gov.sl,301,none
+mail.mwr.gov.sl,Could not resolve host: mail.mwr.gov.sl,none
+mail.nacced.gov.sl,301,none
+mail.nacoverc.gov.sl,Could not resolve host: mail.nacoverc.gov.sl,none
+mail.nas.gov.sl,SSL certificate problem: certificate has expired,none
+mail.ncpsl.gov.sl,302,none
+mail.nppa.gov.sl,301,none
+mail.nsa.gov.sl,Could not resolve host: mail.nsa.gov.sl,none
+mail.ntb.gov.sl,Could not resolve host: mail.ntb.gov.sl,0 ntb.gov.sl.
+mail.nys.gov.sl,Could not resolve host: mail.nys.gov.sl,none
+mail.ombudsman.gov.sl,Could not resolve host: mail.ombudsman.gov.sl,none
+mail.opii-pppu.gov.sl,Could not resolve host: mail.opii-pppu.gov.sl,none
+mail.phneoc.gov.sl,SSL certificate problem: self-signed certificate,none
+mail.pnb.gov.sl,Could not resolve host: mail.pnb.gov.sl,none
+mail.police.gov.sl,Could not resolve host: mail.police.gov.sl,none
+mail.ppp.gov.sl,Could not resolve host: mail.ppp.gov.sl,none
+mail.pprc.gov.sl,200,none
+mail.publicprocurement.gov.sl,Could not resolve host: mail.publicprocurement.gov.sl,none
+mail.raic.gov.sl,SSL: no alternative certificate subject name matches target hostname 'mail.raic.gov.sl',none
+mail.rmfa.gov.sl,301,none
+mail.salpost.gov.sl,301,none
+mail.sierraleonenationaltouristboard.gov.sl,Resolving timed out after 3000 milliseconds,none
+mail.slari.gov.sl,Could not resolve host: mail.slari.gov.sl,none
+mail.slcs.gov.sl,Could not resolve host: mail.slcs.gov.sl,none
+mail.sleiti.gov.sl,SSL: no alternative certificate subject name matches target hostname 'mail.sleiti.gov.sl',none
+mail.slicom.gov.sl,SSL certificate problem: self-signed certificate,0 slicom.gov.sl.
+mail.slid.gov.sl,Could not resolve host: mail.slid.gov.sl,none
+mail.sliepa.gov.sl,Recv failure: Connexion ré-initialisée par le correspondant,none
+mail.slrsa.gov.sl,Could not resolve host: mail.slrsa.gov.sl,none
+mail.statehouse.gov.sl,Could not resolve host: mail.statehouse.gov.sl,none
+mail.tourism.gov.sl,Could not resolve host: mail.tourism.gov.sl,none
+mail.uadf.gov.sl,Could not resolve host: mail.uadf.gov.sl,none
+mail.uslthc.gov.sl,Could not resolve host: mail.uslthc.gov.sl,none
+management.uadf.gov.sl,Could not resolve host: management.uadf.gov.sl,none
+maritime.gov.sl,403,none
+mbox.slcaa.gov.sl,Could not resolve host: mbox.slcaa.gov.sl,none
+mbsse.gov.sl,200,50 mx3.zoho.com.; 20 mx2.zoho.com.; 10 mx.zoho.com.
+mccu-sl.gov.sl,Could not resolve host: mccu-sl.gov.sl,none
+mettltd.nys.gov.sl,Could not resolve host: mettltd.nys.gov.sl,none
+mewr.gov.sl,Could not resolve host: mewr.gov.sl,none
+mfmr.gov.sl,301,none
+mhero.health.gov.sl,Could not resolve host: mhero.health.gov.sl,none
+mia.gov.sl,Could not resolve host: mia.gov.sl,none
+mlgrd.gov.sl,Could not resolve host: mlgrd.gov.sl,none
+mmareview.nma.gov.sl,200,none
+mod.gov.sl,Connection timed out after 3001 milliseconds,20 mx2.zoho.com.; 10 mx.zoho.com.; 50 mx3.zoho.com.
+mof.gov.sl,200,none
+mofed.gov.sl,301,none
+mohs.gov.sl,200,none
+mohsihpau.gov.sl,200,0 mohsihpau-gov-sl.mail.protection.outlook.com.
+moped.gov.sl,200,none
+moyamba.gov.sl,SSL: no alternative certificate subject name matches target hostname 'moyamba.gov.sl',none
+mppa.gov.sl,Connection timed out after 3001 milliseconds,none
+mswgca.gov.sl,Could not resolve host: mswgca.gov.sl,none
+mta.gov.sl,Could not resolve host: mta.gov.sl,none
+mthe.gov.sl,Connection timed out after 3001 milliseconds,none
+mwpa.gov.sl,200,none
+mwr.gov.sl,Could not resolve host: mwr.gov.sl,none
+nacced.gov.sl,Could not resolve host: nacced.gov.sl,0 mail.nacced.gov.sl.
+nacoverc.gov.sl,Could not resolve host: nacoverc.gov.sl,none
+nas.gov.sl,SSL certificate problem: certificate has expired,none
+natcom.gov.sl,301,30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.
+ncpd.gov.sl,200,none
+ncpsl.gov.sl,302,none
+news.slena.gov.sl,Could not resolve host: news.slena.gov.sl,none
+nma.gov.sl,301,none
+nmsa.gov.sl,Operation timed out after 3001 milliseconds with 0 bytes received,none
+nppa.gov.sl,200,none
+nra.gov.sl,SSL certificate problem: unable to get local issuer certificate,none
+nsa.gov.sl,Could not resolve host: nsa.gov.sl,none
+ntb.gov.sl,Connection timed out after 3001 milliseconds,none
+nys.gov.sl,Could not resolve host: nys.gov.sl,none
+ocmstatehouse.gov.sl,TLS connect error: error:0A000410:SSL routines::ssl/tls alert handshake failure,none
+officeofthefirstlady.gov.sl,200,none
+ombudsman.gov.sl,200,none
+ons.gov.sl,Could not resolve host: ons.gov.sl,none
+opendatasl.gov.sl,Could not resolve host: opendatasl.gov.sl,none
+opii-pppu.gov.sl,Could not resolve host: opii-pppu.gov.sl,none
+opii.gov.sl,SSL certificate problem: certificate has expired,none
+otp-events.dsti.gov.sl,Could not resolve host: otp-events.dsti.gov.sl,none
+parliament.gov.sl,Connection timed out after 3002 milliseconds,none
+phc.natcom.gov.sl,Could not resolve host: phc.natcom.gov.sl,none
+phneoc.gov.sl,SSL certificate problem: self-signed certificate,none
+phneoc.health.gov.sl,Could not resolve host: phneoc.health.gov.sl,none
+phptest.dsti.gov.sl,429,none
+pleskmail.mic.gov.sl,Resolving timed out after 3001 milliseconds,none
+pnb.gov.sl,TLS connect error: error:0A000126:SSL routines::unexpected eof while reading,none
+police.gov.sl,200,none
+portal.mohs.gov.sl,Could not resolve host: portal.mohs.gov.sl,none
+postebolarecovery.statehouse.gov.sl,Could not resolve host: postebolarecovery.statehouse.gov.sl,none
+ppp.gov.sl,Could not resolve host: ppp.gov.sl,none
+pprc.gov.sl,200,none
+president.efpu.gov.sl,SSL certificate problem: self-signed certificate,none
+presidentsrecoverypriorities.gov.sl,301,none
+presshub.mic.gov.sl,Resolving timed out after 3001 milliseconds,none
+production.sprint.nacsa.gov.sl,Connection timed out after 3001 milliseconds,none
+project.dsti.gov.sl,Connection timed out after 3002 milliseconds,none
+psru.gov.sl,200,none
+publicprocurement.gov.sl,Could not resolve host: publicprocurement.gov.sl,none
+raic.gov.sl,Could not resolve host: raic.gov.sl,none
+recruitment.mic.gov.sl,Resolving timed out after 3001 milliseconds,none
+reports.anticorruption.gov.sl,SSL: no alternative certificate subject name matches target hostname 'reports.anticorruption.gov.sl',none
+research.mof.gov.sl,200,none
+revamp.mohs.gov.sl,200,none
+rmfa.gov.sl,200,none
+salpost.gov.sl,200,none
+school-bus-stops.dsti.gov.sl,Could not resolve host: school-bus-stops.dsti.gov.sl,none
+school-coverage.dsti.gov.sl,Could not resolve host: school-coverage.dsti.gov.sl,none
+sdf.gov.sl,Connection timed out after 3002 milliseconds,0 mail.sdf.gov.sl.
+search.cac.gov.sl,Could not resolve host: search.cac.gov.sl,none
+server.parliament.gov.sl,Could not resolve host: server.parliament.gov.sl,none
+sierraleonenationaltouristboard.gov.sl,Resolving timed out after 3000 milliseconds,none
+sl-kpi-cc.mohs.gov.sl,Connection timed out after 3002 milliseconds,none
+slari.gov.sl,Operation timed out after 3000 milliseconds with 0 bytes received,none
+slcpchs.gov.sl,Could not resolve host: slcpchs.gov.sl,none
+slcr.gov.sl,Connection timed out after 3002 milliseconds,0 smtp.secureserver.net.; 10 mailstore1.secureserver.net.
+slcs.gov.sl,Resolving timed out after 3000 milliseconds,0 slcs.gov.sl.
+sledat.dsti.gov.sl,429,none
+sleiti.gov.sl,403,none
+slena.gov.sl,301,none
+slicom.gov.sl,SSL certificate problem: self-signed certificate,none
+slid.gov.sl,200,none
+sliepa.gov.sl,302,none
+sliepa.gov.sl.sliepa.org,Resolving timed out after 3000 milliseconds,none
+slmet.gov.sl,Could not resolve host: slmet.gov.sl,none
+slnmb.health.gov.sl,Could not resolve host: slnmb.health.gov.sl,none
+slnmbmail.health.gov.sl,Could not resolve host: slnmbmail.health.gov.sl,none
+slrsa.gov.sl,Could not resolve host: slrsa.gov.sl,none
+smeda.gov.sl,Could not resolve host: smeda.gov.sl,none
+statehouse.gov.sl,200,none
+test.mia.gov.sl,Could not resolve host: test.mia.gov.sl,none
+test.sprint.nacsa.gov.sl,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
+test.vicepresident.gov.sl,Could not resolve host: test.vicepresident.gov.sl,none
+test19.dsti.gov.sl,Could not resolve host: test19.dsti.gov.sl,none
+tourism.gov.sl,Connection timed out after 3001 milliseconds,none
+trade.gov.sl,Could not resolve host: trade.gov.sl,none
+travel.gov.sl,Could not resolve host: travel.gov.sl,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+tsc.gov.sl,200,none
+uadf.gov.sl,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+uaeembassy.foreignaffairs.gov.sl,Could not resolve host: uaeembassy.foreignaffairs.gov.sl,none
+ums.dsti.gov.sl,Connection timed out after 3002 milliseconds,none
+un.foreignaffairs.gov.sl,Could not resolve host: un.foreignaffairs.gov.sl,none
+uslthc.gov.sl,Could not resolve host: uslthc.gov.sl,none
+vicepresident.gov.sl,Could not resolve host: vicepresident.gov.sl,none
+viz.dsti.gov.sl,Could not resolve host: viz.dsti.gov.sl,none
+vl.nas.gov.sl,Failed to connect to vl.nas.gov.sl port 443 after 298 ms: Could not connect to server,none
+washington.foreignaffairs.gov.sl,Could not resolve host: washington.foreignaffairs.gov.sl,none
+webdisk.anticorruption.gov.sl,401,none
+webdisk.bac.gov.sl,SSL: no alternative certificate subject name matches target hostname 'webdisk.bac.gov.sl',none
+webdisk.csu.gov.sl,401,none
+webdisk.diasporaaffairs.gov.sl,Could not resolve host: webdisk.diasporaaffairs.gov.sl,none
+webdisk.education.gov.sl,Recv failure: Connexion ré-initialisée par le correspondant,none
+webdisk.fiu.gov.sl,Could not resolve host: webdisk.fiu.gov.sl,none
+webdisk.foreignaffairs.gov.sl,Could not resolve host: webdisk.foreignaffairs.gov.sl,none
+webdisk.health.gov.sl,Could not resolve host: webdisk.health.gov.sl,none
+webdisk.hrmo.gov.sl,Could not resolve host: webdisk.hrmo.gov.sl,none
+webdisk.immigrationservices.gov.sl,Could not resolve host: webdisk.immigrationservices.gov.sl,none
+webdisk.jsco.gov.sl,Could not resolve host: webdisk.jsco.gov.sl,none
+webdisk.maritime.gov.sl,401,none
+webdisk.mfmr.gov.sl,Could not resolve host: webdisk.mfmr.gov.sl,none
+webdisk.mlgrd.gov.sl,Could not resolve host: webdisk.mlgrd.gov.sl,none
+webdisk.mohs.gov.sl,401,none
+webdisk.mohsihpau.gov.sl,401,none
+webdisk.mswgca.gov.sl,Could not resolve host: webdisk.mswgca.gov.sl,none
+webdisk.mta.gov.sl,Could not resolve host: webdisk.mta.gov.sl,none
+webdisk.mwpa.gov.sl,401,none
+webdisk.mwr.gov.sl,Could not resolve host: webdisk.mwr.gov.sl,none
+webdisk.nacced.gov.sl,401,none
+webdisk.nacoverc.gov.sl,Could not resolve host: webdisk.nacoverc.gov.sl,none
+webdisk.ncpsl.gov.sl,401,none
+webdisk.nma.gov.sl,Could not resolve host: webdisk.nma.gov.sl,none
+webdisk.nsa.gov.sl,Could not resolve host: webdisk.nsa.gov.sl,none
+webdisk.nys.gov.sl,Could not resolve host: webdisk.nys.gov.sl,none
+webdisk.ombudsman.gov.sl,401,none
+webdisk.opii-pppu.gov.sl,Could not resolve host: webdisk.opii-pppu.gov.sl,none
+webdisk.phneoc.gov.sl,SSL certificate problem: self-signed certificate,none
+webdisk.pnb.gov.sl,Could not resolve host: webdisk.pnb.gov.sl,none
+webdisk.police.gov.sl,Could not resolve host: webdisk.police.gov.sl,none
+webdisk.ppp.gov.sl,Could not resolve host: webdisk.ppp.gov.sl,none
+webdisk.pprc.gov.sl,401,none
+webdisk.raic.gov.sl,SSL: no alternative certificate subject name matches target hostname 'webdisk.raic.gov.sl',none
+webdisk.rmfa.gov.sl,Could not resolve host: webdisk.rmfa.gov.sl,none
+webdisk.salpost.gov.sl,Could not resolve host: webdisk.salpost.gov.sl,none
+webdisk.slari.gov.sl,Could not resolve host: webdisk.slari.gov.sl,none
+webdisk.sleiti.gov.sl,Could not resolve host: webdisk.sleiti.gov.sl,none
+webdisk.slicom.gov.sl,SSL certificate problem: self-signed certificate,none
+webdisk.statehouse.gov.sl,Could not resolve host: webdisk.statehouse.gov.sl,none
+webdisk.uadf.gov.sl,Could not resolve host: webdisk.uadf.gov.sl,none
+webmail.anticorruption.gov.sl,200,none
+webmail.auditservice.gov.sl,Could not resolve host: webmail.auditservice.gov.sl,none
+webmail.bac.gov.sl,SSL: no alternative certificate subject name matches target hostname 'webmail.bac.gov.sl',none
+webmail.csu.gov.sl,200,0 mail.csu.gov.sl.
+webmail.diasporaaffairs.gov.sl,Could not resolve host: webmail.diasporaaffairs.gov.sl,none
+webmail.education.gov.sl,Recv failure: Connexion ré-initialisée par le correspondant,none
+webmail.fiu.gov.sl,Could not resolve host: webmail.fiu.gov.sl,none
+webmail.foreignaffairs.gov.sl,Could not resolve host: webmail.foreignaffairs.gov.sl,none
+webmail.health.gov.sl,Could not resolve host: webmail.health.gov.sl,none
+webmail.hrmo.gov.sl,Could not resolve host: webmail.hrmo.gov.sl,none
+webmail.immigrationservices.gov.sl,Could not resolve host: webmail.immigrationservices.gov.sl,none
+webmail.jsco.gov.sl,Could not resolve host: webmail.jsco.gov.sl,none
+webmail.labour.gov.sl,Recv failure: Connexion ré-initialisée par le correspondant,none
+webmail.maritime.gov.sl,Could not resolve host: webmail.maritime.gov.sl,none
+webmail.mfmr.gov.sl,Could not resolve host: webmail.mfmr.gov.sl,none
+webmail.mlgrd.gov.sl,Could not resolve host: webmail.mlgrd.gov.sl,none
+webmail.mohs.gov.sl,200,none
+webmail.mohsihpau.gov.sl,200,none
+webmail.moyamba.gov.sl,SSL: no alternative certificate subject name matches target hostname 'webmail.moyamba.gov.sl',none
+webmail.mswgca.gov.sl,Could not resolve host: webmail.mswgca.gov.sl,none
+webmail.mta.gov.sl,Could not resolve host: webmail.mta.gov.sl,none
+webmail.mwpa.gov.sl,200,none
+webmail.mwr.gov.sl,Could not resolve host: webmail.mwr.gov.sl,none
+webmail.nacced.gov.sl,200,none
+webmail.ncpsl.gov.sl,SSL: no alternative certificate subject name matches target hostname 'webmail.ncpsl.gov.sl',none
+webmail.nra.gov.sl,Could not resolve host: webmail.nra.gov.sl,none
+webmail.nsa.gov.sl,Could not resolve host: webmail.nsa.gov.sl,none
+webmail.nys.gov.sl,Could not resolve host: webmail.nys.gov.sl,none
+webmail.ombudsman.gov.sl,Could not resolve host: webmail.ombudsman.gov.sl,none
+webmail.opii-pppu.gov.sl,Could not resolve host: webmail.opii-pppu.gov.sl,none
+webmail.phneoc.gov.sl,SSL certificate problem: self-signed certificate,none
+webmail.pnb.gov.sl,Could not resolve host: webmail.pnb.gov.sl,none
+webmail.police.gov.sl,Could not resolve host: webmail.police.gov.sl,none
+webmail.ppp.gov.sl,Could not resolve host: webmail.ppp.gov.sl,none
+webmail.pprc.gov.sl,200,none
+webmail.raic.gov.sl,SSL: no alternative certificate subject name matches target hostname 'webmail.raic.gov.sl',none
+webmail.rmfa.gov.sl,Could not resolve host: webmail.rmfa.gov.sl,0 mail.rmfa.gov.sl.
+webmail.salpost.gov.sl,500,none
+webmail.slari.gov.sl,Could not resolve host: webmail.slari.gov.sl,none
+webmail.sleiti.gov.sl,Could not resolve host: webmail.sleiti.gov.sl,none
+webmail.slicom.gov.sl,SSL certificate problem: self-signed certificate,none
+webmail.statehouse.gov.sl,Could not resolve host: webmail.statehouse.gov.sl,none
+webmail.uadf.gov.sl,Could not resolve host: webmail.uadf.gov.sl,none
+webmail.uslthc.gov.sl,Could not resolve host: webmail.uslthc.gov.sl,none
+website.dsti.gov.sl,429,none
+whm.raic.gov.sl,SSL: no alternative certificate subject name matches target hostname 'whm.raic.gov.sl',none
+www.117-cc.mohs.gov.sl,Could not resolve host: www.117-cc.mohs.gov.sl,none
+www.anticorruption.gov.sl,Could not resolve host: www.anticorruption.gov.sl,none
+www.api.dashboard.education.gov.sl,Connection timed out after 3002 milliseconds,none
+www.appointment-api-dev.dsti.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.appointment-api-dev.dsti.gov.sl',none
+www.appointment-api.dsti.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.appointment-api.dsti.gov.sl',none
+www.auditservice.gov.sl,301,none
+www.bac.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.bac.gov.sl',none
+www.beijing.foreignaffairs.gov.sl,Could not resolve host: www.beijing.foreignaffairs.gov.sl,none
+www.bsl.gov.sl,Could not resolve host: www.bsl.gov.sl,none
+www.check.slrsa.gov.sl,Could not resolve host: www.check.slrsa.gov.sl,none
+www.commissionofinquiry.gov.sl,Could not resolve host: www.commissionofinquiry.gov.sl,none
+www.covid19.dsti.gov.sl,Could not resolve host: www.covid19.dsti.gov.sl,none
+www.csu.gov.sl,200,none
+www.dashboard.education.gov.sl,Connection timed out after 3002 milliseconds,none
+www.ddms.health.gov.sl,Could not resolve host: www.ddms.health.gov.sl,none
+www.demo.imc.gov.sl,500,none
+www.demo.travel.gov.sl,Could not resolve host: www.demo.travel.gov.sl,none
+www.democracy.gov.sl,Could not resolve host: www.democracy.gov.sl,none
+www.demosite.uadf.gov.sl,Could not resolve host: www.demosite.uadf.gov.sl,none
+www.dev.ewrc.gov.sl,Could not resolve host: www.dev.ewrc.gov.sl,none
+www.dev.ntb.gov.sl,Could not resolve host: www.dev.ntb.gov.sl,none
+www.dev.tourism.gov.sl,Could not resolve host: www.dev.tourism.gov.sl,none
+www.dhis.health.gov.sl,Could not resolve host: www.dhis.health.gov.sl,none
+www.dhis2.mohs.gov.sl,Could not resolve host: www.dhis2.mohs.gov.sl,none
+www.diasporaaffairs.gov.sl,Could not resolve host: www.diasporaaffairs.gov.sl,none
+www.drone.dsti.gov.sl,Could not resolve host: www.drone.dsti.gov.sl,none
+www.dsti.gov.sl,Could not resolve host: www.dsti.gov.sl,none
+www.ebola.diasporaaffairs.gov.sl,Could not resolve host: www.ebola.diasporaaffairs.gov.sl,none
+www.ecdata.dsti.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.ecdata.dsti.gov.sl',none
+www.ecommerce.salpost.gov.sl,Could not resolve host: www.ecommerce.salpost.gov.sl,none
+www.education.gov.sl,SSL certificate problem: certificate has expired,none
+www.educationdatahub.dsti.gov.sl,Could not resolve host: www.educationdatahub.dsti.gov.sl,none
+www.edutest.dsti.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.edutest.dsti.gov.sl',none
+www.efpu.gov.sl,SSL certificate problem: self-signed certificate,none
+www.eic-api.hcdincubator.dsti.gov.sl,Could not resolve host: www.eic-api.hcdincubator.dsti.gov.sl,none
+www.eic.dsti.gov.sl,Could not resolve host: www.eic.dsti.gov.sl,none
+www.eic.hcdincubator.dsti.gov.sl,Could not resolve host: www.eic.hcdincubator.dsti.gov.sl,none
+www.eid.nas.gov.sl,Could not resolve host: www.eid.nas.gov.sl,none
+www.email.health.gov.sl,Could not resolve host: www.email.health.gov.sl,none
+www.en.democracy.gov.sl,Could not resolve host: www.en.democracy.gov.sl,none
+www.epa.gov.sl,301,none
+www.erp.cac.gov.sl,Could not resolve host: www.erp.cac.gov.sl,none
+www.ewrc.gov.sl,Connection timed out after 3002 milliseconds,none
+www.fcc.gov.sl,301,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+www.firstlady.gov.sl,301,none
+www.fiu.gov.sl,Could not resolve host: www.fiu.gov.sl,none
+www.foreignaffairs.gov.sl,Could not resolve host: www.foreignaffairs.gov.sl,none
+www.freehealthcare.health.gov.sl,Could not resolve host: www.freehealthcare.health.gov.sl,none
+www.gims.nma.gov.sl,Could not resolve host: www.gims.nma.gov.sl,none
+www.gis-dev.dsti.gov.sl,Could not resolve host: www.gis-dev.dsti.gov.sl,none
+www.gitlab.dsti.gov.sl,Connection timed out after 3002 milliseconds,none
+www.gov.sl,Could not resolve host: www.gov.sl,none
+www.grafyxplus.nma.gov.sl,503,none
+www.health.gov.sl,Connection timed out after 3002 milliseconds,0 mx.ipage.com.
+www.hris.health.gov.sl,Could not resolve host: www.hris.health.gov.sl,none
+www.hrisvolunteers.health.gov.sl,Could not resolve host: www.hrisvolunteers.health.gov.sl,none
+www.hrmo.gov.sl,Could not resolve host: www.hrmo.gov.sl,none
+www.hss.health.gov.sl,Could not resolve host: www.hss.health.gov.sl,none
+www.ihris.health.gov.sl,Could not resolve host: www.ihris.health.gov.sl,none
+www.ihrisvolunteers.health.gov.sl,Could not resolve host: www.ihrisvolunteers.health.gov.sl,none
+www.imc.gov.sl,301,none
+www.immigrationservices.gov.sl,Could not resolve host: www.immigrationservices.gov.sl,none
+www.jsco.gov.sl,Could not resolve host: www.jsco.gov.sl,none
+www.lab.gov.sl,Could not resolve host: www.lab.gov.sl,none
+www.labour.gov.sl,SSL certificate problem: certificate has expired,none
+www.lands.gov.sl,Could not resolve host: www.lands.gov.sl,none
+www.lmis.labour.gov.sl,Could not resolve host: www.lmis.labour.gov.sl,none
+www.mail.anticorruption.gov.sl,200,none
+www.mail.auditservice.gov.sl,Could not resolve host: www.mail.auditservice.gov.sl,none
+www.mail.hrmo.gov.sl,Could not resolve host: www.mail.hrmo.gov.sl,none
+www.management.uadf.gov.sl,Could not resolve host: www.management.uadf.gov.sl,none
+www.maritime.gov.sl,Operation timed out after 3000 milliseconds with 0 bytes received,none
+www.mccu-sl.gov.sl,Could not resolve host: www.mccu-sl.gov.sl,none
+www.mettltd.nys.gov.sl,Could not resolve host: www.mettltd.nys.gov.sl,none
+www.mewr.gov.sl,Could not resolve host: www.mewr.gov.sl,none
+www.mfmr.gov.sl,Could not resolve host: www.mfmr.gov.sl,none
+www.mhero.health.gov.sl,Could not resolve host: www.mhero.health.gov.sl,none
+www.mia.gov.sl,Could not resolve host: www.mia.gov.sl,none
+www.mlgrd.gov.sl,Could not resolve host: www.mlgrd.gov.sl,none
+www.mmareview.nma.gov.sl,301,none
+www.mod.gov.sl,Connection timed out after 3001 milliseconds,none
+www.mof.gov.sl,301,none
+www.mofed.gov.sl,301,10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.
+www.mohs.gov.sl,Could not resolve host: www.mohs.gov.sl,none
+www.mohsihpau.gov.sl,200,none
+www.moped.gov.sl,Could not resolve host: www.moped.gov.sl,none
+www.moyamba.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.moyamba.gov.sl',none
+www.mppa.gov.sl,Connection timed out after 3002 milliseconds,none
+www.mswgca.gov.sl,Could not resolve host: www.mswgca.gov.sl,none
+www.mta.gov.sl,Could not resolve host: www.mta.gov.sl,none
+www.mthe.gov.sl,Connection timed out after 3001 milliseconds,none
+www.mwpa.gov.sl,301,none
+www.mwr.gov.sl,Could not resolve host: www.mwr.gov.sl,none
+www.nacced.gov.sl,200,none
+www.nas.gov.sl,SSL certificate problem: certificate has expired,none
+www.natcom.gov.sl,301,none
+www.ncpsl.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.ncpsl.gov.sl',0 _dc-mx.e0c16524ee1d.ncpsl.gov.sl.
+www.nma.gov.sl,200,none
+www.nppa.gov.sl,301,none
+www.nra.gov.sl,SSL certificate problem: unable to get local issuer certificate,none
+www.nsa.gov.sl,Could not resolve host: www.nsa.gov.sl,none
+www.ntb.gov.sl,Connection timed out after 3002 milliseconds,none
+www.nys.gov.sl,Could not resolve host: www.nys.gov.sl,none
+www.ocmstatehouse.gov.sl,Could not resolve host: www.ocmstatehouse.gov.sl,none
+www.officeofthefirstlady.gov.sl,Could not resolve host: www.officeofthefirstlady.gov.sl,none
+www.ombudsman.gov.sl,200,none
+www.ons.gov.sl,200,none
+www.opendatasl.gov.sl,Could not resolve host: www.opendatasl.gov.sl,none
+www.opii-pppu.gov.sl,Could not resolve host: www.opii-pppu.gov.sl,none
+www.opii.gov.sl,Could not resolve host: www.opii.gov.sl,none
+www.otp-events.dsti.gov.sl,Could not resolve host: www.otp-events.dsti.gov.sl,none
+www.phneoc.gov.sl,Could not resolve host: www.phneoc.gov.sl,0 phneoc.gov.sl.
+www.phneoc.health.gov.sl,Could not resolve host: www.phneoc.health.gov.sl,none
+www.phptest.dsti.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.phptest.dsti.gov.sl',none
+www.pnb.gov.sl,Could not resolve host: www.pnb.gov.sl,none
+www.police.gov.sl,Could not resolve host: www.police.gov.sl,none
+www.postebolarecovery.statehouse.gov.sl,Could not resolve host: www.postebolarecovery.statehouse.gov.sl,none
+www.ppp.gov.sl,Could not resolve host: www.ppp.gov.sl,none
+www.pprc.gov.sl,301,none
+www.president.efpu.gov.sl,SSL certificate problem: self-signed certificate,none
+www.presidentsrecoverypriorities.gov.sl,200,none
+www.project.dsti.gov.sl,Connection timed out after 3002 milliseconds,none
+www.psru.gov.sl,Could not resolve host: www.psru.gov.sl,none
+www.publicprocurement.gov.sl,Could not resolve host: www.publicprocurement.gov.sl,none
+www.raic.gov.sl,200,none
+www.research.mof.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.research.mof.gov.sl',none
+www.revamp.mohs.gov.sl,200,none
+www.rmfa.gov.sl,301,none
+www.salpost.gov.sl,301,0 mail.salpost.gov.sl.
+www.sdf.gov.sl,Could not resolve host: www.sdf.gov.sl,none
+www.sierraleonenationaltouristboard.gov.sl,Resolving timed out after 3000 milliseconds,none
+www.sl-kpi-cc.mohs.gov.sl,Connection timed out after 3002 milliseconds,none
+www.slari.gov.sl,Operation timed out after 3002 milliseconds with 0 bytes received,none
+www.slcpchs.gov.sl,Could not resolve host: www.slcpchs.gov.sl,none
+www.slcr.gov.sl,Connection timed out after 3001 milliseconds,none
+www.slcs.gov.sl,Could not resolve host: www.slcs.gov.sl,0 slcs.gov.sl.
+www.sleiti.gov.sl,301,none
+www.slena.gov.sl,200,none
+www.slicom.gov.sl,SSL certificate problem: self-signed certificate,none
+www.slid.gov.sl,200,none
+www.sliepa.gov.sl,200,none
+www.sliepa.gov.sl.sliepa.org,Resolving timed out after 3000 milliseconds,none
+www.slnmb.health.gov.sl,Could not resolve host: www.slnmb.health.gov.sl,none
+www.slnmbmail.health.gov.sl,Could not resolve host: www.slnmbmail.health.gov.sl,none
+www.slrsa.gov.sl,200,none
+www.smeda.gov.sl,Resolving timed out after 3000 milliseconds,none
+www.statehouse.gov.sl,301,none
+www.test.mia.gov.sl,Could not resolve host: www.test.mia.gov.sl,none
+www.test.vicepresident.gov.sl,Could not resolve host: www.test.vicepresident.gov.sl,none
+www.tourism.gov.sl,Could not resolve host: www.tourism.gov.sl,none
+www.trade.gov.sl,Could not resolve host: www.trade.gov.sl,none
+www.travel.gov.sl,530,none
+www.tsc.gov.sl,200,none
+www.uadf.gov.sl,301,none
+www.uaeembassy.foreignaffairs.gov.sl,Could not resolve host: www.uaeembassy.foreignaffairs.gov.sl,none
+www.ums.dsti.gov.sl,Connection timed out after 3002 milliseconds,none
+www.un.foreignaffairs.gov.sl,Could not resolve host: www.un.foreignaffairs.gov.sl,none
+www.uslthc.gov.sl,Could not resolve host: www.uslthc.gov.sl,none
+www.vicepresident.gov.sl,Could not resolve host: www.vicepresident.gov.sl,none
+www.viz.dsti.gov.sl,Connection timed out after 3002 milliseconds,none
+www.vl.nas.gov.sl,Could not resolve host: www.vl.nas.gov.sl,none
+www.washington.foreignaffairs.gov.sl,Could not resolve host: www.washington.foreignaffairs.gov.sl,none
+www.webmail.uslthc.gov.sl,Could not resolve host: www.webmail.uslthc.gov.sl,none
+www.website.dsti.gov.sl,SSL: no alternative certificate subject name matches target hostname 'www.website.dsti.gov.sl',none
+www.youthaffairs.gov.sl,301,none
+youthaffairs.gov.sl,200,none

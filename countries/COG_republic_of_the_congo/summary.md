@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.presidence.cg/accueil](http://www.presidence.cg/accueil) (host `presidence.cg`)
-- ⚠️ ABSENT -- neither `presidence.cg` covered nor `countries/COG_republic_of_the_congo/sources/roots/presidence.cg/` directory present
+- ⚠️ ABSENT -- neither `presidence.cg` covered nor `countries/COG_republic_of_the_congo/sources/crtsh/presidence.cg.csv` present
 
 ## Institutions named by CIA Factbook
 

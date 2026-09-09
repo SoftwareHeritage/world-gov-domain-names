@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 30 of 193
 - Government type: semi-presidential republic
 - Capital: Kyiv (Kiev is the transliteration from Russian)
-- Domains collected (HTTP 200): 1827
+- Domains collected (HTTP 200): 1828
 
 ## UN/DESA national portal
 

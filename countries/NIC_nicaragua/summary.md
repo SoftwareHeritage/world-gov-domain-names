@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 132 of 193
 - Government type: presidential republic
 - Capital: Managua
-- Domains collected (HTTP 200): 592
+- Domains collected (HTTP 200): 593
 
 ## UN/DESA national portal
 

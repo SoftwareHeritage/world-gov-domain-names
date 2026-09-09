@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 66 of 193
 - Government type: constitutional monarchy (emirate)
 - Capital: Kuwait City
-- Domains collected (HTTP 200): 915
+- Domains collected (HTTP 200): 916
 
 ## UN/DESA national portal
 

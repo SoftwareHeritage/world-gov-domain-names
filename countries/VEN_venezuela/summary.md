@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 131 of 193
 - Government type: federal presidential republic
 - Capital: Caracas
-- Domains collected (HTTP 200): 1483
+- Domains collected (HTTP 200): 1484
 
 ## UN/DESA national portal
 
 - Declared: [http://www.gobiernoenlinea.ve](http://www.gobiernoenlinea.ve) (host `gobiernoenlinea.ve`)
-- ⚠️ ABSENT -- neither `gobiernoenlinea.ve` covered nor `countries/VEN_venezuela/sources/roots/gobiernoenlinea.ve/` directory present
+- ⚠️ ABSENT -- neither `gobiernoenlinea.ve` covered nor `countries/VEN_venezuela/sources/crtsh/gobiernoenlinea.ve.csv` present
 
 ## Institutions named by CIA Factbook
 

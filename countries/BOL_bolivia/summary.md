@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 99 of 193
 - Government type: presidential republic
 - Capital: La Paz (administrative capital); Sucre (constitutional [legislative and judicial] capital)
-- Domains collected (HTTP 200): 1168
+- Domains collected (HTTP 200): 1169
 
 ## UN/DESA national portal
 

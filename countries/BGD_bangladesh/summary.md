@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 100 of 193
 - Government type: parliamentary republic
 - Capital: Dhaka
-- Domains collected (HTTP 200): 2489
+- Domains collected (HTTP 200): 2490
 
 ## UN/DESA national portal
 
 - Declared: [http://www.bangladesh.gov.bd](http://www.bangladesh.gov.bd) (host `bangladesh.gov.bd`)
-- ⚠️ Exact hostname not in the 200s, but a `gov.bd` root directory exists (to be probed)
+- ⚠️ Exact hostname not in the 200s, but `gov.bd` is harvested (to be probed)
 
 ## Institutions named by CIA Factbook
 

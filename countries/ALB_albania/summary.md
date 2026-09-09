@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 62 of 193
 - Government type: parliamentary republic
 - Capital: Tirana (Tirane)
-- Domains collected (HTTP 200): 762
+- Domains collected (HTTP 200): 763
 
 ## UN/DESA national portal
 
 - Declared: [https://www.e-albania.al ](https://www.e-albania.al ) (host `e-albania.al `)
-- ⚠️ ABSENT -- neither `e-albania.al ` covered nor `countries/ALB_albania/sources/roots/e-albania.al /` directory present
+- ⚠️ ABSENT -- neither `e-albania.al ` covered nor `countries/ALB_albania/sources/crtsh/e-albania.al .csv` present
 
 ## Institutions named by CIA Factbook
 

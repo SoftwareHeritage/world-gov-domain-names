@@ -10,9 +10,9 @@
 ;; Targeted commands:
 ;;   fetch [DOM…]       crt.sh fetch (1+ domains)
 ;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
-;;   normalize          clean every subdomains.csv
+;;   normalize          clean every harvest file (sources/crtsh/<root>.csv)
 ;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status
-;;   mx [DOM…]          DNS MX lookup per host -> mx.csv (email signal);
+;;   mx [DOM…]          DNS MX lookup per host -> mx column (email signal);
 ;;                      a full run also covers the registry roots (CISA, …)
 ;;   aggregate          aggregate every host -> data/public-sector-domains.csv
 ;;   central            extract central + central-1 domains
@@ -109,7 +109,7 @@
   (str "countries/" country-dir "/sources/" source (when file (str "/" file))))
 
 (defn read-mx-map
-  "Read a root dir's mx.csv into a {host mx} map (empty map if absent)."
+  "Read a dir's mx.csv (sources/registry/) into a {host mx} map (empty map if absent)."
   [dir]
   (let [path (str dir "/mx.csv")]
     (if (fs/exists? path)
@@ -124,6 +124,28 @@
        (map (comp str fs/file-name))
        sort
        vec))
+
+(defn valid-hostname?
+  "True if h is a syntactically valid hostname: dotted labels of a-z0-9 with
+  internal hyphens, at least two labels. Rejects URLs, paths, wildcards, email
+  addresses and stray punctuation (spaces, quotes, commas, pipes, '?', ...)."
+  [h]
+  (boolean
+    (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
+
+(defn validated-rows
+  "All rows of countries/<c>/validated.csv, the explicit per-country list
+  of confirmed roots (domain,level,source; level is central or
+  central-1). Seq of [country domain level source]."
+  []
+  (for [c (country-dirs)
+        :let [path (str "countries/" c "/validated.csv")]
+        :when (fs/exists? path)
+        [domain level source name] (rest (read-csv-raw path))
+        :let [domain (some-> domain str/trim str/lower-case)]
+        :when (valid-hostname? domain)]
+    [c domain (str/trim (or level "")) (str/trim (or source ""))
+     (str/trim (or name ""))]))
 
 (defn normalize-name
   "Lowercase a name and strip everything but [a-z0-9], for matching country
@@ -204,20 +226,6 @@
   [csv-path k]
   (some #(when (= (first %) k) %)
         (rest (read-csv-raw csv-path))))
-
-(defn merge-status
-  "Reduce a seq of [key status] pairs into a map keeping, per key, the first
-  non-blank status seen; return it as a seq of [key status] sorted by key."
-  [pairs]
-  (->> pairs
-       (reduce (fn [m [k st]]
-                 (let [cur (get m k)]
-                   (if (or (nil? cur)
-                           (and (str/blank? cur) (not (str/blank? st))))
-                     (assoc m k st)
-                     m)))
-               {})
-       (sort-by first)))
 
 (defn dedup-by-first
   "Keep the first row per first-column value, sorted by first column."
@@ -322,57 +330,94 @@
            nil))))))
 
 ;; ===========================================================================
-;;  Phase 1 -- fetch / retry (crt.sh)
+;;  Harvest files -- countries/<c>/sources/crtsh/<root>.csv
 ;; ===========================================================================
+;;
+;; One file per harvested root domain, columns subdomain,http_status,mx:
+;; every host crt.sh ever saw under the root, the root's apex included,
+;; with the HTTPS probe and the MX lookup of each. Harvesting a root is a
+;; choice distinct from validating it: `fetch <root>` creates the file of a
+;; root listed in some validated.csv; validated roots without a file
+;; (registry roots, mostly) only get their apex probed elsewhere.
 
-(defn root-domain-dirs
-  "All countries/<c>/sources/roots/<root>/ directories (full paths). Promoted
-  root domains live under sources/roots/, siblings-free of the enrichment
-  sources (iana/cia_factbook/un_desa/oecd/wikidata)."
-  []
-  (->> (fs/glob "countries" "*/sources/roots/*")
-       (filter fs/directory?)
-       (map str)))
+(def harvest-header ["subdomain" "http_status" "mx"])
 
-(defn root-subdomain-csvs
-  "All countries/<c>/sources/roots/<root>/subdomains.csv paths.
-  Scoped to one country_dir if given."
-  ([] (root-subdomain-csvs "*"))
+(defn harvest-files
+  "All harvest files (paths as strings), scoped to one country_dir glob."
+  ([] (harvest-files "*"))
   ([country-glob]
-   (fs/glob "countries" (str country-glob "/sources/roots/*/subdomains.csv"))))
+   (->> (fs/glob "countries" (str country-glob "/sources/crtsh/*.csv"))
+        (map str)
+        sort)))
 
-(defn resolve-dirs
-  "Resolve domain names -> countries/<c>/sources/<d>/ paths. With no args,
-  returns all root-domain directories (excluding the enrichment-source
-  subdirectories iana/cia_factbook/un_desa/oecd/wikidata)."
+(defn harvest-root
+  "The root domain a harvest file covers: its basename."
+  [file]
+  (str/replace (str (fs/file-name file)) #"\.csv$" ""))
+
+(defn harvest-country
+  "The country_dir a harvest file belongs to."
+  [file]
+  (str (fs/file-name (fs/parent (fs/parent (fs/parent file))))))
+
+(defn harvest-file
+  "Path of the harvest file of root in country_dir (existing or not)."
+  [country-dir root]
+  (country-src country-dir "crtsh" (str root ".csv")))
+
+(defn read-harvest
+  "Rows [host http_status mx] of a harvest file; empty when absent."
+  [file]
+  (for [[h st mx] (rest (read-csv-raw file))
+        :when (not (str/blank? h))]
+    [h (or st "") (or mx "")]))
+
+(defn write-harvest!
+  "Write [host http_status mx] rows to a harvest file: apex row ensured,
+  hosts deduped keeping the first non-blank status and mx, ASCII sort."
+  [file rows]
+  (let [merged (reduce (fn [m [h st mx]]
+                         (update m h (fn [[s0 m0]]
+                                       [(if (str/blank? s0) (or st "") s0)
+                                        (if (str/blank? m0) (or mx "") m0)])))
+                       {} (cons [(harvest-root file) "" ""] rows))]
+    (write-csv-file file harvest-header
+                    (for [[h [st mx]] (sort-by first merged)] [h st mx]))))
+
+(defn harvest-mx
+  "MX of the apex of a harvested root, or \"\" (no file, no lookup yet)."
+  [country-dir root]
+  (or (some (fn [[h _ mx]] (when (= h root) mx))
+            (read-harvest (harvest-file country-dir root)))
+      ""))
+
+(defn resolve-harvest-files
+  "Domain names -> harvest file paths. Existing files first; a root with
+  none must be listed in some validated.csv, which tells its country --
+  the file is then created by the caller (fetch). With no args, every
+  existing harvest file."
   [args]
   (if (seq args)
     (vec (mapcat (fn [d]
-                   (let [matches (filter fs/directory?
-                                         (fs/glob "countries" (str "*/sources/roots/" d)))]
-                     (if (seq matches)
-                       (map str matches)
-                       (do (err "ERR: no country contains '" d "'") []))))
+                   (let [d (str/lower-case d)
+                         existing (map str (fs/glob "countries" (str "*/sources/crtsh/" d ".csv")))
+                         countries (for [[c domain] (validated-rows) :when (= domain d)] c)]
+                     (cond
+                       (seq existing) existing
+                       (seq countries) (map #(harvest-file % d) countries)
+                       :else (do (err "ERR: '" d "' is in no validated.csv -- validate it first") []))))
                  args))
-    (vec (root-domain-dirs))))
+    (vec (harvest-files))))
 
-(defn merge-crt-csv
-  "Merge an existing CSV (sub,status) with a fresh list of subdomain names
-  (one per line). On duplicates, preserve the non-empty status."
-  [existing-path fresh-names]
-  (let [existing (when (fs/exists? existing-path)
-                   (rest (read-csv-raw existing-path)))
-        from-existing (for [[sub status] existing]
-                        [sub (or status "")])
-        from-fresh (for [n fresh-names] [n ""])]
-    (merge-status (concat from-existing from-fresh))))
+;; ===========================================================================
+;;  Phase 1 -- fetch / retry (crt.sh)
+;; ===========================================================================
 
 (defn fetch-one!
-  "Fetch subdomains for basename(dir) from crt.sh and merge them into
-  dir/subdomains.csv. Returns :ok or :fail."
-  [dir]
-  (let [domain (str (fs/file-name dir))
-        out (str dir "/subdomains.csv")
+  "Fetch the subdomains of a harvest file's root from crt.sh and merge them
+  into the file (probes of known hosts preserved). Returns :ok or :fail."
+  [file]
+  (let [domain (harvest-root file)
         url (str "https://crt.sh/?q=%25." domain "&output=json")
         body (http-get url {:timeout 120 :retries 1 :accept "application/json"})]
     (if body
@@ -388,13 +433,13 @@
                                             ; truncated crt.sh body would otherwise
                                             ; throw JsonEOFException downstream
                     (catch Exception _ []))
-            merged (merge-crt-csv out names)]
-        (write-csv-file out ["subdomain" "http_status"] (map vec merged))
-        (println (str "OK   " domain " (" (count merged) " lignes)"))
+            rows (concat (read-harvest file) (for [n names] [n "" ""]))]
+        (write-harvest! file rows)
+        (println (str "OK   " domain " (" (count (read-harvest file)) " lignes)"))
         :ok)
       (do (println (str "FAIL " domain))
-          (when-not (fs/exists? out)
-            (write-csv-file out ["subdomain" "http_status"] []))
+          (when-not (fs/exists? file)
+            (write-harvest! file []))
           :fail))))
 
 (defn parallel
@@ -406,9 +451,9 @@
 (def fetch-fail-log "/tmp/fetch_subdomains.log")
 
 (defn cmd-fetch [args]
-  (let [dirs    (resolve-dirs args)
-        results (bounded-pmap (parallel 4) (fn [d] [d (fetch-one! d)]) dirs)
-        fails   (->> results (filter #(= :fail (second %))) (map (comp str fs/file-name first)))]
+  (let [files   (resolve-harvest-files args)
+        results (bounded-pmap (parallel 4) (fn [f] [f (fetch-one! f)]) files)
+        fails   (->> results (filter #(= :fail (second %))) (map (comp harvest-root first)))]
     ;; Record this run's failures (fresh, never appended) so `retry` -- whether
     ;; called inside run-collect or as a standalone command -- replays exactly
     ;; the domains that just failed, not a stale log from a previous session.
@@ -416,12 +461,12 @@
     results))
 
 (defn retry-one!
-  [dir]
+  [file]
   ;; loop on fetch-one! directly: probing the URL first with a separate
   ;; http-get would download the (heavy) crt.sh response twice per success
-  (let [domain (str (fs/file-name dir))]
+  (let [domain (harvest-root file)]
     (loop [attempt 1]
-      (if (= :ok (fetch-one! dir))
+      (if (= :ok (fetch-one! file))
         (println (str "  [retry=" attempt "] OK " domain))
         (if (< attempt 3)
           (do (Thread/sleep (* attempt 5000))
@@ -438,49 +483,36 @@
                          (filter seq))))]
     (if (empty? domains)
       (do (err "No FAIL in " fetch-fail-log " (and no argument provided).") 1)
-      (do (bounded-pmap (parallel 2) retry-one! (resolve-dirs (vec domains)))
+      (do (bounded-pmap (parallel 2) retry-one! (resolve-harvest-files (vec domains)))
           0))))
 
 ;; ===========================================================================
 ;;  Phase 2 -- normalize
 ;; ===========================================================================
 
-(defn valid-hostname?
-  "True if h is a syntactically valid hostname: dotted labels of a-z0-9 with
-  internal hyphens, at least two labels. Rejects URLs, paths, wildcards, email
-  addresses and stray punctuation (spaces, quotes, commas, pipes, '?', ...)."
-  [h]
-  (boolean
-    (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
-
-(defn normalize-csv-rows
-  "For each subdomain row: lowercase; strip wildcard prefix, URL scheme, path,
-  port and trailing dot; keep only syntactically valid hostnames; single-line
-  the status; dedup keeping the non-empty status; ASCII sort."
+(defn normalize-harvest-rows
+  "For each [host status mx] row: lowercase the host; strip wildcard
+  prefix, URL scheme, path, port and trailing dot; keep only syntactically
+  valid hostnames; single-line the probes. Dedup and sort are left to
+  write-harvest!."
   [rows]
-  (let [cleaned
-        (for [[dom status] rows
-              :let [dom (some-> dom str/trim str/lower-case
-                                (str/replace #"^\*\." "")
-                                (str/replace #"^https?://" "")
-                                (str/replace #"/.*$" "")
-                                (str/replace #":\d+$" "")
-                                (str/replace #"\.$" ""))]
-              :when (valid-hostname? dom)]
-          [dom (single-line (or status ""))])]
-    (merge-status cleaned)))
+  (for [[dom status mx] rows
+        :let [dom (some-> dom str/trim str/lower-case
+                          (str/replace #"^\*\." "")
+                          (str/replace #"^https?://" "")
+                          (str/replace #"/.*$" "")
+                          (str/replace #":\d+$" "")
+                          (str/replace #"\.$" ""))]
+        :when (valid-hostname? dom)]
+    [dom (single-line (or status "")) (single-line (or mx ""))]))
 
 (defn cmd-normalize [_]
-  (doseq [csv (root-subdomain-csvs)
-          :let [path (str csv)
-                parent-name (str (fs/file-name (fs/parent csv)))]]
-    (let [rows (rest (read-csv-raw path))
-          before (count rows)
-          normalized (normalize-csv-rows rows)
-          after (count normalized)]
-      (write-csv-file path ["subdomain" "http_status"]
-                      (for [[d s] normalized] [d s]))
-      (println (str "[" parent-name "] " before " -> " after)))))
+  (doseq [file (harvest-files)]
+    (let [rows (read-harvest file)
+          before (count rows)]
+      (write-harvest! file (normalize-harvest-rows rows))
+      (println (str "[" (harvest-root file) "] " before " -> "
+                    (count (read-harvest file)))))))
 
 ;; ===========================================================================
 ;;  Phase 3 -- probe
@@ -508,26 +540,24 @@
                  :else                                 "unknown error")]
     [sub status]))
 
-(defn probe-domain! [dir timeout]
-  (let [csv (str dir "/subdomains.csv")
-        root-name (str (fs/file-name dir))]
-    (when (fs/exists? csv)
-      (let [all-rows (rest (read-csv-raw csv))
-            to-probe (filter (fn [[_ s]] (str/blank? s)) all-rows)
-            kept     (remove (fn [[_ s]] (str/blank? s)) all-rows)]
+(defn probe-domain! [file timeout]
+  (let [root-name (harvest-root file)]
+    (when (fs/exists? file)
+      (let [rows     (read-harvest file)
+            to-probe (filter (fn [[_ st]] (str/blank? st)) rows)]
         (if (empty? to-probe)
           (println (str "[" root-name "] no empty-status row to probe"))
           (do
             (println (str "[" root-name "] " (count to-probe) " subdomains to probe"))
-            (let [probed (bounded-pmap (parallel 50)
-                                       #(probe-one! (first %) timeout)
-                                       to-probe)]
-              (write-csv-file csv ["subdomain" "http_status"]
-                              (sort-by first (concat kept probed))))))))))
+            (let [probed (into {} (bounded-pmap (parallel 50)
+                                                #(probe-one! (first %) timeout)
+                                                to-probe))]
+              (write-harvest! file (for [[h st mx] rows]
+                                     [h (get probed h st) mx])))))))))
 
 (defn cmd-probe [args]
   (let [timeout (Integer/parseInt (or (System/getenv "TIMEOUT") "5"))]
-    (doseq [d (resolve-dirs args)] (probe-domain! d timeout))))
+    (doseq [f (resolve-harvest-files args)] (probe-domain! f timeout))))
 
 ;; ===========================================================================
 ;;  Phase 3b -- MX records (email signal, never a filter)
@@ -552,39 +582,30 @@
       :else                     "none")))
 
 (defn mx-domain!
-  "Look up MX for the root apex plus every host in dir/subdomains.csv and
-  write dir/mx.csv (subdomain,mx). The apex is included even when the
-  harvest never saw it -- it IS the email domain the central-gov file
-  watches. Reuses already-looked-up hosts unless FORCE=1."
-  [dir conc]
-  (let [sub-csv (str dir "/subdomains.csv")
-        out     (str dir "/mx.csv")
-        root-name (str (fs/file-name dir))
-        hosts (->> (when (fs/exists? sub-csv)
-                     (map first (rest (read-csv-raw sub-csv))))
-                   (cons root-name)
-                   (remove str/blank?)
-                   distinct)
-        done  (if (and (not force?) (fs/exists? out))
-                (into {} (for [[h mx] (rest (read-csv-raw out))] [h mx]))
-                {})
-        todo  (remove #(contains? done %) hosts)]
+  "Look up MX for every host of a harvest file (apex included -- it IS the
+  email domain the central-gov file watches) and fill its mx column.
+  Reuses already-looked-up hosts unless FORCE=1."
+  [file conc]
+  (let [root-name (harvest-root file)
+        rows  (read-harvest file)
+        todo  (if force?
+                (map first rows)
+                (for [[h _ mx] rows :when (str/blank? mx)] h))]
     (if (empty? todo)
       (println (str "[" root-name "] mx: nothing to look up"))
-      (let [looked (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo)
-            rows   (sort-by first (concat (map vec done) looked))]
-        (write-csv-file out ["subdomain" "mx"] rows)
+      (let [looked (into {} (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo))]
+        (write-harvest! file (for [[h st mx] rows] [h st (get looked h mx)]))
         (println (str "[" root-name "] mx: " (count todo) " looked up ("
-                      (count (filter #(not (#{"none" "dig error"} (second %))) looked))
+                      (count (remove #(#{"none" "dig error"} %) (vals looked)))
                       " with MX)"))))))
 
 (defn mx-registry!
   "Look up MX for the per-country registry root domains (CISA, lannuaire, …)
   and write countries/<c>/sources/registry/mx.csv. These roots have no
-  sources/roots/ directory, so the per-directory pass never sees them --
-  yet their apexes ARE email domains the central-gov file watches. Domains
-  that do have a root directory are skipped (mx-domain! covers them).
-  Reuses already-looked-up domains unless FORCE=1."
+  harvest file, so the per-file pass never sees them -- yet their apexes
+  ARE email domains the central-gov file watches. Domains that do have a
+  harvest file are skipped (mx-domain! covers them). Reuses
+  already-looked-up domains unless FORCE=1."
   [conc]
   (doseq [c (country-dirs)
           :let [roots-csv (country-src c "registry" "roots.csv")]
@@ -593,7 +614,7 @@
           hosts (->> (rest (read-csv-raw roots-csv))
                      (map #(some-> (first %) str/trim str/lower-case))
                      (filter valid-hostname?)
-                     (remove #(fs/directory? (country-src c "roots" %)))
+                     (remove #(fs/exists? (harvest-file c %)))
                      distinct)
           done  (if (and (not force?) (fs/exists? out))
                   (into {} (for [[h mx] (rest (read-csv-raw out))] [h mx]))
@@ -610,29 +631,29 @@
 
 (defn cmd-mx [args]
   (let [conc (parallel 50)]
-    (doseq [d (resolve-dirs args)] (mx-domain! d conc))
-    ;; Registry roots (CISA, lannuaire, …) have no root directory; cover
+    (doseq [f (resolve-harvest-files args)] (mx-domain! f conc))
+    ;; Registry roots (CISA, lannuaire, …) have no harvest file; cover
     ;; their apexes on a full run (a domain-scoped run stays scoped).
     (when (empty? args)
       (mx-registry! conc))))
 
 ;; ===========================================================================
-;;  Phase 4 -- collect_200
+;;  Phase 4 -- aggregate
 ;; ===========================================================================
 
 (defn- regenerate-country-subdomains!
-  "Aggregate countries/<c>/sources/roots/<root>/subdomains.csv into one
-  countries/<c>/subdomains.csv with columns subdomain,parent_domain,http_status."
+  "Aggregate the harvest files of a country into countries/<c>/subdomains.csv
+  (subdomain,parent_domain,http_status,mx): every harvested host, roots
+  included."
   [country-dir]
   (let [out (str "countries/" country-dir "/subdomains.csv")
-        rows (->> (root-subdomain-csvs country-dir)
-                  (mapcat (fn [csv]
-                            (let [parent (str (fs/file-name (fs/parent csv)))]
-                              (for [[sub & rest-cols] (rest (read-csv-raw (str csv)))
-                                    :when (and sub (not (str/blank? sub)))]
-                                [sub parent (str/join "," (or rest-cols []))]))))
+        rows (->> (harvest-files country-dir)
+                  (mapcat (fn [file]
+                            (let [parent (harvest-root file)]
+                              (for [[sub st mx] (read-harvest file)]
+                                [sub parent st mx]))))
                   (sort-by first))]
-    (write-csv-file out ["subdomain" "parent_domain" "http_status"] rows)))
+    (write-csv-file out ["subdomain" "parent_domain" "http_status" "mx"] rows)))
 
 (defn- country-meta-field
   "Read one field from countries/<c>/sources/country_data/info.csv (or \"\")."
@@ -659,23 +680,19 @@
         ;; regardless of HTTP/MX. Inclusion criterion: the host existed in DNS at
         ;; least once (it appeared in a source like crt.sh). http_status and mx
         ;; travel along as signals, never as filters.
-        rows (->> (root-subdomain-csvs)
-                  (mapcat (fn [csv]
-                            (let [parent  (str (fs/file-name (fs/parent csv)))
-                                  country (str (fs/file-name
-                                                 (fs/parent (fs/parent
-                                                   (fs/parent (fs/parent csv))))))
+        rows (->> (harvest-files)
+                  (mapcat (fn [file]
+                            (let [parent  (harvest-root file)
+                                  country (harvest-country file)
                                   un (get un-by-country country "member")
-                                  m  (get meta-by-country country)
-                                  mx-by-host (read-mx-map (fs/parent csv))]
+                                  m  (get meta-by-country country)]
                               ;; UN-facing output: keep UN members and observers
                               ;; only, never non-UN entities (Taiwan, Kosovo).
                               (when (not= un "non_un")
-                                (for [[sub status] (rest (read-csv-raw (str csv)))
-                                      :when (not (str/blank? sub))]
+                                (for [[sub status mx] (read-harvest file)]
                                   [sub parent country un
                                    (:region m) (:langs m) (:gdp m)
-                                   (or status "") (get mx-by-host sub "")])))))
+                                   status mx])))))
                   (sort-by first)
                   distinct)]
     (write-csv-file public-sector-file
@@ -688,20 +705,6 @@
       (println (str "  UN members: " (get counts "member" 0)
                     " ; observers: " (get counts "observer" 0)
                     " ; non-UN: " (get counts "non_un" 0))))))
-
-(defn validated-rows
-  "All rows of countries/<c>/validated.csv, the explicit per-country list
-  of confirmed roots (domain,level,source; level is central or
-  central-1). Seq of [country domain level source]."
-  []
-  (for [c (country-dirs)
-        :let [path (str "countries/" c "/validated.csv")]
-        :when (fs/exists? path)
-        [domain level source name] (rest (read-csv-raw path))
-        :let [domain (some-> domain str/trim str/lower-case)]
-        :when (valid-hostname? domain)]
-    [c domain (str/trim (or level "")) (str/trim (or source ""))
-     (str/trim (or name ""))]))
 
 (defn central1-under
   "{[country root] #{label…}}: the label of every validated central-1
@@ -814,14 +817,13 @@
 (defn- central-root-entries
   "All [country domain mx] feeding the central+ file's central rows: the
   level=central rows of validated.csv. The MX comes from the root's
-  harvest directory when it has one (apex row of its mx.csv), else from
-  the registry MX cached by mx-registry!."
+  harvest file when it has one (apex row), else from the registry MX
+  cached by mx-registry!."
   []
   (for [[c d level] (validated-rows)
-        :when (= level "central")
-        :let [dir (country-src c "roots" d)]]
-    [c d (if (fs/directory? dir)
-           (get (read-mx-map dir) d "")
+        :when (= level "central")]
+    [c d (if (fs/exists? (harvest-file c d))
+           (harvest-mx c d)
            (registry-mx c d))]))
 
 (defn- central1-entries
@@ -1944,9 +1946,9 @@
 
         :else
         (let [parent (parent-domain host)]
-          (if (and parent (fs/directory? (country-src country-dir "roots" parent)))
-            (println (str "- ⚠️ Exact hostname not in the 200s, but a `" parent "` root directory exists (to be probed)"))
-            (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/roots/" (or parent host) "/` directory present"))))))
+          (if (and parent (fs/exists? (harvest-file country-dir parent)))
+            (println (str "- ⚠️ Exact hostname not in the 200s, but `" parent "` is harvested (to be probed)"))
+            (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/crtsh/" (or parent host) ".csv` present"))))))
     (println)))
 
 (defn- section-factbook [{:keys [fb-chief fb-head fb-courts]}]

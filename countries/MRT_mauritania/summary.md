@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 165 of 193
 - Government type: presidential republic
 - Capital: Nouakchott
-- Domains collected (HTTP 200): 445
+- Domains collected (HTTP 200): 446
 
 ## UN/DESA national portal
 

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 90 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Rabat
-- Domains collected (HTTP 200): 691
+- Domains collected (HTTP 200): 692
 
 ## UN/DESA national portal
 
 - Declared: [http://www.egov.ma](http://www.egov.ma) (host `egov.ma`)
-- ⚠️ ABSENT -- neither `egov.ma` covered nor `countries/MAR_morocco/sources/roots/egov.ma/` directory present
+- ⚠️ ABSENT -- neither `egov.ma` covered nor `countries/MAR_morocco/sources/crtsh/egov.ma.csv` present
 
 ## Institutions named by CIA Factbook
 

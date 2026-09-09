@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 115 of 193
 - Government type: presidential republic
 - Capital: San Salvador
-- Domains collected (HTTP 200): 908
+- Domains collected (HTTP 200): 909
 
 ## UN/DESA national portal
 

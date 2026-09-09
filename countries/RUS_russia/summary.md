@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 43 of 193
 - Government type: semi-presidential federation
 - Capital: Moscow
-- Domains collected (HTTP 200): 620
+- Domains collected (HTTP 200): 621
 
 ## UN/DESA national portal
 
 - Declared: [http://government.ru](http://government.ru) (host `government.ru`)
-- ⚠️ ABSENT -- neither `government.ru` covered nor `countries/RUS_russia/sources/roots/government.ru/` directory present
+- ⚠️ ABSENT -- neither `government.ru` covered nor `countries/RUS_russia/sources/crtsh/government.ru.csv` present
 
 ## Institutions named by CIA Factbook
 

@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 29 of 193
 - Government type: parliamentary republic
 - Capital: Riga
-- Domains collected (HTTP 200): 12
+- Domains collected (HTTP 200): 15
 
 ## UN/DESA national portal
 
 - Declared: [https://www.latvija.lv](https://www.latvija.lv) (host `latvija.lv`)
-- ⚠️ Exact hostname not in the 200s, but a `latvija.lv` root directory exists (to be probed)
+- ✅ Covered by collected domains
 
 ## Institutions named by CIA Factbook
 

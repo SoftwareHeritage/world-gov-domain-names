@@ -1,385 +1,398 @@
-subdomain,parent_domain,http_status
-admin.api.dev.app.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-admin.buerokratt.eesti.ee,eesti.ee,200
-ahk.eesti.ee,eesti.ee,Could not resolve host: ahk.eesti.ee
-andmed-test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-andmed.eesti.ee,eesti.ee,200
-api.app.eesti.ee,eesti.ee,404
-api.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3000 milliseconds
-api.arva.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-api.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-api.test.app.eesti.ee,eesti.ee,404
-app.eesti.ee,eesti.ee,Could not resolve host: app.eesti.ee
-arendus.eesti.ee,eesti.ee,Could not resolve host: arendus.eesti.ee
-argocd.app.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-argocd.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-argocd.arva.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-argocd.arva.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-argocd.dev.app.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-argocd.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: argocd.dev.postkast.eesti.ee
-argocd.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-argocd.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: argocd.pk2-central.dev.eesti.ee
-argocd.pk2-central.eesti.ee,eesti.ee,Could not resolve host: argocd.pk2-central.eesti.ee
-argocd.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: argocd.pk2-central.test.eesti.ee
-argocd.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: argocd.pk2-client.dev.eesti.ee
-argocd.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-argocd.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-argocd.postkast.arendus.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-argocd.postkast.eesti.ee,eesti.ee,Could not resolve host: argocd.postkast.eesti.ee
-argocd.pro.dev.eesti.ee,eesti.ee,Could not resolve host: argocd.pro.dev.eesti.ee
-argocd.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-argocd.pro.stage.eesti.ee,eesti.ee,Could not resolve host: argocd.pro.stage.eesti.ee
-argocd.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-argocd.sun.dev.eesti.ee,eesti.ee,Could not resolve host: argocd.sun.dev.eesti.ee
-argocd.sun.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-argocd.sun.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-argocd.sun.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-argocd.test.app.eesti.ee,eesti.ee,Could not resolve host: argocd.test.app.eesti.ee
-arva.dev.eesti.ee,eesti.ee,Could not resolve host: arva.dev.eesti.ee
-arva.eesti.ee,eesti.ee,302
-arva.test.eesti.ee,eesti.ee,Could not resolve host: arva.test.eesti.ee
-atv-dev.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds
-auth-admin.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-auth-admin.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-auth-admin.pro.stage.eesti.ee,eesti.ee,Could not resolve host: auth-admin.pro.stage.eesti.ee
-auth-admin.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-auth.arva.dev.eesti.ee,eesti.ee,Could not resolve host: auth.arva.dev.eesti.ee
-auth.arva.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-auth.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-auth.pro.dev.eesti.ee,eesti.ee,Could not resolve host: auth.pro.dev.eesti.ee
-auth.pro.eesti.ee,eesti.ee,Could not resolve host: auth.pro.eesti.ee
-auth.pro.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-auth.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-avaandmed.eesti.ee,eesti.ee,Could not resolve host: avaandmed.eesti.ee
-avaandmeddev.eesti.ee,eesti.ee,Could not resolve host: avaandmeddev.eesti.ee
-avaandmedtest.eesti.ee,eesti.ee,Could not resolve host: avaandmedtest.eesti.ee
-beta.eesti.ee,eesti.ee,Could not resolve host: beta.eesti.ee
-buerokratt.eesti.ee,eesti.ee,200
-burokratt.eesti.ee,eesti.ee,Could not resolve host: burokratt.eesti.ee
-central.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: central.dev.postkast.eesti.ee
-central.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: central.postkast.arendus.eesti.ee
-central.postkast.eesti.ee,eesti.ee,Could not resolve host: central.postkast.eesti.ee
-central.postkast.test.eesti.ee,eesti.ee,Could not resolve host: central.postkast.test.eesti.ee
-central.test.postkast.eesti.ee,eesti.ee,Could not resolve host: central.test.postkast.eesti.ee
-demo.eesti.ee,eesti.ee,Could not resolve host: demo.eesti.ee
-dev.app.eesti.ee,eesti.ee,Could not resolve host: dev.app.eesti.ee
-dev.eesti.ee,eesti.ee,Could not resolve host: dev.eesti.ee
-digiriik.eesti.ee,eesti.ee,200
-disain.eesti.ee,eesti.ee,200
-eeltoodang.eesti.ee,eesti.ee,Could not resolve host: eeltoodang.eesti.ee
-eesti.ee,eesti.ee,301
-eestiee.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: eestiee.api.pk2-client.eesti.ee
-eestiee.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: eestiee.api.pk2-client.test.eesti.ee
-eestiee.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: eestiee.dev.postkast.eesti.ee
-eestiee.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: eestiee.pk2-client.dev.eesti.ee
-eestiee.pk2-client.eesti.ee,eesti.ee,Could not resolve host: eestiee.pk2-client.eesti.ee
-eestiee.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-eestiee.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: eestiee.postkast.arendus.eesti.ee
-eestiee.postkast.eesti.ee,eesti.ee,Could not resolve host: eestiee.postkast.eesti.ee
-eestiee.postkast.test.eesti.ee,eesti.ee,Could not resolve host: eestiee.postkast.test.eesti.ee
-eestiee.test.postkast.eesti.ee,eesti.ee,Could not resolve host: eestiee.test.postkast.eesti.ee
-elvl.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: elvl.api.pk2-client.eesti.ee
-elvl.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: elvl.api.pk2-client.test.eesti.ee
-elvl.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: elvl.pk2-client.dev.eesti.ee
-elvl.pk2-client.eesti.ee,eesti.ee,404
-elvl.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: elvl.pk2-client.test.eesti.ee
-emta.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: emta.api.pk2-client.eesti.ee
-emta.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: emta.api.pk2-client.test.eesti.ee
-emta.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: emta.pk2-client.dev.eesti.ee
-emta.pk2-client.eesti.ee,eesti.ee,403
-emta.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: emta.pk2-client.test.eesti.ee
-es.arendus.eesti.ee,eesti.ee,Could not resolve host: es.arendus.eesti.ee
-es.beta.eesti.ee,eesti.ee,Could not resolve host: es.beta.eesti.ee
-euro.eesti.ee,eesti.ee,301
-funktsioonivaramu-dev.eesti.ee,eesti.ee,418
-funktsioonivaramu-test.eesti.ee,eesti.ee,Could not resolve host: funktsioonivaramu-test.eesti.ee
-grafana.app.eesti.ee,eesti.ee,Could not resolve host: grafana.app.eesti.ee
-grafana.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-grafana.arva.eesti.ee,eesti.ee,Could not resolve host: grafana.arva.eesti.ee
-grafana.arva.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-grafana.dev.app.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds
-grafana.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: grafana.dev.postkast.eesti.ee
-grafana.pk2-central.demo.eesti.ee,eesti.ee,Could not resolve host: grafana.pk2-central.demo.eesti.ee
-grafana.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: grafana.pk2-central.dev.eesti.ee
-grafana.pk2-central.eesti.ee,eesti.ee,Could not resolve host: grafana.pk2-central.eesti.ee
-grafana.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: grafana.pk2-central.test.eesti.ee
-grafana.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-grafana.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: grafana.postkast.arendus.eesti.ee
-grafana.postkast.eesti.ee,eesti.ee,Could not resolve host: grafana.postkast.eesti.ee
-grafana.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds
-grafana.pro.eesti.ee,eesti.ee,Connection timed out after 3004 milliseconds
-grafana.pro.stage.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds
-grafana.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-grafana.test.app.eesti.ee,eesti.ee,Could not resolve host: grafana.test.app.eesti.ee
-harbor.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-harbor.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-harbor.pro.stage.eesti.ee,eesti.ee,Could not resolve host: harbor.pro.stage.eesti.ee
-harbor.pro.test.eesti.ee,eesti.ee,Connection timed out after 3004 milliseconds
-hpkp-test.eesti.ee,eesti.ee,Could not resolve host: hpkp-test.eesti.ee
-id.arendus.eesti.ee,eesti.ee,Could not resolve host: id.arendus.eesti.ee
-id.eesti.ee,eesti.ee,Could not resolve host: id.eesti.ee
-id.test.eesti.ee,eesti.ee,Could not resolve host: id.test.eesti.ee
-infoyhiskond.eesti.ee,eesti.ee,Could not resolve host: infoyhiskond.eesti.ee
-katse.test.eesti.ee,eesti.ee,Could not resolve host: katse.test.eesti.ee
-keskkonnaamet.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.api.pk2-client.eesti.ee
-keskkonnaamet.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.api.pk2-client.test.eesti.ee
-keskkonnaamet.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.pk2-client.dev.eesti.ee
-keskkonnaamet.pk2-client.eesti.ee,eesti.ee,404
-keskkonnaamet.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.pk2-client.test.eesti.ee
-kiali.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-kiali.arva.eesti.ee,eesti.ee,Could not resolve host: kiali.arva.eesti.ee
-kiali.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-kiali.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-kiali.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3004 milliseconds
-kiali.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: kiali.pk2-central.dev.eesti.ee
-kiali.pk2-central.eesti.ee,eesti.ee,Could not resolve host: kiali.pk2-central.eesti.ee
-kiali.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: kiali.pk2-central.test.eesti.ee
-kiali.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-koodivaramu.eesti.ee,eesti.ee,Could not resolve host: koodivaramu.eesti.ee
-koolitus.eesti.ee,eesti.ee,Could not resolve host: koolitus.eesti.ee
-kpkoda.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: kpkoda.api.pk2-client.eesti.ee
-kpkoda.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds
-kpkoda.pk2-client.eesti.ee,eesti.ee,403
-kpkoda.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-kv-frdocker-01.dev.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds
-kv-frdocker-01.test.eesti.ee,eesti.ee,Could not resolve host: kv-frdocker-01.test.eesti.ee
-kv-frdocker-02.dev.eesti.ee,eesti.ee,Could not resolve host: kv-frdocker-02.dev.eesti.ee
-kv-frdocker-02.test.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds
-kyc-dev.eesti.ee,eesti.ee,Could not resolve host: kyc-dev.eesti.ee
-kyc-test.eesti.ee,eesti.ee,Could not resolve host: kyc-test.eesti.ee
-lkf.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: lkf.api.pk2-client.eesti.ee
-lkf.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: lkf.api.pk2-client.test.eesti.ee
-lkf.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: lkf.pk2-client.dev.eesti.ee
-lkf.pk2-client.eesti.ee,eesti.ee,Could not resolve host: lkf.pk2-client.eesti.ee
-lkf.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-logs.pro.dev.eesti.ee,eesti.ee,Could not resolve host: logs.pro.dev.eesti.ee
-logs.pro.eesti.ee,eesti.ee,Could not resolve host: logs.pro.eesti.ee
-logs.pro.stage.eesti.ee,eesti.ee,Could not resolve host: logs.pro.stage.eesti.ee
-logs.pro.test.eesti.ee,eesti.ee,Could not resolve host: logs.pro.test.eesti.ee
-longhorn.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-longhorn.arva.dev.eesti.ee,eesti.ee,Could not resolve host: longhorn.arva.dev.eesti.ee
-longhorn.arva.eesti.ee,eesti.ee,Could not resolve host: longhorn.arva.eesti.ee
-longhorn.arva.test.eesti.ee,eesti.ee,Could not resolve host: longhorn.arva.test.eesti.ee
-longhorn.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-longhorn.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: longhorn.dev.postkast.eesti.ee
-longhorn.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-longhorn.pk2-central.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-longhorn.pk2-central.eesti.ee,eesti.ee,Could not resolve host: longhorn.pk2-central.eesti.ee
-longhorn.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: longhorn.pk2-central.test.eesti.ee
-longhorn.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-longhorn.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: longhorn.postkast.arendus.eesti.ee
-longhorn.postkast.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-longhorn.pro.dev.eesti.ee,eesti.ee,Could not resolve host: longhorn.pro.dev.eesti.ee
-longhorn.pro.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-longhorn.pro.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-longhorn.pro.test.eesti.ee,eesti.ee,Could not resolve host: longhorn.pro.test.eesti.ee
-longhorn.test.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-mailhog.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-mailhog.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-mailhog.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: mailhog.dev.postkast.eesti.ee
-mailhog.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-central.dev.eesti.ee
-mailhog.pk2-central.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-central.eesti.ee
-mailhog.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-central.test.eesti.ee
-mailhog.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: mailhog.postkast.arendus.eesti.ee
-mx-ea-1.eesti.ee,eesti.ee,Could not resolve host: mx-ea-1.eesti.ee
-mx-ea-2.eesti.ee,eesti.ee,Could not resolve host: mx-ea-2.eesti.ee
-mx-ea-3.eesti.ee,eesti.ee,Could not resolve host: mx-ea-3.eesti.ee
-mx-ea-4.eesti.ee,eesti.ee,Could not resolve host: mx-ea-4.eesti.ee
-mx-ea-5.eesti.ee,eesti.ee,Could not resolve host: mx-ea-5.eesti.ee
-mx-ea-6.eesti.ee,eesti.ee,Could not resolve host: mx-ea-6.eesti.ee
-mx-ea.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-mx-o.eesti.ee,eesti.ee,Could not resolve host: mx-o.eesti.ee
-mx.eesti.ee,eesti.ee,Could not resolve host: mx.eesti.ee
-mx1.eesti.ee,eesti.ee,Could not resolve host: mx1.eesti.ee
-mx2.eesti.ee,eesti.ee,Could not resolve host: mx2.eesti.ee
-mx3.eesti.ee,eesti.ee,Could not resolve host: mx3.eesti.ee
-mx4.eesti.ee,eesti.ee,Could not resolve host: mx4.eesti.ee
-mx5.eesti.ee,eesti.ee,Could not resolve host: mx5.eesti.ee
-mx6.eesti.ee,eesti.ee,Could not resolve host: mx6.eesti.ee
-notification.app.eesti.ee,eesti.ee,Could not resolve host: notification.app.eesti.ee
-notification.dev.app.eesti.ee,eesti.ee,Could not resolve host: notification.dev.app.eesti.ee
-notification.test.app.eesti.ee,eesti.ee,Could not resolve host: notification.test.app.eesti.ee
-pensionikeskus.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.api.pk2-client.eesti.ee
-pensionikeskus.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.api.pk2-client.test.eesti.ee
-pensionikeskus.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.pk2-client.dev.eesti.ee
-pensionikeskus.pk2-client.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.pk2-client.eesti.ee
-pensionikeskus.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.pk2-client.test.eesti.ee
-pgadmin.arva.dev.eesti.ee,eesti.ee,Could not resolve host: pgadmin.arva.dev.eesti.ee
-pgadmin.arva.eesti.ee,eesti.ee,Could not resolve host: pgadmin.arva.eesti.ee
-pgadmin.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pgadmin.pk2-central.demo.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pk2-central.demo.eesti.ee
-pgadmin.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pk2-central.dev.eesti.ee
-pgadmin.pk2-central.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pk2-central.eesti.ee
-pgadmin.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pk2-central.test.eesti.ee
-pgadmin.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pgadmin.postkast.arendus.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pgadmin.postkast.eesti.ee,eesti.ee,Could not resolve host: pgadmin.postkast.eesti.ee
-pgadmin.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pgadmin.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pgadmin.pro.stage.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pro.stage.eesti.ee
-pgadmin.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pgadmin.sun.dev.eesti.ee,eesti.ee,Could not resolve host: pgadmin.sun.dev.eesti.ee
-pgadmin.sun.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pgadmin.sun.prod.eesti.ee,eesti.ee,Could not resolve host: pgadmin.sun.prod.eesti.ee
-pgadmin.sun.stage.eesti.ee,eesti.ee,Could not resolve host: pgadmin.sun.stage.eesti.ee
-pgadmin.sun.test.eesti.ee,eesti.ee,Could not resolve host: pgadmin.sun.test.eesti.ee
-ph.dev.eesti.ee,eesti.ee,Could not resolve host: ph.dev.eesti.ee
-ph.eesti.ee,eesti.ee,Could not resolve host: ph.eesti.ee
-ph.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-ph.test.eesti.ee,eesti.ee,Could not resolve host: ph.test.eesti.ee
-phone.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-phone.pro.eesti.ee,eesti.ee,Could not resolve host: phone.pro.eesti.ee
-phone.pro.stage.eesti.ee,eesti.ee,Could not resolve host: phone.pro.stage.eesti.ee
-phone.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: pk2-central.dev.eesti.ee
-pk2-central.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: pk2-central.test.eesti.ee
-pk2-client.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-ppa.api.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: ppa.api.pk2-client.dev.eesti.ee
-ppa.api.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-ppa.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: ppa.api.pk2-client.test.eesti.ee
-ppa.pk2-client.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-ppa.pk2-client.eesti.ee,eesti.ee,Could not resolve host: ppa.pk2-client.eesti.ee
-ppa.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.arva.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-prometheus.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: prometheus.dev.postkast.eesti.ee
-prometheus.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-prometheus.pk2-central.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-prometheus.pk2-central.eesti.ee,eesti.ee,Could not resolve host: prometheus.pk2-central.eesti.ee
-prometheus.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: prometheus.pk2-central.test.eesti.ee
-prometheus.postkast.arendus.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.postkast.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-prometheus.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.pro.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-prometheus.test.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-qr.app.eesti.ee,eesti.ee,Could not resolve host: qr.app.eesti.ee
-qr.dev.app.eesti.ee,eesti.ee,Could not resolve host: qr.dev.app.eesti.ee
-qr.test.app.eesti.ee,eesti.ee,Could not resolve host: qr.test.app.eesti.ee
-rig.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-rig.eesti.ee,eesti.ee,Could not resolve host: rig.eesti.ee
-rig.stage.eesti.ee,eesti.ee,Could not resolve host: rig.stage.eesti.ee
-rig.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-rights.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: rights.dev.postkast.eesti.ee
-riha-approver.eesti.ee,eesti.ee,Could not resolve host: riha-approver.eesti.ee
-rik.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: rik.api.pk2-client.eesti.ee
-rik.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: rik.api.pk2-client.test.eesti.ee
-rik.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: rik.pk2-client.dev.eesti.ee
-rik.pk2-client.eesti.ee,eesti.ee,404
-rik.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: rik.pk2-client.test.eesti.ee
-ruuter-sb.arendus.eesti.ee,eesti.ee,Could not resolve host: ruuter-sb.arendus.eesti.ee
-ruuter.arendus.eesti.ee,eesti.ee,Could not resolve host: ruuter.arendus.eesti.ee
-ruuter.buerokratt.eesti.ee,eesti.ee,403
-ruuter.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: ruuter.eeltoodang.eesti.ee
-ruuter.test.eesti.ee,eesti.ee,Could not resolve host: ruuter.test.eesti.ee
-sisene.arendus.eesti.ee,eesti.ee,Could not resolve host: sisene.arendus.eesti.ee
-sisene.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: sisene.eeltoodang.eesti.ee
-sisene.koolitus.eesti.ee,eesti.ee,Could not resolve host: sisene.koolitus.eesti.ee
-sisene.test.eesti.ee,eesti.ee,Could not resolve host: sisene.test.eesti.ee
-sisene.www.eesti.ee,eesti.ee,Could not resolve host: sisene.www.eesti.ee
-ska.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: ska.api.pk2-client.eesti.ee
-ska.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-ska.pk2-client.eesti.ee,eesti.ee,Could not resolve host: ska.pk2-client.eesti.ee
-ska.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-skais-lsst.stage.eesti.ee,eesti.ee,Could not resolve host: skais-lsst.stage.eesti.ee
-smtp.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: smtp.dev.postkast.eesti.ee
-st.arendus.eesti.ee,eesti.ee,Could not resolve host: st.arendus.eesti.ee
-stage.eesti.ee,eesti.ee,Could not resolve host: stage.eesti.ee
-statistikaamet.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: statistikaamet.api.pk2-client.eesti.ee
-statistikaamet.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: statistikaamet.api.pk2-client.test.eesti.ee
-statistikaamet.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: statistikaamet.pk2-client.dev.eesti.ee
-statistikaamet.pk2-client.eesti.ee,eesti.ee,404
-statistikaamet.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: statistikaamet.pk2-client.test.eesti.ee
-stats.app.eesti.ee,eesti.ee,Could not resolve host: stats.app.eesti.ee
-stats.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-stats.test.app.eesti.ee,eesti.ee,Could not resolve host: stats.test.app.eesti.ee
-storybook.veera.eesti.ee,eesti.ee,Could not resolve host: storybook.veera.eesti.ee
-sun-kibana-01.dev.eesti.ee,eesti.ee,Could not resolve host: sun-kibana-01.dev.eesti.ee
-sun-kibana-02.dev.eesti.ee,eesti.ee,Could not resolve host: sun-kibana-02.dev.eesti.ee
-sun-pgadmin-01.dev.eesti.ee,eesti.ee,Could not resolve host: sun-pgadmin-01.dev.eesti.ee
-sun-pgadmin-02.dev.eesti.ee,eesti.ee,Could not resolve host: sun-pgadmin-02.dev.eesti.ee
-sundmusteenus-02.dev.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus-02.dev.eesti.ee
-sundmusteenus-dev.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus-dev.eesti.ee
-sundmusteenus-stage.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus-stage.eesti.ee
-sundmusteenus-test.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus-test.eesti.ee
-sundmusteenus.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus.eesti.ee
-sunettevotja-dev.eesti.ee,eesti.ee,Could not resolve host: sunettevotja-dev.eesti.ee
-sunxt-stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-sys.pk2-client.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-sys.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-sys.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: sys.pk2-client.test.eesti.ee
-tai.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: tai.api.pk2-client.eesti.ee
-tai.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: tai.api.pk2-client.test.eesti.ee
-tai.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: tai.pk2-client.dev.eesti.ee
-tai.pk2-client.eesti.ee,eesti.ee,403
-tai.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: tai.pk2-client.test.eesti.ee
-tartutaitur.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: tartutaitur.api.pk2-client.eesti.ee
-tartutaitur.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: tartutaitur.api.pk2-client.test.eesti.ee
-tartutaitur.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: tartutaitur.pk2-client.dev.eesti.ee
-tartutaitur.pk2-client.eesti.ee,eesti.ee,404
-tartutaitur.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-terviseportaal.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: terviseportaal.api.pk2-client.eesti.ee
-terviseportaal.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: terviseportaal.api.pk2-client.test.eesti.ee
-terviseportaal.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: terviseportaal.dev.postkast.eesti.ee
-terviseportaal.pk2-client.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-terviseportaal.pk2-client.eesti.ee,eesti.ee,404
-terviseportaal.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: terviseportaal.pk2-client.test.eesti.ee
-test-eid.eesti.ee,eesti.ee,Could not resolve host: test-eid.eesti.ee
-test-kyc.eesti.ee,eesti.ee,Could not resolve host: test-kyc.eesti.ee
-test.app.eesti.ee,eesti.ee,Could not resolve host: test.app.eesti.ee
-test.eesti.ee,eesti.ee,Could not resolve host: test.eesti.ee
-testpartner.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: testpartner.dev.postkast.eesti.ee
-thanos-receive.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-thanos-receive.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-thanos-receive.pro.stage.eesti.ee,eesti.ee,Could not resolve host: thanos-receive.pro.stage.eesti.ee
-thanos-receive.pro.test.eesti.ee,eesti.ee,Could not resolve host: thanos-receive.pro.test.eesti.ee
-thanos.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-thanos.pro.eesti.ee,eesti.ee,Could not resolve host: thanos.pro.eesti.ee
-thanos.pro.stage.eesti.ee,eesti.ee,Could not resolve host: thanos.pro.stage.eesti.ee
-thanos.pro.test.eesti.ee,eesti.ee,Could not resolve host: thanos.pro.test.eesti.ee
-tim.arendus.eesti.ee,eesti.ee,Could not resolve host: tim.arendus.eesti.ee
-tim.beta.eesti.ee,eesti.ee,Could not resolve host: tim.beta.eesti.ee
-tim.buerokratt.eesti.ee,eesti.ee,302
-tim.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: tim.eeltoodang.eesti.ee
-tim.test.eesti.ee,eesti.ee,Could not resolve host: tim.test.eesti.ee
-tim.www.eesti.ee,eesti.ee,Could not resolve host: tim.www.eesti.ee
-timur.www.eesti.ee,eesti.ee,Could not resolve host: timur.www.eesti.ee
-transpordiamet.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-transpordiamet.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: transpordiamet.pk2-client.test.eesti.ee
-veera.eesti.ee,eesti.ee,200
-wildcard.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: wildcard.pk2-client.test.eesti.ee
-www-sb.arendus.eesti.ee,eesti.ee,Could not resolve host: www-sb.arendus.eesti.ee
-www.ahk.eesti.ee,eesti.ee,Could not resolve host: www.ahk.eesti.ee
-www.api.app.eesti.ee,eesti.ee,Could not resolve host: www.api.app.eesti.ee
-www.api.dev.app.eesti.ee,eesti.ee,Could not resolve host: www.api.dev.app.eesti.ee
-www.api.test.app.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds
-www.arendus.eesti.ee,eesti.ee,Could not resolve host: www.arendus.eesti.ee
-www.dev.eesti.ee,eesti.ee,Could not resolve host: www.dev.eesti.ee
-www.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: www.eeltoodang.eesti.ee
-www.eesti.ee,eesti.ee,200
-www.koolitus.eesti.ee,eesti.ee,Could not resolve host: www.koolitus.eesti.ee
-www.sisene.test.eesti.ee,eesti.ee,Could not resolve host: www.sisene.test.eesti.ee
-www.stage.eesti.ee,eesti.ee,520
-www.sundmusteenus-test.eesti.ee,eesti.ee,Could not resolve host: www.sundmusteenus-test.eesti.ee
-www.sundmusteenus.eesti.ee,eesti.ee,Could not resolve host: www.sundmusteenus.eesti.ee
-www.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-xbrl.eesti.ee,eesti.ee,Could not resolve host: xbrl.eesti.ee
-xforms.arendus.eesti.ee,eesti.ee,Could not resolve host: xforms.arendus.eesti.ee
-xtr.arendus.eesti.ee,eesti.ee,Could not resolve host: xtr.arendus.eesti.ee
-xtr.beta.eesti.ee,eesti.ee,Could not resolve host: xtr.beta.eesti.ee
-zalando.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-zalando.arva.eesti.ee,eesti.ee,Could not resolve host: zalando.arva.eesti.ee
-zalando.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
-zalando.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds
-zalando.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: zalando.pk2-central.dev.eesti.ee
-zalando.pk2-central.eesti.ee,eesti.ee,Could not resolve host: zalando.pk2-central.eesti.ee
-zalando.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: zalando.pk2-central.test.eesti.ee
-zalando.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds
+subdomain,parent_domain,http_status,mx
+admin.api.dev.app.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+admin.buerokratt.eesti.ee,eesti.ee,200,none
+agri.ee,agri.ee,,5 mail1.agri.ee.; 5 mail2.agri.ee.
+ahk.eesti.ee,eesti.ee,Could not resolve host: ahk.eesti.ee,none
+andmed-test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+andmed.eesti.ee,eesti.ee,200,none
+api.app.eesti.ee,eesti.ee,404,none
+api.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3000 milliseconds,none
+api.arva.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+api.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+api.test.app.eesti.ee,eesti.ee,404,none
+app.eesti.ee,eesti.ee,Could not resolve host: app.eesti.ee,none
+arendus.eesti.ee,eesti.ee,Could not resolve host: arendus.eesti.ee,none
+argocd.app.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+argocd.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+argocd.arva.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+argocd.arva.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+argocd.dev.app.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+argocd.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: argocd.dev.postkast.eesti.ee,none
+argocd.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+argocd.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: argocd.pk2-central.dev.eesti.ee,none
+argocd.pk2-central.eesti.ee,eesti.ee,Could not resolve host: argocd.pk2-central.eesti.ee,none
+argocd.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: argocd.pk2-central.test.eesti.ee,none
+argocd.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: argocd.pk2-client.dev.eesti.ee,none
+argocd.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+argocd.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+argocd.postkast.arendus.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+argocd.postkast.eesti.ee,eesti.ee,Could not resolve host: argocd.postkast.eesti.ee,none
+argocd.pro.dev.eesti.ee,eesti.ee,Could not resolve host: argocd.pro.dev.eesti.ee,none
+argocd.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+argocd.pro.stage.eesti.ee,eesti.ee,Could not resolve host: argocd.pro.stage.eesti.ee,none
+argocd.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+argocd.sun.dev.eesti.ee,eesti.ee,Could not resolve host: argocd.sun.dev.eesti.ee,none
+argocd.sun.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+argocd.sun.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+argocd.sun.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+argocd.test.app.eesti.ee,eesti.ee,Could not resolve host: argocd.test.app.eesti.ee,none
+arva.dev.eesti.ee,eesti.ee,Could not resolve host: arva.dev.eesti.ee,none
+arva.eesti.ee,eesti.ee,302,none
+arva.test.eesti.ee,eesti.ee,Could not resolve host: arva.test.eesti.ee,none
+atv-dev.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
+auth-admin.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+auth-admin.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+auth-admin.pro.stage.eesti.ee,eesti.ee,Could not resolve host: auth-admin.pro.stage.eesti.ee,none
+auth-admin.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+auth.arva.dev.eesti.ee,eesti.ee,Could not resolve host: auth.arva.dev.eesti.ee,none
+auth.arva.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+auth.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+auth.pro.dev.eesti.ee,eesti.ee,Could not resolve host: auth.pro.dev.eesti.ee,none
+auth.pro.eesti.ee,eesti.ee,Could not resolve host: auth.pro.eesti.ee,none
+auth.pro.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+auth.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+avaandmed.eesti.ee,eesti.ee,Could not resolve host: avaandmed.eesti.ee,none
+avaandmeddev.eesti.ee,eesti.ee,Could not resolve host: avaandmeddev.eesti.ee,none
+avaandmedtest.eesti.ee,eesti.ee,Could not resolve host: avaandmedtest.eesti.ee,none
+beta.eesti.ee,eesti.ee,Could not resolve host: beta.eesti.ee,none
+buerokratt.eesti.ee,eesti.ee,200,none
+burokratt.eesti.ee,eesti.ee,Could not resolve host: burokratt.eesti.ee,none
+central.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: central.dev.postkast.eesti.ee,none
+central.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: central.postkast.arendus.eesti.ee,none
+central.postkast.eesti.ee,eesti.ee,Could not resolve host: central.postkast.eesti.ee,none
+central.postkast.test.eesti.ee,eesti.ee,Could not resolve host: central.postkast.test.eesti.ee,none
+central.test.postkast.eesti.ee,eesti.ee,Could not resolve host: central.test.postkast.eesti.ee,none
+demo.eesti.ee,eesti.ee,Could not resolve host: demo.eesti.ee,none
+dev.app.eesti.ee,eesti.ee,Could not resolve host: dev.app.eesti.ee,none
+dev.eesti.ee,eesti.ee,Could not resolve host: dev.eesti.ee,none
+digiriik.eesti.ee,eesti.ee,200,none
+disain.eesti.ee,eesti.ee,200,none
+eeltoodang.eesti.ee,eesti.ee,Could not resolve host: eeltoodang.eesti.ee,none
+eesti.ee,eesti.ee,301,none
+eestiee.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: eestiee.api.pk2-client.eesti.ee,none
+eestiee.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: eestiee.api.pk2-client.test.eesti.ee,none
+eestiee.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: eestiee.dev.postkast.eesti.ee,none
+eestiee.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: eestiee.pk2-client.dev.eesti.ee,none
+eestiee.pk2-client.eesti.ee,eesti.ee,Could not resolve host: eestiee.pk2-client.eesti.ee,none
+eestiee.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+eestiee.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: eestiee.postkast.arendus.eesti.ee,none
+eestiee.postkast.eesti.ee,eesti.ee,Could not resolve host: eestiee.postkast.eesti.ee,none
+eestiee.postkast.test.eesti.ee,eesti.ee,Could not resolve host: eestiee.postkast.test.eesti.ee,none
+eestiee.test.postkast.eesti.ee,eesti.ee,Could not resolve host: eestiee.test.postkast.eesti.ee,none
+elvl.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: elvl.api.pk2-client.eesti.ee,none
+elvl.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: elvl.api.pk2-client.test.eesti.ee,none
+elvl.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: elvl.pk2-client.dev.eesti.ee,none
+elvl.pk2-client.eesti.ee,eesti.ee,404,none
+elvl.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: elvl.pk2-client.test.eesti.ee,none
+emta.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: emta.api.pk2-client.eesti.ee,none
+emta.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: emta.api.pk2-client.test.eesti.ee,none
+emta.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: emta.pk2-client.dev.eesti.ee,none
+emta.pk2-client.eesti.ee,eesti.ee,403,none
+emta.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: emta.pk2-client.test.eesti.ee,none
+envir.ee,envir.ee,,5 mx5.envir.ee.; 5 mx4.envir.ee.
+es.arendus.eesti.ee,eesti.ee,Could not resolve host: es.arendus.eesti.ee,none
+es.beta.eesti.ee,eesti.ee,Could not resolve host: es.beta.eesti.ee,none
+euro.eesti.ee,eesti.ee,301,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
+fin.ee,fin.ee,,10 mail3.rit.ee.; 10 mail1.rit.ee.
+funktsioonivaramu-dev.eesti.ee,eesti.ee,418,none
+funktsioonivaramu-test.eesti.ee,eesti.ee,Could not resolve host: funktsioonivaramu-test.eesti.ee,none
+grafana.app.eesti.ee,eesti.ee,Could not resolve host: grafana.app.eesti.ee,none
+grafana.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+grafana.arva.eesti.ee,eesti.ee,Could not resolve host: grafana.arva.eesti.ee,none
+grafana.arva.test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+grafana.dev.app.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
+grafana.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: grafana.dev.postkast.eesti.ee,none
+grafana.pk2-central.demo.eesti.ee,eesti.ee,Could not resolve host: grafana.pk2-central.demo.eesti.ee,none
+grafana.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: grafana.pk2-central.dev.eesti.ee,none
+grafana.pk2-central.eesti.ee,eesti.ee,Could not resolve host: grafana.pk2-central.eesti.ee,none
+grafana.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: grafana.pk2-central.test.eesti.ee,none
+grafana.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+grafana.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: grafana.postkast.arendus.eesti.ee,none
+grafana.postkast.eesti.ee,eesti.ee,Could not resolve host: grafana.postkast.eesti.ee,none
+grafana.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
+grafana.pro.eesti.ee,eesti.ee,Connection timed out after 3004 milliseconds,none
+grafana.pro.stage.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
+grafana.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+grafana.test.app.eesti.ee,eesti.ee,Could not resolve host: grafana.test.app.eesti.ee,none
+harbor.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+harbor.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+harbor.pro.stage.eesti.ee,eesti.ee,Could not resolve host: harbor.pro.stage.eesti.ee,none
+harbor.pro.test.eesti.ee,eesti.ee,Connection timed out after 3004 milliseconds,none
+hm.ee,hm.ee,,10 mail1.rit.ee.; 10 mail3.rit.ee.
+hpkp-test.eesti.ee,eesti.ee,Could not resolve host: hpkp-test.eesti.ee,none
+id.arendus.eesti.ee,eesti.ee,Could not resolve host: id.arendus.eesti.ee,none
+id.eesti.ee,eesti.ee,Could not resolve host: id.eesti.ee,none
+id.test.eesti.ee,eesti.ee,Could not resolve host: id.test.eesti.ee,none
+infoyhiskond.eesti.ee,eesti.ee,Could not resolve host: infoyhiskond.eesti.ee,none
+justdigi.ee,justdigi.ee,,10 mail3.rit.ee.; 10 mail1.rit.ee.
+kaitseministeerium.ee,kaitseministeerium.ee,,5 fmail.mil.ee.
+katse.test.eesti.ee,eesti.ee,Could not resolve host: katse.test.eesti.ee,none
+keskkonnaamet.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.api.pk2-client.eesti.ee,none
+keskkonnaamet.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.api.pk2-client.test.eesti.ee,none
+keskkonnaamet.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.pk2-client.dev.eesti.ee,none
+keskkonnaamet.pk2-client.eesti.ee,eesti.ee,404,none
+keskkonnaamet.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.pk2-client.test.eesti.ee,none
+kiali.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+kiali.arva.eesti.ee,eesti.ee,Could not resolve host: kiali.arva.eesti.ee,none
+kiali.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+kiali.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+kiali.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3004 milliseconds,none
+kiali.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: kiali.pk2-central.dev.eesti.ee,none
+kiali.pk2-central.eesti.ee,eesti.ee,Could not resolve host: kiali.pk2-central.eesti.ee,none
+kiali.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: kiali.pk2-central.test.eesti.ee,none
+kiali.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+koodivaramu.eesti.ee,eesti.ee,Could not resolve host: koodivaramu.eesti.ee,none
+koolitus.eesti.ee,eesti.ee,Could not resolve host: koolitus.eesti.ee,none
+kpkoda.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: kpkoda.api.pk2-client.eesti.ee,none
+kpkoda.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
+kpkoda.pk2-client.eesti.ee,eesti.ee,403,none
+kpkoda.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+kul.ee,kul.ee,,10 mail3.rit.ee.; 10 mail1.rit.ee.
+kv-frdocker-01.dev.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
+kv-frdocker-01.test.eesti.ee,eesti.ee,Could not resolve host: kv-frdocker-01.test.eesti.ee,none
+kv-frdocker-02.dev.eesti.ee,eesti.ee,Could not resolve host: kv-frdocker-02.dev.eesti.ee,none
+kv-frdocker-02.test.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
+kyc-dev.eesti.ee,eesti.ee,Could not resolve host: kyc-dev.eesti.ee,none
+kyc-test.eesti.ee,eesti.ee,Could not resolve host: kyc-test.eesti.ee,none
+lkf.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: lkf.api.pk2-client.eesti.ee,none
+lkf.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: lkf.api.pk2-client.test.eesti.ee,none
+lkf.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: lkf.pk2-client.dev.eesti.ee,none
+lkf.pk2-client.eesti.ee,eesti.ee,Could not resolve host: lkf.pk2-client.eesti.ee,none
+lkf.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+logs.pro.dev.eesti.ee,eesti.ee,Could not resolve host: logs.pro.dev.eesti.ee,none
+logs.pro.eesti.ee,eesti.ee,Could not resolve host: logs.pro.eesti.ee,none
+logs.pro.stage.eesti.ee,eesti.ee,Could not resolve host: logs.pro.stage.eesti.ee,none
+logs.pro.test.eesti.ee,eesti.ee,Could not resolve host: logs.pro.test.eesti.ee,none
+longhorn.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+longhorn.arva.dev.eesti.ee,eesti.ee,Could not resolve host: longhorn.arva.dev.eesti.ee,none
+longhorn.arva.eesti.ee,eesti.ee,Could not resolve host: longhorn.arva.eesti.ee,none
+longhorn.arva.test.eesti.ee,eesti.ee,Could not resolve host: longhorn.arva.test.eesti.ee,none
+longhorn.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+longhorn.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: longhorn.dev.postkast.eesti.ee,none
+longhorn.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+longhorn.pk2-central.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+longhorn.pk2-central.eesti.ee,eesti.ee,Could not resolve host: longhorn.pk2-central.eesti.ee,none
+longhorn.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: longhorn.pk2-central.test.eesti.ee,none
+longhorn.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+longhorn.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: longhorn.postkast.arendus.eesti.ee,none
+longhorn.postkast.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+longhorn.pro.dev.eesti.ee,eesti.ee,Could not resolve host: longhorn.pro.dev.eesti.ee,none
+longhorn.pro.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+longhorn.pro.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+longhorn.pro.test.eesti.ee,eesti.ee,Could not resolve host: longhorn.pro.test.eesti.ee,none
+longhorn.test.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+mailhog.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+mailhog.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+mailhog.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: mailhog.dev.postkast.eesti.ee,none
+mailhog.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-central.dev.eesti.ee,none
+mailhog.pk2-central.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-central.eesti.ee,none
+mailhog.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-central.test.eesti.ee,none
+mailhog.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: mailhog.postkast.arendus.eesti.ee,none
+mkm.ee,mkm.ee,,20 mail3.rit.ee.; 10 mail1.rit.ee.
+mx-ea-1.eesti.ee,eesti.ee,Could not resolve host: mx-ea-1.eesti.ee,none
+mx-ea-2.eesti.ee,eesti.ee,Could not resolve host: mx-ea-2.eesti.ee,none
+mx-ea-3.eesti.ee,eesti.ee,Could not resolve host: mx-ea-3.eesti.ee,none
+mx-ea-4.eesti.ee,eesti.ee,Could not resolve host: mx-ea-4.eesti.ee,none
+mx-ea-5.eesti.ee,eesti.ee,Could not resolve host: mx-ea-5.eesti.ee,none
+mx-ea-6.eesti.ee,eesti.ee,Could not resolve host: mx-ea-6.eesti.ee,none
+mx-ea.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+mx-o.eesti.ee,eesti.ee,Could not resolve host: mx-o.eesti.ee,none
+mx.eesti.ee,eesti.ee,Could not resolve host: mx.eesti.ee,none
+mx1.eesti.ee,eesti.ee,Could not resolve host: mx1.eesti.ee,none
+mx2.eesti.ee,eesti.ee,Could not resolve host: mx2.eesti.ee,none
+mx3.eesti.ee,eesti.ee,Could not resolve host: mx3.eesti.ee,none
+mx4.eesti.ee,eesti.ee,Could not resolve host: mx4.eesti.ee,none
+mx5.eesti.ee,eesti.ee,Could not resolve host: mx5.eesti.ee,none
+mx6.eesti.ee,eesti.ee,Could not resolve host: mx6.eesti.ee,none
+notification.app.eesti.ee,eesti.ee,Could not resolve host: notification.app.eesti.ee,none
+notification.dev.app.eesti.ee,eesti.ee,Could not resolve host: notification.dev.app.eesti.ee,none
+notification.test.app.eesti.ee,eesti.ee,Could not resolve host: notification.test.app.eesti.ee,none
+pensionikeskus.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.api.pk2-client.eesti.ee,none
+pensionikeskus.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.api.pk2-client.test.eesti.ee,none
+pensionikeskus.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.pk2-client.dev.eesti.ee,none
+pensionikeskus.pk2-client.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.pk2-client.eesti.ee,none
+pensionikeskus.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: pensionikeskus.pk2-client.test.eesti.ee,none
+pgadmin.arva.dev.eesti.ee,eesti.ee,Could not resolve host: pgadmin.arva.dev.eesti.ee,none
+pgadmin.arva.eesti.ee,eesti.ee,Could not resolve host: pgadmin.arva.eesti.ee,none
+pgadmin.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pgadmin.pk2-central.demo.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pk2-central.demo.eesti.ee,none
+pgadmin.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pk2-central.dev.eesti.ee,none
+pgadmin.pk2-central.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pk2-central.eesti.ee,none
+pgadmin.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pk2-central.test.eesti.ee,none
+pgadmin.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pgadmin.postkast.arendus.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pgadmin.postkast.eesti.ee,eesti.ee,Could not resolve host: pgadmin.postkast.eesti.ee,none
+pgadmin.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pgadmin.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pgadmin.pro.stage.eesti.ee,eesti.ee,Could not resolve host: pgadmin.pro.stage.eesti.ee,none
+pgadmin.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pgadmin.sun.dev.eesti.ee,eesti.ee,Could not resolve host: pgadmin.sun.dev.eesti.ee,none
+pgadmin.sun.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pgadmin.sun.prod.eesti.ee,eesti.ee,Could not resolve host: pgadmin.sun.prod.eesti.ee,none
+pgadmin.sun.stage.eesti.ee,eesti.ee,Could not resolve host: pgadmin.sun.stage.eesti.ee,none
+pgadmin.sun.test.eesti.ee,eesti.ee,Could not resolve host: pgadmin.sun.test.eesti.ee,none
+ph.dev.eesti.ee,eesti.ee,Could not resolve host: ph.dev.eesti.ee,none
+ph.eesti.ee,eesti.ee,Could not resolve host: ph.eesti.ee,none
+ph.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+ph.test.eesti.ee,eesti.ee,Could not resolve host: ph.test.eesti.ee,none
+phone.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+phone.pro.eesti.ee,eesti.ee,Could not resolve host: phone.pro.eesti.ee,none
+phone.pro.stage.eesti.ee,eesti.ee,Could not resolve host: phone.pro.stage.eesti.ee,none
+phone.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: pk2-central.dev.eesti.ee,none
+pk2-central.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: pk2-central.test.eesti.ee,none
+pk2-client.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+ppa.api.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: ppa.api.pk2-client.dev.eesti.ee,none
+ppa.api.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+ppa.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: ppa.api.pk2-client.test.eesti.ee,none
+ppa.pk2-client.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+ppa.pk2-client.eesti.ee,eesti.ee,Could not resolve host: ppa.pk2-client.eesti.ee,none
+ppa.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.arva.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+prometheus.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: prometheus.dev.postkast.eesti.ee,none
+prometheus.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+prometheus.pk2-central.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+prometheus.pk2-central.eesti.ee,eesti.ee,Could not resolve host: prometheus.pk2-central.eesti.ee,none
+prometheus.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: prometheus.pk2-central.test.eesti.ee,none
+prometheus.postkast.arendus.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.postkast.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+prometheus.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.pro.stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.pro.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+prometheus.test.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+qr.app.eesti.ee,eesti.ee,Could not resolve host: qr.app.eesti.ee,none
+qr.dev.app.eesti.ee,eesti.ee,Could not resolve host: qr.dev.app.eesti.ee,none
+qr.test.app.eesti.ee,eesti.ee,Could not resolve host: qr.test.app.eesti.ee,none
+rig.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+rig.eesti.ee,eesti.ee,Could not resolve host: rig.eesti.ee,none
+rig.stage.eesti.ee,eesti.ee,Could not resolve host: rig.stage.eesti.ee,none
+rig.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+rights.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: rights.dev.postkast.eesti.ee,none
+riha-approver.eesti.ee,eesti.ee,Could not resolve host: riha-approver.eesti.ee,none
+riigikogu.ee,riigikogu.ee,,10 ns.riigikogu.ee.; 10 enos.riigikogu.ee.
+rik.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: rik.api.pk2-client.eesti.ee,none
+rik.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: rik.api.pk2-client.test.eesti.ee,none
+rik.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: rik.pk2-client.dev.eesti.ee,none
+rik.pk2-client.eesti.ee,eesti.ee,404,none
+rik.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: rik.pk2-client.test.eesti.ee,none
+ruuter-sb.arendus.eesti.ee,eesti.ee,Could not resolve host: ruuter-sb.arendus.eesti.ee,none
+ruuter.arendus.eesti.ee,eesti.ee,Could not resolve host: ruuter.arendus.eesti.ee,none
+ruuter.buerokratt.eesti.ee,eesti.ee,403,none
+ruuter.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: ruuter.eeltoodang.eesti.ee,none
+ruuter.test.eesti.ee,eesti.ee,Could not resolve host: ruuter.test.eesti.ee,none
+siseministeerium.ee,siseministeerium.ee,,10 mx1.smit.ee.; 20 mx2.smit.ee.; 30 mx3.smit.ee.
+sisene.arendus.eesti.ee,eesti.ee,Could not resolve host: sisene.arendus.eesti.ee,none
+sisene.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: sisene.eeltoodang.eesti.ee,none
+sisene.koolitus.eesti.ee,eesti.ee,Could not resolve host: sisene.koolitus.eesti.ee,none
+sisene.test.eesti.ee,eesti.ee,Could not resolve host: sisene.test.eesti.ee,none
+sisene.www.eesti.ee,eesti.ee,Could not resolve host: sisene.www.eesti.ee,none
+ska.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: ska.api.pk2-client.eesti.ee,none
+ska.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+ska.pk2-client.eesti.ee,eesti.ee,Could not resolve host: ska.pk2-client.eesti.ee,none
+ska.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+skais-lsst.stage.eesti.ee,eesti.ee,Could not resolve host: skais-lsst.stage.eesti.ee,none
+sm.ee,sm.ee,,10 mail1.rit.ee.; 20 mail3.rit.ee.
+smtp.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: smtp.dev.postkast.eesti.ee,none
+st.arendus.eesti.ee,eesti.ee,Could not resolve host: st.arendus.eesti.ee,none
+stage.eesti.ee,eesti.ee,Could not resolve host: stage.eesti.ee,none
+statistikaamet.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: statistikaamet.api.pk2-client.eesti.ee,none
+statistikaamet.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: statistikaamet.api.pk2-client.test.eesti.ee,none
+statistikaamet.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: statistikaamet.pk2-client.dev.eesti.ee,none
+statistikaamet.pk2-client.eesti.ee,eesti.ee,404,none
+statistikaamet.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: statistikaamet.pk2-client.test.eesti.ee,none
+stats.app.eesti.ee,eesti.ee,Could not resolve host: stats.app.eesti.ee,none
+stats.dev.app.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+stats.test.app.eesti.ee,eesti.ee,Could not resolve host: stats.test.app.eesti.ee,none
+storybook.veera.eesti.ee,eesti.ee,Could not resolve host: storybook.veera.eesti.ee,none
+sun-kibana-01.dev.eesti.ee,eesti.ee,Could not resolve host: sun-kibana-01.dev.eesti.ee,none
+sun-kibana-02.dev.eesti.ee,eesti.ee,Could not resolve host: sun-kibana-02.dev.eesti.ee,none
+sun-pgadmin-01.dev.eesti.ee,eesti.ee,Could not resolve host: sun-pgadmin-01.dev.eesti.ee,none
+sun-pgadmin-02.dev.eesti.ee,eesti.ee,Could not resolve host: sun-pgadmin-02.dev.eesti.ee,none
+sundmusteenus-02.dev.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus-02.dev.eesti.ee,none
+sundmusteenus-dev.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus-dev.eesti.ee,none
+sundmusteenus-stage.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus-stage.eesti.ee,none
+sundmusteenus-test.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus-test.eesti.ee,none
+sundmusteenus.eesti.ee,eesti.ee,Could not resolve host: sundmusteenus.eesti.ee,none
+sunettevotja-dev.eesti.ee,eesti.ee,Could not resolve host: sunettevotja-dev.eesti.ee,none
+sunxt-stage.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+sys.pk2-client.dev.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+sys.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+sys.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: sys.pk2-client.test.eesti.ee,none
+tai.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: tai.api.pk2-client.eesti.ee,none
+tai.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: tai.api.pk2-client.test.eesti.ee,none
+tai.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: tai.pk2-client.dev.eesti.ee,none
+tai.pk2-client.eesti.ee,eesti.ee,403,none
+tai.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: tai.pk2-client.test.eesti.ee,none
+tartutaitur.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: tartutaitur.api.pk2-client.eesti.ee,none
+tartutaitur.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: tartutaitur.api.pk2-client.test.eesti.ee,none
+tartutaitur.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: tartutaitur.pk2-client.dev.eesti.ee,none
+tartutaitur.pk2-client.eesti.ee,eesti.ee,404,none
+tartutaitur.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+terviseportaal.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: terviseportaal.api.pk2-client.eesti.ee,none
+terviseportaal.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: terviseportaal.api.pk2-client.test.eesti.ee,none
+terviseportaal.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: terviseportaal.dev.postkast.eesti.ee,none
+terviseportaal.pk2-client.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+terviseportaal.pk2-client.eesti.ee,eesti.ee,404,none
+terviseportaal.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: terviseportaal.pk2-client.test.eesti.ee,none
+test-eid.eesti.ee,eesti.ee,Could not resolve host: test-eid.eesti.ee,none
+test-kyc.eesti.ee,eesti.ee,Could not resolve host: test-kyc.eesti.ee,none
+test.app.eesti.ee,eesti.ee,Could not resolve host: test.app.eesti.ee,none
+test.eesti.ee,eesti.ee,Could not resolve host: test.eesti.ee,10 mx2.test.eesti.ee.; 10 mx1.test.eesti.ee.
+testpartner.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: testpartner.dev.postkast.eesti.ee,none
+thanos-receive.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+thanos-receive.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+thanos-receive.pro.stage.eesti.ee,eesti.ee,Could not resolve host: thanos-receive.pro.stage.eesti.ee,none
+thanos-receive.pro.test.eesti.ee,eesti.ee,Could not resolve host: thanos-receive.pro.test.eesti.ee,none
+thanos.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+thanos.pro.eesti.ee,eesti.ee,Could not resolve host: thanos.pro.eesti.ee,none
+thanos.pro.stage.eesti.ee,eesti.ee,Could not resolve host: thanos.pro.stage.eesti.ee,none
+thanos.pro.test.eesti.ee,eesti.ee,Could not resolve host: thanos.pro.test.eesti.ee,none
+tim.arendus.eesti.ee,eesti.ee,Could not resolve host: tim.arendus.eesti.ee,none
+tim.beta.eesti.ee,eesti.ee,Could not resolve host: tim.beta.eesti.ee,none
+tim.buerokratt.eesti.ee,eesti.ee,302,none
+tim.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: tim.eeltoodang.eesti.ee,none
+tim.test.eesti.ee,eesti.ee,Could not resolve host: tim.test.eesti.ee,none
+tim.www.eesti.ee,eesti.ee,Could not resolve host: tim.www.eesti.ee,none
+timur.www.eesti.ee,eesti.ee,Could not resolve host: timur.www.eesti.ee,none
+transpordiamet.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+transpordiamet.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: transpordiamet.pk2-client.test.eesti.ee,none
+valitsus.ee,valitsus.ee,,20 callisto.rk.ee.; 10 niobe.rk.ee.
+veera.eesti.ee,eesti.ee,200,none
+vm.ee,vm.ee,,10 jupiter.vm.ee.; 30 juno.vm.ee.
+wildcard.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: wildcard.pk2-client.test.eesti.ee,none
+www-sb.arendus.eesti.ee,eesti.ee,Could not resolve host: www-sb.arendus.eesti.ee,none
+www.ahk.eesti.ee,eesti.ee,Could not resolve host: www.ahk.eesti.ee,none
+www.api.app.eesti.ee,eesti.ee,Could not resolve host: www.api.app.eesti.ee,none
+www.api.dev.app.eesti.ee,eesti.ee,Could not resolve host: www.api.dev.app.eesti.ee,none
+www.api.test.app.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
+www.arendus.eesti.ee,eesti.ee,Could not resolve host: www.arendus.eesti.ee,none
+www.dev.eesti.ee,eesti.ee,Could not resolve host: www.dev.eesti.ee,none
+www.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: www.eeltoodang.eesti.ee,none
+www.eesti.ee,eesti.ee,200,none
+www.koolitus.eesti.ee,eesti.ee,Could not resolve host: www.koolitus.eesti.ee,none
+www.sisene.test.eesti.ee,eesti.ee,Could not resolve host: www.sisene.test.eesti.ee,none
+www.stage.eesti.ee,eesti.ee,520,none
+www.sundmusteenus-test.eesti.ee,eesti.ee,Could not resolve host: www.sundmusteenus-test.eesti.ee,none
+www.sundmusteenus.eesti.ee,eesti.ee,Could not resolve host: www.sundmusteenus.eesti.ee,none
+www.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+xbrl.eesti.ee,eesti.ee,Could not resolve host: xbrl.eesti.ee,none
+xforms.arendus.eesti.ee,eesti.ee,Could not resolve host: xforms.arendus.eesti.ee,none
+xtr.arendus.eesti.ee,eesti.ee,Could not resolve host: xtr.arendus.eesti.ee,none
+xtr.beta.eesti.ee,eesti.ee,Could not resolve host: xtr.beta.eesti.ee,none
+zalando.arva.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+zalando.arva.eesti.ee,eesti.ee,Could not resolve host: zalando.arva.eesti.ee,none
+zalando.arva.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
+zalando.pk2-central.demo.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
+zalando.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: zalando.pk2-central.dev.eesti.ee,none
+zalando.pk2-central.eesti.ee,eesti.ee,Could not resolve host: zalando.pk2-central.eesti.ee,none
+zalando.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: zalando.pk2-central.test.eesti.ee,none
+zalando.pk2-client.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none

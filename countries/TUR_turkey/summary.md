@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 27 of 193
 - Government type: presidential republic
 - Capital: Ankara
-- Domains collected (HTTP 200): 2659
+- Domains collected (HTTP 200): 2660
 
 ## UN/DESA national portal
 

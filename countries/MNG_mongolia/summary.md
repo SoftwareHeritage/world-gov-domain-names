@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 46 of 193
 - Government type: semi-presidential republic
 - Capital: Ulaanbaatar
-- Domains collected (HTTP 200): 2225
+- Domains collected (HTTP 200): 2226
 
 ## UN/DESA national portal
 
 - Declared: [http://www.zasag.mn](http://www.zasag.mn) (host `zasag.mn`)
-- ⚠️ ABSENT -- neither `zasag.mn` covered nor `countries/MNG_mongolia/sources/roots/zasag.mn/` directory present
+- ⚠️ ABSENT -- neither `zasag.mn` covered nor `countries/MNG_mongolia/sources/crtsh/zasag.mn.csv` present
 
 ## Institutions named by CIA Factbook
 

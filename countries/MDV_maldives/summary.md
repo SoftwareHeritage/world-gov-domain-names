@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 94 of 193
 - Government type: presidential republic
 - Capital: Malé
-- Domains collected (HTTP 200): 488
+- Domains collected (HTTP 200): 489
 
 ## UN/DESA national portal
 
 - Declared: [https://citizen.egov.mv](https://citizen.egov.mv) (host `citizen.egov.mv`)
-- ⚠️ ABSENT -- neither `citizen.egov.mv` covered nor `countries/MDV_maldives/sources/roots/egov.mv/` directory present
+- ⚠️ ABSENT -- neither `citizen.egov.mv` covered nor `countries/MDV_maldives/sources/crtsh/egov.mv.csv` present
 
 ## Institutions named by CIA Factbook
 

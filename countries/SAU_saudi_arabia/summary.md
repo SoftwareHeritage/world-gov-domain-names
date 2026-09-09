@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 6 of 193
 - Government type: absolute monarchy
 - Capital: Riyadh
-- Domains collected (HTTP 200): 2162
+- Domains collected (HTTP 200): 2163
 
 ## UN/DESA national portal
 

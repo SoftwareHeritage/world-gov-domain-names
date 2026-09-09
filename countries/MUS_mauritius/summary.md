@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 76 of 193
 - Government type: parliamentary republic
 - Capital: Port Louis
-- Domains collected (HTTP 200): 73
+- Domains collected (HTTP 200): 74
 
 ## UN/DESA national portal
 
 - Declared: [http://www.govmu.org](http://www.govmu.org) (host `govmu.org`)
-- ⚠️ ABSENT -- neither `govmu.org` covered nor `countries/MUS_mauritius/sources/roots/govmu.org/` directory present
+- ⚠️ ABSENT -- neither `govmu.org` covered nor `countries/MUS_mauritius/sources/crtsh/govmu.org.csv` present
 
 ## Institutions named by CIA Factbook
 

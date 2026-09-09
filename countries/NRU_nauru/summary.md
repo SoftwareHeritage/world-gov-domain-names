@@ -13,12 +13,12 @@
 - UN/DESA EGDI: Rank 151 of 193
 - Government type: parliamentary republic
 - Capital: no official capital; government offices in the Yaren District
-- Domains collected (HTTP 200): 41
+- Domains collected (HTTP 200): 42
 
 ## UN/DESA national portal
 
 - Declared: [http://www.naurugov.nr](http://www.naurugov.nr) (host `naurugov.nr`)
-- ⚠️ ABSENT -- neither `naurugov.nr` covered nor `countries/NRU_nauru/sources/roots/naurugov.nr/` directory present
+- ⚠️ ABSENT -- neither `naurugov.nr` covered nor `countries/NRU_nauru/sources/crtsh/naurugov.nr.csv` present
 
 ## Institutions named by CIA Factbook
 
