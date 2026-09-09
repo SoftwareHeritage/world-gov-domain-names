@@ -167,10 +167,54 @@
                     (map #(pad-row 5 %) missing))
     (count missing)))
 
+(defn wikidata-bindings->rows
+  "Rows [type label website hostname level] from the SPARQL bindings of one
+  class query (pure). One org can bind several ?juris (and several
+  websites): the bindings are grouped per org to derive its level
+  (juris-level over its jurisdictions), then one row is emitted per
+  distinct host."
+  [type bindings country-qid level1]
+  (->> (group-by #(get-in % [:org :value]) bindings)
+       (mapcat
+         (fn [[_ bs]]
+           (let [juris (into #{}
+                             (keep #(some-> (get-in % [:juris :value])
+                                            (str/replace #"^.*/" ""))
+                                   bs))
+                 level (juris-level juris country-qid level1)]
+             (for [b bs
+                   :let [url (get-in b [:website :value])
+                         lbl (get-in b [:orgLabel :value])
+                         host (extract-host url)]
+                   :when host]
+               [type lbl url host level]))))
+       distinct))
+
+(defn- wikidata-class-rows!
+  "Run one class query for a country and return its rows
+  (wikidata-bindings->rows), [] when the query or its parsing failed. WDQS
+  chokes on the :strict class-exclusion paths under load (502): a failed
+  strict query is retried :light rather than losing the class entirely."
+  [[qid type strictness] country-qid level1]
+  (let [body (or (wikidata-run-query (wikidata-query qid country-qid strictness))
+                 (when (= strictness :strict)
+                   (err (str "  [" type "] strict query failed; retrying light"))
+                   (wikidata-run-query (wikidata-query qid country-qid :light))))]
+    (if-not body
+      (do (err (str "  [" type "] failed after 3 attempts")) [])
+      (try
+        (let [bindings (-> (json/parse-string body true) :results :bindings)]
+          (err (str "  [" type "] " (count bindings) " results"))
+          (Thread/sleep 1000)
+          (wikidata-bindings->rows type bindings country-qid level1))
+        (catch Exception e
+          (err (str "  [" type "] parse error: " (.getMessage e)))
+          [])))))
+
 (defn wikidata-process! [country-qid country-dir]
   (let [out (country-src country-dir "wikidata" "central_admin.csv")
         missing-out (country-src country-dir "wikidata" "missing_domains.csv")]
-        (upgrade-wikidata-csv! out)
+    (upgrade-wikidata-csv! out)
     (if (skip? out)
       (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
           ;; Still fetch the subdivision list when absent: the report phase
@@ -179,58 +223,13 @@
           (wikidata-write-missing! out missing-out))
       (do
         (println (str "=== " country-dir " (" country-qid ") ==="))
-        (let [level1 (wikidata-fetch-subdivisions! country-qid country-dir)
-              all-rows
-              (apply concat
-                     (for [[qid type strictness] wikidata-classes
-                           :let [q (wikidata-query qid country-qid strictness)
-                                 body (or (wikidata-run-query q)
-                                          ;; WDQS chokes on the :strict
-                                          ;; class-exclusion paths under
-                                          ;; load (502): fall back to the
-                                          ;; unfiltered query rather than
-                                          ;; losing the class entirely.
-                                          (when (= strictness :strict)
-                                            (err (str "  [" type "] strict"
-                                                      " query failed;"
-                                                      " retrying light"))
-                                            (wikidata-run-query
-                                             (wikidata-query qid country-qid
-                                                             :light))))]]
-                       (if body
-                         (try
-                           (let [bindings (-> (json/parse-string body true)
-                                              :results :bindings)
-                                 n (count bindings)
-                                 _ (err (str "  [" type "] " n " results"))]
-                             (Thread/sleep 1000)
-                             ;; One org can bind several ?juris (and several
-                             ;; websites): aggregate per org to derive its
-                             ;; level, then emit one row per distinct host.
-                             (->> (group-by #(get-in % [:org :value]) bindings)
-                                  (mapcat
-                                    (fn [[_ bs]]
-                                      (let [juris (into #{}
-                                                        (keep #(some-> (get-in % [:juris :value])
-                                                                       (str/replace #"^.*/" ""))
-                                                              bs))
-                                            level (juris-level juris country-qid level1)]
-                                        (for [b bs
-                                              :let [url (get-in b [:website :value])
-                                                    lbl (get-in b [:orgLabel :value])
-                                                    host (extract-host url)]
-                                              :when host]
-                                          [type lbl url host level]))))
-                                  distinct))
-                           (catch Exception e
-                             (err (str "  [" type "] parse error: " (.getMessage e)))
-                             []))
-                         (do (err (str "  [" type "] failed after 3 attempts")) []))))]
-          (let [existing (when (fs/exists? out) (rest (read-csv-raw out)))
-                merged (dedup-level-rows (concat all-rows existing))]
-            (write-csv-file out ["type" "label" "website" "hostname" "level"] merged)
-            (println (str "  -> " out " (" (count merged) " entries; "
-                          (count all-rows) " from this fetch, rest preserved)")))
+        (let [level1   (wikidata-fetch-subdivisions! country-qid country-dir)
+              all-rows (vec (mapcat #(wikidata-class-rows! % country-qid level1) wikidata-classes))
+              existing (when (fs/exists? out) (rest (read-csv-raw out)))
+              merged   (dedup-level-rows (concat all-rows existing))]
+          (write-csv-file out ["type" "label" "website" "hostname" "level"] merged)
+          (println (str "  -> " out " (" (count merged) " entries; "
+                        (count all-rows) " from this fetch, rest preserved)"))
           (let [n-miss (wikidata-write-missing! out missing-out)]
             (println (str "  -> " missing-out " (" n-miss " uncovered candidates)"))))))))
 
