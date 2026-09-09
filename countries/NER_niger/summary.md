@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,7 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `msp.ne` | wikidata;wikidata | Ministry of Public Health |
 | 4 | `ansi.ne` | wikidata | National Agency for the Information Society |
 | 4 | `inran.refer.ne` | wikidata | National Institute of Agronomic Research of Niger |
-| 4 | `ne.usembassy.gov` | wikidata | Embassy of the United States in Niger |
 | 4 | `police.ne` | wikidata | National Police of Niger |
 | 4 | `tribunalcommerceniamey.ne` | wikidata | Commercial court of Niamey |
 | 3 | `ambafrance-ne.org` | wikidata | Embassy of France in Niamey |

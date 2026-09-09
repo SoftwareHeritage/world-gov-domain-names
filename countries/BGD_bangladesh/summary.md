@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-29 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+28 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `gazipurcity.com` | wikidata;wikidata | Gazipur City Corporation |
 | 6 | `khulnacity.org` | wikidata;wikidata | Khulna City Corporation |
 | 4 | `acc.org.bd` | wikidata | Anti-Corruption Commission |
-| 4 | `bd.usembassy.gov` | wikidata | Embassy of the United States, Dhaka |
 | 4 | `bids.org.bd` | wikidata | Bangladesh Institute of Development Studies |
 | 4 | `dwasa.org.bd` | wikidata | Dhaka WASA |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Dhaka |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `bd.mdvmission` | wikidata | High Commission of the Maldives, Dhaka |
 | 3 | `cagbd.org` | wikidata | Office of the Comptroller and Auditor General, Bangladesh |
 | 3 | `dhaka.diplo.de` | wikidata | Embassy of Germany, Bangladesh |
+| 3 | `dhaka.mfa.af` | wikidata | Embassy of Afghanistan, Dhaka |
 

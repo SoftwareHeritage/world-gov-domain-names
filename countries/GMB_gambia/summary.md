@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-34 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+33 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -46,7 +46,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `gc.edu.gm` | wikidata | The Gambia College |
 | 4 | `gcc.gm` | wikidata | Gambia Competition and Consumer Protection Commission |
 | 4 | `giepa.gm` | wikidata | Gambia Investment and Export Promotion Agency |
-| 4 | `gm.usembassy.gov` | wikidata | Embassy of the United States, Banjul |
 | 4 | `gppa.gm` | wikidata | Gambia Public Procurement Authority |
 | 4 | `gra.gm` | wikidata | Gambia Revenue Authority |
 | 4 | `grts.gm` | wikidata | Gambia Radio & Television Service |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nao.gm` | wikidata | National Audit Office |
 | 4 | `naqaa.gm` | wikidata | National Accreditation and Quality Assurance Authority |
 | 4 | `nawec.gm` | wikidata | NAWEC |
+| 4 | `ncac.gm` | wikidata | National Council for Arts and Culture |
 

@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `roc-taiwan.org` | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Port-au-Prince |
 | 4 | `brh.ht` | wikidata | Bank of the Republic of Haiti |
 | 4 | `cephaiti.ht` | wikidata | Provisional Electoral Council |
-| 4 | `ht.usembassy.gov` | wikidata | embassy of the United States in Haiti |
 | 4 | `pnh.ht` | wikidata | Haitian National Police |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Haiti |
 | 3 | `ht.ambafrance.org` | wikidata | Embassy of France, Port-au-Prince |

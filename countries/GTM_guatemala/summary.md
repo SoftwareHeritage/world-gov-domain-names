@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `mindef.mil.gt` | wikidata;wikidata | Ministry of Defense |
-| 4 | `gt.usembassy.gov` | wikidata | Embassy of the United States, Guatemala City |
 | 4 | `pdh.org.gt` | wikidata | Human Rights Ombudsman of Guatemala |
 | 4 | `tse.org.gt` | wikidata | Supreme Electoral Supreme |
 | 3 | `bomberosvoluntariosdeguatemala.com` | wikidata | Bomberos Voluntarios |

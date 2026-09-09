@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -40,7 +40,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ahm.uem.mz` | wikidata | Arquivo Histórico de Moçambique |
 | 4 | `bancomoc.mz` | wikidata | Bank of Mozambique |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Maputo |
-| 4 | `mz.usembassy.gov` | wikidata | Embassy of the United States, Maputo |
 | 4 | `stae.org.mz` | wikidata | Secreteriado Técnico de Administração Eleitoral |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Mozambique |
 | 3 | `finlandabroad.fi` | wikidata | Embassy of Finland, Maputo |

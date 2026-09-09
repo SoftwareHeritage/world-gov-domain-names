@@ -30,17 +30,15 @@
 
 ## Candidate domains ranked by score
 
-13963 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13489 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `aberdeenwa.gov` | wikidata;wikidata | Aberdeen |
-| 8 | `abilityone.gov` | wikidata;wikidata | U.S. AbilityOne Commission | Office of Inspector General, Committee for Purch... |
 | 8 | `abingdon-va.gov` | wikidata;wikidata | Abingdon |
 | 8 | `abingtonma.gov` | wikidata;wikidata | Abington |
 | 8 | `abseconnj.gov` | wikidata;wikidata | Absecon |
-| 8 | `acl.gov` | wikidata;wikidata | Administration for Community Living | National Institute on Disability, Indep... |
 | 8 | `acton-ma.gov` | wikidata;wikidata | Acton |
 | 8 | `adamn.gov` | wikidata;wikidata | Ada |
 | 8 | `addisontx.gov` | wikidata;wikidata | Addison |
@@ -55,10 +53,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `allentownpa.gov` | wikidata;wikidata | Allentown |
 | 8 | `alna.maine.gov` | wikidata;wikidata | Alna |
 | 8 | `alpinecountyca.gov` | wikidata;wikidata | Alpine County Sheriff's Office | Alpine County District Attorney's Office |
+| 8 | `alton-tx.gov` | wikidata;wikidata | Alton |
+| 8 | `alton.nh.gov` | wikidata;wikidata | Alton |
 
 ## Local / regional candidates
 
-5323 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1317 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+5306 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 1309 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

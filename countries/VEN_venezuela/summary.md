@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-23 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+22 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -46,7 +46,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `dgim.mil.ve` | wikidata | Dirección de Inteligencia Militar |
 | 4 | `embajada-guineaecuatorial.com.ve` | wikidata | embassy of Equatorial Guinea in Venezuela |
 | 4 | `guardia.mil.ve` | wikidata | Bolivarian National Guard |
-| 4 | `ve.usembassy.gov` | wikidata | Embassy of the United States, Caracas |
 | 3 | `ambassadehaitivenezuela.org` | wikidata | embassy of Haiti in Venezuela |
 | 3 | `caracas.diplo.de` | wikidata | Embassy of Germany, Caracas |
 | 3 | `caracas.embassy.qa` | wikidata | embassy of Qatar in Venezuela |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Venezuela |
 | 3 | `emb-abjasia.com` | wikidata | Embassy of Abkhazia, Caracas |
 | 3 | `nigerianembassycaracas.org` | wikidata | embassy of Nigeria in Venezuela |
+| 3 | `ve.ambafrance.org` | wikidata | Embassy of France, Caracas |
 

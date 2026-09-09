@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,7 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `aidsmalawi.org.mw` | wikidata | National AIDS Commission |
 | 4 | `frim.org.mw` | wikidata | Forestry Research Institute of Malawi |
 | 4 | `mra.mw` | wikidata | Malawi Revenue Authority |
-| 4 | `mw.usembassy.gov` | wikidata | embassy of the United States in Malawi |
 | 4 | `ncst.mw` | wikidata | National Commission for Science and Technology Malawi |
 | 4 | `nls.mw` | wikidata | National Library Service of Malawi |
 | 4 | `rbm.mw` | wikidata | Reserve Bank of Malawi |

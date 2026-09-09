@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `nationalassembly.parliament.ls` | wikidata | National Assembly |
 | 4 | `agricresearch.org.ls` | wikidata | Department of Agricultural Research |
 | 4 | `centralbank.org.ls` | wikidata | Central Bank of Lesotho |
-| 4 | `ls.usembassy.gov` | wikidata | embassy of the United States in Lesotho |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Lesotho |
 | 3 | `ls.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Maseru |
 

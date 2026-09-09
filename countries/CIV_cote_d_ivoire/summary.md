@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `afor.ci` | wikidata | Q131452898 |
 | 4 | `artci.ci` | wikidata | Q86993468 |
 | 4 | `assnat.ci` | wikidata | National Assembly |
-| 4 | `ci.usembassy.gov` | wikidata | Embassy of the United States of America in Abidjan |
 | 4 | `cnra.ci` | wikidata | Centre National de Recherche Agronomique |
 | 4 | `conseil-constitutionnel.ci` | wikidata | Constitutional Council |
 | 4 | `firca.ci` | wikidata | Q131440933 |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `abidjan.diplo.de` | wikidata | Embassy of Germany, Abidjan |
 | 3 | `bceao.int` | wikidata | Central Bank of West African States |
 | 3 | `ceici.org` | wikidata | Q283004 |
+| 3 | `cotedivoire.mid.ru` | wikidata | embassy of Russia in Ivory Coast |
 

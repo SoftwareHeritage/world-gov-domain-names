@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-42 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+41 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -48,13 +48,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mdv.com.my` | wikidata | Malaysia Debt Ventures |
 | 4 | `mimos.my` | wikidata | Malaysian Institute of Microelectronic Systems |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Kuala Lumpur |
-| 4 | `my.usembassy.gov` | wikidata | Embassy of the United States, Kuala Lumpur |
 | 4 | `mynic.my` | wikidata | Q7393733 |
 | 4 | `nibm.my` | wikidata | National Institutes of Biotechnology Malaysia |
 | 4 | `palestineembassy.com.my` | wikidata | Embassy of the State of Palestine in Malaysia |
 | 4 | `pdn.org.my` | wikidata | Pusat Darah Negara |
 | 4 | `sc.com.my` | wikidata | Securities Commission Malaysia |
 | 4 | `ssm-einfo.my` | wikidata | Companies Commission of Malaysia |
+| 4 | `suhakam.org.my` | wikidata | Human Rights Commission of Malaysia |
 
 ## Local / regional candidates
 

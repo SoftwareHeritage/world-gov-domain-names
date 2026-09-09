@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `conseilconstitutionnelliban.com` | wikidata | Constitutional Council (Lebanon) |
 | 4 | `bejrut.mfa.gov.hu` | wikidata | Embassy of Hungary, Beirut |
 | 4 | `cnrs.edu.lb` | wikidata | National Council for Scientific Research |
-| 4 | `lb.usembassy.gov` | wikidata | Embassy of the United States in Beirut |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Beirut |
 | 3 | `alarabiahcouncil.org` | wikidata | Arabic Language International Council |
 | 3 | `ambafrance-lb.org` | wikidata | French Embassy, Beirut |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `lncu.org` | wikidata | Lebanese National Commission for UNESCO |
 | 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Lebanon |
 | 3 | `mfa.gr` | wikidata | embassy of Greece in Lebanon |
+| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Lebanon |
 

@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 5 | `fsmgov.org` | un_desa | UN/DESA national portal |
-| 4 | `fm.usembassy.gov` | wikidata | embassy of the United States in the Federated States of Micronesia |
 | 4 | `fsmhealth.fm` | wikidata | Department of Health and Social Affairs |
 | 4 | `fsmstatistics.fm` | wikidata | FM Statistics |
 

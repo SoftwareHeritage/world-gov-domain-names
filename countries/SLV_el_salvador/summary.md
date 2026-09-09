@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `jesuitascam.org` | wikidata;wikidata | Jesuit Province of Central America |
 | 4 | `esai.sv` | wikidata | El Salvador Aerospace Institute |
-| 4 | `sv.usembassy.gov` | wikidata | Embassy of the United States in San Salvador |
 | 3 | `ccesv.aecid.es` | wikidata | Cultural Center of Spain in El Salvador |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to El Salvador |
 | 3 | `lab.ccesv.org` | wikidata | Cultural Center of Spain in El Salvador |

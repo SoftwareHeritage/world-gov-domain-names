@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 5 | `primature.govcf.org` | un_desa | UN/DESA national portal |
-| 4 | `cf.usembassy.gov` | wikidata | embassy of the United States in Central African Republic |
 | 4 | `cpsrca.cf` | wikidata | Q112584726 |
 | 3 | `cf.ambafrance.org` | wikidata | Embassy of France, Bangui |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Central African Republic |

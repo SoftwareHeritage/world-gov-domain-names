@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `palemene.ws` | wikidata;wikidata | Legislative Assembly of Samoa |
 | 6 | `samoagovt.ws` | un_desa | UN/DESA national portal |
-| 4 | `ws.usembassy.gov` | wikidata | embassy of the United States in Samoa |
 | 3 | `samoashipping.com` | wikidata | Samoa Shipping Corporation |
 

@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `recoletos.ph` | wikidata;wikidata | Province of Saint Ezequiél Moreno |
 | 6 | `slminerals.org` | wikidata;wikidata | Ministry of Mineral Resources of Sierra Leone |
-| 4 | `sl.usembassy.gov` | wikidata | embassy of the United States in Sierra Leone |
 | 4 | `slcs.sl` | wikidata | Sierra Leone Correctional Service |
 | 4 | `statistics.sl` | wikidata | Statistics Sierra Leone |
 | 3 | `afro.who.int` | wikidata | World Health Organization - Sierra Leone |

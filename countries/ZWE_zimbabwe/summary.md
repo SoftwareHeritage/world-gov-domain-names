@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -51,10 +51,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `zimstat.co.zw` | wikidata | Zimbabwe National Statistics Agency |
 | 4 | `zingsa.ac.zw` | wikidata | Zimbabwe National Geospatial and Space Agency |
 | 4 | `zinwa.co.zw` | wikidata | Zimbabwe National Water Authority |
-| 4 | `zw.usembassy.gov` | wikidata | embassy of the United States in Zimbabwe |
 | 3 | `ambafrance-zw.org` | wikidata | Embassy of France, Harare |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Zimbabwe |
 | 3 | `ghanaembassy-zimbabwe.com` | wikidata | embassy of Ghana in Zimbabwe |
+| 3 | `harare.diplo.de` | wikidata | Embassy of Germany, Harare |
 
 ## Local / regional candidates
 

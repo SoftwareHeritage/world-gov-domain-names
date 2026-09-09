@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-106 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+105 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -47,7 +47,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `aead.gr` | wikidata;wikidata | National Transparency Authority |
 | 7 | `eeae.gr` | wikidata;wikidata | Greek Atomic Energy Commission |
 | 7 | `gak.gr` | wikidata;wikidata | General State Archives |
-| 7 | `gr.usembassy.gov` | wikidata;wikidata | Embassy of the United States, Athens | Consulate General of the United States... |
 | 7 | `hcmc.gr` | wikidata;wikidata | Hellenic Capital Market Commission |
 | 7 | `mindigital.gr` | wikidata;wikidata | Ministry of Digital Governance (Greece) |
 | 7 | `ministryofjustice.gr` | wikidata;wikidata | Ministry of Justice (Greece) |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mod.mil.gr` | wikidata;wikidata | Ministry of National Defence (Greece) |
 | 7 | `nam.culture.gr` | wikidata;wikidata | Directorate for the Curation of the National Archive of Monuments |
 | 7 | `protodikeio-ath.gr` | wikidata;wikidata | Athens Chamber of Commerce and Industry | Court of First Instance of Athens |
+| 7 | `yme.gr` | wikidata;wikidata | Ministry of Infrastructure and Transport (Greece) |
 
 ## Local / regional candidates
 

@@ -30,12 +30,11 @@
 
 ## Candidate domains ranked by score
 
-15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `gn.usembassy.gov` | wikidata | embassy of the United States in Guinea |
 | 3 | `ambassadealgerieconakry.info` | wikidata | Embassy of Algeria, Conakry |
 | 3 | `anss-guinee.org` | wikidata | Q97097294 |
 | 3 | `bcrg-guinee.org` | wikidata | Central Bank of the Republic of Guinea |

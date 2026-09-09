@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,7 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `dominicoshispania.org` | wikidata;wikidata | Province of Hispania of the Order of Preachers |
 | 6 | `roc-taiwan.org` | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Asunción | Consulate-General of th... |
 | 4 | `embajadadeluruguay.com.py` | wikidata | embassy of Uruguay in Paraguay |
-| 4 | `py.usembassy.gov` | wikidata | embassy of the United States in Paraguay |
 | 3 | `asuncion.diplo.de` | wikidata | Embassy of Germany, Asunción |
 | 3 | `asuncion.embassy.qa` | wikidata | embassy of Qatar in Paraguay |
 | 3 | `cceasuncion.aecid.es` | wikidata | Q139502847 |

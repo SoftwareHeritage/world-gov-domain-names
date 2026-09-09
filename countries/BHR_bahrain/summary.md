@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `bahrain.bh` | un_desa | UN/DESA national portal |
-| 4 | `bh.usembassy.gov` | wikidata | Embassy of the United States, Manama |
 | 4 | `bna.bh` | wikidata | Bahrain News Agency |
 | 4 | `btea.bh` | wikidata | Bahrain Tourism and Exhibitions Authority |
 | 4 | `lmra.bh` | wikidata | Labour Market Regulatory Authority |

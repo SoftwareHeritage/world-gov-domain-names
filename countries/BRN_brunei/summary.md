@@ -30,12 +30,11 @@
 
 ## Candidate domains ranked by score
 
-7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `bn.usembassy.gov` | wikidata | Embassy of the United States in Bandar Seri Begawan |
 | 4 | `brunet.bn` | wikidata | Brunei International Airport |
 | 3 | `ambafrance-bn.org` | wikidata | Embassy of France, Bandar Seri Begawan |
 | 3 | `bandar-seri-begawan.diplo.de` | wikidata | Embassy of Germany, Bandar Seri Begawan |

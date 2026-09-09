@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -48,7 +48,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mitas.tj` | wikidata | Institute of Mathematics National Academy of Science of Tajikistan |
 | 4 | `nbt.tj` | wikidata | National Bank of Tajikistan |
 | 4 | `stat.tj` | wikidata | TAJSTAT |
-| 4 | `tj.usembassy.gov` | wikidata | embassy of the United States in Tajikistan |
 | 3 | `duschanbe.diplo.de` | wikidata | embassy of Germany, Dushanbe |
 | 3 | `dushanbe.mid.ru` | wikidata | embassy of Russia in Tajikistan |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Tajikistan |

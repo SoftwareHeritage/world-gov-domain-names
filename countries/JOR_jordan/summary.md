@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+23 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `roc-taiwan.org` | wikidata;wikidata | Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural ... |
 | 4 | `arabic.jo` | wikidata | Jordan Academy of Arabic |
 | 4 | `hpc.org.jo` | wikidata | Higher Population Council |
-| 4 | `jo.usembassy.gov` | wikidata | Embassy of the United States, Amman |
 | 4 | `representatives.jo` | wikidata | House of Representatives of Jordan |
 | 4 | `rhc.jo` | wikidata | The Royal Hashemite Court |
 | 4 | `senate.jo` | wikidata | Senate of Jordan |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `jordan.mid.ru` | wikidata | embassy of Russia in Jordan |
 | 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Jordan |
 | 3 | `mfa.gr` | wikidata | embassy of Greece in Jordan |
+| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Jordan |
 

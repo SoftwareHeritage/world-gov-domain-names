@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-48 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+47 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -51,10 +51,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `geothermal.is` | wikidata | Iceland Geosurvey |
 | 4 | `hagstofa.is` | wikidata | Statistics Iceland |
 | 4 | `icetra.is` | wikidata | Q1151075 |
-| 4 | `is.usembassy.gov` | wikidata | embassy of the United States in Iceland |
 | 4 | `landsbokasafn.is` | wikidata | National and University Library of Iceland |
 | 4 | `lmi.is` | wikidata | National Land Survey of Iceland |
 | 4 | `logreglan.is` | wikidata | Icelandic Police |
+| 4 | `minjastofnun.is` | wikidata | Cultural Heritage Agency of Iceland |
 
 ## Local / regional candidates
 

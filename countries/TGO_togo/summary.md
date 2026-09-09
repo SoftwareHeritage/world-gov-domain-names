@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -45,7 +45,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `courdescomptes.tg` | wikidata | Q139500459 |
 | 4 | `coursupremetogo.tg` | wikidata | Q125959623 |
 | 4 | `inseed.tg` | wikidata | INSEED-TOGO |
-| 4 | `tg.usembassy.gov` | wikidata | embassy of the United States in Togo |
 | 3 | `bceao.int` | wikidata | Central Bank of West African States |
 | 3 | `ceni-tg.org` | wikidata | Q19955905 |
 | 3 | `cndh-togo.org` | wikidata | National Human Rights Commission (Togo) |

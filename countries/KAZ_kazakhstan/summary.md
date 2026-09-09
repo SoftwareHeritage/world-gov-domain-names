@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-42 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+41 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `government.kz` | un_desa;wikidata;wikidata | Government of Kazakhstan | UN/DESA national portal |
-| 7 | `kz.usembassy.gov` | wikidata;wikidata | Consulate General of the United States in Almaty | embassy of the United Stat... |
 | 7 | `mgov.kz` | wikidata;wikidata | Ministry of Agriculture |
 | 7 | `seismology.kz` | wikidata;wikidata | Institute of Seismology |
 | 7 | `spaceres.kz` | wikidata;wikidata;wikidata | National Center of Space Research and Technology |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nationalbank.kz` | wikidata | National Bank of Kazakhstan |
 | 4 | `rfembassy.kz` | wikidata | Embassy of Russia, Astana |
 | 4 | `rniiot.kz` | wikidata | Republican Research Institute for Occupational Safety and Health |
+| 4 | `rtrk.kz` | wikidata | Qazaqstan Radio and Television Corporation |
 

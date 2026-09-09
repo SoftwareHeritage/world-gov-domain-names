@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `caa.lk` | wikidata | Civil Aviation Authority of Sri Lanka |
 | 4 | `ird.lk` | wikidata | Institute for Research and Development |
 | 4 | `leco.lk` | wikidata | Lanka Electricity Company |
-| 4 | `lk.usembassy.gov` | wikidata | embassy of the United States in Sri Lanka |
 | 4 | `maldiveshighcom.lk` | wikidata | High Commission of Maldives, Colombo |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Colombo |
 | 4 | `nara.ac.lk` | wikidata | National Aquatic Resources Research and Development Agency |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `220.247.247.85` | wikidata | National Library of Sri Lanka |
 | 3 | `colombo.diplo.de` | wikidata | Embassy of Germany, Colombo |
 | 3 | `colombo.mae.ro` | wikidata | embassy of Romania in Sri Lanka |
+| 3 | `colombo.mfa.af` | wikidata | Embassy of Afghanistan, Colombo |
 

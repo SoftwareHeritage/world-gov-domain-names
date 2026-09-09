@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -48,13 +48,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `hec.mu` | wikidata | Higher Education Commission |
 | 4 | `icac.mu` | wikidata | Independent Commission Against Corruption |
 | 4 | `msb.intnet.mu` | wikidata | Mauritius Standards Bureau |
-| 4 | `mu.usembassy.gov` | wikidata | embassy of the United States in Mauritius |
 | 4 | `ncb.mu` | wikidata | National Computer Board |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Mauritius and to the Seychelles |
 | 3 | `mauritius.mid.ru` | wikidata | embassy of Russia in Mauritius |
 | 3 | `moi.govmu.org` | wikidata | Mauritius Oceanography Institute |
 | 3 | `mu.ambafrance.org` | wikidata | Embassy of France, Port Louis |
 | 3 | `mymauritius.travel` | wikidata | Mauritius Tourism Promotion Authority |
+| 3 | `national-library.govmu.org` | wikidata | National Library of Mauritius |
 
 ## Local / regional candidates
 

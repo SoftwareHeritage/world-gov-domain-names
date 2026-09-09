@@ -30,12 +30,11 @@
 
 ## Candidate domains ranked by score
 
-32 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+31 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `cm.usembassy.gov` | wikidata;wikidata | embassy of the United States in Cameroon | Embassy Branch Office of the Unite... |
 | 7 | `diplocam.cm` | wikidata;wikidata | Ministry of External Relations |
 | 7 | `minader.cm` | wikidata;wikidata | Ministry of Agriculture and rural development |
 | 7 | `minas.cm` | wikidata;wikidata | Ministry of Social Affairs |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `archivesnationales.cm` | wikidata | National Archives of Cameroon |
 | 4 | `assnat.cm` | wikidata | National Assembly of Cameroon |
 | 4 | `ccousp.cm` | wikidata | Q109056172 |
+| 4 | `cnls.cm` | wikidata | Comité National de Lutte contre le SIDA |
 
 ## Local / regional candidates
 

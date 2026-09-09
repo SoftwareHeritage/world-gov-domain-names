@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `phcc.qa` | wikidata | Primary Health Care |
-| 4 | `qa.usembassy.gov` | wikidata | embassy of the United States in Qatar |
 | 4 | `qnl.qa` | wikidata | Qatar National Library |
 | 3 | `ambasadat.net` | wikidata | Embassy of Kosovo, Doha |
 | 3 | `bhembassyqatar.com` | wikidata | embassy of Bosnia and Herzegovina in Qatar |

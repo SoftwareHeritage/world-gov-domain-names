@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-91 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+89 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -58,10 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `ly.usembassy.gov` | wikidata | Embassy of the United States of America, Tripoli |
 | 3 | `tripolis.diplo.de` | wikidata | Embassy of Germany, Tripoli |
 

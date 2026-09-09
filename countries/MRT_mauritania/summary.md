@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -43,7 +43,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cndh.mr` | wikidata | National Human Rights Commission of Mauritania |
 | 4 | `cnla.mr` | wikidata | Centre National de Lutte Antiacridienne |
 | 4 | `gendarmerie.mr` | wikidata | Law enforcement in Mauritania |
-| 4 | `mr.usembassy.gov` | wikidata | Embassy of the United States, Nouakchott |
 | 4 | `ons.mr` | wikidata | Office National de la Statistique |
 | 4 | `palemb.mr` | wikidata | Embassy of the State of Palestine, Nouakchott |
 | 3 | `ccfr.rimpresse.com` | wikidata | Q19885895 |

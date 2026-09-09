@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `bce.ec` | wikidata;wikidata | Central Bank of Ecuador |
-| 7 | `ec.usembassy.gov` | wikidata;wikidata | embassy of the United States in Ecuador | Consulate General of the United Sta... |
 | 7 | `exa.ec` | wikidata;wikidata | Ecuadorian Civilian Space Agency |
 | 6 | `escolapios.org.co` | wikidata;wikidata | Nazareth piarist province |
 | 5 | `ane.gov.ec` | wikidata | National Archives of Ecuador |

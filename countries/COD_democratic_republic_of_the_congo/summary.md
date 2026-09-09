@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-23 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+22 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `aplc.cd` | wikidata | Agency for the Prevention and Fight against Corruption |
 | 4 | `assemblee-nationale.cd` | wikidata | National Assembly |
 | 4 | `bcc.cd` | wikidata | Central Bank of Congo |
-| 4 | `cd.usembassy.gov` | wikidata | Embassy of the United States, Kinshasa |
 | 4 | `ins.cd` | wikidata | Institut National de la Statistique |
 | 4 | `onem.cd` | wikidata | Q132560441 |
 | 4 | `senat.cd` | wikidata | Senate of the Democratic Republic of the Congo |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ghanaembassy-drc.com` | wikidata | Embassy of Ghana in Kinsasha |
 | 3 | `inrb.net` | wikidata | National Institute of Biomedical Research |
 | 3 | `kinshasa.diplo.de` | wikidata | Embassy of Germany, Kinshasa |
+| 3 | `mfa.gr` | wikidata | embassy of Greece in the Democratic Republic of Congo |
 

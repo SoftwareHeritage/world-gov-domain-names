@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `bankofguyana.org.gy` | wikidata | Bank of Guyana |
 | 4 | `cdc.gy` | wikidata | Civil Defense Commission of Guyana |
-| 4 | `gy.usembassy.gov` | wikidata | embassy of the United States in Guyana |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Guyana, for Suriname, and with responsibi... |
 | 3 | `gnbsgy.org` | wikidata | Guyana National Bureau of Standards |
 | 3 | `guyana.mid.ru` | wikidata | embassy of Russia in Guyana |

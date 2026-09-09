@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-31 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+30 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `tourismethiopia.org` | wikidata;wikidata | Ministry of Culture and Tourism |
 | 4 | `emwa.org.et` | wikidata | Ethiopian Midwives Association (EMwA) |
 | 4 | `epaethiopia.org.et` | wikidata | Ethiopian Pharmaceutical Association |
-| 4 | `et.usembassy.gov` | wikidata | embassy of the United States in Ethiopia |
 | 4 | `ethiondc.org.et` | wikidata | Ethiopian National Dialogue Commission |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Addis Ababa |
 | 4 | `nvi.com.et` | wikidata | National Veterinary Institute |
@@ -55,13 +54,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ethiopia.mid.ru` | wikidata | embassy of Russia in Ethiopia |
 | 3 | `ethiopianreconciliation.org` | wikidata | Ethiopian Reconciliation Commission |
 | 3 | `etiopien.um.dk` | wikidata | embassy of Denmark in Ethiopia |
+| 3 | `finlandabroad.fi` | wikidata | Embassy of Finland, Addis Abeba |
 
 ## Local / regional candidates
 
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `eeas.europa.eu` | wikidata;wikidata | Delegation of the European Union to Ethiopia | Delegation of the European Uni... |
-| 4 | `usau.usmission.gov` | wikidata | United States Mission to the African Union |
 

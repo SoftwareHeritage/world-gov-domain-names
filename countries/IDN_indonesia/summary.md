@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-48 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+47 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -58,10 +58,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 ## Local / regional candidates
 
-2 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+1 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `asean.usmission.gov` | wikidata | United States Mission to ASEAN |
 | 4 | `danantaraindonesia.co.id` | wikidata | Daya Anagata Nusantara Investment Management Agency |
 

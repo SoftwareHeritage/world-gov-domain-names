@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -44,7 +44,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ambasadabih.org.mk` | wikidata | Embassy of Bosnia and Herzegovina in North Macedonia |
 | 4 | `arhiv.mk` | wikidata | State Archive of the Republic of North Macedonia |
 | 4 | `ia.mk` | wikidata | Intelligence Agency of North Macedonia |
-| 4 | `mk.usembassy.gov` | wikidata | embassy of the United States in North Macedonia |
 | 4 | `nbrm.mk` | wikidata | National Bank of North Macedonia |
 | 4 | `nubsk.edu.mk` | wikidata | National and University Library "St. Kliment of Ohrid" |
 | 4 | `oskratovo.mk` | wikidata | Courthouses in Kratovo |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mfa.bg` | wikidata | embassy of Bulgaria in North Macedonia |
 | 3 | `mfa.gr` | wikidata | embassy of Greece in North Macedonia |
 | 3 | `mk.ambafrance.org` | wikidata | Embassy of France, Skopje |
+| 3 | `mk.mvep.hr` | wikidata | embassy of Croatia in North Macedonia |
 

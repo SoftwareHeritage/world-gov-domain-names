@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -40,7 +40,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `narc.org.np` | wikidata | Nepal Agricultural Research Council |
 | 4 | `nea.org.np` | wikidata | Nepal Electricity Authority |
 | 4 | `nncu.org.np` | wikidata | Nepal National Commission for UNESCO |
-| 4 | `np.usembassy.gov` | wikidata | Embassy of the United States, Kathmandu |
 | 4 | `nrb.org.np` | wikidata | Nepal Rastra Bank |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Nepal |
 | 3 | `finlandabroad.fi` | wikidata | embassy of Finland in Nepal |

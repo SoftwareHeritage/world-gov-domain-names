@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-50 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+49 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `bqp.vn` | wikidata;wikidata | Ministry of Defence of Vietnam |
 | 7 | `quochoi.vn` | wikidata;wikidata | National Assembly of Vietnam |
-| 7 | `vn.usembassy.gov` | wikidata;wikidata | Consulate General of the United States, Ho Chi Minh City | Embassy of the Uni... |
 | 7 | `vovworld.vn` | wikidata;wikidata | Voice of Vietnam |
 | 4 | `bienphongvietnam.vn` | wikidata | Vietnam Border Defense Force |
 | 4 | `canhsatbien.vn` | wikidata | Vietnam Coast Guard |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `moroccoembassy.vn` | wikidata | embassy of Morocco in Vietnam |
 | 4 | `nimpe.vn` | wikidata | National Institute of Malariology, Parasitology and Entomology |
 | 4 | `palestineembassy.vn` | wikidata | Embassy of the State of Palestine in Vietnam |
+| 4 | `sie.vast.vn` | wikidata | Southern Institute of Ecology |
 
 ## Local / regional candidates
 

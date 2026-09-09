@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bocra.org.bw` | wikidata | Botswana Communications Regulatory Authority |
 | 4 | `bqa.org.bw` | wikidata | Botswana Qualifications Authority |
 | 4 | `burs.org.bw` | wikidata | Botswana Unified Revenue Service |
-| 4 | `bw.usembassy.gov` | wikidata | Embassy of the United States, Gaborone |
 | 4 | `gamblingauthority.co.bw` | wikidata | Botswana Gambling Authority |
 | 4 | `nacb.org.bw` | wikidata | National Arts Council of Botswana |
 | 3 | `botswana.mid.ru` | wikidata | embassy of Russia in Botswana |

@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-23 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+22 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -48,11 +48,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `impo.com.uy` | wikidata | National Directorate of Official Printings and Publications |
 | 4 | `inavi.com.uy` | wikidata | Q16579066 |
 | 4 | `rnu.com.uy` | wikidata | Radiodifusión Nacional del Uruguay |
-| 4 | `uy.usembassy.gov` | wikidata | embassy of the United States in Uruguay |
 | 3 | `consuladoangolaenuruguay.com` | wikidata | Consulate of Angola, Montevideo |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Uruguay |
 | 3 | `embajadasaharauruguay.blogspot.com` | wikidata | Embassy of the Sahrawi Arab Democratic Republic, Montevideo |
 | 3 | `mfa.gr` | wikidata | embassy of Greece in Uruguay |
 | 3 | `montevideo.diplo.de` | wikidata | Embassy of Germany, Montevideo |
 | 3 | `montevideo.mae.ro` | wikidata | embassy of Romania in Uruguay |
+| 3 | `uruguay.mid.ru` | wikidata | embassy of Russia in Uruguay |
 

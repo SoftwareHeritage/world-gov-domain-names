@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-22 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+21 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `inrsp.sante.gov.ml` | wikidata | Institut National de Recherche en Santé Publique |
 | 4 | `gendarmerie.ml` | wikidata | Malian National Gendarmerie |
 | 4 | `malimeteo.ml` | wikidata | Agence Nationale de la Météorologie du Mali |
-| 4 | `ml.usembassy.gov` | wikidata | embassy of the United States in Mali |
 | 3 | `afristat.org` | wikidata | AFRISTAT |
 | 3 | `ambassadeburkina-ml.org` | wikidata | embassy of Burkina Faso in Mali |
 | 3 | `ambniger-mali.org` | wikidata | embassy of Niger in Mali |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ml.ambafrance.org` | wikidata | Embassy of France, Bamako |
 | 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Mali |
 | 3 | `norway.no` | wikidata | Embassy of Norway in Mali |
+| 3 | `rusembmali.mid.ru` | wikidata | embassy of Russia in Mali |
 

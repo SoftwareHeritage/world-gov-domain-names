@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-22 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+21 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `minjud.gv.ao` | wikidata;wikidata | Ministry of Youth and Sports |
 | 6 | `franciscanos.org.br` | wikidata;wikidata | Q10354750 |
 | 6 | `tribunalconstitucional.ao` | wikidata | Constitutional Court of Angola |
-| 4 | `ao.usembassy.gov` | wikidata | Embassy of the United States, Luanda |
 | 4 | `bna.ao` | wikidata | National Bank of Angola |
 | 4 | `luanda.mfa.gov.hu` | wikidata | Embassy of Hungary to Luanda |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Luanda |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `luanda.diplo.de` | wikidata | Embassy of Germany, Luanda |
 | 3 | `luanda.mae.ro` | wikidata | embassy of Romania in Angola |
 | 3 | `nationallibraryofangola.org` | wikidata | National Library of Angola |
+| 3 | `norway.no` | wikidata | Embassy of Norway, Luanda |
 

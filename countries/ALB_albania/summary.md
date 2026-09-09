@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `e-albania.al ` | un_desa | UN/DESA national portal |
 | 4 | `aaf.mil.al` | wikidata | Military Police |
 | 4 | `akep.al` | wikidata | Autoriteti i Komunikimeve Elektronike dhe Postare |
-| 4 | `al.usembassy.gov` | wikidata | Embassy of the United States, Tirana |
 | 4 | `bksh.al` | wikidata | National Library of Albania |
 | 4 | `idp.al` | wikidata | Information and Data Protection Commissioner |
 | 4 | `kryeministria.al` | wikidata | Prime Minister's Office |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mfa.bg` | wikidata | Embassy of Bulgaria in Albania |
 | 3 | `mfa.gr` | wikidata | embassy of Greece in Albania |
 | 3 | `mzv.cz` | wikidata | Embassy of the Czech republic in Albania |
+| 3 | `mzv.sk` | wikidata | Embassy of Slovakia in Albania |
 
 ## Local / regional candidates
 

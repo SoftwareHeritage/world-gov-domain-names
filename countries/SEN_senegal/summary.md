@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-38 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+37 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -51,10 +51,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Dakar |
 | 4 | `onas.sn` | wikidata | National Office for Sanitation of Senegal |
 | 4 | `sip.sn` | wikidata | Commune de Matam |
-| 4 | `sn.usembassy.gov` | wikidata | Embassy of the United States, Dakar |
 | 4 | `statsenegal.sn` | wikidata | Système Statistique National du Sénégal |
 | 3 | `amba-senegal.ga` | wikidata | Gabonese Embassy in Senegal |
 | 3 | `ambaburkina-sn.org` | wikidata | embassy of Burkina Faso in Senegal |
+| 3 | `ambadak.org` | wikidata | embassy of Madagascar in Senegal |
 
 ## Local / regional candidates
 

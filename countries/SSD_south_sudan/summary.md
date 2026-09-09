@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,7 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `goss-online.org` | un_desa;wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation | UN/DESA national ... |
 | 6 | `mop-rss.org` | wikidata;wikidata | Ministry of Petroleum and Mining |
 | 6 | `ssmogei.org` | wikidata;wikidata | Ministry of Education, Science and Technology |
-| 4 | `ss.usembassy.gov` | wikidata | Embassy of the United States, Juba |
 | 4 | `usaf@gov.ss` | wikidata | Universal Service and Access Fund (South Sudan) |
 | 3 | `dschuba.diplo.de` | wikidata | Embassy of Germany, Juba |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to South Sudan |

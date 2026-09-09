@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-42 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+41 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cdm.gtmo.inf.cu` | wikidata | Centro de Desarrollo de la Montaña |
 | 4 | `cecmed.cu` | wikidata | CECMED |
 | 4 | `centis.cu` | wikidata | Centro de Isotopos |
-| 4 | `cu.usembassy.gov` | wikidata | Embassy of the United States, Havana |
 | 4 | `eleccionesencuba.cu` | wikidata | National Electoral Council of Cuba |
 | 4 | `geotech.cu` | wikidata | Institute of Tropical Geography |
 | 4 | `havanna.mfa.gov.hu` | wikidata | Hungarian embassy, Havana |
 | 4 | `inaf.co.cu` | wikidata | Instituto de Investigaciones Agro-Forestales |
 | 4 | `inca.edu.cu` | wikidata | National Institute of Agricultural Sciences |
+| 4 | `inimet.cu` | wikidata | Instituto Nacional de Metrologia |
 

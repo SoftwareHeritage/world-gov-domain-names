@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-97 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+96 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `eastgalil.org.il` | wikidata;wikidata | Q16338638 |
-| 7 | `il.usembassy.gov` | wikidata;wikidata | Tel Aviv Branch Office of the Embassy of the United States | Embassy of the U... |
 | 7 | `israelhpr.org.il` | wikidata;wikidata | Israel National Institute for Health Policy Research |
 | 7 | `rabincenter.org.il` | wikidata;wikidata | Yitzhak Rabin Center |
 | 7 | `shazar.org.il` | wikidata;wikidata | The Zalman Shazar Center |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `boi.org.il` | wikidata | Bank of Israel |
 | 4 | `che.org.il` | wikidata | Council for Higher Education in Israel |
 | 4 | `dsda.org.il` | wikidata | The Dead Sea Drainage Authority |
+| 4 | `eilat.muni.il` | wikidata | Eilat |
 
 ## Local / regional candidates
 

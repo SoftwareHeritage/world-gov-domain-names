@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+25 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ambasadabih.me` | wikidata | embassy of Bosnia and Herzegovina in Montenegro |
 | 4 | `anb.me` | wikidata | National Security Agency |
 | 4 | `dacg.me` | wikidata | State Archives of Montenegro |
-| 4 | `me.usembassy.gov` | wikidata | embassy of the United States in Montenegro |
 | 4 | `metrologija.me` | wikidata | Montenegrin Bureau of Metrology |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates in Montenegro |
 | 4 | `nb-cg.me` | wikidata | National Library of Montenegro "Đurđe Crnojević" |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Montenegro |
 | 3 | `mfa.gr` | wikidata | embassy of Greece in Montenegro |
 | 3 | `montenegro.mid.ru` | wikidata | embassy of Russia in Montenegro |
+| 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Montenegro |
 

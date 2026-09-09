@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ceni-madagascar.mg` | wikidata | National Independent Electoral Commission |
 | 4 | `instat.mg` | wikidata | Institut National de la Statistique |
 | 4 | `meteomadagascar.mg` | wikidata | Météo Madagascar |
-| 4 | `mg.usembassy.gov` | wikidata | embassy of the United States in Madagascar |
 | 4 | `pnae.mg` | wikidata | Office National pour l'Environnement |
 | 4 | `senat.mg` | wikidata | Senate |
 | 3 | `antananarivo.diplo.de` | wikidata | Embassy of Germany, Antananarivo |

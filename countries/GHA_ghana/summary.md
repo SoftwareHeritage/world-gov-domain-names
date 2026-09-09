@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-28 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cocobod.gh` | wikidata | Ghana Cocoa Board |
 | 4 | `csir.org.gh` | wikidata | Council for Scientific and Industrial Research – Ghana |
 | 4 | `gcaa.com.gh` | wikidata | Ghana Civil Aviation Authority |
-| 4 | `gh.usembassy.gov` | wikidata | Embassy of the United States, Accra |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Accra |
 | 4 | `nca.org.gh` | wikidata | National Communications Authority |
 | 4 | `ncte.edu.gh` | wikidata | National Council for Tertiary Education |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ghana.travel` | wikidata | Ghana Tourism Authority |
 | 3 | `ghana.um.dk` | wikidata | embassy of Denmark in Ghana |
 | 3 | `ghanamuseums.org` | wikidata | Ghana Museums and Monuments Board |
+| 3 | `ghanawildlife.org` | wikidata | Ghana Wildlife Division |
 

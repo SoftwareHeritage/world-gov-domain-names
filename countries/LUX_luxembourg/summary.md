@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `etat.lu` | linkgraph | Linked from 4 public-sector domains |
 | 4 | `geologie.lu` | wikidata | Q78188560 |
 | 4 | `lih.lu` | wikidata | Luxembourg Institute of Health |
-| 4 | `lu.usembassy.gov` | wikidata | Embassy of the United States, Luxembourg |
 | 4 | `luxinnovation.lu` | wikidata | Luxinnovation |
 | 4 | `mnaha.lu` | wikidata | National Museum of Archeology, History and Art |
 | 4 | `railinfra.lu` | wikidata | Administration des chemins de fer |

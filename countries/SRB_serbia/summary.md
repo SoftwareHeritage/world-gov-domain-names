@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-53 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+52 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |

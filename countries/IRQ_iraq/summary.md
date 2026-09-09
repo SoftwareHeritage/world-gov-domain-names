@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-32 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+31 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 8 | `parliament.iq` | wikidata;wikidata | Council of Representatives of Iraq |
-| 7 | `iq.usembassy.gov` | wikidata;wikidata | Consulate General of the United States, Erbil | Embassy of the United States,... |
 | 7 | `mod.mil.iq` | wikidata;wikidata | Ministry of Defence of Iraq |
 | 6 | `cabinet.iq` | un_desa | UN/DESA national portal |
 | 6 | `iq.ambafrance.org` | wikidata;wikidata | Embassy of France, Baghdad | Consulate General of France, Erbil |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `darculture.com` | wikidata | The General House of Cultural Affairs |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Iraq |
 | 3 | `en.aswataliraq.info` | wikidata | Aswat al-Iraq |
+| 3 | `erbil.diplo.de` | wikidata | Consulate General of Germany, Erbil |
 
 ## Local / regional candidates
 

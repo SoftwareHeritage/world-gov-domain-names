@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-35 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+34 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `e-gov.az` | un_desa | UN/DESA national portal |
 | 4 | `afghanemb.az` | wikidata | Embassy of Afghanistan, Baku |
 | 4 | `aida.az` | wikidata | Azerbaijan International Development Agency |
-| 4 | `az.usembassy.gov` | wikidata | Embassy of the United States, Baku |
 | 4 | `azercosmos.az` | wikidata | Azercosmos |
 | 4 | `azerishiq.az` | wikidata | Azerishiq Open Joint-Stock Company |
 | 4 | `azersu.az` | wikidata | Azersu Open Joint-Stock Company |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `pharma.az` | wikidata | Azərbaycan Respublikası Səhiyyə Nazirliyi "Analitik Ekspertiza Mərkəzi" Publi... |
 | 4 | `president.az` | wikidata | The Office of Azerbaijan President |
 | 4 | `smeti.az` | wikidata | Water and Amelioration Scientific Research Institute PLE |
+| 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Baku |
 
 ## Local / regional candidates
 

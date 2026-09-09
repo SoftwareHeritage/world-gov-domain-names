@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `cbt.tm` | wikidata | Central Bank of Turkmenistan |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Ashgabat |
-| 4 | `tm.usembassy.gov` | wikidata | US Embassy in Turkmenistan |
 | 3 | `aschgabat.diplo.de` | wikidata | Embassy of Germany, Ashgabat |
 | 3 | `ashgabat.mae.ro` | wikidata | Embassy of Romania, Ashgabat |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Turkmenistan |

@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -46,7 +46,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mfsa.com.mt` | wikidata | Malta Financial Service Authority |
 | 4 | `mfsa.mt` | wikidata | Malta Financial Service Authority |
 | 4 | `mra.org.mt` | wikidata | Malta Resources Authority |
-| 4 | `mt.usembassy.gov` | wikidata | Embassy of the United States, Attard |
 | 4 | `pa.org.mt` | wikidata | Planning Authority |
 | 3 | `centralbankmalta.org` | wikidata | Central Bank of Malta |
 | 3 | `ghanahighcommission-malta.com` | wikidata | high commission of Ghana in Malta |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `malta.mid.ru` | wikidata | embassy of Russia in Malta |
 | 3 | `malta.representation.ec.europa.eu` | wikidata | European Commission Representation in Malta |
 | 3 | `maltaenterprise.com` | wikidata | Malta Enterprise |
+| 3 | `maltafilmcommission.com` | wikidata | Malta Film Commission |
 
 ## Local / regional candidates
 

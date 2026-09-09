@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-22 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+21 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `epa.org.kw` | wikidata | Environment Public Authority |
 | 4 | `kuna.net.kw` | wikidata | Kuwait News Agency |
 | 4 | `kuvait.mfa.gov.hu` | wikidata | Embassy of Hungary, Kuwait |
-| 4 | `kw.usembassy.gov` | wikidata | embassy of the United States in Kuwait |
 | 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Kuwait |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Kuwait |
 | 3 | `ghanaembassy-kuwait.com` | wikidata | embassy of Ghana in Kuwait |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Kuwait |
 | 3 | `mfa.gr` | wikidata | embassy of Greece in Kuwait |
 | 3 | `mzv.cz` | wikidata | embassy of the Czech republic in Kuwait |
+| 3 | `mzv.sk` | wikidata | embassy of Slovakia in Kuwait |
 

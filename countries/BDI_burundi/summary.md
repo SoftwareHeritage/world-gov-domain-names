@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `minisante.bi` | wikidata;wikidata | Ministry of Public Health of Burundi |
 | 4 | `assemblee.bi` | wikidata | National Assembly |
-| 4 | `bi.usembassy.gov` | wikidata | embassy of the United States in Burundi |
 | 4 | `brb.bi` | wikidata | Bank of the Republic of Burundi |
 | 4 | `ceniburundi.bi` | wikidata | Q21008237 |
 | 4 | `igebu.bi` | wikidata | Institut Géographique du Burundi |

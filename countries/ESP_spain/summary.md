@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-517 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+516 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -53,8 +53,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ciemat.es` | wikidata;wikidata | Q93883381 | Centro de Investigaciones Energéticas, Medioambientales y Tecnoló... |
 | 7 | `cortesgenerales.es` | wikidata;wikidata | Cortes Generales |
 | 7 | `dgsfp.mineco.es` | wikidata;wikidata | Directorate General for Insurances and Pension Funds |
-| 7 | `es.usembassy.gov` | wikidata;wikidata | Consulate General of the United States in Barcelona | Embassy of the United S... |
 | 7 | `franciscanosconventuales.es` | wikidata;wikidata | Province of Our Lady of Montserrat |
+| 7 | `ifca.unican.es` | wikidata;wikidata | Instituto de Física de Cantabria |
 
 ## Local / regional candidates
 

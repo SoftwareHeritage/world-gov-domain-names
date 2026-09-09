@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-180 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+179 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -48,13 +48,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `policiajudiciaria.pt` | wikidata;wikidata | Laboratório de Polícia Científica | Polícia Judiciária |
 | 7 | `pontosj.pt` | wikidata;wikidata | Portuguese Province of the Society of Jesus |
 | 7 | `psp.pt` | wikidata;wikidata | Corpo de Intervenção | Polícia de Segurança Pública |
-| 7 | `pt.usembassy.gov` | wikidata;wikidata | Embassy of the United States, Lisbon | Consulate of the United States, Ponta ... |
 | 6 | `ccila-portugal.com` | wikidata;wikidata | German-Portuguese Chamber of Industry and Commerce |
 | 6 | `lajesfss.com` | wikidata;wikidata | 65th Force Support Squadron | Lajes Airman and Family Readiness Center |
 | 6 | `stj.pt` | wikidata | Portuguese Supreme Court of Justice |
 | 6 | `tribunalconstitucional.pt` | wikidata | Portuguese Constitutional Court |
 | 5 | `cm-abrantes.pt` | linkgraph | Linked from 9 public-sector domains |
 | 5 | `cm-alcanena.pt` | linkgraph | Linked from 8 public-sector domains |
+| 5 | `cm-constancia.pt` | linkgraph | Linked from 8 public-sector domains |
 
 ## Local / regional candidates
 

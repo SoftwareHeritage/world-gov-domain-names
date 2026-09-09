@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-23 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+21 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,17 +42,17 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `presidence.bj` | wikidata | Q136687303 |
 | 4 | `anip.bj` | wikidata | Q118262736 |
 | 4 | `anpe.bj` | wikidata | Q110013813 |
-| 4 | `bj.usembassy.gov` | wikidata | embassy of the United States in Benin |
 | 4 | `cbdh.bj` | wikidata | Benin Human Rights Commission |
 | 4 | `cci.bj` | wikidata | Q107274708 |
 | 4 | `cnss.bj` | wikidata | Q118174383 |
 | 4 | `eservices.anip.bj` | wikidata | Q118262736 |
 | 4 | `instad.bj` | wikidata | Institut National de la Statistique et de l'Analyse Économique |
 | 3 | `bceao.int` | wikidata | Central Bank of West African States |
-| 3 | `benin.ird.fr` | wikidata | Institut de Recherche pour le Développement |
 | 3 | `benin.mid.ru` | wikidata | embassy of Russia in Benin and Togo |
 | 3 | `bj.ambafrance.org` | wikidata | Embassy of France, Cotonou |
 | 3 | `cotonou.diplo.de` | wikidata | Embassy of Germany, Cotonou |
 | 3 | `dan.ilemi.net` | wikidata | National Archives of Benin |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Benin |
+| 3 | `fbbf-benin.com` | wikidata | Fédération béninoise de bodybuilding et de fitness |
+| 3 | `ghanaembassy-benin.com` | wikidata | embassy of Ghana in Benin |
 

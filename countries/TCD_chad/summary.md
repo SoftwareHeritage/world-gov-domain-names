@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -44,7 +44,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cndh.td` | wikidata | National Human Rights Commission (Tchad) |
 | 4 | `conseilconstitutionnel.td` | wikidata | Constitutional Council of Chad |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, N'Djamena |
-| 4 | `td.usembassy.gov` | wikidata | embassy of the United States in Chad |
 | 3 | `hamatchad.org` | wikidata | Q65157984 |
 | 3 | `inseed-tchad.org` | wikidata | INSEED |
 | 3 | `inseedtchad.com` | wikidata | INSEED |

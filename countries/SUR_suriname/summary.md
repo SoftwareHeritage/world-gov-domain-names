@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nationaalarchief.sr` | wikidata | National Archives of Suriname |
 | 4 | `politie.sr` | wikidata | Korps Politie Suriname |
 | 4 | `sbb.sr` | wikidata | Q126371676 |
-| 4 | `sr.usembassy.gov` | wikidata | embassy of the United States in Suriname |
 | 3 | `nccr.sr.org` | wikidata | National Coordination Center for Disaster Relief of Suriname |
 | 3 | `statistics-suriname.org` | wikidata | General Bureau of Statistics |
 | 3 | `surguychamber.org` | wikidata | Suriname-Guyana Kamer van Koophandel |

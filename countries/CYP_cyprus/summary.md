@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-34 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+33 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cera.org.cy` | wikidata | Cyprus Energy Regulatory Authority |
 | 4 | `childcom.org.cy` | wikidata | Commissioner for Children’s Rights |
 | 4 | `crta.org.cy` | wikidata | Cyprus Radio Television Authority |
-| 4 | `cy.usembassy.gov` | wikidata | Embassy of the United States, Nicosia |
 | 4 | `highereducation.ac.cy` | wikidata | Department of Higher Education |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Nicosia |
 | 4 | `ocecpr.ee.cy` | wikidata | Commissioner of Electronic Communications and Postal Regulation |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `cyprus.mid.ru` | wikidata | embassy of Russia in Cyprus |
 | 3 | `cyprus.representation.ec.europa.eu` | wikidata | European Commission Representation in Cyprus |
 | 3 | `cypruspost.post` | wikidata | Cyprus Postal Services |
+| 3 | `finlandabroad.fi` | wikidata | embassy of Finland in Cyprus |
 
 ## Local / regional candidates
 

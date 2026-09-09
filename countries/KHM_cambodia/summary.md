@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `hiscambodia.org` | wikidata;wikidata | Ministry of Health |
 | 4 | `grk.com.kh` | wikidata | Royal Gendarmerie of Cambodia |
-| 4 | `kh.usembassy.gov` | wikidata | Embassy of the United States, Phnom Penh |
 | 4 | `nac.org.kh` | wikidata | National Assembly |
 | 4 | `nbc.org.kh` | wikidata | National Bank of Cambodia |
 | 4 | `necelect.org.kh` | wikidata | National Election Committee of Cambodia |

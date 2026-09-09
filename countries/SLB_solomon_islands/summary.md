@@ -30,11 +30,10 @@
 
 ## Candidate domains ranked by score
 
-2 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+1 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 4 | `cbsi.com.sb` | wikidata | Central Bank of Solomon Islands |
-| 4 | `sb.usembassy.gov` | wikidata | Embassy of the United States, Honiara |
 

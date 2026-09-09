@@ -30,12 +30,11 @@
 
 ## Candidate domains ranked by score
 
-17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `mm.usembassy.gov` | wikidata;wikidata | Embassy of the United States of America, Rangoon | American Center Yangon |
 | 7 | `myanmar-education.edu.mm` | wikidata;wikidata | Ministry of Education of Myanmar |
 | 6 | `nugmyanmar.org` | wikidata;wikidata;wikidata;wikidata | National Unity Government of Myanmar |
 | 6 | `roc-taiwan.org` | wikidata;wikidata | Taipei Economic and Cultural Office in Myanmar |

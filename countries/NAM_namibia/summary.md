@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bon.com.na` | wikidata | Bank of Namibia |
 | 4 | `citypolice.org.na` | wikidata | Windhoek City Police Service |
 | 4 | `ecn.na` | wikidata | Electoral Commission of Namibia |
-| 4 | `na.usembassy.gov` | wikidata | Embassy of the United States, Windhoek |
 | 4 | `ncaa.com.na` | wikidata | Namibia Directorate of Civil Aviation |
 | 4 | `nfc.na` | wikidata | Namibia Film Commission |
 | 4 | `nsa.org.na` | wikidata | Namibia Statistics Agency |

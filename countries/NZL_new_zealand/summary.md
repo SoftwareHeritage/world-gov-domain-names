@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-39 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+38 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -50,11 +50,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `metroinfo.co.nz` | wikidata | Metro |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Wellington |
 | 4 | `niwa.co.nz` | wikidata | National Institute of Water and Atmospheric Research |
-| 4 | `nz.usembassy.gov` | wikidata | Embassy of the United States, Wellington |
 | 4 | `nzdf.mil.nz` | wikidata | New Zealand Defence Force |
 | 4 | `nzspaceagency.nz` | wikidata | New Zealand Space Agency |
 | 4 | `occ.org.nz` | wikidata | Office of the Children’s Commissioner |
 | 4 | `pakistanhc.org.nz` | wikidata | high commission of Pakistan in New Zealand |
+| 4 | `philembassy.org.nz` | wikidata | Embassy of the Philippines in New Zealand |
 
 ## Local / regional candidates
 

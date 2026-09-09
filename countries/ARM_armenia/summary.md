@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-51 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+50 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mtad.am` | wikidata;wikidata | Ministry of Territorial Administration and Infrastructure |
 | 6 | `cassationcourt.am` | wikidata | Court of Cassation of Armenia |
 | 6 | `concourt.am` | wikidata | Constitutional Court of Armenia |
-| 4 | `am.usembassy.gov` | wikidata | Embassy of the United States, Yerevan |
 | 4 | `anra.am` | wikidata | Armenian Nuclear Regulatory Authority |
 | 4 | `armarchives.am` | wikidata | National Archives of Armenia |
 | 4 | `aviation.am` | wikidata | Civil Aviation Committee of Armenia |
 | 4 | `cba.am` | wikidata | Central Bank of Armenia |
 | 4 | `datalex.am` | wikidata | DataLex |
+| 4 | `escs.am` | wikidata | Ministry of Education, Science, Culture and Sports of Armenia |
 

@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `dominicoshispania.org` | wikidata;wikidata | Province of Hispania of the Order of Preachers |
 | 6 | `piaristesafriquecentrale.org` | wikidata;wikidata | Piarist province of Central Africa |
 | 4 | `ghanaembassy-equatorialguinea.com` | wikidata | embassy of Ghana in Equatorial Guinea |
-| 4 | `gq.usembassy.gov` | wikidata | Embassy of the United States, Malabo |
 | 3 | `aegle.gq` | wikidata | Academia Ecuatoguineana de la Lengua Española |
 | 3 | `gq.ambafrance.org` | wikidata | Embassy of France, Malabo |
 | 3 | `gq.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Malabo |

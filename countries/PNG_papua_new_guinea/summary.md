@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `roc-taiwan.org` | wikidata;wikidata | Taipei Economic and Cultural Office in Papua New Guinea | Taipei Economic Off... |
-| 4 | `pg.usembassy.gov` | wikidata | Embassy of the United States, Port Moresby |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Papua New Guinea |
 | 3 | `pg.ambafrance.org` | wikidata | Embassy of France, Port Moresby |
 

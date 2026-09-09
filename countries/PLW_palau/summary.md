@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,5 +39,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `palauhealth.org` | wikidata;wikidata | Ministry of Health of Palau |
 | 6 | `palauoek.com` | wikidata;wikidata | Palau National Congress |
 | 5 | `palausupremecourt.net` | wikidata | Supreme Court of Palau |
-| 4 | `pw.usembassy.gov` | wikidata | embassy of the United States in Palau |
 

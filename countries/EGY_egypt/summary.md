@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-70 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+69 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -50,9 +50,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `drugcontrol.org.eg` | wikidata | Q95947970 |
 | 4 | `eaea.org.eg` | wikidata | Egyptian Atomic Energy Authority |
 | 4 | `eca.org.eg` | wikidata | Q12206326 |
-| 4 | `eg.usembassy.gov` | wikidata | Embassy of the United States, Cairo |
 | 4 | `egnatcom.org.eg` | wikidata | Egyptian National Commission for UNESCO |
 | 4 | `ehc.eg` | wikidata | Egyptian Health Council |
 | 4 | `elections.eg` | wikidata | National Elections Commission |
 | 4 | `epri.sci.eg` | wikidata | Egyptian Petroleum Research Institute |
+| 4 | `hbrc.edu.eg` | wikidata | Housing and Building National Research Center |
 

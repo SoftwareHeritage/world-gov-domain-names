@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-319 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+311 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -43,22 +43,22 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 9 | `caf.fr` | wikidata;linkgraph | Caisse d'allocations familiales |
 | 8 | `paris.fr` | wikidata;linkgraph | Inspection générale des carrières |
 | 8 | `senat.fr` | wikidata;linkgraph | Senate |
-| 7 | `bnf.fr` | wikidata;wikidata | Bibliothèque nationale de France |
-| 7 | `cnes.fr` | wikidata;wikidata | CNES |
 | 7 | `cnrgv.toulouse.inrae.fr` | wikidata;wikidata | Q2945937 |
 | 7 | `cnrs.fr` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Rous... |
 | 7 | `ctguyane.fr` | wikidata;wikidata | Assembly of French Guiana |
 | 7 | `france.fr` | linkgraph | Linked from 29 public-sector domains |
 | 7 | `ihemi.fr` | wikidata;wikidata | Institut des hautes études du ministère de l'Intérieur |
-| 7 | `inria.fr` | wikidata;wikidata;wikidata;wikidata;wikidata | Institut National de Recherche en Informatique et en Automatique | INRIA Bord... |
-| 7 | `insee.fr` | wikidata;wikidata;wikidata | National Institute of Statistics and Economic Studies | Official Statistical ... |
 | 7 | `inserm.fr` | wikidata;wikidata;wikidata;wikidata | Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre... |
 | 7 | `service-public.fr` | linkgraph | Linked from 165 public-sector domains |
 | 7 | `tribunal-de-paris.justice.fr` | wikidata;wikidata;wikidata;wikidata | Parquet national financier | Tribunal de grande instance de Paris | Tribunal ... |
+| 7 | `www-list.cea.fr` | wikidata;wikidata | CEA LIST | CEA-List: Laboratory for Integration of Systems and Technology |
+| 6 | `conseil-constitutionnel.fr` | wikidata | Constitutional Council of France |
+| 6 | `courdecassation.fr` | wikidata | Court of Cassation |
+| 6 | `escolapiesinstitutions.org` | wikidata;wikidata | Piarist province of West Africa |
 
 ## Local / regional candidates
 
-90 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 19 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
+89 candidate(s) attributed to a non-central administration (out of the registry's central-gov scope), of which 19 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`candidates-local.csv`](candidates-local.csv). Top 10:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|

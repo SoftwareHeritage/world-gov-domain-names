@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+8 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -38,7 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `roc-taiwan.org` | wikidata;wikidata | Trade Mission of the Republic of China (Taiwan) to the Republic of Fiji | Tai... |
 | 4 | `caaf.org.fj` | wikidata | Civil Aviation Authority of the Fiji Islands |
 | 4 | `ficac.org.fj` | wikidata | Fiji Independent Commission Against Corruption |
-| 4 | `fj.usembassy.gov` | wikidata | embassy of the United States in Fiji |
 | 4 | `itaukeitrustfund.com.fj` | wikidata | iTaukei Trust Fund Board |
 | 3 | `ambafrance-fj.org` | wikidata | Embassy of France, Suva |
 | 3 | `eeas.europa.eu` | wikidata | Delegation for the Pacific |

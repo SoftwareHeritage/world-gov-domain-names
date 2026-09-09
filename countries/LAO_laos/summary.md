@@ -30,12 +30,11 @@
 
 ## Candidate domains ranked by score
 
-7 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 4 | `la.usembassy.gov` | wikidata | embassy of the United States in Laos |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Laos |
 | 3 | `la.ambafrance.org` | wikidata | Embassy of France, Vientiane |
 | 3 | `la.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Vientiane |

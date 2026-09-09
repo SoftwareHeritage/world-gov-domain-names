@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-24 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+23 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -48,13 +48,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `rpa.ac.rw` | wikidata | Rwanda Peace Academy |
 | 4 | `rssb.rw` | wikidata | Rwanda Social Security Board |
 | 4 | `rura.rw` | wikidata | Rwanda Utilities Regulatory Authority |
-| 4 | `rw.usembassy.gov` | wikidata | Embassy of the United States, Kigali |
 | 4 | `rwb.rw` | wikidata | Rwanda Water Resources Board |
 | 4 | `unesco.rw` | wikidata | Rwanda National Commission for UNESCO |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Rwanda |
 | 3 | `greatervirunga.org` | wikidata | Q132472718 |
 | 3 | `kenyahighcomkigali.org` | wikidata | High Commission of Kenya, Kigali |
 | 3 | `kigali.diplo.de` | wikidata | Embassy of Germany, Kigali |
+| 3 | `rw.ambafrance.org` | wikidata | Embassy of France, Kigali |
 
 ## Local / regional candidates
 

@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -46,7 +46,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `arme.cv` | wikidata | Q136356251 |
 | 4 | `arquivonacional.cv` | wikidata | Institute of National Archives of Cabo Verde |
 | 4 | `bcv.cv` | wikidata | Bank of Cape Verde |
-| 4 | `cv.usembassy.gov` | wikidata | Embassy of the United States, Praia |
 | 4 | `iefp.cv` | wikidata | Institute of Employment and Professional Training (Cape Verde) |
 | 4 | `stj.cv` | wikidata | Cabo Verde. Supremo Tribunal de Justiça |
 | 3 | `capeverde.mid.ru` | wikidata | Embassy of Russia in Cape Verde |

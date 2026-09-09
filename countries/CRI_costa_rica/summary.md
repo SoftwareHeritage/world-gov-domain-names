@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ane.cr` | wikidata | Agencia Nacional de Empleo |
 | 4 | `bccr.fi.cr` | wikidata | Central Bank of Costa Rica |
 | 4 | `comisionunesco.cr` | wikidata | Costa Rica National Commission for Cooperation with UNESCO |
-| 4 | `cr.usembassy.gov` | wikidata | embassy of the United States in Costa Rica |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, San Jose |
 | 4 | `sen.inec.cr` | wikidata | Sistema Estadístico Nacional |
 | 3 | `ccecr.aecid.es` | wikidata | Q141100276 |

@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nemc.or.tz` | wikidata | National Environment Management Council |
 | 4 | `temdo.or.tz` | wikidata | Tanzania Engineering and Manufacturing Design Organization |
 | 4 | `tlsb.or.tz` | wikidata | Tanzania Library Services Board |
-| 4 | `tz.usembassy.gov` | wikidata | Embassy of the United States, Dar es Salaam |
 | 3 | `bot-tz.org` | wikidata | Bank of Tanzania |
 | 3 | `daressalam.diplo.de` | wikidata | Embassy of Germany, Dar es Salaam |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Tanzania |

@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-35 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+34 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -45,7 +45,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `newnaia.com.ph` | wikidata | New NAIA Infrastructure Corporation |
 | 4 | `pagcor.ph` | wikidata | Philippine Amusement and Gaming Corporation |
 | 4 | `palauembassymanila.ph` | wikidata | embassy of Palau in the Philippines |
-| 4 | `ph.usembassy.gov` | wikidata | Embassy of the United States in Manila |
 | 4 | `pmdc.com.ph` | wikidata | Philippine Mining Development Corporation |
 | 4 | `ppa.com.ph` | wikidata | Philippine Ports Authority |
 | 4 | `seafdec.org.ph` | wikidata | Southeast Asian Fisheries Development Center Aquaculture Department |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `filippinerne.um.dk` | wikidata | embassy of Denmark in the Philippines |
 | 3 | `finlandabroad.fi` | wikidata | embassy of Finland in the Philippines |
 | 3 | `giz.de` | wikidata | GIZ Office Manila |
+| 3 | `manila.diplo.de` | wikidata | Embassy of Germany, Manila |
 
 ## Local / regional candidates
 

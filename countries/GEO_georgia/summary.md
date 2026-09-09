@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-35 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+34 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `aidscenter.ge` | wikidata | AIDS and Clinical Immunology Research Center |
 | 4 | `cesko.ge` | wikidata | Election Administration of Georgia |
 | 4 | `comcom.ge` | wikidata | Georgian National Communications Commission |
-| 4 | `ge.usembassy.gov` | wikidata | Embassy of the United States, Tbilisi |
 | 4 | `geostat.ge` | wikidata | National Statistics Office of Georgia |
 | 4 | `geostm.ge` | wikidata | Georgian National Agency for Standards and Metrology |
 | 4 | `heraldika.ge` | wikidata | State Council of Heraldry |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ge.ambafrance.org` | wikidata | Embassy of France, Tbilisi |
 | 3 | `ge.mfa.lt` | wikidata | embassy of Lithuania in Georgia |
 | 3 | `gosarchive.apsny.land` | wikidata | Abkhaz State Archive |
+| 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Georgia |
 
 ## Local / regional candidates
 

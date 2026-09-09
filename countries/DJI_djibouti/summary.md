@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+9 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ministere-finances.dj` | wikidata;wikidata | Ministry of Economy and Finances |
 | 4 | `banque-centrale.dj` | wikidata | Central Bank of Djibouti |
 | 4 | `dised.dj` | wikidata | DISED |
-| 4 | `dj.usembassy.gov` | wikidata | embassy of the United States in Djibouti |
 | 4 | `instad.dj` | wikidata | Institut National de la Statistique de Djibouti |
 | 3 | `dj.ambafrance.org` | wikidata | Embassy of France, Djibouti |
 | 3 | `djibouti.diplo.de` | wikidata | Embassy of Germany, Djibouti |

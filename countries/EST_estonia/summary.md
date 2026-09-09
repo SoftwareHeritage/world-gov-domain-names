@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-56 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+55 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -45,7 +45,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `chinaembassy.ee` | wikidata | Embassy of the People's Republic of China in Tallinn |
 | 4 | `e-tervis.ee` | wikidata | Estonian E-Health Foundation |
 | 4 | `eas.ee` | wikidata | Estonian Space Office |
-| 4 | `ee.usembassy.gov` | wikidata | United States Embassy in Estonia |
 | 4 | `eestipank.ee` | wikidata | Bank of Estonia |
 | 4 | `egt.ee` | wikidata | Geological Survey of Estonia |
 | 4 | `eki.ee` | wikidata | Institute of the Estonian Language |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `hitsa.ee` | wikidata | Information Technology Foundation for Education |
 | 4 | `just.ee` | linkgraph | Linked from 4 public-sector domains |
 | 4 | `kapo.ee` | wikidata | Estonian Internal Security Service |
+| 4 | `keeleamet.ee` | wikidata | Language Board |
 
 ## Local / regional candidates
 

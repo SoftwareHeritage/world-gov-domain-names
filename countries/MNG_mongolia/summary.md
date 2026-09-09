@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `imsm.mn` | wikidata | Institute of Medical Sciences, Mongolia |
 | 4 | `m-election.mn` | wikidata | General Election Commission of Mongolia |
 | 4 | `mik.mn` | wikidata | Mongolian Mortgage Corporation |
-| 4 | `mn.usembassy.gov` | wikidata | Embassy of the United States, Ulaanbaatar |
 | 4 | `mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Ulaanbaatar |
 | 4 | `mongolbank.mn` | wikidata | Bank of Mongolia |
 | 4 | `nationallibrary.mn` | wikidata | National Library of Mongolia |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `darkhan.mid.ru` | wikidata | General Consulate of Russia to Darkhan |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Mongolia |
 | 3 | `mfa.bg` | wikidata | embassy of Bulgaria in Mongolia |
+| 3 | `mn.ambafrance.org` | wikidata | Embassy of France, Ulaanbaatar |
 
 ## Local / regional candidates
 

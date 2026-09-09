@@ -1094,19 +1094,21 @@
        vals
        (sort-by #(nth % 3))))
 
-(defn known-roots
-  "Already-covered roots: the basename of every root-domain directory."
-  []
-  (->> (root-domain-dirs)
-       (map (comp str fs/file-name))
-       distinct
-       sort))
+(def validated-domains
+  "Every domain of every countries/<c>/validated.csv, whatever its level
+  and country. A host equal to or under one of them is already covered,
+  so the candidate channels and the Wikidata gap list drop it: re-listing
+  confirmed domains would only add noise to the manual validation pass.
+  Deliberately world-wide: Wikidata attributes embassies to their host
+  country (eda.admin.ch under Zimbabwe), and only the Swiss root covers
+  them."
+  (delay (set (map second (validated-rows)))))
 
 (defn host-covered? [host known]
   (some (fn [k] (or (= host k) (str/ends-with? host (str "." k)))) known))
 
 (defn wikidata-write-missing! [in-path out-path]
-  (let [known (known-roots)
+  (let [known @validated-domains
         rows (rest (read-csv-raw in-path))
         missing (filter (fn [row]
                           (let [host (nth row 3 nil)]
@@ -1670,18 +1672,6 @@
   candidates.csv (single blogroll link, typo'd domain...)."
   3)
 
-(def central-domains-by-country
-  "{country_dir #{domain...}} from the level=central rows of
-  data/public-sector-domains-central+.csv: the confirmed
-  central-government roots (promoted roots + registries). The link-graph
-  candidate channel drops them, since re-listing confirmed roots would
-  only add noise to the manual validation pass."
-  (delay
-    (reduce (fn [m {:strs [domain country level]}]
-              (cond-> m
-                (= level "central") (update country (fnil conj #{}) domain)))
-            {} (read-csv-file central-plus-file))))
-
 (defn score-candidate
   "Compute the 0-10 confidence score for one candidate hostname.
   Inputs:
@@ -1870,12 +1860,12 @@
         ;; link-graph in-degree (see cmd-indegree): hosts linked from at
         ;; least linkgraph-min-indegree distinct same-country public-sector
         ;; domains enter the candidate pool with a strong score bonus.
-        lg-known       (get @central-domains-by-country country-dir #{})
+        known          @validated-domains
         lg-by-host
         (reduce (fn [m {:strs [hostname indegree]}]
                   (let [n (parse-long (or indegree ""))]
                     (if (and n (>= n linkgraph-min-indegree)
-                             (not (host-covered? hostname lg-known)))
+                             (not (host-covered? hostname known)))
                       (assoc m hostname n)
                       m)))
                 {} (read-csv-file lg-path))
@@ -1886,7 +1876,7 @@
         ;; score bonus, curation decides.
         dir-by-host
         (reduce (fn [m {:strs [hostname mentions evidence]}]
-                  (if (host-covered? hostname lg-known)
+                  (if (host-covered? hostname known)
                     m
                     (assoc m hostname
                            {:n (or (parse-long (or mentions "")) 1)
@@ -1908,7 +1898,6 @@
                               (into (keys lg-by-host))
                               (into (keys dir-by-host)))
                     un-portal-host (conj un-portal-host))
-        known     (set (known-roots))
         ;; English labels of the country's first-level subdivisions, as a
         ;; word-bounded pattern. Used to promote a subnational host to
         ;; central-1 when its label names such a subdivision -- covers rows

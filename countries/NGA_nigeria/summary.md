@@ -30,12 +30,11 @@
 
 ## Candidate domains ranked by score
 
-56 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+55 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
-| 7 | `ng.usembassy.gov` | wikidata;wikidata | Consulate General of the United States in Lagos | Embassy of the United State... |
 | 7 | `nuc.edu.ng` | wikidata;wikidata | National Universities Commission | Nigerian Universities Commission |
 | 7 | `sp.mofaic.gov.ae` | wikidata;wikidata | Consulate General of the United Arab Emirates, Lagos | Embassy of the United ... |
 | 6 | `nigeria.un.org` | wikidata;wikidata | Sustainable Development Goals and Nigeria |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `abuja.embassy.qa` | wikidata | Embassy of the State of Qatar, Nigeria |
 | 3 | `abuja.mae.ro` | wikidata | Embassy of Romania, Abuja |
 | 3 | `abuja.mofa.go.ug` | wikidata | Uganda High Commission, Abuja - Nigeria |
+| 3 | `ambaburkina-ng.org` | wikidata | embassy of Burkina Faso in Nigeria |
 
 ## Local / regional candidates
 

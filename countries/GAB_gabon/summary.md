@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-27 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+26 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -50,11 +50,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `assemblee-nationale.ga` | wikidata | National Assembly |
 | 4 | `cour-constitutionnelle.ga` | wikidata | Constitutional Court of Gabon |
 | 4 | `dgabd.ga` | wikidata | National Library of Gabon |
-| 4 | `ga.usembassy.gov` | wikidata | embassy of the United States, Libreville |
 | 3 | `ambaburkina-ga.org` | wikidata | embassy of Burkina Faso in Gabon |
 | 3 | `ambalglibreville.com` | wikidata | Embassy of Algeria, Libreville |
 | 3 | `ambassade-tchad-gabon.com` | wikidata | Q134385965 |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Pri... |
+| 3 | `ga.ambafrance.org` | wikidata | Embassy of France, Libreville |
 
 ## Local / regional candidates
 

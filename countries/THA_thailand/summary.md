@@ -30,14 +30,13 @@
 
 ## Candidate domains ranked by score
 
-56 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+55 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `gistda.or.th` | wikidata;wikidata | Geo-Informatics and Space Technology Development Agency |
 | 7 | `royaloffice.th` | wikidata;wikidata | Bureau of the Royal Household |
-| 7 | `th.usembassy.gov` | wikidata;wikidata | Embassy of the United States, Bangkok | Consulate General of the United State... |
 | 6 | `constitutionalcourt.or.th` | wikidata | Constitutional Court of Thailand |
 | 6 | `office.constitutionalcourt.or.th` | wikidata | Office of the Constitutional Court of Thailand |
 | 4 | `aerothai.co.th` | wikidata | Aeronautical Radio of Thailand |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `old.hsri.or.th` | wikidata | Health Systems Research Institute |
 | 4 | `rtsd.mi.th` | wikidata | Royal Thai Survey Department |
 | 4 | `sec.or.th` | wikidata | The Securities and Exchange Commission, Thailand |
+| 4 | `sp.mofaic.gov.ae` | wikidata | Embassy of the United Arab Emirates, Bangkok |
 
 ## Local / regional candidates
 

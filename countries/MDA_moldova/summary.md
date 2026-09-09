@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-35 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+34 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -50,11 +50,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `e-patrimoniu.md` | wikidata | Agency for Inspection of Monuments |
 | 4 | `inj.md` | wikidata | National Institute of Justice of Moldova |
 | 4 | `inm.md` | wikidata | National Metrology Institute of the Republic of Moldova |
-| 4 | `md.usembassy.gov` | wikidata | Embassy of the United States, Chișinău |
 | 4 | `meteo.md` | wikidata | State Hydrometeorological Service |
 | 4 | `politia.md` | wikidata | Law enforcement in Moldova |
 | 4 | `procuratura.md` | wikidata | Office of the Prosecutor General of the Republic of Moldova |
 | 4 | `sis.md` | wikidata | Information and Security Service of the Republic of Moldova |
+| 4 | `statistica.md` | wikidata | National Bureau of Statistics |
 
 ## Local / regional candidates
 

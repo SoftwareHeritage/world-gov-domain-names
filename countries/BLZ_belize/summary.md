@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-6 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+5 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 6 | `roc-taiwan.org` | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Belize City |
-| 4 | `bz.usembassy.gov` | wikidata | embassy of the United States in Belize |
 | 4 | `centralbank.org.bz` | wikidata | Central Bank of Belize |
 | 4 | `nemo.org.bz` | wikidata | Belize National Emergency Management Organisation |
 | 4 | `sib.org.bz` | wikidata | The Statistical Institute of Belize |

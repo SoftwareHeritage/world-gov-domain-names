@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-41 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+40 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `isusovci.hr` | wikidata;wikidata | Croatian province of the Society of Jesus |
 | 6 | `sarajevo.mid.ru` | wikidata;wikidata | Embassy of Russia, Sarajevo |
 | 4 | `akaz.ba` | wikidata | Q127505551 |
-| 4 | `ba.usembassy.gov` | wikidata | Embassy of the United States, Sarajevo |
 | 4 | `cbbh.ba` | wikidata | Central Bank of Bosnia and Herzegovina |
 | 4 | `domkulturejajce.ba` | wikidata | Kršlak house |
 | 4 | `fzs.ba` | wikidata | Federal Bureau of Statistics |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ba.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, Sarajevo |
 | 3 | `ba.mvep.hr` | wikidata | Embassy of Croatia, Sarajevo |
 | 3 | `bosnienhercegovina.um.dk` | wikidata | Embassy of Denmark in Bosnia-Herzegovina II |
+| 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Bosnia and Herzegovina |
 
 ## Local / regional candidates
 

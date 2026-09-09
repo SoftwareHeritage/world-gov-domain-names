@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-40 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+39 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -46,7 +46,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `latmb.lv` | wikidata | Metrology Bureau |
 | 4 | `lja.lv` | wikidata | Maritime Administration of Latvia |
 | 4 | `lnb.lv` | wikidata | National Library of Latvia |
-| 4 | `lv.usembassy.gov` | wikidata | Embassy of the United States in Riga |
 | 4 | `mantojums.lv` | wikidata | National Heritage Board of Latvia |
 | 4 | `memorialiemuzeji.lv` | wikidata | Association of Memorial Museums |
 | 4 | `meteo.lv` | wikidata | Latvian Environment, Geology and Meteorology Centre |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `president.lv` | wikidata | Chancery of the President of Latvia |
 | 4 | `prokuratura.lv` | wikidata | Prosecution Office of the Republic of Latvia |
 | 4 | `riga.mfa.gov.hu` | wikidata | Embassy of Hungary, Riga |
+| 4 | `tiesas.lv` | wikidata | Q90298932 |
 
 ## Local / regional candidates
 

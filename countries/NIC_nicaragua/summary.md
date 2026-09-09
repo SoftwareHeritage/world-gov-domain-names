@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-13 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+12 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `jesuitascam.org` | wikidata;wikidata | Jesuit Province of Central America |
 | 4 | `cvjp.org.ni` | wikidata | Commission for Truth, Justice and Peace |
 | 4 | `eaai.com.ni` | wikidata | Administrative Company of National and International Airports |
-| 4 | `ni.usembassy.gov` | wikidata | Embassy of the United States in Managua |
 | 4 | `tecnacional.edu.ni` | wikidata | National Technical and Technological Institute of Nicaragua |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Nicaragua and to the Central American Int... |
 | 3 | `managua.diplo.de` | wikidata | Embassy of Germany, Managua |

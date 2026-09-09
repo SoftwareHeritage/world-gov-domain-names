@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-21 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+20 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -41,7 +41,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `ministryforgb.com` | wikidata;wikidata | Ministry for Grand Bahama |
 | 6 | `ministryofeducationbahamas.com` | wikidata;wikidata | Ministry of Education and Technical and Vocational Training |
 | 6 | `moh-ur.com` | wikidata;wikidata | Ministry of Housing and Urban Renewal |
-| 4 | `bs.usembassy.gov` | wikidata | Embassy of the United States, Nassau |
 | 4 | `wsc.com.bs` | wikidata | Water and Sewage Corporation |
 | 3 | `airportsbahamas.com` | wikidata | Airport Authority of the Bahamas |
 | 3 | `bahamasdevelopmentbank.com` | wikidata | Bahamas Development Bank |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `nib-bahamas.com` | wikidata | National Insurance Board of The Commonwealth of The Bahamas |
 | 3 | `phabahamas.org` | wikidata | Public Hospitals Authority |
 | 3 | `royalbahamaspolice.org` | wikidata | Royal Bahamas Police Force |
+| 3 | `trade-commission.netcluesdemo.com` | wikidata | The Bahamas Trade Commission |
 

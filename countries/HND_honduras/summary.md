@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-15 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+14 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -40,7 +40,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `taiwanembassy.org` | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Tegucigalpa |
 | 4 | `bch.hn` | wikidata | Central Bank of Honduras |
 | 4 | `cne.hn` | wikidata | National Electoral Council of Honduras |
-| 4 | `hn.usembassy.gov` | wikidata | Embassy of the United States of America in Tegucigalpa |
 | 4 | `ihah.hn` | wikidata | Instituto Hondureño de Antropología e Historia |
 | 4 | `ihss.hn` | wikidata | Honduran Social Security Institute |
 | 4 | `iht.hn` | wikidata | Q17634842 |

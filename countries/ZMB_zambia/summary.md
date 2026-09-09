@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-19 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -40,7 +40,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nhra.org.zm` | wikidata | National Health Research Authority |
 | 4 | `zema.org.zm` | wikidata | Zambia Environmental Management Agency |
 | 4 | `zicta.zm` | wikidata | Zambia Information and Communications Technology Authority |
-| 4 | `zm.usembassy.gov` | wikidata | embassy of the United States in Zambia |
 | 4 | `zma.org.zm` | wikidata | Zambia Metrology Agency |
 | 4 | `znphi.co.zm` | wikidata | Zambia National Public Health Institute |
 | 3 | `ambafrance-zm.org` | wikidata | Embassy of France, Lusaka |

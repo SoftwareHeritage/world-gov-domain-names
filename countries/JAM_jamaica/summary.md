@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-33 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+32 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -43,7 +43,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `jamaicapolice.org.jm` | wikidata | Jamaica Rural Police Force |
 | 4 | `jbi.org.jm` | wikidata | Jamaica Bauxite Institute |
 | 4 | `jbs.org.jm` | wikidata | Bureau of Standards Jamaica |
-| 4 | `jm.usembassy.gov` | wikidata | embassy of the United States in Jamaica |
 | 4 | `jti.edu.jm` | wikidata | Justice Training Institute of Jamaica |
 | 4 | `mind.edu.jm` | wikidata | Management Institute for National Development |
 | 4 | `nhf.org.jm` | wikidata | National Health Fund |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and C... |
 | 3 | `fscjamaica.org` | wikidata | Financial Services Commission |
 | 3 | `generallegalcouncil.org` | wikidata | General Legal Council of Jamaica |
+| 3 | `heart-nsta.org` | wikidata | Human Employment and Resource Training Trust/National Training Agency |
 

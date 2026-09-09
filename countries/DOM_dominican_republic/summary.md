@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-11 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+10 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -40,7 +40,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `dominicoshispania.org` | wikidata;wikidata | Province of Hispania of the Order of Preachers |
 | 5 | `bancentral.gov.do` | wikidata | Central Bank of the Dominican Republic |
 | 4 | `cesfront.mil.do` | wikidata | Cuerpo Especializado en Seguridad Fronteriza Terrestre |
-| 4 | `do.usembassy.gov` | wikidata | Embassy of the United States in Dominican Republic |
 | 3 | `do.ambafrance.org` | wikidata | Embassy of France, Santo Domingo |
 | 3 | `do.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Santo Domingo |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to the Dominican Republic |

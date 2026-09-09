@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-300 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+299 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -53,8 +53,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ore.edu.pl` | linkgraph | Linked from 22 public-sector domains |
 | 7 | `panewniki.franciszkanie.pl` | wikidata;wikidata | Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in ... |
 | 7 | `pijarzy.pl` | wikidata;wikidata | Piarist province of Poland |
-| 7 | `pl.usembassy.gov` | wikidata;wikidata | Embassy of the United States, Warsaw | Consulate General of the United States... |
 | 7 | `um.szczecin.pl` | linkgraph | Linked from 21 public-sector domains |
+| 7 | `wroc.pl` | linkgraph | Linked from 51 public-sector domains |
 
 ## Local / regional candidates
 

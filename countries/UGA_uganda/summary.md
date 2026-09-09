@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-70 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+68 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -52,9 +52,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `gou.go.ug` | un_desa | UN/DESA national portal |
 | 4 | `bou.or.ug` | wikidata | Bank of Uganda |
 | 4 | `caa.go.ug` | wikidata | Civil Aviation Authority of Uganda |
-| 4 | `cdc.gov` | wikidata | Centers for Disease Control and Prevention |
 | 4 | `cmauganda.co.ug` | wikidata | Capital Markets Authority |
 | 4 | `coctu.go.ug` | wikidata | Coordinating Office for Control of Trypanosomiasis in Uganda |
+| 4 | `dda.or.ug` | wikidata | Dairy Development Authority |
 
 ## Local / regional candidates
 

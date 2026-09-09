@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-4 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+3 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 7 | `mofaic.gov.ae` | wikidata;wikidata | Embassy of the United Arab Emirates, Malé |
 | 6 | `citizen.egov.mv` | un_desa | UN/DESA national portal |
-| 4 | `mv.usembassy.gov` | wikidata | Embassy of the United States, Malé |
 | 3 | `ganairport.com` | wikidata | Gan International Airport |
 

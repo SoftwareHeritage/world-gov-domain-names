@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-80 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+78 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -52,9 +52,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `judiciary.go.ke` | wikidata | Supreme Court of Kenya |
 | 6 | `mygov.go.ke` | un_desa | UN/DESA national portal |
 | 4 | `ca.go.ke` | wikidata | Communications Authority of Kenya |
-| 4 | `cdc.gov` | wikidata | Centers for Disease Control and Prevention |
 | 4 | `centralbank.go.ke` | wikidata | Central Bank of Kenya |
 | 4 | `cma.or.ke` | wikidata | Capital Markets Authority |
+| 4 | `costaricanembassy.co.ke` | wikidata | embassy of Costa Rica in Kenya |
 
 ## Local / regional candidates
 

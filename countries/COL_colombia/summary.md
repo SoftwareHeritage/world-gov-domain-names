@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-29 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+28 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -40,7 +40,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bogota.mfa.gov.hu` | wikidata | Embassy of Hungary, Bogotá |
 | 4 | `ccc.org.co` | wikidata | Cámara de Comercio de Santiago de Cali |
 | 4 | `cccucuta.org.co` | wikidata | Cámara de Comercio de Cúcuta |
-| 4 | `co.usembassy.gov` | wikidata | Embassy of the United States, Bogotá |
 | 4 | `educacionbogota.edu.co` | wikidata | Q100879971 |
 | 4 | `embajadadehonduras.org.co` | wikidata | embassy of Honduras in Colombia |
 | 4 | `humboldt.org.co` | wikidata | Alexander von Humboldt Biological Resources Research Institute |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `co.ambafrance.org` | wikidata | Embassy of France, Bogotá |
 | 3 | `co.china-embassy.org` | wikidata | Embassy of the People's Republic of China, Bogotá |
 | 3 | `colombia.mid.ru` | wikidata | embassy of Russia in Colombia |
+| 3 | `colombia.um.dk` | wikidata | embassy of Denmark in Colombia |
 
 ## Local / regional candidates
 

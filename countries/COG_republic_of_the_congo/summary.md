@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-18 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -45,11 +45,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `assemblee-nationale.cg` | wikidata | National Assembly |
 | 4 | `bea.cg` | wikidata | Aircraft Accident Investigation Bureau |
 | 4 | `ccj-congo.cg` | wikidata | Youth Advisory Council |
-| 4 | `cg.usembassy.gov` | wikidata | embassy of the United States in the Republic of Congo |
 | 4 | `senat.cg` | wikidata | Senate |
 | 3 | `brazzaville.diplo.de` | wikidata | Embassy of Germany, Brazzaville |
 | 3 | `cg.ambafrance.org` | wikidata | Embassy of France, Brazzaville |
-| 3 | `congo.ird.fr` | wikidata | Institut de Recherche pour le Développement |
 | 3 | `congo.mid.ru` | wikidata | embassy of Russia in Republic of the Congo |
 | 3 | `eeas.europa.eu` | wikidata | Delegation of the European Union to Congo |
 | 3 | `pointe-noire.consulfrance.org` | wikidata | Consulate General of France in Pointe-Noire |

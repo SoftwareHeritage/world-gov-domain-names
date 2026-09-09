@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-125 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+122 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -47,7 +47,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `agraroekonomik.at` | wikidata | Federal Institute of Agricultural Economics |
 | 4 | `aiz.at` | wikidata | Abwasserverband Achental-Inntal-Zillertal |
 | 4 | `algerische-botschaft.at` | wikidata | Embassy of Algeria, Vienna |
-| 4 | `at.usembassy.gov` | wikidata | Embassy of the United States, Vienna |
 | 4 | `avzirl.at` | wikidata | Abwasserverband Zirl und Umgebung (ARA Zirl) |
 | 4 | `bda.at` | wikidata | Bundesdenkmalamt |
 | 4 | `becs.mfa.gov.hu` | wikidata | Embassy of Hungary in Austria |
@@ -55,6 +54,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `biz-up.at` | wikidata | Business Upper Austria – OÖ Wirtschaftsagentur |
 | 4 | `bundesforste.at` | wikidata | Austrian State Forestry Commission |
 | 4 | `bundesgaerten.at` | wikidata | Österreichische Bundesgärten |
+| 4 | `bupp.at` | wikidata | Q98446472 |
 
 ## Local / regional candidates
 

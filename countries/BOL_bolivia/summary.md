@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `oep.org.bo` | wikidata | Plurinational Electoral Organ |
 | 6 | `tcpbolivia.bo` | wikidata | Plurinational Constitutional Tribunal |
 | 4 | `abe.bo` | wikidata | Agencia Boliviana Espacial |
-| 4 | `bo.usembassy.gov` | wikidata | embassy of the United States in Bolivia |
 | 4 | `policia.bo` | wikidata | Bolivian Police |
 | 3 | `bo.ambafrance.org` | wikidata | Embassy of France, La Paz |
 | 3 | `bo.chineseembassy.org` | wikidata | Embassy of the People's Republic of China, La Paz |

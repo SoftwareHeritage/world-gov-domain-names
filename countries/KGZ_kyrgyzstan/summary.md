@@ -30,7 +30,7 @@
 
 ## Candidate domains ranked by score
 
-17 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+16 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
@@ -42,7 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mvd.kg` | wikidata;wikidata | Ministry of the Interior |
 | 4 | `archive.kg` | wikidata | Central State Archives of the Republic of Kyrgyzstan |
 | 4 | `biskek.mfa.gov.hu` | wikidata | Embassy of Hungary to Kyrgyzstan |
-| 4 | `kg.usembassy.gov` | wikidata | Embassy of the United States, Bishkek |
 | 4 | `mfa.kg` | wikidata | Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic |
 | 4 | `nbkr.kg` | wikidata | National Bank of the Kyrgyz Republic |
 | 4 | `stat.kg` | wikidata | National Statistical Committee |
