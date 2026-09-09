@@ -335,11 +335,26 @@
 (def factbook-map-file "data/factbook_gec.csv")
 (def factbook-tree-cache "/tmp/world-gov-factbook-tree.json")
 
-(defn cia-build-map! []
-  (when-not (and (fs/exists? factbook-map-file)
+(defn- build-country-map!
+  "Write the country_dir <-> source-id map at map-file once: the automatic
+  name matches returned by fetch-matches (a thunk, [country_dir …] rows)
+  corrected and completed by the curated rows of aliases-file, which come
+  FIRST so that they can override a wrong automatic match, not only fill
+  gaps. Skipped when the file already maps 150+ countries, unless FORCE=1."
+  [map-file header aliases-file label fetch-matches]
+  (when-not (and (fs/exists? map-file)
                  (not force?)
-                 (> (dec (count (read-csv-raw factbook-map-file))) 150))
-    (err "Building country_dir <-> Factbook GEC map…")
+                 (> (dec (count (read-csv-raw map-file))) 150))
+    (err "Building country_dir <-> " label " map…")
+    (let [aliases (rest (or (read-csv-raw aliases-file) []))
+          dedup   (dedup-by-first (concat aliases (fetch-matches)))]
+      (write-csv-file map-file header dedup)
+      (err "  -> " map-file " (" (count dedup) " countries mapped)"))))
+
+(defn cia-build-map! []
+  (build-country-map!
+   factbook-map-file ["country_dir" "gec" "region"] "data/factbook_aliases.csv" "Factbook GEC"
+   (fn []
     (when (or (not (fs/exists? factbook-tree-cache)) force?)
       (when-let [body (http-get "https://api.github.com/repos/factbook/factbook.json/git/trees/master?recursive=1"
                                 {:timeout 30 :accept "application/json"})]
@@ -362,18 +377,12 @@
                       "")
           pairs (for [[_ gec name] (re-seq #"`([a-z]+)` ([^`\n]+)" summary)]
                   [gec name (normalize-name name)])
-          slug->dir @slug->country-dir
-          matched (for [[gec _name norm] pairs
-                        :let [dir (get slug->dir norm)
-                              region (get region-by-gec gec)]
-                        :when (and dir region)]
-                    [dir gec region])
-          aliases (rest (or (read-csv-raw "data/factbook_aliases.csv") []))
-          ;; aliases FIRST: the curated file must be able to correct a
-          ;; wrong automatic name match, not only fill gaps
-          dedup (dedup-by-first (concat aliases matched))]
-      (write-csv-file factbook-map-file ["country_dir" "gec" "region"] dedup)
-      (err "  -> " factbook-map-file " (" (count dedup) " countries mapped)"))))
+          slug->dir @slug->country-dir]
+      (for [[gec _name norm] pairs
+            :let [dir (get slug->dir norm)
+                  region (get region-by-gec gec)]
+            :when (and dir region)]
+        [dir gec region])))))
 
 (defn decode-html-entities [s]
   (when s
@@ -462,26 +471,20 @@
 (def un-desa-map-file "data/un_desa_ids.csv")
 
 (defn un-desa-build-map! []
-  (when-not (and (fs/exists? un-desa-map-file)
-                 (not force?)
-                 (> (dec (count (read-csv-raw un-desa-map-file))) 150))
-    (err "Building country_dir <-> UN/DESA id map…")
-    (let [body (or (http-get-curl "https://publicadministration.un.org/egovkb/en-us/Data-Center"
-                                  {:timeout 30})
-                   "")
-          pairs (->> (re-seq #"/Data/Country-Information/id/(\d+)-([A-Za-z-]+)" body)
-                     (map (fn [[_ id name]]
-                            [id name (normalize-name name)]))
-                     distinct)
-          slug->dir @slug->country-dir
-          matched (for [[id name norm] pairs
-                        :let [dir (get slug->dir norm)]
-                        :when dir]
-                    [dir id name])
-          aliases (rest (or (read-csv-raw "data/un_desa_aliases.csv") []))
-          dedup (dedup-by-first (concat matched aliases))]
-      (write-csv-file un-desa-map-file ["country_dir" "un_id" "un_name"] dedup)
-      (err "  -> " un-desa-map-file " (" (count dedup) " countries mapped)"))))
+  (build-country-map!
+   un-desa-map-file ["country_dir" "un_id" "un_name"] "data/un_desa_aliases.csv" "UN/DESA id"
+   (fn []
+     (let [body (or (http-get-curl "https://publicadministration.un.org/egovkb/en-us/Data-Center"
+                                   {:timeout 30})
+                    "")
+           pairs (->> (re-seq #"/Data/Country-Information/id/(\d+)-([A-Za-z-]+)" body)
+                      (map (fn [[_ id name]] [id name (normalize-name name)]))
+                      distinct)
+           slug->dir @slug->country-dir]
+       (for [[id name norm] pairs
+             :let [dir (get slug->dir norm)]
+             :when dir]
+         [dir id name])))))
 
 (defn un-desa-process! [country-dir]
   (let [map-row (mapping-row un-desa-map-file country-dir)]
