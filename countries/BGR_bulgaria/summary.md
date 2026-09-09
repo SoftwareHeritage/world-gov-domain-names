@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 55 of 193
 - Government type: parliamentary republic
 - Capital: Sofia
-- Hosts collected: 67
+- Hosts collected: 109
 
 ## UN/DESA national portal
 

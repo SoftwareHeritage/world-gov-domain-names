@@ -1,3 +1,22 @@
 subdomain,http_status,mx
+app.congreso.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+blog.congreso.es,200,
 congreso.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mxa-006a4e02.gslb.pphosted.com.; 10 mxb-006a4e02.gslb.pphosted.com.
+congresodirecto.congreso.es,ConnectException > UnresolvedAddressException,
+consolapre.soffid.congreso.es,ConnectException > UnresolvedAddressException,
+correo.congreso.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+idp.congreso.es,ConnectException > UnresolvedAddressException,
+intranet.congreso.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+livecontrol.congreso.es,ConnectException > UnresolvedAddressException,
+pampre.soffid.congreso.es,ConnectException > UnresolvedAddressException,
+rc.congreso.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+soporte.congreso.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+streaming.congreso.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+synserverpre.soffid.congreso.es,ConnectException > UnresolvedAddressException,
+validacion.congreso.es,ConnectException > UnresolvedAddressException,
+www.blog.congreso.es,ConnectException > UnresolvedAddressException,
 www.congreso.es,403,none
+www.consolapre.soffid.congreso.es,ConnectException > UnresolvedAddressException,
+www.idp.congreso.es,ConnectException > UnresolvedAddressException,
+www.pampre.soffid.congreso.es,ConnectException > UnresolvedAddressException,
+www.soporte.congreso.es,ConnectException > UnresolvedAddressException,

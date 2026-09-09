@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 29 of 193
 - Government type: parliamentary republic
 - Capital: Riga
-- Hosts collected: 15
+- Hosts collected: 44
 
 ## UN/DESA national portal
 

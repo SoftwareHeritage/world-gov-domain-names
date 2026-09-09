@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 162 of 193
 - Government type: transitional presidential republic
 - Capital: Damascus
-- Hosts collected: 708
+- Hosts collected: 810
 
 ## UN/DESA national portal
 

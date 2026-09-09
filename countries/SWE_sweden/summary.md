@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 14 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Stockholm
-- Hosts collected: 8
+- Hosts collected: 126
 
 ## UN/DESA national portal
 

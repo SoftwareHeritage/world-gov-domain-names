@@ -1,2 +1,18 @@
 subdomain,http_status,mx
+e-test.saeima.lv,401,
+e.saeima.lv,401,
+inv.saeima.lv,404,
+liepa.saeima.lv,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+pasakumi.saeima.lv,200,
+pik-siltums.saeima.lv,200,
 saeima.lv,200,10 spaceship2.saeima.lv.; 5 spaceship.saeima.lv.
+video.e-test.saeima.lv,302,
+video.e.saeima.lv,302,
+vpn.saeima.lv,302,
+webmail.saeima.lv,200,
+wh5.saeima.lv,SSLHandshakeException > CertificateException: No subject alternative DNS name matching wh5.saeima.lv found.,
+wh8.saeima.lv,403,
+www.e.saeima.lv,301,
+www.liepa.saeima.lv,ConnectException > UnresolvedAddressException,
+www.vpn.saeima.lv,ConnectException > UnresolvedAddressException,
+www.webmail.saeima.lv,ConnectException > UnresolvedAddressException,

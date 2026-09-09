@@ -2,6 +2,7 @@ subdomain,http_status,mx
 accreditamento.istruzione.it,200,none
 adfs.istruzione.it,Connection timed out after 5001 milliseconds,none
 anagrafeits.istruzione.it,403,none
+anagrafescuolenonstatali.istruzione.it,200,
 anes.istruzione.it,curl: (6) Could not resolve host: anes.istruzione.it,none
 anist-val.istruzione.it,403,none
 anist.istruzione.it,403,none
@@ -17,6 +18,7 @@ concorsi-test-mig.ext.istruzione.it,Could not resolve host: concorsi-test-mig.ex
 concorsi-test.ext.istruzione.it,Could not resolve host: concorsi-test.ext.istruzione.it,none
 concorsi.istruzione.it,403,none
 concorso-dsga.ext.istruzione.it,Could not resolve host: concorso-dsga.ext.istruzione.it,none
+contabilitagenerale.istruzione.it,302,
 coronavirus.static.istruzione.it,Could not resolve host: coronavirus.static.istruzione.it,none
 covid-ms-py-test.ext.istruzione.it,Could not resolve host: covid-ms-py-test.ext.istruzione.it,none
 covidse-ms-py-test.ext.istruzione.it,Could not resolve host: covidse-ms-py-test.ext.istruzione.it,none
@@ -37,6 +39,7 @@ ext.istruzione.it,Could not resolve host: ext.istruzione.it,none
 fascicolodigitale.istruzione.it,301,none
 firmadigitale-coll.istruzione.it,302,none
 firmadigitale.istruzione.it,302,none
+gestionepersonalescuola.istruzione.it,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 gitlab.pubblica.istruzione.it,503,none
 iam.didattico.istruzione.it,Connection timed out after 5002 milliseconds,none
 iam.pubblica.istruzione.it,301,none
@@ -56,6 +59,7 @@ modipa.istruzione.it,404,none
 monitoraggiomimregis.istruzione.it,Could not resolve host: monitoraggiomimregis.istruzione.it,none
 mx.pec.istruzione.it,Could not resolve host: mx.pec.istruzione.it,none
 mx.postacert.istruzione.it,Could not resolve host: mx.postacert.istruzione.it,none
+ocptest.ext.istruzione.it,ConnectException > UnresolvedAddressException,
 organicodifattoata.istruzione.it,200,none
 pec.istruzione.it,Could not resolve host: pec.istruzione.it,none
 postacert.istruzione.it,Could not resolve host: postacert.istruzione.it,none
@@ -69,6 +73,7 @@ scuoletargetpnrr.pubblica.istruzione.it,200,none
 segnalazione.urp.istruzione.it,301,none
 servizi.crescereinsieme.istruzione.it,Could not resolve host: servizi.crescereinsieme.istruzione.it,none
 servizi.didattico.istruzione.it,Could not resolve host: servizi.didattico.istruzione.it,none
+servizi.pubblica.istruzione.it,403,
 servizimdif.istruzione.it,Could not resolve host: servizimdif.istruzione.it,none
 servizipagopa.istruzione.it,Could not resolve host: servizipagopa.istruzione.it,none
 servizipagopacoll.istruzione.it,SSL: no alternative certificate subject name matches target hostname 'servizipagopacoll.istruzione.it',none
@@ -81,11 +86,13 @@ servizipirtest.istruzione.it,Could not resolve host: servizipirtest.istruzione.i
 servizipirval.istruzione.it,Could not resolve host: servizipirval.istruzione.it,none
 servizitest.didattico.istruzione.it,Connection timed out after 5002 milliseconds,none
 servizival.didattico.istruzione.it,Could not resolve host: servizival.didattico.istruzione.it,none
+servizival.pubblica.istruzione.it,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 siopeplus.istruzione.it,Could not resolve host: siopeplus.istruzione.it,none
 smtp.pec.istruzione.it,Could not resolve host: smtp.pec.istruzione.it,none
 smtp.postacert.istruzione.it,Could not resolve host: smtp.postacert.istruzione.it,none
 sondaggio.urp.istruzione.it,Could not resolve host: sondaggio.urp.istruzione.it,none
 sp.didattico.istruzione.it,Could not resolve host: sp.didattico.istruzione.it,none
+sp.istruzione.it,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 sp.scic.istruzione.it,Could not resolve host: sp.scic.istruzione.it,none
 spcoop.istruzione.it,Could not resolve host: spcoop.istruzione.it,none
 spcoopval.istruzione.it,Could not resolve host: spcoopval.istruzione.it,none
@@ -108,12 +115,14 @@ webmail.pubblica.istruzione.it,Could not resolve host: webmail.pubblica.istruzio
 ws.cartadeldocente.istruzione.it,Could not resolve host: ws.cartadeldocente.istruzione.it,none
 wstest.cartadeldocente.istruzione.it,500,none
 www.anagrafeedilizia.istruzione.it,Could not resolve host: www.anagrafeedilizia.istruzione.it,none
+www.anagrafescuolenonstatali.istruzione.it,ConnectException > UnresolvedAddressException,
 www.anes.istruzione.it,curl: (6) Could not resolve host: www.anes.istruzione.it,none
 www.anist.istruzione.it,Could not resolve host: www.anist.istruzione.it,none
 www.cartadeldocente.istruzione.it,Could not resolve host: www.cartadeldocente.istruzione.it,none
 www.cercalatuascuola.istruzione.it,Could not resolve host: www.cercalatuascuola.istruzione.it,none
 www.cmgistruzione.istruzione.it,Could not resolve host: www.cmgistruzione.istruzione.it,none
 www.communitymi.urp.istruzione.it,Could not resolve host: www.communitymi.urp.istruzione.it,none
+www.contabilitagenerale.istruzione.it,ConnectException > UnresolvedAddressException,
 www.cpuucc.istruzione.it,Could not resolve host: www.cpuucc.istruzione.it,none
 www.crescereinsieme.istruzione.it,Could not resolve host: www.crescereinsieme.istruzione.it,none
 www.didattico.istruzione.it,Connection timed out after 5002 milliseconds,none
@@ -122,6 +131,7 @@ www.ema.istruzione.it,Could not resolve host: www.ema.istruzione.it,none
 www.esamidistato.istruzione.it,Could not resolve host: www.esamidistato.istruzione.it,none
 www.firmadigitale-coll.istruzione.it,Could not resolve host: www.firmadigitale-coll.istruzione.it,none
 www.firmadigitale.istruzione.it,Could not resolve host: www.firmadigitale.istruzione.it,none
+www.gestionepersonalescuola.istruzione.it,ConnectException > UnresolvedAddressException,
 www.iam.didattico.istruzione.it,Could not resolve host: www.iam.didattico.istruzione.it,none
 www.iamval.didattico.istruzione.it,Could not resolve host: www.iamval.didattico.istruzione.it,none
 www.istruzione.it,Could not resolve host: www.istruzione.it,none
@@ -153,6 +163,7 @@ www.servizipirtest.istruzione.it,Could not resolve host: www.servizipirtest.istr
 www.servizipirval.istruzione.it,Could not resolve host: www.servizipirval.istruzione.it,none
 www.siopeplus.istruzione.it,Could not resolve host: www.siopeplus.istruzione.it,none
 www.sondaggio.urp.istruzione.it,Could not resolve host: www.sondaggio.urp.istruzione.it,none
+www.sp.istruzione.it,ConnectException > UnresolvedAddressException,
 www.sp.scic.istruzione.it,Could not resolve host: www.sp.scic.istruzione.it,none
 www.spcoop.istruzione.it,Could not resolve host: www.spcoop.istruzione.it,none
 www.spcoopval.istruzione.it,Could not resolve host: www.spcoopval.istruzione.it,none

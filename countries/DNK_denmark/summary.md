@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 1 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Copenhagen
-- Hosts collected: 46
+- Hosts collected: 353
 
 ## UN/DESA national portal
 

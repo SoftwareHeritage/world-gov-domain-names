@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 129 of 193
 - Government type: parliamentary republic
 - Capital: Port-Vila (on Efate)
-- Hosts collected: 79
+- Hosts collected: 83
 
 ## UN/DESA national portal
 

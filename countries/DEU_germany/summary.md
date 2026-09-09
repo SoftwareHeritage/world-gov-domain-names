@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 12 of 193
 - Government type: federal parliamentary republic
 - Capital: Berlin
-- Hosts collected: 193
+- Hosts collected: 2550
 
 ## UN/DESA national portal
 

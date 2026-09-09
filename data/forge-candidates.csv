@@ -10,6 +10,14 @@ git.bbg.gv.at,AUT_austria,Could not resolve host: git.bbg.gv.at
 git.bka.gv.at,AUT_austria,Could not resolve host: git.bka.gv.at
 gitlab.test.portalverbund.gv.at,AUT_austria,Could not resolve host: gitlab.test.portalverbund.gv.at
 gitlab.e-taxes.gov.az,AZE_azerbaijan,Could not resolve host: gitlab.e-taxes.gov.az
+developer.api-d.ibz.be,BEL_belgium,HttpConnectTimeoutException > ConnectException: HTTP connect timed out
+developer.ibz.be,BEL_belgium,ConnectException > UnresolvedAddressException
+developer.np.platform.ibz.be,BEL_belgium,403
+developer.np.we.platform.ibz.be,BEL_belgium,HttpConnectTimeoutException > ConnectException: HTTP connect timed out
+developer.p.platform.ibz.be,BEL_belgium,403
+developer.p.we.platform.ibz.be,BEL_belgium,403
+developer.platform.ibz.be,BEL_belgium,403
+git.icesquirrel.mil.be,BEL_belgium,HttpConnectTimeoutException > ConnectException: HTTP connect timed out
 gitlab.gcloud.belgium.be,BEL_belgium,Connection timed out after 3002 milliseconds
 gitlab.gouv.bj,BEN_benin,Could not resolve host: gitlab.gouv.bj
 gitlab.anptic.gov.bf,BFA_burkina_faso,Connection timed out after 3002 milliseconds
@@ -33,9 +41,12 @@ git.dmfy.gov.cn,CHN_china,Could not resolve host: git.dmfy.gov.cn
 git.lsrenkou.gov.cn,CHN_china,Could not resolve host: git.lsrenkou.gov.cn
 code.gov.cz,CZE_czechia,302
 gitlab.nukib.gov.cz,CZE_czechia,302
+git.zssi.ivbb.bund.de,DEU_germany,ConnectException > UnresolvedAddressException
+oss.bund.de,DEU_germany,ConnectException > UnresolvedAddressException
 git.dominica.gov.dm,DMA_dominica,302
 gitlab.madr.gov.dz,DZA_algeria,SSL: no alternative certificate subject name matches target hostname 'gitlab.madr.gov.dz'
 git.softwarelibre.conocimiento.gob.ec,ECU_ecuador,Could not resolve host: git.softwarelibre.conocimiento.gob.ec
+git.kul.ee,EST_estonia,ConnectException > UnresolvedAddressException
 developer.derash.gov.et,ETH_ethiopia,Could not resolve host: developer.derash.gov.et
 gitlab.derash.gov.et,ETH_ethiopia,Resolving timed out after 3000 milliseconds
 gitlab.techin.gov.et,ETH_ethiopia,Could not resolve host: gitlab.techin.gov.et
@@ -57,6 +68,7 @@ gitlab.micttd.gov.ki,KIR_kiribati,Could not resolve host: gitlab.micttd.gov.ki
 git.gov.kn,KNA_saint_kitts_and_nevis,SSL certificate problem: certificate has expired
 git.mof.gov.la,LAO_laos,Failed to connect to git.mof.gov.la port 443 after 600 ms: Could not connect to server
 git.army.gov.lb,LBN_lebanon,Connection timed out after 3002 milliseconds
+gitlab.data.public.lu,LUX_luxembourg,ConnectException > UnresolvedAddressException
 git.police.gov.mv,MDV_maldives,Could not resolve host: git.police.gov.mv
 git.app.jalisco.gob.mx,MEX_mexico,Could not resolve host: git.app.jalisco.gob.mx
 git.redoaxaca.gob.mx,MEX_mexico,Could not resolve host: git.redoaxaca.gob.mx
@@ -64,6 +76,10 @@ gitlab.cetechihuahua.gob.mx,MEX_mexico,Failed to connect to gitlab.cetechihuahua
 git.itc.gov.mn,MNG_mongolia,SSL: no alternative certificate subject name matches target hostname 'git.itc.gov.mn'
 gitlab.khidmaty.gov.mr,MRT_mauritania,Connection timed out after 3001 milliseconds
 git.digital.gov.my,MYS_malaysia,Could not resolve host: git.digital.gov.my
+developer.omgevingswet.overheid.nl,NLD_netherlands,200
+developer.overheid.nl,NLD_netherlands,200
+git.rijksoverheid.nl,NLD_netherlands,ConnectException > UnresolvedAddressException
+oss.developer.overheid.nl,NLD_netherlands,200
 git.i.gov.ph,PHL_philippines,Connection timed out after 3001 milliseconds
 code.ach.gov.ru,RUS_russia,302
 gitlab.rpn.gov.ru,RUS_russia,403

@@ -1,3 +1,23 @@
 subdomain,http_status,mx
+bolsa-pre.ingesa.sanidad.gob.es,301,
+bolsa.ingesa.sanidad.gob.es,200,
+comprassns.ingesa.sanidad.gob.es,ConnectException > UnresolvedAddressException,
+eciemaps.sanidad.gob.es,200,
+inclasns.sanidad.gob.es,200,
+ingesa.sanidad.gob.es,302,
+inteligenciadegestion.sanidad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+misalud.ingesa.sanidad.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+ojs.sanidad.gob.es,302,
+pre-eciemaps.sanidad.gob.es,403,
+pre-misalud.ingesa.sanidad.gob.es,ConnectException > UnresolvedAddressException,
+pre.ingesa.sanidad.gob.es,ConnectException > UnresolvedAddressException,
+repositorio.inteligenciadegestion.sanidad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+sanexlabs.sanidad.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sanidad-ue.sanidad.gob.es,301,
 sanidad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx.msc.es.; 20 mxres.msc.es.
+unicas-fhir.sanidad.gob.es,200,
+webappcnd.ingesa.sanidad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+www.eciemaps.sanidad.gob.es,200,
+www.pre-eciemaps.sanidad.gob.es,403,
+www.sanexlabs.sanidad.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.sanidad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

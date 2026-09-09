@@ -1,3 +1,7 @@
 subdomain,http_status,mx
+autodiscover.trm.dk,ConnectException > UnresolvedAddressException,
+backoffice.trm.dk,200,
+lyncdiscover.trm.dk,405,
+sip.trm.dk,404,
 trm.dk,301,10 mx01.sitnet.dk.; 10 mx06.sitnet.dk.; 10 mx03.sitnet.dk.; 10 mx07.sitnet.dk.; 10 mx05.sitnet.dk.; 10 mx04.sitnet.dk.; 10 mx08.sitnet.dk.; 10 mx02.sitnet.dk.
 www.trm.dk,200,none

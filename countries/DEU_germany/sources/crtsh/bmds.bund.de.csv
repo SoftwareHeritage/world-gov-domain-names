@@ -1,3 +1,9 @@
 subdomain,http_status,mx
 bmds.bund.de,303,none
+cms.bmds.bund.de,SSLHandshakeException > CertificateException: No subject alternative DNS name matching cms.bmds.bund.de found.,
+events.bmds.bund.de,200,
+konsultation.bmds.bund.de,302,
+list1.bmds.bund.de,400,
+lyncdiscover.bmds.bund.de,ConnectException > UnresolvedAddressException,
+tdot.bmds.bund.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.bmds.bund.de,303,10 mx2.bund.de.; 10 mx1.bund.de.

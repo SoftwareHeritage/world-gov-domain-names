@@ -1,3 +1,23 @@
 subdomain,http_status,mx
+admin.tecnologiaeinnovacion.defensa.gob.es,401,
+appmuseos.defensa.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+canalinterno.defensa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+colaboracion.tecnologiaeinnovacion.defensa.gob.es,404,
 defensa.gob.es,301,none
+patrimoniocultural.defensa.gob.es,403,
+publicaciones.defensa.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+revista.defensa.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sede.defensa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+sitios.tecnologiaeinnovacion.defensa.gob.es,401,
+tecnologiaeinnovacion.defensa.gob.es,200,
+ver.sapzo.defensa.gob.es,ConnectException > UnresolvedAddressException,
+www.admin.tecnologiaeinnovacion.defensa.gob.es,ConnectException > UnresolvedAddressException,
+www.canalinterno.defensa.gob.es,ConnectException > UnresolvedAddressException,
+www.colaboracion.tecnologiaeinnovacion.defensa.gob.es,ConnectException > UnresolvedAddressException,
 www.defensa.gob.es,200,none
+www.patrimoniocultural.defensa.gob.es,ConnectException > UnresolvedAddressException,
+www.publicaciones.defensa.gob.es,ConnectException > UnresolvedAddressException,
+www.revista.defensa.gob.es,ConnectException > UnresolvedAddressException,
+www.sitios.tecnologiaeinnovacion.defensa.gob.es,ConnectException > UnresolvedAddressException,
+www.tecnologiaeinnovacion.defensa.gob.es,ConnectException > UnresolvedAddressException,
+www.ver.sapzo.defensa.gob.es,ConnectException > UnresolvedAddressException,

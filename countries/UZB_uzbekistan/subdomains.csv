@@ -6,6 +6,7 @@ adm.gov.uz,gov.uz,Connection timed out after 3001 milliseconds,10 mail.adm.gov.u
 admbusiness.gov.uz,gov.uz,200,none
 admin-api.hisobot.gov.uz,gov.uz,404,none
 admin.baraka.gov.uz,gov.uz,200,none
+admin.enterprise.gov.uz,gov.uz,200,
 admin.hisobot.gov.uz,gov.uz,302,none
 admin.my.gov.uz,gov.uz,302,none
 admin.my3.gov.uz,gov.uz,Recv failure: Connexion ré-initialisée par le correspondant,none
@@ -19,9 +20,15 @@ antimon.gov.uz,gov.uz,SSL certificate problem: certificate has expired,10 mx.ant
 apgmu.gov.uz,gov.uz,307,none
 api-ngo.gov.uz,gov.uz,SSL: no alternative certificate subject name matches target hostname 'api-ngo.gov.uz',none
 api.2026.gov.uz,gov.uz,502,none
+api.admin.enterprise.gov.uz,gov.uz,404,
+api.corp.enterprise.gov.uz,gov.uz,404,
+api.enterprise.gov.uz,gov.uz,404,
 api.hisobot.gov.uz,gov.uz,404,none
 api.kelajakuchun.gov.uz,gov.uz,302,none
 api.my.gov.uz,gov.uz,403,none
+api.pm.gov.uz,gov.uz,404,
+api.taklif.ayol.gov.uz,gov.uz,200,
+api.yoshlar.gov.uz,gov.uz,404,
 apix.my.gov.uz,gov.uz,Recv failure: Connexion ré-initialisée par le correspondant,none
 apostille.gov.uz,gov.uz,SSL certificate problem: unable to get local issuer certificate,none
 arm.gov.uz,gov.uz,302,none
@@ -47,16 +54,19 @@ buka.gov.uz,gov.uz,Connection timed out after 3000 milliseconds,none
 business.gov.uz,gov.uz,200,none
 bv.gov.uz,gov.uz,Connection timed out after 3000 milliseconds,20 mx2.cm.uz.; 10 mx1.cm.uz.
 cabinet-ngo.gov.uz,gov.uz,302,none
+cabinet.enterprise.gov.uz,gov.uz,302,
 cabinet.my.gov.uz,gov.uz,200,none
 calls.103.gov.uz,gov.uz,Connection timed out after 3002 milliseconds,none
 cdn.hisobot.gov.uz,gov.uz,404,none
 cdn.my.gov.uz,gov.uz,403,none
 cdn.my3.gov.uz,gov.uz,Recv failure: Connexion ré-initialisée par le correspondant,none
+cdn.yoshlar.gov.uz,gov.uz,400,
 chat.my.gov.uz,gov.uz,200,none
 cloud.asr.gov.uz,gov.uz,Could not resolve host: cloud.asr.gov.uz,none
 cmda.gov.uz,gov.uz,Could not resolve host: cmda.gov.uz,10 mail.cmda.gov.uz.
 consul.gov.uz,gov.uz,302,none
 consumer.gov.uz,gov.uz,Could not resolve host: consumer.gov.uz,none
+corp.enterprise.gov.uz,gov.uz,200,
 cp.asr.gov.uz,gov.uz,200,10 mail.cp.asr.gov.uz.
 cp.elections.gov.uz,gov.uz,Connection timed out after 3002 milliseconds,none
 csm.gov.uz,gov.uz,Could not resolve host: csm.gov.uz,none
@@ -73,6 +83,7 @@ dev.hisobot.gov.uz,gov.uz,302,none
 dev.outsource.gov.uz,gov.uz,SSL certificate problem: certificate has expired,none
 dfc.gov.uz,gov.uz,SSL certificate problem: unable to get local issuer certificate,10 mail.dfc.gov.uz.
 digital.gov.uz,gov.uz,307,none
+digitalpool.gov.uz,gov.uz,200,
 dkm.gov.uz,gov.uz,200,none
 dxa.gov.uz,gov.uz,Could not resolve host: dxa.gov.uz,none
 e-app.gov.uz,gov.uz,SSL certificate problem: unable to get local issuer certificate,none
@@ -83,6 +94,7 @@ eco.gov.uz,gov.uz,SSL: no alternative certificate subject name matches target ho
 elections.gov.uz,gov.uz,Could not resolve host: elections.gov.uz,none
 email.asr.gov.uz,gov.uz,Could not resolve host: email.asr.gov.uz,none
 email.sda.gov.uz,gov.uz,Connection timed out after 3001 milliseconds,none
+enterprise.gov.uz,gov.uz,200,
 enterprise.outsource.gov.uz,gov.uz,Could not resolve host: enterprise.outsource.gov.uz,none
 events.outsource.gov.uz,gov.uz,SSL certificate problem: certificate has expired,none
 fa.gov.uz,gov.uz,200,none
@@ -141,6 +153,7 @@ newbusiness.gov.uz,gov.uz,SSL: no alternative certificate subject name matches t
 ngo.gov.uz,gov.uz,200,none
 nsp.gov.uz,gov.uz,200,none
 observers.e-saylov.gov.uz,gov.uz,Connection timed out after 3001 milliseconds,none
+old-pm.gov.uz,gov.uz,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Wed Aug 05 06:30:56 CEST 2026,
 old.ach.gov.uz,gov.uz,302,none
 old.ijro.gov.uz,gov.uz,502,none
 old.parliament.gov.uz,gov.uz,200,dig error
@@ -192,6 +205,7 @@ store.sda.gov.uz,gov.uz,Could not resolve host: store.sda.gov.uz,none
 stream-parliament.gov.uz,gov.uz,404,none
 suvchi.gov.uz,gov.uz,Could not resolve host: suvchi.gov.uz,none
 svs.outsource.gov.uz,gov.uz,SSL certificate problem: certificate has expired,none
+taklif.ayol.gov.uz,gov.uz,200,
 tbb.gov.uz,gov.uz,307,none
 test.ayol.gov.uz,gov.uz,Could not resolve host: test.ayol.gov.uz,dig error
 test.outsource.gov.uz,gov.uz,Connection timed out after 3000 milliseconds,none
@@ -199,8 +213,10 @@ test2.outsource.gov.uz,gov.uz,SSL certificate problem: certificate has expired,n
 tm.elections.gov.uz,gov.uz,Connection timed out after 3001 milliseconds,none
 traefik.elections.gov.uz,gov.uz,Connection timed out after 3000 milliseconds,none
 traefik.haj-umra.gov.uz,gov.uz,403,none
+udata.gov.uz,gov.uz,403,
 urmon.gov.uz,gov.uz,Connection timed out after 3002 milliseconds,none
 us-uz.gov.uz,gov.uz,302,none
+uzalc.gov.uz,gov.uz,200,
 v-nadzor.gov.uz,gov.uz,Could not resolve host: v-nadzor.gov.uz,none
 vacancy.gov.uz,gov.uz,200,none
 vgsch.gov.uz,gov.uz,SSL certificate problem: certificate has expired,10 mail.vgsch.gov.uz.

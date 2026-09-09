@@ -68,6 +68,9 @@ demo2.www.dev.suomi.fi,Resolving timed out after 3001 milliseconds,none
 designsystem.suomi.fi,200,none
 dev.avoindata.suomi.fi,301,none
 dev.suojattudata.suomi.fi,Operation timed out after 3000 milliseconds with 0 bytes received,none
+digital-mail-services.messages-dev.suomi.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+digital-mail-services.messages-qa.suomi.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+digital-mail-services.messages.suomi.fi,ConnectException > UnresolvedAddressException,
 docs.palvelutietovaranto.qa.suomi.fi,Could not resolve host: docs.palvelutietovaranto.qa.suomi.fi,none
 docs.palvelutietovaranto.suomi.fi,404,none
 docs.palvelutietovaranto.trn.suomi.fi,Could not resolve host: docs.palvelutietovaranto.trn.suomi.fi,none
@@ -130,6 +133,9 @@ liityntakatalogi.suomi.fi,200,none
 liityntakatalogi.test.suomi.fi,Could not resolve host: liityntakatalogi.test.suomi.fi,none
 lompakko.suomi.fi,Could not resolve host: lompakko.suomi.fi,none
 luvat.viestit-dev.suomi.fi,Connection timed out after 3001 milliseconds,none
+luvat.viestit-qa.suomi.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+luvat.viestit.suomi.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+luvat2.viestit-dev.suomi.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 matomo.www.dev.suomi.fi,Could not resolve host: matomo.www.dev.suomi.fi,none
 metadata-signing.tunnistus.suomi.fi,Could not resolve host: metadata-signing.tunnistus.suomi.fi,none
 nimenmuutos.suomi.fi,Could not resolve host: nimenmuutos.suomi.fi,none
@@ -152,6 +158,7 @@ resources.rova.suomi.fi,Could not resolve host: resources.rova.suomi.fi,none
 rhp-dev.suomi.fi,Failed to connect to rhp-dev.suomi.fi port 443 after 99 ms: Could not connect to server,none
 rhp-test.suomi.fi,Connection timed out after 3002 milliseconds,none
 rhp.suomi.fi,200,none
+roles-auths-vtj-client.test.suomi.fi,ConnectException > UnresolvedAddressException,
 sanastot-dev.suomi.fi,Failed to connect to sanastot-dev.suomi.fi port 443 after 151 ms: Could not connect to server,none
 sanastot-test.suomi.fi,Could not resolve host: sanastot-test.suomi.fi,none
 sanastot.suomi.fi,Could not resolve host: sanastot.suomi.fi,none

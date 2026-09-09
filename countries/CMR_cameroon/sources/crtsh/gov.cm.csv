@@ -8,6 +8,7 @@ authentifie.minfopra.gov.cm,302,none
 autodiscover.minpostel.gov.cm,Could not resolve host: autodiscover.minpostel.gov.cm,none
 avi.mincom.gov.cm,Connection timed out after 3002 milliseconds,none
 bourse-des-dechets.minepded.gov.cm,200,none
+carte.mintoul.gov.cm,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 carto.minfopra.gov.cm,SSL certificate problem: self-signed certificate in certificate chain,none
 cartographie.gov.cm,200,none
 cloud.minepat.gov.cm,Operation timed out after 3001 milliseconds with 0 bytes received,none
@@ -30,6 +31,7 @@ mail.aigles.gov.cm,Could not resolve host: mail.aigles.gov.cm,none
 mail.cnc.gov.cm,301,none
 mail.conafe.gov.cm,Operation timed out after 3001 milliseconds with 0 bytes received,dig error
 mail.minac.gov.cm,SSL: no alternative certificate subject name matches target hostname 'mail.minac.gov.cm',none
+mail.mincom.gov.cm,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 mail.minddevel.gov.cm,200,none
 mail.mindef.gov.cm,200,none
 mail.minepat.gov.cm,Operation timed out after 3000 milliseconds with 0 bytes received,none
@@ -43,6 +45,7 @@ mail.spm.gov.cm,Operation timed out after 3000 milliseconds with 0 bytes receive
 meteocameroon.gov.cm,200,5 mx1.hostinger.com.; 10 mx2.hostinger.com.
 minac.gov.cm,301,10 165.210.33.60.minac.gov.cm.; 10 mail.minac.gov.cm.
 minat.gov.cm,Operation timed out after 3001 milliseconds with 0 bytes received,10 webhostingzmg.camnet.cm.
+mincom.gov.cm,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 mincommerce.gov.cm,Connection timed out after 3001 milliseconds,10 webhostingzmg.camnet.cm.
 mindcaf.gov.cm,Operation timed out after 3002 milliseconds with 0 bytes received,none
 minddevel.gov.cm,SSL certificate problem: self-signed certificate,10 mail.minddevel.gov.cm.
@@ -66,12 +69,14 @@ pcavi.mincom.gov.cm,Connection timed out after 3002 milliseconds,none
 perso.minpostel.gov.cm,Could not resolve host: perso.minpostel.gov.cm,none
 phd.census.minesup.gov.cm,Connection timed out after 3001 milliseconds,dig error
 pop.minac.gov.cm,SSL: no alternative certificate subject name matches target hostname 'pop.minac.gov.cm',dig error
+portail.mintoul.gov.cm,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 portailaigles.gov.cm,Operation timed out after 3000 milliseconds with 0 bytes received,none
 postal.mincom.gov.cm,Connection timed out after 3002 milliseconds,none
 recrutement-special-2000minesup.gov.cm,SSL certificate problem: self-signed certificate,10 wum.spm.gov.cm.
 rh.minesec.gov.cm,Operation timed out after 3000 milliseconds with 0 bytes received,none
 servicepublic.gov.cm,200,none
 services.minesec.gov.cm,Operation timed out after 3000 milliseconds with 0 bytes received,none
+smartcampus.gov.cm,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 smtp.minac.gov.cm,SSL: no alternative certificate subject name matches target hostname 'smtp.minac.gov.cm',10 165.210.33.60.minac.gov.cm.; 10 mail.minac.gov.cm.
 solde.minepat.gov.cm,Connection timed out after 3002 milliseconds,none
 spm.gov.cm,200,10 wum.spm.gov.cm.
@@ -95,6 +100,7 @@ www.cnc.gov.cm,301,10 mail.cnc.gov.cm.
 www.conafe.gov.cm,200,10 mail.conafe.gov.cm.
 www.ecommerce.gov.cm,SSL certificate problem: certificate has expired,10 ecommerce.gov.cm.
 www.eiforces.gov.cm,SSL certificate problem: certificate has expired,none
+www.mail.mincom.gov.cm,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.mail.minddevel.gov.cm,Could not resolve host: www.mail.minddevel.gov.cm,none
 www.mail.spm.gov.cm,SSL certificate problem: self-signed certificate,none
 www.meteocameroon.gov.cm,Operation timed out after 3002 milliseconds with 0 bytes received,5 mx1.hostinger.com.; 10 mx2.hostinger.com.

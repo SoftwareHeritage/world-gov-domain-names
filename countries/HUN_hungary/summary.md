@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 59 of 193
 - Government type: parliamentary republic
 - Capital: Budapest
-- Hosts collected: 154
+- Hosts collected: 156
 
 ## UN/DESA national portal
 

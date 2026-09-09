@@ -1,3 +1,16 @@
 subdomain,http_status,mx
+beta.lvm.fi,ConnectException > UnresolvedAddressException,
+digits.lvm.fi,ConnectException > UnresolvedAddressException,
+enterpriseregistration.lvm.fi,ConnectException > UnresolvedAddressException,
+impulssi.lvm.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching impulssi.lvm.fi found.,
 lvm.fi,302,none
+lyncdiscover.lvm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mfe.lvm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+qa.lvm.fi,403,
+sip.lvm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+tiedotteet-en.lvm.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching tiedotteet-en.lvm.fi found.,
+tiedotteet-sv.lvm.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching tiedotteet-sv.lvm.fi found.,
+tiedotteet.lvm.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching tiedotteet.lvm.fi found.,
+uutiskirje.lvm.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching uutiskirje.lvm.fi found.,
 www.lvm.fi,302,none
+xmfe.lvm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,

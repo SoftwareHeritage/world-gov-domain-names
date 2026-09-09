@@ -1,3 +1,10 @@
 subdomain,http_status,mx
+cdn.transportes.gob.es,400,
+dgcarreteras.transportes.gob.es,400,
+licitacionesdgcarreteras.transportes.gob.es,400,
+sede.transportes.gob.es,200,
+sirde-api-android.transportes.gob.es,200,
+sirde.transportes.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 transportes.gob.es,HttpConnectTimeoutException: HTTP connect timed out,0 transportes-gob-es.b-v1.mx.microsoft.
+www.sede.transportes.gob.es,ConnectException > UnresolvedAddressException,
 www.transportes.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

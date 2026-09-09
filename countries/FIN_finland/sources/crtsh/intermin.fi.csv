@@ -1,3 +1,7 @@
 subdomain,http_status,mx
+enterpriseregistration.intermin.fi,ConnectException > UnresolvedAddressException,
 intermin.fi,302,20 mail-in.tuve.fi.
+qa.intermin.fi,403,
+securemail.intermin.fi,ConnectException > UnresolvedAddressException,
+smtpout.inet.intermin.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.intermin.fi,302,none

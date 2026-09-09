@@ -1,2 +1,13 @@
 subdomain,http_status,mx
+dms.finmin.lt,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,
+dmstest.finmin.lt,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,
 finmin.lt,302,0 finmin-lt.mail.protection.outlook.com.
+moksvis.finmin.lt,200,
+moksvisanalitika.finmin.lt,502,
+sfmis.finmin.lt,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+svis.finmin.lt,200,
+svisanalitika.finmin.lt,301,
+testsvis.finmin.lt,200,
+testsvisanalitika.finmin.lt,502,
+www.svis.finmin.lt,ConnectException > UnresolvedAddressException,
+www.testsvis.finmin.lt,ConnectException > UnresolvedAddressException,

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 20 of 193
 - Government type: parliamentary republic
 - Capital: Dublin
-- Hosts collected: 658
+- Hosts collected: 750
 
 ## UN/DESA national portal
 

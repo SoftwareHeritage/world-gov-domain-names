@@ -1,2 +1,13 @@
 subdomain,http_status,mx
+epakalpojumi.latvija.lv,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+kampana.latvija.lv,ConnectException > UnresolvedAddressException,
 latvija.lv,301,none
+macibas.mana.latvija.lv,301,
+mana.latvija.lv,301,
+preview-macibas.mana.latvija.lv,ConnectException > UnresolvedAddressException,
+studio-macibas.mana.latvija.lv,ConnectException > UnresolvedAddressException,
+www.epakalpojumi.latvija.lv,ConnectException > UnresolvedAddressException,
+www.kampana.latvija.lv,ConnectException > UnresolvedAddressException,
+www.latvija.lv,301,
+www.macibas.mana.latvija.lv,ConnectException > UnresolvedAddressException,
+www.mana.latvija.lv,ConnectException > UnresolvedAddressException,

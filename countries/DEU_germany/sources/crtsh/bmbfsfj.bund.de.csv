@@ -1,3 +1,5 @@
 subdomain,http_status,mx
 bmbfsfj.bund.de,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx2.bund.de.; 10 mx1.bund.de.
+daten.bmbfsfj.bund.de,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 www.bmbfsfj.bund.de,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+www.daten.bmbfsfj.bund.de,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,

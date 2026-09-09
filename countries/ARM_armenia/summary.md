@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 48 of 193
 - Government type: parliamentary democracy; note - constitutional changes adopted in December 2015 transformed the government to a parliamentary system
 - Capital: Yerevan
-- Hosts collected: 347
+- Hosts collected: 358
 
 ## UN/DESA national portal
 

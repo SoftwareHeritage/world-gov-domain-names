@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 4 of 193
 - Government type: presidential republic
 - Capital: Seoul
-- Hosts collected: 55
+- Hosts collected: 1905
 
 ## UN/DESA national portal
 

@@ -1,5 +1,6 @@
 subdomain,http_status,mx
 4bts.aeronautica.difesa.it,Could not resolve host: 4bts.aeronautica.difesa.it,none
+accrediti.difesa.it,302,
 aeronautica.difesa.it,Could not resolve host: aeronautica.difesa.it,10 mx.difesa.it.
 apidocumentsd2p.covid19.difesa.it,SSL certificate problem: self-signed certificate,none
 apidocumentsd2ptest.covid19.difesa.it,SSL certificate problem: self-signed certificate,none
@@ -101,14 +102,17 @@ questionnaire.aeronautica.difesa.it,Connection timed out after 5002 milliseconds
 registrationcovid.covid19.difesa.it,SSL certificate problem: certificate has expired,none
 resetpasswordmm.marina.difesa.it,Connection timed out after 5002 milliseconds,none
 reteospedaliera.covid19.difesa.it,SSL certificate problem: certificate has expired,none
+sam.difesa.it,200,
 selene.esercito.difesa.it,SSL certificate problem: unable to get local issuer certificate,none
 servizi.difesa.it,Could not resolve host: servizi.difesa.it,none
 sharefile.marina.difesa.it,Connection timed out after 5002 milliseconds,none
 sisdantest.elearning.marina.difesa.it,Connection timed out after 5002 milliseconds,none
 smtp.marina.difesa.it,Could not resolve host: smtp.marina.difesa.it,none
+spikad-ng.difesa.it,200,
 sso.comc4ei.esercito.difesa.it,200,none
 sso.difesa.it,Could not resolve host: sso.difesa.it,none
 streaming1.elearning.esercito.difesa.it,404,none
+stun.spikad-ng.difesa.it,HttpTimeoutException: request timed out,
 ticket.elearning.esercito.difesa.it,SSL certificate problem: unable to get local issuer certificate,none
 trstscs1.difesa.it,Could not resolve host: trstscs1.difesa.it,none
 trstscs2.difesa.it,Could not resolve host: trstscs2.difesa.it,none
@@ -138,6 +142,7 @@ webtv.difesa.it,200,none
 worker1.elearning.esercito.difesa.it,200,none
 worker2.elearning.esercito.difesa.it,200,none
 www.aeronautica.difesa.it,200,none
+www.avatarei.difesa.it,ConnectException > UnresolvedAddressException,
 www.cmsedge.difesa.it,Could not resolve host: www.cmsedge.difesa.it,none
 www.eventiam.aeronautica.difesa.it,Could not resolve host: www.eventiam.aeronautica.difesa.it,none
 www.govpay.difesa.it,Could not resolve host: www.govpay.difesa.it,none
@@ -147,6 +152,7 @@ www.mail.marina.difesa.it,Could not resolve host: www.mail.marina.difesa.it,none
 www.marina.difesa.it,302,none
 www.ministerodifesa.spcoop.difesa.it,Could not resolve host: www.ministerodifesa.spcoop.difesa.it,none
 www.questionnaire.aeronautica.difesa.it,Could not resolve host: www.questionnaire.aeronautica.difesa.it,none
+www.spikad-ng.difesa.it,SSLHandshakeException > CertificateException: No subject alternative DNS name matching www.spikad-ng.difesa.it found.,
 www.vc.difesa.it,Could not resolve host: www.vc.difesa.it,none
 www.vdi.marina.difesa.it,Could not resolve host: www.vdi.marina.difesa.it,none
 www.vdimdm.marina.difesa.it,Could not resolve host: www.vdimdm.marina.difesa.it,none

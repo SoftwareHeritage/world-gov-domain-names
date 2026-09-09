@@ -1,2 +1,6 @@
 subdomain,http_status,mx
+e-mokymai.urm.lt,200,
+int.urm.lt,ConnectException > UnresolvedAddressException,
+mokymai.urm.lt,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 urm.lt,403,10 mxs1.urm.lt.
+watchdog.urm.lt,403,

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 47 of 193
 - Government type: federal parliamentary democracy (Parliament of Canada) under a constitutional monarchy; a Commonwealth realm; federal and state authorities and responsibilities regulated in constitution
 - Capital: Ottawa
-- Hosts collected: 1013
+- Hosts collected: 3693
 
 ## UN/DESA national portal
 

@@ -10,12 +10,14 @@ dela.education.gouv.ne,gouv.ne,Failed to connect to dela.education.gouv.ne port 
 dgsv.gouv.ne,gouv.ne,302,none
 e-sisic.impots.gouv.ne,gouv.ne,Connection timed out after 3000 milliseconds,none
 ebulletin.impots.gouv.ne,gouv.ne,SSL: no alternative certificate subject name matches target hostname 'ebulletin.impots.gouv.ne',none
+education.gouv.ne,gouv.ne,ConnectException > UnresolvedAddressException,
 ee.collecte.rsu.gouv.ne,gouv.ne,Connection timed out after 3000 milliseconds,none
 ee.dgsv.gouv.ne,gouv.ne,200,none
 ee.ds.gouv.ne,gouv.ne,200,none
 email.gouv.ne,gouv.ne,200,10 email.gouv.ne.
 energie.gouv.ne,gouv.ne,301,none
 environnement.gouv.ne,gouv.ne,301,10 email.gouv.ne.
+f2in.commerce-industrie.gouv.ne,gouv.ne,200,
 facture.impots.gouv.ne,gouv.ne,SSL certificate problem: certificate has expired,none
 finances.gouv.ne,gouv.ne,200,none
 fonctionpublique.gouv.ne,gouv.ne,Could not resolve host: fonctionpublique.gouv.ne,none
@@ -78,6 +80,9 @@ sase.commerce.gouv.ne,gouv.ne,200,none
 server.gouv.ne,gouv.ne,Could not resolve host: server.gouv.ne,none
 servideoconf.plan.gouv.ne,gouv.ne,Connection timed out after 3000 milliseconds,none
 sgpg.urbanisme.gouv.ne,gouv.ne,Connection timed out after 3000 milliseconds,none
+sie.energie.gouv.ne,gouv.ne,200,
+siedata.energie.gouv.ne,gouv.ne,200,
+sig.energie.gouv.ne,gouv.ne,200,
 snise.plan.gouv.ne,gouv.ne,Failed to connect to snise.plan.gouv.ne port 443 after 631 ms: Could not connect to server,none
 srv-mail.email.gouv.ne,gouv.ne,Could not resolve host: srv-mail.email.gouv.ne,none
 stts-niger.gouv.ne,gouv.ne,302,none

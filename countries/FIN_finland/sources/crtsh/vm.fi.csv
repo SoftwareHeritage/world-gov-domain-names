@@ -1,3 +1,22 @@
 subdomain,http_status,mx
+alueuudistus.vm.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching alueuudistus.vm.fi found.,
+baro.vm.fi,ConnectException > NoRouteToHostException: Host is unreachable,
+budjetti.vm.fi,200,
+enterpriseregistration.lvm.fi,ConnectException > UnresolvedAddressException,
+enterpriseregistration.vm.fi,ConnectException > UnresolvedAddressException,
+hankesalkku-pro.vm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+hankesalkku-qa.vm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+hankesalkku.vm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+lvm.fi,302,
+lyncdiscover.lvm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+lyncdiscover.vm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+qa.vm.fi,403,
+sip.lvm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sip.vm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+tutkibudjettia.vm.fi,ConnectException > UnresolvedAddressException,
+uutiskirje.vm.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching uutiskirje.vm.fi found.,
+vastaukset.vm.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching vastaukset.vm.fi found.,
+verkkojulkaisut.vm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 vm.fi,302,none
+www.tutkibudjettia.vm.fi,ConnectException > UnresolvedAddressException,
 www.vm.fi,302,40 mail2.vn.fi.; 50 mail.eunet.fi.

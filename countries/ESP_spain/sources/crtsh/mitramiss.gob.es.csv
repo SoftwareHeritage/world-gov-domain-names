@@ -1,3 +1,8 @@
 subdomain,http_status,mx
+autodiscover.mitramiss.gob.es,ConnectException > UnresolvedAddressException,
+correoweb.mitramiss.gob.es,ConnectException > UnresolvedAddressException,
+extranet.mitramiss.gob.es,ConnectException > UnresolvedAddressException,
+ftps.mitramiss.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 mitramiss.gob.es,ConnectException,none
+sede.fogasa.mitramiss.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 www.mitramiss.gob.es,ConnectException,none

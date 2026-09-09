@@ -5,6 +5,7 @@ access.health.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 access.number23.gov.ie,gov.ie,Could not resolve host: access.number23.gov.ie,none
 accessdr.health.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 accruedpensionliability.gov.ie,gov.ie,Could not resolve host: accruedpensionliability.gov.ie,none
+achtanna3.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 adforaffl.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 adfs.number23.gov.ie,gov.ie,Could not resolve host: adfs.number23.gov.ie,none
 admin.chg.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
@@ -14,6 +15,7 @@ admin.supportingsmes.gov.ie,gov.ie,Could not resolve host: admin.supportingsmes.
 admin.taoiseach.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 admin1.bcp.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 admin1.g2ia.gov.ie,gov.ie,Could not resolve host: admin1.g2ia.gov.ie,none
+africaday.uat.ireland.ie,ireland.ie,301,
 agapps.agriculture.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'agapps.agriculture.gov.ie',none
 agapps1.agriculture.gov.ie,gov.ie,Could not resolve host: agapps1.agriculture.gov.ie,none
 agfood.agriculture.gov.ie,gov.ie,403,none
@@ -29,6 +31,10 @@ aimws.itrain.agriculture.gov.ie,gov.ie,TLS connect error: error:0A000410:SSL rou
 aimws.iuat.agriculture.gov.ie,gov.ie,TLS connect error: error:0A000410:SSL routines::ssl/tls alert handshake failure,none
 amach.education.gov.ie,gov.ie,Could not resolve host: amach.education.gov.ie,none
 amach2.education.gov.ie,gov.ie,Could not resolve host: amach2.education.gov.ie,none
+ansible-dev.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+ansible-prelive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+ansible.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+api-prelive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 api.agriculture.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
 api.dept.dev.agriculture.gov.ie,gov.ie,Could not resolve host: api.dept.dev.agriculture.gov.ie,none
 api.drmy.education.gov.ie,gov.ie,Could not resolve host: api.drmy.education.gov.ie,none
@@ -37,18 +43,27 @@ api.gov.ie,gov.ie,Could not resolve host: api.gov.ie,none
 api.icentest.agriculture.gov.ie,gov.ie,Could not resolve host: api.icentest.agriculture.gov.ie,none
 api.idev.agriculture.gov.ie,gov.ie,Could not resolve host: api.idev.agriculture.gov.ie,none
 api.iprelive.agriculture.gov.ie,gov.ie,Could not resolve host: api.iprelive.agriculture.gov.ie,none
+api.ireland.ie,ireland.ie,302,
 api.itechtest.agriculture.gov.ie,gov.ie,Could not resolve host: api.itechtest.agriculture.gov.ie,none
 api.iuat.agriculture.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'api.iuat.agriculture.gov.ie',none
 api.my.education.gov.ie,gov.ie,Could not resolve host: api.my.education.gov.ie,none
 api.my.nsso.gov.ie,gov.ie,Could not resolve host: api.my.nsso.gov.ie,none
+api.oireachtas.ie,oireachtas.ie,200,
+api.preprod.ireland.ie,ireland.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 api.testing.gov.ie,gov.ie,Could not resolve host: api.testing.gov.ie,none
+api.uat.ireland.ie,ireland.ie,403,
 api.uatmy.education.gov.ie,gov.ie,Could not resolve host: api.uatmy.education.gov.ie,none
 api.uatmy.nsso.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
+apiv2.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 apollo.ncsc.gov.ie,gov.ie,Could not resolve host: apollo.ncsc.gov.ie,none
 apps.rhos.agriculture.gov.ie,gov.ie,Could not resolve host: apps.rhos.agriculture.gov.ie,none
 appsentry.number23.gov.ie,gov.ie,Could not resolve host: appsentry.number23.gov.ie,none
 appsentry.taoiseach.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
+archive.oireachtas.ie,oireachtas.ie,200,
 assets.gov.ie,gov.ie,Could not resolve host: assets.gov.ie,none
+assets.ireland.ie,ireland.ie,403,
+assets.preprod.ireland.ie,ireland.ie,403,
+assets.uat.ireland.ie,ireland.ie,403,
 audgen.gov.ie,gov.ie,Could not resolve host: audgen.gov.ie,none
 audit.data.gov.ie,gov.ie,200,none
 audit.gov.ie,gov.ie,301,none
@@ -59,6 +74,7 @@ autodiscover.csso.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,non
 autodiscover.education.gov.ie,gov.ie,Failed to connect to autodiscover.education.gov.ie port 443 after 1161 ms: Could not connect to server,none
 autodiscover.heritage.gov.ie,gov.ie,Could not resolve host: autodiscover.heritage.gov.ie,none
 autodiscover.number23.gov.ie,gov.ie,Could not resolve host: autodiscover.number23.gov.ie,none
+autodiscover.oireachtas.ie,oireachtas.ie,ConnectException > ClosedChannelException,
 autodiscover.taoiseach.gov.ie,gov.ie,Could not resolve host: autodiscover.taoiseach.gov.ie,none
 autodiscover.tsr.gov.ie,gov.ie,Could not resolve host: autodiscover.tsr.gov.ie,none
 av.chg.gov.ie,gov.ie,Could not resolve host: av.chg.gov.ie,none
@@ -66,6 +82,7 @@ away.aras.gov.ie,gov.ie,Could not resolve host: away.aras.gov.ie,none
 bamboo.agriculture.gov.ie,gov.ie,Could not resolve host: bamboo.agriculture.gov.ie,none
 banking.finance.gov.ie,gov.ie,Could not resolve host: banking.finance.gov.ie,none
 beneficialownership.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'beneficialownership.gov.ie',none
+beta.oireachtas.ie,oireachtas.ie,200,
 biodiversity.chg.gov.ie,gov.ie,Could not resolve host: biodiversity.chg.gov.ie,none
 biodiversity.heritage.gov.ie,gov.ie,301,none
 bip.agriculture.gov.ie,gov.ie,Could not resolve host: bip.agriculture.gov.ie,none
@@ -78,6 +95,7 @@ bip.uat.agriculture.gov.ie,gov.ie,Could not resolve host: bip.uat.agriculture.go
 bitbucket.agriculture.gov.ie,gov.ie,Could not resolve host: bitbucket.agriculture.gov.ie,none
 blackduck.agriculture.gov.ie,gov.ie,Could not resolve host: blackduck.agriculture.gov.ie,none
 blur.agriculture.gov.ie,gov.ie,Could not resolve host: blur.agriculture.gov.ie,none
+bpt.oireachtas.ie,oireachtas.ie,403,
 burghquayregistrationoffice.inis.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 buyerzone.gov.ie,gov.ie,302,10 feedback-smtp.eu-west-1.amazonses.com.
 buyerzone.testing.gov.ie,gov.ie,Could not resolve host: buyerzone.testing.gov.ie,none
@@ -104,6 +122,10 @@ construction.testing.gov.ie,gov.ie,200,none
 constructionprocurement.gov.ie,gov.ie,Could not resolve host: constructionprocurement.gov.ie,none
 consult.health.gov.ie,gov.ie,Could not resolve host: consult.health.gov.ie,none
 content.gov.ie,gov.ie,Could not resolve host: content.gov.ie,none
+content.ireland.ie,ireland.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+content.preprod.ireland.ie,ireland.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+content.uat.ireland.ie,ireland.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+coral.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 core.number23.gov.ie,gov.ie,Could not resolve host: core.number23.gov.ie,none
 coreapi.dev.gov.ie,gov.ie,Could not resolve host: coreapi.dev.gov.ie,none
 covid-misp.ncsc.gov.ie,gov.ie,Could not resolve host: covid-misp.ncsc.gov.ie,none
@@ -111,10 +133,17 @@ covidtracker.gov.ie,gov.ie,Could not resolve host: covidtracker.gov.ie,none
 cpanel.rbo.gov.ie,gov.ie,Could not resolve host: cpanel.rbo.gov.ie,none
 cpcalendars.rbo.gov.ie,gov.ie,Could not resolve host: cpcalendars.rbo.gov.ie,none
 cpcontacts.rbo.gov.ie,gov.ie,Could not resolve host: cpcontacts.rbo.gov.ie,none
+cr1.oireachtas.ie,oireachtas.ie,200,
+cr2.oireachtas.ie,oireachtas.ie,200,
+cr3.oireachtas.ie,oireachtas.ie,200,
+cr4.oireachtas.ie,oireachtas.ie,200,
+creative.ireland.ie,ireland.ie,301,
 creativeireland.gov.ie,gov.ie,301,none
 crinniu.creativeireland.gov.ie,gov.ie,Could not resolve host: crinniu.creativeireland.gov.ie,none
 cruinniu.creativeireland.gov.ie,gov.ie,301,none
+csa.ireland.ie,ireland.ie,ConnectException > UnresolvedAddressException,
 cseas.per.gov.ie,gov.ie,Could not resolve host: cseas.per.gov.ie,none
+culture.ireland.ie,ireland.ie,SSLHandshakeException > CertificateException: No subject alternative DNS name matching culture.ireland.ie found.,
 customerfss.ext.nsso.gov.ie,gov.ie,Could not resolve host: customerfss.ext.nsso.gov.ie,none
 customerfsstest.ext.nsso.gov.ie,gov.ie,Could not resolve host: customerfsstest.ext.nsso.gov.ie,none
 d365.agriculture.gov.ie,gov.ie,Could not resolve host: d365.agriculture.gov.ie,none
@@ -130,15 +159,21 @@ da.health.gov.ie,gov.ie,404,none
 da1.housing.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 dafmam.agriculture.gov.ie,gov.ie,302,none
 dafxen.agriculture.gov.ie,gov.ie,Could not resolve host: dafxen.agriculture.gov.ie,none
+dail.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 dara.agriculture.gov.ie,gov.ie,302,none
 dara2.agriculture.gov.ie,gov.ie,302,none
 darina.agriculture.gov.ie,gov.ie,Could not resolve host: darina.agriculture.gov.ie,none
+dashboards.oireachtas.ie,oireachtas.ie,200,
 data.gov.ie,gov.ie,Could not resolve host: data.gov.ie,none
 data.nbco.gov.ie,gov.ie,200,none
+data.oireachtas.ie,oireachtas.ie,200,
 dbei.gov.ie,gov.ie,301,10 mx2.topsec.com.; 10 mx1.topsec.com.
 dccae.gov.ie,gov.ie,SSL certificate problem: unable to get local issuer certificate,none
 dcya.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
 deathevents.gov.ie,gov.ie,SSL certificate problem: unable to get local issuer certificate,none
+debates-prelive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+debates.oireachtas.ie,oireachtas.ie,200,
+debatesarchive.oireachtas.ie,oireachtas.ie,403,
 decc.gov.ie,gov.ie,301,none
 demo.eidasmw.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 demo.eidasnode.gov.ie,gov.ie,Could not resolve host: demo.eidasnode.gov.ie,none
@@ -146,6 +181,7 @@ demo.sp.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
 demo.spidp.gov.ie,gov.ie,Could not resolve host: demo.spidp.gov.ie,none
 demo2.eidasnode.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
 dev.dgou.gov.ie,gov.ie,Could not resolve host: dev.dgou.gov.ie,none
+dev.library.oireachtas.ie,oireachtas.ie,403,
 dev.testing.gov.ie,gov.ie,Could not resolve host: dev.testing.gov.ie,none
 devassets.gov.ie,gov.ie,403,none
 development.rbo.gov.ie,gov.ie,Could not resolve host: development.rbo.gov.ie,none
@@ -172,6 +208,7 @@ ecs.idev.agriculture.gov.ie,gov.ie,Could not resolve host: ecs.idev.agriculture.
 ecs.itechtest.agriculture.gov.ie,gov.ie,Could not resolve host: ecs.itechtest.agriculture.gov.ie,none
 ecs.iuat.agriculture.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'ecs.iuat.agriculture.gov.ie',none
 education.gov.ie,gov.ie,Could not resolve host: education.gov.ie,none
+education.oireachtas.ie,oireachtas.ie,200,
 eforms.gov.ie,gov.ie,Could not resolve host: eforms.gov.ie,none
 eft.finance.gov.ie,gov.ie,Could not resolve host: eft.finance.gov.ie,none
 egovstrategy.gov.ie,gov.ie,Could not resolve host: egovstrategy.gov.ie,none
@@ -247,6 +284,7 @@ i.bts.gov.ie,gov.ie,Could not resolve host: i.bts.gov.ie,none
 iamsso.agriculture.gov.ie,gov.ie,Could not resolve host: iamsso.agriculture.gov.ie,none
 iamsso.iuat.agriculture.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'iamsso.iuat.agriculture.gov.ie',none
 ictstrategy.per.gov.ie,gov.ie,Could not resolve host: ictstrategy.per.gov.ie,none
+idp.oireachtas.ie,oireachtas.ie,404,
 ifisws.agriculture.gov.ie,gov.ie,TLS connect error: error:0A000410:SSL routines::ssl/tls alert handshake failure,none
 ifisws.iprelive.agriculture.gov.ie,gov.ie,Could not resolve host: ifisws.iprelive.agriculture.gov.ie,none
 ifisws.iuat.agriculture.gov.ie,gov.ie,TLS connect error: error:0A000410:SSL routines::ssl/tls alert handshake failure,none
@@ -255,6 +293,7 @@ igees.testing.gov.ie,gov.ie,Could not resolve host: igees.testing.gov.ie,none
 immigration.gov.ie,gov.ie,Could not resolve host: immigration.gov.ie,none
 implementationbody.gov.ie,gov.ie,Could not resolve host: implementationbody.gov.ie,none
 inis.gov.ie,gov.ie,Could not resolve host: inis.gov.ie,none
+inquiries.oireachtas.ie,oireachtas.ie,200,
 int.fss-nsso.gov.ie,gov.ie,Could not resolve host: int.fss-nsso.gov.ie,none
 int.nsso.gov.ie,gov.ie,Could not resolve host: int.nsso.gov.ie,none
 ipoi.gov.ie,gov.ie,200,none
@@ -286,11 +325,14 @@ kild-ex1.tsr.gov.ie,gov.ie,Could not resolve host: kild-ex1.tsr.gov.ie,none
 kild-ironport.ahg.gov.ie,gov.ie,Connection timed out after 3003 milliseconds,none
 kild-skype-pexipconf.vc.ahg.gov.ie,gov.ie,Could not resolve host: kild-skype-pexipconf.vc.ahg.gov.ie,none
 kilskypewebsrvext01.dbei.gov.ie,gov.ie,Could not resolve host: kilskypewebsrvext01.dbei.gov.ie,none
+koha-staff.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+koha.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 leads.gov.ie,gov.ie,Could not resolve host: leads.gov.ie,none
 legacy.agriculture.gov.ie,gov.ie,Could not resolve host: legacy.agriculture.gov.ie,none
 legacy.education.gov.ie,gov.ie,Could not resolve host: legacy.education.gov.ie,none
 lfdipsvcse.vc.gov.ie,gov.ie,Could not resolve host: lfdipsvcse.vc.gov.ie,none
 lfdvcse.vc.gov.ie,gov.ie,Could not resolve host: lfdvcse.vc.gov.ie,none
+library.oireachtas.ie,oireachtas.ie,403,
 liquidfiles.csso.gov.ie,gov.ie,200,none
 litir.dcenr.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 lyncdiscover.chg.gov.ie,gov.ie,Could not resolve host: lyncdiscover.chg.gov.ie,none
@@ -305,6 +347,8 @@ mail.health.gov.ie,gov.ie,Could not resolve host: mail.health.gov.ie,none
 mail.itservices.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 mail.rbo.gov.ie,gov.ie,Could not resolve host: mail.rbo.gov.ie,none
 mail1.itservices.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
+mail1.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+mail2.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 mail3.itservices.gov.ie,gov.ie,Could not resolve host: mail3.itservices.gov.ie,none
 mail4.itservices.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 mailbox.heritage.gov.ie,gov.ie,Could not resolve host: mailbox.heritage.gov.ie,none
@@ -323,6 +367,7 @@ mi247.taoiseach.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 misp.ncsc.gov.ie,gov.ie,Could not resolve host: misp.ncsc.gov.ie,none
 mobile.health.gov.ie,gov.ie,Connection timed out after 3003 milliseconds,none
 mobileiron.taoiseach.gov.ie,gov.ie,Could not resolve host: mobileiron.taoiseach.gov.ie,none
+mta-sts.oireachtas.ie,oireachtas.ie,403,
 mx1.ncsc.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 mx2.ncsc.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 mysites.education.gov.ie,gov.ie,Could not resolve host: mysites.education.gov.ie,none
@@ -330,6 +375,7 @@ naisc.health.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 nationalinventoryich.chg.gov.ie,gov.ie,SSL certificate problem: unable to get local issuer certificate,none
 ncs.gov.ie,gov.ie,301,0 ncs-gov-ie.mail.protection.outlook.com.
 ncsc.gov.ie,gov.ie,200,none
+newlibrary.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 npad.housing.gov.ie,gov.ie,Could not resolve host: npad.housing.gov.ie,none
 nsacommittee.gov.ie,gov.ie,Could not resolve host: nsacommittee.gov.ie,10 gbext.gn.gov.ie.; 10 cwext.gn.gov.ie.
 nsso.gov.ie,gov.ie,403,none
@@ -343,9 +389,14 @@ ogcio.gov.ie,gov.ie,302,none
 ogciocontent.gov.ie,gov.ie,Connection timed out after 3005 milliseconds,none
 ogp.gov.ie,gov.ie,302,none
 oic.gov.ie,gov.ie,Could not resolve host: oic.gov.ie,none
+oir-prelive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 oireachtas.ie,oireachtas.ie,302,10 oireachtas-ie.mail.protection.outlook.com.
+oireachtasdebates.oireachtas.ie,oireachtas.ie,200,
+oirtv.oireachtas.ie,oireachtas.ie,200,
 ombudsman.gov.ie,gov.ie,Could not resolve host: ombudsman.gov.ie,none
 onelearning.gov.ie,gov.ie,Could not resolve host: onelearning.gov.ie,20 gbext.gn.gov.ie.; 10 cwext.gn.gov.ie.
+onlinebooking.facebook.ireland.ie,ireland.ie,ConnectException > UnresolvedAddressException,
+opac.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 ops2020.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'ops2020.gov.ie',none
 opw.gov.ie,gov.ie,Could not resolve host: opw.gov.ie,none
 outlook-kild.tsr.gov.ie,gov.ie,Could not resolve host: outlook-kild.tsr.gov.ie,none
@@ -363,17 +414,23 @@ peerreview.testing.gov.ie,gov.ie,Could not resolve host: peerreview.testing.gov.
 peoplepoint.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'peoplepoint.gov.ie',none
 per.gov.ie,gov.ie,302,10 gbext.gn.gov.ie.; 10 cwext.gn.gov.ie.
 petal.housing.gov.ie,gov.ie,Could not resolve host: petal.housing.gov.ie,none
+petitions.oireachtas.ie,oireachtas.ie,403,
 play.aim.gov.ie,gov.ie,301,none
 playzone.testing.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
 pmgpensions.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
 pmgrecon-dr.finance.gov.ie,gov.ie,Could not resolve host: pmgrecon-dr.finance.gov.ie,none
 pmgrecon.finance.gov.ie,gov.ie,Could not resolve host: pmgrecon.finance.gov.ie,none
+portal.creative.ireland.ie,ireland.ie,301,
 portal.creativeireland.gov.ie,gov.ie,200,none
 portal.nvdf.gov.ie,gov.ie,Could not resolve host: portal.nvdf.gov.ie,none
 ppp.gov.ie,gov.ie,302,none
 ppwhereyourmoneygoes.gov.ie,gov.ie,301,none
+prelive-dashboards.oireachtas.ie,oireachtas.ie,403,
+prelive.oireachtas.ie,oireachtas.ie,SSLHandshakeException > CertificateException: No subject alternative DNS name matching prelive.oireachtas.ie found.,
+preprod.ireland.ie,ireland.ie,302,
 preproddgvt.gov.ie,gov.ie,Could not resolve host: preproddgvt.gov.ie,none
 prod.eidasnode.gov.ie,gov.ie,200,none
+prod.ireland.ie,ireland.ie,403,
 psa.gov.ie,gov.ie,Could not resolve host: psa.gov.ie,none
 psc.gov.ie,gov.ie,302,none
 pssc.gov.ie,gov.ie,Could not resolve host: pssc.gov.ie,none
@@ -386,6 +443,9 @@ pushmail.education.gov.ie,gov.ie,Could not resolve host: pushmail.education.gov.
 ra.finance.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 ra1.finance.gov.ie,gov.ie,Could not resolve host: ra1.finance.gov.ie,none
 ra1.itservices.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
+rabbitmq-dev.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+rabbitmq-prelive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+rabbitmq.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 ras1.welfare.gov.ie,gov.ie,Could not resolve host: ras1.welfare.gov.ie,none
 rbo.gov.ie,gov.ie,403,10 mx2.topsec.com.; 10 mx1.topsec.com.
 rdoforum.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'rdoforum.gov.ie',none
@@ -393,6 +453,7 @@ reentryvisa.inis.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 reformplan.per.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 register.rbo.gov.ie,gov.ie,200,none
 registerreform.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh,gov.ie,SSL: no alternative certificate subject name matches target hostname 'registerreform.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh',none
+relay.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 remote.taoiseach.gov.ie,gov.ie,Could not resolve host: remote.taoiseach.gov.ie,none
 remote1.audgen.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 remote2.audgen.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
@@ -412,18 +473,25 @@ rsa.decc.gov.ie,gov.ie,Could not resolve host: rsa.decc.gov.ie,none
 ruraldev.gov.ie,gov.ie,Could not resolve host: ruraldev.gov.ie,none
 sbci.gov.ie,gov.ie,200,none
 sc1-pvwa.ext.fss-nsso.gov.ie,gov.ie,Resolving timed out after 3001 milliseconds,none
+scheduler-dev.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+scheduler-prelive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+scheduler.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 scv.gov.ie,gov.ie,Could not resolve host: scv.gov.ie,none
 sdbahpaywbt.agriculture.gov.ie,gov.ie,Could not resolve host: sdbahpaywbt.agriculture.gov.ie,none
 sdbahsmtp01.agriculture.gov.ie,gov.ie,Could not resolve host: sdbahsmtp01.agriculture.gov.ie,none
 sdbahvcsc01.vcoip.agriculture.gov.ie,gov.ie,Could not resolve host: sdbahvcsc01.vcoip.agriculture.gov.ie,none
 sdbahvcse01.vcoip.agriculture.gov.ie,gov.ie,Could not resolve host: sdbahvcse01.vcoip.agriculture.gov.ie,none
 sdbdrpaywbd.agriculture.gov.ie,gov.ie,Could not resolve host: sdbdrpaywbd.agriculture.gov.ie,none
+seanad.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 secure.dccae.gov.ie,gov.ie,SSL certificate problem: unable to get local issuer certificate,none
 secure.dcenr.gov.ie,gov.ie,Could not resolve host: secure.dcenr.gov.ie,none
 secure.decc.gov.ie,gov.ie,200,none
+secure.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 secure.per.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 secure1.g2ia.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 secure2.g2ia.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
+secureconnect.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+secureportal.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 sentry.number23.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 sentry1.taoiseach.gov.ie,gov.ie,Could not resolve host: sentry1.taoiseach.gov.ie,none
 sepa.gov.ie,gov.ie,Failed to connect to sepa.gov.ie port 443 after 37 ms: Could not connect to server,none
@@ -434,6 +502,7 @@ sharefile.health.gov.ie,gov.ie,Failed to connect to sharefile.health.gov.ie port
 singlepensionscheme.gov.ie,gov.ie,200,none
 sip.chg.gov.ie,gov.ie,Could not resolve host: sip.chg.gov.ie,none
 sip.education.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
+sip.fideuramireland.ie,ireland.ie,ConnectException > UnresolvedAddressException,
 sip.itservices.gov.ie,gov.ie,Connection timed out after 3000 milliseconds,none
 sipo.gov.ie,gov.ie,Could not resolve host: sipo.gov.ie,none
 sitemanager.agriculture.gov.ie,gov.ie,Could not resolve host: sitemanager.agriculture.gov.ie,none
@@ -460,12 +529,15 @@ tandem.scv.gov.ie,gov.ie,Could not resolve host: tandem.scv.gov.ie,none
 taoiseach.gov.ie,gov.ie,302,none
 tasks.housing.gov.ie,gov.ie,301,none
 taxpolicy.gov.ie,gov.ie,Could not resolve host: taxpolicy.gov.ie,none
+tcsinfoland.ireland.ie,ireland.ie,ConnectException > UnresolvedAddressException,
 teachers.testing.gov.ie,gov.ie,Could not resolve host: teachers.testing.gov.ie,none
 test.housing.gov.ie,gov.ie,Could not resolve host: test.housing.gov.ie,none
 test.oasis.gov.ie,gov.ie,Could not resolve host: test.oasis.gov.ie,none
 test.offersofsupport.gov.ie,gov.ie,302,none
+testb.oireachtas.ie,oireachtas.ie,403,
 testdgvt.gov.ie,gov.ie,Could not resolve host: testdgvt.gov.ie,none
 testdomain.gov.ie,gov.ie,Could not resolve host: testdomain.gov.ie,none
+testingssl.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 testportal.creativeireland.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 testsite.testing.gov.ie,gov.ie,Could not resolve host: testsite.testing.gov.ie,none
 tithiocht.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh,gov.ie,SSL: no alternative certificate subject name matches target hostname 'tithiocht.gov.ie.master-7rqtwti-ycsaupgtdlwvo.eu.platform.sh',none
@@ -474,16 +546,21 @@ tools.housing.gov.ie,gov.ie,Could not resolve host: tools.housing.gov.ie,none
 tps.isi.gov.ie,gov.ie,SSL certificate problem: unable to get local issuer certificate,none
 traveler.ombudsman.gov.ie,gov.ie,Could not resolve host: traveler.ombudsman.gov.ie,none
 tsr.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
+tv.oireachtas.ie,oireachtas.ie,200,
 uat.dgou.gov.ie,gov.ie,Could not resolve host: uat.dgou.gov.ie,none
 uat.eusf2014.gov.ie,gov.ie,SSL certificate problem: unable to get local issuer certificate,none
 uat.gov.ie,gov.ie,Could not resolve host: uat.gov.ie,none
+uat.ireland.ie,ireland.ie,302,
 uat.sbci.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 uatapi.gov.ie,gov.ie,Could not resolve host: uatapi.gov.ie,none
 uatcontent.gov.ie,gov.ie,Could not resolve host: uatcontent.gov.ie,none
 ubu.gov.ie,gov.ie,Could not resolve host: ubu.gov.ie,none
 vc.gov.ie,gov.ie,400,none
+video.oireachtas.ie,oireachtas.ie,403,
 visas.inis.gov.ie,gov.ie,Could not resolve host: visas.inis.gov.ie,none
+vms.oireachtas.ie,oireachtas.ie,200,
 wc.chg.gov.ie,gov.ie,Could not resolve host: wc.chg.gov.ie,none
+webarchive.oireachtas.ie,oireachtas.ie,302,
 webconf.itservices.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 webdisk.rbo.gov.ie,gov.ie,Could not resolve host: webdisk.rbo.gov.ie,none
 webmail.agriculture.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
@@ -503,6 +580,7 @@ ww1.bcp.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 ww1.g2ia.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 www.aai.gov.ie,gov.ie,301,10 cwext.gn.gov.ie.; 10 gbext.gn.gov.ie.
 www.aai.irelandwebsite.com.aai.gov.ie,gov.ie,Could not resolve host: www.aai.irelandwebsite.com.aai.gov.ie,none
+www.africaday.uat.ireland.ie,ireland.ie,301,
 www.agriculture.gov.ie,gov.ie,Could not resolve host: www.agriculture.gov.ie,none
 www.aim.gov.ie,gov.ie,301,none
 www.appsentry.taoiseach.gov.ie,gov.ie,Could not resolve host: www.appsentry.taoiseach.gov.ie,none
@@ -530,6 +608,7 @@ www.dbei.gov.ie,gov.ie,Could not resolve host: www.dbei.gov.ie,10 mx1.topsec.com
 www.dccae.gov.ie,gov.ie,SSL certificate problem: unable to get local issuer certificate,20 cwext.vpn.gov.ie.; 30 gbext.gn.gov.ie.; 10 cwext2.vpn.gov.ie.
 www.dcya.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,10 gbext.gn.gov.ie.; 10 cwext.gn.gov.ie.
 www.deathevents.gov.ie,gov.ie,Could not resolve host: www.deathevents.gov.ie,none
+www.debatesarchive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 www.decc.gov.ie,gov.ie,301,none
 www.development.rbo.gov.ie,gov.ie,Could not resolve host: www.development.rbo.gov.ie,none
 www.drcd.gov.ie,gov.ie,Could not resolve host: www.drcd.gov.ie,none
@@ -565,15 +644,18 @@ www.housing.old.gov.ie,gov.ie,Could not resolve host: www.housing.old.gov.ie,non
 www.hr.per.gov.ie,gov.ie,302,none
 www.hr.testing.gov.ie,gov.ie,Could not resolve host: www.hr.testing.gov.ie,none
 www.ictstrategy.per.gov.ie,gov.ie,302,none
+www.idp.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 www.igees.testing.gov.ie,gov.ie,Could not resolve host: www.igees.testing.gov.ie,none
 www.implementationbody.gov.ie,gov.ie,Could not resolve host: www.implementationbody.gov.ie,none
 www.inis.gov.ie,gov.ie,SSL certificate problem: unable to get local issuer certificate,none
+www.inquiries.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 www.ipoi.gov.ie,gov.ie,200,none
 www.ireland.ie,ireland.ie,302,none
 www.ireland2016.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 www.isi.gov.ie,gov.ie,302,none
 www.jdeweb.itservices.gov.ie,gov.ie,Could not resolve host: www.jdeweb.itservices.gov.ie,none
 www.leads.gov.ie,gov.ie,Could not resolve host: www.leads.gov.ie,none
+www.library.oireachtas.ie,oireachtas.ie,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.mail.defence.gov.ie,gov.ie,Could not resolve host: www.mail.defence.gov.ie,none
 www.mail.health.gov.ie,gov.ie,Could not resolve host: www.mail.health.gov.ie,none
 www.mail.itservices.gov.ie,gov.ie,Could not resolve host: www.mail.itservices.gov.ie,none
@@ -596,8 +678,11 @@ www.ocei.gov.ie,gov.ie,Could not resolve host: www.ocei.gov.ie,none
 www.ogciocontent.gov.ie,gov.ie,Connection timed out after 3002 milliseconds,none
 www.ogp.gov.ie,gov.ie,302,10 gbext.gn.gov.ie.; 10 cwext.gn.gov.ie.
 www.oic.gov.ie,gov.ie,Could not resolve host: www.oic.gov.ie,none
+www.oir-prelive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 www.oireachtas.ie,oireachtas.ie,200,none
 www.ombudsman.gov.ie,gov.ie,Could not resolve host: www.ombudsman.gov.ie,none
+www.onlinebooking.facebook.ireland.ie,ireland.ie,ConnectException > UnresolvedAddressException,
+www.opac.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 www.ops2020.gov.ie,gov.ie,SSL: no alternative certificate subject name matches target hostname 'www.ops2020.gov.ie',none
 www.opw.gov.ie,gov.ie,Connection timed out after 3001 milliseconds,none
 www.paycommission.gov.ie,gov.ie,Could not resolve host: www.paycommission.gov.ie,none
@@ -609,6 +694,7 @@ www.pmgpensions.gov.ie,gov.ie,Could not resolve host: www.pmgpensions.gov.ie,non
 www.pmgrecon-dr.finance.gov.ie,gov.ie,Could not resolve host: www.pmgrecon-dr.finance.gov.ie,none
 www.pmgrecon.finance.gov.ie,gov.ie,Could not resolve host: www.pmgrecon.finance.gov.ie,none
 www.ppp.gov.ie,gov.ie,302,none
+www.preprod.ireland.ie,ireland.ie,403,
 www.psa.gov.ie,gov.ie,SSL certificate problem: certificate has expired,none
 www.psc.gov.ie,gov.ie,302,none
 www.pssc.gov.ie,gov.ie,Could not resolve host: www.pssc.gov.ie,none
@@ -628,7 +714,10 @@ www.sc1-pvwa.ext.fss-nsso.gov.ie,gov.ie,Could not resolve host: www.sc1-pvwa.ext
 www.scv.gov.ie,gov.ie,Could not resolve host: www.scv.gov.ie,none
 www.secure.dccae.gov.ie,gov.ie,Could not resolve host: www.secure.dccae.gov.ie,none
 www.secure.dcenr.gov.ie,gov.ie,Could not resolve host: www.secure.dcenr.gov.ie,none
+www.secure.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 www.secure.per.gov.ie,gov.ie,Could not resolve host: www.secure.per.gov.ie,none
+www.secureconnect.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
+www.secureportal.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 www.sentry1.taoiseach.gov.ie,gov.ie,Could not resolve host: www.sentry1.taoiseach.gov.ie,none
 www.sepa.gov.ie,gov.ie,Could not resolve host: www.sepa.gov.ie,none
 www.sftpfss.ext.nsso.gov.ie,gov.ie,Could not resolve host: www.sftpfss.ext.nsso.gov.ie,none
@@ -643,6 +732,7 @@ www.symposium.health.gov.ie,gov.ie,Could not resolve host: www.symposium.health.
 www.tandem.scv.gov.ie,gov.ie,Could not resolve host: www.tandem.scv.gov.ie,none
 www.taoiseach.gov.ie,gov.ie,302,none
 www.taxpolicy.gov.ie,gov.ie,Could not resolve host: www.taxpolicy.gov.ie,none
+www.tcsinfoland.ireland.ie,ireland.ie,ConnectException > UnresolvedAddressException,
 www.teachers.testing.gov.ie,gov.ie,Could not resolve host: www.teachers.testing.gov.ie,none
 www.testsite.testing.gov.ie,gov.ie,Could not resolve host: www.testsite.testing.gov.ie,none
 www.tithiocht.gov.ie,gov.ie,301,none
@@ -651,8 +741,10 @@ www.tobaccoconsultation.gov.ie,gov.ie,Could not resolve host: www.tobaccoconsult
 www.ttt.agriculture.gov.ie,gov.ie,Could not resolve host: www.ttt.agriculture.gov.ie,none
 www.uat.eusf2014.gov.ie,gov.ie,Could not resolve host: www.uat.eusf2014.gov.ie,none
 www.uat.gov.ie,gov.ie,Could not resolve host: www.uat.gov.ie,none
+www.uat.ireland.ie,ireland.ie,403,
 www.ubu.gov.ie,gov.ie,301,none
 www.visas.inis.gov.ie,gov.ie,301,none
+www.webarchive.oireachtas.ie,oireachtas.ie,ConnectException > UnresolvedAddressException,
 www.webmail.health.gov.ie,gov.ie,Could not resolve host: www.webmail.health.gov.ie,none
 www.whereyourmoneygoes.gov.ie,gov.ie,302,none
 www.whodoeswhat.gov.ie,gov.ie,302,none

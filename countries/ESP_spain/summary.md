@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 17 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Madrid
-- Hosts collected: 70
+- Hosts collected: 1693
 
 ## UN/DESA national portal
 

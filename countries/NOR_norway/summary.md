@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 15 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Oslo
-- Hosts collected: 402
+- Hosts collected: 502
 
 ## UN/DESA national portal
 

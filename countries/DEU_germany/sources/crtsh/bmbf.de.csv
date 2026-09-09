@@ -1,3 +1,21 @@
 subdomain,http_status,mx
+bafoeg-rechner.bmbf.de,ConnectException > UnresolvedAddressException,
+bildungdigital.bmbf.de,503,
 bmbf.de,303,10 mx2.bund.de.; 10 mx1.bund.de.
+datenportal.bmbf.de,301,
+dev-iat.ecorda.bmbf.de,403,
+dev-portal.ecorda.bmbf.de,403,
+dev.ecorda.bmbf.de,200,
+ecorda.bmbf.de,200,
+forschungscampus.bmbf.de,301,
+iat.ecorda.bmbf.de,403,
+livefeedback.bmbf.de,503,
+mail.bmbf.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mdm.bmbf.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+medien.bmbf.de,303,
+styleguide.bmbf.de,303,
+www.bildungdigital.bmbf.de,503,
 www.bmbf.de,303,none
+www.datenportal.bmbf.de,301,
+www.forschungscampus.bmbf.de,301,
+www.styleguide.bmbf.de,303,

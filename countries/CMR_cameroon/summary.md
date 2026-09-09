@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 155 of 193
 - Government type: presidential republic
 - Capital: Yaounde
-- Hosts collected: 127
+- Hosts collected: 133
 
 ## UN/DESA national portal
 

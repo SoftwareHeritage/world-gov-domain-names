@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 10 of 193
 - Government type: parliamentary constitutional monarchy; part of the Kingdom of the Netherlands
 - Capital: Amsterdam
-- Hosts collected: 31
+- Hosts collected: 1348
 
 ## UN/DESA national portal
 

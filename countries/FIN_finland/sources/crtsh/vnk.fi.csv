@@ -1,3 +1,9 @@
 subdomain,http_status,mx
+enterpriseregistration.vnk.fi,ConnectException > UnresolvedAddressException,
+lyncdiscover.vnk.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+posti.vnk.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+qa.vnk.fi,ConnectException > UnresolvedAddressException,
+sip.vnk.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+viesti.vnk.fi,200,
 vnk.fi,301,none
 www.vnk.fi,301,none

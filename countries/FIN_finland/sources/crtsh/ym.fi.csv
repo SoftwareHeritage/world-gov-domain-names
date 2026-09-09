@@ -1,3 +1,10 @@
 subdomain,http_status,mx
+beta.ym.fi,ConnectException > UnresolvedAddressException,
+enterpriseregistration.ym.fi,ConnectException > UnresolvedAddressException,
+lyncdiscover.ym.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+qa.ym.fi,403,
+sip.ym.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+uutiskirje.ym.fi,SSLHandshakeException > CertificateException: No subject alternative DNS name matching uutiskirje.ym.fi found.,
+vappujuhlat.ym.fi,ConnectException > UnresolvedAddressException,
 www.ym.fi,302,none
 ym.fi,302,10 mail.valtori.fi.

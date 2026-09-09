@@ -6,7 +6,11 @@ assembly.gov.gm,gov.gm,Could not resolve host: assembly.gov.gm,none
 autodiscover.gov.gm,gov.gm,Could not resolve host: autodiscover.gov.gm,none
 bcc.gov.gm,gov.gm,Could not resolve host: bcc.gov.gm,20 fallbackmx.spamexperts.eu.; 30 lastmx.spamexperts.net.; 10 mx.spamexperts.com.
 bpa.easybusiness.gov.gm,gov.gm,200,10 mail.gov.gm.
+cadre.gov.gm,gov.gm,200,
+civilservice.mops.gov.gm,gov.gm,504,
+dashboard.mops.gov.gm,gov.gm,504,
 data.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
+data.mops.gov.gm,gov.gm,504,
 dcd.gov.gm,gov.gm,Could not resolve host: dcd.gov.gm,none
 digitaladdressing.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 dol.gov.gm,gov.gm,Could not resolve host: dol.gov.gm,none
@@ -35,16 +39,20 @@ govpay.gov.gm,gov.gm,302,none
 gpa.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 gps.gov.gm,gov.gm,Operation timed out after 3000 milliseconds with 0 bytes received,20 fallbackmx.spamexperts.eu.; 30 mail2.gov.gm.; 10 mx.spamexperts.com.
 graylog.easybusiness.gov.gm,gov.gm,200,10 mail.gov.gm.
+gwmail.gov.gm,gov.gm,ConnectException > UnresolvedAddressException,
 hmis.gov.gm,gov.gm,Could not resolve host: hmis.gov.gm,none
 icewarp.gov.gm,gov.gm,Could not resolve host: icewarp.gov.gm,none
 judiciary.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 login.easybusiness.gov.gm,gov.gm,302,none
 mail.gov.gm,gov.gm,302,none
+mail1.gov.gm,gov.gm,200,
 mail2.gov.gm,gov.gm,Could not resolve host: mail2.gov.gm,none
+mail3.gov.gm,gov.gm,SSLHandshakeException > CertificateException: No subject alternative DNS name matching mail3.gov.gm found.,
 meccnar.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 moa.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 mobse.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,10 mail.gov.gm.
 mocde.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
+mocde1.gov.gm,gov.gm,ConnectException > UnresolvedAddressException,
 mod.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 moe.gov.gm,gov.gm,Could not resolve host: moe.gov.gm,none
 mofa.gov.gm,gov.gm,200,none
@@ -70,6 +78,7 @@ moys.gov.gm,gov.gm,Operation timed out after 3000 milliseconds with 0 bytes rece
 naqaa.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,10 mail.gov.gm.
 nccrm.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 ndp.gov.gm,gov.gm,302,none
+nps.gps.gov.gm,gov.gm,200,
 nrs.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,10 mail.gov.gm.
 ons.gov.gm,gov.gm,Could not resolve host: ons.gov.gm,10 mail.gov.gm.
 op.gov.gm,gov.gm,200,none
@@ -79,10 +88,14 @@ police.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certifi
 policies.gov.gm,gov.gm,200,none
 ps.moa.gov.gm,gov.gm,Could not resolve host: ps.moa.gov.gm,none
 psc.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
+registry.mops.gov.gm,gov.gm,504,
+rmb01.gov.gm,gov.gm,SSLHandshakeException > CertificateException: No subject alternative DNS name matching rmb01.gov.gm found.,
 services.easybusiness.gov.gm,gov.gm,200,none
+sief.moherst.gov.gm,gov.gm,200,
 smtp.gov.gm,gov.gm,Could not resolve host: smtp.gov.gm,none
 statehouse.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 stats.easybusiness.gov.gm,gov.gm,Could not resolve host: stats.easybusiness.gov.gm,none
+swbr.gamregistry.gov.gm,gov.gm,500,
 training-admin.gov.gm,gov.gm,Connection timed out after 3002 milliseconds,none
 training-admin.gov.gm.gm.orangebd.com,gov.gm,SSL: no alternative certificate subject name matches target hostname 'training-admin.gov.gm.gm.orangebd.com',none
 training-api.gov.gm,gov.gm,Could not resolve host: training-api.gov.gm,none
@@ -92,9 +105,11 @@ training-workflow.gov.gm.gm.orangebd.com,gov.gm,SSL: no alternative certificate 
 training.gov.gm,gov.gm,Connection timed out after 3002 milliseconds,none
 training.gov.gm.gm.orangebd.com,gov.gm,SSL: no alternative certificate subject name matches target hostname 'training.gov.gm.gm.orangebd.com',none
 un.gambiamission.gov.gm,gov.gm,Could not resolve host: un.gambiamission.gov.gm,none
+webmail.gov.gm,gov.gm,200,
 www.addis.gambiamission.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 www.assembly.gov.gm,gov.gm,Could not resolve host: www.assembly.gov.gm,none
 www.bcc.gov.gm,gov.gm,Could not resolve host: www.bcc.gov.gm,none
+www.cadre.gov.gm,gov.gm,200,
 www.data.gov.gm,gov.gm,SSL certificate problem: unable to get local issuer certificate,none
 www.dcd.gov.gm,gov.gm,Could not resolve host: www.dcd.gov.gm,none
 www.digitaladdressing.gov.gm,gov.gm,Could not resolve host: www.digitaladdressing.gov.gm,none

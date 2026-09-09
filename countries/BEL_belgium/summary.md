@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 56 of 193
 - Government type: federal parliamentary democracy under a constitutional monarchy
 - Capital: Brussels
-- Hosts collected: 806
+- Hosts collected: 1703
 
 ## UN/DESA national portal
 
@@ -55,4 +55,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `parlement.brussels` | central-1 | 301 | wikidata;wikidata | Parliament of the Brussels-Capital Region |
 | 7 | `pdg.be` | central-1 | 403 | wikidata;wikidata | Parliament of the German-speaking Community |
 | 7 | `pfwb.be` | central-1 | ConnectEx... | wikidata;wikidata | Parliament of the French Community |
+
+## ccTLD anomalies
+
+Domains outside `.be` (allowed: common gTLDs + ``):
+
+```
+.site ibz.be.91-107-147-194.cpanel.site
+.site www.ibz.be.91-107-147-194.cpanel.site
+```
 

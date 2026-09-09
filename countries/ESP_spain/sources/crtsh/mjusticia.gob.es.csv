@@ -1,3 +1,10 @@
 subdomain,http_status,mx
+bpmasc.mjusticia.gob.es,301,
+cita-previa.mjusticia.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+citaprevia.mjusticia.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+ficheros.mjusticia.gob.es,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Sep 15 18:00:00 CEST 2025,
+lei.mjusticia.gob.es,ConnectException > UnresolvedAddressException,
 mjusticia.gob.es,ConnectException,none
+sede.mjusticia.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+sede2.mjusticia.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 www.mjusticia.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

@@ -1,3 +1,16 @@
 subdomain,http_status,mx
+admin.aeldremin.dk,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+admin.english.aeldremin.dk,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+admin.intra.aeldremin.dk,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 aeldremin.dk,200,10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.
+autodiscover.aeldremin.dk,ConnectException > UnresolvedAddressException,
+cdn.aeldremin.dk,404,
+english.aeldremin.dk,200,
+f2-mobil.aeldremin.dk,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+f2-mobiltest.aeldremin.dk,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+gapi.admin.aeldremin.dk,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+gapi.admin.english.aeldremin.dk,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+intra.aeldremin.dk,403,
+lyncdiscover.aeldremin.dk,ConnectException > UnresolvedAddressException,
+sip.aeldremin.dk,ConnectException > UnresolvedAddressException,
 www.aeldremin.dk,SSLHandshakeException: Remote host terminated the handshake,10 mx07.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.

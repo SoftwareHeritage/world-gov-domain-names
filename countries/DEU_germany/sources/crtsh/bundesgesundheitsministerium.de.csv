@@ -1,3 +1,6 @@
 subdomain,http_status,mx
 bundesgesundheitsministerium.de,301,20 mx02.pixelpark.com.; 20 mx01.pixelpark.com.
+dev.bundesgesundheitsministerium.de,SSLHandshakeException > CertificateException: No subject alternative DNS name matching dev.bundesgesundheitsministerium.de found.,
+mantis.bundesgesundheitsministerium.de,SSLHandshakeException > CertificateException: No subject alternative DNS name matching mantis.bundesgesundheitsministerium.de found.,
+stage.bundesgesundheitsministerium.de,SSLHandshakeException > CertificateException: No subject alternative DNS name matching stage.bundesgesundheitsministerium.de found.,
 www.bundesgesundheitsministerium.de,200,none

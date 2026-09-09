@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 32 of 193
 - Government type: parliamentary republic
 - Capital: Zagreb
-- Hosts collected: 507
+- Hosts collected: 615
 
 ## UN/DESA national portal
 

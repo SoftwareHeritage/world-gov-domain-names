@@ -3,7 +3,9 @@ abarkooh.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,10 mg.ostan-y
 accounts.itec.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
 admin.behdasht.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
 admin.ostan-ag.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
+aeoi.gov.ir,gov.ir,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 afta.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,10 mail.afta.gov.ir.
+ai.gov.ir,gov.ir,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 ai.mcls.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
 aiiri.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,10 mailgw.aiiri.gov.ir.
 ajcoop.mcls.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
@@ -15,6 +17,7 @@ apicedportal.cbi.gov.ir,gov.ir,Could not resolve host: apicedportal.cbi.gov.ir,n
 apnp.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 apps.iranpass.ito.gov.ir,gov.ir,Could not resolve host: apps.iranpass.ito.gov.ir,none
 arb.mcls.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
+arbaeen.gov.ir,gov.ir,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 arbaeen.ito.gov.ir,gov.ir,Connection timed out after 3001 milliseconds,none
 ardakan.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
 aro.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,10 mail.aro.gov.ir.
@@ -37,6 +40,7 @@ ccs.ito.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 cedportal.cbi.gov.ir,gov.ir,Could not resolve host: cedportal.cbi.gov.ir,none
 cloud.gov.ir,gov.ir,Connection timed out after 3001 milliseconds,none
 cobi.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
+cra.gov.ir,gov.ir,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 css.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,dig error
 cyberpolice.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 data.gov.ir,gov.ir,Resolving timed out after 3004 milliseconds,none
@@ -51,6 +55,7 @@ econsulate.mfa.gov.ir,gov.ir,307,none
 ehr.gov.ir,gov.ir,Could not resolve host: ehr.gov.ir,none
 email.ihio.gov.ir,gov.ir,Resolving timed out after 3007 milliseconds,none
 emis.mimt.gov.ir,gov.ir,Connection timed out after 3001 milliseconds,none
+emispanel.mimt.gov.ir,gov.ir,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 ems.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
 esb.farhang.gov.ir,gov.ir,403,none
 eservices.ihio.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
@@ -152,6 +157,7 @@ pargar.ashayer-es.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 payesh.mpo-hr.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
 piu.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 pooyesh.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
+pouyanfund.cbi.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
 rabak.cbi.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 rca.gov.ir,gov.ir,Connection timed out after 3003 milliseconds,none
 reg.fiu.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
@@ -168,6 +174,7 @@ seen.cbi.gov.ir,gov.ir,Could not resolve host: seen.cbi.gov.ir,none
 service.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
 shahriye.smttk.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
 smttk.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
+sookht.gov.ir,gov.ir,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 sso.farhang.gov.ir,gov.ir,403,none
 sso.mimt.gov.ir,gov.ir,Connection timed out after 3001 milliseconds,none
 static.itec.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
@@ -217,6 +224,7 @@ www.css.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
 www.data.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
 www.dl.mod.gov.ir,gov.ir,Could not resolve host: www.dl.mod.gov.ir,none
 www.ecommerce.gov.ir,gov.ir,Connection timed out after 3001 milliseconds,none
+www.emispanel.mimt.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
 www.ems.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
 www.event.moe.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 www.form.sampad.gov.ir,gov.ir,Could not resolve host: www.form.sampad.gov.ir,none
@@ -236,6 +244,7 @@ www.lmo.gov.ir,gov.ir,Connection timed out after 3002 milliseconds,none
 www.mail.ecommerce.gov.ir,gov.ir,Could not resolve host: www.mail.ecommerce.gov.ir,none
 www.mail.ihio.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 www.mail.iran.gov.ir,gov.ir,Could not resolve host: www.mail.iran.gov.ir,none
+www.mail.mefa.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
 www.mail.piam.piu.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 www.mana.itec.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 www.marvast.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
@@ -245,9 +254,13 @@ www.mianeh.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 www.miyanjolgeh.gov.ir,gov.ir,Could not resolve host: www.miyanjolgeh.gov.ir,none
 www.mq.piu.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,none
 www.msy.gov.ir,gov.ir,Connection timed out after 3001 milliseconds,none
+www.mx1.mefa.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
+www.mx2.mefa.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
+www.mx3.mefa.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
 www.nicc.gov.ir,gov.ir,403,none
 www.nix.behdasht.gov.ir,gov.ir,Could not resolve host: www.nix.behdasht.gov.ir,none
 www.ntoir.gov.ir,gov.ir,Could not resolve host: www.ntoir.gov.ir,none
+www.office.ihio.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
 www.ostan-ag.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
 www.ostan-as.gov.ir,gov.ir,Could not resolve host: www.ostan-as.gov.ir,none
 www.pargar.ashayer-es.gov.ir,gov.ir,Resolving timed out after 3002 milliseconds,none
@@ -269,13 +282,16 @@ www.tazirat.gov.ir,gov.ir,403,none
 www.tiyam.smttk.gov.ir,gov.ir,Could not resolve host: www.tiyam.smttk.gov.ir,none
 www.tiyamlms.smttk.gov.ir,gov.ir,Could not resolve host: www.tiyamlms.smttk.gov.ir,none
 www.varzeshrosta.msy.gov.ir,gov.ir,Could not resolve host: www.varzeshrosta.msy.gov.ir,none
+www.webapi.ihio.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
 www.webmail.css.gov.ir,gov.ir,Resolving timed out after 3000 milliseconds,none
+www.webmail.mefa.gov.ir,gov.ir,ConnectException > UnresolvedAddressException,
 www.webmail.ostan-ag.gov.ir,gov.ir,Resolving timed out after 3000 milliseconds,none
 www.ws.iran.gov.ir,gov.ir,Could not resolve host: www.ws.iran.gov.ir,none
 www.xbrl.cbi.gov.ir,gov.ir,Could not resolve host: www.xbrl.cbi.gov.ir,none
 www.yazd.gov.ir,gov.ir,Resolving timed out after 3001 milliseconds,10 mg.ostan-yz.ir.
 www.zarch.gov.ir,gov.ir,Resolving timed out after 3000 milliseconds,none
 xbrl.cbi.gov.ir,gov.ir,Resolving timed out after 3000 milliseconds,none
+yab.gov.ir,gov.ir,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 yazd.gov.ir,gov.ir,Resolving timed out after 3000 milliseconds,none
 zamin.gov.ir,gov.ir,Connection timed out after 3001 milliseconds,none
 zarch.gov.ir,gov.ir,Resolving timed out after 3000 milliseconds,none

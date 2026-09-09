@@ -1,3 +1,8 @@
 subdomain,http_status,mx
+cpage.mpr.gob.es,200,
+igualdad.mpr.gob.es,ConnectException > UnresolvedAddressException,
 mpr.gob.es,302,none
+pilotocpage.mpr.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+seat.mpr.gob.es,ConnectException > UnresolvedAddressException,
+www.cpage.mpr.gob.es,ConnectException > UnresolvedAddressException,
 www.mpr.gob.es,302,none

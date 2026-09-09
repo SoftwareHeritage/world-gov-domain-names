@@ -1,3 +1,11 @@
 subdomain,http_status,mx
+admin.mssb.dk,403,
+autodiscover.mssb.dk,ConnectException > UnresolvedAddressException,
+f2-mobil.mssb.dk,ConnectException > UnresolvedAddressException,
+f2-mobiltest.mssb.dk,ConnectException > UnresolvedAddressException,
+intra.mssb.dk,403,
+lyncdiscover.mssb.dk,IOException > SocketException: Connection reset,
 mssb.dk,200,10 mx04.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.
+sip.mssb.dk,404,
+www.admin.mssb.dk,302,
 www.mssb.dk,302,10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.

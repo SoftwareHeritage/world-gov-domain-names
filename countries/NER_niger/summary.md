@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 187 of 193
 - Government type: formerly, semi-presidential republic
 - Capital: Niamey
-- Hosts collected: 121
+- Hosts collected: 126
 
 ## UN/DESA national portal
 

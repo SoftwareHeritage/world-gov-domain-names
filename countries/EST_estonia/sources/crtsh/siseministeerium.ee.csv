@@ -1,2 +1,12 @@
 subdomain,http_status,mx
+adr.siseministeerium.ee,200,
+autodiscover.siseministeerium.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+lyncdiscover.siseministeerium.ee,ConnectException > UnresolvedAddressException,
+ppa.siseministeerium.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+rr.siseministeerium.ee,401,
+sim.siseministeerium.ee,ConnectException > ClosedChannelException,
+sip.siseministeerium.ee,ConnectException > UnresolvedAddressException,
 siseministeerium.ee,200,10 mx1.smit.ee.; 20 mx2.smit.ee.; 30 mx3.smit.ee.
+sitrep.siseministeerium.ee,200,
+vana.siseministeerium.ee,ConnectException > UnresolvedAddressException,
+www.siseministeerium.ee,200,

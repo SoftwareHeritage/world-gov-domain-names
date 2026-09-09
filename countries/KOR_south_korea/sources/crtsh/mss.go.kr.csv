@@ -1,3 +1,11 @@
 subdomain,http_status,mx
+imail.mss.go.kr,ConnectException > UnresolvedAddressException,
+intpoll.mss.go.kr,ConnectException > UnresolvedAddressException,
+kms3.mss.go.kr,ConnectException > UnresolvedAddressException,
 mss.go.kr,200,10 antispam.korea.kr.
+poll.mss.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sanhakin.mss.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching sanhakin.mss.go.kr found.,
+siheom.mss.go.kr,400,
+sminfo.mss.go.kr,405,
 www.mss.go.kr,200,none
+www.sanhakin.mss.go.kr,ConnectException > UnresolvedAddressException,

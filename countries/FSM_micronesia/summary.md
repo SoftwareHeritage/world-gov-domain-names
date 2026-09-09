@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 167 of 193
 - Government type: federal republic in free association with the US
 - Capital: Palikir
-- Hosts collected: 146
+- Hosts collected: 152
 
 ## UN/DESA national portal
 

@@ -32,6 +32,7 @@ api.moenergy.gov.sy,gov.sy,Could not resolve host: api.moenergy.gov.sy,none
 api.nawat.moad.gov.sy,gov.sy,302,none
 api.qr.moad.gov.sy,gov.sy,404,none
 api.queue.daraa.gov.sy,gov.sy,401,none
+api.rif-dimashq.gov.sy,gov.sy,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 api.staging.hrsystem.moad.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'api.staging.hrsystem.moad.gov.sy',none
 api.staging.nawat.moad.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'api.staging.nawat.moad.gov.sy',none
 api.syrianpost.gov.sy,gov.sy,403,none
@@ -47,6 +48,7 @@ apis.surveys.system.mow.gov.sy,gov.sy,200,none
 apitawasal.moh.gov.sy,gov.sy,200,none
 app-new.attendance.daraa.gov.sy,gov.sy,200,none
 app.civilaffair-moi.gov.sy,gov.sy,301,none
+app.civilaffairs-moi.gov.sy,gov.sy,200,
 app.gaca.gov.sy,gov.sy,Could not resolve host: app.gaca.gov.sy,none
 app.gaf.gov.sy,gov.sy,500,none
 app.masjidak.mow.gov.sy,gov.sy,Could not resolve host: app.masjidak.mow.gov.sy,none
@@ -60,7 +62,9 @@ appointment-patient.moh.gov.sy,gov.sy,307,none
 archive.system.mow.gov.sy,gov.sy,302,none
 archivesys.moed.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 areamng.hama.gov.sy,gov.sy,Could not resolve host: areamng.hama.gov.sy,none
+artery.hama.gov.sy,gov.sy,200,
 asasy2018.moed.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
+asel.casi.gov.sy,gov.sy,ConnectException > UnresolvedAddressException,
 attach.gaf.gov.sy,gov.sy,404,none
 attend.gaf.gov.sy,gov.sy,404,none
 attendance.moad.gov.sy,gov.sy,404,none
@@ -82,6 +86,7 @@ autodiscover.ncaq-gov.sy,gov.sy,Could not resolve host: autodiscover.ncaq-gov.sy
 autodiscover.ncmp.gov.sy,gov.sy,200,none
 autodiscover.seife.gov.sy,gov.sy,Could not resolve host: autodiscover.seife.gov.sy,none
 autodiscover.sgmc.gov.sy,gov.sy,Could not resolve host: autodiscover.sgmc.gov.sy,none
+backend.masajid-r-1.mow.gov.sy,gov.sy,200,
 backend.masajid-r.mow.gov.sy,gov.sy,200,none
 banquecentrale.gov.sy,gov.sy,Could not resolve host: banquecentrale.gov.sy,none
 barq.moct.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
@@ -92,9 +97,16 @@ bitwarden.moad.gov.sy,gov.sy,404,none
 borders.gov.sy,gov.sy,200,10 mail.borders.gov.sy.
 bpa.mycompany.gov.sy,gov.sy,Could not resolve host: bpa.mycompany.gov.sy,none
 bse.gov.sy,gov.sy,Failed to connect to bse.gov.sy port 443 after 164 ms: Could not connect to server,none
+budget.app.pm.gov.sy,gov.sy,404,
+bunat.moad.gov.sy,gov.sy,200,
+bunatadmin.moad.gov.sy,gov.sy,200,
+bunatbackend.moad.gov.sy,gov.sy,401,
+cafeteria.app.pm.gov.sy,gov.sy,404,
 calender.ssf.gov.sy,gov.sy,200,none
 calender.system.mow.gov.sy,gov.sy,200,none
 captcha.mofaex.gov.sy,gov.sy,500,none
+cards.app.pm.gov.sy,gov.sy,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+cars.cofc.gov.sy,gov.sy,ConnectException > UnresolvedAddressException,
 casi-mail.casi.gov.sy,gov.sy,Could not resolve host: casi-mail.casi.gov.sy,none
 casi.gov.sy,gov.sy,200,none
 cb.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
@@ -105,18 +117,25 @@ cdn.mofaex.gov.sy,gov.sy,Could not resolve host: cdn.mofaex.gov.sy,none
 chat.ssf.gov.sy,gov.sy,Could not resolve host: chat.ssf.gov.sy,none
 ci.cd.system.mow.gov.sy,gov.sy,404,none
 civilaffair-moi.gov.sy,gov.sy,301,none
+civilaffairs-moi.gov.sy,gov.sy,200,
+climweb-stg.med.gov.sy,gov.sy,200,
 climweb.med.gov.sy,gov.sy,200,none
 cloud.civilaffair-moi.gov.sy,gov.sy,302,10 mail.cloud.civilaffair-moi.gov.sy.
+cloud.civilaffairs-moi.gov.sy,gov.sy,200,
+cloud.naits.gov.sy,gov.sy,ConnectException > ClosedChannelException,
 cloud.nans.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
 cloud.ssf.gov.sy,gov.sy,302,none
 cloudd.ssf.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'cloudd.ssf.gov.sy',none
 cmlc.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
+cms.masajid-r-1.mow.gov.sy,gov.sy,200,
 cms.masajid-r.mow.gov.sy,gov.sy,200,none
 cofc.gov.sy,gov.sy,200,none
+competition.mofaex.gov.sy,gov.sy,200,
 complaints.cofc.gov.sy,gov.sy,Could not resolve host: complaints.cofc.gov.sy,none
 complaints.ssf.gov.sy,gov.sy,200,none
 complaintsback.cofc.gov.sy,gov.sy,Could not resolve host: complaintsback.cofc.gov.sy,none
 complementary2020.moed.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
+comreg.itcp.gov.sy,gov.sy,200,
 conference.xmpp.gov.sy,gov.sy,200,20 mailsec.protonmail.ch.; 10 mail.protonmail.ch.
 cp.sasmo.gov.sy,gov.sy,302,none
 cpanel.moj.gov.sy,gov.sy,200,none
@@ -129,7 +148,9 @@ customs.gov.sy,gov.sy,Connection timed out after 3000 milliseconds,none
 customs.syrianborders.gov.sy,gov.sy,302,none
 customsinespector.syrianborders.gov.sy,gov.sy,Operation timed out after 3001 milliseconds with 0 bytes received,none
 customsreports.gov.sy,gov.sy,Could not resolve host: customsreports.gov.sy,none
+customsreports.syrianborders.gov.sy,gov.sy,SSLHandshakeException > CertificateException: No subject alternative DNS name matching customsreports.syrianborders.gov.sy found.,
 custpro.gov.sy,gov.sy,401,none
+daleel.edpa.gov.sy,gov.sy,ConnectException > UnresolvedAddressException,
 dam-fair-62.seife.gov.sy,gov.sy,Could not resolve host: dam-fair-62.seife.gov.sy,none
 damairport.gov.sy,gov.sy,200,0 damairport.gov.sy.
 daraa.gov.sy,gov.sy,Operation timed out after 3001 milliseconds with 0 bytes received,none
@@ -150,6 +171,9 @@ delegate.gaf.gov.sy,gov.sy,Operation timed out after 3000 milliseconds with 0 by
 demo.syrianborders.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'demo.syrianborders.gov.sy',none
 dev-sara.moh.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 dev.api.moad.gov.sy,gov.sy,404,none
+dev.apis.ijazah.system.mow.gov.sy,gov.sy,404,
+dev.apis.mousqes.system.mow.gov.sy,gov.sy,404,
+dev.apis.surveys.system.mow.gov.sy,gov.sy,404,
 dev.appointment-admin.moh.gov.sy,gov.sy,307,none
 dev.appointment-api.moh.gov.sy,gov.sy,200,none
 dev.appointment-easy.moh.gov.sy,gov.sy,Could not resolve host: dev.appointment-easy.moh.gov.sy,none
@@ -157,9 +181,11 @@ dev.appointment-patient.moh.gov.sy,gov.sy,Could not resolve host: dev.appointmen
 dev.bunat.moad.gov.sy,gov.sy,Connection timed out after 3001 milliseconds,none
 dev.bunatadmin.moad.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
 dev.bunatbackend.moad.gov.sy,gov.sy,Could not resolve host: dev.bunatbackend.moad.gov.sy,none
+dev.dashboard.ijazah.system.mow.gov.sy,gov.sy,200,
 dev.ijazah.system.mow.gov.sy,gov.sy,200,none
 dev.moad.gov.sy,gov.sy,200,none
 dev.mopmr.gov.sy,gov.sy,SSL certificate problem: self-signed certificate,none
+dev.mousqes.system.mow.gov.sy,gov.sy,200,
 dev.surveys.system.mow.gov.sy,gov.sy,200,none
 dgam.gov.sy,gov.sy,200,none
 dif.seife.gov.sy,gov.sy,Could not resolve host: dif.seife.gov.sy,none
@@ -177,6 +203,7 @@ eaip.gaca.gov.sy,gov.sy,200,none
 eb.moed.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 ecdr.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,10 mail.ecdr.gov.sy.
 ecsc.gov.sy,gov.sy,Connection timed out after 3001 milliseconds,none
+edpa.gov.sy,gov.sy,302,
 edu.moed.gov.sy,gov.sy,502,none
 ee.kobo.moad.gov.sy,gov.sy,SSL certificate problem: self-signed certificate,none
 ee.med.gov.sy,gov.sy,Could not resolve host: ee.med.gov.sy,none
@@ -185,10 +212,12 @@ eforms.daraa.gov.sy,gov.sy,200,none
 eidaltahrir.gov.sy,gov.sy,Could not resolve host: eidaltahrir.gov.sy,none
 el.ssf.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
 eladmin.ssf.gov.sy,gov.sy,200,none
+em.gaca.gov.sy,gov.sy,302,
 employee.attendance.daraa.gov.sy,gov.sy,200,none
 energy-card.moenergy.gov.sy,gov.sy,Could not resolve host: energy-card.moenergy.gov.sy,none
 epay.moe.gov.sy,gov.sy,SSL certificate problem: certificate has expired,none
 erp.casi.gov.sy,gov.sy,Operation timed out after 3002 milliseconds with 0 bytes received,none
+erp.gspa.gov.sy,gov.sy,SSLHandshakeException > CertificateException: No subject alternative DNS name matching erp.gspa.gov.sy found.,
 erp.rtv.gov.sy,gov.sy,Could not resolve host: erp.rtv.gov.sy,none
 erp.syrianborders.gov.sy,gov.sy,302,none
 erpbeta-api.mitcp.gov.sy,gov.sy,200,none
@@ -206,6 +235,8 @@ fedaa.alwehda.gov.sy,gov.sy,Connection timed out after 3001 milliseconds,none
 files.moj.gov.sy,gov.sy,200,none
 flight.permits.gaca.gov.sy,gov.sy,Could not resolve host: flight.permits.gaca.gov.sy,none
 forecast.moenergy.gov.sy,gov.sy,400,none
+form-a.casi.gov.sy,gov.sy,200,
+form.casi.gov.sy,gov.sy,200,
 form.moed.gov.sy,gov.sy,200,none
 forms.moe.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'forms.moe.gov.sy',none
 fpermits.gaca.gov.sy,gov.sy,200,none
@@ -222,6 +253,8 @@ gcsar.gov.sy,gov.sy,200,none
 gcwr.gov.sy,gov.sy,200,10 mail.gcwr.gov.sy.
 gdb.mycompany.gov.sy,gov.sy,SSL certificate problem: certificate has expired,none
 gdp.gov.sy,gov.sy,Failed to connect to gdp.gov.sy port 443 after 176 ms: Could not connect to server,10 mail.gdp.gov.sy.
+gelt.app.pm.gov.sy,gov.sy,200,
+gencert.moad.gov.sy,gov.sy,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 geology.gov.sy,gov.sy,Could not resolve host: geology.gov.sy,none
 gevaluation.gaca.gov.sy,gov.sy,200,none
 ghiyath.gov.sy,gov.sy,200,none
@@ -229,6 +262,7 @@ gis.gov.sy,gov.sy,Could not resolve host: gis.gov.sy,none
 git.pm.gov.sy,gov.sy,curl: (35) TLS connect error: error:0A000458:SSL routines::tlsv1 unrecognized name,20 mailsec.protonmail.ch.; 10 mail.protonmail.ch.
 gitlab.casi.gov.sy,gov.sy,Could not resolve host: gitlab.casi.gov.sy,none
 gov.sy,gov.sy,ConnectException,none
+govtcard.moenergy.gov.sy,gov.sy,200,
 grades.cofc.gov.sy,gov.sy,200,10 mail.grades.cofc.gov.sy.
 graylog.mycompany.gov.sy,gov.sy,SSL certificate problem: certificate has expired,none
 grc.cofc.gov.sy,gov.sy,Could not resolve host: grc.cofc.gov.sy,none
@@ -259,6 +293,7 @@ ies-is.moed.gov.sy,gov.sy,404,none
 iftaa.gov.sy,gov.sy,Could not resolve host: iftaa.gov.sy,none
 igcc.gov.sy,gov.sy,200,none
 ijazah.system.mow.gov.sy,gov.sy,200,none
+imap.naits.gov.sy,gov.sy,ConnectException > ClosedChannelException,
 imap.ssf.gov.sy,gov.sy,Could not resolve host: imap.ssf.gov.sy,none
 ims-tp.moed.gov.sy,gov.sy,Could not resolve host: ims-tp.moed.gov.sy,none
 ims.moed.gov.sy,gov.sy,404,none
@@ -267,7 +302,9 @@ injaz.moc.gov.sy,gov.sy,200,10 mail.injaz.moc.gov.sy.
 invest.gov.sy,gov.sy,200,none
 irrigation.gov.sy,gov.sy,Could not resolve host: irrigation.gov.sy,none
 is-fe.moed.gov.sy,gov.sy,200,none
+istijaba.med.gov.sy,gov.sy,200,
 it.moad.gov.sy,gov.sy,200,none
+itcp.gov.sy,gov.sy,SSLHandshakeException > CertificateException: No subject alternative DNS name matching itcp.gov.sy found.,
 jamahir.alwehda.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
 jitsi.ssf.gov.sy,gov.sy,Failed to connect to jitsi.ssf.gov.sy port 443 after 169 ms: Could not connect to server,none
 job.gaf.gov.sy,gov.sy,Could not resolve host: job.gaf.gov.sy,none
@@ -280,6 +317,7 @@ kc.med.gov.sy,gov.sy,Could not resolve host: kc.med.gov.sy,none
 kc.ssf.gov.sy,gov.sy,301,none
 kf.kobo.moad.gov.sy,gov.sy,SSL certificate problem: self-signed certificate,none
 kf.ssf.gov.sy,gov.sy,200,none
+kitchen.app.pm.gov.sy,gov.sy,404,
 ko.ssf.gov.sy,gov.sy,Could not resolve host: ko.ssf.gov.sy,none
 kobo.moad.gov.sy,gov.sy,404,none
 kpi.mot.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
@@ -303,6 +341,7 @@ mail.casi.gov.sy,gov.sy,301,none
 mail.cofc.gov.sy,gov.sy,Could not resolve host: mail.cofc.gov.sy,none
 mail.customs.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'mail.customs.gov.sy',none
 mail.gasp.gov.sy,gov.sy,200,none
+mail.gdca.gov.sy,gov.sy,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Wed Sep 06 01:59:59 CEST 2023,
 mail.gspa.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 mail.hama.gov.sy,gov.sy,200,none
 mail.hamagsc.gov.sy,gov.sy,Could not resolve host: mail.hamagsc.gov.sy,none
@@ -327,11 +366,15 @@ mail.ssf.gov.sy,gov.sy,200,none
 mail.star.ssf.gov.sy,gov.sy,Could not resolve host: mail.star.ssf.gov.sy,none
 mail.syronics.gov.sy,gov.sy,500,none
 mail.sytpra.gov.sy,gov.sy,Could not resolve host: mail.sytpra.gov.sy,none
+mail.taawon.gov.sy,gov.sy,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 mas.ssf.gov.sy,gov.sy,Could not resolve host: mas.ssf.gov.sy,none
 masajid-r-1.mow.gov.sy,gov.sy,307,none
 masajid-r.mow.gov.sy,gov.sy,307,none
 mashaal.gov.sy,gov.sy,Could not resolve host: mashaal.gov.sy,none
 masjidak.mow.gov.sy,gov.sy,307,none
+mautic.med.gov.sy,gov.sy,302,
+mawared.casi.gov.sy,gov.sy,403,
+media.moad.gov.sy,gov.sy,302,
 medicalapp.moh.gov.sy,gov.sy,200,none
 meet.casi.gov.sy,gov.sy,200,none
 meet.moct.gov.sy,gov.sy,200,none
@@ -343,6 +386,7 @@ moad.gov.sy,gov.sy,200,10 mail.moad.gov.sy.
 mobilerfa.moct.gov.sy,gov.sy,Could not resolve host: mobilerfa.moct.gov.sy,none
 moc.gov.sy,gov.sy,307,10 mail.moc.gov.sy.
 moct.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
+modm.app.pm.gov.sy,gov.sy,404,
 modng.med.gov.sy,gov.sy,302,none
 moe.gov.sy,gov.sy,Could not resolve host: moe.gov.sy,none
 moed.gov.sy,gov.sy,200,10 mail.idlib.edu.sy.
@@ -368,6 +412,7 @@ monitor.bunat.moad.gov.sy,gov.sy,Could not resolve host: monitor.bunat.moad.gov.
 monitoring.hiring.moad.gov.sy,gov.sy,302,none
 monitoring.moad.gov.sy,gov.sy,404,none
 monitoringandevaluationsystem.psc.gov.sy,gov.sy,Operation timed out after 3001 milliseconds with 0 bytes received,none
+moodle.app.pm.gov.sy,gov.sy,200,
 mopmr.gov.sy,gov.sy,Could not resolve host: mopmr.gov.sy,none
 mopwh.gov.sy,gov.sy,200,none
 mosal.gov.sy,gov.sy,Could not resolve host: mosal.gov.sy,none
@@ -383,12 +428,22 @@ mycompany.gov.sy,gov.sy,SSL certificate problem: certificate has expired,none
 naits.gov.sy,gov.sy,200,none
 nans.gov.sy,gov.sy,Could not resolve host: nans.gov.sy,10 mgw.nans.gov.sy.
 nawat.moad.gov.sy,gov.sy,200,none
+nazaha-a.casi.gov.sy,gov.sy,200,
+nazaha.casi.gov.sy,gov.sy,200,
+nazahad-a.casi.gov.sy,gov.sy,200,
+nazahad.casi.gov.sy,gov.sy,200,
+nazahat-a.casi.gov.sy,gov.sy,200,
+nazahat.casi.gov.sy,gov.sy,200,
 nb.civilaffair-moi.gov.sy,gov.sy,200,10 mail.nb.civilaffair-moi.gov.sy.
+nb.civilaffairs-moi.gov.sy,gov.sy,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+nb.pm.gov.sy,gov.sy,200,
 nccd.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
+ncloud-stg.moedm.gov.sy,gov.sy,302,
 nctj.gov.sy,gov.sy,301,none
 ndc.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 nerc.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,10 mail.nerc.gov.sy.
 nerc.moenergy.gov.sy,gov.sy,200,none
+netbox.casi.gov.sy,gov.sy,HttpTimeoutException: request timed out,
 netsupport.moad.gov.sy,gov.sy,200,none
 netsurvey.moad.gov.sy,gov.sy,200,none
 new.moenergy.gov.sy,gov.sy,Could not resolve host: new.moenergy.gov.sy,none
@@ -400,13 +455,17 @@ ns1.sytpra.gov.sy,gov.sy,303,none
 omni.casi.gov.sy,gov.sy,200,none
 or.moed.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 ouruba.alwehda.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
+pages.daraa.gov.sy,gov.sy,200,
 panel.mofaex.gov.sy,gov.sy,403,none
 panel.moi.gov.sy,gov.sy,Could not resolve host: panel.moi.gov.sy,none
 peeg.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,10 mail.peeg.gov.sy.
+perc.gov.sy,gov.sy,200,
 permits.gaca.gov.sy,gov.sy,200,none
 petde.gov.sy,gov.sy,200,none
 phpmyadmin.masjidak.mow.gov.sy,gov.sy,Could not resolve host: phpmyadmin.masjidak.mow.gov.sy,none
 phpmyadmin.moed.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'phpmyadmin.moed.gov.sy',none
+planka.app.pm.gov.sy,gov.sy,200,
+planka.pm.gov.sy,gov.sy,200,
 plat.damascus.gov.sy,gov.sy,Could not resolve host: plat.damascus.gov.sy,none
 platform.casi.gov.sy,gov.sy,502,none
 platform.mofaex.gov.sy,gov.sy,Could not resolve host: platform.mofaex.gov.sy,none
@@ -430,6 +489,7 @@ project3.system.mow.gov.sy,gov.sy,405,none
 project4.system.mow.gov.sy,gov.sy,405,none
 project5.system.mow.gov.sy,gov.sy,401,none
 projects.tracker.system.mow.gov.sy,gov.sy,401,none
+proxy.pm.gov.sy,gov.sy,200,
 psc.gov.sy,gov.sy,302,none
 qr.casi.gov.sy,gov.sy,200,none
 qr.moad.gov.sy,gov.sy,Could not resolve host: qr.moad.gov.sy,none
@@ -463,17 +523,25 @@ seife.gov.sy,gov.sy,Could not resolve host: seife.gov.sy,none
 seife.seife.gov.sy,gov.sy,Could not resolve host: seife.seife.gov.sy,none
 server.mail.ssf.gov.sy,gov.sy,200,none
 server.mail.star.ssf.gov.sy,gov.sy,Could not resolve host: server.mail.star.ssf.gov.sy,none
+services.app.pm.gov.sy,gov.sy,200,
 services.mycompany.gov.sy,gov.sy,SSL certificate problem: certificate has expired,none
+services.petde.gov.sy,gov.sy,200,
+sgc.gov.sy,gov.sy,200,
 sgmc.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
 shared.gaf.gov.sy,gov.sy,Operation timed out after 3001 milliseconds with 0 bytes received,none
+sharedfiles.gasp.gov.sy,gov.sy,302,
 sharia.edu.dev.mow.gov.sy,gov.sy,200,none
 sharia.edu.staging.mow.gov.sy,gov.sy,200,none
+shlx1.naits.gov.sy,gov.sy,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 shlx1.nans.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 shlx2.naits.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,10 mail.shlx2.naits.gov.sy.
 shlx3.naits.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,10 mail.shlx3.naits.gov.sy.
+shlx4.naits.gov.sy,gov.sy,301,
 sia.gov.sy,gov.sy,Could not resolve host: sia.gov.sy,none
 signalr.moed.gov.sy,gov.sy,404,none
 silklink.moct.gov.sy,gov.sy,200,none
+sit.mitcp.gov.sy,gov.sy,200,
+skills.gov.sy,gov.sy,200,
 slp.gov.sy,gov.sy,Could not resolve host: slp.gov.sy,10 mail.slp.gov.sy.
 smeda.gov.sy,gov.sy,200,none
 smtp.ssf.gov.sy,gov.sy,Could not resolve host: smtp.ssf.gov.sy,none
@@ -488,6 +556,9 @@ sso.casi.gov.sy,gov.sy,500,none
 stagging.api.v2.attendance.daraa.gov.sy,gov.sy,404,none
 stagging.employee.attendance.daraa.gov.sy,gov.sy,200,none
 stagging.portal.attendance.daraa.gov.sy,gov.sy,200,none
+staging.alpairport.gov.sy,gov.sy,401,
+staging.damairport.gov.sy,gov.sy,403,
+staging.gaca.gov.sy,gov.sy,307,
 staging.hrsystem.moad.gov.sy,gov.sy,Could not resolve host: staging.hrsystem.moad.gov.sy,none
 staging.nawat.moad.gov.sy,gov.sy,200,none
 staging.sasmo.gov.sy,gov.sy,200,none
@@ -500,8 +571,10 @@ stg.appointment-admin.moh.gov.sy,gov.sy,Could not resolve host: stg.appointment-
 stg.appointment-api.moh.gov.sy,gov.sy,Could not resolve host: stg.appointment-api.moh.gov.sy,none
 stg.appointment-easy.moh.gov.sy,gov.sy,Could not resolve host: stg.appointment-easy.moh.gov.sy,none
 stg.appointment-patient.moh.gov.sy,gov.sy,Could not resolve host: stg.appointment-patient.moh.gov.sy,none
+sub-event.moc.gov.sy,gov.sy,401,
 support.naits.gov.sy,gov.sy,"curl: (60) SSL: no alternative certificate subject name matches target hostname 'support.naits.gov.sy' More details here: https://curl.se/docs/sslcerts.html curl failed to verify the legitimacy of the server and therefore could not establish a secure connection to it. To learn more about this situation and how to fix it, please visit the webpage mentioned above.",none
 support.nans.gov.sy,gov.sy,Could not resolve host: support.nans.gov.sy,none
+survey.app.pm.gov.sy,gov.sy,200,
 survey.escan.gov.sy,gov.sy,200,none
 survey.moed.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 surveys.mow.gov.sy,gov.sy,Could not resolve host: surveys.mow.gov.sy,none
@@ -518,14 +591,19 @@ syrianfinance.gov.sy,gov.sy,200,none
 syrianpost.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
 syriantax.gov.sy,gov.sy,200,none
 syriantrading.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'syriantrading.gov.sy',none
+syriaresilience-stg.med.gov.sy,gov.sy,200,
 syriaresilience.med.gov.sy,gov.sy,200,none
 syronics.gov.sy,gov.sy,500,none
 sytpra.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
+sytra.gov.sy,gov.sy,301,
+t.gaca.gov.sy,gov.sy,403,
 taawon.gov.sy,gov.sy,200,none
 tawasal.moct.gov.sy,gov.sy,Could not resolve host: tawasal.moct.gov.sy,none
 tawasal.moh.gov.sy,gov.sy,Could not resolve host: tawasal.moh.gov.sy,none
 tde.gov.sy,gov.sy,Could not resolve host: tde.gov.sy,none
+telecom.gov.sy,gov.sy,200,
 test-sara.moh.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
+test.app.pm.gov.sy,gov.sy,200,
 test.cofc.gov.sy,gov.sy,Could not resolve host: test.cofc.gov.sy,none
 test.hama.gov.sy,gov.sy,Could not resolve host: test.hama.gov.sy,none
 test.hcepa.gov.sy,gov.sy,SSL certificate problem: certificate has expired,none
@@ -543,19 +621,27 @@ transportfleet.hama.gov.sy,gov.sy,502,none
 tta.syrianborders.gov.sy,gov.sy,302,none
 turn.moed.gov.sy,gov.sy,Failed to connect to turn.moed.gov.sy port 443 after 152 ms: Could not connect to server,none
 tv.masjidak.mow.gov.sy,gov.sy,200,none
+unifi.pm.gov.sy,gov.sy,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,
 upload.xmpp.gov.sy,gov.sy,200,none
+vault.app.pm.gov.sy,gov.sy,404,
 vault.moad.gov.sy,gov.sy,Could not resolve host: vault.moad.gov.sy,none
+vault2.app.pm.gov.sy,gov.sy,404,
 vehicles.gaca.gov.sy,gov.sy,Could not resolve host: vehicles.gaca.gov.sy,none
 verify.moed.gov.sy,gov.sy,TLS connect error: error:0A000458:SSL routines::tlsv1 unrecognized name,none
 visual-identity.moi.gov.sy,gov.sy,Could not resolve host: visual-identity.moi.gov.sy,none
 visual-identity.momc.gov.sy,gov.sy,200,none
 vpn-bac.moia.gov.sy,gov.sy,Failed to connect to vpn-bac.moia.gov.sy port 443 after 243 ms: Could not connect to server,none
 vs.moed.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
+waf1-stg.med.gov.sy,gov.sy,404,
+waf2-stg.moedm.gov.sy,gov.sy,404,
+waqf.assets.mow.gov.sy,gov.sy,ConnectException > UnresolvedAddressException,
 waqf.assets.system.mow.gov.sy,gov.sy,302,none
 ware.gaf.gov.sy,gov.sy,Operation timed out after 3001 milliseconds with 0 bytes received,none
+web.casi.gov.sy,gov.sy,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,
 webdisk.syronics.gov.sy,gov.sy,401,none
 webmail.agrobank.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 webmail.aic.gov.sy,gov.sy,200,none
+webmail.aleppo.gov.sy,gov.sy,200,
 webmail.alwehda.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'webmail.alwehda.gov.sy',none
 webmail.borders.gov.sy,gov.sy,Could not resolve host: webmail.borders.gov.sy,none
 webmail.cb.gov.sy,gov.sy,Could not resolve host: webmail.cb.gov.sy,none
@@ -563,8 +649,10 @@ webmail.civilaffair-moi.gov.sy,gov.sy,Could not resolve host: webmail.civilaffai
 webmail.cmlc.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 webmail.cofc.gov.sy,gov.sy,200,none
 webmail.customsreports.gov.sy,gov.sy,SSL certificate problem: self-signed certificate,none
+webmail.edpa.gov.sy,gov.sy,200,
 webmail.freezones.gov.sy,gov.sy,Could not resolve host: webmail.freezones.gov.sy,none
 webmail.gabc.gov.sy,gov.sy,302,none
+webmail.gdca.gov.sy,gov.sy,200,
 webmail.gdp.gov.sy,gov.sy,302,none
 webmail.geology.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 webmail.gspa.gov.sy,gov.sy,200,none
@@ -594,13 +682,16 @@ webmail.sgc.gov.sy,gov.sy,Could not resolve host: webmail.sgc.gov.sy,none
 webmail.sia.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 webmail.snl.gov.sy,gov.sy,200,none
 webmail.ssf.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'webmail.ssf.gov.sy',none
+webmail.syrianborders.gov.sy,gov.sy,302,
 webmail.syronics.gov.sy,gov.sy,200,none
 webmail.sytpra.gov.sy,gov.sy,Could not resolve host: webmail.sytpra.gov.sy,none
+webmail.taawon.gov.sy,gov.sy,200,
 webmail.tde.gov.sy,gov.sy,Could not resolve host: webmail.tde.gov.sy,none
 wehda.alwehda.gov.sy,gov.sy,Connection timed out after 3002 milliseconds,none
 www.agrobank.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 www.aleppo.gov.sy,gov.sy,302,10 mail.aleppo.gov.sy.
 www.app.civilaffair-moi.gov.sy,gov.sy,301,none
+www.app.civilaffairs-moi.gov.sy,gov.sy,404,
 www.app.gaca.gov.sy,gov.sy,Could not resolve host: www.app.gaca.gov.sy,none
 www.app.moj.gov.sy,gov.sy,200,none
 www.banquecentrale.gov.sy,gov.sy,Could not resolve host: www.banquecentrale.gov.sy,none
@@ -609,6 +700,7 @@ www.bse.gov.sy,gov.sy,Could not resolve host: www.bse.gov.sy,10 mail.bse.gov.sy.
 www.casi.gov.sy,gov.sy,200,none
 www.cb.gov.sy,gov.sy,Could not resolve host: www.cb.gov.sy,none
 www.civilaffair-moi.gov.sy,gov.sy,301,10 mail.civilaffair-moi.gov.sy.
+www.civilaffairs-moi.gov.sy,gov.sy,200,
 www.cloud.civilaffair-moi.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'www.cloud.civilaffair-moi.gov.sy',none
 www.cmlc.gov.sy,gov.sy,Could not resolve host: www.cmlc.gov.sy,none
 www.cofc.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'www.cofc.gov.sy',none
@@ -621,12 +713,15 @@ www.drama.gov.sy,gov.sy,SSL: no alternative certificate subject name matches tar
 www.eaip.gaca.gov.sy,gov.sy,200,none
 www.ecdr.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 www.ecsc.gov.sy,gov.sy,Connection timed out after 3000 milliseconds,none
+www.edpa.gov.sy,gov.sy,301,
 www.eidaltahrir.gov.sy,gov.sy,Could not resolve host: www.eidaltahrir.gov.sy,none
 www.el.ssf.gov.sy,gov.sy,Connection timed out after 3000 milliseconds,10 mail.el.ssf.gov.sy.
+www.em.gaca.gov.sy,gov.sy,302,
 www.flight.permits.gaca.gov.sy,gov.sy,Could not resolve host: www.flight.permits.gaca.gov.sy,none
 www.forms.moe.gov.sy,gov.sy,Could not resolve host: www.forms.moe.gov.sy,none
 www.fpermits.gaca.gov.sy,gov.sy,Could not resolve host: www.fpermits.gaca.gov.sy,none
 www.gaca.gov.sy.gaca-sy.com,gov.sy,503,none
+www.gasp.gov.sy,gov.sy,200,
 www.gcb.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,none
 www.geology.gov.sy,gov.sy,Could not resolve host: www.geology.gov.sy,10 mail.geology.gov.sy.
 www.gevaluation.gaca.gov.sy,gov.sy,200,none
@@ -673,6 +768,7 @@ www.nerc.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certi
 www.ngo.gov.sy,gov.sy,Could not resolve host: www.ngo.gov.sy,none
 www.peeg.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,10 mail.peeg.gov.sy.
 www.permits.gaca.gov.sy,gov.sy,200,none
+www.petde.gov.sy,gov.sy,200,
 www.prod.syrfund.gov.sy,gov.sy,200,none
 www.read.ecdr.gov.sy,gov.sy,Could not resolve host: www.read.ecdr.gov.sy,none
 www.resource-monitoring-api.mitcp.gov.sy.nassar-apps.com,gov.sy,Could not resolve host: www.resource-monitoring-api.mitcp.gov.sy.nassar-apps.com,none
@@ -682,10 +778,14 @@ www.scot.gov.sy,gov.sy,301,10 mail.scot.gov.sy.
 www.seb.gov.sy,gov.sy,200,none
 www.seife.gov.sy,gov.sy,Could not resolve host: www.seife.gov.sy,none
 www.seife.seife.gov.sy,gov.sy,Could not resolve host: www.seife.seife.gov.sy,none
+www.sgc.gov.sy,gov.sy,200,
 www.sia.gov.sy,gov.sy,301,none
 www.slp.gov.sy,gov.sy,Could not resolve host: www.slp.gov.sy,none
 www.smeda.gov.sy,gov.sy,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
 www.ssf.gov.sy,gov.sy,200,none
+www.staging.alpairport.gov.sy,gov.sy,401,
+www.staging.damairport.gov.sy,gov.sy,403,
+www.staging.gaca.gov.sy,gov.sy,307,
 www.startup.gov.sy,gov.sy,200,10 mail.startup.gov.sy.
 www.statisticssyria.gov.sy,gov.sy,Could not resolve host: www.statisticssyria.gov.sy,none
 www.svc.moed.gov.sy,gov.sy,Could not resolve host: www.svc.moed.gov.sy,none
@@ -698,7 +798,9 @@ www.syriantax.gov.sy,gov.sy,200,none
 www.syriantrading.gov.sy,gov.sy,SSL: no alternative certificate subject name matches target hostname 'www.syriantrading.gov.sy',none
 www.syronics.gov.sy,gov.sy,500,none
 www.sytpra.gov.sy,gov.sy,SSL certificate problem: unable to get local issuer certificate,10 mail.sytpra.gov.sy.
+www.t.gaca.gov.sy,gov.sy,403,
 www.tde.gov.sy,gov.sy,Could not resolve host: www.tde.gov.sy,none
+www.telecom.gov.sy,gov.sy,200,
 www.vehicles.gaca.gov.sy,gov.sy,302,none
 www.verify.gdp.gov.sy,gov.sy,Could not resolve host: www.verify.gdp.gov.sy,none
 www.webmail.cb.gov.sy,gov.sy,Could not resolve host: www.webmail.cb.gov.sy,none

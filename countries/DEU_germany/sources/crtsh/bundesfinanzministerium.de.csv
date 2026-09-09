@@ -1,3 +1,17 @@
 subdomain,http_status,mx
+alleswaszaehlt.bundesfinanzministerium.de,301,
+amtliche-handbuecher.bundesfinanzministerium.de,302,
+analytics.bundesfinanzministerium.de,ConnectException > UnresolvedAddressException,
+anmeldung.bundesfinanzministerium.de,SSLHandshakeException > CertificateException: No subject alternative DNS name matching anmeldung.bundesfinanzministerium.de found.,
+ao.bundesfinanzministerium.de,200,
 bundesfinanzministerium.de,302,none
+esth.bundesfinanzministerium.de,200,
+gewsth.bundesfinanzministerium.de,200,
+itsi.bundesfinanzministerium.de,302,
+ksth.bundesfinanzministerium.de,200,
+lsth.bundesfinanzministerium.de,200,
+registration.bundesfinanzministerium.de,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Sun Apr 18 14:00:00 CEST 2021,
+streaming.bundesfinanzministerium.de,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Sun Apr 18 14:00:00 CEST 2021,
+usth.bundesfinanzministerium.de,200,
+www.anmeldung.bundesfinanzministerium.de,ConnectException > UnresolvedAddressException,
 www.bundesfinanzministerium.de,302,none

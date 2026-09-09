@@ -7,6 +7,7 @@ subdomain,parent_domain,http_status,mx
 2014.rapportannuel.finances.belgium.be,belgium.be,200,none
 2015.jaarverslag.financien.belgium.be,belgium.be,200,none
 2015.rapportannuel.finances.belgium.be,belgium.be,200,none
+2016.ibz.be,ibz.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching 2016.ibz.be found.,
 2016.jaarverslag.financien.belgium.be,belgium.be,200,none
 2016.rapportannuel.finances.belgium.be,belgium.be,200,none
 2017.jaarverslag.financien.belgium.be,belgium.be,200,none
@@ -14,49 +15,193 @@ subdomain,parent_domain,http_status,mx
 2018.jaarverslag.finances.belgium.be,belgium.be,Could not resolve host: 2018.jaarverslag.finances.belgium.be,none
 2018.jaarverslag.financien.belgium.be,belgium.be,200,none
 2018.rapportannuel.finances.belgium.be,belgium.be,200,none
+a.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+a.we.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+acc-belac.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+acc-easy.ws-epv.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+acc-easy.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+acc-eris.ws-cap.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+acc-eva.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 acc.scope.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+acc.service-now.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 accbeconnected.belgium.be,belgium.be,Could not resolve host: accbeconnected.belgium.be,none
+accept-e7m.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+accept-epv-ws.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+accept-epv.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+accept-eris.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+accept-first.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+accept-kbo-bce-select.economie.fgov.be,economie.fgov.be,ConnectException > ClosedChannelException,
+accept-kbo-bce-wi.economie.fgov.be,economie.fgov.be,200,
+accevents.mil.be,mil.be,400,
+accountingderogation-acc.economie.fgov.be,economie.fgov.be,200,
+accountingderogation.economie.fgov.be,economie.fgov.be,200,
+adfs.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 adviesraadouderen.belgium.be,belgium.be,301,none
 afriquedusud.diplomatie.belgium.be,belgium.be,302,none
+aks-acc.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+aks-acc.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+aks-acc.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+aks-dev.internal.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+aks-prod.economie.fgov.be,economie.fgov.be,404,
+aks-prod.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+aks-prod.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+aks-test.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+aks-test.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 algeria.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
 algerie.diplomatie.belgium.be,belgium.be,302,none
 algerije.diplomatie.belgium.be,belgium.be,302,none
 allemagne.diplomatie.belgium.be,belgium.be,302,none
+amarona.med.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+amaronb.med.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+ambachtsman-acc.economie.fgov.be,economie.fgov.be,200,
+ambachtsman.economie.fgov.be,economie.fgov.be,200,
 angola.diplomatie.belgium.be,belgium.be,302,none
+api-a.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+api-d.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+api-p.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+api-t.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+api.bta-acc.cloud.economie.fgov.be,economie.fgov.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching api.bta-acc.cloud.economie.fgov.be found.,
+api.bta.cloud.economie.fgov.be,economie.fgov.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching api.bta.cloud.economie.fgov.be found.,
+api.ibz.be,ibz.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching api.ibz.be found.,
+api.icesquirrel.mil.be,mil.be,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Tue Jul 14 09:34:24 CEST 2026,
 api.infocenter.belgium.be,belgium.be,404,none
+apim.a.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+apim.a.we.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+apim.d.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+apim.d.we.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+apim.p.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+apim.p.we.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+apim.t.platform.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+apim.t.we.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+apiportal-acc.economie.fgov.be,economie.fgov.be,HttpTimeoutException: request timed out,
+apiportal-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+apiportal.economie.fgov.be,economie.fgov.be,ConnectException > ClosedChannelException,
 applics.eid.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 applics.stage-eid.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+apps-acc.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+apps-acc.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+apps-tst.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+apps-tst.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 apps.digital.belgium.be,belgium.be,503,none
+apps.economie-01.paas.cloud.gcloud.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+apps.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+apps.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 arabiesaoudite.diplomatie.belgium.be,belgium.be,302,none
+arei-acc.economie.fgov.be,economie.fgov.be,200,
+arei.economie.fgov.be,economie.fgov.be,200,
 argentina.diplomatie.belgium.be,belgium.be,302,none
 argentine.diplomatie.belgium.be,belgium.be,302,none
 argentinie.diplomatie.belgium.be,belgium.be,Could not resolve host: argentinie.diplomatie.belgium.be,none
+argus.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+arma-acc.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+arma.ibz.be,ibz.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+arrivalcenterappointment.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+artisans-acc.economie.fgov.be,economie.fgov.be,200,
+artisans-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+artisans.economie.fgov.be,economie.fgov.be,200,
 assets.socialsecurity.belgium.be,belgium.be,200,none
+atomic-clock.cloud.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+auc-acc.economie.fgov.be,economie.fgov.be,200,
+auc-be-acc.economie.fgov.be,economie.fgov.be,200,
+auc-be.economie.fgov.be,economie.fgov.be,200,
+auc.economie.fgov.be,economie.fgov.be,200,
 australia.diplomatie.belgium.be,belgium.be,302,none
 australie.diplomatie.belgium.be,belgium.be,302,none
 austria.diplomatie.belgium.be,belgium.be,Could not resolve host: austria.diplomatie.belgium.be,none
+auth-signing.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+auth.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 auth.gcloud.belgium.be,belgium.be,404,none
+auth.icesquirrel.mil.be,mil.be,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Tue Jul 14 09:34:24 CEST 2026,
 autodiscover.employment.belgium.be,belgium.be,Could not resolve host: autodiscover.employment.belgium.be,none
 autodiscover.gcloud.belgium.be,belgium.be,Could not resolve host: autodiscover.gcloud.belgium.be,none
+autodiscover.mik.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 autriche.diplomatie.belgium.be,belgium.be,Could not resolve host: autriche.diplomatie.belgium.be,none
 av.p-o.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 azerbaidjan.diplomatie.belgium.be,belgium.be,302,none
 azerbaijan.diplomatie.belgium.be,belgium.be,Could not resolve host: azerbaijan.diplomatie.belgium.be,none
 azerbeidzjan.diplomatie.belgium.be,belgium.be,302,none
+backstage.np.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+backstage.np.we.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+backstage.p.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+backstage.p.we.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 banners.belgium.be,belgium.be,Could not resolve host: banners.belgium.be,none
+basispaket.economie.fgov.be,economie.fgov.be,302,
+basispakket.economie.fgov.be,economie.fgov.be,302,
+bbs-acc.economie.fgov.be,economie.fgov.be,200,
+bbs-api-acc.economie.fgov.be,economie.fgov.be,200,
+bbs-api.economie.fgov.be,economie.fgov.be,200,
+bbs-bo-acc.economie.fgov.be,economie.fgov.be,200,
+bbs-bo.economie.fgov.be,economie.fgov.be,200,
+bbs.economie.fgov.be,economie.fgov.be,200,
+bco.economie.fgov.be,economie.fgov.be,301,
 beconnected.belgium.be,belgium.be,Could not resolve host: beconnected.belgium.be,5 mailgate.fediap.be.
+bel1defsaeaacc01.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+bel1defsaeawcon01.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+bel1defsbc01.voice.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+bel2defsaeaacc01.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+bel2defsaeawcon01.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+bel2defsbc01.voice.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+belac.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+beladl.mil.be,mil.be,200,
+beldefnews.mil.be,mil.be,301,
 belgium.be,belgium.be,301,10 relay2-shs.fed.be.; 10 relay-shs.fed.be.
+belmed-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+belmed.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+belpnr-airalbania-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-airalbania-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-airbelgium-prod.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+belpnr-airbelgium-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-anadolujet-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-anadolujet-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-animawings-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-animawings-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-danair-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-danair-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-emirates-prod.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+belpnr-emirates-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-eurostar-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-eurostar-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-flixbus-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-flixbus-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-flyr-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-iberia-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-nouvelair-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-nouvelair-test.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+belpnr-pegasus-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-pegasus-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-skyalps-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-skyalps-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+belpnr-smartjet-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 belrai.belgium.be,belgium.be,Could not resolve host: belrai.belgium.be,none
+beltiasacc.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 benin.diplomatie.belgium.be,belgium.be,302,none
+bestat.economie.fgov.be,economie.fgov.be,301,
+beta.argus.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+bg.mil.be,mil.be,403,
 bib.belgium.be,belgium.be,Could not resolve host: bib.belgium.be,none
 bienarrondir.belgium.be,belgium.be,Could not resolve host: bienarrondir.belgium.be,none
 biometrie.diplomatie.belgium.be,belgium.be,Could not resolve host: biometrie.diplomatie.belgium.be,none
+blaise-acc.economie.fgov.be,economie.fgov.be,200,
+blaise-tst.economie.fgov.be,economie.fgov.be,200,
+blaise.economie.fgov.be,economie.fgov.be,200,
+boc-ccb.mil.be,mil.be,301,
 boete.ta.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+bosaconnection-dta.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+bosaconnection.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+bosatest.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 bosniaherzegovina.diplomatie.belgium.be,belgium.be,Could not resolve host: bosniaherzegovina.diplomatie.belgium.be,none
+box.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+bpp-mypage.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+bpp.economie.fgov.be,economie.fgov.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+bpp.patents.economie.fgov.be,economie.fgov.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+bpphelpdesk.economie.fgov.be,economie.fgov.be,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,
 brasil.diplomatie.belgium.be,belgium.be,302,none
 brazil.diplomatie.belgium.be,belgium.be,Could not resolve host: brazil.diplomatie.belgium.be,none
 brazilie.diplomatie.belgium.be,belgium.be,302,none
 bresil.diplomatie.belgium.be,belgium.be,302,none
+bris-acc.economie.fgov.be,economie.fgov.be,503,
+bris.economie.fgov.be,economie.fgov.be,503,
+budef.mil.be,mil.be,200,
 bulgaria.diplomatie.belgium.be,belgium.be,302,none
 bulgarie.diplomatie.belgium.be,belgium.be,Could not resolve host: bulgarie.diplomatie.belgium.be,none
 bulgarije.diplomatie.belgium.be,belgium.be,Could not resolve host: bulgarije.diplomatie.belgium.be,none
@@ -67,15 +212,31 @@ cameroon.diplomatie.belgium.be,belgium.be,Could not resolve host: cameroon.diplo
 cameroun.diplomatie.belgium.be,belgium.be,302,none
 canada.diplomatie.belgium.be,belgium.be,Could not resolve host: canada.diplomatie.belgium.be,none
 capsule01.gcloud.belgium.be,belgium.be,Could not resolve host: capsule01.gcloud.belgium.be,none
+captiveportal.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+careers.mil.be,mil.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 cass.justice.belgium.be,belgium.be,Could not resolve host: cass.justice.belgium.be,none
 cass.justitie.belgium.be,belgium.be,Could not resolve host: cass.justitie.belgium.be,none
+cbe-proxy-acc.economie.fgov.be,economie.fgov.be,200,
+cbe-proxy.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 ccb.belgium.be,belgium.be,200,10 relay-shs.fed.be.; 20 relay2-shs.fed.be.
+censushub-acc.economie.fgov.be,economie.fgov.be,200,
+censushub.economie.fgov.be,economie.fgov.be,200,
+censushub2-acc.economie.fgov.be,economie.fgov.be,200,
+censushub2.economie.fgov.be,economie.fgov.be,200,
+certauth.sts.fgov.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+certauth.sts.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 certif.belgium.be,belgium.be,Could not resolve host: certif.belgium.be,none
 certif.iamfas.belgium.be,belgium.be,302,none
 certif.iamfas.int.belgium.be,belgium.be,302,none
 certif.iamfas.qa.belgium.be,belgium.be,302,none
+cfbypass.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 cgra.belgium.be,belgium.be,301,none
 cgvs.belgium.be,belgium.be,Could not resolve host: cgvs.belgium.be,none
+chargingstations-acc.economie.fgov.be,economie.fgov.be,200,
+chargingstations.economie.fgov.be,economie.fgov.be,200,
+chequemazout.economie.fgov.be,economie.fgov.be,302,
+chequemazout200.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+chequepellets.economie.fgov.be,economie.fgov.be,302,
 chile.diplomatie.belgium.be,belgium.be,Could not resolve host: chile.diplomatie.belgium.be,none
 chili.diplomatie.belgium.be,belgium.be,Could not resolve host: chili.diplomatie.belgium.be,none
 china.diplomatie.belgium.be,belgium.be,302,none
@@ -83,9 +244,17 @@ chine.diplomatie.belgium.be,belgium.be,302,none
 chips.eid.belgium.be,belgium.be,Could not resolve host: chips.eid.belgium.be,none
 chips.stage-eid.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 cidd.belgium.be,belgium.be,Could not resolve host: cidd.belgium.be,none
+cidmat.mil.be,mil.be,200,
 ckr.belgium.be,belgium.be,301,none
+clock.economie.fgov.be,economie.fgov.be,301,
+cloud-test.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+cloud-test.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 cloud.digital.belgium.be,belgium.be,Could not resolve host: cloud.digital.belgium.be,none
+cloud.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+cloud.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+cloud.ls21.cyber.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 cloudforms.gcloud.belgium.be,belgium.be,Could not resolve host: cloudforms.gcloud.belgium.be,none
+cms.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 cnde.belgium.be,belgium.be,Could not resolve host: cnde.belgium.be,none
 collaboration.gcloud.belgium.be,belgium.be,Could not resolve host: collaboration.gcloud.belgium.be,none
 colombia.diplomatie.belgium.be,belgium.be,302,none
@@ -96,34 +265,81 @@ comcertif.iamfas.qa.belgium.be,belgium.be,301,none
 commissiearbeidsrelaties.belgium.be,belgium.be,Could not resolve host: commissiearbeidsrelaties.belgium.be,none
 commissionrelationstravail.belgium.be,belgium.be,Could not resolve host: commissionrelationstravail.belgium.be,none
 complaints.p-o.belgium.be,belgium.be,Could not resolve host: complaints.p-o.belgium.be,none
+complystation.mil.be,mil.be,301,
 congo-brazzaville.diplomatie.belgium.be,belgium.be,302,none
+connect-acc.economie.fgov.be,economie.fgov.be,404,
+connect.economie.fgov.be,economie.fgov.be,404,
+connect.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+conscred-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+conscred.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 conseildesaines.belgium.be,belgium.be,301,none
 conseilsuperieurvolontaires.belgium.be,belgium.be,Could not resolve host: conseilsuperieurvolontaires.belgium.be,none
 consular.diplomatie.belgium.be,belgium.be,Could not resolve host: consular.diplomatie.belgium.be,none
 consultativebodies.health.belgium.be,belgium.be,301,none
+contracts.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 controleemployeur.digiflow.belgium.be,belgium.be,Could not resolve host: controleemployeur.digiflow.belgium.be,none
 controlewerkgever.digiflow.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+core.miron.dta.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+core.miron.mil.be,mil.be,302,
 cotedivoire.diplomatie.belgium.be,belgium.be,302,none
+cpcalendars.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+cpcontacts.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 crescendo.belgium.be,belgium.be,403,none
 croatia.diplomatie.belgium.be,belgium.be,Could not resolve host: croatia.diplomatie.belgium.be,none
 croatie.diplomatie.belgium.be,belgium.be,Could not resolve host: croatie.diplomatie.belgium.be,none
+csipme-acc.economie.fgov.be,economie.fgov.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching csipme-acc.economie.fgov.be found.,
+csipme.economie.fgov.be,economie.fgov.be,302,
+csp-acc.economie.fgov.be,economie.fgov.be,200,
+csp-api-acc.economie.fgov.be,economie.fgov.be,200,
+csp-api.economie.fgov.be,economie.fgov.be,200,
+ctf.cert.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 cuba.diplomatie.belgium.be,belgium.be,302,none
+cube-01.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+cube-02.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 cyberguide.ccb.belgium.be,belgium.be,Could not resolve host: cyberguide.ccb.belgium.be,none
 czechrepublic.diplomatie.belgium.be,belgium.be,302,none
+d.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+d.we.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 dailin.p-o.belgium.be,belgium.be,Could not resolve host: dailin.p-o.belgium.be,none
 danemark.diplomatie.belgium.be,belgium.be,302,none
 data.belgium.be,belgium.be,301,none
+data.economie.fgov.be,economie.fgov.be,200,
 dc.digital.belgium.be,belgium.be,Could not resolve host: dc.digital.belgium.be,none
+debtmediation-acc.economie.fgov.be,economie.fgov.be,200,
+debtmediation.economie.fgov.be,economie.fgov.be,200,
 demo.test.eid.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 denemarken.diplomatie.belgium.be,belgium.be,Could not resolve host: denemarken.diplomatie.belgium.be,none
 denmark.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
 deutschland.diplomatie.belgium.be,belgium.be,302,none
+dev1-careers.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+developer.api-d.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+developer.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+developer.np.platform.ibz.be,ibz.be,403,
+developer.np.we.platform.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+developer.p.platform.ibz.be,ibz.be,403,
+developer.p.we.platform.ibz.be,ibz.be,403,
+developer.platform.ibz.be,ibz.be,403,
+diamondsupervision-acc.economie.fgov.be,economie.fgov.be,200,
+diamondsupervision-be-acc.economie.fgov.be,economie.fgov.be,503,
+diamondsupervision-be.economie.fgov.be,economie.fgov.be,404,
+diamondsupervision.economie.fgov.be,economie.fgov.be,200,
 digiflow-mm.ta.belgium.be,belgium.be,Could not resolve host: digiflow-mm.ta.belgium.be,none
 digiflow.belgium.be,belgium.be,Could not resolve host: digiflow.belgium.be,none
 digiflowacc.belgium.be,belgium.be,SSL: no alternative certificate subject name matches target hostname 'digiflowacc.belgium.be',none
 digital.belgium.be,belgium.be,Could not resolve host: digital.belgium.be,none
 digitaldashboard.belgium.be,belgium.be,301,none
+digitalliftregistrybackend-acc.economie.fgov.be,economie.fgov.be,200,
+digitalliftregistrybackend.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+digitalliftregistryinspectionservice-acc.economie.fgov.be,economie.fgov.be,200,
+digitalliftregistryinspectionservice.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 dist.eid.belgium.be,belgium.be,200,none
+dms-dev.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+dms-prod.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+dms-qa.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+dms-test.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+doc.icesquirrel.mil.be,mil.be,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Tue Jul 14 09:34:24 CEST 2026,
+doccom.mil.be,mil.be,301,
+dofi.ibz.be,ibz.be,302,
 downloads.services.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 drcongo.diplomatie.belgium.be,belgium.be,302,none
 drivers.eid.belgium.be,belgium.be,Could not resolve host: drivers.eid.belgium.be,none
@@ -132,47 +348,177 @@ dt.bosa.belgium.be,belgium.be,Could not resolve host: dt.bosa.belgium.be,none
 dtoservices.bosa.belgium.be,belgium.be,Could not resolve host: dtoservices.bosa.belgium.be,none
 dtservices.bosa.belgium.be,belgium.be,301,none
 duitsland.diplomatie.belgium.be,belgium.be,Could not resolve host: duitsland.diplomatie.belgium.be,none
+dummy.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy1.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy10.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+dummy11.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy12.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy13.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy2.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy3.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy4.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy5.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy6.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy7.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+dummy8.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+dummy9.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+dvp.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+dvpacc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+dvptest.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+dvz-rsz-uniek-loket-client-a-0308356862.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+dvz-rsz-uniek-loket-client-p-0308356862.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+dvzrrnws.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+e-aangifte-bhv.economie.fgov.be,economie.fgov.be,200,
+e-declaration-sgd.economie.fgov.be,economie.fgov.be,200,
+e-registered.economie.fgov.be,economie.fgov.be,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Sat May 20 01:59:59 CEST 2023,
+e.economie.fgov.be,economie.fgov.be,302,
+e7m.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eas.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+easy.kbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+easy.kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 ebirth-city.belgium.be,belgium.be,403,none
 ebirth-hospital.belgium.be,belgium.be,403,none
 ebirth-medicalform.pr.belgium.be,belgium.be,Could not resolve host: ebirth-medicalform.pr.belgium.be,none
 ebirth-medicalform.ta.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 ebirth.belgium.be,belgium.be,Could not resolve host: ebirth.belgium.be,none
+ebox-acc.economie.fgov.be,economie.fgov.be,200,
+ebox.economie.fgov.be,economie.fgov.be,200,
+ecademy-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+ecademy.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-belac.wskbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-belac.wskbo-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-easy.ws-kbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-easy.ws-kbo-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-ebox.acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-ebox.prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-eris.first-acc.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+eco-eva.ws-kbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-eva.ws-kbo-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-mandates-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-mandates-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-ws-cap-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eco-ws-cap-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+ecoauth-acc.economie.fgov.be,economie.fgov.be,404,
+ecoauth.economie.fgov.be,economie.fgov.be,404,
+ecoiamservices-acc.economie.fgov.be,economie.fgov.be,200,
+ecoiamservices.economie.fgov.be,economie.fgov.be,200,
 ecommunities.belgium.be,belgium.be,Could not resolve host: ecommunities.belgium.be,none
+economie-01.paas.cloud.gcloud.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 economie.fgov.be,economie.fgov.be,302,none
+ecoportal-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+ecoportal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+ecozoom.economie.fgov.be,economie.fgov.be,200,
+edatenq.economie.fgov.be,economie.fgov.be,301,
 edrl.belgium.be,belgium.be,301,none
+edu-bpp-mypage.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+edu-bpp.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+edu-bpp.patents.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+edu-mypage.patents.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 efacturatie.belgium.be,belgium.be,Could not resolve host: efacturatie.belgium.be,none
 efacturation.belgium.be,belgium.be,301,none
 efacture.belgium.be,belgium.be,Could not resolve host: efacture.belgium.be,none
 efacturer.belgium.be,belgium.be,301,none
 efactureren.belgium.be,belgium.be,301,none
 efactuur.belgium.be,belgium.be,Could not resolve host: efactuur.belgium.be,none
+efb.fs.mil.be,mil.be,302,
+efiling.patents.economie.fgov.be,economie.fgov.be,200,
 egypt.diplomatie.belgium.be,belgium.be,302,none
 egypte.diplomatie.belgium.be,belgium.be,302,none
 ehr.belgium.be,belgium.be,Could not resolve host: ehr.belgium.be,none
 einvoice.belgium.be,belgium.be,301,none
 einvoicing.belgium.be,belgium.be,301,none
+elecprices-acc.economie.fgov.be,economie.fgov.be,200,
+elecprices.economie.fgov.be,economie.fgov.be,200,
 elections.belgium.be,belgium.be,Could not resolve host: elections.belgium.be,none
 elections2003.belgium.be,belgium.be,301,none
 elections2004.belgium.be,belgium.be,Could not resolve host: elections2004.belgium.be,none
 elections2007.belgium.be,belgium.be,Could not resolve host: elections2007.belgium.be,none
+elevators.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+elevatorsacc.economie.fgov.be,economie.fgov.be,ConnectException > ClosedChannelException,
+elevatorstest.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+elocket-acc.ibz.be,ibz.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+elocket.ibz.be,ibz.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+eloketarma-acc.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+email.prco.economie.fgov.be,economie.fgov.be,404,
+emetro-acc.economie.fgov.be,economie.fgov.be,200,
+emetro.economie.fgov.be,economie.fgov.be,200,
+emigration.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 emiratsarabesunis.diplomatie.belgium.be,belgium.be,Could not resolve host: emiratsarabesunis.diplomatie.belgium.be,none
+emm.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+encryption.services-acc-dvzoe.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+encryption.services-dvzoe.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 end.dev.eid.belgium.be,belgium.be,Could not resolve host: end.dev.eid.belgium.be,none
+energie.economie.fgov.be,economie.fgov.be,301,
+enquetes-acc.economie.fgov.be,economie.fgov.be,301,
+enquetes.economie.fgov.be,economie.fgov.be,301,
+enterpriseenrollment.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+enterprisenrollment.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+enterpriseservices-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+enterpriseservices-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+enterpriseservices.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 env.dev.eid.belgium.be,belgium.be,Could not resolve host: env.dev.eid.belgium.be,none
+eolf.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+epatras.economie.fgov.be,economie.fgov.be,503,
+epv-ws.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eris.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eris.meldpunt-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eris.meldpunt.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eris.ws-cap.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eris.wskbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eris.wskbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 espagne.diplomatie.belgium.be,belgium.be,Could not resolve host: espagne.diplomatie.belgium.be,none
 espana.diplomatie.belgium.be,belgium.be,302,none
 etats-unis.diplomatie.belgium.be,belgium.be,Could not resolve host: etats-unis.diplomatie.belgium.be,none
 ethiopia.diplomatie.belgium.be,belgium.be,Could not resolve host: ethiopia.diplomatie.belgium.be,none
 ethiopie.diplomatie.belgium.be,belgium.be,Could not resolve host: ethiopie.diplomatie.belgium.be,none
+etiket.economie.fgov.be,economie.fgov.be,302,
+etikett.economie.fgov.be,economie.fgov.be,302,
+etiquette.economie.fgov.be,economie.fgov.be,302,
+eucertificates-acc.economie.fgov.be,economie.fgov.be,200,
+eucertificates.economie.fgov.be,economie.fgov.be,200,
+eufunding.ibz.be,ibz.be,301,
 eupuzzle.diplomatie.belgium.be,belgium.be,Could not resolve host: eupuzzle.diplomatie.belgium.be,none
 europeanelections.belgium.be,belgium.be,Could not resolve host: europeanelections.belgium.be,none
 europeanunion.diplomatie.belgium.be,belgium.be,302,none
+eva.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eva.kbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+eva.kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 events.employment.belgium.be,belgium.be,301,none
+events.mil.be,mil.be,400,
+evigilis-uat.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+evigilis.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+evigilisadmintest.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+evigilisapitest.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+evigiliscardtest.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+evigilistest.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+evigilistestidp.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+eviglisapitest.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+exit.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+external.rcms.d.we.apps.ibz.be,ibz.be,502,
+external.rcms.p.we.apps.ibz.be,ibz.be,502,
+extranet2010.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+extranetacc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 extranets.belgium.be,belgium.be,Could not resolve host: extranets.belgium.be,none
+fabiandonvil.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 fas.services.belgium.be,belgium.be,Could not resolve host: fas.services.belgium.be,10 smtp-in-a.mss.belgium.be.; 10 smtp-in-b.mss.belgium.be.
 fas.services.ta.belgium.be,belgium.be,Could not resolve host: fas.services.ta.belgium.be,none
+fasauthentication-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+fasauthentication.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 fasp.services.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 fasp.services.ta.belgium.be,belgium.be,Could not resolve host: fasp.services.ta.belgium.be,none
+fdi-screening-acc.economie.fgov.be,economie.fgov.be,200,
+fdi-screening-bo-acc.economie.fgov.be,economie.fgov.be,200,
+fdi-screening-bo-api-acc.economie.fgov.be,economie.fgov.be,200,
+fdi-screening-bo-api.economie.fgov.be,economie.fgov.be,200,
+fdi-screening-bo.economie.fgov.be,economie.fgov.be,200,
+fdi-screening-fo-api-acc.economie.fgov.be,economie.fgov.be,200,
+fdi-screening-fo-api.economie.fgov.be,economie.fgov.be,200,
+fdi-screening.economie.fgov.be,economie.fgov.be,200,
 fed-parl.be,fed-parl.be,200,10 kvvcr.in.tmes.trendmicro.eu.
+fed1defsaeaacc01.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+fed1defsaeawcon01.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+fed2defsaeaacc01.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+fed2defsaeawcon01.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 federale-regering.be,federale-regering.be,403,none
 fedict.belgium.be,belgium.be,400,none
 fedimbo.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
@@ -183,40 +529,90 @@ filipijnen.diplomatie.belgium.be,belgium.be,302,none
 finland.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
 finlande.diplomatie.belgium.be,belgium.be,Could not resolve host: finlande.diplomatie.belgium.be,none
 finshop.belgium.be,belgium.be,Could not resolve host: finshop.belgium.be,none
+first.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 fodeconomie2018.belgium.be,belgium.be,Could not resolve host: fodeconomie2018.belgium.be,none
 fondsdegarantie.belgium.be,belgium.be,301,none
+forfaitdebase.economie.fgov.be,economie.fgov.be,302,
 forum.belgium.be,belgium.be,Could not resolve host: forum.belgium.be,none
 forum2010.belgium.be,belgium.be,Could not resolve host: forum2010.belgium.be,none
 fpssd.belgium.be,belgium.be,Could not resolve host: fpssd.belgium.be,none
 france.diplomatie.belgium.be,belgium.be,302,none
+front.icesquirrel.mil.be,mil.be,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Tue Jul 14 09:34:24 CEST 2026,
+fs.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 fsb.belgium.be,belgium.be,Could not resolve host: fsb.belgium.be,none
 fsb.services.int.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 fsb.services.ta.belgium.be,belgium.be,Could not resolve host: fsb.services.ta.belgium.be,none
+fuel-grant-backend-acc.economie.fgov.be,economie.fgov.be,200,
+fuel-grant-backend.economie.fgov.be,economie.fgov.be,200,
 g-cloud.belgium.be,belgium.be,Could not resolve host: g-cloud.belgium.be,5 mailgate.fediap.be.
 garantiefonds.belgium.be,belgium.be,Could not resolve host: garantiefonds.belgium.be,none
 gcloud.belgium.be,belgium.be,200,5 mailgate.fediap.be.
 gdpr.belgium.be,belgium.be,301,none
 gdpr.digital.belgium.be,belgium.be,Could not resolve host: gdpr.digital.belgium.be,none
+gemcom.ibz.be,ibz.be,302,
+geplandeveroudering.economie.fgov.be,economie.fgov.be,301,
 germany.diplomatie.belgium.be,belgium.be,Could not resolve host: germany.diplomatie.belgium.be,none
+gevaarlijkeproducten.economie.fgov.be,economie.fgov.be,200,
+git.icesquirrel.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+gitlab-pages-test.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+gitlab-pages.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 gitlab.gcloud.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 goedafgerond.belgium.be,belgium.be,Could not resolve host: goedafgerond.belgium.be,none
 gouvernement-federal.be,gouvernement-federal.be,403,none
+govroam.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 grece.diplomatie.belgium.be,belgium.be,302,none
 greece.diplomatie.belgium.be,belgium.be,302,none
 griekenland.diplomatie.belgium.be,belgium.be,Could not resolve host: griekenland.diplomatie.belgium.be,none
+guest.mil.be,mil.be,ConnectException > NoRouteToHostException: Host is unreachable,
 handicap.belgium.be,belgium.be,302,none
+hbs-acc.economie.fgov.be,economie.fgov.be,200,
+hbs.economie.fgov.be,economie.fgov.be,200,
 health.belgium.be,belgium.be,Could not resolve host: health.belgium.be,10 mailgate.fediap.be.
+heating-grant-acc.economie.fgov.be,economie.fgov.be,HttpTimeoutException: request timed out,
+heating-grant-tst.economie.fgov.be,economie.fgov.be,HttpTimeoutException: request timed out,
+heating-grant.economie.fgov.be,economie.fgov.be,HttpTimeoutException: request timed out,
+heatingoilcheck200.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+heizpramie.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+hermes.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 hogeraadvrijwilligers.belgium.be,belgium.be,Could not resolve host: hogeraadvrijwilligers.belgium.be,none
 hoherratfreiwilligen.belgium.be,belgium.be,301,none
 hongarije.diplomatie.belgium.be,belgium.be,302,none
 hongkongmacau.diplomatie.belgium.be,belgium.be,302,none
 hongrie.diplomatie.belgium.be,belgium.be,Could not resolve host: hongrie.diplomatie.belgium.be,none
+horloge.economie.fgov.be,economie.fgov.be,301,
+hpsng-acc.economie.fgov.be,economie.fgov.be,200,
+hpsng-api-acc.economie.fgov.be,economie.fgov.be,200,
+hpsng-api.economie.fgov.be,economie.fgov.be,200,
+hpsng-bo-acc.economie.fgov.be,economie.fgov.be,200,
+hpsng-bo.economie.fgov.be,economie.fgov.be,200,
+hpsng.economie.fgov.be,economie.fgov.be,200,
+hrzkmo-acc.economie.fgov.be,economie.fgov.be,200,
+hrzkmo-api-acc.economie.fgov.be,economie.fgov.be,200,
+hrzkmo-api.economie.fgov.be,economie.fgov.be,200,
+hrzkmo.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 hungary.diplomatie.belgium.be,belgium.be,302,none
+hybrid.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 iamfas.belgium.be,belgium.be,Could not resolve host: iamfas.belgium.be,none
 iamfas.int.belgium.be,belgium.be,403,none
 iamfas.qa.belgium.be,belgium.be,Could not resolve host: iamfas.qa.belgium.be,none
+ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+iasapigwa.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+iasapigwp.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+iasapigwporta.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+iasapigwportp.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+iasapigwportt.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+iasapigwt.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+iberia-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ibz-dvzoe-emig-stay-uniek-loket-client.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ibz-dvzoe-evibelng-acc.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ibz-dvzoe-evibelng-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 ibz.be,ibz.be,301,none
+ibz.be.91-107-147-194.cpanel.site,ibz.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching ibz.be.91-107-147-194.cpanel.site found.,
+ibz.be.91-107-147-194.cprapid.com,ibz.be,ConnectException > UnresolvedAddressException,
 icdo.belgium.be,belgium.be,Could not resolve host: icdo.belgium.be,none
+icesquirrel.mil.be,mil.be,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Tue Jul 14 09:34:24 CEST 2026,
+icmsystemacc.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+icmsystemprod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 idp.iamfas.belgium.be,belgium.be,Could not resolve host: idp.iamfas.belgium.be,none
 idp.iamfas.int.belgium.be,belgium.be,403,none
 idp.iamfas.qa.belgium.be,belgium.be,403,none
@@ -228,13 +624,26 @@ ifa.belgium.be,belgium.be,301,10 mail.ofoifa.be.
 ifdd.belgium.be,belgium.be,403,none
 igvm-iefh.belgium.be,belgium.be,302,none
 igvm.belgium.be,belgium.be,Could not resolve host: igvm.belgium.be,none
+image.mailings.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 inde.diplomatie.belgium.be,belgium.be,302,none
+indexclient.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+indexpub-acc.economie.fgov.be,economie.fgov.be,200,
+indexpub-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+indexpub.economie.fgov.be,economie.fgov.be,200,
+indexpublication-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+indexsearch-acc.economie.fgov.be,economie.fgov.be,200,
+indexsearch.economie.fgov.be,economie.fgov.be,200,
 india.diplomatie.belgium.be,belgium.be,302,none
 indonesia.diplomatie.belgium.be,belgium.be,302,none
 indonesie.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
+infoblox.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 infocenter.belgium.be,belgium.be,Could not resolve host: infocenter.belgium.be,none
+insideco-acc.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+insideco.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 inspfin.belgium.be,belgium.be,302,10 relay-shs.fed.be.; 20 relay2-shs.fed.be.
+int.b2b.ksz.kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 int.belgium.be,belgium.be,Could not resolve host: int.belgium.be,none
+internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 invest.belgium.be,belgium.be,Could not resolve host: invest.belgium.be,none
 invest.onlyinbelgium.be,belgium.be,Could not resolve host: invest.onlyinbelgium.be,none
 iran.diplomatie.belgium.be,belgium.be,302,none
@@ -253,26 +662,70 @@ japan.diplomatie.belgium.be,belgium.be,302,none
 japon.diplomatie.belgium.be,belgium.be,302,none
 jerusalem.diplomatie.belgium.be,belgium.be,302,none
 jeruzalem.diplomatie.belgium.be,belgium.be,302,none
+job.ibz.be.91-107-147-194.cprapid.com,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+jobs.ibz.be,ibz.be,302,
+jobs.ibz.be.91-107-147-194.cprapid.com,ibz.be,ConnectException > UnresolvedAddressException,
+jobs.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+join.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 jordan.diplomatie.belgium.be,belgium.be,302,none
 jordanie.diplomatie.belgium.be,belgium.be,302,none
 kameroen.diplomatie.belgium.be,belgium.be,302,none
 kazachstan.diplomatie.belgium.be,belgium.be,302,none
 kazakhstan.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
+kbo-bce-select.economie.fgov.be,economie.fgov.be,ConnectException > ClosedChannelException,
+kbo-bce-wi.economie.fgov.be,economie.fgov.be,200,
+kbo-select-fo-be-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+kbo-select-fo-be.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+kbo.emetro.acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+kbo.emetro.prod.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+kbopub-acc.economie.fgov.be,economie.fgov.be,200,
+kbopub.economie.fgov.be,economie.fgov.be,200,
+kboradiation.economie.fgov.be,economie.fgov.be,IOException > SocketException: Connection reset,
 kenia.diplomatie.belgium.be,belgium.be,302,none
 kenya.diplomatie.belgium.be,belgium.be,302,none
+klok.economie.fgov.be,economie.fgov.be,301,
 koeweit.diplomatie.belgium.be,belgium.be,Operation timed out after 3000 milliseconds with 0 bytes received,none
 kosovo.diplomatie.belgium.be,belgium.be,302,none
 koweit.diplomatie.belgium.be,belgium.be,302,none
 kroatie.diplomatie.belgium.be,belgium.be,302,none
 kuwait.diplomatie.belgium.be,belgium.be,302,none
+labelingderogation-acc.economie.fgov.be,economie.fgov.be,404,
+labelingderogation.economie.fgov.be,economie.fgov.be,302,
+landingzone.d.we.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 lebanon.diplomatie.belgium.be,belgium.be,302,none
+lfspanel.economie.fgov.be,economie.fgov.be,200,
 liban.diplomatie.belgium.be,belgium.be,302,none
 libanon.diplomatie.belgium.be,belgium.be,302,none
+licenses-acc.economie.fgov.be,economie.fgov.be,200,
+licenses.economie.fgov.be,economie.fgov.be,200,
+liftregistry-acc.economie.fgov.be,economie.fgov.be,200,
+liftregistry-bo-be.economie.fgov.be,economie.fgov.be,200,
+liftregistry-bo.economie.fgov.be,economie.fgov.be,200,
+liftregistry-fo-be.economie.fgov.be,economie.fgov.be,200,
+liftregistry.economie.fgov.be,economie.fgov.be,200,
+logc-abl-dmz-svc-01.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+logc-abl-dmz-svc-02.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+logc-abl-dmz-svc-03.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 luxembourg.diplomatie.belgium.be,belgium.be,302,none
 luxemburg.diplomatie.belgium.be,belgium.be,302,none
+lyncdiscover.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+lyncdiscover.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+m.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+magazines.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 magma.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+mail.ibz.be.91-107-147-194.cprapid.com,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mail.job.ibz.be.91-107-147-194.cprapid.com,ibz.be,ConnectException > UnresolvedAddressException,
+mail.jobs.ibz.be.91-107-147-194.cprapid.com,ibz.be,ConnectException > UnresolvedAddressException,
+mail.mik.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mail.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 mail.venicenet.belgium.be,belgium.be,Could not resolve host: mail.venicenet.belgium.be,none
+mailings.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 mailings.social.belgium.be,belgium.be,Could not resolve host: mailings.social.belgium.be,none
+mailjet-acc.economie.fgov.be,economie.fgov.be,200,
+mailjet.economie.fgov.be,economie.fgov.be,200,
+mails.economie.fgov.be,economie.fgov.be,200,
+majtar-acc.economie.fgov.be,economie.fgov.be,200,
+majtar.economie.fgov.be,economie.fgov.be,200,
 malaisie.diplomatie.belgium.be,belgium.be,302,none
 malaysia.diplomatie.belgium.be,belgium.be,302,none
 maleisie.diplomatie.belgium.be,belgium.be,302,none
@@ -280,29 +733,68 @@ mali.diplomatie.belgium.be,belgium.be,302,none
 marchepublic.digiflow.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 maroc.diplomatie.belgium.be,belgium.be,302,none
 marokko.diplomatie.belgium.be,belgium.be,302,none
+mat.mil.be,mil.be,IOException > SocketException: Connection reset,
 maven.eid.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+mcb.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+mdc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+media.ibz.be,ibz.be,200,
+mediahub.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mediastreams.beladl.mil.be,mil.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching mediastreams.beladl.mil.be found.,
 medic.handicap.belgium.be,belgium.be,Could not resolve host: medic.handicap.belgium.be,none
+medih.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+mediprices-acc.economie.fgov.be,economie.fgov.be,200,
+mediprices.economie.fgov.be,economie.fgov.be,200,
 meet.p-o.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+meldpunt-acc.economie.fgov.be,economie.fgov.be,200,
+meldpunt-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+meldpunt-ws-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+meldpunt.economie.fgov.be,economie.fgov.be,200,
 mexico.diplomatie.belgium.be,belgium.be,302,none
 mexique.diplomatie.belgium.be,belgium.be,302,none
 mijnopinie.belgium.be,belgium.be,301,none
+mik.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 mil.be,mil.be,301,10 mil-be.mail.protection.outlook.com.
+misp-loke.cyber.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+misp-pfx.cyber.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+misp.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+misp.sig.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mobile.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+mod-ilias-invoice-prod.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mod-ilias-invoice-tst.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+mod-kbo-client-acc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+mod-kbo-client-prod.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 monopinion.belgium.be,belgium.be,301,none
 morocco.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
 mozambique.diplomatie.belgium.be,belgium.be,302,none
 municipalities-acc.belgium.be,belgium.be,403,none
+mx.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+mx1.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mx2.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 my.belgium.be,belgium.be,301,none
+myaddress.emigration.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 mybelgium.be,belgium.be,301,none
+myenterprise-acc.economie.fgov.be,economie.fgov.be,200,
+myenterprise.economie.fgov.be,economie.fgov.be,200,
 myhandicap.belgium.be,belgium.be,Connection timed out after 3003 milliseconds,none
 mymail.gcloud.belgium.be,belgium.be,Could not resolve host: mymail.gcloud.belgium.be,none
 myopinion.belgium.be,belgium.be,Could not resolve host: myopinion.belgium.be,none
+mypage.patents.economie.fgov.be,economie.fgov.be,200,
 mytelemarc.belgium.be,belgium.be,Could not resolve host: mytelemarc.belgium.be,none
+nacesearch.economie.fgov.be,economie.fgov.be,200,
 nato.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
 navo.diplomatie.belgium.be,belgium.be,302,none
+navyacademy.mil.be,mil.be,200,
 nckr.belgium.be,belgium.be,Could not resolve host: nckr.belgium.be,none
 nederland.diplomatie.belgium.be,belgium.be,302,none
 netherlands.diplomatie.belgium.be,belgium.be,Could not resolve host: netherlands.diplomatie.belgium.be,none
+new-kbo-bce-select-be-acc.economie.fgov.be,economie.fgov.be,200,
+new-kbo-bce-select-be.economie.fgov.be,economie.fgov.be,200,
+new-kbo-bce-select.economie.fgov.be,economie.fgov.be,200,
+new-kbo-select-acc.economie.fgov.be,economie.fgov.be,200,
+new.ibz.be,ibz.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching new.ibz.be found.,
+news.economie.fgov.be,economie.fgov.be,302,
 newyorkun.diplomatie.belgium.be,belgium.be,302,none
+ng3.economie.fgov.be,economie.fgov.be,302,
 niger.diplomatie.belgium.be,belgium.be,302,none
 nigeria.diplomatie.belgium.be,belgium.be,Could not resolve host: nigeria.diplomatie.belgium.be,none
 nivelles.mijnopinie.belgium.be,belgium.be,Could not resolve host: nivelles.mijnopinie.belgium.be,none
@@ -310,11 +802,19 @@ nivelles.monopinion.belgium.be,belgium.be,Could not resolve host: nivelles.monop
 noorwegen.diplomatie.belgium.be,belgium.be,Could not resolve host: noorwegen.diplomatie.belgium.be,none
 norvege.diplomatie.belgium.be,belgium.be,302,none
 norway.diplomatie.belgium.be,belgium.be,302,none
+notfunny.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ns1.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+ntp.economie.fgov.be,economie.fgov.be,301,
+obsolescenceprogrammee.economie.fgov.be,economie.fgov.be,301,
 oeganda.diplomatie.belgium.be,belgium.be,Could not resolve host: oeganda.diplomatie.belgium.be,none
 oekraine.diplomatie.belgium.be,belgium.be,302,none
+offreinternetsociale.economie.fgov.be,economie.fgov.be,200,
+offshore.digital-database.economie.fgov.be,economie.fgov.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 ofo.belgium.be,belgium.be,Could not resolve host: ofo.belgium.be,none
 ofoifa.belgium.be,belgium.be,301,none
 oid.belgium.be,belgium.be,Could not resolve host: oid.belgium.be,none
+olprufen.economie.fgov.be,economie.fgov.be,302,
+olprufen200.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 onlyinbelgium.be,belgium.be,Could not resolve host: onlyinbelgium.be,none
 oostenrijk.diplomatie.belgium.be,belgium.be,302,none
 optinet.belgium.be,belgium.be,Could not resolve host: optinet.belgium.be,none
@@ -322,11 +822,15 @@ osterreich.diplomatie.belgium.be,belgium.be,Could not resolve host: osterreich.d
 otan.diplomatie.belgium.be,belgium.be,302,none
 ouganda.diplomatie.belgium.be,belgium.be,Could not resolve host: ouganda.diplomatie.belgium.be,none
 overheidsopdracht.digiflow.belgium.be,belgium.be,Could not resolve host: overheidsopdracht.digiflow.belgium.be,none
+owa.mik.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+p.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+p.we.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 pakistan.diplomatie.belgium.be,belgium.be,302,none
 panama.diplomatie.belgium.be,belgium.be,Could not resolve host: panama.diplomatie.belgium.be,none
 pangafin.belgium.be,belgium.be,Could not resolve host: pangafin.belgium.be,none
 pangaspfod.belgium.be,belgium.be,Could not resolve host: pangaspfod.belgium.be,none
 panorama.belgium.be,belgium.be,302,none
+partners.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 paysbas.diplomatie.belgium.be,belgium.be,302,none
 pdf.fedweb.belgium.be,belgium.be,200,none
 pdf.finances.belgium.be,belgium.be,403,none
@@ -335,12 +839,20 @@ pdf.finanzen.belgium.be,belgium.be,Could not resolve host: pdf.finanzen.belgium.
 pdf.regiedergebouwen.belgium.be,belgium.be,403,none
 pdf.regiedesbatiments.belgium.be,belgium.be,403,none
 pdfsign.belgium.be,belgium.be,Could not resolve host: pdfsign.belgium.be,none
+pelletcheque.economie.fgov.be,economie.fgov.be,302,
 perou.diplomatie.belgium.be,belgium.be,302,none
 persopoint.belgium.be,belgium.be,Could not resolve host: persopoint.belgium.be,10 mailgate.fediap.be.
 peru.diplomatie.belgium.be,belgium.be,Operation timed out after 3001 milliseconds with 0 bytes received,none
+petrolprices.economie.fgov.be,economie.fgov.be,200,
 philippines.diplomatie.belgium.be,belgium.be,302,none
+phpmyadmin.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 pki.belgium.be,belgium.be,Could not resolve host: pki.belgium.be,none
 plan.fin.belgium.be,belgium.be,403,none
+pm.icesquirrel.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+pnr-as4-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+pnr-as4-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+pnr-navitaire-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+pnr-navitaire-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 poddo.belgium.be,belgium.be,Could not resolve host: poddo.belgium.be,none
 poland.diplomatie.belgium.be,belgium.be,Could not resolve host: poland.diplomatie.belgium.be,none
 polen.diplomatie.belgium.be,belgium.be,302,none
@@ -351,15 +863,52 @@ polling2004.belgium.be,belgium.be,301,none
 polling2007.belgium.be,belgium.be,Could not resolve host: polling2007.belgium.be,none
 pologne.diplomatie.belgium.be,belgium.be,302,none
 polska.diplomatie.belgium.be,belgium.be,302,none
+portal.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+portal.vtc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 portugal.diplomatie.belgium.be,belgium.be,302,none
+ppa-air.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ppa-bus.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ppa-rail.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ppp-air.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ppp-bus.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+ppp-rail.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ppt-air.cust1.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+ppt-air.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 pr.belgium.be,belgium.be,Could not resolve host: pr.belgium.be,none
+prd-easy.ws-epv.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+prd-easy.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+prd-eva.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+preprod-bpp.patents.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+preprod-mypage.patents.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+prime-chauffage.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+prisma.connect.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+prod.b2b.ksz.kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+prodcopy-kbo-bce-wi.economie.fgov.be,economie.fgov.be,200,
+produitsdangereux.economie.fgov.be,economie.fgov.be,200,
+pyro-pass-acc.economie.fgov.be,economie.fgov.be,200,
+pyro-pass-api-acc.economie.fgov.be,economie.fgov.be,200,
+pyro-pass-api.economie.fgov.be,economie.fgov.be,200,
 qa.belgium.be,belgium.be,Could not resolve host: qa.belgium.be,none
 qatar.diplomatie.belgium.be,belgium.be,Could not resolve host: qatar.diplomatie.belgium.be,none
+quetelet.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+quickstatements.wikibase-statbel.aks-prod.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+range.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 rapport.mobilit.belgium.be,belgium.be,Could not resolve host: rapport.mobilit.belgium.be,none
 rapportannuel.finances.belgium.be,belgium.be,301,none
+rcms.d.apps.ibz.be,ibz.be,403,
+rcms.d.we.apps.ibz.be,ibz.be,403,
+rcms.p.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+rcms.p.we.apps.ibz.be,ibz.be,403,
 rdcongo.diplomatie.belgium.be,belgium.be,302,none
+rdweb.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 readers.eid.belgium.be,belgium.be,301,none
 readers.stage-eid.belgium.be,belgium.be,Connection timed out after 3004 milliseconds,none
+receptgewijzigd.economie.fgov.be,economie.fgov.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching receptgewijzigd.economie.fgov.be found.,
+recettemodifiee.economie.fgov.be,economie.fgov.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching recettemodifiee.economie.fgov.be found.,
+regartisans-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+regartisans.economie.fgov.be,economie.fgov.be,503,
+rentcalculator-acc.economie.fgov.be,economie.fgov.be,200,
+rentcalculator.economie.fgov.be,economie.fgov.be,200,
 report.belgium.be,belgium.be,200,none
 republicofkorea.diplomatie.belgium.be,belgium.be,302,none
 republiekkorea.diplomatie.belgium.be,belgium.be,Could not resolve host: republiekkorea.diplomatie.belgium.be,none
@@ -369,87 +918,191 @@ rma-help.fedict.belgium.be,belgium.be,301,none
 roemenie.diplomatie.belgium.be,belgium.be,Could not resolve host: roemenie.diplomatie.belgium.be,none
 romania.diplomatie.belgium.be,belgium.be,302,none
 roumanie.diplomatie.belgium.be,belgium.be,302,none
+royalbands.mil.be,mil.be,301,
 royaume-uni.diplomatie.belgium.be,belgium.be,302,none
 rusland.diplomatie.belgium.be,belgium.be,302,none
 russia.diplomatie.belgium.be,belgium.be,Could not resolve host: russia.diplomatie.belgium.be,none
 russie.diplomatie.belgium.be,belgium.be,Could not resolve host: russie.diplomatie.belgium.be,none
 rwanda.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
 sab-huge.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+saml.connect.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+sand-gravel-extraction-acc.economie.fgov.be,economie.fgov.be,200,
 saoedi-arabie.diplomatie.belgium.be,belgium.be,Could not resolve host: saoedi-arabie.diplomatie.belgium.be,none
 sarastro.eid.belgium.be,belgium.be,Could not resolve host: sarastro.eid.belgium.be,none
 satellite.gcloud.belgium.be,belgium.be,Could not resolve host: satellite.gcloud.belgium.be,none
 saudiarabia.diplomatie.belgium.be,belgium.be,302,none
+sbc.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 schweiz.diplomatie.belgium.be,belgium.be,Could not resolve host: schweiz.diplomatie.belgium.be,none
 scope.belgium.be,belgium.be,200,10 mailgate.fediap.be.
 search.belgium.be,belgium.be,Could not resolve host: search.belgium.be,none
+securelogin.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 semainedd.belgium.be,belgium.be,Could not resolve host: semainedd.belgium.be,none
 senegal.diplomatie.belgium.be,belgium.be,302,none
+sentry.miron.dta.mil.be,mil.be,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,
+sentry.miron.mil.be,mil.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+sentry2.miron.mil.be,mil.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 serbia.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
 serbie.diplomatie.belgium.be,belgium.be,302,none
+service-now.acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+service-now.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+services-acc-dvzoe.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+services-acc.ees.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+services-acc.vis.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+services-dvzoe.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+services-tst-dvzoe.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 services.belgium.be,belgium.be,Could not resolve host: services.belgium.be,none
+services.beltiasacc.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+services.ees.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 services.fedict.belgium.be,belgium.be,301,none
 services.ta.belgium.be,belgium.be,Could not resolve host: services.ta.belgium.be,none
 servie.diplomatie.belgium.be,belgium.be,302,none
 shad.gcloud.belgium.be,belgium.be,Could not resolve host: shad.gcloud.belgium.be,none
+siasapigw1a.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigw1p.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigw1t.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigw2a.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigw2p.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigw2t.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigwport1a.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigwport1p.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigwport1t.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigwport2a.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigwport2p.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+siasapigwport2t.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+sidp.emigration.ibz.be,ibz.be,302,
+sidp.np.platform.ibz.be,ibz.be,403,
+sidp.np.we.platform.ibz.be,ibz.be,403,
+sidp.p.platform.ibz.be,ibz.be,302,
+sidp.p.we.platform.ibz.be,ibz.be,302,
+sig.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 sign.belgium.be,belgium.be,Could not resolve host: sign.belgium.be,none
 singapore.diplomatie.belgium.be,belgium.be,Could not resolve host: singapore.diplomatie.belgium.be,none
 singapour.diplomatie.belgium.be,belgium.be,Could not resolve host: singapour.diplomatie.belgium.be,none
+sip.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+sip.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 sip.p-o.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+sip2.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+slilabometroa01.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+slilabometrop01.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 sma-help.bosa.belgium.be,belgium.be,302,none
 sma-help.fedict.belgium.be,belgium.be,Could not resolve host: sma-help.fedict.belgium.be,none
 smp-test.belgium.be,belgium.be,Could not resolve host: smp-test.belgium.be,none
 smp.belgium.be,belgium.be,Could not resolve host: smp.belgium.be,none
+smtp.cyber.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sociaalinternetaanbod.economie.fgov.be,economie.fgov.be,200,
+sociaaltarief.economie.fgov.be,economie.fgov.be,301,
+soctar-acc.economie.fgov.be,economie.fgov.be,503,
+soctar-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+soctar-ws-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 soctar.belgium.be,belgium.be,Could not resolve host: soctar.belgium.be,none
+soctar.economie.fgov.be,economie.fgov.be,503,
+soctel-acc.economie.fgov.be,economie.fgov.be,200,
+soctel-api-acc.economie.fgov.be,economie.fgov.be,200,
+soctel-api.economie.fgov.be,economie.fgov.be,200,
+soctel.economie.fgov.be,economie.fgov.be,200,
 southafrica.diplomatie.belgium.be,belgium.be,302,none
+sozialtarif.economie.fgov.be,economie.fgov.be,301,
+sp.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 spaas.gcloud.belgium.be,belgium.be,Could not resolve host: spaas.gcloud.belgium.be,none
 spain.diplomatie.belgium.be,belgium.be,302,none
 spanje.diplomatie.belgium.be,belgium.be,302,none
+spf-dgsp-acc.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+spf-dgsp-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 spfeconomie2018.belgium.be,belgium.be,Could not resolve host: spfeconomie2018.belgium.be,none
 srbija.diplomatie.belgium.be,belgium.be,Could not resolve host: srbija.diplomatie.belgium.be,none
+sslvpn.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sso-acc.economie.fgov.be,economie.fgov.be,404,
+sso.economie.fgov.be,economie.fgov.be,404,
 stage-oid.belgium.be,belgium.be,Could not resolve host: stage-oid.belgium.be,none
 stage-pki.belgium.be,belgium.be,Could not resolve host: stage-pki.belgium.be,none
 static.soctar.belgium.be,belgium.be,Could not resolve host: static.soctar.belgium.be,none
+stookoliecheque.economie.fgov.be,economie.fgov.be,302,
+stookoliecheque200.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+storybook.np.platform.ibz.be,ibz.be,403,
+storybook.np.we.platform.ibz.be,ibz.be,403,
+storybook.p.platform.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+storybook.p.we.platform.ibz.be,ibz.be,403,
+storybook.platform.ibz.be,ibz.be,403,
 sts-t.spaas.gcloud.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 sts-v.spaas.gcloud.belgium.be,belgium.be,Could not resolve host: sts-v.spaas.gcloud.belgium.be,none
+sts.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 sts.spaas.gcloud.belgium.be,belgium.be,Could not resolve host: sts.spaas.gcloud.belgium.be,none
 suede.diplomatie.belgium.be,belgium.be,302,none
 suisse.diplomatie.belgium.be,belgium.be,302,none
 support.eloket.belgium.be,belgium.be,Could not resolve host: support.eloket.belgium.be,none
+sviriasnps.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+svirnagios.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+swarm-test.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 sweden.diplomatie.belgium.be,belgium.be,Operation timed out after 3002 milliseconds with 0 bytes received,none
 switzerland.diplomatie.belgium.be,belgium.be,302,none
+sync.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+sync2.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+t.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+t.we.apps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 ta.belgium.be,belgium.be,Could not resolve host: ta.belgium.be,none
 taipei.diplomatie.belgium.be,belgium.be,302,none
 tamtam.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 tanzania.diplomatie.belgium.be,belgium.be,302,none
 tanzanie.diplomatie.belgium.be,belgium.be,302,none
+tarifsocial.economie.fgov.be,economie.fgov.be,301,
+tco-calculator-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+tco-calculator-be-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+tco-calculator-be.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+tco-calculator.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 telemarc.belgium.be,belgium.be,301,none
+test-kbo-bce-wi.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+test.d.we.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 test.ecommunities.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 test.eid.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+test.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+test.service-now.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+test2.d.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+test2.d.we.platform.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+testaccboc-ccb.mil.be,mil.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+testaccdoccom.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+testaccept-eva.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+testboc-ccb.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 testdiv.mobilit.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
+testdoccom.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+testis.cyber.mil.be,mil.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+testjmh.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+testsmals.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 thailand.diplomatie.belgium.be,belgium.be,302,none
 thailande.diplomatie.belgium.be,belgium.be,302,none
+thisisatest.d.we.services.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+tlscontact-acc-client.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+tlscontact-prd-client.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 travailsurmesure.belgium.be,belgium.be,400,none
 tristan.eid.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 tsa.belgium.be,belgium.be,TLS connect error: error:0A000410:SSL routines::ssl/tls alert handshake failure,none
 tsa.stage.belgium.be,belgium.be,Could not resolve host: tsa.stage.belgium.be,none
 tsjechie.diplomatie.belgium.be,belgium.be,302,none
+tst2beldefnews.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+tstbeldefnews.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+tstmagazines.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+tstmil.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 tum.pr.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 tunesie.diplomatie.belgium.be,belgium.be,302,none
 tunisia.diplomatie.belgium.be,belgium.be,302,none
 tunisie.diplomatie.belgium.be,belgium.be,302,none
+tunnel.miron.dta.mil.be,mil.be,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,
+tunnel.miron.mil.be,mil.be,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 turkey.diplomatie.belgium.be,belgium.be,301,none
 turkije.diplomatie.belgium.be,belgium.be,302,none
 turkiye.diplomatie.belgium.be,belgium.be,302,none
 turquie.diplomatie.belgium.be,belgium.be,Could not resolve host: turquie.diplomatie.belgium.be,none
+uat-careers.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 uccle.mijnopinie.belgium.be,belgium.be,Could not resolve host: uccle.mijnopinie.belgium.be,none
 uccle.monopinion.belgium.be,belgium.be,200,none
 uganda.diplomatie.belgium.be,belgium.be,302,none
+uhr.economie.fgov.be,economie.fgov.be,301,
 ukkel.mijnopinie.belgium.be,belgium.be,Could not resolve host: ukkel.mijnopinie.belgium.be,none
 ukraine.diplomatie.belgium.be,belgium.be,302,none
 unitedarabemirates.diplomatie.belgium.be,belgium.be,302,none
 unitedkingdom.diplomatie.belgium.be,belgium.be,Could not resolve host: unitedkingdom.diplomatie.belgium.be,none
 unitednationsgeneva.diplomatie.belgium.be,belgium.be,302,none
 unitedstates.diplomatie.belgium.be,belgium.be,302,none
+update.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 vaticaanstad.diplomatie.belgium.be,belgium.be,302,none
 vatican.diplomatie.belgium.be,belgium.be,302,none
 vaticancity.diplomatie.belgium.be,belgium.be,302,none
@@ -461,20 +1114,52 @@ verkiezingen.belgium.be,belgium.be,HTTP/2 stream 1 was not closed cleanly: PROTO
 verkiezingen2003.belgium.be,belgium.be,301,none
 verkiezingen2004.belgium.be,belgium.be,Could not resolve host: verkiezingen2004.belgium.be,none
 verkiezingen2007.belgium.be,belgium.be,301,none
+verwarmingspremie.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+vfsglobal-acc-client.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+vfsglobal-prd-client.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+video.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 viennaosce.diplomatie.belgium.be,belgium.be,302,none
 vietnam.diplomatie.belgium.be,belgium.be,302,none
+vigilis.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+visuals.economie.fgov.be,economie.fgov.be,301,
+vpn.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+vps.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+vtcgateway.vtc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+vtcrecorder.vtc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+vtcrouter.vtc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 wahl2003.belgium.be,belgium.be,Could not resolve host: wahl2003.belgium.be,none
 wahl2004.belgium.be,belgium.be,301,none
 wahl2007.belgium.be,belgium.be,Could not resolve host: wahl2007.belgium.be,none
 wahlen.belgium.be,belgium.be,HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1),none
 waterloo.mijnopinie.belgium.be,belgium.be,Could not resolve host: waterloo.mijnopinie.belgium.be,none
 waterloo.monopinion.belgium.be,belgium.be,Could not resolve host: waterloo.monopinion.belgium.be,none
+wdqs.wikibase-statbel.aks-prod.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 web.bib.belgium.be,belgium.be,Could not resolve host: web.bib.belgium.be,none
 web.icdo.belgium.be,belgium.be,Could not resolve host: web.icdo.belgium.be,none
+web.quetelet.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+webauth.economie.fgov.be,economie.fgov.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+webcache.economie.fgov.be,economie.fgov.be,302,
 webconf.p-o.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 webdiv.mobilit.belgium.be,belgium.be,Could not resolve host: webdiv.mobilit.belgium.be,none
+weblist-acc.economie.fgov.be,economie.fgov.be,200,
+weblist.economie.fgov.be,economie.fgov.be,200,
+weblists.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+webmail.cyber.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+webmail.low.cert.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+webrtc.vtc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+websurveys-acc.economie.fgov.be,economie.fgov.be,301,
+websurveys-tst.economie.fgov.be,economie.fgov.be,301,
+websurveys.economie.fgov.be,economie.fgov.be,503,
 weekdo.belgium.be,belgium.be,Could not resolve host: weekdo.belgium.be,none
 werkopmaat.belgium.be,belgium.be,400,none
+wifi-guest.ibz.be,ibz.be,ConnectException > NoRouteToHostException: Host is unreachable,
+wifi-residents.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+wifiguest.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+wiki.icesquirrel.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+wikibase-statbel.aks-prod.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+wikibase-statbel.aks-test.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+winter-grant-backend-acc.economie.fgov.be,economie.fgov.be,200,
+winter-grant-backend.economie.fgov.be,economie.fgov.be,200,
 www.2012.jaarverslag.financien.belgium.be,belgium.be,Could not resolve host: www.2012.jaarverslag.financien.belgium.be,none
 www.2012.rapportannuel.finances.belgium.be,belgium.be,200,none
 www.2013.jaarverslag.financien.belgium.be,belgium.be,Could not resolve host: www.2013.jaarverslag.financien.belgium.be,none
@@ -490,31 +1175,72 @@ www.2017.rapportannuel.finances.belgium.be,belgium.be,200,none
 www.2018.jaarverslag.finances.belgium.be,belgium.be,Could not resolve host: www.2018.jaarverslag.finances.belgium.be,none
 www.2018.jaarverslag.financien.belgium.be,belgium.be,200,none
 www.2018.rapportannuel.finances.belgium.be,belgium.be,200,none
+www.acc-belac.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.acc-easy.ws-epv.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.acc-easy.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.acc-eris.ws-cap.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.acc-eva.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.acc.scope.belgium.be,belgium.be,Could not resolve host: www.acc.scope.belgium.be,none
+www.acc.service-now.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.accept-e7m.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.accept-epv-ws.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.accept-eris.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.accept-first.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.accept-kbo-bce-wi.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.accevents.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.adfs.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 www.adviesraadouderen.belgium.be,belgium.be,Could not resolve host: www.adviesraadouderen.belgium.be,none
 www.afriquedusud.diplomatie.belgium.be,belgium.be,301,none
+www.aks-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.aks-prod.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.algeria.diplomatie.belgium.be,belgium.be,301,none
 www.algerie.diplomatie.belgium.be,belgium.be,Could not resolve host: www.algerie.diplomatie.belgium.be,none
 www.algerije.diplomatie.belgium.be,belgium.be,301,none
 www.allemagne.diplomatie.belgium.be,belgium.be,301,none
+www.amarona.med.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.amaronb.med.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.angola.diplomatie.belgium.be,belgium.be,301,none
+www.api.icesquirrel.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.arabiesaoudite.diplomatie.belgium.be,belgium.be,Could not resolve host: www.arabiesaoudite.diplomatie.belgium.be,none
 www.argentina.diplomatie.belgium.be,belgium.be,301,none
 www.argentine.diplomatie.belgium.be,belgium.be,301,none
 www.argentinie.diplomatie.belgium.be,belgium.be,301,none
+www.arma-acc.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.arma.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.arrivalcenterappointment.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.artisans-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.artisans-tst.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.artisans.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.atomic-clock.cloud.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.australia.diplomatie.belgium.be,belgium.be,301,none
 www.australie.diplomatie.belgium.be,belgium.be,301,none
 www.austria.diplomatie.belgium.be,belgium.be,301,none
+www.auth.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.auth.icesquirrel.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.autriche.diplomatie.belgium.be,belgium.be,Could not resolve host: www.autriche.diplomatie.belgium.be,none
 www.azerbaidjan.diplomatie.belgium.be,belgium.be,301,none
 www.azerbaijan.diplomatie.belgium.be,belgium.be,301,none
 www.azerbeidzjan.diplomatie.belgium.be,belgium.be,Could not resolve host: www.azerbeidzjan.diplomatie.belgium.be,none
+www.bel1defsbc01.voice.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.bel2defsbc01.voice.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.belac.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.beldefnews.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.belgium.be,belgium.be,302,none
+www.belpnr-airalbania-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.belpnr-airalbania-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.belpnr-flixbus-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.belpnr-skyalps-prod.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.belpnr-skyalps-test.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 www.belrai.belgium.be,belgium.be,Could not resolve host: www.belrai.belgium.be,none
 www.benin.diplomatie.belgium.be,belgium.be,Could not resolve host: www.benin.diplomatie.belgium.be,none
 www.bienarrondir.belgium.be,belgium.be,Could not resolve host: www.bienarrondir.belgium.be,none
 www.biometrie.diplomatie.belgium.be,belgium.be,301,none
+www.boc-ccb.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.bosaconnection-dta.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.bosaconnection.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.bosniaherzegovina.diplomatie.belgium.be,belgium.be,Could not resolve host: www.bosniaherzegovina.diplomatie.belgium.be,none
+www.bpp-mypage.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.bpp.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.brasil.diplomatie.belgium.be,belgium.be,301,none
 www.brazil.diplomatie.belgium.be,belgium.be,301,none
 www.brazilie.diplomatie.belgium.be,belgium.be,301,none
@@ -528,45 +1254,84 @@ www.business.belgium.be,belgium.be,301,none
 www.cameroon.diplomatie.belgium.be,belgium.be,301,none
 www.cameroun.diplomatie.belgium.be,belgium.be,Could not resolve host: www.cameroun.diplomatie.belgium.be,none
 www.canada.diplomatie.belgium.be,belgium.be,Could not resolve host: www.canada.diplomatie.belgium.be,none
+www.captiveportal.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.careers.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.ccb.belgium.be,belgium.be,301,none
+www.cfbypass.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.cgra.belgium.be,belgium.be,Could not resolve host: www.cgra.belgium.be,none
 www.cgvs.belgium.be,belgium.be,301,none
 www.chile.diplomatie.belgium.be,belgium.be,Could not resolve host: www.chile.diplomatie.belgium.be,none
 www.chili.diplomatie.belgium.be,belgium.be,301,none
 www.china.diplomatie.belgium.be,belgium.be,301,none
 www.chine.diplomatie.belgium.be,belgium.be,301,none
+www.cidmat.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.ckr.belgium.be,belgium.be,Could not resolve host: www.ckr.belgium.be,none
+www.cms.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.cnde.belgium.be,belgium.be,Could not resolve host: www.cnde.belgium.be,none
 www.colombia.diplomatie.belgium.be,belgium.be,301,none
 www.colombie.diplomatie.belgium.be,belgium.be,301,none
 www.commissiearbeidsrelaties.belgium.be,belgium.be,Could not resolve host: www.commissiearbeidsrelaties.belgium.be,none
 www.commissionrelationstravail.belgium.be,belgium.be,Could not resolve host: www.commissionrelationstravail.belgium.be,none
 www.congo-brazzaville.diplomatie.belgium.be,belgium.be,Could not resolve host: www.congo-brazzaville.diplomatie.belgium.be,none
+www.connect-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.connect.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.conscred-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.conscred.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.conseildesaines.belgium.be,belgium.be,Could not resolve host: www.conseildesaines.belgium.be,none
 www.conseilsuperieurvolontaires.belgium.be,belgium.be,Could not resolve host: www.conseilsuperieurvolontaires.belgium.be,none
 www.consular.diplomatie.belgium.be,belgium.be,301,none
 www.controleemployeur.digiflow.belgium.be,belgium.be,Could not resolve host: www.controleemployeur.digiflow.belgium.be,none
 www.controlewerkgever.digiflow.belgium.be,belgium.be,Could not resolve host: www.controlewerkgever.digiflow.belgium.be,none
+www.core.miron.dta.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.core.miron.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.cotedivoire.diplomatie.belgium.be,belgium.be,Could not resolve host: www.cotedivoire.diplomatie.belgium.be,none
 www.crescendo.belgium.be,belgium.be,403,none
 www.croatia.diplomatie.belgium.be,belgium.be,301,none
 www.croatie.diplomatie.belgium.be,belgium.be,Could not resolve host: www.croatie.diplomatie.belgium.be,none
 www.cuba.diplomatie.belgium.be,belgium.be,301,none
+www.cube-01.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.cube-02.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 www.czechrepublic.diplomatie.belgium.be,belgium.be,301,none
 www.danemark.diplomatie.belgium.be,belgium.be,Could not resolve host: www.danemark.diplomatie.belgium.be,none
+www.debtmediation-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.debtmediation.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.denemarken.diplomatie.belgium.be,belgium.be,301,none
 www.denmark.diplomatie.belgium.be,belgium.be,Could not resolve host: www.denmark.diplomatie.belgium.be,none
 www.deutschland.diplomatie.belgium.be,belgium.be,301,none
+www.dev1-careers.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.digiflow-mm.ta.belgium.be,belgium.be,Could not resolve host: www.digiflow-mm.ta.belgium.be,none
 www.digiflow.belgium.be,belgium.be,Could not resolve host: www.digiflow.belgium.be,none
+www.doc.icesquirrel.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.doccom.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.dofi.ibz.be,ibz.be,301,
 www.downloads.services.belgium.be,belgium.be,Could not resolve host: www.downloads.services.belgium.be,none
 www.drcongo.diplomatie.belgium.be,belgium.be,301,none
 www.dtoservices.bosa.belgium.be,belgium.be,301,none
 www.dtservices.bosa.belgium.be,belgium.be,301,none
 www.duitsland.diplomatie.belgium.be,belgium.be,301,none
+www.dvzrrnws.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.e-registered.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.e7m.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.easy.kbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.easy.kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.ebirth-city.belgium.be,belgium.be,Could not resolve host: www.ebirth-city.belgium.be,none
 www.ebirth-hospital.belgium.be,belgium.be,Could not resolve host: www.ebirth-hospital.belgium.be,none
 www.ebirth.belgium.be,belgium.be,Could not resolve host: www.ebirth.belgium.be,none
+www.ecademy-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.ecademy.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-belac.wskbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-belac.wskbo-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-easy.ws-kbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-easy.ws-kbo-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-ebox.acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-ebox.prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-eris.first-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-eva.ws-kbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-eva.ws-kbo-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-mandates-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-mandates-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-ws-cap-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eco-ws-cap-prd.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.economie.fgov.be,economie.fgov.be,301,10 mx2.hc904-99.eu.iphmx.com.; 10 mx1.hc904-99.eu.iphmx.com.
 www.edrl.belgium.be,belgium.be,Could not resolve host: www.edrl.belgium.be,none
 www.efacturatie.belgium.be,belgium.be,301,none
@@ -580,15 +1345,44 @@ www.egypte.diplomatie.belgium.be,belgium.be,Could not resolve host: www.egypte.d
 www.einvoice.belgium.be,belgium.be,301,none
 www.einvoicing.belgium.be,belgium.be,301,none
 www.elections.belgium.be,belgium.be,Could not resolve host: www.elections.belgium.be,none
+www.elocket-acc.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.elocket.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.emetro-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.emetro.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.emiratsarabesunis.diplomatie.belgium.be,belgium.be,301,none
+www.emm.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.encryption.services-acc-dvzoe.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.encryption.services-dvzoe.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.energie.economie.fgov.be,economie.fgov.be,301,
+www.enterpriseservices-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.enterpriseservices.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eolf.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.epv-ws.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eris.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eris.meldpunt-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eris.meldpunt.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eris.ws-cap.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eris.wskbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eris.wskbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.espagne.diplomatie.belgium.be,belgium.be,301,none
 www.espana.diplomatie.belgium.be,belgium.be,301,none
 www.etats-unis.diplomatie.belgium.be,belgium.be,301,none
 www.ethiopia.diplomatie.belgium.be,belgium.be,Could not resolve host: www.ethiopia.diplomatie.belgium.be,none
 www.ethiopie.diplomatie.belgium.be,belgium.be,Could not resolve host: www.ethiopie.diplomatie.belgium.be,none
+www.eucertificates-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eucertificates.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eufunding.ibz.be,ibz.be,301,
 www.europeanelections.belgium.be,belgium.be,HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1),none
 www.europeanunion.diplomatie.belgium.be,belgium.be,301,none
+www.eva.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eva.kbo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.eva.kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.events.employment.belgium.be,belgium.be,301,none
+www.events.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.evigilis-uat.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.evigilis.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.fasauthentication-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.fasauthentication.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.fed-parl.be,fed-parl.be,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching www.fed-parl.be found.,none
 www.federale-regering.be,federale-regering.be,403,none
 www.fedict.belgium.be,belgium.be,400,none
@@ -598,30 +1392,42 @@ www.filipijnen.diplomatie.belgium.be,belgium.be,301,none
 www.finland.diplomatie.belgium.be,belgium.be,301,none
 www.finlande.diplomatie.belgium.be,belgium.be,Could not resolve host: www.finlande.diplomatie.belgium.be,none
 www.finshop.belgium.be,belgium.be,SSL: no alternative certificate subject name matches target hostname 'www.finshop.belgium.be',none
+www.first.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.fodeconomie2018.belgium.be,belgium.be,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
 www.fondsdegarantie.belgium.be,belgium.be,301,none
 www.forum.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 www.forum2010.belgium.be,belgium.be,Connection timed out after 3002 milliseconds,none
 www.fpssd.belgium.be,belgium.be,Could not resolve host: www.fpssd.belgium.be,none
+www.front.icesquirrel.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.g-cloud.belgium.be,belgium.be,200,none
 www.garantiefonds.belgium.be,belgium.be,Could not resolve host: www.garantiefonds.belgium.be,none
 www.gcloud.belgium.be,belgium.be,200,none
 www.gdpr.belgium.be,belgium.be,Could not resolve host: www.gdpr.belgium.be,none
 www.germany.diplomatie.belgium.be,belgium.be,301,none
+www.git.icesquirrel.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.goedafgerond.belgium.be,belgium.be,Could not resolve host: www.goedafgerond.belgium.be,none
 www.gouvernement-federal.be,gouvernement-federal.be,403,none
+www.govroam.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 www.grece.diplomatie.belgium.be,belgium.be,301,none
 www.greece.diplomatie.belgium.be,belgium.be,301,none
 www.griekenland.diplomatie.belgium.be,belgium.be,Could not resolve host: www.griekenland.diplomatie.belgium.be,none
+www.guest.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.handicap.belgium.be,belgium.be,301,none
 www.hogeraadvrijwilligers.belgium.be,belgium.be,301,none
 www.hoherratfreiwilligen.belgium.be,belgium.be,Could not resolve host: www.hoherratfreiwilligen.belgium.be,none
 www.hongarije.diplomatie.belgium.be,belgium.be,301,none
 www.hongkongmacau.diplomatie.belgium.be,belgium.be,Could not resolve host: www.hongkongmacau.diplomatie.belgium.be,none
 www.hongrie.diplomatie.belgium.be,belgium.be,301,none
+www.hrzkmo-acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.hrzkmo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.hungary.diplomatie.belgium.be,belgium.be,Could not resolve host: www.hungary.diplomatie.belgium.be,none
+www.hybrid.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.iasapigwt.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.ibz.be,ibz.be,301,none
+www.ibz.be.91-107-147-194.cpanel.site,ibz.be,SSLHandshakeException > CertificateException: No subject alternative DNS name matching www.ibz.be.91-107-147-194.cpanel.site found.,
+www.ibz.be.91-107-147-194.cprapid.com,ibz.be,ConnectException > UnresolvedAddressException,
 www.icdo.belgium.be,belgium.be,403,none
+www.icesquirrel.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.iefh-igvm.belgium.be,belgium.be,Could not resolve host: www.iefh-igvm.belgium.be,none
 www.iefh.belgium.be,belgium.be,Could not resolve host: www.iefh.belgium.be,none
 www.ierland.diplomatie.belgium.be,belgium.be,Could not resolve host: www.ierland.diplomatie.belgium.be,none
@@ -630,12 +1436,17 @@ www.ifa.belgium.be,belgium.be,Could not resolve host: www.ifa.belgium.be,none
 www.ifdd.belgium.be,belgium.be,Could not resolve host: www.ifdd.belgium.be,none
 www.igvm-iefh.belgium.be,belgium.be,301,none
 www.igvm.belgium.be,belgium.be,Could not resolve host: www.igvm.belgium.be,none
+www.image.mailings.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.inde.diplomatie.belgium.be,belgium.be,Could not resolve host: www.inde.diplomatie.belgium.be,none
 www.india.diplomatie.belgium.be,belgium.be,301,none
 www.indonesia.diplomatie.belgium.be,belgium.be,Could not resolve host: www.indonesia.diplomatie.belgium.be,none
 www.indonesie.diplomatie.belgium.be,belgium.be,301,none
+www.infoblox.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.infocenter.belgium.be,belgium.be,Could not resolve host: www.infocenter.belgium.be,none
+www.insideco-acc.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.insideco.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.inspfin.belgium.be,belgium.be,Could not resolve host: www.inspfin.belgium.be,20 relay2-shs.fed.be.; 10 relay-shs.fed.be.
+www.int.b2b.ksz.kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.invest.belgium.be,belgium.be,Could not resolve host: www.invest.belgium.be,none
 www.invest.onlyinbelgium.be,belgium.be,Could not resolve host: www.invest.onlyinbelgium.be,none
 www.iran.diplomatie.belgium.be,belgium.be,Could not resolve host: www.iran.diplomatie.belgium.be,none
@@ -653,11 +1464,16 @@ www.japan.diplomatie.belgium.be,belgium.be,Could not resolve host: www.japan.dip
 www.japon.diplomatie.belgium.be,belgium.be,301,none
 www.jerusalem.diplomatie.belgium.be,belgium.be,Could not resolve host: www.jerusalem.diplomatie.belgium.be,none
 www.jeruzalem.diplomatie.belgium.be,belgium.be,301,none
+www.job.ibz.be.91-107-147-194.cprapid.com,ibz.be,ConnectException > UnresolvedAddressException,
+www.jobs.ibz.be.91-107-147-194.cprapid.com,ibz.be,ConnectException > UnresolvedAddressException,
 www.jordan.diplomatie.belgium.be,belgium.be,301,none
 www.jordanie.diplomatie.belgium.be,belgium.be,301,none
 www.kameroen.diplomatie.belgium.be,belgium.be,301,none
 www.kazachstan.diplomatie.belgium.be,belgium.be,Could not resolve host: www.kazachstan.diplomatie.belgium.be,none
 www.kazakhstan.diplomatie.belgium.be,belgium.be,Could not resolve host: www.kazakhstan.diplomatie.belgium.be,none
+www.kbo-bce-wi.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.kbo.emetro.acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.kbo.emetro.prod.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.kenia.diplomatie.belgium.be,belgium.be,301,none
 www.kenya.diplomatie.belgium.be,belgium.be,301,none
 www.kmteams.belgium.be,belgium.be,Could not resolve host: www.kmteams.belgium.be,none
@@ -670,6 +1486,8 @@ www.kuwait.diplomatie.belgium.be,belgium.be,Could not resolve host: www.kuwait.d
 www.lebanon.diplomatie.belgium.be,belgium.be,301,none
 www.liban.diplomatie.belgium.be,belgium.be,301,none
 www.libanon.diplomatie.belgium.be,belgium.be,301,none
+www.logc-abl-dmz-svc-01.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.logc-abl-dmz-svc-02.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.luxembourg.diplomatie.belgium.be,belgium.be,301,none
 www.luxemburg.diplomatie.belgium.be,belgium.be,301,none
 www.malaisie.diplomatie.belgium.be,belgium.be,301,none
@@ -679,18 +1497,32 @@ www.mali.diplomatie.belgium.be,belgium.be,301,none
 www.marchepublic.digiflow.belgium.be,belgium.be,Could not resolve host: www.marchepublic.digiflow.belgium.be,none
 www.maroc.diplomatie.belgium.be,belgium.be,301,none
 www.marokko.diplomatie.belgium.be,belgium.be,301,none
+www.mat.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.mdc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.mediahub.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.medic.handicap.belgium.be,belgium.be,Could not resolve host: www.medic.handicap.belgium.be,none
+www.medih.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.meldpuntsocialefraude.belgium.be,belgium.be,200,none
 www.mexico.diplomatie.belgium.be,belgium.be,301,none
 www.mexique.diplomatie.belgium.be,belgium.be,Could not resolve host: www.mexique.diplomatie.belgium.be,none
+www.mik.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.mil.be,mil.be,302,none
+www.misp.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.misp.sig.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.mod-ilias-invoice-prod.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.mod-ilias-invoice-tst.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.mod-kbo-client-acc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.mod-kbo-client-prod.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.morocco.diplomatie.belgium.be,belgium.be,301,none
 www.mozambique.diplomatie.belgium.be,belgium.be,301,none
+www.mx1.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.mx2.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.my.belgium.be,belgium.be,301,none
 www.mybelgium.be,belgium.be,Could not resolve host: www.mybelgium.be,none
 www.myhandicap.belgium.be,belgium.be,Connection timed out after 3001 milliseconds,none
 www.nato.diplomatie.belgium.be,belgium.be,301,none
 www.navo.diplomatie.belgium.be,belgium.be,301,none
+www.navyacademy.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.nckr.belgium.be,belgium.be,Could not resolve host: www.nckr.belgium.be,none
 www.nederland.diplomatie.belgium.be,belgium.be,Could not resolve host: www.nederland.diplomatie.belgium.be,none
 www.netherlands.diplomatie.belgium.be,belgium.be,301,none
@@ -702,6 +1534,7 @@ www.norvege.diplomatie.belgium.be,belgium.be,Could not resolve host: www.norvege
 www.norway.diplomatie.belgium.be,belgium.be,301,none
 www.oeganda.diplomatie.belgium.be,belgium.be,Could not resolve host: www.oeganda.diplomatie.belgium.be,none
 www.oekraine.diplomatie.belgium.be,belgium.be,Could not resolve host: www.oekraine.diplomatie.belgium.be,none
+www.offshore.digital-database.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.ofo.belgium.be,belgium.be,Could not resolve host: www.ofo.belgium.be,none
 www.ofoifa.belgium.be,belgium.be,Could not resolve host: www.ofoifa.belgium.be,none
 www.onlyinbelgium.be,belgium.be,Could not resolve host: www.onlyinbelgium.be,none
@@ -717,6 +1550,8 @@ www.perou.diplomatie.belgium.be,belgium.be,301,none
 www.persopoint.belgium.be,belgium.be,301,none
 www.peru.diplomatie.belgium.be,belgium.be,Could not resolve host: www.peru.diplomatie.belgium.be,none
 www.philippines.diplomatie.belgium.be,belgium.be,301,none
+www.phpmyadmin.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.pm.icesquirrel.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.poddo.belgium.be,belgium.be,Could not resolve host: www.poddo.belgium.be,none
 www.pointdecontactfraudesociale.belgium.be,belgium.be,Could not resolve host: www.pointdecontactfraudesociale.belgium.be,none
 www.pointofcontactsocialfraud.belgium.be,belgium.be,Could not resolve host: www.pointofcontactsocialfraud.belgium.be,none
@@ -726,10 +1561,21 @@ www.policeonweb.pr.belgium.be,belgium.be,Could not resolve host: www.policeonweb
 www.pologne.diplomatie.belgium.be,belgium.be,301,none
 www.polska.diplomatie.belgium.be,belgium.be,301,none
 www.portugal.diplomatie.belgium.be,belgium.be,Could not resolve host: www.portugal.diplomatie.belgium.be,none
+www.ppa-air.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.ppa-bus.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.ppa-rail.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.ppp-air.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.ppp-bus.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.ppp-rail.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.prd-easy.ws-epv.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.prd-easy.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.prd-eva.ws-kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.prod.b2b.ksz.kbo.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.qatar.diplomatie.belgium.be,belgium.be,Could not resolve host: www.qatar.diplomatie.belgium.be,none
 www.rapport.mobilit.belgium.be,belgium.be,503,none
 www.rapportannuel.finances.belgium.be,belgium.be,301,none
 www.rdcongo.diplomatie.belgium.be,belgium.be,301,none
+www.rdweb.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.republicofkorea.diplomatie.belgium.be,belgium.be,Could not resolve host: www.republicofkorea.diplomatie.belgium.be,none
 www.republiekkorea.diplomatie.belgium.be,belgium.be,301,none
 www.republiquedecoree.diplomatie.belgium.be,belgium.be,301,none
@@ -737,49 +1583,86 @@ www.republiquetcheque.diplomatie.belgium.be,belgium.be,301,none
 www.roemenie.diplomatie.belgium.be,belgium.be,301,none
 www.romania.diplomatie.belgium.be,belgium.be,301,none
 www.roumanie.diplomatie.belgium.be,belgium.be,301,none
+www.royalbands.mil.be,mil.be,302,
 www.royaume-uni.diplomatie.belgium.be,belgium.be,Could not resolve host: www.royaume-uni.diplomatie.belgium.be,none
 www.rusland.diplomatie.belgium.be,belgium.be,Could not resolve host: www.rusland.diplomatie.belgium.be,none
 www.russia.diplomatie.belgium.be,belgium.be,301,none
 www.russie.diplomatie.belgium.be,belgium.be,Could not resolve host: www.russie.diplomatie.belgium.be,none
 www.rwanda.diplomatie.belgium.be,belgium.be,301,none
+www.saml.connect.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.saoedi-arabie.diplomatie.belgium.be,belgium.be,301,none
 www.saudiarabia.diplomatie.belgium.be,belgium.be,301,none
 www.schweiz.diplomatie.belgium.be,belgium.be,Could not resolve host: www.schweiz.diplomatie.belgium.be,none
 www.scope.belgium.be,belgium.be,200,none
+www.securelogin.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.semainedd.belgium.be,belgium.be,Could not resolve host: www.semainedd.belgium.be,none
 www.senegal.diplomatie.belgium.be,belgium.be,301,none
+www.sentry.miron.dta.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.sentry.miron.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.sentry2.miron.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.serbia.diplomatie.belgium.be,belgium.be,Could not resolve host: www.serbia.diplomatie.belgium.be,none
 www.serbie.diplomatie.belgium.be,belgium.be,301,none
+www.service-now.acc.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.service-now.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.services-acc.ees.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.services-acc.vis.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.services.ees.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 www.services.fedict.belgium.be,belgium.be,301,none
 www.servie.diplomatie.belgium.be,belgium.be,Could not resolve host: www.servie.diplomatie.belgium.be,none
+www.siasapigwport1a.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.siasapigwport1p.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.siasapigwport1t.ias.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.singapore.diplomatie.belgium.be,belgium.be,Could not resolve host: www.singapore.diplomatie.belgium.be,none
 www.singapour.diplomatie.belgium.be,belgium.be,301,none
+www.slilabometroa01.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.slilabometrop01.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.sma-help.bosa.belgium.be,belgium.be,302,none
+www.smtp.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.sociaaltarief.economie.fgov.be,economie.fgov.be,301,
 www.soctar.belgium.be,belgium.be,Could not resolve host: www.soctar.belgium.be,none
 www.southafrica.diplomatie.belgium.be,belgium.be,Could not resolve host: www.southafrica.diplomatie.belgium.be,none
+www.sozialtarif.economie.fgov.be,economie.fgov.be,301,
 www.spain.diplomatie.belgium.be,belgium.be,Could not resolve host: www.spain.diplomatie.belgium.be,none
 www.spanje.diplomatie.belgium.be,belgium.be,Could not resolve host: www.spanje.diplomatie.belgium.be,none
+www.spf-dgsp-acc.ibz.be,ibz.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+www.spf-dgsp-prod.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 www.spfeconomie2018.belgium.be,belgium.be,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
 www.srbija.diplomatie.belgium.be,belgium.be,301,none
+www.sslvpn.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.suede.diplomatie.belgium.be,belgium.be,Could not resolve host: www.suede.diplomatie.belgium.be,none
 www.suisse.diplomatie.belgium.be,belgium.be,301,none
+www.sviriasnps.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.svirnagios.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
 www.sweden.diplomatie.belgium.be,belgium.be,301,none
 www.switzerland.diplomatie.belgium.be,belgium.be,301,none
 www.taipei.diplomatie.belgium.be,belgium.be,Could not resolve host: www.taipei.diplomatie.belgium.be,none
 www.tanzania.diplomatie.belgium.be,belgium.be,Could not resolve host: www.tanzania.diplomatie.belgium.be,none
 www.tanzanie.diplomatie.belgium.be,belgium.be,301,none
+www.tarifsocial.economie.fgov.be,economie.fgov.be,301,
 www.test.eid.belgium.be,belgium.be,Could not resolve host: www.test.eid.belgium.be,none
+www.test.service-now.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.testaccept-eva.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.testboc-ccb.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.testdoccom.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.testis.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.thailand.diplomatie.belgium.be,belgium.be,301,none
 www.thailande.diplomatie.belgium.be,belgium.be,301,none
+www.tlscontact-prd-client.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 www.travailsurmesure.belgium.be,belgium.be,SSL: no alternative certificate subject name matches target hostname 'www.travailsurmesure.belgium.be',none
 www.tsjechie.diplomatie.belgium.be,belgium.be,301,none
+www.tst2beldefnews.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.tstbeldefnews.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.tstmil.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.tunesie.diplomatie.belgium.be,belgium.be,301,none
 www.tunisia.diplomatie.belgium.be,belgium.be,301,none
 www.tunisie.diplomatie.belgium.be,belgium.be,301,none
+www.tunnel.miron.dta.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.tunnel.miron.mil.be,mil.be,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.turkey.diplomatie.belgium.be,belgium.be,301,none
 www.turkije.diplomatie.belgium.be,belgium.be,Could not resolve host: www.turkije.diplomatie.belgium.be,none
 www.turkiye.diplomatie.belgium.be,belgium.be,301,none
 www.turquie.diplomatie.belgium.be,belgium.be,301,none
+www.uat-careers.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.uganda.diplomatie.belgium.be,belgium.be,Could not resolve host: www.uganda.diplomatie.belgium.be,none
 www.ukraine.diplomatie.belgium.be,belgium.be,301,none
 www.unitedarabemirates.diplomatie.belgium.be,belgium.be,Could not resolve host: www.unitedarabemirates.diplomatie.belgium.be,none
@@ -794,14 +1677,28 @@ www.verenigdearabischeemiraten.diplomatie.belgium.be,belgium.be,301,none
 www.verenigdestaten.diplomatie.belgium.be,belgium.be,301,none
 www.verenigdkoninkrijk.diplomatie.belgium.be,belgium.be,301,none
 www.verkiezingen.belgium.be,belgium.be,HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1),none
+www.vfsglobal-prd-client.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
 www.viennaosce.diplomatie.belgium.be,belgium.be,301,none
 www.vietnam.diplomatie.belgium.be,belgium.be,301,none
+www.vigilis.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.vtcgateway.vtc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.vtcrecorder.vtc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.vtcrouter.vtc.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.wahlen.belgium.be,belgium.be,Could not resolve host: www.wahlen.belgium.be,none
+www.webauth.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.webmail.cyber.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+www.webmail.low.cert.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.weekdo.belgium.be,belgium.be,Could not resolve host: www.weekdo.belgium.be,none
 www.werkopmaat.belgium.be,belgium.be,SSL: no alternative certificate subject name matches target hostname 'www.werkopmaat.belgium.be',none
+www.wifi-residents.ibz.be,ibz.be,ConnectException > UnresolvedAddressException,
+www.wifiguest.internal.economie.fgov.be,economie.fgov.be,ConnectException > UnresolvedAddressException,
+www.wiki.icesquirrel.mil.be,mil.be,ConnectException > UnresolvedAddressException,
 www.zuid-afrika.diplomatie.belgium.be,belgium.be,301,none
 www.zweden.diplomatie.belgium.be,belgium.be,301,none
 www.zwitserland.diplomatie.belgium.be,belgium.be,Could not resolve host: www.zwitserland.diplomatie.belgium.be,none
+www2.mil.be,mil.be,ConnectException > UnresolvedAddressException,
+xbrl-acc.economie.fgov.be,economie.fgov.be,200,
+xbrl.economie.fgov.be,economie.fgov.be,200,
 zuid-afrika.diplomatie.belgium.be,belgium.be,302,none
 zweden.diplomatie.belgium.be,belgium.be,Could not resolve host: zweden.diplomatie.belgium.be,none
 zwitserland.diplomatie.belgium.be,belgium.be,302,none

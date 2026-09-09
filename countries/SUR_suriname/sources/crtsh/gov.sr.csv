@@ -13,6 +13,7 @@ autodiscover.inspecdirbel.gov.sr,Resolving timed out after 3000 milliseconds,dig
 autodiscover.juspol.gov.sr,Failed to connect to autodiscover.juspol.gov.sr port 443 after 119 ms: Could not connect to server,none
 autodiscover.lvv.gov.sr,SSL certificate problem: certificate has expired,none
 autodiscover.naturalresources.gov.sr,Resolving timed out after 3000 milliseconds,dig error
+autodiscover.nv.gov.sr,400,
 autodiscover.openbaarministerie.gov.sr,400,none
 autodiscover.president.gov.sr,Could not resolve host: autodiscover.president.gov.sr,none
 autodiscover.publicworks.gov.sr,SSL certificate problem: unable to get local issuer certificate,none
@@ -23,6 +24,8 @@ autodiscover.sportandyouthaffairs.gov.sr,Resolving timed out after 3000 millisec
 autodiscover.tct.gov.sr,Failed to connect to autodiscover.tct.gov.sr port 443 after 405 ms: Could not connect to server,none
 autodiscover.tradeandindustry.gov.sr,Could not resolve host: autodiscover.tradeandindustry.gov.sr,none
 autodiscover.vicepresident.gov.sr,SSL certificate problem: certificate has expired,none
+awj.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+biza.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 buza-dev.gov.sr,200,none
 buza.gov.sr,200,none
 cabinetpresident.gov.sr,200,none
@@ -31,57 +34,108 @@ chs.gov.sr,Operation timed out after 3002 milliseconds with 0 bytes received,non
 clad.gov.sr,200,none
 consulate.gov.sr,Could not resolve host: consulate.gov.sr,none
 cpanel.gov.sr,Connection timed out after 3002 milliseconds,none
+cpanel.nv.gov.sr,200,
 cpanel.openbaarministerie.gov.sr,Could not resolve host: cpanel.openbaarministerie.gov.sr,none
 cpanel.rekenkamer.gov.sr,200,none
+cpcalendars.nv.gov.sr,401,
 cpcalendars.rekenkamer.gov.sr,401,none
+cpcontacts.nv.gov.sr,401,
 cpcontacts.rekenkamer.gov.sr,401,none
 cybsafe.gov.sr,200,none
+def.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 e-services.gov.sr,302,none
 egov.gov.sr,200,none
+ezoti.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 finance.gov.sr,200,none
+finplan.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+gbb.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 gov.sr,200,10 mailgwy.gov.sr.
 gps.gov.sr,Could not resolve host: gps.gov.sr,none
 identity-provider.gov.sr,403,none
 juspol.gov.sr,200,0 juspol-gov-sr.mail.protection.outlook.com.
+kabinetvicepresident.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 kustwacht.gov.sr,200,none
 lvv.gov.sr,200,none
+mail.awj.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.biza.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.cabinetpresident.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.def.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.ezoti.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 mail.finance.gov.sr,200,none
+mail.finplan.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.gbb.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 mail.gov.sr,Could not resolve host: mail.gov.sr,none
+mail.juspol.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.kabinetvicepresident.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.mofa.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.nh.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.nv.gov.sr,200,
 mail.openbaarministerie.gov.sr,403,none
+mail.ow.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.owc.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 mail.rekenkamer.gov.sr,500,none
+mail.rom.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.sozavo.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+mail.vg.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 mofa-dev.gov.sr,Could not resolve host: mofa-dev.gov.sr,none
+mofa.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+nh.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 nv.gov.sr,Could not resolve host: nv.gov.sr,none
 ogm.gov.sr,Could not resolve host: ogm.gov.sr,0 ogm-gov-sr.mail.protection.outlook.com.
 openbaarministerie.gov.sr,403,0 mail.openbaarministerie.gov.sr.
+ow.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+owc.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 psa-api-dev.gov.sr,404,none
 psa-api.gov.sr,404,none
 psa-dev.gov.sr,Could not resolve host: psa-dev.gov.sr,none
 psa.gov.sr,200,none
 publicworks.gov.sr,200,none
 rekenkamer.gov.sr,301,none
+rom.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 securemail.gov.sr,200,none
 socialservices.gov.sr,Could not resolve host: socialservices.gov.sr,none
+sozavo.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 tct.gov.sr,Could not resolve host: tct.gov.sr,none
 testmigratie.gov.sr,Could not resolve host: testmigratie.gov.sr,none
 tmws.clad.gov.sr,Could not resolve host: tmws.clad.gov.sr,none
+vg.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 vgwa.gov.sr,Could not resolve host: vgwa.gov.sr,none
 vicepresident.gov.sr,200,none
 voedsel.gov.sr,302,none
 webdisk.gov.sr,Could not resolve host: webdisk.gov.sr,none
+webdisk.nv.gov.sr,401,
 webdisk.openbaarministerie.gov.sr,401,none
 webdisk.rekenkamer.gov.sr,401,none
 webmail.finance.gov.sr,Could not resolve host: webmail.finance.gov.sr,none
 webmail.gov.sr,Connection timed out after 3002 milliseconds,none
+webmail.nv.gov.sr,200,
 webmail.openbaarministerie.gov.sr,Could not resolve host: webmail.openbaarministerie.gov.sr,none
 webmail.rekenkamer.gov.sr,200,none
+www.awj.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.biza.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.cabinetpresident.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.def.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.ezoti.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 www.finance.gov.sr,SSL certificate problem: certificate has expired,none
+www.finplan.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.gbb.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 www.gov.sr,200,none
+www.juspol.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.kabinetvicepresident.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 www.mail.finance.gov.sr,Could not resolve host: www.mail.finance.gov.sr,none
+www.mofa.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.nh.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.nv.gov.sr,200,
 www.ogm.gov.sr,Could not resolve host: www.ogm.gov.sr,none
 www.openbaarministerie.gov.sr,403,0 mail.openbaarministerie.gov.sr.
+www.ow.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
+www.owc.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 www.psa.gov.sr,Could not resolve host: www.psa.gov.sr,none
 www.rekenkamer.gov.sr,Could not resolve host: www.rekenkamer.gov.sr,none
+www.rom.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 www.securemail.gov.sr,Could not resolve host: www.securemail.gov.sr,none
+www.sozavo.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 www.tmws.clad.gov.sr,Could not resolve host: www.tmws.clad.gov.sr,none
+www.vg.gov.sr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Aug 03 08:46:50 CEST 2026,
 www.vgwa.gov.sr,Could not resolve host: www.vgwa.gov.sr,none
 www.webmail.finance.gov.sr,Could not resolve host: www.webmail.finance.gov.sr,none

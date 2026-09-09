@@ -19,6 +19,7 @@ evisav2.gouv.dj,200,none
 gouv.dj,Could not resolve host: gouv.dj,20 mail-gtw2.gouv.dj.; 10 mail-gtw1.gouv.dj.
 import-email.gouv.dj,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
 interieur.gouv.dj,200,20 mail-gtw2.gouv.dj.; 10 mail-gtw1.gouv.dj.
+legacy-mail.gouv.dj,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 mail-gtw1.gouv.dj,Connection timed out after 3002 milliseconds,none
 mail-gtw2.gouv.dj,Connection timed out after 3000 milliseconds,none
 mail-server.gouv.dj,Connection timed out after 3001 milliseconds,10 mail-protection.gouv.dj.

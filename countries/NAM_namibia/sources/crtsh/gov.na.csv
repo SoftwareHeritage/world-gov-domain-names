@@ -86,6 +86,7 @@ daressalaam.mirco.gov.na,Could not resolve host: daressalaam.mirco.gov.na,none
 dashboards.mhss.gov.na,Connection timed out after 3000 milliseconds,none
 decentralisation.gov.na,200,none
 dev.ictexperts.gov.na,Connection timed out after 3002 milliseconds,none
+dff.gov.na,ConnectException > UnresolvedAddressException,
 dhis2dev.mhss.gov.na,Resolving timed out after 3000 milliseconds,none
 dhis2training.mhss.gov.na,Resolving timed out after 3001 milliseconds,none
 dialin.opm.gov.na,Resolving timed out after 3000 milliseconds,none
@@ -93,6 +94,7 @@ eapp1.gov.na,Connection timed out after 3001 milliseconds,none
 eapp2.gov.na,Resolving timed out after 3000 milliseconds,none
 eapp3.gov.na,Connection timed out after 3002 milliseconds,none
 edrms.gov.na,Resolving timed out after 3000 milliseconds,none
+eec.gov.na,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 egov.gov.na,Connection timed out after 3001 milliseconds,none
 egovservicedesk.gov.na,Resolving timed out after 3000 milliseconds,none
 egp1.gov.na,Connection timed out after 3001 milliseconds,none
@@ -101,6 +103,7 @@ egpadmin.gov.na,Resolving timed out after 3000 milliseconds,dig error
 eia.met.gov.na,SSL: no alternative certificate subject name matches target hostname 'eia.met.gov.na',none
 eprocurement.gov.na,Connection timed out after 3001 milliseconds,none
 erecruit-mfpe.gov.na,Connection timed out after 3001 milliseconds,none
+erecruit-mof.gov.na,ConnectException > UnresolvedAddressException,
 erongorc.gov.na,Could not resolve host: erongorc.gov.na,none
 eservice.gov.na,Resolving timed out after 3002 milliseconds,dig error
 etbmanager.mhss.gov.na,Resolving timed out after 3000 milliseconds,none
@@ -115,8 +118,10 @@ gcs.gov.na,Connection timed out after 3002 milliseconds,none
 gcs2.gov.na,Connection timed out after 3001 milliseconds,none
 gcsadmin.gov.na,Connection timed out after 3002 milliseconds,none
 geneva.mirco.gov.na,Resolving timed out after 3000 milliseconds,none
+gobabismun.gov.na,ConnectException > UnresolvedAddressException,
 gov.na,Connection timed out after 3002 milliseconds,none
 governors.gov.na,Failed to connect to governors.gov.na port 443 after 306 ms: Could not connect to server,none
+grn-helpdesk.gov.na,ConnectException > UnresolvedAddressException,
 grn.gov.na,Resolving timed out after 3000 milliseconds,none
 grnnet.gov.na,Connection timed out after 3001 milliseconds,none
 harare.mirco.gov.na,Resolving timed out after 3001 milliseconds,none
@@ -135,6 +140,7 @@ htstracker.mhss.gov.na,Could not resolve host: htstracker.mhss.gov.na,none
 ictexperts.gov.na,Connection timed out after 3002 milliseconds,none
 ictsummit.gov.na,SSL certificate problem: certificate has expired,none
 ifms-mpe.gov.na,Connection timed out after 3001 milliseconds,none
+imex.mit.gov.na,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 inpatient.hmis.gov.na,Connection timed out after 3002 milliseconds,none
 investnamibia.gov.na,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
 ipms.gov.na,Connection timed out after 3002 milliseconds,none
@@ -190,6 +196,7 @@ mail.pilot-rc.gov.na,Resolving timed out after 3000 milliseconds,none
 malaria.mhss.gov.na,Resolving timed out after 3000 milliseconds,none
 mawf.gov.na,Connection timed out after 3000 milliseconds,none
 mawlr.gov.na,Resolving timed out after 3001 milliseconds,30 themis01.grnnet.gov.na.; 20 themis.grnnet.gov.na.
+me.npc.gov.na,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 meet.gov.na,Resolving timed out after 3000 milliseconds,none
 meet.jud.gov.na,Could not resolve host: meet.jud.gov.na,none
 meet.mawf.gov.na,Could not resolve host: meet.mawf.gov.na,none
@@ -261,6 +268,8 @@ newyork.mirco.gov.na,Failed to connect to newyork.mirco.gov.na port 443 after 18
 nfc.gov.na,Connection timed out after 3002 milliseconds,dig error
 nhtn-libra.mhss.gov.na,Connection timed out after 3001 milliseconds,none
 nieis.namibiaatwork.gov.na,Connection timed out after 3002 milliseconds,none
+nlas.gov.na,ConnectException > UnresolvedAddressException,
+nlic.gov.na,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 nln.gov.na,Connection timed out after 3002 milliseconds,none
 nmrc.gov.na,Failed to connect to nmrc.gov.na port 443 after 576 ms: Could not connect to server,none
 npc.gov.na,SSL certificate problem: unable to get local issuer certificate,none
@@ -268,12 +277,15 @@ nrpa.gov.na,Failed to connect to nrpa.gov.na port 443 after 541 ms: Could not co
 nycs-mis.gov.na,Could not resolve host: nycs-mis.gov.na,none
 oag.gov.na,Failed to connect to oag.gov.na port 443 after 537 ms: Could not connect to server,30 themis01.grnnet.gov.na.; 20 themis.grnnet.gov.na.
 ohangwenarc.gov.na,Failed to connect to ohangwenarc.gov.na port 443 after 538 ms: Could not connect to server,30 themis01.grnnet.gov.na.; 20 themis.grnnet.gov.na.
+okahaotc.gov.na,ConnectException > UnresolvedAddressException,
 omahekerc.gov.na,Failed to connect to omahekerc.gov.na port 443 after 532 ms: Could not connect to server,dig error
 omusatirc.gov.na,Connection timed out after 3001 milliseconds,20 themis.grnnet.gov.na.; 30 themis01.grnnet.gov.na.
 ondjiva.mirco.gov.na,Could not resolve host: ondjiva.mirco.gov.na,none
 op.gov.na,Connection timed out after 3002 milliseconds,30 themis01.grnnet.gov.na.; 20 themis.grnnet.gov.na.
 opg.gov.na,Could not resolve host: opg.gov.na,30 themis01.grnnet.gov.na.; 20 themis.grnnet.gov.na.
+opm-inventory.gov.na,ConnectException > UnresolvedAddressException,
 opm.gov.na,Connection timed out after 3002 milliseconds,20 themis.grnnet.gov.na.; 30 themis01.grnnet.gov.na.
+opmhelpdesk.gov.na,ConnectException > UnresolvedAddressException,
 oshanarc.gov.na,Connection timed out after 3002 milliseconds,30 themis01.grnnet.gov.na.; 20 themis.grnnet.gov.na.
 oshikotorc.gov.na,Failed to connect to oshikotorc.gov.na port 443 after 506 ms: Could not connect to server,20 themis.grnnet.gov.na.; 30 themis01.grnnet.gov.na.
 othn.mhss.gov.na,Connection timed out after 3002 milliseconds,none
@@ -290,6 +302,7 @@ plutoportal1.gov.na,Connection timed out after 3002 milliseconds,none
 plutoportal2.gov.na,Connection timed out after 3002 milliseconds,none
 plutoportal3.gov.na,Connection timed out after 3001 milliseconds,none
 plutoportal4.gov.na,Connection timed out after 3002 milliseconds,none
+plutoportal5.gov.na,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 pmis.mhss.gov.na,Connection timed out after 3002 milliseconds,none
 pobc.gov.na,Connection timed out after 3002 milliseconds,30 themis01.grnnet.gov.na.; 20 themis.grnnet.gov.na.
 pocketguide.gov.na,Connection timed out after 3002 milliseconds,none
@@ -299,6 +312,7 @@ ptracker-odk.mhss.gov.na,Could not resolve host: ptracker-odk.mhss.gov.na,none
 ptracker.mhss.gov.na,Connection timed out after 3001 milliseconds,none
 pve.mirco.gov.na,Could not resolve host: pve.mirco.gov.na,none
 recency.gov.na,Could not resolve host: recency.gov.na,none
+ruacanatc.gov.na,ConnectException > UnresolvedAddressException,
 servicedesk.gov.na,Could not resolve host: servicedesk.gov.na,dig error
 services.icsf.gov.na,Connection timed out after 3000 milliseconds,none
 sip.ag.gov.na,Could not resolve host: sip.ag.gov.na,none
@@ -372,10 +386,12 @@ sip.parliament.gov.na,Could not resolve host: sip.parliament.gov.na,none
 sip.zambeziog.gov.na,Could not resolve host: sip.zambeziog.gov.na,none
 sip.zambezirc.gov.na,Could not resolve host: sip.zambezirc.gov.na,none
 sme.mti.gov.na,SSL: no alternative certificate subject name matches target hostname 'sme.mti.gov.na',none
+stamprietvc.gov.na,ConnectException > UnresolvedAddressException,
 stockholm.mirco.gov.na,Could not resolve host: stockholm.mirco.gov.na,none
 tbtracker-mhss.gov.na,Connection timed out after 3002 milliseconds,none
 tbtracker.mhss.gov.na,Connection timed out after 3001 milliseconds,none
 test.ictexperts.gov.na,Connection timed out after 3002 milliseconds,none
+tfrdep.gov.na,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 tokyo.mirco.gov.na,Could not resolve host: tokyo.mirco.gov.na,none
 ulims.gov.na,Connection timed out after 3002 milliseconds,30 themis01.grnnet.gov.na.; 20 themis.grnnet.gov.na.
 veterans.gov.na,Connection timed out after 3002 milliseconds,none
@@ -389,6 +405,8 @@ webdisk.investnamibia.gov.na,Could not resolve host: webdisk.investnamibia.gov.n
 webdisk.moe.gov.na,Could not resolve host: webdisk.moe.gov.na,none
 webmail.investnamibia.gov.na,Could not resolve host: webmail.investnamibia.gov.na,none
 webmail.moe.gov.na,Could not resolve host: webmail.moe.gov.na,none
+witvleivc.gov.na,ConnectException > UnresolvedAddressException,
+ws.nln.gov.na,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.abuja.mirco.gov.na,Could not resolve host: www.abuja.mirco.gov.na,none
 www.accra.mirco.gov.na,Connection timed out after 3000 milliseconds,none
 www.addis.mirco.gov.na,Failed to connect to www.addis.mirco.gov.na port 443 after 1806 ms: Could not connect to server,none
@@ -412,6 +430,7 @@ www.healthcareportal.gov.na,Connection timed out after 3000 milliseconds,none
 www.helsinki.mirco.gov.na,Failed to connect to www.helsinki.mirco.gov.na port 443 after 1805 ms: Could not connect to server,none
 www.hmis.gov.na,Connection timed out after 3000 milliseconds,none
 www.ictsummit.gov.na,SSL certificate problem: certificate has expired,none
+www.imex.mit.gov.na,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.investnamibia.gov.na,Could not resolve host: www.investnamibia.gov.na,none
 www.kinshasa.mirco.gov.na,Connection timed out after 3001 milliseconds,none
 www.kualalumpur.mirco.gov.na,Failed to connect to www.kualalumpur.mirco.gov.na port 443 after 1807 ms: Could not connect to server,none

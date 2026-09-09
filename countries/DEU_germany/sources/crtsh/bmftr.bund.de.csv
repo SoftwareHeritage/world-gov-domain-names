@@ -1,3 +1,7 @@
 subdomain,http_status,mx
 bmftr.bund.de,303,10 mx2.bund.de.; 10 mx1.bund.de.
+datenportal.bmftr.bund.de,302,
+styleguide.bmftr.bund.de,ConnectException > UnresolvedAddressException,
 www.bmftr.bund.de,303,none
+www.datenportal.bmftr.bund.de,302,
+www.styleguide.bmftr.bund.de,ConnectException > UnresolvedAddressException,

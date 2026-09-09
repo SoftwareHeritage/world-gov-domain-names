@@ -21,6 +21,7 @@ account.liceodesio.gov.it,gov.it,Could not resolve host: account.liceodesio.gov.
 accreditamento.agenziaentrate.gov.it,gov.it,403,none
 accreditamento.istruzione.it,istruzione.it,200,none
 accreditamentobor.esteri.it,esteri.it,200,none
+accrediti.difesa.it,difesa.it,302,
 accrediti.giustizia.it,giustizia.it,200,none
 activesync.adisupg.gov.it,gov.it,Could not resolve host: activesync.adisupg.gov.it,none
 adfs.istruzione.it,istruzione.it,Connection timed out after 5001 milliseconds,none
@@ -182,6 +183,7 @@ ambzagabria.esteri.it,esteri.it,403,none
 anagrafe.esteri.it,esteri.it,Could not resolve host: anagrafe.esteri.it,none
 anagrafe.sisma2016.gov.it,gov.it,SSL certificate problem: certificate has expired,none
 anagrafeits.istruzione.it,istruzione.it,403,none
+anagrafescuolenonstatali.istruzione.it,istruzione.it,200,
 analytics.agid.gov.it,gov.it,Could not resolve host: analytics.agid.gov.it,none
 analytics.esteri.it,esteri.it,Failed to connect to analytics.esteri.it port 443 after 3088 ms: Could not connect to server,none
 anes.istruzione.it,istruzione.it,curl: (6) Could not resolve host: anes.istruzione.it,none
@@ -522,6 +524,7 @@ consvalona.esteri.it,esteri.it,301,none
 consvancouver.esteri.it,esteri.it,301,none
 conswolfsburg.esteri.it,esteri.it,Resolving timed out after 5000 milliseconds,none
 conszurigo.esteri.it,esteri.it,200,none
+contabilitagenerale.istruzione.it,istruzione.it,302,
 contemporaneo.quirinale.it,quirinale.it,403,none
 content.esteri.it,esteri.it,Could not resolve host: content.esteri.it,none
 contessaentellina.gov.it,gov.it,Could not resolve host: contessaentellina.gov.it,none
@@ -657,6 +660,7 @@ e-net2.elearning.esercito.difesa.it,difesa.it,Failed to connect to e-net2.elearn
 e-supporto.elearning.esercito.difesa.it,difesa.it,Connection timed out after 5001 milliseconds,none
 earthquakes.liceodesio.gov.it,gov.it,Could not resolve host: earthquakes.liceodesio.gov.it,none
 easyflowdt.mef.gov.it,gov.it,Could not resolve host: easyflowdt.mef.gov.it,none
+ecpp2026.parlamento.it,parlamento.it,301,
 editingavatarei.difesa.it,difesa.it,200,none
 ehand.liceodesio.gov.it,gov.it,Could not resolve host: ehand.liceodesio.gov.it,none
 ehd.spid.gov.it,gov.it,Could not resolve host: ehd.spid.gov.it,none
@@ -761,6 +765,7 @@ gestionemail.pec.comune.sanroccoalporto.lo.gov.it,gov.it,Could not resolve host:
 gestionemobiledap.giustizia.it,giustizia.it,SSL certificate problem: unable to get local issuer certificate,none
 gestionepagopa-coll.esteri.it,esteri.it,Could not resolve host: gestionepagopa-coll.esteri.it,none
 gestionepagopa.esteri.it,esteri.it,Connection timed out after 5002 milliseconds,none
+gestionepersonalescuola.istruzione.it,istruzione.it,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 giano.marina.difesa.it,difesa.it,Connection timed out after 5002 milliseconds,none
 giordani.gov.it,gov.it,Could not resolve host: giordani.gov.it,none
 giordanidesanctis.gov.it,gov.it,Could not resolve host: giordanidesanctis.gov.it,none
@@ -1505,6 +1510,7 @@ noipacoll.mef.gov.it,gov.it,Could not resolve host: noipacoll.mef.gov.it,none
 nord.pmis.guardiacostiera.gov.it,gov.it,Could not resolve host: nord.pmis.guardiacostiera.gov.it,none
 notreurope.iccolozzacb.gov.it,gov.it,Could not resolve host: notreurope.iccolozzacb.gov.it,none
 novus.pacinotti.gov.it,gov.it,Could not resolve host: novus.pacinotti.gov.it,none
+ocptest.ext.istruzione.it,istruzione.it,ConnectException > UnresolvedAddressException,
 ocsp.cie.interno.gov.it,gov.it,200,none
 ocsprx.inpdap.gov.it,gov.it,Could not resolve host: ocsprx.inpdap.gov.it,none
 officewa.quirinale.it,quirinale.it,Connection timed out after 5002 milliseconds,none
@@ -1567,6 +1573,7 @@ pessinavitale.gov.it,gov.it,Could not resolve host: pessinavitale.gov.it,none
 pg-laquila.giustizia.it,giustizia.it,200,none
 pg.bologna.giustizia.it,giustizia.it,Could not resolve host: pg.bologna.giustizia.it,none
 phpldapadmin.carducci-dante.gov.it,gov.it,Could not resolve host: phpldapadmin.carducci-dante.gov.it,none
+pianomattei.governo.it,governo.it,403,
 pianorecuperosangiovanni.comunesgt.gov.it,gov.it,Could not resolve host: pianorecuperosangiovanni.comunesgt.gov.it,none
 piattaformaconcorsicoll.giustizia.it,giustizia.it,301,none
 pietrasanta1.gov.it,gov.it,Could not resolve host: pietrasanta1.gov.it,none
@@ -1688,6 +1695,7 @@ rpcoe.esteri.it,esteri.it,301,none
 rpu.postacertificata.gov.it,gov.it,Could not resolve host: rpu.postacertificata.gov.it,none
 rpu.pprod.postacertificata.gov.it,gov.it,Could not resolve host: rpu.pprod.postacertificata.gov.it,none
 safi.istruzione.it,istruzione.it,301,none
+sam.difesa.it,difesa.it,200,
 sampleapi2.carducci-dante.gov.it,gov.it,Could not resolve host: sampleapi2.carducci-dante.gov.it,none
 samplewebsite.carducci-dante.gov.it,gov.it,Could not resolve host: samplewebsite.carducci-dante.gov.it,none
 sanmicheli.gov.it,gov.it,Could not resolve host: sanmicheli.gov.it,none
@@ -1745,6 +1753,7 @@ servizi.didattico.istruzione.it,istruzione.it,Could not resolve host: servizi.di
 servizi.difesa.it,difesa.it,Could not resolve host: servizi.difesa.it,none
 servizi.lavoro.gov.it,gov.it,302,none
 servizi.mentana.gov.it,gov.it,Could not resolve host: servizi.mentana.gov.it,none
+servizi.pubblica.istruzione.it,istruzione.it,403,
 servizi.quirinale.it,quirinale.it,503,none
 serviziconsolari-coll.esteri.it,esteri.it,Resolving timed out after 5001 milliseconds,none
 serviziconsolari.esteri.it,esteri.it,Could not resolve host: serviziconsolari.esteri.it,none
@@ -1771,6 +1780,7 @@ servizipirval.istruzione.it,istruzione.it,Could not resolve host: servizipirval.
 servizisie.dait.interno.gov.it,gov.it,Could not resolve host: servizisie.dait.interno.gov.it,none
 servizitest.didattico.istruzione.it,istruzione.it,Connection timed out after 5002 milliseconds,none
 servizival.didattico.istruzione.it,istruzione.it,Could not resolve host: servizival.didattico.istruzione.it,none
+servizival.pubblica.istruzione.it,istruzione.it,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 serviziweb.esteri.it,esteri.it,Could not resolve host: serviziweb.esteri.it,none
 settantesimo.governo.it,governo.it,Could not resolve host: settantesimo.governo.it,none
 settimocircologiugliano.gov.it,gov.it,Could not resolve host: settimocircologiugliano.gov.it,none
@@ -1831,6 +1841,7 @@ sorveglianzanapoli.sitiwebgiustizia.it,giustizia.it,Could not resolve host: sorv
 sp-proxy.eid.gov.it,gov.it,Could not resolve host: sp-proxy.eid.gov.it,none
 sp.didattico.istruzione.it,istruzione.it,Could not resolve host: sp.didattico.istruzione.it,none
 sp.governo.it,governo.it,500,none
+sp.istruzione.it,istruzione.it,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 sp.scic.istruzione.it,istruzione.it,Could not resolve host: sp.scic.istruzione.it,none
 space.cmvallecamonica.gov.it,gov.it,Could not resolve host: space.cmvallecamonica.gov.it,none
 spark.liceodesio.gov.it,gov.it,Could not resolve host: spark.liceodesio.gov.it,none
@@ -1846,6 +1857,7 @@ spid.gov.it,gov.it,Could not resolve host: spid.gov.it,none
 spid.governo.it,governo.it,200,none
 spidval.governo.it,governo.it,Could not resolve host: spidval.governo.it,none
 spidval.int.governo.it,governo.it,Could not resolve host: spidval.int.governo.it,none
+spikad-ng.difesa.it,difesa.it,200,
 sport.governo.it,governo.it,Could not resolve host: sport.governo.it,10 mx4.palazzochigi.it.; 10 mx3.palazzochigi.it.
 sportegiovani.governo.it,governo.it,307,none
 sportellotelematico.amalfi.gov.it,gov.it,Could not resolve host: sportellotelematico.amalfi.gov.it,none
@@ -1890,6 +1902,7 @@ studenti.liceodesio.gov.it,gov.it,Could not resolve host: studenti.liceodesio.go
 studentsjob.aldocapitini.gov.it,gov.it,Could not resolve host: studentsjob.aldocapitini.gov.it,none
 studyinitaly.esteri.it,esteri.it,200,none
 studyinitalybo.esteri.it,esteri.it,Could not resolve host: studyinitalybo.esteri.it,none
+stun.spikad-ng.difesa.it,difesa.it,HttpTimeoutException: request timed out,
 suap.impresainungiorno.gov.it,gov.it,Could not resolve host: suap.impresainungiorno.gov.it,none
 suap.uc-amiatavaldorcia.gov.it,gov.it,Could not resolve host: suap.uc-amiatavaldorcia.gov.it,none
 suap01.impresainungiorno.gov.it,gov.it,Could not resolve host: suap01.impresainungiorno.gov.it,none
@@ -2170,6 +2183,7 @@ www.alboctuelenchitest.giustizia.it,giustizia.it,Could not resolve host: www.alb
 www.aldocapitini.gov.it,gov.it,Could not resolve host: www.aldocapitini.gov.it,none
 www.alpileviscampia.gov.it,gov.it,Could not resolve host: www.alpileviscampia.gov.it,none
 www.anagrafeedilizia.istruzione.it,istruzione.it,Could not resolve host: www.anagrafeedilizia.istruzione.it,none
+www.anagrafescuolenonstatali.istruzione.it,istruzione.it,ConnectException > UnresolvedAddressException,
 www.anes.istruzione.it,istruzione.it,curl: (6) Could not resolve host: www.anes.istruzione.it,none
 www.anist.istruzione.it,istruzione.it,Could not resolve host: www.anist.istruzione.it,none
 www.anniversarinazionali.governo.it,governo.it,302,none
@@ -2185,6 +2199,7 @@ www.assistenzaipocat.agenziaentrate.gov.it,gov.it,Could not resolve host: www.as
 www.assistenzaonlineaams.agenziadoganemonopoli.gov.it,gov.it,Could not resolve host: www.assistenzaonlineaams.agenziadoganemonopoli.gov.it,none
 www.auloceccato.gov.it,gov.it,Could not resolve host: www.auloceccato.gov.it,none
 www.autovalutazione.liceoaristofane.gov.it,gov.it,Could not resolve host: www.autovalutazione.liceoaristofane.gov.it,none
+www.avatarei.difesa.it,difesa.it,ConnectException > UnresolvedAddressException,
 www.bandopianidisviluppo.governo.it,governo.it,Could not resolve host: www.bandopianidisviluppo.governo.it,none
 www.bandopiccolicomuni.governo.it,governo.it,Could not resolve host: www.bandopiccolicomuni.governo.it,none
 www.bioetica.governo.it,governo.it,Could not resolve host: www.bioetica.governo.it,none
@@ -2259,6 +2274,7 @@ www.comunedielice.gov.it,gov.it,Could not resolve host: www.comunedielice.gov.it
 www.comunesgt.gov.it,gov.it,Could not resolve host: www.comunesgt.gov.it,none
 www.conciliazione.politichefamiglia.it,politichefamiglia.it,301,none
 www.conservatoriotorino.gov.it,gov.it,Could not resolve host: www.conservatoriotorino.gov.it,none
+www.contabilitagenerale.istruzione.it,istruzione.it,ConnectException > UnresolvedAddressException,
 www.contessaentellina.gov.it,gov.it,Could not resolve host: www.contessaentellina.gov.it,none
 www.controllogestioneasp.gov.it,gov.it,Could not resolve host: www.controllogestioneasp.gov.it,none
 www.controllopesca.politicheagricole.gov.it,gov.it,Could not resolve host: www.controllopesca.politicheagricole.gov.it,none
@@ -2337,6 +2353,7 @@ www.gdp.livorno.giustizia.it,giustizia.it,Could not resolve host: www.gdp.livorn
 www.gdp.roma.giustizia.it,giustizia.it,Could not resolve host: www.gdp.roma.giustizia.it,none
 www.gdp.torino.giustizia.it,giustizia.it,Could not resolve host: www.gdp.torino.giustizia.it,none
 www.gdp.vicenza.giustizia.it,giustizia.it,Could not resolve host: www.gdp.vicenza.giustizia.it,none
+www.gestionepersonalescuola.istruzione.it,istruzione.it,ConnectException > UnresolvedAddressException,
 www.giordani.gov.it,gov.it,Could not resolve host: www.giordani.gov.it,none
 www.giordanidesanctis.gov.it,gov.it,Could not resolve host: www.giordanidesanctis.gov.it,none
 www.giustizia.it,giustizia.it,Could not resolve host: www.giustizia.it,none
@@ -2897,6 +2914,7 @@ www.so.camcom.gov.it,gov.it,Could not resolve host: www.so.camcom.gov.it,none
 www.sobrero.gov.it,gov.it,Could not resolve host: www.sobrero.gov.it,none
 www.sondaggio.urp.istruzione.it,istruzione.it,Could not resolve host: www.sondaggio.urp.istruzione.it,none
 www.sp.governo.it,governo.it,Could not resolve host: www.sp.governo.it,none
+www.sp.istruzione.it,istruzione.it,ConnectException > UnresolvedAddressException,
 www.sp.scic.istruzione.it,istruzione.it,Could not resolve host: www.sp.scic.istruzione.it,none
 www.spcoop.istruzione.it,istruzione.it,Could not resolve host: www.spcoop.istruzione.it,none
 www.spcoopval.istruzione.it,istruzione.it,Could not resolve host: www.spcoopval.istruzione.it,none
@@ -2904,6 +2922,7 @@ www.spid.esteri.it,esteri.it,Could not resolve host: www.spid.esteri.it,none
 www.spid.gov.it,gov.it,Could not resolve host: www.spid.gov.it,none
 www.spid.governo.it,governo.it,Could not resolve host: www.spid.governo.it,none
 www.spidval.int.governo.it,governo.it,Could not resolve host: www.spidval.int.governo.it,none
+www.spikad-ng.difesa.it,difesa.it,SSLHandshakeException > CertificateException: No subject alternative DNS name matching www.spikad-ng.difesa.it found.,
 www.sport.governo.it,governo.it,302,none
 www.sportegiovani.governo.it,governo.it,302,none
 www.sportgiovani.governo.it,governo.it,Could not resolve host: www.sportgiovani.governo.it,none

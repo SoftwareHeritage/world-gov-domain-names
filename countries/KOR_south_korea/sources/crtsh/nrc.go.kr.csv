@@ -1,3 +1,7 @@
 subdomain,http_status,mx
+keep.nrc.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 nrc.go.kr,405,0 antispam.korea.kr.
+ri.nrc.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching ri.nrc.go.kr found.,
+rtc.nrc.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching rtc.nrc.go.kr found.,
+rtdb.nrc.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching rtdb.nrc.go.kr found.,
 www.nrc.go.kr,405,none

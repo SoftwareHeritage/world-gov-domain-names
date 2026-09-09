@@ -1,4 +1,5 @@
 subdomain,parent_domain,http_status,mx
+dl.zena.gov.er,gov.er,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 gov.er,gov.er,ConnectException,none
 mail.zena.gov.er,gov.er,Could not resolve host: mail.zena.gov.er,none
 mfa.gov.er,gov.er,Connection timed out after 3001 milliseconds,none

@@ -1,4 +1,6 @@
 subdomain,parent_domain,http_status,mx
+55piflm.gov.pw,gov.pw,200,
+ag.gov.pw,gov.pw,200,
 bcbp.gov.pw,gov.pw,200,none
 boc.gov.pw,gov.pw,Could not resolve host: boc.gov.pw,none
 crimestoppers.gov.pw,gov.pw,200,none
@@ -7,7 +9,9 @@ nsc.gov.pw,gov.pw,200,none
 palau.gov.pw,gov.pw,200,none
 palaucourts.gov.pw,gov.pw,200,none
 palaulaw.gov.pw,gov.pw,301,none
+palauwatch.gov.pw,gov.pw,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 president.gov.pw,gov.pw,SSL: no alternative certificate subject name matches target hostname 'president.gov.pw',1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 suppliers.gov.pw,gov.pw,curl: (28) Connection timed out after 5002 milliseconds,0 secure328.inmotionhosting.com.
+tax.gov.pw,gov.pw,200,
 www.palaucourts.gov.pw,gov.pw,Could not resolve host: www.palaucourts.gov.pw,none
 www.palaulaw.gov.pw,gov.pw,200,none

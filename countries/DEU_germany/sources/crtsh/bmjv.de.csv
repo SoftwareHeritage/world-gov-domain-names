@@ -1,3 +1,5 @@
 subdomain,http_status,mx
 bmjv.de,303,none
+rosenburg.bmjv.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.bmjv.de,303,none
+www.rosenburg.bmjv.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,

@@ -1,3 +1,8 @@
 subdomain,http_status,mx
+autodiscover.bmwsb.bund.de,ConnectException > UnresolvedAddressException,
 bmwsb.bund.de,303,10 mx1.bund.de.; 10 mx2.bund.de.
+gast-portal.bmwsb.bund.de,ConnectException > UnresolvedAddressException,
+lyncdiscover.bmwsb.bund.de,ConnectException > UnresolvedAddressException,
+medien.bmwsb.bund.de,400,
+pbs.bmwsb.bund.de,ConnectException > UnresolvedAddressException,
 www.bmwsb.bund.de,303,none

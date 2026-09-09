@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 114 of 193
 - Government type: presidential republic
 - Capital: Windhoek
-- Hosts collected: 453
+- Hosts collected: 472
 
 ## UN/DESA national portal
 

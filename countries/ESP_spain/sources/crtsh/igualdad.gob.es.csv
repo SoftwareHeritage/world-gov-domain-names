@@ -1,3 +1,14 @@
 subdomain,http_status,mx
+desa.igualdad.gob.es,ConnectException > UnresolvedAddressException,
+eif.igualdad.gob.es,SSLHandshakeException > CertificateException: No subject alternative DNS name matching eif.igualdad.gob.es found.,
+emujeres.igualdad.gob.es,200,
+fichas-i.igualdad.gob.es,ConnectException > UnresolvedAddressException,
+fichas.igualdad.gob.es,ConnectException > UnresolvedAddressException,
 igualdad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.correo.gob.es.; 10 mail2.correo.gob.es.
+igualdadynodiscriminacion.igualdad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+pre.igualdad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+violenciagenero.igualdad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+wrap.igualdad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+wrlgtbi-i.igualdad.gob.es,ConnectException > UnresolvedAddressException,
+wrlgtbi.igualdad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 www.igualdad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

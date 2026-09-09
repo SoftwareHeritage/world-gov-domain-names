@@ -1,3 +1,13 @@
 subdomain,http_status,mx
+admin.mgtp.dk,404,
+autodiscover.mgtp.dk,ConnectException > UnresolvedAddressException,
+f2-mobil.mgtp.dk,ConnectException > UnresolvedAddressException,
+f2-mobiltest.mgtp.dk,ConnectException > UnresolvedAddressException,
+gapi.admin.mgtp.dk,ConnectException > UnresolvedAddressException,
+hrbestilling.mgtp.dk,ConnectException > UnresolvedAddressException,
+idm.mgtp.dk,ConnectException > UnresolvedAddressException,
+lyncdiscover.mgtp.dk,ConnectException > UnresolvedAddressException,
 mgtp.dk,200,10 mx08.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx05.statens-it.dk.
+sip.mgtp.dk,ConnectException > UnresolvedAddressException,
+www.admin.mgtp.dk,ConnectException > UnresolvedAddressException,
 www.mgtp.dk,301,10 mx06.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.

@@ -1,3 +1,4 @@
 subdomain,http_status,mx
 mdsocialesa2030.gob.es,ConnectException,0 mx.msc.es.; 20 mxres.msc.es.
+sede.mdsocialesa2030.gob.es,ConnectException > UnresolvedAddressException,
 www.mdsocialesa2030.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

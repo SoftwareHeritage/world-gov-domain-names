@@ -1,3 +1,21 @@
 subdomain,http_status,mx
+ad.stm.fi,ConnectException > UnresolvedAddressException,
+default.dev.stm.fi,ConnectException > UnresolvedAddressException,
+dev.stm.fi,ConnectException > UnresolvedAddressException,
+enterpriseregistration.stm.fi,ConnectException > UnresolvedAddressException,
+fs.stm.fi,ConnectException > UnresolvedAddressException,
+hantti.stm.fi,ConnectException > UnresolvedAddressException,
+lyncdiscover.stm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+prod.stm.fi,ConnectException > UnresolvedAddressException,
+qa.stm.fi,403,
+sip.stm.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sparx.stm.fi,ConnectException > UnresolvedAddressException,
+stage.stm.fi,ConnectException > UnresolvedAddressException,
 stm.fi,302,none
+stmhanke1me.ad.stm.fi,ConnectException > UnresolvedAddressException,
+testi.hantti.stm.fi,ConnectException > UnresolvedAddressException,
+vyha.stm.fi,500,
+www.fs.stm.fi,ConnectException > UnresolvedAddressException,
+www.hantti.stm.fi,ConnectException > UnresolvedAddressException,
 www.stm.fi,302,none
+www.vyha.stm.fi,ConnectException > UnresolvedAddressException,

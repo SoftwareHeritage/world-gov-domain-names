@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 143 of 193
 - Government type: mixed presidential-parliamentary system in free association with the US
 - Capital: Majuro
-- Hosts collected: 7
+- Hosts collected: 8
 
 ## UN/DESA national portal
 

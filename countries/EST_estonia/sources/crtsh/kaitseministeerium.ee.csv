@@ -1,2 +1,10 @@
 subdomain,http_status,mx
+autodiscover.kaitseministeerium.ee,ConnectException > UnresolvedAddressException,
 kaitseministeerium.ee,200,5 fmail.mil.ee.
+lyncdiscover.kaitseministeerium.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+meet.kaitseministeerium.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sip.kaitseministeerium.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sipexternal.kaitseministeerium.ee,ConnectException > UnresolvedAddressException,
+testi.kaitseministeerium.ee,ConnectException > UnresolvedAddressException,
+webconf.kaitseministeerium.ee,ConnectException > NoRouteToHostException: Host is unreachable,
+www.kaitseministeerium.ee,200,

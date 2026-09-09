@@ -8,9 +8,13 @@ agriculture.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
 api-collect-n-go.gov.ls,gov.ls,SSL: no alternative certificate subject name matches target hostname 'api-collect-n-go.gov.ls',dig error
 api.bonolohealth.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
 aplink.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds,none
+app.vhw.gov.ls,gov.ls,502,
 asbcc.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
 auth.csis.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
 autodiscover.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,none
+bbb.gov.ls,gov.ls,200,
+bbb.sbe.gov.ls,gov.ls,ConnectException > UnresolvedAddressException,
+bbb2.gov.ls,gov.ls,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 bkm.vhw.gov.ls,gov.ls,Connection timed out after 3001 milliseconds,dig error
 bonolohealth.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
 bos.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
@@ -20,6 +24,8 @@ businessregistrations.gov.ls,gov.ls,200,dig error
 cdr.eparliament.gov.ls,gov.ls,Resolving timed out after 3009 milliseconds,dig error
 cdr.ws.notify.eparliament.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds,dig error
 cdrws.eparliament.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
+cdu.bonolohealth.gov.ls,gov.ls,303,
+cdustaging.bonolohealth.gov.ls,gov.ls,303,
 childhelpline.gov.ls,gov.ls,SSL: no alternative certificate subject name matches target hostname 'childhelpline.gov.ls',none
 climatechangelesotho.gov.ls,gov.ls,Resolving timed out after 3002 milliseconds,dig error
 cloud.lnsw.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
@@ -98,6 +104,7 @@ leavedefence.gov.ls,gov.ls,Operation timed out after 3001 milliseconds with 0 by
 legalaid.gov.ls,gov.ls,405,dig error
 lena.gov.ls,gov.ls,Operation timed out after 3000 milliseconds with 0 bytes received,dig error
 lesis.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds,none
+lesmet.gov.ls,gov.ls,200,
 lesotho.gov.ls,gov.ls,Could not resolve host: lesotho.gov.ls,none
 lesothocanada.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
 lesothoemb-usa.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,none
@@ -113,6 +120,7 @@ m-mama.gov.ls,gov.ls,Operation timed out after 3000 milliseconds with 0 bytes re
 mail.gov.ls,gov.ls,SSL: no alternative certificate subject name matches target hostname 'mail.gov.ls',none
 mail.lnsw.gov.ls,gov.ls,SSL certificate problem: self-signed certificate,dig error
 malibamatso.lesotho.gov.ls,gov.ls,Could not resolve host: malibamatso.lesotho.gov.ls,dig error
+mcent.bonolohealth.gov.ls,gov.ls,403,
 metapp.csis.gov.ls,gov.ls,Could not resolve host: metapp.csis.gov.ls,none
 mfrscnews.gov.ls,gov.ls,Resolving timed out after 3000 milliseconds,dig error
 missa-api.gov.ls,gov.ls,Could not resolve host: missa-api.gov.ls,dig error
@@ -120,9 +128,11 @@ missa-dc.gov.ls,gov.ls,Could not resolve host: missa-dc.gov.ls,none
 missa-live.gov.ls,gov.ls,Could not resolve host: missa-live.gov.ls,none
 missa-mobi-live.gov.ls,gov.ls,Could not resolve host: missa-mobi-live.gov.ls,dig error
 missa-mobi-qa.gov.ls,gov.ls,Could not resolve host: missa-mobi-qa.gov.ls,none
+missa-mobi-qa2.gov.ls,gov.ls,ConnectException > ClosedChannelException,
 missa-mobi-test.gov.ls,gov.ls,Could not resolve host: missa-mobi-test.gov.ls,dig error
 missa-mobi.gov.ls,gov.ls,Could not resolve host: missa-mobi.gov.ls,dig error
 missa-qa.gov.ls,gov.ls,Could not resolve host: missa-qa.gov.ls,dig error
+missa-qa2.gov.ls,gov.ls,ConnectException > ClosedChannelException,
 missa-test-api.gov.ls,gov.ls,Could not resolve host: missa-test-api.gov.ls,none
 missa-test.gov.ls,gov.ls,Could not resolve host: missa-test.gov.ls,none
 missa.gov.ls,gov.ls,Could not resolve host: missa.gov.ls,none
@@ -143,10 +153,12 @@ nissaportal.gov.ls,gov.ls,Could not resolve host: nissaportal.gov.ls,none
 nonprod.cloud.lnsw.gov.ls,gov.ls,Could not resolve host: nonprod.cloud.lnsw.gov.ls,dig error
 nonprod.internal.lnsw.gov.ls,gov.ls,Resolving timed out after 3002 milliseconds,dig error
 notifications.gov.ls,gov.ls,Could not resolve host: notifications.gov.ls,none
+npm.lesmet.gov.ls,gov.ls,200,
 nvc.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds,dig error
 nvcportal.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds,none
 oracle.lesotho.gov.ls,gov.ls,Could not resolve host: oracle.lesotho.gov.ls,dig error
 passports.homeaffairs.gov.ls,gov.ls,Could not resolve host: passports.homeaffairs.gov.ls,none
+payments.ecitizen.gov.ls,gov.ls,200,
 pki.gov.ls,gov.ls,Resolving timed out after 3002 milliseconds,none
 planning.gov.ls,gov.ls,Could not resolve host: planning.gov.ls,none
 portal.nissa-missa-test2.gov.ls,gov.ls,Could not resolve host: portal.nissa-missa-test2.gov.ls,none
@@ -159,6 +171,7 @@ renokagisdata.gov.ls,gov.ls,Could not resolve host: renokagisdata.gov.ls,none
 reports.csis.gov.ls,gov.ls,502,none
 roll.gov.ls,gov.ls,Could not resolve host: roll.gov.ls,none
 rollproject.gov.ls,gov.ls,Could not resolve host: rollproject.gov.ls,none
+sbe.gov.ls,gov.ls,200,
 seq-collect-n-go.gov.ls,gov.ls,Could not resolve host: seq-collect-n-go.gov.ls,none
 seq.bonolohealth.gov.ls,gov.ls,Could not resolve host: seq.bonolohealth.gov.ls,none
 services.businessregistrations.gov.ls,gov.ls,Could not resolve host: services.businessregistrations.gov.ls,none
@@ -168,8 +181,10 @@ site1.gov.ls,gov.ls,curl: (28) Connection timed out after 5002 milliseconds,none
 site2.gov.ls,gov.ls,curl: (28) Connection timed out after 5002 milliseconds,none
 socialdevelopment.gov.ls,gov.ls,Could not resolve host: socialdevelopment.gov.ls,none
 splashbi.lesotho.gov.ls,gov.ls,Could not resolve host: splashbi.lesotho.gov.ls,none
+sso.ecitizen.gov.ls,gov.ls,200,
 sswa.gov.ls,gov.ls,Could not resolve host: sswa.gov.ls,none
 staging-api-qa.gov.ls,gov.ls,Could not resolve host: staging-api-qa.gov.ls,none
+staging-api-qa2.gov.ls,gov.ls,ConnectException > ClosedChannelException,
 staging-api.gov.ls,gov.ls,Could not resolve host: staging-api.gov.ls,none
 stats.businessregistrations.gov.ls,gov.ls,Could not resolve host: stats.businessregistrations.gov.ls,none
 superset.elmis.gov.ls,gov.ls,Could not resolve host: superset.elmis.gov.ls,none
@@ -180,6 +195,7 @@ transportprices.gov.ls,gov.ls,200,none
 uat.nonprod.internal.lnsw.gov.ls,gov.ls,Could not resolve host: uat.nonprod.internal.lnsw.gov.ls,dig error
 vhw.gov.ls,gov.ls,Could not resolve host: vhw.gov.ls,none
 wazuh.elmis.gov.ls,gov.ls,Could not resolve host: wazuh.elmis.gov.ls,dig error
+web.vhw.gov.ls,gov.ls,502,
 www.agriculture.gov.ls,gov.ls,Could not resolve host: www.agriculture.gov.ls,dig error
 www.asbcc.gov.ls,gov.ls,Could not resolve host: www.asbcc.gov.ls,none
 www.bos.gov.ls,gov.ls,Resolving timed out after 3001 milliseconds,none
@@ -252,6 +268,7 @@ www.renoka.gov.ls,gov.ls,Could not resolve host: www.renoka.gov.ls,none
 www.renokagisdata.gov.ls,gov.ls,Could not resolve host: www.renokagisdata.gov.ls,dig error
 www.rollproject.gov.ls,gov.ls,curl: (28) Resolving timed out after 5001 milliseconds,dig error
 www.sampletracking.gov.ls,gov.ls,Could not resolve host: www.sampletracking.gov.ls,dig error
+www.scholarships.manp.gov.ls,gov.ls,200,
 www.socialdevelopment.gov.ls,gov.ls,SSL certificate problem: EE certificate key too weak,none
 www.sswa.gov.ls,gov.ls,Recv failure: Connexion ré-initialisée par le correspondant,none
 www.tourism.ecitizen.gov.ls,gov.ls,Could not resolve host: www.tourism.ecitizen.gov.ls,dig error

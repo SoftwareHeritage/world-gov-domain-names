@@ -1,3 +1,7 @@
 subdomain,http_status,mx
 regeringen.se,200,10 uller.mta.ministry.se.
+regstat.regeringen.se,200,
+stage-arkiv.regeringen.se,403,
+stage.regeringen.se,ConnectException > UnresolvedAddressException,
+www-stage.regeringen.se,403,
 www.regeringen.se,200,10 uller.mta.ministry.se.

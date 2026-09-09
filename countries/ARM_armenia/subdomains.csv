@@ -8,6 +8,7 @@ api-covid.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
 api-stayhome.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
 api.car.mia.gov.am,gov.am,404,none
 auction.mia.gov.am,gov.am,302,none
+autoconfig.ai.gov.am,gov.am,200,
 autodiscover.ai.gov.am,gov.am,400,none
 benefits.hightech.gov.am,gov.am,200,none
 bulletin.moj.gov.am,gov.am,200,none
@@ -21,6 +22,7 @@ cpanel.ai.gov.am,gov.am,200,none
 cpcalendars.ai.gov.am,gov.am,401,none
 cpcontacts.ai.gov.am,gov.am,401,none
 cso.gov.am,gov.am,Connection timed out after 3001 milliseconds,10 mail-gateway.ekeng.am.
+dataprotection.moj.gov.am,gov.am,200,
 drive-echr.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
 drive.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
 e-gov.am,gov.am,200,10 mail.e-gov.am.
@@ -32,10 +34,13 @@ en.gov.am,gov.am,Could not resolve host: en.gov.am,none
 env.gov.am,gov.am,301,none
 environment.gov.am,gov.am,200,none
 erepo.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
+expertise.moj.gov.am,gov.am,200,
 gov-zz.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
 gov.am,gov.am,Could not resolve host: gov.am,10 mail-gw.gov.am.
 hartak.cso.gov.am,gov.am,Could not resolve host: hartak.cso.gov.am,10 mail-gateway.ekeng.am.
+health.gov.am,gov.am,200,
 hightech.gov.am,gov.am,400,none
+legaleducation.moj.gov.am,gov.am,200,
 mail-gw.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
 mail.ai.gov.am,gov.am,TLS connect error: error:0A000410:SSL routines::ssl/tls alert handshake failure,none
 mail.cso.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
@@ -149,6 +154,8 @@ mul2-justexpert.gov.am,gov.am,SSL certificate problem: self-signed certificate,n
 mul2-kazakhstan.gov.am,gov.am,405,none
 mul2-kotayk.gov.am,gov.am,SSL certificate problem: self-signed certificate,none
 mul2-la.gov.am,gov.am,SSL certificate problem: self-signed certificate,none
+mul2-lebanon.gov.am,gov.am,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mul2-libanan.gov.am,gov.am,ConnectException > UnresolvedAddressException,
 mul2-lithuania.gov.am,gov.am,405,none
 mul2-lori.gov.am,gov.am,SSL certificate problem: self-signed certificate,none
 mul2-lyon.gov.am,gov.am,405,none
@@ -204,12 +211,15 @@ mul2-vdzor.gov.am,gov.am,Could not resolve host: mul2-vdzor.gov.am,none
 mul2.gov.am,gov.am,SSL certificate problem: self-signed certificate,none
 new.hightech.gov.am,gov.am,403,none
 notify.tourism.gov.am,gov.am,200,none
+nss.gov.am,gov.am,400,
 office-echr.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
 ogp.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
+old.hightech.gov.am,gov.am,301,
 police.mia.gov.am,gov.am,200,none
 prelive.cso.gov.am,gov.am,Could not resolve host: prelive.cso.gov.am,none
 prelive.hartak.cso.gov.am,gov.am,Connection timed out after 3000 milliseconds,none
 probation.moj.gov.am,gov.am,200,none
+psa.moj.gov.am,gov.am,200,
 rescue.mia.gov.am,gov.am,200,none
 soc-zz.gov.am,gov.am,Could not resolve host: soc-zz.gov.am,none
 standards.hightech.gov.am,gov.am,400,none
@@ -220,6 +230,7 @@ sw.gov.am,gov.am,Connection timed out after 3002 milliseconds,none
 trade.gov.am,gov.am,Connection timed out after 3001 milliseconds,none
 trade201.gov.am,gov.am,Connection timed out after 3002 milliseconds,20 mx201.trade.gov.am.; 10 mx101.trade.gov.am.
 uss.social.gov.am,gov.am,Could not resolve host: uss.social.gov.am,none
+water.mtad.gov.am,gov.am,200,
 webdisk.ai.gov.am,gov.am,401,none
 webmail.ai.gov.am,gov.am,Could not resolve host: webmail.ai.gov.am,none
 www.ai.gov.am,gov.am,TLS connect error: error:0A000410:SSL routines::ssl/tls alert handshake failure,none

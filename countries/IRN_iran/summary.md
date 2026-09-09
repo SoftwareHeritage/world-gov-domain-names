@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 101 of 193
 - Government type: theocratic republic
 - Capital: Tehran
-- Hosts collected: 281
+- Hosts collected: 297
 
 ## UN/DESA national portal
 

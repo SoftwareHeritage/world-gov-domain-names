@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 137 of 193
 - Government type: presidential republic in free association with the US
 - Capital: Ngerulmud
-- Hosts collected: 12
+- Hosts collected: 16
 
 ## UN/DESA national portal
 

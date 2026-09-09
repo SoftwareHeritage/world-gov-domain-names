@@ -6,9 +6,12 @@ api-staging.sis2apd.gov.st,Could not resolve host: api-staging.sis2apd.gov.st,no
 api.contribuinte.mf.gov.st,SSL: no alternative certificate subject name matches target hostname 'api.contribuinte.mf.gov.st',none
 api.declaracao.mf.gov.st,401,none
 api.efactura.mf.gov.st,401,none
+api.gateway.mf.gov.st,404,
 api.homolog.declaracao-rendimento.mf.gov.st,404,none
 api.homolog.declaracao.mf.gov.st,401,none
+api.homolog.public.efactura.mf.gov.st,404,
 api.public.di.mf.gov.st,SSL: no alternative certificate subject name matches target hostname 'api.public.di.mf.gov.st',none
+api.public.efactura.mf.gov.st,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 api.sis2apd.gov.st,Could not resolve host: api.sis2apd.gov.st,none
 api.sit.mf.gov.st,200,none
 app-kilalanucha.gov.st,404,none
@@ -48,6 +51,7 @@ dpescas.gov.st,Could not resolve host: dpescas.gov.st,none
 dpssf.gov.st,200,30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.
 dre.gov.st,SSL certificate problem: certificate has expired,none
 dsgc.gov.st,200,30 mx30.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
+duce.mf.gov.st,200,
 e-factura.financas.gov.st,403,none
 efactura.financas.gov.st,SSL: no alternative certificate subject name matches target hostname 'efactura.financas.gov.st',none
 efactura.mf.gov.st,200,none
@@ -57,6 +61,7 @@ embaixadastpcv.gov.st,302,none
 fazendanon.mf.gov.st,200,none
 fazendanon2.mf.gov.st,200,none
 financas.gov.st,403,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+fiscal-account.mf.gov.st,200,
 gov.st,200,none
 gpm.gov.st,200,none
 ham.gov.st,200,none
@@ -112,7 +117,9 @@ proxy-manager2.mf.gov.st,200,none
 rc.registry.gov.st,Resolving timed out after 3000 milliseconds,none
 rctribunal.gov.st,200,none
 repositoriodigital.me.gov.st,SSL certificate problem: unable to get local issuer certificate,none
+rh.mf.gov.st,200,
 senha.gov.st,Operation timed out after 3001 milliseconds with 0 bytes received,none
+sgp-formacao.gov.st,200,
 sgp.gov.st,200,none
 siga.dgrn.gov.st,200,none
 sigesa.gov.st,Could not resolve host: sigesa.gov.st,none
@@ -122,13 +129,16 @@ sisa.gov.st,SSL: no alternative certificate subject name matches target hostname
 sisa.uca.gov.st,Failed to connect to sisa.uca.gov.st port 443 after 345 ms: Could not connect to server,none
 sit.mf.gov.st,200,none
 site.mf.gov.st,502,none
+sms.gov.st,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Sun Feb 08 00:59:59 CET 2026,
 snmf.app.gov.st,SSL: no alternative certificate subject name matches target hostname 'snmf.app.gov.st',none
 snmf.gov.st,Recv failure: Connexion ré-initialisée par le correspondant,none
 staging.sis2apd.gov.st,Could not resolve host: staging.sis2apd.gov.st,none
 stpmosip.gov.st,Could not resolve host: stpmosip.gov.st,none
 strapi.mf.gov.st,502,none
+tax.mf.gov.st,200,
 taxid.financas.gov.st,403,none
 taxid.mf.gov.st,200,none
+taxpayer.mf.gov.st,307,
 testes.fazendanon.mf.gov.st,200,none
 turismo.gov.st,Could not resolve host: turismo.gov.st,none
 uca.gov.st,Failed to connect to uca.gov.st port 443 after 342 ms: Could not connect to server,none
@@ -183,6 +193,7 @@ www.siga.dgrn.gov.st,Recv failure: Connexion ré-initialisée par le corresponda
 www.sigesa.gov.st,SSL certificate problem: certificate has expired,none
 www.sis2apd.gov.st,Could not resolve host: www.sis2apd.gov.st,none
 www.sisa.gov.st,SSL: no alternative certificate subject name matches target hostname 'www.sisa.gov.st',none
+www.sms.gov.st,SSLHandshakeException > CertificateException: No subject alternative DNS name matching www.sms.gov.st found.,
 www.turismo.gov.st,Could not resolve host: www.turismo.gov.st,none
 www.uca.gov.st,Failed to connect to www.uca.gov.st port 443 after 437 ms: Could not connect to server,none
 www.uif.gov.st,Could not resolve host: www.uif.gov.st,none

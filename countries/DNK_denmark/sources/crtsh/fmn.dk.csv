@@ -1,3 +1,14 @@
 subdomain,http_status,mx
+admin.fmn.dk,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+autodiscover.fmn.dk,ConnectException > UnresolvedAddressException,
+cms.fmn.dk,302,
 fmn.dk,301,10 mail-proxy1.mil.dk.; 10 mail-proxy2.mil.dk.
+hk-exm-01.internet.fmn.dk,ConnectException > UnresolvedAddressException,
+hk-exm-02.internet.fmn.dk,ConnectException > UnresolvedAddressException,
+hlkexm05.fmn.dk,ConnectException > UnresolvedAddressException,
+hlkexm06.fmn.dk,ConnectException > UnresolvedAddressException,
+mail.fmn.dk,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+nyhedsarkiv.fmn.dk,ConnectException > UnresolvedAddressException,
+test.admin.fmn.dk,ConnectException > UnresolvedAddressException,
+webmail.fmn.dk,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
 www.fmn.dk,200,none

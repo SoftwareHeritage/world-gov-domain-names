@@ -1,3 +1,20 @@
 subdomain,http_status,mx
+attachments.owa.chd.lu,302,
+attachments.owa.rct.chd.lu,302,
+autodiscover.chd.lu,302,
+autodiscover.rct.chd.lu,302,
+cas.chd.lu,302,
+cas.rct.chd.lu,302,
 chd.lu,301,10 mail1.chd.lu.; 20 mail2.chd.lu.
+fex.chd.lu,ConnectException > UnresolvedAddressException,
+mail1.chd.lu,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+mail2.chd.lu,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+ncl.chd.lu,ConnectException > UnresolvedAddressException,
+owa.chd.lu,302,
+owa.rct.chd.lu,302,
+ra.chd.lu,200,
+rct.chd.lu,ConnectException > UnresolvedAddressException,
+supportpro.chd.lu,ConnectException > UnresolvedAddressException,
 www.chd.lu,301,none
+www.ncl.chd.lu,ConnectException > UnresolvedAddressException,
+ymir.chd.lu,403,

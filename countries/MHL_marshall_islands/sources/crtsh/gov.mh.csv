@@ -2,6 +2,7 @@ subdomain,http_status,mx
 gov.mh,ConnectException,none
 mof.gov.mh,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
 ndmo.gov.mh,Resolving timed out after 3000 milliseconds,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+staging.mof.gov.mh,200,
 tilmake.gov.mh,Resolving timed out after 3000 milliseconds,none
 webmail.gov.mh,Connection timed out after 3000 milliseconds,none
 www.mof.gov.mh,Operation timed out after 3001 milliseconds with 0 bytes received,5 mx1.hostinger.com.; 10 mx2.hostinger.com.

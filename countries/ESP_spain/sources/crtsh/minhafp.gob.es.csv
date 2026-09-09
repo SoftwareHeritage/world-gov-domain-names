@@ -1,3 +1,20 @@
 subdomain,http_status,mx
+catastro.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
 minhafp.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pap.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+pda.pap.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+petete.minhafp.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+sdc.minhafp.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+sefp.minhafp.gob.es,ConnectException > ClosedChannelException,
+webpub2.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+webpub2des.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+webpub2pre.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+webpub3.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+webpub4.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+webpub5.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+webpubdes.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+webpubpre.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+webpubpyf.igae.minhafp.gob.es,ConnectException > UnresolvedAddressException,
+www.deh.minhafp.gob.es,ConnectException > UnresolvedAddressException,
 www.minhafp.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

@@ -1,3 +1,13 @@
 subdomain,http_status,mx
+aineistopankki.valtioneuvosto.fi,ConnectException > UnresolvedAddressException,
+beta.valtioneuvosto.fi,ConnectException > UnresolvedAddressException,
+julkaisut.valtioneuvosto.fi,403,
+kuvapankki.valtioneuvosto.fi,405,
+media.valtioneuvosto.fi,302,
+paatokset.valtioneuvosto.fi,ConnectException > UnresolvedAddressException,
+qa.media.valtioneuvosto.fi,403,
+qa.valtioneuvosto.fi,403,
 valtioneuvosto.fi,302,10 mail.valtori.fi.
+verkkojulkaisut.valtioneuvosto.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+video.valtioneuvosto.fi,307,
 www.valtioneuvosto.fi,302,none

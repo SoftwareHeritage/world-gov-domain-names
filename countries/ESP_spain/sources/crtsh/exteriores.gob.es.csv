@@ -1,3 +1,16 @@
 subdomain,http_status,mx
+actos.exteriores.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+biblioadmin.exteriores.gob.es,200,
+biblioteca.exteriores.gob.es,302,
+ciscomeetingr.exteriores.gob.es,ConnectException > UnresolvedAddressException,
+ciscomeetings1.exteriores.gob.es,ConnectException > UnresolvedAddressException,
+ciscomeetings2.exteriores.gob.es,ConnectException > UnresolvedAddressException,
+ciscomeetings3.exteriores.gob.es,ConnectException > UnresolvedAddressException,
+expresse1.exteriores.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+expresse2.exteriores.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+expressecluster.exteriores.gob.es,ConnectException > UnresolvedAddressException,
 exteriores.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 smtp3.maec.es.; 10 smtp4.maec.es.
+sede.exteriores.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+videoconferencia.exteriores.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+webjubilados.exteriores.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
 www.exteriores.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

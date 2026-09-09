@@ -1,2 +1,8 @@
 subdomain,http_status,mx
+essc.sam.lt,302,
+exc01.dcsam.sam.lt,ConnectException > UnresolvedAddressException,
+exc01.sam.lt,ConnectException > UnresolvedAddressException,
+mail.sam.lt,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+pirkimai.sam.lt,200,
 sam.lt,403,0 sam-lt.mail.protection.outlook.com.; 10 mail.sam.lt.
+www.essc.sam.lt,302,
