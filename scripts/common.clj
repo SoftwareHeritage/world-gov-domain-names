@@ -303,3 +303,22 @@
 
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
+
+(defn parallel
+  "Read PARALLEL env var, fall back to default-n."
+  [default-n]
+  (let [v (System/getenv "PARALLEL")]
+    (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default-n)))
+
+(def validated-domains
+  "Every domain of every countries/<c>/validated.csv, whatever its level
+  and country. A host equal to or under one of them is already covered,
+  so the candidate channels and the Wikidata gap list drop it: re-listing
+  confirmed domains would only add noise to the manual validation pass.
+  Deliberately world-wide: Wikidata attributes embassies to their host
+  country (eda.admin.ch under Zimbabwe), and only the Swiss root covers
+  them."
+  (delay (set (map second (validated-rows)))))
+
+(defn host-covered? [host known]
+  (some (fn [k] (or (= host k) (str/ends-with? host (str "." k)))) known))
