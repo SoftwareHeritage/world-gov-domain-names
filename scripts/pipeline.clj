@@ -846,6 +846,9 @@
              :level1-pattern level1-pattern}
         proposed
         (->> all-hosts
+             ;; Wikidata websites yield a few non-hostnames (IDN with
+             ;; accents, a bare "http", a trailing space): not proposable
+             (filter valid-hostname?)
              (remove #(host-covered? % known))
              (remove #(host-covered? % excluded))
              (map #(candidate-row ctx %))
