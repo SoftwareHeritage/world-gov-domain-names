@@ -30,13 +30,12 @@
 
 ## Candidate domains ranked by score
 
-311 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
+295 central-administration candidate(s). Full list in [`candidates.csv`](candidates.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | sources | label |
 |------:|----------|---------|-------|
 | 10 | `assemblee-nationale.fr` | wikidata;wikidata;wikidata;wikidata;linkgraph | National Assembly | Franco-German Parliamentary Assembly |
-| 10 | `cea.fr` | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;curated | Institut d'Imagerie Biomédicale | Plateformes régionales de transferts techno... |
 | 10 | `cnil.fr` | wikidata;linkgraph | National Commission on Informatics and Liberty |
 | 10 | `gouvernement.fr` | un_desa;wikidata;wikidata | Council of Ministers | UN/DESA national portal |
 | 9 | `ameli.fr` | wikidata;linkgraph | health insurance in France |
@@ -51,10 +50,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `inserm.fr` | wikidata;wikidata;wikidata;wikidata | Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre... |
 | 7 | `service-public.fr` | linkgraph | Linked from 165 public-sector domains |
 | 7 | `tribunal-de-paris.justice.fr` | wikidata;wikidata;wikidata;wikidata | Parquet national financier | Tribunal de grande instance de Paris | Tribunal ... |
-| 7 | `www-list.cea.fr` | wikidata;wikidata | CEA LIST | CEA-List: Laboratory for Integration of Systems and Technology |
 | 6 | `conseil-constitutionnel.fr` | wikidata | Constitutional Council of France |
 | 6 | `courdecassation.fr` | wikidata | Court of Cassation |
 | 6 | `escolapiesinstitutions.org` | wikidata;wikidata | Piarist province of West Africa |
+| 6 | `europaraadet.um.dk` | wikidata;wikidata | Permanent Representation of Denmark to the Council of Europe |
+| 6 | `france.mfa.am` | wikidata;wikidata | Embassy of Armenia, Paris | Consulate of Armenia, Lyon |
 
 ## Local / regional candidates
 

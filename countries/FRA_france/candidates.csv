@@ -1,6 +1,5 @@
 hostname,score,sources,label,level
 assemblee-nationale.fr,10,wikidata;wikidata;wikidata;wikidata;linkgraph,National Assembly | Franco-German Parliamentary Assembly,central
-cea.fr,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;curated,Institut d'Imagerie Biomédicale | Plateformes régionales de transferts technologiques | CEA Paris-Saclay | Direction des Sciences du Vivant du CEA | Direction de la recherche fondamentale | Direction des énergies | CEA (Alternative Energies and Atomic Energy Commission),central
 cnil.fr,10,wikidata;linkgraph,National Commission on Informatics and Liberty,central
 gouvernement.fr,10,un_desa;wikidata;wikidata,Council of Ministers | UN/DESA national portal,central
 ameli.fr,9,wikidata;linkgraph,health insurance in France,
@@ -15,7 +14,6 @@ ihemi.fr,7,wikidata;wikidata,Institut des hautes études du ministère de l'Int�
 inserm.fr,7,wikidata;wikidata;wikidata;wikidata,Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre Nord | French National Institute of Health and Medical Research,
 service-public.fr,7,linkgraph,Linked from 165 public-sector domains,
 tribunal-de-paris.justice.fr,7,wikidata;wikidata;wikidata;wikidata,Parquet national financier | Tribunal de grande instance de Paris | Tribunal judiciaire de Paris | Q108457439,
-www-list.cea.fr,7,wikidata;wikidata,CEA LIST | CEA-List: Laboratory for Integration of Systems and Technology,central
 conseil-constitutionnel.fr,6,wikidata,Constitutional Council of France,central
 courdecassation.fr,6,wikidata,Court of Cassation,central
 escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,
@@ -52,7 +50,6 @@ ambassade-du-soudan.fr,4,wikidata,Embassy of Sudan in France,central
 ambassadesyrie.fr,4,wikidata,"Embassy of Syria, Paris",central
 anciennedouane.fr,4,wikidata,Ancienne Douane,
 angers-nantes.inra.fr,4,wikidata,Centre Angers-Nantes Pays de la Loire,
-anr.fr,4,curated,French National Research Agency (ANR),central
 anses.fr,4,wikidata,Unité sous contrat Caractérisation et suivi des phénomènes d'évolution des résistances,
 aquitaine-poitou-charentes.inserm.fr,4,wikidata,"Délégation Aquitaine, Poitou-Charentes",
 arcom.fr,4,wikidata,Regulatory Authority for Audiovisual and Digital Communication,
@@ -92,7 +89,6 @@ dr17.cnrs.fr,4,wikidata,Délégation Bretagne et Pays de la Loire,
 dr18.cnrs.fr,4,wikidata,"Délégation Nord, Pas-de-Calais et Picardie",
 dr19.cnrs.fr,4,wikidata,Délégation Normandie,
 dr7.cnrs.fr,4,wikidata,Délégation Rhône Auvergne,
-dsv.cea.fr,4,wikidata,Direction des Sciences du Vivant du CEA,
 efpa.inra.fr,4,wikidata,"Département Écologie des Forêts, Prairies et milieux Aquatiques",
 eglise.catholique.fr,4,wikidata,National penal ecclesiastical court,
 embassyofnamibia.fr,4,wikidata,Embassy of Namibia in Paris,central
@@ -110,9 +106,7 @@ guyane.tribunal-administratif.fr,4,wikidata,Q55475559,
 hautsdefrance.cci.fr,4,wikidata,Chamber of commerce Grand Lille,
 hautsdefrance.fr,4,linkgraph,Linked from 3 public-sector domains,
 health-data-hub.fr,4,wikidata,Health Data Hub,
-i2bm.cea.fr,4,wikidata,Institut d'Imagerie Biomédicale,
 ieom.fr,4,wikidata,Institut d'émission d'outre-mer,
-ifremer.fr,4,curated,Ifremer (French Research Institute for Exploitation of the Sea),central
 ifsttar.fr,4,wikidata,IFSTTAR,
 ign.fr,4,wikidata,Institut national de l'information géographique et forestière,
 iledefrance-gif.cnrs.fr,4,wikidata,Délégation Ile-de-France Gif-sur-Yvette (DR4),
@@ -120,16 +114,11 @@ iledefrance-meudon.cnrs.fr,4,wikidata,Délégation Ile-de-France Meudon (DR5),
 iledefrance-villejuif.cnrs.fr,4,wikidata,Délégation Ile-de-France Villejuif (DR1),
 in2p3.cnrs.fr,4,wikidata,Institut national de physique nucléaire et de physique des particules,
 inpi.fr,4,wikidata,National Industrial Property Institute,
-ircm.cea.fr,4,wikidata,Institut de Radiobiologie Cellulaire et Moléculaire,
-irtsv.cea.fr,4,wikidata,Institut de Recherches en Technologies et Sciences pour le Vivant,
-isec.cea.fr,4,wikidata,Institut des Sciences et technologies pour une Economie Circulaire des énergies bas carbone,
 kenyaembassyparis.fr,4,wikidata,Embassy of Kenya in France,central
 la-reunion.tribunal-administratif.fr,4,wikidata,Q3538842,
 ladom.fr,4,wikidata,Agence de l'outre-mer pour la mobilité (France),
 languedoc-roussillon.inserm.fr,4,wikidata,Délégation Languedoc-Roussillon,
 lassuranceretraite.fr,4,wikidata,Caisse Nationale d'Assurance Vieillesse,
-list.cea.fr,4,wikidata,CEA-List: Laboratory for Integration of Systems and Technology,central
-liten.cea.fr,4,wikidata,Laboratoire d'innovation pour les technologies des énergies nouvelles et les nanomatériaux,
 lyon.cour-administrative-appel.fr,4,wikidata,Q3000916,
 marseille.cour-administrative-appel.fr,4,wikidata,Q3000919,
 martinique.tribunal-administratif.fr,4,wikidata,Q55475607,
@@ -159,7 +148,6 @@ patstec.fr,4,wikidata,mission nationale de sauvegarde du patrimoine scientifique
 phase.inra.fr,4,wikidata,Département Physiologie animale et systèmes d’élevage,
 polynesie-francaise.tribunal-administratif.fr,4,wikidata,Q55475613,
 port-rhenan-colmar.fr,4,wikidata,Q54819665,
-portail.cea.fr,4,wikidata,CEA Gramat,
 provence-corse.cnrs.fr,4,wikidata,Délégation Provence et Corse,
 remi-centrevaldeloire.fr,4,wikidata,Rémi,
 rennes.inra.fr,4,wikidata,Centre Rennes,
@@ -188,9 +176,6 @@ umifre.fr,4,wikidata,Instituts Français de Recherche à l'Etranger,
 urssaf.fr,4,linkgraph,Linked from 3 public-sector domains,
 versailles.cour-administrative-appel.fr,4,wikidata,Q3000924,
 wallis-et-futuna.tribunal-administratif.fr,4,wikidata,Q56146789,
-www-ccrt.cea.fr,4,wikidata,Research and Technology Computing Center,
-www-centre-saclay.cea.fr,4,wikidata,CEA Saclay,
-www-marcoule.cea.fr,4,wikidata,CEA Marcoule,
 academiemarquisienne.com,3,wikidata,Marquesan Academy,
 afriquesud.net,3,wikidata,"Embassy of South Africa, Paris",central
 ambacamparis.org,3,wikidata,Embassy of Cameroun in France,central
@@ -305,7 +290,6 @@ cours-appel.justice.fr,2,wikidata;wikidata;wikidata;wikidata;wikidata,Tribunal j
 english.inserm.fr,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Immunology, inflammation, infectiology and microbiology | Genetics, Genomics and Bioinformatics | Cancer | Molecular and structural basis of life sciences | Cell Biology, Development and Evolution | Health technologies | Neurosciences, cognitive sciences, neurology and psychiatry | Physiopathology, metabolism and nutrition",
 idf.inserm.fr,2,wikidata;wikidata;wikidata;wikidata;wikidata,Délégation Paris 5 | Délégation Paris 6 | Délégation Paris 7 | Délégation Paris 12 | Délégation Paris 11,
 inrae.fr,2,wikidata;wikidata;wikidata,INRAE Bordeaux-Aquitaine | Département de Génétique Animale,
-www-dam.cea.fr,2,wikidata;wikidata;wikidata,Direction des Applications Militaires | CEA Le Ripault | CEA de Bruyères-le-Châtel,
 euskaltzaindia.eus,1,wikidata;wikidata;wikidata;wikidata,Euskaltzaindia,
 finlandabroad.fi,1,wikidata;wikidata;wikidata,"Permanent Representation of Finland to the Council of Europe | Embassy of Finland, Paris | Permanent Delegation of Finland to the OECD",central
 ich.unesco.org,1,wikidata;wikidata;wikidata,Living Heritage Entity,

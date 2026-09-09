@@ -328,7 +328,7 @@
 (defn root-domain-dirs
   "All countries/<c>/sources/roots/<root>/ directories (full paths). Promoted
   root domains live under sources/roots/, siblings-free of the enrichment
-  sources (iana/cia_factbook/un_desa/oecd/wikidata/curated)."
+  sources (iana/cia_factbook/un_desa/oecd/wikidata)."
   []
   (->> (fs/glob "countries" "*/sources/roots/*")
        (filter fs/directory?)
@@ -808,36 +808,16 @@
            (registry-mx c d))]))
 
 (defn- central1-entries
-  "First-tier (central-1) domains feeding the central+ file. Only
-  CONFIRMED entries pass, mirroring the manual gate of the central
-  level (decision of 2026-08-17): the level=central-1 rows of
-  validated.csv plus the candidates-local.csv rows tagged central-1
-  whose sources include the curation channel
-  (sources/curated/central_admin.csv). Uncurated
-  central-1 candidates -- however well scored -- stay in
-  candidates-local.csv as the curation worklist.
-  Returns [country domain name score sources level], deduped by
-  [country domain] preferring the curated entry."
+  "First-tier (central-1) domains feeding the central+ file: the
+  level=central-1 rows of validated.csv. Only CONFIRMED entries pass,
+  mirroring the manual gate of the central level (decision of
+  2026-08-17); unconfirmed central-1 candidates -- however well scored --
+  stay in the candidate list as the curation worklist.
+  Returns [country domain name score sources level]."
   []
-  (let [curated (for [[c domain level _source name] (validated-rows)
-                      :when (= level "central-1")]
-                  [c domain name "" "registry" "central-1"])
-        candidates (for [c (country-dirs)
-                         :let [path (str "countries/" c "/candidates-local.csv")]
-                         :when (fs/exists? path)
-                         [hostname score sources label level]
-                         (rest (read-csv-raw path))
-                         :when (and (= level "central-1")
-                                    (valid-hostname? hostname)
-                                    (some #{"curated"}
-                                          (str/split (or sources "") #";")))]
-                     [c hostname (or label "") (or score "") (or sources "")
-                      level])]
-    (->> (concat curated candidates)
-         (reduce (fn [m [c d & _ :as row]]
-                   (cond-> m (not (contains? m [c d])) (assoc [c d] row)))
-                 {})
-         vals)))
+  (for [[c domain level _source name] (validated-rows)
+        :when (= level "central-1")]
+    [c domain name "" "registry" "central-1"]))
 
 (defn cmd-central [_]
   ;; Extract data/public-sector-domains-central+.csv: one row per
@@ -846,7 +826,7 @@
   ;; first-subdivision report scope. A root stands for all its
   ;; subdomains, so these are the email domains the report needs.
   ;; Sources: the level=central rows of countries/<c>/validated.csv and
-  ;; the curated central-1 entries. UN-facing: members/observers only.
+  ;; its central-1 rows. UN-facing: members/observers only.
   ;; Carries the domain's MX as an email signal when available.
   (let [un-by-country  (build-un-status-map)
         meta-by-country (country-meta-map)
@@ -1681,7 +1661,6 @@
     :fb-phrases      Factbook institution phrases (lowercased)
     :un-portal-host  UN/DESA-declared national portal host (or nil)
     :cctld-primary   country's primary ccTLD (without leading dot)
-    :curated?        host comes from the manually-curated source channel
     :indegree        # of distinct same-country public-sector domains
                      linking to the host (nil when absent from the link
                      graph); being linked from many independent government
@@ -1692,7 +1671,7 @@
     :subdiv-penalty? apply the anti-subnational penalties (default true);
                      false when ranking candidates-local.csv, where burying
                      subnational entries would defeat the file's purpose"
-  [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary curated?
+  [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary
            indegree directory-listed? subdiv-penalty?]
     :or {subdiv-penalty? true}}]
   (let [label (or label "")
@@ -1718,7 +1697,6 @@
                             :else                                 0)
         score (+ (if un?          5 0)
                  (* 3 (min 2 (max 0 wd-count)))
-                 (if curated?     3 0)
                  lg-points
                  ;; an official-directory listing is authoritative on the
                  ;; body's existence but silent on its level
@@ -1736,17 +1714,14 @@
   (boolean (and level1-pattern (seq label) (re-find level1-pattern label))))
 
 (defn- candidate-level
-  "Administrative level of a candidate host: explicit curation wins, then
-  the P1001-derived Wikidata levels, then the label heuristics (a label
-  matching subdiv-pattern is subnational; one naming a first-level
-  subdivision is promoted to central-1). Blank when nothing is known."
-  [{:keys [cur-by-host wd-by-host level1-pattern]} h label]
-  (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")
-        cur-level (get-in cur-by-host [h :level] "")]
+  "Administrative level of a candidate host: the P1001-derived Wikidata
+  levels, then the label heuristics (a label matching subdiv-pattern is
+  subnational; one naming a first-level subdivision is promoted to
+  central-1). Blank when nothing is known."
+  [{:keys [wd-by-host level1-pattern]} h label]
+  (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")]
     (cond
-      (#{"central" "central-1" "local"} cur-level)
-      cur-level                                    ; curation wins
-      (contains? wd-levels "central")   "central"  ; over P1001,
+      (contains? wd-levels "central")   "central"
       (contains? wd-levels "central-1") "central-1"
       (contains? wd-levels "local")     (if (level1-label? level1-pattern label)
                                           "central-1" "local")
@@ -1760,20 +1735,14 @@
   "Assemble one candidate row [hostname score sources label level] from the
   already-loaded per-country context (pure -- see score-candidates-for!
   for the context construction)."
-  [{:keys [wd-by-host cur-by-host lg-by-host dir-by-host un-portal-host
+  [{:keys [wd-by-host lg-by-host dir-by-host un-portal-host
            fb-phrases cctld-primary]
     :as ctx}
    h]
   (let [{:keys [cnt labels] :or {cnt 0 labels []}} (get wd-by-host h)
         un? (= h un-portal-host)
-        curated? (contains? cur-by-host h)
         linked-n (get lg-by-host h)
         dir-info (get dir-by-host h)
-        cur-label (get-in cur-by-host [h :label])
-        labels (cond-> labels
-                 (and curated? (seq cur-label)
-                      (not (some #{cur-label} labels)))
-                 (conj cur-label))
         label (cond-> (str/join " | " labels)
                 un? (str (when (seq labels) " | ")
                          "UN/DESA national portal"))
@@ -1789,7 +1758,6 @@
                   un? (conj "un_desa"))
         sources (into sources (repeat cnt "wikidata"))
         sources (cond-> sources
-                  curated? (conj "curated")
                   linked-n (conj "linkgraph")
                   dir-info (conj "directory"))
         level (candidate-level ctx h label)
@@ -1798,15 +1766,12 @@
                  :fb-phrases fb-phrases
                  :un-portal-host un-portal-host
                  :cctld-primary cctld-primary
-                 :curated? curated?
                  :indegree linked-n
                  :directory-listed? (some? dir-info)
                  ;; the anti-subnational penalties catch entities
-                 ;; *pretending* central; when curation explicitly says
-                 ;; central, they must not apply
+                 ;; *pretending* central
                  :subdiv-penalty?
-                 (and (not (contains? #{"local" "central-1"} level))
-                      (not= "central" (get-in cur-by-host [h :level])))})]
+                 (not (contains? #{"local" "central-1"} level))})]
     [h score (str/join ";" sources) label level]))
 
 (defn score-candidates-for!
@@ -1817,7 +1782,7 @@
   Factbook institution names and link-graph in-degree (sources/linkgraph/,
   see cmd-indegree). Loads the per-country sources into a context map,
   then delegates each host to the pure candidate-row/candidate-level
-  above: a host is subnational when Wikidata or curation says so, or when
+  above: a host is subnational when Wikidata says so, or when
   its label matches the subdivision pattern; a subnational host whose
   jurisdiction (or label) points to a first-level subdivision of the
   country (Land, state, region…) is tagged 'central-1', the rest 'local'.
@@ -1829,7 +1794,6 @@
         cia-path  (country-src country-dir "cia_factbook" "summary.csv")
         wd-path   (country-src country-dir "wikidata" "central_admin.csv")
         sub-path  (country-src country-dir "wikidata" "subdivisions_level1.csv")
-        cur-path  (country-src country-dir "curated" "central_admin.csv")
         out       (str "countries/" country-dir "/candidates.csv")
         out-local (str "countries/" country-dir "/candidates-local.csv")
         cctld-primary
@@ -1882,19 +1846,7 @@
                            {:n (or (parse-long (or mentions "")) 1)
                             :evidence (or evidence "")})))
                 {} (read-csv-file dir-path))
-        cur-rows       (when (fs/exists? cur-path) (rest (read-csv-raw cur-path)))
-        ;; curated host -> {:label :level}
-        ;; (schema: type,label,website,hostname,provenance[,level])
-        cur-by-host
-        (reduce (fn [m row]
-                  (let [host (nth row 3 nil)]
-                    (if (str/blank? host)
-                      m
-                      (assoc m host {:label (or (nth row 1 nil) "")
-                                     :level (str/trim (or (nth row 5 nil) ""))}))))
-                {} cur-rows)
         all-hosts (cond-> (-> (set (keys wd-by-host))
-                              (into (keys cur-by-host))
                               (into (keys lg-by-host))
                               (into (keys dir-by-host)))
                     un-portal-host (conj un-portal-host))
@@ -1914,7 +1866,6 @@
                      (str/join "|" (map #(java.util.regex.Pattern/quote %) labels))
                      ")\\b")))))
         ctx {:wd-by-host wd-by-host
-             :cur-by-host cur-by-host
              :lg-by-host lg-by-host
              :dir-by-host dir-by-host
              :un-portal-host un-portal-host
