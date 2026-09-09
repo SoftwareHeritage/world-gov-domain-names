@@ -88,11 +88,18 @@
         :when (valid-hostname? domain)]
     [domain (str/trim (or level "")) (str/trim (or source "")) (str/trim (or name ""))]))
 
+(def ^:private validated-cache (atom nil))
+
 (defn validated-rows
-  "read-validated over every country: seq of [country domain level source name]."
+  "read-validated over every country: vector of [country domain level
+  source name]. Read once per run and cached -- the per-country callers
+  (aggregate, probes) would otherwise reread the 197 files each time;
+  sync-validated! drops the cache."
   []
-  (for [c (country-dirs), [d level source name] (read-validated c)]
-    [c d level source name]))
+  (or @validated-cache
+      (reset! validated-cache
+              (vec (for [c (country-dirs), [d level source name] (read-validated c)]
+                     [c d level source name])))))
 
 (defn normalize-name
   "Lowercase a name and strip everything but [a-z0-9], for matching country
@@ -302,7 +309,8 @@
   [country-dir source fresh]
   (write-csv-file (validated-file country-dir) ["domain" "level" "source" "name"]
                   (merge-validated-rows (read-validated country-dir) source
-                                        (for [[d level name] fresh] [d level source (or name "")]))))
+                                        (for [[d level name] fresh] [d level source (or name "")])))
+  (reset! validated-cache nil))
 
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
