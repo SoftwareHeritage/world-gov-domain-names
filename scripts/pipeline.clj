@@ -724,11 +724,12 @@
        (reduce (fn [m [k label info]] (assoc-in m [k label] info)) {})))
 
 (defn sub-central-labels
-  "All labels declared for a mixed-suffix root, to keep out of its
-  subtree: local ones become exclude rows, central-1 ones exact rows
-  (cmd-domains)."
-  [excl [country domain]]
-  (set (keys (get excl [country domain]))))
+  "All labels to keep out of a mixed-suffix root's subtree: the excluded
+  labels declared for it (exclude rows) and the labels of its validated
+  central-1 domains (exact rows, see cmd-domains)."
+  [excl c1-under [country domain]]
+  (into (set (keys (get excl [country domain])))
+        (get c1-under [country domain])))
 
 (def ^:private registry-mx-map
   "{host mx} cached by mx-registry! for a country's registry, read once."
@@ -747,10 +748,29 @@
   (for [c (country-dirs)
         :let [path (str "countries/" c "/validated.csv")]
         :when (fs/exists? path)
-        [domain level source] (rest (read-csv-raw path))
+        [domain level source name] (rest (read-csv-raw path))
         :let [domain (some-> domain str/trim str/lower-case)]
         :when (valid-hostname? domain)]
-    [c domain (str/trim (or level "")) (str/trim (or source ""))]))
+    [c domain (str/trim (or level "")) (str/trim (or source ""))
+     (str/trim (or name ""))]))
+
+(defn central1-under
+  "{[country root] #{label…}}: the label of every validated central-1
+  domain sitting directly under a validated central root of the same
+  country (sp.gov.br under gov.br -> {[BRA gov.br] #{\"sp\"}}). Such a
+  domain is an apex of the policy table (exact row) and its label leaves
+  the root's subtree, so no lower-tier host registered under it
+  (campinas.sp.gov.br) passes as central."
+  []
+  (let [rows (validated-rows)
+        central (set (for [[c d level] rows :when (= level "central")] [c d]))]
+    (reduce (fn [m [c d level]]
+              (let [[_ label root] (when (= level "central-1")
+                                     (re-matches #"([a-z0-9-]+)\.(.+)" d))]
+                (if (and root (contains? central [c root]))
+                  (update m [c root] (fnil conj #{}) label)
+                  m)))
+            {} rows)))
 
 (defn- central-root-entries
   "All [country domain mx] feeding the central+ file's central rows: the
@@ -768,19 +788,18 @@
 (defn- central1-entries
   "First-tier (central-1) domains feeding the central+ file. Only
   CONFIRMED entries pass, mirroring the manual gate of the central
-  level (decision of 2026-08-17): the curated central-1 labels under
-  mixed suffixes (label.root, confirmed by the registry) plus the
-  candidates-local.csv rows tagged central-1 whose sources include the
-  curation channel (sources/curated/central_admin.csv). Uncurated
+  level (decision of 2026-08-17): the level=central-1 rows of
+  validated.csv plus the candidates-local.csv rows tagged central-1
+  whose sources include the curation channel
+  (sources/curated/central_admin.csv). Uncurated
   central-1 candidates -- however well scored -- stay in
   candidates-local.csv as the curation worklist.
   Returns [country domain name score sources level], deduped by
   [country domain] preferring the curated entry."
   []
-  (let [curated (for [[[c domain] labels] (registry-excluded-labels)
-                      [label {:keys [level name]}] labels
+  (let [curated (for [[c domain level _source name] (validated-rows)
                       :when (= level "central-1")]
-                  [c (str label "." domain) name "" "registry" "central-1"])
+                  [c domain name "" "registry" "central-1"])
         candidates (for [c (country-dirs)
                          :let [path (str "countries/" c "/candidates-local.csv")]
                          :when (fs/exists? path)
@@ -2397,9 +2416,10 @@
   consumer (RE2, SQL) can apply it.
 
   It covers central administration plus one tier below it, and nothing
-  lower: every label declared for a mixed-suffix root
-  (registry-excluded-labels) becomes an exclude row, except central-1
-  labels whose own domain (sp.gov.br) becomes an exact row instead, so
+  lower: every excluded label of a mixed-suffix root
+  (registry-excluded-labels) becomes an exclude row, and every validated
+  central-1 domain directly under a central root (sp.gov.br,
+  central1-under) becomes an exact row, so
   lower-tier hosts registered anywhere in their subtree
   (campinas.sp.gov.br) stay out until a central body of the subtree is
   listed explicitly in the central+ scope. Domains already covered by a
@@ -2409,9 +2429,9 @@
     (err "ERR: " central-plus-file " missing. Run 'bb pipeline central' first")
     (let [rows (rest (read-csv-raw central-plus-file))
           excl (registry-excluded-labels)
-          apexes (set (for [[[c root] labels] excl
-                            [label {:keys [level]}] labels
-                            :when (= level "central-1")]
+          c1-under (central1-under)
+          apexes (set (for [[[c root] labels] c1-under
+                            label labels]
                         [c (str label "." root)]))
           ;; Same-domain rows across countries keep the union of
           ;; exclusions; a domain that is an apex in any country stays
@@ -2421,7 +2441,7 @@
                                  (update m d
                                          (fn [[es ap]]
                                            [(into (or es #{})
-                                                  (sub-central-labels excl [c d]))
+                                                  (sub-central-labels excl c1-under [c d]))
                                             (or ap (contains? apexes [c d]))])))
                                {})
                        (map (fn [[d [es ap]]] [d es ap]))
