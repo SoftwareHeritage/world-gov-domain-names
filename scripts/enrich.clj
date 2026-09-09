@@ -245,8 +245,9 @@
 
                 :else nil)]
     (if (nil? pairs)
-      (do (err "ERR: data/country_qid.csv missing. Run 'bb pipeline build-qid' first")
-          (System/exit 1))
+      ;; no System/exit here: cmd-enrich runs this in a future among five
+      ;; other sources, exiting would kill them without their summary
+      (err "ERR: data/country_qid.csv missing. Run 'bb pipeline build-qid' first")
       (bounded-pmap conc-wikidata
                     (fn [[qid c]] (wikidata-process! qid c))
                     pairs))))
