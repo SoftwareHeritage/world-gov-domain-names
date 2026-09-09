@@ -342,7 +342,17 @@
   []
   (set (map second (validated-rows))))
 
+(defn host-suffixes
+  "host and every parent domain of it, at label boundaries:
+  culture.gouv.fr -> (culture.gouv.fr gouv.fr fr)."
+  [host]
+  (let [parts (str/split host #"\.")]
+    (map #(str/join "." (drop % parts)) (range (count parts)))))
+
 (defn host-covered?
-  "True when host is one of the known domains or sits under one of them."
+  "True when host is one of the known domains or sits under one of them.
+  Walks host's suffixes with one set lookup each instead of scanning known
+  (2851 validated domains times 40 000 candidates made report take 40 s)."
   [host known]
-  (some (fn [k] (or (= host k) (str/ends-with? host (str "." k)))) known))
+  (let [known (if (set? known) known (set known))]
+    (boolean (some known (host-suffixes host)))))
