@@ -33,18 +33,18 @@
 12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `centroamericaribeschp.com` |  | wikidata;wikidata | Piarist province Central America- Caribbean |
-| 6 | `jesuites.ca` |  | wikidata;wikidata | Canada Province of the Society of Jesus |
-| 6 | `jesuits.ca` |  | wikidata;wikidata | Canada Province of the Society of Jesus |
-| 6 | `roc-taiwan.org` | central | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Port-au-Prince |
-| 4 | `brh.ht` |  | wikidata | Bank of the Republic of Haiti |
-| 4 | `cephaiti.ht` | central | wikidata | Provisional Electoral Council |
-| 4 | `pnh.ht` | central | wikidata | Haitian National Police |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Haiti |
-| 3 | `ht.ambafrance.org` | central | wikidata | Embassy of France, Port-au-Prince |
-| 3 | `ihsi.ayiti.digital` | central | wikidata | Institut Haïtien de Statistique et d'Informatique |
-| 3 | `port-au-prince.diplo.de` | central | wikidata | embassy of Germany, Port-au-Prince |
-| 1 | `leparlementhaitien.info` | central | wikidata;wikidata;wikidata | Parliament of Haiti | Chamber of Deputies |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `centroamericaribeschp.com` |  |  | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `jesuites.ca` |  |  | wikidata;wikidata | Canada Province of the Society of Jesus |
+| 6 | `jesuits.ca` |  |  | wikidata;wikidata | Canada Province of the Society of Jesus |
+| 6 | `roc-taiwan.org` | central |  | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Port-au-Prince |
+| 4 | `brh.ht` |  |  | wikidata | Bank of the Republic of Haiti |
+| 4 | `cephaiti.ht` | central |  | wikidata | Provisional Electoral Council |
+| 4 | `pnh.ht` | central |  | wikidata | Haitian National Police |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Haiti |
+| 3 | `ht.ambafrance.org` | central |  | wikidata | Embassy of France, Port-au-Prince |
+| 3 | `ihsi.ayiti.digital` | central |  | wikidata | Institut Haïtien de Statistique et d'Informatique |
+| 3 | `port-au-prince.diplo.de` | central |  | wikidata | embassy of Germany, Port-au-Prince |
+| 1 | `leparlementhaitien.info` | central |  | wikidata;wikidata;wikidata | Parliament of Haiti | Chamber of Deputies |
 

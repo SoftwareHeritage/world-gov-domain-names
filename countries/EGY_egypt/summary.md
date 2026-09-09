@@ -33,26 +33,26 @@
 69 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `nspo.com.eg` |  | wikidata;wikidata | National Service Products Organization |
-| 6 | `custodia.org` |  | wikidata;wikidata | Custodian of the Holy Land |
-| 6 | `egypt.gov.org` |  | un_desa | UN/DESA national portal |
-| 6 | `egyptconsulates.org` | central | wikidata;wikidata | Ministry of Foreign Affairs of Egypt |
-| 6 | `egyptera.org` |  | wikidata;wikidata | Egyptian Electric Utility and Consumer Protection Regulatory Agency |
-| 6 | `kairo.diplo.de` | central | wikidata;wikidata | Embassy of Germany, Cairo |
-| 6 | `sca-egypt.org` | central | wikidata;wikidata | Ministry of State for Antiquities |
-| 6 | `swedenabroad.se` | central | wikidata;wikidata | Embassy of Sweden, Cairo |
-| 4 | `aoi.org.eg` |  | wikidata | Arab Organization for Industrialization |
-| 4 | `britishcouncil.org.eg` |  | wikidata | British Council Egypt |
-| 4 | `cbe.org.eg` |  | wikidata | Central Bank of Egypt |
-| 4 | `cmrdi.sci.eg` |  | wikidata | Central Metallurgical Research and Development Institute |
-| 4 | `drugcontrol.org.eg` |  | wikidata | Q95947970 |
-| 4 | `eaea.org.eg` |  | wikidata | Egyptian Atomic Energy Authority |
-| 4 | `eca.org.eg` |  | wikidata | Q12206326 |
-| 4 | `egnatcom.org.eg` |  | wikidata | Egyptian National Commission for UNESCO |
-| 4 | `ehc.eg` |  | wikidata | Egyptian Health Council |
-| 4 | `elections.eg` | central | wikidata | National Elections Commission |
-| 4 | `epri.sci.eg` |  | wikidata | Egyptian Petroleum Research Institute |
-| 4 | `hbrc.edu.eg` |  | wikidata | Housing and Building National Research Center |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `nspo.com.eg` |  |  | wikidata;wikidata | National Service Products Organization |
+| 6 | `custodia.org` |  |  | wikidata;wikidata | Custodian of the Holy Land |
+| 6 | `egypt.gov.org` |  |  | un_desa | UN/DESA national portal |
+| 6 | `egyptconsulates.org` | central |  | wikidata;wikidata | Ministry of Foreign Affairs of Egypt |
+| 6 | `egyptera.org` |  |  | wikidata;wikidata | Egyptian Electric Utility and Consumer Protection Regulatory Agency |
+| 6 | `kairo.diplo.de` | central |  | wikidata;wikidata | Embassy of Germany, Cairo |
+| 6 | `sca-egypt.org` | central |  | wikidata;wikidata | Ministry of State for Antiquities |
+| 6 | `swedenabroad.se` | central |  | wikidata;wikidata | Embassy of Sweden, Cairo |
+| 4 | `aoi.org.eg` |  |  | wikidata | Arab Organization for Industrialization |
+| 4 | `britishcouncil.org.eg` |  |  | wikidata | British Council Egypt |
+| 4 | `cbe.org.eg` |  |  | wikidata | Central Bank of Egypt |
+| 4 | `cmrdi.sci.eg` |  |  | wikidata | Central Metallurgical Research and Development Institute |
+| 4 | `drugcontrol.org.eg` |  |  | wikidata | Q95947970 |
+| 4 | `eaea.org.eg` |  |  | wikidata | Egyptian Atomic Energy Authority |
+| 4 | `eca.org.eg` |  |  | wikidata | Q12206326 |
+| 4 | `egnatcom.org.eg` |  |  | wikidata | Egyptian National Commission for UNESCO |
+| 4 | `ehc.eg` |  |  | wikidata | Egyptian Health Council |
+| 4 | `elections.eg` | central |  | wikidata | National Elections Commission |
+| 4 | `epri.sci.eg` |  |  | wikidata | Egyptian Petroleum Research Institute |
+| 4 | `hbrc.edu.eg` |  |  | wikidata | Housing and Building National Research Center |
 

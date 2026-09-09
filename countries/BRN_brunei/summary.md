@@ -33,12 +33,12 @@
 6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `brunet.bn` |  | wikidata | Brunei International Airport |
-| 3 | `ambafrance-bn.org` | central | wikidata | Embassy of France, Bandar Seri Begawan |
-| 3 | `bandar-seri-begawan.diplo.de` | central | wikidata | Embassy of Germany, Bandar Seri Begawan |
-| 3 | `brunei.mid.ru` | central | wikidata | embassy of Russia in Brunei |
-| 3 | `philippine-embassybrunei.com` | central | wikidata | Embassy of the Philippines, Bandar Seri Begawan |
-| 3 | `roc-taiwan.org` | central | wikidata | Taipei Economic and Cultural Office in Brunei Darussalam |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `brunet.bn` |  |  | wikidata | Brunei International Airport |
+| 3 | `ambafrance-bn.org` | central |  | wikidata | Embassy of France, Bandar Seri Begawan |
+| 3 | `bandar-seri-begawan.diplo.de` | central |  | wikidata | Embassy of Germany, Bandar Seri Begawan |
+| 3 | `brunei.mid.ru` | central |  | wikidata | embassy of Russia in Brunei |
+| 3 | `philippine-embassybrunei.com` | central |  | wikidata | Embassy of the Philippines, Bandar Seri Begawan |
+| 3 | `roc-taiwan.org` | central |  | wikidata | Taipei Economic and Cultural Office in Brunei Darussalam |
 

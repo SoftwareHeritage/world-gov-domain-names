@@ -33,25 +33,25 @@
 19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `assemblee-nationale.tg` | central | wikidata;wikidata | National Assembly |
-| 6 | `minjustg.com` | central | wikidata;wikidata | Ministry of Justice and Legislation (Togo) |
-| 6 | `togo.tg` |  | un_desa | UN/DESA national portal |
-| 6 | `togoleseministryofhealthlome.myewebsite.com` | central | wikidata;wikidata | Togolese Ministry of Health |
-| 4 | `ccit.tg` |  | wikidata | chamber of commerce and industry of Togo |
-| 4 | `courconstitutionnelle.tg` |  | wikidata | Q19544229 |
-| 4 | `courdappeldelome.tg` | central | wikidata | Q139559373 |
-| 4 | `courdescomptes.tg` |  | wikidata | Q139500459 |
-| 4 | `coursupremetogo.tg` |  | wikidata | Q125959623 |
-| 4 | `inseed.tg` | central | wikidata | INSEED-TOGO |
-| 3 | `bceao.int` |  | wikidata | Central Bank of West African States |
-| 3 | `ceni-tg.org` | central | wikidata | Q19955905 |
-| 3 | `cndh-togo.org` |  | wikidata | National Human Rights Commission (Togo) |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Togo |
-| 3 | `ghanaembassy-togo.com` | central | wikidata | embassy of Ghana in Togo |
-| 3 | `hcourtog.com` | central | wikidata | High Court of Justice |
-| 3 | `lome.diplo.de` | central | wikidata | Embassy of Germany, Lomé |
-| 3 | `tg.ambafrance.org` | central | wikidata | Embassy of France, Lomé |
-| 3 | `unesco.tg.refer.org` |  | wikidata | Togolese National Commissions for UNESCO |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `assemblee-nationale.tg` | central |  | wikidata;wikidata | National Assembly |
+| 6 | `minjustg.com` | central |  | wikidata;wikidata | Ministry of Justice and Legislation (Togo) |
+| 6 | `togo.tg` |  |  | un_desa | UN/DESA national portal |
+| 6 | `togoleseministryofhealthlome.myewebsite.com` | central |  | wikidata;wikidata | Togolese Ministry of Health |
+| 4 | `ccit.tg` |  |  | wikidata | chamber of commerce and industry of Togo |
+| 4 | `courconstitutionnelle.tg` |  |  | wikidata | Q19544229 |
+| 4 | `courdappeldelome.tg` | central |  | wikidata | Q139559373 |
+| 4 | `courdescomptes.tg` |  |  | wikidata | Q139500459 |
+| 4 | `coursupremetogo.tg` |  |  | wikidata | Q125959623 |
+| 4 | `inseed.tg` | central |  | wikidata | INSEED-TOGO |
+| 3 | `bceao.int` |  |  | wikidata | Central Bank of West African States |
+| 3 | `ceni-tg.org` | central |  | wikidata | Q19955905 |
+| 3 | `cndh-togo.org` |  |  | wikidata | National Human Rights Commission (Togo) |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Togo |
+| 3 | `ghanaembassy-togo.com` | central |  | wikidata | embassy of Ghana in Togo |
+| 3 | `hcourtog.com` | central |  | wikidata | High Court of Justice |
+| 3 | `lome.diplo.de` | central |  | wikidata | Embassy of Germany, Lomé |
+| 3 | `tg.ambafrance.org` | central |  | wikidata | Embassy of France, Lomé |
+| 3 | `unesco.tg.refer.org` |  |  | wikidata | Togolese National Commissions for UNESCO |
 

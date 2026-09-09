@@ -33,26 +33,26 @@
 26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `iph.mk` |  | wikidata;wikidata | Institute of Public Health of North Macedonia |
-| 7 | `sobranie.mk` | central | wikidata;wikidata | Assembly of North Macedonia |
-| 6 | `ustavensud.mk` |  | wikidata | Constitutional Court of North Macedonia |
-| 6 | `vlada.mk` |  | un_desa | UN/DESA national portal |
-| 6 | `vsrm.mk` | central | wikidata | Supreme Court of North Macedonia |
-| 4 | `aek.mk` |  | wikidata | Agency for Electronic Communications |
-| 4 | `ambasadabih.org.mk` | central | wikidata | Embassy of Bosnia and Herzegovina in North Macedonia |
-| 4 | `arhiv.mk` |  | wikidata | State Archive of the Republic of North Macedonia |
-| 4 | `ia.mk` |  | wikidata | Intelligence Agency of North Macedonia |
-| 4 | `nbrm.mk` |  | wikidata | National Bank of North Macedonia |
-| 4 | `nubsk.edu.mk` |  | wikidata | National and University Library "St. Kliment of Ohrid" |
-| 4 | `oskratovo.mk` |  | wikidata | Courthouses in Kratovo |
-| 4 | `osnegotino.mk` |  | wikidata | Courthouses in Negotino |
-| 3 | `ambasadat.net` | central | wikidata | Embassy of Kosovo, Skopje |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to North Macedonia |
-| 3 | `macedonia.mid.ru` | central | wikidata | embassy of Russia in North Macedonia |
-| 3 | `mfa.bg` | central | wikidata | embassy of Bulgaria in North Macedonia |
-| 3 | `mfa.gr` | central | wikidata | embassy of Greece in North Macedonia |
-| 3 | `mk.ambafrance.org` | central | wikidata | Embassy of France, Skopje |
-| 3 | `mk.mvep.hr` | central | wikidata | embassy of Croatia in North Macedonia |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `iph.mk` |  |  | wikidata;wikidata | Institute of Public Health of North Macedonia |
+| 7 | `sobranie.mk` | central |  | wikidata;wikidata | Assembly of North Macedonia |
+| 6 | `ustavensud.mk` |  |  | wikidata | Constitutional Court of North Macedonia |
+| 6 | `vlada.mk` |  |  | un_desa | UN/DESA national portal |
+| 6 | `vsrm.mk` | central |  | wikidata | Supreme Court of North Macedonia |
+| 4 | `aek.mk` |  |  | wikidata | Agency for Electronic Communications |
+| 4 | `ambasadabih.org.mk` | central |  | wikidata | Embassy of Bosnia and Herzegovina in North Macedonia |
+| 4 | `arhiv.mk` |  |  | wikidata | State Archive of the Republic of North Macedonia |
+| 4 | `ia.mk` |  |  | wikidata | Intelligence Agency of North Macedonia |
+| 4 | `nbrm.mk` |  |  | wikidata | National Bank of North Macedonia |
+| 4 | `nubsk.edu.mk` |  |  | wikidata | National and University Library "St. Kliment of Ohrid" |
+| 4 | `oskratovo.mk` |  |  | wikidata | Courthouses in Kratovo |
+| 4 | `osnegotino.mk` |  |  | wikidata | Courthouses in Negotino |
+| 3 | `ambasadat.net` | central |  | wikidata | Embassy of Kosovo, Skopje |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to North Macedonia |
+| 3 | `macedonia.mid.ru` | central |  | wikidata | embassy of Russia in North Macedonia |
+| 3 | `mfa.bg` | central |  | wikidata | embassy of Bulgaria in North Macedonia |
+| 3 | `mfa.gr` | central |  | wikidata | embassy of Greece in North Macedonia |
+| 3 | `mk.ambafrance.org` | central |  | wikidata | Embassy of France, Skopje |
+| 3 | `mk.mvep.hr` | central |  | wikidata | embassy of Croatia in North Macedonia |
 

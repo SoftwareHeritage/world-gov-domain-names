@@ -33,9 +33,9 @@
 3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `palemene.ws` | central | wikidata;wikidata | Legislative Assembly of Samoa |
-| 6 | `samoagovt.ws` |  | un_desa | UN/DESA national portal |
-| 3 | `samoashipping.com` |  | wikidata | Samoa Shipping Corporation |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `palemene.ws` | central |  | wikidata;wikidata | Legislative Assembly of Samoa |
+| 6 | `samoagovt.ws` |  |  | un_desa | UN/DESA national portal |
+| 3 | `samoashipping.com` |  |  | wikidata | Samoa Shipping Corporation |
 

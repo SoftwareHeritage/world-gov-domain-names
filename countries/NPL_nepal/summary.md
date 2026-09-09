@@ -33,20 +33,20 @@
 14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `khajurabajaar.com` |  | wikidata;wikidata | Khajura Bajaar |
-| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Kathmandu |
-| 4 | `narc.org.np` |  | wikidata | Nepal Agricultural Research Council |
-| 4 | `nea.org.np` |  | wikidata | Nepal Electricity Authority |
-| 4 | `nncu.org.np` |  | wikidata | Nepal National Commission for UNESCO |
-| 4 | `nrb.org.np` | central | wikidata | Nepal Rastra Bank |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Nepal |
-| 3 | `finlandabroad.fi` | central | wikidata | embassy of Finland in Nepal |
-| 3 | `kathmandu.diplo.de` | central | wikidata | Embassy of Germany, Kathmandu |
-| 3 | `nepal.mid.ru` | central | wikidata | embassy of Russia in Nepal |
-| 3 | `norway.no` | central | wikidata | Embassy of Norway, Kathmandu |
-| 3 | `np.ambafrance.org` | central | wikidata | Embassy of France, Kathmandu |
-| 3 | `np.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Kathmandu |
-| 3 | `welcomenepal.com` |  | wikidata | Nepal Tourism Board |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `khajurabajaar.com` |  |  | wikidata;wikidata | Khajura Bajaar |
+| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Kathmandu |
+| 4 | `narc.org.np` |  |  | wikidata | Nepal Agricultural Research Council |
+| 4 | `nea.org.np` |  |  | wikidata | Nepal Electricity Authority |
+| 4 | `nncu.org.np` |  |  | wikidata | Nepal National Commission for UNESCO |
+| 4 | `nrb.org.np` | central |  | wikidata | Nepal Rastra Bank |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Nepal |
+| 3 | `finlandabroad.fi` | central |  | wikidata | embassy of Finland in Nepal |
+| 3 | `kathmandu.diplo.de` | central |  | wikidata | Embassy of Germany, Kathmandu |
+| 3 | `nepal.mid.ru` | central |  | wikidata | embassy of Russia in Nepal |
+| 3 | `norway.no` | central |  | wikidata | Embassy of Norway, Kathmandu |
+| 3 | `np.ambafrance.org` | central |  | wikidata | Embassy of France, Kathmandu |
+| 3 | `np.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Kathmandu |
+| 3 | `welcomenepal.com` |  |  | wikidata | Nepal Tourism Board |
 

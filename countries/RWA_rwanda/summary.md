@@ -33,26 +33,26 @@
 23 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `agaciro.rw` |  | wikidata | AgDF  Agaciro Corporate Trust Ltd |
-| 4 | `bnr.rw` |  | wikidata | National Bank of Rwanda |
-| 4 | `cma.rw` |  | wikidata | Rwanda Capital Market Authority CMA |
-| 4 | `ikigega.rw` |  | wikidata | SGF  Special Guarantee Fund |
-| 4 | `lands.rw` |  | wikidata | RLMUA  Rwanda Land Management and Use Authority |
-| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Kigali |
-| 4 | `raeb.prod.risa.rw` |  | wikidata | Rwanda Atomic Energy Board |
-| 4 | `rdb.rw` |  | wikidata | Rwanda Development Board |
-| 4 | `rfa.rw` |  | wikidata | Q136509270 |
-| 4 | `rp.ac.rw` |  | wikidata | RP  Rwanda Polytechnic |
-| 4 | `rpa.ac.rw` |  | wikidata | Rwanda Peace Academy |
-| 4 | `rssb.rw` |  | wikidata | Rwanda Social Security Board |
-| 4 | `rura.rw` |  | wikidata | Rwanda Utilities Regulatory Authority |
-| 4 | `rwb.rw` |  | wikidata | Rwanda Water Resources Board |
-| 4 | `unesco.rw` |  | wikidata | Rwanda National Commission for UNESCO |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Rwanda |
-| 3 | `greatervirunga.org` |  | wikidata | Q132472718 |
-| 3 | `kenyahighcomkigali.org` | central | wikidata | High Commission of Kenya, Kigali |
-| 3 | `kigali.diplo.de` | central | wikidata | Embassy of Germany, Kigali |
-| 3 | `rw.ambafrance.org` | central | wikidata | Embassy of France, Kigali |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `agaciro.rw` |  |  | wikidata | AgDF  Agaciro Corporate Trust Ltd |
+| 4 | `bnr.rw` |  |  | wikidata | National Bank of Rwanda |
+| 4 | `cma.rw` |  |  | wikidata | Rwanda Capital Market Authority CMA |
+| 4 | `ikigega.rw` |  |  | wikidata | SGF  Special Guarantee Fund |
+| 4 | `lands.rw` |  |  | wikidata | RLMUA  Rwanda Land Management and Use Authority |
+| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Kigali |
+| 4 | `raeb.prod.risa.rw` |  |  | wikidata | Rwanda Atomic Energy Board |
+| 4 | `rdb.rw` |  |  | wikidata | Rwanda Development Board |
+| 4 | `rfa.rw` |  |  | wikidata | Q136509270 |
+| 4 | `rp.ac.rw` |  |  | wikidata | RP  Rwanda Polytechnic |
+| 4 | `rpa.ac.rw` |  |  | wikidata | Rwanda Peace Academy |
+| 4 | `rssb.rw` |  |  | wikidata | Rwanda Social Security Board |
+| 4 | `rura.rw` |  |  | wikidata | Rwanda Utilities Regulatory Authority |
+| 4 | `rwb.rw` |  |  | wikidata | Rwanda Water Resources Board |
+| 4 | `unesco.rw` |  |  | wikidata | Rwanda National Commission for UNESCO |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Rwanda |
+| 3 | `greatervirunga.org` |  |  | wikidata | Q132472718 |
+| 3 | `kenyahighcomkigali.org` | central |  | wikidata | High Commission of Kenya, Kigali |
+| 3 | `kigali.diplo.de` | central |  | wikidata | Embassy of Germany, Kigali |
+| 3 | `rw.ambafrance.org` | central |  | wikidata | Embassy of France, Kigali |
 

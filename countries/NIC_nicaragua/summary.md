@@ -33,18 +33,18 @@
 12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `centroamericaribeschp.com` |  | wikidata;wikidata | Piarist province Central America- Caribbean |
-| 6 | `jesuitascam.org` |  | wikidata;wikidata | Jesuit Province of Central America |
-| 4 | `cvjp.org.ni` |  | wikidata | Commission for Truth, Justice and Peace |
-| 4 | `eaai.com.ni` | central | wikidata | Administrative Company of National and International Airports |
-| 4 | `tecnacional.edu.ni` | central | wikidata | National Technical and Technological Institute of Nicaragua |
-| 3 | `eeas.europa.eu` | central | wikidata | Delegation of the European Union to Nicaragua and to the Central American Int... |
-| 3 | `managua.diplo.de` | central | wikidata | Embassy of Germany, Managua |
-| 3 | `managua.mae.lu` | central | wikidata | embassy of Luxembourg in Nicaragua |
-| 3 | `ni.ambafrance.org` | central | wikidata | Embassy of France, Managua |
-| 3 | `nicaragua.mid.ru` | central | wikidata | embassy of Russia in Nicaragua |
-| 3 | `taiwanembassy.org` | central | wikidata | Embassy of the Republic of China (Taiwan), Managua |
-| 3 | `web.archive.org` |  | wikidata | Investment Promotion Secretariat |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `centroamericaribeschp.com` |  |  | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `jesuitascam.org` |  |  | wikidata;wikidata | Jesuit Province of Central America |
+| 4 | `cvjp.org.ni` |  |  | wikidata | Commission for Truth, Justice and Peace |
+| 4 | `eaai.com.ni` | central |  | wikidata | Administrative Company of National and International Airports |
+| 4 | `tecnacional.edu.ni` | central |  | wikidata | National Technical and Technological Institute of Nicaragua |
+| 3 | `eeas.europa.eu` | central |  | wikidata | Delegation of the European Union to Nicaragua and to the Central American Int... |
+| 3 | `managua.diplo.de` | central |  | wikidata | Embassy of Germany, Managua |
+| 3 | `managua.mae.lu` | central |  | wikidata | embassy of Luxembourg in Nicaragua |
+| 3 | `ni.ambafrance.org` | central |  | wikidata | Embassy of France, Managua |
+| 3 | `nicaragua.mid.ru` | central |  | wikidata | embassy of Russia in Nicaragua |
+| 3 | `taiwanembassy.org` | central |  | wikidata | Embassy of the Republic of China (Taiwan), Managua |
+| 3 | `web.archive.org` |  |  | wikidata | Investment Promotion Secretariat |
 

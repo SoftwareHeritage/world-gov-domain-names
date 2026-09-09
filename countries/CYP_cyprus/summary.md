@@ -33,26 +33,26 @@
 33 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `custodia.org` |  | wikidata;wikidata | Custodian of the Holy Land |
-| 6 | `wikidata.org` | central | wikidata;wikidata | Deputy Ministry of Culture of Cyprus |
-| 4 | `agrotourism.com.cy` |  | wikidata | Cyprus Agrotourism Company |
-| 4 | `centralbank.cy` |  | wikidata | Central Bank of Cyprus |
-| 4 | `cera.org.cy` |  | wikidata | Cyprus Energy Regulatory Authority |
-| 4 | `childcom.org.cy` |  | wikidata | Commissioner for Children’s Rights |
-| 4 | `crta.org.cy` |  | wikidata | Cyprus Radio Television Authority |
-| 4 | `highereducation.ac.cy` |  | wikidata | Department of Higher Education |
-| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Nicosia |
-| 4 | `ocecpr.ee.cy` |  | wikidata | Commissioner of Electronic Communications and Postal Regulation |
-| 4 | `pi.ac.cy` |  | wikidata | Cyprus Pedagogical Institute |
-| 4 | `resecfund.org.cy` |  | wikidata | Renewable Energy Sources (RES) and Energy Conservation (EC) Fund |
-| 4 | `unesco.org.cy` |  | wikidata | Cyprus National Commission for UNESCO |
-| 4 | `wbl.com.cy` |  | wikidata | Water Board of Lemesos |
-| 3 | `cy.ambafrance.org` | central | wikidata | Embassy of France, Nicosia |
-| 3 | `cy.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Nicosia |
-| 3 | `cyprus.mid.ru` | central | wikidata | embassy of Russia in Cyprus |
-| 3 | `cyprus.representation.ec.europa.eu` |  | wikidata | European Commission Representation in Cyprus |
-| 3 | `cypruspost.post` |  | wikidata | Cyprus Postal Services |
-| 3 | `finlandabroad.fi` | central | wikidata | embassy of Finland in Cyprus |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `custodia.org` |  |  | wikidata;wikidata | Custodian of the Holy Land |
+| 6 | `wikidata.org` | central |  | wikidata;wikidata | Deputy Ministry of Culture of Cyprus |
+| 4 | `agrotourism.com.cy` |  |  | wikidata | Cyprus Agrotourism Company |
+| 4 | `centralbank.cy` |  |  | wikidata | Central Bank of Cyprus |
+| 4 | `cera.org.cy` |  |  | wikidata | Cyprus Energy Regulatory Authority |
+| 4 | `childcom.org.cy` |  |  | wikidata | Commissioner for Children’s Rights |
+| 4 | `crta.org.cy` |  |  | wikidata | Cyprus Radio Television Authority |
+| 4 | `highereducation.ac.cy` |  |  | wikidata | Department of Higher Education |
+| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Nicosia |
+| 4 | `ocecpr.ee.cy` |  |  | wikidata | Commissioner of Electronic Communications and Postal Regulation |
+| 4 | `pi.ac.cy` |  |  | wikidata | Cyprus Pedagogical Institute |
+| 4 | `resecfund.org.cy` |  |  | wikidata | Renewable Energy Sources (RES) and Energy Conservation (EC) Fund |
+| 4 | `unesco.org.cy` |  |  | wikidata | Cyprus National Commission for UNESCO |
+| 4 | `wbl.com.cy` |  |  | wikidata | Water Board of Lemesos |
+| 3 | `cy.ambafrance.org` | central |  | wikidata | Embassy of France, Nicosia |
+| 3 | `cy.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Nicosia |
+| 3 | `cyprus.mid.ru` | central |  | wikidata | embassy of Russia in Cyprus |
+| 3 | `cyprus.representation.ec.europa.eu` |  |  | wikidata | European Commission Representation in Cyprus |
+| 3 | `cypruspost.post` |  |  | wikidata | Cyprus Postal Services |
+| 3 | `finlandabroad.fi` | central |  | wikidata | embassy of Finland in Cyprus |
 

@@ -33,26 +33,26 @@
 762 domain(s) proposed for validation, of which 113 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 10 | `elections.ca` | central | wikidata;wikidata;directory | Elections Canada |
-| 10 | `gg.ca` |  | wikidata;wikidata;directory | Canadian Heraldic Authority |
-| 10 | `gnb.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Court of King's Bench of New Brunswick | Government of New Brunswick | Depart... |
-| 10 | `gov.bc.ca` |  | wikidata;wikidata;linkgraph | Ministry of Forests Lands and Natural Resource Operations (British Columbia) ... |
-| 10 | `gov.mb.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Minister of Labour and Immigration | Legislative Assembly of Manitoba | Depar... |
-| 10 | `ontario.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Education | Ministry of Colleges and Universities | Ministry of T... |
-| 10 | `quebec.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | ... |
-| 10 | `saskatchewan.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Health | Ministry of Agriculture of Saskatchewan |
-| 10 | `scics.ca` |  | wikidata;wikidata;directory | Canadian Intergovernmental Conference Secretariat |
-| 10 | `viarail.ca` | central | wikidata;wikidata;directory | Via Rail Police Service |
-| 10 | `yukon.ca` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Yukon Archives | Government of Yukon | Yukon Parks | Yukon Department of Envi... |
-| 8 | `agric.gov.ab.ca` |  | wikidata;wikidata | Alberta Ministry of Agriculture and Forestry |
-| 8 | `alberta.ca` |  | wikidata;linkgraph | Alberta Education |
-| 8 | `attorneygeneral.jus.gov.on.ca` |  | wikidata;wikidata | Ministry of the Attorney General |
-| 8 | `autochtones.gouv.qc.ca` | central-1 | wikidata;wikidata | Ministry of Native Affairs |
-| 8 | `bankofcanada.ca` |  | wikidata;directory | Bank of Canada |
-| 8 | `cadth.ca` | central | wikidata;directory | Canada's Drug Agency |
-| 8 | `ccohs.ca` |  | wikidata;directory | Canadian Centre for Occupational Health and Safety |
-| 8 | `ccsa.ca` |  | wikidata;directory | Canadian Centre on Substance Abuse |
-| 8 | `cdic.ca` |  | wikidata;directory | Canada Deposit Insurance Corporation |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 10 | `elections.ca` | central |  | wikidata;wikidata;directory | Elections Canada |
+| 10 | `gg.ca` |  |  | wikidata;wikidata;directory | Canadian Heraldic Authority |
+| 10 | `gnb.ca` | central-1 |  | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Court of King's Bench of New Brunswick | Government of New Brunswick | Depart... |
+| 10 | `gov.bc.ca` |  |  | wikidata;wikidata;linkgraph | Ministry of Forests Lands and Natural Resource Operations (British Columbia) ... |
+| 10 | `gov.mb.ca` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Minister of Labour and Immigration | Legislative Assembly of Manitoba | Depar... |
+| 10 | `ontario.ca` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Education | Ministry of Colleges and Universities | Ministry of T... |
+| 10 | `quebec.ca` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | ... |
+| 10 | `saskatchewan.ca` | central-1 |  | wikidata;wikidata;wikidata;wikidata;linkgraph | Ministry of Health | Ministry of Agriculture of Saskatchewan |
+| 10 | `scics.ca` |  |  | wikidata;wikidata;directory | Canadian Intergovernmental Conference Secretariat |
+| 10 | `viarail.ca` | central |  | wikidata;wikidata;directory | Via Rail Police Service |
+| 10 | `yukon.ca` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Yukon Archives | Government of Yukon | Yukon Parks | Yukon Department of Envi... |
+| 8 | `agric.gov.ab.ca` |  |  | wikidata;wikidata | Alberta Ministry of Agriculture and Forestry |
+| 8 | `alberta.ca` |  |  | wikidata;linkgraph | Alberta Education |
+| 8 | `attorneygeneral.jus.gov.on.ca` |  |  | wikidata;wikidata | Ministry of the Attorney General |
+| 8 | `autochtones.gouv.qc.ca` | central-1 |  | wikidata;wikidata | Ministry of Native Affairs |
+| 8 | `bankofcanada.ca` |  |  | wikidata;directory | Bank of Canada |
+| 8 | `cadth.ca` | central |  | wikidata;directory | Canada's Drug Agency |
+| 8 | `ccohs.ca` |  |  | wikidata;directory | Canadian Centre for Occupational Health and Safety |
+| 8 | `ccsa.ca` |  |  | wikidata;directory | Canadian Centre on Substance Abuse |
+| 8 | `cdic.ca` |  |  | wikidata;directory | Canada Deposit Insurance Corporation |
 

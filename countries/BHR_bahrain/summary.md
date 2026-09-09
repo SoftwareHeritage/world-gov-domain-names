@@ -33,23 +33,23 @@
 17 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `bahrain.bh` |  | un_desa | UN/DESA national portal |
-| 4 | `bna.bh` |  | wikidata | Bahrain News Agency |
-| 4 | `btea.bh` |  | wikidata | Bahrain Tourism and Exhibitions Authority |
-| 4 | `lmra.bh` |  | wikidata | Labour Market Regulatory Authority |
-| 4 | `mumtalakat.bh` |  | wikidata | Mumtalakat Holding Company |
-| 4 | `nuwab.bh` | central | wikidata | Council of Representatives |
-| 4 | `qaa.edu.bh` |  | wikidata | Quality Assurance Authority for Education and Training |
-| 4 | `sjc.bh` | central | wikidata | Supreme Judicial Council |
-| 4 | `sp.mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Manama |
-| 4 | `tra.org.bh` |  | wikidata | Telecommunications Regulatory Authority of Bahrain |
-| 3 | `bahrain.mid.ru` | central | wikidata | embassy of Russia to Bahrain |
-| 3 | `bahrainedb.com` |  | wikidata | Bahrain Economic Development Board |
-| 3 | `bapcoenergies.com` |  | wikidata | Bapco Energies |
-| 3 | `bh.ambafrance.org` | central | wikidata | Embassy of France, Manama |
-| 3 | `bh.mofa.pna.ps` | central | wikidata | Embassy of Palestine, Manama |
-| 3 | `manama.diplo.de` | central | wikidata | Embassy of Germany, Manama |
-| 3 | `sudanimanama.com` | central | wikidata | embassy of Sudan in Bahrain |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `bahrain.bh` |  |  | un_desa | UN/DESA national portal |
+| 4 | `bna.bh` |  |  | wikidata | Bahrain News Agency |
+| 4 | `btea.bh` |  |  | wikidata | Bahrain Tourism and Exhibitions Authority |
+| 4 | `lmra.bh` |  |  | wikidata | Labour Market Regulatory Authority |
+| 4 | `mumtalakat.bh` |  |  | wikidata | Mumtalakat Holding Company |
+| 4 | `nuwab.bh` | central |  | wikidata | Council of Representatives |
+| 4 | `qaa.edu.bh` |  |  | wikidata | Quality Assurance Authority for Education and Training |
+| 4 | `sjc.bh` | central |  | wikidata | Supreme Judicial Council |
+| 4 | `sp.mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Manama |
+| 4 | `tra.org.bh` |  |  | wikidata | Telecommunications Regulatory Authority of Bahrain |
+| 3 | `bahrain.mid.ru` | central |  | wikidata | embassy of Russia to Bahrain |
+| 3 | `bahrainedb.com` |  |  | wikidata | Bahrain Economic Development Board |
+| 3 | `bapcoenergies.com` |  |  | wikidata | Bapco Energies |
+| 3 | `bh.ambafrance.org` | central |  | wikidata | Embassy of France, Manama |
+| 3 | `bh.mofa.pna.ps` | central |  | wikidata | Embassy of Palestine, Manama |
+| 3 | `manama.diplo.de` | central |  | wikidata | Embassy of Germany, Manama |
+| 3 | `sudanimanama.com` | central |  | wikidata | embassy of Sudan in Bahrain |
 

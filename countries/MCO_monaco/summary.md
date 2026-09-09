@@ -33,12 +33,12 @@
 6 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `conseil-national.mc` | central | wikidata;wikidata;wikidata | National Council |
-| 4 | `imsee.mc` | central | wikidata | Q16643758 |
-| 4 | `mairie.mc` | central-1 | wikidata | Communal Council of Monaco |
-| 4 | `mediatheque.mc` |  | wikidata | Louis Notari Library |
-| 3 | `ambafrance-mc.org` | central | wikidata | Embassy of France, Monaco |
-| 2 | `culture.mc` |  | wikidata;wikidata;wikidata;wikidata | Directorate of Cultural Affairs | Heritage Institute |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `conseil-national.mc` | central |  | wikidata;wikidata;wikidata | National Council |
+| 4 | `imsee.mc` | central |  | wikidata | Q16643758 |
+| 4 | `mairie.mc` | central-1 |  | wikidata | Communal Council of Monaco |
+| 4 | `mediatheque.mc` |  |  | wikidata | Louis Notari Library |
+| 3 | `ambafrance-mc.org` | central |  | wikidata | Embassy of France, Monaco |
+| 2 | `culture.mc` |  |  | wikidata;wikidata;wikidata;wikidata | Directorate of Cultural Affairs | Heritage Institute |
 

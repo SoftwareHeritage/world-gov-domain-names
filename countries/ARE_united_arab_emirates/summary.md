@@ -33,26 +33,26 @@
 78 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 8 | `adpolice.gov.ae` |  | wikidata;wikidata | Abu Dhabi Police |
-| 8 | `almajles.gov.ae` | central | wikidata;wikidata | Federal National Council |
-| 8 | `economy.gov.ae` | central | wikidata;wikidata | Ministry of Economy |
-| 8 | `moe.gov.ae` | central | wikidata;wikidata | Ministry of Education |
-| 8 | `mof.gov.ae` |  | wikidata;wikidata | Ministry of Finance |
-| 8 | `mofaic.gov.ae` | central | wikidata;wikidata;wikidata;wikidata | Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and Inte... |
-| 8 | `moh.gov.ae` | central | wikidata;wikidata | Ministry of Health and Prevention |
-| 8 | `mohesr.gov.ae` | central | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
-| 8 | `nma.gov.ae` |  | wikidata;wikidata | National Media Authority |
-| 8 | `scad.gov.ae` | central-1 | wikidata;wikidata | Statistics Centre - Abu Dhabi |
-| 8 | `space.gov.ae` |  | wikidata;wikidata | United Arab Emirates Space Agency |
-| 7 | `wam.ae` |  | wikidata;wikidata | Emirates News Agency |
-| 6 | `government.ae` |  | un_desa | UN/DESA national portal |
-| 6 | `vae.ahk.de` |  | wikidata;wikidata | German Emirati Joint Council for Industry and Commerce |
-| 5 | `adafsa.gov.ae` |  | wikidata | Abu Dhabi Agriculture and Food Safety Authority |
-| 5 | `adfca.gov.ae` |  | wikidata | Family Care Authority |
-| 5 | `ajmanpolice.gov.ae` |  | wikidata | Ajman Police Force |
-| 5 | `dewa.gov.ae` |  | wikidata | Dubai Electricity and Water Authority |
-| 5 | `dha.gov.ae` |  | wikidata | Dubai Health Authority |
-| 5 | `dm.gov.ae` | central-1 | wikidata | Dubai Municipality |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 8 | `adpolice.gov.ae` |  |  | wikidata;wikidata | Abu Dhabi Police |
+| 8 | `almajles.gov.ae` | central |  | wikidata;wikidata | Federal National Council |
+| 8 | `economy.gov.ae` | central |  | wikidata;wikidata | Ministry of Economy |
+| 8 | `moe.gov.ae` | central |  | wikidata;wikidata | Ministry of Education |
+| 8 | `mof.gov.ae` |  |  | wikidata;wikidata | Ministry of Finance |
+| 8 | `mofaic.gov.ae` | central |  | wikidata;wikidata;wikidata;wikidata | Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and Inte... |
+| 8 | `moh.gov.ae` | central |  | wikidata;wikidata | Ministry of Health and Prevention |
+| 8 | `mohesr.gov.ae` | central |  | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
+| 8 | `nma.gov.ae` |  |  | wikidata;wikidata | National Media Authority |
+| 8 | `scad.gov.ae` | central-1 |  | wikidata;wikidata | Statistics Centre - Abu Dhabi |
+| 8 | `space.gov.ae` |  |  | wikidata;wikidata | United Arab Emirates Space Agency |
+| 7 | `wam.ae` |  |  | wikidata;wikidata | Emirates News Agency |
+| 6 | `government.ae` |  |  | un_desa | UN/DESA national portal |
+| 6 | `vae.ahk.de` |  |  | wikidata;wikidata | German Emirati Joint Council for Industry and Commerce |
+| 5 | `adafsa.gov.ae` |  |  | wikidata | Abu Dhabi Agriculture and Food Safety Authority |
+| 5 | `adfca.gov.ae` |  |  | wikidata | Family Care Authority |
+| 5 | `ajmanpolice.gov.ae` |  |  | wikidata | Ajman Police Force |
+| 5 | `dewa.gov.ae` |  |  | wikidata | Dubai Electricity and Water Authority |
+| 5 | `dha.gov.ae` |  |  | wikidata | Dubai Health Authority |
+| 5 | `dm.gov.ae` | central-1 |  | wikidata | Dubai Municipality |
 

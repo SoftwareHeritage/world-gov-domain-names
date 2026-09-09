@@ -33,26 +33,26 @@
 47 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 9 | `haestirettur.is` | central | wikidata;wikidata | Supreme Court of Iceland |
-| 7 | `landlaeknir.is` |  | wikidata;wikidata | Directorate of Health |
-| 7 | `skogur.is` |  | wikidata;wikidata | Icelandic Forest Service |
-| 7 | `ust.is` |  | wikidata;wikidata | Environment Agency of Iceland |
-| 6 | `island.is` | central | wikidata;wikidata;wikidata;linkgraph | Land and Forest Iceland | Icelandic Naming Committee |
-| 4 | `cb.is` |  | wikidata | Central Bank of Iceland |
-| 4 | `customs.is` | central | wikidata | Directorate of Customs |
-| 4 | `en.vedur.is` |  | wikidata | Icelandic Meteorological Office |
-| 4 | `fangelsi.is` |  | wikidata | Icelandic Prison Service |
-| 4 | `ferdamalastofa.is` |  | wikidata | Icelandic Tourist Board |
-| 4 | `fiskistofa.is` |  | wikidata | Directorate of Fisheries |
-| 4 | `fme.is` |  | wikidata | Financial Supervisory Authority |
-| 4 | `forseti.is` |  | wikidata | Office of the President of Iceland |
-| 4 | `geothermal.is` |  | wikidata | Iceland Geosurvey |
-| 4 | `hagstofa.is` | central | wikidata | Statistics Iceland |
-| 4 | `icetra.is` |  | wikidata | Q1151075 |
-| 4 | `landsbokasafn.is` |  | wikidata | National and University Library of Iceland |
-| 4 | `lmi.is` |  | wikidata | National Land Survey of Iceland |
-| 4 | `logreglan.is` |  | wikidata | Icelandic Police |
-| 4 | `minjastofnun.is` |  | wikidata | Cultural Heritage Agency of Iceland |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 9 | `haestirettur.is` | central |  | wikidata;wikidata | Supreme Court of Iceland |
+| 7 | `landlaeknir.is` |  |  | wikidata;wikidata | Directorate of Health |
+| 7 | `skogur.is` |  |  | wikidata;wikidata | Icelandic Forest Service |
+| 7 | `ust.is` |  |  | wikidata;wikidata | Environment Agency of Iceland |
+| 6 | `island.is` | central |  | wikidata;wikidata;wikidata;linkgraph | Land and Forest Iceland | Icelandic Naming Committee |
+| 4 | `cb.is` |  |  | wikidata | Central Bank of Iceland |
+| 4 | `customs.is` | central |  | wikidata | Directorate of Customs |
+| 4 | `en.vedur.is` |  |  | wikidata | Icelandic Meteorological Office |
+| 4 | `fangelsi.is` |  |  | wikidata | Icelandic Prison Service |
+| 4 | `ferdamalastofa.is` |  |  | wikidata | Icelandic Tourist Board |
+| 4 | `fiskistofa.is` |  |  | wikidata | Directorate of Fisheries |
+| 4 | `fme.is` |  |  | wikidata | Financial Supervisory Authority |
+| 4 | `forseti.is` |  |  | wikidata | Office of the President of Iceland |
+| 4 | `geothermal.is` |  |  | wikidata | Iceland Geosurvey |
+| 4 | `hagstofa.is` | central |  | wikidata | Statistics Iceland |
+| 4 | `icetra.is` |  |  | wikidata | Q1151075 |
+| 4 | `landsbokasafn.is` |  |  | wikidata | National and University Library of Iceland |
+| 4 | `lmi.is` |  |  | wikidata | National Land Survey of Iceland |
+| 4 | `logreglan.is` |  |  | wikidata | Icelandic Police |
+| 4 | `minjastofnun.is` |  |  | wikidata | Cultural Heritage Agency of Iceland |
 

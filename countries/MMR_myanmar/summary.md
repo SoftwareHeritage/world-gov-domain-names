@@ -33,22 +33,22 @@
 16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `myanmar-education.edu.mm` | central | wikidata;wikidata | Ministry of Education of Myanmar |
-| 6 | `nugmyanmar.org` | central | wikidata;wikidata;wikidata;wikidata | National Unity Government of Myanmar |
-| 6 | `roc-taiwan.org` |  | wikidata;wikidata | Taipei Economic and Cultural Office in Myanmar |
-| 4 | `myanmarstandards.org.mm` |  | wikidata | National Institute of Metrology Myanmar |
-| 3 | `crphmyanmar.org` |  | wikidata | Committee Representing Pyidaungsu Hluttaw |
-| 3 | `dsmrmm.com` |  | wikidata | Defence Services Medical Research Centre |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Myanmar / Burma |
-| 3 | `finlandabroad.fi` | central | wikidata | embassy of Finland in Myanmar |
-| 3 | `mm.ambafrance.org` | central | wikidata | Embassy of France, Yangon |
-| 3 | `mm.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Yangon |
-| 3 | `myanmar.mid.ru` | central | wikidata | embassy of Russia in Myanmar |
-| 3 | `myanmar.um.dk` | central | wikidata | embassy of Denmark in Myanmar |
-| 3 | `mzv.cz` | central | wikidata | embassy of the Czech republic in Myanmar |
-| 3 | `norway.no` | central | wikidata | Embassy of Norway in Myanmar |
-| 3 | `rangun.diplo.de` | central | wikidata | Embassy of Germany, Yangon |
-| 1 | `holyrosaryprovince.org` |  | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `myanmar-education.edu.mm` | central |  | wikidata;wikidata | Ministry of Education of Myanmar |
+| 6 | `nugmyanmar.org` | central |  | wikidata;wikidata;wikidata;wikidata | National Unity Government of Myanmar |
+| 6 | `roc-taiwan.org` |  |  | wikidata;wikidata | Taipei Economic and Cultural Office in Myanmar |
+| 4 | `myanmarstandards.org.mm` |  |  | wikidata | National Institute of Metrology Myanmar |
+| 3 | `crphmyanmar.org` |  |  | wikidata | Committee Representing Pyidaungsu Hluttaw |
+| 3 | `dsmrmm.com` |  |  | wikidata | Defence Services Medical Research Centre |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Myanmar / Burma |
+| 3 | `finlandabroad.fi` | central |  | wikidata | embassy of Finland in Myanmar |
+| 3 | `mm.ambafrance.org` | central |  | wikidata | Embassy of France, Yangon |
+| 3 | `mm.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Yangon |
+| 3 | `myanmar.mid.ru` | central |  | wikidata | embassy of Russia in Myanmar |
+| 3 | `myanmar.um.dk` | central |  | wikidata | embassy of Denmark in Myanmar |
+| 3 | `mzv.cz` | central |  | wikidata | embassy of the Czech republic in Myanmar |
+| 3 | `norway.no` | central |  | wikidata | Embassy of Norway in Myanmar |
+| 3 | `rangun.diplo.de` | central |  | wikidata | Embassy of Germany, Yangon |
+| 1 | `holyrosaryprovince.org` |  |  | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
 

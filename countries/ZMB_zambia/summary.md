@@ -33,24 +33,24 @@
 18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `boz.zm` |  | wikidata | Bank of Zambia |
-| 4 | `nac.org.zm` |  | wikidata | National HIV/AIDS/STI/TB Council |
-| 4 | `nhra.org.zm` |  | wikidata | National Health Research Authority |
-| 4 | `zema.org.zm` |  | wikidata | Zambia Environmental Management Agency |
-| 4 | `zicta.zm` |  | wikidata | Zambia Information and Communications Technology Authority |
-| 4 | `zma.org.zm` |  | wikidata | Zambia Metrology Agency |
-| 4 | `znphi.co.zm` |  | wikidata | Zambia National Public Health Institute |
-| 3 | `ambafrance-zm.org` | central | wikidata | Embassy of France, Lusaka |
-| 3 | `cosecsa.org` |  | wikidata | Surgical Society of Zambia |
-| 3 | `eeas.europa.eu` | central | wikidata | Delegation of the European Union to Zambia and COMESA |
-| 3 | `finlandabroad.fi` | central | wikidata | embassy of Finland in Zambia |
-| 3 | `gartzambia.org` |  | wikidata | Golden Valley Agricultural Research Trust |
-| 3 | `ghanahighcommission-zambia.com` | central | wikidata | high commission of Ghana in Zambia |
-| 3 | `lusaka.diplo.de` | central | wikidata | Embassy of Germany, Lusaka |
-| 3 | `mzv.cz` | central | wikidata | embassy of the Czech republic in Zambia |
-| 3 | `swedenabroad.se` | central | wikidata | Embassy of Sweden, Lusaka |
-| 3 | `who.int` |  | wikidata | World Health Organization - Zambia |
-| 3 | `zambia.mid.ru` | central | wikidata | embassy of Russia in Zambia |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `boz.zm` |  |  | wikidata | Bank of Zambia |
+| 4 | `nac.org.zm` |  |  | wikidata | National HIV/AIDS/STI/TB Council |
+| 4 | `nhra.org.zm` |  |  | wikidata | National Health Research Authority |
+| 4 | `zema.org.zm` |  |  | wikidata | Zambia Environmental Management Agency |
+| 4 | `zicta.zm` |  |  | wikidata | Zambia Information and Communications Technology Authority |
+| 4 | `zma.org.zm` |  |  | wikidata | Zambia Metrology Agency |
+| 4 | `znphi.co.zm` |  |  | wikidata | Zambia National Public Health Institute |
+| 3 | `ambafrance-zm.org` | central |  | wikidata | Embassy of France, Lusaka |
+| 3 | `cosecsa.org` |  |  | wikidata | Surgical Society of Zambia |
+| 3 | `eeas.europa.eu` | central |  | wikidata | Delegation of the European Union to Zambia and COMESA |
+| 3 | `finlandabroad.fi` | central |  | wikidata | embassy of Finland in Zambia |
+| 3 | `gartzambia.org` |  |  | wikidata | Golden Valley Agricultural Research Trust |
+| 3 | `ghanahighcommission-zambia.com` | central |  | wikidata | high commission of Ghana in Zambia |
+| 3 | `lusaka.diplo.de` | central |  | wikidata | Embassy of Germany, Lusaka |
+| 3 | `mzv.cz` | central |  | wikidata | embassy of the Czech republic in Zambia |
+| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Lusaka |
+| 3 | `who.int` |  |  | wikidata | World Health Organization - Zambia |
+| 3 | `zambia.mid.ru` | central |  | wikidata | embassy of Russia in Zambia |
 

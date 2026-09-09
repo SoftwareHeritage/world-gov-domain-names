@@ -33,26 +33,26 @@
 52 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `upravacarina.rs` | central | wikidata;wikidata | Ministry of Finance and Economy |
-| 7 | `zzps.rs` |  | wikidata;wikidata | Zavod za zaštitu prirode Srbije |
-| 6 | `isusovci.hr` |  | wikidata;wikidata | Croatian province of the Society of Jesus |
-| 6 | `serbien.ahk.de` |  | wikidata;wikidata | German-Serbian Chamber of Commerce |
-| 6 | `ustavni.sud.rs` |  | wikidata | Constitutional Court of Serbia |
-| 4 | `ambalgserbia.rs` | central | wikidata | Embassy of Algeria, Belgrade |
-| 4 | `angolaembassy.org.rs` | central | wikidata | Embassy of Angola, Belgrade |
-| 4 | `apv-nauka.ns.ac.rs` |  | wikidata | Pokrajinski Sekretarijat za Nauku i Tehnološki Razvoj |
-| 4 | `arhivsrbije.rs` |  | wikidata | Archive of Serbia |
-| 4 | `belgrad.mfa.gov.hu` | central | wikidata | Embassy of Hungary in Belgrade, Serbia |
-| 4 | `cpn.rs` |  | wikidata | Centar za Promociju Nauke |
-| 4 | `csrns.org.rs` |  | wikidata | Center for Social Work Novi Sad |
-| 4 | `dmdm.rs` |  | wikidata | Directorate of Measures and Precious Metals of the Republic of Serbia |
-| 4 | `drcongo-embassy.rs` | central | wikidata | embassy of Democratic Republic of the Congo in Serbia |
-| 4 | `inovacionifond.rs` |  | wikidata | Innovation Fund of the Republic of Serbia |
-| 4 | `institutjosifpancic.rs` |  | wikidata | Institute for Medicinal Plants Research "dr Josif Pančić" |
-| 4 | `ipn.bg.ac.rs` |  | wikidata | Institute for Science Application in Agriculture |
-| 4 | `isj.sanu.ac.rs` |  | wikidata | Institute for the Serbian Language of SASA |
-| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Belgrade |
-| 4 | `nb.rs` |  | wikidata | National Library of Serbia |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `upravacarina.rs` | central |  | wikidata;wikidata | Ministry of Finance and Economy |
+| 7 | `zzps.rs` |  |  | wikidata;wikidata | Zavod za zaštitu prirode Srbije |
+| 6 | `isusovci.hr` |  |  | wikidata;wikidata | Croatian province of the Society of Jesus |
+| 6 | `serbien.ahk.de` |  |  | wikidata;wikidata | German-Serbian Chamber of Commerce |
+| 6 | `ustavni.sud.rs` |  |  | wikidata | Constitutional Court of Serbia |
+| 4 | `ambalgserbia.rs` | central |  | wikidata | Embassy of Algeria, Belgrade |
+| 4 | `angolaembassy.org.rs` | central |  | wikidata | Embassy of Angola, Belgrade |
+| 4 | `apv-nauka.ns.ac.rs` |  |  | wikidata | Pokrajinski Sekretarijat za Nauku i Tehnološki Razvoj |
+| 4 | `arhivsrbije.rs` |  |  | wikidata | Archive of Serbia |
+| 4 | `belgrad.mfa.gov.hu` | central |  | wikidata | Embassy of Hungary in Belgrade, Serbia |
+| 4 | `cpn.rs` |  |  | wikidata | Centar za Promociju Nauke |
+| 4 | `csrns.org.rs` |  |  | wikidata | Center for Social Work Novi Sad |
+| 4 | `dmdm.rs` |  |  | wikidata | Directorate of Measures and Precious Metals of the Republic of Serbia |
+| 4 | `drcongo-embassy.rs` | central |  | wikidata | embassy of Democratic Republic of the Congo in Serbia |
+| 4 | `inovacionifond.rs` |  |  | wikidata | Innovation Fund of the Republic of Serbia |
+| 4 | `institutjosifpancic.rs` |  |  | wikidata | Institute for Medicinal Plants Research "dr Josif Pančić" |
+| 4 | `ipn.bg.ac.rs` |  |  | wikidata | Institute for Science Application in Agriculture |
+| 4 | `isj.sanu.ac.rs` |  |  | wikidata | Institute for the Serbian Language of SASA |
+| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Belgrade |
+| 4 | `nb.rs` |  |  | wikidata | National Library of Serbia |
 

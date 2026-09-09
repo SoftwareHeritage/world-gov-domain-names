@@ -33,26 +33,26 @@
 141 domain(s) proposed for validation, of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 8 | `goretarapaca.gov.cl` | central-1 | wikidata;wikidata | Regional Council of Tarapacá |
-| 7 | `bienesnacionales.cl` | central | wikidata;wikidata;wikidata | Ministry of National Property | Q5655486 |
-| 7 | `congreso.cl` | central | wikidata;wikidata | National Congress of Chile |
-| 7 | `corecoquimbo.cl` | central-1 | wikidata;wikidata | Regional Council of Coquimbo |
-| 7 | `coredelosrios.cl` | central-1 | wikidata;wikidata | Regional Council of Los Ríos |
-| 7 | `coremagallanes.cl` | central-1 | wikidata;wikidata | Regional Council of Magallanes y la Antártica Chilena |
-| 7 | `corevalparaiso.cl` | central-1 | wikidata;wikidata | Regional Council of Valparaíso |
-| 7 | `defensa.cl` | central | wikidata;wikidata | Ministry of National Defense of Chile |
-| 7 | `dellibertador.cl` | central-1 | wikidata;wikidata | Regional Council of O'Higgins |
-| 7 | `gobiernosantiago.cl` | central-1 | wikidata;wikidata | Regional Council of the Metropolitan Region of Santiago |
-| 7 | `goreantofagasta.cl` | central-1 | wikidata;wikidata | Regional Council of Antofagasta |
-| 7 | `gorearaucania.cl` | central-1 | wikidata;wikidata | Regional Council of La Araucanía |
-| 7 | `gorearicayparinacota.cl` | central-1 | wikidata;wikidata | Regional Council of Arica and Parinacota |
-| 7 | `goreaysen.cl` | central-1 | wikidata;wikidata | Regional Council of Aysén |
-| 7 | `goremaule.cl` | central-1 | wikidata;wikidata | Regional Council of Maule |
-| 7 | `minmineria.cl` | central | wikidata;wikidata | Ministry of Mining |
-| 7 | `minsegpublica.cl` | central | wikidata;wikidata | Ministry of Public Security of Chile |
-| 7 | `regiondeloslagos.cl` | central-1 | wikidata;wikidata | Regional Council of Los Lagos |
-| 7 | `sitio.gorebiobio.cl` | central-1 | wikidata;wikidata | Regional Council of Biobío |
-| 6 | `tribunalconstitucional.cl` |  | wikidata | Constitutional Court of Chile |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 8 | `goretarapaca.gov.cl` | central-1 |  | wikidata;wikidata | Regional Council of Tarapacá |
+| 7 | `bienesnacionales.cl` | central |  | wikidata;wikidata;wikidata | Ministry of National Property | Q5655486 |
+| 7 | `congreso.cl` | central |  | wikidata;wikidata | National Congress of Chile |
+| 7 | `corecoquimbo.cl` | central-1 |  | wikidata;wikidata | Regional Council of Coquimbo |
+| 7 | `coredelosrios.cl` | central-1 |  | wikidata;wikidata | Regional Council of Los Ríos |
+| 7 | `coremagallanes.cl` | central-1 |  | wikidata;wikidata | Regional Council of Magallanes y la Antártica Chilena |
+| 7 | `corevalparaiso.cl` | central-1 |  | wikidata;wikidata | Regional Council of Valparaíso |
+| 7 | `defensa.cl` | central |  | wikidata;wikidata | Ministry of National Defense of Chile |
+| 7 | `dellibertador.cl` | central-1 |  | wikidata;wikidata | Regional Council of O'Higgins |
+| 7 | `gobiernosantiago.cl` | central-1 |  | wikidata;wikidata | Regional Council of the Metropolitan Region of Santiago |
+| 7 | `goreantofagasta.cl` | central-1 |  | wikidata;wikidata | Regional Council of Antofagasta |
+| 7 | `gorearaucania.cl` | central-1 |  | wikidata;wikidata | Regional Council of La Araucanía |
+| 7 | `gorearicayparinacota.cl` | central-1 |  | wikidata;wikidata | Regional Council of Arica and Parinacota |
+| 7 | `goreaysen.cl` | central-1 |  | wikidata;wikidata | Regional Council of Aysén |
+| 7 | `goremaule.cl` | central-1 |  | wikidata;wikidata | Regional Council of Maule |
+| 7 | `minmineria.cl` | central |  | wikidata;wikidata | Ministry of Mining |
+| 7 | `minsegpublica.cl` | central |  | wikidata;wikidata | Ministry of Public Security of Chile |
+| 7 | `regiondeloslagos.cl` | central-1 |  | wikidata;wikidata | Regional Council of Los Lagos |
+| 7 | `sitio.gorebiobio.cl` | central-1 |  | wikidata;wikidata | Regional Council of Biobío |
+| 6 | `tribunalconstitucional.cl` |  |  | wikidata | Constitutional Court of Chile |
 

@@ -33,28 +33,28 @@
 137 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `citizensinformationboard.ie` |  | wikidata;wikidata | Citizens Information Board |
-| 7 | `coru.ie` | central | wikidata;wikidata | CORU | Health and Social Care Professionals Council (CORU) |
-| 7 | `courts.ie` | central | wikidata;wikidata | Courts Service | Special Criminal Court |
-| 7 | `epa.ie` |  | wikidata;wikidata | Radiological Protection Institute of Ireland | Environmental Protection Agency |
-| 7 | `garda.ie` | central | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Garda National Economic Crime Bureau | Garda National Cyber Crime Bureau | Ga... |
-| 7 | `german-irish.ie` |  | wikidata;wikidata | German-Irish Chamber of Industry and Commerce |
-| 7 | `ihrec.ie` |  | wikidata;wikidata | Irish Human Rights Commission | Irish Human Rights and Equality Commission |
-| 7 | `nationalarchives.ie` |  | wikidata;wikidata | National Archives of Ireland |
-| 6 | `ireland.representation.ec.europa.eu` |  | wikidata;wikidata | European Commission Representation in Ireland |
-| 6 | `supremecourt.ie` | central | wikidata | Supreme Court of Ireland |
-| 4 | `aaiu.ie` |  | wikidata | Air Accident Investigation Unit |
-| 4 | `airnav.ie` |  | wikidata | Irish Air Navigation Service |
-| 4 | `artscouncil.ie` |  | wikidata | Arts Council of Ireland |
-| 4 | `cab.ie` |  | wikidata | Criminal Assets Bureau |
-| 4 | `ccpc.ie` |  | wikidata | Competition and Consumer Protection Commission |
-| 4 | `centralbank.ie` |  | wikidata | Central Bank of Ireland |
-| 4 | `cer.ie` |  | wikidata | Commission for Regulation of Utilities |
-| 4 | `chambers.ie` |  | wikidata | The Chambers of Commerce of Ireland |
-| 4 | `charitiesregulator.ie` |  | wikidata | Charities Regulator |
-| 4 | `childlawproject.ie` |  | wikidata | Child Law Project |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `citizensinformationboard.ie` |  |  | wikidata;wikidata | Citizens Information Board |
+| 7 | `coru.ie` | central |  | wikidata;wikidata | CORU | Health and Social Care Professionals Council (CORU) |
+| 7 | `courts.ie` | central |  | wikidata;wikidata | Courts Service | Special Criminal Court |
+| 7 | `epa.ie` |  |  | wikidata;wikidata | Radiological Protection Institute of Ireland | Environmental Protection Agency |
+| 7 | `garda.ie` | central |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Garda National Economic Crime Bureau | Garda National Cyber Crime Bureau | Ga... |
+| 7 | `german-irish.ie` |  |  | wikidata;wikidata | German-Irish Chamber of Industry and Commerce |
+| 7 | `ihrec.ie` |  |  | wikidata;wikidata | Irish Human Rights Commission | Irish Human Rights and Equality Commission |
+| 7 | `nationalarchives.ie` |  |  | wikidata;wikidata | National Archives of Ireland |
+| 6 | `ireland.representation.ec.europa.eu` |  |  | wikidata;wikidata | European Commission Representation in Ireland |
+| 6 | `supremecourt.ie` | central |  | wikidata | Supreme Court of Ireland |
+| 4 | `aaiu.ie` |  |  | wikidata | Air Accident Investigation Unit |
+| 4 | `airnav.ie` |  |  | wikidata | Irish Air Navigation Service |
+| 4 | `artscouncil.ie` |  |  | wikidata | Arts Council of Ireland |
+| 4 | `cab.ie` |  |  | wikidata | Criminal Assets Bureau |
+| 4 | `ccpc.ie` |  |  | wikidata | Competition and Consumer Protection Commission |
+| 4 | `centralbank.ie` |  |  | wikidata | Central Bank of Ireland |
+| 4 | `cer.ie` |  |  | wikidata | Commission for Regulation of Utilities |
+| 4 | `chambers.ie` |  |  | wikidata | The Chambers of Commerce of Ireland |
+| 4 | `charitiesregulator.ie` |  |  | wikidata | Charities Regulator |
+| 4 | `childlawproject.ie` |  |  | wikidata | Child Law Project |
 
 ## ccTLD anomalies
 

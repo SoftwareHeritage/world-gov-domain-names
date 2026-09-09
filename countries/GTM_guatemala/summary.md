@@ -33,17 +33,17 @@
 11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `mindef.mil.gt` | central | wikidata;wikidata | Ministry of Defense |
-| 4 | `pdh.org.gt` |  | wikidata | Human Rights Ombudsman of Guatemala |
-| 4 | `tse.org.gt` | central | wikidata | Supreme Electoral Supreme |
-| 3 | `bomberosvoluntariosdeguatemala.com` |  | wikidata | Bomberos Voluntarios |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Guatemala |
-| 3 | `ghrc-usa.org` |  | wikidata | Guatemala Human Rights Commission |
-| 3 | `gt.ambafrance.org` | central | wikidata | Embassy of France, Guatemala City |
-| 3 | `guat.mid.ru` | central | wikidata | embassy of Russia in Guatemala |
-| 3 | `guatemala.diplo.de` | central | wikidata | Embassy of Germany, Guatemala |
-| 3 | `swedenabroad.se` | central | wikidata | Embassy of Sweden, Guatemala City |
-| 3 | `taiwanembassy.org` | central | wikidata | Embassy of the Republic of China (Taiwan), Guatemala City |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `mindef.mil.gt` | central |  | wikidata;wikidata | Ministry of Defense |
+| 4 | `pdh.org.gt` |  |  | wikidata | Human Rights Ombudsman of Guatemala |
+| 4 | `tse.org.gt` | central |  | wikidata | Supreme Electoral Supreme |
+| 3 | `bomberosvoluntariosdeguatemala.com` |  |  | wikidata | Bomberos Voluntarios |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Guatemala |
+| 3 | `ghrc-usa.org` |  |  | wikidata | Guatemala Human Rights Commission |
+| 3 | `gt.ambafrance.org` | central |  | wikidata | Embassy of France, Guatemala City |
+| 3 | `guat.mid.ru` | central |  | wikidata | embassy of Russia in Guatemala |
+| 3 | `guatemala.diplo.de` | central |  | wikidata | Embassy of Germany, Guatemala |
+| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Guatemala City |
+| 3 | `taiwanembassy.org` | central |  | wikidata | Embassy of the Republic of China (Taiwan), Guatemala City |
 

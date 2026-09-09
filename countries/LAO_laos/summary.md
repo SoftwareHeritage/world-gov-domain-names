@@ -33,12 +33,12 @@
 6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Laos |
-| 3 | `la.ambafrance.org` | central | wikidata | Embassy of France, Vientiane |
-| 3 | `la.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Vientiane |
-| 3 | `laos.mid.ru` | central | wikidata | embassy of Russia in Laos |
-| 3 | `nationallibraryoflaos.org` |  | wikidata | National Library of Laos |
-| 3 | `vientiane.diplo.de` | central | wikidata | Embassy of Germany, Vientiane |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Laos |
+| 3 | `la.ambafrance.org` | central |  | wikidata | Embassy of France, Vientiane |
+| 3 | `la.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Vientiane |
+| 3 | `laos.mid.ru` | central |  | wikidata | embassy of Russia in Laos |
+| 3 | `nationallibraryoflaos.org` |  |  | wikidata | National Library of Laos |
+| 3 | `vientiane.diplo.de` | central |  | wikidata | Embassy of Germany, Vientiane |
 

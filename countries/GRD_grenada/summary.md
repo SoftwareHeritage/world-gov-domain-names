@@ -33,16 +33,16 @@
 10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `finance.gd` |  | wikidata;wikidata | Ministry of Finance of Grenada |
-| 4 | `gdbs.gd` |  | wikidata | Grenada Bureau of Standards |
-| 4 | `imagrenada.gd` |  | wikidata | Investment Migration Agency Grenada |
-| 4 | `ird.gd` |  | wikidata | Inland Revenue Division of Grenada |
-| 4 | `nadma.gd` |  | wikidata | National Disaster Management Agency of Grenada |
-| 4 | `procurement.gd` |  | wikidata | Office of Public Procurement of Grenada |
-| 3 | `eccb-centralbank.org` |  | wikidata | Eastern Caribbean Central Bank |
-| 3 | `grenadacustoms.com` |  | wikidata | Customs & Excise Division of Grenada |
-| 3 | `grenadafiu.com` |  | wikidata | Financial Intelligence Unit of Grenada |
-| 2 | `grenadaparliament.gd` | central | wikidata;wikidata;wikidata;wikidata;wikidata | Parliament of Grenada | Senate of Grenada | House of Representatives of Grena... |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `finance.gd` |  |  | wikidata;wikidata | Ministry of Finance of Grenada |
+| 4 | `gdbs.gd` |  |  | wikidata | Grenada Bureau of Standards |
+| 4 | `imagrenada.gd` |  |  | wikidata | Investment Migration Agency Grenada |
+| 4 | `ird.gd` |  |  | wikidata | Inland Revenue Division of Grenada |
+| 4 | `nadma.gd` |  |  | wikidata | National Disaster Management Agency of Grenada |
+| 4 | `procurement.gd` |  |  | wikidata | Office of Public Procurement of Grenada |
+| 3 | `eccb-centralbank.org` |  |  | wikidata | Eastern Caribbean Central Bank |
+| 3 | `grenadacustoms.com` |  |  | wikidata | Customs & Excise Division of Grenada |
+| 3 | `grenadafiu.com` |  |  | wikidata | Financial Intelligence Unit of Grenada |
+| 2 | `grenadaparliament.gd` | central |  | wikidata;wikidata;wikidata;wikidata;wikidata | Parliament of Grenada | Senate of Grenada | House of Representatives of Grena... |
 

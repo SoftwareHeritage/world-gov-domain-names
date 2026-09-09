@@ -33,14 +33,14 @@
 8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `central-bank.org.tt` | central | wikidata | Central Bank of Trinidad and Tobago |
-| 4 | `ema.co.tt` |  | wikidata | Environmental Management Authority |
-| 4 | `tatt.org.tt` |  | wikidata | Telecommunications Authority of Trinidad and Tobago |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Trinidad and Tobago |
-| 3 | `port-of-spain.diplo.de` | central | wikidata | Embassy of Germany, Port of Spain |
-| 3 | `tntairports.com` |  | wikidata | Airports Authority of Trinidad and Tobago |
-| 3 | `tt.ambafrance.org` | central | wikidata | Embassy of France, Port of Spain |
-| 1 | `ttparliament.org` | central | wikidata;wikidata;wikidata;wikidata | House of Representatives | Senate of Trinidad and Tobago | Parliament of Trin... |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `central-bank.org.tt` | central |  | wikidata | Central Bank of Trinidad and Tobago |
+| 4 | `ema.co.tt` |  |  | wikidata | Environmental Management Authority |
+| 4 | `tatt.org.tt` |  |  | wikidata | Telecommunications Authority of Trinidad and Tobago |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Trinidad and Tobago |
+| 3 | `port-of-spain.diplo.de` | central |  | wikidata | Embassy of Germany, Port of Spain |
+| 3 | `tntairports.com` |  |  | wikidata | Airports Authority of Trinidad and Tobago |
+| 3 | `tt.ambafrance.org` | central |  | wikidata | Embassy of France, Port of Spain |
+| 1 | `ttparliament.org` | central |  | wikidata;wikidata;wikidata;wikidata | House of Representatives | Senate of Trinidad and Tobago | Parliament of Trin... |
 

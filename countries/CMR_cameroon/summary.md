@@ -33,26 +33,26 @@
 31 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `diplocam.cm` | central | wikidata;wikidata | Ministry of External Relations |
-| 7 | `minader.cm` | central | wikidata;wikidata | Ministry of Agriculture and rural development |
-| 7 | `minas.cm` | central | wikidata;wikidata | Ministry of Social Affairs |
-| 7 | `minedub.cm` | central | wikidata;wikidata | Ministry of Basic Education |
-| 7 | `minmap.cm` | central | wikidata;wikidata | Ministry of Public Procurement |
-| 7 | `minpmeesa.cm` | central | wikidata;wikidata | Ministry of small and medium-sized enterprises, social economy and handicrafts |
-| 7 | `minsante.cm` | central | wikidata;wikidata | Ministry of Public Health |
-| 7 | `minsep.cm` | central | wikidata;wikidata | Ministry of Sports in Cameroon |
-| 7 | `mintss.cm` | central | wikidata;wikidata | Ministry of Labour and Social Security |
-| 6 | `campack-cm.com` | central | wikidata;wikidata | Ministry of Scientific Research and Innovation |
-| 6 | `ccaa.aero` |  | wikidata;wikidata | CCAA |
-| 6 | `coursupreme.cm` | central | wikidata | Supreme Court of Cameroon |
-| 6 | `minmidt.net` | central | wikidata;wikidata | Ministry of Mines, Industry and Technological Development |
-| 6 | `piaristesafriquecentrale.org` |  | wikidata;wikidata | Piarist province of Central Africa |
-| 4 | `antic.cm` |  | wikidata | Agence Nationale des Technologies de l'Information et de la Communication |
-| 4 | `apn.cm` |  | wikidata | Q137164175 |
-| 4 | `archivesnationales.cm` |  | wikidata | National Archives of Cameroon |
-| 4 | `assnat.cm` | central | wikidata | National Assembly of Cameroon |
-| 4 | `ccousp.cm` |  | wikidata | Q109056172 |
-| 4 | `cnls.cm` |  | wikidata | Comité National de Lutte contre le SIDA |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `diplocam.cm` | central |  | wikidata;wikidata | Ministry of External Relations |
+| 7 | `minader.cm` | central |  | wikidata;wikidata | Ministry of Agriculture and rural development |
+| 7 | `minas.cm` | central |  | wikidata;wikidata | Ministry of Social Affairs |
+| 7 | `minedub.cm` | central |  | wikidata;wikidata | Ministry of Basic Education |
+| 7 | `minmap.cm` | central |  | wikidata;wikidata | Ministry of Public Procurement |
+| 7 | `minpmeesa.cm` | central |  | wikidata;wikidata | Ministry of small and medium-sized enterprises, social economy and handicrafts |
+| 7 | `minsante.cm` | central |  | wikidata;wikidata | Ministry of Public Health |
+| 7 | `minsep.cm` | central |  | wikidata;wikidata | Ministry of Sports in Cameroon |
+| 7 | `mintss.cm` | central |  | wikidata;wikidata | Ministry of Labour and Social Security |
+| 6 | `campack-cm.com` | central |  | wikidata;wikidata | Ministry of Scientific Research and Innovation |
+| 6 | `ccaa.aero` |  |  | wikidata;wikidata | CCAA |
+| 6 | `coursupreme.cm` | central |  | wikidata | Supreme Court of Cameroon |
+| 6 | `minmidt.net` | central |  | wikidata;wikidata | Ministry of Mines, Industry and Technological Development |
+| 6 | `piaristesafriquecentrale.org` |  |  | wikidata;wikidata | Piarist province of Central Africa |
+| 4 | `antic.cm` |  |  | wikidata | Agence Nationale des Technologies de l'Information et de la Communication |
+| 4 | `apn.cm` |  |  | wikidata | Q137164175 |
+| 4 | `archivesnationales.cm` |  |  | wikidata | National Archives of Cameroon |
+| 4 | `assnat.cm` | central |  | wikidata | National Assembly of Cameroon |
+| 4 | `ccousp.cm` |  |  | wikidata | Q109056172 |
+| 4 | `cnls.cm` |  |  | wikidata | Comité National de Lutte contre le SIDA |
 

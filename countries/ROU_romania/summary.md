@@ -33,26 +33,26 @@
 125 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 10 | `just.ro` | central | wikidata;wikidata;linkgraph | Ministry of Justice |
-| 7 | `ahkrumaenien.ro` |  | wikidata;wikidata | German-Romanian Chamber of Industry and Commerce |
-| 7 | `arhivelenationale.ro` |  | wikidata;wikidata | National Historical Central Archives | National Archives of Romania |
-| 7 | `cultura.ro` | central | wikidata;wikidata | Ministry of Culture |
-| 7 | `dataprotection.ro` | central | wikidata;linkgraph | National Supervisory Authority for Personal Data Processing |
-| 7 | `edu.ro` | central | wikidata;wikidata | Ministry of Education of Romania |
-| 7 | `madr.ro` | central | wikidata;wikidata | Ministry of Agriculture and Rural Development of Romania |
-| 7 | `mae.ro` | central | wikidata;wikidata | Ministry of Foreign Affairs of Romania |
-| 7 | `mapn.ro` | central | wikidata;wikidata | Ministry of National Defense |
-| 7 | `mcsi.ro` | central | wikidata;wikidata | Ministry of Communications and Information Society |
-| 7 | `mdlpa.ro` | central | wikidata;wikidata | Ministry for Development, Public Works and Administration |
-| 7 | `mmediu.ro` | central | wikidata;wikidata | Ministry of Environment, Water and Forests |
-| 7 | `mmuncii.ro` | central | wikidata;wikidata | Ministry of Labour, Family, Youth and Social Solidarity |
-| 7 | `ms.ro` | central | wikidata;wikidata | Ministry of Health |
-| 7 | `parlament.ro` | central | wikidata;wikidata | Parliament of Romania |
-| 7 | `rosa.ro` |  | wikidata;wikidata | Romanian Space Agency |
-| 6 | `gesuiti.it` |  | wikidata;wikidata | Euromediterranean Province of the Jesuits |
-| 6 | `guv.ro` |  | un_desa | UN/DESA national portal |
-| 6 | `mpublic.ro` |  | wikidata | Prosecutor's Office attached to the High Court of Cassation and Justice |
-| 6 | `rumaenien.um.dk` | central | wikidata;wikidata | Embassy of Denmark, Bucharest | Embassy of Croatia in Romania |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 10 | `just.ro` | central |  | wikidata;wikidata;linkgraph | Ministry of Justice |
+| 7 | `ahkrumaenien.ro` |  |  | wikidata;wikidata | German-Romanian Chamber of Industry and Commerce |
+| 7 | `arhivelenationale.ro` |  |  | wikidata;wikidata | National Historical Central Archives | National Archives of Romania |
+| 7 | `cultura.ro` | central |  | wikidata;wikidata | Ministry of Culture |
+| 7 | `dataprotection.ro` | central |  | wikidata;linkgraph | National Supervisory Authority for Personal Data Processing |
+| 7 | `edu.ro` | central |  | wikidata;wikidata | Ministry of Education of Romania |
+| 7 | `madr.ro` | central |  | wikidata;wikidata | Ministry of Agriculture and Rural Development of Romania |
+| 7 | `mae.ro` | central |  | wikidata;wikidata | Ministry of Foreign Affairs of Romania |
+| 7 | `mapn.ro` | central |  | wikidata;wikidata | Ministry of National Defense |
+| 7 | `mcsi.ro` | central |  | wikidata;wikidata | Ministry of Communications and Information Society |
+| 7 | `mdlpa.ro` | central |  | wikidata;wikidata | Ministry for Development, Public Works and Administration |
+| 7 | `mmediu.ro` | central |  | wikidata;wikidata | Ministry of Environment, Water and Forests |
+| 7 | `mmuncii.ro` | central |  | wikidata;wikidata | Ministry of Labour, Family, Youth and Social Solidarity |
+| 7 | `ms.ro` | central |  | wikidata;wikidata | Ministry of Health |
+| 7 | `parlament.ro` | central |  | wikidata;wikidata | Parliament of Romania |
+| 7 | `rosa.ro` |  |  | wikidata;wikidata | Romanian Space Agency |
+| 6 | `gesuiti.it` |  |  | wikidata;wikidata | Euromediterranean Province of the Jesuits |
+| 6 | `guv.ro` |  |  | un_desa | UN/DESA national portal |
+| 6 | `mpublic.ro` |  |  | wikidata | Prosecutor's Office attached to the High Court of Cassation and Justice |
+| 6 | `rumaenien.um.dk` | central |  | wikidata;wikidata | Embassy of Denmark, Bucharest | Embassy of Croatia in Romania |
 

@@ -33,26 +33,26 @@
 206 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 8 | `parlement.ma` | central | wikidata;wikidata | Parliament of Morocco |
-| 7 | `bkam.ma` |  | wikidata;wikidata | Bank Al-Maghrib | Q3015910 |
-| 7 | `chuibnrochd.ma` |  | wikidata;wikidata | CHU Ibn Rochd |
-| 7 | `diplomatie.ma` | central | wikidata;wikidata | Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates |
-| 7 | `madrastna.ma` | central | wikidata;wikidata | Ministry of National Education |
-| 7 | `ofppt.ma` |  | wikidata;wikidata | Vocational Training and Labor Promotion Office |
-| 7 | `tamwilcom.ma` |  | wikidata;wikidata | Q122972557 | Tamwilcom |
-| 7 | `ump.ma` |  | wikidata;wikidata | Mohamed I University |
-| 6 | `cour-constitutionnelle.ma` |  | wikidata | Constitutional Court of Morocco |
-| 6 | `egov.ma` |  | un_desa | UN/DESA national portal |
-| 6 | `marokko.ahk.de` |  | wikidata;wikidata | German Chamber of Commerce and Industry in Morocco |
-| 6 | `ofmsantiago.com` |  | wikidata;wikidata | Franciscan province of Santiago |
-| 4 | `abhdon.ma` |  | wikidata | Q126953080 |
-| 4 | `abhgzr.ma` |  | wikidata | Q126953082 |
-| 4 | `abhl.ma` |  | wikidata | Q126953084 |
-| 4 | `abhsebou.ma` |  | wikidata | Agence du Bassin Hydraulique de Sebou |
-| 4 | `abhshod.ma` |  | wikidata | Q126953073 |
-| 4 | `abht.ma` |  | wikidata | Q126953078 |
-| 4 | `adm.co.ma` |  | wikidata | Société Nationale des Autoroutes du Maroc |
-| 4 | `ads.ma` |  | wikidata | Q123476447 |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 8 | `parlement.ma` | central |  | wikidata;wikidata | Parliament of Morocco |
+| 7 | `bkam.ma` |  |  | wikidata;wikidata | Bank Al-Maghrib | Q3015910 |
+| 7 | `chuibnrochd.ma` |  |  | wikidata;wikidata | CHU Ibn Rochd |
+| 7 | `diplomatie.ma` | central |  | wikidata;wikidata | Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates |
+| 7 | `madrastna.ma` | central |  | wikidata;wikidata | Ministry of National Education |
+| 7 | `ofppt.ma` |  |  | wikidata;wikidata | Vocational Training and Labor Promotion Office |
+| 7 | `tamwilcom.ma` |  |  | wikidata;wikidata | Q122972557 | Tamwilcom |
+| 7 | `ump.ma` |  |  | wikidata;wikidata | Mohamed I University |
+| 6 | `cour-constitutionnelle.ma` |  |  | wikidata | Constitutional Court of Morocco |
+| 6 | `egov.ma` |  |  | un_desa | UN/DESA national portal |
+| 6 | `marokko.ahk.de` |  |  | wikidata;wikidata | German Chamber of Commerce and Industry in Morocco |
+| 6 | `ofmsantiago.com` |  |  | wikidata;wikidata | Franciscan province of Santiago |
+| 4 | `abhdon.ma` |  |  | wikidata | Q126953080 |
+| 4 | `abhgzr.ma` |  |  | wikidata | Q126953082 |
+| 4 | `abhl.ma` |  |  | wikidata | Q126953084 |
+| 4 | `abhsebou.ma` |  |  | wikidata | Agence du Bassin Hydraulique de Sebou |
+| 4 | `abhshod.ma` |  |  | wikidata | Q126953073 |
+| 4 | `abht.ma` |  |  | wikidata | Q126953078 |
+| 4 | `adm.co.ma` |  |  | wikidata | Société Nationale des Autoroutes du Maroc |
+| 4 | `ads.ma` |  |  | wikidata | Q123476447 |
 

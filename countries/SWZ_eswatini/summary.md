@@ -33,9 +33,9 @@
 3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `centralbank.org.sz` |  | wikidata | Central Bank of Eswatini |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Eswatini |
-| 3 | `taiwanembassy.org` | central | wikidata | Embassy of the Republic of China (Taiwan), Mbabane |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `centralbank.org.sz` |  |  | wikidata | Central Bank of Eswatini |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Eswatini |
+| 3 | `taiwanembassy.org` | central |  | wikidata | Embassy of the Republic of China (Taiwan), Mbabane |
 

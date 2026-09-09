@@ -33,26 +33,26 @@
 23 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `mosy.sy` |  | wikidata;wikidata | Ministry of Youth and Sports |
-| 7 | `nscl.sy` |  | wikidata;wikidata | National Standards and Calibration Laboratory |
-| 6 | `custodia.org` |  | wikidata;wikidata | Custodian of the Holy Land |
-| 6 | `egov.sy` |  | un_desa | UN/DESA national portal |
-| 6 | `sanasyria.org` |  | wikidata;wikidata | Syrian Arab News Agency |
-| 6 | `syriaig.org` |  | wikidata;wikidata | Syrian Interim Government |
-| 6 | `syrien.um.dk` | central | wikidata;wikidata | embassy of Denmark in Syria |
-| 4 | `aec.org.sy` |  | wikidata | Atomic Energy Commission of Syria |
-| 4 | `gors.sy` |  | wikidata | General Organization of Remote Sensing |
-| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Damascus |
-| 4 | `scfms.sy` | central | wikidata | Syrian Commission on Financial Markets and Securities |
-| 4 | `sisc.sy` | central | wikidata | Q123925129 |
-| 3 | `damasc.mae.ro` | central | wikidata | Embassy of Romania, Damascus |
-| 3 | `damaskus.diplo.de` | central | wikidata | Embassy of Germany, Damascus |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Syria |
-| 3 | `finlandabroad.fi` | central | wikidata | Embassy of Finland, Damascus |
-| 3 | `mfa.gr` | central | wikidata | embassy of Greece in Syria |
-| 3 | `mzv.cz` | central | wikidata | embassy of the Czech republic in Damascus |
-| 3 | `palemb-sy.com` | central | wikidata | Embassy of the State of Palestine in Syria |
-| 3 | `swedenabroad.se` | central | wikidata | Embassy of Sweden, Damascus |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `mosy.sy` |  |  | wikidata;wikidata | Ministry of Youth and Sports |
+| 7 | `nscl.sy` |  |  | wikidata;wikidata | National Standards and Calibration Laboratory |
+| 6 | `custodia.org` |  |  | wikidata;wikidata | Custodian of the Holy Land |
+| 6 | `egov.sy` |  |  | un_desa | UN/DESA national portal |
+| 6 | `sanasyria.org` |  |  | wikidata;wikidata | Syrian Arab News Agency |
+| 6 | `syriaig.org` |  |  | wikidata;wikidata | Syrian Interim Government |
+| 6 | `syrien.um.dk` | central |  | wikidata;wikidata | embassy of Denmark in Syria |
+| 4 | `aec.org.sy` |  |  | wikidata | Atomic Energy Commission of Syria |
+| 4 | `gors.sy` |  |  | wikidata | General Organization of Remote Sensing |
+| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Damascus |
+| 4 | `scfms.sy` | central |  | wikidata | Syrian Commission on Financial Markets and Securities |
+| 4 | `sisc.sy` | central |  | wikidata | Q123925129 |
+| 3 | `damasc.mae.ro` | central |  | wikidata | Embassy of Romania, Damascus |
+| 3 | `damaskus.diplo.de` | central |  | wikidata | Embassy of Germany, Damascus |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Syria |
+| 3 | `finlandabroad.fi` | central |  | wikidata | Embassy of Finland, Damascus |
+| 3 | `mfa.gr` | central |  | wikidata | embassy of Greece in Syria |
+| 3 | `mzv.cz` | central |  | wikidata | embassy of the Czech republic in Damascus |
+| 3 | `palemb-sy.com` | central |  | wikidata | Embassy of the State of Palestine in Syria |
+| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Damascus |
 

@@ -1,0 +1,9 @@
+hostname,http_status,mx
+ambafrance-fj.org,ConnectException,5 mta-gw.infomaniak.ch.
+caaf.org.fj,301,0 caaf-org-fj.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ficac.org.fj,200,10 insmtp.kidanet.com.fj.
+fidschi.diplo.de,200,none
+fj.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching fj.chineseembassy.org found.,none
+itaukeitrustfund.com.fj,200,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 0 itaukeitrustfund-com-fj.mail.protection.outlook.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+roc-taiwan.org,302,none

@@ -33,14 +33,14 @@
 8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 8 | `parlamento.gw` | central | wikidata;wikidata | National People's Assembly |
-| 3 | `bceao.int` |  | wikidata | Central Bank of West African States |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Guinea-Bissau |
-| 3 | `guinea-bissau.mid.ru` | central | wikidata | embassy of Russia in Guinea-Bissau |
-| 3 | `gw.ambafrance.org` | central | wikidata | Embassy of France, Bissau |
-| 3 | `gw.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Bissau |
-| 3 | `inep-bissau.org` |  | wikidata | National Library of Guinea-Bissau |
-| 3 | `stat-guinebissau.com` | central | wikidata | Instituto Nacional de Estatística |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 8 | `parlamento.gw` | central |  | wikidata;wikidata | National People's Assembly |
+| 3 | `bceao.int` |  |  | wikidata | Central Bank of West African States |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Guinea-Bissau |
+| 3 | `guinea-bissau.mid.ru` | central |  | wikidata | embassy of Russia in Guinea-Bissau |
+| 3 | `gw.ambafrance.org` | central |  | wikidata | Embassy of France, Bissau |
+| 3 | `gw.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Bissau |
+| 3 | `inep-bissau.org` |  |  | wikidata | National Library of Guinea-Bissau |
+| 3 | `stat-guinebissau.com` | central |  | wikidata | Instituto Nacional de Estatística |
 

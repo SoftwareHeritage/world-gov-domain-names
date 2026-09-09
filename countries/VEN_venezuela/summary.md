@@ -33,26 +33,26 @@
 22 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `asambleanacionalvenezuela.org` | central | wikidata;wikidata;wikidata;wikidata | National Assembly | National Assembly  of Venezuela |
-| 6 | `centroamericaribeschp.com` |  | wikidata;wikidata | Piarist province Central America- Caribbean |
-| 6 | `dominicoshispania.org` |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 6 | `gobiernoenlinea.ve` |  | un_desa | UN/DESA national portal |
-| 5 | `inia.gov.ve` |  | wikidata | Instituto Nacional de Investigaciones Agricolas |
-| 5 | `ivss.gov.ve` |  | wikidata | Instituto Venezolano de los Seguros Sociales |
-| 5 | `tsjlegitimo.org` | central | wikidata | Supreme Tribunal of Justice of Venezuela in exile |
-| 4 | `bcv.org.ve` |  | wikidata | Central Bank of Venezuela |
-| 4 | `dgim.mil.ve` |  | wikidata | Dirección de Inteligencia Militar |
-| 4 | `embajada-guineaecuatorial.com.ve` | central | wikidata | embassy of Equatorial Guinea in Venezuela |
-| 4 | `guardia.mil.ve` |  | wikidata | Bolivarian National Guard |
-| 3 | `ambassadehaitivenezuela.org` | central | wikidata | embassy of Haiti in Venezuela |
-| 3 | `caracas.diplo.de` | central | wikidata | Embassy of Germany, Caracas |
-| 3 | `caracas.embassy.qa` | central | wikidata | embassy of Qatar in Venezuela |
-| 3 | `caracas.mae.ro` | central | wikidata | embassy of Romania in Venezuela |
-| 3 | `consecomercio.org` |  | wikidata | Q5783627 |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Venezuela |
-| 3 | `emb-abjasia.com` | central | wikidata | Embassy of Abkhazia, Caracas |
-| 3 | `nigerianembassycaracas.org` | central | wikidata | embassy of Nigeria in Venezuela |
-| 3 | `ve.ambafrance.org` | central | wikidata | Embassy of France, Caracas |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `asambleanacionalvenezuela.org` | central |  | wikidata;wikidata;wikidata;wikidata | National Assembly | National Assembly  of Venezuela |
+| 6 | `centroamericaribeschp.com` |  |  | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `dominicoshispania.org` |  |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 6 | `gobiernoenlinea.ve` |  |  | un_desa | UN/DESA national portal |
+| 5 | `inia.gov.ve` |  |  | wikidata | Instituto Nacional de Investigaciones Agricolas |
+| 5 | `ivss.gov.ve` |  |  | wikidata | Instituto Venezolano de los Seguros Sociales |
+| 5 | `tsjlegitimo.org` | central |  | wikidata | Supreme Tribunal of Justice of Venezuela in exile |
+| 4 | `bcv.org.ve` |  |  | wikidata | Central Bank of Venezuela |
+| 4 | `dgim.mil.ve` |  |  | wikidata | Dirección de Inteligencia Militar |
+| 4 | `embajada-guineaecuatorial.com.ve` | central |  | wikidata | embassy of Equatorial Guinea in Venezuela |
+| 4 | `guardia.mil.ve` |  |  | wikidata | Bolivarian National Guard |
+| 3 | `ambassadehaitivenezuela.org` | central |  | wikidata | embassy of Haiti in Venezuela |
+| 3 | `caracas.diplo.de` | central |  | wikidata | Embassy of Germany, Caracas |
+| 3 | `caracas.embassy.qa` | central |  | wikidata | embassy of Qatar in Venezuela |
+| 3 | `caracas.mae.ro` | central |  | wikidata | embassy of Romania in Venezuela |
+| 3 | `consecomercio.org` |  |  | wikidata | Q5783627 |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Venezuela |
+| 3 | `emb-abjasia.com` | central |  | wikidata | Embassy of Abkhazia, Caracas |
+| 3 | `nigerianembassycaracas.org` | central |  | wikidata | embassy of Nigeria in Venezuela |
+| 3 | `ve.ambafrance.org` | central |  | wikidata | Embassy of France, Caracas |
 

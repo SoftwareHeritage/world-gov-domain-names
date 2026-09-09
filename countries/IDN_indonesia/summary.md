@@ -33,26 +33,26 @@
 47 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `eeas.europa.eu` | central | wikidata;wikidata | Delegation of the European Union to Indonesia and Brunei Darussalam | EU Miss... |
-| 6 | `mkri.id` |  | wikidata | Constitutional Court of the Republic of Indonesia |
-| 4 | `aipi.or.id` |  | wikidata | Indonesian Academy of Sciences |
-| 4 | `bdi-kejatijambi.id` |  | wikidata | Q131424574 |
-| 4 | `bpdp.or.id` |  | wikidata | Badan Pengelola Dana Perkebunan |
-| 4 | `jakarta.mfa.gov.hu` | central | wikidata | Embassy of Hungary, Jakarta |
-| 4 | `jordanembassy.or.id` | central | wikidata | embassy of Jordan in Indonesia |
-| 4 | `lldikti9.id` |  | wikidata | LLDIKTI Wilayah IX Sulawesi |
-| 4 | `lmkn.id` |  | wikidata | National Collective Management Organization |
-| 4 | `rri.co.id` |  | wikidata | Radio Republik Indonesia |
-| 4 | `sejarah-tni.mil.id` |  | wikidata | Center for Indonesian National Military's History |
-| 4 | `uzembassy.id` | central | wikidata | embassy of Uzbekistan in Indonesia |
-| 3 | `bdembassyjakarta.org` | central | wikidata | Embassy of Bangladesh, Jakarta |
-| 3 | `cubadiplomatica.cu` | central | wikidata | embassy of Cuba in Indonesia |
-| 3 | `emb-algeria.org` | central | wikidata | Embassy of Algeria, Jakarta |
-| 3 | `embamoc-indonesia.com` | central | wikidata | embassy of Mozambique in Indonesia |
-| 3 | `fijiembajak.com` | central | wikidata | embassy of Fiji in Indonesia |
-| 3 | `finlandabroad.fi` | central | wikidata | embassy of Finland in Indonesia |
-| 3 | `id.ambafrance.org` | central | wikidata | Embassy of France, Jakarta |
-| 3 | `id.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Jakarta |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `eeas.europa.eu` | central |  | wikidata;wikidata | Delegation of the European Union to Indonesia and Brunei Darussalam | EU Miss... |
+| 6 | `mkri.id` |  |  | wikidata | Constitutional Court of the Republic of Indonesia |
+| 4 | `aipi.or.id` |  |  | wikidata | Indonesian Academy of Sciences |
+| 4 | `bdi-kejatijambi.id` |  |  | wikidata | Q131424574 |
+| 4 | `bpdp.or.id` |  |  | wikidata | Badan Pengelola Dana Perkebunan |
+| 4 | `jakarta.mfa.gov.hu` | central |  | wikidata | Embassy of Hungary, Jakarta |
+| 4 | `jordanembassy.or.id` | central |  | wikidata | embassy of Jordan in Indonesia |
+| 4 | `lldikti9.id` |  |  | wikidata | LLDIKTI Wilayah IX Sulawesi |
+| 4 | `lmkn.id` |  |  | wikidata | National Collective Management Organization |
+| 4 | `rri.co.id` |  |  | wikidata | Radio Republik Indonesia |
+| 4 | `sejarah-tni.mil.id` |  |  | wikidata | Center for Indonesian National Military's History |
+| 4 | `uzembassy.id` | central |  | wikidata | embassy of Uzbekistan in Indonesia |
+| 3 | `bdembassyjakarta.org` | central |  | wikidata | Embassy of Bangladesh, Jakarta |
+| 3 | `cubadiplomatica.cu` | central |  | wikidata | embassy of Cuba in Indonesia |
+| 3 | `emb-algeria.org` | central |  | wikidata | Embassy of Algeria, Jakarta |
+| 3 | `embamoc-indonesia.com` | central |  | wikidata | embassy of Mozambique in Indonesia |
+| 3 | `fijiembajak.com` | central |  | wikidata | embassy of Fiji in Indonesia |
+| 3 | `finlandabroad.fi` | central |  | wikidata | embassy of Finland in Indonesia |
+| 3 | `id.ambafrance.org` | central |  | wikidata | Embassy of France, Jakarta |
+| 3 | `id.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Jakarta |
 

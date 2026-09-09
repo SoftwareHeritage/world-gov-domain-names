@@ -33,8 +33,8 @@
 2 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `daic.dm` |  | wikidata | Dominica Association of Industry and Commerce |
-| 3 | `eccb-centralbank.org` |  | wikidata | Eastern Caribbean Central Bank |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `daic.dm` |  |  | wikidata | Dominica Association of Industry and Commerce |
+| 3 | `eccb-centralbank.org` |  |  | wikidata | Eastern Caribbean Central Bank |
 

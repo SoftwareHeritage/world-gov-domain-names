@@ -33,26 +33,26 @@
 355 domain(s) proposed for validation, of which 27 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 10 | `asi.it` |  | wikidata;wikidata;directory | Italian Space Agency |
-| 10 | `camera.it` | central | wikidata;linkgraph;directory | Chamber of Deputies of Italy |
-| 10 | `carabinieri.it` | central | wikidata;wikidata;directory | Comando unità per la tutela forestale, ambientale e agroalimentare | Carabinieri |
-| 10 | `cortecostituzionale.it` | central | wikidata;linkgraph;directory | Constitutional Court of Italy |
-| 10 | `inps.it` |  | wikidata;linkgraph;directory | Istituto nazionale della previdenza sociale |
-| 10 | `istat.it` | central | wikidata;linkgraph;directory | Italian National Institute of Statistics |
-| 10 | `regione.lombardia.it` | central-1 | wikidata;wikidata;wikidata;linkgraph | Government of Lombardy | Lombardy |
-| 10 | `regione.toscana.it` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana |
-| 10 | `regione.veneto.it` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Veneto | Government of Veneto | Q3630806 | Q56753389 |
-| 10 | `senato.it` | central | wikidata;linkgraph;directory | Senate of the Republic |
-| 9 | `garanteprivacy.it` | central | wikidata;linkgraph | Italian Data Protection Authority |
-| 9 | `regione.emilia-romagna.it` |  | wikidata;linkgraph | Emilia-Romagna |
-| 8 | `agcm.it` |  | wikidata;directory | Autorità Garante della Concorrenza e del Mercato |
-| 8 | `agcom.it` |  | wikidata;directory | Autorità per le Garanzie nelle Comunicazioni |
-| 8 | `agenziademanio.it` |  | wikidata;directory | Agenzia del demanio |
-| 8 | `agenziaitaliameteo.it` | central | wikidata;directory | ItaliaMeteo |
-| 8 | `anticorruzione.it` |  | wikidata;directory | National Anti-Corruption Authority |
-| 8 | `anvur.it` |  | wikidata;directory | Agenzia nazionale di valutazione del sistema universitario e della ricerca |
-| 8 | `arera.it` | central | wikidata;directory | Autorità di Regolazione per Energia Reti e Ambiente |
-| 8 | `autorita-trasporti.it` |  | wikidata;directory | Autorità di Regolazione dei Trasporti |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 10 | `asi.it` |  |  | wikidata;wikidata;directory | Italian Space Agency |
+| 10 | `camera.it` | central |  | wikidata;linkgraph;directory | Chamber of Deputies of Italy |
+| 10 | `carabinieri.it` | central |  | wikidata;wikidata;directory | Comando unità per la tutela forestale, ambientale e agroalimentare | Carabinieri |
+| 10 | `cortecostituzionale.it` | central |  | wikidata;linkgraph;directory | Constitutional Court of Italy |
+| 10 | `inps.it` |  |  | wikidata;linkgraph;directory | Istituto nazionale della previdenza sociale |
+| 10 | `istat.it` | central |  | wikidata;linkgraph;directory | Italian National Institute of Statistics |
+| 10 | `regione.lombardia.it` | central-1 |  | wikidata;wikidata;wikidata;linkgraph | Government of Lombardy | Lombardy |
+| 10 | `regione.toscana.it` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana |
+| 10 | `regione.veneto.it` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Veneto | Government of Veneto | Q3630806 | Q56753389 |
+| 10 | `senato.it` | central |  | wikidata;linkgraph;directory | Senate of the Republic |
+| 9 | `garanteprivacy.it` | central |  | wikidata;linkgraph | Italian Data Protection Authority |
+| 9 | `regione.emilia-romagna.it` |  |  | wikidata;linkgraph | Emilia-Romagna |
+| 8 | `agcm.it` |  |  | wikidata;directory | Autorità Garante della Concorrenza e del Mercato |
+| 8 | `agcom.it` |  |  | wikidata;directory | Autorità per le Garanzie nelle Comunicazioni |
+| 8 | `agenziademanio.it` |  |  | wikidata;directory | Agenzia del demanio |
+| 8 | `agenziaitaliameteo.it` | central |  | wikidata;directory | ItaliaMeteo |
+| 8 | `anticorruzione.it` |  |  | wikidata;directory | National Anti-Corruption Authority |
+| 8 | `anvur.it` |  |  | wikidata;directory | Agenzia nazionale di valutazione del sistema universitario e della ricerca |
+| 8 | `arera.it` | central |  | wikidata;directory | Autorità di Regolazione per Energia Reti e Ambiente |
+| 8 | `autorita-trasporti.it` |  |  | wikidata;directory | Autorità di Regolazione dei Trasporti |
 

@@ -33,12 +33,12 @@
 6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `cbl.org.lr` |  | wikidata | Central Bank of Liberia |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Liberia |
-| 3 | `lr.ambafrance.org` | central | wikidata | Embassy of France, Monrovia |
-| 3 | `monrovia.diplo.de` | central | wikidata | Embassy of Germany, Monrovia |
-| 3 | `necliberia.org` | central | wikidata | National Elections Commission of Liberia |
-| 3 | `swedenabroad.se` | central | wikidata | Embassy of Sweden, Monrovia |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `cbl.org.lr` |  |  | wikidata | Central Bank of Liberia |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Liberia |
+| 3 | `lr.ambafrance.org` | central |  | wikidata | Embassy of France, Monrovia |
+| 3 | `monrovia.diplo.de` | central |  | wikidata | Embassy of Germany, Monrovia |
+| 3 | `necliberia.org` | central |  | wikidata | National Elections Commission of Liberia |
+| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Monrovia |
 

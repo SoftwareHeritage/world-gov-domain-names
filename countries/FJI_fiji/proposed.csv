@@ -1,9 +1,9 @@
-hostname,score,sources,label,level
-roc-taiwan.org,6,wikidata;wikidata,Trade Mission of the Republic of China (Taiwan) to the Republic of Fiji | Taipei Trade Office in Fiji,
-caaf.org.fj,4,wikidata,Civil Aviation Authority of the Fiji Islands,
-ficac.org.fj,4,wikidata,Fiji Independent Commission Against Corruption,
-itaukeitrustfund.com.fj,4,wikidata,iTaukei Trust Fund Board,
-ambafrance-fj.org,3,wikidata,"Embassy of France, Suva",central
-eeas.europa.eu,3,wikidata,Delegation for the Pacific,
-fidschi.diplo.de,3,wikidata,"Embassy of Germany, Suva",central
-fj.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Suva",central
+hostname,score,sources,label,level,http_status,mx
+roc-taiwan.org,6,wikidata;wikidata,Trade Mission of the Republic of China (Taiwan) to the Republic of Fiji | Taipei Trade Office in Fiji,,302,none
+caaf.org.fj,4,wikidata,Civil Aviation Authority of the Fiji Islands,,301,0 caaf-org-fj.mail.protection.outlook.com.
+ficac.org.fj,4,wikidata,Fiji Independent Commission Against Corruption,,200,10 insmtp.kidanet.com.fj.
+itaukeitrustfund.com.fj,4,wikidata,iTaukei Trust Fund Board,,200,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 0 itaukeitrustfund-com-fj.mail.protection.outlook.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+ambafrance-fj.org,3,wikidata,"Embassy of France, Suva",central,ConnectException,5 mta-gw.infomaniak.ch.
+eeas.europa.eu,3,wikidata,Delegation for the Pacific,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+fidschi.diplo.de,3,wikidata,"Embassy of Germany, Suva",central,200,none
+fj.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Suva",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching fj.chineseembassy.org found.,none

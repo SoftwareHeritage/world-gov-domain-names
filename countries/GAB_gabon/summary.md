@@ -33,26 +33,26 @@
 26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 8 | `economie-numerique.gouv.ga` | central | wikidata;wikidata | Q141165552 |
-| 8 | `enseignement-superieur.gouv.ga` | central | wikidata;wikidata | Q141161520 |
-| 8 | `fonction-publique.gouv.ga` |  | wikidata;wikidata | Q125907067 |
-| 8 | `interieur.gouv.ga` |  | wikidata;wikidata | Q128231957 |
-| 8 | `relations-institutions.gouv.ga` | central | wikidata;wikidata | Q137536983 |
-| 8 | `sante.gouv.ga` |  | wikidata;wikidata | Ministry of Health |
-| 8 | `transports.gouv.ga` | central | wikidata;wikidata | Ministry of Transport (Gabon) |
-| 7 | `journal-officiel.ga` |  | wikidata;wikidata | Tribunal de première instance (Gabon) |
-| 6 | `piaristesafriquecentrale.org` |  | wikidata;wikidata | Piarist province of Central Africa |
-| 5 | `budget.gouv.ga` |  | wikidata | Q139961312 |
-| 5 | `eaux-forets.gouv.ga` |  | wikidata | Ministre de la Forêt, de la Mer et de l'Environnement |
-| 4 | `aninf.ga` |  | wikidata | Q62107195 |
-| 4 | `assemblee-nationale.ga` | central | wikidata | National Assembly |
-| 4 | `cour-constitutionnelle.ga` |  | wikidata | Constitutional Court of Gabon |
-| 4 | `dgabd.ga` |  | wikidata | National Library of Gabon |
-| 3 | `ambaburkina-ga.org` | central | wikidata | embassy of Burkina Faso in Gabon |
-| 3 | `ambalglibreville.com` | central | wikidata | Embassy of Algeria, Libreville |
-| 3 | `ambassade-tchad-gabon.com` |  | wikidata | Q134385965 |
-| 3 | `eeas.europa.eu` | central | wikidata | Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Pri... |
-| 3 | `ga.ambafrance.org` | central | wikidata | Embassy of France, Libreville |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 8 | `economie-numerique.gouv.ga` | central |  | wikidata;wikidata | Q141165552 |
+| 8 | `enseignement-superieur.gouv.ga` | central |  | wikidata;wikidata | Q141161520 |
+| 8 | `fonction-publique.gouv.ga` |  |  | wikidata;wikidata | Q125907067 |
+| 8 | `interieur.gouv.ga` |  |  | wikidata;wikidata | Q128231957 |
+| 8 | `relations-institutions.gouv.ga` | central |  | wikidata;wikidata | Q137536983 |
+| 8 | `sante.gouv.ga` |  |  | wikidata;wikidata | Ministry of Health |
+| 8 | `transports.gouv.ga` | central |  | wikidata;wikidata | Ministry of Transport (Gabon) |
+| 7 | `journal-officiel.ga` |  |  | wikidata;wikidata | Tribunal de première instance (Gabon) |
+| 6 | `piaristesafriquecentrale.org` |  |  | wikidata;wikidata | Piarist province of Central Africa |
+| 5 | `budget.gouv.ga` |  |  | wikidata | Q139961312 |
+| 5 | `eaux-forets.gouv.ga` |  |  | wikidata | Ministre de la Forêt, de la Mer et de l'Environnement |
+| 4 | `aninf.ga` |  |  | wikidata | Q62107195 |
+| 4 | `assemblee-nationale.ga` | central |  | wikidata | National Assembly |
+| 4 | `cour-constitutionnelle.ga` |  |  | wikidata | Constitutional Court of Gabon |
+| 4 | `dgabd.ga` |  |  | wikidata | National Library of Gabon |
+| 3 | `ambaburkina-ga.org` | central |  | wikidata | embassy of Burkina Faso in Gabon |
+| 3 | `ambalglibreville.com` | central |  | wikidata | Embassy of Algeria, Libreville |
+| 3 | `ambassade-tchad-gabon.com` |  |  | wikidata | Q134385965 |
+| 3 | `eeas.europa.eu` | central |  | wikidata | Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Pri... |
+| 3 | `ga.ambafrance.org` | central |  | wikidata | Embassy of France, Libreville |
 

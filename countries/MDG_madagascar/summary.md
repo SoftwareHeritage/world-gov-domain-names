@@ -33,19 +33,19 @@
 13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `artec.mg` |  | wikidata | ARTEC Madagascar |
-| 4 | `assemblee-nationale.mg` | central | wikidata | National Assembly |
-| 4 | `banque-centrale.mg` |  | wikidata | Central Bank of Madagascar |
-| 4 | `bnm.mg` |  | wikidata | Q140563694 |
-| 4 | `ceni-madagascar.mg` | central | wikidata | National Independent Electoral Commission |
-| 4 | `instat.mg` | central | wikidata | Institut National de la Statistique |
-| 4 | `meteomadagascar.mg` |  | wikidata | Météo Madagascar |
-| 4 | `pnae.mg` |  | wikidata | Office National pour l'Environnement |
-| 4 | `senat.mg` | central | wikidata | Senate |
-| 3 | `antananarivo.diplo.de` | central | wikidata | Embassy of Germany, Antananarivo |
-| 3 | `eeas.europa.eu` | central | wikidata | Delegation of the European Union to Madagascar and to the Comoros |
-| 3 | `madagascar.mid.ru` | central | wikidata | embassy of Russia in Madagascar |
-| 3 | `mg.ambafrance.org` | central | wikidata | Embassy of France, Antananarivo |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `artec.mg` |  |  | wikidata | ARTEC Madagascar |
+| 4 | `assemblee-nationale.mg` | central |  | wikidata | National Assembly |
+| 4 | `banque-centrale.mg` |  |  | wikidata | Central Bank of Madagascar |
+| 4 | `bnm.mg` |  |  | wikidata | Q140563694 |
+| 4 | `ceni-madagascar.mg` | central |  | wikidata | National Independent Electoral Commission |
+| 4 | `instat.mg` | central |  | wikidata | Institut National de la Statistique |
+| 4 | `meteomadagascar.mg` |  |  | wikidata | Météo Madagascar |
+| 4 | `pnae.mg` |  |  | wikidata | Office National pour l'Environnement |
+| 4 | `senat.mg` | central |  | wikidata | Senate |
+| 3 | `antananarivo.diplo.de` | central |  | wikidata | Embassy of Germany, Antananarivo |
+| 3 | `eeas.europa.eu` | central |  | wikidata | Delegation of the European Union to Madagascar and to the Comoros |
+| 3 | `madagascar.mid.ru` | central |  | wikidata | embassy of Russia in Madagascar |
+| 3 | `mg.ambafrance.org` | central |  | wikidata | Embassy of France, Antananarivo |
 

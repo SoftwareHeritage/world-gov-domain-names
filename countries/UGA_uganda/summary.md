@@ -33,26 +33,26 @@
 68 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `agriculture.go.ug` | central | wikidata;wikidata | Ministry of Agriculture, Animal Industry and Fisheries |
-| 7 | `education.go.ug` | central | wikidata;wikidata | Ministry of Education and Sports |
-| 7 | `energyandminerals.go.ug` | central | wikidata;wikidata | Ministry of Energy and Mineral Development |
-| 7 | `finance.go.ug` | central | wikidata;wikidata | Ministry of Finance, Planning and Economic Development |
-| 7 | `health.go.ug` | central | wikidata;wikidata | Ministry of Health |
-| 7 | `ict.go.ug` | central | wikidata;wikidata | Ministry of Information and Communications Technology |
-| 7 | `mia.go.ug` | central | wikidata;wikidata | Ministry of Internal Affairs |
-| 7 | `mlhud.go.ug` | central | wikidata;wikidata | Ministry of Lands, Housing and Urban Development |
-| 7 | `mofa.go.ug` | central | wikidata;wikidata | Ministry of Foreign Affairs of the Republic of Uganda |
-| 7 | `mtic.go.ug` |  | wikidata;wikidata | Ministry of Trade, Industry and Cooperatives |
-| 7 | `mtti.go.ug` | central | wikidata;wikidata | Ministry of Trade, Tourism and Industry |
-| 7 | `mwe.go.ug` | central | wikidata;wikidata | Ministry of Water and Environment |
-| 7 | `nema.go.ug` |  | wikidata;wikidata | National Environment Management Authority of Uganda |
-| 7 | `sti.go.ug` | central | wikidata;wikidata | Ministry of Science, Technology and Innovation |
-| 6 | `gou.go.ug` |  | un_desa | UN/DESA national portal |
-| 4 | `bou.or.ug` |  | wikidata | Bank of Uganda |
-| 4 | `caa.go.ug` |  | wikidata | Civil Aviation Authority of Uganda |
-| 4 | `cmauganda.co.ug` | central | wikidata | Capital Markets Authority |
-| 4 | `coctu.go.ug` |  | wikidata | Coordinating Office for Control of Trypanosomiasis in Uganda |
-| 4 | `dda.or.ug` |  | wikidata | Dairy Development Authority |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `agriculture.go.ug` | central |  | wikidata;wikidata | Ministry of Agriculture, Animal Industry and Fisheries |
+| 7 | `education.go.ug` | central |  | wikidata;wikidata | Ministry of Education and Sports |
+| 7 | `energyandminerals.go.ug` | central |  | wikidata;wikidata | Ministry of Energy and Mineral Development |
+| 7 | `finance.go.ug` | central |  | wikidata;wikidata | Ministry of Finance, Planning and Economic Development |
+| 7 | `health.go.ug` | central |  | wikidata;wikidata | Ministry of Health |
+| 7 | `ict.go.ug` | central |  | wikidata;wikidata | Ministry of Information and Communications Technology |
+| 7 | `mia.go.ug` | central |  | wikidata;wikidata | Ministry of Internal Affairs |
+| 7 | `mlhud.go.ug` | central |  | wikidata;wikidata | Ministry of Lands, Housing and Urban Development |
+| 7 | `mofa.go.ug` | central |  | wikidata;wikidata | Ministry of Foreign Affairs of the Republic of Uganda |
+| 7 | `mtic.go.ug` |  |  | wikidata;wikidata | Ministry of Trade, Industry and Cooperatives |
+| 7 | `mtti.go.ug` | central |  | wikidata;wikidata | Ministry of Trade, Tourism and Industry |
+| 7 | `mwe.go.ug` | central |  | wikidata;wikidata | Ministry of Water and Environment |
+| 7 | `nema.go.ug` |  |  | wikidata;wikidata | National Environment Management Authority of Uganda |
+| 7 | `sti.go.ug` | central |  | wikidata;wikidata | Ministry of Science, Technology and Innovation |
+| 6 | `gou.go.ug` |  |  | un_desa | UN/DESA national portal |
+| 4 | `bou.or.ug` |  |  | wikidata | Bank of Uganda |
+| 4 | `caa.go.ug` |  |  | wikidata | Civil Aviation Authority of Uganda |
+| 4 | `cmauganda.co.ug` | central |  | wikidata | Capital Markets Authority |
+| 4 | `coctu.go.ug` |  |  | wikidata | Coordinating Office for Control of Trypanosomiasis in Uganda |
+| 4 | `dda.or.ug` |  |  | wikidata | Dairy Development Authority |
 

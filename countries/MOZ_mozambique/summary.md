@@ -33,21 +33,21 @@
 15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 8 | `parlamento.mz` | central | wikidata;wikidata | Assembly of the Republic |
-| 6 | `cconstitucional.org.mz` | central | wikidata | Constitutional Council (Mozambique) |
-| 4 | `ahm.uem.mz` |  | wikidata | Arquivo Histórico de Moçambique |
-| 4 | `bancomoc.mz` |  | wikidata | Bank of Mozambique |
-| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Maputo |
-| 4 | `stae.org.mz` | central | wikidata | Secreteriado Técnico de Administração Eleitoral |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Mozambique |
-| 3 | `finlandabroad.fi` | central | wikidata | Embassy of Finland, Maputo |
-| 3 | `malawihcmz.com` | central | wikidata | High Commission of Malawi, Maputo |
-| 3 | `maputo.diplo.de` | central | wikidata | Embassy of Germany, Maputo |
-| 3 | `mozambik.mid.ru` | central | wikidata | Embassy of Russia, Maputo |
-| 3 | `mozambique.nlembassy.org` | central | wikidata | Embassy of the Netherlands, Maputo |
-| 3 | `mz.ambafrance.org` | central | wikidata | Embassy of France, Maputo |
-| 3 | `mz.chineseembassy.org` | central | wikidata | Embassy of the People's Republic of China, Maputo |
-| 3 | `swedenabroad.se` | central | wikidata | Embassy of Sweden, Maputo |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 8 | `parlamento.mz` | central |  | wikidata;wikidata | Assembly of the Republic |
+| 6 | `cconstitucional.org.mz` | central |  | wikidata | Constitutional Council (Mozambique) |
+| 4 | `ahm.uem.mz` |  |  | wikidata | Arquivo Histórico de Moçambique |
+| 4 | `bancomoc.mz` |  |  | wikidata | Bank of Mozambique |
+| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Maputo |
+| 4 | `stae.org.mz` | central |  | wikidata | Secreteriado Técnico de Administração Eleitoral |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Mozambique |
+| 3 | `finlandabroad.fi` | central |  | wikidata | Embassy of Finland, Maputo |
+| 3 | `malawihcmz.com` | central |  | wikidata | High Commission of Malawi, Maputo |
+| 3 | `maputo.diplo.de` | central |  | wikidata | Embassy of Germany, Maputo |
+| 3 | `mozambik.mid.ru` | central |  | wikidata | Embassy of Russia, Maputo |
+| 3 | `mozambique.nlembassy.org` | central |  | wikidata | Embassy of the Netherlands, Maputo |
+| 3 | `mz.ambafrance.org` | central |  | wikidata | Embassy of France, Maputo |
+| 3 | `mz.chineseembassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Maputo |
+| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Maputo |
 

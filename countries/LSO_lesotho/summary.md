@@ -33,12 +33,12 @@
 6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 8 | `parliament.ls` | central | wikidata;wikidata | Parliament of Lesotho |
-| 5 | `nationalassembly.parliament.ls` | central | wikidata | National Assembly |
-| 4 | `agricresearch.org.ls` |  | wikidata | Department of Agricultural Research |
-| 4 | `centralbank.org.ls` |  | wikidata | Central Bank of Lesotho |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Lesotho |
-| 3 | `ls.china-embassy.org` | central | wikidata | Embassy of the People's Republic of China, Maseru |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 8 | `parliament.ls` | central |  | wikidata;wikidata | Parliament of Lesotho |
+| 5 | `nationalassembly.parliament.ls` | central |  | wikidata | National Assembly |
+| 4 | `agricresearch.org.ls` |  |  | wikidata | Department of Agricultural Research |
+| 4 | `centralbank.org.ls` |  |  | wikidata | Central Bank of Lesotho |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Lesotho |
+| 3 | `ls.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Maseru |
 

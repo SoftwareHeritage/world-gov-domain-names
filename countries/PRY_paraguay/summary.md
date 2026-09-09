@@ -33,16 +33,16 @@
 10 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `dominicoshispania.org` |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 6 | `facebook.com` | central-1 | wikidata;wikidata | departmental board of Misiones |
-| 6 | `roc-taiwan.org` | central | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Asunción | Consulate-General of th... |
-| 4 | `embajadadeluruguay.com.py` | central | wikidata | embassy of Uruguay in Paraguay |
-| 3 | `asuncion.diplo.de` | central | wikidata | Embassy of Germany, Asunción |
-| 3 | `asuncion.embassy.qa` | central | wikidata | embassy of Qatar in Paraguay |
-| 3 | `cceasuncion.aecid.es` |  | wikidata | Q139502847 |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Paraguay |
-| 3 | `paraguay.mid.ru` | central | wikidata | embassy of Russia in Paraguay |
-| 3 | `py.ambafrance.org` | central | wikidata | Embassy of France, Asunción |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `dominicoshispania.org` |  |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 6 | `facebook.com` | central-1 |  | wikidata;wikidata | departmental board of Misiones |
+| 6 | `roc-taiwan.org` | central |  | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Asunción | Consulate-General of th... |
+| 4 | `embajadadeluruguay.com.py` | central |  | wikidata | embassy of Uruguay in Paraguay |
+| 3 | `asuncion.diplo.de` | central |  | wikidata | Embassy of Germany, Asunción |
+| 3 | `asuncion.embassy.qa` | central |  | wikidata | embassy of Qatar in Paraguay |
+| 3 | `cceasuncion.aecid.es` |  |  | wikidata | Q139502847 |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Paraguay |
+| 3 | `paraguay.mid.ru` | central |  | wikidata | embassy of Russia in Paraguay |
+| 3 | `py.ambafrance.org` | central |  | wikidata | Embassy of France, Asunción |
 

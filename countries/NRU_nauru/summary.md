@@ -33,7 +33,7 @@
 1 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 10 | `naurugov.nr` | central | un_desa;wikidata;wikidata | Parliament of Nauru | UN/DESA national portal |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 10 | `naurugov.nr` | central |  | un_desa;wikidata;wikidata | Parliament of Nauru | UN/DESA national portal |
 

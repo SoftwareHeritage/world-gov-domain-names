@@ -33,21 +33,21 @@
 15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `assemblee-nationale.td` | central | wikidata;wikidata | National Assembly |
-| 7 | `onecs.td` |  | wikidata;wikidata | Q129709968 |
-| 6 | `eeas.europa.eu` |  | wikidata;wikidata | Delegation of the European Union to Chad |
-| 6 | `gouvernement.td` |  | un_desa | UN/DESA national portal |
-| 6 | `minjustchad.org` | central | wikidata;wikidata | Ministry of Justice |
-| 4 | `adetic.td` |  | wikidata | Agency for the Development of Information and Communication Technologies |
-| 4 | `cndh.td` |  | wikidata | National Human Rights Commission (Tchad) |
-| 4 | `conseilconstitutionnel.td` |  | wikidata | Constitutional Council of Chad |
-| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, N'Djamena |
-| 3 | `hamatchad.org` |  | wikidata | Q65157984 |
-| 3 | `inseed-tchad.org` | central | wikidata | INSEED |
-| 3 | `inseedtchad.com` | central | wikidata | INSEED |
-| 3 | `ndjamena.diplo.de` | central | wikidata | Embassy of Germany, N'Djamena |
-| 3 | `tchad.mid.ru` | central | wikidata | embassy of Russia in Chad |
-| 3 | `td.ambafrance.org` | central | wikidata | Embassy of France, N'Djamena |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `assemblee-nationale.td` | central |  | wikidata;wikidata | National Assembly |
+| 7 | `onecs.td` |  |  | wikidata;wikidata | Q129709968 |
+| 6 | `eeas.europa.eu` |  |  | wikidata;wikidata | Delegation of the European Union to Chad |
+| 6 | `gouvernement.td` |  |  | un_desa | UN/DESA national portal |
+| 6 | `minjustchad.org` | central |  | wikidata;wikidata | Ministry of Justice |
+| 4 | `adetic.td` |  |  | wikidata | Agency for the Development of Information and Communication Technologies |
+| 4 | `cndh.td` |  |  | wikidata | National Human Rights Commission (Tchad) |
+| 4 | `conseilconstitutionnel.td` |  |  | wikidata | Constitutional Council of Chad |
+| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, N'Djamena |
+| 3 | `hamatchad.org` |  |  | wikidata | Q65157984 |
+| 3 | `inseed-tchad.org` | central |  | wikidata | INSEED |
+| 3 | `inseedtchad.com` | central |  | wikidata | INSEED |
+| 3 | `ndjamena.diplo.de` | central |  | wikidata | Embassy of Germany, N'Djamena |
+| 3 | `tchad.mid.ru` | central |  | wikidata | embassy of Russia in Chad |
+| 3 | `td.ambafrance.org` | central |  | wikidata | Embassy of France, N'Djamena |
 

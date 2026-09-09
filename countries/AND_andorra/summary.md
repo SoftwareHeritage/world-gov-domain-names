@@ -33,26 +33,26 @@
 27 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `cultura.ad` | central | wikidata;wikidata | National Archives of Andorra | Andorra National Library |
-| 7 | `educacio.ad` | central | wikidata;wikidata | Ministry of Education and Higher Education of Andorra |
-| 7 | `exteriors.ad` | central | wikidata;wikidata | Ministry of Foreign Affairs |
-| 7 | `finances.ad` | central | wikidata;wikidata | Ministry of Finance of Andorra |
-| 7 | `mobilitat.ad` | central | wikidata;wikidata | Ministry of Territorial Planning of Andorra |
-| 7 | `turisme.ad` | central | wikidata;wikidata | Ministry of Tourism of Andorra |
-| 6 | `tribunalconstitucional.ad` |  | wikidata | Andorra. Tribunal Constitucional |
-| 4 | `afa.ad` |  | wikidata | Andorran Financial Authority |
-| 4 | `apda.ad` | central | wikidata | Data Protection Agency |
-| 4 | `ari.ad` |  | wikidata | Andorra Recerca + Innovació |
-| 4 | `banders.ad` | central | wikidata | Cos de Banders d'Andorra |
-| 4 | `canillo.ad` | central-1 | wikidata | Q117288422 |
-| 4 | `cass.ad` |  | wikidata | Caixa Andorrana de Seguretat Social |
-| 4 | `cea.ad` |  | wikidata | Confederació Empresarial Andorrana |
-| 4 | `comuencamp.ad` | central-1 | wikidata | Q117808860 |
-| 4 | `comusantjulia.ad` | central-1 | wikidata | Q105488867 |
-| 4 | `estadistica.ad` | central | wikidata | Departament d'Estadística |
-| 4 | `estadistica.desenvolupament.ad` | central | wikidata | Departament d'Estadística |
-| 4 | `policia.ad` |  | wikidata | Police Corps of Andorra |
-| 4 | `saas.ad` |  | wikidata | Servei Andorrà d’Atenció Sanitària |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `cultura.ad` | central |  | wikidata;wikidata | National Archives of Andorra | Andorra National Library |
+| 7 | `educacio.ad` | central |  | wikidata;wikidata | Ministry of Education and Higher Education of Andorra |
+| 7 | `exteriors.ad` | central |  | wikidata;wikidata | Ministry of Foreign Affairs |
+| 7 | `finances.ad` | central |  | wikidata;wikidata | Ministry of Finance of Andorra |
+| 7 | `mobilitat.ad` | central |  | wikidata;wikidata | Ministry of Territorial Planning of Andorra |
+| 7 | `turisme.ad` | central |  | wikidata;wikidata | Ministry of Tourism of Andorra |
+| 6 | `tribunalconstitucional.ad` |  |  | wikidata | Andorra. Tribunal Constitucional |
+| 4 | `afa.ad` |  |  | wikidata | Andorran Financial Authority |
+| 4 | `apda.ad` | central |  | wikidata | Data Protection Agency |
+| 4 | `ari.ad` |  |  | wikidata | Andorra Recerca + Innovació |
+| 4 | `banders.ad` | central |  | wikidata | Cos de Banders d'Andorra |
+| 4 | `canillo.ad` | central-1 |  | wikidata | Q117288422 |
+| 4 | `cass.ad` |  |  | wikidata | Caixa Andorrana de Seguretat Social |
+| 4 | `cea.ad` |  |  | wikidata | Confederació Empresarial Andorrana |
+| 4 | `comuencamp.ad` | central-1 |  | wikidata | Q117808860 |
+| 4 | `comusantjulia.ad` | central-1 |  | wikidata | Q105488867 |
+| 4 | `estadistica.ad` | central |  | wikidata | Departament d'Estadística |
+| 4 | `estadistica.desenvolupament.ad` | central |  | wikidata | Departament d'Estadística |
+| 4 | `policia.ad` |  |  | wikidata | Police Corps of Andorra |
+| 4 | `saas.ad` |  |  | wikidata | Servei Andorrà d’Atenció Sanitària |
 

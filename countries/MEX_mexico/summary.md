@@ -33,26 +33,26 @@
 54 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `fgr.org.mx` | central | wikidata;wikidata | General Prosecutor of the Republic |
-| 7 | `franciscanosenmexico.com.mx` |  | wikidata;wikidata | Province of the Holy Gospel in Mexico |
-| 7 | `insp.mx` |  | wikidata;wikidata | Instituto Nacional de Salud Pública |
-| 6 | `escolapiosmexico.org` |  | wikidata;wikidata | Piarist province of Mexico |
-| 6 | `jesuitasmexico.org` |  | wikidata;wikidata | Jesuit Province of Mexico |
-| 6 | `mexiko.ahk.de` |  | wikidata;wikidata | Cámara Mexicano-Alemana de Comercio e Industria |
-| 6 | `sites.google.com` |  | wikidata;wikidata | Q25408184 |
-| 4 | `banxico.org.mx` |  | wikidata | Bank of Mexico |
-| 4 | `bnm.iib.unam.mx` |  | wikidata | National Library of Mexico |
-| 4 | `cardiologia.org.mx` |  | wikidata | Instituto Nacional de Cardiología |
-| 4 | `cdhcm.org.mx` | central-1 | wikidata | Comisión de Derechos Humanos de la Ciudad de México |
-| 4 | `ciad.mx` |  | wikidata | Research Center for Food and Development A.C. |
-| 4 | `ciatej.mx` |  | wikidata | Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jal... |
-| 4 | `cofece.mx` |  | wikidata | Comisión Federal de Competencia |
-| 4 | `conahcyt.mx` |  | wikidata | Consejo Nacional de Humanidades, Ciencias y Tecnologías |
-| 4 | `conapred.org.mx` |  | wikidata | National Council to Prevent Discrimination |
-| 4 | `culturamazatlan.mx` |  | wikidata | Cultura |
-| 4 | `embajadadecostarica.com.mx` | central | wikidata | embassy of Costa Rica in Mexico |
-| 4 | `embajadasudafrica.mx` | central | wikidata | embassy of South Africa in Mexico |
-| 4 | `geoint.mx` |  | wikidata | Laboratorio Nacional de GeoInteligencia |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `fgr.org.mx` | central |  | wikidata;wikidata | General Prosecutor of the Republic |
+| 7 | `franciscanosenmexico.com.mx` |  |  | wikidata;wikidata | Province of the Holy Gospel in Mexico |
+| 7 | `insp.mx` |  |  | wikidata;wikidata | Instituto Nacional de Salud Pública |
+| 6 | `escolapiosmexico.org` |  |  | wikidata;wikidata | Piarist province of Mexico |
+| 6 | `jesuitasmexico.org` |  |  | wikidata;wikidata | Jesuit Province of Mexico |
+| 6 | `mexiko.ahk.de` |  |  | wikidata;wikidata | Cámara Mexicano-Alemana de Comercio e Industria |
+| 6 | `sites.google.com` |  |  | wikidata;wikidata | Q25408184 |
+| 4 | `banxico.org.mx` |  |  | wikidata | Bank of Mexico |
+| 4 | `bnm.iib.unam.mx` |  |  | wikidata | National Library of Mexico |
+| 4 | `cardiologia.org.mx` |  |  | wikidata | Instituto Nacional de Cardiología |
+| 4 | `cdhcm.org.mx` | central-1 |  | wikidata | Comisión de Derechos Humanos de la Ciudad de México |
+| 4 | `ciad.mx` |  |  | wikidata | Research Center for Food and Development A.C. |
+| 4 | `ciatej.mx` |  |  | wikidata | Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jal... |
+| 4 | `cofece.mx` |  |  | wikidata | Comisión Federal de Competencia |
+| 4 | `conahcyt.mx` |  |  | wikidata | Consejo Nacional de Humanidades, Ciencias y Tecnologías |
+| 4 | `conapred.org.mx` |  |  | wikidata | National Council to Prevent Discrimination |
+| 4 | `culturamazatlan.mx` |  |  | wikidata | Cultura |
+| 4 | `embajadadecostarica.com.mx` | central |  | wikidata | embassy of Costa Rica in Mexico |
+| 4 | `embajadasudafrica.mx` | central |  | wikidata | embassy of South Africa in Mexico |
+| 4 | `geoint.mx` |  |  | wikidata | Laboratorio Nacional de GeoInteligencia |
 

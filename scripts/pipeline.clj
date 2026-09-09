@@ -16,6 +16,8 @@
 ;;   mx [DOM…]          DNS MX lookup per host -> mx column (email signal);
 ;;                      a full run also covers the validated roots that have
 ;;                      no harvest file (sources/probes/roots.csv)
+;;   probe-proposed [C…] HTTPS HEAD + MX of the proposed hosts
+;;                      -> sources/probes/proposed.csv, then proposed.csv
 ;;   aggregate          aggregate every host -> data/public-sector-domains.csv
 ;;   central            extract central + central-1 domains
 ;;                      -> data/public-sector-domains-central+.csv
@@ -394,6 +396,20 @@
 (defn write-probes! [country-dir probes]
   (write-csv-file (probes-file country-dir) probes-header
                   (for [[d [st mx]] (sort-by first probes)] [d st mx])))
+
+(defn proposed-probes-file [country-dir] (country-src country-dir "probes" "proposed.csv"))
+
+(defn read-proposed-probes
+  "{hostname [http_status mx]} of countries/<c>/sources/probes/proposed.csv:
+  the probes of the hosts proposed for validation."
+  [country-dir]
+  (into {} (for [[h st mx] (rest (read-csv-raw (proposed-probes-file country-dir)))
+                 :when (not (str/blank? h))]
+             [h [(or st "") (or mx "")]])))
+
+(defn write-proposed-probes! [country-dir probes]
+  (write-csv-file (proposed-probes-file country-dir) ["hostname" "http_status" "mx"]
+                  (for [[h [st mx]] (sort-by first probes)] [h st mx])))
 
 (defn unharvested-roots
   "Validated domains of a country (any level) that have no harvest file:
@@ -1834,8 +1850,10 @@
 
 (defn score-candidates-for!
   "Compute countries/<c>/proposed.csv, the domains proposed for
-  validation (columns hostname,score,sources,label,level), best scores
-  first. Aggregates Wikidata mentions
+  validation (columns hostname,score,sources,label,level,http_status,mx),
+  best scores first; the two probe columns come from
+  sources/probes/proposed.csv (cmd-probe-proposed) and stay blank until
+  a host is probed. Aggregates Wikidata mentions
   (incl. their P1001-derived level), UN/DESA national portal, IANA ccTLD,
   Factbook institution names and link-graph in-degree (sources/linkgraph/,
   see cmd-indegree). Loads the per-country sources into a context map,
@@ -1855,6 +1873,7 @@
         sub-path  (country-src country-dir "wikidata" "subdivisions_level1.csv")
         out       (str "countries/" country-dir "/proposed.csv")
         excluded  (get @excluded-domains country-dir #{})
+        probes    (read-proposed-probes country-dir)
         cctld-primary
         (when (fs/exists? iana-path)
           (some-> (first (second (read-csv-raw iana-path)))    ; row 2, col 1
@@ -1938,8 +1957,43 @@
              (map #(candidate-row ctx %))
              (remove #(= "local" (nth % 4)))
              (sort-by (juxt #(- (nth % 1)) first)))]
-    (write-csv-file out ["hostname" "score" "sources" "label" "level"]
-                    (for [[h sc src lbl lvl] proposed] [h (str sc) src lbl lvl]))))
+    (write-csv-file out ["hostname" "score" "sources" "label" "level"
+                         "http_status" "mx"]
+                    (for [[h sc src lbl lvl] proposed
+                          :let [[st mx] (get probes h ["" ""])]]
+                      [h (str sc) src lbl lvl st mx]))))
+
+(defn probe-proposed!
+  "HTTPS HEAD and MX lookup of a country's proposed hosts (proposed.csv),
+  those not probed yet unless FORCE=1, into sources/probes/proposed.csv --
+  pruned to the hosts still proposed -- then proposed.csv is rewritten
+  with the probe columns filled."
+  [country-dir timeout conc]
+  (let [path  (str "countries/" country-dir "/proposed.csv")
+        hosts (for [[h] (rest (read-csv-raw path)) :when (valid-hostname? h)] h)
+        known (select-keys (read-proposed-probes country-dir) hosts)
+        todo-http (for [h hosts :when (or force? (str/blank? (first (get known h ["" ""]))))] h)
+        todo-mx   (for [h hosts :when (or force? (str/blank? (second (get known h ["" ""]))))] h)]
+    (if (and (empty? todo-http) (empty? todo-mx))
+      (println (str "[" country-dir "] proposed: nothing to probe"))
+      (let [http (into {} (bounded-pmap conc #(probe-one! % timeout) todo-http))
+            mx   (into {} (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo-mx))
+            probes (into {} (for [h hosts
+                                  :let [[st0 mx0] (get known h ["" ""])]]
+                              [h [(get http h st0) (get mx h mx0)]]))]
+        (write-proposed-probes! country-dir probes)
+        (score-candidates-for! country-dir)
+        (println (str "[" country-dir "] proposed: " (count todo-http) " probed, "
+                      (count todo-mx) " MX looked up ("
+                      (count (filter #(re-matches #"[23]\d\d" (first %)) (vals probes)))
+                      " reachable, "
+                      (count (remove #(#{"" "none" "dig error"} (second %)) (vals probes)))
+                      " with MX)"))))))
+
+(defn cmd-probe-proposed [args]
+  (let [timeout (Integer/parseInt (or (System/getenv "TIMEOUT") "5"))
+        conc    (parallel 50)]
+    (iter-countries #(probe-proposed! % timeout conc) args)))
 
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
@@ -2002,10 +2056,11 @@
     (println)))
 
 (defn- candidate-table [cands]
-  (println "| score | hostname | level | sources | label |")
-  (println "|------:|----------|-------|---------|-------|")
-  (doseq [[h sc src lbl lvl] cands]
-    (println (str "| " sc " | `" h "` | " (or lvl "") " | " src " | "
+  (println "| score | hostname | level | http | sources | label |")
+  (println "|------:|----------|-------|------|---------|-------|")
+  (doseq [[h sc src lbl lvl st] cands]
+    (println (str "| " sc " | `" h "` | " (or lvl "") " | "
+                  (truncate (or st "") 12) " | " src " | "
                   (truncate (or lbl "") 80) " |"))))
 
 (defn- section-proposed [path]
@@ -2632,6 +2687,7 @@
    "oecd"        cmd-oecd
    "meta"        cmd-meta
    "cross-check" cmd-cross-check
+   "probe-proposed" cmd-probe-proposed
    "build-qid"   cmd-build-qid
    "validate-un" cmd-validate-un
    "domains"     cmd-domains
@@ -2647,7 +2703,7 @@
   (println "  fetch | retry | normalize | probe | mx | aggregate | central")
   (println "  cisa | lannuaire | govuk")
   (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
-  (println "  validate-un | domains | indegree")
+  (println "  validate-un | domains | indegree | probe-proposed")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)

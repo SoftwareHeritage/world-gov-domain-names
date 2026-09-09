@@ -33,8 +33,8 @@
 2 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `to.chineseembassy.org` | central | wikidata;wikidata | Embassy of the People's Republic of China, Nuku'alofa |
-| 4 | `reservebank.to` |  | wikidata | National Reserve Bank of Tonga |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `to.chineseembassy.org` | central |  | wikidata;wikidata | Embassy of the People's Republic of China, Nuku'alofa |
+| 4 | `reservebank.to` |  |  | wikidata | National Reserve Bank of Tonga |
 

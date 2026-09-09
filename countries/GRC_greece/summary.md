@@ -33,26 +33,26 @@
 105 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 10 | `gsis.gr` |  | wikidata;linkgraph | General Secretariat for Information Systems and Digital Governance |
-| 10 | `hellenicparliament.gr` | central | wikidata;wikidata;linkgraph | Hellenic Parliament |
-| 10 | `minagric.gr` | central | wikidata;wikidata;linkgraph | Ministry of Rural Development and Food (Greece) |
-| 10 | `ypakp.gr` | central | wikidata;wikidata;linkgraph | Ministry of Labour and Social Security |
-| 10 | `ypes.gr` | central | wikidata;wikidata;linkgraph | Ministry of the Interior (Greece) |
-| 9 | `et.gr` |  | wikidata;linkgraph | National Printing Office |
-| 8 | `aade.gr` |  | wikidata;linkgraph | General Chemical State Laboratory |
-| 8 | `areiospagos.gr` | central | wikidata;linkgraph | Court of Cassation |
-| 8 | `dpa.gr` | central | wikidata;linkgraph | Hellenic Data Protection Authority |
-| 7 | `aead.gr` |  | wikidata;wikidata | National Transparency Authority |
-| 7 | `eeae.gr` |  | wikidata;wikidata | Greek Atomic Energy Commission |
-| 7 | `gak.gr` |  | wikidata;wikidata | General State Archives |
-| 7 | `hcmc.gr` | central | wikidata;wikidata | Hellenic Capital Market Commission |
-| 7 | `mindigital.gr` | central | wikidata;wikidata | Ministry of Digital Governance (Greece) |
-| 7 | `ministryofjustice.gr` | central | wikidata;wikidata | Ministry of Justice (Greece) |
-| 7 | `mnec.gr` | central | wikidata;wikidata | Ministry of Economy, Development and Tourism |
-| 7 | `mod.mil.gr` | central | wikidata;wikidata | Ministry of National Defence (Greece) |
-| 7 | `nam.culture.gr` |  | wikidata;wikidata | Directorate for the Curation of the National Archive of Monuments |
-| 7 | `protodikeio-ath.gr` |  | wikidata;wikidata | Athens Chamber of Commerce and Industry | Court of First Instance of Athens |
-| 7 | `yme.gr` | central | wikidata;wikidata | Ministry of Infrastructure and Transport (Greece) |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 10 | `gsis.gr` |  |  | wikidata;linkgraph | General Secretariat for Information Systems and Digital Governance |
+| 10 | `hellenicparliament.gr` | central |  | wikidata;wikidata;linkgraph | Hellenic Parliament |
+| 10 | `minagric.gr` | central |  | wikidata;wikidata;linkgraph | Ministry of Rural Development and Food (Greece) |
+| 10 | `ypakp.gr` | central |  | wikidata;wikidata;linkgraph | Ministry of Labour and Social Security |
+| 10 | `ypes.gr` | central |  | wikidata;wikidata;linkgraph | Ministry of the Interior (Greece) |
+| 9 | `et.gr` |  |  | wikidata;linkgraph | National Printing Office |
+| 8 | `aade.gr` |  |  | wikidata;linkgraph | General Chemical State Laboratory |
+| 8 | `areiospagos.gr` | central |  | wikidata;linkgraph | Court of Cassation |
+| 8 | `dpa.gr` | central |  | wikidata;linkgraph | Hellenic Data Protection Authority |
+| 7 | `aead.gr` |  |  | wikidata;wikidata | National Transparency Authority |
+| 7 | `eeae.gr` |  |  | wikidata;wikidata | Greek Atomic Energy Commission |
+| 7 | `gak.gr` |  |  | wikidata;wikidata | General State Archives |
+| 7 | `hcmc.gr` | central |  | wikidata;wikidata | Hellenic Capital Market Commission |
+| 7 | `mindigital.gr` | central |  | wikidata;wikidata | Ministry of Digital Governance (Greece) |
+| 7 | `ministryofjustice.gr` | central |  | wikidata;wikidata | Ministry of Justice (Greece) |
+| 7 | `mnec.gr` | central |  | wikidata;wikidata | Ministry of Economy, Development and Tourism |
+| 7 | `mod.mil.gr` | central |  | wikidata;wikidata | Ministry of National Defence (Greece) |
+| 7 | `nam.culture.gr` |  |  | wikidata;wikidata | Directorate for the Curation of the National Archive of Monuments |
+| 7 | `protodikeio-ath.gr` |  |  | wikidata;wikidata | Athens Chamber of Commerce and Industry | Court of First Instance of Athens |
+| 7 | `yme.gr` | central |  | wikidata;wikidata | Ministry of Infrastructure and Transport (Greece) |
 

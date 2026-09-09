@@ -33,24 +33,24 @@
 18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 4 | `phcc.qa` |  | wikidata | Primary Health Care |
-| 4 | `qnl.qa` |  | wikidata | Qatar National Library |
-| 3 | `ambasadat.net` | central | wikidata | Embassy of Kosovo, Doha |
-| 3 | `bhembassyqatar.com` | central | wikidata | embassy of Bosnia and Herzegovina in Qatar |
-| 3 | `doha.diplo.de` | central | wikidata | Embassy of Germany, Doha |
-| 3 | `doha.mae.ro` | central | wikidata | embassy of Romania in Qatar |
-| 3 | `finlandabroad.fi` | central | wikidata | Embassy of Finland, Doha |
-| 3 | `lebaneseembassyqatar.com` | central | wikidata | Embassy of Lebanon, Doha |
-| 3 | `mfa.bg` | central | wikidata | embassy of Bulgaria in Qatar |
-| 3 | `mfa.gr` | central | wikidata | embassy of Greece in Qatar |
-| 3 | `nigeriaembassydoha.org` | central | wikidata | Embassy of Nigeria, Doha |
-| 3 | `palemb-qa.net` | central | wikidata | Embassy of the State of Palestine in Qatar |
-| 3 | `qa.ambafrance.org` | central | wikidata | Embassy of France, Doha |
-| 3 | `qa.mvep.hr` | central | wikidata | embassy of Croatia in Qatar |
-| 3 | `qatar.mid.ru` | central | wikidata | embassy of Russia in Qatar |
-| 3 | `swedenabroad.se` | central | wikidata | Embassy of Sweden, Doha |
-| 3 | `unesco.org` |  | wikidata | UNESCO office Qatar |
-| 2 | `shura.qa` | central | wikidata;wikidata;wikidata;wikidata | Consultative Assembly of Qatar |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 4 | `phcc.qa` |  |  | wikidata | Primary Health Care |
+| 4 | `qnl.qa` |  |  | wikidata | Qatar National Library |
+| 3 | `ambasadat.net` | central |  | wikidata | Embassy of Kosovo, Doha |
+| 3 | `bhembassyqatar.com` | central |  | wikidata | embassy of Bosnia and Herzegovina in Qatar |
+| 3 | `doha.diplo.de` | central |  | wikidata | Embassy of Germany, Doha |
+| 3 | `doha.mae.ro` | central |  | wikidata | embassy of Romania in Qatar |
+| 3 | `finlandabroad.fi` | central |  | wikidata | Embassy of Finland, Doha |
+| 3 | `lebaneseembassyqatar.com` | central |  | wikidata | Embassy of Lebanon, Doha |
+| 3 | `mfa.bg` | central |  | wikidata | embassy of Bulgaria in Qatar |
+| 3 | `mfa.gr` | central |  | wikidata | embassy of Greece in Qatar |
+| 3 | `nigeriaembassydoha.org` | central |  | wikidata | Embassy of Nigeria, Doha |
+| 3 | `palemb-qa.net` | central |  | wikidata | Embassy of the State of Palestine in Qatar |
+| 3 | `qa.ambafrance.org` | central |  | wikidata | Embassy of France, Doha |
+| 3 | `qa.mvep.hr` | central |  | wikidata | embassy of Croatia in Qatar |
+| 3 | `qatar.mid.ru` | central |  | wikidata | embassy of Russia in Qatar |
+| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Doha |
+| 3 | `unesco.org` |  |  | wikidata | UNESCO office Qatar |
+| 2 | `shura.qa` | central |  | wikidata;wikidata;wikidata;wikidata | Consultative Assembly of Qatar |
 

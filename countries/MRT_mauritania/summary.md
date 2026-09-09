@@ -33,21 +33,21 @@
 15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 7 | `ami.mr` |  | wikidata;wikidata | Mauritanian Information Agency | Mauritanian News Agency |
-| 7 | `assembleenationale.mr` | central | wikidata;wikidata | National Assembly |
-| 7 | `tdm.mr` |  | wikidata;wikidata | Broadcasting of Mauritania |
-| 4 | `ansade.mr` | central | wikidata | National Agency for Statistics, Demographic and Economic Analysis |
-| 4 | `bcm.mr` |  | wikidata | Central Bank of Mauritania |
-| 4 | `cndh.mr` |  | wikidata | National Human Rights Commission of Mauritania |
-| 4 | `cnla.mr` |  | wikidata | Centre National de Lutte Antiacridienne |
-| 4 | `gendarmerie.mr` |  | wikidata | Law enforcement in Mauritania |
-| 4 | `ons.mr` | central | wikidata | Office National de la Statistique |
-| 4 | `palemb.mr` | central | wikidata | Embassy of the State of Palestine, Nouakchott |
-| 3 | `ccfr.rimpresse.com` | central | wikidata | Q19885895 |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Mauritania |
-| 3 | `mauritanie.mid.ru` | central | wikidata | embassy of Russia in Mauritania |
-| 3 | `mr.ambafrance.org` | central | wikidata | Embassy of France, Nouakchott |
-| 3 | `nouakchott.diplo.de` | central | wikidata | Embassy of Germany, Nouakchott |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 7 | `ami.mr` |  |  | wikidata;wikidata | Mauritanian Information Agency | Mauritanian News Agency |
+| 7 | `assembleenationale.mr` | central |  | wikidata;wikidata | National Assembly |
+| 7 | `tdm.mr` |  |  | wikidata;wikidata | Broadcasting of Mauritania |
+| 4 | `ansade.mr` | central |  | wikidata | National Agency for Statistics, Demographic and Economic Analysis |
+| 4 | `bcm.mr` |  |  | wikidata | Central Bank of Mauritania |
+| 4 | `cndh.mr` |  |  | wikidata | National Human Rights Commission of Mauritania |
+| 4 | `cnla.mr` |  |  | wikidata | Centre National de Lutte Antiacridienne |
+| 4 | `gendarmerie.mr` |  |  | wikidata | Law enforcement in Mauritania |
+| 4 | `ons.mr` | central |  | wikidata | Office National de la Statistique |
+| 4 | `palemb.mr` | central |  | wikidata | Embassy of the State of Palestine, Nouakchott |
+| 3 | `ccfr.rimpresse.com` | central |  | wikidata | Q19885895 |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Mauritania |
+| 3 | `mauritanie.mid.ru` | central |  | wikidata | embassy of Russia in Mauritania |
+| 3 | `mr.ambafrance.org` | central |  | wikidata | Embassy of France, Nouakchott |
+| 3 | `nouakchott.diplo.de` | central |  | wikidata | Embassy of Germany, Nouakchott |
 

@@ -33,14 +33,14 @@
 8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 6 | `mfa.somaligov.net` | central | wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation of the Federal Repu... |
-| 4 | `dns.org.so` | central | wikidata | Directorate of National Statistics |
-| 4 | `mofaic.gov.ae` | central | wikidata | Embassy of the United Arab Emirates, Mogadishu |
-| 4 | `pha.pl.so` |  | wikidata | Puntland Highway Authority |
-| 4 | `pmpf.so` |  | wikidata | Puntland Maritime Police Force |
-| 3 | `eeas.europa.eu` |  | wikidata | Delegation of the European Union to Somalia |
-| 3 | `mict.govsomaliland.org` |  | wikidata | Ministry of Information and Communication Technology |
-| 1 | `moesomalia.net` | central | wikidata;wikidata;wikidata;wikidata | Ministry of Education, Culture and Higher Education | Ministry of Education (... |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 6 | `mfa.somaligov.net` | central |  | wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation of the Federal Repu... |
+| 4 | `dns.org.so` | central |  | wikidata | Directorate of National Statistics |
+| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Mogadishu |
+| 4 | `pha.pl.so` |  |  | wikidata | Puntland Highway Authority |
+| 4 | `pmpf.so` |  |  | wikidata | Puntland Maritime Police Force |
+| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Somalia |
+| 3 | `mict.govsomaliland.org` |  |  | wikidata | Ministry of Information and Communication Technology |
+| 1 | `moesomalia.net` | central |  | wikidata;wikidata;wikidata;wikidata | Ministry of Education, Culture and Higher Education | Ministry of Education (... |
 

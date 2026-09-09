@@ -33,26 +33,26 @@
 274 domain(s) proposed for validation, of which 47 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
-| score | hostname | level | sources | label |
-|------:|----------|-------|---------|-------|
-| 10 | `vlaanderen.be` | central-1 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Flemish Government | Flemish Tax Service | Research Institute for Nature and ... |
-| 7 | `arch.be` |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | State Archives in Kortrijk | Algemeen Rijksarchief en Rijksarchief in de Prov... |
-| 7 | `autoriteprotectiondonnees.be` | central | wikidata;linkgraph | Data Protection Authority |
-| 7 | `beci.be` |  | wikidata;wikidata | Brussels Enterprises Commerce and Industry |
-| 7 | `dbrc.be` | central-1 | wikidata;wikidata | Council for Permit Disputes | Council for Election Disputes |
-| 7 | `departementwvg.be` | central-1 | wikidata;wikidata;wikidata | Department of Welfare, Public Health and Family | Flemish Infrastructure Fund... |
-| 7 | `dglive.be` | central | wikidata;wikidata | Ministry of the German-speaking Community |
-| 7 | `gegevensbeschermingsautoriteit.be` | central | wikidata;linkgraph | Data Protection Authority |
-| 7 | `gouvernement.cfwb.be` | central-1 | wikidata;wikidata | Government of the French Community |
-| 7 | `gouvernement.wallonie.be` | central-1 | wikidata;wikidata | Government of Wallonia |
-| 7 | `lv.vlaanderen.be` | central-1 | wikidata;wikidata | Department of Agriculture and Fisheries |
-| 7 | `mofaic.gov.ae` | central | wikidata;wikidata | embassy of United Arab Emirates in Belgium | Permanent Mission of the United ... |
-| 7 | `om-mp.be` | central | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Q107677931 | Q111686458 | Q107677924 | Q111686279 | Q107677926 | Q111686333 |... |
-| 7 | `omgeving.vlaanderen.be` | central-1 | wikidata;wikidata | Department of Environment and Health |
-| 7 | `onderwijs.vlaanderen.be` | central-1 | wikidata;wikidata | Flemish Ministry of Education and Training |
-| 7 | `ostbelgienlive.be` | central-1 | wikidata;wikidata;wikidata | Government of the German-speaking Community | Representation of the German-sp... |
-| 7 | `parlement-wallonie.be` | central-1 | wikidata;wikidata | Parliament of Wallonia |
-| 7 | `parlement.brussels` | central-1 | wikidata;wikidata | Parliament of the Brussels-Capital Region |
-| 7 | `pdg.be` | central-1 | wikidata;wikidata | Parliament of the German-speaking Community |
-| 7 | `pfwb.be` | central-1 | wikidata;wikidata | Parliament of the French Community |
+| score | hostname | level | http | sources | label |
+|------:|----------|-------|------|---------|-------|
+| 10 | `vlaanderen.be` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Flemish Government | Flemish Tax Service | Research Institute for Nature and ... |
+| 7 | `arch.be` |  |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | State Archives in Kortrijk | Algemeen Rijksarchief en Rijksarchief in de Prov... |
+| 7 | `autoriteprotectiondonnees.be` | central |  | wikidata;linkgraph | Data Protection Authority |
+| 7 | `beci.be` |  |  | wikidata;wikidata | Brussels Enterprises Commerce and Industry |
+| 7 | `dbrc.be` | central-1 |  | wikidata;wikidata | Council for Permit Disputes | Council for Election Disputes |
+| 7 | `departementwvg.be` | central-1 |  | wikidata;wikidata;wikidata | Department of Welfare, Public Health and Family | Flemish Infrastructure Fund... |
+| 7 | `dglive.be` | central |  | wikidata;wikidata | Ministry of the German-speaking Community |
+| 7 | `gegevensbeschermingsautoriteit.be` | central |  | wikidata;linkgraph | Data Protection Authority |
+| 7 | `gouvernement.cfwb.be` | central-1 |  | wikidata;wikidata | Government of the French Community |
+| 7 | `gouvernement.wallonie.be` | central-1 |  | wikidata;wikidata | Government of Wallonia |
+| 7 | `lv.vlaanderen.be` | central-1 |  | wikidata;wikidata | Department of Agriculture and Fisheries |
+| 7 | `mofaic.gov.ae` | central |  | wikidata;wikidata | embassy of United Arab Emirates in Belgium | Permanent Mission of the United ... |
+| 7 | `om-mp.be` | central |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Q107677931 | Q111686458 | Q107677924 | Q111686279 | Q107677926 | Q111686333 |... |
+| 7 | `omgeving.vlaanderen.be` | central-1 |  | wikidata;wikidata | Department of Environment and Health |
+| 7 | `onderwijs.vlaanderen.be` | central-1 |  | wikidata;wikidata | Flemish Ministry of Education and Training |
+| 7 | `ostbelgienlive.be` | central-1 |  | wikidata;wikidata;wikidata | Government of the German-speaking Community | Representation of the German-sp... |
+| 7 | `parlement-wallonie.be` | central-1 |  | wikidata;wikidata | Parliament of Wallonia |
+| 7 | `parlement.brussels` | central-1 |  | wikidata;wikidata | Parliament of the Brussels-Capital Region |
+| 7 | `pdg.be` | central-1 |  | wikidata;wikidata | Parliament of the German-speaking Community |
+| 7 | `pfwb.be` | central-1 |  | wikidata;wikidata | Parliament of the French Community |
 
