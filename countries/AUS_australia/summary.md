@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 8 of 193
 - Government type: federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm
 - Capital: Canberra
-- Domains collected (HTTP 200): 4451
+- Domains collected (HTTP 200): 4456
 
 ## UN/DESA national portal
 

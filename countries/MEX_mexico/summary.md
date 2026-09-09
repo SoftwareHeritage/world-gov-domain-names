@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 65 of 193
 - Government type: federal presidential republic
 - Capital: Mexico City (Ciudad de Mexico)
-- Domains collected (HTTP 200): 2265
+- Domains collected (HTTP 200): 2328
 
 ## UN/DESA national portal
 

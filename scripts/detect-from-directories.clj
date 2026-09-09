@@ -60,6 +60,29 @@
         (str/replace #"/.*$" "")
         (str/replace #":.*$" ""))))
 
+(defn read-csv-raw
+  "Read a CSV as a seq of vectors (header included); nil when absent."
+  [path]
+  (when (fs/exists? path)
+    (with-open [r (io/reader (str path))]
+      (doall (csv/read-csv r)))))
+
+(defn sync-validated!
+  "Rewrite the rows of countries/<c>/validated.csv owned by source with fresh
+  [domain level name] rows: the old rows of that source go, the fresh ones
+  come in unless the domain is already listed under another source (a
+  manual decision or another registry wins). Copy of pipeline.clj's."
+  [country-dir source fresh]
+  (let [path  (str "countries/" country-dir "/validated.csv")
+        rows  (for [[d level src name] (rest (read-csv-raw path))
+                    :when (not (str/blank? d))]
+                [(str/lower-case (str/trim d)) (or level "") (or src "") (or name "")])
+        kept  (remove #(= source (nth % 2)) rows)
+        taken (set (map first kept))
+        fresh (for [[d level name] fresh :when (not (taken d))] [d level source (or name "")])]
+    (write-csv-file path ["domain" "level" "source" "name"]
+                    (sort-by first (concat kept fresh)))))
+
 (defn valid-hostname? [h]
   (boolean
     (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
@@ -132,6 +155,7 @@
    ;; registry. (organisasjonsform STAT alone only carries the ~18
    ;; top-level organs.)
    {:channel       :registry
+    :registry      "brreg"          ; sources/<registry>/ and validated.csv source
     :format        :json-pages
     :url           (str "https://data.brreg.no/enhetsregisteret/api/enheter"
                         "?institusjonellSektorkode=6100&size=500&page=")
@@ -403,10 +427,11 @@
 (defn cmd-directory
   "Harvest the official government directories of directory-specs (all of
   them, or the given country_dirs) and write, per the spec's :channel,
-  either sources/registry/roots.csv (authoritative central scoping) or
+  either sources/<registry>/roots.csv plus the <registry> rows of
+  validated.csv (authoritative central scoping) or
   sources/directory/orgs.csv (candidates channel, curation decides)."
   [args]
-  (doseq [[country {:keys [channel format source] :as spec}]
+  (doseq [[country {:keys [channel registry format source] :as spec}]
           (sort-by key directory-specs)
           :when (or (empty? args) (some #{country} args))]
     (let [rows (case format
@@ -419,12 +444,15 @@
         (let [hosts (directory-hosts spec rows)]
           (case channel
             :registry
-            (let [out (country-src country "registry" "roots.csv")]
+            (let [out (country-src country registry "roots.csv")]
               (write-csv-file out ["domain" "organization" "source"]
                               (for [[h {:keys [names]}] (sort-by key hosts)]
                                 [h (str/join " | " names) source]))
+              (sync-validated! country registry
+                               (for [[h {:keys [names]}] (sort-by key hosts)]
+                                 [h "central" (str/join " | " names)]))
               (println (str country ": " (count hosts) " domains -> " out
-                            " (" (count rows) " orgs listed)")))
+                            " and validated.csv (" (count rows) " orgs listed)")))
             :candidates
             (let [out (country-src country "directory" "orgs.csv")]
               (write-csv-file out ["hostname" "mentions" "evidence"]

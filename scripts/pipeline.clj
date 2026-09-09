@@ -11,14 +11,16 @@
 ;;   fetch [DOM…]       crt.sh fetch (1+ domains)
 ;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
 ;;   normalize          clean every harvest file (sources/crtsh/<root>.csv)
-;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status
+;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status; a full
+;;                      run also covers the unharvested validated roots
 ;;   mx [DOM…]          DNS MX lookup per host -> mx column (email signal);
-;;                      a full run also covers the registry roots (CISA, …)
+;;                      a full run also covers the validated roots that have
+;;                      no harvest file (sources/probes/roots.csv)
 ;;   aggregate          aggregate every host -> data/public-sector-domains.csv
 ;;   central            extract central + central-1 domains
 ;;                      -> data/public-sector-domains-central+.csv
-;;   cisa               fetch CISA federal .gov registry -> US root registry
-;;   lannuaire          fetch FR service-public.gouv.fr directory -> FR registry
+;;   cisa               fetch CISA federal .gov registry -> sources/cisa/ + validated.csv
+;;   lannuaire          fetch FR service-public.gouv.fr directory -> sources/lannuaire/ + validated.csv
 ;;   govuk              build UK sub-central exclusions -> GBR sources/govuk/
 ;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
 ;;   iana [C…]          IANA ccTLD registry
@@ -107,14 +109,6 @@
   (country-src \"FRA_france\" \"iana\" \"cctld.csv\"). With none, the dir."
   [country-dir source & [file]]
   (str "countries/" country-dir "/sources/" source (when file (str "/" file))))
-
-(defn read-mx-map
-  "Read a dir's mx.csv (sources/registry/) into a {host mx} map (empty map if absent)."
-  [dir]
-  (let [path (str dir "/mx.csv")]
-    (if (fs/exists? path)
-      (into {} (for [[h mx] (rest (read-csv-raw path))] [h mx]))
-      {})))
 
 (defn country-dirs
   "All country_dir present under countries/. ASCII-sorted."
@@ -338,7 +332,8 @@
 ;; with the HTTPS probe and the MX lookup of each. Harvesting a root is a
 ;; choice distinct from validating it: `fetch <root>` creates the file of a
 ;; root listed in some validated.csv; validated roots without a file
-;; (registry roots, mostly) only get their apex probed elsewhere.
+;; (registry roots, mostly) only get their apex probed, into
+;; countries/<c>/sources/probes/roots.csv (domain,http_status,mx).
 
 (def harvest-header ["subdomain" "http_status" "mx"])
 
@@ -384,12 +379,39 @@
     (write-csv-file file harvest-header
                     (for [[h [st mx]] (sort-by first merged)] [h st mx]))))
 
-(defn harvest-mx
-  "MX of the apex of a harvested root, or \"\" (no file, no lookup yet)."
+(def probes-header ["domain" "http_status" "mx"])
+
+(defn probes-file [country-dir] (country-src country-dir "probes" "roots.csv"))
+
+(defn read-probes
+  "{domain [http_status mx]} of countries/<c>/sources/probes/roots.csv: the
+  probes of the validated roots that have no harvest file."
+  [country-dir]
+  (into {} (for [[d st mx] (rest (read-csv-raw (probes-file country-dir)))
+                 :when (not (str/blank? d))]
+             [d [(or st "") (or mx "")]])))
+
+(defn write-probes! [country-dir probes]
+  (write-csv-file (probes-file country-dir) probes-header
+                  (for [[d [st mx]] (sort-by first probes)] [d st mx])))
+
+(defn unharvested-roots
+  "Validated domains of a country (any level) that have no harvest file:
+  their apex is all we know, probed through sources/probes/roots.csv."
+  [country-dir]
+  (for [[c d] (validated-rows)
+        :when (and (= c country-dir) (not (fs/exists? (harvest-file c d))))]
+    d))
+
+(defn root-probes
+  "[http_status mx] of a validated root: from its harvest file's apex row
+  when harvested, else from the probes file; [\"\" \"\"] when unknown."
   [country-dir root]
-  (or (some (fn [[h _ mx]] (when (= h root) mx))
-            (read-harvest (harvest-file country-dir root)))
-      ""))
+  (if (fs/exists? (harvest-file country-dir root))
+    (or (some (fn [[h st mx]] (when (= h root) [st mx]))
+              (read-harvest (harvest-file country-dir root)))
+        ["" ""])
+    (get (read-probes country-dir) root ["" ""])))
 
 (defn resolve-harvest-files
   "Domain names -> harvest file paths. Existing files first; a root with
@@ -555,9 +577,28 @@
               (write-harvest! file (for [[h st mx] rows]
                                      [h (get probed h st) mx])))))))))
 
+(defn probe-roots!
+  "HTTPS HEAD probe of a country's unharvested validated roots whose
+  status is still blank, into sources/probes/roots.csv."
+  [country-dir timeout]
+  (let [probes (read-probes country-dir)
+        todo   (for [d (unharvested-roots country-dir)
+                     :when (str/blank? (first (get probes d ["" ""])))]
+                 d)]
+    (when (seq todo)
+      (println (str "[" country-dir "/probes] " (count todo) " roots to probe"))
+      (let [probed (into {} (bounded-pmap (parallel 50) #(probe-one! % timeout) todo))]
+        (write-probes! country-dir
+                       (reduce (fn [m [d st]] (assoc m d [st (second (get m d ["" ""]))]))
+                               probes probed))))))
+
 (defn cmd-probe [args]
   (let [timeout (Integer/parseInt (or (System/getenv "TIMEOUT") "5"))]
-    (doseq [f (resolve-harvest-files args)] (probe-domain! f timeout))))
+    (doseq [f (resolve-harvest-files args)] (probe-domain! f timeout))
+    ;; a domain-scoped run stays scoped; a full run also covers the
+    ;; validated roots that have no harvest file
+    (when (empty? args)
+      (doseq [c (country-dirs)] (probe-roots! c timeout)))))
 
 ;; ===========================================================================
 ;;  Phase 3b -- MX records (email signal, never a filter)
@@ -599,61 +640,65 @@
                       (count (remove #(#{"none" "dig error"} %) (vals looked)))
                       " with MX)"))))))
 
-(defn mx-registry!
-  "Look up MX for the per-country registry root domains (CISA, lannuaire, …)
-  and write countries/<c>/sources/registry/mx.csv. These roots have no
-  harvest file, so the per-file pass never sees them -- yet their apexes
-  ARE email domains the central-gov file watches. Domains that do have a
-  harvest file are skipped (mx-domain! covers them). Reuses
-  already-looked-up domains unless FORCE=1."
-  [conc]
-  (doseq [c (country-dirs)
-          :let [roots-csv (country-src c "registry" "roots.csv")]
-          :when (fs/exists? roots-csv)]
-    (let [out   (country-src c "registry" "mx.csv")
-          hosts (->> (rest (read-csv-raw roots-csv))
-                     (map #(some-> (first %) str/trim str/lower-case))
-                     (filter valid-hostname?)
-                     (remove #(fs/exists? (harvest-file c %)))
-                     distinct)
-          done  (if (and (not force?) (fs/exists? out))
-                  (into {} (for [[h mx] (rest (read-csv-raw out))] [h mx]))
-                  {})
-          todo  (remove #(contains? done %) hosts)]
-      (if (empty? todo)
-        (println (str "[" c "/registry] mx: nothing to look up"))
-        (let [looked (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo)
-              rows   (sort-by first (concat (map vec done) looked))]
-          (write-csv-file out ["subdomain" "mx"] rows)
-          (println (str "[" c "/registry] mx: " (count todo) " looked up ("
-                        (count (filter #(not (#{"none" "dig error"} (second %))) looked))
-                        " with MX)")))))))
+(defn mx-roots!
+  "Look up MX for a country's unharvested validated roots, into
+  sources/probes/roots.csv: they have no harvest file, so the per-file
+  pass never sees them -- yet their apexes ARE email domains the
+  central-gov file watches. Reuses already-looked-up roots unless FORCE=1."
+  [country-dir conc]
+  (let [probes (read-probes country-dir)
+        todo   (for [d (unharvested-roots country-dir)
+                     :when (or force? (str/blank? (second (get probes d ["" ""]))))]
+                 d)]
+    (when (seq todo)
+      (let [looked (bounded-pmap conc (fn [d] [d (mx-lookup d)]) todo)]
+        (write-probes! country-dir
+                       (reduce (fn [m [d mx]] (assoc m d [(first (get m d ["" ""])) mx]))
+                               probes looked))
+        (println (str "[" country-dir "/probes] mx: " (count todo) " looked up ("
+                      (count (remove #(#{"none" "dig error"} (second %)) looked))
+                      " with MX)"))))))
 
 (defn cmd-mx [args]
   (let [conc (parallel 50)]
     (doseq [f (resolve-harvest-files args)] (mx-domain! f conc))
-    ;; Registry roots (CISA, lannuaire, …) have no harvest file; cover
-    ;; their apexes on a full run (a domain-scoped run stays scoped).
+    ;; Unharvested validated roots (registry roots, mostly) have no
+    ;; harvest file; cover their apexes on a full run (a domain-scoped
+    ;; run stays scoped).
     (when (empty? args)
-      (mx-registry! conc))))
+      (doseq [c (country-dirs)] (mx-roots! c conc)))))
 
 ;; ===========================================================================
 ;;  Phase 4 -- aggregate
 ;; ===========================================================================
 
-(defn- regenerate-country-subdomains!
-  "Aggregate the harvest files of a country into countries/<c>/subdomains.csv
-  (subdomain,parent_domain,http_status,mx): every harvested host, roots
-  included."
+(defn country-hosts
+  "[host parent_domain http_status mx] rows of a country: every host of its
+  harvest files (their root included), then the apex of every validated
+  root without a harvest file, with its probes from sources/probes/ --
+  unless some harvest already lists that host. ASCII-sorted by host."
   [country-dir]
-  (let [out (str "countries/" country-dir "/subdomains.csv")
-        rows (->> (harvest-files country-dir)
-                  (mapcat (fn [file]
-                            (let [parent (harvest-root file)]
-                              (for [[sub st mx] (read-harvest file)]
-                                [sub parent st mx]))))
-                  (sort-by first))]
-    (write-csv-file out ["subdomain" "parent_domain" "http_status" "mx"] rows)))
+  (let [harvested (for [file (harvest-files country-dir)
+                        :let [parent (harvest-root file)]
+                        [sub st mx] (read-harvest file)]
+                    [sub parent st mx])
+        seen      (set (map first harvested))
+        probes    (read-probes country-dir)
+        roots     (for [d (unharvested-roots country-dir)
+                        :when (not (seen d))
+                        :let [[st mx] (get probes d ["" ""])]]
+                    [d d st mx])]
+    (sort-by first (concat harvested roots))))
+
+(defn- regenerate-country-subdomains!
+  "Aggregate a country's hosts into countries/<c>/subdomains.csv
+  (subdomain,parent_domain,http_status,mx): every harvested host, roots
+  included, plus the apex of every validated root that has no harvest
+  file (see country-hosts)."
+  [country-dir]
+  (write-csv-file (str "countries/" country-dir "/subdomains.csv")
+                  ["subdomain" "parent_domain" "http_status" "mx"]
+                  (country-hosts country-dir)))
 
 (defn- country-meta-field
   "Read one field from countries/<c>/sources/country_data/info.csv (or \"\")."
@@ -676,20 +721,19 @@
 (defn cmd-aggregate [_]
   (let [un-by-country (build-un-status-map)
         meta-by-country (country-meta-map)
-        ;; data/public-sector-domains.csv -- every harvested host (root apex AND subdomains),
-        ;; regardless of HTTP/MX. Inclusion criterion: the host existed in DNS at
-        ;; least once (it appeared in a source like crt.sh). http_status and mx
-        ;; travel along as signals, never as filters.
-        rows (->> (harvest-files)
-                  (mapcat (fn [file]
-                            (let [parent  (harvest-root file)
-                                  country (harvest-country file)
-                                  un (get un-by-country country "member")
+        ;; data/public-sector-domains.csv -- every harvested host (root apex AND
+        ;; subdomains) plus the apex of every validated root, regardless of
+        ;; HTTP/MX. Inclusion criterion: the host existed in DNS at least once
+        ;; (it appeared in a source like crt.sh) or is a confirmed root.
+        ;; http_status and mx travel along as signals, never as filters.
+        rows (->> (country-dirs)
+                  (mapcat (fn [country]
+                            (let [un (get un-by-country country "member")
                                   m  (get meta-by-country country)]
                               ;; UN-facing output: keep UN members and observers
                               ;; only, never non-UN entities (Taiwan, Kosovo).
                               (when (not= un "non_un")
-                                (for [[sub status mx] (read-harvest file)]
+                                (for [[sub parent status mx] (country-hosts country)]
                                   [sub parent country un
                                    (:region m) (:langs m) (:gdp m)
                                    status mx])))))
@@ -805,26 +849,13 @@
   (into (get excl [country domain] #{})
         (get c1-under [country domain])))
 
-(def ^:private registry-mx-map
-  "{host mx} cached by mx-registry! for a country's registry, read once."
-  (memoize (fn [country] (read-mx-map (country-src country "registry")))))
-
-(defn- registry-mx
-  "MX of a per-country registry domain, or \"\"."
-  [country domain]
-  (get (registry-mx-map country) domain ""))
-
 (defn- central-root-entries
   "All [country domain mx] feeding the central+ file's central rows: the
-  level=central rows of validated.csv. The MX comes from the root's
-  harvest file when it has one (apex row), else from the registry MX
-  cached by mx-registry!."
+  level=central rows of validated.csv, with the apex MX (root-probes)."
   []
   (for [[c d level] (validated-rows)
         :when (= level "central")]
-    [c d (if (fs/exists? (harvest-file c d))
-           (harvest-mx c d)
-           (registry-mx c d))]))
+    [c d (second (root-probes c d))]))
 
 (defn- central1-entries
   "First-tier (central-1) domains feeding the central+ file: the
@@ -867,7 +898,7 @@
                         (fn [un m]
                           [domain country level un (:region m)
                            (:langs m) (:gdp m) name score sources
-                           (registry-mx country domain)])))
+                           (second (root-probes country domain))])))
                     (central1-entries)))
              ;; one row per [domain country]: a central-1 candidate whose
              ;; domain is also a confirmed central root (via a registry)
@@ -903,11 +934,11 @@
   "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv")
 
 (defn cmd-cisa [_]
-  ;; Fetch CISA's authoritative federal .gov registry and write it as the US
-  ;; central-gov root registry (sources/registry/roots.csv). Every entry is a
-  ;; verified US federal executive/legislative/judicial domain, so this is the
-  ;; clean central-gov source for the US -- preferred over a bare 'gov' suffix,
-  ;; which false-matches 'government.com', 'govtech.io', etc.
+  ;; Fetch CISA's authoritative federal .gov registry into sources/cisa/
+  ;; roots.csv and sync the cisa rows of the US validated.csv. Every entry
+  ;; is a verified US federal executive/legislative/judicial domain, so
+  ;; this is the clean central-gov source for the US -- preferred over a
+  ;; bare 'gov' suffix, which false-matches 'government.com', 'govtech.io'…
   (let [body (http-get cisa-federal-url {:timeout 60})]
     (if (str/blank? body)
       (do (err "ERR: CISA fetch failed (" cisa-federal-url ")") 1)
@@ -918,10 +949,13 @@
                          (filter #(valid-hostname? (first %)))
                          (sort-by first)
                          distinct)
-            out (country-src "USA_united_states" "registry" "roots.csv")]
+            out (country-src "USA_united_states" "cisa" "roots.csv")]
         (ensure-dir (fs/parent out))
         (write-csv-file out ["domain" "type" "organization"] domains)
-        (println (str "Wrote " out " (" (count domains) " federal .gov domains from CISA)"))
+        (sync-validated! "USA_united_states" "cisa"
+                         (for [[d _type org] domains] [d "central" org]))
+        (println (str "Wrote " out " (" (count domains) " federal .gov domains from CISA)"
+                      " and synced validated.csv"))
         0))))
 
 (def lannuaire-url
@@ -929,10 +963,12 @@
        "datasets/api-lannuaire-administration/exports/json"))
 
 (defn cmd-lannuaire [_]
-  ;; Fetch France's official national administration directory and write the FR
-  ;; root registry: distinct .fr registrable domains of the central administrations
-  ;; (ministries + central services). The .fr filter drops the international-org
-  ;; cross-references (imf.org, wmo.int, ...) that pollute the listed websites.
+  ;; Fetch France's official national administration directory into
+  ;; sources/lannuaire/roots.csv and sync the lannuaire rows of the FR
+  ;; validated.csv: distinct .fr registrable domains of the central
+  ;; administrations (ministries + central services). The .fr filter drops
+  ;; the international-org cross-references (imf.org, wmo.int, ...) that
+  ;; pollute the listed websites.
   (let [where "type_organisme=\"Administration centrale (ou Ministère)\""
         body (http-get lannuaire-url
                        {:timeout 90
@@ -950,11 +986,14 @@
                          (filter valid-hostname?)
                          distinct
                          sort)
-            out (country-src "FRA_france" "registry" "roots.csv")]
+            out (country-src "FRA_france" "lannuaire" "roots.csv")]
         (ensure-dir (fs/parent out))
         (write-csv-file out ["domain" "source"]
                         (for [d domains] [d "lannuaire.service-public.gouv.fr"]))
-        (println (str "Wrote " out " (" (count domains) " .fr central-admin domains)"))
+        (sync-validated! "FRA_france" "lannuaire"
+                         (for [d domains] [d "central" ""]))
+        (println (str "Wrote " out " (" (count domains) " .fr central-admin domains)"
+                      " and synced validated.csv"))
         0))))
 
 ;; ===========================================================================

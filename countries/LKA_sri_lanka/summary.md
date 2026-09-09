@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 98 of 193
 - Government type: presidential republic
 - Capital: Colombo (commercial capital); Sri Jayewardenepura Kotte (legislative capital)
-- Domains collected (HTTP 200): 1133
+- Domains collected (HTTP 200): 1136
 
 ## UN/DESA national portal
 

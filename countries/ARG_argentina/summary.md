@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 42 of 193
 - Government type: presidential republic
 - Capital: Buenos Aires
-- Domains collected (HTTP 200): 1692
+- Domains collected (HTTP 200): 1724
 
 ## UN/DESA national portal
 
