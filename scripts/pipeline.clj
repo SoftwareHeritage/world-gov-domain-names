@@ -266,7 +266,11 @@
 (defn probe-one!
   "HTTPS HEAD via babashka.http-client. Returns [sub status] where status is the
   HTTP code (e.g. \"200\") on success or a short single-line error message on
-  failure (e.g. \"UnknownHostException: foo.gov.fr\")."
+  failure: the exception classes from the outermost to the root cause
+  (e.g. \"ConnectException > UnresolvedAddressException\" for a name without
+  a DNS record, \"ConnectException > ClosedChannelException\" for a refused
+  connection) and the deepest message, when any. The Java client wraps the
+  cause in a message-less ConnectException, which alone hides it."
   [sub timeout]
   (let [resp (try
                (http/head (str "https://" sub "/")
@@ -275,9 +279,10 @@
                            :throw false
                            :timeout (* timeout 1000)})
                (catch Exception e
-                 (let [msg (single-line (.getMessage e))
-                       cls (.getSimpleName (class e))]
-                   {:err (if (str/blank? msg) cls (str cls ": " msg))})))
+                 (let [chain (take-while some? (iterate #(.getCause ^Throwable %) e))
+                       cls   (str/join " > " (distinct (map #(.getSimpleName (class %)) chain)))
+                       msg   (->> chain (map #(single-line (.getMessage %))) (remove str/blank?) last)]
+                   {:err (if msg (str cls ": " msg) cls)})))
         code (some-> resp :status str)
         status (cond
                  (and code (not (#{"0" "000"} code))) code
