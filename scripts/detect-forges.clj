@@ -19,92 +19,22 @@
 ;;   PARALLEL           # concurrent probes (default 8)
 
 (ns detect-forges
-  (:require [babashka.http-client :as http]
+  (:require [common :refer :all]
+            [babashka.http-client :as http]
             [babashka.fs :as fs]
             [babashka.process :as proc]
             [cheshire.core :as json]
             [clj-yaml.core :as yaml]
-            [clojure.data.csv :as csv]
-            [clojure.java.io :as io]
             [clojure.string :as str]))
 
 ;; ---------------------------------------------------------------------------
-;; Helpers (small copies of pipeline.clj's -- the two scripts stay
-;; independent so that neither can break the other)
+;; Config
 ;; ---------------------------------------------------------------------------
 
-(def ua "world-gov-domain-names/0.1 (https://github.com/bzg)")
-
-(defn err [& xs] (binding [*out* *err*] (println (apply str xs))))
-
-(defn single-line [s] (-> (str s) (str/replace #"\s+" " ") str/trim))
-
-(defn read-csv-raw [path]
-  (when (fs/exists? path)
-    (with-open [r (io/reader (str path))]
-      (doall (csv/read-csv r)))))
-
-(defn write-csv-file [path header rows]
-  (when-let [parent (fs/parent path)]
-    (fs/create-dirs parent))
-  (with-open [w (io/writer (str path))]
-    (csv/write-csv w (cons header rows))))
-
-(defn country-dirs []
-  (->> (fs/list-dir "countries")
-       (filter fs/directory?)
-       (map (comp str fs/file-name))
-       sort
-       vec))
-
-(defn parallel [default-n]
-  (let [v (System/getenv "PARALLEL")]
-    (if (and v (re-matches #"\d+" v)) (max 1 (Integer/parseInt v)) default-n)))
-
-(defn bounded-pmap
-  "pmap over coll with at most n threads, preserving order. An exception in
-  f propagates to the caller (and cancels the pending tasks): wrap f when
-  one failing item must not abort the whole batch."
-  [n f coll]
-  (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int (max 1 n)))
-        g (bound-fn* f)]
-    (try
-      (->> coll
-           (mapv #(.submit pool ^Callable (fn [] (g %))))
-           (mapv #(.get ^java.util.concurrent.Future %)))
-      (finally
-        (.shutdownNow pool)))))
-
-(def http-client
-  (http/client (assoc http/default-client-opts
-                      :follow-redirects :never
-                      :connect-timeout 15000)))
-
-(defn http-get
-  "GET returning the body string on HTTP 200, nil otherwise (no retry on
-  deterministic 3xx/4xx: the client never follows redirects)."
-  ([url] (http-get url {}))
-  ([url {:keys [timeout retries accept] :or {timeout 30 retries 3 accept "*/*"}}]
-   (loop [attempt 1]
-     (let [resp (try (http/get url
-                               {:client http-client
-                                :headers {"User-Agent" ua "Accept" accept}
-                                :throw false
-                                :timeout (* timeout 1000)})
-                     (catch Exception _ nil))
-           status (:status resp)]
-       (cond
-         (and resp (= 200 status) (not (str/blank? (:body resp))))
-         (:body resp)
-
-         (and status (<= 300 status 499) (not= 429 status))
-         nil
-
-         (< attempt retries)
-         (do (Thread/sleep (* attempt 3000))
-             (recur (inc attempt)))
-
-         :else nil)))))
+(defn parallel
+  "PARALLEL env var, at least 1, else default-n."
+  [default-n]
+  (max 1 (env-int "PARALLEL" default-n)))
 
 ;; ---------------------------------------------------------------------------
 ;; Harvest scan -- forge-looking hostnames

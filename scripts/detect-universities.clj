@@ -18,40 +18,11 @@
 ;;                      into data/public-universities.csv
 
 (ns detect-universities
-  (:require [babashka.http-client :as http]
+  (:require [common :refer :all]
+            [babashka.http-client :as http]
             [babashka.fs :as fs]
             [cheshire.core :as json]
-            [clojure.data.csv :as csv]
-            [clojure.java.io :as io]
             [clojure.string :as str]))
-
-;; ---------------------------------------------------------------------------
-;; Helpers (small copies of pipeline.clj's -- the scripts stay independent)
-;; ---------------------------------------------------------------------------
-
-(def ua "world-gov-domain-names/0.1 (https://github.com/bzg)")
-
-(defn err [& xs] (binding [*out* *err*] (println (apply str xs))))
-
-(defn read-csv-raw [path]
-  (when (fs/exists? path)
-    (with-open [r (io/reader (str path))]
-      (doall (csv/read-csv r)))))
-
-(defn write-csv-file [path header rows]
-  (when-let [parent (fs/parent path)]
-    (fs/create-dirs parent))
-  (with-open [w (io/writer (str path))]
-    (csv/write-csv w (cons header rows))))
-
-(defn extract-host [url]
-  (when (and url (not (str/blank? url)))
-    (-> url
-        str/lower-case
-        (str/replace #"^https?://" "")
-        (str/replace #"^www\." "")
-        (str/replace #"/.*$" "")
-        (str/replace #":.*$" ""))))
 
 ;; ---------------------------------------------------------------------------
 ;; Output file

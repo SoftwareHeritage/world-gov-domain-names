@@ -117,7 +117,7 @@
   results. Useful when each task does HTTP and we want a controlled
   concurrency (avoids saturating endpoints like Wikidata SPARQL)."
   [n f coll]
-  (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int n))
+  (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int (max 1 n)))
         ;; convey dynamic bindings (*out* rebinding in cmd-enrich's log
         ;; capture...) to the pool threads; a bare fn would print to the
         ;; real stdout instead
@@ -127,7 +127,9 @@
            (mapv #(.submit pool ^Callable (fn [] (g %))))
            (mapv #(.get ^java.util.concurrent.Future %)))
       (finally
-        (.shutdown pool)))))
+        ;; cancel the pending tasks when one failed: with a plain shutdown
+        ;; the pool would keep running them in the background
+        (.shutdownNow pool)))))
 
 (defn iter-countries
   "Apply f to each country_dir. concurrency >= 2 runs up to that many in
@@ -243,7 +245,7 @@
 
          ;; a 4xx is deterministic (404, 403...): retrying cannot help.
          ;; 429 is the exception -- it clears once the rate window resets.
-         (and status (<= 400 status 499) (not= 429 status))
+         (and status (<= 300 status 499) (not= 429 status))
          nil
 
          (< attempt retries)

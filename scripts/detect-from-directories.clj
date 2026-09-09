@@ -20,7 +20,8 @@
 ;; Environment variables: none (specs are self-contained).
 
 (ns detect-from-directories
-  (:require [babashka.http-client :as http]
+  (:require [common :refer :all]
+            [babashka.http-client :as http]
             [babashka.fs :as fs]
             [babashka.process :as proc]
             [cheshire.core :as json]
@@ -29,109 +30,20 @@
             [clojure.java.io :as io]
             [clojure.string :as str]))
 
-;; ---------------------------------------------------------------------------
-;; Helpers (small copies of pipeline.clj's -- the scripts stay independent)
-;; ---------------------------------------------------------------------------
-
-(def ua "world-gov-domain-names/0.1 (https://github.com/bzg)")
-
-(defn err [& xs] (binding [*out* *err*] (println (apply str xs))))
-
-(defn single-line [s] (-> (str s) (str/replace #"\s+" " ") str/trim))
-
-(defn truncate [s n]
-  (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
-
-(defn write-csv-file [path header rows]
-  (when-let [parent (fs/parent path)]
-    (fs/create-dirs parent))
-  (with-open [w (io/writer (str path))]
-    (csv/write-csv w (cons header rows))))
-
-(defn country-src [country-dir source & [file]]
-  (str "countries/" country-dir "/sources/" source (when file (str "/" file))))
-
-(defn extract-host [url]
-  (when (and url (not (str/blank? url)))
-    (-> url
-        str/lower-case
-        (str/replace #"^https?://" "")
-        (str/replace #"^www\." "")
-        (str/replace #"/.*$" "")
-        (str/replace #":.*$" ""))))
-
-(defn read-csv-raw
-  "Read a CSV as a seq of vectors (header included); nil when absent."
-  [path]
-  (when (fs/exists? path)
-    (with-open [r (io/reader (str path))]
-      (doall (csv/read-csv r)))))
-
-(defn sync-validated!
-  "Rewrite the rows of countries/<c>/validated.csv owned by source with fresh
-  [domain level name] rows: the old rows of that source go, the fresh ones
-  come in unless the domain is already listed under another source (a
-  manual decision or another registry wins). Copy of pipeline.clj's."
-  [country-dir source fresh]
-  (let [path  (str "countries/" country-dir "/validated.csv")
-        rows  (for [[d level src name] (rest (read-csv-raw path))
-                    :when (not (str/blank? d))]
-                [(str/lower-case (str/trim d)) (or level "") (or src "") (or name "")])
-        kept  (remove #(= source (nth % 2)) rows)
-        taken (set (map first kept))
-        fresh (for [[d level name] fresh :when (not (taken d))] [d level source (or name "")])]
-    (write-csv-file path ["domain" "level" "source" "name"]
-                    (sort-by first (concat kept fresh)))))
-
-(defn valid-hostname? [h]
-  (boolean
-    (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
-
-(def http-client
-  (http/client (assoc http/default-client-opts
-                      :follow-redirects :never
-                      :connect-timeout 15000)))
-
-(defn http-get
-  "GET returning the body string on HTTP 200, nil otherwise (no retry on
-  deterministic 4xx)."
-  ([url] (http-get url {}))
-  ([url {:keys [timeout retries accept] :or {timeout 30 retries 3 accept "*/*"}}]
-   (loop [attempt 1]
-     (let [resp (try (http/get url
-                               {:client http-client
-                                :headers {"User-Agent" ua "Accept" accept}
-                                :throw false
-                                :timeout (* timeout 1000)})
-                     (catch Exception _ nil))
-           status (:status resp)]
-       (cond
-         (and resp (= 200 status) (not (str/blank? (:body resp))))
-         (:body resp)
-
-         (and status (<= 400 status 499) (not= 429 status))
-         nil
-
-         (< attempt retries)
-         (do (Thread/sleep (* attempt 3000))
-             (recur (inc attempt)))
-
-         :else nil)))))
-
 ;; Declarative per-country specs for the machine-readable government
 ;; directories listed in swh-sopc-data-sources ("Government website
 ;; directories"). One generic fetcher per format family; each country is
 ;; a data entry, not code. :channel picks where the hosts land:
 ;;   :registry   -- the directory's central-government scoping is
 ;;                  authoritative (organisation-form filter, federal-only
-;;                  export): sources/registry/roots.csv, entering the
-;;                  central file directly like the CISA/Lannuaire
-;;                  registries. :host-filter guards against off-TLD
+;;                  export): sources/<registry>/roots.csv plus the
+;;                  registry's rows of validated.csv, like the
+;;                  CISA/Lannuaire registries. :host-filter guards against off-TLD
 ;;                  entries (a stray sites.google.com must never become
 ;;                  a confirmed root).
 ;;   :candidates -- the directory mixes levels or types without a
 ;;                  reliable marker: sources/directory/orgs.csv, feeding
-;;                  candidates.csv with a strong score bonus; curation
+;;                  proposed.csv with a strong score bonus; curation
 ;;                  decides.
 (def directory-specs
   {"DEU_germany"
