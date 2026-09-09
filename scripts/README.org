@@ -211,7 +211,7 @@ central government plus the first subdivision tier and nothing below:
 
 | Var      | Effect                                          | Default |
 |----------+-------------------------------------------------+---------|
-| =FORCE=     | overwrite existing outputs                      | =0=       |
+| =FORCE=     | overwrite existing outputs; re-probe every host (=probe=, =mx=, =probe-proposed=) | =0= |
 | =PARALLEL=  | concurrent requests (fetch / probe)             | varies  |
 | =TIMEOUT=   | HTTPS request timeout (probe), seconds          | =5=       |
 | =SWH_TOKEN= | SWH API bearer token (=forges-swh=)               | unset   |

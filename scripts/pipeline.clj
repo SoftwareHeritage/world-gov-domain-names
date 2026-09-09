@@ -38,7 +38,7 @@
 ;;                      -> countries/<c>/sources/linkgraph/indegree.csv
 ;;
 ;; Environment variables:
-;;   FORCE=1            force-overwrite existing outputs
+;;   FORCE=1            force-overwrite existing outputs; re-probe every host (probe, mx)
 ;;   PARALLEL           # concurrent requests (fetch/probe)
 ;;   TIMEOUT            HTTPS request timeout in seconds (probe), default 5s
 
@@ -290,11 +290,15 @@
                  :else                                 "unknown error")]
     [sub status]))
 
-(defn probe-domain! [file timeout]
+(defn probe-domain!
+  "HTTPS HEAD probe of a harvest file's hosts whose status is still blank
+  -- every host with FORCE=1, e.g. to re-probe past failures with a longer
+  TIMEOUT."
+  [file timeout]
   (let [root-name (harvest-root file)]
     (when (fs/exists? file)
       (let [rows     (read-harvest file)
-            to-probe (filter (fn [[_ st]] (str/blank? st)) rows)]
+            to-probe (if force? rows (filter (fn [[_ st]] (str/blank? st)) rows))]
         (if (empty? to-probe)
           (println (str "[" root-name "] no empty-status row to probe"))
           (do
@@ -307,11 +311,12 @@
 
 (defn probe-roots!
   "HTTPS HEAD probe of a country's unharvested validated roots whose
-  status is still blank, into sources/probes/roots.csv."
+  status is still blank (all of them with FORCE=1), into
+  sources/probes/roots.csv."
   [country-dir timeout]
   (let [probes (read-probes country-dir)
         todo   (for [d (unharvested-roots country-dir)
-                     :when (str/blank? (first (get probes d ["" ""])))]
+                     :when (or force? (str/blank? (first (get probes d ["" ""]))))]
                  d)]
     (when (seq todo)
       (println (str "[" country-dir "/probes] " (count todo) " roots to probe"))
