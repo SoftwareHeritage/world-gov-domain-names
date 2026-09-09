@@ -121,7 +121,7 @@
         (str/replace #"^https?://" "")
         (str/replace #"^www\." "")
         (str/replace #"/.*$" "")
-        (str/replace #":.*$" ""))))
+        (str/replace #":\d+$" ""))))
 
 (def multi-tlds
   #{"co.uk" "gov.uk" "ac.uk" "org.uk" "com.au" "gov.au" "org.au"
@@ -237,57 +237,67 @@
                       :follow-redirects :never
                       :connect-timeout 15000)))
 
+(defn- http-outcome
+  "What to do with one HTTP attempt: :ok on a 2xx with a non-blank body,
+  :give-up on a deterministic 3xx/4xx (redirects are never followed by the
+  JVM client; a 404 or 403 will not change -- 429 excepted, it clears once
+  the rate window resets), :retry on anything else (network error, 5xx,
+  empty body)."
+  [status body]
+  (cond
+    (and status (<= 200 status 299) (not (str/blank? body))) :ok
+    (and status (<= 300 status 499) (not= 429 status))       :give-up
+    :else                                                     :retry))
+
+(defn- with-retries
+  "Run attempt!, a thunk returning [status body], up to retries times with
+  a growing pause (3 s, 6 s, …) between attempts, following http-outcome.
+  Returns the body or nil."
+  [retries attempt!]
+  (loop [attempt 1]
+    (let [[status body] (try (attempt!) (catch Exception _ [nil nil]))]
+      (case (http-outcome status body)
+        :ok      body
+        :give-up nil
+        :retry   (if (< attempt retries)
+                   (do (Thread/sleep (* attempt 3000))
+                       (recur (inc attempt)))
+                   nil)))))
+
 (defn http-get
-  "GET via babashka.http-client with User-Agent and retries on network errors.
-  Returns the body string on HTTP 200, nil otherwise. Honors :timeout
+  "GET via babashka.http-client with User-Agent; retries per http-outcome.
+  Returns the body string on a 2xx, nil otherwise. Honors :timeout
   (seconds, default 30), :retries (default 3), :query-params, :accept and
   :client (defaults to the no-redirect client above)."
   ([url] (http-get url {}))
   ([url {:keys [timeout retries query-params accept client]
          :or {timeout 30 retries 3 accept "*/*"}}]
-   (loop [attempt 1]
-     (let [resp (try (http/get url
-                               {:client (or client http-client)
-                                :headers {"User-Agent" ua "Accept" accept}
-                                :query-params (or query-params {})
-                                :throw false
-                                :timeout (* timeout 1000)})
-                     (catch Exception _ nil))
-           status (:status resp)]
-       (cond
-         (and resp (= 200 status) (not (str/blank? (:body resp))))
-         (:body resp)
-
-         ;; a 4xx is deterministic (404, 403...): retrying cannot help.
-         ;; 429 is the exception -- it clears once the rate window resets.
-         (and status (<= 300 status 499) (not= 429 status))
-         nil
-
-         (< attempt retries)
-         (do (Thread/sleep (* attempt 3000))
-             (recur (inc attempt)))
-
-         :else nil)))))
+   (with-retries retries
+     (fn []
+       (let [resp (http/get url
+                            {:client (or client http-client)
+                             :headers {"User-Agent" ua "Accept" accept}
+                             :query-params (or query-params {})
+                             :throw false
+                             :timeout (* timeout 1000)})]
+         [(:status resp) (:body resp)])))))
 
 (defn http-get-curl
-  "GET via the curl binary, for hosts whose WAF rejects the JVM HTTP client
-  (publicadministration.un.org answers 400 to it regardless of headers).
-  Returns the body string on HTTP 2xx, nil otherwise. Honors :timeout
+  "GET via the curl binary (following redirects), for hosts whose WAF
+  rejects the JVM HTTP client (publicadministration.un.org answers 400 to
+  it regardless of headers). Same outcome and retry policy as http-get:
+  returns the body string on a 2xx, nil otherwise. Honors :timeout
   (seconds, default 30) and :retries (default 3)."
   ([url] (http-get-curl url {}))
   ([url {:keys [timeout retries] :or {timeout 30 retries 3}}]
-   (loop [attempt 1]
-     (let [{:keys [exit out]}
-           (try (proc/sh "curl" "-sfL" "--max-time" (str timeout)
-                         "-A" ua url)
-                (catch Exception _ nil))
-           body (when (and exit (zero? exit)) out)]
-       (if (not (str/blank? body))
-         body
-         (if (< attempt retries)
-           (do (Thread/sleep (* attempt 3000))
-               (recur (inc attempt)))
-           nil))))))
+   (with-retries retries
+     (fn []
+       ;; the status code travels on a last line appended to the body
+       (let [{:keys [exit out]} (proc/sh "curl" "-sL" "--max-time" (str timeout)
+                                         "-A" ua "-w" "\n%{http_code}" url)
+             i    (str/last-index-of (str out) "\n")
+             code (when (and (zero? exit) i) (parse-long (subs out (inc i))))]
+         [code (when i (subs out 0 i))])))))
 
 (defn merge-validated-rows
   "Replace, among the [domain level source name] rows of a validated.csv,
