@@ -321,15 +321,16 @@
   (let [v (System/getenv "PARALLEL")]
     (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default-n)))
 
-(def validated-domains
+(defn validated-domains
   "Every domain of every countries/<c>/validated.csv, whatever its level
-  and country. A host equal to or under one of them is already covered,
+  and country (a set, from the cached rows, so it follows sync-validated!). A host equal to or under one of them is already covered,
   so the candidate channels and the Wikidata gap list drop it: re-listing
   confirmed domains would only add noise to the manual validation pass.
   Deliberately world-wide: Wikidata attributes embassies to their host
   country (eda.admin.ch under Zimbabwe), and only the Swiss root covers
   them."
-  (delay (set (map second (validated-rows)))))
+  []
+  (set (map second (validated-rows))))
 
 (defn host-covered? [host known]
   (some (fn [k] (or (= host k) (str/ends-with? host (str "." k)))) known))

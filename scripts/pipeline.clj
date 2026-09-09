@@ -813,7 +813,7 @@
         ;; link-graph in-degree (see cmd-indegree): hosts linked from at
         ;; least linkgraph-min-indegree distinct same-country public-sector
         ;; domains enter the candidate pool with a strong score bonus.
-        known          @validated-domains
+        known          (validated-domains)
         lg-by-host
         (reduce (fn [m {:strs [hostname indegree]}]
                   (let [n (parse-long (or indegree ""))]
