@@ -1266,8 +1266,8 @@
 ;; ===========================================================================
 
 (defn- run-collect [args]
-  (cmd-fetch args)
-  (cmd-retry [])
+  (when (some #(= :fail (second %)) (cmd-fetch args))
+    (cmd-retry []))
   (cmd-normalize nil)
   (cmd-probe args)
   (cmd-aggregate nil)
