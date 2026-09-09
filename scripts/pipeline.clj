@@ -639,8 +639,12 @@
          (group-by #(nth % 2))
          (reduce-kv (fn [m k v] (assoc m k (mapv first v))) {}))))
 
-(defn host-collected? [host subs]
-  (some (fn [s] (or (= s host) (str/ends-with? s (str "." host)))) subs))
+(defn collected-at-or-under?
+  "True when one of the collected hosts is host itself or sits under it:
+  the reverse of host-covered?, which asks whether host sits under a known
+  domain."
+  [host collected]
+  (some (fn [s] (or (= s host) (str/ends-with? s (str "." host)))) collected))
 
 
 
@@ -934,7 +938,7 @@
     (let [host (extract-host un-portal)]
       (println (str "- Declared: [" un-portal "](" un-portal ") (host `" host "`)"))
       (cond
-        (host-collected? host collected)
+        (collected-at-or-under? host collected)
         (println "- ✅ Covered by collected domains")
 
         :else

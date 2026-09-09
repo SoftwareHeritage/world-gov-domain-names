@@ -332,5 +332,7 @@
   []
   (set (map second (validated-rows))))
 
-(defn host-covered? [host known]
+(defn host-covered?
+  "True when host is one of the known domains or sits under one of them."
+  [host known]
   (some (fn [k] (or (= host k) (str/ends-with? host (str "." k)))) known))
