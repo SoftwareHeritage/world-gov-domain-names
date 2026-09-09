@@ -105,7 +105,7 @@ g2karantena2.gov.sk,Could not resolve host: g2karantena2.gov.sk,none
 gender.gov.sk,302,none
 genpro.gov.sk,404,none
 gnbumdmc.sop.gov.sk,Connection timed out after 3001 milliseconds,none
-gov.sk,,10 mail.gov.sk.
+gov.sk,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gov.sk found.,10 mail.gov.sk.
 government.gov.sk,Connection timed out after 3002 milliseconds,none
 govnet.gov.sk,302,none
 health.gov.sk,302,none

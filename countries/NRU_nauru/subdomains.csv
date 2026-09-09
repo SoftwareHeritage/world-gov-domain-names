@@ -10,7 +10,7 @@ cpcontacts.nauruhealth.gov.nr,gov.nr,SSL: no alternative certificate subject nam
 cpcontacts.naurujudiciary.gov.nr,gov.nr,503,none
 ecrcp.gov.nr,gov.nr,301,none
 finance.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'finance.gov.nr',10 relay.nauru.gov.nr.
-gov.nr,gov.nr,,10 mail.gov.nr.
+gov.nr,gov.nr,HttpConnectTimeoutException: HTTP connect timed out,10 mail.gov.nr.
 ict.gov.nr,gov.nr,SSL: no alternative certificate subject name matches target hostname 'ict.gov.nr',10 relay.nauru.gov.nr.
 justice.gov.nr,gov.nr,200,10 mail.gov.nr.
 limiter.gov.nr,gov.nr,Connection timed out after 3002 milliseconds,none

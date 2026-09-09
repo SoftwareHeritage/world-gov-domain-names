@@ -1,2 +1,2 @@
 subdomain,http_status,mx
-gov.kp,,dig error
+gov.kp,HttpConnectTimeoutException: HTTP connect timed out,dig error

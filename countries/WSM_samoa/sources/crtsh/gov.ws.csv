@@ -35,7 +35,7 @@ exchange.audit.gov.ws,Connection timed out after 3000 milliseconds,none
 exchange.sao.gov.ws,Connection timed out after 3001 milliseconds,none
 ftp.sqa.gov.ws,Operation timed out after 3001 milliseconds with 0 bytes received,none
 gca.gov.ws,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
-gov.ws,,none
+gov.ws,ConnectException,none
 hac.gov.ws,Could not resolve host: hac.gov.ws,10 elele.peacesat.hawaii.edu.; 20 yarrina.connect.com.au.
 health.gov.ws,301,5 mail.health.gov.ws.; 10 angel.samoa.net.ws.
 ims.regulator.gov.ws,Connection timed out after 3000 milliseconds,none

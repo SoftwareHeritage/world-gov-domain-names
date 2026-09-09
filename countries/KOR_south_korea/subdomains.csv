@@ -1,6 +1,6 @@
 subdomain,parent_domain,http_status,mx
 assembly.go.kr,assembly.go.kr,400,3 mail.assembly.go.kr.
-go.kr,go.kr,,none
+go.kr,go.kr,ConnectException,none
 gov.kr,gov.kr,301,none
 intra.gov.kr,gov.kr,200,none
 kids.gov.kr,gov.kr,200,none

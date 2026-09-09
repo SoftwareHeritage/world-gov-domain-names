@@ -1,7 +1,7 @@
 subdomain,parent_domain,http_status,mx
 admin.api.dev.app.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
 admin.buerokratt.eesti.ee,eesti.ee,200,none
-agri.ee,agri.ee,,5 mail1.agri.ee.; 5 mail2.agri.ee.
+agri.ee,agri.ee,200,5 mail1.agri.ee.; 5 mail2.agri.ee.
 ahk.eesti.ee,eesti.ee,Could not resolve host: ahk.eesti.ee,none
 andmed-test.eesti.ee,eesti.ee,Connection timed out after 3001 milliseconds,none
 andmed.eesti.ee,eesti.ee,200,none
@@ -89,11 +89,11 @@ emta.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: emta.api.pk2-
 emta.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: emta.pk2-client.dev.eesti.ee,none
 emta.pk2-client.eesti.ee,eesti.ee,403,none
 emta.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: emta.pk2-client.test.eesti.ee,none
-envir.ee,envir.ee,,5 mx5.envir.ee.; 5 mx4.envir.ee.
+envir.ee,envir.ee,302,5 mx5.envir.ee.; 5 mx4.envir.ee.
 es.arendus.eesti.ee,eesti.ee,Could not resolve host: es.arendus.eesti.ee,none
 es.beta.eesti.ee,eesti.ee,Could not resolve host: es.beta.eesti.ee,none
 euro.eesti.ee,eesti.ee,301,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
-fin.ee,fin.ee,,10 mail3.rit.ee.; 10 mail1.rit.ee.
+fin.ee,fin.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
 funktsioonivaramu-dev.eesti.ee,eesti.ee,418,none
 funktsioonivaramu-test.eesti.ee,eesti.ee,Could not resolve host: funktsioonivaramu-test.eesti.ee,none
 grafana.app.eesti.ee,eesti.ee,Could not resolve host: grafana.app.eesti.ee,none
@@ -118,14 +118,14 @@ harbor.pro.dev.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,no
 harbor.pro.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
 harbor.pro.stage.eesti.ee,eesti.ee,Could not resolve host: harbor.pro.stage.eesti.ee,none
 harbor.pro.test.eesti.ee,eesti.ee,Connection timed out after 3004 milliseconds,none
-hm.ee,hm.ee,,10 mail1.rit.ee.; 10 mail3.rit.ee.
+hm.ee,hm.ee,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
 hpkp-test.eesti.ee,eesti.ee,Could not resolve host: hpkp-test.eesti.ee,none
 id.arendus.eesti.ee,eesti.ee,Could not resolve host: id.arendus.eesti.ee,none
 id.eesti.ee,eesti.ee,Could not resolve host: id.eesti.ee,none
 id.test.eesti.ee,eesti.ee,Could not resolve host: id.test.eesti.ee,none
 infoyhiskond.eesti.ee,eesti.ee,Could not resolve host: infoyhiskond.eesti.ee,none
-justdigi.ee,justdigi.ee,,10 mail3.rit.ee.; 10 mail1.rit.ee.
-kaitseministeerium.ee,kaitseministeerium.ee,,5 fmail.mil.ee.
+justdigi.ee,justdigi.ee,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
+kaitseministeerium.ee,kaitseministeerium.ee,200,5 fmail.mil.ee.
 katse.test.eesti.ee,eesti.ee,Could not resolve host: katse.test.eesti.ee,none
 keskkonnaamet.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.api.pk2-client.eesti.ee,none
 keskkonnaamet.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: keskkonnaamet.api.pk2-client.test.eesti.ee,none
@@ -147,7 +147,7 @@ kpkoda.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: kpkoda.api.pk2-c
 kpkoda.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
 kpkoda.pk2-client.eesti.ee,eesti.ee,403,none
 kpkoda.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
-kul.ee,kul.ee,,10 mail3.rit.ee.; 10 mail1.rit.ee.
+kul.ee,kul.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
 kv-frdocker-01.dev.eesti.ee,eesti.ee,Connection timed out after 3003 milliseconds,none
 kv-frdocker-01.test.eesti.ee,eesti.ee,Could not resolve host: kv-frdocker-01.test.eesti.ee,none
 kv-frdocker-02.dev.eesti.ee,eesti.ee,Could not resolve host: kv-frdocker-02.dev.eesti.ee,none
@@ -188,7 +188,7 @@ mailhog.pk2-central.dev.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-ce
 mailhog.pk2-central.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-central.eesti.ee,none
 mailhog.pk2-central.test.eesti.ee,eesti.ee,Could not resolve host: mailhog.pk2-central.test.eesti.ee,none
 mailhog.postkast.arendus.eesti.ee,eesti.ee,Could not resolve host: mailhog.postkast.arendus.eesti.ee,none
-mkm.ee,mkm.ee,,20 mail3.rit.ee.; 10 mail1.rit.ee.
+mkm.ee,mkm.ee,200,20 mail3.rit.ee.; 10 mail1.rit.ee.
 mx-ea-1.eesti.ee,eesti.ee,Could not resolve host: mx-ea-1.eesti.ee,none
 mx-ea-2.eesti.ee,eesti.ee,Could not resolve host: mx-ea-2.eesti.ee,none
 mx-ea-3.eesti.ee,eesti.ee,Could not resolve host: mx-ea-3.eesti.ee,none
@@ -278,7 +278,7 @@ rig.stage.eesti.ee,eesti.ee,Could not resolve host: rig.stage.eesti.ee,none
 rig.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
 rights.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: rights.dev.postkast.eesti.ee,none
 riha-approver.eesti.ee,eesti.ee,Could not resolve host: riha-approver.eesti.ee,none
-riigikogu.ee,riigikogu.ee,,10 ns.riigikogu.ee.; 10 enos.riigikogu.ee.
+riigikogu.ee,riigikogu.ee,301,10 ns.riigikogu.ee.; 10 enos.riigikogu.ee.
 rik.api.pk2-client.eesti.ee,eesti.ee,Could not resolve host: rik.api.pk2-client.eesti.ee,none
 rik.api.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: rik.api.pk2-client.test.eesti.ee,none
 rik.pk2-client.dev.eesti.ee,eesti.ee,Could not resolve host: rik.pk2-client.dev.eesti.ee,none
@@ -289,7 +289,7 @@ ruuter.arendus.eesti.ee,eesti.ee,Could not resolve host: ruuter.arendus.eesti.ee
 ruuter.buerokratt.eesti.ee,eesti.ee,403,none
 ruuter.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: ruuter.eeltoodang.eesti.ee,none
 ruuter.test.eesti.ee,eesti.ee,Could not resolve host: ruuter.test.eesti.ee,none
-siseministeerium.ee,siseministeerium.ee,,10 mx1.smit.ee.; 20 mx2.smit.ee.; 30 mx3.smit.ee.
+siseministeerium.ee,siseministeerium.ee,200,10 mx1.smit.ee.; 20 mx2.smit.ee.; 30 mx3.smit.ee.
 sisene.arendus.eesti.ee,eesti.ee,Could not resolve host: sisene.arendus.eesti.ee,none
 sisene.eeltoodang.eesti.ee,eesti.ee,Could not resolve host: sisene.eeltoodang.eesti.ee,none
 sisene.koolitus.eesti.ee,eesti.ee,Could not resolve host: sisene.koolitus.eesti.ee,none
@@ -300,7 +300,7 @@ ska.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 millis
 ska.pk2-client.eesti.ee,eesti.ee,Could not resolve host: ska.pk2-client.eesti.ee,none
 ska.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
 skais-lsst.stage.eesti.ee,eesti.ee,Could not resolve host: skais-lsst.stage.eesti.ee,none
-sm.ee,sm.ee,,10 mail1.rit.ee.; 20 mail3.rit.ee.
+sm.ee,sm.ee,200,10 mail1.rit.ee.; 20 mail3.rit.ee.
 smtp.dev.postkast.eesti.ee,eesti.ee,Could not resolve host: smtp.dev.postkast.eesti.ee,none
 st.arendus.eesti.ee,eesti.ee,Could not resolve host: st.arendus.eesti.ee,none
 stage.eesti.ee,eesti.ee,Could not resolve host: stage.eesti.ee,none
@@ -365,9 +365,9 @@ tim.www.eesti.ee,eesti.ee,Could not resolve host: tim.www.eesti.ee,none
 timur.www.eesti.ee,eesti.ee,Could not resolve host: timur.www.eesti.ee,none
 transpordiamet.api.pk2-client.test.eesti.ee,eesti.ee,Connection timed out after 3002 milliseconds,none
 transpordiamet.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: transpordiamet.pk2-client.test.eesti.ee,none
-valitsus.ee,valitsus.ee,,20 callisto.rk.ee.; 10 niobe.rk.ee.
+valitsus.ee,valitsus.ee,200,20 callisto.rk.ee.; 10 niobe.rk.ee.
 veera.eesti.ee,eesti.ee,200,none
-vm.ee,vm.ee,,10 jupiter.vm.ee.; 30 juno.vm.ee.
+vm.ee,vm.ee,200,10 jupiter.vm.ee.; 30 juno.vm.ee.
 wildcard.pk2-client.test.eesti.ee,eesti.ee,Could not resolve host: wildcard.pk2-client.test.eesti.ee,none
 www-sb.arendus.eesti.ee,eesti.ee,Could not resolve host: www-sb.arendus.eesti.ee,none
 www.ahk.eesti.ee,eesti.ee,Could not resolve host: www.ahk.eesti.ee,none

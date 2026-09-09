@@ -18,7 +18,7 @@ abj-wlc-ha.cbn.gov.ng,gov.ng,Resolving timed out after 3000 milliseconds,dig err
 abj-wlc-ha.wifi.cbn.gov.ng,gov.ng,Resolving timed out after 3000 milliseconds,dig error
 accessgateway.cbn.gov.ng,gov.ng,Resolving timed out after 3001 milliseconds,dig error
 acd.gov.ng,gov.ng,Failed to connect to acd.gov.ng port 443 after 413 ms: Could not connect to server,none
-adamawastate.gov.ng,adamawastate.gov.ng,,
+adamawastate.gov.ng,adamawastate.gov.ng,200,
 adebayo-folake.egbedore.os.gov.ng,gov.ng,Could not resolve host: adebayo-folake.egbedore.os.gov.ng,none
 adegbenro-dada.egbedore.os.gov.ng,gov.ng,Could not resolve host: adegbenro-dada.egbedore.os.gov.ng,none
 adeniran-bola.egbedore.os.gov.ng,gov.ng,Could not resolve host: adeniran-bola.egbedore.os.gov.ng,none
@@ -112,10 +112,10 @@ banking.senate.gov.ng,gov.ng,Could not resolve host: banking.senate.gov.ng,none
 basicedu.deltastate.gov.ng,gov.ng,200,none
 bauchistate.gov.ng,gov.ng,Operation timed out after 3001 milliseconds with 0 bytes received,none
 bayelsa.gov.ng,gov.ng,Could not resolve host: bayelsa.gov.ng,none
-bayelsastate.gov.ng,bayelsastate.gov.ng,,
+bayelsastate.gov.ng,bayelsastate.gov.ng,200,
 beninowena.gov.ng,gov.ng,Could not resolve host: beninowena.gov.ng,none
 benueassembly.gov.ng,gov.ng,Connection timed out after 3002 milliseconds,none
-benuestate.gov.ng,benuestate.gov.ng,,
+benuestate.gov.ng,benuestate.gov.ng,200,
 bir.ondostate.gov.ng,gov.ng,Could not resolve host: bir.ondostate.gov.ng,none
 bir.pfm.yb.gov.ng,gov.ng,Could not resolve host: bir.pfm.yb.gov.ng,none
 birs.bu.gov.ng,gov.ng,Operation timed out after 3002 milliseconds with 0 bytes received,10 mxa.eu.mailgun.org.; 0 birs.bu.gov.ng.; 10 mxb.eu.mailgun.org.
@@ -298,7 +298,7 @@ dvis.lg.gov.ng,gov.ng,200,0 dvis.lg.gov.ng.
 ead.gov.ng,gov.ng,Could not resolve host: ead.gov.ng,none
 eagle.cbn.gov.ng,gov.ng,Resolving timed out after 3001 milliseconds,none
 eas.nimc.gov.ng,gov.ng,Resolving timed out after 3000 milliseconds,none
-ebonyistate.gov.ng,ebonyistate.gov.ng,,
+ebonyistate.gov.ng,ebonyistate.gov.ng,200,
 ecitibiz.interior.gov.ng,gov.ng,SSL certificate problem: self-signed certificate,none
 ecoplan.deltastate.gov.ng,gov.ng,SSL: no alternative certificate subject name matches target hostname 'ecoplan.deltastate.gov.ng',none
 edgesrv.nass.gov.ng,gov.ng,Could not resolve host: edgesrv.nass.gov.ng,none
@@ -390,8 +390,8 @@ gifmis.gov.ng,gov.ng,200,none
 gifmismail.gifmis.gov.ng,gov.ng,Connection timed out after 3002 milliseconds,none
 gisportal.rmrdc.gov.ng,gov.ng,Could not resolve host: gisportal.rmrdc.gov.ng,none
 gombeirs.gov.ng,gov.ng,Could not resolve host: gombeirs.gov.ng,none
-gombestate.gov.ng,gombestate.gov.ng,,
-gov.ng,gov.ng,,none
+gombestate.gov.ng,gombestate.gov.ng,200,
+gov.ng,gov.ng,ConnectException,none
 grk1-ext-asa-1.eagle.cbn.gov.ng,gov.ng,Could not resolve host: grk1-ext-asa-1.eagle.cbn.gov.ng,none
 hcb.kt.gov.ng,gov.ng,SSL: no alternative certificate subject name matches target hostname 'hcb.kt.gov.ng',none
 health.crossriverstate.gov.ng,gov.ng,Could not resolve host: health.crossriverstate.gov.ng,none
@@ -458,14 +458,14 @@ judiciary.senate.gov.ng,gov.ng,Could not resolve host: judiciary.senate.gov.ng,n
 justice.ad.gov.ng,gov.ng,Resolving timed out after 3001 milliseconds,dig error
 justice.deltastate.gov.ng,gov.ng,200,none
 kadsiec.kd.gov.ng,gov.ng,Could not resolve host: kadsiec.kd.gov.ng,none
-kadunastate.gov.ng,kadunastate.gov.ng,,
+kadunastate.gov.ng,kadunastate.gov.ng,HttpConnectTimeoutException: HTTP connect timed out,
 kanostate.gov.ng,gov.ng,200,none
 kareem-taofeek.egbedore.os.gov.ng,gov.ng,Could not resolve host: kareem-taofeek.egbedore.os.gov.ng,none
 karimu-mudasiru.egbedore.os.gov.ng,gov.ng,Could not resolve host: karimu-mudasiru.egbedore.os.gov.ng,none
 katmowa.kt.gov.ng,gov.ng,Could not resolve host: katmowa.kt.gov.ng,none
 katsinastate.gov.ng,gov.ng,200,50 mx3.zoho.com.; 20 mx2.zoho.com.; 10 mx.zoho.com.
 kdsg.gov.ng,gov.ng,Could not resolve host: kdsg.gov.ng,none
-kebbistate.gov.ng,kebbistate.gov.ng,,
+kebbistate.gov.ng,kebbistate.gov.ng,200,
 kigra.gov.ng,gov.ng,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
 kogijudiciary.kg.gov.ng,gov.ng,Could not resolve host: kogijudiciary.kg.gov.ng,none
 kogistate.gov.ng,gov.ng,200,1 smtp.google.com.
@@ -979,7 +979,7 @@ office.lagosstate.gov.ng,gov.ng,Could not resolve host: office.lagosstate.gov.ng
 ogf.ogfza.gov.ng,gov.ng,Could not resolve host: ogf.ogfza.gov.ng,none
 ogfza.gov.ng,gov.ng,200,none
 ogha.og.gov.ng,gov.ng,200,none
-ogunstate.gov.ng,ogunstate.gov.ng,,
+ogunstate.gov.ng,ogunstate.gov.ng,200,
 ogunstatejudiciary.gov.ng,gov.ng,200,none
 oilandgas.deltastate.gov.ng,gov.ng,200,none
 ojeleke-olufemi.egbedore.os.gov.ng,gov.ng,Could not resolve host: ojeleke-olufemi.egbedore.os.gov.ng,none
@@ -998,7 +998,7 @@ orientation.deltastate.gov.ng,gov.ng,200,none
 osag.yb.gov.ng,gov.ng,200,none
 osun.gov.ng,gov.ng,Could not resolve host: osun.gov.ng,none
 osunjudiciary.gov.ng,gov.ng,Could not resolve host: osunjudiciary.gov.ng,none
-osunstate.gov.ng,osunstate.gov.ng,,
+osunstate.gov.ng,osunstate.gov.ng,301,
 otr.jtb.gov.ng,gov.ng,Could not resolve host: otr.jtb.gov.ng,none
 outlook.edostate.gov.ng,gov.ng,Could not resolve host: outlook.edostate.gov.ng,none
 outsourcing.nitda.gov.ng,gov.ng,Connection timed out after 3002 milliseconds,none
@@ -1110,7 +1110,7 @@ sip.sec.gov.ng,gov.ng,Connection timed out after 3002 milliseconds,none
 slogor.kanostate.gov.ng,gov.ng,Could not resolve host: slogor.kanostate.gov.ng,none
 slogor.osun.gov.ng,gov.ng,Resolving timed out after 3000 milliseconds,none
 smedan.gov.ng,gov.ng,200,0 mail.smedan.gov.ng.
-sokotostate.gov.ng,sokotostate.gov.ng,,
+sokotostate.gov.ng,sokotostate.gov.ng,200,
 solid-minerals.senate.gov.ng,gov.ng,Could not resolve host: solid-minerals.senate.gov.ng,none
 special-duties.senate.gov.ng,gov.ng,Could not resolve host: special-duties.senate.gov.ng,none
 specialduties.eb.gov.ng,gov.ng,Could not resolve host: specialduties.eb.gov.ng,none
@@ -1917,9 +1917,9 @@ www.youthdev.deltastate.gov.ng,gov.ng,SSL: no alternative certificate subject na
 www.zamfara.gov.ng,gov.ng,Could not resolve host: www.zamfara.gov.ng,none
 wyesurep.gov.ng,gov.ng,Could not resolve host: wyesurep.gov.ng,none
 yekeen-taoheed.egbedore.os.gov.ng,gov.ng,Could not resolve host: yekeen-taoheed.egbedore.os.gov.ng,none
-yobestate.gov.ng,yobestate.gov.ng,,
+yobestate.gov.ng,yobestate.gov.ng,200,
 yosaca.moh.yb.gov.ng,gov.ng,Could not resolve host: yosaca.moh.yb.gov.ng,none
 younikacademy.nasarawastate.gov.ng,gov.ng,Could not resolve host: younikacademy.nasarawastate.gov.ng,none
 youthdev.deltastate.gov.ng,gov.ng,200,none
 zamfara.gov.ng,gov.ng,200,0 zamfara-gov-ng.mail.protection.outlook.com.
-zamfarastate.gov.ng,zamfarastate.gov.ng,,
+zamfarastate.gov.ng,zamfarastate.gov.ng,200,

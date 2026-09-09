@@ -329,7 +329,7 @@ git.dominica.gov.dm,302,none
 gnsscors.gov.dm,200,none
 gocd-ise1.dominica.gov.dm,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
 gocd-ise2.dominica.gov.dm,TLS connect error: error:0A000438:SSL routines::tlsv1 alert internal error,none
-gov.dm,,none
+gov.dm,ConnectException,none
 governance.gov.dm,200,none
 health.gov.dm,200,0 health.gov.dm.
 healthpromotion.gov.dm,200,none

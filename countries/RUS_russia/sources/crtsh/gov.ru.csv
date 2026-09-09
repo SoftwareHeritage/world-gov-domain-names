@@ -180,7 +180,7 @@ goscomnas.sakha.gov.ru,Connection timed out after 3000 milliseconds,none
 gosinvest.open.gov.ru,Connection timed out after 3001 milliseconds,none
 gossluzhba.gov.ru,Connection timed out after 3001 milliseconds,none
 goszakupki.open.gov.ru,Resolving timed out after 3000 milliseconds,none
-gov.ru,,30 mx4.gov.ru.; 20 mx3.gov.ru.
+gov.ru,HttpConnectTimeoutException: HTTP connect timed out,30 mx4.gov.ru.; 20 mx3.gov.ru.
 guest.khv.gov.ru,Connection timed out after 3000 milliseconds,none
 guestc.khv.gov.ru,Connection timed out after 3001 milliseconds,none
 gueste.khv.gov.ru,Connection timed out after 3001 milliseconds,none

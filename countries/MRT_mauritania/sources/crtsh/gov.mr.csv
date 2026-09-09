@@ -116,7 +116,7 @@ fdpc.gov.mr,Could not resolve host: fdpc.gov.mr,none
 finances.gov.mr,200,none
 fonctionpublique.gov.mr,Could not resolve host: fonctionpublique.gov.mr,none
 gitlab.khidmaty.gov.mr,Connection timed out after 3001 milliseconds,none
-gov.mr,,none
+gov.mr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 govcom-call.gov.mr,404,none
 govcom-chat.gov.mr,200,none
 govcom.gov.mr,Could not resolve host: govcom.gov.mr,none

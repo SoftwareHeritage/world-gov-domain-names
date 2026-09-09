@@ -581,7 +581,7 @@ gisapp.mygeoportal.gov.my,gov.my,Could not resolve host: gisapp.mygeoportal.gov.
 git.digital.gov.my,gov.my,Could not resolve host: git.digital.gov.my,none
 gmbo.skmm.gov.my,gov.my,Could not resolve host: gmbo.skmm.gov.my,none
 gosmon.digital.gov.my,gov.my,Could not resolve host: gosmon.digital.gov.my,none
-gov.my,gov.my,,none
+gov.my,gov.my,ConnectException,none
 gpki.mampu.gov.my,gov.my,SSL certificate problem: certificate has expired,none
 greenpc.kettha.gov.my,gov.my,Could not resolve host: greenpc.kettha.gov.my,none
 gst-evoucher.smecorp.gov.my,gov.my,Could not resolve host: gst-evoucher.smecorp.gov.my,none
@@ -786,7 +786,7 @@ kedahlib.gov.my,gov.my,403,none
 kedahmuseum.gov.my,gov.my,Could not resolve host: kedahmuseum.gov.my,none
 kehakiman.gov.my,gov.my,Connection timed out after 3002 milliseconds,none
 kejora.gov.my,gov.my,301,none
-kelantan.gov.my,kelantan.gov.my,,
+kelantan.gov.my,kelantan.gov.my,HttpConnectTimeoutException: HTTP connect timed out,
 kelantan.veterinar.gov.my,gov.my,Could not resolve host: kelantan.veterinar.gov.my,none
 kelisa.malaysia.gov.my,gov.my,Could not resolve host: kelisa.malaysia.gov.my,none
 kenari.malaysia.gov.my,gov.my,Could not resolve host: kenari.malaysia.gov.my,none

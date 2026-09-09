@@ -143,7 +143,7 @@ gims.gov.bt,gov.bt,SSL certificate problem: unable to get local issuer certifica
 gms.tourism.gov.bt,gov.bt,200,none
 gnhc.gov.bt,gov.bt,Connection timed out after 3000 milliseconds,none
 gokab-dgrk.covid19.gov.bt,gov.bt,SSL: no alternative certificate subject name matches target hostname 'gokab-dgrk.covid19.gov.bt',none
-gov.bt,gov.bt,,10 ASPMX2.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
+gov.bt,gov.bt,HttpConnectTimeoutException: HTTP connect timed out,10 ASPMX2.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
 guru.mof.gov.bt,gov.bt,Connection timed out after 3001 milliseconds,none
 helpdesk.moaf.gov.bt,gov.bt,Could not resolve host: helpdesk.moaf.gov.bt,none
 highcourt.gov.bt,gov.bt,200,10 yongnay.druknet.bt.

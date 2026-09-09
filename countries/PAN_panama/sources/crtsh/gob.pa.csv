@@ -213,7 +213,7 @@ fw.sbancos.gob.pa,Failed to connect to fw.sbancos.gob.pa port 443 after 197 ms: 
 fw2.sbancos.gob.pa,Failed to connect to fw2.sbancos.gob.pa port 443 after 192 ms: Could not connect to server,none
 gabinete.gob.pa,200,none
 gacetaoficial.gob.pa,200,none
-gob.pa,,none
+gob.pa,ConnectException,none
 gorgas.gob.pa,301,none
 hibrido.css.gob.pa,Could not resolve host: hibrido.css.gob.pa,none
 hospitalsantotomas.gob.pa,Resolving timed out after 3000 milliseconds,none

@@ -229,7 +229,7 @@ gmdss.mta.gov.ge,301,none
 golbet.ge.hrajara.gov.ge,Could not resolve host: golbet.ge.hrajara.gov.ge,none
 gori.gov.ge,302,none
 gori.mun.gov.ge,Resolving timed out after 3001 milliseconds,none
-gov.ge,,10 mail.gov.ge.
+gov.ge,HttpConnectTimeoutException: HTTP connect timed out,10 mail.gov.ge.
 government.gov.ge,Connection timed out after 3001 milliseconds,10 mail.government.gov.ge.
 grants.gov.ge,302,none
 greg.reestri.gov.ge,200,none

@@ -169,7 +169,7 @@ gentax.ads.taj.gov.jm,Connection timed out after 3001 milliseconds,none
 go.jcf.gov.jm,Could not resolve host: go.jcf.gov.jm,none
 goaml.fid.gov.jm,Operation timed out after 3002 milliseconds with 0 bytes received,none
 gojep.gov.jm,Recv failure: Connexion ré-initialisée par le correspondant,none
-gov.jm,,none
+gov.jm,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gov.jm found.,none
 guinep.jis.gov.jm,Could not resolve host: guinep.jis.gov.jm,none
 hajl.gov.jm,301,none
 hrm.jis.gov.jm,Could not resolve host: hrm.jis.gov.jm,none

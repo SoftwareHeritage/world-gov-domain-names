@@ -1,304 +1,304 @@
 subdomain,parent_domain,http_status,mx
 1.usa.gov,usa.gov,301,none
-18f.gov,18f.gov,,none
-250.gov,250.gov,,none
-400yaahc.gov,400yaahc.gov,,5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+18f.gov,18f.gov,ConnectException,none
+250.gov,250.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+400yaahc.gov,400yaahc.gov,ConnectException,5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 52weeks4women.sites.usa.gov,usa.gov,Could not resolve host: 52weeks4women.sites.usa.gov,none
-9-11commission.gov,9-11commission.gov,,10 us.etp.fireeyegov.com.
-911.gov,911.gov,,none
-911commission.gov,911commission.gov,,none
-988.gov,988.gov,,none
-aanhpiheritage.gov,aanhpiheritage.gov,,none
-abd.gov,abd.gov,,none
-abilityone.gov,abilityone.gov,,0 abilityone-gov.mail.protection.outlook.com.
-abmc.gov,abmc.gov,,10 abmc-gov.mail.protection.outlook.com.
-accedeainternet.gov,accedeainternet.gov,,none
-access-board.gov,access-board.gov,,0 accessboard-gov01e.mail.protection.outlook.com.
-acf.gov,acf.gov,,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
-achp.gov,achp.gov,,20 alt1.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.; 50 achp-gov.mail.protection.outlook.com.
-acl.gov,acl.gov,,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.; 5 acl.gov.
-acquisition.gov,acquisition.gov,,none
-acquisitiongateway.gov,acquisitiongateway.gov,,none
-acus.gov,acus.gov,,5 acus-gov.mail.protection.outlook.com.
-acwi.gov,acwi.gov,,none
-ada.gov,ada.gov,,none
-adams.gov,adams.gov,,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-adf.gov,adf.gov,,0 adf-gov.mail.protection.outlook.com.
-adlnet.gov,adlnet.gov,,0 adlnet-gov.mail.protection.outlook.com.
+9-11commission.gov,9-11commission.gov,200,10 us.etp.fireeyegov.com.
+911.gov,911.gov,302,none
+911commission.gov,911commission.gov,200,none
+988.gov,988.gov,301,none
+aanhpiheritage.gov,aanhpiheritage.gov,301,none
+abd.gov,abd.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+abilityone.gov,abilityone.gov,200,0 abilityone-gov.mail.protection.outlook.com.
+abmc.gov,abmc.gov,403,10 abmc-gov.mail.protection.outlook.com.
+accedeainternet.gov,accedeainternet.gov,403,none
+access-board.gov,access-board.gov,HttpConnectTimeoutException: HTTP connect timed out,0 accessboard-gov01e.mail.protection.outlook.com.
+acf.gov,acf.gov,202,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
+achp.gov,achp.gov,HttpConnectTimeoutException: HTTP connect timed out,20 alt1.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.; 50 achp-gov.mail.protection.outlook.com.
+acl.gov,acl.gov,403,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.; 5 acl.gov.
+acquisition.gov,acquisition.gov,301,none
+acquisitiongateway.gov,acquisitiongateway.gov,200,none
+acus.gov,acus.gov,403,5 acus-gov.mail.protection.outlook.com.
+acwi.gov,acwi.gov,301,none
+ada.gov,ada.gov,301,none
+adams.gov,adams.gov,200,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+adf.gov,adf.gov,HttpConnectTimeoutException: HTTP connect timed out,0 adf-gov.mail.protection.outlook.com.
+adlnet.gov,adlnet.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching adlnet.gov found.,0 adlnet-gov.mail.protection.outlook.com.
 admin-survey.usa.gov,usa.gov,Could not resolve host: admin-survey.usa.gov,none
-adr.gov,adr.gov,,none
+adr.gov,adr.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 advocacysba.sites.usa.gov,usa.gov,Could not resolve host: advocacysba.sites.usa.gov,none
-afadvantage.gov,afadvantage.gov,,none
-aff.gov,aff.gov,,none
-afrh.gov,afrh.gov,,0 afrh-gov.mail.protection.outlook.com.
-africanamericanhistorymonth.gov,africanamericanhistorymonth.gov,,none
-aftac.gov,aftac.gov,,5 sxht-esa-001u.aftac.gov.; 5 sxht-esa-002u.aftac.gov.
-ag.gov,ag.gov,,none
-aging.gov,aging.gov,,none
-agingstats.gov,agingstats.gov,,none
-aha.gov,aha.gov,,none
-ahcpr.gov,ahcpr.gov,,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
-ahrq.gov,ahrq.gov,,10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.
-ai.gov,ai.gov,,none
-aicenter.gov,aicenter.gov,,none
-aids.gov,aids.gov,,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
-aiexports.gov,aiexports.gov,,0 aiexports-gov.mail.protection.outlook.com.
-airknowledge.gov,airknowledge.gov,,none
-airnow.gov,airnow.gov,,none
-aiworkforcehub.gov,aiworkforcehub.gov,,0 aiworkforcehub-gov.mail.protection.outlook.com.
-alertaenlinea.gov,alertaenlinea.gov,,none
-alien.gov,alien.gov,,none
-aliens.gov,aliens.gov,,none
+afadvantage.gov,afadvantage.gov,200,none
+aff.gov,aff.gov,301,none
+afrh.gov,afrh.gov,ConnectException,0 afrh-gov.mail.protection.outlook.com.
+africanamericanhistorymonth.gov,africanamericanhistorymonth.gov,302,none
+aftac.gov,aftac.gov,ConnectException,5 sxht-esa-001u.aftac.gov.; 5 sxht-esa-002u.aftac.gov.
+ag.gov,ag.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+aging.gov,aging.gov,301,none
+agingstats.gov,agingstats.gov,200,none
+aha.gov,aha.gov,ConnectException,none
+ahcpr.gov,ahcpr.gov,301,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
+ahrq.gov,ahrq.gov,301,10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.
+ai.gov,ai.gov,301,none
+aicenter.gov,aicenter.gov,401,none
+aids.gov,aids.gov,301,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
+aiexports.gov,aiexports.gov,200,0 aiexports-gov.mail.protection.outlook.com.
+airknowledge.gov,airknowledge.gov,200,none
+airnow.gov,airnow.gov,ConnectException,none
+aiworkforcehub.gov,aiworkforcehub.gov,301,0 aiworkforcehub-gov.mail.protection.outlook.com.
+alertaenlinea.gov,alertaenlinea.gov,403,none
+alien.gov,alien.gov,301,none
+aliens.gov,aliens.gov,301,none
 alpha.my.usa.gov,usa.gov,Could not resolve host: alpha.my.usa.gov,none
-altusandc.gov,altusandc.gov,,10 sxht-esa-001u.aftac.gov.; 10 sxht-esa-002u.aftac.gov.; 5 mnsa-esa-001azu.altusandc.gov.
-alzheimers.gov,alzheimers.gov,,10 nihcesxway6.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway2.hub.nih.gov.; 10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
-ama.gov,ama.gov,,none
-amberalert.gov,amberalert.gov,,none
-america.gov,america.gov,,1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-america250.gov,america250.gov,,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
-americabydesign.gov,americabydesign.gov,,none
-americanmemory.gov,americanmemory.gov,,none
-americaslibrary.gov,americaslibrary.gov,,none
-americorps.gov,americorps.gov,,10 americorps-gov.mail.protection.outlook.com.
-americorpsoig.gov,americorpsoig.gov,,0 americorpsoig-gov.mail.protection.outlook.com.
-ameslab.gov,ameslab.gov,,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-amtrakoig.gov,amtrakoig.gov,,0 amtrakoig-gov.mail.protection.outlook.com.
+altusandc.gov,altusandc.gov,ConnectException,10 sxht-esa-001u.aftac.gov.; 10 sxht-esa-002u.aftac.gov.; 5 mnsa-esa-001azu.altusandc.gov.
+alzheimers.gov,alzheimers.gov,301,10 nihcesxway6.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway2.hub.nih.gov.; 10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
+ama.gov,ama.gov,ConnectException,none
+amberalert.gov,amberalert.gov,ConnectException,none
+america.gov,america.gov,HttpConnectTimeoutException: HTTP connect timed out,1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+america250.gov,america250.gov,301,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+americabydesign.gov,americabydesign.gov,200,none
+americanmemory.gov,americanmemory.gov,HttpTimeoutException: request timed out,none
+americaslibrary.gov,americaslibrary.gov,301,none
+americorps.gov,americorps.gov,403,10 americorps-gov.mail.protection.outlook.com.
+americorpsoig.gov,americorpsoig.gov,301,0 americorpsoig-gov.mail.protection.outlook.com.
+ameslab.gov,ameslab.gov,ConnectException,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+amtrakoig.gov,amtrakoig.gov,200,0 amtrakoig-gov.mail.protection.outlook.com.
 analytics.usa.gov,usa.gov,200,none
-anchorit.gov,anchorit.gov,,none
-anl.gov,anl.gov,,10 mailgateway.anl.gov.; 10 mailgateway-bak.anl.gov.
-anstaskforce.gov,anstaskforce.gov,,none
+anchorit.gov,anchorit.gov,301,none
+anl.gov,anl.gov,ConnectException,10 mailgateway.anl.gov.; 10 mailgateway-bak.anl.gov.
+anstaskforce.gov,anstaskforce.gov,301,none
 answers.usa.gov,usa.gov,301,none
-aoa.gov,aoa.gov,,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
-aoc.gov,aoc.gov,,5 mx07.aoc.gov.; 5 mx06.aoc.gov.; 5 mx04.aoc.gov.; 5 mx05.aoc.gov.; 5 mx08.aoc.gov.; 5 mx03.aoc.gov.
-aocoig.gov,aocoig.gov,,none
-ap.gov,ap.gov,,none
+aoa.gov,aoa.gov,301,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
+aoc.gov,aoc.gov,301,5 mx07.aoc.gov.; 5 mx06.aoc.gov.; 5 mx04.aoc.gov.; 5 mx05.aoc.gov.; 5 mx08.aoc.gov.; 5 mx03.aoc.gov.
+aocoig.gov,aocoig.gov,302,none
+ap.gov,ap.gov,301,none
 api-business.usa.gov,usa.gov,Could not resolve host: api-business.usa.gov,none
 api.usa.gov,usa.gov,404,none
-applicationmanager.gov,applicationmanager.gov,,none
-apprenticeship.gov,apprenticeship.gov,,0 apprenticeship-gov.mail.protection.outlook.com.
-apprenticeships.gov,apprenticeships.gov,,none
+applicationmanager.gov,applicationmanager.gov,ConnectException,none
+apprenticeship.gov,apprenticeship.gov,301,0 apprenticeship-gov.mail.protection.outlook.com.
+apprenticeships.gov,apprenticeships.gov,301,none
 apps.gobiernousa.gov,usa.gov,301,none
 apps.usa.gov,usa.gov,301,none
-arc.gov,arc.gov,,0 arc-gov.mail.protection.outlook.com.
-arcade.gov,arcade.gov,,
-arcades.gov,arcades.gov,,
-archives.gov,archives.gov,,10 us.etp.fireeyegov.com.
-arctic.gov,arctic.gov,,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
-arm.gov,arm.gov,,10 mxb-00689501.gslb.gpphosted.com.; 10 mxa-00689501.gslb.gpphosted.com.
+arc.gov,arc.gov,200,0 arc-gov.mail.protection.outlook.com.
+arcade.gov,arcade.gov,301,
+arcades.gov,arcades.gov,301,
+archives.gov,archives.gov,ConnectException,10 us.etp.fireeyegov.com.
+arctic.gov,arctic.gov,200,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
+arm.gov,arm.gov,200,10 mxb-00689501.gslb.gpphosted.com.; 10 mxa-00689501.gslb.gpphosted.com.
 armyengineerhistory.sites.usa.gov,usa.gov,Could not resolve host: armyengineerhistory.sites.usa.gov,none
-arpa-h.gov,arpa-h.gov,,10 arpah-gov01b.mail.protection.outlook.com.
-arpah.gov,arpah.gov,,10 arpah-gov.mail.protection.outlook.com.
-ars-grin.gov,ars-grin.gov,,5 usda-gov.mail.protection.outlook.com.
-arsusda.gov,arsusda.gov,,none
-arts.gov,arts.gov,,0 arts-gov.mail.eo.outlook.com.
-asap.gov,asap.gov,,none
-asc.gov,asc.gov,,0 asc-gov.mail.protection.outlook.com.
-asianpacificheritage.gov,asianpacificheritage.gov,,none
+arpa-h.gov,arpa-h.gov,200,10 arpah-gov01b.mail.protection.outlook.com.
+arpah.gov,arpah.gov,301,10 arpah-gov.mail.protection.outlook.com.
+ars-grin.gov,ars-grin.gov,404,5 usda-gov.mail.protection.outlook.com.
+arsusda.gov,arsusda.gov,ConnectException,none
+arts.gov,arts.gov,301,0 arts-gov.mail.eo.outlook.com.
+asap.gov,asap.gov,301,none
+asc.gov,asc.gov,200,0 asc-gov.mail.protection.outlook.com.
+asianpacificheritage.gov,asianpacificheritage.gov,200,none
 asis.demo1.search.usa.gov,usa.gov,Could not resolve host: asis.demo1.search.usa.gov,none
 asis.search.usa.gov,usa.gov,Could not resolve host: asis.search.usa.gov,none
-aspr.gov,aspr.gov,,0 aspr-gov.mail.protection.outlook.com.
-assistantdemocraticleader.gov,assistantdemocraticleader.gov,,none
-ata.gov,ata.gov,,none
-atf.gov,atf.gov,,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
+aspr.gov,aspr.gov,301,0 aspr-gov.mail.protection.outlook.com.
+assistantdemocraticleader.gov,assistantdemocraticleader.gov,ConnectException,none
+ata.gov,ata.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+atf.gov,atf.gov,301,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
 atlfeb.sites.usa.gov,usa.gov,Could not resolve host: atlfeb.sites.usa.gov,none
-atvsafety.gov,atvsafety.gov,,none
-aviationweather.gov,aviationweather.gov,,none
+atvsafety.gov,atvsafety.gov,301,none
+aviationweather.gov,aviationweather.gov,200,none
 aws.search.usa.gov,usa.gov,Could not resolve host: aws.search.usa.gov,none
-ayudaconmibanco.gov,ayudaconmibanco.gov,,none
-bam.gov,bam.gov,,none
-bankanswers.gov,bankanswers.gov,,none
-bankcustomer.gov,bankcustomer.gov,,none
-bankcustomerassistance.gov,bankcustomerassistance.gov,,none
-bankhelp.gov,bankhelp.gov,,none
-banknet.gov,banknet.gov,,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
-bankruptcy.gov,bankruptcy.gov,,none
-bats.gov,bats.gov,,none
-bbg.gov,bbg.gov,,0 bbg-gov.mail.protection.outlook.com.
-bcfp.gov,bcfp.gov,,none
-bea.gov,bea.gov,,10 bea-gov.mail.protection.outlook.com.
-bebest.gov,bebest.gov,,none
-benefeds.gov,benefeds.gov,,0 benefeds-gov.mail.protection.outlook.com.
-benefits.gov,benefits.gov,,none
-bep.gov,bep.gov,,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
+ayudaconmibanco.gov,ayudaconmibanco.gov,301,none
+bam.gov,bam.gov,ConnectException,none
+bankanswers.gov,bankanswers.gov,301,none
+bankcustomer.gov,bankcustomer.gov,301,none
+bankcustomerassistance.gov,bankcustomerassistance.gov,301,none
+bankhelp.gov,bankhelp.gov,301,none
+banknet.gov,banknet.gov,302,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
+bankruptcy.gov,bankruptcy.gov,ConnectException,none
+bats.gov,bats.gov,301,none
+bbg.gov,bbg.gov,301,0 bbg-gov.mail.protection.outlook.com.
+bcfp.gov,bcfp.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bcfp.gov found.,none
+bea.gov,bea.gov,200,10 bea-gov.mail.protection.outlook.com.
+bebest.gov,bebest.gov,302,none
+benefeds.gov,benefeds.gov,301,0 benefeds-gov.mail.protection.outlook.com.
+benefits.gov,benefits.gov,301,none
+bep.gov,bep.gov,302,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
 beta.business.usa.gov,usa.gov,Could not resolve host: beta.business.usa.gov,none
 beta.gobierno.usa.gov,usa.gov,Could not resolve host: beta.gobierno.usa.gov,none
 beta.usa.gov,usa.gov,301,none
-betobaccofree.gov,betobaccofree.gov,,10 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
-bia.gov,bia.gov,,0 bia-gov.mail.protection.outlook.com.
-bidenlibrary.gov,bidenlibrary.gov,,none
-bidenwhitehouse.gov,bidenwhitehouse.gov,,none
-billetes.gov,billetes.gov,,none
-bioethics.gov,bioethics.gov,,40 alt3.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.
-biomassboard.gov,biomassboard.gov,,none
-biometriccoe.gov,biometriccoe.gov,,none
-biometrics.gov,biometrics.gov,,none
-biopreferred.gov,biopreferred.gov,,none
-birthcontrol.gov,birthcontrol.gov,,none
-bis.gov,bis.gov,,0 bis-gov.mail.protection.office365.us.
-bjs.gov,bjs.gov,,none
-blackhistorymonth.gov,blackhistorymonth.gov,,none
-bldrdoc.gov,bldrdoc.gov,,none
-blm.gov,blm.gov,,0 blm-gov.mail.protection.outlook.com.
+betobaccofree.gov,betobaccofree.gov,301,10 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
+bia.gov,bia.gov,301,0 bia-gov.mail.protection.outlook.com.
+bidenlibrary.gov,bidenlibrary.gov,ConnectException,none
+bidenwhitehouse.gov,bidenwhitehouse.gov,ConnectException,none
+billetes.gov,billetes.gov,301,none
+bioethics.gov,bioethics.gov,HttpConnectTimeoutException: HTTP connect timed out,40 alt3.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.
+biomassboard.gov,biomassboard.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+biometriccoe.gov,biometriccoe.gov,301,none
+biometrics.gov,biometrics.gov,301,none
+biopreferred.gov,biopreferred.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching biopreferred.gov found.,none
+birthcontrol.gov,birthcontrol.gov,301,none
+bis.gov,bis.gov,HttpConnectTimeoutException: HTTP connect timed out,0 bis-gov.mail.protection.office365.us.
+bjs.gov,bjs.gov,301,none
+blackhistorymonth.gov,blackhistorymonth.gov,302,none
+bldrdoc.gov,bldrdoc.gov,ConnectException,none
+blm.gov,blm.gov,301,0 blm-gov.mail.protection.outlook.com.
 blm.sites.usa.gov,usa.gov,Could not resolve host: blm.sites.usa.gov,none
 blmca.sites.usa.gov,usa.gov,Could not resolve host: blmca.sites.usa.gov,none
 blog.gobiernousa.gov,usa.gov,301,none
 blog.usa.gov,usa.gov,302,none
-bls.gov,bls.gov,,10 bls-gov.mail.protection.outlook.com.
-bluecampaign.gov,bluecampaign.gov,,none
-blueroof.gov,blueroof.gov,,none
-bnl.gov,bnl.gov,,10 mxa-00008201.gslb.pphosted.com.; 10 mxb-00008201.gslb.pphosted.com.
-boem.gov,boem.gov,,1 boem-gov.mail.protection.outlook.com.
-boemre.gov,boemre.gov,,1 boemre-gov.mail.protection.outlook.com.
-bondpro.gov,bondpro.gov,,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
-bop.gov,bop.gov,,10 mx-da6.usdoj.gov.; 10 mx-jdcw.usdoj.gov.
-bor.gov,bor.gov,,none
-bpa.gov,bpa.gov,,0 bpa-gov.mail.protection.outlook.com.
-brain.gov,brain.gov,,none
-broadbandmap.gov,broadbandmap.gov,,none
-bsee.gov,bsee.gov,,1 bsee-gov.mail.protection.outlook.com.
-btfa.gov,btfa.gov,,0 btfa-gov.mail.protection.outlook.com.
-bts.gov,bts.gov,,1 bts-dot-gov.mail.protection.outlook.com.
-budget.gov,budget.gov,,none
-budgetlob.gov,budgetlob.gov,,none
+bls.gov,bls.gov,302,10 bls-gov.mail.protection.outlook.com.
+bluecampaign.gov,bluecampaign.gov,301,none
+blueroof.gov,blueroof.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching blueroof.gov found.,none
+bnl.gov,bnl.gov,301,10 mxa-00008201.gslb.pphosted.com.; 10 mxb-00008201.gslb.pphosted.com.
+boem.gov,boem.gov,301,1 boem-gov.mail.protection.outlook.com.
+boemre.gov,boemre.gov,ConnectException,1 boemre-gov.mail.protection.outlook.com.
+bondpro.gov,bondpro.gov,200,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
+bop.gov,bop.gov,ConnectException,10 mx-da6.usdoj.gov.; 10 mx-jdcw.usdoj.gov.
+bor.gov,bor.gov,ConnectException,none
+bpa.gov,bpa.gov,301,0 bpa-gov.mail.protection.outlook.com.
+brain.gov,brain.gov,301,none
+broadbandmap.gov,broadbandmap.gov,301,none
+bsee.gov,bsee.gov,301,1 bsee-gov.mail.protection.outlook.com.
+btfa.gov,btfa.gov,302,0 btfa-gov.mail.protection.outlook.com.
+bts.gov,bts.gov,ConnectException,1 bts-dot-gov.mail.protection.outlook.com.
+budget.gov,budget.gov,301,none
+budgetlob.gov,budgetlob.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 buscador.usa.gov,usa.gov,Resolving timed out after 3001 milliseconds,none
-bush41library.gov,bush41library.gov,,none
-business.gov,business.gov,,none
+bush41library.gov,bush41library.gov,ConnectException,none
+business.gov,business.gov,301,none
 business.usa.gov,usa.gov,301,none
-businessdefense.gov,businessdefense.gov,,none
+businessdefense.gov,businessdefense.gov,ConnectException,none
 businessusa.gov,usa.gov,Could not resolve host: businessusa.gov,none
-buyamerican.gov,buyamerican.gov,,none
-campusdrugprevention.gov,campusdrugprevention.gov,,none
-cancer.gov,cancer.gov,,10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxway2.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.; 10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.
-cao.gov,cao.gov,,none
-cap.gov,cap.gov,,dig error
-capital.gov,capital.gov,,5 mx04.aoc.gov.; 5 mx03.aoc.gov.
-capitalgiftshop.gov,capitalgiftshop.gov,,none
-capitol.gov,capitol.gov,,5 mx03.aoc.gov.; 5 mx04.aoc.gov.
-capitolgiftshop.gov,capitolgiftshop.gov,,none
-capnhq.gov,capnhq.gov,,0 capnhq-gov.mail.protection.outlook.com.
-casl.gov,casl.gov,,10 mxa-00689501.gslb.gpphosted.com.; 10 mxb-00689501.gslb.gpphosted.com.
-cavc.gov,cavc.gov,,none
-cbca.gov,cbca.gov,,5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
-cbi-epa.gov,cbi-epa.gov,,none
-cbo.gov,cbo.gov,,10 mxa-001ec201.gslb.pphosted.com.; 10 mxb-001ec201.gslb.pphosted.com.
-cbonews.gov,cbonews.gov,,10 mxa-001ec201.gslb.pphosted.com.; 20 mxb-001ec201.gslb.pphosted.com.
-cbp.gov,cbp.gov,,none
-ccac.gov,ccac.gov,,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
-ccb.gov,ccb.gov,,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
-cdc.gov,cdc.gov,,20 alt1.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
-cdcpartners.gov,cdcpartners.gov,,none
-cdfifund.gov,cdfifund.gov,,none
-cdo.gov,cdo.gov,,none
-ce-ncsc.gov,ce-ncsc.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-cebaf.gov,cebaf.gov,,10 mxb-0027ee01.gslb.pphosted.com.; 10 mxa-0027ee01.gslb.pphosted.com.
-cecc.gov,cecc.gov,,none
-cendi.gov,cendi.gov,,10 mxb-001d2d01.gslb.gpphosted.com.; 10 mxa-001d2d01.gslb.gpphosted.com.
-census.gov,census.gov,,50 mail1.census.gov.; 50 mail2.census.gov.
-cfa.gov,cfa.gov,,30 cfa-gov.mail.protection.outlook.com.; 20 sacca-smtp007.verizon.net.; 10 rlymd-smtp007.verizon.net.
-cfius.gov,cfius.gov,,none
-cfo.gov,cfo.gov,,none
-cfpa.gov,cfpa.gov,,5 cfpa-gov.mail.protection.outlook.com.
-cfpb.gov,cfpb.gov,,15 cec-mtpe-01-03-p.inet.qwest.net.; 5 cfpb-gov.mail.protection.outlook.com.; 10 stn-mtpe-01-03-p.inet.qwest.net.
-cftc.gov,cftc.gov,,0 cftc-gov.mail.protection.outlook.com.
-challenge.gov,challenge.gov,,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-changeofaddress.gov,changeofaddress.gov,,none
-chcoc.gov,chcoc.gov,,10 cust45693-1.in.mailcontrol.com.; 10 cust45693-2.in.mailcontrol.com.
-childcare.gov,childcare.gov,,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
-childreninadversity.gov,childreninadversity.gov,,none
-childstats.gov,childstats.gov,,none
-childwelfare.gov,childwelfare.gov,,5 childwelfare-gov.mail.protection.outlook.com.
-chips.gov,chips.gov,,10 chips-gov.mail.protection.outlook.com.
-choosemyplate.gov,choosemyplate.gov,,none
-cia.gov,cia.gov,,10 mail4.cia.gov.; 10 mail3.cia.gov.
-cigie.gov,cigie.gov,,0 cigie-gov.mail.protection.outlook.com.
-cio.gov,cio.gov,,none
-cisa.gov,cisa.gov,,10 mxa-00376703.gslb.gpphosted.com.; 10 mxb-00376703.gslb.gpphosted.com.
-citap.gov,citap.gov,,none
-citizenscience.gov,citizenscience.gov,,none
+buyamerican.gov,buyamerican.gov,301,none
+campusdrugprevention.gov,campusdrugprevention.gov,403,none
+cancer.gov,cancer.gov,301,10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxway2.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.; 10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.
+cao.gov,cao.gov,ConnectException,none
+cap.gov,cap.gov,301,dig error
+capital.gov,capital.gov,301,5 mx04.aoc.gov.; 5 mx03.aoc.gov.
+capitalgiftshop.gov,capitalgiftshop.gov,ConnectException,none
+capitol.gov,capitol.gov,301,5 mx03.aoc.gov.; 5 mx04.aoc.gov.
+capitolgiftshop.gov,capitolgiftshop.gov,ConnectException,none
+capnhq.gov,capnhq.gov,302,0 capnhq-gov.mail.protection.outlook.com.
+casl.gov,casl.gov,"ProtocolException: Invalid header name ""Strict-Transport-Security""""",10 mxa-00689501.gslb.gpphosted.com.; 10 mxb-00689501.gslb.gpphosted.com.
+cavc.gov,cavc.gov,ConnectException,none
+cbca.gov,cbca.gov,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
+cbi-epa.gov,cbi-epa.gov,ConnectException,none
+cbo.gov,cbo.gov,403,10 mxa-001ec201.gslb.pphosted.com.; 10 mxb-001ec201.gslb.pphosted.com.
+cbonews.gov,cbonews.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-001ec201.gslb.pphosted.com.; 20 mxb-001ec201.gslb.pphosted.com.
+cbp.gov,cbp.gov,301,none
+ccac.gov,ccac.gov,302,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
+ccb.gov,ccb.gov,200,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
+cdc.gov,cdc.gov,301,20 alt1.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
+cdcpartners.gov,cdcpartners.gov,ConnectException,none
+cdfifund.gov,cdfifund.gov,302,none
+cdo.gov,cdo.gov,301,none
+ce-ncsc.gov,ce-ncsc.gov,ConnectException,10 inbound-smtp.us-east-1.amazonaws.com.
+cebaf.gov,cebaf.gov,ConnectException,10 mxb-0027ee01.gslb.pphosted.com.; 10 mxa-0027ee01.gslb.pphosted.com.
+cecc.gov,cecc.gov,302,none
+cendi.gov,cendi.gov,200,10 mxb-001d2d01.gslb.gpphosted.com.; 10 mxa-001d2d01.gslb.gpphosted.com.
+census.gov,census.gov,302,50 mail1.census.gov.; 50 mail2.census.gov.
+cfa.gov,cfa.gov,200,30 cfa-gov.mail.protection.outlook.com.; 20 sacca-smtp007.verizon.net.; 10 rlymd-smtp007.verizon.net.
+cfius.gov,cfius.gov,200,none
+cfo.gov,cfo.gov,301,none
+cfpa.gov,cfpa.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cfpa.gov found.,5 cfpa-gov.mail.protection.outlook.com.
+cfpb.gov,cfpb.gov,301,15 cec-mtpe-01-03-p.inet.qwest.net.; 5 cfpb-gov.mail.protection.outlook.com.; 10 stn-mtpe-01-03-p.inet.qwest.net.
+cftc.gov,cftc.gov,301,0 cftc-gov.mail.protection.outlook.com.
+challenge.gov,challenge.gov,301,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+changeofaddress.gov,changeofaddress.gov,ConnectException,none
+chcoc.gov,chcoc.gov,301,10 cust45693-1.in.mailcontrol.com.; 10 cust45693-2.in.mailcontrol.com.
+childcare.gov,childcare.gov,200,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
+childreninadversity.gov,childreninadversity.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+childstats.gov,childstats.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+childwelfare.gov,childwelfare.gov,HttpConnectTimeoutException: HTTP connect timed out,5 childwelfare-gov.mail.protection.outlook.com.
+chips.gov,chips.gov,HttpConnectTimeoutException: HTTP connect timed out,10 chips-gov.mail.protection.outlook.com.
+choosemyplate.gov,choosemyplate.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+cia.gov,cia.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mail4.cia.gov.; 10 mail3.cia.gov.
+cigie.gov,cigie.gov,HttpConnectTimeoutException: HTTP connect timed out,0 cigie-gov.mail.protection.outlook.com.
+cio.gov,cio.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+cisa.gov,cisa.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-00376703.gslb.gpphosted.com.; 10 mxb-00376703.gslb.gpphosted.com.
+citap.gov,citap.gov,200,none
+citizenscience.gov,citizenscience.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 civilrights.sites.usa.gov,usa.gov,Could not resolve host: civilrights.sites.usa.gov,none
-cjis.gov,cjis.gov,,none
-climate.gov,climate.gov,,none
-clinicaltrial.gov,clinicaltrial.gov,,none
-clinicaltrials.gov,clinicaltrials.gov,,10 nihcesxway4.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.
-clintonlibrary.gov,clintonlibrary.gov,,10 us.etp.fireeyegov.com.
-cloud.gov,cloud.gov,,5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
-cms.gov,cms.gov,,20 alt1.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
-cmts.gov,cmts.gov,,1 cmts-gov.mail.protection.outlook.com.
-cncs.gov,cncs.gov,,10 cncs-gov.mail.protection.outlook.com.
-cns.gov,cns.gov,,10 cns-gov.mail.protection.outlook.com.
-cnss.gov,cnss.gov,,none
-code.gov,code.gov,,none
-coffa.gov,coffa.gov,,none
-coil.gov,coil.gov,,10 mxb-00026101.gslb.gpphosted.com.; 10 mxa-00026101.gslb.gpphosted.com.
-coldcaserecords.gov,coldcaserecords.gov,,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-collegedrinkingprevention.gov,collegedrinkingprevention.gov,,10 nihcesxway2.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
-collegenavigator.gov,collegenavigator.gov,,none
-commerce.gov,commerce.gov,,0 commerce-gov.mail.protection.outlook.com.
+cjis.gov,cjis.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+climate.gov,climate.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+clinicaltrial.gov,clinicaltrial.gov,ConnectException,none
+clinicaltrials.gov,clinicaltrials.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nihcesxway4.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.
+clintonlibrary.gov,clintonlibrary.gov,HttpConnectTimeoutException: HTTP connect timed out,10 us.etp.fireeyegov.com.
+cloud.gov,cloud.gov,HttpConnectTimeoutException: HTTP connect timed out,5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
+cms.gov,cms.gov,HttpConnectTimeoutException: HTTP connect timed out,20 alt1.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
+cmts.gov,cmts.gov,HttpConnectTimeoutException: HTTP connect timed out,1 cmts-gov.mail.protection.outlook.com.
+cncs.gov,cncs.gov,ConnectException,10 cncs-gov.mail.protection.outlook.com.
+cns.gov,cns.gov,HttpConnectTimeoutException: HTTP connect timed out,10 cns-gov.mail.protection.outlook.com.
+cnss.gov,cnss.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+code.gov,code.gov,301,none
+coffa.gov,coffa.gov,301,none
+coil.gov,coil.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxb-00026101.gslb.gpphosted.com.; 10 mxa-00026101.gslb.gpphosted.com.
+coldcaserecords.gov,coldcaserecords.gov,301,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+collegedrinkingprevention.gov,collegedrinkingprevention.gov,301,10 nihcesxway2.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
+collegenavigator.gov,collegenavigator.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+commerce.gov,commerce.gov,403,0 commerce-gov.mail.protection.outlook.com.
 commissiononcare.sites.usa.gov,usa.gov,Could not resolve host: commissiononcare.sites.usa.gov,none
 communitysolutions.sites.usa.gov,usa.gov,Could not resolve host: communitysolutions.sites.usa.gov,none
-complaintreferralexpress.gov,complaintreferralexpress.gov,,none
-compliance.gov,compliance.gov,,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
+complaintreferralexpress.gov,complaintreferralexpress.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+compliance.gov,compliance.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
 components.standards.usa.gov,usa.gov,Could not resolve host: components.standards.usa.gov,none
-comptrollerofthecurrency.gov,comptrollerofthecurrency.gov,,none
-computersforlearning.gov,computersforlearning.gov,,none
+comptrollerofthecurrency.gov,comptrollerofthecurrency.gov,200,none
+computersforlearning.gov,computersforlearning.gov,403,none
 conectate.gobiernousa.gov,usa.gov,Resolving timed out after 3000 milliseconds,none
-congress.gov,congress.gov,,5 mx41.loc.gov.; 5 mx42.loc.gov.; 5 mx23.loc.gov.; 5 mx22.loc.gov.
-congressionaldirectory.gov,congressionaldirectory.gov,,none
-congressionalrecord.gov,congressionalrecord.gov,,none
-connect.gov,connect.gov,,10 usda-gov.mail.protection.outlook.com.
+congress.gov,congress.gov,403,5 mx41.loc.gov.; 5 mx42.loc.gov.; 5 mx23.loc.gov.; 5 mx22.loc.gov.
+congressionaldirectory.gov,congressionaldirectory.gov,301,none
+congressionalrecord.gov,congressionalrecord.gov,301,none
+connect.gov,connect.gov,301,10 usda-gov.mail.protection.outlook.com.
 connect.usa.gov,usa.gov,Resolving timed out after 3001 milliseconds,none
-conservation.gov,conservation.gov,,none
-consumer.gov,consumer.gov,,none
-consumerbureau.gov,consumerbureau.gov,,none
-consumerfinance.gov,consumerfinance.gov,,15 cec-mtpe-01-03-p.inet.qwest.net.; 10 stn-mtpe-01-03-p.inet.qwest.net.; 5 consumerfinance-gov.mail.protection.outlook.com.
-consumerfinancial.gov,consumerfinancial.gov,,none
-consumerfinancialprotectionbureau.gov,consumerfinancialprotectionbureau.gov,,none
-consumerprotectionbureau.gov,consumerprotectionbureau.gov,,none
-consumersentinel.gov,consumersentinel.gov,,10 consumersentinel-gov.mail.protection.outlook.com.
-consumidor.gov,consumidor.gov,,none
-contractdirectory.gov,contractdirectory.gov,,none
-copyright.gov,copyright.gov,,10 mxb-00026101.gslb.gpphosted.com.; 10 mxa-00026101.gslb.gpphosted.com.
-copyrightclaimsboard.gov,copyrightclaimsboard.gov,,none
-coronavirus.gov,coronavirus.gov,,none
-councils.gov,councils.gov,,none
-covid.gov,covid.gov,,none
-covidtest.gov,covidtest.gov,,none
-covidtests.gov,covidtests.gov,,none
-cpars.gov,cpars.gov,,none
-cpnireporting.gov,cpnireporting.gov,,10 mail.cpnireporting.gov.
-cpsc.gov,cpsc.gov,,0 cpsc-gov.mail.protection.outlook.com.
+conservation.gov,conservation.gov,302,none
+consumer.gov,consumer.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+consumerbureau.gov,consumerbureau.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consumerbureau.gov found.,none
+consumerfinance.gov,consumerfinance.gov,301,15 cec-mtpe-01-03-p.inet.qwest.net.; 10 stn-mtpe-01-03-p.inet.qwest.net.; 5 consumerfinance-gov.mail.protection.outlook.com.
+consumerfinancial.gov,consumerfinancial.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consumerfinancial.gov found.,none
+consumerfinancialprotectionbureau.gov,consumerfinancialprotectionbureau.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consumerfinancialprotectionbureau.gov found.,none
+consumerprotectionbureau.gov,consumerprotectionbureau.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consumerprotectionbureau.gov found.,none
+consumersentinel.gov,consumersentinel.gov,200,10 consumersentinel-gov.mail.protection.outlook.com.
+consumidor.gov,consumidor.gov,403,none
+contractdirectory.gov,contractdirectory.gov,301,none
+copyright.gov,copyright.gov,200,10 mxb-00026101.gslb.gpphosted.com.; 10 mxa-00026101.gslb.gpphosted.com.
+copyrightclaimsboard.gov,copyrightclaimsboard.gov,301,none
+coronavirus.gov,coronavirus.gov,301,none
+councils.gov,councils.gov,301,none
+covid.gov,covid.gov,301,none
+covidtest.gov,covidtest.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+covidtests.gov,covidtests.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+cpars.gov,cpars.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+cpnireporting.gov,cpnireporting.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mail.cpnireporting.gov.
+cpsc.gov,cpsc.gov,301,0 cpsc-gov.mail.protection.outlook.com.
 crazyhat.sites.usa.gov,usa.gov,Could not resolve host: crazyhat.sites.usa.gov,none
-crb.gov,crb.gov,,10 mxb-00026101.gslb.gpphosted.com.; 10 mxa-00026101.gslb.gpphosted.com.
-creators.gov,creators.gov,,none
-crimesolutions.gov,crimesolutions.gov,,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
-criticalminerals.gov,criticalminerals.gov,,none
+crb.gov,crb.gov,301,10 mxb-00026101.gslb.gpphosted.com.; 10 mxa-00026101.gslb.gpphosted.com.
+creators.gov,creators.gov,403,none
+crimesolutions.gov,crimesolutions.gov,301,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
+criticalminerals.gov,criticalminerals.gov,301,none
 crowdsourcing-toolkit.sites.usa.gov,usa.gov,Could not resolve host: crowdsourcing-toolkit.sites.usa.gov,none
-crs.gov,crs.gov,,none
-crypto.gov,crypto.gov,,none
-csb.gov,csb.gov,,10 csb-gov.mail.protection.outlook.com.
-csce.gov,csce.gov,,20 mxb-0018d802.gslb.pphosted.com.; 20 mxa-0018d802.gslb.pphosted.com.
-csosa.gov,csosa.gov,,1 Csosao365.mail.protection.outlook.com.
-cssbmb.gov,cssbmb.gov,,none
-cttso.gov,cttso.gov,,10 iwtsd.mail.protection.office365.us.
-cuidadodesalud.gov,cuidadodesalud.gov,,none
-cupcao.gov,cupcao.gov,,none
-currencyreader.gov,currencyreader.gov,,none
-currencyreaderapplication.gov,currencyreaderapplication.gov,,none
-cwc.gov,cwc.gov,,10 cwc-gov.mail.protection.outlook.com.
-cyber.gov,cyber.gov,,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
-cybercareers.gov,cybercareers.gov,,none
-cybercrime.gov,cybercrime.gov,,none
-cybersecurity.gov,cybersecurity.gov,,none
-d250.gov,d250.gov,,none
-data.gov,data.gov,,none
-dataprivacyframework.gov,dataprivacyframework.gov,,none
-dc3on.gov,dc3on.gov,,10 mail.dc3on.gov.; 20 mail2.dc3on.gov.
-dd214.gov,dd214.gov,,none
-dea.gov,dea.gov,,10 mx-jdcw.usdoj.gov.; 10 mx-da6.usdoj.gov.
-deaecom.gov,deaecom.gov,,10 mail.deaecom.gov.
-declaration250.gov,declaration250.gov,,none
-defense.gov,defense.gov,,none
-dei.gov,dei.gov,,none
+crs.gov,crs.gov,HttpTimeoutException: request timed out,none
+crypto.gov,crypto.gov,302,none
+csb.gov,csb.gov,301,10 csb-gov.mail.protection.outlook.com.
+csce.gov,csce.gov,302,20 mxb-0018d802.gslb.pphosted.com.; 20 mxa-0018d802.gslb.pphosted.com.
+csosa.gov,csosa.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching csosa.gov found.,1 Csosao365.mail.protection.outlook.com.
+cssbmb.gov,cssbmb.gov,200,none
+cttso.gov,cttso.gov,522,10 iwtsd.mail.protection.office365.us.
+cuidadodesalud.gov,cuidadodesalud.gov,301,none
+cupcao.gov,cupcao.gov,ConnectException,none
+currencyreader.gov,currencyreader.gov,403,none
+currencyreaderapplication.gov,currencyreaderapplication.gov,301,none
+cwc.gov,cwc.gov,HttpConnectTimeoutException: HTTP connect timed out,10 cwc-gov.mail.protection.outlook.com.
+cyber.gov,cyber.gov,301,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
+cybercareers.gov,cybercareers.gov,301,none
+cybercrime.gov,cybercrime.gov,301,none
+cybersecurity.gov,cybersecurity.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+d250.gov,d250.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+data.gov,data.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+dataprivacyframework.gov,dataprivacyframework.gov,200,none
+dc3on.gov,dc3on.gov,ConnectException,10 mail.dc3on.gov.; 20 mail2.dc3on.gov.
+dd214.gov,dd214.gov,ConnectException,none
+dea.gov,dea.gov,403,10 mx-jdcw.usdoj.gov.; 10 mx-da6.usdoj.gov.
+deaecom.gov,deaecom.gov,302,10 mail.deaecom.gov.
+declaration250.gov,declaration250.gov,ConnectException,none
+defense.gov,defense.gov,403,none
+dei.gov,dei.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 demo.search.usa.gov,usa.gov,Could not resolve host: demo.search.usa.gov,none
 demo1.search.usa.gov,usa.gov,Could not resolve host: demo1.search.usa.gov,none
 demo1.staging.infr.search.usa.gov,usa.gov,Could not resolve host: demo1.staging.infr.search.usa.gov,none
@@ -310,438 +310,438 @@ demo4.search.usa.gov,usa.gov,Could not resolve host: demo4.search.usa.gov,none
 demo4.staging.infr.search.usa.gov,usa.gov,Could not resolve host: demo4.staging.infr.search.usa.gov,none
 demo5.search.usa.gov,usa.gov,Could not resolve host: demo5.search.usa.gov,none
 demo5.staging.infr.search.usa.gov,usa.gov,Could not resolve host: demo5.staging.infr.search.usa.gov,none
-democraticleader.gov,democraticleader.gov,,none
-democraticwhip.gov,democraticwhip.gov,,20 mxb-0018d802.gslb.pphosted.com.; 20 mxa-0018d802.gslb.pphosted.com.
-democrats.gov,democrats.gov,,none
-dems.gov,dems.gov,,none
-denali.gov,denali.gov,,0 denali-gov.mail.protection.outlook.com.
-deregulation.gov,deregulation.gov,,none
+democraticleader.gov,democraticleader.gov,302,none
+democraticwhip.gov,democraticwhip.gov,302,20 mxb-0018d802.gslb.pphosted.com.; 20 mxa-0018d802.gslb.pphosted.com.
+democrats.gov,democrats.gov,ConnectException,none
+dems.gov,dems.gov,302,none
+denali.gov,denali.gov,200,0 denali-gov.mail.protection.outlook.com.
+deregulation.gov,deregulation.gov,301,none
 dev-business.usa.gov,usa.gov,Could not resolve host: dev-business.usa.gov,none
-devcftc.gov,devcftc.gov,,none
-devtestfan1.gov,devtestfan1.gov,,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-dfafacts.gov,dfafacts.gov,,none
-dfc.gov,dfc.gov,,0 dfc-gov.mail.protection.outlook.com.
+devcftc.gov,devcftc.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+devtestfan1.gov,devtestfan1.gov,ConnectException,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+dfafacts.gov,dfafacts.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+dfc.gov,dfc.gov,301,0 dfc-gov.mail.protection.outlook.com.
 dgdev.sites.usa.gov,usa.gov,Could not resolve host: dgdev.sites.usa.gov,none
-dhhs.gov,dhhs.gov,,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
-dhs.gov,dhs.gov,,10 mxa-00376703.gslb.gpphosted.com.; 10 mxb-00376703.gslb.gpphosted.com.
-diabetescommittee.gov,diabetescommittee.gov,,none
-dietaryguidelines.gov,dietaryguidelines.gov,,none
-digital.gov,digital.gov,,none
-digitalgov.gov,digitalgov.gov,,none
-digitalpreservation.gov,digitalpreservation.gov,,none
-digitizationguidelines.gov,digitizationguidelines.gov,,none
-directoasucuenta.gov,directoasucuenta.gov,,none
-disasterassistance.gov,disasterassistance.gov,,none
-disasterhousing.gov,disasterhousing.gov,,none
-distraction.gov,distraction.gov,,none
-dnfsb.gov,dnfsb.gov,,0 dnfsb-gov.mail.protection.outlook.com.
-dni.gov,dni.gov,,0 dni-gov.mail.protection.office365.us.
-dns.gov,dns.gov,,none
-dnsops.gov,dnsops.gov,,none
-doc.gov,doc.gov,,0 doc-gov.mail.protection.outlook.com.
-docline.gov,docline.gov,,10 nihcesxway4.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.
-doddns.gov,doddns.gov,,none
-doe.gov,doe.gov,,10 mxb-002bc302.gslb.gpphosted.com.; 10 mxa-002bc302.gslb.gpphosted.com.
-doge.gov,doge.gov,,0 inbound.mail.dmz.pitc.gov.
-doi.gov,doi.gov,,0 doi-gov.mail.protection.outlook.com.
-doioig.gov,doioig.gov,,5 doioig-gov.mail.protection.outlook.com.
-doj.gov,doj.gov,,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
-dol.gov,dol.gov,,0 dol-gov.mail.protection.outlook.com.
-doleta.gov,doleta.gov,,0 doleta-gov.mail.protection.outlook.com.
-domainops.gov,domainops.gov,,none
-donaciondeorganos.gov,donaciondeorganos.gov,,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
-donotcall.gov,donotcall.gov,,10 donotcall-gov.mail.protection.outlook.com.
-dontserveteens.gov,dontserveteens.gov,,none
-dot.gov,dot.gov,,1 dot-gov.mail.protection.outlook.com.
-dotgov.gov,dotgov.gov,,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
+dhhs.gov,dhhs.gov,HttpConnectTimeoutException: HTTP connect timed out,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
+dhs.gov,dhs.gov,301,10 mxa-00376703.gslb.gpphosted.com.; 10 mxb-00376703.gslb.gpphosted.com.
+diabetescommittee.gov,diabetescommittee.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+dietaryguidelines.gov,dietaryguidelines.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+digital.gov,digital.gov,200,none
+digitalgov.gov,digitalgov.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+digitalpreservation.gov,digitalpreservation.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+digitizationguidelines.gov,digitizationguidelines.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+directoasucuenta.gov,directoasucuenta.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+disasterassistance.gov,disasterassistance.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+disasterhousing.gov,disasterhousing.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+distraction.gov,distraction.gov,ConnectException,none
+dnfsb.gov,dnfsb.gov,HttpConnectTimeoutException: HTTP connect timed out,0 dnfsb-gov.mail.protection.outlook.com.
+dni.gov,dni.gov,HttpConnectTimeoutException: HTTP connect timed out,0 dni-gov.mail.protection.office365.us.
+dns.gov,dns.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+dnsops.gov,dnsops.gov,ConnectException,none
+doc.gov,doc.gov,HttpConnectTimeoutException: HTTP connect timed out,0 doc-gov.mail.protection.outlook.com.
+docline.gov,docline.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nihcesxway4.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.
+doddns.gov,doddns.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+doe.gov,doe.gov,SSLException: (unexpected_message) Received close_notify during handshake,10 mxb-002bc302.gslb.gpphosted.com.; 10 mxa-002bc302.gslb.gpphosted.com.
+doge.gov,doge.gov,HttpConnectTimeoutException: HTTP connect timed out,0 inbound.mail.dmz.pitc.gov.
+doi.gov,doi.gov,HttpConnectTimeoutException: HTTP connect timed out,0 doi-gov.mail.protection.outlook.com.
+doioig.gov,doioig.gov,301,5 doioig-gov.mail.protection.outlook.com.
+doj.gov,doj.gov,ConnectException,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
+dol.gov,dol.gov,301,0 dol-gov.mail.protection.outlook.com.
+doleta.gov,doleta.gov,HttpConnectTimeoutException: HTTP connect timed out,0 doleta-gov.mail.protection.outlook.com.
+domainops.gov,domainops.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+donaciondeorganos.gov,donaciondeorganos.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching donaciondeorganos.gov found.,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
+donotcall.gov,donotcall.gov,200,10 donotcall-gov.mail.protection.outlook.com.
+dontserveteens.gov,dontserveteens.gov,403,none
+dot.gov,dot.gov,302,1 dot-gov.mail.protection.outlook.com.
+dotgov.gov,dotgov.gov,301,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
 dotgov.sites.usa.gov,usa.gov,Could not resolve host: dotgov.sites.usa.gov,none
-dotideahub.gov,dotideahub.gov,,dig error
-dra.gov,dra.gov,,0 dra-gov.mail.protection.outlook.com.
-driveelectric.gov,driveelectric.gov,,10 mxa-002bc302.gslb.gpphosted.com.; 10 mxb-002bc302.gslb.gpphosted.com.
-drought.gov,drought.gov,,none
-drugabuse.gov,drugabuse.gov,,10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxway2.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
-drywallresponse.gov,drywallresponse.gov,,none
-dsac.gov,dsac.gov,,none
-e-qip.gov,e-qip.gov,,none
-e-verify.gov,e-verify.gov,,none
-eac.gov,eac.gov,,0 eac-gov.mail.protection.outlook.com.
-eaglecash.gov,eaglecash.gov,,none
-earlycareers.gov,earlycareers.gov,,none
-earmarks.gov,earmarks.gov,,none
-earth.gov,earth.gov,,none
-earthquake.gov,earthquake.gov,,none
-ecfc.gov,ecfc.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-ecfr.gov,ecfr.gov,,none
-econsumer.gov,econsumer.gov,,none
-ecpic.gov,ecpic.gov,,none
-ecr.gov,ecr.gov,,0 ecr-gov.mail.protection.outlook.com.
-ecs.gov,ecs.gov,,none
-ed.gov,ed.gov,,10 ed-gov.mail.protection.outlook.com.
-eda.gov,eda.gov,,0 eda-gov.mail.protection.outlook.com.
-edison.gov,edison.gov,,none
-eeoc.gov,eeoc.gov,,0 eeoc-gov.mail.protection.outlook.com.
-eftps.gov,eftps.gov,,none
-ehr.gov,ehr.gov,,10 pri-jeemsg.eemsg.mail.mil.; 20 sec-jeemsg.eemsg.mail.mil.
-eia.gov,eia.gov,,10 mxb-002bc302.gslb.gpphosted.com.; 10 mxa-002bc302.gslb.gpphosted.com.
-eisenhowerlibrary.gov,eisenhowerlibrary.gov,,none
-eldercare.gov,eldercare.gov,,none
-elderjustice.gov,elderjustice.gov,,none
-emergency-federal-register.gov,emergency-federal-register.gov,,none
-employeeexpress.gov,employeeexpress.gov,,none
-employer.gov,employer.gov,,none
-empowhr.gov,empowhr.gov,,none
-ems.gov,ems.gov,,none
-encuentraapoyo.gov,encuentraapoyo.gov,,none
-energy.gov,energy.gov,,10 mxb-002bc302.gslb.gpphosted.com.; 10 mxa-002bc302.gslb.gpphosted.com.
-energycodes.gov,energycodes.gov,,10 emailgw01.pnnl.gov.; 20 emailgw02.pnnl.gov.; 0 energycodes-gov.mail.protection.outlook.com.
-energysaver.gov,energysaver.gov,,none
-energysavers.gov,energysavers.gov,,none
-energystar.gov,energystar.gov,,50 grid1f6.gseg.att.com.; 5 grid1f.gseg.att.com.; 55 grid2f6.gseg.att.com.; 10 grid2f.gseg.att.com.
-eop.gov,eop.gov,,10 inbound.mail.dmz.pitc.gov.
+dotideahub.gov,dotideahub.gov,HttpConnectTimeoutException: HTTP connect timed out,dig error
+dra.gov,dra.gov,200,0 dra-gov.mail.protection.outlook.com.
+driveelectric.gov,driveelectric.gov,200,10 mxa-002bc302.gslb.gpphosted.com.; 10 mxb-002bc302.gslb.gpphosted.com.
+drought.gov,drought.gov,301,none
+drugabuse.gov,drugabuse.gov,301,10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxway2.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
+drywallresponse.gov,drywallresponse.gov,301,none
+dsac.gov,dsac.gov,301,none
+e-qip.gov,e-qip.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+e-verify.gov,e-verify.gov,301,none
+eac.gov,eac.gov,301,0 eac-gov.mail.protection.outlook.com.
+eaglecash.gov,eaglecash.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+earlycareers.gov,earlycareers.gov,200,none
+earmarks.gov,earmarks.gov,302,none
+earth.gov,earth.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+earthquake.gov,earthquake.gov,301,none
+ecfc.gov,ecfc.gov,ConnectException,10 inbound-smtp.us-east-1.amazonaws.com.
+ecfr.gov,ecfr.gov,302,none
+econsumer.gov,econsumer.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ecpic.gov,ecpic.gov,302,none
+ecr.gov,ecr.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ecr.gov found.,0 ecr-gov.mail.protection.outlook.com.
+ecs.gov,ecs.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ed.gov,ed.gov,HttpConnectTimeoutException: HTTP connect timed out,10 ed-gov.mail.protection.outlook.com.
+eda.gov,eda.gov,HttpConnectTimeoutException: HTTP connect timed out,0 eda-gov.mail.protection.outlook.com.
+edison.gov,edison.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+eeoc.gov,eeoc.gov,HttpConnectTimeoutException: HTTP connect timed out,0 eeoc-gov.mail.protection.outlook.com.
+eftps.gov,eftps.gov,302,none
+ehr.gov,ehr.gov,ConnectException,10 pri-jeemsg.eemsg.mail.mil.; 20 sec-jeemsg.eemsg.mail.mil.
+eia.gov,eia.gov,301,10 mxb-002bc302.gslb.gpphosted.com.; 10 mxa-002bc302.gslb.gpphosted.com.
+eisenhowerlibrary.gov,eisenhowerlibrary.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+eldercare.gov,eldercare.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+elderjustice.gov,elderjustice.gov,301,none
+emergency-federal-register.gov,emergency-federal-register.gov,302,none
+employeeexpress.gov,employeeexpress.gov,301,none
+employer.gov,employer.gov,403,none
+empowhr.gov,empowhr.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching empowhr.gov found.,none
+ems.gov,ems.gov,302,none
+encuentraapoyo.gov,encuentraapoyo.gov,301,none
+energy.gov,energy.gov,SSLException: (unexpected_message) Received close_notify during handshake,10 mxb-002bc302.gslb.gpphosted.com.; 10 mxa-002bc302.gslb.gpphosted.com.
+energycodes.gov,energycodes.gov,200,10 emailgw01.pnnl.gov.; 20 emailgw02.pnnl.gov.; 0 energycodes-gov.mail.protection.outlook.com.
+energysaver.gov,energysaver.gov,302,none
+energysavers.gov,energysavers.gov,302,none
+energystar.gov,energystar.gov,301,50 grid1f6.gseg.att.com.; 5 grid1f.gseg.att.com.; 55 grid2f6.gseg.att.com.; 10 grid2f.gseg.att.com.
+eop.gov,eop.gov,301,10 inbound.mail.dmz.pitc.gov.
 epa-notice.usa.gov,usa.gov,Could not resolve host: epa-notice.usa.gov,none
-epa.gov,epa.gov,,0 usepa.mail.protection.outlook.com.
-epaoig.gov,epaoig.gov,,none
-epic.gov,epic.gov,,none
-erpo.gov,erpo.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-esc.gov,esc.gov,,10 relay4.faa.gov.; 10 amcrelay1.faa.gov.; 10 amcrelay2.faa.gov.; 10 relay3.faa.gov.; 10 amcrelay4.faa.gov.; 10 relay1.faa.gov.; 10 amcrelay3.faa.gov.; 10 relay2.faa.gov.
-eseclab.gov,eseclab.gov,,dig error
-esrs.gov,esrs.gov,,100 mail2.esrs.gov.; 100 mail1.esrs.gov.
-eta-find.gov,eta-find.gov,,10 mx2.frb.iphmx.com.; 10 mx1.frb.iphmx.com.
-evaluation.gov,evaluation.gov,,none
-evergladesrestoration.gov,evergladesrestoration.gov,,10 evergladesrestoration-gov.mail.protection.outlook.com.
-everify.gov,everify.gov,,none
-everykidoutdoors.gov,everykidoutdoors.gov,,none
-everytrycounts.gov,everytrycounts.gov,,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
-evus.gov,evus.gov,,none
-example.gov,example.gov,,
-execsec.gov,execsec.gov,,none
-exim.gov,exim.gov,,0 exim-gov.mail.protection.outlook.com.
-explore.gov,explore.gov,,none
-exploretsp.gov,exploretsp.gov,,0 exploretsp.gov.
-export.gov,export.gov,,none
-eyenote.gov,eyenote.gov,,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
-faa.gov,faa.gov,,5 amcrelay4.faa.gov.; 5 amcrelay1.faa.gov.; 5 relay4.faa.gov.; 5 relay1.faa.gov.; 5 amcrelay3.faa.gov.; 5 relay2.faa.gov.; 5 amcrelay2.faa.gov.; 5 relay3.faa.gov.
-faasafety.gov,faasafety.gov,,5 amcrelay4.faa.gov.; 5 amcrelay.faa.gov.; 5 relay2.faa.gov.; 5 relay1.faa.gov.; 5 amcrelay3.faa.gov.; 5 amcrelay2.faa.gov.; 5 relay3.faa.gov.; 5 relay4.faa.gov.; 5 amcrelay1.faa.gov.
-fac.gov,fac.gov,,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
-faca.gov,faca.gov,,none
-facadatabase.gov,facadatabase.gov,,none
-fafsa.gov,fafsa.gov,,10 fafsa-gov.mail.protection.outlook.com.
-fai.gov,fai.gov,,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
-familyplanning.gov,familyplanning.gov,,none
-fan.gov,fan.gov,,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.
-fapiis.gov,fapiis.gov,,none
-fara.gov,fara.gov,,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
-farmerfairness.gov,farmerfairness.gov,,0 .
-farmers.gov,farmers.gov,,10 usda-gov.mail.protection.outlook.com.
-fasab.gov,fasab.gov,,10 mxa-0030d401.gslb.pphosted.com.; 10 mxb-0030d401.gslb.pphosted.com.
-fatherhood.gov,fatherhood.gov,,30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.
-fbi.gov,fbi.gov,,10 mx-east.fbi.gov.; 20 mx-west.fbi.gov.
-fbiic.gov,fbiic.gov,,none
-fbijobs.gov,fbijobs.gov,,none
-fbilab.gov,fbilab.gov,,20 mx-west.fbi.gov.; 10 mx-east.fbi.gov.
-fbo.gov,fbo.gov,,none
-fca.gov,fca.gov,,20 mail2.fca.gov.; 10 mail.fca.gov.
-fcc.gov,fcc.gov,,10 fcc-gov.mail.protection.outlook.com.
-fcic.gov,fcic.gov,,none
-fcsic.gov,fcsic.gov,,10 mail.fcsic.gov.; 20 mail2.fcsic.gov.
-fcsm.gov,fcsm.gov,,none
+epa.gov,epa.gov,301,0 usepa.mail.protection.outlook.com.
+epaoig.gov,epaoig.gov,302,none
+epic.gov,epic.gov,301,none
+erpo.gov,erpo.gov,ConnectException,10 inbound-smtp.us-east-1.amazonaws.com.
+esc.gov,esc.gov,HttpConnectTimeoutException: HTTP connect timed out,10 relay4.faa.gov.; 10 amcrelay1.faa.gov.; 10 amcrelay2.faa.gov.; 10 relay3.faa.gov.; 10 amcrelay4.faa.gov.; 10 relay1.faa.gov.; 10 amcrelay3.faa.gov.; 10 relay2.faa.gov.
+eseclab.gov,eseclab.gov,HttpConnectTimeoutException: HTTP connect timed out,dig error
+esrs.gov,esrs.gov,301,100 mail2.esrs.gov.; 100 mail1.esrs.gov.
+eta-find.gov,eta-find.gov,SSLException: (internal_error) Received fatal alert: internal_error,10 mx2.frb.iphmx.com.; 10 mx1.frb.iphmx.com.
+evaluation.gov,evaluation.gov,301,none
+evergladesrestoration.gov,evergladesrestoration.gov,301,10 evergladesrestoration-gov.mail.protection.outlook.com.
+everify.gov,everify.gov,301,none
+everykidoutdoors.gov,everykidoutdoors.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+everytrycounts.gov,everytrycounts.gov,301,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
+evus.gov,evus.gov,302,none
+example.gov,example.gov,ConnectException,
+execsec.gov,execsec.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+exim.gov,exim.gov,HttpConnectTimeoutException: HTTP connect timed out,0 exim-gov.mail.protection.outlook.com.
+explore.gov,explore.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+exploretsp.gov,exploretsp.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching exploretsp.gov found.,0 exploretsp.gov.
+export.gov,export.gov,ConnectException,none
+eyenote.gov,eyenote.gov,HttpConnectTimeoutException: HTTP connect timed out,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
+faa.gov,faa.gov,HttpConnectTimeoutException: HTTP connect timed out,5 amcrelay4.faa.gov.; 5 amcrelay1.faa.gov.; 5 relay4.faa.gov.; 5 relay1.faa.gov.; 5 amcrelay3.faa.gov.; 5 relay2.faa.gov.; 5 amcrelay2.faa.gov.; 5 relay3.faa.gov.
+faasafety.gov,faasafety.gov,HttpConnectTimeoutException: HTTP connect timed out,5 amcrelay4.faa.gov.; 5 amcrelay.faa.gov.; 5 relay2.faa.gov.; 5 relay1.faa.gov.; 5 amcrelay3.faa.gov.; 5 amcrelay2.faa.gov.; 5 relay3.faa.gov.; 5 relay4.faa.gov.; 5 amcrelay1.faa.gov.
+fac.gov,fac.gov,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
+faca.gov,faca.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+facadatabase.gov,facadatabase.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fafsa.gov,fafsa.gov,HttpConnectTimeoutException: HTTP connect timed out,10 fafsa-gov.mail.protection.outlook.com.
+fai.gov,fai.gov,301,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
+familyplanning.gov,familyplanning.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fan.gov,fan.gov,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.
+fapiis.gov,fapiis.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fara.gov,fara.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
+farmerfairness.gov,farmerfairness.gov,301,0 .
+farmers.gov,farmers.gov,302,10 usda-gov.mail.protection.outlook.com.
+fasab.gov,fasab.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-0030d401.gslb.pphosted.com.; 10 mxb-0030d401.gslb.pphosted.com.
+fatherhood.gov,fatherhood.gov,HttpConnectTimeoutException: HTTP connect timed out,30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.
+fbi.gov,fbi.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx-east.fbi.gov.; 20 mx-west.fbi.gov.
+fbiic.gov,fbiic.gov,301,none
+fbijobs.gov,fbijobs.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fbilab.gov,fbilab.gov,HttpConnectTimeoutException: HTTP connect timed out,20 mx-west.fbi.gov.; 10 mx-east.fbi.gov.
+fbo.gov,fbo.gov,301,none
+fca.gov,fca.gov,301,20 mail2.fca.gov.; 10 mail.fca.gov.
+fcc.gov,fcc.gov,403,10 fcc-gov.mail.protection.outlook.com.
+fcic.gov,fcic.gov,301,none
+fcsic.gov,fcsic.gov,301,10 mail.fcsic.gov.; 20 mail2.fcsic.gov.
+fcsm.gov,fcsm.gov,302,none
 fcsm.sites.usa.gov,usa.gov,Could not resolve host: fcsm.sites.usa.gov,none
-fd.gov,fd.gov,,10 mx04.fd.org.; 20 mx03.fd.org.
-fda.gov,fda.gov,,10 smtp9.fda.gov.; 10 smtp7.fda.gov.; 10 smtp6.fda.gov.; 10 smtp8.fda.gov.
-fdic.gov,fdic.gov,,10 mail.fdic.gov.; 10 mail3.fdic.gov.; 20 mail2.fdic.gov.
-fdicconnect.gov,fdicconnect.gov,,none
-fdicoig.gov,fdicoig.gov,,10 mail.fdic.gov.; 10 mail3.fdic.gov.; 20 mail2.fdic.gov.
-fdlp.gov,fdlp.gov,,1 exchange.fdlp.gov.
-fdms.gov,fdms.gov,,none
-fdsys.gov,fdsys.gov,,none
-feb.gov,feb.gov,,none
-fec.gov,fec.gov,,0 fec-gov.mail.protection.outlook.com.
-fedcenter.gov,fedcenter.gov,,20 grid2f.gseg.att.com.; 35 grid1f.gseg.att.com.; 15 grid1f.gseg.att.com.; 30 grid2f.gseg.att.com.; 50 grid1f6.gseg.att.com.; 5 fedcenter.gov.; 55 grid126.gseg.att.com.; 75 grid2f.gseg.att.com.; 70 grid1f.gseg.att.com.; 40 grid2f.gseg.att.com.; 25 grid1f.gseg.att.com.
-federalcourts.gov,federalcourts.gov,,none
-federalinvestments.gov,federalinvestments.gov,,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
-federaljobs.gov,federaljobs.gov,,none
-federalprobation.gov,federalprobation.gov,,none
-federalregister.gov,federalregister.gov,,none
-federalreserve.gov,federalreserve.gov,,20 outmail02.federalreserve.gov.; 10 outmail01.federalreserve.gov.
-federalreserveconsumerhelp.gov,federalreserveconsumerhelp.gov,,10 mx2.frb.iphmx.com.; 10 mx1.frb.iphmx.com.
-federalrules.gov,federalrules.gov,,none
-fedezfile.gov,fedezfile.gov,,none
-fedinfo.gov,fedinfo.gov,,none
-fedinvest.gov,fedinvest.gov,,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
-fedjobs.gov,fedjobs.gov,,none
-fedpartnership.gov,fedpartnership.gov,,none
-fedramp.gov,fedramp.gov,,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-fedreg.gov,fedreg.gov,,10 hqmsadcmfr26.fedreg.gov.; 20 hqmsadcmfr24.fedreg.gov.
-fedres.gov,fedres.gov,,10 outmail01.federalreserve.gov.; 20 outmail02c.federalreserve.gov.; 10 outmail02.federalreserve.gov.; 20 outmail01c.federalreserve.gov.
-fedsfeedfamilies.gov,fedsfeedfamilies.gov,,none
-fedshirevets.gov,fedshirevets.gov,,10 cust45693-2.in.mailcontrol.com.; 10 cust45693-1.in.mailcontrol.com.
+fd.gov,fd.gov,ConnectException,10 mx04.fd.org.; 20 mx03.fd.org.
+fda.gov,fda.gov,302,10 smtp9.fda.gov.; 10 smtp7.fda.gov.; 10 smtp6.fda.gov.; 10 smtp8.fda.gov.
+fdic.gov,fdic.gov,301,10 mail.fdic.gov.; 10 mail3.fdic.gov.; 20 mail2.fdic.gov.
+fdicconnect.gov,fdicconnect.gov,ConnectException,none
+fdicoig.gov,fdicoig.gov,200,10 mail.fdic.gov.; 10 mail3.fdic.gov.; 20 mail2.fdic.gov.
+fdlp.gov,fdlp.gov,200,1 exchange.fdlp.gov.
+fdms.gov,fdms.gov,301,none
+fdsys.gov,fdsys.gov,301,none
+feb.gov,feb.gov,ConnectException,none
+fec.gov,fec.gov,302,0 fec-gov.mail.protection.outlook.com.
+fedcenter.gov,fedcenter.gov,302,20 grid2f.gseg.att.com.; 35 grid1f.gseg.att.com.; 15 grid1f.gseg.att.com.; 30 grid2f.gseg.att.com.; 50 grid1f6.gseg.att.com.; 5 fedcenter.gov.; 55 grid126.gseg.att.com.; 75 grid2f.gseg.att.com.; 70 grid1f.gseg.att.com.; 40 grid2f.gseg.att.com.; 25 grid1f.gseg.att.com.
+federalcourts.gov,federalcourts.gov,ConnectException,none
+federalinvestments.gov,federalinvestments.gov,200,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
+federaljobs.gov,federaljobs.gov,301,none
+federalprobation.gov,federalprobation.gov,ConnectException,none
+federalregister.gov,federalregister.gov,302,none
+federalreserve.gov,federalreserve.gov,301,20 outmail02.federalreserve.gov.; 10 outmail01.federalreserve.gov.
+federalreserveconsumerhelp.gov,federalreserveconsumerhelp.gov,301,10 mx2.frb.iphmx.com.; 10 mx1.frb.iphmx.com.
+federalrules.gov,federalrules.gov,ConnectException,none
+fedezfile.gov,fedezfile.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fedinfo.gov,fedinfo.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fedinvest.gov,fedinvest.gov,302,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
+fedjobs.gov,fedjobs.gov,ConnectException,none
+fedpartnership.gov,fedpartnership.gov,301,none
+fedramp.gov,fedramp.gov,301,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+fedreg.gov,fedreg.gov,ConnectException,10 hqmsadcmfr26.fedreg.gov.; 20 hqmsadcmfr24.fedreg.gov.
+fedres.gov,fedres.gov,HttpConnectTimeoutException: HTTP connect timed out,10 outmail01.federalreserve.gov.; 20 outmail02c.federalreserve.gov.; 10 outmail02.federalreserve.gov.; 20 outmail01c.federalreserve.gov.
+fedsfeedfamilies.gov,fedsfeedfamilies.gov,ConnectException,none
+fedshirevets.gov,fedshirevets.gov,HttpConnectTimeoutException: HTTP connect timed out,10 cust45693-2.in.mailcontrol.com.; 10 cust45693-1.in.mailcontrol.com.
 fedstats.sites.usa.gov,usa.gov,Could not resolve host: fedstats.sites.usa.gov,none
 feedback-staging.usa.gov,usa.gov,Could not resolve host: feedback-staging.usa.gov,none
 feedback.usa.gov,usa.gov,Could not resolve host: feedback.usa.gov,none
-feedthefuture.gov,feedthefuture.gov,,dig error
-fegli.gov,fegli.gov,,none
-fehrm.gov,fehrm.gov,,none
-fema.gov,fema.gov,,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
-ferc.gov,ferc.gov,,0 ferc-gov.mail.protection.outlook.com.
-ffb.gov,ffb.gov,,none
-ffiec.gov,ffiec.gov,,20 outmail02.federalreserve.gov.; 10 outmail01.federalreserve.gov.
-fgdc.gov,fgdc.gov,,10 fgdc-gov.mail.protection.outlook.com.
-fha.gov,fha.gov,,none
-fhfa.gov,fhfa.gov,,0 fhfa-gov.mail.protection.outlook.com.
-fhfaoig.gov,fhfaoig.gov,,0 fhfaoig-gov.mail.protection.outlook.com.
-ficor.gov,ficor.gov,,none
+feedthefuture.gov,feedthefuture.gov,HttpConnectTimeoutException: HTTP connect timed out,dig error
+fegli.gov,fegli.gov,302,none
+fehrm.gov,fehrm.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fema.gov,fema.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
+ferc.gov,ferc.gov,HttpConnectTimeoutException: HTTP connect timed out,0 ferc-gov.mail.protection.outlook.com.
+ffb.gov,ffb.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ffiec.gov,ffiec.gov,HttpConnectTimeoutException: HTTP connect timed out,20 outmail02.federalreserve.gov.; 10 outmail01.federalreserve.gov.
+fgdc.gov,fgdc.gov,HttpConnectTimeoutException: HTTP connect timed out,10 fgdc-gov.mail.protection.outlook.com.
+fha.gov,fha.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fhfa.gov,fhfa.gov,HttpConnectTimeoutException: HTTP connect timed out,0 fhfa-gov.mail.protection.outlook.com.
+fhfaoig.gov,fhfaoig.gov,302,0 fhfaoig-gov.mail.protection.outlook.com.
+ficor.gov,ficor.gov,200,none
 financialprotection.usa.gov,usa.gov,Could not resolve host: financialprotection.usa.gov,none
-financialresearch.gov,financialresearch.gov,,none
-fincen.gov,fincen.gov,,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.; 32767 ms25064148.msv1.invalid.
-findsupport.gov,findsupport.gov,,none
-findtreatment.gov,findtreatment.gov,,none
-firecode.gov,firecode.gov,,none
-fireleadership.gov,fireleadership.gov,,none
-firenet.gov,firenet.gov,,0 firenet-gov.mail.protection.outlook.com.
-firescience.gov,firescience.gov,,none
-firstgov.gov,firstgov.gov,,none
-firstnet.gov,firstnet.gov,,0 firstnet-gov.mail.protection.outlook.com.
-firstrespondertraining.gov,firstrespondertraining.gov,,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
-fishwatch.gov,fishwatch.gov,,none
-fitness.gov,fitness.gov,,10 smtp2.ees.hhs.gov.; 10 smtp.ees.hhs.gov.
-fjc.gov,fjc.gov,,20 mail1.uscourts.gov.; 20 mail3.uscourts.gov.; 10 fjc-gov.mail.protection.outlook.com.
-fleet.gov,fleet.gov,,none
-fleta.gov,fleta.gov,,none
-fletc.gov,fletc.gov,,10 learn.fletc.gov.; 10 test.learn.fletc.gov.; 10 dev.learn.fletc.gov.
-flightrights.gov,flightrights.gov,,none
-floodsmart.gov,floodsmart.gov,,none
-flra.gov,flra.gov,,0 flra-gov.mail.protection.outlook.com.
-flu.gov,flu.gov,,none
-fmc.gov,fmc.gov,,0 fmc-gov.mail.protection.outlook.com.
-fmcs.gov,fmcs.gov,,0 fmcs-gov.mail.protection.outlook.com.
-fmi.gov,fmi.gov,,none
+financialresearch.gov,financialresearch.gov,301,none
+fincen.gov,fincen.gov,HttpTimeoutException: request timed out,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.; 32767 ms25064148.msv1.invalid.
+findsupport.gov,findsupport.gov,301,none
+findtreatment.gov,findtreatment.gov,200,none
+firecode.gov,firecode.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fireleadership.gov,fireleadership.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+firenet.gov,firenet.gov,301,0 firenet-gov.mail.protection.outlook.com.
+firescience.gov,firescience.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+firstgov.gov,firstgov.gov,302,none
+firstnet.gov,firstnet.gov,200,0 firstnet-gov.mail.protection.outlook.com.
+firstrespondertraining.gov,firstrespondertraining.gov,302,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
+fishwatch.gov,fishwatch.gov,301,none
+fitness.gov,fitness.gov,301,10 smtp2.ees.hhs.gov.; 10 smtp.ees.hhs.gov.
+fjc.gov,fjc.gov,308,20 mail1.uscourts.gov.; 20 mail3.uscourts.gov.; 10 fjc-gov.mail.protection.outlook.com.
+fleet.gov,fleet.gov,ConnectException,none
+fleta.gov,fleta.gov,301,none
+fletc.gov,fletc.gov,301,10 learn.fletc.gov.; 10 test.learn.fletc.gov.; 10 dev.learn.fletc.gov.
+flightrights.gov,flightrights.gov,403,none
+floodsmart.gov,floodsmart.gov,301,none
+flra.gov,flra.gov,HttpConnectTimeoutException: HTTP connect timed out,0 flra-gov.mail.protection.outlook.com.
+flu.gov,flu.gov,301,none
+fmc.gov,fmc.gov,301,0 fmc-gov.mail.protection.outlook.com.
+fmcs.gov,fmcs.gov,HttpConnectTimeoutException: HTTP connect timed out,0 fmcs-gov.mail.protection.outlook.com.
+fmi.gov,fmi.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 fmi.sites.usa.gov,usa.gov,Could not resolve host: fmi.sites.usa.gov,none
-fmshrc.gov,fmshrc.gov,,0 fmshrc-gov.mail.protection.outlook.com.
-fnal.gov,fnal.gov,,10 fnal-gov.mail.protection.outlook.com.
-foia.gov,foia.gov,,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
-foodsafety.gov,foodsafety.gov,,10 smtp2.ees.hhs.gov.; 10 smtp.ees.hhs.gov.
-fordlibrarymuseum.gov,fordlibrarymuseum.gov,,10 us.etp.fireeyegov.com.
-foreignassistance.gov,foreignassistance.gov,,none
-foreignfundinghighered.gov,foreignfundinghighered.gov,,none
-forestsandrangelands.gov,forestsandrangelands.gov,,none
-forfeiture.gov,forfeiture.gov,,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
-forms.gov,forms.gov,,none
-fosteringthefuture.gov,fosteringthefuture.gov,,0 fosteringthefuture-gov.mail.protection.outlook.com.
-fosteringthefuturetogether.gov,fosteringthefuturetogether.gov,,none
-fpc.gov,fpc.gov,,none
-fpds.gov,fpds.gov,,10 mail1.fpds.gov.
-fpisc.gov,fpisc.gov,,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
-fpki-lab.gov,fpki-lab.gov,,none
-fpki.gov,fpki.gov,,none
-fraho.gov,fraho.gov,,none
-fraud.gov,fraud.gov,,
-frb.gov,frb.gov,,20 outmail02c.federalreserve.gov.; 10 outmail02.federalreserve.gov.; 20 outmail01c.federalreserve.gov.; 10 outmail01.federalreserve.gov.
-frc.gov,frc.gov,,10 us.etp.fireeyegov.com.
-freedom.gov,freedom.gov,,none
-frs.gov,frs.gov,,none
-frtib.gov,frtib.gov,,10 frtib-gov.mail.protection.outlook.com.
-frtibtest.gov,frtibtest.gov,,0 frtibtest.gov.
-frtr.gov,frtr.gov,,none
-fruitsandveggiesmatter.gov,fruitsandveggiesmatter.gov,,none
-fsafeds.gov,fsafeds.gov,,none
-fsd.gov,fsd.gov,,none
-fsgb.gov,fsgb.gov,,none
+fmshrc.gov,fmshrc.gov,403,0 fmshrc-gov.mail.protection.outlook.com.
+fnal.gov,fnal.gov,301,10 fnal-gov.mail.protection.outlook.com.
+foia.gov,foia.gov,301,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
+foodsafety.gov,foodsafety.gov,HttpConnectTimeoutException: HTTP connect timed out,10 smtp2.ees.hhs.gov.; 10 smtp.ees.hhs.gov.
+fordlibrarymuseum.gov,fordlibrarymuseum.gov,HttpConnectTimeoutException: HTTP connect timed out,10 us.etp.fireeyegov.com.
+foreignassistance.gov,foreignassistance.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+foreignfundinghighered.gov,foreignfundinghighered.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+forestsandrangelands.gov,forestsandrangelands.gov,200,none
+forfeiture.gov,forfeiture.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
+forms.gov,forms.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fosteringthefuture.gov,fosteringthefuture.gov,HttpConnectTimeoutException: HTTP connect timed out,0 fosteringthefuture-gov.mail.protection.outlook.com.
+fosteringthefuturetogether.gov,fosteringthefuturetogether.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fpc.gov,fpc.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fpds.gov,fpds.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.fpds.gov.
+fpisc.gov,fpisc.gov,HttpConnectTimeoutException: HTTP connect timed out,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+fpki-lab.gov,fpki-lab.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fpki.gov,fpki.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fraho.gov,fraho.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+fraud.gov,fraud.gov,HttpConnectTimeoutException: HTTP connect timed out,
+frb.gov,frb.gov,HttpConnectTimeoutException: HTTP connect timed out,20 outmail02c.federalreserve.gov.; 10 outmail02.federalreserve.gov.; 20 outmail01c.federalreserve.gov.; 10 outmail01.federalreserve.gov.
+frc.gov,frc.gov,HttpConnectTimeoutException: HTTP connect timed out,10 us.etp.fireeyegov.com.
+freedom.gov,freedom.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+frs.gov,frs.gov,ConnectException,none
+frtib.gov,frtib.gov,HttpConnectTimeoutException: HTTP connect timed out,10 frtib-gov.mail.protection.outlook.com.
+frtibtest.gov,frtibtest.gov,HttpConnectTimeoutException: HTTP connect timed out,0 frtibtest.gov.
+frtr.gov,frtr.gov,404,none
+fruitsandveggiesmatter.gov,fruitsandveggiesmatter.gov,ConnectException,none
+fsafeds.gov,fsafeds.gov,200,none
+fsd.gov,fsd.gov,301,none
+fsgb.gov,fsgb.gov,ConnectException,none
 fsgb.sites.usa.gov,usa.gov,Could not resolve host: fsgb.sites.usa.gov,none
-fso.gov,fso.gov,,none
-fsoc.gov,fsoc.gov,,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
-fsrs.gov,fsrs.gov,,10 mail1.fsrs.gov.; 10 mail2.fsrs.gov.
-ftc.gov,ftc.gov,,0 ftc-gov.mail.protection.outlook.com.
-fueleconomy.gov,fueleconomy.gov,,5 MTA01.ORNL.gov.; 5 MTA02.ORNL.gov.
-fvap.gov,fvap.gov,,10 pri-jeemsg.eemsg.mail.mil.; 20 sec-jeemsg.eemsg.mail.mil.
-fws.gov,fws.gov,,1 fws-gov.mail.protection.outlook.com.
-g5.gov,g5.gov,,none
-gao.gov,gao.gov,,10 mxa-0030d401.gslb.pphosted.com.; 10 mxb-0030d401.gslb.pphosted.com.
-gaoinnovation.gov,gaoinnovation.gov,,none
-gaoinnovationlab.gov,gaoinnovationlab.gov,,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-gaoinnovations.gov,gaoinnovations.gov,,none
-gaonet.gov,gaonet.gov,,none
-gcmrc.gov,gcmrc.gov,,none
-genome.gov,genome.gov,,none
-geoplatform.gov,geoplatform.gov,,10 geoplatform-gov.mail.protection.outlook.com.
-georgewbushlibrary.gov,georgewbushlibrary.gov,,10 us.etp.fireeyegov.com.
-get.gov,get.gov,,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
-getactive.gov,getactive.gov,,none
-getinternet.gov,getinternet.gov,,none
-getsmartaboutdrugs.gov,getsmartaboutdrugs.gov,,none
-ginniemae.gov,ginniemae.gov,,10 ginniemae-gov.mail.protection.outlook.com.
-girlshealth.gov,girlshealth.gov,,none
-givecfc.gov,givecfc.gov,,none
-glnpo.gov,glnpo.gov,,none
-globalentry.gov,globalentry.gov,,none
-globalhealth.gov,globalhealth.gov,,none
-globe.gov,globe.gov,,none
-glri.gov,glri.gov,,none
-gmta.gov,gmta.gov,,none
-go.gov,go.gov,,50 gsaetsnextprod.servicenowservices.com.
+fso.gov,fso.gov,ConnectException,none
+fsoc.gov,fsoc.gov,302,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
+fsrs.gov,fsrs.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.fsrs.gov.; 10 mail2.fsrs.gov.
+ftc.gov,ftc.gov,403,0 ftc-gov.mail.protection.outlook.com.
+fueleconomy.gov,fueleconomy.gov,200,5 MTA01.ORNL.gov.; 5 MTA02.ORNL.gov.
+fvap.gov,fvap.gov,301,10 pri-jeemsg.eemsg.mail.mil.; 20 sec-jeemsg.eemsg.mail.mil.
+fws.gov,fws.gov,301,1 fws-gov.mail.protection.outlook.com.
+g5.gov,g5.gov,200,none
+gao.gov,gao.gov,302,10 mxa-0030d401.gslb.pphosted.com.; 10 mxb-0030d401.gslb.pphosted.com.
+gaoinnovation.gov,gaoinnovation.gov,ConnectException,none
+gaoinnovationlab.gov,gaoinnovationlab.gov,ConnectException,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+gaoinnovations.gov,gaoinnovations.gov,301,none
+gaonet.gov,gaonet.gov,ConnectException,none
+gcmrc.gov,gcmrc.gov,301,none
+genome.gov,genome.gov,301,none
+geoplatform.gov,geoplatform.gov,200,10 geoplatform-gov.mail.protection.outlook.com.
+georgewbushlibrary.gov,georgewbushlibrary.gov,ConnectException,10 us.etp.fireeyegov.com.
+get.gov,get.gov,200,10 mxb-00376703.gslb.gpphosted.com.; 10 mxa-00376703.gslb.gpphosted.com.
+getactive.gov,getactive.gov,403,none
+getinternet.gov,getinternet.gov,403,none
+getsmartaboutdrugs.gov,getsmartaboutdrugs.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ginniemae.gov,ginniemae.gov,HttpConnectTimeoutException: HTTP connect timed out,10 ginniemae-gov.mail.protection.outlook.com.
+girlshealth.gov,girlshealth.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+givecfc.gov,givecfc.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+glnpo.gov,glnpo.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+globalentry.gov,globalentry.gov,301,none
+globalhealth.gov,globalhealth.gov,301,none
+globe.gov,globe.gov,301,none
+glri.gov,glri.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+gmta.gov,gmta.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+go.gov,go.gov,HttpConnectTimeoutException: HTTP connect timed out,50 gsaetsnextprod.servicenowservices.com.
 gobierno.usa.gov,usa.gov,301,none
 gobiernousa.gov,usa.gov,302,none
-godirect.gov,godirect.gov,,10 mx1.frb.iphmx.com.; 10 mx2.frb.iphmx.com.
-goes-r.gov,goes-r.gov,,none
-goldwaterinternship.gov,goldwaterinternship.gov,,none
-goldwaterscholarship.gov,goldwaterscholarship.gov,,0 goldwaterscholarship-gov.mail.protection.outlook.com.
-golearn.gov,golearn.gov,,none
-goodjobs.gov,goodjobs.gov,,none
-gop.gov,gop.gov,,10 bouncebacks.gop.gov.
-gopleader.gov,gopleader.gov,,none
-gopwhip.gov,gopwhip.gov,,none
-governmentjobs.gov,governmentjobs.gov,,none
-govinfo.gov,govinfo.gov,,none
-govloans.gov,govloans.gov,,none
+godirect.gov,godirect.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.frb.iphmx.com.; 10 mx2.frb.iphmx.com.
+goes-r.gov,goes-r.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+goldwaterinternship.gov,goldwaterinternship.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+goldwaterscholarship.gov,goldwaterscholarship.gov,HttpConnectTimeoutException: HTTP connect timed out,0 goldwaterscholarship-gov.mail.protection.outlook.com.
+golearn.gov,golearn.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+goodjobs.gov,goodjobs.gov,301,none
+gop.gov,gop.gov,HttpConnectTimeoutException: HTTP connect timed out,10 bouncebacks.gop.gov.
+gopleader.gov,gopleader.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+gopwhip.gov,gopwhip.gov,302,none
+governmentjobs.gov,governmentjobs.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+govinfo.gov,govinfo.gov,301,none
+govloans.gov,govloans.gov,301,none
 govt-urls.usa.gov,usa.gov,Could not resolve host: govt-urls.usa.gov,none
-gpo.gov,gpo.gov,,0 gpo-gov.mail.protection.outlook.com.
-gpodev.gov,gpodev.gov,,none
-gps.gov,gps.gov,,20 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX.L.GOOGLE.COM.; 40 ALT4.ASPMX.L.GOOGLE.COM.; 40 ALT3.ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.
-grants.gov,grants.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-grantsolutions.gov,grantsolutions.gov,,30 aspmx4.googlemail.com.; 10 aspmx.l.google.com.; 10 alt1.aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 20 alt2.aspmx.l.google.com.; 90 email-smtp-fips.us-west-2.amazonaws.com.; 30 aspmx2.googlemail.com.; 30 aspmx5.googlemail.com.; 90 email-smtp-fips.us-east-1.amazonaws.com.
-greathealthcare.gov,greathealthcare.gov,,none
+gpo.gov,gpo.gov,302,0 gpo-gov.mail.protection.outlook.com.
+gpodev.gov,gpodev.gov,ConnectException,none
+gps.gov,gps.gov,301,20 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX.L.GOOGLE.COM.; 40 ALT4.ASPMX.L.GOOGLE.COM.; 40 ALT3.ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.
+grants.gov,grants.gov,200,10 inbound-smtp.us-east-1.amazonaws.com.
+grantsolutions.gov,grantsolutions.gov,301,30 aspmx4.googlemail.com.; 10 aspmx.l.google.com.; 10 alt1.aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 20 alt2.aspmx.l.google.com.; 90 email-smtp-fips.us-west-2.amazonaws.com.; 30 aspmx2.googlemail.com.; 30 aspmx5.googlemail.com.; 90 email-smtp-fips.us-east-1.amazonaws.com.
+greathealthcare.gov,greathealthcare.gov,302,none
 gsa-ecas.usa.gov,usa.gov,Could not resolve host: gsa-ecas.usa.gov,none
-gsa.gov,gsa.gov,,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-gsaadvantage.gov,gsaadvantage.gov,,none
-gsaauctions.gov,gsaauctions.gov,,none
-gsafleet.gov,gsafleet.gov,,none
-gsaig.gov,gsaig.gov,,0 gsaig-gov.mail.protection.outlook.com.
-guideline.gov,guideline.gov,,none
-guidelines.gov,guidelines.gov,,none
-hanford.gov,hanford.gov,,0 hanford-gov.mail.protection.outlook.com.
-hc.gov,hc.gov,,none
-headstart.gov,headstart.gov,,none
-health.gov,health.gov,,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
-healthcare.gov,healthcare.gov,,10 mx.public.govdelivery.com.; 30 mx2.public.govdelivery.com.
-healthdata.gov,healthdata.gov,,none
-healthfinder.gov,healthfinder.gov,,none
-healthindicators.gov,healthindicators.gov,,none
-healthit.gov,healthit.gov,,1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.
-healthycompetition.gov,healthycompetition.gov,,none
-healthypeople.gov,healthypeople.gov,,none
-hearttruth.gov,hearttruth.gov,,none
-heat.gov,heat.gov,,none
-helpamericavote.gov,helpamericavote.gov,,none
-helpwithmybank.gov,helpwithmybank.gov,,none
-helpwithmycheckingaccount.gov,helpwithmycheckingaccount.gov,,none
-helpwithmycreditcard.gov,helpwithmycreditcard.gov,,none
-helpwithmycreditcardbank.gov,helpwithmycreditcardbank.gov,,none
-helpwithmymortgage.gov,helpwithmymortgage.gov,,none
-helpwithmymortgagebank.gov,helpwithmymortgagebank.gov,,none
-heritageabroad.gov,heritageabroad.gov,,0 heritageabroad-gov.mail.protection.outlook.com.
-hhs.gov,hhs.gov,,10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
-hhsoig.gov,hhsoig.gov,,0 oig-hhs-gov.mail.protection.outlook.com.
-hhsops.gov,hhsops.gov,,20 smtp2.ees.hhs.gov.; 10 smtp.ees.hhs.gov.
-hirevets.gov,hirevets.gov,,0 hirevets-gov.mail.protection.outlook.com.
-hispanicheritagemonth.gov,hispanicheritagemonth.gov,,none
-history.gov,history.gov,,10 us.etp.fireeyegov.com.
-hiv.gov,hiv.gov,,10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
-hive.gov,hive.gov,,none
-homeenergyscore.gov,homeenergyscore.gov,,none
-homelandsecurity.gov,homelandsecurity.gov,,none
-house.gov,house.gov,,none
-housecalendar.gov,housecalendar.gov,,none
-housecommunications.gov,housecommunications.gov,,none
-housed.gov,housed.gov,,none
-housedemocrats.gov,housedemocrats.gov,,none
-housedems.gov,housedems.gov,,none
-houselive.gov,houselive.gov,,none
-housenewsletters.gov,housenewsletters.gov,,none
-hrsa.gov,hrsa.gov,,10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway6.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
-hsi.gov,hsi.gov,,none
-hsr.gov,hsr.gov,,none
-hstf.gov,hstf.gov,,10 mxa-00376703.gslb.gpphosted.com.; 10 mxb-00376703.gslb.gpphosted.com.
-hud.gov,hud.gov,,0 hud-gov.mail.protection.outlook.com.
-hudhomestore.gov,hudhomestore.gov,,none
-hudoig.gov,hudoig.gov,,0 hudoig-gov.mail.protection.outlook.com.
-huduser.gov,huduser.gov,,20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 50 alt3.aspmx.l.google.com.; 50 alt4.aspmx.l.google.com.; 10 aspmx.l.google.com.
-humanities.gov,humanities.gov,,none
-hurricanes.gov,hurricanes.gov,,none
-hydrogen.gov,hydrogen.gov,,none
+gsa.gov,gsa.gov,301,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+gsaadvantage.gov,gsaadvantage.gov,200,none
+gsaauctions.gov,gsaauctions.gov,403,none
+gsafleet.gov,gsafleet.gov,200,none
+gsaig.gov,gsaig.gov,200,0 gsaig-gov.mail.protection.outlook.com.
+guideline.gov,guideline.gov,403,none
+guidelines.gov,guidelines.gov,403,none
+hanford.gov,hanford.gov,302,0 hanford-gov.mail.protection.outlook.com.
+hc.gov,hc.gov,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,none
+headstart.gov,headstart.gov,403,none
+health.gov,health.gov,200,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
+healthcare.gov,healthcare.gov,301,10 mx.public.govdelivery.com.; 30 mx2.public.govdelivery.com.
+healthdata.gov,healthdata.gov,200,none
+healthfinder.gov,healthfinder.gov,301,none
+healthindicators.gov,healthindicators.gov,ConnectException,none
+healthit.gov,healthit.gov,200,1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.
+healthycompetition.gov,healthycompetition.gov,301,none
+healthypeople.gov,healthypeople.gov,301,none
+hearttruth.gov,hearttruth.gov,301,none
+heat.gov,heat.gov,403,none
+helpamericavote.gov,helpamericavote.gov,301,none
+helpwithmybank.gov,helpwithmybank.gov,200,none
+helpwithmycheckingaccount.gov,helpwithmycheckingaccount.gov,301,none
+helpwithmycreditcard.gov,helpwithmycreditcard.gov,301,none
+helpwithmycreditcardbank.gov,helpwithmycreditcardbank.gov,301,none
+helpwithmymortgage.gov,helpwithmymortgage.gov,301,none
+helpwithmymortgagebank.gov,helpwithmymortgagebank.gov,301,none
+heritageabroad.gov,heritageabroad.gov,301,0 heritageabroad-gov.mail.protection.outlook.com.
+hhs.gov,hhs.gov,301,10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
+hhsoig.gov,hhsoig.gov,HttpConnectTimeoutException: HTTP connect timed out,0 oig-hhs-gov.mail.protection.outlook.com.
+hhsops.gov,hhsops.gov,HttpConnectTimeoutException: HTTP connect timed out,20 smtp2.ees.hhs.gov.; 10 smtp.ees.hhs.gov.
+hirevets.gov,hirevets.gov,301,0 hirevets-gov.mail.protection.outlook.com.
+hispanicheritagemonth.gov,hispanicheritagemonth.gov,200,none
+history.gov,history.gov,ConnectException,10 us.etp.fireeyegov.com.
+hiv.gov,hiv.gov,301,10 primary.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
+hive.gov,hive.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching hive.gov found.,none
+homeenergyscore.gov,homeenergyscore.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+homelandsecurity.gov,homelandsecurity.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+house.gov,house.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+housecalendar.gov,housecalendar.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+housecommunications.gov,housecommunications.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+housed.gov,housed.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+housedemocrats.gov,housedemocrats.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+housedems.gov,housedems.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+houselive.gov,houselive.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+housenewsletters.gov,housenewsletters.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+hrsa.gov,hrsa.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway6.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
+hsi.gov,hsi.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+hsr.gov,hsr.gov,403,none
+hstf.gov,hstf.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-00376703.gslb.gpphosted.com.; 10 mxb-00376703.gslb.gpphosted.com.
+hud.gov,hud.gov,301,0 hud-gov.mail.protection.outlook.com.
+hudhomestore.gov,hudhomestore.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+hudoig.gov,hudoig.gov,403,0 hudoig-gov.mail.protection.outlook.com.
+huduser.gov,huduser.gov,202,20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 50 alt3.aspmx.l.google.com.; 50 alt4.aspmx.l.google.com.; 10 aspmx.l.google.com.
+humanities.gov,humanities.gov,301,none
+hurricanes.gov,hurricanes.gov,301,none
+hydrogen.gov,hydrogen.gov,302,none
 i14y.demo1.search.usa.gov,usa.gov,Could not resolve host: i14y.demo1.search.usa.gov,none
 i14y.search.usa.gov,usa.gov,403,none
 i14y.usa.gov,usa.gov,403,none
-iad.gov,iad.gov,,30 emsm-gh1-uea11.ncsc.mil.; 10 pri-jeemsg.eemsg.mail.mil.; 30 emsm-gh1-uea10.ncsc.mil.; 20 sec-jeemsg.eemsg.mail.mil.
-iaf.gov,iaf.gov,,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.
-iarpa-ideas.gov,iarpa-ideas.gov,,none
-iarpa.gov,iarpa.gov,,0 iarpa-gov.mail.protection.outlook.com.
-iat.gov,iat.gov,,none
-iawg.gov,iawg.gov,,none
-ibab.gov,ibab.gov,,10 ibab-gov.mail.protection.outlook.com.
-ibb.gov,ibb.gov,,0 ibb-gov.mail.protection.outlook.com.
-ibwc.gov,ibwc.gov,,0 ibwc-gov.mail.protection.outlook.com.
-ic.gov,ic.gov,,none
-ic3.gov,ic3.gov,,10 mail1.ic3.gov.; 25 mail2.ic3.gov.
-icams-portal.gov,icams-portal.gov,,none
-ice.gov,ice.gov,,none
-ich.gov,ich.gov,,0 ich.gov.
+iad.gov,iad.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,30 emsm-gh1-uea11.ncsc.mil.; 10 pri-jeemsg.eemsg.mail.mil.; 30 emsm-gh1-uea10.ncsc.mil.; 20 sec-jeemsg.eemsg.mail.mil.
+iaf.gov,iaf.gov,403,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.
+iarpa-ideas.gov,iarpa-ideas.gov,IOException: Received RST_STREAM: Use HTTP/1.1 for request,none
+iarpa.gov,iarpa.gov,301,0 iarpa-gov.mail.protection.outlook.com.
+iat.gov,iat.gov,ConnectException,none
+iawg.gov,iawg.gov,200,none
+ibab.gov,ibab.gov,301,10 ibab-gov.mail.protection.outlook.com.
+ibb.gov,ibb.gov,302,0 ibb-gov.mail.protection.outlook.com.
+ibwc.gov,ibwc.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ibwc.gov found.,0 ibwc-gov.mail.protection.outlook.com.
+ic.gov,ic.gov,ConnectException,none
+ic3.gov,ic3.gov,308,10 mail1.ic3.gov.; 25 mail2.ic3.gov.
+icams-portal.gov,icams-portal.gov,301,none
+ice.gov,ice.gov,301,none
+ich.gov,ich.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ich.gov found.,0 ich.gov.
 iciwarm.sites.usa.gov,usa.gov,Could not resolve host: iciwarm.sites.usa.gov,none
-icjointduty.gov,icjointduty.gov,,none
-icts.gov,icts.gov,,none
-idealab.gov,idealab.gov,,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
-identitysandbox.gov,identitysandbox.gov,,10 inbound-smtp.us-west-2.amazonaws.com.
-identitytheft.gov,identitytheft.gov,,10 identitytheft-gov.mail.protection.outlook.com.
-idfc.gov,idfc.gov,,none
-idmanagement.gov,idmanagement.gov,,none
-iedison.gov,iedison.gov,,none
-ignet.gov,ignet.gov,,none
-igorville.gov,igorville.gov,,none
-ihs.gov,ihs.gov,,10 mxa-0064a601.gslb.gpphosted.com.; 10 mxb-0064a601.gslb.gpphosted.com.
-imls.gov,imls.gov,,0 imls-gov.mail.protection.outlook.com.
-indianaffairs.gov,indianaffairs.gov,,0 indianaffairs-gov.mail.protection.outlook.com.
-inel.gov,inel.gov,,none
-informationliteracy.gov,informationliteracy.gov,,0 informationliteracy-gov.mail.protection.outlook.com.
-inl.gov,inl.gov,,100 inl-gov.mail.protection.outlook.com.
-innovation.gov,innovation.gov,,none
+icjointduty.gov,icjointduty.gov,301,none
+icts.gov,icts.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+idealab.gov,idealab.gov,HttpConnectTimeoutException: HTTP connect timed out,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
+identitysandbox.gov,identitysandbox.gov,HttpConnectTimeoutException: HTTP connect timed out,10 inbound-smtp.us-west-2.amazonaws.com.
+identitytheft.gov,identitytheft.gov,301,10 identitytheft-gov.mail.protection.outlook.com.
+idfc.gov,idfc.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+idmanagement.gov,idmanagement.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+iedison.gov,iedison.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ignet.gov,ignet.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+igorville.gov,igorville.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ihs.gov,ihs.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-0064a601.gslb.gpphosted.com.; 10 mxb-0064a601.gslb.gpphosted.com.
+imls.gov,imls.gov,HttpConnectTimeoutException: HTTP connect timed out,0 imls-gov.mail.protection.outlook.com.
+indianaffairs.gov,indianaffairs.gov,HttpConnectTimeoutException: HTTP connect timed out,0 indianaffairs-gov.mail.protection.outlook.com.
+inel.gov,inel.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+informationliteracy.gov,informationliteracy.gov,HttpConnectTimeoutException: HTTP connect timed out,0 informationliteracy-gov.mail.protection.outlook.com.
+inl.gov,inl.gov,HttpConnectTimeoutException: HTTP connect timed out,100 inl-gov.mail.protection.outlook.com.
+innovation.gov,innovation.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 innovationfellows.usa.gov,usa.gov,Could not resolve host: innovationfellows.usa.gov,none
-insurekidsnow.gov,insurekidsnow.gov,,none
-integrity.gov,integrity.gov,,10 www.integrity.gov.
-intel.gov,intel.gov,,none
-intelink.gov,intelink.gov,,20 post1.intelink.gov.; 20 post2.intelink.gov.
-intelligence.gov,intelligence.gov,,none
-intelligencecareers.gov,intelligencecareers.gov,,10 pri-jeemsg.eemsg.mail.mil.; 30 emsm-gh1-uea10.ncsc.mil.; 20 sec-jeemsg.eemsg.mail.mil.; 30 emsm-gh1-uea11.ncsc.mil.
-interior.gov,interior.gov,,0 interior-gov.mail.protection.outlook.com.
-interpol.gov,interpol.gov,,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
-invasivespecies.gov,invasivespecies.gov,,none
-invasivespeciesinfo.gov,invasivespeciesinfo.gov,,10 invasivespeciesinfo-gov.mail.protection.outlook.com.
-investor.gov,investor.gov,,none
-ioss.gov,ioss.gov,,none
-ipp.gov,ipp.gov,,none
-iprcenter.gov,iprcenter.gov,,none
-irs.gov,irs.gov,,20 emgw.irs.gov.; 10 emgc.irs.gov.; 10 emge.irs.gov.
-irsauctions.gov,irsauctions.gov,,none
-irsnet.gov,irsnet.gov,,none
-irssales.gov,irssales.gov,,none
-irsvideos.gov,irsvideos.gov,,none
+insurekidsnow.gov,insurekidsnow.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+integrity.gov,integrity.gov,HttpConnectTimeoutException: HTTP connect timed out,10 www.integrity.gov.
+intel.gov,intel.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+intelink.gov,intelink.gov,HttpConnectTimeoutException: HTTP connect timed out,20 post1.intelink.gov.; 20 post2.intelink.gov.
+intelligence.gov,intelligence.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+intelligencecareers.gov,intelligencecareers.gov,ConnectException,10 pri-jeemsg.eemsg.mail.mil.; 30 emsm-gh1-uea10.ncsc.mil.; 20 sec-jeemsg.eemsg.mail.mil.; 30 emsm-gh1-uea11.ncsc.mil.
+interior.gov,interior.gov,HttpConnectTimeoutException: HTTP connect timed out,0 interior-gov.mail.protection.outlook.com.
+interpol.gov,interpol.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
+invasivespecies.gov,invasivespecies.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+invasivespeciesinfo.gov,invasivespeciesinfo.gov,301,10 invasivespeciesinfo-gov.mail.protection.outlook.com.
+investor.gov,investor.gov,403,none
+ioss.gov,ioss.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ipp.gov,ipp.gov,301,none
+iprcenter.gov,iprcenter.gov,301,none
+irs.gov,irs.gov,301,20 emgw.irs.gov.; 10 emgc.irs.gov.; 10 emge.irs.gov.
+irsauctions.gov,irsauctions.gov,301,none
+irsnet.gov,irsnet.gov,ConnectException,none
+irssales.gov,irssales.gov,301,none
+irsvideos.gov,irsvideos.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 isdc.sites.usa.gov,usa.gov,Could not resolve host: isdc.sites.usa.gov,none
-ise.gov,ise.gov,,none
-isotope.gov,isotope.gov,,5 MTA02.ORNL.gov.; 5 MTA01.ORNL.gov.
-isotopes.gov,isotopes.gov,,10 mxb-00689501.gslb.gpphosted.com.; 10 mxa-00689501.gslb.gpphosted.com.
-istac.gov,istac.gov,,50 mail2.cia.gov.; 10 mail1.cia.gov.
-itdashboard.gov,itdashboard.gov,,none
-itis.gov,itis.gov,,0 itis-gov.mail.protection.outlook.com.
-its.gov,its.gov,,none
-iwtsd.gov,iwtsd.gov,,10 iwtsd.mail.protection.office365.us.
-jamesmadison.gov,jamesmadison.gov,,0 jamesmadison-gov.mail.protection.outlook.com.
-jccbi.gov,jccbi.gov,,none
-jccs.gov,jccs.gov,,none
-jcode.gov,jcode.gov,,none
-jct.gov,jct.gov,,20 mx0f-005d5501.gpphosted.com.; 10 mx0e-005d5501.gpphosted.com.
-jem.gov,jem.gov,,none
-jewishheritage.gov,jewishheritage.gov,,none
-jewishheritagemonth.gov,jewishheritagemonth.gov,,none
-jfklibrary.gov,jfklibrary.gov,,10 us.etp.fireeyegov.com.
-jimmycarterlibrary.gov,jimmycarterlibrary.gov,,10 us.etp.fireeyegov.com.
-jobcorps.gov,jobcorps.gov,,10 mxa-00801502.gslb.gpphosted.com.; 10 mxb-00801502.gslb.gpphosted.com.
-joinamericorps.gov,joinamericorps.gov,,none
-jpo.gov,jpo.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-judicialconference.gov,judicialconference.gov,,none
-juntos.gov,juntos.gov,,none
-jusfc.gov,jusfc.gov,,10 mx1.mtaroutes.com.; 30 mx3.mtaroutes.com.; 20 mx2.mtaroutes.com.; 40 mx4.mtaroutes.com.
-justauth.gov,justauth.gov,,none
-justice.gov,justice.gov,,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
-justthinktwice.gov,justthinktwice.gov,,none
-jwod.gov,jwod.gov,,none
-kennedy-center.gov,kennedy-center.gov,,0 kennedycenter-gov01i.mail.protection.outlook.com.
+ise.gov,ise.gov,301,none
+isotope.gov,isotope.gov,ConnectException,5 MTA02.ORNL.gov.; 5 MTA01.ORNL.gov.
+isotopes.gov,isotopes.gov,200,10 mxb-00689501.gslb.gpphosted.com.; 10 mxa-00689501.gslb.gpphosted.com.
+istac.gov,istac.gov,ConnectException,50 mail2.cia.gov.; 10 mail1.cia.gov.
+itdashboard.gov,itdashboard.gov,200,none
+itis.gov,itis.gov,200,0 itis-gov.mail.protection.outlook.com.
+its.gov,its.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching its.gov found.,none
+iwtsd.gov,iwtsd.gov,200,10 iwtsd.mail.protection.office365.us.
+jamesmadison.gov,jamesmadison.gov,301,0 jamesmadison-gov.mail.protection.outlook.com.
+jccbi.gov,jccbi.gov,ConnectException,none
+jccs.gov,jccs.gov,ConnectException,none
+jcode.gov,jcode.gov,ConnectException,none
+jct.gov,jct.gov,301,20 mx0f-005d5501.gpphosted.com.; 10 mx0e-005d5501.gpphosted.com.
+jem.gov,jem.gov,301,none
+jewishheritage.gov,jewishheritage.gov,301,none
+jewishheritagemonth.gov,jewishheritagemonth.gov,200,none
+jfklibrary.gov,jfklibrary.gov,ConnectException,10 us.etp.fireeyegov.com.
+jimmycarterlibrary.gov,jimmycarterlibrary.gov,ConnectException,10 us.etp.fireeyegov.com.
+jobcorps.gov,jobcorps.gov,301,10 mxa-00801502.gslb.gpphosted.com.; 10 mxb-00801502.gslb.gpphosted.com.
+joinamericorps.gov,joinamericorps.gov,301,none
+jpo.gov,jpo.gov,ConnectException,10 inbound-smtp.us-east-1.amazonaws.com.
+judicialconference.gov,judicialconference.gov,ConnectException,none
+juntos.gov,juntos.gov,301,none
+jusfc.gov,jusfc.gov,307,10 mx1.mtaroutes.com.; 30 mx3.mtaroutes.com.; 20 mx2.mtaroutes.com.; 40 mx4.mtaroutes.com.
+justauth.gov,justauth.gov,ConnectException,none
+justice.gov,justice.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
+justthinktwice.gov,justthinktwice.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+jwod.gov,jwod.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+kennedy-center.gov,kennedy-center.gov,HttpConnectTimeoutException: HTTP connect timed out,0 kennedycenter-gov01i.mail.protection.outlook.com.
 kibana.demo1.search.usa.gov,usa.gov,Could not resolve host: kibana.demo1.search.usa.gov,none
 kibana.demo2.search.usa.gov,usa.gov,Could not resolve host: kibana.demo2.search.usa.gov,none
 kibana.demo3.search.usa.gov,usa.gov,Could not resolve host: kibana.demo3.search.usa.gov,none
@@ -755,355 +755,355 @@ kibana5.demo4.search.usa.gov,usa.gov,Could not resolve host: kibana5.demo4.searc
 kibana5.search.usa.gov,usa.gov,Could not resolve host: kibana5.search.usa.gov,none
 kibana6.search.usa.gov,usa.gov,Could not resolve host: kibana6.search.usa.gov,none
 kids.usa.gov,usa.gov,Could not resolve host: kids.usa.gov,none
-know2protect.gov,know2protect.gov,,none
-labor.gov,labor.gov,,none
+know2protect.gov,know2protect.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+labor.gov,labor.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 labs.usa.gov,usa.gov,Could not resolve host: labs.usa.gov,none
-lacoast.gov,lacoast.gov,,0 lacoast-gov.mail.protection.outlook.com.
-landfire.gov,landfire.gov,,10 landfire-gov.mail.protection.outlook.com.
-landimaging.gov,landimaging.gov,,none
-lanl.gov,lanl.gov,,0 proofpoint8.lanl.gov.; 0 proofpoint7.lanl.gov.
-launch.gov,launch.gov,,none
-law.gov,law.gov,,none
-lbjlibrary.gov,lbjlibrary.gov,,10 us.etp.fireeyegov.com.
-lbl.gov,lbl.gov,,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-lcacommons.gov,lcacommons.gov,,none
-lcrmscp.gov,lcrmscp.gov,,none
-lctl.gov,lctl.gov,,5 mx42.loc.gov.; 5 mx22.loc.gov.; 5 mx23.loc.gov.; 5 mx41.loc.gov.
-lda.gov,lda.gov,,none
-learnatf.gov,learnatf.gov,,none
-learndoj.gov,learndoj.gov,,none
-leo.gov,leo.gov,,10 mx-east-leo.fbi.gov.
-lep.gov,lep.gov,,none
+lacoast.gov,lacoast.gov,HttpConnectTimeoutException: HTTP connect timed out,0 lacoast-gov.mail.protection.outlook.com.
+landfire.gov,landfire.gov,HttpConnectTimeoutException: HTTP connect timed out,10 landfire-gov.mail.protection.outlook.com.
+landimaging.gov,landimaging.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+lanl.gov,lanl.gov,HttpConnectTimeoutException: HTTP connect timed out,0 proofpoint8.lanl.gov.; 0 proofpoint7.lanl.gov.
+launch.gov,launch.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+law.gov,law.gov,301,none
+lbjlibrary.gov,lbjlibrary.gov,HttpConnectTimeoutException: HTTP connect timed out,10 us.etp.fireeyegov.com.
+lbl.gov,lbl.gov,301,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+lcacommons.gov,lcacommons.gov,301,none
+lcrmscp.gov,lcrmscp.gov,IOException: HTTP/1.1 header parser received no bytes,none
+lctl.gov,lctl.gov,ConnectException,5 mx42.loc.gov.; 5 mx22.loc.gov.; 5 mx23.loc.gov.; 5 mx41.loc.gov.
+lda.gov,lda.gov,403,none
+learnatf.gov,learnatf.gov,301,none
+learndoj.gov,learndoj.gov,301,none
+leo.gov,leo.gov,ConnectException,10 mx-east-leo.fbi.gov.
+lep.gov,lep.gov,301,none
 lets-encrypt.infr.search.usa.gov,usa.gov,Could not resolve host: lets-encrypt.infr.search.usa.gov,none
-lfs.gov,lfs.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-libraryofcongress.gov,libraryofcongress.gov,,none
-lis.gov,lis.gov,,none
-listo.gov,listo.gov,,none
-literacy.gov,literacy.gov,,none
-live.gov,live.gov,,none
-llnl.gov,llnl.gov,,10 mxa-00379502.gslb.gpphosted.com.; 10 mxb-00379502.gslb.gpphosted.com.
-lmvsci.gov,lmvsci.gov,,none
-loc.gov,loc.gov,,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
-loctest.gov,loctest.gov,,0 loctest-gov.mail.protection.outlook.com.
-loctps.gov,loctps.gov,,none
-login.gov,login.gov,,30 aspmx5.googlemail.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 10 aspmx.l.google.com.; 30 aspmx4.googlemail.com.
-longtermcare.gov,longtermcare.gov,,none
-lowerdrugcosts.gov,lowerdrugcosts.gov,,none
-lps.gov,lps.gov,,10 smtp.lps.gov.
-lsc.gov,lsc.gov,,1 smtp.lsc.gov.; 0 lsc-gov.mail.protection.outlook.com.
-ltcfeds.gov,ltcfeds.gov,,0 ltcfeds-gov.mail.protection.outlook.com.
-luca-appeals.gov,luca-appeals.gov,,50 mail2.census.gov.; 50 mail1.census.gov.
+lfs.gov,lfs.gov,ConnectException,10 inbound-smtp.us-east-1.amazonaws.com.
+libraryofcongress.gov,libraryofcongress.gov,301,none
+lis.gov,lis.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+listo.gov,listo.gov,301,none
+literacy.gov,literacy.gov,301,none
+live.gov,live.gov,301,none
+llnl.gov,llnl.gov,301,10 mxa-00379502.gslb.gpphosted.com.; 10 mxb-00379502.gslb.gpphosted.com.
+lmvsci.gov,lmvsci.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+loc.gov,loc.gov,403,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
+loctest.gov,loctest.gov,ConnectException,0 loctest-gov.mail.protection.outlook.com.
+loctps.gov,loctps.gov,301,none
+login.gov,login.gov,200,30 aspmx5.googlemail.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 10 aspmx.l.google.com.; 30 aspmx4.googlemail.com.
+longtermcare.gov,longtermcare.gov,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+lowerdrugcosts.gov,lowerdrugcosts.gov,301,none
+lps.gov,lps.gov,ConnectException,10 smtp.lps.gov.
+lsc.gov,lsc.gov,301,1 smtp.lsc.gov.; 0 lsc-gov.mail.protection.outlook.com.
+ltcfeds.gov,ltcfeds.gov,301,0 ltcfeds-gov.mail.protection.outlook.com.
+luca-appeals.gov,luca-appeals.gov,SSLHandshakeException: Remote host terminated the handshake,50 mail2.census.gov.; 50 mail1.census.gov.
 m.gobiernousa.gov,usa.gov,301,none
 m.usa.gov,usa.gov,301,none
-macpac.gov,macpac.gov,,30 alt4.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 alt3.aspmx.l.google.com.
-madeinamerica.gov,madeinamerica.gov,,none
-maha.gov,maha.gov,,none
-mail.gov,mail.gov,,none
-majorityleader.gov,majorityleader.gov,,20 mxa-0018d802.gslb.pphosted.com.; 20 mxb-0018d802.gslb.pphosted.com.
-majoritywhip.gov,majoritywhip.gov,,none
-manufacturing.gov,manufacturing.gov,,none
-marinecadastre.gov,marinecadastre.gov,,10 csc.noaa.gov.
-max.gov,max.gov,,10 grid1f.gseg.att.com.; 10 grid1f6.gseg.att.com.; 20 grid2f6.gseg.att.com.; 20 grid2f.gseg.att.com.
-mbda.gov,mbda.gov,,0 mbda-gov.mail.protection.outlook.com.
-mcc.gov,mcc.gov,,10 mcc-gov.mail.protection.outlook.com.
-mcctest.gov,mcctest.gov,,10 mxrecord.mcctest.gov.akadns.net.
-mds.gov,mds.gov,,none
-medicaid.gov,medicaid.gov,,none
-medicalcountermeasures.gov,medicalcountermeasures.gov,,none
-medicamentosbajoprecio.gov,medicamentosbajoprecio.gov,,none
-medicare.gov,medicare.gov,,none
-medlineplus.gov,medlineplus.gov,,10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.
-medpac.gov,medpac.gov,,0 medpac-gov.mail.protection.outlook.com.
-menopause.gov,menopause.gov,,dig error
-mentalhealth.gov,mentalhealth.gov,,none
-mentor.gov,mentor.gov,,none
-merrychristmas.gov,merrychristmas.gov,,none
-mesh.gov,mesh.gov,,10 nihcesxway3.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
-mgi.gov,mgi.gov,,0 mgi-gov.mail.protection.outlook.com.
-migrantworker.gov,migrantworker.gov,,none
-militaryconsumer.gov,militaryconsumer.gov,,none
-mimm.gov,mimm.gov,,none
-minoritywhip.gov,minoritywhip.gov,,none
+macpac.gov,macpac.gov,301,30 alt4.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 alt3.aspmx.l.google.com.
+madeinamerica.gov,madeinamerica.gov,301,none
+maha.gov,maha.gov,301,none
+mail.gov,mail.gov,ConnectException,none
+majorityleader.gov,majorityleader.gov,302,20 mxa-0018d802.gslb.pphosted.com.; 20 mxb-0018d802.gslb.pphosted.com.
+majoritywhip.gov,majoritywhip.gov,302,none
+manufacturing.gov,manufacturing.gov,301,none
+marinecadastre.gov,marinecadastre.gov,301,10 csc.noaa.gov.
+max.gov,max.gov,HttpConnectTimeoutException: HTTP connect timed out,10 grid1f.gseg.att.com.; 10 grid1f6.gseg.att.com.; 20 grid2f6.gseg.att.com.; 20 grid2f.gseg.att.com.
+mbda.gov,mbda.gov,HttpConnectTimeoutException: HTTP connect timed out,0 mbda-gov.mail.protection.outlook.com.
+mcc.gov,mcc.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mcc-gov.mail.protection.outlook.com.
+mcctest.gov,mcctest.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxrecord.mcctest.gov.akadns.net.
+mds.gov,mds.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+medicaid.gov,medicaid.gov,302,none
+medicalcountermeasures.gov,medicalcountermeasures.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+medicamentosbajoprecio.gov,medicamentosbajoprecio.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+medicare.gov,medicare.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+medlineplus.gov,medlineplus.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.
+medpac.gov,medpac.gov,HttpConnectTimeoutException: HTTP connect timed out,0 medpac-gov.mail.protection.outlook.com.
+menopause.gov,menopause.gov,HttpConnectTimeoutException: HTTP connect timed out,dig error
+mentalhealth.gov,mentalhealth.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+mentor.gov,mentor.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+merrychristmas.gov,merrychristmas.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+mesh.gov,mesh.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nihcesxway3.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.
+mgi.gov,mgi.gov,HttpConnectTimeoutException: HTTP connect timed out,0 mgi-gov.mail.protection.outlook.com.
+migrantworker.gov,migrantworker.gov,301,none
+militaryconsumer.gov,militaryconsumer.gov,403,none
+mimm.gov,mimm.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+minoritywhip.gov,minoritywhip.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 mip.sites.usa.gov,usa.gov,Could not resolve host: mip.sites.usa.gov,none
-mitigationcommission.gov,mitigationcommission.gov,,none
-mlkday.gov,mlkday.gov,,10 mlkday-gov.mail.protection.outlook.com.
-mma.gov,mma.gov,,0 mma-gov.mail.protection.outlook.com.
-mmc.gov,mmc.gov,,0 mmc-gov.mail.protection.outlook.com.
-mms.gov,mms.gov,,1 mms-gov.mail.protection.outlook.com.
-moms.gov,moms.gov,,none
-moneyfactory.gov,moneyfactory.gov,,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
-moneyfactorystore.gov,moneyfactorystore.gov,,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
-mortgagetranslations.gov,mortgagetranslations.gov,,none
-mrlc.gov,mrlc.gov,,none
-msb.gov,msb.gov,,none
+mitigationcommission.gov,mitigationcommission.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+mlkday.gov,mlkday.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mlkday-gov.mail.protection.outlook.com.
+mma.gov,mma.gov,HttpConnectTimeoutException: HTTP connect timed out,0 mma-gov.mail.protection.outlook.com.
+mmc.gov,mmc.gov,301,0 mmc-gov.mail.protection.outlook.com.
+mms.gov,mms.gov,ConnectException,1 mms-gov.mail.protection.outlook.com.
+moms.gov,moms.gov,403,none
+moneyfactory.gov,moneyfactory.gov,302,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
+moneyfactorystore.gov,moneyfactorystore.gov,301,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
+mortgagetranslations.gov,mortgagetranslations.gov,ConnectException,none
+mrlc.gov,mrlc.gov,301,none
+msb.gov,msb.gov,SSLException: (internal_error) Received fatal alert: internal_error,none
 msct.sites.usa.gov,usa.gov,Could not resolve host: msct.sites.usa.gov,none
-msha.gov,msha.gov,,none
-mspb.gov,mspb.gov,,10 mspb-gov.mail.protection.outlook.com.
-mtbs.gov,mtbs.gov,,none
-mtmc.gov,mtmc.gov,,none
+msha.gov,msha.gov,301,none
+mspb.gov,mspb.gov,301,10 mspb-gov.mail.protection.outlook.com.
+mtbs.gov,mtbs.gov,200,none
+mtmc.gov,mtmc.gov,ConnectException,none
 my.usa.gov,usa.gov,301,none
-mycreditunion.gov,mycreditunion.gov,,none
-myfdic.gov,myfdic.gov,,10 laboigmyfdic.gov.
-myira.gov,myira.gov,,none
-mymoney.gov,mymoney.gov,,none
-mypay.gov,mypay.gov,,dig error
-myplate.gov,myplate.gov,,none
-mytreasury.gov,mytreasury.gov,,none
-myusps.gov,myusps.gov,,none
-nafri.gov,nafri.gov,,0 nafri-gov.mail.protection.outlook.com.
-nagb.gov,nagb.gov,,none
-namus.gov,namus.gov,,none
-nano.gov,nano.gov,,none
-nara.gov,nara.gov,,60 alt1.aspmx.l.google.com.; 90 alt4.aspmx.l.google.com.; 80 alt3.aspmx.l.google.com.; 10 primary.us.etp.fireeyegov.com.; 50 aspmx.l.google.com.; 10 alt1.us.etp.fireeyegov.com.; 70 alt2.aspmx.l.google.com.
-nasa.gov,nasa.gov,,0 nasa-gov.mail.protection.outlook.com.
-nasaforce.gov,nasaforce.gov,,none
-nationalbank.gov,nationalbank.gov,,none
-nationalbankhelp.gov,nationalbankhelp.gov,,none
-nationalbanknet.gov,nationalbanknet.gov,,none
-nationalmap.gov,nationalmap.gov,,dig error
-nationalresourcedirectory.gov,nationalresourcedirectory.gov,,10 www.nationalresourcedirectory.gov.
-nationalservice.gov,nationalservice.gov,,10 nationalservice-gov.mail.protection.outlook.com.
-nationsreportcard.gov,nationsreportcard.gov,,none
-nativeamericanheritagemonth.gov,nativeamericanheritagemonth.gov,,none
-navycash.gov,navycash.gov,,none
-nbc.gov,nbc.gov,,0 nbc-gov.mail.protection.outlook.com.
-nbrc.gov,nbrc.gov,,0 nbrc-gov.mail.protection.outlook.com.
-nccs.gov,nccs.gov,,10 mxa-00689501.gslb.gpphosted.com.; 10 mxb-00689501.gslb.gpphosted.com.
-ncd.gov,ncd.gov,,0 ncd-gov.mail.protection.outlook.com.
-ncifcrf.gov,ncifcrf.gov,,10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway2.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxway6.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.
-ncirc.gov,ncirc.gov,,10 ncirc-gov.mail.protection.outlook.com.
-ncix.gov,ncix.gov,,20 mail1.cia.gov.; 40 mail2.cia.gov.
-ncjrs.gov,ncjrs.gov,,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
-ncmms.gov,ncmms.gov,,none
-nco.gov,nco.gov,,0 nco-gov.mail.protection.outlook.com.
-ncpc.gov,ncpc.gov,,0 ncpc-gov.mail.protection.outlook.com.
-ncrc.gov,ncrc.gov,,10 mxb-00689501.gslb.gpphosted.com.; 10 mxa-00689501.gslb.gpphosted.com.
-ncsc.gov,ncsc.gov,,none
-nctc.gov,nctc.gov,,0 nctc-gov.mail.protection.office365.us.
-ncua.gov,ncua.gov,,0 ncua-gov.mail.protection.outlook.com.
-nds.gov,nds.gov,,none
-ndstudio.gov,ndstudio.gov,,1 smtp.google.com.
-nea.gov,nea.gov,,0 nea-gov.mail.eo.outlook.com.
-neglecteddiseases.gov,neglecteddiseases.gov,,none
-neh.gov,neh.gov,,0 neh-gov.mail.protection.outlook.com.
-nehrp.gov,nehrp.gov,,none
-nemi.gov,nemi.gov,,none
-nepa.gov,nepa.gov,,none
-nersc.gov,nersc.gov,,5 esa2.nersc.gov.; 5 esa1.nersc.gov.
-neup.gov,neup.gov,,none
+mycreditunion.gov,mycreditunion.gov,200,none
+myfdic.gov,myfdic.gov,200,10 laboigmyfdic.gov.
+myira.gov,myira.gov,HttpTimeoutException: request timed out,none
+mymoney.gov,mymoney.gov,302,none
+mypay.gov,mypay.gov,ConnectException,dig error
+myplate.gov,myplate.gov,301,none
+mytreasury.gov,mytreasury.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+myusps.gov,myusps.gov,ConnectException,none
+nafri.gov,nafri.gov,200,0 nafri-gov.mail.protection.outlook.com.
+nagb.gov,nagb.gov,301,none
+namus.gov,namus.gov,301,none
+nano.gov,nano.gov,301,none
+nara.gov,nara.gov,ConnectException,60 alt1.aspmx.l.google.com.; 90 alt4.aspmx.l.google.com.; 80 alt3.aspmx.l.google.com.; 10 primary.us.etp.fireeyegov.com.; 50 aspmx.l.google.com.; 10 alt1.us.etp.fireeyegov.com.; 70 alt2.aspmx.l.google.com.
+nasa.gov,nasa.gov,302,0 nasa-gov.mail.protection.outlook.com.
+nasaforce.gov,nasaforce.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nationalbank.gov,nationalbank.gov,ConnectException,none
+nationalbankhelp.gov,nationalbankhelp.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nationalbanknet.gov,nationalbanknet.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nationalmap.gov,nationalmap.gov,HttpConnectTimeoutException: HTTP connect timed out,dig error
+nationalresourcedirectory.gov,nationalresourcedirectory.gov,HttpConnectTimeoutException: HTTP connect timed out,10 www.nationalresourcedirectory.gov.
+nationalservice.gov,nationalservice.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nationalservice-gov.mail.protection.outlook.com.
+nationsreportcard.gov,nationsreportcard.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nativeamericanheritagemonth.gov,nativeamericanheritagemonth.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+navycash.gov,navycash.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nbc.gov,nbc.gov,HttpConnectTimeoutException: HTTP connect timed out,0 nbc-gov.mail.protection.outlook.com.
+nbrc.gov,nbrc.gov,HttpConnectTimeoutException: HTTP connect timed out,0 nbrc-gov.mail.protection.outlook.com.
+nccs.gov,nccs.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-00689501.gslb.gpphosted.com.; 10 mxb-00689501.gslb.gpphosted.com.
+ncd.gov,ncd.gov,HttpConnectTimeoutException: HTTP connect timed out,0 ncd-gov.mail.protection.outlook.com.
+ncifcrf.gov,ncifcrf.gov,ConnectException,10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxwayst01.hub.nih.gov.; 10 nihcesxway.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway2.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxway6.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxwayst02.hub.nih.gov.
+ncirc.gov,ncirc.gov,HttpConnectTimeoutException: HTTP connect timed out,10 ncirc-gov.mail.protection.outlook.com.
+ncix.gov,ncix.gov,HttpConnectTimeoutException: HTTP connect timed out,20 mail1.cia.gov.; 40 mail2.cia.gov.
+ncjrs.gov,ncjrs.gov,301,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
+ncmms.gov,ncmms.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nco.gov,nco.gov,ConnectException,0 nco-gov.mail.protection.outlook.com.
+ncpc.gov,ncpc.gov,301,0 ncpc-gov.mail.protection.outlook.com.
+ncrc.gov,ncrc.gov,ConnectException,10 mxb-00689501.gslb.gpphosted.com.; 10 mxa-00689501.gslb.gpphosted.com.
+ncsc.gov,ncsc.gov,301,none
+nctc.gov,nctc.gov,301,0 nctc-gov.mail.protection.office365.us.
+ncua.gov,ncua.gov,200,0 ncua-gov.mail.protection.outlook.com.
+nds.gov,nds.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ndstudio.gov,ndstudio.gov,200,1 smtp.google.com.
+nea.gov,nea.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nea.gov found.,0 nea-gov.mail.eo.outlook.com.
+neglecteddiseases.gov,neglecteddiseases.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+neh.gov,neh.gov,301,0 neh-gov.mail.protection.outlook.com.
+nehrp.gov,nehrp.gov,200,none
+nemi.gov,nemi.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nepa.gov,nepa.gov,200,none
+nersc.gov,nersc.gov,301,5 esa2.nersc.gov.; 5 esa1.nersc.gov.
+neup.gov,neup.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 newtech4fedlib.sites.usa.gov,usa.gov,Resolving timed out after 3001 milliseconds,none
-nextlegends.gov,nextlegends.gov,,none
-nfpors.gov,nfpors.gov,,10 inbound-smtp.us-west-2.amazonaws.com.
-nga.gov,nga.gov,,10 nga-gov.mail.protection.outlook.com.
-nhtsa.gov,nhtsa.gov,,none
-nic.gov,nic.gov,,none
-nicic.gov,nicic.gov,,30 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 20 alt1.aspmx.l.google.com.; 30 aspmx5.googlemail.com.; 30 aspmx4.googlemail.com.; 20 alt2.aspmx.l.google.com.; 10 aspmx.l.google.com.
-nicsezcheckfbi.gov,nicsezcheckfbi.gov,,none
-nifc.gov,nifc.gov,,none
-nigc.gov,nigc.gov,,0 nigc-gov.mail.protection.outlook.com.
-nih.gov,nih.gov,,10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxway6.hub.nih.gov.
+nextlegends.gov,nextlegends.gov,302,none
+nfpors.gov,nfpors.gov,ConnectException,10 inbound-smtp.us-west-2.amazonaws.com.
+nga.gov,nga.gov,ConnectException,10 nga-gov.mail.protection.outlook.com.
+nhtsa.gov,nhtsa.gov,302,none
+nic.gov,nic.gov,ConnectException,none
+nicic.gov,nicic.gov,200,30 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 20 alt1.aspmx.l.google.com.; 30 aspmx5.googlemail.com.; 30 aspmx4.googlemail.com.; 20 alt2.aspmx.l.google.com.; 10 aspmx.l.google.com.
+nicsezcheckfbi.gov,nicsezcheckfbi.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nifc.gov,nifc.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nigc.gov,nigc.gov,301,0 nigc-gov.mail.protection.outlook.com.
+nih.gov,nih.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nihcesxway3.hub.nih.gov.; 10 nihcesxwayst05.hub.nih.gov.; 10 nihcesxwayst06.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxwayst04.hub.nih.gov.; 10 nihcesxway5.hub.nih.gov.; 10 nihcesxwayst03.hub.nih.gov.; 10 nihcesxway6.hub.nih.gov.
 nihseniorhealth.sites.usa.gov,usa.gov,Could not resolve host: nihseniorhealth.sites.usa.gov,none
-nij.gov,nij.gov,,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
-niosh.gov,niosh.gov,,none
-nist.gov,nist.gov,,0 nist-gov.mail.protection.outlook.com.
-nitrd.gov,nitrd.gov,,0 nitrd-gov.mail.protection.outlook.com.
-nixonlibrary.gov,nixonlibrary.gov,,10 us.etp.fireeyegov.com.
-nlm.gov,nlm.gov,,10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.
-nlr.gov,nlr.gov,,10 nlr-gov.mail.protection.outlook.com.
-nlrb.gov,nlrb.gov,,10 nlrb-gov.mail.protection.outlook.com.
-nmb.gov,nmb.gov,,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx2.googlemail.com.
-nnlm.gov,nnlm.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-nnss.gov,nnss.gov,,0 .
-noaa.gov,noaa.gov,,20 ALT2.ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX.L.GOOGLE.COM.; 40 ALT4.ASPMX.L.GOOGLE.COM.; 40 ALT3.ASPMX.L.GOOGLE.COM.
+nij.gov,nij.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
+niosh.gov,niosh.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nist.gov,nist.gov,HttpConnectTimeoutException: HTTP connect timed out,0 nist-gov.mail.protection.outlook.com.
+nitrd.gov,nitrd.gov,301,0 nitrd-gov.mail.protection.outlook.com.
+nixonlibrary.gov,nixonlibrary.gov,HttpConnectTimeoutException: HTTP connect timed out,10 us.etp.fireeyegov.com.
+nlm.gov,nlm.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nihcesxway5.hub.nih.gov.; 10 nihcesxway4.hub.nih.gov.; 10 nihcesxway3.hub.nih.gov.
+nlr.gov,nlr.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nlr-gov.mail.protection.outlook.com.
+nlrb.gov,nlrb.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nlrb-gov.mail.protection.outlook.com.
+nmb.gov,nmb.gov,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx2.googlemail.com.
+nnlm.gov,nnlm.gov,HttpConnectTimeoutException: HTTP connect timed out,10 inbound-smtp.us-east-1.amazonaws.com.
+nnss.gov,nnss.gov,200,0 .
+noaa.gov,noaa.gov,301,20 ALT2.ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX.L.GOOGLE.COM.; 40 ALT4.ASPMX.L.GOOGLE.COM.; 40 ALT3.ASPMX.L.GOOGLE.COM.
 notice.usa.gov,usa.gov,Resolving timed out after 3000 milliseconds,none
 notifications.usa.gov,usa.gov,Resolving timed out after 3000 milliseconds,none
-notify.gov,notify.gov,,none
-nps.gov,nps.gov,,10 nps-gov.mail.protection.outlook.com.
-nrc-gateway.gov,nrc-gateway.gov,,none
-nrc.gov,nrc.gov,,10 r4mail1.nrc.gov.; 10 mail5.nrc.gov.; 10 mail4.nrc.gov.; 10 r4mail2.nrc.gov.
-nrd.gov,nrd.gov,,10 nrd.gov.; 20 www.nrd.gov.
-nrelhub.gov,nrelhub.gov,,0 nrelhub-gov.mail.protection.outlook.com.
-nro.gov,nro.gov,,0 nrogf.mail.protection.office365.us.
-nrpo.gov,nrpo.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-ns.gov,ns.gov,,none
-nsa.gov,nsa.gov,,30 emsm-gh1-uea11.ncsc.mil.; 30 w455-emsm-u10.ncsc.mil.; 30 emsm-gh1-uea10.ncsc.mil.; 30 w455-emsm-u11.ncsc.mil.; 10 pri-jeemsg.eemsg.mail.mil.; 20 sec-jeemsg.eemsg.mail.mil.
-nsep.gov,nsep.gov,,1 email.nsep.gov.
-nsf.gov,nsf.gov,,10 primary.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
-nsopw.gov,nsopw.gov,,10 nsopw-gov.mail.protection.outlook.com.
+notify.gov,notify.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nps.gov,nps.gov,301,10 nps-gov.mail.protection.outlook.com.
+nrc-gateway.gov,nrc-gateway.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+nrc.gov,nrc.gov,301,10 r4mail1.nrc.gov.; 10 mail5.nrc.gov.; 10 mail4.nrc.gov.; 10 r4mail2.nrc.gov.
+nrd.gov,nrd.gov,HttpConnectTimeoutException: HTTP connect timed out,10 nrd.gov.; 20 www.nrd.gov.
+nrelhub.gov,nrelhub.gov,ConnectException,0 nrelhub-gov.mail.protection.outlook.com.
+nro.gov,nro.gov,ConnectException,0 nrogf.mail.protection.office365.us.
+nrpo.gov,nrpo.gov,ConnectException,10 inbound-smtp.us-east-1.amazonaws.com.
+ns.gov,ns.gov,ConnectException,none
+nsa.gov,nsa.gov,403,30 emsm-gh1-uea11.ncsc.mil.; 30 w455-emsm-u10.ncsc.mil.; 30 emsm-gh1-uea10.ncsc.mil.; 30 w455-emsm-u11.ncsc.mil.; 10 pri-jeemsg.eemsg.mail.mil.; 20 sec-jeemsg.eemsg.mail.mil.
+nsep.gov,nsep.gov,HttpConnectTimeoutException: HTTP connect timed out,1 email.nsep.gov.
+nsf.gov,nsf.gov,301,10 primary.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.; 40 alt3.us.etp.fireeyegov.com.
+nsopw.gov,nsopw.gov,200,10 nsopw-gov.mail.protection.outlook.com.
 nsta.sites.usa.gov,usa.gov,Resolving timed out after 3000 milliseconds,none
-ntia.gov,ntia.gov,,0 ntia-gov.mail.protection.outlook.com.
-ntis.gov,ntis.gov,,0 ntis-gov.mail.protection.outlook.com.
-ntrc.gov,ntrc.gov,,5 MTA02.ORNL.gov.; 5 MTA01.ORNL.gov.
-ntsb.gov,ntsb.gov,,0 ntsb-gov.mail.protection.outlook.com.
-nuclear.gov,nuclear.gov,,none
-nutrition.gov,nutrition.gov,,10 nutrition-gov.mail.protection.outlook.com.
-nvtc.gov,nvtc.gov,,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-nwbc.gov,nwbc.gov,,0 nwbc-gov.mail.protection.outlook.com.
-nwcg.gov,nwcg.gov,,none
-nwirp.gov,nwirp.gov,,none
-nwtrb.gov,nwtrb.gov,,0 nwtrb-gov.mail.protection.outlook.com.
-oasis.gov,oasis.gov,,none
-obamalibrary.gov,obamalibrary.gov,,10 us.etp.fireeyegov.com.
-obamawhitehouse.gov,obamawhitehouse.gov,,10 us.etp.fireeyegov.com.
-ocb.gov,ocb.gov,,10 ocb-gov.mail.protection.outlook.com.
-occ.gov,occ.gov,,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
-occhelps.gov,occhelps.gov,,none
-occnet.gov,occnet.gov,,none
-ocwr.gov,ocwr.gov,,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
-odci.gov,odci.gov,,10 mail4.cia.gov.; 10 mail3.cia.gov.
-odni.gov,odni.gov,,0 odni-gov.mail.protection.office365.us.
-oea.gov,oea.gov,,0 oea-gov.mail.protection.outlook.com.
-ofia.gov,ofia.gov,,none
-ofr.gov,ofr.gov,,none
-oge.gov,oge.gov,,5 oge-gov.mail.protection.outlook.com.
-ojjdp.gov,ojjdp.gov,,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
-ojp.gov,ojp.gov,,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
-oldcc.gov,oldcc.gov,,0 oldcc-gov.mail.protection.outlook.com.
-omb.gov,omb.gov,,30 grid2f.gseg.att.com.; 30 grid2f6.gseg.att.com.; 10 grid1f6.gseg.att.com.; 10 grid1f.gseg.att.com.
-ondcp.gov,ondcp.gov,,none
-oneaftac.gov,oneaftac.gov,,none
-onguardonline.gov,onguardonline.gov,,10 mx.onguardonline.gov.
-onhir.gov,onhir.gov,,none
-onlyfarms.gov,onlyfarms.gov,,none
-onrr.gov,onrr.gov,,1 onrr-gov.mail.protection.outlook.com.
+ntia.gov,ntia.gov,301,0 ntia-gov.mail.protection.outlook.com.
+ntis.gov,ntis.gov,200,0 ntis-gov.mail.protection.outlook.com.
+ntrc.gov,ntrc.gov,ConnectException,5 MTA02.ORNL.gov.; 5 MTA01.ORNL.gov.
+ntsb.gov,ntsb.gov,302,0 ntsb-gov.mail.protection.outlook.com.
+nuclear.gov,nuclear.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nutrition.gov,nutrition.gov,301,10 nutrition-gov.mail.protection.outlook.com.
+nvtc.gov,nvtc.gov,301,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+nwbc.gov,nwbc.gov,301,0 nwbc-gov.mail.protection.outlook.com.
+nwcg.gov,nwcg.gov,301,none
+nwirp.gov,nwirp.gov,ConnectException,none
+nwtrb.gov,nwtrb.gov,301,0 nwtrb-gov.mail.protection.outlook.com.
+oasis.gov,oasis.gov,ConnectException,none
+obamalibrary.gov,obamalibrary.gov,ConnectException,10 us.etp.fireeyegov.com.
+obamawhitehouse.gov,obamawhitehouse.gov,ConnectException,10 us.etp.fireeyegov.com.
+ocb.gov,ocb.gov,HttpConnectTimeoutException: HTTP connect timed out,10 ocb-gov.mail.protection.outlook.com.
+occ.gov,occ.gov,HttpConnectTimeoutException: HTTP connect timed out,10 cemailhub1in.treasury.gov.; 10 cwmailhub1in.treasury.gov.
+occhelps.gov,occhelps.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+occnet.gov,occnet.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ocwr.gov,ocwr.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
+odci.gov,odci.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mail4.cia.gov.; 10 mail3.cia.gov.
+odni.gov,odni.gov,HttpConnectTimeoutException: HTTP connect timed out,0 odni-gov.mail.protection.office365.us.
+oea.gov,oea.gov,ConnectException,0 oea-gov.mail.protection.outlook.com.
+ofia.gov,ofia.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ofr.gov,ofr.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+oge.gov,oge.gov,200,5 oge-gov.mail.protection.outlook.com.
+ojjdp.gov,ojjdp.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
+ojp.gov,ojp.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
+oldcc.gov,oldcc.gov,HttpConnectTimeoutException: HTTP connect timed out,0 oldcc-gov.mail.protection.outlook.com.
+omb.gov,omb.gov,HttpConnectTimeoutException: HTTP connect timed out,30 grid2f.gseg.att.com.; 30 grid2f6.gseg.att.com.; 10 grid1f6.gseg.att.com.; 10 grid1f.gseg.att.com.
+ondcp.gov,ondcp.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+oneaftac.gov,oneaftac.gov,ConnectException,none
+onguardonline.gov,onguardonline.gov,403,10 mx.onguardonline.gov.
+onhir.gov,onhir.gov,302,none
+onlyfarms.gov,onlyfarms.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+onrr.gov,onrr.gov,200,1 onrr-gov.mail.protection.outlook.com.
 opahit.sites.usa.gov,usa.gov,Resolving timed out after 3001 milliseconds,none
 open-staging.usa.gov,usa.gov,Could not resolve host: open-staging.usa.gov,none
 open.usa.gov,usa.gov,301,none
-opensource.gov,opensource.gov,,0 opensource-gov.mail.protection.outlook.com.
-openworld.gov,openworld.gov,,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
-opic.gov,opic.gov,,none
-opioids.gov,opioids.gov,,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
-opm.gov,opm.gov,,0 opm-gov.mail.protection.outlook.com.
-opportunityzones.gov,opportunityzones.gov,,none
-orau.gov,orau.gov,,10 mxb-00403e01.gslb.pphosted.com.; 50 orau-gov.mail.protection.outlook.com.; 10 mxa-00403e01.gslb.pphosted.com.
-organdonor.gov,organdonor.gov,,none
-ornl.gov,ornl.gov,,10 mxb-00689501.gslb.gpphosted.com.; 10 mxa-00689501.gslb.gpphosted.com.
-osac.gov,osac.gov,,none
-osc.gov,osc.gov,,0 osc-gov.mail.protection.outlook.com.
-oscnet.gov,oscnet.gov,,none
-osde.gov,osde.gov,,none
-osdls.gov,osdls.gov,,none
-osha.gov,osha.gov,,0 osha-gov.mail.protection.outlook.com.
-oshrc.gov,oshrc.gov,,10 oshrc-gov.mail.protection.outlook.com.
-osis.gov,osis.gov,,0 .
-osmre.gov,osmre.gov,,0 osmre-gov.mail.protection.outlook.com.
-osti.gov,osti.gov,,10 mxa-001d2d01.gslb.gpphosted.com.; 10 mxb-001d2d01.gslb.gpphosted.com.
-ostp.gov,ostp.gov,,none
-ots.gov,ots.gov,,none
-ourdocuments.gov,ourdocuments.gov,,10 us.etp.fireeyegov.com.
-ovc.gov,ovc.gov,,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
-ovcttac.gov,ovcttac.gov,,20 mail.global.frontbridge.com.; 10 ovcttac-gov.mail.protection.outlook.com.
-oversight.gov,oversight.gov,,none
-owc.gov,owc.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-pac.gov,pac.gov,,0 pac-gov.mail.protection.outlook.com.
-pacer.gov,pacer.gov,,20 mail3.uscourts.gov.; 20 mail1.uscourts.gov.
-pandemicflu.gov,pandemicflu.gov,,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
-pandemicoversight.gov,pandemicoversight.gov,,none
-papahanaumokuakea.gov,papahanaumokuakea.gov,,none
+opensource.gov,opensource.gov,HttpConnectTimeoutException: HTTP connect timed out,0 opensource-gov.mail.protection.outlook.com.
+openworld.gov,openworld.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-00026101.gslb.gpphosted.com.; 10 mxb-00026101.gslb.gpphosted.com.
+opic.gov,opic.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+opioids.gov,opioids.gov,301,10 smtp2.ees.hhs.gov.; 20 smtp.ees.hhs.gov.
+opm.gov,opm.gov,302,0 opm-gov.mail.protection.outlook.com.
+opportunityzones.gov,opportunityzones.gov,301,none
+orau.gov,orau.gov,301,10 mxb-00403e01.gslb.pphosted.com.; 50 orau-gov.mail.protection.outlook.com.; 10 mxa-00403e01.gslb.pphosted.com.
+organdonor.gov,organdonor.gov,301,none
+ornl.gov,ornl.gov,301,10 mxb-00689501.gslb.gpphosted.com.; 10 mxa-00689501.gslb.gpphosted.com.
+osac.gov,osac.gov,403,none
+osc.gov,osc.gov,200,0 osc-gov.mail.protection.outlook.com.
+oscnet.gov,oscnet.gov,ConnectException,none
+osde.gov,osde.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+osdls.gov,osdls.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+osha.gov,osha.gov,403,0 osha-gov.mail.protection.outlook.com.
+oshrc.gov,oshrc.gov,301,10 oshrc-gov.mail.protection.outlook.com.
+osis.gov,osis.gov,ConnectException,0 .
+osmre.gov,osmre.gov,302,0 osmre-gov.mail.protection.outlook.com.
+osti.gov,osti.gov,301,10 mxa-001d2d01.gslb.gpphosted.com.; 10 mxb-001d2d01.gslb.gpphosted.com.
+ostp.gov,ostp.gov,301,none
+ots.gov,ots.gov,302,none
+ourdocuments.gov,ourdocuments.gov,ConnectException,10 us.etp.fireeyegov.com.
+ovc.gov,ovc.gov,301,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
+ovcttac.gov,ovcttac.gov,302,20 mail.global.frontbridge.com.; 10 ovcttac-gov.mail.protection.outlook.com.
+oversight.gov,oversight.gov,301,none
+owc.gov,owc.gov,ConnectException,10 inbound-smtp.us-east-1.amazonaws.com.
+pac.gov,pac.gov,ConnectException,0 pac-gov.mail.protection.outlook.com.
+pacer.gov,pacer.gov,301,20 mail3.uscourts.gov.; 20 mail1.uscourts.gov.
+pandemicflu.gov,pandemicflu.gov,HttpConnectTimeoutException: HTTP connect timed out,20 smtp.ees.hhs.gov.; 10 smtp2.ees.hhs.gov.
+pandemicoversight.gov,pandemicoversight.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+papahanaumokuakea.gov,papahanaumokuakea.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 participation.usa.gov,usa.gov,SSL: no alternative certificate subject name matches target hostname 'participation.usa.gov',none
-passport.gov,passport.gov,,none
-passports.gov,passports.gov,,none
-patriotbonds.gov,patriotbonds.gov,,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
-pay.gov,pay.gov,,none
-paymentaccuracy.gov,paymentaccuracy.gov,,none
-pbgc.gov,pbgc.gov,,25 mail2.pbgc.gov.; 20 mail.pbgc.gov.
-pbrb.gov,pbrb.gov,,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
+passport.gov,passport.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+passports.gov,passports.gov,ConnectException,none
+patriotbonds.gov,patriotbonds.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching patriotbonds.gov found.,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
+pay.gov,pay.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+paymentaccuracy.gov,paymentaccuracy.gov,200,none
+pbgc.gov,pbgc.gov,HttpConnectTimeoutException: HTTP connect timed out,25 mail2.pbgc.gov.; 20 mail.pbgc.gov.
+pbrb.gov,pbrb.gov,HttpConnectTimeoutException: HTTP connect timed out,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
 pca.sites.usa.gov,usa.gov,Could not resolve host: pca.sites.usa.gov,none
-pcah.gov,pcah.gov,,none
-pcast.gov,pcast.gov,,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-pci.gov,pci.gov,,10 inbound.mail.dmz.pitc.gov.
-pclob.gov,pclob.gov,,0 pclob-gov.mail.protection.outlook.com.
-peacecorps.gov,peacecorps.gov,,10 mx1.peacecorps.iphmx.com.; 20 mx2.peacecorps.iphmx.com.
-peacecorpsoig.gov,peacecorpsoig.gov,,0 peacecorpsoig-gov.mail.protection.outlook.com.
-pepfar.gov,pepfar.gov,,none
-performance.gov,performance.gov,,none
-permitting.gov,permitting.gov,,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
-persuader-reports.gov,persuader-reports.gov,,none
-phe.gov,phe.gov,,none
+pcah.gov,pcah.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+pcast.gov,pcast.gov,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+pci.gov,pci.gov,HttpConnectTimeoutException: HTTP connect timed out,10 inbound.mail.dmz.pitc.gov.
+pclob.gov,pclob.gov,HttpConnectTimeoutException: HTTP connect timed out,0 pclob-gov.mail.protection.outlook.com.
+peacecorps.gov,peacecorps.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.peacecorps.iphmx.com.; 20 mx2.peacecorps.iphmx.com.
+peacecorpsoig.gov,peacecorpsoig.gov,HttpConnectTimeoutException: HTTP connect timed out,0 peacecorpsoig-gov.mail.protection.outlook.com.
+pepfar.gov,pepfar.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+performance.gov,performance.gov,301,none
+permitting.gov,permitting.gov,302,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+persuader-reports.gov,persuader-reports.gov,301,none
+phe.gov,phe.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching phe.gov found.,none
 pianc.sites.usa.gov,usa.gov,Could not resolve host: pianc.sites.usa.gov,none
-pic.gov,pic.gov,,10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-piedrasblancas.gov,piedrasblancas.gov,,none
-pif.gov,pif.gov,,5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
-pitc.gov,pitc.gov,,none
-pitctestdomain.gov,pitctestdomain.gov,,none
-pki-lab.gov,pki-lab.gov,,none
-pki.gov,pki.gov,,none
-plainlanguage.gov,plainlanguage.gov,,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-pmf.gov,pmf.gov,,10 cust45693-1.in.mailcontrol.com.; 10 cust45693-2.in.mailcontrol.com.
-pmi.gov,pmi.gov,,none
-pnl.gov,pnl.gov,,0 pnl-gov.mail.protection.outlook.com.
-pnnl.gov,pnnl.gov,,0 pnnl-gov.mail.protection.outlook.com.
-poolsafely.gov,poolsafely.gov,,none
-poolsafety.gov,poolsafety.gov,,none
-postoffice.gov,postoffice.gov,,none
-power2prevent.gov,power2prevent.gov,,none
-ppdcecc.gov,ppdcecc.gov,,none
-ppms.gov,ppms.gov,,none
-pppl.gov,pppl.gov,,10 mxa-0006c101.gslb.pphosted.com.; 10 mxb-0006c101.gslb.pphosted.com.
-pppo.gov,pppo.gov,,0 pppo-gov.mail.protection.outlook.com.
-prc.gov,prc.gov,,10 us-smtp-inbound-1.mimecast.com.; 10 us-smtp-inbound-2.mimecast.com.
-preprodfan.gov,preprodfan.gov,,none
-preserveamerica.gov,preserveamerica.gov,,none
-presidentialdocuments.gov,presidentialdocuments.gov,,none
-presidentialinnovationfellows.gov,presidentialinnovationfellows.gov,,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
-presidentialserviceawards.gov,presidentialserviceawards.gov,,10 presidentialserviceawards-gov.mail.eo.outlook.com.
+pic.gov,pic.gov,301,10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+piedrasblancas.gov,piedrasblancas.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+pif.gov,pif.gov,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+pitc.gov,pitc.gov,ConnectException,none
+pitctestdomain.gov,pitctestdomain.gov,ConnectException,none
+pki-lab.gov,pki-lab.gov,ConnectException,none
+pki.gov,pki.gov,ConnectException,none
+plainlanguage.gov,plainlanguage.gov,301,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+pmf.gov,pmf.gov,302,10 cust45693-1.in.mailcontrol.com.; 10 cust45693-2.in.mailcontrol.com.
+pmi.gov,pmi.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+pnl.gov,pnl.gov,302,0 pnl-gov.mail.protection.outlook.com.
+pnnl.gov,pnnl.gov,302,0 pnnl-gov.mail.protection.outlook.com.
+poolsafely.gov,poolsafely.gov,301,none
+poolsafety.gov,poolsafety.gov,301,none
+postoffice.gov,postoffice.gov,ConnectException,none
+power2prevent.gov,power2prevent.gov,ConnectException,none
+ppdcecc.gov,ppdcecc.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ppdcecc.gov found.,none
+ppms.gov,ppms.gov,403,none
+pppl.gov,pppl.gov,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-0006c101.gslb.pphosted.com.; 10 mxb-0006c101.gslb.pphosted.com.
+pppo.gov,pppo.gov,ConnectException,0 pppo-gov.mail.protection.outlook.com.
+prc.gov,prc.gov,200,10 us-smtp-inbound-1.mimecast.com.; 10 us-smtp-inbound-2.mimecast.com.
+preprodfan.gov,preprodfan.gov,ConnectException,none
+preserveamerica.gov,preserveamerica.gov,ConnectException,none
+presidentialdocuments.gov,presidentialdocuments.gov,301,none
+presidentialinnovationfellows.gov,presidentialinnovationfellows.gov,HttpConnectTimeoutException: HTTP connect timed out,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+presidentialserviceawards.gov,presidentialserviceawards.gov,200,10 presidentialserviceawards-gov.mail.eo.outlook.com.
 presidentialtransition.usa.gov,usa.gov,Could not resolve host: presidentialtransition.usa.gov,none
-presidio.gov,presidio.gov,,0 presidio-gov.mail.eo.outlook.com.
-presidiocommercial.gov,presidiocommercial.gov,,0 presidiocommercial-gov.mail.protection.outlook.com.
-presidiotrust.gov,presidiotrust.gov,,0 presidiotrust-gov.mail.protection.outlook.com.
-presidiotunneltops.gov,presidiotunneltops.gov,,none
-pretrialservices.gov,pretrialservices.gov,,none
-preventionresourcefinder.gov,preventionresourcefinder.gov,,none
-privacyshield.gov,privacyshield.gov,,none
-productofusa.gov,productofusa.gov,,0 .
-projectsafechildhood.gov,projectsafechildhood.gov,,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
-projectsafeneighborhoods.gov,projectsafeneighborhoods.gov,,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
+presidio.gov,presidio.gov,HttpConnectTimeoutException: HTTP connect timed out,0 presidio-gov.mail.eo.outlook.com.
+presidiocommercial.gov,presidiocommercial.gov,308,0 presidiocommercial-gov.mail.protection.outlook.com.
+presidiotrust.gov,presidiotrust.gov,HttpConnectTimeoutException: HTTP connect timed out,0 presidiotrust-gov.mail.protection.outlook.com.
+presidiotunneltops.gov,presidiotunneltops.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+pretrialservices.gov,pretrialservices.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+preventionresourcefinder.gov,preventionresourcefinder.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+privacyshield.gov,privacyshield.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+productofusa.gov,productofusa.gov,HttpConnectTimeoutException: HTTP connect timed out,0 .
+projectsafechildhood.gov,projectsafechildhood.gov,301,10 mx-da6.usdoj.gov.; 10 mx-dc2.usdoj.gov.
+projectsafeneighborhoods.gov,projectsafeneighborhoods.gov,301,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
 promotions.usa.gov,usa.gov,301,none
-prosperafrica.gov,prosperafrica.gov,,dig error
-protectyourmove.gov,protectyourmove.gov,,none
+prosperafrica.gov,prosperafrica.gov,HttpConnectTimeoutException: HTTP connect timed out,dig error
+protectyourmove.gov,protectyourmove.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 proxylb.us-east-1.infr.search.usa.gov,usa.gov,SSL: no alternative certificate subject name matches target hostname 'proxylb.us-east-1.infr.search.usa.gov',none
 proxylb.us-west-2.infr.search.usa.gov,usa.gov,Could not resolve host: proxylb.us-west-2.infr.search.usa.gov,none
-psa.gov,psa.gov,,1 Csosao365.mail.protection.outlook.com.
-psc.gov,psc.gov,,40 alt3.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.
-pscr.gov,pscr.gov,,none
-psd.gov,psd.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-psob.gov,psob.gov,,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
-psup.gov,psup.gov,,10 inbound-smtp.us-east-1.amazonaws.com.
-ptf.gov,ptf.gov,,10 mail4.cia.gov.; 10 mail3.cia.gov.
-ptt.gov,ptt.gov,,none
+psa.gov,psa.gov,HttpConnectTimeoutException: HTTP connect timed out,1 Csosao365.mail.protection.outlook.com.
+psc.gov,psc.gov,301,40 alt3.us.etp.fireeyegov.com.; 10 primary.us.etp.fireeyegov.com.; 20 alt1.us.etp.fireeyegov.com.; 30 alt2.us.etp.fireeyegov.com.
+pscr.gov,pscr.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+psd.gov,psd.gov,HttpConnectTimeoutException: HTTP connect timed out,10 inbound-smtp.us-east-1.amazonaws.com.
+psob.gov,psob.gov,301,10 mx-dc2.usdoj.gov.; 10 mx-da6.usdoj.gov.
+psup.gov,psup.gov,HttpConnectTimeoutException: HTTP connect timed out,10 inbound-smtp.us-east-1.amazonaws.com.
+ptf.gov,ptf.gov,ConnectException,10 mail4.cia.gov.; 10 mail3.cia.gov.
+ptt.gov,ptt.gov,ConnectException,none
 publications.usa.gov,usa.gov,301,none
-pubmed.gov,pubmed.gov,,none
-pubservices.gov,pubservices.gov,,none
-purchasing.gov,purchasing.gov,,none
-qatesttwai.gov,qatesttwai.gov,,none
-quantum.gov,quantum.gov,,none
-rcfl.gov,rcfl.gov,,none
+pubmed.gov,pubmed.gov,302,none
+pubservices.gov,pubservices.gov,ConnectException,none
+purchasing.gov,purchasing.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+qatesttwai.gov,qatesttwai.gov,ConnectException,none
+quantum.gov,quantum.gov,307,none
+rcfl.gov,rcfl.gov,301,none
 rcfl.sites.usa.gov,usa.gov,Could not resolve host: rcfl.sites.usa.gov,none
-reach.gov,reach.gov,,none
-read.gov,read.gov,,none
-ready.gov,ready.gov,,none
-readybusiness.gov,readybusiness.gov,,none
-reaganlibrary.gov,reaganlibrary.gov,,none
-realestatesales.gov,realestatesales.gov,,none
-realfood.gov,realfood.gov,,none
-realpropertyprofile.gov,realpropertyprofile.gov,,none
-rec.gov,rec.gov,,none
-recalls.gov,recalls.gov,,none
-recordsmanagement.gov,recordsmanagement.gov,,10 us.etp.fireeyegov.com.
-recoverymonth.gov,recoverymonth.gov,,none
-recreation.gov,recreation.gov,,none
-reentry.gov,reentry.gov,,none
-reginfo.gov,reginfo.gov,,none
+reach.gov,reach.gov,301,none
+read.gov,read.gov,200,none
+ready.gov,ready.gov,301,none
+readybusiness.gov,readybusiness.gov,301,none
+reaganlibrary.gov,reaganlibrary.gov,ConnectException,none
+realestatesales.gov,realestatesales.gov,200,none
+realfood.gov,realfood.gov,200,none
+realpropertyprofile.gov,realpropertyprofile.gov,301,none
+rec.gov,rec.gov,301,none
+recalls.gov,recalls.gov,301,none
+recordsmanagement.gov,recordsmanagement.gov,ConnectException,10 us.etp.fireeyegov.com.
+recoverymonth.gov,recoverymonth.gov,302,none
+recreation.gov,recreation.gov,301,none
+reentry.gov,reentry.gov,ConnectException,none
+reginfo.gov,reginfo.gov,301,none
 registry.usa.gov,usa.gov,301,none
-regulations.gov,regulations.gov,,none
-relocatefeds.gov,relocatefeds.gov,,none
-reportband.gov,reportband.gov,,none
-reporting.gov,reporting.gov,,none
-reproductivehealthservices.gov,reproductivehealthservices.gov,,none
-republicanleader.gov,republicanleader.gov,,none
-republicans.gov,republicans.gov,,none
-republicanwhip.gov,republicanwhip.gov,,none
-research.gov,research.gov,,none
+regulations.gov,regulations.gov,301,none
+relocatefeds.gov,relocatefeds.gov,302,none
+reportband.gov,reportband.gov,301,none
+reporting.gov,reporting.gov,ConnectException,none
+reproductivehealthservices.gov,reproductivehealthservices.gov,200,none
+republicanleader.gov,republicanleader.gov,302,none
+republicans.gov,republicans.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+republicanwhip.gov,republicanwhip.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+research.gov,research.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 respuestas.gobiernousa.gov,usa.gov,301,none
 resque.demo1.search.usa.gov,usa.gov,Could not resolve host: resque.demo1.search.usa.gov,none
 resque.demo2.search.usa.gov,usa.gov,Could not resolve host: resque.demo2.search.usa.gov,none
@@ -1111,106 +1111,106 @@ resque.demo3.search.usa.gov,usa.gov,Could not resolve host: resque.demo3.search.
 resque.demo4.search.usa.gov,usa.gov,Could not resolve host: resque.demo4.search.usa.gov,none
 resque.demo5.search.usa.gov,usa.gov,Could not resolve host: resque.demo5.search.usa.gov,none
 resque.search.usa.gov,usa.gov,Could not resolve host: resque.search.usa.gov,none
-restorethegulf.gov,restorethegulf.gov,,none
-rideelectric.gov,rideelectric.gov,,none
-rivers.gov,rivers.gov,,none
-rl.gov,rl.gov,,none
-robodeidentidad.gov,robodeidentidad.gov,,none
-rocis.gov,rocis.gov,,none
-rpa.gov,rpa.gov,,none
-rpo.gov,rpo.gov,,none
-rrb.gov,rrb.gov,,none
+restorethegulf.gov,restorethegulf.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+rideelectric.gov,rideelectric.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+rivers.gov,rivers.gov,301,none
+rl.gov,rl.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+robodeidentidad.gov,robodeidentidad.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+rocis.gov,rocis.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+rpa.gov,rpa.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+rpo.gov,rpo.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+rrb.gov,rrb.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 rtv.usa.gov,usa.gov,Could not resolve host: rtv.usa.gov,none
-rural.gov,rural.gov,,none
-sac.gov,sac.gov,,none
-safecom.gov,safecom.gov,,none
-safedc.gov,safedc.gov,,none
-safeocs.gov,safeocs.gov,,none
-safercar.gov,safercar.gov,,none
-saferproduct.gov,saferproduct.gov,,none
-saferproducts.gov,saferproducts.gov,,none
-safertruck.gov,safertruck.gov,,none
-safetyact.gov,safetyact.gov,,none
-safetyvideos.gov,safetyvideos.gov,,none
-safgrandchallenge.gov,safgrandchallenge.gov,,none
-salmonrecovery.gov,salmonrecovery.gov,,none
-sam.gov,sam.gov,,none
-samhsa.gov,samhsa.gov,,none
-sandia.gov,sandia.gov,,none
-saveamerica.gov,saveamerica.gov,,none
-savingsbond.gov,savingsbond.gov,,none
-savingsbonds.gov,savingsbonds.gov,,none
-savingsbondwizard.gov,savingsbondwizard.gov,,none
-sba.gov,sba.gov,,none
+rural.gov,rural.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+sac.gov,sac.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+safecom.gov,safecom.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+safedc.gov,safedc.gov,200,none
+safeocs.gov,safeocs.gov,200,none
+safercar.gov,safercar.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+saferproduct.gov,saferproduct.gov,301,none
+saferproducts.gov,saferproducts.gov,301,none
+safertruck.gov,safertruck.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+safetyact.gov,safetyact.gov,301,none
+safetyvideos.gov,safetyvideos.gov,301,none
+safgrandchallenge.gov,safgrandchallenge.gov,302,none
+salmonrecovery.gov,salmonrecovery.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+sam.gov,sam.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+samhsa.gov,samhsa.gov,403,none
+sandia.gov,sandia.gov,302,none
+saveamerica.gov,saveamerica.gov,301,none
+savingsbond.gov,savingsbond.gov,200,none
+savingsbonds.gov,savingsbonds.gov,302,none
+savingsbondwizard.gov,savingsbondwizard.gov,200,none
+sba.gov,sba.gov,301,none
 sbalearning.sites.usa.gov,usa.gov,Could not resolve host: sbalearning.sites.usa.gov,none
-sbir.gov,sbir.gov,,none
-sbrc.gov,sbrc.gov,,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
-sc-us.gov,sc-us.gov,,none
-schoolsafety.gov,schoolsafety.gov,,none
-scidac.gov,scidac.gov,,none
-science.gov,science.gov,,none
-sciencebase.gov,sciencebase.gov,,none
-scijinks.gov,scijinks.gov,,none
-scinet-test.gov,scinet-test.gov,,none
-scinet.gov,scinet.gov,,none
-scrc.gov,scrc.gov,,none
-screwworm.gov,screwworm.gov,,none
-scus.gov,scus.gov,,none
-scuspd.gov,scuspd.gov,,none
-sdr.gov,sdr.gov,,none
+sbir.gov,sbir.gov,301,none
+sbrc.gov,sbrc.gov,503,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+sc-us.gov,sc-us.gov,ConnectException,none
+schoolsafety.gov,schoolsafety.gov,301,none
+scidac.gov,scidac.gov,301,none
+science.gov,science.gov,301,none
+sciencebase.gov,sciencebase.gov,200,none
+scijinks.gov,scijinks.gov,ConnectException,none
+scinet-test.gov,scinet-test.gov,ConnectException,none
+scinet.gov,scinet.gov,ConnectException,none
+scrc.gov,scrc.gov,200,none
+screwworm.gov,screwworm.gov,308,none
+scus.gov,scus.gov,ConnectException,none
+scuspd.gov,scuspd.gov,301,none
+sdr.gov,sdr.gov,301,none
 search-prerelease1.usa.gov,usa.gov,Could not resolve host: search-prerelease1.usa.gov,none
 search-prerelease2.usa.gov,usa.gov,Could not resolve host: search-prerelease2.usa.gov,none
 search-prerelease3.usa.gov,usa.gov,Could not resolve host: search-prerelease3.usa.gov,none
 search-prerelease4.usa.gov,usa.gov,Could not resolve host: search-prerelease4.usa.gov,none
 search.buyusa.gov,usa.gov,Could not resolve host: search.buyusa.gov,none
-search.gov,search.gov,,none
+search.gov,search.gov,301,none
 search.usa.gov,usa.gov,Could not resolve host: search.usa.gov,none
 searchstats.usa.gov,usa.gov,Could not resolve host: searchstats.usa.gov,none
-sec.gov,sec.gov,,none
-secretservice.gov,secretservice.gov,,none
-section108.gov,section108.gov,,none
-section508.gov,section508.gov,,none
-securitytestfan.gov,securitytestfan.gov,,none
-seguridadconsumidor.gov,seguridadconsumidor.gov,,none
-segurosocial.gov,segurosocial.gov,,none
-seized.gov,seized.gov,,none
-selectagents.gov,selectagents.gov,,none
-selectusa.gov,selectusa.gov,,none
-semiconductors.gov,semiconductors.gov,,none
-sen.gov,sen.gov,,none
-senate.gov,senate.gov,,none
-senatecalendar.gov,senatecalendar.gov,,none
-sentinel.gov,sentinel.gov,,none
-serve.gov,serve.gov,,none
-servicemembers.gov,servicemembers.gov,,none
+sec.gov,sec.gov,403,none
+secretservice.gov,secretservice.gov,301,none
+section108.gov,section108.gov,200,none
+section508.gov,section508.gov,301,none
+securitytestfan.gov,securitytestfan.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+seguridadconsumidor.gov,seguridadconsumidor.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+segurosocial.gov,segurosocial.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+seized.gov,seized.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+selectagents.gov,selectagents.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+selectusa.gov,selectusa.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+semiconductors.gov,semiconductors.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+sen.gov,sen.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+senate.gov,senate.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+senatecalendar.gov,senatecalendar.gov,301,none
+sentinel.gov,sentinel.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+serve.gov,serve.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+servicemembers.gov,servicemembers.gov,301,none
 sffeb.sites.usa.gov,usa.gov,Could not resolve host: sffeb.sites.usa.gov,none
-sftool.gov,sftool.gov,,none
-sharetheroadsafely.gov,sharetheroadsafely.gov,,none
-sierrawild.gov,sierrawild.gov,,none
-sigpr.gov,sigpr.gov,,none
-simplereport.gov,simplereport.gov,,none
+sftool.gov,sftool.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+sharetheroadsafely.gov,sharetheroadsafely.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+sierrawild.gov,sierrawild.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+sigpr.gov,sigpr.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+simplereport.gov,simplereport.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 sites.usa.gov,usa.gov,Could not resolve host: sites.usa.gov,none
-sji.gov,sji.gov,,none
-slgs.gov,slgs.gov,,none
-smart.gov,smart.gov,,none
-smartcheck.gov,smartcheck.gov,,none
-smartgrid.gov,smartgrid.gov,,none
-smithsonian.gov,smithsonian.gov,,none
-smokefree.gov,smokefree.gov,,none
-sns.gov,sns.gov,,none
-soarc.gov,soarc.gov,,none
-socialsecurity.gov,socialsecurity.gov,,none
-solardecathlon.gov,solardecathlon.gov,,none
-sotu.gov,sotu.gov,,none
-spaceweather.gov,spaceweather.gov,,none
-spd15revision.gov,spd15revision.gov,,none
-speaker.gov,speaker.gov,,none
-spectrum.gov,spectrum.gov,,10 spectrum-gov.mail.protection.outlook.com.
-srnl.gov,srnl.gov,,none
-srs.gov,srs.gov,,none
-ssa.gov,ssa.gov,,none
-ssab.gov,ssab.gov,,none
-sss.gov,sss.gov,,none
+sji.gov,sji.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+slgs.gov,slgs.gov,200,none
+smart.gov,smart.gov,301,none
+smartcheck.gov,smartcheck.gov,301,none
+smartgrid.gov,smartgrid.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+smithsonian.gov,smithsonian.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching smithsonian.gov found.,none
+smokefree.gov,smokefree.gov,200,none
+sns.gov,sns.gov,200,none
+soarc.gov,soarc.gov,200,none
+socialsecurity.gov,socialsecurity.gov,301,none
+solardecathlon.gov,solardecathlon.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sotu.gov,sotu.gov,301,none
+spaceweather.gov,spaceweather.gov,301,none
+spd15revision.gov,spd15revision.gov,200,none
+speaker.gov,speaker.gov,302,none
+spectrum.gov,spectrum.gov,301,10 spectrum-gov.mail.protection.outlook.com.
+srnl.gov,srnl.gov,301,none
+srs.gov,srs.gov,301,none
+ssa.gov,ssa.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ssab.gov,ssab.gov,301,none
+sss.gov,sss.gov,ConnectException: Host is unreachable,none
 stage-beta.gobierno.usa.gov,usa.gov,Could not resolve host: stage-beta.gobierno.usa.gov,none
 stage-beta.usa.gov,usa.gov,Could not resolve host: stage-beta.usa.gov,none
 stage-business.usa.gov,usa.gov,Resolving timed out after 3001 milliseconds,none
@@ -1219,42 +1219,42 @@ staging.apps.gobiernousa.gov,usa.gov,Could not resolve host: staging.apps.gobier
 staging.apps.usa.gov,usa.gov,Could not resolve host: staging.apps.usa.gov,none
 staging.my.usa.gov,usa.gov,Could not resolve host: staging.my.usa.gov,none
 staging.usa.gov,usa.gov,Could not resolve host: staging.usa.gov,none
-standards.gov,standards.gov,,none
+standards.gov,standards.gov,307,none
 standards.usa.gov,usa.gov,Could not resolve host: standards.usa.gov,none
-state.gov,state.gov,,none
-stateoig.gov,stateoig.gov,,none
+state.gov,state.gov,302,none
+stateoig.gov,stateoig.gov,403,none
 stats.search.usa.gov,usa.gov,Could not resolve host: stats.search.usa.gov,none
-statspolicy.gov,statspolicy.gov,,none
-stb.gov,stb.gov,,none
-stennis.gov,stennis.gov,,none
-stopalcoholabuse.gov,stopalcoholabuse.gov,,none
-stopbullying.gov,stopbullying.gov,,none
-stopfakes.gov,stopfakes.gov,,none
-stopransomware.gov,stopransomware.gov,,none
+statspolicy.gov,statspolicy.gov,200,none
+stb.gov,stb.gov,301,none
+stennis.gov,stennis.gov,200,none
+stopalcoholabuse.gov,stopalcoholabuse.gov,302,none
+stopbullying.gov,stopbullying.gov,301,none
+stopfakes.gov,stopfakes.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching stopfakes.gov found.,none
+stopransomware.gov,stopransomware.gov,302,none
 stratblog.sites.usa.gov,usa.gov,Could not resolve host: stratblog.sites.usa.gov,none
-studentaid.gov,studentaid.gov,,none
-studentloans.gov,studentloans.gov,,none
-supervisioncentral.gov,supervisioncentral.gov,,none
-supportfan.gov,supportfan.gov,,none
-supreme-court.gov,supreme-court.gov,,none
-supremecourt.gov,supremecourt.gov,,none
-supremecourtus.gov,supremecourtus.gov,,none
-surgeongeneral.gov,surgeongeneral.gov,,none
+studentaid.gov,studentaid.gov,IOException: Received RST_STREAM: Internal error,none
+studentloans.gov,studentloans.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+supervisioncentral.gov,supervisioncentral.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+supportfan.gov,supportfan.gov,ConnectException,none
+supreme-court.gov,supreme-court.gov,ConnectException,none
+supremecourt.gov,supremecourt.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+supremecourtus.gov,supremecourtus.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+surgeongeneral.gov,surgeongeneral.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 survey.usa.gov,usa.gov,Could not resolve host: survey.usa.gov,none
-sustainability.gov,sustainability.gov,,none
-sworm.gov,sworm.gov,,none
-swpa.gov,swpa.gov,,none
-symbols.gov,symbols.gov,,none
-taaps.gov,taaps.gov,,none
-tak.gov,tak.gov,,0 takproductcenter.mail.protection.office365.us.
-tasefiling.gov,tasefiling.gov,,none
-tax.gov,tax.gov,,none
-taxreform.gov,taxreform.gov,,none
-tcis.gov,tcis.gov,,none
-techforce.gov,techforce.gov,,none
-techhubs.gov,techhubs.gov,,none
-techprosperitycorps.gov,techprosperitycorps.gov,,none
-telework.gov,telework.gov,,none
+sustainability.gov,sustainability.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+sworm.gov,sworm.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+swpa.gov,swpa.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+symbols.gov,symbols.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+taaps.gov,taaps.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tak.gov,tak.gov,200,0 takproductcenter.mail.protection.office365.us.
+tasefiling.gov,tasefiling.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tax.gov,tax.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+taxreform.gov,taxreform.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tcis.gov,tcis.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+techforce.gov,techforce.gov,200,none
+techhubs.gov,techhubs.gov,301,none
+techprosperitycorps.gov,techprosperitycorps.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+telework.gov,telework.gov,301,none
 tell-us.usa.gov,usa.gov,301,none
 tellus.usa.gov,usa.gov,301,none
 tematres.demo1.search.usa.gov,usa.gov,Could not resolve host: tematres.demo1.search.usa.gov,none
@@ -1264,209 +1264,209 @@ tematres.demo4.search.usa.gov,usa.gov,Could not resolve host: tematres.demo4.sea
 tematres.demo5.search.usa.gov,usa.gov,Could not resolve host: tematres.demo5.search.usa.gov,none
 test.gsa-ecas.usa.gov,usa.gov,Could not resolve host: test.gsa-ecas.usa.gov,none
 test.search.usa.gov,usa.gov,Could not resolve host: test.search.usa.gov,none
-thebraininitiative.gov,thebraininitiative.gov,,none
-therealcost.gov,therealcost.gov,,none
-thisfreelife.gov,thisfreelife.gov,,none
-thomas.gov,thomas.gov,,none
-tigta.gov,tigta.gov,,none
-tigtanet.gov,tigtanet.gov,,none
-time.gov,time.gov,,none
-tobacco.gov,tobacco.gov,,none
-together.gov,together.gov,,none
-tox21.gov,tox21.gov,,none
-tps.gov,tps.gov,,none
-trabajadormigrante.gov,trabajadormigrante.gov,,none
-tracss.gov,tracss.gov,,none
-trade.gov,trade.gov,,none
-trafficsafetymarketing.gov,trafficsafetymarketing.gov,,none
-trainingproviderresults.gov,trainingproviderresults.gov,,none
-transparency.gov,transparency.gov,,none
-transportation.gov,transportation.gov,,none
-treas.gov,treas.gov,,none
-treaslockbox.gov,treaslockbox.gov,,none
-treasury.gov,treasury.gov,,none
-treasuryauction.gov,treasuryauction.gov,,none
-treasuryauctions.gov,treasuryauctions.gov,,none
-treasurydirect.gov,treasurydirect.gov,,none
-treasuryecm.gov,treasuryecm.gov,,none
-treasuryhunt.gov,treasuryhunt.gov,,none
-treasuryscams.gov,treasuryscams.gov,,none
-tribaljusticeandsafety.gov,tribaljusticeandsafety.gov,,none
-truman.gov,truman.gov,,none
-trumanlibrary.gov,trumanlibrary.gov,,none
-trumpaccounts.gov,trumpaccounts.gov,,none
-trumpcard.gov,trumpcard.gov,,none
-trumpgoldcard.gov,trumpgoldcard.gov,,none
-trumpira.gov,trumpira.gov,,none
-trumpjobs.gov,trumpjobs.gov,,
-trumplibrary.gov,trumplibrary.gov,,none
-trumprx.gov,trumprx.gov,,none
-trumpwhitehouse.gov,trumpwhitehouse.gov,,none
-tsa.gov,tsa.gov,,none
-tsc.gov,tsc.gov,,none
-tsp.gov,tsp.gov,,none
-tsptest.gov,tsptest.gov,,none
-tsunami.gov,tsunami.gov,,none
-tswg.gov,tswg.gov,,none
-ttb.gov,ttb.gov,,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
-ttbonline.gov,ttbonline.gov,,none
-ttlplus.gov,ttlplus.gov,,none
-tva.gov,tva.gov,,0 tva-gov.mail.protection.outlook.com.
-tvaoig.gov,tvaoig.gov,,none
+thebraininitiative.gov,thebraininitiative.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+therealcost.gov,therealcost.gov,301,none
+thisfreelife.gov,thisfreelife.gov,301,none
+thomas.gov,thomas.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tigta.gov,tigta.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tigtanet.gov,tigtanet.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+time.gov,time.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tobacco.gov,tobacco.gov,301,none
+together.gov,together.gov,301,none
+tox21.gov,tox21.gov,200,none
+tps.gov,tps.gov,301,none
+trabajadormigrante.gov,trabajadormigrante.gov,301,none
+tracss.gov,tracss.gov,200,none
+trade.gov,trade.gov,301,none
+trafficsafetymarketing.gov,trafficsafetymarketing.gov,302,none
+trainingproviderresults.gov,trainingproviderresults.gov,301,none
+transparency.gov,transparency.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+transportation.gov,transportation.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+treas.gov,treas.gov,302,none
+treaslockbox.gov,treaslockbox.gov,301,none
+treasury.gov,treasury.gov,302,none
+treasuryauction.gov,treasuryauction.gov,ConnectException,none
+treasuryauctions.gov,treasuryauctions.gov,200,none
+treasurydirect.gov,treasurydirect.gov,200,none
+treasuryecm.gov,treasuryecm.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+treasuryhunt.gov,treasuryhunt.gov,302,none
+treasuryscams.gov,treasuryscams.gov,302,none
+tribaljusticeandsafety.gov,tribaljusticeandsafety.gov,301,none
+truman.gov,truman.gov,301,none
+trumanlibrary.gov,trumanlibrary.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+trumpaccounts.gov,trumpaccounts.gov,200,none
+trumpcard.gov,trumpcard.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+trumpgoldcard.gov,trumpgoldcard.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+trumpira.gov,trumpira.gov,301,none
+trumpjobs.gov,trumpjobs.gov,ConnectException,
+trumplibrary.gov,trumplibrary.gov,ConnectException,none
+trumprx.gov,trumprx.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+trumpwhitehouse.gov,trumpwhitehouse.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tsa.gov,tsa.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tsc.gov,tsc.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tsp.gov,tsp.gov,302,none
+tsptest.gov,tsptest.gov,ConnectException,none
+tsunami.gov,tsunami.gov,301,none
+tswg.gov,tswg.gov,ConnectException,none
+ttb.gov,ttb.gov,302,10 cwmailhub1in.treasury.gov.; 10 cemailhub1in.treasury.gov.
+ttbonline.gov,ttbonline.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ttlplus.gov,ttlplus.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+tva.gov,tva.gov,HttpConnectTimeoutException: HTTP connect timed out,0 tva-gov.mail.protection.outlook.com.
+tvaoig.gov,tvaoig.gov,HttpConnectTimeoutException: HTTP connect timed out,none
 twa800.sites.usa.gov,usa.gov,Could not resolve host: twa800.sites.usa.gov,none
-twai.gov,twai.gov,,none
-ucia.gov,ucia.gov,,none
-udall.gov,udall.gov,,none
-ugov.gov,ugov.gov,,none
-ui.gov,ui.gov,,none
-ukraineoversight.gov,ukraineoversight.gov,,none
-unemployment.gov,unemployment.gov,,none
-unicor.gov,unicor.gov,,none
-unionreports.gov,unionreports.gov,,none
-unitedstatescongress.gov,unitedstatescongress.gov,,none
-unlocktalent.gov,unlocktalent.gov,,none
-unnpp.gov,unnpp.gov,,none
-unrpnet.gov,unrpnet.gov,,none
-urbanwaters.gov,urbanwaters.gov,,none
-us-cert.gov,us-cert.gov,,none
+twai.gov,twai.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ucia.gov,ucia.gov,ConnectException,none
+udall.gov,udall.gov,200,none
+ugov.gov,ugov.gov,ConnectException,none
+ui.gov,ui.gov,301,none
+ukraineoversight.gov,ukraineoversight.gov,ConnectException,none
+unemployment.gov,unemployment.gov,301,none
+unicor.gov,unicor.gov,301,none
+unionreports.gov,unionreports.gov,301,none
+unitedstatescongress.gov,unitedstatescongress.gov,HttpTimeoutException: request timed out,none
+unlocktalent.gov,unlocktalent.gov,ConnectException,none
+unnpp.gov,unnpp.gov,ConnectException: Host is unreachable,none
+unrpnet.gov,unrpnet.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+urbanwaters.gov,urbanwaters.gov,302,none
+us-cert.gov,us-cert.gov,301,none
 usa.gov,usa.gov,302,none
-usa250.gov,usa250.gov,,none
-usability.gov,usability.gov,,none
+usa250.gov,usa250.gov,301,none
+usability.gov,usability.gov,301,none
 usaceecopcx.sites.usa.gov,usa.gov,Resolving timed out after 3000 milliseconds,none
-usadf.gov,usadf.gov,,none
-usagm.gov,usagm.gov,,none
-usai.gov,usai.gov,,none
-usaid.gov,usaid.gov,,none
-usajobs.gov,usajobs.gov,,none
-usalearning.gov,usalearning.gov,,none
-usandc.gov,usandc.gov,,none
-usap.gov,usap.gov,,none
-usaspending.gov,usaspending.gov,,none
-usastaffing.gov,usastaffing.gov,,none
-usbankruptcy.gov,usbankruptcy.gov,,none
-usbg.gov,usbg.gov,,none
-usbm.gov,usbm.gov,,none
-usbr.gov,usbr.gov,,none
-usc.gov,usc.gov,,none
-uscapital.gov,uscapital.gov,,none
-uscapitalgiftshop.gov,uscapitalgiftshop.gov,,none
-uscapitol.gov,uscapitol.gov,,none
-uscapitolgiftshop.gov,uscapitolgiftshop.gov,,none
-uscapitolgiftstore.gov,uscapitolgiftstore.gov,,none
-uscapitolpolice.gov,uscapitolpolice.gov,,none
-uscavc.gov,uscavc.gov,,none
-uscc.gov,uscc.gov,,none
-usccr.gov,usccr.gov,,none
-uscg.gov,uscg.gov,,none
-uscirf.gov,uscirf.gov,,none
-uscis.gov,uscis.gov,,none
-uscode.gov,uscode.gov,,none
-uscongress.gov,uscongress.gov,,none
-usconsulate.gov,usconsulate.gov,,none
-uscourts.gov,uscourts.gov,,20 mail1.uscourts.gov.; 30 mail3.uscourts.gov.
-uscp.gov,uscp.gov,,none
-uscpoig.gov,uscpoig.gov,,none
-uscurrency.gov,uscurrency.gov,,10 outmail01.federalreserve.gov.; 20 outmail02.federalreserve.gov.
-usda.gov,usda.gov,,none
-usdapii.gov,usdapii.gov,,none
-usdebitcard.gov,usdebitcard.gov,,none
-usdfc.gov,usdfc.gov,,none
-usdigitalservice.gov,usdigitalservice.gov,,none
-usdoj.gov,usdoj.gov,,none
-usdoscloud.gov,usdoscloud.gov,,none
-usds.gov,usds.gov,,none
-usembassy.gov,usembassy.gov,,none
-usgeo.gov,usgeo.gov,,none
-usgovdod.gov,usgovdod.gov,,none
-usgovernmentmanual.gov,usgovernmentmanual.gov,,none
-usgs.gov,usgs.gov,,none
-ushmm.gov,ushmm.gov,,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
-ushouse.gov,ushouse.gov,,none
-ushr.gov,ushr.gov,,none
-usicecenter.gov,usicecenter.gov,,none
-usich.gov,usich.gov,,none
-usidfc.gov,usidfc.gov,,none
-usip.gov,usip.gov,,none
-usitc.gov,usitc.gov,,none
-usitcoig.gov,usitcoig.gov,,0 usitcoig-gov.mail.protection.outlook.com.
-usmarshals.gov,usmarshals.gov,,none
-usmint.gov,usmint.gov,,none
-usmission.gov,usmission.gov,,none
-usphs.gov,usphs.gov,,none
-uspis.gov,uspis.gov,,none
-usprobation.gov,usprobation.gov,,none
-usps.gov,usps.gov,,none
-uspsinformeddelivery.gov,uspsinformeddelivery.gov,,none
-uspsinnovates.gov,uspsinnovates.gov,,none
-uspsoig.gov,uspsoig.gov,,none
+usadf.gov,usadf.gov,200,none
+usagm.gov,usagm.gov,301,none
+usai.gov,usai.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usaid.gov,usaid.gov,200,none
+usajobs.gov,usajobs.gov,301,none
+usalearning.gov,usalearning.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usandc.gov,usandc.gov,ConnectException,none
+usap.gov,usap.gov,301,none
+usaspending.gov,usaspending.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usastaffing.gov,usastaffing.gov,302,none
+usbankruptcy.gov,usbankruptcy.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usbg.gov,usbg.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usbm.gov,usbm.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usbr.gov,usbr.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usc.gov,usc.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscapital.gov,uscapital.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscapitalgiftshop.gov,uscapitalgiftshop.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscapitol.gov,uscapitol.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscapitolgiftshop.gov,uscapitolgiftshop.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscapitolgiftstore.gov,uscapitolgiftstore.gov,ConnectException,none
+uscapitolpolice.gov,uscapitolpolice.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscavc.gov,uscavc.gov,ConnectException,none
+uscc.gov,uscc.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usccr.gov,usccr.gov,200,none
+uscg.gov,uscg.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscirf.gov,uscirf.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscis.gov,uscis.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscode.gov,uscode.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscongress.gov,uscongress.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usconsulate.gov,usconsulate.gov,403,none
+uscourts.gov,uscourts.gov,HttpConnectTimeoutException: HTTP connect timed out,20 mail1.uscourts.gov.; 30 mail3.uscourts.gov.
+uscp.gov,uscp.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscpoig.gov,uscpoig.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uscurrency.gov,uscurrency.gov,301,10 outmail01.federalreserve.gov.; 20 outmail02.federalreserve.gov.
+usda.gov,usda.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usdapii.gov,usdapii.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usdebitcard.gov,usdebitcard.gov,200,none
+usdfc.gov,usdfc.gov,301,none
+usdigitalservice.gov,usdigitalservice.gov,302,none
+usdoj.gov,usdoj.gov,301,none
+usdoscloud.gov,usdoscloud.gov,ConnectException,none
+usds.gov,usds.gov,301,none
+usembassy.gov,usembassy.gov,403,none
+usgeo.gov,usgeo.gov,200,none
+usgovdod.gov,usgovdod.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usgovernmentmanual.gov,usgovernmentmanual.gov,200,none
+usgs.gov,usgs.gov,ConnectException,none
+ushmm.gov,ushmm.gov,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+ushouse.gov,ushouse.gov,ConnectException,none
+ushr.gov,ushr.gov,ConnectException,none
+usicecenter.gov,usicecenter.gov,200,none
+usich.gov,usich.gov,200,none
+usidfc.gov,usidfc.gov,301,none
+usip.gov,usip.gov,ConnectException,none
+usitc.gov,usitc.gov,301,none
+usitcoig.gov,usitcoig.gov,ConnectException,0 usitcoig-gov.mail.protection.outlook.com.
+usmarshals.gov,usmarshals.gov,301,none
+usmint.gov,usmint.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usmission.gov,usmission.gov,403,none
+usphs.gov,usphs.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+uspis.gov,uspis.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usprobation.gov,usprobation.gov,ConnectException,none
+usps.gov,usps.gov,ConnectException,none
+uspsinformeddelivery.gov,uspsinformeddelivery.gov,ConnectException,none
+uspsinnovates.gov,uspsinnovates.gov,ConnectException,none
+uspsoig.gov,uspsoig.gov,301,none
 uspto-dev-blog.sites.usa.gov,usa.gov,Could not resolve host: uspto-dev-blog.sites.usa.gov,none
-uspto.gov,uspto.gov,,none
-ussc.gov,ussc.gov,,20 ussc-gov.mail.protection.outlook.com.
-ussemiquincentennial.gov,ussemiquincentennial.gov,,none
-ussm.gov,ussm.gov,,none
-usss.gov,usss.gov,,none
-ustaxcourt.gov,ustaxcourt.gov,,none
-ustda.gov,ustda.gov,,none
-ustr.gov,ustr.gov,,none
-ustreas.gov,ustreas.gov,,none
-usvisabond.gov,usvisabond.gov,,none
+uspto.gov,uspto.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ussc.gov,ussc.gov,HttpConnectTimeoutException: HTTP connect timed out,20 ussc-gov.mail.protection.outlook.com.
+ussemiquincentennial.gov,ussemiquincentennial.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ussm.gov,ussm.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+usss.gov,usss.gov,301,none
+ustaxcourt.gov,ustaxcourt.gov,200,none
+ustda.gov,ustda.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ustr.gov,ustr.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+ustreas.gov,ustreas.gov,302,none
+usvisabond.gov,usvisabond.gov,HttpTimeoutException: request timed out,none
 uswds.sites.usa.gov,usa.gov,Could not resolve host: uswds.sites.usa.gov,none
-usxports.gov,usxports.gov,,none
-utahfireinfo.gov,utahfireinfo.gov,,none
-va.gov,va.gov,,none
-vaccine.gov,vaccine.gov,,none
-vaccines.gov,vaccines.gov,,none
-vacine.gov,vacine.gov,,none
-vacines.gov,vacines.gov,,none
-vacuna.gov,vacuna.gov,,none
-vacunas.gov,vacunas.gov,,none
-vaoig.gov,vaoig.gov,,none
-vcf.gov,vcf.gov,,none
-vehiclehistory.gov,vehiclehistory.gov,,none
-veterans.gov,veterans.gov,,none
-vets.gov,vets.gov,,none
-visas.gov,visas.gov,,
-visitthecapital.gov,visitthecapital.gov,,none
-visitthecapitol.gov,visitthecapitol.gov,,none
-vistacampus.gov,vistacampus.gov,,10 vistacampus-gov.mail.protection.outlook.com.
-voa.gov,voa.gov,,none
-volcano.gov,volcano.gov,,none
-volunteer.gov,volunteer.gov,,none
-volunteeringinamerica.gov,volunteeringinamerica.gov,,none
-vote.gov,vote.gov,,none
+usxports.gov,usxports.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+utahfireinfo.gov,utahfireinfo.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+va.gov,va.gov,301,none
+vaccine.gov,vaccine.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vaccine.gov found.,none
+vaccines.gov,vaccines.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+vacine.gov,vacine.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+vacines.gov,vacines.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+vacuna.gov,vacuna.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vacuna.gov found.,none
+vacunas.gov,vacunas.gov,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vacunas.gov found.,none
+vaoig.gov,vaoig.gov,200,none
+vcf.gov,vcf.gov,301,none
+vehiclehistory.gov,vehiclehistory.gov,302,none
+veterans.gov,veterans.gov,301,none
+vets.gov,vets.gov,301,none
+visas.gov,visas.gov,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,
+visitthecapital.gov,visitthecapital.gov,ConnectException,none
+visitthecapitol.gov,visitthecapitol.gov,301,none
+vistacampus.gov,vistacampus.gov,301,10 vistacampus-gov.mail.protection.outlook.com.
+voa.gov,voa.gov,301,none
+volcano.gov,volcano.gov,301,none
+volunteer.gov,volunteer.gov,302,none
+volunteeringinamerica.gov,volunteeringinamerica.gov,301,none
+vote.gov,vote.gov,200,none
 vote.usa.gov,usa.gov,301,none
-votebymail.gov,votebymail.gov,,none
-vsafe.gov,vsafe.gov,,none
-wapa.gov,wapa.gov,,none
-war.gov,war.gov,,none
-wartimecontracting.gov,wartimecontracting.gov,,none
-waste.gov,waste.gov,,none
-weather.gov,weather.gov,,none
-webharvest.gov,webharvest.gov,,none
+votebymail.gov,votebymail.gov,301,none
+vsafe.gov,vsafe.gov,HttpTimeoutException: request timed out,none
+wapa.gov,wapa.gov,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+war.gov,war.gov,403,none
+wartimecontracting.gov,wartimecontracting.gov,301,none
+waste.gov,waste.gov,ConnectException,none
+weather.gov,weather.gov,301,none
+webharvest.gov,webharvest.gov,200,none
 wellness.sites.usa.gov,usa.gov,Could not resolve host: wellness.sites.usa.gov,none
-wh.gov,wh.gov,,none
-whaging.gov,whaging.gov,,none
-whatcanyoudocampaign.gov,whatcanyoudocampaign.gov,,none
-whcs.gov,whcs.gov,,none
-whes.gov,whes.gov,,none
-whistleblower.gov,whistleblower.gov,,none
-whistleblowers.gov,whistleblowers.gov,,none
-whitehouse.gov,whitehouse.gov,,none
-whitehouseconferenceonaging.gov,whitehouseconferenceonaging.gov,,none
+wh.gov,wh.gov,301,none
+whaging.gov,whaging.gov,HttpConnectTimeoutException: HTTP connect timed out,none
+whatcanyoudocampaign.gov,whatcanyoudocampaign.gov,403,none
+whcs.gov,whcs.gov,ConnectException,none
+whes.gov,whes.gov,ConnectException,none
+whistleblower.gov,whistleblower.gov,301,none
+whistleblowers.gov,whistleblowers.gov,403,none
+whitehouse.gov,whitehouse.gov,301,none
+whitehouseconferenceonaging.gov,whitehouseconferenceonaging.gov,200,none
 whldp.sites.usa.gov,usa.gov,Could not resolve host: whldp.sites.usa.gov,none
-whms.gov,whms.gov,,none
-why.gov,why.gov,,none
-wildfire.gov,wildfire.gov,,none
-wizard.gov,wizard.gov,,none
-wlci.gov,wlci.gov,,none
+whms.gov,whms.gov,ConnectException,none
+why.gov,why.gov,301,none
+wildfire.gov,wildfire.gov,301,none
+wizard.gov,wizard.gov,302,none
+wlci.gov,wlci.gov,200,none
 womenbizinfo.sites.usa.gov,usa.gov,Could not resolve host: womenbizinfo.sites.usa.gov,none
-womenshealth.gov,womenshealth.gov,,none
-womenshistorymonth.gov,womenshistorymonth.gov,,none
-workcenter.gov,workcenter.gov,,none
-worker.gov,worker.gov,,none
-workplace.gov,workplace.gov,,none
-wrp.gov,wrp.gov,,none
-wwtg.gov,wwtg.gov,,none
+womenshealth.gov,womenshealth.gov,200,none
+womenshistorymonth.gov,womenshistorymonth.gov,200,none
+workcenter.gov,workcenter.gov,403,none
+worker.gov,worker.gov,403,none
+workplace.gov,workplace.gov,ConnectException,none
+wrp.gov,wrp.gov,403,none
+wwtg.gov,wwtg.gov,301,none
 www.alpha.my.usa.gov,usa.gov,Could not resolve host: www.alpha.my.usa.gov,none
 www.analytics.usa.gov,usa.gov,Could not resolve host: www.analytics.usa.gov,none
 www.business.usa.gov,usa.gov,Could not resolve host: www.business.usa.gov,none
@@ -1482,7 +1482,7 @@ www.search.usa.gov,usa.gov,403,none
 www.staging.my.usa.gov,usa.gov,Could not resolve host: www.staging.my.usa.gov,none
 www.usa.gov,usa.gov,200,none
 www.vote.usa.gov,usa.gov,SSL: no alternative certificate subject name matches target hostname 'www.vote.usa.gov',none
-xd.gov,xd.gov,,none
-ymp.gov,ymp.gov,,none
-youth.gov,youth.gov,,none
-youthrules.gov,youthrules.gov,,none
+xd.gov,xd.gov,200,none
+ymp.gov,ymp.gov,ConnectException,none
+youth.gov,youth.gov,200,none
+youthrules.gov,youthrules.gov,301,none

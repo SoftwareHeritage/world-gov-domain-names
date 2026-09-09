@@ -2,13 +2,13 @@ subdomain,parent_domain,http_status,mx
 epasts.mk.gov.lv,mk.gov.lv,404,none
 eportfelis.mk.gov.lv,mk.gov.lv,Recv failure: Connexion ré-initialisée par le correspondant,none
 exchange.mk.gov.lv,mk.gov.lv,Connection timed out after 3002 milliseconds,none
-gov.lv,gov.lv,,5 mail.gov.lv.
-latvija.lv,latvija.lv,,none
+gov.lv,gov.lv,HttpConnectTimeoutException: HTTP connect timed out,5 mail.gov.lv.
+latvija.lv,latvija.lv,301,none
 m-dauks.mk.gov.lv,mk.gov.lv,Connection timed out after 3001 milliseconds,none
 mk.gov.lv,mk.gov.lv,HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2),10 epasts.mk.gov.lv.; 5 vkanc.in.tmes.trendmicro.eu.
 nevis.mk.gov.lv,mk.gov.lv,200,none
 ppdb.mk.gov.lv,mk.gov.lv,200,none
-saeima.lv,saeima.lv,,10 spaceship2.saeima.lv.; 5 spaceship.saeima.lv.
+saeima.lv,saeima.lv,200,10 spaceship2.saeima.lv.; 5 spaceship.saeima.lv.
 tap.mk.gov.lv,mk.gov.lv,Connection timed out after 3000 milliseconds,none
 tapportals.mk.gov.lv,mk.gov.lv,200,none
 vdr.mk.gov.lv,mk.gov.lv,Could not resolve host: vdr.mk.gov.lv,none

@@ -35,8 +35,8 @@ again-a-madison.pprod-consult.etalab.gouv.fr,gouv.fr,Could not resolve host: aga
 agata.aviation-civile.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 agata.dsna.aviation-civile.gouv.fr,gouv.fr,Connection timed out after 3001 milliseconds,none
 agd.data.gouv.fr,gouv.fr,200,none
-agence-adoption.fr,agence-adoption.fr,,0 agenceadoption-fr01e.mail.protection.outlook.com.
-agence-biomedecine.fr,agence-biomedecine.fr,,100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.
+agence-adoption.fr,agence-adoption.fr,301,0 agenceadoption-fr01e.mail.protection.outlook.com.
+agence-biomedecine.fr,agence-biomedecine.fr,308,100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.
 agencedunumerique.gouv.fr,gouv.fr,Could not resolve host: agencedunumerique.gouv.fr,none
 agenda.sigp.aviation-civile.gouv.fr,gouv.fr,Connection timed out after 3001 milliseconds,none
 agenor.equipement.gouv.fr,gouv.fr,Could not resolve host: agenor.equipement.gouv.fr,none
@@ -74,7 +74,7 @@ animjdc.sga.defense.gouv.fr,gouv.fr,Could not resolve host: animjdc.sga.defense.
 annuaire-igf.finances.gouv.fr,gouv.fr,Could not resolve host: annuaire-igf.finances.gouv.fr,none
 annuaire-pprd.agricoll.agriculture.gouv.fr,gouv.fr,Could not resolve host: annuaire-pprd.agricoll.agriculture.gouv.fr,none
 annuaire.agricoll.agriculture.gouv.fr,gouv.fr,302,none
-anr.fr,anr.fr,,
+anr.fr,anr.fr,200,
 antai.gouv.fr,gouv.fr,302,none
 antilles-guyane.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: antilles-guyane.safire.fonction-publique.gouv.fr,none
 ants.gouv.fr,gouv.fr,200,none
@@ -97,7 +97,7 @@ appli.agriculture.gouv.fr,gouv.fr,Could not resolve host: appli.agriculture.gouv
 applications.dgfip.finances.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 apps.diplomatie.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 aquitaine.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: aquitaine.safire.fonction-publique.gouv.fr,none
-arcep.fr,arcep.fr,,5 mx62.cloud.vadesecure.com.; 5 mx61.cloud.vadesecure.com.; 5 mx64.cloud.vadesecure.com.; 5 mx63.cloud.vadesecure.com.
+arcep.fr,arcep.fr,301,5 mx62.cloud.vadesecure.com.; 5 mx61.cloud.vadesecure.com.; 5 mx64.cloud.vadesecure.com.; 5 mx63.cloud.vadesecure.com.
 archives.entreprises.gouv.fr,gouv.fr,Could not resolve host: archives.entreprises.gouv.fr,none
 ariane.annuaire.travail.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 ariane.sante.gouv.fr,gouv.fr,302,none
@@ -179,7 +179,7 @@ back.education.gouv.fr,gouv.fr,Could not resolve host: back.education.gouv.fr,no
 backend.catemsi.preprod.gendarmerie.interieur.gouv.fr,gouv.fr,Could not resolve host: backend.catemsi.preprod.gendarmerie.interieur.gouv.fr,none
 bafabafd.extranet.jeunesse-sports.gouv.fr,gouv.fr,Failed to connect to bafabafd.extranet.jeunesse-sports.gouv.fr port 443 after 36 ms: Could not connect to server,none
 balo.journal-officiel.gouv.fr,gouv.fr,Could not resolve host: balo.journal-officiel.gouv.fr,none
-banque-france.fr,banque-france.fr,,10 mail1.banque-france.fr.; 10 mail10.banque-france.fr.; 10 mail20.banque-france.fr.; 10 mail2.banque-france.fr.
+banque-france.fr,banque-france.fr,302,10 mail1.banque-france.fr.; 10 mail10.banque-france.fr.; 10 mail20.banque-france.fr.; 10 mail2.banque-france.fr.
 basse-normandie.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: basse-normandie.safire.fonction-publique.gouv.fr,none
 bdna.formation.social.gouv.fr,gouv.fr,Failed to connect to bdna.formation.social.gouv.fr port 443 after 43 ms: Could not connect to server,none
 bdna.integ.social.gouv.fr,gouv.fr,SSL certificate problem: unable to get local issuer certificate,none
@@ -204,7 +204,7 @@ blogs.economie.gouv.fr,gouv.fr,Could not resolve host: blogs.economie.gouv.fr,no
 bm.giped.gouv.fr,gouv.fr,Could not resolve host: bm.giped.gouv.fr,none
 bm.scrib.culture.gouv.fr,gouv.fr,Could not resolve host: bm.scrib.culture.gouv.fr,none
 bm35.giped.gouv.fr,gouv.fr,Could not resolve host: bm35.giped.gouv.fr,none
-bnf.fr,bnf.fr,,20 maputo.bnf.fr.
+bnf.fr,bnf.fr,301,20 maputo.bnf.fr.
 bo.etudiant.gouv.fr,gouv.fr,Could not resolve host: bo.etudiant.gouv.fr,none
 bojdc.sga.defense.gouv.fr,gouv.fr,Could not resolve host: bojdc.sga.defense.gouv.fr,none
 bourgogne-franche-comte.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: bourgogne-franche-comte.safire.fonction-publique.gouv.fr,none
@@ -245,13 +245,13 @@ cdn.diplomatie.gouv.fr,gouv.fr,SSL certificate problem: unable to get local issu
 cdn.tarifs-bancaires.gouv.fr,gouv.fr,Could not resolve host: cdn.tarifs-bancaires.gouv.fr,none
 cdp-pprd.agriculture.gouv.fr,gouv.fr,Could not resolve host: cdp-pprd.agriculture.gouv.fr,none
 cdp.agriculture.gouv.fr,gouv.fr,Could not resolve host: cdp.agriculture.gouv.fr,none
-cea.fr,cea.fr,,
-cefil.fr,cefil.fr,,100 volga.over-link.net.; 10 gange.over-link.net.
+cea.fr,cea.fr,301,
+cefil.fr,cefil.fr,200,100 volga.over-link.net.; 10 gange.over-link.net.
 centre-val-de-loire.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: centre-val-de-loire.safire.fonction-publique.gouv.fr,none
 centre.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: centre.safire.fonction-publique.gouv.fr,none
 centre.sante.gouv.fr,gouv.fr,Could not resolve host: centre.sante.gouv.fr,none
 centrepresse.dicod.defense.gouv.fr,gouv.fr,Could not resolve host: centrepresse.dicod.defense.gouv.fr,none
-cepii.fr,cepii.fr,,10 mx02.cloud.vadesecure.com.; 10 mx04.cloud.vadesecure.com.; 10 mx03.cloud.vadesecure.com.; 10 mx01.cloud.vadesecure.com.
+cepii.fr,cepii.fr,302,10 mx02.cloud.vadesecure.com.; 10 mx04.cloud.vadesecure.com.; 10 mx03.cloud.vadesecure.com.; 10 mx01.cloud.vadesecure.com.
 ceps.sante.gouv.fr,gouv.fr,302,none
 cerbere-authc.application.equipement.gouv.fr,gouv.fr,Could not resolve host: cerbere-authc.application.equipement.gouv.fr,none
 certificat-air.gouv.fr,gouv.fr,301,none
@@ -288,13 +288,13 @@ clic.personnes-agees.gouv.fr,gouv.fr,Could not resolve host: clic.personnes-agee
 cloud.creps-vichy.sports.gouv.fr,gouv.fr,Could not resolve host: cloud.creps-vichy.sports.gouv.fr,none
 cloud.giped.gouv.fr,gouv.fr,Could not resolve host: cloud.giped.gouv.fr,none
 cms-centra.in.phm.education.gouv.fr,gouv.fr,Resolving timed out after 3000 milliseconds,none
-cna-alimentation.fr,cna-alimentation.fr,,50 fb.mail.gandi.net.; 10 spool.mail.gandi.net.
+cna-alimentation.fr,cna-alimentation.fr,200,50 fb.mail.gandi.net.; 10 spool.mail.gandi.net.
 cnac.entreprises.gouv.fr,gouv.fr,301,none
 cnaopstat.sante.gouv.fr,gouv.fr,Could not resolve host: cnaopstat.sante.gouv.fr,none
 cncd.diplomatie.gouv.fr,gouv.fr,SSL: no alternative certificate subject name matches target hostname 'cncd.diplomatie.gouv.fr',none
 cncmfe.gouv.fr,gouv.fr,Could not resolve host: cncmfe.gouv.fr,none
-cned.fr,cned.fr,,10 smtp.cned.fr.
-cnes.fr,cnes.fr,,10 mx10.cnes.fr.; 10 mx20.cnes.fr.
+cned.fr,cned.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp.cned.fr.
+cnes.fr,cnes.fr,400,10 mx10.cnes.fr.; 10 mx20.cnes.fr.
 cnilab-admin.finances.gouv.fr,gouv.fr,Could not resolve host: cnilab-admin.finances.gouv.fr,none
 cnilab-stats.finances.gouv.fr,gouv.fr,Could not resolve host: cnilab-stats.finances.gouv.fr,none
 cnilab.finances.gouv.fr,gouv.fr,Could not resolve host: cnilab.finances.gouv.fr,none
@@ -304,7 +304,7 @@ cnilabrec.finances.gouv.fr,gouv.fr,Could not resolve host: cnilabrec.finances.go
 cnitaat.sante.gouv.fr,gouv.fr,Could not resolve host: cnitaat.sante.gouv.fr,none
 cnmosib.dirisi.defense.gouv.fr,gouv.fr,Resolving timed out after 3001 milliseconds,none
 cnmosis.dirisi.defense.gouv.fr,gouv.fr,Could not resolve host: cnmosis.dirisi.defense.gouv.fr,none
-cnmss.fr,cnmss.fr,,10 prolix.cnmss.fr.; 20 prolix-2.cnmss.fr.
+cnmss.fr,cnmss.fr,ConnectException,10 prolix.cnmss.fr.; 20 prolix-2.cnmss.fr.
 cntdf.dgfip.finances.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 coleor.pv.agriculture.gouv.fr,gouv.fr,Could not resolve host: coleor.pv.agriculture.gouv.fr,none
 collaboratif.intranet.social.gouv.fr,gouv.fr,Resolving timed out after 3000 milliseconds,none
@@ -404,7 +404,7 @@ ddcspp68.sante.gouv.fr,gouv.fr,Connection timed out after 3001 milliseconds,none
 ddm.gouv.fr,gouv.fr,Could not resolve host: ddm.gouv.fr,none
 deb.douane.finances.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 declaration.forages-domestiques.gouv.fr,gouv.fr,Could not resolve host: declaration.forages-domestiques.gouv.fr,none
-defense-mobilite.fr,defense-mobilite.fr,,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
+defense-mobilite.fr,defense-mobilite.fr,HttpConnectTimeoutException: HTTP connect timed out,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
 defense.gouv.fr,gouv.fr,301,none
 defi.douane.gouv.fr,gouv.fr,Could not resolve host: defi.douane.gouv.fr,none
 demande-logement-social.ecole.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: demande-logement-social.ecole.developpement-durable.gouv.fr,none
@@ -467,13 +467,13 @@ dfsfdsfdsgdfgd.pprod-consult.etalab.gouv.fr,gouv.fr,Could not resolve host: dfsf
 dgcs-misi.social.gouv.fr,gouv.fr,Could not resolve host: dgcs-misi.social.gouv.fr,none
 dge-et-vous.entreprises.gouv.fr,gouv.fr,Could not resolve host: dge-et-vous.entreprises.gouv.fr,none
 dgefp-sid.emploi.gouv.fr,gouv.fr,Could not resolve host: dgefp-sid.emploi.gouv.fr,none
-dgesip.fr,dgesip.fr,,1 mx4.mail.ovh.net.; 10 mx3.mail.ovh.net.
+dgesip.fr,dgesip.fr,ConnectException,1 mx4.mail.ovh.net.; 10 mx3.mail.ovh.net.
 dgs-urgent.sante.gouv.fr,gouv.fr,Could not resolve host: dgs-urgent.sante.gouv.fr,none
 dgs-urgent2.sante.gouv.fr,gouv.fr,Could not resolve host: dgs-urgent2.sante.gouv.fr,none
 dgtresor.gouv.fr,gouv.fr,Could not resolve host: dgtresor.gouv.fr,none
 dicod.defense.gouv.fr,gouv.fr,Could not resolve host: dicod.defense.gouv.fr,none
 dihomed.valid.intranet.social.gouv.fr,gouv.fr,Could not resolve host: dihomed.valid.intranet.social.gouv.fr,none
-dilcrah.fr,dilcrah.fr,,none
+dilcrah.fr,dilcrah.fr,301,none
 diplome.gouv.fr,gouv.fr,302,none
 dmp.gouv.fr,gouv.fr,Could not resolve host: dmp.gouv.fr,none
 dms-siv.interieur.gouv.fr,gouv.fr,Could not resolve host: dms-siv.interieur.gouv.fr,none
@@ -485,7 +485,7 @@ dom.projet.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: dom.pro
 dom.projet.din.developpement-durable.gouv.fr,gouv.fr,200,none
 dom.projets.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: dom.projets.developpement-durable.gouv.fr,none
 dom.projets.din.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: dom.projets.din.developpement-durable.gouv.fr,none
-dondorganes.fr,dondorganes.fr,,100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.
+dondorganes.fr,dondorganes.fr,308,100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.
 dossier.guide-victimes.gouv.fr,gouv.fr,Could not resolve host: dossier.guide-victimes.gouv.fr,none
 douane.gouv.fr,gouv.fr,Could not resolve host: douane.gouv.fr,30 mail.douane.gouv.fr.
 dpma.agriculture.gouv.fr,gouv.fr,Could not resolve host: dpma.agriculture.gouv.fr,none
@@ -503,7 +503,7 @@ e-learning.ira-lyon.gouv.fr,gouv.fr,Could not resolve host: e-learning.ira-lyon.
 e-learning.ira-metz.gouv.fr,gouv.fr,SSL certificate problem: certificate has expired,none
 e-learning.ira-nantes.gouv.fr,gouv.fr,Could not resolve host: e-learning.ira-nantes.gouv.fr,none
 e-scaleport.application.developpement-durable.gouv.fr,gouv.fr,SSL: no alternative certificate subject name matches target hostname 'e-scaleport.application.developpement-durable.gouv.fr',none
-e-socialdesarmees.fr,e-socialdesarmees.fr,,10 mx3.mail.ovh.net.; 1 mx4.mail.ovh.net.
+e-socialdesarmees.fr,e-socialdesarmees.fr,301,10 mx3.mail.ovh.net.; 1 mx4.mail.ovh.net.
 ea.travail.gouv.fr,gouv.fr,Could not resolve host: ea.travail.gouv.fr,none
 eap-med-q.ssim.aviation-civile.gouv.fr,gouv.fr,Resolving timed out after 3000 milliseconds,none
 eap.agriculture.ader.gouv.fr,gouv.fr,Could not resolve host: eap.agriculture.ader.gouv.fr,none
@@ -516,21 +516,21 @@ echanges.finances.gouv.fr,gouv.fr,Could not resolve host: echanges.finances.gouv
 echanges.sante.gouv.fr,gouv.fr,Could not resolve host: echanges.sante.gouv.fr,none
 ecoagri-pprd.agriculture.gouv.fr,gouv.fr,Could not resolve host: ecoagri-pprd.agriculture.gouv.fr,none
 ecoagri.agriculture.gouv.fr,gouv.fr,Could not resolve host: ecoagri.agriculture.gouv.fr,none
-ecole-air-espace.fr,ecole-air-espace.fr,,0 ecoleairespace-fr01cc.mail.protection.outlook.com.
+ecole-air-espace.fr,ecole-air-espace.fr,301,0 ecoleairespace-fr01cc.mail.protection.outlook.com.
 ecole.marches-publics.gouv.fr,gouv.fr,Could not resolve host: ecole.marches-publics.gouv.fr,none
-ecoledespupillesdelair.fr,ecoledespupillesdelair.fr,,0 mail.ecoledespupillesdelair.fr.
+ecoledespupillesdelair.fr,ecoledespupillesdelair.fr,200,0 mail.ecoledespupillesdelair.fr.
 ecologie.gouv.fr,gouv.fr,Could not resolve host: ecologie.gouv.fr,none
 economie.gouv.fr,gouv.fr,403,none
-ecpad.fr,ecpad.fr,,100 mx.ecpad.fr.; 10 mx.ecpad.fr.
+ecpad.fr,ecpad.fr,301,100 mx.ecpad.fr.; 10 mx.ecpad.fr.
 ector.sante.gouv.fr,gouv.fr,Could not resolve host: ector.sante.gouv.fr,none
 edito.integration.france-visas.gouv.fr,gouv.fr,Could not resolve host: edito.integration.france-visas.gouv.fr,none
 edroh.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: edroh.developpement-durable.gouv.fr,none
-education.fr,education.fr,,10 mx02.phm.education.gouv.fr.; 0 mx01.phm.education.gouv.fr.
+education.fr,education.fr,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx02.phm.education.gouv.fr.; 0 mx01.phm.education.gouv.fr.
 educonnect.education.gouv.fr,gouv.fr,Could not resolve host: educonnect.education.gouv.fr,none
 educonnect.phm.education.gouv.fr,gouv.fr,Could not resolve host: educonnect.phm.education.gouv.fr,none
 ee-igc.agriculture.gouv.fr,gouv.fr,Could not resolve host: ee-igc.agriculture.gouv.fr,none
 ee.igc.agriculture.gouv.fr,gouv.fr,Could not resolve host: ee.igc.agriculture.gouv.fr,none
-eetaa722.fr,eetaa722.fr,,100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.
+eetaa722.fr,eetaa722.fr,200,100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.
 efb-aa-admin.defense.gouv.fr,gouv.fr,Could not resolve host: efb-aa-admin.defense.gouv.fr,none
 efb-aa-doc.defense.gouv.fr,gouv.fr,Could not resolve host: efb-aa-doc.defense.gouv.fr,none
 eformation.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: eformation.developpement-durable.gouv.fr,none
@@ -702,7 +702,7 @@ forum.etalab.gouv.fr,gouv.fr,Could not resolve host: forum.etalab.gouv.fr,none
 forum2.etalab.gouv.fr,gouv.fr,Could not resolve host: forum2.etalab.gouv.fr,none
 forums-pprd.agricoll.agriculture.gouv.fr,gouv.fr,Could not resolve host: forums-pprd.agricoll.agriculture.gouv.fr,none
 forums.agricoll.agriculture.gouv.fr,gouv.fr,Could not resolve host: forums.agricoll.agriculture.gouv.fr,none
-francearchives.fr,francearchives.fr,,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
+francearchives.fr,francearchives.fr,301,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
 franche-comte.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: franche-comte.safire.fonction-publique.gouv.fr,none
 ftp.journal-officiel.gouv.fr,gouv.fr,Could not resolve host: ftp.journal-officiel.gouv.fr,none
 fuseki-test.finances.gouv.fr,gouv.fr,Could not resolve host: fuseki-test.finances.gouv.fr,none
@@ -743,7 +743,7 @@ gocartes.social.gouv.fr,gouv.fr,Could not resolve host: gocartes.social.gouv.fr,
 gocartes.valid.social.gouv.fr,gouv.fr,Could not resolve host: gocartes.valid.social.gouv.fr,none
 gospel-dadsu.in.phm.education.gouv.fr,gouv.fr,Could not resolve host: gospel-dadsu.in.phm.education.gouv.fr,none
 gospel.in.phm.education.gouv.fr,gouv.fr,Could not resolve host: gospel.in.phm.education.gouv.fr,none
-gouv.fr,gouv.fr,,none
+gouv.fr,gouv.fr,ConnectException,none
 gouvernement-et-citoyens.consultation.etalab.gouv.fr,gouv.fr,Could not resolve host: gouvernement-et-citoyens.consultation.etalab.gouv.fr,none
 gouvernement-ouvert.etalab.gouv.fr,gouv.fr,Could not resolve host: gouvernement-ouvert.etalab.gouv.fr,none
 grand-est.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: grand-est.safire.fonction-publique.gouv.fr,none
@@ -756,7 +756,7 @@ habilitation-siv.interieur.gouv.fr,gouv.fr,200,none
 harmonia.logement.gouv.fr,gouv.fr,Could not resolve host: harmonia.logement.gouv.fr,none
 haute-normandie.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: haute-normandie.safire.fonction-publique.gouv.fr,none
 hauts-de-france.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: hauts-de-france.safire.fonction-publique.gouv.fr,none
-hcsp.fr,hcsp.fr,,10 mail.hcsp.fr.
+hcsp.fr,hcsp.fr,SSLHandshakeException: Remote host terminated the handshake,10 mail.hcsp.fr.
 hdv.enac.aviation-civile.gouv.fr,gouv.fr,Could not resolve host: hdv.enac.aviation-civile.gouv.fr,none
 heracles-rec.economie.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 heracles.economie.gouv.fr,gouv.fr,Could not resolve host: heracles.economie.gouv.fr,none
@@ -782,7 +782,7 @@ idpstub-dj.preprod.ij.justice.gouv.fr,gouv.fr,Could not resolve host: idpstub-dj
 idpstub-gn.preprod.ij.justice.gouv.fr,gouv.fr,Could not resolve host: idpstub-gn.preprod.ij.justice.gouv.fr,none
 idpstub-pn.preprod.ij.justice.gouv.fr,gouv.fr,Could not resolve host: idpstub-pn.preprod.ij.justice.gouv.fr,none
 idpstub.preprod.ij.intranet.justice.gouv.fr,gouv.fr,Could not resolve host: idpstub.preprod.ij.intranet.justice.gouv.fr,none
-ifremer.fr,ifremer.fr,,
+ifremer.fr,ifremer.fr,302,
 iga-collab.interieur.gouv.fr,gouv.fr,Could not resolve host: iga-collab.interieur.gouv.fr,none
 igc-dpma.minefi.gouv.fr,gouv.fr,Could not resolve host: https,none
 igc-gestion.application.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: igc-gestion.application.developpement-durable.gouv.fr,none
@@ -790,8 +790,8 @@ igc.agriculture.gouv.fr,gouv.fr,Could not resolve host: igc.agriculture.gouv.fr,
 igc.application.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: igc.application.developpement-durable.gouv.fr,none
 igc.dgtresor.gouv.fr,gouv.fr,Could not resolve host: igc.dgtresor.gouv.fr,none
 igcrevocation.sante.gouv.fr,gouv.fr,Could not resolve host: igcrevocation.sante.gouv.fr,none
-igesa.fr,igesa.fr,,0 igesa-fr.mail.protection.outlook.com.
-ihedn.fr,ihedn.fr,,5 ihedn.mailinblack.com.; 100 mx0.mailinblack.com.
+igesa.fr,igesa.fr,301,0 igesa-fr.mail.protection.outlook.com.
+ihedn.fr,ihedn.fr,200,5 ihedn.mailinblack.com.; 100 mx0.mailinblack.com.
 ile-de-france.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: ile-de-france.safire.fonction-publique.gouv.fr,none
 iliade-dgris.defense.gouv.fr,gouv.fr,Could not resolve host: iliade-dgris.defense.gouv.fr,none
 imap.defense.gouv.fr,gouv.fr,Could not resolve host: imap.defense.gouv.fr,none
@@ -807,14 +807,14 @@ indexa2-test.acces.agriculture.gouv.fr,gouv.fr,Could not resolve host: indexa2-t
 indexa2.acces.agriculture.gouv.fr,gouv.fr,Could not resolve host: indexa2.acces.agriculture.gouv.fr,none
 info-ctrl.agriculture.gouv.fr,gouv.fr,SSL certificate problem: unable to get local issuer certificate,none
 info-dev.agriculture.gouv.fr,gouv.fr,SSL certificate problem: unable to get local issuer certificate,none
-info-militaire.fr,info-militaire.fr,,10 mx00.ionos.fr.; 10 mx01.ionos.fr.
+info-militaire.fr,info-militaire.fr,400,10 mx00.ionos.fr.; 10 mx01.ionos.fr.
 info-pprd.agriculture.gouv.fr,gouv.fr,SSL certificate problem: unable to get local issuer certificate,none
 info.agriculture.gouv.fr,gouv.fr,Could not resolve host: info.agriculture.gouv.fr,none
 infocentre.irhen.in.phm.education.gouv.fr,gouv.fr,Could not resolve host: infocentre.irhen.in.phm.education.gouv.fr,none
 infocentredomaine.dgfip.finances.gouv.fr,gouv.fr,301,none
 inforetraite.finances.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 informaticien.intranet.sante.gouv.fr,gouv.fr,Could not resolve host: informaticien.intranet.sante.gouv.fr,none
-inria.fr,inria.fr,,10 mail3-smtp-sop.national.inria.fr.; 10 mail2-smtp-roc.national.inria.fr.
+inria.fr,inria.fr,301,10 mail3-smtp-sop.national.inria.fr.; 10 mail2-smtp-roc.national.inria.fr.
 inscription-ira.fonction-publique.gouv.fr,gouv.fr,SSL: no alternative certificate subject name matches target hostname 'inscription-ira.fonction-publique.gouv.fr',none
 inscription.cespplussur.interieur.gouv.fr,gouv.fr,200,none
 inscription.sante.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
@@ -822,8 +822,8 @@ inscriptionadm.sante.gouv.fr,gouv.fr,Connection timed out after 3002 millisecond
 inscriptionpart.impots.gouv.fr,gouv.fr,Could not resolve host: inscriptionpart.impots.gouv.fr,none
 inscriptionpro.impots.gouv.fr,gouv.fr,302,none
 inscriptions.creps-vichy.sports.gouv.fr,gouv.fr,Could not resolve host: inscriptions.creps-vichy.sports.gouv.fr,none
-insee.fr,insee.fr,,30 heimdall2.insee.fr.; 20 freyja.insee.fr.; 10 heimdall.insee.fr.; 40 freyja2.insee.fr.
-insep.fr,insep.fr,,20 vade-mx-eu-fallback01.hornetsecurity.com.; 10 vade-mx-fr02.hornetsecurity.com.; 20 vade-mx-eu-fallback02.hornetsecurity.com.; 10 vade-mx-fr01.hornetsecurity.com.
+insee.fr,insee.fr,302,30 heimdall2.insee.fr.; 20 freyja.insee.fr.; 10 heimdall.insee.fr.; 40 freyja2.insee.fr.
+insep.fr,insep.fr,SSLHandshakeException: Remote host terminated the handshake,20 vade-mx-eu-fallback01.hornetsecurity.com.; 10 vade-mx-fr02.hornetsecurity.com.; 20 vade-mx-eu-fallback02.hornetsecurity.com.; 10 vade-mx-fr01.hornetsecurity.com.
 inspire.beta.gouv.fr,gouv.fr,Could not resolve host: inspire.beta.gouv.fr,none
 inspire.data.gouv.fr,gouv.fr,Could not resolve host: inspire.data.gouv.fr,none
 institu.referendum.interieur.gouv.fr,gouv.fr,Could not resolve host: institu.referendum.interieur.gouv.fr,none
@@ -841,15 +841,15 @@ intranet.dsac-so.aviation-civile.gouv.fr,gouv.fr,Could not resolve host: intrane
 intranet.jeunesse-sports.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 intranet2.dgtresor.gouv.fr,gouv.fr,Could not resolve host: intranet2.dgtresor.gouv.fr,none
 intranet3.dgtresor.gouv.fr,gouv.fr,Could not resolve host: intranet3.dgtresor.gouv.fr,none
-invalides.fr,invalides.fr,,5 heimdall.invalides.fr.; 10 mail.invalides.fr.
+invalides.fr,invalides.fr,200,5 heimdall.invalides.fr.; 10 mail.invalides.fr.
 inventaire.cncp.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
 investissement-hospitalier.sante.gouv.fr,gouv.fr,Could not resolve host: investissement-hospitalier.sante.gouv.fr,none
 ira-documentation.gouv.fr,gouv.fr,Could not resolve host: ira-documentation.gouv.fr,none
 ira-lille.gouv.fr,gouv.fr,Could not resolve host: ira-lille.gouv.fr,none
-ird.fr,ird.fr,,10 mx2.relay.renater.fr.; 10 mx1.relay.renater.fr.
+ird.fr,ird.fr,302,10 mx2.relay.renater.fr.; 10 mx1.relay.renater.fr.
 iriss.sirh.aviation-civile.gouv.fr,gouv.fr,Could not resolve host: iriss.sirh.aviation-civile.gouv.fr,none
 irisv2.sante.gouv.fr,gouv.fr,Connection timed out after 3002 milliseconds,none
-irsem.fr,irsem.fr,,10 mx00.ionos.fr.; 10 mx01.ionos.fr.
+irsem.fr,irsem.fr,302,10 mx00.ionos.fr.; 10 mx01.ionos.fr.
 isis.telepac.agriculture.gouv.fr,gouv.fr,Resolving timed out after 3000 milliseconds,none
 isis1.telepac.agriculture.gouv.fr,gouv.fr,Could not resolve host: isis1.telepac.agriculture.gouv.fr,none
 isis2.telepac.agriculture.gouv.fr,gouv.fr,301,none
@@ -1087,7 +1087,7 @@ messervices.etudiant.gouv.fr,gouv.fr,Could not resolve host: messervices.etudian
 messie-babylon.justice.gouv.fr,gouv.fr,Could not resolve host: messie-babylon.justice.gouv.fr,none
 metal.mes-aides.gouv.fr,gouv.fr,Could not resolve host: metal.mes-aides.gouv.fr,none
 midi-pyrenees.safire.fonction-publique.gouv.fr,gouv.fr,Could not resolve host: midi-pyrenees.safire.fonction-publique.gouv.fr,none
-minint.fr,minint.fr,,5 mx.mailbox.orange-business.com.
+minint.fr,minint.fr,ConnectException,5 mx.mailbox.orange-business.com.
 ministere.sante.gouv.fr,gouv.fr,Could not resolve host: ministere.sante.gouv.fr,none
 mioga-test.finances.gouv.fr,gouv.fr,Could not resolve host: mioga-test.finances.gouv.fr,none
 mioga.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: mioga.developpement-durable.gouv.fr,none
@@ -1126,11 +1126,11 @@ moselle.sit.gouv.fr,gouv.fr,Could not resolve host: moselle.sit.gouv.fr,none
 motivaction.beta.gouv.fr,gouv.fr,Could not resolve host: motivaction.beta.gouv.fr,none
 mpa.dmp.gouv.fr,gouv.fr,Could not resolve host: mpa.dmp.gouv.fr,none
 mrsp.finances.gouv.fr,gouv.fr,Could not resolve host: mrsp.finances.gouv.fr,none
-msa.fr,msa.fr,,10 msa-fr.mail.protection.outlook.com.
+msa.fr,msa.fr,301,10 msa-fr.mail.protection.outlook.com.
 mss.intranet.social.gouv.fr,gouv.fr,Could not resolve host: mss.intranet.social.gouv.fr,none
 msti.travail.gouv.fr,gouv.fr,Could not resolve host: msti.travail.gouv.fr,none
 mtest.melissa.bercy.gouv.fr,gouv.fr,Could not resolve host: mtest.melissa.bercy.gouv.fr,none
-musee-armee.fr,musee-armee.fr,,0 museearmee-fr01c.mail.protection.outlook.com.
+musee-armee.fr,musee-armee.fr,307,0 museearmee-fr01c.mail.protection.outlook.com.
 mzero.melissa.bercy.gouv.fr,gouv.fr,Could not resolve host: mzero.melissa.bercy.gouv.fr,none
 nacre.emploi.gouv.fr,gouv.fr,302,none
 nacre.finances.gouv.fr,gouv.fr,Could not resolve host: nacre.finances.gouv.fr,none
@@ -1184,18 +1184,18 @@ olympe.bercy.gouv.fr,gouv.fr,Could not resolve host: olympe.bercy.gouv.fr,none
 olympe.finances.gouv.fr,gouv.fr,Connection timed out after 3003 milliseconds,none
 olympe.ira-lyon.gouv.fr,gouv.fr,Could not resolve host: olympe.ira-lyon.gouv.fr,none
 olympe.sante-sports.gouv.fr,gouv.fr,Could not resolve host: olympe.sante-sports.gouv.fr,none
-onac-vg.fr,onac-vg.fr,,10 mail.mymail.eu.com.
+onac-vg.fr,onac-vg.fr,200,10 mail.mymail.eu.com.
 oncfs.gouv.fr,gouv.fr,Could not resolve host: oncfs.gouv.fr,none
 oned.gouv.fr,gouv.fr,Could not resolve host: oned.gouv.fr,none
 onpe.gouv.fr,gouv.fr,Could not resolve host: onpe.gouv.fr,none
-onpv.fr,onpv.fr,,none
+onpv.fr,onpv.fr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching onpv.fr found.,none
 openacademie.beta.gouv.fr,gouv.fr,301,none
 operateur.catemsi.preprod.gendarmerie.interieur.gouv.fr,gouv.fr,Could not resolve host: operateur.catemsi.preprod.gendarmerie.interieur.gouv.fr,none
 opm.justice.gouv.fr,gouv.fr,200,none
 optionsfoncieresdge.dgfip.finances.gouv.fr,gouv.fr,Could not resolve host: optionsfoncieresdge.dgfip.finances.gouv.fr,none
 opush-pprd.agricoll.agriculture.gouv.fr,gouv.fr,Could not resolve host: opush-pprd.agricoll.agriculture.gouv.fr,none
 opush.agricoll.agriculture.gouv.fr,gouv.fr,Could not resolve host: opush.agricoll.agriculture.gouv.fr,none
-oqali.fr,oqali.fr,,0 mx1.relay.renater.fr.; 0 mx2.relay.renater.fr.
+oqali.fr,oqali.fr,301,0 mx1.relay.renater.fr.; 0 mx2.relay.renater.fr.
 orassamis.extranet.jeunesse-sports.gouv.fr,gouv.fr,Could not resolve host: orassamis.extranet.jeunesse-sports.gouv.fr,none
 orassamis.formation.jeunesse-sports.gouv.fr,gouv.fr,Could not resolve host: orassamis.formation.jeunesse-sports.gouv.fr,none
 orassamis.valid.extranet.jeunesse-sports.gouv.fr,gouv.fr,Could not resolve host: orassamis.valid.extranet.jeunesse-sports.gouv.fr,none
@@ -1203,7 +1203,7 @@ organisme-oceane.aviation-civile.gouv.fr,gouv.fr,Could not resolve host: organis
 orgpub-adresse.data.gouv.fr,gouv.fr,Could not resolve host: orgpub-adresse.data.gouv.fr,none
 orhep.sante.gouv.fr,gouv.fr,Could not resolve host: orhep.sante.gouv.fr,none
 orhep.valid.sante.gouv.fr,gouv.fr,Could not resolve host: orhep.valid.sante.gouv.fr,none
-orientation-pour-tous.fr,orientation-pour-tous.fr,,50 fb.mail.gandi.net.; 10 spool.mail.gandi.net.
+orientation-pour-tous.fr,orientation-pour-tous.fr,301,50 fb.mail.gandi.net.; 10 spool.mail.gandi.net.
 orion-pprd.agriculture.gouv.fr,gouv.fr,Could not resolve host: orion-pprd.agriculture.gouv.fr,none
 orion.agriculture.gouv.fr,gouv.fr,Could not resolve host: orion.agriculture.gouv.fr,none
 orion.dieccte.gouv.fr,gouv.fr,Could not resolve host: orion.dieccte.gouv.fr,none
@@ -1225,8 +1225,8 @@ paco.mysites.intranet.social.gouv.fr,gouv.fr,Could not resolve host: paco.mysite
 pages-blanches.intranet.sante.gouv.fr,gouv.fr,Could not resolve host: pages-blanches.intranet.sante.gouv.fr,none
 palmex.sante.gouv.fr,gouv.fr,Could not resolve host: palmex.sante.gouv.fr,none
 palmexjs.sante-sports.gouv.fr,gouv.fr,Could not resolve host: palmexjs.sante-sports.gouv.fr,none
-parcoursup.fr,parcoursup.fr,,0 mail.parcoursup.fr.
-parlons-fin-de-vie.fr,parlons-fin-de-vie.fr,,1 mx4.mail.ovh.net.; 10 mx3.mail.ovh.net.
+parcoursup.fr,parcoursup.fr,200,0 mail.parcoursup.fr.
+parlons-fin-de-vie.fr,parlons-fin-de-vie.fr,301,1 mx4.mail.ovh.net.; 10 mx3.mail.ovh.net.
 partage-pprd.agricoll.agriculture.gouv.fr,gouv.fr,Could not resolve host: partage-pprd.agricoll.agriculture.gouv.fr,none
 partage.agricoll.agriculture.gouv.fr,gouv.fr,Could not resolve host: partage.agricoll.agriculture.gouv.fr,none
 partenaire.faeton.interieur.gouv.fr,gouv.fr,Could not resolve host: partenaire.faeton.interieur.gouv.fr,none
@@ -1558,7 +1558,7 @@ secoia-pprd.agriculture.gouv.fr,gouv.fr,Could not resolve host: secoia-pprd.agri
 secoia.agriculture.gouv.fr,gouv.fr,Could not resolve host: secoia.agriculture.gouv.fr,30 smtp2.secoia.agriculture.gouv.fr.; 10 smtp.secoia.agriculture.gouv.fr.; 20 smtp1.secoia.agriculture.gouv.fr.
 secours17.preprod.gendarmerie.interieur.gouv.fr,gouv.fr,Could not resolve host: secours17.preprod.gendarmerie.interieur.gouv.fr,none
 secure.gendarmerie.interieur.gouv.fr,gouv.fr,Could not resolve host: secure.gendarmerie.interieur.gouv.fr,none
-securite-sociale.fr,securite-sociale.fr,,0 securitesociale-fr02b.mail.protection.outlook.com.
+securite-sociale.fr,securite-sociale.fr,ConnectException,0 securitesociale-fr02b.mail.protection.outlook.com.
 sefe-guichet-test.finances.gouv.fr,gouv.fr,Could not resolve host: sefe-guichet-test.finances.gouv.fr,none
 sefe-guichet.finances.gouv.fr,gouv.fr,Could not resolve host: sefe-guichet.finances.gouv.fr,none
 sefe-test.finances.gouv.fr,gouv.fr,Could not resolve host: sefe-test.finances.gouv.fr,none
@@ -1568,7 +1568,7 @@ sem.din.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: sem.din.de
 semaphore.culture.gouv.fr,gouv.fr,Could not resolve host: semaphore.culture.gouv.fr,none
 sen-supervision.application.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: sen-supervision.application.developpement-durable.gouv.fr,none
 sen-supervision.application.equipement.gouv.fr,gouv.fr,Could not resolve host: sen-supervision.application.equipement.gouv.fr,none
-sengager.fr,sengager.fr,,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.
+sengager.fr,sengager.fr,301,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.
 sentry.data.gouv.fr,gouv.fr,Could not resolve host: sentry.data.gouv.fr,none
 sequence.culture.gouv.fr,gouv.fr,Could not resolve host: sequence.culture.gouv.fr,none
 sequoia.documentation.developpement-durable.gouv.fr,gouv.fr,Could not resolve host: sequoia.documentation.developpement-durable.gouv.fr,none

@@ -2,7 +2,7 @@ subdomain,parent_domain,http_status,mx
 1guf645oyuv.caixa.gov.br,gov.br,Could not resolve host: 1guf645oyuv.caixa.gov.br,none
 6fwt845pjtu-bmc.caixa.gov.br,gov.br,Could not resolve host: 6fwt845pjtu-bmc.caixa.gov.br,none
 aatrh.ima.sp.gov.br,gov.br,Could not resolve host: aatrh.ima.sp.gov.br,none
-ac.gov.br,ac.gov.br,,
+ac.gov.br,ac.gov.br,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,
 ac.rs.gov.br,gov.br,302,none
 acervomultimidia.inca.gov.br,gov.br,Could not resolve host: acervomultimidia.inca.gov.br,none
 acesso.eletrobras.gov.br,gov.br,Could not resolve host: acesso.eletrobras.gov.br,none
@@ -36,20 +36,20 @@ agf.campinas.sp.gov.br,gov.br,Connection timed out after 3000 milliseconds,none
 agricultura.gov.br,gov.br,200,10 cluster1.us.messagelabs.com.
 agu.gov.br,gov.br,302,none
 ajsm.campinas.sp.gov.br,gov.br,Could not resolve host: ajsm.campinas.sp.gov.br,none
-al.gov.br,al.gov.br,,
+al.gov.br,al.gov.br,ConnectException,
 al.rs.gov.br,gov.br,Could not resolve host: al.rs.gov.br,0 al-rs-gov-br.mail.protection.outlook.com.
 al.sp.gov.br,gov.br,Could not resolve host: al.sp.gov.br,none
 alcadadigital.caixa.gov.br,gov.br,Could not resolve host: alcadadigital.caixa.gov.br,none
 alexania.go.gov.br,gov.br,HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1),none
 alvarenga.mg.gov.br,gov.br,302,0 mia1-load.portalfacil.com.br.
-am.gov.br,am.gov.br,,
+am.gov.br,am.gov.br,ConnectException,
 ana.gov.br,gov.br,302,none
 analisador.tcm.ba.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
 ancoraweb.receita.fazenda.gov.br,gov.br,200,none
 aneel.gov.br,gov.br,403,none
 anteriores.rais.gov.br,gov.br,Could not resolve host: anteriores.rais.gov.br,none
 anywhere.eletrobras.gov.br,gov.br,Could not resolve host: anywhere.eletrobras.gov.br,none
-ap.gov.br,ap.gov.br,,
+ap.gov.br,ap.gov.br,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ap.gov.br found.,
 apbahia.ba.gov.br,gov.br,Could not resolve host: apbahia.ba.gov.br,none
 apl.sefaz.es.gov.br,gov.br,Connection timed out after 3001 milliseconds,none
 apl03.sefaz.al.gov.br,gov.br,Failed to connect to apl03.sefaz.al.gov.br port 443 after 1280 ms: Could not connect to server,none
@@ -195,7 +195,7 @@ ccd-ar.serpro.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
 ccd.serpro.gov.br,gov.br,SSL certificate problem: unable to get local issuer certificate,none
 ccd2.serpro.gov.br,gov.br,SSL certificate problem: unable to get local issuer certificate,none
 ccdhom.serpro.gov.br,gov.br,Connection timed out after 3001 milliseconds,none
-ce.gov.br,ce.gov.br,,
+ce.gov.br,ce.gov.br,403,
 cemope.vilavelha.es.gov.br,gov.br,Could not resolve host: cemope.vilavelha.es.gov.br,none
 ceprocamp.sp.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
 cert01.fazenda.sp.gov.br,gov.br,302,none
@@ -383,7 +383,7 @@ detran.sp.gov.br,gov.br,Connection timed out after 3001 milliseconds,none
 detran.to.gov.br,gov.br,Connection timed out after 3001 milliseconds,10 smtp.detran.to.gov.br.
 detrannet.es.gov.br,gov.br,TLS connect error: error:0A000126:SSL routines::unexpected eof while reading,none
 devapp.informs.conder.ba.gov.br,gov.br,Connection timed out after 3001 milliseconds,none
-df.gov.br,df.gov.br,,
+df.gov.br,df.gov.br,HttpConnectTimeoutException: HTTP connect timed out,
 dialin.defensoria.sp.gov.br,gov.br,Could not resolve host: dialin.defensoria.sp.gov.br,none
 dialin.eletronuclear.gov.br,gov.br,Could not resolve host: dialin.eletronuclear.gov.br,none
 diario-oficial.prudentopolis.pr.gov.br,gov.br,Could not resolve host: diario-oficial.prudentopolis.pr.gov.br,none
@@ -557,7 +557,7 @@ epm.fde.sp.gov.br,gov.br,Resolving timed out after 3000 milliseconds,none
 epo.sefaz.rs.gov.br,gov.br,Could not resolve host: epo.sefaz.rs.gov.br,none
 ergon.trtrio.gov.br,gov.br,Connection timed out after 3000 milliseconds,none
 erpts.sulgas.rs.gov.br,gov.br,Could not resolve host: erpts.sulgas.rs.gov.br,none
-es.gov.br,es.gov.br,,
+es.gov.br,es.gov.br,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,
 escola.tce.pe.gov.br,gov.br,Connection timed out after 3000 milliseconds,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
 escolasiasg.comprasnet.gov.br,gov.br,Could not resolve host: escolasiasg.comprasnet.gov.br,none
 escolavirtual.cgu.gov.br,gov.br,Could not resolve host: escolavirtual.cgu.gov.br,none
@@ -720,8 +720,8 @@ getran.detran.df.gov.br,gov.br,302,none
 gibraltar.serpro.gov.br,gov.br,Failed to connect to gibraltar.serpro.gov.br port 443 after 430 ms: Could not connect to server,none
 gipme.prodesp.sp.gov.br,gov.br,Could not resolve host: gipme.prodesp.sp.gov.br,none
 gis.informs.conder.ba.gov.br,gov.br,Resolving timed out after 3000 milliseconds,none
-go.gov.br,go.gov.br,,
-gov.br,gov.br,,0 .
+go.gov.br,go.gov.br,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching go.gov.br found.,
+gov.br,gov.br,302,0 .
 gov.caixa.gov.br,gov.br,Could not resolve host: gov.caixa.gov.br,none
 govconta.caixa.gov.br,gov.br,200,none
 grajau.ma.gov.br,gov.br,200,none
@@ -917,7 +917,7 @@ m.itaipu.gov.br,gov.br,Could not resolve host: m.itaipu.gov.br,none
 m.mailcetesb.sp.gov.br,gov.br,Could not resolve host: m.mailcetesb.sp.gov.br,none
 m.scy.corsan.rs.gov.br,gov.br,Could not resolve host: m.scy.corsan.rs.gov.br,none
 m.scy.hml.corsan.rs.gov.br,gov.br,Could not resolve host: m.scy.hml.corsan.rs.gov.br,none
-ma.gov.br,ma.gov.br,,
+ma.gov.br,ma.gov.br,HttpConnectTimeoutException: HTTP connect timed out,
 madagascar.tce.mg.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
 mail.al.ce.gov.br,gov.br,Resolving timed out after 3002 milliseconds,none
 mail.ana.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
@@ -965,7 +965,7 @@ meioambiente.mg.gov.br,gov.br,403,0 meioambiente-mg-gov-br.mail.protection.outlo
 metaframe.tj.rs.gov.br,gov.br,Could not resolve host: metaframe.tj.rs.gov.br,none
 metaframe2.tj.rs.gov.br,gov.br,Could not resolve host: metaframe2.tj.rs.gov.br,none
 metromail.metroweb.sp.gov.br,gov.br,Failed to connect to metromail.metroweb.sp.gov.br port 443 after 390 ms: Could not connect to server,none
-mg.gov.br,mg.gov.br,,
+mg.gov.br,mg.gov.br,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,
 minutacertificada.rs.gov.br,gov.br,Could not resolve host: minutacertificada.rs.gov.br,none
 misc.prefeitura.sp.gov.br,gov.br,200,none
 miweb.mpt.gov.br,gov.br,Resolving timed out after 3000 milliseconds,none
@@ -1000,8 +1000,8 @@ mprelsis01.mp.sp.gov.br,gov.br,Resolving timed out after 3000 milliseconds,none
 mptdigital.prt12.mpt.gov.br,gov.br,Resolving timed out after 3000 milliseconds,dig error
 mptdigital.prt15.mpt.gov.br,gov.br,Resolving timed out after 3000 milliseconds,none
 mptdigital.prt2.mpt.gov.br,gov.br,Resolving timed out after 3000 milliseconds,none
-ms.gov.br,ms.gov.br,,
-mt.gov.br,mt.gov.br,,
+ms.gov.br,ms.gov.br,ConnectException,
+mt.gov.br,mt.gov.br,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mt.gov.br found.,
 mte.gov.br,gov.br,SSL certificate problem: unable to get local issuer certificate,none
 mx.correio.es.gov.br,gov.br,302,none
 mx.vivaleite.sp.gov.br,gov.br,Could not resolve host: mx.vivaleite.sp.gov.br,none
@@ -1081,7 +1081,7 @@ owa.inmetro.gov.br,gov.br,Could not resolve host: owa.inmetro.gov.br,none
 owa2.eletrobras.gov.br,gov.br,Could not resolve host: owa2.eletrobras.gov.br,none
 p.dwrenach.denatran.serpro.gov.br,gov.br,Could not resolve host: p.dwrenach.denatran.serpro.gov.br,none
 p.dwrenainf.denatran.serpro.gov.br,gov.br,Could not resolve host: p.dwrenainf.denatran.serpro.gov.br,none
-pa.gov.br,pa.gov.br,,
+pa.gov.br,pa.gov.br,SSLHandshakeException: Remote host terminated the handshake,
 pad.cgu.gov.br,gov.br,Could not resolve host: pad.cgu.gov.br,none
 pae.sc.gov.br,gov.br,Connection timed out after 3001 milliseconds,10 smtp.sc.gov.br.
 pafwmail.chesf.gov.br,gov.br,Could not resolve host: pafwmail.chesf.gov.br,none
@@ -1092,12 +1092,12 @@ papers.consegi.gov.br,gov.br,Could not resolve host: papers.consegi.gov.br,none
 parobe.rs.gov.br,gov.br,301,none
 passare.bnb.gov.br,gov.br,403,none
 pauta.prr1.mpf.gov.br,gov.br,Resolving timed out after 3001 milliseconds,none
-pb.gov.br,pb.gov.br,,
+pb.gov.br,pb.gov.br,HttpConnectTimeoutException: HTTP connect timed out,
 pbh.gov.br,gov.br,307,none
 pcivil.rj.gov.br,gov.br,Could not resolve host: pcivil.rj.gov.br,none
 pcssp.campinas.sp.gov.br,gov.br,Connection timed out after 3001 milliseconds,none
 pdgrais.serpro.gov.br,gov.br,302,none
-pe.gov.br,pe.gov.br,,
+pe.gov.br,pe.gov.br,HttpConnectTimeoutException: HTTP connect timed out,
 ped.aneel.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
 pentaho.convenios.gov.br,gov.br,Could not resolve host: pentaho.convenios.gov.br,none
 pentaho.sinesp.gov.br,gov.br,Could not resolve host: pentaho.sinesp.gov.br,none
@@ -1110,7 +1110,7 @@ periodicos.capes.gov.br,gov.br,Failed to connect to periodicos.capes.gov.br port
 pes.planejamento.gov.br,gov.br,Could not resolve host: pes.planejamento.gov.br,none
 pg.inpa.gov.br,gov.br,Could not resolve host: pg.inpa.gov.br,none
 pgfn.gov.br,gov.br,Could not resolve host: pgfn.gov.br,none
-pi.gov.br,pi.gov.br,,
+pi.gov.br,pi.gov.br,ConnectException,
 piv.mp.rj.gov.br,gov.br,Could not resolve host: piv.mp.rj.gov.br,none
 pjf.mg.gov.br,gov.br,403,none
 planejamento.gov.br,gov.br,SSL certificate problem: unable to get local issuer certificate,none
@@ -1230,11 +1230,11 @@ rj.gov.br,gov.br,Could not resolve host: rj.gov.br,10 mx2.webmail.rj.gov.br.
 rj126.bndes.gov.br,gov.br,404,none
 rj8.bndes.gov.br,gov.br,302,none
 rm.ana.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
-rn.gov.br,rn.gov.br,,
-ro.gov.br,ro.gov.br,,
+rn.gov.br,rn.gov.br,HttpConnectTimeoutException: HTTP connect timed out,
+ro.gov.br,ro.gov.br,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ro.gov.br found.,
 rpc.tce.pr.gov.br,gov.br,Could not resolve host: rpc.tce.pr.gov.br,none
-rr.gov.br,rr.gov.br,,
-rs.gov.br,rs.gov.br,,
+rr.gov.br,rr.gov.br,ConnectException,
+rs.gov.br,rs.gov.br,302,
 s2caixa.caixa.gov.br,gov.br,403,none
 s2gpr.sefaz.ce.gov.br,gov.br,SSL certificate problem: self-signed certificate in certificate chain,none
 s2gprhomol.sefaz.ce.gov.br,gov.br,"curl: (60) SSL certificate problem: self-signed certificate in certificate chain More details here: https://curl.se/docs/sslcerts.html curl failed to verify the legitimacy of the server and therefore could not establish a secure connection to it. To learn more about this situation and how to fix it, please visit the webpage mentioned above.",none
@@ -1257,7 +1257,7 @@ saude.mg.gov.br,gov.br,301,none
 saude.policiamilitar.mg.gov.br,gov.br,"OpenSSL SSL_read: OpenSSL/3.5.3: error:0A000126:SSL routines::unexpected eof while reading, errno 0",none
 sayid.sulgas.rs.gov.br,gov.br,Could not resolve host: sayid.sulgas.rs.gov.br,none
 sbe.curitiba.pr.gov.br,gov.br,301,none
-sc.gov.br,sc.gov.br,,
+sc.gov.br,sc.gov.br,302,
 scedv-mre.serpro.gov.br,gov.br,Could not resolve host: scedv-mre.serpro.gov.br,none
 scedv.serpro.gov.br,gov.br,Could not resolve host: scedv.serpro.gov.br,none
 scg.aneel.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
@@ -1265,7 +1265,7 @@ scorpios.cmb.gov.br,gov.br,SSL certificate problem: unable to get local issuer c
 scr.aneel.gov.br,gov.br,Connection timed out after 3002 milliseconds,none
 scsg.fazenda.sp.gov.br,gov.br,Could not resolve host: scsg.fazenda.sp.gov.br,none
 sdn.sudene.gov.br,gov.br,Could not resolve host: sdn.sudene.gov.br,none
-se.gov.br,se.gov.br,,
+se.gov.br,se.gov.br,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,
 seade.gov.br,gov.br,403,none
 seai.am.gov.br,gov.br,Could not resolve host: seai.am.gov.br,10 mail.seai.am.gov.br.
 seaponline.sad.mt.gov.br,gov.br,SSL certificate problem: certificate has expired,none
@@ -1478,7 +1478,7 @@ sncr.serpro.gov.br,gov.br,403,none
 sncr1.serpro.gov.br,gov.br,SSL: no alternative certificate subject name matches target hostname 'sncr1.serpro.gov.br',none
 sngpc.anvisa.gov.br,gov.br,403,none
 sobwmail.chesf.gov.br,gov.br,Could not resolve host: sobwmail.chesf.gov.br,none
-sp.gov.br,sp.gov.br,,
+sp.gov.br,sp.gov.br,301,
 spe.barramansa.rj.gov.br,gov.br,Could not resolve host: spe.barramansa.rj.gov.br,none
 spe.itaguai.rj.gov.br,gov.br,302,none
 spe.macae.rj.gov.br,gov.br,302,none
@@ -1535,7 +1535,7 @@ tfs.aneel.gov.br,gov.br,403,none
 tgy64w74i567hklq-internetbanking.caixa.gov.br,gov.br,Connection timed out after 3001 milliseconds,none
 thema.metropole.rs.gov.br,gov.br,Could not resolve host: thema.metropole.rs.gov.br,none
 tj.pr.gov.br,gov.br,Could not resolve host: tj.pr.gov.br,none
-to.gov.br,to.gov.br,,
+to.gov.br,to.gov.br,HttpConnectTimeoutException: HTTP connect timed out,
 transparencia.mj.gov.br,gov.br,Recv failure: Connexion ré-initialisée par le correspondant,none
 traveler.prodesp.sp.gov.br,gov.br,Could not resolve host: traveler.prodesp.sp.gov.br,none
 traveler.redeexecutiva.sp.gov.br,gov.br,Could not resolve host: traveler.redeexecutiva.sp.gov.br,none

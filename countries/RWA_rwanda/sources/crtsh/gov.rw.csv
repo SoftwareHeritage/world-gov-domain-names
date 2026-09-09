@@ -190,7 +190,7 @@ gitegasector.gov.rw,Could not resolve host: gitegasector.gov.rw,none
 gltfp.minicom.gov.rw,Could not resolve host: gltfp.minicom.gov.rw,none
 gmis.gmo.gov.rw,200,none
 gmo.gov.rw,301,none
-gov.rw,,10 gateway.aos.rw.
+gov.rw,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 gateway.aos.rw.
 graduates.wda.gov.rw,Connection timed out after 3000 milliseconds,none
 gsb.stack.dev.risa.gov.rw,SSL: no alternative certificate subject name matches target hostname 'gsb.stack.dev.risa.gov.rw',none
 hec.gov.rw,301,none

@@ -34,33 +34,33 @@ alumni.cipet.gov.in,gov.in,200,none
 amaravati.gov.in,gov.in,Could not resolve host: amaravati.gov.in,none
 amc.mizoram.gov.in,gov.in,403,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
 anagrasarkalyan.gov.in,gov.in,200,0 anagrasarkalyan.gov.in.
-andaman.gov.in,andaman.gov.in,,
+andaman.gov.in,andaman.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 ansi.gov.in,gov.in,403,0 webmail.ansi.gov.in.
 antarang.icegate.gov.in,gov.in,200,none
 anyror.gujarat.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
 ap.gov.in,gov.in,Connection timed out after 3002 milliseconds,20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.
 apasp.meeseva.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 apbcl.ap.gov.in,gov.in,Connection timed out after 3002 milliseconds,dig error
-apcommercialtaxes.gov.in,apcommercialtaxes.gov.in,,
+apcommercialtaxes.gov.in,apcommercialtaxes.gov.in,ConnectException,
 apct.gov.in,gov.in,Resolving timed out after 3001 milliseconds,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
 apctcasmbx1.apcommercialtaxes.gov.in,gov.in,Could not resolve host: apctcasmbx1.apcommercialtaxes.gov.in,none
 apctcasmbx1.apct.gov.in,gov.in,Could not resolve host: apctcasmbx1.apct.gov.in,dig error
 apctcasmbx2.apcommercialtaxes.gov.in,gov.in,Could not resolve host: apctcasmbx2.apcommercialtaxes.gov.in,none
-apdcl.gov.in,apdcl.gov.in,,
+apdcl.gov.in,apdcl.gov.in,ConnectException,
 apdept.meeseva.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 apfinance.gov.in,gov.in,200,0 apfinance-gov-in.mail.protection.outlook.com.
-apgenco.gov.in,apgenco.gov.in,,
+apgenco.gov.in,apgenco.gov.in,200,
 apgepglq.apgenco.gov.in,gov.in,Could not resolve host: apgepglq.apgenco.gov.in,none
 aphrdi.ap.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 api.sewadwaar.rajasthan.gov.in,gov.in,Connection timed out after 3000 milliseconds,none
 apindustries.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 apit.ap.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
-aponline.gov.in,aponline.gov.in,,
+aponline.gov.in,aponline.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 app.aarogyasri.gov.in,gov.in,Resolving timed out after 3000 milliseconds,dig error
 app.umang.gov.in,gov.in,302,none
 apps.mgov.gov.in,gov.in,Could not resolve host: apps.mgov.gov.in,none
 apspsc.gov.in,gov.in,Connection timed out after 3000 milliseconds,none
-apsrtc.gov.in,apsrtc.gov.in,,
+apsrtc.gov.in,apsrtc.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 aptr-soi.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
 aptransco.gov.in,gov.in,Connection timed out after 3001 milliseconds,50 mx3.zoho.in.; 20 mx2.zoho.in.; 10 mx.zoho.in.
 aptsrv2excv1.aptransco.gov.in,gov.in,Could not resolve host: aptsrv2excv1.aptransco.gov.in,none
@@ -69,7 +69,7 @@ aquaptax.mcgm.gov.in,gov.in,302,none
 arstps.gov.in,gov.in,301,none
 arthvahini.maharashtra.gov.in,gov.in,Resolving timed out after 3000 milliseconds,dig error
 arthwahini.mahakosh.gov.in,gov.in,Could not resolve host: arthwahini.mahakosh.gov.in,none
-arunachalpradesh.gov.in,arunachalpradesh.gov.in,,
+arunachalpradesh.gov.in,arunachalpradesh.gov.in,200,
 arunachaltenders.gov.in,gov.in,200,none
 asp.meeseva.gov.in,gov.in,Could not resolve host: asp.meeseva.gov.in,none
 assam.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
@@ -181,7 +181,7 @@ cept.gov.in,gov.in,503,none
 cetonline.karnataka.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 cfms.apfinance.gov.in,gov.in,Could not resolve host: cfms.apfinance.gov.in,none
 cfms.telanganafin.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
-cg.gov.in,cg.gov.in,,
+cg.gov.in,cg.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 cgdigital.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 cgeprocurement.gov.in,gov.in,Could not resolve host: cgeprocurement.gov.in,none
 cgg.gov.in,gov.in,301,none
@@ -191,7 +191,7 @@ cgihk.gov.in,gov.in,403,none
 cgstate.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 cgvyapam.cgstate.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 chandigarh.eoffice.gov.in,gov.in,Could not resolve host: chandigarh.eoffice.gov.in,none
-chandigarh.gov.in,chandigarh.gov.in,,
+chandigarh.gov.in,chandigarh.gov.in,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,
 channels.aponline.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
 chatbot.keralapolice.gov.in,gov.in,SSL certificate problem: unable to get local issuer certificate,none
 chawngterd.mizoram.gov.in,gov.in,403,none
@@ -207,7 +207,7 @@ cloud.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 clt.karnataka.gov.in,gov.in,Connection timed out after 3000 milliseconds,none
 cm.telangana.gov.in,gov.in,Connection timed out after 3000 milliseconds,none
 cmdrf.kerala.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-cmkarnataka.gov.in,cmkarnataka.gov.in,,
+cmkarnataka.gov.in,cmkarnataka.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 cmo.kerala.gov.in,gov.in,200,none
 cmofficehry.gov.in,gov.in,SSL certificate problem: unable to get local issuer certificate,none
 cmonline.mizoram.gov.in,gov.in,403,none
@@ -348,8 +348,8 @@ dcsaiha.mizoram.gov.in,gov.in,403,none
 dcsem.gov.in,gov.in,SSL certificate problem: unable to get local issuer certificate,none
 dcserchhip.mizoram.gov.in,gov.in,403,none
 dcsolunglei.mizoram.gov.in,gov.in,403,none
-dd.gov.in,dd.gov.in,,
-ddd.gov.in,ddd.gov.in,,
+dd.gov.in,dd.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
+ddd.gov.in,ddd.gov.in,200,
 dded.gov.in,gov.in,Failed to connect to dded.gov.in port 443 after 591 ms: Could not connect to server,none
 ddpc.mcgm.gov.in,gov.in,Could not resolve host: ddpc.mcgm.gov.in,none
 ddpcp.mcgm.gov.in,gov.in,Could not resolve host: ddpcp.mcgm.gov.in,none
@@ -357,7 +357,7 @@ ddpr.mcgm.gov.in,gov.in,Could not resolve host: ddpr.mcgm.gov.in,none
 decu.eprocure.isro.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
 dee.tnschools.gov.in,gov.in,Could not resolve host: dee.tnschools.gov.in,none
 delgov.eoffice.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-delhi.gov.in,delhi.gov.in,,
+delhi.gov.in,delhi.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 delhiexcise.gov.in,gov.in,Could not resolve host: delhiexcise.gov.in,none
 delhipolice.gov.in,gov.in,404,none
 demo.eproc.bihar.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
@@ -395,7 +395,7 @@ dit.mp.gov.in,gov.in,Could not resolve host: dit.mp.gov.in,none
 djb.gov.in,gov.in,302,none
 dmr.mizoram.gov.in,gov.in,Could not resolve host: dmr.mizoram.gov.in,none
 dmsgms01.icegate.gov.in,gov.in,Could not resolve host: dmsgms01.icegate.gov.in,none
-dnh.gov.in,dnh.gov.in,,
+dnh.gov.in,dnh.gov.in,200,
 doj.eoffice.gov.in,gov.in,Could not resolve host: doj.eoffice.gov.in,none
 dol.eoffice.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 dolr.eoffice.gov.in,gov.in,Connection timed out after 3000 milliseconds,none
@@ -412,9 +412,9 @@ drt.gov.in,gov.in,Could not resolve host: drt.gov.in,none
 dsda.gov.in,gov.in,Could not resolve host: dsda.gov.in,none
 dse.tnschools.gov.in,gov.in,Could not resolve host: dse.tnschools.gov.in,none
 dst.mizoram.gov.in,gov.in,Could not resolve host: dst.mizoram.gov.in,none
-dtemaharashtra.gov.in,dtemaharashtra.gov.in,,
-dvat.gov.in,dvat.gov.in,,
-dvet.gov.in,dvet.gov.in,,
+dtemaharashtra.gov.in,dtemaharashtra.gov.in,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching dtemaharashtra.gov.in found.,
+dvat.gov.in,dvat.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
+dvet.gov.in,dvet.gov.in,301,
 dwarpal.sebi.gov.in,gov.in,Could not resolve host: dwarpal.sebi.gov.in,none
 dwsspunjab.gov.in,gov.in,Could not resolve host: dwsspunjab.gov.in,none
 dyrs.nagaland.gov.in,gov.in,Could not resolve host: dyrs.nagaland.gov.in,none
@@ -577,7 +577,7 @@ gjtc.mizoram.gov.in,gov.in,403,none
 gmhss.mizoram.gov.in,gov.in,403,none
 gnssusermeet2015.isac.gov.in,gov.in,Could not resolve host: gnssusermeet2015.isac.gov.in,none
 goa.gov.in,gov.in,301,none
-goadmg.gov.in,goadmg.gov.in,,
+goadmg.gov.in,goadmg.gov.in,ConnectException,
 goaelectricity.gov.in,gov.in,SSL certificate problem: unable to get local issuer certificate,none
 goaf.gov.in,gov.in,Could not resolve host: goaf.gov.in,0 mailgw.nic.in.
 goaonline.gov.in,gov.in,404,none
@@ -585,7 +585,7 @@ goaprisons.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 goaspcb.gov.in,gov.in,Operation timed out after 3001 milliseconds with 0 bytes received,none
 goavidhansabha.gov.in,gov.in,200,none
 goawrd.gov.in,gov.in,200,none
-gov.in,gov.in,,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
+gov.in,gov.in,ConnectException,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
 govtkolasibcollege.mizoram.gov.in,gov.in,403,none
 govtprocurement.delhi.gov.in,gov.in,200,none
 gras.mahakosh.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
@@ -603,13 +603,13 @@ guj-meh-hub02.gujarat.gov.in,gov.in,Resolving timed out after 3001 milliseconds,
 guj-rjt-hub01.gujarat.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
 guj-rjt-hub02.gujarat.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
 gujarat.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
-gujaratindia.gov.in,gujaratindia.gov.in,,
+gujaratindia.gov.in,gujaratindia.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 gvmc.gov.in,gov.in,Could not resolve host: gvmc.gov.in,none
 gwmc.cgg.gov.in,gov.in,Could not resolve host: gwmc.cgg.gov.in,none
 hada.kerala.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 handloom.kerala.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-hartrans.gov.in,hartrans.gov.in,,
-haryana.gov.in,haryana.gov.in,,
+hartrans.gov.in,hartrans.gov.in,200,
+haryana.gov.in,haryana.gov.in,301,
 haryanaeprocurement.gov.in,gov.in,Could not resolve host: haryanaeprocurement.gov.in,none
 haryanaeseva.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 haryanaindustries.gov.in,gov.in,Could not resolve host: haryanaindustries.gov.in,none
@@ -619,16 +619,16 @@ hcisingapore.gov.in,gov.in,403,0 _dc-mx.938e59df3da1.hcisingapore.gov.in.; 10 mx
 hcizambia.gov.in,gov.in,403,none
 health.mizoram.gov.in,gov.in,403,none
 herc.gov.in,gov.in,302,none
-himachal.gov.in,himachal.gov.in,,
+himachal.gov.in,himachal.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 home.mizoram.gov.in,gov.in,403,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
 homeguards.mizoram.gov.in,gov.in,403,none
 horticulture.mizoram.gov.in,gov.in,403,none
-hp.gov.in,hp.gov.in,,
+hp.gov.in,hp.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 hpmail.gov.in,gov.in,Resolving timed out after 3000 milliseconds,dig error
 hptax.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
 hptenders.gov.in,gov.in,200,none
 hpwc.kerala.gov.in,gov.in,Operation timed out after 3001 milliseconds with 0 bytes received,10 pop.hpwc.kerala.gov.in.; 0 pop.hpwc.kerala.gov.in.
-hrmsorissa.gov.in,hrmsorissa.gov.in,,
+hrmsorissa.gov.in,hrmsorissa.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 huda.gov.in,gov.in,Could not resolve host: huda.gov.in,none
 hyderabadwater.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 i3ms.orissaminerals.gov.in,gov.in,Could not resolve host: i3ms.orissaminerals.gov.in,none
@@ -648,7 +648,7 @@ ifr16.indiannavy.gov.in,gov.in,Could not resolve host: ifr16.indiannavy.gov.in,n
 ifsl.mizoram.gov.in,gov.in,403,none
 igms.irda.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 ignoaps.jk.gov.in,gov.in,Could not resolve host: ignoaps.jk.gov.in,none
-igrmaharashtra.gov.in,igrmaharashtra.gov.in,,
+igrmaharashtra.gov.in,igrmaharashtra.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 igrpbsecure.karnataka.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 iib.gov.in,gov.in,Connection timed out after 3001 milliseconds,0 d302501.a.ess.in.barracudanetworks.com.; 1 d302501.b.ess.in.barracudanetworks.com.
 iirs.eprocure.isro.gov.in,gov.in,Resolving timed out after 3001 milliseconds,dig error
@@ -720,12 +720,12 @@ jalna.eoffice.gov.in,gov.in,Could not resolve host: jalna.eoffice.gov.in,none
 jeevandayee.gov.in,gov.in,Could not resolve host: jeevandayee.gov.in,20 cluster8.netcore.co.in.; 5 cluster2.netcore.co.in.; 5 cluster6.netcore.co.in.; 10 cluster3.netcore.co.in.
 jeevanpramaan.gov.in,gov.in,302,none
 jerc.mizoram.gov.in,gov.in,Could not resolve host: jerc.mizoram.gov.in,none
-jharkhand.gov.in,jharkhand.gov.in,,
-jharkhandcomtax.gov.in,jharkhandcomtax.gov.in,,
+jharkhand.gov.in,jharkhand.gov.in,200,
+jharkhandcomtax.gov.in,jharkhandcomtax.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 jharkhandtenders.gov.in,gov.in,200,none
 jhp-vcsx.jhpolice.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
-jhpolice.gov.in,jhpolice.gov.in,,
-jk.gov.in,jk.gov.in,,
+jhpolice.gov.in,jhpolice.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
+jk.gov.in,jk.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 jkcomtax.gov.in,gov.in,Connection timed out after 3001 milliseconds,10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.
 jkhome.ulb.gov.in,gov.in,Could not resolve host: jkhome.ulb.gov.in,none
 jktenders.gov.in,gov.in,200,none
@@ -768,25 +768,25 @@ jsp.kerala.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 k2.karnataka.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
 k2portal.gov.in,gov.in,Resolving timed out after 3001 milliseconds,dig error
 kanic.kerala.gov.in,gov.in,Could not resolve host: kanic.kerala.gov.in,0 pop.kanic.kerala.gov.in.; 10 pop.kanic.kerala.gov.in.
-karnataka.gov.in,karnataka.gov.in,,
+karnataka.gov.in,karnataka.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 kavach.mail.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 kdmc.gov.in,gov.in,TLS connect error: error:0A000152:SSL routines::unsafe legacy renegotiation disabled,none
 kels.keralapoliceacademy.gov.in,gov.in,Could not resolve host: kels.keralapoliceacademy.gov.in,none
-kerala.gov.in,kerala.gov.in,,
+kerala.gov.in,kerala.gov.in,200,
 keralaadministrativetribunal.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-keralamvd.gov.in,keralamvd.gov.in,,
+keralamvd.gov.in,keralamvd.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 keralanews.gov.in,gov.in,Could not resolve host: keralanews.gov.in,none
-keralapolice.gov.in,keralapolice.gov.in,,
-keralapoliceacademy.gov.in,keralapoliceacademy.gov.in,,
+keralapolice.gov.in,keralapolice.gov.in,200,
+keralapoliceacademy.gov.in,keralapoliceacademy.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 keralapost.gov.in,gov.in,SSL certificate problem: certificate has expired,none
-keralaprisons.gov.in,keralaprisons.gov.in,,
+keralaprisons.gov.in,keralaprisons.gov.in,301,
 keralawomen.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 khajane2.gov.in,gov.in,Could not resolve host: khajane2.gov.in,dig error
 khajane2.karnataka.gov.in,gov.in,Resolving timed out after 3001 milliseconds,dig error
 khawbung.mizoram.gov.in,gov.in,Could not resolve host: khawbung.mizoram.gov.in,10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.
 khoyapaya.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 kms.incometaxindia.gov.in,gov.in,Could not resolve host: kms.incometaxindia.gov.in,none
-kmvn.gov.in,kmvn.gov.in,,
+kmvn.gov.in,kmvn.gov.in,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kmvn.gov.in found.,
 kmwsa.gov.in,gov.in,Could not resolve host: kmwsa.gov.in,none
 kmy.gov.in,gov.in,200,none
 knowledgemission.ap.gov.in,gov.in,Could not resolve host: knowledgemission.ap.gov.in,none
@@ -797,7 +797,7 @@ ksacs.kerala.gov.in,gov.in,Operation timed out after 3001 milliseconds with 0 by
 ksbc.kerala.gov.in,gov.in,SSL certificate problem: unable to get local issuer certificate,none
 kscewb.kerala.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 kscste.kerala.gov.in,gov.in,Operation timed out after 3001 milliseconds with 0 bytes received,none
-ksp.gov.in,ksp.gov.in,,
+ksp.gov.in,ksp.gov.in,ConnectException,
 kvkchamphaidistrict.mizoram.gov.in,gov.in,403,none
 kvkdeoghar.gov.in,gov.in,Could not resolve host: kvkdeoghar.gov.in,none
 kvkkolasib.mizoram.gov.in,gov.in,403,none
@@ -810,11 +810,11 @@ kvs.gov.in,gov.in,301,none
 kwa.kerala.gov.in,gov.in,Operation timed out after 3000 milliseconds with 0 bytes received,20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.
 labour.telangana.gov.in,gov.in,403,none
 lad.mizoram.gov.in,gov.in,Could not resolve host: lad.mizoram.gov.in,none
-ladakh.gov.in,ladakh.gov.in,,
+ladakh.gov.in,ladakh.gov.in,200,
 ladc.mizoram.gov.in,gov.in,Could not resolve host: ladc.mizoram.gov.in,none
 lakedn.utl.gov.in,gov.in,200,dig error
 lakpds.gov.in,gov.in,200,none
-lakshadweep.gov.in,lakshadweep.gov.in,,
+lakshadweep.gov.in,lakshadweep.gov.in,200,
 landadmin.tn.gov.in,gov.in,Could not resolve host: landadmin.tn.gov.in,none
 landj.mizoram.gov.in,gov.in,403,none
 landrevenue.mizoram.gov.in,gov.in,403,none
@@ -837,7 +837,7 @@ lottery.mhada.gov.in,gov.in,Could not resolve host: lottery.mhada.gov.in,none
 lpsc.eprocure.isro.gov.in,gov.in,Could not resolve host: lpsc.eprocure.isro.gov.in,none
 lpscb.eprocure.isro.gov.in,gov.in,Could not resolve host: lpscb.eprocure.isro.gov.in,none
 lpscm.eprocure.isro.gov.in,gov.in,Could not resolve host: lpscm.eprocure.isro.gov.in,none
-lsgkerala.gov.in,lsgkerala.gov.in,,
+lsgkerala.gov.in,lsgkerala.gov.in,200,
 lync.apgenco.gov.in,gov.in,Could not resolve host: lync.apgenco.gov.in,none
 lyncdiscover.icar.gov.in,gov.in,Could not resolve host: lyncdiscover.icar.gov.in,none
 lyncdiscover.indiapost.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
@@ -847,8 +847,8 @@ lyncweb.sebi.gov.in,gov.in,Could not resolve host: lyncweb.sebi.gov.in,none
 madc.mizoram.gov.in,gov.in,403,none
 mahaagriiqc.gov.in,gov.in,Could not resolve host: mahaagriiqc.gov.in,none
 mahaeproc.maharashtra.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
-mahafireservice.gov.in,mahafireservice.gov.in,,
-mahagst.gov.in,mahagst.gov.in,,
+mahafireservice.gov.in,mahafireservice.gov.in,302,
+mahagst.gov.in,mahagst.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 mahakosh.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 mahaonline.gov.in,gov.in,Could not resolve host: mahaonline.gov.in,none
 maharain.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
@@ -1026,7 +1026,7 @@ mamco.mizoram.gov.in,gov.in,403,none
 mamitcollege.mizoram.gov.in,gov.in,403,none
 manassembly.gov.in,gov.in,Could not resolve host: manassembly.gov.in,none
 manav.gov.in,gov.in,Could not resolve host: manav.gov.in,none
-manipur.gov.in,manipur.gov.in,,
+manipur.gov.in,manipur.gov.in,200,
 manipureducation.gov.in,gov.in,200,none
 manipurportal.mn.gov.in,gov.in,Could not resolve host: manipurportal.mn.gov.in,none
 manipurtenders.gov.in,gov.in,Could not resolve host: manipurtenders.gov.in,none
@@ -1048,7 +1048,7 @@ mea.gov.in,gov.in,302,none
 mediaarchive.gov.in,gov.in,Could not resolve host: mediaarchive.gov.in,none
 mediacorner.pmindia.gov.in,gov.in,Could not resolve host: mediacorner.pmindia.gov.in,none
 meels.gov.in,gov.in,Could not resolve host: meels.gov.in,none
-meeseva.gov.in,meeseva.gov.in,,
+meeseva.gov.in,meeseva.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 meet.icar.gov.in,gov.in,Could not resolve host: meet.icar.gov.in,none
 meet.maharashtra.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
 meet.sebi.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
@@ -1059,7 +1059,7 @@ meghalayatenders.gov.in,gov.in,200,none
 metrology.mizoram.gov.in,gov.in,403,none
 mgov.gov.in,gov.in,Operation timed out after 3001 milliseconds with 0 bytes received,none
 mha.eoffice.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-mhada.gov.in,mhada.gov.in,,
+mhada.gov.in,mhada.gov.in,403,
 mhrdnats.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 mias.mizoram.gov.in,gov.in,403,none
 mib.eoffice.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
@@ -1099,7 +1099,7 @@ mizoramtenders.gov.in,gov.in,200,none
 mizoslsa.mizoram.gov.in,gov.in,403,none
 mlc.mizoram.gov.in,gov.in,403,none
 mmhc.ap.gov.in,gov.in,Could not resolve host: mmhc.ap.gov.in,none
-mn.gov.in,mn.gov.in,,
+mn.gov.in,mn.gov.in,ConnectException,
 mnpcs.gov.in,gov.in,Could not resolve host: mnpcs.gov.in,none
 mobile.cbec.gov.in,gov.in,Could not resolve host: mobile.cbec.gov.in,none
 mobile.digitizeindia.gov.in,gov.in,Could not resolve host: mobile.digitizeindia.gov.in,none
@@ -1117,7 +1117,7 @@ moud.eoffice.gov.in,gov.in,Could not resolve host: moud.eoffice.gov.in,none
 mp.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 mpanashik.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 mpanew.mpanashik.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-mpcb.gov.in,mpcb.gov.in,,
+mpcb.gov.in,mpcb.gov.in,200,
 mpcb.mizoram.gov.in,gov.in,Could not resolve host: mpcb.mizoram.gov.in,none
 mpenagarpalika.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 mpeproc.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
@@ -1199,8 +1199,8 @@ nwcmc.gov.in,gov.in,302,none
 oasis.gov.in,gov.in,301,none
 ocs.sebi.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
 octams.gov.in,gov.in,Could not resolve host: octams.gov.in,none
-odisha.gov.in,odisha.gov.in,,
-odishaonline.gov.in,odishaonline.gov.in,,
+odisha.gov.in,odisha.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
+odishaonline.gov.in,odishaonline.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 odishatax.gov.in,gov.in,403,10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.
 odishatreasury.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 ofbeproc.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
@@ -1222,10 +1222,10 @@ openforge.gov.in,gov.in,403,0 mailgw.nic.in.
 opensso.mp.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 org1.passportindia.gov.in,gov.in,Resolving timed out after 3001 milliseconds,none
 org2.passportindia.gov.in,gov.in,Could not resolve host: org2.passportindia.gov.in,none
-orissa.gov.in,orissa.gov.in,,
-orissaonline.gov.in,orissaonline.gov.in,,
+orissa.gov.in,orissa.gov.in,ConnectException,
+orissaonline.gov.in,orissaonline.gov.in,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,
 orissaseiaa.gov.in,gov.in,200,none
-orissatreasury.gov.in,orissatreasury.gov.in,,
+orissatreasury.gov.in,orissatreasury.gov.in,ConnectException: Host is unreachable,
 outlook.indiapost.gov.in,gov.in,Could not resolve host: outlook.indiapost.gov.in,dig error
 outlook.thanecity.gov.in,gov.in,Could not resolve host: outlook.thanecity.gov.in,none
 owa.amaravati.gov.in,gov.in,Could not resolve host: owa.amaravati.gov.in,none
@@ -1243,12 +1243,12 @@ payment.ccmc.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 payonline.gov.in,gov.in,Could not resolve host: payonline.gov.in,none
 pbdindia.gov.in,gov.in,200,none
 pbgsbs.gov.in,gov.in,Could not resolve host: pbgsbs.gov.in,none
-pbirrigation.gov.in,pbirrigation.gov.in,,
+pbirrigation.gov.in,pbirrigation.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 pcdaopune.gov.in,gov.in,Recv failure: Connexion ré-initialisée par le correspondant,none
 pcdatravel.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 pcmcindia.gov.in,gov.in,301,none
 pds.gov.in,gov.in,SSL certificate problem: certificate has expired,0 pds.gov.in.
-pdsodisha.gov.in,pdsodisha.gov.in,,
+pdsodisha.gov.in,pdsodisha.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 pdsservices.jharkhand.gov.in,gov.in,200,none
 pencil.gov.in,gov.in,Recv failure: Connexion ré-initialisée par le correspondant,none
 pension.mahakosh.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
@@ -1290,7 +1290,7 @@ ppp.cgg.gov.in,gov.in,Could not resolve host: ppp.cgg.gov.in,none
 pppinindia.gov.in,gov.in,Could not resolve host: pppinindia.gov.in,none
 pppmis.cgg.gov.in,gov.in,Could not resolve host: pppmis.cgg.gov.in,none
 pps.telangana.gov.in,gov.in,200,none
-ppsc.gov.in,ppsc.gov.in,,
+ppsc.gov.in,ppsc.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 prajavani.ap.gov.in,gov.in,Could not resolve host: prajavani.ap.gov.in,none
 prajavani.telangana.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 prbdb.gov.in,gov.in,Could not resolve host: prbdb.gov.in,none
@@ -1311,27 +1311,27 @@ ptu.eoffice.gov.in,gov.in,Could not resolve host: ptu.eoffice.gov.in,none
 publisher.cbps.gov.in,gov.in,Could not resolve host: publisher.cbps.gov.in,none
 publishtenders.gov.in,gov.in,Could not resolve host: publishtenders.gov.in,none
 pucadmission.mizoram.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-puducherry.gov.in,puducherry.gov.in,,
+puducherry.gov.in,puducherry.gov.in,ConnectException,
 pudutenders.gov.in,gov.in,200,none
 puneruralpolice.gov.in,gov.in,200,none
-punjab.gov.in,punjab.gov.in,,
-punjabgovt.gov.in,punjabgovt.gov.in,,
+punjab.gov.in,punjab.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
+punjabgovt.gov.in,punjabgovt.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 pupschememis.gov.in,gov.in,Could not resolve host: pupschememis.gov.in,none
 pvis.plantauthority.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 pwd.mizoram.gov.in,gov.in,403,none
 pwdarchitect.mizoram.gov.in,gov.in,403,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
-pwddelhi.gov.in,pwddelhi.gov.in,,
+pwddelhi.gov.in,pwddelhi.gov.in,301,
 pwdpunjab.gov.in,gov.in,Could not resolve host: pwdpunjab.gov.in,none
 pwds.mizoram.gov.in,gov.in,403,none
 pwims.pbirrigation.gov.in,gov.in,Could not resolve host: pwims.pbirrigation.gov.in,none
-py.gov.in,py.gov.in,,
+py.gov.in,py.gov.in,200,
 rac.gov.in,gov.in,Failed to connect to rac.gov.in port 443 after 397 ms: Could not connect to server,none
 rajasthan.eoffice.gov.in,gov.in,Could not resolve host: rajasthan.eoffice.gov.in,none
 rajasthan.gov.in,gov.in,200,none
 rajbhavan.mizoram.gov.in,gov.in,200,none
 rajexcise.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-rajivswagruhaap.gov.in,rajivswagruhaap.gov.in,,
-rajpolice.gov.in,rajpolice.gov.in,,
+rajivswagruhaap.gov.in,rajivswagruhaap.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
+rajpolice.gov.in,rajpolice.gov.in,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rajpolice.gov.in found.,
 rakshabhoomi.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 ramrajatemple.mp.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 ranaghat.gov.in,gov.in,301,none
@@ -1415,10 +1415,10 @@ sharmail.shar.gov.in,gov.in,Could not resolve host: sharmail.shar.gov.in,none
 shec.mizoram.gov.in,gov.in,403,none
 shredder.digitizeindia.gov.in,gov.in,Could not resolve host: shredder.digitizeindia.gov.in,none
 siemat.kerala.gov.in,gov.in,Connection timed out after 3002 milliseconds,0 pop.siemat.kerala.gov.in.; 10 pop.siemat.kerala.gov.in.
-sikkim.gov.in,sikkim.gov.in,,
+sikkim.gov.in,sikkim.gov.in,404,
 sikkimfred.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-sikkimssdg.gov.in,sikkimssdg.gov.in,,
-sikkimtax.gov.in,sikkimtax.gov.in,,
+sikkimssdg.gov.in,sikkimssdg.gov.in,ConnectException,
+sikkimtax.gov.in,sikkimtax.gov.in,"SSLHandshakeException: (protocol_version) The server selected protocol version TLS10 is not accepted by client preferences [TLS13, TLS12]",
 sikkimtender.gov.in,gov.in,200,none
 siktui.mizoram.gov.in,gov.in,403,10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.
 sindhudurg.eoffice.gov.in,gov.in,Could not resolve host: sindhudurg.eoffice.gov.in,none
@@ -1441,7 +1441,7 @@ smtp.mcgm.gov.in,gov.in,Could not resolve host: smtp.mcgm.gov.in,none
 socialwelfare.mizoram.gov.in,gov.in,403,none
 soil.mizoram.gov.in,gov.in,Could not resolve host: soil.mizoram.gov.in,none
 sp.tn.gov.in,gov.in,Could not resolve host: sp.tn.gov.in,none
-spark.gov.in,spark.gov.in,,
+spark.gov.in,spark.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 sparrow.eoffice.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 spicesboard.eoffice.gov.in,gov.in,Could not resolve host: spicesboard.eoffice.gov.in,none
 splunglei.mizoram.gov.in,gov.in,Could not resolve host: splunglei.mizoram.gov.in,none
@@ -1479,7 +1479,7 @@ swan.mizoram.gov.in,gov.in,403,none
 swayam.gov.in,gov.in,405,none
 swb.kerala.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 sys.mizoram.gov.in,gov.in,Could not resolve host: sys.mizoram.gov.in,none
-tamilnadu.gov.in,tamilnadu.gov.in,,
+tamilnadu.gov.in,tamilnadu.gov.in,ConnectException,
 tamilnilam.tn.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 task.telangana.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 tbboard.gov.in,gov.in,200,none
@@ -1487,7 +1487,7 @@ tdb.gov.in,gov.in,200,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovclou
 tdscpc.gov.in,gov.in,Could not resolve host: tdscpc.gov.in,none
 teaauction.gov.in,gov.in,Could not resolve host: teaauction.gov.in,none
 telangana.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-telanganafin.gov.in,telanganafin.gov.in,,
+telanganafin.gov.in,telanganafin.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 tender.eprocurement.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 tender.mcgm.gov.in,gov.in,Could not resolve host: tender.mcgm.gov.in,none
 tender.mizoram.gov.in,gov.in,Could not resolve host: tender.mizoram.gov.in,none
@@ -1505,8 +1505,8 @@ tmc.gov.in,gov.in,404,50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.; 20 mx2.mgovclou
 tmcdcmail1.thanecity.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 tmcdcmail3.thanecity.gov.in,gov.in,Could not resolve host: tmcdcmail3.thanecity.gov.in,none
 tms.mpanashik.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-tn.gov.in,tn.gov.in,,
-tncctns.gov.in,tncctns.gov.in,,
+tn.gov.in,tn.gov.in,301,
+tncctns.gov.in,tncctns.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 tnchf.tn.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 tncpe.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 tnega.tn.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
@@ -1548,18 +1548,18 @@ uday.gov.in,gov.in,Could not resolve host: uday.gov.in,none
 ugc.eoffice.gov.in,gov.in,Could not resolve host: ugc.eoffice.gov.in,none
 uid.gujarat.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
 uidai.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-uk.gov.in,uk.gov.in,,
+uk.gov.in,uk.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 ukpscappl.gov.in,gov.in,Could not resolve host: ukpscappl.gov.in,none
 uktenders.gov.in,gov.in,200,none
-ulbodisha.gov.in,ulbodisha.gov.in,,
+ulbodisha.gov.in,ulbodisha.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 ulborissa.gov.in,gov.in,Could not resolve host: ulborissa.gov.in,none
 up.eoffice.gov.in,gov.in,Could not resolve host: up.eoffice.gov.in,none
-up.gov.in,up.gov.in,,
+up.gov.in,up.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 uppolice.gov.in,gov.in,200,none
 upsdm.gov.in,gov.in,302,none
 ursircrs2017.narl.gov.in,gov.in,Could not resolve host: ursircrs2017.narl.gov.in,none
 utconline.uk.gov.in,gov.in,200,none
-uttarakhand.gov.in,uttarakhand.gov.in,,
+uttarakhand.gov.in,uttarakhand.gov.in,ConnectException,
 vahan.uk.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 vairengte.mizoram.gov.in,gov.in,403,none
 vairengtechc.mizoram.gov.in,gov.in,403,none
@@ -1589,7 +1589,7 @@ wbboilers.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 wbcbc.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
 wbcdwdsw.gov.in,gov.in,Could not resolve host: wbcdwdsw.gov.in,none
 wbcommissionerdisabilities.gov.in,gov.in,Resolving timed out after 3000 milliseconds,none
-wbcomtax.gov.in,wbcomtax.gov.in,,
+wbcomtax.gov.in,wbcomtax.gov.in,HttpConnectTimeoutException: HTTP connect timed out,
 wbconsumers.gov.in,gov.in,302,none
 wbdma.gov.in,gov.in,Could not resolve host: wbdma.gov.in,none
 wbexcise.gov.in,gov.in,Connection timed out after 3003 milliseconds,none
@@ -1598,13 +1598,13 @@ wbhdcl.gov.in,gov.in,Could not resolve host: wbhdcl.gov.in,none
 wbhealthscheme.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
 wbhousing.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 wbifms.gov.in,gov.in,Connection timed out after 3002 milliseconds,none
-wbisgpp.gov.in,wbisgpp.gov.in,,
+wbisgpp.gov.in,wbisgpp.gov.in,ConnectException,
 wbkanyashree.gov.in,gov.in,302,none
 wblc.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
 wbpds.gov.in,gov.in,TLS connect error: error:0A000152:SSL routines::unsafe legacy renegotiation disabled,none
 wbphed.gov.in,gov.in,SSL certificate problem: self-signed certificate,none
 wbregistration.gov.in,gov.in,Connection timed out after 3001 milliseconds,none
-wbsed.gov.in,wbsed.gov.in,,
+wbsed.gov.in,wbsed.gov.in,ConnectException,
 wbsfda.gov.in,gov.in,Could not resolve host: wbsfda.gov.in,none
 wbtdc.gov.in,gov.in,Could not resolve host: wbtdc.gov.in,none
 wbtenders.gov.in,gov.in,200,none
@@ -1793,7 +1793,7 @@ webmail3.icegate.gov.in,gov.in,Could not resolve host: webmail3.icegate.gov.in,n
 webmail4.passportindia.gov.in,gov.in,Could not resolve host: webmail4.passportindia.gov.in,none
 webmaster.ireda.gov.in,gov.in,Could not resolve host: webmaster.ireda.gov.in,none
 website.apspsc.gov.in,gov.in,Connection timed out after 3000 milliseconds,none
-westbengal.gov.in,westbengal.gov.in,,
+westbengal.gov.in,westbengal.gov.in,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching westbengal.gov.in found.,
 whm.manipureducation.gov.in,gov.in,Could not resolve host: whm.manipureducation.gov.in,none
 whm.manipurtourism.gov.in,gov.in,Could not resolve host: whm.manipurtourism.gov.in,none
 womenpolytechnic.mizoram.gov.in,gov.in,403,none

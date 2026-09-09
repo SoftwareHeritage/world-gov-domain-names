@@ -43,7 +43,7 @@ evisa.gov.zw,200,0 197.221.235.10.; 0 mail2.isp.gov.zw.
 ginx.gov.zw,Operation timed out after 3001 milliseconds with 0 bytes received,none
 gisp.gov.zw,SSL certificate problem: unable to get local issuer certificate,none
 gispca.gov.zw,Could not resolve host: gispca.gov.zw,none
-gov.zw,,none
+gov.zw,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gov.zw found.,none
 hararehospital.gov.zw,Connection timed out after 3001 milliseconds,none
 hosting.gov.zw,Could not resolve host: hosting.gov.zw,none
 ictministry.gov.zw,200,none
