@@ -234,23 +234,30 @@
           (let [n-miss (wikidata-write-missing! out missing-out)]
             (println (str "  -> " missing-out " (" n-miss " uncovered candidates)"))))))))
 
-(defn cmd-wikidata [args]
-  (let [pairs (cond
-                (seq args)
-                (mapv #(let [[qid c] (str/split % #":" 2)] [qid c]) args)
-
-                (fs/exists? "data/country_qid.csv")
-                (mapv (fn [row] [(get row "wikidata_qid") (get row "country_dir")])
-                      (read-csv-file "data/country_qid.csv"))
-
-                :else nil)]
-    (if (nil? pairs)
-      ;; no System/exit here: cmd-enrich runs this in a future among five
-      ;; other sources, exiting would kill them without their summary
+(defn cmd-wikidata
+  "Fetch Wikidata for every country of data/country_qid.csv, or for the
+  given ones: a country_dir (FRA_france, resolved through that file --
+  what `enrich <country>` and `all <country>` pass along) or an explicit
+  QID:country_dir pair. Unknown countries abort before any request; no
+  System/exit here, cmd-enrich runs this in a future among five others."
+  [args]
+  (let [rows   (read-csv-file "data/country_qid.csv")
+        qid-of (into {} (for [row rows] [(get row "country_dir") (get row "wikidata_qid")]))
+        pairs  (if (seq args)
+                 (for [a args :let [[x c] (str/split a #":" 2)]]
+                   (if c [x c] [(get qid-of x) x]))
+                 (for [row rows] [(get row "wikidata_qid") (get row "country_dir")]))
+        unknown (for [[qid c] pairs :when (str/blank? qid)] c)]
+    (cond
+      (empty? rows)
       (err "ERR: data/country_qid.csv missing. Run 'bb pipeline build-qid' first")
-      (bounded-pmap conc-wikidata
-                    (fn [[qid c]] (wikidata-process! qid c))
-                    pairs))))
+
+      (seq unknown)
+      (err "ERR: not in data/country_qid.csv: " (str/join ", " unknown)
+           " (expected a country_dir or QID:country_dir)")
+
+      :else
+      (bounded-pmap conc-wikidata (fn [[qid c]] (wikidata-process! qid c)) (vec pairs)))))
 
 ;; ===========================================================================
 ;;  Phase 6 -- IANA
