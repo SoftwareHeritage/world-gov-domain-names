@@ -295,40 +295,58 @@
                  :else                                 "unknown error")]
     [sub status]))
 
+(defn- blank-hosts
+  "Hosts of a {host [http_status mx]} map whose column idx (0 = HTTPS
+  status, 1 = MX) is still blank -- every host with FORCE=1, e.g. to
+  re-probe past failures with a longer TIMEOUT."
+  [probes idx]
+  (for [[h v] probes :when (or force? (str/blank? (nth v idx)))] h))
+
+(defn- fill-hosts!
+  "Fill column idx of a {host [http_status mx]} map for hosts with
+  (lookup host), conc lookups at a time; returns the filled map."
+  [probes idx lookup conc hosts]
+  (reduce (fn [m [h v]] (assoc-in m [h idx] v))
+          probes
+          (bounded-pmap conc (fn [h] [h (lookup h)]) hosts)))
+
+(defn- harvest->probes [rows] (into {} (for [[h st mx] rows] [h [st mx]])))
+(defn- probes->harvest [probes] (for [[h [st mx]] probes] [h st mx]))
+
+(defn- with-mx-count [hosts probes]
+  (count (remove #(#{"" "none" "dig error"} (second (get probes %))) hosts)))
+
+(defn- roots-probes
+  "The probes map of a country's unharvested validated roots: the rows of
+  sources/probes/roots.csv for them, a blank entry for a root not seen yet."
+  [country-dir]
+  (let [roots (unharvested-roots country-dir)]
+    (merge (zipmap roots (repeat ["" ""]))
+           (select-keys (read-probes country-dir) roots))))
+
 (defn probe-domain!
   "HTTPS HEAD probe of a harvest file's hosts whose status is still blank
-  -- every host with FORCE=1, e.g. to re-probe past failures with a longer
-  TIMEOUT."
+  (blank-hosts), the result written back into its http_status column."
   [file timeout]
-  (let [root-name (harvest-root file)]
-    (when (fs/exists? file)
-      (let [rows     (read-harvest file)
-            to-probe (if force? rows (filter (fn [[_ st]] (str/blank? st)) rows))]
-        (if (empty? to-probe)
-          (println (str "[" root-name "] no empty-status row to probe"))
-          (do
-            (println (str "[" root-name "] " (count to-probe) " subdomains to probe"))
-            (let [probed (into {} (bounded-pmap (parallel 50)
-                                                #(probe-one! (first %) timeout)
-                                                to-probe))]
-              (write-harvest! file (for [[h st mx] rows]
-                                     [h (get probed h st) mx])))))))))
+  (when (fs/exists? file)
+    (let [root-name (harvest-root file)
+          probes    (harvest->probes (read-harvest file))
+          todo      (blank-hosts probes 0)]
+      (if (empty? todo)
+        (println (str "[" root-name "] no empty-status row to probe"))
+        (do (println (str "[" root-name "] " (count todo) " subdomains to probe"))
+            (write-harvest! file (probes->harvest
+                                   (fill-hosts! probes 0 #(second (probe-one! % timeout)) (parallel 50) todo))))))))
 
 (defn probe-roots!
   "HTTPS HEAD probe of a country's unharvested validated roots whose
-  status is still blank (all of them with FORCE=1), into
-  sources/probes/roots.csv."
+  status is still blank, into sources/probes/roots.csv."
   [country-dir timeout]
-  (let [probes (read-probes country-dir)
-        todo   (for [d (unharvested-roots country-dir)
-                     :when (or force? (str/blank? (first (get probes d ["" ""]))))]
-                 d)]
+  (let [probes (roots-probes country-dir)
+        todo   (blank-hosts probes 0)]
     (when (seq todo)
       (println (str "[" country-dir "/probes] " (count todo) " roots to probe"))
-      (let [probed (into {} (bounded-pmap (parallel 50) #(probe-one! % timeout) todo))]
-        (write-probes! country-dir
-                       (reduce (fn [m [d st]] (assoc m d [st (second (get m d ["" ""]))]))
-                               probes probed))))))
+      (write-probes! country-dir (fill-hosts! probes 0 #(second (probe-one! % timeout)) (parallel 50) todo)))))
 
 (defn cmd-probe [args]
   (let [timeout (env-int "TIMEOUT" 5)]
@@ -366,17 +384,14 @@
   Reuses already-looked-up hosts unless FORCE=1."
   [file conc]
   (let [root-name (harvest-root file)
-        rows  (read-harvest file)
-        todo  (if force?
-                (map first rows)
-                (for [[h _ mx] rows :when (str/blank? mx)] h))]
+        probes    (harvest->probes (read-harvest file))
+        todo      (blank-hosts probes 1)]
     (if (empty? todo)
       (println (str "[" root-name "] mx: nothing to look up"))
-      (let [looked (into {} (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo))]
-        (write-harvest! file (for [[h st mx] rows] [h st (get looked h mx)]))
+      (let [filled (fill-hosts! probes 1 mx-lookup conc todo)]
+        (write-harvest! file (probes->harvest filled))
         (println (str "[" root-name "] mx: " (count todo) " looked up ("
-                      (count (remove #(#{"none" "dig error"} %) (vals looked)))
-                      " with MX)"))))))
+                      (with-mx-count todo filled) " with MX)"))))))
 
 (defn mx-roots!
   "Look up MX for a country's unharvested validated roots, into
@@ -384,18 +399,13 @@
   pass never sees them -- yet their apexes ARE email domains the
   central-gov file watches. Reuses already-looked-up roots unless FORCE=1."
   [country-dir conc]
-  (let [probes (read-probes country-dir)
-        todo   (for [d (unharvested-roots country-dir)
-                     :when (or force? (str/blank? (second (get probes d ["" ""]))))]
-                 d)]
+  (let [probes (roots-probes country-dir)
+        todo   (blank-hosts probes 1)]
     (when (seq todo)
-      (let [looked (bounded-pmap conc (fn [d] [d (mx-lookup d)]) todo)]
-        (write-probes! country-dir
-                       (reduce (fn [m [d mx]] (assoc m d [(first (get m d ["" ""])) mx]))
-                               probes looked))
+      (let [filled (fill-hosts! probes 1 mx-lookup conc todo)]
+        (write-probes! country-dir filled)
         (println (str "[" country-dir "/probes] mx: " (count todo) " looked up ("
-                      (count (remove #(#{"none" "dig error"} (second %)) looked))
-                      " with MX)"))))))
+                      (with-mx-count todo filled) " with MX)"))))))
 
 (defn cmd-mx [args]
   (let [conc (parallel 50)]
@@ -867,26 +877,24 @@
   pruned to the hosts still proposed -- then proposed.csv is rewritten
   with the probe columns filled."
   [country-dir timeout conc]
-  (let [path  (str "countries/" country-dir "/proposed.csv")
-        hosts (for [[h] (rest (read-csv-raw path)) :when (valid-hostname? h)] h)
-        known (select-keys (read-proposed-probes country-dir) hosts)
-        todo-http (for [h hosts :when (or force? (str/blank? (first (get known h ["" ""]))))] h)
-        todo-mx   (for [h hosts :when (or force? (str/blank? (second (get known h ["" ""]))))] h)]
+  (let [hosts  (for [[h] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
+                     :when (valid-hostname? h)]
+                 h)
+        probes (merge (zipmap hosts (repeat ["" ""]))
+                      (select-keys (read-proposed-probes country-dir) hosts))
+        todo-http (blank-hosts probes 0)
+        todo-mx   (blank-hosts probes 1)]
     (if (and (empty? todo-http) (empty? todo-mx))
       (println (str "[" country-dir "] proposed: nothing to probe"))
-      (let [http (into {} (bounded-pmap conc #(probe-one! % timeout) todo-http))
-            mx   (into {} (bounded-pmap conc (fn [h] [h (mx-lookup h)]) todo-mx))
-            probes (into {} (for [h hosts
-                                  :let [[st0 mx0] (get known h ["" ""])]]
-                              [h [(get http h st0) (get mx h mx0)]]))]
-        (write-proposed-probes! country-dir probes)
+      (let [filled (-> probes
+                       (fill-hosts! 0 #(second (probe-one! % timeout)) conc todo-http)
+                       (fill-hosts! 1 mx-lookup conc todo-mx))]
+        (write-proposed-probes! country-dir filled)
         (score-candidates-for! country-dir)
         (println (str "[" country-dir "] proposed: " (count todo-http) " probed, "
                       (count todo-mx) " MX looked up ("
-                      (count (filter #(re-matches #"[23]\d\d" (first %)) (vals probes)))
-                      " reachable, "
-                      (count (remove #(#{"" "none" "dig error"} (second %)) (vals probes)))
-                      " with MX)"))))))
+                      (count (filter #(re-matches #"[23]\d\d" (first %)) (vals filled)))
+                      " reachable, " (with-mx-count hosts filled) " with MX)"))))))
 
 (defn cmd-probe-proposed [args]
   (let [timeout (env-int "TIMEOUT" 5)
