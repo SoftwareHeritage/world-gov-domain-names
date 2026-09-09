@@ -1,14 +1,14 @@
 hostname,score,sources,label,level,http_status,mx
-clerus.va,7,wikidata;wikidata,Dicastery for the Clergy,,,
-congregazionevescovi.va,7,wikidata;wikidata,Dicastery for Bishops,,,
-dicasteryinterreligious.va,7,wikidata;wikidata,Dicastery for Interreligious Dialogue,,,
-humandevelopment.va,7,wikidata;wikidata,Dicastery for Promoting Integral Human Development,,,
-laityfamilylife.va,7,wikidata;wikidata,"Dicastery for Laity, Family and Life",,,
-archivioapostolicovaticano.va,4,wikidata,Vatican Apostolic Archives,,,
-asif.va,4,wikidata,Financial Information Authority,,,
-ulsa.va,4,wikidata,Labour Office of the Apostolic See,,,
-vaticanlibrary.va,4,wikidata,Vatican Library,,,
-palvaticanembassy.org,3,wikidata,embassy of the State of Palestine to the Holy See,central,,
-pontificiaacademialatinitatis.org,3,wikidata,Pontifical Academy for Latin,,,
-comunicazione.va,2,wikidata;wikidata;wikidata;wikidata,Dicastery for Communication,,,
-vaticanstate.va,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Governorate of Vatican City State | Pontifical Commission for the Vatican City State | Corps of Gendarmerie of Vatican City,central,,
+clerus.va,7,wikidata;wikidata,Dicastery for the Clergy,,ConnectException,30 mx21.vatican.va.; 30 mx20.vatican.va.; 10 mx11-new.vatican.va.; 10 mx12-new.vatican.va.
+congregazionevescovi.va,7,wikidata;wikidata,Dicastery for Bishops,,ConnectException,0 .
+dicasteryinterreligious.va,7,wikidata;wikidata,Dicastery for Interreligious Dialogue,,ConnectException,none
+humandevelopment.va,7,wikidata;wikidata,Dicastery for Promoting Integral Human Development,,302,10 mx11-new.vatican.va.; 10 mx12-new.vatican.va.; 30 mx20.vatican.va.; 30 mx21.vatican.va.
+laityfamilylife.va,7,wikidata;wikidata,"Dicastery for Laity, Family and Life",,ConnectException,30 mx21.vatican.va.; 30 mx20.vatican.va.; 10 mx12-new.vatican.va.; 10 mx11-new.vatican.va.
+archivioapostolicovaticano.va,4,wikidata,Vatican Apostolic Archives,,ConnectException,0 .
+asif.va,4,wikidata,Financial Information Authority,,ConnectException,30 mx20.vatican.va.; 10 mx11-new.vatican.va.; 30 mx21.vatican.va.; 10 mx12-new.vatican.va.
+ulsa.va,4,wikidata,Labour Office of the Apostolic See,,ConnectException,30 mx21.vatican.va.; 10 mx12-new.vatican.va.; 30 mx20.vatican.va.; 10 mx11-new.vatican.va.
+vaticanlibrary.va,4,wikidata,Vatican Library,,ConnectException,0 .
+palvaticanembassy.org,3,wikidata,embassy of the State of Palestine to the Holy See,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.palvaticanembasy.org.
+pontificiaacademialatinitatis.org,3,wikidata,Pontifical Academy for Latin,,301,10 mx.pontificiaacademialatinitatis.org.
+comunicazione.va,2,wikidata;wikidata;wikidata;wikidata,Dicastery for Communication,,ConnectException,none
+vaticanstate.va,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Governorate of Vatican City State | Pontifical Commission for the Vatican City State | Corps of Gendarmerie of Vatican City,central,301,30 mx20.vatican.va.; 10 mx11-new.vatican.va.; 10 mx12-new.vatican.va.; 30 mx21.vatican.va.

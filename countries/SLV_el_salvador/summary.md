@@ -35,11 +35,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `jesuitascam.org` |  |  | wikidata;wikidata | Jesuit Province of Central America |
-| 4 | `esai.sv` |  |  | wikidata | El Salvador Aerospace Institute |
-| 3 | `ccesv.aecid.es` |  |  | wikidata | Cultural Center of Spain in El Salvador |
-| 3 | `eeas.europa.eu` | central |  | wikidata | Delegation of the European Union to El Salvador |
-| 3 | `lab.ccesv.org` |  |  | wikidata | Cultural Center of Spain in El Salvador |
-| 3 | `san-salvador.diplo.de` | central |  | wikidata | Embassy of Germany, San Salvador |
-| 3 | `sv.ambafrance.org` | central |  | wikidata | Embassy of France, San Salvador |
+| 6 | `jesuitascam.org` |  | 200 | wikidata;wikidata | Jesuit Province of Central America |
+| 4 | `esai.sv` |  | HttpConne... | wikidata | El Salvador Aerospace Institute |
+| 3 | `ccesv.aecid.es` |  | 200 | wikidata | Cultural Center of Spain in El Salvador |
+| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to El Salvador |
+| 3 | `lab.ccesv.org` |  | 200 | wikidata | Cultural Center of Spain in El Salvador |
+| 3 | `san-salvador.diplo.de` | central | 200 | wikidata | Embassy of Germany, San Salvador |
+| 3 | `sv.ambafrance.org` | central | 301 | wikidata | Embassy of France, San Salvador |
 

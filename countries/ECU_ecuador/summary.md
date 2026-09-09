@@ -35,22 +35,22 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `bce.ec` |  |  | wikidata;wikidata | Central Bank of Ecuador |
-| 7 | `exa.ec` |  |  | wikidata;wikidata | Ecuadorian Civilian Space Agency |
-| 6 | `escolapios.org.co` |  |  | wikidata;wikidata | Nazareth piarist province |
-| 5 | `ane.gov.ec` |  |  | wikidata | National Archives of Ecuador |
-| 4 | `ccq.ec` |  |  | wikidata | Quito Chamber of Commerce |
-| 4 | `inocar.mil.ec` |  |  | wikidata | Oceanographic Institute of the Ecuadorian Navy |
-| 4 | `quito.mfa.gov.hu` | central |  | wikidata | embassy of Hungary in Ecuador |
-| 3 | `ambafrance-ec.org` | central |  | wikidata | Embassy of France to Quito |
-| 3 | `cubadiplomatica.cu` | central |  | wikidata | embassy of Cuba in Ecuador |
-| 3 | `ec.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Quito |
-| 3 | `ecuador.mid.ru` | central |  | wikidata | embassy of Russia in Ecuador |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Ecuador |
-| 3 | `embajadadominicanaecuador.com` | central |  | wikidata | embassy of the Dominican Republic in Ecuador |
-| 3 | `quiport.com` |  |  | wikidata | Q1413753 |
-| 3 | `quito.diplo.de` | central |  | wikidata | Embassy of Germany, Quito |
-| 3 | `quito.embassy.qa` | central |  | wikidata | embassy of Qatar in Ecuador |
-| 3 | `quito.mfa.ir` | central |  | wikidata | embassy of Iran in Ecuador |
-| 3 | `roc-taiwan.org` |  |  | wikidata | Commercial Office of Taipei, Quito |
+| 7 | `bce.ec` |  | ConnectEx... | wikidata;wikidata | Central Bank of Ecuador |
+| 7 | `exa.ec` |  | ConnectEx... | wikidata;wikidata | Ecuadorian Civilian Space Agency |
+| 6 | `escolapios.org.co` |  | 301 | wikidata;wikidata | Nazareth piarist province |
+| 5 | `ane.gov.ec` |  | ConnectEx... | wikidata | National Archives of Ecuador |
+| 4 | `ccq.ec` |  | 200 | wikidata | Quito Chamber of Commerce |
+| 4 | `inocar.mil.ec` |  | 301 | wikidata | Oceanographic Institute of the Ecuadorian Navy |
+| 4 | `quito.mfa.gov.hu` | central | SSLHandsh... | wikidata | embassy of Hungary in Ecuador |
+| 3 | `ambafrance-ec.org` | central | ConnectEx... | wikidata | Embassy of France to Quito |
+| 3 | `cubadiplomatica.cu` | central | ConnectEx... | wikidata | embassy of Cuba in Ecuador |
+| 3 | `ec.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Quito |
+| 3 | `ecuador.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Ecuador |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Ecuador |
+| 3 | `embajadadominicanaecuador.com` | central | IOExcepti... | wikidata | embassy of the Dominican Republic in Ecuador |
+| 3 | `quiport.com` |  | 301 | wikidata | Q1413753 |
+| 3 | `quito.diplo.de` | central | 200 | wikidata | Embassy of Germany, Quito |
+| 3 | `quito.embassy.qa` | central | SSLHandsh... | wikidata | embassy of Qatar in Ecuador |
+| 3 | `quito.mfa.ir` | central | 307 | wikidata | embassy of Iran in Ecuador |
+| 3 | `roc-taiwan.org` |  | 302 | wikidata | Commercial Office of Taipei, Quito |
 

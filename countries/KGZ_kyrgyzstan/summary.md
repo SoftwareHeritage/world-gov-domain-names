@@ -35,20 +35,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `agroprod.kg` | central |  | wikidata;wikidata | Ministry of Agriculture, Food Industry and Melioration |
-| 7 | `en.mes.kg` | central |  | wikidata;wikidata | Ministry of Emergency Situations of Kyrgyzstan |
-| 7 | `kenesh.kg` | central |  | wikidata;wikidata | Supreme Council |
-| 7 | `med.kg` | central |  | wikidata;wikidata | Ministry of Health of Kyrgyzstan |
-| 7 | `mvd.kg` | central |  | wikidata;wikidata | Ministry of the Interior |
-| 4 | `archive.kg` |  |  | wikidata | Central State Archives of the Republic of Kyrgyzstan |
-| 4 | `biskek.mfa.gov.hu` | central |  | wikidata | Embassy of Hungary to Kyrgyzstan |
-| 4 | `mfa.kg` |  |  | wikidata | Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic |
-| 4 | `nbkr.kg` |  |  | wikidata | National Bank of the Kyrgyz Republic |
-| 4 | `stat.kg` | central |  | wikidata | National Statistical Committee |
-| 4 | `vak.kg` |  |  | wikidata | Higher Attestation Commission of Kyrgyzstan |
-| 3 | `bischkek.diplo.de` | central |  | wikidata | Embassy of Germany, Bishkek |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to the Kyrgyz Republic |
-| 3 | `geoportal-kg.org` |  |  | wikidata | Geological Survey of Kyrgyzstan |
-| 3 | `kg.ambafrance.org` | central |  | wikidata | Embassy of France, Bishkek |
-| 3 | `mfa.tj` | central |  | wikidata | Embassy of Tajikistan, Bishkek |
+| 7 | `agroprod.kg` | central | 403 | wikidata;wikidata | Ministry of Agriculture, Food Industry and Melioration |
+| 7 | `en.mes.kg` | central | ConnectEx... | wikidata;wikidata | Ministry of Emergency Situations of Kyrgyzstan |
+| 7 | `kenesh.kg` | central | 200 | wikidata;wikidata | Supreme Council |
+| 7 | `med.kg` | central | 200 | wikidata;wikidata | Ministry of Health of Kyrgyzstan |
+| 7 | `mvd.kg` | central | SSLHandsh... | wikidata;wikidata | Ministry of the Interior |
+| 4 | `archive.kg` |  | SSLHandsh... | wikidata | Central State Archives of the Republic of Kyrgyzstan |
+| 4 | `biskek.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary to Kyrgyzstan |
+| 4 | `mfa.kg` |  | ConnectEx... | wikidata | Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic |
+| 4 | `nbkr.kg` |  | 200 | wikidata | National Bank of the Kyrgyz Republic |
+| 4 | `stat.kg` | central | SSLHandsh... | wikidata | National Statistical Committee |
+| 4 | `vak.kg` |  | 200 | wikidata | Higher Attestation Commission of Kyrgyzstan |
+| 3 | `bischkek.diplo.de` | central | 200 | wikidata | Embassy of Germany, Bishkek |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to the Kyrgyz Republic |
+| 3 | `geoportal-kg.org` |  | 200 | wikidata | Geological Survey of Kyrgyzstan |
+| 3 | `kg.ambafrance.org` | central | 301 | wikidata | Embassy of France, Bishkek |
+| 3 | `mfa.tj` | central | SSLHandsh... | wikidata | Embassy of Tajikistan, Bishkek |
 

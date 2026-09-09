@@ -1,70 +1,70 @@
 hostname,score,sources,label,level,http_status,mx
-nspo.com.eg,7,wikidata;wikidata,National Service Products Organization,,,
-custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,,
-egypt.gov.org,6,un_desa,UN/DESA national portal,,,
-egyptconsulates.org,6,wikidata;wikidata,Ministry of Foreign Affairs of Egypt,central,,
-egyptera.org,6,wikidata;wikidata,Egyptian Electric Utility and Consumer Protection Regulatory Agency,,,
-kairo.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Cairo",central,,
-sca-egypt.org,6,wikidata;wikidata,Ministry of State for Antiquities,central,,
-swedenabroad.se,6,wikidata;wikidata,"Embassy of Sweden, Cairo",central,,
-aoi.org.eg,4,wikidata,Arab Organization for Industrialization,,,
-britishcouncil.org.eg,4,wikidata,British Council Egypt,,,
-cbe.org.eg,4,wikidata,Central Bank of Egypt,,,
-cmrdi.sci.eg,4,wikidata,Central Metallurgical Research and Development Institute,,,
-drugcontrol.org.eg,4,wikidata,Q95947970,,,
-eaea.org.eg,4,wikidata,Egyptian Atomic Energy Authority,,,
-eca.org.eg,4,wikidata,Q12206326,,,
-egnatcom.org.eg,4,wikidata,Egyptian National Commission for UNESCO,,,
-ehc.eg,4,wikidata,Egyptian Health Council,,,
-elections.eg,4,wikidata,National Elections Commission,central,,
-epri.sci.eg,4,wikidata,Egyptian Petroleum Research Institute,,,
-hbrc.edu.eg,4,wikidata,Housing and Building National Research Center,,,
-kairo.mfa.gov.hu,4,wikidata,"embassy of Hungary, Cairo",central,,
-maspero.eg,4,wikidata,Egyptian Radio and Television Union,,,
-miaso.org.eg,4,wikidata,Marine Industries and Services Organization,,,
-naqaae.eg,4,wikidata,Q61052298,,,
-narss.sci.eg,4,wikidata,National Authority for Remote Sensing and Space Sciences,,,
-ncscr.org.eg,4,wikidata,Q56376697,,,
-sczone.eg,4,wikidata,The Suez Canal Economic Zone,,,
-senate.eg,4,wikidata,Senate of Egypt,central,,
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Cairo",central,,
-afghanembassy-egypt.com,3,wikidata,"Embassy of Afghanistan, Cairo",central,,
-alamiria.com,3,wikidata,Amiri Press,,,
-alexapta.org,3,wikidata,Alexandria Public Transportation Authority,,,
-alexcham.org,3,wikidata,Alexandria Chamber of Commerce,,,
-algerianembassyincairo.org,3,wikidata,"Embassy of Algeria, Cairo",central,,
-bibalex.org,3,wikidata,Bibliotheca Alexandrina,,,
-burundi-embassyinegypt.info,3,wikidata,embassy of Burundi in Egypt,central,,
-cairo.mae.ro,3,wikidata,embassy of Romania in Egypt,central,,
-cairo.mfa.ee,3,wikidata,embassy of Estonia in Cairo,central,,
-cairo.mofa.go.ug,3,wikidata,embassy of Uganda in Egypt,central,,
-cccpa-eg.org,3,wikidata,CCCPA,,,
-ealip.weebly.com,3,wikidata,Q129987333,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Egypt,,,
-eg.mfa.lt,3,wikidata,embassy of Lithuania in Egypt,central,,
-eg.mvep.hr,3,wikidata,embassy of Croatia in Egypt,central,,
-egypt.mid.ru,3,wikidata,"Embassy of Russia, Egypt",central,,
-egyptcotton-catgo.org,3,wikidata,Q121027899,,,
-egypten.um.dk,3,wikidata,embassy of Denmark in Egypt,central,,
-epassociation.net,3,wikidata,Q12185728,,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Egypt,central,,
-gopp.gggid.com,3,wikidata,Q122241246,,,
-icch-eg.com,3,wikidata,The General Authority for Construction and Housing Cooperatives,,,
-imc-egypt.org,3,wikidata,Q112303626,,,
-islamic-council.net,3,wikidata,Supreme Council for Islamic Affairs (Egypt),,,
-kairo.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Cairo",central,,
-lfrpda.org,3,wikidata,Egyptian Lakes and Fish Resources Protection and Development Agency,,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Egypt,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Egypt,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Egypt,central,,
-nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Cairo",central,,
-netherlandsandyou.nl,3,wikidata,"Embassy of the Netherlands, Cairo",central,,
-nffcd.org,3,wikidata,Q60914533,,,
-norway.no,3,wikidata,"Embassy of Norway, Cairo",central,,
-palembeg.ps,3,wikidata,"Embassy of Palestine, Cairo",central,,
-socialtakafol.com,3,wikidata,Q60914549,,,
-unesco.org,3,wikidata,UNESCO office Egypt,,,
-who.int,3,wikidata,World Health Organization – Egypt,,,
-eg.ambafrance.org,1,wikidata;wikidata;wikidata,"Consulate-General of France in Alexandria | Embassy of France, Giza",central,,
-erembassy.com,1,wikidata;wikidata;wikidata,embassy of Eritrea in Egypt,central,,
-mfa.gr,1,wikidata;wikidata;wikidata,Greek Consulate General in Alexandria | embassy of Greece in Egypt,central,,
+nspo.com.eg,7,wikidata;wikidata,National Service Products Organization,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ExchangeSMTP.mod.gov.eg.
+custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+egypt.gov.org,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,1000 0.0.0.0.
+egyptconsulates.org,6,wikidata;wikidata,Ministry of Foreign Affairs of Egypt,central,200,10 mail.egyptconsulates.org.
+egyptera.org,6,wikidata;wikidata,Egyptian Electric Utility and Consumer Protection Regulatory Agency,,200,1 mail.egyptera.org.; 5 mail2.egyptera.org.
+kairo.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Cairo",central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.bund.de.; 10 mx2.bund.de.
+sca-egypt.org,6,wikidata;wikidata,Ministry of State for Antiquities,central,200,none
+swedenabroad.se,6,wikidata;wikidata,"Embassy of Sweden, Cairo",central,301,none
+aoi.org.eg,4,wikidata,Arab Organization for Industrialization,,ConnectException: Host is unreachable,10 webmail.aoi.org.eg.
+britishcouncil.org.eg,4,wikidata,British Council Egypt,,301,10 britishcouncil-org-eg.mail.protection.outlook.com.
+cbe.org.eg,4,wikidata,Central Bank of Egypt,,403,10 mail.cbe.org.eg.
+cmrdi.sci.eg,4,wikidata,Central Metallurgical Research and Development Institute,,200,10 mailsrv.cmrdi.sci.eg.
+drugcontrol.org.eg,4,wikidata,Q95947970,,HttpConnectTimeoutException: HTTP connect timed out,10 MX.IPI.GOV.eg.
+eaea.org.eg,4,wikidata,Egyptian Atomic Energy Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 eaea.org.eg.
+eca.org.eg,4,wikidata,Q12206326,,HttpConnectTimeoutException: HTTP connect timed out,0 mx.ipi.gov.eg.
+egnatcom.org.eg,4,wikidata,Egyptian National Commission for UNESCO,,HttpConnectTimeoutException: HTTP connect timed out,0 egnatcom-org-eg.mail.protection.outlook.com.
+ehc.eg,4,wikidata,Egyptian Health Council,,200,0 ehc-eg.mail.protection.outlook.com.
+elections.eg,4,wikidata,National Elections Commission,central,301,10 mx.zoho.com.; 50 mx3.zoho.com.; 20 mx2.zoho.com.
+epri.sci.eg,4,wikidata,Egyptian Petroleum Research Institute,,HttpConnectTimeoutException: HTTP connect timed out,20 smtp.egcloud.gov.eg.; 10 smtp1.egcloud.gov.eg.
+hbrc.edu.eg,4,wikidata,Housing and Building National Research Center,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp1.egcloud.gov.eg.; 20 smtp.egcloud.gov.eg.
+kairo.mfa.gov.hu,4,wikidata,"embassy of Hungary, Cairo",central,HttpConnectTimeoutException: HTTP connect timed out,none
+maspero.eg,4,wikidata,Egyptian Radio and Television Union,,301,10 smtp.egcloud.gov.eg.
+miaso.org.eg,4,wikidata,Marine Industries and Services Organization,,HttpConnectTimeoutException: HTTP connect timed out,0 cloud97.hostgator.com.
+naqaae.eg,4,wikidata,Q61052298,,200,0 naqaae-eg.mail.protection.outlook.com.
+narss.sci.eg,4,wikidata,National Authority for Remote Sensing and Space Sciences,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.narss.sci.eg.
+ncscr.org.eg,4,wikidata,Q56376697,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ncscr-org-eg.mail.protection.outlook.com.
+sczone.eg,4,wikidata,The Suez Canal Economic Zone,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp1.egcloud.gov.eg.; 20 smtp.egcloud.gov.eg.
+senate.eg,4,wikidata,Senate of Egypt,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 bmail2mx.hosting.link.net.
+sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Cairo",central,ConnectException,none
+afghanembassy-egypt.com,3,wikidata,"Embassy of Afghanistan, Cairo",central,200,0 0.
+alamiria.com,3,wikidata,Amiri Press,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 linkmx.hosting.link.net.
+alexapta.org,3,wikidata,Alexandria Public Transportation Authority,,200,5 mx1-hosting.jellyfish.systems.; 10 mx2-hosting.jellyfish.systems.; 20 mx3-hosting.jellyfish.systems.
+alexcham.org,3,wikidata,Alexandria Chamber of Commerce,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.zoho.com.; 20 mx3.zoho.com.; 20 mx2.zoho.com.
+algerianembassyincairo.org,3,wikidata,"Embassy of Algeria, Cairo",central,ConnectException,none
+bibalex.org,3,wikidata,Bibliotheca Alexandrina,,301,10 mx.bibalex.org.
+burundi-embassyinegypt.info,3,wikidata,embassy of Burundi in Egypt,central,HttpConnectTimeoutException: HTTP connect timed out,none
+cairo.mae.ro,3,wikidata,embassy of Romania in Egypt,central,503,none
+cairo.mfa.ee,3,wikidata,embassy of Estonia in Cairo,central,HttpConnectTimeoutException: HTTP connect timed out,none
+cairo.mofa.go.ug,3,wikidata,embassy of Uganda in Egypt,central,200,none
+cccpa-eg.org,3,wikidata,CCCPA,,403,0 cccpaeg-org01c.mail.protection.outlook.com.
+ealip.weebly.com,3,wikidata,Q129987333,,200,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Egypt,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+eg.mfa.lt,3,wikidata,embassy of Lithuania in Egypt,central,403,none
+eg.mvep.hr,3,wikidata,embassy of Croatia in Egypt,central,ConnectException,none
+egypt.mid.ru,3,wikidata,"Embassy of Russia, Egypt",central,HttpConnectTimeoutException: HTTP connect timed out,none
+egyptcotton-catgo.org,3,wikidata,Q121027899,,HttpConnectTimeoutException: HTTP connect timed out,0 egyptcottoncatgo-org02i.mail.protection.outlook.com.
+egypten.um.dk,3,wikidata,embassy of Denmark in Egypt,central,301,none
+epassociation.net,3,wikidata,Q12185728,,HttpConnectTimeoutException: HTTP connect timed out,none
+finlandabroad.fi,3,wikidata,embassy of Finland in Egypt,central,301,10 mail.valtori.fi.
+gopp.gggid.com,3,wikidata,Q122241246,,302,none
+icch-eg.com,3,wikidata,The General Authority for Construction and Housing Cooperatives,,200,0 iccheg-com01b.mail.protection.outlook.com.
+imc-egypt.org,3,wikidata,Q112303626,,SSLHandshakeException: Remote host terminated the handshake,10 mail.imc-egypt.org.
+islamic-council.net,3,wikidata,Supreme Council for Islamic Affairs (Egypt),,301,none
+kairo.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Cairo",central,SSLHandshakeException: Remote host terminated the handshake,none
+lfrpda.org,3,wikidata,Egyptian Lakes and Fish Resources Protection and Development Agency,,301,none
+mfa.bg,3,wikidata,embassy of Bulgaria in Egypt,central,302,0 mfa-bg.mail.protection.outlook.com.
+mzv.cz,3,wikidata,embassy of the Czech republic in Egypt,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Egypt,central,301,10 mail.gov.sk.
+nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Cairo",central,301,0 .
+netherlandsandyou.nl,3,wikidata,"Embassy of the Netherlands, Cairo",central,301,0 .
+nffcd.org,3,wikidata,Q60914533,,200,10 alt3.aspmx.l.google.com.; 0 nffcd.org.; 5 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+norway.no,3,wikidata,"Embassy of Norway, Cairo",central,301,0 mx.domeneshop.no.
+palembeg.ps,3,wikidata,"Embassy of Palestine, Cairo",central,200,10 mail.palembeg.ps.
+socialtakafol.com,3,wikidata,Q60914549,,200,0 mail.socialtakafol.com.
+unesco.org,3,wikidata,UNESCO office Egypt,,302,20 unesco-org.mail.protection.outlook.com.
+who.int,3,wikidata,World Health Organization – Egypt,,301,10 who-int.mail.protection.outlook.com.
+eg.ambafrance.org,1,wikidata;wikidata;wikidata,"Consulate-General of France in Alexandria | Embassy of France, Giza",central,301,none
+erembassy.com,1,wikidata;wikidata;wikidata,embassy of Eritrea in Egypt,central,302,none
+mfa.gr,1,wikidata;wikidata;wikidata,Greek Consulate General in Alexandria | embassy of Greece in Egypt,central,403,10 mailhost.mfa.gr.

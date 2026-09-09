@@ -1,11 +1,11 @@
 hostname,score,sources,label,level,http_status,mx
-aprc.sd,4,wikidata,Animal Production Research Center,,,
-meteosudan.sd,4,wikidata,Sudan Meteorological Authority,,,
-sudapost.sd,4,wikidata,SudaPost,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Sudan,,,
-khartoum.mae.ro,3,wikidata,embassy of Romania in Sudan,central,,
-khartum.diplo.de,3,wikidata,"Embassy of Germany, Khartoum",central,,
-norway.no,3,wikidata,"Embassy of Norway, Khartoum",central,,
-sd.ambafrance.org,3,wikidata,"Embassy of France, Khartoum",central,,
-sudan.mid.ru,3,wikidata,embassy of Russia in Sudan,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Khartoum",central,,
+aprc.sd,4,wikidata,Animal Production Research Center,,HttpConnectTimeoutException: HTTP connect timed out,0 aprc.sd.
+meteosudan.sd,4,wikidata,Sudan Meteorological Authority,,200,none
+sudapost.sd,4,wikidata,SudaPost,,200,0 _dc-mx.006e3f69d07b.sudapost.sd.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Sudan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+khartoum.mae.ro,3,wikidata,embassy of Romania in Sudan,central,503,none
+khartum.diplo.de,3,wikidata,"Embassy of Germany, Khartoum",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+norway.no,3,wikidata,"Embassy of Norway, Khartoum",central,301,0 mx.domeneshop.no.
+sd.ambafrance.org,3,wikidata,"Embassy of France, Khartoum",central,301,none
+sudan.mid.ru,3,wikidata,embassy of Russia in Sudan,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Khartoum",central,301,none

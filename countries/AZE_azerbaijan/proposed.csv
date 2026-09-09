@@ -1,35 +1,35 @@
 hostname,score,sources,label,level,http_status,mx
-cert.az,7,wikidata;wikidata;wikidata;wikidata,Electronic Security Service | National Cybersecurity Agency,,,
-e-gov.az,6,un_desa,UN/DESA national portal,,,
-afghanemb.az,4,wikidata,"Embassy of Afghanistan, Baku",central,,
-aida.az,4,wikidata,Azerbaijan International Development Agency,,,
-azercosmos.az,4,wikidata,Azercosmos,,,
-azerishiq.az,4,wikidata,Azerishiq Open Joint-Stock Company,,,
-azersu.az,4,wikidata,Azersu Open Joint-Stock Company,,,
-azertag.az,4,wikidata,Azerbaijan State News Agency,,,
-azpromo.az,4,wikidata,Azerbaijan Export and İnvestment Promotion Fund,,,
-baku.mfa.gov.hu,4,wikidata,Embassy of Hungary in Baku,central,,
-cbar.az,4,wikidata,Central Bank of Azerbaijan,central,,
-drim.az,4,wikidata,DOST Digital Innovations Center,,,
-embassyofpalestine.az,4,wikidata,Embassy of the State of Palestine in Azerbaijan,central,,
-fiu.az,4,wikidata,Financial Monitoring Service,,,
-ier.az,4,wikidata,Institute for Scientific Research on Economic Reforms,,,
-millikitabxana.az,4,wikidata,National Library of Azerbaijan,,,
-pharma.az,4,wikidata,"Azərbaycan Respublikası Səhiyyə Nazirliyi ""Analitik Ekspertiza Mərkəzi"" Publik Hüquqi Şəxsi",,,
-president.az,4,wikidata,The Office of Azerbaijan President,,,
-smeti.az,4,wikidata,Water and Amelioration Scientific Research Institute PLE,,,
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Baku",central,,
-unesco.az,4,wikidata,National Commission of the Republic of Azerbaijan for UNESCO,,,
-zoologiya.az,4,wikidata,Living Systems Research Institute,,,
-az.ambafrance.org,3,wikidata,"Embassy of France, Baku",central,,
-az.mfa.lt,3,wikidata,embassy of Lithuania in Azerbaijan,central,,
-azerbaijan.mid.ru,3,wikidata,"Embassy of Russia, Baku",central,,
-baku.diplo.de,3,wikidata,"Embassy of Germany, Baku",central,,
-baku.mae.ro,3,wikidata,"Embassy of Romania, Baku",central,,
-baku.mfa.af,3,wikidata,"Embassy of Afghanistan, Baku",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Azerbaijan,,,
-indianembassybaku.in,3,wikidata,"Embassy of India, Baku",central,,
-mfa.gr,3,wikidata,"Embassy of Greece, Baku",central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Azerbaijan,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Azerbaijan,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Baku",central,,
+cert.az,7,wikidata;wikidata;wikidata;wikidata,Electronic Security Service | National Cybersecurity Agency,,200,0 cert-az.mail.protection.outlook.com.
+e-gov.az,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp.e-gov.az.
+afghanemb.az,4,wikidata,"Embassy of Afghanistan, Baku",central,ConnectException,none
+aida.az,4,wikidata,Azerbaijan International Development Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mmx.mail.gov.az.
+azercosmos.az,4,wikidata,Azercosmos,,307,20 mail1.azercosmos.az.; 10 mail.azercosmos.az.
+azerishiq.az,4,wikidata,Azerishiq Open Joint-Stock Company,,200,10 mail01.azerishiq.az.
+azersu.az,4,wikidata,Azersu Open Joint-Stock Company,,HttpConnectTimeoutException: HTTP connect timed out,1 mmx.mail.gov.az.
+azertag.az,4,wikidata,Azerbaijan State News Agency,,200,none
+azpromo.az,4,wikidata,Azerbaijan Export and İnvestment Promotion Fund,,302,100 depot.hoster.az.; 0 mail1.azpromo.az.
+baku.mfa.gov.hu,4,wikidata,Embassy of Hungary in Baku,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cbar.az,4,wikidata,Central Bank of Azerbaijan,central,200,20 mail02.cbar.az.; 10 mail.cbar.az.
+drim.az,4,wikidata,DOST Digital Innovations Center,,HttpConnectTimeoutException: HTTP connect timed out,none
+embassyofpalestine.az,4,wikidata,Embassy of the State of Palestine in Azerbaijan,central,200,20 mx2.beget.com.; 10 mx1.beget.com.
+fiu.az,4,wikidata,Financial Monitoring Service,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.fiu.az.
+ier.az,4,wikidata,Institute for Scientific Research on Economic Reforms,,301,none
+millikitabxana.az,4,wikidata,National Library of Azerbaijan,,301,none
+pharma.az,4,wikidata,"Azərbaycan Respublikası Səhiyyə Nazirliyi ""Analitik Ekspertiza Mərkəzi"" Publik Hüquqi Şəxsi",,200,0 mx.pharma.az.
+president.az,4,wikidata,The Office of Azerbaijan President,,200,0 mmx.mail.gov.az.
+smeti.az,4,wikidata,Water and Amelioration Scientific Research Institute PLE,,200,10 emx.mail.ru.
+sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Baku",central,ConnectException,none
+unesco.az,4,wikidata,National Commission of the Republic of Azerbaijan for UNESCO,,302,0 mmx.mail.gov.az.
+zoologiya.az,4,wikidata,Living Systems Research Institute,,200,5 mx2.hosting.reg.ru.; 0 mx1.hosting.reg.ru.
+az.ambafrance.org,3,wikidata,"Embassy of France, Baku",central,301,none
+az.mfa.lt,3,wikidata,embassy of Lithuania in Azerbaijan,central,403,none
+azerbaijan.mid.ru,3,wikidata,"Embassy of Russia, Baku",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+baku.diplo.de,3,wikidata,"Embassy of Germany, Baku",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+baku.mae.ro,3,wikidata,"Embassy of Romania, Baku",central,503,none
+baku.mfa.af,3,wikidata,"Embassy of Afghanistan, Baku",central,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Azerbaijan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+indianembassybaku.in,3,wikidata,"Embassy of India, Baku",central,ConnectException,none
+mfa.gr,3,wikidata,"Embassy of Greece, Baku",central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Azerbaijan,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Azerbaijan,central,301,10 mail.gov.sk.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Baku",central,301,none

@@ -1,0 +1,15 @@
+hostname,http_status,mx
+assemblee.bi,HttpConnectTimeoutException: HTTP connect timed out,dig error
+bi.ambafrance.org,301,none
+brb.bi,ConnectException: Host is unreachable,0 mail.brb.bi.
+bujumbura.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+burundi.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+burundistats.org,200,0 _dc-mx.50d48d5f2d41.burundistats.org.
+ceniburundi.bi,HttpConnectTimeoutException: HTTP connect timed out,dig error
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+igebu.bi,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching igebu.bi found.,none
+insbu.bi,200,0 insbu.bi.
+lta.iwlearn.org,HttpConnectTimeoutException: HTTP connect timed out,none
+minisante.bi,200,none
+nationallibraryofburundi.org,HttpConnectTimeoutException: HTTP connect timed out,none
+senat.bi,HttpConnectTimeoutException: HTTP connect timed out,dig error

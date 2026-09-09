@@ -1,24 +1,24 @@
 hostname,score,sources,label,level,http_status,mx
-agaciro.rw,4,wikidata,AgDF  Agaciro Corporate Trust Ltd,,,
-bnr.rw,4,wikidata,National Bank of Rwanda,,,
-cma.rw,4,wikidata,Rwanda Capital Market Authority CMA,,,
-ikigega.rw,4,wikidata,SGF  Special Guarantee Fund,,,
-lands.rw,4,wikidata,RLMUA  Rwanda Land Management and Use Authority,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kigali",central,,
-raeb.prod.risa.rw,4,wikidata,Rwanda Atomic Energy Board,,,
-rdb.rw,4,wikidata,Rwanda Development Board,,,
-rfa.rw,4,wikidata,Q136509270,,,
-rp.ac.rw,4,wikidata,RP  Rwanda Polytechnic,,,
-rpa.ac.rw,4,wikidata,Rwanda Peace Academy,,,
-rssb.rw,4,wikidata,Rwanda Social Security Board,,,
-rura.rw,4,wikidata,Rwanda Utilities Regulatory Authority,,,
-rwb.rw,4,wikidata,Rwanda Water Resources Board,,,
-unesco.rw,4,wikidata,Rwanda National Commission for UNESCO,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Rwanda,,,
-greatervirunga.org,3,wikidata,Q132472718,,,
-kenyahighcomkigali.org,3,wikidata,"High Commission of Kenya, Kigali",central,,
-kigali.diplo.de,3,wikidata,"Embassy of Germany, Kigali",central,,
-rw.ambafrance.org,3,wikidata,"Embassy of France, Kigali",central,,
-rw.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Kigali",central,,
-rwanda.mid.ru,3,wikidata,"Embassy of Russia, Kigali",central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Kigali",central,,
+agaciro.rw,4,wikidata,AgDF  Agaciro Corporate Trust Ltd,,200,dig error
+bnr.rw,4,wikidata,National Bank of Rwanda,,200,0 bnr-rw.mail.protection.outlook.com.; 100 _dc-mx.a844bfdd2713.bnr.rw.
+cma.rw,4,wikidata,Rwanda Capital Market Authority CMA,,301,10 gateway.aos.rw.
+ikigega.rw,4,wikidata,SGF  Special Guarantee Fund,,301,10 gateway.aos.rw.
+lands.rw,4,wikidata,RLMUA  Rwanda Land Management and Use Authority,,301,10 gateway.aos.rw.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kigali",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+raeb.prod.risa.rw,4,wikidata,Rwanda Atomic Energy Board,,HttpConnectTimeoutException: HTTP connect timed out,none
+rdb.rw,4,wikidata,Rwanda Development Board,,200,10 gateway.aos.rw.
+rfa.rw,4,wikidata,Q136509270,,301,10 gateway.aos.rw.
+rp.ac.rw,4,wikidata,RP  Rwanda Polytechnic,,301,10 gateway.aos.rw.
+rpa.ac.rw,4,wikidata,Rwanda Peace Academy,,301,10 gateway.aos.rw.
+rssb.rw,4,wikidata,Rwanda Social Security Board,,200,0 rssb-rw.mail.protection.outlook.com.
+rura.rw,4,wikidata,Rwanda Utilities Regulatory Authority,,301,5 d358614b.ess.barracudanetworks.com.; 0 d358614a.ess.barracudanetworks.com.
+rwb.rw,4,wikidata,Rwanda Water Resources Board,,301,dig error
+unesco.rw,4,wikidata,Rwanda National Commission for UNESCO,,HttpConnectTimeoutException: HTTP connect timed out,10 gateway.aos.rw.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Rwanda,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+greatervirunga.org,3,wikidata,Q132472718,,200,0 greatervirunga-org.mail.protection.outlook.com.
+kenyahighcomkigali.org,3,wikidata,"High Commission of Kenya, Kigali",central,200,0 kenyahighcomkigali.org.
+kigali.diplo.de,3,wikidata,"Embassy of Germany, Kigali",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+rw.ambafrance.org,3,wikidata,"Embassy of France, Kigali",central,301,none
+rw.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Kigali",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rw.china-embassy.org found.,none
+rwanda.mid.ru,3,wikidata,"Embassy of Russia, Kigali",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Kigali",central,301,none

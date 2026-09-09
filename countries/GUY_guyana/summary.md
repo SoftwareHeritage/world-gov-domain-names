@@ -35,12 +35,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 4 | `bankofguyana.org.gy` |  |  | wikidata | Bank of Guyana |
-| 4 | `cdc.gy` |  |  | wikidata | Civil Defense Commission of Guyana |
-| 3 | `eeas.europa.eu` | central |  | wikidata | Delegation of the European Union to Guyana, for Suriname, and with responsibi... |
-| 3 | `gnbsgy.org` |  |  | wikidata | Guyana National Bureau of Standards |
-| 3 | `guyana.mid.ru` | central |  | wikidata | embassy of Russia in Guyana |
-| 3 | `hcigeorgetown.org` | central |  | wikidata | High Commission of India, Georgetown |
-| 3 | `nationallibraryofguyana.com` |  |  | wikidata | National Library of Guyana |
-| 3 | `surguychamber.org` |  |  | wikidata | Suriname-Guyana Kamer van Koophandel |
+| 4 | `bankofguyana.org.gy` |  | 301 | wikidata | Bank of Guyana |
+| 4 | `cdc.gy` |  | 302 | wikidata | Civil Defense Commission of Guyana |
+| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Guyana, for Suriname, and with responsibi... |
+| 3 | `gnbsgy.org` |  | 200 | wikidata | Guyana National Bureau of Standards |
+| 3 | `guyana.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Guyana |
+| 3 | `hcigeorgetown.org` | central | 301 | wikidata | High Commission of India, Georgetown |
+| 3 | `nationallibraryofguyana.com` |  | HttpConne... | wikidata | National Library of Guyana |
+| 3 | `surguychamber.org` |  | 200 | wikidata | Suriname-Guyana Kamer van Koophandel |
 

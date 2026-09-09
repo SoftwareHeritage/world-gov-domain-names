@@ -1,23 +1,23 @@
 hostname,score,sources,label,level,http_status,mx
-asambleanacionalvenezuela.org,6,wikidata;wikidata;wikidata;wikidata,National Assembly | National Assembly  of Venezuela,central,,
-centroamericaribeschp.com,6,wikidata;wikidata,Piarist province Central America- Caribbean,,,
-dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,,
-gobiernoenlinea.ve,6,un_desa,UN/DESA national portal,,,
-inia.gov.ve,5,wikidata,Instituto Nacional de Investigaciones Agricolas,,,
-ivss.gov.ve,5,wikidata,Instituto Venezolano de los Seguros Sociales,,,
-tsjlegitimo.org,5,wikidata,Supreme Tribunal of Justice of Venezuela in exile,central,,
-bcv.org.ve,4,wikidata,Central Bank of Venezuela,,,
-dgim.mil.ve,4,wikidata,Dirección de Inteligencia Militar,,,
-embajada-guineaecuatorial.com.ve,4,wikidata,embassy of Equatorial Guinea in Venezuela,central,,
-guardia.mil.ve,4,wikidata,Bolivarian National Guard,,,
-ambassadehaitivenezuela.org,3,wikidata,embassy of Haiti in Venezuela,central,,
-caracas.diplo.de,3,wikidata,"Embassy of Germany, Caracas",central,,
-caracas.embassy.qa,3,wikidata,embassy of Qatar in Venezuela,central,,
-caracas.mae.ro,3,wikidata,embassy of Romania in Venezuela,central,,
-consecomercio.org,3,wikidata,Q5783627,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Venezuela,,,
-emb-abjasia.com,3,wikidata,"Embassy of Abkhazia, Caracas",central,,
-nigerianembassycaracas.org,3,wikidata,embassy of Nigeria in Venezuela,central,,
-ve.ambafrance.org,3,wikidata,"Embassy of France, Caracas",central,,
-venezuela.mid.ru,3,wikidata,embassy of Russia in Venezuela,central,,
-holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,,
+asambleanacionalvenezuela.org,6,wikidata;wikidata;wikidata;wikidata,National Assembly | National Assembly  of Venezuela,central,301,none
+centroamericaribeschp.com,6,wikidata;wikidata,Piarist province Central America- Caribbean,,400,none
+dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
+gobiernoenlinea.ve,6,un_desa,UN/DESA national portal,,ConnectException,none
+inia.gov.ve,5,wikidata,Instituto Nacional de Investigaciones Agricolas,,HttpConnectTimeoutException: HTTP connect timed out,none
+ivss.gov.ve,5,wikidata,Instituto Venezolano de los Seguros Sociales,,HttpConnectTimeoutException: HTTP connect timed out,10 correo.ivss.gov.ve.; 20 relay.ivss.gob.ve.; 30 correoh.ivss.gov.ve.
+tsjlegitimo.org,5,wikidata,Supreme Tribunal of Justice of Venezuela in exile,central,200,10 alltheemails.com.
+bcv.org.ve,4,wikidata,Central Bank of Venezuela,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.bcv.org.ve.; 20 correo.bcv.org.ve.; 30 mail-mbo.bcv.org.ve.
+dgim.mil.ve,4,wikidata,Dirección de Inteligencia Militar,,HttpConnectTimeoutException: HTTP connect timed out,none
+embajada-guineaecuatorial.com.ve,4,wikidata,embassy of Equatorial Guinea in Venezuela,central,200,0 mail.embajada-guineaecuatorial.com.ve.; 20 mx1.embajada-guineaecuatorial.com.ve.
+guardia.mil.ve,4,wikidata,Bolivarian National Guard,,ConnectException: Host is unreachable,none
+ambassadehaitivenezuela.org,3,wikidata,embassy of Haiti in Venezuela,central,ConnectException,none
+caracas.diplo.de,3,wikidata,"Embassy of Germany, Caracas",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+caracas.embassy.qa,3,wikidata,embassy of Qatar in Venezuela,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+caracas.mae.ro,3,wikidata,embassy of Romania in Venezuela,central,503,none
+consecomercio.org,3,wikidata,Q5783627,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consecomercio.org found.,0 mail.consecomercio.org.; 20 mx1.consecomercio.org.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Venezuela,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+emb-abjasia.com,3,wikidata,"Embassy of Abkhazia, Caracas",central,301,none
+nigerianembassycaracas.org,3,wikidata,embassy of Nigeria in Venezuela,central,503,0 nigerianembassycaracas.org.
+ve.ambafrance.org,3,wikidata,"Embassy of France, Caracas",central,301,none
+venezuela.mid.ru,3,wikidata,embassy of Russia in Venezuela,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none

@@ -1,0 +1,13 @@
+hostname,http_status,mx
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embrusscambodia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+grk.com.kh,ConnectException,none
+hiscambodia.org,HttpConnectTimeoutException: HTTP connect timed out,none
+kh.ambafrance.org,301,none
+kh.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kh.china-embassy.org found.,none
+nac.org.kh,200,0 mail.nac.org.kh.
+nbc.org.kh,HttpConnectTimeoutException: HTTP connect timed out,none
+nchads.org,302,0 mail.nchads.org.
+necelect.org.kh,ConnectException,none
+phnom-penh.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+thaiembassy.org,200,none

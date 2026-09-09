@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `government.ru` | central |  | un_desa;wikidata;wikidata | Government of Russia | UN/DESA national portal |
-| 7 | `19.mvd.ru` |  |  | wikidata;wikidata | Ministry of Internal Affairs of Khakassia | Ministry of Internal Affairs of K... |
-| 7 | `akzs.ru` | central-1 |  | wikidata;wikidata | Altai Krai Legislative Assembly |
-| 7 | `arbitr.ru` | central |  | wikidata;wikidata | Q4068672 | Supreme Court of Arbitration of Russia |
-| 7 | `cikrf.ru` | central |  | wikidata;wikidata | Central Election Commission of Russia |
-| 7 | `culture.volgograd.ru` | central-1 |  | wikidata;wikidata | Committee of Culture of the Volgograd Oblast |
-| 7 | `customs.ru` |  |  | wikidata;wikidata | Federal Customs Service of Russia |
-| 7 | `dagminobr.ru` |  |  | wikidata;wikidata | Q21641675 |
-| 7 | `digital.tatarstan.ru` | central-1 |  | wikidata;wikidata | Ministry of Digitalization of Public Administration, Information Technologies... |
-| 7 | `duma.mos.ru` | central-1 |  | wikidata;wikidata;wikidata | Moscow City Duma |
-| 7 | `duma72.ru` | central-1 |  | wikidata;wikidata | Tyumen Oblast Duma |
-| 7 | `dumahmao.ru` | central-1 |  | wikidata;wikidata | Duma of Khanty-Mansi Autonomous Okrug — Yugra |
-| 7 | `eco.tatarstan.ru` | central-1 |  | wikidata;wikidata | Ministry of Ecology and Natural Resources for the Republic of Tatarstan |
-| 7 | `egov-buryatia.ru` | central-1 |  | wikidata;wikidata;wikidata | People's Khural of the Republic of Buryatia |
-| 7 | `en.sledcom.ru` | central |  | wikidata;wikidata | Investigative Committee of Russia |
-| 7 | `fedsfm.ru` |  |  | wikidata;wikidata | Rosfinmonitoring |
-| 7 | `fsb.ru` | central |  | wikidata;wikidata;wikidata;wikidata | Federal Security Service | Q4503984 | Central Archive of the Federal Security... |
-| 7 | `fstec.ru` |  |  | wikidata;wikidata | Federal Service for Technical and Export Control |
-| 7 | `gambiaembassy.ru` | central |  | wikidata;wikidata | embassy of the Gambia in Russia |
-| 7 | `gorduma-voronezh.ru` |  |  | wikidata;wikidata | Voronezh City Duma |
+| 10 | `government.ru` | central | HttpConne... | un_desa;wikidata;wikidata | Government of Russia | UN/DESA national portal |
+| 7 | `19.mvd.ru` |  | HttpConne... | wikidata;wikidata | Ministry of Internal Affairs of Khakassia | Ministry of Internal Affairs of K... |
+| 7 | `akzs.ru` | central-1 | 200 | wikidata;wikidata | Altai Krai Legislative Assembly |
+| 7 | `arbitr.ru` | central | 200 | wikidata;wikidata | Q4068672 | Supreme Court of Arbitration of Russia |
+| 7 | `cikrf.ru` | central | HttpConne... | wikidata;wikidata | Central Election Commission of Russia |
+| 7 | `culture.volgograd.ru` | central-1 | HttpConne... | wikidata;wikidata | Committee of Culture of the Volgograd Oblast |
+| 7 | `customs.ru` |  | HttpConne... | wikidata;wikidata | Federal Customs Service of Russia |
+| 7 | `dagminobr.ru` |  | 200 | wikidata;wikidata | Q21641675 |
+| 7 | `digital.tatarstan.ru` | central-1 | HttpConne... | wikidata;wikidata | Ministry of Digitalization of Public Administration, Information Technologies... |
+| 7 | `duma.mos.ru` | central-1 | ConnectEx... | wikidata;wikidata;wikidata | Moscow City Duma |
+| 7 | `duma72.ru` | central-1 | SSLHandsh... | wikidata;wikidata | Tyumen Oblast Duma |
+| 7 | `dumahmao.ru` | central-1 | 200 | wikidata;wikidata | Duma of Khanty-Mansi Autonomous Okrug — Yugra |
+| 7 | `eco.tatarstan.ru` | central-1 | HttpConne... | wikidata;wikidata | Ministry of Ecology and Natural Resources for the Republic of Tatarstan |
+| 7 | `egov-buryatia.ru` | central-1 | 200 | wikidata;wikidata;wikidata | People's Khural of the Republic of Buryatia |
+| 7 | `en.sledcom.ru` | central | 403 | wikidata;wikidata | Investigative Committee of Russia |
+| 7 | `fedsfm.ru` |  | SSLHandsh... | wikidata;wikidata | Rosfinmonitoring |
+| 7 | `fsb.ru` | central | HttpConne... | wikidata;wikidata;wikidata;wikidata | Federal Security Service | Q4503984 | Central Archive of the Federal Security... |
+| 7 | `fstec.ru` |  | HttpConne... | wikidata;wikidata | Federal Service for Technical and Export Control |
+| 7 | `gambiaembassy.ru` | central | 200 | wikidata;wikidata | embassy of the Gambia in Russia |
+| 7 | `gorduma-voronezh.ru` |  | 200 | wikidata;wikidata | Voronezh City Duma |
 

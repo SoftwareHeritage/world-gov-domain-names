@@ -1,9 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
-parlamento.gw,8,wikidata;wikidata,National People's Assembly,central,,
-bceao.int,3,wikidata,Central Bank of West African States,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Guinea-Bissau,,,
-guinea-bissau.mid.ru,3,wikidata,embassy of Russia in Guinea-Bissau,central,,
-gw.ambafrance.org,3,wikidata,"Embassy of France, Bissau",central,,
-gw.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Bissau",central,,
-inep-bissau.org,3,wikidata,National Library of Guinea-Bissau,,,
-stat-guinebissau.com,3,wikidata,Instituto Nacional de Estatística,central,,
+parlamento.gw,8,wikidata;wikidata,National People's Assembly,central,308,10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Guinea-Bissau,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+guinea-bissau.mid.ru,3,wikidata,embassy of Russia in Guinea-Bissau,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+gw.ambafrance.org,3,wikidata,"Embassy of France, Bissau",central,301,none
+gw.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Bissau",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gw.china-embassy.org found.,none
+inep-bissau.org,3,wikidata,National Library of Guinea-Bissau,,301,none
+stat-guinebissau.com,3,wikidata,Instituto Nacional de Estatística,central,200,none

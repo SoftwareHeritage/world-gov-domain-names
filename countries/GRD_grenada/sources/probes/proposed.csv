@@ -1,0 +1,11 @@
+hostname,http_status,mx
+eccb-centralbank.org,ConnectException,0 eccbcentralbank-org01b.mail.protection.outlook.com.
+finance.gd,200,none
+gdbs.gd,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+grenadacustoms.com,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching grenadacustoms.com found.,10 mail1.bravehost.com.; 20 mail2.bravehost.com.
+grenadafiu.com,200,10 mail1.bravehost.com.; 20 mail2.bravehost.com.
+grenadaparliament.gd,200,0 mail.grenadaparliament.gd.
+imagrenada.gd,200,0 imagrenada-gd.mail.protection.outlook.com.
+ird.gd,302,20 mail2.bravehost.com.; 10 mail1.bravehost.com.
+nadma.gd,401,0 nadma-gd.mail.protection.outlook.com.
+procurement.gd,301,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.

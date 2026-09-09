@@ -1,17 +1,17 @@
 hostname,score,sources,label,level,http_status,mx
-jesuitascam.org,6,wikidata;wikidata,Jesuit Province of Central America,,,
-banconal.com.pa,4,wikidata,National Bank of Panama,,,
-binal.ac.pa,4,wikidata,National Library of Panama,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Panama",central,,
-ccecasadelsoldado.aecid.es,3,wikidata,Q141094139,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Panama,,,
-embahn-panama.com,3,wikidata,embassy of Honduras in Panama,central,,
-embajadabolpan.com,3,wikidata,embassy of Bolivia in Panama,central,,
-embajadacostaricaenpanama.com,3,wikidata,embassy of Costa Rica in Panama,central,,
-indianembassyinpanama.com,3,wikidata,"Embassy of India, Panama City",central,,
-pa.ambafrance.org,3,wikidata,"Embassy of France, Panama City",central,,
-pa.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Panama City",central,,
-panama-city.embassy.qa,3,wikidata,embassy of Qatar in Panama,central,,
-panama.diplo.de,3,wikidata,"Embassy of Germany, Panama",central,,
-panama.mid.ru,3,wikidata,embassy of Russia in Panama,central,,
-pancanal.com,3,wikidata,Panama Canal Authority,,,
+jesuitascam.org,6,wikidata;wikidata,Jesuit Province of Central America,,200,50 mx3.zoho.com.; 10 mx.zoho.com.; 20 mx2.zoho.com.
+banconal.com.pa,4,wikidata,National Bank of Panama,,403,5 banconal-com-pa.mail.protection.outlook.com.
+binal.ac.pa,4,wikidata,National Library of Panama,,200,20 correo.binal.ac.pa.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Panama",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+ccecasadelsoldado.aecid.es,3,wikidata,Q141094139,,200,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Panama,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embahn-panama.com,3,wikidata,embassy of Honduras in Panama,central,301,none
+embajadabolpan.com,3,wikidata,embassy of Bolivia in Panama,central,404,1 ASPMX.L.GOOGLE.com.; 10 ALT3.ASPMX.L.GOOGLE.com.; 10 ALT4.ASPMX.L.GOOGLE.com.; 5 ALT2.ASPMX.L.GOOGLE.com.; 5 ALT1.ASPMX.L.GOOGLE.com.
+embajadacostaricaenpanama.com,3,wikidata,embassy of Costa Rica in Panama,central,301,0 embajadacostaricaenpanama.com.
+indianembassyinpanama.com,3,wikidata,"Embassy of India, Panama City",central,301,none
+pa.ambafrance.org,3,wikidata,"Embassy of France, Panama City",central,301,none
+pa.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Panama City",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pa.china-embassy.org found.,none
+panama-city.embassy.qa,3,wikidata,embassy of Qatar in Panama,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+panama.diplo.de,3,wikidata,"Embassy of Germany, Panama",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+panama.mid.ru,3,wikidata,embassy of Russia in Panama,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pancanal.com,3,wikidata,Panama Canal Authority,,200,10 gw199132.fortimail.com.

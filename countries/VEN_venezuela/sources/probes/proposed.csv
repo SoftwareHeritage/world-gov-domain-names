@@ -1,0 +1,23 @@
+hostname,http_status,mx
+ambassadehaitivenezuela.org,ConnectException,none
+asambleanacionalvenezuela.org,301,none
+bcv.org.ve,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.bcv.org.ve.; 20 correo.bcv.org.ve.; 30 mail-mbo.bcv.org.ve.
+caracas.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+caracas.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+caracas.mae.ro,503,none
+centroamericaribeschp.com,400,none
+consecomercio.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consecomercio.org found.,0 mail.consecomercio.org.; 20 mx1.consecomercio.org.
+dgim.mil.ve,HttpConnectTimeoutException: HTTP connect timed out,none
+dominicoshispania.org,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+emb-abjasia.com,301,none
+embajada-guineaecuatorial.com.ve,200,0 mail.embajada-guineaecuatorial.com.ve.; 20 mx1.embajada-guineaecuatorial.com.ve.
+gobiernoenlinea.ve,ConnectException,none
+guardia.mil.ve,ConnectException: Host is unreachable,none
+holyrosaryprovince.org,301,none
+inia.gov.ve,HttpConnectTimeoutException: HTTP connect timed out,none
+ivss.gov.ve,HttpConnectTimeoutException: HTTP connect timed out,10 correo.ivss.gov.ve.; 20 relay.ivss.gob.ve.; 30 correoh.ivss.gov.ve.
+nigerianembassycaracas.org,503,0 nigerianembassycaracas.org.
+tsjlegitimo.org,200,10 alltheemails.com.
+ve.ambafrance.org,301,none
+venezuela.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

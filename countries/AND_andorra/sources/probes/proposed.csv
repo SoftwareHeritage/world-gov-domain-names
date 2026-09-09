@@ -1,0 +1,28 @@
+hostname,http_status,mx
+ad.ambafrance.org,301,none
+afa.ad,301,0 afa-ad.mail.protection.outlook.com.
+apda.ad,200,10 mail.apda.ad.
+ari.ad,200,0 ari-ad.mail.protection.outlook.com.
+armenianembassyad.com,ConnectException,none
+banders.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+canillo.ad,200,10 canillo-ad.mail.protection.outlook.com.
+cass.ad,301,10 correu2.cass.ad.; 5 correu.cass.ad.
+cea.ad,200,0 cea-ad.mail.protection.outlook.com.
+comuencamp.ad,301,10 correu.andornet.ad.
+comusantjulia.ad,301,0 comusantjulia-ad.mail.protection.outlook.com.
+consellgeneral.ad,301,none
+cultura.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+educacio.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+estadistica.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+estadistica.desenvolupament.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+exteriors.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+exteriors.gencat.cat,301,none
+finances.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mobilitat.ad,301,none
+policia.ad,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching policia.ad found.,20 fallbackmx.spamexperts.eu.; 10 mx.spamexperts.com.; 30 lastmx.spamexperts.net.
+saas.ad,200,10 mail.saas.ad.
+salut.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tribunalconstitucional.ad,301,10 mx1.mail.ovh.net.; 40 mx4.mail.ovh.net.; 30 mx3.mail.ovh.net.; 20 mx2.mail.ovh.net.
+turisme.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+uifand.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+unesco.ad,200,10 mail.unesco.ad.

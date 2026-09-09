@@ -1,0 +1,56 @@
+hostname,http_status,mx
+aki.ee,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
+archimedes.ee,200,none
+chinaembassy.ee,ConnectException,10 cmx.telia.ee.
+e-tervis.ee,ConnectException,none
+eas.ee,301,0 eas-ee.mail.protection.outlook.com.
+ee.ambafrance.org,301,none
+ee.mfa.lt,403,none
+eestipank.ee,307,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
+egt.ee,200,5 mx4.envir.ee.; 5 mx5.envir.ee.
+eki.ee,200,10 eki-ee.mail.protection.outlook.com.
+emta.ee,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+epa.ee,302,10 mail1.rit.ee.; 10 mail3.rit.ee.
+estland.um.dk,301,none
+estonia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+estonia.representation.ec.europa.eu,302,none
+etag.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+fi.ee,301,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
+finlandabroad.fi,301,10 mail.valtori.fi.
+hitsa.ee,ConnectException,none
+just.ee,301,10 mail3.rit.ee.; 10 mail1.rit.ee.
+kapo.ee,200,5 mx1.kapo.ee.
+keeleamet.ee,302,10 mail3.rit.ee.; 20 mail1.rit.ee.
+keskkonnaagentuur.ee,200,none
+keskkonnaamet.ee,200,10 mx4.envir.ee.; 10 mx5.envir.ee.
+kliimaministeerium.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+maaamet.ee,302,none
+mfa.gr,403,10 mailhost.mfa.gr.
+muinsuskaitseamet.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nederlandwereldwijd.nl,301,0 .
+nlib.ee,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nlib.ee found.,0 nlib-ee.mail.protection.outlook.com.
+politsei.ee,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
+pria.ee,200,5 mx.pria.ee.
+ra.ee,301,10 mx2.ra.ee.; 10 mx1.ra.ee.
+ravimiamet.ee,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+rescue.ee,301,20 mx2.smit.ee.; 10 mx1.smit.ee.; 30 mx3.smit.ee.
+ria.ee,200,10 mx1.ria.ee.; 10 mx2.ria.ee.
+riigikantselei.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+riigikohus.ee,302,10 mx.riigikohus.ee.
+riigiteataja.ee,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
+rmk.ee,200,10 rmk-ee.mail.protection.outlook.com.
+smit.ee,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
+stat.ee,301,10 mail1.rit.ee.; 10 mail3.rit.ee.
+swedenabroad.se,301,none
+tallinn.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+tallinn.europarl.europa.eu,302,none
+tallinn.mae.ro,503,none
+tallinn.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+terviseamet.ee,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+ti.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+transpordiamet.ee,200,10 mx1.transpordiamet.ee.
+ttja.ee,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+unesco.ee,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+valisluureamet.ee,200,10 m87.valisluureamet.ee.
+vangla.ee,301,none

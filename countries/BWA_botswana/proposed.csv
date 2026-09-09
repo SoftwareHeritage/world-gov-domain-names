@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
-statsbots.org.bw,7,wikidata;wikidata,Statistics Botswana | Central Statistics Office,central,,
-bankofbotswana.bw,4,wikidata,Bank of Botswana,,,
-bera.co.bw,4,wikidata,Botswana Energy Regulatory Authority,,,
-bobstandards.bw,4,wikidata,Botswana Bureau of Standards,,,
-bocra.org.bw,4,wikidata,Botswana Communications Regulatory Authority,,,
-bqa.org.bw,4,wikidata,Botswana Qualifications Authority,,,
-burs.org.bw,4,wikidata,Botswana Unified Revenue Service,central,,
-gamblingauthority.co.bw,4,wikidata,Botswana Gambling Authority,,,
-nacb.org.bw,4,wikidata,National Arts Council of Botswana,central,,
-botswana.mid.ru,3,wikidata,embassy of Russia in Botswana,central,,
-bw.ambafrance.org,3,wikidata,"Embassy of France, Gaborone",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Botswana and SADC,central,,
-gaborone.diplo.de,3,wikidata,"Embassy of Germany, Gaborone",central,,
-localbotswana.com,3,wikidata,Kgalagadi Land Board,,,
-wuc.bw,2,wikidata;wikidata;wikidata,Water Utilities Corporation Serowe Service Centre | Water Utilities Corporation Mahalpye | Molepolole Water Utilities Corporation,,,
+statsbots.org.bw,7,wikidata;wikidata,Statistics Botswana | Central Statistics Office,central,200,10 statsbots-org-bw.inbound.emailservice.io.; 20 statsbots-org-bw.inbound.emailservice.cc.; 30 statsbots-org-bw.inbound.emailservice.co.
+bankofbotswana.bw,4,wikidata,Bank of Botswana,,200,none
+bera.co.bw,4,wikidata,Botswana Energy Regulatory Authority,,301,30 bera-co-bw.inbound.emailservice.co.; 10 bera-co-bw.inbound.emailservice.io.; 20 bera-co-bw.inbound.emailservice.cc.
+bobstandards.bw,4,wikidata,Botswana Bureau of Standards,,HttpTimeoutException: request timed out,10 bobstandards-bw.inbound.emailservice.io.; 20 bobstandards-bw.inbound.emailservice.cc.; 30 bobstandards-bw.inbound.emailservice.co.
+bocra.org.bw,4,wikidata,Botswana Communications Regulatory Authority,,ConnectException,0 za-smtp-inbound-1.mimecast.co.za.; 5 bocra-org-bw.mail.protection.outlook.com.; 0 za-smtp-inbound-2.mimecast.co.za.
+bqa.org.bw,4,wikidata,Botswana Qualifications Authority,,301,0 bqa-org-bw.mail.protection.outlook.com.
+burs.org.bw,4,wikidata,Botswana Unified Revenue Service,central,200,30 mx1.burs.org.bw.; 40 mx2.burs.org.bw.; 20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+gamblingauthority.co.bw,4,wikidata,Botswana Gambling Authority,,200,0 gamblingauthority-co-bw.mail.protection.outlook.com.
+nacb.org.bw,4,wikidata,National Arts Council of Botswana,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.nacb.org.bw.
+botswana.mid.ru,3,wikidata,embassy of Russia in Botswana,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bw.ambafrance.org,3,wikidata,"Embassy of France, Gaborone",central,301,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Botswana and SADC,central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+gaborone.diplo.de,3,wikidata,"Embassy of Germany, Gaborone",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+localbotswana.com,3,wikidata,Kgalagadi Land Board,,302,10 woomar4.hostingas.lt.; 20 mx-backup.serveriai.lt.
+wuc.bw,2,wikidata;wikidata;wikidata,Water Utilities Corporation Serowe Service Centre | Water Utilities Corporation Mahalpye | Molepolole Water Utilities Corporation,,ConnectException,1 wuc-bw.mail.protection.outlook.com.

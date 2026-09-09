@@ -1,25 +1,25 @@
 hostname,score,sources,label,level,http_status,mx
-agriculture.govmu.org,6,wikidata;wikidata,Ministry of Agro Industry and Food Security,central,,
-gender.govmu.org,6,wikidata;wikidata,"Ministry of Gender Equality, Child Development and Family Welfare",central,,
-health.govmu.org,6,wikidata;wikidata,Ministry of Health and Quality of Life,central,,
-mauritiusassembly.govmu.org,6,wikidata;wikidata,National Assembly of Mauritius,central,,
-mof.govmu.org,6,wikidata;wikidata,Ministry of Finance and Economic Development,central,,
-tourism.govmu.org,6,wikidata;wikidata,Ministry of Tourism,central,,
-govmu.org,5,un_desa,UN/DESA national portal,,,
-supremecourt.govmu.org,5,wikidata,Supreme Court of Mauritius,central,,
-ambchine.mu,4,wikidata,"Embassy of the People's Republic of China, Quatre Bornes",central,,
-bom.mu,4,wikidata,Bank of Mauritius,,,
-hec.mu,4,wikidata,Higher Education Commission,,,
-icac.mu,4,wikidata,Independent Commission Against Corruption,,,
-msb.intnet.mu,4,wikidata,Mauritius Standards Bureau,,,
-ncb.mu,4,wikidata,National Computer Board,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mauritius and to the Seychelles,central,,
-mauritius.mid.ru,3,wikidata,embassy of Russia in Mauritius,central,,
-moi.govmu.org,3,wikidata,Mauritius Oceanography Institute,,,
-mu.ambafrance.org,3,wikidata,"Embassy of France, Port Louis",central,,
-mymauritius.travel,3,wikidata,Mauritius Tourism Promotion Authority,,,
-national-library.govmu.org,3,wikidata,National Library of Mauritius,,,
-nationalarchives.govmu.org,3,wikidata,National Archives of Mauritius,,,
-police.govmu.org,3,wikidata,Mauritius Police Force,central,,
-reci-rodrigues.com,3,wikidata,Rodrigues Economic Chamber and Industry,,,
-southafrica.diplo.de,3,wikidata,"Honorary Consulate of Germany, Goodlands",,,
+agriculture.govmu.org,6,wikidata;wikidata,Ministry of Agro Industry and Food Security,central,302,none
+gender.govmu.org,6,wikidata;wikidata,"Ministry of Gender Equality, Child Development and Family Welfare",central,302,none
+health.govmu.org,6,wikidata;wikidata,Ministry of Health and Quality of Life,central,301,none
+mauritiusassembly.govmu.org,6,wikidata;wikidata,National Assembly of Mauritius,central,301,none
+mof.govmu.org,6,wikidata;wikidata,Ministry of Finance and Economic Development,central,302,none
+tourism.govmu.org,6,wikidata;wikidata,Ministry of Tourism,central,302,none
+govmu.org,5,un_desa,UN/DESA national portal,,302,10 mxmail6.govmu.org.; 9 mxmail5.govmu.org.
+supremecourt.govmu.org,5,wikidata,Supreme Court of Mauritius,central,200,none
+ambchine.mu,4,wikidata,"Embassy of the People's Republic of China, Quatre Bornes",central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+bom.mu,4,wikidata,Bank of Mauritius,,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,10 mail.bom.mu.
+hec.mu,4,wikidata,Higher Education Commission,,200,0 hec-mu.mail.protection.outlook.com.; 5 ASPMX.L.GOOGLE.com.; 10 ALT4.ASPMX.L.GOOGLE.com.; 5 ALT2.ASPMX.L.GOOGLE.com.; 10 ALT3.ASPMX.L.GOOGLE.com.; 5 ALT1.ASPMX.L.GOOGLE.com.
+icac.mu,4,wikidata,Independent Commission Against Corruption,,301,0 icac-mu.mail.protection.outlook.com.
+msb.intnet.mu,4,wikidata,Mauritius Standards Bureau,,302,0 msb-intnet-mu.mail.protection.outlook.com.
+ncb.mu,4,wikidata,National Computer Board,,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Mauritius and to the Seychelles,central,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+mauritius.mid.ru,3,wikidata,embassy of Russia in Mauritius,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+moi.govmu.org,3,wikidata,Mauritius Oceanography Institute,,200,none
+mu.ambafrance.org,3,wikidata,"Embassy of France, Port Louis",central,301,none
+mymauritius.travel,3,wikidata,Mauritius Tourism Promotion Authority,,200,0 mymauritius.travel.
+national-library.govmu.org,3,wikidata,National Library of Mauritius,,301,none
+nationalarchives.govmu.org,3,wikidata,National Archives of Mauritius,,303,none
+police.govmu.org,3,wikidata,Mauritius Police Force,central,301,none
+reci-rodrigues.com,3,wikidata,Rodrigues Economic Chamber and Industry,,ConnectException,none
+southafrica.diplo.de,3,wikidata,"Honorary Consulate of Germany, Goodlands",,200,none

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `government.kz` | central |  | un_desa;wikidata;wikidata | Government of Kazakhstan | UN/DESA national portal |
-| 7 | `mgov.kz` | central |  | wikidata;wikidata | Ministry of Agriculture |
-| 7 | `seismology.kz` |  |  | wikidata;wikidata | Institute of Seismology |
-| 7 | `spaceres.kz` |  |  | wikidata;wikidata;wikidata | National Center of Space Research and Technology |
-| 4 | `akorda.kz` |  |  | wikidata | Presidential Administration of Kazakhstan |
-| 4 | `assembly.kz` |  |  | wikidata | Assembly of People of Kazakhstan |
-| 4 | `biosafety.kz` |  |  | wikidata | Research Institute for Biological Safety Problems |
-| 4 | `gharysh.kz` |  |  | wikidata | KazCosmos |
-| 4 | `ieconom.kz` |  |  | wikidata | Institute of Economics |
-| 4 | `immash.kz` |  |  | wikidata | Joldasbekov Institute of Mechanics and Engineering |
-| 4 | `kazhydromet.kz` |  |  | wikidata | KazHydroMet |
-| 4 | `kazneb.kz` |  |  | wikidata | National Library of Kazakhstan |
-| 4 | `ksm.kz` |  |  | wikidata | Kazakhstan Institute of Standardization and Metrology |
-| 4 | `math.kz` |  |  | wikidata | Institute of Mathematics and Mathematical Modeling |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Astana |
-| 4 | `nabrk.kz` |  |  | wikidata | National Academic Library of the Republic of Kazakhstan |
-| 4 | `nationalbank.kz` |  |  | wikidata | National Bank of Kazakhstan |
-| 4 | `rfembassy.kz` | central |  | wikidata | Embassy of Russia, Astana |
-| 4 | `rniiot.kz` |  |  | wikidata | Republican Research Institute for Occupational Safety and Health |
-| 4 | `rtrk.kz` |  |  | wikidata | Qazaqstan Radio and Television Corporation |
+| 10 | `government.kz` | central | 301 | un_desa;wikidata;wikidata | Government of Kazakhstan | UN/DESA national portal |
+| 7 | `mgov.kz` | central | 200 | wikidata;wikidata | Ministry of Agriculture |
+| 7 | `seismology.kz` |  | 200 | wikidata;wikidata | Institute of Seismology |
+| 7 | `spaceres.kz` |  | 200 | wikidata;wikidata;wikidata | National Center of Space Research and Technology |
+| 4 | `akorda.kz` |  | 500 | wikidata | Presidential Administration of Kazakhstan |
+| 4 | `assembly.kz` |  | SSLHandsh... | wikidata | Assembly of People of Kazakhstan |
+| 4 | `biosafety.kz` |  | 200 | wikidata | Research Institute for Biological Safety Problems |
+| 4 | `gharysh.kz` |  | 301 | wikidata | KazCosmos |
+| 4 | `ieconom.kz` |  | 200 | wikidata | Institute of Economics |
+| 4 | `immash.kz` |  | 301 | wikidata | Joldasbekov Institute of Mechanics and Engineering |
+| 4 | `kazhydromet.kz` |  | 200 | wikidata | KazHydroMet |
+| 4 | `kazneb.kz` |  | 200 | wikidata | National Library of Kazakhstan |
+| 4 | `ksm.kz` |  | 302 | wikidata | Kazakhstan Institute of Standardization and Metrology |
+| 4 | `math.kz` |  | 200 | wikidata | Institute of Mathematics and Mathematical Modeling |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Astana |
+| 4 | `nabrk.kz` |  | 200 | wikidata | National Academic Library of the Republic of Kazakhstan |
+| 4 | `nationalbank.kz` |  | 302 | wikidata | National Bank of Kazakhstan |
+| 4 | `rfembassy.kz` | central | 403 | wikidata | Embassy of Russia, Astana |
+| 4 | `rniiot.kz` |  | 301 | wikidata | Republican Research Institute for Occupational Safety and Health |
+| 4 | `rtrk.kz` |  | 301 | wikidata | Qazaqstan Radio and Television Corporation |
 

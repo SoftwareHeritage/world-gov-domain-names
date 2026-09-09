@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `bundesheer.at` |  |  | wikidata;wikidata | Abwehramt | Heeresnachrichtenamt |
-| 7 | `bundeskriminalamt.at` |  |  | wikidata;wikidata | Q105324455 | Federal Criminal Police Office |
-| 7 | `geosphere.at` |  |  | wikidata;wikidata | GeoSphere Austria | Central Institute for Meteorology and Geodynamics / GeoSp... |
-| 7 | `piaristen.at` |  |  | wikidata;wikidata | Piarist province of Austria |
-| 7 | `sozialministerium.at` | central |  | wikidata;wikidata | Federal Ministry of Labour, Social Affairs, Health, Care and Consumer Protection |
-| 7 | `umweltbundesamt.at` |  |  | wikidata;wikidata;wikidata | Federal Environment Agency (Austria) |
-| 7 | `vorarlberg.at` | central-1 |  | wikidata;wikidata;wikidata | Amt der Vorarlberger Landesregierung | District Captaincy Bregenz | Landtag o... |
-| 7 | `wko.at` |  |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Wirtschaftskammer Niederösterreich | Vorarlberg Economic Chamber | Carinthian... |
-| 6 | `euro.centre.org` |  |  | wikidata;wikidata | European Centre for Social Welfare Policy and Research |
-| 6 | `jesuiten.org` |  |  | wikidata;wikidata | Jesuit Province of Central Europe |
-| 4 | `agraroekonomik.at` |  |  | wikidata | Federal Institute of Agricultural Economics |
-| 4 | `aiz.at` |  |  | wikidata | Abwasserverband Achental-Inntal-Zillertal |
-| 4 | `algerische-botschaft.at` | central |  | wikidata | Embassy of Algeria, Vienna |
-| 4 | `avzirl.at` |  |  | wikidata | Abwasserverband Zirl und Umgebung (ARA Zirl) |
-| 4 | `bda.at` |  |  | wikidata | Bundesdenkmalamt |
-| 4 | `becs.mfa.gov.hu` | central |  | wikidata | Embassy of Hungary in Austria |
-| 4 | `bgld-landtag.at` | central-1 |  | wikidata | Landtag of Burgenland |
-| 4 | `bh-botschaft.at` | central |  | wikidata | embassy of Bosnia and Herzegovina in Austria |
-| 4 | `biz-up.at` |  |  | wikidata | Business Upper Austria – OÖ Wirtschaftsagentur |
-| 4 | `bundesforste.at` |  |  | wikidata | Austrian State Forestry Commission |
+| 7 | `bundesheer.at` |  | 404 | wikidata;wikidata | Abwehramt | Heeresnachrichtenamt |
+| 7 | `bundeskriminalamt.at` |  | 301 | wikidata;wikidata | Q105324455 | Federal Criminal Police Office |
+| 7 | `geosphere.at` |  | 302 | wikidata;wikidata | GeoSphere Austria | Central Institute for Meteorology and Geodynamics / GeoSp... |
+| 7 | `piaristen.at` |  | 200 | wikidata;wikidata | Piarist province of Austria |
+| 7 | `sozialministerium.at` | central | 301 | wikidata;wikidata | Federal Ministry of Labour, Social Affairs, Health, Care and Consumer Protection |
+| 7 | `umweltbundesamt.at` |  | SSLHandsh... | wikidata;wikidata;wikidata | Federal Environment Agency (Austria) |
+| 7 | `vorarlberg.at` | central-1 | 200 | wikidata;wikidata;wikidata | Amt der Vorarlberger Landesregierung | District Captaincy Bregenz | Landtag o... |
+| 7 | `wko.at` |  | HttpConne... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Wirtschaftskammer Niederösterreich | Vorarlberg Economic Chamber | Carinthian... |
+| 6 | `euro.centre.org` |  | 308 | wikidata;wikidata | European Centre for Social Welfare Policy and Research |
+| 6 | `jesuiten.org` |  | 301 | wikidata;wikidata | Jesuit Province of Central Europe |
+| 4 | `agraroekonomik.at` |  | 301 | wikidata | Federal Institute of Agricultural Economics |
+| 4 | `aiz.at` |  | 200 | wikidata | Abwasserverband Achental-Inntal-Zillertal |
+| 4 | `algerische-botschaft.at` | central | SSLHandsh... | wikidata | Embassy of Algeria, Vienna |
+| 4 | `avzirl.at` |  | 200 | wikidata | Abwasserverband Zirl und Umgebung (ARA Zirl) |
+| 4 | `bda.at` |  | 301 | wikidata | Bundesdenkmalamt |
+| 4 | `becs.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary in Austria |
+| 4 | `bgld-landtag.at` | central-1 | 301 | wikidata | Landtag of Burgenland |
+| 4 | `bh-botschaft.at` | central | 200 | wikidata | embassy of Bosnia and Herzegovina in Austria |
+| 4 | `biz-up.at` |  | 301 | wikidata | Business Upper Austria – OÖ Wirtschaftsagentur |
+| 4 | `bundesforste.at` |  | 301 | wikidata | Austrian State Forestry Commission |
 

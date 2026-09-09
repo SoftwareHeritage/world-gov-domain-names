@@ -1,0 +1,7 @@
+hostname,http_status,mx
+anjouanoffshorefinancialauthority.org,200,0 smtp.secureserver.net.; 10 mailstore1.secureserver.net.
+banque-comores.km,200,0 banquecomores-km01e.mail.protection.outlook.com.
+coursupremecomores.km,302,0 coursupremecomores.km.
+inseed.km,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.comorestelecom.km.
+km.ambafrance.org,301,none
+km.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching km.china-embassy.org found.,none

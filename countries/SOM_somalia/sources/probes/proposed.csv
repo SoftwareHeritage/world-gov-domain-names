@@ -1,0 +1,9 @@
+hostname,http_status,mx
+dns.org.so,200,83 route2.mx.cloudflare.net.; 85 route1.mx.cloudflare.net.; 3 route3.mx.cloudflare.net.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+mfa.somaligov.net,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mfa.somaligov.net found.,none
+mict.govsomaliland.org,HttpTimeoutException: request timed out,none
+moesomalia.net,200,10 alltheemails.com.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+pha.pl.so,HttpTimeoutException: request timed out,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+pmpf.so,200,0 mail.pmpf.so.

@@ -1,12 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
-moee-ye.com,6,wikidata;wikidata,Ministry of Electricity and Energy,central,,
-saba.ye,4,wikidata,Saba News Agency,,,
-ambafrance-ye.org,3,wikidata,"Embassy of France, Sana'a",central,,
-arabiafelixacademy.org,3,wikidata,Majmaʻ al-ʻArabīyah al-saʻīdah,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Yemen,,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Yemen,central,,
-nlye.org,3,wikidata,National Library of Yemen,,,
-sabanew.net,3,wikidata,Saba News Agency,,,
-yemen-nic.info,3,wikidata,Q12192852,,,
-yemen.mid.ru,3,wikidata,embassy of Russia in Yemen,central,,
-ye.chineseembassy.org,1,wikidata;wikidata;wikidata,"Embassy of the People's Republic of China, Sanaa",central,,
+moee-ye.com,6,wikidata;wikidata,Ministry of Electricity and Energy,central,200,0 moee-ye.com.
+saba.ye,4,wikidata,Saba News Agency,,302,none
+ambafrance-ye.org,3,wikidata,"Embassy of France, Sana'a",central,ConnectException,none
+arabiafelixacademy.org,3,wikidata,Majmaʻ al-ʻArabīyah al-saʻīdah,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Yemen,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+mfa.bg,3,wikidata,embassy of Bulgaria in Yemen,central,302,0 mfa-bg.mail.protection.outlook.com.
+nlye.org,3,wikidata,National Library of Yemen,,200,0 .
+sabanew.net,3,wikidata,Saba News Agency,,200,10 _dc-mx.ed8c85bb6453.sabanew.net.
+yemen-nic.info,3,wikidata,Q12192852,,200,10 yemen-nic.info.
+yemen.mid.ru,3,wikidata,embassy of Russia in Yemen,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ye.chineseembassy.org,1,wikidata;wikidata;wikidata,"Embassy of the People's Republic of China, Sanaa",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ye.chineseembassy.org found.,none

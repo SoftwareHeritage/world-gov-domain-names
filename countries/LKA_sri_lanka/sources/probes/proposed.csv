@@ -1,0 +1,26 @@
+hostname,http_status,mx
+220.247.247.85,HttpConnectTimeoutException: HTTP connect timed out,none
+caa.lk,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ALT3.ASPMX.L.GOOGLE.COM.; 0 caa-lk.mail.protection.outlook.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+colombo.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+colombo.mae.ro,ConnectException,none
+colombo.mfa.af,ConnectException,none
+defence.lk,200,10 mailin-01.gw.sltidc.lk.; 20 mailin-02.gw.sltidc.lk.
+ds.thirukkovil.com,ConnectException,none
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+ird.lk,200,1 smtp.google.com.
+leco.lk,200,0 leco-lk.mail.protection.outlook.com.
+lk.ambafrance.org,301,none
+maldiveshighcom.lk,ConnectException,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nara.ac.lk,ConnectException,70 in-relay-s.ac.lk.; 50 in-relay.ac.lk.; 60 in-relay-t.ac.lk.
+natlib.lk,ConnectException,none
+norway.no,301,0 mx.domeneshop.no.
+nsf.ac.lk,HttpConnectTimeoutException: HTTP connect timed out,10 ns1.nsf.ac.lk.
+parliament.lk,301,10 mx1.parliament.lk.; 5 mx2.parliament.lk.
+slcarp.lk,200,0 slcarp.lk.
+slncu.lk,200,5 mx1-hosting.jellyfish.systems.; 10 mx2-hosting.jellyfish.systems.; 20 mx3-hosting.jellyfish.systems.
+sri-lanka.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+supremecourt.lk,200,20 mailin-04.gw.sltidc.lk.; 10 mailin-05.gw.sltidc.lk.
+uda.lk,301,10 mailserv.uda.lk.; 20 mailin-02.gw.sltidc.lk.; 20 whale.slt.lk.; 30 whale1.slt.lk.; 10 mailin-01.gw.sltidc.lk.
+vishwa.nsf.ac.lk,ConnectException,none
+waterboard.lk,301,1 smtp.google.com.

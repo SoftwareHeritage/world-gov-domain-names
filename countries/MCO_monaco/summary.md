@@ -35,10 +35,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `conseil-national.mc` | central |  | wikidata;wikidata;wikidata | National Council |
-| 4 | `imsee.mc` | central |  | wikidata | Q16643758 |
-| 4 | `mairie.mc` | central-1 |  | wikidata | Communal Council of Monaco |
-| 4 | `mediatheque.mc` |  |  | wikidata | Louis Notari Library |
-| 3 | `ambafrance-mc.org` | central |  | wikidata | Embassy of France, Monaco |
-| 2 | `culture.mc` |  |  | wikidata;wikidata;wikidata;wikidata | Directorate of Cultural Affairs | Heritage Institute |
+| 7 | `conseil-national.mc` | central | SSLHandsh... | wikidata;wikidata;wikidata | National Council |
+| 4 | `imsee.mc` | central | 200 | wikidata | Q16643758 |
+| 4 | `mairie.mc` | central-1 | 200 | wikidata | Communal Council of Monaco |
+| 4 | `mediatheque.mc` |  | 301 | wikidata | Louis Notari Library |
+| 3 | `ambafrance-mc.org` | central | ConnectEx... | wikidata | Embassy of France, Monaco |
+| 2 | `culture.mc` |  | 200 | wikidata;wikidata;wikidata;wikidata | Directorate of Cultural Affairs | Heritage Institute |
 

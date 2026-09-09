@@ -1,0 +1,9 @@
+hostname,http_status,mx
+central-bank.org.tt,301,1 mxa-0041d202.gslb.pphosted.com.; 1 mxb-0041d202.gslb.pphosted.com.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+ema.co.tt,301,0 ema-co-tt.mail.protection.outlook.com.
+port-of-spain.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+tatt.org.tt,307,10 je-smtp-inbound-1.mimecast-offshore.com.; 10 je-smtp-inbound-2.mimecast-offshore.com.
+tntairports.com,307,10 tntairports-com.mail.protection.outlook.com.
+tt.ambafrance.org,301,none
+ttparliament.org,HttpTimeoutException: request timed out,0 ttparliament-org.mail.protection.outlook.com.

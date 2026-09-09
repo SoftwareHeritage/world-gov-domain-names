@@ -1,0 +1,483 @@
+hostname,http_status,mx
+50plus.or.kr,301,20 mail2.50plus.or.kr.; 10 mail.50plus.or.kr.
+88countryclub.co.kr,200,none
+accf.or.kr,301,0 spam.accf.or.kr.; 10 gw.accf.or.kr.
+add.re.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ago.kgpa.or.kr,403,none
+airport.co.kr,302,10 spam.airport.co.kr.
+airport.kr,302,0 spam.airport.kr.
+aks.ac.kr,200,10 spamflt2.sensmailcloud.kr.; 10 spamflt1.sensmailcloud.kr.
+algerianemb.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+amchamkorea.org,200,0 amchamkorea-org.mail.protection.outlook.com.
+apcc21.org,302,10 mail.apcc21.org.
+apfs.kr,403,1 mail.apfs.kr.
+arirang.com,200,10 anti-spam.govhiworks.com.
+arko.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.arko.or.kr.
+army.mil.kr,200,0 mail.army.mil.kr.
+arte.or.kr,200,1 ems.arte.or.kr.; 0 mx02.govkorea.com.; 0 mx01.govkorea.com.
+at.or.kr,302,10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.; 10 gcmx03.govkorea.kr.
+auri.re.kr,200,1 aspmx1.gov-dooray.com.
+azembassy.co.kr,ConnectException,none
+bohun.or.kr,301,10 gcmx03.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx01.govkorea.kr.
+bok.or.kr,301,80 aspmx1.gov-dooray.com.; 10 spam1.bok.or.kr.; 10 spam2.bok.or.kr.
+bokji.net,HttpConnectTimeoutException: HTTP connect timed out,dig error
+busanpa.com,302,10 spam.busanpa.com.
+cb119.net,301,none
+cbnuh.or.kr,ConnectException,10 mail.cbnuh.or.kr.
+cbtp.or.kr,302,10 sniper.cbtp.or.kr.
+cbwf.re.kr,200,10 mail.bizboxa.com.
+cbwf.softss.co.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+chungnam.net,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching chungnam.net found.,none
+cmf.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+cnuh.co.kr,403,20 sg.cnuh.co.kr.
+cnuh.com,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cnuh.com found.,none
+compa.re.kr,200,10 zmx135.mailplug.com.
+comwel.or.kr,400,10 smtp.comwel.or.kr.
+copyright.or.kr,405,1 aspmx1.gov-dooray.com.
+council.chungbuk.kr,HttpTimeoutException: request timed out,none
+council.chungnam.net,ConnectException,none
+council.gangwon.kr,403,none
+council.jeju.kr,IOException: HTTP/1.1 header parser received no bytes,none
+council.ulsan.kr,200,none
+ctp.or.kr,200,10 gcmx03.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.; 10 gcmx02.govkorea.kr.
+cuh.co.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cuh.co.kr found.,5 spam.cuh.co.kr.; 10 mail.cuh.co.kr.
+cw.or.kr,302,10 gcmx03.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.
+debc.or.kr,HttpConnectTimeoutException: HTTP connect timed out,10 spam.debc.or.kr.
+dgmif.re.kr,ConnectException,10 gcmx01.govkorea.kr.; 10 gcmx02.govkorea.kr.
+dia.mil.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+dirams.re.kr,ConnectException,0 acspam.dirams.re.kr.; 10 mail.dirams.re.kr.
+djtp.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 spam.djtp.or.kr.
+dnsm.or.kr,200,1 aspmx1.gov-dooray.com.
+drugfree.or.kr,HttpConnectTimeoutException: HTTP connect timed out,dig error
+drugsafe.or.kr,200,10 mail.drugsafe.or.kr.
+dtaq.re.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 mmp.dtaq.re.kr.
+e-policy.or.kr,302,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ekape.or.kr,301,10 mail.ekape.or.kr.
+ekr.or.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ekr.or.kr found.,10 spamflt2.sensmailcloud.kr.; 10 spamflt1.sensmailcloud.kr.
+en.jejunuh.co.kr,200,none
+energy.or.kr,302,10 aspmx1.gov-dooray.com.
+eng.btp.or.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching eng.btp.or.kr found.,none
+eng.ipet.re.kr,ConnectException: Host is unreachable,none
+eng.kedi.re.kr,ConnectException,none
+eng.khealth.or.kr,HttpConnectTimeoutException: HTTP connect timed out,dig error
+eng.kic.re.kr,ConnectException,none
+eng.kiet.re.kr,ConnectException,none
+eng.kipf.re.kr,200,none
+eng.kitech.re.kr,200,none
+eng.kopri.re.kr,200,none
+eng.koreafilm.or.kr,200,none
+eng.krihs.re.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eng.krivet.re.kr,ConnectException,none
+eng.krx.co.kr,ConnectException,none
+eng.kwdi.re.kr,200,none
+eng.stepi.re.kr,ConnectException,none
+english.knps.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+english.komsco.com,HttpTimeoutException: request timed out,none
+english.koscom.co.kr,302,none
+english.kosha.or.kr,ConnectException,none
+english.koti.re.kr,404,none
+english.visitkorea.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+epis.or.kr,200,none
+ewp.co.kr,502,none
+ex.co.kr,HttpConnectTimeoutException: HTTP connect timed out,0 spam.ex.co.kr.; 30 minwon.ex.co.kr.; 20 mail2.ex.co.kr.
+exservice.co.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+finlandabroad.fi,301,none
+fipa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+fira.or.kr,405,10 gcmx01.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx03.govkorea.kr.
+fis.kr,400,1 aspmx1.gov-dooray.com.
+fomo.or.kr,302,10 mail.fomo.or.kr.
+foodinfo.or.kr,405,10 wblock.foodinfo.or.kr.
+foodpolis.kr,301,10 spamout.foodpolis.kr.
+fowi.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+gbtp.or.kr,200,none
+gccc.or.kr,SSLHandshakeException: Remote host terminated the handshake,5 spamfilter6.speedhosting.co.kr.
+gdtp.or.kr,403,10 mail.gdtp.or.kr.
+geps.or.kr,ConnectException,none
+ghanaembassy-southkorea.com,ConnectException,none
+gjtp.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+global.i815.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+gncl.or.kr,ConnectException,none
+gntp.or.kr,200,none
+gnuh.co.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 spam.gnuh.co.kr.
+gokams.or.kr,302,10 wblock.gokams.or.kr.
+gongyoung.kr,403,10 mail.gongyoung.kr.
+grac.or.kr,200,10 spamout.grac.or.kr.
+grandkorea.com,401,none
+gtp.or.kr,200,none
+gwnudh.or.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gwnudh.or.kr found.,none
+haccp.or.kr,301,none
+hansik.or.kr,302,none
+hira.or.kr,ConnectException,0 spam.hira.or.kr.
+hnibr.re.kr,200,20 securemx02.mailplug.com.; 10 securemx01.mailplug.com.
+holyrosaryprovince.org,301,none
+home.kepco.co.kr,200,none
+home.koelsa.or.kr,302,none
+hrdkorea.or.kr,200,0 spam.hrdkorea.or.kr.; 10 hrdkorea.or.kr.; 5 mail.hrdkorea.or.kr.; 1 spam2.hrdkorea.or.kr.; 6 smtp.hrdkorea.or.kr.
+i815.or.kr,200,10 idhmail.i815.or.kr.
+ibk.co.kr,200,none
+ibs.re.kr,302,5 spam.ibs.re.kr.
+icmtc.re.kr,ConnectException,none
+icpa.or.kr,301,10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.; 10 gcmx03.govkorea.kr.
+ifwf.or.kr,302,none
+igbf.kr,403,10 wblock.igbf.kr.
+iitp.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 spam.iitp.kr.
+info.korail.com,HttpConnectTimeoutException: HTTP connect timed out,none
+innopolis.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+international.gouv.qc.ca,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+intl.aks.ac.kr,SSLHandshakeException: (handshake_failure) Unsupported signature algorithm (rsa_pkcs1_sha1) used in ECDH ServerKeyExchange handshake message,none
+ipab.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ipet.re.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+itkc.or.kr,200,none
+itp.or.kr,200,none
+iwest.co.kr,ConnectException,none
+japanese.knps.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+jbstatecouncil.jeonbuk.kr,200,5 spam.korea.kr.
+jbtp.or.kr,HttpConnectTimeoutException: HTTP connect timed out,1 jbtp-or-kr.mail.protection.outlook.com.; 2 jbtp-or-kr.mail.eo.outlook.com.
+jbuh.co.kr,302,none
+jcs.mil.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 govmail.gcc.go.kr.
+jdcenter.com,301,none
+jejunuh.co.kr,200,20 mail.jejunuh.co.kr.; 10 smtp.jejunuh.co.kr.
+jejutp.or.kr,405,10 gcmx01.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx03.govkorea.kr.; 10 gcmx05.govkorea.kr.; 20 spam.jejutp.or.kr.
+jntp.or.kr,302,none
+jungsin.jams.or.kr,200,none
+k-his.or.kr,301,none
+k-medi.or.kr,302,10 mail.k-medi.or.kr.
+k-sec.or.kr,200,10 mail.k-sec.or.kr.
+kafet.or.kr,ConnectException,none
+kaia.re.kr,HttpConnectTimeoutException: HTTP connect timed out,5 zmx129.mailplug.com.
+kalis.or.kr,ConnectException,none
+kamco.or.kr,403,none
+kanc.re.kr,200,10 zmx123.mailplug.com.
+kangwonland.high1.com,302,none
+kari.re.kr,301,0 gatescan.kari.re.kr.
+kasfo.or.kr,200,none
+kasi.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+katon.or.kr,302,10 wblock.katon.or.kr.
+kawf.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kawf.kr found.,none
+kbio.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kbio.kr found.,none
+kbiohealth.kr,301,10 spam.kbiohealth.kr.
+kca.kr,302,none
+kcarbon.or.kr,302,none
+kcdf.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kcesi.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kcgp.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kcisa.kr,200,0 antispam.kcisa.kr.; 10 mail.kcisa.kr.
+kcmf.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kcomwel.or.kr,400,10 smtp.kcomwel.or.kr.
+kcopa.or.kr,403,none
+kcpi.co.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kcpi.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kcti.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kdata.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+kdb.co.kr,200,none
+kdemo.or.kr,200,9 spam.kdemo.or.kr.
+kdhc.co.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kdi.re.kr,HttpConnectTimeoutException: HTTP connect timed out,10 nospam.kdi.re.kr.
+kdic.or.kr,301,1 spam.kdic.or.kr.; 5 webmail.kdic.or.kr.
+kdischool.ac.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kdissw.or.kr,HttpConnectTimeoutException: HTTP connect timed out,10 gw-outmail-lb-2224209-9758f07ea244.kr-gov.lb.naverncp.com.
+kdn.com,400,none
+kead.or.kr,ConnectException,10 mmp.kead.or.kr.
+keci.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+keco.or.kr,406,10 spam.keco.or.kr.
+kedi.re.kr,200,none
+keei.re.kr,200,0 mail.keei.re.kr.
+kei.re.kr,404,10 spam.kei.re.kr.
+keis.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+keit.re.kr,405,10 mx01.govkorea.com.; 10 mx02.govkorea.com.
+keiti.re.kr,200,10 gcmx05.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx01.govkorea.kr.; 10 gcmx03.govkorea.kr.
+keli.kr,ConnectException,none
+kepco-enc.com,200,0 gatescan.kepco-enc.com.
+kepco.co.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kepcomcs.co.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+keris.or.kr,200,none
+kesco.or.kr,200,none
+ketep.re.kr,302,5 mail.ketep.re.kr.
+kf.or.kr,302,0 sniper.kf.or.kr.
+kfi.or.kr,"ProtocolException: Invalid header name ""Access Control Allow Origin""",30 mail.kfi.or.kr.; 40 imail.kfi.or.kr.; 10 trust.kfi.or.kr.
+kfsp.or.kr,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.govkorea.com.; 20 ASPMX.daum.net.; 10 mx02.govkorea.com.; 30 ALT.ASPMX.daum.net.
+kgls.or.kr,200,none
+kgs.or.kr,200,20 mail.kgs.or.kr.; 10 spam.kgs.or.kr.
+kh.or.kr,302,none
+khepi.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+khidi.or.kr,302,0 spam.khidi.or.kr.
+khnp.co.kr,200,none
+khra.kr,200,none
+khug.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kiaps.org,404,100 mail.kiaps.org.; 2000 mail2.kiaps.org.; 10 spam.kiaps.org.; 1000 mail1.kiaps.org.
+kiast.or.kr,401,1 sniper.kiast.or.kr.; 2 mail.kiast.or.kr.
+kiat.or.kr,301,10 aspmx1.gov-dooray.com.
+kibo.or.kr,405,none
+kic.kr,200,none
+kicce.re.kr,200,none
+kice.re.kr,200,10 mx01.govkorea.com.; 10 mx02.govkorea.com.
+kicet.re.kr,403,10 email.kicet.re.kr.
+kicj.re.kr,405,none
+kicox.or.kr,SSLHandshakeException: Remote host terminated the handshake,none
+kict.re.kr,ConnectException,none
+kicte.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kida.re.kr,405,none
+kidp.or.kr,302,none
+kiet.re.kr,HttpTimeoutException: request timed out,10 spam.kiet.re.kr.
+kigepe.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kihasa.re.kr,302,none
+kihf.or.kr,302,0 spam.kihf.or.kr.; 10 mail.kihf.or.kr.
+kihs.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kiip.re.kr,200,20 webmail.kiip.re.kr.; 10 wblock.kiip.re.kr.
+kimst.re.kr,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,0 sniper.kimst.re.kr.
+kinac.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kindkorea.or.kr,HttpConnectTimeoutException: HTTP connect timed out,10 mx02.govkorea.com.; 10 mx01.govkorea.com.
+kinfa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kings.ac.kr,302,10 mail.kings.ac.kr.
+kins.re.kr,ConnectException,20 spam2.kins.re.kr.; 10 spam.kins.re.kr.
+kinu.or.kr,200,10 spam.kinu.or.kr.
+kion.or.kr,200,none
+kiost.ac.kr,302,none
+kipa.org,302,none
+kipa.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kipf.re.kr,302,none
+kipi.or.kr,SSLHandshakeException: Remote host terminated the handshake,0 spam.kipi.or.kr.; 10 mail.kipi.or.kr.
+kipro.or.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kipro.or.kr found.,none
+kips.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kirams.re.kr,405,10 zmx132.mailplug.com.
+kird.re.kr,ConnectException,10 mx02.govkorea.com.; 10 mx01.govkorea.com.
+kiria.org,200,none
+kisa.or.kr,400,none
+kisdi.re.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 shield.kisdi.re.kr.
+kised.or.kr,ConnectException,10 mail.kised.or.kr.
+kista.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kistep.re.kr,SSLHandshakeException: Remote host terminated the handshake,10 mx02.govkorea.com.; 10 mx01.govkorea.com.
+kitech.re.kr,301,none
+klac.or.kr,200,10 spam.klac.or.kr.
+kli.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+klri.re.kr,200,0 spam.klri.re.kr.
+kmdf.org,200,none
+kmedihub.re.kr,ConnectException,none
+kmi.re.kr,HttpConnectTimeoutException: HTTP connect timed out,10 library.kmi.re.kr.; 5 zmx124.mailplug.com.; 32767 5975D01976FCB1EBF6EED8537FDC18FD513C4C74.msv1.invalid.
+kmiti.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+kmrb.or.kr,200,10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.; 10 gcmx03.govkorea.kr.
+knfc.co.kr,ConnectException,none
+knoc.co.kr,ConnectException,none
+knps.or.kr,200,none
+knto.or.kr,302,none
+knudh.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+knuh.knu.ac.kr,ConnectException,none
+knuh.kr,200,none
+knuh.or.kr,302,dig error
+koagi.or.kr,301,none
+koat.or.kr,302,1 spam.koat.or.kr.
+kobaco.co.kr,405,10 spam.kobaco.co.kr.
+kobc.or.kr,200,10 mx02.govkorea.com.; 10 mx01.govkorea.com.
+kobiz.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kocca.kr,403,10 mailx.kocca.kr.
+kocsc.or.kr,307,none
+koda1458.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+koddi.or.kr,200,10 mail.koddi.or.kr.
+kodit.co.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kodit.co.kr found.,0 mail.kodit.co.kr.
+kodma.or.kr,200,none
+koem.or.kr,ConnectException,none
+koenergy.kr,HttpConnectTimeoutException: HTTP connect timed out,20 mail1.koenergy.kr.; 10 mail.koenergy.kr.
+kofac.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kofair.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kofc.or.kr,ConnectException,none
+kofic.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kofih.org,301,none
+kofons.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kofpi.or.kr,ConnectException,none
+kofst.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kogas-tech.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kogas.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kohi.or.kr,302,none
+kohom.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+koiha.or.kr,400,11 spam.koiha.or.kr.; 10 mail.koiha.or.kr.
+koipa.re.kr,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx1.gov-dooray.com.
+komipo.co.kr,IOException: HTTP/1.1 header parser received no bytes,10 spam.komipo.co.kr.
+komir.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+komount.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+komsa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,1 mail.komsa.or.kr.
+komsco.com,ConnectException,10 vrgw.komsco.com.
+kopo.ac.kr,302,none
+kopri.re.kr,200,10 kopri-re-kr.mail.protection.outlook.com.
+korad.or.kr,ConnectException,none
+koraillogis.com,301,none
+korailnetworks.com,HttpConnectTimeoutException: HTTP connect timed out,none
+korailretail.com,302,none
+korailtech.com,200,none
+korailtravel.com,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+korcham.net,302,20 spam.korcham.net.
+kordi.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+korea.ahk.de,302,none
+koreafilm.or.kr,302,10 zmx142.mailplug.com.
+koreahana.or.kr,200,none
+koreajobworld.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+koreanfilm.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+koreanpc.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+koreatech.ac.kr,302,20 spam1.koreatech.ac.kr.; 10 spam.koreatech.ac.kr.; 32767 23a61b54849a99e548624c09d1cdddef7ffb2764.msv1.invalid.
+koref.or.kr,302,none
+koreg.or.kr,405,none
+koreha.or.kr,200,none
+kores.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+koroad.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+korsafe.or.kr,ConnectException,none
+kosac.re.kr,301,none
+kosbi.re.kr,403,none
+kosha.or.kr,307,none
+kosi.re.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+kosii.or.kr,200,10 mail.bizboxa.com.
+kosm.or.kr,200,none
+kosmes.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kospo.co.kr,HttpConnectTimeoutException: HTTP connect timed out,10 mail0.kospo.co.kr.
+kostec.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kosti.or.kr,302,10 spam.kosti.or.kr.
+koti.re.kr,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx1.gov-dooray.com.
+kotra.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kotsa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,10 sniper.kotsa.or.kr.; 20 webmail.kotsa.or.kr.
+kpetro.or.kr,SSLHandshakeException: Remote host terminated the handshake,10 spam2.kpetro.or.kr.
+kpf.or.kr,405,20 mail.kpf.or.kr.; 10 spamsniper.kpf.or.kr.
+kpfis.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kpipa.or.kr,400,none
+kps.co.kr,ConnectException,none
+kptb.kr,200,none
+kpx.or.kr,200,0 mail.kpx.or.kr.
+kr.ambafrance.org,301,none
+kr.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kr.china-embassy.org found.,none
+kr.mfa.lt,403,none
+kr.or.kr,302,none
+kra.co.kr,IOException: HTTP/1.1 header parser received no bytes,none
+krei.re.kr,301,10 spam.krei.re.kr.
+krihs.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kriso.re.kr,200,10 sguard.kisti.re.kr.; 20 sguard2.kisti.re.kr.; 20 sguard1.kisti.re.kr.
+krit.re.kr,HttpConnectTimeoutException: HTTP connect timed out,dig error
+krivet.re.kr,302,0 sniper.krivet.re.kr.
+krx.co.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+ksa.or.kr,200,none
+ksd.or.kr,200,none
+ksif.or.kr,301,10 gcmx01.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx03.govkorea.kr.
+kspo.or.kr,302,10 webmail.kspo.or.kr.
+ksponco.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ksure.or.kr,405,0 ksure-spam.ksure.or.kr.; 10 ksure-spam2.ksure.or.kr.
+ktl.re.kr,200,1 aspmx1.gov-dooray.com.
+kto.visitkorea.or.kr,405,none
+kuksiwon.or.kr,302,none
+kvic.or.kr,403,none
+kwater.or.kr,400,none
+kwdi.re.kr,200,none
+kwwa.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+kyci.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+kywa.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 spamx.kywa.or.kr.
+lemi.or.kr,200,none
+lh.or.kr,405,none
+lhca.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 mail1.lhca.or.kr.; 20 mail.lhca.or.kr.; 10 mail0.lhca.or.kr.
+ltikorea.or.kr,200,0 mail.ltikorea.or.kr.
+lx.or.kr,200,none
+mabik.re.kr,403,none
+mfa.bg,302,none
+mfa.gr,403,10 mailhost.mfa.gr.
+mmk.or.kr,400,none
+mndpro.mil.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+moti.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+mrtc.re.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,none
+nahf.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ncc.re.kr,200,none
+ncrc.or.kr,HttpConnectTimeoutException: HTTP connect timed out,10 spam2.ncrc.or.kr.; 20 ems.ncrc.or.kr.
+neca.re.kr,SSLHandshakeException: Remote host terminated the handshake,1 aspmx1.gov-dooray.com.
+newseoulgolf.co.kr,HttpConnectTimeoutException: HTTP connect timed out,10 spam.newseoulgolf.co.kr.
+nhimc.or.kr,302,none
+nhis.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+nia.or.kr,403,10 gcmx03.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.
+nibp.kr,302,10 spam.nibp.kr.
+nids.or.kr,ConnectException,10 mail.nids.or.kr.
+nie.re.kr,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.govkorea.com.; 20 mx02.govkorea.com.
+nikom.or.kr,200,10 aspmx1.gov-dooray.com.
+nile.or.kr,302,10 mail.nile.or.kr.
+nims.re.kr,301,dig error
+nipa.kr,200,10 lb-sensproxy-2213375-dc68d533ade4.kr-gov.lb.naverncp.com.
+nmc.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+nmf.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+nnibr.re.kr,ConnectException,10 securemx01.mailplug.com.; 20 securemx02.mailplug.com.
+norway.no,301,0 mx.domeneshop.no.
+nosa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+nps.or.kr,302,none
+nrc.re.kr,200,10 aspmx1.gov-dooray.com.
+nrcs.re.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nrcs.re.kr found.,none
+nrf.re.kr,403,none
+nst.re.kr,301,20 sguard1.kisti.re.kr.; 20 sguard2.kisti.re.kr.; 10 sguard.kisti.re.kr.
+nypi.re.kr,301,10 spam.nypi.re.kr.
+okf.or.kr,HttpConnectTimeoutException: HTTP connect timed out,5 spam.korean.net.
+okocc.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+origin.or.kr,403,none
+panama.embaseoul.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+philembassy-seoul.com,200,none
+pnudh.co.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+pnuh.or.kr,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx.daum.net.; 20 alt.aspmx.daum.net.
+pola.or.kr,ConnectException,10 mail.pola.or.kr.
+poma.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+popa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+posa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+posid.or.kr,ConnectException: Host is unreachable,none
+provin.gangwon.kr,ConnectException,10 spam.gwd.go.kr.
+ptp.or.kr,200,none
+reb.or.kr,ConnectException,none
+redcross.or.kr,401,10 spamflt2.sensmailcloud.kr.; 10 spamflt1.sensmailcloud.kr.
+sac.or.kr,301,0 cdns.sac.or.kr.
+sbc.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sciencecenter.or.kr,HttpConnectTimeoutException: HTTP connect timed out,dig error
+sciport.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sdco.or.kr,302,1 spamout.sdco.or.kr.
+seaman.or.kr,ConnectException,none
+semas.or.kr,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,0 spam.semas.or.kr.
+seoul.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+seoul.embassy.mn,200,none
+seoul.mae.lu,302,none
+seoul.mae.ro,ConnectException,none
+seoul.mfa.af,ConnectException,none
+seoul.thaiembassy.org,200,none
+seoultp.or.kr,301,10 mail.bizboxa.com.
+siqms.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+slc.or.kr,403,none
+slembassykorea.org,HttpConnectTimeoutException: HTTP connect timed out,none
+smartgrid.or.kr,200,none
+smc.seoul.kr,302,10 SPAM-NLB-bf85e0721378d7fd.elb.ap-northeast-2.amazonaws.com.
+snubh.org,405,10 mail.snubh.org.; 20 cmail.snubh.org.; 5 sniper.snubh.org.
+snudh.or.kr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching snudh.or.kr found.,10 mail.snudh.org.; 0 spam.snudh.org.; 10 gwex.snudh.org.
+snudh.org,200,none
+snuh.org,200,none
+sobang.kr,302,none
+socialenterprise.or.kr,405,none
+sonosa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sonosa.or.kr.
+southafrica-embassy.or.kr,200,10 gw-spam.mailwood.com.
+sp.mofaic.gov.ae,ConnectException,none
+sports.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx01.govkorea.com.; 10 mx02.govkorea.com.
+sports.re.kr,404,none
+spri.kr,200,none
+srail.co.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+srail.or.kr,ConnectException,10 mail2.srail.or.kr.; 10 spam1.srail.or.kr.; 10 mail1.srail.or.kr.; 10 spam2.srail.or.kr.
+ssis.or.kr,200,none
+stepi.re.kr,301,10 spam.stepi.re.kr.
+stop.or.kr,200,none
+suneung.re.kr,HttpTimeoutException: request timed out,none
+swedenabroad.se,301,none
+sydkorea.um.dk,301,none
+szoul.mfa.gov.hu,HttpConnectTimeoutException: HTTP connect timed out,none
+tacss.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+tipa.or.kr,HttpConnectTimeoutException: HTTP connect timed out,20 mail.tipa.or.kr.; 10 spam.tipa.or.kr.
+tp.or.kr,302,1 aspmx1.gov-dooray.com.
+tpf.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+ts2020.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+ttp.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 spamout.ttp.org.; 5 mailgw.dgtp.or.kr.
+unesco.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+unist.ac.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+upa.or.kr,302,none
+utp.or.kr,HttpTimeoutException: request timed out,10 smtp.utp.or.kr.; 10 sniper.utp.or.kr.; 10 antispam.utp.or.kr.; 20 mail.utp.or.kr.
+warmemo.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+waterway.or.kr,200,none
+web.roc-taiwan.org,HttpConnectTimeoutException: HTTP connect timed out,none
+welfare.mil.kr,302,none
+wiset.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+withcountry.mil.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+wwww.aviation.or.kr,HttpConnectTimeoutException: HTTP connect timed out,none
+ygpa.or.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+youthassembly.or.kr,200,20 alt.aspmx.daum.net.; 10 aspmx.daum.net.

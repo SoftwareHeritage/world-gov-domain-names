@@ -35,9 +35,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `rmiparliament.org` | central |  | wikidata;wikidata | Legislature of the Marshall Islands |
-| 5 | `rmiembassyus.org` |  |  | un_desa | UN/DESA national portal |
-| 4 | `pss.edu.mh` |  |  | wikidata | Marshall Islands Public School System |
-| 3 | `alele.org` |  |  | wikidata | National Archives of the Marshall Islands |
-| 3 | `rmieppso.org` |  |  | wikidata | Economic Policy, Planning and Statistics Office |
+| 6 | `rmiparliament.org` | central | 200 | wikidata;wikidata | Legislature of the Marshall Islands |
+| 5 | `rmiembassyus.org` |  | 301 | un_desa | UN/DESA national portal |
+| 4 | `pss.edu.mh` |  | 200 | wikidata | Marshall Islands Public School System |
+| 3 | `alele.org` |  | 200 | wikidata | National Archives of the Marshall Islands |
+| 3 | `rmieppso.org` |  | 200 | wikidata | Economic Policy, Planning and Statistics Office |
 

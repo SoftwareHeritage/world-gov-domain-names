@@ -1,55 +1,55 @@
 hostname,score,sources,label,level,http_status,mx
-fgr.org.mx,7,wikidata;wikidata,General Prosecutor of the Republic,central,,
-franciscanosenmexico.com.mx,7,wikidata;wikidata,Province of the Holy Gospel in Mexico,,,
-insp.mx,7,wikidata;wikidata,Instituto Nacional de Salud Pública,,,
-escolapiosmexico.org,6,wikidata;wikidata,Piarist province of Mexico,,,
-jesuitasmexico.org,6,wikidata;wikidata,Jesuit Province of Mexico,,,
-mexiko.ahk.de,6,wikidata;wikidata,Cámara Mexicano-Alemana de Comercio e Industria,,,
-sites.google.com,6,wikidata;wikidata,Q25408184,,,
-banxico.org.mx,4,wikidata,Bank of Mexico,,,
-bnm.iib.unam.mx,4,wikidata,National Library of Mexico,,,
-cardiologia.org.mx,4,wikidata,Instituto Nacional de Cardiología,,,
-cdhcm.org.mx,4,wikidata,Comisión de Derechos Humanos de la Ciudad de México,central-1,,
-ciad.mx,4,wikidata,Research Center for Food and Development A.C.,,,
-ciatej.mx,4,wikidata,Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco,,,
-cofece.mx,4,wikidata,Comisión Federal de Competencia,,,
-conahcyt.mx,4,wikidata,"Consejo Nacional de Humanidades, Ciencias y Tecnologías",,,
-conapred.org.mx,4,wikidata,National Council to Prevent Discrimination,,,
-culturamazatlan.mx,4,wikidata,Cultura,,,
-embajadadecostarica.com.mx,4,wikidata,embassy of Costa Rica in Mexico,central,,
-embajadasudafrica.mx,4,wikidata,embassy of South Africa in Mexico,central,,
-geoint.mx,4,wikidata,Laboratorio Nacional de GeoInteligencia,,,
-ieebc.mx,4,wikidata,State Electoral Institute of Baja California,,,
-ieechihuahua.org.mx,4,wikidata,Q110720948,central-1,,
-inap.mx,4,wikidata,Instituto Nacional de Administración Pública,central,,
-inegi.org.mx,4,wikidata,Instituto Nacional de Estadística y Geografía,,,
-international.gouv.qc.ca,4,wikidata,Quebec general delegation in Mexico,,,
-mexiko.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Mexico City",central,,
-mexikovaros.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Mexico City",central,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Mexico",central,,
-oplever.org.mx,4,wikidata,Q91380052,,,
-portalmx.infonavit.org.mx,4,wikidata,Institute of the National Housing Fund for Workers,,,
-snieg.mx,4,wikidata,Sistema Nacional de Información Estadística y Geográfica,,,
-apiacapulcoport.com,3,wikidata,Q5657829,,,
-banamex.com,3,wikidata,Banco Nacional de México,,,
-ccemx.org,3,wikidata,Centro Cultural de España,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mexico,,,
-embadom.org,3,wikidata,embassy of the Dominican Republic in Mexico,central,,
-embajadasaharauimexico.org,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Mexico City",central,,
-finlandabroad.fi,3,wikidata,Embassy of Finland in Mexico,central,,
-mexico.mae.ro,3,wikidata,embassy of Romania in Mexico,central,,
-mexico.mfa.am,3,wikidata,embassy of Armenia in Mexico,central,,
-mexico.mid.ru,3,wikidata,embassy of Russia in Mexico,central,,
-mexico.um.dk,3,wikidata,embassy of Denmark in Mexico,central,,
-mexiko.diplo.de,3,wikidata,"Embassy of Germany, Mexico City",central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Mexico,central,,
-mfa.gr,3,wikidata,embassy of Greece in Mexico,central,,
-mx.ambafrance.org,3,wikidata,"Embassy of France, Mexico City",central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Mexico,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Mexico,central,,
-nigerianembmexico.org,3,wikidata,embassy of Nigeria in Mexico,central,,
-norway.no,3,wikidata,"Embassy of Norway, Mexico City",central,,
-programasotavento.blogspot.com,3,wikidata,Q100980372,,,
-swedenabroad.com,3,wikidata,"Embassy of Sweden, Mexico City",central,,
-usmcoc.org,3,wikidata,United States-Mexico Chamber of Commerce,,,
-web.roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Mexico,,,
+fgr.org.mx,7,wikidata;wikidata,General Prosecutor of the Republic,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,dig error
+franciscanosenmexico.com.mx,7,wikidata;wikidata,Province of the Holy Gospel in Mexico,,200,10 mail.franciscanosenmexico.com.mx.
+insp.mx,7,wikidata;wikidata,Instituto Nacional de Salud Pública,,200,0 insp-mx.mail.protection.outlook.com.
+escolapiosmexico.org,6,wikidata;wikidata,Piarist province of Mexico,,301,0 escolapiosmexico.org.
+jesuitasmexico.org,6,wikidata;wikidata,Jesuit Province of Mexico,,200,none
+mexiko.ahk.de,6,wikidata;wikidata,Cámara Mexicano-Alemana de Comercio e Industria,,302,none
+sites.google.com,6,wikidata;wikidata,Q25408184,,302,none
+banxico.org.mx,4,wikidata,Bank of Mexico,,ConnectException,25 mail4.banxico.org.mx.; 25 mail2.banxico.org.mx.
+bnm.iib.unam.mx,4,wikidata,National Library of Mexico,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cardiologia.org.mx,4,wikidata,Instituto Nacional de Cardiología,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 smtp.cardiologia.org.mx.
+cdhcm.org.mx,4,wikidata,Comisión de Derechos Humanos de la Ciudad de México,central-1,200,10 mail.cdhcm.org.mx.
+ciad.mx,4,wikidata,Research Center for Food and Development A.C.,,301,10 alt4.aspmx.l.google.com.; 5 ALT1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 ALT2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+ciatej.mx,4,wikidata,Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco,,200,0 ciatej-mx.mail.protection.outlook.com.
+cofece.mx,4,wikidata,Comisión Federal de Competencia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 cofece-mx.mail.protection.outlook.com.
+conahcyt.mx,4,wikidata,"Consejo Nacional de Humanidades, Ciencias y Tecnologías",,301,0 conahcyt-mx.mail.protection.outlook.com.
+conapred.org.mx,4,wikidata,National Council to Prevent Discrimination,,ConnectException,0 conapred-org-mx.mail.protection.outlook.com.
+culturamazatlan.mx,4,wikidata,Cultura,,301,none
+embajadadecostarica.com.mx,4,wikidata,embassy of Costa Rica in Mexico,central,200,0 mail.embajadadecostarica.com.mx.
+embajadasudafrica.mx,4,wikidata,embassy of South Africa in Mexico,central,200,66 route3.mx.cloudflare.net.; 12 route2.mx.cloudflare.net.; 18 route1.mx.cloudflare.net.
+geoint.mx,4,wikidata,Laboratorio Nacional de GeoInteligencia,,200,20 mx1.geoint.mx.; 0 mail.geoint.mx.
+ieebc.mx,4,wikidata,State Electoral Institute of Baja California,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+ieechihuahua.org.mx,4,wikidata,Q110720948,central-1,200,0 ieechihuahua-org-mx.mail.protection.outlook.com.
+inap.mx,4,wikidata,Instituto Nacional de Administración Pública,central,200,0 inap.mx.
+inegi.org.mx,4,wikidata,Instituto Nacional de Estadística y Geografía,,200,10 inegi-org-mx.mail.protection.outlook.com.
+international.gouv.qc.ca,4,wikidata,Quebec general delegation in Mexico,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+mexiko.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Mexico City",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mexikovaros.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Mexico City",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Mexico",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+oplever.org.mx,4,wikidata,Q91380052,,403,10 mail.oplever.org.mx.
+portalmx.infonavit.org.mx,4,wikidata,Institute of the National Housing Fund for Workers,,403,none
+snieg.mx,4,wikidata,Sistema Nacional de Información Estadística y Geográfica,,301,10 snieg-mx.mail.protection.outlook.com.
+apiacapulcoport.com,3,wikidata,Q5657829,,200,none
+banamex.com,3,wikidata,Banco Nacional de México,,301,5 mx-a.mail.citi.com.; 5 mx-b.mail.citi.com.
+ccemx.org,3,wikidata,Centro Cultural de España,,403,10 mx001.spacemail.xion.oxcs.net.; 10 mx003.spacemail.xion.oxcs.net.; 10 mx002.spacemail.xion.oxcs.net.; 10 mx004.spacemail.xion.oxcs.net.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Mexico,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embadom.org,3,wikidata,embassy of the Dominican Republic in Mexico,central,302,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+embajadasaharauimexico.org,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Mexico City",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching embajadasaharauimexico.org found.,10 mx2-hosting.jellyfish.systems.; 5 mx1-hosting.jellyfish.systems.; 20 mx3-hosting.jellyfish.systems.
+finlandabroad.fi,3,wikidata,Embassy of Finland in Mexico,central,301,10 mail.valtori.fi.
+mexico.mae.ro,3,wikidata,embassy of Romania in Mexico,central,ConnectException,none
+mexico.mfa.am,3,wikidata,embassy of Armenia in Mexico,central,301,none
+mexico.mid.ru,3,wikidata,embassy of Russia in Mexico,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mexico.um.dk,3,wikidata,embassy of Denmark in Mexico,central,301,none
+mexiko.diplo.de,3,wikidata,"Embassy of Germany, Mexico City",central,200,none
+mfa.bg,3,wikidata,embassy of Bulgaria in Mexico,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Mexico,central,403,10 mailhost.mfa.gr.
+mx.ambafrance.org,3,wikidata,"Embassy of France, Mexico City",central,301,none
+mzv.cz,3,wikidata,embassy of the Czech republic in Mexico,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Mexico,central,301,10 mail.gov.sk.
+nigerianembmexico.org,3,wikidata,embassy of Nigeria in Mexico,central,301,10 mx.zoho.com.
+norway.no,3,wikidata,"Embassy of Norway, Mexico City",central,301,0 mx.domeneshop.no.
+programasotavento.blogspot.com,3,wikidata,Q100980372,,200,none
+swedenabroad.com,3,wikidata,"Embassy of Sweden, Mexico City",central,301,none
+usmcoc.org,3,wikidata,United States-Mexico Chamber of Commerce,,200,0 usmcoc-org.mail.protection.outlook.com.
+web.roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Mexico,,HttpConnectTimeoutException: HTTP connect timed out,none

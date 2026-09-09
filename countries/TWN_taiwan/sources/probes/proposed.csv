@@ -1,0 +1,74 @@
+hostname,http_status,mx
+ait.org.tw,301,10 ait-org-tw.mail.protection.outlook.com.
+australia.org.tw,200,10 biz-mx2.hinet.net.; 10 biz-mx1.hinet.net.
+bola.gov.taipei,200,none
+business-sweden.com,301,none
+ca.gov.taipei,200,none
+cadf.org.tw,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cadf.org.tw found.,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 20 officemail.cloudmax.com.tw.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+dbas.gov.taipei,200,none
+decm.gov.mo,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.emailsrv.safp.gov.mo.; 10 mx1.emailsrv.safp.gov.mo.
+dep.gov.taipei,ConnectException,none
+docms.gov.taipei,200,none
+doe.gov.taipei,ConnectException,none
+doed.gov.taipei,200,none
+doit.gov.taipei,200,none
+ecct.com.tw,301,30 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 10 alt2.aspmx.l.google.com.; 10 alt1.aspmx.l.google.com.; 0 aspmx.l.google.com.
+edu.tw,ConnectException,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embajadahondurastw.wixsite.com,404,none
+embapartwroc.com.tw,200,1 smtp.google.com.
+embassyofbelizetaiwan.org,HttpTimeoutException: request timed out,1200 ghs.google.com.
+english.docms.gov.taipei,200,none
+english.doh.gov.taipei,200,none
+english.doit.gov.taipei,HttpConnectTimeoutException: HTTP connect timed out,none
+english.geo.gov.taipei,HttpConnectTimeoutException: HTTP connect timed out,none
+english.gov.taipei,200,none
+english.pwd.gov.taipei,HttpConnectTimeoutException: HTTP connect timed out,none
+english.rdec.gov.taipei,HttpConnectTimeoutException: HTTP connect timed out,none
+english.tpedoit.gov.taipei,200,none
+family.gov.taipei,200,none
+feitsui.gov.taipei,HttpConnectTimeoutException: HTTP connect timed out,5 mail.feitsui.gov.taipei.
+france-taipei.org,301,5 mta-gw.infomaniak.ch.
+geo.gov.taipei,HttpConnectTimeoutException: HTTP connect timed out,none
+gov.taipei,ConnectException,10 ddei.gov.taipei.
+holyrosaryprovince.org,301,none
+icex.es,301,10 d307707.a.ess.de.barracudanetworks.com.; 10 d307707.b.ess.de.barracudanetworks.com.
+india.org.tw,HttpConnectTimeoutException: HTTP connect timed out,none
+kdei-taipei.org,403,10 webserver.kdei-taipei.org.
+koryu.or.jp,ConnectException,10 mofa-go-jp.in.tmems-jp.trendmicro.com.
+meco.org.tw,ConnectException,0 meco-org-tw.mail.protection.outlook.com.
+mlc.edu.tw,HttpConnectTimeoutException: HTTP connect timed out,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+moo-mtkk.ru,200,10 mx1.beget.com.; 20 mx2.beget.com.
+mtc.org.tw,HttpConnectTimeoutException: HTTP connect timed out,0 mtc-org-tw.mail.protection.outlook.com.
+naer.edu.tw,ConnectException,10 mailgates.naer.edu.tw.
+nari.org.tw,HttpConnectTimeoutException: HTTP connect timed out,5 spam.nari.org.tw.; 5 spam2.nari.org.tw.; 32767 ms66847941.msv1.invalid.nari.org.tw.; 65534 inerout119.nari.org.tw.
+ncl.edu.tw,ConnectException,10 mg2.ncl.edu.tw.; 10 mg.ncl.edu.tw.
+newtaipei.travel,302,0 mx.sendgrid.net.
+ngdo.gov.taipei,200,none
+nl.org.tw,ConnectException,none
+ntpc.edu.tw,ConnectException,dig error
+nzcio.com,302,50 mailq.dedicatedhosting.com.au.; 25 mail.nzcio.com.
+peru.org.tw,HttpConnectTimeoutException: HTTP connect timed out,10 ntvirus.url.com.tw.; 10 ntvirus2.url.com.tw.
+pkl.gov.taipei,200,none
+poland.tw,301,none
+pwd.gov.taipei,200,none
+rdec.gov.taipei,200,none
+recoletos.ph,HttpTimeoutException: request timed out,1 smtp.google.com.
+roc-taiwan.org,302,none
+sites.google.com,302,none
+sluembassy.tw,301,0 sluembassy-tw.mail.protection.outlook.com.
+somaliland.tw,200,10 mailstore1.secureserver.net.; 0 smtp.secureserver.net.
+southafrica.org.tw,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching southafrica.org.tw found.,none
+svgembassytw.com,403,10 mail.svgembassytw.com.
+swaziland.org.tw,ConnectException,none
+taipei.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+taiwan.net.tw,302,10 mail.taiwan.net.tw.
+tasa.org.tw,ConnectException,5 mg1.tasa.org.tw.; 5 mg2.tasa.org.tw.
+tc.edu.tw,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 20 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+tmc.taipei,200,0 tmc-taipei.mail.protection.outlook.com.
+tpedoit.gov.taipei,ConnectException,none
+tuic.gov.taipei,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tuvaluembassyroc.org,ConnectException,none
+water.gov.taipei,ConnectException,10 spam.water.gov.taipei.
+whdo.gov.taipei,200,none
+youth.gov.taipei,HttpTimeoutException: request timed out,none

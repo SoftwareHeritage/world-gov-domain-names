@@ -1,0 +1,96 @@
+hostname,http_status,mx
+affaires-etrangeres.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.affaires-etrangeres.gouv.ga.
+africa.iclei.org,200,10 www13.iclei.org.
+agsa.co.za,ConnectException: Host is unreachable,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.; 20 mail.agsa.co.za.
+arb.org.za,301,0 arb-org-za.mail.protection.outlook.com.
+arc.agric.za,302,20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.; 40 arc-agric-za.mail.protection.outlook.com.
+caa.co.za,301,10 za-smtp-inbound-1.mimecast.co.za.; 10 za-smtp-inbound-2.mimecast.co.za.
+camhicom.co.za,403,none
+capenature.org.za,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching capenature.org.za found.,0 capenature-org-za.mail.protection.outlook.com.
+cge.org.za,200,0 cge-org-za.mail.protection.outlook.com.
+chadembassy.co.za,200,20 mail.from.co.za.; 10 chadembassy.co.za.
+che.ac.za,200,10 za-smtp-inbound-1.mimecast.co.za.; 10 za-smtp-inbound-2.mimecast.co.za.
+cipc.co.za,ConnectException,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+compcom.co.za,301,0 compcom-co-za.mail.protection.outlook.com.; 10 mail.compcom.co.za.
+concourt.org.za,301,10 za-smtp-inbound-1.mimecast.co.za.; 20 za-smtp-inbound-2.mimecast.co.za.
+consulfrance-jhb.org,ConnectException,none
+consulfrance-lecap.org,ConnectException,none
+dmv.mil.za,ConnectException,none
+dod.mil.za,HttpConnectTimeoutException: HTTP connect timed out,5 mail1.dod.mil.za.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+elrc.org.za,200,0 za-smtp-inbound-2.mimecast.co.za.; 0 za-smtp-inbound-1.mimecast.co.za.
+embaixadaportugal.org.za,ConnectException,none
+embassyofalgeria-rsa.org,301,1200 ghs.google.com.
+embassyofcongo.co.za,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching embassyofcongo.co.za found.,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+embassyoftogoza.com,200,20 mx3-hosting.jellyfish.systems.; 5 mx1-hosting.jellyfish.systems.; 10 mx2-hosting.jellyfish.systems.
+embbeninsa.org.za,ConnectException,none
+exteriors.gencat.cat,301,none
+ffc.co.za,301,10 ffc-co-za.mail.protection.outlook.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+fpb.org.za,200,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+gambiahighcommissionsa.co.za,200,20 mail.from.co.za.; 10 gambiahighcommissionsa.co.za.
+geoscience.org.za,301,10 za-smtp-inbound-1.mimecast.co.za.; 10 za-smtp-inbound-2.mimecast.co.za.
+gpwonline.co.za,200,none
+hpcsa.co.za,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 zalc.e-purifier.com.; 10 zalj.e-purifier.com.
+icasa.org.za,200,10 zalc.e-purifier.com.; 10 zalj.e-purifier.com.
+internetgovernance.org.za,200,10 mail.internetgovernance.org.za.
+kapstadt.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+kenya.org.za,200,0 kenya-org-za.mail.protection.outlook.com.
+kuwaitembassy.co.za,301,none
+kznwildlife.com,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 za-smtp-inbound-1.mimecast.co.za.; 10 za-smtp-inbound-2.mimecast.co.za.
+liberiaembassypretoria.co.za,301,none
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mhs.mil.za,ConnectException,none
+mjc.org.za,200,1 SMTP.GOOGLE.COM.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+moroccoembassy.co.za,200,0 _dc-mx.58eed9d8d42f.moroccoembassy.co.za.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nac.org.za,301,0 nac-org-za.mail.protection.outlook.com.
+nationalplanningcommission.org.za,ConnectException,0 nationalplanningcommission-org-za.mail.protection.outlook.com.
+necsa.co.za,301,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+nhcpsa.org,200,10 mail.nhcpsa.org.
+nhls.ac.za,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 nhls-ac-za.mail.protection.outlook.com.
+nicd.ac.za,HttpConnectTimeoutException: HTTP connect timed out,10 tls.imss.mtnbusiness.co.za.
+nihss.ac.za,200,10 nihss-ac-za.mail.protection.outlook.com.
+nlsa.ac.za,ConnectException,5 d332613.b.ess.de.barracudanetworks.com.; 0 d332613.a.ess.de.barracudanetworks.com.
+norway.no,301,0 mx.domeneshop.no.
+nrf.ac.za,ConnectException,0 nrf-ac-za.mail.protection.outlook.com.
+palembassyza.co.za,200,0 .
+paraguayembassy.co.za,405,none
+pprotect.org,ConnectException,20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.; 0 pprotect-org.mail.protection.outlook.com.
+pretoria.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pretoria.ghanahighcommission.co.za,403,none
+pretoria.mae.ro,503,none
+pretoria.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pretoria.mofa.go.ug,200,none
+pretoria.thaiembassy.org,200,none
+reservebank.co.za,ConnectException,none
+roc-taiwan.org,302,none
+rsr.org.za,301,10 rsr-org-za.mail.protection.outlook.com.
+russianembassyza.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sacnasp.org.za,ConnectException,10 sacnasp-org-za.mail.protection.outlook.com.
+sahra.org.za,301,10 mx-02-us-west-2.prod.hydra.sophos.com.; 10 mx-01-us-west-2.prod.hydra.sophos.com.
+sanac.org.za,200,10 sanac-org-za.mail.protection.outlook.com.
+sanparks.org,301,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+sansa.org.za,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sansa.org.za found.,10 sansa-org-za.mail.protection.outlook.com.
+sasi.org.za,404,10 mx1.tld-mx.com.; 20 mx2.tld-mx.net.
+saudiembassy.co.za,404,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+senegalembassy.co.za,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching senegalembassy.co.za found.,10 senegalembassy.co.za.; 20 mail.from.co.za.
+siu.org.za,HttpConnectTimeoutException: HTTP connect timed out,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+southafrica.diplo.de,200,none
+southafrica.net,302,5 za-smtp-inbound-1.mimecast.co.za.; 10 za-smtp-inbound-2.mimecast.co.za.
+srilanka.co.za,301,none
+swazihighcom.co.za,301,0 swazihighcom-co-za.mail.protection.outlook.com.
+swedenabroad.se,301,none
+sydafrika.um.dk,301,none
+taalkommissie.co.za,301,10 mx1.rdsa-mail.com.; 30 mx3.rdsa-mail.com.; 20 mx2.rdsa-mail.com.
+umgeni.co.za,200,10 za-smtp-inbound-1.mimecast.co.za.; 10 za-smtp-inbound-2.mimecast.co.za.
+vietnam.co.za,301,10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+wrc.org.za,HttpTimeoutException: request timed out,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+za.ambafrance.org,301,none
+za.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching za.china-embassy.org found.,none
+za.mfa.lt,403,none
+za.mvep.hr,ConnectException,none
+zambiapretoria.net,301,5 1-grid-mx04.com.; 5 1-grid-mx02.com.; 5 1-grid-mx01.co.za.; 5 1-grid-mx03.co.za.

@@ -1,0 +1,74 @@
+hostname,http_status,mx
+ambacamturquie.com,HttpConnectTimeoutException: HTTP connect timed out,0 ambacamturquie-com.mail.protection.outlook.com.
+ambaniger-tr.org,301,0 mail.ambaniger-tr.org.
+ambasadat.net,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+ankara.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ankara.embassy.si,SSLHandshakeException: Remote host terminated the handshake,none
+ankara.mae.lu,302,none
+ankara.mae.ro,503,none
+ankara.mfa.ee,200,none
+ankara.mfa.gov.ct.tr,200,none
+ankara.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ankara.mofa.go.ug,HttpConnectTimeoutException: HTTP connect timed out,none
+ankara.thaiembassy.org,200,none
+antalya.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+aso.org.tr,200,0 aso-org-tr.mail.protection.outlook.com.
+bddk.org.tr,ConnectException,10 mail.bddk.org.tr.
+consulateofpalestine.com.tr,403,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embassyangolatr.org,HttpConnectTimeoutException: HTTP connect timed out,10 mail.netbizde.com.tr.
+embassynigeriaturkey.com,HttpConnectTimeoutException: HTTP connect timed out,10 mx.stackmail.com.
+embassyofpalestine.org.tr,200,10 mail.embassyofpalestine.org.tr.
+epdk.org.tr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.epdk.gov.tr.
+esb.org.tr,301,1 antispam.esb.org.tr.
+finlandabroad.fi,301,10 mail.valtori.fi.
+ghanaembassy-turkey.com,ConnectException,none
+ibg.edu.tr,200,1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+iski.istanbul,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.iski.istanbul.; 10 mail2.iski.istanbul.
+istanbul.china-consulate.org,HttpConnectTimeoutException: HTTP connect timed out,none
+istanbul.consulfrance.org,301,none
+istanbul.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+istanbul.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+istihbarat.pol.tr,302,none
+istka.org.tr,200,0 istka-org-tr.mail.protection.outlook.com.
+isztambul.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+itfaiye.izmir.bel.tr,302,none
+izmir.diplo.de,301,10 mx2.bund.de.; 10 mx1.bund.de.
+izto.org.tr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.izto.org.tr.
+kardelen.baglar.bel.tr,ConnectException,none
+kenyaembassy.org.tr,200,10 mx.yandex.net.
+kuwaitembassy.org.tr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx02.ofis.net.; 15 mxbackup01.ofis.net.; 5 mx01.ofis.net.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+misiones.cubaminrex.cu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mongolianembassy.com.tr,HttpConnectTimeoutException: HTTP connect timed out,10 _dc-mx.2e2e76325947.mongolianembassy.com.tr.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+netherlandsandyou.nl,301,0 .
+norway.no,301,0 mx.domeneshop.no.
+pakembassyankara.com,HttpConnectTimeoutException: HTTP connect timed out,none
+roc-taiwan.org,302,none
+senegalbuyukelciligi.com,200,0 senegalbuyukelciligi.com.
+sesric.org,200,0 sesric-org.mail.protection.outlook.com.
+sierraleoneembassy.org.tr,HttpConnectTimeoutException: HTTP connect timed out,0 mx1.teknobay.com.
+southafrica.org.tr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching southafrica.org.tr found.,0 s0.protection.alastyr.com.; 10 mail.southafrica.org.tr.
+southsudanankara.org,200,none
+srilanka.org.tr,200,10 mail.srilanka.org.tr.
+swedenabroad.se,301,none
+tarimkredi.org.tr,404,10 mail.tarimkredi.org.tr.
+tmsf.org.tr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,30 mail3.tmsf.org.tr.; 10 mail.tmsf.org.tr.; 20 mail2.tmsf.org.tr.
+tr.ambafrance.org,301,none
+tr.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching tr.china-embassy.org found.,none
+tr.mfa.lt,403,none
+tr.mvep.hr,ConnectException,none
+tse.org.tr,HttpConnectTimeoutException: HTTP connect timed out,10 posta3.tse.org.tr.; 10 posta2.tse.org.tr.
+ttgv.org.tr,301,0 ttgv-org-tr.mail.protection.outlook.com.
+tuerkei.diplo.de,200,none
+turkak.org.tr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.turkak.org.tr.; 10 mail2.turkak.org.tr.
+turkey.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tyrkiet.um.dk,301,none
+unesco.org.tr,200,0 unesco-org-tr.mail.protection.outlook.com.
+uzembassy.org.tr,HttpConnectTimeoutException: HTTP connect timed out,10 mx.turkticaret.net.
+zambiaembassy.org.tr,308,none
+zimankara.org.tr,200,none

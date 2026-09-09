@@ -1,5 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.bt,8,wikidata;wikidata,Parliament of Bhutan,central,,
-acc.org.bt,4,wikidata,Anti-Corruption Commission,,,
-nationalcouncil.bt,4,wikidata,National Council of Bhutan,central,,
-rma.org.bt,4,wikidata,Royal Monetary Authority of Bhutan,,,
+parliament.bt,8,wikidata;wikidata,Parliament of Bhutan,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+acc.org.bt,4,wikidata,Anti-Corruption Commission,,ConnectException,10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+nationalcouncil.bt,4,wikidata,National Council of Bhutan,central,HttpConnectTimeoutException: HTTP connect timed out,10 ASPMX.L.GOOGLE.COM.; 30 ASPMX2.GOOGLEMAIL.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.
+rma.org.bt,4,wikidata,Royal Monetary Authority of Bhutan,,ConnectException,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.

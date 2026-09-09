@@ -35,14 +35,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `geagricultura.com` | central |  | wikidata;wikidata | Ministry of Agriculture and Forestry |
-| 6 | `dominicoshispania.org` |  |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 6 | `piaristesafriquecentrale.org` |  |  | wikidata;wikidata | Piarist province of Central Africa |
-| 4 | `ghanaembassy-equatorialguinea.com` | central |  | wikidata | embassy of Ghana in Equatorial Guinea |
-| 3 | `aegle.gq` |  |  | wikidata | Academia Ecuatoguineana de la Lengua Española |
-| 3 | `gq.ambafrance.org` | central |  | wikidata | Embassy of France, Malabo |
-| 3 | `gq.chineseembassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Malabo |
-| 3 | `inege.gq` | central |  | wikidata | Instituto Nacional de Estadística de Guinea Ecuatorial |
-| 3 | `mae-ge.org` |  |  | wikidata | Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea |
-| 3 | `senado-gq.org` | central |  | wikidata | Senate of Equatorial Guinea |
+| 7 | `geagricultura.com` | central | ConnectEx... | wikidata;wikidata | Ministry of Agriculture and Forestry |
+| 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 6 | `piaristesafriquecentrale.org` |  | ConnectEx... | wikidata;wikidata | Piarist province of Central Africa |
+| 4 | `ghanaembassy-equatorialguinea.com` | central | ConnectEx... | wikidata | embassy of Ghana in Equatorial Guinea |
+| 3 | `aegle.gq` |  | 301 | wikidata | Academia Ecuatoguineana de la Lengua Española |
+| 3 | `gq.ambafrance.org` | central | 301 | wikidata | Embassy of France, Malabo |
+| 3 | `gq.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Malabo |
+| 3 | `inege.gq` | central | ConnectEx... | wikidata | Instituto Nacional de Estadística de Guinea Ecuatorial |
+| 3 | `mae-ge.org` |  | 301 | wikidata | Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea |
+| 3 | `senado-gq.org` | central | SSLHandsh... | wikidata | Senate of Equatorial Guinea |
 

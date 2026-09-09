@@ -1,0 +1,8 @@
+hostname,http_status,mx
+anpm.tl,ConnectException,none
+bancocentral.tl,200,15 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 15 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+holyrosaryprovince.org,301,none
+mineralstender.anpm.tl,ConnectException,none
+parlamento.tl,HttpConnectTimeoutException: HTTP connect timed out,10 mail.parlamento.tl.
+pntl.tl,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pntl.tl found.,10 mail.pntl.tl.

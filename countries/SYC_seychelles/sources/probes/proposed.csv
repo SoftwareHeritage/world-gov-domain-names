@@ -1,0 +1,42 @@
+hostname,http_status,mx
+ago.sc,200,none
+cbs.sc,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 cbs-sc.mail.protection.outlook.com.; 10 cbs-sc.mail.protection.outlook.com.
+curatelleoffice.sc,301,20 mx2.zoho.com.; 50 mx3.zoho.com.; 10 mx.zoho.com.
+drdm.sc,301,0 webserver.switch.sc.
+ecs.sc,200,0 ecs-sc.mail.protection.outlook.com.
+egov.sc,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 mx3.egov.sc.
+esa.egov.sc,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+infocom.sc,301,15 mx3.egov.sc.
+investinseychelles.com,200,10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.
+judiciary.sc,301,20 mx2.zoho.com.; 50 mx3.zoho.com.; 0 judiciary.sc.; 10 mx.zoho.com.
+mayorsofficeseychelles.com,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+meteo.sc,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching meteo.sc found.,1 meteo-sc.mail.protection.outlook.com.
+misiones.cubaminrex.cu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nacseychelles.sc,301,5 mx10.seychelles.net.; 10 mx5.seychelles.net.; 10 mx20.seychelles.net.; 10 mx15.seychelles.net.
+national-library.edu.sc,HttpConnectTimeoutException: HTTP connect timed out,10 mx20.seychelles.net.; 10 mx15.seychelles.net.; 5 mx10.seychelles.net.; 10 mx5.seychelles.net.
+nationalassembly.sc,301,0 nationalassembly-sc.mail.protection.outlook.com.
+nsc.sc,301,15 mx3.egov.sc.
+ntb.sc,301,10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.
+pemc.sc,301,37 route2.mx.cloudflare.net.; 20 route3.mx.cloudflare.net.; 25 route1.mx.cloudflare.net.
+saa.sc,200,1 mx2-eu1.ppe-hosted.com.; 1 mx1-eu1.ppe-hosted.com.
+sbs.sc,200,0 sbs-sc.mail.protection.outlook.com.
+sc.ambafrance.org,301,none
+sc.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sc.china-embassy.org found.,none
+scaa.sc,200,10 mx1-eu1.ppe-hosted.com.; 10 mx2-eu1.ppe-hosted.com.
+scra.sc,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx3.egov.sc.
+sdf.sc,200,0 sdf-sc.mail.protection.outlook.com.
+seychelles.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+seychellescultureinstitute.org,301,15 eforward4.registrar-servers.com.; 10 eforward2.registrar-servers.com.; 10 eforward3.registrar-servers.com.; 10 eforward1.registrar-servers.com.; 20 eforward5.registrar-servers.com.
+seychellesnewsagency.com,403,10 rel.m3bg.com.; 40 rel2.m3bg.com.
+seychellespostalregulator.com,200,1 mx.seychellespostalregulator.com.cust.b.hostedemail.com.
+seyport.sc,HttpConnectTimeoutException: HTTP connect timed out,0 seyport-sc.mail.protection.outlook.com.
+sfa.sc,301,0 sfa-sc.mail.protection.outlook.com.
+shf.sc,ConnectException,10 mx20.seychelles.net.; 10 mx5.seychelles.net.; 10 mx15.seychelles.net.; 5 mx10.seychelles.net.
+slta.sc,307,0 slta-sc.mail.protection.outlook.com.
+smsa.sc,200,5 mx10.seychelles.net.; 10 mx15.seychelles.net.; 10 mx20.seychelles.net.; 10 mx5.seychelles.net.
+snyc.sc,503,0 snyc-sc.mail.protection.outlook.com.
+spa.sc,ConnectException,none
+sptc.sc,200,0 sptc-sc.mail.protection.outlook.com.
+sqa.sc,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.egov.sc.; 15 mx3.egov.sc.; 10 mx1.egov.sc.
+urc.sc,ConnectException,0 urc-sc.mail.protection.outlook.com.

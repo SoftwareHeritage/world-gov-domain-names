@@ -1,7 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Laos,,,
-la.ambafrance.org,3,wikidata,"Embassy of France, Vientiane",central,,
-la.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Vientiane",central,,
-laos.mid.ru,3,wikidata,embassy of Russia in Laos,central,,
-nationallibraryoflaos.org,3,wikidata,National Library of Laos,,,
-vientiane.diplo.de,3,wikidata,"Embassy of Germany, Vientiane",central,,
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Laos,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+la.ambafrance.org,3,wikidata,"Embassy of France, Vientiane",central,301,none
+la.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Vientiane",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching la.china-embassy.org found.,none
+laos.mid.ru,3,wikidata,embassy of Russia in Laos,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nationallibraryoflaos.org,3,wikidata,National Library of Laos,,200,none
+vientiane.diplo.de,3,wikidata,"Embassy of Germany, Vientiane",central,200,10 mx2.bund.de.; 10 mx1.bund.de.

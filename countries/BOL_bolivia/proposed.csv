@@ -1,17 +1,17 @@
 hostname,score,sources,label,level,http_status,mx
-tsj.bo,9,wikidata;wikidata,Supreme Tribunal of Justice | Supreme Court of Bolivia,,,
-archivoybibliotecanacionales.org.bo,7,wikidata;wikidata;wikidata;wikidata,National Library of Bolivia | National Archive and Library of Bolivia | Archivo Nacional,,,
-cancilleria.bo,7,wikidata;wikidata,Ministry of Foreign Affairs,central,,
-escolapiosbrasilbolivia.org,6,wikidata;wikidata,Piarist province of Brazil-Bolivia,,,
-oep.org.bo,6,wikidata,Plurinational Electoral Organ,central,,
-tcpbolivia.bo,6,wikidata,Plurinational Constitutional Tribunal,,,
-abe.bo,4,wikidata,Agencia Boliviana Espacial,,,
-policia.bo,4,wikidata,Bolivian Police,,,
-bo.ambafrance.org,3,wikidata,"Embassy of France, La Paz",central,,
-bo.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, La Paz",central,,
-bolivia.mid.ru,3,wikidata,embassy of Russia in Bolivia,central,,
-consulado.pe,3,wikidata,"Consulate-General of Peru, La Paz",central,,
-cubadiplomatica.cu,3,wikidata,embassy of Cuba in Bolivia,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Bolivia,,,
-la-paz.diplo.de,3,wikidata,"Embassy of Germany, La Paz",central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, La Paz",central,,
+tsj.bo,9,wikidata;wikidata,Supreme Tribunal of Justice | Supreme Court of Bolivia,,200,none
+archivoybibliotecanacionales.org.bo,7,wikidata;wikidata;wikidata;wikidata,National Library of Bolivia | National Archive and Library of Bolivia | Archivo Nacional,,200,0 _dc-mx.9367ebfb1298.archivoybibliotecanacionales.org.bo.
+cancilleria.bo,7,wikidata;wikidata,Ministry of Foreign Affairs,central,ConnectException,none
+escolapiosbrasilbolivia.org,6,wikidata;wikidata,Piarist province of Brazil-Bolivia,,301,0 mail.escolapiosbrasilbolivia.org.
+oep.org.bo,6,wikidata,Plurinational Electoral Organ,central,ConnectException,0 mail.oep.org.bo.
+tcpbolivia.bo,6,wikidata,Plurinational Constitutional Tribunal,,200,10 zimbra.tcpbolivia.bo.
+abe.bo,4,wikidata,Agencia Boliviana Espacial,,301,0 mail.abe.bo.
+policia.bo,4,wikidata,Bolivian Police,,301,10 antispam1.megalink.com.
+bo.ambafrance.org,3,wikidata,"Embassy of France, La Paz",central,301,none
+bo.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, La Paz",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bo.chineseembassy.org found.,none
+bolivia.mid.ru,3,wikidata,embassy of Russia in Bolivia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+consulado.pe,3,wikidata,"Consulate-General of Peru, La Paz",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 consulado-pe.mail.protection.outlook.com.
+cubadiplomatica.cu,3,wikidata,embassy of Cuba in Bolivia,central,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Bolivia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+la-paz.diplo.de,3,wikidata,"Embassy of Germany, La Paz",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, La Paz",central,301,none

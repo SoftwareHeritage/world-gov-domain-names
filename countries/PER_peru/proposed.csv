@@ -1,42 +1,42 @@
 hostname,score,sources,label,level,http_status,mx
-escolapios.org.co,6,wikidata;wikidata,Nazareth piarist province,,,
-peru.mid.ru,6,wikidata;wikidata,embassy of Russia in Peru,central,,
-roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Office in Peru,,,
-ancyt.org.pe,4,wikidata,Academia Nacional de Ciencia y Tecnología,,,
-barrioperu.terra.com.pe,4,wikidata,embassy of Finland in Peru,central,,
-camaradeancash.org.pe,4,wikidata,"Chamber of Commerce, Industry and Tourism of Ancash",,,
-camcopiura.org.pe,4,wikidata,Chamber of Commerce and Production of Piura,,,
-cenfotur.edu.pe,4,wikidata,CENFOTUR,,,
-comiunesco.org.pe,4,wikidata,Peruvian National Commission of Cooperation for UNESCO,,,
-consuladopanamalima.com.pe,4,wikidata,"Embassy of Panama, Lima",central,,
-dafo.cultura.pe,4,wikidata,"Audiovisual, Phonography and New Media Directorate",,,
-dhn.mil.pe,4,wikidata,Q138412009,,,
-dicapi.mil.pe,4,wikidata,Peruvian Coast Guard,,,
-embajada-alemana.org.pe,4,wikidata,"Embassy of Germany, Lima",central,,
-embajadabrasil.org.pe,4,wikidata,"Embassy of Brazil, Lima",central,,
-embajadadevenezuela.pe,4,wikidata,"Embassy of Venezuela, Lima",,,
-finlandiaperu.org.pe,4,wikidata,embassy of Finland in Peru,central,,
-idc.edu.pe,4,wikidata,Public Technological Higher Education Institute Design and Communication,,,
-indembassy.org.pe,4,wikidata,"Embassy of India, Lima",central,,
-lima.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Lima",central,,
-mecuadorperu.org.pe,4,wikidata,"Embassy of Ecuador, Lima",central,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Lima",central,,
-panaembaperu.com.pe,4,wikidata,"Embassy of Panama, Lima",central,,
-portal.inen.sld.pe,4,wikidata,National Institute of Neoplastic Diseases,,,
-qhapaqnan.cultura.pe,4,wikidata,Q134475876,,,
-republicadominicana.pe,4,wikidata,"Embassy of the Dominican Republic, Lima",central,,
-toulouselautrec.edu.pe,4,wikidata,Q139572807,,,
-ambafrance-pe.org,3,wikidata,"Embassy of France, Lima",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Peru,,,
-embajadacostaricaenperu.org,3,wikidata,"Embassy of Costa Rica, Lima",central,,
-embajadadeboliviaenperu.com,3,wikidata,"Embassy of Bolivia, Lima",central,,
-embajadadeguatemalaenperu.org,3,wikidata,embassy of Guatemala in Peru,central,,
-embhondurasperu.com,3,wikidata,"Embassy of Honduras, Lima",central,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Peru,central,,
-lima.diplo.de,3,wikidata,"Embassy of Germany, Lima",central,,
-lima.mae.ro,3,wikidata,"Embassy of Romania, Lima",central,,
-lima.thaiembassy.org,3,wikidata,"Embassy of Thailand, Lima",central,,
-mfa.gr,3,wikidata,"Embassy of Greece, Lima",central,,
-mzv.cz,3,wikidata,"Embassy of the Czech Republic, Lima",central,,
-palestinaperu.com,3,wikidata,"Embassy of the State of Palestine, Lima",central,,
-pe.ambafrance.org,3,wikidata,"Embassy of France, Lima",central,,
+escolapios.org.co,6,wikidata;wikidata,Nazareth piarist province,,301,0 escolapios-org-co.mail.protection.outlook.com.
+peru.mid.ru,6,wikidata;wikidata,embassy of Russia in Peru,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Office in Peru,,302,none
+ancyt.org.pe,4,wikidata,Academia Nacional de Ciencia y Tecnología,,ConnectException,none
+barrioperu.terra.com.pe,4,wikidata,embassy of Finland in Peru,central,HttpConnectTimeoutException: HTTP connect timed out,none
+camaradeancash.org.pe,4,wikidata,"Chamber of Commerce, Industry and Tourism of Ancash",,301,1 SMTP.GOOGLE.COM.
+camcopiura.org.pe,4,wikidata,Chamber of Commerce and Production of Piura,,200,0 mail.camcopiura.org.pe.
+cenfotur.edu.pe,4,wikidata,CENFOTUR,,ConnectException,0 cenfotur-edu-pe.mail.protection.outlook.com.
+comiunesco.org.pe,4,wikidata,Peruvian National Commission of Cooperation for UNESCO,,ConnectException,none
+consuladopanamalima.com.pe,4,wikidata,"Embassy of Panama, Lima",central,ConnectException,none
+dafo.cultura.pe,4,wikidata,"Audiovisual, Phonography and New Media Directorate",,200,none
+dhn.mil.pe,4,wikidata,Q138412009,,ConnectException,10 mail.dhn.mil.pe.; 0 dhn-antispam.in.tmes.trendmicro.com.
+dicapi.mil.pe,4,wikidata,Peruvian Coast Guard,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp.dicapi.mil.pe.
+embajada-alemana.org.pe,4,wikidata,"Embassy of Germany, Lima",central,301,10 mx2.us.opalstack.com.; 10 mx1.us.opalstack.com.
+embajadabrasil.org.pe,4,wikidata,"Embassy of Brazil, Lima",central,HttpConnectTimeoutException: HTTP connect timed out,none
+embajadadevenezuela.pe,4,wikidata,"Embassy of Venezuela, Lima",,403,none
+finlandiaperu.org.pe,4,wikidata,embassy of Finland in Peru,central,ConnectException,none
+idc.edu.pe,4,wikidata,Public Technological Higher Education Institute Design and Communication,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.
+indembassy.org.pe,4,wikidata,"Embassy of India, Lima",central,403,none
+lima.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Lima",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mecuadorperu.org.pe,4,wikidata,"Embassy of Ecuador, Lima",central,HttpConnectTimeoutException: HTTP connect timed out,0 mail.mecuadorperu.org.pe.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Lima",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+panaembaperu.com.pe,4,wikidata,"Embassy of Panama, Lima",central,200,0 panaembaperu.com.pe.
+portal.inen.sld.pe,4,wikidata,National Institute of Neoplastic Diseases,,200,none
+qhapaqnan.cultura.pe,4,wikidata,Q134475876,,200,none
+republicadominicana.pe,4,wikidata,"Embassy of the Dominican Republic, Lima",central,200,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+toulouselautrec.edu.pe,4,wikidata,Q139572807,,301,10 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
+ambafrance-pe.org,3,wikidata,"Embassy of France, Lima",central,ConnectException,5 mta-gw.infomaniak.ch.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Peru,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embajadacostaricaenperu.org,3,wikidata,"Embassy of Costa Rica, Lima",central,301,none
+embajadadeboliviaenperu.com,3,wikidata,"Embassy of Bolivia, Lima",central,IOException: Received RST_STREAM: Protocol error,none
+embajadadeguatemalaenperu.org,3,wikidata,embassy of Guatemala in Peru,central,526,none
+embhondurasperu.com,3,wikidata,"Embassy of Honduras, Lima",central,200,1 SMTP.GOOGLE.com.
+finlandabroad.fi,3,wikidata,embassy of Finland in Peru,central,301,10 mail.valtori.fi.
+lima.diplo.de,3,wikidata,"Embassy of Germany, Lima",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+lima.mae.ro,3,wikidata,"Embassy of Romania, Lima",central,503,none
+lima.thaiembassy.org,3,wikidata,"Embassy of Thailand, Lima",central,200,none
+mfa.gr,3,wikidata,"Embassy of Greece, Lima",central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,"Embassy of the Czech Republic, Lima",central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+palestinaperu.com,3,wikidata,"Embassy of the State of Palestine, Lima",central,200,none
+pe.ambafrance.org,3,wikidata,"Embassy of France, Lima",central,301,none

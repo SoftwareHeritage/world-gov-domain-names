@@ -35,14 +35,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `dominicoshispania.org` |  |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 6 | `facebook.com` | central-1 |  | wikidata;wikidata | departmental board of Misiones |
-| 6 | `roc-taiwan.org` | central |  | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Asunción | Consulate-General of th... |
-| 4 | `embajadadeluruguay.com.py` | central |  | wikidata | embassy of Uruguay in Paraguay |
-| 3 | `asuncion.diplo.de` | central |  | wikidata | Embassy of Germany, Asunción |
-| 3 | `asuncion.embassy.qa` | central |  | wikidata | embassy of Qatar in Paraguay |
-| 3 | `cceasuncion.aecid.es` |  |  | wikidata | Q139502847 |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Paraguay |
-| 3 | `paraguay.mid.ru` | central |  | wikidata | embassy of Russia in Paraguay |
-| 3 | `py.ambafrance.org` | central |  | wikidata | Embassy of France, Asunción |
+| 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 6 | `facebook.com` | central-1 | ConnectEx... | wikidata;wikidata | departmental board of Misiones |
+| 6 | `roc-taiwan.org` | central | 302 | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Asunción | Consulate-General of th... |
+| 4 | `embajadadeluruguay.com.py` | central | ConnectEx... | wikidata | embassy of Uruguay in Paraguay |
+| 3 | `asuncion.diplo.de` | central | 200 | wikidata | Embassy of Germany, Asunción |
+| 3 | `asuncion.embassy.qa` | central | SSLHandsh... | wikidata | embassy of Qatar in Paraguay |
+| 3 | `cceasuncion.aecid.es` |  | 200 | wikidata | Q139502847 |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Paraguay |
+| 3 | `paraguay.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Paraguay |
+| 3 | `py.ambafrance.org` | central | 301 | wikidata | Embassy of France, Asunción |
 

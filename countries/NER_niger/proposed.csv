@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
-msp.ne,7,wikidata;wikidata,Ministry of Public Health,,,
-ansi.ne,4,wikidata,National Agency for the Information Society,,,
-inran.refer.ne,4,wikidata,National Institute of Agronomic Research of Niger,,,
-police.ne,4,wikidata,National Police of Niger,,,
-tribunalcommerceniamey.ne,4,wikidata,Commercial court of Niamey,,,
-ambafrance-ne.org,3,wikidata,Embassy of France in Niamey,central,,
-ambarimniamey.com,3,wikidata,"Embassy of Mauritania, Niamey",central,,
-bceao.int,3,wikidata,Central Bank of West African States,,,
-cnc-niger.org,3,wikidata,Centre National de la Cinématographie du Niger,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Niger,,,
-embassyofpakistan.com,3,wikidata,Embassy of Pakistan in Niger,,,
-lesahel.org,3,wikidata,Q139304709,,,
-ne.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Niamey",central,,
-niamey.diplo.de,3,wikidata,"Embassy of Germany, Niamey",central,,
-stat-niger.org,3,wikidata,Institut National de la Statistique,central,,
+msp.ne,7,wikidata;wikidata,Ministry of Public Health,,ConnectException,none
+ansi.ne,4,wikidata,National Agency for the Information Society,,200,0 mail.ansi.ne.
+inran.refer.ne,4,wikidata,National Institute of Agronomic Research of Niger,,HttpConnectTimeoutException: HTTP connect timed out,none
+police.ne,4,wikidata,National Police of Niger,,ConnectException,10 zmail.police.ne.
+tribunalcommerceniamey.ne,4,wikidata,Commercial court of Niamey,,ConnectException,none
+ambafrance-ne.org,3,wikidata,Embassy of France in Niamey,central,ConnectException,none
+ambarimniamey.com,3,wikidata,"Embassy of Mauritania, Niamey",central,ConnectException,none
+bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+cnc-niger.org,3,wikidata,Centre National de la Cinématographie du Niger,,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Niger,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embassyofpakistan.com,3,wikidata,Embassy of Pakistan in Niger,,200,10 mail.embassyofpakistan.com.
+lesahel.org,3,wikidata,Q139304709,,301,10 mx.webmo.fr.; 20 mxsecondaire.webmo.fr.; 100 mx.webmo.fr.
+ne.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Niamey",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ne.china-embassy.org found.,none
+niamey.diplo.de,3,wikidata,"Embassy of Germany, Niamey",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+stat-niger.org,3,wikidata,Institut National de la Statistique,central,301,none

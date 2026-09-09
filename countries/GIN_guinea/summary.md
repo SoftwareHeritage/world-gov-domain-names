@@ -35,18 +35,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 3 | `ambassadealgerieconakry.info` | central |  | wikidata | Embassy of Algeria, Conakry |
-| 3 | `anss-guinee.org` |  |  | wikidata | Q97097294 |
-| 3 | `bcrg-guinee.org` |  |  | wikidata | Central Bank of the Republic of Guinea |
-| 3 | `ceniguinee.org` | central |  | wikidata | Independent National Electoral Commission |
-| 3 | `conakry.diplo.de` | central |  | wikidata | Embassy of Germany, Conakry |
-| 3 | `conakry.mfa.ir` | central |  | wikidata | embassy of Iran in Guinea |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Guinea |
-| 3 | `ghanaembassy-guinea.com` | central |  | wikidata | embassy of Ghana in Guinea |
-| 3 | `gn.ambafrance.org` | central |  | wikidata | Embassy of France, Conakry |
-| 3 | `guinea.mid.ru` | central |  | wikidata | embassy of Russia in Guinea |
-| 3 | `insp-guinee.org` |  |  | wikidata | Institut National de Santé Publique |
-| 3 | `irag-guinee.org` |  |  | wikidata | Institut de Recherche Agronomique de Guinee |
-| 3 | `misiones.cubaminrex.cu` | central |  | wikidata | embassy of Cuba to Guinea |
-| 3 | `stat-guinee.org` | central |  | wikidata | Institut National de la Statistique |
+| 3 | `ambassadealgerieconakry.info` | central | ConnectEx... | wikidata | Embassy of Algeria, Conakry |
+| 3 | `anss-guinee.org` |  | 200 | wikidata | Q97097294 |
+| 3 | `bcrg-guinee.org` |  | 301 | wikidata | Central Bank of the Republic of Guinea |
+| 3 | `ceniguinee.org` | central | 521 | wikidata | Independent National Electoral Commission |
+| 3 | `conakry.diplo.de` | central | 200 | wikidata | Embassy of Germany, Conakry |
+| 3 | `conakry.mfa.ir` | central | 307 | wikidata | embassy of Iran in Guinea |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Guinea |
+| 3 | `ghanaembassy-guinea.com` | central | ConnectEx... | wikidata | embassy of Ghana in Guinea |
+| 3 | `gn.ambafrance.org` | central | 301 | wikidata | Embassy of France, Conakry |
+| 3 | `guinea.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Guinea |
+| 3 | `insp-guinee.org` |  | 301 | wikidata | Institut National de Santé Publique |
+| 3 | `irag-guinee.org` |  | 200 | wikidata | Institut de Recherche Agronomique de Guinee |
+| 3 | `misiones.cubaminrex.cu` | central | SSLHandsh... | wikidata | embassy of Cuba to Guinea |
+| 3 | `stat-guinee.org` | central | 200 | wikidata | Institut National de la Statistique |
 

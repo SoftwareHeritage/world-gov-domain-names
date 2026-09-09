@@ -35,23 +35,23 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `costech.or.tz` |  |  | wikidata;wikidata | Animal Diseases Research Institute | Tanzania Commission for Science and Tech... |
-| 4 | `cedha.ac.tz` |  |  | wikidata | Centre for Educational Development in Health Arusha |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Dar es Salam |
-| 4 | `nemc.or.tz` |  |  | wikidata | National Environment Management Council |
-| 4 | `temdo.or.tz` |  |  | wikidata | Tanzania Engineering and Manufacturing Design Organization |
-| 4 | `tlsb.or.tz` |  |  | wikidata | Tanzania Library Services Board |
-| 3 | `bot-tz.org` |  |  | wikidata | Bank of Tanzania |
-| 3 | `daressalam.diplo.de` | central |  | wikidata | Embassy of Germany, Dar es Salaam |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Tanzania |
-| 3 | `finlandabroad.fi` | central |  | wikidata | embassy of Finland in Tanzania |
-| 3 | `norway.no` | central |  | wikidata | Embassy of Norway, Dar es Salaam |
-| 3 | `pastoralwomenscouncil.org` |  |  | wikidata | Pastoral Women's Council |
-| 3 | `seamic.org` |  |  | wikidata | African Minerals and Geosciences Centre |
-| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Dar es Salaam |
-| 3 | `tafiri.weebly.com` |  |  | wikidata | Tanzania Fisheries Research Institute |
-| 3 | `tanzania.mid.ru` | central |  | wikidata | Embassy of Russia, Dar es Salaam |
-| 3 | `tanzania.um.dk` | central |  | wikidata | embassy of Denmark in Tanzania |
-| 3 | `tz.ambafrance.org` | central |  | wikidata | Embassy of France, Dar es Salaam |
-| 3 | `tz.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Dar es Salaam |
+| 7 | `costech.or.tz` |  | 200 | wikidata;wikidata | Animal Diseases Research Institute | Tanzania Commission for Science and Tech... |
+| 4 | `cedha.ac.tz` |  | SSLHandsh... | wikidata | Centre for Educational Development in Health Arusha |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Dar es Salam |
+| 4 | `nemc.or.tz` |  | SSLHandsh... | wikidata | National Environment Management Council |
+| 4 | `temdo.or.tz` |  | SSLHandsh... | wikidata | Tanzania Engineering and Manufacturing Design Organization |
+| 4 | `tlsb.or.tz` |  | ConnectEx... | wikidata | Tanzania Library Services Board |
+| 3 | `bot-tz.org` |  | HttpConne... | wikidata | Bank of Tanzania |
+| 3 | `daressalam.diplo.de` | central | 200 | wikidata | Embassy of Germany, Dar es Salaam |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Tanzania |
+| 3 | `finlandabroad.fi` | central | 301 | wikidata | embassy of Finland in Tanzania |
+| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway, Dar es Salaam |
+| 3 | `pastoralwomenscouncil.org` |  | 200 | wikidata | Pastoral Women's Council |
+| 3 | `seamic.org` |  | 200 | wikidata | African Minerals and Geosciences Centre |
+| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Dar es Salaam |
+| 3 | `tafiri.weebly.com` |  | 404 | wikidata | Tanzania Fisheries Research Institute |
+| 3 | `tanzania.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia, Dar es Salaam |
+| 3 | `tanzania.um.dk` | central | 301 | wikidata | embassy of Denmark in Tanzania |
+| 3 | `tz.ambafrance.org` | central | 301 | wikidata | Embassy of France, Dar es Salaam |
+| 3 | `tz.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Dar es Salaam |
 

@@ -1,19 +1,19 @@
 hostname,score,sources,label,level,http_status,mx
-phcc.qa,4,wikidata,Primary Health Care,,,
-qnl.qa,4,wikidata,Qatar National Library,,,
-ambasadat.net,3,wikidata,"Embassy of Kosovo, Doha",central,,
-bhembassyqatar.com,3,wikidata,embassy of Bosnia and Herzegovina in Qatar,central,,
-doha.diplo.de,3,wikidata,"Embassy of Germany, Doha",central,,
-doha.mae.ro,3,wikidata,embassy of Romania in Qatar,central,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Doha",central,,
-lebaneseembassyqatar.com,3,wikidata,"Embassy of Lebanon, Doha",central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Qatar,central,,
-mfa.gr,3,wikidata,embassy of Greece in Qatar,central,,
-nigeriaembassydoha.org,3,wikidata,"Embassy of Nigeria, Doha",central,,
-palemb-qa.net,3,wikidata,Embassy of the State of Palestine in Qatar,central,,
-qa.ambafrance.org,3,wikidata,"Embassy of France, Doha",central,,
-qa.mvep.hr,3,wikidata,embassy of Croatia in Qatar,central,,
-qatar.mid.ru,3,wikidata,embassy of Russia in Qatar,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Doha",central,,
-unesco.org,3,wikidata,UNESCO office Qatar,,,
-shura.qa,2,wikidata;wikidata;wikidata;wikidata,Consultative Assembly of Qatar,central,,
+phcc.qa,4,wikidata,Primary Health Care,,301,10 smtp.phcc.qa.
+qnl.qa,4,wikidata,Qatar National Library,,301,10 qnl-qa.mail.protection.outlook.com.
+ambasadat.net,3,wikidata,"Embassy of Kosovo, Doha",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+bhembassyqatar.com,3,wikidata,embassy of Bosnia and Herzegovina in Qatar,central,200,0 bhembassyqatar.com.
+doha.diplo.de,3,wikidata,"Embassy of Germany, Doha",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+doha.mae.ro,3,wikidata,embassy of Romania in Qatar,central,503,none
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Doha",central,301,10 mail.valtori.fi.
+lebaneseembassyqatar.com,3,wikidata,"Embassy of Lebanon, Doha",central,405,0 lebaneseembassyqatar-com.mail.protection.outlook.com.
+mfa.bg,3,wikidata,embassy of Bulgaria in Qatar,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Qatar,central,403,10 mailhost.mfa.gr.
+nigeriaembassydoha.org,3,wikidata,"Embassy of Nigeria, Doha",central,301,1200 ghs.google.com.
+palemb-qa.net,3,wikidata,Embassy of the State of Palestine in Qatar,central,200,0 mail.palemb-qa.net.
+qa.ambafrance.org,3,wikidata,"Embassy of France, Doha",central,301,none
+qa.mvep.hr,3,wikidata,embassy of Croatia in Qatar,central,ConnectException,none
+qatar.mid.ru,3,wikidata,embassy of Russia in Qatar,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Doha",central,301,none
+unesco.org,3,wikidata,UNESCO office Qatar,,302,20 unesco-org.mail.protection.outlook.com.
+shura.qa,2,wikidata;wikidata;wikidata;wikidata,Consultative Assembly of Qatar,central,301,none

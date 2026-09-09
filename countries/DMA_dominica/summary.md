@@ -35,6 +35,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 4 | `daic.dm` |  |  | wikidata | Dominica Association of Industry and Commerce |
-| 3 | `eccb-centralbank.org` |  |  | wikidata | Eastern Caribbean Central Bank |
+| 4 | `daic.dm` |  | ConnectEx... | wikidata | Dominica Association of Industry and Commerce |
+| 3 | `eccb-centralbank.org` |  | ConnectEx... | wikidata | Eastern Caribbean Central Bank |
 

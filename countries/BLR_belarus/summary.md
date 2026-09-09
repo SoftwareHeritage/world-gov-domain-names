@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `kultura.by` | central |  | wikidata;wikidata | Ministry of Culture of the Republic of Belarus |
-| 7 | `mas.by` | central |  | wikidata;wikidata | Ministry of Architecture and Construction of the Republic of Belarus |
-| 7 | `mil.by` | central |  | wikidata;wikidata | Ministry of Defence of the Republic of Belarus |
-| 7 | `mlh.by` | central |  | wikidata;wikidata | Ministry of Forestry of the Republic of Belarus |
-| 7 | `nbrb.by` |  |  | wikidata;wikidata | National Bank of the Republic of Belarus |
-| 7 | `region.grodno.by` | central-1 |  | wikidata;wikidata;wikidata | Hrodna Regional Executive Committee | Hrodna Regional Council of Deputies |
-| 6 | `pijarzy.pl` |  |  | wikidata;wikidata | Piarist province of Poland |
-| 6 | `supcourt.by` | central |  | wikidata | Supreme Court of Belarus |
-| 4 | `cci.by` |  |  | wikidata | Belarusian Chamber of Commerce and Industry |
-| 4 | `embavenez.by` | central |  | wikidata | Embassy of Venezuela, Minsk |
-| 4 | `fond.bas-net.by` |  |  | wikidata | Belarusian Republican Foundation for Fundamental Research |
-| 4 | `gomel-region.by` | central-1 |  | wikidata | Homel Regional Council of Deputies |
-| 4 | `minszk.mfa.gov.hu` | central |  | wikidata | Embassy of Hungary, Minsk |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Minsk |
-| 4 | `narb.by` |  |  | wikidata | National Archives of Belarus |
-| 4 | `nca.by` |  |  | wikidata | Q137565559 |
-| 4 | `nlb.by` |  |  | wikidata | National Library of Belarus |
-| 4 | `nunciature.catholic.by` | central |  | wikidata | Apostolic Nunciature to Belarus |
-| 4 | `pl.instpol.by` |  |  | wikidata | Polish Institute in Minsk |
-| 4 | `tajembassy.by` | central |  | wikidata | embassy of Tajikistan in Belarus |
+| 7 | `kultura.by` | central | 200 | wikidata;wikidata | Ministry of Culture of the Republic of Belarus |
+| 7 | `mas.by` | central | ConnectEx... | wikidata;wikidata | Ministry of Architecture and Construction of the Republic of Belarus |
+| 7 | `mil.by` | central | ConnectEx... | wikidata;wikidata | Ministry of Defence of the Republic of Belarus |
+| 7 | `mlh.by` | central | 200 | wikidata;wikidata | Ministry of Forestry of the Republic of Belarus |
+| 7 | `nbrb.by` |  | HttpTimeo... | wikidata;wikidata | National Bank of the Republic of Belarus |
+| 7 | `region.grodno.by` | central-1 | 301 | wikidata;wikidata;wikidata | Hrodna Regional Executive Committee | Hrodna Regional Council of Deputies |
+| 6 | `pijarzy.pl` |  | 200 | wikidata;wikidata | Piarist province of Poland |
+| 6 | `supcourt.by` | central | ConnectEx... | wikidata | Supreme Court of Belarus |
+| 4 | `cci.by` |  | 301 | wikidata | Belarusian Chamber of Commerce and Industry |
+| 4 | `embavenez.by` | central | ConnectEx... | wikidata | Embassy of Venezuela, Minsk |
+| 4 | `fond.bas-net.by` |  | 200 | wikidata | Belarusian Republican Foundation for Fundamental Research |
+| 4 | `gomel-region.by` | central-1 | ConnectEx... | wikidata | Homel Regional Council of Deputies |
+| 4 | `minszk.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Minsk |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Minsk |
+| 4 | `narb.by` |  | 302 | wikidata | National Archives of Belarus |
+| 4 | `nca.by` |  | 200 | wikidata | Q137565559 |
+| 4 | `nlb.by` |  | 200 | wikidata | National Library of Belarus |
+| 4 | `nunciature.catholic.by` | central | SSLHandsh... | wikidata | Apostolic Nunciature to Belarus |
+| 4 | `pl.instpol.by` |  | 301 | wikidata | Polish Institute in Minsk |
+| 4 | `tajembassy.by` | central | 200 | wikidata | embassy of Tajikistan in Belarus |
 

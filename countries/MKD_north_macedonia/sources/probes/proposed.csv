@@ -1,0 +1,27 @@
+hostname,http_status,mx
+aek.mk,200,10 mail.aek.mk.
+ambasadabih.org.mk,200,10 ambasadabih.org.mk.
+ambasadat.net,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+arhiv.mk,200,10 mail.arhiv.mk.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ia.mk,HttpConnectTimeoutException: HTTP connect timed out,none
+iph.mk,200,10 bjorn.mk-host.com.
+macedonia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mk.ambafrance.org,301,none
+mk.mvep.hr,ConnectException,none
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nbrm.mk,403,10 mail.nbrm.mk.
+nubsk.edu.mk,200,5 arya.mk-host.mk.
+oskratovo.mk,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching oskratovo.mk found.,10 webmail.oskratovo.mk.
+osnegotino.mk,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching osnegotino.mk found.,10 webmail.osnegotino.mk.
+skopje.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+skopje.embassy.si,SSLHandshakeException: Remote host terminated the handshake,none
+skopje.mae.ro,ConnectException,none
+sobranie.mk,301,10 mail.sobranie.mk.; 20 mail2.sobranie.mk.
+swedenabroad.se,301,none
+ustavensud.mk,200,10 mail.ustavensud.mk.
+vlada.mk,200,1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
+vsrm.mk,HttpConnectTimeoutException: HTTP connect timed out,10 mail.vsrm.mk.

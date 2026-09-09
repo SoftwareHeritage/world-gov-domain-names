@@ -1,0 +1,43 @@
+hostname,http_status,mx
+bernama.com,302,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
+cccbp.gbs2u.com,403,none
+crest.my,200,0 crest-my.mail.protection.outlook.com.
+cybersecurity.my,SSLHandshakeException: Remote host terminated the handshake,5 cybersecurity-my.mail.protection.outlook.com.; 0 cybersecurity-my.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+ghanacom.org.my,ConnectException,none
+intanbk.intan.my,ConnectException,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+itnm.com.my,301,0 itnm.com.my.
+jpjsabahmy.com,200,0 jpjsabahmy.com.
+khazanah.com.my,301,5 khazanah-com-my.mail.protection.outlook.com.
+kuala-lumpur.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+kualalumpur.mae.ro,503,none
+kualalumpur.mofa.go.ug,200,none
+mafhq.mil.my,ConnectException,none
+majlisprofesor.my,ConnectException,none
+malaysia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+malaysia.um.dk,301,none
+mdv.com.my,301,0 mdv-com-my.mail.protection.outlook.com.
+mimos.my,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mimos-my.mail.protection.outlook.com.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mtja.org,200,0 mtja-org.mail.protection.outlook.com.
+muziumpahang.com,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
+my.ambafrance.org,301,none
+my.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching my.china-embassy.org found.,none
+mynic.my,200,10 mys-mx1-sces.sorbsecurity.com.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nibm.my,301,30 lastmx.spamexperts.net.; 20 fallbackmx.spamexperts.eu.; 10 mx.spamexperts.com.
+norway.no,301,0 mx.domeneshop.no.
+palestineembassy.com.my,200,20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
+pdn.org.my,ConnectException,none
+pkdkt.com,IOException: Received RST_STREAM: Protocol error,none
+roc-taiwan.org,302,none
+sc.com.my,302,20 alt1.aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 30 aspmx4.googlemail.com.; 30 aspmx5.googlemail.com.; 10 aspmx.l.google.com.
+ssm-einfo.my,301,0 ssmeinfo-my0i.mail.protection.outlook.com.
+ssm.com.my,302,0 ssm-com-my.mail.protection.outlook.com.; 50 email-messaging.com.
+suhakam.org.my,200,0 suhakam-org-my.mail.protection.outlook.com.
+swazilandkualalumpur.org,301,none
+swedenabroad.se,301,none
+upknkelantan.com,ConnectException,none
+web.archive.org,200,none
+zhckl.com.my,ConnectException,none

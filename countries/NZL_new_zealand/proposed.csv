@@ -1,39 +1,39 @@
 hostname,score,sources,label,level,http_status,mx
-www3.parliament.nz,8,wikidata;wikidata,Office of the Clerk of the House of Representatives | New Zealand Parliamentary Services,,,
-roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Office in New Zealand | Taipei Economic and Cultural Office in Auckland,,,
-tabnz.org,6,wikidata;wikidata,TAB NZ | New Zealand Racing Board,,,
-ombudsman.parliament.nz,5,wikidata,Office of the Ombudsman,central,,
-acc.co.nz,4,wikidata,Accident Compensation Corporation,,,
-agmardt.org.nz,4,wikidata,Agricultural and Marketing Research and Development Trust,,,
-agresearch.co.nz,4,wikidata,AgResearch,,,
-aucklandstadiums.co.nz,4,wikidata,Auckland Stadiums,,,
-cookhicom.org.nz,4,wikidata,"High Commission of the Cook Islands, Wellington",central,,
-dst.mil.nz,4,wikidata,Defence Science and Technology,,,
-fiji.org.nz,4,wikidata,High Commission of the Republic of Fiji in New Zealand,central,,
-hnzc.co.nz,4,wikidata,Housing New Zealand Corporation,central,,
-metroinfo.co.nz,4,wikidata,Metro,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Wellington",central,,
-niwa.co.nz,4,wikidata,National Institute of Water and Atmospheric Research,,,
-nzdf.mil.nz,4,wikidata,New Zealand Defence Force,,,
-nzspaceagency.nz,4,wikidata,New Zealand Space Agency,central,,
-occ.org.nz,4,wikidata,Office of the Children’s Commissioner,central,,
-pakistanhc.org.nz,4,wikidata,high commission of Pakistan in New Zealand,central,,
-philembassy.org.nz,4,wikidata,Embassy of the Philippines in New Zealand,central,,
-png.org.nz,4,wikidata,high commission of Papua New Guinea in New Zealand,central,,
-samoa.org.nz,4,wikidata,high commission of Samoa in New Zealand,central,,
-sihc.org.nz,4,wikidata,high commission of Solomon Islands in New Zealand,central,,
-taic.org.nz,4,wikidata,Transport Accident Investigation Commission,,,
-teakawhaiora.nz,4,wikidata,Te Aka Whai Ora Māori Health Authority,central,,
-tikatangata.org.nz,4,wikidata,Human Rights Commission,central,,
-unesco.org.nz,4,wikidata,New Zealand National Commission for UNESCO,,,
-vote.nz,4,wikidata,Electoral Commission,central,,
-wellington.mfa.gov.hu,4,wikidata,embassy of Hungary in New Zealand,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to New Zealand,,,
-misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in New Zealand,central,,
-newzealand.mfa.ir,3,wikidata,embassy of Iran in New Zealand,central,,
-newzealand.mid.ru,3,wikidata,embassy of Russia in New Zealand,central,,
-nz.ambafrance.org,3,wikidata,"Embassy of France, Wellington",central,,
-parliament.nz,3,wikidata;wikidata;wikidata;wikidata,New Zealand Parliament | House of Representatives,central,,
-wellington.diplo.de,3,wikidata,"Embassy of Germany, Wellington",central,,
-wellington.thaiembassy.org,3,wikidata,embassy of Thailand in New Zealand,central,,
-fireandemergency.nz,2,wikidata;wikidata;wikidata,Waiuku Fire Station | Fire and Emergency New Zealand | Warkworth Fire Station,,,
+www3.parliament.nz,8,wikidata;wikidata,Office of the Clerk of the House of Representatives | New Zealand Parliamentary Services,,301,none
+roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Office in New Zealand | Taipei Economic and Cultural Office in Auckland,,302,none
+tabnz.org,6,wikidata;wikidata,TAB NZ | New Zealand Racing Board,,308,0 tabnz-org.mail.protection.outlook.com.
+ombudsman.parliament.nz,5,wikidata,Office of the Ombudsman,central,403,10 mx1.nz.smxemail.com.; 10 mx2.nz.smxemail.com.
+acc.co.nz,4,wikidata,Accident Compensation Corporation,,301,10 mx1.nz.smxemail.com.; 20 mx2.nz.smxemail.com.
+agmardt.org.nz,4,wikidata,Agricultural and Marketing Research and Development Trust,,200,20 mx2.nz.smxemail.com.; 10 mx1.nz.smxemail.com.
+agresearch.co.nz,4,wikidata,AgResearch,,301,10 agresearch-co-nz.mail.protection.outlook.com.
+aucklandstadiums.co.nz,4,wikidata,Auckland Stadiums,,301,10 au-smtp-inbound-2.mimecast.com.; 10 au-smtp-inbound-1.mimecast.com.
+cookhicom.org.nz,4,wikidata,"High Commission of the Cook Islands, Wellington",central,404,10 cookhicom-org-nz.mail.protection.outlook.com.
+dst.mil.nz,4,wikidata,Defence Science and Technology,,200,5 dst-mil-nz.mail.protection.outlook.com.
+fiji.org.nz,4,wikidata,High Commission of the Republic of Fiji in New Zealand,central,200,none
+hnzc.co.nz,4,wikidata,Housing New Zealand Corporation,central,301,0 hnzc-co-nz.mail.protection.outlook.com.
+metroinfo.co.nz,4,wikidata,Metro,,301,20 metroinfo-co-nz.mail.protection.outlook.com.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Wellington",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+niwa.co.nz,4,wikidata,National Institute of Water and Atmospheric Research,,200,0 niwa-co-nz.mail.protection.outlook.com.
+nzdf.mil.nz,4,wikidata,New Zealand Defence Force,,301,5 mx1.securemx.biz.; 7 mx2.securemx.biz.
+nzspaceagency.nz,4,wikidata,New Zealand Space Agency,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nzspaceagency.nz found.,20 mx2.titan.email.; 1 www.savagespace.co.nz.
+occ.org.nz,4,wikidata,Office of the Children’s Commissioner,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 occ-org-nz.mail.protection.outlook.com.
+pakistanhc.org.nz,4,wikidata,high commission of Pakistan in New Zealand,central,200,0 mx2.mailchannels.net.; 0 mx1.mailchannels.net.
+philembassy.org.nz,4,wikidata,Embassy of the Philippines in New Zealand,central,200,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+png.org.nz,4,wikidata,high commission of Papua New Guinea in New Zealand,central,200,0 png-org-nz.mail.protection.outlook.com.
+samoa.org.nz,4,wikidata,high commission of Samoa in New Zealand,central,200,5 smtp.ds.network.; 10 smtp-uk.ds.network.
+sihc.org.nz,4,wikidata,high commission of Solomon Islands in New Zealand,central,200,0 sihc-org-nz.mail.protection.outlook.com.
+taic.org.nz,4,wikidata,Transport Accident Investigation Commission,,200,10 taic-org-nz.mail.protection.outlook.com.
+teakawhaiora.nz,4,wikidata,Te Aka Whai Ora Māori Health Authority,central,ConnectException,0 TeAkaWhaiOra-nz.mail.protection.outlook.com.
+tikatangata.org.nz,4,wikidata,Human Rights Commission,central,200,20 mx2.nz.smxemail.com.; 10 mx1.nz.smxemail.com.
+unesco.org.nz,4,wikidata,New Zealand National Commission for UNESCO,,HttpTimeoutException: request timed out,0 education-govt-nz.mail.protection.outlook.com.
+vote.nz,4,wikidata,Electoral Commission,central,200,5 vote-nz.mail.protection.outlook.com.
+wellington.mfa.gov.hu,4,wikidata,embassy of Hungary in New Zealand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to New Zealand,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in New Zealand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+newzealand.mfa.ir,3,wikidata,embassy of Iran in New Zealand,central,307,none
+newzealand.mid.ru,3,wikidata,embassy of Russia in New Zealand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nz.ambafrance.org,3,wikidata,"Embassy of France, Wellington",central,301,none
+parliament.nz,3,wikidata;wikidata;wikidata;wikidata,New Zealand Parliament | House of Representatives,central,ConnectException,none
+wellington.diplo.de,3,wikidata,"Embassy of Germany, Wellington",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+wellington.thaiembassy.org,3,wikidata,embassy of Thailand in New Zealand,central,200,none
+fireandemergency.nz,2,wikidata;wikidata;wikidata,Waiuku Fire Station | Fire and Emergency New Zealand | Warkworth Fire Station,,301,0 fireandemergency-nz.mail.protection.outlook.com.

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `kna.kw` | central |  | wikidata;wikidata | National Assembly of Kuwait |
-| 7 | `moe.edu.kw` | central |  | wikidata;wikidata | Ministry of Education |
-| 7 | `mohe.edu.kw` | central |  | wikidata;wikidata | Ministry of Higher Education |
-| 4 | `csc.net.kw` |  |  | wikidata | Civil Service Council |
-| 4 | `epa.org.kw` | central |  | wikidata | Environment Public Authority |
-| 4 | `kuna.net.kw` |  |  | wikidata | Kuwait News Agency |
-| 4 | `kuvait.mfa.gov.hu` |  |  | wikidata | Embassy of Hungary, Kuwait |
-| 4 | `sp.mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Kuwait |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Kuwait |
-| 3 | `ghanaembassy-kuwait.com` | central |  | wikidata | embassy of Ghana in Kuwait |
-| 3 | `kgoc.com` |  |  | wikidata | Kuwait Gulf Oil Company |
-| 3 | `kuwait.diplo.de` | central |  | wikidata | Embassy of Germany, Kuwait |
-| 3 | `kuwait.mid.ru` | central |  | wikidata | embassy of Russia in Kuwait |
-| 3 | `kuweit.mae.ro` | central |  | wikidata | embassy of Romania in Kuwait |
-| 3 | `kw.ambafrance.org` | central |  | wikidata | Embassy of France, Kuwait City |
-| 3 | `malawigulf.com` | central |  | wikidata | embassy of Malawi in Kuwait |
-| 3 | `mfa.bg` | central |  | wikidata | embassy of Bulgaria in Kuwait |
-| 3 | `mfa.gr` | central |  | wikidata | embassy of Greece in Kuwait |
-| 3 | `mzv.cz` | central |  | wikidata | embassy of the Czech republic in Kuwait |
-| 3 | `mzv.sk` | central |  | wikidata | embassy of Slovakia in Kuwait |
+| 7 | `kna.kw` | central | 302 | wikidata;wikidata | National Assembly of Kuwait |
+| 7 | `moe.edu.kw` | central | 200 | wikidata;wikidata | Ministry of Education |
+| 7 | `mohe.edu.kw` | central | 200 | wikidata;wikidata | Ministry of Higher Education |
+| 4 | `csc.net.kw` |  | ConnectEx... | wikidata | Civil Service Council |
+| 4 | `epa.org.kw` | central | SSLHandsh... | wikidata | Environment Public Authority |
+| 4 | `kuna.net.kw` |  | ConnectEx... | wikidata | Kuwait News Agency |
+| 4 | `kuvait.mfa.gov.hu` |  | SSLHandsh... | wikidata | Embassy of Hungary, Kuwait |
+| 4 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata | Embassy of the United Arab Emirates, Kuwait |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Kuwait |
+| 3 | `ghanaembassy-kuwait.com` | central | ConnectEx... | wikidata | embassy of Ghana in Kuwait |
+| 3 | `kgoc.com` |  | SSLHandsh... | wikidata | Kuwait Gulf Oil Company |
+| 3 | `kuwait.diplo.de` | central | 200 | wikidata | Embassy of Germany, Kuwait |
+| 3 | `kuwait.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Kuwait |
+| 3 | `kuweit.mae.ro` | central | ConnectEx... | wikidata | embassy of Romania in Kuwait |
+| 3 | `kw.ambafrance.org` | central | 301 | wikidata | Embassy of France, Kuwait City |
+| 3 | `malawigulf.com` | central | 200 | wikidata | embassy of Malawi in Kuwait |
+| 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Kuwait |
+| 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Kuwait |
+| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Kuwait |
+| 3 | `mzv.sk` | central | 301 | wikidata | embassy of Slovakia in Kuwait |
 

@@ -1,0 +1,11 @@
+hostname,http_status,mx
+aprc.sd,HttpConnectTimeoutException: HTTP connect timed out,0 aprc.sd.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+khartoum.mae.ro,503,none
+khartum.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+meteosudan.sd,200,none
+norway.no,301,0 mx.domeneshop.no.
+sd.ambafrance.org,301,none
+sudan.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sudapost.sd,200,0 _dc-mx.006e3f69d07b.sudapost.sd.
+swedenabroad.se,301,none

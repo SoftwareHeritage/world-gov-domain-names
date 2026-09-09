@@ -35,20 +35,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `finances.gouv.cg` |  |  | wikidata;wikidata | Q138766330 |
-| 8 | `hydrocarbures.gouv.cg` |  |  | wikidata;wikidata | Q139836464 |
-| 8 | `postetelecom.gouv.cg` |  |  | wikidata;wikidata | Q138711324 |
-| 7 | `presidence.cg` |  |  | un_desa | UN/DESA national portal |
-| 6 | `diplobrazza.net` |  |  | wikidata;wikidata | Ministry of Foreign Affairs, Francophonie and Congolese Abroad |
-| 6 | `meppsa.org` |  |  | wikidata;wikidata | Q138754653 |
-| 4 | `anaccongo.cg` |  |  | wikidata | Agence nationale de l'aviation civile (Republic of the Congo) |
-| 4 | `assemblee-nationale.cg` | central |  | wikidata | National Assembly |
-| 4 | `bea.cg` |  |  | wikidata | Aircraft Accident Investigation Bureau |
-| 4 | `ccj-congo.cg` |  |  | wikidata | Youth Advisory Council |
-| 4 | `senat.cg` | central |  | wikidata | Senate |
-| 3 | `brazzaville.diplo.de` | central |  | wikidata | Embassy of Germany, Brazzaville |
-| 3 | `cg.ambafrance.org` | central |  | wikidata | Embassy of France, Brazzaville |
-| 3 | `congo.mid.ru` | central |  | wikidata | embassy of Russia in Republic of the Congo |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Congo |
-| 3 | `pointe-noire.consulfrance.org` |  |  | wikidata | Consulate General of France in Pointe-Noire |
+| 8 | `finances.gouv.cg` |  | SSLHandsh... | wikidata;wikidata | Q138766330 |
+| 8 | `hydrocarbures.gouv.cg` |  | 301 | wikidata;wikidata | Q139836464 |
+| 8 | `postetelecom.gouv.cg` |  | 200 | wikidata;wikidata | Q138711324 |
+| 7 | `presidence.cg` |  | 200 | un_desa | UN/DESA national portal |
+| 6 | `diplobrazza.net` |  | 200 | wikidata;wikidata | Ministry of Foreign Affairs, Francophonie and Congolese Abroad |
+| 6 | `meppsa.org` |  | 200 | wikidata;wikidata | Q138754653 |
+| 4 | `anaccongo.cg` |  | 302 | wikidata | Agence nationale de l'aviation civile (Republic of the Congo) |
+| 4 | `assemblee-nationale.cg` | central | 200 | wikidata | National Assembly |
+| 4 | `bea.cg` |  | 301 | wikidata | Aircraft Accident Investigation Bureau |
+| 4 | `ccj-congo.cg` |  | HttpConne... | wikidata | Youth Advisory Council |
+| 4 | `senat.cg` | central | SSLHandsh... | wikidata | Senate |
+| 3 | `brazzaville.diplo.de` | central | 200 | wikidata | Embassy of Germany, Brazzaville |
+| 3 | `cg.ambafrance.org` | central | 301 | wikidata | Embassy of France, Brazzaville |
+| 3 | `congo.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Republic of the Congo |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Congo |
+| 3 | `pointe-noire.consulfrance.org` |  | 301 | wikidata | Consulate General of France in Pointe-Noire |
 

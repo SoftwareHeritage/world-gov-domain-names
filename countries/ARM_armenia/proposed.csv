@@ -1,51 +1,51 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.am,8,wikidata;wikidata;wikidata;wikidata,National Assembly of Armenia,central,,
-armstat.am,7,wikidata;wikidata;wikidata,Statistical Committee of Armenia | National Statistical Service,,,
-edu.am,7,wikidata;wikidata,Ministry of Education and Science,central,,
-mfa.am,7,wikidata;wikidata,Ministry of Foreign Affairs of Armenia,central,,
-mil.am,7,wikidata;wikidata,Ministry of Defence of Armenia,central,,
-mineconomy.am,7,wikidata;wikidata,Ministry of Economy of the Republic of Armenia,central,,
-minfin.am,7,wikidata;wikidata,Ministry of Finance,central,,
-mlsa.am,7,wikidata;wikidata,Ministry of Labor and Social Affairs,central,,
-moh.am,7,wikidata;wikidata,Ministry of Health,central,,
-moj.am,7,wikidata;wikidata,Ministry of Justice (Armenia),central,,
-msy.am,7,wikidata;wikidata,Ministry of Youth and Sports,central,,
-mtad.am,7,wikidata;wikidata,Ministry of Territorial Administration and Infrastructure,central,,
-cassationcourt.am,6,wikidata,Court of Cassation of Armenia,,,
-concourt.am,6,wikidata,Constitutional Court of Armenia,central,,
-anra.am,4,wikidata,Armenian Nuclear Regulatory Authority,,,
-armarchives.am,4,wikidata,National Archives of Armenia,,,
-aviation.am,4,wikidata,Civil Aviation Committee of Armenia,central,,
-cba.am,4,wikidata,Central Bank of Armenia,,,
-datalex.am,4,wikidata,DataLex,,,
-escs.am,4,wikidata,"Ministry of Education, Science, Culture and Sports of Armenia",,,
-faa.am,4,wikidata,Armenian Automobile Federation,,,
-langcom.am,4,wikidata,Language Committee,,,
-mofa.gov.ae,4,wikidata,Embassy of the UAE in Armenia,,,
-nla.am,4,wikidata,National Library of Armenia,,,
-nssp-gov.am,4,wikidata,Armenian National Survey for Seismic Protection,,,
-petekamutner.am,4,wikidata,State Revenue Committee (Armenia),,,
-prosecutor.am,4,wikidata,Prosecutor General of Armenia,,,
-psrc.am,4,wikidata,Public Services Regulatory Commission,,,
-scs.am,4,wikidata,State Committee of Science,,,
-sns.am,4,wikidata,National Security Service,central,,
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Yerevan",central,,
-stateproperty.am,4,wikidata,State Property Management Committee,,,
-tvradio.am,4,wikidata,Commission on TV and Radio of Armenia,,,
-tvradiocouncil.am,4,wikidata,Public Broadcasting Council,,,
-yerevan.am,4,wikidata,"Council of the Elders, Yerevan",,,
-am.ambafrance.org,3,wikidata,"embassy of France, Yerevan",central,,
-am.mfa.lt,3,wikidata,embassy of Lithuania in Armenia,central,,
-armenia.mid.ru,3,wikidata,"Embassy of Russia, Yerevan",central,,
-armenia.un.org,3,wikidata,United Nations Office in Armenia,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Armenia,,,
-erevan.mae.ro,3,wikidata,"Embassy of Romania, Yerevan",central,,
-eriwan.diplo.de,3,wikidata,"Embassy of Germany, Yerevan",central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Armenia,central,,
-mfa.gr,3,wikidata,"Embassy of Greece, Yerevan",central,,
-mzv.cz,3,wikidata,"Embassy of Czech Republic, Yerevan",central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Armenia,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Yerevan",central,,
-aipo.am,2,wikidata;wikidata;wikidata,Intellectual Property Agency of Armenia,,,
-arbitrage.am,2,wikidata;wikidata;wikidata,Q25486289,,,
-cadastre.am,2,wikidata;wikidata;wikidata,Cadastre Committee,,,
+parliament.am,8,wikidata;wikidata;wikidata;wikidata,National Assembly of Armenia,central,301,10 mail.parliament.am.
+armstat.am,7,wikidata;wikidata;wikidata,Statistical Committee of Armenia | National Statistical Service,,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
+edu.am,7,wikidata;wikidata,Ministry of Education and Science,central,HttpConnectTimeoutException: HTTP connect timed out,10 webmail.edu.am.
+mfa.am,7,wikidata;wikidata,Ministry of Foreign Affairs of Armenia,central,400,10 ferrum.mfa.am.
+mil.am,7,wikidata;wikidata,Ministry of Defence of Armenia,central,400,10 mail.mil.am.
+mineconomy.am,7,wikidata;wikidata,Ministry of Economy of the Republic of Armenia,central,302,20 smtp.mineconomy.am.; 10 mail.mineconomy.am.
+minfin.am,7,wikidata;wikidata,Ministry of Finance,central,SSLHandshakeException: Remote host terminated the handshake,10 mx101.minfin.am.
+mlsa.am,7,wikidata;wikidata,Ministry of Labor and Social Affairs,central,301,10 mail.mlsa.am.
+moh.am,7,wikidata;wikidata,Ministry of Health,central,400,10 mail.moh.am.
+moj.am,7,wikidata;wikidata,Ministry of Justice (Armenia),central,400,10 mail.moj.am.
+msy.am,7,wikidata;wikidata,Ministry of Youth and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.msy.am.
+mtad.am,7,wikidata;wikidata,Ministry of Territorial Administration and Infrastructure,central,200,0 mtad.am.
+cassationcourt.am,6,wikidata,Court of Cassation of Armenia,,HttpConnectTimeoutException: HTTP connect timed out,none
+concourt.am,6,wikidata,Constitutional Court of Armenia,central,200,10 mail.concourt.am.
+anra.am,4,wikidata,Armenian Nuclear Regulatory Authority,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.anra.am.
+armarchives.am,4,wikidata,National Archives of Armenia,,200,none
+aviation.am,4,wikidata,Civil Aviation Committee of Armenia,central,400,10 mail.aviation.am.
+cba.am,4,wikidata,Central Bank of Armenia,,301,10 smtp.cba.am.
+datalex.am,4,wikidata,DataLex,,200,0 datalex.am.
+escs.am,4,wikidata,"Ministry of Education, Science, Culture and Sports of Armenia",,403,10 mail.escs.am.
+faa.am,4,wikidata,Armenian Automobile Federation,,HttpTimeoutException: request timed out,0 faa.am.
+langcom.am,4,wikidata,Language Committee,,200,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+mofa.gov.ae,4,wikidata,Embassy of the UAE in Armenia,,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nla.am,4,wikidata,National Library of Armenia,,200,none
+nssp-gov.am,4,wikidata,Armenian National Survey for Seismic Protection,,ConnectException,none
+petekamutner.am,4,wikidata,State Revenue Committee (Armenia),,ConnectException: Host is unreachable,20 mx201.petekamutner.am.; 10 mx101.petekamutner.am.
+prosecutor.am,4,wikidata,Prosecutor General of Armenia,,200,10 mail.prosecutor.am.
+psrc.am,4,wikidata,Public Services Regulatory Commission,,400,10 mail.psrc.am.
+scs.am,4,wikidata,State Committee of Science,,301,0 mx.scs.am.
+sns.am,4,wikidata,National Security Service,central,400,5 mg.sns.am.
+sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Yerevan",central,ConnectException,none
+stateproperty.am,4,wikidata,State Property Management Committee,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.stateproperty.am.
+tvradio.am,4,wikidata,Commission on TV and Radio of Armenia,,200,10 tvradio.am.
+tvradiocouncil.am,4,wikidata,Public Broadcasting Council,,301,10 mx.zoho.com.; 20 mx2.zoho.com.; 50 mx3.zoho.com.
+yerevan.am,4,wikidata,"Council of the Elders, Yerevan",,301,10 mx1.yerevan.am.
+am.ambafrance.org,3,wikidata,"embassy of France, Yerevan",central,301,none
+am.mfa.lt,3,wikidata,embassy of Lithuania in Armenia,central,403,none
+armenia.mid.ru,3,wikidata,"Embassy of Russia, Yerevan",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+armenia.un.org,3,wikidata,United Nations Office in Armenia,,301,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Armenia,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+erevan.mae.ro,3,wikidata,"Embassy of Romania, Yerevan",central,503,none
+eriwan.diplo.de,3,wikidata,"Embassy of Germany, Yerevan",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+mfa.bg,3,wikidata,embassy of Bulgaria in Armenia,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,"Embassy of Greece, Yerevan",central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,"Embassy of Czech Republic, Yerevan",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Armenia,central,301,10 mail.gov.sk.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Yerevan",central,301,none
+aipo.am,2,wikidata;wikidata;wikidata,Intellectual Property Agency of Armenia,,307,10 mx1.beget.com.; 20 mx2.beget.com.
+arbitrage.am,2,wikidata;wikidata;wikidata,Q25486289,,200,none
+cadastre.am,2,wikidata;wikidata;wikidata,Cadastre Committee,,400,10 mail.cadastre.am.; 20 mail1.cadastre.am.

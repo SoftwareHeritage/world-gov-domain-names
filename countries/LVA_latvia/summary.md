@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `arhivi.lv` |  |  | wikidata;wikidata | Latvijas Valsts kinofotofonodokumentu arhīvs | State Archive of Personnel Files |
-| 7 | `likumi.lv` |  |  | linkgraph | Linked from 33 public-sector domains |
-| 7 | `valoda.lv` |  |  | wikidata;wikidata | The Latvian Language Agency |
-| 6 | `jesuiten.org` |  |  | wikidata;wikidata | Jesuit Province of Central Europe |
-| 6 | `roc-taiwan.org` | central |  | wikidata;wikidata | Taipei Mission in the Republic of Latvia | Taipei Mission in Latvia |
-| 4 | `adazi.lv` | central-1 |  | wikidata | Q90307473 |
-| 4 | `archiv.org.lv` |  |  | wikidata | Latvian State Archive |
-| 4 | `bank.lv` |  |  | wikidata | Bank of Latvia |
-| 4 | `cesis.lv` | central-1 |  | wikidata | Q90309861 |
-| 4 | `cvk.lv` | central |  | wikidata | Central Election Commission |
-| 4 | `latmb.lv` |  |  | wikidata | Metrology Bureau |
-| 4 | `liepaja.lv` | central-1 |  | wikidata | Liepaja City Council |
-| 4 | `lja.lv` |  |  | wikidata | Maritime Administration of Latvia |
-| 4 | `lnb.lv` |  |  | wikidata | National Library of Latvia |
-| 4 | `mantojums.lv` |  |  | wikidata | National Heritage Board of Latvia |
-| 4 | `memorialiemuzeji.lv` |  |  | wikidata | Association of Memorial Museums |
-| 4 | `meteo.lv` |  |  | wikidata | Latvian Environment, Geology and Meteorology Centre |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Riga |
-| 4 | `neplpadome.lv` |  |  | wikidata | National Electronic Mass Media Council |
-| 4 | `president.lv` |  |  | wikidata | Chancery of the President of Latvia |
+| 7 | `arhivi.lv` |  | HttpConne... | wikidata;wikidata | Latvijas Valsts kinofotofonodokumentu arhīvs | State Archive of Personnel Files |
+| 7 | `likumi.lv` |  | 200 | linkgraph | Linked from 33 public-sector domains |
+| 7 | `valoda.lv` |  | 200 | wikidata;wikidata | The Latvian Language Agency |
+| 6 | `jesuiten.org` |  | 301 | wikidata;wikidata | Jesuit Province of Central Europe |
+| 6 | `roc-taiwan.org` | central | 302 | wikidata;wikidata | Taipei Mission in the Republic of Latvia | Taipei Mission in Latvia |
+| 4 | `adazi.lv` | central-1 | 302 | wikidata | Q90307473 |
+| 4 | `archiv.org.lv` |  | 200 | wikidata | Latvian State Archive |
+| 4 | `bank.lv` |  | 301 | wikidata | Bank of Latvia |
+| 4 | `cesis.lv` | central-1 | 301 | wikidata | Q90309861 |
+| 4 | `cvk.lv` | central | 200 | wikidata | Central Election Commission |
+| 4 | `latmb.lv` |  | 301 | wikidata | Metrology Bureau |
+| 4 | `liepaja.lv` | central-1 | SSLHandsh... | wikidata | Liepaja City Council |
+| 4 | `lja.lv` |  | 301 | wikidata | Maritime Administration of Latvia |
+| 4 | `lnb.lv` |  | 301 | wikidata | National Library of Latvia |
+| 4 | `mantojums.lv` |  | 200 | wikidata | National Heritage Board of Latvia |
+| 4 | `memorialiemuzeji.lv` |  | 200 | wikidata | Association of Memorial Museums |
+| 4 | `meteo.lv` |  | 302 | wikidata | Latvian Environment, Geology and Meteorology Centre |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Riga |
+| 4 | `neplpadome.lv` |  | 301 | wikidata | National Electronic Mass Media Council |
+| 4 | `president.lv` |  | 301 | wikidata | Chancery of the President of Latvia |
 

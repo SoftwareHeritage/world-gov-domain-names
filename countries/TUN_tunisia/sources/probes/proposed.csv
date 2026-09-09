@@ -1,0 +1,90 @@
+hostname,http_status,mx
+affaires-religieuses.tn,302,5 mx6email.ingw.tn.; 5 mx5email.ingw.tn.
+afi.nat.tn,301,0 afi-nat-tn.mail.protection.outlook.com.
+agriculture.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
+ambdz.tn,ConnectException,0 mx02.ingw.orange.tn.; 0 mx04.ingw.orange.tn.; 0 mx01.ingw.orange.tn.; 0 mx03.ingw.orange.tn.
+anged.nat.tn,ConnectException,0 mx20.gnet.tn.; 0 mx10.gnet.tn.
+anm.nat.tn,301,5 mx4email.ingw.tn.; 5 mx3email.ingw.tn.
+anme.nat.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx3.topnetpro.com.; 0 mx2.topnetpro.com.; 0 mx1.topnetpro.com.
+anpe.nat.tn,301,0 mx2.topnetpro.com.; 0 mx3.topnetpro.com.; 0 mx1.topnetpro.com.
+anpr.tn,301,1 mx1.ovh.net.; 100 mxb.ovh.net.; 5 mx2.ovh.net.
+apal.nat.tn,ConnectException,0 mx20.gnet.tn.; 0 mx10.gnet.tn.
+apia.com.tn,301,0 mx20.gnet.tn.; 0 mx10.gnet.tn.
+archives.nat.tn,ConnectException,0 mx6email.ingw.tn.; 0 mx5email.ingw.tn.
+arp.tn,200,0 arp-tn.mail.protection.outlook.com.
+atct.tn,301,20 mta1.atct.tn.; 10 mta2.atct.tn.
+bibliotheque.nat.tn,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bibliotheque.nat.tn found.,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+cassation.tn,ConnectException,none
+ccicentre.org.tn,HttpTimeoutException: request timed out,0 cp4.tn.oxa.host.
+ccitunis.org.tn,200,10 mail.ccitunis.org.tn.
+cdn.tn,HttpConnectTimeoutException: HTTP connect timed out,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+cepex.nat.tn,ConnectException,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+cetiba.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx3.topnet.tn.; 0 mx1.topnet.tn.; 0 mx2.topnet.tn.
+cetime.ind.tn,ConnectException,0 mx02.ingw.orange.tn.; 0 mx01.ingw.orange.tn.; 0 mx04.ingw.orange.tn.; 0 mx03.ingw.orange.tn.
+cettex.com.tn,ConnectException,0 mx1.topnet.tn.; 0 mx2.topnet.tn.; 0 mx3.topnet.tn.
+citet.nat.tn,HttpConnectTimeoutException: HTTP connect timed out,0 mx10.gnet.tn.; 0 mx20.gnet.tn.
+cmf.tn,200,0 mx1.topnetpro.com.; 0 mx2.topnetpro.com.
+cnam.nat.tn,ConnectException,10 mx01.ingw.orange.tn.; 0 smtp.cnam.nat.tn.; 10 mx02.ingw.orange.tn.; 10 mx04.ingw.orange.tn.; 10 mx03.ingw.orange.tn.
+cnccleather.nat.tn,ConnectException,50 mx2email.ingw.tn.; 10 mx1email.ingw.tn.
+cni.nat.tn,ConnectException,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+cnrd.tn,301,50 mx5email.ingw.tn.; 10 mx6email.ingw.tn.
+cnrps.nat.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx2.topnet.tn.; 0 mx1.topnet.tn.; 0 mx3.topnet.tn.
+cnss.tn,ConnectException,10 mx1.topnet.tn.; 10 mx3.topnet.tn.; 10 mx2.topnet.tn.
+cnudst.rnrt.tn,HttpConnectTimeoutException: HTTP connect timed out,10 mx3.rnu.tn.; 10 mx2.rnu.tn.; 10 mx1.rnu.tn.
+ctaa.com.tn,301,0 mx1.topnetpro.com.; 0 mx3.topnetpro.com.; 0 mx2.topnetpro.com.
+ctc.ind.tn,ConnectException,0 mx03.ingw.orange.tn.; 0 mx01.ingw.orange.tn.; 0 mx04.ingw.orange.tn.; 0 mx02.ingw.orange.tn.
+ctmccv.ind.tn,ConnectException,none
+defense.tn,200,50 mx2defense.ingw.tn.; 20 mail.defense.tn.; 10 ksmg.defense.tn.; 40 mx1defense.ingw.tn.
+domainetat.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 gwmail2.ati.tn.; 5 gwmail1.ati.tn.
+dpm.tn,HttpConnectTimeoutException: HTTP connect timed out,none
+droitsdelhomme.org.tn,ConnectException,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+emploi.nat.tn,SSLHandshakeException: Remote host terminated the handshake,0 emploi-nat-tn.mail.protection.outlook.com.
+etap.com.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 etap.in.tmes.trendmicro.eu.
+finlandabroad.fi,301,10 mail.valtori.fi.
+haica.tn,302,50 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.; 1 mx0.mail.ovh.net.; 5 mx1.mail.ovh.net.
+inlucc.tn,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching inlucc.tn found.,100 mxb.ovh.net.; 100 mx3.mail.ovh.net.; 5 mx1.mail.ovh.net.; 1 mx1.ovh.net.; 50 mx2.mail.ovh.net.; 5 mx2.ovh.net.; 1 mx0.mail.ovh.net.
+innorpi.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx3.topnetpro.com.; 0 mx1.topnetpro.com.; 0 mx2.topnetpro.com.
+inp.rnrt.tn,HttpConnectTimeoutException: HTTP connect timed out,10 mx2.rnu.tn.; 10 mx3.rnu.tn.; 10 mx1.rnu.tn.
+ins.tn,200,0 ins-tn.mail.protection.outlook.com.
+isie.tn,301,10 mx03.cloud.vadesecure.com.; 10 mx04.cloud.vadesecure.com.; 10 mx01.cloud.vadesecure.com.; 10 mx02.cloud.vadesecure.com.
+isst.nat.tn,301,10 mail.isst.nat.tn.
+lncm.tn,ConnectException,none
+mes.tn,ConnectException,10 mx3.rnu.tn.; 10 mx1.rnu.tn.; 10 mx2.rnu.tn.
+meteo.tn,503,10 meteo-tn.mail.protection.outlook.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+oaca.nat.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+oep.nat.tn,ConnectException,0 mx02.ingw.orange.tn.; 0 mx03.ingw.orange.tn.; 0 mx04.ingw.orange.tn.; 0 mx01.ingw.orange.tn.
+ommp.nat.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx1.topnet.tn.; 0 mx3.topnet.tn.; 0 mx2.topnet.tn.
+onj.nat.tn,ConnectException,10 mx1jeunesse.ingw.tn.; 50 mx2jeunesse.ingw.tn.
+onm.nat.tn,ConnectException,0 mx04.ingw.orange.tn.; 0 mx02.ingw.orange.tn.; 0 mx03.ingw.orange.tn.; 0 mx01.ingw.orange.tn.
+onmne.tn,200,5 mx6email.ingw.tn.; 5 mx5email.ingw.tn.
+onpc.nat.tn,200,1 mx1email.ingw.tn.; 2 mx2email.ingw.tn.
+ote.nat.tn,301,0 mx1.topnet.tn.; 0 mx3.topnet.tn.; 0 mx2.topnet.tn.
+packtec.tn,301,0 mx20.gnet.tn.; 0 mx10.gnet.tn.
+pakistanembassytunis.com,200,0 pakistanembassytunis.com.
+santetunisie.rns.tn,HttpConnectTimeoutException: HTTP connect timed out,none
+sntri.com.tn,200,0 mx04.ingw.orange.tn.; 0 mx02.ingw.orange.tn.; 0 mx01.ingw.orange.tn.; 0 mx03.ingw.orange.tn.
+soretrak.com.tn,HttpConnectTimeoutException: HTTP connect timed out,0 soretrak.in.tmes.trendmicro.eu.
+soretras.tn,ConnectException,0 smtpin.ooredoo.tn.; 5 smtpin-alt1.ooredoo.tn.
+sotregames.com.tn,200,1 mx1.topnet.tn.; 1 mx2.topnet.tn.; 1 mx3.topnet.tn.
+sport.tn,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sport.tn found.,50 mx2email.ingw.tn.; 10 mx1email.ingw.tn.
+srtbeja.tn,200,10 mail.srtbeja.tn.
+srtbizerte.com.tn,302,0 mx2.topnet.tn.; 0 mx3.topnet.tn.; 0 mx1.topnet.tn.
+srtgn.com.tn,ConnectException,5 mx02.ingw.orange.tn.; 5 mx01.ingw.orange.tn.
+srtm.tn,200,0 mx1.topnet.tn.; 0 mx2.topnet.tn.; 0 mx3.topnet.tn.
+stsahel.com.tn,HttpConnectTimeoutException: HTTP connect timed out,0 mx3.topnet.tn.; 0 mx2.topnet.tn.; 0 mx1.topnet.tn.
+swedenabroad.se,301,none
+telediffusion.net.tn,301,50 mx2email.ingw.tn.; 50 mx1email.ingw.tn.; 10 mx1-mail-in.telediffusion.net.tn.
+tn.ambafrance.org,301,5 mta-gw.infomaniak.ch.
+transport.tn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
+transtu.tn,301,0 mx3.topnetpro.com.; 0 mx2.topnetpro.com.; 0 mx1.topnetpro.com.
+tunesien.um.dk,301,none
+tunis.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+tunis.mae.ro,503,none
+tunisie.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tunisieindustrie.nat.tn,ConnectException,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+tunisz.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

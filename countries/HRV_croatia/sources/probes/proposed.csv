@@ -1,0 +1,73 @@
+hostname,http_status,mx
+agencija-zolpp.hr,200,10 mx02.cdu.gov.hr.; 10 mx01.cdu.gov.hr.
+ambafrance-hr.org,ConnectException,5 mta-gw.infomaniak.ch.
+ambalgzagreb.com,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
+ambasadat.net,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+arhiv.hr,ConnectException,5 protection.arhiv.hr.
+azop.hr,200,10 azop-hr.mail.protection.outlook.com.
+ccaa.hr,200,0 ccaa-hr.mail.protection.outlook.com.
+croatia.representation.ec.europa.eu,302,none
+dad.hr,200,10 mx01.cdu.gov.hr.; 10 mx02.cdu.gov.hr.
+dominikanci.hr,200,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+dorh.hr,301,10 mprhantispam02.pravosudje.hr.; 10 mprhantispam01.pravosudje.hr.
+dzs.hr,HttpConnectTimeoutException: HTTP connect timed out,0 dzs-hr.mail.protection.outlook.com.
+dzzp.hr,403,none
+eszek.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+exteriors.gencat.cat,301,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+franjevci-split.hr,301,0 _dc-mx.19b60db81d96.franjevci-split.hr.
+fzoeu.hr,301,5 fzoeu-hr.mail.protection.outlook.com.
+hakom.hr,301,10 mail1.hakom.hr.; 20 mail2.hakom.hr.
+hnb.hr,302,10 mgw.hnb.hr.; 20 mgwig.hnb.hr.
+hr.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching hr.china-embassy.org found.,none
+hr.diplomatie.ma,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+hr.mfa.lt,403,none
+hr.undp.org,ConnectException,none
+hrzz.hr,200,5 hrzz-hr.mail.eo.outlook.com.
+hzjz.hr,302,4 mail.hzjz.hr.; 4 mail2.hzjz.hr.
+hzn.hr,301,10 mail.hzn.hr.
+hzzo-net.hr,ConnectException,0 hzzonet-hr01b.mail.protection.outlook.com.
+ihjj.hr,200,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
+isusovci.hr,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+izbori.hr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching izbori.hr found.,10 mx01.cdu.gov.hr.; 10 mx02.cdu.gov.hr.
+kapucini.hr,200,0 mail.kapucini.hr.
+kroatien.um.dk,301,none
+meteo.hr,HttpTimeoutException: request timed out,none
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mgipu.hr,SSLHandshakeException: Remote host terminated the handshake,0 mgipu-hr.mail.protection.outlook.com.
+minfin.hr,ConnectException,none
+mingo.hr,301,0 mx2.mingo.hr.; 10 mx1.mingo.hr.
+mint.hr,SSLHandshakeException: Remote host terminated the handshake,10 mint-hr.mail.protection.outlook.com.
+mmpi.hr,ConnectException,20 apollo12ba.mppi.hr.; 10 apollo11ba.mppi.hr.; 30 apollo11bm.mppi.hr.
+morh.hr,301,10 maildom1.morh.hr.; 20 maildom2.morh.hr.
+mps.hr,SSLHandshakeException: Remote host terminated the handshake,10 mail.mps.hr.
+mrms.hr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mrms-hr.mail.protection.outlook.com.
+mrrfeu.hr,ConnectException,0 mrrfeu-hr.mail.protection.outlook.com.
+mup.hr,301,2 trpimir.mup.hr.
+mzoip.hr,403,1 alltheemails.com.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+ncvvo.hr,301,10 mx01.cdu.gov.hr.; 10 mx02.cdu.gov.hr.
+norway.no,301,0 mx.domeneshop.no.
+nsk.hr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 nsk-hr.mail.protection.outlook.com.
+ofm-sv-jeronim.hr,200,0 mail.ofm-sv-jeronim.hr.
+ofm.hr,200,0 ofm-hr.mail.protection.outlook.com.
+ombudsman.hr,301,0 ombudsman-hr.mail.protection.outlook.com.
+policija.hr,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,2 trpimir.mup.hr.
+public.mzos.hr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching public.mzos.hr found.,none
+sabor.hr,200,5 mail.sabor.hr.
+skupstina.zagreb.hr,200,none
+soa.hr,200,10 mail.soa.hr.
+sudovi.hr,301,none
+swedenabroad.se,301,none
+uprava.hr,HttpConnectTimeoutException: HTTP connect timed out,10 mprhantispam02.pravosudje.hr.; 10 mprhantispam01.pravosudje.hr.
+usud.hr,200,10 smail.usud.hr.
+vsrh.hr,301,10 mprhantispam01.pravosudje.hr.; 10 mprhantispam02.pravosudje.hr.
+zagrab.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+zagreb.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+zagreb.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+zagreb.embassy.si,SSLHandshakeException: Remote host terminated the handshake,none
+zagreb.europarl.europa.eu,302,none
+zagreb.mae.ro,503,none
+zagreb.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

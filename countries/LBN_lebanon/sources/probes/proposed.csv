@@ -1,0 +1,25 @@
+hostname,http_status,mx
+alarabiahcouncil.org,301,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+ambafrance-lb.org,ConnectException,none
+bangladeshembassybeirut.org,200,5 mx1-hosting.jellyfish.systems.; 20 mx3-hosting.jellyfish.systems.; 10 mx2-hosting.jellyfish.systems.
+beirut.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+beirut.mae.ro,ConnectException,none
+bejrut.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cnrs.edu.lb,200,0 cnrs-edu-lb.mail.protection.outlook.com.
+conseilconstitutionnelliban.com,301,none
+custodia.org,301,0 custodia-org.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+emro.who.int,ConnectException,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+lb.ambafrance.org,301,5 mta-gw.infomaniak.ch.
+lebanon.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+libanon.um.dk,301,none
+lncu.org,200,0 lncu.org.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+norway.no,301,0 mx.domeneshop.no.
+palembassylb.com,200,10 mail.postale.io.; 0 mail.postale.io.
+swedenabroad.se,301,none

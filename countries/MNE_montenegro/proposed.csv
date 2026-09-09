@@ -1,26 +1,26 @@
 hostname,score,sources,label,level,http_status,mx
-skupstina.me,7,wikidata;wikidata,Parliament of Montenegro,central,,
-isusovci.hr,6,wikidata;wikidata,Croatian province of the Society of Jesus,,,
-sudovi.me,6,wikidata,Supreme Court of Montenegro,central,,
-ambasadabih.me,4,wikidata,embassy of Bosnia and Herzegovina in Montenegro,central,,
-anb.me,4,wikidata,National Security Agency,central,,
-dacg.me,4,wikidata,State Archives of Montenegro,,,
-metrologija.me,4,wikidata,Montenegrin Bureau of Metrology,,,
-mofaic.gov.ae,4,wikidata,Embassy of the United Arab Emirates in Montenegro,central,,
-nb-cg.me,4,wikidata,"National Library of Montenegro ""Đurđe Crnojević""",,,
-podgorica.mfa.gov.hu,4,wikidata,embassy of Hungary in Montenegro,central,,
-ambasadat.net,3,wikidata,"Embassy of Kosovo, Podgorica",central,,
-cb-mn.org,3,wikidata,Central Bank of Montenegro,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Montenegro,,,
-me.ambafrance.org,3,wikidata,"Embassy of France, Podgorica",central,,
-me.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Podgorica",central,,
-me.mvep.hr,3,wikidata,"Embassy of Croatia, Podgorica",central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Montenegro,central,,
-mfa.gr,3,wikidata,embassy of Greece in Montenegro,central,,
-montenegro.mid.ru,3,wikidata,embassy of Russia in Montenegro,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Montenegro,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Montenegro,central,,
-podgorica.diplo.de,3,wikidata,"Embassy of Germany, Podgorica",central,,
-podgorica.mae.ro,3,wikidata,embassy of Romania in Montenegro,central,,
-podgorica.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Podgorica",central,,
-prona.org,3,wikidata,Prona,,,
+skupstina.me,7,wikidata;wikidata,Parliament of Montenegro,central,301,10 mx2-eu1.ppe-hosted.com.; 5 mx1-eu1.ppe-hosted.com.
+isusovci.hr,6,wikidata;wikidata,Croatian province of the Society of Jesus,,301,5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
+sudovi.me,6,wikidata,Supreme Court of Montenegro,central,200,0 zimbra.hostuj.me.
+ambasadabih.me,4,wikidata,embassy of Bosnia and Herzegovina in Montenegro,central,200,0 ambasadabih.me.
+anb.me,4,wikidata,National Security Agency,central,HttpConnectTimeoutException: HTTP connect timed out,10 smtp1.anb.me.; 10 smtp2.anb.me.
+dacg.me,4,wikidata,State Archives of Montenegro,,500,10 mx1.tmdhosting.com.; 20 mx2.tmdhosting.com.
+metrologija.me,4,wikidata,Montenegrin Bureau of Metrology,,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+mofaic.gov.ae,4,wikidata,Embassy of the United Arab Emirates in Montenegro,central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nb-cg.me,4,wikidata,"National Library of Montenegro ""Đurđe Crnojević""",,301,100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.
+podgorica.mfa.gov.hu,4,wikidata,embassy of Hungary in Montenegro,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ambasadat.net,3,wikidata,"Embassy of Kosovo, Podgorica",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+cb-mn.org,3,wikidata,Central Bank of Montenegro,,200,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Montenegro,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+me.ambafrance.org,3,wikidata,"Embassy of France, Podgorica",central,301,none
+me.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Podgorica",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching me.chineseembassy.org found.,none
+me.mvep.hr,3,wikidata,"Embassy of Croatia, Podgorica",central,ConnectException,none
+mfa.bg,3,wikidata,embassy of Bulgaria in Montenegro,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Montenegro,central,403,10 mailhost.mfa.gr.
+montenegro.mid.ru,3,wikidata,embassy of Russia in Montenegro,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mzv.cz,3,wikidata,embassy of the Czech republic in Montenegro,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Montenegro,central,301,10 mail.gov.sk.
+podgorica.diplo.de,3,wikidata,"Embassy of Germany, Podgorica",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+podgorica.mae.ro,3,wikidata,embassy of Romania in Montenegro,central,503,none
+podgorica.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Podgorica",central,SSLHandshakeException: Remote host terminated the handshake,none
+prona.org,3,wikidata,Prona,,302,50 aspmx4.googlemail.com.; 20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 40 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 60 aspmx5.googlemail.com.

@@ -35,14 +35,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 4 | `aprc.sd` |  |  | wikidata | Animal Production Research Center |
-| 4 | `meteosudan.sd` |  |  | wikidata | Sudan Meteorological Authority |
-| 4 | `sudapost.sd` |  |  | wikidata | SudaPost |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Sudan |
-| 3 | `khartoum.mae.ro` | central |  | wikidata | embassy of Romania in Sudan |
-| 3 | `khartum.diplo.de` | central |  | wikidata | Embassy of Germany, Khartoum |
-| 3 | `norway.no` | central |  | wikidata | Embassy of Norway, Khartoum |
-| 3 | `sd.ambafrance.org` | central |  | wikidata | Embassy of France, Khartoum |
-| 3 | `sudan.mid.ru` | central |  | wikidata | embassy of Russia in Sudan |
-| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Khartoum |
+| 4 | `aprc.sd` |  | HttpConne... | wikidata | Animal Production Research Center |
+| 4 | `meteosudan.sd` |  | 200 | wikidata | Sudan Meteorological Authority |
+| 4 | `sudapost.sd` |  | 200 | wikidata | SudaPost |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Sudan |
+| 3 | `khartoum.mae.ro` | central | 503 | wikidata | embassy of Romania in Sudan |
+| 3 | `khartum.diplo.de` | central | 200 | wikidata | Embassy of Germany, Khartoum |
+| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway, Khartoum |
+| 3 | `sd.ambafrance.org` | central | 301 | wikidata | Embassy of France, Khartoum |
+| 3 | `sudan.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Sudan |
+| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Khartoum |
 

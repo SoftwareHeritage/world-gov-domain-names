@@ -1,32 +1,32 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.iq,8,wikidata;wikidata,Council of Representatives of Iraq,central,,
-mod.mil.iq,7,wikidata;wikidata,Ministry of Defence of Iraq,central,,
-cabinet.iq,6,un_desa,UN/DESA national portal,,,
-iq.ambafrance.org,6,wikidata;wikidata,"Embassy of France, Baghdad | Consulate General of France, Erbil",central,,
-swedenabroad.se,6,wikidata;wikidata,"Embassy of Sweden, Baghdad",central,,
-bagdad.mfa.gov.hu,4,wikidata,"Hungarian embassy, Baghdad",central,,
-cbi.iq,4,wikidata,Central Bank of Iraq,,,
-cmc.iq,4,wikidata,Communications and Media Commission,,,
-ihec.iq,4,wikidata,Independent High Electoral Commission,central,,
-iraqfsc.iq,4,wikidata,Supreme Court of Iraq,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Baghdad",central,,
-nazaha.iq,4,wikidata,Commission of Integrity,,,
-post.iq,4,wikidata,Iraqi Post,,,
-src.edu.iq,4,wikidata,Scientific Research Commission,,,
-b7or.net,3,wikidata,Badr News Agency,,,
-ctgkurdistan.com,3,wikidata,CTG Kurdistan,,,
-darculture.com,3,wikidata,The General House of Cultural Affairs,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Iraq,,,
-en.aswataliraq.info,3,wikidata,Aswat al-Iraq,,,
-erbil.diplo.de,3,wikidata,"Consulate General of Germany, Erbil",,,
-euam-iraq.eu,3,wikidata,European Union Advisory Mission in Iraq,,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Iraq,central,,
-h-iftaa.com,3,wikidata,Q131315026,,,
-iq.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Baghdad",central,,
-irak.diplo.de,3,wikidata,"Embassy of Germany, Baghdad",central,,
-iraq.mfa.am,3,wikidata,"Embassy of Armenia, Baghdad",central,,
-iraq.mid.ru,3,wikidata,embassy of Russia in Iraq,central,,
-mfa.gr,3,wikidata,embassy of Greece in Iraq,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Iraq,central,,
-palestineembassyiniraq.net,3,wikidata,Embassy of the State of Palestine in Iraq,central,,
-pressiraq.net,3,wikidata,Sada News Agency,,,
+parliament.iq,8,wikidata;wikidata,Council of Representatives of Iraq,central,403,0 mta.host77.parliament.iq.
+mod.mil.iq,7,wikidata;wikidata,Ministry of Defence of Iraq,central,403,20 mx2.email-securegateway.com.; 10 mx1.email-securegateway.com.; 40 mx4.email-securegateway.com.; 30 mx3.email-securegateway.com.
+cabinet.iq,6,un_desa,UN/DESA national portal,,200,10 plesk.ur.gov.iq.
+iq.ambafrance.org,6,wikidata;wikidata,"Embassy of France, Baghdad | Consulate General of France, Erbil",central,301,none
+swedenabroad.se,6,wikidata;wikidata,"Embassy of Sweden, Baghdad",central,301,none
+bagdad.mfa.gov.hu,4,wikidata,"Hungarian embassy, Baghdad",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cbi.iq,4,wikidata,Central Bank of Iraq,,200,0 d201741.a.ess.uk.barracudanetworks.com.; 10 d201741.b.ess.uk.barracudanetworks.com.
+cmc.iq,4,wikidata,Communications and Media Commission,,200,0 cmc-iq.mail.protection.outlook.com.
+ihec.iq,4,wikidata,Independent High Electoral Commission,central,200,0 _dc-mx.3acaa9b87da1.ihec.iq.; 0 plesk78.ur.gov.iq.
+iraqfsc.iq,4,wikidata,Supreme Court of Iraq,,403,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Baghdad",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nazaha.iq,4,wikidata,Commission of Integrity,,403,0 mail.nazaha.iq.
+post.iq,4,wikidata,Iraqi Post,,403,20 mx2.email-securegateway.com.; 30 mx3.email-securegateway.com.; 10 mx1.email-securegateway.com.; 40 mx4.email-securegateway.com.
+src.edu.iq,4,wikidata,Scientific Research Commission,,200,0 cp-03.ur.gov.iq.
+b7or.net,3,wikidata,Badr News Agency,,301,10 eforward2.registrar-servers.com.; 10 eforward1.registrar-servers.com.; 10 eforward3.registrar-servers.com.; 20 eforward5.registrar-servers.com.; 15 eforward4.registrar-servers.com.
+ctgkurdistan.com,3,wikidata,CTG Kurdistan,,200,0 mail.s1843.sureserver.com.
+darculture.com,3,wikidata,The General House of Cultural Affairs,,405,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Iraq,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+en.aswataliraq.info,3,wikidata,Aswat al-Iraq,,HttpConnectTimeoutException: HTTP connect timed out,none
+erbil.diplo.de,3,wikidata,"Consulate General of Germany, Erbil",,301,10 mx1.bund.de.; 10 mx2.bund.de.
+euam-iraq.eu,3,wikidata,European Union Advisory Mission in Iraq,,301,0 euamiraq-eu01b.mail.protection.outlook.com.
+finlandabroad.fi,3,wikidata,embassy of Finland in Iraq,central,301,10 mail.valtori.fi.
+h-iftaa.com,3,wikidata,Q131315026,,301,none
+iq.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Baghdad",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching iq.chineseembassy.org found.,none
+irak.diplo.de,3,wikidata,"Embassy of Germany, Baghdad",central,200,none
+iraq.mfa.am,3,wikidata,"Embassy of Armenia, Baghdad",central,301,none
+iraq.mid.ru,3,wikidata,embassy of Russia in Iraq,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mfa.gr,3,wikidata,embassy of Greece in Iraq,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Iraq,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+palestineembassyiniraq.net,3,wikidata,Embassy of the State of Palestine in Iraq,central,301,none
+pressiraq.net,3,wikidata,Sada News Agency,,403,0 _dc-mx.dc1b0fb787a4.pressiraq.net.

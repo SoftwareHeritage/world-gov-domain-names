@@ -1,19 +1,19 @@
 hostname,score,sources,label,level,http_status,mx
-bce.ec,7,wikidata;wikidata,Central Bank of Ecuador,,,
-exa.ec,7,wikidata;wikidata,Ecuadorian Civilian Space Agency,,,
-escolapios.org.co,6,wikidata;wikidata,Nazareth piarist province,,,
-ane.gov.ec,5,wikidata,National Archives of Ecuador,,,
-ccq.ec,4,wikidata,Quito Chamber of Commerce,,,
-inocar.mil.ec,4,wikidata,Oceanographic Institute of the Ecuadorian Navy,,,
-quito.mfa.gov.hu,4,wikidata,embassy of Hungary in Ecuador,central,,
-ambafrance-ec.org,3,wikidata,Embassy of France to Quito,central,,
-cubadiplomatica.cu,3,wikidata,embassy of Cuba in Ecuador,central,,
-ec.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Quito",central,,
-ecuador.mid.ru,3,wikidata,embassy of Russia in Ecuador,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Ecuador,,,
-embajadadominicanaecuador.com,3,wikidata,embassy of the Dominican Republic in Ecuador,central,,
-quiport.com,3,wikidata,Q1413753,,,
-quito.diplo.de,3,wikidata,"Embassy of Germany, Quito",central,,
-quito.embassy.qa,3,wikidata,embassy of Qatar in Ecuador,central,,
-quito.mfa.ir,3,wikidata,embassy of Iran in Ecuador,central,,
-roc-taiwan.org,3,wikidata,"Commercial Office of Taipei, Quito",,,
+bce.ec,7,wikidata;wikidata,Central Bank of Ecuador,,ConnectException,0 bceqmtain.bce.ec.
+exa.ec,7,wikidata;wikidata,Ecuadorian Civilian Space Agency,,ConnectException,1 mail.exa.ec.
+escolapios.org.co,6,wikidata;wikidata,Nazareth piarist province,,301,0 escolapios-org-co.mail.protection.outlook.com.
+ane.gov.ec,5,wikidata,National Archives of Ecuador,,ConnectException,none
+ccq.ec,4,wikidata,Quito Chamber of Commerce,,200,10 ccq-ec.mail.protection.outlook.com.
+inocar.mil.ec,4,wikidata,Oceanographic Institute of the Ecuadorian Navy,,301,0 mail.inocar.mil.ec.
+quito.mfa.gov.hu,4,wikidata,embassy of Hungary in Ecuador,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ambafrance-ec.org,3,wikidata,Embassy of France to Quito,central,ConnectException,5 mta-gw.infomaniak.ch.
+cubadiplomatica.cu,3,wikidata,embassy of Cuba in Ecuador,central,ConnectException,none
+ec.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Quito",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ec.china-embassy.org found.,none
+ecuador.mid.ru,3,wikidata,embassy of Russia in Ecuador,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Ecuador,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embajadadominicanaecuador.com,3,wikidata,embassy of the Dominican Republic in Ecuador,central,IOException: Received RST_STREAM: Protocol error,none
+quiport.com,3,wikidata,Q1413753,,301,0 quiama.in.tmes.trendmicro.com.
+quito.diplo.de,3,wikidata,"Embassy of Germany, Quito",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+quito.embassy.qa,3,wikidata,embassy of Qatar in Ecuador,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+quito.mfa.ir,3,wikidata,embassy of Iran in Ecuador,central,307,none
+roc-taiwan.org,3,wikidata,"Commercial Office of Taipei, Quito",,302,none

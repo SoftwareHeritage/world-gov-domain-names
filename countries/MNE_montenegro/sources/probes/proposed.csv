@@ -1,0 +1,26 @@
+hostname,http_status,mx
+ambasadabih.me,200,0 ambasadabih.me.
+ambasadat.net,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+anb.me,HttpConnectTimeoutException: HTTP connect timed out,10 smtp1.anb.me.; 10 smtp2.anb.me.
+cb-mn.org,200,none
+dacg.me,500,10 mx1.tmdhosting.com.; 20 mx2.tmdhosting.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+isusovci.hr,301,5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
+me.ambafrance.org,301,none
+me.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching me.chineseembassy.org found.,none
+me.mvep.hr,ConnectException,none
+metrologija.me,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+montenegro.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nb-cg.me,301,100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.
+podgorica.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+podgorica.mae.ro,503,none
+podgorica.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+podgorica.veleposlanistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+prona.org,302,50 aspmx4.googlemail.com.; 20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 40 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 60 aspmx5.googlemail.com.
+skupstina.me,301,10 mx2-eu1.ppe-hosted.com.; 5 mx1-eu1.ppe-hosted.com.
+sudovi.me,200,0 zimbra.hostuj.me.

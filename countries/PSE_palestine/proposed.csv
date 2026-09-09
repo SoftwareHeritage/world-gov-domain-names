@@ -1,71 +1,71 @@
 hostname,score,sources,label,level,http_status,mx
-minfo.ps,7,wikidata;wikidata,Ministry of Information (State of Palestine),central,,
-moa.pna.ps,7,wikidata;wikidata,Ministry of Agriculture,central,,
-mobpla.pna.ps,7,wikidata;wikidata,Palestinian Land Authority,central,,
-moc.pna.ps,7,wikidata;wikidata,Ministry of Culture (State of Palestine),central,,
-moe.pna.ps,7,wikidata;wikidata,Education Ministry of the Palestinian National Authority,central,,
-mofa.pna.ps,7,wikidata;wikidata,Ministry of Foreign Affairs and Expatriates of the State of Palestine,central,,
-moh.ps,7,wikidata;wikidata,Ministry of Health of Palestine,central,,
-moj.pna.ps,7,wikidata;wikidata,Ministry of Justice (Palestine),central,,
-mol.pna.ps,7,wikidata;wikidata,Palestinian Ministry of Labour,central,,
-molg.pna.ps,7,wikidata;wikidata,Ministry of Local Government,central,,
-nsf.ps,7,wikidata;wikidata,Palestinian National Security Forces,,,
-pal-wakf.ps,7,wikidata;wikidata,Ministry of Awqaf and Religious Affairs (Palestine),central,,
-plc.ps,7,wikidata;wikidata,Palestinian Legislative Council,central,,
-tourism.ps,7,wikidata;wikidata,Ministry of Tourism and Antiquities,central,,
-custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,,
-pal-plc.org,6,wikidata;wikidata,Palestinian Legislative Council,central,,
-palestinepnc.org,6,wikidata;wikidata,Palestinian National Council,,,
-cwrc.ps,4,wikidata,Colonization and Wall Resistance Commission,,,
-darifta.ps,4,wikidata,The Palestinian Fatwa House,,,
-elections.ps,4,wikidata,Central Election Commission,,,
-environment.ps,4,wikidata,Palestinian Environmental Quality Authority,,,
-gmtc.sec.ps,4,wikidata,Q120147325,,,
-gpc.pna.ps,4,wikidata,Palestinian General Personnel Office,,,
-lab.pna.ps,4,wikidata,The Palestinian Fatwa and Legislation Office,,,
-mohe.pna.ps,4,wikidata,Ministry of Education and Higher Education,,,
-mtit.pna.ps,4,wikidata,Ministry of Telecommunications and Digital Economy of the State of Palestine,central,,
-nad.ps,4,wikidata,PLO Negotiations Affairs Department,,,
-nlp.ps,4,wikidata,Palestinian National Library,,,
-pacc.ps,4,wikidata,Palestinian Anti-Corruption Commission,,,
-palcp.ps,4,wikidata,Palestinian Customs Police,,,
-palpolice.ps,4,wikidata,Palestinian Police,,,
-palpost.ps,4,wikidata,Palestine Post,,,
-palsafar.ps,4,wikidata,Q136439748,,,
-pcd.ps,4,wikidata,Palestinian Civil Defence,,,
-pcdc.edu.ps,4,wikidata,Q125376784,,,
-penra.pna.ps,4,wikidata,Palestinian Energy and Natural Resources Authority,,,
-perc.ps,4,wikidata,Palestinian Electricity Regulatory Council,,,
-pgis.ps,4,wikidata,Palestinian General Intelligence Service,,,
-pica.pna.ps,4,wikidata,Palestinian International Cooperation Agency,,,
-pipa.ps,4,wikidata,Palestinian Investment Promotion Authority,,,
-plord.ps,4,wikidata,Q128192047,,,
-pma.ps,4,wikidata,Palestine Monetary Authority,,,
-pmd.ps,4,wikidata,Palestinian Meteorological Department,,,
-pmi.pna.ps,4,wikidata,Palestinian Military Intelligence Service,,,
-pnac.pna.ps,4,wikidata,Palestine National Archives,,,
-pncecs.plo.ps,4,wikidata,"Palestinian National Commission for Education, Culture and Science",,,
-png.plo.ps,4,wikidata,Q104704376,,,
-ppag.ps,4,wikidata,Palestinian Pension Authority,,,
-ppfi.ps,4,wikidata,Palestine Public Finance Institute,,,
-pwa.ps,4,wikidata,Palestinian Water Authority,,,
-ramallah.mfa.gov.hu,4,wikidata,Representative Office of Hungary in Ramallah,,,
-saacb.ps,4,wikidata,The Palestinian Administrative and Financial Supervision Bureau,,,
-tscc.pna.ps,4,wikidata,Supreme Constitutional Court of the State of Palestine,,,
-wsrc.ps,4,wikidata,Water Sector Regulatory Council of Palestine,,,
-dfa.ie,3,wikidata,"Representative Office of Ireland, Ramallah",,,
-eeas.europa.eu,3,wikidata,"Office of the European Union Representative (West Bank and Gaza Strip, UNRWA)",central,,
-finlandabroad.fi,3,wikidata,"Finland’s Representative Office, Ramallah",,,
-mfa.gr,3,wikidata,Consulate General of Greece in Jerusalem,,,
-mzv.cz,3,wikidata,Representative Office of the Czech Republic in Ramallah,,,
-norway.no,3,wikidata,Representative Office of Norway to the Palestinian Authority,,,
-pal-chambers.org,3,wikidata,"Salfit Chamber of Commerce, Industry and Agriculture",,,
-pna.mid.ru,3,wikidata,Representative office of the Russian Federation to Palestinian National Authority,,,
-pschinaoffice.org,3,wikidata,Office of the People's Republic of China to the State of Palestine,central,,
-ramala.predstavnistvo.si,3,wikidata,Representative Office of the Republic of Slovenia in Palestine,,,
-ramallah.diplo.de,3,wikidata,German Representative Office Ramallah,,,
-ramallah.mae.ro,3,wikidata,Q100260597,,,
-ramallah.um.dk,3,wikidata,Danish Representation in Ramallah,,,
-swedenabroad.se,3,wikidata,"Consulate General of Sweden, Jerusalem",,,
-tulkarm-chamber.org,3,wikidata,"Tulkarm Chamber of Commerce, Industry and Agriculture",central-1,,
-site.moh.ps,2,wikidata;wikidata;wikidata,Ministry of Health | Ministry of Health of Palestine,central,,
+minfo.ps,7,wikidata;wikidata,Ministry of Information (State of Palestine),central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,5 minfo.email.gov.ps.
+moa.pna.ps,7,wikidata;wikidata,Ministry of Agriculture,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching moa.pna.ps found.,5 moa.email.gov.ps.
+mobpla.pna.ps,7,wikidata;wikidata,Palestinian Land Authority,central,HttpConnectTimeoutException: HTTP connect timed out,none
+moc.pna.ps,7,wikidata;wikidata,Ministry of Culture (State of Palestine),central,200,5 moc.email.gov.ps.
+moe.pna.ps,7,wikidata;wikidata,Education Ministry of the Palestinian National Authority,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 1164512305.mail.outlook.com.
+mofa.pna.ps,7,wikidata;wikidata,Ministry of Foreign Affairs and Expatriates of the State of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mxr.mofa.pna.ps.
+moh.ps,7,wikidata;wikidata,Ministry of Health of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 moh.email.gov.ps.
+moj.pna.ps,7,wikidata;wikidata,Ministry of Justice (Palestine),central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 moj.email.gov.ps.
+mol.pna.ps,7,wikidata;wikidata,Palestinian Ministry of Labour,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mol.email.gov.ps.
+molg.pna.ps,7,wikidata;wikidata,Ministry of Local Government,central,200,0 molg.email.gov.ps.
+nsf.ps,7,wikidata;wikidata,Palestinian National Security Forces,,200,none
+pal-wakf.ps,7,wikidata;wikidata,Ministry of Awqaf and Religious Affairs (Palestine),central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,1 pal-wakf.email.gov.ps.
+plc.ps,7,wikidata;wikidata,Palestinian Legislative Council,central,302,5 mailgw01.gov.ps.
+tourism.ps,7,wikidata;wikidata,Ministry of Tourism and Antiquities,central,200,none
+custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+pal-plc.org,6,wikidata;wikidata,Palestinian Legislative Council,central,HttpConnectTimeoutException: HTTP connect timed out,5 pal-plc.email.gov.ps.
+palestinepnc.org,6,wikidata;wikidata,Palestinian National Council,,HttpTimeoutException: request timed out,0 mail.palestinepnc.org.
+cwrc.ps,4,wikidata,Colonization and Wall Resistance Commission,,200,5 cwrc.email.gov.ps.
+darifta.ps,4,wikidata,The Palestinian Fatwa House,,200,0 darifta.ps.
+elections.ps,4,wikidata,Central Election Commission,,301,10 mail.elections.ps.
+environment.ps,4,wikidata,Palestinian Environmental Quality Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+gmtc.sec.ps,4,wikidata,Q120147325,,200,5 gmtc.email.gov.ps.
+gpc.pna.ps,4,wikidata,Palestinian General Personnel Office,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+lab.pna.ps,4,wikidata,The Palestinian Fatwa and Legislation Office,,301,10 lab-pna-ps.mail.protection.outlook.com.
+mohe.pna.ps,4,wikidata,Ministry of Education and Higher Education,,404,0 mohe-pna-ps.mail.protection.outlook.com.
+mtit.pna.ps,4,wikidata,Ministry of Telecommunications and Digital Economy of the State of Palestine,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+nad.ps,4,wikidata,PLO Negotiations Affairs Department,,301,0 email.nad-nsu.ps.
+nlp.ps,4,wikidata,Palestinian National Library,,200,0 nlp-ps.mail.protection.outlook.com.
+pacc.ps,4,wikidata,Palestinian Anti-Corruption Commission,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+palcp.ps,4,wikidata,Palestinian Customs Police,,200,5 palcp.email.gov.ps.
+palpolice.ps,4,wikidata,Palestinian Police,,403,0 _dc-mx.26ffb6c5ae8e.palpolice.ps.
+palpost.ps,4,wikidata,Palestine Post,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 palpost.email.gov.ps.
+palsafar.ps,4,wikidata,Q136439748,,ConnectException,none
+pcd.ps,4,wikidata,Palestinian Civil Defence,,200,5 pcd.email.gov.ps.
+pcdc.edu.ps,4,wikidata,Q125376784,,HttpConnectTimeoutException: HTTP connect timed out,none
+penra.pna.ps,4,wikidata,Palestinian Energy and Natural Resources Authority,,200,5 penra.email.gov.ps.
+perc.ps,4,wikidata,Palestinian Electricity Regulatory Council,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 perc.email.gov.ps.
+pgis.ps,4,wikidata,Palestinian General Intelligence Service,,302,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+pica.pna.ps,4,wikidata,Palestinian International Cooperation Agency,,200,5 pica.email.gov.ps.
+pipa.ps,4,wikidata,Palestinian Investment Promotion Authority,,200,none
+plord.ps,4,wikidata,Q128192047,,ConnectException,none
+pma.ps,4,wikidata,Palestine Monetary Authority,,302,0 pma-ps.mail.protection.outlook.com.
+pmd.ps,4,wikidata,Palestinian Meteorological Department,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 pmd.email.gov.ps.
+pmi.pna.ps,4,wikidata,Palestinian Military Intelligence Service,,200,5 pmi.email.gov.ps.
+pnac.pna.ps,4,wikidata,Palestine National Archives,,HttpConnectTimeoutException: HTTP connect timed out,none
+pncecs.plo.ps,4,wikidata,"Palestinian National Commission for Education, Culture and Science",,200,5 pncecs.email.gov.ps.
+png.plo.ps,4,wikidata,Q104704376,,200,5 png.email.gov.ps.
+ppag.ps,4,wikidata,Palestinian Pension Authority,,200,10 mail.ppag.ps.
+ppfi.ps,4,wikidata,Palestine Public Finance Institute,,301,0 ppfi-ps.mail.protection.outlook.com.
+pwa.ps,4,wikidata,Palestinian Water Authority,,301,5 pwa.email.gov.ps.
+ramallah.mfa.gov.hu,4,wikidata,Representative Office of Hungary in Ramallah,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+saacb.ps,4,wikidata,The Palestinian Administrative and Financial Supervision Bureau,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.saacb.ps.
+tscc.pna.ps,4,wikidata,Supreme Constitutional Court of the State of Palestine,,301,5 tscc.email.gov.ps.
+wsrc.ps,4,wikidata,Water Sector Regulatory Council of Palestine,,200,0 wsrc-ps.mail.protection.outlook.com.
+dfa.ie,3,wikidata,"Representative Office of Ireland, Ramallah",,301,10 ext0.dfa.ie.; 20 cwext.gn.gov.ie.; 20 gbext.gn.gov.ie.
+eeas.europa.eu,3,wikidata,"Office of the European Union Representative (West Bank and Gaza Strip, UNRWA)",central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,"Finland’s Representative Office, Ramallah",,301,10 mail.valtori.fi.
+mfa.gr,3,wikidata,Consulate General of Greece in Jerusalem,,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,Representative Office of the Czech Republic in Ramallah,,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+norway.no,3,wikidata,Representative Office of Norway to the Palestinian Authority,,301,0 mx.domeneshop.no.
+pal-chambers.org,3,wikidata,"Salfit Chamber of Commerce, Industry and Agriculture",,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.pal-chambers.org.
+pna.mid.ru,3,wikidata,Representative office of the Russian Federation to Palestinian National Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pschinaoffice.org,3,wikidata,Office of the People's Republic of China to the State of Palestine,central,ConnectException,none
+ramala.predstavnistvo.si,3,wikidata,Representative Office of the Republic of Slovenia in Palestine,,SSLHandshakeException: Remote host terminated the handshake,none
+ramallah.diplo.de,3,wikidata,German Representative Office Ramallah,,200,10 mx2.bund.de.; 10 mx1.bund.de.
+ramallah.mae.ro,3,wikidata,Q100260597,,503,none
+ramallah.um.dk,3,wikidata,Danish Representation in Ramallah,,301,none
+swedenabroad.se,3,wikidata,"Consulate General of Sweden, Jerusalem",,301,none
+tulkarm-chamber.org,3,wikidata,"Tulkarm Chamber of Commerce, Industry and Agriculture",central-1,ConnectException,none
+site.moh.ps,2,wikidata;wikidata;wikidata,Ministry of Health | Ministry of Health of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

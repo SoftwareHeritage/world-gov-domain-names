@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `mofaic.gov.ae` | central |  | wikidata;wikidata | Embassy of the United Arab Emirates, Ankara | Consulate General of the United... |
-| 6 | `iski.istanbul` |  |  | wikidata;wikidata | İSKİ |
-| 6 | `roc-taiwan.org` |  |  | wikidata;wikidata | Taipei Economic and Cultural Mission in Ankara |
-| 5 | `ankara.mfa.gov.ct.tr` | central |  | wikidata | Embassy of Northern Cyprus, Ankara |
-| 4 | `ankara.mfa.gov.hu` | central |  | wikidata | Hungarian embassy, Ankara |
-| 4 | `aso.org.tr` |  |  | wikidata | Ankara Chamber of Industry |
-| 4 | `bddk.org.tr` |  |  | wikidata | Banking Regulation and Supervision Agency |
-| 4 | `consulateofpalestine.com.tr` |  |  | wikidata | Consulate General of Palestine, Istanbul |
-| 4 | `embassyofpalestine.org.tr` | central |  | wikidata | Embassy of Palestine in Ankara |
-| 4 | `epdk.org.tr` |  |  | wikidata | Energy Market Regulatory Authority |
-| 4 | `esb.org.tr` |  |  | wikidata | Association of Access Providers (Turkey) |
-| 4 | `ibg.edu.tr` |  |  | wikidata | Izmir Biomedicine and Genome Center |
-| 4 | `istihbarat.pol.tr` |  |  | wikidata | Intelligence Presidency of General Directorate of Security |
-| 4 | `istka.org.tr` |  |  | wikidata | İstanbul Kalkınma Ajansı |
-| 4 | `isztambul.mfa.gov.hu` |  |  | wikidata | Consulate General of Hungary, Istanbul |
-| 4 | `itfaiye.izmir.bel.tr` | central-1 |  | wikidata | İzmir Fire Department |
-| 4 | `izto.org.tr` |  |  | wikidata | İzmir Chamber of Commerce |
-| 4 | `kardelen.baglar.bel.tr` |  |  | wikidata | Q131170119 |
-| 4 | `kenyaembassy.org.tr` | central |  | wikidata | Embassy of Kenya, Ankara |
-| 4 | `kuwaitembassy.org.tr` | central |  | wikidata | Embassy of Kuwait in Ankara |
+| 7 | `mofaic.gov.ae` | central | IOExcepti... | wikidata;wikidata | Embassy of the United Arab Emirates, Ankara | Consulate General of the United... |
+| 6 | `iski.istanbul` |  | HttpConne... | wikidata;wikidata | İSKİ |
+| 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Mission in Ankara |
+| 5 | `ankara.mfa.gov.ct.tr` | central | 200 | wikidata | Embassy of Northern Cyprus, Ankara |
+| 4 | `ankara.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Ankara |
+| 4 | `aso.org.tr` |  | 200 | wikidata | Ankara Chamber of Industry |
+| 4 | `bddk.org.tr` |  | ConnectEx... | wikidata | Banking Regulation and Supervision Agency |
+| 4 | `consulateofpalestine.com.tr` |  | 403 | wikidata | Consulate General of Palestine, Istanbul |
+| 4 | `embassyofpalestine.org.tr` | central | 200 | wikidata | Embassy of Palestine in Ankara |
+| 4 | `epdk.org.tr` |  | SSLHandsh... | wikidata | Energy Market Regulatory Authority |
+| 4 | `esb.org.tr` |  | 301 | wikidata | Association of Access Providers (Turkey) |
+| 4 | `ibg.edu.tr` |  | 200 | wikidata | Izmir Biomedicine and Genome Center |
+| 4 | `istihbarat.pol.tr` |  | 302 | wikidata | Intelligence Presidency of General Directorate of Security |
+| 4 | `istka.org.tr` |  | 200 | wikidata | İstanbul Kalkınma Ajansı |
+| 4 | `isztambul.mfa.gov.hu` |  | SSLHandsh... | wikidata | Consulate General of Hungary, Istanbul |
+| 4 | `itfaiye.izmir.bel.tr` | central-1 | 302 | wikidata | İzmir Fire Department |
+| 4 | `izto.org.tr` |  | SSLHandsh... | wikidata | İzmir Chamber of Commerce |
+| 4 | `kardelen.baglar.bel.tr` |  | ConnectEx... | wikidata | Q131170119 |
+| 4 | `kenyaembassy.org.tr` | central | 200 | wikidata | Embassy of Kenya, Ankara |
+| 4 | `kuwaitembassy.org.tr` | central | SSLHandsh... | wikidata | Embassy of Kuwait in Ankara |
 

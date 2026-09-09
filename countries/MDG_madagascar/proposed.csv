@@ -1,14 +1,14 @@
 hostname,score,sources,label,level,http_status,mx
-artec.mg,4,wikidata,ARTEC Madagascar,,,
-assemblee-nationale.mg,4,wikidata,National Assembly,central,,
-banque-centrale.mg,4,wikidata,Central Bank of Madagascar,,,
-bnm.mg,4,wikidata,Q140563694,,,
-ceni-madagascar.mg,4,wikidata,National Independent Electoral Commission,central,,
-instat.mg,4,wikidata,Institut National de la Statistique,central,,
-meteomadagascar.mg,4,wikidata,Météo Madagascar,,,
-pnae.mg,4,wikidata,Office National pour l'Environnement,,,
-senat.mg,4,wikidata,Senate,central,,
-antananarivo.diplo.de,3,wikidata,"Embassy of Germany, Antananarivo",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Madagascar and to the Comoros,central,,
-madagascar.mid.ru,3,wikidata,embassy of Russia in Madagascar,central,,
-mg.ambafrance.org,3,wikidata,"Embassy of France, Antananarivo",central,,
+artec.mg,4,wikidata,ARTEC Madagascar,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.artec.mg.
+assemblee-nationale.mg,4,wikidata,National Assembly,central,200,10 mx-int10.dts.mg.; 20 mx2.dts.mg.
+banque-centrale.mg,4,wikidata,Central Bank of Madagascar,,200,none
+bnm.mg,4,wikidata,Q140563694,,HttpTimeoutException: request timed out,10 mail.bnm.mg.
+ceni-madagascar.mg,4,wikidata,National Independent Electoral Commission,central,301,5 ceni-madagascar.mg.
+instat.mg,4,wikidata,Institut National de la Statistique,central,200,20 mx2.tgn.mg.; 5 mx-int10.dts.mg.
+meteomadagascar.mg,4,wikidata,Météo Madagascar,,ConnectException,20 mx2.dts.mg.; 5 mx-int10.dts.mg.
+pnae.mg,4,wikidata,Office National pour l'Environnement,,ConnectException,10 mail.pnae.mg.
+senat.mg,4,wikidata,Senate,central,200,10 mail.senat.mg.
+antananarivo.diplo.de,3,wikidata,"Embassy of Germany, Antananarivo",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Madagascar and to the Comoros,central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+madagascar.mid.ru,3,wikidata,embassy of Russia in Madagascar,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mg.ambafrance.org,3,wikidata,"Embassy of France, Antananarivo",central,301,5 mta-gw.infomaniak.ch.

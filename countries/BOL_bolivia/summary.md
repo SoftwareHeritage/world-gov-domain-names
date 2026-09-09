@@ -35,20 +35,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 9 | `tsj.bo` |  |  | wikidata;wikidata | Supreme Tribunal of Justice | Supreme Court of Bolivia |
-| 7 | `archivoybibliotecanacionales.org.bo` |  |  | wikidata;wikidata;wikidata;wikidata | National Library of Bolivia | National Archive and Library of Bolivia | Archi... |
-| 7 | `cancilleria.bo` | central |  | wikidata;wikidata | Ministry of Foreign Affairs |
-| 6 | `escolapiosbrasilbolivia.org` |  |  | wikidata;wikidata | Piarist province of Brazil-Bolivia |
-| 6 | `oep.org.bo` | central |  | wikidata | Plurinational Electoral Organ |
-| 6 | `tcpbolivia.bo` |  |  | wikidata | Plurinational Constitutional Tribunal |
-| 4 | `abe.bo` |  |  | wikidata | Agencia Boliviana Espacial |
-| 4 | `policia.bo` |  |  | wikidata | Bolivian Police |
-| 3 | `bo.ambafrance.org` | central |  | wikidata | Embassy of France, La Paz |
-| 3 | `bo.chineseembassy.org` | central |  | wikidata | Embassy of the People's Republic of China, La Paz |
-| 3 | `bolivia.mid.ru` | central |  | wikidata | embassy of Russia in Bolivia |
-| 3 | `consulado.pe` | central |  | wikidata | Consulate-General of Peru, La Paz |
-| 3 | `cubadiplomatica.cu` | central |  | wikidata | embassy of Cuba in Bolivia |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Bolivia |
-| 3 | `la-paz.diplo.de` | central |  | wikidata | Embassy of Germany, La Paz |
-| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, La Paz |
+| 9 | `tsj.bo` |  | 200 | wikidata;wikidata | Supreme Tribunal of Justice | Supreme Court of Bolivia |
+| 7 | `archivoybibliotecanacionales.org.bo` |  | 200 | wikidata;wikidata;wikidata;wikidata | National Library of Bolivia | National Archive and Library of Bolivia | Archi... |
+| 7 | `cancilleria.bo` | central | ConnectEx... | wikidata;wikidata | Ministry of Foreign Affairs |
+| 6 | `escolapiosbrasilbolivia.org` |  | 301 | wikidata;wikidata | Piarist province of Brazil-Bolivia |
+| 6 | `oep.org.bo` | central | ConnectEx... | wikidata | Plurinational Electoral Organ |
+| 6 | `tcpbolivia.bo` |  | 200 | wikidata | Plurinational Constitutional Tribunal |
+| 4 | `abe.bo` |  | 301 | wikidata | Agencia Boliviana Espacial |
+| 4 | `policia.bo` |  | 301 | wikidata | Bolivian Police |
+| 3 | `bo.ambafrance.org` | central | 301 | wikidata | Embassy of France, La Paz |
+| 3 | `bo.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, La Paz |
+| 3 | `bolivia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Bolivia |
+| 3 | `consulado.pe` | central | SSLHandsh... | wikidata | Consulate-General of Peru, La Paz |
+| 3 | `cubadiplomatica.cu` | central | ConnectEx... | wikidata | embassy of Cuba in Bolivia |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Bolivia |
+| 3 | `la-paz.diplo.de` | central | 200 | wikidata | Embassy of Germany, La Paz |
+| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, La Paz |
 

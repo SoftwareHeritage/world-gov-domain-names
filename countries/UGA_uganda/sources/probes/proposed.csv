@@ -1,0 +1,69 @@
+hostname,http_status,mx
+afro.who.int,200,none
+agriculture.go.ug,301,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+bou.or.ug,200,0 bou-or-ug.mail.protection.outlook.com.
+caa.go.ug,200,10 mail.caa.go.ug.
+cmauganda.co.ug,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+coctu.go.ug,200,0 _dc-mx.014b6bdfdcf6.coctu.go.ug.
+dda.or.ug,ConnectException,none
+dpf.or.ug,200,0 dpf-or-ug.mail.protection.outlook.com.
+ec.or.ug,200,10 _dc-mx.e7b2da591525.ec.or.ug.
+education.go.ug,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+energyandminerals.go.ug,ConnectException,none
+eoc.go.ug,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+era.or.ug,403,none
+fia.go.ug,HttpConnectTimeoutException: HTTP connect timed out,0 fia-go-ug.mail.protection.outlook.com.
+finance.go.ug,200,10 mail.finance.go.ug.
+freezones.go.ug,HttpConnectTimeoutException: HTTP connect timed out,none
+gou.go.ug,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+health.go.ug,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+ict.go.ug,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+igg.go.ug,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 igg-go-ug.mail.protection.outlook.com.
+ira.go.ug,200,0 mail.ira.go.ug.; 20 mail.ira.go.ug.
+kampala.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+kumi.go.ug,HttpConnectTimeoutException: HTTP connect timed out,0 _dc-mx.32ebc3a2a235.kumi.go.ug.
+meaca.go.ug,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+mglsd.go.ug,200,10 mx2.umcs.go.ug.; 10 mta2.umcs.go.ug.; 10 mx1.umcs.go.ug.; 10 mta1.umcs.go.ug.
+mia.go.ug,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mlhud.go.ug,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mofa.go.ug,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mtic.go.ug,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mtti.go.ug,ConnectException,none
+mwe.go.ug,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+naro.go.ug,200,0 naro-go-ug.mail.protection.outlook.com.
+nda.or.ug,HttpTimeoutException: request timed out,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+nema.go.ug,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+nfa.org.ug,301,10 mail.nfa.org.ug.
+ngobureau.go.ug,200,90 mx2.umcs.go.ug.; 90 mx1.umcs.go.ug.
+nlu.go.ug,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+norway.no,301,0 mx.domeneshop.no.
+opm.go.ug,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+pakhc.or.ke,200,none
+parliament.go.ug,302,0 parliament-go-ug.mail.protection.outlook.com.
+sti.go.ug,200,0 sti-go-ug.mail.protection.outlook.com.
+swedenabroad.se,301,none
+ubos.org,HttpConnectTimeoutException: HTTP connect timed out,0 ubos-org.mail.protection.outlook.com.; 5 mail.ubos.org.
+ucc.co.ug,301,0 gw16129.fortimail.com.
+udc.go.ug,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+ueccc.or.ug,HttpConnectTimeoutException: HTTP connect timed out,0 ueccc-or-ug.mail.protection.outlook.com.
+ug.ambafrance.org,301,none
+uganda.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+uganda.um.dk,301,none
+ugandaexports.go.ug,ConnectException,none
+ugandawildlife.org,200,none
+uhrc.ug,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.uhrc.ug.; 20 mailcleaner.utlonline.co.ug.
+uiri.org,200,0 .
+unas.org.ug,200,1 smtp.google.com.
+unatu.org,HttpTimeoutException: request timed out,0 unatu-org.mail.protection.outlook.com.
+unche.or.ug,200,0 exodus.momentumhosting.cloud.
+uncst.go.ug,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching uncst.go.ug found.,0 uncst-go-ug.mail.protection.outlook.com.
+uneb.ac.ug,200,0 uneb-ac-ug.mail.protection.outlook.com.
+unesco-uganda.ug,302,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+unma.go.ug,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+unmc.ug,HttpConnectTimeoutException: HTTP connect timed out,0 mail.unmc.ug.; 10 feedback-smtp.us-east-1.amazonses.com.
+upf.go.ug,200,5 mail2.upf.go.ug.; 10 mx2.umcs.go.ug.; 99 mailitms.upf.go.ug.; 10 mx1.umcs.go.ug.
+urbra.go.ug,200,0 urbra-go-ug.mail.protection.outlook.com.
+utb.go.ug,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+works.go.ug,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.

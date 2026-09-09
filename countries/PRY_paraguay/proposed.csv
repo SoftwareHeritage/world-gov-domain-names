@@ -1,11 +1,11 @@
 hostname,score,sources,label,level,http_status,mx
-dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,,
-facebook.com,6,wikidata;wikidata,departmental board of Misiones,central-1,,
-roc-taiwan.org,6,wikidata;wikidata,"Embassy of the Republic of China (Taiwan), Asunción | Consulate-General of the Republic of China, Ciudad del Este",central,,
-embajadadeluruguay.com.py,4,wikidata,embassy of Uruguay in Paraguay,central,,
-asuncion.diplo.de,3,wikidata,"Embassy of Germany, Asunción",central,,
-asuncion.embassy.qa,3,wikidata,embassy of Qatar in Paraguay,central,,
-cceasuncion.aecid.es,3,wikidata,Q139502847,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Paraguay,,,
-paraguay.mid.ru,3,wikidata,embassy of Russia in Paraguay,central,,
-py.ambafrance.org,3,wikidata,"Embassy of France, Asunción",central,,
+dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
+facebook.com,6,wikidata;wikidata,departmental board of Misiones,central-1,ConnectException,none
+roc-taiwan.org,6,wikidata;wikidata,"Embassy of the Republic of China (Taiwan), Asunción | Consulate-General of the Republic of China, Ciudad del Este",central,302,none
+embajadadeluruguay.com.py,4,wikidata,embassy of Uruguay in Paraguay,central,ConnectException,none
+asuncion.diplo.de,3,wikidata,"Embassy of Germany, Asunción",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+asuncion.embassy.qa,3,wikidata,embassy of Qatar in Paraguay,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cceasuncion.aecid.es,3,wikidata,Q139502847,,200,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Paraguay,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+paraguay.mid.ru,3,wikidata,embassy of Russia in Paraguay,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+py.ambafrance.org,3,wikidata,"Embassy of France, Asunción",central,301,none

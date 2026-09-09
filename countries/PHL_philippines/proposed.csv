@@ -1,41 +1,41 @@
 hostname,score,sources,label,level,http_status,mx
-recoletos.ph,7,wikidata;wikidata,Province of Saint Ezequiél Moreno,,,
-chamberphilislands.ph,4,wikidata,Chamber of Commerce of the Philippine Islands,,,
-depedcalabarzon.ph,4,wikidata,Department of Education Regional Office IV-A,central-1,,
-depedmimaroparegion.ph,4,wikidata,Department of Education Mimaropa Regional Office,central-1,,
-depedncr.com.ph,4,wikidata,Department of Education National Capital Regional Office,central-1,,
-depedroxi.ph,4,wikidata,Department of Education Regional Office XI,central-1,,
-divephilippines.com.ph,4,wikidata,Philippine Commission on Sports Scuba Diving,,,
-ias.org.ph,4,wikidata,Internal Affairs Service,,,
-malikhaingpinoy.ph,4,wikidata,Philippine Creative Industries Development Council,,,
-manila.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Manila",central,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Manila",central,,
-newnaia.com.ph,4,wikidata,New NAIA Infrastructure Corporation,,,
-pagcor.ph,4,wikidata,Philippine Amusement and Gaming Corporation,,,
-palauembassymanila.ph,4,wikidata,embassy of Palau in the Philippines,central,,
-pmdc.com.ph,4,wikidata,Philippine Mining Development Corporation,,,
-ppa.com.ph,4,wikidata,Philippine Ports Authority,,,
-seafdec.org.ph,4,wikidata,Southeast Asian Fisheries Development Center Aquaculture Department,,,
-thaiembassymnl.ph,4,wikidata,"embassy of Thailand, Manila",,,
-asale.org,3,wikidata,Philippine Academy of the Spanish Language,,,
-depedro9.info,3,wikidata,Department of Education Regional Office IX,central-1,,
-depedroxii.org,3,wikidata,Department of Education Regional Office XII,central-1,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to the Philippines,,,
-filippinerne.um.dk,3,wikidata,embassy of Denmark in the Philippines,central,,
-finlandabroad.fi,3,wikidata,embassy of Finland in the Philippines,central,,
-giz.de,3,wikidata,GIZ Office Manila,,,
-manila.diplo.de,3,wikidata,"Embassy of Germany, Manila",central,,
-manila.mae.ro,3,wikidata,embassy of Romania in the Philippines,central,,
-memanila.org,3,wikidata,"embassy of Myanmar, Manila",,,
-mfa.gr,3,wikidata,embassy of Greece in the Philippines,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in the Philippines,central,,
-nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Manilla",central,,
-norway.no,3,wikidata,"Embassy of Norway, Manila",central,,
-ntfelcac.org,3,wikidata,National Task Force to End Local Communist Armed Conflict,,,
-ph.ambafrance.org,3,wikidata,"Embassy of France, Manila",central,,
-philippines.mid.ru,3,wikidata,"embassy of Russia, Manila",central,,
-sinupan.org,3,wikidata,Sínúpan Singsing,,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Manila",central,,
-web.roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in the Philippines,,,
-wpro.who.int,3,wikidata,World Health Organization (Philippines),,,
-holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,,
+recoletos.ph,7,wikidata;wikidata,Province of Saint Ezequiél Moreno,,HttpTimeoutException: request timed out,1 smtp.google.com.
+chamberphilislands.ph,4,wikidata,Chamber of Commerce of the Philippine Islands,,523,0 _dc-mx.e691bf0e10e1.chamberphilislands.ph.
+depedcalabarzon.ph,4,wikidata,Department of Education Regional Office IV-A,central-1,200,none
+depedmimaroparegion.ph,4,wikidata,Department of Education Mimaropa Regional Office,central-1,200,0 depedmimaroparegion.ph.
+depedncr.com.ph,4,wikidata,Department of Education National Capital Regional Office,central-1,301,none
+depedroxi.ph,4,wikidata,Department of Education Regional Office XI,central-1,200,0 mail.depedroxi.ph.
+divephilippines.com.ph,4,wikidata,Philippine Commission on Sports Scuba Diving,,200,0 mail.divephilippines.com.ph.
+ias.org.ph,4,wikidata,Internal Affairs Service,,302,none
+malikhaingpinoy.ph,4,wikidata,Philippine Creative Industries Development Council,,301,10 mail.malikhaingpinoy.ph.
+manila.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Manila",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Manila",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+newnaia.com.ph,4,wikidata,New NAIA Infrastructure Corporation,,200,0 newnaia-com-ph.mail.protection.outlook.com.
+pagcor.ph,4,wikidata,Philippine Amusement and Gaming Corporation,,301,0 pagcor-ph.mail.protection.outlook.com.; 30 mail.pagcor.ph.; 20 _dc-mx.5e2b8558fc72.pagcor.ph.
+palauembassymanila.ph,4,wikidata,embassy of Palau in the Philippines,central,302,none
+pmdc.com.ph,4,wikidata,Philippine Mining Development Corporation,,403,1 alltheemails.com.
+ppa.com.ph,4,wikidata,Philippine Ports Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 ppa-com-ph.mail.protection.outlook.com.
+seafdec.org.ph,4,wikidata,Southeast Asian Fisheries Development Center Aquaculture Department,,301,10 aspmx.l.google.com.; 30 aspmx4.googlemail.com.; 30 aspmx5.googlemail.com.; 20 alt1.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx3.googlemail.com.
+thaiembassymnl.ph,4,wikidata,"embassy of Thailand, Manila",,301,10 mx2.hostinger.in.th.; 5 mx1.hostinger.in.th.
+asale.org,3,wikidata,Philippine Academy of the Spanish Language,,301,10 asale-org.mail.eo.outlook.com.
+depedro9.info,3,wikidata,Department of Education Regional Office IX,central-1,200,0 _dc-mx.8a742bbf68e0.depedro9.info.
+depedroxii.org,3,wikidata,Department of Education Regional Office XII,central-1,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to the Philippines,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+filippinerne.um.dk,3,wikidata,embassy of Denmark in the Philippines,central,301,none
+finlandabroad.fi,3,wikidata,embassy of Finland in the Philippines,central,301,10 mail.valtori.fi.
+giz.de,3,wikidata,GIZ Office Manila,,301,0 giz-de.mail.protection.outlook.com.
+manila.diplo.de,3,wikidata,"Embassy of Germany, Manila",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+manila.mae.ro,3,wikidata,embassy of Romania in the Philippines,central,503,none
+memanila.org,3,wikidata,"embassy of Myanmar, Manila",,301,0 _dc-mx.0db41b79de7c.memanila.org.
+mfa.gr,3,wikidata,embassy of Greece in the Philippines,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in the Philippines,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Manilla",central,301,0 .
+norway.no,3,wikidata,"Embassy of Norway, Manila",central,301,0 mx.domeneshop.no.
+ntfelcac.org,3,wikidata,National Task Force to End Local Communist Armed Conflict,,403,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 1 smtp.google.com.
+ph.ambafrance.org,3,wikidata,"Embassy of France, Manila",central,301,none
+philippines.mid.ru,3,wikidata,"embassy of Russia, Manila",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sinupan.org,3,wikidata,Sínúpan Singsing,,301,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Manila",central,301,none
+web.roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in the Philippines,,HttpConnectTimeoutException: HTTP connect timed out,none
+wpro.who.int,3,wikidata,World Health Organization (Philippines),,ConnectException,none
+holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none

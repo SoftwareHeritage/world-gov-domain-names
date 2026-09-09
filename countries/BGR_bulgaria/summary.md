@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `egov.bg` |  |  | un_desa;linkgraph | UN/DESA national portal |
-| 10 | `government.bg` | central |  | wikidata;linkgraph | Council of Ministers of Bulgaria |
-| 10 | `parliament.bg` | central |  | wikidata;wikidata;linkgraph | National Assembly of Bulgaria |
-| 8 | `cpdp.bg` | central |  | wikidata;linkgraph | Commission for Personal Data Protection |
-| 7 | `bda.bg` | central |  | wikidata;wikidata | Bulgarian Drug Agency |
-| 7 | `bnb.bg` |  |  | wikidata;wikidata | Bulgarian National Bank |
-| 7 | `cpc.bg` | central |  | wikidata;wikidata | Commission for Protection of Competition |
-| 7 | `dar.bg` | central |  | wikidata;wikidata | State Intelligence Agency |
-| 7 | `dobrich.bg` |  |  | wikidata;wikidata | Dobrich |
-| 7 | `eea.government.bg` | central |  | wikidata;wikidata | Executive Environment Agency |
-| 7 | `egov.government.bg` | central |  | wikidata;wikidata | Ministry of Electronic Government |
-| 7 | `gdbop.bg` |  |  | wikidata;wikidata | General Directorate Combating Organized Crime | Q12276994 |
-| 7 | `gotsedelchev.bg` |  |  | wikidata;wikidata | Gotse Delchev |
-| 7 | `gulyantsi.bg` |  |  | wikidata;wikidata | Gulyantsi |
-| 7 | `iag.bg` | central |  | wikidata;wikidata | Executive Forest Agency |
-| 7 | `justice.government.bg` | central |  | wikidata;wikidata | Ministry of Justice |
-| 7 | `kzp.bg` | central |  | wikidata;linkgraph | Consumer Protection Commission |
-| 7 | `mi.government.bg` | central |  | wikidata;wikidata | Ministry of Economy and Industry |
-| 7 | `midt.bg` | central |  | wikidata;wikidata | Ministry of Innovation and Digital Transformation |
-| 7 | `mig.government.bg` | central |  | wikidata;wikidata | Ministry of Innovation and Growth |
+| 10 | `egov.bg` |  | 302 | un_desa;linkgraph | UN/DESA national portal |
+| 10 | `government.bg` | central | 200 | wikidata;linkgraph | Council of Ministers of Bulgaria |
+| 10 | `parliament.bg` | central | 200 | wikidata;wikidata;linkgraph | National Assembly of Bulgaria |
+| 8 | `cpdp.bg` | central | SSLHandsh... | wikidata;linkgraph | Commission for Personal Data Protection |
+| 7 | `bda.bg` | central | 301 | wikidata;wikidata | Bulgarian Drug Agency |
+| 7 | `bnb.bg` |  | 200 | wikidata;wikidata | Bulgarian National Bank |
+| 7 | `cpc.bg` | central | 403 | wikidata;wikidata | Commission for Protection of Competition |
+| 7 | `dar.bg` | central | 302 | wikidata;wikidata | State Intelligence Agency |
+| 7 | `dobrich.bg` |  | 301 | wikidata;wikidata | Dobrich |
+| 7 | `eea.government.bg` | central | SSLHandsh... | wikidata;wikidata | Executive Environment Agency |
+| 7 | `egov.government.bg` | central | 302 | wikidata;wikidata | Ministry of Electronic Government |
+| 7 | `gdbop.bg` |  | 200 | wikidata;wikidata | General Directorate Combating Organized Crime | Q12276994 |
+| 7 | `gotsedelchev.bg` |  | 301 | wikidata;wikidata | Gotse Delchev |
+| 7 | `gulyantsi.bg` |  | 200 | wikidata;wikidata | Gulyantsi |
+| 7 | `iag.bg` | central | 301 | wikidata;wikidata | Executive Forest Agency |
+| 7 | `justice.government.bg` | central | SSLHandsh... | wikidata;wikidata | Ministry of Justice |
+| 7 | `kzp.bg` | central | 200 | wikidata;linkgraph | Consumer Protection Commission |
+| 7 | `mi.government.bg` | central | 301 | wikidata;wikidata | Ministry of Economy and Industry |
+| 7 | `midt.bg` | central | 200 | wikidata;wikidata | Ministry of Innovation and Digital Transformation |
+| 7 | `mig.government.bg` | central | 301 | wikidata;wikidata | Ministry of Innovation and Growth |
 

@@ -1,11 +1,11 @@
 hostname,score,sources,label,level,http_status,mx
-geagricultura.com,7,wikidata;wikidata,Ministry of Agriculture and Forestry,central,,
-dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,,
-piaristesafriquecentrale.org,6,wikidata;wikidata,Piarist province of Central Africa,,,
-ghanaembassy-equatorialguinea.com,4,wikidata,embassy of Ghana in Equatorial Guinea,central,,
-aegle.gq,3,wikidata,Academia Ecuatoguineana de la Lengua Española,,,
-gq.ambafrance.org,3,wikidata,"Embassy of France, Malabo",central,,
-gq.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Malabo",central,,
-inege.gq,3,wikidata,Instituto Nacional de Estadística de Guinea Ecuatorial,central,,
-mae-ge.org,3,wikidata,Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea,,,
-senado-gq.org,3,wikidata,Senate of Equatorial Guinea,central,,
+geagricultura.com,7,wikidata;wikidata,Ministry of Agriculture and Forestry,central,ConnectException,none
+dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
+piaristesafriquecentrale.org,6,wikidata;wikidata,Piarist province of Central Africa,,ConnectException,none
+ghanaembassy-equatorialguinea.com,4,wikidata,embassy of Ghana in Equatorial Guinea,central,ConnectException,none
+aegle.gq,3,wikidata,Academia Ecuatoguineana de la Lengua Española,,301,none
+gq.ambafrance.org,3,wikidata,"Embassy of France, Malabo",central,301,none
+gq.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Malabo",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gq.chineseembassy.org found.,none
+inege.gq,3,wikidata,Instituto Nacional de Estadística de Guinea Ecuatorial,central,ConnectException,none
+mae-ge.org,3,wikidata,Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea,,301,none
+senado-gq.org,3,wikidata,Senate of Equatorial Guinea,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx00.ionos.es.; 10 mx01.ionos.es.

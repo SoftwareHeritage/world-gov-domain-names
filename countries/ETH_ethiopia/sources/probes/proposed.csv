@@ -1,0 +1,31 @@
+hostname,http_status,mx
+addis-abeba.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+addisabeba.mae.ro,503,none
+au.int,301,0 s1.au.int.
+cehro.org,301,0 cehro.org.
+electionethiopia.org,301,none
+emwa.org.et,200,0 emwa.org.et.
+epaethiopia.org.et,302,dig error
+esog-eth.org,200,20 mail.esog-eth.org.
+et.ambafrance.org,301,none
+et.undp.org,301,none
+ethiondc.org.et,200,0 ethiondc.org.et.
+ethiopia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ethiopianreconciliation.org,ConnectException,none
+etiopien.um.dk,301,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nederlandwereldwijd.nl,301,0 .
+netherlandsworldwide.nl,301,0 .
+norway.no,301,0 mx.domeneshop.no.
+nvi.com.et,301,0 nvi.com.et.
+psi.org.et,200,0 psi.org.et.
+rrs.et,200,0 rrs.et.
+southafricanembassyethiopia.com,301,1200 ghs.google.com.
+swedenabroad.se,301,none
+tourismethiopia.org,HttpConnectTimeoutException: HTTP connect timed out,none
+unionafricainerp.mae.lu,ConnectException,none

@@ -1,0 +1,315 @@
+hostname,http_status,mx
+ac-spm.fr,ConnectException,10 msg-a85.education.gouv.fr.; 10 msg-b85.education.gouv.fr.
+academie-francaise.fr,301,0 academiefrancaise-fr02b.mail.protection.outlook.com.
+academiemarquisienne.com,200,none
+accueil.ccsp.fr,ConnectException,none
+afriquesud.net,ConnectException,none
+ag50pas-guadeloupe.fr,SSLException: (internal_error) Received fatal alert: internal_error,10 mx01.ionos.fr.; 10 mx00.ionos.fr.
+agence.eau-loire-bretagne.fr,302,none
+agence.erasmusplus.fr,200,none
+agencedpc.fr,301,0 agencedpc-fr.mail.protection.outlook.com.
+ageps.aphp.fr,302,0 .
+aixenprovence.fr,200,5 mailhost.mairie-aixenprovence.fr.; 8 mailhost2.mairie-aixenprovence.fr.
+alimh.inra.fr,ConnectException,none
+alpes.cnrs.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
+alsace.cnrs.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx2.cnrs.fr.; 10 mx1.cnrs.fr.
+amb-afg.fr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching amb-afg.fr found.,100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.
+amb-algerie.fr,200,5 ambalgerie-fr0i.mail.protection.outlook.com.
+ambacamparis.org,ConnectException,none
+ambalaos-france.com,302,10 mail.ambalaos-france.com.
+ambardcparis.com,200,none
+ambarimparis.fr,200,1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.
+ambasadat.net,200,none
+ambassade-comores.com,ConnectException,none
+ambassade-du-burundi.fr,301,none
+ambassade-du-soudan.fr,503,5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.; 100 mx3.mail.ovh.net.
+ambassade-vietnam.com,200,10 mx00.ionos.fr.; 10 mx01.ionos.fr.
+ambassadesyrie.fr,200,10 mail.ambassadesyrie.fr.
+ambasseneparis.com,500,none
+ambtchad-paris.org,403,none
+ameli.fr,301,20 assurancemaladiefr.mail.protection.outlook.com.
+amf-france.org,301,5 hermes10.amf-france.org.; 50 hermes20.amf-france.org.
+anciennedouane.fr,301,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
+angers-nantes.inra.fr,ConnectException,0 mx2.relay.renater.fr.; 0 mx1.relay.renater.fr.
+anses.fr,301,120 jerry.adista.fr.; 110 tom.adista.fr.; 10 mailhost.anses.fr.
+aquitaine-poitou-charentes.inserm.fr,ConnectException,none
+arcom.fr,301,50 mx3.arcom.fr.; 10 mx1.arcom.fr.; 10 mx2.arcom.fr.
+assemblee-afe.fr,301,5 mta-gw.infomaniak.ch.
+assemblee-nationale.fr,ConnectException,10 smtp21.assemblee-nationale.fr.; 30 smtp31.assemblee-nationale.fr.
+autorite-concurrence.nc,200,none
+auvergnerhonealpes.fr,302,10 mx02.cloud.vadesecure.com.
+aviesan.fr,IOException: HTTP/1.1 header parser received no bytes,10 ins-mly-fml3.inserm.fr.
+bap.inra.fr,ConnectException,none
+bdi.fr,302,0 bdi-fr.mail.protection.outlook.com.
+bea.aero,200,none
+benin-ambassade.fr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching benin-ambassade.fr found.,1 beninambassade-fr01c.mail.protection.outlook.com.
+bnu.fr,301,3 bnu-fr.mail.eo.outlook.com.
+bordeaux.cour-administrative-appel.fr,200,none
+bordeaux.diplo.de,301,none
+bordeus.consuladoportugal.mne.pt,IOException: EOF reached while reading,none
+bourgognefranchecomte.cci.fr,301,0 bourgognefranchecomte-cci-fr.mail.protection.outlook.com.
+bourgognefranchecomte.fr,200,10 bourgognefranchecomte.in.tmes.trendmicro.eu.
+bretagne.bzh,302,none
+brezhoneg.bzh,301,10 mail.opab.bzh.
+brgm.fr,302,none
+bus-tub.com,301,none
+caf.fr,302,10 mel1.cnaf.fr.; 10 mel2.cnaf.fr.
+calvados.fr,301,20 vade-mx-eu-fallback01.hornetsecurity.com.; 20 vade-mx-eu-fallback02.hornetsecurity.com.; 10 vade-mx-fr01.hornetsecurity.com.; 10 vade-mx-fr02.hornetsecurity.com.
+cavimac.fr,200,5 cavimac-fr.mail.protection.outlook.com.
+ccomptes.fr,301,30 mail3.ccomptes.fr.; 10 mail1.ccomptes.fr.; 40 mail4.ccomptes.fr.; 20 mail2.ccomptes.fr.
+ccsf.fr,200,20 vade-mx-eu-fallback02.hornetsecurity.com.; 10 vade-mx-fr01.hornetsecurity.com.; 20 vade-mx-eu-fallback01.hornetsecurity.com.; 10 vade-mx-fr02.hornetsecurity.com.
+centre-poitou-charentes.cnrs.fr,ConnectException,none
+cerema.fr,301,5 relternet-02.developpement-durable.gouv.fr.; 10 ca.relternet-02.developpement-durable.gouv.fr.; 10 ca.relternet-01.developpement-durable.gouv.fr.; 5 relternet-01.developpement-durable.gouv.fr.; 10 cs.relternet-02.developpement-durable.gouv.fr.; 10 cs.relternet-01.developpement-durable.gouv.fr.
+cert-ist.com,302,none
+cg971.fr,301,5 mail2.cg971.fr.
+cgbresil.org,ConnectException,none
+cgireunion.com,IOException: HTTP/1.1 header parser received no bytes,none
+ciheam.org,HttpTimeoutException: request timed out,none
+cirad.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 antispam.cirad.fr.
+civam.org,301,none
+clermontmetropole.eu,307,none
+cncdh.fr,301,10 smtp2.pm.gouv.fr.; 10 smtp1.pm.gouv.fr.
+cnda.fr,ConnectException,none
+cnil.fr,301,10 mail-premium2.cnil.fr.; 10 mail-premium.cnil.fr.
+cnrgv.toulouse.inra.fr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cnrgv.toulouse.inra.fr found.,none
+cnrgv.toulouse.inrae.fr,200,none
+cnrs.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
+commission-malraux.fr,301,10 mx1.rapidomaine.biz.
+conseil-constitutionnel.fr,301,30 conseil-constitutionnel.mailinblack.com.
+conseil-etat.fr,200,none
+conseil-europe.delegfrance.org,301,none
+conseil-superieur-magistrature.fr,200,10 emix.sdv.fr.
+consmadrun.com,ConnectException,none
+consuladoportugalparis.com,HttpConnectTimeoutException: HTTP connect timed out,none
+consuladordmarsella.com,HttpConnectTimeoutException: HTTP connect timed out,none
+consulat-besancon-algerie.fr,200,5 consulatbesanconalgerie-fr02b1c.mail.protection.outlook.com.
+consulat-bordeaux-algerie.fr,200,5 consulatbordeauxalgerie-fr02b1c.mail.protection.outlook.com.
+consulat-general-tunisie-paris.com,ConnectException,none
+consulat-mali-lyon.fr,200,5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.
+consulat-metz-algerie.fr,200,5 consulatmetzalgerie-fr02bc.mail.protection.outlook.com.
+consulat-strasbourg-algerie.fr,200,5 consulatstrasbourgalgerie-fr02b1i.mail.protection.outlook.com.
+consulat.indonesie.pagesperso-orange.fr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consulat.indonesie.pagesperso-orange.fr found.,none
+consulatalgerie-lyon.org,HttpConnectTimeoutException: HTTP connect timed out,none
+consulatalgerie-paris.org,HttpConnectTimeoutException: HTTP connect timed out,none
+consulatalgerielille.org,HttpConnectTimeoutException: HTTP connect timed out,none
+consulatchine-strasbourg.org,HttpConnectTimeoutException: HTTP connect timed out,none
+consulatcolombie.com,HttpConnectTimeoutException: HTTP connect timed out,0 consulatcolombie-com.mail.protection.outlook.com.
+consulatdumalienfrance.fr,200,10 mx1.mail.ovh.net.; 20 mx2.mail.ovh.net.; 40 mx4.mail.ovh.net.; 1 mx0.mail.ovh.net.; 30 mx3.mail.ovh.net.
+consulatmaroclyon.com,HttpConnectTimeoutException: HTTP connect timed out,none
+consulatmarocstrasbourg.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+consulmada-marseille.com,HttpConnectTimeoutException: HTTP connect timed out,none
+consulsen-paris.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.consulsen-paris.fr.
+consulsenbordeaux.com,HttpConnectTimeoutException: HTTP connect timed out,none
+corse.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+cote-azur.cnrs.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 graal.dr20.cnrs.fr.
+courdecassation.fr,200,20 hkgmail1.hk.publicisgroupe.net.; 5 parmail1.fr.publicisgroupe.net.; 10 chimail1.us.publicisgroupe.net.
+cours-appel.justice.fr,ConnectException,none
+cpmr-atlantic.org,HttpConnectTimeoutException: HTTP connect timed out,none
+ctguyane.fr,301,10 ctguyane-fr.mail.protection.outlook.com.
+dafa-afgh.org,301,0 mail.dafa-afgh.org.
+dgdr.cnrs.fr,200,none
+douai.cour-administrative-appel.fr,200,none
+dr17.cnrs.fr,ConnectException,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
+dr18.cnrs.fr,ConnectException,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
+dr19.cnrs.fr,ConnectException,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
+dr7.cnrs.fr,ConnectException,0 pmg.dr7.cnrs.fr.; 10 cismrelais.univ-lyon1.fr.; 20 pop.univ-lyon1.fr.
+drt-cea.com,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+efpa.inra.fr,ConnectException,none
+eglise.catholique.fr,200,0 eglise-catholique-fr.mail.protection.outlook.com.
+elysee.fr,301,10 mail0.elysee.fr.; 10 mail10.elysee.fr.
+embajadadominicanaenfrancia.com,HttpConnectTimeoutException: HTTP connect timed out,none
+embassyofnamibia.fr,200,10 mail.embassyofnamibia.fr.
+emboliviafrancia.fr,301,40 mx4.mail.ovh.net.; 1 mx0.mail.ovh.net.; 20 mx2.mail.ovh.net.; 30 mx3.mail.ovh.net.; 10 mx1.mail.ovh.net.
+english.inserm.fr,ConnectException,none
+esa.int,301,10 esa-int.mail.protection.outlook.com.
+esan.eus,HttpConnectTimeoutException: HTTP connect timed out,none
+escolapiesinstitutions.org,ConnectException,none
+eurogendfor.org,HttpConnectTimeoutException: HTTP connect timed out,none
+europaraadet.um.dk,301,none
+euskaltzaindia.eus,301,1 euskaltzaindia-eus.mail.protection.outlook.com.
+exteriors.ad,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+finlandabroad.fi,301,none
+fr.diplomatie.ma,HttpConnectTimeoutException: HTTP connect timed out,none
+fr.mfa.lt,HttpConnectTimeoutException: HTTP connect timed out,none
+france-education-international.fr,200,10 franceeducationinternational-fr01e2b.mail.protection.outlook.com.
+france.ambassadetogo.org,200,none
+france.fr,301,0 france-fr.mail.protection.outlook.com.
+france.mfa.am,301,none
+france.mid.ru,HttpConnectTimeoutException: HTTP connect timed out,none
+france.representation.ec.europa.eu,302,none
+franceagrimer.fr,ConnectException,10 srmrs1.franceagrimer.fr.; 10 srmrs2.franceagrimer.fr.
+franceclat.fr,200,1 franceclat-fr.mail.protection.outlook.com.
+francetravail.fr,301,10 mx2.hc1819-26.eu.iphmx.com.; 10 mx1.hc1819-26.eu.iphmx.com.
+francia.consuladovenezuela.org,200,none
+francoallemand.com,302,0 francoallemand-com.mail.protection.outlook.com.
+frankrig.um.dk,301,none
+gouv.nc,200,10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.
+gouv.qc.ca,ConnectException,10 gouv-qc-ca.mail.protection.outlook.com.
+gouvernement.fr,301,none
+grand-est.inserm.fr,ConnectException,none
+grand-ouest.inserm.fr,ConnectException,none
+grandest.fr,SSLHandshakeException: Remote host terminated the handshake,1 grandest-fr.mail.protection.outlook.com.
+grandparisamenagement.fr,308,0 grandparisamenagement-fr.mail.protection.outlook.com.
+guadeloupe.ars.sante.fr,301,none
+guadeloupe.tribunal-administratif.fr,200,none
+guyane.tribunal-administratif.fr,200,none
+hautenormandie.fr,HttpConnectTimeoutException: HTTP connect timed out,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
+hautsdefrance.cci.fr,HttpConnectTimeoutException: HTTP connect timed out,10 hautsdefrance-cci-fr.mail.protection.outlook.com.
+hautsdefrance.fr,HttpConnectTimeoutException: HTTP connect timed out,10 mxa.hautsdefrance.fr.; 10 mxl.hautsdefrance.fr.
+health-data-hub.fr,HttpConnectTimeoutException: HTTP connect timed out,10 ASPMX2.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+hegodeveza.com,IOException: Received RST_STREAM: Protocol error,none
+heronax.com,200,1 mx1.mail.ovh.net.; 0 heronax-com.mail.protection.outlook.com.; 5 mx2.mail.ovh.net.; 32767 ms73296462.msv1.invalid.; 100 mx3.mail.ovh.net.
+ibisa.net,HttpConnectTimeoutException: HTTP connect timed out,none
+iccwbo.org,200,10 iccwbo-org.mail.protection.outlook.com.
+ich.unesco.org,302,none
+idf.inserm.fr,ConnectException,none
+ieom.fr,HttpConnectTimeoutException: HTTP connect timed out,10 mail.ieom.fr.
+ifsttar.fr,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.relay.renater.fr.; 10 mx2.relay.renater.fr.
+ign.fr,HttpConnectTimeoutException: HTTP connect timed out,5 ign-fr.mail.protection.outlook.com.
+ihemi.fr,301,50 g54.altospam.net.; 10 j10.altospam.com.
+iledefrance-gif.cnrs.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+iledefrance-meudon.cnrs.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+iledefrance-villejuif.cnrs.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+iledefrance.fr,301,20 granit2.iledefrance.fr.; 10 granit1.iledefrance.fr.; 100 smtp3.sfrbusinessteam.fr.
+illevia.bzh,301,none
+in2p3.cnrs.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+inpi.fr,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.inpi.fr.; 100 mail6.inpi.fr.; 100 mail5.inpi.fr.; 100 mail3.inpi.fr.; 100 mail4.inpi.fr.; 10 mail2.inpi.fr.
+inrae.fr,301,none
+inserm.fr,301,20 ins-mly-a317-fml1.inserm.fr.; 10 ins-par6-b11-fml1.inserm.fr.
+institutfrancais.com,301,none
+instytutpolski.pl,IOException: Received RST_STREAM: Internal error,none
+interpol.int,HttpConnectTimeoutException: HTTP connect timed out,none
+isee.nc,HttpConnectTimeoutException: HTTP connect timed out,none
+ispf.pf,HttpConnectTimeoutException: HTTP connect timed out,none
+jesuites.com,301,10 jesuites-com.mail.protection.outlook.com.
+jsp-saintmauricedebeynost.com,301,none
+justice.fr,HttpConnectTimeoutException: HTTP connect timed out,5 mx02.m24.pfai.din.gouv.fr.; 5 mx01.m24.pfai.din.gouv.fr.; 5 mx04.m24.pfai.din.gouv.fr.; 5 mx03.m24.pfai.din.gouv.fr.
+kenyaembassyparis.fr,200,0 kenyaembassyparis.fr.
+la-reunion.tribunal-administratif.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+ladom.fr,HttpConnectTimeoutException: HTTP connect timed out,0 ladom-fr.mail.protection.outlook.com.
+languedoc-roussillon.inserm.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+lassuranceretraite.fr,HttpConnectTimeoutException: HTTP connect timed out,5 mx2.hc898-42.eu.iphmx.com.; 5 mx1.hc898-42.eu.iphmx.com.
+locongres.org,200,120 mxb.ovh.net.; 5 mx2.ovh.net.; 1 mx1.ovh.net.
+lurraldea.net,HttpConnectTimeoutException: HTTP connect timed out,none
+lyo.econsulat.tn,HttpConnectTimeoutException: HTTP connect timed out,none
+lyon.china-consulate.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching lyon.china-consulate.org found.,none
+lyon.cour-administrative-appel.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+lyon.diplo.de,301,none
+lyon.mae.ro,503,none
+maec.es,HttpConnectTimeoutException: HTTP connect timed out,10 smtp5.maec.es.
+marseille.china-consulate.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching marseille.china-consulate.org found.,none
+marseille.cour-administrative-appel.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+marseille.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+marseille.europarl.europa.eu,302,none
+marseille.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+marsilia.mae.ro,503,none
+martinique.tribunal-administratif.fr,200,none
+mauritius-paris.govmu.org,302,none
+meparis.org,301,none
+meteofrance.com,HttpConnectTimeoutException: HTTP connect timed out,none
+meteofrance.fr,200,50 mx.customizedurl.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mfa.tj,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mia.inra.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+mica.inra.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+misiones.cubaminrex.cu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+montpellier.cci.fr,301,10 montpellier-cci-fr.mail.protection.outlook.com.
+montreuil.tribunal-administratif.fr,200,none
+mzv.sk,301,none
+nancy.cour-administrative-appel.fr,200,none
+nantes.cour-administrative-appel.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+naturefrance.fr,200,10 mail.brgm.fr.; 50 mail2.brgm.fr.
+nimes.tribunal-administratif.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+nord-ouest.inserm.fr,ConnectException,none
+normandie.cci.fr,HttpConnectTimeoutException: HTTP connect timed out,10 mx.normandie.cci.fr.; 0 mx.normandie.cci.fr.
+norway.no,301,none
+nouvelle-aquitaine.fr,302,0 mx1.nouvelle-aquitaine.pro.; 0 mx3.nouvelle-aquitaine.pro.; 0 mx2.nouvelle-aquitaine.pro.
+nouvelle-caledonie.tribunal-administratif.fr,200,none
+nzembassy.com,ConnectException,none
+ocde.delegfrance.org,301,none
+onera.fr,301,0 emix.onera.fr.
+onu-geneve.delegfrance.org,301,none
+onu-rome.delegfrance.org,301,none
+oplcat.eu,200,1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.
+oqai.fr,301,10 cstb-fr.in.tmes.trendmicro.eu.
+orientalement.com,301,100 mxb.ovh.net.; 1 mx3.ovh.net.; 5 mx4.ovh.net.
+otc.corsica,200,none
+ouzbekistan.fr,200,10 s13597.fra1.stableserver.net.
+paca.inserm.fr,ConnectException,none
+paris-centre.cnrs.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+paris-conciergerie.fr,ConnectException,none
+paris-normandie.cnrs.fr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+paris-oecd.diplo.de,200,none
+paris.cour-administrative-appel.fr,200,none
+paris.embassy.mn,200,none
+paris.europarl.europa.eu,302,none
+paris.fr,301,10 mx2.hc2479-79.eu.iphmx.com.; 10 mx1.hc2479-79.eu.iphmx.com.
+paris.mae.ro,503,none
+paris.mofa.go.ug,200,none
+parlement.fr,ConnectException,30 smtp31.assemblee-nationale.fr.; 10 smtp21.assemblee-nationale.fr.
+partnaire.fr,HttpConnectTimeoutException: HTTP connect timed out,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
+patstec.fr,301,10 mail.patstec.fr.
+paysbasetvous.nl,301,0 .
+paysdelaloire.fr,301,5 mx1.paysdelaloire.fr.
+phase.inra.fr,ConnectException,none
+polynesie-francaise.tribunal-administratif.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+port-rhenan-colmar.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+pro.ovh.net,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pro.ovh.net found.,1 pro.ovh.net.
+provence-corse.cnrs.fr,HttpConnectTimeoutException: HTTP connect timed out,10 tressan.cnrs-mrs.fr.
+regionpaca.fr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching regionpaca.fr found.,none
+regionreunion.com,200,none
+remi-centrevaldeloire.fr,308,10 relay-mx2.ecritel.net.
+rennes.inra.fr,ConnectException,0 mx2.relay.renater.fr.; 0 mx1.relay.renater.fr.
+rennes.tribunal-administratif.fr,200,none
+reseaumistral.com,HttpConnectTimeoutException: HTTP connect timed out,none
+reunion-sdn.china-consulate.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching reunion-sdn.china-consulate.org found.,none
+rhone-alpes-auvergne.inserm.fr,ConnectException,none
+roc-taiwan.org,302,none
+rouen.fr,200,10 vade-mx-fr02.hornetsecurity.com.; 20 vade-mx-eu-fallback02.hornetsecurity.com.; 20 vade-mx-eu-fallback01.hornetsecurity.com.; 10 vade-mx-fr01.hornetsecurity.com.
+rta02.com,301,none
+sa.inra.fr,ConnectException,none
+sad.inra.fr,ConnectException,none
+sae2.inra.fr,ConnectException,none
+saint-martin.tribunal-administratif.fr,200,none
+saint-pierre-et-miquelon.tribunal-administratif.fr,200,none
+secomunidades.pt,HttpConnectTimeoutException: HTTP connect timed out,none
+senat.fr,301,5 mail2.senat.fr.; 5 mail1.senat.fr.
+senconsulatmarseille.com,IOException: Received RST_STREAM: Protocol error,none
+service-public.fr,301,20 relay2-c.dila.fr.; 10 relay1-c.dila.fr.
+service-public.pf,302,10 services1.gov.pf.; 5 services2.gov.pf.
+spe.inra.fr,301,none
+strasbourg.mae.lu,302,none
+strasbourg.mae.ro,503,none
+strasbourg.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+strasbourg.representation.si,SSLHandshakeException: Remote host terminated the handshake,none
+strasbourg.tribunal-administratif.fr,200,none
+strassburg-europarat.diplo.de,200,none
+strassburg.diplo.de,301,none
+supplay.fr,301,0 supplay-fr.mail.protection.outlook.com.
+swedenabroad.se,301,none
+synergie.fr,301,0 de-smtp-inbound-2.mimecast.com.; 0 de-smtp-inbound-1.mimecast.com.
+tae-paris.org,301,none
+tcl.fr,301,0 tcl-fr.mail.protection.outlook.com.
+temporis-franchise.fr,ConnectException: Host is unreachable,10 valoris-co-prod-mail1.nfrance.net.
+temporis.ca,200,none
+titss-cntss.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+toulouse.tribunal-administratif.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+tours.fr,HttpConnectTimeoutException: HTTP connect timed out,0 smtp.tours-metropole.fr.
+tribunal-conflits.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+tribunal-de-paris.justice.fr,ConnectException,none
+tribunal-stationnement-payant.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+txiktxak.fr,HttpConnectTimeoutException: HTTP connect timed out,5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.; 100 mx3.mail.ovh.net.
+u-bordeaux.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+ugcb.net,200,none
+um.dk,200,none
+umifre.fr,ConnectException,100 zimbra.cid.msh-paris.fr.; 50 merak.msh-paris.fr.
+unesco.delegfrance.org,301,none
+unesco.diplo.de,200,none
+unesco.um.dk,301,none
+urba2000.com,301,5 mta-gw.infomaniak.ch.
+urssaf.fr,HttpConnectTimeoutException: HTTP connect timed out,10 mx11.urssaf.fr.; 20 mx71.urssaf.fr.; 10 mx61.urssaf.fr.; 10 mx51.urssaf.fr.; 10 mx41.urssaf.fr.; 10 mx31.urssaf.fr.; 10 mx21.urssaf.fr.; 20 mx81.urssaf.fr.; 20 mx91.urssaf.fr.
+versailles.cour-administrative-appel.fr,HttpConnectTimeoutException: HTTP connect timed out,none
+vie-publique.fr,200,10 relay1-c.dila.fr.; 20 relay2-c.dila.fr.
+wallis-et-futuna.tribunal-administratif.fr,200,none
+who.int,301,none

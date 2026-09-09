@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `parlamento.ao` | central |  | wikidata;wikidata | National Assembly of Angola |
-| 7 | `minjud.gv.ao` | central |  | wikidata;wikidata | Ministry of Youth and Sports |
-| 6 | `franciscanos.org.br` |  |  | wikidata;wikidata | Q10354750 |
-| 6 | `tribunalconstitucional.ao` |  |  | wikidata | Constitutional Court of Angola |
-| 4 | `bna.ao` |  |  | wikidata | National Bank of Angola |
-| 4 | `luanda.mfa.gov.hu` | central |  | wikidata | Embassy of Hungary to Luanda |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Luanda |
-| 4 | `trluanda.ao` |  |  | wikidata | Q131156237 |
-| 3 | `angola.mid.ru` | central |  | wikidata | embassy of Russia in Angola |
-| 3 | `ao.ambafrance.org` | central |  | wikidata | Embassy of France, Luanda |
-| 3 | `ao.chineseembassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Luanda |
-| 3 | `cisacaxito.org` |  |  | wikidata | Centro de Investigação em Saúde de Angola |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Angola |
-| 3 | `embaixada-de-cabo-verde-em-angola.odoo.com` | central |  | wikidata | Embassy of Cape Verde, Luanda |
-| 3 | `ghanaembassy-angola.com` | central |  | wikidata | embassy of Ghana in Angola |
-| 3 | `kenyaembassyangola.com` | central |  | wikidata | Embassy of Kenya, Luanda |
-| 3 | `luanda.diplo.de` | central |  | wikidata | Embassy of Germany, Luanda |
-| 3 | `luanda.mae.ro` | central |  | wikidata | embassy of Romania in Angola |
-| 3 | `nationallibraryofangola.org` |  |  | wikidata | National Library of Angola |
-| 3 | `norway.no` | central |  | wikidata | Embassy of Norway, Luanda |
+| 8 | `parlamento.ao` | central | 200 | wikidata;wikidata | National Assembly of Angola |
+| 7 | `minjud.gv.ao` | central | HttpConne... | wikidata;wikidata | Ministry of Youth and Sports |
+| 6 | `franciscanos.org.br` |  | ConnectEx... | wikidata;wikidata | Q10354750 |
+| 6 | `tribunalconstitucional.ao` |  | 200 | wikidata | Constitutional Court of Angola |
+| 4 | `bna.ao` |  | 200 | wikidata | National Bank of Angola |
+| 4 | `luanda.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary to Luanda |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Luanda |
+| 4 | `trluanda.ao` |  | 200 | wikidata | Q131156237 |
+| 3 | `angola.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Angola |
+| 3 | `ao.ambafrance.org` | central | 301 | wikidata | Embassy of France, Luanda |
+| 3 | `ao.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Luanda |
+| 3 | `cisacaxito.org` |  | SSLHandsh... | wikidata | Centro de Investigação em Saúde de Angola |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Angola |
+| 3 | `embaixada-de-cabo-verde-em-angola.odoo.com` | central | 200 | wikidata | Embassy of Cape Verde, Luanda |
+| 3 | `ghanaembassy-angola.com` | central | ConnectEx... | wikidata | embassy of Ghana in Angola |
+| 3 | `kenyaembassyangola.com` | central | 200 | wikidata | Embassy of Kenya, Luanda |
+| 3 | `luanda.diplo.de` | central | 200 | wikidata | Embassy of Germany, Luanda |
+| 3 | `luanda.mae.ro` | central | 503 | wikidata | embassy of Romania in Angola |
+| 3 | `nationallibraryofangola.org` |  | 200 | wikidata | National Library of Angola |
+| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway, Luanda |
 

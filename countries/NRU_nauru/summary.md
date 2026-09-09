@@ -35,5 +35,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `naurugov.nr` | central |  | un_desa;wikidata;wikidata | Parliament of Nauru | UN/DESA national portal |
+| 10 | `naurugov.nr` | central | ConnectEx... | un_desa;wikidata;wikidata | Parliament of Nauru | UN/DESA national portal |
 

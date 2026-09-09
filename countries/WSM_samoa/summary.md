@@ -35,7 +35,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `palemene.ws` | central |  | wikidata;wikidata | Legislative Assembly of Samoa |
-| 6 | `samoagovt.ws` |  |  | un_desa | UN/DESA national portal |
-| 3 | `samoashipping.com` |  |  | wikidata | Samoa Shipping Corporation |
+| 7 | `palemene.ws` | central | 200 | wikidata;wikidata | Legislative Assembly of Samoa |
+| 6 | `samoagovt.ws` |  | 307 | un_desa | UN/DESA national portal |
+| 3 | `samoashipping.com` |  | 200 | wikidata | Samoa Shipping Corporation |
 

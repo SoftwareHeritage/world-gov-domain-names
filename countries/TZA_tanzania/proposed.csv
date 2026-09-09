@@ -1,20 +1,20 @@
 hostname,score,sources,label,level,http_status,mx
-costech.or.tz,7,wikidata;wikidata,Animal Diseases Research Institute | Tanzania Commission for Science and Technology,,,
-cedha.ac.tz,4,wikidata,Centre for Educational Development in Health Arusha,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dar es Salam",central,,
-nemc.or.tz,4,wikidata,National Environment Management Council,,,
-temdo.or.tz,4,wikidata,Tanzania Engineering and Manufacturing Design Organization,,,
-tlsb.or.tz,4,wikidata,Tanzania Library Services Board,,,
-bot-tz.org,3,wikidata,Bank of Tanzania,,,
-daressalam.diplo.de,3,wikidata,"Embassy of Germany, Dar es Salaam",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Tanzania,,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Tanzania,central,,
-norway.no,3,wikidata,"Embassy of Norway, Dar es Salaam",central,,
-pastoralwomenscouncil.org,3,wikidata,Pastoral Women's Council,,,
-seamic.org,3,wikidata,African Minerals and Geosciences Centre,,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Dar es Salaam",central,,
-tafiri.weebly.com,3,wikidata,Tanzania Fisheries Research Institute,,,
-tanzania.mid.ru,3,wikidata,"Embassy of Russia, Dar es Salaam",central,,
-tanzania.um.dk,3,wikidata,embassy of Denmark in Tanzania,central,,
-tz.ambafrance.org,3,wikidata,"Embassy of France, Dar es Salaam",central,,
-tz.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Dar es Salaam",central,,
+costech.or.tz,7,wikidata;wikidata,Animal Diseases Research Institute | Tanzania Commission for Science and Technology,,200,10 mx6.eganet.go.tz.
+cedha.ac.tz,4,wikidata,Centre for Educational Development in Health Arusha,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cedha.ac.tz found.,10 mx4.eganet.go.tz.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dar es Salam",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nemc.or.tz,4,wikidata,National Environment Management Council,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nemc.or.tz found.,10 mx6.eganet.go.tz.
+temdo.or.tz,4,wikidata,Tanzania Engineering and Manufacturing Design Organization,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching temdo.or.tz found.,10 mx3.eganet.go.tz.
+tlsb.or.tz,4,wikidata,Tanzania Library Services Board,,ConnectException,none
+bot-tz.org,3,wikidata,Bank of Tanzania,,HttpConnectTimeoutException: HTTP connect timed out,none
+daressalam.diplo.de,3,wikidata,"Embassy of Germany, Dar es Salaam",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Tanzania,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,embassy of Finland in Tanzania,central,301,10 mail.valtori.fi.
+norway.no,3,wikidata,"Embassy of Norway, Dar es Salaam",central,301,0 mx.domeneshop.no.
+pastoralwomenscouncil.org,3,wikidata,Pastoral Women's Council,,200,0 pastoralwomenscouncil.org.
+seamic.org,3,wikidata,African Minerals and Geosciences Centre,,200,10 mx001.netsol.xion.oxcs.net.; 10 mx002.netsol.xion.oxcs.net.; 10 mx004.netsol.xion.oxcs.net.; 10 mx003.netsol.xion.oxcs.net.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Dar es Salaam",central,301,none
+tafiri.weebly.com,3,wikidata,Tanzania Fisheries Research Institute,,404,none
+tanzania.mid.ru,3,wikidata,"Embassy of Russia, Dar es Salaam",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tanzania.um.dk,3,wikidata,embassy of Denmark in Tanzania,central,301,none
+tz.ambafrance.org,3,wikidata,"Embassy of France, Dar es Salaam",central,301,none
+tz.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Dar es Salaam",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching tz.china-embassy.org found.,none

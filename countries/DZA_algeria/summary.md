@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `ansej.org.dz` | central |  | wikidata;wikidata | Agence nationale de soutien à l'emploi des jeunes |
-| 7 | `dgf.org.dz` |  |  | wikidata;wikidata | Q25386281 | Q25387129 |
-| 7 | `dgsn.dz` | central |  | wikidata;wikidata;wikidata;wikidata;wikidata | Algerian police | General Directorate of National Security |
-| 7 | `elmadjlis-hci.dz` |  |  | wikidata;wikidata | Supreme Islamic Council of Algeria |
-| 7 | `m-moudjahidine.dz` | central |  | wikidata;wikidata | Ministry of Mujahidin |
-| 7 | `mdn.dz` | central |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of National Defense (Algeria) | État-major de l'armée algérienne | N... |
-| 7 | `mesrs.dz` | central |  | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
-| 7 | `mptic.dz` | central |  | wikidata;wikidata | Ministry of Post and Telecommunications |
-| 7 | `ogebc.dz` |  |  | wikidata;wikidata | Q92324509 |
-| 7 | `sante.dz` |  |  | wikidata;wikidata | Ministère de la Santé |
-| 6 | `apn-dz.org` | central |  | wikidata;wikidata | Parliament of Algeria |
-| 6 | `coursupreme.dz` | central |  | wikidata | Supreme Court of Algeria |
-| 6 | `el-mouradia.dz` |  |  | un_desa | UN/DESA national portal |
-| 6 | `wikidata.org` | central |  | wikidata;wikidata | Ministry of Agriculture and Rural Development |
-| 4 | `abhcsm.dz` |  |  | wikidata | Agence de Bassin Hydrographique Constantinois-Seybousse-Mellegue |
-| 4 | `alnaft.dz` |  |  | wikidata | National agency for the valorization of hydrocarbon resource |
-| 4 | `anem.dz` |  |  | wikidata | National Employment Agency |
-| 4 | `anvredet.org.dz` |  |  | wikidata | Anvredet |
-| 4 | `apn.dz` | central |  | wikidata | People's National Assembly |
-| 4 | `archives-can.dz` |  |  | wikidata | Algerian National Archives |
+| 7 | `ansej.org.dz` | central | HttpConne... | wikidata;wikidata | Agence nationale de soutien à l'emploi des jeunes |
+| 7 | `dgf.org.dz` |  | HttpConne... | wikidata;wikidata | Q25386281 | Q25387129 |
+| 7 | `dgsn.dz` | central | ConnectEx... | wikidata;wikidata;wikidata;wikidata;wikidata | Algerian police | General Directorate of National Security |
+| 7 | `elmadjlis-hci.dz` |  | 301 | wikidata;wikidata | Supreme Islamic Council of Algeria |
+| 7 | `m-moudjahidine.dz` | central | SSLHandsh... | wikidata;wikidata | Ministry of Mujahidin |
+| 7 | `mdn.dz` | central | ConnectEx... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of National Defense (Algeria) | État-major de l'armée algérienne | N... |
+| 7 | `mesrs.dz` | central | ConnectEx... | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
+| 7 | `mptic.dz` | central | ConnectEx... | wikidata;wikidata | Ministry of Post and Telecommunications |
+| 7 | `ogebc.dz` |  | 200 | wikidata;wikidata | Q92324509 |
+| 7 | `sante.dz` |  | HttpConne... | wikidata;wikidata | Ministère de la Santé |
+| 6 | `apn-dz.org` | central | 200 | wikidata;wikidata | Parliament of Algeria |
+| 6 | `coursupreme.dz` | central | 200 | wikidata | Supreme Court of Algeria |
+| 6 | `el-mouradia.dz` |  | HttpConne... | un_desa | UN/DESA national portal |
+| 6 | `wikidata.org` | central | 301 | wikidata;wikidata | Ministry of Agriculture and Rural Development |
+| 4 | `abhcsm.dz` |  | SSLHandsh... | wikidata | Agence de Bassin Hydrographique Constantinois-Seybousse-Mellegue |
+| 4 | `alnaft.dz` |  | ConnectEx... | wikidata | National agency for the valorization of hydrocarbon resource |
+| 4 | `anem.dz` |  | ConnectEx... | wikidata | National Employment Agency |
+| 4 | `anvredet.org.dz` |  | 200 | wikidata | Anvredet |
+| 4 | `apn.dz` | central | 200 | wikidata | People's National Assembly |
+| 4 | `archives-can.dz` |  | 200 | wikidata | Algerian National Archives |
 

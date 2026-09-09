@@ -35,9 +35,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `moeskn.org` | central |  | wikidata;wikidata | Ministry of Education |
-| 4 | `nema.kn` |  |  | wikidata | National Emergency Management Agency of Saint Kitts and Nevis |
-| 3 | `eccb-centralbank.org` |  |  | wikidata | Eastern Caribbean Central Bank |
-| 3 | `sknbs.org` |  |  | wikidata | Saint Kitts and Nevis Bureau of Standards |
-| 3 | `taiwanembassy.org` | central |  | wikidata | Embassy of the Republic of China (Taiwan), Basseterre |
+| 6 | `moeskn.org` | central | 200 | wikidata;wikidata | Ministry of Education |
+| 4 | `nema.kn` |  | 200 | wikidata | National Emergency Management Agency of Saint Kitts and Nevis |
+| 3 | `eccb-centralbank.org` |  | ConnectEx... | wikidata | Eastern Caribbean Central Bank |
+| 3 | `sknbs.org` |  | 200 | wikidata | Saint Kitts and Nevis Bureau of Standards |
+| 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Basseterre |
 

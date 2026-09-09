@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
-assemblee-nationale.td,7,wikidata;wikidata,National Assembly,central,,
-onecs.td,7,wikidata;wikidata,Q129709968,,,
-eeas.europa.eu,6,wikidata;wikidata,Delegation of the European Union to Chad,,,
-gouvernement.td,6,un_desa,UN/DESA national portal,,,
-minjustchad.org,6,wikidata;wikidata,Ministry of Justice,central,,
-adetic.td,4,wikidata,Agency for the Development of Information and Communication Technologies,,,
-cndh.td,4,wikidata,National Human Rights Commission (Tchad),,,
-conseilconstitutionnel.td,4,wikidata,Constitutional Council of Chad,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, N'Djamena",central,,
-hamatchad.org,3,wikidata,Q65157984,,,
-inseed-tchad.org,3,wikidata,INSEED,central,,
-inseedtchad.com,3,wikidata,INSEED,central,,
-ndjamena.diplo.de,3,wikidata,"Embassy of Germany, N'Djamena",central,,
-tchad.mid.ru,3,wikidata,embassy of Russia in Chad,central,,
-td.ambafrance.org,3,wikidata,"Embassy of France, N'Djamena",central,,
+assemblee-nationale.td,7,wikidata;wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,none
+onecs.td,7,wikidata;wikidata,Q129709968,,HttpTimeoutException: request timed out,1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.
+eeas.europa.eu,6,wikidata;wikidata,Delegation of the European Union to Chad,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+gouvernement.td,6,un_desa,UN/DESA national portal,,ConnectException,none
+minjustchad.org,6,wikidata;wikidata,Ministry of Justice,central,ConnectException,none
+adetic.td,4,wikidata,Agency for the Development of Information and Communication Technologies,,200,0 mail.adetic.td.
+cndh.td,4,wikidata,National Human Rights Commission (Tchad),,301,0 cndh-td.mail.protection.outlook.com.
+conseilconstitutionnel.td,4,wikidata,Constitutional Council of Chad,,ConnectException,none
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, N'Djamena",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+hamatchad.org,3,wikidata,Q65157984,,301,none
+inseed-tchad.org,3,wikidata,INSEED,central,HttpConnectTimeoutException: HTTP connect timed out,none
+inseedtchad.com,3,wikidata,INSEED,central,HttpConnectTimeoutException: HTTP connect timed out,none
+ndjamena.diplo.de,3,wikidata,"Embassy of Germany, N'Djamena",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+tchad.mid.ru,3,wikidata,embassy of Russia in Chad,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+td.ambafrance.org,3,wikidata,"Embassy of France, N'Djamena",central,301,none

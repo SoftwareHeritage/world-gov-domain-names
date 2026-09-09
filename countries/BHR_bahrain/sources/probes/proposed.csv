@@ -1,0 +1,18 @@
+hostname,http_status,mx
+bahrain.bh,301,10 inbound-smtp.eu-west-1.amazonaws.com.
+bahrain.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bahrainedb.com,405,20 mailrelaya2.bahrainedb.com.; 0 bahrainedb-com.mail.protection.outlook.com.; 10 mailrelaya1.bahrainedb.com.
+bapcoenergies.com,302,0 bapcoenergies-com.mail.protection.outlook.com.
+bh.ambafrance.org,301,none
+bh.mofa.pna.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bna.bh,405,none
+btea.bh,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching btea.bh found.,0 btea-bh.mail.protection.outlook.com.
+lmra.bh,HttpConnectTimeoutException: HTTP connect timed out,none
+manama.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+mumtalakat.bh,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
+nuwab.bh,ConnectException,0 nuwab-bh.mail.protection.outlook.com.
+qaa.edu.bh,HttpConnectTimeoutException: HTTP connect timed out,20 qaa-edu-bh.mail.protection.outlook.com.
+sjc.bh,HttpConnectTimeoutException: HTTP connect timed out,0 sjc-bh.mail.protection.outlook.com.
+sp.mofaic.gov.ae,ConnectException,none
+sudanimanama.com,ConnectException,none
+tra.org.bh,403,10 tra-org-bh.mail.protection.outlook.com.

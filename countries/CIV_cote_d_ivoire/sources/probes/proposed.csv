@@ -1,0 +1,25 @@
+hostname,http_status,mx
+abidjan.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+afor.ci,200,0 afor-ci.mail.protection.outlook.com.
+artci.ci,200,0 artci-ci.mail.protection.outlook.com.
+assnat.ci,200,5 mx1.assnat.ci.; 10 mx3.assnat.ci.; 10 mx4.assnat.ci.
+bceao.int,ConnectException,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+ceici.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ceici.org found.,none
+ci.ambafrance.org,301,none
+cnra.ci,200,10 zmx01.cloud4africa.net.; 20 zmx02.cloud4africa.net.
+conseil-constitutionnel.ci,200,10 mx4.conseil-constitutionnel.ci.; 10 mx3.conseil-constitutionnel.ci.; 5 mx1.conseil-constitutionnel.ci.
+cotedivoire.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+education-ci.org,301,10 mail.education-ci.org.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+escolapiesinstitutions.org,ConnectException,none
+firca.ci,200,0 firca-ci.mail.protection.outlook.com.
+haca.ci,200,0 haca-ci.mail.protection.outlook.com.
+ins.ci,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ins.ci found.,0 mail.ins.ci.
+ivorycoastembassy.orderofmalta.int,301,none
+justice.ci,301,0 justice.ci.
+oipc.ci,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching oipc.ci found.,1 smtp.oipc.ci.
+onpc-ci.org,200,0 mail.onpc-ci.org.
+oscn.ci,301,1 smtp.oscn.ci.
+sodefor.ci,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.sodefor.ci.
+uatp-africa.org,ConnectException,none
+web.conseil-etat.ci,200,0 web.conseil-etat.ci.

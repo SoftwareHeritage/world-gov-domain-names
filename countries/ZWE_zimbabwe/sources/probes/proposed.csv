@@ -1,0 +1,27 @@
+hostname,http_status,mx
+ambafrance-zw.org,ConnectException,5 mta-gw.infomaniak.ch.
+arczw.ac.zw,200,none
+competition.co.zw,200,0 competition-co-zw.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ema.co.zw,200,0 ema-co-zw.mail.protection.outlook.com.
+forestry.co.zw,200,10 mx.forestry.co.zw.cust.a.hostedemail.com.
+ghanaembassy-zimbabwe.com,ConnectException,none
+harare.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+harare.mae.ro,503,none
+ipec.co.zw,200,0 ipec-co-zw.mail.protection.outlook.com.
+mediacommission.co.zw,HttpConnectTimeoutException: HTTP connect timed out,0 mail.mediacommission.co.zw.
+mfa.gr,403,10 mailhost.mfa.gr.
+mohcc.org.zw,HttpConnectTimeoutException: HTTP connect timed out,0 mohcc-org-zw.mail.protection.outlook.com.
+mrcz.org.zw,200,0 mrcz-org-zw.mail.protection.outlook.com.
+nac.org.zw,200,5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+rbz.co.zw,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rbz.co.zw found.,0 rbz-co-zw.mail.protection.outlook.com.
+rcz.ac.zw,200,0 rcz-ac-zw.mail.protection.outlook.com.
+sirdc.ac.zw,200,0 mail.sirdc.ac.zw.
+swedenabroad.se,301,none
+who.int,301,10 who-int.mail.protection.outlook.com.
+zimbabwe.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+zimche.ac.zw,200,0 zimche-ac-zw.mail.protection.outlook.com.
+zimstat.co.zw,200,0 gateway.telone.co.zw.; 10 mail.zimstat.co.zw.
+zimyouth.org,ConnectException,none
+zingsa.ac.zw,200,0 mail.zingsa.ac.zw.
+zinwa.co.zw,200,0 zinwa-co-zw.mail.protection.outlook.com.

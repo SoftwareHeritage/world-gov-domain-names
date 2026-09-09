@@ -1,0 +1,70 @@
+hostname,http_status,mx
+abuja.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+abuja.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+abuja.mae.ro,503,none
+abuja.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+abuja.mofa.go.ug,200,none
+ambaburkina-ng.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail-fr.securemail.pro.
+cbaac.org,301,1200 ghs.google.com.
+edogis.org,SSLException: (internal_error) Received fatal alert: internal_error,10 mx00.ionos.com.; 10 mx01.ionos.com.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+enuguchamber.org,200,0 enuguchamber.org.
+facebook.com,ConnectException,none
+fedpolyugep.edu.ng,200,0 fedpolyugep.edu.ng.
+finlandabroad.fi,301,10 mail.valtori.fi.
+ghanahighcommission-nigeria.com,ConnectException,none
+ihvnigeria.org,200,0 ihvnigeria-org.mail.protection.outlook.com.
+instagram.com,301,10 mxa-00082601.gslb.pphosted.com.; 10 mxb-00082601.gslb.pphosted.com.; 20 mx0b-00082601.pphosted.com.; 20 mx0a-00082601.pphosted.com.
+kanoweccma.org.ng,200,none
+kedco.ng,200,none
+kwsbnln.blogspot.com,200,none
+lagosmepb.org,200,0 lagosmepb.org.
+lagosministryofjustice.org,200,10 smtp.lagosministryofjustice.org.
+lagosresilience.net,301,0 lagosresilience.net.
+lagosscholarship.org,200,0 _dc-mx.870754fa8d7f.lagosscholarship.org.; 10 mx.ahasend.com.
+lagosstatesecuritytrustfund.com,ConnectException,none
+lagsoagricuinputs.org,ConnectException,none
+lasaa.com,200,0 lasaa.com.
+lasdri.org,200,0 lasdri.org.
+lashmaregulations.com.ng,301,0 lashmaregulations.com.ng.
+lastveb.com.ng,403,0 lastveb.com.ng.
+lsada.org,ConnectException,none
+lsetf.ng,200,0 lsetf-ng.mail.protection.outlook.com.
+lsnppa.com,200,30 mx3-hosting.jellyfish.systems.; 10 mx1-hosting.jellyfish.systems.; 20 mx2-hosting.jellyfish.systems.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nannewsngr.com,200,10 smtp.nannewsngr.com.
+ncprd.org.ng,200,0 ncprd.org.ng.
+ndic.org.ng,301,0 ndic-org-ng.mail.protection.outlook.com.; 10 mail.ndic.org.ng.
+neconigeria.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.netim.net.; 10 mx2.netim.net.
+nepanigeria.org,HttpConnectTimeoutException: HTTP connect timed out,dig error
+ng.ambafrance.org,301,none
+ngsa-nig.org,ConnectException,none
+nigeria.diplo.de,200,none
+nigeria.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nigeria.um.dk,301,none
+nigeria.un.org,301,none
+nigerstatemoh.org,ConnectException,none
+niianet.org,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.namebrightmail.com.; 10 mail2.namebrightmail.com.
+niprd.net,302,none
+nnpcgroup.com,200,0 nnpcgroup-com.mail.protection.outlook.com.
+norway.no,301,0 mx.domeneshop.no.
+nsdcnigeria.org,301,0 mail.nsdcnigeria.org.
+nsmoh.org.ng,ConnectException,none
+nta.ng,301,0 nta.ng.
+nuc.edu.ng,301,1 smtp.google.com.
+ondostateministryofinformation.wordpress.com,200,none
+osphcdb.org,ConnectException,none
+ppsscanambra.net,302,none
+pssdc.com.ng,ConnectException,none
+riversstate-mwrrd.com,ConnectException,none
+roc-taiwan.org,302,none
+scuml.org,302,0 shared31.accountservergroup.com.
+sp.mofaic.gov.ae,ConnectException,none
+swedenabroad.se,301,none
+tcn.org.ng,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,0 mail.tcn.org.ng.
+twitter.com,ConnectException,none
+who.int,301,10 who-int.mail.protection.outlook.com.
+yoursms.com.ng,ConnectException,none

@@ -1,0 +1,16 @@
+hostname,http_status,mx
+adetic.td,200,0 mail.adetic.td.
+assemblee-nationale.td,HttpConnectTimeoutException: HTTP connect timed out,none
+cndh.td,301,0 cndh-td.mail.protection.outlook.com.
+conseilconstitutionnel.td,ConnectException,none
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+gouvernement.td,ConnectException,none
+hamatchad.org,301,none
+inseed-tchad.org,HttpConnectTimeoutException: HTTP connect timed out,none
+inseedtchad.com,HttpConnectTimeoutException: HTTP connect timed out,none
+minjustchad.org,ConnectException,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+ndjamena.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+onecs.td,HttpTimeoutException: request timed out,1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.
+tchad.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+td.ambafrance.org,301,none

@@ -35,9 +35,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 3 | `ag.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, St. John's |
-| 3 | `eccb-centralbank.org` |  |  | wikidata | Eastern Caribbean Central Bank |
-| 3 | `nationallibraryofantiguaandbarbuda.org` |  |  | wikidata | Antigua Public Library |
+| 3 | `ag.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, St. John's |
+| 3 | `eccb-centralbank.org` |  | ConnectEx... | wikidata | Eastern Caribbean Central Bank |
+| 3 | `nationallibraryofantiguaandbarbuda.org` |  | ConnectEx... | wikidata | Antigua Public Library |
 
 ## ccTLD anomalies
 

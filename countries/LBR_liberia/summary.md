@@ -35,10 +35,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 4 | `cbl.org.lr` |  |  | wikidata | Central Bank of Liberia |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Liberia |
-| 3 | `lr.ambafrance.org` | central |  | wikidata | Embassy of France, Monrovia |
-| 3 | `monrovia.diplo.de` | central |  | wikidata | Embassy of Germany, Monrovia |
-| 3 | `necliberia.org` | central |  | wikidata | National Elections Commission of Liberia |
-| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Monrovia |
+| 4 | `cbl.org.lr` |  | 200 | wikidata | Central Bank of Liberia |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Liberia |
+| 3 | `lr.ambafrance.org` | central | 301 | wikidata | Embassy of France, Monrovia |
+| 3 | `monrovia.diplo.de` | central | 200 | wikidata | Embassy of Germany, Monrovia |
+| 3 | `necliberia.org` | central | 403 | wikidata | National Elections Commission of Liberia |
+| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Monrovia |
 

@@ -35,5 +35,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 3 | `vu.ambafrance.org` | central |  | wikidata | Embassy of France, Port Vila |
+| 3 | `vu.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port Vila |
 

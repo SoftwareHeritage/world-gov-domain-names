@@ -1,0 +1,21 @@
+hostname,http_status,mx
+aonsrt.ly,301,10 mx1.secure.ly.; 40 mx4.secure.ly.; 30 mx3.secure.ly.; 20 mx2.secure.ly.
+arsheef.org,301,none
+bsc.ly,200,0 bsc-ly.mail.protection.outlook.com.
+ccmce.ly,ConnectException,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+hnec.ly,HttpTimeoutException: request timed out,0 hnec-ly.mail.protection.outlook.com.
+lccrc.ly,200,40 mx4.secure.ly.; 10 mx1.secure.ly.; 30 mx3.secure.ly.; 20 mx2.secure.ly.
+lsrss.com.ly,200,30 mx3.secure.ly.; 10 mx1.secure.ly.; 20 mx2.secure.ly.; 40 mx4.secure.ly.
+ly.ambafrance.org,301,5 mta-gw.infomaniak.ch.
+ly.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ly.china-embassy.org found.,none
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mvep.hr,ConnectException,10 mail.mvep.hr.
+ncdc.org.ly,301,40 mx4.secure.ly.; 10 mx1.secure.ly.; 30 mx3.secure.ly.; 20 mx2.secure.ly.
+nigeriantripoli.org,301,40 mx4.secure.ly.; 20 mx2.secure.ly.; 10 mx1.secure.ly.; 30 mx3.secure.ly.
+nllnet.net,HttpTimeoutException: request timed out,0 _dc-mx.43d38735977a.nllnet.net.
+parliament.ly,200,40 mx4.secure.ly.; 20 mx2.secure.ly.; 10 mx1.secure.ly.; 30 mx3.secure.ly.
+sveriges-konsulat.com,301,0 sveriges-konsulat.com.
+tripoli.mae.ro,ConnectException,none
+tripoli.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

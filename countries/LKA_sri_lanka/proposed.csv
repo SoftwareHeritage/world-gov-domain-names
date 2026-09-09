@@ -1,26 +1,26 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.lk,8,wikidata;wikidata,Parliament of Sri Lanka,central,,
-defence.lk,7,wikidata;wikidata,Ministry of Defence and Urban Development,central,,
-uda.lk,7,wikidata;wikidata,Ministry of Urban Development,central,,
-caa.lk,4,wikidata,Civil Aviation Authority of Sri Lanka,,,
-ird.lk,4,wikidata,Institute for Research and Development,,,
-leco.lk,4,wikidata,Lanka Electricity Company,,,
-maldiveshighcom.lk,4,wikidata,"High Commission of Maldives, Colombo",,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Colombo",central,,
-nara.ac.lk,4,wikidata,National Aquatic Resources Research and Development Agency,,,
-natlib.lk,4,wikidata,National Library and Documentation Services Board,,,
-nsf.ac.lk,4,wikidata,National Science Foundation of Sri Lanka,,,
-slcarp.lk,4,wikidata,Sri Lanka Council For Agricultural Research Policy,,,
-slncu.lk,4,wikidata,Sri Lanka National Commission for UNESCO,,,
-supremecourt.lk,4,wikidata,Supreme Court of Sri Lanka,,,
-vishwa.nsf.ac.lk,4,wikidata,National Science Library & Resource Centre – Sri Lanka,,,
-waterboard.lk,4,wikidata,National Water Supply and Drainage Board,,,
-220.247.247.85,3,wikidata,National Library of Sri Lanka,,,
-colombo.diplo.de,3,wikidata,"Embassy of Germany, Colombo",central,,
-colombo.mae.ro,3,wikidata,embassy of Romania in Sri Lanka,central,,
-colombo.mfa.af,3,wikidata,"Embassy of Afghanistan, Colombo",central,,
-ds.thirukkovil.com,3,wikidata,Thirukkovil Divisional Secretariat,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Sri Lanka and the Maldives,central,,
-lk.ambafrance.org,3,wikidata,"Embassy of France, Colombo",central,,
-norway.no,3,wikidata,Embassy of Norway in Sri Lanka,central,,
-sri-lanka.mid.ru,3,wikidata,embassy of Russia in Sri Lanka,central,,
+parliament.lk,8,wikidata;wikidata,Parliament of Sri Lanka,central,301,10 mx1.parliament.lk.; 5 mx2.parliament.lk.
+defence.lk,7,wikidata;wikidata,Ministry of Defence and Urban Development,central,200,10 mailin-01.gw.sltidc.lk.; 20 mailin-02.gw.sltidc.lk.
+uda.lk,7,wikidata;wikidata,Ministry of Urban Development,central,301,10 mailserv.uda.lk.; 20 mailin-02.gw.sltidc.lk.; 20 whale.slt.lk.; 30 whale1.slt.lk.; 10 mailin-01.gw.sltidc.lk.
+caa.lk,4,wikidata,Civil Aviation Authority of Sri Lanka,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ALT3.ASPMX.L.GOOGLE.COM.; 0 caa-lk.mail.protection.outlook.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+ird.lk,4,wikidata,Institute for Research and Development,,200,1 smtp.google.com.
+leco.lk,4,wikidata,Lanka Electricity Company,,200,0 leco-lk.mail.protection.outlook.com.
+maldiveshighcom.lk,4,wikidata,"High Commission of Maldives, Colombo",,ConnectException,none
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Colombo",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nara.ac.lk,4,wikidata,National Aquatic Resources Research and Development Agency,,ConnectException,70 in-relay-s.ac.lk.; 50 in-relay.ac.lk.; 60 in-relay-t.ac.lk.
+natlib.lk,4,wikidata,National Library and Documentation Services Board,,ConnectException,none
+nsf.ac.lk,4,wikidata,National Science Foundation of Sri Lanka,,HttpConnectTimeoutException: HTTP connect timed out,10 ns1.nsf.ac.lk.
+slcarp.lk,4,wikidata,Sri Lanka Council For Agricultural Research Policy,,200,0 slcarp.lk.
+slncu.lk,4,wikidata,Sri Lanka National Commission for UNESCO,,200,5 mx1-hosting.jellyfish.systems.; 10 mx2-hosting.jellyfish.systems.; 20 mx3-hosting.jellyfish.systems.
+supremecourt.lk,4,wikidata,Supreme Court of Sri Lanka,,200,20 mailin-04.gw.sltidc.lk.; 10 mailin-05.gw.sltidc.lk.
+vishwa.nsf.ac.lk,4,wikidata,National Science Library & Resource Centre – Sri Lanka,,ConnectException,none
+waterboard.lk,4,wikidata,National Water Supply and Drainage Board,,301,1 smtp.google.com.
+220.247.247.85,3,wikidata,National Library of Sri Lanka,,HttpConnectTimeoutException: HTTP connect timed out,none
+colombo.diplo.de,3,wikidata,"Embassy of Germany, Colombo",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+colombo.mae.ro,3,wikidata,embassy of Romania in Sri Lanka,central,ConnectException,none
+colombo.mfa.af,3,wikidata,"Embassy of Afghanistan, Colombo",central,ConnectException,none
+ds.thirukkovil.com,3,wikidata,Thirukkovil Divisional Secretariat,,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Sri Lanka and the Maldives,central,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+lk.ambafrance.org,3,wikidata,"Embassy of France, Colombo",central,301,none
+norway.no,3,wikidata,Embassy of Norway in Sri Lanka,central,301,0 mx.domeneshop.no.
+sri-lanka.mid.ru,3,wikidata,embassy of Russia in Sri Lanka,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

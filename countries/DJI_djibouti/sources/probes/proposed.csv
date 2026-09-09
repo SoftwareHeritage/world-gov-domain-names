@@ -1,0 +1,10 @@
+hostname,http_status,mx
+assemblee-nationale.dj,ConnectException,10 mail.assemblee-nationale.dj.
+banque-centrale.dj,200,10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+dised.dj,ConnectException,none
+dj.ambafrance.org,301,none
+djibouti.diplo.de,200,none
+djibouti.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+instad.dj,200,0 instad.dj.
+ministere-finances.dj,200,0 ministere-finances.dj.

@@ -35,16 +35,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `goss-online.org` | central |  | un_desa;wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation | UN/DESA national ... |
-| 6 | `mop-rss.org` | central |  | wikidata;wikidata | Ministry of Petroleum and Mining |
-| 6 | `ssmogei.org` | central |  | wikidata;wikidata | Ministry of Education, Science and Technology |
+| 10 | `goss-online.org` | central | SSLHandsh... | un_desa;wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation | UN/DESA national ... |
+| 6 | `mop-rss.org` | central | ConnectEx... | wikidata;wikidata | Ministry of Petroleum and Mining |
+| 6 | `ssmogei.org` | central | ConnectEx... | wikidata;wikidata | Ministry of Education, Science and Technology |
 | 4 | `usaf@gov.ss` |  |  | wikidata | Universal Service and Access Fund (South Sudan) |
-| 3 | `dschuba.diplo.de` | central |  | wikidata | Embassy of Germany, Juba |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to South Sudan |
-| 3 | `norway.no` | central |  | wikidata | Embassy of Norway in South Sudan |
-| 3 | `ss.chineseembassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Juba |
-| 3 | `ssd.ambafrance.org` | central |  | wikidata | Embassy of France, Juba |
-| 3 | `ssnbs.org` |  |  | wikidata | National Bureau of Statistics |
+| 3 | `dschuba.diplo.de` | central | 200 | wikidata | Embassy of Germany, Juba |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to South Sudan |
+| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway in South Sudan |
+| 3 | `ss.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Juba |
+| 3 | `ssd.ambafrance.org` | central | 301 | wikidata | Embassy of France, Juba |
+| 3 | `ssnbs.org` |  | 200 | wikidata | National Bureau of Statistics |
 
 ## ccTLD anomalies
 

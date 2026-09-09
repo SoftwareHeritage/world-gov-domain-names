@@ -1,0 +1,27 @@
+hostname,http_status,mx
+ambaburkina-ga.org,200,5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.
+ambalglibreville.com,200,10 mx02.routing.net.; 10 mx03.routing.net.; 10 mx01.routing.net.; 20 mxbackup.routing.net.
+ambassade-tchad-gabon.com,ConnectException,none
+aninf.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.aninf.ga.
+assemblee-nationale.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.assemblee-nationale.ga.
+budget.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.budget.gouv.ga.
+cour-constitutionnelle.ga,HttpConnectTimeoutException: HTTP connect timed out,none
+dgabd.ga,"SSLHandshakeException: (protocol_version) The server selected protocol version TLS10 is not accepted by client preferences [TLS13, TLS12]",15 mx.dgabd.ga.
+eaux-forets.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.eaux-forets.gouv.ga.
+economie-numerique.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.economie-numerique.gouv.ga.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+enseignement-superieur.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.enseignement-superieur.gouv.ga.
+fonction-publique.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.fonction-publique.gouv.ga.
+ga.ambafrance.org,301,none
+gabon.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+interieur.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.interieur.gouv.ga.
+journal-officiel.ga,HttpConnectTimeoutException: HTTP connect timed out,none
+justice.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.justice.gouv.ga.
+libreville.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+parcsgabon.org,301,20 mx3-hosting.jellyfish.systems.; 10 mx2-hosting.jellyfish.systems.; 5 mx1-hosting.jellyfish.systems.
+piaristesafriquecentrale.org,ConnectException,none
+relations-institutions.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.relations-institutions.gouv.ga.
+sante.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.sante.gouv.ga.
+senatgabon.com,200,0 senatgabon.com.
+stat-gabon.org,301,none
+transports.gouv.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.transports.gouv.ga.

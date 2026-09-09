@@ -1,27 +1,27 @@
 hostname,score,sources,label,level,http_status,mx
-zasag.mn,10,un_desa;wikidata;wikidata;wikidata;wikidata,Government of Mongolia | UN/DESA national portal,central,,
-supremecourt.mn,9,wikidata;wikidata,Supreme Court of Mongolia,central,,
-flu.mn,4,wikidata,National Influenza Center,,,
-frc.mn,4,wikidata,Financial Regulatory Commission of Mongolia,,,
-imsm.mn,4,wikidata,"Institute of Medical Sciences, Mongolia",,,
-m-election.mn,4,wikidata,General Election Commission of Mongolia,,,
-mik.mn,4,wikidata,Mongolian Mortgage Corporation,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Ulaanbaatar",central,,
-mongolbank.mn,4,wikidata,Bank of Mongolia,,,
-nationallibrary.mn,4,wikidata,National Library of Mongolia,,,
-nso.mn,4,wikidata,Mongolia National Statistical Committee,,,
-riah.mn,4,wikidata,Research Institute of Animal Husbandry,,,
-ulanbator.mfa.gov.hu,4,wikidata,Embassy of Hungary in Ulaanbaatar,central,,
-unesco.mn,4,wikidata,Mongolian National Commission for UNESCO,,,
+zasag.mn,10,un_desa;wikidata;wikidata;wikidata;wikidata,Government of Mongolia | UN/DESA national portal,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching zasag.mn found.,20 mx1.email.gov.mn.; 10 mx1.email.gov.mn.; 0 zasag.mn.
+supremecourt.mn,9,wikidata;wikidata,Supreme Court of Mongolia,central,302,5 mx.mail.mn.; 10 mx2.mail.mn.
+flu.mn,4,wikidata,National Influenza Center,,200,100 mx2.mailhostbox.com.; 100 mx3.mailhostbox.com.; 100 mx1.mailhostbox.com.
+frc.mn,4,wikidata,Financial Regulatory Commission of Mongolia,,200,0 frc-mn.mail.protection.outlook.com.
+imsm.mn,4,wikidata,"Institute of Medical Sciences, Mongolia",,200,none
+m-election.mn,4,wikidata,General Election Commission of Mongolia,,200,10 mx.zoho.com.; 50 mx3.zoho.com.; 20 mx2.zoho.com.
+mik.mn,4,wikidata,Mongolian Mortgage Corporation,,301,0 mik-mn.mail.hk.greenradar.com.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Ulaanbaatar",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mongolbank.mn,4,wikidata,Bank of Mongolia,,301,0 mongolbank-mn.mail.protection.outlook.com.
+nationallibrary.mn,4,wikidata,National Library of Mongolia,,200,10 mx2.mail.mn.; 5 mx.mail.mn.
+nso.mn,4,wikidata,Mongolia National Statistical Committee,,301,100 mx1.email.gov.mn.; 100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 0 nso-mn.mail.protection.outlook.com.; 100 us2.mx1.mailhostbox.com.
+riah.mn,4,wikidata,Research Institute of Animal Husbandry,,200,10 mx2.mail.mn.; 100 riah.mn.; 5 mx.mail.mn.
+ulanbator.mfa.gov.hu,4,wikidata,Embassy of Hungary in Ulaanbaatar,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+unesco.mn,4,wikidata,Mongolian National Commission for UNESCO,,301,10 mx2.mail.mn.; 5 mx.mail.mn.
 vnembassy-ulaanbaatar.mofa.gov.vn​,4,wikidata,"Embassy of Vietnam, Ulaanbaatar",central,,
-cubadiplomatica.cu,3,wikidata,"Embassy of Cuba, Ulaanbaatar",central,,
-darkhan.mid.ru,3,wikidata,General Consulate of Russia to Darkhan,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mongolia,,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Mongolia,central,,
-mn.ambafrance.org,3,wikidata,"Embassy of France, Ulaanbaatar",central,,
-mn.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Ulaanbaatar",central,,
-mongolia.mid.ru,3,wikidata,"Embassy of Russia, Ulaanbaatar",central,,
-mzv.cz,3,wikidata,"Embassy of the Czech Republic, Ulaanbaatar",central,,
-parliament.mn,3,wikidata;wikidata;wikidata,State Great Khural,central,,
-roc-taiwan.org,3,wikidata,Taipei Trade and Economic Representative Office in Ulaanbaatar,,,
-ulan-bator.diplo.de,3,wikidata,"Embassy of Germany, Ulaanbaatar",central,,
+cubadiplomatica.cu,3,wikidata,"Embassy of Cuba, Ulaanbaatar",central,ConnectException,none
+darkhan.mid.ru,3,wikidata,General Consulate of Russia to Darkhan,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Mongolia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+mfa.bg,3,wikidata,embassy of Bulgaria in Mongolia,central,302,0 mfa-bg.mail.protection.outlook.com.
+mn.ambafrance.org,3,wikidata,"Embassy of France, Ulaanbaatar",central,301,none
+mn.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Ulaanbaatar",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mn.china-embassy.org found.,none
+mongolia.mid.ru,3,wikidata,"Embassy of Russia, Ulaanbaatar",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mzv.cz,3,wikidata,"Embassy of the Czech Republic, Ulaanbaatar",central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+parliament.mn,3,wikidata;wikidata;wikidata,State Great Khural,central,307,0 parliament-mn.mail.protection.outlook.com.
+roc-taiwan.org,3,wikidata,Taipei Trade and Economic Representative Office in Ulaanbaatar,,302,none
+ulan-bator.diplo.de,3,wikidata,"Embassy of Germany, Ulaanbaatar",central,200,10 mx2.bund.de.; 10 mx1.bund.de.

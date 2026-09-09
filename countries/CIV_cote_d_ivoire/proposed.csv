@@ -1,25 +1,25 @@
 hostname,score,sources,label,level,http_status,mx
-justice.ci,7,wikidata;wikidata,Q123328078,central,,
-ci.ambafrance.org,6,wikidata;wikidata,"Embassy of France, Abidjan | general consulate of France in Abidjan",central,,
-education-ci.org,6,wikidata;wikidata,Ministry of National Education and Technical Training,central,,
-escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,,,
-afor.ci,4,wikidata,Q131452898,,,
-artci.ci,4,wikidata,Q86993468,,,
-assnat.ci,4,wikidata,National Assembly,central,,
-cnra.ci,4,wikidata,Centre National de Recherche Agronomique,,,
-conseil-constitutionnel.ci,4,wikidata,Constitutional Council,,,
-firca.ci,4,wikidata,Q131440933,,,
-haca.ci,4,wikidata,High Authority of Audiovisual Communication,,,
-ins.ci,4,wikidata,Institut National de la Statistique,,,
-oipc.ci,4,wikidata,Q116297759,,,
-oscn.ci,4,wikidata,Q131620972,,,
-sodefor.ci,4,wikidata,Société de développement des forêts,,,
-web.conseil-etat.ci,4,wikidata,Q2993730,central,,
-abidjan.diplo.de,3,wikidata,"Embassy of Germany, Abidjan",central,,
-bceao.int,3,wikidata,Central Bank of West African States,,,
-ceici.org,3,wikidata,Q283004,central,,
-cotedivoire.mid.ru,3,wikidata,embassy of Russia in Ivory Coast,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to the Republic of Côte d’Ivoire,,,
-ivorycoastembassy.orderofmalta.int,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Abidjan",central,,
-onpc-ci.org,3,wikidata,Q113840186,,,
-uatp-africa.org,3,wikidata,African Union of Public Transport,,,
+justice.ci,7,wikidata;wikidata,Q123328078,central,301,0 justice.ci.
+ci.ambafrance.org,6,wikidata;wikidata,"Embassy of France, Abidjan | general consulate of France in Abidjan",central,301,none
+education-ci.org,6,wikidata;wikidata,Ministry of National Education and Technical Training,central,301,10 mail.education-ci.org.
+escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,,ConnectException,none
+afor.ci,4,wikidata,Q131452898,,200,0 afor-ci.mail.protection.outlook.com.
+artci.ci,4,wikidata,Q86993468,,200,0 artci-ci.mail.protection.outlook.com.
+assnat.ci,4,wikidata,National Assembly,central,200,5 mx1.assnat.ci.; 10 mx3.assnat.ci.; 10 mx4.assnat.ci.
+cnra.ci,4,wikidata,Centre National de Recherche Agronomique,,200,10 zmx01.cloud4africa.net.; 20 zmx02.cloud4africa.net.
+conseil-constitutionnel.ci,4,wikidata,Constitutional Council,,200,10 mx4.conseil-constitutionnel.ci.; 10 mx3.conseil-constitutionnel.ci.; 5 mx1.conseil-constitutionnel.ci.
+firca.ci,4,wikidata,Q131440933,,200,0 firca-ci.mail.protection.outlook.com.
+haca.ci,4,wikidata,High Authority of Audiovisual Communication,,200,0 haca-ci.mail.protection.outlook.com.
+ins.ci,4,wikidata,Institut National de la Statistique,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ins.ci found.,0 mail.ins.ci.
+oipc.ci,4,wikidata,Q116297759,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching oipc.ci found.,1 smtp.oipc.ci.
+oscn.ci,4,wikidata,Q131620972,,301,1 smtp.oscn.ci.
+sodefor.ci,4,wikidata,Société de développement des forêts,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.sodefor.ci.
+web.conseil-etat.ci,4,wikidata,Q2993730,central,200,0 web.conseil-etat.ci.
+abidjan.diplo.de,3,wikidata,"Embassy of Germany, Abidjan",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+ceici.org,3,wikidata,Q283004,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ceici.org found.,none
+cotedivoire.mid.ru,3,wikidata,embassy of Russia in Ivory Coast,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to the Republic of Côte d’Ivoire,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ivorycoastembassy.orderofmalta.int,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Abidjan",central,301,none
+onpc-ci.org,3,wikidata,Q113840186,,200,0 mail.onpc-ci.org.
+uatp-africa.org,3,wikidata,African Union of Public Transport,,ConnectException,none

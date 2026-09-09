@@ -1,0 +1,7 @@
+hostname,http_status,mx
+ambafrance-mc.org,ConnectException,none
+conseil-national.mc,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.conseil-national.mc.; 20 mx2.conseil-national.mc.; 30 mx3.conseil-national.mc.
+culture.mc,200,none
+imsee.mc,200,10 mx1.imsee.mc.; 10 mx2.imsee.mc.
+mairie.mc,200,20 smtp2.mairie.mc.; 10 smtp.mairie.mc.
+mediatheque.mc,301,20 promx2.monaco.mc.; 10 promx1.monaco.mc.

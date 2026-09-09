@@ -1,7 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.ls,8,wikidata;wikidata,Parliament of Lesotho,central,,
-nationalassembly.parliament.ls,5,wikidata,National Assembly,central,,
-agricresearch.org.ls,4,wikidata,Department of Agricultural Research,,,
-centralbank.org.ls,4,wikidata,Central Bank of Lesotho,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Lesotho,,,
-ls.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Maseru",central,,
+parliament.ls,8,wikidata;wikidata,Parliament of Lesotho,central,200,10 mail.parliament.ls.
+nationalassembly.parliament.ls,5,wikidata,National Assembly,central,200,10 mail.nationalassembly.parliament.ls.
+agricresearch.org.ls,4,wikidata,Department of Agricultural Research,,200,10 mx2.titan.email.; 5 mx1.titan.email.
+centralbank.org.ls,4,wikidata,Central Bank of Lesotho,,200,20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Lesotho,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ls.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Maseru",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ls.china-embassy.org found.,none

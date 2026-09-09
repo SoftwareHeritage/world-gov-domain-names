@@ -1,0 +1,16 @@
+hostname,http_status,mx
+ami.mr,HttpTimeoutException: request timed out,10 ami-mr.mail.protection.outlook.com.
+ansade.mr,200,10 ansade.mr.
+assembleenationale.mr,HttpConnectTimeoutException: HTTP connect timed out,none
+bcm.mr,500,10 mailstream-central.mxrecord.mx.; 20 mailstream-east.mxrecord.io.; 20 mailstream-west.mxrecord.io.; 5 mailstream-eu1.mxrecord.io.
+ccfr.rimpresse.com,ConnectException,none
+cndh.mr,200,5 mta-gw.infomaniak.ch.
+cnla.mr,200,0 cnla.mr.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+gendarmerie.mr,200,none
+mauritanie.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mr.ambafrance.org,301,none
+nouakchott.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+ons.mr,ConnectException,none
+palemb.mr,HttpTimeoutException: request timed out,0 _dc-mx.7ed4916a178d.palemb.mr.
+tdm.mr,301,5 mta-gw.infomaniak.ch.

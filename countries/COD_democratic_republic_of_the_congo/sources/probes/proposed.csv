@@ -1,0 +1,23 @@
+hostname,http_status,mx
+aplc.cd,500,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+assemblee-nationale.cd,HttpConnectTimeoutException: HTTP connect timed out,none
+bcc.cd,301,0 bcc-cd.mail.protection.outlook.com.
+cd.ambafrance.org,301,none
+cour-constitutionnelle.cd,200,0 mail.cour-constitutionnelle.cd.
+crem-rdc.com,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+csnrdc.net,200,10 mx1.titan.email.; 20 mx2.titan.email.
+drc.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ghanaembassy-drc.com,ConnectException,none
+inrb.net,200,10 mail.inrb.net.
+ins.cd,ConnectException,none
+kinshasa.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+mfa.gr,403,10 mailhost.mfa.gr.
+minisanterdc.cd,HttpConnectTimeoutException: HTTP connect timed out,none
+norway.no,301,0 mx.domeneshop.no.
+onem.cd,200,10 mx1.de.opalstack.com.; 10 mx2.de.opalstack.com.
+piaristesafriquecentrale.org,ConnectException,none
+presidentrdc.cd,200,none
+senat.cd,301,5 mta-gw.infomaniak.ch.
+swedenabroad.se,301,none
+transco-rdc.cd,200,0 transco-rdc.cd.

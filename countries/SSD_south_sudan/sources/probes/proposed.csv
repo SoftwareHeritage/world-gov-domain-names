@@ -1,0 +1,10 @@
+hostname,http_status,mx
+dschuba.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+goss-online.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching goss-online.org found.,none
+mop-rss.org,ConnectException,none
+norway.no,301,0 mx.domeneshop.no.
+ss.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ss.chineseembassy.org found.,none
+ssd.ambafrance.org,301,none
+ssmogei.org,ConnectException,none
+ssnbs.org,200,none

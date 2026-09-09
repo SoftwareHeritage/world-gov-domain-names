@@ -35,10 +35,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 5 | `shabait.com` |  |  | un_desa | UN/DESA national portal |
-| 3 | `asmara.diplo.de` | central |  | wikidata | Embassy of Germany, Asmara |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Eritrea |
-| 3 | `er.ambafrance.org` | central |  | wikidata | Embassy of France, Asmara |
-| 3 | `eritrea.mid.ru` | central |  | wikidata | embassy of Russia in Eritrea |
-| 3 | `eritreanarchives.org` |  |  | wikidata | Research and Documentation Center |
+| 5 | `shabait.com` |  | 200 | un_desa | UN/DESA national portal |
+| 3 | `asmara.diplo.de` | central | 200 | wikidata | Embassy of Germany, Asmara |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Eritrea |
+| 3 | `er.ambafrance.org` | central | 301 | wikidata | Embassy of France, Asmara |
+| 3 | `eritrea.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Eritrea |
+| 3 | `eritreanarchives.org` |  | SSLHandsh... | wikidata | Research and Documentation Center |
 

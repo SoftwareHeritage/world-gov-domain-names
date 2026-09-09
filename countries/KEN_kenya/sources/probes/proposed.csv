@@ -1,0 +1,79 @@
+hostname,http_status,mx
+au-ibar.org,400,5 mail.au-ibar.org.
+ca.go.ke,307,0 ca-go-ke.mail.protection.outlook.com.
+centralbank.go.ke,301,5 mx2.hc1852-57.eu.iphmx.com.; 5 mx1.hc1852-57.eu.iphmx.com.
+cma.or.ke,301,10 cma-or-ke.mail.protection.outlook.com.
+costaricanembassy.co.ke,200,0 costaricanembassy.co.ke.
+cue.or.ke,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 cue-or-ke.mail.protection.outlook.com.
+cwsk.go.ke,500,10 mail.cwsk.go.ke.
+eacc.go.ke,302,0 rat-02.safaricombusiness.co.ke.; 0 rat-01.safaricombusiness.co.ke.
+education.go.ke,200,5 mx3.govmail.ke.; 5 mx4.govmail.ke.; 5 mx2.govmail.ke.; 5 mx1.govmail.ke.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+epra.go.ke,HttpConnectTimeoutException: HTTP connect timed out,0 epra-go-ke.mail.protection.outlook.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+gdc.co.ke,301,0 gdc-co-ke.mail.protection.outlook.com.
+health.go.ke,200,0 mx2.govmail.ke.; 0 mx1.govmail.ke.; 0 mx3.govmail.ke.; 0 mx4.govmail.ke.
+icpac.net,301,"1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 55 icpac-net.mail.protection.outlook.COM.; 60 o365-icpac-net.mail.protection.outlook.com,.; 50 ms42723513.msv1.invalid.; 65 gsuite-icpac-net.mail.protection.outlook.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM."
+icrisat.org,200,0 icrisat-org.mail.protection.outlook.com.
+ict.go.ke,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+icta.go.ke,200,0 mx4.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.; 0 mx3.govmail.ke.
+interior.go.ke,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching interior.go.ke found.,5 mx1.govmail.ke.; 5 mx2.govmail.ke.; 5 mx3.govmail.ke.
+irrigationauthority.go.ke,301,0 irrigationauthority-go-ke.mail.protection.outlook.com.
+judiciary.go.ke,200,5 mail.judiciary.go.ke.
+kcaa.or.ke,200,0 kcaa-or-ke.mail.protection.outlook.com.
+kcgs.go.ke,200,5 mx1.govmail.ke.; 5 mx2.govmail.ke.; 5 mx3.govmail.ke.
+ke.ambafrance.org,301,none
+kebs.org,200,0 kebs-org.mail.protection.outlook.com.; 5 mail.kebs.org.
+ken-djiboutiembassy.com,ConnectException,none
+kenha.co.ke,200,15 smtp01.safaricombusiness.co.ke.; 5 rat-01.safaricombusiness.co.ke.; 0 kenha-co-ke.mail.protection.outlook.com.; 20 smtp02.safaricombusiness.co.ke.; 10 rat-02.safaricombusiness.co.ke.
+kenya.um.dk,301,none
+kenyafisheriesservice.go.ke,ConnectException,none
+kenyaforestservice.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 smtpin.hosting.liquidtelecom.co.ke.; 500 smtpin.accesskenya.com.; 5 mail.kenyaforestservice.org.
+kenyapolice.go.ke,200,5 mx2.govmail.ke.; 5 mx3.govmail.ke.; 5 mx1.govmail.ke.
+kephis.go.ke,200,none
+khrc.or.ke,200,0 khrc-or-ke.mail.protection.outlook.com.
+kilimo.go.ke,200,5 mx1.govmail.ke.; 5 mx3.govmail.ke.; 5 mx2.govmail.ke.
+klb.co.ke,200,0 klb-co-ke.mail.protection.outlook.com.
+klrc.go.ke,HttpTimeoutException: request timed out,0 mail.klrc.go.ke.
+knbs.or.ke,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+knchr.org,HttpConnectTimeoutException: HTTP connect timed out,10 mail.knchr.org.
+knls.ac.ke,301,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+kra.go.ke,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kra.go.ke found.,dig error
+ksa.go.ke,200,0 ksa-go-ke.mail.protection.outlook.com.
+ksg.ac.ke,200,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+labour.go.ke,200,0 mx3.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.
+landcommission.go.ke,200,5 rat-02.safaricombusiness.co.ke.; 0 spamtitan.konza.ke.; 5 mail.landcommission.go.ke.; 5 rat-01.safaricombusiness.co.ke.; 15 rt1.maxider.com.
+mae.ro,ConnectException,10 mx2.mae.ro.; 10 mx1.mae.ro.
+meteo.go.ke,200,0 email.meteo.go.ke.; 10 mail.meteo.go.ke.
+mfa.go.ke,200,0 mx1.govmail.ke.; 0 mx2.govmail.ke.; 0 mx3.govmail.ke.; 0 mx4.govmail.ke.
+mfa.gr,403,10 mailhost.mfa.gr.
+mining.go.ke,200,5 mx1.govmail.ke.; 5 mx3.govmail.ke.; 5 mx2.govmail.ke.
+mod.go.ke,301,5 tembo.mod.go.ke.
+mozambiquehighcommission.co.ke,200,0 mozambiquehighcommission.co.ke.
+mygov.go.ke,200,10 mail.mygov.go.ke.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nacc.or.ke,403,none
+nacosti.go.ke,301,0 nacosti-go-ke.mail.protection.outlook.com.
+nairobi.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+nairobi.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ndma.go.ke,200,40 alt4.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 40 alt3.aspmx.l.google.com.; 30 alt2.aspmx.l.google.com.
+nema.go.ke,200,1 mail.nema.go.ke.
+norway.no,301,0 mx.domeneshop.no.
+nrf.go.ke,HttpConnectTimeoutException: HTTP connect timed out,0 nrf-go-ke.mail.protection.outlook.com.
+ombudsman.go.ke,200,0 ombudsman-go-ke.mail.protection.outlook.com.
+parliament.go.ke,200,0 parliament-go-ke.mail.protection.outlook.com.
+pharmacyboardkenya.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+posta.co.ke,200,0 mx-in-01.posta.co.ke.; 5 mx-in-02.posta.co.ke.
+publicservice.go.ke,301,5 mail.publicservice.go.ke.
+rba.go.ke,403,10 rba-go-ke.mail.protection.outlook.com.
+russembkenya.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+seaturtle.wildlifedirect.org,ConnectException,none
+sportsheritage.go.ke,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sportsheritage.go.ke found.,0 sportsheritage-go-ke.mail.protection.outlook.com.
+swedenabroad.se,301,none
+transport.go.ke,200,0 mx3.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.
+treasury.go.ke,200,5 mx2.govmail.ke.; 5 mx3.govmail.ke.; 5 mx1.govmail.ke.; 5 mx4.govmail.ke.
+unesco.go.ke,200,0 unesco-go-ke.mail.protection.outlook.com.
+wajir.go.ke,200,5 smtp02.safaricombusiness.co.ke.; 0 rat-01.safaricombusiness.co.ke.; 0 rat-02.safaricombusiness.co.ke.; 5 smtp01.safaricombusiness.co.ke.
+waterfund.go.ke,200,0 waterfund-go-ke.mail.protection.outlook.com.
+wrti.go.ke,200,5 mx2.govmail.ke.; 5 mx1.govmail.ke.; 5 mx3.govmail.ke.

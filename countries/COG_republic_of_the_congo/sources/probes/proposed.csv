@@ -1,0 +1,17 @@
+hostname,http_status,mx
+anaccongo.cg,302,1 smtp.google.com.
+assemblee-nationale.cg,200,10 mx.assemblee-nationale.cg.
+bea.cg,301,10 mail.bea.cg.
+brazzaville.diplo.de,200,none
+ccj-congo.cg,HttpConnectTimeoutException: HTTP connect timed out,none
+cg.ambafrance.org,301,none
+congo.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+diplobrazza.net,200,5 mta-gw.infomaniak.ch.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finances.gouv.cg,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching finances.gouv.cg found.,10 mail.finances.gouv.cg.
+hydrocarbures.gouv.cg,301,100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.
+meppsa.org,200,0 _dc-mx.e408a5764a20.meppsa.org.
+pointe-noire.consulfrance.org,301,none
+postetelecom.gouv.cg,200,none
+presidence.cg,200,0 mail.presidence.cg.
+senat.cg,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 senatducongo.cg.

@@ -1,38 +1,38 @@
 hostname,score,sources,label,level,http_status,mx
-assemblee-nationale.sn,7,wikidata;wikidata,National Assembly,central,,
-education.sn,7,wikidata;wikidata,Ministry of National Education of Senegal,central,,
-mctn.sn,7,wikidata;wikidata,Ministry of Telecommunications and Digital Affairs of Senegal,central,,
-escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,,,
-anacim.sn,4,wikidata,Agence Nationale de l'Aviation Civile du Sénégal,,,
-ansd.sn,4,wikidata,Agence Nationale de la Statistique et de la Démographie,central,,
-cena.sn,4,wikidata,National Autonomous Electoral Commission,central,,
-conseilconstitutionnel.sn,4,wikidata,Q2993691,,,
-dge.sn,4,wikidata,Q140275459,,,
-douanes.sn,4,wikidata,Q140315305,,,
-gendarmerie.sn,4,wikidata,Gendarmerie of Senegal,,,
-hcct.sn,4,wikidata,Q121668717,,,
-international.gouv.qc.ca,4,wikidata,general delegation of Quebec in Dakar,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dakar",central,,
-onas.sn,4,wikidata,National Office for Sanitation of Senegal,,,
-sip.sn,4,wikidata,Commune de Matam,,,
-statsenegal.sn,4,wikidata,Système Statistique National du Sénégal,,,
-amba-senegal.ga,3,wikidata,Gabonese Embassy in Senegal,central,,
-ambaburkina-sn.org,3,wikidata,embassy of Burkina Faso in Senegal,central,,
-ambadak.org,3,wikidata,embassy of Madagascar in Senegal,central,,
-ambasadat.net,3,wikidata,"Embassy of Kosovo, Dakar",central,,
-bceao.int,3,wikidata,Central Bank of West African States,,,
-cnls-senegal.org,3,wikidata,Conseil National de Lutte contre le sida du Sénégal,,,
-dakar.diplo.de,3,wikidata,"Embassy of Germany, Dakar",central,,
-dakar.mae.lu,3,wikidata,Q101444757,central,,
-dakar.mae.ro,3,wikidata,"Embassy of Romania, Dakar",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Senegal,,,
-exteriors.gencat.cat,3,wikidata,"Government Delegation of Catalonia, Dakar",central,,
-facebook.com,3,wikidata,"Embassy of Malaysia, Dakar",central,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Dakar",central,,
-gambiahcsenegal.com,3,wikidata,embassy of the Gambia in Senegal,central,,
-grandemurailleverte.org,3,wikidata,Agence sénégalaise de la reforestation et de la Grande muraille verte,,,
-mfa.gr,3,wikidata,embassy of Greece in Senegal,central,,
-mzv.cz,3,wikidata,Embassy of the Czech Republic in Senegal,central,,
-senegal.mid.ru,3,wikidata,embassy of Russia in Senegal,central,,
-sn.ambafrance.org,3,wikidata,"Embassy of France, Dakar",central,,
-mesrisenegal.sn,2,wikidata;wikidata;wikidata,"Ministry of Higher Education, Research and Innovation of Senegal | Q139297158",central,,
+assemblee-nationale.sn,7,wikidata;wikidata,National Assembly,central,ConnectException,none
+education.sn,7,wikidata;wikidata,Ministry of National Education of Senegal,central,200,0 education-sn.mail.protection.outlook.com.
+mctn.sn,7,wikidata;wikidata,Ministry of Telecommunications and Digital Affairs of Senegal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 smtp.gouv.sn.
+escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,,ConnectException,none
+anacim.sn,4,wikidata,Agence Nationale de l'Aviation Civile du Sénégal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 anacim-sn.mail.protection.outlook.com.
+ansd.sn,4,wikidata,Agence Nationale de la Statistique et de la Démographie,central,ConnectException,10 mail.ansd.sn.
+cena.sn,4,wikidata,National Autonomous Electoral Commission,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+conseilconstitutionnel.sn,4,wikidata,Q2993691,,200,5 smtp.gouv.sn.
+dge.sn,4,wikidata,Q140275459,,200,0 dge.sn.
+douanes.sn,4,wikidata,Q140315305,,200,20 mail1.douanes.sn.; 10 mail.douanes.sn.
+gendarmerie.sn,4,wikidata,Gendarmerie of Senegal,,ConnectException,10 mail.gendarmerie.sn.
+hcct.sn,4,wikidata,Q121668717,,ConnectException,none
+international.gouv.qc.ca,4,wikidata,general delegation of Quebec in Dakar,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dakar",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+onas.sn,4,wikidata,National Office for Sanitation of Senegal,,200,5 mta-gw.infomaniak.ch.
+sip.sn,4,wikidata,Commune de Matam,,ConnectException,0 sip-sn.mail.protection.outlook.com.
+statsenegal.sn,4,wikidata,Système Statistique National du Sénégal,,ConnectException,none
+amba-senegal.ga,3,wikidata,Gabonese Embassy in Senegal,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.amba-senegal.ga.
+ambaburkina-sn.org,3,wikidata,embassy of Burkina Faso in Senegal,central,200,0 mail.ambaburkina-sn.org.
+ambadak.org,3,wikidata,embassy of Madagascar in Senegal,central,ConnectException,none
+ambasadat.net,3,wikidata,"Embassy of Kosovo, Dakar",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+cnls-senegal.org,3,wikidata,Conseil National de Lutte contre le sida du Sénégal,,HttpConnectTimeoutException: HTTP connect timed out,none
+dakar.diplo.de,3,wikidata,"Embassy of Germany, Dakar",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+dakar.mae.lu,3,wikidata,Q101444757,central,302,none
+dakar.mae.ro,3,wikidata,"Embassy of Romania, Dakar",central,503,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Senegal,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+exteriors.gencat.cat,3,wikidata,"Government Delegation of Catalonia, Dakar",central,301,none
+facebook.com,3,wikidata,"Embassy of Malaysia, Dakar",central,ConnectException,none
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Dakar",central,301,10 mail.valtori.fi.
+gambiahcsenegal.com,3,wikidata,embassy of the Gambia in Senegal,central,200,10 mail.gambiahcsenegal.com.
+grandemurailleverte.org,3,wikidata,Agence sénégalaise de la reforestation et de la Grande muraille verte,,200,none
+mfa.gr,3,wikidata,embassy of Greece in Senegal,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,Embassy of the Czech Republic in Senegal,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+senegal.mid.ru,3,wikidata,embassy of Russia in Senegal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sn.ambafrance.org,3,wikidata,"Embassy of France, Dakar",central,301,none
+mesrisenegal.sn,2,wikidata;wikidata;wikidata,"Ministry of Higher Education, Research and Innovation of Senegal | Q139297158",central,200,0 mesrisenegal.sn.

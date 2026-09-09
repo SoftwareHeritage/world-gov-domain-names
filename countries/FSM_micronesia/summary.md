@@ -35,7 +35,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 5 | `fsmgov.org` |  |  | un_desa | UN/DESA national portal |
-| 4 | `fsmhealth.fm` |  |  | wikidata | Department of Health and Social Affairs |
-| 4 | `fsmstatistics.fm` |  |  | wikidata | FM Statistics |
+| 5 | `fsmgov.org` |  | 200 | un_desa | UN/DESA national portal |
+| 4 | `fsmhealth.fm` |  | HttpConne... | wikidata | Department of Health and Social Affairs |
+| 4 | `fsmstatistics.fm` |  | SSLHandsh... | wikidata | FM Statistics |
 

@@ -1,4 +1,4 @@
 hostname,score,sources,label,level,http_status,mx
-ag.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, St. John's",central,,
-eccb-centralbank.org,3,wikidata,Eastern Caribbean Central Bank,,,
-nationallibraryofantiguaandbarbuda.org,3,wikidata,Antigua Public Library,,,
+ag.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, St. John's",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ag.china-embassy.org found.,none
+eccb-centralbank.org,3,wikidata,Eastern Caribbean Central Bank,,ConnectException,0 eccbcentralbank-org01b.mail.protection.outlook.com.
+nationallibraryofantiguaandbarbuda.org,3,wikidata,Antigua Public Library,,ConnectException,none

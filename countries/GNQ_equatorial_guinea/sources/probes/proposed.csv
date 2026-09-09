@@ -1,0 +1,11 @@
+hostname,http_status,mx
+aegle.gq,301,none
+dominicoshispania.org,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
+geagricultura.com,ConnectException,none
+ghanaembassy-equatorialguinea.com,ConnectException,none
+gq.ambafrance.org,301,none
+gq.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gq.chineseembassy.org found.,none
+inege.gq,ConnectException,none
+mae-ge.org,301,none
+piaristesafriquecentrale.org,ConnectException,none
+senado-gq.org,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx00.ionos.es.; 10 mx01.ionos.es.

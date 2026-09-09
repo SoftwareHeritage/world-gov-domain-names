@@ -1,0 +1,44 @@
+hostname,http_status,mx
+akaz.ba,SSLHandshakeException: Remote host terminated the handshake,10 mail01-1.bih.net.ba.; 10 mail02-1.bih.net.ba.
+arhivrs.org,200,10 ironv1h.supernovabih.net.; 10 ironv2h.supernovabih.net.
+ba.ambafrance.org,301,none
+ba.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ba.chineseembassy.org found.,none
+ba.mvep.hr,ConnectException,none
+bosnasrebrena.ba,200,none
+bosnienhercegovina.um.dk,301,none
+cbbh.ba,302,5 local.cbbh.ba.
+dominikanci.hr,200,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+domkulturejajce.ba,200,0 domkulturejajce.ba.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+egyptembassy.org,301,10 mail.egyptembassy.org.
+franjevci.info,200,0 franjevci-info.mail.protection.outlook.com.
+fzs.ba,200,10 mgw2.lol.ba.; 10 mgw1.lol.ba.
+isusovci.hr,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mup.vladars.net,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mup.vladars.net found.,10 mail1.vladars.net.; 10 mail2.vladars.net.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+narodnaskupstinars.net,301,10 mail.teol.net.
+netherlandsandyou.nl,301,0 .
+norway.no,301,0 mx.domeneshop.no.
+nub.ba,200,10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+nub.rs,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nub.rs found.,10 mail.nub.rs.nub.rs.; 5 alt1.aspmx.l.google.com.nub.rs.; 5 alt2.aspmx.l.google.com.nub.rs.; 10 alt3.aspmx.l.google.com.nub.rs.; 10 alt4.aspmx.l.google.com.nub.rs.; 1 aspmx.l.google.com.nub.rs.; 10 mail.nub.rs.
+parlament.ba,404,0 parlament-ba.mail.protection.outlook.com.
+rak.ba,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 rak-ba.mail.protection.outlook.com.
+rgurs.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailgw1.rgurs.org.; 20 mailgw2.rgurs.org.
+sarajevo.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sarajevo.embassy.si,SSLHandshakeException: Remote host terminated the handshake,none
+sarajevo.mae.ro,503,none
+sarajevo.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sarajevo.veleposlanistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+sarajewo.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+swedenabroad.se,301,none
+szarajevo.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tourismbih.com,301,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+ustavnisud.ba,301,10 smtp.ustavnisud.ba.
+ustavnisud.org,200,0 ksmgv2-1.lanaco.com.; 0 ksmgv2-2.lanaco.com.
+ustavnisudfbih.ba,200,10 mail02-1.bih.net.ba.; 10 mail01-1.bih.net.ba.
+vladahbz.com,301,1 mail.vladahbz.com.
+vladars.net,301,10 mail1.vladars.net.; 20 mail2.vladars.net.
+vladars.rs,302,20 mail2.vladars.rs.; 10 mail1.vladars.rs.

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `ssm.com.my` | central |  | wikidata;wikidata | Companies Commission of Malaysia |
-| 6 | `kualalumpur.mae.ro` | central |  | wikidata;wikidata | Embassy of Romania, Kuala Lumpur |
-| 4 | `crest.my` |  |  | wikidata | Collaborative Research in Engineering, Science and Technology Centre |
-| 4 | `cybersecurity.my` |  |  | wikidata | CyberSecurity Malaysia |
-| 4 | `ghanacom.org.my` | central |  | wikidata | high commission of Ghana in Malaysia |
-| 4 | `intanbk.intan.my` |  |  | wikidata | National Institute of Public Administration |
-| 4 | `itnm.com.my` |  |  | wikidata | Malaysian Institute of Translation & Books |
-| 4 | `khazanah.com.my` |  |  | wikidata | Khazanah Nasional |
-| 4 | `mafhq.mil.my` |  |  | wikidata | Malaysian Armed Forces |
-| 4 | `majlisprofesor.my` |  |  | wikidata | National Council of Professors |
-| 4 | `mdv.com.my` |  |  | wikidata | Malaysia Debt Ventures |
-| 4 | `mimos.my` |  |  | wikidata | Malaysian Institute of Microelectronic Systems |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Kuala Lumpur |
-| 4 | `mynic.my` |  |  | wikidata | Q7393733 |
-| 4 | `nibm.my` |  |  | wikidata | National Institutes of Biotechnology Malaysia |
-| 4 | `palestineembassy.com.my` | central |  | wikidata | Embassy of the State of Palestine in Malaysia |
-| 4 | `pdn.org.my` |  |  | wikidata | Pusat Darah Negara |
-| 4 | `sc.com.my` | central |  | wikidata | Securities Commission Malaysia |
-| 4 | `ssm-einfo.my` | central |  | wikidata | Companies Commission of Malaysia |
-| 4 | `suhakam.org.my` |  |  | wikidata | Human Rights Commission of Malaysia |
+| 7 | `ssm.com.my` | central | 302 | wikidata;wikidata | Companies Commission of Malaysia |
+| 6 | `kualalumpur.mae.ro` | central | 503 | wikidata;wikidata | Embassy of Romania, Kuala Lumpur |
+| 4 | `crest.my` |  | 200 | wikidata | Collaborative Research in Engineering, Science and Technology Centre |
+| 4 | `cybersecurity.my` |  | SSLHandsh... | wikidata | CyberSecurity Malaysia |
+| 4 | `ghanacom.org.my` | central | ConnectEx... | wikidata | high commission of Ghana in Malaysia |
+| 4 | `intanbk.intan.my` |  | ConnectEx... | wikidata | National Institute of Public Administration |
+| 4 | `itnm.com.my` |  | 301 | wikidata | Malaysian Institute of Translation & Books |
+| 4 | `khazanah.com.my` |  | 301 | wikidata | Khazanah Nasional |
+| 4 | `mafhq.mil.my` |  | ConnectEx... | wikidata | Malaysian Armed Forces |
+| 4 | `majlisprofesor.my` |  | ConnectEx... | wikidata | National Council of Professors |
+| 4 | `mdv.com.my` |  | 301 | wikidata | Malaysia Debt Ventures |
+| 4 | `mimos.my` |  | SSLHandsh... | wikidata | Malaysian Institute of Microelectronic Systems |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Kuala Lumpur |
+| 4 | `mynic.my` |  | 200 | wikidata | Q7393733 |
+| 4 | `nibm.my` |  | 301 | wikidata | National Institutes of Biotechnology Malaysia |
+| 4 | `palestineembassy.com.my` | central | 200 | wikidata | Embassy of the State of Palestine in Malaysia |
+| 4 | `pdn.org.my` |  | ConnectEx... | wikidata | Pusat Darah Negara |
+| 4 | `sc.com.my` | central | 302 | wikidata | Securities Commission Malaysia |
+| 4 | `ssm-einfo.my` | central | 301 | wikidata | Companies Commission of Malaysia |
+| 4 | `suhakam.org.my` |  | 200 | wikidata | Human Rights Commission of Malaysia |
 

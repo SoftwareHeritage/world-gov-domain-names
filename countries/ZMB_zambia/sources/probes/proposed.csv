@@ -1,0 +1,19 @@
+hostname,http_status,mx
+ambafrance-zm.org,ConnectException,5 mta-gw.infomaniak.ch.
+boz.zm,HttpConnectTimeoutException: HTTP connect timed out,0 boz-zm.mail.protection.outlook.com.
+cosecsa.org,301,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+gartzambia.org,200,15 eforward4.registrar-servers.com.; 10 eforward1.registrar-servers.com.; 10 eforward3.registrar-servers.com.; 10 eforward2.registrar-servers.com.; 20 eforward5.registrar-servers.com.
+ghanahighcommission-zambia.com,ConnectException,none
+lusaka.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nac.org.zm,200,dig error
+nhra.org.zm,301,10 nhra-org-zm.mail.protection.outlook.com.
+swedenabroad.se,301,none
+who.int,301,10 who-int.mail.protection.outlook.com.
+zambia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+zema.org.zm,301,0 mailhost.zema.org.zm.
+zicta.zm,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 zicta-zm.mail.protection.outlook.com.
+zma.org.zm,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 zma-org-zm.mail.protection.outlook.com.; 5 mail.zma.org.zm.
+znphi.co.zm,SSLException: (internal_error) Received fatal alert: internal_error,0 znphi-co-zm.mail.protection.outlook.com.

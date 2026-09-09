@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `environnement.gov.ml` | central |  | wikidata;wikidata | Ministry of Environment and Sanitation of Mali |
-| 8 | `sante.gov.ml` | central |  | wikidata;wikidata | Ministry of Public Health and Hygiene |
-| 7 | `primature.ml` | central |  | wikidata;wikidata | Council of Ministers of Mali |
-| 5 | `inrsp.sante.gov.ml` | central |  | wikidata | Institut National de Recherche en Santé Publique |
-| 4 | `gendarmerie.ml` | central |  | wikidata | Malian National Gendarmerie |
-| 4 | `malimeteo.ml` |  |  | wikidata | Agence Nationale de la Météorologie du Mali |
-| 3 | `afristat.org` |  |  | wikidata | AFRISTAT |
-| 3 | `ambassadeburkina-ml.org` | central |  | wikidata | embassy of Burkina Faso in Mali |
-| 3 | `ambniger-mali.org` | central |  | wikidata | embassy of Niger in Mali |
-| 3 | `bamako.diplo.de` | central |  | wikidata | Embassy of Germany, Bamako |
-| 3 | `bceao.int` |  |  | wikidata | Central Bank of West African States |
-| 3 | `dnhmali.org` |  |  | wikidata | Q132472717 |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Mali |
-| 3 | `instat-mali.org` |  |  | wikidata | Institut National de la Statistique |
-| 3 | `mae.ro` |  |  | wikidata | Honorary Consulate of Romania, Bamako |
-| 3 | `mali.um.dk` | central |  | wikidata | embassy of Denmark in Mali |
-| 3 | `ml.ambafrance.org` | central |  | wikidata | Embassy of France, Bamako |
-| 3 | `mzv.cz` | central |  | wikidata | embassy of the Czech republic in Mali |
-| 3 | `norway.no` | central |  | wikidata | Embassy of Norway in Mali |
-| 3 | `rusembmali.mid.ru` | central |  | wikidata | embassy of Russia in Mali |
+| 8 | `environnement.gov.ml` | central | ConnectEx... | wikidata;wikidata | Ministry of Environment and Sanitation of Mali |
+| 8 | `sante.gov.ml` | central | 200 | wikidata;wikidata | Ministry of Public Health and Hygiene |
+| 7 | `primature.ml` | central | 200 | wikidata;wikidata | Council of Ministers of Mali |
+| 5 | `inrsp.sante.gov.ml` | central | HttpConne... | wikidata | Institut National de Recherche en Santé Publique |
+| 4 | `gendarmerie.ml` | central | SSLHandsh... | wikidata | Malian National Gendarmerie |
+| 4 | `malimeteo.ml` |  | 200 | wikidata | Agence Nationale de la Météorologie du Mali |
+| 3 | `afristat.org` |  | 301 | wikidata | AFRISTAT |
+| 3 | `ambassadeburkina-ml.org` | central | ConnectEx... | wikidata | embassy of Burkina Faso in Mali |
+| 3 | `ambniger-mali.org` | central | 200 | wikidata | embassy of Niger in Mali |
+| 3 | `bamako.diplo.de` | central | 200 | wikidata | Embassy of Germany, Bamako |
+| 3 | `bceao.int` |  | ConnectEx... | wikidata | Central Bank of West African States |
+| 3 | `dnhmali.org` |  | 403 | wikidata | Q132472717 |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Mali |
+| 3 | `instat-mali.org` |  | 301 | wikidata | Institut National de la Statistique |
+| 3 | `mae.ro` |  | ConnectEx... | wikidata | Honorary Consulate of Romania, Bamako |
+| 3 | `mali.um.dk` | central | 301 | wikidata | embassy of Denmark in Mali |
+| 3 | `ml.ambafrance.org` | central | 301 | wikidata | Embassy of France, Bamako |
+| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Mali |
+| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway in Mali |
+| 3 | `rusembmali.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Mali |
 

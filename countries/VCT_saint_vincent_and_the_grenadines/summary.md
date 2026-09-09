@@ -35,6 +35,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `taiwanembassy.org` | central |  | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Kingstown |
-| 3 | `eccb-centralbank.org` |  |  | wikidata | Eastern Caribbean Central Bank |
+| 6 | `taiwanembassy.org` | central | 302 | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Kingstown |
+| 3 | `eccb-centralbank.org` |  | ConnectEx... | wikidata | Eastern Caribbean Central Bank |
 

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `parliament.iq` | central |  | wikidata;wikidata | Council of Representatives of Iraq |
-| 7 | `mod.mil.iq` | central |  | wikidata;wikidata | Ministry of Defence of Iraq |
-| 6 | `cabinet.iq` |  |  | un_desa | UN/DESA national portal |
-| 6 | `iq.ambafrance.org` | central |  | wikidata;wikidata | Embassy of France, Baghdad | Consulate General of France, Erbil |
-| 6 | `swedenabroad.se` | central |  | wikidata;wikidata | Embassy of Sweden, Baghdad |
-| 4 | `bagdad.mfa.gov.hu` | central |  | wikidata | Hungarian embassy, Baghdad |
-| 4 | `cbi.iq` |  |  | wikidata | Central Bank of Iraq |
-| 4 | `cmc.iq` |  |  | wikidata | Communications and Media Commission |
-| 4 | `ihec.iq` | central |  | wikidata | Independent High Electoral Commission |
-| 4 | `iraqfsc.iq` |  |  | wikidata | Supreme Court of Iraq |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Baghdad |
-| 4 | `nazaha.iq` |  |  | wikidata | Commission of Integrity |
-| 4 | `post.iq` |  |  | wikidata | Iraqi Post |
-| 4 | `src.edu.iq` |  |  | wikidata | Scientific Research Commission |
-| 3 | `b7or.net` |  |  | wikidata | Badr News Agency |
-| 3 | `ctgkurdistan.com` |  |  | wikidata | CTG Kurdistan |
-| 3 | `darculture.com` |  |  | wikidata | The General House of Cultural Affairs |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Iraq |
-| 3 | `en.aswataliraq.info` |  |  | wikidata | Aswat al-Iraq |
-| 3 | `erbil.diplo.de` |  |  | wikidata | Consulate General of Germany, Erbil |
+| 8 | `parliament.iq` | central | 403 | wikidata;wikidata | Council of Representatives of Iraq |
+| 7 | `mod.mil.iq` | central | 403 | wikidata;wikidata | Ministry of Defence of Iraq |
+| 6 | `cabinet.iq` |  | 200 | un_desa | UN/DESA national portal |
+| 6 | `iq.ambafrance.org` | central | 301 | wikidata;wikidata | Embassy of France, Baghdad | Consulate General of France, Erbil |
+| 6 | `swedenabroad.se` | central | 301 | wikidata;wikidata | Embassy of Sweden, Baghdad |
+| 4 | `bagdad.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Baghdad |
+| 4 | `cbi.iq` |  | 200 | wikidata | Central Bank of Iraq |
+| 4 | `cmc.iq` |  | 200 | wikidata | Communications and Media Commission |
+| 4 | `ihec.iq` | central | 200 | wikidata | Independent High Electoral Commission |
+| 4 | `iraqfsc.iq` |  | 403 | wikidata | Supreme Court of Iraq |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Baghdad |
+| 4 | `nazaha.iq` |  | 403 | wikidata | Commission of Integrity |
+| 4 | `post.iq` |  | 403 | wikidata | Iraqi Post |
+| 4 | `src.edu.iq` |  | 200 | wikidata | Scientific Research Commission |
+| 3 | `b7or.net` |  | 301 | wikidata | Badr News Agency |
+| 3 | `ctgkurdistan.com` |  | 200 | wikidata | CTG Kurdistan |
+| 3 | `darculture.com` |  | 405 | wikidata | The General House of Cultural Affairs |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Iraq |
+| 3 | `en.aswataliraq.info` |  | HttpConne... | wikidata | Aswat al-Iraq |
+| 3 | `erbil.diplo.de` |  | 301 | wikidata | Consulate General of Germany, Erbil |
 

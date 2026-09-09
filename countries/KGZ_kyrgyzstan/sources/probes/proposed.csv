@@ -1,0 +1,17 @@
+hostname,http_status,mx
+agroprod.kg,403,10 mail.agroprod.kg.
+archive.kg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.archive.kg.
+bischkek.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+biskek.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+en.mes.kg,ConnectException,none
+geoportal-kg.org,200,20 securemail2.hostingservice.fi.; 10 securemail1.hostingservice.fi.
+kenesh.kg,200,5 mail.kenesh.kg.
+kg.ambafrance.org,301,none
+med.kg,200,5 mail2.med.kg.
+mfa.kg,ConnectException,none
+mfa.tj,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.mfa.tj.; 10 mail.mfa.tj.
+mvd.kg,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mvd.kg found.,10 mail.mvd.kg.
+nbkr.kg,200,5 mx1.nbkr.kg.; 5 mx2.nbkr.kg.
+stat.kg,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching stat.kg found.,10 mail.stat.kg.
+vak.kg,200,10 mail.vak.kg.

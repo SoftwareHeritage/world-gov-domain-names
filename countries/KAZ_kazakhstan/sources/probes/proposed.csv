@@ -1,0 +1,42 @@
+hostname,http_status,mx
+akorda.kz,500,10 mgw.gov.kz.
+almaty.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+ambafrance-kz.org,ConnectException,5 mta-gw.infomaniak.ch.
+assembly.kz,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx.yandex.ru.
+biosafety.kz,200,10 mail.biosafety.kz.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+gharysh.kz,301,10 mail.gharysh.kz.
+government.kz,301,10 mail.government.kz.
+ieconom.kz,200,10 mail.ieconom.kz.
+ifc.org,302,10 wbvapiron02a.worldbank.org.; 10 wbvapiron04a.worldbank.org.; 10 wbvapiron03a.worldbank.org.; 10 wbvapiron01a.worldbank.org.
+immash.kz,301,10 emx.mail.ru.
+kasachstan.diplo.de,200,none
+kazhydromet.kz,200,10 mail.kazhydromet.kz.
+kazneb.kz,200,50 mail.kazneb.kz.
+ksm.kz,302,10 mx.lancloud.kz.; 10 mx2.lancloud.kz.
+kz.ambafrance.org,301,none
+kz.mfa.lt,403,none
+math.kz,200,10 emx.mail.ru.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mgov.kz,200,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nabrk.kz,200,10 mail.nabrk.kz.
+nationalbank.kz,302,20 mail3.nationalbank.kz.; 20 mail1.nationalbank.kz.; 10 mail.nationalbank.kz.; 10 mail2.nationalbank.kz.
+nursultan.mae.ro,ConnectException,none
+nursultan.mfa.ee,ConnectException,none
+primeminister.kz,200,10 emx.mail.ru.
+rfembassy.kz,403,10 mail.rfembassy.kz.
+rniiot.kz,301,10 mail.rniiot.kz.
+rtrk.kz,301,10 mail.rtrk.kz.
+seismology.kz,200,10 mail.seismology.kz.
+shekaraknb.kz,500,10 mail.shekaraknb.kz.
+spaceres.kz,200,10 mail.spaceres.kz.
+svr.kz,ConnectException,none
+swedenabroad.se,301,none
+ulttykarhiv.kz,200,10 mail.ulttykarhiv.kz.
+vvmvd.kz,ConnectException,0 mailvv.vvmvd.kz.; 10 mail.vvmvd.kz.; 20 ngmail.vvmvd.kz.
+zqai.kz,200,10 mail.zqai.kz.

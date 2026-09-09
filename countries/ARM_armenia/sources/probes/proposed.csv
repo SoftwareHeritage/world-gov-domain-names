@@ -1,0 +1,51 @@
+hostname,http_status,mx
+aipo.am,307,10 mx1.beget.com.; 20 mx2.beget.com.
+am.ambafrance.org,301,none
+am.mfa.lt,403,none
+anra.am,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.anra.am.
+arbitrage.am,200,none
+armarchives.am,200,none
+armenia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+armenia.un.org,301,none
+armstat.am,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
+aviation.am,400,10 mail.aviation.am.
+cadastre.am,400,10 mail.cadastre.am.; 20 mail1.cadastre.am.
+cassationcourt.am,HttpConnectTimeoutException: HTTP connect timed out,none
+cba.am,301,10 smtp.cba.am.
+concourt.am,200,10 mail.concourt.am.
+datalex.am,200,0 datalex.am.
+edu.am,HttpConnectTimeoutException: HTTP connect timed out,10 webmail.edu.am.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+erevan.mae.ro,503,none
+eriwan.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+escs.am,403,10 mail.escs.am.
+faa.am,HttpTimeoutException: request timed out,0 faa.am.
+langcom.am,200,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+mfa.am,400,10 ferrum.mfa.am.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mil.am,400,10 mail.mil.am.
+mineconomy.am,302,20 smtp.mineconomy.am.; 10 mail.mineconomy.am.
+minfin.am,SSLHandshakeException: Remote host terminated the handshake,10 mx101.minfin.am.
+mlsa.am,301,10 mail.mlsa.am.
+mofa.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+moh.am,400,10 mail.moh.am.
+moj.am,400,10 mail.moj.am.
+msy.am,HttpConnectTimeoutException: HTTP connect timed out,10 mail.msy.am.
+mtad.am,200,0 mtad.am.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nla.am,200,none
+nssp-gov.am,ConnectException,none
+parliament.am,301,10 mail.parliament.am.
+petekamutner.am,ConnectException: Host is unreachable,20 mx201.petekamutner.am.; 10 mx101.petekamutner.am.
+prosecutor.am,200,10 mail.prosecutor.am.
+psrc.am,400,10 mail.psrc.am.
+scs.am,301,0 mx.scs.am.
+sns.am,400,5 mg.sns.am.
+sp.mofaic.gov.ae,ConnectException,none
+stateproperty.am,HttpConnectTimeoutException: HTTP connect timed out,10 mail.stateproperty.am.
+swedenabroad.se,301,none
+tvradio.am,200,10 tvradio.am.
+tvradiocouncil.am,301,10 mx.zoho.com.; 20 mx2.zoho.com.; 50 mx3.zoho.com.
+yerevan.am,301,10 mx1.yerevan.am.

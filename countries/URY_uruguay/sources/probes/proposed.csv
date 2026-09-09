@@ -1,0 +1,23 @@
+hostname,http_status,mx
+anep.edu.uy,200,50 mx34.anep.edu.uy.; 50 mx35.anep.edu.uy.; 5 mx30.anep.edu.uy.; 10 mx194.anep.edu.uy.; 20 mx20.anep.edu.uy.; 30 anep.edu.uy.; 15 mx31.anep.edu.uy.; 15 mx10.anep.edu.uy.
+anii.org.uy,200,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.
+asse.com.uy,200,10 smtp.asse.com.uy.
+colonizacion.com.uy,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching colonizacion.com.uy found.,10 mail.colonizacion.com.uy.
+consuladoangolaenuruguay.com,ConnectException,none
+dgeip.edu.uy,301,10 correo.dgeip.edu.uy.
+dges.edu.uy,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+dominicoshispania.org,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embajadasaharauruguay.blogspot.com,200,none
+fau.mil.uy,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 fau-mil-uy.mail.protection.outlook.com.
+impo.com.uy,301,10 impo.impo.com.uy.
+inavi.com.uy,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching inavi.com.uy found.,5 inavi-com-uy.mail.protection.outlook.com.
+jesuitasaru.org,200,0 jesuitasaru.org.
+mfa.gr,403,10 mailhost.mfa.gr.
+montevideo.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+montevideo.mae.ro,503,none
+rnu.com.uy,200,0 rnu.com.uy.
+uruguay.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+utu.edu.uy,302,10 smtp.utu.edu.uy.
+uy.ambafrance.org,301,none
+uy.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching uy.china-embassy.org found.,none

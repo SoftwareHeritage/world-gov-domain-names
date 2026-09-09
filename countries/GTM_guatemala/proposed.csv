@@ -1,12 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
-mindef.mil.gt,7,wikidata;wikidata,Ministry of Defense,central,,
-pdh.org.gt,4,wikidata,Human Rights Ombudsman of Guatemala,,,
-tse.org.gt,4,wikidata,Supreme Electoral Supreme,central,,
-bomberosvoluntariosdeguatemala.com,3,wikidata,Bomberos Voluntarios,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Guatemala,,,
-ghrc-usa.org,3,wikidata,Guatemala Human Rights Commission,,,
-gt.ambafrance.org,3,wikidata,"Embassy of France, Guatemala City",central,,
-guat.mid.ru,3,wikidata,embassy of Russia in Guatemala,central,,
-guatemala.diplo.de,3,wikidata,"Embassy of Germany, Guatemala",central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Guatemala City",central,,
-taiwanembassy.org,3,wikidata,"Embassy of the Republic of China (Taiwan), Guatemala City",central,,
+mindef.mil.gt,7,wikidata;wikidata,Ministry of Defense,central,ConnectException,0 mindef-mil-gt.mail.protection.outlook.com.
+pdh.org.gt,4,wikidata,Human Rights Ombudsman of Guatemala,,403,20 mx-02-us-east-2.prod.hydra.sophos.com.; 10 mx-01-us-east-2.prod.hydra.sophos.com.
+tse.org.gt,4,wikidata,Supreme Electoral Supreme,central,403,20 mail2.tse.org.gt.
+bomberosvoluntariosdeguatemala.com,3,wikidata,Bomberos Voluntarios,,301,1200 ghs.google.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Guatemala,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ghrc-usa.org,3,wikidata,Guatemala Human Rights Commission,,HttpTimeoutException: request timed out,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+gt.ambafrance.org,3,wikidata,"Embassy of France, Guatemala City",central,301,none
+guat.mid.ru,3,wikidata,embassy of Russia in Guatemala,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+guatemala.diplo.de,3,wikidata,"Embassy of Germany, Guatemala",central,200,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Guatemala City",central,301,none
+taiwanembassy.org,3,wikidata,"Embassy of the Republic of China (Taiwan), Guatemala City",central,302,none

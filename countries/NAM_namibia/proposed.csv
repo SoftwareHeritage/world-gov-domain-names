@@ -1,17 +1,17 @@
 hostname,score,sources,label,level,http_status,mx
-superiorcourts.org.na,9,wikidata;wikidata,Supreme Court of Namibia | High Court of Namibia,,,
-parliament.na,8,wikidata;wikidata;wikidata;wikidata,National Council of Namibia | Parliament of Namibia | National Assembly,central,,
-mof.na,7,wikidata;wikidata,Ministry of Finance,central,,
-windhuk.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Windhoek",central,,
-bon.com.na,4,wikidata,Bank of Namibia,,,
-citypolice.org.na,4,wikidata,Windhoek City Police Service,,,
-ecn.na,4,wikidata,Electoral Commission of Namibia,central,,
-ncaa.com.na,4,wikidata,Namibia Directorate of Civil Aviation,,,
-nfc.na,4,wikidata,Namibia Film Commission,,,
-nsa.org.na,4,wikidata,Namibia Statistics Agency,,,
-nsi.com.na,4,wikidata,Namibian Standards Institution,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Namibia,,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Windhoek",central,,
-ghanahighcommission-namibia.com,3,wikidata,high commission of Ghana in Namibia,central,,
-na.ambafrance.org,3,wikidata,"Embassy of France, Windhoek",central,,
-namibia.mid.ru,3,wikidata,embassy of Russia in Namibia,central,,
+superiorcourts.org.na,9,wikidata;wikidata,Supreme Court of Namibia | High Court of Namibia,,ConnectException,none
+parliament.na,8,wikidata;wikidata;wikidata;wikidata,National Council of Namibia | Parliament of Namibia | National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,10 mailgateway.parliament.na.
+mof.na,7,wikidata;wikidata,Ministry of Finance,central,ConnectException,none
+windhuk.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Windhoek",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+bon.com.na,4,wikidata,Bank of Namibia,,HttpConnectTimeoutException: HTTP connect timed out,0 complaints-bon-com-na.mail.protection.outlook.com.; 0 bon-com-na.mail.protection.outlook.com.; 0 cmp-complaints-bon-com-na.mail.protection.outlook.com.
+citypolice.org.na,4,wikidata,Windhoek City Police Service,,ConnectException,none
+ecn.na,4,wikidata,Electoral Commission of Namibia,central,301,5 mx-in.mailsentri.com.
+ncaa.com.na,4,wikidata,Namibia Directorate of Civil Aviation,,200,none
+nfc.na,4,wikidata,Namibia Film Commission,,200,30 mta.iway.na.
+nsa.org.na,4,wikidata,Namibia Statistics Agency,,200,0 nsa-org-na.mail.protection.outlook.com.
+nsi.com.na,4,wikidata,Namibian Standards Institution,,200,10 namw.e-purifier.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Namibia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Windhoek",central,301,10 mail.valtori.fi.
+ghanahighcommission-namibia.com,3,wikidata,high commission of Ghana in Namibia,central,ConnectException,none
+na.ambafrance.org,3,wikidata,"Embassy of France, Windhoek",central,301,none
+namibia.mid.ru,3,wikidata,embassy of Russia in Namibia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

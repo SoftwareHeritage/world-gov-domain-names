@@ -1,0 +1,38 @@
+hostname,http_status,mx
+aitt.md,301,24 route3.mx.cloudflare.net.; 43 route2.mx.cloudflare.net.; 98 route1.mx.cloudflare.net.
+ana.md,200,0 mx1.spamcloud.md.; 0 mx0.spamcloud.md.
+anre.md,200,20 mx2.gov.md.; 10 mx1.gov.md.
+ansp.md,200,20 mx2.gov.md.; 10 mx1.gov.md.
+army.md,301,10 _dc-mx.e046e1e3a5e4.army.md.
+balti.md,403,10 pmg.balti.md.
+bnm.md,200,10 mail2.bnm.md.
+bnrm.md,301,30 ASPMX4.GOOGLEMAIL.COM.; 30 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX.L.GOOGLE.COM.; 20 ALT2.ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 30 ASPMX5.GOOGLEMAIL.COM.; 30 ASPMX3.GOOGLEMAIL.COM.
+bookchamber.md,301,0 bookchamber.md.
+chisinau.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+chisinau.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+chisinau.mae.ro,ConnectException,none
+chisinau.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cifra-c2unesco.ro,200,1 SMTP.GOOGLE.COM.
+cnh.prm.md,200,none
+constcourt.md,200,10 mx1.gov.md.; 20 mx2.gov.md.
+csj.md,200,10 mx1.gov.md.; 20 mx2.gov.md.
+e-patrimoniu.md,301,0 e-patrimoniu.md.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+gagauzia.md,301,10 mx0.spamcloud.md.; 20 mx1.spamcloud.md.; 0 mail.gagauzia.md.
+halktoplushu.md,200,0 halktoplushu.md.
+inj.md,301,none
+inm.md,302,none
+md.ambafrance.org,301,5 mta-gw.infomaniak.ch.
+md.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching md.china-embassy.org found.,none
+md.mfa.lt,403,none
+meteo.md,301,0 aspmx.l.google.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+moldova.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+parlament.md,403,1 smtp.parlament.md.
+politia.md,HttpConnectTimeoutException: HTTP connect timed out,none
+procuratura.md,200,20 mx2.gov.md.; 10 mx1.gov.md.
+sis.md,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sis.md.
+statistica.md,301,none
+swedenabroad.com,301,none

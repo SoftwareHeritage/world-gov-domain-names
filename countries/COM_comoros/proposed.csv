@@ -1,7 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
-coursupremecomores.km,6,wikidata,Supreme Court of the Comoros,,,
-banque-comores.km,4,wikidata,Central Bank of the Comoros,,,
-inseed.km,4,wikidata,INSEED,central,,
-anjouanoffshorefinancialauthority.org,3,wikidata,Anjouan Offshore Finance Authority,central-1,,
-km.ambafrance.org,3,wikidata,"Embassy of France, Moroni",central,,
-km.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Moroni",central,,
+coursupremecomores.km,6,wikidata,Supreme Court of the Comoros,,302,0 coursupremecomores.km.
+banque-comores.km,4,wikidata,Central Bank of the Comoros,,200,0 banquecomores-km01e.mail.protection.outlook.com.
+inseed.km,4,wikidata,INSEED,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.comorestelecom.km.
+anjouanoffshorefinancialauthority.org,3,wikidata,Anjouan Offshore Finance Authority,central-1,200,0 smtp.secureserver.net.; 10 mailstore1.secureserver.net.
+km.ambafrance.org,3,wikidata,"Embassy of France, Moroni",central,301,none
+km.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Moroni",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching km.china-embassy.org found.,none

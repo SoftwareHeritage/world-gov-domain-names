@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
-parlamento.mz,8,wikidata;wikidata,Assembly of the Republic,central,,
-cconstitucional.org.mz,6,wikidata,Constitutional Council (Mozambique),central,,
-ahm.uem.mz,4,wikidata,Arquivo Histórico de Moçambique,,,
-bancomoc.mz,4,wikidata,Bank of Mozambique,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Maputo",central,,
-stae.org.mz,4,wikidata,Secreteriado Técnico de Administração Eleitoral,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mozambique,,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Maputo",central,,
-malawihcmz.com,3,wikidata,"High Commission of Malawi, Maputo",central,,
-maputo.diplo.de,3,wikidata,"Embassy of Germany, Maputo",central,,
-mozambik.mid.ru,3,wikidata,"Embassy of Russia, Maputo",central,,
-mozambique.nlembassy.org,3,wikidata,"Embassy of the Netherlands, Maputo",central,,
-mz.ambafrance.org,3,wikidata,"Embassy of France, Maputo",central,,
-mz.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Maputo",central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Maputo",central,,
+parlamento.mz,8,wikidata;wikidata,Assembly of the Republic,central,301,0 smtp.parlamento.mz.
+cconstitucional.org.mz,6,wikidata,Constitutional Council (Mozambique),central,200,0 cconstitucional.org.mz.
+ahm.uem.mz,4,wikidata,Arquivo Histórico de Moçambique,,200,0 ahm.uem.mz.
+bancomoc.mz,4,wikidata,Bank of Mozambique,,200,10 mta.bancomoc.mz.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Maputo",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+stae.org.mz,4,wikidata,Secreteriado Técnico de Administração Eleitoral,central,ConnectException: Host is unreachable,10 smtp01.correio.gov.mz.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Mozambique,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Maputo",central,301,10 mail.valtori.fi.
+malawihcmz.com,3,wikidata,"High Commission of Malawi, Maputo",central,ConnectException,none
+maputo.diplo.de,3,wikidata,"Embassy of Germany, Maputo",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+mozambik.mid.ru,3,wikidata,"Embassy of Russia, Maputo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mozambique.nlembassy.org,3,wikidata,"Embassy of the Netherlands, Maputo",central,ConnectException,none
+mz.ambafrance.org,3,wikidata,"Embassy of France, Maputo",central,301,none
+mz.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Maputo",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mz.chineseembassy.org found.,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Maputo",central,301,none

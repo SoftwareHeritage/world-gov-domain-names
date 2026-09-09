@@ -1,34 +1,34 @@
 hostname,score,sources,label,level,http_status,mx
-assembly.gm,7,wikidata;wikidata,National Assembly of The Gambia,central,,
-mope.gm,7,wikidata;wikidata,"Ministry of Petroleum, Energy and Mines",central,,
-utg.edu.gm,7,wikidata;wikidata,University of the Gambia,,,
-cbg.gm,4,wikidata,Central Bank of The Gambia,,,
-gambiaports.gm,4,wikidata,Gambia Ports Authority,central,,
-gamcel.gm,4,wikidata,Gambia Telecommunications Cellular Company,central,,
-gampost.gm,4,wikidata,Gambia Postal Services Corporation,,,
-gamtel.gm,4,wikidata,Gamtel,,,
-gc.edu.gm,4,wikidata,The Gambia College,central,,
-gcc.gm,4,wikidata,Gambia Competition and Consumer Protection Commission,central,,
-giepa.gm,4,wikidata,Gambia Investment and Export Promotion Agency,,,
-gppa.gm,4,wikidata,Gambia Public Procurement Authority,central,,
-gra.gm,4,wikidata,Gambia Revenue Authority,central,,
-grts.gm,4,wikidata,Gambia Radio & Television Service,,,
-iec.gm,4,wikidata,Independent Electoral Commission,central,,
-nana.gm,4,wikidata,National Nutrition Agency,,,
-nao.gm,4,wikidata,National Audit Office,central,,
-naqaa.gm,4,wikidata,National Accreditation and Quality Assurance Authority,,,
-nawec.gm,4,wikidata,NAWEC,,,
-ncac.gm,4,wikidata,National Council for Arts and Culture,,,
-nea.gm,4,wikidata,National Environment Agency,central,,
-nedi.gm,4,wikidata,National Enterprise Development Initiative,central,,
-nra.gm,4,wikidata,National Roads Authority,central,,
-nsc.gm,4,wikidata,National Sports Council,central,,
-nyc.gm,4,wikidata,National Youth Council,central,,
-ombudsman.gm,4,wikidata,Office of the Ombudsman,central,,
-pscgov.gm,4,wikidata,Public Service Commission,central,,
-pura.gm,4,wikidata,Gambia Public Utilities Regulatory Authority,,,
-sshfc.gm,4,wikidata,Social Security Housing & Finance Corporation,central,,
-tgsb.gm,4,wikidata,The Gambia Standards Bureau,,,
-banjul.diplo.de,3,wikidata,"Embassy of Germany, Banjul",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to The Gambia,,,
-visitthegambia.com,3,wikidata,Gambia Tourism Board,central,,
+assembly.gm,7,wikidata;wikidata,National Assembly of The Gambia,central,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+mope.gm,7,wikidata;wikidata,"Ministry of Petroleum, Energy and Mines",central,301,none
+utg.edu.gm,7,wikidata;wikidata,University of the Gambia,,HttpTimeoutException: request timed out,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+cbg.gm,4,wikidata,Central Bank of The Gambia,,301,0 cbg-gm.mail.protection.outlook.com.
+gambiaports.gm,4,wikidata,Gambia Ports Authority,central,HttpConnectTimeoutException: HTTP connect timed out,0 gambiaports-gm.mail.protection.outlook.com.
+gamcel.gm,4,wikidata,Gambia Telecommunications Cellular Company,central,200,10 mail.gamcel.gm.
+gampost.gm,4,wikidata,Gambia Postal Services Corporation,,ConnectException,none
+gamtel.gm,4,wikidata,Gamtel,,200,40 mail.gamtel.gm.
+gc.edu.gm,4,wikidata,The Gambia College,central,200,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+gcc.gm,4,wikidata,Gambia Competition and Consumer Protection Commission,central,200,10 mx.stackmail.com.
+giepa.gm,4,wikidata,Gambia Investment and Export Promotion Agency,,302,0 Giepa-gm.mail.protection.outlook.com.
+gppa.gm,4,wikidata,Gambia Public Procurement Authority,central,200,0 arch.adequate.gm.
+gra.gm,4,wikidata,Gambia Revenue Authority,central,301,0 gra-gm.mail.protection.outlook.com.
+grts.gm,4,wikidata,Gambia Radio & Television Service,,200,0 node510.namehero.net.
+iec.gm,4,wikidata,Independent Electoral Commission,central,200,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 20 mx3-hosting.jellyfish.systems.; 5 mx1-hosting.jellyfish.systems.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 mx2-hosting.jellyfish.systems.
+nana.gm,4,wikidata,National Nutrition Agency,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nana.gm found.,0 mail.nana.gm.
+nao.gm,4,wikidata,National Audit Office,central,HttpTimeoutException: request timed out,30 mx.nao.gm.
+naqaa.gm,4,wikidata,National Accreditation and Quality Assurance Authority,,200,10 mx.stackmail.com.
+nawec.gm,4,wikidata,NAWEC,,200,0 nawec-gm.mail.protection.outlook.com.
+ncac.gm,4,wikidata,National Council for Arts and Culture,,200,10 safari.mxrouting.net.; 20 safari-relay.mxrouting.net.
+nea.gm,4,wikidata,National Environment Agency,central,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+nedi.gm,4,wikidata,National Enterprise Development Initiative,central,523,10 node507.namehero.net.
+nra.gm,4,wikidata,National Roads Authority,central,200,0 nra-gm.mail.protection.outlook.com.
+nsc.gm,4,wikidata,National Sports Council,central,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+nyc.gm,4,wikidata,National Youth Council,central,HttpTimeoutException: request timed out,10 node507.namehero.net.
+ombudsman.gm,4,wikidata,Office of the Ombudsman,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ombudsman.gm found.,10 mx.stackmail.com.
+pscgov.gm,4,wikidata,Public Service Commission,central,200,5 pscgov.onice.io.; 10 mx.stackmail.com.
+pura.gm,4,wikidata,Gambia Public Utilities Regulatory Authority,,200,0 pura-gm.mail.protection.outlook.com.
+sshfc.gm,4,wikidata,Social Security Housing & Finance Corporation,central,301,1 sshfc-gm.mail.protection.outlook.com.
+tgsb.gm,4,wikidata,The Gambia Standards Bureau,,200,20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
+banjul.diplo.de,3,wikidata,"Embassy of Germany, Banjul",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to The Gambia,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+visitthegambia.com,3,wikidata,Gambia Tourism Board,central,200,none

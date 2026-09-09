@@ -1,22 +1,22 @@
 hostname,score,sources,label,level,http_status,mx
-parlamento.ao,8,wikidata;wikidata,National Assembly of Angola,central,,
-minjud.gv.ao,7,wikidata;wikidata,Ministry of Youth and Sports,central,,
-franciscanos.org.br,6,wikidata;wikidata,Q10354750,,,
-tribunalconstitucional.ao,6,wikidata,Constitutional Court of Angola,,,
-bna.ao,4,wikidata,National Bank of Angola,,,
-luanda.mfa.gov.hu,4,wikidata,Embassy of Hungary to Luanda,central,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Luanda",central,,
-trluanda.ao,4,wikidata,Q131156237,,,
-angola.mid.ru,3,wikidata,embassy of Russia in Angola,central,,
-ao.ambafrance.org,3,wikidata,"Embassy of France, Luanda",central,,
-ao.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Luanda",central,,
-cisacaxito.org,3,wikidata,Centro de Investigação em Saúde de Angola,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Angola,,,
-embaixada-de-cabo-verde-em-angola.odoo.com,3,wikidata,"Embassy of Cape Verde, Luanda",central,,
-ghanaembassy-angola.com,3,wikidata,embassy of Ghana in Angola,central,,
-kenyaembassyangola.com,3,wikidata,"Embassy of Kenya, Luanda",central,,
-luanda.diplo.de,3,wikidata,"Embassy of Germany, Luanda",central,,
-luanda.mae.ro,3,wikidata,embassy of Romania in Angola,central,,
-nationallibraryofangola.org,3,wikidata,National Library of Angola,,,
-norway.no,3,wikidata,"Embassy of Norway, Luanda",central,,
-sinseangola.com,3,wikidata,Q20061241,central,,
+parlamento.ao,8,wikidata;wikidata,National Assembly of Angola,central,200,1 webmail.parlamento.ao.
+minjud.gv.ao,7,wikidata;wikidata,Ministry of Youth and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+franciscanos.org.br,6,wikidata;wikidata,Q10354750,,ConnectException,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+tribunalconstitucional.ao,6,wikidata,Constitutional Court of Angola,,200,0 tribunalconstitucional-ao.mail.protection.outlook.com.
+bna.ao,4,wikidata,National Bank of Angola,,200,0 bna-ao.mail.protection.outlook.com.
+luanda.mfa.gov.hu,4,wikidata,Embassy of Hungary to Luanda,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Luanda",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+trluanda.ao,4,wikidata,Q131156237,,200,0 ws52.angoweb.net.
+angola.mid.ru,3,wikidata,embassy of Russia in Angola,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ao.ambafrance.org,3,wikidata,"Embassy of France, Luanda",central,301,none
+ao.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Luanda",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ao.chineseembassy.org found.,none
+cisacaxito.org,3,wikidata,Centro de Investigação em Saúde de Angola,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 cisacaxito-org.mail.protection.outlook.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Angola,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embaixada-de-cabo-verde-em-angola.odoo.com,3,wikidata,"Embassy of Cape Verde, Luanda",central,200,10 eu473a.odoo.com.
+ghanaembassy-angola.com,3,wikidata,embassy of Ghana in Angola,central,ConnectException,none
+kenyaembassyangola.com,3,wikidata,"Embassy of Kenya, Luanda",central,200,20 mx2.titan.email.; 10 mx1.titan.email.
+luanda.diplo.de,3,wikidata,"Embassy of Germany, Luanda",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+luanda.mae.ro,3,wikidata,embassy of Romania in Angola,central,503,none
+nationallibraryofangola.org,3,wikidata,National Library of Angola,,200,none
+norway.no,3,wikidata,"Embassy of Norway, Luanda",central,301,0 mx.domeneshop.no.
+sinseangola.com,3,wikidata,Q20061241,central,ConnectException,none

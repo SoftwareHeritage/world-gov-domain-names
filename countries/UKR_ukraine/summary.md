@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `gdip.com.ua` |  |  | wikidata;wikidata | Directorate-General for Rendering Services to Diplomatic Missions |
-| 7 | `gromady.cv.ua` |  |  | wikidata;wikidata | Krasnoiilska selyshchna rada | Storozhynetska miska rada |
-| 7 | `phc.org.ua` |  |  | wikidata;wikidata | Center for Public Health of the Ministry of Health of Ukraine |
-| 7 | `rada.crimea.ua` | central-1 |  | wikidata;wikidata | Supreme Council of Crimea |
-| 7 | `ubi.org.ua` |  |  | wikidata;wikidata | Ukrainian Book Institute |
-| 7 | `ucf.in.ua` | central |  | wikidata;wikidata | Ukrainian Cultural Foundation |
-| 6 | `chernivtsy.eu` |  |  | wikidata;wikidata | Q16723280 | Chernivetska miska rada |
-| 6 | `eeas.europa.eu` |  |  | wikidata;wikidata | Delegation of the European Union to Ukraine |
-| 6 | `facebook.com` |  |  | wikidata;wikidata | Probation in Ukraine | Q20092493 |
-| 6 | `nederlandwereldwijd.nl` | central |  | wikidata;wikidata | Embassy of the Netherlands, Kyiv |
-| 6 | `pijarzy.pl` |  |  | wikidata;wikidata | Piarist province of Poland |
-| 6 | `ukrpatent.org` |  |  | wikidata;wikidata | Ukrainian Institute of Industrial Property |
-| 5 | `ww2.gov.if.ua` |  |  | wikidata | Q12083768 |
-| 4 | `afghanembassy.com.ua` | central |  | wikidata | Embassy of Afghanistan, Kyiv |
-| 4 | `agroscience-publishing.org.ua` |  |  | wikidata | Agrarian Science State Publishing House of the National Academy of Agrarian S... |
-| 4 | `algerianembassy.kiev.ua` | central |  | wikidata | Embassy of Algeria, Kyiv |
-| 4 | `bcdst.kiev.ua` | central-1 |  | wikidata | State Enterprise "KYIV REGIONAL RESEARCH AND PRODUCTION CENTER FOR STANDARDIZ... |
-| 4 | `beregszasz.mfa.gov.hu` |  |  | wikidata | Consulate of Hungary, Berehove |
-| 4 | `berezivska.rada.org.ua` |  |  | wikidata | Q17095150 |
-| 4 | `berezne-rada.rv.ua` |  |  | wikidata | Q93363311 |
+| 7 | `gdip.com.ua` |  | 200 | wikidata;wikidata | Directorate-General for Rendering Services to Diplomatic Missions |
+| 7 | `gromady.cv.ua` |  | HttpConne... | wikidata;wikidata | Krasnoiilska selyshchna rada | Storozhynetska miska rada |
+| 7 | `phc.org.ua` |  | 200 | wikidata;wikidata | Center for Public Health of the Ministry of Health of Ukraine |
+| 7 | `rada.crimea.ua` | central-1 | 200 | wikidata;wikidata | Supreme Council of Crimea |
+| 7 | `ubi.org.ua` |  | 302 | wikidata;wikidata | Ukrainian Book Institute |
+| 7 | `ucf.in.ua` | central | 200 | wikidata;wikidata | Ukrainian Cultural Foundation |
+| 6 | `chernivtsy.eu` |  | SSLHandsh... | wikidata;wikidata | Q16723280 | Chernivetska miska rada |
+| 6 | `eeas.europa.eu` |  | 200 | wikidata;wikidata | Delegation of the European Union to Ukraine |
+| 6 | `facebook.com` |  | ConnectEx... | wikidata;wikidata | Probation in Ukraine | Q20092493 |
+| 6 | `nederlandwereldwijd.nl` | central | 301 | wikidata;wikidata | Embassy of the Netherlands, Kyiv |
+| 6 | `pijarzy.pl` |  | 200 | wikidata;wikidata | Piarist province of Poland |
+| 6 | `ukrpatent.org` |  | 302 | wikidata;wikidata | Ukrainian Institute of Industrial Property |
+| 5 | `ww2.gov.if.ua` |  | 403 | wikidata | Q12083768 |
+| 4 | `afghanembassy.com.ua` | central | 301 | wikidata | Embassy of Afghanistan, Kyiv |
+| 4 | `agroscience-publishing.org.ua` |  | 301 | wikidata | Agrarian Science State Publishing House of the National Academy of Agrarian S... |
+| 4 | `algerianembassy.kiev.ua` | central | ConnectEx... | wikidata | Embassy of Algeria, Kyiv |
+| 4 | `bcdst.kiev.ua` | central-1 | 200 | wikidata | State Enterprise "KYIV REGIONAL RESEARCH AND PRODUCTION CENTER FOR STANDARDIZ... |
+| 4 | `beregszasz.mfa.gov.hu` |  | SSLHandsh... | wikidata | Consulate of Hungary, Berehove |
+| 4 | `berezivska.rada.org.ua` |  | 403 | wikidata | Q17095150 |
+| 4 | `berezne-rada.rv.ua` |  | 200 | wikidata | Q93363311 |
 

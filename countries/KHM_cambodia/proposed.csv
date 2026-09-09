@@ -1,13 +1,13 @@
 hostname,score,sources,label,level,http_status,mx
-hiscambodia.org,6,wikidata;wikidata,Ministry of Health,central,,
-grk.com.kh,4,wikidata,Royal Gendarmerie of Cambodia,,,
-nac.org.kh,4,wikidata,National Assembly,central,,
-nbc.org.kh,4,wikidata,National Bank of Cambodia,central,,
-necelect.org.kh,4,wikidata,National Election Committee of Cambodia,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Cambodia,,,
-embrusscambodia.mid.ru,3,wikidata,"Embassy of Russia, Phnom Penh",central,,
-kh.ambafrance.org,3,wikidata,"Embassy of France, Phnom Penh",central,,
-kh.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Phnom Penh",central,,
-nchads.org,3,wikidata,"National Centre for HIV/AIDS Dermatology and STDs, Cambodia",,,
-phnom-penh.diplo.de,3,wikidata,"Embassy of Germany, Phnom Penh",central,,
-thaiembassy.org,3,wikidata,Embassy of Thailand in Phnom Penh,central,,
+hiscambodia.org,6,wikidata;wikidata,Ministry of Health,central,HttpConnectTimeoutException: HTTP connect timed out,none
+grk.com.kh,4,wikidata,Royal Gendarmerie of Cambodia,,ConnectException,none
+nac.org.kh,4,wikidata,National Assembly,central,200,0 mail.nac.org.kh.
+nbc.org.kh,4,wikidata,National Bank of Cambodia,central,HttpConnectTimeoutException: HTTP connect timed out,none
+necelect.org.kh,4,wikidata,National Election Committee of Cambodia,,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Cambodia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embrusscambodia.mid.ru,3,wikidata,"Embassy of Russia, Phnom Penh",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+kh.ambafrance.org,3,wikidata,"Embassy of France, Phnom Penh",central,301,none
+kh.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Phnom Penh",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kh.china-embassy.org found.,none
+nchads.org,3,wikidata,"National Centre for HIV/AIDS Dermatology and STDs, Cambodia",,302,0 mail.nchads.org.
+phnom-penh.diplo.de,3,wikidata,"Embassy of Germany, Phnom Penh",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+thaiembassy.org,3,wikidata,Embassy of Thailand in Phnom Penh,central,200,none

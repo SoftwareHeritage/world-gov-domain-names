@@ -1,39 +1,39 @@
 hostname,score,sources,label,level,http_status,mx
-iiv.uz,7,wikidata;wikidata,Ministry of Internal Affairs,central,,
-joqargikenes.uz,7,wikidata;wikidata,Supreme Council of Karakalpakstan,,,
-mc.uz,7,wikidata;wikidata,Ministry of Construction of the Republic of Uzbekistan,central,,
-mdo.uz,7,wikidata;wikidata,Ministry of Preschool Education of the Republic of Uzbekistan,central,,
-mehnat.uz,7,wikidata;wikidata,Ministry of Labor and Social Protection of Population,central,,
-mfa.uz,7,wikidata;wikidata,Ministry of Foreign Affairs of Uzbekistan,central,,
-minjust.uz,7,wikidata;wikidata,Ministry of Justice,central,,
-minzdrav.uz,7,wikidata;wikidata,Ministry of Public Health of Uzbekistan,central,,
-motas.uz,7,wikidata;wikidata,Ministry of Tourism and Cultural Heritage,central,,
-mudofaa.uz,7,wikidata;wikidata,Ministry of Defense,central,,
-uzedu.uz,7,wikidata;wikidata,Ministry of Preschool an School Education of the Republic of Uzbekistan,central,,
-sud.uz,6,wikidata,Supreme Court of Uzbekistan,central,,
-cbu.uz,4,wikidata,Central Bank of Uzbekistan,,,
-davaktiv.uz,4,wikidata,State Assets Management Agency,,,
-hydroengeo.uz,4,wikidata,Institute of Hydrogeology and Engineering Geology,,,
-ich.uz,4,wikidata,National Commission of the Republic of Uzbekistan for UNESCO,,,
-indembassy.uz,4,wikidata,"Embassy of India, Tashkent",central,,
-ingeo.uz,4,wikidata,Institute of Geology and Geophysics named after Kh.M. Abdullaev,,,
-kti.iiv.uz,4,wikidata,Research Institute of Criminology of the Republic of Uzbekistan,,,
-meteo.uz,4,wikidata,Centre of Hydrometeorological Service,,,
-mininnovation.uz,4,wikidata,Ministry of Innovative Development of the Republic of Uzbekistan,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Tashkent",central,,
-napp.uz,4,wikidata,National Agency of Perspective Projects,central,,
-natlib.uz,4,wikidata,National Library of Uzbekistan,,,
-nim.uz,4,wikidata,Uzbek National Institute of Metrology,,,
-research-center.uz,4,wikidata,Center for Research of Problems in Privatization and State Assets Management,,,
-stat.uz,4,wikidata,UZSTAT,central,,
-ugriti.uz,4,wikidata,Research Institute of Plant Genetic Resources,,,
-uza.uz,4,wikidata,Uzbekistan National News Agency,,,
-uzpharm-control.uz,4,wikidata,"State Institution ""Center for Pharmaceutical Products Safety"" under the Ministry of Health of the Republic of Uzbekistan",,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Uzbekistan,,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Uzbekistan,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Uzbekistan,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Uzbekistan,central,,
-taschkent.diplo.de,3,wikidata,"Embassy of Germany, Tashkent",central,,
-taskent.mae.ro,3,wikidata,embassy of Romania in Uzbekistan,central,,
-uz.ambafrance.org,3,wikidata,"Embassy of France, Tashkent",central,,
-uzbekistan.mid.ru,3,wikidata,embassy of Russia in Uzbekistan,central,,
+iiv.uz,7,wikidata;wikidata,Ministry of Internal Affairs,central,ConnectException,10 mx2.cm.uz.; 10 mx1.cm.uz.
+joqargikenes.uz,7,wikidata;wikidata,Supreme Council of Karakalpakstan,,302,10 mail.joqargikenes.uz.
+mc.uz,7,wikidata;wikidata,Ministry of Construction of the Republic of Uzbekistan,central,301,10 mail.mc.uz.
+mdo.uz,7,wikidata;wikidata,Ministry of Preschool Education of the Republic of Uzbekistan,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mdo.uz.
+mehnat.uz,7,wikidata;wikidata,Ministry of Labor and Social Protection of Population,central,301,10 mail.mehnat.uz.
+mfa.uz,7,wikidata;wikidata,Ministry of Foreign Affairs of Uzbekistan,central,301,10 mail.mfa.uz.
+minjust.uz,7,wikidata;wikidata,Ministry of Justice,central,301,10 mail.minjust.uz.
+minzdrav.uz,7,wikidata;wikidata,Ministry of Public Health of Uzbekistan,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+motas.uz,7,wikidata;wikidata,Ministry of Tourism and Cultural Heritage,central,HttpConnectTimeoutException: HTTP connect timed out,none
+mudofaa.uz,7,wikidata;wikidata,Ministry of Defense,central,403,0 mail.mudofaa.uz.
+uzedu.uz,7,wikidata;wikidata,Ministry of Preschool an School Education of the Republic of Uzbekistan,central,301,10 mail.uzedu.uz.
+sud.uz,6,wikidata,Supreme Court of Uzbekistan,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sud.uz.
+cbu.uz,4,wikidata,Central Bank of Uzbekistan,,200,10 mail.cbu.uz.; 20 mail.cbu.uz.
+davaktiv.uz,4,wikidata,State Assets Management Agency,,301,10 mail.davaktiv.uz.
+hydroengeo.uz,4,wikidata,Institute of Hydrogeology and Engineering Geology,,307,none
+ich.uz,4,wikidata,National Commission of the Republic of Uzbekistan for UNESCO,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.ich.uz.
+indembassy.uz,4,wikidata,"Embassy of India, Tashkent",central,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+ingeo.uz,4,wikidata,Institute of Geology and Geophysics named after Kh.M. Abdullaev,,200,10 mail.ingeo.uz.
+kti.iiv.uz,4,wikidata,Research Institute of Criminology of the Republic of Uzbekistan,,200,none
+meteo.uz,4,wikidata,Centre of Hydrometeorological Service,,301,10 mail.meteo.uz.
+mininnovation.uz,4,wikidata,Ministry of Innovative Development of the Republic of Uzbekistan,,504,10 mail.mininnovation.uz.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Tashkent",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+napp.uz,4,wikidata,National Agency of Perspective Projects,central,302,10 mail.napm.uz.
+natlib.uz,4,wikidata,National Library of Uzbekistan,,302,10 mail.natlib.uz.
+nim.uz,4,wikidata,Uzbek National Institute of Metrology,,200,10 mail.nim.uz.
+research-center.uz,4,wikidata,Center for Research of Problems in Privatization and State Assets Management,,303,0 research-center.uz.; 10 mail-backup.webspace.uz.
+stat.uz,4,wikidata,UZSTAT,central,301,20 mail3.stat.uz.; 10 mail.stat.uz.
+ugriti.uz,4,wikidata,Research Institute of Plant Genetic Resources,,ConnectException,none
+uza.uz,4,wikidata,Uzbekistan National News Agency,,302,10 mail.uza.uz.
+uzpharm-control.uz,4,wikidata,"State Institution ""Center for Pharmaceutical Products Safety"" under the Ministry of Health of the Republic of Uzbekistan",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.uzpharm-control.uz.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Uzbekistan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+mfa.bg,3,wikidata,embassy of Bulgaria in Uzbekistan,central,302,0 mfa-bg.mail.protection.outlook.com.
+mzv.cz,3,wikidata,embassy of the Czech republic in Uzbekistan,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Uzbekistan,central,301,10 mail.gov.sk.
+taschkent.diplo.de,3,wikidata,"Embassy of Germany, Tashkent",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+taskent.mae.ro,3,wikidata,embassy of Romania in Uzbekistan,central,503,none
+uz.ambafrance.org,3,wikidata,"Embassy of France, Tashkent",central,301,none
+uzbekistan.mid.ru,3,wikidata,embassy of Russia in Uzbekistan,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

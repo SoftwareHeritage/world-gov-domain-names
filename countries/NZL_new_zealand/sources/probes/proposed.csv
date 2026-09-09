@@ -1,0 +1,39 @@
+hostname,http_status,mx
+acc.co.nz,301,10 mx1.nz.smxemail.com.; 20 mx2.nz.smxemail.com.
+agmardt.org.nz,200,20 mx2.nz.smxemail.com.; 10 mx1.nz.smxemail.com.
+agresearch.co.nz,301,10 agresearch-co-nz.mail.protection.outlook.com.
+aucklandstadiums.co.nz,301,10 au-smtp-inbound-2.mimecast.com.; 10 au-smtp-inbound-1.mimecast.com.
+cookhicom.org.nz,404,10 cookhicom-org-nz.mail.protection.outlook.com.
+dst.mil.nz,200,5 dst-mil-nz.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+fiji.org.nz,200,none
+fireandemergency.nz,301,0 fireandemergency-nz.mail.protection.outlook.com.
+hnzc.co.nz,301,0 hnzc-co-nz.mail.protection.outlook.com.
+metroinfo.co.nz,301,20 metroinfo-co-nz.mail.protection.outlook.com.
+misiones.cubaminrex.cu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+newzealand.mfa.ir,307,none
+newzealand.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+niwa.co.nz,200,0 niwa-co-nz.mail.protection.outlook.com.
+nz.ambafrance.org,301,none
+nzdf.mil.nz,301,5 mx1.securemx.biz.; 7 mx2.securemx.biz.
+nzspaceagency.nz,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nzspaceagency.nz found.,20 mx2.titan.email.; 1 www.savagespace.co.nz.
+occ.org.nz,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 occ-org-nz.mail.protection.outlook.com.
+ombudsman.parliament.nz,403,10 mx1.nz.smxemail.com.; 10 mx2.nz.smxemail.com.
+pakistanhc.org.nz,200,0 mx2.mailchannels.net.; 0 mx1.mailchannels.net.
+parliament.nz,ConnectException,none
+philembassy.org.nz,200,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+png.org.nz,200,0 png-org-nz.mail.protection.outlook.com.
+roc-taiwan.org,302,none
+samoa.org.nz,200,5 smtp.ds.network.; 10 smtp-uk.ds.network.
+sihc.org.nz,200,0 sihc-org-nz.mail.protection.outlook.com.
+tabnz.org,308,0 tabnz-org.mail.protection.outlook.com.
+taic.org.nz,200,10 taic-org-nz.mail.protection.outlook.com.
+teakawhaiora.nz,ConnectException,0 TeAkaWhaiOra-nz.mail.protection.outlook.com.
+tikatangata.org.nz,200,20 mx2.nz.smxemail.com.; 10 mx1.nz.smxemail.com.
+unesco.org.nz,HttpTimeoutException: request timed out,0 education-govt-nz.mail.protection.outlook.com.
+vote.nz,200,5 vote-nz.mail.protection.outlook.com.
+wellington.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+wellington.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+wellington.thaiembassy.org,200,none
+www3.parliament.nz,301,none

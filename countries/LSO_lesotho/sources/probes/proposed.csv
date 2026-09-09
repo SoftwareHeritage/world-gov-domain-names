@@ -1,0 +1,7 @@
+hostname,http_status,mx
+agricresearch.org.ls,200,10 mx2.titan.email.; 5 mx1.titan.email.
+centralbank.org.ls,200,20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ls.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ls.china-embassy.org found.,none
+nationalassembly.parliament.ls,200,10 mail.nationalassembly.parliament.ls.
+parliament.ls,200,10 mail.parliament.ls.

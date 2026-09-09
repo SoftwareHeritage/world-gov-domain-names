@@ -1,0 +1,12 @@
+hostname,http_status,mx
+ambafrance-ye.org,ConnectException,none
+arabiafelixacademy.org,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+moee-ye.com,200,0 moee-ye.com.
+nlye.org,200,0 .
+saba.ye,302,none
+sabanew.net,200,10 _dc-mx.ed8c85bb6453.sabanew.net.
+ye.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ye.chineseembassy.org found.,none
+yemen-nic.info,200,10 yemen-nic.info.
+yemen.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

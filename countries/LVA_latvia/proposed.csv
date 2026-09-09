@@ -1,45 +1,45 @@
 hostname,score,sources,label,level,http_status,mx
-arhivi.lv,7,wikidata;wikidata,Latvijas Valsts kinofotofonodokumentu arhīvs | State Archive of Personnel Files,,,
-likumi.lv,7,linkgraph,Linked from 33 public-sector domains,,,
-valoda.lv,7,wikidata;wikidata,The Latvian Language Agency,,,
-jesuiten.org,6,wikidata;wikidata,Jesuit Province of Central Europe,,,
-roc-taiwan.org,6,wikidata;wikidata,Taipei Mission in the Republic of Latvia | Taipei Mission in Latvia,central,,
-adazi.lv,4,wikidata,Q90307473,central-1,,
-archiv.org.lv,4,wikidata,Latvian State Archive,,,
-bank.lv,4,wikidata,Bank of Latvia,,,
-cesis.lv,4,wikidata,Q90309861,central-1,,
-cvk.lv,4,wikidata,Central Election Commission,central,,
-latmb.lv,4,wikidata,Metrology Bureau,,,
-liepaja.lv,4,wikidata,Liepaja City Council,central-1,,
-lja.lv,4,wikidata,Maritime Administration of Latvia,,,
-lnb.lv,4,wikidata,National Library of Latvia,,,
-mantojums.lv,4,wikidata,National Heritage Board of Latvia,,,
-memorialiemuzeji.lv,4,wikidata,Association of Memorial Museums,,,
-meteo.lv,4,wikidata,"Latvian Environment, Geology and Meteorology Centre",,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Riga",central,,
-neplpadome.lv,4,wikidata,National Electronic Mass Media Council,,,
-president.lv,4,wikidata,Chancery of the President of Latvia,,,
-prokuratura.lv,4,wikidata,Prosecution Office of the Republic of Latvia,,,
-riga.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Riga",central,,
-rpp.riga.lv,4,wikidata,Riga Municipal Police,central-1,,
-tiesas.lv,4,wikidata,Q90298932,,,
-tukums.lv,4,wikidata,Tukums Municipality council,central-1,,
-unesco.lv,4,wikidata,Latvian National Commission for UNESCO,,,
-uzembassy.lv,4,wikidata,embassy of Uzbekistan in Latvia,central,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Latvia,central,,
-latvia.mid.ru,3,wikidata,"Embassy of Russia, Riga",central,,
-latvia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Latvia,,,
-letland.um.dk,3,wikidata,embassy of Denmark in Latvia,central,,
-lv.ambafrance.org,3,wikidata,"Embassy of France, Riga",central,,
-lv.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Riga",central,,
-lv.mfa.lt,3,wikidata,"Embassy of Lithuania, Riga",central,,
-mfa.gr,3,wikidata,embassy of Greece in Latvia,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Latvia,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Latvia,central,,
-netherlandsworldwide.nl,3,wikidata,Embassy of the Netherlands in Latvia,central,,
-norway.no,3,wikidata,Embassy of Norway in Latvia,central,,
-riga.diplo.de,3,wikidata,"Embassy of Germany, Riga",central,,
-riga.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Latvia,central,,
-riga.mfa.ee,3,wikidata,Embassy of Estonia in Riga,central,,
-swedenabroad.com,3,wikidata,"Embassy of Sweden, Riga",central,,
-vadc.lv,2,wikidata;wikidata;wikidata,Blood Donor Centre of Latvia,,,
+arhivi.lv,7,wikidata;wikidata,Latvijas Valsts kinofotofonodokumentu arhīvs | State Archive of Personnel Files,,HttpConnectTimeoutException: HTTP connect timed out,0 arhivi-lv.mail.protection.outlook.com.
+likumi.lv,7,linkgraph,Linked from 33 public-sector domains,,200,0 likumi-lv.mail.protection.outlook.com.
+valoda.lv,7,wikidata;wikidata,The Latvian Language Agency,,200,1 valoda-lv.mail.protection.outlook.com.
+jesuiten.org,6,wikidata;wikidata,Jesuit Province of Central Europe,,301,10 jesuiten-org.mail.protection.outlook.com.
+roc-taiwan.org,6,wikidata;wikidata,Taipei Mission in the Republic of Latvia | Taipei Mission in Latvia,central,302,none
+adazi.lv,4,wikidata,Q90307473,central-1,302,0 adazi-lv.mail.protection.outlook.com.
+archiv.org.lv,4,wikidata,Latvian State Archive,,200,none
+bank.lv,4,wikidata,Bank of Latvia,,301,0 bank-lv.q-v1.mx.microsoft.
+cesis.lv,4,wikidata,Q90309861,central-1,301,0 cesis-lv.mail.protection.outlook.com.
+cvk.lv,4,wikidata,Central Election Commission,central,200,5 mx2.cvk.lv.
+latmb.lv,4,wikidata,Metrology Bureau,,301,10 latmb-lv.mail.protection.outlook.com.
+liepaja.lv,4,wikidata,Liepaja City Council,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mailz.liepaja.lv.
+lja.lv,4,wikidata,Maritime Administration of Latvia,,301,0 lja-lv.mail.protection.outlook.com.
+lnb.lv,4,wikidata,National Library of Latvia,,301,10 mx.lnb.lv.
+mantojums.lv,4,wikidata,National Heritage Board of Latvia,,200,0 mantojums-lv.mail.protection.outlook.com.
+memorialiemuzeji.lv,4,wikidata,Association of Memorial Museums,,200,0 memorialiemuzeji-lv.mail.protection.outlook.com.
+meteo.lv,4,wikidata,"Latvian Environment, Geology and Meteorology Centre",,302,10 lidaka.lvgmc.lv.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Riga",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+neplpadome.lv,4,wikidata,National Electronic Mass Media Council,,301,0 neplpadome-lv.mail.protection.outlook.com.
+president.lv,4,wikidata,Chancery of the President of Latvia,,301,20 mail.president.lv.; 5 mail1.president.lv.
+prokuratura.lv,4,wikidata,Prosecution Office of the Republic of Latvia,,302,50 fm.prokuratura.lv.
+riga.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Riga",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+rpp.riga.lv,4,wikidata,Riga Municipal Police,central-1,200,none
+tiesas.lv,4,wikidata,Q90298932,,301,10 mx2.tm.gov.lv.; 20 mx1.tm.gov.lv.
+tukums.lv,4,wikidata,Tukums Municipality council,central-1,301,10 mail.tukums.lv.
+unesco.lv,4,wikidata,Latvian National Commission for UNESCO,,301,20 mx2.latnet.lv.; 10 mx.latnet.lv.
+uzembassy.lv,4,wikidata,embassy of Uzbekistan in Latvia,central,200,5 mail.streamnetworks.lv.
+finlandabroad.fi,3,wikidata,embassy of Finland in Latvia,central,301,10 mail.valtori.fi.
+latvia.mid.ru,3,wikidata,"Embassy of Russia, Riga",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+latvia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Latvia,,301,none
+letland.um.dk,3,wikidata,embassy of Denmark in Latvia,central,301,none
+lv.ambafrance.org,3,wikidata,"Embassy of France, Riga",central,301,none
+lv.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Riga",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching lv.chineseembassy.org found.,none
+lv.mfa.lt,3,wikidata,"Embassy of Lithuania, Riga",central,403,10 mxs1.urm.lt.
+mfa.gr,3,wikidata,embassy of Greece in Latvia,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Latvia,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Latvia,central,301,10 mail.gov.sk.
+netherlandsworldwide.nl,3,wikidata,Embassy of the Netherlands in Latvia,central,301,0 .
+norway.no,3,wikidata,Embassy of Norway in Latvia,central,301,0 mx.domeneshop.no.
+riga.diplo.de,3,wikidata,"Embassy of Germany, Riga",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+riga.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Latvia,central,302,none
+riga.mfa.ee,3,wikidata,Embassy of Estonia in Riga,central,200,none
+swedenabroad.com,3,wikidata,"Embassy of Sweden, Riga",central,301,none
+vadc.lv,2,wikidata;wikidata;wikidata,Blood Donor Centre of Latvia,,301,none

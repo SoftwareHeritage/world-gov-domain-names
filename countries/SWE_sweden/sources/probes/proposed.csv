@@ -1,0 +1,313 @@
+hostname,http_status,mx
+1177.se,301,10 1177-se.mail.protection.outlook.com.
+aklagare.se,301,10 mail1.aklagare.se.; 10 mail2.aklagare.se.
+ambafrance-se.org,ConnectException,5 mta-gw.infomaniak.ch.
+ambardcstockholm.com,200,20 mail2.loopia.se.; 10 mailcluster.loopia.se.
+ambasadat.net,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+arbetsdomstolen.se,200,10 adspambx0001.arbetsdomstolen.se.
+arbetsformedlingen.se,200,10 smtp.arbetsformedlingen.se.
+arbetsgivarverket.se,301,10 arbetsgivarverket-se.mail.protection.outlook.com.
+arn.se,200,10 mx1.epm.se.; 10 mx2.epm.se.
+arvsfonden.se,301,10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 30 se.mx3.mailanyone.net.; 40 se.mx4.mx25.net.
+av.se,301,10 mail.av.se.; 20 mail2.av.se.
+bangladoot.se,202,78 route2.mx.cloudflare.net.; 38 route1.mx.cloudflare.net.; 25 route3.mx.cloudflare.net.
+barnombudsmannen.se,301,10 bospambx0001.barnombudsmannen.se.
+bfn.se,301,100 post2.fi.se.; 5 post.fi.se.
+bihambasada.se,301,10 mx2.pub.mailpod11-cph3.one.com.; 10 mx3.pub.mailpod11-cph3.one.com.; 10 mx1.pub.mailpod11-cph3.one.com.; 10 mx4.pub.mailpod11-cph3.one.com.
+bolagsverket.se,IOException: HTTP/1.1 header parser received no bytes,10 ext-mail.bolagsverket.se.
+botswana.se,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching botswana.se found.,none
+boverket.se,301,10 mx02.advania.cloud.; 10 mx01.advania.cloud.
+bra.se,200,30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.
+brottsoffermyndigheten.se,301,10 brspambx0001.brottsoffermyndigheten.se.
+bth.se,301,10 bth-se.mail.protection.outlook.com.
+business-sweden.com,301,none
+cdfn.se,200,none
+chinaembassy.se,200,10 mx10.websupport.se.; 100 mx20.websupport.se.
+consulateofswedenseattle.com,ConnectException,none
+coronakommissionen.com,200,10 mx2.forwardemail.net.; 10 mx1.forwardemail.net.
+csn.se,301,10 mx01.csn.se.; 10 mx02.csn.se.
+digg.se,301,5 diapmx01.digg.se.
+dintur.se,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching dintur.se found.,20 dintur-se.mail.protection.outlook.com.
+do.se,ProtocolException: malformed response: Prohibited header name 'connection',10 mx1.epm.se.; 10 mx2.epm.se.
+domstol.se,301,none
+du.se,301,10 mailfilter-ng-1.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-4.sunet.se.
+ehalsomyndigheten.se,301,0 ehspambx0001.ehalsomyndigheten.se.
+ei.se,200,10 ei-se.mail.protection.outlook.com.
+ekn.se,301,10 mx02.advania.cloud.; 10 mx01.advania.cloud.
+ekobrottsmyndigheten.se,301,10 mail2.aklagare.se.; 10 mail1.aklagare.se.
+elsakerhetsverket.se,303,20 mailgw.elsakerhetsverket.se.
+embassymozambique.se,302,0 embassymozambique-se.mail.protection.outlook.com.
+embolivia.se,301,0 embolivia-se.mail.protection.outlook.com.; 10 mail.embolivia.se.
+energimyndigheten.se,301,10 energimyndigheten-se.mail.protection.outlook.com.
+eritrean-embassy.se,200,10 mx10.websupport.se.; 100 mx20.websupport.se.
+esf.se,301,10 mx01.advania.cloud.; 20 mx02.advania.cloud.
+ethemb.se,403,none
+etikprovning.se,301,30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.; 20 se.mx2.mx25.net.
+fba.se,200,0 fba-se.mail.protection.outlook.com.
+fhs.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 fhs-se.mail.protection.outlook.com.
+fi.se,400,100 post2.fi.se.; 5 post.fi.se.
+finlandabroad.fi,301,10 mail.valtori.fi.
+fmi.se,200,10 fmi-se.mail.protection.outlook.com.
+fmv.se,301,5 post6.fmv.se.; 5 post5.fmv.se.
+foi.se,200,0 ip1-m.foi.se.
+folkhalsomyndigheten.se,301,30 se.mx3.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.; 10 se.mx1.mailanyone.net.
+formas.se,200,10 mailgw5.vinnova.se.; 20 mailgw6.vinnova.se.
+forsakringskassan.se,301,5 maily2.forsakringskassan.se.; 5 maily1.forsakringskassan.se.
+forskarskattenamnden.se,IOException: HTTP/1.1 header parser received no bytes,10 marathon.skatteverket.se.; 10 telegraf.skatteverket.se.; 10 ansible.skatteverket.se.
+forsvarsmakten.se,301,10 mx-70.mil.se.; 10 mx-50.mil.se.; 10 mx-60.mil.se.; 10 mx-80.mil.se.
+forte.se,200,20 mailgw6.vinnova.se.; 10 mailgw5.vinnova.se.
+fortifikationsverket.se,302,10 mail02.fortifikationsverket.se.; 10 mail01.fortifikationsverket.se.
+fpr.se,301,10 mx-01-eu-central-1.prod.hydra.sophos.com.; 20 mx-02-eu-central-1.prod.hydra.sophos.com.
+fra.se,405,40 mx-03.fra.se.; 30 mx-04.fra.se.
+ftn.se,301,20 smtp3.pensionsmyndigheten.se.; 30 smtp4.pensionsmyndigheten.se.
+genteknik.se,200,0 genteknik-se.mail.protection.outlook.com.
+giella.org,301,none
+gih.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 gih-se.mail.protection.outlook.com.
+gotahovratt.se,301,none
+goteborg.se,200,10 mx2.hc2437-76.eu.iphmx.com.; 10 mx1.hc2437-76.eu.iphmx.com.
+gotland.se,200,20 mail2.gotland.se.; 10 mail.gotland.se.
+gu.se,301,10 gu-se.mail.protection.outlook.com.
+han.se,301,20 mx02.advania.cloud.; 10 mx01.advania.cloud.
+handelskammer.se,301,10 handelskammer-se.mail.protection.outlook.com.
+harpsund.se,301,10 mailcluster.loopia.se.; 20 mail2.loopia.se.
+havochvatten.se,302,20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.
+hb.se,308,0 hb-se.mail.protection.outlook.com.
+hh.se,301,0 hh-se.mail.protection.outlook.com.
+hig.se,301,0 hig-se.mail.protection.outlook.com.
+his.se,301,0 fml0.his.se.
+hkr.se,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching hkr.se found.,10 hkr-se.mail.protection.outlook.com.
+hogstaforvaltningsdomstolen.se,301,none
+hovrattenfornedrenorrland.se,301,none
+hovrattenovrenorrland.domstol.se,301,none
+hovrattenskaneblekinge.domstol.se,301,none
+hsan.se,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching hsan.se found.,10 mail05.sos.se.; 10 mail04.sos.se.
+hv.se,301,20 lmail02.server.hv.se.; 0 lmail01.server.hv.se.
+iaf.se,200,30 se.mx3.mailanyone.net.; 20 se.mx2.mx25.net.; 10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.
+ifau.se,301,20 mail2.loopia.se.; 10 mailcluster.loopia.se.
+imy.se,302,10 mx2.improve.nordlo.cloud.; 10 mx1.improve.nordlo.cloud.
+inspsf.se,ConnectException,10 inspsf-se.mail.protection.outlook.com.
+instytutpolski.pl,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
+irf.se,301,10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-4.sunet.se.
+isof.se,301,10 mailfilter-ng-4.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-1.sunet.se.; 20 mailfilter-ng-2.sunet.se.
+isp.se,200,10 mail.isp.se.
+ivo.se,308,10 mx10.ivo.se.
+jamstalldhetsmyndigheten.se,200,1 jamstalldhetsmyndigheten-se.mail.protection.outlook.com.
+jk.se,HttpConnectTimeoutException: HTTP connect timed out,40 se.mx4.mx25.net.; 20 se.mx2.mx25.net.; 30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.
+jordbruksverket.se,200,30 se.mx3.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.; 10 se.mx1.mailanyone.net.
+kammarkollegiet.se,301,10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.; 20 se.mx2.mx25.net.
+kammarrattenigoteborg.domstol.se,301,none
+kammarrattenijonkoping.domstol.se,301,none
+kammarrattenisundsvall.se,301,none
+karnavfallsfonden.se,301,none
+kau.se,302,10 kau-se.mail.protection.outlook.com.
+kavlinge.se,301,0 kavlinge-se.mail.protection.outlook.com.
+kb.se,301,1 kb-se.mail.protection.outlook.com.
+kemi.se,301,10 kemi-se.mail.protection.outlook.com.
+kenyaembassystockholm.com,200,0 mail.kenyaembassystockholm.com.
+ki.se,200,10 ki-se.mail.protection.outlook.com.
+kkh.se,200,10 kkh-se.mail.protection.outlook.com.
+klimatpolitiskaradet.se,301,20 mailgw6.vinnova.se.; 10 mailgw5.vinnova.se.
+kmh.se,301,10 kmh-se.mail.protection.outlook.com.
+kommerskollegium.se,301,10 komspambx0001.kommerskollegium.se.
+konj.se,301,5 mx-01-eu-central-1.prod.hydra.sophos.com.; 7 mx-02-eu-central-1.prod.hydra.sophos.com.
+konkurrensverket.se,301,none
+konstfack.se,HttpConnectTimeoutException: HTTP connect timed out,10 konstfack-se.mail.protection.outlook.com.
+konstnarsnamnden.se,301,0 konstnarsnamnden-se.mail.protection.outlook.com.
+konsumentverket.se,301,0 konsumentverket-se.mail.protection.outlook.com.
+kriminalvarden.se,301,10 mailgw.kriminalvarden.se.
+kronofogden.se,200,10 ansible.skatteverket.se.; 10 telegraf.skatteverket.se.; 10 marathon.skatteverket.se.
+kth.se,301,10 mailfilter-ng-3.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-4.sunet.se.
+kulturanalys.se,200,10 kulturanalys-se.mail.protection.outlook.com.
+kulturradet.se,200,1 kulturradet-se.mail.protection.outlook.com.
+kungahuset.se,301,10 kungahuset-se.mail.protection.outlook.com.
+kustbevakningen.se,301,15 mail.kustbevakningen.se.; 10 mail.kbv.se.; 10 mail.coastguard.se.
+kuwaitembassy.se,200,20 alt1.aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx4.googlemail.com.; 10 aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 30 aspmx5.googlemail.com.
+lagradet.se,301,1 mx1.oderland.com.; 1 mx4.oderland.com.; 1 mx3.oderland.com.; 1 mx2.oderland.com.
+lakemedelsverket.se,301,10 mailgw11.mpa.se.; 10 mailgw10.mpa.se.
+lansstyrelsen.se,301,10 external-mx.lst.se.
+lantmateriet.se,302,15 nexus-tss001.lmv.lm.se.; 10 nexus-tsg001.lmv.lm.se.; 10 nexus-tm01.lmv.lm.se.
+laosembassystockholm.egnaverk.se,SSLHandshakeException: Remote host terminated the handshake,none
+lebanonembassy.se,301,10 mx4.pub.mailpod11-cph3.one.com.; 10 mx2.pub.mailpod11-cph3.one.com.; 10 mx1.pub.mailpod11-cph3.one.com.; 10 mx3.pub.mailpod11-cph3.one.com.
+levandehistoria.se,307,10 levandehistoria-se.mail.protection.outlook.com.
+lfv.se,200,30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.; 20 se.mx2.mx25.net.
+liu.se,200,20 liu-se.mail.protection.outlook.com.
+livsmedelsverket.se,301,20 mail2.slv.se.; 20 mail.slv.se.
+lnu.se,301,10 lnu-se.mail.protection.outlook.com.
+lotteriinspektionen.se,500,30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.
+ltu.se,301,10 ltu-se.mail.protection.outlook.com.
+lu.se,301,0 lu-se.mail.protection.outlook.com.
+markochmiljooverdomstolen.se,301,none
+mau.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mau-se.mail.protection.outlook.com.
+mcf.se,301,10 mailgw-02.msb.se.; 10 mailgw-01.msb.se.
+mdu.se,301,10 mdu-se.mail.protection.outlook.com.
+mediemyndigheten.se,200,9 mediemyndigheten-se.mail.protection.outlook.com.
+mfd.se,301,10 mdspambx0001.mfd.se.
+mfof.se,200,10 mfspambx0001.mfof.se.
+mi.se,301,10 mispambx0001.mi.se.
+migrationsverket.se,301,0 migrationsverket-se.mail.protection.outlook.com.
+miun.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 miun-se.mail.protection.outlook.com.; 50 tarbaby.junkemailfilter.com.
+modernamuseet.se,301,20 se.mx2.mx25.net.; 10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mpf.se,200,10 mx1.epm.se.; 20 mx2.epm.se.
+mrinstitutet.se,200,0 mrinstitutet-se.mail.protection.outlook.com.
+msi.se,301,0 sinspambx0001.msi.se.
+mtfa.se,HttpConnectTimeoutException: HTTP connect timed out,5 mta-prd-mt1.vv1.se.; 5 mta-prd-mt1.g30.se.
+mtm.se,200,10 mtm-se.mail.protection.outlook.com.
+mucf.se,301,10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 30 se.mx3.mailanyone.net.; 40 se.mx4.mx25.net.
+musikverket.se,301,0 musikverket-se.mail.protection.outlook.com.
+myh.se,302,10 myh-se.mail.protection.outlook.com.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nai.uu.se,200,10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-4.sunet.se.; 20 mailfilter-ng-2.sunet.se.
+namndenmotdiskriminering.se,200,10 mx4.mailpod15-cph3.g1i.one.com.; 10 mx3.mailpod15-cph3.g1i.one.com.; 10 mx2.mailpod15-cph3.g1i.one.com.; 10 mx1.mailpod15-cph3.g1i.one.com.
+nationalmuseum.se,301,0 nationalmuseum-se.mail.protection.outlook.com.
+naturvardsverket.se,301,10 mx2.improve.nordlo.cloud.; 10 mx1.improve.nordlo.cloud.
+ncsc.se,302,0 ncsc-se.mail.protection.outlook.com.
+nfc.polisen.se,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nfc.polisen.se found.,10 mail2.polisen.se.; 10 mail1.polisen.se.
+nfh.se,302,none
+nigerianembassy.nu,302,0 nigerianembassy-nu.mail.protection.outlook.com.
+norrasjukvardsregionforbundet.se,301,none
+norrbotten.se,301,5 norrbotten-se.mail.protection.outlook.com.
+norway.no,301,0 mx.domeneshop.no.
+nrm.se,301,30 se.mx3.mailanyone.net.; 40 se.mx4.mx25.net.; 20 se.mx2.mx25.net.; 10 se.mx1.mailanyone.net.
+nunciature.se,ConnectException,none
+oks.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 oks-se.mail.protection.outlook.com.
+onep.se,301,0 onep-se.mail.protection.outlook.com.
+onh.se,301,20 mx02.advania.cloud.; 10 mx01.advania.cloud.
+oredlighetsprovning.se,301,30 se.mx3.mailanyone.net.; 40 se.mx4.mx25.net.; 20 se.mx2.mx25.net.; 10 se.mx1.mailanyone.net.
+oru.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 oru-se.mail.protection.outlook.com.
+oskarshamn.se,302,5 oskarshamn-se.mail.protection.outlook.com.
+osthammar.se,301,10 mx.itcentrum.se.
+overklagandenamnden.se,200,10 mx2.improve.nordlo.cloud.; 10 mx1.improve.nordlo.cloud.
+palestineembassy.se,200,10 mx4.pub.mailpod14-cph3.one.com.; 10 mx3.pub.mailpod14-cph3.one.com.; 10 mx2.pub.mailpod14-cph3.one.com.; 10 mx1.pub.mailpod14-cph3.one.com.
+pensionsmyndigheten.se,301,30 smtp4.pensionsmyndigheten.se.; 20 smtp3.pensionsmyndigheten.se.
+polar.se,301,0 polar-se.mail.protection.outlook.com.
+polisen.se,200,10 mail2.polisen.se.; 10 mail1.polisen.se.
+prv.se,301,10 prv-se.mail.protection.outlook.com.
+pts.se,200,0 pts-se.mail.protection.outlook.com.
+raa.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 raa-se.mail.protection.outlook.com.
+rattshjalp.se,301,none
+regelradet.se,301,0 regelradet-se.mail.protection.outlook.com.
+regionblekinge.se,200,20 mx1.regionblekinge.se.; 50 smtp.ltblekinge.se.; 20 mx2.regionblekinge.se.
+regiondalarna.se,301,10 regiondalarna-se.mail.protection.outlook.com.
+regiongavleborg.se,301,10 regiongavleborg-se.mail.protection.outlook.com.
+regionhalland.se,301,10 regionhalland-se.mail.protection.outlook.com.
+regionjh.se,200,10 regionjh-se.mail.protection.outlook.com.
+regionkalmar.se,200,5 mx1.regionkalmar.se.; 5 mx2.regionkalmar.se.
+regionkronoberg.se,400,0 regionkronoberg-se.mail.protection.outlook.com.
+regionorebrolan.se,302,5 regionorebrolan-se.mail.protection.outlook.com.
+regionostergotland.se,301,10 mailgw1.regionostergotland.se.; 10 mailgw2.regionostergotland.se.
+regionsormland.se,200,10 regionsormland-se.mail.protection.outlook.com.
+regionstockholm.se,301,10 regionstockholm-se.mx1.mailanyone.net.; 20 regionstockholm-se.mx2.mx25.net.; 40 regionstockholm-se.mx4.mx25.net.; 30 regionstockholm-se.mx3.mailanyone.net.
+regionuppsala.se,200,10 regionuppsala-se.mail.protection.outlook.com.
+regionvarmland.se,200,10 regionvarmland-se.mail.protection.outlook.com.
+regionvasterbotten.se,200,10 regionvasterbotten-se.mail.protection.outlook.com.
+regionvastmanland.se,405,10 regionvastmanland-se.mail.protection.outlook.com.
+rekryteringsmyndigheten.se,HttpConnectTimeoutException: HTTP connect timed out,none
+revisorsinspektionen.se,302,10 spamfilter.revisorsinspektionen.se.
+riksarkivet.se,200,10 mail01.riksarkivet.se.
+riksbank.se,301,10 riksbank-se.mail.protection.outlook.com.
+riksgalden.se,302,10 mx1.riksgalden.se.; 10 mx2.riksgalden.se.
+rjl.se,302,10 mail3.rjl.se.
+rmv.se,301,10 mx1.rmv.se.; 10 mx2.rmv.se.
+roc-taiwan.org,302,none
+rvn.se,302,10 rvn-se.mail.protection.outlook.com.
+rwandaembassy.se,301,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+rymdstyrelsen.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailgw5.vinnova.se.; 20 mailgw6.vinnova.se.
+sakerhetspolisen.se,247,10 mail.sakerhetspolisen.se.
+sameskolstyrelsen.se,200,1 ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+sametinget.se,HttpConnectTimeoutException: HTTP connect timed out,6 mail4.norrmoln.se.; 5 mail3.norrmoln.se.; 0 sametinget-se.mail.protection.outlook.com.
+sanningskommissionensamer.se,200,10 mailcluster.loopia.se.; 20 mail2.loopia.se.
+sbu.se,301,10 sbu-se.mail.protection.outlook.com.
+scb.se,301,20 mail2.scb.se.; 10 mail1.scb.se.
+se.mfa.lt,403,none
+se.mvep.hr,ConnectException,none
+sfv.se,301,10 sfv-se.mail.protection.outlook.com.
+sgu.se,301,10 mx2.sgu.se.; 10 mx1.sgu.se.
+sh.se,301,0 sh-se.mail.protection.outlook.com.
+shk.se,200,10 hkspambx0001.shk.se.
+shm.se,200,10 shm-se.mail.eo.outlook.com.
+si.se,200,10 si-se.mail.protection.outlook.com.
+sida.se,200,10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.
+sieps.se,200,1 sieps-se.mail.protection.outlook.com.
+siun.se,200,0 mail.ext.siun.se.
+sjofartsverket.se,200,10 mx2.sjofartsverket.se.; 10 mx1.sjofartsverket.se.
+sjukvardsregionmellan.se,301,none
+skane.se,403,10 skane-se.mail.protection.outlook.com.
+skatterattsnamnden.se,IOException: HTTP/1.1 header parser received no bytes,10 telegraf.skatteverket.se.; 10 ansible.skatteverket.se.; 10 marathon.skatteverket.se.
+skatteverket.se,301,10 ansible.skatteverket.se.; 10 telegraf.skatteverket.se.; 10 marathon.skatteverket.se.
+skl.polisen.se,ConnectException,none
+skogsstyrelsen.se,200,10 skogsstyrelsen.in.tmes.trendmicro.eu.
+skolfi.se,301,0 skolfi-se.mail.protection.outlook.com.
+skolinspektionen.se,200,10 mx2.improve.nordlo.cloud.; 10 mx1.improve.nordlo.cloud.
+skolverket.se,301,10 smtp1.skolverket.se.; 10 smtp2.skolverket.se.
+slu.se,302,10 slu-se.mail.protection.outlook.com.
+slv.se,301,20 mail.slv.se.; 20 mail2.slv.se.
+smhi.se,301,20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-4.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-1.sunet.se.
+socialstyrelsen.se,200,10 mail04.sos.se.; 10 mail05.sos.se.
+sodrasjukvardsregionen.se,200,10 mail.sodrasjukvardsregionen.se.; 20 mail2.sodrasjukvardsregionen.se.
+sprakochfolkminnen.se,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sprakochfolkminnen.se found.,10 mailfilter-ng-1.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-4.sunet.se.; 10 mailfilter-ng-3.sunet.se.
+spsm.se,200,10 mx2.spsm.se.
+spv.se,302,5 spaspambx001.spv.se.
+stad.org,200,0 mx2.oderland.com.; 0 mx4.oderland.com.; 0 mx1.oderland.com.; 0 mx3.oderland.com.
+stat-inst.se,301,40 se.mx4.mx25.net.; 20 se.mx2.mx25.net.; 5 mail.stat-inst.se.; 30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.
+statensansvarsnamnd.se,301,none
+statensmuseermtf.se,301,10 mx4.culturnet.se.; 20 mx3.culturnet.se.
+statenssc.se,301,10 mail.statenssc.se.
+statskontoret.se,301,5 epost.esv.se.
+stockholm.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+stockholm.europarl.europa.eu,302,none
+stockholm.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 maila.stockholm.mfa.gov.hu.; 10 mailb.stockholm.mfa.gov.hu.
+storstockholm.brand.se,302,10 mx.ssbf.brand.se.
+stralsakerhetsmyndigheten.se,301,dig error
+su.se,301,10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-4.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-3.sunet.se.
+sudanembassy.se,301,10 mailcluster.loopia.se.; 20 mail2.loopia.se.
+sva.se,301,10 sva-se.mail.protection.outlook.com.
+svea.se,301,none
+svenskafaokommitten.se,301,none
+svenskailo-kommitten.se,200,10 mx02.glesys.se.; 10 mx01.glesys.se.
+sverige.um.dk,301,none
+svff.se,200,0 svff-se.mail.protection.outlook.com.
+svk.se,301,10 nspamgw02.svk.se.; 10 nspamgw01.svk.se.
+swedac.se,301,30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.
+sweden.mfa.am,301,none
+sweden.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sweden.nlembassy.org,ConnectException,none
+sweden.representation.ec.europa.eu,302,none
+swedgeo.se,301,20 se.mx2.mx25.net.; 30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.
+sydostrasjukvardsregionen.se,200,none
+syrianembassy.se,404,10 mx10.websupport.se.
+tanemb.se,200,10 mx1.admax.se.
+thaiembassy.se,302,10 mx.ilait.se.
+tillvaxtanalys.se,301,0 tillvaxtanalys-se.mail.protection.outlook.com.
+tillvaxtverket.se,200,0 tillvaxtverket-se.mail.protection.outlook.com.
+tlv.se,301,10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.
+trafa.se,301,2 trafa-se.mail.protection.outlook.com.
+trafikverket.se,301,4 mailg1.trafikverket.se.; 4 mailg2.trafikverket.se.
+transportstyrelsen.se,301,15 mx2.transportstyrelsen.se.; 5 mx1.transportstyrelsen.se.
+tullhuset.org,301,20 mail2.loopia.se.; 10 mailcluster.loopia.se.
+tullverket.se,301,10 extmp0004.tullverket.se.; 10 extmp0005.tullverket.se.
+ubm.se,200,10 ansible.skatteverket.se.; 10 telegraf.skatteverket.se.; 10 marathon.skatteverket.se.
+uhr.se,200,1 uhr-se.mail.protection.outlook.com.
+uka.se,301,10 mx01.advania.cloud.; 20 mx02.advania.cloud.
+umu.se,302,10 umu-se.mail.protection.outlook.com.
+unesco.se,200,10 mailcluster.loopia.se.; 20 mail2.loopia.se.
+uniarts.se,301,0 uniarts-se.mail.protection.outlook.com.
+upphandlingsmyndigheten.se,301,0 upphandlingsmyndigheten-se.mail.protection.outlook.com.
+uu.se,301,10 mailfilter-ng-1.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-4.sunet.se.
+val.se,301,10 telegraf.skatteverket.se.; 10 ansible.skatteverket.se.; 10 marathon.skatteverket.se.
+varberg.se,200,10 varberg-se.mail.protection.outlook.com.
+vardanalys.se,301,10 vaspambx0001.vardanalys.se.
+varldskulturmuseerna.se,301,0 varldskulturmuseerna-se.mail.protection.outlook.com.
+vastrahovratten.domstol.se,301,none
+vastsvenskahandelskammaren.se,301,0 vastsvenskahandelskammaren-se.mail.protection.outlook.com.
+vasyd.se,HttpConnectTimeoutException: HTTP connect timed out,10 vasyd.in.tmes.trendmicro.eu.
+vattenmyndigheterna.se,301,none
+vetansvar.se,ConnectException,40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.
+vgregion.se,301,10 vgregion-se.mail.protection.outlook.com.
+vinnova.se,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailgw5.vinnova.se.; 20 mailgw6.vinnova.se.
+visitumeacity.se,301,none
+vr.se,301,0 vr-se.mail.protection.outlook.com.
+vti.se,301,0 vti-se.mail.protection.outlook.com.
+www2.irf.se,200,none
+zambiaembassy.se,200,10 zambiaembassy-se.mail.protection.outlook.com.

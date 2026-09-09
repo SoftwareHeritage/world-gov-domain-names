@@ -1,0 +1,20 @@
+hostname,http_status,mx
+assemblee-nationale.tg,403,10 mx2expert.hosteur.net.; 20 mx1expert.hosteur.net.
+bceao.int,ConnectException,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
+ccit.tg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 ccit-tg.mail.protection.outlook.com.
+ceni-tg.org,200,none
+cndh-togo.org,403,0 _dc-mx.181a5c4be146.cndh-togo.org.
+courconstitutionnelle.tg,200,0 courconstitutionnelle.tg.
+courdappeldelome.tg,200,0 courdappeldelome.tg.
+courdescomptes.tg,200,0 mail.courdescomptes.tg.
+coursupremetogo.tg,403,none
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+ghanaembassy-togo.com,ConnectException,none
+hcourtog.com,HttpConnectTimeoutException: HTTP connect timed out,none
+inseed.tg,HttpTimeoutException: request timed out,0 mail.inseed.tg.
+lome.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+minjustg.com,ConnectException,none
+tg.ambafrance.org,301,none
+togo.tg,ConnectException,none
+togoleseministryofhealthlome.myewebsite.com,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching togoleseministryofhealthlome.myewebsite.com found.,none
+unesco.tg.refer.org,HttpConnectTimeoutException: HTTP connect timed out,none

@@ -1,0 +1,45 @@
+hostname,http_status,mx
+adazi.lv,302,0 adazi-lv.mail.protection.outlook.com.
+archiv.org.lv,200,none
+arhivi.lv,HttpConnectTimeoutException: HTTP connect timed out,0 arhivi-lv.mail.protection.outlook.com.
+bank.lv,301,0 bank-lv.q-v1.mx.microsoft.
+cesis.lv,301,0 cesis-lv.mail.protection.outlook.com.
+cvk.lv,200,5 mx2.cvk.lv.
+finlandabroad.fi,301,10 mail.valtori.fi.
+jesuiten.org,301,10 jesuiten-org.mail.protection.outlook.com.
+latmb.lv,301,10 latmb-lv.mail.protection.outlook.com.
+latvia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+latvia.representation.ec.europa.eu,301,none
+letland.um.dk,301,none
+liepaja.lv,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mailz.liepaja.lv.
+likumi.lv,200,0 likumi-lv.mail.protection.outlook.com.
+lja.lv,301,0 lja-lv.mail.protection.outlook.com.
+lnb.lv,301,10 mx.lnb.lv.
+lv.ambafrance.org,301,none
+lv.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching lv.chineseembassy.org found.,none
+lv.mfa.lt,403,10 mxs1.urm.lt.
+mantojums.lv,200,0 mantojums-lv.mail.protection.outlook.com.
+memorialiemuzeji.lv,200,0 memorialiemuzeji-lv.mail.protection.outlook.com.
+meteo.lv,302,10 lidaka.lvgmc.lv.
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+neplpadome.lv,301,0 neplpadome-lv.mail.protection.outlook.com.
+netherlandsworldwide.nl,301,0 .
+norway.no,301,0 mx.domeneshop.no.
+president.lv,301,20 mail.president.lv.; 5 mail1.president.lv.
+prokuratura.lv,302,50 fm.prokuratura.lv.
+riga.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+riga.europarl.europa.eu,302,none
+riga.mfa.ee,200,none
+riga.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+roc-taiwan.org,302,none
+rpp.riga.lv,200,none
+swedenabroad.com,301,none
+tiesas.lv,301,10 mx2.tm.gov.lv.; 20 mx1.tm.gov.lv.
+tukums.lv,301,10 mail.tukums.lv.
+unesco.lv,301,20 mx2.latnet.lv.; 10 mx.latnet.lv.
+uzembassy.lv,200,5 mail.streamnetworks.lv.
+vadc.lv,301,none
+valoda.lv,200,1 valoda-lv.mail.protection.outlook.com.

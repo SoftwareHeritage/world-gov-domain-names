@@ -1,42 +1,42 @@
 hostname,score,sources,label,level,http_status,mx
-cbs.sc,7,wikidata;wikidata,Central Bank of Seychelles,central,,
-esa.egov.sc,7,wikidata;wikidata,Ministry of Industry and Enterprise,central,,
-nationalassembly.sc,7,wikidata;wikidata;wikidata;wikidata,National Assembly of Seychelles | National Assembly,central,,
-sfa.sc,7,wikidata;wikidata,Seychelles Fisheries Authority,central,,
-egov.sc,6,un_desa,UN/DESA national portal,,,
-judiciary.sc,6,wikidata,Supreme Court of Seychelles,central,,
-seychellescultureinstitute.org,6,wikidata;wikidata,"Culture, Art and National Heritage Department | Seychelles National Institute of Culture, Heritage & the Arts",central,,
-ago.sc,4,wikidata,Department of Legal Affairs,central,,
-curatelleoffice.sc,4,wikidata,Curatelle Office,central,,
-drdm.sc,4,wikidata,Department of Risk and Disaster Management,central,,
-ecs.sc,4,wikidata,Electoral Commission of Seychelles,central,,
-infocom.sc,4,wikidata,Information Commission,central,,
-meteo.sc,4,wikidata,Seychelles Meteorological Authority,central,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Victoria",central,,
-nacseychelles.sc,4,wikidata,National Arts and Crafts Council,central,,
-national-library.edu.sc,4,wikidata,National Library of the Seychelles,,,
-nsc.sc,4,wikidata,National Sports Council,central,,
-ntb.sc,4,wikidata,National Tender Board,central,,
-pemc.sc,4,wikidata,Public Enterprise Monitoring Commission,central,,
-saa.sc,4,wikidata,Seychelles Airports Authority,central,,
-sbs.sc,4,wikidata,Seychelles Bureau of Standards,central,,
-scaa.sc,4,wikidata,Seychelles Civil Aviation Authority,central,,
-scra.sc,4,wikidata,Seychelles Communications Regulatory Authority,central,,
-sdf.sc,4,wikidata,Department of Defense,central,,
-seyport.sc,4,wikidata,Seychelles Port Authority,central,,
-shf.sc,4,wikidata,Seychelles National Heritage Research Council,central,,
-slta.sc,4,wikidata,Seychelles Land Transport Agency,central,,
-smsa.sc,4,wikidata,Seychelles Maritime Safety Authority,central,,
-snyc.sc,4,wikidata,Seychelles National Youth Council,central,,
-spa.sc,4,wikidata,Seychelles Port Authority,central,,
-sptc.sc,4,wikidata,Seychelles Public Transport Corporation,central,,
-sqa.sc,4,wikidata,Seychelles Qualifications Authority,central,,
-urc.sc,4,wikidata,Utilities Regulatory Commission,central,,
-investinseychelles.com,3,wikidata,Seychelles Investment Board,central,,
-mayorsofficeseychelles.com,3,wikidata,Office of the Mayor of Victoria,central,,
-misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in Seychelles,central,,
-sc.ambafrance.org,3,wikidata,"Embassy of France, Victoria",central,,
-sc.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Victoria",central,,
-seychelles.mid.ru,3,wikidata,embassy of Russia in Seychelles,central,,
-seychellesnewsagency.com,3,wikidata,Seychelles News Agency,,,
-seychellespostalregulator.com,3,wikidata,Postal Regulatory Secretariat,central,,
+cbs.sc,7,wikidata;wikidata,Central Bank of Seychelles,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 cbs-sc.mail.protection.outlook.com.; 10 cbs-sc.mail.protection.outlook.com.
+esa.egov.sc,7,wikidata;wikidata,Ministry of Industry and Enterprise,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nationalassembly.sc,7,wikidata;wikidata;wikidata;wikidata,National Assembly of Seychelles | National Assembly,central,301,0 nationalassembly-sc.mail.protection.outlook.com.
+sfa.sc,7,wikidata;wikidata,Seychelles Fisheries Authority,central,301,0 sfa-sc.mail.protection.outlook.com.
+egov.sc,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 mx3.egov.sc.
+judiciary.sc,6,wikidata,Supreme Court of Seychelles,central,301,20 mx2.zoho.com.; 50 mx3.zoho.com.; 0 judiciary.sc.; 10 mx.zoho.com.
+seychellescultureinstitute.org,6,wikidata;wikidata,"Culture, Art and National Heritage Department | Seychelles National Institute of Culture, Heritage & the Arts",central,301,15 eforward4.registrar-servers.com.; 10 eforward2.registrar-servers.com.; 10 eforward3.registrar-servers.com.; 10 eforward1.registrar-servers.com.; 20 eforward5.registrar-servers.com.
+ago.sc,4,wikidata,Department of Legal Affairs,central,200,none
+curatelleoffice.sc,4,wikidata,Curatelle Office,central,301,20 mx2.zoho.com.; 50 mx3.zoho.com.; 10 mx.zoho.com.
+drdm.sc,4,wikidata,Department of Risk and Disaster Management,central,301,0 webserver.switch.sc.
+ecs.sc,4,wikidata,Electoral Commission of Seychelles,central,200,0 ecs-sc.mail.protection.outlook.com.
+infocom.sc,4,wikidata,Information Commission,central,301,15 mx3.egov.sc.
+meteo.sc,4,wikidata,Seychelles Meteorological Authority,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching meteo.sc found.,1 meteo-sc.mail.protection.outlook.com.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Victoria",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nacseychelles.sc,4,wikidata,National Arts and Crafts Council,central,301,5 mx10.seychelles.net.; 10 mx5.seychelles.net.; 10 mx20.seychelles.net.; 10 mx15.seychelles.net.
+national-library.edu.sc,4,wikidata,National Library of the Seychelles,,HttpConnectTimeoutException: HTTP connect timed out,10 mx20.seychelles.net.; 10 mx15.seychelles.net.; 5 mx10.seychelles.net.; 10 mx5.seychelles.net.
+nsc.sc,4,wikidata,National Sports Council,central,301,15 mx3.egov.sc.
+ntb.sc,4,wikidata,National Tender Board,central,301,10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.
+pemc.sc,4,wikidata,Public Enterprise Monitoring Commission,central,301,37 route2.mx.cloudflare.net.; 20 route3.mx.cloudflare.net.; 25 route1.mx.cloudflare.net.
+saa.sc,4,wikidata,Seychelles Airports Authority,central,200,1 mx2-eu1.ppe-hosted.com.; 1 mx1-eu1.ppe-hosted.com.
+sbs.sc,4,wikidata,Seychelles Bureau of Standards,central,200,0 sbs-sc.mail.protection.outlook.com.
+scaa.sc,4,wikidata,Seychelles Civil Aviation Authority,central,200,10 mx1-eu1.ppe-hosted.com.; 10 mx2-eu1.ppe-hosted.com.
+scra.sc,4,wikidata,Seychelles Communications Regulatory Authority,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx3.egov.sc.
+sdf.sc,4,wikidata,Department of Defense,central,200,0 sdf-sc.mail.protection.outlook.com.
+seyport.sc,4,wikidata,Seychelles Port Authority,central,HttpConnectTimeoutException: HTTP connect timed out,0 seyport-sc.mail.protection.outlook.com.
+shf.sc,4,wikidata,Seychelles National Heritage Research Council,central,ConnectException,10 mx20.seychelles.net.; 10 mx5.seychelles.net.; 10 mx15.seychelles.net.; 5 mx10.seychelles.net.
+slta.sc,4,wikidata,Seychelles Land Transport Agency,central,307,0 slta-sc.mail.protection.outlook.com.
+smsa.sc,4,wikidata,Seychelles Maritime Safety Authority,central,200,5 mx10.seychelles.net.; 10 mx15.seychelles.net.; 10 mx20.seychelles.net.; 10 mx5.seychelles.net.
+snyc.sc,4,wikidata,Seychelles National Youth Council,central,503,0 snyc-sc.mail.protection.outlook.com.
+spa.sc,4,wikidata,Seychelles Port Authority,central,ConnectException,none
+sptc.sc,4,wikidata,Seychelles Public Transport Corporation,central,200,0 sptc-sc.mail.protection.outlook.com.
+sqa.sc,4,wikidata,Seychelles Qualifications Authority,central,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.egov.sc.; 15 mx3.egov.sc.; 10 mx1.egov.sc.
+urc.sc,4,wikidata,Utilities Regulatory Commission,central,ConnectException,0 urc-sc.mail.protection.outlook.com.
+investinseychelles.com,3,wikidata,Seychelles Investment Board,central,200,10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.
+mayorsofficeseychelles.com,3,wikidata,Office of the Mayor of Victoria,central,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in Seychelles,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sc.ambafrance.org,3,wikidata,"Embassy of France, Victoria",central,301,none
+sc.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Victoria",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sc.china-embassy.org found.,none
+seychelles.mid.ru,3,wikidata,embassy of Russia in Seychelles,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+seychellesnewsagency.com,3,wikidata,Seychelles News Agency,,403,10 rel.m3bg.com.; 40 rel2.m3bg.com.
+seychellespostalregulator.com,3,wikidata,Postal Regulatory Secretariat,central,200,1 mx.seychellespostalregulator.com.cust.b.hostedemail.com.

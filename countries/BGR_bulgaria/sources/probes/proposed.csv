@@ -1,0 +1,712 @@
+hostname,http_status,mx
+aba.government.bg,200,0 mail.aba.government.bg.
+adfi.minfin.bg,404,0 adfi-minfin-bg.u-v1.mx.microsoft.
+aeuf.minfin.bg,403,none
+aglen.bg,301,none
+ahu.mlsp.government.bg,302,none
+aitos.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+aksakovo.bg,HttpConnectTimeoutException: HTTP connect timed out,10 mail.aksakovo.bg.
+aksu.government.bg,200,10 border2.obmen.bg.
+alfatar.egov.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.alfatar.egov.bg.
+ambasadat.net,200,none
+anti-doping.government.bg,301,0 picard.anti-doping.government.bg.
+antitraffic.government.bg,200,10 mail.antitraffic.government.bg.
+antonbg.eu,200,none
+antonovo.bg,200,0 _dc-mx.5ebc4ec32297.antonovo.bg.
+api.bg,HttpConnectTimeoutException: HTTP connect timed out,10 mail.api.bg.
+appd-bg.org,200,10 mail.appd-bg.org.; 5 appd-mail.appd-bg.org.
+appk.government.bg,200,20 mx2.egov.bg.; 10 mx1.egov.bg.
+arbanassi.org,200,none
+archives.government.bg,200,none
+ardino.bg,200,none
+aref.government.bg,200,none
+armymedia.bg,HttpConnectTimeoutException: HTTP connect timed out,0 armymedia.bg.
+asenovgrad.bg,403,0 _dc-mx.07f6f1b43d99.asenovgrad.bg.
+asp.government.bg,HttpConnectTimeoutException: HTTP connect timed out,10 mail.asp.government.bg.; 5 mx2.hc2569-70.eu.iphmx.com.; 5 mx1.hc2569-70.eu.iphmx.com.
+asparuhovo.bg,301,0 asparuhovo.bg.
+avren.bg,200,20 mx20.cmailpro.net.; 30 mx30.cmailpro.net.; 40 mx40.cmailpro.net.; 10 mx10.cmailpro.net.
+az.government.bg,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,10 az-government-bg.mail.protection.outlook.com.
+babiak.selo.bg,ConnectException,none
+balchik.bg,301,5 mbox.balchik.bg.
+banite.egov.bg,302,10 mx1.egov.bg.; 20 mx2.egov.bg.
+bankya.bg,200,1 smtp.google.com.
+bansko.bg,200,10 mail.bansko.bg.
+batak.bg,403,20 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+bd-dunav.bg,301,none
+bda.bg,301,100 bda-bg.q-v1.mx.microsoft.; 0 mx1.hc2569-70.eu.iphmx.com.; 0 mx2.hc2569-70.eu.iphmx.com.
+bdi.bg,200,0 bdi.bg.
+belasitsa.net,HttpConnectTimeoutException: HTTP connect timed out,none
+belene.bg,200,10 shmail55.belene.bg.
+belogradchik.egov.bg,302,10 mx1.egov.bg.; 20 mx2.egov.bg.
+beloslav.org,HttpConnectTimeoutException: HTTP connect timed out,none
+belovo.eu,301,0 belovo.eu.
+berkovitca.iag.bg,200,10 mail.berkovitca.iag.bg.
+berkovitsa.bg,301,0 berkovitsa.bg.
+bfsa.egov.bg,302,none
+bg.ambafrance.org,HttpConnectTimeoutException: HTTP connect timed out,none
+bg.mvep.hr,HttpConnectTimeoutException: HTTP connect timed out,none
+bim.government.bg,200,10 mail.bim.government.bg.
+bl.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+blagoevgrad-adms.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+blagoevgrad-os.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+blagoevgrad-rs.justice.bg,200,none
+blagoevgrad.bg,200,1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+blagoevgrad.iag.bg,ConnectException,10 mail.blagoevgrad.iag.bg.
+bnb.bg,200,10 mail2.bnbank.org.; 10 mail.bnbank.org.
+bnra.bg,301,20 regist1.bnra.bg.
+bobovdol.egov.bg,302,10 mx1.egov.bg.; 20 mx2.egov.bg.
+bolyarovo.bg,301,10 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+borino.org,HttpConnectTimeoutException: HTTP connect timed out,none
+borovan.bg,200,10 _dc-mx.58d6c752c9ec.borovan.bg.
+borovo.org,200,none
+botevgrad.org,HttpConnectTimeoutException: HTTP connect timed out,none
+boychinovtsi.bg,200,10 mx2.egov.bg.; 10 mx1.egov.bg.
+bozhurishte.bg,301,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+bratia-daskalovi.com,HttpConnectTimeoutException: HTTP connect timed out,none
+bratsigovo.egov.bg,302,20 mx2.egov.bg.; 10 mx1.egov.bg.
+bregovo.net,403,none
+breznik.info,HttpConnectTimeoutException: HTTP connect timed out,none
+brezovo.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.brezovo.bg.
+brusartsi.com,HttpConnectTimeoutException: HTTP connect timed out,none
+bsbd.bg,200,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+bsregion.org,HttpConnectTimeoutException: HTTP connect timed out,none
+bta.bg,301,0 bta-bg.x-v1.mx.microsoft.
+bulgaria.mfa.am,HttpConnectTimeoutException: HTTP connect timed out,none
+bulgaria.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bulgaria.representation.ec.europa.eu,302,none
+bulgarien.um.dk,301,none
+bulnao.government.bg,301,0 bulnao-government-bg.mail.protection.outlook.com.
+burgas-adms.justice.bg,200,10 mx1.justice.bg.; 15 mx2.justice.bg.
+burgas-as.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+burgas-os.justice.bg,200,10 mx1.justice.bg.; 15 mx2.justice.bg.
+burgas-rs.justice.bg,200,10 mx1.justice.bg.; 15 mx2.justice.bg.
+burgas.bg,403,0 burgas-bg.mail.protection.outlook.com.
+burgas.iag.bg,200,10 mail.burgas.iag.bg.
+byala-slatina.bg,200,none
+byala.bg,200,none
+byala.org,403,none
+caa.bg,301,none
+caaf.bg,301,none
+cacbg.bg,ConnectException: Host is unreachable,none
+caciaf.bg,301,0 localhost.
+cadastre.bg,301,none
+cem.bg,200,10 mx1.cem.bg.
+cfar.bg,200,0 cfar.bg.
+chavdar.eu,200,none
+chelopech.egov.bg,302,none
+chepelare.org,SSLHandshakeException: Remote host terminated the handshake,none
+cherkovo.com,IOException: Received RST_STREAM: Protocol error,none
+chernoochene.com,200,none
+chervenbryag.bg,200,10 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+china2ceec.org,200,none
+chinaembassy.bg,200,0 _dc-mx.7c92ab3cb5ce.chinaembassy.bg.
+chiprovtsi.bg,200,none
+chirpan.bg,301,0 mail.chirpan.bg.
+chuprene.com,200,none
+cik.bg,301,10 mx1.is-bg.net.; 10 mx2.is-bg.net.
+ckbppmn.government.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 ironport.government.bg.; 10 ironport2.government.bg.
+coiduem.mon.bg,200,none
+comdos.bg,200,20 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+constcourt.bg,200,none
+corhv.government.bg,200,none
+cpc.bg,403,10 mail.cpc.bg.
+cpdp.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.hc2569-70.eu.iphmx.com.; 10 mx2.hc2569-70.eu.iphmx.com.
+cposa.bg,301,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+cprb.ru,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+crc.bg,200,20 mx02.crc.bg.; 10 mx01.crc.bg.
+culture-mfa.bg,301,0 localhost.
+customs.bg,302,10 mail2.customs.bg.; 10 mail.customs.bg.
+dalgopol.bg,200,0 dalgopol.bg.
+damtn.government.bg,301,none
+dans.bg,403,5 mail.dans.bg.
+dar.bg,302,0 mail.dar.bg.
+dato.bg,301,20 mx2.egov.bg.; 10 mx1.egov.bg.
+devin.bg,200,none
+devnya.bg,200,30 mx30.cmailpro.net.; 40 mx40.cmailpro.net.; 20 mx20.cmailpro.net.; 10 mx10.cmailpro.net.
+dfz.bg,302,none
+di.mod.bg,200,0 mail.di.mod.bg.
+dimitrovgrad.bg,301,0 mail.dimitrovgrad.bg.
+dimovo.bg,200,none
+dker.bg,200,none
+dksbt.bg,ConnectException,10 mx.dksbt.bg.
+dksi.bg,200,none
+dnsk.bg,200,30 lastmx.spamexperts.net.; 40 sx4.evolink.net.; 20 fallbackmx.spamexperts.eu.; 50 ex2016.dnsk.bg.; 10 mx.spamexperts.com.
+dobrich-adms.justice.bg,200,none
+dobrich-os.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+dobrich-rs.justice.bg,200,none
+dobrich.bg,301,10 mail.dobrich.bg.; 11 edge.municipal.dobrich.bg.
+dobrichka.bg,404,none
+dolna-banya.egov.bg,302,none
+dolnamitropolia.bg,200,none
+dolni-chiflik.acstre.com,200,0 smtp.acstre.com.
+dolnidabnik.egov.bg,302,none
+dospat-bg.com,HttpConnectTimeoutException: HTTP connect timed out,none
+dppsk.org,200,none
+dragoman.bg,200,none
+drazhevo.c1.biz,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching drazhevo.c1.biz found.,none
+dryanovo.bg,301,10 obstina.dryanovo.bg.; 20 mail.gb.government.bg.
+dulovo.bg,200,none
+dupnitsa.bg,200,0 mail.dupnitsa.bg.
+dushantsi.webnode.com,301,none
+dvemogili.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+dzhebelbg.com,200,none
+earbd.bg,200,none
+eavw.com,302,0 mail.eavw.com.
+eea.government.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.eea.government.bg.
+egov.bg,302,10 mg2.egov.bg.; 10 mg1.egov.bg.; 20 mg3.egov.bg.
+egov.government.bg,302,10 egov-government-bg.mail.protection.outlook.com.
+elena.bg,302,10 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+elhovobg.org,301,0 mail.elhovobg.org.
+elinpelin.org,200,none
+esmis.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+etropole.bg,200,none
+finlandabroad.fi,301,none
+fni.bg,200,0 fni.bg.
+fsc.bg,301,none
+g-oryahovica.org,301,none
+gabrovo-adms.justice.bg,200,none
+gabrovo-os.justice.bg,200,none
+gabrovo-rs.justice.bg,200,none
+gabrovo.bg,302,none
+galabovo.org,200,none
+garmen.bg,302,none
+gb.government.bg,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gb.government.bg found.,none
+gdbop.bg,200,52 linda.mx.cloudflare.net.; 35 amir.mx.cloudflare.net.; 68 isaac.mx.cloudflare.net.
+gdin.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+gdo.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+georgidamyanovo.com,301,none
+glavinitsa.bg,301,none
+gli.government.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+godech.bg,200,none
+gornabreznitsa.bg,200,none
+gornamalina.bg,301,none
+gotsedelchev.bg,301,20 mx2.egov.bg.; 10 mx1.egov.bg.
+government.bg,200,0 government-bg.mail.protection.outlook.com.
+grad-rila.bg,301,none
+gramada.net,HttpConnectTimeoutException: HTTP connect timed out,none
+grao.bg,SSLHandshakeException: Remote host terminated the handshake,none
+gssplovdiv.iag.bg,ConnectException,none
+gsssofia.iag.bg,200,none
+gulyantsi.bg,200,10 mail.gulyantsi.bg.
+gurkovo.bg,200,0 mail.gurkovo.bg.
+hadzhidimovo.com,200,none
+harmanli.bg,301,none
+haskovo-adms.justice.bg,200,none
+haskovo-os.justice.bg,200,none
+haskovo-riew.egov.bg,302,none
+haskovo-rs.justice.bg,200,10 mx1.justice.bg.; 15 mx2.justice.bg.
+haskovo.bg,301,none
+hayredin.com,HttpConnectTimeoutException: HTTP connect timed out,none
+hisar.bg,301,none
+hitrino.org,HttpConnectTimeoutException: HTTP connect timed out,none
+hrdc.bg,HttpTimeoutException: request timed out,none
+hs.government.bg,200,none
+iabg.government.bg,200,none
+iag.bg,301,10 mail.iag.bg.
+iaieu.egov.bg,302,none
+iaja.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+iamn.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+iara-iss.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+iasas.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+iasrj.eu,HttpConnectTimeoutException: HTTP connect timed out,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+ibl.bas.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ihtiman-obshtina.com,HttpConnectTimeoutException: HTTP connect timed out,none
+ilinden.sofia.bg,200,none
+inspectoratvss.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+instytutpolski.pl,HttpConnectTimeoutException: HTTP connect timed out,none
+investbg.government.bg,200,none
+iskarbg.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+isperih.bg,200,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+ivanovo.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ivaylovgrad.bg,HttpConnectTimeoutException: HTTP connect timed out,10 secondary-mx.mail.bg.; 5 mx-balancer.mail.bg.
+iztochen-plovdiv.bg,HttpConnectTimeoutException: HTTP connect timed out,0 iztochen-plovdiv.bg.
+justice.government.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail2.justice.government.bg.; 20 mail.justice.government.bg.
+kaloianovo.org,HttpConnectTimeoutException: HTTP connect timed out,none
+kameno.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+kaolinovo.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+kardjali.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+kardjali.iag.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+kardzhali-adms.justice.bg,200,none
+kardzhali-os.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+kardzhali-rs.justice.bg,200,none
+karlovo.bg,200,none
+karnobat.acstre.com,HttpConnectTimeoutException: HTTP connect timed out,0 smtp.acstre.com.
+kaspichan.org,HttpConnectTimeoutException: HTTP connect timed out,none
+kavarna.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+kaynardzha.egov.bg,302,none
+kazanlak.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+kirkovo.bg,200,none
+kj.government.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ou.government.bg.
+klimentovo.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+kn.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+knezha.bg,200,none
+kocherinovo.bg,200,none
+koprivshtitsa-bg.com,HttpConnectTimeoutException: HTTP connect timed out,none
+kornitsa.com,HttpConnectTimeoutException: HTTP connect timed out,none
+kostenetz.com,HttpConnectTimeoutException: HTTP connect timed out,none
+kostinbrod.bg,200,0 kostinbrod.bg.
+kotel.bg,200,none
+kovachevtsi.bg,302,none
+kozloduy.bg,302,10 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+krasnapolyana.bg,200,1 smtp.google.com.
+krasnoselo.bg,200,none
+kremikovtsi.sofia.bg,403,none
+kresna-bg.com,HttpConnectTimeoutException: HTTP connect timed out,none
+krichim.bg,301,10 krichim.bg.
+krivodol.com,HttpTimeoutException: request timed out,none
+krumovgrad.bg,200,none
+krushari.bg,404,none
+kubrat.bg,200,none
+kuklen.org,HttpConnectTimeoutException: HTTP connect timed out,none
+kustendil.iag.bg,200,none
+kuwaitembassy.bg,200,none
+kyustendil-adms.justice.bg,200,none
+kyustendil-os.justice.bg,200,none
+kyustendil-rs.justice.bg,200,none
+kyustendil.bg,301,none
+kzd-nondiscrimination.com,HttpConnectTimeoutException: HTTP connect timed out,none
+kzp.bg,200,0 kzp-bg.r-v1.mx.microsoft.
+lesichovo.bg,200,none
+letnitsa.bg,301,none
+libplovdiv.com,HttpConnectTimeoutException: HTTP connect timed out,none
+lom.bg,200,none
+lovech-adms.justice.bg,200,none
+lovech-os.justice.bg,200,none
+lovech-rs.justice.bg,200,none
+lovech.bg,301,none
+lovech.government.bg,200,none
+lovech.iag.bg,200,none
+lozenets.sofia.bg,200,1 smtp.google.com.
+loznitsa.bg,200,none
+lukovit.bg,301,none
+lyaskovets.net,HttpConnectTimeoutException: HTTP connect timed out,none
+lyubimets.org,HttpConnectTimeoutException: HTTP connect timed out,0 mail.lyubimets.org.
+lyulin.sofia.bg,200,none
+lzsplovdiv.iag.bg,HttpConnectTimeoutException: HTTP connect timed out,10 mail.lzsplovdiv.iag.bg.
+lzsvarna.iag.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+m.velingrad.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+madan.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+madzharovo.bg,302,none
+maglizh.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+makreshbg.com,HttpConnectTimeoutException: HTTP connect timed out,none
+malkotarnovo.org,301,10 shmail55.malkotarnovo.org.
+marad.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+maritsa.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+mc.government.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.mc.government.bg.
+me.government.bg,200,10 email.me.government.bg.; 0 me-government-bg.mail.protection.outlook.com.
+medkovec.bg,200,10 shmail55.medkovec.bg.
+mezdra.bg,301,none
+mfa.bg,302,none
+mfa.gr,403,none
+mh.government.bg,200,none
+mi.government.bg,301,10 mx1.hc2569-70.eu.iphmx.com.; 10 mx2.hc2569-70.eu.iphmx.com.
+midt.bg,200,none
+mig.government.bg,301,10 mg2.egov.bg.; 20 mg3.egov.bg.; 10 mg1.egov.bg.
+militaryclubs.bg,HttpConnectTimeoutException: HTTP connect timed out,dig error
+militarymuseum.bg,200,none
+mineralnibani.bg,200,0 mineralnibani.bg.
+minfin.bg,403,10 mail1.minfin.bg.; 10 mail2.minfin.bg.
+mirela.bg,301,none
+mirkovo.bg,200,none
+misiones.cubaminrex.cu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mjs.bg,200,none
+mladost.bg,200,none
+mlsp.government.bg,308,none
+mod.bg,200,none
+moew.government.bg,301,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+momchilgrad.bg,200,none
+mon.bg,403,none
+montana-adms.justice.bg,200,none
+montana-os.justice.bg,200,none
+montana-rs.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+montana.bg,200,none
+montanaoblast.egov.bg,302,none
+mpes.government.bg,200,none
+mrrb.bg,301,none
+mtitc.government.bg,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mtitc.government.bg found.,none
+mvr.bg,403,none
+mzh.government.bg,301,none
+mzv.cz,302,none
+mzv.sk,301,none
+naas.government.bg,301,none
+nab-bas.bg,301,none
+nacid.bg,301,none
+nadezhda.sofia.bg,200,none
+nap.bg,302,none
+nationallibrary.bg,302,none
+navet.government.bg,301,none
+nbksrs.bg,301,none
+nbpp.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ncf.bg,302,none
+ncpr.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+neaa.government.bg,200,10 mail.neaa.government.bg.
+nedelino.bg,200,none
+nesebarinfo.com,301,none
+nevestino.bg,200,none
+nfc.bg,301,none
+nhif.bg,200,none
+nikolaevo.net,HttpConnectTimeoutException: HTTP connect timed out,none
+nikolakozlevo.bg,301,none
+nikolovo.com,308,none
+nikopol-bg.com,200,none
+ninkn.bg,ConnectException,none
+nio.government.bg,200,none
+nipa.bg,301,none
+nova-zagora.bg,301,none
+novi-iskar.sofia.bg,403,1 smtp.google.com.
+novipazar.acstre.com,200,none
+nra.bg,HttpConnectTimeoutException: HTTP connect timed out,5 ip1.nra.bg.; 5 ip2.nra.bg.
+nsi.bg,301,10 mx2.nsi.bg.; 5 mx1.nsi.bg.
+nso.bg,200,none
+nssi.bg,200,none
+ntib.bg,ConnectException,0 ntib-bg.mail.protection.outlook.com.
+oblaki.com,HttpConnectTimeoutException: HTTP connect timed out,none
+oblast.vratsa.bg,ConnectException,none
+oblastshumen.icon.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+oblevski.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+obshtina-apriltsi.com,HttpConnectTimeoutException: HTTP connect timed out,none
+obshtina-boboshevo.eu,200,none
+obshtina-boinica.com,302,none
+obshtina-kula.com,405,none
+obshtina-novoselo.com,302,none
+obshtina-ruzhintsi.com,200,none
+obshtinabelitsa.com,200,0 _dc-mx.d148b8c9a418.obshtinabelitsa.com.
+obshtinamizia.com,301,none
+obshtinaruse.bg,200,0 obshtinaruse.bg.
+obstinaruen.com,200,none
+odesos.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ombudsman.bg,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ombudsman.bg found.,10 mail.ombudsman.bg.
+omurtag.bg,200,none
+opaka.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+opan.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+oriahovo.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ovchakupel.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+panagyurishte.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+pancharevo.org,200,1 smtp.google.com.
+park-vitosha.org,200,none
+parkrilski-manastir.eu,200,none
+parkzlatnipiasaci.com,200,none
+parliament.bg,200,20 viper.parliament.bg.; 10 snake.parliament.bg.
+parvomai.bg,HttpConnectTimeoutException: HTTP connect timed out,50 mail.parvomai.bg.
+pavelbanya.bg,HttpConnectTimeoutException: HTTP connect timed out,0 pavelbanya.bg.
+pavlikeni.bg,HttpConnectTimeoutException: HTTP connect timed out,5 mail.pavlikeni.bg.
+pazardjik.iag.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+pazardzhik-adms.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+pazardzhik-os.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+pazardzhik-rs.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+pazardzhik.bg,200,none
+pd.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+pernik-adms.justice.bg,200,none
+pernik-os.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+pernik-rs.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,15 mx2.justice.bg.; 10 mx1.justice.bg.
+pernik.bg,200,none
+persina.bg,200,0 persina.bg.
+perushtitsa.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+peshtera.bg,HttpConnectTimeoutException: HTTP connect timed out,10 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+petrich.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+pirdop.bg,301,none
+pirin.bg,301,none
+pk.government.bg,200,none
+pleven-adms.justice.bg,200,none
+pleven-oblast.bg,200,none
+pleven-os.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+pleven-rs.justice.bg,200,none
+pleven.bg,200,none
+plovdiv-adms.justice.bg,200,none
+plovdiv-as.justice.bg,200,none
+plovdiv-os.justice.bg,200,none
+plovdiv-rs.justice.bg,200,none
+plovdiv-vs.justice.bg,200,10 mx1.justice.bg.; 15 mx2.justice.bg.
+plovdiv.bg,301,none
+plovdiv.iag.bg,ConnectException,none
+plovdiv.riosv.com,301,none
+plovdivcentral.org,200,10 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+poduyane.sofia.bg,200,none
+pomorie.org,200,none
+popovo.bg,301,none
+pordim.bg,302,none
+ppbulgarka.net,200,none
+pravets.bg,200,none
+prb.bg,200,none
+president.bg,301,10 mailb.president.bg.; 100 maila.president.bg.
+primorski.bg,302,none
+primorsko.bg,200,1 mail.primorsko.bg.
+provadia.bg,200,none
+pz.government.bg,200,10 pzsrv.pz.government.bg.
+radnevo.bg,200,none
+radomir.bg,200,none
+raioniskar.bg,301,none
+raionvitosha.eu,301,none
+rakitovo.bg,HttpConnectTimeoutException: HTTP connect timed out,10 shmail55.rakitovo.bg.
+rakovski.bg,HttpConnectTimeoutException: HTTP connect timed out,0 rakovski.bg.
+rayon-oborishte.bg,200,none
+razgrad-adms.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+razgrad-oblast.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+razgrad-os.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.justice.bg.; 15 mx2.justice.bg.
+razgrad-rs.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+razgrad.bg,200,none
+razlog.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+region-smolyan.org,301,0 region-smolyan.org.
+registryagency.bg,301,0 registryagency-bg.w-v1.mx.microsoft.
+ribnovo.com,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ribnovo.com found.,none
+riew-pleven.eu,200,0 riew-pleven.eu.
+riew-sofia.org,200,none
+riewpz.org,200,none
+rilanationalpark.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rio-kyustendil.bg,301,none
+rio-vidin.org,HttpConnectTimeoutException: HTTP connect timed out,none
+riokozpd.com,200,none
+riosv-montana.com,HttpConnectTimeoutException: HTTP connect timed out,none
+riosv-ruse.org,HttpConnectTimeoutException: HTTP connect timed out,0 mail.riosv-ruse.org.
+riosv-shumen.eu,HttpConnectTimeoutException: HTTP connect timed out,none
+riosv-varna.bg,200,none
+riosv.vracakarst.com,HttpConnectTimeoutException: HTTP connect timed out,none
+riosvbl.org,HttpConnectTimeoutException: HTTP connect timed out,0 riosvbl.org.
+riosvbs.com,HttpConnectTimeoutException: HTTP connect timed out,none
+riosvt.org,HttpConnectTimeoutException: HTTP connect timed out,none
+rodopi-bg.org,HttpConnectTimeoutException: HTTP connect timed out,none
+roman.bg,HttpConnectTimeoutException: HTTP connect timed out,0 roman.bg.
+rta.government.bg,200,10 mx1.hc2569-70.eu.iphmx.com.; 10 mx2.hc2569-70.eu.iphmx.com.
+rudozem.bg,200,none
+ruen.egov.bg,302,20 mx2.egov.bg.; 10 mx1.egov.bg.
+ruo-blg.bg,200,none
+ruo-gabrovo.bg,200,none
+ruo-haskovo.bg,301,none
+ruo-kardzhali.bg,301,10 mail.ruo-kardzhali.bg.
+ruo-lovech.bg,200,none
+ruo-montana.bg,200,none
+ruo-pazardjik.bg,301,none
+ruo-pernik.bg,301,10 mail.ruo-pernik.bg.
+ruo-razgrad.bg,200,none
+ruo-ruse.bg,301,none
+ruo-sfo.bg,301,20 mx2.egov.bg.; 10 mx1.egov.bg.
+ruo-shumen.bg,200,none
+ruo-silistra.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ruo-sliven.bg,301,none
+ruo-sofia-grad.com,HttpConnectTimeoutException: HTTP connect timed out,none
+ruo-sz.bg,301,none
+ruo-varna.bg,200,none
+ruo-vratsa.bg,301,none
+ruo-vt.bg,302,0 ruo-vt.bg.
+ruo-yambol.bg,301,none
+ruobg.com,HttpConnectTimeoutException: HTTP connect timed out,none
+ruoburgas.bg,HttpConnectTimeoutException: HTTP connect timed out,1 smtp.google.com.
+ruodobrich.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ruopleven.bg,301,5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+ruoplovdiv.bg,301,none
+ruotargovishte.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ruse-adms.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ruse-bg.eu,HttpConnectTimeoutException: HTTP connect timed out,none
+ruse-os.justice.bg,200,none
+ruse-rs.justice.bg,200,none
+ruse.egov.bg,302,none
+ruse.iag.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rusenski-lom.bg,200,none
+rzi-blagoevgrad.egov.bg,302,none
+rzi-burgas.bg,200,none
+rzi-dobrich.org,301,none
+rzi-gbr.org,200,none
+rzi-haskovo.org,HttpConnectTimeoutException: HTTP connect timed out,10 shmail55.rzi-haskovo.org.
+rzi-kardjali.com,HttpConnectTimeoutException: HTTP connect timed out,0 rzi-kardjali.com.
+rzi-kn.net,HttpConnectTimeoutException: HTTP connect timed out,none
+rzi-lovech.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rzi-montana.org,301,none
+rzi-pernik.com,301,none
+rzi-pleven.egov.bg,302,none
+rzi-razgrad.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rzi-ruse.com,200,none
+rzi-sfo.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rzi-shumen.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rzi-silistra.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rzi-sliven.org,200,none
+rzi-smolyan.com,301,none
+rzi-starazagora.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rzi-targovishte.bg,200,none
+rzi-varna.com,HttpTimeoutException: request timed out,none
+rzi-vidin.egov.bg,302,none
+rzi-vratsa.com,301,none
+rzi-vt.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rzi-yambol.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+rzipz.net,ConnectException,none
+sac.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sacp.government.bg,200,none
+sadovo.bg,HttpConnectTimeoutException: HTTP connect timed out,0 sadovo.bg.
+saedinenie.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+samokov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+samuil.bg,200,none
+sandanski.bg,HttpConnectTimeoutException: HTTP connect timed out,0 sandanski.bg.
+saparevabanya.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sarnitsa.bg,301,none
+satovcha.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+seea.government.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.egov.bg.; 20 mx2.egov.bg.
+selo-smilyan.com,307,none
+septemvri.org,301,none
+serdika.egov.bg,301,none
+severen.bg,200,none
+sevlievo.bg,301,none
+sf.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sf.mon.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sgs.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sh.government.bg,ConnectException,none
+shabla.bg,200,none
+shumen-adms.justice.bg,200,none
+shumen-os.justice.bg,200,none
+shumen-rs.justice.bg,200,none
+shumen.iag.bg,ConnectException,none
+shumenskoplato.bg,200,none
+silistra-adms.justice.bg,200,none
+silistra-os.justice.bg,200,none
+silistra-rs.justice.bg,200,none
+silistra.bg,301,none
+simeonovgrad.bg,200,none
+simitli.bg,200,none
+sitovo.bg,302,none
+slatinabg.free.bg,200,none
+sliven-adms.justice.bg,200,none
+sliven-os.justice.bg,200,10 mx1.justice.bg.; 15 mx2.justice.bg.
+sliven-rs.justice.bg,200,none
+sliven-vs.justice.bg,200,none
+sliven.bg,301,none
+sliven.government.bg,301,none
+sliven.iag.bg,200,none
+slivnitsa.bg,301,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+slivopole.ru-se.com,ConnectException,none
+sme.government.bg,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail.sme.government.bg.; 10 mx1.egov.bg.; 20 mx2.egov.bg.
+smolian.iag.bg,200,none
+smolyan-adms.justice.bg,200,none
+smolyan-os.justice.bg,200,10 mx1.justice.bg.; 15 mx2.justice.bg.
+smolyan-rs.justice.bg,200,none
+smolyan.bg,403,none
+smolyan.riosv.com,200,none
+smyadovo.bg,301,none
+so-izgrev.bg,200,none
+so-slatina.org,200,0 SMTP.GOOGLE.COM.
+so-vazrajdane.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sofia-adms-g.justice.bg,200,none
+sofia-adms-o.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sofia-as.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sofia-os.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sofia-vs.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sofia.diplo.de,200,none
+sofia.europarl.europa.eu,302,none
+sofia.iag.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sofia.mae.ro,503,none
+sofoblast.egov.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+sopot-municipality.com,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sopot-municipality.com found.,none
+south-plovdiv.bg,HttpConnectTimeoutException: HTTP connect timed out,10 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
+sozopol.bg,200,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+sredec-sofia.org,200,10 shmail55.sredec-sofia.org.; 1 SMTP.GOOGLE.COM.
+sredets.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+srzi.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+ss.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+stamb.info,ConnectException,20 mx2.bgdns.net.
+stambolovo.bg,301,10 spamexpert01.host.bg.; 20 spamexpert02.host.bg.; 0 mail.stambolovo.bg.
+starazagora.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+statereserve.bg,301,none
+straldzha.bg,200,none
+strandja.bg,200,20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 alt2.aspmx.l.google.com.
+strazhitsa.e-gov.bg,ConnectException,none
+strelcha.bg,200,none
+strumyani.org,200,none
+studenthouse.bg,200,none
+studentski.bg,200,none
+stz.riew.egov.bg,ConnectException,none
+stzagora-adms.justice.bg,200,none
+stzagora-os.justice.bg,200,none
+stzagora-rs.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+stzagora.iag.bg,200,none
+suhindol.bg,302,none
+sungurlare.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+suvorovo.bg,200,none
+svilengrad.bg,301,none
+svishtov.bg,200,none
+svoge.bg,301,none
+sz.government.bg,200,none
+szofia.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+targovishte-adms.justice.bg,200,none
+targovishte-os.justice.bg,200,none
+targovishte-rs.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+targovishte.bg,302,20 mx2.egov.bg.; 10 mx1.egov.bg.
+tervel.egov.bg,302,none
+teteven.bg,200,none
+tg.government.bg,302,none
+topolovgrad.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+toscalikoyu.com,ConnectException,none
+toshevo.com,HttpConnectTimeoutException: HTTP connect timed out,none
+tourism.government.bg,200,none
+trakia-plovdiv.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+trambesh.eu,200,none
+tran.bg,302,none
+trekliano.eu,200,none
+triaditza.org,200,none
+troyan.bg,301,none
+tryavna.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+tsarevo.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+tsarkaloyan.bg,HttpConnectTimeoutException: HTTP connect timed out,0 tsarkaloyan.bg.
+tsenovo.eu,200,none
+tundzha.net,301,none
+tutrakan.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+tvarditsa.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.tvarditsa.org.
+ucdp-smolian.com,200,10 mail.ucdp-smolian.com.
+ugarchin.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+unesco-bg.org,200,0 unesco-bg.org.
+valchedram.com,200,none
+valchidol.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+varbitsa.org,200,20 mail.ro-ni.net.; 10 mp.ro-ni.net.
+varna-adms.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+varna-as.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+varna-mladost.com,200,none
+varna-os.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.justice.bg.; 15 mx2.justice.bg.
+varna-rs.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+varna.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+varna.iag.bg,HttpConnectTimeoutException: HTTP connect timed out,10 mail.varna.iag.bg.
+varshets.bg,200,none
+velikipreslav.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+veliko-turnovo.bg,HttpConnectTimeoutException: HTTP connect timed out,0 mail.veliko-turnovo.bg.
+venets.bg,200,none
+vetovo.bg,200,none
+vetrenforever.alle.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vetrino.bg,HttpConnectTimeoutException: HTTP connect timed out,0 vetrino.bg.
+vidin-adms.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vidin-os.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vidin-rs.justice.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vidin.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vidin.government.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+visitcentralbalkan.net,200,none
+vks.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vladaya.net,200,none
+vladislavovo.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vn.government.bg,ConnectException,none
+voas.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+voynyagovo.free.bg,200,none
+vp.mod.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vr-balkan.net,200,none
+vrabnitsa.sofia.bg,HttpConnectTimeoutException: HTTP connect timed out,none
+vratsa-adms.justice.bg,200,none
+vratsa-os.justice.bg,200,none
+vratsa-rs.justice.bg,200,none
+vratza.bg,200,none
+vss.justice.bg,200,none
+vt.government.bg,200,none
+vtarnovo-adms.justice.bg,200,none
+vtarnovo-as.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+vtarnovo-os.justice.bg,200,none
+vtarnovo-rs.justice.bg,200,none
+vtarnovo.iag.bg,ConnectException,none
+wabd.bg,200,none
+www2.aop.bg,200,none
+yablanitsa.bg,302,20 appsmx2.abv.bg.; 10 appsmx1.abv.bg.
+yakimovo.org,301,none
+yakoruda.gateway.bg,"SSLException: Unrecognized SSL message, plaintext connection?",none
+yambol-adms.justice.bg,200,none
+yambol-os.justice.bg,200,none
+yambol-rs.justice.bg,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
+yambol.bg,200,none
+yambol.government.bg,200,none
+zapaden.plovdiv.bg,302,none
+zavet-bg.com,HttpTimeoutException: request timed out,none
+zemen-bg.com,200,none
+zlataritsa.bg,302,none
+zlatitsa.egov.bg,302,10 mg2.egov.bg.; 10 mg1.egov.bg.
+zlatograd.bg,200,none

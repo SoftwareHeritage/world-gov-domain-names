@@ -1,0 +1,26 @@
+hostname,http_status,mx
+cubadiplomatica.cu,ConnectException,none
+darkhan.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+flu.mn,200,100 mx2.mailhostbox.com.; 100 mx3.mailhostbox.com.; 100 mx1.mailhostbox.com.
+frc.mn,200,0 frc-mn.mail.protection.outlook.com.
+imsm.mn,200,none
+m-election.mn,200,10 mx.zoho.com.; 50 mx3.zoho.com.; 20 mx2.zoho.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mik.mn,301,0 mik-mn.mail.hk.greenradar.com.
+mn.ambafrance.org,301,none
+mn.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mn.china-embassy.org found.,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mongolbank.mn,301,0 mongolbank-mn.mail.protection.outlook.com.
+mongolia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+nationallibrary.mn,200,10 mx2.mail.mn.; 5 mx.mail.mn.
+nso.mn,301,100 mx1.email.gov.mn.; 100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 0 nso-mn.mail.protection.outlook.com.; 100 us2.mx1.mailhostbox.com.
+parliament.mn,307,0 parliament-mn.mail.protection.outlook.com.
+riah.mn,200,10 mx2.mail.mn.; 100 riah.mn.; 5 mx.mail.mn.
+roc-taiwan.org,302,none
+supremecourt.mn,302,5 mx.mail.mn.; 10 mx2.mail.mn.
+ulan-bator.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+ulanbator.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+unesco.mn,301,10 mx2.mail.mn.; 5 mx.mail.mn.
+zasag.mn,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching zasag.mn found.,20 mx1.email.gov.mn.; 10 mx1.email.gov.mn.; 0 zasag.mn.

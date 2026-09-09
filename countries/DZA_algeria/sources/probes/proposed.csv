@@ -1,0 +1,67 @@
+hostname,http_status,mx
+abhcsm.dz,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching abhcsm.dz found.,none
+alger.mae.ro,503,none
+algerie.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+algeriet.um.dk,HttpConnectTimeoutException: HTTP connect timed out,none
+algier.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+alnaft.dz,ConnectException,10 mx2.alnaft.dz.; 10 mx1.alnaft.dz.
+amb-rasd.org,200,10 amb-rasd.org.; 20 amb-rasd.org.
+anem.dz,ConnectException,0 mail.anem.dz.
+ansej.org.dz,HttpConnectTimeoutException: HTTP connect timed out,dig error
+anvredet.org.dz,200,0 anvredet.org.dz.
+apn-dz.org,200,10 mx01.lolipop.jp.
+apn.dz,200,10 smtp-1.apn.dz.; 10 smtp-2.apn.dz.
+archives-can.dz,200,10 mail.archives-can.dz.
+asal.dz,200,10 mail.asal.dz.
+atrss.dz,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+bank-of-algeria.dz,HttpConnectTimeoutException: HTTP connect timed out,10 rhost.bank-of-algeria.dz.; 10 rhost3.bank-of-algeria.dz.; 10 rhost1.bank-of-algeria.dz.; 10 rhost4.bank-of-algeria.dz.
+biblionat.dz,200,0 biblionat.dz.
+bneder.dz,200,0 mail.bneder.dz.
+caci.dz,200,dig error
+cerist.dz,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cerist.dz found.,20 mx02.cerist.dz.; 10 mx.cerist.dz.
+cnrst.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.cnrst.dz.
+conseil-constitutionnel.dz,ConnectException,10 mail.conseil-constitutionnel.dz.
+cour-constitutionnelle.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.cour-constitutionnelle.dz.
+courdalger.mjustice.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+courdeboumerdes.mjustice.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+coursupreme.dz,200,10 mail.coursupreme.dz.
+de-boumerdes.dz,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching de-boumerdes.dz found.,none
+dgf.org.dz,HttpConnectTimeoutException: HTTP connect timed out,10 mail.djaweb.dz.
+dgpc.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.dgpc.dz.
+dgrsdt.dz,302,0 mx.dgrsdt.dz.
+dgsn.dz,ConnectException,none
+djamaa-el-djazair.com,500,10 mx.stackmail.com.
+dz.ambafrance.org,301,5 mta-gw.infomaniak.ch.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+el-mouradia.dz,HttpConnectTimeoutException: HTTP connect timed out,10 mail.el-mouradia.dz.
+elmadjlis-hci.dz,301,10 mail.elmadjlis-hci.dz.
+eniem.com.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx.eniem.com.dz.
+finlandabroad.fi,301,10 mail.valtori.fi.
+hcamazighite.dz,302,0 hcamazighite.dz.
+hcla.dz,200,0 ssl0.icosnethosting.com.
+ina-elections.dz,200,10 mail.ina-elections.dz.
+inapi.org,301,dig error
+m-moudjahidine.dz,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.m-moudjahidine.dz.
+majliselouma.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.majliselouma.dz.
+marw.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.marw.dz.; 10 mail1.marw.dz.
+mdn.dz,ConnectException,10 mxrelay.mdn.dz.
+mesrs.dz,ConnectException,10 gateway.mesrs.dz.; 20 mail.mesrs.dz.; 30 mail1.mesrs.dz.
+meteo.dz,HttpConnectTimeoutException: HTTP connect timed out,0 smtp.meteo.dz.; 10 smtp1.meteo.dz.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+minagri.dz,ConnectException,0 mx.minagri.dz.
+mjustice.dz,301,10 mailserver.mjustice.dz.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mptic.dz,ConnectException,0 mail.mptic.dz.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+norway.no,301,0 mx.domeneshop.no.
+ogebc.dz,200,0 ogebc.dz.
+ona-dz.org,301,0 ona-dz.org.
+onedd.org,200,1 mail.onedd.org.
+onplc.org.dz,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+onpo.dz,200,10 mail.onpo.dz.
+onsm-dz.com,200,0 onsm-dz.com.
+sante.dz,HttpConnectTimeoutException: HTTP connect timed out,none
+swedenabroad.se,301,none
+unesco.dz,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.unesco.dz.
+wikidata.org,301,10 mx-in2001.wikimedia.org.; 10 mx-in1001.wikimedia.org.

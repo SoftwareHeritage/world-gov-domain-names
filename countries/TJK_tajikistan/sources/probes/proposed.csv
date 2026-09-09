@@ -1,0 +1,19 @@
+hostname,http_status,mx
+ansmi.tj,200,10 mx.yandex.net.
+constcourt.tj,200,10 emx.mail.ru.; 20 mail.constcourt.tj.
+duschanbe.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+dushanbe.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+izar.tj,200,none
+khkt.tj,301,0 khkt.tj.
+kmt.tj,200,10 mail.trs.tj.
+majmilli.tj,200,10 mail.trs.tj.
+maorif.tj,200,10 mail.maorif.tj.
+mitas.tj,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mitas.tj found.,none
+mort.tj,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.tajnet.tj.
+nbt.tj,302,dig error
+parlament.tj,HttpConnectTimeoutException: HTTP connect timed out,20 mail.parlament.tj.; 10 mail.parlament.tj.
+president.tj,200,10 mx1.dip.tj.
+stat.tj,301,20 mail.gksintranet.tj.; 20 mail.stat.tj.
+tj.ambafrance.org,301,none
+vfarhang.tj,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vfarhang.tj found.,10 mail.vfarhang.tj.

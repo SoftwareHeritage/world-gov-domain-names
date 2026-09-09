@@ -1,18 +1,18 @@
 hostname,score,sources,label,level,http_status,mx
-assembleenationale.bf,7,wikidata;wikidata,National Assembly of Burkina Faso,central,,
-alt.bf,4,wikidata,Transitional Legislative Assembly,,,
-crsn-nouna.bf,4,wikidata,Centre de Recherche en Santé de Nouna,,,
-gendarmerienationale.bf,4,wikidata,National Gendarmerie,,,
-insd.bf,4,wikidata,Institut National de la Statistique et de la Démographie,central,,
-meteoburkina.bf,4,wikidata,Direction Générale de la Météorologie,,,
-ambalgbf.net,3,wikidata,"Embassy of Algeria, Ouagadougou",central,,
-bceao.int,3,wikidata,Central Bank of West African States,,,
-bf.ambafrance.org,3,wikidata,"Embassy of France, Ouagadougou",central,,
-burkinafaso.um.dk,3,wikidata,embassy of Denmark in Burkina Faso,central,,
-cameg.com,3,wikidata,Central Procurement Agency for Essential Generic Medicines,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Burkina Faso,,,
-gwp.org,3,wikidata,Global Water Partnership West Africa,,,
-ouagadougou.diplo.de,3,wikidata,"Embassy of Germany, Ouagadougou",central,,
-pattec.au.int,3,wikidata,Pan African Tsetse and Trypanosomiasis Eradication Campaign,,,
-rahimotransport.com,3,wikidata,Rahimo transport,,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Ouagadougou",central,,
+assembleenationale.bf,7,wikidata;wikidata,National Assembly of Burkina Faso,central,200,10 mail.an.bf.
+alt.bf,4,wikidata,Transitional Legislative Assembly,,200,10 mail.an.bf.
+crsn-nouna.bf,4,wikidata,Centre de Recherche en Santé de Nouna,,301,10 mail.crsn-nouna.bf.
+gendarmerienationale.bf,4,wikidata,National Gendarmerie,,200,10 mg02.gov.bf.; 10 mg01.gov.bf.
+insd.bf,4,wikidata,Institut National de la Statistique et de la Démographie,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.insd.bf.
+meteoburkina.bf,4,wikidata,Direction Générale de la Météorologie,,200,5 mta-gw.infomaniak.ch.
+ambalgbf.net,3,wikidata,"Embassy of Algeria, Ouagadougou",central,301,10 mail.ambalgbf.net.
+bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+bf.ambafrance.org,3,wikidata,"Embassy of France, Ouagadougou",central,301,none
+burkinafaso.um.dk,3,wikidata,embassy of Denmark in Burkina Faso,central,301,none
+cameg.com,3,wikidata,Central Procurement Agency for Essential Generic Medicines,,301,100 mxb.ovh.net.; 5 mx2.ovh.net.; 1 mx1.ovh.net.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Burkina Faso,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+gwp.org,3,wikidata,Global Water Partnership West Africa,,301,10 gwp-org.mail.protection.outlook.com.
+ouagadougou.diplo.de,3,wikidata,"Embassy of Germany, Ouagadougou",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+pattec.au.int,3,wikidata,Pan African Tsetse and Trypanosomiasis Eradication Campaign,,ConnectException,none
+rahimotransport.com,3,wikidata,Rahimo transport,,200,10 mail.rahimotransport.com.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Ouagadougou",central,301,none

@@ -1,50 +1,50 @@
 hostname,score,sources,label,level,http_status,mx
-shps.org.sa,7,wikidata;wikidata,Saudi Heritage Preservation Society,,,
-bangladeshembassy.org.sa,4,wikidata,"Embassy of Bangladesh, Riyadh",central,,
-cma.org.sa,4,wikidata,Capital Market Authority,central,,
-darah.org.sa,4,wikidata,Darah,,,
-kacst.edu.sa,4,wikidata,Saudi Patent Office,,,
-kapl.org.sa,4,wikidata,Q137555839,,,
-kenyaembassy.org.sa,4,wikidata,embassy of Kenya in Saudi Arabia,central,,
-kfmrc.kau.edu.sa,4,wikidata,King Fahd Medical Research Center,,,
-maldivesembassy.sa,4,wikidata,"Embassy of Maldives, Riyadh",central,,
-mofaic.gov.ae,4,wikidata,"Consulate General of the United Arab Emirates, Jeddah",,,
-moroccanembassy.sa,4,wikidata,embassy of Morocco in Saudi Arabia,central,,
-nigeria.org.sa,4,wikidata,"Embassy of Nigeria, Riyadh",central,,
-palestineembassy.org.sa,4,wikidata,Embassy of the State of Palestine in Saudi Arabia,central,,
-qiyas.sa,4,wikidata,National Center for Assessment in Higher Education,,,
-rijad.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Rijadh",central,,
-safcsp.org.sa,4,wikidata,"Saudi Federation for Cybersecurity, Programming and Drones",central,,
-scfhs.org.sa,4,wikidata,Saudi Commission for Health Specialties,,,
-slemb.org.sa,4,wikidata,embassy of Sri Lanka in Saudi Arabia,central,,
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Al Riyadh",central,,
-ssf.sa,4,wikidata,Saudi Shooting Federation,central,,
-ambacamsaudi.org,3,wikidata,embassy of Cameroon in Saudi Arabia,central,,
-ambasadat.net,3,wikidata,"Embassy of Kosovo, Riyadh",central,,
-consalg-jeddah.com,3,wikidata,"Algerian Consulate General in Jeddah, Saudi Arabia",,,
-djeddah.consulfrance.org,3,wikidata,Consulate General of France in Jeddah,,,
-djidda.diplo.de,3,wikidata,"Consulate General of Germany, Jeddah",,,
-eeas.europa.eu,3,wikidata,"Delegation of the European Union to Bahrain, Oman, and Saudi Arabia",central,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Riyadh",central,,
-ghanaembassy-saudiarabia.com,3,wikidata,embassy of Ghana in Saudi Arabia,central,,
-ksrelief.org,3,wikidata,Q132472730,,,
-mauritius-riyadh.govmu.org,3,wikidata,"embassy of Mauritius, Riyadh",central,,
-meriyadh.org,3,wikidata,"Embassy of Myanmar, Riyadh",central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Saudi Arabia,central,,
-mfa.gr,3,wikidata,embassy of Greece in Saudi Arabia,central,,
-mfa.tj,3,wikidata,embassy of Tajikistan in Saudi Arabia,central,,
-mzv.cz,3,wikidata,embassy of the Czech Republic in Saudi Arabia,central,,
-norway.no,3,wikidata,embassy of Norway in Saudi Arabia,central,,
-pakembassyksa.com,3,wikidata,embassy of Pakistan in Saudi Arabia,central,,
-palconjed.org,3,wikidata,Consulate of Palestine in Jeddah,,,
-riyadh.mae.ro,3,wikidata,Embassy of Romania in Riyadh,central,,
-riyadh.mid.ru,3,wikidata,embassy of Russia in Saudi Arabia,central,,
-riyadh.mofa.go.ug,3,wikidata,embassy of Uganda in Saudi Arabia,central,,
-riyadh.thaiembassy.org,3,wikidata,embassy of Thailand in Saudi Arabia,central,,
-sa.ambafrance.org,3,wikidata,"embassy of France, Riyadh",central,,
-sa.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Riyadh",central,,
-saudiarabien.diplo.de,3,wikidata,"Embassy of Germany, Riyadh",central,,
-saudiarabien.um.dk,3,wikidata,embassy of Denmark in Saudi Arabia,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Riyadh",central,,
-taiwanembassy.org,3,wikidata,Taipei Economic and Cultural Representative Office in the Kingdom of Saudi Arabia,,,
-yemenembassy-sa.org,3,wikidata,embassy of Yemen in Saudi Arabia,central,,
+shps.org.sa,7,wikidata;wikidata,Saudi Heritage Preservation Society,,301,0 shps-org-sa.mail.protection.outlook.com.
+bangladeshembassy.org.sa,4,wikidata,"Embassy of Bangladesh, Riyadh",central,ConnectException,20 pmx27.sol.net.sa.; 10 _dc-mx.07dac53b9684.bangladeshembassy.org.sa.
+cma.org.sa,4,wikidata,Capital Market Authority,central,301,30 mail4.cma.org.sa.; 10 mx1.cma.org.sa.; 40 mail1.cma.org.sa.; 20 mx3.cma.org.sa.
+darah.org.sa,4,wikidata,Darah,,403,30 mx3.deem.sa.; 10 mx1.deem.sa.; 50 mx4.deem.sa.; 10 mx2.deem.sa.
+kacst.edu.sa,4,wikidata,Saudi Patent Office,,ConnectException,10 relay10.kacst.edu.sa.
+kapl.org.sa,4,wikidata,Q137555839,,200,0 kapl-org-sa.mail.protection.outlook.com.
+kenyaembassy.org.sa,4,wikidata,embassy of Kenya in Saudi Arabia,central,ConnectException,none
+kfmrc.kau.edu.sa,4,wikidata,King Fahd Medical Research Center,,ConnectException,none
+maldivesembassy.sa,4,wikidata,"Embassy of Maldives, Riyadh",central,ConnectException,none
+mofaic.gov.ae,4,wikidata,"Consulate General of the United Arab Emirates, Jeddah",,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+moroccanembassy.sa,4,wikidata,embassy of Morocco in Saudi Arabia,central,ConnectException,none
+nigeria.org.sa,4,wikidata,"Embassy of Nigeria, Riyadh",central,ConnectException,none
+palestineembassy.org.sa,4,wikidata,Embassy of the State of Palestine in Saudi Arabia,central,ConnectException,none
+qiyas.sa,4,wikidata,National Center for Assessment in Higher Education,,200,5 mx1.hostinger.com.; 10 mx2.hostinger.com.
+rijad.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Rijadh",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+safcsp.org.sa,4,wikidata,"Saudi Federation for Cybersecurity, Programming and Drones",central,200,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+scfhs.org.sa,4,wikidata,Saudi Commission for Health Specialties,,301,0 mg1.scfhs.org.sa.
+slemb.org.sa,4,wikidata,embassy of Sri Lanka in Saudi Arabia,central,200,0 slemb.org.sa.
+sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Al Riyadh",central,ConnectException,none
+ssf.sa,4,wikidata,Saudi Shooting Federation,central,200,0 olympic-sa-1.fortimailcloud.com.; 1 olympic-sa-2.fortimailcloud.com.
+ambacamsaudi.org,3,wikidata,embassy of Cameroon in Saudi Arabia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mailstore1.asia.secureserver.net.; 0 smtp.asia.secureserver.net.
+ambasadat.net,3,wikidata,"Embassy of Kosovo, Riyadh",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+consalg-jeddah.com,3,wikidata,"Algerian Consulate General in Jeddah, Saudi Arabia",,200,0 mail.consalg-jeddah.com.
+djeddah.consulfrance.org,3,wikidata,Consulate General of France in Jeddah,,301,none
+djidda.diplo.de,3,wikidata,"Consulate General of Germany, Jeddah",,301,10 mx2.bund.de.; 10 mx1.bund.de.
+eeas.europa.eu,3,wikidata,"Delegation of the European Union to Bahrain, Oman, and Saudi Arabia",central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Riyadh",central,301,10 mail.valtori.fi.
+ghanaembassy-saudiarabia.com,3,wikidata,embassy of Ghana in Saudi Arabia,central,ConnectException,none
+ksrelief.org,3,wikidata,Q132472730,,301,10 mx1.deem.sa.; 10 mx2.deem.sa.; 30 mx3.deem.sa.; 50 mx4.deem.sa.
+mauritius-riyadh.govmu.org,3,wikidata,"embassy of Mauritius, Riyadh",central,302,none
+meriyadh.org,3,wikidata,"Embassy of Myanmar, Riyadh",central,200,none
+mfa.bg,3,wikidata,embassy of Bulgaria in Saudi Arabia,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Saudi Arabia,central,403,10 mailhost.mfa.gr.
+mfa.tj,3,wikidata,embassy of Tajikistan in Saudi Arabia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.mfa.tj.; 10 mail.mfa.tj.
+mzv.cz,3,wikidata,embassy of the Czech Republic in Saudi Arabia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+norway.no,3,wikidata,embassy of Norway in Saudi Arabia,central,301,0 mx.domeneshop.no.
+pakembassyksa.com,3,wikidata,embassy of Pakistan in Saudi Arabia,central,301,1200 ghs.google.com.
+palconjed.org,3,wikidata,Consulate of Palestine in Jeddah,,200,10 mx7.mgmt.somee.com.
+riyadh.mae.ro,3,wikidata,Embassy of Romania in Riyadh,central,503,none
+riyadh.mid.ru,3,wikidata,embassy of Russia in Saudi Arabia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+riyadh.mofa.go.ug,3,wikidata,embassy of Uganda in Saudi Arabia,central,200,none
+riyadh.thaiembassy.org,3,wikidata,embassy of Thailand in Saudi Arabia,central,200,none
+sa.ambafrance.org,3,wikidata,"embassy of France, Riyadh",central,301,none
+sa.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Riyadh",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sa.china-embassy.org found.,none
+saudiarabien.diplo.de,3,wikidata,"Embassy of Germany, Riyadh",central,200,none
+saudiarabien.um.dk,3,wikidata,embassy of Denmark in Saudi Arabia,central,301,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Riyadh",central,301,none
+taiwanembassy.org,3,wikidata,Taipei Economic and Cultural Representative Office in the Kingdom of Saudi Arabia,,302,none
+yemenembassy-sa.org,3,wikidata,embassy of Yemen in Saudi Arabia,central,302,0 _dc-mx.19bf0401d66b.yemenembassy-sa.org.

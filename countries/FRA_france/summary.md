@@ -35,26 +35,26 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `assemblee-nationale.fr` | central |  | wikidata;wikidata;wikidata;wikidata;linkgraph | National Assembly | Franco-German Parliamentary Assembly |
-| 10 | `cnil.fr` | central |  | wikidata;linkgraph | National Commission on Informatics and Liberty |
-| 10 | `gouvernement.fr` | central |  | un_desa;wikidata;wikidata | Council of Ministers | UN/DESA national portal |
-| 9 | `ameli.fr` |  |  | wikidata;linkgraph | health insurance in France |
-| 9 | `caf.fr` |  |  | wikidata;linkgraph | Caisse d'allocations familiales |
-| 8 | `paris.fr` |  |  | wikidata;linkgraph | Inspection générale des carrières |
-| 8 | `senat.fr` | central |  | wikidata;linkgraph | Senate |
-| 7 | `ac-spm.fr` | central-1 |  | wikidata;wikidata | Service of the National Education of Saint Pierre and Miquelon |
-| 7 | `bourgognefranchecomte.fr` | central-1 |  | wikidata;linkgraph | Regional council of Bourgogne-Franche-Comté |
-| 7 | `cnrgv.toulouse.inrae.fr` |  |  | wikidata;wikidata | Q2945937 |
-| 7 | `cnrs.fr` |  |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Rous... |
-| 7 | `corse.fr` | central-1 |  | wikidata;wikidata | Executive Council of Corsica |
-| 7 | `ctguyane.fr` |  |  | wikidata;wikidata | Assembly of French Guiana |
-| 7 | `france.fr` |  |  | linkgraph | Linked from 29 public-sector domains |
-| 7 | `gouv.nc` | central-1 |  | wikidata;wikidata | Q3112596 |
-| 7 | `guadeloupe.ars.sante.fr` | central-1 |  | wikidata;wikidata | Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy |
-| 7 | `ihemi.fr` |  |  | wikidata;wikidata | Institut des hautes études du ministère de l'Intérieur |
-| 7 | `iledefrance.fr` | central-1 |  | wikidata;linkgraph | Regional Council of Île-de-France |
-| 7 | `inserm.fr` |  |  | wikidata;wikidata;wikidata;wikidata | Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre... |
-| 7 | `nouvelle-aquitaine.fr` | central-1 |  | wikidata;wikidata | Nouvelle-Aquitaine Regional Council | Regional Council of Limousin |
+| 10 | `assemblee-nationale.fr` | central | ConnectEx... | wikidata;wikidata;wikidata;wikidata;linkgraph | National Assembly | Franco-German Parliamentary Assembly |
+| 10 | `cnil.fr` | central | 301 | wikidata;linkgraph | National Commission on Informatics and Liberty |
+| 10 | `gouvernement.fr` | central | 301 | un_desa;wikidata;wikidata | Council of Ministers | UN/DESA national portal |
+| 9 | `ameli.fr` |  | 301 | wikidata;linkgraph | health insurance in France |
+| 9 | `caf.fr` |  | 302 | wikidata;linkgraph | Caisse d'allocations familiales |
+| 8 | `paris.fr` |  | 301 | wikidata;linkgraph | Inspection générale des carrières |
+| 8 | `senat.fr` | central | 301 | wikidata;linkgraph | Senate |
+| 7 | `ac-spm.fr` | central-1 | ConnectEx... | wikidata;wikidata | Service of the National Education of Saint Pierre and Miquelon |
+| 7 | `bourgognefranchecomte.fr` | central-1 | 200 | wikidata;linkgraph | Regional council of Bourgogne-Franche-Comté |
+| 7 | `cnrgv.toulouse.inrae.fr` |  | 200 | wikidata;wikidata | Q2945937 |
+| 7 | `cnrs.fr` |  | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Rous... |
+| 7 | `corse.fr` | central-1 | HttpConne... | wikidata;wikidata | Executive Council of Corsica |
+| 7 | `ctguyane.fr` |  | 301 | wikidata;wikidata | Assembly of French Guiana |
+| 7 | `france.fr` |  | 301 | linkgraph | Linked from 29 public-sector domains |
+| 7 | `gouv.nc` | central-1 | 200 | wikidata;wikidata | Q3112596 |
+| 7 | `guadeloupe.ars.sante.fr` | central-1 | 301 | wikidata;wikidata | Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy |
+| 7 | `ihemi.fr` |  | 301 | wikidata;wikidata | Institut des hautes études du ministère de l'Intérieur |
+| 7 | `iledefrance.fr` | central-1 | 301 | wikidata;linkgraph | Regional Council of Île-de-France |
+| 7 | `inserm.fr` |  | 301 | wikidata;wikidata;wikidata;wikidata | Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre... |
+| 7 | `nouvelle-aquitaine.fr` | central-1 | 302 | wikidata;wikidata | Nouvelle-Aquitaine Regional Council | Regional Council of Limousin |
 
 ## ccTLD anomalies
 

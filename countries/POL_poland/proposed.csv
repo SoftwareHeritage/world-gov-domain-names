@@ -1,324 +1,324 @@
 hostname,score,sources,label,level,http_status,mx
-bn.org.pl,10,wikidata;wikidata;directory,National Library of Poland,,,
-nbp.pl,10,wikidata;linkgraph;directory,Narodowy Bank Polski,,,
-policja.pl,10,wikidata;linkgraph;directory,Policja,,,
-sn.pl,10,wikidata;directory,Supreme Court of Poland,central,,
-wojsko-polskie.pl,10,wikidata;wikidata;directory,Military Gendarmerie | Polish General Staff,,,
-zus.pl,10,wikidata;linkgraph;directory,Zakład Ubezpieczeń Społecznych,,,
-krs.pl,8,wikidata;directory,National Council of the Judiciary,,,
-pfron.org.pl,8,wikidata;directory,National Disabled Persons Rehabilitation Fund,,,
-zditm.szczecin.pl,8,wikidata;linkgraph,ZDiTM Szczecin,,,
-ahk.pl,7,wikidata;wikidata,Polish-German Chamber of Commerce and Industry,,,
-bip.radom.pl,7,linkgraph,Linked from 35 public-sector domains,,,
-dominikanie.pl,7,wikidata;wikidata,Polish Dominican Province,,,
-edu.bydgoszcz.pl,7,linkgraph,Linked from 22 public-sector domains,,,
-franciszkanie.org.pl,7,wikidata;wikidata,Province of Our Lady of the Angels of the Friars Minor in Kraków,,,
-lubuskie.pl,7,wikidata;wikidata,Zarząd Województwa Lubuskiego | Marshal's Office of Lubusz Voivodeship,central-1,,
-nid.pl,7,wikidata;wikidata,Narodowy Instytut Dziedzictwa,,,
-ore.edu.pl,7,linkgraph,Linked from 22 public-sector domains,,,
-panewniki.franciszkanie.pl,7,wikidata;wikidata,Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in Katowice,,,
-pijarzy.pl,7,wikidata;wikidata,Piarist province of Poland,,,
-um.szczecin.pl,7,linkgraph,Linked from 21 public-sector domains,,,
-umwd.dolnyslask.pl,7,wikidata;wikidata,Marshal's Office of Lower Silesian Voivodeship | Lower Silesian Regional Assembly,central-1,,
-wroc.pl,7,linkgraph,Linked from 51 public-sector domains,,,
-www.bialystok.pl,7,linkgraph,Linked from 22 public-sector domains,,,
-www.bydgoszcz.pl,7,linkgraph,Linked from 33 public-sector domains,,,
-www.opole.pl,7,linkgraph,Linked from 20 public-sector domains,,,
-www.radom.pl,7,linkgraph,Linked from 20 public-sector domains,,,
-www.wroclaw.pl,7,linkgraph,Linked from 23 public-sector domains,,,
+bn.org.pl,10,wikidata;wikidata;directory,National Library of Poland,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 bn-org-pl.mail.protection.outlook.com.
+nbp.pl,10,wikidata;linkgraph;directory,Narodowy Bank Polski,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1c.nbp.pl.; 10 mx1r.nbp.pl.
+policja.pl,10,wikidata;linkgraph;directory,Policja,,200,10 mxin.policja.gov.pl.
+sn.pl,10,wikidata;directory,Supreme Court of Poland,central,301,10 sn-pl.mail.protection.outlook.com.
+wojsko-polskie.pl,10,wikidata;wikidata;directory,Military Gendarmerie | Polish General Staff,,301,none
+zus.pl,10,wikidata;linkgraph;directory,Zakład Ubezpieczeń Społecznych,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.zus.pl.; 1000 mail3.zus.pl.; 1000 mail4.zus.pl.; 10 mail2.zus.pl.
+krs.pl,8,wikidata;directory,National Council of the Judiciary,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 krspl.home.pl.
+pfron.org.pl,8,wikidata;directory,National Disabled Persons Rehabilitation Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp1.pfron.org.pl.
+zditm.szczecin.pl,8,wikidata;linkgraph,ZDiTM Szczecin,,HttpConnectTimeoutException: HTTP connect timed out,10 zditm.szczecin.pl.
+ahk.pl,7,wikidata;wikidata,Polish-German Chamber of Commerce and Industry,,302,10 ahk-pl.mail.protection.outlook.com.
+bip.radom.pl,7,linkgraph,Linked from 35 public-sector domains,,200,none
+dominikanie.pl,7,wikidata;wikidata,Polish Dominican Province,,200,0 mxg.dominikanie.pl.
+edu.bydgoszcz.pl,7,linkgraph,Linked from 22 public-sector domains,,200,10 mail.um.bydgoszcz.pl.
+franciszkanie.org.pl,7,wikidata;wikidata,Province of Our Lady of the Angels of the Friars Minor in Kraków,,301,10 mail.franciszkanie.org.pl.
+lubuskie.pl,7,wikidata;wikidata,Zarząd Województwa Lubuskiego | Marshal's Office of Lubusz Voivodeship,central-1,200,20 mailguard-2.uz.zgora.pl.; 10 mailguard-1.uz.zgora.pl.
+nid.pl,7,wikidata;wikidata,Narodowy Instytut Dziedzictwa,,200,10 nid-pl.mail.protection.outlook.com.
+ore.edu.pl,7,linkgraph,Linked from 22 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+panewniki.franciszkanie.pl,7,wikidata;wikidata,Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in Katowice,,HttpConnectTimeoutException: HTTP connect timed out,0 panewniki.franciszkanie.pl.
+pijarzy.pl,7,wikidata;wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
+um.szczecin.pl,7,linkgraph,Linked from 21 public-sector domains,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching um.szczecin.pl found.,20 d332736.a.ess.de.barracudanetworks.com.; 20 d332736.b.ess.de.barracudanetworks.com.
+umwd.dolnyslask.pl,7,wikidata;wikidata,Marshal's Office of Lower Silesian Voivodeship | Lower Silesian Regional Assembly,central-1,200,10 mx01.dolnyslask.pl.; 10 mx02.dolnyslask.pl.
+wroc.pl,7,linkgraph,Linked from 51 public-sector domains,,ConnectException,none
+www.bialystok.pl,7,linkgraph,Linked from 22 public-sector domains,,200,0 mx.um.bialystok.pl.
+www.bydgoszcz.pl,7,linkgraph,Linked from 33 public-sector domains,,200,10 mail.um.bydgoszcz.pl.
+www.opole.pl,7,linkgraph,Linked from 20 public-sector domains,,301,20 mx2.zenbox.pl.; 10 mx1.zenbox.pl.; 30 mx3.zenbox.pl.
+www.radom.pl,7,linkgraph,Linked from 20 public-sector domains,,200,10 www.radom.pl.
+www.wroclaw.pl,7,linkgraph,Linked from 23 public-sector domains,,200,5 mail1.um.wroc.pl.
 zakonfranciszkanów.pl,7,wikidata;wikidata,Q11828045,,,
-bernardyni.com,6,wikidata;wikidata,Bernardines (Franciscans),,,
-cke.edu.pl,6,linkgraph,Linked from 10 public-sector domains,,,
-diecezja.radom.pl,6,linkgraph,Linked from 10 public-sector domains,,,
-edu.bialystok.pl,6,linkgraph,Linked from 19 public-sector domains,,,
-franciszkanie.com,6,wikidata;wikidata,Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław,,,
-franciszkanie.net,6,wikidata;wikidata,Province of Saint Francis of the Friars Minor in Poznań,,,
-krakow.pl,6,linkgraph,Linked from 15 public-sector domains,,,
-pe.szczecin.pl,6,linkgraph,Linked from 15 public-sector domains,,,
-pl.ambafrance.org,6,wikidata;wikidata,"Consulate General of France in Krakow | Embassy of France, Warsaw",central,,
-polen.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Warsaw | German Consulate Opole",central,,
-vulcan.edu.pl,6,linkgraph,Linked from 12 public-sector domains,,,
-adwokatura.pl,5,directory,NACZELNA RADA ADWOKACKA,,,
-agh.edu.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-antydoping.pl,5,directory,POLSKA AGENCJA ANTYDOPINGOWA,,,
-beowp.wp.mil.pl,5,directory,BIURO EWIDENCJI OSOBOWEJ WOJSKA POLSKIEGO,,,
-bfg.pl,5,directory,BANKOWY FUNDUSZ GWARANCYJNY,,,
-bgk.pl,5,directory,BANK GOSPODARSTWA KRAJOWEGO,,,
-bip.bialystok.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-bip.warszawa.pl,5,linkgraph,Linked from 9 public-sector domains,,,
-biswarszawa.wp.mil.pl,5,directory,BIURO INFRASTRUKTURY SPECJALNEJ,,,
-bkd.wp.mil.pl,5,directory,BIURO KONWENTU DZIEKANÓW,,,
-bsw.starzgraniczna.pl,5,directory,BIURO SPRAW WEWNĘTRZNYCH STRAŻY GRANICZNEJ,,,
-buligl.pl,5,directory,BIURO URZĄDZANIA LASU I GEODEZJI LEŚNEJ,,,
-cbsp.policja.pl,5,directory,CENTRALNE BIURO ŚLEDCZE POLICJI,,,
-cdissz.wp.mil.pl,5,directory,DOWÓDZTWO TRANSFORMACJI I SZKOLENIA SIŁ ZBROJNYCH W BYDGOSZCZY,,,
-cem.edu.pl,5,directory,CENTRUM EGZAMINÓW MEDYCZNYCH,,,
-co.kprp.pl,5,directory,CENTRUM OBSŁUGI KANCELARII PREZYDENTA RZECZYPOSPOLITEJ POLSKIEJ,,,
-coaz.wp.mil.pl,5,directory,CENTRALNY OŚRODEK AKTYWIZACJI ZAWODOWEJ W WARSZAWIE,,,
-cobjwdl.lodz.pl,5,directory,CENTRALNY OŚRODEK BADAŃ JAKOŚCI W DIAGNOSTYCE LABORATORYJNEJ,,,
-cul.com.pl,5,directory,CENTRUM USŁUG LOGISTYCZNYCH,,,
-cwkl.wp.mil.pl,5,directory,CENTRALNA WOJSKOWA KOMISJA LEKARSKA W WARSZAWIE,,,
-czcsz.wp.mil.pl,5,directory,CENTRUM ZASOBÓW CYBERPRZESTRZENI SIŁ ZBROJNYCH,,,
-dew.wp.mil.pl,5,directory,DOM EMERYTA WOJSKOWEGO W WARSZAWIE,,,
-diecezja.bydgoszcz.pl,5,linkgraph,Linked from 9 public-sector domains,,,
-diecezja.rzeszow.pl,5,linkgraph,Linked from 9 public-sector domains,,,
-ecsc.mil.pl,5,directory,EKSPERCKIE CENTRUM SZKOLENIA CYBERBEZPIECZEŃSTWA,,,
-eurzad.szczecin.pl,5,linkgraph,Linked from 6 public-sector domains,,,
-izbaarchitektow.pl,5,directory,IZBA ARCHITEKTÓW RZECZYPOSPOLITEJ POLSKIEJ,,,
-kcbtik.pl,5,directory,KRAJOWE CENTRUM BANKOWANIA TKANEK I KOMÓREK,,,
-kchz.argo.pl,5,directory,KRAJOWE CENTRUM HODOWLI ZWIERZĄT,,,
-kidl.org.pl,5,directory,KRAJOWA IZBA DIAGNOSTÓW LABORATORYJNYCH,,,
-kidp.pl,5,directory,KRAJOWA IZBA DORADCÓW PODATKOWYCH,,,
-kif.info.pl,5,directory,KRAJOWA IZBA FIZJOTERAPEUTÓW,,,
-kirp.pl,5,directory,KRAJOWA IZBA RADCÓW PRAWNYCH,,,
-klubdgrsz.wp.mil.pl,5,directory,KLUB DOWÓDZTWA GENERALNEGO RODZAJÓW SIŁ ZBROJNYCH,,,
-klubdorsz.wp.mil.pl,5,directory,KLUB DOWÓDZTWA OPERACYJNEGO RODZAJÓW SIŁ ZBROJNYCH,,,
-klubiwspsz.wp.mil.pl,5,directory,KLUB INSPEKTORATU WSPARCIA SIŁ ZBROJNYCH,,,
-knfgov.pl,5,directory,URZĄD KOMISJI NADZORU FINANSOWEGO,,,
-ko.rzeszow.pl,5,linkgraph,Linked from 6 public-sector domains,,,
-komornik.pl,5,directory,KRAJOWA RADA KOMORNICZA,,,
-kopsn.pl,5,directory,KRAJOWY OŚRODEK PSYCHIATRII SĄDOWEJ DLA NIELETNICH W GARWOLINIE,,,
-kozzd-gostynin.pl,5,directory,KRAJOWY OŚRODEK ZAPOBIEGANIA ZACHOWANIOM DYSSOCJALNYM W GOSTYNINIE,,,
-krir.pl,5,directory,KRAJOWA RADA IZB ROLNICZYCH,,,
-krn.org.pl,5,directory,KRAJOWA RADA NOTARIALNA,,,
-krs.com.pl,5,directory,KRAJOWA RADA SPÓŁDZIELCZA,,,
-kuratorium.bialystok.pl,5,linkgraph,Linked from 9 public-sector domains,,,
-kuratorium.opole.pl,5,linkgraph,Linked from 7 public-sector domains,,,
-kuratorium.wroclaw.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-mosibndkwz.wp.mil.pl,5,directory,MIĘDZYNARODOWY OŚRODEK SZKOLENIA I BADAŃ NAD DZIEDZICTWEM KULTURY W ZAGROŻENIU,,,
-muci.edu.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-nia.org.pl,5,directory,NACZELNA IZBA APTEKARSKA,,,
-nil.org.pl,5,directory,NACZELNA IZBA LEKARSKA,,,
-nipip.pl,5,directory,NACZELNA IZBA PIELĘGNIAREK I POŁOŻNYCH,,,
-ofertypracy.edu.pl,5,linkgraph,Linked from 6 public-sector domains,,,
-ohp.pl,5,directory,KOMENDA GŁÓWNA OCHOTNICZYCH HUFCÓW PRACY,,,
-oke.lomza.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-ormon.wp.mil.pl,5,directory,OŚRODEK REPREZENTACYJNY MINISTERSTWA OBRONY NARODOWEJ,,,
-otwarta.bydgoszcz.pl,5,linkgraph,Linked from 6 public-sector domains,,,
-pan.pl,5,directory,POLSKA AKADEMIA NAUK,,,
-pansa.pl,5,directory,POLSKA AGENCJA ŻEGLUGI POWIETRZNEJ,,,
-pb.edu.pl,5,linkgraph,Linked from 9 public-sector domains,,,
-pbr.szczecin.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-pielgrzymka.rzeszow.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-piib.org.pl,5,directory,POLSKA IZBA INŻYNIERÓW BUDOWNICTWA,,,
-pka.edu.pl,5,directory,BIURO POLSKIEJ KOMISJI AKREDYTACYJNEJ,,,
-pkn.pl,5,directory,POLSKI KOMITET NORMALIZACYJNY,,,
-pkwk.pl,5,directory,POLSKI KLUB WYŚCIGÓW KONNYCH,,,
-polmicro.edu.pl,5,directory,CENTRALNY OŚRODEK BADAŃ JAKOŚCI W DIAGNOSTYCE MIKROBIOLOGICZNEJ,,,
-poznan.pl,5,linkgraph,Linked from 9 public-sector domains,,,
-prz.edu.pl,5,linkgraph,Linked from 6 public-sector domains,,,
-radio.opole.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-radio.rzeszow.pl,5,linkgraph,Linked from 6 public-sector domains,,,
-rzecznikpatentowy.org.pl,5,directory,POLSKA IZBA RZECZNIKÓW PATENTOWYCH,,,
-std.bialystok.pl,5,directory,OŚRODEK DIAGNOSTYCZNO-BADAWCZY CHORÓB PRZENOSZONYCH DROGĄ PŁCIOWĄ W BIAŁYMSTOKU,,,
-strazgraniczna.pl,5,directory,KOMENDA GŁÓWNA STRAŻY GRANICZNEJ,,,
-strony.bialystok.pl,5,linkgraph,Linked from 9 public-sector domains,,,
-ufg.pl,5,directory,UBEZPIECZENIOWY FUNDUSZ GWARANCYJNY,,,
-um.bialystok.pl,5,linkgraph,Linked from 8 public-sector domains,,,
-uni.opole.pl,5,linkgraph,Linked from 9 public-sector domains,,,
-usz.edu.pl,5,linkgraph,Linked from 6 public-sector domains,,,
-uw.edu.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-vetpol.org.pl,5,directory,KRAJOWA IZBA LEKARSKO-WETERYNARYJNA,,,
-wcm.wp.mil.pl,5,directory,CENTRALNY WOJSKOWY OŚRODEK METROLOGII | WOJSKOWE CENTRUM METROLOGII W WARSZAWIE,,,
-wcnjk.wp.mil.pl,5,directory,"WOJSKOWE CENTRUM NORMALIZACJI, JAKOŚCI I KODYFIKACJI",,,
-wlw.wp.mil.pl,5,directory,WŁADZA LOTNICTWA WOJSKOWEGO,,,
-wojskowa-il.org.pl,5,directory,WOJSKOWA IZBA LEKARSKA W WARSZAWIE,,,
-wsa-gorzow.pl,5,directory,WOJEWÓDZKI SĄD ADMINISTRACYJNY W GORZOWIE WIELKOPOLSKIM,,,
-wsa.gliwice.pl,5,directory,WOJEWÓDZKI SĄD ADMINISTRACYJNY W GLIWICACH,,,
-wsa.poznan.pl,5,directory,WOJEWÓDZKI SĄD ADMINISTRACYJNY W POZNANIU,,,
-www.szczecin.pl,5,linkgraph,Linked from 5 public-sector domains,,,
-ziotp.wp.mil.pl,5,directory,ZAKŁAD INWESTYCJI ORGANIZACJI TRAKTATU PÓŁNOCNOATLANTYCKIEGO,,,
-zrp.pl,5,directory,ZWIĄZEK RZEMIOSŁA POLSKIEGO,,,
-zut.edu.pl,5,linkgraph,Linked from 8 public-sector domains,,,
-zzpprzymz.pl,5,directory,ZAKŁAD ZAMÓWIEŃ PUBLICZNYCH PRZY MINISTRZE ZDROWIA,,,
-academica.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-afghanembassy.com.pl,4,wikidata,"Embassy of Afghanistan, Warsaw",central,,
-algerianembassy.pl,4,wikidata,"Embassy of Algeria, Warsaw",central,,
-ambasada-portugalii.pl,4,wikidata,"Embassy of Portugal, Warsaw",central,,
-ambasada.zakonmaltanski.pl,4,wikidata,"Embassy of the Sovereign Military Order of Malta, Warsaw",central,,
-ambasadalibii.pl,4,wikidata,"Embassy of Libya, Warsaw",central,,
-ambasadamongolii.pl,4,wikidata,"Embassy of Mongolia, Warsaw",central,,
-amcham.pl,4,wikidata,Q9149948,,,
-amu.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-amw.com.pl,4,wikidata,Military Property Agency,,,
-arm.krakow.pl,4,wikidata,Agencja Rozwoju Miasta,,,
-aterima-med.pl,4,wikidata,ATERIMA MED,,,
-autofusgroup.warszawa.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-azembassy.pl,4,wikidata,"Embassy of Azerbaijan, Warsaw",central,,
-bip.podkarpackie.pl,4,wikidata,Marshal's Office of Podkarpackie Voivodeship,central-1,,
-bip.sejmik.kielce.pl,4,wikidata,Marshal's Office of Świętokrzyskie Voivodeship,central-1,,
-bip.slaskie.pl,4,wikidata,Marshal's Office of Silesian Voivodeship,central-1,,
-bip.warmia.mazury.pl,4,wikidata,Marshal's Office of Warmian-Masurian Voivodeship,central-1,,
-bip.wzp.pl,4,wikidata,Marshal's Office of West Pomeranian Voivodeship,central-1,,
-borpa.bydgoszcz.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-braille.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-buk.gmina.pl,4,wikidata,Q117193706,,,
-bursaszkolna.bialystok.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-ccifp.pl,4,wikidata,French Chamber of Commerce and Indusrty in Poland,,,
-cciip.pl,4,wikidata,Q9382926,,,
-cd.uj.edu.pl,4,wikidata,Q139780702,,,
-cdzdm.pl,4,wikidata,Centrum Doradztwa Zawodowego dla Młodzieży w Poznaniu,,,
-chinaembassy.org.pl,4,wikidata,"Embassy of the People's Republic of China, Warsaw",central,,
-ckz.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-cmi.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-cos.pl,4,wikidata,Q9186085,,,
-crpk.pl,4,wikidata,Q132586341,,,
-dbamy.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-dopiewo.pl,4,wikidata,Komunikacja Gminy Dopiewo,,,
-dziebaltow.osp.org.pl,4,wikidata,Q11795669,,,
-edziecko.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-embangola.pl,4,wikidata,"Embassy of Angola, Warsaw",central,,
-embassy-of-yemen.pl,4,wikidata,"Embassy of Yemen, Warsaw",central,,
-epolo.cancilleria.gov.ar,4,wikidata,"Embassy of Argentina, Warsaw",central,,
-filharmoniazg.pl,4,wikidata,Filharmonia Zielonogórska,,,
-fulbright.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-geoportal.wroclaw.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-ibe.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-icm.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-iderepublica.pl,4,wikidata,Q124214491,,,
-instytutpolski.pl,4,wikidata,Polish Institute,,,
-iom.pl,4,wikidata,International Organization for Migration,,,
-ispan.pl,4,wikidata,"Institute of Art, Polish Academy of Sciences",,,
-iwst.rzeszow.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-kgsok.pl,4,wikidata,Railway Security Guard,,,
-kielce.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-kig.pl,4,wikidata,Polish Chamber of Commerce,,,
-komunikacja.bialystok.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-komunikacja.zakrzew.pl,4,wikidata,Q136527926,,,
-kpsw.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-krakko.mfa.gov.hu,4,wikidata,Consulate General of Hungary in Krakow,central,,
-krld.pl,4,wikidata,"Embassy of North Korea, Warsaw",central,,
-ksiaznica.szczecin.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-kujawsko-pomorskie.pl,4,wikidata,Marshal's Office of Kuyavian-Pomeranian Voivodeship,central-1,,
-lbg.home.pl,4,wikidata,Kostrzyca Forest Gene Bank,,,
-lodzkie.pl,4,wikidata,Łódź Voivodeship Marshal's Office,central-1,,
-lubelskie.pl,4,wikidata,Marshal's Office of Lublin Voivodeship,central-1,,
-ludowy.pl,4,wikidata,Ludowy Theatre,,,
-malopolska.pl,4,wikidata,Marshal’s Office of Lesser Poland Voivodeship,central-1,,
-malopolskie.pl,4,wikidata,Lesser Poland Regional Assembly,central-1,,
-mazovia.pl,4,wikidata,Marshal’s Office of Masovian Voivodeship,central-1,,
-mbp.opole.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-metropoliaztm.pl,4,wikidata,Zarząd Transportu Metropolitalnego,,,
-mieroszewski.pl,4,wikidata,Juliusz Mieroszewski Centre for Dialogue,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Warsaw",central,,
-mopr.bialystok.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-muzeum.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-muzeumciechanow.pl,4,wikidata,Museum of the Masovian Nobility in Ciechanów,,,
-nadbuzanski.strazgraniczna.pl,4,wikidata,Q20034060,,,
-nck.pl,4,wikidata,Narodowe Centrum Kultury,,,
-nka.powiat-otwocki.pl,4,wikidata,Związek Powiatowo-Gminny „Nadwiślańska Komunikacja Autobusowa”,,,
-nukat.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-nuncjatura.pl,4,wikidata,Apostolic Nunciature to Poland,central,,
-opera-slaska.pl,4,wikidata,Silesian Opera,,,
-opolskie.pl,4,wikidata,Marshal’s Office of Opole Voivodeship,central-1,,
-orpeg.pl,4,wikidata,Centre for the Development of Polish Education Abroad,,,
-osiedla.szczecin.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-oskko.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-osp-ozarow.pl,4,wikidata,Q16583461,,,
-osp.lasin.pl,4,wikidata,Q11795695,,,
-ospchojnice.pl,4,wikidata,Q30903822,,,
-oswiata.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-palestine.pl,4,wikidata,Embassy of Palestine in Poland,central,,
-pg.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-pgztppm.pl,4,wikidata,Q136650989,,,
-pik.warszawa.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-pik.wroclaw.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-pionki.osp.org.pl,4,wikidata,1 Zwycięstwa Street in Pionki,,,
-pl.ambasadabih.pl,4,wikidata,"Embassy of Bosnia and Herzegovina, Warsaw",central,,
-pl.lebanon.pl,4,wikidata,"Embassy of Lebanon, Warsaw",central,,
-po.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-po.opole.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-president.pl,4,wikidata,Chancellery of the President of the Republic of Poland,,,
-prezydent.pl,4,wikidata,Chancellery of the President of the Republic of Poland,,,
-przyjaznyrodzinie.szczecin.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-psychotesty.wroclaw.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-pum.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-pzo.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-rckik-katowice.pl,4,wikidata,RCKiK Katowice,,,
-rjp.pan.pl,4,wikidata,Council for the Polish Language,,,
-rodzina.bialystok.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-sadowne.osp.org.pl,4,wikidata,Q16583464,,,
-sanokolchowce.osp.pl,4,wikidata,Q125511749,,,
-sejmik.podkarpackie.pl,4,wikidata,Podkarpackie Regional Assembly,central-1,,
-sejmik.slaskie.pl,4,wikidata,Silesian Regional Assembly,central-1,,
-sejmik.wzp.pl,4,wikidata,West Pomeranian Regional Assembly,central-1,,
-sniadecja.pl,4,wikidata,Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego,,,
-spp.szczecin.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-srilankaembassy.com.pl,4,wikidata,"Embassy of Sri Lanka, Warsaw",central,,
-strategia.bydgoszcz.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-syrianembassy.com.pl,4,wikidata,"Embassy of Syria, Warsaw",central,,
-teatr.bielsko.pl,4,wikidata,Teatr Polski in Bielsko-Biała,,,
-teatr.tarnow.pl,4,wikidata,Teatr im. Ludwika Solskiego w Tarnowie,,,
-teatrnorwida.pl,4,wikidata,Cyprian Kamil Norwid Theatre,,,
-teatrosterwy.pl,4,wikidata,Teatr im. Juliusza Osterwy,,,
-ukw.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-um.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-umwo.opole.pl,4,wikidata,Opole Regional Assembly,central-1,,
-umww.pl,4,wikidata,Marshal's Office of Greater Poland Voivodeship,central-1,,
-unesco.pl,4,wikidata,Polish National Commission for UNESCO,,,
-upjp2.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-ur.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-uwb.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-uzbekistan.pl,4,wikidata,"Embassy of Uzbekistan, Warsaw",central,,
-varso.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Warsaw",central,,
-venez.pl,4,wikidata,"Embassy of Venezuela, Warsaw",central,,
-warszawa-straz.pl,4,wikidata,Warsaw Fire Brigade,,,
-wbh.wp.mil.pl,4,wikidata,Q48848945,,,
-wcrs.wroclaw.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-wios.warszawa.pl,4,wikidata,Wojewódzki Inspektorat Ochrony Środowiska w Warszawie,central-1,,
-wsd.rzeszow.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-wzdw.pl,4,wikidata,Greater Poland Voivodeship Roads Authority,central-1,,
-zabiele.pl,4,wikidata,Q28673892,,,
-zbp.pl,4,wikidata,Zwia̦zek Banków Polskich,,,
-zdit.uml.lodz.pl,4,wikidata,Zarząd Dróg i Transportu w Łodzi,,,
-zdmikp.bydgoszcz.pl,4,linkgraph,Linked from 4 public-sector domains,,,
-zk.opole.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-ztm.gda.pl,4,wikidata,ZTM Gdańsk,,,
-ztm.kielce.pl,4,wikidata,ZTM Kielce,,,
-ztm.poznan.pl,4,wikidata,ZTM Poznań,,,
-ztm.waw.pl,4,wikidata,Zarząd Transportu Miejskiego w Warszawie,,,
-zuk.szczecin.pl,4,linkgraph,Linked from 3 public-sector domains,,,
-zzm.katowice.pl,4,wikidata,Q113654054,,,
-ambassaderdcpologne.com,3,wikidata,"Embassy of the Democratic Republic of the Congo, Warsaw",central,,
-bip.pomorskie.eu,3,wikidata,Marshal's Office of Pomeranian Voivodeship,central-1,,
-breslau.diplo.de,3,wikidata,"Consulate General of Germany, Wrocław",,,
-consulate-sejny.mfa.lt,3,wikidata,Q110387988,,,
-cubadiplomatica.cu,3,wikidata,"Embassy of Cuba, Warsaw",central,,
-danzig.diplo.de,3,wikidata,"Consulate General of Germany, Gdańsk",,,
-eurogendfor.org,3,wikidata,European Gendarmerie Force,,,
-europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Poland,central,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Warsaw",central,,
-gdansk.mid.ru,3,wikidata,"Consulate General of Russia, Gdansk",,,
-krakau.diplo.de,3,wikidata,"Consulate General of Germany, Krakow",,,
-krakow.mid.ru,3,wikidata,Consulate General of Russia in Kraków,,,
-mfa.bg,3,wikidata,"Embassy of Bulgaria, Warsaw",central,,
-mfa.gr,3,wikidata,"Embassy of Greece, Warsaw",central,,
-mzv.cz,3,wikidata,"Embassy of the Czech Republic, Warsaw",central,,
-nigeriaembassypoland.org,3,wikidata,"Embassy of Nigeria, Warsaw",central,,
-norway.no,3,wikidata,"Embassy of Norway, Warsaw",central,,
-oppeln.diplo.de,3,wikidata,German Consulate Opole,central-1,,
-osp-oldrzychowice.pl.tl,3,wikidata,Q11795685,,,
-pl.mfa.lt,3,wikidata,"Embassy of Lithuania, Warsaw",central,,
-pl.mvep.hr,3,wikidata,"Embassy of Croatia, Warsaw",central,,
-podlaskie.eu,3,wikidata,Marshal’s Office of Podlaskie Voivodeship,central-1,,
-poland.mfa.am,3,wikidata,"Embassy of Armenia, Warsaw",central,,
-poland.mid.ru,3,wikidata,Embassy of Russia in Poland,central,,
-poland.nlembassy.org,3,wikidata,"Embassy of the Netherlands, Warsaw",central,,
-polen.um.dk,3,wikidata,"Embassy of Denmark, Warsaw",central,,
-radaslonskigojynzyka.org,3,wikidata,Rada Języka Śląskiego,,,
-roc-taiwan.org,3,wikidata,Taipei Representative Office in Poland,,,
-swedenabroad.com,3,wikidata,"Embassy of Sweden, Warsaw",central,,
-thaiembassy.org,3,wikidata,"Embassy of Thailand, Warsaw",central,,
-varsava.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Warsaw",central,,
-varsovia.mae.ro,3,wikidata,"Embassy of Romania, Warsaw",central,,
-varsovie.mae.lu,3,wikidata,"Embassy of Luxembourg, Warsaw",central,,
-warsaw.embassy.qa,3,wikidata,"Embassy of Qatar, Warsaw",central,,
-warsaw.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Warsaw,,,
-warsaw.mfa.ee,3,wikidata,Embassy of Estonia in Warsaw,central,,
-warsaw.mfa.ir,3,wikidata,"Embassy of Iran, Warsaw",central,,
-web.archive.org,3,wikidata,"Embassy of Egypt, Warsaw",central,,
-wroclaw.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Wrocław,,,
-zdtm.lublin.eu,3,wikidata,ZDiTM Lublin,,,
-pkgsa.pl,2,wikidata;wikidata;wikidata,Terminal Koroszczyn,,,
-visitbydgoszcz.pl,2,wikidata;wikidata;wikidata;wikidata,Visit Bydgoszcz,,,
-mzv.sk,1,wikidata;wikidata;wikidata,"Embassy of Slovakia, Warsaw | Consulate General of Slovakia, Kraków",central,,
+bernardyni.com,6,wikidata;wikidata,Bernardines (Franciscans),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx-1.dpoczta.pl.; 10 mx-2.dpoczta.pl.
+cke.edu.pl,6,linkgraph,Linked from 10 public-sector domains,,ConnectException,5 cke-edu-pl.mail.protection.outlook.com.
+diecezja.radom.pl,6,linkgraph,Linked from 10 public-sector domains,,200,10 diecezja.radom.pl.
+edu.bialystok.pl,6,linkgraph,Linked from 19 public-sector domains,,301,0 edu-bialystok-pl.mail.protection.outlook.com.
+franciszkanie.com,6,wikidata;wikidata,Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław,,301,10 mail.franciszkanie.com.
+franciszkanie.net,6,wikidata;wikidata,Province of Saint Francis of the Friars Minor in Poznań,,200,10 franciszkanie.net.
+krakow.pl,6,linkgraph,Linked from 15 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,4 pocztapro.cyfronet.pl.
+pe.szczecin.pl,6,linkgraph,Linked from 15 public-sector domains,,200,10 d332736.a.ess.de.barracudanetworks.com.; 10 d332736.b.ess.de.barracudanetworks.com.
+pl.ambafrance.org,6,wikidata;wikidata,"Consulate General of France in Krakow | Embassy of France, Warsaw",central,301,none
+polen.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Warsaw | German Consulate Opole",central,200,none
+vulcan.edu.pl,6,linkgraph,Linked from 12 public-sector domains,,301,0 vulcan-edu-pl.mail.protection.outlook.com.
+adwokatura.pl,5,directory,NACZELNA RADA ADWOKACKA,,HttpConnectTimeoutException: HTTP connect timed out,10 adwokatura.pl.
+agh.edu.pl,5,linkgraph,Linked from 5 public-sector domains,,301,10 smtp.agh.edu.pl.
+antydoping.pl,5,directory,POLSKA AGENCJA ANTYDOPINGOWA,,200,0 antydoping-pl.mail.protection.outlook.com.
+beowp.wp.mil.pl,5,directory,BIURO EWIDENCJI OSOBOWEJ WOJSKA POLSKIEGO,,200,none
+bfg.pl,5,directory,BANKOWY FUNDUSZ GWARANCYJNY,,200,10 mgw2.bfg.pl.
+bgk.pl,5,directory,BANK GOSPODARSTWA KRAJOWEGO,,403,10 bgk-pl.mail.protection.outlook.com.
+bip.bialystok.pl,5,linkgraph,Linked from 5 public-sector domains,,200,10 mx.um.bialystok.pl.
+bip.warszawa.pl,5,linkgraph,Linked from 9 public-sector domains,,403,none
+biswarszawa.wp.mil.pl,5,directory,BIURO INFRASTRUKTURY SPECJALNEJ,,HttpConnectTimeoutException: HTTP connect timed out,none
+bkd.wp.mil.pl,5,directory,BIURO KONWENTU DZIEKANÓW,,200,none
+bsw.starzgraniczna.pl,5,directory,BIURO SPRAW WEWNĘTRZNYCH STRAŻY GRANICZNEJ,,ConnectException,none
+buligl.pl,5,directory,BIURO URZĄDZANIA LASU I GEODEZJI LEŚNEJ,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.buligl.pl.
+cbsp.policja.pl,5,directory,CENTRALNE BIURO ŚLEDCZE POLICJI,,200,none
+cdissz.wp.mil.pl,5,directory,DOWÓDZTWO TRANSFORMACJI I SZKOLENIA SIŁ ZBROJNYCH W BYDGOSZCZY,,200,none
+cem.edu.pl,5,directory,CENTRUM EGZAMINÓW MEDYCZNYCH,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 poczta.cem.edu.pl.
+co.kprp.pl,5,directory,CENTRUM OBSŁUGI KANCELARII PREZYDENTA RZECZYPOSPOLITEJ POLSKIEJ,,301,none
+coaz.wp.mil.pl,5,directory,CENTRALNY OŚRODEK AKTYWIZACJI ZAWODOWEJ W WARSZAWIE,,200,none
+cobjwdl.lodz.pl,5,directory,CENTRALNY OŚRODEK BADAŃ JAKOŚCI W DIAGNOSTYCE LABORATORYJNEJ,,HttpConnectTimeoutException: HTTP connect timed out,5 mx-cobjwdl.ogicom.pl.
+cul.com.pl,5,directory,CENTRUM USŁUG LOGISTYCZNYCH,,200,10 mail4.lh.pl.
+cwkl.wp.mil.pl,5,directory,CENTRALNA WOJSKOWA KOMISJA LEKARSKA W WARSZAWIE,,200,none
+czcsz.wp.mil.pl,5,directory,CENTRUM ZASOBÓW CYBERPRZESTRZENI SIŁ ZBROJNYCH,,200,none
+dew.wp.mil.pl,5,directory,DOM EMERYTA WOJSKOWEGO W WARSZAWIE,,200,none
+diecezja.bydgoszcz.pl,5,linkgraph,Linked from 9 public-sector domains,,200,5 rx330.ic.net.pl.; 10 mail.diecezja.bydgoszcz.pl.
+diecezja.rzeszow.pl,5,linkgraph,Linked from 9 public-sector domains,,200,0 diecezja.rzeszow.pl.
+ecsc.mil.pl,5,directory,EKSPERCKIE CENTRUM SZKOLENIA CYBERBEZPIECZEŃSTWA,,IOException: HTTP/1.1 header parser received no bytes,none
+eurzad.szczecin.pl,5,linkgraph,Linked from 6 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx.miasto.szczecin.pl.
+izbaarchitektow.pl,5,directory,IZBA ARCHITEKTÓW RZECZYPOSPOLITEJ POLSKIEJ,,301,10 izbaarchitektow.pl.
+kcbtik.pl,5,directory,KRAJOWE CENTRUM BANKOWANIA TKANEK I KOMÓREK,,200,0 kcbtik-pl.mail.protection.outlook.com.
+kchz.argo.pl,5,directory,KRAJOWE CENTRUM HODOWLI ZWIERZĄT,,ConnectException,none
+kidl.org.pl,5,directory,KRAJOWA IZBA DIAGNOSTÓW LABORATORYJNYCH,,200,0 kidl-org-pl.mail.protection.outlook.com.
+kidp.pl,5,directory,KRAJOWA IZBA DORADCÓW PODATKOWYCH,,200,10 kidp.pl.
+kif.info.pl,5,directory,KRAJOWA IZBA FIZJOTERAPEUTÓW,,200,0 kif-info-pl.mail.protection.outlook.com.
+kirp.pl,5,directory,KRAJOWA IZBA RADCÓW PRAWNYCH,,200,10 serwer2017589.home.pl.
+klubdgrsz.wp.mil.pl,5,directory,KLUB DOWÓDZTWA GENERALNEGO RODZAJÓW SIŁ ZBROJNYCH,,200,none
+klubdorsz.wp.mil.pl,5,directory,KLUB DOWÓDZTWA OPERACYJNEGO RODZAJÓW SIŁ ZBROJNYCH,,200,none
+klubiwspsz.wp.mil.pl,5,directory,KLUB INSPEKTORATU WSPARCIA SIŁ ZBROJNYCH,,200,none
+knfgov.pl,5,directory,URZĄD KOMISJI NADZORU FINANSOWEGO,,SSLHandshakeException: Remote host terminated the handshake,5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.; 100 mx3.mail.ovh.net.
+ko.rzeszow.pl,5,linkgraph,Linked from 6 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.ko.rzeszow.pl.
+komornik.pl,5,directory,KRAJOWA RADA KOMORNICZA,,301,10 komornik-pl.mail.protection.outlook.com.
+kopsn.pl,5,directory,KRAJOWY OŚRODEK PSYCHIATRII SĄDOWEJ DLA NIELETNICH W GARWOLINIE,,200,10 kopsn.pl.
+kozzd-gostynin.pl,5,directory,KRAJOWY OŚRODEK ZAPOBIEGANIA ZACHOWANIOM DYSSOCJALNYM W GOSTYNINIE,,200,10 kozzd-gostynin.pl.
+krir.pl,5,directory,KRAJOWA RADA IZB ROLNICZYCH,,200,10 krir.pl.
+krn.org.pl,5,directory,KRAJOWA RADA NOTARIALNA,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx-02-eu-central-1.prod.hydra.sophos.com.; 10 mx-01-eu-central-1.prod.hydra.sophos.com.
+krs.com.pl,5,directory,KRAJOWA RADA SPÓŁDZIELCZA,,301,10 serwer1959330.home.pl.
+kuratorium.bialystok.pl,5,linkgraph,Linked from 9 public-sector domains,,200,10 kuratorium.bialystok.pl.
+kuratorium.opole.pl,5,linkgraph,Linked from 7 public-sector domains,,301,0 kuratorium.opole.pl.
+kuratorium.wroclaw.pl,5,linkgraph,Linked from 5 public-sector domains,,301,10 kuratorium.wroclaw.pl.
+mosibndkwz.wp.mil.pl,5,directory,MIĘDZYNARODOWY OŚRODEK SZKOLENIA I BADAŃ NAD DZIEDZICTWEM KULTURY W ZAGROŻENIU,,200,none
+muci.edu.pl,5,linkgraph,Linked from 5 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 muci-edu-pl.mail.protection.outlook.com.
+nia.org.pl,5,directory,NACZELNA IZBA APTEKARSKA,,301,10 nia.org.pl.
+nil.org.pl,5,directory,NACZELNA IZBA LEKARSKA,,200,0 nil-org-pl.mail.protection.outlook.com.
+nipip.pl,5,directory,NACZELNA IZBA PIELĘGNIAREK I POŁOŻNYCH,,200,1 mx1.iq.pl.; 5 mail.iq.pl.
+ofertypracy.edu.pl,5,linkgraph,Linked from 6 public-sector domains,,200,none
+ohp.pl,5,directory,KOMENDA GŁÓWNA OCHOTNICZYCH HUFCÓW PRACY,,200,10 ohp.home.pl.; 10 ohp.pl.
+oke.lomza.pl,5,linkgraph,Linked from 5 public-sector domains,,200,10 mail.oke.lomza.pl.
+ormon.wp.mil.pl,5,directory,OŚRODEK REPREZENTACYJNY MINISTERSTWA OBRONY NARODOWEJ,,200,none
+otwarta.bydgoszcz.pl,5,linkgraph,Linked from 6 public-sector domains,,200,none
+pan.pl,5,directory,POLSKA AKADEMIA NAUK,,200,0 pan-pl.mail.protection.outlook.com.; 10 mail.pan.pl.
+pansa.pl,5,directory,POLSKA AGENCJA ŻEGLUGI POWIETRZNEJ,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 pansa-pl.mail.protection.outlook.com.
+pb.edu.pl,5,linkgraph,Linked from 9 public-sector domains,,200,0 poczta.pb.edu.pl.
+pbr.szczecin.pl,5,linkgraph,Linked from 5 public-sector domains,,ConnectException,none
+pielgrzymka.rzeszow.pl,5,linkgraph,Linked from 5 public-sector domains,,200,10 mail.pielgrzymka.rzeszow.pl.
+piib.org.pl,5,directory,POLSKA IZBA INŻYNIERÓW BUDOWNICTWA,,301,10 piib.org.pl.
+pka.edu.pl,5,directory,BIURO POLSKIEJ KOMISJI AKREDYTACYJNEJ,,200,0 pka-edu-pl.mail.protection.outlook.com.
+pkn.pl,5,directory,POLSKI KOMITET NORMALIZACYJNY,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail2.pkn.pl.
+pkwk.pl,5,directory,POLSKI KLUB WYŚCIGÓW KONNYCH,,301,10 pkwk.pl.
+polmicro.edu.pl,5,directory,CENTRALNY OŚRODEK BADAŃ JAKOŚCI W DIAGNOSTYCE MIKROBIOLOGICZNEJ,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 polmicro.edu.pl.
+poznan.pl,5,linkgraph,Linked from 9 public-sector domains,,302,1 aspmx.l.google.com.
+prz.edu.pl,5,linkgraph,Linked from 6 public-sector domains,,200,10 smtp.prz.edu.pl.
+radio.opole.pl,5,linkgraph,Linked from 5 public-sector domains,,200,5 mx.mymailwall.com.
+radio.rzeszow.pl,5,linkgraph,Linked from 6 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.radio.rzeszow.pl.
+rzecznikpatentowy.org.pl,5,directory,POLSKA IZBA RZECZNIKÓW PATENTOWYCH,,301,10 rzecznikpatentowy.org.pl.
+std.bialystok.pl,5,directory,OŚRODEK DIAGNOSTYCZNO-BADAWCZY CHORÓB PRZENOSZONYCH DROGĄ PŁCIOWĄ W BIAŁYMSTOKU,,301,10 mail1.webio.pl.; 10 mail2.webio.pl.; 20 mail3.webio.pl.
+strazgraniczna.pl,5,directory,KOMENDA GŁÓWNA STRAŻY GRANICZNEJ,,200,200 mx3.strazgraniczna.pl.; 10 mx.strazgraniczna.pl.; 100 mx2.strazgraniczna.pl.
+strony.bialystok.pl,5,linkgraph,Linked from 9 public-sector domains,,200,10 mail.strony.bialystok.pl.
+ufg.pl,5,directory,UBEZPIECZENIOWY FUNDUSZ GWARANCYJNY,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.ufg.pl.; 20 mail2.ufg.pl.
+um.bialystok.pl,5,linkgraph,Linked from 8 public-sector domains,,301,0 mx.um.bialystok.pl.
+uni.opole.pl,5,linkgraph,Linked from 9 public-sector domains,,200,10 fortimail.uni.opole.pl.
+usz.edu.pl,5,linkgraph,Linked from 6 public-sector domains,,200,10 usz-edu-pl.mail.protection.outlook.com.
+uw.edu.pl,5,linkgraph,Linked from 5 public-sector domains,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+vetpol.org.pl,5,directory,KRAJOWA IZBA LEKARSKO-WETERYNARYJNA,,200,10 vetpol.org.pl.
+wcm.wp.mil.pl,5,directory,CENTRALNY WOJSKOWY OŚRODEK METROLOGII | WOJSKOWE CENTRUM METROLOGII W WARSZAWIE,,200,none
+wcnjk.wp.mil.pl,5,directory,"WOJSKOWE CENTRUM NORMALIZACJI, JAKOŚCI I KODYFIKACJI",,200,none
+wlw.wp.mil.pl,5,directory,WŁADZA LOTNICTWA WOJSKOWEGO,,200,none
+wojskowa-il.org.pl,5,directory,WOJSKOWA IZBA LEKARSKA W WARSZAWIE,,200,1 mx1.mail.ovh.net.; 100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.
+wsa-gorzow.pl,5,directory,WOJEWÓDZKI SĄD ADMINISTRACYJNY W GORZOWIE WIELKOPOLSKIM,,ConnectException,none
+wsa.gliwice.pl,5,directory,WOJEWÓDZKI SĄD ADMINISTRACYJNY W GLIWICACH,,ConnectException,none
+wsa.poznan.pl,5,directory,WOJEWÓDZKI SĄD ADMINISTRACYJNY W POZNANIU,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.wsa.poznan.pl.
+www.szczecin.pl,5,linkgraph,Linked from 5 public-sector domains,,301,10 mojra.um.szczecin.pl.
+ziotp.wp.mil.pl,5,directory,ZAKŁAD INWESTYCJI ORGANIZACJI TRAKTATU PÓŁNOCNOATLANTYCKIEGO,,200,none
+zrp.pl,5,directory,ZWIĄZEK RZEMIOSŁA POLSKIEGO,,200,10 mx-1.dpoczta.pl.; 10 mx-2.dpoczta.pl.
+zut.edu.pl,5,linkgraph,Linked from 8 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 zut-edu-pl.mail.protection.outlook.com.
+zzpprzymz.pl,5,directory,ZAKŁAD ZAMÓWIEŃ PUBLICZNYCH PRZY MINISTRZE ZDROWIA,,301,0 zzpprzymz.pl.
+academica.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,10 academica-edu-pl.mail.protection.outlook.com.
+afghanembassy.com.pl,4,wikidata,"Embassy of Afghanistan, Warsaw",central,200,0 afghanembassy.com.pl.
+algerianembassy.pl,4,wikidata,"Embassy of Algeria, Warsaw",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching algerianembassy.pl found.,10 algerianembassy.pl.
+ambasada-portugalii.pl,4,wikidata,"Embassy of Portugal, Warsaw",central,HttpTimeoutException: request timed out,0 mx1.hitme.net.pl.
+ambasada.zakonmaltanski.pl,4,wikidata,"Embassy of the Sovereign Military Order of Malta, Warsaw",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ambasada.zakonmaltanski.pl found.,10 zakonmaltanski.pl.
+ambasadalibii.pl,4,wikidata,"Embassy of Libya, Warsaw",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ambasadalibii.pl found.,none
+ambasadamongolii.pl,4,wikidata,"Embassy of Mongolia, Warsaw",central,301,10 ambasadamongolii.pl.
+amcham.pl,4,wikidata,Q9149948,,200,0 amcham-pl.mail.protection.outlook.com.
+amu.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,200,20 mx2.amu.edu.pl.; 10 mx1.amu.edu.pl.
+amw.com.pl,4,wikidata,Military Property Agency,,301,5 smtp.amw.com.pl.
+arm.krakow.pl,4,wikidata,Agencja Rozwoju Miasta,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.arm.krakow.pl.
+aterima-med.pl,4,wikidata,ATERIMA MED,,301,1 aterimamed-pl01i.mail.protection.outlook.com.
+autofusgroup.warszawa.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 a329-2.c-x.pl.
+azembassy.pl,4,wikidata,"Embassy of Azerbaijan, Warsaw",central,200,99 route1.mx.cloudflare.net.; 44 route2.mx.cloudflare.net.; 72 route3.mx.cloudflare.net.
+bip.podkarpackie.pl,4,wikidata,Marshal's Office of Podkarpackie Voivodeship,central-1,200,none
+bip.sejmik.kielce.pl,4,wikidata,Marshal's Office of Świętokrzyskie Voivodeship,central-1,200,none
+bip.slaskie.pl,4,wikidata,Marshal's Office of Silesian Voivodeship,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bip.warmia.mazury.pl,4,wikidata,Marshal's Office of Warmian-Masurian Voivodeship,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+bip.wzp.pl,4,wikidata,Marshal's Office of West Pomeranian Voivodeship,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+borpa.bydgoszcz.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching borpa.bydgoszcz.pl found.,10 borpa.bydgoszcz.pl.
+braille.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,200,0 braille-bydgoszcz-pl.mail.protection.outlook.com.
+buk.gmina.pl,4,wikidata,Q117193706,,200,5 mail.tami.pl.
+bursaszkolna.bialystok.pl,4,linkgraph,Linked from 3 public-sector domains,,200,0 bursaszkolna.bialystok.pl.
+ccifp.pl,4,wikidata,French Chamber of Commerce and Indusrty in Poland,,301,10 ccifp-pl.mail.protection.outlook.com.
+cciip.pl,4,wikidata,Q9382926,,200,0 cciip-pl.mail.protection.outlook.com.
+cd.uj.edu.pl,4,wikidata,Q139780702,,200,none
+cdzdm.pl,4,wikidata,Centrum Doradztwa Zawodowego dla Młodzieży w Poznaniu,,301,10 mail.cdzdm.pl.
+chinaembassy.org.pl,4,wikidata,"Embassy of the People's Republic of China, Warsaw",central,ConnectException,10 mx0.ipartners.pl.; 20 mail.ikp.pl.; 30 mx.ikp.pl.
+ckz.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,301,10 ckp-poczta.nazwa.pl.
+cmi.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 cmi-edu-pl.mail.protection.outlook.com.
+cos.pl,4,wikidata,Q9186085,,200,10 cos.home.pl.
+crpk.pl,4,wikidata,Q132586341,,301,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+dbamy.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,302,0 dbamy-bydgoszcz-pl.mail.protection.outlook.com.
+dopiewo.pl,4,wikidata,Komunikacja Gminy Dopiewo,,200,5 fm.dopiewo.pl.; 10 dopiewo.home.pl.
+dziebaltow.osp.org.pl,4,wikidata,Q11795669,,ConnectException: Host is unreachable,none
+edziecko.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,405,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+embangola.pl,4,wikidata,"Embassy of Angola, Warsaw",central,200,10 embangola.pl.
+embassy-of-yemen.pl,4,wikidata,"Embassy of Yemen, Warsaw",central,200,10 embassy-of-yemen.pl.
+epolo.cancilleria.gov.ar,4,wikidata,"Embassy of Argentina, Warsaw",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching epolo.cancilleria.gov.ar found.,none
+filharmoniazg.pl,4,wikidata,Filharmonia Zielonogórska,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.incomtech.eu.
+fulbright.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+geoportal.wroclaw.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail1.um.wroc.pl.
+ibe.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,301,20 mx20.ibe.edu.pl.; 30 mailek.ibe.edu.pl.; 10 ibe.edu.pl.
+icm.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.icm.edu.pl.
+iderepublica.pl,4,wikidata,Q124214491,,200,10 mx7.aftermarket.hosting.
+instytutpolski.pl,4,wikidata,Polish Institute,,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
+iom.pl,4,wikidata,International Organization for Migration,,ConnectException,none
+ispan.pl,4,wikidata,"Institute of Art, Polish Academy of Sciences",,301,10 mail.ispan.pl.
+iwst.rzeszow.pl,4,linkgraph,Linked from 4 public-sector domains,,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+kgsok.pl,4,wikidata,Railway Security Guard,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 kgsok.pl.
+kielce.pl,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,0 eden.tu.kielce.pl.; 10 sabat.tu.kielce.pl.
+kig.pl,4,wikidata,Polish Chamber of Commerce,,200,5 mail2.kig.pl.; 1 mail.kig.pl.
+komunikacja.bialystok.pl,4,linkgraph,Linked from 4 public-sector domains,,200,10 mx.um.bialystok.pl.
+komunikacja.zakrzew.pl,4,wikidata,Q136527926,,200,none
+kpsw.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 mx4.kpsw.edu.pl.
+krakko.mfa.gov.hu,4,wikidata,Consulate General of Hungary in Krakow,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+krld.pl,4,wikidata,"Embassy of North Korea, Warsaw",central,301,10 mail.krld.pl.
+ksiaznica.szczecin.pl,4,linkgraph,Linked from 3 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 ksiaznica-szczecin-pl.mail.protection.outlook.com.; 10 mail.ksiaznica.szczecin.pl.
+kujawsko-pomorskie.pl,4,wikidata,Marshal's Office of Kuyavian-Pomeranian Voivodeship,central-1,200,0 gwmail01.kujawsko-pomorskie.pl.
+lbg.home.pl,4,wikidata,Kostrzyca Forest Gene Bank,,ConnectException,none
+lodzkie.pl,4,wikidata,Łódź Voivodeship Marshal's Office,central-1,301,10 mail.lodzkie.pl.
+lubelskie.pl,4,wikidata,Marshal's Office of Lublin Voivodeship,central-1,301,0 primary.emea.email.fireeyecloud.com.; 40 alt3.emea.email.fireeyecloud.com.; 20 alt1.emea.email.fireeyecloud.com.; 30 alt2.emea.email.fireeyecloud.com.
+ludowy.pl,4,wikidata,Ludowy Theatre,,200,10 ludowy.pl.
+malopolska.pl,4,wikidata,Marshal’s Office of Lesser Poland Voivodeship,central-1,ConnectException,none
+malopolskie.pl,4,wikidata,Lesser Poland Regional Assembly,central-1,ConnectException,10 mail.umwm.malopolska.pl.
+mazovia.pl,4,wikidata,Marshal’s Office of Masovian Voivodeship,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail2.mazovia.pl.
+mbp.opole.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 mbp.opole.pl.
+metropoliaztm.pl,4,wikidata,Zarząd Transportu Metropolitalnego,,302,0 metropoliaztm-pl.mail.protection.outlook.com.
+mieroszewski.pl,4,wikidata,Juliusz Mieroszewski Centre for Dialogue,,200,10 poczta.mieroszewski.pl.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Warsaw",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mopr.bialystok.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 mail.intratel.pl.
+muzeum.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 muzeum.bydgoszcz.pl.
+muzeumciechanow.pl,4,wikidata,Museum of the Masovian Nobility in Ciechanów,,200,10 mail.muzeumciechanow.pl.
+nadbuzanski.strazgraniczna.pl,4,wikidata,Q20034060,,200,100 mx2.strazgraniczna.pl.; 200 mx3.strazgraniczna.pl.; 10 mx.strazgraniczna.pl.
+nck.pl,4,wikidata,Narodowe Centrum Kultury,,200,0 nck-pl.mail.protection.outlook.com.
+nka.powiat-otwocki.pl,4,wikidata,Związek Powiatowo-Gminny „Nadwiślańska Komunikacja Autobusowa”,,200,10 nka.powiat-otwocki.pl.
+nukat.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 nukat.edu.pl.; 10 mx0.net.uw.edu.pl.; 30 saturn.nukat.edu.pl.
+nuncjatura.pl,4,wikidata,Apostolic Nunciature to Poland,central,200,10 poczta1.opoka.org.pl.
+opera-slaska.pl,4,wikidata,Silesian Opera,,200,10 opera-slaska.pl.
+opolskie.pl,4,wikidata,Marshal’s Office of Opole Voivodeship,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 test.umwo.opole.pl.
+orpeg.pl,4,wikidata,Centre for the Development of Polish Education Abroad,,301,0 orpeg-pl.mail.protection.outlook.com.
+osiedla.szczecin.pl,4,linkgraph,Linked from 4 public-sector domains,,200,10 mailadmin.spnt.pl.
+oskko.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 oskko.edu.pl.
+osp-ozarow.pl,4,wikidata,Q16583461,,200,10 blackhole.aftermarket.pl.
+osp.lasin.pl,4,wikidata,Q11795695,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching osp.lasin.pl found.,none
+ospchojnice.pl,4,wikidata,Q30903822,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX5.GOOGLEMAIL.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ASPMX4.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+oswiata.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,10 poczta.lo.pl.
+palestine.pl,4,wikidata,Embassy of Palestine in Poland,central,301,0 mail.palestine.pl.; 10 serwer1858346.home.pl.
+pg.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,200,0 pg-edu-pl.mail.protection.outlook.com.
+pgztppm.pl,4,wikidata,Q136650989,,200,10 mail.pgztppm.pl.
+pik.warszawa.pl,4,linkgraph,Linked from 3 public-sector domains,,200,none
+pik.wroclaw.pl,4,linkgraph,Linked from 3 public-sector domains,,200,none
+pionki.osp.org.pl,4,wikidata,1 Zwycięstwa Street in Pionki,,ConnectException: Host is unreachable,none
+pl.ambasadabih.pl,4,wikidata,"Embassy of Bosnia and Herzegovina, Warsaw",central,ConnectException,none
+pl.lebanon.pl,4,wikidata,"Embassy of Lebanon, Warsaw",central,200,none
+po.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,10 d321053.a.ess.de.barracudanetworks.com.; 15 d321053.b.ess.de.barracudanetworks.com.
+po.opole.pl,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,15 d319414.b.ess.de.barracudanetworks.com.; 10 d319414.a.ess.de.barracudanetworks.com.
+president.pl,4,wikidata,Chancellery of the President of the Republic of Poland,,403,10 netra.prezydent.pl.
+prezydent.pl,4,wikidata,Chancellery of the President of the Republic of Poland,,403,10 netra.prezydent.pl.
+przyjaznyrodzinie.szczecin.pl,4,linkgraph,Linked from 4 public-sector domains,,302,10 mx.miasto.szczecin.pl.
+psychotesty.wroclaw.pl,4,linkgraph,Linked from 3 public-sector domains,,301,10 mail.psychotesty.wroclaw.pl.
+pum.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 pum-edu-pl.mail.protection.outlook.com.
+pzo.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail.pzo.edu.pl.
+rckik-katowice.pl,4,wikidata,RCKiK Katowice,,200,10 rckikkatowice-pl01c.mail.protection.outlook.com.; 1 mail.rckik-katowice.pl.
+rjp.pan.pl,4,wikidata,Council for the Polish Language,,200,none
+rodzina.bialystok.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 mx.um.bialystok.pl.
+sadowne.osp.org.pl,4,wikidata,Q16583464,,ConnectException: Host is unreachable,none
+sanokolchowce.osp.pl,4,wikidata,Q125511749,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sanokolchowce.osp.pl found.,none
+sejmik.podkarpackie.pl,4,wikidata,Podkarpackie Regional Assembly,central-1,200,none
+sejmik.slaskie.pl,4,wikidata,Silesian Regional Assembly,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sejmik.wzp.pl,4,wikidata,West Pomeranian Regional Assembly,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sniadecja.pl,4,wikidata,Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sniadecja.pl found.,100 sniadecja.pl.; 10 nop.security-services.netia.pl.
+spp.szczecin.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 spp.szczecin.pl.
+srilankaembassy.com.pl,4,wikidata,"Embassy of Sri Lanka, Warsaw",central,200,0 srilankaembassy.com.pl.
+strategia.bydgoszcz.pl,4,linkgraph,Linked from 4 public-sector domains,,200,none
+syrianembassy.com.pl,4,wikidata,"Embassy of Syria, Warsaw",central,301,51 route1.mx.cloudflare.net.; 3 route2.mx.cloudflare.net.; 76 route3.mx.cloudflare.net.
+teatr.bielsko.pl,4,wikidata,Teatr Polski in Bielsko-Biała,,200,10 mail.teatr.bielsko.pl.
+teatr.tarnow.pl,4,wikidata,Teatr im. Ludwika Solskiego w Tarnowie,,200,10 teatr.tarnow.pl.
+teatrnorwida.pl,4,wikidata,Cyprian Kamil Norwid Theatre,,200,10 mx-1.dpoczta.pl.; 10 mx-2.dpoczta.pl.
+teatrosterwy.pl,4,wikidata,Teatr im. Juliusza Osterwy,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 teatrosterwy-pl.mail.protection.outlook.com.
+ukw.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,200,5 ironport.ukw.edu.pl.; 5 ironportslave.ukw.edu.pl.
+um.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 mail.um.bydgoszcz.pl.
+umwo.opole.pl,4,wikidata,Opole Regional Assembly,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 test.umwo.opole.pl.
+umww.pl,4,wikidata,Marshal's Office of Greater Poland Voivodeship,central-1,301,0 umww-pl.mail.protection.outlook.com.
+unesco.pl,4,wikidata,Polish National Commission for UNESCO,,301,5 mx1.evo.pl.
+upjp2.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 upjp2-edu-pl.mail.eo.outlook.com.
+ur.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,301,0 ur-edu-pl.mail.protection.outlook.com.
+uwb.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,503,10 mx.uwb.edu.pl.
+uzbekistan.pl,4,wikidata,"Embassy of Uzbekistan, Warsaw",central,405,10 blackhole.aftermarket.pl.
+varso.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Warsaw",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailb.varso.mfa.gov.hu.; 10 maila.varso.mfa.gov.hu.
+venez.pl,4,wikidata,"Embassy of Venezuela, Warsaw",central,302,10 venez.pl.
+warszawa-straz.pl,4,wikidata,Warsaw Fire Brigade,,301,10 warszawa-straz.home.pl.; 10 warszawa-straz.pl.
+wbh.wp.mil.pl,4,wikidata,Q48848945,,200,none
+wcrs.wroclaw.pl,4,linkgraph,Linked from 4 public-sector domains,,200,5 poczta.wcrs.wroclaw.pl.
+wios.warszawa.pl,4,wikidata,Wojewódzki Inspektorat Ochrony Środowiska w Warszawie,central-1,200,10 mail.wios.warszawa.pl.
+wsd.rzeszow.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 prorok.wsd.rzeszow.pl.
+wzdw.pl,4,wikidata,Greater Poland Voivodeship Roads Authority,central-1,200,10 mx-01-eu-central-1.prod.hydra.sophos.com.; 20 mx-02-eu-central-1.prod.hydra.sophos.com.
+zabiele.pl,4,wikidata,Q28673892,,200,0 zabiele.pl.
+zbp.pl,4,wikidata,Zwia̦zek Banków Polskich,,301,10 mail3.zbp.pl.
+zdit.uml.lodz.pl,4,wikidata,Zarząd Dróg i Transportu w Łodzi,,301,20 zimbramta.uml.lodz.pl.; 5 smtp3.uml.lodz.pl.
+zdmikp.bydgoszcz.pl,4,linkgraph,Linked from 4 public-sector domains,,301,10 mailgate3.man.bydgoszcz.pl.
+zk.opole.pl,4,linkgraph,Linked from 3 public-sector domains,,200,0 zk-opole-pl.mail.protection.outlook.com.
+ztm.gda.pl,4,wikidata,ZTM Gdańsk,,200,none
+ztm.kielce.pl,4,wikidata,ZTM Kielce,,200,0 fm.complex.com.pl.
+ztm.poznan.pl,4,wikidata,ZTM Poznań,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 ztm-poznan-pl.mail.protection.outlook.com.
+ztm.waw.pl,4,wikidata,Zarząd Transportu Miejskiego w Warszawie,,403,10 ztm-waw-pl.mail.protection.outlook.com.
+zuk.szczecin.pl,4,linkgraph,Linked from 3 public-sector domains,,200,5 sigma.alfatv.pl.
+zzm.katowice.pl,4,wikidata,Q113654054,,200,0 zzm.katowice.pl.
+ambassaderdcpologne.com,3,wikidata,"Embassy of the Democratic Republic of the Congo, Warsaw",central,503,10 mx3.mailpod15-cph3.g1i.one.com.; 10 mx1.mailpod15-cph3.g1i.one.com.; 10 mx4.mailpod15-cph3.g1i.one.com.; 10 mx2.mailpod15-cph3.g1i.one.com.
+bip.pomorskie.eu,3,wikidata,Marshal's Office of Pomeranian Voivodeship,central-1,200,none
+breslau.diplo.de,3,wikidata,"Consulate General of Germany, Wrocław",,301,10 mx2.bund.de.; 10 mx1.bund.de.
+consulate-sejny.mfa.lt,3,wikidata,Q110387988,,403,none
+cubadiplomatica.cu,3,wikidata,"Embassy of Cuba, Warsaw",central,ConnectException,none
+danzig.diplo.de,3,wikidata,"Consulate General of Germany, Gdańsk",,301,10 mx2.bund.de.; 10 mx1.bund.de.
+eurogendfor.org,3,wikidata,European Gendarmerie Force,,301,0 eurogendfor-org.mail.protection.outlook.com.
+europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Poland,central,301,100 ucsgusrlp002.ep.europa.eu.; 100 ucsgusrlp001.ep.europa.eu.; 100 ucsgusrbp004.ep.europa.eu.; 100 ucsgusrlp003.ep.europa.eu.; 100 ucsgusrbp001.ep.europa.eu.; 100 ucsgusrbp002.ep.europa.eu.; 100 ucsgusrbp003.ep.europa.eu.; 100 ucsgusrlp004.ep.europa.eu.
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Warsaw",central,301,10 mail.valtori.fi.
+gdansk.mid.ru,3,wikidata,"Consulate General of Russia, Gdansk",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+krakau.diplo.de,3,wikidata,"Consulate General of Germany, Krakow",,301,10 mx2.bund.de.; 10 mx1.bund.de.
+krakow.mid.ru,3,wikidata,Consulate General of Russia in Kraków,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mfa.bg,3,wikidata,"Embassy of Bulgaria, Warsaw",central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,"Embassy of Greece, Warsaw",central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,"Embassy of the Czech Republic, Warsaw",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nigeriaembassypoland.org,3,wikidata,"Embassy of Nigeria, Warsaw",central,HttpTimeoutException: request timed out,1200 ghs.google.com.
+norway.no,3,wikidata,"Embassy of Norway, Warsaw",central,301,0 mx.domeneshop.no.
+oppeln.diplo.de,3,wikidata,German Consulate Opole,central-1,301,10 mx2.bund.de.; 10 mx1.bund.de.
+osp-oldrzychowice.pl.tl,3,wikidata,Q11795685,,200,none
+pl.mfa.lt,3,wikidata,"Embassy of Lithuania, Warsaw",central,403,none
+pl.mvep.hr,3,wikidata,"Embassy of Croatia, Warsaw",central,ConnectException,none
+podlaskie.eu,3,wikidata,Marshal’s Office of Podlaskie Voivodeship,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp.wrotapodlasia.pl.
+poland.mfa.am,3,wikidata,"Embassy of Armenia, Warsaw",central,301,none
+poland.mid.ru,3,wikidata,Embassy of Russia in Poland,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+poland.nlembassy.org,3,wikidata,"Embassy of the Netherlands, Warsaw",central,ConnectException,none
+polen.um.dk,3,wikidata,"Embassy of Denmark, Warsaw",central,301,none
+radaslonskigojynzyka.org,3,wikidata,Rada Języka Śląskiego,,200,100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.
+roc-taiwan.org,3,wikidata,Taipei Representative Office in Poland,,302,none
+swedenabroad.com,3,wikidata,"Embassy of Sweden, Warsaw",central,301,none
+thaiembassy.org,3,wikidata,"Embassy of Thailand, Warsaw",central,200,none
+varsava.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Warsaw",central,SSLHandshakeException: Remote host terminated the handshake,none
+varsovia.mae.ro,3,wikidata,"Embassy of Romania, Warsaw",central,503,none
+varsovie.mae.lu,3,wikidata,"Embassy of Luxembourg, Warsaw",central,302,none
+warsaw.embassy.qa,3,wikidata,"Embassy of Qatar, Warsaw",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+warsaw.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Warsaw,,302,none
+warsaw.mfa.ee,3,wikidata,Embassy of Estonia in Warsaw,central,200,none
+warsaw.mfa.ir,3,wikidata,"Embassy of Iran, Warsaw",central,307,none
+web.archive.org,3,wikidata,"Embassy of Egypt, Warsaw",central,200,none
+wroclaw.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Wrocław,,302,none
+zdtm.lublin.eu,3,wikidata,ZDiTM Lublin,,IOException: Received RST_STREAM: Protocol error,10 mail.zdtm.lublin.eu.
+pkgsa.pl,2,wikidata;wikidata;wikidata,Terminal Koroszczyn,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pkgsa.pl found.,10 pkgsa.pl.
+visitbydgoszcz.pl,2,wikidata;wikidata;wikidata;wikidata,Visit Bydgoszcz,,301,10 mail.um.bydgoszcz.pl.
+mzv.sk,1,wikidata;wikidata;wikidata,"Embassy of Slovakia, Warsaw | Consulate General of Slovakia, Kraków",central,301,10 mail.gov.sk.

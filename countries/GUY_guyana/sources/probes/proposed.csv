@@ -1,0 +1,9 @@
+hostname,http_status,mx
+bankofguyana.org.gy,301,10 mx.spamexperts.com.; 20 fallbackmx.spamexperts.eu.; 30 lastmx.spamexperts.net.
+cdc.gy,302,0 cdc-gy.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+gnbsgy.org,200,0 gnbsgy-org.mail.protection.outlook.com.
+guyana.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+hcigeorgetown.org,301,none
+nationallibraryofguyana.com,HttpConnectTimeoutException: HTTP connect timed out,none
+surguychamber.org,200,5 nlpprofile.com.

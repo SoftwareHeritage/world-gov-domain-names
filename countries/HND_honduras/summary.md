@@ -35,18 +35,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `congresonacional.hn` | central |  | wikidata;wikidata | National Congress of Honduras |
-| 6 | `jesuitascam.org` |  |  | wikidata;wikidata | Jesuit Province of Central America |
-| 6 | `taiwanembassy.org` | central |  | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Tegucigalpa |
-| 4 | `bch.hn` | central |  | wikidata | Central Bank of Honduras |
-| 4 | `cne.hn` | central |  | wikidata | National Electoral Council of Honduras |
-| 4 | `ihah.hn` |  |  | wikidata | Instituto Hondureño de Antropología e Historia |
-| 4 | `ihss.hn` |  |  | wikidata | Honduran Social Security Institute |
-| 4 | `iht.hn` |  |  | wikidata | Q17634842 |
-| 4 | `mp.hn` |  |  | wikidata | Public Prosecutor's Office |
-| 3 | `ccetegucigalpa.org` |  |  | wikidata | Centro Cultural de España Tegucigalpa |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Honduras |
-| 3 | `hn.ambafrance.org` | central |  | wikidata | Embassy of France, Tegucigalpa |
-| 3 | `tegucigalpa.diplo.de` | central |  | wikidata | Embassy of Germany, Tegucigalpa |
-| 3 | `web.archive.org` |  |  | wikidata | Archivo Nacional de Honduras |
+| 7 | `congresonacional.hn` | central | 200 | wikidata;wikidata | National Congress of Honduras |
+| 6 | `jesuitascam.org` |  | 200 | wikidata;wikidata | Jesuit Province of Central America |
+| 6 | `taiwanembassy.org` | central | 302 | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Tegucigalpa |
+| 4 | `bch.hn` | central | ConnectEx... | wikidata | Central Bank of Honduras |
+| 4 | `cne.hn` | central | 403 | wikidata | National Electoral Council of Honduras |
+| 4 | `ihah.hn` |  | 200 | wikidata | Instituto Hondureño de Antropología e Historia |
+| 4 | `ihss.hn` |  | 403 | wikidata | Honduran Social Security Institute |
+| 4 | `iht.hn` |  | 200 | wikidata | Q17634842 |
+| 4 | `mp.hn` |  | SSLHandsh... | wikidata | Public Prosecutor's Office |
+| 3 | `ccetegucigalpa.org` |  | 301 | wikidata | Centro Cultural de España Tegucigalpa |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Honduras |
+| 3 | `hn.ambafrance.org` | central | 301 | wikidata | Embassy of France, Tegucigalpa |
+| 3 | `tegucigalpa.diplo.de` | central | 200 | wikidata | Embassy of Germany, Tegucigalpa |
+| 3 | `web.archive.org` |  | 200 | wikidata | Archivo Nacional de Honduras |
 

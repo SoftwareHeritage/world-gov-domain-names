@@ -1,0 +1,49 @@
+hostname,http_status,mx
+a-tvp.si,301,10 atvp-si-1.fortimailcloud.com.; 20 atvp-si-2.fortimailcloud.com.
+agen-rs.si,200,10 mail.agen-rs.si.; 5 smtp.agen-rs.si.
+ambasadabih.si,200,none
+ambasadat.net,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+arao.si,200,0 arao-si.mail.protection.outlook.com.
+bsi.si,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,40 smtpmc.bsi.si.; 50 smtpmc-rrc.bsi.si.
+dominikanci.hr,200,30 mx30.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
+ds-rs.si,200,10 mail4.gov.si.; 10 mail3.gov.si.; 10 mail1.gov.si.; 10 mail2.gov.si.
+dvk-rs.si,302,10 mail4.gov.si.; 10 mail3.gov.si.; 10 mail2.gov.si.; 10 mail1.gov.si.
+dz-rs.si,ConnectException,10 mail1.gov.si.; 10 mail3.gov.si.; 10 mail4.gov.si.; 10 mail2.gov.si.
+energap.si,301,10 mail.energap.si.
+film-center.si,301,0 filmcenter-si01b.mail.protection.outlook.com.
+ip-rs.si,301,10 mail3.gov.si.; 10 mail2.gov.si.; 10 mail1.gov.si.; 10 mail4.gov.si.
+jakrs.si,301,10 mail3.gov.si.; 10 mail4.gov.si.; 10 mail1.gov.si.; 10 mail2.gov.si.
+jazmp.si,200,5 mail.jazmp.si.
+jh-lj.si,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx2.netim.net.; 10 mx1.netim.net.
+kmetijskizavod-ng.si,200,10 mail.kmetijskizavod-ng.si.
+kpk-rs.si,302,10 mail2.gov.si.; 10 mail1.gov.si.; 10 mail3.gov.si.; 10 mail4.gov.si.
+lendva.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ljubljana.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+ljubljana.europarl.europa.eu,302,none
+ljubljana.mae.ro,503,none
+ljubljana.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ljubljana.si,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ljubljana.si found.,10 bor.ljubljana.si.
+lpp.si,301,10 mx2.jhl.si.; 10 mx.jhl.si.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nijz.si,200,50 obrezje1.nijz.si.; 10 obrezje2.nijz.si.
+nuk.uni-lj.si,HttpConnectTimeoutException: HTTP connect timed out,10 nuk-unilj-si01i.mail.protection.outlook.com.
+pgd-hrvatini.si,301,5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.
+pgd-pluznje.si,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
+policija.si,301,1000 hermes.policija.si.; 1000 kaos.policija.si.
+rus-slo.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+si.ambafrance.org,301,none
+si.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching si.chineseembassy.org found.,none
+si.mvep.hr,ConnectException,none
+slovenia.representation.ec.europa.eu,302,none
+slowenien.ahk.de,302,none
+smomembassytoslovenia.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx.smomembassytoslovenia.org.
+sodisce.si,200,10 mail1.gov.si.; 10 mail3.gov.si.; 10 mail4.gov.si.; 10 mail2.gov.si.
+stat.si,SSLHandshakeException: Remote host terminated the handshake,none
+us-rs.si,301,10 mail4.gov.si.; 10 mail1.gov.si.; 10 mail2.gov.si.; 10 mail3.gov.si.
+vlada.si,SSLHandshakeException: Remote host terminated the handshake,10 mail4.gov.si.; 10 mail3.gov.si.; 10 mail1.gov.si.; 10 mail2.gov.si.
+zrss.si,307,5 zrss-si.mail.protection.outlook.com.
+zvd.si,ConnectException,0 zvd-si.mail.protection.outlook.com.; 10 mail.zvd.si.
+zvkds.si,301,20 avs5.arnes.si.

@@ -1,8 +1,8 @@
 hostname,score,sources,label,level,http_status,mx
-parlamento.tl,8,wikidata;wikidata,National Parliament,central,,
-anpm.tl,4,wikidata,Q124094298,,,
-bancocentral.tl,4,wikidata,Banco Central de Timor-Leste,,,
-mineralstender.anpm.tl,4,wikidata,Q124094424,,,
-pntl.tl,4,wikidata,National Police of East Timor,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Timor-Leste,,,
-holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,,
+parlamento.tl,8,wikidata;wikidata,National Parliament,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.parlamento.tl.
+anpm.tl,4,wikidata,Q124094298,,ConnectException,none
+bancocentral.tl,4,wikidata,Banco Central de Timor-Leste,,200,15 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 15 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+mineralstender.anpm.tl,4,wikidata,Q124094424,,ConnectException,none
+pntl.tl,4,wikidata,National Police of East Timor,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pntl.tl found.,10 mail.pntl.tl.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Timor-Leste,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none

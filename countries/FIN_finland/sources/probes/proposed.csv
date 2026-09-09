@@ -1,0 +1,163 @@
+hostname,http_status,mx
+112.fi,302,20 mail-in.tuve.fi.
+aitoo.fi,301,10 mx04.secure-mailgate.com.; 10 mx03.secure-mailgate.com.
+aka.fi,302,13 mail.valtori.fi.
+algerianembassy.fi,301,0 mail02.domainhotelli.fi.
+ambetsverket.ax,301,10 smtp-in.vy-verkko.fi.; 20 mail5.vn.fi.
+arpajaishallinto.fi,301,none
+asub.ax,301,0 asub-ax.mail.protection.outlook.com.
+brandkar.ax,200,0 brandkar-ax.mail.protection.outlook.com.
+chinaembassy-fi.org,ConnectException,10 smtp3.kolumbus.fi.; 0 pop.kolumbus.fi.
+cimo.fi,301,10 mail.valtori.fi.
+cyprusembassy.fi,302,none
+dvv.fi,302,10 mail.valtori.fi.
+ekhva.fi,301,10 ekhva-fi.mail.protection.outlook.com.
+en.gtk.fi,ConnectException,10 mail.valtori.fi.
+en.ilmatieteenlaitos.fi,200,none
+en.itauusimaa.fi,200,0 .
+en.kotus.fi,200,0 .
+en.osterbottensvalfard.fi,200,0 .
+enontekionvpk.fi,200,20 securemail2.hostingservice.fi.; 10 securemail1.hostingservice.fi.
+etela-savo.fi,301,0 etelasavo-fi01c.mail.protection.outlook.com.
+evl.fi,200,0 evl-fi.mail.protection.outlook.com.
+fastighetsverket.ax,403,0 fastighetsverket-ax.mail.protection.outlook.com.
+fi.ambafrance.org,301,none
+fi.gtk.fi,ConnectException,10 mail.valtori.fi.
+fi.mfa.lt,403,none
+fi.mvep.hr,ConnectException,none
+fimea.fi,302,10 mail.valtori.fi.
+finanssivalvonta.fi,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 bof-fi.mail.protection.outlook.com.
+finland.representation.ec.europa.eu,302,none
+finland.um.dk,301,none
+forssanvpk.fi,301,0 forssanvpk-fi.mail.protection.outlook.com.
+geenitekniikanlautakunta.fi,302,none
+giella.org,301,none
+hamechamber.fi,200,0 hamechamber-fi.mail.protection.outlook.com.
+hansel.fi,400,0 hansel-fi.mail.protection.outlook.com.
+helsinki.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+helsinki.embassy.si,ConnectException,none
+helsinki.europarl.europa.eu,302,none
+helsinki.mae.ro,503,none
+helsinki.mfa.ee,200,none
+helsinki.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+helsinki.thaiembassy.org,200,none
+hkl.fi,301,0 mx.kolumbus.fi.
+huoltovarmuuskeskus.fi,302,10 localhost.huoltovarmuuskeskus.fi.
+hyvaep.fi,301,0 hyvaep-fi.mail.protection.outlook.com.
+hyvaks.fi,301,10 hyvaks-fi.mail.protection.outlook.com.
+ilmatieteenlaitos.fi,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 smtpvagate.fmi.fi.; 50 smtpvbgate.fmi.fi.
+ilmavoimat.fi,302,10 mail-1b.mil.fi.; 10 mail-1a.mil.fi.
+itauusimaa.fi,200,10 itauusimaa-fi.mail.protection.outlook.com.
+jojo.joensuu.fi,200,none
+jokipelastus.fi,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching jokipelastus.fi found.,0 jokipelastus.fi.
+kainuunhyvinvointialue.fi,301,none
+kansallisarkisto.fi,302,10 mail.valtori.fi.
+kansalliskirjasto.fi,403,20 post2.it.helsinki.fi.
+kauppakamari.fi,200,0 kauppakamari-fi.mail.eo.outlook.com.
+keha-keskus.fi,200,10 mail.valtori.fi.
+kela.fi,301,0 mx.kela.fi.
+keskisuomenpelastuslaitos.fi,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching keskisuomenpelastuslaitos.fi found.,0 keskisuomenpelastuslaitos.fi.
+keuda.fi,301,0 keuda-fi.mail.protection.outlook.com.
+keusote.fi,301,0 keusote-fi.mail.protection.outlook.com.
+keva.fi,301,0 keva-fi.mail.protection.outlook.com.
+kho.fi,301,0 mx.kolumbus.fi.
+kkv.fi,301,10 mail.valtori.fi.
+konsaland.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+korkeinoikeus.fi,301,0 mx.kolumbus.fi.
+kotus.fi,200,10 mail.valtori.fi.
+ksthky.fi,ConnectException,10 ksthky-fi.mail.protection.outlook.com.
+kultur.ax,403,20 gandalf.alcom.aland.fi.
+kuvi.fi,200,10 mail.valtori.fi.
+kyberturvallisuuskeskus.fi,302,10 mail2.traficom.fi.; 10 mail1.traficom.fi.
+kymenhva.fi,200,0 kymenhva-fi.mail.protection.outlook.com.
+lagtinget.ax,403,0 lagtinget-ax.mail.protection.outlook.com.
+lapha.fi,200,0 fortimail.lapit.fi.
+lapinpelastuslaitos.fi,301,5 fortimail.lapit.fi.
+ltky.fi,200,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 0 aspmx.l.google.com.; 20 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+luvn.fi,301,0 luvn-fi.mail.protection.outlook.com.
+lvv.fi,302,10 mail.valtori.fi.
+maanmittauslaitos.fi,302,10 mail.valtori.fi.
+meku.fi,403,10 mailscanner01.zoner.fi.; 10 mailscanner02.zoner.fi.
+metsa.fi,302,0 metsa-fi.mail.protection.outlook.com.
+metsakeskus.fi,301,0 metsakeskus-fi.mail.protection.outlook.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+migri.fi,302,20 mail-in.tuve.fi.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mpk.fi,200,0 fimx2.d-fence.eu.; 0 fimx1.d-fence.eu.
+museovirasto.fi,200,10 mail.valtori.fi.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+namembassy.fi,200,10 mailscanner01.zoner.fi.; 10 mailscanner02.zoner.fi.
+nederlandwereldwijd.nl,301,0 .
+nordicwelfare.org,200,10 nordicwelfare-org.mail.protection.outlook.com.
+norway.no,301,0 mx.domeneshop.no.
+oikeuspalveluvirasto.fi,301,none
+oikeusrekisterikeskus.fi,301,0 mx.kolumbus.fi.
+omahame.fi,200,0 omahame-fi.mail.protection.outlook.com.
+oph.fi,301,10 mail.valtori.fi.
+ort.fi,200,0 ort-fi.mail.protection.outlook.com.
+osterbottensvalfard.fi,200,none
+ostranyland.fi,200,0 ostranyland-fi.mail.protection.outlook.com.
+oyy.fi,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX3.GOOGLEMAIL.COM.
+paijatha.fi,200,0 paijatha-fi.mail.protection.outlook.com.
+pelastustoimi.fi,302,20 mail-in.tuve.fi.
+pirha.fi,200,10 fmx-01-174.istekkipalvelut.fi.; 20 fmx-02-190.istekkipalvelut.fi.
+pirkanmaanpelastuslaitos.fi,301,none
+pohde.fi,200,1 pohde-fi.mail.protection.outlook.com.
+pohjanmaanhyvinvointi.fi,200,none
+poliisi.fi,302,20 mail-in.tuve.fi.
+presidentti.fi,301,none
+prh.fi,301,10 mail.valtori.fi.
+pshva.fi,301,10 fmx-02-177.istekkipalvelut.fi.; 20 fmx-01-161.istekkipalvelut.fi.
+puistolanvpk.fi,503,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+puolustusvoimat.fi,302,10 mail-1b.mil.fi.; 10 mail-1a.mil.fi.
+raja.fi,302,20 mail-in.tuve.fi.
+riista.fi,200,0 riista-fi.mail.protection.outlook.com.
+rikosseuraamus.fi,301,0 pop.kolumbus.fi.; 10 smtp3.kolumbus.fi.
+roc-taiwan.org,302,none
+ruokavirasto.fi,301,10 mail.valtori.fi.
+rusembassy.fi,301,5 mail.rusembassy.fi.
+samediggi.fi,200,10 mx52912.pri.secmail.com.; 20 mx52912.bak.secmail.com.
+satakunnanhyvinvointialue.fi,200,none
+se.gtk.fi,ConnectException,10 mail.valtori.fi.
+siunsote.fi,301,10 siunsote-fi.mail.protection.outlook.com.
+soite.fi,200,10 soite-fi.mail.protection.outlook.com.
+sprakinstitutet.fi,200,10 mail.valtori.fi.
+stat.fi,301,0 stat-fi.mail.protection.outlook.com.
+statskontoret.fi,308,10 mail.valtori.fi.
+stuk.fi,302,5 mail.valtori.fi.
+suomenpankki.fi,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 bof-fi.mail.protection.outlook.com.
+supo.fi,302,20 mail-in.tuve.fi.
+sv.ilmatieteenlaitos.fi,200,none
+swedenabroad.com,301,none
+swedenabroad.se,301,none
+syke.fi,301,10 mail.cm.telia.net.
+syyttajalaitos.fi,301,none
+taf.fi,301,10 taf-fi.mail.protection.outlook.com.
+tapanilanvpk.fi,301,1 tapanilanvpk-fi.mail.protection.outlook.com.
+tekes.fi,ConnectException,none
+tietosuoja.fi,302,0 pop.kolumbus.fi.; 10 smtp3.kolumbus.fi.
+tilastokeskus.fi,301,0 tilastokeskus-fi.mail.protection.outlook.com.
+tornionvpk.fi,200,80 ppgw4.compuline.online.; 20 ppgw1.compuline.fi.
+traficom.fi,302,10 mail1.traficom.fi.; 10 mail2.traficom.fi.
+tsr.fi,302,10 tsr-fi.mail.protection.outlook.com.
+tukes.fi,302,5 mail.valtori.fi.
+tulli.fi,302,10 fce-msg-2.service.capgemini.fi.; 10 fce-msg-3.service.capgemini.fi.
+tullikamari.net,301,10 mx04.secure-mailgate.com.; 10 mx03.secure-mailgate.com.
+turunvpk.fi,301,10 mail.turunvpk.fi.
+turvallisuustutkinta.fi,301,0 mx.kolumbus.fi.
+tyotuomioistuin.fi,301,0 mx.kolumbus.fi.
+ulosottolaitos.fi,301,none
+uudenkoivistonvpk.com,301,0 uudenkoivistonvpk.com.
+valtiokonttori.fi,308,10 mail.valtori.fi.
+valtori.fi,302,10 mail.valtori.fi.
+varha.fi,301,0 varha-fi.mail.protection.outlook.com.
+vatt.fi,302,0 mail.valtori.fi.
+vayla.fi,302,10 vayla-fi.mail.protection.outlook.com.
+vero.fi,302,10 vero-fi.mail.protection.outlook.com.
+vksv.oikeus.fi,HttpConnectTimeoutException: HTTP connect timed out,none
+vtv.fi,200,10 smtpin.vtv.fi.
+vyy.fi,200,5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx5.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx4.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.
+ylioppilastutkinto.fi,301,10 mail.valtori.fi.
+yvtltk.fi,301,10 mx.kolumbus.fi.

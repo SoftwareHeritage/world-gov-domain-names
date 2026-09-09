@@ -1,0 +1,12 @@
+hostname,http_status,mx
+afro.who.int,200,none
+aidsmalawi.org.mw,ConnectException,0 aidsmalawi-org-mw.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+frim.org.mw,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching frim.org.mw found.,10 domwe.sdn.mw.; 5 zalewa.sdnp.org.mw.
+lilongwe.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+mra.mw,404,40 alt3.emea.email.fireeyecloud.com.; 10 primary.emea.email.fireeyecloud.com.; 50 mra-mw.mail.protection.outlook.com.; 20 alt1.emea.email.fireeyecloud.com.; 30 alt2.emea.email.fireeyecloud.com.
+ncst.mw,200,20 ALT2.ASPMX.L.GOOGLE.COM.; 30 ASPMX5.GOOGLEMAIL.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX.L.GOOGLE.COM.; 30 ASPMX3.GOOGLEMAIL.COM.; 30 ASPMX2.GOOGLEMAIL.COM.; 30 ASPMX4.GOOGLEMAIL.COM.
+nls.mw,200,0 mail.nls.mw.
+norway.no,301,0 mx.domeneshop.no.
+rbm.mw,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rbm.mw found.,10 cluster1.eu.messagelabs.com.; 20 cluster1a.eu.messagelabs.com.; 30 rbm-mw.mail.protection.outlook.com.
+sdnp.org.mw,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 domwe2.sdn.mw.; 12 kalata1.sdnp.org.mw.; 15 domwe.sdn.mw.; 25 zalewa.sdnp.org.mw.; 35 zalewa2.sdnp.org.mw.

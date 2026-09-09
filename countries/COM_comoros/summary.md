@@ -35,10 +35,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `coursupremecomores.km` |  |  | wikidata | Supreme Court of the Comoros |
-| 4 | `banque-comores.km` |  |  | wikidata | Central Bank of the Comoros |
-| 4 | `inseed.km` | central |  | wikidata | INSEED |
-| 3 | `anjouanoffshorefinancialauthority.org` | central-1 |  | wikidata | Anjouan Offshore Finance Authority |
-| 3 | `km.ambafrance.org` | central |  | wikidata | Embassy of France, Moroni |
-| 3 | `km.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Moroni |
+| 6 | `coursupremecomores.km` |  | 302 | wikidata | Supreme Court of the Comoros |
+| 4 | `banque-comores.km` |  | 200 | wikidata | Central Bank of the Comoros |
+| 4 | `inseed.km` | central | SSLHandsh... | wikidata | INSEED |
+| 3 | `anjouanoffshorefinancialauthority.org` | central-1 | 200 | wikidata | Anjouan Offshore Finance Authority |
+| 3 | `km.ambafrance.org` | central | 301 | wikidata | Embassy of France, Moroni |
+| 3 | `km.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Moroni |
 

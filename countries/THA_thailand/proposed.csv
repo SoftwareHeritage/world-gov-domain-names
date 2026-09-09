@@ -1,61 +1,61 @@
 hostname,score,sources,label,level,http_status,mx
-gistda.or.th,7,wikidata;wikidata,Geo-Informatics and Space Technology Development Agency,,,
-royaloffice.th,7,wikidata;wikidata,Bureau of the Royal Household,central,,
-constitutionalcourt.or.th,6,wikidata,Constitutional Court of Thailand,,,
-office.constitutionalcourt.or.th,6,wikidata,Office of the Constitutional Court of Thailand,,,
-aerothai.co.th,4,wikidata,Aeronautical Radio of Thailand,,,
-bangkok.mfa.gov.hu,4,wikidata,embassy of Hungary to Thailand,central,,
-biotec.or.th,4,wikidata,BIOTEC,,,
-bot.or.th,4,wikidata,Bank of Thailand,,,
-cicot.or.th,4,wikidata,Central Islamic Council of Thailand,,,
-en.thaihealth.or.th,4,wikidata,Thai Health Promotion Foundation,,,
-glo.or.th,4,wikidata,Thai Government Lottery Office,,,
-gpo.or.th,4,wikidata,Government Pharmaceutical Organization,,,
-ksp.or.th,4,wikidata,Teachers' Council of Thailand,,,
-nectec.or.th,4,wikidata,National Electronics and Computer Technology Center,,,
-nimt.or.th,4,wikidata,National Institute of Metrology (Thailand),,,
-nxpo.or.th,4,wikidata,Office of National Higher Education Science Research and Innovation Policy Council,,,
-old.hsri.or.th,4,wikidata,Health Systems Research Institute,,,
-rtsd.mi.th,4,wikidata,Royal Thai Survey Department,,,
-sec.or.th,4,wikidata,"The Securities and Exchange Commission, Thailand",,,
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Bangkok",central,,
-supremecourt.or.th,4,wikidata,Supreme Court of Thailand,,,
-tgi.or.th,4,wikidata,Thai-German Institute,,,
-tmc.or.th,4,wikidata,Medical Council of Thailand,,,
-trf.or.th,4,wikidata,Thailand Research Fund,,,
-tsri.or.th,4,wikidata,Thailand Science Research and Innovation,,,
-afrims.health.mil,3,wikidata,United States Army Medical Directorate - Armed Forces Research Institute of Medical Sciences,,,
-ambasadat.net,3,wikidata,"Embassy of Kosovo, Bangkok",central,,
-armenianconsulatethailand.com,3,wikidata,Consulate of Armenia in Thailand,central,,
-bangkok.diplo.de,3,wikidata,"Embassy of Germany, Bangkok",central,,
-bangkok.embassy.mn,3,wikidata,"Embassy of Mongolia, Bangkok",central,,
-bangkok.mae.lu,3,wikidata,Embassy of Luxembourg in Bangkok,central,,
-bangkok.mae.ro,3,wikidata,"Embassy of Romania, Bangkok",central,,
-bangkok.mfa.ir,3,wikidata,"Embassy of Iran, Bangkok",central,,
-chpao.org,3,wikidata,Chaiyaphum Provincial Administrative Organization,central-1,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Thailand,,,
-enaca.org,3,wikidata,Network of Aquaculture Centres in Asia-Pacific,,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Bangkok",central,,
-humanrights.asia,3,wikidata,Asian Human Rights Commission,,,
-loppao.com,3,wikidata,Lopburi Provincial Administrative Organization,central-1,,
-mfa.gr,3,wikidata,embassy of Greece in Thailand,central,,
-moroccoembassybangkok.org,3,wikidata,"Embassy of Morocco, Bangkok",central,,
-mzv.cz,3,wikidata,"Embassy of the Czech Republic, Bangkok",central,,
-mzv.sk,3,wikidata,"Embassy of Slovakia, Bangkok",central,,
-naresuanforce.com,3,wikidata,Naresuan Command,,,
-nkppao.com,3,wikidata,Nakhon Phanom Provincial Administrative Organization,central-1,,
-norway.no,3,wikidata,"Embassy of Norway, Bangkok",central,,
-ordnancerta.com,3,wikidata,Royal Thai Army Ordnance Department,,,
-panathai.com,3,wikidata,"Embassy of Panama, Bangkok",central,,
-phamuangforce.com,3,wikidata,Phamuang Command,,,
-phtnet.org,3,wikidata,Postharvest Technology Innovation Center,,,
-phuketcity.org,3,wikidata,Phuket Provincial Administrative Organization,central-1,,
-qsbg.org,3,wikidata,"The Botanical Garden Organization, Thailand",,,
-roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Thailand,,,
-suranareecommand-rta.net,3,wikidata,Suranaree Command,,,
-surinpao.org,3,wikidata,Surin Provincial Administrative Organization,central-1,,
-swedenabroad.com,3,wikidata,"Embassy of Sweden, Bangkok",central,,
-th.ambafrance.org,3,wikidata,"Embassy of France, Bangkok",central,,
-thailand.mid.ru,3,wikidata,embassy of Russia in Thailand,central,,
-thailand.um.dk,3,wikidata,"Embassy of Denmark, Bangkok",central,,
-tourismthailand.org,3,wikidata,Tourism Authority of Thailand,,,
+gistda.or.th,7,wikidata;wikidata,Geo-Informatics and Space Technology Development Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 100 gistda-or-th.mail.protection.outlook.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+royaloffice.th,7,wikidata;wikidata,Bureau of the Royal Household,central,308,10 mx2.workd.go.th.; 0 mx1.workd.go.th.
+constitutionalcourt.or.th,6,wikidata,Constitutional Court of Thailand,,302,0 mx2.workd.go.th.; 0 mx1.workd.go.th.
+office.constitutionalcourt.or.th,6,wikidata,Office of the Constitutional Court of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,none
+aerothai.co.th,4,wikidata,Aeronautical Radio of Thailand,,200,0 aerothai-co-th.mail.protection.outlook.com.
+bangkok.mfa.gov.hu,4,wikidata,embassy of Hungary to Thailand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+biotec.or.th,4,wikidata,BIOTEC,,HttpConnectTimeoutException: HTTP connect timed out,10 biotec-or-th.mail.protection.outlook.com.
+bot.or.th,4,wikidata,Bank of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,20 mxb-0050d802.gslb.pphosted.com.; 20 mxa-0050d802.gslb.pphosted.com.
+cicot.or.th,4,wikidata,Central Islamic Council of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+en.thaihealth.or.th,4,wikidata,Thai Health Promotion Foundation,,200,none
+glo.or.th,4,wikidata,Thai Government Lottery Office,,ConnectException,10 rmx10.readyidc.com.; 20 rmx20.readyidc.com.
+gpo.or.th,4,wikidata,Government Pharmaceutical Organization,,200,dig error
+ksp.or.th,4,wikidata,Teachers' Council of Thailand,,ConnectException,0 ksp-or-th.mail.protection.outlook.com.
+nectec.or.th,4,wikidata,National Electronics and Computer Technology Center,,HttpConnectTimeoutException: HTTP connect timed out,0 nectec-or-th.mail.protection.outlook.com.
+nimt.or.th,4,wikidata,National Institute of Metrology (Thailand),,200,0 mx1.uc-workd.com.; 10 mx2.uc-workd.com.
+nxpo.or.th,4,wikidata,Office of National Higher Education Science Research and Innovation Policy Council,,HttpTimeoutException: request timed out,0 nxpo-or-th.mail.protection.outlook.com.
+old.hsri.or.th,4,wikidata,Health Systems Research Institute,,ConnectException,none
+rtsd.mi.th,4,wikidata,Royal Thai Survey Department,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.rtsd.mi.th.
+sec.or.th,4,wikidata,"The Securities and Exchange Commission, Thailand",,302,10 sec-or-th.mail.protection.outlook.com.
+sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Bangkok",central,ConnectException,none
+supremecourt.or.th,4,wikidata,Supreme Court of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.supremecourt.or.th.
+tgi.or.th,4,wikidata,Thai-German Institute,,200,10 mail.tgi.or.th.
+tmc.or.th,4,wikidata,Medical Council of Thailand,,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+trf.or.th,4,wikidata,Thailand Research Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,dig error
+tsri.or.th,4,wikidata,Thailand Science Research and Innovation,,200,0 tsri-or-th.mail.protection.outlook.com.
+afrims.health.mil,3,wikidata,United States Army Medical Directorate - Armed Forces Research Institute of Medical Sciences,,403,none
+ambasadat.net,3,wikidata,"Embassy of Kosovo, Bangkok",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+armenianconsulatethailand.com,3,wikidata,Consulate of Armenia in Thailand,central,301,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+bangkok.diplo.de,3,wikidata,"Embassy of Germany, Bangkok",central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.bund.de.; 10 mx2.bund.de.
+bangkok.embassy.mn,3,wikidata,"Embassy of Mongolia, Bangkok",central,200,none
+bangkok.mae.lu,3,wikidata,Embassy of Luxembourg in Bangkok,central,302,none
+bangkok.mae.ro,3,wikidata,"Embassy of Romania, Bangkok",central,503,none
+bangkok.mfa.ir,3,wikidata,"Embassy of Iran, Bangkok",central,307,none
+chpao.org,3,wikidata,Chaiyaphum Provincial Administrative Organization,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.chpao.org.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Thailand,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+enaca.org,3,wikidata,Network of Aquaculture Centres in Asia-Pacific,,200,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Bangkok",central,301,10 mail.valtori.fi.
+humanrights.asia,3,wikidata,Asian Human Rights Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
+loppao.com,3,wikidata,Lopburi Provincial Administrative Organization,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+mfa.gr,3,wikidata,embassy of Greece in Thailand,central,403,10 mailhost.mfa.gr.
+moroccoembassybangkok.org,3,wikidata,"Embassy of Morocco, Bangkok",central,HttpTimeoutException: request timed out,1200 ghs.google.com.
+mzv.cz,3,wikidata,"Embassy of the Czech Republic, Bangkok",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,"Embassy of Slovakia, Bangkok",central,301,10 mail.gov.sk.
+naresuanforce.com,3,wikidata,Naresuan Command,,HttpConnectTimeoutException: HTTP connect timed out,none
+nkppao.com,3,wikidata,Nakhon Phanom Provincial Administrative Organization,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+norway.no,3,wikidata,"Embassy of Norway, Bangkok",central,301,0 mx.domeneshop.no.
+ordnancerta.com,3,wikidata,Royal Thai Army Ordnance Department,,301,none
+panathai.com,3,wikidata,"Embassy of Panama, Bangkok",central,SSLHandshakeException: Remote host terminated the handshake,0 panathai-com.mail.protection.outlook.com.
+phamuangforce.com,3,wikidata,Phamuang Command,,301,10 mail.phamuangforce.com.
+phtnet.org,3,wikidata,Postharvest Technology Innovation Center,,HttpConnectTimeoutException: HTTP connect timed out,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+phuketcity.org,3,wikidata,Phuket Provincial Administrative Organization,central-1,200,none
+qsbg.org,3,wikidata,"The Botanical Garden Organization, Thailand",,SSLHandshakeException: Remote host terminated the handshake,50 aspmx3.googlemail.com.; 10 aspmx.l.google.com.; 40 aspmx2.googlemail.com.; 30 alt2.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.
+roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Thailand,,302,none
+suranareecommand-rta.net,3,wikidata,Suranaree Command,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching suranareecommand-rta.net found.,0 mail.suranareecommand-rta.net.
+surinpao.org,3,wikidata,Surin Provincial Administrative Organization,central-1,ConnectException,none
+swedenabroad.com,3,wikidata,"Embassy of Sweden, Bangkok",central,301,none
+th.ambafrance.org,3,wikidata,"Embassy of France, Bangkok",central,301,none
+thailand.mid.ru,3,wikidata,embassy of Russia in Thailand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+thailand.um.dk,3,wikidata,"Embassy of Denmark, Bangkok",central,301,none
+tourismthailand.org,3,wikidata,Tourism Authority of Thailand,,301,20 ALT1.ASPMX.L.GOOGLE.COM.; 30 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX.L.GOOGLE.COM.; 20 ALT2.ASPMX.L.GOOGLE.COM.; 30 ASPMX2.GOOGLEMAIL.COM.

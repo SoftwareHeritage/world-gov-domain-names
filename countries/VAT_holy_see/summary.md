@@ -28,17 +28,17 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `clerus.va` |  |  | wikidata;wikidata | Dicastery for the Clergy |
-| 7 | `congregazionevescovi.va` |  |  | wikidata;wikidata | Dicastery for Bishops |
-| 7 | `dicasteryinterreligious.va` |  |  | wikidata;wikidata | Dicastery for Interreligious Dialogue |
-| 7 | `humandevelopment.va` |  |  | wikidata;wikidata | Dicastery for Promoting Integral Human Development |
-| 7 | `laityfamilylife.va` |  |  | wikidata;wikidata | Dicastery for Laity, Family and Life |
-| 4 | `archivioapostolicovaticano.va` |  |  | wikidata | Vatican Apostolic Archives |
-| 4 | `asif.va` |  |  | wikidata | Financial Information Authority |
-| 4 | `ulsa.va` |  |  | wikidata | Labour Office of the Apostolic See |
-| 4 | `vaticanlibrary.va` |  |  | wikidata | Vatican Library |
-| 3 | `palvaticanembassy.org` | central |  | wikidata | embassy of the State of Palestine to the Holy See |
-| 3 | `pontificiaacademialatinitatis.org` |  |  | wikidata | Pontifical Academy for Latin |
-| 2 | `comunicazione.va` |  |  | wikidata;wikidata;wikidata;wikidata | Dicastery for Communication |
-| 2 | `vaticanstate.va` | central |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Governorate of Vatican City State | Pontifical Commission for the Vatican Cit... |
+| 7 | `clerus.va` |  | ConnectEx... | wikidata;wikidata | Dicastery for the Clergy |
+| 7 | `congregazionevescovi.va` |  | ConnectEx... | wikidata;wikidata | Dicastery for Bishops |
+| 7 | `dicasteryinterreligious.va` |  | ConnectEx... | wikidata;wikidata | Dicastery for Interreligious Dialogue |
+| 7 | `humandevelopment.va` |  | 302 | wikidata;wikidata | Dicastery for Promoting Integral Human Development |
+| 7 | `laityfamilylife.va` |  | ConnectEx... | wikidata;wikidata | Dicastery for Laity, Family and Life |
+| 4 | `archivioapostolicovaticano.va` |  | ConnectEx... | wikidata | Vatican Apostolic Archives |
+| 4 | `asif.va` |  | ConnectEx... | wikidata | Financial Information Authority |
+| 4 | `ulsa.va` |  | ConnectEx... | wikidata | Labour Office of the Apostolic See |
+| 4 | `vaticanlibrary.va` |  | ConnectEx... | wikidata | Vatican Library |
+| 3 | `palvaticanembassy.org` | central | SSLHandsh... | wikidata | embassy of the State of Palestine to the Holy See |
+| 3 | `pontificiaacademialatinitatis.org` |  | 301 | wikidata | Pontifical Academy for Latin |
+| 2 | `comunicazione.va` |  | ConnectEx... | wikidata;wikidata;wikidata;wikidata | Dicastery for Communication |
+| 2 | `vaticanstate.va` | central | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Governorate of Vatican City State | Pontifical Commission for the Vatican Cit... |
 

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `parliament.am` | central |  | wikidata;wikidata;wikidata;wikidata | National Assembly of Armenia |
-| 7 | `armstat.am` |  |  | wikidata;wikidata;wikidata | Statistical Committee of Armenia | National Statistical Service |
-| 7 | `edu.am` | central |  | wikidata;wikidata | Ministry of Education and Science |
-| 7 | `mfa.am` | central |  | wikidata;wikidata | Ministry of Foreign Affairs of Armenia |
-| 7 | `mil.am` | central |  | wikidata;wikidata | Ministry of Defence of Armenia |
-| 7 | `mineconomy.am` | central |  | wikidata;wikidata | Ministry of Economy of the Republic of Armenia |
-| 7 | `minfin.am` | central |  | wikidata;wikidata | Ministry of Finance |
-| 7 | `mlsa.am` | central |  | wikidata;wikidata | Ministry of Labor and Social Affairs |
-| 7 | `moh.am` | central |  | wikidata;wikidata | Ministry of Health |
-| 7 | `moj.am` | central |  | wikidata;wikidata | Ministry of Justice (Armenia) |
-| 7 | `msy.am` | central |  | wikidata;wikidata | Ministry of Youth and Sports |
-| 7 | `mtad.am` | central |  | wikidata;wikidata | Ministry of Territorial Administration and Infrastructure |
-| 6 | `cassationcourt.am` |  |  | wikidata | Court of Cassation of Armenia |
-| 6 | `concourt.am` | central |  | wikidata | Constitutional Court of Armenia |
-| 4 | `anra.am` |  |  | wikidata | Armenian Nuclear Regulatory Authority |
-| 4 | `armarchives.am` |  |  | wikidata | National Archives of Armenia |
-| 4 | `aviation.am` | central |  | wikidata | Civil Aviation Committee of Armenia |
-| 4 | `cba.am` |  |  | wikidata | Central Bank of Armenia |
-| 4 | `datalex.am` |  |  | wikidata | DataLex |
-| 4 | `escs.am` |  |  | wikidata | Ministry of Education, Science, Culture and Sports of Armenia |
+| 8 | `parliament.am` | central | 301 | wikidata;wikidata;wikidata;wikidata | National Assembly of Armenia |
+| 7 | `armstat.am` |  | 400 | wikidata;wikidata;wikidata | Statistical Committee of Armenia | National Statistical Service |
+| 7 | `edu.am` | central | HttpConne... | wikidata;wikidata | Ministry of Education and Science |
+| 7 | `mfa.am` | central | 400 | wikidata;wikidata | Ministry of Foreign Affairs of Armenia |
+| 7 | `mil.am` | central | 400 | wikidata;wikidata | Ministry of Defence of Armenia |
+| 7 | `mineconomy.am` | central | 302 | wikidata;wikidata | Ministry of Economy of the Republic of Armenia |
+| 7 | `minfin.am` | central | SSLHandsh... | wikidata;wikidata | Ministry of Finance |
+| 7 | `mlsa.am` | central | 301 | wikidata;wikidata | Ministry of Labor and Social Affairs |
+| 7 | `moh.am` | central | 400 | wikidata;wikidata | Ministry of Health |
+| 7 | `moj.am` | central | 400 | wikidata;wikidata | Ministry of Justice (Armenia) |
+| 7 | `msy.am` | central | HttpConne... | wikidata;wikidata | Ministry of Youth and Sports |
+| 7 | `mtad.am` | central | 200 | wikidata;wikidata | Ministry of Territorial Administration and Infrastructure |
+| 6 | `cassationcourt.am` |  | HttpConne... | wikidata | Court of Cassation of Armenia |
+| 6 | `concourt.am` | central | 200 | wikidata | Constitutional Court of Armenia |
+| 4 | `anra.am` |  | SSLHandsh... | wikidata | Armenian Nuclear Regulatory Authority |
+| 4 | `armarchives.am` |  | 200 | wikidata | National Archives of Armenia |
+| 4 | `aviation.am` | central | 400 | wikidata | Civil Aviation Committee of Armenia |
+| 4 | `cba.am` |  | 301 | wikidata | Central Bank of Armenia |
+| 4 | `datalex.am` |  | 200 | wikidata | DataLex |
+| 4 | `escs.am` |  | 403 | wikidata | Ministry of Education, Science, Culture and Sports of Armenia |
 

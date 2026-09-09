@@ -1,9 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
-bankofguyana.org.gy,4,wikidata,Bank of Guyana,,,
-cdc.gy,4,wikidata,Civil Defense Commission of Guyana,,,
-eeas.europa.eu,3,wikidata,"Delegation of the European Union to Guyana, for Suriname, and with responsibility for Aruba, Bonaire, Curaçao, Saba, Saint Barthélemy, Sint Eustatius and Sint Maarten",central,,
-gnbsgy.org,3,wikidata,Guyana National Bureau of Standards,,,
-guyana.mid.ru,3,wikidata,embassy of Russia in Guyana,central,,
-hcigeorgetown.org,3,wikidata,"High Commission of India, Georgetown",central,,
-nationallibraryofguyana.com,3,wikidata,National Library of Guyana,,,
-surguychamber.org,3,wikidata,Suriname-Guyana Kamer van Koophandel,,,
+bankofguyana.org.gy,4,wikidata,Bank of Guyana,,301,10 mx.spamexperts.com.; 20 fallbackmx.spamexperts.eu.; 30 lastmx.spamexperts.net.
+cdc.gy,4,wikidata,Civil Defense Commission of Guyana,,302,0 cdc-gy.mail.protection.outlook.com.
+eeas.europa.eu,3,wikidata,"Delegation of the European Union to Guyana, for Suriname, and with responsibility for Aruba, Bonaire, Curaçao, Saba, Saint Barthélemy, Sint Eustatius and Sint Maarten",central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+gnbsgy.org,3,wikidata,Guyana National Bureau of Standards,,200,0 gnbsgy-org.mail.protection.outlook.com.
+guyana.mid.ru,3,wikidata,embassy of Russia in Guyana,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+hcigeorgetown.org,3,wikidata,"High Commission of India, Georgetown",central,301,none
+nationallibraryofguyana.com,3,wikidata,National Library of Guyana,,HttpConnectTimeoutException: HTTP connect timed out,none
+surguychamber.org,3,wikidata,Suriname-Guyana Kamer van Koophandel,,200,5 nlpprofile.com.

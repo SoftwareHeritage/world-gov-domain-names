@@ -1,0 +1,35 @@
+hostname,http_status,mx
+bembassy.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 filter.comsats.net.pk.; 5 mailf.comsats.net.pk.; 10 isbfil.comsats.net.pk.
+caapakistan.com.pk,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.caapakistan.com.pk.; 5 mail1.caapakistan.com.pk.
+chf.edu.pk,200,0 mail.chf.edu.pk.
+dfa.ie,301,20 gbext.gn.gov.ie.; 20 cwext.gn.gov.ie.; 10 ext0.dfa.ie.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+hsa.edu.pk,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+india.org.pk,403,10 mxa.mailgun.org.; 0 india.org.pk.; 10 mxb.mailgun.org.
+islamabad.mae.ro,503,none
+karachi.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+mepco.com.pk,200,10 webmail.mepco.com.pk.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+nia.org.pk,200,0 nia.org.pk.
+niab.org.pk,HttpConnectTimeoutException: HTTP connect timed out,10 mail.niab.org.pk.; 30 queue.nexlinx.net.pk.
+nifa.org.pk,200,0 mail.nifa.org.pk.
+nih.org.pk,200,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+norway.no,301,0 mx.domeneshop.no.
+ogra.org.pk,403,0 mta.nayatel.com.; 0 mta2.nayatel.com.; 0 mta3.nayatel.com.; 0 mta1.nayatel.com.
+pakistan.diplo.de,200,none
+pakistan.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pakistan.um.dk,301,none
+pakistanforces.com,503,none
+pakistanpressfoundation.org,200,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+pk.ambafrance.org,301,none
+pnra.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.pnra.org.
+psqca.com.pk,301,10 _dc-mx.d1451b822d05.psqca.com.pk.
+qda.gob.pk,200,0 mail.qda.gob.pk.
+sbp.org.pk,ConnectException,1 sbp-org-pk.mail.protection.outlook.com.
+sl.sindhila.org,HttpTimeoutException: request timed out,none
+sp.mofaic.gov.ae,ConnectException,none
+swedenabroad.se,301,none
+who.int,301,10 who-int.mail.protection.outlook.com.

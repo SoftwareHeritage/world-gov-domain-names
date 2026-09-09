@@ -1,29 +1,29 @@
 hostname,score,sources,label,level,http_status,mx
-ccc.org.bd,7,wikidata;wikidata,Chattogram City Corporation,,,
-comillacitycorporation.org,6,wikidata;wikidata,Cumilla City Corporation,,,
-dhaka.thaiembassy.org,6,wikidata;wikidata,"Embassy of Thailand, Dhaka",central,,
-gazipurcity.com,6,wikidata;wikidata,Gazipur City Corporation,,,
-khulnacity.org,6,wikidata;wikidata,Khulna City Corporation,,,
-acc.org.bd,4,wikidata,Anti-Corruption Commission,,,
-bids.org.bd,4,wikidata,Bangladesh Institute of Development Studies,,,
-dwasa.org.bd,4,wikidata,Dhaka WASA,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dhaka",central,,
-nbc.org.bd,4,wikidata,National Book Centre,,,
-nhrc.org.bd,4,wikidata,National Human Rights Commission of Bangladesh,,,
-bangladesh-bank.org,3,wikidata,Bangladesh Bank,,,
-bangladesh.mid.ru,3,wikidata,embassy of Russia in Bangladesh,central,,
-bangladesh.um.dk,3,wikidata,embassy of Denmark in Dhaka,central,,
-bd.ambafrance.org,3,wikidata,"Embassy of France, Dhaka",central,,
-bd.china-embassy.org,3,wikidata,"Embassy of the People’s Republic of China, Dhaka",central,,
-bd.mdvmission,3,wikidata,"High Commission of the Maldives, Dhaka",,,
-cagbd.org,3,wikidata,"Office of the Comptroller and Auditor General, Bangladesh",,,
-dhaka.diplo.de,3,wikidata,"Embassy of Germany, Bangladesh",central,,
-dhaka.mfa.af,3,wikidata,"Embassy of Afghanistan, Dhaka",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Bangladesh,,,
-ict-bd.org,3,wikidata,International Crimes Tribunal (Bangladesh),,,
-nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Dhaka",central,,
-netherlandsembassydhaka.org,3,wikidata,"Embassy of the Netherlands, Dhaka",central,,
-norway.no,3,wikidata,"Embassy of Norway, Dhaka",central,,
-palestinemissionbd.com,3,wikidata,"Embassy of Palestine, Dhaka",central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Dhaka",central,,
-zpchittagong.org,3,wikidata,Zila Parishad Chittagong,,,
+ccc.org.bd,7,wikidata;wikidata,Chattogram City Corporation,,301,100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.; 100 us2.mx3.mailhostbox.com.
+comillacitycorporation.org,6,wikidata;wikidata,Cumilla City Corporation,,ConnectException,none
+dhaka.thaiembassy.org,6,wikidata;wikidata,"Embassy of Thailand, Dhaka",central,200,none
+gazipurcity.com,6,wikidata;wikidata,Gazipur City Corporation,,404,0 gazipurcity.com.
+khulnacity.org,6,wikidata;wikidata,Khulna City Corporation,,301,none
+acc.org.bd,4,wikidata,Anti-Corruption Commission,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 lbmx.bcc.gov.bd.
+bids.org.bd,4,wikidata,Bangladesh Institute of Development Studies,,200,dig error
+dwasa.org.bd,4,wikidata,Dhaka WASA,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 lbmx.bcc.gov.bd.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dhaka",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nbc.org.bd,4,wikidata,National Book Centre,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nhrc.org.bd,4,wikidata,National Human Rights Commission of Bangladesh,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mxgw.bcc.gov.bd.
+bangladesh-bank.org,3,wikidata,Bangladesh Bank,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+bangladesh.mid.ru,3,wikidata,embassy of Russia in Bangladesh,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bangladesh.um.dk,3,wikidata,embassy of Denmark in Dhaka,central,301,none
+bd.ambafrance.org,3,wikidata,"Embassy of France, Dhaka",central,301,none
+bd.china-embassy.org,3,wikidata,"Embassy of the People’s Republic of China, Dhaka",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bd.china-embassy.org found.,none
+bd.mdvmission,3,wikidata,"High Commission of the Maldives, Dhaka",,ConnectException,none
+cagbd.org,3,wikidata,"Office of the Comptroller and Auditor General, Bangladesh",,403,none
+dhaka.diplo.de,3,wikidata,"Embassy of Germany, Bangladesh",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+dhaka.mfa.af,3,wikidata,"Embassy of Afghanistan, Dhaka",central,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Bangladesh,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ict-bd.org,3,wikidata,International Crimes Tribunal (Bangladesh),,HttpConnectTimeoutException: HTTP connect timed out,none
+nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Dhaka",central,301,0 .
+netherlandsembassydhaka.org,3,wikidata,"Embassy of the Netherlands, Dhaka",central,HttpConnectTimeoutException: HTTP connect timed out,none
+norway.no,3,wikidata,"Embassy of Norway, Dhaka",central,301,0 mx.domeneshop.no.
+palestinemissionbd.com,3,wikidata,"Embassy of Palestine, Dhaka",central,200,0 palestinemissionbd.com.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Dhaka",central,301,none
+zpchittagong.org,3,wikidata,Zila Parishad Chittagong,,ConnectException,none

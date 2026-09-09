@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 4 | `arczw.ac.zw` |  |  | wikidata | Agricultural Research Council of Zimbabwe |
-| 4 | `competition.co.zw` |  |  | wikidata | Competition and Tariff Commission |
-| 4 | `ema.co.zw` |  |  | wikidata | Environmental Management Agency |
-| 4 | `forestry.co.zw` |  |  | wikidata | Forestry Commission |
-| 4 | `ipec.co.zw` |  |  | wikidata | Insurance and Pensions Commission (IPEC). |
-| 4 | `mediacommission.co.zw` |  |  | wikidata | Zimbabwe Media Commission |
-| 4 | `mohcc.org.zw` |  |  | wikidata | National Institute of Health Research, Zimbabwe |
-| 4 | `mrcz.org.zw` |  |  | wikidata | Medical Research Council of Zimbabwe |
-| 4 | `nac.org.zw` |  |  | wikidata | National AIDS Council |
-| 4 | `rbz.co.zw` |  |  | wikidata | Reserve Bank of Zimbabwe |
-| 4 | `rcz.ac.zw` |  |  | wikidata | Research Council of Zimbabwe |
-| 4 | `sirdc.ac.zw` |  |  | wikidata | National Metrology Institute |
-| 4 | `zimche.ac.zw` |  |  | wikidata | National Council for Higher Education, Zimbabwe |
-| 4 | `zimstat.co.zw` |  |  | wikidata | Zimbabwe National Statistics Agency |
-| 4 | `zingsa.ac.zw` |  |  | wikidata | Zimbabwe National Geospatial and Space Agency |
-| 4 | `zinwa.co.zw` |  |  | wikidata | Zimbabwe National Water Authority |
-| 3 | `ambafrance-zw.org` | central |  | wikidata | Embassy of France, Harare |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Zimbabwe |
-| 3 | `ghanaembassy-zimbabwe.com` | central |  | wikidata | embassy of Ghana in Zimbabwe |
-| 3 | `harare.diplo.de` | central |  | wikidata | Embassy of Germany, Harare |
+| 4 | `arczw.ac.zw` |  | 200 | wikidata | Agricultural Research Council of Zimbabwe |
+| 4 | `competition.co.zw` |  | 200 | wikidata | Competition and Tariff Commission |
+| 4 | `ema.co.zw` |  | 200 | wikidata | Environmental Management Agency |
+| 4 | `forestry.co.zw` |  | 200 | wikidata | Forestry Commission |
+| 4 | `ipec.co.zw` |  | 200 | wikidata | Insurance and Pensions Commission (IPEC). |
+| 4 | `mediacommission.co.zw` |  | HttpConne... | wikidata | Zimbabwe Media Commission |
+| 4 | `mohcc.org.zw` |  | HttpConne... | wikidata | National Institute of Health Research, Zimbabwe |
+| 4 | `mrcz.org.zw` |  | 200 | wikidata | Medical Research Council of Zimbabwe |
+| 4 | `nac.org.zw` |  | 200 | wikidata | National AIDS Council |
+| 4 | `rbz.co.zw` |  | SSLHandsh... | wikidata | Reserve Bank of Zimbabwe |
+| 4 | `rcz.ac.zw` |  | 200 | wikidata | Research Council of Zimbabwe |
+| 4 | `sirdc.ac.zw` |  | 200 | wikidata | National Metrology Institute |
+| 4 | `zimche.ac.zw` |  | 200 | wikidata | National Council for Higher Education, Zimbabwe |
+| 4 | `zimstat.co.zw` |  | 200 | wikidata | Zimbabwe National Statistics Agency |
+| 4 | `zingsa.ac.zw` |  | 200 | wikidata | Zimbabwe National Geospatial and Space Agency |
+| 4 | `zinwa.co.zw` |  | 200 | wikidata | Zimbabwe National Water Authority |
+| 3 | `ambafrance-zw.org` | central | ConnectEx... | wikidata | Embassy of France, Harare |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Zimbabwe |
+| 3 | `ghanaembassy-zimbabwe.com` | central | ConnectEx... | wikidata | embassy of Ghana in Zimbabwe |
+| 3 | `harare.diplo.de` | central | 200 | wikidata | Embassy of Germany, Harare |
 

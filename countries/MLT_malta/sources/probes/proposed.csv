@@ -1,0 +1,27 @@
+hostname,http_status,mx
+centralbankmalta.org,301,10 centralbankmalta-org.mail.protection.outlook.com.
+era.org.mt,200,3 era-org-mt.mail.protection.outlook.com.
+festivals.mt,301,10 festivals-mt.mail.protection.outlook.com.
+foodagency.mt,200,none
+gesuiti.it,200,5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+ghanahighcommission-malta.com,ConnectException,none
+heritagemalta.org,301,10 heritagemalta-org.mail.protection.outlook.com.
+idpc.org.mt,200,3 idpc-org-mt.mail.protection.outlook.com.
+infrastructuremalta.com,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching infrastructuremalta.com found.,3 infrastructuremalta-com.mail.protection.outlook.com.
+malta.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+malta.representation.ec.europa.eu,302,none
+maltaenterprise.com,200,20 smtp2.maltaenterprise.com.; 10 smtp.maltaenterprise.com.
+maltafilmcommission.com,301,3 maltafilmcommission-com.mail.protection.outlook.com.
+maltaheraldry.mt,200,10 dedi6381.your-server.de.
+mccaa.org.mt,HttpTimeoutException: request timed out,3 mccaa-org-mt.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mfsa.com.mt,301,0 mfsa-com-mt.mail.protection.outlook.com.
+mfsa.mt,301,0 mfsa-mt.mail.protection.outlook.com.
+mra.org.mt,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 mra-org-mt.mail.protection.outlook.com.
+mt.ambafrance.org,301,none
+pa.org.mt,403,0 pa-org-mt.mail.protection.outlook.com.
+parlament.mt,200,3 parlament-mt.mail.protection.outlook.com.
+unescomalta.org,301,0 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+valletta.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+valletta.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+valletta.europarl.europa.eu,302,none

@@ -1,8 +1,8 @@
 hostname,score,sources,label,level,http_status,mx
-primature.govcf.org,5,un_desa,UN/DESA national portal,,,
-cpsrca.cf,4,wikidata,Q112584726,,,
-cf.ambafrance.org,3,wikidata,"Embassy of France, Bangui",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Central African Republic,,,
-mae.ro,3,wikidata,"Honorary Consulate of Romania, Bangui",,,
-rca.mid.ru,3,wikidata,embassy of Russia in Central African Republic,central,,
-stat-centrafrique.com,3,wikidata,ICASEES,,,
+primature.govcf.org,5,un_desa,UN/DESA national portal,,ConnectException,none
+cpsrca.cf,4,wikidata,Q112584726,,200,0 mail.cpsrca.cf.
+cf.ambafrance.org,3,wikidata,"Embassy of France, Bangui",central,301,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Central African Republic,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+mae.ro,3,wikidata,"Honorary Consulate of Romania, Bangui",,503,10 mx2.mae.ro.; 10 mx1.mae.ro.
+rca.mid.ru,3,wikidata,embassy of Russia in Central African Republic,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+stat-centrafrique.com,3,wikidata,ICASEES,,HttpConnectTimeoutException: HTTP connect timed out,none

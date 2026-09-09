@@ -35,17 +35,17 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `omaninfo.om` | central |  | wikidata;wikidata | Ministry of Information |
-| 6 | `oman.om` |  |  | un_desa | UN/DESA national portal |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Muscat |
-| 4 | `mwasalat.om` |  |  | wikidata | MWASALAT |
-| 4 | `riyada.om` |  |  | wikidata | riyada |
-| 4 | `shura.om` | central |  | wikidata | Consultative Assembly of Oman |
-| 4 | `squ.edu.om` |  |  | wikidata | Sultan Qaboos University Library |
-| 4 | `statecouncil.om` | central |  | wikidata | state council of Oman |
-| 3 | `maskat.diplo.de` | central |  | wikidata | Embassy of Germany, Muscat |
-| 3 | `muscat.mae.ro` | central |  | wikidata | embassy of Romania in Oman |
-| 3 | `om.ambafrance.org` | central |  | wikidata | Embassy of France, Muscat |
-| 3 | `oman.mid.ru` | central |  | wikidata | embassy of Russia in Oman |
-| 1 | `roc-taiwan.org` |  |  | wikidata;wikidata;wikidata | Taipei Economic & Cultural Office, Muscat, Oman | Taipei Economic and Cultura... |
+| 7 | `omaninfo.om` | central | SSLHandsh... | wikidata;wikidata | Ministry of Information |
+| 6 | `oman.om` |  | SSLHandsh... | un_desa | UN/DESA national portal |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Muscat |
+| 4 | `mwasalat.om` |  | 200 | wikidata | MWASALAT |
+| 4 | `riyada.om` |  | 301 | wikidata | riyada |
+| 4 | `shura.om` | central | 301 | wikidata | Consultative Assembly of Oman |
+| 4 | `squ.edu.om` |  | HttpConne... | wikidata | Sultan Qaboos University Library |
+| 4 | `statecouncil.om` | central | SSLHandsh... | wikidata | state council of Oman |
+| 3 | `maskat.diplo.de` | central | 200 | wikidata | Embassy of Germany, Muscat |
+| 3 | `muscat.mae.ro` | central | 503 | wikidata | embassy of Romania in Oman |
+| 3 | `om.ambafrance.org` | central | 301 | wikidata | Embassy of France, Muscat |
+| 3 | `oman.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Oman |
+| 1 | `roc-taiwan.org` |  | 302 | wikidata;wikidata;wikidata | Taipei Economic & Cultural Office, Muscat, Oman | Taipei Economic and Cultura... |
 

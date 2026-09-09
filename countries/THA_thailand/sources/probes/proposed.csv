@@ -1,0 +1,61 @@
+hostname,http_status,mx
+aerothai.co.th,200,0 aerothai-co-th.mail.protection.outlook.com.
+afrims.health.mil,403,none
+ambasadat.net,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+armenianconsulatethailand.com,301,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+bangkok.diplo.de,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.bund.de.; 10 mx2.bund.de.
+bangkok.embassy.mn,200,none
+bangkok.mae.lu,302,none
+bangkok.mae.ro,503,none
+bangkok.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bangkok.mfa.ir,307,none
+biotec.or.th,HttpConnectTimeoutException: HTTP connect timed out,10 biotec-or-th.mail.protection.outlook.com.
+bot.or.th,HttpConnectTimeoutException: HTTP connect timed out,20 mxb-0050d802.gslb.pphosted.com.; 20 mxa-0050d802.gslb.pphosted.com.
+chpao.org,HttpConnectTimeoutException: HTTP connect timed out,10 mail.chpao.org.
+cicot.or.th,HttpConnectTimeoutException: HTTP connect timed out,10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+constitutionalcourt.or.th,302,0 mx2.workd.go.th.; 0 mx1.workd.go.th.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+en.thaihealth.or.th,200,none
+enaca.org,200,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+gistda.or.th,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 100 gistda-or-th.mail.protection.outlook.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+glo.or.th,ConnectException,10 rmx10.readyidc.com.; 20 rmx20.readyidc.com.
+gpo.or.th,200,dig error
+humanrights.asia,HttpConnectTimeoutException: HTTP connect timed out,none
+ksp.or.th,ConnectException,0 ksp-or-th.mail.protection.outlook.com.
+loppao.com,HttpConnectTimeoutException: HTTP connect timed out,none
+mfa.gr,403,10 mailhost.mfa.gr.
+moroccoembassybangkok.org,HttpTimeoutException: request timed out,1200 ghs.google.com.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+naresuanforce.com,HttpConnectTimeoutException: HTTP connect timed out,none
+nectec.or.th,HttpConnectTimeoutException: HTTP connect timed out,0 nectec-or-th.mail.protection.outlook.com.
+nimt.or.th,200,0 mx1.uc-workd.com.; 10 mx2.uc-workd.com.
+nkppao.com,HttpConnectTimeoutException: HTTP connect timed out,none
+norway.no,301,0 mx.domeneshop.no.
+nxpo.or.th,HttpTimeoutException: request timed out,0 nxpo-or-th.mail.protection.outlook.com.
+office.constitutionalcourt.or.th,HttpConnectTimeoutException: HTTP connect timed out,none
+old.hsri.or.th,ConnectException,none
+ordnancerta.com,301,none
+panathai.com,SSLHandshakeException: Remote host terminated the handshake,0 panathai-com.mail.protection.outlook.com.
+phamuangforce.com,301,10 mail.phamuangforce.com.
+phtnet.org,HttpConnectTimeoutException: HTTP connect timed out,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+phuketcity.org,200,none
+qsbg.org,SSLHandshakeException: Remote host terminated the handshake,50 aspmx3.googlemail.com.; 10 aspmx.l.google.com.; 40 aspmx2.googlemail.com.; 30 alt2.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.
+roc-taiwan.org,302,none
+royaloffice.th,308,10 mx2.workd.go.th.; 0 mx1.workd.go.th.
+rtsd.mi.th,HttpConnectTimeoutException: HTTP connect timed out,10 mail.rtsd.mi.th.
+sec.or.th,302,10 sec-or-th.mail.protection.outlook.com.
+sp.mofaic.gov.ae,ConnectException,none
+supremecourt.or.th,HttpConnectTimeoutException: HTTP connect timed out,10 mail.supremecourt.or.th.
+suranareecommand-rta.net,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching suranareecommand-rta.net found.,0 mail.suranareecommand-rta.net.
+surinpao.org,ConnectException,none
+swedenabroad.com,301,none
+tgi.or.th,200,10 mail.tgi.or.th.
+th.ambafrance.org,301,none
+thailand.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+thailand.um.dk,301,none
+tmc.or.th,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+tourismthailand.org,301,20 ALT1.ASPMX.L.GOOGLE.COM.; 30 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX.L.GOOGLE.COM.; 20 ALT2.ASPMX.L.GOOGLE.COM.; 30 ASPMX2.GOOGLEMAIL.COM.
+trf.or.th,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,dig error
+tsri.or.th,200,0 tsri-or-th.mail.protection.outlook.com.

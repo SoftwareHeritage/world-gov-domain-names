@@ -35,14 +35,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `fma-li.li` | central |  | wikidata;wikidata | Financial Market Authority |
-| 6 | `stgh.li` | central |  | wikidata | Constitutional Court of the Principality of Liechtenstein |
-| 4 | `aku.llv.li` |  |  | wikidata | Liechtensteinisches Landesarchiv |
-| 4 | `as.llv.li` | central |  | wikidata | Office of Statistics |
-| 4 | `datenschutzkommission.li` | central |  | wikidata | Q55506652 |
-| 4 | `dss.llv.li` | central |  | wikidata | Data Protection Office |
-| 4 | `landesbibliothek.li` |  |  | wikidata | Liechtenstein State Library |
-| 4 | `landespolizei.li` |  |  | wikidata | Liechtenstein National Police Force |
-| 4 | `llv.li` |  |  | wikidata | Schulamt Fürstentum Liechtenstein |
-| 2 | `landtag.li` | central |  | wikidata;wikidata | Landtag of Liechtenstein |
+| 7 | `fma-li.li` | central | 301 | wikidata;wikidata | Financial Market Authority |
+| 6 | `stgh.li` | central | 200 | wikidata | Constitutional Court of the Principality of Liechtenstein |
+| 4 | `aku.llv.li` |  | 403 | wikidata | Liechtensteinisches Landesarchiv |
+| 4 | `as.llv.li` | central | 403 | wikidata | Office of Statistics |
+| 4 | `datenschutzkommission.li` | central | ConnectEx... | wikidata | Q55506652 |
+| 4 | `dss.llv.li` | central | 301 | wikidata | Data Protection Office |
+| 4 | `landesbibliothek.li` |  | ConnectEx... | wikidata | Liechtenstein State Library |
+| 4 | `landespolizei.li` |  | 301 | wikidata | Liechtenstein National Police Force |
+| 4 | `llv.li` |  | 403 | wikidata | Schulamt Fürstentum Liechtenstein |
+| 2 | `landtag.li` | central | 200 | wikidata;wikidata | Landtag of Liechtenstein |
 

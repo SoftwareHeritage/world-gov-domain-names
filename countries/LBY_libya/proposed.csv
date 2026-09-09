@@ -1,21 +1,21 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.ly,8,wikidata;wikidata,House of Representatives,central,,
-hnec.ly,7,wikidata;wikidata;wikidata,High National Election Commission,central,,
-aonsrt.ly,4,wikidata,Q125912040,,,
-bsc.ly,4,wikidata,Bureau of Statistics and Census Libya,central,,
-lccrc.ly,4,wikidata,Libyan Climate Change Research Center,,,
-lsrss.com.ly,4,wikidata,Libyan Society for Research and Scientific Studies,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Tripoli",central,,
-ncdc.org.ly,4,wikidata,National Centre for Disease Control,,,
-tripoli.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tripoli",central,,
-arsheef.org,3,wikidata,Libyan Center for Archives and Historical Studies,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Libya,,,
-ly.ambafrance.org,3,wikidata,"Embassy of France, Tripoli",central,,
-ly.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Tripoli",central,,
-mfa.gr,3,wikidata,embassy of Greece in Libya,central,,
-mvep.hr,3,wikidata,"Embassy of Croatia, Tripoli",central,,
-nigeriantripoli.org,3,wikidata,embassy of Nigeria in Libya,central,,
-nllnet.net,3,wikidata,National Library of Libya,,,
-sveriges-konsulat.com,3,wikidata,"Honorary Consulate of Sweden, Benghazi",,,
-tripoli.mae.ro,3,wikidata,"Embassy of Romania, Tripoli",central,,
-ccmce.ly,0,wikidata,Central Committee for Municipal Council Elections,central,,
+parliament.ly,8,wikidata;wikidata,House of Representatives,central,200,40 mx4.secure.ly.; 20 mx2.secure.ly.; 10 mx1.secure.ly.; 30 mx3.secure.ly.
+hnec.ly,7,wikidata;wikidata;wikidata,High National Election Commission,central,HttpTimeoutException: request timed out,0 hnec-ly.mail.protection.outlook.com.
+aonsrt.ly,4,wikidata,Q125912040,,301,10 mx1.secure.ly.; 40 mx4.secure.ly.; 30 mx3.secure.ly.; 20 mx2.secure.ly.
+bsc.ly,4,wikidata,Bureau of Statistics and Census Libya,central,200,0 bsc-ly.mail.protection.outlook.com.
+lccrc.ly,4,wikidata,Libyan Climate Change Research Center,,200,40 mx4.secure.ly.; 10 mx1.secure.ly.; 30 mx3.secure.ly.; 20 mx2.secure.ly.
+lsrss.com.ly,4,wikidata,Libyan Society for Research and Scientific Studies,,200,30 mx3.secure.ly.; 10 mx1.secure.ly.; 20 mx2.secure.ly.; 40 mx4.secure.ly.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Tripoli",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+ncdc.org.ly,4,wikidata,National Centre for Disease Control,,301,40 mx4.secure.ly.; 10 mx1.secure.ly.; 30 mx3.secure.ly.; 20 mx2.secure.ly.
+tripoli.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tripoli",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+arsheef.org,3,wikidata,Libyan Center for Archives and Historical Studies,,301,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Libya,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ly.ambafrance.org,3,wikidata,"Embassy of France, Tripoli",central,301,5 mta-gw.infomaniak.ch.
+ly.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Tripoli",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ly.china-embassy.org found.,none
+mfa.gr,3,wikidata,embassy of Greece in Libya,central,403,10 mailhost.mfa.gr.
+mvep.hr,3,wikidata,"Embassy of Croatia, Tripoli",central,ConnectException,10 mail.mvep.hr.
+nigeriantripoli.org,3,wikidata,embassy of Nigeria in Libya,central,301,40 mx4.secure.ly.; 20 mx2.secure.ly.; 10 mx1.secure.ly.; 30 mx3.secure.ly.
+nllnet.net,3,wikidata,National Library of Libya,,HttpTimeoutException: request timed out,0 _dc-mx.43d38735977a.nllnet.net.
+sveriges-konsulat.com,3,wikidata,"Honorary Consulate of Sweden, Benghazi",,301,0 sveriges-konsulat.com.
+tripoli.mae.ro,3,wikidata,"Embassy of Romania, Tripoli",central,ConnectException,none
+ccmce.ly,0,wikidata,Central Committee for Municipal Council Elections,central,ConnectException,none

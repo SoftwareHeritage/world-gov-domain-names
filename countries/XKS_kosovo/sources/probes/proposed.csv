@@ -1,0 +1,82 @@
+hostname,http_status,mx
+aip.rks-gov.net,200,none
+ak.rks-gov.net,ConnectException,none
+akk-ks.org,HttpConnectTimeoutException: HTTP connect timed out,none
+ammk-rks.net,200,none
+antitrafikimi.rks-gov.net,307,none
+apeli.gjyqesori-rks.org,403,none
+apkrks.net,200,none
+arbk.rks-gov.net,200,none
+arh-ks.org,404,20 mx-02-eu-central-1.prod.hydra.sophos.com.; 10 mx-01-eu-central-1.prod.hydra.sophos.com.
+arkep-rks.org,200,20 alt2.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 20 alt1.aspmx.l.google.com.; 30 aspmx3.googlemail.com.
+arru-rks.org,200,10 mx-01-eu-central-1.prod.hydra.sophos.com.; 20 mx-02-eu-central-1.prod.hydra.sophos.com.
+ashak.rks-gov.net,200,none
+ashna-ks.org,301,0 mail.ashna-ks.org.
+ask.rks-gov.net,404,none
+atk-ks.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx2.atk-ks.org.; 10 mx1.atk-ks.org.
+biblioteka-ks.org,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 biblioteka-ks.org.
+bqk-kos.org,200,0 bqkkos-org0i.mail.protection.outlook.com.
+caa-ks.org,HttpConnectTimeoutException: HTTP connect timed out,10 mx-01-eu-central-1.prod.hydra.sophos.com.; 20 mx-02-eu-central-1.prod.hydra.sophos.com.
+devex.com,403,10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+e-regjistrimi.rks-gov.net,ConnectException,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ero-ks.org,302,10 d234981.a.ess.uk.barracudanetworks.com.; 20 d234981.b.ess.uk.barracudanetworks.com.
+eulex-kosovo.eu,200,10 eulexkosovo-eu01c.mail.protection.outlook.com.
+ferizaj.gjyqesori-rks.org,403,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+fiu.rks-gov.net,200,none
+gjakove.gjyqesori-rks.org,403,none
+gjilan.gjyqesori-rks.org,403,none
+gjk-ks.org,200,20 mx-02-eu-central-1.prod.hydra.sophos.com.; 10 mx-01-eu-central-1.prod.hydra.sophos.com.
+hiddengemsofprishtina.com,200,10 mail.hiddengemsofprishtina.com.
+ih-rks.org,200,none
+ikap.rks-gov.net,200,none
+ip.rks-gov.net,200,none
+kia.gov,ConnectException,none
+kiesa.rks-gov.net,200,none
+kipa.rks-gov.net,200,none
+komerciale.gjyqesori-rks.org,403,none
+kosovo-mining.org,HttpConnectTimeoutException: HTTP connect timed out,50 mail2.kosovo-mining.org.; 20 mail1.kosovo-mining.org.; 10 mail3.kosovo-mining.org.
+kosovo.ambafrance.org,301,none
+kosovopolice.com,301,0 kosovopolice-com.mail.protection.outlook.com.
+kpm-ks.org,200,10 mail.kpm-ks.org.
+kpmshc.rks-gov.net,200,none
+kqz-ks.org,403,20 mx-02-eu-central-1.prod.hydra.sophos.com.; 10 mx-01-eu-central-1.prod.hydra.sophos.com.
+krpp.rks-gov.net,200,none
+kryeministri.rks-gov.net,200,none
+kta-kosovo.org,301,1200 ghs.google.com.
+kuvendikosoves.org,403,1 _dc-mx.c6358a4f653e.kuvendikosoves.org.
+masht.rks-gov.net,307,none
+md.rks-gov.net,200,none
+me.rks-gov.net,HttpTimeoutException: request timed out,none
+mfa-ks.net,200,0 mfaks-net0i.mail.protection.outlook.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfpt.rks-gov.net,307,none
+mint.rks-gov.net,307,none
+mitrovice.gjyqesori-rks.org,403,none
+mkrs-ks.org,403,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
+mmphi.rks-gov.net,200,none
+mod.rks-gov.net,200,none
+mpb.rks-gov.net,200,none
+mpms.rks-gov.net,ConnectException,none
+msh-ks.org,200,none
+msh.rks-gov.net,HttpTimeoutException: request timed out,none
+mzr.rks-gov.net,ConnectException,none
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+niph-rks.org,200,none
+norway.no,301,0 mx.domeneshop.no.
+opennessindex.actionsee.org,200,none
+pak-ks.org,200,10 mail2.pak-ks.org.
+peje.gjyqesori-rks.org,403,none
+president-ksgov.net,200,20 mx-02-eu-central-1.prod.hydra.sophos.com.; 10 mx-01-eu-central-1.prod.hydra.sophos.com.
+prishtine.gjyqesori-rks.org,403,none
+pristina.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+pristina.mae.lu,302,none
+pristina.veleposlanistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+prizren.gjyqesori-rks.org,403,none
+prokuroria-rks.org,403,none
+pzap.rks-gov.net,200,none
+rks-gov.net,405,10 mx-01-eu-central-1.prod.hydra.sophos.com.; 20 mx-02-eu-central-1.prod.hydra.sophos.com.
+scp-ks.org,403,0 scpks-org0i.mail.protection.outlook.com.
+supreme.gjyqesori-rks.org,403,none
+swedenabroad.se,301,none

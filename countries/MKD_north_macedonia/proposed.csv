@@ -1,27 +1,27 @@
 hostname,score,sources,label,level,http_status,mx
-iph.mk,7,wikidata;wikidata,Institute of Public Health of North Macedonia,,,
-sobranie.mk,7,wikidata;wikidata,Assembly of North Macedonia,central,,
-ustavensud.mk,6,wikidata,Constitutional Court of North Macedonia,,,
-vlada.mk,6,un_desa,UN/DESA national portal,,,
-vsrm.mk,6,wikidata,Supreme Court of North Macedonia,central,,
-aek.mk,4,wikidata,Agency for Electronic Communications,,,
-ambasadabih.org.mk,4,wikidata,Embassy of Bosnia and Herzegovina in North Macedonia,central,,
-arhiv.mk,4,wikidata,State Archive of the Republic of North Macedonia,,,
-ia.mk,4,wikidata,Intelligence Agency of North Macedonia,,,
-nbrm.mk,4,wikidata,National Bank of North Macedonia,,,
-nubsk.edu.mk,4,wikidata,"National and University Library ""St. Kliment of Ohrid""",,,
-oskratovo.mk,4,wikidata,Courthouses in Kratovo,,,
-osnegotino.mk,4,wikidata,Courthouses in Negotino,,,
-ambasadat.net,3,wikidata,"Embassy of Kosovo, Skopje",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to North Macedonia,,,
-macedonia.mid.ru,3,wikidata,embassy of Russia in North Macedonia,central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in North Macedonia,central,,
-mfa.gr,3,wikidata,embassy of Greece in North Macedonia,central,,
-mk.ambafrance.org,3,wikidata,"Embassy of France, Skopje",central,,
-mk.mvep.hr,3,wikidata,embassy of Croatia in North Macedonia,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in North Macedonia,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in North Macedonia,central,,
-skopje.diplo.de,3,wikidata,"Embassy of Germany, Skopje",central,,
-skopje.embassy.si,3,wikidata,embassy of Slovenia in North Macedonia,central,,
-skopje.mae.ro,3,wikidata,embassy of Romania in North Macedonia,central,,
-swedenabroad.se,3,wikidata,Embassy of Sweden in Skopje,central,,
+iph.mk,7,wikidata;wikidata,Institute of Public Health of North Macedonia,,200,10 bjorn.mk-host.com.
+sobranie.mk,7,wikidata;wikidata,Assembly of North Macedonia,central,301,10 mail.sobranie.mk.; 20 mail2.sobranie.mk.
+ustavensud.mk,6,wikidata,Constitutional Court of North Macedonia,,200,10 mail.ustavensud.mk.
+vlada.mk,6,un_desa,UN/DESA national portal,,200,1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
+vsrm.mk,6,wikidata,Supreme Court of North Macedonia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.vsrm.mk.
+aek.mk,4,wikidata,Agency for Electronic Communications,,200,10 mail.aek.mk.
+ambasadabih.org.mk,4,wikidata,Embassy of Bosnia and Herzegovina in North Macedonia,central,200,10 ambasadabih.org.mk.
+arhiv.mk,4,wikidata,State Archive of the Republic of North Macedonia,,200,10 mail.arhiv.mk.
+ia.mk,4,wikidata,Intelligence Agency of North Macedonia,,HttpConnectTimeoutException: HTTP connect timed out,none
+nbrm.mk,4,wikidata,National Bank of North Macedonia,,403,10 mail.nbrm.mk.
+nubsk.edu.mk,4,wikidata,"National and University Library ""St. Kliment of Ohrid""",,200,5 arya.mk-host.mk.
+oskratovo.mk,4,wikidata,Courthouses in Kratovo,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching oskratovo.mk found.,10 webmail.oskratovo.mk.
+osnegotino.mk,4,wikidata,Courthouses in Negotino,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching osnegotino.mk found.,10 webmail.osnegotino.mk.
+ambasadat.net,3,wikidata,"Embassy of Kosovo, Skopje",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to North Macedonia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+macedonia.mid.ru,3,wikidata,embassy of Russia in North Macedonia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mfa.bg,3,wikidata,embassy of Bulgaria in North Macedonia,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in North Macedonia,central,403,10 mailhost.mfa.gr.
+mk.ambafrance.org,3,wikidata,"Embassy of France, Skopje",central,301,none
+mk.mvep.hr,3,wikidata,embassy of Croatia in North Macedonia,central,ConnectException,none
+mzv.cz,3,wikidata,embassy of the Czech republic in North Macedonia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in North Macedonia,central,301,10 mail.gov.sk.
+skopje.diplo.de,3,wikidata,"Embassy of Germany, Skopje",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+skopje.embassy.si,3,wikidata,embassy of Slovenia in North Macedonia,central,SSLHandshakeException: Remote host terminated the handshake,none
+skopje.mae.ro,3,wikidata,embassy of Romania in North Macedonia,central,ConnectException,none
+swedenabroad.se,3,wikidata,Embassy of Sweden in Skopje,central,301,none

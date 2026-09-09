@@ -1,0 +1,16 @@
+hostname,http_status,mx
+bankofbotswana.bw,200,none
+bera.co.bw,301,30 bera-co-bw.inbound.emailservice.co.; 10 bera-co-bw.inbound.emailservice.io.; 20 bera-co-bw.inbound.emailservice.cc.
+bobstandards.bw,HttpTimeoutException: request timed out,10 bobstandards-bw.inbound.emailservice.io.; 20 bobstandards-bw.inbound.emailservice.cc.; 30 bobstandards-bw.inbound.emailservice.co.
+bocra.org.bw,ConnectException,0 za-smtp-inbound-1.mimecast.co.za.; 5 bocra-org-bw.mail.protection.outlook.com.; 0 za-smtp-inbound-2.mimecast.co.za.
+botswana.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bqa.org.bw,301,0 bqa-org-bw.mail.protection.outlook.com.
+burs.org.bw,200,30 mx1.burs.org.bw.; 40 mx2.burs.org.bw.; 20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+bw.ambafrance.org,301,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+gaborone.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+gamblingauthority.co.bw,200,0 gamblingauthority-co-bw.mail.protection.outlook.com.
+localbotswana.com,302,10 woomar4.hostingas.lt.; 20 mx-backup.serveriai.lt.
+nacb.org.bw,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.nacb.org.bw.
+statsbots.org.bw,200,10 statsbots-org-bw.inbound.emailservice.io.; 20 statsbots-org-bw.inbound.emailservice.cc.; 30 statsbots-org-bw.inbound.emailservice.co.
+wuc.bw,ConnectException,1 wuc-bw.mail.protection.outlook.com.

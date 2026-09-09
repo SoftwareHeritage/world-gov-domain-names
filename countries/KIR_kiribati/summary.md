@@ -35,5 +35,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 3 | `ki.chineseembassy.org` | central |  | wikidata | Embassy of the People's Republic of China, South Tarawa |
+| 3 | `ki.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, South Tarawa |
 

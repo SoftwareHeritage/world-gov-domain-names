@@ -1,0 +1,9 @@
+hostname,http_status,mx
+bceao.int,ConnectException,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+guinea-bissau.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+gw.ambafrance.org,301,none
+gw.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gw.china-embassy.org found.,none
+inep-bissau.org,301,none
+parlamento.gw,308,10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+stat-guinebissau.com,200,none

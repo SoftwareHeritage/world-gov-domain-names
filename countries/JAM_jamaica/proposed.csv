@@ -1,33 +1,33 @@
 hostname,score,sources,label,level,http_status,mx
-boj.org.jm,4,wikidata,Bank of Jamaica,,,
-cccj.edu.jm,4,wikidata,Council of Community Colleges of Jamaica,,,
-cla.org.jm,4,wikidata,Cannabis Licensing Authority,,,
-cmu.edu.jm,4,wikidata,Caribbean Maritime University,,,
-instituteofjamaica.org.jm,4,wikidata,Institute of Jamaica,central,,
-jamaicapolice.org.jm,4,wikidata,Jamaica Rural Police Force,,,
-jbi.org.jm,4,wikidata,Jamaica Bauxite Institute,central,,
-jbs.org.jm,4,wikidata,Bureau of Standards Jamaica,,,
-jti.edu.jm,4,wikidata,Justice Training Institute of Jamaica,,,
-mind.edu.jm,4,wikidata,Management Institute for National Development,central,,
-nhf.org.jm,4,wikidata,National Health Fund,,,
-odpem.org.jm,4,wikidata,Office of Disaster Preparedness and Emergency Management,,,
-our.org.jm,4,wikidata,Office of Utilities Regulation,central,,
-abilitiesfoundationja.com,3,wikidata,Abilities Foundation,,,
-airportsauthorityjamaica.aero,3,wikidata,Airports Authority of Jamaica,,,
-coconutindustryboardjm.org,3,wikidata,Coconut Industry Board,central,,
-eeas.europa.eu,3,wikidata,"Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and Caicos Islands and Cayman Islands",central,,
-fscjamaica.org,3,wikidata,Financial Services Commission,,,
-generallegalcouncil.org,3,wikidata,General Legal Council of Jamaica,,,
-heart-nsta.org,3,wikidata,Human Employment and Resource Training Trust/National Training Agency,central,,
-jamaica.mid.ru,3,wikidata,embassy of Russia in Jamaica,central,,
-jamaicamedicalcouncil.org,3,wikidata,Medical Council of Jamaica,,,
-jamalco.com,3,wikidata,Clarendon Alumina Production Limited,,,
-jdfmil.org,3,wikidata,Coast Guard of Jamaica Defence Force,,,
-jm.ambafrance.org,3,wikidata,"Embassy of France, Kingston",central,,
-jnht.com,3,wikidata,Jamaica National Heritage Trust,central,,
-kingston.diplo.de,3,wikidata,"Embassy of Germany, Kingston",central,,
-nidsfacts.com,3,wikidata,National Identification System,central,,
-nwcjamaica.com,3,wikidata,National Water Commission,central,,
-orcjamaica.com,3,wikidata,Companies Office of Jamaica,,,
-pbcjamaica.org,3,wikidata,Public Broadcasting Corporation of Jamaica,central,,
-tpdco.org,3,wikidata,Tourism Product Development Company,,,
+boj.org.jm,4,wikidata,Bank of Jamaica,,200,90 mx01.cwjamaica.com.; 10 mail.boj.org.jm.; 30 mx02.cwjamaica.com.; 100 mail2.boj.org.jm.; 20 mail3.boj.org.jm.
+cccj.edu.jm,4,wikidata,Council of Community Colleges of Jamaica,,301,0 cccj-edu-jm.mail.protection.outlook.com.
+cla.org.jm,4,wikidata,Cannabis Licensing Authority,,526,0 cla-org-jm.mail.protection.outlook.com.
+cmu.edu.jm,4,wikidata,Caribbean Maritime University,,200,1 aspmx.l.google.com.; 10 mail.cmi.edu.jm.
+instituteofjamaica.org.jm,4,wikidata,Institute of Jamaica,central,200,10 alt4.aspmx.l.google.com.; 20 aspmx4.googlemail.com.; 20 aspmx5.googlemail.com.; 20 aspmx2.googlemail.com.; 20 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+jamaicapolice.org.jm,4,wikidata,Jamaica Rural Police Force,,HttpConnectTimeoutException: HTTP connect timed out,none
+jbi.org.jm,4,wikidata,Jamaica Bauxite Institute,central,200,0 jbi-org-jm.mail.protection.outlook.com.
+jbs.org.jm,4,wikidata,Bureau of Standards Jamaica,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching jbs.org.jm found.,10 jbs-org-jm.b.mx.etrn.com.; 20 jbs-org-jm.a.mx.etrn.com.
+jti.edu.jm,4,wikidata,Justice Training Institute of Jamaica,,200,15 l5gonp3klvfkf3wl3xg4xzphwi2me2due6uda7bv6qwgcnu4phva.mx-verification.google.com.
+mind.edu.jm,4,wikidata,Management Institute for National Development,central,200,0 NERVE.EGOVJA.COM.; 0 MACULA.EGOVJA.COM.; 0 GLAND.EGOVJA.COM.; 0 CONE.EGOVJA.COM.; 10 FOVEA.EGOVJA.COM.
+nhf.org.jm,4,wikidata,National Health Fund,,301,10 je-smtp-inbound-2.mimecast-offshore.com.; 10 je-smtp-inbound-1.mimecast-offshore.com.
+odpem.org.jm,4,wikidata,Office of Disaster Preparedness and Emergency Management,,301,30 odpem-org-jm.mail.protection.outlook.com.; 10 odpem-org-jm.b.mx.etrn.com.; 20 odpem-org-jm.d.mx.etrn.com.
+our.org.jm,4,wikidata,Office of Utilities Regulation,central,200,0 our-org-jm.mail.protection.outlook.com.
+abilitiesfoundationja.com,3,wikidata,Abilities Foundation,,200,none
+airportsauthorityjamaica.aero,3,wikidata,Airports Authority of Jamaica,,200,0 _dc-mx.e73067bf8566.airportsauthorityjamaica.aero.
+coconutindustryboardjm.org,3,wikidata,Coconut Industry Board,central,200,none
+eeas.europa.eu,3,wikidata,"Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and Caicos Islands and Cayman Islands",central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+fscjamaica.org,3,wikidata,Financial Services Commission,,301,5 mx1-us1.ppe-hosted.com.; 15 mx2-us1.ppe-hosted.com.
+generallegalcouncil.org,3,wikidata,General Legal Council of Jamaica,,301,30 lastmx.spamexperts.net.; 20 fallbackmx.spamexperts.eu.; 10 mx.spamexperts.com.
+heart-nsta.org,3,wikidata,Human Employment and Resource Training Trust/National Training Agency,central,301,1 mxa-00233a01.gslb.pphosted.com.; 2 mxb-00233a01.gslb.pphosted.com.; 10 mx1.heart-nta.org.
+jamaica.mid.ru,3,wikidata,embassy of Russia in Jamaica,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+jamaicamedicalcouncil.org,3,wikidata,Medical Council of Jamaica,,200,none
+jamalco.com,3,wikidata,Clarendon Alumina Production Limited,,301,0 jamalco-com.mail.protection.outlook.com.
+jdfmil.org,3,wikidata,Coast Guard of Jamaica Defence Force,,301,none
+jm.ambafrance.org,3,wikidata,"Embassy of France, Kingston",central,301,none
+jnht.com,3,wikidata,Jamaica National Heritage Trust,central,200,11 mx01.1and1.com.; 0 jnht-com.mail.protection.outlook.com.
+kingston.diplo.de,3,wikidata,"Embassy of Germany, Kingston",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+nidsfacts.com,3,wikidata,National Identification System,central,301,0 mail.nidsfacts.com.; 10 nidsfacts.com.
+nwcjamaica.com,3,wikidata,National Water Commission,central,200,none
+orcjamaica.com,3,wikidata,Companies Office of Jamaica,,200,10 je-smtp-inbound-1.mimecast-offshore.com.; 10 je-smtp-inbound-2.mimecast-offshore.com.
+pbcjamaica.org,3,wikidata,Public Broadcasting Corporation of Jamaica,central,200,10 je-smtp-inbound-2.mimecast-offshore.com.; 10 je-smtp-inbound-1.mimecast-offshore.com.
+tpdco.org,3,wikidata,Tourism Product Development Company,,200,20 tpdco.org.b.mx.etrn.com.; 10 tpdco.org.a.mx.etrn.com.

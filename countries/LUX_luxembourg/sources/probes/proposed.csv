@@ -1,0 +1,20 @@
+hostname,http_status,mx
+ambruslu.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+anlux.lu,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching anlux.lu found.,none
+bcl.lu,301,10 mailsrv1.bcl.lu.; 20 mailsrv2.bcl.lu.
+beneluxparl.eu,302,5 mta-gw.infomaniak.ch.
+cpll.lu,500,10 smtpgate1.restena.lu.; 10 smtpgate2.restena.lu.
+cssf.lu,200,10 mail.cssf.lu.
+etat.lu,302,10 incoming-4.mail.etat.lu.; 10 incoming-3.mail.etat.lu.; 10 incoming-2.mail.etat.lu.; 10 incoming-1.mail.etat.lu.
+geologie.lu,200,none
+lih.lu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx1.lih.lu.; 5 mx2.lih.lu.
+lu.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching lu.china-embassy.org found.,none
+luxembourg.europarl.europa.eu,302,100 ucsgusrlp001.ep.europa.eu.; 100 ucsgusrlp002.ep.europa.eu.; 100 ucsgusrlp003.ep.europa.eu.; 100 ucsgusrbp004.ep.europa.eu.; 100 ucsgusrbp001.ep.europa.eu.; 100 ucsgusrbp003.ep.europa.eu.; 100 ucsgusrlp004.ep.europa.eu.; 100 ucsgusrbp002.ep.europa.eu.
+luxembourg.mae.ro,ConnectException,none
+luxembourg.representation.ec.europa.eu,302,none
+luxemburg.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+luxemburgo.embaixadaportugal.mne.pt,IOException: EOF reached while reading,none
+luxinnovation.lu,200,0 luxinnovation-lu.mail.protection.outlook.com.
+mnaha.lu,301,none
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+railinfra.lu,302,10 incoming-1.mail.etat.lu.; 10 incoming-3.mail.etat.lu.; 10 incoming-2.mail.etat.lu.; 10 incoming-4.mail.etat.lu.

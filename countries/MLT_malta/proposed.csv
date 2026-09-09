@@ -1,27 +1,27 @@
 hostname,score,sources,label,level,http_status,mx
-parlament.mt,7,wikidata;wikidata,Parliament of Malta,central,,
-gesuiti.it,6,wikidata;wikidata,Euromediterranean Province of the Jesuits,,,
-era.org.mt,4,wikidata,Environment and Resources Authority,,,
-festivals.mt,4,wikidata,Festivals Malta Agency,,,
-foodagency.mt,4,wikidata,Malta Food Agency,,,
-idpc.org.mt,4,wikidata,Office of the Information and Data Protection Commissioner,central,,
-maltaheraldry.mt,4,wikidata,Office of the Chief Herald of Arms of Malta,,,
-mccaa.org.mt,4,wikidata,Malta Competition and Consumer Affairs Authority,,,
-mfsa.com.mt,4,wikidata,Malta Financial Service Authority,central,,
-mfsa.mt,4,wikidata,Malta Financial Service Authority,central,,
-mra.org.mt,4,wikidata,Malta Resources Authority,,,
-pa.org.mt,4,wikidata,Planning Authority,,,
-centralbankmalta.org,3,wikidata,Central Bank of Malta,,,
-ghanahighcommission-malta.com,3,wikidata,high commission of Ghana in Malta,central,,
-heritagemalta.org,3,wikidata,Heritage Malta,,,
-infrastructuremalta.com,3,wikidata,Infrastructure Malta,,,
-malta.mid.ru,3,wikidata,embassy of Russia in Malta,central,,
-malta.representation.ec.europa.eu,3,wikidata,European Commission Representation in Malta,,,
-maltaenterprise.com,3,wikidata,Malta Enterprise,,,
-maltafilmcommission.com,3,wikidata,Malta Film Commission,,,
-mfa.gr,3,wikidata,"Greek Embassy, Ta' Xbiex",central,,
-mt.ambafrance.org,3,wikidata,"Embassy of France, Valletta",central,,
-unescomalta.org,3,wikidata,Maltese National Commission for UNESCO,,,
-valletta.diplo.de,3,wikidata,"Embassy of Germany, Valletta",central,,
-valletta.embassy.qa,3,wikidata,embassy of Qatar in Malta,central,,
-valletta.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Malta,central,,
+parlament.mt,7,wikidata;wikidata,Parliament of Malta,central,200,3 parlament-mt.mail.protection.outlook.com.
+gesuiti.it,6,wikidata;wikidata,Euromediterranean Province of the Jesuits,,200,5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+era.org.mt,4,wikidata,Environment and Resources Authority,,200,3 era-org-mt.mail.protection.outlook.com.
+festivals.mt,4,wikidata,Festivals Malta Agency,,301,10 festivals-mt.mail.protection.outlook.com.
+foodagency.mt,4,wikidata,Malta Food Agency,,200,none
+idpc.org.mt,4,wikidata,Office of the Information and Data Protection Commissioner,central,200,3 idpc-org-mt.mail.protection.outlook.com.
+maltaheraldry.mt,4,wikidata,Office of the Chief Herald of Arms of Malta,,200,10 dedi6381.your-server.de.
+mccaa.org.mt,4,wikidata,Malta Competition and Consumer Affairs Authority,,HttpTimeoutException: request timed out,3 mccaa-org-mt.mail.protection.outlook.com.
+mfsa.com.mt,4,wikidata,Malta Financial Service Authority,central,301,0 mfsa-com-mt.mail.protection.outlook.com.
+mfsa.mt,4,wikidata,Malta Financial Service Authority,central,301,0 mfsa-mt.mail.protection.outlook.com.
+mra.org.mt,4,wikidata,Malta Resources Authority,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 mra-org-mt.mail.protection.outlook.com.
+pa.org.mt,4,wikidata,Planning Authority,,403,0 pa-org-mt.mail.protection.outlook.com.
+centralbankmalta.org,3,wikidata,Central Bank of Malta,,301,10 centralbankmalta-org.mail.protection.outlook.com.
+ghanahighcommission-malta.com,3,wikidata,high commission of Ghana in Malta,central,ConnectException,none
+heritagemalta.org,3,wikidata,Heritage Malta,,301,10 heritagemalta-org.mail.protection.outlook.com.
+infrastructuremalta.com,3,wikidata,Infrastructure Malta,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching infrastructuremalta.com found.,3 infrastructuremalta-com.mail.protection.outlook.com.
+malta.mid.ru,3,wikidata,embassy of Russia in Malta,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+malta.representation.ec.europa.eu,3,wikidata,European Commission Representation in Malta,,302,none
+maltaenterprise.com,3,wikidata,Malta Enterprise,,200,20 smtp2.maltaenterprise.com.; 10 smtp.maltaenterprise.com.
+maltafilmcommission.com,3,wikidata,Malta Film Commission,,301,3 maltafilmcommission-com.mail.protection.outlook.com.
+mfa.gr,3,wikidata,"Greek Embassy, Ta' Xbiex",central,403,10 mailhost.mfa.gr.
+mt.ambafrance.org,3,wikidata,"Embassy of France, Valletta",central,301,none
+unescomalta.org,3,wikidata,Maltese National Commission for UNESCO,,301,0 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+valletta.diplo.de,3,wikidata,"Embassy of Germany, Valletta",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+valletta.embassy.qa,3,wikidata,embassy of Qatar in Malta,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+valletta.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Malta,central,302,none

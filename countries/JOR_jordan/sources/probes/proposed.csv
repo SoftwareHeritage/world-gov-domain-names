@@ -1,0 +1,24 @@
+hostname,http_status,mx
+amman.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+amman.mae.ro,ConnectException,none
+arabic.jo,200,5 mx01.govmail.gov.jo.; 5 mx02.govmail.gov.jo.
+cco.gov.jot,ConnectException,none
+custodia.org,301,0 custodia-org.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+emro.who.int,ConnectException,none
+hazine.info,302,0 mail.hazine.info.
+hpc.org.jo,200,5 webmail.hpc.org.jo.
+jo.ambafrance.org,301,5 mta-gw.infomaniak.ch.
+jordan.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+norway.no,301,0 mx.domeneshop.no.
+palembjo.org,200,0 mail.palembjo.org.
+parliament.jo,ConnectException,none
+representatives.jo,HttpTimeoutException: request timed out,5 mx02.govmail.gov.jo.; 5 mx01.govmail.gov.jo.
+rhc.jo,200,10 ESA2.rhc.jo.; 10 ESA1.rhc.jo.
+roc-taiwan.org,302,none
+senate.jo,302,5 mx02.govmail.gov.jo.; 5 mx01.govmail.gov.jo.
+sp.mofaic.gov.ae,ConnectException,none
+swedenabroad.se,301,none

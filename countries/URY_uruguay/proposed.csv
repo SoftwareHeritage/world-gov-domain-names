@@ -1,23 +1,23 @@
 hostname,score,sources,label,level,http_status,mx
-utu.edu.uy,7,wikidata;wikidata,University of Labor of Uruguay | General Directorate of Professional Technical Education,,,
-dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,,
-jesuitasaru.org,6,wikidata;wikidata,Argentine-Uruguayan Jesuit Province,,,
-anep.edu.uy,4,wikidata,National Administration of Public Education,central,,
-anii.org.uy,4,wikidata,Agencia Nacional de Investigación e Innovación,,,
-asse.com.uy,4,wikidata,State Health Services Administration,,,
-colonizacion.com.uy,4,wikidata,Colonization Institute,central,,
-dgeip.edu.uy,4,wikidata,General Directorate for Early and Primary Education,,,
-dges.edu.uy,4,wikidata,General Directorate for Secondary Education,,,
-fau.mil.uy,4,wikidata,Q1114710,,,
-impo.com.uy,4,wikidata,National Directorate of Official Printings and Publications,,,
-inavi.com.uy,4,wikidata,Q16579066,,,
-rnu.com.uy,4,wikidata,Radiodifusión Nacional del Uruguay,,,
-consuladoangolaenuruguay.com,3,wikidata,"Consulate of Angola, Montevideo",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Uruguay,,,
-embajadasaharauruguay.blogspot.com,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Montevideo",central,,
-mfa.gr,3,wikidata,embassy of Greece in Uruguay,central,,
-montevideo.diplo.de,3,wikidata,"Embassy of Germany, Montevideo",central,,
-montevideo.mae.ro,3,wikidata,embassy of Romania in Uruguay,central,,
-uruguay.mid.ru,3,wikidata,embassy of Russia in Uruguay,central,,
-uy.ambafrance.org,3,wikidata,embassy of France in Uruguay,central,,
-uy.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Montevideo",central,,
+utu.edu.uy,7,wikidata;wikidata,University of Labor of Uruguay | General Directorate of Professional Technical Education,,302,10 smtp.utu.edu.uy.
+dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
+jesuitasaru.org,6,wikidata;wikidata,Argentine-Uruguayan Jesuit Province,,200,0 jesuitasaru.org.
+anep.edu.uy,4,wikidata,National Administration of Public Education,central,200,50 mx34.anep.edu.uy.; 50 mx35.anep.edu.uy.; 5 mx30.anep.edu.uy.; 10 mx194.anep.edu.uy.; 20 mx20.anep.edu.uy.; 30 anep.edu.uy.; 15 mx31.anep.edu.uy.; 15 mx10.anep.edu.uy.
+anii.org.uy,4,wikidata,Agencia Nacional de Investigación e Innovación,,200,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.
+asse.com.uy,4,wikidata,State Health Services Administration,,200,10 smtp.asse.com.uy.
+colonizacion.com.uy,4,wikidata,Colonization Institute,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching colonizacion.com.uy found.,10 mail.colonizacion.com.uy.
+dgeip.edu.uy,4,wikidata,General Directorate for Early and Primary Education,,301,10 correo.dgeip.edu.uy.
+dges.edu.uy,4,wikidata,General Directorate for Secondary Education,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+fau.mil.uy,4,wikidata,Q1114710,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 fau-mil-uy.mail.protection.outlook.com.
+impo.com.uy,4,wikidata,National Directorate of Official Printings and Publications,,301,10 impo.impo.com.uy.
+inavi.com.uy,4,wikidata,Q16579066,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching inavi.com.uy found.,5 inavi-com-uy.mail.protection.outlook.com.
+rnu.com.uy,4,wikidata,Radiodifusión Nacional del Uruguay,,200,0 rnu.com.uy.
+consuladoangolaenuruguay.com,3,wikidata,"Consulate of Angola, Montevideo",central,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Uruguay,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embajadasaharauruguay.blogspot.com,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Montevideo",central,200,none
+mfa.gr,3,wikidata,embassy of Greece in Uruguay,central,403,10 mailhost.mfa.gr.
+montevideo.diplo.de,3,wikidata,"Embassy of Germany, Montevideo",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+montevideo.mae.ro,3,wikidata,embassy of Romania in Uruguay,central,503,none
+uruguay.mid.ru,3,wikidata,embassy of Russia in Uruguay,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+uy.ambafrance.org,3,wikidata,embassy of France in Uruguay,central,301,none
+uy.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Montevideo",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching uy.china-embassy.org found.,none

@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
-ami.mr,7,wikidata;wikidata,Mauritanian Information Agency | Mauritanian News Agency,,,
-assembleenationale.mr,7,wikidata;wikidata,National Assembly,central,,
-tdm.mr,7,wikidata;wikidata,Broadcasting of Mauritania,,,
-ansade.mr,4,wikidata,"National Agency for Statistics, Demographic and Economic Analysis",central,,
-bcm.mr,4,wikidata,Central Bank of Mauritania,,,
-cndh.mr,4,wikidata,National Human Rights Commission of Mauritania,,,
-cnla.mr,4,wikidata,Centre National de Lutte Antiacridienne,,,
-gendarmerie.mr,4,wikidata,Law enforcement in Mauritania,,,
-ons.mr,4,wikidata,Office National de la Statistique,central,,
-palemb.mr,4,wikidata,"Embassy of the State of Palestine, Nouakchott",central,,
-ccfr.rimpresse.com,3,wikidata,Q19885895,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mauritania,,,
-mauritanie.mid.ru,3,wikidata,embassy of Russia in Mauritania,central,,
-mr.ambafrance.org,3,wikidata,"Embassy of France, Nouakchott",central,,
-nouakchott.diplo.de,3,wikidata,"Embassy of Germany, Nouakchott",central,,
+ami.mr,7,wikidata;wikidata,Mauritanian Information Agency | Mauritanian News Agency,,HttpTimeoutException: request timed out,10 ami-mr.mail.protection.outlook.com.
+assembleenationale.mr,7,wikidata;wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,none
+tdm.mr,7,wikidata;wikidata,Broadcasting of Mauritania,,301,5 mta-gw.infomaniak.ch.
+ansade.mr,4,wikidata,"National Agency for Statistics, Demographic and Economic Analysis",central,200,10 ansade.mr.
+bcm.mr,4,wikidata,Central Bank of Mauritania,,500,10 mailstream-central.mxrecord.mx.; 20 mailstream-east.mxrecord.io.; 20 mailstream-west.mxrecord.io.; 5 mailstream-eu1.mxrecord.io.
+cndh.mr,4,wikidata,National Human Rights Commission of Mauritania,,200,5 mta-gw.infomaniak.ch.
+cnla.mr,4,wikidata,Centre National de Lutte Antiacridienne,,200,0 cnla.mr.
+gendarmerie.mr,4,wikidata,Law enforcement in Mauritania,,200,none
+ons.mr,4,wikidata,Office National de la Statistique,central,ConnectException,none
+palemb.mr,4,wikidata,"Embassy of the State of Palestine, Nouakchott",central,HttpTimeoutException: request timed out,0 _dc-mx.7ed4916a178d.palemb.mr.
+ccfr.rimpresse.com,3,wikidata,Q19885895,central,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Mauritania,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+mauritanie.mid.ru,3,wikidata,embassy of Russia in Mauritania,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mr.ambafrance.org,3,wikidata,"Embassy of France, Nouakchott",central,301,none
+nouakchott.diplo.de,3,wikidata,"Embassy of Germany, Nouakchott",central,200,10 mx1.bund.de.; 10 mx2.bund.de.

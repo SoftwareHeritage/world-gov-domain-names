@@ -1,10 +1,10 @@
 hostname,score,sources,label,level,http_status,mx
-assemblee-nationale.dj,7,wikidata;wikidata,National Assembly,central,,
-ministere-finances.dj,7,wikidata;wikidata,Ministry of Economy and Finances,central,,
-banque-centrale.dj,4,wikidata,Central Bank of Djibouti,central,,
-dised.dj,4,wikidata,DISED,central,,
-instad.dj,4,wikidata,Institut National de la Statistique de Djibouti,,,
-dj.ambafrance.org,3,wikidata,"Embassy of France, Djibouti",central,,
-djibouti.diplo.de,3,wikidata,"Embassy of Germany, Djibouti",central,,
-djibouti.mid.ru,3,wikidata,embassy of Russia in Djibouti,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Djibouti and IGAD,central,,
+assemblee-nationale.dj,7,wikidata;wikidata,National Assembly,central,ConnectException,10 mail.assemblee-nationale.dj.
+ministere-finances.dj,7,wikidata;wikidata,Ministry of Economy and Finances,central,200,0 ministere-finances.dj.
+banque-centrale.dj,4,wikidata,Central Bank of Djibouti,central,200,10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+dised.dj,4,wikidata,DISED,central,ConnectException,none
+instad.dj,4,wikidata,Institut National de la Statistique de Djibouti,,200,0 instad.dj.
+dj.ambafrance.org,3,wikidata,"Embassy of France, Djibouti",central,301,none
+djibouti.diplo.de,3,wikidata,"Embassy of Germany, Djibouti",central,200,none
+djibouti.mid.ru,3,wikidata,embassy of Russia in Djibouti,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Djibouti and IGAD,central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.

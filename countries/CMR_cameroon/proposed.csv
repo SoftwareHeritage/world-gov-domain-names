@@ -1,32 +1,32 @@
 hostname,score,sources,label,level,http_status,mx
-diplocam.cm,7,wikidata;wikidata,Ministry of External Relations,central,,
-minader.cm,7,wikidata;wikidata,Ministry of Agriculture and rural development,central,,
-minas.cm,7,wikidata;wikidata,Ministry of Social Affairs,central,,
-minedub.cm,7,wikidata;wikidata,Ministry of Basic Education,central,,
-minmap.cm,7,wikidata;wikidata,Ministry of Public Procurement,central,,
-minpmeesa.cm,7,wikidata;wikidata,"Ministry of small and medium-sized enterprises, social economy and handicrafts",central,,
-minsante.cm,7,wikidata;wikidata,Ministry of Public Health,central,,
-minsep.cm,7,wikidata;wikidata,Ministry of Sports in Cameroon,central,,
-mintss.cm,7,wikidata;wikidata,Ministry of Labour and Social Security,central,,
-campack-cm.com,6,wikidata;wikidata,Ministry of Scientific Research and Innovation,central,,
-ccaa.aero,6,wikidata;wikidata,CCAA,,,
-coursupreme.cm,6,wikidata,Supreme Court of Cameroon,central,,
-minmidt.net,6,wikidata;wikidata,"Ministry of Mines, Industry and Technological Development",central,,
-piaristesafriquecentrale.org,6,wikidata;wikidata,Piarist province of Central Africa,,,
-antic.cm,4,wikidata,Agence Nationale des Technologies de l'Information et de la Communication,,,
-apn.cm,4,wikidata,Q137164175,,,
-archivesnationales.cm,4,wikidata,National Archives of Cameroon,,,
-assnat.cm,4,wikidata,National Assembly of Cameroon,central,,
-ccousp.cm,4,wikidata,Q109056172,,,
-cnls.cm,4,wikidata,Comité National de Lutte contre le SIDA,,,
-conac.cm,4,wikidata,National Anti-Corruption Commission,,,
-ins-cameroun.cm,4,wikidata,Cameroon's National Institute of Statistics,central,,
-senat.cm,4,wikidata,Senate of Cameroon,central,,
-cameroun.mid.ru,3,wikidata,"Embassy of Russia, Yaoundé",central,,
-cm.ambafrance.org,3,wikidata,"Embassy of France, Yaounde",central,,
-douala.consulfrance.org,3,wikidata,consulat général de France à Douala,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Cameroon,,,
-jaunde.diplo.de,3,wikidata,"Embassy of Germany, Yaounde",central,,
-yaounde.consulfrance.org,3,wikidata,Q114377838,,,
-minjustice.cm,2,wikidata;wikidata;wikidata;wikidata,Q133253362 | Q133254175 | Q133253226 | Q133253141,,,
-mintransports.net,1,wikidata;wikidata;wikidata;wikidata,Ministry of Transport of Cameroon,central,,
+diplocam.cm,7,wikidata;wikidata,Ministry of External Relations,central,301,5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.
+minader.cm,7,wikidata;wikidata,Ministry of Agriculture and rural development,central,301,10 minader.camnet.cm.
+minas.cm,7,wikidata;wikidata,Ministry of Social Affairs,central,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+minedub.cm,7,wikidata;wikidata,Ministry of Basic Education,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 165.210.33.69.minedub.cm.
+minmap.cm,7,wikidata;wikidata,Ministry of Public Procurement,central,301,10 mail.minmap.cm.
+minpmeesa.cm,7,wikidata;wikidata,"Ministry of small and medium-sized enterprises, social economy and handicrafts",central,200,10 webhostingzmg.camnet.cm.
+minsante.cm,7,wikidata;wikidata,Ministry of Public Health,central,200,10 messagerie.minsante.cm.
+minsep.cm,7,wikidata;wikidata,Ministry of Sports in Cameroon,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 minsep.camnet.cm.
+mintss.cm,7,wikidata;wikidata,Ministry of Labour and Social Security,central,302,10 165.210.33.192.mintss.cm.
+campack-cm.com,6,wikidata;wikidata,Ministry of Scientific Research and Innovation,central,200,none
+ccaa.aero,6,wikidata;wikidata,CCAA,,301,3 aspmx4.googlemail.com.; 3 aspmx2.googlemail.com.; 3 aspmx3.googlemail.com.; 2 alt2.aspmx.l.google.com.; 3 aspmx5.googlemail.com.
+coursupreme.cm,6,wikidata,Supreme Court of Cameroon,central,200,none
+minmidt.net,6,wikidata;wikidata,"Ministry of Mines, Industry and Technological Development",central,200,none
+piaristesafriquecentrale.org,6,wikidata;wikidata,Piarist province of Central Africa,,ConnectException,none
+antic.cm,4,wikidata,Agence Nationale des Technologies de l'Information et de la Communication,,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,10 mail.antic.cm.
+apn.cm,4,wikidata,Q137164175,,301,110 mx-dc03.ewodi.net.
+archivesnationales.cm,4,wikidata,National Archives of Cameroon,,200,0 archivesnationales.cm.
+assnat.cm,4,wikidata,National Assembly of Cameroon,central,ConnectException,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
+ccousp.cm,4,wikidata,Q109056172,,302,0 mail.ccousp.cm.
+cnls.cm,4,wikidata,Comité National de Lutte contre le SIDA,,200,0 cnls-cm.mail.protection.outlook.com.
+conac.cm,4,wikidata,National Anti-Corruption Commission,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.conac.cm.
+ins-cameroun.cm,4,wikidata,Cameroon's National Institute of Statistics,central,200,10 mail.ins-cameroun.cm.
+senat.cm,4,wikidata,Senate of Cameroon,central,200,10 mail.senat.cm.
+cameroun.mid.ru,3,wikidata,"Embassy of Russia, Yaoundé",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cm.ambafrance.org,3,wikidata,"Embassy of France, Yaounde",central,301,none
+douala.consulfrance.org,3,wikidata,consulat général de France à Douala,,301,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Cameroon,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+jaunde.diplo.de,3,wikidata,"Embassy of Germany, Yaounde",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+yaounde.consulfrance.org,3,wikidata,Q114377838,,301,none
+minjustice.cm,2,wikidata;wikidata;wikidata;wikidata,Q133253362 | Q133254175 | Q133253226 | Q133253141,,HttpTimeoutException: request timed out,10 mx1.creawebhosting.org.; 10 mx2.creawebhosting.org.
+mintransports.net,1,wikidata;wikidata;wikidata;wikidata,Ministry of Transport of Cameroon,central,200,none

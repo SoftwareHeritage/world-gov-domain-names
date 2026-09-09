@@ -1,30 +1,30 @@
 hostname,score,sources,label,level,http_status,mx
-escolapios.org.co,7,wikidata;wikidata,Nazareth piarist province,,,
-jesuitas.co,7,wikidata;wikidata,jesuit province of Colombia,,,
-bogota.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Bogotá",central,,
-ccc.org.co,4,wikidata,Cámara de Comercio de Santiago de Cali,,,
-cccucuta.org.co,4,wikidata,Cámara de Comercio de Cúcuta,,,
-educacionbogota.edu.co,4,wikidata,Q100879971,,,
-embajadadehonduras.org.co,4,wikidata,embassy of Honduras in Colombia,central,,
-humboldt.org.co,4,wikidata,Alexander von Humboldt Biological Resources Research Institute,,,
-invemar.org.co,4,wikidata,"Marine and Coastal Research Institute ""José Benito Vives de Andreis""",,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Bogota",central,,
-nunciatura.org.co,4,wikidata,Apostolic Nunciature to Colombia,central,,
-procolombia.co,4,wikidata,ProColombia,,,
-soachaeducativa.edu.co,4,wikidata,Secretaría de Educación de Soacha,,,
-ainteractivo.net,3,wikidata,Q120061989,central-1,,
-bancoldex.com,3,wikidata,Bancóldex,,,
-bogota.diplo.de,3,wikidata,"Embassy of Germany, Bogotá",central,,
-bogota.mae.ro,3,wikidata,embassy of Romania in Colombia,central,,
-co.ambafrance.org,3,wikidata,"Embassy of France, Bogotá",central,,
-co.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Bogotá",central,,
-colombia.mid.ru,3,wikidata,embassy of Russia in Colombia,central,,
-colombia.um.dk,3,wikidata,embassy of Denmark in Colombia,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Colombia,,,
-embajadaboliviacolombia.org,3,wikidata,embassy of Bolivia in Colombia,central,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Colombia,central,,
-mzv.cz,3,wikidata,"Embassy of the Czech Republic, Bogotá",central,,
-nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Bogotá",central,,
-norway.no,3,wikidata,Embassy of Norway in Colombia,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Bogota",central,,
-web.roc-taiwan.org,3,wikidata,"Taipei Commercial Office in Bogotá, Colombia",,,
+escolapios.org.co,7,wikidata;wikidata,Nazareth piarist province,,301,0 escolapios-org-co.mail.protection.outlook.com.
+jesuitas.co,7,wikidata;wikidata,jesuit province of Colombia,,200,10 mx2.hostingcolombiapro.com.; 10 mx1.hostingcolombiapro.com.
+bogota.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Bogotá",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ccc.org.co,4,wikidata,Cámara de Comercio de Santiago de Cali,,403,10 ccc-org-co-1.fortimailcloud.com.; 20 ccc-org-co-2.fortimailcloud.com.; 30 ccc-org-co.mail.protection.outlook.com.
+cccucuta.org.co,4,wikidata,Cámara de Comercio de Cúcuta,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 cccucuta-org-co.mail.protection.outlook.com.
+educacionbogota.edu.co,4,wikidata,Q100879971,,200,20 educacionbogota-edu-co.mail.protection.outlook.com.; 0 mail2.educacionbogota.edu.co.; 10 mail1.educacionbogota.edu.co.
+embajadadehonduras.org.co,4,wikidata,embassy of Honduras in Colombia,central,301,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+humboldt.org.co,4,wikidata,Alexander von Humboldt Biological Resources Research Institute,,301,1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX3.GOOGLEMAIL.COM.
+invemar.org.co,4,wikidata,"Marine and Coastal Research Institute ""José Benito Vives de Andreis""",,ConnectException,0 invemar-org-co.mail.protection.outlook.com.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Bogota",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nunciatura.org.co,4,wikidata,Apostolic Nunciature to Colombia,central,200,30 mx03.hornetsecurity.com.; 10 mx01.hornetsecurity.com.; 20 mx02.hornetsecurity.com.; 40 mx04.hornetsecurity.com.
+procolombia.co,4,wikidata,ProColombia,,200,0 procolombia-co.mail.protection.outlook.com.
+soachaeducativa.edu.co,4,wikidata,Secretaría de Educación de Soacha,,301,1 smtp.google.com.
+ainteractivo.net,3,wikidata,Q120061989,central-1,200,20 eagle-relay.mxlogin.com.; 10 eagle.mxlogin.com.
+bancoldex.com,3,wikidata,Bancóldex,,301,10 bancoldex-com.mail.protection.outlook.com.
+bogota.diplo.de,3,wikidata,"Embassy of Germany, Bogotá",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+bogota.mae.ro,3,wikidata,embassy of Romania in Colombia,central,503,none
+co.ambafrance.org,3,wikidata,"Embassy of France, Bogotá",central,301,none
+co.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Bogotá",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching co.china-embassy.org found.,none
+colombia.mid.ru,3,wikidata,embassy of Russia in Colombia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+colombia.um.dk,3,wikidata,embassy of Denmark in Colombia,central,301,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Colombia,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embajadaboliviacolombia.org,3,wikidata,embassy of Bolivia in Colombia,central,403,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+finlandabroad.fi,3,wikidata,embassy of Finland in Colombia,central,301,10 mail.valtori.fi.
+mzv.cz,3,wikidata,"Embassy of the Czech Republic, Bogotá",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Bogotá",central,301,0 .
+norway.no,3,wikidata,Embassy of Norway in Colombia,central,301,0 mx.domeneshop.no.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Bogota",central,301,none
+web.roc-taiwan.org,3,wikidata,"Taipei Commercial Office in Bogotá, Colombia",,HttpConnectTimeoutException: HTTP connect timed out,none

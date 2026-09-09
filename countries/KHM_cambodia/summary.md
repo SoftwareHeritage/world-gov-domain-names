@@ -35,16 +35,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `hiscambodia.org` | central |  | wikidata;wikidata | Ministry of Health |
-| 4 | `grk.com.kh` |  |  | wikidata | Royal Gendarmerie of Cambodia |
-| 4 | `nac.org.kh` | central |  | wikidata | National Assembly |
-| 4 | `nbc.org.kh` | central |  | wikidata | National Bank of Cambodia |
-| 4 | `necelect.org.kh` |  |  | wikidata | National Election Committee of Cambodia |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Cambodia |
-| 3 | `embrusscambodia.mid.ru` | central |  | wikidata | Embassy of Russia, Phnom Penh |
-| 3 | `kh.ambafrance.org` | central |  | wikidata | Embassy of France, Phnom Penh |
-| 3 | `kh.china-embassy.org` | central |  | wikidata | Embassy of the People's Republic of China, Phnom Penh |
-| 3 | `nchads.org` |  |  | wikidata | National Centre for HIV/AIDS Dermatology and STDs, Cambodia |
-| 3 | `phnom-penh.diplo.de` | central |  | wikidata | Embassy of Germany, Phnom Penh |
-| 3 | `thaiembassy.org` | central |  | wikidata | Embassy of Thailand in Phnom Penh |
+| 6 | `hiscambodia.org` | central | HttpConne... | wikidata;wikidata | Ministry of Health |
+| 4 | `grk.com.kh` |  | ConnectEx... | wikidata | Royal Gendarmerie of Cambodia |
+| 4 | `nac.org.kh` | central | 200 | wikidata | National Assembly |
+| 4 | `nbc.org.kh` | central | HttpConne... | wikidata | National Bank of Cambodia |
+| 4 | `necelect.org.kh` |  | ConnectEx... | wikidata | National Election Committee of Cambodia |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Cambodia |
+| 3 | `embrusscambodia.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia, Phnom Penh |
+| 3 | `kh.ambafrance.org` | central | 301 | wikidata | Embassy of France, Phnom Penh |
+| 3 | `kh.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Phnom Penh |
+| 3 | `nchads.org` |  | 302 | wikidata | National Centre for HIV/AIDS Dermatology and STDs, Cambodia |
+| 3 | `phnom-penh.diplo.de` | central | 200 | wikidata | Embassy of Germany, Phnom Penh |
+| 3 | `thaiembassy.org` | central | 200 | wikidata | Embassy of Thailand in Phnom Penh |
 

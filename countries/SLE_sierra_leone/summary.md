@@ -35,11 +35,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `recoletos.ph` |  |  | wikidata;wikidata | Province of Saint Ezequiél Moreno |
-| 6 | `slminerals.org` | central |  | wikidata;wikidata | Ministry of Mineral Resources of Sierra Leone |
-| 4 | `slcs.sl` | central |  | wikidata | Sierra Leone Correctional Service |
-| 4 | `statistics.sl` | central |  | wikidata | Statistics Sierra Leone |
-| 3 | `afro.who.int` |  |  | wikidata | World Health Organization - Sierra Leone |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Sierra Leone |
-| 3 | `freetown.diplo.de` | central |  | wikidata | Embassy of Germany, Freetown |
+| 6 | `recoletos.ph` |  | HttpTimeo... | wikidata;wikidata | Province of Saint Ezequiél Moreno |
+| 6 | `slminerals.org` | central | 301 | wikidata;wikidata | Ministry of Mineral Resources of Sierra Leone |
+| 4 | `slcs.sl` | central | 301 | wikidata | Sierra Leone Correctional Service |
+| 4 | `statistics.sl` | central | 301 | wikidata | Statistics Sierra Leone |
+| 3 | `afro.who.int` |  | 200 | wikidata | World Health Organization - Sierra Leone |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Sierra Leone |
+| 3 | `freetown.diplo.de` | central | 200 | wikidata | Embassy of Germany, Freetown |
 

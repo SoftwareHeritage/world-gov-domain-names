@@ -1,0 +1,15 @@
+hostname,http_status,mx
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+kathmandu.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+khajurabajaar.com,ConnectException,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+narc.org.np,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.wlink.com.np.; 10 av.wlinktech.com.
+nea.org.np,302,20 mail.nea.org.np.; 30 webmail.nea.org.np.
+nepal.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nncu.org.np,200,0 nncu.org.np.
+norway.no,301,0 mx.domeneshop.no.
+np.ambafrance.org,301,none
+np.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching np.china-embassy.org found.,none
+nrb.org.np,301,5 mail.nrb.org.np.
+welcomenepal.com,301,none

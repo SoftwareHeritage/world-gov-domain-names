@@ -1,56 +1,56 @@
 hostname,score,sources,label,level,http_status,mx
-fi.ee,7,wikidata;wikidata,Financial Supervision Authority,central,,
-politsei.ee,7,wikidata;wikidata,Estonian Police | Police and Border Guard Board,,,
-riigikantselei.ee,7,wikidata;linkgraph,Government Office,,,
-riigikohus.ee,6,wikidata,Supreme Court of Estonia,central,,
-riigiteataja.ee,6,linkgraph,Linked from 10 public-sector domains,,,
-aki.ee,4,wikidata,Estonian Data Protection Inspectorate,central,,
-archimedes.ee,4,wikidata,Archimedes Foundation,,,
-chinaembassy.ee,4,wikidata,Embassy of the People's Republic of China in Tallinn,central,,
-e-tervis.ee,4,wikidata,Estonian E-Health Foundation,,,
-eas.ee,4,wikidata,Estonian Space Office,,,
-eestipank.ee,4,wikidata,Bank of Estonia,,,
-egt.ee,4,wikidata,Geological Survey of Estonia,,,
-eki.ee,4,wikidata,Institute of the Estonian Language,,,
-emta.ee,4,wikidata,Estonian Tax and Customs Board,,,
-epa.ee,4,wikidata,Estonian Patent Office,central,,
-etag.ee,4,wikidata,Estonian Research Agency,,,
-hitsa.ee,4,wikidata,Information Technology Foundation for Education,,,
-just.ee,4,linkgraph,Linked from 4 public-sector domains,,,
-kapo.ee,4,wikidata,Estonian Internal Security Service,,,
-keeleamet.ee,4,wikidata,Language Board,,,
-keskkonnaagentuur.ee,4,wikidata,Environment Agency,,,
-keskkonnaamet.ee,4,wikidata,Environmental Board,,,
-kliimaministeerium.ee,4,linkgraph,Linked from 4 public-sector domains,,,
-maaamet.ee,4,wikidata,Land and Spatial Development Board,,,
-muinsuskaitseamet.ee,4,wikidata,Estonian National Heritage Board,,,
-nlib.ee,4,wikidata,National Library of Estonia,,,
-pria.ee,4,wikidata,Agricultural Registers and Information Board,,,
-ra.ee,4,wikidata,National Archives of Estonia,,,
-ravimiamet.ee,4,wikidata,State Agency of Medicines,,,
-rescue.ee,4,wikidata,Estonian Rescue Services Agency,,,
-ria.ee,4,wikidata,Information System Authority,,,
-rmk.ee,4,wikidata,State Forest Management Centre,,,
-smit.ee,4,wikidata,IT and Development Centre of the Ministry of the Interior,,,
-stat.ee,4,wikidata,Statistics Estonia,central,,
-tallinn.mfa.gov.hu,4,wikidata,"Hungarian embassy, Tallinn",central,,
-ti.ee,4,wikidata,Labour Inspectorate,,,
-transpordiamet.ee,4,wikidata,Estonian Transport Administration,,,
-ttja.ee,4,wikidata,Consumer Protection and Technical Regulatory Authority,,,
-unesco.ee,4,wikidata,Estonian National Commission for UNESCO,,,
-valisluureamet.ee,4,wikidata,Estonian Foreign Intelligence Service,,,
-vangla.ee,4,wikidata,Ministry of Justice: Department of Prisons (EE),,,
-ee.ambafrance.org,3,wikidata,Embassy of France in Tallinn,central,,
-ee.mfa.lt,3,wikidata,Lithuanian Embassy in Tallinn,central,,
-estland.um.dk,3,wikidata,embassy of Denmark in Tallinn,central,,
-estonia.mid.ru,3,wikidata,Embassy of Russia in Tallinn,central,,
-estonia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Estonia,,,
-finlandabroad.fi,3,wikidata,Embassy of Finland in Tallinn,central,,
-mfa.gr,3,wikidata,embassy of Greece in Tallinn,central,,
-mzv.cz,3,wikidata,embassy of the Czech Republic in Tallinn,central,,
-nederlandwereldwijd.nl,3,wikidata,Embassy of the Netherlands in Tallinn,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Tallinn",central,,
-tallinn.diplo.de,3,wikidata,Embassy of Germany in Tallinn,central,,
-tallinn.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Estonia,central,,
-tallinn.mae.ro,3,wikidata,embassy of Romania in Tallinn,central,,
-terviseamet.ee,2,wikidata;wikidata;wikidata,Health Board,,,
+fi.ee,7,wikidata;wikidata,Financial Supervision Authority,central,301,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
+politsei.ee,7,wikidata;wikidata,Estonian Police | Police and Border Guard Board,,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
+riigikantselei.ee,7,wikidata;linkgraph,Government Office,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+riigikohus.ee,6,wikidata,Supreme Court of Estonia,central,302,10 mx.riigikohus.ee.
+riigiteataja.ee,6,linkgraph,Linked from 10 public-sector domains,,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
+aki.ee,4,wikidata,Estonian Data Protection Inspectorate,central,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
+archimedes.ee,4,wikidata,Archimedes Foundation,,200,none
+chinaembassy.ee,4,wikidata,Embassy of the People's Republic of China in Tallinn,central,ConnectException,10 cmx.telia.ee.
+e-tervis.ee,4,wikidata,Estonian E-Health Foundation,,ConnectException,none
+eas.ee,4,wikidata,Estonian Space Office,,301,0 eas-ee.mail.protection.outlook.com.
+eestipank.ee,4,wikidata,Bank of Estonia,,307,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
+egt.ee,4,wikidata,Geological Survey of Estonia,,200,5 mx4.envir.ee.; 5 mx5.envir.ee.
+eki.ee,4,wikidata,Institute of the Estonian Language,,200,10 eki-ee.mail.protection.outlook.com.
+emta.ee,4,wikidata,Estonian Tax and Customs Board,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+epa.ee,4,wikidata,Estonian Patent Office,central,302,10 mail1.rit.ee.; 10 mail3.rit.ee.
+etag.ee,4,wikidata,Estonian Research Agency,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+hitsa.ee,4,wikidata,Information Technology Foundation for Education,,ConnectException,none
+just.ee,4,linkgraph,Linked from 4 public-sector domains,,301,10 mail3.rit.ee.; 10 mail1.rit.ee.
+kapo.ee,4,wikidata,Estonian Internal Security Service,,200,5 mx1.kapo.ee.
+keeleamet.ee,4,wikidata,Language Board,,302,10 mail3.rit.ee.; 20 mail1.rit.ee.
+keskkonnaagentuur.ee,4,wikidata,Environment Agency,,200,none
+keskkonnaamet.ee,4,wikidata,Environmental Board,,200,10 mx4.envir.ee.; 10 mx5.envir.ee.
+kliimaministeerium.ee,4,linkgraph,Linked from 4 public-sector domains,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+maaamet.ee,4,wikidata,Land and Spatial Development Board,,302,none
+muinsuskaitseamet.ee,4,wikidata,Estonian National Heritage Board,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+nlib.ee,4,wikidata,National Library of Estonia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nlib.ee found.,0 nlib-ee.mail.protection.outlook.com.
+pria.ee,4,wikidata,Agricultural Registers and Information Board,,200,5 mx.pria.ee.
+ra.ee,4,wikidata,National Archives of Estonia,,301,10 mx2.ra.ee.; 10 mx1.ra.ee.
+ravimiamet.ee,4,wikidata,State Agency of Medicines,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+rescue.ee,4,wikidata,Estonian Rescue Services Agency,,301,20 mx2.smit.ee.; 10 mx1.smit.ee.; 30 mx3.smit.ee.
+ria.ee,4,wikidata,Information System Authority,,200,10 mx1.ria.ee.; 10 mx2.ria.ee.
+rmk.ee,4,wikidata,State Forest Management Centre,,200,10 rmk-ee.mail.protection.outlook.com.
+smit.ee,4,wikidata,IT and Development Centre of the Ministry of the Interior,,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
+stat.ee,4,wikidata,Statistics Estonia,central,301,10 mail1.rit.ee.; 10 mail3.rit.ee.
+tallinn.mfa.gov.hu,4,wikidata,"Hungarian embassy, Tallinn",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ti.ee,4,wikidata,Labour Inspectorate,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+transpordiamet.ee,4,wikidata,Estonian Transport Administration,,200,10 mx1.transpordiamet.ee.
+ttja.ee,4,wikidata,Consumer Protection and Technical Regulatory Authority,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+unesco.ee,4,wikidata,Estonian National Commission for UNESCO,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+valisluureamet.ee,4,wikidata,Estonian Foreign Intelligence Service,,200,10 m87.valisluureamet.ee.
+vangla.ee,4,wikidata,Ministry of Justice: Department of Prisons (EE),,301,none
+ee.ambafrance.org,3,wikidata,Embassy of France in Tallinn,central,301,none
+ee.mfa.lt,3,wikidata,Lithuanian Embassy in Tallinn,central,403,none
+estland.um.dk,3,wikidata,embassy of Denmark in Tallinn,central,301,none
+estonia.mid.ru,3,wikidata,Embassy of Russia in Tallinn,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+estonia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Estonia,,302,none
+finlandabroad.fi,3,wikidata,Embassy of Finland in Tallinn,central,301,10 mail.valtori.fi.
+mfa.gr,3,wikidata,embassy of Greece in Tallinn,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech Republic in Tallinn,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nederlandwereldwijd.nl,3,wikidata,Embassy of the Netherlands in Tallinn,central,301,0 .
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Tallinn",central,301,none
+tallinn.diplo.de,3,wikidata,Embassy of Germany in Tallinn,central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+tallinn.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Estonia,central,302,none
+tallinn.mae.ro,3,wikidata,embassy of Romania in Tallinn,central,503,none
+terviseamet.ee,2,wikidata;wikidata;wikidata,Health Board,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.

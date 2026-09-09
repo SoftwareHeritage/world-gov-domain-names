@@ -1,34 +1,34 @@
 hostname,score,sources,label,level,http_status,mx
-custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,,
-wikidata.org,6,wikidata;wikidata,Deputy Ministry of Culture of Cyprus,central,,
-agrotourism.com.cy,4,wikidata,Cyprus Agrotourism Company,,,
-centralbank.cy,4,wikidata,Central Bank of Cyprus,,,
-cera.org.cy,4,wikidata,Cyprus Energy Regulatory Authority,,,
-childcom.org.cy,4,wikidata,Commissioner for Children’s Rights,,,
-crta.org.cy,4,wikidata,Cyprus Radio Television Authority,,,
-highereducation.ac.cy,4,wikidata,Department of Higher Education,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Nicosia",central,,
-ocecpr.ee.cy,4,wikidata,Commissioner of Electronic Communications and Postal Regulation,,,
-pi.ac.cy,4,wikidata,Cyprus Pedagogical Institute,,,
-resecfund.org.cy,4,wikidata,Renewable Energy Sources (RES) and Energy Conservation (EC) Fund,,,
-unesco.org.cy,4,wikidata,Cyprus National Commission for UNESCO,,,
-wbl.com.cy,4,wikidata,Water Board of Lemesos,,,
-cy.ambafrance.org,3,wikidata,"Embassy of France, Nicosia",central,,
-cy.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Nicosia",central,,
-cyprus.mid.ru,3,wikidata,embassy of Russia in Cyprus,central,,
-cyprus.representation.ec.europa.eu,3,wikidata,European Commission Representation in Cyprus,,,
-cypruspost.post,3,wikidata,Cyprus Postal Services,,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Cyprus,central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Cyprus,central,,
-mfa.gr,3,wikidata,embassy of Greece in Cyprus,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Cyprus,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Cyprus,central,,
-nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Nicosia",central,,
-nicosia.embassy.qa,3,wikidata,embassy of Qatar in Cyprus,central,,
-nicosia.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Cyprus,central,,
-nicosia.mae.ro,3,wikidata,"Embassy of Romania, Nicosia",central,,
-nicosia.mfa.ir,3,wikidata,embassy of Iran in Cyprus,central,,
-nikosia.diplo.de,3,wikidata,"Embassy of Germany, Nicosia",central,,
-parliament.cy,3,wikidata;wikidata;wikidata,House of Representatives,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Nicosia",central,,
-visitcyprus.com,3,wikidata,Visit Cyprus,,,
+custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+wikidata.org,6,wikidata;wikidata,Deputy Ministry of Culture of Cyprus,central,301,10 mx-in1001.wikimedia.org.; 10 mx-in2001.wikimedia.org.
+agrotourism.com.cy,4,wikidata,Cyprus Agrotourism Company,,200,0 agrotourism-com-cy.mail.protection.outlook.com.
+centralbank.cy,4,wikidata,Central Bank of Cyprus,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,100 mail1.centralbank.cy.
+cera.org.cy,4,wikidata,Cyprus Energy Regulatory Authority,,HttpTimeoutException: request timed out,0 cera-org-cy.mail.protection.outlook.com.
+childcom.org.cy,4,wikidata,Commissioner for Children’s Rights,,ConnectException,10 mail03.gov.cy.
+crta.org.cy,4,wikidata,Cyprus Radio Television Authority,,301,0 crta-org-cy.mail.protection.outlook.com.
+highereducation.ac.cy,4,wikidata,Department of Higher Education,,301,150 mail-relay.cytanet.com.cy.; 100 mx3.cytanet.com.cy.; 100 mx1.cytanet.com.cy.; 100 mx2.cytanet.com.cy.; 100 mx4.cytanet.com.cy.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Nicosia",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+ocecpr.ee.cy,4,wikidata,Commissioner of Electronic Communications and Postal Regulation,,200,0 ocecpr-ee-cy.mail.protection.outlook.com.
+pi.ac.cy,4,wikidata,Cyprus Pedagogical Institute,,ConnectException,0 pi-ac-cy.mail.protection.outlook.com.
+resecfund.org.cy,4,wikidata,Renewable Energy Sources (RES) and Energy Conservation (EC) Fund,,200,20 mx2.zoho.eu.; 10 mx.zoho.eu.; 50 mx3.zoho.eu.
+unesco.org.cy,4,wikidata,Cyprus National Commission for UNESCO,,200,10 mailserver.livemail.co.uk.
+wbl.com.cy,4,wikidata,Water Board of Lemesos,,ConnectException,20 eoalemesos-org-cy-2.fortimailcloud.com.; 10 eoalemesos-org-cy-1.fortimailcloud.com.
+cy.ambafrance.org,3,wikidata,"Embassy of France, Nicosia",central,301,none
+cy.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Nicosia",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cy.china-embassy.org found.,none
+cyprus.mid.ru,3,wikidata,embassy of Russia in Cyprus,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cyprus.representation.ec.europa.eu,3,wikidata,European Commission Representation in Cyprus,,302,none
+cypruspost.post,3,wikidata,Cyprus Postal Services,,513,10 mail4.cypruspost.post.; 15 mail5.cypruspost.post.; 10 mail3.cypruspost.post.; 10 mail2.cypruspost.post.; 10 mail1.cypruspost.post.
+finlandabroad.fi,3,wikidata,embassy of Finland in Cyprus,central,301,10 mail.valtori.fi.
+mfa.bg,3,wikidata,embassy of Bulgaria in Cyprus,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Cyprus,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Cyprus,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Cyprus,central,301,10 mail.gov.sk.
+nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Nicosia",central,301,0 .
+nicosia.embassy.qa,3,wikidata,embassy of Qatar in Cyprus,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nicosia.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Cyprus,central,302,none
+nicosia.mae.ro,3,wikidata,"Embassy of Romania, Nicosia",central,ConnectException,none
+nicosia.mfa.ir,3,wikidata,embassy of Iran in Cyprus,central,307,none
+nikosia.diplo.de,3,wikidata,"Embassy of Germany, Nicosia",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+parliament.cy,3,wikidata;wikidata;wikidata,House of Representatives,central,301,10 mail03.gov.cy.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Nicosia",central,301,none
+visitcyprus.com,3,wikidata,Visit Cyprus,,302,10 mail03.gov.cy.

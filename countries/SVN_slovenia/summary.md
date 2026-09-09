@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 9 | `sodisce.si` | central |  | wikidata;wikidata | Administrative Court of the Republic of Slovenia | Supreme Court of the Repub... |
-| 7 | `dz-rs.si` | central |  | wikidata;wikidata;wikidata | Slovenian Parliament | National Assembly |
-| 7 | `ip-rs.si` | central |  | wikidata;linkgraph | Information Commissioner of the Republic of Slovenia |
-| 7 | `lpp.si` |  |  | wikidata;wikidata | Ljubljana Passenger Transport |
-| 7 | `nijz.si` |  |  | wikidata;wikidata | National Institute of Public Health |
-| 6 | `dominikanci.hr` |  |  | wikidata;wikidata | Croatian Dominican Province |
-| 6 | `slowenien.ahk.de` |  |  | wikidata;wikidata | German-Slovenian Chamber of Industry and Commerce |
-| 6 | `us-rs.si` |  |  | wikidata | Constitutional Court of Slovenia |
-| 6 | `vlada.si` |  |  | un_desa | UN/DESA national portal |
-| 4 | `a-tvp.si` |  |  | wikidata | Securities Market Agency |
-| 4 | `agen-rs.si` |  |  | wikidata | Energy Agency of the Republic of Slovenia |
-| 4 | `ambasadabih.si` | central |  | wikidata | embassy of Bosnia and Herzegovina in Slovenia |
-| 4 | `arao.si` |  |  | wikidata | Radioactive Waste Management Agency |
-| 4 | `bsi.si` |  |  | wikidata | Bank of Slovenia |
-| 4 | `ds-rs.si` | central |  | wikidata | National Council of Slovenia |
-| 4 | `dvk-rs.si` | central |  | wikidata | State Election Commission |
-| 4 | `energap.si` |  |  | wikidata | Energy Agency of Podravje |
-| 4 | `film-center.si` |  |  | wikidata | Slovenian Film Centre |
-| 4 | `jakrs.si` |  |  | wikidata | Slovenian Book Agency |
-| 4 | `jazmp.si` |  |  | wikidata | Agency for Medicinal Products and Medical Devices of the Republic of Slovenia |
+| 9 | `sodisce.si` | central | 200 | wikidata;wikidata | Administrative Court of the Republic of Slovenia | Supreme Court of the Repub... |
+| 7 | `dz-rs.si` | central | ConnectEx... | wikidata;wikidata;wikidata | Slovenian Parliament | National Assembly |
+| 7 | `ip-rs.si` | central | 301 | wikidata;linkgraph | Information Commissioner of the Republic of Slovenia |
+| 7 | `lpp.si` |  | 301 | wikidata;wikidata | Ljubljana Passenger Transport |
+| 7 | `nijz.si` |  | 200 | wikidata;wikidata | National Institute of Public Health |
+| 6 | `dominikanci.hr` |  | 200 | wikidata;wikidata | Croatian Dominican Province |
+| 6 | `slowenien.ahk.de` |  | 302 | wikidata;wikidata | German-Slovenian Chamber of Industry and Commerce |
+| 6 | `us-rs.si` |  | 301 | wikidata | Constitutional Court of Slovenia |
+| 6 | `vlada.si` |  | SSLHandsh... | un_desa | UN/DESA national portal |
+| 4 | `a-tvp.si` |  | 301 | wikidata | Securities Market Agency |
+| 4 | `agen-rs.si` |  | 200 | wikidata | Energy Agency of the Republic of Slovenia |
+| 4 | `ambasadabih.si` | central | 200 | wikidata | embassy of Bosnia and Herzegovina in Slovenia |
+| 4 | `arao.si` |  | 200 | wikidata | Radioactive Waste Management Agency |
+| 4 | `bsi.si` |  | SSLHandsh... | wikidata | Bank of Slovenia |
+| 4 | `ds-rs.si` | central | 200 | wikidata | National Council of Slovenia |
+| 4 | `dvk-rs.si` | central | 302 | wikidata | State Election Commission |
+| 4 | `energap.si` |  | 301 | wikidata | Energy Agency of Podravje |
+| 4 | `film-center.si` |  | 301 | wikidata | Slovenian Film Centre |
+| 4 | `jakrs.si` |  | 301 | wikidata | Slovenian Book Agency |
+| 4 | `jazmp.si` |  | 200 | wikidata | Agency for Medicinal Products and Medical Devices of the Republic of Slovenia |
 

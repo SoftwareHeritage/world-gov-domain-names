@@ -1,27 +1,27 @@
 hostname,score,sources,label,level,http_status,mx
-arczw.ac.zw,4,wikidata,Agricultural Research Council of Zimbabwe,,,
-competition.co.zw,4,wikidata,Competition and Tariff Commission,,,
-ema.co.zw,4,wikidata,Environmental Management Agency,,,
-forestry.co.zw,4,wikidata,Forestry Commission,,,
-ipec.co.zw,4,wikidata,Insurance and Pensions Commission (IPEC).,,,
-mediacommission.co.zw,4,wikidata,Zimbabwe Media Commission,,,
-mohcc.org.zw,4,wikidata,"National Institute of Health Research, Zimbabwe",,,
-mrcz.org.zw,4,wikidata,Medical Research Council of Zimbabwe,,,
-nac.org.zw,4,wikidata,National AIDS Council,,,
-rbz.co.zw,4,wikidata,Reserve Bank of Zimbabwe,,,
-rcz.ac.zw,4,wikidata,Research Council of Zimbabwe,,,
-sirdc.ac.zw,4,wikidata,National Metrology Institute,,,
-zimche.ac.zw,4,wikidata,"National Council for Higher Education, Zimbabwe",,,
-zimstat.co.zw,4,wikidata,Zimbabwe National Statistics Agency,,,
-zingsa.ac.zw,4,wikidata,Zimbabwe National Geospatial and Space Agency,,,
-zinwa.co.zw,4,wikidata,Zimbabwe National Water Authority,,,
-ambafrance-zw.org,3,wikidata,"Embassy of France, Harare",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Zimbabwe,,,
-ghanaembassy-zimbabwe.com,3,wikidata,embassy of Ghana in Zimbabwe,central,,
-harare.diplo.de,3,wikidata,"Embassy of Germany, Harare",central,,
-harare.mae.ro,3,wikidata,embassy of Romania in Zimbabwe,central,,
-mfa.gr,3,wikidata,embassy of Greece in Zimbabwe,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Harare",central,,
-who.int,3,wikidata,World Health Organization (Zimbabwe),,,
-zimbabwe.mid.ru,3,wikidata,embassy of Russia in Zimbabwe,central,,
-zimyouth.org,3,wikidata,Zimbabwe Youth Council,,,
+arczw.ac.zw,4,wikidata,Agricultural Research Council of Zimbabwe,,200,none
+competition.co.zw,4,wikidata,Competition and Tariff Commission,,200,0 competition-co-zw.mail.protection.outlook.com.
+ema.co.zw,4,wikidata,Environmental Management Agency,,200,0 ema-co-zw.mail.protection.outlook.com.
+forestry.co.zw,4,wikidata,Forestry Commission,,200,10 mx.forestry.co.zw.cust.a.hostedemail.com.
+ipec.co.zw,4,wikidata,Insurance and Pensions Commission (IPEC).,,200,0 ipec-co-zw.mail.protection.outlook.com.
+mediacommission.co.zw,4,wikidata,Zimbabwe Media Commission,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.mediacommission.co.zw.
+mohcc.org.zw,4,wikidata,"National Institute of Health Research, Zimbabwe",,HttpConnectTimeoutException: HTTP connect timed out,0 mohcc-org-zw.mail.protection.outlook.com.
+mrcz.org.zw,4,wikidata,Medical Research Council of Zimbabwe,,200,0 mrcz-org-zw.mail.protection.outlook.com.
+nac.org.zw,4,wikidata,National AIDS Council,,200,5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+rbz.co.zw,4,wikidata,Reserve Bank of Zimbabwe,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rbz.co.zw found.,0 rbz-co-zw.mail.protection.outlook.com.
+rcz.ac.zw,4,wikidata,Research Council of Zimbabwe,,200,0 rcz-ac-zw.mail.protection.outlook.com.
+sirdc.ac.zw,4,wikidata,National Metrology Institute,,200,0 mail.sirdc.ac.zw.
+zimche.ac.zw,4,wikidata,"National Council for Higher Education, Zimbabwe",,200,0 zimche-ac-zw.mail.protection.outlook.com.
+zimstat.co.zw,4,wikidata,Zimbabwe National Statistics Agency,,200,0 gateway.telone.co.zw.; 10 mail.zimstat.co.zw.
+zingsa.ac.zw,4,wikidata,Zimbabwe National Geospatial and Space Agency,,200,0 mail.zingsa.ac.zw.
+zinwa.co.zw,4,wikidata,Zimbabwe National Water Authority,,200,0 zinwa-co-zw.mail.protection.outlook.com.
+ambafrance-zw.org,3,wikidata,"Embassy of France, Harare",central,ConnectException,5 mta-gw.infomaniak.ch.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Zimbabwe,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ghanaembassy-zimbabwe.com,3,wikidata,embassy of Ghana in Zimbabwe,central,ConnectException,none
+harare.diplo.de,3,wikidata,"Embassy of Germany, Harare",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+harare.mae.ro,3,wikidata,embassy of Romania in Zimbabwe,central,503,none
+mfa.gr,3,wikidata,embassy of Greece in Zimbabwe,central,403,10 mailhost.mfa.gr.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Harare",central,301,none
+who.int,3,wikidata,World Health Organization (Zimbabwe),,301,10 who-int.mail.protection.outlook.com.
+zimbabwe.mid.ru,3,wikidata,embassy of Russia in Zimbabwe,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+zimyouth.org,3,wikidata,Zimbabwe Youth Council,,ConnectException,none

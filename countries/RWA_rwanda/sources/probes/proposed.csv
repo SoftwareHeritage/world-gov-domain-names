@@ -1,0 +1,24 @@
+hostname,http_status,mx
+agaciro.rw,200,dig error
+bnr.rw,200,0 bnr-rw.mail.protection.outlook.com.; 100 _dc-mx.a844bfdd2713.bnr.rw.
+cma.rw,301,10 gateway.aos.rw.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+greatervirunga.org,200,0 greatervirunga-org.mail.protection.outlook.com.
+ikigega.rw,301,10 gateway.aos.rw.
+kenyahighcomkigali.org,200,0 kenyahighcomkigali.org.
+kigali.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+lands.rw,301,10 gateway.aos.rw.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+raeb.prod.risa.rw,HttpConnectTimeoutException: HTTP connect timed out,none
+rdb.rw,200,10 gateway.aos.rw.
+rfa.rw,301,10 gateway.aos.rw.
+rp.ac.rw,301,10 gateway.aos.rw.
+rpa.ac.rw,301,10 gateway.aos.rw.
+rssb.rw,200,0 rssb-rw.mail.protection.outlook.com.
+rura.rw,301,5 d358614b.ess.barracudanetworks.com.; 0 d358614a.ess.barracudanetworks.com.
+rw.ambafrance.org,301,none
+rw.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rw.china-embassy.org found.,none
+rwanda.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+rwb.rw,301,dig error
+swedenabroad.se,301,none
+unesco.rw,HttpConnectTimeoutException: HTTP connect timed out,10 gateway.aos.rw.

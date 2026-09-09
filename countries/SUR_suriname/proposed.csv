@@ -1,12 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
-dna.sr,7,wikidata;wikidata,National Assembly,central,,
-cbvs.sr,4,wikidata,Centrale Bank van Suriname,,,
-eas.sr,4,wikidata,Energie Autoriteit Suriname,,,
-kkf.sr,4,wikidata,Chamber of Commerce and Factories,,,
-nationaalarchief.sr,4,wikidata,National Archives of Suriname,,,
-politie.sr,4,wikidata,Korps Politie Suriname,,,
-sbb.sr,4,wikidata,Q126371676,,,
-nccr.sr.org,3,wikidata,National Coordination Center for Disaster Relief of Suriname,,,
-statistics-suriname.org,3,wikidata,General Bureau of Statistics,central,,
-surguychamber.org,3,wikidata,Suriname-Guyana Kamer van Koophandel,,,
-taalunie.org,3,wikidata,Dutch Language Union,,,
+dna.sr,7,wikidata;wikidata,National Assembly,central,301,10 mx2-eu1.ppe-hosted.com.; 0 mx1-eu1.ppe-hosted.com.
+cbvs.sr,4,wikidata,Centrale Bank van Suriname,,523,0 cbvs-sr.mail.protection.outlook.com.
+eas.sr,4,wikidata,Energie Autoriteit Suriname,,HttpTimeoutException: request timed out,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+kkf.sr,4,wikidata,Chamber of Commerce and Factories,,301,0 kkf.sr.
+nationaalarchief.sr,4,wikidata,National Archives of Suriname,,200,0 _dc-mx.b3d2421d2b0e.nationaalarchief.sr.
+politie.sr,4,wikidata,Korps Politie Suriname,,200,0 politie-sr.mail.protection.outlook.com.; 1 politie.sr.
+sbb.sr,4,wikidata,Q126371676,,200,0 sbb-sr.mail.protection.outlook.com.
+nccr.sr.org,3,wikidata,National Coordination Center for Disaster Relief of Suriname,,ConnectException,none
+statistics-suriname.org,3,wikidata,General Bureau of Statistics,central,200,10 mail.statistics-suriname.org.
+surguychamber.org,3,wikidata,Suriname-Guyana Kamer van Koophandel,,200,5 nlpprofile.com.
+taalunie.org,3,wikidata,Dutch Language Union,,200,10 taalunie-org.mail.protection.outlook.com.

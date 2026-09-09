@@ -1,28 +1,28 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.gh,8,wikidata;wikidata,Parliament of Ghana,central,,
-govgh.org,6,wikidata;wikidata,Ministry of Aviation,central,,
-accra.mfa.gov.hu,4,wikidata,Embassy of Hungary to Ghana,,,
-cocobod.gh,4,wikidata,Ghana Cocoa Board,,,
-csir.org.gh,4,wikidata,Council for Scientific and Industrial Research – Ghana,,,
-gcaa.com.gh,4,wikidata,Ghana Civil Aviation Authority,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Accra",central,,
-nca.org.gh,4,wikidata,National Communications Authority,,,
-ncte.edu.gh,4,wikidata,National Council for Tertiary Education,,,
-accra.diplo.de,3,wikidata,"Embassy of Germany, Accra",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Ghana,,,
-fao.org,3,wikidata,FAO Representation in Ghana,,,
-fcghana.org,3,wikidata,Forestry Commission of Ghana,central,,
-gh.ambafrance.org,3,wikidata,"Embassy of France, Accra",central,,
-ghana-net.com,3,wikidata,Cape Coast Castle,,,
-ghana.mid.ru,3,wikidata,embassy of Russia in Ghana,central,,
-ghana.travel,3,wikidata,Ghana Tourism Authority,,,
-ghana.um.dk,3,wikidata,embassy of Denmark in Ghana,central,,
-ghanamuseums.org,3,wikidata,Ghana Museums and Monuments Board,,,
-ghanawildlife.org,3,wikidata,Ghana Wildlife Division,,,
-gssti.org,3,wikidata,Ghana Space Science and Technology Centre,,,
-mdcghana.org,3,wikidata,Ghana Medical and Dental Council,central,,
-mha-ghana.com,3,wikidata,Mental Health Authority,,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Ghana,central,,
-nederlandwereldwijd.nl,3,wikidata,Royal Netherlands Embassy in Ghana,central,,
-norway.no,3,wikidata,"Embassy of Norway, Accra",central,,
-wrc-gh.org,3,wikidata,Water Resources Commission of Ghana,,,
+parliament.gh,8,wikidata;wikidata,Parliament of Ghana,central,403,10 smtp.parliament.gh.
+govgh.org,6,wikidata;wikidata,Ministry of Aviation,central,301,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
+accra.mfa.gov.hu,4,wikidata,Embassy of Hungary to Ghana,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cocobod.gh,4,wikidata,Ghana Cocoa Board,,200,0 cocobod-gh.mail.protection.outlook.com.
+csir.org.gh,4,wikidata,Council for Scientific and Industrial Research – Ghana,,200,10 igw05.site4now.net.
+gcaa.com.gh,4,wikidata,Ghana Civil Aviation Authority,,ConnectException,0 gcaa-com-gh.mail.protection.outlook.com.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Accra",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nca.org.gh,4,wikidata,National Communications Authority,,200,0 nca-org-gh.mail.protection.outlook.com.
+ncte.edu.gh,4,wikidata,National Council for Tertiary Education,,ConnectException,none
+accra.diplo.de,3,wikidata,"Embassy of Germany, Accra",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Ghana,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+fao.org,3,wikidata,FAO Representation in Ghana,,301,10 mx2.hc673-36.c3s2.iphmx.com.; 10 mx1.hc673-36.c3s2.iphmx.com.
+fcghana.org,3,wikidata,Forestry Commission of Ghana,central,200,0 fcghana-org.mail.protection.outlook.com.
+gh.ambafrance.org,3,wikidata,"Embassy of France, Accra",central,301,none
+ghana-net.com,3,wikidata,Cape Coast Castle,,200,0 ghana-net.com.
+ghana.mid.ru,3,wikidata,embassy of Russia in Ghana,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ghana.travel,3,wikidata,Ghana Tourism Authority,,200,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+ghana.um.dk,3,wikidata,embassy of Denmark in Ghana,central,301,none
+ghanamuseums.org,3,wikidata,Ghana Museums and Monuments Board,,301,25 mail.ghanamuseums.org.
+ghanawildlife.org,3,wikidata,Ghana Wildlife Division,,200,25 mail.ghanawildlife.org.
+gssti.org,3,wikidata,Ghana Space Science and Technology Centre,,200,0 mail.gssti.org.
+mdcghana.org,3,wikidata,Ghana Medical and Dental Council,central,301,0 _dc-mx.945f0f3cbbd1.mdcghana.org.
+mha-ghana.com,3,wikidata,Mental Health Authority,,SSLException: (internal_error) Received fatal alert: internal_error,none
+mzv.cz,3,wikidata,embassy of the Czech republic in Ghana,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nederlandwereldwijd.nl,3,wikidata,Royal Netherlands Embassy in Ghana,central,301,0 .
+norway.no,3,wikidata,"Embassy of Norway, Accra",central,301,0 mx.domeneshop.no.
+wrc-gh.org,3,wikidata,Water Resources Commission of Ghana,,301,none

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `eos-utvalget.no` |  |  | wikidata;wikidata | Norwegian Parliamentary Intelligence Oversight Committee |
-| 7 | `etikkom.no` |  |  | wikidata;wikidata | Norwegian National Research Ethics Committees |
-| 7 | `finnmarkssykehuset.no` |  |  | wikidata;wikidata | Finnmark Hospital Trust |
-| 7 | `kartverket.no` |  |  | wikidata;wikidata | Norwegian Mapping Authority |
-| 7 | `kriminalomsorgen.no` |  |  | wikidata;wikidata | Norwegian Correctional Service | Directorate of Correctional Services |
-| 7 | `nfk.no` | central-1 |  | wikidata;wikidata | Board of the Nordland county municipality |
-| 7 | `norges-bank.no` |  |  | wikidata;wikidata | Norges Bank |
-| 7 | `oslo.kommune.no` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Gravferdsetaten i Oslo kommune | Oslo city government | Q11981507 | Q10382646... |
-| 7 | `psykiskhelse.no` |  |  | wikidata;wikidata | Norwegian Council for Mental Health |
-| 7 | `radetfordyreetikk.no` |  |  | wikidata;wikidata | Council for Animal Ethics |
-| 7 | `romsenter.no` |  |  | wikidata;wikidata | Norwegian Space Agency |
-| 7 | `samordnaopptak.no` |  |  | wikidata;wikidata | Norwegian Universities and Colleges Admission Service |
-| 7 | `sikt.no` |  |  | wikidata;wikidata | Norwegian Agency for Shared Services in Education and Research |
-| 7 | `unesco.no` |  |  | wikidata;wikidata | Norwegian National Commission for UNESCO | Q17765624 |
-| 7 | `visitalta.no` |  |  | wikidata;wikidata | VISIT ALTA AS |
-| 6 | `nobelpeaceprize.org` |  |  | wikidata;wikidata | Norwegian Nobel Institute |
-| 6 | `norwegen.ahk.de` |  |  | wikidata;wikidata | German-Norwegian Chamber of Commerce |
-| 5 | `lovdata.no` |  |  | linkgraph | Linked from 6 public-sector domains |
-| 4 | `abm-utvikling.no` |  |  | wikidata | Norwegian Archive, Library and Museum Authority |
-| 4 | `advnemnda.no` | central |  | wikidata | Advokatnemnda |
+| 7 | `eos-utvalget.no` |  | 200 | wikidata;wikidata | Norwegian Parliamentary Intelligence Oversight Committee |
+| 7 | `etikkom.no` |  | SSLHandsh... | wikidata;wikidata | Norwegian National Research Ethics Committees |
+| 7 | `finnmarkssykehuset.no` |  | 301 | wikidata;wikidata | Finnmark Hospital Trust |
+| 7 | `kartverket.no` |  | 200 | wikidata;wikidata | Norwegian Mapping Authority |
+| 7 | `kriminalomsorgen.no` |  | 308 | wikidata;wikidata | Norwegian Correctional Service | Directorate of Correctional Services |
+| 7 | `nfk.no` | central-1 | 301 | wikidata;wikidata | Board of the Nordland county municipality |
+| 7 | `norges-bank.no` |  | 301 | wikidata;wikidata | Norges Bank |
+| 7 | `oslo.kommune.no` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Gravferdsetaten i Oslo kommune | Oslo city government | Q11981507 | Q10382646... |
+| 7 | `psykiskhelse.no` |  | 200 | wikidata;wikidata | Norwegian Council for Mental Health |
+| 7 | `radetfordyreetikk.no` |  | 301 | wikidata;wikidata | Council for Animal Ethics |
+| 7 | `romsenter.no` |  | 307 | wikidata;wikidata | Norwegian Space Agency |
+| 7 | `samordnaopptak.no` |  | 301 | wikidata;wikidata | Norwegian Universities and Colleges Admission Service |
+| 7 | `sikt.no` |  | 200 | wikidata;wikidata | Norwegian Agency for Shared Services in Education and Research |
+| 7 | `unesco.no` |  | 200 | wikidata;wikidata | Norwegian National Commission for UNESCO | Q17765624 |
+| 7 | `visitalta.no` |  | 200 | wikidata;wikidata | VISIT ALTA AS |
+| 6 | `nobelpeaceprize.org` |  | 301 | wikidata;wikidata | Norwegian Nobel Institute |
+| 6 | `norwegen.ahk.de` |  | 302 | wikidata;wikidata | German-Norwegian Chamber of Commerce |
+| 5 | `lovdata.no` |  | 200 | linkgraph | Linked from 6 public-sector domains |
+| 4 | `abm-utvikling.no` |  | 200 | wikidata | Norwegian Archive, Library and Museum Authority |
+| 4 | `advnemnda.no` | central | 200 | wikidata | Advokatnemnda |
 

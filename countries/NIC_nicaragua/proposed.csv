@@ -1,13 +1,13 @@
 hostname,score,sources,label,level,http_status,mx
-centroamericaribeschp.com,6,wikidata;wikidata,Piarist province Central America- Caribbean,,,
-jesuitascam.org,6,wikidata;wikidata,Jesuit Province of Central America,,,
-cvjp.org.ni,4,wikidata,"Commission for Truth, Justice and Peace",,,
-eaai.com.ni,4,wikidata,Administrative Company of National and International Airports,central,,
-tecnacional.edu.ni,4,wikidata,National Technical and Technological Institute of Nicaragua,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Nicaragua and to the Central American Integration System,central,,
-managua.diplo.de,3,wikidata,"Embassy of Germany, Managua",central,,
-managua.mae.lu,3,wikidata,embassy of Luxembourg in Nicaragua,central,,
-ni.ambafrance.org,3,wikidata,"Embassy of France, Managua",central,,
-nicaragua.mid.ru,3,wikidata,embassy of Russia in Nicaragua,central,,
-taiwanembassy.org,3,wikidata,"Embassy of the Republic of China (Taiwan), Managua",central,,
-web.archive.org,3,wikidata,Investment Promotion Secretariat,,,
+centroamericaribeschp.com,6,wikidata;wikidata,Piarist province Central America- Caribbean,,400,none
+jesuitascam.org,6,wikidata;wikidata,Jesuit Province of Central America,,200,50 mx3.zoho.com.; 10 mx.zoho.com.; 20 mx2.zoho.com.
+cvjp.org.ni,4,wikidata,"Commission for Truth, Justice and Peace",,ConnectException,none
+eaai.com.ni,4,wikidata,Administrative Company of National and International Airports,central,200,0 ns1.eaai.com.ni.; 100 correo1.eaai.com.ni.
+tecnacional.edu.ni,4,wikidata,National Technical and Technological Institute of Nicaragua,central,200,0 tecnacional-edu-ni.mail.protection.outlook.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Nicaragua and to the Central American Integration System,central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+managua.diplo.de,3,wikidata,"Embassy of Germany, Managua",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+managua.mae.lu,3,wikidata,embassy of Luxembourg in Nicaragua,central,ConnectException,none
+ni.ambafrance.org,3,wikidata,"Embassy of France, Managua",central,301,none
+nicaragua.mid.ru,3,wikidata,embassy of Russia in Nicaragua,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+taiwanembassy.org,3,wikidata,"Embassy of the Republic of China (Taiwan), Managua",central,302,none
+web.archive.org,3,wikidata,Investment Promotion Secretariat,,200,none

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `bqp.vn` | central |  | wikidata;wikidata | Ministry of Defence of Vietnam |
-| 7 | `quochoi.vn` | central |  | wikidata;wikidata | National Assembly of Vietnam |
-| 7 | `vovworld.vn` |  |  | wikidata;wikidata | Voice of Vietnam |
-| 4 | `angiang.edu.vn` | central-1 |  | wikidata | An Giang Department of Education and Training |
-| 4 | `bacninh.edu.vn` | central-1 |  | wikidata | Bac Ninh Department of Education and Training |
-| 4 | `bienphongvietnam.vn` |  |  | wikidata | Vietnam Border Defense Force |
-| 4 | `camau.edu.vn` | central-1 |  | wikidata | Ca Mau Department of Education and Training |
-| 4 | `canhsatbien.vn` |  |  | wikidata | Vietnam Coast Guard |
-| 4 | `cantho.edu.vn` | central-1 |  | wikidata | Can Tho Department of Education and Training |
-| 4 | `danang.edu.vn` | central-1 |  | wikidata | Da Nang Department of Education and Training |
-| 4 | `dav.edu.vn` |  |  | wikidata | Viện Nghiên cứu Chiến lược Ngoại giao |
-| 4 | `dienbien.edu.vn` | central-1 |  | wikidata | Dien Bien Department of Education and Training |
-| 4 | `dised.vn` |  |  | wikidata | Da Nang Institute For Socio - Economic Development |
-| 4 | `dongthap.edu.vn` | central-1 |  | wikidata | Dong Thap Department of Education and Training |
-| 4 | `english.vov.vn` |  |  | wikidata | Voice of Vietnam |
-| 4 | `english.vtv.vn` |  |  | wikidata | Vietnam Television |
-| 4 | `haiphong.edu.vn` | central-1 |  | wikidata | Hải Phòng Department of Education and Training |
-| 4 | `hanoi.edu.vn` | central-1 |  | wikidata | Hanoi Department of Education and Training |
-| 4 | `hanoi.mfa.gov.hu` | central |  | wikidata | Embassy of Hungary, Hanoi |
-| 4 | `hatinh.edu.vn` | central-1 |  | wikidata | Ha Tinh Department of Education and Training |
+| 7 | `bqp.vn` | central | 200 | wikidata;wikidata | Ministry of Defence of Vietnam |
+| 7 | `quochoi.vn` | central | 200 | wikidata;wikidata | National Assembly of Vietnam |
+| 7 | `vovworld.vn` |  | 200 | wikidata;wikidata | Voice of Vietnam |
+| 4 | `angiang.edu.vn` | central-1 | HttpConne... | wikidata | An Giang Department of Education and Training |
+| 4 | `bacninh.edu.vn` | central-1 | HttpConne... | wikidata | Bac Ninh Department of Education and Training |
+| 4 | `bienphongvietnam.vn` |  | HttpConne... | wikidata | Vietnam Border Defense Force |
+| 4 | `camau.edu.vn` | central-1 | HttpConne... | wikidata | Ca Mau Department of Education and Training |
+| 4 | `canhsatbien.vn` |  | HttpConne... | wikidata | Vietnam Coast Guard |
+| 4 | `cantho.edu.vn` | central-1 | SSLHandsh... | wikidata | Can Tho Department of Education and Training |
+| 4 | `danang.edu.vn` | central-1 | 302 | wikidata | Da Nang Department of Education and Training |
+| 4 | `dav.edu.vn` |  | 200 | wikidata | Viện Nghiên cứu Chiến lược Ngoại giao |
+| 4 | `dienbien.edu.vn` | central-1 | 200 | wikidata | Dien Bien Department of Education and Training |
+| 4 | `dised.vn` |  | ConnectEx... | wikidata | Da Nang Institute For Socio - Economic Development |
+| 4 | `dongthap.edu.vn` | central-1 | HttpConne... | wikidata | Dong Thap Department of Education and Training |
+| 4 | `english.vov.vn` |  | 302 | wikidata | Voice of Vietnam |
+| 4 | `english.vtv.vn` |  | 200 | wikidata | Vietnam Television |
+| 4 | `haiphong.edu.vn` | central-1 | 302 | wikidata | Hải Phòng Department of Education and Training |
+| 4 | `hanoi.edu.vn` | central-1 | 302 | wikidata | Hanoi Department of Education and Training |
+| 4 | `hanoi.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Hanoi |
+| 4 | `hatinh.edu.vn` | central-1 | HttpConne... | wikidata | Ha Tinh Department of Education and Training |
 

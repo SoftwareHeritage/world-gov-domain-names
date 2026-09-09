@@ -1,22 +1,22 @@
 hostname,score,sources,label,level,http_status,mx
-environnement.gov.ml,8,wikidata;wikidata,Ministry of Environment and Sanitation of Mali,central,,
-sante.gov.ml,8,wikidata;wikidata,Ministry of Public Health and Hygiene,central,,
-primature.ml,7,wikidata;wikidata,Council of Ministers of Mali,central,,
-inrsp.sante.gov.ml,5,wikidata,Institut National de Recherche en Santé Publique,central,,
-gendarmerie.ml,4,wikidata,Malian National Gendarmerie,central,,
-malimeteo.ml,4,wikidata,Agence Nationale de la Météorologie du Mali,,,
-afristat.org,3,wikidata,AFRISTAT,,,
-ambassadeburkina-ml.org,3,wikidata,embassy of Burkina Faso in Mali,central,,
-ambniger-mali.org,3,wikidata,embassy of Niger in Mali,central,,
-bamako.diplo.de,3,wikidata,"Embassy of Germany, Bamako",central,,
-bceao.int,3,wikidata,Central Bank of West African States,,,
-dnhmali.org,3,wikidata,Q132472717,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mali,,,
-instat-mali.org,3,wikidata,Institut National de la Statistique,,,
-mae.ro,3,wikidata,"Honorary Consulate of Romania, Bamako",,,
-mali.um.dk,3,wikidata,embassy of Denmark in Mali,central,,
-ml.ambafrance.org,3,wikidata,"Embassy of France, Bamako",central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Mali,central,,
-norway.no,3,wikidata,Embassy of Norway in Mali,central,,
-rusembmali.mid.ru,3,wikidata,embassy of Russia in Mali,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Bamako",central,,
+environnement.gov.ml,8,wikidata;wikidata,Ministry of Environment and Sanitation of Mali,central,ConnectException,none
+sante.gov.ml,8,wikidata;wikidata,Ministry of Public Health and Hygiene,central,200,10 mail.sante.gov.ml.
+primature.ml,7,wikidata;wikidata,Council of Ministers of Mali,central,200,0 primature.ml.
+inrsp.sante.gov.ml,5,wikidata,Institut National de Recherche en Santé Publique,central,HttpConnectTimeoutException: HTTP connect timed out,none
+gendarmerie.ml,4,wikidata,Malian National Gendarmerie,central,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,10 mx02.routing.net.; 10 mx03.routing.net.; 10 mx01.routing.net.; 20 mxbackup.routing.net.
+malimeteo.ml,4,wikidata,Agence Nationale de la Météorologie du Mali,,200,0 malimeteo-ml.mail.protection.outlook.com.
+afristat.org,3,wikidata,AFRISTAT,,301,10 mail.afristat.org.
+ambassadeburkina-ml.org,3,wikidata,embassy of Burkina Faso in Mali,central,ConnectException,none
+ambniger-mali.org,3,wikidata,embassy of Niger in Mali,central,200,5 mta-gw.infomaniak.ch.
+bamako.diplo.de,3,wikidata,"Embassy of Germany, Bamako",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+dnhmali.org,3,wikidata,Q132472717,,403,10 one.mxroute.com.; 20 one-relay.mxroute.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Mali,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+instat-mali.org,3,wikidata,Institut National de la Statistique,,301,none
+mae.ro,3,wikidata,"Honorary Consulate of Romania, Bamako",,ConnectException,10 mx2.mae.ro.; 10 mx1.mae.ro.
+mali.um.dk,3,wikidata,embassy of Denmark in Mali,central,301,none
+ml.ambafrance.org,3,wikidata,"Embassy of France, Bamako",central,301,none
+mzv.cz,3,wikidata,embassy of the Czech republic in Mali,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+norway.no,3,wikidata,Embassy of Norway in Mali,central,301,0 mx.domeneshop.no.
+rusembmali.mid.ru,3,wikidata,embassy of Russia in Mali,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Bamako",central,301,none

@@ -1,0 +1,16 @@
+hostname,http_status,mx
+chondjin.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+fia.law.kp,HttpConnectTimeoutException: HTTP connect timed out,dig error
+gnu.rep.kp,HttpConnectTimeoutException: HTTP connect timed out,dig error
+gpsh.edu.kp,HttpConnectTimeoutException: HTTP connect timed out,dig error
+kftrade.com.kp,HttpConnectTimeoutException: HTTP connect timed out,dig error
+korart.sca.kp,HttpConnectTimeoutException: HTTP connect timed out,dig error
+korea-dpr.com,200,100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.
+kp.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kp.china-embassy.org found.,none
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+minzu.rep.kp,HttpConnectTimeoutException: HTTP connect timed out,dig error
+misiones.cubaminrex.cu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+pjoengjang.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+rusembdprk.ru,301,none
+swedenabroad.se,301,none

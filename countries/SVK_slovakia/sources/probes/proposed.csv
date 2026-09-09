@@ -1,0 +1,68 @@
+hostname,http_status,mx
+apvv.sk,302,10 apvv-sk.mail.protection.outlook.com.
+bratislava.europarl.europa.eu,302,none
+bratislava.mae.ro,503,none
+bratislava.veleposlanistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+caa.sk,ConnectException,10 ip-mx.caa.sk.
+dominikani.sk,200,0 dominikani-sk.mail.protection.outlook.com.
+dposr.sk,200,0 dposr-sk.mail.protection.outlook.com.
+egypt-embassy.sk,301,20 relay2.dnsserver.eu.; 10 relay.exohosting.sk.; 15 relay3.dnsserver.eu.; 10 relay1.exohosting.sk.
+euro.who.int,HttpConnectTimeoutException: HTTP connect timed out,none
+financnasprava.sk,302,10 mail3.financnasprava.sk.; 10 mail1.financnasprava.sk.; 10 mail4.financnasprava.sk.; 10 mail2.financnasprava.sk.
+frantiskani.sk,200,10 mx1.hcom.sk.; 20 mx2.hcom.sk.
+idsbk.sk,301,0 idsbk-sk.mail.protection.outlook.com.
+idsplus.sk,200,10 mx10.websupport.sk.; 100 mx20.websupport.sk.
+idsvychod.sk,200,100 mailin1.idsvychod.sk.; 10 mailin2.idsvychod.sk.
+iuventa.sk,200,0 iuventa-sk.mail.protection.outlook.com.
+ja-sr.sk,200,100 mx20.websupport.sk.; 10 mx10.websupport.sk.
+juls.savba.sk,200,10 posta.juls.savba.sk.
+kassa.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+lesy.sk,HttpConnectTimeoutException: HTTP connect timed out,20 smtp.lesy.sk.; 10 mail.lesy.sk.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfsr.sk,405,100 email2.mfsr.sk.; 10 email1.mfsr.sk.
+mincrs.sk,200,0 mincrs-sk.mail.protection.outlook.com.
+mindop.sk,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mindop.sk found.,10 mail.gov.sk.
+minedu.sk,ConnectException,1 minedu-sk.mail.protection.outlook.com.
+minv.sk,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailina.minv.sk.; 10 mailinb.minv.sk.
+minzp.sk,200,none
+mpsr.sk,301,10 mail.mpsr.sk.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nbs.sk,HttpConnectTimeoutException: HTTP connect timed out,20 mailgw4.nbs.sk.; 10 mailgw2.nbs.sk.; 10 mailgw1.nbs.sk.; 20 mailgw3.nbs.sk.
+nczisk.sk,302,50 mail2.nczisk.sk.
+nederlandwereldwijd.nl,301,0 .
+norway.no,301,0 mx.domeneshop.no.
+nrsr.sk,ConnectException,10 mail.gov.sk.
+nssud.sk,301,0 nssud-sk.mail.protection.outlook.com.
+nsud.sk,301,10 smtp1.nsud.sk.; 20 smtp2.nsud.sk.
+palestineembassy.sk,200,0 mail.palestineembassy.sk.
+pamiatky.sk,302,10 mail.gov.sk.
+piaristi.sk,301,100 mailin2.piaristi.sk.; 10 mailin1.piaristi.sk.
+polinst.sk,301,10 mail.polinst.sk.
+pozsony.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pressburg.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+roc-taiwan.org,302,none
+sario.sk,400,0 sario-sk.mail.protection.outlook.com.
+sazp.sk,302,5 posta.sazp.sk.; 10 sazp-sk.mail.protection.outlook.com.
+sk.ambafrance.org,301,none
+sk.mvep.hr,ConnectException,none
+skgeodesy.sk,HttpConnectTimeoutException: HTTP connect timed out,10 skgeodesy-sk.mail.protection.outlook.com.
+slm.sk,301,5 mail.slm.sk.; 10 ns.slm.sk.
+slovak.statistics.sk,200,none
+slovakia.representation.ec.europa.eu,302,none
+slovensko.sk,302,10 mail.gov.sk.
+slowakei.ahk.de,302,none
+snk.sk,200,10 mail.gov.sk.
+sopsr.sk,302,0 sopsr-sk.mail.protection.outlook.com.
+ssc.sk,301,5 mail.ssc.sk.
+statpedu.sk,HttpConnectTimeoutException: HTTP connect timed out,0 statpedu-sk.mail.protection.outlook.com.
+sukl.sk,301,10 mail.gov.sk.
+trencin.sk,HttpConnectTimeoutException: HTTP connect timed out,0 trencin-sk.mail.protection.outlook.com.
+trigon-consulting.sk,HttpConnectTimeoutException: HTTP connect timed out,0 trigonconsulting-sk01e.mail.protection.outlook.com.
+udzs-sk.sk,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.udzs-sk.sk.
+unesco.sk,301,none
+unms.sk,HttpConnectTimeoutException: HTTP connect timed out,1 156-smtp-in.unms.sk.
+ustavnysud.sk,HttpConnectTimeoutException: HTTP connect timed out,10 imsva.concourt.sk.
+vega.sav.sk,HttpConnectTimeoutException: HTTP connect timed out,none
+vup.sk,HttpConnectTimeoutException: HTTP connect timed out,none
+zvjs.sk,ConnectException,10 smtp1.zvjs.sk.

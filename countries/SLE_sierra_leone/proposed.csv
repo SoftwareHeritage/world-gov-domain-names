@@ -1,8 +1,8 @@
 hostname,score,sources,label,level,http_status,mx
-recoletos.ph,6,wikidata;wikidata,Province of Saint Ezequiél Moreno,,,
-slminerals.org,6,wikidata;wikidata,Ministry of Mineral Resources of Sierra Leone,central,,
-slcs.sl,4,wikidata,Sierra Leone Correctional Service,central,,
-statistics.sl,4,wikidata,Statistics Sierra Leone,central,,
-afro.who.int,3,wikidata,World Health Organization - Sierra Leone,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Sierra Leone,,,
-freetown.diplo.de,3,wikidata,"Embassy of Germany, Freetown",central,,
+recoletos.ph,6,wikidata;wikidata,Province of Saint Ezequiél Moreno,,HttpTimeoutException: request timed out,1 smtp.google.com.
+slminerals.org,6,wikidata;wikidata,Ministry of Mineral Resources of Sierra Leone,central,301,none
+slcs.sl,4,wikidata,Sierra Leone Correctional Service,central,301,0 slcs.sl.
+statistics.sl,4,wikidata,Statistics Sierra Leone,central,301,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+afro.who.int,3,wikidata,World Health Organization - Sierra Leone,,200,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Sierra Leone,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+freetown.diplo.de,3,wikidata,"Embassy of Germany, Freetown",central,200,10 mx1.bund.de.; 10 mx2.bund.de.

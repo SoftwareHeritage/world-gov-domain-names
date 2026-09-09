@@ -1,0 +1,19 @@
+hostname,http_status,mx
+ambasadat.net,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+bhembassyqatar.com,200,0 bhembassyqatar.com.
+doha.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+doha.mae.ro,503,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+lebaneseembassyqatar.com,405,0 lebaneseembassyqatar-com.mail.protection.outlook.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+nigeriaembassydoha.org,301,1200 ghs.google.com.
+palemb-qa.net,200,0 mail.palemb-qa.net.
+phcc.qa,301,10 smtp.phcc.qa.
+qa.ambafrance.org,301,none
+qa.mvep.hr,ConnectException,none
+qatar.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+qnl.qa,301,10 qnl-qa.mail.protection.outlook.com.
+shura.qa,301,none
+swedenabroad.se,301,none
+unesco.org,302,20 unesco-org.mail.protection.outlook.com.

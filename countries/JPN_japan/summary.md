@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `adachikouiki.lg.jp` |  |  | wikidata;wikidata | Q85879382 |
-| 7 | `aizu-kouiki.jp` |  |  | wikidata;wikidata | Q11381268 |
-| 7 | `akiota.jp` |  |  | wikidata;wikidata | Akiota |
-| 7 | `akitakata.jp` |  |  | wikidata;wikidata | Akitakata |
-| 7 | `akkeshi-town.jp` |  |  | wikidata;wikidata | Akkeshi |
-| 7 | `asukamura.jp` |  |  | wikidata;wikidata | Asuka |
-| 7 | `az9.or.jp` |  |  | wikidata;wikidata | Q85876148 |
-| 7 | `betsukai.jp` |  |  | wikidata;wikidata | Betsukai |
-| 7 | `boj.or.jp` | central |  | wikidata;wikidata | Bank of Japan |
-| 7 | `bungo-ohno.jp` |  |  | wikidata;wikidata | Bungo-ōno-shi |
-| 7 | `chatan.jp` |  |  | wikidata;wikidata | Chatan |
-| 7 | `city-kirishima.jp` |  |  | wikidata;wikidata | Kirishima |
-| 7 | `city-matsuura.jp` |  |  | wikidata;wikidata | Matsuura |
-| 7 | `city-yanai.jp` |  |  | wikidata;wikidata | Yanai |
-| 7 | `city-yuzawa.jp` |  |  | wikidata;wikidata | Yuzawa |
-| 7 | `city.abashiri.hokkaido.jp` |  |  | wikidata;wikidata | Abashiri |
-| 7 | `city.abiko.chiba.jp` |  |  | wikidata;wikidata | Abiko |
-| 7 | `city.adachi.tokyo.jp` |  |  | wikidata;wikidata | Adachi |
-| 7 | `city.aira.lg.jp` |  |  | wikidata;wikidata | Aira |
-| 7 | `city.aki.kochi.jp` |  |  | wikidata;wikidata | Aki |
+| 7 | `adachikouiki.lg.jp` |  | HttpConne... | wikidata;wikidata | Q85879382 |
+| 7 | `aizu-kouiki.jp` |  | ConnectEx... | wikidata;wikidata | Q11381268 |
+| 7 | `akiota.jp` |  | ConnectEx... | wikidata;wikidata | Akiota |
+| 7 | `akitakata.jp` |  | ConnectEx... | wikidata;wikidata | Akitakata |
+| 7 | `akkeshi-town.jp` |  | HttpConne... | wikidata;wikidata | Akkeshi |
+| 7 | `asukamura.jp` |  | 301 | wikidata;wikidata | Asuka |
+| 7 | `az9.or.jp` |  | HttpConne... | wikidata;wikidata | Q85876148 |
+| 7 | `betsukai.jp` |  | 200 | wikidata;wikidata | Betsukai |
+| 7 | `boj.or.jp` | central | ConnectEx... | wikidata;wikidata | Bank of Japan |
+| 7 | `bungo-ohno.jp` |  | 200 | wikidata;wikidata | Bungo-ōno-shi |
+| 7 | `chatan.jp` |  | ConnectEx... | wikidata;wikidata | Chatan |
+| 7 | `city-kirishima.jp` |  | ConnectEx... | wikidata;wikidata | Kirishima |
+| 7 | `city-matsuura.jp` |  | ConnectEx... | wikidata;wikidata | Matsuura |
+| 7 | `city-yanai.jp` |  | ConnectEx... | wikidata;wikidata | Yanai |
+| 7 | `city-yuzawa.jp` |  | ConnectEx... | wikidata;wikidata | Yuzawa |
+| 7 | `city.abashiri.hokkaido.jp` |  | HttpConne... | wikidata;wikidata | Abashiri |
+| 7 | `city.abiko.chiba.jp` |  | ConnectEx... | wikidata;wikidata | Abiko |
+| 7 | `city.adachi.tokyo.jp` |  | ConnectEx... | wikidata;wikidata | Adachi |
+| 7 | `city.aira.lg.jp` |  | ConnectEx... | wikidata;wikidata | Aira |
+| 7 | `city.aki.kochi.jp` |  | HttpConne... | wikidata;wikidata | Aki |
 

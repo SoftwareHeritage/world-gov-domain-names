@@ -1,0 +1,17 @@
+hostname,http_status,mx
+banconal.com.pa,403,5 banconal-com-pa.mail.protection.outlook.com.
+binal.ac.pa,200,20 correo.binal.ac.pa.
+ccecasadelsoldado.aecid.es,200,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embahn-panama.com,301,none
+embajadabolpan.com,404,1 ASPMX.L.GOOGLE.com.; 10 ALT3.ASPMX.L.GOOGLE.com.; 10 ALT4.ASPMX.L.GOOGLE.com.; 5 ALT2.ASPMX.L.GOOGLE.com.; 5 ALT1.ASPMX.L.GOOGLE.com.
+embajadacostaricaenpanama.com,301,0 embajadacostaricaenpanama.com.
+indianembassyinpanama.com,301,none
+jesuitascam.org,200,50 mx3.zoho.com.; 10 mx.zoho.com.; 20 mx2.zoho.com.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+pa.ambafrance.org,301,none
+pa.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pa.china-embassy.org found.,none
+panama-city.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+panama.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+panama.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pancanal.com,200,10 gw199132.fortimail.com.

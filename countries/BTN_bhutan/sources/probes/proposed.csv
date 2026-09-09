@@ -1,0 +1,5 @@
+hostname,http_status,mx
+acc.org.bt,ConnectException,10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
+nationalcouncil.bt,HttpConnectTimeoutException: HTTP connect timed out,10 ASPMX.L.GOOGLE.COM.; 30 ASPMX2.GOOGLEMAIL.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.
+parliament.bt,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+rma.org.bt,ConnectException,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.

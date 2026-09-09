@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `lnb.lt` | central |  | wikidata;wikidata | Martynas Mažvydas National Library of Lithuania |
-| 7 | `vert.lt` | central |  | wikidata;wikidata | National Energy Regulatory Council of Lithuania | The National Energy Regulat... |
-| 7 | `vilnius.lt` | central-1 |  | wikidata;wikidata | Vilnius City Municipality Administration |
-| 7 | `zeit.lt` |  |  | wikidata;wikidata | The Office of the Inspector of Journalist Ethics |
-| 6 | `jesuiten.org` |  |  | wikidata;wikidata | Jesuit Province of Central Europe |
-| 6 | `lat.lt` | central |  | wikidata | Supreme Court of Lithuania |
-| 6 | `lrkt.lt` | central |  | wikidata | Constitutional Court of Lithuania |
-| 5 | `kt.gov.lt` |  |  | wikidata | Competition Council |
-| 5 | `stat.gov.lt` | central |  | wikidata | State Data Agency of Lithuania |
-| 5 | `strata.gov.lt` |  |  | wikidata | Government Strategic Analysis Center |
-| 4 | `ada.lt` | central |  | wikidata | State Data Protection Inspectorate |
-| 4 | `apeliacinis.lt` |  |  | wikidata | The Court of Appeal of Lithuania |
-| 4 | `arbitrazas.lt` |  |  | wikidata | Vilnius Court of Commercial Arbitration |
-| 4 | `ena.lt` |  |  | wikidata | Lithuanian Energy Agency |
-| 4 | `etikostarnyba.lt` |  |  | wikidata | Office of the Ombudsperson for Academic Ethics and Procedures, Lithuania |
-| 4 | `gamtostyrimai.lt` |  |  | wikidata | Nature Research Centre |
-| 4 | `genocid.lt` |  |  | wikidata | Genocide and Resistance Research Centre of Lithuania |
-| 4 | `inovacijuagentura.lt` |  |  | wikidata | Innovation Agency of Lithuania |
-| 4 | `jonava.lt` | central-1 |  | wikidata | Jonava District Municipality Council |
-| 4 | `kauno.teismai.lt` | central-1 |  | wikidata | Kėdainiai Region District Court |
+| 7 | `lnb.lt` | central | 200 | wikidata;wikidata | Martynas Mažvydas National Library of Lithuania |
+| 7 | `vert.lt` | central | 403 | wikidata;wikidata | National Energy Regulatory Council of Lithuania | The National Energy Regulat... |
+| 7 | `vilnius.lt` | central-1 | 403 | wikidata;wikidata | Vilnius City Municipality Administration |
+| 7 | `zeit.lt` |  | 301 | wikidata;wikidata | The Office of the Inspector of Journalist Ethics |
+| 6 | `jesuiten.org` |  | 301 | wikidata;wikidata | Jesuit Province of Central Europe |
+| 6 | `lat.lt` | central | 403 | wikidata | Supreme Court of Lithuania |
+| 6 | `lrkt.lt` | central | 403 | wikidata | Constitutional Court of Lithuania |
+| 5 | `kt.gov.lt` |  | SSLHandsh... | wikidata | Competition Council |
+| 5 | `stat.gov.lt` | central | 301 | wikidata | State Data Agency of Lithuania |
+| 5 | `strata.gov.lt` |  | 403 | wikidata | Government Strategic Analysis Center |
+| 4 | `ada.lt` | central | 403 | wikidata | State Data Protection Inspectorate |
+| 4 | `apeliacinis.lt` |  | 403 | wikidata | The Court of Appeal of Lithuania |
+| 4 | `arbitrazas.lt` |  | 301 | wikidata | Vilnius Court of Commercial Arbitration |
+| 4 | `ena.lt` |  | 301 | wikidata | Lithuanian Energy Agency |
+| 4 | `etikostarnyba.lt` |  | 200 | wikidata | Office of the Ombudsperson for Academic Ethics and Procedures, Lithuania |
+| 4 | `gamtostyrimai.lt` |  | 200 | wikidata | Nature Research Centre |
+| 4 | `genocid.lt` |  | 301 | wikidata | Genocide and Resistance Research Centre of Lithuania |
+| 4 | `inovacijuagentura.lt` |  | 301 | wikidata | Innovation Agency of Lithuania |
+| 4 | `jonava.lt` | central-1 | 403 | wikidata | Jonava District Municipality Council |
+| 4 | `kauno.teismai.lt` | central-1 | 403 | wikidata | Kėdainiai Region District Court |
 

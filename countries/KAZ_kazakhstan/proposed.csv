@@ -1,42 +1,42 @@
 hostname,score,sources,label,level,http_status,mx
-government.kz,10,un_desa;wikidata;wikidata,Government of Kazakhstan | UN/DESA national portal,central,,
-mgov.kz,7,wikidata;wikidata,Ministry of Agriculture,central,,
-seismology.kz,7,wikidata;wikidata,Institute of Seismology,,,
-spaceres.kz,7,wikidata;wikidata;wikidata,National Center of Space Research and Technology,,,
-akorda.kz,4,wikidata,Presidential Administration of Kazakhstan,,,
-assembly.kz,4,wikidata,Assembly of People of Kazakhstan,,,
-biosafety.kz,4,wikidata,Research Institute for Biological Safety Problems,,,
-gharysh.kz,4,wikidata,KazCosmos,,,
-ieconom.kz,4,wikidata,Institute of Economics,,,
-immash.kz,4,wikidata,Joldasbekov Institute of Mechanics and Engineering,,,
-kazhydromet.kz,4,wikidata,KazHydroMet,,,
-kazneb.kz,4,wikidata,National Library of Kazakhstan,,,
-ksm.kz,4,wikidata,Kazakhstan Institute of Standardization and Metrology,,,
-math.kz,4,wikidata,Institute of Mathematics and Mathematical Modeling,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Astana",central,,
-nabrk.kz,4,wikidata,National Academic Library of the Republic of Kazakhstan,,,
-nationalbank.kz,4,wikidata,National Bank of Kazakhstan,,,
-rfembassy.kz,4,wikidata,"Embassy of Russia, Astana",central,,
-rniiot.kz,4,wikidata,Republican Research Institute for Occupational Safety and Health,,,
-rtrk.kz,4,wikidata,Qazaqstan Radio and Television Corporation,,,
-shekaraknb.kz,4,wikidata,Border Service of the National Security Committee of the Republic of Kazakhstan,,,
-svr.kz,4,wikidata,Foreign Intelligence Service,,,
-ulttykarhiv.kz,4,wikidata,National Archives of Kazakhstan,,,
-vvmvd.kz,4,wikidata,Internal Troops of Kazakhstan,,,
-zqai.kz,4,wikidata,Institute of Legislation and Legal Information of the Republic of Kazakhstan,,,
-almaty.diplo.de,3,wikidata,"Consulate General of Germany, Almaty",,,
-ambafrance-kz.org,3,wikidata,"Embassy of France, Astana",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Kazakhstan,,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Kazakhstan,central,,
-ifc.org,3,wikidata,International Finance Corporation,,,
-kasachstan.diplo.de,3,wikidata,"Embassy of Germany, Astana",central,,
-kz.ambafrance.org,3,wikidata,Consulate-General of France in Almaty,,,
-kz.mfa.lt,3,wikidata,embassy of Lithuania in Kazakhstan,central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Kazakhstan,central,,
-mfa.gr,3,wikidata,embassy of Greece in Kazakhstan,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Kazakhstan,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Kazakhstan,central,,
-nursultan.mae.ro,3,wikidata,embassy of Romania in Kazakhstan,central,,
-nursultan.mfa.ee,3,wikidata,Embassy of Estonia in Astana,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Astana",central,,
-primeminister.kz,2,wikidata;wikidata;wikidata;wikidata,Ministry of Trade and Integration | Prime Minister's Office,central,,
+government.kz,10,un_desa;wikidata;wikidata,Government of Kazakhstan | UN/DESA national portal,central,301,10 mail.government.kz.
+mgov.kz,7,wikidata;wikidata,Ministry of Agriculture,central,200,none
+seismology.kz,7,wikidata;wikidata,Institute of Seismology,,200,10 mail.seismology.kz.
+spaceres.kz,7,wikidata;wikidata;wikidata,National Center of Space Research and Technology,,200,10 mail.spaceres.kz.
+akorda.kz,4,wikidata,Presidential Administration of Kazakhstan,,500,10 mgw.gov.kz.
+assembly.kz,4,wikidata,Assembly of People of Kazakhstan,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx.yandex.ru.
+biosafety.kz,4,wikidata,Research Institute for Biological Safety Problems,,200,10 mail.biosafety.kz.
+gharysh.kz,4,wikidata,KazCosmos,,301,10 mail.gharysh.kz.
+ieconom.kz,4,wikidata,Institute of Economics,,200,10 mail.ieconom.kz.
+immash.kz,4,wikidata,Joldasbekov Institute of Mechanics and Engineering,,301,10 emx.mail.ru.
+kazhydromet.kz,4,wikidata,KazHydroMet,,200,10 mail.kazhydromet.kz.
+kazneb.kz,4,wikidata,National Library of Kazakhstan,,200,50 mail.kazneb.kz.
+ksm.kz,4,wikidata,Kazakhstan Institute of Standardization and Metrology,,302,10 mx.lancloud.kz.; 10 mx2.lancloud.kz.
+math.kz,4,wikidata,Institute of Mathematics and Mathematical Modeling,,200,10 emx.mail.ru.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Astana",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nabrk.kz,4,wikidata,National Academic Library of the Republic of Kazakhstan,,200,10 mail.nabrk.kz.
+nationalbank.kz,4,wikidata,National Bank of Kazakhstan,,302,20 mail3.nationalbank.kz.; 20 mail1.nationalbank.kz.; 10 mail.nationalbank.kz.; 10 mail2.nationalbank.kz.
+rfembassy.kz,4,wikidata,"Embassy of Russia, Astana",central,403,10 mail.rfembassy.kz.
+rniiot.kz,4,wikidata,Republican Research Institute for Occupational Safety and Health,,301,10 mail.rniiot.kz.
+rtrk.kz,4,wikidata,Qazaqstan Radio and Television Corporation,,301,10 mail.rtrk.kz.
+shekaraknb.kz,4,wikidata,Border Service of the National Security Committee of the Republic of Kazakhstan,,500,10 mail.shekaraknb.kz.
+svr.kz,4,wikidata,Foreign Intelligence Service,,ConnectException,none
+ulttykarhiv.kz,4,wikidata,National Archives of Kazakhstan,,200,10 mail.ulttykarhiv.kz.
+vvmvd.kz,4,wikidata,Internal Troops of Kazakhstan,,ConnectException,0 mailvv.vvmvd.kz.; 10 mail.vvmvd.kz.; 20 ngmail.vvmvd.kz.
+zqai.kz,4,wikidata,Institute of Legislation and Legal Information of the Republic of Kazakhstan,,200,10 mail.zqai.kz.
+almaty.diplo.de,3,wikidata,"Consulate General of Germany, Almaty",,301,10 mx1.bund.de.; 10 mx2.bund.de.
+ambafrance-kz.org,3,wikidata,"Embassy of France, Astana",central,ConnectException,5 mta-gw.infomaniak.ch.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Kazakhstan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,embassy of Finland in Kazakhstan,central,301,10 mail.valtori.fi.
+ifc.org,3,wikidata,International Finance Corporation,,302,10 wbvapiron02a.worldbank.org.; 10 wbvapiron04a.worldbank.org.; 10 wbvapiron03a.worldbank.org.; 10 wbvapiron01a.worldbank.org.
+kasachstan.diplo.de,3,wikidata,"Embassy of Germany, Astana",central,200,none
+kz.ambafrance.org,3,wikidata,Consulate-General of France in Almaty,,301,none
+kz.mfa.lt,3,wikidata,embassy of Lithuania in Kazakhstan,central,403,none
+mfa.bg,3,wikidata,embassy of Bulgaria in Kazakhstan,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Kazakhstan,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Kazakhstan,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Kazakhstan,central,301,10 mail.gov.sk.
+nursultan.mae.ro,3,wikidata,embassy of Romania in Kazakhstan,central,ConnectException,none
+nursultan.mfa.ee,3,wikidata,Embassy of Estonia in Astana,central,ConnectException,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Astana",central,301,none
+primeminister.kz,2,wikidata;wikidata;wikidata;wikidata,Ministry of Trade and Integration | Prime Minister's Office,central,200,10 emx.mail.ru.

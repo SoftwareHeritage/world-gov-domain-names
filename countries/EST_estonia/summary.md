@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `fi.ee` | central |  | wikidata;wikidata | Financial Supervision Authority |
-| 7 | `politsei.ee` |  |  | wikidata;wikidata | Estonian Police | Police and Border Guard Board |
-| 7 | `riigikantselei.ee` |  |  | wikidata;linkgraph | Government Office |
-| 6 | `riigikohus.ee` | central |  | wikidata | Supreme Court of Estonia |
-| 6 | `riigiteataja.ee` |  |  | linkgraph | Linked from 10 public-sector domains |
-| 4 | `aki.ee` | central |  | wikidata | Estonian Data Protection Inspectorate |
-| 4 | `archimedes.ee` |  |  | wikidata | Archimedes Foundation |
-| 4 | `chinaembassy.ee` | central |  | wikidata | Embassy of the People's Republic of China in Tallinn |
-| 4 | `e-tervis.ee` |  |  | wikidata | Estonian E-Health Foundation |
-| 4 | `eas.ee` |  |  | wikidata | Estonian Space Office |
-| 4 | `eestipank.ee` |  |  | wikidata | Bank of Estonia |
-| 4 | `egt.ee` |  |  | wikidata | Geological Survey of Estonia |
-| 4 | `eki.ee` |  |  | wikidata | Institute of the Estonian Language |
-| 4 | `emta.ee` |  |  | wikidata | Estonian Tax and Customs Board |
-| 4 | `epa.ee` | central |  | wikidata | Estonian Patent Office |
-| 4 | `etag.ee` |  |  | wikidata | Estonian Research Agency |
-| 4 | `hitsa.ee` |  |  | wikidata | Information Technology Foundation for Education |
-| 4 | `just.ee` |  |  | linkgraph | Linked from 4 public-sector domains |
-| 4 | `kapo.ee` |  |  | wikidata | Estonian Internal Security Service |
-| 4 | `keeleamet.ee` |  |  | wikidata | Language Board |
+| 7 | `fi.ee` | central | 301 | wikidata;wikidata | Financial Supervision Authority |
+| 7 | `politsei.ee` |  | 301 | wikidata;wikidata | Estonian Police | Police and Border Guard Board |
+| 7 | `riigikantselei.ee` |  | 200 | wikidata;linkgraph | Government Office |
+| 6 | `riigikohus.ee` | central | 302 | wikidata | Supreme Court of Estonia |
+| 6 | `riigiteataja.ee` |  | 302 | linkgraph | Linked from 10 public-sector domains |
+| 4 | `aki.ee` | central | 302 | wikidata | Estonian Data Protection Inspectorate |
+| 4 | `archimedes.ee` |  | 200 | wikidata | Archimedes Foundation |
+| 4 | `chinaembassy.ee` | central | ConnectEx... | wikidata | Embassy of the People's Republic of China in Tallinn |
+| 4 | `e-tervis.ee` |  | ConnectEx... | wikidata | Estonian E-Health Foundation |
+| 4 | `eas.ee` |  | 301 | wikidata | Estonian Space Office |
+| 4 | `eestipank.ee` |  | 307 | wikidata | Bank of Estonia |
+| 4 | `egt.ee` |  | 200 | wikidata | Geological Survey of Estonia |
+| 4 | `eki.ee` |  | 200 | wikidata | Institute of the Estonian Language |
+| 4 | `emta.ee` |  | 200 | wikidata | Estonian Tax and Customs Board |
+| 4 | `epa.ee` | central | 302 | wikidata | Estonian Patent Office |
+| 4 | `etag.ee` |  | 200 | wikidata | Estonian Research Agency |
+| 4 | `hitsa.ee` |  | ConnectEx... | wikidata | Information Technology Foundation for Education |
+| 4 | `just.ee` |  | 301 | linkgraph | Linked from 4 public-sector domains |
+| 4 | `kapo.ee` |  | 200 | wikidata | Estonian Internal Security Service |
+| 4 | `keeleamet.ee` |  | 302 | wikidata | Language Board |
 

@@ -1,0 +1,34 @@
+hostname,http_status,mx
+agrotourism.com.cy,200,0 agrotourism-com-cy.mail.protection.outlook.com.
+centralbank.cy,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,100 mail1.centralbank.cy.
+cera.org.cy,HttpTimeoutException: request timed out,0 cera-org-cy.mail.protection.outlook.com.
+childcom.org.cy,ConnectException,10 mail03.gov.cy.
+crta.org.cy,301,0 crta-org-cy.mail.protection.outlook.com.
+custodia.org,301,0 custodia-org.mail.protection.outlook.com.
+cy.ambafrance.org,301,none
+cy.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cy.china-embassy.org found.,none
+cyprus.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cyprus.representation.ec.europa.eu,302,none
+cypruspost.post,513,10 mail4.cypruspost.post.; 15 mail5.cypruspost.post.; 10 mail3.cypruspost.post.; 10 mail2.cypruspost.post.; 10 mail1.cypruspost.post.
+finlandabroad.fi,301,10 mail.valtori.fi.
+highereducation.ac.cy,301,150 mail-relay.cytanet.com.cy.; 100 mx3.cytanet.com.cy.; 100 mx1.cytanet.com.cy.; 100 mx2.cytanet.com.cy.; 100 mx4.cytanet.com.cy.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nederlandwereldwijd.nl,301,0 .
+nicosia.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nicosia.europarl.europa.eu,302,none
+nicosia.mae.ro,ConnectException,none
+nicosia.mfa.ir,307,none
+nikosia.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+ocecpr.ee.cy,200,0 ocecpr-ee-cy.mail.protection.outlook.com.
+parliament.cy,301,10 mail03.gov.cy.
+pi.ac.cy,ConnectException,0 pi-ac-cy.mail.protection.outlook.com.
+resecfund.org.cy,200,20 mx2.zoho.eu.; 10 mx.zoho.eu.; 50 mx3.zoho.eu.
+swedenabroad.se,301,none
+unesco.org.cy,200,10 mailserver.livemail.co.uk.
+visitcyprus.com,302,10 mail03.gov.cy.
+wbl.com.cy,ConnectException,20 eoalemesos-org-cy-2.fortimailcloud.com.; 10 eoalemesos-org-cy-1.fortimailcloud.com.
+wikidata.org,301,10 mx-in1001.wikimedia.org.; 10 mx-in2001.wikimedia.org.

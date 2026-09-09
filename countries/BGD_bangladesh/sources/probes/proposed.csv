@@ -1,0 +1,29 @@
+hostname,http_status,mx
+acc.org.bd,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 lbmx.bcc.gov.bd.
+bangladesh-bank.org,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+bangladesh.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bangladesh.um.dk,301,none
+bd.ambafrance.org,301,none
+bd.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bd.china-embassy.org found.,none
+bd.mdvmission,ConnectException,none
+bids.org.bd,200,dig error
+cagbd.org,403,none
+ccc.org.bd,301,100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.; 100 us2.mx3.mailhostbox.com.
+comillacitycorporation.org,ConnectException,none
+dhaka.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+dhaka.mfa.af,ConnectException,none
+dhaka.thaiembassy.org,200,none
+dwasa.org.bd,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 lbmx.bcc.gov.bd.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+gazipurcity.com,404,0 gazipurcity.com.
+ict-bd.org,HttpConnectTimeoutException: HTTP connect timed out,none
+khulnacity.org,301,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nbc.org.bd,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nederlandwereldwijd.nl,301,0 .
+netherlandsembassydhaka.org,HttpConnectTimeoutException: HTTP connect timed out,none
+nhrc.org.bd,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mxgw.bcc.gov.bd.
+norway.no,301,0 mx.domeneshop.no.
+palestinemissionbd.com,200,0 palestinemissionbd.com.
+swedenabroad.se,301,none
+zpchittagong.org,ConnectException,none

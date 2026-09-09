@@ -1,0 +1,16 @@
+hostname,http_status,mx
+ahm.uem.mz,200,0 ahm.uem.mz.
+bancomoc.mz,200,10 mta.bancomoc.mz.
+cconstitucional.org.mz,200,0 cconstitucional.org.mz.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+malawihcmz.com,ConnectException,none
+maputo.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mozambik.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mozambique.nlembassy.org,ConnectException,none
+mz.ambafrance.org,301,none
+mz.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mz.chineseembassy.org found.,none
+parlamento.mz,301,0 smtp.parlamento.mz.
+stae.org.mz,ConnectException: Host is unreachable,10 smtp01.correio.gov.mz.
+swedenabroad.se,301,none

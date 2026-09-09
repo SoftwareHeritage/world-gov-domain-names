@@ -1,0 +1,35 @@
+hostname,http_status,mx
+afghanemb.az,ConnectException,none
+aida.az,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mmx.mail.gov.az.
+az.ambafrance.org,301,none
+az.mfa.lt,403,none
+azerbaijan.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+azercosmos.az,307,20 mail1.azercosmos.az.; 10 mail.azercosmos.az.
+azerishiq.az,200,10 mail01.azerishiq.az.
+azersu.az,HttpConnectTimeoutException: HTTP connect timed out,1 mmx.mail.gov.az.
+azertag.az,200,none
+azpromo.az,302,100 depot.hoster.az.; 0 mail1.azpromo.az.
+baku.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+baku.mae.ro,503,none
+baku.mfa.af,ConnectException,none
+baku.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cbar.az,200,20 mail02.cbar.az.; 10 mail.cbar.az.
+cert.az,200,0 cert-az.mail.protection.outlook.com.
+drim.az,HttpConnectTimeoutException: HTTP connect timed out,none
+e-gov.az,HttpConnectTimeoutException: HTTP connect timed out,10 smtp.e-gov.az.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embassyofpalestine.az,200,20 mx2.beget.com.; 10 mx1.beget.com.
+fiu.az,HttpConnectTimeoutException: HTTP connect timed out,10 mail.fiu.az.
+ier.az,301,none
+indianembassybaku.in,ConnectException,none
+mfa.gr,403,10 mailhost.mfa.gr.
+millikitabxana.az,301,none
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+pharma.az,200,0 mx.pharma.az.
+president.az,200,0 mmx.mail.gov.az.
+smeti.az,200,10 emx.mail.ru.
+sp.mofaic.gov.ae,ConnectException,none
+swedenabroad.se,301,none
+unesco.az,302,0 mmx.mail.gov.az.
+zoologiya.az,200,5 mx2.hosting.reg.ru.; 0 mx1.hosting.reg.ru.

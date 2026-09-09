@@ -35,11 +35,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `health.govt.lc` | central |  | wikidata;wikidata | Ministry of Health and Wellness |
-| 8 | `parliament.govt.lc` | central |  | wikidata;wikidata | Parliament of Saint Lucia |
-| 7 | `govt.lc` |  |  | un_desa | UN/DESA national portal |
-| 3 | `eccb-centralbank.org` |  |  | wikidata | Eastern Caribbean Central Bank |
-| 3 | `lc.ambafrance.org` | central |  | wikidata | Embassy of France in Castries |
-| 3 | `slbs.org` |  |  | wikidata | Saint Lucia Bureau of Standards |
-| 3 | `taiwanembassy.org` | central |  | wikidata | Embassy of the Republic of China (Taiwan), Gros Islet |
+| 8 | `health.govt.lc` | central | 200 | wikidata;wikidata | Ministry of Health and Wellness |
+| 8 | `parliament.govt.lc` | central | 200 | wikidata;wikidata | Parliament of Saint Lucia |
+| 7 | `govt.lc` |  | 301 | un_desa | UN/DESA national portal |
+| 3 | `eccb-centralbank.org` |  | ConnectEx... | wikidata | Eastern Caribbean Central Bank |
+| 3 | `lc.ambafrance.org` | central | 301 | wikidata | Embassy of France in Castries |
+| 3 | `slbs.org` |  | 301 | wikidata | Saint Lucia Bureau of Standards |
+| 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Gros Islet |
 

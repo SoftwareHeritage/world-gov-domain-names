@@ -35,18 +35,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `minisante.bi` | central |  | wikidata;wikidata | Ministry of Public Health of Burundi |
-| 4 | `assemblee.bi` | central |  | wikidata | National Assembly |
-| 4 | `brb.bi` |  |  | wikidata | Bank of the Republic of Burundi |
-| 4 | `ceniburundi.bi` | central |  | wikidata | Q21008237 |
-| 4 | `igebu.bi` |  |  | wikidata | Institut Géographique du Burundi |
-| 4 | `insbu.bi` | central |  | wikidata | National Institute of Statistics of Burundi |
-| 4 | `senat.bi` | central |  | wikidata | Senate |
-| 3 | `bi.ambafrance.org` | central |  | wikidata | Embassy of France, Bujumbura |
-| 3 | `bujumbura.diplo.de` | central |  | wikidata | Embassy of Germany, Bujumbura |
-| 3 | `burundi.mid.ru` | central |  | wikidata | embassy of Russia in Burundi |
-| 3 | `burundistats.org` |  |  | wikidata | Burundi Institute of Statistics and Economic Studies |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Burundi |
-| 3 | `lta.iwlearn.org` |  |  | wikidata | Lake Tanganyika Authority |
-| 3 | `nationallibraryofburundi.org` |  |  | wikidata | National Library of Burundi |
+| 7 | `minisante.bi` | central | 200 | wikidata;wikidata | Ministry of Public Health of Burundi |
+| 4 | `assemblee.bi` | central | HttpConne... | wikidata | National Assembly |
+| 4 | `brb.bi` |  | ConnectEx... | wikidata | Bank of the Republic of Burundi |
+| 4 | `ceniburundi.bi` | central | HttpConne... | wikidata | Q21008237 |
+| 4 | `igebu.bi` |  | SSLHandsh... | wikidata | Institut Géographique du Burundi |
+| 4 | `insbu.bi` | central | 200 | wikidata | National Institute of Statistics of Burundi |
+| 4 | `senat.bi` | central | HttpConne... | wikidata | Senate |
+| 3 | `bi.ambafrance.org` | central | 301 | wikidata | Embassy of France, Bujumbura |
+| 3 | `bujumbura.diplo.de` | central | 200 | wikidata | Embassy of Germany, Bujumbura |
+| 3 | `burundi.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Burundi |
+| 3 | `burundistats.org` |  | 200 | wikidata | Burundi Institute of Statistics and Economic Studies |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Burundi |
+| 3 | `lta.iwlearn.org` |  | HttpConne... | wikidata | Lake Tanganyika Authority |
+| 3 | `nationallibraryofburundi.org` |  | HttpConne... | wikidata | National Library of Burundi |
 

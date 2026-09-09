@@ -1,53 +1,53 @@
 hostname,score,sources,label,level,http_status,mx
-upravacarina.rs,7,wikidata;wikidata,Ministry of Finance and Economy,central,,
-zzps.rs,7,wikidata;wikidata,Zavod za zaštitu prirode Srbije,,,
-isusovci.hr,6,wikidata;wikidata,Croatian province of the Society of Jesus,,,
-serbien.ahk.de,6,wikidata;wikidata,German-Serbian Chamber of Commerce,,,
-ustavni.sud.rs,6,wikidata,Constitutional Court of Serbia,,,
-ambalgserbia.rs,4,wikidata,"Embassy of Algeria, Belgrade",central,,
-angolaembassy.org.rs,4,wikidata,"Embassy of Angola, Belgrade",central,,
-apv-nauka.ns.ac.rs,4,wikidata,Pokrajinski Sekretarijat za Nauku i Tehnološki Razvoj,,,
-arhivsrbije.rs,4,wikidata,Archive of Serbia,,,
-belgrad.mfa.gov.hu,4,wikidata,"Embassy of Hungary in Belgrade, Serbia",central,,
-cpn.rs,4,wikidata,Centar za Promociju Nauke,,,
-csrns.org.rs,4,wikidata,Center for Social Work Novi Sad,,,
-dmdm.rs,4,wikidata,Directorate of Measures and Precious Metals of the Republic of Serbia,,,
-drcongo-embassy.rs,4,wikidata,embassy of Democratic Republic of the Congo in Serbia,central,,
-inovacionifond.rs,4,wikidata,Innovation Fund of the Republic of Serbia,,,
-institutjosifpancic.rs,4,wikidata,"Institute for Medicinal Plants Research ""dr Josif Pančić""",,,
-ipn.bg.ac.rs,4,wikidata,Institute for Science Application in Agriculture,,,
-isj.sanu.ac.rs,4,wikidata,Institute for the Serbian Language of SASA,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Belgrade",central,,
-nb.rs,4,wikidata,National Library of Serbia,,,
-nbleskovac.rs,4,wikidata,"National library ""Radoje Domanović"" Leskovac",,,
-nbs.rs,4,wikidata,National Bank of Serbia,central,,
-orderofmalta.org.rs,4,wikidata,"Embassy of the Sovereign Military Order of Malta, Belgrade",central,,
-plovput.rs,4,wikidata,Directorate for Inland Waterways,,,
-ratel.rs,4,wikidata,Regulatory Agency for Electronic Communications and Postal Services,,,
-smatsa.rs,4,wikidata,Serbia and Montenegro Air Traffic Services Agency,,,
-solidarnost.org.rs,4,wikidata,"Center for Social Work ""Solidarity""",,,
-tok.jt.rs,4,wikidata,Public Prosecution Office for Organized Crime,,,
-up.sud.rs,4,wikidata,Q16088177,,,
-vip.org.rs,4,wikidata,Vojvodina Investment Promotion,,,
-vk.sud.rs,4,wikidata,Supreme Court of Republic of Serbia,,,
-vs.rs,4,wikidata,Intelligence and Reconnaissance Directorate,,,
-zjz.org.rs,4,wikidata,Institute of Public Health of Sabac,,,
-belgrad.diplo.de,3,wikidata,"Embassy of Germany, Belgrade",central,,
-belgrad.mae.ro,3,wikidata,"Embassy of Romania, Belgrade",central,,
-belgrade.embassy.qa,3,wikidata,embassy of Qatar in Serbia,central,,
-belgrade.embassy.si,3,wikidata,embassy of Slovenia in Serbia,central,,
-bezbednost.org,3,wikidata,Belgrade Centre for Security Policy,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Serbia,,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Serbia,central,,
-instytutpolski.pl,3,wikidata,Polish Institute in Belgrade,,,
-mfa.bg,3,wikidata,"embassy of Bulgaria, Belgrade",central,,
-mfa.gr,3,wikidata,embassy of Greece in Serbia,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Serbia,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Serbia,central,,
-norway.no,3,wikidata,"Embassy of Norway, Belgrade",central,,
-rs.ambafrance.org,3,wikidata,"embassy of France, Belgrade",central,,
-rs.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Belgrade",central,,
-rs.mvep.hr,3,wikidata,embassy of Croatia in Serbia,central,,
-serbia.mid.ru,3,wikidata,"Embassy of Russia, Belgrade",central,,
-serbien.um.dk,3,wikidata,embassy of Denmark in Serbia,central,,
-swedenabroad.com,3,wikidata,"Embassy of Sweden, Belgrade",central,,
+upravacarina.rs,7,wikidata;wikidata,Ministry of Finance and Economy,central,HttpConnectTimeoutException: HTTP connect timed out,10 beg-fw1.upravacarina.rs.
+zzps.rs,7,wikidata;wikidata,Zavod za zaštitu prirode Srbije,,200,10 mailgw.mts.rs.
+isusovci.hr,6,wikidata;wikidata,Croatian province of the Society of Jesus,,301,1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+serbien.ahk.de,6,wikidata;wikidata,German-Serbian Chamber of Commerce,,302,none
+ustavni.sud.rs,6,wikidata,Constitutional Court of Serbia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp.gov.rs.
+ambalgserbia.rs,4,wikidata,"Embassy of Algeria, Belgrade",central,301,0 ambalgserbia.rs.
+angolaembassy.org.rs,4,wikidata,"Embassy of Angola, Belgrade",central,403,none
+apv-nauka.ns.ac.rs,4,wikidata,Pokrajinski Sekretarijat za Nauku i Tehnološki Razvoj,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching apv-nauka.ns.ac.rs found.,none
+arhivsrbije.rs,4,wikidata,Archive of Serbia,,200,10 smtp.gov.rs.
+belgrad.mfa.gov.hu,4,wikidata,"Embassy of Hungary in Belgrade, Serbia",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cpn.rs,4,wikidata,Centar za Promociju Nauke,,301,1 SMTP.GOOGLE.COM.
+csrns.org.rs,4,wikidata,Center for Social Work Novi Sad,,301,10 mailgw.mts.rs.
+dmdm.rs,4,wikidata,Directorate of Measures and Precious Metals of the Republic of Serbia,,ConnectException,10 mail.dmdm.rs.; 10 mail-dmdm.dmdm.rs.
+drcongo-embassy.rs,4,wikidata,embassy of Democratic Republic of the Congo in Serbia,central,403,none
+inovacionifond.rs,4,wikidata,Innovation Fund of the Republic of Serbia,,302,10 mail.inovacionifond.rs.
+institutjosifpancic.rs,4,wikidata,"Institute for Medicinal Plants Research ""dr Josif Pančić""",,200,0 institutjosifpancic.rs.
+ipn.bg.ac.rs,4,wikidata,Institute for Science Application in Agriculture,,301,0 ipn.bg.ac.rs.
+isj.sanu.ac.rs,4,wikidata,Institute for the Serbian Language of SASA,,HttpConnectTimeoutException: HTTP connect timed out,10 afrodita.rcub.bg.ac.rs.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Belgrade",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nb.rs,4,wikidata,National Library of Serbia,,200,10 mail.nb.rs.
+nbleskovac.rs,4,wikidata,"National library ""Radoje Domanović"" Leskovac",,301,0 nbleskovac.rs.
+nbs.rs,4,wikidata,National Bank of Serbia,central,302,50 mailgw.mts.rs.
+orderofmalta.org.rs,4,wikidata,"Embassy of the Sovereign Military Order of Malta, Belgrade",central,429,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+plovput.rs,4,wikidata,Directorate for Inland Waterways,,200,0 plovput.rs.
+ratel.rs,4,wikidata,Regulatory Agency for Electronic Communications and Postal Services,,308,10 gateway1.ratel.rs.
+smatsa.rs,4,wikidata,Serbia and Montenegro Air Traffic Services Agency,,200,5 mail.smatsa.rs.; 10 maill.smatsa.rs.
+solidarnost.org.rs,4,wikidata,"Center for Social Work ""Solidarity""",,500,none
+tok.jt.rs,4,wikidata,Public Prosecution Office for Organized Crime,,200,10 smtp.gov.rs.
+up.sud.rs,4,wikidata,Q16088177,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp.gov.rs.
+vip.org.rs,4,wikidata,Vojvodina Investment Promotion,,301,none
+vk.sud.rs,4,wikidata,Supreme Court of Republic of Serbia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp.gov.rs.
+vs.rs,4,wikidata,Intelligence and Reconnaissance Directorate,,200,10 mail.vs.rs.
+zjz.org.rs,4,wikidata,Institute of Public Health of Sabac,,301,0 zjz.org.rs.
+belgrad.diplo.de,3,wikidata,"Embassy of Germany, Belgrade",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+belgrad.mae.ro,3,wikidata,"Embassy of Romania, Belgrade",central,503,none
+belgrade.embassy.qa,3,wikidata,embassy of Qatar in Serbia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+belgrade.embassy.si,3,wikidata,embassy of Slovenia in Serbia,central,SSLHandshakeException: Remote host terminated the handshake,none
+bezbednost.org,3,wikidata,Belgrade Centre for Security Policy,,200,10 bezbednost-org.mail.protection.outlook.com.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Serbia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,embassy of Finland in Serbia,central,301,10 mail.valtori.fi.
+instytutpolski.pl,3,wikidata,Polish Institute in Belgrade,,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
+mfa.bg,3,wikidata,"embassy of Bulgaria, Belgrade",central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Serbia,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Serbia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Serbia,central,301,10 mail.gov.sk.
+norway.no,3,wikidata,"Embassy of Norway, Belgrade",central,301,0 mx.domeneshop.no.
+rs.ambafrance.org,3,wikidata,"embassy of France, Belgrade",central,301,none
+rs.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Belgrade",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rs.chineseembassy.org found.,none
+rs.mvep.hr,3,wikidata,embassy of Croatia in Serbia,central,ConnectException,none
+serbia.mid.ru,3,wikidata,"Embassy of Russia, Belgrade",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+serbien.um.dk,3,wikidata,embassy of Denmark in Serbia,central,301,none
+swedenabroad.com,3,wikidata,"Embassy of Sweden, Belgrade",central,301,none

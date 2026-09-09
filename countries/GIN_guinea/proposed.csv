@@ -1,15 +1,15 @@
 hostname,score,sources,label,level,http_status,mx
-ambassadealgerieconakry.info,3,wikidata,"Embassy of Algeria, Conakry",central,,
-anss-guinee.org,3,wikidata,Q97097294,,,
-bcrg-guinee.org,3,wikidata,Central Bank of the Republic of Guinea,,,
-ceniguinee.org,3,wikidata,Independent National Electoral Commission,central,,
-conakry.diplo.de,3,wikidata,"Embassy of Germany, Conakry",central,,
-conakry.mfa.ir,3,wikidata,embassy of Iran in Guinea,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Guinea,,,
-ghanaembassy-guinea.com,3,wikidata,embassy of Ghana in Guinea,central,,
-gn.ambafrance.org,3,wikidata,"Embassy of France, Conakry",central,,
-guinea.mid.ru,3,wikidata,embassy of Russia in Guinea,central,,
-insp-guinee.org,3,wikidata,Institut National de Santé Publique,,,
-irag-guinee.org,3,wikidata,Institut de Recherche Agronomique de Guinee,,,
-misiones.cubaminrex.cu,3,wikidata,embassy of Cuba to Guinea,central,,
-stat-guinee.org,3,wikidata,Institut National de la Statistique,central,,
+ambassadealgerieconakry.info,3,wikidata,"Embassy of Algeria, Conakry",central,ConnectException,none
+anss-guinee.org,3,wikidata,Q97097294,,200,10 mx1.mail.ovh.net.; 30 mx3.mail.ovh.net.; 20 mx2.mail.ovh.net.; 40 mx4.mail.ovh.net.; 1 mx0.mail.ovh.net.
+bcrg-guinee.org,3,wikidata,Central Bank of the Republic of Guinea,,301,0 bcrgguinee-org01b.mail.protection.outlook.com.
+ceniguinee.org,3,wikidata,Independent National Electoral Commission,central,521,none
+conakry.diplo.de,3,wikidata,"Embassy of Germany, Conakry",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+conakry.mfa.ir,3,wikidata,embassy of Iran in Guinea,central,307,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Guinea,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+ghanaembassy-guinea.com,3,wikidata,embassy of Ghana in Guinea,central,ConnectException,none
+gn.ambafrance.org,3,wikidata,"Embassy of France, Conakry",central,301,5 mta-gw.infomaniak.ch.
+guinea.mid.ru,3,wikidata,embassy of Russia in Guinea,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+insp-guinee.org,3,wikidata,Institut National de Santé Publique,,301,none
+irag-guinee.org,3,wikidata,Institut de Recherche Agronomique de Guinee,,200,none
+misiones.cubaminrex.cu,3,wikidata,embassy of Cuba to Guinea,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+stat-guinee.org,3,wikidata,Institut National de la Statistique,central,200,none

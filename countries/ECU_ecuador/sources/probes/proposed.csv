@@ -1,0 +1,19 @@
+hostname,http_status,mx
+ambafrance-ec.org,ConnectException,5 mta-gw.infomaniak.ch.
+ane.gov.ec,ConnectException,none
+bce.ec,ConnectException,0 bceqmtain.bce.ec.
+ccq.ec,200,10 ccq-ec.mail.protection.outlook.com.
+cubadiplomatica.cu,ConnectException,none
+ec.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ec.china-embassy.org found.,none
+ecuador.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embajadadominicanaecuador.com,IOException: Received RST_STREAM: Protocol error,none
+escolapios.org.co,301,0 escolapios-org-co.mail.protection.outlook.com.
+exa.ec,ConnectException,1 mail.exa.ec.
+inocar.mil.ec,301,0 mail.inocar.mil.ec.
+quiport.com,301,0 quiama.in.tmes.trendmicro.com.
+quito.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+quito.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+quito.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+quito.mfa.ir,307,none
+roc-taiwan.org,302,none

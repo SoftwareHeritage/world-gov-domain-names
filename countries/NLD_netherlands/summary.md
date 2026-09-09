@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 9 | `autoriteitpersoonsgegevens.nl` |  |  | linkgraph;directory | Autoriteit Persoonsgegevens |
-| 8 | `atkm.nl` |  |  | wikidata;directory | Q131629747 |
-| 8 | `cbs.nl` |  |  | linkgraph;directory | Bedrijfsvoering en strategie | CBS communicatie en nieuws | Centraal Bureau v... |
-| 8 | `kvk.nl` |  |  | linkgraph;directory | Kamer van Koophandel |
-| 5 | `acm.nl` |  |  | directory | Autoriteit Consument en Markt |
-| 5 | `acoi.nl` |  |  | directory | Adviescollege Openbaarheid en Informatiehuishouding |
-| 5 | `adviescollege-rpa.nl` |  |  | directory | Adviescollege Rechtspositie Politieke Ambtsdragers |
-| 5 | `adviescollegengt.nl` |  |  | directory | Adviescollege Nederlandse Gebarentaal |
-| 5 | `adviescollegeregeldruk.nl` |  |  | directory | Adviescollege toetsing regeldruk |
-| 5 | `adviescollegeveiligheidgroningen.nl` |  |  | directory | Adviescollege Veiligheid Groningen |
-| 5 | `adviescommissievolkenrecht.nl` |  |  | directory | Commissie van advies inzake volkenrechtelijke vraagstukken |
-| 5 | `adviesraadinternationalevraagstukken.nl` |  |  | directory | Adviesraad internationale vraagstukken |
-| 5 | `adviesraadmigratie.nl` |  |  | directory | Adviesraad Migratie |
-| 5 | `afm.nl` |  |  | directory | Stichting Autoriteit Financiële Markten |
-| 5 | `anwb.nl` |  |  | directory | Koninklijke Nederlandse Toeristenbond ANWB |
-| 5 | `architectenregister.nl` |  |  | directory | Bureau Architectenregister |
-| 5 | `argonaut.nl` |  |  | directory | Argonaut Advies B.V. |
-| 5 | `asr.nl` |  |  | directory | ASR Wlz-uitvoerder B.V. |
-| 5 | `atr-regeldruk.nl` |  |  | directory | Adviescollege toetsing regeldruk |
-| 5 | `autoriteitnvs.nl` |  |  | directory | Autoriteit Nucleaire Veiligheid en Stralingsbescherming |
+| 9 | `autoriteitpersoonsgegevens.nl` |  | 200 | linkgraph;directory | Autoriteit Persoonsgegevens |
+| 8 | `atkm.nl` |  | 301 | wikidata;directory | Q131629747 |
+| 8 | `cbs.nl` |  | 301 | linkgraph;directory | Bedrijfsvoering en strategie | CBS communicatie en nieuws | Centraal Bureau v... |
+| 8 | `kvk.nl` |  | 301 | linkgraph;directory | Kamer van Koophandel |
+| 5 | `acm.nl` |  | 301 | directory | Autoriteit Consument en Markt |
+| 5 | `acoi.nl` |  | 301 | directory | Adviescollege Openbaarheid en Informatiehuishouding |
+| 5 | `adviescollege-rpa.nl` |  | 200 | directory | Adviescollege Rechtspositie Politieke Ambtsdragers |
+| 5 | `adviescollegengt.nl` |  | 200 | directory | Adviescollege Nederlandse Gebarentaal |
+| 5 | `adviescollegeregeldruk.nl` |  | 301 | directory | Adviescollege toetsing regeldruk |
+| 5 | `adviescollegeveiligheidgroningen.nl` |  | 301 | directory | Adviescollege Veiligheid Groningen |
+| 5 | `adviescommissievolkenrecht.nl` |  | 301 | directory | Commissie van advies inzake volkenrechtelijke vraagstukken |
+| 5 | `adviesraadinternationalevraagstukken.nl` |  | 301 | directory | Adviesraad internationale vraagstukken |
+| 5 | `adviesraadmigratie.nl` |  | 301 | directory | Adviesraad Migratie |
+| 5 | `afm.nl` |  | 301 | directory | Stichting Autoriteit Financiële Markten |
+| 5 | `anwb.nl` |  | 301 | directory | Koninklijke Nederlandse Toeristenbond ANWB |
+| 5 | `architectenregister.nl` |  | SSLHandsh... | directory | Bureau Architectenregister |
+| 5 | `argonaut.nl` |  | 200 | directory | Argonaut Advies B.V. |
+| 5 | `asr.nl` |  | 200 | directory | ASR Wlz-uitvoerder B.V. |
+| 5 | `atr-regeldruk.nl` |  | SSLHandsh... | directory | Adviescollege toetsing regeldruk |
+| 5 | `autoriteitnvs.nl` |  | 301 | directory | Autoriteit Nucleaire Veiligheid en Stralingsbescherming |
 

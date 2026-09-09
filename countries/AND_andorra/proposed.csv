@@ -1,28 +1,28 @@
 hostname,score,sources,label,level,http_status,mx
-cultura.ad,7,wikidata;wikidata,National Archives of Andorra | Andorra National Library,central,,
-educacio.ad,7,wikidata;wikidata,Ministry of Education and Higher Education of Andorra,central,,
-exteriors.ad,7,wikidata;wikidata,Ministry of Foreign Affairs,central,,
-finances.ad,7,wikidata;wikidata,Ministry of Finance of Andorra,central,,
-mobilitat.ad,7,wikidata;wikidata,Ministry of Territorial Planning of Andorra,central,,
-turisme.ad,7,wikidata;wikidata,Ministry of Tourism of Andorra,central,,
-tribunalconstitucional.ad,6,wikidata,Andorra. Tribunal Constitucional,,,
-afa.ad,4,wikidata,Andorran Financial Authority,,,
-apda.ad,4,wikidata,Data Protection Agency,central,,
-ari.ad,4,wikidata,Andorra Recerca + Innovació,,,
-banders.ad,4,wikidata,Cos de Banders d'Andorra,central,,
-canillo.ad,4,wikidata,Q117288422,central-1,,
-cass.ad,4,wikidata,Caixa Andorrana de Seguretat Social,,,
-cea.ad,4,wikidata,Confederació Empresarial Andorrana,,,
-comuencamp.ad,4,wikidata,Q117808860,central-1,,
-comusantjulia.ad,4,wikidata,Q105488867,central-1,,
-estadistica.ad,4,wikidata,Departament d'Estadística,central,,
-estadistica.desenvolupament.ad,4,wikidata,Departament d'Estadística,central,,
-policia.ad,4,wikidata,Police Corps of Andorra,,,
-saas.ad,4,wikidata,Servei Andorrà d’Atenció Sanitària,,,
-salut.ad,4,wikidata,Comitè Nacional de Bioètica d'Andorra,,,
-uifand.ad,4,wikidata,Financial Intelligence Unit of Andorra,,,
-unesco.ad,4,wikidata,Andorran National Commission for UNESCO,,,
-ad.ambafrance.org,3,wikidata,"Embassy of France, Andorra la Vella",central,,
-armenianembassyad.com,3,wikidata,Honorary Consulate of Armenia in Andorra,,,
-exteriors.gencat.cat,3,wikidata,"Government Delegation of Catalonia, Andorra",central,,
-consellgeneral.ad,2,wikidata;wikidata,General Council of Andorra,central,,
+cultura.ad,7,wikidata;wikidata,National Archives of Andorra | Andorra National Library,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+educacio.ad,7,wikidata;wikidata,Ministry of Education and Higher Education of Andorra,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+exteriors.ad,7,wikidata;wikidata,Ministry of Foreign Affairs,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+finances.ad,7,wikidata;wikidata,Ministry of Finance of Andorra,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mobilitat.ad,7,wikidata;wikidata,Ministry of Territorial Planning of Andorra,central,301,none
+turisme.ad,7,wikidata;wikidata,Ministry of Tourism of Andorra,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tribunalconstitucional.ad,6,wikidata,Andorra. Tribunal Constitucional,,301,10 mx1.mail.ovh.net.; 40 mx4.mail.ovh.net.; 30 mx3.mail.ovh.net.; 20 mx2.mail.ovh.net.
+afa.ad,4,wikidata,Andorran Financial Authority,,301,0 afa-ad.mail.protection.outlook.com.
+apda.ad,4,wikidata,Data Protection Agency,central,200,10 mail.apda.ad.
+ari.ad,4,wikidata,Andorra Recerca + Innovació,,200,0 ari-ad.mail.protection.outlook.com.
+banders.ad,4,wikidata,Cos de Banders d'Andorra,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+canillo.ad,4,wikidata,Q117288422,central-1,200,10 canillo-ad.mail.protection.outlook.com.
+cass.ad,4,wikidata,Caixa Andorrana de Seguretat Social,,301,10 correu2.cass.ad.; 5 correu.cass.ad.
+cea.ad,4,wikidata,Confederació Empresarial Andorrana,,200,0 cea-ad.mail.protection.outlook.com.
+comuencamp.ad,4,wikidata,Q117808860,central-1,301,10 correu.andornet.ad.
+comusantjulia.ad,4,wikidata,Q105488867,central-1,301,0 comusantjulia-ad.mail.protection.outlook.com.
+estadistica.ad,4,wikidata,Departament d'Estadística,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+estadistica.desenvolupament.ad,4,wikidata,Departament d'Estadística,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+policia.ad,4,wikidata,Police Corps of Andorra,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching policia.ad found.,20 fallbackmx.spamexperts.eu.; 10 mx.spamexperts.com.; 30 lastmx.spamexperts.net.
+saas.ad,4,wikidata,Servei Andorrà d’Atenció Sanitària,,200,10 mail.saas.ad.
+salut.ad,4,wikidata,Comitè Nacional de Bioètica d'Andorra,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+uifand.ad,4,wikidata,Financial Intelligence Unit of Andorra,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+unesco.ad,4,wikidata,Andorran National Commission for UNESCO,,200,10 mail.unesco.ad.
+ad.ambafrance.org,3,wikidata,"Embassy of France, Andorra la Vella",central,301,none
+armenianembassyad.com,3,wikidata,Honorary Consulate of Armenia in Andorra,,ConnectException,none
+exteriors.gencat.cat,3,wikidata,"Government Delegation of Catalonia, Andorra",central,301,none
+consellgeneral.ad,2,wikidata;wikidata,General Council of Andorra,central,301,none

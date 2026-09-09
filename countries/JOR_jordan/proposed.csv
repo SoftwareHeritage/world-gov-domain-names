@@ -1,24 +1,24 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.jo,8,wikidata;wikidata,Parliament of Jordan,central,,
-amman.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Amman",central,,
-cco.gov.jot,6,wikidata,Jordanian Constitutional Court,,,
-custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,,
-roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural Office,,,
-arabic.jo,4,wikidata,Jordan Academy of Arabic,,,
-hpc.org.jo,4,wikidata,Higher Population Council,,,
-representatives.jo,4,wikidata,House of Representatives of Jordan,central,,
-rhc.jo,4,wikidata,The Royal Hashemite Court,central,,
-senate.jo,4,wikidata,Senate of Jordan,central,,
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Amman",central,,
-amman.mae.ro,3,wikidata,"Embassy of Romania, Amman",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Jordan,,,
-emro.who.int,3,wikidata,World Health Organization - Jordan,,,
-hazine.info,3,wikidata,National Library of Jordan,,,
-jo.ambafrance.org,3,wikidata,"Embassy of France, Amman",central,,
-jordan.mid.ru,3,wikidata,embassy of Russia in Jordan,central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Jordan,central,,
-mfa.gr,3,wikidata,embassy of Greece in Jordan,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Jordan,central,,
-norway.no,3,wikidata,"Embassy of Norway, Amman",central,,
-palembjo.org,3,wikidata,Embassy of the State of Palestine in Jordan,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Amman",central,,
+parliament.jo,8,wikidata;wikidata,Parliament of Jordan,central,ConnectException,none
+amman.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Amman",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+cco.gov.jot,6,wikidata,Jordanian Constitutional Court,,ConnectException,none
+custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural Office,,302,none
+arabic.jo,4,wikidata,Jordan Academy of Arabic,,200,5 mx01.govmail.gov.jo.; 5 mx02.govmail.gov.jo.
+hpc.org.jo,4,wikidata,Higher Population Council,,200,5 webmail.hpc.org.jo.
+representatives.jo,4,wikidata,House of Representatives of Jordan,central,HttpTimeoutException: request timed out,5 mx02.govmail.gov.jo.; 5 mx01.govmail.gov.jo.
+rhc.jo,4,wikidata,The Royal Hashemite Court,central,200,10 ESA2.rhc.jo.; 10 ESA1.rhc.jo.
+senate.jo,4,wikidata,Senate of Jordan,central,302,5 mx02.govmail.gov.jo.; 5 mx01.govmail.gov.jo.
+sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Amman",central,ConnectException,none
+amman.mae.ro,3,wikidata,"Embassy of Romania, Amman",central,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Jordan,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+emro.who.int,3,wikidata,World Health Organization - Jordan,,ConnectException,none
+hazine.info,3,wikidata,National Library of Jordan,,302,0 mail.hazine.info.
+jo.ambafrance.org,3,wikidata,"Embassy of France, Amman",central,301,5 mta-gw.infomaniak.ch.
+jordan.mid.ru,3,wikidata,embassy of Russia in Jordan,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mfa.bg,3,wikidata,embassy of Bulgaria in Jordan,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Jordan,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Jordan,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+norway.no,3,wikidata,"Embassy of Norway, Amman",central,301,0 mx.domeneshop.no.
+palembjo.org,3,wikidata,Embassy of the State of Palestine in Jordan,central,200,0 mail.palembjo.org.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Amman",central,301,none

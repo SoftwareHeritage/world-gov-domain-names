@@ -1,0 +1,24 @@
+hostname,http_status,mx
+aec.org.sy,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 as.aec.org.sy.
+custodia.org,301,0 custodia-org.mail.protection.outlook.com.
+damasc.mae.ro,503,none
+damaskus.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+egov.sy,ConnectException,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+gors.sy,ConnectException,10 mail.gors.sy.
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mosy.sy,200,0 mosy.sy.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+nscl.sy,ConnectException,none
+palemb-sy.com,200,0 palemb-sy.com.
+sanasyria.org,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sanasyria.org.
+scfms.sy,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.scfms.sy.
+sisc.sy,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.sisc.sy.
+swedenabroad.se,301,none
+syria.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+syriaig.org,403,10 syriaig.org.; 0 syriaig.org.
+syriameteo.com,ConnectException,none
+syrien.um.dk,301,none
+web.ortas.online,200,none

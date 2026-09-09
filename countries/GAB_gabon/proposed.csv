@@ -1,27 +1,27 @@
 hostname,score,sources,label,level,http_status,mx
-economie-numerique.gouv.ga,8,wikidata;wikidata,Q141165552,central,,
-enseignement-superieur.gouv.ga,8,wikidata;wikidata,Q141161520,central,,
-fonction-publique.gouv.ga,8,wikidata;wikidata,Q125907067,,,
-interieur.gouv.ga,8,wikidata;wikidata,Q128231957,,,
-relations-institutions.gouv.ga,8,wikidata;wikidata,Q137536983,central,,
-sante.gouv.ga,8,wikidata;wikidata,Ministry of Health,,,
-transports.gouv.ga,8,wikidata;wikidata,Ministry of Transport (Gabon),central,,
-journal-officiel.ga,7,wikidata;wikidata,Tribunal de première instance (Gabon),,,
-piaristesafriquecentrale.org,6,wikidata;wikidata,Piarist province of Central Africa,,,
-budget.gouv.ga,5,wikidata,Q139961312,,,
-eaux-forets.gouv.ga,5,wikidata,"Ministre de la Forêt, de la Mer et de l'Environnement",,,
-aninf.ga,4,wikidata,Q62107195,,,
-assemblee-nationale.ga,4,wikidata,National Assembly,central,,
-cour-constitutionnelle.ga,4,wikidata,Constitutional Court of Gabon,,,
-dgabd.ga,4,wikidata,National Library of Gabon,,,
-ambaburkina-ga.org,3,wikidata,embassy of Burkina Faso in Gabon,central,,
-ambalglibreville.com,3,wikidata,"Embassy of Algeria, Libreville",central,,
-ambassade-tchad-gabon.com,3,wikidata,Q134385965,,,
-eeas.europa.eu,3,wikidata,"Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Principe and CEEAC",central,,
-ga.ambafrance.org,3,wikidata,"Embassy of France, Libreville",central,,
-gabon.mid.ru,3,wikidata,embassy of Russia in Gabon,central,,
-justice.gouv.ga,3,wikidata;wikidata;wikidata,Ministry of Justice | Tribunal de première instance (Gabon),central,,
-libreville.diplo.de,3,wikidata,"Embassy of Germany, Libreville",central,,
-parcsgabon.org,3,wikidata,National Agency for National Parks,,,
-senatgabon.com,3,wikidata,Senate,central,,
-stat-gabon.org,3,wikidata,Direction Générale des Statistiques,,,
+economie-numerique.gouv.ga,8,wikidata;wikidata,Q141165552,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.economie-numerique.gouv.ga.
+enseignement-superieur.gouv.ga,8,wikidata;wikidata,Q141161520,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.enseignement-superieur.gouv.ga.
+fonction-publique.gouv.ga,8,wikidata;wikidata,Q125907067,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.fonction-publique.gouv.ga.
+interieur.gouv.ga,8,wikidata;wikidata,Q128231957,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.interieur.gouv.ga.
+relations-institutions.gouv.ga,8,wikidata;wikidata,Q137536983,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.relations-institutions.gouv.ga.
+sante.gouv.ga,8,wikidata;wikidata,Ministry of Health,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.sante.gouv.ga.
+transports.gouv.ga,8,wikidata;wikidata,Ministry of Transport (Gabon),central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.transports.gouv.ga.
+journal-officiel.ga,7,wikidata;wikidata,Tribunal de première instance (Gabon),,HttpConnectTimeoutException: HTTP connect timed out,none
+piaristesafriquecentrale.org,6,wikidata;wikidata,Piarist province of Central Africa,,ConnectException,none
+budget.gouv.ga,5,wikidata,Q139961312,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.budget.gouv.ga.
+eaux-forets.gouv.ga,5,wikidata,"Ministre de la Forêt, de la Mer et de l'Environnement",,HttpConnectTimeoutException: HTTP connect timed out,10 mx.eaux-forets.gouv.ga.
+aninf.ga,4,wikidata,Q62107195,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.aninf.ga.
+assemblee-nationale.ga,4,wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.assemblee-nationale.ga.
+cour-constitutionnelle.ga,4,wikidata,Constitutional Court of Gabon,,HttpConnectTimeoutException: HTTP connect timed out,none
+dgabd.ga,4,wikidata,National Library of Gabon,,"SSLHandshakeException: (protocol_version) The server selected protocol version TLS10 is not accepted by client preferences [TLS13, TLS12]",15 mx.dgabd.ga.
+ambaburkina-ga.org,3,wikidata,embassy of Burkina Faso in Gabon,central,200,5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.
+ambalglibreville.com,3,wikidata,"Embassy of Algeria, Libreville",central,200,10 mx02.routing.net.; 10 mx03.routing.net.; 10 mx01.routing.net.; 20 mxbackup.routing.net.
+ambassade-tchad-gabon.com,3,wikidata,Q134385965,,ConnectException,none
+eeas.europa.eu,3,wikidata,"Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Principe and CEEAC",central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ga.ambafrance.org,3,wikidata,"Embassy of France, Libreville",central,301,none
+gabon.mid.ru,3,wikidata,embassy of Russia in Gabon,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+justice.gouv.ga,3,wikidata;wikidata;wikidata,Ministry of Justice | Tribunal de première instance (Gabon),central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.justice.gouv.ga.
+libreville.diplo.de,3,wikidata,"Embassy of Germany, Libreville",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+parcsgabon.org,3,wikidata,National Agency for National Parks,,301,20 mx3-hosting.jellyfish.systems.; 10 mx2-hosting.jellyfish.systems.; 5 mx1-hosting.jellyfish.systems.
+senatgabon.com,3,wikidata,Senate,central,200,0 senatgabon.com.
+stat-gabon.org,3,wikidata,Direction Générale des Statistiques,,301,none

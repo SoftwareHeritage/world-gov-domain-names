@@ -1,5 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
-palaugov.pw,10,un_desa;wikidata;wikidata,Palau National Archive | Palau Automated Land and Resources Information System | UN/DESA national portal,,,
-palauhealth.org,6,wikidata;wikidata,Ministry of Health of Palau,central,,
-palauoek.com,6,wikidata;wikidata,Palau National Congress,central,,
-palausupremecourt.net,5,wikidata,Supreme Court of Palau,central,,
+palaugov.pw,10,un_desa;wikidata;wikidata,Palau National Archive | Palau Automated Land and Resources Information System | UN/DESA national portal,,301,10 mx10.mailspamprotection.com.; 20 mx20.mailspamprotection.com.; 30 mx30.mailspamprotection.com.
+palauhealth.org,6,wikidata;wikidata,Ministry of Health of Palau,central,HttpConnectTimeoutException: HTTP connect timed out,10 xsetsmx01.palauhealth.org.
+palauoek.com,6,wikidata;wikidata,Palau National Congress,central,403,none
+palausupremecourt.net,5,wikidata,Supreme Court of Palau,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching palausupremecourt.net found.,0 palausupremecourt-net.mail.protection.outlook.com.

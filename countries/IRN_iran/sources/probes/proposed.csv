@@ -1,0 +1,72 @@
+hostname,http_status,mx
+acecr.ir,301,none
+afghanembassy.ir,ConnectException,none
+amar.org.ir,HttpConnectTimeoutException: HTTP connect timed out,none
+aqlibrary.ir,HttpConnectTimeoutException: HTTP connect timed out,none
+cao.ir,ConnectException,10 mx01.caa.gov.ir.
+cbi.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.cbi.ir.
+cogc.ir,HttpConnectTimeoutException: HTTP connect timed out,0 mail.cogc.ir.
+dchq.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mail.dchq.ir.
+divanealee.eadl.ir,HttpConnectTimeoutException: HTTP connect timed out,none
+dolat.ir,200,10 194.225.148.247.; 10 194.225.148.248.
+emsrt.ir,301,none
+en.insf.org,HttpConnectTimeoutException: HTTP connect timed out,none
+en.irna.ir,200,none
+en.mfa.ir,307,none
+en.nasrme.ac.ir,HttpConnectTimeoutException: HTTP connect timed out,none
+fa.irunesco.org,ConnectException,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+ghanaembassyiran.com,HttpConnectTimeoutException: HTTP connect timed out,none
+iccima.ir,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.iccima.ir.
+ichto.ir,HttpConnectTimeoutException: HTTP connect timed out,none
+inio.ac.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mail.inio.ac.ir.
+ir.ambafrance.org,301,none
+iran.ahk.de,HttpConnectTimeoutException: HTTP connect timed out,10 mail.iran.ahk.de.; 20 owa.iran.ahk.de.
+iran.mfa.am,301,none
+iran.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+iran.um.dk,301,none
+iraniangas.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mail.nigc.ir.
+irna.ir,301,10 mail.irna.ir.
+irost.org,404,1 mail.irost.org.
+isa.ir,403,10 webmail.isa.ir.
+justice.ir,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching justice.ir found.,none
+maj.ir,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.agri-jahad.org.
+majazi.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mail.majazi.ir.
+malekmuseum.org,ConnectException,0 mail.malekmuseum.org.
+mcth.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mcth.ir.
+medu.ir,ConnectException: Host is unreachable,20 mail2.medu.ir.; 10 mail.medu.ir.; 30 mail3.medu.ir.
+mefa.ir,301,10 mail.mefa.gov.ir.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mod.ir,ConnectException,10 mx.shamimhost.ir.
+moi.ir,403,10 gmail.moi.ir.
+mop.ir,403,0 mx2.mop.ir.; 0 mx1.mop.ir.
+mrt.ir,HttpConnectTimeoutException: HTTP connect timed out,none
+mrud.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mrud.ir.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nano.ir,200,2 safar.nano.ir.; 1 nanovps.ir.
+nanohealth.ir,ConnectException,none
+news.dchq.ir,302,none
+nlai.ir,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.nlai.ir.
+norway.no,301,0 mx.domeneshop.no.
+ohchr.org,301,10 ohchr-org.mail.protection.outlook.com.
+ostandari.khorasan.ir,HttpTimeoutException: request timed out,none
+police.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mailapp.police.ir.
+rc.majlis.ir,200,none
+rifr-ac.org,HttpTimeoutException: request timed out,none
+sabteahval.ir,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sepahnews.com,301,10 mxa.sepahnews.com.; 10 mxb.sepahnews.com.
+shora-gc.ir,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.shora-gc.ir.
+sp.mofaic.gov.ae,ConnectException,none
+ssaa.ir,HttpConnectTimeoutException: HTTP connect timed out,1 edge.ssaa.ir.
+stemcell.isti.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mail.isti.ir.
+swedenabroad.se,301,none
+tabrizcentlib.ir,ConnectException,none
+tamin.ir,403,10 mail.tamin.ir.; 10 mail-1.tamin.ir.; 10 mail-2.tamin.ir.
+tccim.ir,301,10 mail.tccim.ir.
+teheran.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+teheran.mfa.gov.hu,HttpConnectTimeoutException: HTTP connect timed out,none
+teheran.veleposlanistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+vaja.ir,HttpConnectTimeoutException: HTTP connect timed out,10 mail.vaja.ir.
+wri.ac.ir,HttpTimeoutException: request timed out,10 mail.wri.ac.ir.

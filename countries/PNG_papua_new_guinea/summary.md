@@ -35,7 +35,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `roc-taiwan.org` |  |  | wikidata;wikidata | Taipei Economic and Cultural Office in Papua New Guinea | Taipei Economic Off... |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Papua New Guinea |
-| 3 | `pg.ambafrance.org` | central |  | wikidata | Embassy of France, Port Moresby |
+| 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in Papua New Guinea | Taipei Economic Off... |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Papua New Guinea |
+| 3 | `pg.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port Moresby |
 

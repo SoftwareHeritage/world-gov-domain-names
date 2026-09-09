@@ -1,0 +1,85 @@
+hostname,http_status,mx
+aal.edu.ar,ConnectException: Host is unreachable,10 mx.fibercorp.com.ar.
+agn.gov.ar,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.agn.gov.ar.
+aica.org,HttpTimeoutException: request timed out,10 mail.aica.org.
+ar.ambafrance.org,301,none
+ar.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ar.china-embassy.org found.,none
+ar.mvep.hr,ConnectException,none
+ar.undp.org,301,none
+argentina.mfa.am,301,none
+argentina.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ats.aq,301,0 aspmx.l.google.com.; 2 aspmx2.googlemail.com.; 1 alt1.aspmx.l.google.com.
+bn.gov.ar,ConnectException,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
+bomberosra.org.ar,301,0 bomberosra-org-ar.mail.protection.outlook.com.
+buenos-aires.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+buenos-aires.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+buenosaires.mae.ro,503,none
+buenosaires.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+buenosaires.veleposlanistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+cac.com.ar,200,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.
+caicyt-conicet.gov.ar,HttpConnectTimeoutException: HTTP connect timed out,none
+caip.org.ar,301,0 mail.caip.org.ar.
+casarosada.gov.ar,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching casarosada.gov.ar found.,1 correo.casarosada.gov.ar.
+cba.gov.ar,ConnectException,0 cba-gov-ar.mail.protection.outlook.com.
+cnv.gov.ar,ConnectException,100 mail2-isp2.cnv.gov.ar.; 10 cnv-gov-ar.mail.protection.outlook.com.; 100 mail1-isp2.cnv.gov.ar.; 10 mail-iplan.cnv.gov.ar.
+conicet.gov.ar,403,10 smtpfront.conicet.gov.ar.
+consejomagistratura.gov.ar,200,none
+csjn.gov.ar,301,50 mx1.csjn.gov.ar.; 100 mx2.csjn.gov.ar.; 10 mx.csjn.gov.ar.
+diputadosmisiones.gov.ar,302,1 mail.diputadosmisiones.gov.ar.
+diputadossantafe.gov.ar,302,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+dnrpa.gov.ar,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 correo.dnrpa.gov.ar.; 10 mismtpl000.jus.gov.ar.; 20 mx.pymes.telmex.net.ar.; 5 mismtpl001.jus.gov.ar.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+ellibano.com.ar,ConnectException,none
+embajadadekuwait.com.ar,200,5 mail.embajadadekuwait.com.ar.
+embajadadeluruguay.com.ar,200,0 mail.embajadadeluruguay.com.ar.; 20 mx1.embajadadeluruguay.com.ar.
+embajadahonduras.com.ar,ConnectException,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+fuerzas-armadas.mil.ar,302,none
+hcdcorrientes.gov.ar,ConnectException,1 smtp.google.com.
+hcder.gov.ar,HttpConnectTimeoutException: HTTP connect timed out,0 mail.hcder.gov.ar.
+hcdiputados-ba.gov.ar,200,0 correo.hcdiputados-ba.gov.ar.
+hcdmza.gov.ar,301,25 zmta2.hcdmza.gov.ar.; 30 zmta1.hcdmza.gov.ar.
+hidro.gov.ar,ConnectException,10 mail.armada.mil.ar.
+iapv.gov.ar,301,0 iapv.gov.ar.
+inbias.conicet.gov.ar,403,none
+inpa-uba.conicet.gov.ar,403,none
+ipsibat.conicet.gov.ar,403,none
+jesuitasaru.org,200,0 jesuitasaru.org.
+lacampora.org,200,10 mail.lacampora.org.
+legislaturaformosa.gov.ar,301,0 legislaturaformosa.gov.ar.
+legislaturajujuy.gov.ar,ConnectException,10 mail.legislaturajujuy.gov.ar.
+legislaturamendoza.gov.ar,200,20 mail10.legislaturamendoza.gov.ar.; 10 mail.legislaturamendoza.gov.ar.
+loteria.gba.gov.ar,301,10 relay2.gba.gov.ar.; 10 relay1.gba.gov.ar.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mininterior.gov.ar,HttpConnectTimeoutException: HTTP connect timed out,0 mininterior-gob-ar.mail.protection.outlook.com.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mp.gba.gov.ar,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,11 relay2.gba.gov.ar.; 11 relay1.gba.gov.ar.
+ms.gba.gov.ar,307,10 relay1.gba.gov.ar.; 10 relay2.gba.gov.ar.
+mseg.gba.gov.ar,301,10 relay1.gba.gov.ar.; 10 relay2.gba.gov.ar.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+norway.no,301,0 mx.domeneshop.no.
+ovd.gov.ar,302,none
+palestina.int.ar,200,0 mail.palestina.int.ar.
+pami.org.ar,HttpConnectTimeoutException: HTTP connect timed out,10 correo.pami.org.ar.
+penitenciaria.mendoza.gov.ar,301,none
+policia.chaco.gov.ar,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching policia.chaco.gov.ar found.,10 mail.policia.chaco.gob.ar.
+policia.rionegro.gov.ar,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp2.rionegro.gov.ar.; 5 smtp3.rionegro.gov.ar.
+policiadejujuy.gov.ar,ConnectException,none
+policiadetucuman.gov.ar,200,0 mail.dime.gob.ar.
+renar.gov.ar,HttpConnectTimeoutException: HTTP connect timed out,20 mismtpl000.jus.gov.ar.; 10 mail.renar.gov.ar.; 30 mismtpl001.jus.gov.ar.
+rionegro.gov.ar,200,5 smtp3.rionegro.gov.ar.; 10 smtp2.rionegro.gov.ar.
+rta-se.com.ar,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rta-se.com.ar found.,10 host213.181-15-247.tvpublica.com.ar.
+salud.rionegro.gov.ar,200,10 smtp2.rionegro.gov.ar.; 5 smtp3.rionegro.gov.ar.
+santafe.gov.ar,301,5 mx1.santafe.gov.ar.
+scba.gov.ar,200,8 mail5.scba.gov.ar.; 8 mail3.scba.gov.ar.
+segemar.gov.ar,301,5 mx01.nubilus.com.ar.; 10 zimbra.nubilus.com.ar.
+senado-ba.gov.ar,200,0 senadoba-gov-ar01e.mail.protection.outlook.com.
+senado.sanluis.gov.ar,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+senadoctes.gov.ar,200,20 mx1.senadoctes.gov.ar.; 0 mail.senadoctes.gov.ar.
+swedenabroad.se,301,none
+teatrocolon.org.ar,200,10 mail.teatrocolon.org.ar.
+thaiembargen.org,200,none
+web.legisrn.gov.ar,200,none
+web.roc-taiwan.org,HttpConnectTimeoutException: HTTP connect timed out,none

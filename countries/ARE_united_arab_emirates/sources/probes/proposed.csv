@@ -1,0 +1,79 @@
+hostname,http_status,mx
+abudhabi.mae.lu,302,none
+abudhabi.mae.ro,503,none
+abudhabi.mfa.ee,200,none
+adach.ae,200,none
+adafsa.gov.ae,HttpConnectTimeoutException: HTTP connect timed out,20 seg.in.tmes-uae.trendmicro.com.; 5 adafsa-gov-ae.mail.protection.outlook.com.; 10 smtp2.adafsa.gov.ae.; 10 smtp1.adafsa.gov.ae.
+adfca.gov.ae,HttpTimeoutException: request timed out,10 seg.in.tmes-uae.trendmicro.com.; 0 adfca-gov-ae.mail.protection.outlook.com.
+adpolice.gov.ae,200,10 police1.adpolice.gov.ae.; 15 police2.adpolice.gov.ae.
+ae.ambafrance.org,301,none
+ajmanpolice.gov.ae,301,10 mxa-0050be01.gslb.pphosted.com.; 10 mxb-0050be01.gslb.pphosted.com.; 20 ajman-ae.mail.protection.outlook.com.
+alc.ae,200,40 seg.in.tmes-uae.trendmicro.com.; 0 alc-ae.mail.protection.outlook.com.
+almajles.gov.ae,HttpConnectTimeoutException: HTTP connect timed out,10 mail.almajles.gov.ae.
+ambasadat.net,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+angolaembassy.ae,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 angolaembassy-ae.mail.protection.outlook.com.
+bhmc.ae,200,10 imailv.emirates.net.ae.; 20 imailv2.emirates.net.ae.
+centralbank.ae,302,none
+citibnq.com,ConnectException,none
+ded.ae,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,10 maila.dubai.gov.ae.; 20 mailc.dubai.gov.ae.; 10 mailb.dubai.gov.ae.
+dewa.gov.ae,403,30 mx4.dewa.gov.ae.; 20 mx5.dewa.gov.ae.; 30 mx3.dewa.gov.ae.; 20 mx6.dewa.gov.ae.
+dha.gov.ae,200,10 dha-gov-ae.mail.protection.outlook.com.
+dm.gov.ae,301,0 mx1.dm.ae.; 20 mail3.dm.gov.ae.; 10 mail.dm.gov.ae.; 5 dm-gov-ae.mail.protection.outlook.com.; 30 mail2.emirates.net.ae.; 10 mail2.dm.gov.ae.
+dubai.consulfrance.org,301,none
+dubai.diplo.de,301,10 mx2.bund.de.; 10 mx1.bund.de.
+dubaided.gov.ae,HttpConnectTimeoutException: HTTP connect timed out,10 maila.dubai.gov.ae.; 10 mailb.dubai.gov.ae.; 20 mailc.dubai.gov.ae.
+dubaipolice.gov.ae,302,10 dpmail.dubaipolice.gov.ae.; 10 dpmail2.dubaipolice.gov.ae.
+ead.ae,ConnectException,5 seg.in.tmes-uae.trendmicro.com.; 0 ead-ae.mail.protection.outlook.com.
+economy.gov.ae,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+embassy-algeria-uae.com,500,10 mx00.ionos.com.; 10 mx01.ionos.com.
+embcr-uae.org,200,0 mail.embcr-uae.org.
+emi.qcc.gov.ae,200,none
+emiratespost.ae,403,5 emiratespost-ae.mail.protection.outlook.com.
+esma.ae,ConnectException,none
+etcc.gov.ae,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,0 etcc-gov-ae.mail.protection.outlook.com.
+fae.um.dk,301,none
+fanr.gov.ae,302,10 smtp02.fanr.gov.ae.; 10 smtp01.fanr.gov.ae.
+fcsa.gov.ae,403,5 mxa-00284c03.gslb.pphosted.com.; 5 mxb-00284c03.gslb.pphosted.com.
+fcsc.gov.ae,403,5 mxa-00284c03.gslb.pphosted.com.; 5 mxb-00284c03.gslb.pphosted.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+frenchwam.com,ConnectException,none
+gcatholic.org,200,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+government.ae,301,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+hra.ae,ConnectException,20 mail20.hra.ae.; 10 mail10.hra.ae.
+icp.gov.ae,200,10 mail.ica.gov.ae.; 30 mail2.ica.gov.ae.
+maldivesembassy.ae,SSLException: (internal_error) Received fatal alert: internal_error,10 imailv.emirates.net.ae.; 20 imailv2.emirates.net.ae.
+mfa.gr,403,10 mailhost.mfa.gr.
+mfnca.gov.ae,404,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+moccae.gov.ae,302,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+moe.gov.ae,302,5 moe-gov-ae.mail.protection.outlook.com.
+mof.gov.ae,301,20 webmail1.mof.gov.ae.; 10 webmail.mof.gov.ae.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+moh.gov.ae,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mohesr.gov.ae,301,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+moi.gov.ae,302,10 smtp2.moi.gov.ae.; 10 smtp1.moi.gov.ae.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nla.ae,301,0 nla-ae.mail.protection.outlook.com.
+nma.gov.ae,302,20 nma-gov-ae.mail.protection.outlook.com.; 0 wam.in.tmes.trendmicro.eu.
+norway.no,301,0 mx.domeneshop.no.
+nrf.ae,HttpConnectTimeoutException: HTTP connect timed out,none
+pakistanconsulate.ae,ConnectException,none
+pakistanembassyuae.org,403,10 ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 50 ASPMX3.GOOGLEMAIL.COM.; 40 ASPMX2.GOOGLEMAIL.COM.; 30 ALT2.ASPMX.L.GOOGLE.COM.
+qcc.gov.ae,200,10 seg.in.tmes-uae.trendmicro.com.; 5 qcc-gov-ae.mail.protection.outlook.com.
+roc-taiwan.org,302,none
+rta.ae,200,20 mail3.rta.ae.; 10 mail2.rta.ae.; 20 mail4.rta.ae.; 10 mail1.rta.ae.
+saa.shj.ae,302,10 smtp.shj.ae.
+sca.gov.ae,301,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+scad.gov.ae,HttpConnectTimeoutException: HTTP connect timed out,0 scad-gov-ae.mail.protection.outlook.com.; 20 mail2.scad.gov.ae.; 10 seg.in.tmes-uae.trendmicro.com.; 20 mail1.scad.gov.ae.
+sdc.gov.ae,302,10 mx2-eu1.ppe-hosted.com.; 10 mx1-eu1.ppe-hosted.com.
+space.gov.ae,302,10 mx1-us1.ppe-hosted.com.; 10 mx2-us1.ppe-hosted.com.
+swedenabroad.se,301,none
+uae.diplo.de,200,none
+uae.mfa.lt,403,none
+uae.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+uaecma.gov.ae,302,0 uaecma-gov-ae.mail.protection.outlook.com.
+vae.ahk.de,302,none
+vnembassy-abudhabi.mofa.gov.v,ConnectException,none
+wam.ae,301,5 wam-ae.mail.protection.outlook.com.; 50 smartmail2.fednet.gov.ae.; 40 mail2.emirates.net.ae.; 0 wam.in.tmes.trendmicro.eu.; 10 smartmail1.fednet.gov.ae.
+zho.ae,HttpConnectTimeoutException: HTTP connect timed out,0 zho-ae.mail.protection.outlook.com.

@@ -1,0 +1,34 @@
+hostname,http_status,mx
+assembly.gm,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+banjul.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+cbg.gm,301,0 cbg-gm.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+gambiaports.gm,HttpConnectTimeoutException: HTTP connect timed out,0 gambiaports-gm.mail.protection.outlook.com.
+gamcel.gm,200,10 mail.gamcel.gm.
+gampost.gm,ConnectException,none
+gamtel.gm,200,40 mail.gamtel.gm.
+gc.edu.gm,200,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+gcc.gm,200,10 mx.stackmail.com.
+giepa.gm,302,0 Giepa-gm.mail.protection.outlook.com.
+gppa.gm,200,0 arch.adequate.gm.
+gra.gm,301,0 gra-gm.mail.protection.outlook.com.
+grts.gm,200,0 node510.namehero.net.
+iec.gm,200,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 20 mx3-hosting.jellyfish.systems.; 5 mx1-hosting.jellyfish.systems.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 mx2-hosting.jellyfish.systems.
+mope.gm,301,none
+nana.gm,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nana.gm found.,0 mail.nana.gm.
+nao.gm,HttpTimeoutException: request timed out,30 mx.nao.gm.
+naqaa.gm,200,10 mx.stackmail.com.
+nawec.gm,200,0 nawec-gm.mail.protection.outlook.com.
+ncac.gm,200,10 safari.mxrouting.net.; 20 safari-relay.mxrouting.net.
+nea.gm,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+nedi.gm,523,10 node507.namehero.net.
+nra.gm,200,0 nra-gm.mail.protection.outlook.com.
+nsc.gm,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+nyc.gm,HttpTimeoutException: request timed out,10 node507.namehero.net.
+ombudsman.gm,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ombudsman.gm found.,10 mx.stackmail.com.
+pscgov.gm,200,5 pscgov.onice.io.; 10 mx.stackmail.com.
+pura.gm,200,0 pura-gm.mail.protection.outlook.com.
+sshfc.gm,301,1 sshfc-gm.mail.protection.outlook.com.
+tgsb.gm,200,20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
+utg.edu.gm,HttpTimeoutException: request timed out,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+visitthegambia.com,200,none

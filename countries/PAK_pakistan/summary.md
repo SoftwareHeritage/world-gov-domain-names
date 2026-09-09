@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `sp.mofaic.gov.ae` | central |  | wikidata;wikidata | Embassy of the United Arab Emirates, Islamabad | Consulate-General of the Uni... |
-| 6 | `pk.ambafrance.org` | central |  | wikidata;wikidata | Q62818123 | Embassy of France, Islamabad |
-| 5 | `pakistanpressfoundation.org` | central |  | wikidata | Supreme Court of Pakistan |
-| 4 | `caapakistan.com.pk` |  |  | wikidata | Pakistan Civil Aviation Authority |
-| 4 | `chf.edu.pk` |  |  | wikidata | Children Hospital, Faisalabad |
-| 4 | `hsa.edu.pk` |  |  | wikidata | Health Services Academy |
-| 4 | `india.org.pk` | central |  | wikidata | High Commission of India, Islamabad |
-| 4 | `mepco.com.pk` |  |  | wikidata | Multan Electric Power Company |
-| 4 | `nia.org.pk` |  |  | wikidata | Nuclear Institute of Agriculture, Tandojam |
-| 4 | `niab.org.pk` |  |  | wikidata | Nuclear Institute for Agriculture and Biology |
-| 4 | `nifa.org.pk` |  |  | wikidata | Nuclear Institute for Food and Agriculture |
-| 4 | `nih.org.pk` |  |  | wikidata | National Institute of Health |
-| 4 | `ogra.org.pk` | central |  | wikidata | Oil and Gas Regulatory Authority |
-| 4 | `psqca.com.pk` |  |  | wikidata | Pakistan Standards and Quality Control Authority |
-| 4 | `qda.gob.pk` |  |  | wikidata | Quetta Development Authority |
-| 4 | `sbp.org.pk` |  |  | wikidata | State Bank of Pakistan |
-| 3 | `bembassy.org` | central |  | wikidata | embassy of Bosnia and Herzegovina in Pakistan |
-| 3 | `dfa.ie` |  |  | wikidata | Honorary consulate of Ireland, Karachi |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Pakistan |
-| 3 | `finlandabroad.fi` | central |  | wikidata | Embassy of Finland, Islamabad |
+| 7 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata;wikidata | Embassy of the United Arab Emirates, Islamabad | Consulate-General of the Uni... |
+| 6 | `pk.ambafrance.org` | central | 301 | wikidata;wikidata | Q62818123 | Embassy of France, Islamabad |
+| 5 | `pakistanpressfoundation.org` | central | 200 | wikidata | Supreme Court of Pakistan |
+| 4 | `caapakistan.com.pk` |  | SSLHandsh... | wikidata | Pakistan Civil Aviation Authority |
+| 4 | `chf.edu.pk` |  | 200 | wikidata | Children Hospital, Faisalabad |
+| 4 | `hsa.edu.pk` |  | 200 | wikidata | Health Services Academy |
+| 4 | `india.org.pk` | central | 403 | wikidata | High Commission of India, Islamabad |
+| 4 | `mepco.com.pk` |  | 200 | wikidata | Multan Electric Power Company |
+| 4 | `nia.org.pk` |  | 200 | wikidata | Nuclear Institute of Agriculture, Tandojam |
+| 4 | `niab.org.pk` |  | HttpConne... | wikidata | Nuclear Institute for Agriculture and Biology |
+| 4 | `nifa.org.pk` |  | 200 | wikidata | Nuclear Institute for Food and Agriculture |
+| 4 | `nih.org.pk` |  | 200 | wikidata | National Institute of Health |
+| 4 | `ogra.org.pk` | central | 403 | wikidata | Oil and Gas Regulatory Authority |
+| 4 | `psqca.com.pk` |  | 301 | wikidata | Pakistan Standards and Quality Control Authority |
+| 4 | `qda.gob.pk` |  | 200 | wikidata | Quetta Development Authority |
+| 4 | `sbp.org.pk` |  | ConnectEx... | wikidata | State Bank of Pakistan |
+| 3 | `bembassy.org` | central | SSLHandsh... | wikidata | embassy of Bosnia and Herzegovina in Pakistan |
+| 3 | `dfa.ie` |  | 301 | wikidata | Honorary consulate of Ireland, Karachi |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Pakistan |
+| 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Islamabad |
 

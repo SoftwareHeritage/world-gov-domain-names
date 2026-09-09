@@ -1,0 +1,106 @@
+hostname,http_status,mx
+aade.gr,403,0 aade-gr.mail.protection.outlook.com.
+acci.gr,200,0 acci-gr.mail.protection.outlook.com.
+acsmi.gr,200,0 acsmi-gr.mail.protection.outlook.com.
+aead.gr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,30 mx4.otenet.gr.; 10 mx.otenet.gr.
+areiospagos.gr,200,25 mx3.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.; 15 mx2.otenet.gr.
+argolisculture.gr,301,10 mail.argolisculture.gr.; 21 mail2.argolisculture.gr.
+army.gr,200,5 mailer2.army.gr.
+asep.gr,ConnectException,15 mx2.otenet.gr.; 10 mx.otenet.gr.; 30 mx4.otenet.gr.; 25 mx3.otenet.gr.
+astynomia.gr,403,20 mailhost2.astynomia.gr.; 10 mailhost1.astynomia.gr.
+atena.mae.ro,503,none
+atene.veleposlanistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+athen.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+athenes.mae.lu,302,none
+athens.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+athens.europarl.europa.eu,302,none
+athens.mfa.ee,200,none
+athens.thaiembassy.org,200,none
+bankofgreece.gr,ConnectException,10 mail.bankofgreece.gr.
+dei.gr,308,0 dei-gr.mail.protection.outlook.com.
+dpa.gr,301,1 mx1-eu1.ppe-hosted.com.; 2 mx2-eu1.ppe-hosted.com.
+eagme.gr,200,0 eagme-gr.mail.protection.outlook.com.
+eea.gr,301,10 mx.otenet.gr.; 25 mx3.otenet.gr.; 15 mx2.otenet.gr.
+eeae.gr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 edge01.eeae.gr.; 10 cust61469-1.in.mailcontrol.com.; 30 email.eeae.gr.; 10 cust61469-2.in.mailcontrol.com.; 40 mail.eeae.gr.
+eetaa.gr,200,0 eetaa-gr.mail.protection.outlook.com.
+eett.gr,ConnectException,10 mailn.eett.gr.
+efaaitl.gr,301,10 mail.efaaitl.gr.
+efachagor.gr,301,none
+efada.gr,301,10 mail.efada.gr.
+efadod.gr,200,0 efadod.gr.
+efadyat.wordpress.com,200,none
+efeteio-peir.gr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching efeteio-peir.gr found.,15 mx2.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.; 25 mx3.otenet.gr.
+efeteio-thess.gr,301,0 mx1.mailchannels.net.; 0 mx2.mailchannels.net.
+efeteioathinon.gr,200,25 mx3.otenet.gr.; 10 mx.otenet.gr.; 15 mx2.otenet.gr.; 30 mx4.otenet.gr.
+efeteiododekanisou.blogspot.com,200,none
+elgo.gr,403,0 elgo-gr.mail.protection.outlook.com.
+elsyn.gr,ConnectException,5 mail-services.elsyn.gr.
+epant.gr,200,0 epant-gr.mail.protection.outlook.com.
+ere.gr,200,10 mail.ere.gr.
+esr.gr,301,10 mx.spamexperts.com.; 20 fallbackmx.spamexperts.eu.; 30 lastmx.spamexperts.net.
+et.gr,200,30 mx4.otenet.gr.; 10 mx.otenet.gr.; 15 mx2.otenet.gr.; 25 mx3.otenet.gr.
+fgm.com.gr,301,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+fireservice.gr,HttpConnectTimeoutException: HTTP connect timed out,30 mx4.otenet.gr.; 25 mx3.otenet.gr.; 15 mx2.otenet.gr.; 10 mx.otenet.gr.
+gak.gr,301,20 mx2.sch.gr.; 10 mx.sch.gr.
+geetha.mil.gr,403,none
+gr.ambafrance.org,301,none
+gr.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gr.china-embassy.org found.,none
+gr.mfa.lt,403,none
+gr.mvep.hr,ConnectException,none
+graekenland.um.dk,301,none
+greece.mfa.am,301,none
+greece.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+greece.representation.ec.europa.eu,302,none
+greeklanguage.gr,200,10 mail.greeklanguage.gr.
+griechenland.ahk.de,302,none
+griechenland.diplo.de,200,none
+grnet.gr,200,10 mx0.grnet.gr.
+gsis.gr,403,0 gsis-gr.mail.protection.outlook.com.
+gwp.org,301,10 gwp-org.mail.protection.outlook.com.
+gys.gr,ConnectException,20 ALT4.ASPMX.L.GOOGLE.COM.; 30 mail.gys.gr.; 20 ALT3.ASPMX.L.GOOGLE.COM.; 0 ASPMX.L.GOOGLE.COM.; 10 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT1.ASPMX.L.GOOGLE.COM.
+harsia.gr,301,0 mail.harsia.gr.
+hcaa.gr,ConnectException,5 mail2.hcaa.gr.
+hcg.gr,301,20 mx2.hcg.gr.
+hcmc.gr,ConnectException,10 mail1.cmc.gov.gr.
+hellenicparliament.gr,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching hellenicparliament.gr found.,20 erato.parliament.gr.; 1 kleio.parliament.gr.
+hts.org.gr,403,0 mail.hts.org.gr.
+iatros.org,200,0 .
+idika.gr,ConnectException,50 mail1.idika.gr.; 70 mail3.idika.gr.; 70 mail2.idika.gr.; 10 mail.idika.gr.
+jordanembassy.gr,200,none
+mathra.gr,ConnectException,0 mathra-gr.mail.protection.outlook.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+minagric.gr,403,10 pythia.minagric.gr.
+mindigital.gr,403,0 mindigital-gr.mail.protection.outlook.com.
+minfin.gr,301,0 minfin-gr.mail.protection.outlook.com.
+ministryofjustice.gr,403,25 mx3.otenet.gr.; 15 mx2.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.
+mnec.gr,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mnec.gr.
+mod.mil.gr,ConnectException,1 mxin.smtp.mil.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nam.culture.gr,200,none
+nederlandwereldwijd.nl,301,0 .
+nis.gr,302,10 mail.nis.gr.
+nlg.gr,301,0 nlg-gr.mail.protection.outlook.com.
+nsk.gr,ConnectException,0 nsk-gr.mail.protection.outlook.com.
+oasp.gr,200,0 oasp-gr.mail.protection.outlook.com.
+okana.gr,301,15 mailgw.okana.gr.; 10 mail.okana.gr.; 20 mail2.okana.gr.
+olp.gr,301,0 olp-gr.mail.protection.outlook.com.
+pakistanembassy.gr,ConnectException,none
+panamaconsulate.gr,301,10 panamaconsulate-gr.mail.protection.outlook.com.
+pezaunion.gr,200,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 0 aspmx.l.google.com.; 10 webcpw05.internet.gr.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.
+protodikeio-ath.gr,ConnectException,10 mail.protodikeio-ath.gr.
+rae.gr,301,0 rae-gr.mail.protection.outlook.com.
+roc-taiwan.org,302,none
+saloniki.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+statistics.gr,302,5 mail.statistics.gr.
+ste.gr,ConnectException,10 mail.adjustice.gr.
+swedenabroad.com,301,none
+thessaloniki.diplo.de,301,10 mx2.bund.de.; 10 mx1.bund.de.
+visitgreece.gr,301,0 eotemail.gnto.gr.; 5 eotemail2.gnto.gr.
+yme.gr,ConnectException,20 mailsrv.otenet.gr.
+ynanp.gr,301,none
+ypakp.gr,301,15 mx2.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.; 25 mx3.otenet.gr.
+ypes.gr,403,30 mx4.otenet.gr.; 10 mx.otenet.gr.; 0 ypes-gr.mail.protection.outlook.com.; 25 mx3.otenet.gr.; 15 mx2.otenet.gr.

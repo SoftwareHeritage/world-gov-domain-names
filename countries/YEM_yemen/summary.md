@@ -35,15 +35,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 6 | `moee-ye.com` | central |  | wikidata;wikidata | Ministry of Electricity and Energy |
-| 4 | `saba.ye` |  |  | wikidata | Saba News Agency |
-| 3 | `ambafrance-ye.org` | central |  | wikidata | Embassy of France, Sana'a |
-| 3 | `arabiafelixacademy.org` |  |  | wikidata | Majmaʻ al-ʻArabīyah al-saʻīdah |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Yemen |
-| 3 | `mfa.bg` | central |  | wikidata | embassy of Bulgaria in Yemen |
-| 3 | `nlye.org` |  |  | wikidata | National Library of Yemen |
-| 3 | `sabanew.net` |  |  | wikidata | Saba News Agency |
-| 3 | `yemen-nic.info` |  |  | wikidata | Q12192852 |
-| 3 | `yemen.mid.ru` | central |  | wikidata | embassy of Russia in Yemen |
-| 1 | `ye.chineseembassy.org` | central |  | wikidata;wikidata;wikidata | Embassy of the People's Republic of China, Sanaa |
+| 6 | `moee-ye.com` | central | 200 | wikidata;wikidata | Ministry of Electricity and Energy |
+| 4 | `saba.ye` |  | 302 | wikidata | Saba News Agency |
+| 3 | `ambafrance-ye.org` | central | ConnectEx... | wikidata | Embassy of France, Sana'a |
+| 3 | `arabiafelixacademy.org` |  | SSLHandsh... | wikidata | Majmaʻ al-ʻArabīyah al-saʻīdah |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Yemen |
+| 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Yemen |
+| 3 | `nlye.org` |  | 200 | wikidata | National Library of Yemen |
+| 3 | `sabanew.net` |  | 200 | wikidata | Saba News Agency |
+| 3 | `yemen-nic.info` |  | 200 | wikidata | Q12192852 |
+| 3 | `yemen.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Yemen |
+| 1 | `ye.chineseembassy.org` | central | SSLHandsh... | wikidata;wikidata;wikidata | Embassy of the People's Republic of China, Sanaa |
 

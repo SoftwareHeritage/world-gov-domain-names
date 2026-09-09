@@ -1,13 +1,13 @@
 hostname,score,sources,label,level,http_status,mx
-centroamericaribeschp.com,6,wikidata;wikidata,Piarist province Central America- Caribbean,,,
-jesuites.ca,6,wikidata;wikidata,Canada Province of the Society of Jesus,,,
-jesuits.ca,6,wikidata;wikidata,Canada Province of the Society of Jesus,,,
-roc-taiwan.org,6,wikidata;wikidata,"Embassy of the Republic of China (Taiwan), Port-au-Prince",central,,
-brh.ht,4,wikidata,Bank of the Republic of Haiti,,,
-cephaiti.ht,4,wikidata,Provisional Electoral Council,central,,
-pnh.ht,4,wikidata,Haitian National Police,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Haiti,,,
-ht.ambafrance.org,3,wikidata,"Embassy of France, Port-au-Prince",central,,
-ihsi.ayiti.digital,3,wikidata,Institut Haïtien de Statistique et d'Informatique,central,,
-port-au-prince.diplo.de,3,wikidata,"embassy of Germany, Port-au-Prince",central,,
-leparlementhaitien.info,1,wikidata;wikidata;wikidata,Parliament of Haiti | Chamber of Deputies,central,,
+centroamericaribeschp.com,6,wikidata;wikidata,Piarist province Central America- Caribbean,,400,none
+jesuites.ca,6,wikidata;wikidata,Canada Province of the Society of Jesus,,200,0 jesuites-ca.mail.protection.outlook.com.
+jesuits.ca,6,wikidata;wikidata,Canada Province of the Society of Jesus,,200,0 jesuits-ca.mail.protection.outlook.com.
+roc-taiwan.org,6,wikidata;wikidata,"Embassy of the Republic of China (Taiwan), Port-au-Prince",central,302,none
+brh.ht,4,wikidata,Bank of the Republic of Haiti,,ConnectException,10 brh-exedge-01.brh.ht.; 0 brh-ht.mail.protection.outlook.com.
+cephaiti.ht,4,wikidata,Provisional Electoral Council,central,200,0 mail.cephaiti.ht.
+pnh.ht,4,wikidata,Haitian National Police,central,HttpConnectTimeoutException: HTTP connect timed out,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Haiti,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+ht.ambafrance.org,3,wikidata,"Embassy of France, Port-au-Prince",central,301,none
+ihsi.ayiti.digital,3,wikidata,Institut Haïtien de Statistique et d'Informatique,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 vp29-or2.hostingpanel1.com.
+port-au-prince.diplo.de,3,wikidata,"embassy of Germany, Port-au-Prince",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+leparlementhaitien.info,1,wikidata;wikidata;wikidata,Parliament of Haiti | Chamber of Deputies,central,200,0 leparlementhaitien.info.

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `justice.cz` | central-1 |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | District Court in Teplice | District Court in Kutná Hora | District Court in ... |
-| 7 | `antee.cz` |  |  | wikidata;wikidata | Vidice | Němčice |
-| 7 | `congregatio-jesu.tode.cz` |  |  | wikidata;wikidata | Czech province Congregatio Jesu |
-| 7 | `czechspace.cz` |  |  | wikidata;wikidata | Czech Space Office |
-| 7 | `eagri.cz` |  |  | wikidata;wikidata | Národní Agentura pro Zemědělský Výzkum | State Phytosanitary Administration |
-| 7 | `hedvicky.cz` |  |  | wikidata;wikidata | Czech Province Congregation of the Sisters of St. Hedwig |
-| 7 | `hostka.cz` |  |  | wikidata;wikidata | Q12049095 | Hoštka |
-| 7 | `idpk.cz` |  |  | wikidata;wikidata | Integrated Transport of the Pilsen Region |
-| 7 | `idsjmk.cz` |  |  | wikidata;wikidata | Integrated transport system of the South Moravian region |
-| 7 | `ivanovicenahane.cz` |  |  | wikidata;wikidata | Ivanovice na Hané | Q12022068 |
-| 7 | `jaromericenr.cz` |  |  | wikidata;wikidata | Q12049657 | Jaroměřice nad Rokytnou |
-| 7 | `jevisovice.cz` |  |  | wikidata;wikidata | Jevišovice | Q11812799 |
-| 7 | `kralicenosl.cz` |  |  | wikidata;wikidata | Kralice nad Oslavou | Q11730729 |
-| 7 | `mbudejovice.cz` |  |  | wikidata;wikidata | Moravskobudějovický microregion | Moravské Budějovice |
-| 7 | `mzcr.cz` |  |  | wikidata;linkgraph | Q45898143 |
-| 7 | `nechanicko.cz` |  |  | wikidata;wikidata | Třesovice | Mžany |
-| 7 | `obec-lidice.cz` |  |  | wikidata;wikidata | Lidice | Q12037054 |
-| 7 | `oblati.cz` |  |  | wikidata;wikidata | Central European Province O. M. I. |
-| 7 | `pid.cz` |  |  | wikidata;wikidata | Q12048433 |
-| 7 | `pmscr.cz` |  |  | wikidata;wikidata | Probační a mediační služba | Q122828118 |
+| 10 | `justice.cz` | central-1 | 302 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | District Court in Teplice | District Court in Kutná Hora | District Court in ... |
+| 7 | `antee.cz` |  | 301 | wikidata;wikidata | Vidice | Němčice |
+| 7 | `congregatio-jesu.tode.cz` |  | 200 | wikidata;wikidata | Czech province Congregatio Jesu |
+| 7 | `czechspace.cz` |  | 200 | wikidata;wikidata | Czech Space Office |
+| 7 | `eagri.cz` |  | 302 | wikidata;wikidata | Národní Agentura pro Zemědělský Výzkum | State Phytosanitary Administration |
+| 7 | `hedvicky.cz` |  | 301 | wikidata;wikidata | Czech Province Congregation of the Sisters of St. Hedwig |
+| 7 | `hostka.cz` |  | 302 | wikidata;wikidata | Q12049095 | Hoštka |
+| 7 | `idpk.cz` |  | 301 | wikidata;wikidata | Integrated Transport of the Pilsen Region |
+| 7 | `idsjmk.cz` |  | 301 | wikidata;wikidata | Integrated transport system of the South Moravian region |
+| 7 | `ivanovicenahane.cz` |  | 302 | wikidata;wikidata | Ivanovice na Hané | Q12022068 |
+| 7 | `jaromericenr.cz` |  | 200 | wikidata;wikidata | Q12049657 | Jaroměřice nad Rokytnou |
+| 7 | `jevisovice.cz` |  | 301 | wikidata;wikidata | Jevišovice | Q11812799 |
+| 7 | `kralicenosl.cz` |  | 302 | wikidata;wikidata | Kralice nad Oslavou | Q11730729 |
+| 7 | `mbudejovice.cz` |  | 405 | wikidata;wikidata | Moravskobudějovický microregion | Moravské Budějovice |
+| 7 | `mzcr.cz` |  | 301 | wikidata;linkgraph | Q45898143 |
+| 7 | `nechanicko.cz` |  | 301 | wikidata;wikidata | Třesovice | Mžany |
+| 7 | `obec-lidice.cz` |  | 302 | wikidata;wikidata | Lidice | Q12037054 |
+| 7 | `oblati.cz` |  | 301 | wikidata;wikidata | Central European Province O. M. I. |
+| 7 | `pid.cz` |  | 200 | wikidata;wikidata | Q12048433 |
+| 7 | `pmscr.cz` |  | 301 | wikidata;wikidata | Probační a mediační služba | Q122828118 |
 

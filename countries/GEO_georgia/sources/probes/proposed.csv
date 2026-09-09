@@ -1,0 +1,36 @@
+hostname,http_status,mx
+aidscenter.ge,200,10 aspmx.l.google.com.
+cesko.ge,403,none
+comcom.ge,301,0 comcom-ge.mail.protection.outlook.com.
+economy.ge,200,10 mx1.economy.ge.; 20 mx2.economy.ge.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ge.ambafrance.org,301,none
+ge.mfa.lt,403,none
+geostat.ge,302,10 mail.geostat.ge.
+geostm.ge,ConnectException,0 geostm.ge.
+gosarchive.apsny.land,200,20 mail.gosarchive.apsny.land.; 10 mail.gosarchive.apsny.land.
+heraldika.ge,200,10 mail.heraldika.gov.ge.
+heritagesites.ge,302,1 smtp.google.com.
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mia.police.ge,200,none
+mof.ge,200,5 edge01.mof.ge.
+mrdg.health.mil,403,none
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+ncdc.ge,200,10 mx1.moh.gov.ge.
+nederlandwereldwijd.nl,301,0 .
+norway.no,301,0 mx.domeneshop.no.
+parliament.ge,200,10 mail01.parliament.ge.
+police.ge,200,10 mail.police.ge.
+rustaveli.org.ge,200,0 rustaveli-org-ge.mail.protection.outlook.com.
+sca.ge,200,10 mail.sca.ge.; 0 mail.sca.ge.
+sciencelib.ge,200,10 ghs.l.google.com.; 10 ghs.google.com.; 1 aspmx.l.google.com.
+supremecourt.ge,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching supremecourt.ge found.,1 mx.grena.ge.
+swedenabroad.se,301,none
+tbilisi.mae.ro,503,none
+tbilisi.mfa.ee,200,none
+tbiliszi.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tiflis.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+unesco.ge,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching unesco.ge found.,0 unesco.ge.
+vaticange.org,200,10 mail.register.it.

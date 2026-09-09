@@ -1,0 +1,28 @@
+hostname,http_status,mx
+accra.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+accra.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cocobod.gh,200,0 cocobod-gh.mail.protection.outlook.com.
+csir.org.gh,200,10 igw05.site4now.net.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+fao.org,301,10 mx2.hc673-36.c3s2.iphmx.com.; 10 mx1.hc673-36.c3s2.iphmx.com.
+fcghana.org,200,0 fcghana-org.mail.protection.outlook.com.
+gcaa.com.gh,ConnectException,0 gcaa-com-gh.mail.protection.outlook.com.
+gh.ambafrance.org,301,none
+ghana-net.com,200,0 ghana-net.com.
+ghana.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ghana.travel,200,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+ghana.um.dk,301,none
+ghanamuseums.org,301,25 mail.ghanamuseums.org.
+ghanawildlife.org,200,25 mail.ghanawildlife.org.
+govgh.org,301,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
+gssti.org,200,0 mail.gssti.org.
+mdcghana.org,301,0 _dc-mx.945f0f3cbbd1.mdcghana.org.
+mha-ghana.com,SSLException: (internal_error) Received fatal alert: internal_error,none
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nca.org.gh,200,0 nca-org-gh.mail.protection.outlook.com.
+ncte.edu.gh,ConnectException,none
+nederlandwereldwijd.nl,301,0 .
+norway.no,301,0 mx.domeneshop.no.
+parliament.gh,403,10 smtp.parliament.gh.
+wrc-gh.org,301,none

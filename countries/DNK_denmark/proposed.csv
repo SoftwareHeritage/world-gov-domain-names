@@ -1,165 +1,165 @@
 hostname,score,sources,label,level,http_status,mx
-datatilsynet.dk,10,wikidata;wikidata;linkgraph,Danish Data Protection Agency,central,,
-digst.dk,10,wikidata;linkgraph,Agency for Digital Government,,,
-politi.dk,10,wikidata;wikidata;linkgraph,Police of Denmark | Rigspolitiet,,,
+datatilsynet.dk,10,wikidata;wikidata;linkgraph,Danish Data Protection Agency,central,200,10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.
+digst.dk,10,wikidata;linkgraph,Agency for Digital Government,,200,10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.
+politi.dk,10,wikidata;wikidata;linkgraph,Police of Denmark | Rigspolitiet,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.politi.dk.; 10 mail2.politi.dk.
 advokatnævnet.dk,7,wikidata;wikidata,Disciplinary Board,,,
-at.dk,7,wikidata;wikidata,Danish Working Environment Authority,,,
-borger.dk,7,linkgraph,Linked from 22 public-sector domains,,,
-bygst.dk,7,wikidata;wikidata,Danish Building and Property Agency,,,
-cfcs.dk,7,wikidata;wikidata,Centre for Cyber Security,,,
-cpr.dk,7,wikidata;wikidata,CPR-Kontoret,,,
-dff.dk,7,wikidata;wikidata,Independent Research Fund Denmark,,,
-domaeneklager.dk,7,wikidata;wikidata,Danish Complaints Board for Domain Names,,,
-ens.dk,7,wikidata;wikidata,Danish Energy Agency,,,
-erhvervsfremmebestyrelsen.dk,7,wikidata;wikidata,Danish Board of Business Development,,,
-fanke.dk,7,wikidata;wikidata,Danish Financial Complaint Board,,,
-fe-ddis.dk,7,wikidata;wikidata,Danish Defence Intelligence Service,,,
-fmi.dk,7,wikidata;wikidata,Danish Defence Acquisition and Logistics Organization,,,
-forsyningstilsynet.dk,7,wikidata;wikidata,Danish Utility Regulator,,,
-fstyr.dk,7,wikidata;wikidata,Danish Road Traffic Authority,,,
-handelskammer.dk,7,wikidata;wikidata,German-Danish Chamber of Commerce,,,
-kfst.dk,7,wikidata;wikidata,Danish Competition Council | Danish Competition and Consumer Authority,,,
-nationalbanken.dk,7,wikidata;wikidata,Danmarks Nationalbank,,,
-oes.dk,7,wikidata;wikidata,Agency for Public Finance and Management,,,
-regnskabsstyrelsen.dk,7,wikidata;wikidata,Danish Defence Accounting Agency,,,
-sik.dk,7,wikidata;wikidata,Danish Safety Technology Authority,,,
-skatteankestyrelsen.dk,7,wikidata;wikidata;wikidata,Tax Appeals Agency | National Tax Tribunal,,,
-statens-adm.dk,7,wikidata;wikidata,Agency for Governmental Administration,,,
-statens-it.dk,7,wikidata;wikidata,Agency for Governmental IT Services,,,
-stpk.dk,7,wikidata;wikidata,Danish Agency for Patient Complaints | Q11956800,,,
-stps.dk,7,wikidata;linkgraph,Danish Patient Safety Authority,,,
-teleanke.dk,7,wikidata;wikidata,Danish Telecommunications Complaint Board,,,
-tet.dk,7,wikidata;wikidata,Danish Intelligence Oversight Board,,,
-trafikstyrelsen.dk,7,wikidata;wikidata,Q104826400 | Danish Civil Aviation and Railway Authority,,,
-us.dk,7,wikidata;wikidata,Danish Immigration Service | Q126918528,,,
-xn--danmarksfngsler-5lb.dk,7,wikidata;wikidata,Q137361328 | Q137361371,,,
-oscepa.org,6,wikidata;wikidata,Parliamentary Assembly of the Organization for Security and Co-operation in Europe,,,
-retsinformation.dk,6,linkgraph,Linked from 11 public-sector domains,,,
-mitid.dk,5,linkgraph,Linked from 6 public-sector domains,,,
-naevneneshus.dk,5,wikidata;wikidata;wikidata;wikidata;linkgraph,Danish Environment and Food Board of Appeal | Danish Competition Appeals Tribunal | Danish Energy Board of Appeal | Danish Appeals Boards Authority,central,,
-virk.dk,5,linkgraph,Linked from 9 public-sector domains,,,
-adst.dk,4,wikidata,Administration and Services Agency of the Danish Ministry of Taxation,,,
-agricultureandfood.dk,4,wikidata,Danish Agriculture and Food Council,,,
-amff.dk,4,wikidata,Arbejdsmiljøforskningsfonden,,,
-arbejdsmiljoforskning.dk,4,wikidata,National Research Center for the Working Environment,,,
-ast.dk,4,wikidata,National Social Appeals Board,,,
-bane.dk,4,wikidata,Banedanmark,,,
-bat.dk,4,wikidata,BAT,,,
-benchmark.dk,4,wikidata,The benchmark unit of the Danish Ministry of Interior and Health,,,
-beredskab.helsingor.dk,4,wikidata,Q139517167,,,
-beredskab4k.dk,4,wikidata,Q139516664,,,
-beros.dk,4,wikidata,Q127117796,,,
-brand.kk.dk,4,wikidata,Copenhagen Fire Department,,,
-brandvaesen.roskilde.dk,4,wikidata,Q139516492,,,
-brs.dk,4,wikidata,Danish Emergency Management Agency,,,
-civilstyrelsen.dk,4,wikidata,Department of Civil Affairs,,,
-consumerombudsman.dk,4,wikidata,Danish Consumer Ombudsman institution,central,,
-danishbusinessauthority.dk,4,wikidata,Danish Business Authority,,,
-dankultur.dk,4,wikidata,Danish Cultural Institute,,,
+at.dk,7,wikidata;wikidata,Danish Working Environment Authority,,200,10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.
+borger.dk,7,linkgraph,Linked from 22 public-sector domains,,301,10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.
+bygst.dk,7,wikidata;wikidata,Danish Building and Property Agency,,200,10 mx06.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.
+cfcs.dk,7,wikidata;wikidata,Centre for Cyber Security,,301,10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.
+cpr.dk,7,wikidata;wikidata,CPR-Kontoret,,301,15 mx03.statens-it.dk.; 15 mx05.statens-it.dk.; 15 mx08.statens-it.dk.; 15 mx06.statens-it.dk.; 15 mx04.statens-it.dk.; 15 mx02.statens-it.dk.; 15 mx01.statens-it.dk.; 15 mx07.statens-it.dk.
+dff.dk,7,wikidata;wikidata,Independent Research Fund Denmark,,200,10 mx01.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.
+domaeneklager.dk,7,wikidata;wikidata,Danish Complaints Board for Domain Names,,301,10 domaeneklager-dk.mail.protection.outlook.com.
+ens.dk,7,wikidata;wikidata,Danish Energy Agency,,200,10 mx03.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx08.statens-it.dk.
+erhvervsfremmebestyrelsen.dk,7,wikidata;wikidata,Danish Board of Business Development,,200,none
+fanke.dk,7,wikidata;wikidata,Danish Financial Complaint Board,,200,0 fanke-dk.mail.protection.outlook.com.
+fe-ddis.dk,7,wikidata;wikidata,Danish Defence Intelligence Service,,301,0 feddis-dk0e.v-v1.mx.microsoft.
+fmi.dk,7,wikidata;wikidata,Danish Defence Acquisition and Logistics Organization,,301,10 relay1.netnames.net.; 20 relay2.netnames.net.
+forsyningstilsynet.dk,7,wikidata;wikidata,Danish Utility Regulator,,200,10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.
+fstyr.dk,7,wikidata;wikidata,Danish Road Traffic Authority,,301,10 mx07.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.
+handelskammer.dk,7,wikidata;wikidata,German-Danish Chamber of Commerce,,302,0 handelskammer-dk.mail.protection.outlook.com.
+kfst.dk,7,wikidata;wikidata,Danish Competition Council | Danish Competition and Consumer Authority,,200,10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx08.statens-it.dk.
+nationalbanken.dk,7,wikidata;wikidata,Danmarks Nationalbank,,301,10 nationalbanken-dk.mail.protection.outlook.com.
+oes.dk,7,wikidata;wikidata,Agency for Public Finance and Management,,200,10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.
+regnskabsstyrelsen.dk,7,wikidata;wikidata,Danish Defence Accounting Agency,,301,10 mx01.dandomain.dk.
+sik.dk,7,wikidata;wikidata,Danish Safety Technology Authority,,301,10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.
+skatteankestyrelsen.dk,7,wikidata;wikidata;wikidata,Tax Appeals Agency | National Tax Tribunal,,200,0 .
+statens-adm.dk,7,wikidata;wikidata,Agency for Governmental Administration,,200,10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx04.statens-it.dk.
+statens-it.dk,7,wikidata;wikidata,Agency for Governmental IT Services,,200,10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx08.statens-it.dk.
+stpk.dk,7,wikidata;wikidata,Danish Agency for Patient Complaints | Q11956800,,HttpConnectTimeoutException: HTTP connect timed out,10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.
+stps.dk,7,wikidata;linkgraph,Danish Patient Safety Authority,,200,10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.
+teleanke.dk,7,wikidata;wikidata,Danish Telecommunications Complaint Board,,200,10 teleanke-dk.mail.protection.outlook.com.
+tet.dk,7,wikidata;wikidata,Danish Intelligence Oversight Board,,HttpConnectTimeoutException: HTTP connect timed out,10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx07.statens-it.dk.
+trafikstyrelsen.dk,7,wikidata;wikidata,Q104826400 | Danish Civil Aviation and Railway Authority,,301,10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.
+us.dk,7,wikidata;wikidata,Danish Immigration Service | Q126918528,,200,10 mx03.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.
+xn--danmarksfngsler-5lb.dk,7,wikidata;wikidata,Q137361328 | Q137361371,,200,none
+oscepa.org,6,wikidata;wikidata,Parliamentary Assembly of the Organization for Security and Co-operation in Europe,,HttpConnectTimeoutException: HTTP connect timed out,30 aspmx3.googlemail.com.; 10 aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.
+retsinformation.dk,6,linkgraph,Linked from 11 public-sector domains,,301,none
+mitid.dk,5,linkgraph,Linked from 6 public-sector domains,,301,5 mx06.statens-it.dk.; 10 mx05.sitnet.dk.; 5 mx04.statens-it.dk.; 10 mx06.sitnet.dk.; 5 mx08.statens-it.dk.; 5 mx01.statens-it.dk.; 10 mx04.sitnet.dk.; 5 mx02.statens-it.dk.; 5 mx03.statens-it.dk.; 10 mx08.sitnet.dk.; 10 mx01.sitnet.dk.; 5 mx07.statens-it.dk.; 10 mx03.sitnet.dk.; 5 mx05.statens-it.dk.; 10 mx07.sitnet.dk.; 10 mx02.sitnet.dk.
+naevneneshus.dk,5,wikidata;wikidata;wikidata;wikidata;linkgraph,Danish Environment and Food Board of Appeal | Danish Competition Appeals Tribunal | Danish Energy Board of Appeal | Danish Appeals Boards Authority,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.
+virk.dk,5,linkgraph,Linked from 9 public-sector domains,,200,5 virk-dk.h-v1.mx.microsoft.
+adst.dk,4,wikidata,Administration and Services Agency of the Danish Ministry of Taxation,,200,10 adst-dk.b-v1.mx.microsoft.
+agricultureandfood.dk,4,wikidata,Danish Agriculture and Food Council,,HttpConnectTimeoutException: HTTP connect timed out,none
+amff.dk,4,wikidata,Arbejdsmiljøforskningsfonden,,HttpConnectTimeoutException: HTTP connect timed out,none
+arbejdsmiljoforskning.dk,4,wikidata,National Research Center for the Working Environment,,HttpConnectTimeoutException: HTTP connect timed out,10 mx04.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx02.statens-it.dk.
+ast.dk,4,wikidata,National Social Appeals Board,,HttpConnectTimeoutException: HTTP connect timed out,10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx08.statens-it.dk.
+bane.dk,4,wikidata,Banedanmark,,HttpConnectTimeoutException: HTTP connect timed out,10 bane-dk.k-v1.mx.microsoft.
+bat.dk,4,wikidata,BAT,,HttpConnectTimeoutException: HTTP connect timed out,10 mx2-dk.centerasecurity.dk.; 10 mx1-dk.centerasecurity.dk.; 20 mx3-dk.centerasecurity.dk.
+benchmark.dk,4,wikidata,The benchmark unit of the Danish Ministry of Interior and Health,,HttpConnectTimeoutException: HTTP connect timed out,10 mx03.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.
+beredskab.helsingor.dk,4,wikidata,Q139517167,,HttpConnectTimeoutException: HTTP connect timed out,10 mx2-dk.centerasecurity.dk.; 10 mx1-dk.centerasecurity.dk.; 20 mx3-dk.centerasecurity.dk.
+beredskab4k.dk,4,wikidata,Q139516664,,HttpConnectTimeoutException: HTTP connect timed out,0 frontmta.hostedsepo.dk.
+beros.dk,4,wikidata,Q127117796,,HttpConnectTimeoutException: HTTP connect timed out,40 dk.mx4.mx25.net.; 20 dk.mx2.mx25.net.; 10 dk.mx1.mailanyone.net.; 30 dk.mx3.mailanyone.net.
+brand.kk.dk,4,wikidata,Copenhagen Fire Department,,HttpConnectTimeoutException: HTTP connect timed out,none
+brandvaesen.roskilde.dk,4,wikidata,Q139516492,,301,none
+brs.dk,4,wikidata,Danish Emergency Management Agency,,301,20 mailproxy.mil.dk.
+civilstyrelsen.dk,4,wikidata,Department of Civil Affairs,,301,10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.
+consumerombudsman.dk,4,wikidata,Danish Consumer Ombudsman institution,central,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,none
+danishbusinessauthority.dk,4,wikidata,Danish Business Authority,,200,none
+dankultur.dk,4,wikidata,Danish Cultural Institute,,200,none
 danmarksfængsler.dk,4,wikidata,Danmarks Fængsler,,,
-de.naturstyrelsen.dk,4,wikidata,Danish Nature Agency,,,
-dfi.dk,4,wikidata,Danish Film Institute,,,
-dfsa.dk,4,wikidata,Danish Financial Supervisory Authority,,,
-dinoffentligetransport.dk,4,wikidata,Din Offentlige Transport,,,
-dkma.dk,4,wikidata,Danish Medicines Agency,,,
-dkpto.dk,4,wikidata,Danish Patent and Trademark Office,,,
-dma.dk,4,wikidata,Danish Maritime Authority,,,
-dmi.dk,4,wikidata,Danish Meteorological Institute,,,
-dnir.dk,4,wikidata,Council for Ethnic Minorities,,,
-dsn.dk,4,wikidata,Danish Language Council,,,
-dst.dk,4,wikidata,Statistics Denmark,central,,
-en.bygst.dk,4,wikidata,Danish Building and Property Agency,,,
-en.digst.dk,4,wikidata,Agency for Digital Government,,,
-en.kfst.dk,4,wikidata,Danish Competition and Consumer Authority,,,
-en.stps.dk,4,wikidata,Danish Patient Safety Authority,,,
-eng.hjemst.dk,4,wikidata,Danish Return Agency,,,
-eng.mst.dk,4,wikidata,Environmental Protection Agency,,,
-eng.naturstyrelsen.dk,4,wikidata,Danish Nature Agency,,,
-english.slks.dk,4,wikidata,Danish Agency for Culture and Palaces,,,
-erhvervsstyrelsen.dk,4,wikidata,Danish Business Authority,,,
-fauk.dk,4,wikidata,Defence Judge Advocate Corps,,,
-fbbr.dk,4,wikidata,Q139517129,,,
-finanstilsynet.dk,4,wikidata,Danish Financial Supervisory Authority,,,
-fiskeristyrelsen.dk,4,wikidata,The Danish Fisheries Agency,,,
-foedevarestyrelsen.dk,4,wikidata,Q138841964,,,
-forbrugerombudsmanden.dk,4,wikidata,Danish Consumer Ombudsman institution,central,,
-gaeldst.dk,4,wikidata,Danish Debt Collection Agency,,,
-gribskov.dk,4,wikidata,Q139517047,,,
-gst.dk,4,wikidata,Danish Geodata Agency,,,
-havarikommissionen.dk,4,wikidata,Accident Investigation Board Denmark,,,
-hbr.dk,4,wikidata,Copenhagen Fire Department,,,
-hjemst.dk,4,wikidata,Danish Return Agency,,,
-hvu.dk,4,wikidata,Havarikommissionen for Vejtrafikulykker,,,
-itti.dk,4,wikidata,Q118769772,,,
-joannahuset.dk,4,wikidata,Q129328439,,,
-kb.dk,4,wikidata,Royal Danish Library,,,
-klimadatastyrelsen.dk,4,wikidata,The Danish Agency for Climate Data,,,
-kulturvaerdier.kb.dk,4,wikidata,The Danish Commission on the Export of Cultural Assets,,,
-kyst.dk,4,wikidata,Danish Coastal Authority,,,
-lfst.dk,4,wikidata,Q138841964,,,
-medieraadet.dk,4,wikidata,Medierådet for Børn og Unge,,,
-medst.dk,4,wikidata,Q107433749,,,
-midttrafik.dk,4,wikidata,Midttrafik,,,
-militaernaegter.dk,4,wikidata,Q11989468,,,
-motorst.dk,4,wikidata,The Danish Motor Vehicle Agency,,,
-moviatrafik.dk,4,wikidata,Movia,,,
-mst.dk,4,wikidata,Environmental Protection Agency,,,
-naturstyrelsen.dk,4,wikidata,Danish Nature Agency,,,
-naviair.dk,4,wikidata,Naviair,,,
-ngc.dk,4,wikidata,Danish National Genome Center,,,
-nimbi.dk,4,wikidata,Nimbi,,,
-niph.dk,4,wikidata,Danish National Institute of Public Health,,,
-nordjyllandstrafikselskab.dk,4,wikidata,Nordjyllands Trafikselskab,,,
-nsbv.dk,4,wikidata,Q139517041,,,
-pal-emb.dk,4,wikidata,mission of the State of Palestine in Denmark,central,,
-pet.dk,4,wikidata,Danish Security and Intelligence Service,,,
-plst.dk,4,wikidata,Q129328655,,,
-rigsarkivet.dk,4,wikidata,Danish National Archives,,,
-rigsretten.dk,4,wikidata,The Court of Impeachment of the Realm,,,
-rigsrevisionen.dk,4,wikidata,Rigsrevisionen,central,,
-samsik.dk,4,wikidata,Q133040482,,,
-sbst.dk,4,wikidata,Q123037060,,,
-sdfe.dk,4,wikidata,The Danish Agency for Climate Data,,,
-sgavmst.dk,4,wikidata,Agency for Green Transition and Aquatic Environment,,,
-shret.dk,4,wikidata,Maritime and Commercial Court,,,
-sikkerdigital.dk,4,linkgraph,Linked from 4 public-sector domains,,,
-siri.dk,4,wikidata,Danish Agency for International Recruitment and Integration,,,
-skatteforvaltningen.dk,4,wikidata,Skatteforvaltningen,,,
-sktst.dk,4,wikidata,Danish Tax Agency,,,
-slks.dk,4,wikidata,Danish Agency for Culture and Palaces,,,
-slovenien.dk,4,wikidata,honorary consulate of Slovenia to Risskov,,,
-socialstyrelsen.dk,4,wikidata,The National Board of Social Services,,,
-soeg.kb.dk,4,wikidata,Royal Danish Library,,,
-sofartsstyrelsen.dk,4,wikidata,Danish Maritime Authority,,,
-spillemyndigheden.dk,4,wikidata,Spillemyndigheden,,,
-sst.dk,4,wikidata,Danish Health Authority,,,
-star.dk,4,wikidata,National Labour Market Authority,,,
-statsbiblioteket.dk,4,wikidata,Århus State and University Library,,,
-stil.dk,4,wikidata,UNI-C,,,
-stukuvm.dk,4,wikidata,Q11982588,,,
-sundhed.dk,4,linkgraph,Linked from 3 public-sector domains,,,
-sundhedsdatastyrelsen.dk,4,wikidata,The Danish Health Data Authority,,,
-sydtrafik.dk,4,wikidata,Sydtrafik,,,
-tb.taarnby.dk,4,wikidata,Q139516901,,,
-toldst.dk,4,wikidata,Danish Customs Agency,,,
-ufst.dk,4,wikidata,IT and Development Agency of the Danish Ministry of Taxation,,,
-uk.rigsrevisionen.dk,4,wikidata,Rigsrevisionen,central,,
-unesco.dk,4,wikidata,Danish National Commission for UNESCO,,,
-vejdirektoratet.dk,4,wikidata,The Danish Road Directorate,,,
-veteran.forsvaret.dk,4,wikidata,The Danish Veteran Centre,,,
-vurdst.dk,4,wikidata,Danish Property Assessment Agency,,,
-200co.com,3,wikidata,Two Hundred Company,,,
-aka.gl,3,wikidata,Danish Tax Agency,,,
-at.gl,3,wikidata,Danish Working Environment Authority,,,
-copenhagen.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Denmark,central,,
-denmark.representation.ec.europa.eu,3,wikidata,European Commission Representation in Denmark,,,
-dkpto.org,3,wikidata,Danish Patent and Trademark Office,,,
-dmaib.com,3,wikidata,Danish Maritime Accident Investigation Board,,,
-euro.who.int,3,wikidata,World Health Organization - Denmark,,,
-jobsqd.com,3,wikidata,JobSquad,,,
-norden.org,3,wikidata,Nordic Co-operation,,,
-roc-taiwan.org,3,wikidata,Taipei Representative Office in Denmark,,,
-anklagemyndigheden.dk,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Greenland Police prosecution service | North Zealand Police prosecution service | South Jutland Police prosecution service | Central and West Jutland Police prosecution service | Funen Police prosecution service | Faroe Islands Police prosecution service | South East Jutland Police prosecution service | Bornholm Police prosecution service | Central and West Zealand Police prosecution service | South Zealand and Lolland-Falster Police prosecution service | Western Copenhagen Police prosecution service | State Prosecutor of Copenhagen | Copenhagen Police prosecution service | State Prosecutor for Special Crime | Danish Prosecution Service | North Jutland Police prosecution service | East Jutland Police prosecution service | Special Crime Unit prosecution service | Danish Director of Public Prosecutions,,,
-familieretshuset.dk,2,wikidata;wikidata;wikidata,Familieretshuset,,,
-forsvaret.dk,2,wikidata;wikidata;wikidata;wikidata,Danish Defence Acquisition and Logistics Organization | Defence Command | Danish Defence Command,,,
-ufm.dk,2,wikidata;wikidata;wikidata;wikidata,Danish Agency for Science and Higher Education | Danish Council for Independent Research | Medical Sciences | Danish Agency for Institutions and Educational Grants | Independent Research Fund Denmark,,,
+de.naturstyrelsen.dk,4,wikidata,Danish Nature Agency,,200,none
+dfi.dk,4,wikidata,Danish Film Institute,,301,10 mx05.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.
+dfsa.dk,4,wikidata,Danish Financial Supervisory Authority,,HttpConnectTimeoutException: HTTP connect timed out,10 ftsmail2.ftnet.dk.; 10 ftsmail1.ftnet.dk.
+dinoffentligetransport.dk,4,wikidata,Din Offentlige Transport,,200,0 dinoffentligetransport-dk.f-v1.mx.microsoft.
+dkma.dk,4,wikidata,Danish Medicines Agency,,301,10 spamtitan2.dkma.dk.; 10 spamtitan1.dkma.dk.
+dkpto.dk,4,wikidata,Danish Patent and Trademark Office,,301,0 dkpto-dk.p-v1.mx.microsoft.
+dma.dk,4,wikidata,Danish Maritime Authority,,301,10 mx05.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.
+dmi.dk,4,wikidata,Danish Meteorological Institute,,301,10 mx04.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.
+dnir.dk,4,wikidata,Council for Ethnic Minorities,,302,none
+dsn.dk,4,wikidata,Danish Language Council,,200,10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.
+dst.dk,4,wikidata,Statistics Denmark,central,302,5 srvcse1.dst.dk.; 5 srvcse2.dst.dk.
+en.bygst.dk,4,wikidata,Danish Building and Property Agency,,200,none
+en.digst.dk,4,wikidata,Agency for Digital Government,,200,none
+en.kfst.dk,4,wikidata,Danish Competition and Consumer Authority,,200,none
+en.stps.dk,4,wikidata,Danish Patient Safety Authority,,200,none
+eng.hjemst.dk,4,wikidata,Danish Return Agency,,200,none
+eng.mst.dk,4,wikidata,Environmental Protection Agency,,200,none
+eng.naturstyrelsen.dk,4,wikidata,Danish Nature Agency,,200,none
+english.slks.dk,4,wikidata,Danish Agency for Culture and Palaces,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching english.slks.dk found.,none
+erhvervsstyrelsen.dk,4,wikidata,Danish Business Authority,,200,none
+fauk.dk,4,wikidata,Defence Judge Advocate Corps,,301,100 mailgate.mil.dk.; 10 mail21.surftown.dk.
+fbbr.dk,4,wikidata,Q139517129,,200,10 mx2-dk.centerasecurity.dk.; 20 mx3-dk.centerasecurity.dk.; 10 mx1-dk.centerasecurity.dk.
+finanstilsynet.dk,4,wikidata,Danish Financial Supervisory Authority,,301,8 ftsmail2.ftnet.dk.; 32767 ms31466271.msv1.invalid.; 8 ftsmail1.ftnet.dk.; 32767 ms13643762.msv1.invalid.
+fiskeristyrelsen.dk,4,wikidata,The Danish Fisheries Agency,,302,10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.
+foedevarestyrelsen.dk,4,wikidata,Q138841964,,200,10 mx03.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx08.statens-it.dk.
+forbrugerombudsmanden.dk,4,wikidata,Danish Consumer Ombudsman institution,central,200,10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx03.statens-it.dk.
+gaeldst.dk,4,wikidata,Danish Debt Collection Agency,,200,10 gaeldst-dk.b-v1.mx.microsoft.
+gribskov.dk,4,wikidata,Q139517047,,200,15 mx12.electric.net.; 15 mx6.electric.net.
+gst.dk,4,wikidata,Danish Geodata Agency,,200,10 mx02.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.
+havarikommissionen.dk,4,wikidata,Accident Investigation Board Denmark,,200,10 dk.mx1.mailanyone.net.; 30 dk.mx3.mailanyone.net.
+hbr.dk,4,wikidata,Copenhagen Fire Department,,200,30 hbr-dk.mx3.mailanyone.net.
+hjemst.dk,4,wikidata,Danish Return Agency,,200,10 mx04.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.
+hvu.dk,4,wikidata,Havarikommissionen for Vejtrafikulykker,,301,10 mx.tdcwebmore.dk.
+itti.dk,4,wikidata,Q118769772,,200,10 itti-dk.l-v1.mx.microsoft.
+joannahuset.dk,4,wikidata,Q129328439,,301,0 joannahuset-dk.mail.protection.outlook.com.
+kb.dk,4,wikidata,Royal Danish Library,,301,10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx04.statens-it.dk.
+klimadatastyrelsen.dk,4,wikidata,The Danish Agency for Climate Data,,HttpConnectTimeoutException: HTTP connect timed out,none
+kulturvaerdier.kb.dk,4,wikidata,The Danish Commission on the Export of Cultural Assets,,HttpConnectTimeoutException: HTTP connect timed out,none
+kyst.dk,4,wikidata,Danish Coastal Authority,,HttpConnectTimeoutException: HTTP connect timed out,10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx03.statens-it.dk.
+lfst.dk,4,wikidata,Q138841964,,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx03.statens-it.dk.
+medieraadet.dk,4,wikidata,Medierådet for Børn og Unge,,HttpConnectTimeoutException: HTTP connect timed out,none
+medst.dk,4,wikidata,Q107433749,,HttpConnectTimeoutException: HTTP connect timed out,10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx06.statens-it.dk.
+midttrafik.dk,4,wikidata,Midttrafik,,200,0 midttrafik-dk.mail.protection.outlook.com.
+militaernaegter.dk,4,wikidata,Q11989468,,HttpConnectTimeoutException: HTTP connect timed out,5 mail.webhotel.net.
+motorst.dk,4,wikidata,The Danish Motor Vehicle Agency,,200,10 motorst-dk.s-v1.mx.microsoft.
+moviatrafik.dk,4,wikidata,Movia,,HttpConnectTimeoutException: HTTP connect timed out,0 frontmta.hostedsepo.dk.
+mst.dk,4,wikidata,Environmental Protection Agency,,301,10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.
+naturstyrelsen.dk,4,wikidata,Danish Nature Agency,,200,none
+naviair.dk,4,wikidata,Naviair,,301,20 naviair-dk.mx2.comendosystems.net.; 10 naviair-dk.mx1.comendosystems.com.
+ngc.dk,4,wikidata,Danish National Genome Center,,301,5 ngc-dk.u-v1.mx.microsoft.
+nimbi.dk,4,wikidata,Nimbi,,302,10 nimbi-dk.mail.protection.outlook.com.
+niph.dk,4,wikidata,Danish National Institute of Public Health,,HttpConnectTimeoutException: HTTP connect timed out,0 niph-dk.x-v1.mx.microsoft.
+nordjyllandstrafikselskab.dk,4,wikidata,Nordjyllands Trafikselskab,,301,0 Nordjyllandstrafikselskab-dk.mail.protection.outlook.com.
+nsbv.dk,4,wikidata,Q139517041,,200,20 nsbv-dk.mx2.comendosystems.net.; 10 nsbv-dk.mx1.comendosystems.com.
+pal-emb.dk,4,wikidata,mission of the State of Palestine in Denmark,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pal-emb.dk found.,10 mx.simply.com.
+pet.dk,4,wikidata,Danish Security and Intelligence Service,,HttpConnectTimeoutException: HTTP connect timed out,10 mail2.politi.dk.; 10 mail1.politi.dk.
+plst.dk,4,wikidata,Q129328655,,301,10 mx07.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.
+rigsarkivet.dk,4,wikidata,Danish National Archives,,301,10 mx04.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx08.statens-it.dk.
+rigsretten.dk,4,wikidata,The Court of Impeachment of the Realm,,200,none
+rigsrevisionen.dk,4,wikidata,Rigsrevisionen,central,301,10 vmmaild006.rigsrevisionen.dk.; 20 vmmaild005.rigsrevisionen.dk.
+samsik.dk,4,wikidata,Q133040482,,200,10 mx07.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx02.statens-it.dk.
+sbst.dk,4,wikidata,Q123037060,,301,10 mx02.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.
+sdfe.dk,4,wikidata,The Danish Agency for Climate Data,,301,10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.
+sgavmst.dk,4,wikidata,Agency for Green Transition and Aquatic Environment,,200,none
+shret.dk,4,wikidata,Maritime and Commercial Court,,HttpConnectTimeoutException: HTTP connect timed out,10 mx2-dk.centerasecurity.dk.; 20 mx3-dk.centerasecurity.dk.; 10 mx1-dk.centerasecurity.dk.
+sikkerdigital.dk,4,linkgraph,Linked from 4 public-sector domains,,301,none
+siri.dk,4,wikidata,Danish Agency for International Recruitment and Integration,,200,10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx06.statens-it.dk.
+skatteforvaltningen.dk,4,wikidata,Skatteforvaltningen,,200,10 skatteforvaltningen-dk.p-v1.mx.microsoft.
+sktst.dk,4,wikidata,Danish Tax Agency,,200,10 sktst-dk.t-v1.mx.microsoft.
+slks.dk,4,wikidata,Danish Agency for Culture and Palaces,,200,10 mx03.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.
+slovenien.dk,4,wikidata,honorary consulate of Slovenia to Risskov,,200,10 mx3.pub.mailpod12-cph3.one.com.; 10 mx2.pub.mailpod12-cph3.one.com.; 10 mx1.pub.mailpod12-cph3.one.com.; 10 mx4.pub.mailpod12-cph3.one.com.
+socialstyrelsen.dk,4,wikidata,The National Board of Social Services,,HttpConnectTimeoutException: HTTP connect timed out,10 mx06.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.
+soeg.kb.dk,4,wikidata,Royal Danish Library,,HttpConnectTimeoutException: HTTP connect timed out,none
+sofartsstyrelsen.dk,4,wikidata,Danish Maritime Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
+spillemyndigheden.dk,4,wikidata,Spillemyndigheden,,200,10 spillemyndigheden-dk.s-v1.mx.microsoft.
+sst.dk,4,wikidata,Danish Health Authority,,HttpConnectTimeoutException: HTTP connect timed out,10 mx03.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.
+star.dk,4,wikidata,National Labour Market Authority,,HttpConnectTimeoutException: HTTP connect timed out,10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.
+statsbiblioteket.dk,4,wikidata,Århus State and University Library,,HttpConnectTimeoutException: HTTP connect timed out,10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.
+stil.dk,4,wikidata,UNI-C,,200,10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.
+stukuvm.dk,4,wikidata,Q11982588,,HttpConnectTimeoutException: HTTP connect timed out,10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx08.statens-it.dk.
+sundhed.dk,4,linkgraph,Linked from 3 public-sector domains,,301,0 sundhed-dk.h-v1.mx.microsoft.
+sundhedsdatastyrelsen.dk,4,wikidata,The Danish Health Data Authority,,200,10 sundhedsdatastyrelsen-dk.f-v1.mx.microsoft.
+sydtrafik.dk,4,wikidata,Sydtrafik,,HttpConnectTimeoutException: HTTP connect timed out,0 sydtrafik-dk.mail.protection.outlook.com.
+tb.taarnby.dk,4,wikidata,Q139516901,,200,none
+toldst.dk,4,wikidata,Danish Customs Agency,,200,10 toldst-dk.v-v1.mx.microsoft.
+ufst.dk,4,wikidata,IT and Development Agency of the Danish Ministry of Taxation,,200,10 ufst-dk.u-v1.mx.microsoft.
+uk.rigsrevisionen.dk,4,wikidata,Rigsrevisionen,central,301,none
+unesco.dk,4,wikidata,Danish National Commission for UNESCO,,200,10 mx01.sitnet.dk.; 10 mx04.sitnet.dk.; 20 mx6.sitnet.dk.; 20 mx5.sitnet.dk.; 10 mx02.sitnet.dk.; 10 mx08.sitnet.dk.; 10 mx03.sitnet.dk.; 10 mx06.sitnet.dk.; 20 mx7.sitnet.dk.; 10 mx07.sitnet.dk.; 10 mx05.sitnet.dk.
+vejdirektoratet.dk,4,wikidata,The Danish Road Directorate,,301,10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.
+veteran.forsvaret.dk,4,wikidata,The Danish Veteran Centre,,HttpConnectTimeoutException: HTTP connect timed out,none
+vurdst.dk,4,wikidata,Danish Property Assessment Agency,,200,10 vurdst-dk.v-v1.mx.microsoft.
+200co.com,3,wikidata,Two Hundred Company,,200,0 200co-com.mail.protection.outlook.com.
+aka.gl,3,wikidata,Danish Tax Agency,,307,none
+at.gl,3,wikidata,Danish Working Environment Authority,,200,10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.
+copenhagen.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Denmark,central,302,none
+denmark.representation.ec.europa.eu,3,wikidata,European Commission Representation in Denmark,,302,none
+dkpto.org,3,wikidata,Danish Patent and Trademark Office,,301,none
+dmaib.com,3,wikidata,Danish Maritime Accident Investigation Board,,200,none
+euro.who.int,3,wikidata,World Health Organization - Denmark,,HttpConnectTimeoutException: HTTP connect timed out,none
+jobsqd.com,3,wikidata,JobSquad,,301,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+norden.org,3,wikidata,Nordic Co-operation,,301,0 norden-org.mail.protection.outlook.com.
+roc-taiwan.org,3,wikidata,Taipei Representative Office in Denmark,,302,none
+anklagemyndigheden.dk,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Greenland Police prosecution service | North Zealand Police prosecution service | South Jutland Police prosecution service | Central and West Jutland Police prosecution service | Funen Police prosecution service | Faroe Islands Police prosecution service | South East Jutland Police prosecution service | Bornholm Police prosecution service | Central and West Zealand Police prosecution service | South Zealand and Lolland-Falster Police prosecution service | Western Copenhagen Police prosecution service | State Prosecutor of Copenhagen | Copenhagen Police prosecution service | State Prosecutor for Special Crime | Danish Prosecution Service | North Jutland Police prosecution service | East Jutland Police prosecution service | Special Crime Unit prosecution service | Danish Director of Public Prosecutions,,301,none
+familieretshuset.dk,2,wikidata;wikidata;wikidata,Familieretshuset,,200,10 mx05.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx08.statens-it.dk.
+forsvaret.dk,2,wikidata;wikidata;wikidata;wikidata,Danish Defence Acquisition and Logistics Organization | Defence Command | Danish Defence Command,,301,10 smtp1.speednames.com.; 20 smtp2.speednames.com.
+ufm.dk,2,wikidata;wikidata;wikidata;wikidata,Danish Agency for Science and Higher Education | Danish Council for Independent Research | Medical Sciences | Danish Agency for Institutions and Educational Grants | Independent Research Fund Denmark,,200,10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx06.statens-it.dk.

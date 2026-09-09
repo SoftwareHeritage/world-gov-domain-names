@@ -1,67 +1,67 @@
 hostname,score,sources,label,level,http_status,mx
-ansej.org.dz,7,wikidata;wikidata,Agence nationale de soutien à l'emploi des jeunes,central,,
-dgf.org.dz,7,wikidata;wikidata,Q25386281 | Q25387129,,,
-dgsn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata,Algerian police | General Directorate of National Security,central,,
-elmadjlis-hci.dz,7,wikidata;wikidata,Supreme Islamic Council of Algeria,,,
-m-moudjahidine.dz,7,wikidata;wikidata,Ministry of Mujahidin,central,,
-mdn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ministry of National Defense (Algeria) | État-major de l'armée algérienne | National Gendarmerie,central,,
-mesrs.dz,7,wikidata;wikidata,Ministry of Higher Education and Scientific Research,central,,
-mptic.dz,7,wikidata;wikidata,Ministry of Post and Telecommunications,central,,
-ogebc.dz,7,wikidata;wikidata,Q92324509,,,
-sante.dz,7,wikidata;wikidata,Ministère de la Santé,,,
-apn-dz.org,6,wikidata;wikidata,Parliament of Algeria,central,,
-coursupreme.dz,6,wikidata,Supreme Court of Algeria,central,,
-el-mouradia.dz,6,un_desa,UN/DESA national portal,,,
-wikidata.org,6,wikidata;wikidata,Ministry of Agriculture and Rural Development,central,,
-abhcsm.dz,4,wikidata,Agence de Bassin Hydrographique Constantinois-Seybousse-Mellegue,,,
-alnaft.dz,4,wikidata,National agency for the valorization of hydrocarbon resource,,,
-anem.dz,4,wikidata,National Employment Agency,,,
-anvredet.org.dz,4,wikidata,Anvredet,,,
-apn.dz,4,wikidata,People's National Assembly,central,,
-archives-can.dz,4,wikidata,Algerian National Archives,,,
-asal.dz,4,wikidata,Algerian Space Agency,,,
-atrss.dz,4,wikidata,Agence Thématique de Recherche en Science de la Santé,,,
-bank-of-algeria.dz,4,wikidata,Bank of Algeria,,,
-biblionat.dz,4,wikidata,National Library of Algeria,,,
-bneder.dz,4,wikidata,Bureau National d’Études pour le Développement Rural,,,
-caci.dz,4,wikidata,Algerian chamber of commerce and industry,,,
-cerist.dz,4,wikidata,Centre de Recherche sur l'Information Scientifique et Technique,,,
-cnrst.dz,4,wikidata,Q110229043,,,
-conseil-constitutionnel.dz,4,wikidata,Constitutional Council of Algeria,,,
-courdalger.mjustice.dz,4,wikidata,Sidi Mhamed Courthouse,,,
-courdeboumerdes.mjustice.dz,4,wikidata,Boumerdès Court,central-1,,
-de-boumerdes.dz,4,wikidata,Boumerdès Province School District,central-1,,
-dgpc.dz,4,wikidata,Algerian Civil Defence,,,
-dgrsdt.dz,4,wikidata,Directorate for Scientific Research and Technological Development,,,
-eniem.com.dz,4,wikidata,ENIEM,,,
-hcamazighite.dz,4,wikidata,Haut-Conseil à l'amazighité,,,
-hcla.dz,4,wikidata,Supreme Council of the Arabic language in Algeria,,,
-ina-elections.dz,4,wikidata,Independent National Authority Of Elections,,,
-majliselouma.dz,4,wikidata,Council of the Nation,central,,
-marw.dz,4,wikidata,Religious Affairs Directorate of Algiers Province,,,
-meteo.dz,4,wikidata,National Meteorological Office,,,
-minagri.dz,4,wikidata,"Ministere de l'Agriculture, du Développement Rural et de la Pêche",,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Algiers",central,,
-onplc.org.dz,4,wikidata,Q42900066,,,
-onpo.dz,4,wikidata,Q25453161,,,
-unesco.dz,4,wikidata,"Algerian National Commission for Education, Science and Culture",,,
-alger.mae.ro,3,wikidata,"Embassy of Romania, Alger",central,,
-algerie.mid.ru,3,wikidata,Embassy of Russia in Algeria,central,,
-algeriet.um.dk,3,wikidata,embassy of Denmark in Algeria,central,,
-algier.diplo.de,3,wikidata,"Embassy of Germany, Algiers",central,,
-amb-rasd.org,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Algiers",central,,
-djamaa-el-djazair.com,3,wikidata,Q25453456,,,
-dz.ambafrance.org,3,wikidata,"Embassy of France, Algiers",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Algeria,,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Algeria,central,,
-inapi.org,3,wikidata,Algerian National Industrial Property Institute,central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Algeria,central,,
-mfa.gr,3,wikidata,embassy of Greece in Algeria,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Algeria,central,,
-norway.no,3,wikidata,"Embassy of Norway, Algiers",central,,
-ona-dz.org,3,wikidata,Q138331984,,,
-onedd.org,3,wikidata,Q91092821,,,
-onsm-dz.com,3,wikidata,National Maritime Signaling Office,,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Algiers",central,,
-cour-constitutionnelle.dz,2,wikidata;wikidata;wikidata,Constitutional Court (Algeria) | Constitutional Council of Algeria,central,,
-mjustice.dz,2,wikidata;wikidata;wikidata,Ministry of Justice | Boumerdès Court,central,,
+ansej.org.dz,7,wikidata;wikidata,Agence nationale de soutien à l'emploi des jeunes,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+dgf.org.dz,7,wikidata;wikidata,Q25386281 | Q25387129,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.djaweb.dz.
+dgsn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata,Algerian police | General Directorate of National Security,central,ConnectException,none
+elmadjlis-hci.dz,7,wikidata;wikidata,Supreme Islamic Council of Algeria,,301,10 mail.elmadjlis-hci.dz.
+m-moudjahidine.dz,7,wikidata;wikidata,Ministry of Mujahidin,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.m-moudjahidine.dz.
+mdn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ministry of National Defense (Algeria) | État-major de l'armée algérienne | National Gendarmerie,central,ConnectException,10 mxrelay.mdn.dz.
+mesrs.dz,7,wikidata;wikidata,Ministry of Higher Education and Scientific Research,central,ConnectException,10 gateway.mesrs.dz.; 20 mail.mesrs.dz.; 30 mail1.mesrs.dz.
+mptic.dz,7,wikidata;wikidata,Ministry of Post and Telecommunications,central,ConnectException,0 mail.mptic.dz.
+ogebc.dz,7,wikidata;wikidata,Q92324509,,200,0 ogebc.dz.
+sante.dz,7,wikidata;wikidata,Ministère de la Santé,,HttpConnectTimeoutException: HTTP connect timed out,none
+apn-dz.org,6,wikidata;wikidata,Parliament of Algeria,central,200,10 mx01.lolipop.jp.
+coursupreme.dz,6,wikidata,Supreme Court of Algeria,central,200,10 mail.coursupreme.dz.
+el-mouradia.dz,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.el-mouradia.dz.
+wikidata.org,6,wikidata;wikidata,Ministry of Agriculture and Rural Development,central,301,10 mx-in2001.wikimedia.org.; 10 mx-in1001.wikimedia.org.
+abhcsm.dz,4,wikidata,Agence de Bassin Hydrographique Constantinois-Seybousse-Mellegue,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching abhcsm.dz found.,none
+alnaft.dz,4,wikidata,National agency for the valorization of hydrocarbon resource,,ConnectException,10 mx2.alnaft.dz.; 10 mx1.alnaft.dz.
+anem.dz,4,wikidata,National Employment Agency,,ConnectException,0 mail.anem.dz.
+anvredet.org.dz,4,wikidata,Anvredet,,200,0 anvredet.org.dz.
+apn.dz,4,wikidata,People's National Assembly,central,200,10 smtp-1.apn.dz.; 10 smtp-2.apn.dz.
+archives-can.dz,4,wikidata,Algerian National Archives,,200,10 mail.archives-can.dz.
+asal.dz,4,wikidata,Algerian Space Agency,,200,10 mail.asal.dz.
+atrss.dz,4,wikidata,Agence Thématique de Recherche en Science de la Santé,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+bank-of-algeria.dz,4,wikidata,Bank of Algeria,,HttpConnectTimeoutException: HTTP connect timed out,10 rhost.bank-of-algeria.dz.; 10 rhost3.bank-of-algeria.dz.; 10 rhost1.bank-of-algeria.dz.; 10 rhost4.bank-of-algeria.dz.
+biblionat.dz,4,wikidata,National Library of Algeria,,200,0 biblionat.dz.
+bneder.dz,4,wikidata,Bureau National d’Études pour le Développement Rural,,200,0 mail.bneder.dz.
+caci.dz,4,wikidata,Algerian chamber of commerce and industry,,200,dig error
+cerist.dz,4,wikidata,Centre de Recherche sur l'Information Scientifique et Technique,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cerist.dz found.,20 mx02.cerist.dz.; 10 mx.cerist.dz.
+cnrst.dz,4,wikidata,Q110229043,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.cnrst.dz.
+conseil-constitutionnel.dz,4,wikidata,Constitutional Council of Algeria,,ConnectException,10 mail.conseil-constitutionnel.dz.
+courdalger.mjustice.dz,4,wikidata,Sidi Mhamed Courthouse,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+courdeboumerdes.mjustice.dz,4,wikidata,Boumerdès Court,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+de-boumerdes.dz,4,wikidata,Boumerdès Province School District,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching de-boumerdes.dz found.,none
+dgpc.dz,4,wikidata,Algerian Civil Defence,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.dgpc.dz.
+dgrsdt.dz,4,wikidata,Directorate for Scientific Research and Technological Development,,302,0 mx.dgrsdt.dz.
+eniem.com.dz,4,wikidata,ENIEM,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx.eniem.com.dz.
+hcamazighite.dz,4,wikidata,Haut-Conseil à l'amazighité,,302,0 hcamazighite.dz.
+hcla.dz,4,wikidata,Supreme Council of the Arabic language in Algeria,,200,0 ssl0.icosnethosting.com.
+ina-elections.dz,4,wikidata,Independent National Authority Of Elections,,200,10 mail.ina-elections.dz.
+majliselouma.dz,4,wikidata,Council of the Nation,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.majliselouma.dz.
+marw.dz,4,wikidata,Religious Affairs Directorate of Algiers Province,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.marw.dz.; 10 mail1.marw.dz.
+meteo.dz,4,wikidata,National Meteorological Office,,HttpConnectTimeoutException: HTTP connect timed out,0 smtp.meteo.dz.; 10 smtp1.meteo.dz.
+minagri.dz,4,wikidata,"Ministere de l'Agriculture, du Développement Rural et de la Pêche",,ConnectException,0 mx.minagri.dz.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Algiers",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+onplc.org.dz,4,wikidata,Q42900066,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+onpo.dz,4,wikidata,Q25453161,,200,10 mail.onpo.dz.
+unesco.dz,4,wikidata,"Algerian National Commission for Education, Science and Culture",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.unesco.dz.
+alger.mae.ro,3,wikidata,"Embassy of Romania, Alger",central,503,none
+algerie.mid.ru,3,wikidata,Embassy of Russia in Algeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+algeriet.um.dk,3,wikidata,embassy of Denmark in Algeria,central,HttpConnectTimeoutException: HTTP connect timed out,none
+algier.diplo.de,3,wikidata,"Embassy of Germany, Algiers",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+amb-rasd.org,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Algiers",central,200,10 amb-rasd.org.; 20 amb-rasd.org.
+djamaa-el-djazair.com,3,wikidata,Q25453456,,500,10 mx.stackmail.com.
+dz.ambafrance.org,3,wikidata,"Embassy of France, Algiers",central,301,5 mta-gw.infomaniak.ch.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Algeria,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,embassy of Finland in Algeria,central,301,10 mail.valtori.fi.
+inapi.org,3,wikidata,Algerian National Industrial Property Institute,central,301,dig error
+mfa.bg,3,wikidata,embassy of Bulgaria in Algeria,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Algeria,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Algeria,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+norway.no,3,wikidata,"Embassy of Norway, Algiers",central,301,0 mx.domeneshop.no.
+ona-dz.org,3,wikidata,Q138331984,,301,0 ona-dz.org.
+onedd.org,3,wikidata,Q91092821,,200,1 mail.onedd.org.
+onsm-dz.com,3,wikidata,National Maritime Signaling Office,,200,0 onsm-dz.com.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Algiers",central,301,none
+cour-constitutionnelle.dz,2,wikidata;wikidata;wikidata,Constitutional Court (Algeria) | Constitutional Council of Algeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.cour-constitutionnelle.dz.
+mjustice.dz,2,wikidata;wikidata;wikidata,Ministry of Justice | Boumerdès Court,central,301,10 mailserver.mjustice.dz.

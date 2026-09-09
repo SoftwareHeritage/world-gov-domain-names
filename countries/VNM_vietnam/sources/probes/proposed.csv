@@ -1,0 +1,78 @@
+hostname,http_status,mx
+angiang.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,none
+bacninh.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx4.googlemail.com.; 10 alt3.aspmx.l.google.com.; 10 lbd66lwaoqdz.thcstriqua.bacninh.edu.vn.; 30 aspmx5.googlemail.com.; 30 aspmx2.googlemail.com.; 30 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.
+bienphongvietnam.vn,HttpConnectTimeoutException: HTTP connect timed out,none
+bqp.vn,200,none
+camau.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,20 alt2.aspmx.l.google.com.; 30 aspmx4.googlemail.com.; 30 aspmx5.googlemail.com.; 10 aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 20 alt1.aspmx.l.google.com.
+canhsatbien.vn,HttpConnectTimeoutException: HTTP connect timed out,none
+cantho.edu.vn,SSLHandshakeException: Remote host terminated the handshake,10 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt2.aspmx.l.google.com.; 10 aspmx.l.google.com.; 10 smtp.google.com.; 10 alt3.aspmx.l.google.com.
+danang.edu.vn,302,10 mail.danang.edu.vn.; 10 danang-edu-vn.mail.protection.outlook.com.; 1 SMTP.GOOGLE.com.
+dav.edu.vn,200,10 dav-edu-vn.mail.protection.outlook.com.
+dienbien.edu.vn,200,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx4.googlemail.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx5.googlemail.com.; 1 aspmx.l.google.com.
+dised.vn,ConnectException,none
+dongthap.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+english.vov.vn,302,none
+english.vtv.vn,200,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+haiphong.edu.vn,302,10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+hanoi.edu.vn,302,0 hanoi-edu-vn.mail.protection.outlook.com.
+hanoi.mae.ro,503,none
+hanoi.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+hatinh.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,30 aspmx2.googlemail.com.; 30 aspmx4.googlemail.com.; 20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 30 aspmx5.googlemail.com.; 20 alt2.aspmx.l.google.com.
+hcm.edu.vn,IOException: HTTP/1.1 header parser received no bytes,0 hcm-edu-vn.mail.protection.outlook.com.
+ho-chi-minh-stadt.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+ho-chi-minh-ville.consulfrance.org,301,none
+hosiminh.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+hue.edu.vn,200,11 ASPMX3.GOOGLEMAIL.COM.; 8 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 13 ASPMX5.GOOGLEMAIL.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 12 ASPMX4.GOOGLEMAIL.COM.
+hungyen.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,1 smtp.google.com.
+ibst.vn,200,0 ibst-vn.mail.protection.outlook.com.
+itt.vast.vn,200,0 mail.vast.vn.
+khanhhoa.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,5 aspmx5.googlemail.com.; 1 aspmx.l.google.com.; 6 alt1.aspmx.l.google.com.; 20 aspmx2.googlemail.com.; 10 aspmx4.googlemail.com.; 15 aspmx3.googlemail.com.; 7 alt2.aspmx.l.google.com.
+laichau.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,10 laichau-edu-vn.mail.protection.outlook.com.
+lamdong.edu.vn,HttpTimeoutException: request timed out,10 ASPMX.L.GOOGLE.COM.
+langson.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,none
+laocai.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,none
+m.vovworld.vn,ConnectException,none
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mocban.vn,200,1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+moroccoembassy.vn,HttpTimeoutException: request timed out,none
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+nghean.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,30 aspmx4.googlemail.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 30 aspmx5.googlemail.com.; 20 alt1.aspmx.l.google.com.; 10 mail.nghean.edu.vn.; 20 aspmx.l.google.com.; 30 aspmx2.googlemail.com.
+nimpe.vn,HttpConnectTimeoutException: HTTP connect timed out,10 tapchibenhnhietdoi.nimpe.vn.; 10 nimpe.vn.; 10 data.nimpe.vn.
+ninhbinh.edu.vn,200,10 ninhbinh-edu-vn.mail.protection.outlook.com.
+norway.no,301,0 mx.domeneshop.no.
+palestineembassy.vn,200,10 palestineembassy-vn.mail.protection.outlook.com.
+phutho.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,1 smtp.google.com.
+quangngai.edu.vn,200,30 aspmx4.googlemail.com.; 30 aspmx3.googlemail.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx5.googlemail.com.; 30 aspmx2.googlemail.com.; 10 aspmx.l.google.com.
+quangtri.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx5.googlemail.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx4.googlemail.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 10 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+quochoi.vn,200,10 mx.quochoi.vn.
+roc-taiwan.org,302,none
+sie.vast.vn,HttpConnectTimeoutException: HTTP connect timed out,0 mail.vast.vn.
+siwrp.org.vn,200,10 mail.siwrp.org.vn.
+siwrr.org.vn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.siwrr.org.vn.
+sogddtsonla.edu.vn,ConnectException,none
+srtc.org.vn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.srtc.org.vn.
+swedenabroad.se,301,none
+thainguyen.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,10 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX.L.GOOGLE.COM.; 10 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX5.GOOGLEMAIL.COM.; 10 ASPMX4.GOOGLEMAIL.COM.
+thanhhoa.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,none
+thuycong.ac.vn,200,10 mail.aceo.vn.
+trungtamnhietdoivietnga.com.vn,200,none
+tuyenquang.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
+vied.vn,200,20 ALT2.ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 30 ASPMX4.GOOGLEMAIL.COM.; 10 ASPMX.L.GOOGLE.COM.; 30 ASPMX2.GOOGLEMAIL.COM.; 30 ASPMX5.GOOGLEMAIL.COM.; 30 ASPMX3.GOOGLEMAIL.COM.
+vietnam.diplo.de,200,none
+vietnam.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+vietnam.um.dk,301,none
+vietnammedia.vnanet.vn,200,none
+vinhlong.edu.vn,HttpConnectTimeoutException: HTTP connect timed out,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+viup.vn,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+vn.ambafrance.org,301,none
+vn.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vn.china-embassy.org found.,none
+vnpi.vn,200,5 alt2.aspmx.l.google.com.; 10 mail.vnpi.vn.; 1 smtp.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+vov.vn,200,10 esa.vov.vn.
+vovworld.vn,200,10 mx2.forwardemail.net.; 10 mx1.forwardemail.net.
+vtv.vn,200,10 mta1.vtv.vn.; 20 mail.vtv.vn.
+web.roc-taiwan.org,HttpConnectTimeoutException: HTTP connect timed out,none

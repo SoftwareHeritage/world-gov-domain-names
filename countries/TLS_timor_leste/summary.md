@@ -35,11 +35,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `parlamento.tl` | central |  | wikidata;wikidata | National Parliament |
-| 4 | `anpm.tl` |  |  | wikidata | Q124094298 |
-| 4 | `bancocentral.tl` |  |  | wikidata | Banco Central de Timor-Leste |
-| 4 | `mineralstender.anpm.tl` |  |  | wikidata | Q124094424 |
-| 4 | `pntl.tl` |  |  | wikidata | National Police of East Timor |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Timor-Leste |
-| 1 | `holyrosaryprovince.org` |  |  | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| 8 | `parlamento.tl` | central | HttpConne... | wikidata;wikidata | National Parliament |
+| 4 | `anpm.tl` |  | ConnectEx... | wikidata | Q124094298 |
+| 4 | `bancocentral.tl` |  | 200 | wikidata | Banco Central de Timor-Leste |
+| 4 | `mineralstender.anpm.tl` |  | ConnectEx... | wikidata | Q124094424 |
+| 4 | `pntl.tl` |  | SSLHandsh... | wikidata | National Police of East Timor |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Timor-Leste |
+| 1 | `holyrosaryprovince.org` |  | 301 | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
 

@@ -1,0 +1,30 @@
+hostname,http_status,mx
+ainteractivo.net,200,20 eagle-relay.mxlogin.com.; 10 eagle.mxlogin.com.
+bancoldex.com,301,10 bancoldex-com.mail.protection.outlook.com.
+bogota.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+bogota.mae.ro,503,none
+bogota.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ccc.org.co,403,10 ccc-org-co-1.fortimailcloud.com.; 20 ccc-org-co-2.fortimailcloud.com.; 30 ccc-org-co.mail.protection.outlook.com.
+cccucuta.org.co,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 cccucuta-org-co.mail.protection.outlook.com.
+co.ambafrance.org,301,none
+co.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching co.china-embassy.org found.,none
+colombia.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+colombia.um.dk,301,none
+educacionbogota.edu.co,200,20 educacionbogota-edu-co.mail.protection.outlook.com.; 0 mail2.educacionbogota.edu.co.; 10 mail1.educacionbogota.edu.co.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embajadaboliviacolombia.org,403,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+embajadadehonduras.org.co,301,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+escolapios.org.co,301,0 escolapios-org-co.mail.protection.outlook.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+humboldt.org.co,301,1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX3.GOOGLEMAIL.COM.
+invemar.org.co,ConnectException,0 invemar-org-co.mail.protection.outlook.com.
+jesuitas.co,200,10 mx2.hostingcolombiapro.com.; 10 mx1.hostingcolombiapro.com.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nederlandwereldwijd.nl,301,0 .
+norway.no,301,0 mx.domeneshop.no.
+nunciatura.org.co,200,30 mx03.hornetsecurity.com.; 10 mx01.hornetsecurity.com.; 20 mx02.hornetsecurity.com.; 40 mx04.hornetsecurity.com.
+procolombia.co,200,0 procolombia-co.mail.protection.outlook.com.
+soachaeducativa.edu.co,301,1 smtp.google.com.
+swedenabroad.se,301,none
+web.roc-taiwan.org,HttpConnectTimeoutException: HTTP connect timed out,none

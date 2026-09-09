@@ -1,0 +1,38 @@
+hostname,http_status,mx
+amba-senegal.ga,HttpConnectTimeoutException: HTTP connect timed out,10 mx.amba-senegal.ga.
+ambaburkina-sn.org,200,0 mail.ambaburkina-sn.org.
+ambadak.org,ConnectException,none
+ambasadat.net,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+anacim.sn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 anacim-sn.mail.protection.outlook.com.
+ansd.sn,ConnectException,10 mail.ansd.sn.
+assemblee-nationale.sn,ConnectException,none
+bceao.int,ConnectException,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+cena.sn,HttpConnectTimeoutException: HTTP connect timed out,dig error
+cnls-senegal.org,HttpConnectTimeoutException: HTTP connect timed out,none
+conseilconstitutionnel.sn,200,5 smtp.gouv.sn.
+dakar.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+dakar.mae.lu,302,none
+dakar.mae.ro,503,none
+dge.sn,200,0 dge.sn.
+douanes.sn,200,20 mail1.douanes.sn.; 10 mail.douanes.sn.
+education.sn,200,0 education-sn.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+escolapiesinstitutions.org,ConnectException,none
+exteriors.gencat.cat,301,none
+facebook.com,ConnectException,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+gambiahcsenegal.com,200,10 mail.gambiahcsenegal.com.
+gendarmerie.sn,ConnectException,10 mail.gendarmerie.sn.
+grandemurailleverte.org,200,none
+hcct.sn,ConnectException,none
+international.gouv.qc.ca,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+mctn.sn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 smtp.gouv.sn.
+mesrisenegal.sn,200,0 mesrisenegal.sn.
+mfa.gr,403,10 mailhost.mfa.gr.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+onas.sn,200,5 mta-gw.infomaniak.ch.
+senegal.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sip.sn,ConnectException,0 sip-sn.mail.protection.outlook.com.
+sn.ambafrance.org,301,none
+statsenegal.sn,ConnectException,none

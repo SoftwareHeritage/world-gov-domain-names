@@ -1,0 +1,22 @@
+hostname,http_status,mx
+afristat.org,301,10 mail.afristat.org.
+ambassadeburkina-ml.org,ConnectException,none
+ambniger-mali.org,200,5 mta-gw.infomaniak.ch.
+bamako.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+bceao.int,ConnectException,5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+dnhmali.org,403,10 one.mxroute.com.; 20 one-relay.mxroute.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+environnement.gov.ml,ConnectException,none
+gendarmerie.ml,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,10 mx02.routing.net.; 10 mx03.routing.net.; 10 mx01.routing.net.; 20 mxbackup.routing.net.
+inrsp.sante.gov.ml,HttpConnectTimeoutException: HTTP connect timed out,none
+instat-mali.org,301,none
+mae.ro,ConnectException,10 mx2.mae.ro.; 10 mx1.mae.ro.
+mali.um.dk,301,none
+malimeteo.ml,200,0 malimeteo-ml.mail.protection.outlook.com.
+ml.ambafrance.org,301,none
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+norway.no,301,0 mx.domeneshop.no.
+primature.ml,200,0 primature.ml.
+rusembmali.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sante.gov.ml,200,10 mail.sante.gov.ml.
+swedenabroad.se,301,none

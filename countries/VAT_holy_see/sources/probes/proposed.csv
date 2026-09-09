@@ -1,0 +1,14 @@
+hostname,http_status,mx
+archivioapostolicovaticano.va,ConnectException,0 .
+asif.va,ConnectException,30 mx20.vatican.va.; 10 mx11-new.vatican.va.; 30 mx21.vatican.va.; 10 mx12-new.vatican.va.
+clerus.va,ConnectException,30 mx21.vatican.va.; 30 mx20.vatican.va.; 10 mx11-new.vatican.va.; 10 mx12-new.vatican.va.
+comunicazione.va,ConnectException,none
+congregazionevescovi.va,ConnectException,0 .
+dicasteryinterreligious.va,ConnectException,none
+humandevelopment.va,302,10 mx11-new.vatican.va.; 10 mx12-new.vatican.va.; 30 mx20.vatican.va.; 30 mx21.vatican.va.
+laityfamilylife.va,ConnectException,30 mx21.vatican.va.; 30 mx20.vatican.va.; 10 mx12-new.vatican.va.; 10 mx11-new.vatican.va.
+palvaticanembassy.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.palvaticanembasy.org.
+pontificiaacademialatinitatis.org,301,10 mx.pontificiaacademialatinitatis.org.
+ulsa.va,ConnectException,30 mx21.vatican.va.; 10 mx12-new.vatican.va.; 30 mx20.vatican.va.; 10 mx11-new.vatican.va.
+vaticanlibrary.va,ConnectException,0 .
+vaticanstate.va,301,30 mx20.vatican.va.; 10 mx11-new.vatican.va.; 10 mx12-new.vatican.va.; 30 mx21.vatican.va.

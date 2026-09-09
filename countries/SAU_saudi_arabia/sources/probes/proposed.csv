@@ -1,0 +1,50 @@
+hostname,http_status,mx
+ambacamsaudi.org,HttpConnectTimeoutException: HTTP connect timed out,10 mailstore1.asia.secureserver.net.; 0 smtp.asia.secureserver.net.
+ambasadat.net,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
+bangladeshembassy.org.sa,ConnectException,20 pmx27.sol.net.sa.; 10 _dc-mx.07dac53b9684.bangladeshembassy.org.sa.
+cma.org.sa,301,30 mail4.cma.org.sa.; 10 mx1.cma.org.sa.; 40 mail1.cma.org.sa.; 20 mx3.cma.org.sa.
+consalg-jeddah.com,200,0 mail.consalg-jeddah.com.
+darah.org.sa,403,30 mx3.deem.sa.; 10 mx1.deem.sa.; 50 mx4.deem.sa.; 10 mx2.deem.sa.
+djeddah.consulfrance.org,301,none
+djidda.diplo.de,301,10 mx2.bund.de.; 10 mx1.bund.de.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+ghanaembassy-saudiarabia.com,ConnectException,none
+kacst.edu.sa,ConnectException,10 relay10.kacst.edu.sa.
+kapl.org.sa,200,0 kapl-org-sa.mail.protection.outlook.com.
+kenyaembassy.org.sa,ConnectException,none
+kfmrc.kau.edu.sa,ConnectException,none
+ksrelief.org,301,10 mx1.deem.sa.; 10 mx2.deem.sa.; 30 mx3.deem.sa.; 50 mx4.deem.sa.
+maldivesembassy.sa,ConnectException,none
+mauritius-riyadh.govmu.org,302,none
+meriyadh.org,200,none
+mfa.bg,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mfa.tj,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.mfa.tj.; 10 mail.mfa.tj.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+moroccanembassy.sa,ConnectException,none
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+nigeria.org.sa,ConnectException,none
+norway.no,301,0 mx.domeneshop.no.
+pakembassyksa.com,301,1200 ghs.google.com.
+palconjed.org,200,10 mx7.mgmt.somee.com.
+palestineembassy.org.sa,ConnectException,none
+qiyas.sa,200,5 mx1.hostinger.com.; 10 mx2.hostinger.com.
+rijad.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+riyadh.mae.ro,503,none
+riyadh.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+riyadh.mofa.go.ug,200,none
+riyadh.thaiembassy.org,200,none
+sa.ambafrance.org,301,none
+sa.china-embassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sa.china-embassy.org found.,none
+safcsp.org.sa,200,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+saudiarabien.diplo.de,200,none
+saudiarabien.um.dk,301,none
+scfhs.org.sa,301,0 mg1.scfhs.org.sa.
+shps.org.sa,301,0 shps-org-sa.mail.protection.outlook.com.
+slemb.org.sa,200,0 slemb.org.sa.
+sp.mofaic.gov.ae,ConnectException,none
+ssf.sa,200,0 olympic-sa-1.fortimailcloud.com.; 1 olympic-sa-2.fortimailcloud.com.
+swedenabroad.se,301,none
+taiwanembassy.org,302,none
+yemenembassy-sa.org,302,0 _dc-mx.19bf0401d66b.yemenembassy-sa.org.

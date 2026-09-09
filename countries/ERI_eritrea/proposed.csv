@@ -1,7 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
-shabait.com,5,un_desa,UN/DESA national portal,,,
-asmara.diplo.de,3,wikidata,"Embassy of Germany, Asmara",central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Eritrea,,,
-er.ambafrance.org,3,wikidata,"Embassy of France, Asmara",central,,
-eritrea.mid.ru,3,wikidata,embassy of Russia in Eritrea,central,,
-eritreanarchives.org,3,wikidata,Research and Documentation Center,,,
+shabait.com,5,un_desa,UN/DESA national portal,,200,20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
+asmara.diplo.de,3,wikidata,"Embassy of Germany, Asmara",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Eritrea,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+er.ambafrance.org,3,wikidata,"Embassy of France, Asmara",central,301,none
+eritrea.mid.ru,3,wikidata,embassy of Russia in Eritrea,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eritreanarchives.org,3,wikidata,Research and Documentation Center,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching eritreanarchives.org found.,10 eritreanarchives.org.

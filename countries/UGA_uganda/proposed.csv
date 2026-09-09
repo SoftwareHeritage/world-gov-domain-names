@@ -1,69 +1,69 @@
 hostname,score,sources,label,level,http_status,mx
-agriculture.go.ug,7,wikidata;wikidata,"Ministry of Agriculture, Animal Industry and Fisheries",central,,
-education.go.ug,7,wikidata;wikidata,Ministry of Education and Sports,central,,
-energyandminerals.go.ug,7,wikidata;wikidata,Ministry of Energy and Mineral Development,central,,
-finance.go.ug,7,wikidata;wikidata,"Ministry of Finance, Planning and Economic Development",central,,
-health.go.ug,7,wikidata;wikidata,Ministry of Health,central,,
-ict.go.ug,7,wikidata;wikidata,Ministry of Information and Communications Technology,central,,
-mia.go.ug,7,wikidata;wikidata,Ministry of Internal Affairs,central,,
-mlhud.go.ug,7,wikidata;wikidata,"Ministry of Lands, Housing and Urban Development",central,,
-mofa.go.ug,7,wikidata;wikidata,Ministry of Foreign Affairs of the Republic of Uganda,central,,
-mtic.go.ug,7,wikidata;wikidata,"Ministry of Trade, Industry and Cooperatives",,,
-mtti.go.ug,7,wikidata;wikidata,"Ministry of Trade, Tourism and Industry",central,,
-mwe.go.ug,7,wikidata;wikidata,Ministry of Water and Environment,central,,
-nema.go.ug,7,wikidata;wikidata,National Environment Management Authority of Uganda,,,
-sti.go.ug,7,wikidata;wikidata,"Ministry of Science, Technology and Innovation",central,,
-gou.go.ug,6,un_desa,UN/DESA national portal,,,
-bou.or.ug,4,wikidata,Bank of Uganda,,,
-caa.go.ug,4,wikidata,Civil Aviation Authority of Uganda,,,
-cmauganda.co.ug,4,wikidata,Capital Markets Authority,central,,
-coctu.go.ug,4,wikidata,Coordinating Office for Control of Trypanosomiasis in Uganda,,,
-dda.or.ug,4,wikidata,Dairy Development Authority,,,
-dpf.or.ug,4,wikidata,Deposit Protection Fund of Uganda,,,
-ec.or.ug,4,wikidata,Electoral Commission of Uganda,,,
-eoc.go.ug,4,wikidata,"Equal Opportunities Commission, Uganda",,,
-era.or.ug,4,wikidata,Electricity Regulatory Authority,,,
-fia.go.ug,4,wikidata,Uganda Financial Intelligence Authority,,,
-freezones.go.ug,4,wikidata,Uganda Free Zones Authority,,,
-igg.go.ug,4,wikidata,Inspectorate of Government,,,
-ira.go.ug,4,wikidata,Insurance Regulatory Authority of Uganda,,,
-kumi.go.ug,4,wikidata,Kumi District Local Government,,,
-meaca.go.ug,4,wikidata,Ministry of East African Community Affairs,,,
-mglsd.go.ug,4,wikidata,"Ministry of Gender, Labour and Social Development (Uganda)",,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kampala",central,,
-naro.go.ug,4,wikidata,National Agricultural Research Organisation,,,
-nda.or.ug,4,wikidata,National Drug Authority,,,
-nfa.org.ug,4,wikidata,National Forestry Authority,,,
-ngobureau.go.ug,4,wikidata,National Bureau for Non Governmental Organizations,,,
-nlu.go.ug,4,wikidata,National Library of Uganda,,,
-ucc.co.ug,4,wikidata,Uganda Communications Commission,,,
-udc.go.ug,4,wikidata,Uganda Development Corporation,,,
-ueccc.or.ug,4,wikidata,Uganda Energy Credit Capitalisation Company,,,
-ugandaexports.go.ug,4,wikidata,Uganda Export Promotion Board,,,
-uhrc.ug,4,wikidata,Uganda Human Rights Commission,,,
-unas.org.ug,4,wikidata,Uganda National Academy of Sciences,,,
-unche.or.ug,4,wikidata,Uganda National Council for Higher Education,,,
-uncst.go.ug,4,wikidata,Uganda National Council for Science and Technology,,,
-uneb.ac.ug,4,wikidata,Uganda National Examinations Board,,,
-unesco-uganda.ug,4,wikidata,Uganda National Commission for UNESCO,,,
-unma.go.ug,4,wikidata,Uganda National Meteorological Authority,,,
-unmc.ug,4,wikidata,Uganda Nurses and Midwives Council,central,,
-upf.go.ug,4,wikidata,Uganda Police Force,central,,
-urbra.go.ug,4,wikidata,Uganda Retirement Benefits Regulatory Authority,,,
-utb.go.ug,4,wikidata,Uganda Tourism Board,,,
-works.go.ug,4,wikidata,Ministry of Works and Transport,,,
-afro.who.int,3,wikidata,World Health Organization - Uganda,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Uganda,,,
-kampala.diplo.de,3,wikidata,"Embassy of Germany, Kampala",central,,
-norway.no,3,wikidata,"Embassy of Norway, Kampala",central,,
-pakhc.or.ke,3,wikidata,"Honorary Consulate of Pakistan, Kampala",,,
-parliament.go.ug,3,wikidata;wikidata;wikidata,"Parliament of Uganda | Committee on Commissions, Statutory Authorities and State Enterprises",central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Kampala",central,,
-ubos.org,3,wikidata,Uganda Bureau of Statistics,central,,
-ug.ambafrance.org,3,wikidata,"Embassy of France, Kampala",central,,
-uganda.mid.ru,3,wikidata,embassy of Russia in Uganda,central,,
-uganda.um.dk,3,wikidata,embassy of Denmark in Uganda,central,,
-ugandawildlife.org,3,wikidata,Uganda Wildlife Authority,,,
-uiri.org,3,wikidata,Uganda Industrial Research Institute,,,
-unatu.org,3,wikidata,Uganda National Teachers Union,,,
-opm.go.ug,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ministry of Relief and Disaster Preparedness | Ministry of Disaster Preparedness and Refugees | Office of the Prime Minister | Ministry for Karamoja,central,,
+agriculture.go.ug,7,wikidata;wikidata,"Ministry of Agriculture, Animal Industry and Fisheries",central,301,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+education.go.ug,7,wikidata;wikidata,Ministry of Education and Sports,central,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+energyandminerals.go.ug,7,wikidata;wikidata,Ministry of Energy and Mineral Development,central,ConnectException,none
+finance.go.ug,7,wikidata;wikidata,"Ministry of Finance, Planning and Economic Development",central,200,10 mail.finance.go.ug.
+health.go.ug,7,wikidata;wikidata,Ministry of Health,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+ict.go.ug,7,wikidata;wikidata,Ministry of Information and Communications Technology,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mia.go.ug,7,wikidata;wikidata,Ministry of Internal Affairs,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mlhud.go.ug,7,wikidata;wikidata,"Ministry of Lands, Housing and Urban Development",central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mofa.go.ug,7,wikidata;wikidata,Ministry of Foreign Affairs of the Republic of Uganda,central,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+mtic.go.ug,7,wikidata;wikidata,"Ministry of Trade, Industry and Cooperatives",,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mtti.go.ug,7,wikidata;wikidata,"Ministry of Trade, Tourism and Industry",central,ConnectException,none
+mwe.go.ug,7,wikidata;wikidata,Ministry of Water and Environment,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+nema.go.ug,7,wikidata;wikidata,National Environment Management Authority of Uganda,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+sti.go.ug,7,wikidata;wikidata,"Ministry of Science, Technology and Innovation",central,200,0 sti-go-ug.mail.protection.outlook.com.
+gou.go.ug,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+bou.or.ug,4,wikidata,Bank of Uganda,,200,0 bou-or-ug.mail.protection.outlook.com.
+caa.go.ug,4,wikidata,Civil Aviation Authority of Uganda,,200,10 mail.caa.go.ug.
+cmauganda.co.ug,4,wikidata,Capital Markets Authority,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+coctu.go.ug,4,wikidata,Coordinating Office for Control of Trypanosomiasis in Uganda,,200,0 _dc-mx.014b6bdfdcf6.coctu.go.ug.
+dda.or.ug,4,wikidata,Dairy Development Authority,,ConnectException,none
+dpf.or.ug,4,wikidata,Deposit Protection Fund of Uganda,,200,0 dpf-or-ug.mail.protection.outlook.com.
+ec.or.ug,4,wikidata,Electoral Commission of Uganda,,200,10 _dc-mx.e7b2da591525.ec.or.ug.
+eoc.go.ug,4,wikidata,"Equal Opportunities Commission, Uganda",,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+era.or.ug,4,wikidata,Electricity Regulatory Authority,,403,none
+fia.go.ug,4,wikidata,Uganda Financial Intelligence Authority,,HttpConnectTimeoutException: HTTP connect timed out,0 fia-go-ug.mail.protection.outlook.com.
+freezones.go.ug,4,wikidata,Uganda Free Zones Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
+igg.go.ug,4,wikidata,Inspectorate of Government,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 igg-go-ug.mail.protection.outlook.com.
+ira.go.ug,4,wikidata,Insurance Regulatory Authority of Uganda,,200,0 mail.ira.go.ug.; 20 mail.ira.go.ug.
+kumi.go.ug,4,wikidata,Kumi District Local Government,,HttpConnectTimeoutException: HTTP connect timed out,0 _dc-mx.32ebc3a2a235.kumi.go.ug.
+meaca.go.ug,4,wikidata,Ministry of East African Community Affairs,,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+mglsd.go.ug,4,wikidata,"Ministry of Gender, Labour and Social Development (Uganda)",,200,10 mx2.umcs.go.ug.; 10 mta2.umcs.go.ug.; 10 mx1.umcs.go.ug.; 10 mta1.umcs.go.ug.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kampala",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+naro.go.ug,4,wikidata,National Agricultural Research Organisation,,200,0 naro-go-ug.mail.protection.outlook.com.
+nda.or.ug,4,wikidata,National Drug Authority,,HttpTimeoutException: request timed out,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+nfa.org.ug,4,wikidata,National Forestry Authority,,301,10 mail.nfa.org.ug.
+ngobureau.go.ug,4,wikidata,National Bureau for Non Governmental Organizations,,200,90 mx2.umcs.go.ug.; 90 mx1.umcs.go.ug.
+nlu.go.ug,4,wikidata,National Library of Uganda,,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+ucc.co.ug,4,wikidata,Uganda Communications Commission,,301,0 gw16129.fortimail.com.
+udc.go.ug,4,wikidata,Uganda Development Corporation,,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+ueccc.or.ug,4,wikidata,Uganda Energy Credit Capitalisation Company,,HttpConnectTimeoutException: HTTP connect timed out,0 ueccc-or-ug.mail.protection.outlook.com.
+ugandaexports.go.ug,4,wikidata,Uganda Export Promotion Board,,ConnectException,none
+uhrc.ug,4,wikidata,Uganda Human Rights Commission,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.uhrc.ug.; 20 mailcleaner.utlonline.co.ug.
+unas.org.ug,4,wikidata,Uganda National Academy of Sciences,,200,1 smtp.google.com.
+unche.or.ug,4,wikidata,Uganda National Council for Higher Education,,200,0 exodus.momentumhosting.cloud.
+uncst.go.ug,4,wikidata,Uganda National Council for Science and Technology,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching uncst.go.ug found.,0 uncst-go-ug.mail.protection.outlook.com.
+uneb.ac.ug,4,wikidata,Uganda National Examinations Board,,200,0 uneb-ac-ug.mail.protection.outlook.com.
+unesco-uganda.ug,4,wikidata,Uganda National Commission for UNESCO,,302,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+unma.go.ug,4,wikidata,Uganda National Meteorological Authority,,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+unmc.ug,4,wikidata,Uganda Nurses and Midwives Council,central,HttpConnectTimeoutException: HTTP connect timed out,0 mail.unmc.ug.; 10 feedback-smtp.us-east-1.amazonses.com.
+upf.go.ug,4,wikidata,Uganda Police Force,central,200,5 mail2.upf.go.ug.; 10 mx2.umcs.go.ug.; 99 mailitms.upf.go.ug.; 10 mx1.umcs.go.ug.
+urbra.go.ug,4,wikidata,Uganda Retirement Benefits Regulatory Authority,,200,0 urbra-go-ug.mail.protection.outlook.com.
+utb.go.ug,4,wikidata,Uganda Tourism Board,,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+works.go.ug,4,wikidata,Ministry of Works and Transport,,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+afro.who.int,3,wikidata,World Health Organization - Uganda,,200,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Uganda,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+kampala.diplo.de,3,wikidata,"Embassy of Germany, Kampala",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+norway.no,3,wikidata,"Embassy of Norway, Kampala",central,301,0 mx.domeneshop.no.
+pakhc.or.ke,3,wikidata,"Honorary Consulate of Pakistan, Kampala",,200,none
+parliament.go.ug,3,wikidata;wikidata;wikidata,"Parliament of Uganda | Committee on Commissions, Statutory Authorities and State Enterprises",central,302,0 parliament-go-ug.mail.protection.outlook.com.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Kampala",central,301,none
+ubos.org,3,wikidata,Uganda Bureau of Statistics,central,HttpConnectTimeoutException: HTTP connect timed out,0 ubos-org.mail.protection.outlook.com.; 5 mail.ubos.org.
+ug.ambafrance.org,3,wikidata,"Embassy of France, Kampala",central,301,none
+uganda.mid.ru,3,wikidata,embassy of Russia in Uganda,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+uganda.um.dk,3,wikidata,embassy of Denmark in Uganda,central,301,none
+ugandawildlife.org,3,wikidata,Uganda Wildlife Authority,,200,none
+uiri.org,3,wikidata,Uganda Industrial Research Institute,,200,0 .
+unatu.org,3,wikidata,Uganda National Teachers Union,,HttpTimeoutException: request timed out,0 unatu-org.mail.protection.outlook.com.
+opm.go.ug,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ministry of Relief and Disaster Preparedness | Ministry of Disaster Preparedness and Refugees | Office of the Prime Minister | Ministry for Karamoja,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.

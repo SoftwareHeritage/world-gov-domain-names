@@ -1,18 +1,18 @@
 hostname,score,sources,label,level,http_status,mx
-bahrain.bh,6,un_desa,UN/DESA national portal,,,
-bna.bh,4,wikidata,Bahrain News Agency,,,
-btea.bh,4,wikidata,Bahrain Tourism and Exhibitions Authority,,,
-lmra.bh,4,wikidata,Labour Market Regulatory Authority,,,
-mumtalakat.bh,4,wikidata,Mumtalakat Holding Company,,,
-nuwab.bh,4,wikidata,Council of Representatives,central,,
-qaa.edu.bh,4,wikidata,Quality Assurance Authority for Education and Training,,,
-sjc.bh,4,wikidata,Supreme Judicial Council,central,,
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Manama",central,,
-tra.org.bh,4,wikidata,Telecommunications Regulatory Authority of Bahrain,,,
-bahrain.mid.ru,3,wikidata,embassy of Russia to Bahrain,central,,
-bahrainedb.com,3,wikidata,Bahrain Economic Development Board,,,
-bapcoenergies.com,3,wikidata,Bapco Energies,,,
-bh.ambafrance.org,3,wikidata,"Embassy of France, Manama",central,,
-bh.mofa.pna.ps,3,wikidata,"Embassy of Palestine, Manama",central,,
-manama.diplo.de,3,wikidata,"Embassy of Germany, Manama",central,,
-sudanimanama.com,3,wikidata,embassy of Sudan in Bahrain,central,,
+bahrain.bh,6,un_desa,UN/DESA national portal,,301,10 inbound-smtp.eu-west-1.amazonaws.com.
+bna.bh,4,wikidata,Bahrain News Agency,,405,none
+btea.bh,4,wikidata,Bahrain Tourism and Exhibitions Authority,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching btea.bh found.,0 btea-bh.mail.protection.outlook.com.
+lmra.bh,4,wikidata,Labour Market Regulatory Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
+mumtalakat.bh,4,wikidata,Mumtalakat Holding Company,,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
+nuwab.bh,4,wikidata,Council of Representatives,central,ConnectException,0 nuwab-bh.mail.protection.outlook.com.
+qaa.edu.bh,4,wikidata,Quality Assurance Authority for Education and Training,,HttpConnectTimeoutException: HTTP connect timed out,20 qaa-edu-bh.mail.protection.outlook.com.
+sjc.bh,4,wikidata,Supreme Judicial Council,central,HttpConnectTimeoutException: HTTP connect timed out,0 sjc-bh.mail.protection.outlook.com.
+sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Manama",central,ConnectException,none
+tra.org.bh,4,wikidata,Telecommunications Regulatory Authority of Bahrain,,403,10 tra-org-bh.mail.protection.outlook.com.
+bahrain.mid.ru,3,wikidata,embassy of Russia to Bahrain,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bahrainedb.com,3,wikidata,Bahrain Economic Development Board,,405,20 mailrelaya2.bahrainedb.com.; 0 bahrainedb-com.mail.protection.outlook.com.; 10 mailrelaya1.bahrainedb.com.
+bapcoenergies.com,3,wikidata,Bapco Energies,,302,0 bapcoenergies-com.mail.protection.outlook.com.
+bh.ambafrance.org,3,wikidata,"Embassy of France, Manama",central,301,none
+bh.mofa.pna.ps,3,wikidata,"Embassy of Palestine, Manama",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+manama.diplo.de,3,wikidata,"Embassy of Germany, Manama",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+sudanimanama.com,3,wikidata,embassy of Sudan in Bahrain,central,ConnectException,none

@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `cubagob.cu` |  |  | un_desa;wikidata;wikidata | Q116796288 | Council of State of Cuba | UN/DESA national portal |
-| 7 | `cubaminrex.cu` | central |  | wikidata;wikidata | Ministry of Foreign Affairs |
-| 7 | `mes.edu.cu` | central |  | wikidata;wikidata | Ministry of Higher Education of Cuba |
-| 7 | `sld.cu` | central |  | wikidata;wikidata | Ministry of Public Health |
-| 6 | `centroamericaribeschp.com` |  |  | wikidata;wikidata | Piarist province Central America- Caribbean |
-| 6 | `dominicoshispania.org` |  |  | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 4 | `acdam.cu` |  |  | wikidata | ACDAM |
-| 4 | `acn.cu` |  |  | wikidata | Cuban News Agency |
-| 4 | `ama.cu` |  |  | wikidata | Environmental Agency of Cuba |
-| 4 | `arnac.cu` |  |  | wikidata | National Archive of the Republic of Cuba |
-| 4 | `bnjm.cu` |  |  | wikidata | National Library José Martí |
-| 4 | `cdm.gtmo.inf.cu` |  |  | wikidata | Centro de Desarrollo de la Montaña |
-| 4 | `cecmed.cu` |  |  | wikidata | CECMED |
-| 4 | `centis.cu` |  |  | wikidata | Centro de Isotopos |
-| 4 | `eleccionesencuba.cu` | central |  | wikidata | National Electoral Council of Cuba |
-| 4 | `geotech.cu` |  |  | wikidata | Institute of Tropical Geography |
-| 4 | `havanna.mfa.gov.hu` | central |  | wikidata | Hungarian embassy, Havana |
-| 4 | `inaf.co.cu` |  |  | wikidata | Instituto de Investigaciones Agro-Forestales |
-| 4 | `inca.edu.cu` |  |  | wikidata | National Institute of Agricultural Sciences |
-| 4 | `inimet.cu` |  |  | wikidata | Instituto Nacional de Metrologia |
+| 10 | `cubagob.cu` |  | HttpConne... | un_desa;wikidata;wikidata | Q116796288 | Council of State of Cuba | UN/DESA national portal |
+| 7 | `cubaminrex.cu` | central | ProtocolE... | wikidata;wikidata | Ministry of Foreign Affairs |
+| 7 | `mes.edu.cu` | central | ConnectEx... | wikidata;wikidata | Ministry of Higher Education of Cuba |
+| 7 | `sld.cu` | central | ConnectEx... | wikidata;wikidata | Ministry of Public Health |
+| 6 | `centroamericaribeschp.com` |  | 400 | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 4 | `acdam.cu` |  | SSLHandsh... | wikidata | ACDAM |
+| 4 | `acn.cu` |  | 301 | wikidata | Cuban News Agency |
+| 4 | `ama.cu` |  | ConnectEx... | wikidata | Environmental Agency of Cuba |
+| 4 | `arnac.cu` |  | SSLHandsh... | wikidata | National Archive of the Republic of Cuba |
+| 4 | `bnjm.cu` |  | HttpConne... | wikidata | National Library José Martí |
+| 4 | `cdm.gtmo.inf.cu` |  | ConnectEx... | wikidata | Centro de Desarrollo de la Montaña |
+| 4 | `cecmed.cu` |  | ConnectEx... | wikidata | CECMED |
+| 4 | `centis.cu` |  | HttpConne... | wikidata | Centro de Isotopos |
+| 4 | `eleccionesencuba.cu` | central | HttpConne... | wikidata | National Electoral Council of Cuba |
+| 4 | `geotech.cu` |  | HttpConne... | wikidata | Institute of Tropical Geography |
+| 4 | `havanna.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Havana |
+| 4 | `inaf.co.cu` |  | ConnectEx... | wikidata | Instituto de Investigaciones Agro-Forestales |
+| 4 | `inca.edu.cu` |  | HttpConne... | wikidata | National Institute of Agricultural Sciences |
+| 4 | `inimet.cu` |  | ConnectEx... | wikidata | Instituto Nacional de Metrologia |
 

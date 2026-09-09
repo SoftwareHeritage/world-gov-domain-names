@@ -35,26 +35,26 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `evl.fi` |  |  | wikidata;wikidata | Church Council |
-| 7 | `huoltovarmuuskeskus.fi` |  |  | wikidata;wikidata;wikidata | National Emergency Supply Agency |
-| 7 | `kansalliskirjasto.fi` |  |  | wikidata;wikidata | National Library of Finland |
-| 7 | `keuda.fi` |  |  | wikidata;wikidata | Keuda |
-| 7 | `keva.fi` |  |  | wikidata;wikidata | Keva Pension Agency |
-| 7 | `ltky.fi` |  |  | wikidata;wikidata | Student Union of LUT University |
-| 7 | `maanmittauslaitos.fi` |  |  | wikidata;wikidata;wikidata;wikidata | National Land Survey of Finland |
-| 7 | `ort.fi` |  |  | wikidata;wikidata | Q11885811 |
-| 7 | `pohde.fi` | central-1 |  | wikidata;wikidata | Wellbeing Services County of North Ostrobothnia |
-| 7 | `poliisi.fi` | central |  | wikidata;wikidata;wikidata;wikidata;wikidata | National Police Board | Police of Finland | National Bureau of Investigation |
-| 7 | `rikosseuraamus.fi` |  |  | wikidata;wikidata | Prison and Probation Service of Finland |
-| 7 | `samediggi.fi` |  |  | wikidata;wikidata | Sami Parliament of Finland |
-| 7 | `syyttajalaitos.fi` |  |  | wikidata;wikidata;wikidata | National Prosecution Authority |
-| 7 | `tulli.fi` |  |  | wikidata;wikidata;wikidata;wikidata;wikidata | National Board of Customs | Finnish Customs |
-| 7 | `tyotuomioistuin.fi` |  |  | wikidata;wikidata | Labour Court |
-| 7 | `ulosottolaitos.fi` |  |  | wikidata;wikidata;wikidata | National Enforcement Authority Finland |
-| 7 | `varha.fi` | central-1 |  | wikidata;wikidata;wikidata;wikidata | Wellbeing Services County of Southwest Finland |
-| 7 | `vtv.fi` |  |  | wikidata;wikidata;wikidata | National Audit Office of Finland |
-| 7 | `yvtltk.fi` |  |  | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | National Non-Discrimination and Equality Tribunal of Finland |
-| 6 | `helsinki.europarl.europa.eu` | central |  | wikidata;wikidata | European Parliament Liaison Office in Finland |
+| 7 | `evl.fi` |  | 200 | wikidata;wikidata | Church Council |
+| 7 | `huoltovarmuuskeskus.fi` |  | 302 | wikidata;wikidata;wikidata | National Emergency Supply Agency |
+| 7 | `kansalliskirjasto.fi` |  | 403 | wikidata;wikidata | National Library of Finland |
+| 7 | `keuda.fi` |  | 301 | wikidata;wikidata | Keuda |
+| 7 | `keva.fi` |  | 301 | wikidata;wikidata | Keva Pension Agency |
+| 7 | `ltky.fi` |  | 200 | wikidata;wikidata | Student Union of LUT University |
+| 7 | `maanmittauslaitos.fi` |  | 302 | wikidata;wikidata;wikidata;wikidata | National Land Survey of Finland |
+| 7 | `ort.fi` |  | 200 | wikidata;wikidata | Q11885811 |
+| 7 | `pohde.fi` | central-1 | 200 | wikidata;wikidata | Wellbeing Services County of North Ostrobothnia |
+| 7 | `poliisi.fi` | central | 302 | wikidata;wikidata;wikidata;wikidata;wikidata | National Police Board | Police of Finland | National Bureau of Investigation |
+| 7 | `rikosseuraamus.fi` |  | 301 | wikidata;wikidata | Prison and Probation Service of Finland |
+| 7 | `samediggi.fi` |  | 200 | wikidata;wikidata | Sami Parliament of Finland |
+| 7 | `syyttajalaitos.fi` |  | 301 | wikidata;wikidata;wikidata | National Prosecution Authority |
+| 7 | `tulli.fi` |  | 302 | wikidata;wikidata;wikidata;wikidata;wikidata | National Board of Customs | Finnish Customs |
+| 7 | `tyotuomioistuin.fi` |  | 301 | wikidata;wikidata | Labour Court |
+| 7 | `ulosottolaitos.fi` |  | 301 | wikidata;wikidata;wikidata | National Enforcement Authority Finland |
+| 7 | `varha.fi` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata | Wellbeing Services County of Southwest Finland |
+| 7 | `vtv.fi` |  | 200 | wikidata;wikidata;wikidata | National Audit Office of Finland |
+| 7 | `yvtltk.fi` |  | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | National Non-Discrimination and Equality Tribunal of Finland |
+| 6 | `helsinki.europarl.europa.eu` | central | 302 | wikidata;wikidata | European Parliament Liaison Office in Finland |
 
 ## ccTLD anomalies
 

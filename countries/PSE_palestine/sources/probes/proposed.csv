@@ -1,0 +1,71 @@
+hostname,http_status,mx
+custodia.org,301,0 custodia-org.mail.protection.outlook.com.
+cwrc.ps,200,5 cwrc.email.gov.ps.
+darifta.ps,200,0 darifta.ps.
+dfa.ie,301,10 ext0.dfa.ie.; 20 cwext.gn.gov.ie.; 20 gbext.gn.gov.ie.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+elections.ps,301,10 mail.elections.ps.
+environment.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+finlandabroad.fi,301,10 mail.valtori.fi.
+gmtc.sec.ps,200,5 gmtc.email.gov.ps.
+gpc.pna.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+lab.pna.ps,301,10 lab-pna-ps.mail.protection.outlook.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+minfo.ps,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,5 minfo.email.gov.ps.
+moa.pna.ps,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching moa.pna.ps found.,5 moa.email.gov.ps.
+mobpla.pna.ps,HttpConnectTimeoutException: HTTP connect timed out,none
+moc.pna.ps,200,5 moc.email.gov.ps.
+moe.pna.ps,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 1164512305.mail.outlook.com.
+mofa.pna.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mxr.mofa.pna.ps.
+moh.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 moh.email.gov.ps.
+mohe.pna.ps,404,0 mohe-pna-ps.mail.protection.outlook.com.
+moj.pna.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 moj.email.gov.ps.
+mol.pna.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mol.email.gov.ps.
+molg.pna.ps,200,0 molg.email.gov.ps.
+mtit.pna.ps,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+nad.ps,301,0 email.nad-nsu.ps.
+nlp.ps,200,0 nlp-ps.mail.protection.outlook.com.
+norway.no,301,0 mx.domeneshop.no.
+nsf.ps,200,none
+pacc.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pal-chambers.org,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.pal-chambers.org.
+pal-plc.org,HttpConnectTimeoutException: HTTP connect timed out,5 pal-plc.email.gov.ps.
+pal-wakf.ps,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,1 pal-wakf.email.gov.ps.
+palcp.ps,200,5 palcp.email.gov.ps.
+palestinepnc.org,HttpTimeoutException: request timed out,0 mail.palestinepnc.org.
+palpolice.ps,403,0 _dc-mx.26ffb6c5ae8e.palpolice.ps.
+palpost.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 palpost.email.gov.ps.
+palsafar.ps,ConnectException,none
+pcd.ps,200,5 pcd.email.gov.ps.
+pcdc.edu.ps,HttpConnectTimeoutException: HTTP connect timed out,none
+penra.pna.ps,200,5 penra.email.gov.ps.
+perc.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 perc.email.gov.ps.
+pgis.ps,302,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+pica.pna.ps,200,5 pica.email.gov.ps.
+pipa.ps,200,none
+plc.ps,302,5 mailgw01.gov.ps.
+plord.ps,ConnectException,none
+pma.ps,302,0 pma-ps.mail.protection.outlook.com.
+pmd.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 pmd.email.gov.ps.
+pmi.pna.ps,200,5 pmi.email.gov.ps.
+pna.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pnac.pna.ps,HttpConnectTimeoutException: HTTP connect timed out,none
+pncecs.plo.ps,200,5 pncecs.email.gov.ps.
+png.plo.ps,200,5 png.email.gov.ps.
+ppag.ps,200,10 mail.ppag.ps.
+ppfi.ps,301,0 ppfi-ps.mail.protection.outlook.com.
+pschinaoffice.org,ConnectException,none
+pwa.ps,301,5 pwa.email.gov.ps.
+ramala.predstavnistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+ramallah.diplo.de,200,10 mx2.bund.de.; 10 mx1.bund.de.
+ramallah.mae.ro,503,none
+ramallah.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ramallah.um.dk,301,none
+saacb.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.saacb.ps.
+site.moh.ps,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+swedenabroad.se,301,none
+tourism.ps,200,none
+tscc.pna.ps,301,5 tscc.email.gov.ps.
+tulkarm-chamber.org,ConnectException,none
+wsrc.ps,200,0 wsrc-ps.mail.protection.outlook.com.

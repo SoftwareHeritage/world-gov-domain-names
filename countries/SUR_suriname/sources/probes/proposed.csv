@@ -1,0 +1,12 @@
+hostname,http_status,mx
+cbvs.sr,523,0 cbvs-sr.mail.protection.outlook.com.
+dna.sr,301,10 mx2-eu1.ppe-hosted.com.; 0 mx1-eu1.ppe-hosted.com.
+eas.sr,HttpTimeoutException: request timed out,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+kkf.sr,301,0 kkf.sr.
+nationaalarchief.sr,200,0 _dc-mx.b3d2421d2b0e.nationaalarchief.sr.
+nccr.sr.org,ConnectException,none
+politie.sr,200,0 politie-sr.mail.protection.outlook.com.; 1 politie.sr.
+sbb.sr,200,0 sbb-sr.mail.protection.outlook.com.
+statistics-suriname.org,200,10 mail.statistics-suriname.org.
+surguychamber.org,200,5 nlpprofile.com.
+taalunie.org,200,10 taalunie-org.mail.protection.outlook.com.

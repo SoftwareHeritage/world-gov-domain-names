@@ -1,4 +1,4 @@
 hostname,score,sources,label,level,http_status,mx
-fsmgov.org,5,un_desa,UN/DESA national portal,,,
-fsmhealth.fm,4,wikidata,Department of Health and Social Affairs,,,
-fsmstatistics.fm,4,wikidata,FM Statistics,,,
+fsmgov.org,5,un_desa,UN/DESA national portal,,200,0 mail.fsmgov.org.
+fsmhealth.fm,4,wikidata,Department of Health and Social Affairs,,HttpConnectTimeoutException: HTTP connect timed out,20 d274358b.ess.barracudanetworks.com.; 10 d274358a.ess.barracudanetworks.com.
+fsmstatistics.fm,4,wikidata,FM Statistics,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2-hosting.jellyfish.systems.; 5 mx1-hosting.jellyfish.systems.; 20 mx3-hosting.jellyfish.systems.

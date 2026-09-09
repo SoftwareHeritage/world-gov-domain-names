@@ -1,319 +1,319 @@
 hostname,score,sources,label,level,http_status,mx
-agricoop.nic.in,7,wikidata;wikidata,"Department of Agriculture, Co-operation and Farmers Welfare | Department of Agriculture & Co-operation",,,
-ceib.nic.in,7,wikidata;wikidata,Central Economic Intelligence Bureau | Intelligence Bureau,,,
-cghealth.nic.in,7,wikidata;wikidata,"Department of Health & Family Welfare & Medical Education, Chhattisgarh",,,
-consumeraffairs.nic.in,7,wikidata;wikidata,"Ministry of Consumer Affairs, Food and Public Distribution",central,,
-davp.nic.in,7,wikidata;wikidata,Directorate of Advertising and Visual Publicity | Bureau of Outreach and Communication,,,
-delhiassembly.nic.in,7,wikidata;wikidata,Delhi Legislative Assembly,central-1,,
-dhi.nic.in,7,wikidata;wikidata,Ministry of Heavy Industries and Public Enterprises,central,,
-fincomindia.nic.in,7,wikidata;wikidata,Finance Commission of India | Fifteenth Finance Commission of India,,,
-gachbalangirodisha.ac.in,7,wikidata;wikidata,"Government Ayurvedic College, Balangir",,,
-icar.org.in,7,wikidata;wikidata,National Agricultural Science Fund | Indian Council of Agricultural Research,,,
-indiaculture.nic.in,7,wikidata;wikidata,Ministry of Culture,central,,
-islrtc.nic.in,7,wikidata;wikidata,Indian Sign Language Research and Training Center,,,
-kla.kar.nic.in,7,wikidata;wikidata;wikidata;wikidata,Karnataka Legislative Assembly | Karnataka Legislative Council,central-1,,
-labour.nic.in,7,wikidata;wikidata,Ministry of Labour and Employment,central,,
-leh.nic.in,7,wikidata;wikidata,"Ladakh Autonomous Hill Development Council, Leh",central-1,,
-mcdonline.nic.in,7,wikidata;wikidata;wikidata,Municipal Corporation of Delhi,central-1,,
-mls.org.in,7,wikidata;wikidata;wikidata,Maharashtra Legislative Assembly | Maharashtra Legislative Council,central-1,,
-mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, New Delhi | Consulate General of the United Arab Emirates, Mumbai",central,,
-mofpi.nic.in,7,wikidata;wikidata,Ministry of Food Processing Industries,central,,
-morth.nic.in,7,wikidata;wikidata,Ministry of Road Transport and Highways,central,,
-nhrc.nic.in,7,wikidata;wikidata;wikidata,National Human Rights Commission | Andhra Pradesh State Human Rights Commission | Jharkhand Human Rights Commission,,,
-nssce.ac.in,7,wikidata;wikidata,NSS College of Engineering,,,
-petroleum.nic.in,7,wikidata;wikidata,Ministry of Petroleum and Natural Gas,central,,
-powermin.nic.in,7,wikidata;wikidata,Ministry of Power,central,,
-shipping.nic.in,7,wikidata;wikidata,"Ministry of Ports, Shipping and Waterways",central,,
-socialjustice.nic.in,7,wikidata;wikidata,Ministry of Social Justice and Empowerment,central,,
-telanganalegislature.org.in,7,wikidata;wikidata,Telangana Legislative Council | Telangana Legislative Assembly,central-1,,
-tribal.nic.in,7,wikidata;wikidata,Ministry of Tribal Affairs,central,,
-wcd.nic.in,7,wikidata;wikidata,Ministry of Women and Child Development,central,,
-yas.nic.in,7,wikidata;wikidata,Ministry of Youth Affairs and Sports,central,,
-aai.aero,6,wikidata;wikidata,Airports Authority of India | Visakhapatnam International Airport,,,
-ambafrance-in.org,6,wikidata;wikidata,"Consulate of France, Mumbai | Consulate of France, Bangalore",,,
-footballsynergy.com,6,wikidata;wikidata,Football Synergy,,,
-indiacoffee.org,6,wikidata;wikidata,Coffee Board of India,,,
-mykishtwar.com,6,wikidata;wikidata,Kishtwar,,,
-nederlandwereldwijd.nl,6,wikidata;wikidata,"Embassy of the Netherlands, New Delhi",central,,
-rnbgujarat.org,6,wikidata;wikidata,Roads and Buildings Department,central-1,,
+agricoop.nic.in,7,wikidata;wikidata,"Department of Agriculture, Co-operation and Farmers Welfare | Department of Agriculture & Co-operation",,ConnectException,none
+ceib.nic.in,7,wikidata;wikidata,Central Economic Intelligence Bureau | Intelligence Bureau,,HttpConnectTimeoutException: HTTP connect timed out,none
+cghealth.nic.in,7,wikidata;wikidata,"Department of Health & Family Welfare & Medical Education, Chhattisgarh",,301,none
+consumeraffairs.nic.in,7,wikidata;wikidata,"Ministry of Consumer Affairs, Food and Public Distribution",central,HttpConnectTimeoutException: HTTP connect timed out,none
+davp.nic.in,7,wikidata;wikidata,Directorate of Advertising and Visual Publicity | Bureau of Outreach and Communication,,200,none
+delhiassembly.nic.in,7,wikidata;wikidata,Delhi Legislative Assembly,central-1,ConnectException,none
+dhi.nic.in,7,wikidata;wikidata,Ministry of Heavy Industries and Public Enterprises,central,ConnectException,none
+fincomindia.nic.in,7,wikidata;wikidata,Finance Commission of India | Fifteenth Finance Commission of India,,HttpConnectTimeoutException: HTTP connect timed out,none
+gachbalangirodisha.ac.in,7,wikidata;wikidata,"Government Ayurvedic College, Balangir",,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+icar.org.in,7,wikidata;wikidata,National Agricultural Science Fund | Indian Council of Agricultural Research,,HttpTimeoutException: request timed out,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
+indiaculture.nic.in,7,wikidata;wikidata,Ministry of Culture,central,ConnectException,none
+islrtc.nic.in,7,wikidata;wikidata,Indian Sign Language Research and Training Center,,200,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.
+kla.kar.nic.in,7,wikidata;wikidata;wikidata;wikidata,Karnataka Legislative Assembly | Karnataka Legislative Council,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+labour.nic.in,7,wikidata;wikidata,Ministry of Labour and Employment,central,ConnectException,none
+leh.nic.in,7,wikidata;wikidata,"Ladakh Autonomous Hill Development Council, Leh",central-1,200,none
+mcdonline.nic.in,7,wikidata;wikidata;wikidata,Municipal Corporation of Delhi,central-1,200,none
+mls.org.in,7,wikidata;wikidata;wikidata,Maharashtra Legislative Assembly | Maharashtra Legislative Council,central-1,200,100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.; 10 mail.mls.org.in.
+mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, New Delhi | Consulate General of the United Arab Emirates, Mumbai",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mofpi.nic.in,7,wikidata;wikidata,Ministry of Food Processing Industries,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 mailgw.nic.in.
+morth.nic.in,7,wikidata;wikidata,Ministry of Road Transport and Highways,central,301,none
+nhrc.nic.in,7,wikidata;wikidata;wikidata,National Human Rights Commission | Andhra Pradesh State Human Rights Commission | Jharkhand Human Rights Commission,,302,none
+nssce.ac.in,7,wikidata;wikidata,NSS College of Engineering,,200,0 aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+petroleum.nic.in,7,wikidata;wikidata,Ministry of Petroleum and Natural Gas,central,ConnectException,none
+powermin.nic.in,7,wikidata;wikidata,Ministry of Power,central,ConnectException,none
+shipping.nic.in,7,wikidata;wikidata,"Ministry of Ports, Shipping and Waterways",central,ConnectException,none
+socialjustice.nic.in,7,wikidata;wikidata,Ministry of Social Justice and Empowerment,central,ConnectException,none
+telanganalegislature.org.in,7,wikidata;wikidata,Telangana Legislative Council | Telangana Legislative Assembly,central-1,403,none
+tribal.nic.in,7,wikidata;wikidata,Ministry of Tribal Affairs,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+wcd.nic.in,7,wikidata;wikidata,Ministry of Women and Child Development,central,ConnectException,none
+yas.nic.in,7,wikidata;wikidata,Ministry of Youth Affairs and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,none
+aai.aero,6,wikidata;wikidata,Airports Authority of India | Visakhapatnam International Airport,,HttpConnectTimeoutException: HTTP connect timed out,5 mail.aai.aero.; 5 mail1.aai.aero.
+ambafrance-in.org,6,wikidata;wikidata,"Consulate of France, Mumbai | Consulate of France, Bangalore",,ConnectException,5 mta-gw.infomaniak.ch.
+footballsynergy.com,6,wikidata;wikidata,Football Synergy,,ConnectException,none
+indiacoffee.org,6,wikidata;wikidata,Coffee Board of India,,HttpConnectTimeoutException: HTTP connect timed out,none
+mykishtwar.com,6,wikidata;wikidata,Kishtwar,,200,0 mail.mykishtwar.com.
+nederlandwereldwijd.nl,6,wikidata;wikidata,"Embassy of the Netherlands, New Delhi",central,301,0 .
+rnbgujarat.org,6,wikidata;wikidata,Roads and Buildings Department,central-1,301,none
 गृहमंत्रालय.सरकार.भारत,6,wikidata;wikidata,Ministry of Home Affairs,central,,
-aiwc.res.in,4,wikidata,Advanced Institute for Wildlife Conservation,,,
-allahabadhighcourt.in,4,wikidata,Allahabad High Court,central-1,,
-arunachalpradesh.nic.in,4,wikidata,Arunachal Pradesh Legislative Assembly,central-1,,
-arunpol.nic.in,4,wikidata,Arunachal Pradesh Police,,,
-as1.ori.nic.in,4,wikidata,Odisha Human rights Commission,,,
-asansoldurgapurpolice.in,4,wikidata,Asansol–Durgapur Police Commissionerate,,,
-asi.nic.in,4,wikidata,Archaeological Survey of India,central,,
-asmcjaunpur.edu.in,4,wikidata,Uma Nath Singh Autonomous State Medical College Jaunpur,,,
-atarijodhpur.res.in,4,wikidata,"ICAR-Agricultural Technology Application Research Institute, Zone-II, Jodhpur",,,
-banksboardbureau.org.in,4,wikidata,Banks Board Bureau,,,
-barrackporecitypolice.in,4,wikidata,Barrackpore City Police,,,
-biharpolice.bih.nic.in,4,wikidata,Bihar Police,,,
-bis.org.in,4,wikidata,Bureau of Indian Standards,,,
-bombayhighcourt.nic.in,4,wikidata,Bombay High Court,central-1,,
-botswanahighcom.in,4,wikidata,high commission of Botswana in India,central,,
-bprd.nic.in,4,wikidata,Bureau of Police Research and Development,,,
-cara.nic.in,4,wikidata,Central Adoption Resource Authority,,,
-cbn.nic.in,4,wikidata,Central Bureau of Narcotics,,,
-ccras.nic.in,4,wikidata,Central Council for Research in Ayurvedic Science,,,
-ccrum.res.in,4,wikidata,Central Council for Research in Unani Medicine,,,
-cdot.in,4,wikidata,C-DOT,central,,
-cert-in.org.in,4,wikidata,Indian Computer Emergency Response Team,,,
-cgcost.nic.in,4,wikidata,Chhattisgarh Council of Science and Technology,,,
-cgewho.in,4,wikidata,Central Government Employees Welfare Housing Organisation,,,
-chamoli.nic.in,4,wikidata,Joshimath,,,
-coconutboard.nic.in,4,wikidata,Coconut Development Board,,,
-cpcb.nic.in,4,wikidata,Central Pollution Control Board,,,
-csmrs.nic.in,4,wikidata,Central Soil and Materials Research Station,,,
-csr.res.in,4,wikidata,"UGC-DAE Consortium for Scientific Research, Mumbai Centre",,,
-csrtimys.res.in,4,wikidata,Central Sericultural Research and Training Institute,,,
-dda.org.in,4,wikidata,Delhi Development Authority,,,
-delhihighcourt.nic.in,4,wikidata,Delhi High Court,central-1,,
-delhijalboard.nic.in,4,wikidata,Delhi Jal Board,,,
-dgciskol.nic.in,4,wikidata,Directorate General of Commercial Intelligence and Statistics,,,
-dget.nic.in,4,wikidata,Directorate General of Training,,,
-dgll.nic.in,4,wikidata,Directorate General of Lighthouses and Lightships,,,
-dkma.icar.org.in,4,wikidata,Directorate of Knowledge Management in Agriculture,,,
-dme.ap.nic.in,4,wikidata,Directorate of Medical Education,central-1,,
-dod.nic.in,4,wikidata,Department of Ocean Development,,,
-dosel.co.in,4,wikidata,Department of School Education & Literacy,central-1,,
-dri.nic.in,4,wikidata,Directorate of Revenue Intelligence,,,
-dsir.csir.res.in,4,wikidata,Department of Scientific and Industrial Research,,,
-embassymongolia.in,4,wikidata,embassy of Mongolia in India,central,,
-ermed.in,4,wikidata,National Medical Library,,,
-ernet.in,4,wikidata,ERNET,,,
-ethiopianembassy.org.in,4,wikidata,embassy of Ethiopia in India,central,,
-faunaofindia.nic.in,4,wikidata,Zoological Survey of India,,,
-firecollegenagpur.in,4,wikidata,"Indian Institute of Fire Engineering, Nagpur",,,
-fsi.nic.in,4,wikidata,Forest Survey of India,,,
-ghana-mission.co.in,4,wikidata,high commission of Ghana in India,central,,
-ghmcbengaluru.in,4,wikidata,Government Homoeopathic Medical College and Hospital Bengaluru,,,
-ghrc.guj.nic.in,4,wikidata,Gujrat State Human Rights Commission,,,
-govtgirlspgcollege.ac.in,4,wikidata,"Govt.W.W. Patankar Girls’ PG College, Durg",,,
-gujarathighcourt.nic.in,4,wikidata,Gujarat High Court,central-1,,
-haryanahealth.nic.in,4,wikidata,"Health Department, Haryana",,,
-hc.ap.nic.in,4,wikidata,Andhra Pradesh High Court,central-1,,
-hc.ts.nic.in,4,wikidata,Telangana High Court,central-1,,
-hcmadras.tn.nic.in,4,wikidata,Madras High Court,central-1,,
-hcmimphal.nic.in,4,wikidata,Manipur High Court,central-1,,
-hcraj.nic.in,4,wikidata,Rajasthan High Court,central-1,,
-highcourtofkerala.nic.in,4,wikidata,Kerala High Court,central-1,,
-highcourtofsikkim.nic.in,4,wikidata,Sikkim High Court,central-1,,
-highereducationwb.in,4,wikidata,Department of Higher Education,,,
-himachal.nic.in,4,wikidata,Himachal Pradesh Department of Education,central-1,,
-hindinideshalaya.nic.in,4,wikidata,Central Hindi Directorate,,,
-hphighcourt.nic.in,4,wikidata,Himachal Pradesh High Court,central-1,,
-hpvidhansabha.nic.in,4,wikidata,Himachal Pradesh Legislative Assembly,central-1,,
-hridayindia.in,4,wikidata,HRIDAY - Heritage City Development and Augmentation Yojana,,,
-iccs.res.in,4,wikidata,KSCSTE - Institute for Climate Change Studies,,,
-icpr.nic.in,4,wikidata,Indian Council of Philosophical Research,,,
-iipa.org.in,4,wikidata,Indian Institute of Public Administration,,,
-iiwm.res.in,4,wikidata,Indian Institute of Water Management,,,
-incometaxbangalore.in,4,wikidata,Income Tax Department Karnataka & Goa,,,
-international.gouv.qc.ca,4,wikidata,Quebec bureau office in Mumbai,,,
-ipindia.nic.in,4,wikidata,Indian Patent Office,,,
-irinn.in,4,wikidata,Indian Registry for Internet Names and Numbers,central,,
-itbpolice.nic.in,4,wikidata,Indo-Tibetan Border Police,,,
-jagannath.nic.in,4,wikidata,Shri Jagannath Temple Administrator Office,,,
-jharkhandhighcourt.nic.in,4,wikidata,Jharkhand High Court,central-1,,
-jkhighcourt.nic.in,4,wikidata,High Court of Jammu and Kashmir and Ladakh,central-1,,
-jklegislativecouncil.nic.in,4,wikidata,Jammu and Kashmir Legislative Council,central-1,,
-kasrc.res.in,4,wikidata,Kashmir Advanced Scientific Research Centre,,,
-kvic.org.in,4,wikidata,Khadi and Village Industries Commission,,,
-mahaforest.nic.in,4,wikidata,Maharashtra Forest Department,,,
-maldiveshighcom.in,4,wikidata,high commission of Maldives in India,central,,
-maliembassy.co.in,4,wikidata,embassy of Mali in India,central,,
-mbc.ac.in,4,wikidata,"Mihir Bhoj Postgraduate College, Dadri",,,
-meghalayahighcourt.nic.in,4,wikidata,Meghalaya High Court,central-1,,
-mgvlvhsr.kbhgroup.in,4,wikidata,"Loknete Vyankatrao Hiray Arts, Science and Commerce College",,,
-mha.nic.in,4,wikidata,Central Armed Police Forces,central,,
-mizoramassembly.in,4,wikidata,Mizoram Legislative Assembly,central-1,,
-mospi.nic.in,4,wikidata,Central Statistics Office,,,
-mphc.in,4,wikidata,Madhya Pradesh High Court,central-1,,
-mpvidhansabha.nic.in,4,wikidata,Madhya Pradesh Legislative Assembly,central-1,,
-naas.org.in,4,wikidata,National Academy of Agricultural Sciences,,,
-nabarangpurcollege.ac.in,4,wikidata,Nabarangpur College,,,
-nainital.nic.in,4,wikidata,Nainital,,,
-nams-india.in,4,wikidata,National Academy of Medical Sciences,,,
-narcoticsindia.nic.in,4,wikidata,Narcotics Control Bureau,,,
-natboard.edu.in,4,wikidata,National Board of Examinations,,,
-nationalarchives.nic.in,4,wikidata,National Archives of India,,,
-ncm.nic.in,4,wikidata,National Commission for Minorities,central,,
-ncsc.nic.in,4,wikidata,National Commission for Scheduled Castes,,,
-ncw.nic.in,4,wikidata,National Commission for Women,,,
-newdelhi.mfa.gov.hu,4,wikidata,embassy of Hungary in India,central,,
-nicd.nic.in,4,wikidata,National Centre for Disease Control,,,
-niepid.nic.in,4,wikidata,National Institute for the Empowerment of Persons with Intellectual Disabilities,,,
-nif.org.in,4,wikidata,National Innovation Foundation,,,
-nigerianhcdelhi.in,4,wikidata,high commission of Nigeria in India,central,,
-nilerd.ac.in,4,wikidata,National Institute of Labour Economics Research and Development,,,
-nipccd.nic.in,4,wikidata,National Institute of Public Cooperation and Child Development,,,
-nirm.in,4,wikidata,National Institute of Rock Mechanics,,,
-nise.res.in,4,wikidata,National Institute of Solar Energy,,,
-nitcouncil.org.in,4,wikidata,"Council of National Institutes of Technology, Science Education and Research",,,
-nja.nic.in,4,wikidata,National Judicial Academy,,,
-nmc.org.in,4,wikidata,National Medical Commission,,,
-nrbdrdo.res.in,4,wikidata,Naval Research Board,,,
-nsc.org.in,4,wikidata,National Safety Council,,,
-nta.ac.in,4,wikidata,National Testing Agency,,,
-odishaassembly.nic.in,4,wikidata,Odisha Legislative Assembly,central-1,,
-odishabiodiversityboard.in,4,wikidata,Odisha Biodiversity Board,,,
-orissahighcourt.nic.in,4,wikidata,Orissa High Court,central-1,,
-paraguayembassy.in,4,wikidata,embassy of Paraguay in India,central,,
-patnahighcourt.bih.nic.in,4,wikidata,Patna High Court,central-1,,
-patnapolice.bih.nic.in,4,wikidata,Patna Police,,,
-pci.nic.in,4,wikidata,Pharmacy Council Of India,central,,
-pib.nic.in,4,wikidata,National Development Council,,,
-pithoragarh.nic.in,4,wikidata,Pithoragarh,,,
-polishinstitute.in,4,wikidata,Polish Institute in New Delhi,,,
-punjabassembly.nic.in,4,wikidata,Punjab Legislative Assembly,central-1,,
-rkvy.nic.in,4,wikidata,Rashtriya Krishi Vikas Yojana,,,
-rubberboard.org.in,4,wikidata,Rubber Board,,,
-sfri.nic.in,4,wikidata,State Forest Research Institute,,,
-shiksha.cg.nic.in,4,wikidata,Department of School Education,central-1,,
-shrc.tn.nic.in,4,wikidata,State Human Rights Commission Tamil Nadu,,,
-soisti.ap.nic.in,4,wikidata,Indian Institute of Surveying & Mapping,,,
-sp.mofaic.gov.ae,4,wikidata,"Consulate General of the United Arab Emirates, Kerala",,,
-spg.nic.in,4,wikidata,Special Protection Group,,,
-sportsauthorityofindia.nic.in,4,wikidata,Sports Authority of India,,,
-sshrc.nic.in,4,wikidata,Sikkim State Human Rights Commission,,,
-syriaembassy.in,4,wikidata,embassy of Syria in India,central,,
-tdsat.nic.in,4,wikidata,Telecom Disputes Settlement and Appellate Tribunal,,,
-thc.nic.in,4,wikidata,Tripura High Court,central-1,,
-tifac.org.in,4,wikidata,"Technology Information, Forecasting and Assessment Council",,,
-tripuraassembly.nic.in,4,wikidata,Tripura Legislative Assembly,central-1,,
-ucost.in,4,wikidata,Uttarakhand State Council for Science and Technology,,,
-ugc.ac.in,4,wikidata,University Grants Commission,,,
-uphrc.up.nic.in,4,wikidata,Uttar Pradesh Human Rights Commission,,,
-upslsa.up.nic.in,4,wikidata,Uttar Pradesh State Legal Services Authority,,,
-upvidhanparishad.nic.in,4,wikidata,Uttar Pradesh Legislative Council,central-1,,
-uzbekembassy.in,4,wikidata,embassy of Uzbekistan in India,central,,
-vci.nic.in,4,wikidata,Veterinary Council of India,,,
-vetymanipur.nic.in,4,wikidata,Veterinary And Animal Husbandry Services,,,
-vetyngl.nic.in,4,wikidata,Veterinary & Animal Husbandry,,,
-vidhansabha.bih.nic.in,4,wikidata,Bihar Legislative Assembly,central-1,,
-vietnamembassydelhi.in,4,wikidata,embassy of Vietnam in India,central,,
-wbhc.in,4,wikidata,West Bengal Heritage Commission,central-1,,
-wbhrc.nic.in,4,wikidata,West Bengal Human Rights Commission,,,
-website.rbi.org.in,4,wikidata,Reserve Bank of India,,,
-aicte-india.org,3,wikidata,All India Council for Technical Education,,,
-ambaguineedelhi.com,3,wikidata,embassy of Guinea in India,central,,
-ambardc-india.com,3,wikidata,embassy of Democratic Republic of the Congo in India,central,,
-ambatogoindia.com,3,wikidata,embassy of Togo in India,central,,
-angolaembassyindia.com,3,wikidata,"Embassy of Angola, New Delhi",central,,
-aplegislature.org,3,wikidata,Andhra Pradesh Legislative Council,central-1,,
-apostolicnunciatureindia.com,3,wikidata,Apostolic Nunciature to India,central,,
-assambidhansabha.org,3,wikidata,Assam Legislative Assembly,central-1,,
-assamrenewable.org,3,wikidata,Assam Energy Development Agency,,,
-bdhcdelhi.org,3,wikidata,"High Commission of Bangladesh, New Delhi",central,,
-bihembassyin.com,3,wikidata,embassy of Bosnia and Herzegovina in India,central,,
-bobpigo.org,3,wikidata,Bay Of Bengal Programme Inter-Governmental Organisation,,,
-cbip.org,3,wikidata,Central Board of Irrgation and Power,,,
-ccrhindia.org,3,wikidata,Central Council for Research in Homoeopathy,,,
-chennai.mid.ru,3,wikidata,Consulate General of the Russian Federation in Chennai,,,
-chilika.com,3,wikidata,Chilika Development Authority,,,
-cmdkerala.net,3,wikidata,Centre for Management Development,,,
-cmti-india.net,3,wikidata,Central Manufacturing Technology Institute,,,
-drricar.org,3,wikidata,Directorate of Rice Research,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to India and Bhutan,central,,
-egembassyindia.com,3,wikidata,embassy of Equatorial Guinea in India,central,,
-embsenindia.org,3,wikidata,embassy of Senegal in India,central,,
-eritreaembindia.com,3,wikidata,embassy of Eritrea in India,central,,
-fieo.org,3,wikidata,Federation of Indian Export Organisations,,,
-gipcl.com,3,wikidata,Gujarat Industries Power Company Limited,,,
-gmbports.org,3,wikidata,Gujarat Maritime Board,,,
-goapolice.org,3,wikidata,Goa Police,,,
-gunturpolice.org,3,wikidata,Guntur City Police,,,
-guvnl.com,3,wikidata,Gujarat Urja Vikas Nigam Limited,,,
-icec-council.org,3,wikidata,India China Economic and Cultural Council,,,
-icfre.org,3,wikidata,Indian Council of Forestry Research and Education,,,
-icssr.org,3,wikidata,Indian Council of Social Science Research,,,
-idrc.ca,3,wikidata,International Development Research Centre,,,
-igstc.org,3,wikidata,Indo-German Science & Technology Centre,,,
-in.diplomatie.ma,3,wikidata,embassy of Morocco in India,central,,
-in.mfa.lt,3,wikidata,embassy of Lithuania in India,central,,
-india.mfa.am,3,wikidata,embassy of Armenia in India,central,,
-india.mfa.ir,3,wikidata,embassy of Iran in India,central,,
-india.mid.ru,3,wikidata,"Embassy of Russia, New Delhi",central,,
-indien.ahk.de,3,wikidata,Indo-German Chamber of Commerce,,,
-indien.um.dk,3,wikidata,embassy of Denmark in India,central,,
-irrigation-kerala.org,3,wikidata,Kerala Water Resources Department,central-1,,
-kalkutta.diplo.de,3,wikidata,"Consulate General of Germany, Calcutta",,,
-karnatakamedicalcouncil.com,3,wikidata,Karnataka Medical Council,,,
-keralaculture.org,3,wikidata,Department of Cultural Affairs,,,
-keralahajcommittee.org,3,wikidata,Kerala Haj Committee,,,
-kfdcfish.com,3,wikidata,Karnataka Fisheries Development Corporation,,,
-kochicitypolice.org,3,wikidata,Kochi City Police,,,
-malawi-india.org,3,wikidata,high commission of Malawi in India,central,,
-manipurpolice.org,3,wikidata,Manipur Police,,,
-mauritius-newdelhi.govmu.org,3,wikidata,high commission of Mauritius in India,central,,
-mdamoradabad.org,3,wikidata,Moradabad Development Authority,,,
-mfa.bg,3,wikidata,embassy of Bulgaria in India,central,,
-mfa.gr,3,wikidata,embassy of Greece in India,central,,
-mfa.tj,3,wikidata,embassy of Tajikistan in India,central,,
-mgiri.org,3,wikidata,Mahatma Gandhi Institute for Rural Industrialization,,,
-misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in India,central,,
-mswarehousing.com,3,wikidata,Maharashtra State Warehousing Corporation,,,
-mumbai.diplo.de,3,wikidata,"Consulate General of Germany, Mumbai",,,
-mwfdelhi.hypotheses.org,3,wikidata,Max Weber Forum für Südasienstudien Delhi,,,
-myanmedelhi.com,3,wikidata,embassy of Myanmar in India,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in India,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in India,central,,
-nabl-india.org,3,wikidata,National Accreditation Board for Testing and Calibration Laboratories,,,
-nagpurpolice.org,3,wikidata,Nagpur Police,,,
-ndtbc.com,3,wikidata,New Delhi Tuberculosis Center,,,
-new-delhi.embassy.qa,3,wikidata,embassy of Qatar in India,central,,
-newdelhi.mae.lu,3,wikidata,embassy of Luxembourg in India,central,,
-newdelhi.mae.ro,3,wikidata,embassy of Romania in India,central,,
-newdelhi.mfa.ee,3,wikidata,embassy of Estonia in New Delhi,central,,
-newdelhi.mofa.go.ug,3,wikidata,high commission of Uganda in India,central,,
-newdelhi.thaiembassy.org,3,wikidata,embassy of Thailand in India,central,,
-newdelhi.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, New Delhi",central,,
-nhai.org,3,wikidata,National Highways Authority of India,,,
-nhcdelhi.com,3,wikidata,high commission of Namibia in India,central,,
-nhsrcindia.org,3,wikidata,National Health Systems Resource Centre,,,
-nihfw.org,3,wikidata,National Institute of Health and Family Welfare,,,
-niyamasabha.org,3,wikidata,Kerala Legislative Assembly,central-1,,
-norway.no,3,wikidata,"Embassy of Norway, New Delhi",central,,
-nstedb.com,3,wikidata,National Science and Technology Entrepreneurship Development Board,,,
-nudaap.org,3,wikidata,Nellore Urban Development Authority,,,
-odishalalitkalaakademi.org,3,wikidata,Odisha Lalit Kala Akademy,,,
-pakhcnewdelhi.org.pk,3,wikidata,"High Commission of Pakistan, New Delhi",central,,
-pcra.org,3,wikidata,Petroleum Conservation Research Association ltd,,,
-scste.org,3,wikidata,"State Council of Science Technology & Environment, Meghalaya",,,
-siddhacouncil.com,3,wikidata,Central Council for Research in Siddha,,,
-siliguripolice.org,3,wikidata,Siliguri Police Commissionerate,,,
-sjda.org,3,wikidata,Siliguri Jalpaiguri Development Authority,,,
-slhcindia.org,3,wikidata,high commission of Sri Lanka in India,central,,
-sphlassam.org,3,wikidata,"State Public Health Laboratory, Assam",,,
-ssapunjab.org,3,wikidata,Department of School Education,central-1,,
-sudanembassyindia.org,3,wikidata,embassy of Sudan in India,central,,
-sveriges-konsulat.com,3,wikidata,Swedish Consulate in Kolkata,,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, New Delhi",central,,
-tamilship.com,3,wikidata,Poompuhar Shipping Corporation Limited,,,
-thaiembassy.org,3,wikidata,"Royal Thai Consulate General, Chennai",,,
-tsag.org,3,wikidata,Sports Authority of Goa,,,
-tsagros.org,3,wikidata,Telangana State Agro Industries Development Corporation Limited,,,
-ukhrc.net,3,wikidata,Uttarakhand Human Rights Commission,,,
-umcasia.org,3,wikidata,Urban Management Centre,,,
-upcsr.org,3,wikidata,Uttar Pradesh Council of sugarcane research,,,
-wbmdfc.org,3,wikidata,West Bengal Minority Development and Finance Corporation,,,
-wikidata.org,3,wikidata,"High Commission of Mozambique, New Delhi",central,,
-wpro.who.int,3,wikidata,Asia Pacific Observatory on Health Systems and Policies,,,
-zambiahighcomdelhi.org,3,wikidata,high commission of Zambia in India,central,,
-zimbabweembassyinindia.com,3,wikidata,embassy of Zimbabwe in India,central,,
-anantnag.nic.in,2,wikidata;wikidata;wikidata,Anantnag,,,
-chemicals.nic.in,2,wikidata;wikidata;wikidata;wikidata,Department of Chemicals and Petro-Chemicals | Department of Chemicals and Petrochemicals | Ministry of Chemicals and Fertilizers,central,,
-dahd.nic.in,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Fisheries, Animal Husbandry and Dairying",central,,
-deoghar.nic.in,2,wikidata;wikidata;wikidata,Deoghar,,,
-finmin.nic.in,2,wikidata;wikidata;wikidata,Ministry of Finance of India | Financial Stability and Development Council,central,,
-honeymoonpackagesmanali.in,2,wikidata;wikidata;wikidata,Manali,,,
-mpa.nic.in,2,wikidata;wikidata;wikidata;wikidata,Ministry of Mines | Ministry of Parliamentary Affairs,central,,
-mysurucitycorporation.co.in,2,wikidata;wikidata;wikidata,Mysore City Corporation,,,
-sansad.in,2,wikidata;wikidata;wikidata;wikidata,Parliament of India | Rajya Sabha | Lok Sabha,central,,
-singrauli.nic.in,2,wikidata;wikidata;wikidata,Singrauli,,,
-steel.nic.in,2,wikidata;wikidata;wikidata,Steel Consumers Council | Ministry of Steel,central,,
-surguja.nic.in,2,wikidata;wikidata;wikidata,Ambikapur,,,
-finlandabroad.fi,1,wikidata;wikidata;wikidata;wikidata,"embassy of Finland in India | Consulate General of Finland, Mumbai",central,,
-in.ambafrance.org,1,wikidata;wikidata;wikidata,"Embassy of France, New Delhi | Consulate General of France in Pondichery",central,,
-india.diplo.de,1,wikidata;wikidata;wikidata,"Consulate General of Germany, Bangalore | Embassy of Germany, New Delhi | Consulate General of Germany, Chennai",central,,
+aiwc.res.in,4,wikidata,Advanced Institute for Wildlife Conservation,,301,0 mail.aiwc.res.in.
+allahabadhighcourt.in,4,wikidata,Allahabad High Court,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.allahabadhighcourt.in.
+arunachalpradesh.nic.in,4,wikidata,Arunachal Pradesh Legislative Assembly,central-1,ConnectException,none
+arunpol.nic.in,4,wikidata,Arunachal Pradesh Police,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
+as1.ori.nic.in,4,wikidata,Odisha Human rights Commission,,ConnectException,none
+asansoldurgapurpolice.in,4,wikidata,Asansol–Durgapur Police Commissionerate,,HttpConnectTimeoutException: HTTP connect timed out,none
+asi.nic.in,4,wikidata,Archaeological Survey of India,central,200,none
+asmcjaunpur.edu.in,4,wikidata,Uma Nath Singh Autonomous State Medical College Jaunpur,,200,10 mx2.hostinger.in.; 5 mx1.hostinger.in.
+atarijodhpur.res.in,4,wikidata,"ICAR-Agricultural Technology Application Research Institute, Zone-II, Jodhpur",,200,0 mail.atarijodhpur.res.in.
+banksboardbureau.org.in,4,wikidata,Banks Board Bureau,,ConnectException,none
+barrackporecitypolice.in,4,wikidata,Barrackpore City Police,,ConnectException,none
+biharpolice.bih.nic.in,4,wikidata,Bihar Police,,HttpConnectTimeoutException: HTTP connect timed out,none
+bis.org.in,4,wikidata,Bureau of Indian Standards,,302,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
+bombayhighcourt.nic.in,4,wikidata,Bombay High Court,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+botswanahighcom.in,4,wikidata,high commission of Botswana in India,central,ConnectException,none
+bprd.nic.in,4,wikidata,Bureau of Police Research and Development,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
+cara.nic.in,4,wikidata,Central Adoption Resource Authority,,ConnectException,none
+cbn.nic.in,4,wikidata,Central Bureau of Narcotics,,ConnectException,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.
+ccras.nic.in,4,wikidata,Central Council for Research in Ayurvedic Science,,200,50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.
+ccrum.res.in,4,wikidata,Central Council for Research in Unani Medicine,,308,10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.; 30 mx3.mgovcloud.in.
+cdot.in,4,wikidata,C-DOT,central,302,60 sandesh.cdot.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
+cert-in.org.in,4,wikidata,Indian Computer Emergency Response Team,,200,10 mail.cert-in.org.in.
+cgcost.nic.in,4,wikidata,Chhattisgarh Council of Science and Technology,,ConnectException,none
+cgewho.in,4,wikidata,Central Government Employees Welfare Housing Organisation,,403,50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.
+chamoli.nic.in,4,wikidata,Joshimath,,301,none
+coconutboard.nic.in,4,wikidata,Coconut Development Board,,ConnectException,none
+cpcb.nic.in,4,wikidata,Central Pollution Control Board,,301,none
+csmrs.nic.in,4,wikidata,Central Soil and Materials Research Station,,HttpConnectTimeoutException: HTTP connect timed out,none
+csr.res.in,4,wikidata,"UGC-DAE Consortium for Scientific Research, Mumbai Centre",,200,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
+csrtimys.res.in,4,wikidata,Central Sericultural Research and Training Institute,,200,0 mail.csrtimys.res.in.
+dda.org.in,4,wikidata,Delhi Development Authority,,302,10 mail.rediffmailpro.com.
+delhihighcourt.nic.in,4,wikidata,Delhi High Court,central-1,301,10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.
+delhijalboard.nic.in,4,wikidata,Delhi Jal Board,,ConnectException,none
+dgciskol.nic.in,4,wikidata,Directorate General of Commercial Intelligence and Statistics,,ConnectException,none
+dget.nic.in,4,wikidata,Directorate General of Training,,ConnectException,none
+dgll.nic.in,4,wikidata,Directorate General of Lighthouses and Lightships,,200,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.
+dkma.icar.org.in,4,wikidata,Directorate of Knowledge Management in Agriculture,,200,none
+dme.ap.nic.in,4,wikidata,Directorate of Medical Education,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+dod.nic.in,4,wikidata,Department of Ocean Development,,ConnectException,none
+dosel.co.in,4,wikidata,Department of School Education & Literacy,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+dri.nic.in,4,wikidata,Directorate of Revenue Intelligence,,HttpTimeoutException: request timed out,none
+dsir.csir.res.in,4,wikidata,Department of Scientific and Industrial Research,,HttpConnectTimeoutException: HTTP connect timed out,none
+embassymongolia.in,4,wikidata,embassy of Mongolia in India,central,301,none
+ermed.in,4,wikidata,National Medical Library,,200,0 smtp.secureserver.net.; 10 mailstore1.secureserver.net.
+ernet.in,4,wikidata,ERNET,,302,dig error
+ethiopianembassy.org.in,4,wikidata,embassy of Ethiopia in India,central,403,none
+faunaofindia.nic.in,4,wikidata,Zoological Survey of India,,ConnectException,none
+firecollegenagpur.in,4,wikidata,"Indian Institute of Fire Engineering, Nagpur",,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+fsi.nic.in,4,wikidata,Forest Survey of India,,302,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
+ghana-mission.co.in,4,wikidata,high commission of Ghana in India,central,HttpConnectTimeoutException: HTTP connect timed out,0 ghanamission-co-in01c.mail.protection.outlook.com.
+ghmcbengaluru.in,4,wikidata,Government Homoeopathic Medical College and Hospital Bengaluru,,200,10 mx2.hostinger.in.; 5 mx1.hostinger.in.
+ghrc.guj.nic.in,4,wikidata,Gujrat State Human Rights Commission,,ConnectException,none
+govtgirlspgcollege.ac.in,4,wikidata,"Govt.W.W. Patankar Girls’ PG College, Durg",,ConnectException,none
+gujarathighcourt.nic.in,4,wikidata,Gujarat High Court,central-1,200,none
+haryanahealth.nic.in,4,wikidata,"Health Department, Haryana",,ConnectException,none
+hc.ap.nic.in,4,wikidata,Andhra Pradesh High Court,central-1,ConnectException,none
+hc.ts.nic.in,4,wikidata,Telangana High Court,central-1,ConnectException,none
+hcmadras.tn.nic.in,4,wikidata,Madras High Court,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+hcmimphal.nic.in,4,wikidata,Manipur High Court,central-1,200,none
+hcraj.nic.in,4,wikidata,Rajasthan High Court,central-1,302,10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.
+highcourtofkerala.nic.in,4,wikidata,Kerala High Court,central-1,ConnectException,none
+highcourtofsikkim.nic.in,4,wikidata,Sikkim High Court,central-1,ConnectException,none
+highereducationwb.in,4,wikidata,Department of Higher Education,,HttpConnectTimeoutException: HTTP connect timed out,none
+himachal.nic.in,4,wikidata,Himachal Pradesh Department of Education,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+hindinideshalaya.nic.in,4,wikidata,Central Hindi Directorate,,ConnectException,none
+hphighcourt.nic.in,4,wikidata,Himachal Pradesh High Court,central-1,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.
+hpvidhansabha.nic.in,4,wikidata,Himachal Pradesh Legislative Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+hridayindia.in,4,wikidata,HRIDAY - Heritage City Development and Augmentation Yojana,,301,none
+iccs.res.in,4,wikidata,KSCSTE - Institute for Climate Change Studies,,302,0 iccs-res-in.mail.protection.outlook.com.
+icpr.nic.in,4,wikidata,Indian Council of Philosophical Research,,ConnectException,none
+iipa.org.in,4,wikidata,Indian Institute of Public Administration,,302,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.
+iiwm.res.in,4,wikidata,Indian Institute of Water Management,,200,none
+incometaxbangalore.in,4,wikidata,Income Tax Department Karnataka & Goa,,ConnectException,none
+international.gouv.qc.ca,4,wikidata,Quebec bureau office in Mumbai,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+ipindia.nic.in,4,wikidata,Indian Patent Office,,ConnectException,none
+irinn.in,4,wikidata,Indian Registry for Internet Names and Numbers,central,200,0 mail.irinn.in.
+itbpolice.nic.in,4,wikidata,Indo-Tibetan Border Police,,HttpConnectTimeoutException: HTTP connect timed out,none
+jagannath.nic.in,4,wikidata,Shri Jagannath Temple Administrator Office,,ConnectException,none
+jharkhandhighcourt.nic.in,4,wikidata,Jharkhand High Court,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+jkhighcourt.nic.in,4,wikidata,High Court of Jammu and Kashmir and Ladakh,central-1,200,none
+jklegislativecouncil.nic.in,4,wikidata,Jammu and Kashmir Legislative Council,central-1,ConnectException,none
+kasrc.res.in,4,wikidata,Kashmir Advanced Scientific Research Centre,,200,0 mx3.domainz.in.
+kvic.org.in,4,wikidata,Khadi and Village Industries Commission,,ConnectException,100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.; 100 us2.mx3.mailhostbox.com.
+mahaforest.nic.in,4,wikidata,Maharashtra Forest Department,,ConnectException,none
+maldiveshighcom.in,4,wikidata,high commission of Maldives in India,central,200,none
+maliembassy.co.in,4,wikidata,embassy of Mali in India,central,200,0 maliembassy-co-in.mail.protection.outlook.com.
+mbc.ac.in,4,wikidata,"Mihir Bhoj Postgraduate College, Dadri",,200,0 mail.mbc.ac.in.
+meghalayahighcourt.nic.in,4,wikidata,Meghalaya High Court,central-1,200,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
+mgvlvhsr.kbhgroup.in,4,wikidata,"Loknete Vyankatrao Hiray Arts, Science and Commerce College",,200,none
+mha.nic.in,4,wikidata,Central Armed Police Forces,central,ConnectException,20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.
+mizoramassembly.in,4,wikidata,Mizoram Legislative Assembly,central-1,200,none
+mospi.nic.in,4,wikidata,Central Statistics Office,,ConnectException,none
+mphc.in,4,wikidata,Madhya Pradesh High Court,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 mphc-in.mail.protection.outlook.com.
+mpvidhansabha.nic.in,4,wikidata,Madhya Pradesh Legislative Assembly,central-1,200,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.
+naas.org.in,4,wikidata,National Academy of Agricultural Sciences,,200,100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.
+nabarangpurcollege.ac.in,4,wikidata,Nabarangpur College,,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+nainital.nic.in,4,wikidata,Nainital,,200,none
+nams-india.in,4,wikidata,National Academy of Medical Sciences,,200,10 mail.nams-india.in.
+narcoticsindia.nic.in,4,wikidata,Narcotics Control Bureau,,404,none
+natboard.edu.in,4,wikidata,National Board of Examinations,,200,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+nationalarchives.nic.in,4,wikidata,National Archives of India,,200,none
+ncm.nic.in,4,wikidata,National Commission for Minorities,central,HttpConnectTimeoutException: HTTP connect timed out,none
+ncsc.nic.in,4,wikidata,National Commission for Scheduled Castes,,200,none
+ncw.nic.in,4,wikidata,National Commission for Women,,HttpConnectTimeoutException: HTTP connect timed out,none
+newdelhi.mfa.gov.hu,4,wikidata,embassy of Hungary in India,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nicd.nic.in,4,wikidata,National Centre for Disease Control,,ConnectException,none
+niepid.nic.in,4,wikidata,National Institute for the Empowerment of Persons with Intellectual Disabilities,,200,20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.
+nif.org.in,4,wikidata,National Innovation Foundation,,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+nigerianhcdelhi.in,4,wikidata,high commission of Nigeria in India,central,HttpConnectTimeoutException: HTTP connect timed out,none
+nilerd.ac.in,4,wikidata,National Institute of Labour Economics Research and Development,,200,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
+nipccd.nic.in,4,wikidata,National Institute of Public Cooperation and Child Development,,ConnectException,none
+nirm.in,4,wikidata,National Institute of Rock Mechanics,,200,0 nirm-in.mail.protection.outlook.com.
+nise.res.in,4,wikidata,National Institute of Solar Energy,,302,0 mail.nise.res.in.
+nitcouncil.org.in,4,wikidata,"Council of National Institutes of Technology, Science Education and Research",,HttpConnectTimeoutException: HTTP connect timed out,100 us2.mx1.mailhostbox.com.; 100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.
+nja.nic.in,4,wikidata,National Judicial Academy,,ConnectException,none
+nmc.org.in,4,wikidata,National Medical Commission,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 nmc-org-in.mail.protection.outlook.com.
+nrbdrdo.res.in,4,wikidata,Naval Research Board,,ConnectException,none
+nsc.org.in,4,wikidata,National Safety Council,,200,0 nsc-org-in.mail.protection.outlook.com.
+nta.ac.in,4,wikidata,National Testing Agency,,HttpConnectTimeoutException: HTTP connect timed out,0 nta-ac-in.mail.protection.outlook.com.
+odishaassembly.nic.in,4,wikidata,Odisha Legislative Assembly,central-1,301,none
+odishabiodiversityboard.in,4,wikidata,Odisha Biodiversity Board,,301,0 mail.odishabiodiversityboard.in.
+orissahighcourt.nic.in,4,wikidata,Orissa High Court,central-1,200,none
+paraguayembassy.in,4,wikidata,embassy of Paraguay in India,central,200,0 paraguayembassy.in.
+patnahighcourt.bih.nic.in,4,wikidata,Patna High Court,central-1,ConnectException,none
+patnapolice.bih.nic.in,4,wikidata,Patna Police,,ConnectException,none
+pci.nic.in,4,wikidata,Pharmacy Council Of India,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.
+pib.nic.in,4,wikidata,National Development Council,,ConnectException,none
+pithoragarh.nic.in,4,wikidata,Pithoragarh,,200,none
+polishinstitute.in,4,wikidata,Polish Institute in New Delhi,,403,none
+punjabassembly.nic.in,4,wikidata,Punjab Legislative Assembly,central-1,ConnectException,none
+rkvy.nic.in,4,wikidata,Rashtriya Krishi Vikas Yojana,,HttpConnectTimeoutException: HTTP connect timed out,none
+rubberboard.org.in,4,wikidata,Rubber Board,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.
+sfri.nic.in,4,wikidata,State Forest Research Institute,,ConnectException,none
+shiksha.cg.nic.in,4,wikidata,Department of School Education,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+shrc.tn.nic.in,4,wikidata,State Human Rights Commission Tamil Nadu,,ConnectException,none
+soisti.ap.nic.in,4,wikidata,Indian Institute of Surveying & Mapping,,ConnectException,none
+sp.mofaic.gov.ae,4,wikidata,"Consulate General of the United Arab Emirates, Kerala",,ConnectException,none
+spg.nic.in,4,wikidata,Special Protection Group,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sportsauthorityofindia.nic.in,4,wikidata,Sports Authority of India,,302,0 mailgw.nic.in.
+sshrc.nic.in,4,wikidata,Sikkim State Human Rights Commission,,200,none
+syriaembassy.in,4,wikidata,embassy of Syria in India,central,429,5 mx1.hostinger.com.; 10 mx2.hostinger.com.
+tdsat.nic.in,4,wikidata,Telecom Disputes Settlement and Appellate Tribunal,,ConnectException,none
+thc.nic.in,4,wikidata,Tripura High Court,central-1,200,none
+tifac.org.in,4,wikidata,"Technology Information, Forecasting and Assessment Council",,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching tifac.org.in found.,20 mx2.mgovcloud.in.; 0 mailgw.nic.in.; 10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.
+tripuraassembly.nic.in,4,wikidata,Tripura Legislative Assembly,central-1,ConnectException,none
+ucost.in,4,wikidata,Uttarakhand State Council for Science and Technology,,301,0 smtp.google.com.
+ugc.ac.in,4,wikidata,University Grants Commission,,ConnectException,none
+uphrc.up.nic.in,4,wikidata,Uttar Pradesh Human Rights Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
+upslsa.up.nic.in,4,wikidata,Uttar Pradesh State Legal Services Authority,,ConnectException,none
+upvidhanparishad.nic.in,4,wikidata,Uttar Pradesh Legislative Council,central-1,ConnectException,none
+uzbekembassy.in,4,wikidata,embassy of Uzbekistan in India,central,301,10 mx2.hostinger.in.; 5 mx1.hostinger.in.
+vci.nic.in,4,wikidata,Veterinary Council of India,,ConnectException,none
+vetymanipur.nic.in,4,wikidata,Veterinary And Animal Husbandry Services,,200,none
+vetyngl.nic.in,4,wikidata,Veterinary & Animal Husbandry,,ConnectException,none
+vidhansabha.bih.nic.in,4,wikidata,Bihar Legislative Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+vietnamembassydelhi.in,4,wikidata,embassy of Vietnam in India,central,200,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+wbhc.in,4,wikidata,West Bengal Heritage Commission,central-1,200,none
+wbhrc.nic.in,4,wikidata,West Bengal Human Rights Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
+website.rbi.org.in,4,wikidata,Reserve Bank of India,,301,none
+aicte-india.org,3,wikidata,All India Council for Technical Education,,SSLHandshakeException: Remote host terminated the handshake,30 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 30 alt2.aspmx.l.google.com.; 30 alt3.aspmx.l.google.com.
+ambaguineedelhi.com,3,wikidata,embassy of Guinea in India,central,ConnectException,none
+ambardc-india.com,3,wikidata,embassy of Democratic Republic of the Congo in India,central,301,none
+ambatogoindia.com,3,wikidata,embassy of Togo in India,central,ConnectException,none
+angolaembassyindia.com,3,wikidata,"Embassy of Angola, New Delhi",central,200,0 _dc-mx.fabaea7b1a2c.angolaembassyindia.com.
+aplegislature.org,3,wikidata,Andhra Pradesh Legislative Council,central-1,403,none
+apostolicnunciatureindia.com,3,wikidata,Apostolic Nunciature to India,central,HttpTimeoutException: request timed out,10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+assambidhansabha.org,3,wikidata,Assam Legislative Assembly,central-1,302,0 smtp.secureserver.net.; 10 mailstore1.secureserver.net.
+assamrenewable.org,3,wikidata,Assam Energy Development Agency,,301,none
+bdhcdelhi.org,3,wikidata,"High Commission of Bangladesh, New Delhi",central,200,10 mx2.hostinger.in.; 5 mx1.hostinger.in.
+bihembassyin.com,3,wikidata,embassy of Bosnia and Herzegovina in India,central,525,1200 ghs.google.com.
+bobpigo.org,3,wikidata,Bay Of Bengal Programme Inter-Governmental Organisation,,200,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+cbip.org,3,wikidata,Central Board of Irrgation and Power,,200,20 fallbackmx.spamexperts.eu.; 30 lastmx.spamexperts.net.; 10 mx.spamexperts.com.
+ccrhindia.org,3,wikidata,Central Council for Research in Homoeopathy,,403,none
+chennai.mid.ru,3,wikidata,Consulate General of the Russian Federation in Chennai,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+chilika.com,3,wikidata,Chilika Development Authority,,301,10 spamcontrol.isandt.com.
+cmdkerala.net,3,wikidata,Centre for Management Development,,521,none
+cmti-india.net,3,wikidata,Central Manufacturing Technology Institute,,301,none
+drricar.org,3,wikidata,Directorate of Rice Research,,ConnectException,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to India and Bhutan,central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+egembassyindia.com,3,wikidata,embassy of Equatorial Guinea in India,central,ConnectException,none
+embsenindia.org,3,wikidata,embassy of Senegal in India,central,301,none
+eritreaembindia.com,3,wikidata,embassy of Eritrea in India,central,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+fieo.org,3,wikidata,Federation of Indian Export Organisations,,403,0 fieo-org.mail.protection.outlook.com.
+gipcl.com,3,wikidata,Gujarat Industries Power Company Limited,,301,1 mail1.gipcl.com.; 0 mail.gipcl.com.
+gmbports.org,3,wikidata,Gujarat Maritime Board,,HttpConnectTimeoutException: HTTP connect timed out,20 postmaster1.gmbports.org.; 10 postmaster.gmbports.org.
+goapolice.org,3,wikidata,Goa Police,,301,10 mx.stackmail.com.
+gunturpolice.org,3,wikidata,Guntur City Police,,ConnectException,none
+guvnl.com,3,wikidata,Gujarat Urja Vikas Nigam Limited,,HttpConnectTimeoutException: HTTP connect timed out,10 mail2.gebmail.com.; 5 mail.gebmail.com.
+icec-council.org,3,wikidata,India China Economic and Cultural Council,,200,none
+icfre.org,3,wikidata,Indian Council of Forestry Research and Education,,301,20 mail.icfre.org.; 10 smtp.icfre.org.
+icssr.org,3,wikidata,Indian Council of Social Science Research,,200,20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.
+idrc.ca,3,wikidata,International Development Research Centre,,301,none
+igstc.org,3,wikidata,Indo-German Science & Technology Centre,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+in.diplomatie.ma,3,wikidata,embassy of Morocco in India,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+in.mfa.lt,3,wikidata,embassy of Lithuania in India,central,403,none
+india.mfa.am,3,wikidata,embassy of Armenia in India,central,301,none
+india.mfa.ir,3,wikidata,embassy of Iran in India,central,307,none
+india.mid.ru,3,wikidata,"Embassy of Russia, New Delhi",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+indien.ahk.de,3,wikidata,Indo-German Chamber of Commerce,,302,none
+indien.um.dk,3,wikidata,embassy of Denmark in India,central,301,none
+irrigation-kerala.org,3,wikidata,Kerala Water Resources Department,central-1,301,none
+kalkutta.diplo.de,3,wikidata,"Consulate General of Germany, Calcutta",,301,none
+karnatakamedicalcouncil.com,3,wikidata,Karnataka Medical Council,,HttpConnectTimeoutException: HTTP connect timed out,100 us2.mx1.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 100 us2.mx3.mailhostbox.com.
+keralaculture.org,3,wikidata,Department of Cultural Affairs,,405,none
+keralahajcommittee.org,3,wikidata,Kerala Haj Committee,,200,none
+kfdcfish.com,3,wikidata,Karnataka Fisheries Development Corporation,,HttpConnectTimeoutException: HTTP connect timed out,none
+kochicitypolice.org,3,wikidata,Kochi City Police,,200,none
+malawi-india.org,3,wikidata,high commission of Malawi in India,central,200,none
+manipurpolice.org,3,wikidata,Manipur Police,,200,none
+mauritius-newdelhi.govmu.org,3,wikidata,high commission of Mauritius in India,central,302,none
+mdamoradabad.org,3,wikidata,Moradabad Development Authority,,200,none
+mfa.bg,3,wikidata,embassy of Bulgaria in India,central,302,none
+mfa.gr,3,wikidata,embassy of Greece in India,central,403,none
+mfa.tj,3,wikidata,embassy of Tajikistan in India,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mgiri.org,3,wikidata,Mahatma Gandhi Institute for Rural Industrialization,,200,1 mx.stackmail.com.
+misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in India,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mswarehousing.com,3,wikidata,Maharashtra State Warehousing Corporation,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx.spamexperts.com.; 20 fallbackmx.spamexperts.eu.; 30 lastmx.spamexperts.net.
+mumbai.diplo.de,3,wikidata,"Consulate General of Germany, Mumbai",,301,none
+mwfdelhi.hypotheses.org,3,wikidata,Max Weber Forum für Südasienstudien Delhi,,200,none
+myanmedelhi.com,3,wikidata,embassy of Myanmar in India,central,200,none
+mzv.cz,3,wikidata,embassy of the Czech republic in India,central,302,none
+mzv.sk,3,wikidata,embassy of Slovakia in India,central,403,10 mail.gov.sk.
+nabl-india.org,3,wikidata,National Accreditation Board for Testing and Calibration Laboratories,,200,none
+nagpurpolice.org,3,wikidata,Nagpur Police,,200,none
+ndtbc.com,3,wikidata,New Delhi Tuberculosis Center,,200,none
+new-delhi.embassy.qa,3,wikidata,embassy of Qatar in India,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+newdelhi.mae.lu,3,wikidata,embassy of Luxembourg in India,central,302,none
+newdelhi.mae.ro,3,wikidata,embassy of Romania in India,central,503,none
+newdelhi.mfa.ee,3,wikidata,embassy of Estonia in New Delhi,central,200,none
+newdelhi.mofa.go.ug,3,wikidata,high commission of Uganda in India,central,200,none
+newdelhi.thaiembassy.org,3,wikidata,embassy of Thailand in India,central,200,none
+newdelhi.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, New Delhi",central,SSLHandshakeException: Remote host terminated the handshake,none
+nhai.org,3,wikidata,National Highways Authority of India,,HttpConnectTimeoutException: HTTP connect timed out,none
+nhcdelhi.com,3,wikidata,high commission of Namibia in India,central,200,none
+nhsrcindia.org,3,wikidata,National Health Systems Resource Centre,,200,none
+nihfw.org,3,wikidata,National Institute of Health and Family Welfare,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.
+niyamasabha.org,3,wikidata,Kerala Legislative Assembly,central-1,200,20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.; 50 mx3.mgovcloud.in.
+norway.no,3,wikidata,"Embassy of Norway, New Delhi",central,301,none
+nstedb.com,3,wikidata,National Science and Technology Entrepreneurship Development Board,,403,none
+nudaap.org,3,wikidata,Nellore Urban Development Authority,,301,none
+odishalalitkalaakademi.org,3,wikidata,Odisha Lalit Kala Akademy,,301,none
+pakhcnewdelhi.org.pk,3,wikidata,"High Commission of Pakistan, New Delhi",central,200,none
+pcra.org,3,wikidata,Petroleum Conservation Research Association ltd,,301,none
+scste.org,3,wikidata,"State Council of Science Technology & Environment, Meghalaya",,200,none
+siddhacouncil.com,3,wikidata,Central Council for Research in Siddha,,200,none
+siliguripolice.org,3,wikidata,Siliguri Police Commissionerate,,HttpConnectTimeoutException: HTTP connect timed out,none
+sjda.org,3,wikidata,Siliguri Jalpaiguri Development Authority,,200,none
+slhcindia.org,3,wikidata,high commission of Sri Lanka in India,central,200,none
+sphlassam.org,3,wikidata,"State Public Health Laboratory, Assam",,200,20 mx2.zoho.com.; 10 mx.zoho.com.; 10 mx3.zoho.com.
+ssapunjab.org,3,wikidata,Department of School Education,central-1,200,10 mail.ssapunjab.org.
+sudanembassyindia.org,3,wikidata,embassy of Sudan in India,central,200,0 mtl200.greengeeks.net.
+sveriges-konsulat.com,3,wikidata,Swedish Consulate in Kolkata,,301,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, New Delhi",central,301,none
+tamilship.com,3,wikidata,Poompuhar Shipping Corporation Limited,,200,none
+thaiembassy.org,3,wikidata,"Royal Thai Consulate General, Chennai",,200,none
+tsag.org,3,wikidata,Sports Authority of Goa,,200,none
+tsagros.org,3,wikidata,Telangana State Agro Industries Development Corporation Limited,,ConnectException,none
+ukhrc.net,3,wikidata,Uttarakhand Human Rights Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
+umcasia.org,3,wikidata,Urban Management Centre,,301,none
+upcsr.org,3,wikidata,Uttar Pradesh Council of sugarcane research,,HttpConnectTimeoutException: HTTP connect timed out,none
+wbmdfc.org,3,wikidata,West Bengal Minority Development and Finance Corporation,,HttpConnectTimeoutException: HTTP connect timed out,none
+wikidata.org,3,wikidata,"High Commission of Mozambique, New Delhi",central,301,none
+wpro.who.int,3,wikidata,Asia Pacific Observatory on Health Systems and Policies,,ConnectException,none
+zambiahighcomdelhi.org,3,wikidata,high commission of Zambia in India,central,200,none
+zimbabweembassyinindia.com,3,wikidata,embassy of Zimbabwe in India,central,ConnectException,none
+anantnag.nic.in,2,wikidata;wikidata;wikidata,Anantnag,,200,none
+chemicals.nic.in,2,wikidata;wikidata;wikidata;wikidata,Department of Chemicals and Petro-Chemicals | Department of Chemicals and Petrochemicals | Ministry of Chemicals and Fertilizers,central,ConnectException,none
+dahd.nic.in,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Fisheries, Animal Husbandry and Dairying",central,ConnectException,50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.
+deoghar.nic.in,2,wikidata;wikidata;wikidata,Deoghar,,HttpConnectTimeoutException: HTTP connect timed out,none
+finmin.nic.in,2,wikidata;wikidata;wikidata,Ministry of Finance of India | Financial Stability and Development Council,central,ConnectException,none
+honeymoonpackagesmanali.in,2,wikidata;wikidata;wikidata,Manali,,301,none
+mpa.nic.in,2,wikidata;wikidata;wikidata;wikidata,Ministry of Mines | Ministry of Parliamentary Affairs,central,HttpConnectTimeoutException: HTTP connect timed out,none
+mysurucitycorporation.co.in,2,wikidata;wikidata;wikidata,Mysore City Corporation,,302,none
+sansad.in,2,wikidata;wikidata;wikidata;wikidata,Parliament of India | Rajya Sabha | Lok Sabha,central,302,none
+singrauli.nic.in,2,wikidata;wikidata;wikidata,Singrauli,,200,none
+steel.nic.in,2,wikidata;wikidata;wikidata,Steel Consumers Council | Ministry of Steel,central,ConnectException,none
+surguja.nic.in,2,wikidata;wikidata;wikidata,Ambikapur,,301,none
+finlandabroad.fi,1,wikidata;wikidata;wikidata;wikidata,"embassy of Finland in India | Consulate General of Finland, Mumbai",central,301,none
+in.ambafrance.org,1,wikidata;wikidata;wikidata,"Embassy of France, New Delhi | Consulate General of France in Pondichery",central,301,none
+india.diplo.de,1,wikidata;wikidata;wikidata,"Consulate General of Germany, Bangalore | Embassy of Germany, New Delhi | Consulate General of Germany, Chennai",central,200,none

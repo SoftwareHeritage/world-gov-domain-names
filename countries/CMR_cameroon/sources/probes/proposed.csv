@@ -1,0 +1,32 @@
+hostname,http_status,mx
+antic.cm,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,10 mail.antic.cm.
+apn.cm,301,110 mx-dc03.ewodi.net.
+archivesnationales.cm,200,0 archivesnationales.cm.
+assnat.cm,ConnectException,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
+cameroun.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+campack-cm.com,200,none
+ccaa.aero,301,3 aspmx4.googlemail.com.; 3 aspmx2.googlemail.com.; 3 aspmx3.googlemail.com.; 2 alt2.aspmx.l.google.com.; 3 aspmx5.googlemail.com.
+ccousp.cm,302,0 mail.ccousp.cm.
+cm.ambafrance.org,301,none
+cnls.cm,200,0 cnls-cm.mail.protection.outlook.com.
+conac.cm,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.conac.cm.
+coursupreme.cm,200,none
+diplocam.cm,301,5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.; 1 mx1.mail.ovh.net.
+douala.consulfrance.org,301,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ins-cameroun.cm,200,10 mail.ins-cameroun.cm.
+jaunde.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+minader.cm,301,10 minader.camnet.cm.
+minas.cm,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+minedub.cm,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 165.210.33.69.minedub.cm.
+minjustice.cm,HttpTimeoutException: request timed out,10 mx1.creawebhosting.org.; 10 mx2.creawebhosting.org.
+minmap.cm,301,10 mail.minmap.cm.
+minmidt.net,200,none
+minpmeesa.cm,200,10 webhostingzmg.camnet.cm.
+minsante.cm,200,10 messagerie.minsante.cm.
+minsep.cm,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 minsep.camnet.cm.
+mintransports.net,200,none
+mintss.cm,302,10 165.210.33.192.mintss.cm.
+piaristesafriquecentrale.org,ConnectException,none
+senat.cm,200,10 mail.senat.cm.
+yaounde.consulfrance.org,301,none

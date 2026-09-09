@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `parliament.jo` | central |  | wikidata;wikidata | Parliament of Jordan |
-| 6 | `amman.diplo.de` | central |  | wikidata;wikidata | Embassy of Germany, Amman |
-| 6 | `cco.gov.jot` |  |  | wikidata | Jordanian Constitutional Court |
-| 6 | `custodia.org` |  |  | wikidata;wikidata | Custodian of the Holy Land |
-| 6 | `roc-taiwan.org` |  |  | wikidata;wikidata | Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural ... |
-| 4 | `arabic.jo` |  |  | wikidata | Jordan Academy of Arabic |
-| 4 | `hpc.org.jo` |  |  | wikidata | Higher Population Council |
-| 4 | `representatives.jo` | central |  | wikidata | House of Representatives of Jordan |
-| 4 | `rhc.jo` | central |  | wikidata | The Royal Hashemite Court |
-| 4 | `senate.jo` | central |  | wikidata | Senate of Jordan |
-| 4 | `sp.mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Amman |
-| 3 | `amman.mae.ro` | central |  | wikidata | Embassy of Romania, Amman |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Jordan |
-| 3 | `emro.who.int` |  |  | wikidata | World Health Organization - Jordan |
-| 3 | `hazine.info` |  |  | wikidata | National Library of Jordan |
-| 3 | `jo.ambafrance.org` | central |  | wikidata | Embassy of France, Amman |
-| 3 | `jordan.mid.ru` | central |  | wikidata | embassy of Russia in Jordan |
-| 3 | `mfa.bg` | central |  | wikidata | embassy of Bulgaria in Jordan |
-| 3 | `mfa.gr` | central |  | wikidata | embassy of Greece in Jordan |
-| 3 | `mzv.cz` | central |  | wikidata | embassy of the Czech republic in Jordan |
+| 8 | `parliament.jo` | central | ConnectEx... | wikidata;wikidata | Parliament of Jordan |
+| 6 | `amman.diplo.de` | central | 200 | wikidata;wikidata | Embassy of Germany, Amman |
+| 6 | `cco.gov.jot` |  | ConnectEx... | wikidata | Jordanian Constitutional Court |
+| 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
+| 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural ... |
+| 4 | `arabic.jo` |  | 200 | wikidata | Jordan Academy of Arabic |
+| 4 | `hpc.org.jo` |  | 200 | wikidata | Higher Population Council |
+| 4 | `representatives.jo` | central | HttpTimeo... | wikidata | House of Representatives of Jordan |
+| 4 | `rhc.jo` | central | 200 | wikidata | The Royal Hashemite Court |
+| 4 | `senate.jo` | central | 302 | wikidata | Senate of Jordan |
+| 4 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata | Embassy of the United Arab Emirates, Amman |
+| 3 | `amman.mae.ro` | central | ConnectEx... | wikidata | Embassy of Romania, Amman |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Jordan |
+| 3 | `emro.who.int` |  | ConnectEx... | wikidata | World Health Organization - Jordan |
+| 3 | `hazine.info` |  | 302 | wikidata | National Library of Jordan |
+| 3 | `jo.ambafrance.org` | central | 301 | wikidata | Embassy of France, Amman |
+| 3 | `jordan.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Jordan |
+| 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Jordan |
+| 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Jordan |
+| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Jordan |
 

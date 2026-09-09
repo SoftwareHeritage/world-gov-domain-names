@@ -1,20 +1,20 @@
 hostname,score,sources,label,level,http_status,mx
-cssf.lu,7,wikidata;wikidata,Commission de Surveillance du Secteur Financier,,,
-anlux.lu,4,wikidata,National Archives of Luxembourg,,,
-bcl.lu,4,wikidata,Central Bank of Luxembourg,,,
-cpll.lu,4,wikidata,Permanent Council of the Luxembourgish,,,
-etat.lu,4,linkgraph,Linked from 4 public-sector domains,,,
-geologie.lu,4,wikidata,Q78188560,,,
-lih.lu,4,wikidata,Luxembourg Institute of Health,,,
-luxinnovation.lu,4,wikidata,Luxinnovation,,,
-mnaha.lu,4,wikidata,"National Museum of Archeology, History and Art",,,
-railinfra.lu,4,wikidata,Administration des chemins de fer,,,
-ambruslu.mid.ru,3,wikidata,Embassy of Russia in Luxembourg,central,,
-lu.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Luxembourg City",central,,
-luxembourg.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Luxembourg,central,,
-luxembourg.mae.ro,3,wikidata,"Embassy of Romania, Luxembourg",central,,
-luxembourg.representation.ec.europa.eu,3,wikidata,European Commission Representation in Luxembourg,,,
-luxemburg.diplo.de,3,wikidata,"Embassy of Germany, Luxembourg",central,,
-luxemburgo.embaixadaportugal.mne.pt,3,wikidata,Embassy of Portugal in Luxembourg,central,,
-mzv.cz,3,wikidata,Embassy of the Czech Republic in Luxembourg,central,,
-beneluxparl.eu,1,wikidata;wikidata;wikidata;wikidata,Benelux Parliament,,,
+cssf.lu,7,wikidata;wikidata,Commission de Surveillance du Secteur Financier,,200,10 mail.cssf.lu.
+anlux.lu,4,wikidata,National Archives of Luxembourg,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching anlux.lu found.,none
+bcl.lu,4,wikidata,Central Bank of Luxembourg,,301,10 mailsrv1.bcl.lu.; 20 mailsrv2.bcl.lu.
+cpll.lu,4,wikidata,Permanent Council of the Luxembourgish,,500,10 smtpgate1.restena.lu.; 10 smtpgate2.restena.lu.
+etat.lu,4,linkgraph,Linked from 4 public-sector domains,,302,10 incoming-4.mail.etat.lu.; 10 incoming-3.mail.etat.lu.; 10 incoming-2.mail.etat.lu.; 10 incoming-1.mail.etat.lu.
+geologie.lu,4,wikidata,Q78188560,,200,none
+lih.lu,4,wikidata,Luxembourg Institute of Health,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx1.lih.lu.; 5 mx2.lih.lu.
+luxinnovation.lu,4,wikidata,Luxinnovation,,200,0 luxinnovation-lu.mail.protection.outlook.com.
+mnaha.lu,4,wikidata,"National Museum of Archeology, History and Art",,301,none
+railinfra.lu,4,wikidata,Administration des chemins de fer,,302,10 incoming-1.mail.etat.lu.; 10 incoming-3.mail.etat.lu.; 10 incoming-2.mail.etat.lu.; 10 incoming-4.mail.etat.lu.
+ambruslu.mid.ru,3,wikidata,Embassy of Russia in Luxembourg,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+lu.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Luxembourg City",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching lu.china-embassy.org found.,none
+luxembourg.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Luxembourg,central,302,100 ucsgusrlp001.ep.europa.eu.; 100 ucsgusrlp002.ep.europa.eu.; 100 ucsgusrlp003.ep.europa.eu.; 100 ucsgusrbp004.ep.europa.eu.; 100 ucsgusrbp001.ep.europa.eu.; 100 ucsgusrbp003.ep.europa.eu.; 100 ucsgusrlp004.ep.europa.eu.; 100 ucsgusrbp002.ep.europa.eu.
+luxembourg.mae.ro,3,wikidata,"Embassy of Romania, Luxembourg",central,ConnectException,none
+luxembourg.representation.ec.europa.eu,3,wikidata,European Commission Representation in Luxembourg,,302,none
+luxemburg.diplo.de,3,wikidata,"Embassy of Germany, Luxembourg",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+luxemburgo.embaixadaportugal.mne.pt,3,wikidata,Embassy of Portugal in Luxembourg,central,IOException: EOF reached while reading,none
+mzv.cz,3,wikidata,Embassy of the Czech Republic in Luxembourg,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+beneluxparl.eu,1,wikidata;wikidata;wikidata;wikidata,Benelux Parliament,,302,5 mta-gw.infomaniak.ch.

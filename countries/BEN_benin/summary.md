@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `assemblee-nationale.bj` | central |  | wikidata;wikidata | National Assembly |
-| 7 | `finances.bj` | central |  | wikidata;wikidata | Ministry of Economy and Finance |
-| 6 | `misiones.cubaminrex.cu` |  |  | wikidata;wikidata | embassy of Cuba in Benin |
-| 5 | `cour-constitutionnelle-benin.org` | central |  | wikidata | Constitutional Court of Benin |
-| 5 | `presidence.bj` |  |  | wikidata | Q136687303 |
-| 4 | `anip.bj` |  |  | wikidata | Q118262736 |
-| 4 | `anpe.bj` |  |  | wikidata | Q110013813 |
-| 4 | `cbdh.bj` |  |  | wikidata | Benin Human Rights Commission |
-| 4 | `cci.bj` |  |  | wikidata | Q107274708 |
-| 4 | `cnss.bj` |  |  | wikidata | Q118174383 |
-| 4 | `eservices.anip.bj` |  |  | wikidata | Q118262736 |
-| 4 | `instad.bj` | central |  | wikidata | Institut National de la Statistique et de l'Analyse Économique |
-| 3 | `bceao.int` |  |  | wikidata | Central Bank of West African States |
-| 3 | `benin.mid.ru` | central |  | wikidata | embassy of Russia in Benin and Togo |
-| 3 | `bj.ambafrance.org` | central |  | wikidata | Embassy of France, Cotonou |
-| 3 | `cotonou.diplo.de` | central |  | wikidata | Embassy of Germany, Cotonou |
-| 3 | `dan.ilemi.net` |  |  | wikidata | National Archives of Benin |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Benin |
-| 3 | `fbbf-benin.com` |  |  | wikidata | Fédération béninoise de bodybuilding et de fitness |
-| 3 | `ghanaembassy-benin.com` | central |  | wikidata | embassy of Ghana in Benin |
+| 7 | `assemblee-nationale.bj` | central | 200 | wikidata;wikidata | National Assembly |
+| 7 | `finances.bj` | central | 500 | wikidata;wikidata | Ministry of Economy and Finance |
+| 6 | `misiones.cubaminrex.cu` |  | SSLHandsh... | wikidata;wikidata | embassy of Cuba in Benin |
+| 5 | `cour-constitutionnelle-benin.org` | central | 200 | wikidata | Constitutional Court of Benin |
+| 5 | `presidence.bj` |  | 200 | wikidata | Q136687303 |
+| 4 | `anip.bj` |  | 200 | wikidata | Q118262736 |
+| 4 | `anpe.bj` |  | 200 | wikidata | Q110013813 |
+| 4 | `cbdh.bj` |  | 200 | wikidata | Benin Human Rights Commission |
+| 4 | `cci.bj` |  | 200 | wikidata | Q107274708 |
+| 4 | `cnss.bj` |  | 200 | wikidata | Q118174383 |
+| 4 | `eservices.anip.bj` |  | 200 | wikidata | Q118262736 |
+| 4 | `instad.bj` | central | 200 | wikidata | Institut National de la Statistique et de l'Analyse Économique |
+| 3 | `bceao.int` |  | ConnectEx... | wikidata | Central Bank of West African States |
+| 3 | `benin.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Benin and Togo |
+| 3 | `bj.ambafrance.org` | central | 301 | wikidata | Embassy of France, Cotonou |
+| 3 | `cotonou.diplo.de` | central | 200 | wikidata | Embassy of Germany, Cotonou |
+| 3 | `dan.ilemi.net` |  | ConnectEx... | wikidata | National Archives of Benin |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Benin |
+| 3 | `fbbf-benin.com` |  | ConnectEx... | wikidata | Fédération béninoise de bodybuilding et de fitness |
+| 3 | `ghanaembassy-benin.com` | central | ConnectEx... | wikidata | embassy of Ghana in Benin |
 

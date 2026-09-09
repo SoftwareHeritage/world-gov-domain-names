@@ -35,7 +35,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `mofaic.gov.ae` | central |  | wikidata;wikidata | Embassy of the United Arab Emirates, Malé |
-| 6 | `citizen.egov.mv` |  |  | un_desa | UN/DESA national portal |
-| 3 | `ganairport.com` |  |  | wikidata | Gan International Airport |
+| 7 | `mofaic.gov.ae` | central | IOExcepti... | wikidata;wikidata | Embassy of the United Arab Emirates, Malé |
+| 6 | `citizen.egov.mv` |  | 200 | un_desa | UN/DESA national portal |
+| 3 | `ganairport.com` |  | 403 | wikidata | Gan International Airport |
 

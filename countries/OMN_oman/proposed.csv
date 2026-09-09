@@ -1,14 +1,14 @@
 hostname,score,sources,label,level,http_status,mx
-omaninfo.om,7,wikidata;wikidata,Ministry of Information,central,,
-oman.om,6,un_desa,UN/DESA national portal,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Muscat",central,,
-mwasalat.om,4,wikidata,MWASALAT,,,
-riyada.om,4,wikidata,riyada,,,
-shura.om,4,wikidata,Consultative Assembly of Oman,central,,
-squ.edu.om,4,wikidata,Sultan Qaboos University Library,,,
-statecouncil.om,4,wikidata,state council of Oman,central,,
-maskat.diplo.de,3,wikidata,"Embassy of Germany, Muscat",central,,
-muscat.mae.ro,3,wikidata,embassy of Romania in Oman,central,,
-om.ambafrance.org,3,wikidata,"Embassy of France, Muscat",central,,
-oman.mid.ru,3,wikidata,embassy of Russia in Oman,central,,
-roc-taiwan.org,1,wikidata;wikidata;wikidata,"Taipei Economic & Cultural Office, Muscat, Oman | Taipei Economic and Cultural Office, Muscat, Oman",,,
+omaninfo.om,7,wikidata;wikidata,Ministry of Information,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 autodiscover.omaninfo.om.
+oman.om,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Muscat",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mwasalat.om,4,wikidata,MWASALAT,,200,0 mwasalat-om.mail.protection.outlook.com.
+riyada.om,4,wikidata,riyada,,301,none
+shura.om,4,wikidata,Consultative Assembly of Oman,central,301,10 omandatapark-com-1.fortimailcloud.com.; 20 omandatapark-com-2.fortimailcloud.com.
+squ.edu.om,4,wikidata,Sultan Qaboos University Library,,HttpConnectTimeoutException: HTTP connect timed out,3 alt1.aspmx.l.google.com.; 10 mx1.squ.edu.om.; 3 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt4.aspmx.l.google.com.; 21 alumni-squ-edu-om.mail.protection.outlook.com.; 5 alt3.aspmx.l.google.com.
+statecouncil.om,4,wikidata,state council of Oman,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 omandatapark-com-2.fortimailcloud.com.; 10 omandatapark-com-1.fortimailcloud.com.
+maskat.diplo.de,3,wikidata,"Embassy of Germany, Muscat",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+muscat.mae.ro,3,wikidata,embassy of Romania in Oman,central,503,none
+om.ambafrance.org,3,wikidata,"Embassy of France, Muscat",central,301,none
+oman.mid.ru,3,wikidata,embassy of Russia in Oman,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+roc-taiwan.org,1,wikidata;wikidata;wikidata,"Taipei Economic & Cultural Office, Muscat, Oman | Taipei Economic and Cultural Office, Muscat, Oman",,302,none

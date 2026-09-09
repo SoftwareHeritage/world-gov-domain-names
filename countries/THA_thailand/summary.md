@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `gistda.or.th` |  |  | wikidata;wikidata | Geo-Informatics and Space Technology Development Agency |
-| 7 | `royaloffice.th` | central |  | wikidata;wikidata | Bureau of the Royal Household |
-| 6 | `constitutionalcourt.or.th` |  |  | wikidata | Constitutional Court of Thailand |
-| 6 | `office.constitutionalcourt.or.th` |  |  | wikidata | Office of the Constitutional Court of Thailand |
-| 4 | `aerothai.co.th` |  |  | wikidata | Aeronautical Radio of Thailand |
-| 4 | `bangkok.mfa.gov.hu` | central |  | wikidata | embassy of Hungary to Thailand |
-| 4 | `biotec.or.th` |  |  | wikidata | BIOTEC |
-| 4 | `bot.or.th` |  |  | wikidata | Bank of Thailand |
-| 4 | `cicot.or.th` |  |  | wikidata | Central Islamic Council of Thailand |
-| 4 | `en.thaihealth.or.th` |  |  | wikidata | Thai Health Promotion Foundation |
-| 4 | `glo.or.th` |  |  | wikidata | Thai Government Lottery Office |
-| 4 | `gpo.or.th` |  |  | wikidata | Government Pharmaceutical Organization |
-| 4 | `ksp.or.th` |  |  | wikidata | Teachers' Council of Thailand |
-| 4 | `nectec.or.th` |  |  | wikidata | National Electronics and Computer Technology Center |
-| 4 | `nimt.or.th` |  |  | wikidata | National Institute of Metrology (Thailand) |
-| 4 | `nxpo.or.th` |  |  | wikidata | Office of National Higher Education Science Research and Innovation Policy Co... |
-| 4 | `old.hsri.or.th` |  |  | wikidata | Health Systems Research Institute |
-| 4 | `rtsd.mi.th` |  |  | wikidata | Royal Thai Survey Department |
-| 4 | `sec.or.th` |  |  | wikidata | The Securities and Exchange Commission, Thailand |
-| 4 | `sp.mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Bangkok |
+| 7 | `gistda.or.th` |  | SSLHandsh... | wikidata;wikidata | Geo-Informatics and Space Technology Development Agency |
+| 7 | `royaloffice.th` | central | 308 | wikidata;wikidata | Bureau of the Royal Household |
+| 6 | `constitutionalcourt.or.th` |  | 302 | wikidata | Constitutional Court of Thailand |
+| 6 | `office.constitutionalcourt.or.th` |  | HttpConne... | wikidata | Office of the Constitutional Court of Thailand |
+| 4 | `aerothai.co.th` |  | 200 | wikidata | Aeronautical Radio of Thailand |
+| 4 | `bangkok.mfa.gov.hu` | central | SSLHandsh... | wikidata | embassy of Hungary to Thailand |
+| 4 | `biotec.or.th` |  | HttpConne... | wikidata | BIOTEC |
+| 4 | `bot.or.th` |  | HttpConne... | wikidata | Bank of Thailand |
+| 4 | `cicot.or.th` |  | HttpConne... | wikidata | Central Islamic Council of Thailand |
+| 4 | `en.thaihealth.or.th` |  | 200 | wikidata | Thai Health Promotion Foundation |
+| 4 | `glo.or.th` |  | ConnectEx... | wikidata | Thai Government Lottery Office |
+| 4 | `gpo.or.th` |  | 200 | wikidata | Government Pharmaceutical Organization |
+| 4 | `ksp.or.th` |  | ConnectEx... | wikidata | Teachers' Council of Thailand |
+| 4 | `nectec.or.th` |  | HttpConne... | wikidata | National Electronics and Computer Technology Center |
+| 4 | `nimt.or.th` |  | 200 | wikidata | National Institute of Metrology (Thailand) |
+| 4 | `nxpo.or.th` |  | HttpTimeo... | wikidata | Office of National Higher Education Science Research and Innovation Policy Co... |
+| 4 | `old.hsri.or.th` |  | ConnectEx... | wikidata | Health Systems Research Institute |
+| 4 | `rtsd.mi.th` |  | HttpConne... | wikidata | Royal Thai Survey Department |
+| 4 | `sec.or.th` |  | 302 | wikidata | The Securities and Exchange Commission, Thailand |
+| 4 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata | Embassy of the United Arab Emirates, Bangkok |
 

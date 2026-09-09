@@ -1,0 +1,22 @@
+hostname,http_status,mx
+angola.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ao.ambafrance.org,301,none
+ao.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ao.chineseembassy.org found.,none
+bna.ao,200,0 bna-ao.mail.protection.outlook.com.
+cisacaxito.org,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 cisacaxito-org.mail.protection.outlook.com.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+embaixada-de-cabo-verde-em-angola.odoo.com,200,10 eu473a.odoo.com.
+franciscanos.org.br,ConnectException,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+ghanaembassy-angola.com,ConnectException,none
+kenyaembassyangola.com,200,20 mx2.titan.email.; 10 mx1.titan.email.
+luanda.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+luanda.mae.ro,503,none
+luanda.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+minjud.gv.ao,HttpConnectTimeoutException: HTTP connect timed out,dig error
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nationallibraryofangola.org,200,none
+norway.no,301,0 mx.domeneshop.no.
+parlamento.ao,200,1 webmail.parlamento.ao.
+sinseangola.com,ConnectException,none
+tribunalconstitucional.ao,200,0 tribunalconstitucional-ao.mail.protection.outlook.com.
+trluanda.ao,200,0 ws52.angoweb.net.

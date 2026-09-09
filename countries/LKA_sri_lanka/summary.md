@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `parliament.lk` | central |  | wikidata;wikidata | Parliament of Sri Lanka |
-| 7 | `defence.lk` | central |  | wikidata;wikidata | Ministry of Defence and Urban Development |
-| 7 | `uda.lk` | central |  | wikidata;wikidata | Ministry of Urban Development |
-| 4 | `caa.lk` |  |  | wikidata | Civil Aviation Authority of Sri Lanka |
-| 4 | `ird.lk` |  |  | wikidata | Institute for Research and Development |
-| 4 | `leco.lk` |  |  | wikidata | Lanka Electricity Company |
-| 4 | `maldiveshighcom.lk` |  |  | wikidata | High Commission of Maldives, Colombo |
-| 4 | `mofaic.gov.ae` | central |  | wikidata | Embassy of the United Arab Emirates, Colombo |
-| 4 | `nara.ac.lk` |  |  | wikidata | National Aquatic Resources Research and Development Agency |
-| 4 | `natlib.lk` |  |  | wikidata | National Library and Documentation Services Board |
-| 4 | `nsf.ac.lk` |  |  | wikidata | National Science Foundation of Sri Lanka |
-| 4 | `slcarp.lk` |  |  | wikidata | Sri Lanka Council For Agricultural Research Policy |
-| 4 | `slncu.lk` |  |  | wikidata | Sri Lanka National Commission for UNESCO |
-| 4 | `supremecourt.lk` |  |  | wikidata | Supreme Court of Sri Lanka |
-| 4 | `vishwa.nsf.ac.lk` |  |  | wikidata | National Science Library & Resource Centre – Sri Lanka |
-| 4 | `waterboard.lk` |  |  | wikidata | National Water Supply and Drainage Board |
-| 3 | `220.247.247.85` |  |  | wikidata | National Library of Sri Lanka |
-| 3 | `colombo.diplo.de` | central |  | wikidata | Embassy of Germany, Colombo |
-| 3 | `colombo.mae.ro` | central |  | wikidata | embassy of Romania in Sri Lanka |
-| 3 | `colombo.mfa.af` | central |  | wikidata | Embassy of Afghanistan, Colombo |
+| 8 | `parliament.lk` | central | 301 | wikidata;wikidata | Parliament of Sri Lanka |
+| 7 | `defence.lk` | central | 200 | wikidata;wikidata | Ministry of Defence and Urban Development |
+| 7 | `uda.lk` | central | 301 | wikidata;wikidata | Ministry of Urban Development |
+| 4 | `caa.lk` |  | SSLHandsh... | wikidata | Civil Aviation Authority of Sri Lanka |
+| 4 | `ird.lk` |  | 200 | wikidata | Institute for Research and Development |
+| 4 | `leco.lk` |  | 200 | wikidata | Lanka Electricity Company |
+| 4 | `maldiveshighcom.lk` |  | ConnectEx... | wikidata | High Commission of Maldives, Colombo |
+| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Colombo |
+| 4 | `nara.ac.lk` |  | ConnectEx... | wikidata | National Aquatic Resources Research and Development Agency |
+| 4 | `natlib.lk` |  | ConnectEx... | wikidata | National Library and Documentation Services Board |
+| 4 | `nsf.ac.lk` |  | HttpConne... | wikidata | National Science Foundation of Sri Lanka |
+| 4 | `slcarp.lk` |  | 200 | wikidata | Sri Lanka Council For Agricultural Research Policy |
+| 4 | `slncu.lk` |  | 200 | wikidata | Sri Lanka National Commission for UNESCO |
+| 4 | `supremecourt.lk` |  | 200 | wikidata | Supreme Court of Sri Lanka |
+| 4 | `vishwa.nsf.ac.lk` |  | ConnectEx... | wikidata | National Science Library & Resource Centre – Sri Lanka |
+| 4 | `waterboard.lk` |  | 301 | wikidata | National Water Supply and Drainage Board |
+| 3 | `220.247.247.85` |  | HttpConne... | wikidata | National Library of Sri Lanka |
+| 3 | `colombo.diplo.de` | central | 200 | wikidata | Embassy of Germany, Colombo |
+| 3 | `colombo.mae.ro` | central | ConnectEx... | wikidata | embassy of Romania in Sri Lanka |
+| 3 | `colombo.mfa.af` | central | ConnectEx... | wikidata | Embassy of Afghanistan, Colombo |
 

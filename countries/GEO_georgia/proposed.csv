@@ -1,36 +1,36 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.ge,8,wikidata;wikidata,Parliament of Georgia,central,,
-police.ge,7,wikidata;wikidata,Ministry of Internal Affairs | Special Tasks Department,central,,
-sca.ge,7,wikidata;wikidata,Supreme Council of the Autonomous Republic of Adjara,central-1,,
-supremecourt.ge,6,wikidata,Supreme Court of Georgia,,,
-aidscenter.ge,4,wikidata,AIDS and Clinical Immunology Research Center,,,
-cesko.ge,4,wikidata,Election Administration of Georgia,,,
-comcom.ge,4,wikidata,Georgian National Communications Commission,,,
-geostat.ge,4,wikidata,National Statistics Office of Georgia,,,
-geostm.ge,4,wikidata,Georgian National Agency for Standards and Metrology,,,
-heraldika.ge,4,wikidata,State Council of Heraldry,,,
-heritagesites.ge,4,wikidata,National Agency for Cultural Heritage Preservation of Georgia,,,
-ncdc.ge,4,wikidata,National Center for Disease Control and Public Health,,,
-rustaveli.org.ge,4,wikidata,Shota Rustaveli National Science Foundation,,,
-sciencelib.ge,4,wikidata,National Science Library,,,
-tbiliszi.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tbilisi",central,,
-unesco.ge,4,wikidata,Georgian National Commission for UNESCO,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Georgia,,,
-ge.ambafrance.org,3,wikidata,"Embassy of France, Tbilisi",central,,
-ge.mfa.lt,3,wikidata,embassy of Lithuania in Georgia,central,,
-gosarchive.apsny.land,3,wikidata,Abkhaz State Archive,,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Georgia,central,,
-mfa.gr,3,wikidata,embassy of Greece in Georgia,central,,
-mrdg.health.mil,3,wikidata,United States Army Medical Research Directorate - Georgia,,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Georgia,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Georgia,central,,
-nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Tbilisi",central,,
-norway.no,3,wikidata,Embassy of Norway in Georgia,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Tbilisi",central,,
-tbilisi.mae.ro,3,wikidata,embassy of Romania in Georgia,central,,
-tbilisi.mfa.ee,3,wikidata,embassy of Estonia in Tbilisi,central,,
-tiflis.diplo.de,3,wikidata,"Embassy of Germany, Tbilisi",central,,
-vaticange.org,3,wikidata,Apostolic Nunciature to Georgia,central,,
-economy.ge,2,wikidata;wikidata;wikidata;wikidata,Ministry of Economy and Sustainable Development of Georgia | Ministry of Economy and Sustainable Development,central,,
-mia.police.ge,2,wikidata;wikidata;wikidata,Ministry of Internal Affairs of Georgia,central,,
-mof.ge,2,wikidata;wikidata;wikidata,Ministry of Finance of Georgia,central,,
+parliament.ge,8,wikidata;wikidata,Parliament of Georgia,central,200,10 mail01.parliament.ge.
+police.ge,7,wikidata;wikidata,Ministry of Internal Affairs | Special Tasks Department,central,200,10 mail.police.ge.
+sca.ge,7,wikidata;wikidata,Supreme Council of the Autonomous Republic of Adjara,central-1,200,10 mail.sca.ge.; 0 mail.sca.ge.
+supremecourt.ge,6,wikidata,Supreme Court of Georgia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching supremecourt.ge found.,1 mx.grena.ge.
+aidscenter.ge,4,wikidata,AIDS and Clinical Immunology Research Center,,200,10 aspmx.l.google.com.
+cesko.ge,4,wikidata,Election Administration of Georgia,,403,none
+comcom.ge,4,wikidata,Georgian National Communications Commission,,301,0 comcom-ge.mail.protection.outlook.com.
+geostat.ge,4,wikidata,National Statistics Office of Georgia,,302,10 mail.geostat.ge.
+geostm.ge,4,wikidata,Georgian National Agency for Standards and Metrology,,ConnectException,0 geostm.ge.
+heraldika.ge,4,wikidata,State Council of Heraldry,,200,10 mail.heraldika.gov.ge.
+heritagesites.ge,4,wikidata,National Agency for Cultural Heritage Preservation of Georgia,,302,1 smtp.google.com.
+ncdc.ge,4,wikidata,National Center for Disease Control and Public Health,,200,10 mx1.moh.gov.ge.
+rustaveli.org.ge,4,wikidata,Shota Rustaveli National Science Foundation,,200,0 rustaveli-org-ge.mail.protection.outlook.com.
+sciencelib.ge,4,wikidata,National Science Library,,200,10 ghs.l.google.com.; 10 ghs.google.com.; 1 aspmx.l.google.com.
+tbiliszi.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tbilisi",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+unesco.ge,4,wikidata,Georgian National Commission for UNESCO,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching unesco.ge found.,0 unesco.ge.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Georgia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ge.ambafrance.org,3,wikidata,"Embassy of France, Tbilisi",central,301,none
+ge.mfa.lt,3,wikidata,embassy of Lithuania in Georgia,central,403,none
+gosarchive.apsny.land,3,wikidata,Abkhaz State Archive,,200,20 mail.gosarchive.apsny.land.; 10 mail.gosarchive.apsny.land.
+mfa.bg,3,wikidata,embassy of Bulgaria in Georgia,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Georgia,central,403,10 mailhost.mfa.gr.
+mrdg.health.mil,3,wikidata,United States Army Medical Research Directorate - Georgia,,403,none
+mzv.cz,3,wikidata,embassy of the Czech republic in Georgia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Georgia,central,301,10 mail.gov.sk.
+nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Tbilisi",central,301,0 .
+norway.no,3,wikidata,Embassy of Norway in Georgia,central,301,0 mx.domeneshop.no.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Tbilisi",central,301,none
+tbilisi.mae.ro,3,wikidata,embassy of Romania in Georgia,central,503,none
+tbilisi.mfa.ee,3,wikidata,embassy of Estonia in Tbilisi,central,200,none
+tiflis.diplo.de,3,wikidata,"Embassy of Germany, Tbilisi",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+vaticange.org,3,wikidata,Apostolic Nunciature to Georgia,central,200,10 mail.register.it.
+economy.ge,2,wikidata;wikidata;wikidata;wikidata,Ministry of Economy and Sustainable Development of Georgia | Ministry of Economy and Sustainable Development,central,200,10 mx1.economy.ge.; 20 mx2.economy.ge.
+mia.police.ge,2,wikidata;wikidata;wikidata,Ministry of Internal Affairs of Georgia,central,200,none
+mof.ge,2,wikidata;wikidata;wikidata,Ministry of Finance of Georgia,central,200,5 edge01.mof.ge.

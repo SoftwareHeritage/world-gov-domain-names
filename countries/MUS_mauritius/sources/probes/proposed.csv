@@ -1,0 +1,25 @@
+hostname,http_status,mx
+agriculture.govmu.org,302,none
+ambchine.mu,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+bom.mu,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,10 mail.bom.mu.
+eeas.europa.eu,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+gender.govmu.org,302,none
+govmu.org,302,10 mxmail6.govmu.org.; 9 mxmail5.govmu.org.
+health.govmu.org,301,none
+hec.mu,200,0 hec-mu.mail.protection.outlook.com.; 5 ASPMX.L.GOOGLE.com.; 10 ALT4.ASPMX.L.GOOGLE.com.; 5 ALT2.ASPMX.L.GOOGLE.com.; 10 ALT3.ASPMX.L.GOOGLE.com.; 5 ALT1.ASPMX.L.GOOGLE.com.
+icac.mu,301,0 icac-mu.mail.protection.outlook.com.
+mauritius.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mauritiusassembly.govmu.org,301,none
+mof.govmu.org,302,none
+moi.govmu.org,200,none
+msb.intnet.mu,302,0 msb-intnet-mu.mail.protection.outlook.com.
+mu.ambafrance.org,301,none
+mymauritius.travel,200,0 mymauritius.travel.
+national-library.govmu.org,301,none
+nationalarchives.govmu.org,303,none
+ncb.mu,ConnectException,none
+police.govmu.org,301,none
+reci-rodrigues.com,ConnectException,none
+southafrica.diplo.de,200,none
+supremecourt.govmu.org,200,none
+tourism.govmu.org,302,none

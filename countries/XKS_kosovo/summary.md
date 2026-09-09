@@ -23,24 +23,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `gjk-ks.org` | central |  | wikidata;wikidata | Constitutional Court of Kosovo | Commercial Court of Kosovo |
-| 6 | `antitrafikimi.rks-gov.net` |  |  | wikidata;wikidata | Prosecutorial Council of Kosovo | Basic Prosecution Office in Gjakova |
-| 6 | `ih-rks.org` |  |  | wikidata;wikidata | Institute of the History of Kosovo |
-| 6 | `kosovopolice.com` |  |  | wikidata;wikidata | Kosovo Police | Bomb Squad (IED/EOD) Kosovo |
-| 6 | `kryeministri.rks-gov.net` | central |  | wikidata;wikidata | Government of Kosovo |
-| 6 | `kuvendikosoves.org` | central |  | wikidata;wikidata | Assembly of the Republic of Kosovo |
-| 6 | `masht.rks-gov.net` | central |  | wikidata;wikidata | Ministry of Education, Science and Technology |
-| 6 | `md.rks-gov.net` |  |  | wikidata;wikidata | Ministry of Justice |
-| 6 | `me.rks-gov.net` |  |  | wikidata;wikidata | Ministry of Economy |
-| 6 | `mfa-ks.net` | central |  | wikidata;wikidata | Ministry of Foreign Affairs and Diaspora of the Republic of Kosovo |
-| 6 | `mint.rks-gov.net` | central |  | wikidata;wikidata | Ministry of Industry, Entrepreneurship, and Trade of Kosovo |
-| 6 | `mkrs-ks.org` | central |  | wikidata;wikidata | Ministry of Culture, Youth and Sport of Kosovo |
-| 6 | `mmphi.rks-gov.net` |  |  | wikidata;wikidata | Ministry of Environment and Spatial Planning and Infrastructure of Kosovo |
-| 6 | `mod.rks-gov.net` |  |  | wikidata;wikidata | Ministry of Defence of Kosovo |
-| 6 | `mpb.rks-gov.net` | central |  | wikidata;wikidata | Ministry of Internal Affairs of Kosovo |
-| 6 | `mpms.rks-gov.net` |  |  | wikidata;wikidata | Ministry of Labour and Social Welfare of Kosovo |
-| 6 | `msh.rks-gov.net` |  |  | wikidata;wikidata | Ministry of Health of Kosovo |
-| 6 | `president-ksgov.net` |  |  | wikidata;wikidata;wikidata | Presidency of the Republic of Kosovo | National Council for European Integration |
-| 5 | `supreme.gjyqesori-rks.org` | central |  | wikidata | Supreme court of Kosovo |
-| 4 | `kia.gov` |  |  | wikidata | Kosovo Intelligence Agency |
+| 8 | `gjk-ks.org` | central | 200 | wikidata;wikidata | Constitutional Court of Kosovo | Commercial Court of Kosovo |
+| 6 | `antitrafikimi.rks-gov.net` |  | 307 | wikidata;wikidata | Prosecutorial Council of Kosovo | Basic Prosecution Office in Gjakova |
+| 6 | `ih-rks.org` |  | 200 | wikidata;wikidata | Institute of the History of Kosovo |
+| 6 | `kosovopolice.com` |  | 301 | wikidata;wikidata | Kosovo Police | Bomb Squad (IED/EOD) Kosovo |
+| 6 | `kryeministri.rks-gov.net` | central | 200 | wikidata;wikidata | Government of Kosovo |
+| 6 | `kuvendikosoves.org` | central | 403 | wikidata;wikidata | Assembly of the Republic of Kosovo |
+| 6 | `masht.rks-gov.net` | central | 307 | wikidata;wikidata | Ministry of Education, Science and Technology |
+| 6 | `md.rks-gov.net` |  | 200 | wikidata;wikidata | Ministry of Justice |
+| 6 | `me.rks-gov.net` |  | HttpTimeo... | wikidata;wikidata | Ministry of Economy |
+| 6 | `mfa-ks.net` | central | 200 | wikidata;wikidata | Ministry of Foreign Affairs and Diaspora of the Republic of Kosovo |
+| 6 | `mint.rks-gov.net` | central | 307 | wikidata;wikidata | Ministry of Industry, Entrepreneurship, and Trade of Kosovo |
+| 6 | `mkrs-ks.org` | central | 403 | wikidata;wikidata | Ministry of Culture, Youth and Sport of Kosovo |
+| 6 | `mmphi.rks-gov.net` |  | 200 | wikidata;wikidata | Ministry of Environment and Spatial Planning and Infrastructure of Kosovo |
+| 6 | `mod.rks-gov.net` |  | 200 | wikidata;wikidata | Ministry of Defence of Kosovo |
+| 6 | `mpb.rks-gov.net` | central | 200 | wikidata;wikidata | Ministry of Internal Affairs of Kosovo |
+| 6 | `mpms.rks-gov.net` |  | ConnectEx... | wikidata;wikidata | Ministry of Labour and Social Welfare of Kosovo |
+| 6 | `msh.rks-gov.net` |  | HttpTimeo... | wikidata;wikidata | Ministry of Health of Kosovo |
+| 6 | `president-ksgov.net` |  | 200 | wikidata;wikidata;wikidata | Presidency of the Republic of Kosovo | National Council for European Integration |
+| 5 | `supreme.gjyqesori-rks.org` | central | 403 | wikidata | Supreme court of Kosovo |
+| 4 | `kia.gov` |  | ConnectEx... | wikidata | Kosovo Intelligence Agency |
 

@@ -1,17 +1,17 @@
 hostname,score,sources,label,level,http_status,mx
-finances.gouv.cg,8,wikidata;wikidata,Q138766330,,,
-hydrocarbures.gouv.cg,8,wikidata;wikidata,Q139836464,,,
-postetelecom.gouv.cg,8,wikidata;wikidata,Q138711324,,,
-presidence.cg,7,un_desa,UN/DESA national portal,,,
-diplobrazza.net,6,wikidata;wikidata,"Ministry of Foreign Affairs, Francophonie and Congolese Abroad",,,
-meppsa.org,6,wikidata;wikidata,Q138754653,,,
-anaccongo.cg,4,wikidata,Agence nationale de l'aviation civile (Republic of the Congo),,,
-assemblee-nationale.cg,4,wikidata,National Assembly,central,,
-bea.cg,4,wikidata,Aircraft Accident Investigation Bureau,,,
-ccj-congo.cg,4,wikidata,Youth Advisory Council,,,
-senat.cg,4,wikidata,Senate,central,,
-brazzaville.diplo.de,3,wikidata,"Embassy of Germany, Brazzaville",central,,
-cg.ambafrance.org,3,wikidata,"Embassy of France, Brazzaville",central,,
-congo.mid.ru,3,wikidata,embassy of Russia in Republic of the Congo,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Congo,,,
-pointe-noire.consulfrance.org,3,wikidata,Consulate General of France in Pointe-Noire,,,
+finances.gouv.cg,8,wikidata;wikidata,Q138766330,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching finances.gouv.cg found.,10 mail.finances.gouv.cg.
+hydrocarbures.gouv.cg,8,wikidata;wikidata,Q139836464,,301,100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.
+postetelecom.gouv.cg,8,wikidata;wikidata,Q138711324,,200,none
+presidence.cg,7,un_desa,UN/DESA national portal,,200,0 mail.presidence.cg.
+diplobrazza.net,6,wikidata;wikidata,"Ministry of Foreign Affairs, Francophonie and Congolese Abroad",,200,5 mta-gw.infomaniak.ch.
+meppsa.org,6,wikidata;wikidata,Q138754653,,200,0 _dc-mx.e408a5764a20.meppsa.org.
+anaccongo.cg,4,wikidata,Agence nationale de l'aviation civile (Republic of the Congo),,302,1 smtp.google.com.
+assemblee-nationale.cg,4,wikidata,National Assembly,central,200,10 mx.assemblee-nationale.cg.
+bea.cg,4,wikidata,Aircraft Accident Investigation Bureau,,301,10 mail.bea.cg.
+ccj-congo.cg,4,wikidata,Youth Advisory Council,,HttpConnectTimeoutException: HTTP connect timed out,none
+senat.cg,4,wikidata,Senate,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 senatducongo.cg.
+brazzaville.diplo.de,3,wikidata,"Embassy of Germany, Brazzaville",central,200,none
+cg.ambafrance.org,3,wikidata,"Embassy of France, Brazzaville",central,301,none
+congo.mid.ru,3,wikidata,embassy of Russia in Republic of the Congo,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Congo,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+pointe-noire.consulfrance.org,3,wikidata,Consulate General of France in Pointe-Noire,,301,none

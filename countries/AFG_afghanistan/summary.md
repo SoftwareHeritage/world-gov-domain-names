@@ -35,18 +35,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `parliament.af` | central |  | wikidata;wikidata | National Assembly of Afghanistan |
-| 4 | `aihrc.org.af` |  |  | wikidata | Afghan Independent Human Rights Commission |
-| 3 | `af.ambafrance.org` | central |  | wikidata | Embassy of France, Kabul |
-| 3 | `afghanistan.diplo.de` | central |  | wikidata | Embassy of Germany, Kabul |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Afghanistan |
-| 3 | `emro.who.int` |  |  | wikidata | World Health Organization - Afghanistan |
-| 3 | `finlandabroad.fi` | central |  | wikidata | Embassy of Finland, Kabul |
-| 3 | `mfa.bg` | central |  | wikidata | embassy of Bulgaria in Afghanistan |
-| 3 | `mzv.cz` | central |  | wikidata | embassy of the Czech republic in Afghanistan |
-| 3 | `nederlandwereldwijd.nl` | central |  | wikidata | Embassy of the Netherlands, Kabul |
-| 3 | `norway.no` | central |  | wikidata | Embassy of Norway, Kabul |
-| 3 | `pakembassykabul.org` | central |  | wikidata | Embassy of Pakistan, Kabul |
-| 3 | `swedenabroad.se` | central |  | wikidata | Embassy of Sweden, Kabul |
-| 3 | `unesco.org` |  |  | wikidata | UNESCO office Afghanistan |
+| 8 | `parliament.af` | central | ConnectEx... | wikidata;wikidata | National Assembly of Afghanistan |
+| 4 | `aihrc.org.af` |  | ConnectEx... | wikidata | Afghan Independent Human Rights Commission |
+| 3 | `af.ambafrance.org` | central | 301 | wikidata | Embassy of France, Kabul |
+| 3 | `afghanistan.diplo.de` | central | 200 | wikidata | Embassy of Germany, Kabul |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Afghanistan |
+| 3 | `emro.who.int` |  | ConnectEx... | wikidata | World Health Organization - Afghanistan |
+| 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Kabul |
+| 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Afghanistan |
+| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Afghanistan |
+| 3 | `nederlandwereldwijd.nl` | central | 301 | wikidata | Embassy of the Netherlands, Kabul |
+| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway, Kabul |
+| 3 | `pakembassykabul.org` | central | 200 | wikidata | Embassy of Pakistan, Kabul |
+| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Kabul |
+| 3 | `unesco.org` |  | 302 | wikidata | UNESCO office Afghanistan |
 

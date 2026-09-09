@@ -1,48 +1,48 @@
 hostname,score,sources,label,level,http_status,mx
-eeas.europa.eu,6,wikidata;wikidata,Delegation of the European Union to Indonesia and Brunei Darussalam | EU Mission to ASEAN,central,,
-mkri.id,6,wikidata,Constitutional Court of the Republic of Indonesia,,,
-aipi.or.id,4,wikidata,Indonesian Academy of Sciences,,,
-bdi-kejatijambi.id,4,wikidata,Q131424574,,,
-bpdp.or.id,4,wikidata,Badan Pengelola Dana Perkebunan,,,
-jakarta.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Jakarta",central,,
-jordanembassy.or.id,4,wikidata,embassy of Jordan in Indonesia,central,,
-lldikti9.id,4,wikidata,LLDIKTI Wilayah IX Sulawesi,,,
-lmkn.id,4,wikidata,National Collective Management Organization,,,
-rri.co.id,4,wikidata,Radio Republik Indonesia,,,
-sejarah-tni.mil.id,4,wikidata,Center for Indonesian National Military's History,,,
-uzembassy.id,4,wikidata,embassy of Uzbekistan in Indonesia,central,,
-bdembassyjakarta.org,3,wikidata,"Embassy of Bangladesh, Jakarta",central,,
-cubadiplomatica.cu,3,wikidata,embassy of Cuba in Indonesia,central,,
-emb-algeria.org,3,wikidata,"Embassy of Algeria, Jakarta",central,,
-embamoc-indonesia.com,3,wikidata,embassy of Mozambique in Indonesia,central,,
-fijiembajak.com,3,wikidata,embassy of Fiji in Indonesia,central,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Indonesia,central,,
-id.ambafrance.org,3,wikidata,"Embassy of France, Jakarta",central,,
-id.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Jakarta",central,,
-id.mvep.hr,3,wikidata,embassy of Croatia in Indonesia,central,,
-indonesia.mid.ru,3,wikidata,embassy of Russia in Indonesia,central,,
-indonesien.um.dk,3,wikidata,embassy of Denmark in Indonesia,central,,
-jakarta.diplo.de,3,wikidata,"Embassy of Germany, Jakarta",central,,
-jakarta.embassy.qa,3,wikidata,embassy of Qatar in Indonesia,central,,
-jakarta.mae.ro,3,wikidata,embassy of Romania in Indonesia,central,,
-jclec.org,3,wikidata,Jakarta Centre for Law Enforcement Cooperation,,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Indonesia,central,,
-mfa.gr,3,wikidata,embassy of Greece in Indonesia,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Indonesia,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Indonesia,central,,
-norway.no,3,wikidata,Embassy of Norway in Indonesia,central,,
-nunciatureindonesia.org,3,wikidata,Apostolic Nunciature to Indonesia,central,,
-pakembjakarta.org,3,wikidata,embassy of Pakistan in Indonesia,central,,
-pn-cianjur.info,3,wikidata,District Court of Cianjur,,,
-pn-kotamobagu.info,3,wikidata,District Court of Kotamobagu,,,
-pn-painan.info,3,wikidata,District Court of Painan,,,
-pn-solok.info,3,wikidata,District Court of Solok,,,
-pn-tais.info,3,wikidata,District Court of Tais,,,
-pn-ternate.info,3,wikidata,District Court of Ternate,,,
-rsm-indonesia.com,3,wikidata,embassy of San Marino in Indonesia,central,,
-rvipolice.com,3,wikidata,Royal Virgin Islands Police Force,,,
-srilankaembassyjakarta.com,3,wikidata,embassy of Sri Lanka in Indonesia,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Jakarta",central,,
-thaiembassyjakarta.com,3,wikidata,"Embassy of Thailand, Jakarta",central,,
-vietnamembassy-indonesia.org,3,wikidata,embassy of Vietnam in Indonesia,central,,
-roc-taiwan.org,1,wikidata;wikidata;wikidata,"Taipei Economic and Trade Office in Surabaya | Taipei Economic and Trade Office, Jakarta, Indonesia",central,,
+eeas.europa.eu,6,wikidata;wikidata,Delegation of the European Union to Indonesia and Brunei Darussalam | EU Mission to ASEAN,central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+mkri.id,6,wikidata,Constitutional Court of the Republic of Indonesia,,302,10 mail.mkri.id.
+aipi.or.id,4,wikidata,Indonesian Academy of Sciences,,200,5 mx1.hostinger.com.; 10 mx2.hostinger.com.
+bdi-kejatijambi.id,4,wikidata,Q131424574,,301,none
+bpdp.or.id,4,wikidata,Badan Pengelola Dana Perkebunan,,404,0 bpdp-or-id.mail.protection.outlook.com.
+jakarta.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Jakarta",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+jordanembassy.or.id,4,wikidata,embassy of Jordan in Indonesia,central,200,none
+lldikti9.id,4,wikidata,LLDIKTI Wilayah IX Sulawesi,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+lmkn.id,4,wikidata,National Collective Management Organization,,301,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+rri.co.id,4,wikidata,Radio Republik Indonesia,,200,5 mailgateway.rri.co.id.
+sejarah-tni.mil.id,4,wikidata,Center for Indonesian National Military's History,,200,0 sejarah-tni.mil.id.
+uzembassy.id,4,wikidata,embassy of Uzbekistan in Indonesia,central,200,0 uzembassy.id.
+bdembassyjakarta.org,3,wikidata,"Embassy of Bangladesh, Jakarta",central,526,1200 ghs.google.com.
+cubadiplomatica.cu,3,wikidata,embassy of Cuba in Indonesia,central,ConnectException,none
+emb-algeria.org,3,wikidata,"Embassy of Algeria, Jakarta",central,HttpConnectTimeoutException: HTTP connect timed out,none
+embamoc-indonesia.com,3,wikidata,embassy of Mozambique in Indonesia,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 embamoc-indonesia.com.
+fijiembajak.com,3,wikidata,embassy of Fiji in Indonesia,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+finlandabroad.fi,3,wikidata,embassy of Finland in Indonesia,central,301,10 mail.valtori.fi.
+id.ambafrance.org,3,wikidata,"Embassy of France, Jakarta",central,301,none
+id.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Jakarta",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching id.china-embassy.org found.,none
+id.mvep.hr,3,wikidata,embassy of Croatia in Indonesia,central,ConnectException,none
+indonesia.mid.ru,3,wikidata,embassy of Russia in Indonesia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+indonesien.um.dk,3,wikidata,embassy of Denmark in Indonesia,central,301,none
+jakarta.diplo.de,3,wikidata,"Embassy of Germany, Jakarta",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+jakarta.embassy.qa,3,wikidata,embassy of Qatar in Indonesia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+jakarta.mae.ro,3,wikidata,embassy of Romania in Indonesia,central,503,none
+jclec.org,3,wikidata,Jakarta Centre for Law Enforcement Cooperation,,200,10 jclec-org.mail.protection.outlook.com.
+mfa.bg,3,wikidata,embassy of Bulgaria in Indonesia,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Indonesia,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Indonesia,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Indonesia,central,301,10 mail.gov.sk.
+norway.no,3,wikidata,Embassy of Norway in Indonesia,central,301,0 mx.domeneshop.no.
+nunciatureindonesia.org,3,wikidata,Apostolic Nunciature to Indonesia,central,200,0 nunciatureindonesia.org.
+pakembjakarta.org,3,wikidata,embassy of Pakistan in Indonesia,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pakembjakarta.org found.,10 mx2-hosting.jellyfish.systems.; 20 mx3-hosting.jellyfish.systems.; 5 mx1-hosting.jellyfish.systems.
+pn-cianjur.info,3,wikidata,District Court of Cianjur,,301,54 route2.mx.cloudflare.net.; 94 route1.mx.cloudflare.net.; 17 route3.mx.cloudflare.net.
+pn-kotamobagu.info,3,wikidata,District Court of Kotamobagu,,ConnectException,none
+pn-painan.info,3,wikidata,District Court of Painan,,ConnectException,none
+pn-solok.info,3,wikidata,District Court of Solok,,200,none
+pn-tais.info,3,wikidata,District Court of Tais,,301,none
+pn-ternate.info,3,wikidata,District Court of Ternate,,ConnectException,none
+rsm-indonesia.com,3,wikidata,embassy of San Marino in Indonesia,central,200,0 rsm-indonesia.com.
+rvipolice.com,3,wikidata,Royal Virgin Islands Police Force,,403,none
+srilankaembassyjakarta.com,3,wikidata,embassy of Sri Lanka in Indonesia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.srilankaembassyjakarta.com.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Jakarta",central,301,none
+thaiembassyjakarta.com,3,wikidata,"Embassy of Thailand, Jakarta",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+vietnamembassy-indonesia.org,3,wikidata,embassy of Vietnam in Indonesia,central,200,0 mail.vietnamembassy-indonesia.org.
+roc-taiwan.org,1,wikidata;wikidata;wikidata,"Taipei Economic and Trade Office in Surabaya | Taipei Economic and Trade Office, Jakarta, Indonesia",central,302,none

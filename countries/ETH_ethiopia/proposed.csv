@@ -1,31 +1,31 @@
 hostname,score,sources,label,level,http_status,mx
-au.int,6,wikidata;wikidata,African Union Commission,,,
-tourismethiopia.org,6,wikidata;wikidata,Ministry of Culture and Tourism,central,,
-emwa.org.et,4,wikidata,Ethiopian Midwives Association (EMwA),,,
-epaethiopia.org.et,4,wikidata,Ethiopian Pharmaceutical Association,,,
-ethiondc.org.et,4,wikidata,Ethiopian National Dialogue Commission,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Addis Ababa",central,,
-nvi.com.et,4,wikidata,National Veterinary Institute,,,
-psi.org.et,4,wikidata,Ethiopian Policy Studies Institute,,,
-rrs.et,4,wikidata,Refugees and Returnees Service,,,
-addis-abeba.diplo.de,3,wikidata,"Embassy of Germany, Addis Ababa",central,,
-addisabeba.mae.ro,3,wikidata,"Embassy of Romania, Addis Abeba",central,,
-cehro.org,3,wikidata,Consortium of Ethiopian Human Rights Organizations,,,
-electionethiopia.org,3,wikidata,National Election Board of Ethiopia,central,,
-esog-eth.org,3,wikidata,Ethiopian Society of Obstetricians and Gynecologists,,,
-et.ambafrance.org,3,wikidata,"Embassy of France, Addis Ababa",central,,
-et.undp.org,3,wikidata,United Nations Development Programme,,,
-ethiopia.mid.ru,3,wikidata,embassy of Russia in Ethiopia,central,,
-ethiopianreconciliation.org,3,wikidata,Ethiopian Reconciliation Commission,,,
-etiopien.um.dk,3,wikidata,embassy of Denmark in Ethiopia,central,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Addis Abeba",central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Ethiopia,central,,
-mfa.gr,3,wikidata,embassy of Greece in Ethiopia,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Ethiopia,central,,
-mzv.sk,3,wikidata,embassy of Slovakia in Ethiopia,central,,
-nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Addis Ababa",central,,
-netherlandsworldwide.nl,3,wikidata,"Embassy of the Netherlands, Addis Ababa",central,,
-norway.no,3,wikidata,"Embassy of Norway, Addis Ababa",central,,
-southafricanembassyethiopia.com,3,wikidata,embassy of South Africa in Ethiopia,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Addis Ababa",central,,
-unionafricainerp.mae.lu,3,wikidata,embassy of Luxembourg in Ethiopia,central,,
+au.int,6,wikidata;wikidata,African Union Commission,,301,0 s1.au.int.
+tourismethiopia.org,6,wikidata;wikidata,Ministry of Culture and Tourism,central,HttpConnectTimeoutException: HTTP connect timed out,none
+emwa.org.et,4,wikidata,Ethiopian Midwives Association (EMwA),,200,0 emwa.org.et.
+epaethiopia.org.et,4,wikidata,Ethiopian Pharmaceutical Association,,302,dig error
+ethiondc.org.et,4,wikidata,Ethiopian National Dialogue Commission,,200,0 ethiondc.org.et.
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Addis Ababa",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nvi.com.et,4,wikidata,National Veterinary Institute,,301,0 nvi.com.et.
+psi.org.et,4,wikidata,Ethiopian Policy Studies Institute,,200,0 psi.org.et.
+rrs.et,4,wikidata,Refugees and Returnees Service,,200,0 rrs.et.
+addis-abeba.diplo.de,3,wikidata,"Embassy of Germany, Addis Ababa",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+addisabeba.mae.ro,3,wikidata,"Embassy of Romania, Addis Abeba",central,503,none
+cehro.org,3,wikidata,Consortium of Ethiopian Human Rights Organizations,,301,0 cehro.org.
+electionethiopia.org,3,wikidata,National Election Board of Ethiopia,central,301,none
+esog-eth.org,3,wikidata,Ethiopian Society of Obstetricians and Gynecologists,,200,20 mail.esog-eth.org.
+et.ambafrance.org,3,wikidata,"Embassy of France, Addis Ababa",central,301,none
+et.undp.org,3,wikidata,United Nations Development Programme,,301,none
+ethiopia.mid.ru,3,wikidata,embassy of Russia in Ethiopia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ethiopianreconciliation.org,3,wikidata,Ethiopian Reconciliation Commission,,ConnectException,none
+etiopien.um.dk,3,wikidata,embassy of Denmark in Ethiopia,central,301,none
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Addis Abeba",central,301,10 mail.valtori.fi.
+mfa.bg,3,wikidata,embassy of Bulgaria in Ethiopia,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Ethiopia,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Ethiopia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,3,wikidata,embassy of Slovakia in Ethiopia,central,301,10 mail.gov.sk.
+nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Addis Ababa",central,301,0 .
+netherlandsworldwide.nl,3,wikidata,"Embassy of the Netherlands, Addis Ababa",central,301,0 .
+norway.no,3,wikidata,"Embassy of Norway, Addis Ababa",central,301,0 mx.domeneshop.no.
+southafricanembassyethiopia.com,3,wikidata,embassy of South Africa in Ethiopia,central,301,1200 ghs.google.com.
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Addis Ababa",central,301,none
+unionafricainerp.mae.lu,3,wikidata,embassy of Luxembourg in Ethiopia,central,ConnectException,none

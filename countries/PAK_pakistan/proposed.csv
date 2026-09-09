@@ -1,35 +1,35 @@
 hostname,score,sources,label,level,http_status,mx
-sp.mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, Islamabad | Consulate-General of the United Arab Emirates, Karachi",central,,
-pk.ambafrance.org,6,wikidata;wikidata,"Q62818123 | Embassy of France, Islamabad",central,,
-pakistanpressfoundation.org,5,wikidata,Supreme Court of Pakistan,central,,
-caapakistan.com.pk,4,wikidata,Pakistan Civil Aviation Authority,,,
-chf.edu.pk,4,wikidata,"Children Hospital, Faisalabad",,,
-hsa.edu.pk,4,wikidata,Health Services Academy,,,
-india.org.pk,4,wikidata,"High Commission of India, Islamabad",central,,
-mepco.com.pk,4,wikidata,Multan Electric Power Company,,,
-nia.org.pk,4,wikidata,"Nuclear Institute of Agriculture, Tandojam",,,
-niab.org.pk,4,wikidata,Nuclear Institute for Agriculture and Biology,,,
-nifa.org.pk,4,wikidata,Nuclear Institute for Food and Agriculture,,,
-nih.org.pk,4,wikidata,National Institute of Health,,,
-ogra.org.pk,4,wikidata,Oil and Gas Regulatory Authority,central,,
-psqca.com.pk,4,wikidata,Pakistan Standards and Quality Control Authority,,,
-qda.gob.pk,4,wikidata,Quetta Development Authority,,,
-sbp.org.pk,4,wikidata,State Bank of Pakistan,,,
-bembassy.org,3,wikidata,embassy of Bosnia and Herzegovina in Pakistan,central,,
-dfa.ie,3,wikidata,"Honorary consulate of Ireland, Karachi",,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Pakistan,,,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Islamabad",central,,
-islamabad.mae.ro,3,wikidata,embassy of Romania in Pakistan,central,,
-karachi.diplo.de,3,wikidata,"Consulate General of Germany, Karachi",,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Pakistan,central,,
-mfa.gr,3,wikidata,embassy of Greece in Pakistan,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Pakistan,central,,
-norway.no,3,wikidata,Embassy of Norway in Pakistan,central,,
-pakistan.diplo.de,3,wikidata,"Embassy of Germany, Islamabad",central,,
-pakistan.mid.ru,3,wikidata,"Embassy of Russia in Islamabad, Pakistan",central,,
-pakistan.um.dk,3,wikidata,embassy of Denmark in Pakistan,central,,
-pakistanforces.com,3,wikidata,Inter-Services Intelligence,,,
-pnra.org,3,wikidata,Pakistan Nuclear Regulatory Authority,,,
-sl.sindhila.org,3,wikidata,Sindhi Language Authority,,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Islamabad",central,,
-who.int,3,wikidata,World Health Organization (Pakistan),,,
+sp.mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, Islamabad | Consulate-General of the United Arab Emirates, Karachi",central,ConnectException,none
+pk.ambafrance.org,6,wikidata;wikidata,"Q62818123 | Embassy of France, Islamabad",central,301,none
+pakistanpressfoundation.org,5,wikidata,Supreme Court of Pakistan,central,200,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+caapakistan.com.pk,4,wikidata,Pakistan Civil Aviation Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.caapakistan.com.pk.; 5 mail1.caapakistan.com.pk.
+chf.edu.pk,4,wikidata,"Children Hospital, Faisalabad",,200,0 mail.chf.edu.pk.
+hsa.edu.pk,4,wikidata,Health Services Academy,,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+india.org.pk,4,wikidata,"High Commission of India, Islamabad",central,403,10 mxa.mailgun.org.; 0 india.org.pk.; 10 mxb.mailgun.org.
+mepco.com.pk,4,wikidata,Multan Electric Power Company,,200,10 webmail.mepco.com.pk.
+nia.org.pk,4,wikidata,"Nuclear Institute of Agriculture, Tandojam",,200,0 nia.org.pk.
+niab.org.pk,4,wikidata,Nuclear Institute for Agriculture and Biology,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.niab.org.pk.; 30 queue.nexlinx.net.pk.
+nifa.org.pk,4,wikidata,Nuclear Institute for Food and Agriculture,,200,0 mail.nifa.org.pk.
+nih.org.pk,4,wikidata,National Institute of Health,,200,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+ogra.org.pk,4,wikidata,Oil and Gas Regulatory Authority,central,403,0 mta.nayatel.com.; 0 mta2.nayatel.com.; 0 mta3.nayatel.com.; 0 mta1.nayatel.com.
+psqca.com.pk,4,wikidata,Pakistan Standards and Quality Control Authority,,301,10 _dc-mx.d1451b822d05.psqca.com.pk.
+qda.gob.pk,4,wikidata,Quetta Development Authority,,200,0 mail.qda.gob.pk.
+sbp.org.pk,4,wikidata,State Bank of Pakistan,,ConnectException,1 sbp-org-pk.mail.protection.outlook.com.
+bembassy.org,3,wikidata,embassy of Bosnia and Herzegovina in Pakistan,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 filter.comsats.net.pk.; 5 mailf.comsats.net.pk.; 10 isbfil.comsats.net.pk.
+dfa.ie,3,wikidata,"Honorary consulate of Ireland, Karachi",,301,20 gbext.gn.gov.ie.; 20 cwext.gn.gov.ie.; 10 ext0.dfa.ie.
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Pakistan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+finlandabroad.fi,3,wikidata,"Embassy of Finland, Islamabad",central,301,10 mail.valtori.fi.
+islamabad.mae.ro,3,wikidata,embassy of Romania in Pakistan,central,503,none
+karachi.diplo.de,3,wikidata,"Consulate General of Germany, Karachi",,301,10 mx1.bund.de.; 10 mx2.bund.de.
+mfa.bg,3,wikidata,embassy of Bulgaria in Pakistan,central,302,0 mfa-bg.mail.protection.outlook.com.
+mfa.gr,3,wikidata,embassy of Greece in Pakistan,central,403,10 mailhost.mfa.gr.
+mzv.cz,3,wikidata,embassy of the Czech republic in Pakistan,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+norway.no,3,wikidata,Embassy of Norway in Pakistan,central,301,0 mx.domeneshop.no.
+pakistan.diplo.de,3,wikidata,"Embassy of Germany, Islamabad",central,200,none
+pakistan.mid.ru,3,wikidata,"Embassy of Russia in Islamabad, Pakistan",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+pakistan.um.dk,3,wikidata,embassy of Denmark in Pakistan,central,301,none
+pakistanforces.com,3,wikidata,Inter-Services Intelligence,,503,none
+pnra.org,3,wikidata,Pakistan Nuclear Regulatory Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.pnra.org.
+sl.sindhila.org,3,wikidata,Sindhi Language Authority,,HttpTimeoutException: request timed out,none
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Islamabad",central,301,none
+who.int,3,wikidata,World Health Organization (Pakistan),,301,10 who-int.mail.protection.outlook.com.

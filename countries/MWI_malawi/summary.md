@@ -35,15 +35,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 4 | `aidsmalawi.org.mw` |  |  | wikidata | National AIDS Commission |
-| 4 | `frim.org.mw` |  |  | wikidata | Forestry Research Institute of Malawi |
-| 4 | `mra.mw` |  |  | wikidata | Malawi Revenue Authority |
-| 4 | `ncst.mw` |  |  | wikidata | National Commission for Science and Technology Malawi |
-| 4 | `nls.mw` |  |  | wikidata | National Library Service of Malawi |
-| 4 | `rbm.mw` |  |  | wikidata | Reserve Bank of Malawi |
-| 4 | `sdnp.org.mw` |  |  | wikidata | Department of Agricultural Research & Technical Services |
-| 3 | `afro.who.int` |  |  | wikidata | World Health Organization - Malawi |
-| 3 | `eeas.europa.eu` |  |  | wikidata | Delegation of the European Union to Malawi |
-| 3 | `lilongwe.diplo.de` | central |  | wikidata | Embassy of Germany, Lilongwe |
-| 3 | `norway.no` | central |  | wikidata | Embassy of Norway in Malawi |
+| 4 | `aidsmalawi.org.mw` |  | ConnectEx... | wikidata | National AIDS Commission |
+| 4 | `frim.org.mw` |  | SSLHandsh... | wikidata | Forestry Research Institute of Malawi |
+| 4 | `mra.mw` |  | 404 | wikidata | Malawi Revenue Authority |
+| 4 | `ncst.mw` |  | 200 | wikidata | National Commission for Science and Technology Malawi |
+| 4 | `nls.mw` |  | 200 | wikidata | National Library Service of Malawi |
+| 4 | `rbm.mw` |  | SSLHandsh... | wikidata | Reserve Bank of Malawi |
+| 4 | `sdnp.org.mw` |  | SSLHandsh... | wikidata | Department of Agricultural Research & Technical Services |
+| 3 | `afro.who.int` |  | 200 | wikidata | World Health Organization - Malawi |
+| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Malawi |
+| 3 | `lilongwe.diplo.de` | central | 200 | wikidata | Embassy of Germany, Lilongwe |
+| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway in Malawi |
 

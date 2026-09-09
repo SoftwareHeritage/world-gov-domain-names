@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
-kftrade.com.kp,7,wikidata;wikidata,Ministry of Foreign Trade of North Korea,central,,
-korart.sca.kp,7,wikidata;wikidata,Ministry of Culture,central,,
-kp.china-embassy.org,6,wikidata;wikidata,"Consulate-General of the People's Republic of China, Chongjin | Embassy of the People's Republic of China, Pyongyang",central,,
-korea-dpr.com,5,un_desa,UN/DESA national portal,,,
-fia.law.kp,4,wikidata,Financial Intelligence Agency,,,
-gnu.rep.kp,4,wikidata,Korean Central Broadcasting Committee,,,
-gpsh.edu.kp,4,wikidata,Grand People’s Study House,,,
-minzu.rep.kp,4,wikidata,Cabinet of North Korea,central,,
-chondjin.mid.ru,3,wikidata,Consulate of Russia in North Korea,,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Pyongyang,central,,
-misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in Pyongyang,central,,
-mzv.cz,3,wikidata,embassy of Czech republic in Pyongyang,central,,
-pjoengjang.diplo.de,3,wikidata,"Embassy of Germany, Pyongyang",central,,
-rusembdprk.ru,3,wikidata,Embassy of Russia in North Korea,central,,
-swedenabroad.se,3,wikidata,embassy of Sweden in Pyongyang,central,,
+kftrade.com.kp,7,wikidata;wikidata,Ministry of Foreign Trade of North Korea,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+korart.sca.kp,7,wikidata;wikidata,Ministry of Culture,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+kp.china-embassy.org,6,wikidata;wikidata,"Consulate-General of the People's Republic of China, Chongjin | Embassy of the People's Republic of China, Pyongyang",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kp.china-embassy.org found.,none
+korea-dpr.com,5,un_desa,UN/DESA national portal,,200,100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.
+fia.law.kp,4,wikidata,Financial Intelligence Agency,,HttpConnectTimeoutException: HTTP connect timed out,dig error
+gnu.rep.kp,4,wikidata,Korean Central Broadcasting Committee,,HttpConnectTimeoutException: HTTP connect timed out,dig error
+gpsh.edu.kp,4,wikidata,Grand People’s Study House,,HttpConnectTimeoutException: HTTP connect timed out,dig error
+minzu.rep.kp,4,wikidata,Cabinet of North Korea,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+chondjin.mid.ru,3,wikidata,Consulate of Russia in North Korea,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mfa.bg,3,wikidata,embassy of Bulgaria in Pyongyang,central,302,0 mfa-bg.mail.protection.outlook.com.
+misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in Pyongyang,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mzv.cz,3,wikidata,embassy of Czech republic in Pyongyang,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+pjoengjang.diplo.de,3,wikidata,"Embassy of Germany, Pyongyang",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+rusembdprk.ru,3,wikidata,Embassy of Russia in North Korea,central,301,none
+swedenabroad.se,3,wikidata,embassy of Sweden in Pyongyang,central,301,none

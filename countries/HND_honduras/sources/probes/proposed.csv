@@ -1,0 +1,15 @@
+hostname,http_status,mx
+bch.hn,ConnectException,5 bch-hn.mail.protection.outlook.com.
+ccetegucigalpa.org,301,0 mail.ccetegucigalpa.org.
+cne.hn,403,4 aspmx2.googlemail.com.; 4 aspmx3.googlemail.com.; 4 ALT1.ASPMX.L.GOOGLE.com.; 4 ALT2.ASPMX.L.GOOGLE.com.; 0 ASPMX.L.GOOGLE.com.
+congresonacional.hn,200,0 inbound-smtp.us-east-1.amazonaws.com.
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+hn.ambafrance.org,301,none
+ihah.hn,200,0 mail.ihah.hn.
+ihss.hn,403,0 ihss-hn.mail.protection.outlook.com.
+iht.hn,200,0 iht-hn.mail.protection.outlook.com.
+jesuitascam.org,200,50 mx3.zoho.com.; 20 mx2.zoho.com.; 10 mx.zoho.com.
+mp.hn,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.mp.hn.
+taiwanembassy.org,302,none
+tegucigalpa.diplo.de,200,10 mx1.bund.de.; 10 mx2.bund.de.
+web.archive.org,200,none

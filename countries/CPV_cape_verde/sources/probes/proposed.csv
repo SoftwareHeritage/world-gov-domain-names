@@ -1,0 +1,19 @@
+hostname,http_status,mx
+arme.cv,HttpConnectTimeoutException: HTTP connect timed out,0 arme-cv.mail.protection.outlook.com.
+arquivonacional.cv,200,0 arquivonacional-cv.mail.protection.outlook.com.
+bcv.cv,ConnectException,10 bcvedge.bcv.cv.
+capeverde.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cv.ambafrance.org,301,none
+cv.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cv.chineseembassy.org found.,none
+dgesc.gov.cv,302,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+iefp.cv,200,10 mail.gov.cv.
+ine.cv,200,none
+insp.gov.cv,200,0 insp-gov-cv.mail.protection.outlook.com.
+justica.gov.cv,200,none
+mai.gov.cv,HttpConnectTimeoutException: HTTP connect timed out,0 mai-gov-cv.mail.protection.outlook.com.
+mesci.gov.cv,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mesci-gov-cv.mail.protection.outlook.com.
+minsaude.gov.cv,200,none
+parlamento.cv,HttpConnectTimeoutException: HTTP connect timed out,10 parlamento-cv.mail.protection.outlook.com.
+praia.mae.lu,302,none
+stj.cv,301,none

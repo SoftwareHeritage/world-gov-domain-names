@@ -1,0 +1,32 @@
+hostname,http_status,mx
+b7or.net,301,10 eforward2.registrar-servers.com.; 10 eforward1.registrar-servers.com.; 10 eforward3.registrar-servers.com.; 20 eforward5.registrar-servers.com.; 15 eforward4.registrar-servers.com.
+bagdad.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cabinet.iq,200,10 plesk.ur.gov.iq.
+cbi.iq,200,0 d201741.a.ess.uk.barracudanetworks.com.; 10 d201741.b.ess.uk.barracudanetworks.com.
+cmc.iq,200,0 cmc-iq.mail.protection.outlook.com.
+ctgkurdistan.com,200,0 mail.s1843.sureserver.com.
+darculture.com,405,none
+eeas.europa.eu,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+en.aswataliraq.info,HttpConnectTimeoutException: HTTP connect timed out,none
+erbil.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+euam-iraq.eu,301,0 euamiraq-eu01b.mail.protection.outlook.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+h-iftaa.com,301,none
+ihec.iq,200,0 _dc-mx.3acaa9b87da1.ihec.iq.; 0 plesk78.ur.gov.iq.
+iq.ambafrance.org,301,none
+iq.chineseembassy.org,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching iq.chineseembassy.org found.,none
+irak.diplo.de,200,none
+iraq.mfa.am,301,none
+iraq.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+iraqfsc.iq,403,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+mfa.gr,403,10 mailhost.mfa.gr.
+mod.mil.iq,403,20 mx2.email-securegateway.com.; 10 mx1.email-securegateway.com.; 40 mx4.email-securegateway.com.; 30 mx3.email-securegateway.com.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mzv.cz,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+nazaha.iq,403,0 mail.nazaha.iq.
+palestineembassyiniraq.net,301,none
+parliament.iq,403,0 mta.host77.parliament.iq.
+post.iq,403,20 mx2.email-securegateway.com.; 30 mx3.email-securegateway.com.; 10 mx1.email-securegateway.com.; 40 mx4.email-securegateway.com.
+pressiraq.net,403,0 _dc-mx.dc1b0fb787a4.pressiraq.net.
+src.edu.iq,200,0 cp-03.ur.gov.iq.
+swedenabroad.se,301,none

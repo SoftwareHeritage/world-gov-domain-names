@@ -1,0 +1,126 @@
+hostname,http_status,mx
+afer.ro,HttpConnectTimeoutException: HTTP connect timed out,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+afm.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+ahkrumaenien.ro,301,0 ahkrumaenien-ro.mail.protection.outlook.com.
+ambasadamaroc.ro,301,0 mail.ambasadamaroc.ro.
+anarz.eu,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+ancpi.ro,200,0 ancpi-ro.mail.protection.outlook.com.
+anif.ro,301,0 mail.anif.ro.
+anpc.ro,503,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+anre.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 anre-ro.mail.protection.outlook.com.
+anrsc.ro,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching anrsc.ro found.,10 mail.anrsc.ro.
+ansvsa.ro,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+apia.org.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+aracip.eu,200,10 exc.aracip.eu.
+aracis.ro,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching aracis.ro found.,0 aracis-ro.mail.protection.outlook.com.
+arhivelenationale.ro,503,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+asfromania.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.asfromania.ro.
+atunisia.ro,200,0 atunisia.ro.
+b.politiaromana.ro,200,10 mail.politiaromana.ro.
+bgembassy-romania.org,200,none
+bibnat.ro,HttpTimeoutException: request timed out,5 mail.bibnat.ro.
+bnr.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailgw1.bnr.ro.; 20 mailgw2.bnr.ro.
+bucharest.embassy.qa,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bucharest.europarl.europa.eu,302,none
+bucharest.mfa.ee,200,none
+bucharest.thaiembassy.org,200,none
+bukarest.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bukaresta.veleposlanistvo.si,SSLHandshakeException: Remote host terminated the handshake,none
+cab1864.eu,301,10 mail.cab1864.eu.
+ccia-arad.ro,200,10 mail.ccia-arad.ro.
+cciat.ro,301,10 mail.cciat.ro.
+ccr.ro,503,18 mail.ccr.ro.
+cdep.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 cdep.in.tmes.trendmicro.eu.; 101 edge50.cdep.ro.
+chinaembassy.org.ro,ConnectException,none
+clasate.cimec.ro,200,none
+cna.ro,200,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+cnadnr.ro,503,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+cncsis.ro,301,none
+cndi.ro,HttpConnectTimeoutException: HTTP connect timed out,dig error
+cnpp.ro,301,10 mx.cnpp.ro.
+cnr-unesco.ro,301,0 cnr-unesco.ro.
+contragarantare.ro,200,1 contragarantare.ro.
+csikszereda.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 maila.csikszereda.mfa.gov.hu.; 10 mailb.csikszereda.mfa.gov.hu.
+cultura.ro,503,5 mx.cultura.ro.; 10 mail.cultura.ro.
+curteadeapelcraiova.eu,403,10 mail.curteadeapelcraiova.eu.
+curteadeconturi.ro,403,20 mail3.curteadeconturi.ro.; 20 mail2.curteadeconturi.ro.; 20 mail1.curteadeconturi.ro.
+customs.ro,403,10 dgv.customs.ro.; 20 mail2.customs.ro.
+dataprotection.ro,200,20 mx2.dataprotection.ro.; 10 mx1.dataprotection.ro.
+ddbra.ro,503,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+dgpi.ro,200,20 white.dgpi.ro.; 10 red.dgpi.ro.
+diicot.ro,503,20 mail2.diicot.ro.; 10 mail.diicot.ro.
+dna.ro,200,20 mail.dna.ro.; 10 mail1.dna.ro.; 30 sms.dna.ro.
+domeniilestatului.ro,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+edu.ro,200,10 mailgov.edu.ro.
+embadeuruguay.ro,403,none
+eurogendfor.org,301,0 eurogendfor-org.mail.protection.outlook.com.
+finlandabroad.fi,301,10 mail.valtori.fi.
+gesuiti.it,200,10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+guv.ro,ConnectException,10 mail.guv.ro.; 20 mailgate.guv.ro.
+hermannstadt.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+ibiol.ro,200,0 ibiol-ro.mail.protection.outlook.com.
+idah.ro,SSLHandshakeException: Remote host terminated the handshake,10 mail.idah.ro.
+igsu.ro,200,10 relay1.igsu.ro.
+incd.ro,200,30 mx03.whmpanels.com.; 10 mx01.whmpanels.com.; 20 mx02.whmpanels.com.
+incdt.ro,200,10 mailx.incdt.ro.
+inm.ro,200,0 mail.inm.ro.
+insemex.ro,200,10 spamguard1.mxserver.ro.; 20 spamguard2.mxserver.ro.
+insse.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.insse.ro.; 10 mail2.insse.ro.
+instytutpolski.pl,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
+integritate.eu,200,10 mail.integritate.eu.
+ispaim.mapn.ro,410,none
+jandarmeriaromana.eu,200,none
+just.ro,200,10 mail.just.ro.
+kazembro.kz,403,none
+kolozsvar.mfa.gov.hu,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailb.kolozsvar.mfa.gov.hu.; 10 maila.kolozsvar.mfa.gov.hu.
+madr.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+mae.ro,503,10 mx2.mae.ro.; 10 mx1.mae.ro.
+mai-dga.ro,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mai-dga.ro found.,10 mai.gov.ro.
+mapn.ro,410,10 esa1.mapn.ro.; 10 esa2.mapn.ro.
+mcsi.ro,ConnectException,none
+mdlpa.ro,HttpConnectTimeoutException: HTTP connect timed out,10 accounts.mdlpa.ro.; 10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+meteoromania.ro,301,5 gwmail.meteoromania.ro.
+mfa.gr,403,10 mailhost.mfa.gr.
+mmanpis.ro,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+mmediu.ro,200,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+mmuncii.ro,503,10 mail1.mmuncii.ro.
+mofaic.gov.ae,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mpublic.ro,503,10 mail.mpublic.ro.
+ms.ro,302,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+mzv.cz,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
+mzv.sk,301,10 mail.gov.sk.
+norway.no,301,0 mx.domeneshop.no.
+onpcsb.ro,200,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+onrc.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 omail.onrc.ro.
+parlament.ro,HttpConnectTimeoutException: HTTP connect timed out,none
+patrimoniu.ro,200,10 mail.patrimoniu.ro.
+politiadefrontiera.ro,301,none
+politiaromana.ro,200,10 mail.politiaromana.ro.
+raan.ro,ConnectException,10 mail.raan.ro.
+ratph.ro,200,0 mail.ratph.ro.
+returosgr.ro,200,0 returosgr-ro.mail.protection.outlook.com.
+ro-alert.ro,503,none
+ro.ambafrance.org,301,none
+ro.mfa.lt,403,none
+romania.mid.ru,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+romania.representation.ec.europa.eu,302,none
+romaniafilm.ro,301,0 romaniafilm.ro.
+romatsa.ro,200,60 mx6.romatsa.ro.; 50 mx5.romatsa.ro.
+rosa.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx.rosa.ro.
+rowater.ro,200,0 rowater-ro.mail.protection.outlook.com.
+rumaenien.diplo.de,200,none
+rumaenien.um.dk,301,none
+scdpbaneasa.ro,200,0 scdpbaneasa.ro.
+scj.ro,404,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+senat.ro,301,10 senatmail.senat.ro.
+sie.ro,404,10 edge2.sie.ro.
+spp.ro,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.spp.ro.
+sri.ro,200,10 mxb.sri.ro.; 5 mxa.sri.ro.
+sts.ro,503,5 mail.sts.ro.
+sudanembassy.ro,403,none
+swedenabroad.se,301,none
+syrianembassy.ro,302,none
+temeswar.diplo.de,301,10 mx1.bund.de.; 10 mx2.bund.de.
+tpbi.ro,200,20 mail.tpbi.ro.; 50 mx2.tpbi.ro.
+uefiscsu.ro,403,none
+uptalen.com,301,20 mx2.zoho.eu.; 10 mx.zoho.eu.; 50 mx3.zoho.eu.

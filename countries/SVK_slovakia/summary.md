@@ -35,24 +35,24 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 10 | `slovensko.sk` |  |  | un_desa;linkgraph | UN/DESA national portal |
-| 7 | `dominikani.sk` |  |  | wikidata;wikidata | Dominican Province of Slovakia |
-| 7 | `frantiskani.sk` |  |  | wikidata;wikidata | Province of the Most Holy Redeemer of the Friars Minor in Slovakia |
-| 7 | `mincrs.sk` | central |  | wikidata;wikidata | Ministry of Tourism and Sports of the Slovak Republic |
-| 7 | `minedu.sk` | central |  | wikidata;wikidata | Ministry of Education, Research, Development and Youth of the Slovak Republic |
-| 7 | `minv.sk` | central |  | wikidata;wikidata;wikidata;wikidata;wikidata | Slovak National Archives | Ministry of Interior of the Slovak Republic | Fire... |
-| 7 | `minzp.sk` | central |  | wikidata;wikidata | Ministry of the Environment of the Slovak Republic |
-| 7 | `mzv.sk` | central |  | wikidata;wikidata | Ministry of Foreign and European Affairs of the Slovak Republic |
-| 7 | `nbs.sk` | central |  | wikidata;wikidata | National Bank of Slovakia |
-| 7 | `nrsr.sk` | central |  | wikidata;wikidata | National Council of the Slovak Republic |
-| 7 | `piaristi.sk` |  |  | wikidata;wikidata | Piarist province of Slovakia |
-| 7 | `skgeodesy.sk` |  |  | wikidata;wikidata | Geodesy, Cartography and Cadastre Authority of the Slovak Republic |
-| 7 | `snk.sk` |  |  | wikidata;wikidata | Slovak National Library |
-| 6 | `nsud.sk` |  |  | wikidata | Supreme court of the Slovak Republic |
-| 6 | `slowakei.ahk.de` |  |  | wikidata;wikidata | German-Slovak Chamber of Industry and Commerce |
-| 4 | `apvv.sk` |  |  | wikidata | Slovak Research and Development Agency |
-| 4 | `caa.sk` | central |  | wikidata | Civil Aviation Authority of the Slovak Republic |
-| 4 | `dposr.sk` |  |  | wikidata | Voluntary Fire Protection of the Slovak Republic |
-| 4 | `egypt-embassy.sk` | central |  | wikidata | Embassy of Egypt, Bratislava |
-| 4 | `financnasprava.sk` |  |  | wikidata | The Financial Administration of the Slovak Republic |
+| 10 | `slovensko.sk` |  | 302 | un_desa;linkgraph | UN/DESA national portal |
+| 7 | `dominikani.sk` |  | 200 | wikidata;wikidata | Dominican Province of Slovakia |
+| 7 | `frantiskani.sk` |  | 200 | wikidata;wikidata | Province of the Most Holy Redeemer of the Friars Minor in Slovakia |
+| 7 | `mincrs.sk` | central | 200 | wikidata;wikidata | Ministry of Tourism and Sports of the Slovak Republic |
+| 7 | `minedu.sk` | central | ConnectEx... | wikidata;wikidata | Ministry of Education, Research, Development and Youth of the Slovak Republic |
+| 7 | `minv.sk` | central | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata | Slovak National Archives | Ministry of Interior of the Slovak Republic | Fire... |
+| 7 | `minzp.sk` | central | 200 | wikidata;wikidata | Ministry of the Environment of the Slovak Republic |
+| 7 | `mzv.sk` | central | 301 | wikidata;wikidata | Ministry of Foreign and European Affairs of the Slovak Republic |
+| 7 | `nbs.sk` | central | HttpConne... | wikidata;wikidata | National Bank of Slovakia |
+| 7 | `nrsr.sk` | central | ConnectEx... | wikidata;wikidata | National Council of the Slovak Republic |
+| 7 | `piaristi.sk` |  | 301 | wikidata;wikidata | Piarist province of Slovakia |
+| 7 | `skgeodesy.sk` |  | HttpConne... | wikidata;wikidata | Geodesy, Cartography and Cadastre Authority of the Slovak Republic |
+| 7 | `snk.sk` |  | 200 | wikidata;wikidata | Slovak National Library |
+| 6 | `nsud.sk` |  | 301 | wikidata | Supreme court of the Slovak Republic |
+| 6 | `slowakei.ahk.de` |  | 302 | wikidata;wikidata | German-Slovak Chamber of Industry and Commerce |
+| 4 | `apvv.sk` |  | 302 | wikidata | Slovak Research and Development Agency |
+| 4 | `caa.sk` | central | ConnectEx... | wikidata | Civil Aviation Authority of the Slovak Republic |
+| 4 | `dposr.sk` |  | 200 | wikidata | Voluntary Fire Protection of the Slovak Republic |
+| 4 | `egypt-embassy.sk` | central | 301 | wikidata | Embassy of Egypt, Bratislava |
+| 4 | `financnasprava.sk` |  | 302 | wikidata | The Financial Administration of the Slovak Republic |
 
