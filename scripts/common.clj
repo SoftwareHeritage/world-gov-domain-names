@@ -274,12 +274,15 @@
          :or {timeout 30 retries 3 accept "*/*"}}]
    (with-retries retries
      (fn []
+       ;; :query-params is only passed when given: with an empty map the
+       ;; client still rebuilds the URI, decoding a literal %25 into % and
+       ;; throwing "Malformed escape pair" -- every crt.sh fetch failed.
        (let [resp (http/get url
-                            {:client (or client http-client)
-                             :headers {"User-Agent" ua "Accept" accept}
-                             :query-params (or query-params {})
-                             :throw false
-                             :timeout (* timeout 1000)})]
+                            (cond-> {:client (or client http-client)
+                                     :headers {"User-Agent" ua "Accept" accept}
+                                     :throw false
+                                     :timeout (* timeout 1000)}
+                              (seq query-params) (assoc :query-params query-params)))]
          [(:status resp) (:body resp)])))))
 
 (defn http-get-curl
