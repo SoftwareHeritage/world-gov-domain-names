@@ -114,16 +114,6 @@
   (write-csv-file path [key-header "http_status" "mx"]
                   (for [[h [st mx]] (sort-by first probes)] [h st mx])))
 
-;; sources/probes/roots.csv: the validated roots that have no harvest file.
-(defn read-probes [country-dir] (read-probe-file (country-src country-dir "probes" "roots.csv")))
-(defn write-probes! [country-dir probes]
-  (write-probe-file! (country-src country-dir "probes" "roots.csv") "domain" probes))
-
-;; sources/probes/proposed.csv: the hosts proposed for validation.
-(defn read-proposed-probes [country-dir] (read-probe-file (country-src country-dir "probes" "proposed.csv")))
-(defn write-proposed-probes! [country-dir probes]
-  (write-probe-file! (country-src country-dir "probes" "proposed.csv") "hostname" probes))
-
 (defn unharvested-roots
   "Validated domains of a country (any level) that have no harvest file:
   their apex is all we know, probed through sources/probes/roots.csv."
@@ -131,6 +121,21 @@
   (for [[c d] (validated-rows)
         :when (and (= c country-dir) (not (fs/exists? (harvest-file c d))))]
     d))
+
+;; sources/probes/roots.csv: the validated roots that have no harvest file.
+(defn read-probes [country-dir] (read-probe-file (country-src country-dir "probes" "roots.csv")))
+(defn write-probes!
+  "Write the roots probes of a country, pruned to its validated roots that
+  have no harvest file: a root CISA dropped, or one harvested since, leaves
+  the file with its probes."
+  [country-dir probes]
+  (write-probe-file! (country-src country-dir "probes" "roots.csv") "domain"
+                     (select-keys probes (unharvested-roots country-dir))))
+
+;; sources/probes/proposed.csv: the hosts proposed for validation.
+(defn read-proposed-probes [country-dir] (read-probe-file (country-src country-dir "probes" "proposed.csv")))
+(defn write-proposed-probes! [country-dir probes]
+  (write-probe-file! (country-src country-dir "probes" "proposed.csv") "hostname" probes))
 
 (defn root-probes
   "[http_status mx] of a validated root: from its harvest file's apex row
