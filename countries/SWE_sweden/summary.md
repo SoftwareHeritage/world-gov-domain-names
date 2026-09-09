@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-313 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+312 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |

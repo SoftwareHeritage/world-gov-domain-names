@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `riah.mn` |  | 200 | wikidata | Research Institute of Animal Husbandry |
 | 4 | `ulanbator.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary in Ulaanbaatar |
 | 4 | `unesco.mn` |  | 301 | wikidata | Mongolian National Commission for UNESCO |
-| 4 | `vnembassy-ulaanbaatar.mofa.gov.vn​` | central |  | wikidata | Embassy of Vietnam, Ulaanbaatar |
 | 3 | `cubadiplomatica.cu` | central | ConnectEx... | wikidata | Embassy of Cuba, Ulaanbaatar |
 | 3 | `darkhan.mid.ru` |  | SSLHandsh... | wikidata | General Consulate of Russia to Darkhan |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Mongolia |
 | 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Mongolia |
 | 3 | `mn.ambafrance.org` | central | 301 | wikidata | Embassy of France, Ulaanbaatar |
+| 3 | `mn.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Ulaanbaatar |
 

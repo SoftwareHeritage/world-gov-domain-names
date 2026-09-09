@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+23 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,7 +39,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `bankofalbania.org` |  | 301 | wikidata;wikidata | Bank of Albania |
 | 6 | `gesuiti.it` |  | 200 | wikidata;wikidata | Euromediterranean Province of the Jesuits |
 | 6 | `tirana.embassy.si` | central | SSLHandsh... | wikidata;wikidata | Embassy of Slovenia, Tirana | General Consulate of the Republic of Slovenia i... |
-| 5 | `e-albania.al ` |  |  | un_desa | UN/DESA national portal |
 | 4 | `aaf.mil.al` |  | HttpConne... | wikidata | Military Police |
 | 4 | `akep.al` |  | 200 | wikidata | Autoriteti i Komunikimeve Elektronike dhe Postare |
 | 4 | `bksh.al` |  | 200 | wikidata | National Library of Albania |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Albania |
 | 3 | `mzv.cz` | central | 302 | wikidata | Embassy of the Czech republic in Albania |
 | 3 | `mzv.sk` | central | 301 | wikidata | Embassy of Slovakia in Albania |
+| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Tirana |
 

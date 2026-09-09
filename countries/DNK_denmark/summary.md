@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-164 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+162 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,7 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `datatilsynet.dk` | central | 200 | wikidata;wikidata;linkgraph | Danish Data Protection Agency |
 | 10 | `digst.dk` |  | 200 | wikidata;linkgraph | Agency for Digital Government |
 | 10 | `politi.dk` |  | HttpConne... | wikidata;wikidata;linkgraph | Police of Denmark | Rigspolitiet |
-| 7 | `advokatnævnet.dk` |  |  | wikidata;wikidata | Disciplinary Board |
 | 7 | `at.dk` |  | 200 | wikidata;wikidata | Danish Working Environment Authority |
 | 7 | `borger.dk` |  | 301 | linkgraph | Linked from 22 public-sector domains |
 | 7 | `bygst.dk` |  | 200 | wikidata;wikidata | Danish Building and Property Agency |
@@ -55,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `fstyr.dk` |  | 301 | wikidata;wikidata | Danish Road Traffic Authority |
 | 7 | `handelskammer.dk` |  | 302 | wikidata;wikidata | German-Danish Chamber of Commerce |
 | 7 | `kfst.dk` |  | 200 | wikidata;wikidata | Danish Competition Council | Danish Competition and Consumer Authority |
+| 7 | `nationalbanken.dk` |  | 301 | wikidata;wikidata | Danmarks Nationalbank |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,7 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `goss-online.org` | central | SSLHandsh... | un_desa;wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation | UN/DESA national ... |
 | 6 | `mop-rss.org` | central | ConnectEx... | wikidata;wikidata | Ministry of Petroleum and Mining |
 | 6 | `ssmogei.org` | central | ConnectEx... | wikidata;wikidata | Ministry of Education, Science and Technology |
-| 4 | `usaf@gov.ss` |  |  | wikidata | Universal Service and Access Fund (South Sudan) |
 | 3 | `dschuba.diplo.de` | central | 200 | wikidata | Embassy of Germany, Juba |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to South Sudan |
 | 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway in South Sudan |

@@ -2,7 +2,6 @@ hostname,score,sources,label,level,http_status,mx
 datatilsynet.dk,10,wikidata;wikidata;linkgraph,Danish Data Protection Agency,central,200,10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.
 digst.dk,10,wikidata;linkgraph,Agency for Digital Government,,200,10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.
 politi.dk,10,wikidata;wikidata;linkgraph,Police of Denmark | Rigspolitiet,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.politi.dk.; 10 mail2.politi.dk.
-advokatnævnet.dk,7,wikidata;wikidata,Disciplinary Board,,,
 at.dk,7,wikidata;wikidata,Danish Working Environment Authority,,200,10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx07.statens-it.dk.
 borger.dk,7,linkgraph,Linked from 22 public-sector domains,,301,10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.
 bygst.dk,7,wikidata;wikidata,Danish Building and Property Agency,,200,10 mx06.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx01.statens-it.dk.
@@ -56,7 +55,6 @@ civilstyrelsen.dk,4,wikidata,Department of Civil Affairs,,301,10 mx08.statens-it
 consumerombudsman.dk,4,wikidata,Danish Consumer Ombudsman institution,central,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,none
 danishbusinessauthority.dk,4,wikidata,Danish Business Authority,,200,none
 dankultur.dk,4,wikidata,Danish Cultural Institute,,200,none
-danmarksfængsler.dk,4,wikidata,Danmarks Fængsler,,,
 de.naturstyrelsen.dk,4,wikidata,Danish Nature Agency,,200,none
 dfi.dk,4,wikidata,Danish Film Institute,,301,10 mx05.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx07.statens-it.dk.
 dfsa.dk,4,wikidata,Danish Financial Supervisory Authority,,HttpConnectTimeoutException: HTTP connect timed out,10 ftsmail2.ftnet.dk.; 10 ftsmail1.ftnet.dk.
