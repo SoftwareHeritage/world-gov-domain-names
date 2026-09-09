@@ -759,119 +759,105 @@
                  (not (contains? #{"local" "central-1"} level))})]
     [h score (str/join ";" sources) label level]))
 
-(defn score-candidates-for!
-  "Compute countries/<c>/proposed.csv, the domains proposed for
-  validation (columns hostname,score,sources,label,level,http_status,mx),
-  best scores first; the two probe columns come from
-  sources/probes/proposed.csv (cmd-probe-proposed) and stay blank until
-  a host is probed. Aggregates Wikidata mentions
-  (incl. their P1001-derived level), UN/DESA national portal, IANA ccTLD,
-  Factbook institution names and link-graph in-degree (sources/linkgraph/,
-  see cmd-indegree). Loads the per-country sources into a context map,
-  then delegates each host to the pure candidate-row/candidate-level
-  above: a host is subnational when Wikidata says so, or when
-  its label matches the subdivision pattern; a subnational host whose
-  jurisdiction (or label) points to a first-level subdivision of the
-  country (Land, state, region…) is tagged 'central-1', the rest 'local'.
-  Level stays blank when nothing is known. Hosts already validated, hosts
-  under an excluded domain (see excluded-domains) and local hosts are
-  left out: only central, central-1 and unknown-level hosts are proposed."
+(defn wikidata-by-host
+  "{host {:cnt n :labels [..] :levels #{..}}} from the rows of a
+  wikidata/central_admin.csv (type,label,website,hostname,level): one
+  mention per row, distinct labels, the P1001-derived levels."
+  [rows]
+  (reduce (fn [m row]
+            (let [host  (nth row 3 nil)
+                  label (nth row 1 nil)
+                  level (str/trim (or (nth row 4 nil) ""))]
+              (if (str/blank? host)
+                m
+                (-> m
+                    (update-in [host :cnt] (fnil inc 0))
+                    (update-in [host :labels]
+                               (fn [ls]
+                                 (let [ls (or ls [])]
+                                   (if (some #{label} ls) ls (conj ls label)))))
+                    (update-in [host :levels] (fnil conj #{}) level)))))
+          {} rows))
+
+(defn level1-pattern
+  "Word-bounded, case-insensitive pattern over the English labels of a
+  country's first-level subdivisions (4+ chars), or nil when none. Used to
+  promote a subnational host to central-1 when its label names such a
+  subdivision -- covers rows fetched before levels carried central-1."
+  [labels]
+  (let [labels (->> labels (remove str/blank?) (filter #(>= (count %) 4)))]
+    (when (seq labels)
+      (re-pattern
+        (str "(?iu)\\b(?:"
+             (str/join "|" (map #(java.util.regex.Pattern/quote %) labels))
+             ")\\b")))))
+
+(defn load-candidate-ctx
+  "Read the per-country sources the ranking needs (I/O only, see
+  propose-candidates): Wikidata mentions and P1001 levels, the UN/DESA
+  national portal, the IANA ccTLD, the Factbook highest courts, the
+  link-graph in-degrees (sources/linkgraph/, see cmd-indegree), the
+  official-directory listing (detect-from-directories.clj, :candidates
+  channel: authoritative on the body's existence, silent on its level),
+  the first-level subdivision labels, plus the world-wide validated
+  domains and the country's excluded ones."
   [country-dir]
-  (let [iana-path (country-src country-dir "iana" "cctld.csv")
-        un-path   (country-src country-dir "un_desa" "summary.csv")
-        cia-path  (country-src country-dir "cia_factbook" "summary.csv")
-        wd-path   (country-src country-dir "wikidata" "central_admin.csv")
-        sub-path  (country-src country-dir "wikidata" "subdivisions_level1.csv")
-        out       (str "countries/" country-dir "/proposed.csv")
-        excluded  (get @excluded-domains country-dir #{})
-        probes    (read-proposed-probes country-dir)
-        cctld-primary
-        (when (fs/exists? iana-path)
-          (some-> (first (second (read-csv-raw iana-path)))    ; row 2, col 1
-                  (str/replace #"^\." "")))
-        un-portal      (csv-field un-path "national_portal")
-        un-portal-host (extract-host un-portal)
-        fb-courts      (csv-field cia-path "judicial_highest_courts")
-        fb-phrases     (extract-factbook-phrases fb-courts)
-        wd-rows        (when (fs/exists? wd-path) (rest (read-csv-raw wd-path)))
-        wd-by-host
-        (reduce (fn [m row]
-                  (let [host  (nth row 3 nil)
-                        label (nth row 1 nil)
-                        level (str/trim (or (nth row 4 nil) ""))]
-                    (if (str/blank? host)
-                      m
-                      (-> m
-                          (update-in [host :cnt] (fnil inc 0))
-                          (update-in [host :labels]
-                                     (fn [ls]
-                                       (let [ls (or ls [])]
-                                         (if (some #{label} ls) ls (conj ls label)))))
-                          (update-in [host :levels] (fnil conj #{}) level)))))
-                {} wd-rows)
-        lg-path        (country-src country-dir "linkgraph" "indegree.csv")
-        ;; link-graph in-degree (see cmd-indegree): hosts linked from at
-        ;; least linkgraph-min-indegree distinct same-country public-sector
-        ;; domains enter the candidate pool with a strong score bonus.
-        known          (validated-domains)
-        lg-by-host
-        (reduce (fn [m {:strs [hostname indegree]}]
-                  (let [n (parse-long (or indegree ""))]
-                    (if (and n (>= n linkgraph-min-indegree)
-                             (not (host-covered? hostname known)))
-                      (assoc m hostname n)
-                      m)))
-                {} (read-csv-file lg-path))
-        dir-path       (country-src country-dir "directory" "orgs.csv")
-        ;; official-directory listing (see detect-from-directories.clj,
-        ;; :candidates channel): authoritative that the body exists and is anchored to
-        ;; the country's administration, silent on its level -- strong
-        ;; score bonus, curation decides.
-        dir-by-host
-        (reduce (fn [m {:strs [hostname evidence]}]
-                  (if (host-covered? hostname known)
-                    m
-                    (assoc m hostname {:evidence (or evidence "")})))
-                {} (read-csv-file dir-path))
-        all-hosts (cond-> (-> (set (keys wd-by-host))
-                              (into (keys lg-by-host))
-                              (into (keys dir-by-host)))
-                    un-portal-host (conj un-portal-host))
-        ;; English labels of the country's first-level subdivisions, as a
-        ;; word-bounded pattern. Used to promote a subnational host to
-        ;; central-1 when its label names such a subdivision -- covers rows
-        ;; fetched before levels carried central-1 (no refetch needed).
-        level1-pattern
-        (when (fs/exists? sub-path)
-          (let [labels (->> (rest (read-csv-raw sub-path))
-                            (map second)
-                            (remove str/blank?)
-                            (filter #(>= (count %) 4)))]
-            (when (seq labels)
-              (re-pattern
-                (str "(?iu)\\b(?:"
-                     (str/join "|" (map #(java.util.regex.Pattern/quote %) labels))
-                     ")\\b")))))
-        ctx {:wd-by-host wd-by-host
-             :lg-by-host lg-by-host
-             :dir-by-host dir-by-host
-             :un-portal-host un-portal-host
-             :fb-phrases fb-phrases
-             :cctld-primary cctld-primary
-             :level1-pattern level1-pattern}
-        proposed
-        (->> all-hosts
-             ;; Wikidata websites yield a few non-hostnames (IDN with
-             ;; accents, a bare "http", a trailing space): not proposable
-             (filter valid-hostname?)
-             (remove #(host-covered? % known))
-             (remove #(host-covered? % excluded))
-             (map #(candidate-row ctx %))
-             (remove #(= "local" (nth % 4)))
-             (sort-by (juxt #(- (nth % 1)) first)))]
-    (write-csv-file out ["hostname" "score" "sources" "label" "level"
-                         "http_status" "mx"]
-                    (for [[h sc src lbl lvl] proposed
+  (let [src #(country-src country-dir %1 %2)
+        iana-path (src "iana" "cctld.csv")
+        un-path   (src "un_desa" "summary.csv")
+        cia-path  (src "cia_factbook" "summary.csv")
+        wd-path   (src "wikidata" "central_admin.csv")
+        sub-path  (src "wikidata" "subdivisions_level1.csv")]
+    {:wd-by-host     (wikidata-by-host (when (fs/exists? wd-path) (rest (read-csv-raw wd-path))))
+     :lg-by-host     (into {} (for [{:strs [hostname indegree]} (read-csv-file (src "linkgraph" "indegree.csv"))
+                                    :let [n (parse-long (or indegree ""))]
+                                    :when (and n (>= n linkgraph-min-indegree))]
+                                [hostname n]))
+     :dir-by-host    (into {} (for [{:strs [hostname evidence]} (read-csv-file (src "directory" "orgs.csv"))]
+                                [hostname {:evidence (or evidence "")}]))
+     :un-portal-host (extract-host (csv-field un-path "national_portal"))
+     :fb-phrases     (extract-factbook-phrases (csv-field cia-path "judicial_highest_courts"))
+     :cctld-primary  (when (fs/exists? iana-path)
+                       (some-> (first (second (read-csv-raw iana-path)))    ; row 2, col 1
+                               (str/replace #"^\." "")))
+     :level1-pattern (when (fs/exists? sub-path)
+                       (level1-pattern (map second (rest (read-csv-raw sub-path)))))
+     :known          (validated-domains)
+     :excluded       (get @excluded-domains country-dir #{})}))
+
+(defn propose-candidates
+  "Rank the hosts of a candidate context (pure): every host any source
+  mentions, minus the non-hostnames Wikidata websites yield (IDN with
+  accents, a bare \"http\", a trailing space), minus those a validated
+  domain covers or an excluded one rules out, scored and levelled by
+  candidate-row; hosts levelled local are dropped. Rows
+  [hostname score sources label level], best scores first."
+  [{:keys [wd-by-host lg-by-host dir-by-host un-portal-host known excluded] :as ctx}]
+  (->> (cond-> (-> (set (keys wd-by-host))
+                   (into (keys lg-by-host))
+                   (into (keys dir-by-host)))
+         un-portal-host (conj un-portal-host))
+       (filter valid-hostname?)
+       (remove #(host-covered? % known))
+       (remove #(host-covered? % excluded))
+       (map #(candidate-row ctx %))
+       (remove #(= "local" (nth % 4)))
+       (sort-by (juxt #(- (nth % 1)) first))))
+
+(defn score-candidates-for!
+  "Write countries/<c>/proposed.csv, the domains proposed for validation
+  (hostname,score,sources,label,level,http_status,mx), best scores first:
+  propose-candidates over load-candidate-ctx, joined with the probes of
+  sources/probes/proposed.csv (cmd-probe-proposed), blank until a host is
+  probed. A host is subnational when Wikidata says so or when its label
+  matches the subdivision pattern; a subnational host whose jurisdiction
+  (or label) points to a first-level subdivision (Land, state, region…)
+  is central-1, the rest local; blank when nothing is known."
+  [country-dir]
+  (let [probes (read-proposed-probes country-dir)]
+    (write-csv-file (str "countries/" country-dir "/proposed.csv")
+                    ["hostname" "score" "sources" "label" "level" "http_status" "mx"]
+                    (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))
                           :let [[st mx] (get probes h ["" ""])]]
                       [h (str sc) src lbl lvl st mx]))))
 
