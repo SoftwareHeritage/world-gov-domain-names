@@ -390,18 +390,9 @@
   (println (str "Countries with a spec: "
                 (str/join " " (sort (keys directory-specs))))))
 
+(def commands {"harvest" cmd-directory})
+
 ;; Run only as a script (bb scripts/detect-from-directories.clj …), not
 ;; when required or loaded from another namespace.
 (when (= *file* (System/getProperty "babashka.file"))
-  (let [args *command-line-args*]
-    (cond
-      (or (empty? args) (#{"-h" "--help" "help"} (first args)))
-      (do (usage) (when (empty? args) (System/exit 1)))
-
-      (= "harvest" (first args))
-      (System/exit (cmd-directory (vec (rest args))))
-
-      :else
-      (do (err "ERR: unknown sub-command '" (first args) "'")
-          (usage)
-          (System/exit 1)))))
+  (dispatch commands usage *command-line-args*))

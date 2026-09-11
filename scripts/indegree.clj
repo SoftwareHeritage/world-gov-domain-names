@@ -104,7 +104,7 @@
   (let [suffix->dir (linkgraph-suffix->dir)
         rel-path    (and suffix->dir (linkgraph-fetch! "relationships.jsonl"))]
     (if-not rel-path
-      (err "ERR: link-graph data unavailable")
+      (do (err "ERR: link-graph data unavailable") 1)
       (let [only       (when (seq args) (set args))
             editorial? #{"editorial_link" "form_destination"}
             acc        ;; {country_dir {target {:ed #{src...} :tech #{src...}}}}
@@ -137,4 +137,5 @@
             (println (str dir ": " (count rows) " linked domains ("
                           strong " with indegree >= "
                           linkgraph-min-indegree ")"))))
-        (println "Run 'bb pipeline report' to fold them into proposed.csv.")))))
+        (println "Run 'bb pipeline report' to fold them into proposed.csv.")
+        0))))

@@ -270,6 +270,27 @@
         ;; the pool would keep running them in the background
         (.shutdownNow pool)))))
 
+(defn dispatch
+  "Run a script's sub-command: (get commands cmd) applied to the
+  remaining args. No command, help or an unknown command print usage.
+  Exits with the integer the command returns -- a command returns 1
+  when it reported an ERR, so a failed refresh is visible to a shell or
+  a cron job -- 1 on no or unknown command or on an ex-info (its
+  message on ERR: a contradiction in the decision files, see
+  compile-confirmed), 0 otherwise."
+  [commands usage [cmd & args]]
+  (let [result (try
+                 (cond
+                   (nil? cmd)                    (do (usage) 1)
+                   (#{"-h" "--help" "help"} cmd) (usage)
+                   :else (if-let [f (get commands cmd)]
+                           (f (vec args))
+                           (do (err "ERR: unknown sub-command '" cmd "'") (usage) 1)))
+                 (catch clojure.lang.ExceptionInfo e
+                   (err "ERR: " (ex-message e))
+                   1))]
+    (System/exit (if (integer? result) result 0))))
+
 (defn scoped-countries
   "The country_dirs named in selection, or all of them when selection is
   empty. An unknown name is an error (ERR, nil): a typo must not create

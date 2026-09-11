@@ -197,7 +197,10 @@
 
 (def fetch-fail-log "/tmp/fetch_subdomains.log")
 
-(defn cmd-fetch [args]
+(defn fetch-all!
+  "fetch-one! over the harvest files of args (see resolve-harvest-files):
+  [[file :ok|:fail]…], this run's failures recorded in fetch-fail-log."
+  [args]
   (let [files   (resolve-harvest-files args)
         results (bounded-pmap (parallel 4) (fn [f] [f (fetch-one! f)]) files)
         fails   (->> results (filter #(= :fail (second %))) (map (comp harvest-root first)))]
@@ -207,18 +210,26 @@
     (spit fetch-fail-log (str/join "\n" (map #(str "FAIL " %) fails)))
     results))
 
+(defn cmd-fetch [args]
+  (if (some #(= :fail (second %)) (fetch-all! args)) 1 0))
+
 (defn retry-one!
+  "fetch-one! up to three times, with a growing pause: :ok or :fail."
   [file]
   ;; loop on fetch-one! directly: probing the URL first with a separate
   ;; http-get would download the (heavy) crt.sh response twice per success
   (let [domain (harvest-root file)]
     (loop [attempt 1]
-      (if (= :ok (fetch-one! file))
-        (println (str "  [retry=" attempt "] OK " domain))
-        (if (< attempt 3)
-          (do (Thread/sleep (* attempt 5000))
-              (recur (inc attempt)))
-          (println (str "FAIL " domain " after " attempt " attempts")))))))
+      (cond
+        (= :ok (fetch-one! file))
+        (do (println (str "  [retry=" attempt "] OK " domain)) :ok)
+
+        (< attempt 3)
+        (do (Thread/sleep (* attempt 5000))
+            (recur (inc attempt)))
+
+        :else
+        (do (println (str "FAIL " domain " after " attempt " attempts")) :fail)))))
 
 (defn cmd-retry [args]
   (let [domains (if (seq args)
@@ -230,8 +241,9 @@
                          (filter seq))))]
     (if (empty? domains)
       (do (err "No FAIL in " fetch-fail-log " (and no argument provided).") 1)
-      (do (bounded-pmap (parallel 2) retry-one! (resolve-harvest-files (vec domains)))
-          0))))
+      (if (some #{:fail} (bounded-pmap (parallel 2) retry-one! (resolve-harvest-files (vec domains))))
+        1
+        0))))
 
 ;; ===========================================================================
 ;;  Phase 2 -- normalize
@@ -1131,17 +1143,28 @@
 ;;  Dispatcher
 ;; ===========================================================================
 
+(defn- exit-code
+  "1 when one of the steps' results is 1, 0 otherwise."
+  [& results]
+  (if (some #{1} results) 1 0))
+
 (defn- run-collect [args]
-  (when (some #(= :fail (second %)) (cmd-fetch args))
-    (cmd-retry []))
-  (cmd-normalize nil)
-  (cmd-probe args)
-  (cmd-aggregate nil)
-  (cmd-domains nil))
+  (exit-code
+   (when (some #(= :fail (second %)) (fetch-all! args))
+     (cmd-retry []))
+   (cmd-normalize nil)
+   (cmd-probe args)
+   (cmd-aggregate nil)
+   (cmd-domains nil)))
+
+(defn- run-all [args]
+  (exit-code (run-collect args) (enrich/cmd-enrich args) (cmd-cross-check args)))
 
 (def commands
-  "Map sub-command name -> handler. Used both by dispatcher and usage banner."
+  "Map sub-command name -> handler (common/dispatch). A handler returning
+  an integer sets the exit code."
   {"collect"     run-collect
+   "all"         run-all
    "enrich"      enrich/cmd-enrich
    "report"      cmd-cross-check
    "fetch"       cmd-fetch
@@ -1185,36 +1208,7 @@
   (println)
   (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
 
-(defn dispatch
-  "Run cmd. A command that returns an integer sets the exit code (cisa,
-  lannuaire, govuk, build-qid and retry return 1 when their fetch failed,
-  check when the decision files contradict each other), so a failed
-  refresh is visible to a shell or a cron job; anything else exits 0. A
-  contradiction in the decision files (compile-confirmed) aborts any
-  command with its message and exit 1."
-  [cmd args]
-  (let [result (try
-                 (cond
-                 (= cmd "all")
-                 (do (run-collect args) (enrich/cmd-enrich args) (cmd-cross-check args))
-
-                 (#{"-h" "--help" "help"} cmd) (usage)
-
-                 :else
-                 (if-let [f (get commands cmd)]
-                   (f args)
-                   (do (err "ERR: unknown sub-command '" cmd "'")
-                       (usage)
-                       1)))
-                 (catch clojure.lang.ExceptionInfo e
-                   (err "ERR: " (ex-message e))
-                   1))]
-    (System/exit (if (integer? result) result 0))))
-
 ;; Run only as a script (bb scripts/pipeline.clj …), not when required
 ;; from another namespace or loaded in a REPL.
 (when (= *file* (System/getProperty "babashka.file"))
-  (let [args *command-line-args*]
-    (if (empty? args)
-      (do (usage) (System/exit 1))
-      (dispatch (first args) (vec (rest args))))))
+  (dispatch commands usage *command-line-args*))

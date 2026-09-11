@@ -223,14 +223,16 @@
         unknown (for [[qid c] pairs :when (str/blank? qid)] c)]
     (cond
       (empty? rows)
-      (err "ERR: data/country_qid.csv missing. Run 'bb pipeline build-qid' first")
+      (do (err "ERR: data/country_qid.csv missing. Run 'bb pipeline build-qid' first") 1)
 
       (seq unknown)
-      (err "ERR: not in data/country_qid.csv: " (str/join ", " unknown)
-           " (expected a country_dir or QID:country_dir)")
+      (do (err "ERR: not in data/country_qid.csv: " (str/join ", " unknown)
+               " (expected a country_dir or QID:country_dir)")
+          1)
 
       :else
-      (bounded-pmap conc-wikidata (fn [[qid c]] (wikidata-process! qid c)) (vec pairs)))))
+      (do (bounded-pmap conc-wikidata (fn [[qid c]] (wikidata-process! qid c)) (vec pairs))
+          0))))
 
 ;; ===========================================================================
 ;;  Phase 6 -- IANA
@@ -571,7 +573,8 @@
 (defn cmd-enrich
   "Run the enrichment sources fully in parallel. Each source manages its
   own intra-source concurrency (see conc-wikidata, conc-iana, …).
-  Logs are streamed to temp files, displayed after all sources finish."
+  Logs are streamed to temp files, displayed after all sources finish.
+  Returns 1 when a source failed, 0 otherwise."
   [args]
   (err "-> wikidata + iana + cia + un-desa + oecd + meta (all in parallel)…")
   (let [logs (fs/create-temp-dir)
@@ -604,4 +607,5 @@
         (when (fs/exists? log-file)
           (doseq [l (take-last 10 (str/split-lines (slurp log-file)))]
             (println l)))))
-    (fs/delete-tree logs)))
+    (fs/delete-tree logs)
+    (if (some #(= :fail (second %)) results) 1 0)))

@@ -283,8 +283,9 @@
   [_args]
   (let [rows (rest (read-csv-raw "data/forge-unknown-swh.csv"))]
     (if (empty? rows)
-      (err "ERR: data/forge-unknown-swh.csv missing or empty. "
-           "Run 'bb forges forges-swh' first")
+      (do (err "ERR: data/forge-unknown-swh.csv missing or empty. "
+               "Run 'bb forges forges-swh' first")
+          1)
       (let [probed (probe-forge-rows rows)
             n200   (->> probed (filter #(= "200" (nth % 5))) count)]
         (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header probed)
@@ -331,10 +332,10 @@
                      (sort-by first))]
     (cond
       (empty? targets)
-      (err "ERR: no targets. Run 'bb forges forges' first")
+      (do (err "ERR: no targets. Run 'bb forges forges' first") 1)
 
       (not (swh-auth-check!))
-      (err "ERR: aborting (unset SWH_TOKEN to run anonymously, slower)")
+      (do (err "ERR: aborting (unset SWH_TOKEN to run anonymously, slower)") 1)
 
       :else
       (let [checked (doall
@@ -401,7 +402,7 @@
                     " orgs in " (count data) " groups"
                     (when (seq extra) (str " + " (count extra) " local extras"))
                     ")")))
-    (err "ERR: could not fetch " governments-yml-url)))
+    (do (err "ERR: could not fetch " governments-yml-url) 1)))
 
 ;; ---------------------------------------------------------------------------
 ;; Dispatcher
@@ -421,14 +422,6 @@
   (println)
   (println "Environment variables: SWH_TOKEN, PARALLEL=N"))
 
-(let [args *command-line-args*]
-  (if (empty? args)
-    (do (usage) (System/exit 1))
-    (let [[cmd & rest-args] args]
-      (if (#{"-h" "--help" "help"} cmd)
-        (usage)
-        (if-let [f (get commands cmd)]
-          (f (vec rest-args))
-          (do (err "ERR: unknown sub-command '" cmd "'")
-              (usage)
-              (System/exit 1)))))))
+;; Run only as a script, not when loaded from another namespace.
+(when (= *file* (System/getProperty "babashka.file"))
+  (dispatch commands usage *command-line-args*))

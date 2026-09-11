@@ -101,7 +101,8 @@
                   (do (err "ERR: data/country_qid.csv missing or no matching country. "
                            "Run 'bb pipeline build-qid' first")
                       nil))]
-    (when pairs
+    (if-not pairs
+      1
       (let [merged
             (reduce
              (fn [m [qid country]]
@@ -127,7 +128,8 @@
                          m rows)))
              (read-universities)
              pairs)]
-        (write-universities! merged "")))))
+        (write-universities! merged "")
+        0))))
 
 ;; ---------------------------------------------------------------------------
 ;; Dispatcher
@@ -142,14 +144,6 @@
   (println "Commands:")
   (println "  fetch [C…]"))
 
-(let [args *command-line-args*]
-  (if (empty? args)
-    (do (usage) (System/exit 1))
-    (let [[cmd & rest-args] args]
-      (if (#{"-h" "--help" "help"} cmd)
-        (usage)
-        (if-let [f (get commands cmd)]
-          (f (vec rest-args))
-          (do (err "ERR: unknown sub-command '" cmd "'")
-              (usage)
-              (System/exit 1)))))))
+;; Run only as a script, not when loaded from another namespace.
+(when (= *file* (System/getProperty "babashka.file"))
+  (dispatch commands usage *command-line-args*))
