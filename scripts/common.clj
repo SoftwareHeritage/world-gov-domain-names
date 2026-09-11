@@ -2,7 +2,7 @@
   "Helpers shared by the scripts of this repository: CSV and HTTP I/O,
   country directories, the per-country decision files, the
   country-metadata tables, bounded parallelism. Pure
-  definitions only -- loading this namespace has no side effect. Loaded
+  definitions only -- loading this namespace does no I/O. Loaded
   through the :paths [\"scripts\"] of bb.edn, so every `bb …` command run
   from the repository root can (require '[common])."
   (:require [babashka.http-client :as http]
@@ -186,6 +186,7 @@
                      (read-excluded country-dir)))
 
 (def ^:private confirmed-cache (atom nil))
+(def ^:private confirmed-domains-cache (atom nil))
 
 (defn confirmed-rows
   "The confirmed domains of every country: vector of [country domain
@@ -212,7 +213,8 @@
   [country-dir registry rows]
   (write-csv-file (registered-file country-dir registry) ["domain" "level"]
                   (sort-by first (for [[d level] rows] [d level])))
-  (reset! confirmed-cache nil))
+  (reset! confirmed-cache nil)
+  (reset! confirmed-domains-cache nil))
 
 (defn normalize-name
   "Lowercase a name and strip everything but [a-z0-9], for matching country
@@ -514,10 +516,8 @@
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
 
 (defn parallel
-  "Read PARALLEL env var, fall back to default-n."
-  [default-n]
-  (let [v (System/getenv "PARALLEL")]
-    (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default-n)))
+  "The PARALLEL env var, default-n when unset."
+  [default-n] (env-int "PARALLEL" default-n))
 
 (defn confirmed-domains
   "Every confirmed domain of every country, whatever its level (local
@@ -526,9 +526,11 @@
   Wikidata gap list drop it: re-listing confirmed domains would only add
   noise to the manual validation pass. Deliberately world-wide: Wikidata
   attributes embassies to their host country (eda.admin.ch under
-  Zimbabwe), and only the Swiss root covers them."
+  Zimbabwe), and only the Swiss root covers them. Cached like
+  confirmed-rows (report asks for it once per country)."
   []
-  (set (map second (confirmed-rows))))
+  (or @confirmed-domains-cache
+      (reset! confirmed-domains-cache (set (map second (confirmed-rows))))))
 
 (defn harvest-roots
   "The confirmed domains of a country that stand for a subtree to

@@ -518,6 +518,14 @@
   []
   (labels-under-central (for [[c d level] (confirmed-rows) :when (= level "central-1")] [c d])))
 
+(def excluded-domains
+  "{country_dir #{domain…}}: the hostnames of every countries/<c>/excluded.csv.
+  A host equal to or under one of them is out of scope, whatever the
+  sources say, so proposed.csv never lists it again: excluded.csv is where
+  a reviewer's 'no' is recorded. (local rows keep hosts out the same way,
+  through confirmed-domains.)"
+  (delay (into {} (for [c (country-dirs)] [c (set (map first (read-excluded c)))]))))
+
 (defn local-labels
   "{[country root] #{label…}}: the labels directly under a confirmed
   central root whose whole subtree belongs to a lower government tier
@@ -528,15 +536,7 @@
   everything under them is central government."
   []
   (labels-under-central (concat (for [[c d level] (confirmed-rows) :when (= level "local")] [c d])
-                                (for [c (country-dirs), [d] (read-excluded c)] [c d]))))
-
-(def excluded-domains
-  "{country_dir #{domain…}}: the hostnames of every countries/<c>/excluded.csv.
-  A host equal to or under one of them is out of scope, whatever the
-  sources say, so proposed.csv never lists it again: excluded.csv is where
-  a reviewer's 'no' is recorded. (local rows keep hosts out the same way,
-  through confirmed-domains.)"
-  (delay (into {} (for [c (country-dirs)] [c (set (map first (read-excluded c)))]))))
+                                (for [[c ds] @excluded-domains, d ds] [c d]))))
 
 ;; ===========================================================================
 ;;  Phase 7 -- cross-check (score + rapport)
@@ -584,8 +584,6 @@
   domain."
   [host collected]
   (some (fn [s] (or (= s host) (str/ends-with? s (str "." host)))) collected))
-
-
 
 (defn score-candidate
   "Compute the 0-10 confidence score for one candidate hostname.
@@ -847,15 +845,14 @@
     "observer" (println "- UN status: **Observer State** (include as observer, not as member)")
     "non_un"   (println "- UN status: **Not recognised by the UN** (exclude from UN-facing report)")
     nil)
-  (when (and region (seq region))
-    (println (str "- Region: " region
-                  (when (seq subregion) (str " / " subregion)))))
-  (when (and languages (seq languages)) (println (str "- Languages: " languages)))
-  (when (and population (seq population)) (println (str "- Population: " population)))
-  (when (and gdp-per-capita (seq gdp-per-capita))
+  (when region
+    (println (str "- Region: " region (when subregion (str " / " subregion)))))
+  (when languages      (println (str "- Languages: " languages)))
+  (when population     (println (str "- Population: " population)))
+  (when gdp-per-capita
     (println (str "- GDP per capita: " gdp-per-capita " US$"
-                  (when (seq gdp-year) (str " (" gdp-year ")")))))
-  (when (and currencies (seq currencies)) (println (str "- Currencies: " currencies)))
+                  (when gdp-year (str " (" gdp-year ")")))))
+  (when currencies     (println (str "- Currencies: " currencies)))
   (when cctld     (println (str "- ccTLD: `" cctld "` (manager: " (or manager "?") ")")))
   (when (= oecd-status "yes") (println (str "- OECD: member since " oecd-since)))
   (when (= oecd-status "no")  (println "- OECD: non-member"))
@@ -871,11 +868,8 @@
     (println)
     (let [host (extract-host un-portal)]
       (println (str "- Declared: [" un-portal "](" un-portal ") (host `" host "`)"))
-      (cond
-        (collected-at-or-under? host collected)
+      (if (collected-at-or-under? host collected)
         (println "- ✅ Covered by collected domains")
-
-        :else
         (let [parent (parent-domain host)]
           (if (and parent (fs/exists? (harvest-file country-dir parent)))
             (println (str "- ⚠️ Exact hostname not collected, but `" parent "` is harvested (to be probed)"))
@@ -1048,7 +1042,9 @@
   their subtree (campinas.sp.gov.br) stay out until a central body of
   the subtree is listed explicitly in the central+ scope. Domains
   already covered by a root (e.g. fazenda.gov.br under gov.br) are
-  pruned as redundant."
+  pruned as redundant. A domain confirmed in several countries gets one
+  row, attributed to the first country in ASCII order, with the union
+  of their exclusions."
   [_]
   (let [rows (central-plus-rows)
         excl (local-labels)

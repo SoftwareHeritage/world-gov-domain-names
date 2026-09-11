@@ -3,7 +3,7 @@
  {:requires ([babashka.process :refer [shell]])
   pipeline   {:doc  "Full pipeline -- run 'bb pipeline help' for usage"
               :task (apply shell "bb scripts/pipeline.clj" *command-line-args*)}
-  collect    {:doc  "crt.sh harvest + normalize + probe + aggregate"
+  collect    {:doc  "crt.sh harvest + normalize + probe + aggregate + domains"
               :task (apply shell "bb scripts/pipeline.clj collect" *command-line-args*)}
   enrich     {:doc  "wikidata + iana/cia/un-desa/oecd/meta (parallel)"
               :task (apply shell "bb scripts/pipeline.clj enrich" *command-line-args*)}

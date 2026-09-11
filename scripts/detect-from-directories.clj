@@ -181,7 +181,7 @@
       (let [rows (csv/read-csv (String. ^bytes body (or encoding "UTF-8"))
                                :separator (or separator \,))
             ;; a UTF-8 BOM would glue itself to the first header cell
-            header (update (vec (first rows)) 0 #(str/replace % "﻿" ""))
+            header (update (vec (first rows)) 0 #(str/replace % "\uFEFF" ""))
             idx  (zipmap header (range))
             name-i (get idx name-col)
             web-i  (get idx website-col)

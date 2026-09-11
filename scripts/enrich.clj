@@ -19,6 +19,7 @@
 (def conc-iana     (env-int "CONC_IANA"     4))
 (def conc-cia      (env-int "CONC_CIA"      8))
 (def conc-un-desa  (env-int "CONC_UN_DESA"  4))
+(def conc-meta     (env-int "CONC_META"     4))
 
 ;; ===========================================================================
 ;;  Phase 5 -- Wikidata (fetch + diff)
@@ -502,8 +503,6 @@
 ;;  Phase 6 -- Country metadata (REST Countries + World Bank)
 ;; ===========================================================================
 
-(def conc-meta (env-int "CONC_META" 4))
-
 (defn meta-rest-countries
   "Fetch region/subregion/languages/currency/population for an ISO3 code
   from restcountries.com. Returns a map or nil."
@@ -546,7 +545,9 @@
             gdp (meta-world-bank-gdp iso3)
             [gdp-val gdp-year] gdp]
         ;; when BOTH fetches failed, do not write: an all-blank row would
-        ;; satisfy table-row-done? on the next runs and freeze the failure
+        ;; satisfy table-row-done? on the next runs and freeze the failure.
+        ;; A half-filled row (one source down) is written and kept: the
+        ;; missing half is only refetched with FORCE=1
         (if (and (nil? rc) (nil? gdp))
           (err (str "=== " country-dir " : both metadata fetches failed;"
                     " not writing " (source-table "country_data")))
