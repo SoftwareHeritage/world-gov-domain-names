@@ -21,7 +21,6 @@
 
 (ns detect-from-directories
   (:require [common :refer :all]
-            [babashka.http-client :as http]
             [babashka.fs :as fs]
             [babashka.process :as proc]
             [cheshire.core :as json]
@@ -166,13 +165,6 @@
     :url-tag     "url"
     :type-filter #"^(?:Ministerie|Agentschap|Inspectie|Zelfstandig bestuursorgaan|Adviescollege|Rechtspraak|Hoog College van Staat)$"
     :source      "organisaties.overheid.nl"}})
-
-(def directory-http-client
-  ;; unlike the no-redirect default client, directory exports often sit
-  ;; behind a redirect to a storage host (open.canada.ca)
-  (http/client (assoc http/default-client-opts
-                      :follow-redirects :normal
-                      :connect-timeout 15000)))
 
 (defn- directory-curl-bytes
   "Download url with curl and return its bytes, nil on failure. The

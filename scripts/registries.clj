@@ -9,7 +9,6 @@
   (:require [common :refer :all]
             [enrich :as enrich]
             [babashka.http-client :as http]
-            [babashka.fs :as fs]
             [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [clojure.string :as str]))
@@ -31,14 +30,12 @@
     (if (str/blank? body)
       (do (err "ERR: CISA fetch failed (" cisa-federal-url ")") 1)
       (let [domains (->> (rest (csv/read-csv (java.io.StringReader. body)))
-                         (map (fn [r] [(some-> (nth r 0 "") str/trim str/lower-case)
-                                       (nth r 1 "")     ; Domain type
-                                       (nth r 2 "")]))  ; Organization name
-                         (filter #(valid-hostname? (first %)))
-                         (sort-by first)
-                         distinct)
+                         (keep #(some-> (first %) str/trim str/lower-case))
+                         (filter valid-hostname?)
+                         distinct
+                         sort)
             out (registered-file "USA_united_states" "cisa")]
-        (write-registered! "USA_united_states" "cisa" (for [[d] domains] [d "central"]))
+        (write-registered! "USA_united_states" "cisa" (for [d domains] [d "central"]))
         (println (str "Wrote " out " (" (count domains) " federal .gov domains from CISA)"))
         0))))
 
@@ -240,8 +237,9 @@
   #{"rpc" "apc" "otc" "decc" "hmgcc" "jncc" "ipcc" "aebc"})
 
 (def govuk-extra-local-labels
-  "Sub-central labels neither the patterns nor the Wikidata queries catch."
-  {"nidirect" "NI Direct (Northern Ireland citizen portal)"})
+  "Sub-central labels neither the patterns nor the Wikidata queries catch:
+  nidirect (NI Direct, the Northern Ireland citizen portal)."
+  #{"nidirect"})
 
 (def govuk-national-gss
   ;; Country/UK-level GSS code prefixes: a body anchored to one of these is
@@ -258,19 +256,17 @@
           second))
 
 (defn- govuk-wikidata-locals
-  "{gov.uk-label name} of Wikidata entities anchored below country level in
-  the UK statistical geography: the entity itself carries a GSS code
+  "#{gov.uk-label} of the Wikidata entities anchored below country level
+  in the UK statistical geography: the entity itself carries a GSS code
   (P836 -- council areas) or its P1001 jurisdiction does (council
   organisations). Country/UK-level GSS codes are filtered out (see
   govuk-national-gss)."
   []
-  (let [label-svc "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
-        queries
-        [(str "SELECT ?itemLabel ?gss ?web WHERE {\n"
-              "  ?item wdt:P836 ?gss ; wdt:P856 ?web .\n" label-svc "}")
-         (str "SELECT ?itemLabel ?gss ?web WHERE {\n"
+  (let [queries
+        ["SELECT ?gss ?web WHERE { ?item wdt:P836 ?gss ; wdt:P856 ?web . }"
+         (str "SELECT ?gss ?web WHERE {\n"
               "  ?item wdt:P1001 ?area ; wdt:P856 ?web .\n"
-              "  ?area wdt:P836 ?gss .\n" label-svc "}")]]
+              "  ?area wdt:P836 ?gss . }")]]
     (->> queries
          (mapcat (fn [q]
                    ;; A missing (network failure) or truncated (invalid
@@ -298,23 +294,11 @@
                                                         "3 times, aborting")
                                                    {})))))))
          (keep (fn [b]
-                 (let [web   (get-in b [:web :value] "")
-                       gss   (get-in b [:gss :value] "")
-                       label (govuk-label-of-website web)]
+                 (let [label (govuk-label-of-website (get-in b [:web :value] ""))
+                       gss   (get-in b [:gss :value] "")]
                    (when (and label (not (re-find govuk-national-gss gss)))
-                     ;; apex? -> the site sits at label.gov.uk itself, so the
-                     ;; entity name is the label's canonical owner (a council)
-                     ;; rather than some deeper page under its domain (a
-                     ;; parish site hosted by its county)
-                     [label (get-in b [:itemLabel :value] "")
-                      (boolean (re-find #"^https?://(?:www\.)?[a-z0-9-]+\.gov\.uk(?:[/:?#]|$)"
-                                        (str/lower-case web)))]))))
-         (reduce (fn [m [label name apex?]]
-                   (if (or (and apex? (not (str/blank? name)))
-                           (not (contains? m label)))
-                     (assoc m label name)
-                     m))
-                 {}))))
+                     label))))
+         set)))
 
 (defn cmd-govuk [_]
   ;; Build the GBR sub-central list: every gov.uk label belonging to a
@@ -334,27 +318,20 @@
                                           (re-matches #"([a-z0-9-]+)\.gov\.uk")
                                           second))
                           set)
-            wd (govuk-wikidata-locals)
-            wd-hits (select-keys wd universe)
+            wd-hits (set (filter universe (govuk-wikidata-locals)))
             pattern-hit? (fn [l] (and (not (govuk-central-allowlist l))
                                       (boolean (some #(re-find % l)
                                                      govuk-local-label-patterns))))
-            named (->> (concat
-                        wd-hits
-                        (for [l universe :when (pattern-hit? l)] [l ""])
-                        (for [[l n] govuk-extra-local-labels
-                              :when (universe l)] [l n]))
-                       (reduce (fn [m [l n]]
-                                 (if (str/blank? (get m l)) (assoc m l n) m))
-                               {})
-                       (sort-by first))
+            sub-central (-> wd-hits
+                            (into (filter pattern-hit? universe))
+                            (into (filter universe govuk-extra-local-labels)))
             central-1? (fn [l] (or (str/ends-with? l "-ni")
                                    (contains? #{"nidirect" "firescotland"} l)))
-            {devolved true local false} (group-by (comp boolean central-1? first) named)
+            {devolved true local false} (group-by (comp boolean central-1?) (sort sub-central))
             out (registered-file "GBR_united_kingdom" "govuk")]
         (write-registered! "GBR_united_kingdom" "govuk"
-                           (concat (for [[l] local] [(str l ".gov.uk") "local"])
-                                   (for [[l] devolved] [(str l ".gov.uk") "central-1"])))
+                           (concat (for [l local] [(str l ".gov.uk") "local"])
+                                   (for [l devolved] [(str l ".gov.uk") "central-1"])))
         (println (str "Wrote " out " (" (count local) " local labels out"
                       " of " (count universe) " registered gov.uk domains; "
                       (count wd-hits) " matched via Wikidata GSS; "
