@@ -88,8 +88,7 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - =proposed.csv= -- domains proposed for validation, scored 0 to 10 by
   how many sources agree, with their =level= when known (=central=,
   =central-1= or blank), HTTPS status and MX. Generated.
-- =summary.md= -- a human-readable cross-check report, including the
-  country's confirmed domains with their provenance. Generated.
+- =summary.md= -- a human-readable cross-check report. Generated.
 - =sources/= -- the raw data behind the above, one folder per source,
   never edited by hand: =crtsh/<root>.csv= (the crt.sh harvest of a
   root, with probes), =probes/= (HTTPS and MX of the hosts that have

@@ -28,24 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-11 confirmed domain(s): 11 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| difesa.it | central | curated |  |
-| esteri.it | central | curated |  |
-| giustizia.it | central | curated |  |
-| gov.it | central | curated |  |
-| governo.it | central | curated |  |
-| ingv.it | central | curated | INGV (Istituto Nazionale di Geofisica e Vulcanologia) |
-| istruzione.it | central | curated |  |
-| parlamento.it | central | curated |  |
-| politicheagricole.it | central | curated |  |
-| politichefamiglia.it | central | curated |  |
-| quirinale.it | central | curated |  |
-
 ## Proposed domains ranked by score
 
 355 domain(s) proposed for validation, of which 27 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

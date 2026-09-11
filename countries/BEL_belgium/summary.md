@@ -28,21 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-8 confirmed domain(s): 8 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| belgium.be | central | curated |  |
-| economie.fgov.be | central | curated |  |
-| fed-parl.be | central | curated |  |
-| federale-regering.be | central | curated |  |
-| fgov.be | central | curated |  |
-| gouvernement-federal.be | central | curated |  |
-| ibz.be | central | curated |  |
-| mil.be | central | curated |  |
-
 ## Proposed domains ranked by score
 
 274 domain(s) proposed for validation, of which 47 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

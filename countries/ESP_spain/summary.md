@@ -28,49 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-36 confirmed domain(s): 36 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| administracion.gob.es | central | curated |  |
-| ciencia.gob.es | central | curated |  |
-| congreso.es | central | curated | Congress of Deputies |
-| consejo-estado.es | central | curated |  |
-| cultura.gob.es | central | curated |  |
-| defensa.gob.es | central | curated |  |
-| digital.gob.es | central | curated |  |
-| dsca.gob.es | central | curated |  |
-| educacionfpydeportes.gob.es | central | curated |  |
-| exteriores.gob.es | central | curated |  |
-| gob.es | central | curated |  |
-| hacienda.gob.es | central | curated |  |
-| igualdad.gob.es | central | curated |  |
-| inclusion.gob.es | central | curated |  |
-| interior.gob.es | central | curated |  |
-| juventudeinfancia.gob.es | central | curated |  |
-| lamoncloa.gob.es | central | curated |  |
-| mapa.gob.es | central | curated |  |
-| mapama.gob.es | central | curated |  |
-| mcu.es | central | curated |  |
-| mdsocialesa2030.gob.es | central | curated |  |
-| mineco.gob.es | central | curated |  |
-| minetad.gob.es | central | curated |  |
-| minhafp.gob.es | central | curated |  |
-| mintur.gob.es | central | curated |  |
-| miteco.gob.es | central | curated |  |
-| mites.gob.es | central | curated |  |
-| mitramiss.gob.es | central | curated |  |
-| mjusticia.gob.es | central | curated |  |
-| mpr.gob.es | central | curated |  |
-| mpt.gob.es | central | curated |  |
-| mptfp.gob.es | central | curated |  |
-| msssi.gob.es | central | curated |  |
-| sanidad.gob.es | central | curated |  |
-| senado.es | central | curated | Senate of Spain |
-| transportes.gob.es | central | curated |  |
-
 ## Proposed domains ranked by score
 
 599 domain(s) proposed for validation, of which 85 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

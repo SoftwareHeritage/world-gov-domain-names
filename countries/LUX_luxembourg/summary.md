@@ -28,17 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-4 confirmed domain(s): 4 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| chd.lu | central | curated |  |
-| gouvernement.lu | central | curated |  |
-| men.public.lu | central | curated |  |
-| public.lu | central | curated |  |
-
 ## Proposed domains ranked by score
 
 19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).

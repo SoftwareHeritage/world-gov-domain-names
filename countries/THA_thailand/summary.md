@@ -28,14 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-1 confirmed domain(s): 1 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| go.th | central | curated |  |
-
 ## Proposed domains ranked by score
 
 60 domain(s) proposed for validation, of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

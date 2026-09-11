@@ -28,17 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-4 confirmed domain(s): 4 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| government.nl | central | curated |  |
-| overheid.nl | central | curated |  |
-| rijksoverheid.nl | central | curated | Rijksoverheid (central-government portal) |
-| staten-generaal.nl | central | curated |  |
-
 ## Proposed domains ranked by score
 
 202 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

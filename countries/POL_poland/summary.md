@@ -28,17 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-4 confirmed domain(s): 1 `central`, 3 `local`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| gov.pl | central | curated |  |
-| pup.gov.pl | local | curated | Powiatowe urzędy pracy (offices du travail des powiats) |
-| ug.gov.pl | local | curated | Urzędy gmin (communes rurales — hôtes <gmina>.ug.gov.pl) |
-| um.gov.pl | local | curated | Urzędy miast (mairies — hôtes <ville>.um.gov.pl) |
-
 ## Proposed domains ranked by score
 
 322 domain(s) proposed for validation, of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

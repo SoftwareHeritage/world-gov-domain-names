@@ -28,51 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-38 confirmed domain(s): 1 `central`, 36 `central-1`, 1 `local`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| abiastate.gov.ng | central-1 | curated | Abia State |
-| adamawastate.gov.ng | central-1 | curated | Adamawa State |
-| akwaibomstate.gov.ng | central-1 | curated | Akwa Ibom State |
-| anambrastate.gov.ng | central-1 | curated | Anambra State |
-| bauchistate.gov.ng | central-1 | curated | Bauchi State |
-| bayelsastate.gov.ng | central-1 | curated | Bayelsa State |
-| benuestate.gov.ng | central-1 | curated | Benue State |
-| bornostate.gov.ng | central-1 | curated | Borno State |
-| crossriverstate.gov.ng | central-1 | curated | Cross River State |
-| deltastate.gov.ng | central-1 | curated | Delta State |
-| ebonyistate.gov.ng | central-1 | curated | Ebonyi State |
-| edostate.gov.ng | central-1 | curated | Edo State |
-| ekitistate.gov.ng | central-1 | curated | Ekiti State |
-| enugustate.gov.ng | central-1 | curated | Enugu State |
-| gombestate.gov.ng | central-1 | curated | Gombe State |
-| gov.ng | central | curated |  |
-| imostate.gov.ng | central-1 | curated | Imo State |
-| jigawastate.gov.ng | central-1 | curated | Jigawa State |
-| kadunastate.gov.ng | central-1 | curated | Kaduna State |
-| kanostate.gov.ng | central-1 | curated | Kano State |
-| katsinastate.gov.ng | central-1 | curated | Katsina State |
-| kebbistate.gov.ng | central-1 | curated | Kebbi State |
-| kogistate.gov.ng | central-1 | curated | Kogi State |
-| kwarastate.gov.ng | central-1 | curated | Kwara State |
-| lagosstate.gov.ng | central-1 | curated | Lagos State |
-| lg.gov.ng | local | curated | Local government areas (LGA de Lagos — hôtes <lga>.lg.gov.ng) |
-| nasarawastate.gov.ng | central-1 | curated | Nasarawa State |
-| nigerstate.gov.ng | central-1 | curated | Niger State |
-| ogunstate.gov.ng | central-1 | curated | Ogun State |
-| ondostate.gov.ng | central-1 | curated | Ondo State |
-| osunstate.gov.ng | central-1 | curated | Osun State |
-| oyostate.gov.ng | central-1 | curated | Oyo State |
-| plateaustate.gov.ng | central-1 | curated | Plateau State |
-| riversstate.gov.ng | central-1 | curated | Rivers State |
-| sokotostate.gov.ng | central-1 | curated | Sokoto State |
-| tarabastate.gov.ng | central-1 | curated | Taraba State |
-| yobestate.gov.ng | central-1 | curated | Yobe State |
-| zamfarastate.gov.ng | central-1 | curated | Zamfara State |
-
 ## Proposed domains ranked by score
 
 69 domain(s) proposed for validation, of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

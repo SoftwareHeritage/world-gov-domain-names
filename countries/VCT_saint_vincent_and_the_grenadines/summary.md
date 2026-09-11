@@ -28,14 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-1 confirmed domain(s): 1 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| gov.vc | central | curated |  |
-
 ## Proposed domains ranked by score
 
 2 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).

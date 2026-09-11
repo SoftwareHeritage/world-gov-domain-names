@@ -887,38 +887,6 @@
                   (truncate (or st "") 12) " | " src " | "
                   (truncate (or lbl "") 80) " |"))))
 
-(defn- section-confirmed
-  "The confirmed domains of the country (curated.csv, excluded.csv and
-  the registries compiled, see common/compile-confirmed), by level, with
-  their provenance: the readable view of what the decision files amount
-  to."
-  [country-dir]
-  (let [rows (for [[c d level source name] (confirmed-rows) :when (= c country-dir)] [d level source name])
-        by-level (frequencies (map second rows))]
-    (println "## Confirmed domains")
-    (println)
-    (if (seq rows)
-      (do
-        (println (str (count rows) " confirmed domain(s): "
-                      (str/join ", " (for [l ["central" "central-1" "local"]
-                                          :when (get by-level l)]
-                                      (str (get by-level l) " `" l "`")))
-                      ". Compiled from [`curated.csv`](curated.csv)"
-                      (when (fs/exists? (excluded-file country-dir)) ", [`excluded.csv`](excluded.csv)")
-                      (when-let [rs (seq (registries country-dir))]
-                        (str " and the " (str/join ", " (map #(str "`" % "`") rs)) " registr"
-                             (if (next rs) "ies" "y")))
-                      "."))
-        (println)
-        (println "| domain | level | source | name |")
-        (println "|---|---|---|---|")
-        (doseq [[d level source name] (take 50 rows)]
-          (println (str "| " d " | " level " | " source " | " name " |")))
-        (when (> (count rows) 50)
-          (println (str "| … | | | " (- (count rows) 50) " more |"))))
-      (println "No confirmed domain yet: curate one in `curated.csv`."))
-    (println)))
-
 (defn- section-proposed [path]
   (when (fs/exists? path)
     (let [cands (rest (read-csv-raw path))
@@ -997,7 +965,6 @@
             (section-overview (assoc ctx :n-collected (count collected)))
             (section-un-portal country-dir un-portal collected)
             (section-factbook ctx)
-            (section-confirmed country-dir)
             (section-proposed prop-path)
             (section-cctld-anomalies country-dir cctld collected)))
     (println (str "=== " country-dir " -> " out))))

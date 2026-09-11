@@ -28,64 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-282 confirmed domain(s): 1 `central`, 139 `central-1`, 142 `local`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| acambaro.gob.mx | local | curated | Acámbaro (Guanajuato) |
-| acapulco.gob.mx | local | curated | Acapulco de Juárez (Guerrero) |
-| aguadehermosillo.gob.mx | local | curated | Agua de Hermosillo (agua municipal de Hermosillo) |
-| aguascalientes.gob.mx | central-1 | curated | Aguascalientes (estado) |
-| aguaxalapa.gob.mx | local | curated | CMAS Xalapa (agua municipal) |
-| alamotemapache.gob.mx | local | curated | Álamo Temapache (Veracruz) |
-| ase-sinaloa.gob.mx | central-1 | curated | Auditoría Superior del Estado de Sinaloa |
-| aseh.gob.mx | central-1 | curated | Auditoría Superior del Estado de Hidalgo |
-| asenl.gob.mx | central-1 | curated | Auditoría Superior del Estado de Nuevo León |
-| aseoaxaca.gob.mx | central-1 | curated | Auditoría Superior del Estado de Oaxaca |
-| aseqroo.gob.mx | central-1 | curated | Auditoría Superior del Estado de Quintana Roo |
-| aseslp.gob.mx | central-1 | curated | Auditoría Superior del Estado de San Luis Potosí |
-| atizapan.gob.mx | local | curated | Atizapán de Zaragoza (México) |
-| atzompa.gob.mx | local | curated | Santa María Atzompa (Oaxaca) |
-| auditoriachihuahua.gob.mx | central-1 | curated | Auditoría Superior del Estado de Chihuahua |
-| axutlamunicipio.gob.mx | local | curated | Axutla (Puebla) |
-| ayotlanjalisco.gob.mx | local | curated | Ayotlán (Jalisco) |
-| bajacalifornia.gob.mx | central-1 | curated | Baja California (estado) |
-| bcs.gob.mx | central-1 | curated | Baja California Sur (estado) |
-| bocadelrio.gob.mx | local | curated | Boca del Río (Veracruz) |
-| cadpemichoacan.gob.mx | central-1 | curated | Comité de Adquisiciones del Poder Ejecutivo de Michoacán |
-| cajeme.gob.mx | local | curated | Cajeme (Sonora) |
-| calimaya.gob.mx | local | curated | Calimaya (México) |
-| campeche.gob.mx | central-1 | curated | Campeche (estado) |
-| cancun.gob.mx | local | curated | Cancún - Benito Juárez (Quintana Roo) |
-| carmen.gob.mx | local | curated | Carmen (Campeche) |
-| catastrodecoahuila.gob.mx | central-1 | curated | Catastro del Estado de Coahuila |
-| catastroloscabos.gob.mx | local | curated | Catastro de Los Cabos (Baja California Sur) |
-| cccedomex.gob.mx | central-1 | curated | Centro de Control de Confianza del Estado de México |
-| cdmx.gob.mx | central-1 | curated | Ciudad de México |
-| cdobregon.gob.mx | local | curated | Ciudad Obregón - Cajeme (Sonora) |
-| ceaqueretaro.gob.mx | central-1 | curated | Comisión Estatal de Aguas de Querétaro |
-| cescdmx.gob.mx | central-1 | curated | Consejo Económico y Social de la Ciudad de México |
-| cesp-yucatan.gob.mx | central-1 | curated | Consejo Estatal de Seguridad Pública de Yucatán |
-| cespcampeche.gob.mx | central-1 | curated | Consejo Estatal de Seguridad Pública de Campeche |
-| cespe.gob.mx | central-1 | curated | Comisión Estatal de Servicios Públicos de Ensenada (Baja California) |
-| cespnay.gob.mx | central-1 | curated | Consejo Estatal de Seguridad Pública de Nayarit |
-| cespt.gob.mx | central-1 | curated | Comisión Estatal de Servicios Públicos de Tijuana (Baja California) |
-| chiapas.gob.mx | central-1 | curated | Chiapas (estado) |
-| chignahuapan.gob.mx | local | curated | Chignahuapan (Puebla) |
-| chihuahua.gob.mx | central-1 | curated | Chihuahua (estado) |
-| cmascoatepec.gob.mx | local | curated | CMAS Coatepec (agua municipal - Veracruz) |
-| cmasxalapa.gob.mx | local | curated | CMAS Xalapa (agua municipal - Veracruz) |
-| coahuila.gob.mx | central-1 | curated | Coahuila de Zaragoza (estado) |
-| coatlandelrio.gob.mx | local | curated | Coatlán del Río (Morelos) |
-| coesvidgo.gob.mx | central-1 | curated | Comisión Estatal de Vivienda de Durango |
-| col.gob.mx | central-1 | curated | Colima (estado) |
-| colima.gob.mx | local | curated | Colima (municipio) |
-| comprasbc.gob.mx | central-1 | curated | Compras del Gobierno de Baja California |
-| compraver.gob.mx | central-1 | curated | Compras del Gobierno del Estado de Veracruz |
-| … | | | 232 more |
-
 ## Proposed domains ranked by score
 
 54 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

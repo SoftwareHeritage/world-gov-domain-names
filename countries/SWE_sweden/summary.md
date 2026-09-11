@@ -28,16 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-3 confirmed domain(s): 3 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| government.se | central | curated |  |
-| regeringen.se | central | curated |  |
-| riksdagen.se | central | curated |  |
-
 ## Proposed domains ranked by score
 
 312 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).

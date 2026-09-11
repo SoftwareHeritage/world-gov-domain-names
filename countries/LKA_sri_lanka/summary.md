@@ -28,26 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-13 confirmed domain(s): 1 `central`, 9 `central-1`, 3 `local`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| cp.gov.lk | central-1 | curated | Central Province |
-| ep.gov.lk | central-1 | curated | Eastern Province |
-| gov.lk | central | curated |  |
-| mc.gov.lk | local | curated | Municipal councils |
-| nc.gov.lk | central-1 | curated | North Central Province |
-| np.gov.lk | central-1 | curated | Northern Province |
-| nw.gov.lk | central-1 | curated | North Western Province |
-| ps.gov.lk | local | curated | Pradeshiya sabhas (conseils de division) |
-| sg.gov.lk | central-1 | curated | Sabaragamuwa Province |
-| sp.gov.lk | central-1 | curated | Southern Province |
-| uc.gov.lk | local | curated | Urban councils |
-| up.gov.lk | central-1 | curated | Uva Province |
-| wp.gov.lk | central-1 | curated | Western Province |
-
 ## Proposed domains ranked by score
 
 25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).

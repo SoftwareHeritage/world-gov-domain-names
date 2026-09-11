@@ -28,60 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-47 confirmed domain(s): 47 `central`. Compiled from [`curated.csv`](curated.csv) and the `lannuaire` registry.
-
-| domain | level | source | name |
-|---|---|---|---|
-| agence-adoption.fr | central | lannuaire |  |
-| agence-biomedecine.fr | central | lannuaire |  |
-| anr.fr | central | curated | French National Research Agency (ANR) |
-| arcep.fr | central | lannuaire |  |
-| banque-france.fr | central | lannuaire |  |
-| bnf.fr | central | lannuaire |  |
-| cea.fr | central | curated | CEA (Alternative Energies and Atomic Energy Commission) |
-| cefil.fr | central | lannuaire |  |
-| cepii.fr | central | lannuaire |  |
-| cna-alimentation.fr | central | lannuaire |  |
-| cned.fr | central | lannuaire |  |
-| cnes.fr | central | lannuaire |  |
-| cnmss.fr | central | lannuaire |  |
-| defense-mobilite.fr | central | lannuaire |  |
-| dgesip.fr | central | lannuaire |  |
-| dilcrah.fr | central | lannuaire |  |
-| dondorganes.fr | central | lannuaire |  |
-| e-socialdesarmees.fr | central | lannuaire |  |
-| ecole-air-espace.fr | central | lannuaire |  |
-| ecoledespupillesdelair.fr | central | lannuaire |  |
-| ecpad.fr | central | lannuaire |  |
-| education.fr | central | lannuaire |  |
-| eetaa722.fr | central | lannuaire |  |
-| francearchives.fr | central | lannuaire |  |
-| gouv.fr | central | curated |  |
-| hcsp.fr | central | lannuaire |  |
-| ifremer.fr | central | curated | Ifremer (French Research Institute for Exploitation of the Sea) |
-| igesa.fr | central | lannuaire |  |
-| ihedn.fr | central | lannuaire |  |
-| info-militaire.fr | central | lannuaire |  |
-| inria.fr | central | lannuaire |  |
-| insee.fr | central | lannuaire |  |
-| insep.fr | central | lannuaire |  |
-| invalides.fr | central | lannuaire |  |
-| ird.fr | central | lannuaire |  |
-| irsem.fr | central | lannuaire |  |
-| minint.fr | central | lannuaire |  |
-| msa.fr | central | lannuaire |  |
-| musee-armee.fr | central | lannuaire |  |
-| onac-vg.fr | central | lannuaire |  |
-| onpv.fr | central | lannuaire |  |
-| oqali.fr | central | lannuaire |  |
-| orientation-pour-tous.fr | central | lannuaire |  |
-| parcoursup.fr | central | lannuaire |  |
-| parlons-fin-de-vie.fr | central | lannuaire |  |
-| securite-sociale.fr | central | lannuaire |  |
-| sengager.fr | central | lannuaire |  |
-
 ## Proposed domains ranked by score
 
 314 domain(s) proposed for validation, of which 19 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

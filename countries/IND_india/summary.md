@@ -28,64 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-263 confirmed domain(s): 1 `central`, 224 `central-1`, 38 `local`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| aarogyasri.gov.in | central-1 | curated | Aarogyasri Health Care Trust (Andhra Pradesh/Telangana) |
-| accountsgoa.gov.in | central-1 | curated | Directorate of Accounts (Goa) |
-| adibasikalyan.gov.in | central-1 | curated | Tribal Development Department (West Bengal) |
-| anagrasarkalyan.gov.in | central-1 | curated | Backward Classes Welfare Department (West Bengal) |
-| andaman.gov.in | central-1 | curated | Andaman and Nicobar Islands |
-| ap.gov.in | central-1 | curated | Andhra Pradesh |
-| apcommercialtaxes.gov.in | central-1 | curated | Commercial Taxes Department (Andhra Pradesh) |
-| apct.gov.in | central-1 | curated | Commercial Taxes Department (Andhra Pradesh) |
-| apdcl.gov.in | central-1 | curated | Assam Power Distribution Company Limited |
-| apfinance.gov.in | central-1 | curated | Finance Department (Andhra Pradesh) |
-| apgenco.gov.in | central-1 | curated | Andhra Pradesh Power Generation Corporation |
-| apindustries.gov.in | central-1 | curated | Industries Department (Andhra Pradesh) |
-| aponline.gov.in | central-1 | curated | APOnline e-services portal (Andhra Pradesh) |
-| apspsc.gov.in | central-1 | curated | Andhra Pradesh Public Service Commission |
-| apsrtc.gov.in | central-1 | curated | Andhra Pradesh State Road Transport Corporation |
-| aptransco.gov.in | central-1 | curated | Transmission Corporation of Andhra Pradesh |
-| arunachalpradesh.gov.in | central-1 | curated | Arunachal Pradesh |
-| arunachaltenders.gov.in | central-1 | curated | Arunachal Pradesh e-procurement |
-| assam.gov.in | central-1 | curated | Assam |
-| assamtenders.gov.in | central-1 | curated | Assam e-procurement |
-| banglarmukh.gov.in | central-1 | curated | Banglar Mukh state portal (West Bengal) |
-| barrackpore.gov.in | local | curated | Barrackpore Sub-Division (West Bengal) |
-| barrackpore1block.gov.in | local | curated | Barrackpore-I Development Block (West Bengal) |
-| bihar.gov.in | central-1 | curated | Bihar |
-| biharcommercialtax.gov.in | central-1 | curated | Commercial Taxes Department (Bihar) |
-| biharpolice.gov.in | central-1 | curated | Bihar Police |
-| biharregd.gov.in | central-1 | curated | Registration Department (Bihar) |
-| bncmc.gov.in | local | curated | Bhiwandi Nizampur City Municipal Corporation (Maharashtra) |
-| cadc.gov.in | local | curated | Chakma Autonomous District Council (Mizoram) |
-| ccmc.gov.in | local | curated | Coimbatore City Municipal Corporation (Tamil Nadu) |
-| ccpur.gov.in | local | curated | Churachandpur District (Manipur) |
-| cctnsup.gov.in | central-1 | curated | Uttar Pradesh Police CCTNS |
-| cg.gov.in | central-1 | curated | Chhattisgarh |
-| cgeprocurement.gov.in | central-1 | curated | Chhattisgarh e-procurement |
-| cgg.gov.in | central-1 | curated | Centre for Good Governance (Telangana) |
-| cgstate.gov.in | central-1 | curated | Chhattisgarh |
-| chandigarh.gov.in | central-1 | curated | Chandigarh |
-| chennaicorporation.gov.in | local | curated | Greater Chennai Corporation (Tamil Nadu) |
-| chips.gov.in | central-1 | curated | Chhattisgarh infotech Promotion Society |
-| cmkarnataka.gov.in | central-1 | curated | Chief Minister of Karnataka |
-| cmofficehry.gov.in | central-1 | curated | Chief Minister's Office (Haryana) |
-| cooptex.gov.in | central-1 | curated | Tamil Nadu Handloom Weavers' Cooperative Society |
-| cseb.gov.in | central-1 | curated | Chhattisgarh State Electricity Board |
-| ctdbihar.gov.in | central-1 | curated | Commercial Taxes Department (Bihar) |
-| dd.gov.in | central-1 | curated | Daman and Diu |
-| ddd.gov.in | central-1 | curated | Dadra and Nagar Haveli and Daman and Diu |
-| dded.gov.in | central-1 | curated | Daman and Diu Electricity Department |
-| delhi.gov.in | central-1 | curated | Delhi (National Capital Territory) |
-| delhiexcise.gov.in | central-1 | curated | Excise Department (Delhi) |
-| dhulepolice.gov.in | local | curated | Dhule District Police (Maharashtra) |
-| … | | | 213 more |
-
 ## Proposed domains ranked by score
 
 317 domain(s) proposed for validation, of which 46 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

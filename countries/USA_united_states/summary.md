@@ -28,64 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-1322 confirmed domain(s): 1322 `central`. Compiled from [`curated.csv`](curated.csv) and the `cisa` registry.
-
-| domain | level | source | name |
-|---|---|---|---|
-| 18f.gov | central | cisa |  |
-| 250.gov | central | cisa |  |
-| 400yaahc.gov | central | cisa |  |
-| 9-11commission.gov | central | cisa |  |
-| 911.gov | central | cisa |  |
-| 911commission.gov | central | cisa |  |
-| 988.gov | central | cisa |  |
-| aanhpiheritage.gov | central | cisa |  |
-| abd.gov | central | cisa |  |
-| abilityone.gov | central | cisa |  |
-| abmc.gov | central | cisa |  |
-| accedeainternet.gov | central | cisa |  |
-| access-board.gov | central | cisa |  |
-| acf.gov | central | cisa |  |
-| achp.gov | central | cisa |  |
-| acl.gov | central | cisa |  |
-| acquisition.gov | central | cisa |  |
-| acquisitiongateway.gov | central | cisa |  |
-| acus.gov | central | cisa |  |
-| acwi.gov | central | cisa |  |
-| ada.gov | central | cisa |  |
-| adams.gov | central | cisa |  |
-| adf.gov | central | cisa |  |
-| adlnet.gov | central | cisa |  |
-| adr.gov | central | cisa |  |
-| afadvantage.gov | central | cisa |  |
-| aff.gov | central | cisa |  |
-| afrh.gov | central | cisa |  |
-| africanamericanhistorymonth.gov | central | cisa |  |
-| aftac.gov | central | cisa |  |
-| ag.gov | central | cisa |  |
-| aging.gov | central | cisa |  |
-| agingstats.gov | central | cisa |  |
-| aha.gov | central | cisa |  |
-| ahcpr.gov | central | cisa |  |
-| ahrq.gov | central | cisa |  |
-| ai.gov | central | cisa |  |
-| aicenter.gov | central | cisa |  |
-| aids.gov | central | cisa |  |
-| aiexports.gov | central | cisa |  |
-| airknowledge.gov | central | cisa |  |
-| airnow.gov | central | cisa |  |
-| aiworkforcehub.gov | central | cisa |  |
-| alertaenlinea.gov | central | cisa |  |
-| alien.gov | central | cisa |  |
-| aliens.gov | central | cisa |  |
-| altusandc.gov | central | cisa |  |
-| alzheimers.gov | central | cisa |  |
-| ama.gov | central | cisa |  |
-| amberalert.gov | central | cisa |  |
-| … | | | 1272 more |
-
 ## Proposed domains ranked by score
 
 14795 domain(s) proposed for validation, of which 1308 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

@@ -28,39 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-26 confirmed domain(s): 26 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| assembly.go.kr | central | curated |  |
-| go.kr | central | curated |  |
-| gov.kr | central | curated |  |
-| mafra.go.kr | central | curated |  |
-| mcee.go.kr | central | curated |  |
-| mcst.go.kr | central | curated |  |
-| me.go.kr | central | curated |  |
-| mnd.go.kr | central | curated |  |
-| moe.go.kr | central | curated |  |
-| moef.go.kr | central | curated |  |
-| moel.go.kr | central | curated |  |
-| mof.go.kr | central | curated |  |
-| mofa.go.kr | central | curated |  |
-| mogef.go.kr | central | curated |  |
-| mohw.go.kr | central | curated |  |
-| mois.go.kr | central | curated |  |
-| moj.go.kr | central | curated |  |
-| molit.go.kr | central | curated |  |
-| mopas.go.kr | central | curated |  |
-| motie.go.kr | central | curated |  |
-| mpva.go.kr | central | curated |  |
-| msit.go.kr | central | curated |  |
-| mss.go.kr | central | curated |  |
-| nrc.go.kr | central | curated |  |
-| president.go.kr | central | curated |  |
-| unikorea.go.kr | central | curated |  |
-
 ## Proposed domains ranked by score
 
 482 domain(s) proposed for validation, of which 11 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

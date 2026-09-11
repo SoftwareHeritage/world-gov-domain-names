@@ -28,16 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Confirmed domains
-
-3 confirmed domain(s): 3 `central`. Compiled from [`curated.csv`](curated.csv).
-
-| domain | level | source | name |
-|---|---|---|---|
-| gov.ie | central | curated |  |
-| ireland.ie | central | curated |  |
-| oireachtas.ie | central | curated |  |
-
 ## Proposed domains ranked by score
 
 137 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
