@@ -166,7 +166,11 @@
 
 (defn fetch-one!
   "Fetch the subdomains of a harvest file's root from crt.sh and merge them
-  into the file (probes of known hosts preserved). Returns :ok or :fail."
+  into the file (probes of known hosts preserved). Returns :ok or :fail;
+  a failure writes nothing: an empty harvest file would take the root
+  out of unharvested-roots and lose its apex probe (write-probes! prunes
+  sources/probes/roots.csv to them), while retry finds a confirmed root
+  without a file anyway (resolve-harvest-files)."
   [file]
   (let [domain (harvest-root file)
         url (str "https://crt.sh/?q=%25." domain "&output=json")
@@ -189,8 +193,6 @@
         (println (str "OK   " domain " (" (count (read-harvest file)) " lignes)"))
         :ok)
       (do (println (str "FAIL " domain))
-          (when-not (fs/exists? file)
-            (write-harvest! file []))
           :fail))))
 
 (def fetch-fail-log "/tmp/fetch_subdomains.log")
