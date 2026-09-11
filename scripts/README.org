@@ -85,6 +85,12 @@ scripts/pipeline.clj <cmd>=:
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
 #+end_src
 
+The =iana=, =cia=, =un-desa=, =oecd= and =meta= phases fill one table
+each under =data/sources/= (=iana.csv=, =cia_factbook.csv=,
+=un_desa.csv=, =oecd.csv=, =country_data.csv=), one row per country
+keyed by =country_dir=, holding only the fields =summary.md= and the
+scoring read; a country with a row is skipped unless =FORCE=1=.
+
 Two more side scripts share the same layout:
 
 - =scripts/detect-from-directories.clj= (=bb directories harvest [C…]=)

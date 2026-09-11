@@ -282,46 +282,30 @@
                                 html))]
       (str/trim match))))
 
-(defn iana-extract-url [html label]
-  (when html
-    (second
-      (re-find (re-pattern (str "<b>" (java.util.regex.Pattern/quote label)
-                                ":</b> <a href=\"([^\"]+)\""))
-               html))))
-
-(defn iana-extract-whois [html]
-  (when html
-    (some-> (re-find #"WHOIS Server:</b>\s*([^<\s]+)" html)
-            second
-            str/trim)))
+(def iana-header ["country_dir" "cctld" "manager"])
 
 (defn iana-process! [country-dir]
   (let [portal (iana-portal-for country-dir)]
     (if (str/blank? portal)
       (err "  [" country-dir "] no portal in data/world-governments.csv")
-      (let [cctld (-> portal (str/split #"\.") last str/lower-case)
-            out (country-src country-dir "iana" "cctld.csv")]
+      (let [cctld (-> portal (str/split #"\.") last str/lower-case)]
         (cond
           (or (str/blank? cctld) (< (count cctld) 2))
           (err "  [" country-dir "] invalid cctld derived from '" portal "'")
 
-          (skip? out)
+          (table-row-done? "iana" country-dir)
           (println (str "=== " country-dir " (." cctld ") : SKIP"))
 
           :else
           (do
             (println (str "=== " country-dir " (." cctld ") ==="))
             (if-let [html (iana-fetch-html cctld)]
-              (let [prev     (vec (when (fs/exists? out) (second (read-csv-raw out))))
-                    keep-old (fn [v i] (if (str/blank? v) (nth prev i "") v))
-                    manager  (keep-old (or (iana-extract-field html "ccTLD Manager")
-                                           (iana-extract-field html "Sponsoring Organisation")
-                                           "") 1)
-                    registry (keep-old (or (iana-extract-url html "URL for registration services") "") 2)
-                    whois    (keep-old (or (iana-extract-whois html) "") 3)]
-                (write-csv-file out ["cctld" "manager" "registry_url" "whois_server"]
-                                [[(str "." cctld) manager registry whois]])
-                (println (str "  -> " out " (manager: " (or manager "?") ")"))
+              (let [manager (or (iana-extract-field html "ccTLD Manager")
+                                (iana-extract-field html "Sponsoring Organisation")
+                                "")]
+                (upsert-table-row! "iana" iana-header country-dir
+                                   {"cctld" (str "." cctld) "manager" manager})
+                (println (str "  -> " (source-table "iana") " (manager: " (or (not-empty manager) "?") ")"))
                 (Thread/sleep 1000))
               (err "  failed after 3 attempts for ." cctld))))))))
 
@@ -417,24 +401,22 @@
       :else nil)))
 
 (def cia-fields
-  [["country_name"            ["Country name" "conventional long form"]]
-   ["government_type"         ["Government type"]]
+  "The Factbook fields the summary and the scoring read, and their path
+  in the Government section."
+  [["government_type"         ["Government type"]]
    ["capital"                 ["Capital" "name"]]
    ["chief_of_state"          ["Executive branch" "chief of state"]]
    ["head_of_government"      ["Executive branch" "head of government"]]
-   ["legislature"             ["Legislative branch" "description"]]
-   ["judicial_highest_courts" ["Judicial branch" "highest court(s)"]]
-   ["constitution_history"    ["Constitution" "history"]]])
+   ["judicial_highest_courts" ["Judicial branch" "highest court(s)"]]])
+
+(def cia-header (into ["country_dir"] (map first cia-fields)))
 
 (defn cia-process! [country-dir]
   (let [map-row (mapping-row factbook-map-file country-dir)]
     (if-not map-row
       (err "  [" country-dir "] no Factbook GEC mapping")
-      (let [[_ gec region] map-row
-            raw (country-src country-dir "cia_factbook" "government.json")
-            out (country-src country-dir "cia_factbook" "summary.csv")]
-        (ensure-dir (fs/parent raw))
-        (if (skip? raw)
+      (let [[_ gec region] map-row]
+        (if (table-row-done? "cia_factbook" country-dir)
           (println (str "=== " country-dir " (" gec ") : SKIP"))
           (do
             (println (str "=== " country-dir " (" gec ", " region ") ==="))
@@ -443,20 +425,13 @@
                   body (http-get url {:timeout 30 :accept "application/json"})]
               (if (str/blank? body)
                 (err "  fetch failed")
-                (let [parsed (json/parse-string body true)
-                      gov (:Government parsed)]
+                (let [gov (:Government (json/parse-string body true))]
                   (if (nil? gov)
                     (err "  no Government section in response")
-                    (do (spit raw (json/generate-string gov {:pretty true}))
-                        (write-csv-file
-                          out ["field" "text"]
-                          (merge-field-rows
-                            out
-                            (for [[k path] cia-fields
-                                  :let [v (cia-extract gov (map keyword path))]
-                                  :when (not (str/blank? v))]
-                              [k v])))
-                        (println (str "  -> " raw " + " out))
+                    (do (upsert-table-row! "cia_factbook" cia-header country-dir
+                                           (into {} (for [[k path] cia-fields]
+                                                      [k (cia-extract gov (map keyword path))])))
+                        (println (str "  -> " (source-table "cia_factbook")))
                         (Thread/sleep 1000))))))))))))
 
 (defn cmd-cia [args]
@@ -485,13 +460,14 @@
              :when dir]
          [dir id name])))))
 
+(def un-desa-header ["country_dir" "national_portal" "egdi_rank"])
+
 (defn un-desa-process! [country-dir]
   (let [map-row (mapping-row un-desa-map-file country-dir)]
     (if-not map-row
       (err "  [" country-dir "] no UN/DESA id mapping")
-      (let [[_ un-id un-name] map-row
-            out (country-src country-dir "un_desa" "summary.csv")]
-                (if (skip? out)
+      (let [[_ un-id un-name] map-row]
+        (if (table-row-done? "un_desa" country-dir)
           (println (str "=== " country-dir " (UN id=" un-id ") : SKIP"))
           (do
             (println (str "=== " country-dir " (UN id=" un-id " " un-name ") ==="))
@@ -501,13 +477,10 @@
               (if (str/blank? html)
                 (err "  fetch failed")
                 (let [portal (second (re-find #"<a href=\"([^\"]+)\">National Portal</a>" html))
-                      rank (re-find #"Rank \d+ of \d+" html)
-                      rows (cond-> []
-                             portal (conj ["national_portal" portal])
-                             rank   (conj ["egdi_rank" rank])
-                             true   (conj ["source_url" url]))]
-                  (write-csv-file out ["field" "text"] (merge-field-rows out rows))
-                  (println (str "  -> " out " (portal: " (or portal "?")
+                      rank (re-find #"Rank \d+ of \d+" html)]
+                  (upsert-table-row! "un_desa" un-desa-header country-dir
+                                     {"national_portal" (or portal "") "egdi_rank" (or rank "")})
+                  (println (str "  -> " (source-table "un_desa") " (portal: " (or portal "?")
                                 ", " (or rank "no rank") ")"))
                   (Thread/sleep 1000))))))))))
 
@@ -519,9 +492,6 @@
 ;;  Phase 6 -- OECD
 ;; ===========================================================================
 
-(def oecd-gag-url "https://www.oecd.org/en/topics/government-at-a-glance.html")
-(def oecd-sdmx-url "https://sdmx.oecd.org/public/rest/dataflow/OECD.GOV.GIP/DSD_GOV@DF_GOV_2025")
-
 ;; 38 members as of May 2026 (latest accession: Croatia 2025).
 (def oecd-members
   {"AUS" 1971 "AUT" 1961 "BEL" 1961 "CAN" 1961 "CHL" 2010 "COL" 2020
@@ -532,24 +502,22 @@
    "PRT" 1961 "SVK" 2000 "SVN" 2010 "ESP" 1961 "SWE" 1961 "CHE" 1961
    "TUR" 1961 "GBR" 1961 "USA" 1961})
 
+(def oecd-header ["country_dir" "oecd_member" "member_since"])
+
 (defn oecd-process! [country-dir]
   (let [iso3 (first (str/split country-dir #"_"))
-        out (country-src country-dir "oecd" "membership.csv")
         since (get oecd-members iso3)]
-        (cond
-      (skip? out)
+    (cond
+      (table-row-done? "oecd" country-dir)
       (println (str "=== " country-dir " : SKIP"))
 
       since
-      (do (write-csv-file out ["field" "text"]
-                          [["oecd_member" "yes"]
-                           ["member_since" (str since)]
-                           ["gov_at_a_glance" oecd-gag-url]
-                           ["sdmx_dataflow" oecd-sdmx-url]])
+      (do (upsert-table-row! "oecd" oecd-header country-dir
+                             {"oecd_member" "yes" "member_since" (str since)})
           (println (str "=== " country-dir " : OECD member (since " since ")")))
 
       :else
-      (do (write-csv-file out ["field" "text"] [["oecd_member" "no"]])
+      (do (upsert-table-row! "oecd" oecd-header country-dir {"oecd_member" "no"})
           (println (str "=== " country-dir " : non-member"))))))
 
 (defn cmd-oecd [args] (iter-countries oecd-process! args))
@@ -561,11 +529,11 @@
 (def conc-meta (env-int "CONC_META" 4))
 
 (defn meta-rest-countries
-  "Fetch region/subregion/languages/currency/population/capital for an ISO3
-  code from restcountries.com. Returns a map or nil."
+  "Fetch region/subregion/languages/currency/population for an ISO3 code
+  from restcountries.com. Returns a map or nil."
   [iso3]
   (let [body (http-get (str "https://restcountries.com/v3.1/alpha/" iso3
-                            "?fields=region,subregion,languages,currencies,population,capital")
+                            "?fields=region,subregion,languages,currencies,population")
                        {:timeout 30 :accept "application/json"})]
     (when body
       (try
@@ -574,8 +542,7 @@
            :subregion  (or (:subregion d) "")
            :languages  (->> (vals (:languages d)) (str/join "; "))
            :currencies (->> (:currencies d) keys (map name) (str/join "; "))
-           :population (str (or (:population d) ""))
-           :capital    (->> (:capital d) (str/join "; "))})
+           :population (str (or (:population d) ""))})
         (catch Exception _ nil)))))
 
 (defn meta-world-bank-gdp
@@ -592,33 +559,30 @@
             [(:value entry) (:date entry)]))
         (catch Exception _ nil)))))
 
+(def meta-header ["country_dir" "region" "subregion" "languages" "currencies"
+                  "population" "gdp_per_capita" "gdp_year"])
+
 (defn meta-process! [country-dir]
-  (let [iso3 (first (str/split country-dir #"_"))
-        out  (country-src country-dir "country_data" "info.csv")]
-    (ensure-dir (fs/parent out))
-    (if (skip? out)
+  (let [iso3 (first (str/split country-dir #"_"))]
+    (if (table-row-done? "country_data" country-dir)
       (println (str "=== " country-dir " : SKIP"))
       (let [rc  (meta-rest-countries iso3)
             gdp (meta-world-bank-gdp iso3)
             [gdp-val gdp-year] gdp]
-        ;; when BOTH fetches failed, do not write: an all-blank info.csv
-        ;; would satisfy skip? on the next runs and freeze the failure
+        ;; when BOTH fetches failed, do not write: an all-blank row would
+        ;; satisfy table-row-done? on the next runs and freeze the failure
         (if (and (nil? rc) (nil? gdp))
           (err (str "=== " country-dir " : both metadata fetches failed;"
-                    " not writing " out))
+                    " not writing " (source-table "country_data")))
           (do
-            (write-csv-file
-              out ["field" "value"]
-              (merge-field-rows
-                out
-                [["region"          (or (:region rc) "")]
-                 ["subregion"       (or (:subregion rc) "")]
-                 ["languages"       (or (:languages rc) "")]
-                 ["currencies"      (or (:currencies rc) "")]
-                 ["population"      (or (:population rc) "")]
-                 ["capital"         (or (:capital rc) "")]
-                 ["gdp_per_capita"  (if gdp-val (format "%.0f" (double gdp-val)) "")]
-                 ["gdp_year"        (or gdp-year "")]]))
+            (upsert-table-row! "country_data" meta-header country-dir
+                               {"region"         (or (:region rc) "")
+                                "subregion"      (or (:subregion rc) "")
+                                "languages"      (or (:languages rc) "")
+                                "currencies"     (or (:currencies rc) "")
+                                "population"     (or (:population rc) "")
+                                "gdp_per_capita" (if gdp-val (format "%.0f" (double gdp-val)) "")
+                                "gdp_year"       (or gdp-year "")})
             (println (str "=== " country-dir " : " (or (:region rc) "?")
                           " / GDP " (if gdp-val (format "%.0f" (double gdp-val)) "?")
                           " (" (or gdp-year "?") ")"))))

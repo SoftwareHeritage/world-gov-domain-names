@@ -433,20 +433,14 @@
                     [d d st mx])]
     (sort-by first (concat harvested roots))))
 
-(defn- country-meta-field
-  "Read one field from countries/<c>/sources/country_data/info.csv (or \"\")."
-  [country-dir field]
-  (or (csv-field (country-src country-dir "country_data" "info.csv") field)
-      ""))
-
 (defn- country-meta-map
-  "Map country_dir -> {:region :langs :gdp} from each country's metadata."
+  "Map country_dir -> {:region :langs :gdp} from data/sources/country_data.csv."
   []
   (into {}
         (for [c (country-dirs)]
-          [c {:region (country-meta-field c "region")
-              :langs  (country-meta-field c "languages")
-              :gdp    (country-meta-field c "gdp_per_capita")}])))
+          [c {:region (table-field "country_data" c "region")
+              :langs  (table-field "country_data" c "languages")
+              :gdp    (table-field "country_data" c "gdp_per_capita")}])))
 
 (def public-sector-file "data/public-sector-domains.csv")
 (def policy-file        "data/public-sector-domains-central+-policy.csv")
@@ -745,9 +739,6 @@
   domains and the country's excluded ones."
   [country-dir]
   (let [src #(country-src country-dir %1 %2)
-        iana-path (src "iana" "cctld.csv")
-        un-path   (src "un_desa" "summary.csv")
-        cia-path  (src "cia_factbook" "summary.csv")
         wd-path   (src "wikidata" "central_admin.csv")
         sub-path  (src "wikidata" "subdivisions_level1.csv")]
     {:wd-by-host     (wikidata-by-host (when (fs/exists? wd-path) (rest (read-csv-raw wd-path))))
@@ -757,11 +748,9 @@
                                 [hostname n]))
      :dir-by-host    (into {} (for [{:strs [hostname evidence]} (read-csv-file (src "directory" "orgs.csv"))]
                                 [hostname {:evidence (or evidence "")}]))
-     :un-portal-host (extract-host (csv-field un-path "national_portal"))
-     :fb-phrases     (extract-factbook-phrases (csv-field cia-path "judicial_highest_courts"))
-     :cctld-primary  (when (fs/exists? iana-path)
-                       (some-> (first (second (read-csv-raw iana-path)))    ; row 2, col 1
-                               (str/replace #"^\." "")))
+     :un-portal-host (extract-host (table-field "un_desa" country-dir "national_portal"))
+     :fb-phrases     (extract-factbook-phrases (table-field "cia_factbook" country-dir "judicial_highest_courts"))
+     :cctld-primary  (not-empty (str/replace (table-field "iana" country-dir "cctld") #"^\." ""))
      :level1-pattern (when (fs/exists? sub-path)
                        (level1-pattern (map second (rest (read-csv-raw sub-path)))))
      :known          (confirmed-domains)
@@ -976,36 +965,31 @@
   "Generate countries/<c>/summary.md (and proposed.csv) for one country."
   [country-dir collected-by-country un-status-by-country]
   (score-candidates-for! country-dir)
-  (let [iana-path (country-src country-dir "iana" "cctld.csv")
-        oecd-path (country-src country-dir "oecd" "membership.csv")
-        un-path   (country-src country-dir "un_desa" "summary.csv")
-        cia-path  (country-src country-dir "cia_factbook" "summary.csv")
-        meta-path (country-src country-dir "country_data" "info.csv")
-        prop-path  (str "countries/" country-dir "/proposed.csv")
+  (let [prop-path  (str "countries/" country-dir "/proposed.csv")
         out        (str "countries/" country-dir "/summary.md")
-        [cctld manager] (when (fs/exists? iana-path)
-                          (let [r (second (read-csv-raw iana-path))]
-                            [(nth r 0 nil) (nth r 1 nil)]))
+        field      (fn [source col] (let [v (table-field source country-dir col)]
+                                      (when-not (str/blank? v) v)))
         ctx {:un-st          (get un-status-by-country country-dir)
-             :cctld          cctld
-             :manager        manager
-             :region         (csv-field meta-path "region")
-             :subregion      (csv-field meta-path "subregion")
-             :languages      (csv-field meta-path "languages")
-             :population     (csv-field meta-path "population")
-             :gdp-per-capita (csv-field meta-path "gdp_per_capita")
-             :gdp-year       (csv-field meta-path "gdp_year")
-             :currencies     (csv-field meta-path "currencies")
-             :oecd-status    (csv-field oecd-path "oecd_member")
-             :oecd-since     (csv-field oecd-path "member_since")
-             :un-rank        (csv-field un-path "egdi_rank")
-             :fb-govtype     (csv-field cia-path "government_type")
-             :fb-capital     (csv-field cia-path "capital")
-             :fb-courts      (csv-field cia-path "judicial_highest_courts")
-             :fb-chief       (csv-field cia-path "chief_of_state")
-             :fb-head        (csv-field cia-path "head_of_government")}
+             :cctld          (field "iana" "cctld")
+             :manager        (field "iana" "manager")
+             :region         (field "country_data" "region")
+             :subregion      (field "country_data" "subregion")
+             :languages      (field "country_data" "languages")
+             :population     (field "country_data" "population")
+             :gdp-per-capita (field "country_data" "gdp_per_capita")
+             :gdp-year       (field "country_data" "gdp_year")
+             :currencies     (field "country_data" "currencies")
+             :oecd-status    (field "oecd" "oecd_member")
+             :oecd-since     (field "oecd" "member_since")
+             :un-rank        (field "un_desa" "egdi_rank")
+             :fb-govtype     (field "cia_factbook" "government_type")
+             :fb-capital     (field "cia_factbook" "capital")
+             :fb-courts      (field "cia_factbook" "judicial_highest_courts")
+             :fb-chief       (field "cia_factbook" "chief_of_state")
+             :fb-head        (field "cia_factbook" "head_of_government")}
         collected   (get collected-by-country country-dir [])
-        un-portal   (csv-field un-path "national_portal")]
+        un-portal   (field "un_desa" "national_portal")
+        cctld       (:cctld ctx)]
     (spit out
           (with-out-str
             (println (str "# " country-dir " -- summary"))

@@ -56,7 +56,7 @@
 
 (defn country-src
   "Path under countries/<c>/sources/<source>/. With a file, appends it:
-  (country-src \"FRA_france\" \"iana\" \"cctld.csv\"). With none, the dir."
+  (country-src \"FRA_france\" \"crtsh\" \"gouv.fr.csv\"). With none, the dir."
   [country-dir source & [file]]
   (str "countries/" country-dir "/sources/" source (when file (str "/" file))))
 
@@ -282,13 +282,6 @@
                 :when s]
             [c s]))))
 
-(defn csv-field
-  "Read column 2 of a key-value CSV for the row where col1 == k."
-  [csv-path k]
-  (some (fn [[col1 col2]]
-          (when (= col1 k) col2))
-        (rest (read-csv-raw csv-path))))
-
 (defn mapping-row
   "First data row (header dropped) of a CSV whose first column equals k, or nil."
   [csv-path k]
@@ -304,22 +297,66 @@
        vals
        (sort-by first)))
 
-(defn merge-field-rows
-  "Merge freshly-fetched [field value] rows into the existing field-CSV at path
-  so a (re)fetch only ADDS or UPDATES, never erases: a new non-blank value
-  updates its field, a blank new value falls back to the existing value, and any
-  pre-existing field the fetch did not emit is preserved. Order: emitted fields
-  first (in fetch order), then extra pre-existing fields."
-  [path new-rows]
-  (let [existing     (when (fs/exists? path) (rest (read-csv-raw path)))
-        existing-map (into {} (for [[k v] existing] [k v]))
-        emitted      (set (map first new-rows))
-        primary (for [[k v] new-rows]
-                  [k (if (str/blank? v) (get existing-map k "") v)])
-        extra   (for [[k v] existing :when (not (emitted k))] [k v])]
-    (concat primary extra)))
-
 (defn skip? [out-path] (and (fs/exists? out-path) (not force?)))
+
+;; ---------------------------------------------------------------------------
+;;  Country-metadata tables -- data/sources/<source>.csv
+;; ---------------------------------------------------------------------------
+;; One table per enrichment source (iana, cia_factbook, un_desa, oecd,
+;; country_data), one row per country keyed by country_dir, holding only
+;; the fields the reports and the scoring read. Read once per run and
+;; cached; upsert-table-row! rewrites the table under a lock, as the
+;; enrich sources process countries in parallel.
+
+(defn source-table [source] (str "data/sources/" source ".csv"))
+
+(def ^:private tables-cache (atom {}))
+(def ^:private tables-lock (Object.))
+
+(defn read-table
+  "{country_dir {column value}} of data/sources/<source>.csv; {} when absent."
+  [source]
+  (or (get @tables-cache source)
+      (locking tables-lock
+        (or (get @tables-cache source)
+            (let [rows (into {} (for [{:strs [country_dir] :as row} (read-csv-file (source-table source))]
+                                  [country_dir row]))]
+              (swap! tables-cache assoc source rows)
+              rows)))))
+
+(defn table-row
+  "The {column value} row of a country in data/sources/<source>.csv, or nil."
+  [source country-dir]
+  (get (read-table source) country-dir))
+
+(defn table-field
+  "One field of a country's row in data/sources/<source>.csv, \"\" when absent."
+  [source country-dir column]
+  (or (get (table-row source country-dir) column) ""))
+
+(defn table-row-done?
+  "True when the country already has a row in the table and FORCE is not set:
+  the per-row counterpart of skip?."
+  [source country-dir]
+  (and (some? (table-row source country-dir)) (not force?)))
+
+(defn upsert-table-row!
+  "Replace or add the row of country-dir in data/sources/<source>.csv
+  (header: country_dir first, then the columns; new-row: {column value}).
+  A blank new value keeps the existing one, so a refetch only adds or
+  updates, never erases. Rows ASCII-sorted by country_dir. Thread-safe."
+  [source header country-dir new-row]
+  (locking tables-lock
+    (let [rows (read-table source)
+          old  (get rows country-dir {})
+          row  (into {"country_dir" country-dir}
+                     (for [col (rest header)
+                           :let [v (get new-row col "")]]
+                       [col (if (str/blank? v) (get old col "") v)]))
+          rows (assoc rows country-dir row)]
+      (write-csv-file (source-table source) header
+                      (for [[_ r] (sort-by key rows)] (map #(get r % "") header)))
+      (swap! tables-cache assoc source rows))))
 
 ;; ===========================================================================
 ;;  HTTP helpers
