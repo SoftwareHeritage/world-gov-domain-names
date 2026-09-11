@@ -28,6 +28,17 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+4 confirmed domain(s): 4 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| gov.lv | central | curated |  |
+| latvija.lv | central | curated |  |
+| mk.gov.lv | central | curated |  |
+| saeima.lv | central | curated |  |
+
 ## Proposed domains ranked by score
 
 44 domain(s) proposed for validation, of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

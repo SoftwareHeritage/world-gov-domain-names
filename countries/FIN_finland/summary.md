@@ -28,6 +28,28 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+15 confirmed domain(s): 15 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| defmin.fi | central | curated |  |
+| eduskunta.fi | central | curated |  |
+| intermin.fi | central | curated |  |
+| lvm.fi | central | curated |  |
+| mmm.fi | central | curated |  |
+| oikeusministerio.fi | central | curated |  |
+| okm.fi | central | curated |  |
+| stm.fi | central | curated |  |
+| suomi.fi | central | curated |  |
+| tem.fi | central | curated |  |
+| um.fi | central | curated |  |
+| valtioneuvosto.fi | central | curated | Finnish Government (Council of State) |
+| vm.fi | central | curated |  |
+| vnk.fi | central | curated |  |
+| ym.fi | central | curated |  |
+
 ## Proposed domains ranked by score
 
 162 domain(s) proposed for validation, of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

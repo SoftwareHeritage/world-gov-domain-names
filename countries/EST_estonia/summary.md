@@ -28,6 +28,27 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+14 confirmed domain(s): 14 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| agri.ee | central | curated |  |
+| eesti.ee | central | curated |  |
+| envir.ee | central | curated |  |
+| fin.ee | central | curated |  |
+| hm.ee | central | curated |  |
+| justdigi.ee | central | curated |  |
+| kaitseministeerium.ee | central | curated |  |
+| kul.ee | central | curated |  |
+| mkm.ee | central | curated |  |
+| riigikogu.ee | central | curated |  |
+| siseministeerium.ee | central | curated |  |
+| sm.ee | central | curated |  |
+| valitsus.ee | central | curated |  |
+| vm.ee | central | curated |  |
+
 ## Proposed domains ranked by score
 
 55 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).

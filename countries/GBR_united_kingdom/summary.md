@@ -28,6 +28,64 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+7285 confirmed domain(s): 1 `central`, 163 `central-1`, 7121 `local`. Compiled from [`curated.csv`](curated.csv) and the `govuk` registry.
+
+| domain | level | source | name |
+|---|---|---|---|
+| abbasandtemplecombe-pc.gov.uk | local | govuk |  |
+| abbertonandlangenhoeparish.gov.uk | local | govuk |  |
+| abbeydoreandbactongroup-pc.gov.uk | local | govuk |  |
+| abbeyhillparishcouncil.gov.uk | local | govuk |  |
+| abbotskerswell-pc.gov.uk | local | govuk |  |
+| abbotslangley-pc.gov.uk | local | govuk |  |
+| abbotsleighparish.gov.uk | local | govuk |  |
+| abbotsleyparishcouncil.gov.uk | local | govuk |  |
+| abbotsmorton-pc.gov.uk | local | govuk |  |
+| abbotsripton-pc.gov.uk | local | govuk |  |
+| abbottsann-pc.gov.uk | local | govuk |  |
+| abbr-pc.gov.uk | local | govuk |  |
+| abdonandheathparish.gov.uk | local | govuk |  |
+| abenburycommunitycouncil.gov.uk | local | govuk |  |
+| aberdeencity.gov.uk | local | govuk |  |
+| aberdeenshire.gov.uk | local | govuk |  |
+| aberford-pc.gov.uk | local | govuk |  |
+| abergavennytowncouncil.gov.uk | local | govuk |  |
+| abermulellandyssil-cc.gov.uk | local | govuk |  |
+| aberporthcommunitycouncil.gov.uk | local | govuk |  |
+| abertawe.gov.uk | local | curated | Swansea Council (Welsh name) |
+| abertilleryandllanhilleth-wcc.gov.uk | local | govuk |  |
+| aberystwyth.gov.uk | local | govuk |  |
+| abingdon.gov.uk | local | curated | Abingdon Town Council |
+| abinger-pc.gov.uk | local | govuk |  |
+| abington-pc.gov.uk | local | govuk |  |
+| abthorpeparish.gov.uk | local | govuk |  |
+| acastermalbis-pc.gov.uk | local | govuk |  |
+| accessni.gov.uk | central-1 | curated | AccessNI (NI Department of Justice) |
+| accountni.gov.uk | central-1 | curated | Account NI (NI Department of Finance) |
+| accounts-commission.gov.uk | central-1 | curated | Accounts Commission for Scotland |
+| acklington-pc.gov.uk | local | govuk |  |
+| ackworthparishcouncil.gov.uk | local | govuk |  |
+| acleparishcouncil.gov.uk | local | govuk |  |
+| acol-pc.gov.uk | local | govuk |  |
+| acombparish.gov.uk | local | govuk |  |
+| actonbridge-pc.gov.uk | local | govuk |  |
+| actonburnell-pc.gov.uk | local | govuk |  |
+| actoncommunitycouncil.gov.uk | local | govuk |  |
+| actonparishcouncil.gov.uk | local | govuk |  |
+| actontrussellbednall-pc.gov.uk | local | govuk |  |
+| actonturville-pc.gov.uk | local | govuk |  |
+| adderburyparishcouncil.gov.uk | local | govuk |  |
+| adderstonewithluckerparish.gov.uk | local | govuk |  |
+| addingham-pc.gov.uk | local | govuk |  |
+| addington-pc.gov.uk | local | govuk |  |
+| addlethorpeparishcouncil.gov.uk | local | govuk |  |
+| adisham-pc.gov.uk | local | govuk |  |
+| adlington-pc.gov.uk | local | govuk |  |
+| adlingtontowncouncil.gov.uk | local | govuk |  |
+| … | | | 7235 more |
+
 ## Proposed domains ranked by score
 
 1069 domain(s) proposed for validation, of which 114 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

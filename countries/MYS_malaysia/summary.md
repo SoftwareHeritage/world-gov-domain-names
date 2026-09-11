@@ -28,6 +28,27 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+14 confirmed domain(s): 1 `central`, 13 `central-1`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| gov.my | central | curated |  |
+| johor.gov.my | central-1 | curated | Johor |
+| kedah.gov.my | central-1 | curated | Kedah |
+| kelantan.gov.my | central-1 | curated | Kelantan |
+| melaka.gov.my | central-1 | curated | Malacca |
+| ns.gov.my | central-1 | curated | Negeri Sembilan |
+| pahang.gov.my | central-1 | curated | Pahang |
+| penang.gov.my | central-1 | curated | Penang |
+| perak.gov.my | central-1 | curated | Perak |
+| perlis.gov.my | central-1 | curated | Perlis |
+| sabah.gov.my | central-1 | curated | Sabah |
+| sarawak.gov.my | central-1 | curated | Sarawak |
+| selangor.gov.my | central-1 | curated | Selangor |
+| terengganu.gov.my | central-1 | curated | Terengganu |
+
 ## Proposed domains ranked by score
 
 42 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

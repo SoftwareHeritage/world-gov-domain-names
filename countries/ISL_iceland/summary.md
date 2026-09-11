@@ -28,6 +28,17 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+4 confirmed domain(s): 4 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| althingi.is | central | curated |  |
+| domstolasyslan.is | central | curated |  |
+| government.is | central | curated |  |
+| stjornarradid.is | central | curated |  |
+
 ## Proposed domains ranked by score
 
 47 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).

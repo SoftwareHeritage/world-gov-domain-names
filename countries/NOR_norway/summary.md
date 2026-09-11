@@ -28,6 +28,64 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+214 confirmed domain(s): 214 `central`. Compiled from [`curated.csv`](curated.csv) and the `brreg` registry.
+
+| domain | level | source | name |
+|---|---|---|---|
+| ahus.no | central | brreg |  |
+| akkreditert.no | central | brreg |  |
+| anderdalennasjonalpark.no | central | brreg |  |
+| arbeidstilsynet.no | central | brreg |  |
+| artsdatabanken.no | central | brreg |  |
+| aurland-fjellstyre.no | central | brreg |  |
+| banenor.no | central | brreg |  |
+| barneombudet.no | central | brreg |  |
+| bioteknologiradet.no | central | brreg |  |
+| brreg.no | central | brreg |  |
+| bufetat.no | central | brreg |  |
+| bvhn.no | central | brreg |  |
+| carteblanche.no | central | brreg |  |
+| dagligvaretilsynet.no | central | brreg |  |
+| datatilsynet.no | central | brreg |  |
+| dfo.no | central | brreg |  |
+| dibk.no | central | brreg |  |
+| digdir.no | central | brreg |  |
+| dirmin.no | central | brreg |  |
+| diskrimineringsnemnda.no | central | brreg |  |
+| distriktssenteret.no | central | brreg |  |
+| dmp.no | central | brreg |  |
+| dnbe.no | central | brreg |  |
+| dns.no | central | brreg |  |
+| domstol.no | central | brreg |  |
+| dovre-fjellstyre.no | central | brreg |  |
+| dsa.no | central | brreg |  |
+| dsb.no | central | brreg |  |
+| dss.dep.no | central | brreg |  |
+| e18vestfold.no | central | brreg |  |
+| engerdal-fjellstyre.no | central | brreg |  |
+| enova.no | central | brreg |  |
+| ffi.no | central | brreg |  |
+| fhi.no | central | brreg |  |
+| finanstilsynet.no | central | brreg |  |
+| finnmarkssyskehuset.no | central | brreg |  |
+| fiskeridir.no | central | brreg |  |
+| fjellinjen.no | central | brreg |  |
+| fjellstyrene.no | central | brreg |  |
+| fjellstyreneistjordal.no | central | brreg |  |
+| folketrygdfondet.no | central | brreg |  |
+| folldal-fjellstyre.no | central | brreg |  |
+| forbrukerradet.no | central | brreg |  |
+| forbrukertilsynet.no | central | brreg |  |
+| forskningsetikk.no | central | brreg |  |
+| forskningsradet.no | central | brreg |  |
+| forsvaret.no | central | brreg |  |
+| forsvarsbygg.no | central | brreg |  |
+| forsvarshistoriskmuseum.no | central | brreg |  |
+| forsvarsombudet.no | central | brreg |  |
+| … | | | 164 more |
+
 ## Proposed domains ranked by score
 
 142 domain(s) proposed for validation, of which 8 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

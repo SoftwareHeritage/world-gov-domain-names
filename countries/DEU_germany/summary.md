@@ -28,6 +28,33 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+20 confirmed domain(s): 20 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| auswaertiges-amt.de | central | curated |  |
+| bmas.de | central | curated |  |
+| bmbf.de | central | curated |  |
+| bmbfsfj.bund.de | central | curated |  |
+| bmds.bund.de | central | curated |  |
+| bmftr.bund.de | central | curated |  |
+| bmi.bund.de | central | curated |  |
+| bmjv.de | central | curated |  |
+| bmleh.de | central | curated |  |
+| bmv.de | central | curated |  |
+| bmvg.de | central | curated |  |
+| bmwsb.bund.de | central | curated |  |
+| bmz.de | central | curated |  |
+| bund.de | central | curated |  |
+| bundesfinanzministerium.de | central | curated |  |
+| bundesgesundheitsministerium.de | central | curated |  |
+| bundesregierung.de | central | curated |  |
+| bundestag.de | central | curated |  |
+| bundesumweltministerium.de | central | curated |  |
+| bundeswirtschaftsministerium.de | central | curated |  |
+
 ## Proposed domains ranked by score
 
 4335 domain(s) proposed for validation, of which 1016 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

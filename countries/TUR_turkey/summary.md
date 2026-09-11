@@ -28,6 +28,51 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+38 confirmed domain(s): 1 `central`, 9 `central-1`, 28 `local`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| abana-bld.gov.tr | local | curated | Abana Belediyesi |
+| aydin-bld.gov.tr | local | curated | Aydın Belediyesi |
+| babaeski-bld.gov.tr | local | curated | Babaeski Belediyesi |
+| bandirma-bld.gov.tr | local | curated | Bandırma Belediyesi |
+| bartin-bld.gov.tr | local | curated | Bartın Belediyesi |
+| bartinozelidare.gov.tr | central-1 | curated | Bartın İl Özel İdaresi |
+| burdur-bld.gov.tr | local | curated | Burdur Belediyesi |
+| corlu-bld.gov.tr | local | curated | Çorlu Belediyesi |
+| demirci-bld.gov.tr | local | curated | Demirci Belediyesi |
+| erdek-bld.gov.tr | local | curated | Erdek Belediyesi |
+| erzincan-bld.gov.tr | local | curated | Erzincan Belediyesi |
+| eskisehir-bld.gov.tr | local | curated | Eskişehir Belediyesi |
+| gaziantep-bld.gov.tr | local | curated | Gaziantep Belediyesi |
+| gaziantepozelidare.gov.tr | central-1 | curated | Gaziantep İl Özel İdaresi |
+| gov.tr | central | curated |  |
+| incesu-bld.gov.tr | local | curated | İncesu Belediyesi |
+| ispartaozelidare.gov.tr | central-1 | curated | Isparta İl Özel İdaresi |
+| kalkan-bld.gov.tr | local | curated | Kalkan Belediyesi |
+| karabukozelidare.gov.tr | central-1 | curated | Karabük İl Özel İdaresi |
+| karsozelidarecbs.gov.tr | central-1 | curated | Kars İl Özel İdaresi (CBS) |
+| kepez-bld.gov.tr | local | curated | Kepez Belediyesi |
+| kirikkale-bld.gov.tr | local | curated | Kırıkkale Belediyesi |
+| kiziltepe-bld.gov.tr | local | curated | Kızıltepe Belediyesi |
+| mustafakemalpasa-bld.gov.tr | local | curated | Mustafakemalpaşa Belediyesi |
+| narlidere-bld.gov.tr | local | curated | Narlıdere Belediyesi |
+| omerli-bld.gov.tr | local | curated | Ömerli Belediyesi |
+| oren-bld.gov.tr | local | curated | Ören Belediyesi |
+| osmaniyeozelidare.gov.tr | central-1 | curated | Osmaniye İl Özel İdaresi |
+| piraziz-bld.gov.tr | local | curated | Piraziz Belediyesi |
+| rizeozelidare.gov.tr | central-1 | curated | Rize İl Özel İdaresi |
+| sahinbey-bld.gov.tr | local | curated | Şahinbey Belediyesi |
+| silifke-bld.gov.tr | local | curated | Silifke Belediyesi |
+| sivasilozelidaresi.gov.tr | central-1 | curated | Sivas İl Özel İdaresi |
+| sivasozelidare.gov.tr | central-1 | curated | Sivas İl Özel İdaresi (variante) |
+| toroslar-bld.gov.tr | local | curated | Toroslar Belediyesi |
+| uskudar-bld.gov.tr | local | curated | Üsküdar Belediyesi |
+| yenisehir-bld.gov.tr | local | curated | Yenişehir Belediyesi |
+| yildirim-bld.gov.tr | local | curated | Yıldırım Belediyesi |
+
 ## Proposed domains ranked by score
 
 73 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

@@ -28,6 +28,41 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+28 confirmed domain(s): 1 `central`, 27 `central-1`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| ac.gov.br | central-1 | curated | Acre |
+| al.gov.br | central-1 | curated | Alagoas |
+| am.gov.br | central-1 | curated | Amazonas |
+| ap.gov.br | central-1 | curated | Amapá |
+| ba.gov.br | central-1 | curated | Bahia |
+| ce.gov.br | central-1 | curated | Ceará |
+| df.gov.br | central-1 | curated | Distrito Federal |
+| es.gov.br | central-1 | curated | Espírito Santo |
+| go.gov.br | central-1 | curated | Goiás |
+| gov.br | central | curated |  |
+| ma.gov.br | central-1 | curated | Maranhão |
+| mg.gov.br | central-1 | curated | Minas Gerais |
+| ms.gov.br | central-1 | curated | Mato Grosso do Sul |
+| mt.gov.br | central-1 | curated | Mato Grosso |
+| pa.gov.br | central-1 | curated | Pará |
+| pb.gov.br | central-1 | curated | Paraíba |
+| pe.gov.br | central-1 | curated | Pernambuco |
+| pi.gov.br | central-1 | curated | Piauí |
+| pr.gov.br | central-1 | curated | Paraná |
+| rj.gov.br | central-1 | curated | Rio de Janeiro |
+| rn.gov.br | central-1 | curated | Rio Grande do Norte |
+| ro.gov.br | central-1 | curated | Rondônia |
+| rr.gov.br | central-1 | curated | Roraima |
+| rs.gov.br | central-1 | curated | Rio Grande do Sul |
+| sc.gov.br | central-1 | curated | Santa Catarina |
+| se.gov.br | central-1 | curated | Sergipe |
+| sp.gov.br | central-1 | curated | São Paulo |
+| to.gov.br | central-1 | curated | Tocantins |
+
 ## Proposed domains ranked by score
 
 159 domain(s) proposed for validation, of which 28 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

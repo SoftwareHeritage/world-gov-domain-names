@@ -12,6 +12,14 @@
 - OECD: non-member
 - Hosts collected: 553
 
+## Confirmed domains
+
+1 confirmed domain(s): 1 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| gov.ps | central | curated |  |
+
 ## Proposed domains ranked by score
 
 70 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

@@ -28,6 +28,22 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+9 confirmed domain(s): 1 `central`, 8 `central-1`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| act.gov.au | central-1 | curated | Australian Capital Territory |
+| gov.au | central | curated |  |
+| nsw.gov.au | central-1 | curated | New South Wales |
+| nt.gov.au | central-1 | curated | Northern Territory |
+| qld.gov.au | central-1 | curated | Queensland |
+| sa.gov.au | central-1 | curated | South Australia |
+| tas.gov.au | central-1 | curated | Tasmania |
+| vic.gov.au | central-1 | curated | Victoria |
+| wa.gov.au | central-1 | curated | Western Australia |
+
 ## Proposed domains ranked by score
 
 167 domain(s) proposed for validation, of which 16 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

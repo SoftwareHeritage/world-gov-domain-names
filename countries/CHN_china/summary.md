@@ -28,6 +28,64 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+458 confirmed domain(s): 1 `central`, 175 `central-1`, 282 `local`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| 12333sh.gov.cn | central-1 | curated | Shanghai 12333 social security hotline |
+| 12333zjg.gov.cn | local | curated | Zhangjiagang 12333 social security hotline |
+| ah.gov.cn | central-1 | curated | Anhui |
+| ahga.gov.cn | central-1 | curated | Anhui Public Security Department |
+| ahjinzhai.gov.cn | local | curated | Jinzhai county (Anhui) |
+| ahnw.gov.cn | central-1 | curated | Anhui Agriculture Network |
+| ahsz.gov.cn | local | curated | Suzhou city (Anhui) |
+| ahwjw.gov.cn | central-1 | curated | Anhui Health and Family Planning Commission |
+| ahzwfw.gov.cn | central-1 | curated | Anhui Government Services |
+| aihami.gov.cn | local | curated | Hami city (Xinjiang) |
+| anshantiyu.gov.cn | local | curated | Anshan Sports Bureau |
+| aqtyj.gov.cn | local | curated | Anqing Sports Bureau |
+| baic.gov.cn | central-1 | curated | Beijing Administration for Industry and Commerce |
+| baoan.gov.cn | local | curated | Bao'an district (Shenzhen) |
+| bda.gov.cn | local | curated | Beijing Economic-Technological Development Area |
+| beichuan.gov.cn | local | curated | Beichuan county (Sichuan) |
+| beihai.gov.cn | local | curated | Beihai city (Guangxi) |
+| beijing.gov.cn | central-1 | curated | Beijing |
+| binhai.gov.cn | local | curated | Binhai New Area (Tianjin) |
+| bjcg.gov.cn | central-1 | curated | Beijing Urban Management Law Enforcement Bureau |
+| bjchfp.gov.cn | central-1 | curated | Beijing Health and Family Planning Commission |
+| bjcourt.gov.cn | central-1 | curated | Beijing Courts |
+| bjdfz.gov.cn | central-1 | curated | Beijing Local Chronicles Office |
+| bjedu.gov.cn | central-1 | curated | Beijing Education Commission |
+| bjeit.gov.cn | central-1 | curated | Beijing Economy and Information Technology Commission |
+| bjfao.gov.cn | central-1 | curated | Beijing Foreign Affairs Office |
+| bjft.gov.cn | local | curated | Fengtai district (Beijing) |
+| bjggzyfw.gov.cn | central-1 | curated | Beijing Public Resources Trading Service |
+| bjgjj.gov.cn | central-1 | curated | Beijing Housing Provident Fund |
+| bjgzw.gov.cn | central-1 | curated | Beijing SASAC |
+| bjhd.gov.cn | local | curated | Haidian district (Beijing) |
+| bjipo.gov.cn | central-1 | curated | Beijing Intellectual Property Office |
+| bjjtgl.gov.cn | central-1 | curated | Beijing Traffic Management Bureau |
+| bjjtw.gov.cn | central-1 | curated | Beijing Commission of Transport |
+| bjkw.gov.cn | central-1 | curated | Beijing Science and Technology Commission |
+| bjld.gov.cn | central-1 | curated | Beijing Labor and Social Security Bureau |
+| bjlsj.gov.cn | central-1 | curated | Beijing Grain Bureau |
+| bjmzj.gov.cn | central-1 | curated | Beijing Civil Affairs Bureau |
+| bjpta.gov.cn | central-1 | curated | Beijing Personnel Testing Authority |
+| bjrbj.gov.cn | central-1 | curated | Beijing Human Resources and Social Security Bureau |
+| bjrd.gov.cn | central-1 | curated | Beijing Municipal People's Congress |
+| bjrs.gov.cn | central-1 | curated | Beijing Personnel Bureau |
+| bjsports.gov.cn | central-1 | curated | Beijing Sports Bureau |
+| bjwh.gov.cn | central-1 | curated | Beijing Culture Bureau |
+| bjwmb.gov.cn | central-1 | curated | Capital Civilization Office (Beijing) |
+| bjxch.gov.cn | local | curated | Xicheng district (Beijing) |
+| blzq.gov.cn | local | curated | Bairin Left Banner (Inner Mongolia) |
+| blzqjjjc.gov.cn | local | curated | Bairin Left Banner discipline inspection |
+| cdcredit.gov.cn | local | curated | Chengdu credit platform |
+| cddrc.gov.cn | local | curated | Chengdu Development and Reform Commission |
+| … | | | 408 more |
+
 ## Proposed domains ranked by score
 
 376 domain(s) proposed for validation, of which 136 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

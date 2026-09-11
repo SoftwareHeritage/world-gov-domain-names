@@ -28,6 +28,34 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+21 confirmed domain(s): 21 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| aeldremin.dk | central | curated |  |
+| bm.dk | central | curated |  |
+| denmark.dk | central | curated |  |
+| em.dk | central | curated |  |
+| fm.dk | central | curated |  |
+| fmn.dk | central | curated |  |
+| folkatingid.dk | central | curated |  |
+| folketingi.dk | central | curated |  |
+| ft.dk | central | curated |  |
+| ism.dk | central | curated |  |
+| justitsministeriet.dk | central | curated |  |
+| kefm.dk | central | curated |  |
+| km.dk | central | curated |  |
+| kum.dk | central | curated |  |
+| mgtp.dk | central | curated |  |
+| mssb.dk | central | curated |  |
+| regeringen.dk | central | curated |  |
+| skm.dk | central | curated |  |
+| stm.dk | central | curated |  |
+| thedanishparliament.dk | central | curated |  |
+| trm.dk | central | curated |  |
+
 ## Proposed domains ranked by score
 
 162 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).

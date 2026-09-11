@@ -28,6 +28,15 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+2 confirmed domain(s): 2 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| canada.ca | central | curated |  |
+| gc.ca | central | curated |  |
+
 ## Proposed domains ranked by score
 
 762 domain(s) proposed for validation, of which 113 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).

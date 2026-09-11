@@ -28,6 +28,20 @@
 
 (institution names usable as seeds for further research)
 
+## Confirmed domains
+
+7 confirmed domain(s): 7 `central`. Compiled from [`curated.csv`](curated.csv).
+
+| domain | level | source | name |
+|---|---|---|---|
+| finmin.lt | central | curated |  |
+| kam.lt | central | curated |  |
+| lrs.lt | central | curated |  |
+| lrv.lt | central | curated |  |
+| sam.lt | central | curated |  |
+| smm.lt | central | curated |  |
+| urm.lt | central | curated |  |
+
 ## Proposed domains ranked by score
 
 75 domain(s) proposed for validation, of which 4 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
