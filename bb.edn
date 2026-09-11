@@ -15,7 +15,7 @@
               :task (apply shell "bb scripts/detect-forges.clj" *command-line-args*)}
   universities {:doc  "public-universities harvest (parked dataset) -- run 'bb universities help'"
                 :task (apply shell "bb scripts/detect-universities.clj" *command-line-args*)}
-  directories {:doc  "harvest official directories of public bodies -> validated.csv / proposed.csv"
+  directories {:doc  "harvest official directories of public bodies -> sources/<registry>/registered.csv / proposed.csv"
                :task (apply shell "bb scripts/detect-from-directories.clj" *command-line-args*)}
   review     {:doc  "interactive review of a country's candidate domains, mailed to the maintainer"
               :task (apply shell "bb scripts/review.clj" *command-line-args*)}

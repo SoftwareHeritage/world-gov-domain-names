@@ -5,11 +5,11 @@
 ;; Fetches the machine-readable per-country directories listed in the
 ;; "Government website directories" section of swh-sopc-data-sources and
 ;; writes, per the spec's :channel, either
-;; countries/<c>/sources/registry/roots.csv (authoritative central
-;; scoping: domains enter data/public-sector-domains-central+.csv
-;; directly, like the CISA/Lannuaire registries) or
+;; countries/<c>/sources/<registry>/registered.csv (authoritative
+;; central scoping: domains are confirmed directly, like the
+;; CISA/Lannuaire registries) or
 ;; countries/<c>/sources/directory/orgs.csv (mixed levels or types:
-;; hosts feed candidates.csv with a strong score bonus and the
+;; hosts feed proposed.csv with a strong score bonus and the
 ;; 'directory' source tag; curation decides). Unlike detect-forges and
 ;; detect-universities this script SERVES the repository's core goal --
 ;; it lives apart only to keep pipeline.clj lean while the spec table
@@ -36,8 +36,7 @@
 ;; a data entry, not code. :channel picks where the hosts land:
 ;;   :registry   -- the directory's central-government scoping is
 ;;                  authoritative (organisation-form filter, federal-only
-;;                  export): sources/<registry>/roots.csv plus the
-;;                  registry's rows of validated.csv, like the
+;;                  export): sources/<registry>/registered.csv, like the
 ;;                  CISA/Lannuaire registries. :host-filter guards against off-TLD
 ;;                  entries (a stray sites.google.com must never become
 ;;                  a confirmed root).
@@ -67,7 +66,7 @@
    ;; registry. (organisasjonsform STAT alone only carries the ~18
    ;; top-level organs.)
    {:channel       :registry
-    :registry      "brreg"          ; sources/<registry>/ and validated.csv source
+    :registry      "brreg"          ; sources/<registry>/registered.csv
     :format        :json-pages
     :url           (str "https://data.brreg.no/enhetsregisteret/api/enheter"
                         "?institusjonellSektorkode=6100&size=500&page=")
@@ -339,9 +338,9 @@
 (defn cmd-directory
   "Harvest the official government directories of directory-specs (all of
   them, or the given country_dirs) and write, per the spec's :channel,
-  either sources/<registry>/roots.csv plus the <registry> rows of
-  validated.csv (authoritative central scoping) or
-  sources/directory/orgs.csv (candidates channel, curation decides)."
+  either sources/<registry>/registered.csv (authoritative central
+  scoping) or sources/directory/orgs.csv (candidates channel, curation
+  decides)."
   [args]
   (doseq [[country {:keys [channel registry format source] :as spec}]
           (sort-by key directory-specs)
@@ -356,15 +355,10 @@
         (let [hosts (directory-hosts spec rows)]
           (case channel
             :registry
-            (let [out (country-src country registry "roots.csv")]
-              (write-csv-file out ["domain" "organization" "source"]
-                              (for [[h {:keys [names]}] (sort-by key hosts)]
-                                [h (str/join " | " names) source]))
-              (sync-validated! country registry
-                               (for [[h {:keys [names]}] (sort-by key hosts)]
-                                 [h "central" (str/join " | " names)]))
+            (let [out (registered-file country registry)]
+              (write-registered! country registry (for [h (sort (keys hosts))] [h "central"]))
               (println (str country ": " (count hosts) " domains -> " out
-                            " and validated.csv (" (count rows) " orgs listed)")))
+                            " (" (count rows) " orgs listed)")))
             :candidates
             (let [out (country-src country "directory" "orgs.csv")]
               (write-csv-file out ["hostname" "mentions" "evidence"]

@@ -156,7 +156,7 @@
        (sort-by #(nth % 3))))
 
 (defn wikidata-write-missing! [in-path out-path]
-  (let [known (validated-domains)
+  (let [known (confirmed-domains)
         rows (rest (read-csv-raw in-path))
         missing (filter (fn [row]
                           (let [host (nth row 3 nil)]

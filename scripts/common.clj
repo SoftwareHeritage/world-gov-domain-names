@@ -1,6 +1,7 @@
 (ns common
   "Helpers shared by the scripts of this repository: CSV and HTTP I/O,
-  country directories, validated.csv access, bounded parallelism. Pure
+  country directories, the per-country decision files, the
+  country-metadata tables, bounded parallelism. Pure
   definitions only -- loading this namespace has no side effect. Loaded
   through the :paths [\"scripts\"] of bb.edn, so every `bb …` command run
   from the repository root can (require '[common])."
@@ -76,30 +77,126 @@
   (boolean
     (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
 
-(defn validated-file [country-dir] (str "countries/" country-dir "/validated.csv"))
+(def levels
+  "The tiers a confirmed domain may carry: central government, the first
+  administrative tier below it (Land, state, region…), and everything
+  lower (local). local rows are never harvested: they carve lower-tier
+  labels out of a shared root (abingdon.gov.uk under gov.uk) and keep
+  such hosts out of proposed.csv. A lower-tier body is thus a confirmed
+  public-sector domain of level local, not an exclusion (decision of
+  2026-09-10: the former excluded.csv files, all local bodies, became
+  local rows of curated.csv); excluded.csv is for what is not a public
+  body at all."
+  #{"central" "central-1" "local"})
 
-(defn read-validated
-  "Rows [domain level source name] of countries/<c>/validated.csv, the
-  explicit list of confirmed roots (level is central or central-1);
-  hostnames normalised, cells trimmed. Empty when the file is absent."
-  [country-dir]
-  (for [[domain level source name] (rest (read-csv-raw (validated-file country-dir)))
-        :let [domain (some-> domain str/trim str/lower-case)]
+(def harvest-levels
+  "The levels whose domains stand for a subtree to harvest and probe."
+  #{"central" "central-1"})
+
+;; Per-country decision files, named after the status of their domains.
+;; Hand-edited: countries/<c>/curated.csv (domain,level,name -- confirmed
+;; by hand) and countries/<c>/excluded.csv (domain,reason -- rejected).
+;; Generated: countries/<c>/sources/<registry>/registered.csv
+;; (domain,level -- listed by an official registry). The confirmed
+;; domains of a country are their compilation, registered plus curated
+;; minus excluded, computed in memory (confirmed-rows): no file to
+;; regenerate after a curation.
+(defn curated-file [country-dir] (str "countries/" country-dir "/curated.csv"))
+(defn excluded-file [country-dir] (str "countries/" country-dir "/excluded.csv"))
+(defn registered-file [country-dir registry]
+  (country-src country-dir registry "registered.csv"))
+
+(defn- read-domain-rows
+  "Rows of a CSV whose first column is a hostname, as vectors of n cells:
+  hostname normalised, the other cells trimmed (\"\" when missing), rows
+  with an invalid hostname dropped. Empty when the file is absent."
+  [path n]
+  (for [row (rest (read-csv-raw path))
+        :let [domain (some-> (first row) str/trim str/lower-case)]
         :when (valid-hostname? domain)]
-    [domain (str/trim (or level "")) (str/trim (or source "")) (str/trim (or name ""))]))
+    (into [domain] (map #(str/trim (or (nth row % nil) "")) (range 1 n)))))
 
-(def ^:private validated-cache (atom nil))
+(defn read-curated
+  "[domain level name] rows of countries/<c>/curated.csv."
+  [country-dir] (read-domain-rows (curated-file country-dir) 3))
 
-(defn validated-rows
-  "read-validated over every country: vector of [country domain level
-  source name]. Read once per run and cached -- the per-country callers
-  (aggregate, probes) would otherwise reread the 197 files each time;
-  sync-validated! drops the cache."
+(defn read-excluded
+  "[domain reason] rows of countries/<c>/excluded.csv."
+  [country-dir] (read-domain-rows (excluded-file country-dir) 2))
+
+(defn read-registered
+  "[domain level] rows of countries/<c>/sources/<registry>/registered.csv."
+  [country-dir registry]
+  (read-domain-rows (registered-file country-dir registry) 2))
+
+(defn registries
+  "The registries of a country: the <registry> of every
+  countries/<c>/sources/<registry>/registered.csv. ASCII-sorted."
+  [country-dir]
+  (let [dir (str "countries/" country-dir "/sources")]
+    (when (fs/exists? dir)
+      (sort (map #(str (fs/file-name (fs/parent %))) (fs/glob dir "*/registered.csv"))))))
+
+(defn compile-confirmed
+  "The confirmed [domain level source name] rows of a country from its
+  curated [domain level name] rows, the [[registry [[domain level]…]]…]
+  of its registries and its excluded [domain reason] rows: a curated row
+  wins over any registered row of the same domain (its level too),
+  registries fold in in the given order, and an excluded domain leaves.
+  source is curated or the registry's name; name is blank for a
+  registered row. Throws (ex-info) on an unknown level or on a domain
+  both curated and excluded: a contradiction is for the curator to
+  settle, not for the compiler to arbitrate. Pure; ASCII-sorted by
+  domain."
+  [curated registries excluded]
+  (let [rows     (concat (for [[d level name] curated] [d level "curated" name])
+                         (for [[registry rs] registries, [d level] rs] [d level registry ""]))
+        excluded (set (map first excluded))]
+    (when-let [[d level] (first (remove #(contains? levels (second %)) rows))]
+      (throw (ex-info (str d ": unknown level '" level "'") {:domain d})))
+    (when-let [[d] (first (filter #(contains? excluded (first %)) curated))]
+      (throw (ex-info (str d ": both curated and excluded") {:domain d})))
+    (->> rows
+         (remove #(contains? excluded (first %)))
+         (reduce (fn [m [d :as row]] (cond-> m (not (contains? m d)) (assoc d row))) {})
+         vals
+         (sort-by first))))
+
+(defn confirmed-country
+  "compile-confirmed over the decision files of a country."
+  [country-dir]
+  (compile-confirmed (read-curated country-dir)
+                     (for [r (registries country-dir)] [r (read-registered country-dir r)])
+                     (read-excluded country-dir)))
+
+(def ^:private confirmed-cache (atom nil))
+
+(defn confirmed-rows
+  "The confirmed domains of every country: vector of [country domain
+  level source name] (confirmed-country). Compiled once per run and
+  cached -- the per-country callers (aggregate, probes) would otherwise
+  reread the decision files each time; write-registered! drops the
+  cache. Throws (ex-info) on the first contradiction: the dispatcher
+  reports it and exits 1."
   []
-  (or @validated-cache
-      (reset! validated-cache
-              (vec (for [c (country-dirs), [d level source name] (read-validated c)]
+  (or @confirmed-cache
+      (reset! confirmed-cache
+              (vec (for [c (country-dirs)
+                         [d level source name] (try (confirmed-country c)
+                                                    (catch clojure.lang.ExceptionInfo e
+                                                      (throw (ex-info (str c ": " (ex-message e))
+                                                                      (assoc (ex-data e) :country c)))))]
                      [c d level source name])))))
+
+(defn write-registered!
+  "Write the fresh [domain level] rows of
+  countries/<c>/sources/<registry>/registered.csv: this is how an
+  official list enters the confirmed domains without touching anyone
+  else's rows. Drops the confirmed cache."
+  [country-dir registry rows]
+  (write-csv-file (registered-file country-dir registry) ["domain" "level"]
+                  (sort-by first (for [[d level] rows] [d level])))
+  (reset! confirmed-cache nil))
 
 (defn normalize-name
   "Lowercase a name and strip everything but [a-z0-9], for matching country
@@ -302,29 +399,6 @@
              code (when (and (zero? exit) i) (parse-long (subs out (inc i))))]
          [code (when i (subs out 0 i))])))))
 
-(defn merge-validated-rows
-  "Replace, among the [domain level source name] rows of a validated.csv,
-  the rows owned by source with fresh ones: the old rows of that source
-  go, the fresh rows come in unless the domain is already listed under
-  another source (a manual decision or another registry wins). Pure;
-  result ASCII-sorted by domain."
-  [rows source fresh]
-  (let [kept   (remove #(= source (nth % 2)) rows)
-        taken  (set (map first kept))]
-    (->> (concat kept (remove #(contains? taken (first %)) fresh))
-         (sort-by first))))
-
-(defn sync-validated!
-  "Rewrite the rows of countries/<c>/validated.csv owned by source with
-  fresh [domain level name] rows (see merge-validated-rows). This is how
-  a generated list (registry, cmd-govuk) enters the hand-edited file
-  without touching anyone else's rows."
-  [country-dir source fresh]
-  (write-csv-file (validated-file country-dir) ["domain" "level" "source" "name"]
-                  (merge-validated-rows (read-validated country-dir) source
-                                        (for [[d level name] fresh] [d level source (or name "")])))
-  (reset! validated-cache nil))
-
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
 
@@ -334,16 +408,25 @@
   (let [v (System/getenv "PARALLEL")]
     (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default-n)))
 
-(defn validated-domains
-  "Every domain of every countries/<c>/validated.csv, whatever its level
-  and country (a set, from the cached rows, so it follows sync-validated!). A host equal to or under one of them is already covered,
-  so the candidate channels and the Wikidata gap list drop it: re-listing
-  confirmed domains would only add noise to the manual validation pass.
-  Deliberately world-wide: Wikidata attributes embassies to their host
-  country (eda.admin.ch under Zimbabwe), and only the Swiss root covers
-  them."
+(defn confirmed-domains
+  "Every confirmed domain of every country, whatever its level (local
+  included): a set, from the cached rows. A host equal to or under one
+  of them is already covered, so the candidate channels and the
+  Wikidata gap list drop it: re-listing confirmed domains would only add
+  noise to the manual validation pass. Deliberately world-wide: Wikidata
+  attributes embassies to their host country (eda.admin.ch under
+  Zimbabwe), and only the Swiss root covers them."
   []
-  (set (map second (validated-rows))))
+  (set (map second (confirmed-rows))))
+
+(defn harvest-roots
+  "The confirmed domains of a country that stand for a subtree to
+  harvest and probe: its central and central-1 rows (harvest-levels).
+  local rows only carve labels out of a root."
+  [country-dir]
+  (for [[c d level] (confirmed-rows)
+        :when (and (= c country-dir) (contains? harvest-levels level))]
+    d))
 
 (defn host-suffixes
   "host and every parent domain of it, at label boundaries:
@@ -355,7 +438,7 @@
 (defn host-covered?
   "True when host is one of the known domains or sits under one of them.
   Walks host's suffixes with one set lookup each instead of scanning known
-  (2851 validated domains times 40 000 candidates made report take 40 s)."
+  (2851 confirmed domains times 40 000 candidates made report take 40 s)."
   [host known]
   (let [known (if (set? known) known (set known))]
     (boolean (some known (host-suffixes host)))))

@@ -36,61 +36,69 @@ later re-exploration. Nothing in the pipeline reads that file.
 We proceed by lists of domain names and subdomains, one country at a
 time. The situation varies from country to country: where each level
 has its own roots, the lists are enough; but where everything under a
-single root like =gov.br= would also include local levels, a curated
-list (=countries/<c>/excluded.csv=) excludes the local levels when
-needed.
+single root like =gov.br= would also include local levels, the local
+labels are listed with =level= =local= so that they leave the root.
 
 Per country, two hand-edited files carry every decision:
-=validated.csv= (the confirmed root domains, with their level) and
+=curated.csv= (the confirmed domains, with their level) and
 =excluded.csv= (what is out of scope). Everything else is generated.
+The confirmed domains of a country are the official registries plus
+=curated.csv= minus =excluded.csv=, compiled in memory at every run:
+nothing to regenerate after a curation.
 
 * What you get
 
 ** Consolidated lists
 
-Three ready-to-use CSV files, covering UN members and observers only:
+Two ready-to-use CSV files, covering UN members and observers only:
 
 - =data/public-sector-domains.csv= -- every government host we found,
-  apex domains *and* subdomains (e.g. =gouv.fr=, =beta.gouv.fr=).
-- =data/public-sector-domains-central+.csv= -- one row per
-  central-government *root domain* (=level= =central=, e.g. =gouv.fr=,
-  =insee.fr=) plus the bodies of the first administrative tier below
-  (=level= =central-1=: Land, state, region…). A root already stands
-  for all its subdomains, so this is the short list of email domains
-  to watch; =mx= carries the domain's mail exchanger when known, as an
-  email signal. Every row, central or central-1, comes from a
-  =validated.csv=: nothing enters without being confirmed, by an
-  official registry or by hand. Unconfirmed central-1 hosts stay in
-  =proposed.csv=, the curation worklist.
-
-Each row carries metadata: UN status, region, languages and GDP
+  apex domains *and* subdomains (e.g. =gouv.fr=, =beta.gouv.fr=), with
+  its HTTPS status and MX. Each row carries metadata: UN status,
+  region, languages and GDP.
+- =data/public-sector-domains-central+-policy.csv= -- the central
+  government plus the first administrative tier below it (Land, state,
+  region…) as a match policy table, =domain,kind,country,level=:
+  =subtree= is a domain and everything below it (=gouv.fr=), =exact= a
+  domain alone (=sp.gov.br=), =exclude= a domain and everything below
+  it to keep out (=abingdon.gov.uk=); =level= is the tier of the
+  domain, =central=, =central-1= or =local=. When a host falls under
+  several rows, the most specific one (the longest domain) decides, so
+  any regex engine or none can apply it. Every =subtree= and =exact=
+  row is a confirmed domain: nothing enters without being confirmed,
+  by an official registry or by hand. Unconfirmed central-1 hosts stay
+  in =proposed.csv=, the curation worklist. The rows with =kind=
+  other than =exclude= are the short list of email domains to watch.
 
 ** Per-country data (=countries/<ISO3>_<slug>/=)
 
 One directory per country (=FRA_france=, =USA_united_states=, …), with:
 
-- =validated.csv= -- *the* list of confirmed root domains
-  (=domain,level,source,name=): =level= is =central= or =central-1=,
-  =source= says why the row is there (=manual=, or a registry:
-  =cisa=, =lannuaire=, =brreg=, =govuk=), =name= the body when known.
-  Hand-edited; registries only rewrite their own rows.
-- =excluded.csv= -- what is out of scope, as full hostnames
-  (=domain,name=): sub-central labels of a shared root
-  (=abingdon.gov.uk=) and rejected proposals. Hand-edited; a domain
-  listed here never comes back in =proposed.csv=. Only present where
-  needed.
+- =curated.csv= -- the confirmed domains, decided by hand
+  (=domain,level,name=): =level= is =central=, =central-1= or =local=,
+  =name= the body when known. A =local= row is a lower-tier label of
+  a shared root (=abingdon.gov.uk= under =gov.uk=): it is out of the
+  central+ scope but stays a public-sector domain. Hand-edited; the
+  place to add a domain.
+- =excluded.csv= -- what is out of scope altogether, as full hostnames
+  (=domain,reason=): rejected proposals (not a public body, a typo…).
+  Hand-edited; a domain listed here never comes back in
+  =proposed.csv=, and it removes a registry's row of the same domain.
+  Only present where needed.
 - =proposed.csv= -- domains proposed for validation, scored 0 to 10 by
   how many sources agree, with their =level= when known (=central=,
   =central-1= or blank), HTTPS status and MX. Generated.
-- =subdomains.csv= -- every host we know under the validated roots,
+- =subdomains.csv= -- every host we know under the confirmed roots,
   the roots themselves included, with HTTP status and MX. Generated.
-- =summary.md= -- a human-readable cross-check report. Generated.
+- =summary.md= -- a human-readable cross-check report, including the
+  country's confirmed domains with their provenance. Generated.
 - =sources/= -- the raw data behind the above, one folder per source,
   never edited by hand: =crtsh/<root>.csv= (the crt.sh harvest of a
   root, with probes), =probes/= (HTTPS and MX of the hosts that have
   no harvest), the official registries (=cisa/=, =lannuaire/=,
-  =brreg/=, =govuk/=), =wikidata/=, =cia_factbook/=, =un_desa/=,
-  =iana/=, =oecd/=, =country_data/=, =directory/= and =linkgraph/=.
+  =brreg/=, =govuk/=, each a =registered.csv= of =domain,level=),
+  =wikidata/=, =cia_factbook/=, =un_desa/=, =iana/=, =oecd/=,
+  =country_data/=, =directory/= and =linkgraph/=.
   =sources/linkgraph/indegree.csv= (EU + neighbours only) counts, for
   each domain, how many distinct public-sector domains of the same
   country link to it, from the crawl published by
@@ -125,17 +133,11 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   forge/catalog channel lives in =scripts/detect-forges.clj=: it
   shares this repository's harvested data but serves the Software
   Heritage catalog goal, not the email-domain goal.
-- =public-sector-domains-central+-policy.csv= -- the match policy over
-  the central+ scope (central government plus the first subdivision
-  tier, i.e. =public-sector-domains-central+.csv=) as a single table,
-  =domain,kind,country=: =subtree= is a domain and everything below
-  it, =exact= a domain alone (nothing below it), =exclude= a domain
-  and everything below it to keep out. When a host falls under several
-  rows, the most specific one (the longest domain) decides. On mixed
-  suffixes (=gov.uk=, =gov.br=…), =exact= and =exclude= rows keep
-  subtrees below the first tier out (see =scripts/README.org=). Meant
-  to be consumed directly by downstream pipelines, with any regex
-  engine or none.
+- =public-sector-domains-central+-policy.csv= -- the match policy
+  described above. On mixed suffixes (=gov.uk=, =gov.br=…), =exact=
+  and =exclude= rows keep subtrees below the first tier out (see
+  =scripts/README.org=). Meant to be consumed directly by downstream
+  pipelines, with any regex engine or none.
 - A few generated mapping files linking country names to source IDs.
 
 * Where the data comes from
@@ -150,7 +152,7 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   declarative specs in =scripts/detect-from-directories.clj=) -- the
   per-country directories listed in [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]]. When the directory's
   central scoping is authoritative (Norway's Enhetsregisteret,
-  sector 6100) its domains enter =validated.csv= directly; when levels
+  sector 6100) its domains are confirmed directly; when levels
   or types are mixed (Germany's Behördenwegweiser) its hosts feed
   =proposed.csv= with a strong score bonus and the =directory= source
   tag, and curation decides.
@@ -192,19 +194,26 @@ When in doubt, please get in touch: =bastien.guerry@inria.fr=
 If you know the public administration of a country, you can help
 verify that our inclusions and exclusions are right:
 
-- =data/public-sector-domains-central+.csv= -- are the =central= and
-  =central-1= rows really the central government and the first tier
-  below it?
+- =data/public-sector-domains-central+-policy.csv= -- are the
+  =central= and =central-1= rows really the central government and the
+  first tier below it?
 - =countries/<ISO3>_<slug>/proposed.csv= and =summary.md= -- did we
   miss or misclassify domains? A confirmed domain is one line added to
-  =validated.csv= (=domain,level,source,name=, with =source= =manual=);
-  a rejected one is one line added to =excluded.csv=.
-- =countries/<ISO3>_<slug>/excluded.csv= -- for shared roots like
-  =gov.br=: is the list of excluded hostnames complete? The first-tier
-  bodies (=sp.gov.br=) belong in =validated.csv= as =central-1=.
-- First-tier bodies hosted inside an excluded subtree (a state agency
+  =curated.csv= (=domain,level,name=); a domain that is not a public
+  body at all is one line added to =excluded.csv= (=domain,reason=).
+  Never edit =proposed.csv= or =summary.md=: they are generated.
+- =countries/<ISO3>_<slug>/curated.csv= -- for shared roots like
+  =gov.br=: are the lower-tier labels all listed as =local=? The
+  first-tier bodies (=sp.gov.br=) belong there as =central-1=.
+- First-tier bodies hosted inside a =local= subtree (a state agency
   such as =educacao.sp.gov.br=) match nothing until listed
   explicitly: telling us about them is especially useful.
+
+A merge request only needs to touch =curated.csv= or =excluded.csv=:
+nothing else has to be regenerated before merging. =bb pipeline check=
+tells whether the decision files are consistent (a domain both curated
+and excluded, an unknown level), and the maintainer then regenerates
+the consolidated lists (=bb pipeline domains=).
 
 Please email me at =bastien.guerry@inria.fr= if you have questions and 
 suggestions that don't fit in a ticket or merge request.

@@ -1,5 +1,6 @@
 (ns registries
-  "Official lists that feed validated.csv through sync-validated!: the US
+  "Official lists that feed the confirmed domains through
+  write-registered! (sources/<registry>/registered.csv): the US
   federal .gov registry (CISA), France's national administration
   directory (lannuaire), the UK sub-central bodies (govuk, from the CDDO
   list and Wikidata), plus two helpers on the master data: the Wikidata
@@ -21,8 +22,8 @@
   "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv")
 
 (defn cmd-cisa [_]
-  ;; Fetch CISA's authoritative federal .gov registry into sources/cisa/
-  ;; roots.csv and sync the cisa rows of the US validated.csv. Every entry
+  ;; Fetch CISA's authoritative federal .gov registry into
+  ;; sources/cisa/registered.csv (every domain, level central). Every entry
   ;; is a verified US federal executive/legislative/judicial domain, so
   ;; this is the clean central-gov source for the US -- preferred over a
   ;; bare 'gov' suffix, which false-matches 'government.com', 'govtech.io'…
@@ -36,12 +37,9 @@
                          (filter #(valid-hostname? (first %)))
                          (sort-by first)
                          distinct)
-            out (country-src "USA_united_states" "cisa" "roots.csv")]
-        (write-csv-file out ["domain" "type" "organization"] domains)
-        (sync-validated! "USA_united_states" "cisa"
-                         (for [[d _type org] domains] [d "central" org]))
-        (println (str "Wrote " out " (" (count domains) " federal .gov domains from CISA)"
-                      " and synced validated.csv"))
+            out (registered-file "USA_united_states" "cisa")]
+        (write-registered! "USA_united_states" "cisa" (for [[d] domains] [d "central"]))
+        (println (str "Wrote " out " (" (count domains) " federal .gov domains from CISA)"))
         0))))
 
 (def lannuaire-url
@@ -50,8 +48,7 @@
 
 (defn cmd-lannuaire [_]
   ;; Fetch France's official national administration directory into
-  ;; sources/lannuaire/roots.csv and sync the lannuaire rows of the FR
-  ;; validated.csv: distinct .fr registrable domains of the central
+  ;; sources/lannuaire/registered.csv: distinct .fr registrable domains of the central
   ;; administrations (ministries + central services). The .fr filter drops
   ;; the international-org cross-references (imf.org, wmo.int, ...) that
   ;; pollute the listed websites.
@@ -72,13 +69,9 @@
                          (filter valid-hostname?)
                          distinct
                          sort)
-            out (country-src "FRA_france" "lannuaire" "roots.csv")]
-        (write-csv-file out ["domain" "source"]
-                        (for [d domains] [d "lannuaire.service-public.gouv.fr"]))
-        (sync-validated! "FRA_france" "lannuaire"
-                         (for [d domains] [d "central" ""]))
-        (println (str "Wrote " out " (" (count domains) " .fr central-admin domains)"
-                      " and synced validated.csv"))
+            out (registered-file "FRA_france" "lannuaire")]
+        (write-registered! "FRA_france" "lannuaire" (for [d domains] [d "central"]))
+        (println (str "Wrote " out " (" (count domains) " .fr central-admin domains)"))
         0))))
 
 ;; ===========================================================================
@@ -330,8 +323,8 @@
   ;; table keeps only UK central government under the gov.uk suffix.
   ;; Universe: the official CDDO list of registered gov.uk domains,
   ;; classified by Wikidata GSS anchoring plus naming conventions. Local
-  ;; bodies go to sources/govuk/excluded.csv, devolved (central-1) ones
-  ;; to the govuk rows of validated.csv.
+  ;; bodies enter sources/govuk/registered.csv as level local, devolved
+  ;; ones as central-1.
   (let [body (http-get govuk-domains-url {:timeout 90})]
     (if (str/blank? body)
       (do (err "ERR: gov.uk domain list fetch failed (" govuk-domains-url ")") 1)
@@ -358,13 +351,12 @@
             central-1? (fn [l] (or (str/ends-with? l "-ni")
                                    (contains? #{"nidirect" "firescotland"} l)))
             {devolved true local false} (group-by (comp boolean central-1? first) named)
-            out (country-src "GBR_united_kingdom" "govuk" "excluded.csv")]
-        (write-csv-file out ["domain" "name"]
-                        (for [[l n] local] [(str l ".gov.uk") n]))
-        (sync-validated! "GBR_united_kingdom" "govuk"
-                         (for [[l n] devolved] [(str l ".gov.uk") "central-1" n]))
+            out (registered-file "GBR_united_kingdom" "govuk")]
+        (write-registered! "GBR_united_kingdom" "govuk"
+                           (concat (for [[l] local] [(str l ".gov.uk") "local"])
+                                   (for [[l] devolved] [(str l ".gov.uk") "central-1"])))
         (println (str "Wrote " out " (" (count local) " local labels out"
                       " of " (count universe) " registered gov.uk domains; "
-                      (count wd-hits) " matched via Wikidata GSS) and "
-                      (count devolved) " central-1 rows into validated.csv"))
+                      (count wd-hits) " matched via Wikidata GSS; "
+                      (count devolved) " central-1 rows)"))
         0))))
