@@ -27,8 +27,8 @@ duplicate (its level too), and a domain both curated and excluded, or
 an unknown level, aborts any command with exit 1. =bb pipeline check=
 runs that compilation alone and also warns about a curated row a
 registry already lists. The generated files are =proposed.csv=,
-=subdomains.csv=, =summary.md= (which lists the confirmed domains
-with their provenance) and the =sources/= tree.
+=summary.md= (which lists the confirmed domains with their
+provenance) and the =sources/= tree.
 
 The harvest lives in one file per harvested root,
 =countries/<c>/sources/crtsh/<root>.csv=, header

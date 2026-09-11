@@ -433,16 +433,6 @@
                     [d d st mx])]
     (sort-by first (concat harvested roots))))
 
-(defn- regenerate-country-subdomains!
-  "Aggregate a country's hosts into countries/<c>/subdomains.csv
-  (subdomain,parent_domain,http_status,mx): every harvested host, roots
-  included, plus the apex of every validated root that has no harvest
-  file (see country-hosts)."
-  [country-dir]
-  (write-csv-file (str "countries/" country-dir "/subdomains.csv")
-                  ["subdomain" "parent_domain" "http_status" "mx"]
-                  (country-hosts country-dir)))
-
 (defn- country-meta-field
   "Read one field from countries/<c>/sources/country_data/info.csv (or \"\")."
   [country-dir field]
@@ -486,7 +476,6 @@
                     ["subdomain" "parent_domain" "country" "un_status"
                      "region" "languages" "gdp_per_capita" "http_status" "mx"]
                     rows)
-    (doseq [c (country-dirs)] (regenerate-country-subdomains! c))
     (let [counts (frequencies (map #(nth % 3) rows))]
       (println (str "Wrote " public-sector-file " (" (count rows) " hosts)"))
       (println (str "  UN members: " (get counts "member" 0)

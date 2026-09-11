@@ -20,6 +20,7 @@
 
 (ns detect-forges
   (:require [common :refer :all]
+            [pipeline :as pipeline]
             [babashka.http-client :as http]
             [babashka.fs :as fs]
             [babashka.process :as proc]
@@ -35,15 +36,16 @@
   #"(?i)^(?:git|gitlab|gitea|forgejo|forges?|codes?|source|open-?source|oss|developers?)\.")
 
 (defn cmd-forges
-  "Scan every countries/<c>/subdomains.csv for hostnames that look like a
-  software forge or source-code catalog (git.*, gitlab.*, forge.*, code.*…)
-  and write data/forge-candidates.csv. These are leads for the
-  'Government source-code catalogs' section of swh-sopc-data-sources."
+  "Scan every country's hosts (its harvest files plus the probed apex of
+  its unharvested roots, pipeline/country-hosts -- every country, non-UN
+  ones included, unlike data/public-sector-domains.csv) for hostnames
+  that look like a software forge or source-code catalog (git.*,
+  gitlab.*, forge.*, code.*…) and write data/forge-candidates.csv. These
+  are leads for the 'Government source-code catalogs' section of
+  swh-sopc-data-sources."
   [_]
   (let [rows (->> (for [c (country-dirs)
-                        :let [path (str "countries/" c "/subdomains.csv")]
-                        :when (fs/exists? path)
-                        [host _parent status] (rest (read-csv-raw path))
+                        [host _parent status] (pipeline/country-hosts c)
                         :when (and host (re-find forge-host-pattern host))]
                     [host c (or status "")])
                   distinct
