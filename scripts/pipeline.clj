@@ -1087,27 +1087,41 @@
 ;; ===========================================================================
 
 (defn cmd-check
-  "Compile the decision files of the given countries (all by default):
-  ERR and exit 1 on a contradiction (a domain both curated and excluded,
-  an unknown level), WARN for a curated row that only repeats a
-  registered row of the same level without adding a name -- dead
-  weight hiding the domain's real provenance. For merge requests."
+  "Compile the decision files of the given countries (all by default).
+  ERR and exit 1 on what loses or contradicts a decision: a domain both
+  curated and excluded, an unknown level, a row of curated.csv or
+  excluded.csv whose first cell is not a hostname (the pipeline drops
+  it silently), a domain curated twice with two levels. WARN for what
+  is only dead weight: a domain listed twice with the same level, a
+  curated row that only repeats a registered row of the same level
+  without adding a name. For merge requests."
   [args]
   (if-let [countries (scoped-countries args)]
-    (let [results (for [c countries]
-                    (try
-                      (let [registered (into {} (for [r (registries c), [d level] (read-registered c r)]
-                                                  [d [r level]]))]
-                        (confirmed-country c)
-                        (doseq [[d level name] (read-curated c)
-                                :let [[r rlevel] (get registered d)]
-                                :when (and (= level rlevel) (str/blank? name))]
-                          (err "WARN: " c ": " d " (" level ") is curated but " r " already lists it"))
-                        true)
-                      (catch clojure.lang.ExceptionInfo e
-                        (err "ERR: " c ": " (ex-message e))
-                        false)))
-          failed (count (remove true? (doall results)))]
+    (let [check-country
+          (fn [c]
+            (let [errors (atom 0)
+                  err!   (fn [& msg] (swap! errors inc) (apply err "ERR: " c ": " msg))]
+              (doseq [[file path] [["curated.csv" (curated-file c)] ["excluded.csv" (excluded-file c)]]
+                      [kind x] (file-anomalies path)]
+                (case kind
+                  :invalid-hostname (err! "'" x "' in " file " is not a hostname (row dropped)")
+                  :duplicate        (err "WARN: " c ": " x " is listed twice in " file " (first row wins)")))
+              (doseq [[d rows] (group-by first (read-curated c))
+                      :let [levels (distinct (map second rows))]
+                      :when (next levels)]
+                (err! d " is curated with two levels (" (str/join ", " levels) ")"))
+              (try
+                (confirmed-country c)
+                (let [registered (into {} (for [r (registries c), [d level] (read-registered c r)]
+                                            [d [r level]]))]
+                  (doseq [[d level name] (read-curated c)
+                          :let [[r rlevel] (get registered d)]
+                          :when (and (= level rlevel) (str/blank? name))]
+                    (err "WARN: " c ": " d " (" level ") is curated but " r " already lists it")))
+                (catch clojure.lang.ExceptionInfo e
+                  (err! (ex-message e))))
+              (zero? @errors)))
+          failed (count (remove true? (doall (map check-country countries))))]
       (if (pos? failed)
         1
         (do (println (str "Decision files of " (count countries) " countries compile")) 0)))

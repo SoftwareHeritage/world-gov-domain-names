@@ -116,6 +116,22 @@
         :when (valid-hostname? domain)]
     (into [domain] (map #(str/trim (or (nth row % nil) "")) (range 1 n)))))
 
+(defn decision-anomalies
+  "What read-domain-rows would silently lose or merge in the raw rows of
+  a decision file: [:invalid-hostname cell] for a row whose first cell
+  is not a hostname (a decision dropped without a word) and
+  [:duplicate domain] for a domain listed more than once (the first row
+  wins). Blank rows are ignored. Pure."
+  [rows]
+  (let [cells   (for [row rows :when (some seq row)] (str/trim (or (first row) "")))
+        domains (map str/lower-case cells)]
+    (concat (for [c cells :when (not (valid-hostname? (str/lower-case c)))] [:invalid-hostname c])
+            (for [[d n] (frequencies (filter valid-hostname? domains)) :when (> n 1)] [:duplicate d]))))
+
+(defn file-anomalies
+  "decision-anomalies over the rows of a decision file; empty when absent."
+  [path] (decision-anomalies (rest (read-csv-raw path))))
+
 (defn read-curated
   "[domain level name] rows of countries/<c>/curated.csv."
   [country-dir] (read-domain-rows (curated-file country-dir) 3))
