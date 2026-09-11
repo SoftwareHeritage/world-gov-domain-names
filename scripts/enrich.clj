@@ -2,9 +2,10 @@
   "Enrichment sources, one section per source: Wikidata (central
   administrations and first-level subdivisions), IANA (ccTLD), CIA World
   Factbook, UN/DESA (national portal, EGDI), OECD membership and country
-  metadata (REST Countries, World Bank). Each writes under
-  countries/<c>/sources/<source>/; cmd-enrich runs them all, Wikidata
-  first, the rest in parallel. Pure definitions: pipeline.clj dispatches."
+  metadata (REST Countries, World Bank). Wikidata writes under
+  countries/<c>/sources/wikidata/, the others one row per country in
+  data/sources/<source>.csv; cmd-enrich runs the six in parallel. Pure
+  definitions: pipeline.clj dispatches."
   (:require [common :refer :all]
             [babashka.fs :as fs]
             [cheshire.core :as json]

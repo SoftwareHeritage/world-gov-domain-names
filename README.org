@@ -91,8 +91,9 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - =summary.md= -- a human-readable cross-check report. Generated.
 - =sources/= -- the raw data behind the above, one folder per source,
   never edited by hand: =crtsh/<root>.csv= (the crt.sh harvest of a
-  root, with probes), =probes/= (HTTPS and MX of the hosts that have
-  no harvest), the official registries (=cisa/=, =lannuaire/=,
+  root, with probes), =probes/= (HTTPS and MX of the confirmed roots
+  that have no harvest, and of the proposed hosts), the official
+  registries (=cisa/=, =lannuaire/=,
   =brreg/=, =govuk/=, each a =registered.csv= of =domain,level=),
   =wikidata/=, =directory/= and =linkgraph/=.
   =sources/linkgraph/indegree.csv= (EU + neighbours only) counts, for
