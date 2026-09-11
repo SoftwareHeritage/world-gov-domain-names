@@ -36,13 +36,10 @@
   #"(?i)^(?:git|gitlab|gitea|forgejo|forges?|codes?|source|open-?source|oss|developers?)\.")
 
 (defn cmd-forges
-  "Scan every country's hosts (its harvest files plus the probed apex of
-  its unharvested roots, pipeline/country-hosts -- every country, non-UN
-  ones included, unlike data/public-sector-domains.csv) for hostnames
-  that look like a software forge or source-code catalog (git.*,
-  gitlab.*, forge.*, code.*…) and write data/forge-candidates.csv. These
-  are leads for the 'Government source-code catalogs' section of
-  swh-sopc-data-sources."
+  "Scan every country's hosts (pipeline/country-hosts, non-UN countries
+  included) for forge-looking hostnames (git.*, gitlab.*, forge.*,
+  code.*…) and write data/forge-candidates.csv
+  (hostname,country,http_status)."
   [_]
   (let [rows (->> (for [c (country-dirs)
                         [host _parent status] (pipeline/country-hosts c)
@@ -63,9 +60,9 @@
 (def swh-search-endpoint "https://archive.softwareheritage.org/api/1/origin/search/")
 
 (defn- swh-get
-  "GET the SWH origin-search API for pattern (at most limit results).
-  Returns the response map (never throws), nil on a network error. Honors
-  SWH_TOKEN for authenticated (higher rate limit) requests."
+  "GET the SWH origin-search API for pattern (at most limit results) and
+  return the response map, nil on a network error. SWH_TOKEN authenticates
+  the request."
   [pattern limit]
   (let [token (System/getenv "SWH_TOKEN")]
     (try (http/get (str swh-search-endpoint pattern "/")
@@ -90,8 +87,8 @@
     (Thread/sleep (* 1000 wait))))
 
 (defn origin-matches?
-  "Does origin url live on target (host or subdomain; for github.com/<org>,
-  under /<org>/)? The search API matches URL tokens, so its hits need this."
+  "True when origin url lives on target: same host or a subdomain, and
+  under /<org>/ for a github.com/<org> target."
   [target url]
   (let [[thost tpath] (str/split (str/lower-case target) #"/" 2)
         [_ host path] (re-find #"^[a-z+]+://([^/]+)(.*)" (str/lower-case (str url)))]
@@ -102,10 +99,9 @@
 (def swh-search-limit 100)
 
 (defn swh-origins-count
-  "Number of origins the SWH archive knows on target (0 = unknown), capped
-  at swh-search-limit, or nil when the API could not be answered. A 429
-  waits the rate-limit window out and retries; an exhausted quota triggers
-  a pre-emptive pause."
+  "Return the number of origins the SWH archive knows on target (0 =
+  unknown), capped at swh-search-limit; nil when the API could not be
+  answered. Waits the rate-limit window out on a 429."
   [target]
   (loop [attempt 1]
     (let [resp      (swh-get target swh-search-limit)
@@ -136,9 +132,9 @@
 (def known-forges-file "data/known-forges.csv")
 
 (defn swh-auth-check!
-  "When SWH_TOKEN is set, make one authenticated request and fail fast when
-  the API rejects the token (an expired or revoked offline token gives HTTP
-  403). Returns true when the sweep may proceed (with or without token)."
+  "Validate SWH_TOKEN with one authenticated request when it is set.
+  Return true when the sweep may proceed (with or without token), false
+  when the API rejects the token."
   []
   (if-not (System/getenv "SWH_TOKEN")
     true
@@ -209,8 +205,8 @@
   (some (fn [[label re]] (when (re-find re s) label)) pairs))
 
 (defn- forge-type
-  "'github' when the target or the final URL lives on github.com, else the
-  first forge-type-markers match on the homepage, else 'unknown'."
+  "Return 'github' when the target or the final URL lives on github.com,
+  else the first forge-type-markers match on the homepage, else 'unknown'."
   [target final-url body]
   (cond
     (or (str/starts-with? target "github.com/")
@@ -219,8 +215,8 @@
     :else (or (first-matching forge-type-markers body)            "unknown")))
 
 (defn- forge-note
-  "Short diagnostic for a probe: curl error, WAF or default page, or a
-  redirect that left the target's host. Empty string otherwise."
+  "Return a short diagnostic for a probe: curl error, WAF or default page,
+  or a redirect that left the target's host. Empty string otherwise."
   [target final-url body exit]
   (or (when-not (zero? exit)
         (get curl-exit-notes exit (str "curl exit " exit)))
@@ -233,11 +229,9 @@
       ""))
 
 (defn probe-forge!
-  "GET https://target/ with curl (-k: government forges often sit behind
-  self-signed certificates; -L: the landing page usually redirects) and
-  sniff the forge software from the final page. Returns {:type :status
-  :note}: :type from forge-type, :status the final HTTP code as a string
-  ('000' when no response came back) and :note from forge-note."
+  "GET https://target/ with curl (-k -L) and sniff the forge software from
+  the final page. Return {:type :status :note}: forge-type, the final HTTP
+  code as a string ('000' when no response came back) and forge-note."
   [target]
   (let [url (str "https://" target (when-not (str/includes? target "/") "/"))
         tmp (fs/create-temp-file)]
@@ -277,9 +271,9 @@
                 rows))
 
 (defn cmd-forges-probe
-  "Re-probe the targets of data/forge-unknown-swh.csv and refresh the
-  forge_type/http_status/note columns in place, without touching the SWH
-  API. Useful to re-check forge accessibility between two forges-swh runs."
+  "Re-probe the targets of data/forge-unknown-swh.csv (no SWH API call)
+  and refresh its forge_type/http_status/note columns in place. Return 1
+  when the file is missing or empty."
   [_args]
   (let [rows (rest (read-csv-raw "data/forge-unknown-swh.csv"))]
     (if (empty? rows)
@@ -293,19 +287,12 @@
                       " targets probed, " n200 " answering 200)"))))))
 
 (defn cmd-forges-swh
-  "Check forge targets against the Software Heritage archive (origin search
-  API) and write the ones SWH does not know yet to
-  data/forge-unknown-swh.csv, along with the forge software (sniffed from
-  the homepage) and its HTTP accessibility (probe-forge!).
-  Targets are the harvested forge-looking hosts
-  (data/forge-candidates.csv) plus the curated forges of
-  data/known-forges.csv (the catalogs of data/known-catalogs.csv only
-  point at code hosted elsewhere, so there is nothing to search for).
-  With the 'github-orgs' argument, every organization of
-  data/github-gov-orgs.csv is checked too -- slow anonymously, set
-  SWH_TOKEN. Anonymous API rate limits apply in all cases. Targets whose
-  SWH lookup failed are kept in the file (note 'SWH API error') rather
-  than silently dropped, so a flaky run cannot erase a forge."
+  "Check forge targets -- data/forge-candidates.csv, the forges and
+  github-orgs of data/known-forges.csv and, with the 'github-orgs'
+  argument, data/github-gov-orgs.csv -- against the SWH origin-search API
+  and write the ones SWH does not know to data/forge-unknown-swh.csv with
+  their probed forge_type/http_status/note. Targets whose lookup failed
+  are kept with the note 'SWH API error'."
   [args]
   (let [harvest (when (fs/exists? "data/forge-candidates.csv")
                   (for [[host country _status]
@@ -381,13 +368,10 @@
 (def github-gov-orgs-extra-file "data/github-gov-orgs-extra.csv")
 
 (defn cmd-github-orgs
-  "Fetch GitHub's community-maintained list of government organizations
-  (governments.yml, behind government.github.com/community) and write it as
-  data/github-gov-orgs.csv (org,group). Groups are the file's own headings:
-  mostly countries, sometimes regions or programs. Local additions not (yet)
-  merged upstream live in data/github-gov-orgs-extra.csv (same columns) and
-  are appended, so regenerating never loses them. Feed the result to
-  'forges-swh github-orgs' to spot orgs the SWH archive does not know."
+  "Fetch GitHub's governments.yml (government organizations grouped by the
+  file's own headings) and write data/github-gov-orgs.csv (org,group),
+  appending the local additions of data/github-gov-orgs-extra.csv. Return
+  1 on a fetch failure."
   [_]
   (if-let [body (http-get governments-yml-url {:accept "text/plain"})]
     (let [data     (yaml/parse-string body :keywords false)

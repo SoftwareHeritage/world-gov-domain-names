@@ -120,8 +120,8 @@
     [h (or st "") (or mx "")]))
 
 (defn write-harvest!
-  "Write [host http_status mx] rows to a harvest file: apex row ensured,
-  hosts deduped keeping the first non-blank status and mx, ASCII sort."
+  "Write [host http_status mx] rows to a harvest file: add the apex row,
+  keep the first non-blank status and mx per host, sort by host."
   [file rows]
   (let [merged (reduce (fn [m [h st mx]]
                          (update m h (fn [[s0 m0]]
@@ -142,18 +142,15 @@
                   (for [[h [st mx]] (sort-by first probes)] [h st mx])))
 
 (defn unharvested-roots
-  "Harvest roots of a country (central and central-1 rows) that have no
-  harvest file: their apex is all we know, probed through
-  sources/probes/roots.csv."
+  "Harvest roots of a country without a harvest file."
   [country-dir]
   (remove #(fs/exists? (harvest-file country-dir %)) (harvest-roots country-dir)))
 
 ;; sources/probes/roots.csv: the harvest roots that have no harvest file.
 (defn read-probes [country-dir] (read-probe-file (country-src country-dir "probes" "roots.csv")))
 (defn write-probes!
-  "Write the roots probes of a country, pruned to its harvest roots that
-  have no harvest file: a root CISA dropped, or one harvested since, leaves
-  the file with its probes."
+  "Write sources/probes/roots.csv of a country, keeping only its
+  unharvested roots."
   [country-dir probes]
   (write-probe-file! (country-src country-dir "probes" "roots.csv") "domain"
                      (select-keys probes (unharvested-roots country-dir))))
@@ -164,10 +161,9 @@
   (write-probe-file! (country-src country-dir "probes" "proposed.csv") "hostname" probes))
 
 (defn resolve-harvest-files
-  "Domain names -> harvest file paths. Existing files first; a root with
-  none must be a harvest root (a confirmed central or central-1 domain),
-  which tells its country -- the file is then created by the caller
-  (fetch). With no args, every existing harvest file."
+  "Harvest file paths of the given domains: the existing files, else the
+  file a confirmed central or central-1 root would have (ERR and skip
+  any other domain). Every existing harvest file when args is empty."
   [args]
   (if (seq args)
     (vec (mapcat (fn [d]
@@ -189,12 +185,9 @@
 ;; ===========================================================================
 
 (defn fetch-one!
-  "Fetch the subdomains of a harvest file's root from crt.sh and merge them
-  into the file (probes of known hosts preserved). Returns :ok or :fail;
-  a failure writes nothing: an empty harvest file would take the root
-  out of unharvested-roots and lose its apex probe (write-probes! prunes
-  sources/probes/roots.csv to them), while retry finds a confirmed root
-  without a file anyway (resolve-harvest-files)."
+  "Fetch the subdomains of a harvest file's root from crt.sh and merge
+  them into the file, keeping the probes of known hosts. :ok, or :fail
+  with nothing written."
   [file]
   (let [domain (harvest-root file)
         url (str "https://crt.sh/?q=%25." domain "&output=json")
@@ -222,8 +215,8 @@
 (def fetch-fail-log "/tmp/fetch_subdomains.log")
 
 (defn fetch-all!
-  "fetch-one! over the harvest files of args (see resolve-harvest-files):
-  [[file :ok|:fail]…], this run's failures recorded in fetch-fail-log."
+  "fetch-one! over the harvest files of args: [[file :ok|:fail]…].
+  Record this run's failures in fetch-fail-log."
   [args]
   (let [files   (resolve-harvest-files args)
         results (bounded-pmap (parallel 4) (fn [f] [f (fetch-one! f)]) files)
@@ -274,10 +267,9 @@
 ;; ===========================================================================
 
 (defn normalize-harvest-rows
-  "For each [host status mx] row: lowercase the host; strip wildcard
-  prefix, URL scheme, path, port and trailing dot; keep only syntactically
-  valid hostnames; single-line the probes. Dedup and sort are left to
-  write-harvest!."
+  "Clean [host status mx] rows: lowercase the host, strip wildcard
+  prefix, URL scheme, path, port and trailing dot, drop invalid
+  hostnames, single-line the probes."
   [rows]
   (for [[dom status mx] rows
         :let [dom (some-> dom str/trim str/lower-case
@@ -302,13 +294,10 @@
 ;; ===========================================================================
 
 (defn probe-one!
-  "HTTPS HEAD via babashka.http-client. Returns [sub status] where status is the
-  HTTP code (e.g. \"200\") on success or a short single-line error message on
-  failure: the exception classes from the outermost to the root cause
-  (e.g. \"ConnectException > UnresolvedAddressException\" for a name without
-  a DNS record, \"ConnectException > ClosedChannelException\" for a refused
-  connection) and the deepest message, when any. The Java client wraps the
-  cause in a message-less ConnectException, which alone hides it."
+  "HTTPS HEAD of sub: [sub status], status being the HTTP code (\"200\")
+  or a one-line error such as \"ConnectException >
+  UnresolvedAddressException\" (the exception chain and its deepest
+  message)."
   [sub timeout]
   (let [resp (try
                (http/head (str "https://" sub "/")
@@ -330,14 +319,13 @@
 
 (defn- blank-hosts
   "Hosts of a {host [http_status mx]} map whose column idx (0 = HTTPS
-  status, 1 = MX) is still blank -- every host with FORCE=1, e.g. to
-  re-probe past failures with a longer TIMEOUT."
+  status, 1 = MX) is blank; every host with FORCE=1."
   [probes idx]
   (for [[h v] probes :when (or force? (str/blank? (nth v idx)))] h))
 
 (defn- fill-hosts!
-  "Fill column idx of a {host [http_status mx]} map for hosts with
-  (lookup host), conc lookups at a time; returns the filled map."
+  "Fill column idx of a {host [http_status mx]} map with (lookup host)
+  for hosts, conc lookups at a time."
   [probes idx lookup conc hosts]
   (reduce (fn [m [h v]] (assoc-in m [h idx] v))
           probes
@@ -350,16 +338,16 @@
   (count (remove #(#{"" "none" "dig error"} (second (get probes %))) hosts)))
 
 (defn- roots-probes
-  "The probes map of a country's unharvested harvest roots: the rows of
-  sources/probes/roots.csv for them, a blank entry for a root not seen yet."
+  "{root [http_status mx]} of a country's unharvested roots, from
+  sources/probes/roots.csv; blank for a root not probed yet."
   [country-dir]
   (let [roots (unharvested-roots country-dir)]
     (merge (zipmap roots (repeat ["" ""]))
            (select-keys (read-probes country-dir) roots))))
 
 (defn probe-domain!
-  "HTTPS HEAD probe of a harvest file's hosts whose status is still blank
-  (blank-hosts), the result written back into its http_status column."
+  "Probe the hosts of a harvest file whose status is blank and write
+  the results into its http_status column."
   [file timeout]
   (when (fs/exists? file)
     (let [root-name (harvest-root file)
@@ -382,9 +370,8 @@
 ;; ===========================================================================
 
 (defn mx-lookup
-  "MX records of a host as a single-line string (\"prio host; …\"), \"none\" if
-  the host has no MX, or a short error tag. Uses the system `dig`. This is a
-  recorded signal only -- it never gates inclusion in the consolidated file."
+  "MX records of a host via dig, as one line (\"prio host; …\"), \"none\"
+  without MX, \"dig error\" on failure."
   [host]
   (let [{:keys [out exit]}
         (try (proc/sh "dig" "+short" "+time=2" "+tries=1" "MX" host)
@@ -400,9 +387,8 @@
       :else                     "none")))
 
 (defn mx-domain!
-  "Look up MX for every host of a harvest file (apex included -- it IS the
-  email domain the central-gov file watches) and fill its mx column.
-  Reuses already-looked-up hosts unless FORCE=1."
+  "Look up the MX of the hosts of a harvest file whose mx is blank and
+  fill the column."
   [file conc]
   (let [root-name (harvest-root file)
         probes    (harvest->probes (read-harvest file))
@@ -454,10 +440,9 @@
 ;; data/sources/country_data.csv (enrich, meta): run after both.
 
 (defn country-hosts
-  "[host parent_domain http_status mx] rows of a country: every host of its
-  harvest files (their root included), then the apex of every harvest
-  root without a harvest file, with its probes from sources/probes/ --
-  unless some harvest already lists that host. ASCII-sorted by host."
+  "[host parent_domain http_status mx] rows of a country: every host of
+  its harvest files, plus the unharvested roots with their probes from
+  sources/probes/roots.csv. Sorted by host."
   [country-dir]
   (let [harvested (for [file (harvest-files country-dir)
                         :let [parent (harvest-root file)]
@@ -520,10 +505,9 @@
   (set (for [[c d level] (confirmed-rows) :when (= level "central")] [c d])))
 
 (defn- labels-under-central
-  "{[country root] #{label…}} from [country hostname] pairs: keep the
-  hostnames sitting directly under a confirmed central root of the same
-  country (sp.gov.br under gov.br -> {[BRA gov.br] #{\"sp\"}}), as labels
-  of that root."
+  "{[country root] #{label…}} of the [country hostname] pairs sitting
+  directly under a confirmed central root of their country
+  (sp.gov.br -> {[BRA gov.br] #{\"sp\"}})."
   [pairs]
   (let [central (central-roots)]
     (reduce (fn [m [c d]]
@@ -534,30 +518,20 @@
             {} pairs)))
 
 (defn central1-under
-  "{[country root] #{label…}}: the label of every confirmed central-1
-  domain sitting directly under a confirmed central root. Such a domain
-  is an apex of the policy table (exact row) and its label leaves the
-  root's subtree, so no lower-tier host registered under it
-  (campinas.sp.gov.br) passes as central."
+  "{[country root] #{label…}} of the confirmed central-1 domains sitting
+  directly under a confirmed central root: the exact rows of the policy
+  table."
   []
   (labels-under-central (for [[c d level] (confirmed-rows) :when (= level "central-1")] [c d])))
 
 (def excluded-domains
-  "{country_dir #{domain…}}: the hostnames of every countries/<c>/excluded.csv.
-  A host equal to or under one of them is out of scope, whatever the
-  sources say, so proposed.csv never lists it again: excluded.csv is where
-  a reviewer's 'no' is recorded. (local rows keep hosts out the same way,
-  through confirmed-domains.)"
+  "{country_dir #{domain…}} of every countries/<c>/excluded.csv."
   (delay (into {} (for [c (country-dirs)] [c (set (map first (read-excluded c)))]))))
 
 (defn local-labels
-  "{[country root] #{label…}}: the labels directly under a confirmed
-  central root whose whole subtree belongs to a lower government tier
-  (UK councils under gov.uk) or is out of scope: the confirmed local
-  domains and the hostnames of excluded.csv. Exclude rows of the policy
-  table. local rows and excluded hostnames elsewhere only keep hosts out
-  of proposed.csv. Roots without an entry are level-homogeneous:
-  everything under them is central government."
+  "{[country root] #{label…}} of the confirmed local domains and the
+  excluded hostnames sitting directly under a confirmed central root:
+  the exclude rows of the policy table."
   []
   (labels-under-central (concat (for [[c d level] (confirmed-rows) :when (= level "local")] [c d])
                                 (for [[c ds] @excluded-domains, d ds] [c d]))))
@@ -598,7 +572,7 @@
          (map str/lower-case))))
 
 (defn read-collected-cache
-  "Pre-split data/public-sector-domains.csv into a map country -> seq of subdomains."
+  "{country_dir [host…]} of data/public-sector-domains.csv; nil when absent."
   []
   (when (fs/exists? public-sector-file)
     (->> (rest (read-csv-raw public-sector-file))
@@ -606,31 +580,18 @@
          (reduce-kv (fn [m k v] (assoc m k (mapv first v))) {}))))
 
 (defn collected-at-or-under?
-  "True when one of the collected hosts is host itself or sits under it:
-  the reverse of host-covered?, which asks whether host sits under a known
-  domain."
+  "True when a collected host is host or sits under it."
   [host collected]
   (some (fn [s] (or (= s host) (str/ends-with? s (str "." host)))) collected))
 
 (defn score-candidate
-  "Compute the 0-10 confidence score for one candidate hostname.
-  Inputs:
-    :host            candidate hostname (lowercased)
-    :wd-count        # of Wikidata mentions (1+ per distinct entity)
-    :label           pipe-joined Wikidata labels for this host
-    :fb-phrases      Factbook institution phrases (lowercased)
-    :un-portal-host  UN/DESA-declared national portal host (or nil)
-    :cctld-primary   country's primary ccTLD (without leading dot)
-    :indegree        # of distinct same-country public-sector domains
-                     linking to the host (nil when absent from the link
-                     graph); being linked from many independent government
-                     sites is a strong presumption of validity
-    :directory-listed? host appears in the country's official directory
-                     of public bodies (detect-from-directories.clj,
-                     :candidates channel): authoritative existence, unknown level
-    :subdiv-penalty? apply the anti-subnational penalties (default true);
-                     false for hosts already known as subnational, where
-                     penalising again would only bury the central-1 rows"
+  "Score a candidate host from 0 to 10 (the points are in
+  scripts/README.org). Keys: :host, :wd-count (Wikidata mentions),
+  :label (pipe-joined Wikidata labels), :fb-phrases (lowercased
+  Factbook institution phrases), :un-portal-host, :cctld-primary
+  (without the dot), :indegree (nil when absent from the link graph),
+  :directory-listed?, :subdiv-penalty? (default true; false for a host
+  already known as subnational)."
   [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary
            indegree directory-listed? subdiv-penalty?]
     :or {subdiv-penalty? true}}]
@@ -674,10 +635,9 @@
   (boolean (and level1-pattern (seq label) (re-find level1-pattern label))))
 
 (defn- candidate-level
-  "Administrative level of a candidate host: the P1001-derived Wikidata
-  levels, then the label heuristics (a label matching subdiv-pattern is
-  subnational; one naming a first-level subdivision is promoted to
-  central-1). Blank when nothing is known."
+  "Level of a candidate host: its Wikidata levels first, then its
+  label (subdiv-pattern means local, a first-level subdivision name
+  means central-1). Blank when unknown."
   [{:keys [wd-by-host level1-pattern]} h label]
   (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")]
     (cond
@@ -692,9 +652,8 @@
       :else "")))
 
 (defn- candidate-row
-  "Assemble one candidate row [hostname score sources label level] from the
-  already-loaded per-country context (pure -- see score-candidates-for!
-  for the context construction)."
+  "One [hostname score sources label level] row of host from a
+  load-candidate-ctx context. Pure."
   [{:keys [wd-by-host lg-by-host dir-by-host un-portal-host
            fb-phrases cctld-primary]
     :as ctx}
@@ -735,9 +694,8 @@
     [h score (str/join ";" sources) label level]))
 
 (defn wikidata-by-host
-  "{host {:cnt n :labels [..] :levels #{..}}} from the rows of a
-  wikidata/central_admin.csv (type,label,website,hostname,level): one
-  mention per row, distinct labels, the P1001-derived levels."
+  "{host {:cnt n :labels [..] :levels #{..}}} of the rows of a
+  wikidata/central_admin.csv (type,label,website,hostname,level)."
   [rows]
   (reduce (fn [m row]
             (let [host  (nth row 3 nil)
@@ -755,10 +713,8 @@
           {} rows))
 
 (defn level1-pattern
-  "Word-bounded, case-insensitive pattern over the English labels of a
-  country's first-level subdivisions (4+ chars), or nil when none. Used to
-  promote a subnational host to central-1 when its label names such a
-  subdivision -- covers rows fetched before levels carried central-1."
+  "Word-bounded, case-insensitive pattern matching any of the labels
+  (4+ chars) of a country's first-level subdivisions; nil when none."
   [labels]
   (let [labels (->> labels (remove str/blank?) (filter #(>= (count %) 4)))]
     (when (seq labels)
@@ -768,14 +724,11 @@
              ")\\b")))))
 
 (defn load-candidate-ctx
-  "Read the per-country sources the ranking needs (I/O only, see
-  propose-candidates): Wikidata mentions and P1001 levels, the UN/DESA
-  national portal, the IANA ccTLD, the Factbook highest courts, the
-  link-graph in-degrees (sources/linkgraph/, see indegree/cmd-indegree), the
-  official-directory listing (detect-from-directories.clj, :candidates
-  channel: authoritative on the body's existence, silent on its level),
-  the first-level subdivision labels, plus the world-wide confirmed
-  domains and the country's excluded ones."
+  "Read what propose-candidates needs for a country: the Wikidata
+  mentions and levels, the UN/DESA portal, the ccTLD, the Factbook
+  courts, the link-graph in-degrees, the directory listing, the
+  first-level subdivision labels, the confirmed domains of every
+  country and the excluded ones of this country."
   [country-dir]
   (let [src #(country-src country-dir %1 %2)
         wd-path   (src "wikidata" "central_admin.csv")
@@ -796,12 +749,10 @@
      :excluded       (get @excluded-domains country-dir #{})}))
 
 (defn propose-candidates
-  "Rank the hosts of a candidate context (pure): every host any source
-  mentions, minus the non-hostnames Wikidata websites yield (IDN with
-  accents, a bare \"http\", a trailing space), minus those a confirmed
-  domain covers or an excluded one rules out, scored and levelled by
-  candidate-row; hosts levelled local are dropped. Rows
-  [hostname score sources label level], best scores first."
+  "Rank the hosts of a context: every valid hostname a source mentions
+  that no confirmed or excluded domain covers, scored and levelled by
+  candidate-row, local ones dropped. [hostname score sources label
+  level] rows, best scores first. Pure."
   [{:keys [wd-by-host lg-by-host dir-by-host un-portal-host known excluded] :as ctx}]
   (->> (cond-> (-> (set (keys wd-by-host))
                    (into (keys lg-by-host))
@@ -1020,10 +971,8 @@
 ;; Reads the decision files only (confirmed-rows).
 
 (defn- covered-by?
-  "True when domain d is redundant given entry [d2 excl2 apex?]: d sits
-  under d2, d2 covers its subtree (apex entries cover nothing but
-  themselves) and the label chaining d to d2 is not excluded, so d2
-  already covers every host under d."
+  "True when entry [d2 excl2 apex?] already covers d: d sits under a
+  non-apex d2 through a label d2 does not exclude."
   [d [d2 excl2 apex?]]
   (and (not apex?)
        (not= d d2)
@@ -1038,13 +987,8 @@
   (filter (fn [[d _]] (not-any? #(covered-by? d %) entries)) entries))
 
 (defn- central-plus-rows
-  "[domain country level] of the central+ scope: every confirmed central
-  and central-1 domain of a UN member or observer -- only CONFIRMED
-  domains, mirroring the manual gate of the central level (decision of
-  2026-08-17); unconfirmed central-1 hosts stay in proposed.csv as the
-  curation worklist, local rows only carve labels out. One row per
-  [domain country], as compile-confirmed keeps one row per domain and
-  country."
+  "[domain country level] of every confirmed central and central-1
+  domain of a UN member or observer, sorted."
   []
   (let [un-by-country (build-un-status-map)]
     (->> (for [[c d level] (confirmed-rows)
@@ -1054,30 +998,17 @@
          (sort-by (juxt first #(nth % 2))))))
 
 (defn cmd-domains
-  "Compile the central+ scope (central roots plus first-tier bodies,
-  central-plus-rows) into the match policy table
+  "Write the match policy table
   data/public-sector-domains-central+-policy.csv
-  (domain,kind,country,level): `subtree` is a domain and everything
-  below it, `exact` is a domain alone (nothing below it), `exclude` is
-  a domain and everything below it to keep out. When a host falls under
-  several rows (campinas.sp.gov.br is under gov.br subtree and under
-  sp.gov.br exact), the most specific row, the one with the longest
-  domain, decides. The table needs no lookaround and no regex engine,
-  so any consumer (RE2, SQL) can apply it. level is the tier of the
-  row's domain: central or central-1 for subtree and exact rows, local
-  for an exclude row (blank when the row comes from excluded.csv).
-
-  It covers central administration plus one tier below it, and nothing
-  lower: every local or excluded label of a mixed-suffix root
-  (local-labels) becomes an exclude row, and every confirmed central-1
-  domain directly under a central root (sp.gov.br, central1-under)
-  becomes an exact row, so lower-tier hosts registered anywhere in
-  their subtree (campinas.sp.gov.br) stay out until a central body of
-  the subtree is listed explicitly in the central+ scope. Domains
-  already covered by a root (e.g. fazenda.gov.br under gov.br) are
-  pruned as redundant. A domain confirmed in several countries gets one
-  row, attributed to the first country in ASCII order, with the union
-  of their exclusions."
+  (domain,kind,country,level) from the confirmed central and central-1
+  domains: `subtree` covers a domain and everything below it, `exact`
+  a domain alone, `exclude` keeps a domain and everything below it
+  out; the longest matching domain decides. A central-1 domain
+  directly under a central root becomes an exact row, a local or
+  excluded label under one an exclude row, and a domain a root already
+  covers is dropped. level is the tier of the row's domain, blank for
+  a row from excluded.csv. A domain confirmed in several countries gets
+  one row, for the first country in ASCII order."
   [_]
   (let [rows (central-plus-rows)
         excl (local-labels)
@@ -1129,13 +1060,10 @@
 
 (defn cmd-check
   "Compile the decision files of the given countries (all by default).
-  ERR and exit 1 on what loses or contradicts a decision: a domain both
-  curated and excluded, an unknown level, a row of curated.csv or
-  excluded.csv whose first cell is not a hostname (the pipeline drops
-  it silently), a domain curated twice with two levels. WARN for what
-  is only dead weight: a domain listed twice with the same level, a
-  curated row that only repeats a registered row of the same level
-  without adding a name. For merge requests."
+  ERR and 1 on a domain both curated and excluded, an unknown level, a
+  first cell that is not a hostname or a domain curated with two
+  levels; WARN on a domain listed twice with the same level or a
+  curated row a registry already lists at that level."
   [args]
   (if-let [countries (scoped-countries args)]
     (let [check-country

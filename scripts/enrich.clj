@@ -1,11 +1,10 @@
 (ns enrich
-  "Enrichment sources, one section per source: Wikidata (central
-  administrations and first-level subdivisions), IANA (ccTLD), CIA World
-  Factbook, UN/DESA (national portal, EGDI), OECD membership and country
-  metadata (REST Countries, World Bank). Wikidata writes under
-  countries/<c>/sources/wikidata/, the others one row per country in
-  data/sources/<source>.csv; cmd-enrich runs the six in parallel. Pure
-  definitions: pipeline.clj dispatches."
+  "Enrichment sources: Wikidata (subdivisions, central administration)
+  under countries/<c>/sources/wikidata/, and IANA, CIA Factbook, UN/DESA,
+  OECD and country metadata as one row per country in
+  data/sources/<source>.csv. build-qid, build-gec and build-un-ids
+  write the country_dir -> source id files three sources read.
+  pipeline.clj dispatches."
   (:require [common :refer :all]
             [babashka.fs :as fs]
             [cheshire.core :as json]
@@ -126,12 +125,9 @@
              :query-params {"query" q}}))
 
 (defn juris-level
-  "Administrative level of an org from its P1001 jurisdiction QIDs:
-  \"central\" when one of them is the country itself, \"central-1\" when one
-  is a first-level subdivision of the country (Land, state, region… -- the
-  P150 values of the country), \"local\" when they all point further down
-  (city, county…), \"\" when the property is absent (unknown -- to be
-  consolidated over time)."
+  "Level of an org from its P1001 jurisdiction QIDs: \"central\" when one
+  is the country, \"central-1\" when one is a first-level subdivision,
+  \"local\" otherwise, \"\" when there is none."
   [juris-qids country-qid level1-qids]
   (cond
     (empty? juris-qids)                ""
@@ -216,11 +212,9 @@
   (run-per-qid args subdivisions-process!))
 
 (defn wikidata-bindings->rows
-  "Rows [type label website hostname level] from the SPARQL bindings of one
-  class query (pure). One org can bind several ?juris (and several
-  websites): the bindings are grouped per org to derive its level
-  (juris-level over its jurisdictions), then one row is emitted per
-  distinct host."
+  "[type label website hostname level] rows of the bindings of one class
+  query, one per distinct host, the level derived per org from all its
+  jurisdictions. Pure."
   [type bindings country-qid level1]
   (->> (group-by #(get-in % [:org :value]) bindings)
        (mapcat
@@ -417,8 +411,7 @@
       :else nil)))
 
 (def cia-fields
-  "The Factbook fields the summary and the scoring read, and their path
-  in the Government section."
+  "[column path-in-the-Government-section] of the Factbook fields kept."
   [["government_type"         ["Government type"]]
    ["capital"                 ["Capital" "name"]]
    ["chief_of_state"          ["Executive branch" "chief of state"]]
@@ -547,8 +540,8 @@
 ;; ===========================================================================
 
 (defn meta-rest-countries
-  "Fetch region/subregion/languages/currency/population for an ISO3 code
-  from restcountries.com. Returns a map or nil."
+  "Fetch {:region :subregion :languages :currencies :population} of an
+  ISO3 code from restcountries.com; nil on failure."
   [iso3]
   (let [body (http-get (str "https://restcountries.com/v3.1/alpha/" iso3
                             "?fields=region,subregion,languages,currencies,population")
@@ -564,8 +557,8 @@
         (catch Exception _ nil)))))
 
 (defn meta-world-bank-gdp
-  "Fetch most recent GDP per capita (current US$, NY.GDP.PCAP.CD) for an ISO3
-  code from the World Bank API. Returns [value year] or nil."
+  "Fetch the latest GDP per capita (current US$) of an ISO3 code from
+  the World Bank API: [value year], nil on failure."
   [iso3]
   (let [body (http-get (str "https://api.worldbank.org/v2/country/" iso3
                             "/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1")

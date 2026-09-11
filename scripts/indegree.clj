@@ -1,9 +1,8 @@
 (ns indegree
-  "Link-graph centrality from the eu-plus-government-scans crawl: for each
-  host, how many distinct public-sector domains of the same country link
-  to it, written to countries/<c>/sources/linkgraph/indegree.csv; the
-  ranking (pipeline.clj) gives well-linked hosts a strong score bonus.
-  Pure definitions: pipeline.clj dispatches."
+  "Link-graph in-degree from the eu-plus-government-scans crawl: for each
+  host, the number of distinct public-sector domains of the same country
+  linking to it, written to countries/<c>/sources/linkgraph/indegree.csv.
+  pipeline.clj dispatches."
   (:require [common :refer :all]
             [babashka.fs :as fs]
             [cheshire.core :as json]
@@ -11,8 +10,8 @@
             [clojure.string :as str]))
 
 (def linkgraph-min-indegree
-  "Below this many distinct linking domains a host stays out of
-  proposed.csv (single blogroll link, typo'd domain...)."
+  "Minimum number of distinct linking domains for a host to enter
+  proposed.csv."
   3)
 
 (def linkgraph-base-url
@@ -25,9 +24,8 @@
 (def linkgraph-cache "/tmp/linkgraph")
 
 (defn- linkgraph-fetch!
-  "Download one published data file into the /tmp cache (relationships.jsonl
-  is ~100 MB, hence curl -o and a long timeout). Returns the path, nil on
-  failure. FORCE=1 re-downloads."
+  "Download one crawl data file into the /tmp cache and return its path,
+  nil on failure. FORCE=1 re-downloads."
   [file]
   (let [path (str linkgraph-cache "/" file)
         tmp  (str path ".tmp")]
@@ -50,10 +48,9 @@
    "republicofcyprus" "cyprus"})
 
 (defn- linkgraph-suffix->dir
-  "{domain-suffix country_dir} built from the crawler's inventory. Every
-  dotted suffix of each hostname is registered (2+ labels), so the
-  domain-level source/target fields of the graph (paris.fr,
-  culture.gouv.fr) match; suffixes claimed by two countries are dropped."
+  "Build {domain-suffix country_dir} from the crawler's inventory, one
+  entry per dotted suffix (2+ labels) of each hostname; drop suffixes
+  claimed by two countries. Nil when the inventory is unavailable."
   []
   (when-let [path (linkgraph-fetch! "gov-domains.json")]
     (let [by-slug   @slug->country-dir
@@ -78,23 +75,20 @@
            (into {})))))
 
 (defn- linkgraph-lookup
-  "Longest-suffix match of a domain in the {suffix country_dir} map."
+  "Return the country_dir of the longest suffix of domain in suffix->dir."
   [suffix->dir domain]
   (let [parts (str/split domain #"\.")]
     (some (fn [i] (suffix->dir (str/join "." (subvec parts i))))
           (range (dec (count parts))))))
 
 (defn cmd-indegree
-  "For every country covered by the eu-plus-government-scans crawl, compute
-  each government domain's in-degree: how many distinct public-sector
-  domains of the same country link to it. Editorial links and form
-  destinations feed =indegree=; script/stylesheet/media dependencies feed
-  =indegree_tech=. Auto-links are excluded, and the crawler's own
-  target_category is ignored (it tags well-known government sites as
-  external). Writes countries/<c>/sources/linkgraph/indegree.csv; the
-  report phase then folds hosts at or above linkgraph-min-indegree into
-  proposed.csv with a strong score bonus. Optional args restrict to the
-  given country_dirs."
+  "Compute each government domain's in-degree per crawled country:
+  editorial links and form destinations feed indegree, other dependencies
+  (scripts, stylesheets, media) feed indegree_tech; the crawler's own
+  target_category is ignored. Write
+  countries/<c>/sources/linkgraph/indegree.csv
+  (hostname,indegree,indegree_tech). Optional args restrict to the given
+  country_dirs; return 1 when the crawl data is unavailable."
   [args]
   (let [suffix->dir (linkgraph-suffix->dir)
         rel-path    (and suffix->dir (linkgraph-fetch! "relationships.jsonl"))]

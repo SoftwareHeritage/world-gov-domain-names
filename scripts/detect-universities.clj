@@ -28,7 +28,8 @@
 (def universities-header ["hostname" "country" "label" "website"])
 
 (defn- read-universities
-  "{[hostname country] [hostname country label website]} from the file."
+  "Read data/public-universities.csv into {[hostname country] [hostname
+  country label website]}."
   []
   (into {}
         (for [[hostname country :as row]
@@ -71,16 +72,17 @@
        "}"))
 
 (defn- run-query
-  "The bindings of a SPARQL query (enrich/wikidata-run-query: retries
-  included), nil when the endpoint did not answer or sent no JSON."
+  "Return the bindings of a SPARQL query, nil when the endpoint did not
+  answer or sent no JSON."
   [q]
   (try (some-> (enrich/wikidata-run-query q) (json/parse-string true) :results :bindings)
        (catch Exception _ nil)))
 
 (defn cmd-fetch
   "Fetch the strictly public universities of every country (or of the
-  given country_dirs) and merge them into data/public-universities.csv.
-  Country QIDs come from data/country_qid.csv (bb pipeline build-qid)."
+  given country_dirs) from Wikidata and merge them into
+  data/public-universities.csv. Return 1 when data/country_qid.csv (bb
+  pipeline build-qid) is missing or matches no country."
   [args]
   (let [pairs (or (seq (for [row (rest (or (read-csv-raw "data/country_qid.csv") []))
                              :let [[country _iso3 qid] row]

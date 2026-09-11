@@ -1,11 +1,8 @@
 (ns registries
-  "Official lists that feed the confirmed domains through
-  write-registered! (sources/<registry>/registered.csv): the US
-  federal .gov registry (CISA), France's national administration
-  directory (lannuaire), the UK sub-central bodies (govuk, from the CDDO
-  list and Wikidata), plus two helpers on the master data: the Wikidata
-  QID mapping (build-qid) and the UN membership check (validate-un).
-  Pure definitions: pipeline.clj dispatches."
+  "Official registries feeding sources/<registry>/registered.csv: CISA
+  (US federal .gov), lannuaire (FR central administrations), govuk (UK
+  sub-central bodies), plus the UN-membership check of
+  data/world-governments.csv. pipeline.clj dispatches."
   (:require [common :refer :all]
             [enrich :as enrich]
             [babashka.http-client :as http]
@@ -76,21 +73,20 @@
 ;; ===========================================================================
 
 (def un-members-record-url
-  "Record page of the UN member states dataset published by the Dag
-  Hammarskjöld Library. Links to a dated CSV snapshot whose name changes at
-  each refresh."
+  "Record page of the UN member states dataset (Dag Hammarskjöld Library);
+  links to a dated CSV snapshot whose name changes at each refresh."
   "https://digitallibrary.un.org/record/4082085")
 
 (def redirect-http-client
-  "The UN Digital Library serves record files behind a 302, which the
-  default no-redirect client refuses to follow."
+  "HTTP client that follows redirects (the UN Digital Library serves its
+  files behind a 302)."
   (http/client (assoc http/default-client-opts
                       :follow-redirects :normal
                       :connect-timeout 15000)))
 
 (defn un-members-csv-url
-  "Full URL of the most recent member_states_auths_*.csv snapshot linked
-  from the record page, or nil when unreachable."
+  "Return the URL of the latest member_states_auths_*.csv linked from the
+  record page, nil when unreachable."
   []
   (when-let [body (http-get un-members-record-url)]
     (some->> (re-seq #"files/(member_states_auths_[0-9-]+\.csv)" body)
@@ -100,16 +96,14 @@
              (str un-members-record-url "/files/"))))
 
 (defn date-count
-  "Number of dates in a comma-separated list ('1945-10-24, 1971-09-02' -> 2)."
+  "Count the dates of a comma-separated list ('1945-10-24, 1971-09-02' -> 2)."
   [s]
   (count (remove str/blank? (str/split (str s) #","))))
 
 (defn un-member-iso3s
   "Parse the UN library CSV into the set of ISO3 codes of current members.
-  The file is a name authority where Start/End date hold comma-separated
-  usage episodes: a name is in current use when it has more start dates
-  than end dates (a plain empty-End-date test misses countries that went
-  through renames, e.g. Egypt or Cambodia)."
+  Start/End date hold comma-separated usage episodes: a name is current
+  when it has more start dates than end dates."
   [body]
   (let [rows (csv/read-csv body)
         headers (first rows)]
@@ -124,9 +118,8 @@
 
 (defn cmd-validate-un
   "Check the un_status column of data/world-governments.csv against the
-  official UN member list. Returns 1 -- the dispatcher exits with it -- on
-  a fetch failure, any mismatch or a blank un_status (blank would silently
-  default to member everywhere else in the pipeline)."
+  official UN member list. Return 1 on a fetch failure, any mismatch or a
+  blank un_status."
   [_]
   (println "Fetching official UN member list from digitallibrary.un.org…")
   (let [url (un-members-csv-url)
@@ -175,12 +168,10 @@
        "List_of_.gov.uk_domain_names_as_of_31_March_2026_1.csv"))
 
 (def govuk-local-label-patterns
-  "Naming conventions of sub-central bodies registered directly under
-  gov.uk: parish/town/community and principal councils, the -pc/-tc/…
-  council suffixes, police-and-crime commissioners (-pcc), combined
-  authorities (-ca), Northern Ireland devolved departments (-ni), fire
-  services and national parks. fire.gov.uk and firekills.gov.uk are Home
-  Office campaigns, hence the anchored fire patterns."
+  "Label patterns of sub-central gov.uk bodies: councils of all tiers and
+  their -pc/-tc/… suffixes, -pcc commissioners, -ca combined authorities,
+  -ni devolved departments, fire services (anchored: fire.gov.uk is a
+  Home Office campaign) and national parks."
   [#"parish"
    #"village"
    #"(town|community|county|city|district|borough)-?council"
@@ -201,16 +192,13 @@
    #"nationalpark|national-park|-npa$"])
 
 (def govuk-central-allowlist
-  "Central-government labels the patterns above would wrongly exclude:
-  acronym bodies ending in pc/tc/cc/bc (Regulatory Policy Committee, DECC,
-  HMG Communications Centre, Joint Nature Conservation Committee, IPCC,
-  Animal Procedures Committee, Agriculture and Environment Biotechnology
-  Commission, ...)."
+  "Central-government labels the patterns above would wrongly exclude
+  (acronym bodies ending in pc/tc/cc/bc: RPC, DECC, HMGCC, JNCC, IPCC…)."
   #{"rpc" "apc" "otc" "decc" "hmgcc" "jncc" "ipcc" "aebc"})
 
 (def govuk-extra-local-labels
-  "Sub-central labels neither the patterns nor the Wikidata queries catch:
-  nidirect (NI Direct, the Northern Ireland citizen portal)."
+  "Sub-central labels neither the patterns nor Wikidata catch (nidirect:
+  the Northern Ireland citizen portal)."
   #{"nidirect"})
 
 (def govuk-national-gss
@@ -219,8 +207,9 @@
   #"^(E92|S92|W92|N92|K0)")
 
 (defn- govuk-label-of-website
-  "The registrable gov.uk label of a website URL, whatever the host depth:
-  https://beta.xcouncil.gov.uk/ -> xcouncil. Nil when not a gov.uk site."
+  "Return the registrable gov.uk label of a website URL, whatever the host
+  depth (https://beta.xcouncil.gov.uk/ -> xcouncil); nil when not a
+  gov.uk site."
   [web]
   (some-> (re-find
            #"^https?://(?:[a-z0-9-]+\.)*([a-z0-9-]+)\.gov\.uk(?:[/:?#]|$)"
@@ -228,11 +217,10 @@
           second))
 
 (defn- govuk-wikidata-locals
-  "#{gov.uk-label} of the Wikidata entities anchored below country level
-  in the UK statistical geography: the entity itself carries a GSS code
-  (P836 -- council areas) or its P1001 jurisdiction does (council
-  organisations). Country/UK-level GSS codes are filtered out (see
-  govuk-national-gss)."
+  "Return the set of gov.uk labels of the Wikidata entities anchored below
+  country level in the UK statistical geography (GSS code P836 on the
+  entity or on its P1001 jurisdiction); govuk-national-gss codes are
+  dropped."
   []
   (let [queries
         ["SELECT ?gss ?web WHERE { ?item wdt:P836 ?gss ; wdt:P856 ?web . }"

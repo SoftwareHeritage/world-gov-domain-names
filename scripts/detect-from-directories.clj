@@ -169,15 +169,9 @@
     :source      "organisaties.overheid.nl"}})
 
 (defn- directory-fetch-csv
-  "[[name website] ...] from a CSV directory export. Fetched as bytes:
-  these exports are often latin-1 (or UTF-8 with stray invalid bytes,
-  which String replaces rather than rejects) and the default decoding
-  would garble the organisation names. :col-filters, a vector of
-  [column-name regex] pairs, keeps only the rows matching every filter
-  (how IndicePA's 23k mixed-level entities reduce to the central
-  categories, or Poland's catalog to ACTIVE central types).
-  Downloaded with curl: several government hosts chain through national
-  CAs the JVM truststore does not carry (dane.gov.pl)."
+  "[[name website] …] of a CSV directory export, decoded per :encoding,
+  keeping the rows matching every [column regex] of :col-filters. nil
+  on a fetch failure."
   [{:keys [url encoding separator name-col website-col col-filters]}]
   (let [body (curl-get-bytes url)]
     (when body
@@ -202,10 +196,8 @@
             [(str/trim (or (nth r name-i nil) "")) web]))))))
 
 (defn- directory-fetch-json-pages
-  "[[name website] ...] from a paginated JSON API: URL ends in 'page=',
-  pages are fetched until one comes back empty. nil when a page could
-  not be fetched: a listing cut mid-way must not pass for a complete
-  one (the registry channel would then drop confirmed domains)."
+  "[[name website] …] of a paginated JSON API (:url ends in 'page='),
+  fetched until an empty page. nil when a page could not be fetched."
   [{:keys [url items-path name-field website-field]}]
   (loop [page 0 acc []]
     (let [body  (http-get (str url page) {:accept "application/json"})
@@ -220,8 +212,8 @@
                                  [(str (get it name-field)) web])))))))
 
 (defn- xml-texts
-  "All text contents of the descendants of el whose unqualified tag name
-  is tag-name."
+  "The text contents of the descendants of el tagged tag-name
+  (namespace ignored)."
   [el tag-name]
   (for [node (tree-seq :content :content el)
         :when (and (map? node) (= tag-name (name (:tag node))))
@@ -230,13 +222,9 @@
     s))
 
 (defn- directory-fetch-xml
-  "[[name website] ...] from an XML directory dump: elements whose
-  unqualified tag is :org-tag, keeping those with at least one :type-tag
-  text matching :type-filter; the first :url-tag text is the website.
-  Tag names are matched without their namespace (the Dutch ROO export
-  qualifies everything). Downloaded with curl to a temp file: these
-  dumps are tens of MB and some hosts chain through national CAs the
-  JVM truststore does not carry (organisaties.overheid.nl)."
+  "[[name website] …] of an XML directory dump: the :org-tag elements
+  with a :type-tag text matching :type-filter, their :name-tag and
+  first :url-tag texts. nil on a fetch failure."
   [{:keys [url org-tag name-tag type-tag url-tag type-filter]}]
   (let [tmp (fs/create-temp-file)]
     (try
@@ -255,15 +243,10 @@
       (finally (fs/delete-if-exists tmp)))))
 
 (defn- directory-fetch-govuk
-  "[[name website] ...] for the gov.uk organisations register. Two-stage
-  and gov.uk-specific: the paginated listing carries every organisation
-  but only gov.uk paths as web_url; the organisations whose govuk_status
-  is 'exempt' (arm's-length bodies running their own website) expose
-  that external URL in the per-organisation Content API, one call each.
-  Live/joining organisations sit under www.gov.uk and are already
-  covered by the CDDO registry; closed ones are skipped. nil when a
-  page of the listing could not be fetched; an organisation whose
-  Content API call fails is skipped."
+  "[[name website] …] of the gov.uk organisations register: the
+  'exempt' organisations of the paginated :list-url, each with the
+  external URL its :content-url page gives (one call each, skipped on
+  failure). nil when a listing page could not be fetched."
   [{:keys [list-url content-url]}]
   (let [exempt
         (loop [page 1 acc []]
@@ -300,9 +283,9 @@
          [title url])))))
 
 (defn- directory-hosts
-  "{host {:n mentions :names #{...}}} from the spec's [name website] rows;
-  hosts filtered by :host-filter, organisations dropped by :exclude-name
-  (both optional)."
+  "{host {:n mentions :names #{…}}} of [name website] rows, keeping the
+  hosts matching :host-filter and dropping the names matching
+  :exclude-name (both optional)."
   [{:keys [host-filter exclude-name]} rows]
   (reduce (fn [m [org-name web]]
             (let [h (extract-host web)]

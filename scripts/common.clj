@@ -1,10 +1,8 @@
 (ns common
-  "Helpers shared by the scripts of this repository: CSV and HTTP I/O,
-  country directories, the per-country decision files, the
-  country-metadata tables, bounded parallelism. Pure
-  definitions only -- loading this namespace does no I/O. Loaded
-  through the :paths [\"scripts\"] of bb.edn, so every `bb …` command run
-  from the repository root can (require '[common])."
+  "Helpers shared by the scripts: CSV and HTTP I/O, country directories,
+  the per-country decision files, the country-metadata tables, bounded
+  parallelism. Pure definitions only: loading this namespace does no I/O.
+  Loaded through the :paths [\"scripts\"] of bb.edn."
   (:require [babashka.http-client :as http]
             [babashka.fs :as fs]
             [babashka.process :as proc]
@@ -22,14 +20,13 @@
 (defn err [& xs] (binding [*out* *err*] (println (apply str xs))))
 
 (defn single-line
-  "Collapse a (possibly multi-line) string to a single trimmed line. Keeps the
-  CSV well-formed when storing HTTP error messages as a status."
+  "Collapse a (possibly multi-line) string to a single trimmed line."
   [s]
   (-> (str s) (str/replace #"\s+" " ") str/trim))
 
 (defn read-csv-file
-  "Read a CSV with header as a seq of maps {col-name value}. Column names
-  are kept as strings (preserves spaces, e.g. 'Government Portal Domain')."
+  "Read a CSV with header as a vector of {col-name value} maps, column
+  names kept as strings. nil when the file is absent."
   [path]
   (when (fs/exists? path)
     (with-open [r (io/reader (str path))]
@@ -40,7 +37,7 @@
                    (zipmap headers row)))))))))
 
 (defn read-csv-raw
-  "Read a CSV as a seq of vectors (header included)."
+  "Read a CSV as a seq of vectors, header included. nil when the file is absent."
   [path]
   (when (fs/exists? path)
     (with-open [r (io/reader (str path))]
@@ -55,13 +52,13 @@
 (defn ensure-dir [path] (fs/create-dirs path) path)
 
 (defn country-src
-  "Path under countries/<c>/sources/<source>/. With a file, appends it:
-  (country-src \"FRA_france\" \"crtsh\" \"gouv.fr.csv\"). With none, the dir."
+  "Return the path of countries/<c>/sources/<source>, or of file under it
+  when given."
   [country-dir source & [file]]
   (str "countries/" country-dir "/sources/" source (when file (str "/" file))))
 
 (defn country-dirs
-  "All country_dir present under countries/. ASCII-sorted."
+  "Return every country_dir under countries/, as an ASCII-sorted vector."
   []
   (->> (fs/list-dir "countries")
        (filter fs/directory?)
@@ -70,23 +67,17 @@
        vec))
 
 (defn valid-hostname?
-  "True if h is a syntactically valid hostname: dotted labels of a-z0-9 with
-  internal hyphens, at least two labels. Rejects URLs, paths, wildcards, email
-  addresses and stray punctuation (spaces, quotes, commas, pipes, '?', ...)."
+  "True when h is a syntactically valid hostname: two or more dotted labels
+  of a-z0-9 with internal hyphens."
   [h]
   (boolean
     (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
 
 (def levels
-  "The tiers a confirmed domain may carry: central government, the first
-  administrative tier below it (Land, state, region…), and everything
-  lower (local). local rows are never harvested: they carve lower-tier
-  labels out of a shared root (abingdon.gov.uk under gov.uk) and keep
-  such hosts out of proposed.csv. A lower-tier body is thus a confirmed
-  public-sector domain of level local, not an exclusion (decision of
-  2026-09-10: the former excluded.csv files, all local bodies, became
-  local rows of curated.csv); excluded.csv is for what is not a public
-  body at all."
+  "The levels of a confirmed domain: central government, the first tier
+  below it (central-1: Land, state, region…) and everything lower
+  (local). A local row is never harvested: it carves a lower-tier label
+  out of a shared root (abingdon.gov.uk under gov.uk)."
   #{"central" "central-1" "local"})
 
 (def harvest-levels
@@ -107,9 +98,9 @@
   (country-src country-dir registry "registered.csv"))
 
 (defn- read-domain-rows
-  "Rows of a CSV whose first column is a hostname, as vectors of n cells:
-  hostname normalised, the other cells trimmed (\"\" when missing), rows
-  with an invalid hostname dropped. Empty when the file is absent."
+  "Read the rows of a CSV whose first column is a hostname as vectors of
+  n cells: hostname normalised, the other cells trimmed (\"\" when
+  missing). Drop rows with an invalid hostname; empty when the file is absent."
   [path n]
   (for [row (rest (read-csv-raw path))
         :let [domain (some-> (first row) str/trim str/lower-case)]
@@ -117,11 +108,10 @@
     (into [domain] (map #(str/trim (or (nth row % nil) "")) (range 1 n)))))
 
 (defn decision-anomalies
-  "What read-domain-rows would silently lose or merge in the raw rows of
-  a decision file: [:invalid-hostname cell] for a row whose first cell
-  is not a hostname (a decision dropped without a word) and
-  [:duplicate domain] for a domain listed more than once (the first row
-  wins). Blank rows are ignored. Pure."
+  "Return what read-domain-rows would silently lose or merge in the raw
+  rows of a decision file: [:invalid-hostname cell] for a first cell that
+  is not a hostname, [:duplicate domain] for a domain listed more than
+  once (the first row wins). Ignore blank rows."
   [rows]
   (let [cells   (for [row rows :when (some seq row)] (str/trim (or (first row) "")))
         domains (map str/lower-case cells)]
@@ -129,41 +119,39 @@
             (for [[d n] (frequencies (filter valid-hostname? domains)) :when (> n 1)] [:duplicate d]))))
 
 (defn file-anomalies
-  "decision-anomalies over the rows of a decision file; empty when absent."
+  "Return the decision-anomalies of the decision file at path; empty when absent."
   [path] (decision-anomalies (rest (read-csv-raw path))))
 
 (defn read-curated
-  "[domain level name] rows of countries/<c>/curated.csv."
+  "Read the [domain level name] rows of countries/<c>/curated.csv."
   [country-dir] (read-domain-rows (curated-file country-dir) 3))
 
 (defn read-excluded
-  "[domain reason] rows of countries/<c>/excluded.csv."
+  "Read the [domain reason] rows of countries/<c>/excluded.csv."
   [country-dir] (read-domain-rows (excluded-file country-dir) 2))
 
 (defn read-registered
-  "[domain level] rows of countries/<c>/sources/<registry>/registered.csv."
+  "Read the [domain level] rows of countries/<c>/sources/<registry>/registered.csv."
   [country-dir registry]
   (read-domain-rows (registered-file country-dir registry) 2))
 
 (defn registries
-  "The registries of a country: the <registry> of every
-  countries/<c>/sources/<registry>/registered.csv. ASCII-sorted."
+  "Return the <registry> of every countries/<c>/sources/<registry>/registered.csv,
+  ASCII-sorted."
   [country-dir]
   (let [dir (str "countries/" country-dir "/sources")]
     (when (fs/exists? dir)
       (sort (map #(str (fs/file-name (fs/parent %))) (fs/glob dir "*/registered.csv"))))))
 
 (defn compile-confirmed
-  "The confirmed [domain level source name] rows of a country from its
-  curated [domain level name] rows, the [[registry [[domain level]…]]…]
-  of its registries and its excluded [domain reason] rows: a curated row
-  wins over any registered row of the same domain (its level too),
-  registries fold in in the given order, and an excluded domain leaves.
-  source is curated or the registry's name; name is blank for a
-  registered row. Throws (ex-info) on an unknown level or on a domain
-  both curated and excluded: a contradiction is for the curator to
-  settle, not for the compiler to arbitrate. Pure; ASCII-sorted by
-  domain."
+  "Compile the confirmed [domain level source name] rows of a country
+  from its curated [domain level name] rows, the [[registry [[domain
+  level]…]]…] of its registries and its excluded [domain reason] rows.
+  A curated row wins over a registered row of the same domain,
+  registries fold in in the given order, an excluded domain leaves;
+  source is \"curated\" or the registry's name, name is blank for a
+  registered row. Throws ex-info on an unknown level or on a domain both
+  curated and excluded. Sorted by domain."
   [curated registries excluded]
   (let [rows     (concat (for [[d level name] curated] [d level "curated" name])
                          (for [[registry rs] registries, [d level] rs] [d level registry ""]))
@@ -179,7 +167,7 @@
          (sort-by first))))
 
 (defn confirmed-country
-  "compile-confirmed over the decision files of a country."
+  "Compile the confirmed rows of a country from its decision files (compile-confirmed)."
   [country-dir]
   (compile-confirmed (read-curated country-dir)
                      (for [r (registries country-dir)] [r (read-registered country-dir r)])
@@ -189,12 +177,10 @@
 (def ^:private confirmed-domains-cache (atom nil))
 
 (defn confirmed-rows
-  "The confirmed domains of every country: vector of [country domain
-  level source name] (confirmed-country). Compiled once per run and
-  cached -- the per-country callers (aggregate, probes) would otherwise
-  reread the decision files each time; write-registered! drops the
-  cache. Throws (ex-info) on the first contradiction: the dispatcher
-  reports it and exits 1."
+  "Return the confirmed domains of every country as a vector of [country
+  domain level source name], compiled once per run and cached
+  (write-registered! drops the cache). Throws ex-info on the first
+  contradiction in the decision files."
   []
   (or @confirmed-cache
       (reset! confirmed-cache
@@ -206,10 +192,8 @@
                      [c d level source name])))))
 
 (defn write-registered!
-  "Write the fresh [domain level] rows of
-  countries/<c>/sources/<registry>/registered.csv: this is how an
-  official list enters the confirmed domains without touching anyone
-  else's rows. Drops the confirmed cache."
+  "Write the [domain level] rows to countries/<c>/sources/<registry>/registered.csv,
+  sorted by domain, and drop the confirmed cache."
   [country-dir registry rows]
   (write-csv-file (registered-file country-dir registry) ["domain" "level"]
                   (sort-by first (for [[d level] rows] [d level])))
@@ -217,8 +201,8 @@
   (reset! confirmed-domains-cache nil))
 
 (defn normalize-name
-  "Lowercase a name and strip everything but [a-z0-9], for matching country
-  names (from CSVs or remote sources) against country_dir slugs."
+  "Lowercase s and strip everything but [a-z0-9], to match country names
+  against country_dir slugs."
   [s]
   (-> (or s "") str/lower-case (str/replace #"[^a-z0-9]" "")))
 
@@ -254,9 +238,7 @@
   (delay (into {} (for [c (country-dirs)] [(country-slug c) c]))))
 
 (defn bounded-pmap
-  "Like pmap but with a fixed thread pool of size n. Returns a vector of
-  results. Useful when each task does HTTP and we want a controlled
-  concurrency (avoids saturating endpoints like Wikidata SPARQL)."
+  "Map f over coll on a fixed pool of n threads and return a vector of results."
   [n f coll]
   (let [pool (java.util.concurrent.Executors/newFixedThreadPool (int (max 1 n)))
         ;; convey dynamic bindings (*out* rebinding in cmd-enrich's log
@@ -274,12 +256,9 @@
 
 (defn dispatch
   "Run a script's sub-command: (get commands cmd) applied to the
-  remaining args. No command, help or an unknown command print usage.
-  Exits with the integer the command returns -- a command returns 1
-  when it reported an ERR, so a failed refresh is visible to a shell or
-  a cron job -- 1 on no or unknown command or on an ex-info (its
-  message on ERR: a contradiction in the decision files, see
-  compile-confirmed), 0 otherwise."
+  remaining args; no command, help or an unknown command print usage.
+  Exit with the integer the command returns (0 when it returns none),
+  1 on no or unknown command or on an ex-info, whose message goes to ERR."
   [commands usage [cmd & args]]
   (let [result (try
                  (cond
@@ -294,9 +273,8 @@
     (System/exit (if (integer? result) result 0))))
 
 (defn scoped-countries
-  "The country_dirs named in selection, or all of them when selection is
-  empty. An unknown name is an error (ERR, nil): a typo must not create
-  a countries/<typo>/ directory through the first file written there."
+  "Return the country_dirs named in selection, or all of them when
+  selection is empty. Report an unknown name on ERR and return nil."
   [selection]
   (let [all (country-dirs)
         unknown (remove (set all) selection)]
@@ -305,11 +283,9 @@
       (or (seq selection) all))))
 
 (defn iter-countries
-  "Apply f to each country_dir of selection (all when empty; see
-  scoped-countries). concurrency >= 2 runs up to that many in parallel
-  via bounded-pmap; default 1 = sequential doseq. Returns 1 without
-  running anything when selection names an unknown country, 0 otherwise,
-  so a command can pass it on as its exit code."
+  "Apply f to each country_dir of selection (all when empty), up to
+  concurrency at a time (default 1: sequential). Return 1 without running
+  anything when selection names an unknown country, 0 otherwise."
   ([f selection] (iter-countries f selection 1))
   ([f selection concurrency]
    (if-let [targets (scoped-countries selection)]
@@ -320,8 +296,8 @@
      1)))
 
 (defn build-un-status-map
-  "Read data/world-governments.csv once and return a map country_dir -> un_status.
-  The country_dir is recovered by matching ISO3-stripped slugs."
+  "Read data/world-governments.csv and return {country_dir un_status},
+  matching countries by normalised name."
   []
   (let [master (or (read-csv-file "data/world-governments.csv") [])
         slug->status
@@ -338,7 +314,7 @@
             [c s]))))
 
 (defn mapping-row
-  "First data row (header dropped) of a CSV whose first column equals k, or nil."
+  "Return the first data row of the CSV at csv-path whose first column equals k, or nil."
   [csv-path k]
   (some #(when (= (first %) k) %)
         (rest (read-csv-raw csv-path))))
@@ -369,7 +345,8 @@
 (def ^:private tables-lock (Object.))
 
 (defn read-table
-  "{country_dir {column value}} of data/sources/<source>.csv; {} when absent."
+  "Read data/sources/<source>.csv as {country_dir {column value}}, cached;
+  {} when absent."
   [source]
   (or (get @tables-cache source)
       (locking tables-lock
@@ -380,26 +357,24 @@
               rows)))))
 
 (defn table-row
-  "The {column value} row of a country in data/sources/<source>.csv, or nil."
+  "Return the {column value} row of a country in data/sources/<source>.csv, or nil."
   [source country-dir]
   (get (read-table source) country-dir))
 
 (defn table-field
-  "One field of a country's row in data/sources/<source>.csv, \"\" when absent."
+  "Return one field of a country's row in data/sources/<source>.csv, \"\" when absent."
   [source country-dir column]
   (or (get (table-row source country-dir) column) ""))
 
 (defn table-row-done?
-  "True when the country already has a row in the table and FORCE is not set:
-  the per-row counterpart of skip?."
+  "True when the country already has a row in the table and FORCE is not set."
   [source country-dir]
   (and (some? (table-row source country-dir)) (not force?)))
 
 (defn upsert-table-row!
   "Replace or add the row of country-dir in data/sources/<source>.csv
-  (header: country_dir first, then the columns; new-row: {column value}).
-  A blank new value keeps the existing one, so a refetch only adds or
-  updates, never erases. Rows ASCII-sorted by country_dir. Thread-safe."
+  (header: country_dir then the columns; new-row: {column value}). A blank
+  new value keeps the existing one. Rows sorted by country_dir; thread-safe."
   [source header country-dir new-row]
   (locking tables-lock
     (let [rows (read-table source)
@@ -427,10 +402,8 @@
                       :connect-timeout 15000)))
 
 (defn- http-outcome
-  "What to do with one HTTP attempt: :ok on a 2xx with a non-blank body,
-  :give-up on a deterministic 3xx/4xx (redirects are never followed by the
-  JVM client; a 404 or 403 will not change -- 429 excepted, it clears once
-  the rate window resets), :retry on anything else (network error, 5xx,
+  "Classify one HTTP attempt: :ok on a 2xx with a non-blank body, :give-up
+  on a 3xx/4xx other than 429, :retry otherwise (network error, 5xx, 429,
   empty body)."
   [status body]
   (cond
@@ -440,8 +413,8 @@
 
 (defn- with-retries
   "Run attempt!, a thunk returning [status body], up to retries times with
-  a growing pause (3 s, 6 s, …) between attempts, following http-outcome.
-  Returns the body or nil."
+  a growing pause (3 s, 6 s, …) while http-outcome says :retry. Return the
+  body or nil."
   [retries attempt!]
   (loop [attempt 1]
     (let [[status body] (try (attempt!) (catch Exception _ [nil nil]))]
@@ -454,10 +427,10 @@
                    nil)))))
 
 (defn http-get
-  "GET via babashka.http-client with User-Agent; retries per http-outcome.
-  Returns the body string on a 2xx, nil otherwise. Honors :timeout
-  (seconds, default 30), :retries (default 3), :query-params, :accept and
-  :client (defaults to the no-redirect client above)."
+  "GET url with the JVM client and return the body string on a 2xx, nil
+  otherwise; retries per http-outcome. Options: :timeout (seconds, default
+  30), :retries (default 3), :query-params, :accept, :client (default
+  http-client, which never follows redirects)."
   ([url] (http-get url {}))
   ([url {:keys [timeout retries query-params accept client]
          :or {timeout 30 retries 3 accept "*/*"}}]
@@ -475,11 +448,8 @@
          [(:status resp) (:body resp)])))))
 
 (defn curl-download!
-  "Download url into path with the curl binary (-sfL: silent, fail on an
-  HTTP error, follow redirects) and return path, nil on failure. curl
-  rather than the JVM client: the system CA store carries the national
-  CA chains several government hosts sit behind, and a big file goes
-  straight to disk. :timeout in seconds (default 300)."
+  "Download url into path with curl (-sfL: fail on an HTTP error, follow
+  redirects) and return path, nil on failure. :timeout in seconds (default 300)."
   ([url path] (curl-download! url path {}))
   ([url path {:keys [timeout] :or {timeout 300}}]
    (let [{:keys [exit]} (try (proc/sh "curl" "-sfL" "--max-time" (str timeout) "-A" ua
@@ -488,19 +458,17 @@
      (when (zero? (or exit 1)) path))))
 
 (defn curl-get-bytes
-  "The bytes of url downloaded with curl-download! (through a temp file),
-  nil on failure: for exports whose encoding the caller must decide."
+  "Return the bytes of url downloaded with curl-download!, nil on failure."
   [url]
   (let [tmp (fs/create-temp-file)]
     (try (when (curl-download! url tmp) (fs/read-all-bytes tmp))
          (finally (fs/delete-if-exists tmp)))))
 
 (defn http-get-curl
-  "GET via the curl binary (following redirects), for hosts whose WAF
-  rejects the JVM HTTP client (publicadministration.un.org answers 400 to
-  it regardless of headers). Same outcome and retry policy as http-get:
-  returns the body string on a 2xx, nil otherwise. Honors :timeout
-  (seconds, default 30) and :retries (default 3)."
+  "GET url with curl (following redirects), for hosts that reject the JVM
+  client. Return the body string on a 2xx, nil otherwise; same retry
+  policy as http-get. Options: :timeout (seconds, default 30), :retries
+  (default 3)."
   ([url] (http-get-curl url {}))
   ([url {:keys [timeout retries] :or {timeout 30 retries 3}}]
    (with-retries retries
@@ -516,42 +484,34 @@
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
 
 (defn parallel
-  "The PARALLEL env var, default-n when unset."
+  "Return the PARALLEL env var as an integer, default-n when unset."
   [default-n] (env-int "PARALLEL" default-n))
 
 (defn confirmed-domains
-  "Every confirmed domain of every country, whatever its level (local
-  included): a set, from the cached rows. A host equal to or under one
-  of them is already covered, so the candidate channels and the
-  Wikidata gap list drop it: re-listing confirmed domains would only add
-  noise to the manual validation pass. Deliberately world-wide: Wikidata
-  attributes embassies to their host country (eda.admin.ch under
-  Zimbabwe), and only the Swiss root covers them. Cached like
-  confirmed-rows (report asks for it once per country)."
+  "Return the set of every confirmed domain of every country, local rows
+  included, cached. A host equal to or under one of them is already covered."
   []
   (or @confirmed-domains-cache
       (reset! confirmed-domains-cache (set (map second (confirmed-rows))))))
 
 (defn harvest-roots
-  "The confirmed domains of a country that stand for a subtree to
-  harvest and probe: its central and central-1 rows (harvest-levels).
-  local rows only carve labels out of a root."
+  "Return the confirmed domains of a country whose level is in
+  harvest-levels: the roots of the subtrees to harvest and probe."
   [country-dir]
   (for [[c d level] (confirmed-rows)
         :when (and (= c country-dir) (contains? harvest-levels level))]
     d))
 
 (defn host-suffixes
-  "host and every parent domain of it, at label boundaries:
+  "Return host and every parent domain of it:
   culture.gouv.fr -> (culture.gouv.fr gouv.fr fr)."
   [host]
   (let [parts (str/split host #"\.")]
     (map #(str/join "." (drop % parts)) (range (count parts)))))
 
 (defn host-covered?
-  "True when host is one of the known domains or sits under one of them.
-  Walks host's suffixes with one set lookup each instead of scanning known
-  (2851 confirmed domains times 40 000 candidates made report take 40 s)."
+  "True when host is one of the known domains or sits under one of them;
+  known may be a set or any collection."
   [host known]
   (let [known (if (set? known) known (set known))]
     (boolean (some known (host-suffixes host)))))
