@@ -224,19 +224,21 @@
 
 (defn- directory-fetch-json-pages
   "[[name website] ...] from a paginated JSON API: URL ends in 'page=',
-  pages are fetched until one comes back empty."
+  pages are fetched until one comes back empty. nil when a page could
+  not be fetched: a listing cut mid-way must not pass for a complete
+  one (the registry channel would then drop confirmed domains)."
   [{:keys [url items-path name-field website-field]}]
   (loop [page 0 acc []]
-    (let [body (http-get (str url page) {:accept "application/json"})
-          items (when body
-                  (get-in (json/parse-string body true) items-path))]
-      (if (empty? items)
-        (seq acc)
-        (recur (inc page)
-               (into acc (for [it items
-                               :let [web (str (get it website-field))]
-                               :when (seq web)]
-                           [(str (get it name-field)) web])))))))
+    (let [body  (http-get (str url page) {:accept "application/json"})
+          items (when body (get-in (json/parse-string body true) items-path))]
+      (cond
+        (nil? body)    nil
+        (empty? items) (seq acc)
+        :else (recur (inc page)
+                     (into acc (for [it items
+                                     :let [web (str (get it website-field))]
+                                     :when (seq web)]
+                                 [(str (get it name-field)) web])))))))
 
 (defn- xml-texts
   "All text contents of the descendants of el whose unqualified tag name
@@ -284,15 +286,19 @@
   is 'exempt' (arm's-length bodies running their own website) expose
   that external URL in the per-organisation Content API, one call each.
   Live/joining organisations sit under www.gov.uk and are already
-  covered by the CDDO registry; closed ones are skipped."
+  covered by the CDDO registry; closed ones are skipped. nil when a
+  page of the listing could not be fetched; an organisation whose
+  Content API call fails is skipped."
   [{:keys [list-url content-url]}]
   (let [exempt
         (loop [page 1 acc []]
           (let [body (http-get (str list-url page) {:accept "application/json"})
                 d (when body (json/parse-string body true))
                 results (:results d)]
-            (if (empty? results)
-              acc
+            (cond
+              (nil? body)      nil
+              (empty? results) acc
+              :else
               (let [acc (into acc
                               (for [o results
                                     :when (= "exempt"
@@ -304,18 +310,19 @@
                 (if (>= page (or (:pages d) page))
                   acc
                   (recur (inc page) acc))))))]
-    (err (str "  " (count exempt) " exempt organisations; fetching their"
-              " external URLs (one call each)"))
-    (doall
-     (for [[title slug] exempt
-           :let [body (http-get (str content-url slug)
-                                {:accept "application/json"})
-                 url (when body
-                       (get-in (json/parse-string body true)
-                               [:details :organisation_govuk_status :url]))
-                 _ (Thread/sleep 200)]
-           :when (seq (str url))]
-       [title url]))))
+    (when exempt
+      (err (str "  " (count exempt) " exempt organisations; fetching their"
+                " external URLs (one call each)"))
+      (doall
+       (for [[title slug] exempt
+             :let [body (http-get (str content-url slug)
+                                  {:accept "application/json"})
+                   url (when body
+                         (get-in (json/parse-string body true)
+                                 [:details :organisation_govuk_status :url]))
+                   _ (Thread/sleep 200)]
+             :when (seq (str url))]
+         [title url])))))
 
 (defn- directory-hosts
   "{host {:n mentions :names #{...}}} from the spec's [name website] rows;
@@ -340,33 +347,46 @@
   them, or the given country_dirs) and write, per the spec's :channel,
   either sources/<registry>/registered.csv (authoritative central
   scoping) or sources/directory/orgs.csv (candidates channel, curation
-  decides)."
+  decides). A directory that could not be fetched, or a registry that
+  yields no domain, is reported and leaves its files untouched; returns
+  1 when that happened for some country, 0 otherwise."
   [args]
-  (doseq [[country {:keys [channel registry format source] :as spec}]
-          (sort-by key directory-specs)
-          :when (or (empty? args) (some #{country} args))]
-    (let [rows (case format
-                 :csv        (directory-fetch-csv spec)
-                 :json-pages (directory-fetch-json-pages spec)
-                 :xml        (directory-fetch-xml spec)
-                 :govuk      (directory-fetch-govuk spec))]
-      (if (nil? rows)
-        (err "ERR: could not fetch the " country " directory (" source ")")
-        (let [hosts (directory-hosts spec rows)]
-          (case channel
-            :registry
-            (let [out (registered-file country registry)]
-              (write-registered! country registry (for [h (sort (keys hosts))] [h "central"]))
-              (println (str country ": " (count hosts) " domains -> " out
-                            " (" (count rows) " orgs listed)")))
-            :candidates
-            (let [out (country-src country "directory" "orgs.csv")]
-              (write-csv-file out ["hostname" "mentions" "evidence"]
-                              (for [[h {:keys [n names]}] (sort-by key hosts)]
-                                [h (str n)
-                                 (truncate (str/join " | " names) 150)]))
-              (println (str country ": " (count hosts) " hosts -> " out
-                            " (" (count rows) " orgs listed)")))))))))
+  (let [failed
+        (for [[country {:keys [channel registry format source] :as spec}]
+              (sort-by key directory-specs)
+              :when (or (empty? args) (some #{country} args))
+              :let [rows (case format
+                           :csv        (directory-fetch-csv spec)
+                           :json-pages (directory-fetch-json-pages spec)
+                           :xml        (directory-fetch-xml spec)
+                           :govuk      (directory-fetch-govuk spec))
+                    hosts (when rows (directory-hosts spec rows))]
+              :when (cond
+                      (nil? rows)
+                      (do (err "ERR: could not fetch the " country " directory (" source ")") true)
+
+                      (and (= channel :registry) (empty? hosts))
+                      (do (err "ERR: the " country " directory (" source ") yields no domain;"
+                               " sources/" registry "/registered.csv left untouched") true)
+
+                      (= channel :registry)
+                      (let [out (registered-file country registry)]
+                        (write-registered! country registry (for [h (sort (keys hosts))] [h "central"]))
+                        (println (str country ": " (count hosts) " domains -> " out
+                                      " (" (count rows) " orgs listed)"))
+                        false)
+
+                      :else
+                      (let [out (country-src country "directory" "orgs.csv")]
+                        (write-csv-file out ["hostname" "mentions" "evidence"]
+                                        (for [[h {:keys [n names]}] (sort-by key hosts)]
+                                          [h (str n)
+                                           (truncate (str/join " | " names) 150)]))
+                        (println (str country ": " (count hosts) " hosts -> " out
+                                      " (" (count rows) " orgs listed)"))
+                        false))]
+          country)]
+    (if (seq (doall failed)) 1 0)))
 
 ;; ---------------------------------------------------------------------------
 ;; Dispatcher
@@ -378,15 +398,18 @@
   (println (str "Countries with a spec: "
                 (str/join " " (sort (keys directory-specs))))))
 
-(let [args *command-line-args*]
-  (cond
-    (or (empty? args) (#{"-h" "--help" "help"} (first args)))
-    (do (usage) (when (empty? args) (System/exit 1)))
+;; Run only as a script (bb scripts/detect-from-directories.clj …), not
+;; when required or loaded from another namespace.
+(when (= *file* (System/getProperty "babashka.file"))
+  (let [args *command-line-args*]
+    (cond
+      (or (empty? args) (#{"-h" "--help" "help"} (first args)))
+      (do (usage) (when (empty? args) (System/exit 1)))
 
-    (= "harvest" (first args))
-    (cmd-directory (vec (rest args)))
+      (= "harvest" (first args))
+      (System/exit (cmd-directory (vec (rest args))))
 
-    :else
-    (do (err "ERR: unknown sub-command '" (first args) "'")
-        (usage)
-        (System/exit 1))))
+      :else
+      (do (err "ERR: unknown sub-command '" (first args) "'")
+          (usage)
+          (System/exit 1)))))
