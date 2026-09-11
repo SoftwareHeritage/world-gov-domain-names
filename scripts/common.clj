@@ -254,15 +254,31 @@
         ;; the pool would keep running them in the background
         (.shutdownNow pool)))))
 
+(defn scoped-countries
+  "The country_dirs named in selection, or all of them when selection is
+  empty. An unknown name is an error (ERR, nil): a typo must not create
+  a countries/<typo>/ directory through the first file written there."
+  [selection]
+  (let [all (country-dirs)
+        unknown (remove (set all) selection)]
+    (if (seq unknown)
+      (err "ERR: unknown country dir(s): " (str/join ", " unknown))
+      (or (seq selection) all))))
+
 (defn iter-countries
-  "Apply f to each country_dir. concurrency >= 2 runs up to that many in
-  parallel via bounded-pmap; default 1 = sequential doseq."
+  "Apply f to each country_dir of selection (all when empty; see
+  scoped-countries). concurrency >= 2 runs up to that many in parallel
+  via bounded-pmap; default 1 = sequential doseq. Returns 1 without
+  running anything when selection names an unknown country, 0 otherwise,
+  so a command can pass it on as its exit code."
   ([f selection] (iter-countries f selection 1))
   ([f selection concurrency]
-   (let [targets (if (seq selection) selection (country-dirs))]
-     (if (<= concurrency 1)
-       (doseq [c targets] (f c))
-       (bounded-pmap concurrency f targets)))))
+   (if-let [targets (scoped-countries selection)]
+     (do (if (<= concurrency 1)
+           (doseq [c targets] (f c))
+           (bounded-pmap concurrency f targets))
+         0)
+     1)))
 
 (defn build-un-status-map
   "Read data/world-governments.csv once and return a map country_dir -> un_status.

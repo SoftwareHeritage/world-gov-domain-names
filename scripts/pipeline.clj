@@ -1084,16 +1084,6 @@
 ;;  check -- the decision files compile
 ;; ===========================================================================
 
-(defn- scoped-countries
-  "The country_dirs named in args (any of them unknown -> error, nil), or
-  all of them when args is empty."
-  [args]
-  (let [all (country-dirs)
-        unknown (remove (set all) args)]
-    (if (seq unknown)
-      (err "ERR: unknown country dir(s): " (str/join ", " unknown))
-      (or (seq args) all))))
-
 (defn cmd-check
   "Compile the decision files of the given countries (all by default):
   ERR and exit 1 on a contradiction (a domain both curated and excluded,
