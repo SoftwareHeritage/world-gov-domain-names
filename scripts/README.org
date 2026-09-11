@@ -42,52 +42,86 @@ and preserved by later phases. Confirming a root and harvesting it
 are two distinct steps: =fetch <root>= creates the harvest file of a
 confirmed =central= or =central-1= domain (and refuses any other;
 =local= rows are never harvested); a confirmed root without a harvest
-only gets its apex probed, into =sources/probes/roots.csv=.
+only gets its apex probed, by =probe-roots= into
+=sources/probes/roots.csv=.
 
 * Commands
 
-** Aggregated phases
+** Phases
 
-Available both as =bb pipeline <cmd>= (via =bb.edn=) and as =bb
-scripts/pipeline.clj <cmd>=:
+Four phases, each an aggregated command that chains targeted commands
+in dependency order and writes nothing of its own. Every targeted
+command writes one kind of file. Available both as =bb pipeline <cmd>=
+(via =bb.edn=) and as =bb scripts/pipeline.clj <cmd>=:
 
 #+begin_src bash
-  bb pipeline collect            # fetch + retry + normalize + probe + aggregate + domains
-  bb pipeline enrich             # wikidata + iana + cia + un-desa + oecd + meta, in parallel
-  bb pipeline report             # proposed.csv + summary.md
-  bb pipeline all                # everything in sequence
+  bb pipeline collect            # the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots
+  bb pipeline enrich             # build-qid + build-gec + build-un-ids + subdivisions, then the six sources in parallel
+  bb pipeline build              # the consolidated files: aggregate + domains
+  bb pipeline report             # the curation files: propose + summary
+  bb pipeline all                # the four in sequence
 
   bb pipeline report FRA_france  # restrict to one country
   FORCE=1 bb pipeline enrich     # force-overwrite outputs
 #+end_src
 
-** Targeted phases
+The order matters: =build= joins the country metadata =enrich= writes
+into =data/public-sector-domains.csv=, and =report= reads that file
+and the enrichment sources. =collect= reads nothing but the decision
+files.
+
+** Targeted commands
 
 #+begin_src bash
+  # collect -- sources/crtsh/<root>.csv and sources/probes/roots.csv
   bb scripts/pipeline.clj fetch gov.it gouv.fr  # crt.sh on specific domains
   bb scripts/pipeline.clj retry                 # replay FAILs from last log
   bb scripts/pipeline.clj normalize             # clean every harvest file
-  bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe (no arg: + unharvested roots)
-  bb scripts/pipeline.clj mx gov.it             # DNS MX lookup -> mx column (no arg: + unharvested roots)
-  bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts
-  bb scripts/pipeline.clj aggregate             # rebuild data/public-sector-domains.csv
-  bb scripts/pipeline.clj domains               # central+ scope -> data/public-sector-domains-central+-policy.csv
-  bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction)
-  bb scripts/pipeline.clj cisa                  # CISA federal .gov list -> sources/cisa/registered.csv
-  bb scripts/pipeline.clj lannuaire             # FR service-public directory -> sources/lannuaire/registered.csv
-  bb scripts/pipeline.clj govuk                 # UK sub-central bodies -> sources/govuk/registered.csv
+  bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe of the harvest rows
+  bb scripts/pipeline.clj mx gov.it             # DNS MX lookup of the harvest rows -> mx column
+  bb scripts/pipeline.clj probe-roots [C…]      # HTTPS + MX of the confirmed roots without a harvest -> sources/probes/roots.csv
 
-  bb scripts/pipeline.clj wikidata Q142:FRA_france
+  # enrich -- sources/wikidata/ and data/sources/<source>.csv
+  bb scripts/pipeline.clj build-qid             # country_dir -> Wikidata QID: data/country_qid.csv
+  bb scripts/pipeline.clj build-gec             # country_dir -> Factbook GEC code: data/factbook_gec.csv
+  bb scripts/pipeline.clj build-un-ids          # country_dir -> UN/DESA id: data/un_desa_ids.csv
+  bb scripts/pipeline.clj subdivisions FRA_france  # first-level subdivisions -> sources/wikidata/subdivisions_level1.csv
+  bb scripts/pipeline.clj wikidata Q142:FRA_france # central administration -> sources/wikidata/central_admin.csv
   bb scripts/pipeline.clj iana FRA_france
   bb scripts/pipeline.clj cia FRA_france
   bb scripts/pipeline.clj un-desa FRA_france
   bb scripts/pipeline.clj oecd FRA_france
   bb scripts/pipeline.clj meta FRA_france
-  bb scripts/pipeline.clj cross-check FRA_france
 
-  bb scripts/pipeline.clj build-qid             # rebuild data/country_qid.csv
+  # build -- data/
+  bb scripts/pipeline.clj aggregate             # rebuild data/public-sector-domains.csv
+  bb scripts/pipeline.clj domains               # central+ scope -> data/public-sector-domains-central+-policy.csv
+
+  # report -- countries/<c>/proposed.csv and summary.md
+  bb scripts/pipeline.clj propose FRA_france    # score the candidate hosts -> proposed.csv
+  bb scripts/pipeline.clj summary FRA_france    # the per-country report -> summary.md
+
+  # other
+  bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts -> sources/probes/proposed.csv
+  bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction)
+  bb scripts/pipeline.clj cisa                  # CISA federal .gov list -> sources/cisa/registered.csv
+  bb scripts/pipeline.clj lannuaire             # FR service-public directory -> sources/lannuaire/registered.csv
+  bb scripts/pipeline.clj govuk                 # UK sub-central bodies -> sources/govuk/registered.csv
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
+  bb scripts/pipeline.clj indegree [C…]         # link-graph in-degree -> sources/linkgraph/indegree.csv
 #+end_src
+
+The three =build-*= commands write the =country_dir= -> source id
+mapping files that =wikidata=, =cia= and =un-desa= read; each is
+skipped once its file maps 150+ countries, unless =FORCE=1=. A source
+whose mapping file is missing stops with the command to run.
+
+=wikidata= writes exactly what the fetch returns: an entity Wikidata no
+longer lists leaves =central_admin.csv=. The fetch is all or nothing
+per country: when one class query fails, the file is left untouched
+and the country is reported. It needs =subdivisions_level1.csv= (from
+=subdivisions=) to derive the =central-1= level; both files are
+skipped when present unless =FORCE=1=.
 
 The =iana=, =cia=, =un-desa=, =oecd= and =meta= phases fill one table
 each under =data/sources/= (=iana.csv=, =cia_factbook.csv=,
@@ -97,16 +131,17 @@ scoring read; a country with a row is skipped unless =FORCE=1=.
 
 Two more side scripts share the same layout:
 
-- =scripts/detect-from-directories.clj= (=bb directories harvest [C…]=)
+- =scripts/detect-from-directories.clj= (=bb directories <command>=)
   harvests the machine-readable official directories of public bodies
   (declarative =directory-specs=, one entry per country: NO, DE, IT,
-  CA, NL, UK, PL). Depending on the spec's =:channel= it writes
-  =sources/<registry>/registered.csv= (authoritative central scoping:
-  Norway's =brreg=) or
-  =sources/directory/orgs.csv= (feeding =proposed.csv= with a +4 bonus
-  and the =directory= source tag).
-  Unlike the two others it serves the core goal; it lives apart only
-  to keep =pipeline.clj= lean.
+  CA, NL, UK, PL). Each spec belongs to one channel, and each channel
+  is one command: =registry [C…]= confirms the domains of the
+  authoritative directories into =sources/<registry>/registered.csv=
+  (Norway's =brreg=), =candidates [C…]= writes the hosts of the mixed
+  ones to =sources/directory/orgs.csv= (feeding =proposed.csv= with a
+  +4 bonus and the =directory= source tag); =harvest= runs both over
+  every spec. Unlike the two others it serves the core goal; it lives
+  apart only to keep =pipeline.clj= lean.
 - =scripts/detect-universities.clj= (=bb universities fetch=)
   keeps the strictly public universities as a parked dataset in
   =data/public-universities.csv=, out of the pipeline's scope.
@@ -209,7 +244,9 @@ central government plus the first subdivision tier and nothing below:
 - =babashka= (1.12+) -- HTTP via the bundled =babashka.http-client=, no
   external tool needed
 - =data/world-governments.csv= (master list with =un_status= column)
-- =data/country_qid.csv= (Wikidata mapping, built via =bb pipeline build-qid=)
+- =data/country_qid.csv=, =data/factbook_gec.csv= and
+  =data/un_desa_ids.csv= (the source id mappings, built by =bb pipeline
+  build-qid=, =build-gec= and =build-un-ids=, or by =enrich=)
 - =data/factbook_aliases.csv= and =data/un_desa_aliases.csv= (country-name overrides)
 - =countries/<ISO3>_<slug>/curated.csv= listing the roots to harvest
 
@@ -217,13 +254,13 @@ central government plus the first subdivision tier and nothing below:
 
 | Var      | Effect                                          | Default |
 |----------+-------------------------------------------------+---------|
-| =FORCE=     | overwrite existing outputs; re-probe every host (=probe=, =mx=, =probe-proposed=); refetch a country's metadata row | =0= |
+| =FORCE=     | overwrite existing outputs; re-probe every host (=probe=, =mx=, =probe-roots=, =probe-proposed=); refetch a country's metadata row | =0= |
 | =PARALLEL=  | concurrent requests (fetch / probe)             | varies  |
 | =TIMEOUT=   | HTTPS request timeout (probe), seconds          | =5=       |
 | =SWH_TOKEN= | SWH API bearer token (=forges-swh=)               | unset   |
 | =CONC_WIKIDATA=, =CONC_IANA=, =CONC_CIA=, =CONC_UN_DESA=, =CONC_META= | countries processed in parallel by each enrichment source | 3, 4, 8, 4, 4 |
 
-* Scoring (cross-check)
+* Scoring (propose)
 
 For each uncovered candidate hostname:
 
@@ -252,7 +289,7 @@ Hosts covered by a confirmed domain (any country -- Wikidata files
 embassies under their host country) or by an =excluded.csv= domain
 are left out. The two probe columns come from
 =sources/probes/proposed.csv=, filled by =bb pipeline probe-proposed=
-and kept across =report= runs.
+and joined in by the next =propose=.
 
 The =level= comes from the Wikidata P1001 jurisdiction captured at
 fetch time (the country itself ⇒ =central=, one of its first-level
@@ -261,10 +298,9 @@ patterns as a fallback: the subdivision vocabulary pattern marks
 a host =local=, upgraded to =central-1= when its label names one of
 the country's first-level subdivisions. Those subdivisions (the
 country's Wikidata P150 values, dissolved ones excluded) are fetched
-during the =wikidata= phase into
-=countries/<c>/sources/wikidata/subdivisions_level1.csv= -- also under
-=FORCE=1= refetch semantics. Blank levels are consolidated over time
-as sources are refetched or curated.
+by =subdivisions= into
+=countries/<c>/sources/wikidata/subdivisions_level1.csv=. Blank levels
+are consolidated over time as sources are refetched or curated.
 
 The =central-1= tier exists so downstream reports (e.g. /State of
 Public Code/) can widen their scope from the central administration to
@@ -290,11 +326,10 @@ bb scripts/pipeline.clj probe quirinale.it
 bb scripts/pipeline.clj mx quirinale.it
 
 # 4. Rebuild the outputs; the host is no longer proposed
-bb scripts/pipeline.clj aggregate
-bb scripts/pipeline.clj domains
+bb scripts/pipeline.clj build
 bb scripts/pipeline.clj report ITA_italy
 #+end_src
 
 To reject one, add its hostname to =countries/ITA_italy/excluded.csv=
-(=domain,reason=) and run =report=: it never comes back. Keep both
+(=domain,reason=) and run =propose=: it never comes back. Keep both
 files sorted by domain, so =git diff= stays readable.

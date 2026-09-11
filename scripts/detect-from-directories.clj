@@ -3,19 +3,22 @@
 ;; bodies (Babashka).
 ;;
 ;; Fetches the machine-readable per-country directories listed in the
-;; "Government website directories" section of swh-sopc-data-sources and
-;; writes, per the spec's :channel, either
-;; countries/<c>/sources/<registry>/registered.csv (authoritative
-;; central scoping: domains are confirmed directly, like the
-;; CISA/Lannuaire registries) or
-;; countries/<c>/sources/directory/orgs.csv (mixed levels or types:
-;; hosts feed proposed.csv with a strong score bonus and the
-;; 'directory' source tag; curation decides). Unlike detect-forges and
-;; detect-universities this script SERVES the repository's core goal --
-;; it lives apart only to keep pipeline.clj lean while the spec table
-;; grows; pipeline.clj consumes its outputs.
+;; "Government website directories" section of swh-sopc-data-sources.
+;; Each spec belongs to one :channel, and each channel is one command
+;; writing one kind of file:
+;;   registry    countries/<c>/sources/<registry>/registered.csv --
+;;               authoritative central scoping: the domains are
+;;               confirmed directly, like the CISA/Lannuaire registries
+;;   candidates  countries/<c>/sources/directory/orgs.csv -- mixed levels
+;;               or types: the hosts feed proposed.csv with a strong
+;;               score bonus and the 'directory' source tag; curation
+;;               decides
+;; Unlike detect-forges and detect-universities this script SERVES the
+;; repository's core goal -- it lives apart only to keep pipeline.clj
+;; lean while the spec table grows; pipeline.clj consumes its outputs.
 ;;
-;; Usage: bb scripts/detect-from-directories.clj harvest [C…]
+;; Usage: bb scripts/detect-from-directories.clj registry|candidates [C…]
+;;        bb scripts/detect-from-directories.clj harvest   (both, every spec)
 ;;
 ;; Environment variables: none (specs are self-contained).
 
@@ -314,63 +317,98 @@
                 m)))
           {} rows))
 
-(defn cmd-directory
-  "Harvest the official government directories of directory-specs (all of
-  them, or the given country_dirs) and write, per the spec's :channel,
-  either sources/<registry>/registered.csv (authoritative central
-  scoping) or sources/directory/orgs.csv (candidates channel, curation
-  decides). A directory that could not be fetched, or a registry that
-  yields no domain, is reported and leaves its files untouched; returns
-  1 when that happened for some country, 0 otherwise."
+(defn- directory-fetch
+  "Fetch the [name website] rows of a spec per its :format; nil on failure."
+  [{:keys [format] :as spec}]
+  (case format
+    :csv        (directory-fetch-csv spec)
+    :json-pages (directory-fetch-json-pages spec)
+    :xml        (directory-fetch-xml spec)
+    :govuk      (directory-fetch-govuk spec)))
+
+(defn- write-registry!
+  "Write hosts as central domains of sources/<registry>/registered.csv.
+  true (failed, nothing written) when hosts is empty, false otherwise."
+  [country {:keys [registry source]} rows hosts]
+  (if (empty? hosts)
+    (do (err "ERR: the " country " directory (" source ") yields no domain;"
+             " sources/" registry "/registered.csv left untouched")
+        true)
+    (let [out (registered-file country registry)]
+      (write-registered! country registry (for [h (sort (keys hosts))] [h "central"]))
+      (println (str country ": " (count hosts) " domains -> " out
+                    " (" (count rows) " orgs listed)"))
+      false)))
+
+(defn- write-candidates!
+  "Write hosts to sources/directory/orgs.csv (hostname,mentions,evidence).
+  Always false (written)."
+  [country _spec rows hosts]
+  (let [out (country-src country "directory" "orgs.csv")]
+    (write-csv-file out ["hostname" "mentions" "evidence"]
+                    (for [[h {:keys [n names]}] (sort-by key hosts)]
+                      [h (str n) (truncate (str/join " | " names) 150)]))
+    (println (str country ": " (count hosts) " hosts -> " out
+                  " (" (count rows) " orgs listed)"))
+    false))
+
+(defn- harvest-channel!
+  "Fetch the directories of one channel (every spec of it, or the given
+  country_dirs) and write their hosts with write!. 1 on a country
+  outside the channel (before any fetch), a fetch failure or a write!
+  failure, 0 otherwise."
+  [channel write! args]
+  (let [specs   (into (sorted-map) (filter #(= channel (:channel (val %))) directory-specs))
+        unknown (remove specs args)]
+    (if (seq unknown)
+      (do (err "ERR: no " (name channel) " directory spec for: " (str/join ", " unknown))
+          1)
+      (let [failed (for [[country {:keys [source] :as spec}] specs
+                         :when (or (empty? args) (some #{country} args))
+                         :let [rows  (directory-fetch spec)
+                               hosts (when rows (directory-hosts spec rows))]
+                         :when (if (nil? rows)
+                                 (do (err "ERR: could not fetch the " country " directory (" source ")") true)
+                                 (write! country spec rows hosts))]
+                     country)]
+        (if (seq (doall failed)) 1 0)))))
+
+(defn cmd-registry
+  "Confirm the domains of the authoritative directories:
+  sources/<registry>/registered.csv."
+  [args] (harvest-channel! :registry write-registry! args))
+
+(defn cmd-candidates
+  "Propose the hosts of the mixed directories: sources/directory/orgs.csv."
+  [args] (harvest-channel! :candidates write-candidates! args))
+
+(defn cmd-harvest
+  "registry then candidates over every spec; refuse a country argument."
   [args]
-  (let [failed
-        (for [[country {:keys [channel registry format source] :as spec}]
-              (sort-by key directory-specs)
-              :when (or (empty? args) (some #{country} args))
-              :let [rows (case format
-                           :csv        (directory-fetch-csv spec)
-                           :json-pages (directory-fetch-json-pages spec)
-                           :xml        (directory-fetch-xml spec)
-                           :govuk      (directory-fetch-govuk spec))
-                    hosts (when rows (directory-hosts spec rows))]
-              :when (cond
-                      (nil? rows)
-                      (do (err "ERR: could not fetch the " country " directory (" source ")") true)
-
-                      (and (= channel :registry) (empty? hosts))
-                      (do (err "ERR: the " country " directory (" source ") yields no domain;"
-                               " sources/" registry "/registered.csv left untouched") true)
-
-                      (= channel :registry)
-                      (let [out (registered-file country registry)]
-                        (write-registered! country registry (for [h (sort (keys hosts))] [h "central"]))
-                        (println (str country ": " (count hosts) " domains -> " out
-                                      " (" (count rows) " orgs listed)"))
-                        false)
-
-                      :else
-                      (let [out (country-src country "directory" "orgs.csv")]
-                        (write-csv-file out ["hostname" "mentions" "evidence"]
-                                        (for [[h {:keys [n names]}] (sort-by key hosts)]
-                                          [h (str n)
-                                           (truncate (str/join " | " names) 150)]))
-                        (println (str country ": " (count hosts) " hosts -> " out
-                                      " (" (count rows) " orgs listed)"))
-                        false))]
-          country)]
-    (if (seq (doall failed)) 1 0)))
+  (if (seq args)
+    (do (err "ERR: harvest takes no country; use 'registry [C…]' or 'candidates [C…]'") 1)
+    (if (some #{1} [(cmd-registry []) (cmd-candidates [])]) 1 0)))
 
 ;; ---------------------------------------------------------------------------
 ;; Dispatcher
 ;; ---------------------------------------------------------------------------
 
-(defn usage []
-  (println "Usage: bb scripts/detect-from-directories.clj harvest [C…]")
-  (println)
-  (println (str "Countries with a spec: "
-                (str/join " " (sort (keys directory-specs))))))
+(defn- specs-of [channel]
+  (sort (for [[c spec] directory-specs :when (= channel (:channel spec))] c)))
 
-(def commands {"harvest" cmd-directory})
+(defn usage []
+  (println "Usage: bb scripts/detect-from-directories.clj <command> [C…]")
+  (println)
+  (println "  registry [C…]    authoritative directories -> sources/<registry>/registered.csv (confirmed domains)")
+  (println "  candidates [C…]  mixed directories -> sources/directory/orgs.csv (fed to proposed.csv)")
+  (println "  harvest          registry + candidates, every spec")
+  (println)
+  (println (str "registry specs:   " (str/join " " (specs-of :registry))))
+  (println (str "candidates specs: " (str/join " " (specs-of :candidates)))))
+
+(def commands {"registry"   cmd-registry
+               "candidates" cmd-candidates
+               "harvest"    cmd-harvest})
 
 ;; Run only as a script (bb scripts/detect-from-directories.clj …), not
 ;; when required or loaded from another namespace.

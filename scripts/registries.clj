@@ -72,34 +72,6 @@
         0))))
 
 ;; ===========================================================================
-;;  Utilitaire -- build-qid
-;; ===========================================================================
-
-(defn cmd-build-qid [_]
-  (println "Querying Wikidata…")
-  (let [q "SELECT DISTINCT ?country ?iso3 WHERE { ?country wdt:P31 wd:Q6256 ; wdt:P298 ?iso3 . }"
-        body (http-get enrich/wikidata-endpoint
-                       {:timeout 120 :retries 3
-                        :accept "application/sparql-results+json"
-                        :query-params {"query" q}})]
-    (if (str/blank? body)
-      (do (err "ERR: empty or invalid Wikidata response") 1)
-      (let [iso3->qid (->> (-> body (json/parse-string true) :results :bindings)
-                           (map (fn [b]
-                                  [(-> b :iso3 :value)
-                                   (-> b :country :value (str/replace #"^.*/" ""))]))
-                           (into {}))
-            rows (for [c (country-dirs)
-                       :let [iso3 (first (str/split c #"_"))
-                             qid (get iso3->qid iso3)]
-                       :when qid]
-                   [c iso3 qid])]
-        (write-csv-file "data/country_qid.csv"
-                        ["country_dir" "iso3" "wikidata_qid"] rows)
-        (println (str "Wrote data/country_qid.csv (" (count rows) " countries mapped)"))
-        0))))
-
-;; ===========================================================================
 ;;  UN membership validation (UN Digital Library)
 ;; ===========================================================================
 

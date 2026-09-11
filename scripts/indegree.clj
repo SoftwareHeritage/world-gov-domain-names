@@ -132,5 +132,5 @@
             (println (str dir ": " (count rows) " linked domains ("
                           strong " with indegree >= "
                           linkgraph-min-indegree ")"))))
-        (println "Run 'bb pipeline report' to fold them into proposed.csv.")
+        (println "Run 'bb pipeline propose' to fold them into proposed.csv.")
         0))))

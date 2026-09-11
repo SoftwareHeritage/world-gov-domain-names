@@ -22,10 +22,61 @@
 (def conc-meta     (env-int "CONC_META"     4))
 
 ;; ===========================================================================
-;;  Phase 5 -- Wikidata (fetch + diff)
+;;  Mapping files -- data/<source>_<id>.csv, country_dir -> source id
+;; ===========================================================================
+
+(defn- build-country-map!
+  "Write map-file, a country_dir -> source id table: the rows of
+  aliases-file (optional, they win) then the [country_dir …] rows of
+  (fetch-matches), one per country_dir. Skip it when it already maps
+  150+ countries unless FORCE=1. 1 when fetch-matches returns nil
+  (nothing written), 0 otherwise."
+  [map-file header aliases-file label fetch-matches]
+  (if (and (fs/exists? map-file)
+           (not force?)
+           (> (dec (count (read-csv-raw map-file))) 150))
+    (do (println (str map-file " : SKIP (use FORCE=1 to rebuild)")) 0)
+    (do (err "Building country_dir <-> " label " map…")
+        (if-let [matches (fetch-matches)]
+          (let [aliases (rest (or (when aliases-file (read-csv-raw aliases-file)) []))
+                dedup   (dedup-by-first (concat aliases matches))]
+            (write-csv-file map-file header dedup)
+            (println (str "Wrote " map-file " (" (count dedup) " countries mapped)"))
+            0)
+          (do (err "ERR: could not fetch the " label " list; " map-file " left untouched")
+              1)))))
+
+;; ===========================================================================
+;;  subdivisions + wikidata -- first-level subdivisions, central administration
 ;; ===========================================================================
 
 (def wikidata-endpoint "https://query.wikidata.org/sparql")
+
+(def qid-map-file "data/country_qid.csv")
+
+(defn cmd-build-qid
+  "Write data/country_qid.csv (country_dir,iso3,wikidata_qid) from the
+  P298 ISO3 codes of Wikidata."
+  [_]
+  (build-country-map!
+   qid-map-file ["country_dir" "iso3" "wikidata_qid"] nil "Wikidata QID"
+   (fn []
+     (let [q "SELECT DISTINCT ?country ?iso3 WHERE { ?country wdt:P31 wd:Q6256 ; wdt:P298 ?iso3 . }"
+           body (http-get wikidata-endpoint
+                          {:timeout 120 :retries 3
+                           :accept "application/sparql-results+json"
+                           :query-params {"query" q}})]
+       (when-not (str/blank? body)
+         (let [iso3->qid (->> (-> body (json/parse-string true) :results :bindings)
+                              (map (fn [b]
+                                     [(-> b :iso3 :value)
+                                      (-> b :country :value (str/replace #"^.*/" ""))]))
+                              (into {}))]
+           (for [c (country-dirs)
+                 :let [iso3 (first (str/split c #"_"))
+                       qid (get iso3->qid iso3)]
+                 :when qid]
+             [c iso3 qid])))))))
 
 ;; qid type strictness. :strict excludes entities that ARE territorial units
 ;; (states, municipalities…) -- pure class pollution. Subnational
@@ -95,57 +146,74 @@
        "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
        "}"))
 
-(defn wikidata-fetch-subdivisions!
-  "Fetch the country's first-level administrative subdivisions (its P150
-  values) into sources/wikidata/subdivisions_level1.csv (qid,label).
-  Cached like every other source (FORCE=1 to refetch). Returns the set of
-  subdivision QIDs known for the country (empty when nothing could be
-  fetched)."
+(defn- wikidata-bindings
+  "The :bindings of a SPARQL JSON body; nil when the body is missing or
+  truncated."
+  [body]
+  (when body
+    (try (-> (json/parse-string body true) :results :bindings)
+         (catch Exception _ nil))))
+
+(defn- qid-pairs
+  "[[qid country_dir]…] of args, each a country_dir (resolved through
+  data/country_qid.csv) or a QID:country_dir pair; every country of the
+  file when args is empty. ERR and nil on a missing file or an unknown
+  country."
+  [args]
+  (let [rows   (read-csv-file qid-map-file)
+        qid-of (into {} (for [row rows] [(get row "country_dir") (get row "wikidata_qid")]))
+        pairs  (if (seq args)
+                 (for [a args :let [[x c] (str/split a #":" 2)]]
+                   (if c [x c] [(get qid-of x) x]))
+                 (for [row rows] [(get row "wikidata_qid") (get row "country_dir")]))
+        unknown (for [[qid c] pairs :when (str/blank? qid)] c)]
+    (cond
+      (empty? rows) (err "ERR: " qid-map-file " missing. Run 'bb pipeline build-qid' first")
+      (seq unknown) (err "ERR: not in " qid-map-file ": " (str/join ", " unknown)
+                         " (expected a country_dir or QID:country_dir)")
+      :else         (vec pairs))))
+
+(defn- run-per-qid
+  "Run (f qid country_dir) over the qid-pairs of args, conc-wikidata at
+  a time. 1 when the pairs could not be resolved or f returned :fail
+  for a country, 0 otherwise."
+  [args f]
+  (if-let [pairs (qid-pairs args)]
+    (if (some #{:fail} (bounded-pmap conc-wikidata (fn [[qid c]] (f qid c)) pairs)) 1 0)
+    1))
+
+(defn subdivisions-file [country-dir]
+  (country-src country-dir "wikidata" "subdivisions_level1.csv"))
+
+(defn subdivisions-process!
+  "Write sources/wikidata/subdivisions_level1.csv (qid,label): the
+  country's P150 values, dissolved ones excluded. Skip an existing file
+  unless FORCE=1. :ok, :skip or :fail (nothing written)."
   [country-qid country-dir]
-  (let [out (country-src country-dir "wikidata" "subdivisions_level1.csv")]
-    (when-not (skip? out)
-      (when-let [body (wikidata-run-query (wikidata-subdivisions-query country-qid))]
-        (try
-          (let [rows (->> (-> (json/parse-string body true) :results :bindings)
-                          (keep (fn [b]
-                                  (when-let [qid (some-> (get-in b [:sub :value])
-                                                         (str/replace #"^.*/" ""))]
-                                    [qid (get-in b [:subLabel :value] "")])))
-                          distinct
-                          (sort-by first))]
-            (write-csv-file out ["qid" "label"] rows)
-            (err (str "  [subdivisions] " (count rows) " first-level entities"))
-            (Thread/sleep 1000))
-          (catch Exception e
-            (err (str "  [subdivisions] parse error: " (.getMessage e)))))))
-    (if (fs/exists? out)
-      (into #{} (map first (rest (read-csv-raw out))))
-      #{})))
+  (let [out (subdivisions-file country-dir)]
+    (if (skip? out)
+      (do (println (str "=== " country-dir " (" country-qid ") subdivisions : SKIP (use FORCE=1 to refetch)"))
+          :skip)
+      (if-let [bindings (wikidata-bindings (wikidata-run-query (wikidata-subdivisions-query country-qid)))]
+        (let [rows (->> bindings
+                        (keep (fn [b]
+                                (when-let [qid (some-> (get-in b [:sub :value])
+                                                       (str/replace #"^.*/" ""))]
+                                  [qid (get-in b [:subLabel :value] "")])))
+                        distinct
+                        (sort-by first))]
+          (write-csv-file out ["qid" "label"] rows)
+          (println (str "=== " country-dir " (" country-qid ") subdivisions -> " out
+                        " (" (count rows) " first-level entities)"))
+          (Thread/sleep 1000)
+          :ok)
+        (do (err "ERR: " country-dir ": subdivisions query failed; " out " left untouched")
+            :fail)))))
 
-(defn- pad-row
-  "Pad (or trim) a CSV row to exactly n columns."
-  [n row]
-  (vec (take n (concat row (repeat "")))))
-
-(defn- dedup-level-rows
-  "One row per (type,label,website,hostname), preferring a non-blank level.
-  Feed the fresh rows FIRST: a fetch that knows the level then overrides a
-  stale one, while an old non-blank level survives a fetch that lost it.
-  Sorted by hostname."
-  [rows]
-  (->> rows
-       (reduce (fn [m r]
-                 (let [r (pad-row 5 r)
-                       k (vec (take 4 r))
-                       cur (get m k)]
-                   (if (or (nil? cur)
-                           (and (str/blank? (nth cur 4))
-                                (not (str/blank? (nth r 4)))))
-                     (assoc m k r)
-                     m)))
-               {})
-       vals
-       (sort-by #(nth % 3))))
+(defn cmd-subdivisions
+  "subdivisions-process! over the countries of args (qid-pairs)."
+  [args]
+  (run-per-qid args subdivisions-process!))
 
 (defn wikidata-bindings->rows
   "Rows [type label website hostname level] from the SPARQL bindings of one
@@ -172,71 +240,57 @@
 
 (defn- wikidata-class-rows!
   "Run one class query for a country and return its rows
-  (wikidata-bindings->rows), [] when the query or its parsing failed. WDQS
-  chokes on the :strict class-exclusion paths under load (502): a failed
-  strict query is retried :light rather than losing the class entirely."
+  (wikidata-bindings->rows); retry a failed :strict query as :light.
+  nil when the query failed or its answer was truncated."
   [[qid type strictness] country-qid level1]
   (let [body (or (wikidata-run-query (wikidata-query qid country-qid strictness))
                  (when (= strictness :strict)
                    (err (str "  [" type "] strict query failed; retrying light"))
                    (wikidata-run-query (wikidata-query qid country-qid :light))))]
-    (if-not body
-      (do (err (str "  [" type "] failed after 3 attempts")) [])
-      (try
-        (let [bindings (-> (json/parse-string body true) :results :bindings)]
-          (err (str "  [" type "] " (count bindings) " results"))
+    (if-let [bindings (wikidata-bindings body)]
+      (do (err (str "  [" type "] " (count bindings) " results"))
           (Thread/sleep 1000)
           (wikidata-bindings->rows type bindings country-qid level1))
-        (catch Exception e
-          (err (str "  [" type "] parse error: " (.getMessage e)))
-          [])))))
+      (do (err (str "  [" type "] " (if body "truncated answer" "failed after 3 attempts")))
+          nil))))
 
-(defn wikidata-process! [country-qid country-dir]
-  (let [out (country-src country-dir "wikidata" "central_admin.csv")]
-    (if (skip? out)
-      (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
-          ;; Still fetch the subdivision list when absent: the report phase
-          ;; uses it to tell first-level bodies (central-1) from the rest.
-          (wikidata-fetch-subdivisions! country-qid country-dir))
-      (do
-        (println (str "=== " country-dir " (" country-qid ") ==="))
-        (let [level1   (wikidata-fetch-subdivisions! country-qid country-dir)
-              all-rows (vec (mapcat #(wikidata-class-rows! % country-qid level1) wikidata-classes))
-              existing (when (fs/exists? out) (rest (read-csv-raw out)))
-              merged   (dedup-level-rows (concat all-rows existing))]
-          (write-csv-file out ["type" "label" "website" "hostname" "level"] merged)
-          (println (str "  -> " out " (" (count merged) " entries; "
-                        (count all-rows) " from this fetch, rest preserved)")))))))
-
-(defn cmd-wikidata
-  "Fetch Wikidata for every country of data/country_qid.csv, or for the
-  given ones: a country_dir (FRA_france, resolved through that file --
-  what `enrich <country>` and `all <country>` pass along) or an explicit
-  QID:country_dir pair. Unknown countries abort before any request; no
-  System/exit here, cmd-enrich runs this in a future among five others."
-  [args]
-  (let [rows   (read-csv-file "data/country_qid.csv")
-        qid-of (into {} (for [row rows] [(get row "country_dir") (get row "wikidata_qid")]))
-        pairs  (if (seq args)
-                 (for [a args :let [[x c] (str/split a #":" 2)]]
-                   (if c [x c] [(get qid-of x) x]))
-                 (for [row rows] [(get row "wikidata_qid") (get row "country_dir")]))
-        unknown (for [[qid c] pairs :when (str/blank? qid)] c)]
+(defn wikidata-process!
+  "Write sources/wikidata/central_admin.csv
+  (type,label,website,hostname,level), one query per class of
+  wikidata-classes, from this fetch only. Leave the file untouched when
+  a class query fails. Skip an existing file unless FORCE=1; need the
+  subdivisions file. :ok, :skip or :fail."
+  [country-qid country-dir]
+  (let [out (country-src country-dir "wikidata" "central_admin.csv")
+        sub (subdivisions-file country-dir)]
     (cond
-      (empty? rows)
-      (do (err "ERR: data/country_qid.csv missing. Run 'bb pipeline build-qid' first") 1)
+      (skip? out)
+      (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
+          :skip)
 
-      (seq unknown)
-      (do (err "ERR: not in data/country_qid.csv: " (str/join ", " unknown)
-               " (expected a country_dir or QID:country_dir)")
-          1)
+      (not (fs/exists? sub))
+      (do (err "ERR: " country-dir ": " sub " missing. Run 'bb pipeline subdivisions' first")
+          :fail)
 
       :else
-      (do (bounded-pmap conc-wikidata (fn [[qid c]] (wikidata-process! qid c)) (vec pairs))
-          0))))
+      (let [_         (println (str "=== " country-dir " (" country-qid ") ==="))
+            level1    (into #{} (map first (rest (read-csv-raw sub))))
+            per-class (mapv #(wikidata-class-rows! % country-qid level1) wikidata-classes)]
+        (if (some nil? per-class)
+          (do (err "ERR: " country-dir ": a class query failed; " out " left untouched")
+              :fail)
+          (let [rows (->> (apply concat per-class) distinct (sort-by #(nth % 3)))]
+            (write-csv-file out ["type" "label" "website" "hostname" "level"] rows)
+            (println (str "  -> " out " (" (count rows) " entries)"))
+            :ok))))))
+
+(defn cmd-wikidata
+  "wikidata-process! over the countries of args (qid-pairs)."
+  [args]
+  (run-per-qid args wikidata-process!))
 
 ;; ===========================================================================
-;;  Phase 6 -- IANA
+;;  iana -- ccTLD and its manager
 ;; ===========================================================================
 
 (defn iana-portal-for [country-dir]
@@ -289,60 +343,45 @@
 (defn cmd-iana [args] (iter-countries iana-process! args conc-iana))
 
 ;; ===========================================================================
-;;  Phase 6 -- CIA Factbook
+;;  cia -- Government section of the CIA World Factbook
 ;; ===========================================================================
 
 (def factbook-map-file "data/factbook_gec.csv")
 (def factbook-tree-cache "/tmp/world-gov-factbook-tree.json")
 
-(defn- build-country-map!
-  "Write the country_dir <-> source-id map at map-file once: the automatic
-  name matches returned by fetch-matches (a thunk, [country_dir …] rows)
-  corrected and completed by the curated rows of aliases-file, which come
-  FIRST so that they can override a wrong automatic match, not only fill
-  gaps. Skipped when the file already maps 150+ countries, unless FORCE=1."
-  [map-file header aliases-file label fetch-matches]
-  (when-not (and (fs/exists? map-file)
-                 (not force?)
-                 (> (dec (count (read-csv-raw map-file))) 150))
-    (err "Building country_dir <-> " label " map…")
-    (let [aliases (rest (or (read-csv-raw aliases-file) []))
-          dedup   (dedup-by-first (concat aliases (fetch-matches)))]
-      (write-csv-file map-file header dedup)
-      (err "  -> " map-file " (" (count dedup) " countries mapped)"))))
-
-(defn cia-build-map! []
+(defn cmd-build-gec
+  "Write data/factbook_gec.csv (country_dir,gec,region) from the file
+  tree and SUMMARY.md of factbook.json, corrected by
+  data/factbook_aliases.csv."
+  [_]
   (build-country-map!
    factbook-map-file ["country_dir" "gec" "region"] "data/factbook_aliases.csv" "Factbook GEC"
    (fn []
-    (when (or (not (fs/exists? factbook-tree-cache)) force?)
-      (when-let [body (http-get "https://api.github.com/repos/factbook/factbook.json/git/trees/master?recursive=1"
-                                {:timeout 30 :accept "application/json"})]
-        (spit factbook-tree-cache body)))
-    (when-not (fs/exists? factbook-tree-cache)
-      (err "ERR: factbook tree unavailable (fetch failed and no cache)")
-      (throw (ex-info "factbook tree unavailable" {})))
-    (let [tree (-> (slurp factbook-tree-cache)
-                   (json/parse-string true)
-                   :tree)
-          json-paths (->> tree
-                          (filter #(str/ends-with? (:path %) ".json"))
-                          (map :path))
-          region-by-gec (into {}
-                              (for [p json-paths
-                                    :let [[region file] (str/split p #"/")
-                                          gec (str/replace file #"\.json$" "")]]
-                                [gec region]))
-          summary (or (http-get "https://raw.githubusercontent.com/factbook/factbook.json/master/SUMMARY.md")
-                      "")
-          pairs (for [[_ gec name] (re-seq #"`([a-z]+)` ([^`\n]+)" summary)]
-                  [gec name (normalize-name name)])
-          slug->dir @slug->country-dir]
-      (for [[gec _name norm] pairs
-            :let [dir (get slug->dir norm)
-                  region (get region-by-gec gec)]
-            :when (and dir region)]
-        [dir gec region])))))
+     (when (or (not (fs/exists? factbook-tree-cache)) force?)
+       (when-let [body (http-get "https://api.github.com/repos/factbook/factbook.json/git/trees/master?recursive=1"
+                                 {:timeout 30 :accept "application/json"})]
+         (spit factbook-tree-cache body)))
+     (when-let [summary (when (fs/exists? factbook-tree-cache)
+                          (http-get "https://raw.githubusercontent.com/factbook/factbook.json/master/SUMMARY.md"))]
+       (let [tree (-> (slurp factbook-tree-cache)
+                      (json/parse-string true)
+                      :tree)
+             json-paths (->> tree
+                             (filter #(str/ends-with? (:path %) ".json"))
+                             (map :path))
+             region-by-gec (into {}
+                                 (for [p json-paths
+                                       :let [[region file] (str/split p #"/")
+                                             gec (str/replace file #"\.json$" "")]]
+                                   [gec region]))
+             pairs (for [[_ gec name] (re-seq #"`([a-z]+)` ([^`\n]+)" summary)]
+                     [gec name (normalize-name name)])
+             slug->dir @slug->country-dir]
+         (for [[gec _name norm] pairs
+               :let [dir (get slug->dir norm)
+                     region (get region-by-gec gec)]
+               :when (and dir region)]
+           [dir gec region]))))))
 
 (defn decode-html-entities [s]
   (when s
@@ -412,30 +451,33 @@
                         (Thread/sleep 1000))))))))))))
 
 (defn cmd-cia [args]
-  (cia-build-map!)
-  (iter-countries cia-process! args conc-cia))
+  (if (fs/exists? factbook-map-file)
+    (iter-countries cia-process! args conc-cia)
+    (do (err "ERR: " factbook-map-file " missing. Run 'bb pipeline build-gec' first") 1)))
 
 ;; ===========================================================================
-;;  Phase 6 -- UN/DESA
+;;  un-desa -- national portal and EGDI rank
 ;; ===========================================================================
 
 (def un-desa-map-file "data/un_desa_ids.csv")
 
-(defn un-desa-build-map! []
+(defn cmd-build-un-ids
+  "Write data/un_desa_ids.csv (country_dir,un_id,un_name) from the
+  UN/DESA Data-Center page, corrected by data/un_desa_aliases.csv."
+  [_]
   (build-country-map!
    un-desa-map-file ["country_dir" "un_id" "un_name"] "data/un_desa_aliases.csv" "UN/DESA id"
    (fn []
-     (let [body (or (http-get-curl "https://publicadministration.un.org/egovkb/en-us/Data-Center"
-                                   {:timeout 30})
-                    "")
-           pairs (->> (re-seq #"/Data/Country-Information/id/(\d+)-([A-Za-z-]+)" body)
-                      (map (fn [[_ id name]] [id name (normalize-name name)]))
-                      distinct)
-           slug->dir @slug->country-dir]
-       (for [[id name norm] pairs
-             :let [dir (get slug->dir norm)]
-             :when dir]
-         [dir id name])))))
+     (when-let [body (http-get-curl "https://publicadministration.un.org/egovkb/en-us/Data-Center"
+                                    {:timeout 30})]
+       (let [pairs (->> (re-seq #"/Data/Country-Information/id/(\d+)-([A-Za-z-]+)" body)
+                        (map (fn [[_ id name]] [id name (normalize-name name)]))
+                        distinct)
+             slug->dir @slug->country-dir]
+         (for [[id name norm] pairs
+               :let [dir (get slug->dir norm)]
+               :when dir]
+           [dir id name]))))))
 
 (def un-desa-header ["country_dir" "national_portal" "egdi_rank"])
 
@@ -462,11 +504,12 @@
                   (Thread/sleep 1000))))))))))
 
 (defn cmd-un-desa [args]
-  (un-desa-build-map!)
-  (iter-countries un-desa-process! args conc-un-desa))
+  (if (fs/exists? un-desa-map-file)
+    (iter-countries un-desa-process! args conc-un-desa)
+    (do (err "ERR: " un-desa-map-file " missing. Run 'bb pipeline build-un-ids' first") 1)))
 
 ;; ===========================================================================
-;;  Phase 6 -- OECD
+;;  oecd -- membership flag
 ;; ===========================================================================
 
 ;; 38 members as of May 2026 (latest accession: Croatia 2025).
@@ -500,7 +543,7 @@
 (defn cmd-oecd [args] (iter-countries oecd-process! args))
 
 ;; ===========================================================================
-;;  Phase 6 -- Country metadata (REST Countries + World Bank)
+;;  meta -- country metadata (REST Countries + World Bank)
 ;; ===========================================================================
 
 (defn meta-rest-countries
@@ -568,17 +611,20 @@
 (defn cmd-meta [args] (iter-countries meta-process! args conc-meta))
 
 ;; ===========================================================================
-;;  enrich = wikidata + (iana + cia + un-desa + oecd + meta in parallel)
+;;  enrich = build-qid + build-gec + build-un-ids + subdivisions, then
+;;  the six sources in parallel
 ;; ===========================================================================
 
 (defn cmd-enrich
-  "Run the enrichment sources fully in parallel. Each source manages its
-  own intra-source concurrency (see conc-wikidata, conc-iana, …).
-  Logs are streamed to temp files, displayed after all sources finish.
-  Returns 1 when a source failed, 0 otherwise."
+  "Run build-qid, build-gec, build-un-ids and subdivisions, then the
+  six sources in parallel, their logs shown once all finish. 1 when a
+  step failed, 0 otherwise."
   [args]
-  (err "-> wikidata + iana + cia + un-desa + oecd + meta (all in parallel)…")
-  (let [logs (fs/create-temp-dir)
+  (err "-> build-qid + build-gec + build-un-ids + subdivisions…")
+  (let [built (conj (mapv #(% nil) [cmd-build-qid cmd-build-gec cmd-build-un-ids])
+                    (cmd-subdivisions args))
+        _     (err "-> wikidata + iana + cia + un-desa + oecd + meta (all in parallel)…")
+        logs  (fs/create-temp-dir)
         spawn (fn [name f]
                 (future
                   (try
@@ -609,4 +655,4 @@
           (doseq [l (take-last 10 (str/split-lines (slurp log-file)))]
             (println l)))))
     (fs/delete-tree logs)
-    (if (some #(= :fail (second %)) results) 1 0)))
+    (if (or (some #{1} built) (some #(= :fail (second %)) results)) 1 0)))

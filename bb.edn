@@ -3,11 +3,13 @@
  {:requires ([babashka.process :refer [shell]])
   pipeline   {:doc  "Full pipeline -- run 'bb pipeline help' for usage"
               :task (apply shell "bb scripts/pipeline.clj" *command-line-args*)}
-  collect    {:doc  "crt.sh harvest + normalize + probe + aggregate + domains"
+  collect    {:doc  "the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots -> sources/crtsh/, sources/probes/roots.csv"
               :task (apply shell "bb scripts/pipeline.clj collect" *command-line-args*)}
-  enrich     {:doc  "wikidata + iana/cia/un-desa/oecd/meta (parallel)"
+  enrich     {:doc  "build-qid + build-gec + build-un-ids + subdivisions, then wikidata + iana/cia/un-desa/oecd/meta (parallel)"
               :task (apply shell "bb scripts/pipeline.clj enrich" *command-line-args*)}
-  report     {:doc  "cross-check: proposed.csv + summary.md"
+  build      {:doc  "the consolidated files: aggregate + domains -> data/ (after enrich)"
+              :task (apply shell "bb scripts/pipeline.clj build" *command-line-args*)}
+  report     {:doc  "the curation files: propose + summary -> proposed.csv, summary.md (after build)"
               :task (apply shell "bb scripts/pipeline.clj report" *command-line-args*)}
   indegree   {:doc  "link-graph in-degree (eu-plus-government-scans) -> sources/linkgraph/"
               :task (apply shell "bb scripts/pipeline.clj indegree" *command-line-args*)}
@@ -15,7 +17,7 @@
               :task (apply shell "bb scripts/detect-forges.clj" *command-line-args*)}
   universities {:doc  "public-universities harvest (parked dataset) -- run 'bb universities help'"
                 :task (apply shell "bb scripts/detect-universities.clj" *command-line-args*)}
-  directories {:doc  "harvest official directories of public bodies -> sources/<registry>/registered.csv or sources/directory/orgs.csv"
+  directories {:doc  "official directories of public bodies: 'registry' -> sources/<registry>/registered.csv, 'candidates' -> sources/directory/orgs.csv -- run 'bb directories help'"
                :task (apply shell "bb scripts/detect-from-directories.clj" *command-line-args*)}
-  all        {:doc  "collect + enrich + report"
+  all        {:doc  "collect + enrich + build + report"
               :task (apply shell "bb scripts/pipeline.clj all" *command-line-args*)}}}

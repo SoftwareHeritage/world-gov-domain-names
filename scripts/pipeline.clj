@@ -1,45 +1,69 @@
 #!/usr/bin/env bb
 ;; world-gov-domain-names -- full pipeline (Babashka).
 ;;
-;; Main commands:
-;;   collect            crt.sh harvest + normalize + probe + aggregate
-;;   enrich             wikidata (hardened) + iana/cia/un-desa/oecd/meta (parallel)
-;;   report             cross-check: score + per-country report
-;;   all                collect + enrich + report
+;; Four phases, each an aggregated command chaining targeted commands
+;; in dependency order; every targeted command writes one kind of file.
 ;;
-;; Targeted commands:
+;;   collect            the harvest: fetch (+ retry on failure), normalize,
+;;                      probe, mx, probe-roots -> sources/crtsh/,
+;;                      sources/probes/roots.csv
+;;   enrich             the per-country sources: build-qid, build-gec,
+;;                      build-un-ids, subdivisions, then wikidata +
+;;                      iana/cia/un-desa/oecd/meta in parallel
+;;                      -> sources/wikidata/, data/sources/
+;;   build              the consolidated files: aggregate, domains -> data/
+;;   report             the curation files: propose, summary -> proposed.csv,
+;;                      summary.md
+;;   all                collect + enrich + build + report
+;;
+;; Targeted commands (collect):
 ;;   fetch [DOM…]       crt.sh fetch (1+ domains)
 ;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
 ;;   normalize          clean every harvest file (sources/crtsh/<root>.csv)
-;;   probe [DOM…]       HTTPS HEAD probe of rows with empty status; a full
-;;                      run also covers the unharvested confirmed roots
-;;   mx [DOM…]          DNS MX lookup per host -> mx column (email signal);
-;;                      a full run also covers the confirmed roots that have
-;;                      no harvest file (sources/probes/roots.csv)
-;;   probe-proposed [C…] HTTPS HEAD + MX of the proposed hosts
-;;                      -> sources/probes/proposed.csv, then proposed.csv
-;;   aggregate          aggregate every host -> data/public-sector-domains.csv
-;;   check [C…]         compile the decision files: exit 1 on a contradiction,
-;;                      WARN on a curated row a registry already lists
-;;   cisa               fetch CISA federal .gov registry -> sources/cisa/registered.csv
-;;   lannuaire          fetch FR service-public.gouv.fr directory -> sources/lannuaire/registered.csv
-;;   govuk              build UK sub-central list -> GBR sources/govuk/registered.csv
-;;   wikidata [Q:C…]    fetch + diff Wikidata (central administration)
+;;   probe [DOM…]       HTTPS HEAD probe of the harvest rows with empty status
+;;   mx [DOM…]          DNS MX lookup of the harvest rows -> mx column (email signal)
+;;   probe-roots [C…]   HTTPS HEAD + MX of the confirmed roots that have no
+;;                      harvest file -> sources/probes/roots.csv
+;;
+;; Targeted commands (enrich):
+;;   build-qid          country_dir -> Wikidata QID: data/country_qid.csv
+;;   build-gec          country_dir -> Factbook GEC code: data/factbook_gec.csv
+;;   build-un-ids       country_dir -> UN/DESA id: data/un_desa_ids.csv
+;;   subdivisions [Q:C…] Wikidata first-level subdivisions (P150)
+;;                      -> sources/wikidata/subdivisions_level1.csv
+;;   wikidata [Q:C…]    Wikidata central administration
+;;                      -> sources/wikidata/central_admin.csv (needs subdivisions)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
 ;;   un-desa [C…]       UN/DESA national portal + EGDI
 ;;   oecd [C…]          OECD membership flag
 ;;   meta [C…]          country metadata (REST Countries + World Bank GDP)
-;;   cross-check [C…]   alias of report
-;;   build-qid          (re)build data/country_qid.csv
-;;   validate-un        check un_status against the official UN member list
+;;
+;; Targeted commands (build):
+;;   aggregate          every host -> data/public-sector-domains.csv
 ;;   domains            central + central-1 scope -> the match policy table
 ;;                      data/public-sector-domains-central+-policy.csv
+;;
+;; Targeted commands (report):
+;;   propose [C…]       score the candidate hosts -> countries/<c>/proposed.csv
+;;   summary [C…]       the per-country report -> countries/<c>/summary.md
+;;   cross-check [C…]   alias of report
+;;
+;; Other commands:
+;;   probe-proposed [C…] HTTPS HEAD + MX of the proposed hosts
+;;                      -> sources/probes/proposed.csv (propose joins them)
+;;   check [C…]         compile the decision files: exit 1 on a contradiction,
+;;                      WARN on a curated row a registry already lists
+;;   cisa               fetch CISA federal .gov registry -> sources/cisa/registered.csv
+;;   lannuaire          fetch FR service-public.gouv.fr directory -> sources/lannuaire/registered.csv
+;;   govuk              build UK sub-central list -> GBR sources/govuk/registered.csv
+;;   validate-un        check un_status against the official UN member list
 ;;   indegree [C…]      link-graph in-degree (eu-plus-government-scans)
 ;;                      -> countries/<c>/sources/linkgraph/indegree.csv
 ;;
 ;; Environment variables:
-;;   FORCE=1            force-overwrite existing outputs; re-probe every host (probe, mx)
+;;   FORCE=1            force-overwrite existing outputs; re-probe every host
+;;                      (probe, mx, probe-roots, probe-proposed)
 ;;   PARALLEL           # concurrent requests (fetch/probe)
 ;;   TIMEOUT            HTTPS request timeout in seconds (probe), default 5s
 
@@ -161,7 +185,7 @@
     (vec (harvest-files))))
 
 ;; ===========================================================================
-;;  Phase 1 -- fetch / retry (crt.sh)
+;;  collect -- fetch / retry (crt.sh)
 ;; ===========================================================================
 
 (defn fetch-one!
@@ -246,7 +270,7 @@
         0))))
 
 ;; ===========================================================================
-;;  Phase 2 -- normalize
+;;  collect -- normalize
 ;; ===========================================================================
 
 (defn normalize-harvest-rows
@@ -274,7 +298,7 @@
                     (count (read-harvest file)))))))
 
 ;; ===========================================================================
-;;  Phase 3 -- probe
+;;  collect -- probe
 ;; ===========================================================================
 
 (defn probe-one!
@@ -347,26 +371,14 @@
             (write-harvest! file (probes->harvest
                                    (fill-hosts! probes 0 #(second (probe-one! % timeout)) (parallel 50) todo))))))))
 
-(defn probe-roots!
-  "HTTPS HEAD probe of a country's unharvested harvest roots whose
-  status is still blank, into sources/probes/roots.csv."
-  [country-dir timeout]
-  (let [probes (roots-probes country-dir)
-        todo   (blank-hosts probes 0)]
-    (when (seq todo)
-      (println (str "[" country-dir "/probes] " (count todo) " roots to probe"))
-      (write-probes! country-dir (fill-hosts! probes 0 #(second (probe-one! % timeout)) (parallel 50) todo)))))
-
-(defn cmd-probe [args]
+(defn cmd-probe
+  "probe-domain! over the harvest files of args (every one when empty)."
+  [args]
   (let [timeout (env-int "TIMEOUT" 5)]
-    (doseq [f (resolve-harvest-files args)] (probe-domain! f timeout))
-    ;; a domain-scoped run stays scoped; a full run also covers the
-    ;; harvest roots that have no harvest file
-    (when (empty? args)
-      (doseq [c (country-dirs)] (probe-roots! c timeout)))))
+    (doseq [f (resolve-harvest-files args)] (probe-domain! f timeout))))
 
 ;; ===========================================================================
-;;  Phase 3b -- MX records (email signal, never a filter)
+;;  collect -- mx (email signal, never a filter)
 ;; ===========================================================================
 
 (defn mx-lookup
@@ -402,32 +414,44 @@
         (println (str "[" root-name "] mx: " (count todo) " looked up ("
                       (with-mx-count todo filled) " with MX)"))))))
 
-(defn mx-roots!
-  "Look up MX for a country's unharvested harvest roots, into
-  sources/probes/roots.csv: they have no harvest file, so the per-file
-  pass never sees them -- yet their apexes ARE email domains the
-  central-gov file watches. Reuses already-looked-up roots unless FORCE=1."
-  [country-dir conc]
-  (let [probes (roots-probes country-dir)
-        todo   (blank-hosts probes 1)]
-    (when (seq todo)
-      (let [filled (fill-hosts! probes 1 mx-lookup conc todo)]
-        (write-probes! country-dir filled)
-        (println (str "[" country-dir "/probes] mx: " (count todo) " looked up ("
-                      (with-mx-count todo filled) " with MX)"))))))
-
-(defn cmd-mx [args]
+(defn cmd-mx
+  "mx-domain! over the harvest files of args (every one when empty)."
+  [args]
   (let [conc (parallel 50)]
-    (doseq [f (resolve-harvest-files args)] (mx-domain! f conc))
-    ;; Unharvested harvest roots (registry roots, mostly) have no
-    ;; harvest file; cover their apexes on a full run (a domain-scoped
-    ;; run stays scoped).
-    (when (empty? args)
-      (doseq [c (country-dirs)] (mx-roots! c conc)))))
+    (doseq [f (resolve-harvest-files args)] (mx-domain! f conc))))
 
 ;; ===========================================================================
-;;  Phase 4 -- aggregate
+;;  collect -- probe-roots (the confirmed roots without a harvest file)
 ;; ===========================================================================
+;; Same shape as probe-proposed: country-scoped, both probe columns of
+;; one probes file at once.
+
+(defn probe-roots!
+  "Probe (HTTPS HEAD, MX) the unharvested roots of a country whose
+  columns are blank and write sources/probes/roots.csv."
+  [country-dir timeout conc]
+  (let [probes    (roots-probes country-dir)
+        todo-http (blank-hosts probes 0)
+        todo-mx   (blank-hosts probes 1)]
+    (when (or (seq todo-http) (seq todo-mx))
+      (let [filled (-> probes
+                       (fill-hosts! 0 #(second (probe-one! % timeout)) conc todo-http)
+                       (fill-hosts! 1 mx-lookup conc todo-mx))]
+        (write-probes! country-dir filled)
+        (println (str "[" country-dir "/probes] roots: " (count todo-http) " probed, "
+                      (count todo-mx) " MX looked up ("
+                      (with-mx-count todo-mx filled) " with MX)"))))))
+
+(defn cmd-probe-roots [args]
+  (let [timeout (env-int "TIMEOUT" 5)
+        conc    (parallel 50)]
+    (iter-countries #(probe-roots! % timeout conc) args)))
+
+;; ===========================================================================
+;;  build -- aggregate
+;; ===========================================================================
+;; Reads the harvest (collect) and the country metadata of
+;; data/sources/country_data.csv (enrich, meta): run after both.
 
 (defn country-hosts
   "[host parent_domain http_status mx] rows of a country: every host of its
@@ -539,8 +563,11 @@
                                 (for [[c ds] @excluded-domains, d ds] [c d]))))
 
 ;; ===========================================================================
-;;  Phase 7 -- cross-check (score + rapport)
+;;  report -- propose (score the candidate hosts)
 ;; ===========================================================================
+;; Reads the enrichment sources (wikidata, un-desa, iana, cia), the
+;; link graph (indegree), the official directories (bb directories) and
+;; the probes of probe-proposed.
 
 (def gov-pattern
   #"(?i)(?:^|\.)(?:gov|bund|govt|gouv|governo|gobierno|kormany|hallinto|riksdag|presidencia|presidence|parlement|parlamento|parliament|admin)(?:\.|$)")
@@ -787,28 +814,25 @@
        (remove #(= "local" (nth % 4)))
        (sort-by (juxt #(- (nth % 1)) first))))
 
-(defn score-candidates-for!
-  "Write countries/<c>/proposed.csv, the domains proposed for validation
-  (hostname,score,sources,label,level,http_status,mx), best scores first:
-  propose-candidates over load-candidate-ctx, joined with the probes of
-  sources/probes/proposed.csv (cmd-probe-proposed), blank until a host is
-  probed. A host is subnational when Wikidata says so or when its label
-  matches the subdivision pattern; a subnational host whose jurisdiction
-  (or label) points to a first-level subdivision (Land, state, region…)
-  is central-1, the rest local; blank when nothing is known."
+(defn propose-country!
+  "Write countries/<c>/proposed.csv
+  (hostname,score,sources,label,level,http_status,mx): the ranked
+  candidates joined with the probes of sources/probes/proposed.csv."
   [country-dir]
-  (let [probes (read-proposed-probes country-dir)]
-    (write-csv-file (str "countries/" country-dir "/proposed.csv")
-                    ["hostname" "score" "sources" "label" "level" "http_status" "mx"]
-                    (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))
-                          :let [[st mx] (get probes h ["" ""])]]
-                      [h (str sc) src lbl lvl st mx]))))
+  (let [probes (read-proposed-probes country-dir)
+        out    (str "countries/" country-dir "/proposed.csv")
+        rows   (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))
+                     :let [[st mx] (get probes h ["" ""])]]
+                 [h (str sc) src lbl lvl st mx])]
+    (write-csv-file out ["hostname" "score" "sources" "label" "level" "http_status" "mx"] rows)
+    (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))))
+
+(defn cmd-propose [args] (iter-countries propose-country! args))
 
 (defn probe-proposed!
-  "HTTPS HEAD and MX lookup of a country's proposed hosts (proposed.csv),
-  those not probed yet unless FORCE=1, into sources/probes/proposed.csv --
-  pruned to the hosts still proposed -- then proposed.csv is rewritten
-  with the probe columns filled."
+  "Probe (HTTPS HEAD, MX) the hosts of proposed.csv whose columns are
+  blank and write sources/probes/proposed.csv, keeping only the hosts
+  still proposed. Leave proposed.csv as is."
   [country-dir timeout conc]
   (let [hosts  (for [[h] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                      :when (valid-hostname? h)]
@@ -823,7 +847,6 @@
                        (fill-hosts! 0 #(second (probe-one! % timeout)) conc todo-http)
                        (fill-hosts! 1 mx-lookup conc todo-mx))]
         (write-proposed-probes! country-dir filled)
-        (score-candidates-for! country-dir)
         (println (str "[" country-dir "] proposed: " (count todo-http) " probed, "
                       (count todo-mx) " MX looked up ("
                       (count (filter #(re-matches #"[23]\d\d" (first %)) (vals filled)))
@@ -831,8 +854,17 @@
 
 (defn cmd-probe-proposed [args]
   (let [timeout (env-int "TIMEOUT" 5)
-        conc    (parallel 50)]
-    (iter-countries #(probe-proposed! % timeout conc) args)))
+        conc    (parallel 50)
+        code    (iter-countries #(probe-proposed! % timeout conc) args)]
+    (when (zero? code)
+      (println "Run 'bb pipeline propose' to fold the probes into proposed.csv."))
+    code))
+
+;; ===========================================================================
+;;  report -- summary (the per-country report)
+;; ===========================================================================
+;; Reads proposed.csv (propose), data/public-sector-domains.csv
+;; (aggregate) and the country metadata of data/sources/ (enrich).
 
 (defn- section-overview [{:keys [un-st cctld manager oecd-status oecd-since
                                   un-rank fb-govtype fb-capital n-collected
@@ -937,10 +969,10 @@
         (println "```")
         (println)))))
 
-(defn report-country!
-  "Generate countries/<c>/summary.md (and proposed.csv) for one country."
+(defn summary-country!
+  "Write countries/<c>/summary.md: metadata, UN/DESA portal coverage,
+  Factbook institutions, the top of proposed.csv, ccTLD anomalies."
   [country-dir collected-by-country un-status-by-country]
-  (score-candidates-for! country-dir)
   (let [prop-path  (str "countries/" country-dir "/proposed.csv")
         out        (str "countries/" country-dir "/summary.md")
         field      (fn [source col] (let [v (table-field source country-dir col)]
@@ -977,14 +1009,15 @@
             (section-cctld-anomalies country-dir cctld collected)))
     (println (str "=== " country-dir " -> " out))))
 
-(defn cmd-cross-check [args]
+(defn cmd-summary [args]
   (let [cache (or (read-collected-cache) {})
         un-status (build-un-status-map)]
-    (iter-countries #(report-country! % cache un-status) args)))
+    (iter-countries #(summary-country! % cache un-status) args)))
 
 ;; ===========================================================================
-;;  Utilitaire -- domains (match policy table over the central+ scope)
+;;  build -- domains (match policy table over the central+ scope)
 ;; ===========================================================================
+;; Reads the decision files only (confirmed-rows).
 
 (defn- covered-by?
   "True when domain d is redundant given entry [d2 excl2 apex?]: d sits
@@ -1144,59 +1177,91 @@
   [& results]
   (if (some #{1} results) 1 0))
 
-(defn- run-collect [args]
+;; The four phases. Each chains its targeted commands in dependency
+;; order and writes nothing of its own; `all` chains the phases the same
+;; way (build reads enrich's country metadata, report reads build's
+;; consolidated file).
+
+(defn- run-collect
+  "The harvest: fetch (+ retry on failure), normalize, probe, mx, then
+  probe-roots on a full run (args are harvest roots, probe-roots is
+  country-scoped)."
+  [args]
   (exit-code
    (when (some #(= :fail (second %)) (fetch-all! args))
      (cmd-retry []))
    (cmd-normalize nil)
    (cmd-probe args)
-   (cmd-aggregate nil)
-   (cmd-domains nil)))
+   (cmd-mx args)
+   (when (empty? args) (cmd-probe-roots []))))
+
+(defn- run-build
+  "The consolidated files: aggregate, domains."
+  [_]
+  (exit-code (cmd-aggregate nil) (cmd-domains nil)))
+
+(defn- run-report
+  "The curation files: propose, summary."
+  [args]
+  (exit-code (cmd-propose args) (cmd-summary args)))
 
 (defn- run-all [args]
-  (exit-code (run-collect args) (enrich/cmd-enrich args) (cmd-cross-check args)))
+  (exit-code (run-collect args) (enrich/cmd-enrich args) (run-build args) (run-report args)))
 
 (def commands
-  "Map sub-command name -> handler (common/dispatch). A handler returning
-  an integer sets the exit code."
+  "{sub-command handler}; a handler's integer result is the exit code."
   {"collect"     run-collect
-   "all"         run-all
    "enrich"      enrich/cmd-enrich
-   "report"      cmd-cross-check
+   "build"       run-build
+   "report"      run-report
+   "all"         run-all
+   ;; collect
    "fetch"       cmd-fetch
    "retry"       cmd-retry
    "normalize"   cmd-normalize
    "probe"       cmd-probe
    "mx"          cmd-mx
-   "aggregate"   cmd-aggregate
-   "check"       cmd-check
-   "cisa"        registries/cmd-cisa
-   "lannuaire"   registries/cmd-lannuaire
-   "govuk"       registries/cmd-govuk
+   "probe-roots" cmd-probe-roots
+   ;; enrich
+   "build-qid"   enrich/cmd-build-qid
+   "build-gec"   enrich/cmd-build-gec
+   "build-un-ids" enrich/cmd-build-un-ids
+   "subdivisions" enrich/cmd-subdivisions
    "wikidata"    enrich/cmd-wikidata
    "iana"        enrich/cmd-iana
    "cia"         enrich/cmd-cia
    "un-desa"     enrich/cmd-un-desa
    "oecd"        enrich/cmd-oecd
    "meta"        enrich/cmd-meta
-   "cross-check" cmd-cross-check
-   "probe-proposed" cmd-probe-proposed
-   "build-qid"   registries/cmd-build-qid
-   "validate-un" registries/cmd-validate-un
+   ;; build
+   "aggregate"   cmd-aggregate
    "domains"     cmd-domains
+   ;; report
+   "propose"     cmd-propose
+   "summary"     cmd-summary
+   "cross-check" run-report
+   ;; other
+   "probe-proposed" cmd-probe-proposed
+   "check"       cmd-check
+   "cisa"        registries/cmd-cisa
+   "lannuaire"   registries/cmd-lannuaire
+   "govuk"       registries/cmd-govuk
+   "validate-un" registries/cmd-validate-un
    "indegree"    indegree/cmd-indegree})
 
 (defn usage []
   (println "Usage: bb scripts/pipeline.clj <command> [args…]")
   (println)
-  (println "Main commands:")
-  (println "  collect | enrich | report | all")
+  (println "Phases (each chains the targeted commands below it):")
+  (println "  collect | enrich | build | report | all")
   (println)
   (println "Targeted commands:")
-  (println "  fetch | retry | normalize | probe | mx | aggregate | domains")
-  (println "  check | cisa | lannuaire | govuk")
-  (println "  wikidata | iana | cia | un-desa | oecd | meta | cross-check | build-qid")
-  (println "  validate-un | indegree | probe-proposed")
+  (println "  collect: fetch | retry | normalize | probe | mx | probe-roots")
+  (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
+  (println "           wikidata | iana | cia | un-desa | oecd | meta")
+  (println "  build:   aggregate | domains")
+  (println "  report:  propose | summary (cross-check = report)")
+  (println "  other:   probe-proposed | check | cisa | lannuaire | govuk | validate-un | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)
