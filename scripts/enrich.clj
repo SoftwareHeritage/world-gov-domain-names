@@ -126,16 +126,6 @@
   [n row]
   (vec (take n (concat row (repeat "")))))
 
-(defn- upgrade-wikidata-csv!
-  "Migrate a pre-level wikidata CSV (type,label,website,hostname) in place by
-  appending an empty level column, so unions with 5-column rows line up."
-  [path]
-  (when (fs/exists? path)
-    (let [[header & rows] (read-csv-raw path)]
-      (when (and header (= 4 (count header)))
-        (write-csv-file path (conj (vec header) "level")
-                        (map #(pad-row 5 %) rows))))))
-
 (defn- dedup-level-rows
   "One row per (type,label,website,hostname), preferring a non-blank level.
   Feed the fresh rows FIRST: a fetch that knows the level then overrides a
@@ -155,18 +145,6 @@
                {})
        vals
        (sort-by #(nth % 3))))
-
-(defn wikidata-write-missing! [in-path out-path]
-  (let [known (confirmed-domains)
-        rows (rest (read-csv-raw in-path))
-        missing (filter (fn [row]
-                          (let [host (nth row 3 nil)]
-                            (and (not (str/blank? host))
-                                 (not (host-covered? host known)))))
-                        rows)]
-    (write-csv-file out-path ["type" "label" "website" "hostname" "level"]
-                    (map #(pad-row 5 %) missing))
-    (count missing)))
 
 (defn wikidata-bindings->rows
   "Rows [type label website hostname level] from the SPARQL bindings of one
@@ -213,15 +191,12 @@
           [])))))
 
 (defn wikidata-process! [country-qid country-dir]
-  (let [out (country-src country-dir "wikidata" "central_admin.csv")
-        missing-out (country-src country-dir "wikidata" "missing_domains.csv")]
-    (upgrade-wikidata-csv! out)
+  (let [out (country-src country-dir "wikidata" "central_admin.csv")]
     (if (skip? out)
       (do (println (str "=== " country-dir " (" country-qid ") : SKIP (use FORCE=1 to refetch)"))
           ;; Still fetch the subdivision list when absent: the report phase
           ;; uses it to tell first-level bodies (central-1) from the rest.
-          (wikidata-fetch-subdivisions! country-qid country-dir)
-          (wikidata-write-missing! out missing-out))
+          (wikidata-fetch-subdivisions! country-qid country-dir))
       (do
         (println (str "=== " country-dir " (" country-qid ") ==="))
         (let [level1   (wikidata-fetch-subdivisions! country-qid country-dir)
@@ -230,9 +205,7 @@
               merged   (dedup-level-rows (concat all-rows existing))]
           (write-csv-file out ["type" "label" "website" "hostname" "level"] merged)
           (println (str "  -> " out " (" (count merged) " entries; "
-                        (count all-rows) " from this fetch, rest preserved)"))
-          (let [n-miss (wikidata-write-missing! out missing-out)]
-            (println (str "  -> " missing-out " (" n-miss " uncovered candidates)"))))))))
+                        (count all-rows) " from this fetch, rest preserved)")))))))
 
 (defn cmd-wikidata
   "Fetch Wikidata for every country of data/country_qid.csv, or for the

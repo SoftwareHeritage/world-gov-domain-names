@@ -13,9 +13,6 @@
 ;; Usage: bb scripts/detect-universities.clj <command> [args…]
 ;;   fetch [C…]         SPARQL harvest (all countries, or the given
 ;;                      country_dirs) -> data/public-universities.csv
-;;   migrate            one-off: pull the level=university rows out of
-;;                      countries/*/sources/wikidata/central_admin.csv
-;;                      into data/public-universities.csv
 
 (ns detect-universities
   (:require [common :refer :all]
@@ -44,41 +41,6 @@
                   (sort-by (juxt second first) (vals by-key)))
   (println (str "Wrote " universities-file " (" (count by-key)
                 " universities" label ")")))
-
-;; ---------------------------------------------------------------------------
-;; migrate -- one-off extraction from the wikidata source files
-;; ---------------------------------------------------------------------------
-
-(defn cmd-migrate
-  "Move every level=university row of
-  countries/*/sources/wikidata/central_admin.csv (written before the
-  2026-08-17 extraction) into data/public-universities.csv, removing them
-  from the source files so pipeline.clj never sees them again."
-  [_]
-  (let [existing (read-universities)
-        moved (atom [])
-        touched (atom 0)]
-    (doseq [path (fs/glob "countries" "*/sources/wikidata/central_admin.csv")
-            :let [path (str path)
-                  country (second (re-find #"countries/([^/]+)/" path))
-                  [header & rows] (read-csv-raw path)]
-            :when header]
-      (let [{unis true kept false}
-            (group-by #(= "university" (str/trim (or (nth % 4 nil) ""))) rows)]
-        (when (seq unis)
-          (swap! touched inc)
-          (doseq [[_type label website hostname _level] unis
-                  :when (not (str/blank? hostname))]
-            (swap! moved conj [hostname country (or label "") (or website "")]))
-          (write-csv-file path header (or kept [])))))
-    (let [merged (reduce (fn [m [hostname country :as row]]
-                           (cond-> m
-                             (not (contains? m [hostname country]))
-                             (assoc [hostname country] row)))
-                         existing @moved)]
-      (write-universities! merged
-                           (str "; " (count @moved) " rows migrated out of "
-                                @touched " wikidata source files")))))
 
 ;; ---------------------------------------------------------------------------
 ;; fetch -- SPARQL refresh
@@ -172,14 +134,13 @@
 ;; ---------------------------------------------------------------------------
 
 (def commands
-  {"fetch"   cmd-fetch
-   "migrate" cmd-migrate})
+  {"fetch" cmd-fetch})
 
 (defn usage []
   (println "Usage: bb scripts/detect-universities.clj <command> [args…]")
   (println)
   (println "Commands:")
-  (println "  fetch [C…] | migrate"))
+  (println "  fetch [C…]"))
 
 (let [args *command-line-args*]
   (if (empty? args)

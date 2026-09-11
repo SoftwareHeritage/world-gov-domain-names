@@ -107,7 +107,7 @@ Two more side scripts share the same layout:
   and the =directory= source tag).
   Unlike the two others it serves the core goal; it lives apart only
   to keep =pipeline.clj= lean.
-- =scripts/detect-universities.clj= (=bb universities fetch|migrate=)
+- =scripts/detect-universities.clj= (=bb universities fetch=)
   keeps the strictly public universities as a parked dataset in
   =data/public-universities.csv=, out of the pipeline's scope.
 
