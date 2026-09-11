@@ -472,6 +472,27 @@
                               (seq query-params) (assoc :query-params query-params)))]
          [(:status resp) (:body resp)])))))
 
+(defn curl-download!
+  "Download url into path with the curl binary (-sfL: silent, fail on an
+  HTTP error, follow redirects) and return path, nil on failure. curl
+  rather than the JVM client: the system CA store carries the national
+  CA chains several government hosts sit behind, and a big file goes
+  straight to disk. :timeout in seconds (default 300)."
+  ([url path] (curl-download! url path {}))
+  ([url path {:keys [timeout] :or {timeout 300}}]
+   (let [{:keys [exit]} (try (proc/sh "curl" "-sfL" "--max-time" (str timeout) "-A" ua
+                                      "-o" (str path) url)
+                             (catch Exception _ {:exit 1}))]
+     (when (zero? (or exit 1)) path))))
+
+(defn curl-get-bytes
+  "The bytes of url downloaded with curl-download! (through a temp file),
+  nil on failure: for exports whose encoding the caller must decide."
+  [url]
+  (let [tmp (fs/create-temp-file)]
+    (try (when (curl-download! url tmp) (fs/read-all-bytes tmp))
+         (finally (fs/delete-if-exists tmp)))))
+
 (defn http-get-curl
   "GET via the curl binary (following redirects), for hosts whose WAF
   rejects the JVM HTTP client (publicadministration.un.org answers 400 to

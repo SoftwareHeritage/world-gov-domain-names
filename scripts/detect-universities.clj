@@ -16,8 +16,7 @@
 
 (ns detect-universities
   (:require [common :refer :all]
-            [babashka.http-client :as http]
-            [babashka.fs :as fs]
+            [enrich :as enrich]
             [cheshire.core :as json]
             [clojure.string :as str]))
 
@@ -46,8 +45,6 @@
 ;; fetch -- SPARQL refresh
 ;; ---------------------------------------------------------------------------
 
-(def wikidata-endpoint "https://query.wikidata.org/sparql")
-
 (def public-university-classes
   ["Q875538"    ; public university
    "Q62078547"  ; public research university
@@ -73,21 +70,12 @@
        "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
        "}"))
 
-(defn- run-query [q]
-  (loop [attempt 1]
-    (let [resp (try (http/get wikidata-endpoint
-                              {:headers {"User-Agent" ua
-                                         "Accept" "application/sparql-results+json"}
-                               :query-params {"query" q}
-                               :throw false
-                               :timeout 120000})
-                    (catch Exception _ nil))]
-      (if (and resp (= 200 (:status resp)) (not (str/blank? (:body resp))))
-        (-> (json/parse-string (:body resp) true) :results :bindings)
-        (if (< attempt 3)
-          (do (Thread/sleep (* attempt 5000))
-              (recur (inc attempt)))
-          nil)))))
+(defn- run-query
+  "The bindings of a SPARQL query (enrich/wikidata-run-query: retries
+  included), nil when the endpoint did not answer or sent no JSON."
+  [q]
+  (try (some-> (enrich/wikidata-run-query q) (json/parse-string true) :results :bindings)
+       (catch Exception _ nil)))
 
 (defn cmd-fetch
   "Fetch the strictly public universities of every country (or of the

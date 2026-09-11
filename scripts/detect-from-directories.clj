@@ -22,7 +22,6 @@
 (ns detect-from-directories
   (:require [common :refer :all]
             [babashka.fs :as fs]
-            [babashka.process :as proc]
             [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [clojure.data.xml :as xml]
@@ -166,21 +165,6 @@
     :type-filter #"^(?:Ministerie|Agentschap|Inspectie|Zelfstandig bestuursorgaan|Adviescollege|Rechtspraak|Hoog College van Staat)$"
     :source      "organisaties.overheid.nl"}})
 
-(defn- directory-curl-bytes
-  "Download url with curl and return its bytes, nil on failure. The
-  system CA store (unlike the JVM truststore) carries the national CA
-  chains several government hosts sit behind."
-  [url]
-  (let [tmp (fs/create-temp-file)]
-    (try
-      (let [{:keys [exit]}
-            (try (proc/sh "curl" "-sfL" "--max-time" "300" "-A" ua
-                          "-o" (str tmp) url)
-                 (catch Exception _ {:exit 1}))]
-        (when (zero? (or exit 1))
-          (fs/read-all-bytes tmp)))
-      (finally (fs/delete-if-exists tmp)))))
-
 (defn- directory-fetch-csv
   "[[name website] ...] from a CSV directory export. Fetched as bytes:
   these exports are often latin-1 (or UTF-8 with stray invalid bytes,
@@ -192,7 +176,7 @@
   Downloaded with curl: several government hosts chain through national
   CAs the JVM truststore does not carry (dane.gov.pl)."
   [{:keys [url encoding separator name-col website-col col-filters]}]
-  (let [body (directory-curl-bytes url)]
+  (let [body (curl-get-bytes url)]
     (when body
       (let [rows (csv/read-csv (String. ^bytes body (or encoding "UTF-8"))
                                :separator (or separator \,))
@@ -253,22 +237,18 @@
   [{:keys [url org-tag name-tag type-tag url-tag type-filter]}]
   (let [tmp (fs/create-temp-file)]
     (try
-      (let [{:keys [exit]}
-            (try (proc/sh "curl" "-sfL" "--max-time" "300" "-A" ua
-                          "-o" (str tmp) url)
-                 (catch Exception _ {:exit 1}))]
-        (when (zero? (or exit 1))
-          (with-open [r (io/reader (fs/file tmp))]
-            (doall
-             (for [org (tree-seq :content :content (xml/parse r))
-                   :when (and (map? org) (= org-tag (name (:tag org))))
-                   :let [types (xml-texts org type-tag)]
-                   :when (or (nil? type-filter)
-                             (some #(re-find type-filter %) types))
-                   :let [org-name (first (xml-texts org name-tag))
-                         web (first (xml-texts org url-tag))]
-                   :when (seq (str web))]
-               [(str org-name) web])))))
+      (when (curl-download! url tmp)
+        (with-open [r (io/reader (fs/file tmp))]
+          (doall
+           (for [org (tree-seq :content :content (xml/parse r))
+                 :when (and (map? org) (= org-tag (name (:tag org))))
+                 :let [types (xml-texts org type-tag)]
+                 :when (or (nil? type-filter)
+                           (some #(re-find type-filter %) types))
+                 :let [org-name (first (xml-texts org name-tag))
+                       web (first (xml-texts org url-tag))]
+                 :when (seq (str web))]
+             [(str org-name) web]))))
       (finally (fs/delete-if-exists tmp)))))
 
 (defn- directory-fetch-govuk

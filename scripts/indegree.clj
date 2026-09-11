@@ -6,7 +6,6 @@
   Pure definitions: pipeline.clj dispatches."
   (:require [common :refer :all]
             [babashka.fs :as fs]
-            [babashka.process :as proc]
             [cheshire.core :as json]
             [clojure.java.io :as io]
             [clojure.string :as str]))
@@ -38,16 +37,12 @@
           (println (str "Downloading " file "..."))
           ;; download to a .tmp then rename: an interrupted download must
           ;; not leave a truncated file that the cache would then serve
-          (let [{:keys [exit]}
-                (try (proc/sh "curl" "-sfL" "--max-time" "600" "-A" ua
-                              "-o" tmp (str linkgraph-base-url file))
-                     (catch Exception _ nil))]
-            (if (and exit (zero? exit))
-              (do (fs/move tmp path {:replace-existing true})
-                  path)
-              (do (err "ERR: could not fetch " linkgraph-base-url file)
-                  (when (fs/exists? tmp) (fs/delete tmp))
-                  nil)))))))
+          (if (curl-download! (str linkgraph-base-url file) tmp {:timeout 600})
+            (do (fs/move tmp path {:replace-existing true})
+                path)
+            (do (err "ERR: could not fetch " linkgraph-base-url file)
+                (fs/delete-if-exists tmp)
+                nil))))))
 
 (def linkgraph-country-aliases
   "Crawler country names whose normalize-name does not equal our slug."
