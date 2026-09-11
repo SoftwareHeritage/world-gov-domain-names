@@ -107,22 +107,6 @@ Two more side scripts share the same layout:
   keeps the strictly public universities as a parked dataset in
   =data/public-universities.csv=, out of the pipeline's scope.
 
-Contributors who know a country's administration can review its
-candidates with =scripts/review.clj= (=bb review [COUNTRY]=): it asks
-for a country, shows the hosts of =proposed.csv= one at a time (best
-scores first, with their HTTPS status and MX when probed) and records
-the answer, given by a single key press -- =c= central, =1= central-1,
-=l= local, =?= unknown, =n= to add a note, =o= to open the host in
-the browser through =xdg-open= (or =OPENER=) -- in
-=review-<COUNTRY>.csv= in the current
-directory, after each host, so a session can be stopped and resumed.
-On exit it summarises the answers that differ from the proposed level
-and mails the file to the maintainer through =sendmail= (=--send=
-re-sends an existing file; =NO_MAIL=1= or a missing =sendmail= writes
-a =.eml= to send by hand; =REVIEW_TO= and =REVIEW_FROM= override the
-addresses). Reviews are merged by hand into =validated.csv= (=c= and
-=1= answers) or =excluded.csv= (=l= answers).
-
 Forge and source-code-catalog detection lives in its own script,
 =scripts/detect-forges.clj= (=bb forges <command>=): it shares the
 harvested data of this repository but serves the Software Heritage
