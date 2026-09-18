@@ -131,6 +131,11 @@
     (write-csv-file file harvest-header
                     (for [[h [st mx]] (sort-by first merged)] [h st mx]))))
 
+(defn add-hosts!
+  "Merge new hosts, unprobed, into a harvest file."
+  [file hosts]
+  (write-harvest! file (concat (read-harvest file) (for [h hosts] [h "" ""]))))
+
 (defn read-probe-file
   "{host [http_status mx]} of a probes file (<key>,http_status,mx)."
   [path]
@@ -204,9 +209,8 @@
                                             ; parses top-level arrays lazily, so a
                                             ; truncated crt.sh body would otherwise
                                             ; throw JsonEOFException downstream
-                    (catch Exception _ []))
-            rows (concat (read-harvest file) (for [n names] [n "" ""]))]
-        (write-harvest! file rows)
+                    (catch Exception _ []))]
+        (add-hosts! file names)
         (println (str "OK   " domain " (" (count (read-harvest file)) " lignes)"))
         :ok)
       (do (println (str "FAIL " domain))
@@ -266,19 +270,26 @@
 ;;  collect -- normalize
 ;; ===========================================================================
 
+(defn normalize-host
+  "The host of a harvested name or URL: lowercased, wildcard prefix,
+  scheme, path or query, port and trailing dot stripped; nil when what
+  remains is no valid hostname."
+  [s]
+  (let [h (some-> s str/trim str/lower-case
+                  (str/replace #"^\*\." "")
+                  (str/replace #"^https?://" "")
+                  (str/replace #"[/?#].*$" "")
+                  (str/replace #":\d+$" "")
+                  (str/replace #"\.$" ""))]
+    (when (valid-hostname? h) h)))
+
 (defn normalize-harvest-rows
-  "Clean [host status mx] rows: lowercase the host, strip wildcard
-  prefix, URL scheme, path, port and trailing dot, drop invalid
-  hostnames, single-line the probes."
+  "Clean [host status mx] rows: normalize-host the host, drop the rows
+  it rejects, single-line the probes."
   [rows]
   (for [[dom status mx] rows
-        :let [dom (some-> dom str/trim str/lower-case
-                          (str/replace #"^\*\." "")
-                          (str/replace #"^https?://" "")
-                          (str/replace #"/.*$" "")
-                          (str/replace #":\d+$" "")
-                          (str/replace #"\.$" ""))]
-        :when (valid-hostname? dom)]
+        :let [dom (normalize-host dom)]
+        :when dom]
     [dom (single-line (or status "")) (single-line (or mx ""))]))
 
 (defn cmd-normalize [_]
