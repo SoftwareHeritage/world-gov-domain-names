@@ -44,6 +44,8 @@ confirmed =central= or =central-1= domain (and refuses any other;
 =local= rows are never harvested); a confirmed root without a harvest
 only gets its apex probed, by =probe-roots= into
 =sources/probes/roots.csv=.
+=fetch= counts an empty crt.sh answer as a failure while the harvest
+holds no host yet (crt.sh answers =[]= when it times out).
 
 * Commands
 

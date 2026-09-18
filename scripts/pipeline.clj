@@ -192,28 +192,39 @@
 (defn fetch-one!
   "Fetch the subdomains of a harvest file's root from crt.sh and merge
   them into the file, keeping the probes of known hosts. :ok, or :fail
-  with nothing written."
+  with nothing written -- on an unreadable answer, and on an empty one
+  while the file holds no host yet."
   [file]
   (let [domain (harvest-root file)
         url (str "https://crt.sh/?q=%25." domain "&output=json")
-        body (http-get url {:timeout 120 :retries 1 :accept "application/json"})]
-    (if body
-      (let [names (try
-                    (->> (json/parse-string body true)
-                         (map :name_value)
-                         (mapcat #(str/split-lines (str %)))
-                         (map #(str/replace % #"^\*\." ""))
-                         (filter seq)
-                         distinct
-                         vec)               ; realize inside the try: cheshire
-                                            ; parses top-level arrays lazily, so a
-                                            ; truncated crt.sh body would otherwise
-                                            ; throw JsonEOFException downstream
-                    (catch Exception _ []))]
-        (add-hosts! file names)
-        (println (str "OK   " domain " (" (count (read-harvest file)) " lignes)"))
-        :ok)
-      (do (println (str "FAIL " domain))
+        body (http-get url {:timeout 120 :retries 1 :accept "application/json"})
+        known (read-harvest file)
+        names (when body
+                (try
+                  (->> (json/parse-string body true)
+                       (map :name_value)
+                       (mapcat #(str/split-lines (str %)))
+                       (map #(str/replace % #"^\*\." ""))
+                       (filter seq)
+                       distinct
+                       vec)               ; realize inside the try: cheshire
+                                          ; parses top-level arrays lazily, so a
+                                          ; truncated crt.sh body would otherwise
+                                          ; throw JsonEOFException downstream
+                  (catch Exception _ nil)))]
+    (cond
+      (seq names)
+      (do (add-hosts! file names)
+          (println (str "OK   " domain " (" (count (read-harvest file)) " lignes)"))
+          :ok)
+
+      (and names (next known))              ; `[]` (crt.sh timed out?), hosts known
+      (do (println (str "OK   " domain " (empty answer, " (count known) " lignes kept)"))
+          :ok)
+
+      :else
+      (do (println (str "FAIL " domain (cond (nil? body) "" (nil? names) " (unreadable answer)"
+                                             :else " (empty answer)")))
           :fail))))
 
 (def fetch-fail-log "/tmp/fetch_subdomains.log")
