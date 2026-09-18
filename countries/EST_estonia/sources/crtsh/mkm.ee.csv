@@ -1,2 +1,39 @@
 subdomain,http_status,mx
+adr.mkm.ee,ConnectException > UnresolvedAddressException,none
+arendus.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+autodiscover.kantselei.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+autodiscover.mkm.ee,ConnectException > ClosedChannelException,none
+avalik.mkm.ee,ConnectException > UnresolvedAddressException,none
+dr.mkm.ee,ConnectException > UnresolvedAddressException,none
+git.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+hkm.mkm.ee,ConnectException > UnresolvedAddressException,none
+intra.mkm.ee,ConnectException > UnresolvedAddressException,none
+intranet.mkm.ee,ConnectException > UnresolvedAddressException,none
+jira.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+kasvustrateegia.mkm.ee,ConnectException > UnresolvedAddressException,none
+lyncdiscover.mkm.ee,ConnectException > UnresolvedAddressException,none
+mail.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
 mkm.ee,200,20 mail3.rit.ee.; 10 mail1.rit.ee.
+mtr.mkm.ee,ConnectException > UnresolvedAddressException,none
+mtrarhiiv.mkm.ee,ConnectException > UnresolvedAddressException,none
+muuseum.mkm.ee,ConnectException > UnresolvedAddressException,none
+nimekiri.mkm.ee,ConnectException > UnresolvedAddressException,none
+opendata.mkm.ee,ConnectException > UnresolvedAddressException,none
+pilv.mkm.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching pilv.mkm.ee found.,none
+register.mkm.ee,ConnectException > UnresolvedAddressException,none
+registry.git.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+retrievedfromwww.mkm.ee,ConnectException > UnresolvedAddressException,none
+siimuke.mkm.ee,ConnectException > UnresolvedAddressException,none
+sip.mkm.ee,ConnectException > UnresolvedAddressException,none
+str.mkm.ee,ConnectException > UnresolvedAddressException,none
+striim.mkm.ee,ConnectException > UnresolvedAddressException,none
+sts.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+terminal.mkm.ee,ConnectException > UnresolvedAddressException,none
+terminis.mkm.ee,ConnectException > UnresolvedAddressException,none
+testtooplaan.mkm.ee,ConnectException > UnresolvedAddressException,none
+tooplaan.mkm.ee,302,none
+vana.mkm.ee,ConnectException > UnresolvedAddressException,none
+vvv.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+w3.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+wiki.mkm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.mkm.ee,200,20 mail3.rit.ee.; 10 mail1.rit.ee.

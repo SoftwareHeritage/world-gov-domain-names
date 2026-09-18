@@ -1,2 +1,7 @@
 subdomain,http_status,mx
 lamoncloa.gob.es,302,20 mail01.mpr.es.; 20 mail02.mpr.es.
+smultimedia.lamoncloa.gob.es,404,none
+voz.lamoncloa.gob.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.japon.informacion.lamoncloa.gob.es,ConnectException > UnresolvedAddressException,none
+www.lamoncloa.gob.es,302,none
+www.mexico.informacion.lamoncloa.gob.es,ConnectException > UnresolvedAddressException,none

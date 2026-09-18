@@ -1,2 +1,19 @@
 subdomain,http_status,mx
 gov.kp,HttpConnectTimeoutException: HTTP connect timed out,dig error
+koreanarchitecture.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+kpnic.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+ma.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+mail-kpnic.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,dig error
+mfa.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+moph.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+nta.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,dig error
+tourismdprk.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,dig error
+www.koreanarchitecture.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.kpnic.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,dig error
+www.ma.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.mfa.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.moph.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.nta.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.tourismdprk.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+www.vok.gov.kp,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none

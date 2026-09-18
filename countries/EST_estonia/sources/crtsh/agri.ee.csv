@@ -1,2 +1,85 @@
 subdomain,http_status,mx
+admin.buerokratt.agri.ee,200,none
 agri.ee,200,5 mail1.agri.ee.; 5 mail2.agri.ee.
+ait.agri.ee,401,none
+alkoreg.agri.ee,200,none
+amphora.agri.ee,ConnectException > UnresolvedAddressException,none
+aric.reg.agri.ee,ConnectException > UnresolvedAddressException,none
+athena.agri.ee,404,none
+avaandmed.agri.ee,301,none
+broneerimine.agri.ee,ConnectException > UnresolvedAddressException,none
+buerokratt.agri.ee,200,none
+buerokratt.pta.agri.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+cas.agri.ee,200,none
+cloud.agri.ee,302,none
+confluence.agri.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+dhsavalik.agri.ee,500,none
+dhsavalik2.agri.ee,500,none
+dhsavalikpma.agri.ee,200,none
+eestitoit.agri.ee,ConnectException > UnresolvedAddressException,none
+efabis.vet.agri.ee,ConnectException > UnresolvedAddressException,none
+ers.agri.ee,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail2.agri.ee.; 5 mail1.agri.ee.
+extranet.vet.agri.ee,ConnectException > UnresolvedAddressException,none
+fadn.agri.ee,200,none
+gw.agri.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+intranet.agri.ee,ConnectException > UnresolvedAddressException,none
+jis.agri.ee,ConnectException > UnresolvedAddressException,none
+jvis.agri.ee,302,none
+kir.agri.ee,200,none
+kis.agri.ee,404,none
+labris.agri.ee,200,5 mail2.agri.ee.; 5 mail1.agri.ee.
+laovarud.agri.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+maainfo.agri.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching maainfo.agri.ee found.,none
+mail.agri.ee,302,none
+mater.agri.ee,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+matomo.agri.ee,200,none
+metk.agri.ee,200,5 mail2.agri.ee.; 5 mail1.agri.ee.
+msr.agri.ee,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+mustamae.plant.agri.ee,ConnectException > UnresolvedAddressException,none
+ns.agri.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+onlyoffice.agri.ee,302,none
+paala.vet.agri.ee,ConnectException > UnresolvedAddressException,none
+paste.agri.ee,200,none
+perco.agri.ee,ConnectException > UnresolvedAddressException,none
+perk.agri.ee,200,none
+pma.agri.ee,ConnectException > UnresolvedAddressException,5 mail2.agri.ee.; 5 mail1.agri.ee.
+pmais.agri.ee,302,none
+pmk-old.agri.ee,ConnectException > UnresolvedAddressException,none
+pmk.agri.ee,ConnectException > UnresolvedAddressException,5 mail1.agri.ee.; 5 mail2.agri.ee.
+portaal.agri.ee,301,none
+post.agri.ee,302,none
+pta.agri.ee,200,5 mail1.agri.ee.; 5 mail2.agri.ee.
+rahulolu.agri.ee,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Wed Jul 03 01:59:59 CEST 2024,none
+reg.agri.ee,ConnectException > UnresolvedAddressException,none
+ruuter.buerokratt.pta.agri.ee,ConnectException > UnresolvedAddressException,none
+s1.agri.ee,200,none
+saku.plant.agri.ee,ConnectException > UnresolvedAddressException,none
+saku.pma.agri.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+taimekool.agri.ee,303,none
+tase.agri.ee,ConnectException > ClosedChannelException,none
+taudikaart.agri.ee,303,none
+tim.buerokratt.pta.agri.ee,ConnectException > UnresolvedAddressException,none
+tkis.vet.agri.ee,ConnectException > UnresolvedAddressException,none
+uuringud.agri.ee,200,none
+uus-perk-test.agri.ee,404,none
+varud.agri.ee,ConnectException > UnresolvedAddressException,none
+vet-old.agri.ee,ConnectException > UnresolvedAddressException,none
+vet.agri.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,5 mail2.agri.ee.; 5 mail1.agri.ee.
+vetlab.agri.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
+web.agri.ee,ConnectException > UnresolvedAddressException,none
+webdk.agri.ee,200,none
+webdk.plant.agri.ee,ConnectException > UnresolvedAddressException,none
+webdk.pma.agri.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching webdk.pma.agri.ee found.,none
+webdk2.agri.ee,200,none
+webdkpma.agri.ee,200,none
+webdkpta.agri.ee,200,none
+ww.plant.agri.ee,ConnectException > UnresolvedAddressException,none
+www.agri.ee,200,5 mail1.agri.ee.; 5 mail2.agri.ee.
+www.leader.agri.ee,ConnectException > UnresolvedAddressException,none
+www.plant.agri.ee,ConnectException > UnresolvedAddressException,none
+www.pma.agri.ee,ConnectException > UnresolvedAddressException,none
+www.pmk.agri.ee,ConnectException > UnresolvedAddressException,none
+www.pta.agri.ee,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,5 mail1.agri.ee.; 5 mail2.agri.ee.
+www.reg.agri.ee,ConnectException > UnresolvedAddressException,none
+www.vet.agri.ee,ConnectException > UnresolvedAddressException,none
+x.agri.ee,ConnectException > UnresolvedAddressException,none
