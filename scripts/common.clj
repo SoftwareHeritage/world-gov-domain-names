@@ -43,11 +43,16 @@
     (with-open [r (io/reader (str path))]
       (doall (csv/read-csv r)))))
 
-(defn write-csv-file [path header rows]
+(defn write-csv-file
+  "Write header and rows to path, through a sibling temp file moved into
+  place: an interrupted write leaves the previous file intact."
+  [path header rows]
   (when-let [parent (fs/parent path)]
     (fs/create-dirs parent))
-  (with-open [w (io/writer (str path))]
-    (csv/write-csv w (cons header rows))))
+  (let [tmp (str path ".tmp")]
+    (with-open [w (io/writer tmp)]
+      (csv/write-csv w (cons header rows)))
+    (fs/move tmp (str path) {:replace-existing true :atomic-move true})))
 
 (defn ensure-dir [path] (fs/create-dirs path) path)
 
