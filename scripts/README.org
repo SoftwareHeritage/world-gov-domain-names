@@ -44,8 +44,13 @@ confirmed =central= or =central-1= domain (and refuses any other;
 =local= rows are never harvested); a confirmed root without a harvest
 only gets its apex probed, by =probe-roots= into
 =sources/probes/roots.csv=.
+
 =fetch= counts an empty crt.sh answer as a failure while the harvest
 holds no host yet (crt.sh answers =[]= when it times out).
+=wayback <root>…= is a second harvester, on demand: every host the
+Wayback Machine ever captured under the root, from its CDX index,
+merged into the same harvest file. Slow (~30 s a page: one page for
+=gov.ke=, 3000 for =gov.uk=), hence the mandatory roots.
 
 * Commands
 
@@ -105,6 +110,7 @@ files.
 
   # other
   bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts -> sources/probes/proposed.csv
+  bb scripts/pipeline.clj wayback gov.ke gov.lv # Wayback Machine CDX harvest of these roots -> sources/crtsh/<root>.csv
   bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction)
   bb scripts/pipeline.clj cisa                  # CISA federal .gov list -> sources/cisa/registered.csv
   bb scripts/pipeline.clj lannuaire             # FR service-public directory -> sources/lannuaire/registered.csv

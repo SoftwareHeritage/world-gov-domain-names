@@ -90,9 +90,10 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   =central-1= or blank), HTTPS status and MX. Generated.
 - =summary.md= -- a human-readable cross-check report. Generated.
 - =sources/= -- the raw data behind the above, one folder per source,
-  never edited by hand: =crtsh/<root>.csv= (the crt.sh harvest of a
-  root, with probes), =probes/= (HTTPS and MX of the confirmed roots
-  that have no harvest, and of the proposed hosts), the official
+  never edited by hand: =crtsh/<root>.csv= (the harvest of a root,
+  with probes: crt.sh, plus the Wayback Machine on demand), =probes/=
+  (HTTPS and MX of the confirmed roots that have no harvest, and of
+  the proposed hosts), the official
   registries (=cisa/=, =lannuaire/=,
   =brreg/=, =govuk/=, each a =registered.csv= of =domain,level=),
   =wikidata/=, =directory/= and =linkgraph/=.
@@ -147,6 +148,8 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 * Where the data comes from
 
 - *crt.sh* -- subdomains seen in public TLS certificates (main harvest).
+- *Wayback Machine* -- hosts captured by the Internet Archive (its CDX
+  index), on demand for the roots crt.sh leaves empty.
 - *HTTPS probes* -- check that a host actually serves content.
 - *Wikidata* -- ministries, parliaments, central banks, courts and their
   official websites.

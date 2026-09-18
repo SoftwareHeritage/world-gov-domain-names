@@ -52,6 +52,9 @@
 ;; Other commands:
 ;;   probe-proposed [C…] HTTPS HEAD + MX of the proposed hosts
 ;;                      -> sources/probes/proposed.csv (propose joins them)
+;;   wayback DOM…       Wayback Machine CDX harvest of the given roots, merged
+;;                      into sources/crtsh/<root>.csv (slow: on demand, for the
+;;                      roots crt.sh leaves empty)
 ;;   check [C…]         compile the decision files: exit 1 on a contradiction,
 ;;                      WARN on a curated row a registry already lists
 ;;   cisa               fetch CISA federal .gov registry -> sources/cisa/registered.csv
@@ -310,6 +313,86 @@
       (write-harvest! file (normalize-harvest-rows rows))
       (println (str "[" (harvest-root file) "] " before " -> "
                     (count (read-harvest file)))))))
+
+;; ===========================================================================
+;;  wayback -- the Wayback Machine's CDX index, on demand
+;; ===========================================================================
+;;
+;; A second harvester for the roots crt.sh leaves empty: every host the
+;; Wayback Machine ever captured under the root, merged into the same
+;; harvest file. Never part of `collect`: a CDX page takes ~30 s, and
+;; gov.uk has 3000 of them. Paged like JustAnotherArchivist's
+;; ia-cdx-search: showNumPages, then page=0..N-1 one request at a time,
+;; a flat 30 s pause on any failure (the rate limit is a 302 to
+;; /429.html, which http-get gives up on like any other failure).
+
+(def wayback-cdx "https://web.archive.org/cdx/search/cdx")
+
+(defn wayback-get
+  "GET the CDX index with params: the body, or nil after five attempts
+  30 s apart."
+  [params]
+  (loop [attempt 1]
+    (or (http-get wayback-cdx {:timeout 300 :retries 1 :query-params params})
+        (when (< attempt 5)
+          (Thread/sleep 30000)
+          (recur (inc attempt))))))
+
+(defn wayback-hosts
+  "The hosts under root of one CDX page (a JSON array of [original-url]
+  rows, headed by [\"original\"]), apex included; nil when the page is
+  no such array."
+  [root page]
+  (try
+    (->> (rest (json/parse-string page))
+         (keep (fn [[url]] (normalize-host url)))
+         (filter #(or (= % root) (str/ends-with? % (str "." root))))
+         vec)                               ; realize inside the try
+    (catch Exception _ nil)))
+
+(defn wayback-one!
+  "Harvest a harvest file's root from the CDX index and merge the hosts
+  into the file, every ten pages and at the end. :ok, or :fail on the
+  first page five attempts could not fetch, or that is no JSON array."
+  [file]
+  (let [root   (harvest-root file)
+        params {"url" root "matchType" "domain" "collapse" "urlkey" "pageSize" "100"}
+        pages  (some-> (wayback-get (assoc params "showNumPages" "true")) str/trim parse-long)]
+    (if-not pages
+      (do (println (str "FAIL " root " (page count)")) :fail)
+      (loop [page 0 hosts #{}]
+        (let [body       (when (< page pages)
+                           (wayback-get (assoc params "output" "json" "fl" "original" "page" (str page))))
+              page-hosts (when body (wayback-hosts root body))]
+          (if page-hosts
+            (let [hosts (into hosts page-hosts)]
+              (println (str "[" root "] page " (inc page) "/" pages " (" (count hosts) " hosts)"))
+              (when (zero? (mod (inc page) 10)) (add-hosts! file hosts))
+              (recur (inc page) hosts))
+            (do (add-hosts! file hosts)
+                (cond
+                  (= page pages)
+                  (do (println (str "OK   " root " (" pages " pages, " (count (read-harvest file)) " lignes)"))
+                      :ok)
+
+                  body
+                  (do (println (str "FAIL " root " (page " (inc page) "/" pages " unreadable)")) :fail)
+
+                  :else
+                  (do (println (str "FAIL " root " (page " (inc page) "/" pages ")")) :fail)))))))))
+
+(defn cmd-wayback
+  "wayback-one! over the given roots, one after the other (the CDX
+  server rate-limits). Roots are required: the index is far too slow to
+  sweep every harvest file."
+  [args]
+  (if (empty? args)
+    (do (err "wayback needs one or more harvest roots (a full sweep would take days)") 1)
+    (let [files (resolve-harvest-files args)]
+      (cond
+        (empty? files)                            1
+        (some #{:fail} (mapv wayback-one! files)) 1
+        :else                                     0))))
 
 ;; ===========================================================================
 ;;  collect -- probe
@@ -1192,6 +1275,7 @@
    "cross-check" run-report
    ;; other
    "probe-proposed" cmd-probe-proposed
+   "wayback"     cmd-wayback
    "check"       cmd-check
    "cisa"        registries/cmd-cisa
    "lannuaire"   registries/cmd-lannuaire
@@ -1211,7 +1295,7 @@
   (println "           wikidata | iana | cia | un-desa | oecd | meta")
   (println "  build:   aggregate | domains")
   (println "  report:  propose | summary (cross-check = report)")
-  (println "  other:   probe-proposed | check | cisa | lannuaire | govuk | validate-un | indegree")
+  (println "  other:   probe-proposed | wayback | check | cisa | lannuaire | govuk | validate-un | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)
