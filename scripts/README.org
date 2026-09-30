@@ -148,11 +148,8 @@ Two more side scripts share the same layout:
   (Norway's =brreg=), =candidates [C…]= writes the hosts of the mixed
   ones to =sources/directory/orgs.csv= (feeding =proposed.csv= with a
   +4 bonus and the =directory= source tag); =harvest= runs both over
-  every spec. Unlike the two others it serves the core goal; it lives
-  apart only to keep =pipeline.clj= lean.
-- =scripts/detect-universities.clj= (=bb universities fetch=)
-  keeps the strictly public universities as a parked dataset in
-  =data/public-universities.csv=, out of the pipeline's scope.
+  every spec. Unlike =detect-forges.clj= it serves the core goal; it
+  lives apart only to keep =pipeline.clj= lean.
 
 Forge and source-code-catalog detection lives in its own script,
 =scripts/detect-forges.clj= (=bb forges <command>=): it shares the

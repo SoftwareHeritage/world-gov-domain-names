@@ -8,8 +8,8 @@
 ;;                      probe, mx, probe-roots -> sources/harvest/,
 ;;                      sources/probes/roots.csv
 ;;   enrich             the per-country sources: build-qid, build-gec,
-;;                      build-un-ids, subdivisions, then wikidata +
-;;                      iana/cia/un-desa/oecd/meta in parallel
+;;                      build-un-ids, subdivisions, then wikidata (+ academia)
+;;                      + iana/cia/un-desa/oecd/meta in parallel
 ;;                      -> sources/wikidata/, data/sources/
 ;;   build              the consolidated files: aggregate, domains -> data/
 ;;   report             the curation files: propose, summary -> proposed.csv,
@@ -33,6 +33,9 @@
 ;;                      -> sources/wikidata/subdivisions_level1.csv
 ;;   wikidata [Q:C…]    Wikidata central administration
 ;;                      -> sources/wikidata/central_admin.csv (needs subdivisions)
+;;   academia [Q:C…]    Wikidata central and central-1 universities and research
+;;                      institutes -> sources/wikidata/academia.csv (needs
+;;                      subdivisions; enrich runs it after wikidata)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
 ;;   un-desa [C…]       UN/DESA national portal + EGDI
@@ -759,11 +762,12 @@
 (defn- candidate-row
   "One [hostname score sources label level] row of host from a
   load-candidate-ctx context. Pure."
-  [{:keys [wd-by-host lg-by-host dir-by-host un-portal-host
+  [{:keys [wd-by-host ac-by-host lg-by-host dir-by-host un-portal-host
            fb-phrases cctld-primary]
     :as ctx}
    h]
   (let [{:keys [cnt labels] :or {cnt 0 labels []}} (get wd-by-host h)
+        ac-cnt (get-in ac-by-host [h :cnt] 0)
         un? (= h un-portal-host)
         linked-n (get lg-by-host h)
         dir-info (get dir-by-host h)
@@ -780,7 +784,8 @@
                 :else label)
         sources (cond-> []
                   un? (conj "un_desa"))
-        sources (into sources (repeat cnt "wikidata"))
+        sources (into sources (concat (repeat (- cnt ac-cnt) "wikidata")
+                                      (repeat ac-cnt "academia")))
         sources (cond-> sources
                   linked-n (conj "linkgraph")
                   dir-info (conj "directory"))
@@ -819,15 +824,18 @@
 
 (defn load-candidate-ctx
   "Read what propose-candidates needs for a country: the Wikidata
-  mentions and levels, the UN/DESA portal, the ccTLD, the Factbook
+  mentions and levels (central administration and academia, the
+  latter also apart to tag its sources), the UN/DESA portal, the ccTLD, the Factbook
   courts, the link-graph in-degrees, the directory listing, the
   first-level subdivision labels, the confirmed domains of every
   country and the excluded ones of this country."
   [country-dir]
   (let [src #(country-src country-dir %1 %2)
-        wd-path   (src "wikidata" "central_admin.csv")
+        rows-of   #(rest (read-csv-raw (src "wikidata" %)))
+        ac-rows   (rows-of "academia.csv")
         sub-path  (src "wikidata" "subdivisions_level1.csv")]
-    {:wd-by-host     (wikidata-by-host (when (fs/exists? wd-path) (rest (read-csv-raw wd-path))))
+    {:wd-by-host     (wikidata-by-host (concat (rows-of "central_admin.csv") ac-rows))
+     :ac-by-host     (wikidata-by-host ac-rows)
      :lg-by-host     (into {} (for [{:strs [hostname indegree]} (read-csv-file (src "linkgraph" "indegree.csv"))
                                     :let [n (parse-long (or indegree ""))]
                                     :when (and n (>= n indegree/linkgraph-min-indegree))]
@@ -1250,6 +1258,7 @@
    "build-un-ids" enrich/cmd-build-un-ids
    "subdivisions" enrich/cmd-subdivisions
    "wikidata"    enrich/cmd-wikidata
+   "academia"    enrich/cmd-academia
    "iana"        enrich/cmd-iana
    "cia"         enrich/cmd-cia
    "un-desa"     enrich/cmd-un-desa
@@ -1281,7 +1290,7 @@
   (println "Targeted commands:")
   (println "  collect: fetch | retry | normalize | probe | mx | probe-roots")
   (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
-  (println "           wikidata | iana | cia | un-desa | oecd | meta")
+  (println "           wikidata | academia | iana | cia | un-desa | oecd | meta")
   (println "  build:   aggregate | domains")
   (println "  report:  propose | summary (cross-check = report)")
   (println "  other:   probe-proposed | wayback | check | cisa | lannuaire | govuk | validate-un | indegree")

@@ -1,6 +1,6 @@
 (ns enrich
-  "Enrichment sources: Wikidata (subdivisions, central administration)
-  under countries/<c>/sources/wikidata/, and IANA, CIA Factbook, UN/DESA,
+  "Enrichment sources: Wikidata (subdivisions, central administration,
+  academia) under countries/<c>/sources/wikidata/, and IANA, CIA Factbook, UN/DESA,
   OECD and country metadata as one row per country in
   data/sources/<source>.csv. build-qid, build-gec and build-un-ids
   write the country_dir -> source id files three sources read.
@@ -96,9 +96,7 @@
    ;; P1001-derived level sorts them out. :light -- the strict class
    ;; exclusions time out on a class this large.
    ["Q327333" "government_agency"    :light]])
-   ;; Universities are out of scope (see scripts/detect-universities.clj):
-   ;; the central+ scope covers central government, national research
-   ;; bodies and the first tier below -- not academia.
+   ;; Universities and research institutes: academia-classes below.
 
 (defn wikidata-query [class-qid country-qid strictness]
   (let [strict-filters
@@ -282,6 +280,199 @@
   "wikidata-process! over the countries of args (qid-pairs)."
   [args]
   (run-per-qid args wikidata-process!))
+
+;; ===========================================================================
+;;  academia -- public universities and research institutes
+;; ===========================================================================
+;; The universities and research institutes of the central government
+;; or of the first tier below it. Wikidata seldom says who runs them
+;; (P137 operator, P749 parent, P127 owner, P1001 jurisdiction: 9 of the
+;; 264 public universities of Germany, none in France), so academia-level
+;; falls back on the class, the label and how the country organises its
+;; universities (academia-tiers). An org it places at no level is left
+;; out: the file only holds central and central-1 rows.
+
+(def academia-classes
+  [["Q875538"   "public_university"   :university]
+   ["Q62078547" "public_university"   :university]
+   ["Q1145118"  "national_university" :university]
+   ["Q31855"    "research_institute"  :research]])
+
+(def academia-excluded-classes
+  ;; private and religious typings under the public subtrees
+  ["Q902104"    ; private university
+   "Q557206"    ; Catholic university
+   "Q2120466"   ; pontifical university
+   "Q14911880"  ; seminary
+   "Q1322589"]) ; Roman College
+
+(def academia-excluded-types
+  ;; direct P31 only: the subclass closure of these times out
+  ["Q4830453"   ; business
+   "Q783794"    ; company
+   "Q2467461"]) ; academic department (a research institute subclass)
+
+(defn academia-query [class-qid country-qid]
+  (str "SELECT DISTINCT ?org ?orgLabel ?website ?auth ?authJuris WHERE {\n"
+       "  ?org wdt:P31/wdt:P279* wd:" class-qid " ;\n"
+       "       wdt:P17 wd:" country-qid " ;\n"
+       "       wdt:P856 ?website .\n"
+       "  FILTER NOT EXISTS { ?org wdt:P576 ?d }\n"
+       (apply str
+              (for [q academia-excluded-classes]
+                (str "  FILTER NOT EXISTS { ?org wdt:P31/wdt:P279* wd:" q " }\n")))
+       (apply str
+              (for [q academia-excluded-types]
+                (str "  FILTER NOT EXISTS { ?org wdt:P31 wd:" q " }\n")))
+       "  OPTIONAL { ?org wdt:P137|wdt:P749|wdt:P127|wdt:P1001 ?auth .\n"
+       "             OPTIONAL { ?auth wdt:P1001 ?authJuris . } }\n"
+       "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
+       "}"))
+
+(def academia-tiers
+  "How a country runs its public universities, by ISO3, when it departs
+  from the unitary default {:default \"central\"}. :default is the level
+  of a university no other signal places (nil: left out), :subdiv? means
+  a label naming a first-level subdivision places it at central-1, :state?
+  the same for the word state."
+  {"USA" {:default "central-1" :subdiv? true :state? true}
+   "DEU" {:default "central-1" :subdiv? true}
+   "CAN" {:default "central-1" :subdiv? true}
+   "BEL" {:default "central-1" :subdiv? true}
+   "ESP" {:default "central-1" :subdiv? true}
+   "CHE" {:default "central-1" :subdiv? true}
+   "BIH" {:default "central-1" :subdiv? true}
+   "GBR" {:default "central"   :subdiv? true}
+   "AUS" {:default nil :subdiv? true :state? true}
+   "IND" {:default nil :subdiv? true :state? true}
+   "BRA" {:default nil :subdiv? true :state? true}
+   "MEX" {:default nil :subdiv? true :state? true}
+   "NGA" {:default nil :subdiv? true :state? true}
+   "PAK" {:default nil :subdiv? true}
+   "ARE" {:default nil :subdiv? true}})
+
+(def central-label-pattern
+  #"(?iu)\b(?:federal|nationale?|nacional|nazionale|fédérale?|bundes\p{L}*|central university)\b")
+
+(def subnational-label-pattern
+  #"(?iu)\b(?:estadual|estatal|provincial|provinciale|regional|régionale?|cantonal|kantonale?|landes\p{L}*)\b")
+
+(def federal-district-pattern
+  ;; a federal district is a first-level subdivision, not the federation
+  #"(?iu)\b(?:distrito federal|federal district|district fédéral)\b")
+
+(defn academia-level
+  "Level of a university or research institute, nil when no signal places
+  it: its authorities (operator, parent, owner, jurisdiction and theirs,
+  through juris-level), the national university class, a central
+  label, then for a university only the subnational labels (a federal
+  district is a first-level subdivision) and the country's default
+  (academia-tiers). Pure."
+  [{:keys [kind type label auths country-qid level1 level1-pattern tiers]}]
+  (let [auth-level (juris-level auths country-qid level1)
+        raw        (or label "")
+        label      (str/replace raw federal-district-pattern "")
+        university? (= kind :university)
+        {:keys [default subdiv? state?]} tiers]
+    (cond
+      (#{"central" "central-1"} auth-level)         auth-level
+      (= type "national_university")                "central"
+      (re-find central-label-pattern label)         "central"
+      ;; the place a research institute's label names is where it
+      ;; stands, not who runs it: the subnational signals below only
+      ;; place universities
+      (not university?)                             nil
+      (not= raw label)                              "central-1"
+      (re-find subnational-label-pattern label)     "central-1"
+      (and state? (re-find #"(?iu)\bstate\b" label)) "central-1"
+      (and subdiv? level1-pattern
+           (re-find level1-pattern label))          "central-1"
+      :else                                         default)))
+
+(defn- qid-of [v] (some-> v (str/replace #"^.*/" "")))
+
+(defn academia-bindings->rows
+  "[type label website hostname level] rows of the bindings of one
+  academia class query, one per distinct host, the orgs academia-level
+  places at no level dropped. ctx: :country-qid :level1 :level1-pattern
+  :tiers. Pure."
+  [[_ type kind] bindings ctx]
+  (->> (group-by #(get-in % [:org :value]) bindings)
+       (mapcat
+         (fn [[_ bs]]
+           (let [auths (into #{} (keep qid-of)
+                             (mapcat #(vector (get-in % [:auth :value])
+                                              (get-in % [:authJuris :value]))
+                                     bs))
+                 label (get-in (first bs) [:orgLabel :value] "")
+                 level (academia-level (assoc ctx :kind kind :type type
+                                              :label label :auths auths))]
+             (when level
+               (for [b bs
+                     :let [url  (get-in b [:website :value])
+                           host (extract-host url)]
+                     :when host]
+                 [type label url host level])))))
+       distinct))
+
+(defn academia-process!
+  "Write sources/wikidata/academia.csv (type,label,website,hostname,level):
+  the central and central-1 universities and research institutes, one
+  query per class of academia-classes. Leave the file untouched when a
+  class query fails. Skip an existing file unless FORCE=1; need the
+  subdivisions file. :ok, :skip or :fail."
+  [country-qid country-dir]
+  (let [out (country-src country-dir "wikidata" "academia.csv")
+        sub (subdivisions-file country-dir)]
+    (cond
+      (skip? out)
+      (do (println (str "=== " country-dir " (" country-qid ") academia : SKIP (use FORCE=1 to refetch)"))
+          :skip)
+
+      (not (fs/exists? sub))
+      (do (err "ERR: " country-dir ": " sub " missing. Run 'bb pipeline subdivisions' first")
+          :fail)
+
+      :else
+      (let [_    (println (str "=== " country-dir " (" country-qid ") academia ==="))
+            subs (rest (read-csv-raw sub))
+            ctx  {:country-qid    country-qid
+                  :level1         (into #{} (map first subs))
+                  :level1-pattern (level1-pattern (map second subs))
+                  :tiers          (get academia-tiers (first (str/split country-dir #"_"))
+                                       {:default "central"})}
+            per-class
+            (mapv (fn [[qid type :as cls]]
+                    (if-let [bindings (wikidata-bindings
+                                        (wikidata-run-query (academia-query qid country-qid)))]
+                      (do (err (str "  [" type " " qid "] " (count bindings) " results"))
+                          (Thread/sleep 1000)
+                          (academia-bindings->rows cls bindings ctx))
+                      (do (err (str "  [" type " " qid "] failed or truncated"))
+                          nil)))
+                  academia-classes)]
+        (if (some nil? per-class)
+          (do (err "ERR: " country-dir ": an academia query failed; " out " left untouched")
+              :fail)
+          ;; one row per org and host: an org typed under two classes or
+          ;; with two websites on one host would count twice in propose;
+          ;; central sorts before central-1 and wins
+          (let [rows (->> (apply concat per-class)
+                          (sort-by (juxt #(nth % 3) #(nth % 1) #(nth % 4)))
+                          (reduce (fn [[seen acc] [_ label _ host :as row]]
+                                    (if (seen [host label])
+                                      [seen acc]
+                                      [(conj seen [host label]) (conj acc row)]))
+                                  [#{} []])
+                          second)]
+            (write-csv-file out ["type" "label" "website" "hostname" "level"] rows)
+            (println (str "  -> " out " (" (count rows) " entries)"))
+            :ok))))))
+
+(defn cmd-academia
+  "academia-process! over the countries of args (qid-pairs)."
+  [args]
+  (run-per-qid args academia-process!))
 
 ;; ===========================================================================
 ;;  iana -- ccTLD and its manager
@@ -630,7 +821,9 @@
                     (catch Exception e
                       [name :fail (str (.getMessage e)
                                        " (" (.getName (class e)) ")")]))))
-        sources [["wikidata" cmd-wikidata]
+        ;; academia after wikidata, not beside it: both query the same
+        ;; SPARQL endpoint, conc-wikidata at a time
+        sources [["wikidata" #(max (cmd-wikidata %) (cmd-academia %))]
                  ["iana"     cmd-iana]
                  ["cia"      cmd-cia]
                  ["un_desa"  cmd-un-desa]

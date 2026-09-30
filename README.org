@@ -25,11 +25,16 @@ We sort government domains into levels:
 - the rest -- everything lower (municipalities, counties, parishes…),
   kept *out* of the lists.
 
-Universities are out of scope: the strictly public ones (Wikidata
-public / public-research / national university classes) are kept as a
-parked dataset in =data/public-universities.csv=, refreshed by
-=scripts/detect-universities.clj= (=bb universities=), for a possible
-later re-exploration. Nothing in the pipeline reads that file.
+Public universities and research institutes are in scope when they
+belong to the =central= or =central-1= level. =bb pipeline academia=
+(part of =enrich=) harvests them from Wikidata into
+=sources/wikidata/academia.csv= and =propose= lists them with the
+source =academia=. As Wikidata seldom says who runs a university, the
+level comes from its operator, parent or jurisdiction when known, else
+from its label (/federal/, /national/, /estadual/, /provincial/, the
+name of a first-level subdivision…), else from how the country runs
+its universities (=academia-tiers= in =scripts/enrich.clj=: national
+by default, the states or Länder in Germany, the United States…).
 
 * Method
 

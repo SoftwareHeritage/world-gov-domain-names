@@ -13,7 +13,7 @@
 ;;               or types: the hosts feed proposed.csv with a strong
 ;;               score bonus and the 'directory' source tag; curation
 ;;               decides
-;; Unlike detect-forges and detect-universities this script SERVES the
+;; Unlike detect-forges this script SERVES the
 ;; repository's core goal -- it lives apart only to keep pipeline.clj
 ;; lean while the spec table grows; pipeline.clj consumes its outputs.
 ;;
@@ -75,7 +75,8 @@
     :name-field    :navn
     :website-field :hjemmeside
     :host-filter   #"\.no$"
-    ;; academia is out of scope (see detect-universities.clj); the \b
+    ;; academia is left to 'bb pipeline academia', whose rows go
+    ;; through proposed.csv, not to this registry, which confirms; the \b
     ;; keeps university hospitals (UNIVERSITETSSYKEHUS) in -- Norwegian
     ;; hospitals are central-state bodies.
     ;; (?iu): plain (?i) does not case-fold Ø/ø

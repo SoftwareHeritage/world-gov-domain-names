@@ -5,7 +5,7 @@
               :task (apply shell "bb scripts/pipeline.clj" *command-line-args*)}
   collect    {:doc  "the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots -> sources/harvest/, sources/probes/roots.csv"
               :task (apply shell "bb scripts/pipeline.clj collect" *command-line-args*)}
-  enrich     {:doc  "build-qid + build-gec + build-un-ids + subdivisions, then wikidata + iana/cia/un-desa/oecd/meta (parallel)"
+  enrich     {:doc  "build-qid + build-gec + build-un-ids + subdivisions, then wikidata (+ academia) + iana/cia/un-desa/oecd/meta (parallel)"
               :task (apply shell "bb scripts/pipeline.clj enrich" *command-line-args*)}
   build      {:doc  "the consolidated files: aggregate + domains -> data/ (after enrich)"
               :task (apply shell "bb scripts/pipeline.clj build" *command-line-args*)}
@@ -15,8 +15,6 @@
               :task (apply shell "bb scripts/pipeline.clj indegree" *command-line-args*)}
   forges     {:doc  "forge/catalog detection for swh-sopc-data-sources -- run 'bb forges help'"
               :task (apply shell "bb scripts/detect-forges.clj" *command-line-args*)}
-  universities {:doc  "public-universities harvest (parked dataset) -- run 'bb universities help'"
-                :task (apply shell "bb scripts/detect-universities.clj" *command-line-args*)}
   directories {:doc  "official directories of public bodies: 'registry' -> sources/<registry>/registered.csv, 'candidates' -> sources/directory/orgs.csv -- run 'bb directories help'"
                :task (apply shell "bb scripts/detect-from-directories.clj" *command-line-args*)}
   all        {:doc  "collect + enrich + build + report"
