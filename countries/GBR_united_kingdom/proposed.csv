@@ -81,7 +81,6 @@ birmingham.ac.uk,7,wikidata;academia,NIHR Birmingham Liver Biomedical Research U
 btp.police.uk,7,wikidata;wikidata,British Transport Police,central-1,302,0 btp-police-uk.mail.protection.outlook.com.
 canalrivertrust.org.uk,7,wikidata;wikidata,Canal & River Trust,,200,10 mxb-007a4601.gslb.pphosted.com.; 10 mxa-007a4601.gslb.pphosted.com.
 canterbury.ac.uk,7,academia;academia,Canterbury Christ Church University | Canterbury Christ Church University National Institute for Christian Education Research,central,,
-cardiff.ac.uk,7,academia;academia,Cardiff University | Wales Governance Centre,central,,
 cheshireandmerseyside.nhs.uk,7,linkgraph,Linked from 25 public-sector domains,,200,0 cheshireandmerseyside-nhs-uk.mail.protection.outlook.com.
 civicaepay.co.uk,7,linkgraph,Linked from 24 public-sector domains,,ConnectException,10 mail.civicahosting.co.uk.
 derbyshire.police.uk,7,wikidata;linkgraph,Derbyshire Constabulary,,ConnectException,0 derbyshire-police-uk.mail.protection.outlook.com.
@@ -94,6 +93,7 @@ foodstandards.gov.scot,7,wikidata;wikidata,Food Standards Scotland,central-1,301
 forestryandland.gov.scot,7,wikidata;academia,Forestry and Land Scotland | Kilmun Arboretum,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 frankltd.co.uk,7,linkgraph,Linked from 72 public-sector domains,,200,0 ded1922.frank-hosting.co.uk.
 frontlinedata.co.uk,7,linkgraph,Linked from 21 public-sector domains,,200,0 frontlinedata-co-uk.mail.eo.outlook.com.
+gla.ac.uk,7,wikidata;academia,MRC-University of Glasgow Centre For Virus Research | University of Glasgow,central,301,5 jones.cent.gla.ac.uk.; 5 cleese.cent.gla.ac.uk.; 5 palin.cent.gla.ac.uk.; 10 idle.cent.gla.ac.uk.
 google.co.uk,7,linkgraph,Linked from 72 public-sector domains,,301,0 smtp.google.com.
 gov.bm,7,wikidata;wikidata,Bermuda Archives | Bermuda Department of Public Transportation,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gov.bm found.,5 gov-bm.mail.protection.outlook.com.
 gp-patient.co.uk,7,linkgraph,Linked from 27 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mxa-00322403.gslb.pphosted.com.; 10 mxb-00322403.gslb.pphosted.com.
@@ -107,7 +107,6 @@ investni.com,7,wikidata;directory,Invest Northern Ireland,,301,5 eu-smtp-inbound
 jobs.nhs.uk,7,linkgraph,Linked from 23 public-sector domains,,ConnectException,none
 lincs.police.uk,7,wikidata;linkgraph,Lincolnshire Police,,302,0 lincs-police-uk.mail.protection.outlook.com.
 lmcni.com,7,wikidata;directory,Livestock & Meat Commission,,301,0 lmcni-com.mail.protection.outlook.com.
-lsbu.ac.uk,7,academia;academia,London South Bank University | London South Bank University National Bakery School,central,,
 mod.uk,7,wikidata;linkgraph,Defence Business Services,,ConnectException,0 mod-uk.mail.protection.outlook.com.
 moderngov.co.uk,7,linkgraph,Linked from 39 public-sector domains,,ConnectException,0 moderngov-co-uk.mail.protection.outlook.com.
 mysurgerywebsite.co.uk,7,linkgraph,Linked from 193 public-sector domains,,302,10 stericycle-com.mail.protection.outlook.com.
@@ -130,19 +129,16 @@ seafish.org,7,wikidata;directory,Seafish,,301,none
 service.nhs.uk,7,linkgraph,Linked from 119 public-sector domains,,ConnectException,none
 sla-online.co.uk,7,linkgraph,Linked from 22 public-sector domains,,200,0 slaonline-co-uk0i.mail.protection.outlook.com.
 smartsurvey.co.uk,7,linkgraph,Linked from 21 public-sector domains,,301,0 smartsurvey-co-uk.mail.protection.outlook.com.
-southwales.ac.uk,7,academia;academia;academia;academia,University of South Wales Business School | University of South Wales Department of English and Creative Writing | University of South Wales Department of History | University of South Wales School of Education,central-1,,
 sportni.net,7,wikidata;directory,Sport Northern Ireland,,ConnectException,10 mx-01-eu-west-1.prod.hydra.sophos.com.; 20 mx-02-eu-west-1.prod.hydra.sophos.com.
 surgeryweb.org.uk,7,linkgraph,Linked from 75 public-sector domains,,200,0 surgeryweb-org-uk.mail.protection.outlook.com.
 sussex.police.uk,7,wikidata;linkgraph,Sussex Police,,302,none
 thamesvalley.police.uk,7,wikidata;linkgraph,Thames Valley Police,,HttpConnectTimeoutException: HTTP connect timed out,none
 thirdparty.nhs.uk,7,linkgraph,Linked from 22 public-sector domains,,ConnectException,none
 treeviewdesigns.co.uk,7,linkgraph,Linked from 101 public-sector domains,,200,none
-uwe.ac.uk,7,academia;academia,University of the West of England | University of the West of England History,central-1,,
 visitbritain.org,7,wikidata;directory,VisitBritain,,301,10 cluster8.eu.messagelabs.com.
 visitengland.com,7,wikidata;directory,VisitEngland,,301,none
 westyorkshire.police.uk,7,wikidata;linkgraph,West Yorkshire Police,,301,10 westyorkshire-police-uk.mail.protection.outlook.com.
 www.nhs.uk,7,linkgraph,Linked from 937 public-sector domains,,200,none
-www1.uwe.ac.uk,7,academia;academia;academia;academia;academia;academia,University of the West of England Bristol's International College | University of the West of England Department of Arts and Cultural Industries | University of the West of England Department of Nursing and Midwifery | University of the West of England English Language and Linguistics | University of the West of England School of Art and Design | University of the West of England School of Film and Journalism,central-1,,
 aboutcookies.org.uk,6,linkgraph,Linked from 15 public-sector domains,,403,none
 ageuk.org.uk,6,linkgraph,Linked from 13 public-sector domains,,301,none
 bl.uk,6,wikidata;wikidata;wikidata;directory,"British Library | British Library Asia, Pacific and Africa Collections | British Library Manuscript Collections",,308,none
@@ -374,6 +370,7 @@ cambridge-brc.org.uk,4,wikidata,NIHR Cambridge Dementia Biomedical Research Unit
 cambs.police.uk,4,wikidata,Cambridgeshire Constabulary,,302,none
 cameroonhighcommission.co.uk,4,wikidata,"High Commission of Cameroon, London",central,200,none
 capt.org.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
+cardiff.ac.uk,4,academia,Cardiff University,central,,
 careerswales.com,4,directory,Careers Wales (Other),,301,none
 cefas.co.uk,4,wikidata,"Centre for Environment, Fisheries and Aquaculture Science",,HttpConnectTimeoutException: HTTP connect timed out,10 cefas-co-uk.mail.protection.outlook.com.
 centralandsouthknowsleypcn.co.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
@@ -430,6 +427,7 @@ dorset.police.uk,4,wikidata,Dorset Police,,302,none
 dorsetfire.co.uk,4,wikidata,Dorset Fire and Rescue Service,,HttpConnectTimeoutException: HTTP connect timed out,none
 doverport.co.uk,4,wikidata,Port of Dover Police,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.doverport.co.uk.; 10 mail2.doverport.co.uk.
 dpt.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,307,none
+dundee.ac.uk,4,academia,University of Dundee,central,,
 dunkeldandbirnamnews.co.uk,4,wikidata,Dunkeld and Birnam,,301,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
 durham.ac.uk,4,academia,Durham University,central,,
 durham.police.uk,4,wikidata,Durham Constabulary,,302,none
@@ -642,7 +640,6 @@ hmcoastguard.uk,4,wikidata,His Majesty's Coastguard,central,200,none
 hpa.org.uk,4,wikidata,Health Protection Agency,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 hps.scot.nhs.uk,4,wikidata,Health Protection Scotland,,200,none
 hscbusiness.hscni.net,4,directory,HSC Business Services Organisation (Northern Ireland) (Executive non-departmental public body),central-1,301,none
-hss.newport.ac.uk,4,academia,University of South Wales School of Care Sciences,central-1,,
 hud.ac.uk,4,academia,University of Huddersfield,central,,
 hull.ac.uk,4,academia,University of Hull,central,,
 humberandnorthyorkshire.icb.nhs.uk,4,wikidata,NHS Humber and North Yorkshire Integrated Care Board,,200,none
@@ -713,6 +710,7 @@ london.mfa.gov.hu,4,wikidata,"Embassy of Hungary, London",central,SSLHandshakeEx
 londonchamber.co.uk,4,wikidata,London Chamber of Commerce & Industry,,301,none
 londoncrc.org.uk,4,wikidata,London Probation Trust,,HttpConnectTimeoutException: HTTP connect timed out,none
 lpft.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+lsbu.ac.uk,4,academia,London South Bank University,central,,
 lse.ac.uk,4,academia,London School of Economics and Political Science,central,,
 lshtm.ac.uk,4,academia,London School of Hygiene and Tropical Medicine,central,,
 lta.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
@@ -750,8 +748,6 @@ nationalforest.org,4,directory,National Forest Company (Other),,301,10 nationalf
 nationalfruitcollection.org.uk,4,academia,National Fruit Collection,central,,
 nationaltrust.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
 ncas.ac.uk,4,academia,National Centre for Atmospheric Science,central,,
-ncbe.reading.ac.uk,4,academia,University of Reading National Centre for Biotechnology Education,central,,
-ncll.org.uk,4,academia,University of Reading National Centre for Language and Literacy,central,,
 nddcbru.org.uk,4,wikidata,NIHR Nottingham Digestive Diseases Biomedical Research Unit,,405,10 mx0.123-reg.co.uk.; 20 mx1.123-reg.co.uk.
 neechamber.co.uk,4,wikidata,North East England Chamber of Commerce,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching neechamber.co.uk found.,none
 neighbourhoodalert.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -760,7 +756,6 @@ nes.scot.nhs.uk,4,wikidata,NHS Education for Scotland,,200,10 nes-scot-nhs-uk.ma
 neso.energy,4,directory,National Energy System Operator (Public corporation),,301,none
 nets.nihr.ac.uk,4,wikidata,NIHR Evaluation Trials and Studies Coordinating Centre,,ConnectException,none
 newman.ac.uk,4,academia,Newman University,central,,
-newport.ac.uk,4,academia,University of South Wales Centre for Community Learning,central-1,,
 newtredegarcommunitycouncil.org.uk,4,wikidata,New Tredegar Community Council,,301,none
 nexus.org.uk,4,wikidata,Nexus,,200,0 nexus-org-uk.mail.protection.outlook.com.
 nhsdorset.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,200,none
@@ -821,7 +816,6 @@ platform4.com,4,directory,Platform4 (Public corporation),,HttpTimeoutException: 
 pnghighcomm.org.uk,4,wikidata,"High Commission of Papua New Guinea, London",central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 policeombudsman.org,4,directory,Office of the Police Ombudsman for Northern Ireland (Other),,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching policeombudsman.org found.,10 mx-01-eu-west-1.prod.hydra.sophos.com.; 20 mx-02-eu-west-1.prod.hydra.sophos.com.
 pontlliw-tircoed.org.uk,4,wikidata,Pontlliw and Tircoed Community Council,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pontlliw-tircoed.org.uk found.,none
-population-health.manchester.ac.uk,4,academia,University of Manchester National Drug Evidence Centre,central,,
 port.ac.uk,4,academia,University of Portsmouth,central,,
 porthosp.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 portland-port.co.uk,4,wikidata,Portland Harbour Authority,,301,none
@@ -834,7 +828,6 @@ portofsunderland.org.uk,4,wikidata,Port of Sunderland,,200,none
 portoftyne.co.uk,4,wikidata,Port of Tyne,,301,none
 portonbiopharma.com,4,directory,Porton Biopharma Limited (Other),,200,none
 powysthb.wales.nhs.uk,4,wikidata,Powys Teaching Health Board,,ConnectException,none
-ppiw.org.uk,4,academia,Public Policy Institute for Wales,central-1,,
 pplinnovate.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 publicengagement.ac.uk,4,wikidata,National Co-ordinating Centre for Public Engagement,,301,0 publicengagement.ac.uk.
 publichealth.hscni.net,4,directory,Public Health Agency (Northern Ireland) (Other),,301,none
@@ -930,6 +923,7 @@ summerreadingchallenge.org.uk,4,linkgraph,Linked from 3 public-sector domains,,H
 supplychain.nhs.uk,4,wikidata,NHS Supply Chain,,HttpConnectTimeoutException: HTTP connect timed out,0 supplychain-nhs-uk.mail.protection.outlook.com.
 surrey.ac.uk,4,academia,University of Surrey,central,,
 surreyandsussex.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+sussex.ac.uk,4,academia,University of Sussex,central,,
 sussex.ics.nhs.uk,4,wikidata,NHS Sussex Integrated Care Board,,503,none
 svghighcom.co.uk,4,wikidata,"High Commission of Saint Vincent and the Grenadines, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
 swansea.ac.uk,4,academia,Swansea University,central,,
@@ -966,8 +960,8 @@ unesco.org.uk,4,wikidata,United Kingdom National Commission for UNESCO,,200,none
 unicef.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
 unn.ac.uk,4,academia,Northumbria University,central,,
 upstairsatthegrill.co.uk,4,wikidata,"Old Custom House Building, Chester",,200,none
+uwe.ac.uk,4,academia,University of the West of England,central-1,,
 uwl.ac.uk,4,academia,London College of Music,central,,
-uwtsd.ac.uk,4,academia,University of Wales Trinity Saint David School of Theology Religious Studies and Islamic Studies,central-1,,
 veteranaware.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
 victimsupport.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 wales.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -986,7 +980,6 @@ which.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,10 eu-smtp-inbo
 whiteribbon.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,1 whiteribbon-org-uk.mail.protection.outlook.com.
 winchester.ac.uk,4,academia,University of Winchester,central,,
 wkac.ac.uk,4,academia,University of Winchester,central,,
-wncre.bangor.ac.uk,4,academia,Bangor University Welsh National Centre for Religious Education,central,,
 worcester.ac.uk,4,academia,University of Worcester,central,,
 www2.le.ac.uk,4,wikidata,NIHR Leicester Cardiovascular Biomedical Research Unit,,HttpConnectTimeoutException: HTTP connect timed out,none
 wypartnership.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -1093,7 +1086,6 @@ mzv.cz,3,wikidata,"Embassy of the Czech Republic, London",central,302,none
 mzv.sk,3,wikidata,"Embassy of Slovakia, London",central,301,none
 nationalgalleries.org,3,wikidata,National Galleries Scotland,central-1,301,none
 nature.scot,3,wikidata,NatureScot,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-ncpqsw.com,3,academia,Bournemouth University National Centre for Post Qualifying Social Work,central,,
 newradnor.net,3,wikidata,New Radnor Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 nhs.wales,3,wikidata,NHS Wales,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 nhs24.scot,3,wikidata,NHS 24,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mailforward.iomart.com.
@@ -1125,7 +1117,6 @@ rcips.ky,3,wikidata,Royal Cayman Islands Police Service,,302,none
 re.ukri.org,3,wikidata,Research England,,302,none
 redress.scot,3,wikidata,Redress Scotland,central-1,200,10 gw000222-eu.fortimail.com.
 reed.com,3,wikidata,Reed,,301,none
-reformscotland.com,3,academia,Reform Scotland,central-1,,
 rma.scot,3,wikidata,Risk Management Authority,central-1,301,none
 roadworks.scot,3,wikidata,Scottish Road Works Commissioner,central-1,200,10 sedsh08.sedsh.gov.uk.
 rogerstonecommunitycouncil.com,3,wikidata,Rogerstone Community Council,,SSLHandshakeException: Remote host terminated the handshake,none
@@ -1166,10 +1157,7 @@ visitwales.com,3,wikidata,Visit Wales,,301,10 mail.safenames.hosting.
 wics.scot,3,wikidata,Water Industry Commission for Scotland,central-1,200,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 wmfs.net,3,wikidata,West Midlands Fire Service,,301,20 d205278.b.ess.uk.barracudanetworks.com.; 20 d205278.a.ess.uk.barracudanetworks.com.
 ysbytyifan.org,3,wikidata,Ysbyty Ifan Community Council,,301,none
-dundee.ac.uk,2,academia;academia,University of Dundee | University of Dundee Department of Town and Regional Planning,central,,
-gla.ac.uk,2,wikidata;academia;academia,MRC-University of Glasgow Centre For Virus Research | University of Glasgow | University of Glasgow West of Scotland Cancer Surveillance Unit,central,301,5 jones.cent.gla.ac.uk.; 5 cleese.cent.gla.ac.uk.; 5 palin.cent.gla.ac.uk.; 10 idle.cent.gla.ac.uk.
 healthwatchdorset.co.uk,2,wikidata;wikidata;wikidata,Healthwatch Poole | Healthwatch Bournemouth | Healthwatch Dorset,,301,none
-sussex.ac.uk,2,academia;academia,University of Sussex | University of Sussex Centre for the Analysis of Regional Integration at Sussex,central,,
 lboro.ac.uk,0,academia,Loughborough University,central,,
 londonmet.ac.uk,0,academia,London Metropolitan University,central,,
 mmu.ac.uk,0,academia,Manchester Metropolitan University,central,,

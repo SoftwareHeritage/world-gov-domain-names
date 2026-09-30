@@ -8,14 +8,10 @@ al.pi.leg.br,7,wikidata;wikidata,Legislative Assembly of Piauí,central-1,308,10
 al.ro.leg.br,7,wikidata;wikidata,Legislative Assembly of Rondônia,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching al.ro.leg.br found.,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 al.rr.leg.br,7,wikidata;wikidata,Legislative Assembly of Roraima,central-1,200,10 naumailmtain3.interlegis.leg.br.; 10 naumailmtain1.interlegis.leg.br.; 10 naumailmtain2.interlegis.leg.br.
 congressonacional.leg.br,7,wikidata;wikidata,National Congress of Brazil,central,ConnectException,5 congressonacional-leg-br.mail.protection.outlook.com.
-embrapa.br,7,academia;academia;academia,Embrapa Acre | Embrapa Rondônia | Embrapa Roraima,central-1,,
 franciscanos.org.br,7,wikidata;wikidata,Q10354750,,ConnectException,1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 ipt.br,7,academia;academia,Institute for Technological Research | Instituto de Pesquisas Tecnólogicas,central-1,,
 jesuitasbrasil.org.br,7,wikidata;wikidata,Brazilian Province of the Society of Jesus,,200,0 jesuitasbrasil-org-br.mail.protection.outlook.com.
-uefs.br,7,academia;academia;academia,Biological Sciences Department of State University of Feira de Santana | Education Department of State University of Feira de Santana | State University of Feira de Santana,central-1,,
 ufmg.br,7,wikidata;academia;academia,Centro Cultural UFMG | Federal University of Minas Gerais | Museu de História Natural e Jardim Botânico da Universidade Federal de Minas Gerais,central,301,10 mail-interno-pmg.ufmg.br.; 90 mail-pmg.ufmg.br.
-usp.br,7,academia;academia,Departamento de Jornalismo e Editoração da Universidade de São Paulo | University of São Paulo,central-1,,
-www3.eca.usp.br,7,academia;academia;academia;academia;academia;academia,"Departamento de Artes Cênicas da Universidade de São Paulo | Departamento de Artes Plásticas da Universidade de São Paulo | Departamento de Cinema, Rádio e Televisão da Universidade de São Paulo | Departamento de Comunicações e Artes da Universidade de São Paulo | Departamento de Informação e Cultura da Universidade de São Paulo | Departamento de Música da Universidade de São Paulo",central-1,,
 escolapiosbrasilbolivia.org,6,wikidata;wikidata,Piarist province of Brazil-Bolivia,,301,0 mail.escolapiosbrasilbolivia.org.
 portal.stf.jus.br,6,wikidata,Supreme Federal Court,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 saopaulo.consulfrance.org,6,wikidata;wikidata,"Consulate General of France, in São Paulo",,301,none
@@ -50,17 +46,12 @@ ct.ufes.br,4,academia,"Technological Center, Federal University of Espírito San
 cta.br,4,wikidata,Aerospace Technology and Science Department,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cta.br found.,0 hermes.cta.br.
 cult.ufba.br,4,academia,"Universidade Federal da Bahia, Faculdade de Comunicação, Centro de Estudos Multidisciplinares em Cultura",central,,
 danca.ufba.br,4,academia,Universidade Federal da Bahia. Escola de Dança,central,,
-dchf.uefs.br,4,academia,Human Sciences and Philosophy Department of State University of Feira de Santana,central-1,,
 dct.eb.mil.br,4,wikidata,Q10265199,,IOException: HTTP/1.1 header parser received no bytes,10 mta03.webmail.eb.mil.br.; 10 mta02.webmail.eb.mil.br.
 defensoria.ap.def.br,4,wikidata,Defensoria Pública do Amapá,,200,10 mail.intelimail.com.br.
 defensoria.rj.def.br,4,wikidata,Defensoria Pública do Rio de Janeiro,,200,5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
 demec.ufmg.br,4,academia,Centro de Estudos Aeronáuticos da Universidade Federal de Minas Gerais,central,,
-dla.uefs.br,4,academia,Modern Languages and Arts Department of State University of Feira de Santana,central-1,,
 dpu.def.br,4,wikidata,Federal Public Defender's Office,,IOException: HTTP/1.1 header parser received no bytes,20 mail2.dpu.def.br.; 10 mail.dpu.def.br.
 dsg.eb.mil.br,4,wikidata,Brazilian Military Geographical Service,,IOException: HTTP/1.1 header parser received no bytes,10 mta03.webmail.eb.mil.br.; 10 mta02.webmail.eb.mil.br.
-dtec.uefs.br,4,academia,Technology Department of State University of Feira de Santana,central-1,,
-eca.usp.br,4,academia,Escola de Comunicações e Artes da Universidade de São Paulo,central-1,,
-eesc.usp.br,4,academia,School of Engineering of São Carlos of the University of São Paulo,central-1,,
 embaixadadeangola.com.br,4,wikidata,embassy of Angola in Brazil,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching embaixadadeangola.com.br found.,10 mx.core.locaweb.com.br.; 20 mx.b.locaweb.com.br.; 20 mx.jk.locaweb.com.br.; 20 mx.a.locaweb.com.br.
 embaixadadonepal.com.br,4,wikidata,embassy of Nepal in Brazil,central,301,none
 embaixadadotogo.com.br,4,wikidata,embassy of Togo in Brazil,central,ConnectException,none
@@ -85,35 +76,21 @@ fapemig.br,4,wikidata,Fundação de Amparo à Pesquisa do Estado de Minas Gerais
 faperj.br,4,wikidata,Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro,,200,10 morfeu.faperj.br.
 fapesp.br,4,wikidata,São Paulo Research Foundation,,200,1 fapex10.fapesp.br.; 3 fapex11.fapesp.br.; 7 fapex00.fapesp.br.; 5 fapex01.fapesp.br.; 0 fapesp-br.mail.protection.outlook.com.
 fapesq.rpp.br,4,wikidata,Fundação de Apoio à Pesquisa do Estado da Paraíba,,HttpConnectTimeoutException: HTTP connect timed out,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
-fcf.usp.br,4,academia,Faculty of Pharmaceutical Science at the University of São Paulo,central-1,,
-fcmsantacasasp.edu.br,4,academia,Faculdade de Ciências Médicas da Santa Casa de São Paulo,central-1,,
-fcmscsp.edu.br,4,academia,Faculdade de Ciências Médicas da Santa Casa de São Paulo,central-1,,
 feb.unesp.br,4,wikidata,Q10279472,,ConnectException,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 fepecs.edu.br,4,wikidata,Fundação de Ensino e Pesquisa em Ciências da Saúde Secretaria de Estado de Saúde,,HttpConnectTimeoutException: HTTP connect timed out,1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
 fiocruz.br,4,academia,Oswaldo Cruz Foundation,central,,
 fis.ufba.br,4,academia,Universidade Federal da Bahia. Instituto de Física,central,,
-fisiologia.icb.usp.br,4,academia,Biophysics Department of the University of São Paulo,central-1,,
 fotonicom.ifi.unicamp.br,4,academia,National Institute of Photonics Science and Technology for Optical Communications,central,,
 funape.org.br,4,wikidata,Q134306780,,301,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
 funceme.br,4,wikidata,Foundation Cearense for Meteorology and Water Management,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 alt1.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 10 aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx4.googlemail.com.; 30 aspmx5.googlemail.com.; 30 aspmx3.googlemail.com.
 gequatorial.org.br,4,wikidata,embassy of Equatorial Guinea in Brazil,central,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 ghanaembassybrazil.com.br,4,wikidata,embassy of Ghana in Brazil,central,403,none
-ia.unesp.br,4,academia,"São Paulo State University (UNESP), Institute of Arts, São Paulo",central-1,,
 iae.cta.br,4,wikidata,Aeronautics and Space Institute,,ConnectException,none
-iau.usp.br,4,academia,Institute of Architecture and Urbanism of the University of São Paulo,central-1,,
-ib.usp.br,4,academia,"Institute of Biosciences, University of São Paulo",central-1,,
 ic.unicamp.br,4,wikidata,Instituto de Computação da Universidade Estadual de Campinas,,200,0 taquaral.ic.unicamp.br.
 icb.ufpa.br,4,academia,Instituto de Ciências Biológicas da Universidade Federal do Pará,central,,
 ici.ufba.br,4,academia,Universidade Federal da Bahia. Instituto de Ciência da Informação,central,,
-ieb.usp.br,4,academia,Institute of Brazilian Studies of the University of São Paulo,central-1,,
 iff.edu.br,4,academia,Instituto Federal Fluminense,central,,
-ifsc.usp.br,4,academia,São Carlos Institute of Physics at the University of São Paulo,central-1,,
-ift.unesp.br,4,academia,Institute of Theoretical Physics of the State University of São Paulo,central-1,,
-ihgal.al.org.br,4,academia,Instituto Histórico e Geográfico de Alagoas,central-1,,
-ihgrn.org.br,4,academia,Instituto Histórico e Geográfico do Rio Grande do Norte,central-1,,
-ihgsp.org.br,4,academia,Instituto Histórico e Geográfico de São Paulo,central-1,,
 ilsl.br,4,academia,Instituto Lauro de Souza Lima,central-1,,
-ime.usp.br,4,academia,"Institute of Mathematics, Statistics and Computer Science, University of São Paulo",central-1,,
 imea.com.br,4,wikidata,Instituto Mato-Grossense de Economia Agropecuária,,200,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx3.googlemail.com.
 impa.br,4,academia,Instituto Nacional de Matemática Pura e Aplicada,central,,
 inagemp.bio.br,4,academia,National Institute on Population Medical Genetics,central,,
@@ -123,12 +100,7 @@ inct.cnpq.br,4,academia,National Institute of Science and Technology for Complex
 inidepff.com.br,4,wikidata,Federal Railway Police,central,ConnectException,none
 inpe.br,4,academia,National Institute for Space Research,central,,
 investbelohorizonte.com.br,4,wikidata,Invest BH,,200,5 srv85-ip1-vm.cdlnet.com.br.
-ip.usp.br,4,academia,Psychology Institute of University of São Paulo,central-1,,
-iqsc.usp.br,4,academia,"São Carlos Institute of Chemistry, University of São Paulo",central-1,,
 isc.ufba.br,4,academia,Universidade Federal da Bahia. Instituto de Saúde Coletiva,central,,
-iserj.edu.br,4,academia,Higher Institute of Education of Rio de Janeiro,central-1,,
-iuperj.br,4,academia,Instituto Universitário de Pesquisas do Rio de Janeiro,central-1,,
-jardimbotanico.com.br,4,academia,Botanical Garden of São Paulo,central-1,,
 jfsp.jus.br,4,wikidata,Q113997461,,IOException: Received RST_STREAM: Internal error,10 jfsp-jus-br.mail.protection.outlook.com.
 justicaeleitoral.jus.br,4,wikidata,Brazilian Election Justice,,403,none
 kenyaembassybrazil.com.br,4,wikidata,embassy of Kenya in Brazil,central,403,0 r210us.hmservers.net.
@@ -160,7 +132,6 @@ rnp.br,4,wikidata,Rede Nacional de Ensino e Pesquisa,,301,0 rnp-br.h-v1.mx.micro
 saofidelis.rj.leg.br,4,wikidata,Q138736739,,308,10 naumailmtain3.interlegis.leg.br.; 10 naumailmtain1.interlegis.leg.br.; 10 naumailmtain2.interlegis.leg.br.
 saopaulo.sp.leg.br,4,wikidata,Municipal Chamber of São Paulo,central-1,200,0 saopaulo-sp-leg-br.mail.protection.outlook.com.
 senebrasilia.org.br,4,wikidata,embassy of Senegal in Brazil,central,HttpTimeoutException: request timed out,5 mx-vip-01.uni5.net.; 5 mx-vip-02.uni5.net.
-sites.igc.usp.br,4,academia,Geosciences Institute from University of São Paulo,central-1,,
 stj.jus.br,4,wikidata,Superior Court of Justice,central,403,0 stj-jus-br.t-v1.mx.microsoft.
 stm.jus.br,4,wikidata,Superior Tribunal Militar,,200,10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
 teatro.ufba.br,4,academia,Universidade Federal da Bahia. Escola de Teatro,central,,
@@ -192,8 +163,8 @@ trt21.jus.br,4,wikidata,Q10384628,,302,10 aspmx2.googlemail.com.; 5 alt2.aspmx.l
 trt7.jus.br,4,wikidata,Q10384638,,302,30 alt4.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 alt3.aspmx.l.google.com.; 10 aspmx.l.google.com.
 tse.jus.br,4,wikidata,Superior Electoral Court,,403,1 antispam-01.tse.jus.br.; 50 antispam-02.tse.jus.br.
 tst.jus.br,4,wikidata,Superior Labor Court,,202,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-twiki.ufba.br,4,academia,Bahia Studies Centre,central-1,,
 udesc.br,4,academia,Universidade do Estado de Santa Catarina,central-1,,
+uefs.br,4,academia,State University of Feira de Santana,central-1,,
 uel.br,4,academia,State University of Londrina,central-1,,
 uemasul.edu.br,4,academia,Universidade Estadual da Região Tocantina do Maranhão,central-1,,
 uenp.edu.br,4,academia,Universidade Estadual do Norte do Paraná,central-1,,
@@ -233,10 +204,9 @@ unifesspa.edu.br,4,academia,Federal University of South and Southeast of Pará,c
 unipampa.edu.br,4,academia,Universidade Federal do Pampa,central,,
 unirio.br,4,academia,Federal University of the State of Rio de Janeiro,central,,
 univesp.br,4,academia,Virtual University of the State of São Paulo,central-1,,
+usp.br,4,academia,University of São Paulo,central-1,,
 wiki.dcc.ufba.br,4,academia,Software Engineering Laboratory at the Federal University of Bahia,central,,
-ww3.icb.usp.br,4,academia,ICB-USP | Institute of Biomedical Sciences of the University of São Paulo,central-1,,
 www2.camara.leg.br,4,wikidata,Legislative Police Department,,302,none
-www2.eca.usp.br,4,academia,Departamento de Relações Públicas Propaganda e Turismo da Universidade de São Paulo,central-1,,
 www2.fab.mil.br,4,wikidata,Aeronautical Accidents Investigation and Prevention Center,,403,dig error
 www2.tjam.jus.br,4,wikidata,Amazonas State Court of Justice,,HttpConnectTimeoutException: HTTP connect timed out,none
 www2.ufjf.br,4,academia,Federal University of Juiz de Fora,central,,
@@ -258,9 +228,7 @@ embaixadahondurasbrasil.com,3,wikidata,embassy of Honduras in Brazil,central,Con
 finlandabroad.fi,3,wikidata,Embassy of Finland in Brazil,central,301,10 mail.valtori.fi.
 floripa-airport.com,3,wikidata,Floripa Airport,,200,1 floripaairport-com01i.mail.protection.outlook.com.
 fundect.ledes.net,3,wikidata,"Fundação de Apoio ao Desenvolvimento do Ensino, Ciência e Tecnologia do Estado de Mato Grosso do Sul",,ConnectException,none
-ihgg.org,3,academia,Historical and Geographic Institute of Goiás,central-1,,
 inctdt.cebio.org,3,academia,Instituto Nacional de Ciência e Tecnologia de Doenças Tropicais,central,,
-iserj.net,3,academia,Higher Institute of Education of Rio de Janeiro,central-1,,
 letrasto.com,3,wikidata,Academia de Letras de Teófilo Otoni,,HttpConnectTimeoutException: HTTP connect timed out,0 mx.letrasto.com.
 mfa.bg,3,wikidata,embassy of Bulgaria in Brazil,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Brazil,central,403,10 mailhost.mfa.gr.

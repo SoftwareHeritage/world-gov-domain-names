@@ -9,7 +9,6 @@ meco.org.tw,7,wikidata;wikidata,"Manila Economic and Cultural Office, Taichung E
 naer.edu.tw,7,wikidata;wikidata,National Academy for Educational Research,,ConnectException,10 mailgates.naer.edu.tw.
 ncl.edu.tw,7,wikidata;wikidata;wikidata,Open Lab Multimedia Center National Central Library | National Central Library,,ConnectException,10 mg2.ncl.edu.tw.; 10 mg.ncl.edu.tw.
 ngdo.gov.taipei,7,wikidata;wikidata,"Nangang District Office, Taipei City",central-1,200,none
-theatre.tnua.edu.tw,7,academia;academia,"Department of Theatre Art, Taipei National University of the Arts | Graduate Institute of Theatre Performance and Playwriting, Taipei National University of the Arts",central,,
 whdo.gov.taipei,7,wikidata;wikidata,"Wanhua District Office, Taipei City",central-1,200,none
 youth.gov.taipei,7,wikidata;wikidata,Department for Youth of Taipei City Government,,HttpTimeoutException: request timed out,none
 eeas.europa.eu,6,wikidata;wikidata,European Economic and Trade Office in Taiwan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
@@ -17,24 +16,16 @@ france-taipei.org,6,wikidata;wikidata,French Office in Taipei,,301,5 mta-gw.info
 koryu.or.jp,6,wikidata;wikidata,"Japan-Taiwan Exchange Association, Kaohsiung Office | Interchange Association Taipei Office",,ConnectException,10 mofa-go-jp.in.tmems-jp.trendmicro.com.
 recoletos.ph,6,wikidata;wikidata,Province of Saint Ezequiél Moreno,,HttpTimeoutException: request timed out,1 smtp.google.com.
 tmc.taipei,6,wikidata;wikidata,Taipei Music Center,,200,0 tmc-taipei.mail.protection.outlook.com.
-ace.ntnu.edu.tw,4,academia,National Taiwan Normal University Department of Adult and Continuing Education,central,,
 arthistory.ntu.edu.tw,4,academia,"Graduate Institute of Art History, National Taiwan University",central,,
 australia.org.tw,4,wikidata,"Australian Office, Taipei",,200,10 biz-mx2.hinet.net.; 10 biz-mx1.hinet.net.
 bola.gov.taipei,4,wikidata,"Department of Labor, Taipei City Government",,200,none
-bst.ntu.edu.tw,4,academia,"Department of Biochemical Science & Technology, National Taiwan University",central,,
 ca.gov.taipei,4,wikidata,"Department of Civil Affairs, Taipei City Government",central-1,200,none
 cadf.org.tw,4,wikidata,Aviation Safety Council,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cadf.org.tw found.,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 20 officemail.cloudmax.com.tw.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 ccu.edu.tw,4,academia,National Chung Cheng University,central,,
-che.ntu.edu.tw,4,academia,"Department of Chemical Engineering, National Taiwan University",central,,
-chem.ntnu.edu.tw,4,academia,National Taiwan Normal University Department of Chemistry,central,,
-cl.ntu.edu.tw,4,academia,"Department of Chinese Literature, National Taiwan University",central,,
 cts.nthu.edu.tw,4,academia,National Center for theoretical Sciences,central,,
-culture.yuntech.edu.tw,4,academia,"Department of Cultural Heritage Conservation, National Yunlin University of Science and Technology",central,,
 dbas.gov.taipei,4,wikidata,"Department of Budget, Accounting and Statistics",,200,none
 decm.gov.mo,4,wikidata,Macau Economic and Cultural Office,,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.emailsrv.safp.gov.mo.; 10 mx1.emailsrv.safp.gov.mo.
 dep.gov.taipei,4,wikidata,"Department of Environmental Protection, Taipei City Government",,ConnectException,none
-design.tnua.edu.tw,4,academia,"Department of Theatrical Design and Technology, Taipei National University of the Arts",central,,
-diplomacy.nccu.edu.tw,4,academia,"Department of Diplomacy, National Chengchi University",central,,
 docms.gov.taipei,4,wikidata,"Department of Military Compulsory service, Taipei City Government",,200,none
 doe.gov.taipei,4,wikidata,"Department of Education, Taipei City Government",,ConnectException,none
 doed.gov.taipei,4,wikidata,"Department of Economic Development, Taipei City Government",,200,none
@@ -42,39 +33,26 @@ doit.gov.taipei,4,wikidata,"Department of Information Technology, Taipei City Go
 eastasia.nccu.edu.tw,4,academia,"Graduate Institute of East Asian Studies, National Chengchi University",central,,
 ecct.com.tw,4,wikidata,European Chamber of Commerce Taiwan,,301,30 aspmx3.googlemail.com.; 30 aspmx2.googlemail.com.; 10 alt2.aspmx.l.google.com.; 10 alt1.aspmx.l.google.com.; 0 aspmx.l.google.com.
 ecology.lifescience.ntu.edu.tw,4,academia,"Institute of Ecology and Evolutionary Biology, College of Life Science, National Taiwan University",central,,
-econ.ntpu.edu.tw,4,academia,"Department of Economics, National Taipei University",central,,
-econ.ntu.edu.tw,4,academia,"Department of Economics, National Taiwan University",central,,
 embapartwroc.com.tw,4,wikidata,"Embassy of Paraguay, Taipei",central,200,1 smtp.google.com.
 en.nycu.edu.tw,4,academia,National Yang Ming Chiao Tung University,central,,
 english.docms.gov.taipei,4,wikidata,"Department of Military Compulsory service, Taipei City Government",,200,none
 english.doit.gov.taipei,4,wikidata,"Department of Information Technology, Taipei City Government",,HttpConnectTimeoutException: HTTP connect timed out,none
 english.geo.gov.taipei,4,wikidata,"Geotechnical Engineering Office, Public Works Department, Taipei City Government",,HttpConnectTimeoutException: HTTP connect timed out,none
-english.nccu.edu.tw,4,academia,"Department of English, National Chengchi University",central,,
 english.pwd.gov.taipei,4,wikidata,"Public Works Department, Taipei City Government",,HttpConnectTimeoutException: HTTP connect timed out,none
 english.rdec.gov.taipei,4,wikidata,"Research, Development and Evaluation Commission, Taipei City Government",,HttpConnectTimeoutException: HTTP connect timed out,none
 english.tpedoit.gov.taipei,4,wikidata,"Department of Information and Tourism, Taipei City Government",,200,none
-epc.ntnu.edu.tw,4,academia,National Taiwan Normal University Department of Educational Psychology and Counselling,central,,
 esc.nccu.edu.tw,4,academia,"Election Study Center, National Chengchi University",central,,
 feitsui.gov.taipei,4,wikidata,Q15928874,,HttpConnectTimeoutException: HTTP connect timed out,5 mail.feitsui.gov.taipei.
 finearts.tnua.edu.tw,4,academia,"School of Fine Arts, Taipei National University of the Arts",central,,
-fo.ntu.edu.tw,4,academia,"School of Forestry and Resource Conservation, National Taiwan University",central,,
-forex.ntu.edu.tw,4,academia,"Department of Foreign Languages and Literatures, National Taiwan University",central,,
 fst.ntu.edu.tw,4,academia,"Institute of Food Science and Technology, National Taiwan University",central,,
-gac.ntnu.edu.tw,4,academia,National Taiwan Normal University Department of Graphic and Arts Communication,central,,
 geo.gov.taipei,4,wikidata,"Geotechnical Engineering Office, Public Works Department, Taipei City Government",,HttpConnectTimeoutException: HTTP connect timed out,none
 gids.nccu.edu.tw,4,academia,"Graduate Institute of Development Studies, National Chengchi University",central,,
 gioip.nchu.edu.tw,4,academia,"Graduate Institute of International Politics, National Chung Hsing University",central,,
-his.ncku.edu.tw,4,academia,National Cheng Kung University Department of History,central,,
-history.nccu.edu.tw,4,academia,"Department of History, National Chengchi University",central,,
-homepage.ntu.edu.tw,4,academia,"Department of Anthropology, National Taiwan University",central,,
 iam.ntu.edu.tw,4,academia,"Institute of Applied Mechanics, National Taiwan University",central,,
 iir.nccu.edu.tw,4,academia,"Institute of International Relations, National Chengchi University",central,,
 india.org.tw,4,wikidata,India Taipei Association,,HttpConnectTimeoutException: HTTP connect timed out,none
 indsr.org.tw,4,academia,Institute for National Defense and Security Research,central,,
 inrm.ntpu.edu.tw,4,academia,"Institute of Natural Resource Management, National Taipei University",central,,
-law.ntpu.edu.tw,4,academia,National Taipei University Department of Law,central,,
-lis.ntu.edu.tw,4,academia,"National Taiwan University, Dept. of Library & Information Science",central,,
-me.ntu.edu.tw,4,academia,"Department of Mechanical Engineering, National Taiwan University",central,,
 mlc.edu.tw,4,wikidata,Education Department of Miaoli County Government,,HttpConnectTimeoutException: HTTP connect timed out,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 mtc.org.tw,4,wikidata,Representative Office in Taipei for the Moscow-Taipei Coordination Commission on Economic and Cultural Cooperation,,HttpConnectTimeoutException: HTTP connect timed out,0 mtc-org-tw.mail.protection.outlook.com.
 nari.org.tw,4,wikidata,National Atomic Research Institute,,HttpConnectTimeoutException: HTTP connect timed out,5 spam.nari.org.tw.; 5 spam2.nari.org.tw.; 32767 ms66847941.msv1.invalid.nari.org.tw.; 65534 inerout119.nari.org.tw.
@@ -106,11 +84,9 @@ nycu.edu.tw,4,academia,National Yang Ming Chiao Tung University,central,,
 peru.org.tw,4,wikidata,Commercial Office of Peru to Taipei,,HttpConnectTimeoutException: HTTP connect timed out,10 ntvirus.url.com.tw.; 10 ntvirus2.url.com.tw.
 pkl.gov.taipei,4,wikidata,"Parks and Street Lights Office, Public Works Department, Taipei City Government",,200,none
 poland.tw,4,wikidata,Polish Office in Taipei,,301,none
-politics.nccu.edu.tw,4,academia,"Department of Political Science, National Chengchi University",central,,
 pwd.gov.taipei,4,wikidata,"Public Works Department, Taipei City Government",,200,none
 rdec.gov.taipei,4,wikidata,"Research, Development and Evaluation Commission, Taipei City Government",,200,none
 sluembassy.tw,4,wikidata,embassy of Saint Lucia in Taiwan,central,301,0 sluembassy-tw.mail.protection.outlook.com.
-sociology.ntu.edu.tw,4,academia,"Department of Sociology, National Taiwan University",central,,
 somaliland.tw,4,wikidata,Republic of Somaliland Representative Office in Taiwan,,200,10 mailstore1.secureserver.net.; 0 smtp.secureserver.net.
 southafrica.org.tw,4,wikidata,"Liaison Office of the Republic of South Africa, Taipei",,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching southafrica.org.tw found.,none
 spacechiayi.tw,4,academia,Asia UAV AI Innovation Application R&D Center,central,,
@@ -125,7 +101,6 @@ tpedoit.gov.taipei,4,wikidata,"Department of Information and Tourism, Taipei Cit
 tuic.gov.taipei,4,wikidata,Taipei Urban Intelligence Center,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 utaipei.edu.tw,4,academia,University of Taipei,central,,
 w3.nknu.edu.tw,4,academia,National Kaohsiung Normal University,central,,
-w3.tnua.edu.tw,4,academia,"Department of Animation, Taipei National University of the Arts",central,,
 water.gov.taipei,4,wikidata,Taipei Water Department,,ConnectException,10 spam.water.gov.taipei.
 business-sweden.com,3,wikidata,"Swedish Trade and Invest Council, Taipei Office",,301,none
 embajadahondurastw.wixsite.com,3,wikidata,"Embassy of Honduras, Taipei",central,404,none

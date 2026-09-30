@@ -56,6 +56,7 @@ schleswig-holstein.de,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;w
 thuenen.de,10,wikidata;academia;directory,Johann Heinrich von Thünen-Institut,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 c1481.mx.srv.dfn.de.; 10 b1481.mx.srv.dfn.de.; 10 a1481.mx.srv.dfn.de.
 thueringen.de,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,Thuringia State archive | Office for the Protection of the Constitution for Thuringia | Q57985224 | Thüringer Landesverwaltungsamt | Thuringian State Institute for Agriculture | Thüringisches Landesamt für Denkmalpflege und Archäologie | Vertretung des Freistaates Thüringen beim Bund,central-1,200,10 thmail01.thueringen.de.
 umweltbundesamt.de,10,wikidata;wikidata;linkgraph;directory,Federal Environment Agency,,301,none
+unibw.de,10,wikidata;academia;directory,University of the Bundeswehr Munich,central,301,10 mx1.mail.rz.unibw-muenchen.de.; 10 mx2.mail.rz.unibw-muenchen.de.; 10 mx3.mail.rz.unibw-muenchen.de.
 deutsche-rentenversicherung.de,9,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph;directory,Deutsche Rentenversicherung Baden-Württemberg | Deutsche Rentenversicherung Nord | Deutsche Rentenversicherung Rheinland-Pfalz | Q1203790 | Deutsche Rentenversicherung Braunschweig-Hannover | Deutsche Rentenversicherung Knappschaft-Bahn-See | Deutsche Rentenversicherung Berlin-Brandenburg | Deutsche Rentenversicherung Hessen | Deutsche Rentenversicherung Oldenburg-Bremen | Deutsche Rentenversicherung Rheinland | Deutsche Rentenversicherung Mitteldeutschland | Deutsche Rentenversicherung Nordbayern | Deutsche Rentenversicherung Saarland | German Federal Pension Insurance | Deutsche Rentenversicherung Bayern Süd | Deutsche Rentenversicherung Westfalen,central,302,10 mx03.drv-bund.de.; 10 mx04.drv-bund.de.; 10 mx02.drv-bund.de.; 10 mx01.drv-bund.de.
 zoll.de,9,wikidata;wikidata;wikidata;wikidata;linkgraph;directory,Generalzolldirektion | Financial Intelligence Unit | Bundeszollverwaltung | Hauptzollamt Berlin,central,303,10 mx1.bund.de.; 10 mx2.bund.de.
 awi.de,8,academia;directory,Alfred Wegener Institute for Polar and Marine Research,central,HttpConnectTimeoutException: HTTP connect timed out,10 a3061.mx.srv.dfn.de.; 10 b3061.mx.srv.dfn.de.; 10 c3061.mx.srv.dfn.de.
@@ -85,13 +86,11 @@ dakks.de,8,wikidata;directory,Deutsche Akkreditierungsstelle,,301,10 mail.dakks.
 dbfz.de,8,academia;directory,Deutsches Biomasseforschungszentrum,central,301,none
 dguv.de,8,linkgraph;directory,Deutsche Gesetzliche Unfallversicherung e. V.,,301,10 mail100b.cnuv.de.; 10 mail100a.cnuv.de.
 dkfz.de,8,academia;directory,German Cancer Research Center,central,302,none
-dlr.de,8,academia;directory,"German Aerospace Center, Berlin",central-1,308,none
 dpma.de,8,wikidata;directory,Deutsches Patent- und Markenamt,,200,none
 eisenbahn-unfalluntersuchung.de,8,wikidata;directory,Federal Authority for Railway Accident Investigation,central,301,10 ofcsgbbm.gbbmvi-wan.de.; 20 zbcsgbbm.gbbmvi-wan.de.
 fitko.de,8,wikidata;directory,Federal IT co-operation,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx-in-10.hessen.de.; 20 mx-in-20.hessen.de.
 fiz-karlsruhe.de,8,academia;directory,FIZ Karlsruhe,central,HttpConnectTimeoutException: HTTP connect timed out,none
 fmsa.de,8,wikidata;directory,Federal Agency for Financial Market Stabilisation,central,301,20 bmail.deutsche-finanzagentur.de.; 10 mail.deutsche-finanzagentur.de.
-fv-berlin.de,8,academia;directory,Forschungsverbund Berlin,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching fv-berlin.de found.,none
 geomar.de,8,academia;directory,GEOMAR Helmholtz Centre for Ocean Research Kiel,central,301,none
 gfz.de,8,academia;directory,GFZ Helmholtz Centre for Geosciences,central,301,10 a1791.mx.srv.dfn.de.; 10 b1791.mx.srv.dfn.de.; 10 c1791.mx.srv.dfn.de.
 gsi.de,8,academia;directory,GSI Helmholtz Centre for Heavy Ion Research,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -103,7 +102,6 @@ idos-research.de,8,academia;directory,German Institute of Development and Sustai
 ifz-muenchen.de,8,academia;directory,Institute of Contemporary History Munich-Berlin,central,HttpConnectTimeoutException: HTTP connect timed out,none
 instmikrobiobw.de,8,academia;directory,Institut für Mikrobiologie der Bundeswehr,central,301,none
 integrationsbeauftragte.de,8,wikidata;directory,"Federal Government Commissioner for Migration, Refugees and Integration",,308,none
-ioer.de,8,academia;directory,Leibniz Institute of Ecological Urban and Regional Development,central-1,200,20 mailin-prim2.zih.tu-dresden.de.; 20 mailin-sek1.zih.tu-dresden.de.; 20 mailin-prim1.zih.tu-dresden.de.
 itzbund.de,8,wikidata;directory,Federal Information Technology Centre,,303,10 mx2.bund.de.; 10 mx1.bund.de.
 katholische-militaerseelsorge.de,8,wikidata;directory,Q89189414,,301,10 mx2.agenturserver.de.; 50 mx4.agenturserver.de.; 20 mx3.agenturserver.de.; 10 mx1.agenturserver.de.
 kbs.de,8,wikidata;directory,Deutsche Rentenversicherung Knappschaft-Bahn-See,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -198,7 +196,6 @@ fm.rlp.de,7,wikidata;wikidata,Ministerium der Finanzen Rheinland-Pfalz,central-1
 frauen.bremen.de,7,wikidata;wikidata;wikidata,Bremische Zentralstelle für die Verwirklichung der Gleichberechtigung der Frau,central-1,301,10 mx1.ondataport.de.; 10 mx2.ondataport.de.
 fsk.de,7,wikidata;wikidata,Freiwillige Selbstkontrolle der Filmwirtschaft,,301,none
 g-ba.de,7,wikidata;wikidata,Federal Joint Committee,central,302,none
-gdfb.de,7,wikidata;academia,Geologischer Dienst für Bremen,central-1,301,none
 gerichte.thueringen.de,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Local Court Gotha | Local Court Stadtroda | Local Court Altenburg | Local Court Arnstadt | Local Court Greiz | Local Court Apolda | Local Court Eisenach | Amtsgericht Erfurt | Local Court Pößneck (Bad Lobenstein branch) | Q1270681 | Local Court Meiningen | Local Court Bad Salzungen | Local Court Hildburghausen | Local Court Weimar | Landgericht Erfurt | Q1802842 | Local Court Arnstadt (Ilmenau branch) | Local Court Sonneberg | Local Court Heilbad Heiligenstadt | Local Court Sondershausen | Local Court Jena | Local Court Nordhausen | Local Court Mühlhausen | Local Court Suhl | Local Court Gera | Q1523562 | Local Court Sömmerda | Q1802875 | Local Court Pößneck,central-1,200,none
 gesetze-im-internet.de,7,linkgraph,Linked from 21 public-sector domains,,ConnectException,none
 gesundheit.bremen.de,7,wikidata;wikidata;wikidata;wikidata,Q61874531 | Q94640915,central-1,301,none
@@ -335,9 +332,7 @@ staatskanzlei.hessen.de,7,wikidata;wikidata,Hessian State representation to the 
 stadt-koeln.de,7,wikidata;wikidata;wikidata,city council of Cologne | Firefighting in Cologne | Government of Cologne,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 statistik-berlin-brandenburg.de,7,wikidata;academia,Statistical office Berlin-Brandenburg,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 statistik-mv.de,7,wikidata;academia,statistical offices of Mecklenburg-Vorpommern,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-statistik-nord.de,7,wikidata;academia,Statistisches Amt für Hamburg und Schleswig-Holstein,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 statistik.bayern.de,7,wikidata;academia,Bavarian State Office for Statistics and Data,central-1,,
-statistik.bremen.de,7,wikidata;academia,Statistisches Landesamt Bremen,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 statistik.niedersachsen.de,7,wikidata;academia,Lower Saxony State Office for Statistics,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 statistik.sachsen-anhalt.de,7,wikidata;academia,Statistisches Landesamt Sachsen-Anhalt | Q29578283,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 statistik.thueringen.de,7,wikidata;academia,Thuringian State Office for Statistics,central-1,,
@@ -362,8 +357,6 @@ um.baden-wuerttemberg.de,7,wikidata;wikidata,Q1784706,central-1,HttpConnectTimeo
 umwelt.niedersachsen.de,7,wikidata;wikidata,Lower Saxony (Germany). Umweltministerium,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 umwelt.nrw.de,7,wikidata;wikidata;wikidata;wikidata,Ministry for Agriculture and Consumer Protection of the State of North Rhine-Westphalia | Ministry of Environment and Transport of North Rhine-Westphalia,central-1,200,none
 umwelt.thueringen.de,7,wikidata;wikidata,"Thuringian Ministry of Environment, Energy and Nature Conservation",central-1,200,none
-uni-bremen.de,7,academia;academia,Bremen Institute of Canada and Québec Studies | University of Bremen,central-1,,
-uni-saarland.de,7,academia;academia,Saarland University | Saarland University Department of Mathematics,central-1,,
 vermoegenundbau-bw.de,7,wikidata;wikidata,Q115120901 | Vermögen und Bau Baden-Württemberg,central-1,301,none
 verpackungsregister.org,7,wikidata;directory,Zentrale Stelle Verpackungsregister,,301,none
 verwaltungsgerichte.thueringen.de,7,wikidata;wikidata;wikidata;wikidata,Q2430876 | Q1686249 | Q1707599 | Q2520461,central-1,200,none
@@ -396,7 +389,6 @@ mkw.nrw,6,wikidata;wikidata;wikidata,"Ministry of Innovation, Science and Resear
 niedersachsen.de,6,linkgraph,Linked from 10 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 nrw.de,6,linkgraph,Linked from 11 public-sector domains,,ConnectException,none
 roc-taiwan.org,6,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q110104934 | Q100484966 | Taipei Representative Office in the Federal Republic of Germany | Q109412584 | Q100484631 | diplomatic mission of Taiwan in Munich | Q109412592,,302,none
-unibw.de,6,wikidata;academia;academia;directory,"University of the Bundeswehr Munich | University of the Bundeswehr Munich, Department of Social Sciences and Public Affairs",central,301,10 mx1.mail.rz.unibw-muenchen.de.; 10 mx2.mail.rz.unibw-muenchen.de.; 10 mx3.mail.rz.unibw-muenchen.de.
 wirtschaft.nrw,6,wikidata;wikidata,"Ministerium für Wirtschaft, Innovation, Digitalisierung und Energie des Landes Nordrhein-Westfalen",central-1,200,none
 abvt.wsv.de,5,directory,Amt für Binnen-Verkehrstechnik,,301,none
 acatech.de,5,directory,Deutsche Akademie der Technikwissenschaften,,301,20 mx2.mas.t-systems-service.com.; 10 mx1.mas.t-systems-service.com.; 30 mx3.mas.t-systems-service.com.
@@ -497,6 +489,7 @@ dipf.de,5,directory,Leibniz-Institut für Bildungsforschung und Bildungsinformat
 diw.de,5,directory,Deutsches Institut für Wirtschaftsforschung e. V.,,301,none
 dji.de,5,directory,Deutsches Jugendinstitut e. V.,,301,none
 dla-marbach.de,5,directory,Deutsches Literaturarchiv Marbach,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx2.belwue.de.; 10 mx1.belwue.de.; 10 mx3.belwue.de.; 10 mx4.belwue.de.
+dlr.de,5,directory,Deutsches Zentrum für Luft- und Raumfahrt e. V.,,308,none
 dnk.de,5,directory,Deutsches Nationalkomitee für Denkmalschutz,,301,none
 dosb.de,5,directory,Deutscher Olympischer Sportbund,,301,none
 drfz.de,5,directory,Deutsches Rheuma-Forschungszentrum Berlin,,301,none
@@ -535,6 +528,7 @@ frauenrat.de,5,directory,Deutscher Frauenrat,,301,10 mx01.hornetsecurity.com.; 4
 fraunhofer.de,5,directory,Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e. V.,,308,30 edge03.mx.fraunhofer.de.; 40 edge04.mx.fraunhofer.de.; 20 edge02.mx.fraunhofer.de.; 10 edge01.mx.fraunhofer.de.
 friedensdienst.de,5,directory,Aktionsgemeinschaft Dienst für den Frieden e. V.,,200,none
 fueakbw.de,5,directory,Führungsakademie der Bundeswehr,,HttpConnectTimeoutException: HTTP connect timed out,none
+fv-berlin.de,5,directory,Forschungsverbund Berlin e. V.,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching fv-berlin.de found.,none
 fz-borstel.de,5,directory,Forschungszentrum Borstel - Leibniz Lungenzentrum,,301,10 mail.fz-borstel.de.
 gdws.wsv.de,5,directory,Berufsbildungszentrum Koblenz (der WSV bei der GDWS),,301,none
 gei.de,5,directory,Leibniz-Institut für Bildungsmedien | Georg-Eckert-Institut,,308,none
@@ -601,6 +595,7 @@ instpraevmedbw.de,5,directory,Institut für Präventivmedizin der Bundeswehr -Kr
 int.fraunhofer.de,5,directory,Fraunhofer-Institut für Naturwissenschaftlich-Technische Trendanalysen,,308,none
 internationaler-bund.de,5,directory,Internationaler Bund e.V.,,301,none
 io-warnemuende.de,5,directory,Leibniz-Institut für Ostseeforschung Warnemünde,,301,none
+ioer.de,5,directory,Leibniz-Institut für ökologische Raumentwicklung e.V.,,200,20 mailin-prim2.zih.tu-dresden.de.; 20 mailin-sek1.zih.tu-dresden.de.; 20 mailin-prim1.zih.tu-dresden.de.
 iof.fraunhofer.de,5,directory,Fraunhofer-Institut für Angewandte Optik und Feinmechanik,,308,none
 iom-leipzig.de,5,directory,Leibniz-Institut für Oberflächenmodifizierung e.V.,,200,none
 iosb.fraunhofer.de,5,directory,"Fraunhofer-Institut für Optronik, Systemtechnik und Bildauswertung",,308,none
@@ -984,7 +979,6 @@ agmz.justiz.rlp.de,4,wikidata,Local Court Mainz,central-1,200,none
 agnr.justiz.rlp.de,4,wikidata,Amtsgericht Neuwied,central-1,200,none
 agnw.justiz.rlp.de,4,wikidata,Amtsgericht Neustadt an der Weinstraße,central-1,200,none
 agps.justiz.rlp.de,4,wikidata,Q19964737,central-1,200,none
-agrar.hu-berlin.de,4,academia,Humboldt Universität zu Berlin Albrecht Daniel Thaer-Institut für Agrar- und Gartenbauwissenschaften,central-1,,
 agro.justiz.rlp.de,4,wikidata,Q19834537,central-1,200,none
 agsob.justiz.rlp.de,4,wikidata,Q18616236,central-1,200,none
 agsp.justiz.rlp.de,4,wikidata,Amtsgericht Speyer,central-1,200,none
@@ -1013,7 +1007,6 @@ ambassademali.de,4,wikidata,Embassy of the Republic of Mali in Germany,central,3
 ambassadeniger.de,4,wikidata,Embassy of the Republic of Niger in Germany,central,200,10 inbound-smtp.eu-west-1.amazonaws.com.
 ambatogoberlin.de,4,wikidata,embassy of Togo in Germany,central,200,none
 amerbach.de,4,wikidata,Q133290330,,301,none
-americanacademy.de,4,academia,American Academy in Berlin,central-1,,
 amh.de,4,wikidata,Archäologisches Museum Hamburg und Stadtmuseum Harburg,central-1,200,none
 ammerland.de,4,wikidata,Ammerland District,,HttpConnectTimeoutException: HTTP connect timed out,none
 amt-marne-nordsee.de,4,wikidata,Q58394789,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -1324,18 +1317,15 @@ berufsfeuerwehr.flensburg.de,4,wikidata,Fire stations in Flensburg,,HttpConnectT
 bgc-jena.mpg.de,4,wikidata,Max Planck Institute for Biogeochemistry,,HttpConnectTimeoutException: HTTP connect timed out,none
 bht-berlin.de,4,academia,University of Applied Sciences Berlin,central-1,,
 bi.mpg.de,4,wikidata,Max Planck Institute for Biological Intelligence,,HttpConnectTimeoutException: HTTP connect timed out,none
-bias.de,4,academia,Bremen Institute for Applied Beam Technology,central-1,,
 bibert.de,4,wikidata,Q133293820,,HttpConnectTimeoutException: HTTP connect timed out,none
 biessenhofen.de,4,wikidata,Verwaltungsgemeinschaft Biessenhofen,,HttpConnectTimeoutException: HTTP connect timed out,none
 big-direkt.de,4,wikidata,Bundesinnungskrankenkasse Gesundheit,central,HttpConnectTimeoutException: HTTP connect timed out,none
 bingen.de,4,wikidata,Q28015981,,HttpConnectTimeoutException: HTTP connect timed out,10 mailmx0004.rlp.de.; 10 mailmx0003.rlp.de.; 10 mailmx0001.rlp.de.; 10 mailmx0002.rlp.de.
 binzen.de,4,wikidata,Vorderes Kandertal GVV,,HttpConnectTimeoutException: HTTP connect timed out,none
 bio.mpg.de,4,wikidata,Max Planck Institute for Biology Tübingen,,HttpConnectTimeoutException: HTTP connect timed out,10 mailhost.tuebingen.mpg.de.
-biologie.uni-hamburg.de,4,academia,Alter Botanischer Garten Hamburg,central-1,,
 birkenreuth.de,4,wikidata,Q133290541,,HttpConnectTimeoutException: HTTP connect timed out,none
 bitburg-pruem.de,4,wikidata,Eifelkreis Bitburg-Prüm,,HttpConnectTimeoutException: HTTP connect timed out,none
 bitbw.de,4,wikidata,Q19969631,,HttpConnectTimeoutException: HTTP connect timed out,none
-bits.de,4,academia,Berlin Information-Center for Transatlantic Security,central-1,,
 bldam-brandenburg.de,4,wikidata,Brandenburg State Office for the Preservation of Historical Monuments and State Archaeological Museum,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 blfd.bayern.de,4,wikidata,Bavarian State Office for Monument Protection,central-1,200,none
 blm.de,4,wikidata,Bayerische Landeszentrale für neue Medien,central-1,302,none
@@ -1389,14 +1379,11 @@ buxach.ffw-mm.de,4,wikidata,Q133290654,,HttpConnectTimeoutException: HTTP connec
 bv-pfalz.de,4,wikidata,District association Palatinate,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 bvo.de,4,wikidata,Bezirksverband Oldenburg,,200,10 mta1in.kdo.de.; 10 mta2in.kdo.de.
 cbs.mpg.de,4,wikidata,Max Planck Institute for Human Cognitive and Brain Sciences,,ConnectException,none
-chemie.hu-berlin.de,4,academia,Humboldt Universität Berlin Department of Chemistry,central-1,,
 china-botschaft.de,4,wikidata,"Embassy of the People's Republic of China, Berlin",central,HttpConnectTimeoutException: HTTP connect timed out,none
 coburg.ihk.de,4,wikidata,Q31840087,,301,none
 cochem-zell.de,4,wikidata,Cochem-Zell,,301,none
 coll.mpg.de,4,wikidata,Max Planck Institute for Behavioral Economics,,301,none
-complit.fu-berlin.de,4,academia,Freie Universitat Berlin. Peter Szondi-Institut fü̈r Allgemeine und Vergleichende Literaturwissenschaft,central-1,,
 cottbus.ihk.de,4,wikidata,Industrie- und Handelskammer Cottbus,,301,none
-csmc.uni-hamburg.de,4,academia,"Centre for the Study of Manuscript Cultures, Hamburg",central-1,,
 cvua-freiburg.de,4,wikidata,Chemisches und Veterinäruntersuchungsamt Freiburg,,200,none
 cvua-mel.de,4,wikidata,Chemical and veterinary research office Münsterland-Emscher-Lippe,,200,none
 cvua-owl.de,4,wikidata,CVUA OWL,,200,5 mx.krz.de.
@@ -2777,12 +2764,12 @@ fw.hoechstaedt.de,4,wikidata,Q133291675,,ConnectException,none
 fwbs.de,4,wikidata,Q134596821,,301,10 mail.fwbs.de.
 fwrs.de,4,wikidata,Q133293140,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 gars.de,4,wikidata,Verwaltungsgemeinschaft Gars am Inn,,301,none
+gdfb.de,4,wikidata,Geologischer Dienst für Bremen,,301,none
 gdke.rlp.de,4,wikidata,Rhineland-Palatinate General Directorate for Cultural Heritage,central-1,200,none
 gebcom.de,4,wikidata,Q133293594,,200,none
 gedaechtniskirche-berlin.de,4,wikidata,Evangelische Kaiser-Wilhelm-Gedächtnis-Kirchengemeinde Berlin,,301,none
 gefahrenschutzzug.de,4,wikidata,Q133292153,,503,none
 geisenfeld.de,4,wikidata,Verwaltungsgemeinschaft Geisenfeld,,HttpConnectTimeoutException: HTTP connect timed out,50 mx0.geisenfeld.de.
-geisteswissenschaften.fu-berlin.de,4,academia,Institut für Theaterwissenschaft der FU Berlin,central-1,,
 gelsenkirchen.de,4,wikidata,Q39079930,,HttpConnectTimeoutException: HTTP connect timed out,none
 gemeinde-alt-meteln.de,4,wikidata,Q135670493,,HttpConnectTimeoutException: HTTP connect timed out,none
 gemeinde-emmerting.de,4,wikidata,Verwaltungsgemeinschaft Emmerting,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -2791,9 +2778,7 @@ gemeinde-lauben.de,4,wikidata,Q133292085,,301,none
 gemeinde-wald.de,4,wikidata,Verwaltungsgemeinschaft Wald,,HttpConnectTimeoutException: HTTP connect timed out,none
 gensta.sachsen-anhalt.de,4,wikidata,Generalstaatsanwaltschaft Naumburg,central-1,400,none
 geo.bremen.de,4,wikidata,GeoInformation Bremen,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-geo.fu-berlin.de,4,academia,Freie Universität Berlin Department of Earth Sciences,central-1,,
 geobasis-bb.de,4,wikidata,Landesvermessung und Geobasisinformation Brandenburg,central-1,302,100 pmmx-hea-p01.brandenburg.de.; 100 pmmx-hea-p02.brandenburg.de.
-geographie.hu-berlin.de,4,academia,"Geography Department, Humboldt-Universität zu Berlin",central-1,,
 gera.ihk.de,4,wikidata,Q81935194,,301,none
 geratal.de,4,wikidata,Geratal,,HttpConnectTimeoutException: HTTP connect timed out,none
 germany.iom.int,4,directory,Internationale Organisation für Migration,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -2840,7 +2825,6 @@ gvv-hardheim-wallduern.de,4,wikidata,Hardheim-Walldürn GVV,,301,none
 gvv-heuberg.de,4,wikidata,Heuberg GVV,,HttpConnectTimeoutException: HTTP connect timed out,10 mx6.kvnbw.de.; 10 mx7.kvnbw.de.; 10 mx9.kvnbw.de.; 10 mx8.kvnbw.de.
 gvv-kw.de,4,wikidata,Kirchberg-Weihungstal GVV,,HttpConnectTimeoutException: HTTP connect timed out,none
 gvvschoenau.de,4,wikidata,Schönau im Schwarzwald GVV,,301,none
-gwz-berlin.de,4,academia,Geisteswissenschaftliche Zentren Berlin,central-1,,
 h-brs.de,4,academia,Bonn-Rhein-Sieg University of Applied Sciences,central-1,,
 h-da.de,4,academia,Darmstadt University of Applied Sciences,central-1,,
 h-ka.de,4,academia,Karlsruhe University of Applied Sciences,central-1,,
@@ -2909,9 +2893,7 @@ hft-stuttgart.de,4,academia,University of Applied Sciences Stuttgart,central-1,,
 hfwu.de,4,academia,Nürtingen-Geislingen University of Applied Science,central-1,,
 hgb-leipzig.de,4,academia,Academy of Fine Arts Leipzig,central-1,,
 hhu.de,4,academia,University of Düsseldorf,central-1,,
-hil.hessen.de,4,academia,Hessisches Landesamt für Geschichtliche Landeskunde,central-1,,
 hirblingen.de,4,wikidata,Q133291580,,200,none
-his-online.de,4,academia,Hamburg Institute for Social Research,central-1,,
 hk24.de,4,wikidata,Hamburg Chamber of Commerce,,301,10 mx01.ihk.de.; 10 mx02.ihk.de.; 10 mx04.ihk.de.
 hlfs.hessen.de,4,wikidata,Hessische Landesfeuerwehrschule,central-1,200,none
 hmt-leipzig.de,4,academia,University of Music and Theatre Leipzig,central-1,,
@@ -2989,19 +2971,11 @@ hwg-lu.de,4,academia,University of Applied Sciences Ludwigshafen,central-1,,
 hwr-berlin.de,4,academia,Berlin School of Economics and Law,central-1,,
 hzd.hessen.de,4,wikidata,Hessian Central Office for Data Processing,central-1,200,none
 hzg.de,4,academia,Helmholtz Centre Hereon,central,,
-iai.spk-berlin.de,4,academia,Ibero-American Institute Berlin,central-1,,
-iaw.uni-bremen.de,4,academia,Universitat Bremen Institut Arbeit und Wirtschaft,central-1,,
 ibbw-bw.de,4,academia,Q92802556,central-1,,
-ibi.hu-berlin.de,4,academia,Berlin School of Library and Information Science,central-1,,
 ibk-heyrothsberge.sachsen-anhalt.de,4,wikidata,Institut für Brand- und Katastrophenschutz Heyrothsberge,,400,none
 ice.mpg.de,4,wikidata,Max Planck Institute for Chemical Ecology,,301,none
 ichenhausen.de,4,wikidata,Verwaltungsgemeinschaft Ichenhausen,,301,none
-idglbw.de,4,academia,Institute of Danube Swabian History and Regional Studies,central-1,,
 ie-freiburg.mpg.de,4,wikidata,Max Planck Institute of Immunobiology and Epigenetics,,301,none
-ifl-leipzig.de,4,academia,Leibniz Institute for Regional Geography,central-1,,
-ifm.zmaw.de,4,academia,Institut für Meereskunde der Universität Hamburg,central-1,,
-ifsh.de,4,academia,Institute for Peace Research and Security Policy at the University of Hamburg,central-1,,
-igl.uni-mainz.de,4,academia,Institut für Geschichtliche Landeskunde Rheinland-Pfalz,central-1,,
 ihk-arnsberg.de,4,wikidata,IHK Arnsberg,,200,none
 ihk-berlin.de,4,wikidata,IHK Berlin,,301,none
 ihk-emden.de,4,wikidata,Q1648603,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -3031,20 +3005,15 @@ ikkbb.de,4,wikidata,Innungskrankenkasse Brandenburg und Berlin,central-1,301,non
 illschwang.de,4,wikidata,Verwaltungsgemeinschaft Illschwang,,301,none
 ilm-kreis.de,4,wikidata,Ilm-Kreis,,301,none
 ilmmuenster.de,4,wikidata,Verwaltungsgemeinschaft Ilmmünster,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ilmmuenster.de found.,none
-ils-forschung.de,4,academia,ILS–Institut für Landes- und Stadtentwicklungsforschung,central-1,,
 ilsfeld.de,4,wikidata,Citizens' centre Ilsfeld,,301,none
-immunologie.charite.de,4,academia,Institute of Medical Immunology of the Charité Berlin,central-1,,
 inchenhofen.de,4,wikidata,Q133291724,,200,none
 indonesianembassy.de,4,wikidata,"embassy of Indonesia, Berlin",central,ConnectException,none
-inf.uni-hamburg.de,4,academia,Universität Hamburg Fachbereich Informatik,central-1,,
 informationsfreiheit-mv.de,4,wikidata,Q55501230,central-1,301,10 mx04.mvnet.de.; 10 mx03.mvnet.de.
 ingolstadt.de,4,wikidata,Ingolstadt,,301,10 mxtls.expurgate.net.
 innen.hessen.de,4,wikidata,"Hessian Ministry of the Interior, for Security and Homeland Security",central-1,200,10 mx-in-20.hessen.de.; 10 mx-in-10.hessen.de.
-institut-aktuelle-kunst.de,4,academia,Institute for Contemporary Art in Saarland,central-1,,
 institut-fuer-stadtgeschichte.de,4,wikidata,Q140001246,,301,none
 international.gouv.qc.ca,4,wikidata,Quebec Government Office in Munich,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
 ip.mpg.de,4,wikidata,Max Planck Institute for Innovation and Competition,,302,none
-ipu-berlin.de,4,academia,Psychotherapeutic University Outpatient Clinic of the IPU Berlin,central-1,,
 iqsh.de,4,wikidata,Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein,central-1,301,none
 irights-lab.de,4,wikidata,iRights.Lab,,200,none
 is.mpg.de,4,wikidata,Max Planck Institute for Intelligent Systems,,302,10 b2811.mx.srv.dfn.de.; 10 c2811.mx.srv.dfn.de.; 10 a2811.mx.srv.dfn.de.
@@ -3074,7 +3043,6 @@ kbb.eu,4,directory,Kulturveranstaltungen des Bundes in Berlin GmbH,,HttpConnectT
 kdo.de,4,wikidata,Q130659763,,HttpConnectTimeoutException: HTTP connect timed out,none
 kek-spk.de,4,wikidata,Coordination Office for the Preservation of the Written Cultural Heritage,,301,none
 kenyaembassyberlin.de,4,wikidata,"Embassy of Kenya, Berlin",central,403,none
-kfn.de,4,academia,Criminological Research Institute of Lower Saxony,central-1,,
 kfw-entwicklungsbank.de,4,wikidata,KfW Development Bank,,HttpConnectTimeoutException: HTTP connect timed out,none
 kgl-bw.de,4,academia,Kommission für geschichtliche Landeskunde in Baden-Württemberg,central-1,,
 kh-berlin.de,4,academia,Weißensee Academy of Art Berlin,central-1,,
@@ -3083,7 +3051,6 @@ khm.de,4,academia,Academy of Media Arts Cologne,central-1,,
 khs-tbb.de,4,wikidata,Q109612661,,HttpConnectTimeoutException: HTTP connect timed out,10 khstbb-de0i.mail.protection.outlook.com.
 kippenheim.de,4,wikidata,Q108696986,,301,10 mx7.kvnbw.de.; 10 mx9.kvnbw.de.; 10 mx8.kvnbw.de.; 10 mx6.kvnbw.de.
 kirchehrenbach.de,4,wikidata,Verwaltungsgemeinschaft Kirchehrenbach,,HttpConnectTimeoutException: HTTP connect timed out,none
-klassphil.hu-berlin.de,4,academia,Humboldt Universität zu Berlin Institut für Klassische Philologie,central-1,,
 kleinerdlingen.de,4,wikidata,Q133291907,,200,none
 kleinheubach.de,4,wikidata,Verwaltungsgemeinschaft Kleinheubach,,302,none
 kleinwallstadt.de,4,wikidata,Verwaltungsgemeinschaft Kleinwallstadt,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -3153,9 +3120,7 @@ kunstakademie-duesseldorf.de,4,academia,Kunstakademie Düsseldorf,central-1,,
 kunstakademie-karlsruhe.de,4,academia,"Academy of Fine Arts, Karlsruhe",central-1,,
 kunstakademie-muenster.de,4,academia,Academy of Fine Arts Münster,central-1,,
 kunstforum.net,4,directory,Kunstforum Ostdeutsche Galerie,,301,50 mx4.agenturserver.de.; 10 mx2.agenturserver.de.; 10 mx1.agenturserver.de.; 20 mx3.agenturserver.de.
-kunstgeschichte.hu-berlin.de,4,academia,"Humboldt University of Berlin, Institute of Art and Visual History",central-1,,
 kunsthochschule-mainz.de,4,academia,"Akademie für Bildende Künste (Mainz, Germany)",central-1,,
-kunststoffcampus-bayern.de,4,academia,Plastic Campus Bavaria,central-1,,
 kuwait-botschaft.de,4,wikidata,embassy of Kuwait in Germany,central,200,none
 kvg-kiel.de,4,wikidata,Verkehrsverbund Region Kiel,,301,5 mail.kvg-kiel.de.
 kvv.de,4,wikidata,Karlsruhe Transport Association,,301,10 vbk.in.tmes.trendmicro.eu.
@@ -3171,7 +3136,6 @@ lag.sachsen-anhalt.de,4,wikidata,Q1802094,central-1,400,none
 lagb.sachsen-anhalt.de,4,wikidata,Landesamt für Geologie und Bergwesen,central-1,400,none
 lagrp.justiz.rlp.de,4,wikidata,Landesarbeitsgericht Rheinland-Pfalz,central-1,200,none
 lahn-dill-kreis.de,4,wikidata,Lahn-Dill-Kreis,,301,50 mx3.lahn-dill-kreis.de.; 10 mx2.lahn-dill-kreis.de.
-lai.fu-berlin.de,4,academia,Freie Universität Berlin. Lateinamerika-Institut,central-1,,
 laimerstadt.de,4,wikidata,Q133292036,,HttpConnectTimeoutException: HTTP connect timed out,none
 lallf.de,4,wikidata,Q119241877,,HttpConnectTimeoutException: HTTP connect timed out,none
 lalling.de,4,wikidata,Verwaltungsgemeinschaft Lalling,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -3499,7 +3463,6 @@ marktleugast.de,4,wikidata,Verwaltungsgemeinschaft Marktleugast,,302,none
 marquartstein.de,4,wikidata,Verwaltungsgemeinschaft Marquartstein,,301,10 marquartstein-de.mail.protection.outlook.com.
 massenricht.de,4,wikidata,Q133292284,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching massenricht.de found.,none
 massing.de,4,wikidata,Verwaltungsgemeinschaft Massing,,301,none
-math-berlin.de,4,academia,Berlin Mathematical School,central-1,,
 mattsieser-vereine.de,4,wikidata,Q133292287,,HttpConnectTimeoutException: HTTP connect timed out,none
 mauretanien-embassy.de,4,wikidata,"Embassy of Mauritania, Berlin",central,301,none
 mayen-koblenz.de,4,wikidata,Mayen-Koblenz,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -3527,7 +3490,6 @@ meinheim.vgem-altmuehltal.de,4,wikidata,Altmühltal,,ConnectException,none
 merzhausen.de,4,wikidata,Verwaltungsgemeinschaft Hexental,,301,none
 merzig-wadern.de,4,wikidata,Merzig-Wadern District,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.merzig-wadern.de.
 mespelbrunn.de,4,wikidata,Verwaltungsgemeinschaft Mespelbrunn,,SSLHandshakeException: Remote host terminated the handshake,none
-metropolitanstudies.de,4,academia,Technische Universität Berlin Center for Metropolitan Studies,central-1,,
 meyer-textilmaschinen.de,4,wikidata,Q133291800,,SSLException: (internal_error) Received fatal alert: internal_error,none
 mh-freiburg.de,4,academia,Hochschule für Musik Freiburg,central-1,,
 mh-luebeck.de,4,academia,Lübeck Academy of Music,central-1,,
@@ -3603,12 +3565,9 @@ neuburg-schrobenhausen.de,4,wikidata,District of  Neuburg-Schrobenhausen,,HttpCo
 neuenbuerg.de,4,wikidata,Q134593869,,HttpConnectTimeoutException: HTTP connect timed out,none
 neumarkt-sankt-veit.de,4,wikidata,Verwaltungsgemeinschaft Neumarkt-Sankt Veit,,HttpConnectTimeoutException: HTTP connect timed out,none
 neustadt.de,4,wikidata,Landkreis Neustadt an der Waldnaab,,301,none
-ni.hu-berlin.de,4,academia,"Nordeuropa-Institut, Humboldt-Universität zu Berlin",central-1,,
 nicaraguaportal.de,4,wikidata,"Embassy of Nicaragua, Berlin",central,301,none
 niedersachsentarif.de,4,wikidata,Niedersachsentarif,,301,none
 niersverband.de,4,wikidata,Niersverband,,301,none
-nifbe.de,4,academia,Lower Saxony Institute for Early Childhood Education and Development,central-1,,
-nife-hannover.de,4,academia,"Lower Saxony Centre for Biomedical Engineering, Implant Research and Development",central-1,,
 nla.niedersachsen.de,4,wikidata,Lower Saxony State Archive,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 inetmail14.niedersachsen.de.; 5 inetmail23.niedersachsen.de.; 5 inetmail13.niedersachsen.de.
 nlbl.niedersachsen.de,4,wikidata,Q62096435,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 nlbv.niedersachsen.de,4,wikidata,Q62096434,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -3642,7 +3601,6 @@ oberverwaltungsgericht.niedersachsen.de,4,wikidata,Niedersächsisches Oberverwal
 obk.de,4,wikidata,Oberbergischer Kreis,,HttpConnectTimeoutException: HTTP connect timed out,10 gw11.civitec.de.; 10 gw12.civitec.de.
 odenwaldkreis.de,4,wikidata,Odenwald,,HttpConnectTimeoutException: HTTP connect timed out,none
 oeffis.de,4,wikidata,Verkehrsgesellschaft Hameln-Pyrmont,,HttpConnectTimeoutException: HTTP connect timed out,none
-oekumene-akademie.de,4,academia,Academy for International Ecumenism at Hamburg University,central-1,,
 oesterreich.ahk.de,4,wikidata,Deutsche Handelskammer in Österreich,,HttpConnectTimeoutException: HTTP connect timed out,none
 ofd-karlsruhe.fv-bwl.de,4,wikidata,Oberfinanzdirektion Karlsruhe,,HttpConnectTimeoutException: HTTP connect timed out,none
 ofd.hessen.de,4,wikidata,Oberfinanzdirektion Frankfurt am Main,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -3697,7 +3655,6 @@ ph-karlsruhe.de,4,academia,Karlsruhe University of Education,central-1,,
 ph-ludwigsburg.de,4,academia,Ludwigsburg University of Education,central-1,,
 ph-weingarten.de,4,academia,Weingarten University of Education,central-1,,
 philippine-embassy.de,4,wikidata,Embassy of the Philippines in Germany,central,HttpTimeoutException: request timed out,none
-physik.hu-berlin.de,4,academia,Humboldt-Universität zu Berlin Institut für Physik,central-1,,
 pillnach.de,4,wikidata,Q133292918,,ConnectException,none
 pks.mpg.de,4,wikidata,Max Planck Institute for the Physics of Complex Systems,,302,none
 poenning.de,4,wikidata,Q133293016,,200,none
@@ -3711,7 +3668,6 @@ popakademie.de,4,academia,Popakademie Baden-Württemberg,central-1,,
 potsdam-mittelmark.de,4,wikidata,Potsdam-Mittelmark District,,301,10 gate.potsdam-mittelmark.de.
 pressath.de,4,wikidata,Verwaltungsgemeinschaft Pressath,,HttpConnectTimeoutException: HTTP connect timed out,10 mail2.asplogin.de.
 prif.org,4,directory,Leibniz-Institut für Friedens- und Konfliktforschung,,301,none
-psychology.hu-berlin.de,4,academia,Humboldt Universität zu Berlin Institut für Psychologie,central-1,,
 purk.de,4,wikidata,Q133293009,,HttpConnectTimeoutException: HTTP connect timed out,none
 radebeul.de,4,wikidata,Volunteer fire departments in Radebeul,,HttpConnectTimeoutException: HTTP connect timed out,10 s2vg300mr01.pzd-svn.de.; 20 s2vg300mr02.pzd-svn.de.
 ramsthal.de,4,wikidata,Q133293043,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -3746,7 +3702,6 @@ rhein-neckar-kreis.de,4,wikidata,Rhein Neckar District,,ConnectException,none
 rhein-pfalz-kreis.de,4,wikidata,Rhein-Pfalz district,,301,none
 rhein-sieg-kreis.de,4,wikidata,Rhein-Sieg District,,301,none
 rheingau-taunus.de,4,wikidata,Rheingau-Taunus-Kreis,,301,10 mx3sgie.ekom21.de.; 10 mx3skas.kgrz-ks.de.; 10 mx4skas.kgrz-ks.de.; 10 mx5skas.kgrz-ks.de.
-rhododendronpark-bremen.de,4,academia,Rhododendron-Park Bremen,central-1,,
 rmv.de,4,wikidata,Rhein-Main-Verkehrsverbund,,HttpConnectTimeoutException: HTTP connect timed out,none
 roeckenricht.de,4,wikidata,Q133293216,,SSLException: (internal_error) Received fatal alert: internal_error,10 mx01.kundenserver.de.; 10 mx00.kundenserver.de.
 roettingen.de,4,wikidata,Verwaltungsgemeinschaft Röttingen,,301,none
@@ -3772,7 +3727,6 @@ saale-orla-kreis.de,4,wikidata,Saale-Orla-Kreis,,HttpConnectTimeoutException: HT
 saaleholzlandkreis.de,4,wikidata,Saale-Holzland-Kreis,,HttpConnectTimeoutException: HTTP connect timed out,none
 saalekreis.de,4,wikidata,Saalekreis,,HttpConnectTimeoutException: HTTP connect timed out,3 mx1.saalekreis.de.; 4 mx2.saalekreis.de.
 saalkreis-nord.de,4,wikidata,North Saalkreis Administrative Community,,HttpConnectTimeoutException: HTTP connect timed out,none
-saarland-informatics-campus.de,4,academia,Saarland Informatics Campus,central-1,,
 saarpfalz-kreis.de,4,wikidata,Saarpfalz-Kreis,,HttpConnectTimeoutException: HTTP connect timed out,none
 salgen.de,4,wikidata,Q133293252,,HttpConnectTimeoutException: HTTP connect timed out,none
 salzlandkreis.de,4,wikidata,Salzlandkreis,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -3845,7 +3799,6 @@ sozialgericht-stuttgart.justiz-bw.de,4,wikidata,Q1394992,central-1,301,none
 sozialgericht-ulm.justiz-bw.de,4,wikidata,Q2305688,central-1,301,none
 sparneck.de,4,wikidata,Verwaltungsgemeinschaft Sparneck,,301,none
 spielmannszug-weihmichl.de,4,wikidata,Q133294007,,301,none
-sprachenzentrum.fu-berlin.de,4,academia,Freie Universität Berlin Zentraleinrichtung Sprachenzentrum,central-1,,
 srilanka-botschaft.de,4,wikidata,embassy of Sri Lanka in Germany,central,200,5 smtpin.rzone.de.
 sta-bochum.nrw.de,4,wikidata,Q17326362,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sta-bochum.nrw.de found.,none
 sta-duisburg.nrw.de,4,wikidata,Staatsanwaltschaft Duisburg,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sta-duisburg.nrw.de found.,none
@@ -3869,6 +3822,8 @@ staedteregion-aachen.de,4,wikidata,Aachen cities region,,301,none
 stalu-mv.de,4,wikidata,Q131341647,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 stamsried.de,4,wikidata,Verwaltungsgemeinschaft Stamsried,,301,none
 stapforzheim.justiz-bw.de,4,wikidata,Staatsanwaltschaft Pforzheim,,HttpConnectTimeoutException: HTTP connect timed out,none
+statistik-nord.de,4,wikidata,Statistisches Amt für Hamburg und Schleswig-Holstein,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+statistik.bremen.de,4,wikidata,Statistisches Landesamt Bremen,,HttpConnectTimeoutException: HTTP connect timed out,none
 statistik.rlp.de,4,wikidata,Q2333954,,HttpConnectTimeoutException: HTTP connect timed out,none
 stbafs.bayern.de,4,wikidata,Staatliches Bauamt,,HttpConnectTimeoutException: HTTP connect timed out,none
 steigerwaldedv.de,4,wikidata,Q133290310,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -3946,6 +3901,7 @@ uni-bamberg.de,4,academia,University of Bamberg,central-1,,
 uni-bayreuth.de,4,academia,University of Bayreuth,central-1,,
 uni-bielefeld.de,4,academia,Bielefeld University,central-1,,
 uni-bonn.de,4,academia,University of Bonn,central-1,,
+uni-bremen.de,4,academia,University of Bremen,central-1,,
 uni-due.de,4,academia,University of Duisburg-Essen,central-1,,
 uni-erfurt.de,4,academia,University of Erfurt,central-1,,
 uni-flensburg.de,4,academia,University of Flensburg,central-1,,
@@ -3976,6 +3932,7 @@ uni-passau.de,4,academia,University of Passau,central-1,,
 uni-potsdam.de,4,academia,University of Potsdam,central-1,,
 uni-regensburg.de,4,academia,University of Regensburg,central-1,,
 uni-rostock.de,4,academia,University of Rostock,central-1,,
+uni-saarland.de,4,academia,Saarland University,central-1,,
 uni-siegen.de,4,academia,University of Siegen,central-1,,
 uni-speyer.de,4,academia,German University of Administrative Sciences Speyer,central-1,,
 uni-stuttgart.de,4,academia,University of Stuttgart,central-1,,
@@ -4303,7 +4260,6 @@ wettbewerbszentrale.de,4,wikidata,Wettbewerbszentrale e.V.,,301,10 mail.wettbewe
 wetteraukreis.de,4,wikidata,Wetteraukreis,,307,10 mx3skas.kgrz-ks.de.; 10 mx5skas.kgrz-ks.de.; 10 mx4skas.kgrz-ks.de.; 10 mx3sgie.ekom21.de.
 wieratal.de,4,wikidata,Wieratal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 wiesbaden.de,4,wikidata,Fire Brigade Wiesbaden,,302,none
-wiko-berlin.de,4,academia,Institute for Advanced Study Berlin,central-1,,
 wilhelma.de,4,academia,Wilhelma,central-1,,
 wilhelmshaven.de,4,wikidata,Q104031261,,301,none
 willmersreuth.de,4,wikidata,Q133294115,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching willmersreuth.de found.,10 mx03.secure-mailgate.com.; 10 mx04.secure-mailgate.com.
@@ -4351,7 +4307,6 @@ z-m-s.de,4,wikidata,Q132859920,,HttpConnectTimeoutException: HTTP connect timed 
 z-u-g.org,4,directory,Zukunft-Umwelt-Gesellschaft gGmbH,,HttpConnectTimeoutException: HTTP connect timed out,none
 zak-kempten.de,4,wikidata,Zweckverband für Abfallwirtschaft Kempten,,SSLHandshakeException: Remote host terminated the handshake,0 zakkempten-de0i.mail.protection.outlook.com.
 zambiaembassy.de,4,wikidata,Embassy of the Republic of Zambia in Germany,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-zarm.uni-bremen.de,4,academia,Fallturm Bremen,central-1,,
 zaw-coburg.de,4,wikidata,Q65246909,,301,10 pmg01.nec.hostspezial.cloud.
 zbw.eu,4,directory,ZBW - Leibniz Informationszentrum Wirtschaft,,301,none
 zeitgeschichte-hamburg.de,4,academia,Forschungsstelle für Zeitgeschichte in Hamburg,central-1,,
@@ -4362,7 +4317,6 @@ zfh.de,4,wikidata,Zentrum für Fernstudien im Hochschulverbund,central-1,HttpCon
 zfu.de,4,wikidata,State Central Office for Distance Learning,,200,none
 zgb.de,4,wikidata,Regionalverband Großraum Braunschweig,central-1,ConnectException,none
 zi.de,4,academia,Zentralinstitut für die kassenärztliche Versorgung in der Bundesrepublik Deutschland,central,,
-zib.de,4,academia,Zuse Institute Berlin,central-1,,
 znas.de,4,wikidata,Q231848,,301,none
 zollernalbkreis.de,4,wikidata,Zollernalbkreis,,302,10 mx9.kvnbw.de.; 10 mx6.kvnbw.de.; 10 mx8.kvnbw.de.; 10 mx7.kvnbw.de.
 zollkriminalamt.de,4,wikidata,Zollkriminalamt,,303,none
@@ -4372,7 +4326,6 @@ zrf.de,4,wikidata,Q231857,,200,none
 zrk-info.de,4,wikidata,Q18030063,,200,none
 zsl-bw.de,4,wikidata,Q92802365,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 zsm.snsb.de,4,academia,Bavarian State Collection of Zoology,central-1,,
-zsw-bw.de,4,academia,Centre for Solar Energy and Hydrogen Research Baden-Württemberg,central-1,,
 zv-schwerinerumland.de,4,wikidata,Zweckverband Schweriner Umland,,301,none
 zvhws.de,4,wikidata,Q109569805,,301,none
 zvnl.de,4,wikidata,Zweckverband für den Nahverkehrsraum Leipzig,,200,none
@@ -4394,25 +4347,17 @@ bastheim.feuerwehren.bayern,3,wikidata,Q133290472,,200,none
 bergkirchen.net,3,wikidata,Q134974226,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.bergkirchen.net.
 berglern.feuerwehren.bayern,3,wikidata,Q133290505,,HttpConnectTimeoutException: HTTP connect timed out,none
 berlim.embaixadaportugal.mne.pt,3,wikidata,"Embassy of Portugal, Berlin",central,HttpConnectTimeoutException: HTTP connect timed out,none
-berlin-institut.org,3,academia,Berlin Institute for Population and Development,central-1,,
 berlin.embassy.mn,3,wikidata,"Embassy of Mongolia, Berlin",central,HttpConnectTimeoutException: HTTP connect timed out,none
 berlin.embassy.qa,3,wikidata,"Embassy of Qatar, Berlin",central,HttpConnectTimeoutException: HTTP connect timed out,none
 berlin.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Berlin,,HttpConnectTimeoutException: HTTP connect timed out,none
-berlin.instytutpileckiego.pl,3,academia,Pilecki Institute in Berlin,central-1,,
 berlin.mae.lu,3,wikidata,"Embassy of Luxembourg, Berlin",central,HttpConnectTimeoutException: HTTP connect timed out,none
 berlin.mae.ro,3,wikidata,"Embassy of Romania, Berlin",central,HttpConnectTimeoutException: HTTP connect timed out,none
 berlin.mfa.ee,3,wikidata,Embassy of Estonia in Berlin,central,HttpConnectTimeoutException: HTTP connect timed out,none
 berlin.mofa.go.ug,3,wikidata,embassy of Uganda in Germany,central,HttpConnectTimeoutException: HTTP connect timed out,none
 berlin.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Berlin",central,HttpConnectTimeoutException: HTTP connect timed out,none
-berlinmanhattan.org,3,academia,Berlin Manhattan Institut,central-1,,
-bifold.berlin,3,academia,Berlin Institute for the Foundations of Learning and Data,central-1,,
-bihealth.org,3,academia,Berlin Institute for Health Research,central-1,,
 bischofswiesen.feuerwehren.bayern,3,wikidata,Q133290557,,200,none
-bo.berlin,3,academia,Botanic Garden and Botanical Museum Berlin,central-1,,
 boerwang.feuerwehren.bayern,3,wikidata,Q133290663,,200,none
-cbh.pan.pl,3,academia,Centre for Historical Research in Berlin,central-1,,
 cispa.saarland,3,academia,CISPA – Helmholtz Center for Information Security,central,,
-citylab-berlin.org,3,academia,CityLAB Berlin,central-1,,
 cjfa.eu,3,academia,Franco-German Legal Centre,central-1,,
 consulfrance-munich.org,3,wikidata,Consulate General of France in Munich,central-1,ConnectException,none
 consulfrance-sarrebruck.org,3,wikidata,Consulate General of France in Saarbrücken,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -4544,7 +4489,6 @@ haardorf.net,3,wikidata,Q133291395,,200,none
 haarschedl.feuerwehren.bayern,3,wikidata,Q133291396,,200,none
 hailing.eu,3,wikidata,Q133291416,,200,none
 hamburg.china-consulate.org,3,wikidata,"Consulate general of China, Hamburg",central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching hamburg.china-consulate.org found.,none
-hausrissen.org,3,academia,Haus Rissen Hamburg,central-1,,
 hennenbach.feuerwehren.bayern,3,wikidata,Q133290351,,200,none
 hfmdk-frankfurt.info,3,academia,Frankfurt University of Music and Performing Arts,central-1,,
 hm.edu,3,academia,Munich University of Applied Sciences,central-1,,
@@ -4555,7 +4499,6 @@ industriepark-hoechst.com,3,wikidata,Q2560363,,200,none
 instytutpolski.pl,3,wikidata,Polish Institute in Düsseldorf,,IOException: Received RST_STREAM: Internal error,none
 international-climate-initiative.com,3,wikidata,International Climate Initiative / BMU - IKI Secretariat,,301,none
 itlos.org,3,wikidata,International Tribunal for the Law of the Sea,,301,none
-iuf-berlin.org,3,academia,Berlin Manhattan Institut,central-1,,
 kersbach.feuerwehren.bayern,3,wikidata,Q133291852,,200,none
 ketterschwang.feuerwehren.bayern,3,wikidata,Q133291856,,200,none
 kiliansdorf.feuerwehren.bayern,3,wikidata,Q133291866,,200,none
@@ -4608,19 +4551,16 @@ rnn.info,3,wikidata,Rhein-Nahe-Nahverkehrsverbund,,301,none
 rueblanden.net,3,wikidata,Q133293231,,301,none
 russische-botschaft.ru,3,wikidata,"Embassy of Russia, Berlin",central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.yandex.net.
 sfbw.info,3,wikidata,Q125635318,,200,none
-share-eric.eu,3,academia,SHARE BERLIN Institute,central-1,,
 slembassy-germany.org,3,wikidata,"Embassy of Sierra Leone, Berlin",central,404,none
 stchristoph.net,3,wikidata,Q133293268,,302,10 mx00.ionos.de.; 10 mx01.ionos.de.
 steinrod.feuerwehren.bayern,3,wikidata,Q133293562,,404,none
 suedafrika.org,3,wikidata,embassy of South Africa in Germany,central,301,none
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Berlin",central,301,none
-transnationalstudies.eu,3,academia,Berlin Graduate School for Transnational Studies,central-1,,
 traunstein.com,3,wikidata,Traunstein District,,200,none
 triftlfing.feuerwehren.bayern,3,wikidata,Q133293730,,200,none
 tu.berlin,3,academia,Technische Universität Berlin,central-1,,
 tunesien.tn,3,wikidata,"Embassy of Tunisia, Berlin",central,500,none
 tyskland.um.dk,3,wikidata,embassy of Denmark in Germany,central,301,none
-uco.berlin,3,academia,UCO Berlin,central-1,,
 umg.eu,3,academia,Universitätsmedizin Göttingen,central-1,,
 unfccc.int,3,wikidata,UNFCCC secretariat,,HttpTimeoutException: request timed out,none
 unterspiesheim.feuerwehren.bayern,3,wikidata,Q133293833,,404,none
@@ -4635,7 +4575,6 @@ vgmassbach.rhoen-saale.net,3,wikidata,Verwaltungsgemeinschaft Maßbach,,HttpConn
 vgostheim.rhoen-saale.net,3,wikidata,Verwaltungsgemeinschaft Ostheim vor der Rhön,,HttpConnectTimeoutException: HTTP connect timed out,none
 vgsaal.rhoen-saale.net,3,wikidata,Verwaltungsgemeinschaft Saal an der Saale,,HttpConnectTimeoutException: HTTP connect timed out,none
 viersen.polizei.nrw,3,wikidata,Q135641524,,HttpConnectTimeoutException: HTTP connect timed out,none
-vlb-berlin.org,3,academia,VLB Berlin,central-1,,
 vogling.feuerwehren.bayern,3,wikidata,Q133293876,,200,none
 vorderhindelang.feuerwehren.bayern,3,wikidata,Q133293893,,HttpConnectTimeoutException: HTTP connect timed out,none
 vos.info,3,wikidata,Verkehrsgemeinschaft Osnabrück,,301,none

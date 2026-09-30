@@ -1,7 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 msp.ne,7,wikidata;wikidata,Ministry of Public Health,,ConnectException,none
 stat-niger.org,6,wikidata;academia,Institut National de la Statistique,central,301,none
-agrhymet.ne,4,academia,Agrhymet Regional Centre,central-1,,
 ansi.ne,4,wikidata,National Agency for the Information Society,,200,0 mail.ansi.ne.
 inran.refer.ne,4,wikidata,National Institute of Agronomic Research of Niger,,HttpConnectTimeoutException: HTTP connect timed out,none
 police.ne,4,wikidata,National Police of Niger,,ConnectException,10 zmail.police.ne.
