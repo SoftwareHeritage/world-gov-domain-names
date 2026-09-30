@@ -50,7 +50,6 @@
 ;; Targeted commands (report):
 ;;   propose [C…]       score the candidate hosts -> countries/<c>/proposed.csv
 ;;   summary [C…]       the per-country report -> countries/<c>/summary.md
-;;   cross-check [C…]   alias of report
 ;;
 ;; Other commands:
 ;;   probe-proposed [C…] HTTPS HEAD + MX of the proposed hosts
@@ -1270,7 +1269,6 @@
    ;; report
    "propose"     cmd-propose
    "summary"     cmd-summary
-   "cross-check" run-report
    ;; other
    "probe-proposed" cmd-probe-proposed
    "wayback"     cmd-wayback
@@ -1292,7 +1290,7 @@
   (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
   (println "           wikidata | academia | iana | cia | un-desa | oecd | meta")
   (println "  build:   aggregate | domains")
-  (println "  report:  propose | summary (cross-check = report)")
+  (println "  report:  propose | summary")
   (println "  other:   probe-proposed | wayback | check | cisa | lannuaire | govuk | validate-un | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
