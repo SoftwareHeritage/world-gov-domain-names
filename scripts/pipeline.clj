@@ -817,17 +817,6 @@
                     (update-in [host :levels] (fnil conj #{}) level)))))
           {} rows))
 
-(defn level1-pattern
-  "Word-bounded, case-insensitive pattern matching any of the labels
-  (4+ chars) of a country's first-level subdivisions; nil when none."
-  [labels]
-  (let [labels (->> labels (remove str/blank?) (filter #(>= (count %) 4)))]
-    (when (seq labels)
-      (re-pattern
-        (str "(?iu)\\b(?:"
-             (str/join "|" (map #(java.util.regex.Pattern/quote %) labels))
-             ")\\b")))))
-
 (defn load-candidate-ctx
   "Read what propose-candidates needs for a country: the Wikidata
   mentions and levels, the UN/DESA portal, the ccTLD, the Factbook
