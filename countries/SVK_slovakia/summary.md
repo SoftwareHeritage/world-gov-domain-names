@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [https://www.slovensko.sk](https://www.slovensko.sk) (host `slovensko.sk`)
-- ⚠️ ABSENT -- neither `slovensko.sk` covered nor `countries/SVK_slovakia/sources/crtsh/slovensko.sk.csv` present
+- ⚠️ ABSENT -- neither `slovensko.sk` covered nor `countries/SVK_slovakia/sources/harvest/slovensko.sk.csv` present
 
 ## Institutions named by CIA Factbook
 

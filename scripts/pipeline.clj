@@ -5,7 +5,7 @@
 ;; in dependency order; every targeted command writes one kind of file.
 ;;
 ;;   collect            the harvest: fetch (+ retry on failure), normalize,
-;;                      probe, mx, probe-roots -> sources/crtsh/,
+;;                      probe, mx, probe-roots -> sources/harvest/,
 ;;                      sources/probes/roots.csv
 ;;   enrich             the per-country sources: build-qid, build-gec,
 ;;                      build-un-ids, subdivisions, then wikidata +
@@ -19,7 +19,7 @@
 ;; Targeted commands (collect):
 ;;   fetch [DOM…]       crt.sh fetch (1+ domains)
 ;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
-;;   normalize          clean every harvest file (sources/crtsh/<root>.csv)
+;;   normalize          clean every harvest file (sources/harvest/<root>.csv)
 ;;   probe [DOM…]       HTTPS HEAD probe of the harvest rows with empty status
 ;;   mx [DOM…]          DNS MX lookup of the harvest rows -> mx column (email signal)
 ;;   probe-roots [C…]   HTTPS HEAD + MX of the confirmed roots that have no
@@ -53,7 +53,7 @@
 ;;   probe-proposed [C…] HTTPS HEAD + MX of the proposed hosts
 ;;                      -> sources/probes/proposed.csv (propose joins them)
 ;;   wayback DOM…       Wayback Machine CDX harvest of the given roots, merged
-;;                      into sources/crtsh/<root>.csv (slow: on demand, for the
+;;                      into sources/harvest/<root>.csv (slow: on demand, for the
 ;;                      roots crt.sh leaves empty)
 ;;   check [C…]         compile the decision files: exit 1 on a contradiction,
 ;;                      WARN on a curated row a registry already lists
@@ -82,7 +82,7 @@
             [clojure.string :as str]))
 
 ;; ===========================================================================
-;;  Harvest files -- countries/<c>/sources/crtsh/<root>.csv
+;;  Harvest files -- countries/<c>/sources/harvest/<root>.csv
 ;; ===========================================================================
 ;;
 ;; One file per harvested root domain, columns subdomain,http_status,mx:
@@ -101,7 +101,7 @@
   "All harvest files (paths as strings), scoped to one country_dir glob."
   ([] (harvest-files "*"))
   ([country-glob]
-   (->> (fs/glob "countries" (str country-glob "/sources/crtsh/*.csv"))
+   (->> (fs/glob "countries" (str country-glob "/sources/harvest/*.csv"))
         (map str)
         sort)))
 
@@ -113,7 +113,7 @@
 (defn harvest-file
   "Path of the harvest file of root in country_dir (existing or not)."
   [country-dir root]
-  (country-src country-dir "crtsh" (str root ".csv")))
+  (country-src country-dir "harvest" (str root ".csv")))
 
 (defn read-harvest
   "Rows [host http_status mx] of a harvest file; empty when absent."
@@ -176,7 +176,7 @@
   (if (seq args)
     (vec (mapcat (fn [d]
                    (let [d (str/lower-case d)
-                         existing (map str (fs/glob "countries" (str "*/sources/crtsh/" d ".csv")))
+                         existing (map str (fs/glob "countries" (str "*/sources/harvest/" d ".csv")))
                          countries (for [[c domain level] (confirmed-rows)
                                          :when (and (= domain d) (contains? harvest-levels level))]
                                      c)]
@@ -961,7 +961,7 @@
         (let [parent (parent-domain host)]
           (if (and parent (fs/exists? (harvest-file country-dir parent)))
             (println (str "- ⚠️ Exact hostname not collected, but `" parent "` is harvested (to be probed)"))
-            (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/crtsh/" (or parent host) ".csv` present"))))))
+            (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/harvest/" (or parent host) ".csv` present"))))))
     (println)))
 
 (defn- section-factbook [{:keys [fb-chief fb-head fb-courts]}]

@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.naurugov.nr](http://www.naurugov.nr) (host `naurugov.nr`)
-- ⚠️ ABSENT -- neither `naurugov.nr` covered nor `countries/NRU_nauru/sources/crtsh/naurugov.nr.csv` present
+- ⚠️ ABSENT -- neither `naurugov.nr` covered nor `countries/NRU_nauru/sources/harvest/naurugov.nr.csv` present
 
 ## Institutions named by CIA Factbook
 

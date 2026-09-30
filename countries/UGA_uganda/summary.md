@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.gou.go.ug](http://www.gou.go.ug) (host `gou.go.ug`)
-- ⚠️ ABSENT -- neither `gou.go.ug` covered nor `countries/UGA_uganda/sources/crtsh/go.ug.csv` present
+- ⚠️ ABSENT -- neither `gou.go.ug` covered nor `countries/UGA_uganda/sources/harvest/go.ug.csv` present
 
 ## Institutions named by CIA Factbook
 

@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.egov.ma](http://www.egov.ma) (host `egov.ma`)
-- ⚠️ ABSENT -- neither `egov.ma` covered nor `countries/MAR_morocco/sources/crtsh/egov.ma.csv` present
+- ⚠️ ABSENT -- neither `egov.ma` covered nor `countries/MAR_morocco/sources/harvest/egov.ma.csv` present
 
 ## Institutions named by CIA Factbook
 

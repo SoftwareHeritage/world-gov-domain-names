@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.oman.om](http://www.oman.om) (host `oman.om`)
-- ⚠️ ABSENT -- neither `oman.om` covered nor `countries/OMN_oman/sources/crtsh/oman.om.csv` present
+- ⚠️ ABSENT -- neither `oman.om` covered nor `countries/OMN_oman/sources/harvest/oman.om.csv` present
 
 ## Institutions named by CIA Factbook
 

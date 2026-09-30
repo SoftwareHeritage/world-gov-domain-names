@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.egov.sy](http://www.egov.sy) (host `egov.sy`)
-- ⚠️ ABSENT -- neither `egov.sy` covered nor `countries/SYR_syria/sources/crtsh/egov.sy.csv` present
+- ⚠️ ABSENT -- neither `egov.sy` covered nor `countries/SYR_syria/sources/harvest/egov.sy.csv` present
 
 ## Institutions named by CIA Factbook
 

@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.samoagovt.ws](http://www.samoagovt.ws) (host `samoagovt.ws`)
-- ⚠️ ABSENT -- neither `samoagovt.ws` covered nor `countries/WSM_samoa/sources/crtsh/samoagovt.ws.csv` present
+- ⚠️ ABSENT -- neither `samoagovt.ws` covered nor `countries/WSM_samoa/sources/harvest/samoagovt.ws.csv` present
 
 ## Institutions named by CIA Factbook
 

@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.mygov.go.ke](http://www.mygov.go.ke) (host `mygov.go.ke`)
-- ⚠️ ABSENT -- neither `mygov.go.ke` covered nor `countries/KEN_kenya/sources/crtsh/go.ke.csv` present
+- ⚠️ ABSENT -- neither `mygov.go.ke` covered nor `countries/KEN_kenya/sources/harvest/go.ke.csv` present
 
 ## Institutions named by CIA Factbook
 

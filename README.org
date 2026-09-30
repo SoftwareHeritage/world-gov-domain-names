@@ -90,7 +90,7 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   =central-1= or blank), HTTPS status and MX. Generated.
 - =summary.md= -- a human-readable cross-check report. Generated.
 - =sources/= -- the raw data behind the above, one folder per source,
-  never edited by hand: =crtsh/<root>.csv= (the harvest of a root,
+  never edited by hand: =harvest/<root>.csv= (the harvest of a root,
   with probes: crt.sh, plus the Wayback Machine on demand), =probes/=
   (HTTPS and MX of the confirmed roots that have no harvest, and of
   the proposed hosts), the official

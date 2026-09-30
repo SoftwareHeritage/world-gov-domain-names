@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.government.kz](http://www.government.kz) (host `government.kz`)
-- ⚠️ ABSENT -- neither `government.kz` covered nor `countries/KAZ_kazakhstan/sources/crtsh/government.kz.csv` present
+- ⚠️ ABSENT -- neither `government.kz` covered nor `countries/KAZ_kazakhstan/sources/harvest/government.kz.csv` present
 
 ## Institutions named by CIA Factbook
 

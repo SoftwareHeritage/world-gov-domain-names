@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://president.tj](http://president.tj) (host `president.tj`)
-- ⚠️ ABSENT -- neither `president.tj` covered nor `countries/TJK_tajikistan/sources/crtsh/president.tj.csv` present
+- ⚠️ ABSENT -- neither `president.tj` covered nor `countries/TJK_tajikistan/sources/harvest/president.tj.csv` present
 
 ## Institutions named by CIA Factbook
 

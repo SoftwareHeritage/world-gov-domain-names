@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.cubagob.cu](http://www.cubagob.cu) (host `cubagob.cu`)
-- ⚠️ ABSENT -- neither `cubagob.cu` covered nor `countries/CUB_cuba/sources/crtsh/cubagob.cu.csv` present
+- ⚠️ ABSENT -- neither `cubagob.cu` covered nor `countries/CUB_cuba/sources/harvest/cubagob.cu.csv` present
 
 ## Institutions named by CIA Factbook
 

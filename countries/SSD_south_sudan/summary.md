@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.goss-online.org](http://www.goss-online.org) (host `goss-online.org`)
-- ⚠️ ABSENT -- neither `goss-online.org` covered nor `countries/SSD_south_sudan/sources/crtsh/goss-online.org.csv` present
+- ⚠️ ABSENT -- neither `goss-online.org` covered nor `countries/SSD_south_sudan/sources/harvest/goss-online.org.csv` present
 
 ## Institutions named by CIA Factbook
 

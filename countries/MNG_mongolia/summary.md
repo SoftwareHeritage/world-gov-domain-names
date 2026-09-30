@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.zasag.mn](http://www.zasag.mn) (host `zasag.mn`)
-- ⚠️ ABSENT -- neither `zasag.mn` covered nor `countries/MNG_mongolia/sources/crtsh/zasag.mn.csv` present
+- ⚠️ ABSENT -- neither `zasag.mn` covered nor `countries/MNG_mongolia/sources/harvest/zasag.mn.csv` present
 
 ## Institutions named by CIA Factbook
 

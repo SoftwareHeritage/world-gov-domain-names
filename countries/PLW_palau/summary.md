@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://palaugov.pw](http://palaugov.pw) (host `palaugov.pw`)
-- ⚠️ ABSENT -- neither `palaugov.pw` covered nor `countries/PLW_palau/sources/crtsh/palaugov.pw.csv` present
+- ⚠️ ABSENT -- neither `palaugov.pw` covered nor `countries/PLW_palau/sources/harvest/palaugov.pw.csv` present
 
 ## Institutions named by CIA Factbook
 

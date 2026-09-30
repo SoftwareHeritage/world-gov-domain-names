@@ -35,7 +35,7 @@ registry already lists. The generated files are =proposed.csv=,
 =summary.md= and the =sources/= tree.
 
 The harvest lives in one file per harvested root,
-=countries/<c>/sources/crtsh/<root>.csv=, header
+=countries/<c>/sources/harvest/<root>.csv=, header
 =subdomain,http_status,mx=, the root's own apex included. Status and
 MX are empty after =fetch= / =normalize=, filled by =probe= / =mx=,
 and preserved by later phases. Confirming a root and harvesting it
@@ -80,7 +80,7 @@ files.
 ** Targeted commands
 
 #+begin_src bash
-  # collect -- sources/crtsh/<root>.csv and sources/probes/roots.csv
+  # collect -- sources/harvest/<root>.csv and sources/probes/roots.csv
   bb scripts/pipeline.clj fetch gov.it gouv.fr  # crt.sh on specific domains
   bb scripts/pipeline.clj retry                 # replay FAILs from last log
   bb scripts/pipeline.clj normalize             # clean every harvest file
@@ -110,7 +110,7 @@ files.
 
   # other
   bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts -> sources/probes/proposed.csv
-  bb scripts/pipeline.clj wayback gov.ke gov.lv # Wayback Machine CDX harvest of these roots -> sources/crtsh/<root>.csv
+  bb scripts/pipeline.clj wayback gov.ke gov.lv # Wayback Machine CDX harvest of these roots -> sources/harvest/<root>.csv
   bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction)
   bb scripts/pipeline.clj cisa                  # CISA federal .gov list -> sources/cisa/registered.csv
   bb scripts/pipeline.clj lannuaire             # FR service-public directory -> sources/lannuaire/registered.csv

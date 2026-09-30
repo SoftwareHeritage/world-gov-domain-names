@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [https://www.e-gov.az](https://www.e-gov.az) (host `e-gov.az`)
-- ⚠️ ABSENT -- neither `e-gov.az` covered nor `countries/AZE_azerbaijan/sources/crtsh/e-gov.az.csv` present
+- ⚠️ ABSENT -- neither `e-gov.az` covered nor `countries/AZE_azerbaijan/sources/harvest/e-gov.az.csv` present
 
 ## Institutions named by CIA Factbook
 

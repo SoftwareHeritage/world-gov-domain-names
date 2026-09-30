@@ -17,7 +17,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.korea-dpr.com](http://www.korea-dpr.com) (host `korea-dpr.com`)
-- ⚠️ ABSENT -- neither `korea-dpr.com` covered nor `countries/PRK_north_korea/sources/crtsh/korea-dpr.com.csv` present
+- ⚠️ ABSENT -- neither `korea-dpr.com` covered nor `countries/PRK_north_korea/sources/harvest/korea-dpr.com.csv` present
 
 ## Institutions named by CIA Factbook
 

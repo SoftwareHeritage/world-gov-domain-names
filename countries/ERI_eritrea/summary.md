@@ -18,7 +18,7 @@
 ## UN/DESA national portal
 
 - Declared: [http://www.shabait.com](http://www.shabait.com) (host `shabait.com`)
-- ⚠️ ABSENT -- neither `shabait.com` covered nor `countries/ERI_eritrea/sources/crtsh/shabait.com.csv` present
+- ⚠️ ABSENT -- neither `shabait.com` covered nor `countries/ERI_eritrea/sources/harvest/shabait.com.csv` present
 
 ## Institutions named by CIA Factbook
 
