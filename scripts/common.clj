@@ -290,14 +290,15 @@
 (defn iter-countries
   "Apply f to each country_dir of selection (all when empty), up to
   concurrency at a time (default 1: sequential). Return 1 without running
-  anything when selection names an unknown country, 0 otherwise."
+  anything when selection names an unknown country, 1 when f returned
+  :fail for a country (every country still runs), 0 otherwise."
   ([f selection] (iter-countries f selection 1))
   ([f selection concurrency]
    (if-let [targets (scoped-countries selection)]
-     (do (if (<= concurrency 1)
-           (doseq [c targets] (f c))
-           (bounded-pmap concurrency f targets))
-         0)
+     (let [results (if (<= concurrency 1)
+                     (mapv f targets)
+                     (bounded-pmap concurrency f targets))]
+       (if (some #{:fail} results) 1 0))
      1)))
 
 (defn build-un-status-map

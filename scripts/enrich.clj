@@ -332,7 +332,7 @@
                                    {"cctld" (str "." cctld) "manager" manager})
                 (println (str "  -> " (source-table "iana") " (manager: " (or (not-empty manager) "?") ")"))
                 (Thread/sleep 1000))
-              (err "  failed after 3 attempts for ." cctld))))))))
+              (do (err "  failed after 3 attempts for ." cctld) :fail))))))))
 
 (defn cmd-iana [args] (iter-countries iana-process! args conc-iana))
 
@@ -433,10 +433,10 @@
                            region "/" gec ".json")
                   body (http-get url {:timeout 30 :accept "application/json"})]
               (if (str/blank? body)
-                (err "  fetch failed")
+                (do (err "  fetch failed") :fail)
                 (let [gov (:Government (json/parse-string body true))]
                   (if (nil? gov)
-                    (err "  no Government section in response")
+                    (do (err "  no Government section in response") :fail)
                     (do (upsert-table-row! "cia_factbook" cia-header country-dir
                                            (into {} (for [[k path] cia-fields]
                                                       [k (cia-extract gov (map keyword path))])))
@@ -486,7 +486,7 @@
                            un-id "-" un-name)
                   html (http-get-curl url)]
               (if (str/blank? html)
-                (err "  fetch failed")
+                (do (err "  fetch failed") :fail)
                 (let [portal (second (re-find #"<a href=\"([^\"]+)\">National Portal</a>" html))
                       rank (re-find #"Rank \d+ of \d+" html)]
                   (upsert-table-row! "un_desa" un-desa-header country-dir
@@ -583,9 +583,11 @@
         ;; satisfy table-row-done? on the next runs and freeze the failure.
         ;; A half-filled row (one source down) is written and kept: the
         ;; missing half is only refetched with FORCE=1
+        (Thread/sleep 300)
         (if (and (nil? rc) (nil? gdp))
-          (err (str "=== " country-dir " : both metadata fetches failed;"
-                    " not writing " (source-table "country_data")))
+          (do (err (str "=== " country-dir " : both metadata fetches failed;"
+                        " not writing " (source-table "country_data")))
+              :fail)
           (do
             (upsert-table-row! "country_data" meta-header country-dir
                                {"region"         (or (:region rc) "")
@@ -597,8 +599,7 @@
                                 "gdp_year"       (or gdp-year "")})
             (println (str "=== " country-dir " : " (or (:region rc) "?")
                           " / GDP " (if gdp-val (format "%.0f" (double gdp-val)) "?")
-                          " (" (or gdp-year "?") ")"))))
-        (Thread/sleep 300)))))
+                          " (" (or gdp-year "?") ")"))))))))
 
 (defn cmd-meta [args] (iter-countries meta-process! args conc-meta))
 
@@ -622,8 +623,10 @@
                   (try
                     (let [out-file (str logs "/" name ".log")]
                       (with-open [w (io/writer out-file)]
-                        (binding [*out* w] (f args)))
-                      [name :ok nil])
+                        ;; a source returns 1 when a country failed
+                        (if (= 1 (binding [*out* w] (f args)))
+                          [name :fail "a country failed (see its log below)"]
+                          [name :ok nil])))
                     (catch Exception e
                       [name :fail (str (.getMessage e)
                                        " (" (.getName (class e)) ")")]))))
