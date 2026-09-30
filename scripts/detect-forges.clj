@@ -9,8 +9,9 @@
 ;;
 ;; Usage: bb scripts/detect-forges.clj <command> [args…]
 ;;   forges             forge-looking hosts -> data/forge-candidates.csv
-;;   forges-swh [github-orgs]
+;;   forges-swh [github-orgs] [TARGET…]
 ;;                      forge targets unknown to SWH -> data/forge-unknown-swh.csv
+;;                      (given targets: only these, merged into the file)
 ;;   forges-probe       re-probe forge-unknown-swh.csv (type + accessibility)
 ;;   github-orgs        GitHub governments.yml -> data/github-gov-orgs.csv
 ;;
@@ -292,9 +293,12 @@
   argument, data/github-gov-orgs.csv -- against the SWH origin-search API
   and write the ones SWH does not know to data/forge-unknown-swh.csv with
   their probed forge_type/http_status/note. Targets whose lookup failed
-  are kept with the note 'SWH API error'."
+  are kept with the note 'SWH API error'. Other arguments restrict the
+  check to these targets and merge the result into the existing file:
+  their rows are replaced or dropped, every other row is kept."
   [args]
-  (let [harvest (when (fs/exists? "data/forge-candidates.csv")
+  (let [only    (set (remove #{"github-orgs"} args))
+        harvest (when (fs/exists? "data/forge-candidates.csv")
                   (for [[host country _status]
                         (rest (read-csv-raw "data/forge-candidates.csv"))]
                     [host country "forge" "harvest"]))
@@ -316,8 +320,15 @@
                                (if (contains? m target) m (assoc m target row)))
                              {})
                      vals
-                     (sort-by first))]
+                     (filter #(or (empty? only) (contains? only (first %))))
+                     (sort-by first))
+        missing (remove (set (map first targets)) only)]
     (cond
+      (seq missing)
+      (do (err "ERR: not a forge target (add it to " known-forges-file "): "
+               (str/join ", " missing))
+          1)
+
       (empty? targets)
       (do (err "ERR: no targets. Run 'bb forges forges' first") 1)
 
@@ -350,8 +361,12 @@
                              (update row 6 #(str/join "; " (remove str/blank? [api-error-note %])))
                              row))
                          (probe-forge-rows to-probe)
-                         to-probe)]
-        (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header probed)
+                         to-probe)
+            kept    (when (seq only)
+                      (remove #(contains? only (first %))
+                              (rest (read-csv-raw "data/forge-unknown-swh.csv"))))]
+        (write-csv-file "data/forge-unknown-swh.csv" forge-unknown-header
+                        (sort-by first (concat kept probed)))
         (println (str "Wrote data/forge-unknown-swh.csv (" (count unknown)
                       " of " (count targets) " targets unknown to SWH"
                       (when (seq errors)
@@ -402,7 +417,7 @@
   (println "Usage: bb scripts/detect-forges.clj <command> [args…]")
   (println)
   (println "Commands:")
-  (println "  forges | forges-swh [github-orgs] | forges-probe | github-orgs")
+  (println "  forges | forges-swh [github-orgs] [TARGET…] | forges-probe | github-orgs")
   (println)
   (println "Environment variables: SWH_TOKEN, PARALLEL=N"))
 
