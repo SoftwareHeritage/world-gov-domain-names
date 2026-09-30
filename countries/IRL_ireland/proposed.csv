@@ -2,6 +2,7 @@ hostname,score,sources,label,level,http_status,mx
 citizensinformationboard.ie,7,wikidata;wikidata,Citizens Information Board,,301,10 mail.citizensinformationboard.ie.
 coru.ie,7,wikidata;wikidata,CORU | Health and Social Care Professionals Council (CORU),central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 coru-ie.mail.protection.outlook.com.
 courts.ie,7,wikidata;wikidata,Courts Service | Special Criminal Court,central,200,10 courts-ie.mail.protection.outlook.com.
+cso.ie,7,wikidata;academia,Central Statistics Office,central,301,10 mx1-eu.topsec.com.; 10 mx2-eu.topsec.com.
 epa.ie,7,wikidata;wikidata,Radiological Protection Institute of Ireland | Environmental Protection Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 epa-ie.mail.protection.outlook.com.
 garda.ie,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Garda National Economic Crime Bureau | Garda National Cyber Crime Bureau | Garda Crime and Security Branch | Special Detective Unit | Garda Síochána,central,301,1 garda-ie.mail.protection.outlook.com.
 german-irish.ie,7,wikidata;wikidata,German-Irish Chamber of Industry and Commerce,,301,0 germanirish-ie01e.mail.protection.outlook.com.
@@ -12,6 +13,7 @@ supremecourt.ie,6,wikidata,Supreme Court of Ireland,central,200,none
 aaiu.ie,4,wikidata,Air Accident Investigation Unit,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 gbext.gn.gov.ie.; 10 cwext.gn.gov.ie.
 airnav.ie,4,wikidata,Irish Air Navigation Service,,HttpConnectTimeoutException: HTTP connect timed out,0 airnav-ie.mail.protection.outlook.com.
 artscouncil.ie,4,wikidata,Arts Council of Ireland,,HttpConnectTimeoutException: HTTP connect timed out,10 de-smtp-inbound-2.mimecast.com.; 10 de-smtp-inbound-1.mimecast.com.
+botanicgardens.ie,4,academia,National Botanic Gardens,central,,
 cab.ie,4,wikidata,Criminal Assets Bureau,,301,10 cab-ie.mail.protection.outlook.com.
 ccpc.ie,4,wikidata,Competition and Consumer Protection Commission,,301,0 ccpc-ie.mail.protection.outlook.com.
 centralbank.ie,4,wikidata,Central Bank of Ireland,,301,12 mail2.centralbank.ie.; 10 mail1.centralbank.ie.; 20 mail3.centralbank.ie.; 30 mail4.centralbank.ie.
@@ -24,10 +26,10 @@ cnam.ie,4,wikidata,Coimisiún na Meán,,301,0 cnam-ie.mail.protection.outlook.co
 corkcityfirebrigade.ie,4,wikidata,Cork City Fire Brigade,,SSLHandshakeException: Remote host terminated the handshake,none
 criminalcode.ie,4,wikidata,Criminal Law Codification Advisory Committee,,301,none
 crr.ie,4,wikidata,Railway Safety Commission,,301,10 mxcluster-01.customer.mailwall.com.; 20 mxcluster-02.customer.mailwall.com.
-cso.ie,4,wikidata,Central Statistics Office,central,301,10 mx1-eu.topsec.com.; 10 mx2-eu.topsec.com.
 cultureireland.ie,4,wikidata,Culture Ireland,,403,5 eu-smtp-inbound-1.mimecast.com.; 5 eu-smtp-inbound-2.mimecast.com.
 daa.ie,4,wikidata,Airport Police,,301,10 daa-ie.mail.protection.outlook.com.
 dataprotection.ie,4,wikidata,Data Protection Commission,central,HttpConnectTimeoutException: HTTP connect timed out,10 dojmxp02.jsec.ie.; 10 dojmxp01.jsec.ie.
+dcu.ie,4,academia,Dublin City University,central,,
 decisionsupportservice.ie,4,wikidata,Decision Support Service,central,301,10 mx2.topsec.com.; 10 mx1.topsec.com.
 dentalcouncil.ie,4,wikidata,Dental Council,central,301,0 dentalcouncil-ie.mail.protection.outlook.com.
 dppireland.ie,4,wikidata,Director of Public Prosecutions,,200,0 dppireland-ie.mail.protection.outlook.com.
@@ -85,6 +87,7 @@ nmbi.ie,4,wikidata,Nursing and Midwifery Board of Ireland,,400,0 nmbi-ie.mail.pr
 npws.ie,4,wikidata,National Parks and Wildlife Service,,301,none
 ntma.ie,4,wikidata,National Treasury Management Agency,,301,30 mail2.ntma.ie.; 60 mail4.ntma.ie.; 20 mail1.ntma.ie.
 ntpf.ie,4,wikidata,National Treatment Purchase Fund,,301,5 ntpf-ie.mail.protection.outlook.com.
+ollscoilnagaillimhe.ie,4,academia,University of Galway,central,,
 opw.ie,4,wikidata,Office of Public Works,,302,10 mail1.opw.ie.; 10 mail2.opw.ie.
 palestinemission.ie,4,wikidata,Mission of the State of Palestine in Ireland,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 qmail.irishdomains.com.
 pcsaireland.ie,4,wikidata,Policing Authority,,301,10 gbext.gn.gov.ie.; 10 cwext.gn.gov.ie.
@@ -97,16 +100,22 @@ refcom.ie,4,wikidata,Referendum Commission,,301,none
 research.ie,4,wikidata,Irish Research Council,,403,0 research-ie.mail.protection.outlook.com.
 researchireland.ie,4,wikidata,Taighde Éireann - Research Ireland,,301,1 researchireland-ie.mail.protection.outlook.com.
 revenue.ie,4,wikidata,Revenue Commissioners,,301,10 revenue-ie.mail.protection.outlook.com.
+riam.ie,4,academia,Royal Irish Academy of Music,central,,
 rsa.ie,4,wikidata,Road Safety Authority,,308,0 rsa-ie.mail.protection.outlook.com.
 seai.ie,4,wikidata,Sustainable Energy Authority of Ireland,,301,0 seai-ie.mail.protection.outlook.com.
 sfpa.ie,4,wikidata,Sea Fisheries Protection Authority,,301,10 cwext.gn.gov.ie.; 10 gbext.gn.gov.ie.
 solas.ie,4,wikidata,SOLAS,central,301,10 solas-ie.mail.protection.outlook.com.
 sportireland.ie,4,wikidata,Sport Ireland Institute,,301,0 sportireland-ie.mail.protection.outlook.com.
 tailte.ie,4,wikidata,Tailte Éireann,,200,10 mx2.hc2013-12.eu.iphmx.com.; 101 mail2.tailte.ie.; 100 valoff-ie.mail.protection.outlook.com.; 15 tailte-ie.mail.protection.outlook.com.; 1 mx1.hc2013-12.eu.iphmx.com.; 20 mail.tailte.ie.
+tcd.ie,4,academia,University of Dublin,central,,
 teachingcouncil.ie,4,wikidata,Teaching Council,central,301,10 nes-mx1.titanhq.com.; 10 nes-mx2.titanhq.com.
 teagasc.ie,4,wikidata,Teagasc,,200,10 mx2.topsec.com.; 10 mx1.topsec.com.
 thepsi.ie,4,wikidata,Pharmaceutical Society of Ireland,,301,0 thepsi-ie.mail.protection.outlook.com.
 tii.ie,4,wikidata,Transport Infrastructure Ireland,,HttpConnectTimeoutException: HTTP connect timed out,1000 ms76111295.msv1.invalid.tii.ie.; 15 mail2.scanscope.net.; 5 mta01.scanscope.net.; 20 mail3.scanscope.net.; 10 mail1.scanscope.net.
+tyndall.ie,4,academia,Tyndall National Institute,central,,
+ucc.ie,4,academia,University College Cork,central,,
+ucd.ie,4,academia,University College Dublin,central,,
+universityofgalway.ie,4,academia,University of Galway,central,,
 waterfordcouncil.ie,4,wikidata,Waterford City and County Council,central-1,200,10 mx1.topsec.com.; 10 mx2.topsec.com.
 wdc.ie,4,wikidata,Western Development Commission,,301,10 hcs-ie-1.fortimailcloud.com.; 20 hcs-ie-2.fortimailcloud.com.
 ambafrance-ie.org,3,wikidata,"Embassy of France, Dublin",central,ConnectException,5 mta-gw.infomaniak.ch.

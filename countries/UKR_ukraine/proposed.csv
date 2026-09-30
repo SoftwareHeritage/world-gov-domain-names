@@ -1,6 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 gdip.com.ua,7,wikidata;wikidata,Directorate-General for Rendering Services to Diplomatic Missions,,200,10 mail.gdip.com.ua.
 gromady.cv.ua,7,wikidata;wikidata,Krasnoiilska selyshchna rada | Storozhynetska miska rada,,HttpConnectTimeoutException: HTTP connect timed out,none
+iae.org.ua,7,wikidata;academia,National Scientific Centre “Institute of Agrarian Economics”,central,HttpConnectTimeoutException: HTTP connect timed out,20 mx20.ukraine.com.ua.; 15 mail.iae.kiev.ua.
 phc.org.ua,7,wikidata;wikidata,Center for Public Health of the Ministry of Health of Ukraine,,200,0 phc-org-ua.mail.protection.outlook.com.
 rada.crimea.ua,7,wikidata;wikidata,Supreme Council of Crimea,central-1,200,56 route3.mx.cloudflare.net.; 13 route1.mx.cloudflare.net.; 89 route2.mx.cloudflare.net.
 ubi.org.ua,7,wikidata;wikidata,Ukrainian Book Institute,,302,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
@@ -34,15 +35,19 @@ ceti-nasu.org.ua,4,wikidata,Thermal Energy Technology Institute of the National 
 cherepashineck.kalynivka-rr.org.ua,4,wikidata,Q19342996,,HttpConnectTimeoutException: HTTP connect timed out,none
 chernivci.rada.org.ua,4,wikidata,Q20096629,,403,none
 chervrada.kharkov.ua,4,wikidata,Q12169641,,ConnectException,none
+chnu.edu.ua,4,academia,Chernivtsi University,central,,
 chornobay.rada.org.ua,4,wikidata,Chornobaiivska selyshchna rada,,403,none
 chortkivrr.te.ua,4,wikidata,Q20096661,,ConnectException,none
 cmhmda.org.ua,4,wikidata,Institute of Forensic Psychiatry of the Ministry of health of Ukraine,,301,10 mx1.mirohost.net.
 cntei.kiev.ua,4,wikidata,Centre for Social Innovation,,ConnectException,none
 ddcentr.org.ua,4,wikidata,Democracy Development Centre,,ConnectException,none
+demography.org.ua,4,academia,Ptukha Institute for Demography and Life Quality Problems of the National Academy of Sciences of Ukraine,central,,
 demydivska.gromada.org.ua,4,wikidata,Demydivka Rural Settlement Council,,403,none
 der.org.ua,4,wikidata,Q25422912,,200,0 der.org.ua.
 dndi-systema.lviv.ua,4,wikidata,"State Enterprise ""Scientific and Research Institute for Metrology of Measurement and Control Systems""",,200,10 mail.dndi-systema.lviv.ua.
 dolmiskrada.org.ua,4,wikidata,Q20076426,,200,none
+donntu.edu.ua,4,academia,Donetsk National Technical University,central,,
+donnu.edu.ua,4,academia,Vasyl' Stus Donetsk National University,central,,
 druzhba.rada.org.ua,4,wikidata,Q12102524,,403,none
 dubechnenska.gromada.org.ua,4,wikidata,Q20076543,,403,none
 dubno-adm.rv.ua,4,wikidata,Q12102603,,301,30 relay1.litech.net.
@@ -57,6 +62,7 @@ estemb.kiev.ua,4,wikidata,Embassy of Estonia in Kyiv,central,HttpConnectTimeoutE
 eucra.mrecic.gov.ar,4,wikidata,"Embassy of Argentina, Kyiv",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 fri.vin.ua,4,wikidata,Institute of Feed and Agriculture of Podillya of the National Academy of Agrarian Sciences,,200,10 mail.fri.vin.ua.
 gaspra-ps.crimea.ua,4,wikidata,Q12094420,,ConnectException,none
+geograf.lnu.edu.ua,4,academia,Faculty of Geography of the Ivan Franko National University of Lviv,central,,
 gki.com.ua,4,wikidata,Research Institute of Geodesy and Cartography,,302,10 aspmx5.googlemail.com.; 20 alt3.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 20 alt4.aspmx.l.google.com.
 gogoleve.rada.org.ua,4,wikidata,Q4141037,,403,none
 golovanivsk-rada.com.ua,4,wikidata,Q20075763,,200,none
@@ -64,14 +70,25 @@ gorby.rada.org.ua,4,wikidata,Q4143663,,403,none
 gorn-vlada.ks.ua,4,wikidata,Q20075838,,200,0 mx.services.
 gorrayrada.if.ua,4,wikidata,Q12097056,,200,none
 hadiach-rajon-vlada.org.ua,4,wikidata,Q12093794,,ConnectException,none
+hneu.edu.ua,4,academia,Kharkiv National University of Economics,central,,
 husyatyn.te.ua,4,wikidata,Q20076035,,ConnectException,none
-iae.org.ua,4,wikidata,National Scientific Centre “Institute of Agrarian Economics”,,HttpConnectTimeoutException: HTTP connect timed out,20 mx20.ukraine.com.ua.; 15 mail.iae.kiev.ua.
+iamm.in.ua,4,academia,Institute of Applied Mathematics and Mechanics of the National Academy of Sciences of Ukraine,central,,
 icbge.org.ua,4,wikidata,Institute of Cell Biology and Genetic Engineering of the National Academy of Sciences of Ukraine,,301,10 mx1.mirohost.net.
+icr.org.ua,4,academia,Institute for Cultural Research of the National Academy of Arts of Ukraine,central,,
 icsanaas.com.ua,4,wikidata,Institute of Climate-Smart Agriculture of the National Academy of Agrarian Sciences of Ukraine,,200,none
+ienergy.kyiv.ua,4,academia,Institute of General Energy of the National Academy of Sciences of Ukraine,central,,
 ierdu.org.ua,4,wikidata,"State Institution ""Institute of Ecological Renovation and Development of Ukraine""",,200,10 smtp.google.com.
+ifgp.dp.ua,4,academia,Branch for Physics of Mining Processes of the M.S.Poliakov Institute of Geotechnical Mechanics of the National Academy of Scienses of Ukraine,central,,
+igtm.dp.ua,4,academia,M.S. Poliakov Institute of Geotechnical Mechanics of the National Academy of Sciences of Ukraine,central,,
+iits.org.ua,4,academia,Institute of Information Technologies and Systems of the National Academy of Sciences of Ukraine,central,,
+imath.kiev.ua,4,academia,Institute of Mathematics of the National Academy of Sciences of Ukraine,central,,
+imp.kiev.ua,4,academia,G. V. Kurdyumov Institute for Metal Physics of the National Academy of Sciences of Ukraine,central,,
 inmo.org.ua,4,wikidata,Potebnia Institute of Linguistics,,200,1 mail.inmo.org.ua.
 ipk.edu.ua,4,wikidata,Ukrainian State Employment Service Training Institute,,ConnectException,none
+ipp.kiev.ua,4,academia,G.S.Pysarenko Institute for problems of strength of the National Academy of Sciences of Ukraine,central,,
 iraqiembassy.com.ua,4,wikidata,"Embassy of Iraq, Kyiv",central,HttpTimeoutException: request timed out,none
+irgt.org.ua,4,academia,Zubets Institute of Animal Breeding and Genetics of National Academy of Agrarian Science of Ukraine,central,,
+isgkr.ho.ua,4,academia,Institute of Agriculture of Carpathian Region of National Academy of Agrarian Sciences of Ukraine,central,,
 iul-nasu.org.ua,4,wikidata,Institute of the Ukrainian Language of the National Academy of Sciences of Ukraine,,200,10 mail.iul-nasu.org.ua.
 iv-selysche.rada.org.ua,4,wikidata,Q4196524,,403,none
 ivaselrada.com.ua,4,wikidata,Q12073653,,301,none
@@ -82,8 +99,11 @@ justic.kh.ua,4,wikidata,Main Territorial Department of Justice in Kharkiv region
 kagarlyk.org.ua,4,wikidata,Q20077350,,404,none
 kalushciti.if.ua,4,wikidata,"1 Ivana Franka Street, Kalush",,ConnectException,none
 kbv.zp.ua,4,wikidata,Kamianka rural council,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
+kdpu.edu.ua,4,academia,Kryvyi Rih State Pedagogical University,central,,
 kievrik.kharkov.ua,4,wikidata,Q12110194,,ConnectException,none
 kijev.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Kyiv",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+knlu.edu.ua,4,academia,Kyiv National Linguistic University,central,,
+knu.ua,4,academia,Taras Shevchenko National University of Kyiv,central,,
 kolky.rada.org.ua,4,wikidata,Q20077855,,403,none
 komrada.kharkov.ua,4,wikidata,Q12112163,,ConnectException,none
 korec-misto.rv.ua,4,wikidata,Q12112816,,ConnectException,none
@@ -103,11 +123,14 @@ kyrgyzembassy.com.ua,4,wikidata,"Embassy of Kyrgyzstan, Kyiv",central,ConnectExc
 lanivtsi.org.ua,4,wikidata,Lanivtsi Raion council,,ConnectException,none
 lebanonembassy.org.ua,4,wikidata,"Embassy of Lebanon, Kyiv",central,403,none
 lenrada.kharkov.ua,4,wikidata,Q12117632,,ConnectException,none
+lfi-naas.org.ua,4,academia,Livestock Farming Institute of the National Academy of Agrarian Sciences of Ukraine,central,,
 lib.uabs.edu.ua,4,wikidata,Scientific library of the Ukrainian Academy of Banking,,ConnectException,none
 lityn-selrada.com.ua,4,wikidata,Q20081833,,301,none
+lnu.edu.ua,4,academia,Lviv University,central,,
 lubotin.kharkov.ua,4,wikidata,Liubotyn urban council,,301,0 _dc-mx.f5885919f17c.lubotin.kharkov.ua.
 manzheliya.rada.org.ua,4,wikidata,Q4280384,,403,none
 marganets-rada.dp.ua,4,wikidata,Q4281139,,301,20 mx20.ukraine.com.ua.; 15 mx15.ukraine.com.ua.
+metrology.kharkov.ua,4,academia,National Scientific Centre Institute of Metrology,central,,
 mgorodok.km.ua,4,wikidata,Q25443592,,ConnectException,none
 mihajlivka.rada.org.ua,4,wikidata,Q4297746,,403,none
 miska-rada.com.ua,4,wikidata,Novodnistrovska miska rada,,301,0 mx.ukraine.com.ua.
@@ -120,6 +143,7 @@ mrprim.zp.ua,4,wikidata,Q4378710,,HttpConnectTimeoutException: HTTP connect time
 mykolaiv-misto.lviv.ua,4,wikidata,Q20082205,,ConnectException,none
 mykolaiv.lviv.ua,4,wikidata,Q20082208,,200,none
 mykolayvka.rada.org.ua,4,wikidata,Q4180857,,403,none
+nbg.kiev.ua,4,academia,Hryshko National Botanical Garden,central,,
 ndekc.lviv.ua,4,wikidata,Lviv Scientific Research Forensic Center of the Ministry of Internal Affairs of Ukraine,,200,10 mail.ndekc.lviv.ua.
 ndiop.kiev.ua,4,wikidata,National Research Institute of Industrial Safety and Labor Protection,,200,20 mx2.zoho.com.; 10 mx.zoho.com.
 nedr-rr.org.ua,4,wikidata,Q51755332,,ConnectException,none
@@ -140,7 +164,9 @@ oblrada.lg.ua,4,wikidata,Luhansk Oblast Council,central-1,403,none
 oblrada.pl.ua,4,wikidata,Q12123466,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
 oboznivka.rada.org.ua,4,wikidata,Q4329482,,403,none
 oct.rada.kharkov.ua,4,wikidata,Q12104713,,ConnectException,none
+odma.edu.ua,4,academia,Odesa National Music Academy,central,,
 olshanske.rada.org.ua,4,wikidata,Q22696029,,403,none
+op.edu.ua,4,academia,Odesa Polytechnic National University,central,,
 orada.if.ua,4,wikidata,Ivano-Frankivsk Oblast Council,,200,10 _dc-mx.a7cb0c6f4327.orada.if.ua.
 orativska.gromada.org.ua,4,wikidata,Q20083345,,403,none
 ordg.rada.kharkov.ua,4,wikidata,Q12136270,,ConnectException,none
@@ -148,6 +174,7 @@ ostrada.rv.ua,4,wikidata,Q20083441,,SSLHandshakeException: (handshake_failure) R
 oth.nlu.org.ua,4,wikidata,Yaroslav Mudryi National Library of Ukraine,,200,10 nlu.org.ua.
 palemb.com.ua,4,wikidata,"Embassy of Palestine, Kyiv",central,200,0 palemb.com.ua.
 pervomaisk.mk.ua,4,wikidata,Q12139481,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.pervomaisk.mk.ua.; 10 mail.pervomaisk.mk.ua.
+pnu.edu.ua,4,academia,Vasyl Stefanyk Carpathian National University,central,,
 podil.kr.ua,4,wikidata,Q12117631,,ConnectException,none
 poromivska-gromada.org.ua,4,wikidata,Q12142515,,403,10 mail.poromivska-gromada.org.ua.
 pss.crimea.ua,4,wikidata,Q4378720,,ConnectException,none
@@ -162,6 +189,7 @@ radazal.at.ua,4,wikidata,Q20076999,,200,none
 radekhiv-miskrada.in.ua,4,wikidata,Q20092251,,ConnectException,none
 radrajrada.at.ua,4,wikidata,Q20092254,,HttpConnectTimeoutException: HTTP connect timed out,none
 rayradaskad.ks.ua,4,wikidata,Q20093025,,200,0 rayradaskad.ks.ua.
+rian.kharkov.ua,4,academia,Institute of Radio Astronomy of the National Academy of Sciences of Ukraine,central,,
 ripky.rada.org.ua,4,wikidata,Ripkynska selyshchna rada,,403,none
 rivnerayrada.rv.ua,4,wikidata,Q20092605,,200,15 mx15.ukraine.com.ua.; 20 mx20.ukraine.com.ua.
 rogachik-rada.ks.ua,4,wikidata,Q20074491,,ConnectException,none
@@ -179,6 +207,8 @@ smyzka.gromada.org.ua,4,wikidata,Q20093135,,403,none
 stara-vyzhivka.rada.org.ua,4,wikidata,Q20093523,,403,none
 starkon.km.ua,4,wikidata,Q20093541,,200,0 mx.services.
 sudanembassy.kiev.ua,4,wikidata,"Embassy of Sudan, Kyiv",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sudanembassy.kiev.ua found.,10 ASPMX3.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.
+sumdu.edu.ua,4,academia,Sumy State University,central,,
+sute.edu.ua,4,academia,State University of Trade and Economics,central,,
 tajemb.kiev.ua,4,wikidata,"Embassy of Tajikistan, Kyiv",central,403,none
 techcenter.kyiv.ua,4,wikidata,Technical Centre of the National Academy of Sciences of Ukraine (Ukraine),,200,none
 terebrada.te.ua,4,wikidata,Terebovlia Raion council,,ConnectException,none
@@ -192,6 +222,7 @@ ugarove.rada.org.ua,4,wikidata,Q19348734,,403,none
 ui.org.ua,4,wikidata,Ukrainian Institute,,200,0 ui-org-ua.mail.protection.outlook.com.
 ukrinform.ua,4,wikidata,Ukrinform,central,301,10 mail.ukrinform.com.
 ukrndiv.com.ua,4,wikidata,"State Enterprise ""Ukrainian Scientific Railway Car Building Research Institute""",,200,0 ukrndiv.com.ua.
+unci.org.ua,4,academia,National Cancer Institute,central,,
 ungvar.mfa.gov.hu,4,wikidata,Consulate General of Hungary in Uzhhorod,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailb.ungvar.mfa.gov.hu.; 10 maila.ungvar.mfa.gov.hu.
 uzbekistan.org.ua,4,wikidata,"Embassy of Uzbekistan, Kyiv",central,303,20 mx20.ukraine.com.ua.; 15 mx15.ukraine.com.ua.
 v-birky.rada.org.ua,4,wikidata,Velyki Birky Town Counsil,,403,none
@@ -220,6 +251,7 @@ zmr.org.ua,4,wikidata,Q20077259,,SSLHandshakeException: (handshake_failure) Rece
 znob-nov.sb-rada.org.ua,4,wikidata,Q4192959,,302,none
 zubani.rada.org.ua,4,wikidata,Q4194211,,403,none
 bryuhovychi.com,3,wikidata,Q16693283,,IOException: Received RST_STREAM: Protocol error,none
+cfuv.ru,3,academia,V.I. Vernadsky Crimean Federal University,central,,
 cubadiplomatica.cu,3,wikidata,"Embassy of Cuba, Kyiv",central,ConnectException,none
 diplomatie.ma,3,wikidata,"Embassy of Morocco, Kyiv",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 dneprorudnoe.org,3,wikidata,Q4163252,,ConnectException,none
@@ -228,7 +260,11 @@ gadiach.osp-ua.info,3,wikidata,Hadiach urban council,,ConnectException,none
 gluhiv.net,3,wikidata,Q4140320,,ConnectException,none
 goprirada.com,3,wikidata,Q20075789,,ConnectException,none
 gs.sev.sudrf.ru,3,wikidata,Q48941903,,200,none
+guiaidn.ru,3,academia,Institute of Artificial Intelligence Problems of the Ministry of Education and Science of Ukraine and the National Academy of Sciences of Ukraine,central,,
 hmilnyk.osp-ua.info,3,wikidata,Khmilnyk Urban Council,,ConnectException,none
+iap.sumy.org,3,academia,"Institute of Applied Physics, National Academy of Sciences of Ukraine",central,,
+ibc-naas.com,3,academia,Institute of Bast Crops of the National Academy of Agrarian Sciences of Ukraine,central,,
+ifgp-dnr.ru,3,academia,Branch for Physics of Mining Processes of the M.S.Poliakov Institute of Geotechnical Mechanics of the National Academy of Scienses of Ukraine,central,,
 institut-zerna.com,3,wikidata,State Enterprise Institute of Grain Crops of the National Academy of Agrarian Sciences of Ukraine,,200,10 mx10.ukraine.com.ua.; 20 mx20.ukraine.com.ua.; 15 mx15.ukraine.com.ua.
 instytutpolski.pl,3,wikidata,"Polish Institute, Kyiv",,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
 kiev.mae.ro,3,wikidata,"Embassy of Romania, Kyiv",central,503,none
@@ -256,6 +292,7 @@ pryluky.osp-ua.info,3,wikidata,Prylutska miska rada,,ConnectException,none
 rada.sinelnikovo.net,3,wikidata,Q20092995,,ConnectException,none
 rairadakremenets.org,3,wikidata,Kremenets Raion council,,ConnectException,none
 semenivka-rada.com,3,wikidata,Semenivska miska rada,,ConnectException,none
+sites.google.com,3,academia,Ukrainian Research Institute of Oils and Fats of the National academy of agrarian sciences of Ukraine,central,,
 slavuta-mvk.info,3,wikidata,Q16716712,,301,10 mx1.mirohost.net.
 slobozhanska.gromada.site,3,wikidata,Q4533558,,SSLException: (internal_error) Received fatal alert: internal_error,10 mx156.hostedmxserver.com.
 sosnivka.rada.today,3,wikidata,Q4429685,,ConnectException,none
@@ -281,4 +318,5 @@ yabluniv.kosiv.net,3,wikidata,Q20096789,,403,none
 z-rada.blogspot.com,3,wikidata,Q20076820,,404,none
 zarrada.org,3,wikidata,Q100235469,,301,none
 zdn.esy.es,3,wikidata,Q20076763,,ConnectException,none
+zemlerobstvo.com,3,academia,National Scientific Center Institute of Agriculture of the National Academy of Agrarian Sciences of Ukraine,central,,
 qtmm.org,1,wikidata;wikidata;wikidata,Qurultay of the Crimean Tatar People,,200,none

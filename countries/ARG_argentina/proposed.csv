@@ -1,5 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
-caicyt-conicet.gov.ar,8,wikidata;wikidata,"Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino de Información Científica y Tecnológica",,HttpConnectTimeoutException: HTTP connect timed out,none
+anlis.gov.ar,8,academia;academia,ANLIS Malbrán | National Institute of Human Viral Disease,central,,
 casarosada.gov.ar,8,wikidata;wikidata,Poder Ejecutivo Nacional,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching casarosada.gov.ar found.,1 correo.casarosada.gov.ar.
 diputadosmisiones.gov.ar,8,wikidata;wikidata,Chamber of Deputies of Misiones,central-1,302,1 mail.diputadosmisiones.gov.ar.
 diputadossantafe.gov.ar,8,wikidata;wikidata,Chamber of Deputies of Santa Fe,central-1,302,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
@@ -32,6 +32,7 @@ consejomagistratura.gov.ar,5,wikidata,Council of Magistracy of Argentina,,200,no
 dnrpa.gov.ar,5,wikidata,Q47011743,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 correo.dnrpa.gov.ar.; 10 mismtpl000.jus.gov.ar.; 20 mx.pymes.telmex.net.ar.; 5 mismtpl001.jus.gov.ar.
 hidro.gov.ar,5,wikidata,Argentine Hydrographic Naval Service,,ConnectException,10 mail.armada.mil.ar.
 iapv.gov.ar,5,wikidata,Autarchic Planning and Housing Institute,,301,0 iapv.gov.ar.
+iighi.conicet.gov.ar,5,academia,"Universidad Nacional del Nordeste, Instituto de Investigaciones Geohistóricas - CONICET",central,,
 inbias.conicet.gov.ar,5,wikidata,Instituto de Biotecnología Ambiental y Salud,,403,none
 inpa-uba.conicet.gov.ar,5,wikidata,Instituto de Investigación en Producción Animal,,403,none
 ipsibat.conicet.gov.ar,5,wikidata,"Instituto de Psicología Básica, Aplicada y Tecnología",,403,none
@@ -55,11 +56,88 @@ caip.org.ar,4,wikidata,Argentine Chamber of the Plastic Industry,,301,0 mail.cai
 ellibano.com.ar,4,wikidata,embassy of Lebanon in Argentina,central,ConnectException,none
 embajadadekuwait.com.ar,4,wikidata,embassy of Kuwait in Argentina,central,200,5 mail.embajadadekuwait.com.ar.
 embajadahonduras.com.ar,4,wikidata,embassy of Honduras in Argentina,central,ConnectException,none
+fba.unlp.edu.ar,4,academia,"Universidad Nacional de La Plata, Facultad de Bellas Artes",central,,
+fcv.unlp.edu.ar,4,academia,"Universidad Nacional de La Plata, Facultad de Ciencias Veterinarias",central,,
+iugna.edu.ar,4,academia,Q60602739,central,,
+iunma.edu.ar,4,academia,Q6156662,central,,
+iupa.edu.ar,4,academia,Q128601859,central,,
+iuse.edu.ar,4,academia,Q128601874,central,,
+iusm.edu.ar,4,academia,Q128601864,central,,
+mdp.edu.ar,4,academia,National University of Mar del Plata,central,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Buenos Aires",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 palestina.int.ar,4,wikidata,"Embassy of the State of Palestine, Buenos Aires",central,200,0 mail.palestina.int.ar.
 pami.org.ar,4,wikidata,Comprehensive Medical Attention Program of Argentina,,HttpConnectTimeoutException: HTTP connect timed out,10 correo.pami.org.ar.
+psico.unlp.edu.ar,4,academia,Facultad de Psicología de la Universidad Nacional de La Plata,central,,
 rta-se.com.ar,4,wikidata,Radio y Televisión Argentina Sociedad del Estado,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rta-se.com.ar found.,10 host213.181-15-247.tvpublica.com.ar.
 teatrocolon.org.ar,4,wikidata,Teatro Colón,,200,10 mail.teatrocolon.org.ar.
+uader.edu.ar,4,academia,Autonomous University of Entre Ríos,central,,
+uba.ar,4,academia,University of Buenos Aires,central,,
+udc.edu.ar,4,academia,University of Chubut,central,,
+udelaciudad.edu.ar,4,academia,Q112751967,central,,
+ulp.edu.ar,4,academia,University of La Punta,central,,
+una.edu.ar,4,academia,National University of the Arts,central,,
+unab.edu.ar,4,academia,Q39081287,central,,
+unahur.edu.ar,4,academia,Universidad Nacional de Hurlingham,central,,
+unaj.edu.ar,4,academia,Arturo Jauretche National University,central,,
+unam.edu.ar,4,academia,National University of Misiones,central,,
+unau.edu.ar,4,academia,Q39081285,central,,
+unc.edu.ar,4,academia,National University of Córdoba,central,,
+unca.edu.ar,4,academia,National University of Catamarca,central,,
+uncaus.edu.ar,4,academia,National University of the Chaco Austral,central,,
+uncoma.edu.ar,4,academia,Universidad Nacional del Comahue,central,,
+uncuyo.edu.ar,4,academia,Universidad Nacional de Cuyo,central,,
+undav.edu.ar,4,academia,National University of Avellaneda,central,,
+undec.edu.ar,4,academia,National University of Chilecito,central,,
+undef.edu.ar,4,academia,University of the National Defence,central,,
+undelta.edu.ar,4,academia,Q128138261,central,,
+uner.edu.ar,4,academia,National University of Entre Ríos,central,,
+unf.edu.ar,4,academia,National University of Formosa,central,,
+ungs.edu.ar,4,academia,National University of General Sarmiento,central,,
+unicen.edu.ar,4,academia,National University of Central Buenos Aires,central,,
+unipe.edu.ar,4,academia,Q128137502,central,,
+universidad-policial.edu.ar,4,academia,University Institute of the Argentine Federal Police,central,,
+unju.edu.ar,4,academia,National University of Jujuy,central,,
+unl.edu.ar,4,academia,National University of the Littoral,central,,
+unla.edu.ar,4,academia,National University of Lanús,central,,
+unlam.edu.ar,4,academia,National University of La Matanza,central,,
+unlar.edu.ar,4,academia,National University of La Rioja,central,,
+unlc.edu.ar,4,academia,Q39081284,central,,
+unlp.edu.ar,4,academia,National University of La Plata,central,,
+unlpam.edu.ar,4,academia,National University of La Pampa,central,,
+unlu.edu.ar,4,academia,National University of Luján,central,,
+unlz.edu.ar,4,academia,National University of Lomas de Zamora,central,,
+unm.edu.ar,4,academia,National University of Moreno,central,,
+unne.edu.ar,4,academia,National University of the Northeast,central,,
+unnoba.edu.ar,4,academia,National University of Northwestern Buenos Aires,central,,
+uno.edu.ar,4,academia,National University of the West,central,,
+unp.edu.ar,4,academia,National University of Patagonia San Juan Bosco,central,,
+unpa.edu.ar,4,academia,National University of Austral Patagonia,central,,
+unpaz.edu.ar,4,academia,National University of José Clemente Paz,central,,
+unpilar.edu.ar,4,academia,Q128137965,central,,
+unq.edu.ar,4,academia,National University of Quilmes,central,,
+unr.edu.ar,4,academia,National University of Rosario,central,,
+unraf.edu.ar,4,academia,National University of Rafaela,central,,
+unrc.edu.ar,4,academia,National University of Río Cuarto,central,,
+unrn.edu.ar,4,academia,National University of Río Negro,central,,
+unrt.com.ar,4,academia,Q128139198,central,,
+uns.edu.ar,4,academia,Universidad Nacional del Sur,central,,
+unsa.edu.ar,4,academia,National University of Salta,central,,
+unsada.edu.ar,4,academia,National University of San Antonio de Areco,central,,
+unsam.edu.ar,4,academia,National University of General San Martín,central,,
+unse.edu.ar,4,academia,National University of Santiago del Estero,central,,
+unsj.edu.ar,4,academia,National University of San Juan,central,,
+unsl.edu.ar,4,academia,National University of San Luis,central,,
+unso.edu.ar,4,academia,Q39081350,central,,
+unt.edu.ar,4,academia,National University of Tucumán,central,,
+untdf.edu.ar,4,academia,National University of Tierra del Fuego,central,,
+untref.edu.ar,4,academia,National University of Tres de Febrero,central,,
+unvime.edu.ar,4,academia,National University of Villa Mercedes,central,,
+unvm.edu.ar,4,academia,National University of Villa María,central,,
+upc.edu.ar,4,academia,Provincial University of Cordoba,central-1,,
+uplab.edu.ar,4,academia,Q135490323,central,,
+upso.edu.ar,4,academia,Q20019056,central,,
+utn.edu.ar,4,academia,National Technological University,central,,
+web.upe.edu.ar,4,academia,Q128601838,central,,
 aica.org,3,wikidata,AICA,,HttpTimeoutException: request timed out,10 mail.aica.org.
 ar.ambafrance.org,3,wikidata,"Embassy of France, Buenos Aires",central,301,none
 ar.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Buenos Aires",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ar.china-embassy.org found.,none
@@ -72,8 +150,10 @@ buenos-aires.diplo.de,3,wikidata,"Embassy of Germany, Buenos Aires",central,200,
 buenos-aires.embassy.qa,3,wikidata,embassy of Qatar in Argentina,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 buenosaires.mae.ro,3,wikidata,embassy of Romania in Argentina,central,503,none
 buenosaires.veleposlanistvo.si,3,wikidata,embassy of Slovenia in Argentina,central,SSLHandshakeException: Remote host terminated the handshake,none
+caicyt-conicet.gov.ar,3,wikidata;wikidata;academia,"Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino de Información Científica y Tecnológica",central,HttpConnectTimeoutException: HTTP connect timed out,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Argentina,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
 finlandabroad.fi,3,wikidata,Embassy of Finland in Argentina,central,301,10 mail.valtori.fi.
+ishir.conicet.gov.ar,3,wikidata;academia,"Investigaciones Socio-históricas Regionales | Universidad Nacional de Rosario; Consejo Nacional de Investigaciones Científicas y Técnicas, Nodo Centro de Estudios Sociales Regionales, Unidad Ejecutora Investigaciones Socio-Históricas Regionales",central,,
 lacampora.org,3,wikidata,La Cámpora,,200,10 mail.lacampora.org.
 mfa.bg,3,wikidata,embassy of Bulgaria in Argentina,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Argentina,central,403,10 mailhost.mfa.gr.

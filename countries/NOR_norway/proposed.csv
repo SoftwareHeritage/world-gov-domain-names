@@ -40,9 +40,11 @@ dio.dep.no,4,wikidata,Q123862765,central,301,0 dio-dep-no.mail.protection.outloo
 doga.no,4,wikidata,Norwegian Centre for Design and Architecture,,HttpConnectTimeoutException: HTTP connect timed out,5 doga-no.mail.protection.outlook.com.
 eldreombudet.no,4,wikidata,Norwegian Ombudsman for the Ageing,,ConnectException,0 .
 en.south-norway.no,4,wikidata,South Norway European Office,,ConnectException,none
+en.uit.no,4,academia,University of Tromsø – The Arctic University of Norway,central,,
 etterretningstjenesten.no,4,wikidata,Norwegian Intelligence Service,,307,0 .
 farte.no,4,wikidata,Farte,central-1,301,10 farte-no.mail.protection.outlook.com.
 fma.no,4,wikidata,Norwegian Defence Materiel Agency,,307,0 fma-no.mail.protection.outlook.com.
+folkeuniversitetet.no,4,academia,Folkeuniversitet,central,,
 forsvarskommisjonen.no,4,wikidata,Q111036544,,200,10 mx2.fd.dep.no.; 10 mx1.fd.dep.no.
 frammr.no,4,wikidata,Fram,central-1,200,10 mx.domeneshop.no.
 ftf.no,4,wikidata,Government Pension Fund Norway,,HttpConnectTimeoutException: HTTP connect timed out,10 ftf-no.mail.protection.outlook.com.
@@ -53,6 +55,7 @@ havarikommisjonen.no,4,wikidata,Norwegian Safety Investigation Authority,,200,no
 helfo.no,4,wikidata,Norwegian Health Economics Administration,,307,0 helfo-no.mail.protection.outlook.com.
 helse-stavanger.no,4,wikidata,Stavanger Health Trust,,301,10 helsestavanger-no01c.mail.protection.outlook.com.
 helseklage.no,4,wikidata,National Office for Health Service Appeals,,301,0 helseklage-no.mail.protection.outlook.com.
+hi.no,4,academia,Norwegian Institute of Marine Research,central,,
 innlandstrafikk.no,4,wikidata,Innlandstrafikk,,200,0 innlandstrafikk-no.mail.protection.outlook.com.
 iranembassy.no,4,wikidata,"Embassy of Iran, Oslo",central,ConnectException,none
 jernbanedirektoratet.no,4,wikidata,Norwegian Railway Directorate,,301,0 jernbanedirektoratet-no.mail.protection.outlook.com.
@@ -74,6 +77,7 @@ miljoklagenemnda.no,4,wikidata,Q25429074,,301,10 miljoklagenemnda-no.mail.protec
 miljovernfondet.no,4,wikidata,Svalbard Environmental Protection Fund,,301,10 mx.domeneshop.no.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Oslo",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 nccc.no,4,wikidata,Q19384043,,200,10 nccc-no.mail.protection.outlook.com.
+niva.no,4,academia,Norwegian Institute for Water Research,central,,
 nlb.no,4,wikidata,Norwegian Library of Talking Books and Braille,,301,10 nlb-no.mail.protection.outlook.com.
 nord-gudbrandsdal.no,4,wikidata,Regionrådet i Nord-Gudbrandsdal,,302,10 mx01.osl.inic.no.
 npolar.no,4,wikidata,Norwegian Polar Institute,,200,0 npolar-no.mail.protection.outlook.com.
@@ -93,6 +97,7 @@ reisnordland.no,4,wikidata,Reis Nordland,central-1,301,10 ALT3.ASPMX.L.GOOGLE.co
 rus-midt.no,4,wikidata,Q11998678,,ConnectException,none
 ruter.no,4,wikidata,Ruter,,200,10 ruter-no.mail.protection.outlook.com.
 sgp.norgov.no,4,wikidata,Norwegian Agency for Classified Information Systems,,200,10 mx2.fd.dep.no.; 20 mx1.fd.dep.no.
+sifo.no,4,academia,National Institute for Consumer Research,central,,
 sivilforsvaret.no,4,wikidata,Norwegian Civil Defence,,301,10 mx2.online.no.
 sjukehusapoteka-vest.no,4,wikidata,Q12000729,,301,10 sjukehusapotekavest-no03i.mail.protection.outlook.com.
 skrivesenteret.no,4,wikidata,Skrivesenteret,,200,10 mx.ntnu.no.
@@ -114,6 +119,7 @@ tilsynet.no,4,wikidata,Advokattilsynet,central,200,0 tilsynet-no.mail.protection
 totalberedskapskommisjonen.no,4,wikidata,Q113561959,,ConnectException,none
 trygdeetaten.no,4,wikidata,National Insurance Service,,HttpConnectTimeoutException: HTTP connect timed out,5 trygdeetaten-no.mail.protection.outlook.com.
 tunisiaamb.no,4,wikidata,"Embassy of Tunisia, Oslo",central,ConnectException,none
+uio.no,4,academia,University of Oslo,central,,
 valgresultat.no,4,wikidata,Norwegian Directorate of Elections,,200,none
 vt.no,4,wikidata,Norwegian Road Supervisory Authority,,200,0 vt-no.mail.protection.outlook.com.
 ambafrance-no.org,3,wikidata,"Embassy of France, Oslo",central,ConnectException,5 mta-gw.infomaniak.ch.
@@ -140,4 +146,4 @@ fefo.no,2,wikidata;wikidata;wikidata,Finnmark Estate,,301,0 fefo-no.mail.protect
 klagenemndssekretariatet.no,2,wikidata;wikidata;wikidata;wikidata,Joint Tribunal Secretariat of Norway | Finanstilsynsklagenemnda | Q11981087 | Energy Tribunal of Norway,,301,10 mx2-proisp-no.pub.mailpod1-osl1.one.com.; 10 mx1-proisp-no.pub.mailpod1-osl1.one.com.; 10 mx3-proisp-no.pub.mailpod1-osl1.one.com.
 lanekassen.no,2,wikidata;wikidata;wikidata,Norwegian State Educational Loan Fund,,200,0 lanekassen-no.mail.protection.outlook.com.
 sametinget.no,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q11999242 | Sámi Parliament of Norway,,200,10 sametinget-no.mail.protection.outlook.com.
-uit.no,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,The Truth and Reconciliation Commission,,200,0 uit-no.mail.protection.outlook.com.
+uit.no,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,The Truth and Reconciliation Commission | University of Tromsø – The Arctic University of Norway,central,200,0 uit-no.mail.protection.outlook.com.

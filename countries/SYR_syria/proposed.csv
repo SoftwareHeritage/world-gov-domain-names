@@ -7,7 +7,10 @@ sanasyria.org,6,wikidata;wikidata,Syrian Arab News Agency,,HttpConnectTimeoutExc
 syriaig.org,6,wikidata;wikidata,Syrian Interim Government,,403,10 syriaig.org.; 0 syriaig.org.
 syrien.um.dk,6,wikidata;wikidata,embassy of Denmark in Syria,central,301,none
 aec.org.sy,4,wikidata,Atomic Energy Commission of Syria,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 as.aec.org.sy.
+damascusuniversity.edu.sy,4,academia,Damascus University,central,,
 gors.sy,4,wikidata,General Organization of Remote Sensing,,ConnectException,10 mail.gors.sy.
+idlib.edu.sy,4,academia,Idlib University,central,,
+latakia-univ.edu.sy,4,academia,University of Latakia,central,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Damascus",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 scfms.sy,4,wikidata,Syrian Commission on Financial Markets and Securities,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.scfms.sy.
 sisc.sy,4,wikidata,Q123925129,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.sisc.sy.
@@ -18,6 +21,7 @@ finlandabroad.fi,3,wikidata,"Embassy of Finland, Damascus",central,301,10 mail.v
 mfa.gr,3,wikidata,embassy of Greece in Syria,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech republic in Damascus,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 palemb-sy.com,3,wikidata,Embassy of the State of Palestine in Syria,central,200,0 palemb-sy.com.
+svuonline.org,3,academia,Syrian Virtual University,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Damascus",central,301,none
 syria.mid.ru,3,wikidata,Embassy of Russia in Damascus,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 syriameteo.com,3,wikidata,SyriaMeteo,central,ConnectException,none

@@ -1,8 +1,10 @@
 hostname,score,sources,label,level,http_status,mx
 ansej.org.dz,7,wikidata;wikidata,Agence nationale de soutien à l'emploi des jeunes,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+cerist.dz,7,wikidata;academia,Centre de Recherche sur l'Information Scientifique et Technique,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cerist.dz found.,20 mx02.cerist.dz.; 10 mx.cerist.dz.
 dgf.org.dz,7,wikidata;wikidata,Q25386281 | Q25387129,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.djaweb.dz.
 dgsn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata,Algerian police | General Directorate of National Security,central,ConnectException,none
 elmadjlis-hci.dz,7,wikidata;wikidata,Supreme Islamic Council of Algeria,,301,10 mail.elmadjlis-hci.dz.
+inrf.dz,7,academia;academia,Institut National de Recherche Forestière | National Forest Research Institute,central,,
 m-moudjahidine.dz,7,wikidata;wikidata,Ministry of Mujahidin,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.m-moudjahidine.dz.
 mdn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ministry of National Defense (Algeria) | État-major de l'armée algérienne | National Gendarmerie,central,ConnectException,10 mxrelay.mdn.dz.
 mesrs.dz,7,wikidata;wikidata,Ministry of Higher Education and Scientific Research,central,ConnectException,10 gateway.mesrs.dz.; 20 mail.mesrs.dz.; 30 mail1.mesrs.dz.
@@ -25,11 +27,19 @@ bank-of-algeria.dz,4,wikidata,Bank of Algeria,,HttpConnectTimeoutException: HTTP
 biblionat.dz,4,wikidata,National Library of Algeria,,200,0 biblionat.dz.
 bneder.dz,4,wikidata,Bureau National d’Études pour le Développement Rural,,200,0 mail.bneder.dz.
 caci.dz,4,wikidata,Algerian chamber of commerce and industry,,200,dig error
-cerist.dz,4,wikidata,Centre de Recherche sur l'Information Scientifique et Technique,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cerist.dz found.,20 mx02.cerist.dz.; 10 mx.cerist.dz.
+cder.dz,4,academia,Centre de Développement des Énergies Renouvelables,central,,
 cnrst.dz,4,wikidata,Q110229043,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.cnrst.dz.
 conseil-constitutionnel.dz,4,wikidata,Constitutional Council of Algeria,,ConnectException,10 mail.conseil-constitutionnel.dz.
 courdalger.mjustice.dz,4,wikidata,Sidi Mhamed Courthouse,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 courdeboumerdes.mjustice.dz,4,wikidata,Boumerdès Court,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+crasc.dz,4,academia,Centre de Recherche en Anthropologie Sociale et Culturelle,central,,
+crbt.dz,4,academia,Centre de Recherche en Biotechnologie,central,,
+cread.dz,4,academia,Centre de Recherche en Économie Appliquée pour le Développement,central,,
+crstdes.dz,4,academia,Centre de Recherche Scientifique et Technique sur le Développement Économique et Social,central,,
+crstra.dz,4,academia,Centre de Recherche Scientifique et Technique sur les Régions Arides,central,,
+crti.dz,4,academia,Centre de Recherche en Technologies Industrielles,central,,
+crtsc.dz,4,academia,Centre de Recherche Scientifique et Technique en Soudage et Contrôle Industriel,central,,
+cu-tipaza.dz,4,academia,Centre Universitaire Morsli Abdellah de Tipaza,central,,
 de-boumerdes.dz,4,wikidata,Boumerdès Province School District,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching de-boumerdes.dz found.,none
 dgpc.dz,4,wikidata,Algerian Civil Defence,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.dgpc.dz.
 dgrsdt.dz,4,wikidata,Directorate for Scientific Research and Technological Development,,302,0 mx.dgrsdt.dz.
@@ -37,6 +47,7 @@ eniem.com.dz,4,wikidata,ENIEM,,SSLHandshakeException: (certificate_unknown) PKIX
 hcamazighite.dz,4,wikidata,Haut-Conseil à l'amazighité,,302,0 hcamazighite.dz.
 hcla.dz,4,wikidata,Supreme Council of the Arabic language in Algeria,,200,0 ssl0.icosnethosting.com.
 ina-elections.dz,4,wikidata,Independent National Authority Of Elections,,200,10 mail.ina-elections.dz.
+inmv.dz,4,academia,Laboratoire Régional Vétérinaire de Constantine,central-1,,
 majliselouma.dz,4,wikidata,Council of the Nation,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.majliselouma.dz.
 marw.dz,4,wikidata,Religious Affairs Directorate of Algiers Province,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.marw.dz.; 10 mail1.marw.dz.
 meteo.dz,4,wikidata,National Meteorological Office,,HttpConnectTimeoutException: HTTP connect timed out,0 smtp.meteo.dz.; 10 smtp1.meteo.dz.
@@ -45,6 +56,15 @@ mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Algiers",central,
 onplc.org.dz,4,wikidata,Q42900066,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 onpo.dz,4,wikidata,Q25453161,,200,10 mail.onpo.dz.
 unesco.dz,4,wikidata,"Algerian National Commission for Education, Science and Culture",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.unesco.dz.
+univ-alger.dz,4,academia,University of Algiers 1,central,,
+univ-alger2.dz,4,academia,Algiers 2 University,central,,
+univ-alger3.dz,4,academia,University of Algiers 3,central,,
+univ-annaba.dz,4,academia,Badji Mokhtar-Annaba University,central,,
+univ-bejaia.dz,4,academia,University of Béjaïa,central,,
+univ-boumerdes.dz,4,academia,M'hamed Bougara University of Boumerdès,central,,
+univ-chlef.dz,4,academia,Hassiba Benbouali University of Chlef,central,,
+univ-saida.dz,4,academia,Université Tahar Moulay de Saida,central,,
+usthb.dz,4,academia,"University of Science and Technology, Houari Boumediene",central,,
 alger.mae.ro,3,wikidata,"Embassy of Romania, Alger",central,503,none
 algerie.mid.ru,3,wikidata,Embassy of Russia in Algeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 algeriet.um.dk,3,wikidata,embassy of Denmark in Algeria,central,HttpConnectTimeoutException: HTTP connect timed out,none

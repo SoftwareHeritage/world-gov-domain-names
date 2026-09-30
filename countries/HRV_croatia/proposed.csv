@@ -1,5 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 dominikanci.hr,7,wikidata;wikidata,Croatian Dominican Province,,200,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+dzs.hr,7,wikidata;academia,Croatian Bureau of Statistics,central,HttpConnectTimeoutException: HTTP connect timed out,0 dzs-hr.mail.protection.outlook.com.
 fzoeu.hr,7,wikidata;wikidata,Environmental Protection and Energy Efficiency Fund,,301,5 fzoeu-hr.mail.protection.outlook.com.
 hzjz.hr,7,wikidata;wikidata,Croatian Institute for Public Health,,302,4 mail.hzjz.hr.; 4 mail2.hzjz.hr.
 ihjj.hr,7,wikidata;wikidata,Institute of Croatian Language,,200,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
@@ -27,7 +28,6 @@ azop.hr,4,wikidata,Croatian Personal Data Protection Agency,central,200,10 azop-
 ccaa.hr,4,wikidata,Croatian Civil Aviation Agency,,200,0 ccaa-hr.mail.protection.outlook.com.
 dad.hr,4,wikidata,The State Archives in Dubrovnik,,200,10 mx01.cdu.gov.hr.; 10 mx02.cdu.gov.hr.
 dorh.hr,4,wikidata,USKOK,,301,10 mprhantispam02.pravosudje.hr.; 10 mprhantispam01.pravosudje.hr.
-dzs.hr,4,wikidata,Croatian Bureau of Statistics,central,HttpConnectTimeoutException: HTTP connect timed out,0 dzs-hr.mail.protection.outlook.com.
 dzzp.hr,4,wikidata,State Institute for Nature Protection,,403,none
 eszek.mfa.gov.hu,4,wikidata,"Consulate General of Hungary in Osijek, Croatia",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 hakom.hr,4,wikidata,Hrvatska agencija za poštu i elektroničke komunikacije,,301,10 mail1.hakom.hr.; 20 mail2.hakom.hr.
@@ -35,6 +35,7 @@ hnb.hr,4,wikidata,Croatian National Bank,central,302,10 mgw.hnb.hr.; 20 mgwig.hn
 hrzz.hr,4,wikidata,Croatian Science Foundation,,200,5 hrzz-hr.mail.eo.outlook.com.
 hzn.hr,4,wikidata,Croatian Standards Institute,,301,10 mail.hzn.hr.
 hzzo-net.hr,4,wikidata,Croatian Institute for Health Insurance,,ConnectException,0 hzzonet-hr01b.mail.protection.outlook.com.
+irb.hr,4,academia,Ruđer Bošković Institute,central,,
 izbori.hr,4,wikidata,State Electoral Commission of the Republic of Croatia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching izbori.hr found.,10 mx01.cdu.gov.hr.; 10 mx02.cdu.gov.hr.
 meteo.hr,4,wikidata,Croatian Meteorological and Hydrological Service,,HttpTimeoutException: request timed out,none
 mingo.hr,4,wikidata,Ministry of Economy,,301,0 mx2.mingo.hr.; 10 mx1.mingo.hr.
@@ -44,6 +45,8 @@ ombudsman.hr,4,wikidata,Office of the Public Defender of Rights,,301,0 ombudsman
 policija.hr,4,wikidata,Law enforcement in Croatia,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,2 trpimir.mup.hr.
 skupstina.zagreb.hr,4,wikidata,Zagreb Assembly,central-1,200,none
 sudovi.hr,4,wikidata,High administrative Court of Croatia,central,301,none
+unin.hr,4,academia,University North,central,,
+unizg.hr,4,academia,University of Zagreb,central,,
 usud.hr,4,wikidata,Constitutional Court of Croatia,central,200,10 smail.usud.hr.
 zagrab.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Zagreb",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ambafrance-hr.org,3,wikidata,"Embassy of France, Zagreb",central,ConnectException,5 mta-gw.infomaniak.ch.

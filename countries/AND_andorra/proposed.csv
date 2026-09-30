@@ -1,6 +1,8 @@
 hostname,score,sources,label,level,http_status,mx
 cultura.ad,7,wikidata;wikidata,National Archives of Andorra | Andorra National Library,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 educacio.ad,7,wikidata;wikidata,Ministry of Education and Higher Education of Andorra,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+estadistica.ad,7,wikidata;academia,Departament d'Estadística,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+estadistica.desenvolupament.ad,7,wikidata;academia,Departament d'Estadística,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 exteriors.ad,7,wikidata;wikidata,Ministry of Foreign Affairs,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 finances.ad,7,wikidata;wikidata,Ministry of Finance of Andorra,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mobilitat.ad,7,wikidata;wikidata,Ministry of Territorial Planning of Andorra,central,301,none
@@ -15,11 +17,10 @@ cass.ad,4,wikidata,Caixa Andorrana de Seguretat Social,,301,10 correu2.cass.ad.;
 cea.ad,4,wikidata,Confederació Empresarial Andorrana,,200,0 cea-ad.mail.protection.outlook.com.
 comuencamp.ad,4,wikidata,Q117808860,central-1,301,10 correu.andornet.ad.
 comusantjulia.ad,4,wikidata,Q105488867,central-1,301,0 comusantjulia-ad.mail.protection.outlook.com.
-estadistica.ad,4,wikidata,Departament d'Estadística,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-estadistica.desenvolupament.ad,4,wikidata,Departament d'Estadística,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 policia.ad,4,wikidata,Police Corps of Andorra,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching policia.ad found.,20 fallbackmx.spamexperts.eu.; 10 mx.spamexperts.com.; 30 lastmx.spamexperts.net.
 saas.ad,4,wikidata,Servei Andorrà d’Atenció Sanitària,,200,10 mail.saas.ad.
 salut.ad,4,wikidata,Comitè Nacional de Bioètica d'Andorra,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+uda.ad,4,academia,Universitat d'Andorra,central,,
 uifand.ad,4,wikidata,Financial Intelligence Unit of Andorra,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 unesco.ad,4,wikidata,Andorran National Commission for UNESCO,,200,10 mail.unesco.ad.
 ad.ambafrance.org,3,wikidata,"Embassy of France, Andorra la Vella",central,301,none

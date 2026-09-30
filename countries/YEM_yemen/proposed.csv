@@ -1,6 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 moee-ye.com,6,wikidata;wikidata,Ministry of Electricity and Energy,central,200,0 moee-ye.com.
 saba.ye,4,wikidata,Saba News Agency,,302,none
+seiyunu.edu.ye,4,academia,Seiyun University,central,,
 ambafrance-ye.org,3,wikidata,"Embassy of France, Sana'a",central,ConnectException,none
 arabiafelixacademy.org,3,wikidata,Majmaʻ al-ʻArabīyah al-saʻīdah,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Yemen,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.

@@ -2,9 +2,11 @@ hostname,score,sources,label,level,http_status,mx
 asi.it,10,wikidata;wikidata;directory,Italian Space Agency,,ConnectException,0 asi-it.mail.protection.outlook.com.
 camera.it,10,wikidata;linkgraph;directory,Chamber of Deputies of Italy,central,302,10 mail5.camera.it.; 10 mail6.camera.it.
 carabinieri.it,10,wikidata;wikidata;directory,"Comando unità per la tutela forestale, ambientale e agroalimentare | Carabinieri",central,ConnectException,0 smtp.google.com.
+cnr.it,10,wikidata;academia;academia;directory,Consiglio Nazionale delle Ricerche | Istituto Nazionale di Ricerca per gli Alimenti e la Nutrizione | National Institute on the Physics of Materials,central,301,10 cnr-it.mail.protection.outlook.com.
 cortecostituzionale.it,10,wikidata;linkgraph;directory,Constitutional Court of Italy,central,302,0 esg.cortecostituzionale.it.
 inps.it,10,wikidata;linkgraph;directory,Istituto nazionale della previdenza sociale,,301,10 mx40.inps.it.; 10 mx30.inps.it.; 10 mx10.inps.it.; 10 mx20.inps.it.
-istat.it,10,wikidata;linkgraph;directory,Italian National Institute of Statistics,central,ConnectException,5 posta5.istat.it.; 5 posta4.istat.it.
+invalsi.it,10,wikidata;academia;directory,Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione,central,301,10 invalsi-it.mail.protection.outlook.com.
+istat.it,10,wikidata;academia;linkgraph;directory,Italian National Institute of Statistics,central,ConnectException,5 posta5.istat.it.; 5 posta4.istat.it.
 regione.lombardia.it,10,wikidata;wikidata;wikidata;linkgraph,Government of Lombardy | Lombardy,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 regione-lombardia-it.mail.protection.outlook.com.
 regione.toscana.it,10,wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 mta.regione.toscana.it.
 regione.veneto.it,10,wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,Veneto | Government of Veneto | Q3630806 | Q56753389,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
@@ -15,6 +17,7 @@ agcm.it,8,wikidata;directory,Autorità Garante della Concorrenza e del Mercato,,
 agcom.it,8,wikidata;directory,Autorità per le Garanzie nelle Comunicazioni,,ConnectException,0 agcom-it.mail.protection.outlook.com.
 agenziademanio.it,8,wikidata;directory,Agenzia del demanio,,HttpConnectTimeoutException: HTTP connect timed out,10 sogei.in.tmes.trendmicro.eu.
 agenziaitaliameteo.it,8,wikidata;directory,ItaliaMeteo,central,HttpConnectTimeoutException: HTTP connect timed out,0 agenziaitaliameteo-it.mail.protection.outlook.com.
+altamatematica.it,8,academia;directory,Istituto Nazionale di Alta Matematica Francesco Severi,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 anticorruzione.it,8,wikidata;directory,National Anti-Corruption Authority,,ConnectException,10 mxa-003bb802.gslb.pphosted.com.; 10 mxb-003bb802.gslb.pphosted.com.
 anvur.it,8,wikidata;directory,Agenzia nazionale di valutazione del sistema universitario e della ricerca,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,1 anvur-it.mail.protection.outlook.com.
 arera.it,8,wikidata;directory,Autorità di Regolazione per Energia Reti e Ambiente,central,301,10 arera-it.mail.protection.outlook.com.
@@ -22,7 +25,6 @@ autorita-trasporti.it,8,wikidata;directory,Autorità di Regolazione dei Trasport
 avvocaturastato.it,8,wikidata;directory,State prosecutor's office,,HttpConnectTimeoutException: HTTP connect timed out,0 avvocaturastato-it.mail.protection.outlook.com.
 bancaditalia.it,8,wikidata;directory,Bank of Italy,,HttpConnectTimeoutException: HTTP connect timed out,20 mail04.bancaditalia.it.; 20 mail03.bancaditalia.it.; 20 mail01.bancaditalia.it.; 20 mail02.bancaditalia.it.
 cnel.it,8,wikidata;directory,National Council for Economics and Labour,,HttpTimeoutException: request timed out,10 cnel-it.mail.protection.outlook.com.
-cnr.it,8,wikidata;directory,Consiglio Nazionale delle Ricerche,,301,10 cnr-it.mail.protection.outlook.com.
 consob.it,8,wikidata;directory,The Italian Companies and Stock Exchange Commission,central,HttpConnectTimeoutException: HTTP connect timed out,10 sms2-mailin.consob.it.; 10 sms1-mailin.consob.it.
 corteconti.it,8,wikidata;directory,Court of Audit,,ConnectException,10 corteconti-it.mail.protection.outlook.com.
 csm.it,8,wikidata;directory,High Council of the Judiciary,,403,0 csm-it.mail.protection.outlook.com.
@@ -30,10 +32,12 @@ enea.it,8,wikidata;directory,"Agenzia nazionale per le nuove tecnologie, l'energ
 garantedisabilita.it,8,wikidata;directory,Italian Disability Rights Authority,,HttpConnectTimeoutException: HTTP connect timed out,0 garantedisabilita-it.mail.protection.outlook.com.
 garantenazionaleprivatiliberta.it,8,wikidata;directory,Garante nazionale dei diritti delle persone private della libertà personale,,HttpConnectTimeoutException: HTTP connect timed out,none
 giustizia-amministrativa.it,8,wikidata;directory,Italian Council of State,,ConnectException,10 giustiziaamministrativa-it02c.mail.protection.outlook.com.
+inaf.it,8,academia;directory,Italian National Institute for Astrophysics,central,ConnectException,1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
 inail.it,8,wikidata;directory,INAIL,,HttpConnectTimeoutException: HTTP connect timed out,0 inail-it.mail.protection.outlook.com.
-invalsi.it,8,wikidata;directory,Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione,,301,10 invalsi-it.mail.protection.outlook.com.
+inrim.it,8,academia;directory,Istituto Nazionale di Ricerca Metrologica,central,ConnectException,5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 iss.it,8,wikidata;directory,Istituto Superiore di Sanità,,ConnectException,20 mxb-0048aa01.gslb.pphosted.com.; 10 iss-it.mail.protection.outlook.com.
 ivass.it,8,wikidata;directory,Istituto per la Vigilanza sulle Assicurazioni,,ConnectException,20 mail02.bancaditalia.it.; 20 mail04.bancaditalia.it.; 20 mail03.bancaditalia.it.; 20 mail01.bancaditalia.it.
+ogs.it,8,academia;directory,National Institute of Oceanography and Applied Geophysics - OGS,central,301,1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
 poliziadistato.it,8,wikidata;directory,Polizia di Stato,,301,5 poliziadistato-it.mail.protection.outlook.com.
 regione.lazio.it,8,wikidata;linkgraph,Lazio,,200,0 regione-lazio-it.mail.protection.outlook.com.
 regione.piemonte.it,8,wikidata;linkgraph,Piedmont,,ConnectException,10 zmbmtain.csi.it.
@@ -59,6 +63,7 @@ consiglioregionale.calabria.it,7,wikidata;wikidata,Regional Council of Calabria,
 consiglioveneto.it,7,wikidata;wikidata,Regional Council of Veneto,central-1,301,none
 cr.campania.it,7,wikidata;wikidata,Regional Council of Campania,central-1,200,10 cr-campania-it.mail.protection.outlook.com.
 cr.piemonte.it,7,wikidata;wikidata,Regional Council of Piedmont,central-1,ConnectException,10 zmbmtain.csi.it.
+demo.istat.it,7,wikidata;academia,Italian National Institute of Statistics,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 fisiocritici.it,7,wikidata;wikidata,Accademia dei Fisiocritici,,301,10 mx.fisiocritici.it.
 garanteinfanzia.org,7,wikidata;directory,Autorità Garante per l'Infanzia e l'Adolescenza,central,HttpConnectTimeoutException: HTTP connect timed out,10 garanteinfanzia-org.mail.protection.outlook.com.
 gesuiti.it,7,wikidata;wikidata,Euromediterranean Province of the Jesuits,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -70,6 +75,7 @@ regione.marche.it,7,wikidata;wikidata;wikidata,Government of Marche | Marche,cen
 roma.mfa.gov.ct.tr,7,wikidata;wikidata,"Representative office of Northern Cyprus, Rome",central,HttpConnectTimeoutException: HTTP connect timed out,none
 sbn.it,7,wikidata;wikidata,Italian National Libraries,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sbn.it.
 scolopi.it,7,wikidata;wikidata,Piarist province of Italy,,HttpConnectTimeoutException: HTTP connect timed out,none
+statistica.regione.veneto.it,7,wikidata;academia,Q109669672,central,HttpConnectTimeoutException: HTTP connect timed out,none
 vigilfuoco.it,7,wikidata;wikidata,National Fire-watchers' Corps | Q20165147,central,HttpConnectTimeoutException: HTTP connect timed out,10 esg.vigilfuoco.it.
 bibliotecabraidense.org,6,wikidata;wikidata,Biblioteca nazionale Braidense,,HttpConnectTimeoutException: HTTP connect timed out,10 _dc-mx.87197795731d.bibliotecabraidense.org.
 cortedicassazione.it,6,wikidata,Supreme Court of Cassation,central,HttpConnectTimeoutException: HTTP connect timed out,0 mx0.nettuno.it.; 10 mx2.nettuno.it.
@@ -79,7 +85,6 @@ regione.sicilia.it,6,wikidata;wikidata;wikidata;linkgraph,Soprintendenza Beni Cu
 roc-taiwan.org,6,wikidata;wikidata,Taipei Representative Office in Italy,,302,none
 agenziaumbriaricerche.it,5,directory,Agenzia Umbria Ricerche,,HttpConnectTimeoutException: HTTP connect timed out,20 agenziaumbriaricerche-it.mail.protection.outlook.com.
 agritechcenter.it,5,directory,CENTRO NAZIONALE DI RICERCA PER LE TECNOLOGIE DELL'AGRICOLTURA - AGRITECH,,HttpConnectTimeoutException: HTTP connect timed out,20 agritechcenter-it.mail.protection.outlook.com.
-altamatematica.it,5,directory,"Istituto Nazionale di Alta Matematica ""Francesco Severi""",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 areasciencepark.it,5,directory,Area Science Park,,301,10 areasciencepark-it.mail.protection.outlook.com.
 arpa.piemonte.it,5,linkgraph,Linked from 6 public-sector domains,,ConnectException,10 arpa-piemonte-it.mail.protection.outlook.com.
 biotecnopolo.it,5,directory,Fondazione Biotecnopolo di Siena,,302,20 biotecnopolo-it.mail.protection.outlook.com.
@@ -98,10 +103,8 @@ gpdp.it,5,directory,Garante per la protezione dei dati personali - GP,,200,20 mx
 granicoltura.it,5,directory,Stazione Consorziale Sperimentale di Granicoltura per La Sicilia,,301,10 mx.granicoltura.it.
 humantechnopole.it,5,directory,Fondazione Human Technopole,,301,10 mail.register.it.
 iit.it,5,directory,Fondazione Istituto Italiano di Tecnologia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 iit-it.mail.protection.outlook.com.
-inaf.it,5,directory,Istituto Nazionale di Astrofisica - INAF,,ConnectException,1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
 indire.it,5,directory,"Istituto Nazionale di documentazione, Innovazione e Ricerca Educativa",,ConnectException,0 indire-it.mail.protection.outlook.com.
 infn.it,5,directory,Istituto Nazionale di Fisica Nucleare,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching infn.it found.,50 infngw1.infn.it.; 50 infngw2.infn.it.
-inrim.it,5,directory,Istituto Nazionale di Ricerca Metrologica - INRIM,,ConnectException,5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 ires.piemonte.it,5,directory,Istituto Ricerche Economico Sociali del Piemonte,,301,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
 iresmo.it,5,directory,Istituto per Gli Studi Storici del Molise Vincenzo Cuoco Iresmo,,301,0 iresmo.it.
 istitutocimbro.it,5,directory,Istituto Cimbro Kulturinstitut Lusern,,301,10 mx.istitutocimbro.it.
@@ -111,7 +114,6 @@ isuc.alumbria.it,5,directory,Istituto per La Storia dell'Umbria Contemporanea,,S
 iszsicilia.it,5,directory,Istituto Sperimentale Zootecnico per La Sicilia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailserver.ediset.it.
 lens.unifi.it,5,directory,Laboratorio Europeo di Spettroscopie non Lineari,,200,20 alt2.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 30 aspmx3.googlemail.com.; 30 aspmx4.googlemail.com.; 30 aspmx5.googlemail.com.; 20 alt1.aspmx.l.google.com.
 minambiente.it,5,linkgraph,Linked from 5 public-sector domains,,301,10 mase-gov-it.mail.protection.outlook.com.
-ogs.it,5,directory,Istituto Nazionale di Oceanografia e di Geofisica Sperimentale - OGS,,301,1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
 risorgimento.it,5,directory,Istituto per La Storia del Risorgimento Italiano,,HttpConnectTimeoutException: HTTP connect timed out,none
 sardegnaricerche.it,5,directory,Sardegna Ricerche,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sardegnaricerche.it found.,none
 studigermanici.it,5,directory,Istituto Italiano di Studi Germanici,,301,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
@@ -166,6 +168,7 @@ ausl.pr.it,4,wikidata,Azienda Unita' Sanitaria Locale di Parma,,ConnectException
 ausl.rn.it,4,wikidata,Azienda Unità Sanitaria Locale Rimini,,301,none
 autoritadibacino.va.it,4,wikidata,Q76757969,,301,none
 avimediateche.it,4,wikidata,Associazione Videoteche Mediateche Italiane,,301,none
+beniculturali.inaf.it,4,academia,Italian National Institute for Astrophysics,central,,
 beniculturali.it,4,wikidata,Istituto centrale per la patologia degli archivi e del libro,,ConnectException,none
 benisequestraticonfiscati.it,4,wikidata,Q3606459,central,200,none
 biblhertz.it,4,wikidata,Bibliotheca Hertziana – Max Planck Institute for Art History,,301,none
@@ -184,42 +187,54 @@ colosseo.it,4,wikidata,archaeological park of Colosseum,,HttpConnectTimeoutExcep
 comolecco.camcom.it,4,wikidata,Q121743666,,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.
 comune.ancona.it,4,wikidata,Corpo di polizia locale di Ancona,,302,none
 comunelecceneimarsi.it,4,wikidata,Q27573909,,HttpConnectTimeoutException: HTTP connect timed out,none
+conservatoriodicosenza.it,4,academia,Conservatoire of Cosenza,central,,
 consiglionazionaleforense.it,4,wikidata,Consiglio Nazionale Forense,,HttpConnectTimeoutException: HTTP connect timed out,none
 consip.it,4,wikidata,Consip,,HttpConnectTimeoutException: HTTP connect timed out,none
 corpoguardieaifuochi.it,4,wikidata,Q126489524,,HttpConnectTimeoutException: HTTP connect timed out,10 mx2.pub.mailpod8-cph3.one.com.; 10 mx3.pub.mailpod8-cph3.one.com.; 10 mx1.pub.mailpod8-cph3.one.com.
 cricd.it,4,wikidata,Q133284904,,200,none
+cro.it,4,academia,Centro di Riferimento Oncologico,central,,
 cslinsubria.it,4,wikidata,International Research Center for Local Histories and Cultural Diversites,,301,none
-demo.istat.it,4,wikidata,Italian National Institute of Statistics,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 diodatabertolo.it,4,wikidata,Q140130716,,200,none
 embajadacostaricaitalia.it,4,wikidata,embassy of Costa Rica in Italy,central,HttpConnectTimeoutException: HTTP connect timed out,none
 embassyofkenya.it,4,wikidata,embassy of Kenya in Italy,central,301,none
 embl.it,4,wikidata,European Molecular Biology Laboratory - Italy,,404,5 ironport2.EMBL-Heidelberg.DE.; 5 ironport1.EMBL-Heidelberg.DE.
+emedea.it,4,academia,IRCCS Eugenio Medea,central,,
 enas.sardegna.it,4,wikidata,Sardinia Water Board,,ConnectException,none
 enpam.it,4,wikidata,Q107084006,,ConnectException,none
 erdis.it,4,wikidata,Q139086157,,200,none
 ethiopianembassy.it,4,wikidata,embassy of Ethiopia in Italy,central,SSLHandshakeException: Remote host terminated the handshake,none
 fofi.it,4,wikidata,Federazione Ordini Farmacisti Italiani,,301,0 fofi-it.mail.protection.outlook.com.
 fondazionechanges.org,4,directory,Fondazione CHANGES - Cultural Heritage Active Innovation for Next-Gen Sustainable Society,,301,0 smtp.google.com.
+fondazionecsc.it,4,academia,National Film School,central,,
 fondazionefamiglialegnanese.it,4,wikidata,Famiglia Legnanese,,301,none
 ghanaembassy.it,4,wikidata,embassy of Ghana in Italy,central,200,none
 guardiacostieraausiliaria.it,4,wikidata,Q28669819,,200,1 smtp.google.com.
+home.infn.it,4,academia,Istituto Nazionale di Fisica Nucleare,central,,
 iamb.it,4,wikidata,International Centre for Advanced Mediterranean Agronomic Studies,,ConnectException,none
 iasi.cnr.it,4,wikidata,Istituto di analisi dei sistemi ed informatica,,HttpConnectTimeoutException: HTTP connect timed out,10 mx-istituti.cnr.it.
 icbsa.it,4,wikidata,Istituto centrale per i beni sonori ed audiovisivi,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.icbsa.it.
 iccd.beniculturali.it,4,wikidata,Central Institute for Catalogues and Documentation,,200,none
 iccu.sbn.it,4,wikidata,Istituto Centrale per il Catalogo Unico,,302,none
+ieo.it,4,academia,European Institute of Oncology,central,,
 ilgranoduro.it,4,wikidata,Consorzio di Ricerca Gian Pietro Ballatore,,SSLHandshakeException: Remote host terminated the handshake,none
 imati.cnr.it,4,wikidata,Q110460484,,200,none
+inmi.it,4,academia,Lazzaro Spallanzani National Institute for Infectious Diseases,central,,
 inmp.it,4,wikidata,Istituto Nazionale salute Migrazioni e Povertà,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 inmp-it.mail.protection.outlook.com.
+ino.cnr.it,4,academia,National Optical Institute,central,,
+ino.it,4,academia,"National Institute of Optics, Pisa",central,,
 inpgi.it,4,wikidata,Q3803646,,301,none
+insr.it,4,academia,Istituto Nazionale di Studi sul Rinascimento,central,,
+international.unina.it,4,academia,University of Naples Federico II,central,,
 inu.it,4,wikidata,Istituto Nazionale di Urbanistica,,200,none
 invitalia.it,4,wikidata,Invitalia,,ConnectException,10 invitalia-it.mail.protection.outlook.com.
+ior.it,4,academia,Rizzoli Orthopedic Institute,central,,
 ipa.roma.it,4,wikidata,IPA,,301,10 mail.register.it.
 ipablapieve.it,4,wikidata,Q139691508,,ConnectException,10 fw2.ipablapieve.it.; 5 mail.ipablapieve.it.
 isafom.cnr.it,4,wikidata,Institute for Agricultural and Forest Systems in the Mediterranean,,200,none
 isb.cnr.it,4,wikidata,Institute for Biological Systems,,HttpConnectTimeoutException: HTTP connect timed out,10 mx-istituti.cnr.it.
 isinucleare.it,4,wikidata,National Inspectorate for Nuclear Safety and Radiation Protection,,ConnectException,none
 istitutopolacco.it,4,wikidata,Polish Institute in Rome,,301,none
+italia-resistenza.it,4,academia,Ferruccio Parri National Institute,central,,
 izsto.it,4,wikidata,Istituto Zooprofilattico Sperimentale del Piemonte Liguria e Valle d'Aosta,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 jobtech.it,4,wikidata,Jobtech SRL,,200,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
 khi.fi.it,4,wikidata,Kunsthistorisches Institut in Florenz,,ConnectException,none
@@ -230,14 +245,18 @@ lg.camcom.it,4,wikidata,Camera di commercio della Maremma e del Tirreno,,200,non
 liban.it,4,wikidata,embassy of Lebanon in Italy,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 SMTP.GOOGLE.COM.
 librari.beniculturali.it,4,wikidata,Q110623832,,ConnectException,none
 lnx.sudafrica.it,4,wikidata,embassy of South Africa in Italy,central,200,none
+marionegri.it,4,academia,Mario Negri Institute for Pharmacological Research,central,,
+media.inaf.it,4,academia,Italian National Institute for Astrophysics,central,,
 mi.camcom.it,4,wikidata,Camera di commercio di Milano,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.
 milanomet.it,4,wikidata,Milano Metropoli Development Agency,,HttpConnectTimeoutException: HTTP connect timed out,none
 mofaic.gov.ae,4,wikidata,"Consulate General of the United Arab Emirates, Milano",,HttpConnectTimeoutException: HTTP connect timed out,none
+mondino.it,4,academia,Fondazione Istituto Neurologico Nazionale Casimiro Mondino,central,,
 museicivici.comune.como.it,4,wikidata,Como Civic Museums,,HttpConnectTimeoutException: HTTP connect timed out,none
 museicivici.comune.verona.it,4,wikidata,Q112299889,,HttpConnectTimeoutException: HTTP connect timed out,none
 museometaponto.beniculturali.it,4,wikidata,Metapontum,,HttpConnectTimeoutException: HTTP connect timed out,none
 na.archiworld.it,4,wikidata,Ordine Architetti Pianificatori Paesaggisti Conservatori di Napoli e Provincia,,301,dig error
 nunziatura.it,4,wikidata,Apostolic Nunciature to Italy,central,HttpConnectTimeoutException: HTTP connect timed out,none
+nut.entecra.it,4,academia,Istituto Nazionale di Ricerca per gli Alimenti e la Nutrizione,central,,
 odg.it,4,wikidata,Order of Journalists,,HttpConnectTimeoutException: HTTP connect timed out,5 odg-it.mail.protection.outlook.com.
 oed.piemonte.it,4,wikidata,Osservatorio Epidemiologico delle Dipendenze,,HttpConnectTimeoutException: HTTP connect timed out,0 oed-piemonte-it.mail.protection.outlook.com.
 ospedalideicolli.it,4,wikidata,Q96479345,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -250,7 +269,10 @@ parcosila.it,4,wikidata,Q55995981,,HttpConnectTimeoutException: HTTP connect tim
 parcoticinolagomaggiore.it,4,wikidata,ente di gestione delle aree protette del Ticino e del Lago Maggiore,,SSLHandshakeException: Remote host terminated the handshake,none
 plugandpay.it,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 polizialocale.regione.puglia.it,4,wikidata,Q136296946,,HttpConnectTimeoutException: HTTP connect timed out,none
+portale.conservatoriodicosenza.it,4,academia,Conservatoire of Cosenza,central,,
 portale.fnomceo.it,4,wikidata,National Federation of the Orders of Doctors and Dental Surgeons,,200,none
+portale.unibas.it,4,academia,University of Basilicata,central,,
+portale.unipv.it,4,academia,University of Pavia,central,,
 portici.enea.it,4,wikidata,ENEA Portici Research Centre,,301,none
 portidiroma.it,4,wikidata,Q3630822,,200,none
 porto.genova.it,4,wikidata,Autorità Portuale di Genova,,ConnectException,none
@@ -268,6 +290,7 @@ regione.puglia.it,4,wikidata,Apulia,,HttpConnectTimeoutException: HTTP connect t
 regione.sardegna.it,4,wikidata,Sardinia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching regione.sardegna.it found.,none
 regione.taa.it,4,wikidata,Trentino-South Tyrol,,301,none
 regione.umbria.it,4,wikidata,Umbria,,301,none
+reteparri.it,4,academia,Ferruccio Parri National Institute,central,,
 riminiturismo.it,4,wikidata,Q27573529,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 riminiturismo-it.mail.protection.outlook.com.
 roma.mfa.gov.hu,4,wikidata,Hungarian embassy in Roma,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 romagnafaentina.it,4,wikidata,Romagna Faentina Union,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.comune.faenza.ra.it.
@@ -283,11 +306,12 @@ sistan.it,4,wikidata,SISTAN,,HttpConnectTimeoutException: HTTP connect timed out
 soprintendenzaspecialeroma.it,4,wikidata,Soprintendenza speciale per i beni archeologici di Roma,,HttpConnectTimeoutException: HTTP connect timed out,none
 sovraintendenzaroma.it,4,wikidata,Sovrintendenza capitolina ai beni culturali,,HttpConnectTimeoutException: HTTP connect timed out,none
 startplus.it,4,wikidata,Start Plus,,HttpConnectTimeoutException: HTTP connect timed out,none
-statistica.regione.veneto.it,4,wikidata,Q109669672,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 storiaantica.eu,4,directory,Istituto Italiano per La Storia Antica,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.register.it.
 stpbrindisi.it,4,wikidata,STP,,HttpConnectTimeoutException: HTTP connect timed out,none
 stplecce.it,4,wikidata,STP,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.stplecce.it.
+studiverdiani.it,4,academia,National Institute of Verdi Studies,central,,
 sudanembassy.it,4,wikidata,embassy of Sudan in Italy,central,301,none
+supercomputing-icsc.it,4,academia,"ICSC Centro Nazionale di Ricerca in High Performance Computing, Big Data e Quantum Computing",central,,
 synergie-italia.it,4,wikidata,Synergie,,HttpConnectTimeoutException: HTTP connect timed out,none
 thaiembassy.it,4,wikidata,embassy of Thailand in Italy,central,HttpConnectTimeoutException: HTTP connect timed out,none
 trisaia.enea.it,4,wikidata,ENEA Trisaia Research Centre,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -296,10 +320,28 @@ turismoroseto.it,4,wikidata,Q27573477,,HttpConnectTimeoutException: HTTP connect
 uif.bancaditalia.it,4,wikidata,Unità di Informazione Finanziaria per l'Italia,,200,none
 uits.it,4,wikidata,Unione italiana di tiro a segno,,301,none
 unesco.it,4,wikidata,Italian National Commission for UNESCO,,HttpConnectTimeoutException: HTTP connect timed out,none
+unibg.it,4,academia,University of Bergamo,central,,
+unibo.it,4,academia,University of Bologna,central,,
+unica.it,4,academia,University of Cagliari,central,,
+unimc.it,4,academia,University of Macerata,central,,
+unimi.it,4,academia,University of Milan,central,,
+unina.it,4,academia,University of Naples Federico II,central,,
+unipi.it,4,academia,University of Pisa,central,,
+unipr.it,4,academia,University of Parma,central,,
+uniroma1.it,4,academia,Sapienza University of Rome,central,,
+uniroma3.it,4,academia,Università degli Studi Roma Tre,central,,
+uniroma4.it,4,academia,Foro Italico University of Rome,central,,
+unisa.it,4,academia,University of Salerno,central,,
+unisalento.it,4,academia,University of Salento,central,,
+unistrapg.it,4,academia,Università per Stranieri di Perugia,central,,
+unite.it,4,academia,University of Teramo,central,,
+units.it,4,academia,University of Trieste,central,,
 uslnordovest.toscana.it,4,wikidata,Q98852439,,HttpConnectTimeoutException: HTTP connect timed out,none
 uslsudest.toscana.it,4,wikidata,Q98852429,,HttpConnectTimeoutException: HTTP connect timed out,none
 uzembassy.it,4,wikidata,embassy of Uzbekistan in Italy,central,200,none
 verkehr.provinz.bz.it,4,wikidata,Q15852666,,200,none
+villacarlotta.it,4,academia,Villa Carlotta,central,,
+web.inea.it,4,academia,National Institute of Agricultural Economics,central,,
 ww.ssica.it,4,wikidata,Stazione sperimentale per l'industria delle conserve alimentari,,ConnectException,none
 yemenembassy.it,4,wikidata,embassy of Yemen in Italy,central,200,none
 zambianembassy.it,4,wikidata,embassy of Zambia in Italy,central,200,0 zambianembassy.it.
@@ -315,9 +357,11 @@ benedicta.org,3,wikidata,Associazione Memoria della Benedicta,,200,none
 bresciamusei.com,3,wikidata,Civic Museums of Brescia,,301,none
 consulado.pe,3,wikidata,"Consulate General of Peru, Florence",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 consulado-pe.mail.protection.outlook.com.
 embassyoftanzaniarome.info,3,wikidata,embassy of Tanzania in Italy,central,200,none
+eurac.edu,3,academia,Institute for Regional Development,central-1,,
 eurogendfor.org,3,wikidata,European Gendarmerie Force,,301,0 eurogendfor-org.mail.protection.outlook.com.
 finlandabroad.fi,3,wikidata,embassy of Finland in Italy,central,301,none
 igmi.org,3,wikidata,Istituto geografico militare,,200,2 mx02.leonet.it.; 1 mx.leonet.it.
+inasaroma.org,3,academia,Istituto Nazionale di Archeologia e Storia dell’Arte (INASA),central,,
 it.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Rome",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching it.china-embassy.org found.,none
 it.mfa.lt,3,wikidata,embassy of Lithuania in Italy,central,403,none
 italien.diplo.de,3,wikidata,"Embassy of Germany, Rome",central,200,none
@@ -351,6 +395,7 @@ srilankaembassyrome.org,3,wikidata,embassy of Sri Lanka in Italy,central,403,0 _
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Rome",central,301,none
 trasfer.eu,3,wikidata,Trasfer,,301,none
 unesco.org,3,wikidata,"United Nations Educational, Scientific and Cultural Organization",,302,none
+uni-med.net,3,academia,Mediterranean Universities Union,central,,
 uni.com,3,wikidata,Ente Nazionale Italiano di Unificazione,,301,none
 regione.vda.it,2,wikidata;wikidata;wikidata,Aosta Valley | Q27906871,,503,10 smtp1.invallee.it.; 10 smtp2.invallee.it.
 ambafrance-it.org,1,wikidata;wikidata;wikidata;wikidata,"embassy of France, Rome | Consulate-General of France in Milan | Consulate-General of France in Naples | Consulate General of France in Turin",central,ConnectException,none

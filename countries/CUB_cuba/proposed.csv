@@ -13,16 +13,22 @@ bnjm.cu,4,wikidata,National Library José Martí,,HttpConnectTimeoutException: H
 cdm.gtmo.inf.cu,4,wikidata,Centro de Desarrollo de la Montaña,,ConnectException,0 ceniai1.net.cu.
 cecmed.cu,4,wikidata,CECMED,,ConnectException,10 mail.cecmed.cu.
 centis.cu,4,wikidata,Centro de Isotopos,,HttpConnectTimeoutException: HTTP connect timed out,dig error
+cnic.edu.cu,4,academia,Centro Nacional de Investigaciones Científicas,central,,
+cujae.edu.cu,4,academia,Polytechnic José Antonio Echeverría,central,,
 eleccionesencuba.cu,4,wikidata,National Electoral Council of Cuba,central,HttpConnectTimeoutException: HTTP connect timed out,10 ns.eleccionesencuba.cu.
+ensap.sld.cu,4,academia,Escuela Nacional de Salud Pública,central,,
 geotech.cu,4,wikidata,Institute of Tropical Geography,,HttpConnectTimeoutException: HTTP connect timed out,none
 havanna.mfa.gov.hu,4,wikidata,"Hungarian embassy, Havana",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 inaf.co.cu,4,wikidata,Instituto de Investigaciones Agro-Forestales,,ConnectException,none
 inca.edu.cu,4,wikidata,National Institute of Agricultural Sciences,,HttpConnectTimeoutException: HTTP connect timed out,dig error
 inimet.cu,4,wikidata,Instituto Nacional de Metrologia,,ConnectException,0 mail.inimet.cu.
+jbn.uh.cu,4,academia,Jardín botánico Nacional de Cuba,central,,
 lacalle.cubaweb.cu,4,wikidata,Committees for the Defense of the Revolution,,ConnectException,none
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Havana",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 namembassycuba.co.cu,4,wikidata,embassy of Namibia in Cuba,central,ConnectException,none
 snap.cu,4,wikidata,National Center for Protected Areas,,ConnectException,10 mail.snap.cu.
+uh.cu,4,academia,University of Havana,central,,
+uo.edu.cu,4,academia,University of Santiago de Cuba,central,,
 bahamasembcuba.com,3,wikidata,Embassy of the Bahamas in Cuba,central,200,0 mail.bahamasembcuba.com.
 cu.ambafrance.org,3,wikidata,"Embassy of France, Havana",central,301,none
 cu.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Havana",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cu.chineseembassy.org found.,none
@@ -40,3 +46,4 @@ mzv.sk,3,wikidata,embassy of Slovakia in Cuba,central,301,10 mail.gov.sk.
 norway.no,3,wikidata,"Embassy of Norway, Havana",central,301,0 mx.domeneshop.no.
 srilankaembcuba.org,3,wikidata,embassy of Sri Lanka in Cuba,central,301,0 mail.chost.ca.
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Havana",central,301,none
+instituciones.sld.cu,2,academia;academia;academia,"Instituto Nacional de Higiene, Epidemiología y Microbiología | Instituto de Medicina Tropical “Pedro Kourí” | Universidad de Ciencias Médicas de la Habana",central,,

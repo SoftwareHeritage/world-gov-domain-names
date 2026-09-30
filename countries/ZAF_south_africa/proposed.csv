@@ -2,8 +2,10 @@ hostname,score,sources,label,level,http_status,mx
 arc.agric.za,7,wikidata;wikidata,"Institute for Deciduous Fruit, Vines and Wine | Agricultural Research Council of South Africa",,302,20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.; 40 arc-agric-za.mail.protection.outlook.com.
 gpwonline.co.za,7,wikidata;wikidata,Government Printing Works,,200,none
 mhs.mil.za,7,wikidata;wikidata,South African Military Health Service,,ConnectException,none
+nrf.ac.za,7,wikidata;academia,National Research Foundation,central,ConnectException,0 nrf-ac-za.mail.protection.outlook.com.
 concourt.org.za,6,wikidata,Constitutional Court of South Africa,central,301,10 za-smtp-inbound-1.mimecast.co.za.; 20 za-smtp-inbound-2.mimecast.co.za.
 roc-taiwan.org,6,wikidata;wikidata,Taipei Liaison Office in Cape Town | Taipei Liaison Office in the Republic of South Africa,,302,none
+sanbi.org,6,wikidata;academia,South African National Biodiversity Institute,central,,
 affaires-etrangeres.gouv.ga,4,wikidata,embassy of Gabon in South Africa,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.affaires-etrangeres.gouv.ga.
 agsa.co.za,4,wikidata,Auditor-General,central,ConnectException: Host is unreachable,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.; 20 mail.agsa.co.za.
 arb.org.za,4,wikidata,Advertising Regulatory Board,,301,0 arb-org-za.mail.protection.outlook.com.
@@ -29,6 +31,7 @@ internetgovernance.org.za,4,wikidata,South African Internet Governance Forum,,20
 kenya.org.za,4,wikidata,high commission of Kenya in South Africa,central,200,0 kenya-org-za.mail.protection.outlook.com.
 kuwaitembassy.co.za,4,wikidata,embassy of Kuwait in South Africa,central,301,none
 liberiaembassypretoria.co.za,4,wikidata,embassy of Liberia in South Africa,central,301,none
+mandela.ac.za,4,academia,Nelson Mandela University,central,,
 mjc.org.za,4,wikidata,South African Muslim Judicial Council,,200,1 SMTP.GOOGLE.COM.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Pretoria",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 moroccoembassy.co.za,4,wikidata,embassy of Morocco in South Africa,central,200,0 _dc-mx.58eed9d8d42f.moroccoembassy.co.za.
@@ -38,14 +41,16 @@ necsa.co.za,4,wikidata,South African Nuclear Energy Corporation,,301,10 za-smtp-
 nhls.ac.za,4,wikidata,National Health Laboratory Service,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 nhls-ac-za.mail.protection.outlook.com.
 nicd.ac.za,4,wikidata,National Institute for Communicable Diseases,,HttpConnectTimeoutException: HTTP connect timed out,10 tls.imss.mtnbusiness.co.za.
 nihss.ac.za,4,wikidata,National Institute for the Humanities and Social Sciences,,200,10 nihss-ac-za.mail.protection.outlook.com.
+nithecs.ac.za,4,academia,National Institute for Theoretical and Computational Sciences,central,,
 nlsa.ac.za,4,wikidata,National Library of South Africa,,ConnectException,5 d332613.b.ess.de.barracudanetworks.com.; 0 d332613.a.ess.de.barracudanetworks.com.
-nrf.ac.za,4,wikidata,National Research Foundation,,ConnectException,0 nrf-ac-za.mail.protection.outlook.com.
+nwu.ac.za,4,academia,North-West University,central,,
 palembassyza.co.za,4,wikidata,"Embassy of the State of Palestine, Pretoria",central,200,0 .
 paraguayembassy.co.za,4,wikidata,embassy of Paraguay in South Africa,central,405,none
 pretoria.ghanahighcommission.co.za,4,wikidata,high commission of Ghana in South Africa,central,403,none
 pretoria.mfa.gov.hu,4,wikidata,embassy of Hungary in South Africa,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 reservebank.co.za,4,wikidata,South African Reserve Bank,,ConnectException,none
 rsr.org.za,4,wikidata,Railway Safety Regulator,,301,10 rsr-org-za.mail.protection.outlook.com.
+ru.ac.za,4,academia,Rhodes University,central,,
 sacnasp.org.za,4,wikidata,South African Council for Natural Scientific Professions,,ConnectException,10 sacnasp-org-za.mail.protection.outlook.com.
 sahra.org.za,4,wikidata,South African Heritage Resources Agency,,301,10 mx-02-us-west-2.prod.hydra.sophos.com.; 10 mx-01-us-west-2.prod.hydra.sophos.com.
 sanac.org.za,4,wikidata,South African National AIDS Council,,200,10 sanac-org-za.mail.protection.outlook.com.
@@ -55,11 +60,21 @@ saudiembassy.co.za,4,wikidata,"Embassy of Saudi Arabia, Pretoria",central,404,5 
 senegalembassy.co.za,4,wikidata,embassy of Senegal in South Africa,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching senegalembassy.co.za found.,10 senegalembassy.co.za.; 20 mail.from.co.za.
 siu.org.za,4,wikidata,Special Investigating Unit,,HttpConnectTimeoutException: HTTP connect timed out,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
 srilanka.co.za,4,wikidata,high commission of Sri Lanka in South Africa,central,301,none
+su.ac.za,4,academia,Stellenbosch University,central,,
 swazihighcom.co.za,4,wikidata,"High Commission of Eswatini, Pretoria",central,301,0 swazihighcom-co-za.mail.protection.outlook.com.
 taalkommissie.co.za,4,wikidata,Taalkommissie,,301,10 mx1.rdsa-mail.com.; 30 mx3.rdsa-mail.com.; 20 mx2.rdsa-mail.com.
+tut.ac.za,4,academia,Tshwane University of Technology,central,,
+uct.ac.za,4,academia,University of Cape Town,central,,
+ufh.ac.za,4,academia,University of Fort Hare,central,,
+ufs.ac.za,4,academia,University of the Free State,central,,
 umgeni.co.za,4,wikidata,Umgeni Water Amanzi,,200,10 za-smtp-inbound-1.mimecast.co.za.; 10 za-smtp-inbound-2.mimecast.co.za.
+unisa.ac.za,4,academia,University of South Africa,central,,
+up.ac.za,4,academia,University of Pretoria,central,,
+uwc.ac.za,4,academia,University of the Western Cape,central,,
 vietnam.co.za,4,wikidata,embassy of Vietnam in South Africa,central,301,10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+wits.ac.za,4,academia,University of the Witwatersrand,central,,
 wrc.org.za,4,wikidata,Water Research Commission,,HttpTimeoutException: request timed out,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
+wsu.ac.za,4,academia,Walter Sisulu University,central,,
 africa.iclei.org,3,wikidata,ICLEI Africa Secretariat,,200,10 www13.iclei.org.
 consulfrance-jhb.org,3,wikidata,"Consulate General of France, Johannesburg",,ConnectException,none
 consulfrance-lecap.org,3,wikidata,"consulate general of France, Cape Town",,ConnectException,none
@@ -75,6 +90,7 @@ mfa.gr,3,wikidata,embassy of Greece in South Africa,central,403,10 mailhost.mfa.
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Pretoria",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in South Africa,central,301,10 mail.gov.sk.
 nhcpsa.org,3,wikidata,high commission of Nigeria in South Africa,central,200,10 mail.nhcpsa.org.
+nmisa.org,3,academia,National Metrology Institute of South Africa,central,,
 norway.no,3,wikidata,"Embassy of Norway, Pretoria",central,301,0 mx.domeneshop.no.
 pprotect.org,3,wikidata,Public Protector,,ConnectException,20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.; 0 pprotect-org.mail.protection.outlook.com.
 pretoria.embassy.qa,3,wikidata,embassy of Qatar in South Africa,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

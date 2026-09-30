@@ -5,6 +5,7 @@ arhivelenationale.ro,7,wikidata;wikidata,National Historical Central Archives | 
 cultura.ro,7,wikidata;wikidata,Ministry of Culture,central,503,5 mx.cultura.ro.; 10 mail.cultura.ro.
 dataprotection.ro,7,wikidata;linkgraph,National Supervisory Authority for Personal Data Processing,central,200,20 mx2.dataprotection.ro.; 10 mx1.dataprotection.ro.
 edu.ro,7,wikidata;wikidata,Ministry of Education of Romania,central,200,10 mailgov.edu.ro.
+insse.ro,7,wikidata;academia,National Institute of Statistics,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.insse.ro.; 10 mail2.insse.ro.
 madr.ro,7,wikidata;wikidata,Ministry of Agriculture and Rural Development of Romania,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 mae.ro,7,wikidata;wikidata,Ministry of Foreign Affairs of Romania,central,503,10 mx2.mae.ro.; 10 mx1.mae.ro.
 mapn.ro,7,wikidata;wikidata,Ministry of National Defense,central,410,10 esa1.mapn.ro.; 10 esa2.mapn.ro.
@@ -31,16 +32,20 @@ anrsc.ro,4,wikidata,National Authority for Regulating Community Services Public 
 ansvsa.ro,4,wikidata,"Romanian Sanitary, Veterinary and Food Safety Authority",,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 apia.org.ro,4,wikidata,Agriculture Payments and Intervention Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
 aracis.ro,4,wikidata,ARACIS,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching aracis.ro found.,0 aracis-ro.mail.protection.outlook.com.
+asas.ro,4,academia,Academy of Agricultural and Forestry Sciences,central,,
+ase.ro,4,academia,Bucharest University of Economic Studies,central,,
 asfromania.ro,4,wikidata,Romanian Financial Supervisory Authority,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.asfromania.ro.
 atunisia.ro,4,wikidata,"Embassy of Tunisia, Bucharest",central,200,0 atunisia.ro.
 b.politiaromana.ro,4,wikidata,Direcția Generală de Poliție a Municipiului București,central-1,200,10 mail.politiaromana.ro.
 bibnat.ro,4,wikidata,National Library of Romania,,HttpTimeoutException: request timed out,5 mail.bibnat.ro.
 bnr.ro,4,wikidata,National Bank of Romania,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailgw1.bnr.ro.; 20 mailgw2.bnr.ro.
 bukarest.mfa.gov.hu,4,wikidata,"Hungarian embassy, Bucharest",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+cantacuzino.ro,4,academia,"National Institute of Research and Development for Microbiology and Immunology ""Cantacuzino""",central,,
 ccia-arad.ro,4,wikidata,"Arad Chamber of Commerce, Industry and Agriculture",,200,10 mail.ccia-arad.ro.
 cciat.ro,4,wikidata,Chamber of Commerce Industry and Agriculture Timisoara,,301,10 mail.cciat.ro.
 ccr.ro,4,wikidata,Constitutional Court of Romania,central,503,18 mail.ccr.ro.
 cdep.ro,4,wikidata,Chamber of Deputies of Romania,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 cdep.in.tmes.trendmicro.eu.; 101 edge50.cdep.ro.
+cfarm.ncpri.ro,4,academia,National Institute For Chemical Pharmaceutical Research and Development,central,,
 chinaembassy.org.ro,4,wikidata,"Embassy of the People's Republic of China, Bucharest",central,ConnectException,none
 clasate.cimec.ro,4,wikidata,National Heritage Institute,,200,none
 cna.ro,4,wikidata,National Audiovisual Council,,200,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
@@ -60,19 +65,32 @@ dna.ro,4,wikidata,National Anticorruption Directorate,,200,20 mail.dna.ro.; 10 m
 domeniilestatului.ro,4,wikidata,Q12720085,,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 embadeuruguay.ro,4,wikidata,embassy of Uruguay in Romania,central,403,none
 ibiol.ro,4,wikidata,Institute of Biology Bucharest,,200,0 ibiol-ro.mail.protection.outlook.com.
+icechim.ro,4,academia,National Institute for Research - Development in Chemistry and Petrochemistry Bucharest,central,,
+icemtl.ro,4,academia,Gavrila Simion Eco-Museum Research Institute Tulcea,central-1,,
+ici.ro,4,academia,National Institute for Research & Development in Informatics,central,,
 idah.ro,4,wikidata,Institute for Diagnosis and Animal Health,,SSLHandshakeException: Remote host terminated the handshake,10 mail.idah.ro.
 igsu.ro,4,wikidata,Romanian General Inspectorate for Emergency Situations,,200,10 relay1.igsu.ro.
+incas.ro,4,academia,National Institute for Aerospace Research Elie Carafoli,central,,
 incd.ro,4,wikidata,Institutul Naţional de Cercetare-Dezvoltare in Construcţii Urbanism şi Dezvoltare Teritorială Durabilă,,200,30 mx03.whmpanels.com.; 10 mx01.whmpanels.com.; 20 mx02.whmpanels.com.
+incdpm.ro,4,academia,National Institute of Research and Development for Environment Protection,central,,
 incdt.ro,4,wikidata,Institutul Național de Cercetare - Dezvoltare în Turism,,200,10 mailx.incdt.ro.
+ince.ro,4,academia,"Institutul National de Cercetari Economice ""Costin C. Kiritescu""",central,,
+incertrans.ro,4,academia,Transport Research Institute,central,,
+inec.ro,4,academia,Q141412242,central,,
+infim.ro,4,academia,National Insitute for Materials Physics,central,,
+inflpr.ro,4,academia,National Institute for Laser Plasma and Radiation Physics,central,,
+infp.ro,4,academia,National Research Institute for Earth Physics,central,,
 inm.ro,4,wikidata,National Institute of Metrology,,200,0 mail.inm.ro.
 insemex.ro,4,wikidata,Institutul Naţional de Cercetare-Dezvoltare pentru Securitate Minieră şi Protecţie Antiexplozivă - INSEMEX,,200,10 spamguard1.mxserver.ro.; 20 spamguard2.mxserver.ro.
-insse.ro,4,wikidata,National Institute of Statistics,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.insse.ro.; 10 mail2.insse.ro.
 ispaim.mapn.ro,4,wikidata,Institutul pentru Studii Politice de Apărare și Istorie Militara,,410,none
+ivb.ro,4,academia,Victor Babes National Institute for Research and Development in Pathology and Biomedical Sciences,central,,
 kolozsvar.mfa.gov.hu,4,wikidata,"Consulate General of Hungary, Cluj-Napoca",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailb.kolozsvar.mfa.gov.hu.; 10 maila.kolozsvar.mfa.gov.hu.
 mai-dga.ro,4,wikidata,Direcţia Generală Anticorupţie,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mai-dga.ro found.,10 mai.gov.ro.
+mateibals.ro,4,academia,"National Institute for Infectious Diseases ""Prof. Dr. Matei Balș""",central,,
 meteoromania.ro,4,wikidata,Administraţia Naţionala de Meteorologie,,301,5 gwmail.meteoromania.ro.
 mmanpis.ro,4,wikidata,Q18537297,,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Bucharest",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nipne.ro,4,academia,Horia Hulubei National Institute of Physics and Nuclear Engineering,central,,
 onpcsb.ro,4,wikidata,Romanian Office for the Prevention and Combating of Money Laundering,central,200,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 onrc.ro,4,wikidata,Trade Register,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 omail.onrc.ro.
 patrimoniu.ro,4,wikidata,National Heritage Institute,,200,10 mail.patrimoniu.ro.
@@ -95,6 +113,13 @@ sudanembassy.ro,4,wikidata,embassy of Sudan in Romania,central,403,none
 syrianembassy.ro,4,wikidata,embassy of Syria in Romania,central,302,none
 tpbi.ro,4,wikidata,Bucharest-Ilfov Public Transport Intercommunity Development Association,,200,20 mail.tpbi.ro.; 50 mx2.tpbi.ro.
 uefiscsu.ro,4,wikidata,Unitatea Executiva Pentru Finantarea Invatamantului Superior Si A Cercetarii Stiintifice Universitare,,403,none
+ulbsibiu.ro,4,academia,Lucian Blaga University of Sibiu,central,,
+unatc.ro,4,academia,I. L. Caragiale National University of Theatre and Film,central,,
+unibuc.ro,4,academia,University of Bucharest,central,,
+unitbv.ro,4,academia,Transilvania University of Brașov,central,,
+usamvcluj.ro,4,academia,University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca,central,,
+uvt.ro,4,academia,West University of Timișoara,central,,
+valahia.ro,4,academia,Valahia University of Târgoviște,central,,
 anarz.eu,3,wikidata,"National Agency for Zootechnics ""Prof. Dr. G. K. Constantinescu""",,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 aracip.eu,3,wikidata,Romanian Agency for Quality Assurance in Pre-university Education,,200,10 exc.aracip.eu.
 bgembassy-romania.org,3,wikidata,embassy of Bulgaria in Romania,central,200,none

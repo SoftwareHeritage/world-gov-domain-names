@@ -1,4 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
+amar.org.ir,7,wikidata;academia,Statistical Centre of Iran,central,HttpConnectTimeoutException: HTTP connect timed out,none
 dolat.ir,7,wikidata;wikidata,Government of Iran,central,200,10 194.225.148.247.; 10 194.225.148.248.
 emsrt.ir,7,wikidata;wikidata,"Ministry of Science, Research and Technology (Iran)",central,301,none
 en.mfa.ir,7,wikidata;wikidata,Ministry of Foreign Affairs of Iran,central,307,none
@@ -17,37 +18,62 @@ rc.majlis.ir,7,wikidata;wikidata,Islamic Consultative Assembly,central,200,none
 vaja.ir,7,wikidata;wikidata,Ministry of Intelligence,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.vaja.ir.
 wri.ac.ir,7,wikidata;wikidata,Water Research Institute,,HttpTimeoutException: request timed out,10 mail.wri.ac.ir.
 divanealee.eadl.ir,6,wikidata,Supreme Court of Iran,central,HttpConnectTimeoutException: HTTP connect timed out,none
+abru.ac.ir,4,academia,Ayatollah Borujerdi University,central,,
 acecr.ir,4,wikidata,"Academic Center for Education, Culture and Research",,301,none
 afghanembassy.ir,4,wikidata,"Embassy of Afghanistan, Tehran",central,ConnectException,none
-amar.org.ir,4,wikidata,Statistical Centre of Iran,central,HttpConnectTimeoutException: HTTP connect timed out,none
+alzahra.ac.ir,4,academia,Alzahra University,central,,
 aqlibrary.ir,4,wikidata,Central Library of Astan Quds Razavi,,HttpConnectTimeoutException: HTTP connect timed out,none
+art.ac.ir,4,academia,Iran University of Art,central,,
+aut.ac.ir,4,academia,Amirkabir University of Technology,central,,
 cao.ir,4,wikidata,Iran Civil Aviation Organization,,ConnectException,10 mx01.caa.gov.ir.
 cbi.ir,4,wikidata,Central Bank of Iran,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.cbi.ir.
 cogc.ir,4,wikidata,Cognitive Sciences and Technologies Council,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.cogc.ir.
+d-kazeroon.nus.ac.ir,4,academia,Women's Skill National University of Kazerun,central,,
 dchq.ir,4,wikidata,Drug Control Headquarters of Iran,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.dchq.ir.
+en.hut.ac.ir,4,academia,Hamadan University of Technology,central,,
 en.irna.ir,4,wikidata,Islamic Republic News Agency,,200,none
 en.nasrme.ac.ir,4,wikidata,National Center for Strategic Research in Medical Education,,HttpConnectTimeoutException: HTTP connect timed out,none
+en.nigeb.ac.ir,4,academia,National Institute for Genetic Engineering and Biotechnology,central,,
+en.sbu.ac.ir,4,academia,Shahid Beheshti University,central,,
+en.um.ac.ir,4,academia,Ferdowsi University of Mashhad,central,,
 iccima.ir,4,wikidata,"Iran Chamber of Commerce, Industries, Mines & Agriculture",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.iccima.ir.
 ichto.ir,4,wikidata,Cultural Heritage Organization of Iran,central,HttpConnectTimeoutException: HTTP connect timed out,none
+ihu.ac.ir,4,academia,Imam Hossein University,central,,
 inio.ac.ir,4,wikidata,Iranian National Institute for Oceanography and Atmospheric Science,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.inio.ac.ir.
 iraniangas.ir,4,wikidata,National Iranian Gas Company,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.nigc.ir.
 irna.ir,4,wikidata,Islamic Republic News Agency,,301,10 mail.irna.ir.
 isa.ir,4,wikidata,Iranian Space Agency,,403,10 webmail.isa.ir.
+kazeroon.fars.pnu.ac.ir,4,academia,Payame Noor University of Kazerun,central,,
+kazerunsfu.ac.ir,4,academia,Salman Farsi University of Kazerun,central,,
+kums.ac.ir,4,academia,Kermanshah University of Medical Sciences,central,,
+kut.ac.ir,4,academia,Kermanshah University of Technology,central,,
 majazi.ir,4,wikidata,Supreme Council of Cyberspace (Iran),,HttpConnectTimeoutException: HTTP connect timed out,10 mail.majazi.ir.
 nano.ir,4,wikidata,Iran Nanotechnology Initiative Council,,200,2 safar.nano.ir.; 1 nanovps.ir.
 nanohealth.ir,4,wikidata,Iran Nanohealth Committee Food and Drug Organization,,ConnectException,none
+nbgi.rifr-ac.ir,4,academia,National Botanical Garden of Iran,central,,
 news.dchq.ir,4,wikidata,"Drug Control Headquarters, Research and Education Office",,302,none
+nihr.tums.ac.ir,4,academia,National Institute of Health Research (Iran),central,,
 nlai.ir,4,wikidata,National Library and Archives of Iran,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.nlai.ir.
+nrisp.ac.ir,4,academia,National Research Institute for Science Policy,central,,
 ostandari.khorasan.ir,4,wikidata,Khorasan Razavi Provincial Government,central-1,HttpTimeoutException: request timed out,none
+p1ksh.tvu.ac.ir,4,academia,Men's Skill National University of Kermanshah No. 1,central,,
+razi.ac.ir,4,academia,Razi University,central,,
 sabteahval.ir,4,wikidata,National Organization for Civil Registration of Iran,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sharif.ir,4,academia,Sharif University of Technology,central,,
+shirazu.ac.ir,4,academia,Shiraz University,central,,
 shora-gc.ir,4,wikidata,Guardian Council,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.shora-gc.ir.
 sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Tehran",central,ConnectException,none
 ssaa.ir,4,wikidata,Real Estate Registration Organization of Iran,,HttpConnectTimeoutException: HTTP connect timed out,1 edge.ssaa.ir.
 stemcell.isti.ir,4,wikidata,Iranian Council of Stem Cell Research and Technology,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.isti.ir.
 tabrizcentlib.ir,4,wikidata,Tabriz National Library,,ConnectException,none
+tabrizu.ac.ir,4,academia,University of Tabriz,central,,
 tamin.ir,4,wikidata,Social Security Organization,central,403,10 mail.tamin.ir.; 10 mail-1.tamin.ir.; 10 mail-2.tamin.ir.
 tccim.ir,4,wikidata,"Tehran Chamber of Commerce, Industries, Mines & Agriculture",,301,10 mail.tccim.ir.
 teheran.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tehran",central,HttpConnectTimeoutException: HTTP connect timed out,none
+uast.ac.ir,4,academia,University of Applied Science and Technology,central,,
+ui.ac.ir,4,academia,University of Isfahan,central,,
+ut.ac.ir,4,academia,University of Tehran,central,,
+zkf.cfu.ac.ir,4,academia,Farhangian University of Kazerun,central,,
 en.insf.org,3,wikidata,Iran National Science Foundation,,HttpConnectTimeoutException: HTTP connect timed out,none
 fa.irunesco.org,3,wikidata,Iranian National Commission for UNESCO,,ConnectException,none
 finlandabroad.fi,3,wikidata,embassy of Finland in Iran,central,301,10 mail.valtori.fi.

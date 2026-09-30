@@ -2,11 +2,16 @@ hostname,score,sources,label,level,http_status,mx
 parlement.ma,8,wikidata;wikidata,Parliament of Morocco,central,403,0 parlement.in.tmes.trendmicro.eu.
 bkam.ma,7,wikidata;wikidata,Bank Al-Maghrib | Q3015910,,ConnectException,5 bkam-ma.mail.protection.outlook.com.; 0 bkam.in.tmes.trendmicro.eu.
 chuibnrochd.ma,7,wikidata;wikidata,CHU Ibn Rochd,,200,10 mx1.menara.ma.; 30 mx3.menara.ma.; 20 mx2.menara.ma.
+cnesten.org.ma,7,wikidata;academia,"National Centre for Nuclear Energy, Science and Technology",central,HttpConnectTimeoutException: HTTP connect timed out,10 ftgate.cnesten.org.ma.
 diplomatie.ma,7,wikidata;wikidata,"Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 madrastna.ma,7,wikidata;wikidata,Ministry of National Education,central,ConnectException,5 alt2.aspmx.l.google.com.; 15 j442pcnfkck5bezhekpholmw454sgjpib5z34dvacayudyttfvia.mx-verification.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
 ofppt.ma,7,wikidata;wikidata,Vocational Training and Labor Promotion Office,,ConnectException,dig error
 tamwilcom.ma,7,wikidata;wikidata,Q122972557 | Tamwilcom,,200,0 tamwilcom-ma.mail.protection.outlook.com.
+uca.ma,7,wikidata;academia,Cadi Ayyad University,central,301,0 uca-ma.mail.protection.outlook.com.
+uit.ac.ma,7,wikidata;academia,Ibn Tofail University,central,301,2 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
 ump.ma,7,wikidata;wikidata,Mohamed I University,,HttpConnectTimeoutException: HTTP connect timed out,10 ALT3.ASPMX.L.GOOGLE.com.; 0 ump-ma.mail.protection.outlook.com.; 5 ALT2.ASPMX.L.GOOGLE.com.; 5 ALT1.ASPMX.L.GOOGLE.com.; 1 ASPMX.L.GOOGLE.com.; 10 ALT4.ASPMX.L.GOOGLE.com.
+univh2c.ma,7,wikidata;academia,Hassan II University of Casablanca,central,302,32768 d327543.a.ess.de.barracudanetworks.com.; 32768 relais2.univh2c.ma.; 32768 d327543.b.ess.de.barracudanetworks.com.; 10 relais3.univh2c.ma.; 32768 relais1.univh2c.ma.
+usms.ac.ma,7,wikidata;academia,Sultan Moulay Slimane University,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching usms.ac.ma found.,0 USMS-AC-MA.mail.protection.outlook.com.
 cour-constitutionnelle.ma,6,wikidata,Constitutional Court of Morocco,,405,0 mx.cour-constitutionnelle.ma.
 egov.ma,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.egov.ma.
 marokko.ahk.de,6,wikidata;wikidata,German Chamber of Commerce and Industry in Morocco,,302,10 marokko-ahk-de.mail.protection.outlook.com.
@@ -43,6 +48,7 @@ audakhla.ma,4,wikidata,Q126953123,,200,10 mail.audakhla.ma.
 aueks.org.ma,4,wikidata,Q126953118,,HttpConnectTimeoutException: HTTP connect timed out,none
 auessaouira.ma,4,wikidata,Q126953122,,HttpConnectTimeoutException: HTTP connect timed out,none
 augon.ma,4,wikidata,Q126953127,,HttpConnectTimeoutException: HTTP connect timed out,0 augon.ma.
+aui.ma,4,academia,Al Akhawayn University,central,,
 aujadida.ma,4,wikidata,Q126953158,,HttpConnectTimeoutException: HTTP connect timed out,none
 aukh.ma,4,wikidata,Q126953131,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.aukh.ma.
 aukhemi7.ma,4,wikidata,Q126953129,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -61,6 +67,7 @@ autar.ma,4,wikidata,Q126953151,,301,0 mail.autar.ma.
 autaza.ma,4,wikidata,Q126953153,,302,0 autaza.ma.
 autetouan.ma,4,wikidata,Q126953155,,HttpConnectTimeoutException: HTTP connect timed out,none
 bnrm.ma,4,wikidata,National Library of the Kingdom of Morocco,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 bnrm-ma.mail.protection.outlook.com.
+capm.org.ma,4,academia,National Center for Poison Control and Pharmacovigilance,central,,
 casainvest.ma,4,wikidata,Q126953232,,200,0 casainvest-ma.mail.protection.outlook.com.
 casasettat.ma,4,wikidata,Casablanca-Settat Regional Council,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 casatransport.ma,4,wikidata,Q2940759,,403,0 _dc-mx.eea262dd999f.casatransport.ma.
@@ -84,7 +91,6 @@ chuoujda.ma,4,wikidata,CHU Oujda,,SSLHandshakeException: (certificate_unknown) N
 churabat.ma,4,wikidata,Ibn Sina hospital center,,301,none
 chutanger.ma,4,wikidata,CHU Tangier,,200,10 mx2.hostinger.com.; 10 mx1.hostinger.com.
 cnd.hcp.ma,4,wikidata,Q60852065,,200,none
-cnesten.org.ma,4,wikidata,"National Centre for Nuclear Energy, Science and Technology",,HttpConnectTimeoutException: HTTP connect timed out,10 ftgate.cnesten.org.ma.
 cnops.org.ma,4,wikidata,Moroccan health insurance fund,,HttpConnectTimeoutException: HTTP connect timed out,90 mail2.cnops.org.ma.; 20 smtp.cnops.org.ma.; 10 mail.cnops.org.ma.
 cnr.ac.ma,4,wikidata,Centre national de la recherche scientifique,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 cnra.ma,4,wikidata,Q123476456,,ConnectException,10 mail.cnra.ma.; 20 mail2.cnra.ma.
@@ -104,12 +110,18 @@ ensa.org.ma,4,wikidata,École nationale supérieure de l'administration,,SSLHand
 entraide.ma,4,wikidata,Q96811033,,403,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
 fec.ma,4,wikidata,Q123476459,,HttpConnectTimeoutException: HTTP connect timed out,20 mail.fec.ma.
 fesmeknesinvest.ma,4,wikidata,Q126953223,,200,0 fesmeknesinvest-ma.mail.protection.outlook.com.
+fpn.ma,4,academia,Multidisciplinary Faculty of Nador,central,,
 groupeiscae.ma,4,wikidata,ISCAE,,302,5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 guelmiminvest.ma,4,wikidata,Q126953225,,200,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
 iam.ma,4,wikidata,Maroc Telecom,,301,10 servmx3.iam.ma.; 10 servmx4.iam.ma.; 10 servmx2.iam.ma.; 10 servmx1.iam.ma.
 iav.ac.ma,4,wikidata,IAV Hassan II,,200,10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.
+inh.ma,4,academia,National Institute of Hygiene,central,,
 inra.org.ma,4,wikidata,Institut National de la Recherche Agronomique,,ConnectException,10 ns1.inra.org.ma.
+inrf.ma,4,academia,National Institute Research for Fishery Research,central,,
 inrh.ma,4,wikidata,Institut National de Recherche Halieutique,,200,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+insap.ac.ma,4,academia,National Institute of Archaeology and Heritage,central,,
+insea.ac.ma,4,academia,National Institute of Statistics and Applied Economics,central,,
+inu.ac.ma,4,academia,National Institute for Urban Planning and Urbanism,central,,
 ipsm.ma,4,wikidata,Q123476462,,200,0 mail.ipsm.ma.
 ircam.ma,4,wikidata,Royal Institute of Amazigh Culture,,ConnectException,10 mail.ircam.ma.
 ism.ma,4,wikidata,Institut supérieur de la Magistrature,,200,10 server.ism.ma.
@@ -160,16 +172,12 @@ soussmassa.ma,4,wikidata,Souss-Massa Regional Council,central-1,301,0 soussmassa
 tnm5.ma,4,wikidata,National Theatre Mohammed V,,200,none
 uae.ma,4,wikidata,Abdelmalek Essaâdi University,,302,0 mail.uae.ma.
 uaq.ma,4,wikidata,University of al-Qarawiyyin,,200,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-uca.ma,4,wikidata,Cadi Ayyad University,,301,0 uca-ma.mail.protection.outlook.com.
 ucd.ac.ma,4,wikidata,Chouaib Doukkali University,,HttpConnectTimeoutException: HTTP connect timed out,5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
 uh1.ac.ma,4,wikidata,Hassan First University,,ConnectException,10 webmail.uh1.ac.ma.
-uit.ac.ma,4,wikidata,Ibn Tofail University,,301,2 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
 uiz.ac.ma,4,wikidata,Ibn Zohr University,,ConnectException,5 ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 30 ASPMX2.GOOGLEMAIL.COM.; 30 ASPMX3.GOOGLEMAIL.COM.; 20 ALT2.ASPMX.L.GOOGLE.COM.
 um5.ac.ma,4,wikidata,Mohammed V University,,ConnectException,0 um5-ac-ma.mail.protection.outlook.com.
 umi.ac.ma,4,wikidata,Université Moulay-Ismaïl,,ConnectException,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
-univh2c.ma,4,wikidata,Hassan II University of Casablanca,,302,32768 d327543.a.ess.de.barracudanetworks.com.; 32768 relais2.univh2c.ma.; 32768 d327543.b.ess.de.barracudanetworks.com.; 10 relais3.univh2c.ma.; 32768 relais1.univh2c.ma.
 usmba.ac.ma,4,wikidata,Sidi Mohamed Ben Abdellah University,,ConnectException,10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
-usms.ac.ma,4,wikidata,Sultan Moulay Slimane University,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching usms.ac.ma found.,0 USMS-AC-MA.mail.protection.outlook.com.
 vetement-pro.ma,4,wikidata,Q123014090,,HttpConnectTimeoutException: HTTP connect timed out,none
 abhbc.com,3,wikidata,Q126953067,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 aderfes.com,3,wikidata,Dedensification and Rehabilitation Agency of the Medina of Fez,,ConnectException,none

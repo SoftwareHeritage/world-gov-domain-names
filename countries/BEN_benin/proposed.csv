@@ -1,6 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 assemblee-nationale.bj,7,wikidata;wikidata,National Assembly,central,200,10 mta-gw.infomaniak.ch.; 5 mta-gw.infomaniak.ch.; 5 mail.assemblee-nationale.bj.
 finances.bj,7,wikidata;wikidata,Ministry of Economy and Finance,central,500,0 mail.finances.bj.
+instad.bj,7,wikidata;academia,Institut National de la Statistique et de l'Analyse Économique,central,200,10 w011af0a.kasserver.com.
 misiones.cubaminrex.cu,6,wikidata;wikidata,embassy of Cuba in Benin,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 cour-constitutionnelle-benin.org,5,wikidata,Constitutional Court of Benin,central,200,none
 presidence.bj,5,wikidata,Q136687303,,200,0 presidence-bj.mail.protection.outlook.com.
@@ -10,7 +11,8 @@ cbdh.bj,4,wikidata,Benin Human Rights Commission,,200,20 mxbackup.routing.net.; 
 cci.bj,4,wikidata,Q107274708,,200,0 cci-bj.mail.protection.outlook.com.
 cnss.bj,4,wikidata,Q118174383,,200,10 cnss-bj.mail.protection.outlook.com.
 eservices.anip.bj,4,wikidata,Q118262736,,200,none
-instad.bj,4,wikidata,Institut National de la Statistique et de l'Analyse Économique,central,200,10 w011af0a.kasserver.com.
+uac.bj,4,academia,University of Abomey-Calavi,central,,
+una.bj,4,academia,Université d'Agriculture de Kétou,central,,
 bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
 benin.mid.ru,3,wikidata,embassy of Russia in Benin and Togo,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 bj.ambafrance.org,3,wikidata,"Embassy of France, Cotonou",central,301,none
@@ -20,3 +22,5 @@ eeas.europa.eu,3,wikidata,Delegation of the European Union to Benin,,200,10 mxa-
 fbbf-benin.com,3,wikidata,Fédération béninoise de bodybuilding et de fitness,,ConnectException,none
 ghanaembassy-benin.com,3,wikidata,embassy of Ghana in Benin,central,ConnectException,none
 haacbenin.org,3,wikidata,High Authority for Audiovisual and Communication,,200,none
+inrab.org,3,academia,Institut National des Recherches Agricoles du Bénin,central,,
+uakbenin.org,3,academia,Université d'Agriculture de Kétou,central,,

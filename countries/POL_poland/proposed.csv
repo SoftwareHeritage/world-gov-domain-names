@@ -5,8 +5,11 @@ policja.pl,10,wikidata;linkgraph;directory,Policja,,200,10 mxin.policja.gov.pl.
 sn.pl,10,wikidata;directory,Supreme Court of Poland,central,301,10 sn-pl.mail.protection.outlook.com.
 wojsko-polskie.pl,10,wikidata;wikidata;directory,Military Gendarmerie | Polish General Staff,,301,none
 zus.pl,10,wikidata;linkgraph;directory,Zakład Ubezpieczeń Społecznych,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.zus.pl.; 1000 mail3.zus.pl.; 1000 mail4.zus.pl.; 10 mail2.zus.pl.
+agh.edu.pl,8,academia;linkgraph,AGH University of Science and Technology,central,301,10 smtp.agh.edu.pl.
 krs.pl,8,wikidata;directory,National Council of the Judiciary,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 krspl.home.pl.
 pfron.org.pl,8,wikidata;directory,National Disabled Persons Rehabilitation Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp1.pfron.org.pl.
+uni.opole.pl,8,academia;linkgraph,University of Opole,central,200,10 fortimail.uni.opole.pl.
+usz.edu.pl,8,academia;linkgraph,University of Szczecin,central,200,10 usz-edu-pl.mail.protection.outlook.com.
 zditm.szczecin.pl,8,wikidata;linkgraph,ZDiTM Szczecin,,HttpConnectTimeoutException: HTTP connect timed out,10 zditm.szczecin.pl.
 ahk.pl,7,wikidata;wikidata,Polish-German Chamber of Commerce and Industry,,302,10 ahk-pl.mail.protection.outlook.com.
 bip.radom.pl,7,linkgraph,Linked from 35 public-sector domains,,200,none
@@ -17,9 +20,11 @@ lubuskie.pl,7,wikidata;wikidata,Zarząd Województwa Lubuskiego | Marshal's Offi
 nid.pl,7,wikidata;wikidata,Narodowy Instytut Dziedzictwa,,200,10 nid-pl.mail.protection.outlook.com.
 ore.edu.pl,7,linkgraph,Linked from 22 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 panewniki.franciszkanie.pl,7,wikidata;wikidata,Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in Katowice,,HttpConnectTimeoutException: HTTP connect timed out,0 panewniki.franciszkanie.pl.
+pg.edu.pl,7,academia;linkgraph,Gdańsk University of Technology,central,200,0 pg-edu-pl.mail.protection.outlook.com.
 pijarzy.pl,7,wikidata;wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
 um.szczecin.pl,7,linkgraph,Linked from 21 public-sector domains,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching um.szczecin.pl found.,20 d332736.a.ess.de.barracudanetworks.com.; 20 d332736.b.ess.de.barracudanetworks.com.
 umwd.dolnyslask.pl,7,wikidata;wikidata,Marshal's Office of Lower Silesian Voivodeship | Lower Silesian Regional Assembly,central-1,200,10 mx01.dolnyslask.pl.; 10 mx02.dolnyslask.pl.
+ur.edu.pl,7,academia;linkgraph,Rzeszów University,central,301,0 ur-edu-pl.mail.protection.outlook.com.
 wroc.pl,7,linkgraph,Linked from 51 public-sector domains,,ConnectException,none
 www.bialystok.pl,7,linkgraph,Linked from 22 public-sector domains,,200,0 mx.um.bialystok.pl.
 www.bydgoszcz.pl,7,linkgraph,Linked from 33 public-sector domains,,200,10 mail.um.bydgoszcz.pl.
@@ -38,7 +43,6 @@ pl.ambafrance.org,6,wikidata;wikidata,"Consulate General of France in Krakow | E
 polen.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Warsaw | German Consulate Opole",central,200,none
 vulcan.edu.pl,6,linkgraph,Linked from 12 public-sector domains,,301,0 vulcan-edu-pl.mail.protection.outlook.com.
 adwokatura.pl,5,directory,NACZELNA RADA ADWOKACKA,,HttpConnectTimeoutException: HTTP connect timed out,10 adwokatura.pl.
-agh.edu.pl,5,linkgraph,Linked from 5 public-sector domains,,301,10 smtp.agh.edu.pl.
 antydoping.pl,5,directory,POLSKA AGENCJA ANTYDOPINGOWA,,200,0 antydoping-pl.mail.protection.outlook.com.
 beowp.wp.mil.pl,5,directory,BIURO EWIDENCJI OSOBOWEJ WOJSKA POLSKIEGO,,200,none
 bfg.pl,5,directory,BANKOWY FUNDUSZ GWARANCYJNY,,200,10 mgw2.bfg.pl.
@@ -114,8 +118,6 @@ strazgraniczna.pl,5,directory,KOMENDA GŁÓWNA STRAŻY GRANICZNEJ,,200,200 mx3.s
 strony.bialystok.pl,5,linkgraph,Linked from 9 public-sector domains,,200,10 mail.strony.bialystok.pl.
 ufg.pl,5,directory,UBEZPIECZENIOWY FUNDUSZ GWARANCYJNY,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.ufg.pl.; 20 mail2.ufg.pl.
 um.bialystok.pl,5,linkgraph,Linked from 8 public-sector domains,,301,0 mx.um.bialystok.pl.
-uni.opole.pl,5,linkgraph,Linked from 9 public-sector domains,,200,10 fortimail.uni.opole.pl.
-usz.edu.pl,5,linkgraph,Linked from 6 public-sector domains,,200,10 usz-edu-pl.mail.protection.outlook.com.
 uw.edu.pl,5,linkgraph,Linked from 5 public-sector domains,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
 vetpol.org.pl,5,directory,KRAJOWA IZBA LEKARSKO-WETERYNARYJNA,,200,10 vetpol.org.pl.
 wcm.wp.mil.pl,5,directory,CENTRALNY WOJSKOWY OŚRODEK METROLOGII | WOJSKOWE CENTRUM METROLOGII W WARSZAWIE,,200,none
@@ -132,6 +134,7 @@ zut.edu.pl,5,linkgraph,Linked from 8 public-sector domains,,SSLHandshakeExceptio
 zzpprzymz.pl,5,directory,ZAKŁAD ZAMÓWIEŃ PUBLICZNYCH PRZY MINISTRZE ZDROWIA,,301,0 zzpprzymz.pl.
 academica.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,10 academica-edu-pl.mail.protection.outlook.com.
 afghanembassy.com.pl,4,wikidata,"Embassy of Afghanistan, Warsaw",central,200,0 afghanembassy.com.pl.
+akademiapolicji.edu.pl,4,academia,Police Academy in Szczytno,central,,
 algerianembassy.pl,4,wikidata,"Embassy of Algeria, Warsaw",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching algerianembassy.pl found.,10 algerianembassy.pl.
 ambasada-portugalii.pl,4,wikidata,"Embassy of Portugal, Warsaw",central,HttpTimeoutException: request timed out,0 mx1.hitme.net.pl.
 ambasada.zakonmaltanski.pl,4,wikidata,"Embassy of the Sovereign Military Order of Malta, Warsaw",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ambasada.zakonmaltanski.pl found.,10 zakonmaltanski.pl.
@@ -140,7 +143,10 @@ ambasadamongolii.pl,4,wikidata,"Embassy of Mongolia, Warsaw",central,301,10 amba
 amcham.pl,4,wikidata,Q9149948,,200,0 amcham-pl.mail.protection.outlook.com.
 amu.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,200,20 mx2.amu.edu.pl.; 10 mx1.amu.edu.pl.
 amw.com.pl,4,wikidata,Military Property Agency,,301,5 smtp.amw.com.pl.
+amw.gdynia.pl,4,academia,Polish Naval Academy,central,,
+apt.edu.pl,4,academia,Q119103923,central,,
 arm.krakow.pl,4,wikidata,Agencja Rozwoju Miasta,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.arm.krakow.pl.
+asp.lodz.pl,4,academia,Academy of Fine Arts In Łódź,central,,
 aterima-med.pl,4,wikidata,ATERIMA MED,,301,1 aterimamed-pl01i.mail.protection.outlook.com.
 autofusgroup.warszawa.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 a329-2.c-x.pl.
 azembassy.pl,4,wikidata,"Embassy of Azerbaijan, Warsaw",central,200,99 route1.mx.cloudflare.net.; 44 route2.mx.cloudflare.net.; 72 route3.mx.cloudflare.net.
@@ -169,6 +175,8 @@ edziecko.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,405,5 alt2.aspm
 embangola.pl,4,wikidata,"Embassy of Angola, Warsaw",central,200,10 embangola.pl.
 embassy-of-yemen.pl,4,wikidata,"Embassy of Yemen, Warsaw",central,200,10 embassy-of-yemen.pl.
 epolo.cancilleria.gov.ar,4,wikidata,"Embassy of Argentina, Warsaw",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching epolo.cancilleria.gov.ar found.,none
+erce.unesco.lodz.pl,4,academia,"European Regional Centre for Ecohydrology, Polish Academy of Sciences",central-1,,
+famo.fizyka.umk.pl,4,academia,"National Laboratory of Atomic, Molecular and Optical Physics",central,,
 filharmoniazg.pl,4,wikidata,Filharmonia Zielonogórska,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.incomtech.eu.
 fulbright.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 geoportal.wroclaw.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail1.um.wroc.pl.
@@ -178,7 +186,9 @@ iderepublica.pl,4,wikidata,Q124214491,,200,10 mx7.aftermarket.hosting.
 instytutpolski.pl,4,wikidata,Polish Institute,,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
 iom.pl,4,wikidata,International Organization for Migration,,ConnectException,none
 ispan.pl,4,wikidata,"Institute of Art, Polish Academy of Sciences",,301,10 mail.ispan.pl.
+itl.waw.pl,4,academia,National Institute of Telecommunications,central,,
 iwst.rzeszow.pl,4,linkgraph,Linked from 4 public-sector domains,,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
+izoo.krakow.pl,4,academia,National Research Institute of Animal Production,central,,
 kgsok.pl,4,wikidata,Railway Security Guard,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 kgsok.pl.
 kielce.pl,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,0 eden.tu.kielce.pl.; 10 sabat.tu.kielce.pl.
 kig.pl,4,wikidata,Polish Chamber of Commerce,,200,5 mail2.kig.pl.; 1 mail.kig.pl.
@@ -199,6 +209,7 @@ mazovia.pl,4,wikidata,Marshal’s Office of Masovian Voivodeship,central-1,SSLHa
 mbp.opole.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 mbp.opole.pl.
 metropoliaztm.pl,4,wikidata,Zarząd Transportu Metropolitalnego,,302,0 metropoliaztm-pl.mail.protection.outlook.com.
 mieroszewski.pl,4,wikidata,Juliusz Mieroszewski Centre for Dialogue,,200,10 poczta.mieroszewski.pl.
+mir.gdynia.pl,4,academia,National Marine Fisheries Research Institute,central,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Warsaw",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 mopr.bialystok.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 mail.intratel.pl.
 muzeum.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 muzeum.bydgoszcz.pl.
@@ -217,12 +228,15 @@ osp-ozarow.pl,4,wikidata,Q16583461,,200,10 blackhole.aftermarket.pl.
 osp.lasin.pl,4,wikidata,Q11795695,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching osp.lasin.pl found.,none
 ospchojnice.pl,4,wikidata,Q30903822,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX5.GOOGLEMAIL.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ASPMX4.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
 oswiata.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,10 poczta.lo.pl.
+p.lodz.pl,4,academia,Łódź University of Technology,central,,
 palestine.pl,4,wikidata,Embassy of Palestine in Poland,central,301,0 mail.palestine.pl.; 10 serwer1858346.home.pl.
-pg.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,200,0 pg-edu-pl.mail.protection.outlook.com.
+pans.nysa.pl,4,academia,University of Applied Sciences in Nysa,central,,
 pgztppm.pl,4,wikidata,Q136650989,,200,10 mail.pgztppm.pl.
+pib-nio.pl,4,academia,Maria Sklodowska-Curie National Research Institute of Oncology,central,,
 pik.warszawa.pl,4,linkgraph,Linked from 3 public-sector domains,,200,none
 pik.wroclaw.pl,4,linkgraph,Linked from 3 public-sector domains,,200,none
 pionki.osp.org.pl,4,wikidata,1 Zwycięstwa Street in Pionki,,ConnectException: Host is unreachable,none
+piwet.pulawy.pl,4,academia,National Veterinary Research Institute,central,,
 pl.ambasadabih.pl,4,wikidata,"Embassy of Bosnia and Herzegovina, Warsaw",central,ConnectException,none
 pl.lebanon.pl,4,wikidata,"Embassy of Lebanon, Warsaw",central,200,none
 po.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,10 d321053.a.ess.de.barracudanetworks.com.; 15 d321053.b.ess.de.barracudanetworks.com.
@@ -232,6 +246,7 @@ prezydent.pl,4,wikidata,Chancellery of the President of the Republic of Poland,,
 przyjaznyrodzinie.szczecin.pl,4,linkgraph,Linked from 4 public-sector domains,,302,10 mx.miasto.szczecin.pl.
 psychotesty.wroclaw.pl,4,linkgraph,Linked from 3 public-sector domains,,301,10 mail.psychotesty.wroclaw.pl.
 pum.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 pum-edu-pl.mail.protection.outlook.com.
+pwsz.nysa.pl,4,academia,University of Applied Sciences in Nysa,central,,
 pzo.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail.pzo.edu.pl.
 rckik-katowice.pl,4,wikidata,RCKiK Katowice,,200,10 rckikkatowice-pl01c.mail.protection.outlook.com.; 1 mail.rckik-katowice.pl.
 rjp.pan.pl,4,wikidata,Council for the Polish Language,,200,none
@@ -241,22 +256,29 @@ sanokolchowce.osp.pl,4,wikidata,Q125511749,,SSLHandshakeException: (certificate_
 sejmik.podkarpackie.pl,4,wikidata,Podkarpackie Regional Assembly,central-1,200,none
 sejmik.slaskie.pl,4,wikidata,Silesian Regional Assembly,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 sejmik.wzp.pl,4,wikidata,West Pomeranian Regional Assembly,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+sggw.pl,4,academia,Warsaw University of Life Sciences,central,,
 sniadecja.pl,4,wikidata,Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sniadecja.pl found.,100 sniadecja.pl.; 10 nop.security-services.netia.pl.
 spp.szczecin.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 spp.szczecin.pl.
 srilankaembassy.com.pl,4,wikidata,"Embassy of Sri Lanka, Warsaw",central,200,0 srilankaembassy.com.pl.
+ssl-www.sgh.waw.pl,4,academia,SGH Warsaw School of Economics,central,,
 strategia.bydgoszcz.pl,4,linkgraph,Linked from 4 public-sector domains,,200,none
 syrianembassy.com.pl,4,wikidata,"Embassy of Syria, Warsaw",central,301,51 route1.mx.cloudflare.net.; 3 route2.mx.cloudflare.net.; 76 route3.mx.cloudflare.net.
 teatr.bielsko.pl,4,wikidata,Teatr Polski in Bielsko-Biała,,200,10 mail.teatr.bielsko.pl.
 teatr.tarnow.pl,4,wikidata,Teatr im. Ludwika Solskiego w Tarnowie,,200,10 teatr.tarnow.pl.
 teatrnorwida.pl,4,wikidata,Cyprian Kamil Norwid Theatre,,200,10 mx-1.dpoczta.pl.; 10 mx-2.dpoczta.pl.
 teatrosterwy.pl,4,wikidata,Teatr im. Juliusza Osterwy,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 teatrosterwy-pl.mail.protection.outlook.com.
+ue.poznan.pl,4,academia,Poznań University of Economics,central,,
+uj.edu.pl,4,academia,Jagiellonian University,central,,
+ujd.edu.pl,4,academia,Jan Długosz University,central,,
 ukw.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,200,5 ironport.ukw.edu.pl.; 5 ironportslave.ukw.edu.pl.
 um.bydgoszcz.pl,4,linkgraph,Linked from 3 public-sector domains,,200,10 mail.um.bydgoszcz.pl.
+umcs.pl,4,academia,Maria Curie-Skłodowska University,central,,
 umwo.opole.pl,4,wikidata,Opole Regional Assembly,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 test.umwo.opole.pl.
 umww.pl,4,wikidata,Marshal's Office of Greater Poland Voivodeship,central-1,301,0 umww-pl.mail.protection.outlook.com.
 unesco.pl,4,wikidata,Polish National Commission for UNESCO,,301,5 mx1.evo.pl.
 upjp2.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 upjp2-edu-pl.mail.eo.outlook.com.
-ur.edu.pl,4,linkgraph,Linked from 4 public-sector domains,,301,0 ur-edu-pl.mail.protection.outlook.com.
+upsl.edu.pl,4,academia,Pomeranian University in Słupsk,central,,
+us.edu.pl,4,academia,University of Silesia in Katowice,central,,
 uwb.edu.pl,4,linkgraph,Linked from 3 public-sector domains,,503,10 mx.uwb.edu.pl.
 uzbekistan.pl,4,wikidata,"Embassy of Uzbekistan, Warsaw",central,405,10 blackhole.aftermarket.pl.
 varso.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Warsaw",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailb.varso.mfa.gov.hu.; 10 maila.varso.mfa.gov.hu.
@@ -294,6 +316,7 @@ mfa.bg,3,wikidata,"Embassy of Bulgaria, Warsaw",central,302,0 mfa-bg.mail.protec
 mfa.gr,3,wikidata,"Embassy of Greece, Warsaw",central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Warsaw",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 nigeriaembassypoland.org,3,wikidata,"Embassy of Nigeria, Warsaw",central,HttpTimeoutException: request timed out,1200 ghs.google.com.
+nit.eu,3,academia,National Institute of Telecommunications,central,,
 norway.no,3,wikidata,"Embassy of Norway, Warsaw",central,301,0 mx.domeneshop.no.
 oppeln.diplo.de,3,wikidata,German Consulate Opole,central-1,301,10 mx2.bund.de.; 10 mx1.bund.de.
 osp-oldrzychowice.pl.tl,3,wikidata,Q11795685,,200,none

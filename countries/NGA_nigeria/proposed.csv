@@ -1,5 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 nuc.edu.ng,7,wikidata;wikidata,National Universities Commission | Nigerian Universities Commission,,301,1 smtp.google.com.
+portal.kwasu.edu.ng,7,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,"Department of Agricultural Education, Kwara State University | Department of Agricultural Engineering Kwara state University | Department of Agriculture kwara state University | Department of Aquaculture and Fisheries kwara state University | Department of Arabic Education kwara state University | Department of Arabic Stidies kwara state University | Department of Banking and Finance kwara State University | Department of Biochemistry Kwara State University | Department of Biology Education kwara state University | Department of Buisness Administration Kwara state University | Department of Buisness Education Kwara state University | Department of Chemistry Education Kwara state University | Department of Chemistry Kwara state University | Department of Christain Studies Kwara state University | Department of Christian Studies Education Kwara state University | Department of Civil Engineering Kwara state University | Department of Common Law Kwara state University | Department of Common and Islamic Law  Kwara state University | Department of Compter science  kwara state university | Department of Compter science Education  kwara state university | Department of Computer Engineering Kwara state University | Department of Early Childhood And Primary Education kwara state university | Department of Economics kwara state university | Department of Educational Management  kwara state university | Department of Electrical And Electronics Engineering kwara state university | Department of English And Literary Studies  kwara state university | Department of English Education kwara state university | Department of English Language, Kwara State University | Department of Environmental Health Science kwara state university | Department of Environmental Management And Toxicology Kwara State University | Department of Fine And Applied Art kwara state university | Department of Fisheries  kwara state university | Department of Food Engineering  kwara state university | Department of Food Science and Technology Kwara state University | Department of French Education, Kwara State University | Department of French Kwara state University | Department of Geography Kwara state University | Department of Geology and Mineral Science, Kwara state University | Department of History and International Relations Kwara State University | Department of Human Kinetics Kwara state University | Department of Islamic Studies Education Kwara state University | Department of Islamic Studies Kwara state University | Department of Languages And Linguistics Kwara state University | Department of Library and Information Science Kwara state University | Department of Mass Communication Kwara state University | Department of Material And Metallurgical Kwara state University | Department of Mathematics Education Kwara state University | Department of Mathematics Kwara state University | Department of Mechanical Engineering  Kwara state University | Department of Medical Laboratory Science Kwara state University | Department of Medicine And Surgery Kwara state University | Department of Microbiology Kwara state University | Department of Performing Arts Kwara state University | Department of Physics Education Kwara state University | Department of Physics, Kwara State University | Department of Plant Biology Kwara state University | Department of Political Science Kwara state University | Department of Public Administration Kwara state University | Department of Public Health Science Kwara state University | Department of Sociology Kwara state University | Department of Statistics Kwara state University | Department of Taxation Kwara state University | Department of Yoruba Education Kwara state University | Department of Yoruba Kwara state University",central-1,,
+rsu.edu.ng,7,academia;academia;academia;academia,Department of Animal science Rivers State university | Department of Crop and Soil science Rivers state university | Department of Fisheries Rivers state university | Department of Forestry and Environment Rivers State University,central-1,,
 sp.mofaic.gov.ae,7,wikidata;wikidata,"Consulate General of the United Arab Emirates, Lagos | Embassy of the United Arab Emirates, Abuja",central,ConnectException,none
 yoursms.com.ng,7,wikidata;wikidata,Ondo State Ministry of Education,central-1,ConnectException,none
 lagosministryofjustice.org,6,wikidata;wikidata,Lagos State Ministry of Justice,central-1,200,10 smtp.lagosministryofjustice.org.
@@ -9,9 +11,23 @@ ondostateministryofinformation.wordpress.com,6,wikidata;wikidata,Ondo State Mini
 riversstate-mwrrd.com,6,wikidata;wikidata,Rivers State Ministry of Water Resources and Rural Development (RSMWRRD),central-1,ConnectException,none
 roc-taiwan.org,6,wikidata;wikidata,Taipei Trade Office in the Federal Republic of Nigeria,central,302,none
 abuja.mfa.gov.hu,4,wikidata,"Hungarian embassy, Abuja",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bouesti.edu.ng,4,academia,"Bamidele Olumilua University of Science and Technology Ikere, Ekiti State",central-1,,
+delsu.edu.ng,4,academia,"Delta State University, Abraka",central-1,,
+fchdk.edu.ng,4,academia,Federal College of Horticultural Technology,central,,
 fedpolyugep.edu.ng,4,wikidata,Federal Polytechnic Ugep,,200,0 fedpolyugep.edu.ng.
+fuab.edu.ng,4,academia,"Federal University of Agriculture, Bassam-Biri",central,,
+fubk.edu.ng,4,academia,"Federal University, Birnin Kebbi",central,,
+fud.edu.ng,4,academia,Federal University Dutse,central,,
+fuet.edu.ng,4,academia,"Federal University of Environment and Technology, Tai Town/Ogoniland",central,,
+fugashua.edu.ng,4,academia,Federal University Gashua,central,,
+fuhsa.edu.ng,4,academia,"Federal University of Health Sciences, Azare",central,,
+fuhso.edu.ng,4,academia,"Federal University of Health Science, Otukpo",central,,
+fuotuoke.edu.ng,4,academia,"Federal University, Otuoke",central,,
+fuwukari.edu.ng,4,academia,"Federal University, Wukari",central,,
 kanoweccma.org.ng,4,wikidata,"KANO STATE WATERSHED, EROSION, AND CLIMATE CHANGE MANAGEMENT AGENCY",,200,none
+kasu.edu.ng,4,academia,Kaduna State University,central-1,,
 kedco.ng,4,wikidata,Kano Electricity Distribution Company,,200,none
+kwasu.edu.ng,4,academia,"Kwara State University, Malete",central-1,,
 lashmaregulations.com.ng,4,wikidata,Lagos state health management agency,,301,0 lashmaregulations.com.ng.
 lastveb.com.ng,4,wikidata,Lagos State Technical and Vocational Education Board,,403,0 lastveb.com.ng.
 lsetf.ng,4,wikidata,Lagos State Employment Trust Fund,,200,0 lsetf-ng.mail.protection.outlook.com.
@@ -19,8 +35,12 @@ ncprd.org.ng,4,wikidata,National Centre for Petroleum Research and Development,,
 ndic.org.ng,4,wikidata,Nigeria Deposit Insurance Corporation,,301,0 ndic-org-ng.mail.protection.outlook.com.; 10 mail.ndic.org.ng.
 nsmoh.org.ng,4,wikidata,Nasarawa State Ministry of Health,central-1,ConnectException,none
 nta.ng,4,wikidata,Nigerian Television Authority,,301,0 nta.ng.
+ogharapoly.edu.ng,4,academia,"Delta State Polytechnic, Oghara",central-1,,
 pssdc.com.ng,4,wikidata,Lagos State Public Service Staff Development Centre,central-1,ConnectException,none
 tcn.org.ng,4,wikidata,Transmission Company of Nigeria,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,0 mail.tcn.org.ng.
+uniosun.edu.ng,4,academia,Osun State University,central-1,,
+urp.oauife.edu.ng,4,academia,"Department of Urban and Regional Planning, Obafemi Awolowo University",central-1,,
+zamsut.edu.ng,4,academia,Zamfara State University,central-1,,
 abuja.diplo.de,3,wikidata,"Consulate General of Germany, Lagos",,301,10 mx1.bund.de.; 10 mx2.bund.de.
 abuja.embassy.qa,3,wikidata,"Embassy of the State of Qatar, Nigeria",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 abuja.mae.ro,3,wikidata,"Embassy of Romania, Abuja",central,503,none
@@ -39,6 +59,7 @@ kwsbnln.blogspot.com,3,wikidata,National Library of Nigeria Kwara State Branch,,
 lagosmepb.org,3,wikidata,Lagos State Ministry of Economic Planning and Budget,central-1,200,0 lagosmepb.org.
 lagosresilience.net,3,wikidata,Lagos State Resilience Office,,301,0 lagosresilience.net.
 lagosscholarship.org,3,wikidata,Lagos State Scholarship Board,central-1,200,0 _dc-mx.870754fa8d7f.lagosscholarship.org.; 10 mx.ahasend.com.
+lagosstatebiobank.com,3,academia,Lagos State Biobank Laboratory,central-1,,
 lagosstatesecuritytrustfund.com,3,wikidata,Lagos State Security Trust Fund,central-1,ConnectException,none
 lasaa.com,3,wikidata,Lagos State Signage and Advertisement Agency,central-1,200,0 lasaa.com.
 lasdri.org,3,wikidata,Lagos State Driver's Institute,central-1,200,0 lasdri.org.
@@ -59,6 +80,7 @@ nigeria.um.dk,3,wikidata,embassy of Denmark in Nigeria,central,301,none
 nigerstatemoh.org,3,wikidata,Niger State Ministry of Health,central-1,ConnectException,none
 niianet.org,3,wikidata,Nigerian Institute of International Affairs,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.namebrightmail.com.; 10 mail2.namebrightmail.com.
 niprd.net,3,wikidata,National Institute for Pharmaceutical Research and Development,,302,none
+nitr-ng.org,3,academia,Nigerian Institute for Trypanosomiasis Research,central,,
 nnpcgroup.com,3,wikidata,Nigerian National Petroleum Corporation,,200,0 nnpcgroup-com.mail.protection.outlook.com.
 norway.no,3,wikidata,"Embassy of Norway, Abuja",central,301,0 mx.domeneshop.no.
 nsdcnigeria.org,3,wikidata,National Sugar Development Council,,301,0 mail.nsdcnigeria.org.

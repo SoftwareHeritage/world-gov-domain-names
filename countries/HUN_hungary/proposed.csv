@@ -5,8 +5,8 @@ bv.gov.hu,8,wikidata;wikidata,Jász-Nagykun-Szolnok County Remand Prison | Hunga
 mnl.gov.hu,8,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Magyar Nemzeti Levéltár Pest Megyei Levéltára | National Archives of Hungary | Magyar Nemzeti Levéltár Tolna Vármegyei Levéltára | Borsod-Abaúj-Zemplén County Archives | Magyar Nemzeti Levéltár Veszprém Megyei Levéltára | Magyar Nemzeti Levéltár Országos Levéltára,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mnl-gov-hu.mail.protection.outlook.com.
 ahkungarn.hu,7,wikidata;wikidata,German-Hungarian Chamber of Industry and Commerce,,302,10 ahkungarn-hu.mail.protection.outlook.com.
 birosag.hu,7,wikidata;wikidata,Q140998828 | National Court Office,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx.birosag.hu.
-ksh.hu,7,wikidata;wikidata,Hungarian Central Statistical Office | Official Statistical Service,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 cenzor4.ksh.hu.; 5 cenzor3.ksh.hu.
 kuria-birosag.hu,7,wikidata;wikidata,Supreme Court of Hungary,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 mail.kuria-birosag.hu.
+nodik.hu,7,wikidata;academia,Q18559139,central,ConnectException,10 mail.nodik.hu.
 parlament.hu,7,wikidata;wikidata;wikidata,National Assembly | Office of the National Assembly,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 iplanet.parlament.hu.; 5 levi1.mkogy.hu.
 piarista.hu,7,wikidata;wikidata,piarist province of Hungary,,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 police.hu,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,National Bureau of Investigation | Baranya  County Police Headquarters | Komárom-Esztergom County Police Headquarters | Zala County Police Headquarters | Borsod-Abaúj-Zemplén County Police Headquarters | Vas County Police Headquarters | Heves County Police Headquarters | Bács-Kiskun County Police Headquarters | Somogy County Police Headquarters | Veszprém County Police Headquarters | Tolna  County Police Headquarters | Szabolcs-Szatmár-Bereg County Police Headquarters | Hungarian Police,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail4.police.hu.
@@ -45,6 +45,7 @@ bfl.archivportal.hu,4,wikidata,Budapest City Archives,,SSLHandshakeException: (c
 bfnp.hu,4,wikidata,Balaton Uplands National Park Directorate,,301,1 mx4.w5.hu.
 bkik.hu,4,wikidata,Kereskedelmi és Iparkamara,,200,10 bkik-hu.mail.protection.outlook.com.
 bmbah.hu,4,wikidata,Immigration and Asylum Office,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.interware.hu.
+bme.hu,4,academia,Budapest University of Technology and Economics,central,,
 bml.hu,4,wikidata,Magyar Nemzeti Levéltár Baranya Megyei Levéltára,,200,none
 bolgarok.hu,4,wikidata,National Bulgarian Minority Self - Government,,307,0 bolgarok.hu.
 bparchiv.hu,4,wikidata,Budapest City Archives,,200,0 bparchiv-hu.mail.protection.outlook.com.
@@ -53,8 +54,10 @@ csml.hu,4,wikidata,Magyar Nemzeti Levéltár Csongrád Megyei Levéltára,,HttpC
 ddnp.hu,4,wikidata,Danube–Drava National Park Directorate,,200,10 mx.iif.hu.
 delpestikorhaz.hu,4,wikidata,Jahn Ferenc Dél-Pesti Kórház és Rendelőintézet,,200,10 mail.delpestikorhaz.hu.
 demkk.hu,4,wikidata,Centre for Democracy Public Foundation,,301,0 demkk-hu.mail.protection.outlook.com.
+demografia.hu,4,academia,Hungarian Demographic Research Institute,central,,
 dunaipoly.hu,4,wikidata,Q111128092,,301,0 dunaipoly.hu.
 ejf.hu,4,wikidata,Eötvös József Főiskola,,200,0 ejf-hu.mail.eo.outlook.com.
+elte.hu,4,academia,Eötvös Loránd University,central,,
 fomi.hu,4,wikidata,Institute of Geodesy Cartography and Remote Sensing,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 fomigate.fomi.hu.
 fovarositorvenyszek.birosag.hu,4,wikidata,Pest Central District Court,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx.birosag.hu.
 gvh.hu,4,wikidata,Hungarian Competition Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.gvh.hu.
@@ -90,14 +93,16 @@ nbgk.hu,4,wikidata,National Centre for Biodiversity and Gene Conservation,,301,0
 nigerianembassy.hu,4,wikidata,embassy of Nigeria in Hungary,central,200,10 mx01.inclust.com.; 20 mx02.inclust.com.
 nka.hu,4,wikidata,National Cultural Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.nka.hu.
 nmhh.hu,4,wikidata,National Media and Infocommunications Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,6502 mail.nmhh.hu.
-nodik.hu,4,wikidata,Q18559139,central,ConnectException,10 mail.nodik.hu.
 nogradarchiv.hu,4,wikidata,Magyar Nemzeti Levéltár Nógrád Megyei Levéltára,,200,none
 nski.hu,4,wikidata,Nemzetstratégiai Kutatóintézet,,200,none
 nvsz.hu,4,wikidata,National Protection Service,,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.nvsz.hu.; 20 mx02.nvsz.hu.; 50 mx.nvsz.hu.
 oek.hu,4,wikidata,National Centre for Epidemiology,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+oeti.hu,4,academia,National Institute for Food and Nutrition Science,central,,
 omfi.hu,4,wikidata,Hungarian Institute of Occupational Health,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail01.nnk.gov.hu.; 20 mail02.nnk.gov.hu.; 30 mail.omfi.hu.
+orfi.hu,4,academia,National Institute for Rheumatology and Physiotherapy,central,,
 ormenyorszagos.hu,4,wikidata,National Self-Government of the Armenians of Hungary,,200,10 mxavas.forpsi.com.
 oronk.hu,4,wikidata,National Roma Self-Government,,301,10 pmg.oronk.hu.
+osski.hu,4,academia,Frédéric Joliot-Curie National Research Institute for Radiobiology and Radiohygiene,central,,
 oszk.hu,4,wikidata,National Széchényi Library,,200,0 oszk-hu.mail.protection.outlook.com.
 otka.hu,4,wikidata,Hungarian Scientific Research Fund,,HttpConnectTimeoutException: HTTP connect timed out,10 mail5.kibernet.hu.
 ovf.hu,4,wikidata,General Directorate of Water Management,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.ovf.hu.; 10 mail2.ovf.hu.
@@ -115,9 +120,11 @@ szszbvmo.hu,4,wikidata,Szabolcs-Szatmár-Bereg County Assembly,central-1,200,0 m
 sztfh.hu,4,wikidata,Supervisory Authority of Regulated Activities,,200,10 mailgw3.ei.gov.hu.; 10 mailgw1.ei.gov.hu.; 10 mailgw2.ei.gov.hu.; 10 mailgw4.ei.gov.hu.
 telekialapitvany.hu,4,wikidata,Teleki László Foundation,,301,10 tlweb.nepiprogram.hu.
 tuzoltomuzeum.hu,4,wikidata,"Firefighting Museum of Eger, Hungary",,301,0 mail.tuzoltomuzeum.hu.
+u-szeged.hu,4,academia,University of Szeged,central,,
 ukrajinci.hu,4,wikidata,National Self-Government of Ukrainians in Hungary,,200,20 mx2.ukrajinci.hu.; 10 mx1.ukrajinci.hu.
 unesco.hu,4,wikidata,Hungarian National Commission for UNESCO,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mailgw1.ei.gov.hu.; 5 mailgw2.ei.gov.hu.; 5 mailgw4.ei.gov.hu.; 20 kazinczy.okm.gov.hu.; 5 mailgw3.ei.gov.hu.
 vaml.hu,4,wikidata,Magyar Nemzeti Levéltár Vas Megyei Levéltára,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.vaml.hu.
+zeneakademia.hu,4,academia,Franz Liszt Academy of Music,central,,
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Budapest",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
 budapest.embassy.mn,3,wikidata,embassy of Mongolia in Hungary,central,525,none
 budapest.embassy.qa,3,wikidata,"Embassy of Qatar, Budapest",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -146,4 +153,6 @@ norway.no,3,wikidata,"Embassy of Norway, Budapest",central,301,0 mx.domeneshop.n
 roc-taiwan.org,3,wikidata,"Taipei Representative Office, Budapest, Hungary",,302,none
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Budapest",central,301,none
 ungarn.um.dk,3,wikidata,"Embassy of Denmark, Budapest",central,301,none
+uni-bme.ir,3,academia,Budapest University of Technology and Economics,central,,
 kozbeszerzes.hu,2,wikidata;wikidata;wikidata,The Public Procurement Authority of Hungary | Q61972057 | Q61970844,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 fmail.kozbeszerzes.hu.
+ksh.hu,2,wikidata;wikidata;academia,Hungarian Central Statistical Office | Official Statistical Service,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 cenzor4.ksh.hu.; 5 cenzor3.ksh.hu.

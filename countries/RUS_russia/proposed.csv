@@ -4,6 +4,7 @@ government.ru,10,un_desa;wikidata;wikidata,Government of Russia | UN/DESA nation
 akzs.ru,7,wikidata;wikidata,Altai Krai Legislative Assembly,central-1,200,10 mx.alregn.ru.
 arbitr.ru,7,wikidata;wikidata,Q4068672 | Supreme Court of Arbitration of Russia,central,200,5 mx1.arbitr.ru.
 cikrf.ru,7,wikidata;wikidata,Central Election Commission of Russia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.cikrf.ru.
+coal.sbras.ru,7,academia;academia,Federal Research Centre Coal and Coal Chemistry | Institute of Coal,central,,
 culture.volgograd.ru,7,wikidata;wikidata,Committee of Culture of the Volgograd Oblast,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 customs.ru,7,wikidata;wikidata,Federal Customs Service of Russia,,HttpConnectTimeoutException: HTTP connect timed out,10 mg2.customs.ru.; 40 mg.customs.ru.; 40 mg5.customs.ru.; 40 mg3.customs.ru.; 40 mg6.customs.ru.; 20 edata.customs.ru.; 10 mg4.customs.ru.
 dagminobr.ru,7,wikidata;wikidata,Q21641675,,200,20 mx.yandex.net.; 10 mail.dagminobr.ru.
@@ -27,8 +28,11 @@ gsrb.ru,7,wikidata;wikidata,State Assembly of Bashkortostan,central-1,SSLHandsha
 gsrk.ru,7,wikidata;wikidata,State Council of the Komi Republic,central-1,HttpConnectTimeoutException: HTTP connect timed out,20 mx03.nicmail.ru.; 10 mx01.nicmail.ru.; 5 mx02.nicmail.ru.
 hural-buryatia.ru,7,wikidata;wikidata;wikidata,People's Khural of the Republic of Buryatia,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.timeweb.ru.; 10 mx2.timeweb.ru.
 huralrk.ru,7,wikidata;wikidata;wikidata,People's Khural of Kalmykia,central-1,HttpConnectTimeoutException: HTTP connect timed out,dig error
+icp.ac.ru,7,academia;academia,Federal Research Center of Problems of Chemical Physics and Medicinal Chemistry | Institute of Problems of Chemical Physics,central,,
 iltumen.ru,7,wikidata;wikidata,State Assembly of the Sakha Republic,central-1,200,10 mx.yandex.net.
+kantiana.ru,7,academia;academia,Botanical Garden of the Baltic Federal University Kant | Immanuel Kant Baltic Federal University,central,,
 karelia-zs.ru,7,wikidata;wikidata,Legislative Assembly of the Republic of Karelia,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mx.yandex.net.
+kpfu.ru,7,academia;academia,Kazan Federal University | Yelabuga institute of Kazan Federal University,central,,
 kt.tatarstan.ru,7,wikidata;wikidata;wikidata,Republic of Tatarstan Tariffs State Сommittee,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 mert.tatarstan.ru,7,wikidata;wikidata,Republic of Tatarstan Ministry of Economy,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 mincult.tatarstan.ru,7,wikidata;wikidata,Ministry of Culture of the Republic of Tatarstan,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -56,11 +60,13 @@ prlib.ru,7,wikidata;wikidata,Boris Yeltsin Presidential Library,,301,8 fe2cgp.pr
 roscosmos.ru,7,wikidata;wikidata,Roscosmos State Corporation,,403,10 mx1.roscosmos.ru.; 10 mx2.roscosmos.ru.
 rospotrebnadzor.ru,7,wikidata;wikidata,Federal Service for the Oversight of Consumer Protection and Welfare,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp.sup.gsen.ru.
 rsl.ru,7,wikidata;wikidata,Russian State Library,,301,10 relay.rsl.ru.
+ruslang.ru,7,wikidata;academia,Russian Language Institute,central,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx5.googlemail.com.; 10 aspmx3.googlemail.com.; 10 aspmx4.googlemail.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 aspmx2.googlemail.com.
 saamisups.ucoz.ru,7,wikidata;wikidata,Sami Parliament of Russia,,200,none
 sledcom.ru,7,wikidata;wikidata,Investigative Committee of Russia,central,403,10 mail.sledcom.ru.
 udmgossovet.ru,7,wikidata;wikidata,State Council of the Udmurt Republic,central-1,ConnectException,none
 udmurt.ru,7,wikidata;wikidata,Q25686230,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.udmurt.ru.; 20 mail.udmurt.ru.
 udprf.ru,7,wikidata;wikidata,Administrative Directorate of the President of the Russian Federation,central,200,none
+vncran.ru,7,wikidata;academia,Vladikavkaz Research Center of the Russian Academy of Sciences,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.yandex.net.
 volgograd.ru,7,wikidata;wikidata,administration of the Volgograd oblast,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 zaksob.ru,7,wikidata;wikidata,Legislative Assembly of Orenburg Oblast,central-1,200,10 mx1.masterhost.ru.
 zskaluga.ru,7,wikidata;wikidata;wikidata,Regional parliament of Kaluga,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -90,30 +96,71 @@ parliament.mari.ru,5,wikidata,State Assembly of the Mari El Republic,central-1,C
 79.mvd.ru,4,wikidata,Directorate for Internal Affairs,,HttpConnectTimeoutException: HTTP connect timed out,none
 82.mvd.ru,4,wikidata,Ministry of Interior in the Republic of Crimea,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 92.mvd.ru,4,wikidata,Sevastopol Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+academpharm.ru,4,academia,Institute of Pharmacology Russian Academy of Medical Sciences,central,,
 agro.tatarstan.ru,4,wikidata,Q52732615,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+agronii.ysn.ru,4,academia,M.G. Safronov Yakut Scientific Research Institute of Agriculture,central,,
+agrophys.ru,4,academia,Agrophysical Research Institute,central,,
 algerianembassy.ru,4,wikidata,"Embassy of Algeria, Moscow",central,200,none
+altniish.ru,4,academia,Federal Altai Scientific Center for Agrobiotechnology,central,,
 ambacam.ru,4,wikidata,"Embassy of Cameroon, Moscow",central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,5 mx02.nicmail.ru.; 10 mx01.nicmail.ru.; 20 mx03.nicmail.ru.
 ambamadagascar.ru,4,wikidata,"Embassy of Madagascar, Moscow",central,200,10 mx1.hosting.reg.ru.; 20 mx2.hosting.reg.ru.
 ambassenmos.ru,4,wikidata,"Embassy of Senegal, Moscow",central,200,10 _dc-mx.80f99666f9f1.ambassenmos.ru.; 20 _dc-mx.80f99666f9f1.ambassenmos.ru.
 ambmaroc.ru,4,wikidata,"Embassy of Morocco, Moscow",central,200,none
 angolarussia.ru,4,wikidata,"Embassy of Angola, Moscow",central,526,none
+archaeolog.ru,4,academia,Institute of Archaeology,central,,
+archaeology.nsc.ru,4,academia,Institute of Archaeology and Ethnography,central,,
+archeo.ru,4,academia,Institute for the History of Material Culture,central,,
 archive06.ru,4,wikidata,Q130488281,,200,10 mail.archive06.ru.
 arheologpskov.ru,4,wikidata,"State Budgetary Institution of Culture of Pskov Oblast ""Archaeological Center of Pskov Oblast""",,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,20 mx03.nicmail.ru.; 10 mx01.nicmail.ru.; 5 mx02.nicmail.ru.
+arriah.ru,4,academia,Federal Centre for Animal Health,central,,
+arriam.spb.ru,4,academia,All-Russian Research Institute of Agricultural Microbiology of the Russian Academy of Agricultural Sciences,central,,
+artcenter.ru,4,academia,Rossiĭskiĭ institut istorii iskusstv,central,,
+asau.ru,4,academia,Altai State Agrarian University,central,,
 assembly.spb.ru,4,wikidata,Legislative Assembly of Saint Petersburg,central-1,HttpConnectTimeoutException: HTTP connect timed out,35 relay.la.spb.ru.; 10 mail.assembly.spb.ru.; 20 mail.la.spb.ru.; 25 relay.assembly.spb.ru.
 astroblduma.ru,4,wikidata,Duma of the Astrakhan Region,central-1,HttpConnectTimeoutException: HTTP connect timed out,8 mxs.armgs.team.
 azembassy.msk.ru,4,wikidata,"Embassy of Azerbaijan, Moscow",central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 mail.azembassy.msk.ru.
 bangladeshembassy.ru,4,wikidata,"Embassy of Bangladesh, Moscow",central,200,none
+bekhterev.ru,4,academia,Bekhterev Research Institute,central,,
+bg.sfedu.ru,4,academia,Southern Federal University's botanical garden,central,,
+biochemphysics.ru,4,academia,Emanuel Institute of Biochemical Physics,central,,
+bionet.nsc.ru,4,academia,Institute of Cytology and Genetics,central,,
+biosoil.ru,4,academia,Federal Scientific Center of the East Asia Terrestrial Biodiversity,central,,
+blood.ru,4,academia,National Research Center for Hematology,central,,
+bmstu.ru,4,academia,Bauman Moscow State Technical University,central,,
 bolivia-rusia.ru,4,wikidata,"Embassy of Bolivia, Moscow",central,ConnectException,none
+botgard.uran.ru,4,academia,Botanical Garden of the Urals Branch of the Russian Academy of Sciences,central,,
+botsad.ru,4,academia,Botanical Garden-Institute of the Far Eastern Branch of the Russian Academy of Sciences,central,,
+bscnet.ru,4,academia,Buryatia Scientific Center SB RAS,central,,
+bstu.ru,4,academia,Belgorod State Technological University,central,,
+bsuedu.ru,4,academia,Belgorod State University,central,,
 burundiemb.ru,4,wikidata,"Embassy of Burundi, Moscow",central,200,none
+cardioweb.ru,4,academia,National Medical Research Center of Cardiology,central,,
+catalysis.ru,4,academia,Boreskov Institute of Catalysis,central,,
 cbr.ru,4,wikidata,Central Bank of Russia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx.cbr.ru.
+ceme.gsras.ru,4,academia,Geophysical Service of the Russian Academy of Sciences,central,,
+cemi.rssi.ru,4,academia,Central Economic Mathematical Institute,central,,
 center-albreht.ru,4,wikidata,Federal Scientific Center for the Rehabilitation of the Disabled by G.A. Albrecht of the Ministry of Labor and Social Protection of the Russian Federation,,200,10 mailbox.center-albreht.ru.
+centercem.ru,4,academia,Scientific Research Institute of Experimental and Clinical Medicine,central,,
+cepl.rssi.ru,4,academia,Centre for Forest Ecology and Productivity,central,,
+cfpd.amursu.ru,4,academia,Far Eastern Scientific Centre of Physiology and Pathology of Respiration Russian Academy of Medical Sciences,central,,
+cfuv.ru,4,academia,V.I. Vernadsky Crimean Federal University,central,,
 chem.ras.ru,4,wikidata,Department of Chemistry and Material Sciences,,ConnectException,none
+chg.ru,4,academia,Scientific Center,central,,
 chinaconsulate.khb.ru,4,wikidata,Consulate General of PRC in Vladivostok,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching chinaconsulate.khb.ru found.,none
 chkalovsky.svd.sudrf.ru,4,wikidata,Chkalovsky Districtional Court (Yekaterinburg),,200,none
+chph.ras.ru,4,academia,Semenov Institute of Chemical Physics,central,,
+chumakovs.ru,4,academia,Chumakov Institute of Poliomyelitis and Viral Encephalitis,central,,
+cniis.ru,4,academia,Central Research Institute of Dental and Maxillofacial Surgery,central,,
 cons-ua.ru,4,wikidata,Consulate-General of Ukraine in Saint Petersburg,,HttpConnectTimeoutException: HTTP connect timed out,none
+corp-mit.ru,4,academia,Moscow Institute of Thermal Technology,central,,
+cplire.ru,4,academia,V.A. Kotelnikov Institute of Radio-engineering and Electronics,central,,
+critub.ru,4,academia,"Central Scientific Research Institute of Tuberculosis, Russian Academy of Medical Sciences",central,,
+crys.ras.ru,4,academia,A.V. Shubnikov Institute of Crystallography,central,,
 cspfmba.ru,4,wikidata,"Federal State Budgetary Institution ""Centre for Strategic Planning and Management of Biomedical Health Risks"" of the Federal Medical and Biological Agency",,ConnectException,10 mail.cspfmba.ru.
+ctppcp.ru,4,academia,Center for Theoretical Problems of Physicochemical Pharmacology,central,,
 culture.gov-murman.ru,4,wikidata,Q126485196,,200,none
 dit.mos.ru,4,wikidata,Department of Information Technology in Moscow,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+dncran.ru,4,academia,Dagestan Scientific Center RAS,central,,
 duma.chukotka.ru,4,wikidata,Duma of Chukotka Autonomous Okrug,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 duma.khv.ru,4,wikidata,Legislative Duma of Khabarovsk Krai,central-1,ConnectException,5 duma-exch13.duma.khv.ru.; 20 relay.redcom.ru.
 duma.murman.ru,4,wikidata,Murmansk Oblast Duma,central-1,ConnectException,none
@@ -123,6 +170,11 @@ duma32.ru,4,wikidata,Bryansk Oblast Duma,central-1,403,20 mail.duma32.ru.
 duma39.ru,4,wikidata,Legislative Assembly of Kaliningrad Oblast,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.duma39.ru.; 30 mx1.spaceweb.ru.; 20 mx1.gazinter.net.
 dumasakhalin.ru,4,wikidata,Sakhalin Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.dumasakhalin.ru.
 dumask.ru,4,wikidata,Regional Parliament of Stavropol Krai,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.dumask.ru.
+dvfu.ru,4,academia,Far Eastern Federal University,central,,
+ecfor.ru,4,academia,Institute of Economic Forecasting,central,,
+eco.nsc.ru,4,academia,Institute of Systematics and Ecology of Animals,central,,
+eimb.ru,4,academia,Engelhardt Institute of Molecular Biology,central,,
+electron.spb.ru,4,academia,National Research Institute Electron,central,,
 elkurultay.ru,4,wikidata,State Assembly of the Altai Republic,central-1,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.timeweb.ru.; 10 mx1.timeweb.ru.
 emb-abkhazia.ru,4,wikidata,"Embassy of Abkhazia, Moscow",central,200,10 mx1.spaceweb.ru.; 20 mx2.spaceweb.ru.
 embaguate.ru,4,wikidata,"Embassy of Guatemala, Moscow",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx2.spaceweb.ru.; 10 mx1.spaceweb.ru.
@@ -130,126 +182,419 @@ embajadadom.ru,4,wikidata,embassy of the Dominican Republic in Russia,central,Ht
 embapanamarusia.ru,4,wikidata,embassy of Panama in Russia,central,303,10 mx4.masterhost.ru.
 embapar.ru,4,wikidata,"Embassy of Paraguay, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,none
 embassybel.ru,4,wikidata,"Embassy of Belarus, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.embassybel.ru.
+en.iemspb.ru,4,academia,Institute of Experimental Medicine,central,,
+en.sgu.ru,4,academia,Saratov State University,central,,
+endocrincentr.ru,4,academia,Endocrinology Research Center,central,,
+eng.imach.uran.ru,4,academia,Institute of Engineering Science,central,,
+eng.imash.ru,4,academia,Institute of Machines Science,central,,
+eng.timacad.ru,4,academia,Moscow State Agro-Engineering University,central,,
 english.gpntb.ru,4,wikidata,Russian National Public Library for Science and Technology,,HttpConnectTimeoutException: HTTP connect timed out,none
+eriras.ru,4,academia,Energy Research Institute of the Russian Academy of Sciences,central,,
+esoil.ru,4,academia,Dokuchaev Soil Science Institute,central,,
 faprid.ru,4,wikidata,"Federal Agency for Legal Protection of Military Results, Special and Dual Purpose",,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.timeweb.ru.; 20 mx2.timeweb.ru.
+fbras.ru,4,academia,Research Center of Biotechnology RAS,central,,
+fegi.ru,4,academia,Far East Geological Institute,central,,
 fgup-ohrana.ru,4,wikidata,Federal State Unitary Enterprise Guard (Russia),,HttpConnectTimeoutException: HTTP connect timed out,50 mx02.fgup-ohrana.ru.; 60 mx666.fgup-ohrana.ru.; 9 mx03.fgup-ohrana.ru.; 5 mx66.fgup-ohrana.ru.; 10 mx01.fgup-ohrana.ru.
+fnc-mich.ru,4,academia,I.V. Michurin Federal Research Center,central,,
+fncbst.ru,4,academia,Federal Research Centre of Biological Systems and Agrotechnologies,central,,
+fnclk.ru,4,academia,Federal Research Center of the Bast Crops,central,,
+fnisc.ru,4,academia,Federal Center of Theoretical and Applied Sociology of the Russian Academy of Sciences,central,,
+fnkcrr.ru,4,academia,Federal Research Center for Rehabilitation and General Resuscitation,central,,
 frccsc.ru,4,wikidata,Federal Research Center “Computer Science and Control” of the Russian Academy of Sciences,,HttpConnectTimeoutException: HTTP connect timed out,10 postal.frccsc.ru.
+ftian.ru,4,academia,Institute of Physics and Technology,central,,
+gause-inst.ru,4,academia,Gause Institute of New Antibiotics Russian Academy of Medical Sciences,central,,
+gbsad.ru,4,academia,N.V. Tsitsin Main Botanical Garden,central,,
+gcras.ru,4,academia,Geophysical Center,central,,
+genebiology.ru,4,academia,Institute of Gene Biology,central,,
+geoenv.ru,4,academia,Sergeev Institute of Environmental Geoscience,central,,
+geokhi.ru,4,academia,Vernadsky Institute of Geochemistry and Analytical Chemistry,central,,
+geoksc.apatity.ru,4,academia,Geological Institute KSC RAS,central,,
+goikolasc.ru,4,academia,Mining Institute KSC RAS,central,,
 gorduma.nnov.ru,4,wikidata,Nizhny Novgorod City Duma,,301,10 mail.r52.ru.
+gosniias.ru,4,academia,State Research Institute of Aviation Systems,central,,
+gosniiokht.ru,4,academia,State Research Institute of Organic Chemistry and Technology,central,,
+gosniir.ru,4,academia,State Research Institute for Restoration,central,,
 gpad.ac.ru,4,wikidata,Physical Sciences Division,,200,10 emx.mail.ru.
+gpi.ru,4,academia,Prokhorov General Physics Institute,central,,
+grans.hse.ru,4,academia,"Centre for Studies of Civil Society and the Nonprofit Sector, National Research University, Russia",central,,
 grants.extech.ru,4,wikidata,Council for Grants of the President of the Russian Federation,,200,dig error
 gs.sev.sudrf.ru,4,wikidata,Q48941903,,HttpTimeoutException: request timed out,none
 gsrm.ru,4,wikidata,State Assembly of the Republic of Mordovia,central-1,200,10 mail.gsrm.ru.
+gubkin.ru,4,academia,Gubkin University,central,,
 hamovnichesky.msk.sudrf.ru,4,wikidata,Khamovniki Districtional Court of Moscow,,200,none
+hcei.tsc.ru,4,academia,Institute of High Current Electronics,central,,
+health-family.ru,4,academia,Scientific Center of Family Health Problems and Human Reproduction,central,,
 health.bashkortostan.ru,4,wikidata,Ministry of Health (Bashkortostan),,HttpConnectTimeoutException: HTTP connect timed out,none
+helmholtzeyeinstitute.ru,4,academia,Helmholtz Moscow Research Institute of Eye Diseases,central,,
+history.nsc.ru,4,academia,Institute of History,central,,
+hppi.troitsk.ru,4,academia,Institute for High Pressure Physics,central,,
+hse.ru,4,academia,National Research University – Higher School of Economics,central,,
+iaaras.ru,4,academia,Institute of Applied Astronomy,central,,
+iacp.dvo.ru,4,academia,Institute of Automation and Control Processes,central,,
+iairas.ru,4,academia,Institute for Analytical Instrumentation,central,,
+iam.dvo.ru,4,academia,Institute of Applied Mathematics FEB RAS,central,,
+iam.ras.ru,4,academia,Institute of Applied Mechanics,central,,
+iao.ru,4,academia,V.E. Zuev Institute of Atmospheric Optics,central,,
+ib.komisc.ru,4,academia,Institute of Biology UB RAS,central,,
+ibch.ru,4,academia,Institute of Bioorganic Chemistry,central,,
+ibiw.ru,4,academia,Ivan Dmitrievich Papanin  Institute of Biology of Inland Waters,central,,
+ibmc.msk.ru,4,academia,Institute of Biomedical Chemistry,central,,
+ibpc.ysn.ru,4,academia,Institute for Biological Problems of Cryolithozone,central,,
+icad.org.ru,4,academia,Institute for Computer Aided Design,central,,
+ich.dvo.ru,4,academia,Institute of Chemistry FEB RAS,central,,
+icmmg.nsc.ru,4,academia,Institute of Computational Mathematics and Mathematical Geophysics,central,,
+ict.nsc.ru,4,academia,Institute of Computational Technologies,central,,
+idbras.ru,4,academia,Koltzov Institute of Developmental Biology,central,,
+idg.chph.ras.ru,4,academia,Institute of Geosphere Dynamics,central,,
+iem.ac.ru,4,academia,Institute of Experimental Mineralogy,central,,
+iep.kolasc.net.ru,4,academia,Luzin Institute for Economic Studies KSC RAS,central,,
+iep.uran.ru,4,academia,Institute of Electrophysics,central,,
+iephb.ru,4,academia,I. M. Sechenov Institute of Evolutionary Physiology and Biochemistry,central,,
+ievbras.ru,4,academia,Institut ėkologii Volzhskogo basseĭna,central,,
+ifaran.ru,4,academia,A.M. Obukhov Institute of Atmospheric Physics RAS,central,,
+ifp.uran.ru,4,academia,Institute of Philosophy and Law of Ural Branch of Russian Academy of Sciences,central,,
+ifz.ru,4,academia,Schmidt Institute of Physics of the Earth,central,,
+igds.ysn.ru,4,academia,N.V. Chersky Mining Institute of the North,central,,
+igduran.ru,4,academia,Institute of Mining,central,,
+igeb.ru,4,academia,Institute of General and Experimental Biology,central,,
+igem.ru,4,academia,"Institute of Ore Deposits Geology, Petrography, Mineralogy and Geochemistry",central,,
+igg.uran.ru,4,academia,Zavaritsky Institute of Geology and Geochemistry,central,,
+igh.ru,4,academia,Institute of World History,central,,
+igi.ysn.ru,4,academia,Institute for Humanitarian Research and North Indigenous Peoples Problems,central,,
+igic.ras.ru,4,academia,N.S. Kurnakova Institute of General and Inorganic Chemistry,central,,
 igps.ru,4,wikidata,Federal state educational institution of higher professional education of the Saint-Petersburg University of State fire service of EMERCOM of Russia,,ConnectException,10 emx.mail.ru.
+ihb.spb.ru,4,academia,Institute of the Human Brain,central,,
+ihim.uran.ru,4,academia,Institute of Solid State Chemistry,central,,
+ihist.uran.ru,4,academia,Institute of History and Archaeology,central,,
+ihna.ru,4,academia,Institute of Higher Nervous Activity,central,,
+ihps.nnov.ru,4,academia,Institute of Chemistry of High-Purity Substances,central,,
+ihst.ru,4,academia,S.I. Vavilov Institute for the History of Natural Science and Technology,central,,
+ihte.uran.ru,4,academia,Institute of High Temperature Electrochemistry,central,,
+iie.uran.ru,4,academia,Institute of Industrial Ecology,central,,
+iip.uran.ru,4,academia,Institute of Immunology and Physiology,central,,
+iitp.ru,4,academia,The Institute for Information Transmission Problems of Russian Academy of Sciences,central,,
+iki.rssi.ru,4,academia,Russian Space Research Institute,central,,
+ikir.ru,4,academia,Institute of Space Physics Research and Radio Wave Propagation,central,,
+ilan.ras.ru,4,academia,Institute of Forest Science,central,,
+iling-ran.ru,4,academia,Institute of Linguistics of the Russian Academy of Sciences,central,,
+iling.spb.ru,4,academia,Institute for Linguistic Studies,central,,
+ilizarov.ru,4,academia,Russian Ilizarov Scientific Center for Restorative Traumatology and Orthopaedics,central,,
+imbr-ras.ru,4,academia,Institute of Marine Biological Research (Sevastopol),central,,
+imbt.ru,4,academia,"Institute of Mongolian, Buddhist and Tibetan Studies",central,,
+imces.ru,4,academia,Institute of Monitoring of Climatic and Ecological Systems SB RAS,central,,
+imemo.ru,4,academia,Institute of World Economy and International Relations,central,,
+imet-uran.ru,4,academia,Institute of Metallurgy,central,,
+imet.ac.ru,4,academia,Baikov Institute of Metallurgy and Materials Science,central,,
+imgg.ru,4,academia,Institute of Marine Geology and Geophysics FEB RAS,central,,
+imm.uran.ru,4,academia,N.N. Krasovskii Institute of Mathematics and Mechanics of the Ural Branch of the Russian Academy of Sciences,central,,
+imp.uran.ru,4,academia,Institute of Metal Physics,central,,
+inafran.ru,4,academia,Institute for African Studies,central,,
+inasan.ru,4,academia,Institute of Astronomy of the Russian Academy of Sciences,central,,
+inbi.ras.ru,4,academia,Bach Institute of Biochemistry RAS,central,,
+incras.ru,4,academia,"Institute of Cytology, Russian Academy of Sciences",central,,
+ineos.ac.ru,4,academia,Nesmeyanov Institute of Organoelement Compounds,central,,
+influenza.spb.ru,4,academia,Research Institute of Influenza,central,,
+infran.ru,4,academia,Pavlov Institute of Physiology of the Russian Academy of Sciences,central,,
+inm.ras.ru,4,academia,G. I. Marchuk Institute of Computational Mathematics,central,,
+inr.ru,4,academia,Institute for Nuclear Research,central,,
+inrec.sbras.ru,4,academia,"Institute of Natural Resources, Ecology and Cryology",central,,
+instmech.ru,4,academia,I.I. Mechnikov Research Institute of Vaccines and Sera,central,,
+inter.kubsu.ru,4,academia,Kuban State University,central,,
+ioffe.ru,4,academia,Ioffe Institute,central,,
+iomc.ras.ru,4,academia,G.A. Razuvaev Institute of Organometallic Chemistry,central,,
+ion.ru,4,academia,Scientific Research Institute of Nutrition,central,,
+ios.uran.ru,4,academia,Institute of Organic Synthesis,central,,
+ipae.uran.ru,4,academia,Institute of Plant and Animal Ecology,central,,
+ipc.tsc.ru,4,academia,Institute of Petroleum Chemistry,central,,
+ipcet.ru,4,academia,Institute for Problems of Chemical and Energetic Technologies,central,,
+ipfran.ru,4,academia,A. V. Gaponov-Grekhov Institute of Applied Physics RAS,central,,
+ipgg.ru,4,academia,Institute of Precambrian Geology and Geochronology,central,,
+iph.ras.ru,4,academia,Institute of Philosophy,central,,
+ipiran.ru,4,academia,The Institute of Informatics Problems of The Russian Academy of Sciences,central,,
+ipme.ru,4,academia,Institute of Problems of Mechanical Engineering,central,,
+ipng.ru,4,academia,Oil and Gas Research Institute,central,,
+ipng.ysn.ru,4,academia,Institute of Oil and Gas Problems,central,,
+ipos-tmn.ru,4,academia,Institute of the Problems of Northern Development,central,,
+ippm.ru,4,academia,Institute for Design Problems in Microelectronics,central,,
+ippras.ru,4,academia,Timiryazev Institute of Plant Physiology,central,,
+ipr-ras.ru,4,academia,Market Economy Institute,central,,
+ipras.ru,4,academia,Institute of Psychology,central,,
+ips.ac.ru,4,academia,A.V. Topchiev Institute of Petrochemical Synthesis,central,,
+iptpn.ysn.ru,4,academia,V.P. Larionov Institute of the Physical-Technical Problems of the North,central,,
+ipu.ru,4,academia,V.A. Trapeznikov Institute of Control Sciences,central,,
+irigs.irk.ru,4,academia,V.B. Sochava Institute of Geography,central,,
+irkinstchem.ru,4,academia,A.E. Favorsky Irkutsk Institute of Chemistry,central,,
+isan.troitsk.ru,4,academia,Institute for Spectroscopy Russian Academy of Sciences,central,,
+iskran.ru,4,academia,Institute for US and Canadian Studies,central,,
+islu.ru,4,academia,Irkutsk State Linguistic University,central,,
+ism.ac.ru,4,academia,Institute of Structural Macrokinetics and Materials Science,central,,
+isp.nsc.ru,4,academia,Institute of Semiconductor Physics,central,,
+ispm.ru,4,academia,Institute of Synthetic Polymeric Materials,central,,
+ispms.ru,4,academia,Institute of Strength Physics and Materials Science SB RAS,central,,
+ispras.ru,4,academia,Institute for System Programming,central,,
+issa-siberia.ru,4,academia,Institute for Soil Science and Agricultural Chemistry,central,,
+issp.ac.ru,4,academia,Institute of Solid State Physics,central,,
+itae.ru,4,academia,Institute of Theoretical and Applied Electrodynamics,central,,
+itam.nsc.ru,4,academia,Institute of Theoretical and Applied Mechanics,central,,
+iteb.ru,4,academia,Institute of Theoretical and Experimental Biophysics,central,,
+itig.as.khb.ru,4,academia,Y.A. Kosygin Research Institute of Tectonics and Geophysics,central,,
+itmo.ru,4,academia,"Saint Petersburg State University of Information Technologies, Mechanics and Optics",central,,
+itp.ac.ru,4,academia,Landau Institute for Theoretical Physics,central,,
+itp.nsc.ru,4,academia,S.S. Kutateladze Institute of Thermophysics SB RAS,central,,
+itp.uran.ru,4,academia,Institute of Thermal Physics UB RAS,central,,
+ivran.ru,4,academia,Institute of Oriental Studies of the Russian Academy of Sciences,central,,
+iwep.ru,4,academia,Institute for Water and Environmental Problems,central,,
+iwp.ru,4,academia,Institute of Water Problems,central,,
+izmiran.ru,4,academia,IZMIRAN,central,,
 jekatyerinburg.mfa.gov.hu,4,wikidata,"Consulate General of Hungary, Yekaterinburg",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+jiht.ru,4,academia,Joint Institute for High Temperatures,central,,
+kai.ru,4,academia,Kazan State Technical University named after A. N. Tupolev,central,,
+kapitza.ras.ru,4,academia,P.L. Kapitza Institute for Physical Problems RAS,central,,
 kbs.spb.sudrf.ru,4,wikidata,Kuibyshevsky districtional court,,200,none
+keldysh.ru,4,academia,Keldysh Institute of Applied Mathematics,central,,
+kemcardio.ru,4,academia,Kuzbass Cardiology Center,central,,
 kenemb.ru,4,wikidata,"Embassy of Kenya, Moscow",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx2.spaceweb.ru.; 10 mx1.spaceweb.ru.
 kgv.spb.sudrf.ru,4,wikidata,Q104774086,,200,none
+khfrc.ru,4,academia,Khabarovsk Federal Research Center FEB RAS,central,,
+kif.ras.ru,4,academia,"Federal Research Centre ""Crystallography and Photonics""",central,,
+kinetics.nsc.ru,4,academia,Institute of Chemical Kinetics and Combustion,central,,
 kirovsky.svd.sudrf.ru,4,wikidata,Kirovsky Districtional Court of Yekaterinburg,,200,none
 kitaphane.tatarstan.ru,4,wikidata,National Library of the Republic of Tatarstan,,HttpConnectTimeoutException: HTTP connect timed out,none
 klp.spb.sudrf.ru,4,wikidata,Kolpinsky districtional court,,200,none
+knc.ru,4,academia,"Federal Research Center ""Kazan Scientific Center of the Russian Academy of Sciences""",central,,
 kosoblduma.ru,4,wikidata,Kostroma Oblast Duma,central-1,200,0 mx1.masterhost.ru.
 krags.ru,4,wikidata,Komi Republican Academy of State Service and Administration,,301,10 mx.yandex.ru.
+krc.karelia.ru,4,academia,Karelian Research Centre of RAS,central,,
 kremlin.ru,4,wikidata,The Russian Federation State Council,,HttpConnectTimeoutException: HTTP connect timed out,10 mx4.gov.ru.; 5 mx3.gov.ru.
+ksc.krasn.ru,4,academia,Krasnoyarsk Scientific Center SB RAS,central,,
+ksc.ru,4,academia,Kola Science Centre RAS,central,,
+kscnet.ru,4,academia,Institute of Volcanology and Seismology,central,,
 ksrf.ru,4,wikidata;wikidata;wikidata;wikidata,Constitutional Court of Russia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail3.ksrf.ru.
+kstu.ru,4,academia,Kazan National Research Technological University,central,,
+kubsau.ru,4,academia,Kuban State Agrarian University,central,,
+kubsu.ru,4,academia,Kuban State University,central,,
 kubzsk.ru,4,wikidata,Legislative Assembly of Krasnodar Krai,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 kurskduma.ru,4,wikidata,Kursk Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.kurskduma.ru.
+kurskfarc.ru,4,academia,Kursk Federal Agrarian Scientific Center,central,,
 kzn.ru,4,wikidata,Kazan Police,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.yandex.net.
+laser.nsc.ru,4,academia,Institute of Laser Physics,central,,
+lebedev.ru,4,academia,Lebedev Physical Institute,central,,
 leninskyeka.svd.sudrf.ru,4,wikidata,Leninsky Districtional Court of Yekaterinburg,,200,none
 lenoblzaks.ru,4,wikidata,Legislative Assembly of Leningrad Oblast,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 mx02.nicmail.ru.; 10 mx01.nicmail.ru.; 20 mx03.nicmail.ru.
 library.karelia.ru,4,wikidata,The National Library of the Republic of Karelia,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.library.karelia.ru.
 library.saransk.ru,4,wikidata,National Library of (the Republic of) Mordovia,,HttpConnectTimeoutException: HTTP connect timed out,none
+lii.ru,4,academia,Gromov Flight Research Institute,central,,
+lin.irk.ru,4,academia,Limnological Institute,central,,
 magoblduma.ru,4,wikidata,Magadan Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mx-1.magoblduma.ru.
+mai.ru,4,academia,Moscow Aviation Institute,central,,
+math.nsc.ru,4,academia,Sobolev Institute of Mathematics SB RAS,central,,
 mchs.tatarstan.ru,4,wikidata,Q65301623,,HttpConnectTimeoutException: HTTP connect timed out,none
 mcx.ru,4,wikidata,State supervision of the technical condition of self-propelled machines and other types of equipment,,HttpConnectTimeoutException: HTTP connect timed out,10 filter2.mcx.ru.; 10 filter.mcx.ru.
 md.mos.ru,4,wikidata,My documents,,HttpConnectTimeoutException: HTTP connect timed out,none
+med-gen.ru,4,academia,Research Centre for Medical Genetics,central,,
 mednet.ru,4,wikidata,Federal Research Institute for Health Organization and Informatics,,200,10 mx.yandex.net.
 megagrant.ru,4,wikidata,Mega Grants,,200,10 mail.megagrant.ru.
+mephi.ru,4,academia,National Research Nuclear University,central,,
+meshalkin.ru,4,academia,Meshalkin National Medical Research Center,central,,
 mfc-kursk.ru,4,wikidata,My documents,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.mfc-kursk.ru.
+mgsu.ru,4,academia,Moscow State University of Civil Engineering,central,,
+mhi-ras.ru,4,academia,Marine Hydrophysical Institute,central,,
+mi-ras.ru,4,academia,Steklov Institute of Mathematics,central,,
+miet.ru,4,academia,National Research University of Electronic Technology,central,,
+mineralogy.ru,4,academia,Institute of Mineralogy,central,,
 minfin.tatarstan.ru,4,wikidata,Ministry of Finances of the Republic of Tatarstan,,HttpConnectTimeoutException: HTTP connect timed out,none
 minjust.tatarstan.ru,4,wikidata,Ministry of Justice of the Republic of Tatarstan,,HttpConnectTimeoutException: HTTP connect timed out,none
 minobr.permkrai.ru,4,wikidata,Ministry of Education and Science of Perm Region,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mx10.permkrai.ru.; 20 cgp.permkrai.ru.
 minstroy.tatarstan.ru,4,wikidata,"Ministry of Construction, Architecture and Housing and Communal Services of the Republic of Tatarstan",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+mipt.ru,4,academia,Moscow Institute of Physics and Technology,central,,
+misd.ru,4,academia,Chinakal Institute of Mining of the Siberian Branch of the RAS,central,,
+misis.ru,4,academia,National University of Science and Technology,central,,
+mitp.ru,4,academia,Institute of Earthquake Prediction Theory and Mathematical Geophysics,central,,
+mnioi.ru,4,academia,P.Herzen Moscow Oncology Research Institute,central,,
 mosgorzdrav.ru,4,wikidata,Department of health of Moscow,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.yandex.net.
 moszkva.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Moscow",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mpei.ru,4,academia,Moscow Power Engineering Institute,central,,
+mpi.ysn.ru,4,academia,Melnikov Permafrost Institute,central,,
+mrsu.ru,4,academia,Ogarev National Research Mordovia State University,central,,
+msal.ru,4,academia,Moscow State Law University,central,,
 msk.arbitr.ru,4,wikidata,Q47171548,,200,10 mx1.arbitr.ru.
 msso-kogan.ru,4,wikidata,Moscow State Symphony Orchestra,,SSLException: (internal_error) Received fatal alert: internal_error,10 mail.msso-kogan.ru.
+msu.ru,4,academia,Lomonosov Moscow State University,central,,
 mugiso.midural.ru,4,wikidata,Q24935840,,HttpConnectTimeoutException: HTTP connect timed out,none
 mvd.altai-republic.ru,4,wikidata,Ministry of Internal Affairs of Altai Republic,,ConnectException,none
 mvdrb.ru,4,wikidata,Ministry of Internal Affairs of Bashkortostan,,IOException: closed,30 mx1.hosting.reg.ru.; 10 mxs.activeby.net.; 40 mx2.hosting.reg.ru.; 5 1st.mail-gate.ru.
 namibian-embassy.ru,4,wikidata,"Embassy of Namibia, Moscow",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching namibian-embassy.ru found.,10 mx.yandex.net.
+narfu.ru,4,academia,Northern (Arctic) Federal University,central,,
 nasledie.volgograd.ru,4,wikidata,Q109475246,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 natlibraryrm.ru,4,wikidata,National Library of (the Republic of) Mordovia,,200,10 mx.yandex.net.
 nb12.ru,4,wikidata,National Library of the Mari El Republic,,200,10 mail.nb12.ru.
 nbri.ru,4,wikidata,Q129775349,,200,10 cluster.relay.agava.net.
 nbrkomi.ru,4,wikidata,Komi National Library,,HttpConnectTimeoutException: HTTP connect timed out,5 mxs1.reg.ru.; 10 mxs2.reg.ru.
+ncfu.ru,4,academia,North-Caucasus Federal University,central,,
+ncsa.ru,4,academia,North Caucasian State Academy,central,,
+ncz-russia.ru,4,academia,P.P. Lukyanenko National Grain Center,central,,
+nczd.ru,4,academia,Scientific Center of Children's Health,central,,
+neurology.ru,4,academia,Scientific Center of Neurology,central,,
 new.nlrs.ru,4,wikidata,National Library of the Republic of Sakha (Yakutia),,301,none
 new.novoblduma.ru,4,wikidata,Novgorod Oblast Duma,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+niboch.nsc.ru,4,academia,Institute of Chemical Biology and Fundamental Medicine,central,,
 nigerianembassy.ru,4,wikidata,"Embassy of Nigeria, Moscow",central,200,20 mx2.beget.com.; 10 mx1.beget.com.
+niic.nsc.ru,4,academia,Nikolaev Institute of Inorganic Chemistry,central,,
+niidokuchaeva.ru,4,academia,Voronezh Federal Agrarian Research Center named after V.V. Dokuchaev,central,,
+niigb.ru,4,academia,"Research Institute of Eye Diseases, Russian Academy of Sciences",central,,
+niigpk.ru,4,academia,Kirov Research Institute of Hematology and Blood Transfusion FMBA,central,,
+niiopp.ru,4,academia,"Research Institute of General Pathology and Pathophysiology, the Russian Academy of Medical Sciences",central,,
+niisi.ru,4,academia,Scientific Research Institute of System Development,central,,
 nlr.ru,4,wikidata,National Library of Russia,,200,10 m.nlr.ru.
 novreg.ru,4,wikidata,Government of the Novgorod region,,HttpConnectTimeoutException: HTTP connect timed out,1 mailer.novreg.ru.
+nrcki.ru,4,academia,National Research Centre Kurchatov Institute,central,,
+nriph.ru,4,academia,N.A. Semashko National Research Institute of Public Health,central,,
+nsi.ru,4,academia,Burdenko Neurosurgery Institute,central,,
+nstu.ru,4,academia,Novosibirsk State Technical University,central,,
+nsu.ru,4,academia,Novosibirsk State University,central,,
+ntcm-ras.ru,4,academia,"Submicron Heterostructures for Microelectronics, Research & Engineering Center, RAS",central,,
+ntcup.ru,4,academia,Scientific and Technological Center of Unique Instrumentation,central,,
 oblsovet.ru,4,wikidata,Lipetsk Oblast Council of Deputies,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 relay.admlr.lipetsk.ru.
 oem.ras.ru,4,wikidata,"Department of Power Engineering, Mechanical Engineering, Mechanics and Control Processes",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.ras.ru.
 oktiabrsky.svd.sudrf.ru,4,wikidata,Oktyabrsky Districtional Court (Yekaterinburg),,200,none
 oktibrsky.spb.sudrf.ru,4,wikidata,Q104774082,,200,none
+omgtu.ru,4,academia,Omsk State Technical University,central,,
+omgups.ru,4,academia,Omsk State Transport University,central,,
 omsk-parlament.ru,4,wikidata,Legislative Assembly of Omsk Oblast,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+omsu.ru,4,academia,Omsk State University,central,,
 oreloblsovet.ru,4,wikidata,Oryol Oblast Council of People's Deputies,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 emx.mail.ru.
+orennc.ru,4,academia,Orenburg Federal Research Center of the Ural Branch of the Russian Academy of Sciences,central,,
+orientalstudies.ru,4,academia,Institute of Oriental Manuscripts of the Russian Academy of Sciences,central,,
+ott.ru,4,academia,Research Institute of Obstetrics and Gynecology named after D.O. Ott (branch of Russian Academy of Medical Sciences),central,,
+pabgi.ru,4,academia,N.A. Avrorin Polar-Alpine Botanic Garden-Institute,central,,
+paleo.ru,4,academia,"Paleontological Institute, Russian Academy of Sciences",central,,
 palestine.ru,4,wikidata,Embassy of the State of Palestine in Russia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx2.hosting.reg.ru.; 0 mx1.hosting.reg.ru.
 parlament.kbr.ru,4,wikidata,Parliament of the Kabardino-Balkar Republic,central-1,403,none
 parlament09.ru,4,wikidata,People's Assembly of the Karachay-Cherkess Republic,central-1,403,10 mx.yandex.net.
+pdmi.ras.ru,4,academia,St. Petersburg Department of Steklov Institute of Mathematics of Russian Academy of Sciences,central,,
 permkrai.ru,4,wikidata,Perm Krai Government,,HttpConnectTimeoutException: HTTP connect timed out,10 mx10.permkrai.ru.; 20 cgp.permkrai.ru.
+pgia.ru,4,academia,Polar Geophysical Institute,central,,
+pgups.ru,4,academia,St. Petersburg State Transport University,central,,
+philosophy.nsc.ru,4,academia,Institute of Philosophy and Law SB RAS,central,,
+phyche.ac.ru,4,academia,Frumkin Institute of Physical Chemistry and Electrochemistry,central,,
+physiol.ru,4,academia,Research Institute of Physiology and Fundamental Medicine of the Siberian Branch of the Russian Academy of Medical Sciences,central,,
+pirao.ru,4,academia,Psychological Institute of the Russian Academy of Education,central,,
+pniiaz.ru,4,academia,Caspian Agrarian Federal Research Centre of RAS,central,,
+poi.dvo.ru,4,academia,V.I. Il'ichev Pacific Oceanological Institute,central,,
+prez.ysn.ru,4,academia,Yakut Scientific Center SB RAS,central,,
 primuvd.ru,4,wikidata,Primorsky Krai Police,,ConnectException,none
+protres.ru,4,academia,Institute of Protein Research,central,,
 ps.fsb.ru,4,wikidata,Border Service of the Federal Security Service of the Russian Federation,,HttpConnectTimeoutException: HTTP connect timed out,3 mail1.fsb.ru.; 2 mail20.fsb.ru.; 1 mail10.fsb.ru.
+psi-ras.ru,4,academia,Program Systems Institute of RAS,central,,
+pstu.ru,4,academia,State National Research Polytechnical University of Perm,central,,
+psu.ru,4,academia,Perm State National Research University,central,,
+psychiatry.ru,4,academia,Mental Health Research Center of Russian Academy of Medical Sciences,central,,
+pushkinskijdom.ru,4,academia,Pushkin House,central,,
 qbrand.ru,4,wikidata,Qbrand,,200,10 mxs1.reg.ru.; 20 mxs2.reg.ru.
 rais.tatarstan.ru,4,wikidata,Office of the Rais of the Republic of Tatarstan,,HttpConnectTimeoutException: HTTP connect timed out,none
+rea.ru,4,academia,Plekhanov Russian Economic University,central,,
 recruitit.ru,4,wikidata,RecruitIT,,HttpConnectTimeoutException: HTTP connect timed out,none
+regionstudies.tatarstan.ru,4,academia,Republic of Tatarstan Academy of Sciences Institute of Tatar Encyclopedia and Regional Studies,central-1,,
 rf-bih.ru,4,wikidata,"Embassy of Bosnia and Herzegovina, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.hosting.reg.ru.; 20 mx2.hosting.reg.ru.
 rfbr.ru,4,wikidata,Russian Center for Science Information,,HttpConnectTimeoutException: HTTP connect timed out,10 post.rfbr.ru.; 20 mx.rfbr.ru.
+riarae-raas.ru,4,academia,All-Russian Scientific Research Institute of Radiology and AgroEcology,central,,
 rncrr.ru,4,wikidata,Federal State Budgetary Institution Russian Scientific Center of Roentgenoradiology,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.yandex.net.
+rnioi.ru,4,academia,National Medical Research Centre for Oncology,central,,
 rosmedex.ru,4,wikidata,"Federal State Budgetary Institution ""Center for Expertise and Quality Control of Medical Care""",,200,10 mail.corp.rosmedex.ru.
-ruslang.ru,4,wikidata,Russian Language Institute,,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx5.googlemail.com.; 10 aspmx3.googlemail.com.; 10 aspmx4.googlemail.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 aspmx2.googlemail.com.
+rsmu.ru,4,academia,Russian National Research Medical University,central,,
+ru.iszf.irk.ru,4,academia,Institute of Solar-Terrestrial Physics,central,,
+rzgmu.ru,4,academia,"Ryazan State Medical University, Another Name:King Dr.Md.Enamul Hasan University",central,,
+s-vfu.ru,4,academia,North-Eastern Federal University,central,,
 saembassy.ru,4,wikidata,Embassy of South Africa in Moscow,central,SSLHandshakeException: Remote host terminated the handshake,10 mail.saembassy.ru.
 samgd.ru,4,wikidata,Samara Regional Duma,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mail.samgd.ru.
 sankt-peterburgsky.spb.sudrf.ru,4,wikidata,Saint Petersburg City Court,,200,none
 saratovduma.ru,4,wikidata,Saratov City Duma,,200,5 mx02.nicmail.ru.; 10 mx01.nicmail.ru.; 20 mx03.nicmail.ru.
+sbras.ru,4,academia,Central Siberian Botanical Garden,central,,
 sdnao.ru,4,wikidata,Assembly of Deputies of the Nenets Autonomous Okrug,central-1,200,10 mx.yandex.ru.
+serbsky.ru,4,academia,Serbsky Center,central,,
+sevin.ru,4,academia,Severtsov Institute of Ecology and Evolution,central,,
 sevzakon.ru,4,wikidata,Legislative Assembly of Sevastopol,central-1,200,10 mx.yandex.net.
 sf-kras.ru,4,wikidata,Krasnoyarsk Region Science and Technology Support Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx.yandex.net.
+sfedu.ru,4,academia,Southern Federal University,central,,
+sfu.ru,4,academia,Siberian Federal University,central,,
+sgu.ru,4,academia,Saratov State University,central,,
+sias.ru,4,academia,State Institute for Art Studies,central,,
+sifibr.irk.ru,4,academia,Siberian Institute of Plant Physiology and Biochemistry,central,,
 smoloblduma.ru,4,wikidata,Smolensk Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,11 mailg.smoloblduma.ru.; 10 smoloblduma.ru.
 so-ups.ru,4,wikidata,Russian Power System Operator,,301,10 mint.so-ups.ru.; 10 lime.so-ups.ru.
 sobranie.pskov.ru,4,wikidata,Pskov Oblast Assembly of Deputies,central-1,403,10 mail.pskovsobranie.ru.
+solid.nsc.ru,4,academia,Institute of Solid State Chemistry and Mechanochemistry,central,,
+spb.hse.ru,4,academia,National Research University Higher School of Economics (Saint Petersburg),central,,
+spbau.ru,4,academia,Alferov Saint Petersburg National Research Academic University of the Russian Academy of Sciences,central,,
+spbiiran.nw.ru,4,academia,Saint-Petersburg Institute of History,central,,
+spbniivs.ru,4,academia,Saint Petersburg Scientific Research Institute of Vaccines and Sera,central,,
+spbstu.ru,4,academia,Peter the Great Saint Petersburg State Polytechnical University,central,,
+spbu.ru,4,academia,Saint Petersburg State University,central,,
 spbustavsud.ru,4,wikidata,Q4478182,,200,none
+spiiras.nw.ru,4,academia,St. Petersburg Institute for Informatics and Automation,central,,
+spmi.ru,4,academia,Saint Petersburg Mining University,central,,
 srd.ru,4,wikidata,Saratov Oblast Duma,central-1,ConnectException,5 mail.srd.ru.
 srilankaembassy.ru,4,wikidata,"Embassy of Sri Lanka, Moscow",central,ConnectException,20 mx03.nicmail.ru.; 5 mx02.nicmail.ru.; 10 mx01.nicmail.ru.
+ssau.ru,4,academia,Samara National Research University named after academician S.P. Korolev,central,,
 st-petersburg.izbirkom.ru,4,wikidata,Q20020930,,HttpConnectTimeoutException: HTTP connect timed out,none
 statearchive.ru,4,wikidata,State Archive of the Russian Federation,,200,10 mx01.nicmail.ru.; 20 mx03.nicmail.ru.; 5 mx02.nicmail.ru.
 structure.mil.ru,4,wikidata,Main Military-Political Directorate of the Russian Armed Forces,,HttpConnectTimeoutException: HTTP connect timed out,none
+susu.ru,4,academia,South Ural State University,central,,
 suvd.ru,4,wikidata,Sochi Police,,HttpConnectTimeoutException: HTTP connect timed out,none
 svgimet.ru,4,wikidata,Ural Department for Hydrometeorology and Environmental Monitoring,,HttpConnectTimeoutException: HTTP connect timed out,10 relay.svgimet.ru.; 20 relay1.svgimet.ru.
 szentpetervar.mfa.gov.hu,4,wikidata,"Consulate General of Hungary,   Saint Petersburg",,HttpConnectTimeoutException: HTTP connect timed out,none
+szgmu.ru,4,academia,North-Western State Medical University named after I.I. Mechnikov,central,,
 tambovoblduma.ru,4,wikidata,Tambov Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 relay.tambov.gov.ru.
 tatarstan.arbitr.ru,4,wikidata,Arbitration court of the Republic of Tatarstan,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.arbitr.ru.
 tatmedia.tatarstan.ru,4,wikidata,Q25554702,,HttpConnectTimeoutException: HTTP connect timed out,none
 tatspb.tatarstan.ru,4,wikidata,Permanent Mission of the Republic of Tatarstan in Saint Petersburg and Leningrad Oblast,,HttpConnectTimeoutException: HTTP connect timed out,none
 tida.tatarstan.ru,4,wikidata,Tatarstan Investment Development Agency,,HttpConnectTimeoutException: HTTP connect timed out,none
+tigdvo.ru,4,academia,"Pacific Institute of Geography, Far Eastern Branch of the Russian Academy of Sciences",central,,
 tigpi.ru,4,wikidata,Tuvan Institute of Humanities and Applied Social and Economic Research,,200,10 emx.mail.ru.
+tmnsc.ru,4,academia,Tyumen Scientific Center SB RAS,central,,
+tomo.nsc.ru,4,academia,International Tomography Center,central,,
 tourism.tatarstan.ru,4,wikidata,State Committee on Tourism of the Republic of Tatarstan,,HttpConnectTimeoutException: HTTP connect timed out,none
+tpu.ru,4,academia,Tomsk Polytechnic University,central,,
+transpl.ru,4,academia,V.I. Shumakov Federal Research Center of Transplantology and Artificial Organs,central,,
 transport.mos.ru,4,wikidata,bus transport in Moscow,,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.mos.ru.
+tsc.ru,4,academia,Tomsk Scientific Center SB RAS,central,,
+tsu.ru,4,academia,Tomsk State University,central,,
+tulsu.ru,4,academia,Tula State University,central,,
 tyumen.izbirkom.ru,4,wikidata,Q56689802,,HttpConnectTimeoutException: HTTP connect timed out,none
+ufaras.ru,4,academia,Ufa Federal Research Centre of the Russian Academy of Sciences,central,,
+uiec.ru,4,academia,Institute of Economics of the Urals Branch of the Russian Academy of Sciences,central,,
 unatlib.ru,4,wikidata,National Library of the Udmurt Republic,,HttpConnectTimeoutException: HTTP connect timed out,10 emx.mail.ru.
 unesco.ru,4,wikidata,Commission of the Russian Federation for UNESCO,,200,10 mx.yandex.net.
+university.tversu.ru,4,academia,Tver State University,central,,
+unn.ru,4,academia,N. I. Lobachevsky State University of Nizhny Novgorod,central,,
 urcrm.ru,4,wikidata,Urals Research Center for Radiation Medicine,,HttpConnectTimeoutException: HTTP connect timed out,10 vrelay22.urcrm.ru.
+urfu.ru,4,academia,Ural Federal University,central,,
+ustu.ru,4,academia,Ural State Technical University,central,,
 uzembassy.ru,4,wikidata,"Embassy of Uzbekistan, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,5 mx02.nicmail.ru.; 20 mx03.nicmail.ru.; 10 mx01.nicmail.ru.
 vahitovsky.tat.sudrf.ru,4,wikidata,Vakhitovsky Districtional Court,,HttpConnectTimeoutException: HTTP connect timed out,none
 vamto.mil.ru,4,wikidata,Military Academy for Logistics,,HttpConnectTimeoutException: HTTP connect timed out,none
 vavpvo.mil.ru,4,wikidata,Military Academy of Field Anti-Aircraft Defense named after Marshal of the Soviet Union A.M. Vasilevsky,,HttpConnectTimeoutException: HTTP connect timed out,none
 verhisetsky.svd.sudrf.ru,4,wikidata,Verkh-Isetskiy Districtional Court of Yekaterinburg,,200,none
+viam.ru,4,academia,All Russian Scientific Research Institute of Aviation Materials,central,,
+vigg.ru,4,academia,Vavilov Institute of General Genetics,central,,
+vij.ru,4,academia,L.K. Ernst Federal Research Center for Animal Husbandry,central,,
+vir.nw.ru,4,academia,"Federal Research Center ""N.I. Vavilov All-Russian Institute of Plant Genetic Resources""",central,,
+vishnevskogo.ru,4,academia,A.V. Vishnevsky Institute of Surgery,central,,
 visitkirov.ru,4,wikidata,Q27003476,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching visitkirov.ru found.,10 mx.yandex.ru.
-vncran.ru,4,wikidata,Vladikavkaz Research Center of the Russian Academy of Sciences,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.yandex.net.
+vizr.spb.ru,4,academia,All-Russian Institute of Plant Protection,central,,
+vniif.ru,4,academia,Russian Research Institute for Phytopathology,central,,
+vniifk.ru,4,academia,Federal Scientific Center of Physical Culture and Sports,central,,
 vniigochs.ru,4,wikidata,All-Russian Research Institute of Civil Defense,,200,10 mxs.armgs.team.
+vniimk.ru,4,academia,"Federal Research Center ""V.S. Pustovoit All-Russian Research Institute of Oil Crops""",central,,
+vniipd.ru,4,academia,V.M.Gorbatov Federal Research Center of Food Systems,central,,
 vniipo.ru,4,wikidata,All-Russian Research Institute for Fire Protection,,HttpConnectTimeoutException: HTTP connect timed out,100 mxs.armgs.team.
+vniisb.ru,4,academia,All-Russian Research Institute of Agricultural Biotechnology Russian Academy of Agricultural Sciences,central,,
+vniispk.ru,4,academia,Russian Research Institute of Fruit Crop Breeding (VNIISPK),central,,
+vniivvim.ru,4,academia,National Research Institute for Veterinary Virology and Microbiology of Russia,central,,
+vniro.ru,4,academia,Russian Federal Research Institute of Fisheries and Oceanography,central,,
+vnitip.ru,4,academia,All-Russian Scientific Research and Technological Institute of Poultry Russian Academy of Agricultural Sciences,central,,
 volgoduma.ru,4,wikidata,Volgograd Oblast Duma,central-1,403,10 email.volganet.ru.
+volniti.ucoz.ru,4,academia,Volga Research Institute for Milk and Meat Production and Processing,central,,
 vologdazso.ru,4,wikidata,Legislative Assembly of Vologda Oblast,central-1,403,10 mail.vologdazso.ru.
 vrnoblduma.ru,4,wikidata,Voronezh Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 bulldozer.vrnoblduma.ru.
 vs.bkr.sudrf.ru,4,wikidata,Supreme Court of Bashkortostan,,200,none
@@ -257,10 +602,12 @@ vs.ing.sudrf.ru,4,wikidata,Supreme court of the Republic of Ingushetia,,200,none
 vs.tat.sudrf.ru,4,wikidata,Supreme court of the Republic of Tatarstan,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vs.tat.sudrf.ru found.,none
 vskhakasia.ru,4,wikidata,Supreme Council of Khakassia,central-1,404,10 emx.mail.ru.
 wmc.meteoinfo.ru,4,wikidata,Hydrometeorological Centre of Russia,central,301,none
+www2.viniti.ru,4,academia,VINITI,central,,
 yovs.ros.sudrf.ru,4,wikidata,Q126493700,,200,none
 zaksobr.kamchatka.ru,4,wikidata,Legislative Assembly of Kamchatka Krai,central-1,HttpConnectTimeoutException: HTTP connect timed out,80 mx1.zaksobr.kamchatka.ru.
 zdrav.spb.ru,4,wikidata,The Health Committee of St. Petersburg,,HttpConnectTimeoutException: HTTP connect timed out,5 mail.zdrav.spb.ru.
 zheleznodorozhny.svd.sudrf.ru,4,wikidata,Zheleznodorozhniy Districtional Court (Yekaterinburg),,200,none
+zioc.ru,4,academia,N.D. Zelinsky Institute of Organic Chemistry,central,,
 zs.yanao.ru,4,wikidata,Legislative Assembly of the Yamalo-Nenets Autonomous Okrug,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 zs74.ru,4,wikidata,Legislative Assembly of Chelyabinsk Oblast,central-1,403,10 mail.zs74.ru.
 zsamur.ru,4,wikidata,Legislative Assembly of Amur Oblast,central-1,ConnectException,10 mail.amur-cit.ru.
@@ -275,17 +622,35 @@ zsto.ru,4,wikidata,Legislative Assembly of Tver Oblast,central-1,200,10 mail.zst
 zsvo.ru,4,wikidata,Legislative Assembly of Vladimir Oblast,central-1,403,10 mx.yandex.net.
 77.xn--b1aew.xn--p1ai,3,wikidata,Moscow Criminal Investigations Department,,HttpConnectTimeoutException: HTTP connect timed out,none
 ambafrance-ru.org,3,wikidata,Consulate-General of France in Saint Petersburg,,ConnectException,5 mta-gw.infomaniak.ch.
+asmurussia.com,3,academia,Altai State Medical University,central,,
+chermet.net,3,academia,Bardin Central Research Institute for Ferrous Metallurgy,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Russia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+eipc.center,3,academia,"Federal State Research Institute ""Environmental Industrial Policy Centre""",central,,
+eng.istu.edu,3,academia,Irkutsk National Research Technical University,central,,
 euro.who.int,3,wikidata,WHO European Office for the Prevention and Control of NCD,,HttpConnectTimeoutException: HTTP connect timed out,none
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Moscow",central,301,10 mail.valtori.fi.
+fr.istu.edu,3,academia,Irkutsk National Research Technical University,central,,
+gamaleya.org,3,academia,Gamaleya Research Institute of Epidemiology and Microbiology,central,,
 germania.diplo.de,3,wikidata,"Embassy of Germany, Moscow",central,200,none
 ghanaembassy-russia.com,3,wikidata,"Embassy of Ghana, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,none
+gnicpm.com,3,academia,National Research Center for Preventive Medicine,central,,
+iae.nsk.su,3,academia,Institute of Automation and Electrometry,central,,
+icarp.su,3,academia,Institute for Complex Analysis of Regional Problems,central-1,,
+ieie.su,3,academia,Institute of Economics and Industrial Engineering,central,,
+igeoph.net,3,academia,Institute of geophysics of the Russian Academy of Sciences,central,,
+ihaefe.org,3,academia,"Institute of History, Archaeology and Ethnography of the Peoples of Far-East",central,,
+iis.nsk.su,3,academia,A.P. Ershov Institute of Informatics Systems,central,,
+inp.nsk.su,3,academia,Budker Institute of Nuclear Physics,central,,
 instytutpolski.pl,3,wikidata,Polish Institute in Moscow,,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
+istu.edu,3,academia,Irkutsk National Research Technical University,central,,
+kigiran.com,3,academia,Kalmyk Scientific Center of the Russian Academy of Sciences,central,,
+kspu.edu,3,academia,Kherson State University,central,,
 mauritius-moscow.govmu.org,3,wikidata,embassy of Mauritius in Russia,central,HttpConnectTimeoutException: HTTP connect timed out,none
 memoscow.org,3,wikidata,"Embassy of Myanmar, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,0 _dc-mx.cc56c9dec4c3.memoscow.org.
 mfa.bg,3,wikidata,"Embassy of Bulgaria, Moscow",central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,Embassy of Greece in Moscow,central,403,10 mailhost.mfa.gr.
 mfa.tj,3,wikidata,"Embassy of Tajikistan, Moscow",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.mfa.tj.; 10 mail.mfa.tj.
+mmbi.info,3,academia,Murmansk Marine Biological Institute,central,,
 moscou.mae.lu,3,wikidata,"Embassy of Luxembourg, Moscow",central,302,none
 moscova.mae.ro,3,wikidata,"Embassy of Romania, Moscow",central,ConnectException,none
 moscow.embassy.mn,3,wikidata,"Embassy of Mongolia, Moscow",central,200,none
@@ -294,6 +659,7 @@ moscow.mfa.ee,3,wikidata,Embassy of Estonia in Moscow,central,200,none
 moscow.mofa.go.ug,3,wikidata,embassy of Uganda in Russia,central,200,none
 moscow.thaiembassy.org,3,wikidata,"Embassy of Thailand, Moscow",central,200,none
 moskva.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Moscow",central,SSLHandshakeException: Remote host terminated the handshake,none
+mpgu.edu,3,academia,Moscow Pedagogical State University,central,,
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Moscow",central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,"Embassy of Slovakia, Moscow",central,403,10 mail.gov.sk.
 nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Moscow",central,301,0 .
@@ -301,6 +667,7 @@ netherlandsworldwide.nl,3,wikidata,Consulate General of the Netherlands in St. P
 norway.no,3,wikidata,"Embassy of Norway, Moscow",central,301,0 mx.domeneshop.no.
 osembassy.org,3,wikidata,"Embassy of South Ossetia, Moscow",central,301,10 mx.yandex.net.
 pss.crimea.ua,3,wikidata,Q4378720,,ConnectException,none
+rheumatolog.su,3,academia,VA Nasonova Scientific Research Institute of Rheumatology,central,,
 ru.ambafrance.org,3,wikidata,"Embassy of France, Moscow",central,301,none
 ru.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Moscow",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ru.china-embassy.org found.,none
 ru.mfa.lt,3,wikidata,"Embassy of Lithuania, Moscow",central,403,none
@@ -313,8 +680,11 @@ sankt-petersburg.diplo.de,3,wikidata,"Consulate General of Germany, St. Petersbu
 sobranie.info,3,wikidata,Legislative Assembly of Krasnoyarsk Krai,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mgw.sobranie.info.
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Moscow",central,301,none
 tmeccc.org,3,wikidata,Representative Office in Moscow for the Taipei-Moscow Economic and Cultural Coordination Commission,,ConnectException,none
+tsagi.com,3,academia,Central Aerohydrodynamic Institute,central,,
+uimech.org,3,academia,R.R. Mavliutov Institute of Mechanics of the Ufa Federal Research Centre,central,,
 ulanude.consul.mn,3,wikidata,"Consulate-General of Mongolia, Ulan-Ude",,200,none
 vamto.net,3,wikidata,Military Academy for Logistics,,200,none
+xn--80apgmbdfl.xn--p1ai,3,academia,Research Institute of Comprehensive Exploitation of Mineral Resources RAS,central,,
 ar.mil.ru,2,wikidata;wikidata;wikidata,Ministry of Defense of the Russian Federation,central,HttpConnectTimeoutException: HTTP connect timed out,none
 eng.mil.ru,2,wikidata;wikidata;wikidata,Ministry of Defense of the Russian Federation,central,HttpConnectTimeoutException: HTTP connect timed out,none
 es.mil.ru,2,wikidata;wikidata;wikidata,Ministry of Defense of the Russian Federation,central,HttpConnectTimeoutException: HTTP connect timed out,none

@@ -14,6 +14,7 @@ mwe.go.ug,7,wikidata;wikidata,Ministry of Water and Environment,central,200,10 m
 nema.go.ug,7,wikidata;wikidata,National Environment Management Authority of Uganda,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
 sti.go.ug,7,wikidata;wikidata,"Ministry of Science, Technology and Innovation",central,200,0 sti-go-ug.mail.protection.outlook.com.
 gou.go.ug,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+ubos.org,6,wikidata;academia,Uganda Bureau of Statistics,central,HttpConnectTimeoutException: HTTP connect timed out,0 ubos-org.mail.protection.outlook.com.; 5 mail.ubos.org.
 bou.or.ug,4,wikidata,Bank of Uganda,,200,0 bou-or-ug.mail.protection.outlook.com.
 caa.go.ug,4,wikidata,Civil Aviation Authority of Uganda,,200,10 mail.caa.go.ug.
 cmauganda.co.ug,4,wikidata,Capital Markets Authority,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
@@ -28,9 +29,11 @@ freezones.go.ug,4,wikidata,Uganda Free Zones Authority,,HttpConnectTimeoutExcept
 igg.go.ug,4,wikidata,Inspectorate of Government,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 igg-go-ug.mail.protection.outlook.com.
 ira.go.ug,4,wikidata,Insurance Regulatory Authority of Uganda,,200,0 mail.ira.go.ug.; 20 mail.ira.go.ug.
 kumi.go.ug,4,wikidata,Kumi District Local Government,,HttpConnectTimeoutException: HTTP connect timed out,0 _dc-mx.32ebc3a2a235.kumi.go.ug.
+mak.ac.ug,4,academia,Makerere University,central,,
 meaca.go.ug,4,wikidata,Ministry of East African Community Affairs,,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
 mglsd.go.ug,4,wikidata,"Ministry of Gender, Labour and Social Development (Uganda)",,200,10 mx2.umcs.go.ug.; 10 mta2.umcs.go.ug.; 10 mx1.umcs.go.ug.; 10 mta1.umcs.go.ug.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kampala",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mubs.ac.ug,4,academia,Makerere University Business School,central,,
 naro.go.ug,4,wikidata,National Agricultural Research Organisation,,200,0 naro-go-ug.mail.protection.outlook.com.
 nda.or.ug,4,wikidata,National Drug Authority,,HttpTimeoutException: request timed out,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 nfa.org.ug,4,wikidata,National Forestry Authority,,301,10 mail.nfa.org.ug.
@@ -59,7 +62,6 @@ norway.no,3,wikidata,"Embassy of Norway, Kampala",central,301,0 mx.domeneshop.no
 pakhc.or.ke,3,wikidata,"Honorary Consulate of Pakistan, Kampala",,200,none
 parliament.go.ug,3,wikidata;wikidata;wikidata,"Parliament of Uganda | Committee on Commissions, Statutory Authorities and State Enterprises",central,302,0 parliament-go-ug.mail.protection.outlook.com.
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Kampala",central,301,none
-ubos.org,3,wikidata,Uganda Bureau of Statistics,central,HttpConnectTimeoutException: HTTP connect timed out,0 ubos-org.mail.protection.outlook.com.; 5 mail.ubos.org.
 ug.ambafrance.org,3,wikidata,"Embassy of France, Kampala",central,301,none
 uganda.mid.ru,3,wikidata,embassy of Russia in Uganda,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 uganda.um.dk,3,wikidata,embassy of Denmark in Uganda,central,301,none

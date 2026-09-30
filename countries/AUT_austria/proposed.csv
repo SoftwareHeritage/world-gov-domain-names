@@ -1,4 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
+agraroekonomik.at,7,wikidata;academia,Federal Institute of Agricultural Economics,central,301,10 mail.agraroekonomik.at.
 bundesheer.at,7,wikidata;wikidata,Abwehramt | Heeresnachrichtenamt,,404,10 mx1.bundesheer.at.; 20 mx2.bundesheer.at.
 bundeskriminalamt.at,7,wikidata;wikidata,Q105324455 | Federal Criminal Police Office,,301,none
 geosphere.at,7,wikidata;wikidata,GeoSphere Austria | Central Institute for Meteorology and Geodynamics / GeoSphere Austria,,302,20 zaairon2.zamg.ac.at.; 10 zaairon1.zamg.ac.at.
@@ -9,8 +10,8 @@ vorarlberg.at,7,wikidata;wikidata;wikidata,Amt der Vorarlberger Landesregierung 
 wko.at,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Wirtschaftskammer Niederösterreich | Vorarlberg Economic Chamber | Carinthian Chamber of Commerce | Wirtschaftskammer Wien | Wirtschaftskammer Steiermark | Wirtschaftskammer Tirol | Austrian Federal Economic Chamber | Wirtschaftskammer Oberösterreich,,HttpConnectTimeoutException: HTTP connect timed out,70 mxb-00345b01.gslb.pphosted.com.; 70 mxa-00345b01.gslb.pphosted.com.
 euro.centre.org,6,wikidata;wikidata,European Centre for Social Welfare Policy and Research,,308,0 euro-centre-org.mail.protection.outlook.com.
 jesuiten.org,6,wikidata;wikidata,Jesuit Province of Central Europe,,301,10 jesuiten-org.mail.protection.outlook.com.
-agraroekonomik.at,4,wikidata,Federal Institute of Agricultural Economics,,301,10 mail.agraroekonomik.at.
 aiz.at,4,wikidata,Abwasserverband Achental-Inntal-Zillertal,,200,10 mx.mymailwall.com.
+akbild.ac.at,4,academia,Academy of Fine Arts Vienna,central,,
 algerische-botschaft.at,4,wikidata,"Embassy of Algeria, Vienna",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail.dz-embassy-at.org.
 avzirl.at,4,wikidata,Abwasserverband Zirl und Umgebung (ARA Zirl),,200,10 mx01.hornetsecurity.com.; 20 mx02.hornetsecurity.com.; 30 mx03.hornetsecurity.com.; 40 mx04.hornetsecurity.com.
 bda.at,4,wikidata,Bundesdenkmalamt,,301,10 mailx22.cna.at.; 10 mailx23.cna.at.; 10 mailx21.cna.at.; 10 mailx20.cna.at.
@@ -18,11 +19,13 @@ becs.mfa.gov.hu,4,wikidata,Embassy of Hungary in Austria,central,SSLHandshakeExc
 bgld-landtag.at,4,wikidata,Landtag of Burgenland,central-1,301,11 mail.bgld-landtag.at.; 10 barracuda.bgld-landtag.at.
 bh-botschaft.at,4,wikidata,embassy of Bosnia and Herzegovina in Austria,central,200,100 mxlb.ispgateway.de.
 biz-up.at,4,wikidata,Business Upper Austria – OÖ Wirtschaftsagentur,,301,10 bizup-at0i.mail.protection.outlook.com.
+boku.ac.at,4,academia,"University of Natural Resources and Life Sciences, Vienna",central,,
 bundesforste.at,4,wikidata,Austrian State Forestry Commission,,301,0 bundesforste-at.mail.protection.outlook.com.
 bundesgaerten.at,4,wikidata,Österreichische Bundesgärten,,301,10 mx.mymailwall.com.; 20 exchange.gartenbau.at.
 bupp.at,4,wikidata,Q98446472,,301,10 mail.bupp.at.
 burghauptmannschaft.at,4,wikidata,Burghauptmannschaft,,301,10 smtp1.wirtschaftsministerium.at.; 20 smtp2.wirtschaftsministerium.at.
 chinaembassy.at,4,wikidata,"Embassy of the People's Republic of China, Vienna",central,ConnectException,none
+dieangewandte.at,4,academia,University of Applied Arts Vienna,central,,
 e-control.at,4,wikidata,E-Control,,302,15 mail2.e-control.at.; 10 mail.e-control.at.
 egyptembassyvienna.at,4,wikidata,embassy of Egypt in Austria,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching egyptembassyvienna.at found.,10 mx1.a1.net.
 ehg-online.at,4,wikidata,Q24574312,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.jimdo.com.; 20 mx2.jimdo.com.
@@ -53,9 +56,15 @@ forwit.at,4,wikidata,"Austrian Council for Sciences, Technology, and Innovation"
 fw-rankweil.at,4,wikidata,Firefighter,,200,10 fwrankweil-at0e.mail.protection.outlook.com.
 geologie.ac.at,4,wikidata,Federal Geological Office,,ConnectException,20 mx2.geosphere.at.; 10 mx1.geosphere.at.
 ghanaembassy.at,4,wikidata,embassy of Ghana in Austria,central,200,5 mx1.hostinger.com.; 10 mx2.hostinger.com.
+gmi.oeaw.ac.at,4,academia,Gregor Mendel Institute,central,,
 goeg.at,4,wikidata,Health Austria,,200,10 goeg-at.mail.eo.outlook.com.
 hk-schweiz.at,4,wikidata,Chamber of Commerce Switzerland-Austria-Liechtenstein,,301,10 mx01.hornetsecurity.com.; 20 mx02.hornetsecurity.com.; 30 mx03.hornetsecurity.com.; 40 mx04.hornetsecurity.com.
+imba.oeaw.ac.at,4,academia,Institute of Molecular Biotechnology,central,,
 innsbruck.mfa.gov.hu,4,wikidata,"Consulate General of Hungary, Innsbruck",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 maila.innsbruck.mfa.gov.hu.; 10 mailb.innsbruck.mfa.gov.hu.
+iqoqi-vienna.at,4,academia,Institute for Quantum Optics and Quantum Information Vienna,central,,
+iqoqi.at,4,academia,Institute for Quantum Optics and Quantum Information,central,,
+it-u.at,4,academia,ITU – Interdisciplinary Transformation University Austria,central,,
+iwf.oeaw.ac.at,4,academia,Institut für Weltraumforschung,central,,
 j1dev.agrarforschung.at,4,wikidata,Q109654118,,301,none
 jordanembassy.at,4,wikidata,embassy of Jordan in Austria,central,307,0 jordanembassy-at.mail.protection.outlook.com.
 kaerntner-linien.at,4,wikidata,Kärntner Linien,,301,10 kaerntnerlinien-at02c.mail.protection.outlook.com.
@@ -64,6 +73,8 @@ kommaustria.at,4,wikidata,Kommunikationsbehörde Austria,central,301,0 kommaustr
 kuwaitembassy.at,4,wikidata,embassy of Kuwait in Austria,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 landtag.steiermark.at,4,wikidata,Landtag of Styria,central-1,200,10 mail1.landtag.steiermark.at.; 10 mail2.landtag.steiermark.at.
 lrh-ktn.at,4,wikidata,Q98815341,central-1,307,10 mail2.lrh-ktn.at.; 0 mail.lrh-ktn.at.
+mdw.ac.at,4,academia,University of Music and Performing Arts Vienna,central,,
+meduniwien.ac.at,4,academia,Medical University of Vienna,central,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Vienna",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 myanmarembvienna.at,4,wikidata,"embassy of Myanmar, Vienna",central,200,10 mxpool.de2.hostedoffice.ag.
 noegus.at,4,wikidata,Niederösterreichischer Gesundheits- und Sozialfond,,301,10 mail1.noel.gv.at.; 10 mail2.noel.gv.at.
@@ -77,11 +88,14 @@ palestinemission.at,4,wikidata,General Delegation of Palestine in Austria,,301,1
 patentamt.at,4,wikidata,Österreichisches Patentamt,,301,10 patentamt-at.mail.protection.outlook.com.
 polnisches-institut.at,4,wikidata,Polish Institute in Vienna,,301,none
 raumberg-gumpenstein.at,4,wikidata,"Raumberg-Gumpenstein, Research & Development",,200,0 raumberggumpenstein-at02b.mail.protection.outlook.com.
+ricam.oeaw.ac.at,4,academia,Johann Radon Institute for Computational and Applied Mathematics,central,,
 salzburg-verkehr.at,4,wikidata,Salzburger Verkehrsverbund,,200,0 salzburgverkehr-at02b.mail.eo.outlook.com.
 senderkataster.rtr.at,4,wikidata,Kommunikationsbehörde Austria,central,200,none
 srilankaembassy.at,4,wikidata,embassy of Sri Lanka in Austria,central,302,10 mx1.bon.at.
 statistik.at,4,wikidata,Statistics Austria,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 thaiembassy.at,4,wikidata,embassy of Thailand in Austria,central,200,10 mail.thaiembassy.at.
+tuwien.at,4,academia,TU Wien,central,,
+uibk.ac.at,4,academia,University of Innsbruck,central,,
 unesco.at,4,wikidata,Austrian Commission for UNESCO,,301,10 clean4.emailsecurity.at.
 verbundlinie.at,4,wikidata,Verkehrsverbund Steiermark,,301,5 mail.verbundlinie.at.
 vmobil.at,4,wikidata,Verkehrsverbund Vorarlberg,,301,0 vmobil-at.mail.protection.outlook.com.
@@ -89,6 +103,7 @@ vor.at,4,wikidata,Verkehrsverbund Ost-Region,,301,0 vor-at.mail.protection.outlo
 vvt.at,4,wikidata,Verkehrsverbund Tirol,,301,5 mail.vvt.at.
 weinobstklosterneuburg.at,4,wikidata,Höhere Bundeslehranstalt und Bundesamt für Wein- und Obstbau,,301,none
 wkv.at,4,wikidata,Vorarlberg Economic Chamber,,302,70 mxb-00345b01.gslb.pphosted.com.; 70 mxa-00345b01.gslb.pphosted.com.
+wu.ac.at,4,academia,Vienna University of Economics and Business,central,,
 afghanistan-vienna.org,3,wikidata,"Embassy of Afghanistan, Vienna",central,301,none
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Vienna",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
 at.ambafrance.org,3,wikidata,"Embassy of France, Vienna",central,301,none
@@ -98,10 +113,12 @@ austria.mid.ru,3,wikidata,"Embassy of Russia, Vienna",central,SSLHandshakeExcept
 austria.representation.ec.europa.eu,3,wikidata,European Commission Representation in Austria,,302,none
 dunaj.veleposlanistvo.si,3,wikidata,embassy of Slovenia in Austria,central,SSLHandshakeException: Remote host terminated the handshake,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to the International Organisations in Vienna,central-1,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ersa.org,3,academia,European Regional Science Association,central-1,,
 fgoe.org,3,wikidata,Healthy Austria Fund,,200,10 fgoe-org.mail.eo.outlook.com.
 finlandabroad.fi,3,wikidata,embassy of Finland in Austria,central,301,10 mail.valtori.fi.
 fw-duenserberg.jimdofree.com,3,wikidata,firefighter Dünserberg,,200,none
 hesek.net,3,wikidata,Freiwillige Feuerwehr Rabensburg,,ConnectException,10 mail.hesek.net.
+ictqt.ug.edu.pl,3,academia,International Centre for Theory of Quantum Technologies,central,,
 kobersdorf.info,3,wikidata,"Heimatmuseum, ehem. Zollhaus, Kobersdorf",,ConnectException,10 mail.kobersdorf.info.
 lsgi.eu,3,wikidata,Life Science Governance Institute,,403,none
 me-austria.eu,3,wikidata,"Embassy of Montenegro, Vienna",central,ConnectException,none
@@ -127,3 +144,4 @@ wien.diplo.de,3,wikidata,"Embassy of Germany, Vienna",central,200,10 mx1.bund.de
 wien.liechtenstein.li,3,wikidata,"Embassy of Liechtenstein, Vienna",central,301,none
 entwicklung.at,2,wikidata;wikidata;wikidata,Austrian Development Cooperation | Austrian Development Agency,,301,none
 ffg.at,2,wikidata;wikidata;wikidata;wikidata,Austrian Research Promotion Agency | Austrian Space Agency,,308,5 email.ffg.at.
+oeaw.ac.at,2,academia;academia;academia;academia;academia;academia;academia,Aithyra Institute | Austrian Archaeological Institute | Austrian Centre for Digital Humanities | Institute of Habsburg and Balkan Studies | Institute of Technology Assessment | Stefan Meyer Institute for Subatomic Physics | Vienna Institute of Demography,central,,

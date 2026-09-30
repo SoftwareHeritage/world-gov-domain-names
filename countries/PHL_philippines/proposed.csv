@@ -1,22 +1,55 @@
 hostname,score,sources,label,level,http_status,mx
 recoletos.ph,7,wikidata;wikidata,Province of Saint Ezequiél Moreno,,HttpTimeoutException: request timed out,1 smtp.google.com.
+antiquespride.edu.ph,4,academia,University of Antique,central,,
+basc.edu.ph,4,academia,Bulacan State Agricultural University,central,,
+bassc.edu.ph,4,academia,Basilan State University,central,,
+batstate-u.edu.ph,4,academia,Batangas State University,central,,
+bsu.edu.ph,4,academia,Benguet State University,central,,
 chamberphilislands.ph,4,wikidata,Chamber of Commerce of the Philippine Islands,,523,0 _dc-mx.e691bf0e10e1.chamberphilislands.ph.
+cnu.edu.ph,4,academia,Cebu Normal University,central,,
+ctu.edu.ph,4,academia,Cebu Technological University,central,,
 depedcalabarzon.ph,4,wikidata,Department of Education Regional Office IV-A,central-1,200,none
 depedmimaroparegion.ph,4,wikidata,Department of Education Mimaropa Regional Office,central-1,200,0 depedmimaroparegion.ph.
 depedncr.com.ph,4,wikidata,Department of Education National Capital Regional Office,central-1,301,none
 depedroxi.ph,4,wikidata,Department of Education Regional Office XI,central-1,200,0 mail.depedroxi.ph.
+dhvtsu.edu.ph,4,academia,Pampanga State University,central,,
+dipolog.jrmsu.edu.ph,4,academia,Jose Rizal Memorial State University - Dipolog Campus,central,,
 divephilippines.com.ph,4,wikidata,Philippine Commission on Sports Scuba Diving,,200,0 mail.divephilippines.com.ph.
 ias.org.ph,4,wikidata,Internal Affairs Service,,302,none
+isatu.edu.ph,4,academia,Iloilo Science and Technology University,central,,
+ispsc.edu.ph,4,academia,University of Ilocos Philippines,central,,
+jrmsu.edu.ph,4,academia,Jose Rizal Memorial State University,central,,
+katipunan.jrmsu.edu.ph,4,academia,Jose Rizal Memorial State University - Katipunan Campus,central,,
+ksu.edu.ph,4,academia,Kalinga State University,central,,
+lnu.edu.ph,4,academia,Leyte Normal University,central,,
 malikhaingpinoy.ph,4,wikidata,Philippine Creative Industries Development Council,,301,10 mail.malikhaingpinoy.ph.
 manila.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Manila",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Manila",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+msusnd.edu.ph,4,academia,Mindanao State University–Sultan Naga Dimaporo,central,,
+naap.edu.ph,4,academia,National Aviation Academy of the Philippines,central,,
 newnaia.com.ph,4,wikidata,New NAIA Infrastructure Corporation,,200,0 newnaia-com-ph.mail.protection.outlook.com.
+norsu.edu.ph,4,academia,Negros Oriental State University,central,,
 pagcor.ph,4,wikidata,Philippine Amusement and Gaming Corporation,,301,0 pagcor-ph.mail.protection.outlook.com.; 30 mail.pagcor.ph.; 20 _dc-mx.5e2b8558fc72.pagcor.ph.
 palauembassymanila.ph,4,wikidata,embassy of Palau in the Philippines,central,302,none
 pmdc.com.ph,4,wikidata,Philippine Mining Development Corporation,,403,1 alltheemails.com.
 ppa.com.ph,4,wikidata,Philippine Ports Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 ppa-com-ph.mail.protection.outlook.com.
+pup.edu.ph,4,academia,Polytechnic University of the Philippines,central,,
+scsc.edu.ph,4,academia,South Cotabato State College,central,,
 seafdec.org.ph,4,wikidata,Southeast Asian Fisheries Development Center Aquaculture Department,,301,10 aspmx.l.google.com.; 30 aspmx4.googlemail.com.; 30 aspmx5.googlemail.com.; 20 alt1.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx3.googlemail.com.
+siocon.jrmsu.edu.ph,4,academia,Jose Rizal Memorial State University - Siocon Campus,central,,
+spamast.edu.ph,4,academia,Southern Philippines Agri-Business and Marine and Aquatic School of Technology,central,,
 thaiembassymnl.ph,4,wikidata,"embassy of Thailand, Manila",,301,10 mx2.hostinger.in.th.; 5 mx1.hostinger.in.th.
+tup.edu.ph,4,academia,Technological University of the Philippines,central,,
+uep.edu.ph,4,academia,University of Eastern Philippines,central,,
+up.edu.ph,4,academia,University of the Philippines,central,,
+upb.edu.ph,4,academia,University of the Philippines Baguio,central,,
+upd.edu.ph,4,academia,University of the Philippines Diliman,central,,
+uplb.edu.ph,4,academia,University of the Philippines Los Baños,central,,
+upm.edu.ph,4,academia,University of the Philippines Manila,central,,
+upou.edu.ph,4,academia,University of the Philippines Open University,central,,
+upv.edu.ph,4,academia,University of the Philippines Visayas,central,,
+wmsu.edu.ph,4,academia,Western Mindanao State University,central,,
+zppsu.edu.ph,4,academia,Zamboanga Peninsula Polytechnic State University,central,,
 asale.org,3,wikidata,Philippine Academy of the Spanish Language,,301,10 asale-org.mail.eo.outlook.com.
 depedro9.info,3,wikidata,Department of Education Regional Office IX,central-1,200,0 _dc-mx.8a742bbf68e0.depedro9.info.
 depedroxii.org,3,wikidata,Department of Education Regional Office XII,central-1,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
@@ -39,3 +72,4 @@ swedenabroad.se,3,wikidata,"Embassy of Sweden, Manila",central,301,none
 web.roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in the Philippines,,HttpConnectTimeoutException: HTTP connect timed out,none
 wpro.who.int,3,wikidata,World Health Organization (Philippines),,ConnectException,none
 holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none
+thepamantasan.com,0,academia,University of the City of Manila,central,,

@@ -1,7 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
+eki.ee,7,wikidata;academia,Institute of the Estonian Language,central,200,10 eki-ee.mail.protection.outlook.com.
 fi.ee,7,wikidata;wikidata,Financial Supervision Authority,central,301,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
 politsei.ee,7,wikidata;wikidata,Estonian Police | Police and Border Guard Board,,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
 riigikantselei.ee,7,wikidata;linkgraph,Government Office,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+stat.ee,7,wikidata;academia,Statistics Estonia,central,301,10 mail1.rit.ee.; 10 mail3.rit.ee.
 riigikohus.ee,6,wikidata,Supreme Court of Estonia,central,302,10 mx.riigikohus.ee.
 riigiteataja.ee,6,linkgraph,Linked from 10 public-sector domains,,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
 aki.ee,4,wikidata,Estonian Data Protection Inspectorate,central,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
@@ -11,17 +13,20 @@ e-tervis.ee,4,wikidata,Estonian E-Health Foundation,,ConnectException,none
 eas.ee,4,wikidata,Estonian Space Office,,301,0 eas-ee.mail.protection.outlook.com.
 eestipank.ee,4,wikidata,Bank of Estonia,,307,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
 egt.ee,4,wikidata,Geological Survey of Estonia,,200,5 mx4.envir.ee.; 5 mx5.envir.ee.
-eki.ee,4,wikidata,Institute of the Estonian Language,,200,10 eki-ee.mail.protection.outlook.com.
 emta.ee,4,wikidata,Estonian Tax and Customs Board,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
 epa.ee,4,wikidata,Estonian Patent Office,central,302,10 mail1.rit.ee.; 10 mail3.rit.ee.
 etag.ee,4,wikidata,Estonian Research Agency,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+etki.ee,4,academia,Centre of Estonian Rural Research and Knowledge,central,,
 hitsa.ee,4,wikidata,Information Technology Foundation for Education,,ConnectException,none
 just.ee,4,linkgraph,Linked from 4 public-sector domains,,301,10 mail3.rit.ee.; 10 mail1.rit.ee.
 kapo.ee,4,wikidata,Estonian Internal Security Service,,200,5 mx1.kapo.ee.
+kbfi.ee,4,academia,National Institute of Chemical Physics and Biophysics,central,,
 keeleamet.ee,4,wikidata,Language Board,,302,10 mail3.rit.ee.; 20 mail1.rit.ee.
 keskkonnaagentuur.ee,4,wikidata,Environment Agency,,200,none
 keskkonnaamet.ee,4,wikidata,Environmental Board,,200,10 mx4.envir.ee.; 10 mx5.envir.ee.
+kirmus.ee,4,academia,Estonian Literary Museum,central,,
 kliimaministeerium.ee,4,linkgraph,Linked from 4 public-sector domains,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+kosmos.ut.ee,4,academia,Tartu Observatory,central,,
 maaamet.ee,4,wikidata,Land and Spatial Development Board,,302,none
 muinsuskaitseamet.ee,4,wikidata,Estonian National Heritage Board,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
 nlib.ee,4,wikidata,National Library of Estonia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nlib.ee found.,0 nlib-ee.mail.protection.outlook.com.
@@ -32,14 +37,17 @@ rescue.ee,4,wikidata,Estonian Rescue Services Agency,,301,20 mx2.smit.ee.; 10 mx
 ria.ee,4,wikidata,Information System Authority,,200,10 mx1.ria.ee.; 10 mx2.ria.ee.
 rmk.ee,4,wikidata,State Forest Management Centre,,200,10 rmk-ee.mail.protection.outlook.com.
 smit.ee,4,wikidata,IT and Development Centre of the Ministry of the Interior,,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
-stat.ee,4,wikidata,Statistics Estonia,central,301,10 mail1.rit.ee.; 10 mail3.rit.ee.
+tai.ee,4,academia,National Institute for Health Development,central,,
 tallinn.mfa.gov.hu,4,wikidata,"Hungarian embassy, Tallinn",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ti.ee,4,wikidata,Labour Inspectorate,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+tlu.ee,4,academia,Tallinn University,central,,
 transpordiamet.ee,4,wikidata,Estonian Transport Administration,,200,10 mx1.transpordiamet.ee.
 ttja.ee,4,wikidata,Consumer Protection and Technical Regulatory Authority,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
 unesco.ee,4,wikidata,Estonian National Commission for UNESCO,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+ut.ee,4,academia,University of Tartu,central,,
 valisluureamet.ee,4,wikidata,Estonian Foreign Intelligence Service,,200,10 m87.valisluureamet.ee.
 vangla.ee,4,wikidata,Ministry of Justice: Department of Prisons (EE),,301,none
+wi.ee,4,academia,Võro Institute,central,,
 ee.ambafrance.org,3,wikidata,Embassy of France in Tallinn,central,301,none
 ee.mfa.lt,3,wikidata,Lithuanian Embassy in Tallinn,central,403,none
 estland.um.dk,3,wikidata,embassy of Denmark in Tallinn,central,301,none

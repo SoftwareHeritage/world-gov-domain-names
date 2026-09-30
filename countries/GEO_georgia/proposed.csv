@@ -1,19 +1,25 @@
 hostname,score,sources,label,level,http_status,mx
 parliament.ge,8,wikidata;wikidata,Parliament of Georgia,central,200,10 mail01.parliament.ge.
+geostat.ge,7,wikidata;academia,National Statistics Office of Georgia,central,302,10 mail.geostat.ge.
 police.ge,7,wikidata;wikidata,Ministry of Internal Affairs | Special Tasks Department,central,200,10 mail.police.ge.
 sca.ge,7,wikidata;wikidata,Supreme Council of the Autonomous Republic of Adjara,central-1,200,10 mail.sca.ge.; 0 mail.sca.ge.
 supremecourt.ge,6,wikidata,Supreme Court of Georgia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching supremecourt.ge found.,1 mx.grena.ge.
 aidscenter.ge,4,wikidata,AIDS and Clinical Immunology Research Center,,200,10 aspmx.l.google.com.
+art.edu.ge,4,academia,Tbilisi State Academy of Arts,central,,
 cesko.ge,4,wikidata,Election Administration of Georgia,,403,none
 comcom.ge,4,wikidata,Georgian National Communications Commission,,301,0 comcom-ge.mail.protection.outlook.com.
-geostat.ge,4,wikidata,National Statistics Office of Georgia,,302,10 mail.geostat.ge.
+gch-centre.ge,4,academia,The G. Chubinashvili National Research Centre for Georgian Art History and Heritage Preservation,central,,
 geostm.ge,4,wikidata,Georgian National Agency for Standards and Metrology,,ConnectException,0 geostm.ge.
 heraldika.ge,4,wikidata,State Council of Heraldry,,200,10 mail.heraldika.gov.ge.
 heritagesites.ge,4,wikidata,National Agency for Cultural Heritage Preservation of Georgia,,302,1 smtp.google.com.
+nbgg.ge,4,academia,National Botanical Garden of Georgia,central,,
 ncdc.ge,4,wikidata,National Center for Disease Control and Public Health,,200,10 mx1.moh.gov.ge.
+ngu.edu.ge,4,academia,New Georgian University,central,,
 rustaveli.org.ge,4,wikidata,Shota Rustaveli National Science Foundation,,200,0 rustaveli-org-ge.mail.protection.outlook.com.
 sciencelib.ge,4,wikidata,National Science Library,,200,10 ghs.l.google.com.; 10 ghs.google.com.; 1 aspmx.l.google.com.
+tafu.edu.ge,4,academia,Shota Rustaveli Theatre and Film University,central,,
 tbiliszi.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tbilisi",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tsu.ge,4,academia,Tbilisi State University,central,,
 unesco.ge,4,wikidata,Georgian National Commission for UNESCO,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching unesco.ge found.,0 unesco.ge.
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Georgia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 ge.ambafrance.org,3,wikidata,"Embassy of France, Tbilisi",central,301,none

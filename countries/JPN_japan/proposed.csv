@@ -633,55 +633,55 @@ police.pref.miyagi.jp,7,wikidata;wikidata;wikidata,Miyagi Prefectural Police | M
 police.pref.okinawa.jp,7,wikidata;wikidata;wikidata,Okinawa Prefectural Public Safety Commission | Okinawa Prefectural Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 police.pref.wakayama.lg.jp,7,wikidata;wikidata;wikidata,Wakayama Prefectural Public Safety Commission | Wakayama Prefectural Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 police.pref.yamaguchi.lg.jp,7,wikidata;wikidata,Yamaguchi Prefectual Police Safety Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
-pref.aichi.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Aichi prefectural government | Aichi Prefecture | Aichi Prefectural Police | Aichi Prefectural Public Safety Commission | Aichi Prefectural Assembly,central-1,ConnectException,10 primary.ap.email.fireeyecloud.com.; 40 alt3.ap.email.fireeyecloud.com.; 30 alt2.ap.email.fireeyecloud.com.; 20 alt1.ap.email.fireeyecloud.com.
+pref.aichi.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Aichi prefectural government | Aichi Prefecture | Aichi Prefectural Police | Aichi Prefectural Public Safety Commission | Aichi Prefectural Assembly | Aichi Environmental Research Center & Aichi Prefectural Institute of Public Health,central-1,ConnectException,10 primary.ap.email.fireeyecloud.com.; 40 alt3.ap.email.fireeyecloud.com.; 30 alt2.ap.email.fireeyecloud.com.; 20 alt1.ap.email.fireeyecloud.com.
 pref.akita.lg.jp,7,wikidata;wikidata,Akita Prefecture,central-1,ConnectException,none
-pref.aomori.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Aomori Prefectural Public Safety Commission | Aomori Prefectural Assembly | Aomori Prefecture,central-1,ConnectException,none
-pref.chiba.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Chiba Prefectural Government | Chiba Prefecture | Chiba Prefectural Assembly | Chiba Institute of Health,central-1,ConnectException,20 mx2.securitycloud.pref.chiba.lg.jp.
+pref.aomori.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Aomori Prefectural Public Safety Commission | Aomori Prefectural Assembly | Aomori Prefecture | Aomori Prefectural Institute of Public Health and Environment,central-1,ConnectException,none
+pref.chiba.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Chiba Prefectural Government | Chiba Prefecture | Chiba Prefectural Assembly | Chiba Institute of Health,central-1,ConnectException,20 mx2.securitycloud.pref.chiba.lg.jp.
 pref.ehime.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ehime prefectural government | Ehime Prefecture | Ehime Prefectural Assembly | Ehime Prefectural Nuclear Safety Center,central-1,ConnectException,10 mx2.sc-ehime.lg.jp.
 pref.fks.ed.jp,7,wikidata;wikidata,Fukushima Prefectural Board of Education,,ConnectException,none
 pref.fukui.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Fukui Prefectural Police | Fukui Prefectural Public Safety Commission | Fukui Prefectural Assembly | Fukui Prefecture,central-1,ConnectException,none
 pref.fukuoka.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Fukuoka Prefecture | Fukuoka prefectural government | Fukuoka Prefectural Board of Education | Q17210164,central-1,ConnectException,none
-pref.fukushima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata,Fukushima Prefectural Assembly | Fukushima Prefecture,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pref.fukushima.lg.jp found.,10 sc07-mail01.sbt-isc.jp.
+pref.fukushima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;academia,Fukushima Prefectural Assembly | Fukushima Prefecture | Fukushima Institute of Public Health,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pref.fukushima.lg.jp found.,10 sc07-mail01.sbt-isc.jp.
 pref.gifu.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Gifu Prefecture | Gifu Prefectural Assembly | Gifu Prefectural Board of Education | Gifu Police,central-1,ConnectException,none
-pref.gunma.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Gunma Prefecture | Gunma Prefectural Board of Education | Gunma Prefectural Assembly | Gunma prefectural government,central-1,ConnectException,none
+pref.gunma.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Gunma Prefecture | Gunma Prefectural Board of Education | Gunma Prefectural Assembly | Gunma prefectural government | Gunma Prefectural Institute of Public Health and Environmental Sciences,central-1,ConnectException,none
 pref.hiroshima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Hiroshima Prefectural Assembly | Hiroshima Prefectural Public Safety Commission | Hiroshima Prefecture | Hiroshima Prefectural Archives | Hiroshima Prefectural Police,central-1,ConnectException,10 hscmail.pref.hiroshima.lg.jp.
 pref.hokkaido.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata,Hokkaido Government | Hokkaidō | Hokkaido,central-1,ConnectException,none
-pref.ibaraki.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ibaraki Prefecture | Ibaraki Prefectural Police | Ibaraki Prefectural Assembly,central-1,ConnectException,10 ibscmlgt-100.pref.ibaraki.jp.
-pref.ishikawa.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ishikawa Prefecture | Ishikawa Prefectural Assembly | Ishikawa prefectural government,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-pref.iwate.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Iwate Prefecture | Iwate Prefectural Assembly | Iwate Prefectural Police | Iwate prefectural government,central-1,ConnectException,none
+pref.ibaraki.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Ibaraki Prefecture | Ibaraki Prefectural Police | Ibaraki Prefectural Assembly | Ibaraki Prefectural Institute of Public Health,central-1,ConnectException,10 ibscmlgt-100.pref.ibaraki.jp.
+pref.ishikawa.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Ishikawa Prefecture | Ishikawa Prefectural Assembly | Ishikawa prefectural government | Ishikawa Prefectural Institute of Public Health and Environmental Science,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+pref.iwate.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Iwate Prefecture | Iwate Prefectural Assembly | Iwate Prefectural Police | Iwate prefectural government | Research Institute for Environmental Sciences and Public Health of Iwate Prefecture,central-1,ConnectException,none
 pref.kagawa.jp,7,wikidata;wikidata,Kagawa Prefectural Board of Education,,ConnectException,none
 pref.kagawa.lg.jp,7,wikidata;wikidata;wikidata,Kagawa Prefecture | Kagawa Prefectural Assembly,central-1,ConnectException,none
 pref.kagoshima.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ōshima Subprefecture | Kagoshima prefectural government | Kagoshima Prefectural Assembly | Kagoshima Prefectural Police | Kagoshima Prefecture | Kagoshima prefectural public safety commission,central-1,ConnectException,none
 pref.kanagawa.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Kanagawa Prefecture Natural Environment Conservation Center | Kanagawa Prefectural Youth Center | Kanagawa Prefecture Policy Bureau | Kanagawa Prefectural Government | Kanagawa Gender Equality Center | Kanagawa Prefectural Assembly | Kanagawa Prefecture,central-1,ConnectException,none
 pref.kochi.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Kōchi Prefecture | Sanitary and Environmental Research Institute of Kochi Prefecture,central-1,ConnectException,none
-pref.kumamoto.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Kumamoto Prefecture | Kumamoto Prefectural Police | Kumamoto prefectural government | Kumamoto Prefectural Assembly,central-1,ConnectException,none
-pref.kyoto.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Kyoto Prefectural Public Safety Commission | Kyōto prefectural government | Kyoto Prefectural Police | Kyōto Prefectural Assembly | Kyoto Prefecture,central-1,ConnectException,none
+pref.kumamoto.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Kumamoto Prefecture | Kumamoto Prefectural Police | Kumamoto prefectural government | Kumamoto Prefectural Assembly | Kumamoto Prefectural Institute of Public-Health and Environmental Science,central-1,ConnectException,none
+pref.kyoto.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Kyoto Prefectural Public Safety Commission | Kyōto prefectural government | Kyoto Prefectural Police | Kyōto Prefectural Assembly | Kyoto Prefecture | Kyoto Prefectural Institute of Public Health and Environment,central-1,ConnectException,none
 pref.mie.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata,Mie Prefecture | Mie Prefecture Board of Education | Mie Prefectural Assembly,central-1,ConnectException,none
 pref.miyagi.jp,7,wikidata;wikidata;wikidata,Miyagi Prefecture | Miyagi Prefectural Assembly,central-1,ConnectException,10 sc04-mail01.sbt-isc.jp.
-pref.miyazaki.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Miyazaki Prefecture | Miyazaki Prefectural Government | Miyazaki Prefectural Assembly | Miyazaki Prefectural Police,central-1,ConnectException,10 msc2-osk-ml.miyazakisc.miyazaki.jp.
+pref.miyazaki.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Miyazaki Prefecture | Miyazaki Prefectural Government | Miyazaki Prefectural Assembly | Miyazaki Prefectural Police | Miyazaki Prefectural Institute for Public Health and Environment,central-1,ConnectException,10 msc2-osk-ml.miyazakisc.miyazaki.jp.
 pref.nagano.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Nagano Prefectural Police | Nagano prefectural public safety commission | Nagano Prefectural Assembly | Nagano Prefecture | Nagano Prefectural Board of Education,central-1,ConnectException,none
 pref.nagasaki.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Nagasaki Prefecture | Nagasaki Prefectural Assembly,central-1,ConnectException,none
 pref.nara.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Nara prefectural government | Nara Prefectural Board of Education | Nara Prefectural Assembly | Nara Prefecture,central-1,ConnectException,none
 pref.niigata.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Niigata Prefecture | Niigata Prefectural Board of Education | Niigata prefectural government | Niigata Prefectural Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 pref.oita.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ōita Prefectural Government | Ōita Prefecture | Ōita Prefectural Assembly | Oita Prefectural Police,central-1,200,none
-pref.okayama.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Okayama Prefectural Police | Okayama Prefecture | Okayama Prefectural Assembly | Okayama Prefectural Public Safety Commission,central-1,ConnectException,none
-pref.okinawa.jp,7,wikidata;wikidata;wikidata,Okinawa Prefectural Board of Education | Okinawa Prefectural Assembly,central-1,ConnectException,none
+pref.okayama.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Okayama Prefectural Police | Okayama Prefecture | Okayama Prefectural Assembly | Okayama Prefectural Public Safety Commission | Okayama Prefectural Institute for Environmental Science and Public Health,central-1,ConnectException,none
+pref.okinawa.jp,7,wikidata;wikidata;wikidata;academia,Okinawa Prefectural Board of Education | Okinawa Prefectural Assembly | Okinawa Prefectural Institute of Health and Environment,central-1,ConnectException,none
 pref.okinawa.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Okinawa Prefecture | Okinawa Prefectural Government,central-1,ConnectException,none
 pref.osaka.jp,7,wikidata;wikidata,Osaka Prefectural Board of Education,,ConnectException,none
 pref.osaka.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ōsaka Prefectural Government | Osaka Ports and Harbors Bureau | Osaka Prefectural Assembly | Q114592811 | Osaka Prefecture,central-1,ConnectException,none
-pref.saga.lg.jp,7,wikidata;wikidata;wikidata,Saga Prefecture | Saga Prefectural Assembly,central-1,ConnectException,10 sc41-mail01.sbt-isc.jp.
+pref.saga.lg.jp,7,wikidata;wikidata;wikidata;academia,Saga Prefecture | Saga Prefectural Assembly | Saga Prefectural Institute of Public Health and Pharmaceutical Research,central-1,ConnectException,10 sc41-mail01.sbt-isc.jp.
 pref.saitama.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Saitama Prefecture | Saitama Board of Education | Saitama Prefectural Assembly | Saitama Prefectural Public Safety Commission,central-1,ConnectException,none
 pref.shiga.lg.jp,7,wikidata;wikidata;wikidata,Shiga Prefectural Police | Shiga Prefecture,central-1,ConnectException,10 ssc2-osk-mllim.shigasc.jp.
 pref.shimane.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Shimane prefectural government | Shimane Prefecture | Shimane-ken Kyōiku Iinkai | Shimane Prefectural Police | Shimane Prefectural Public Safety Commission | Shimane Prefectural Assembly | Shimane Prefectural Agriculture And Livestock Industry Promotion Division | Shimane Prefectural Nuclear Power Environmental Center,central-1,ConnectException,none
-pref.shizuoka.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Shizuoka Prefectural Police | Shizuoka Prefectural Board of Education | Shizuoka Prefectural Government | Shizuoka Prefecture | Shizuoka Prefectural Assembly,central-1,ConnectException,none
+pref.shizuoka.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Shizuoka Prefectural Police | Shizuoka Prefectural Board of Education | Shizuoka Prefectural Government | Shizuoka Prefecture | Shizuoka Prefectural Assembly | Shizuoka Prefecture Institute of Environmental Health Sciences,central-1,ConnectException,none
 pref.tochigi.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Tochigi Prefecture | Tochigi prefectural government | Tochigi Prefectural Assembly | Tochigi Prefectural Police,central-1,ConnectException,10 sc09-mail01.sbt-isc.jp.
-pref.tokushima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Tokushima Prefecture | Q11489673 | Tokushima Prefectural Public Health, Pharmaceutical and Environmental Sciences Center",central-1,301,none
+pref.tokushima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,"Tokushima Prefecture | Q11489673 | Tokushima Prefectural Public Health, Pharmaceutical and Environmental Sciences Center",central-1,301,none
 pref.tottori.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Tottori prefectural government | Tottori Prefectural Assembly | Tottori Prefecture | Tottori Prefectural Police | Tottori Prefectural Education Center,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-pref.toyama.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata,Toyama prefectural government | Toyama Prefecture | Toyama Prefectural Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+pref.toyama.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;academia,Toyama prefectural government | Toyama Prefecture | Toyama Prefectural Assembly | Toyama Institute of Health,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 pref.wakayama.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Wakayama Prefecture | Wakayama Prefectural Assembly | Wakayama Prefectural Board of Education | Q121097898 | Wakayama Department of Agriculture, Forestry and Fisheries",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 kilink.pref.wakayama.lg.jp.; 20 kuroshio.pref.wakayama.lg.jp.
 pref.yamagata.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Yamagata prefectural government | Shōnai Subprefecture | Yamagata Prefecture | Yamagata Prefectural Assembly | Yamagata Prefectural Public Safety Commission | Yamagata Prefectural Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 sc06-mail01.sbt-isc.jp.
 pref.yamaguchi.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Yamaguchi prefectural government | Yamaguchi Prefecture | Yamaguchi Prefectural Assembly | Yamaguchi Prefectural Mental Health Welfare Center,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 sc35-mail01.sbt-isc.jp.
-pref.yamanashi.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Yamanashi Prefectural Assembly | Yamanashi Livestock and Dairy Farming Technology Center | Yamanashi Prefecture | Yamanashi Prefectural Board of Education | Yamanashi Prefectural Public Safety Commission | Comprehensive Research Organization for Science and Technology, Yamanashi Prefectural Government | Yamanashi Prefecture Forestry and Forest Products Research Institute | Yamanashi Prefectural Police | Yamanashi Prefectural Fisheries Technology Center | Yamanashi prefectural government",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mlv.ypisc.jp.
+pref.yamanashi.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,"Yamanashi Prefectural Assembly | Yamanashi Livestock and Dairy Farming Technology Center | Yamanashi Prefecture | Yamanashi Prefectural Board of Education | Yamanashi Prefectural Public Safety Commission | Comprehensive Research Organization for Science and Technology, Yamanashi Prefectural Government | Yamanashi Prefecture Forestry and Forest Products Research Institute | Yamanashi Prefectural Police | Yamanashi Prefectural Fisheries Technology Center | Yamanashi prefectural government | Yamanashi Institute for Public Health",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mlv.ypisc.jp.
 rausu-town.jp,7,wikidata;wikidata,Rausu,,HttpConnectTimeoutException: HTTP connect timed out,none
 reihoku-kumamoto.jp,7,wikidata;wikidata,Reihoku,,HttpConnectTimeoutException: HTTP connect timed out,none
 rokkasho.jp,7,wikidata;wikidata,Rokkasho,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -1486,6 +1486,7 @@ web.pref.hyogo.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata,Awaji Distri
 webtown.nagayo.jp,7,wikidata;wikidata,Nagayo,,200,none
 wsa-osaka.jp,7,wikidata;wikidata,Osaka Water Supply Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 www1.city.obama.fukui.jp,7,wikidata;wikidata,Obama,,200,none
+www1.pref.shimane.lg.jp,7,wikidata;academia,Shimane Prefectural Institute of Public Health and Environmental Sciences,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 www1.town.chizu.tottori.jp,7,wikidata;wikidata,Chizu,,200,none
 www2.city.mine.lg.jp,7,wikidata;wikidata,Mine,,200,none
 www2.hyogo-c.ed.jp,7,wikidata;wikidata,Hyōgo-ken Kyōiku Iinkai,,200,none
@@ -1550,62 +1551,138 @@ uken.net,6,wikidata;wikidata,Uken,,ConnectException,10 mx.uken.net.
 vill.toho-info.com,6,wikidata;wikidata,Tōhō-mura,,200,none
 vnconsulate-fukuoka.org,6,wikidata;wikidata,"Consulate-General of Vietnam, Fukuoka",,HttpConnectTimeoutException: HTTP connect timed out,none
 watarigyousei.com,6,wikidata;wikidata,Q95947718,,HttpConnectTimeoutException: HTTP connect timed out,none
+aichi-edu.ac.jp,4,academia,Aichi University of Education,central,,
+aiit.ac.jp,4,academia,Advanced Institute of Industrial Technology,central,,
 airc.or.jp,4,wikidata,Akita Prefectural Organization for Rehabilitation and Development,,HttpConnectTimeoutException: HTTP connect timed out,none
+akita-u.ac.jp,4,academia,Akita University,central,,
 algerianembassy-japan.jp,4,wikidata,Embassy of Algeria in Japan,central,301,10 relay.asolutions.co.jp.
 amba-mauritania.jp,4,wikidata,"Embassy of Mauritania, Tokyo",central,SSLException: (internal_error) Received fatal alert: internal_error,none
 angola.or.jp,4,wikidata,"Embassy of Angola, Tokyo",central,301,10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
+asahikawa-med.ac.jp,4,academia,Asahikawa Medical University,central,,
 azembassy.jp,4,wikidata,"Embassy of Azerbaijan, Tokyo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.azembassy.jp.
 beninembassy.jp,4,wikidata,"Embassy of Benin, Tokyo",central,200,none
 bhembassy.jp,4,wikidata,"Embassy of Bosnia and Herzegovina, Tokyo",central,200,none
 cbcj.catholic.jp,4,wikidata,Apostolic Nunciature to Japan,central,301,0 cbcj-catholic-jp.mail.protection.outlook.com.
+cbrc.jp,4,academia,National Institute of Advanced Industrial Science and Technology Bioinformatics Engineering Research Center,central,,
 center.shizuoka-c.ed.jp,4,wikidata,The Comprehensive Education Center of Shizuoka Prefecture,central-1,ConnectException,none
 center.tym.ed.jp,4,wikidata,Toyama Prefectural Education Center,,301,none
+chiba-u.ac.jp,4,academia,Chiba University,central,,
 china-embassy.or.jp,4,wikidata,"Embassy of the People's Republic of China, Tokyo",central,ConnectException,none
 city.kishiwada.osaka.jp,4,wikidata,Kishiwada,,HttpConnectTimeoutException: HTTP connect timed out,10 osakasc-fml3.utility.optage.co.jp.
 city.yokkaichi.mie.jp,4,wikidata,Q120690329,,ConnectException,none
+cn.nagoya-u.ac.jp,4,academia,Nagoya University,central,,
 common3.pref.akita.lg.jp,4,wikidata,Hotta-no-saku,,403,none
+crms.u-shizuoka-ken.ac.jp,4,academia,"Center for Regional Management Studies, Graduate School of Management and Information of Innovation, University of Shizuoka",central-1,,
 dapc.or.jp,4,wikidata,Drug Abuse Prevention Center,,200,10 vlmx-air.secure.ne.jp.
 djiboutiembassy.jp,4,wikidata,"Embassy of Djibouti, Tokyo",central,200,none
 dnc.ac.jp,4,wikidata,National Center for University Entrance Examinations,,ConnectException,none
 ebja.jp,4,wikidata,"Embassy of Bolivia, Tokyo",central,HttpTimeoutException: request timed out,none
 egyptembassy.jp,4,wikidata,"Embassy of Egypt, Tokyo",central,403,none
+eikei.ac.jp,4,academia,Eikei University of Hiroshima,central,,
+eiken.pref.kanagawa.jp,4,academia,Kanagawa Prefectural Institute of Public Health,central-1,,
+eiken.yamagata.yamagata.jp,4,academia,Yamagata Prefectural Institute of Public Health,central-1,,
 embamoc.jp,4,wikidata,"Embassy of Mozambique, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,10 relay.asolutions.co.jp.
 embapar.jp,4,wikidata,"Embassy of Paraguay, Tokyo",central,200,none
 embassyin.jp,4,wikidata,"Embassy of Malaysia, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
+en.jinf.jp,4,academia,Japan Institute for National Fundamentals,central,,
+en.nagoya-u.ac.jp,4,academia,Nagoya University,central,,
+english.otaru-uc.ac.jp,4,academia,Otaru University of Commerce,central,,
 fd-odate.la.coocan.jp,4,wikidata,Odate Fire Department,,HttpConnectTimeoutException: HTTP connect timed out,none
 fd-takatsuki.jp,4,wikidata,Takatsuki City Fire Department,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.fd-takatsuki.jp.
 fidr.or.jp,4,wikidata,Foundation for International Development/Relief,,HttpConnectTimeoutException: HTTP connect timed out,none
+fihes.pref.fukuoka.jp,4,academia,Fukuoka Institute of Health and Environmental Sciences,central-1,,
 fsmemb.or.jp,4,wikidata,"Embassy of Micronesia, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 fuchuhp.jp,4,wikidata,Fuchu City Hospital Organization,,200,50 mail36.heteml.jp.
 fukushihoken.metro.tokyo.lg.jp,4,wikidata,Tokyo Metropolitan Government Bureau of Social Welfare and Public Health,central-1,ConnectException,none
+fukushima-u.ac.jp,4,academia,Fukushima University,central,,
+fun.ac.jp,4,academia,Future University Hakodate,central,,
+geidai.ac.jp,4,academia,Tokyo University of the Arts,central,,
+gifu-u.ac.jp,4,academia,Gifu University,central,,
 gikai.city.tsu.mie.jp,4,wikidata,Q120690345,,200,none
 gikai.metro.tokyo.lg.jp,4,wikidata,Tokyo Metropolitan Assembly,central-1,ConnectException,none
 gikai.pref.fukuoka.lg.jp,4,wikidata,Fukuoka Prefectural Assembly,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 gikai.pref.hokkaido.lg.jp,4,wikidata,Hokkaido Prefectural Assembly,central-1,ConnectException,none
 gikai.pref.kochi.lg.jp,4,wikidata,Kōchi Prefectural Assembly,central-1,200,none
+global-center.jp,4,academia,"Global Center for Asian and Regional Research, University of Shizuoka",central-1,,
+global.hokudai.ac.jp,4,academia,Hokkaido University,central,,
+grips.ac.jp,4,academia,National Graduate Institute for Policy Studies,central,,
 gsj.jp,4,wikidata,Geological Survey of Japan,,ConnectException,none
+gunma-u.ac.jp,4,academia,Gunma University,central,,
+health.rd.pref.gifu.lg.jp,4,academia,Gifu Prefectural Research Institute for Health and Environmental Sciences,central-1,,
 himawari.metro.tokyo.jp,4,wikidata,Tokyo Metropolitan Government Bureau of Public Health,central-1,ConnectException,none
+hirosaki-u.ac.jp,4,academia,Hirosaki University,central,,
+hiroshima-u.ac.jp,4,academia,Hiroshima University,central,,
+hit-u.ac.jp,4,academia,Hitotsubashi University,central,,
+hokkyodai.ac.jp,4,academia,Hokkaido University of Education,central,,
+hokudai.ac.jp,4,academia,Hokkaido University,central,,
 hospital.omigawa.chiba.jp,4,wikidata,Katori Omigawa Medical Center,,301,none
 hyogokengikai.jp,4,wikidata,Hyōgo Prefectural Assembly,central-1,200,none
+ibaraki.ac.jp,4,academia,Ibaraki University,central,,
+ifarc.metro.tokyo.lg.jp,4,academia,"Tokyo Metropolitan Islands Area Research and Development Center for Agriculture, Forestry and Fisheries",central-1,,
 imes.boj.or.jp,4,wikidata,Q135659180,,ConnectException,none
 international.gouv.qc.ca,4,wikidata,Quebec Government Office in Tokyo,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+iph.pref.hokkaido.jp,4,academia,Hokkaido Institute of Public Health,central-1,,
+isct.ac.jp,4,academia,Institute of Science Tokyo,central,,
+iwate-u.ac.jp,4,academia,Iwate University,central,,
+jaist.ac.jp,4,academia,Japan Advanced Institute of Science and Technology,central,,
 jamaicaembassy.jp,4,wikidata,"Embassy of Jamaica, Tokyo",central,ConnectException,none
 japan-sports.or.jp,4,wikidata,Japan Sport Association,,ConnectException,0 japansports-or-jp01c.mail.protection.outlook.com.
 jcci.or.jp,4,wikidata,The Japan Chamber of Commerce and Industry,,200,none
 jific.or.jp,4,wikidata,The Japanese Institute of Fisheries Infrastructure and Communities,,302,10 jific-or-jp.mail.protection.outlook.com.
+jinf.jp,4,academia,Japan Institute for National Fundamentals,central,,
 jitco.or.jp,4,wikidata,Japan International Training Cooperation Organization,,ConnectException,none
+juen.ac.jp,4,academia,Joetsu University of Education,central,,
+kagoshima-u.ac.jp,4,academia,Kagoshima University,central,,
+kanazawa-bidai.ac.jp,4,academia,Kanazawa College of Art,central,,
+kanazawa-u.ac.jp,4,academia,Kanazawa University,central,,
+kek.jp,4,academia,High Energy Accelerator Research Organization,central,,
+kit.ac.jp,4,academia,Kyoto Institute of Technology,central,,
+kitami-it.ac.jp,4,academia,Kitami Institute of Technology,central,,
+kobe-u.ac.jp,4,academia,Kobe University,central,,
 koryu.or.jp,4,wikidata,Japan–Taiwan Exchange Association,,ConnectException,none
 kouwan.metro.tokyo.lg.jp,4,wikidata,Tokyo Metropolitan Government Bureau of Port and Harbor,central-1,ConnectException,none
 kuwait-embassy.or.jp,4,wikidata,"Embassy of Kuwait, Tokyo",central,301,none
 kyo.or.jp,4,wikidata,Kyoto Chamber of Commerce and Industry,,200,0 kyo-or-jp.mail.protection.outlook.com.
+kyoto-u.ac.jp,4,academia,Kyoto University,central,,
+kyotobotanicalgardens.jp,4,academia,Kyoto Botanical Garden,central-1,,
+maebashi-it.ac.jp,4,academia,Maebashi Institute of Technology,central,,
+mie-u.ac.jp,4,academia,Mie University,central,,
+miyakyo-u.ac.jp,4,academia,Miyagi University of Education,central,,
 mncci.jp,4,wikidata,Mongolian National Chamber of Commerce and Industry in Japan,,403,10 mail.mncci.jp.
+morikirara.jp,4,academia,Sakai National Park Kujukushima Zoo & Botanical Garden,central,,
+muroran-it.ac.jp,4,academia,Muroran Institute of Technology,central,,
+nagano.ac.jp,4,academia,Nagano University,central,,
+nagaokaut.ac.jp,4,academia,Nagaoka University of Technology,central,,
+nagasaki-u.ac.jp,4,academia,Nagasaki University,central,,
 nagoya-cci.or.jp,4,wikidata,Nagoya Chamber of Commerce & Industry,,200,none
+nagoya-u.ac.jp,4,academia,Nagoya University,central,,
+nao.ac.jp,4,academia,National Astronomical Observatory of Japan,central,,
+nara-edu.ac.jp,4,academia,Nara University of Education,central,,
+nara-wu.ac.jp,4,academia,Nara Women's University,central,,
 naracity.ed.jp,4,wikidata,Nara City Board of Education,,ConnectException,none
+naramed-u.ac.jp,4,academia,Nara Medical University,central,,
 nauru.or.jp,4,wikidata,Q117360551,,200,none
 nchm.jp,4,wikidata,Former Niigata Customs House,,"SSLException: Unrecognized SSL message, plaintext connection?",10 vlmx-air.secure.ne.jp.
+nibb.ac.jp,4,academia,"National Institute for Basic Biology, Japan",central,,
+nifs.ac.jp,4,academia,National Institute for Fusion Science,central,,
+nig.ac.jp,4,academia,National Institute of Genetics,central,,
+nihu.jp,4,academia,National Institutes for the Humanities,central,,
+nii.ac.jp,4,academia,National Institute of Informatics,central,,
+niigata-u.ac.jp,4,academia,Niigata University,central,,
+nijl.ac.jp,4,academia,National Institute of Japanese Literature,central,,
+ninjal.ac.jp,4,academia,National Institute for Japanese Language and Linguistics,central,,
+nins.jp,4,academia,"National Institutes of Natural Sciences, Japan",central,,
+nipr.ac.jp,4,academia,National Institute of Polar Research,central,,
+nips.ac.jp,4,academia,National Institute for Physiological Sciences,central,,
+nitech.ac.jp,4,academia,Nagoya Institute of Technology,central,,
+ocha.ac.jp,4,academia,Ochanomizu University,central,,
 omanembassy.jp,4,wikidata,"Embassy of Oman, Tokyo",central,ConnectException,none
+orion.ac.jp,4,academia,Okazaki National Research Institutes,central,,
+osaka-kyoiku.ac.jp,4,academia,Osaka Kyoiku University,central,,
 osaka-nrfc.or.jp,4,wikidata,Nishinari Labor Welfare Center,,301,none
+osaka-u.ac.jp,4,academia,University of Osaka,central,,
 oshu-bunka.or.jp,4,wikidata,Isawa Castle,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+otaru-uc.ac.jp,4,academia,Otaru University of Commerce,central,,
 png.or.jp,4,wikidata,"Embassy of Papua New Guinea, Tokyo",central,200,none
 police.pref.aomori.jp,4,wikidata,Aomori Prefectural Police,,ConnectException,none
 police.pref.ehime.jp,4,wikidata,Ehime Prefectural Police,,ConnectException,none
@@ -1625,23 +1702,45 @@ police.pref.tokushima.jp,4,wikidata,Tokushima Prefectural Police,,ConnectExcepti
 police.pref.yamaguchi.jp,4,wikidata,Yamaguchi Prefectural Police,central-1,ConnectException,none
 port-of-nagoya.jp,4,wikidata,Nagoya Port Authority,,HttpConnectTimeoutException: HTTP connect timed out,10 nagoyako.in.tmes.trendmicro.com.
 pref.tokushima.jp,4,wikidata,Tokushima Prefectural Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+saitama-u.ac.jp,4,academia,Saitama University,central,,
 sakai.ed.jp,4,wikidata,Sakai City Education Center,,HttpConnectTimeoutException: HTTP connect timed out,10 sakai-ed-jp.mail.protection.outlook.com.
 samoaembassyjapan.jp,4,wikidata,"Embassy of Samoa, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 shigaken-gikai.jp,4,wikidata,Shiga Prefectural Assembly,central-1,ConnectException,none
+shimane-u.ac.jp,4,academia,Shimane University,central,,
+shinshu-u.ac.jp,4,academia,Shinshu University,central,,
+soken.ac.jp,4,academia,Graduate University for Advanced Studies,central,,
 sudanembassy.jp,4,wikidata,"Embassy of Sudan, Tokyo",central,200,none
 tamano-hp.jp,4,wikidata,Tamano Medical Center,,HttpConnectTimeoutException: HTTP connect timed out,none
 tanzaniaembassy.or.jp,4,wikidata,"Embassy of Tanzania, Tokyo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,100 mx.tanzaniaembassy.or.jp.
+tcue.ac.jp,4,academia,Takasaki City University of Economics,central,,
 tech-go.jp,4,wikidata,TechGo,,200,none
 tfd.metro.tokyo.lg.jp,4,wikidata,Tokyo Fire Department,central-1,ConnectException,none
 thm.pref.miyagi.jp,4,wikidata,Taga Castle,,HttpConnectTimeoutException: HTTP connect timed out,none
 tibethouse.jp,4,wikidata,Liaison Office of His Holiness the Dalai Lama for Japan & East Asia,,200,none
+tohoku.ac.jp,4,academia,Tohoku University,central,,
 tokio.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tokyo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tokyo-park.or.jp,4,academia,Jindai Botanical Garden,central-1,,
 tokyokankyo.jp,4,wikidata,Tokyo Environmental Public Service Corporation,,301,none
+tsukuba.ac.jp,4,academia,University of Tsukuba,central,,
+tuat.ac.jp,4,academia,Tokyo University of Agriculture and Technology,central,,
+tufs.ac.jp,4,academia,Tokyo University of Foreign Studies,central,,
+tut.ac.jp,4,academia,Toyohashi University of Technology,central,,
+u-fukui.ac.jp,4,academia,University of Fukui,central,,
+u-gakugei.ac.jp,4,academia,Tokyo Gakugei University,central,,
+u-nagano.ac.jp,4,academia,The University of Nagano,central-1,,
+u-tokyo.ac.jp,4,academia,University of Tokyo,central,,
+u-toyama.ac.jp,4,academia,University of Toyama,central,,
+uec.ac.jp,4,academia,University of Electro-Communications,central,,
 ujicci.or.jp,4,wikidata,Uji Chamber of Commerce and Industry,,301,10 mail.ujicci.or.jp.
+utsunomiya-u.ac.jp,4,academia,Utsunomiya University,central,,
 venezuela.or.jp,4,wikidata,"Embassy of Venezuela, Tokyo",central,200,none
-www1.pref.shimane.lg.jp,4,wikidata,Shimane Prefectural Institute of Public Health and Environmental Sciences,,HttpConnectTimeoutException: HTTP connect timed out,none
 www2.police.pref.ishikawa.lg.jp,4,wikidata,Ishikawa Prefectural Police,,HttpConnectTimeoutException: HTTP connect timed out,none
 yakushima-shoko.or.jp,4,wikidata,Q130283258,,200,none
+yamagata-u.ac.jp,4,academia,Yamagata University,central,,
+yamaguchi-u.ac.jp,4,academia,Yamaguchi University,central,,
+yamanashi.ac.jp,4,academia,University of Yamanashi,central,,
+ynu.ac.jp,4,academia,Yokohama National University,central,,
+yumenoshima.jp,4,academia,Yumenoshima Tropical Greenhouse Dome,central-1,,
 4kikou.org,3,wikidata,inter-university research institute corporation,central,301,none
 ambafrance-jp.org,3,wikidata,"Embassy of France, Tokyo",central,ConnectException,none
 ambamali-jp.org,3,wikidata,"Embassy of Mali, Tokyo",central,301,none
@@ -1653,6 +1752,7 @@ embassyofpanamainjapan.org,3,wikidata,"Consulate-General of Panama, Kobe",,SSLHa
 eritreaembassy-japan.org,3,wikidata,"Embassy of Eritrea, Tokyo",central,"SSLException: Unrecognized SSL message, plaintext connection?",none
 exteriors.gencat.cat,3,wikidata,"Government Delegation of the Generalitat, Tokio",central,301,none
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Tokyo",central,301,none
+fp-k.org,3,academia,Flower Park Kagoshima,central-1,,
 furanokouiki.server-shared.com,3,wikidata,Q23954834,,200,100 mx.furanokouiki.server-shared.com.
 hakodate-kankou.com,3,wikidata,Former British Consulate of Hakodate,,200,10 vlmx-air.secure.ne.jp.
 hnembassyjp.wordpress.com,3,wikidata,"Embassy of Honduras, Tokyo",central,200,none
@@ -1785,3 +1885,4 @@ japan.diplo.de,1,wikidata;wikidata;wikidata,"Consulate-General of Germany, Osaka
 nederlandwereldwijd.nl,1,wikidata;wikidata;wikidata,"Consulate-General of the Netherlands, Osaka | Embassy of the Netherlands, Tokyo",central,301,none
 official.shinkamigoto.net,1,wikidata;wikidata;wikidata,Shinkamigoto | Q11501064,,200,none
 roc-taiwan.org,1,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Naha Branch, Taipei Economic and Cultural Representative Office in Japan | Consulate General of Republic of China (Taiwan) in Nagasaki | Sapporo Branch, Taipei Economic and Cultural Representative Office in Japan | Taipei Economic and Cultural Representative Office in Japan | Fukuoka Branch, Taipei Economic and Cultural Office in Osaka",,302,none
+omu.ac.jp,0,academia,Osaka Metropolitan University,central,,

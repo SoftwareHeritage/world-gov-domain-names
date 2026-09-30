@@ -6,6 +6,8 @@ council.gangwon.kr,7,wikidata;wikidata,Gangwon State Council,central-1,403,none
 council.jeju.kr,7,wikidata;wikidata,Jeju municipal council,central-1,IOException: HTTP/1.1 header parser received no bytes,none
 council.ulsan.kr,7,wikidata;wikidata;wikidata,Ulsan Metropolitan Council,central-1,200,none
 cuh.co.kr,7,wikidata;wikidata,Jeonbuk National University Hospital,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cuh.co.kr found.,5 spam.cuh.co.kr.; 10 mail.cuh.co.kr.
+eng.kedi.re.kr,7,wikidata;academia,Korean Educational Development Institute,central,ConnectException,none
+eng.kopri.re.kr,7,wikidata;academia,Korea Polar Research Institute,central,200,none
 ex.co.kr,7,wikidata;wikidata,Korea Expressway Corporation,,HttpConnectTimeoutException: HTTP connect timed out,0 spam.ex.co.kr.; 30 minwon.ex.co.kr.; 20 mail2.ex.co.kr.
 fira.or.kr,7,wikidata;wikidata,Korea Fisheries Resources Agency,,405,10 gcmx01.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx03.govkorea.kr.
 foodinfo.or.kr,7,wikidata;wikidata,National Food Safety Information Service,,405,10 wblock.foodinfo.or.kr.
@@ -15,7 +17,6 @@ grac.or.kr,7,wikidata;wikidata,Game Rating and Administration Committee,,200,10 
 hira.or.kr,7,wikidata;wikidata,Health Insurance Review and Assessment Service,,ConnectException,0 spam.hira.or.kr.
 home.kepco.co.kr,7,wikidata;wikidata,Korea Electric Power Corporation,,200,none
 i815.or.kr,7,wikidata;wikidata,Independence Hall of Korea,,200,10 idhmail.i815.or.kr.
-ibs.re.kr,7,wikidata;wikidata,Institute for Basic Science,,302,5 spam.ibs.re.kr.
 icpa.or.kr,7,wikidata;wikidata,Incheon Port Authority,,301,10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.; 10 gcmx03.govkorea.kr.
 iitp.kr,7,wikidata;wikidata,Institute for Information and Communications Technology Planning and Evaluation,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 spam.iitp.kr.
 jbstatecouncil.jeonbuk.kr,7,wikidata;wikidata,North Jeolla Province municipal council,central-1,200,5 spam.korea.kr.
@@ -25,8 +26,10 @@ kaia.re.kr,7,wikidata;wikidata,Korea Agency for Infrastructure Technology Advanc
 kanc.re.kr,7,wikidata;wikidata,Korea Advanced Nano Fab Center,,200,10 zmx123.mailplug.com.
 kari.re.kr,7,wikidata;wikidata,Korea Aerospace Research Institute,,301,0 gatescan.kari.re.kr.
 katon.or.kr,7,wikidata;wikidata,Korea Navigation Beacon Technology Institute,,302,10 wblock.katon.or.kr.
+kcti.re.kr,7,wikidata;academia,Korea Culture & Tourism Institute,central,HttpConnectTimeoutException: HTTP connect timed out,none
 kdemo.or.kr,7,wikidata;wikidata,Korea Democracy Foundation,,200,9 spam.kdemo.or.kr.
 kdic.or.kr,7,wikidata;wikidata,Korea Deposit Insurance Corporation,,301,1 spam.kdic.or.kr.; 5 webmail.kdic.or.kr.
+kedi.re.kr,7,wikidata;academia,Korean Educational Development Institute,central,200,none
 keei.re.kr,7,wikidata;wikidata,Korea Energy Economics Institute,,200,0 mail.keei.re.kr.
 kei.re.kr,7,wikidata;wikidata,Korea Environment Institute,,404,10 spam.kei.re.kr.
 keit.re.kr,7,wikidata;wikidata,Korea Planning & Evaluation Institute of Industrial Technology,,405,10 mx01.govkorea.com.; 10 mx02.govkorea.com.
@@ -36,9 +39,9 @@ khidi.or.kr,7,wikidata;wikidata,Korea Health Industry Development Institute,,302
 khnp.co.kr,7,wikidata;wikidata,Korea Hydro & Nuclear Power,,200,none
 kiat.or.kr,7,wikidata;wikidata,Korea Institute for Advancement of Technology,,301,10 aspmx1.gov-dooray.com.
 kice.re.kr,7,wikidata;wikidata,Korea Institute of Curriculum & Evaluation,,200,10 mx01.govkorea.com.; 10 mx02.govkorea.com.
-kicet.re.kr,7,wikidata;wikidata,Korea Institute of Ceramic Engineering and Technology,,403,10 email.kicet.re.kr.
+kida.re.kr,7,wikidata;academia,Korea Institute for Defense Analyses,central,405,none
 kiip.re.kr,7,wikidata;wikidata,Korea Institute of Intellectual Property,,200,20 webmail.kiip.re.kr.; 10 wblock.kiip.re.kr.
-kings.ac.kr,7,wikidata;wikidata,Kepco International Nuclear Graduate School,,302,10 mail.kings.ac.kr.
+kings.ac.kr,7,wikidata;wikidata;academia,Kepco International Nuclear Graduate School,central,302,10 mail.kings.ac.kr.
 kinu.or.kr,7,wikidata;wikidata,Korea Institute for National Unification,,200,10 spam.kinu.or.kr.
 kipi.or.kr,7,wikidata;wikidata,Korea Institute of Patent Information,,SSLHandshakeException: Remote host terminated the handshake,0 spam.kipi.or.kr.; 10 mail.kipi.or.kr.
 kirams.re.kr,7,wikidata;wikidata,Korea Institute of Radiological and Medical Sciences,,405,10 zmx132.mailplug.com.
@@ -50,7 +53,10 @@ knuh.or.kr,7,wikidata;wikidata,Kangwon National University Hospital,,302,dig err
 koat.or.kr,7,wikidata;wikidata,Korea Agriculture Technology Promotion Agency,,302,1 spam.koat.or.kr.
 kobaco.co.kr,7,wikidata;wikidata,KOBACO(Korea Broadcast Adversing Corporation),,405,10 spam.kobaco.co.kr.
 koddi.or.kr,7,wikidata;wikidata,Korea Disabled People s Development Institute,,200,10 mail.koddi.or.kr.
+kopri.re.kr,7,wikidata;academia,Korea Polar Research Institute,central,200,10 kopri-re-kr.mail.protection.outlook.com.
 koreafilm.or.kr,7,wikidata;wikidata,Korean Film Archive,,302,10 zmx142.mailplug.com.
+kosbi.re.kr,7,wikidata;academia,Korea Small Business Institute,central,403,none
+kosi.re.kr,7,wikidata;academia,Korea Small Business Institute,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 kosti.or.kr,7,wikidata;wikidata,Korean Security Agency Of Trade And Industry,,302,10 spam.kosti.or.kr.
 kpetro.or.kr,7,wikidata;wikidata,Korea Petroleum Quality & Distribution Authority,,SSLHandshakeException: Remote host terminated the handshake,10 spam2.kpetro.or.kr.
 kpx.or.kr,7,wikidata;wikidata,Korea Power Exchange,,200,0 mail.kpx.or.kr.
@@ -58,23 +64,27 @@ krei.re.kr,7,wikidata;wikidata,Korea Rural Economic Institute,,301,10 spam.krei.
 ksure.or.kr,7,wikidata;wikidata,Korea Trade Insurance Corporation,,405,0 ksure-spam.ksure.or.kr.; 10 ksure-spam2.ksure.or.kr.
 ktl.re.kr,7,wikidata;wikidata,Korea Testing Laboratory,,200,1 aspmx1.gov-dooray.com.
 ltikorea.or.kr,7,wikidata;wikidata,Literature Translation Institute of Korea,,200,0 mail.ltikorea.or.kr.
+ncc.re.kr,7,wikidata;academia,National Cancer Center,central,200,none
 neca.re.kr,7,wikidata;wikidata,National Evidenc- based healthcare Collaborating Agency | Korea Venture Investment Corporation (KVIC),,SSLHandshakeException: Remote host terminated the handshake,1 aspmx1.gov-dooray.com.
 nia.or.kr,7,wikidata;wikidata,National Information Society Agency,,403,10 gcmx03.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.
-nibp.kr,7,wikidata;wikidata,Korea National Institute for Bioethics Policy,,302,10 spam.nibp.kr.
+nibp.kr,7,wikidata;wikidata;academia,Korea National Institute for Bioethics Policy,central,302,10 spam.nibp.kr.
 nids.or.kr,7,wikidata;wikidata,National Institute of Medical Device Safety Information (NIDS) | Medical Device Information & Technology Assistance Center,,ConnectException,10 mail.nids.or.kr.
-nie.re.kr,7,wikidata;wikidata,National Institute of Ecology,,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.govkorea.com.; 20 mx02.govkorea.com.
+nie.re.kr,7,wikidata;wikidata;academia,National Institute of Ecology,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.govkorea.com.; 20 mx02.govkorea.com.
 nikom.or.kr,7,wikidata;wikidata,National Institute for Korean Medicine Development,,200,10 aspmx1.gov-dooray.com.
 nile.or.kr,7,wikidata;wikidata;wikidata,National Institute for Lifelong Education,,302,10 mail.nile.or.kr.
-nims.re.kr,7,wikidata;wikidata,National Institute for Mathematical Sciences,,301,dig error
+nims.re.kr,7,wikidata;wikidata;academia,National Institute for Mathematical Sciences,central,301,dig error
 nipa.kr,7,wikidata;wikidata,National IT Industry Promotion Agency,,200,10 lb-sensproxy-2213375-dc68d533ade4.kr-gov.lb.naverncp.com.
 nmc.or.kr,7,wikidata;wikidata,National Medical Center,,HttpConnectTimeoutException: HTTP connect timed out,none
+nnibr.re.kr,7,wikidata;academia,Nakdonggang National Institute of Biological Resources,central,ConnectException,10 securemx01.mailplug.com.; 20 securemx02.mailplug.com.
 nrc.re.kr,7,wikidata;wikidata;wikidata,"National Research Council for Economics, Humanities and Social Sciences",,200,10 aspmx1.gov-dooray.com.
-nst.re.kr,7,wikidata;wikidata,National Research Council of Science and Technology,,301,20 sguard1.kisti.re.kr.; 20 sguard2.kisti.re.kr.; 10 sguard.kisti.re.kr.
+nst.re.kr,7,wikidata;wikidata;academia,National Research Council of Science and Technology | National Security Research Institute,central,301,20 sguard1.kisti.re.kr.; 20 sguard2.kisti.re.kr.; 10 sguard.kisti.re.kr.
 nypi.re.kr,7,wikidata;wikidata,National Youth Policy Institute,,301,10 spam.nypi.re.kr.
 pnudh.co.kr,7,wikidata;wikidata,Pusan National University Dental Hospital,,HttpConnectTimeoutException: HTTP connect timed out,none
 provin.gangwon.kr,7,wikidata;wikidata,Gangwon State Office,central-1,ConnectException,10 spam.gwd.go.kr.
 redcross.or.kr,7,wikidata;wikidata,Republic of Korea National Red Cross,,401,10 spamflt2.sensmailcloud.kr.; 10 spamflt1.sensmailcloud.kr.
 sciencecenter.or.kr,7,wikidata;wikidata,Gwangju National Science Museum,,HttpConnectTimeoutException: HTTP connect timed out,dig error
+seaman.or.kr,7,wikidata;academia,Korea Institute of Maritime and Fisheries Technology,central,ConnectException,none
+smartgrid.or.kr,7,wikidata;academia,Korea Smart Grid Institute,central,200,none
 smc.seoul.kr,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Seoul municipal council,central-1,302,10 SPAM-NLB-bf85e0721378d7fd.elb.ap-northeast-2.amazonaws.com.
 tpf.or.kr,7,wikidata;wikidata,Taekwondo Promotion Foundation,,HttpConnectTimeoutException: HTTP connect timed out,none
 withcountry.mil.kr,7,wikidata;wikidata,MND Agency for KIA Recovery & Identification,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -105,9 +115,11 @@ cbtp.or.kr,4,wikidata,Chungbuk Technopark,,302,10 sniper.cbtp.or.kr.
 cbwf.re.kr,4,wikidata,Chungbuk Women Foundation,,200,10 mail.bizboxa.com.
 cbwf.softss.co.kr,4,wikidata,Chungbuk Women Foundation,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 cmf.or.kr,4,wikidata,Community Media Foundation,,HttpConnectTimeoutException: HTTP connect timed out,none
+cnu.ac.kr,4,academia,Chungnam National University,central,,
 compa.re.kr,4,wikidata,Q136550370,,200,10 zmx135.mailplug.com.
 comwel.or.kr,4,wikidata,Korea Workers' Compensation & Welfare Service,,400,10 smtp.comwel.or.kr.
 copyright.or.kr,4,wikidata,Korean Copyright Commission,,405,1 aspmx1.gov-dooray.com.
+css.snu.ac.kr,4,academia,"The Center for Social Sciences, Seoul National University",central,,
 ctp.or.kr,4,wikidata,Chungnam Techno Park,,200,10 gcmx03.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.; 10 gcmx02.govkorea.kr.
 cw.or.kr,4,wikidata,Construction Workers Mutual Aid Association,,302,10 gcmx03.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.
 debc.or.kr,4,wikidata,The Disabled Enterprise Business Center,,HttpConnectTimeoutException: HTTP connect timed out,10 spam.debc.or.kr.
@@ -119,19 +131,19 @@ dnsm.or.kr,4,wikidata,National Daegu Science museum,,200,1 aspmx1.gov-dooray.com
 drugfree.or.kr,4,wikidata,Korean Association Against Drug Abuse (KAADA),,HttpConnectTimeoutException: HTTP connect timed out,dig error
 drugsafe.or.kr,4,wikidata,Korea Institute of Drug Safety & Risk Management,,200,10 mail.drugsafe.or.kr.
 e-policy.or.kr,4,wikidata,Korea Energy Information Culture Agency (KEIA),,302,none
+eduresearch.snu.ac.kr,4,academia,Seoul National University The Center for Educational Research,central,,
 ekape.or.kr,4,wikidata,Korea Institute for Animal Products Quality Evaluation,,301,10 mail.ekape.or.kr.
 ekr.or.kr,4,wikidata,Korea Rural Community Corporation,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ekr.or.kr found.,10 spamflt2.sensmailcloud.kr.; 10 spamflt1.sensmailcloud.kr.
 en.jejunuh.co.kr,4,wikidata,Jeju National University Hospital,,200,none
+en.knue.ac.kr,4,academia,Korea National University of Education,central,,
 energy.or.kr,4,wikidata,Korea Energy Agency,,302,10 aspmx1.gov-dooray.com.
 eng.btp.or.kr,4,wikidata,Busan TechnoPark,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching eng.btp.or.kr found.,none
 eng.ipet.re.kr,4,wikidata,"Korea Institute of Planning and Evaluation for Technology in Food, Agriculture, and Forestry",,ConnectException: Host is unreachable,none
-eng.kedi.re.kr,4,wikidata,Korean Educational Development Institute,,ConnectException,none
 eng.khealth.or.kr,4,wikidata,Korea Health Promotion Institute,,HttpConnectTimeoutException: HTTP connect timed out,dig error
 eng.kic.re.kr,4,wikidata,Korean Institute of Criminology and Justice,,ConnectException,none
 eng.kiet.re.kr,4,wikidata,Korea Institute for Industrial Economics & Trade,,ConnectException,none
 eng.kipf.re.kr,4,wikidata,Korea Institute of Public Finance,,200,none
 eng.kitech.re.kr,4,wikidata,Korea Institute of Industrial Technology,,200,none
-eng.kopri.re.kr,4,wikidata,Korea Polar Research Institute,,200,none
 eng.koreafilm.or.kr,4,wikidata,Korean Film Archive,,200,none
 eng.krihs.re.kr,4,wikidata,Korea Research Institute For Human Settlements,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 eng.krivet.re.kr,4,wikidata,Korea Research Institute for Vocational Education and Training,,ConnectException,none
@@ -144,6 +156,7 @@ english.kosha.or.kr,4,wikidata,Korea Occupational Safety and Health Agency,,Conn
 english.koti.re.kr,4,wikidata,The Korea Transport Institute,,404,none
 english.visitkorea.or.kr,4,wikidata,Korea Tourism Organization,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 epis.or.kr,4,wikidata,"Korea Agency of Education, Promotion & Information Service in Food, Agriculture, Forestry & Fisheries",,200,none
+eri.snu.ac.kr,4,academia,Education Research Institute at Seoul National University,central,,
 ewp.co.kr,4,wikidata,Korea East-West Power Company,,502,none
 exservice.co.kr,4,wikidata,"Korea Expressway Service Co., Ltd.",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 fipa.or.kr,4,wikidata,Korea Fisheries Infrastructure Public Agency (FIPA),,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -156,39 +169,57 @@ gccc.or.kr,4,wikidata,Gwacheon Cultural Center,,SSLHandshakeException: Remote ho
 gdtp.or.kr,4,wikidata,Gyeonggi Daejin Techno Park,,403,10 mail.gdtp.or.kr.
 geps.or.kr,4,wikidata,Government Employees Pension Service,,ConnectException,none
 gjtp.or.kr,4,wikidata,Gwangju Technopark,,HttpConnectTimeoutException: HTTP connect timed out,none
+gjue.ac.kr,4,academia,Gongju National University of Education,central,,
 gntp.or.kr,4,wikidata,Gyeongnam TechnoPark,,200,none
+gnu.ac.kr,4,academia,Gyeongsang National University,central,,
 gokams.or.kr,4,wikidata,Korea Arts Management Service,,302,10 wblock.gokams.or.kr.
 gongyoung.kr,4,wikidata,Public home shopping,,403,10 mail.gongyoung.kr.
+grad.aks.ac.kr,4,academia,Graduate School of Korean Studies,central,,
+gscst.snu.ac.kr,4,academia,Seoul National University Graduate School of Convergence Science and Technology,central,,
+gtck.re.kr,4,academia,National Institute of Green Technology,central,,
 gtp.or.kr,4,wikidata,Gyeonggi Technopark,,200,none
+gw.ac.kr,4,academia,Gangwon State University,central,,
 gwnudh.or.kr,4,wikidata,Gangneung–Wonju National University Dental Hospital,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gwnudh.or.kr found.,none
 haccp.or.kr,4,wikidata,Korea Agency of HACCP Accreditation & Service,,301,none
 hansik.or.kr,4,wikidata,Korean Food Promotion Institute,,302,none
+hknu.ac.kr,4,academia,Hankyong National University,central,,
 hnibr.re.kr,4,wikidata,Q136550653,,200,20 securemx02.mailplug.com.; 10 securemx01.mailplug.com.
 home.koelsa.or.kr,4,wikidata,Korea Elevator Safety Institute,,302,none
 hrdkorea.or.kr,4,wikidata,Human Resources Development Service of Korea,,200,0 spam.hrdkorea.or.kr.; 10 hrdkorea.or.kr.; 5 mail.hrdkorea.or.kr.; 1 spam2.hrdkorea.or.kr.; 6 smtp.hrdkorea.or.kr.
 ibk.co.kr,4,wikidata,Industrial Bank of Korea,,200,none
 icmtc.re.kr,4,wikidata,Institute of Civil-Military Technology Cooperation,,ConnectException,none
+ier.jnu.ac.kr,4,academia,The Institute of Educational Research Chonnam National University,central,,
 ifwf.or.kr,4,wikidata,Incheon Foundation of Women and Family,,302,none
 igbf.kr,4,wikidata,GBF,,403,10 wblock.igbf.kr.
 innopolis.or.kr,4,wikidata,Korea Innovation Foundation,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 international.gouv.qc.ca,4,wikidata,Quebec bureau office in Seoul,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
 ipab.or.kr,4,wikidata,International Plant-quarantine Accreditation Board,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ipet.re.kr,4,wikidata,"Korea Institute of Planning and Evaluation for Technology in Food, Agriculture, and Forestry",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+islands.mokpo.ac.kr,4,academia,Institution for Marine & Island Cultures Mokpo National University,central,,
+iss.gnu.ac.kr,4,academia,"Institute for Social Sciences, Gyeongsang National University",central,,
+iss.kangwon.ac.kr,4,academia,"Institute of Social Science, Kangwon National University",central,,
+issr.pusan.ac.kr,4,academia,"Institute for Social Science Research, Pusan National University",central,,
 itkc.or.kr,4,wikidata,Institute for the Translation of Korean Classics,,200,none
 itp.or.kr,4,wikidata,Incheon Technopark,,200,none
 iwest.co.kr,4,wikidata,Korea Western Power Company,,ConnectException,none
 japanese.knps.or.kr,4,wikidata,Korea National Park Service,,HttpConnectTimeoutException: HTTP connect timed out,none
 jbtp.or.kr,4,wikidata,Jeonbuk Technopark,,HttpConnectTimeoutException: HTTP connect timed out,1 jbtp-or-kr.mail.protection.outlook.com.; 2 jbtp-or-kr.mail.eo.outlook.com.
 jbuh.co.kr,4,wikidata,Jeonbuk National University Hospital,,302,none
+jejunu.ac.kr,4,academia,Jeju National University,central,,
 jejutp.or.kr,4,wikidata,Jeju TechnoPark,,405,10 gcmx01.govkorea.kr.; 10 gcmx02.govkorea.kr.; 10 gcmx03.govkorea.kr.; 10 gcmx05.govkorea.kr.; 20 spam.jejutp.or.kr.
+jfmu.ac.kr,4,academia,Joint Forces Military University,central,,
 jntp.or.kr,4,wikidata,Jeonnam Technopark,,302,none
+jnu.ac.kr,4,academia,Chonnam National University,central,,
+jsscnu.re.kr,4,academia,Institute of Social Sciences Chungnam National University,central,,
 jungsin.jams.or.kr,4,wikidata,Defense Agency for Spritual & Mental Force Enhancement,,200,none
 k-his.or.kr,4,wikidata,Korea Health Information Service,,301,none
 k-medi.or.kr,4,wikidata,Korea Medical Dispute Mediation & Arbitration Agency (K-medi),,302,10 mail.k-medi.or.kr.
 k-sec.or.kr,4,wikidata,Korea Sports Ethics Center,,200,10 mail.k-sec.or.kr.
 kafet.or.kr,4,wikidata,Korea Association of Forest Enviro-conservation Technology (KAFET),,ConnectException,none
+kaist.ac.kr,4,academia,KAIST,central,,
 kalis.or.kr,4,wikidata,Korea Authority of Land & Infrastructure Safety,,ConnectException,none
 kamco.or.kr,4,wikidata,Korea Asset Management Corporation,,403,none
+kangwon.ac.kr,4,academia,Kangwon National University,central,,
 kasfo.or.kr,4,wikidata,Korea Advancing Schools Foundation,,200,none
 kasi.re.kr,4,wikidata,Korea Astronomy and Space Science Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
 kawf.kr,4,wikidata,Korean Artists Welfare Foundation,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kawf.kr found.,none
@@ -205,7 +236,6 @@ kcomwel.or.kr,4,wikidata,Korea Workers' Compensation & Welfare Service,,400,10 s
 kcopa.or.kr,4,wikidata,Korea Copyright Protection Agency,,403,none
 kcpi.co.kr,4,wikidata,Korea Culture Promotion Inc.,,HttpConnectTimeoutException: HTTP connect timed out,none
 kcpi.or.kr,4,wikidata,Korea Childcare Promotion Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
-kcti.re.kr,4,wikidata,Korea Culture & Tourism Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
 kdata.or.kr,4,wikidata,Korea Data Agency (K-DATA),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 kdb.co.kr,4,wikidata,Korea Development Bank,,200,none
 kdhc.co.kr,4,wikidata,Korea District Heating Corporation,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -215,13 +245,13 @@ kdissw.or.kr,4,wikidata,Korea Development Institute for Self-Sufficiency and Wel
 kead.or.kr,4,wikidata,Korea Employment Agency for Persons with Disabilities,,ConnectException,10 mmp.kead.or.kr.
 keci.or.kr,4,wikidata,Korea Environmental Conservation Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
 keco.or.kr,4,wikidata,Korea Environment Corporation,,406,10 spam.keco.or.kr.
-kedi.re.kr,4,wikidata,Korean Educational Development Institute,,200,none
 keis.or.kr,4,wikidata,Korea Employment Information Service (KEIS),,HttpConnectTimeoutException: HTTP connect timed out,none
 keli.kr,4,wikidata,Korea Employment and Labor Educational Institute (KELI),,ConnectException,none
 kepco.co.kr,4,wikidata,Korea Electric Power Corporation,,HttpConnectTimeoutException: HTTP connect timed out,none
 kepcomcs.co.kr,4,wikidata,KEPCO Metering & Customer Service,,HttpConnectTimeoutException: HTTP connect timed out,none
 keris.or.kr,4,wikidata,KERIS,,200,none
 kesco.or.kr,4,wikidata,Korea Electrical Safety Corporation,,200,none
+keti.re.kr,4,academia,Korea Electronics Technology Institute,central,,
 kf.or.kr,4,wikidata,Korea Foundation,,302,0 sniper.kf.or.kr.
 kfi.or.kr,4,wikidata,Korea Fire Institute,,"ProtocolException: Invalid header name ""Access Control Allow Origin""",30 mail.kfi.or.kr.; 40 imail.kfi.or.kr.; 10 trust.kfi.or.kr.
 kfsp.or.kr,4,wikidata,Korea Foundation For Suicide Prevention (KFSP),,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.govkorea.com.; 20 ASPMX.daum.net.; 10 mx02.govkorea.com.; 30 ALT.ASPMX.daum.net.
@@ -239,7 +269,6 @@ kicj.re.kr,4,wikidata,Korean Institute of Criminology and Justice,,405,none
 kicox.or.kr,4,wikidata,Korea Industrial Complex Corporation,,SSLHandshakeException: Remote host terminated the handshake,none
 kict.re.kr,4,wikidata,Korea Institute of Construction Technology,,ConnectException,none
 kicte.or.kr,4,wikidata,Korea Institute of Construction Technology Education (KICTE),,HttpConnectTimeoutException: HTTP connect timed out,none
-kida.re.kr,4,wikidata,Korea Institute for Defense Analyses,,405,none
 kidp.or.kr,4,wikidata,Korea Institute of Design Promotion,,302,none
 kiet.re.kr,4,wikidata,Korea Institute for Industrial Economics & Trade,,HttpTimeoutException: request timed out,10 spam.kiet.re.kr.
 kigepe.or.kr,4,wikidata,Korea Institute for Gender Equality Promotion and Education (KIGEPE),,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -267,11 +296,15 @@ kli.re.kr,4,wikidata,Korea Labor Institute,,HttpConnectTimeoutException: HTTP co
 klri.re.kr,4,wikidata,Korea Legislation Research Institute,,200,0 spam.klri.re.kr.
 kmedihub.re.kr,4,wikidata,Daegu-Gyeongbuk Medical Innovation Foundation,,ConnectException,none
 kmiti.or.kr,4,wikidata,Korea Meteorological Institute,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+kmou.ac.kr,4,academia,Korea Maritime and Ocean University,central,,
 kmrb.or.kr,4,wikidata,Korea Media Rating Board,,200,10 gcmx02.govkorea.kr.; 10 gcmx05.govkorea.kr.; 10 gcmx01.govkorea.kr.; 10 gcmx03.govkorea.kr.
 knfc.co.kr,4,wikidata,KEPCO Nuclear Fuel Corporation,,ConnectException,none
 knoc.co.kr,4,wikidata,Korea National Oil Corporation,,ConnectException,none
 knps.or.kr,4,wikidata,Korea National Park Service,,200,none
+knsu.ac.kr,4,academia,Korea National Sport University,central,,
 knto.or.kr,4,wikidata,Korea Tourism Organization,,302,none
+knu.ac.kr,4,academia,Kyungpook National University,central,,
+knue.ac.kr,4,academia,Korea National University of Education,central,,
 knuh.knu.ac.kr,4,wikidata,Kyungpook National University Hospital,,ConnectException,none
 knuh.kr,4,wikidata,Kyungpook National University Hospital,,200,none
 koagi.or.kr,4,wikidata,Korea Arboreta and Gardens Institute,,301,none
@@ -300,8 +333,8 @@ komipo.co.kr,4,wikidata,Korea Midland Power Company,,IOException: HTTP/1.1 heade
 komir.or.kr,4,wikidata,Korea Resources Corporation,,HttpConnectTimeoutException: HTTP connect timed out,none
 komount.or.kr,4,wikidata,Korea Mountaineering Support Center (KOMOUNT),,HttpConnectTimeoutException: HTTP connect timed out,none
 komsa.or.kr,4,wikidata,Korea Maritime Transportation Safety Authority,,HttpConnectTimeoutException: HTTP connect timed out,1 mail.komsa.or.kr.
+kongju.ac.kr,4,academia,Kongju National University,central,,
 kopo.ac.kr,4,wikidata,Korea Polytechnics,,302,none
-kopri.re.kr,4,wikidata,Korea Polar Research Institute,,200,10 kopri-re-kr.mail.protection.outlook.com.
 korad.or.kr,4,wikidata,Korea Radioactive Waste Agency,,ConnectException,none
 kordi.or.kr,4,wikidata,Korea Labor Force Institute for the Aged,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 koreahana.or.kr,4,wikidata,North Korean Refugees Foundation,,200,none
@@ -316,9 +349,7 @@ kores.or.kr,4,wikidata,Korea Resources Corporation,,HttpConnectTimeoutException:
 koroad.or.kr,4,wikidata,The Road Traffic Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 korsafe.or.kr,4,wikidata,Korea Foundation Of Nuclear Safety,,ConnectException,none
 kosac.re.kr,4,wikidata,Korea Foundation for the Advancement of Science and Creativity,,301,none
-kosbi.re.kr,4,wikidata,Korea Small Business Institute,,403,none
 kosha.or.kr,4,wikidata,Korea Occupational Safety and Health Agency,,307,none
-kosi.re.kr,4,wikidata,Korea Small Business Institute,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 kosii.or.kr,4,wikidata,Korea Statistical Information Institute,,200,10 mail.bizboxa.com.
 kosm.or.kr,4,wikidata,Q136550705,,200,none
 kosmes.or.kr,4,wikidata,Korea SMEs and Startups Agency,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -333,7 +364,9 @@ kpipa.or.kr,4,wikidata,Korea Publication Industry Promotion Agency,,400,none
 kps.co.kr,4,wikidata,KEPCO Plant Service & Engineering Co.,,ConnectException,none
 kptb.kr,4,wikidata,Korea Public Tissue Bank,,200,none
 kr.or.kr,4,wikidata,Korea National Railway,,302,none
+kriece.or.kr,4,academia,Research Institute for Early Childhood Education - Korea National University of Education,central,,
 krihs.re.kr,4,wikidata,Korea Research Institute For Human Settlements,,HttpConnectTimeoutException: HTTP connect timed out,none
+krins.or.kr,4,academia,Korea Research Institute for National Strategy,central,,
 kriso.re.kr,4,wikidata,Korea Research Institute of Ships & Ocean Engineering (KRISO),,200,10 sguard.kisti.re.kr.; 20 sguard2.kisti.re.kr.; 20 sguard1.kisti.re.kr.
 krit.re.kr,4,wikidata,Korea Research Institute for Defense Technology Planning and Advancement (KRIT),,HttpConnectTimeoutException: HTTP connect timed out,dig error
 krivet.re.kr,4,wikidata,Korea Research Institute for Vocational Education and Training,,302,0 sniper.krivet.re.kr.
@@ -351,30 +384,36 @@ kwdi.re.kr,4,wikidata,Korean Women's Development Institute,,200,none
 kwwa.or.kr,4,wikidata,Korea Water and Wastewater Works Association (KWWA),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 kyci.or.kr,4,wikidata,Korea Youth Counseling & Welfare Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
 kywa.or.kr,4,wikidata,Korea Youth Work Agency (KYWA),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 spamx.kywa.or.kr.
+law.snu.ac.kr,4,academia,Seoul National University School of Law,central,,
 lemi.or.kr,4,wikidata,Livestock Environmental Management Institute,,200,none
 lh.or.kr,4,wikidata,Korea Land and Housing Corporation,,405,none
 lhca.or.kr,4,wikidata,Livestock Health Control Association,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 mail1.lhca.or.kr.; 20 mail.lhca.or.kr.; 10 mail0.lhca.or.kr.
+lis.knu.ac.kr,4,academia,Kyungpook National University Department of Library and Information Science,central,,
 lx.or.kr,4,wikidata,Korea Land and Geospatial Informatix Corporation,,200,none
 mabik.re.kr,4,wikidata,National Marine Biodiversity Institute of Korea,,403,none
 mmk.or.kr,4,wikidata,National Maritime Museum,,400,none
 mndpro.mil.kr,4,wikidata,Ministry of National Defense Prosecutor's Office,,HttpConnectTimeoutException: HTTP connect timed out,none
+mokpo.ac.kr,4,academia,Mokpo National University,central,,
 moti.or.kr,4,wikidata,Military Outplacement Training Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
+mps.gwnu.ac.kr,4,academia,Gangneung–Wonju National University Graduate School of Management and Policy Science,central,,
 mrtc.re.kr,4,wikidata,Migration Reseach and Training Centre,,HttpConnectTimeoutException: HTTP connect timed out,none
-ncc.re.kr,4,wikidata,National Cancer Center,,200,none
+ncc-gcsp.ac.kr,4,academia,National Cancer Center Graduate School of Cancer Science and Policy,central,,
 ncrc.or.kr,4,wikidata,National Center for the Rights of the Child,,HttpConnectTimeoutException: HTTP connect timed out,10 spam2.ncrc.or.kr.; 20 ems.ncrc.or.kr.
 newseoulgolf.co.kr,4,wikidata,Korea Culture Promotion Inc.,,HttpConnectTimeoutException: HTTP connect timed out,10 spam.newseoulgolf.co.kr.
 nhimc.or.kr,4,wikidata,National Health Insurance Service Ilsan Hospital,,302,none
 nhis.or.kr,4,wikidata,National Health Insurance Service,,HttpConnectTimeoutException: HTTP connect timed out,none
+nigt.re.kr,4,academia,National Institute of Green Technology,central,,
 nmf.or.kr,4,wikidata,National Museum Foundation of Korea,,HttpConnectTimeoutException: HTTP connect timed out,none
-nnibr.re.kr,4,wikidata,Nakdonggang National Institute of Biological Resources,,ConnectException,10 securemx01.mailplug.com.; 20 securemx02.mailplug.com.
 nosa.or.kr,4,wikidata,Labor-Management Development Foundation,,HttpConnectTimeoutException: HTTP connect timed out,none
 nps.or.kr,4,wikidata,National Pension Service,,302,none
 nrcs.re.kr,4,wikidata,"National Research Council for Economics, Humanities and Social Sciences",,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nrcs.re.kr found.,none
 nrf.re.kr,4,wikidata,National Research Foundation of Korea,,403,none
+nsi.or.kr,4,academia,National Strategy Institute,central,,
 okf.or.kr,4,wikidata,Overseas Koreans Foundation,,HttpConnectTimeoutException: HTTP connect timed out,5 spam.korean.net.
 okocc.or.kr,4,wikidata,Overseas Koreans Cooperation Center (OKOCC),,HttpConnectTimeoutException: HTTP connect timed out,none
 origin.or.kr,4,wikidata,Korea Institute of Origin Information,,403,none
 panama.embaseoul.kr,4,wikidata,"Embassy of Panama, Seoul",central,HttpConnectTimeoutException: HTTP connect timed out,none
+pknu.ac.kr,4,academia,Pukyong National University,central,,
 pnuh.or.kr,4,wikidata,Pusan National University Hospital,,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx.daum.net.; 20 alt.aspmx.daum.net.
 pola.or.kr,4,wikidata,Postal Logistics Agency,,ConnectException,10 mail.pola.or.kr.
 poma.or.kr,4,wikidata,Post Office Facility Management Group,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -383,16 +422,19 @@ posa.or.kr,4,wikidata,Korea Postal Service Agency,,HttpConnectTimeoutException: 
 posid.or.kr,4,wikidata,Postal Savings & Insurance Development Institute,,ConnectException: Host is unreachable,none
 ptp.or.kr,4,wikidata,Pohang Techno Park,,200,none
 reb.or.kr,4,wikidata,Korea Real Estate Board,,ConnectException,none
+riss.knu.ac.kr,4,academia,"The Institute for Social Science Research, Kyungpook National University",central,,
 sac.or.kr,4,wikidata,Seoul Arts Center,,301,0 cdns.sac.or.kr.
+sapi.co.kr,4,academia,Seoul National University AI Policy Initiative,central,,
 sbc.or.kr,4,wikidata,Korea SMEs and Startups Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 sciport.or.kr,4,wikidata,Busan National Science Museum,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 sdco.or.kr,4,wikidata,Saemangeum Development Corp.,,302,1 spamout.sdco.or.kr.
-seaman.or.kr,4,wikidata,Korea Institute of Maritime and Fisheries Technology,,ConnectException,none
 semas.or.kr,4,wikidata,Small Enterprise and Market Service,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,0 spam.semas.or.kr.
 seoultp.or.kr,4,wikidata,Seoul Technopark,,301,10 mail.bizboxa.com.
 siqms.or.kr,4,wikidata,Q136550364,,HttpConnectTimeoutException: HTTP connect timed out,none
+siracs.sogang.ac.kr,4,academia,Sogang International Institute for Regional and Cultural Studies,central-1,,
+sjna.or.kr,4,academia,Sejong National Arboretum,central,,
 slc.or.kr,4,wikidata,SUDOKWON Landfill Site Management Corporation,,403,none
-smartgrid.or.kr,4,wikidata,Korea Smart Grid Institute,,200,none
+snu.ac.kr,4,academia,Seoul National University,central,,
 snudh.or.kr,4,wikidata,Seoul National University Dental Hospital,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching snudh.or.kr found.,10 mail.snudh.org.; 0 spam.snudh.org.; 10 gwex.snudh.org.
 sobang.kr,4,wikidata,Jeollabuk-do Fire Department,central-1,302,none
 socialenterprise.or.kr,4,wikidata,Korea Social Enterprise Promotion Agency (KoSEA),,405,none
@@ -421,7 +463,9 @@ warmemo.or.kr,4,wikidata,The War Memorial of Korea Association,,HttpConnectTimeo
 waterway.or.kr,4,wikidata,Waterway+,,200,none
 welfare.mil.kr,4,wikidata,MND Welfare Agency,,302,none
 wiset.or.kr,4,wikidata,"Korea Foundation for Women In Science, Engineering and Technology",,HttpConnectTimeoutException: HTTP connect timed out,none
+women.pusan.ac.kr,4,academia,"Women's Studies Center, Pusan National University",central,,
 wwww.aviation.or.kr,4,wikidata,National Aviation Museum of Korea,,HttpConnectTimeoutException: HTTP connect timed out,none
+wz3.jbnu.ac.kr,4,academia,"Department of Library and Information Science, Jeonbuk National University",central,,
 ygpa.or.kr,4,wikidata,Yeosu Gwangyang Port Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 youthassembly.or.kr,4,wikidata,National Youth Assembly of Korea,,200,20 alt.aspmx.daum.net.; 10 aspmx.daum.net.
 amchamkorea.org,3,wikidata,American Chamber of Commerce in Korea,,200,0 amchamkorea-org.mail.protection.outlook.com.
@@ -431,10 +475,12 @@ bokji.net,3,wikidata,Korea National Council on Social Welfare,,HttpConnectTimeou
 cb119.net,3,wikidata,Chungcheongbuk-do Fire Department,central-1,301,none
 chungnam.net,3,wikidata,Q42303739,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching chungnam.net found.,none
 cnuh.com,3,wikidata,Chonnam National University Hospital,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cnuh.com found.,none
+dh120.myelhub.com,3,academia,Korea Carbon Capture & Sequestration R&D Center,central,,
 english.komsco.com,3,wikidata,Korea Minting and Security Printing Corporation,,HttpTimeoutException: request timed out,none
 finlandabroad.fi,3,wikidata,embassy of Finland in South Korea,central,301,none
 ghanaembassy-southkorea.com,3,wikidata,"Embassy of Ghana, Seoul",central,ConnectException,none
 grandkorea.com,3,wikidata,Grand Korea Leisure,,401,none
+inuiss.net,3,academia,Incheon National Iniversity Institute of Social Sciences,central,,
 jdcenter.com,3,wikidata,Jeju Free International City Development Center,,301,none
 kangwonland.high1.com,3,wikidata,Kangwon Land,,302,none
 kdn.com,3,wikidata,KEPCO KDN,,400,none
@@ -472,7 +518,9 @@ web.roc-taiwan.org,3,wikidata,Taipei Mission in Korea,,HttpConnectTimeoutExcepti
 add.re.kr,2,wikidata;wikidata;wikidata,Agency for Defense Development,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 dtaq.re.kr,2,wikidata;wikidata;wikidata,Defense Agency for Technology and Quality,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 mmp.dtaq.re.kr.
 global.i815.or.kr,2,wikidata;wikidata;wikidata,Independence Hall of Korea,,HttpConnectTimeoutException: HTTP connect timed out,none
-intl.aks.ac.kr,2,wikidata;wikidata;wikidata;wikidata;wikidata,Academy of Korean Studies,,SSLHandshakeException: (handshake_failure) Unsupported signature algorithm (rsa_pkcs1_sha1) used in ECDH ServerKeyExchange handshake message,none
+ibs.re.kr,2,wikidata;wikidata;academia,Institute for Basic Science,central,302,5 spam.ibs.re.kr.
+intl.aks.ac.kr,2,wikidata;wikidata;wikidata;wikidata;wikidata;academia,Academy of Korean Studies | Graduate School of Korean Studies,central,SSLHandshakeException: (handshake_failure) Unsupported signature algorithm (rsa_pkcs1_sha1) used in ECDH ServerKeyExchange handshake message,none
+kicet.re.kr,2,wikidata;wikidata;academia,Korea Institute of Ceramic Engineering and Technology,central,403,10 email.kicet.re.kr.
 kocca.kr,2,wikidata;wikidata;wikidata;wikidata;wikidata,Korea Creative Content Agency,,403,10 mailx.kocca.kr.
 kra.co.kr,2,wikidata;wikidata;wikidata;wikidata,Korea Racing Authority,,IOException: HTTP/1.1 header parser received no bytes,none
 nahf.or.kr,2,wikidata;wikidata;wikidata;wikidata;wikidata,Northeast Asian History Foundation,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

@@ -1,6 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 parliament.am,8,wikidata;wikidata;wikidata;wikidata,National Assembly of Armenia,central,301,10 mail.parliament.am.
-armstat.am,7,wikidata;wikidata;wikidata,Statistical Committee of Armenia | National Statistical Service,,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
+armstat.am,7,wikidata;wikidata;wikidata;academia,Statistical Committee of Armenia | National Statistical Service,central,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
 edu.am,7,wikidata;wikidata,Ministry of Education and Science,central,HttpConnectTimeoutException: HTTP connect timed out,10 webmail.edu.am.
 mfa.am,7,wikidata;wikidata,Ministry of Foreign Affairs of Armenia,central,400,10 ferrum.mfa.am.
 mil.am,7,wikidata;wikidata,Ministry of Defence of Armenia,central,400,10 mail.mil.am.
@@ -13,18 +13,26 @@ msy.am,7,wikidata;wikidata,Ministry of Youth and Sports,central,HttpConnectTimeo
 mtad.am,7,wikidata;wikidata,Ministry of Territorial Administration and Infrastructure,central,200,0 mtad.am.
 cassationcourt.am,6,wikidata,Court of Cassation of Armenia,,HttpConnectTimeoutException: HTTP connect timed out,none
 concourt.am,6,wikidata,Constitutional Court of Armenia,central,200,10 mail.concourt.am.
+academhistory.am,4,academia,Institute of History of National Academy of Sciences of Armenia,central,,
 anra.am,4,wikidata,Armenian Nuclear Regulatory Authority,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.anra.am.
 armarchives.am,4,wikidata,National Archives of Armenia,,200,none
+aspu.am,4,academia,Armenian State Pedagogical University,central,,
 aviation.am,4,wikidata,Civil Aviation Committee of Armenia,central,400,10 mail.aviation.am.
 cba.am,4,wikidata,Central Bank of Armenia,,301,10 smtp.cba.am.
 datalex.am,4,wikidata,DataLex,,200,0 datalex.am.
 escs.am,4,wikidata,"Ministry of Education, Science, Culture and Sports of Armenia",,403,10 mail.escs.am.
 faa.am,4,wikidata,Armenian Automobile Federation,,HttpTimeoutException: request timed out,0 faa.am.
+iae.am,4,academia,Institute of Archaeology and Ethnography of National Academy of Sciences of Armenia,central,,
+iapp.sci.am,4,academia,Institute of Applied Problems of Physics of National Academy of Sciences of Armenia,central,,
+ipsl.sci.am,4,academia,"Institute of Philosophy, Sociology and Law of National Academy of Sciences of Armenia",central,,
+irphe.am,4,academia,Institute of Radiophysics & Electronics of National Academy of Sciences of Armenia,central,,
 langcom.am,4,wikidata,Language Committee,,200,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
 mofa.gov.ae,4,wikidata,Embassy of the UAE in Armenia,,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+nih.am,4,academia,National Institute of Health,central,,
 nla.am,4,wikidata,National Library of Armenia,,200,none
 nssp-gov.am,4,wikidata,Armenian National Survey for Seismic Protection,,ConnectException,none
 petekamutner.am,4,wikidata,State Revenue Committee (Armenia),,ConnectException: Host is unreachable,20 mx201.petekamutner.am.; 10 mx101.petekamutner.am.
+polytech.am,4,academia,National Polytechnic University of Armenia,central,,
 prosecutor.am,4,wikidata,Prosecutor General of Armenia,,200,10 mail.prosecutor.am.
 psrc.am,4,wikidata,Public Services Regulatory Commission,,400,10 mail.psrc.am.
 scs.am,4,wikidata,State Committee of Science,,301,0 mx.scs.am.
@@ -34,6 +42,7 @@ stateproperty.am,4,wikidata,State Property Management Committee,,HttpConnectTime
 tvradio.am,4,wikidata,Commission on TV and Radio of Armenia,,200,10 tvradio.am.
 tvradiocouncil.am,4,wikidata,Public Broadcasting Council,,301,10 mx.zoho.com.; 20 mx2.zoho.com.; 50 mx3.zoho.com.
 yerevan.am,4,wikidata,"Council of the Elders, Yerevan",,301,10 mx1.yerevan.am.
+ysu.am,4,academia,Yerevan State University,central,,
 am.ambafrance.org,3,wikidata,"embassy of France, Yerevan",central,301,none
 am.mfa.lt,3,wikidata,embassy of Lithuania in Armenia,central,403,none
 armenia.mid.ru,3,wikidata,"Embassy of Russia, Yerevan",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

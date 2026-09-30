@@ -11,6 +11,7 @@ nbs.sk,7,wikidata;wikidata,National Bank of Slovakia,central,HttpConnectTimeoutE
 nrsr.sk,7,wikidata;wikidata,National Council of the Slovak Republic,central,ConnectException,10 mail.gov.sk.
 piaristi.sk,7,wikidata;wikidata,Piarist province of Slovakia,,301,100 mailin2.piaristi.sk.; 10 mailin1.piaristi.sk.
 skgeodesy.sk,7,wikidata;wikidata,"Geodesy, Cartography and Cadastre Authority of the Slovak Republic",,HttpConnectTimeoutException: HTTP connect timed out,10 skgeodesy-sk.mail.protection.outlook.com.
+slovak.statistics.sk,7,wikidata;academia,Statistical Office of the Slovak Republic,central,200,none
 snk.sk,7,wikidata;wikidata,Slovak National Library,,200,10 mail.gov.sk.
 nsud.sk,6,wikidata,Supreme court of the Slovak Republic,,301,10 smtp1.nsud.sk.; 20 smtp2.nsud.sk.
 slowakei.ahk.de,6,wikidata;wikidata,German-Slovak Chamber of Industry and Commerce,,302,none
@@ -18,6 +19,7 @@ apvv.sk,4,wikidata,Slovak Research and Development Agency,,302,10 apvv-sk.mail.p
 caa.sk,4,wikidata,Civil Aviation Authority of the Slovak Republic,central,ConnectException,10 ip-mx.caa.sk.
 dposr.sk,4,wikidata,Voluntary Fire Protection of the Slovak Republic,,200,0 dposr-sk.mail.protection.outlook.com.
 egypt-embassy.sk,4,wikidata,"Embassy of Egypt, Bratislava",central,301,20 relay2.dnsserver.eu.; 10 relay.exohosting.sk.; 15 relay3.dnsserver.eu.; 10 relay1.exohosting.sk.
+euba.sk,4,academia,University of Economics in Bratislava,central,,
 financnasprava.sk,4,wikidata,The Financial Administration of the Slovak Republic,,302,10 mail3.financnasprava.sk.; 10 mail1.financnasprava.sk.; 10 mail4.financnasprava.sk.; 10 mail2.financnasprava.sk.
 idsplus.sk,4,wikidata,Q137864372,,200,10 mx10.websupport.sk.; 100 mx20.websupport.sk.
 idsvychod.sk,4,wikidata,Q140907211,,200,100 mailin1.idsvychod.sk.; 10 mailin2.idsvychod.sk.
@@ -35,19 +37,30 @@ pozsony.mfa.gov.hu,4,wikidata,Hungarian Embassy in Slovakia,central,SSLHandshake
 sario.sk,4,wikidata,SARIO,,400,0 sario-sk.mail.protection.outlook.com.
 sazp.sk,4,wikidata,Slovak Environmental Agency,,302,5 posta.sazp.sk.; 10 sazp-sk.mail.protection.outlook.com.
 slm.sk,4,wikidata,Slovenská Legálna Metrológia,,301,5 mail.slm.sk.; 10 ns.slm.sk.
-slovak.statistics.sk,4,wikidata,Statistical Office of the Slovak Republic,central,200,none
 sopsr.sk,4,wikidata,State Nature Conservancy of the Slovak Republic,,302,0 sopsr-sk.mail.protection.outlook.com.
 ssc.sk,4,wikidata,Q18104533,,301,5 mail.ssc.sk.
 statpedu.sk,4,wikidata,National Institute for Education,,HttpConnectTimeoutException: HTTP connect timed out,0 statpedu-sk.mail.protection.outlook.com.
+stuba.sk,4,academia,Slovak University of Technology in Bratislava,central,,
 sukl.sk,4,wikidata,State Institute for Drug Control,,301,10 mail.gov.sk.
 trencin.sk,4,wikidata,Q141104940,,HttpConnectTimeoutException: HTTP connect timed out,0 trencin-sk.mail.protection.outlook.com.
 trigon-consulting.sk,4,wikidata,TRIGON Consulting,,HttpConnectTimeoutException: HTTP connect timed out,0 trigonconsulting-sk01e.mail.protection.outlook.com.
+truni.sk,4,academia,Trnava University in Trnava,central,,
+tuke.sk,4,academia,Technical University of Košice,central,,
 udzs-sk.sk,4,wikidata,Q18534597,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.udzs-sk.sk.
+ujs.sk,4,academia,Selye János University,central,,
+ukf.sk,4,academia,University of Constantine the Philosopher,central,,
+umb.sk,4,academia,Matej Bel University,central,,
 unesco.sk,4,wikidata,Slovak Commission for UNESCO,,301,none
+uniag.sk,4,academia,Slovak University of Agriculture,central,,
+uniba.sk,4,academia,Comenius University,central,,
+unipo.sk,4,academia,University of Prešov,central,,
+uniza.sk,4,academia,University of Žilina,central,,
 unms.sk,4,wikidata,"Slovak Office of Standards, Metrology and Testing",,HttpConnectTimeoutException: HTTP connect timed out,1 156-smtp-in.unms.sk.
+upjs.sk,4,academia,Pavol Jozef Šafárik University in Košice,central,,
 ustavnysud.sk,4,wikidata,Constitutional Court of Slovakia,central,HttpConnectTimeoutException: HTTP connect timed out,10 imsva.concourt.sk.
 vega.sav.sk,4,wikidata,Scientific Grant Agency of the Ministry of Education of the Slovak Republic,,HttpConnectTimeoutException: HTTP connect timed out,none
 vup.sk,4,wikidata,Slovak Food Research Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
+vuvh.sk,4,academia,Water Research Institute,central,,
 zvjs.sk,4,wikidata,Prison and Court Guard Service,,ConnectException,10 smtp1.zvjs.sk.
 bratislava.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Slovakia,central,302,none
 bratislava.mae.ro,3,wikidata,"Embassy of Romania, Bratislava",central,503,none

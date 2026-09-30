@@ -20,7 +20,7 @@ mi.government.bg,7,wikidata;wikidata,Ministry of Economy and Industry,central,30
 midt.bg,7,wikidata;wikidata,Ministry of Innovation and Digital Transformation,central,200,none
 mig.government.bg,7,wikidata;wikidata,Ministry of Innovation and Growth,central,301,10 mg2.egov.bg.; 20 mg3.egov.bg.; 10 mg1.egov.bg.
 nra.bg,7,wikidata;linkgraph,National Revenue Agency,central,HttpConnectTimeoutException: HTTP connect timed out,5 ip1.nra.bg.; 5 ip2.nra.bg.
-nsi.bg,7,wikidata;wikidata,National Statistical Institute,central,301,10 mx2.nsi.bg.; 5 mx1.nsi.bg.
+nsi.bg,7,wikidata;wikidata;academia,National Statistical Institute,central,301,10 mx2.nsi.bg.; 5 mx1.nsi.bg.
 ombudsman.bg,7,wikidata;wikidata,Ombudsman of the Republic of Bulgaria,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ombudsman.bg found.,10 mail.ombudsman.bg.
 president.bg,7,wikidata;wikidata,Presidency of Bulgaria,,301,10 mailb.president.bg.; 100 maila.president.bg.
 registryagency.bg,7,wikidata;wikidata,Registry Agency,central,301,0 registryagency-bg.w-v1.mx.microsoft.
@@ -240,6 +240,7 @@ maglizh.bg,4,wikidata,Maglizh,,HttpConnectTimeoutException: HTTP connect timed o
 marad.bg,4,wikidata,Executive Agency Maritime Administration,central,HttpConnectTimeoutException: HTTP connect timed out,none
 maritsa.bg,4,wikidata,Maritsa,,HttpConnectTimeoutException: HTTP connect timed out,none
 medkovec.bg,4,wikidata,Medkovets,,200,10 shmail55.medkovec.bg.
+meteo.bg,4,academia,National Institute of Meteorology and Hydrology,central,,
 mezdra.bg,4,wikidata,Mezdra,,301,none
 militaryclubs.bg,4,wikidata,Executive Agency for Military Clubs and Recreation,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 militarymuseum.bg,4,wikidata,National Museum of Military History,,200,none
@@ -255,16 +256,19 @@ montana-os.justice.bg,4,wikidata,District Court - Montana,central-1,200,none
 montana-rs.justice.bg,4,wikidata,Regional Court - Montana,central-1,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
 montana.bg,4,wikidata,Montana,,200,none
 montanaoblast.egov.bg,4,wikidata,Montana,,302,none
+mu-varna.bg,4,academia,Medical University of Varna,central,,
 naas.government.bg,4,wikidata,National Agricultural Advisory Service,,301,none
 nab-bas.bg,4,wikidata,Bulgarian Accreditation Service Executive Agency,central,301,none
 nacid.bg,4,wikidata,National Centre for Information and Documentation,,301,none
 nadezhda.sofia.bg,4,wikidata,Nadezhda District,,200,none
+naim.bg,4,academia,"National Archaeological Museum, Bulgaria",central,,
 nap.bg,4,wikidata,National Revenue Agency,central,302,none
 nationallibrary.bg,4,wikidata,SS. Cyril and Methodius National Library,,302,none
 navet.government.bg,4,wikidata,National Agency for Vocational Education and Training,,301,none
 nbksrs.bg,4,wikidata,National Special Intelligence Devices Control Bureau,central,301,none
 nbpp.government.bg,4,wikidata,National Legal Aid Bureau,,HttpConnectTimeoutException: HTTP connect timed out,none
 ncf.bg,4,wikidata,National Culture Fund of Bulgaria,,302,none
+ncpha.government.bg,4,academia,National Center of Public Health and Analyses,central,,
 ncpr.bg,4,wikidata,National Council on Prices and Reimbursement of Medicinal Products,,HttpConnectTimeoutException: HTTP connect timed out,none
 neaa.government.bg,4,wikidata,National Evaluation and Accreditation Agency,,200,10 mail.neaa.government.bg.
 nedelino.bg,4,wikidata,Nedelino,,200,none
@@ -275,11 +279,13 @@ nikolakozlevo.bg,4,wikidata,Nikola Kozlevo,,301,none
 ninkn.bg,4,wikidata,National Institute of Immovable Cultural Heritage,,ConnectException,none
 nio.government.bg,4,wikidata,National Inspectorate of Education,,200,none
 nipa.bg,4,wikidata,National Institute for Conciliation and Arbitration,central,301,none
+nlcv.bas.bg,4,academia,National Laboratory of Computer Virology,central,,
 nova-zagora.bg,4,wikidata,Nova Zagora,,301,none
 novi-iskar.sofia.bg,4,wikidata,Novi Iskar District,,403,1 smtp.google.com.
 nso.bg,4,wikidata,National Security Service,,200,none
 nssi.bg,4,wikidata,National Social Security Institute,central,200,none
 ntib.bg,4,wikidata,"National Board for aircraft, maritime and railway accident investigation",,ConnectException,0 ntib-bg.mail.protection.outlook.com.
+nvu.bg,4,academia,Vasil Levski National Military University,central,,
 oblast.vratsa.bg,4,wikidata,Vratsa,,ConnectException,none
 oblastshumen.icon.bg,4,wikidata,Shumen,,HttpConnectTimeoutException: HTTP connect timed out,none
 oblevski.egov.bg,4,wikidata,Levski,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -490,6 +496,8 @@ tsarevo.bg,4,wikidata,Tsarevo,,HttpConnectTimeoutException: HTTP connect timed o
 tsarkaloyan.bg,4,wikidata,Tsar Kaloyan,,HttpConnectTimeoutException: HTTP connect timed out,0 tsarkaloyan.bg.
 tutrakan.bg,4,wikidata,Tutrakan,,HttpConnectTimeoutException: HTTP connect timed out,none
 ugarchin.bg,4,wikidata,Ugarchin,,HttpConnectTimeoutException: HTTP connect timed out,none
+uni-sofia.bg,4,academia,Sofia University,central,,
+unwe.bg,4,academia,University of National and World Economy,central,,
 valchidol.bg,4,wikidata,Valchi dol,,HttpConnectTimeoutException: HTTP connect timed out,none
 varna-adms.justice.bg,4,wikidata,Administrative Court - Varna,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 varna-as.justice.bg,4,wikidata,Appellate court - Varna,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -607,10 +615,12 @@ mfa.gr,3,wikidata,embassy of Greece in Bulgaria,central,403,none
 misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in Bulgaria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Sofia",central,302,none
 mzv.sk,3,wikidata,"Embassy of Slovakia, Sofia",central,301,none
+ncipd.org,3,academia,National Center of Infectious and Parasitic Diseases,central,,
 nesebarinfo.com,3,wikidata,Nesebar,,301,none
 nikolaevo.net,3,wikidata,Nikolaevo,,HttpConnectTimeoutException: HTTP connect timed out,none
 nikolovo.com,3,wikidata,Nikolovo,,308,none
 nikopol-bg.com,3,wikidata,Nikopol,,200,none
+nmnhs.com,3,academia,National Museum of Natural History,central,,
 novipazar.acstre.com,3,wikidata,Novi pazar,,200,none
 oblaki.com,3,wikidata,Laki,,HttpConnectTimeoutException: HTTP connect timed out,none
 obshtina-apriltsi.com,3,wikidata,Apriltsi,,HttpConnectTimeoutException: HTTP connect timed out,none

@@ -7,11 +7,15 @@ aerothai.co.th,4,wikidata,Aeronautical Radio of Thailand,,200,0 aerothai-co-th.m
 bangkok.mfa.gov.hu,4,wikidata,embassy of Hungary to Thailand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 biotec.or.th,4,wikidata,BIOTEC,,HttpConnectTimeoutException: HTTP connect timed out,10 biotec-or-th.mail.protection.outlook.com.
 bot.or.th,4,wikidata,Bank of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,20 mxb-0050d802.gslb.pphosted.com.; 20 mxa-0050d802.gslb.pphosted.com.
+bsru.ac.th,4,academia,Bansomdejchaopraya Rajabhat University,central,,
+chula.ac.th,4,academia,Chulalongkorn University,central,,
 cicot.or.th,4,wikidata,Central Islamic Council of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+dru.ac.th,4,academia,Dhonburi Rajabhat University,central,,
 en.thaihealth.or.th,4,wikidata,Thai Health Promotion Foundation,,200,none
 glo.or.th,4,wikidata,Thai Government Lottery Office,,ConnectException,10 rmx10.readyidc.com.; 20 rmx20.readyidc.com.
 gpo.or.th,4,wikidata,Government Pharmaceutical Organization,,200,dig error
 ksp.or.th,4,wikidata,Teachers' Council of Thailand,,ConnectException,0 ksp-or-th.mail.protection.outlook.com.
+mtec.or.th,4,academia,Thailand National Metal and Materials Technology Center,central,,
 nectec.or.th,4,wikidata,National Electronics and Computer Technology Center,,HttpConnectTimeoutException: HTTP connect timed out,0 nectec-or-th.mail.protection.outlook.com.
 nimt.or.th,4,wikidata,National Institute of Metrology (Thailand),,200,0 mx1.uc-workd.com.; 10 mx2.uc-workd.com.
 nxpo.or.th,4,wikidata,Office of National Higher Education Science Research and Innovation Policy Council,,HttpTimeoutException: request timed out,0 nxpo-or-th.mail.protection.outlook.com.
@@ -24,6 +28,7 @@ tgi.or.th,4,wikidata,Thai-German Institute,,200,10 mail.tgi.or.th.
 tmc.or.th,4,wikidata,Medical Council of Thailand,,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 trf.or.th,4,wikidata,Thailand Research Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,dig error
 tsri.or.th,4,wikidata,Thailand Science Research and Innovation,,200,0 tsri-or-th.mail.protection.outlook.com.
+tu.ac.th,4,academia,Thammasat University,central,,
 afrims.health.mil,3,wikidata,United States Army Medical Directorate - Armed Forces Research Institute of Medical Sciences,,403,none
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Bangkok",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
 armenianconsulatethailand.com,3,wikidata,Consulate of Armenia in Thailand,central,301,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
@@ -59,3 +64,4 @@ th.ambafrance.org,3,wikidata,"Embassy of France, Bangkok",central,301,none
 thailand.mid.ru,3,wikidata,embassy of Russia in Thailand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 thailand.um.dk,3,wikidata,"Embassy of Denmark, Bangkok",central,301,none
 tourismthailand.org,3,wikidata,Tourism Authority of Thailand,,301,20 ALT1.ASPMX.L.GOOGLE.COM.; 30 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX.L.GOOGLE.COM.; 20 ALT2.ASPMX.L.GOOGLE.COM.; 30 ASPMX2.GOOGLEMAIL.COM.
+umpudh.com,3,academia,Navamindradhiraj University,central,,

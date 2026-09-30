@@ -7,9 +7,22 @@ inia.gov.ve,5,wikidata,Instituto Nacional de Investigaciones Agricolas,,HttpConn
 ivss.gov.ve,5,wikidata,Instituto Venezolano de los Seguros Sociales,,HttpConnectTimeoutException: HTTP connect timed out,10 correo.ivss.gov.ve.; 20 relay.ivss.gob.ve.; 30 correoh.ivss.gov.ve.
 tsjlegitimo.org,5,wikidata,Supreme Tribunal of Justice of Venezuela in exile,central,200,10 alltheemails.com.
 bcv.org.ve,4,wikidata,Central Bank of Venezuela,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.bcv.org.ve.; 20 correo.bcv.org.ve.; 30 mail-mbo.bcv.org.ve.
+col.luz.edu.ve,4,academia,Universidad del Zulia Núcleo Costa Oriental del Lago,central,,
 dgim.mil.ve,4,wikidata,Dirección de Inteligencia Militar,,HttpConnectTimeoutException: HTTP connect timed out,none
 embajada-guineaecuatorial.com.ve,4,wikidata,embassy of Equatorial Guinea in Venezuela,central,200,0 mail.embajada-guineaecuatorial.com.ve.; 20 mx1.embajada-guineaecuatorial.com.ve.
 guardia.mil.ve,4,wikidata,Bolivarian National Guard,,ConnectException: Host is unreachable,none
+luz.edu.ve,4,academia,University of Zulia,central,,
+uc.edu.ve,4,academia,University of Carabobo,central,,
+ucla.edu.ve,4,academia,Universidad Centroccidental Lisandro Alvarado,central,,
+ucv.ve,4,academia,Central University of Venezuela,central,,
+ula.ve,4,academia,University of the Andes,central,,
+ulac.edu.ve,4,academia,Q136745144,central,,
+una.edu.ve,4,academia,Universidad Nacional Abierta (Venezuela),central,,
+unefm.edu.ve,4,academia,Universidad Francisco de Miranda,central,,
+unellez.edu.ve,4,academia,Universidad Nacional Experimental de los Llanos Occidentales Ezequiel Zamora,central,,
+unem.edu.ve,4,academia,Universidad Nacional Experimental del Magisterio Samuel Robinson,central,,
+uptjaa.org.ve,4,academia,Universidad Politécnica Territorial José Antonio Anzoátegui,central,,
+usb.ve,4,academia,Simón Bolívar University,central,,
 ambassadehaitivenezuela.org,3,wikidata,embassy of Haiti in Venezuela,central,ConnectException,none
 caracas.diplo.de,3,wikidata,"Embassy of Germany, Caracas",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 caracas.embassy.qa,3,wikidata,embassy of Qatar in Venezuela,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -17,7 +30,9 @@ caracas.mae.ro,3,wikidata,embassy of Romania in Venezuela,central,503,none
 consecomercio.org,3,wikidata,Q5783627,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consecomercio.org found.,0 mail.consecomercio.org.; 20 mx1.consecomercio.org.
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Venezuela,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 emb-abjasia.com,3,wikidata,"Embassy of Abkhazia, Caracas",central,301,none
+lauicom.com,3,academia,Universidad Internacional de las Comunicaciones,central,,
 nigerianembassycaracas.org,3,wikidata,embassy of Nigeria in Venezuela,central,503,0 nigerianembassycaracas.org.
+udo.education,3,academia,Universidad de Oriente,central,,
 ve.ambafrance.org,3,wikidata,"Embassy of France, Caracas",central,301,none
 venezuela.mid.ru,3,wikidata,embassy of Russia in Venezuela,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none

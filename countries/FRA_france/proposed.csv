@@ -9,7 +9,7 @@ senat.fr,8,wikidata;linkgraph,Senate,central,301,5 mail2.senat.fr.; 5 mail1.sena
 ac-spm.fr,7,wikidata;wikidata,Service of the National Education of Saint Pierre and Miquelon,central-1,ConnectException,10 msg-a85.education.gouv.fr.; 10 msg-b85.education.gouv.fr.
 bourgognefranchecomte.fr,7,wikidata;linkgraph,Regional council of Bourgogne-Franche-Comté,central-1,200,10 bourgognefranchecomte.in.tmes.trendmicro.eu.
 cnrgv.toulouse.inrae.fr,7,wikidata;wikidata,Q2945937,,200,none
-cnrs.fr,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Roussillon | Institut de chimie | Direction Générale Déléguée à la Science | Délégation Midi Pyrénées | National Center for Scientific Research,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
+cnrs.fr,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Roussillon | Institut de chimie | Direction Générale Déléguée à la Science | Délégation Midi Pyrénées | National Center for Scientific Research,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
 corse.fr,7,wikidata;wikidata,Executive Council of Corsica,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 ctguyane.fr,7,wikidata;wikidata,Assembly of French Guiana,,301,10 ctguyane-fr.mail.protection.outlook.com.
 france.fr,7,linkgraph,Linked from 29 public-sector domains,,301,0 france-fr.mail.protection.outlook.com.
@@ -17,10 +17,13 @@ gouv.nc,7,wikidata;wikidata,Q3112596,central-1,200,10 ASPMX3.GOOGLEMAIL.COM.; 5 
 guadeloupe.ars.sante.fr,7,wikidata;wikidata,"Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy",central-1,301,none
 ihemi.fr,7,wikidata;wikidata,Institut des hautes études du ministère de l'Intérieur,,301,50 g54.altospam.net.; 10 j10.altospam.com.
 iledefrance.fr,7,wikidata;linkgraph,Regional Council of Île-de-France,central-1,301,20 granit2.iledefrance.fr.; 10 granit1.iledefrance.fr.; 100 smtp3.sfrbusinessteam.fr.
-inserm.fr,7,wikidata;wikidata;wikidata;wikidata,Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre Nord | French National Institute of Health and Medical Research,,301,20 ins-mly-a317-fml1.inserm.fr.; 10 ins-par6-b11-fml1.inserm.fr.
+in2p3.cnrs.fr,7,wikidata;academia,Institut national de physique nucléaire et de physique des particules,central,HttpConnectTimeoutException: HTTP connect timed out,none
+inserm.fr,7,wikidata;wikidata;wikidata;wikidata;academia,Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre Nord | French National Institute of Health and Medical Research,central,301,20 ins-mly-a317-fml1.inserm.fr.; 10 ins-par6-b11-fml1.inserm.fr.
+marseille.archi.fr,7,academia;academia,Investigations sur l'histoire et l'actualité des mutations architecturales | Q51781476,central,,
 nouvelle-aquitaine.fr,7,wikidata;wikidata,Nouvelle-Aquitaine Regional Council | Regional Council of Limousin,central-1,302,0 mx1.nouvelle-aquitaine.pro.; 0 mx3.nouvelle-aquitaine.pro.; 0 mx2.nouvelle-aquitaine.pro.
 service-public.fr,7,linkgraph,Linked from 165 public-sector domains,,301,20 relay2-c.dila.fr.; 10 relay1-c.dila.fr.
 tribunal-de-paris.justice.fr,7,wikidata;wikidata;wikidata;wikidata,Parquet national financier | Tribunal de grande instance de Paris | Tribunal judiciaire de Paris | Q108457439,,ConnectException,none
+u-bordeaux.fr,7,wikidata;academia,Health technologies | University of Bordeaux,central,HttpConnectTimeoutException: HTTP connect timed out,none
 conseil-constitutionnel.fr,6,wikidata,Constitutional Council of France,central,301,30 conseil-constitutionnel.mailinblack.com.
 courdecassation.fr,6,wikidata,Court of Cassation,central,200,20 hkgmail1.hk.publicisgroupe.net.; 5 parmail1.fr.publicisgroupe.net.; 10 chimail1.us.publicisgroupe.net.
 escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,,ConnectException,none
@@ -30,6 +33,8 @@ france.representation.ec.europa.eu,6,wikidata;wikidata,Representative Office of 
 francetravail.fr,6,linkgraph,Linked from 12 public-sector domains,,301,10 mx2.hc1819-26.eu.iphmx.com.; 10 mx1.hc1819-26.eu.iphmx.com.
 francoallemand.com,6,wikidata;wikidata,Deutsch-Französische Industrie- und Handelskammer,,302,0 francoallemand-com.mail.protection.outlook.com.
 frankrig.um.dk,6,wikidata;wikidata,"Embassy of Denmark, Paris",central,301,none
+isee.nc,6,wikidata;academia,Institute of Statistics and Economic Studies,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+ispf.pf,6,wikidata;academia,Q19375721,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 jesuites.com,6,wikidata;wikidata,Jesuit Province of Francophone Western Europe,,301,10 jesuites-com.mail.protection.outlook.com.
 locongres.org,6,wikidata;wikidata,Permanent Congress of the Occitan Language,,200,120 mxb.ovh.net.; 5 mx2.ovh.net.; 1 mx1.ovh.net.
 secomunidades.pt,6,wikidata;wikidata,"Consulate General of Portugal, Marseille | portuguese consulate, Lyon",,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -45,6 +50,7 @@ agence.eau-loire-bretagne.fr,4,wikidata,Agence de l'eau Loire-Bretagne,,302,none
 agence.erasmusplus.fr,4,wikidata,Q138745523,,200,none
 agencedpc.fr,4,wikidata,Q55385475,,301,0 agencedpc-fr.mail.protection.outlook.com.
 ageps.aphp.fr,4,wikidata,Agence générale des équipements et produits de santé,,302,0 .
+agroparistech.fr,4,academia,"AgroParisTech, Paris-Saclay University",central,,
 aixenprovence.fr,4,wikidata,Q117408151,,200,5 mailhost.mairie-aixenprovence.fr.; 8 mailhost2.mairie-aixenprovence.fr.
 alimh.inra.fr,4,wikidata,Département Alimentation Humaine,,ConnectException,none
 alpes.cnrs.fr,4,wikidata,"CNRS, Délégation Alpes",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
@@ -59,23 +65,47 @@ anciennedouane.fr,4,wikidata,Ancienne Douane,,301,10 spool.mail.gandi.net.; 50 f
 angers-nantes.inra.fr,4,wikidata,Centre Angers-Nantes Pays de la Loire,,ConnectException,0 mx2.relay.renater.fr.; 0 mx1.relay.renater.fr.
 anses.fr,4,wikidata,Unité sous contrat Caractérisation et suivi des phénomènes d'évolution des résistances,,301,120 jerry.adista.fr.; 110 tom.adista.fr.; 10 mailhost.anses.fr.
 aquitaine-poitou-charentes.inserm.fr,4,wikidata,"Délégation Aquitaine, Poitou-Charentes",,ConnectException,none
+arar.mom.fr,4,academia,Archéologie et Archéométrie,central,,
+arboretumdesbarres.fr,4,academia,Arboretum national des Barres,central,,
+archam.cnrs.fr,4,academia,Archéologie des Amériques,central,,
+archimede.unistra.fr,4,academia,Archéologie et Histoire Ancienne : Méditerranée – Europe,central,,
 arcom.fr,4,wikidata,Regulatory Authority for Audiovisual and Digital Communication,,301,50 mx3.arcom.fr.; 10 mx1.arcom.fr.; 10 mx2.arcom.fr.
+arscan.fr,4,academia,Archéologies et Sciences de l’Antiquité,central,,
+artehis.u-bourgogne.fr,4,academia,Q51780478,central,,
+asm.cnrs.fr,4,academia,Archéologie des sociétés méditerranéennes,central,,
+assas-universite.fr,4,academia,Panthéon-Assas University Paris,central,,
 assemblee-afe.fr,4,wikidata,Assembly of French Citizens Abroad,,301,5 mta-gw.infomaniak.ch.
 aviesan.fr,4,wikidata,French National Alliance for Life Sciences and Health,,IOException: HTTP/1.1 header parser received no bytes,10 ins-mly-fml3.inserm.fr.
 bap.inra.fr,4,wikidata,Département Biologie et amélioration des plantes,,ConnectException,none
 bdi.fr,4,wikidata,Bretagne Développement Innovation,,302,0 bdi-fr.mail.protection.outlook.com.
 benin-ambassade.fr,4,wikidata,Embassy of Benin in France,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching benin-ambassade.fr found.,1 beninambassade-fr01c.mail.protection.outlook.com.
+biomedicale.parisdescartes.fr,4,academia,Q51783309,central,,
 bnu.fr,4,wikidata,Bibliothèque nationale et universitaire de Strasbourg,,301,3 bnu-fr.mail.eo.outlook.com.
+bordeaux-inp.fr,4,academia,Institut polytechnique de Bordeaux,central,,
 bordeaux.cour-administrative-appel.fr,4,wikidata,Q3000914,,200,none
 bourgognefranchecomte.cci.fr,4,wikidata,Chambre de commerce et d'industrie de région Bourgogne-Franche-Comté,,301,0 bourgognefranchecomte-cci-fr.mail.protection.outlook.com.
+bretagne-inp.fr,4,academia,Bretagne Institute of Technology,central,,
 calvados.fr,4,wikidata,Q117407697,,301,20 vade-mx-eu-fallback01.hornetsecurity.com.; 20 vade-mx-eu-fallback02.hornetsecurity.com.; 10 vade-mx-fr01.hornetsecurity.com.; 10 vade-mx-fr02.hornetsecurity.com.
 cavimac.fr,4,wikidata,CAVIMAC,,200,5 cavimac-fr.mail.protection.outlook.com.
+cbn-alpin.fr,4,academia,National Alpine Botanical Conservatory,central,,
+cc.in2p3.fr,4,academia,Centre de Calcul de l'Institut National de Physique Nucléaire et de Physique des Particules,central,,
+ccj.cnrs.fr,4,academia,Centre Camille Jullian,central,,
 ccomptes.fr,4,wikidata,Court of Audit,central,301,30 mail3.ccomptes.fr.; 10 mail1.ccomptes.fr.; 40 mail4.ccomptes.fr.; 20 mail2.ccomptes.fr.
 ccsf.fr,4,wikidata,Swedish Chamber of Commerce in France,,200,20 vade-mx-eu-fallback02.hornetsecurity.com.; 10 vade-mx-fr01.hornetsecurity.com.; 20 vade-mx-eu-fallback01.hornetsecurity.com.; 10 vade-mx-fr02.hornetsecurity.com.
+centralelille.fr,4,academia,École Centrale de Lille,central,,
+centralesupelec.fr,4,academia,CentraleSupélec,central,,
 centre-poitou-charentes.cnrs.fr,4,wikidata,Délégation Centre Limousin Poitou-Charentes,,ConnectException,none
+centrechastel.sorbonne-universite.fr,4,academia,centre André-Chastel,central,,
+cepam.cnrs.fr,4,academia,"Cultures et Environnements. Préhistoire, Antiquité, Moyen Âge",central,,
 cerema.fr,4,wikidata,"Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement",,301,5 relternet-02.developpement-durable.gouv.fr.; 10 ca.relternet-02.developpement-durable.gouv.fr.; 10 ca.relternet-01.developpement-durable.gouv.fr.; 5 relternet-01.developpement-durable.gouv.fr.; 10 cs.relternet-02.developpement-durable.gouv.fr.; 10 cs.relternet-01.developpement-durable.gouv.fr.
+cesdip.fr,4,academia,Centre de recherches sociologiques sur le droit et les institutions pénales,central,,
+cesr.cnrs.fr,4,academia,Centre for Advanced Renaissance Studies,central,,
+cesr.univ-tours.fr,4,academia,Centre for Advanced Renaissance Studies,central,,
+cfee.cnrs.fr,4,academia,Centre français des études éthiopiennes,central,,
 cg971.fr,4,wikidata,departmental council of Guadeloupe,central-1,301,5 mail2.cg971.fr.
+chrono-environnement.univ-fcomte.fr,4,academia,Chrono-Environment Laboratory,central,,
 cirad.fr,4,wikidata,French Agricultural Research Centre for International Development,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 antispam.cirad.fr.
+clermont-auvergne-inp.fr,4,academia,National Polytechnic Institute of Clermont Auvergne,central,,
 cncdh.fr,4,wikidata,Commission nationale consultative des droits de l'homme,,301,10 smtp2.pm.gouv.fr.; 10 smtp1.pm.gouv.fr.
 cnda.fr,4,wikidata,National court for asylum right,,ConnectException,none
 cnrgv.toulouse.inra.fr,4,wikidata,Q2945937,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cnrgv.toulouse.inra.fr found.,none
@@ -91,16 +121,28 @@ consulatdumalienfrance.fr,4,wikidata,Consulate general of Mali in France,,200,10
 consulatmarocstrasbourg.fr,4,wikidata,"General Consulate of Morocco, Strasbourg",,HttpConnectTimeoutException: HTTP connect timed out,none
 consulsen-paris.fr,4,wikidata,Consulate general of Senegal in Paris,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.consulsen-paris.fr.
 cote-azur.cnrs.fr,4,wikidata,CNRS Délégation Côte d'Azur,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 graal.dr20.cnrs.fr.
+crc.mnhn.fr,4,academia,"Centre   ministère de Recherche Scientifique ,Technologie et Innovation",central,,
+crulh.univ-lorraine.fr,4,academia,Centre Régional Universitaire Lorrain d'Histoire,central-1,,
+cstb.fr,4,academia,Scientific and Technical Centre for Building,central,,
+cyu.fr,4,academia,CY Cergy Paris University,central,,
+departement974.fr,4,academia,Mascarin jardin botanique de La Réunion,central-1,,
 dgdr.cnrs.fr,4,wikidata,Direction Générale Déléguée aux Ressources,,200,none
 douai.cour-administrative-appel.fr,4,wikidata,Q3000915,,200,none
 dr17.cnrs.fr,4,wikidata,Délégation Bretagne et Pays de la Loire,,ConnectException,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
 dr18.cnrs.fr,4,wikidata,"Délégation Nord, Pas-de-Calais et Picardie",,ConnectException,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
 dr19.cnrs.fr,4,wikidata,Délégation Normandie,,ConnectException,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
 dr7.cnrs.fr,4,wikidata,Délégation Rhône Auvergne,,ConnectException,0 pmg.dr7.cnrs.fr.; 10 cismrelais.univ-lyon1.fr.; 20 pop.univ-lyon1.fr.
+ecole-navale.fr,4,academia,Naval Academy Research Institute,central,,
+efeo.fr,4,academia,École française d'Extrême-Orient,central,,
 efpa.inra.fr,4,wikidata,"Département Écologie des Forêts, Prairies et milieux Aquatiques",,ConnectException,none
 eglise.catholique.fr,4,wikidata,National penal ecclesiastical court,,200,0 eglise-catholique-fr.mail.protection.outlook.com.
+ehess.fr,4,academia,School for Advanced Studies in the Social Sciences,central,,
 embassyofnamibia.fr,4,wikidata,Embassy of Namibia in Paris,central,200,10 mail.embassyofnamibia.fr.
 emboliviafrancia.fr,4,wikidata,embassy of Bolivia in France,central,301,40 mx4.mail.ovh.net.; 1 mx0.mail.ovh.net.; 20 mx2.mail.ovh.net.; 30 mx3.mail.ovh.net.; 10 mx1.mail.ovh.net.
+english.univ-nantes.fr,4,academia,Nantes University,central,,
+ensc-rennes.fr,4,academia,École nationale supérieure de chimie de Rennes,central,,
+enscmu.uha.fr,4,academia,École nationale supérieure de chimie de Mulhouse,central,,
+enssib.fr,4,academia,École nationale supérieure des sciences de l'information et des bibliothèques,central,,
 france-education-international.fr,4,wikidata,France Éducation international,,200,10 franceeducationinternational-fr01e2b.mail.protection.outlook.com.
 franceagrimer.fr,4,wikidata,FranceAgriMer,,ConnectException,10 srmrs1.franceagrimer.fr.; 10 srmrs2.franceagrimer.fr.
 franceclat.fr,4,wikidata,Q2946080,,200,1 franceclat-fr.mail.protection.outlook.com.
@@ -109,8 +151,10 @@ grand-est.inserm.fr,4,wikidata,Délégation Grand-Est,,ConnectException,none
 grand-ouest.inserm.fr,4,wikidata,Délégation Grand-Ouest,,ConnectException,none
 grandest.fr,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: Remote host terminated the handshake,1 grandest-fr.mail.protection.outlook.com.
 grandparisamenagement.fr,4,wikidata,Q16303550,,308,0 grandparisamenagement-fr.mail.protection.outlook.com.
+grenoble-inp.fr,4,academia,Grenoble Institute of Technology,central,,
 guadeloupe.tribunal-administratif.fr,4,wikidata,Q55475537,,200,none
 guyane.tribunal-administratif.fr,4,wikidata,Q55475559,,200,none
+hartis.univ-lille.fr,4,academia,"HARTIS - Histoire, histoire de l'art, archéologie, textes, images, sociétés",central,,
 hautenormandie.fr,4,wikidata,Regional Council of Upper Normandy,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 spool.mail.gandi.net.; 50 fb.mail.gandi.net.
 hautsdefrance.cci.fr,4,wikidata,Chamber of commerce Grand Lille,,HttpConnectTimeoutException: HTTP connect timed out,10 hautsdefrance-cci-fr.mail.protection.outlook.com.
 hautsdefrance.fr,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,10 mxa.hautsdefrance.fr.; 10 mxl.hautsdefrance.fr.
@@ -118,23 +162,42 @@ health-data-hub.fr,4,wikidata,Health Data Hub,,HttpConnectTimeoutException: HTTP
 ieom.fr,4,wikidata,Institut d'émission d'outre-mer,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.ieom.fr.
 ifsttar.fr,4,wikidata,IFSTTAR,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.relay.renater.fr.; 10 mx2.relay.renater.fr.
 ign.fr,4,wikidata,Institut national de l'information géographique et forestière,,HttpConnectTimeoutException: HTTP connect timed out,5 ign-fr.mail.protection.outlook.com.
+iiac.cnrs.fr,4,academia,Institut Interdisciplinaire d'Anthropologie du Contemporain,central,,
 iledefrance-gif.cnrs.fr,4,wikidata,Délégation Ile-de-France Gif-sur-Yvette (DR4),,HttpConnectTimeoutException: HTTP connect timed out,none
 iledefrance-meudon.cnrs.fr,4,wikidata,Délégation Ile-de-France Meudon (DR5),,HttpConnectTimeoutException: HTTP connect timed out,none
 iledefrance-villejuif.cnrs.fr,4,wikidata,Délégation Ile-de-France Villejuif (DR1),,HttpConnectTimeoutException: HTTP connect timed out,none
-in2p3.cnrs.fr,4,wikidata,Institut national de physique nucléaire et de physique des particules,,HttpConnectTimeoutException: HTTP connect timed out,none
+inalco.fr,4,academia,Institut national des langues et civilisations orientales,central,,
+inm.cnam.fr,4,academia,National Institute of Metrology,central,,
+inp-toulouse.fr,4,academia,National Polytechnic Institute of Toulouse,central,,
 inpi.fr,4,wikidata,National Industrial Property Institute,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.inpi.fr.; 100 mail6.inpi.fr.; 100 mail5.inpi.fr.; 100 mail3.inpi.fr.; 100 mail4.inpi.fr.; 10 mail2.inpi.fr.
+inrs.fr,4,academia,Institut national de recherche et de sécurité,central,,
+insmi.cnrs.fr,4,academia,National Institute of Mathematical Sciences and their Interactions,central,,
+institut-acte.cnrs.fr,4,academia,Institut ACTE (France),central,,
+intd.cnam.fr,4,academia,Institut national des techniques de la documentation,central,,
+ints.fr,4,academia,Institut National de la Transfusion Sanguine,central,,
+ipanema.cnrs.fr,4,academia,Institut photonique d'analyse non-destructive européen des matériaux anciens,central,,
+ircp.cnrs.fr,4,academia,Institut de Recherche de Chimie Paris,central,,
+iremus.cnrs.fr,4,academia,Institut de Recherche en Musicologie,central,,
+itodys.univ-paris7.fr,4,academia,Interfaces Traitements Organisation et Dynamique des Systèmes,central,,
+iuar-lieu-amu.fr,4,academia,Institute of Urban and Regional Planning,central-1,,
 justice.fr,4,wikidata,Q115471229,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 mx02.m24.pfai.din.gouv.fr.; 5 mx01.m24.pfai.din.gouv.fr.; 5 mx04.m24.pfai.din.gouv.fr.; 5 mx03.m24.pfai.din.gouv.fr.
 kenyaembassyparis.fr,4,wikidata,Embassy of Kenya in France,central,200,0 kenyaembassyparis.fr.
 la-reunion.tribunal-administratif.fr,4,wikidata,Q3538842,,HttpConnectTimeoutException: HTTP connect timed out,none
 ladom.fr,4,wikidata,Agence de l'outre-mer pour la mobilité (France),,HttpConnectTimeoutException: HTTP connect timed out,0 ladom-fr.mail.protection.outlook.com.
+lampea.cnrs.fr,4,academia,Laboratoire Méditerranéen de Préhistoire Europe Afrique,central,,
+languedoc-roussillon-universites.fr,4,academia,Languedoc Roussillon Universities,central,,
 languedoc-roussillon.inserm.fr,4,wikidata,Délégation Languedoc-Roussillon,,HttpConnectTimeoutException: HTTP connect timed out,none
 lassuranceretraite.fr,4,wikidata,Caisse Nationale d'Assurance Vieillesse,,HttpConnectTimeoutException: HTTP connect timed out,5 mx2.hc898-42.eu.iphmx.com.; 5 mx1.hc898-42.eu.iphmx.com.
 lyon.cour-administrative-appel.fr,4,wikidata,Q3000916,,HttpConnectTimeoutException: HTTP connect timed out,none
+map.cnrs.fr,4,academia,Models and simulations for architecture and cultural heritage,central,,
 marseille.cour-administrative-appel.fr,4,wikidata,Q3000919,,HttpConnectTimeoutException: HTTP connect timed out,none
 martinique.tribunal-administratif.fr,4,wikidata,Q55475607,,200,none
+mathdoc.fr,4,academia,Cellule de coordination documentaire nationale pour les mathématiques,central,,
+mer.paris-sorbonne.fr,4,academia,Q51794408,central,,
 meteofrance.com,4,linkgraph,Linked from 9 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 mia.inra.fr,4,wikidata,Département Mathématiques et Informatique Appliquées,,HttpConnectTimeoutException: HTTP connect timed out,none
 mica.inra.fr,4,wikidata,Département Microbiologie et chaîne alimentaire,,HttpConnectTimeoutException: HTTP connect timed out,none
+mnhn.fr,4,academia,Muséum national d'histoire naturelle,central,,
 mofaic.gov.ae,4,wikidata,"Consular Section of the United Arab Emirates, Paris",,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 montpellier.cci.fr,4,wikidata,Chambre de commerce et d'industrie de Montpellier,,301,10 montpellier-cci-fr.mail.protection.outlook.com.
 montreuil.tribunal-administratif.fr,4,wikidata,Q3538841,,200,none
@@ -143,18 +206,22 @@ nantes.cour-administrative-appel.fr,4,wikidata,Cour administrative d'appel de Na
 naturefrance.fr,4,wikidata,Q3348454,,200,10 mail.brgm.fr.; 50 mail2.brgm.fr.
 nimes.tribunal-administratif.fr,4,wikidata,Tribunal Administratif de Nîmes,,HttpConnectTimeoutException: HTTP connect timed out,none
 nord-ouest.inserm.fr,4,wikidata,Délégation Nord-Ouest,,ConnectException,none
+normandie-univ.fr,4,academia,Normandy University,central,,
 normandie.cci.fr,4,wikidata,Q97168901,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.normandie.cci.fr.; 0 mx.normandie.cci.fr.
 nouvelle-caledonie.tribunal-administratif.fr,4,wikidata,Q19951308,,200,none
 onera.fr,4,wikidata,Office National d'Études et de Recherches Aérospatiales,,301,0 emix.onera.fr.
 oqai.fr,4,wikidata,OQEI - Observatoires de la qualité des environnements intérieurs,,301,10 cstb-fr.in.tmes.trendmicro.eu.
 ouzbekistan.fr,4,wikidata,"Embassy of Uzbekistan, Paris",central,200,10 s13597.fra1.stableserver.net.
 paca.inserm.fr,4,wikidata,Délégation Provence-Alpes-Côte d’Azur et Corse,,ConnectException,none
+pantheonsorbonne.fr,4,academia,University of Paris 1 Pantheon-Sorbonne,central,,
 paris-centre.cnrs.fr,4,wikidata,Délégation Paris-Centre (DR2),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 paris-conciergerie.fr,4,wikidata,Conciergerie,,ConnectException,none
 paris-normandie.cnrs.fr,4,wikidata,Délégation Paris-Normandie (DR16),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 paris.cour-administrative-appel.fr,4,wikidata,Administrative Court of Appeal of Paris,,200,none
+parisnanterre.fr,4,academia,Paris Nanterre University,central,,
 partnaire.fr,4,wikidata,Partnaire France,,HttpConnectTimeoutException: HTTP connect timed out,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
 patstec.fr,4,wikidata,mission nationale de sauvegarde du patrimoine scientifique et technique contemporain,,301,10 mail.patstec.fr.
+pharmacie.univ-amu.fr,4,academia,Q51780282,central,,
 phase.inra.fr,4,wikidata,Département Physiologie animale et systèmes d’élevage,,ConnectException,none
 polynesie-francaise.tribunal-administratif.fr,4,wikidata,Q55475613,,HttpConnectTimeoutException: HTTP connect timed out,none
 port-rhenan-colmar.fr,4,wikidata,Q54819665,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -170,6 +237,10 @@ sad.inra.fr,4,wikidata,Département Sciences pour l’action et le développemen
 sae2.inra.fr,4,wikidata,"Département Sciences sociales, agriculture et alimentation, espace et environnement",,ConnectException,none
 saint-martin.tribunal-administratif.fr,4,wikidata,Q55475758,,200,none
 saint-pierre-et-miquelon.tribunal-administratif.fr,4,wikidata,Q56146650,,200,none
+sciencespo-rennes.fr,4,academia,Institut d'études politiques de Rennes,central,,
+sciencespo.fr,4,academia,Paris Institute of Political Studies,central,,
+sorbonne-nouvelle.fr,4,academia,Sorbonne Nouvelle-Paris 3,central,,
+sorbonne-universite.fr,4,academia,Sorbonne University,central,,
 spe.inra.fr,4,wikidata,Département Santé des plantes et environnement,,301,none
 strasbourg.tribunal-administratif.fr,4,wikidata,Q3538843,,200,none
 supplay.fr,4,wikidata,Q140701082,,301,0 supplay-fr.mail.protection.outlook.com.
@@ -179,12 +250,77 @@ temporis-franchise.fr,4,wikidata,Temporis,,ConnectException: Host is unreachable
 titss-cntss.fr,4,wikidata,National Court for Health and Social Services Rates,central,HttpConnectTimeoutException: HTTP connect timed out,none
 toulouse.tribunal-administratif.fr,4,wikidata,Q21027490,,HttpConnectTimeoutException: HTTP connect timed out,none
 tours.fr,4,wikidata,Q111083328,,HttpConnectTimeoutException: HTTP connect timed out,0 smtp.tours-metropole.fr.
+traces.univ-tlse2.fr,4,academia,"Travaux et Recherches Archéologiques sur les Cultures, les Espaces et les Sociétés",central,,
+trajectoires.cnrs.fr,4,academia,Trajectoires,central,,
 tribunal-conflits.fr,4,wikidata,Tribunal des conflits,,HttpConnectTimeoutException: HTTP connect timed out,none
 tribunal-stationnement-payant.fr,4,wikidata,Q48755315,,HttpConnectTimeoutException: HTTP connect timed out,none
 txiktxak.fr,4,wikidata,Txik Txak,,HttpConnectTimeoutException: HTTP connect timed out,5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.; 100 mx3.mail.ovh.net.
-u-bordeaux.fr,4,wikidata,Health technologies,,HttpConnectTimeoutException: HTTP connect timed out,none
+u-bordeaux-montaigne.fr,4,academia,Bordeaux Montaigne University,central,,
+u-bourgogne.fr,4,academia,University of Burgundy Europe,central,,
+u-paris.fr,4,academia,Paris Cité University,central,,
+u-pec.fr,4,academia,Paris 12 University,central,,
+u-picardie.fr,4,academia,University of Picardie Jules Verne,central,,
+ube.fr,4,academia,University of Burgundy Europe,central,,
+ubfc.fr,4,academia,Burgundy - Franche-Comté University Group,central,,
+uca.fr,4,academia,Clermont Auvergne University,central,,
+uha.fr,4,academia,Upper Alsace University,central,,
 umifre.fr,4,wikidata,Instituts Français de Recherche à l'Etranger,,ConnectException,100 zimbra.cid.msh-paris.fr.; 50 merak.msh-paris.fr.
+umlp.fr,4,academia,Marie and Louis Pasteur University,central,,
+umontpellier.fr,4,academia,University of Montpellier,central,,
+umr-md2.univ-amu.fr,4,academia,Q51784800,central,,
+umrausser.cnrs.fr,4,academia,"Architecture, urbanisme, société: savoirs, enseignement, recherche (Research unit)",central,,
+unicaen.fr,4,academia,University of Caen Normandy,central,,
+unilim.fr,4,academia,University of Limoges,central,,
+unimes.fr,4,academia,University of Nîmes,central,,
+unistra.fr,4,academia,University of Strasbourg,central,,
+univ-amu.fr,4,academia,Aix-Marseille University,central,,
+univ-angers.fr,4,academia,University of Angers,central-1,,
+univ-antilles.fr,4,academia,University of the French Antilles,central,,
+univ-artois.fr,4,academia,Artois University,central,,
+univ-avignon.fr,4,academia,Avignon University,central,,
+univ-brest.fr,4,academia,Université de Bretagne Occidentale,central,,
+univ-cotedazur.fr,4,academia,University of Côte d'Azur,central,,
+univ-evry.fr,4,academia,University of Évry Val d'Essonne,central,,
+univ-grenoble-alpes.fr,4,academia,Grenoble Alpes University,central,,
+univ-gustave-eiffel.fr,4,academia,Gustave Eiffel University,central,,
+univ-guyane.fr,4,academia,University of French Guiana,central,,
+univ-larochelle.fr,4,academia,University of La Rochelle,central,,
+univ-lehavre.fr,4,academia,University of Le Havre,central,,
+univ-lemans.fr,4,academia,Le Mans Université,central-1,,
+univ-lille.fr,4,academia,University of Lille,central,,
+univ-lorraine.fr,4,academia,University of Lorraine,central,,
+univ-lyon1.fr,4,academia,Claude Bernard University Lyon 1,central,,
+univ-lyon2.fr,4,academia,Lumière University Lyon 2,central,,
+univ-lyon3.fr,4,academia,Jean Moulin University - Lyon 3,central,,
+univ-montp3.fr,4,academia,"Paul-Valéry University (Montpellier, 1970-2024)",central,,
+univ-nantes.fr,4,academia,Nantes University,central,,
+univ-orleans.fr,4,academia,University of Orléans,central,,
+univ-paris8.fr,4,academia,Paris 8 University,central,,
+univ-pau.fr,4,academia,University of Pau and Pays de l'Adour,central,,
+univ-perp.fr,4,academia,University of Perpignan,central,,
+univ-poitiers.fr,4,academia,University of Poitiers,central,,
+univ-reims.fr,4,academia,University of Reims,central,,
+univ-rennes2.fr,4,academia,University of Rennes 2 – Upper Brittany,central-1,,
+univ-reunion.fr,4,academia,University of La Réunion,central,,
+univ-rouen.fr,4,academia,University of Rouen-Normandy,central,,
+univ-smb.fr,4,academia,Savoy Mont Blanc University,central,,
+univ-spn.fr,4,academia,Sorbonne Paris North University,central,,
+univ-st-etienne.fr,4,academia,Jean Monnet University,central,,
+univ-tln.fr,4,academia,University of Toulon,central,,
+univ-tlse2.fr,4,academia,University Toulouse - Jean Jaurès,central,,
+univ-toulouse.fr,4,academia,University of Toulouse,central,,
+univ-tours.fr,4,academia,Tours University,central,,
+univ-ubs.fr,4,academia,University of Southern Brittany,central,,
+univ-valenciennes.fr,4,academia,University of Valenciennes,central,,
+universite-lyon.fr,4,academia,University of Lyon,central,,
+universite-paris-saclay.fr,4,academia,Paris-Saclay University,central,,
+universiteparisseine.fr,4,academia,University of Paris-Seine,central,,
+uphf.fr,4,academia,Polytechnic University of Hauts-de-France,central,,
 urssaf.fr,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,10 mx11.urssaf.fr.; 20 mx71.urssaf.fr.; 10 mx61.urssaf.fr.; 10 mx51.urssaf.fr.; 10 mx41.urssaf.fr.; 10 mx31.urssaf.fr.; 10 mx21.urssaf.fr.; 20 mx81.urssaf.fr.; 20 mx91.urssaf.fr.
+ut-capitole.fr,4,academia,Toulouse Capitole University,central,,
+utc.fr,4,academia,University of Technology of Compiègne,central,,
+utt.fr,4,academia,University of Technology of Troyes,central,,
+uvsq.fr,4,academia,Université de Versailles Saint-Quentin-en-Yvelines,central,,
 versailles.cour-administrative-appel.fr,4,wikidata,Q3000924,,HttpConnectTimeoutException: HTTP connect timed out,none
 wallis-et-futuna.tribunal-administratif.fr,4,wikidata,Q56146789,,200,none
 academiemarquisienne.com,3,wikidata,Marquesan Academy,,200,none
@@ -205,11 +341,15 @@ bordeus.consuladoportugal.mne.pt,3,wikidata,"Consulate General of Portugal, in B
 bretagne.bzh,3,wikidata,Regional Council of Brittany,central-1,302,none
 brezhoneg.bzh,3,wikidata,Ofis publik ar brezhoneg,,301,10 mail.opab.bzh.
 bus-tub.com,3,wikidata,TUB Meuse Grand Sud,,301,none
+cbnbl.org,3,academia,National Botanical Conservatory of Bailleul,central,,
+cefc.com.hk,3,academia,French Centre for Research on Contemporary China,central,,
 cert-ist.com,3,wikidata,Computer Emergency Response Team,,302,none
 cgbresil.org,3,wikidata,"Consulate-General of Brazil, Paris",,ConnectException,none
 cgireunion.com,3,wikidata,"Consulate General of India, Saint-Denis",,IOException: HTTP/1.1 header parser received no bytes,none
+chartes.psl.eu,3,academia,École des chartes,central,,
 ciheam.org,3,wikidata,International Centre for Advanced Mediterranean Agronomic Studies,,HttpTimeoutException: request timed out,none
 civam.org,3,wikidata,Fédération Nationale des Centres d'Initiatives pour Valoriser l’Agriculture et le Milieu Rural,,301,none
+clamor.criminocorpus.org,3,academia,Center for Digital Humanities and History of Justice,central,,
 clermontmetropole.eu,3,linkgraph,Linked from 3 public-sector domains,,307,none
 conseil-europe.delegfrance.org,3,wikidata,Permanent Mission of France to the Council of Europe,,301,none
 consmadrun.com,3,wikidata,Q2995347,,ConnectException,none
@@ -226,8 +366,10 @@ consulmada-marseille.com,3,wikidata,Q16507624,,HttpConnectTimeoutException: HTTP
 consulsenbordeaux.com,3,wikidata,Q16507655,,HttpConnectTimeoutException: HTTP connect timed out,none
 cpmr-atlantic.org,3,wikidata,Atlantic Arc Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
 dafa-afgh.org,3,wikidata,French Archeological Delegation to Afghanistan,,301,0 mail.dafa-afgh.org.
+dauphine.psl.eu,3,academia,Paris Dauphine University,central,,
 drt-cea.com,3,wikidata,Direction de la recherche technologique,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 embajadadominicanaenfrancia.com,3,wikidata,Embassy of the Dominican Republic in France,central,HttpConnectTimeoutException: HTTP connect timed out,none
+ephe.psl.eu,3,academia,École pratique des hautes études,central,,
 esa.int,3,wikidata,European Space Agency,,301,10 esa-int.mail.protection.outlook.com.
 esan.eus,3,wikidata,ESAN Basque Police,,HttpConnectTimeoutException: HTTP connect timed out,none
 eurogendfor.org,3,wikidata,European Gendarmerie Force,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -237,17 +379,19 @@ fr.mfa.lt,3,wikidata,"Embassy of Lithuania, Paris",central,HttpConnectTimeoutExc
 france.ambassadetogo.org,3,wikidata,Embassy of Togo in France,central,200,none
 france.mid.ru,3,wikidata,"Embassy of Russia, Paris",central,HttpConnectTimeoutException: HTTP connect timed out,none
 francia.consuladovenezuela.org,3,wikidata,"Embassy of Venezuela, Paris",central,200,none
+ganil-spiral2.eu,3,academia,Grand Accélérateur National d'Ions Lourds,central,,
 hegodeveza.com,3,wikidata,Honorary consulate of Slovenia in Toulouse,,IOException: Received RST_STREAM: Protocol error,none
 heronax.com,3,wikidata,Heronax,,200,1 mx1.mail.ovh.net.; 0 heronax-com.mail.protection.outlook.com.; 5 mx2.mail.ovh.net.; 32767 ms73296462.msv1.invalid.; 100 mx3.mail.ovh.net.
 ibisa.net,3,wikidata,Infrastructures en Biologie Santé et Agronomie,,HttpConnectTimeoutException: HTTP connect timed out,none
 iccwbo.org,3,wikidata,International Court of Arbitration,,200,10 iccwbo-org.mail.protection.outlook.com.
 illevia.bzh,3,wikidata,Q3148710,,301,none
+ines-solaire.org,3,academia,National Institute of Solar Energy,central,,
 institutfrancais.com,3,wikidata,Institut français,,301,none
 instytutpolski.pl,3,wikidata,Polish Institute Paris,,IOException: Received RST_STREAM: Internal error,none
 interpol.int,3,wikidata,Interpol,,HttpConnectTimeoutException: HTTP connect timed out,none
-isee.nc,3,wikidata,Institute of Statistics and Economic Studies,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-ispf.pf,3,wikidata,Q19375721,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 jsp-saintmauricedebeynost.com,3,wikidata,Jeunes Sapeurs Pompiers de Saint-Maurice-de-Beynost,,301,none
+juriscope.org,3,academia,Q51783258,central,,
+lefildarar.hypotheses.org,3,academia,Archéologie et Archéométrie,central,,
 lurraldea.net,3,wikidata,Basque Country Development Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 lyo.econsulat.tn,3,wikidata,"Consulate General of Tunisia, Lyon",,HttpConnectTimeoutException: HTTP connect timed out,none
 lyon.china-consulate.org,3,wikidata,Consulate General of China in Lyon,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching lyon.china-consulate.org found.,none
@@ -265,7 +409,10 @@ mfa.tj,3,wikidata,"Embassy of Tajikistan, Paris",central,SSLHandshakeException: 
 misiones.cubaminrex.cu,3,wikidata,"Embassy of Cuba, France",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mzv.sk,3,wikidata,"Embassy of Slovakia, Paris",central,301,none
 norway.no,3,wikidata,"Embassy of Norway, Paris",central,301,none
+nucleide.org,3,academia,Laboratoire National Henri Becquerel,central,,
 nzembassy.com,3,wikidata,"Consulate General of New Zealand, Nouméa",,ConnectException,none
+observatoiredeparis.psl.eu,3,academia,"Paris Observatory, PSL University",central,,
+oca.eu,3,academia,Côte d'Azur Observatory,central,,
 ocde.delegfrance.org,3,wikidata,Permanent Mission of France to the OECD,,301,none
 onu-geneve.delegfrance.org,3,wikidata,Permanent Mission of France to the United Nations Office in Geneva,,301,none
 onu-rome.delegfrance.org,3,wikidata,Q88580888,,301,none
@@ -280,9 +427,11 @@ paris.mofa.go.ug,3,wikidata,"Embassy of Uganda, Paris",central,200,none
 parlement.fr,3,wikidata;wikidata;wikidata;wikidata,French Parliament,central,ConnectException,30 smtp31.assemblee-nationale.fr.; 10 smtp21.assemblee-nationale.fr.
 paysbasetvous.nl,3,wikidata,"Embassy of The Netherlands, Paris",central,301,0 .
 pro.ovh.net,3,wikidata,GIP International,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pro.ovh.net found.,1 pro.ovh.net.
+psl.eu,3,academia,PSL Research University,central,,
 regionreunion.com,3,wikidata,Regional council of Réunion,central-1,200,none
 reseaumistral.com,3,wikidata,Réseau Mistral,,HttpConnectTimeoutException: HTTP connect timed out,none
 reunion-sdn.china-consulate.org,3,wikidata,Consulate General of China in Saint-Denis,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching reunion-sdn.china-consulate.org found.,none
+rnbm.org,3,academia,Réseau National des Bibliothèques de Mathématiques,central,,
 roc-taiwan.org,3,wikidata,Taipei Representative Office in France,,302,none
 rta02.com,3,wikidata,Régie des transports de l'Aisne,,301,none
 senconsulatmarseille.com,3,wikidata,Q16507658,,IOException: Received RST_STREAM: Protocol error,none
@@ -298,9 +447,14 @@ tae-paris.org,3,wikidata,Q139379163,,301,none
 temporis.ca,3,wikidata,Temporis,,200,none
 ugcb.net,3,wikidata,Q63147119,,200,none
 um.dk,3,wikidata,Permanent Delegation of Denmark to the OECD,,200,none
+unc.nc,3,academia,University of New Caledonia,central,,
 unesco.delegfrance.org,3,wikidata,French National Commission for UNESCO,,301,none
 unesco.diplo.de,3,wikidata,"Permanent Mission of the Federal Republic of Germany to the United Nations Educational, Scientific and Cultural Organization",,200,none
 unesco.um.dk,3,wikidata,Permanent Mission of Denmark to UNESCO,,301,none
+univ-cotedazur.eu,3,academia,University of Côte d'Azur,central,,
+univ-reims.eu,3,academia,University of Reims,central,,
+universita.corsica,3,academia,University of Corsica Pasquale Paoli,central,,
+upf.pf,3,academia,University of French Polynesia,central,,
 urba2000.com,3,wikidata,URBA 2000,,301,5 mta-gw.infomaniak.ch.
 who.int,3,wikidata,World Health Organization (France),,301,none
 brgm.fr,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,BRGM Pays de la Loire | BRGM Grand Est - Reims | BRGM Auvergne-Rhone-Alpes - Clermont-Ferrand | BRGM Grand Est - Nancy | BRGM Paris region | BRGM Occitanie - Montpellier | BRGM Mayotte | BRGM Corsica | BRGM Hauts-de-France | BRGM Nouvelle-Aquitaine - Poitiers | BRGM Bourgogne Franche- Comte | BRGM Nouvelle-Aquitaine - Bordeaux | BRGM Brittany | BRGM Provence-Alpes-Cote d’Azur | BRGM Normandy | BRGM Auvergne-Rhone-Alpes - Lyon | BRGM Grand Est - Strasbourg | BRGM Occitanie - Toulouse,,302,none

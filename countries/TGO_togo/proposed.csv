@@ -1,5 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 assemblee-nationale.tg,7,wikidata;wikidata,National Assembly,central,403,10 mx2expert.hosteur.net.; 20 mx1expert.hosteur.net.
+inseed.tg,7,wikidata;academia,INSEED-TOGO,central,HttpTimeoutException: request timed out,0 mail.inseed.tg.
 minjustg.com,6,wikidata;wikidata,Ministry of Justice and Legislation (Togo),central,ConnectException,none
 togo.tg,6,un_desa,UN/DESA national portal,,ConnectException,none
 togoleseministryofhealthlome.myewebsite.com,6,wikidata;wikidata,Togolese Ministry of Health,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching togoleseministryofhealthlome.myewebsite.com found.,none
@@ -8,7 +9,9 @@ courconstitutionnelle.tg,4,wikidata,Q19544229,,200,0 courconstitutionnelle.tg.
 courdappeldelome.tg,4,wikidata,Q139559373,central,200,0 courdappeldelome.tg.
 courdescomptes.tg,4,wikidata,Q139500459,,200,0 mail.courdescomptes.tg.
 coursupremetogo.tg,4,wikidata,Q125959623,,403,none
-inseed.tg,4,wikidata,INSEED-TOGO,central,HttpTimeoutException: request timed out,0 mail.inseed.tg.
+paul.univ-lome.tg,4,academia,University of Lomé,central,,
+univ-kara.tg,4,academia,University of Kara,central,,
+univ-lome.tg,4,academia,University of Lomé,central,,
 bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
 ceni-tg.org,3,wikidata,Q19955905,central,200,none
 cndh-togo.org,3,wikidata,National Human Rights Commission (Togo),,403,0 _dc-mx.181a5c4be146.cndh-togo.org.

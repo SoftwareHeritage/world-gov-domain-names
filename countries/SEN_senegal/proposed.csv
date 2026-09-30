@@ -1,10 +1,11 @@
 hostname,score,sources,label,level,http_status,mx
+ansd.sn,7,wikidata;academia,Agence Nationale de la Statistique et de la Démographie,central,ConnectException,10 mail.ansd.sn.
 assemblee-nationale.sn,7,wikidata;wikidata,National Assembly,central,ConnectException,none
 education.sn,7,wikidata;wikidata,Ministry of National Education of Senegal,central,200,0 education-sn.mail.protection.outlook.com.
 mctn.sn,7,wikidata;wikidata,Ministry of Telecommunications and Digital Affairs of Senegal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 smtp.gouv.sn.
+ussein.sn,7,academia;academia,Université El Hadji Ibrahima Niasse | Université Sine-Saloum El Hadji Ibrahima Niasse,central,,
 escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,,ConnectException,none
 anacim.sn,4,wikidata,Agence Nationale de l'Aviation Civile du Sénégal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 anacim-sn.mail.protection.outlook.com.
-ansd.sn,4,wikidata,Agence Nationale de la Statistique et de la Démographie,central,ConnectException,10 mail.ansd.sn.
 cena.sn,4,wikidata,National Autonomous Electoral Commission,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 conseilconstitutionnel.sn,4,wikidata,Q2993691,,200,5 smtp.gouv.sn.
 dge.sn,4,wikidata,Q140275459,,200,0 dge.sn.
@@ -16,6 +17,10 @@ mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dakar",central,IO
 onas.sn,4,wikidata,National Office for Sanitation of Senegal,,200,5 mta-gw.infomaniak.ch.
 sip.sn,4,wikidata,Commune de Matam,,ConnectException,0 sip-sn.mail.protection.outlook.com.
 statsenegal.sn,4,wikidata,Système Statistique National du Sénégal,,ConnectException,none
+uam.sn,4,academia,Université Amadou Mahtar Mbow,central,,
+uasz.sn,4,academia,Assane Seck University,central,,
+ucad.sn,4,academia,Université Cheikh Anta Diop,central,,
+ugb.sn,4,academia,Université Gaston Berger,central,,
 amba-senegal.ga,3,wikidata,Gabonese Embassy in Senegal,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.amba-senegal.ga.
 ambaburkina-sn.org,3,wikidata,embassy of Burkina Faso in Senegal,central,200,0 mail.ambaburkina-sn.org.
 ambadak.org,3,wikidata,embassy of Madagascar in Senegal,central,ConnectException,none

@@ -2,6 +2,7 @@ hostname,score,sources,label,level,http_status,mx
 boz.zm,4,wikidata,Bank of Zambia,,HttpConnectTimeoutException: HTTP connect timed out,0 boz-zm.mail.protection.outlook.com.
 nac.org.zm,4,wikidata,National HIV/AIDS/STI/TB Council,,200,dig error
 nhra.org.zm,4,wikidata,National Health Research Authority,,301,10 nhra-org-zm.mail.protection.outlook.com.
+unza.zm,4,academia,University of Zambia,central,,
 zema.org.zm,4,wikidata,Zambia Environmental Management Agency,,301,0 mailhost.zema.org.zm.
 zicta.zm,4,wikidata,Zambia Information and Communications Technology Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 zicta-zm.mail.protection.outlook.com.
 zma.org.zm,4,wikidata,Zambia Metrology Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 zma-org-zm.mail.protection.outlook.com.; 5 mail.zma.org.zm.
@@ -17,3 +18,4 @@ mzv.cz,3,wikidata,embassy of the Czech republic in Zambia,central,302,10 mzvczem
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Lusaka",central,301,none
 who.int,3,wikidata,World Health Organization - Zambia,,301,10 who-int.mail.protection.outlook.com.
 zambia.mid.ru,3,wikidata,embassy of Russia in Zambia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+zambiaforestrycollege.org,3,academia,Zambia Forestry College,central,,

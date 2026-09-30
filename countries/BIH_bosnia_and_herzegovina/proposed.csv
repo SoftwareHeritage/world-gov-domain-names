@@ -1,5 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 bosnasrebrena.ba,7,wikidata;wikidata,Franciscan Province of Bosna Srebrena,,200,none
+fzs.ba,7,wikidata;academia,Federal Bureau of Statistics,central,200,10 mgw2.lol.ba.; 10 mgw1.lol.ba.
 dominikanci.hr,6,wikidata;wikidata,Croatian Dominican Province,,200,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
 franjevci.info,6,wikidata;wikidata,Franciscan Province of the Assumption of the Blessed Virgin Mary,,200,0 franjevci-info.mail.protection.outlook.com.
 isusovci.hr,6,wikidata;wikidata,Croatian province of the Society of Jesus,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
@@ -10,10 +11,11 @@ vladars.net,6,wikidata;wikidata;wikidata,Ministry of Science and Technology | Q1
 akaz.ba,4,wikidata,Q127505551,,SSLHandshakeException: Remote host terminated the handshake,10 mail01-1.bih.net.ba.; 10 mail02-1.bih.net.ba.
 cbbh.ba,4,wikidata,Central Bank of Bosnia and Herzegovina,,302,5 local.cbbh.ba.
 domkulturejajce.ba,4,wikidata,Kršlak house,,200,0 domkulturejajce.ba.
-fzs.ba,4,wikidata,Federal Bureau of Statistics,,200,10 mgw2.lol.ba.; 10 mgw1.lol.ba.
+ffuis.edu.ba,4,academia,"Faculty of Philosophy, University of East Sarajevo",central-1,,
 nub.ba,4,wikidata,National and University Library of Bosnia and Herzegovina,,200,10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
 rak.ba,4,wikidata,Communications Regulatory Agency of Bosnia and Herzegovina,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 rak-ba.mail.protection.outlook.com.
 szarajevo.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Sarajevo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+unsa.ba,4,academia,University of Sarajevo,central-1,,
 ustavnisud.ba,4,wikidata,Constitutional Court of Bosnia and Herzegovina,central,301,10 smtp.ustavnisud.ba.
 ustavnisudfbih.ba,4,wikidata,Constitutional Court of the Federation of Bosnia and Herzegovina,,200,10 mail02-1.bih.net.ba.; 10 mail01-1.bih.net.ba.
 arhivrs.org,3,wikidata,Archives of Republika Srpska,,200,10 ironv1h.supernovabih.net.; 10 ironv2h.supernovabih.net.
@@ -23,6 +25,7 @@ ba.mvep.hr,3,wikidata,"Embassy of Croatia, Sarajevo",central,ConnectException,no
 bosnienhercegovina.um.dk,3,wikidata,Embassy of Denmark in Bosnia-Herzegovina II,central,301,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Bosnia and Herzegovina,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 egyptembassy.org,3,wikidata,"Egyptian Embassy, Sarajevo",central,301,10 mail.egyptembassy.org.
+fpn.unibl.org,3,academia,Faculty of Political Science,central-1,,
 mfa.bg,3,wikidata,"Bulgarian Embassy, Sarajevo",central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,Embassy of Greece in Sarajevo,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,"Czech Embassy, Sarajevo",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
@@ -38,6 +41,7 @@ sarajevo.veleposlanistvo.si,3,wikidata,"Slovenian Embassy, Sarajevo",central,SSL
 sarajewo.diplo.de,3,wikidata,"Embassy of Germany, Sarajevo",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Sarajevo",central,301,none
 tourismbih.com,3,wikidata,Tourism Bosnia and Herzegovina,,301,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+unibl.org,3,academia,University of Banja Luka,central-1,,
 ustavnisud.org,3,wikidata,Constitutional Court of Republika Srpska,,200,0 ksmgv2-1.lanaco.com.; 0 ksmgv2-2.lanaco.com.
 vladahbz.com,3,wikidata,Ministarstvo Gospodarstva,,301,1 mail.vladahbz.com.
 vladars.rs,3,wikidata,Ministry of Scientific and Technological Development and Higher Education,,302,20 mail2.vladars.rs.; 10 mail1.vladars.rs.

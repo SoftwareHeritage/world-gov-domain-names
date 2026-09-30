@@ -1,7 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 assembly.gm,7,wikidata;wikidata,National Assembly of The Gambia,central,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
 mope.gm,7,wikidata;wikidata,"Ministry of Petroleum, Energy and Mines",central,301,none
-utg.edu.gm,7,wikidata;wikidata,University of the Gambia,,HttpTimeoutException: request timed out,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 cbg.gm,4,wikidata,Central Bank of The Gambia,,301,0 cbg-gm.mail.protection.outlook.com.
 gambiaports.gm,4,wikidata,Gambia Ports Authority,central,HttpConnectTimeoutException: HTTP connect timed out,0 gambiaports-gm.mail.protection.outlook.com.
 gamcel.gm,4,wikidata,Gambia Telecommunications Cellular Company,central,200,10 mail.gamcel.gm.
@@ -17,6 +16,7 @@ iec.gm,4,wikidata,Independent Electoral Commission,central,200,10 alt4.aspmx.l.g
 nana.gm,4,wikidata,National Nutrition Agency,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nana.gm found.,0 mail.nana.gm.
 nao.gm,4,wikidata,National Audit Office,central,HttpTimeoutException: request timed out,30 mx.nao.gm.
 naqaa.gm,4,wikidata,National Accreditation and Quality Assurance Authority,,200,10 mx.stackmail.com.
+nari.gm,4,academia,National Agricultural Research Institute,central,,
 nawec.gm,4,wikidata,NAWEC,,200,0 nawec-gm.mail.protection.outlook.com.
 ncac.gm,4,wikidata,National Council for Arts and Culture,,200,10 safari.mxrouting.net.; 20 safari-relay.mxrouting.net.
 nea.gm,4,wikidata,National Environment Agency,central,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
@@ -32,3 +32,4 @@ tgsb.gm,4,wikidata,The Gambia Standards Bureau,,200,20 mx20.antispam.mailspampro
 banjul.diplo.de,3,wikidata,"Embassy of Germany, Banjul",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 eeas.europa.eu,3,wikidata,Delegation of the European Union to The Gambia,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
 visitthegambia.com,3,wikidata,Gambia Tourism Board,central,200,none
+utg.edu.gm,2,wikidata;wikidata;academia,University of the Gambia,central,HttpTimeoutException: request timed out,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.

@@ -1,6 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 maorif.tj,7,wikidata;wikidata,Ministry of Education and Science of Tajikistan,central,200,10 mail.maorif.tj.
 mort.tj,7,wikidata;wikidata,Ministry of Defence,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.tajnet.tj.
+stat.tj,7,wikidata;academia,TAJSTAT,central,301,20 mail.gksintranet.tj.; 20 mail.stat.tj.
 vfarhang.tj,7,wikidata;wikidata,Ministry of Culture of Tajikistan,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vfarhang.tj found.,10 mail.vfarhang.tj.
 constcourt.tj,6,wikidata,Constitutional Court of Tajikistan,central,200,10 emx.mail.ru.; 20 mail.constcourt.tj.
 president.tj,6,un_desa,UN/DESA national portal,,200,10 mx1.dip.tj.
@@ -11,7 +12,6 @@ kmt.tj,4,wikidata,National Library of Tajikistan,,200,10 mail.trs.tj.
 majmilli.tj,4,wikidata,National Assembly of Tajikistan,central,200,10 mail.trs.tj.
 mitas.tj,4,wikidata,Institute of Mathematics National Academy of Science of Tajikistan,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mitas.tj found.,none
 nbt.tj,4,wikidata,National Bank of Tajikistan,,302,dig error
-stat.tj,4,wikidata,TAJSTAT,central,301,20 mail.gksintranet.tj.; 20 mail.stat.tj.
 duschanbe.diplo.de,3,wikidata,"embassy of Germany, Dushanbe",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 dushanbe.mid.ru,3,wikidata,embassy of Russia in Tajikistan,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Tajikistan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.

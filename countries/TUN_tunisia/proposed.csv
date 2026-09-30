@@ -1,8 +1,13 @@
 hostname,score,sources,label,level,http_status,mx
 affaires-religieuses.tn,7,wikidata;wikidata,Ministry of Religious Affairs,central,302,5 mx6email.ingw.tn.; 5 mx5email.ingw.tn.
 agriculture.tn,7,wikidata;wikidata,Ministry of Agriculture,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
+cnrsm.rnrt.tn,7,academia;academia,Centre National de Recherches en Sciences des Matériaux | National Center for Research in Materials Sciences,central,,
+crten.rnrt.tn,7,academia;academia,Centre de Recherche et des Technologies de l'Energie | Research and Technology Center of Energy,central,,
 defense.tn,7,wikidata;wikidata,Ministry of Defence,central,200,50 mx2defense.ingw.tn.; 20 mail.defense.tn.; 10 ksmg.defense.tn.; 40 mx1defense.ingw.tn.
+inrap.rnrt.tn,7,academia;academia,Institut National de Recherche et d'Analyse Physico-chimique | National Institute of Research and Physico and Chemical Analysis,central,,
+ins.tn,7,wikidata;academia,National Institute of Statistics,central,200,0 ins-tn.mail.protection.outlook.com.
 mes.tn,7,wikidata;wikidata,Ministry of Higher Education and Scientific Research,central,ConnectException,10 mx3.rnu.tn.; 10 mx1.rnu.tn.; 10 mx2.rnu.tn.
+meteo.tn,7,wikidata;academia,National Institute of Meteorology | Institut National de la Météorologie,central,503,10 meteo-tn.mail.protection.outlook.com.
 mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, Tunis",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 santetunisie.rns.tn,7,wikidata;wikidata,Ministry of Health,central,HttpConnectTimeoutException: HTTP connect timed out,none
 sport.tn,7,wikidata;wikidata,Ministry of Youth and Sports,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sport.tn found.,50 mx2email.ingw.tn.; 10 mx1email.ingw.tn.
@@ -21,21 +26,28 @@ archives.nat.tn,4,wikidata,National Archives of Tunisia,,ConnectException,0 mx6e
 arp.tn,4,wikidata,Assembly of the Representatives of the People,central,200,0 arp-tn.mail.protection.outlook.com.
 atct.tn,4,wikidata,Q12251182,,301,20 mta1.atct.tn.; 10 mta2.atct.tn.
 bibliotheque.nat.tn,4,wikidata,National Library of Tunisia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bibliotheque.nat.tn found.,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+cbbc.rnu.tn,4,academia,Centre de Biotechnologie de Borj Cedria,central,,
 ccicentre.org.tn,4,wikidata,Chambre de Commerce et d'Industrie du Centre,,HttpTimeoutException: request timed out,0 cp4.tn.oxa.host.
 ccitunis.org.tn,4,wikidata,Chamber of Commerce and Industry of Tunis,,200,10 mail.ccitunis.org.tn.
 cdn.tn,4,wikidata,National Documentation Center of Tunisia,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
 cepex.nat.tn,4,wikidata,Q2945390,,ConnectException,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+ceres.tn,4,academia,Centre d'Études et de Recherches Économiques et Sociales,central,,
+certen.rnrt.tn,4,academia,Centre de Recherche et des Technologies des Eaux,central,,
 cetiba.tn,4,wikidata,Q17175775,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx3.topnet.tn.; 0 mx1.topnet.tn.; 0 mx2.topnet.tn.
 cetime.ind.tn,4,wikidata,Q17354146,,ConnectException,0 mx02.ingw.orange.tn.; 0 mx01.ingw.orange.tn.; 0 mx04.ingw.orange.tn.; 0 mx03.ingw.orange.tn.
 cettex.com.tn,4,wikidata,Textile Technical Center,,ConnectException,0 mx1.topnet.tn.; 0 mx2.topnet.tn.; 0 mx3.topnet.tn.
 citet.nat.tn,4,wikidata,Tunis International Center for Environmental Technologies,,HttpConnectTimeoutException: HTTP connect timed out,0 mx10.gnet.tn.; 0 mx20.gnet.tn.
+citet.tn,4,academia,Centre International des Technologies de l'Environnement de Tunis,central,,
 cmf.tn,4,wikidata,Financial Market Council,,200,0 mx1.topnetpro.com.; 0 mx2.topnetpro.com.
 cnam.nat.tn,4,wikidata,Q2933313,,ConnectException,10 mx01.ingw.orange.tn.; 0 smtp.cnam.nat.tn.; 10 mx02.ingw.orange.tn.; 10 mx04.ingw.orange.tn.; 10 mx03.ingw.orange.tn.
 cnccleather.nat.tn,4,wikidata,National Center for Leather and Shoes,,ConnectException,50 mx2email.ingw.tn.; 10 mx1email.ingw.tn.
 cni.nat.tn,4,wikidata,Centre National de l'Informatique,,ConnectException,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
+cnms.nat.tn,4,academia,Centre National de la Medecine et des Sciences Des Sports,central,,
+cnmst.rnrt.tn,4,academia,Centre de Recherche en Microélectronique et Nanotechnologie,central,,
 cnrd.tn,4,wikidata,National Council of Regions and Districts,central,301,50 mx5email.ingw.tn.; 10 mx6email.ingw.tn.
 cnrps.nat.tn,4,wikidata,Q2933326,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx2.topnet.tn.; 0 mx1.topnet.tn.; 0 mx3.topnet.tn.
 cnss.tn,4,wikidata,Q2933328,,ConnectException,10 mx1.topnet.tn.; 10 mx3.topnet.tn.; 10 mx2.topnet.tn.
+cnstn.rnrt.tn,4,academia,Centre National des Sciences et Technologies Nucléaires,central,,
 cnudst.rnrt.tn,4,wikidata,University National Center of Scientific and Technical Documentation,,HttpConnectTimeoutException: HTTP connect timed out,10 mx3.rnu.tn.; 10 mx2.rnu.tn.; 10 mx1.rnu.tn.
 ctaa.com.tn,4,wikidata,Agri-Food Technical Center,,301,0 mx1.topnetpro.com.; 0 mx3.topnetpro.com.; 0 mx2.topnetpro.com.
 ctc.ind.tn,4,wikidata,Q17354144,,ConnectException,0 mx03.ingw.orange.tn.; 0 mx01.ingw.orange.tn.; 0 mx04.ingw.orange.tn.; 0 mx02.ingw.orange.tn.
@@ -48,11 +60,15 @@ haica.tn,4,wikidata,Haute Autorité Indépendante de la Communication Audiovisue
 inlucc.tn,4,wikidata,Q22686290,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching inlucc.tn found.,100 mxb.ovh.net.; 100 mx3.mail.ovh.net.; 5 mx1.mail.ovh.net.; 1 mx1.ovh.net.; 50 mx2.mail.ovh.net.; 5 mx2.ovh.net.; 1 mx0.mail.ovh.net.
 innorpi.tn,4,wikidata,National Institute of Standardization and Industrial Property,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx3.topnetpro.com.; 0 mx1.topnetpro.com.; 0 mx2.topnetpro.com.
 inp.rnrt.tn,4,wikidata,National Heritage Institute,,HttpConnectTimeoutException: HTTP connect timed out,10 mx2.rnu.tn.; 10 mx3.rnu.tn.; 10 mx1.rnu.tn.
-ins.tn,4,wikidata,National Institute of Statistics,central,200,0 ins-tn.mail.protection.outlook.com.
+inrat.agrinet.tn,4,academia,Institut National de la Recherche Agronomique de Tunisie,central,,
+inrgref.agrinet.tn,4,academia,"National Research Institute of Rural Engineering, Water and Forests",central,,
+insp.rns.tn,4,academia,Institut National de Santé Publique,central,,
+instm.agrinet.tn,4,academia,Institut National des Sciences et Technologies de la Mer,central,,
+iot.agrinet.tn,4,academia,Institut de l'Olivier,central,,
+irmc.tn,4,academia,Institut de Recherche sur le Maghreb Contemporain,central,,
 isie.tn,4,wikidata,Independent High Authority for Elections,,301,10 mx03.cloud.vadesecure.com.; 10 mx04.cloud.vadesecure.com.; 10 mx01.cloud.vadesecure.com.; 10 mx02.cloud.vadesecure.com.
 isst.nat.tn,4,wikidata,Institut de Santé et de Sécurité au Travail,,301,10 mail.isst.nat.tn.
 lncm.tn,4,wikidata,National Laboratory for Drug Control,,ConnectException,none
-meteo.tn,4,wikidata,National Institute of Meteorology,,503,10 meteo-tn.mail.protection.outlook.com.
 oaca.nat.tn,4,wikidata,Tunisian Civil Aviation & Airports Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
 oep.nat.tn,4,wikidata,Office of Livestock and Pasture,,ConnectException,0 mx02.ingw.orange.tn.; 0 mx03.ingw.orange.tn.; 0 mx04.ingw.orange.tn.; 0 mx01.ingw.orange.tn.
 ommp.nat.tn,4,wikidata,Q3349579,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx1.topnet.tn.; 0 mx3.topnet.tn.; 0 mx2.topnet.tn.
@@ -75,6 +91,7 @@ telediffusion.net.tn,4,wikidata,Q18397396,,301,50 mx2email.ingw.tn.; 50 mx1email
 transtu.tn,4,wikidata,Société des transports de Tunis,,301,0 mx3.topnetpro.com.; 0 mx2.topnetpro.com.; 0 mx1.topnetpro.com.
 tunisieindustrie.nat.tn,4,wikidata,Agency for the Promotion of Industry and Innovation,,ConnectException,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
 tunisz.mfa.gov.hu,4,wikidata,Embassy of Hungary in Tunisia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ucar.rnu.tn,4,academia,Carthage University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Tunisia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 finlandabroad.fi,3,wikidata,embassy of Finland in Tunisia,central,301,10 mail.valtori.fi.
 mfa.bg,3,wikidata,embassy of Bulgaria in Tunisia,central,302,0 mfa-bg.mail.protection.outlook.com.

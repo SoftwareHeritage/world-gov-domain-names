@@ -1,11 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
+insbu.bi,7,wikidata;academia,National Institute of Statistics of Burundi,central,200,0 insbu.bi.
 minisante.bi,7,wikidata;wikidata,Ministry of Public Health of Burundi,central,200,none
 assemblee.bi,4,wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 brb.bi,4,wikidata,Bank of the Republic of Burundi,,ConnectException: Host is unreachable,0 mail.brb.bi.
 ceniburundi.bi,4,wikidata,Q21008237,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 igebu.bi,4,wikidata,Institut Géographique du Burundi,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching igebu.bi found.,none
-insbu.bi,4,wikidata,National Institute of Statistics of Burundi,central,200,0 insbu.bi.
 senat.bi,4,wikidata,Senate,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+ub.edu.bi,4,academia,Université du Burundi,central,,
 bi.ambafrance.org,3,wikidata,"Embassy of France, Bujumbura",central,301,none
 bujumbura.diplo.de,3,wikidata,"Embassy of Germany, Bujumbura",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 burundi.mid.ru,3,wikidata,embassy of Russia in Burundi,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

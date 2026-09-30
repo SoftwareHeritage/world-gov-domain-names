@@ -11,6 +11,8 @@ gouvernement.cfwb.be,7,wikidata;wikidata,Government of the French Community,cent
 gouvernement.wallonie.be,7,wikidata;wikidata,Government of Wallonia,central-1,301,none
 lv.vlaanderen.be,7,wikidata;wikidata,Department of Agriculture and Fisheries,central-1,200,0 lv-vlaanderen-be.mail.protection.outlook.com.
 mofaic.gov.ae,7,wikidata;wikidata,"embassy of United Arab Emirates in Belgium | Permanent Mission of the United Arab Emirates to NATO, Brussels",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nbb.be,7,wikidata;academia,National Bank of Belgium,central,302,10 nbb-be.mail.protection.outlook.com.
+ngi.be,7,wikidata;academia,National Geographic Institute,central,200,0 ngi-be.mail.protection.outlook.com.
 om-mp.be,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q107677931 | Q111686458 | Q107677924 | Q111686279 | Q107677926 | Q111686333 | Federal Prosecutor's Office | Q107677928 | Q107677934 | Q107677929 | Q107677935 | Labor Auditor | Q107677923 | Q111684859 | Q107677930 | Q111685045 | Q111685627 | Q111686198 | Public prosecutor’s office at the Court of Cassation | Q111686108 | Q111685878 | Q107677927 | Q107677933 | Q107677936 | Q107677922 | Q107677925,central,HttpConnectTimeoutException: HTTP connect timed out,none
 omgeving.vlaanderen.be,7,wikidata;wikidata,Department of Environment and Health,central-1,200,100 iris.omgeving.vlaanderen.be.; 100 hermes.omgeving.vlaanderen.be.
 onderwijs.vlaanderen.be,7,wikidata;wikidata,Flemish Ministry of Education and Training,central-1,301,none
@@ -19,6 +21,7 @@ parlement-wallonie.be,7,wikidata;wikidata,Parliament of Wallonia,central-1,403,0
 parlement.brussels,7,wikidata;wikidata,Parliament of the Brussels-Capital Region,central-1,301,10 mx6.irisnet.be.; 10 mx4.irisnet.be.; 10 mx5.irisnet.be.
 pdg.be,7,wikidata;wikidata,Parliament of the German-speaking Community,central-1,403,0 pdg-be.mail.protection.outlook.com.
 pfwb.be,7,wikidata;wikidata,Parliament of the French Community,central-1,ConnectException,10 mx1.pfwb.be.; 20 mx2.pfwb.be.
+plantentuinmeise.be,7,wikidata;academia,Meise Botanic Garden,central,301,10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 vlaamsparlement.be,7,wikidata;wikidata,Flemish Parliament,central-1,403,0 vlaamsparlement-be.mail.protection.outlook.com.
 be.brussels,6,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Brussels Mobility | Government of the Brussels-Capital Region,central-1,307,10 mx6.irisnet.be.; 10 mx4.irisnet.be.; 10 mx5.irisnet.be.
 const-court.be,6,wikidata,Constitutional Court of Belgium,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 antispam.const-court.be.
@@ -76,6 +79,7 @@ debtagency.be,4,wikidata,Belgian Debt Agency,,301,10 debtagency-be.v-v1.mx.micro
 dekamer.be,4,wikidata,Chamber of Representatives,central,301,9 kvvcr.in.tmes.trendmicro.eu.
 dinopol.be,4,wikidata,Police Zone Bernissart - Péruwelz,,200,50 mx4.orditech.be.; 10 mx1.orditech.be.
 dominicanembassy.be,4,wikidata,embassy of Dominican Republic in Belgium,central,ConnectException,none
+ecolesaintetrinitecardinalmercier1.be,4,academia,Institut Sainte Trinité,central-1,,
 eifelpolizei.be,4,wikidata,Police Zone Eifel,,200,none
 embajadaperu.be,4,wikidata,embassy of Peru in Belgium,central,200,10 mail.embajadaperu.be.
 embassymalawi.be,4,wikidata,embassy of Malawi in Belgium,central,200,0 embassymalawi-be.mail.protection.outlook.com.
@@ -119,8 +123,6 @@ maldivesembassy.be,4,wikidata,embassy of Maldives in Belgium,central,SSLHandshak
 meteo.be,4,wikidata,Royal Meteorological Institute,,301,10 mailserv.oma.be.
 midow.be,4,wikidata,Police zone MIDOW,,200,50 mx.backup.mailprotect.be.; 10 mx.mailprotect.be.
 natuurenbos.be,4,wikidata,Agency for Nature and Forest,central-1,200,10 inbound-smtp.eu-west-1.amazonaws.com.
-nbb.be,4,wikidata,National Bank of Belgium,,302,10 nbb-be.mail.protection.outlook.com.
-ngi.be,4,wikidata,National Geographic Institute,central,200,0 ngi-be.mail.protection.outlook.com.
 niras.be,4,wikidata,ONDRAF,central,307,10 neras-be.mail.protection.outlook.com.
 noord-limburg.hulpverleningszone.be,4,wikidata,Emergency rescue zone North Limburg,,200,none
 ondraf.be,4,wikidata,ONDRAF,central,307,10 ondraf-be.mail.protection.outlook.com.
@@ -134,7 +136,6 @@ opzcrekem.be,4,wikidata,Public Psychiatric Care Centre - Rekem,,301,10 mail.opzc
 ovam.vlaanderen.be,4,wikidata,Public Waste Agency of Flanders,central-1,200,none
 pakistanembassy.be,4,wikidata,embassy of Pakistan in Belgium,central,"SSLException: Unrecognized SSL message, plaintext connection?",0 .
 pefc.be,4,wikidata,PEFC Belgium,,302,0 pefc-be.mail.protection.outlook.com.
-plantentuinmeise.be,4,wikidata,Meise Botanic Garden,,301,10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 polbru.be,4,wikidata,Police Zone Brussels - Ixelles,,200,1 mx.mailprotect.be.; 5 mx.backup.mailprotect.be.
 polbruno.be,4,wikidata,Police Zone PolBruno,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.polbruno.be.
 policeath.be,4,wikidata,Police Zone Ath,,301,5 mx4.ovh.net.; 100 mxb.ovh.net.; 1 mx3.ovh.net.
@@ -174,6 +175,9 @@ srilankaembassy.be,4,wikidata,embassy of Sri Lanka in Belgium,central,SSLHandsha
 syntra.be,4,wikidata,Q1812558,central-1,301,10 mx.mailprotect.be.; 50 mx.backup.mailprotect.be.
 timor-leste.be,4,wikidata,embassy of East Timor in Belgium,central,SSLException: (internal_error) Received fatal alert: internal_error,0 timorleste-be01c.mail.protection.outlook.com.; 10 mx.glb.proximus.be.
 toerismevlaanderen.be,4,wikidata,visit Flanders,,301,10 toerismevlaanderen-be.mail.protection.outlook.com.
+ugent.be,4,academia,Ghent University,central-1,,
+uhasselt.be,4,academia,Hasselt University,central-1,,
+uliege.be,4,academia,University of Liège,central-1,,
 unesco-vlaanderen.be,4,wikidata,Flemish Commission for UNESCO in Belgium,,301,0 unescovlaanderen-be01e.mail.protection.outlook.com.; 100 mxb.ovh.net.; 1 mx3.ovh.net.; 5 mx4.ovh.net.
 vaph.be,4,wikidata,Flemish Agency for persons with disabilities,central-1,301,20 ALT1.ASPMX.L.google.com.; 30 ASPMX3.GOOGLEMAIL.com.; 20 ALT2.ASPMX.L.google.com.; 30 ASPMX5.GOOGLEMAIL.com.; 30 ASPMX4.GOOGLEMAIL.com.; 30 ASPMX2.GOOGLEMAIL.com.; 10 ASPMX.L.google.com.
 vgtc.be,4,wikidata,Vlaams GebarentaalCentrum,,200,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.

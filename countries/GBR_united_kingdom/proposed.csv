@@ -48,6 +48,7 @@ leics.police.uk,8,wikidata;linkgraph,Leicestershire Police,,302,0 leics-police-u
 liverpoolmuseums.org.uk,8,wikidata;directory,National Museums Liverpool,,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 lra.org.uk,8,wikidata;directory,Labour Relations Agency,central-1,301,10 lra-org-uk.mail.protection.outlook.com.; 0 uk1-smtp-mx2.titanhq.com.; 0 uk1-smtp-mx1.titanhq.com.
 nlb.org.uk,8,wikidata;directory,Northern Lighthouse Board,central-1,301,0 nlb-org-uk.mail.protection.outlook.com.
+npl.co.uk,8,academia;directory,National Physical Laboratory,central,301,none
 nstauthority.co.uk,8,wikidata;directory,North Sea Transition Authority,,301,0 nstauthority-co-uk.mail.protection.outlook.com.
 officeforstudents.org.uk,8,wikidata;directory,Office for Students,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,5 officeforstudents-org-uk.mail.protection.outlook.com.
 onr.org.uk,8,wikidata;directory,Office for Nuclear Regulation,,301,30 mandrillapp.com.; 20 mail187-43.suw11.mandrillapp.com.; 10 mail132-27.atl131.mandrillapp.com.
@@ -55,6 +56,7 @@ pbni.org.uk,8,wikidata;directory,Probation Board for Northern Ireland,,301,20 cl
 professionalstandards.org.uk,8,wikidata;directory,Professional Standards Authority for Health and Social Care,,301,10 professionalstandards-org-uk.mail.protection.outlook.com.
 protectuk.police.uk,8,linkgraph;directory,National Counter Terrorism Security Office (Other),,301,none
 psni.police.uk,8,wikidata;directory,Police Service of Northern Ireland,,ConnectException,5 emgw1.psni.police.uk.
+qub.ac.uk,8,academia;directory,Queen's University Belfast,central,HttpConnectTimeoutException: HTTP connect timed out,none
 resolution.nhs.uk,8,wikidata;directory,NHS Resolution,,200,0 resolution-nhs-uk.mail.protection.outlook.com.
 royalparks.org.uk,8,wikidata;directory,The Royal Parks,,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 scot.nhs.uk,8,wikidata;linkgraph,NHS Scotland,,301,50 mail.nhs.uk.
@@ -75,8 +77,11 @@ arts.wales,7,wikidata;directory,Arts Council of Wales,,200,20 cust73271-2.in.mai
 artscouncil-ni.org,7,wikidata;directory,Arts Council of Northern Ireland,,200,20 mx-02-eu-west-1.prod.hydra.sophos.com.; 10 mx-01-eu-west-1.prod.hydra.sophos.com.
 belfast-harbour.co.uk,7,wikidata;wikidata,Belfast Harbour Police | Belfast Harbour Commissioners,,HttpConnectTimeoutException: HTTP connect timed out,10 eu-smtp-inbound-1.mimecast.com.; 10 eu-smtp-inbound-2.mimecast.com.
 bgs.ac.uk,7,wikidata;wikidata,Geological Survey of Northern Ireland | British Geological Survey,,301,0 bgs-ac-uk.mail.protection.outlook.com.
+birmingham.ac.uk,7,wikidata;academia,NIHR Birmingham Liver Biomedical Research Unit | University of Birmingham,central,301,10 mx08-002d3c02.pphosted.com.; 10 mx07-002d3c02.pphosted.com.
 btp.police.uk,7,wikidata;wikidata,British Transport Police,central-1,302,0 btp-police-uk.mail.protection.outlook.com.
 canalrivertrust.org.uk,7,wikidata;wikidata,Canal & River Trust,,200,10 mxb-007a4601.gslb.pphosted.com.; 10 mxa-007a4601.gslb.pphosted.com.
+canterbury.ac.uk,7,academia;academia,Canterbury Christ Church University | Canterbury Christ Church University National Institute for Christian Education Research,central,,
+cardiff.ac.uk,7,academia;academia,Cardiff University | Wales Governance Centre,central,,
 cheshireandmerseyside.nhs.uk,7,linkgraph,Linked from 25 public-sector domains,,200,0 cheshireandmerseyside-nhs-uk.mail.protection.outlook.com.
 civicaepay.co.uk,7,linkgraph,Linked from 24 public-sector domains,,ConnectException,10 mail.civicahosting.co.uk.
 derbyshire.police.uk,7,wikidata;linkgraph,Derbyshire Constabulary,,ConnectException,0 derbyshire-police-uk.mail.protection.outlook.com.
@@ -86,6 +91,7 @@ essex.police.uk,7,wikidata;linkgraph,Essex Police,,302,25 essex-police-uk.mail.p
 eventbrite.co.uk,7,linkgraph,Linked from 28 public-sector domains,,301,10 aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 30 alt3.aspmx.l.google.com.; 30 alt4.aspmx.l.google.com.
 eyelidproductions.co.uk,7,linkgraph,Linked from 24 public-sector domains,,200,10 mx.stackmail.com.
 foodstandards.gov.scot,7,wikidata;wikidata,Food Standards Scotland,central-1,301,none
+forestryandland.gov.scot,7,wikidata;academia,Forestry and Land Scotland | Kilmun Arboretum,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 frankltd.co.uk,7,linkgraph,Linked from 72 public-sector domains,,200,0 ded1922.frank-hosting.co.uk.
 frontlinedata.co.uk,7,linkgraph,Linked from 21 public-sector domains,,200,0 frontlinedata-co-uk.mail.eo.outlook.com.
 google.co.uk,7,linkgraph,Linked from 72 public-sector domains,,301,0 smtp.google.com.
@@ -101,6 +107,7 @@ investni.com,7,wikidata;directory,Invest Northern Ireland,,301,5 eu-smtp-inbound
 jobs.nhs.uk,7,linkgraph,Linked from 23 public-sector domains,,ConnectException,none
 lincs.police.uk,7,wikidata;linkgraph,Lincolnshire Police,,302,0 lincs-police-uk.mail.protection.outlook.com.
 lmcni.com,7,wikidata;directory,Livestock & Meat Commission,,301,0 lmcni-com.mail.protection.outlook.com.
+lsbu.ac.uk,7,academia;academia,London South Bank University | London South Bank University National Bakery School,central,,
 mod.uk,7,wikidata;linkgraph,Defence Business Services,,ConnectException,0 mod-uk.mail.protection.outlook.com.
 moderngov.co.uk,7,linkgraph,Linked from 39 public-sector domains,,ConnectException,0 moderngov-co-uk.mail.protection.outlook.com.
 mysurgerywebsite.co.uk,7,linkgraph,Linked from 193 public-sector domains,,302,10 stericycle-com.mail.protection.outlook.com.
@@ -118,20 +125,24 @@ oscr.org.uk,7,wikidata;wikidata;wikidata,Office of the Scottish Charity Regulato
 parliament.scot,7,wikidata;wikidata;wikidata,Scottish Parliament,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 raf.mod.uk,7,wikidata;wikidata,Royal Air Force Police | UK Military Flying Training System,,301,none
 rapidhealth.co.uk,7,linkgraph,Linked from 20 public-sector domains,,301,0 rapidhealth-co-uk.mail.protection.outlook.com.
+rbge.org.uk,7,wikidata;academia;academia;academia;academia,Royal Botanic Garden Edinburgh | Benmore Botanic Garden | Dawyck Botanic Garden | Logan Botanic Garden,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 rbge-org-uk.mail.protection.outlook.com.
 seafish.org,7,wikidata;directory,Seafish,,301,none
 service.nhs.uk,7,linkgraph,Linked from 119 public-sector domains,,ConnectException,none
 sla-online.co.uk,7,linkgraph,Linked from 22 public-sector domains,,200,0 slaonline-co-uk0i.mail.protection.outlook.com.
 smartsurvey.co.uk,7,linkgraph,Linked from 21 public-sector domains,,301,0 smartsurvey-co-uk.mail.protection.outlook.com.
+southwales.ac.uk,7,academia;academia;academia;academia,University of South Wales Business School | University of South Wales Department of English and Creative Writing | University of South Wales Department of History | University of South Wales School of Education,central-1,,
 sportni.net,7,wikidata;directory,Sport Northern Ireland,,ConnectException,10 mx-01-eu-west-1.prod.hydra.sophos.com.; 20 mx-02-eu-west-1.prod.hydra.sophos.com.
 surgeryweb.org.uk,7,linkgraph,Linked from 75 public-sector domains,,200,0 surgeryweb-org-uk.mail.protection.outlook.com.
 sussex.police.uk,7,wikidata;linkgraph,Sussex Police,,302,none
 thamesvalley.police.uk,7,wikidata;linkgraph,Thames Valley Police,,HttpConnectTimeoutException: HTTP connect timed out,none
 thirdparty.nhs.uk,7,linkgraph,Linked from 22 public-sector domains,,ConnectException,none
 treeviewdesigns.co.uk,7,linkgraph,Linked from 101 public-sector domains,,200,none
+uwe.ac.uk,7,academia;academia,University of the West of England | University of the West of England History,central-1,,
 visitbritain.org,7,wikidata;directory,VisitBritain,,301,10 cluster8.eu.messagelabs.com.
 visitengland.com,7,wikidata;directory,VisitEngland,,301,none
 westyorkshire.police.uk,7,wikidata;linkgraph,West Yorkshire Police,,301,10 westyorkshire-police-uk.mail.protection.outlook.com.
 www.nhs.uk,7,linkgraph,Linked from 937 public-sector domains,,200,none
+www1.uwe.ac.uk,7,academia;academia;academia;academia;academia;academia,University of the West of England Bristol's International College | University of the West of England Department of Arts and Cultural Industries | University of the West of England Department of Nursing and Midwifery | University of the West of England English Language and Linguistics | University of the West of England School of Art and Design | University of the West of England School of Film and Journalism,central-1,,
 aboutcookies.org.uk,6,linkgraph,Linked from 15 public-sector domains,,403,none
 ageuk.org.uk,6,linkgraph,Linked from 13 public-sector domains,,301,none
 bl.uk,6,wikidata;wikidata;wikidata;directory,"British Library | British Library Asia, Pacific and Africa Collections | British Library Manuscript Collections",,308,none
@@ -259,7 +270,6 @@ nestpensions.org.uk,5,directory,National Employment Savings Trust (NEST) Corpora
 nhsbt.nhs.uk,5,directory,NHS Blood and Transplant (Special health authority),,ConnectException,none
 nipolicingboard.org.uk,5,directory,Northern Ireland Policing Board (Executive non-departmental public body),central-1,301,10 mx-01-eu-west-1.prod.hydra.sophos.com.; 20 mx-02-eu-west-1.prod.hydra.sophos.com.
 northeastnorthcumbria.nhs.uk,5,linkgraph,Linked from 7 public-sector domains,,200,none
-npl.co.uk,5,directory,National Physical Laboratory (Public corporation),,301,none
 onedevon.org.uk,5,linkgraph,Linked from 5 public-sector domains,,200,10 mx.stackmail.com.
 pensions-ombudsman.org.uk,5,directory,The Pension Protection Fund Ombudsman (Tribunal) | The Pensions Ombudsman (Tribunal),,301,none
 phew.org.uk,5,linkgraph,Linked from 7 public-sector domains,,301,none
@@ -267,7 +277,6 @@ planningportal.co.uk,5,linkgraph,Linked from 8 public-sector domains,,307,none
 ppf.co.uk,5,directory,Pension Protection Fund (Public corporation),,HttpConnectTimeoutException: HTTP connect timed out,none
 psr.org.uk,5,directory,Payment Systems Regulator (Other),,HttpConnectTimeoutException: HTTP connect timed out,none
 pubscodeadjudicator.org.uk,5,directory,Pubs Code Adjudicator (Other),,HttpConnectTimeoutException: HTTP connect timed out,none
-qub.ac.uk,5,directory,Northern Ireland Cancer Registry (Other),,HttpConnectTimeoutException: HTTP connect timed out,none
 rcgp.org.uk,5,linkgraph,Linked from 7 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 registrarofconsultantlobbyists.org.uk,5,directory,Office of the Registrar of Consultant Lobbyists (Other),,HttpConnectTimeoutException: HTTP connect timed out,none
 rssb.co.uk,5,directory,Rail Safety and Standards Board (Other),,HttpConnectTimeoutException: HTTP connect timed out,0 rssb-co-uk.mail.protection.outlook.com.
@@ -299,7 +308,9 @@ web-labs.co.uk,5,linkgraph,Linked from 9 public-sector domains,,HttpConnectTimeo
 websites4gps.co.uk,5,linkgraph,Linked from 6 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 windrushcommissioner.uk,5,directory,Office of the Windrush Commissioner (Independent monitoring body),,301,none
 zonkeycouncilwebsites.co.uk,5,linkgraph,Linked from 9 public-sector domains,,301,none
+abdn.ac.uk,4,academia,University of Aberdeen,central,,
 abenburycommunitycouncil.org.uk,4,wikidata,Abenbury Community Council,,SSLException: (internal_error) Received fatal alert: internal_error,none
+aber.ac.uk,4,academia,Aberystwyth University,central,,
 abermulewithllandyssilcommunitycouncil.org.uk,4,wikidata,Abermule with Llandyssil Community Council,,301,none
 abervalleycommunitycouncil.org.uk,4,wikidata,Aber Valley Community Council,,301,none
 accessibility-services.co.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
@@ -316,16 +327,22 @@ apccs.police.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTime
 ardengemcsu.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 argoedcommunitycouncil.org.uk,4,wikidata,Argoed Community Council,,301,10 mail.argoedcommunitycouncil.org.uk.
 army.mod.uk,4,wikidata,Royal Military Police,,HttpConnectTimeoutException: HTTP connect timed out,none
+aru.ac.uk,4,academia,Anglia Ruskin University,central,,
 asapglos.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 assets.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 asthmaandlung.org.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,0 asthmaandlung-org-uk.mail.protection.outlook.com.
+aston.ac.uk,4,academia,Aston University,central,,
 autism.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 axiell.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 bahrainembassy.co.uk,4,wikidata,embassy of Bahrain in the United Kingdom,central,HttpConnectTimeoutException: HTTP connect timed out,none
+bangor.ac.uk,4,academia,Bangor University,central,,
 barnsleyhealthcarefederation.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 bartshealth.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,307,none
+bath.ac.uk,4,academia,University of Bath,central,,
 bathandnortheastsomersetccg.nhs.uk,4,wikidata,NHS Bath and North East Somerset Clinical Commissioning Group,,HttpConnectTimeoutException: HTTP connect timed out,none
 bbits.co.uk,4,linkgraph,Linked from 4 public-sector domains,,200,none
+bbk.ac.uk,4,academia,"Birkbeck, University of London",central,,
+bcu.ac.uk,4,academia,Birmingham City University,central,,
 bedfordshirehospitals.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 belizehighcommission.co.uk,4,wikidata,"High Commission of Belize, London",central,HttpConnectTimeoutException: HTTP connect timed out,0 belizehighcommission-co-uk.mail.protection.outlook.com.
 berkshirehealthcare.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -336,18 +353,23 @@ betteroffcalculator.co.uk,4,linkgraph,Linked from 4 public-sector domains,,200,n
 bhclondon.org.uk,4,wikidata,"High Commission of Bangladesh, London",central,200,none
 bhembassy.co.uk,4,wikidata,"Embassy of Bosnia and Herzegovina, London",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bhembassy.co.uk found.,none
 biofair.uk,4,wikidata,BioFAIR,,200,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-birmingham.ac.uk,4,wikidata,NIHR Birmingham Liver Biomedical Research Unit,,301,10 mx08-002d3c02.pphosted.com.; 10 mx07-002d3c02.pphosted.com.
 bliss.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
 blueteq-secure.co.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,none
+bolton.ac.uk,4,academia,University of Greater Manchester,central,,
 bookingsplus.co.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
+brad.ac.uk,4,academia,University of Bradford,central,,
 brc.slam.nhs.uk,4,wikidata,NIHR Maudsley Dementia Biomedical Research Unit,,ConnectException,none
 breezethemes.co.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,none
 bridgewater.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
+bristol.ac.uk,4,academia,University of Bristol,central,,
 bristolbrc.nihr.ac.uk,4,wikidata,NIHR Bristol Biomedical Research Centre,,301,none
 bristolccg.nhs.uk,4,wikidata,NHS Bristol Clinical Commissioning Group,,HttpConnectTimeoutException: HTTP connect timed out,none
 britishchambers.org.uk,4,wikidata,British Chambers of Commerce,,301,none
+brookes.ac.uk,4,academia,Oxford Brookes University,central,,
+brunel.ac.uk,4,academia,Brunel University London,central,,
 bspd.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 bsw.icb.nhs.uk,4,wikidata,"NHS Bath and North East Somerset, Swindon and Wiltshire Integrated Care Board",,200,none
+cam.ac.uk,4,academia,University of Cambridge,central,,
 cambridge-brc.org.uk,4,wikidata,NIHR Cambridge Dementia Biomedical Research Unit,,405,none
 cambs.police.uk,4,wikidata,Cambridgeshire Constabulary,,302,none
 cameroonhighcommission.co.uk,4,wikidata,"High Commission of Cameroon, London",central,200,none
@@ -372,12 +394,14 @@ coityhighercommunitycouncil.co.uk,4,wikidata,Coity Higher Community Council,,301
 comisiynyddygymraeg.org,4,directory,Welsh Language Commissioner (Other),,HttpConnectTimeoutException: HTTP connect timed out,none
 community-council.org.uk,4,wikidata,Llantrisant Fawr Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 counterterrorism.police.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,0 counterterrorism-police-uk.mail.protection.outlook.com.
+courtauld.ac.uk,4,academia,Courtauld Institute of Art,central,,
 cp.catapult.org.uk,4,wikidata,Connected Places Catapult,,HttpConnectTimeoutException: HTTP connect timed out,0 eu-smtp-inbound-2.mimecast.com.; 0 eu-smtp-inbound-1.mimecast.com.
 cpe.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 craftscouncil.org.uk,4,wikidata,Crafts Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 crn.nihr.ac.uk,4,wikidata,NIHR Clinical Research Network,,HttpConnectTimeoutException: HTTP connect timed out,none
 croydongphub.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 cso.scot.nhs.uk,4,wikidata,Chief Scientist Office,,HttpConnectTimeoutException: HTTP connect timed out,none
+cssd.ac.uk,4,academia,Royal Central School of Speech and Drama,central,,
 cuh.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 cumbria.police.uk,4,wikidata,Cumbria Constabulary,,HttpConnectTimeoutException: HTTP connect timed out,0 cumbria-police-uk.mail.protection.outlook.com.
 cumbriasfc.org.uk,4,wikidata,North Western Inshore Fisheries and Conservation Authority,,403,none
@@ -393,24 +417,29 @@ david-macbrayne.co.uk,4,wikidata,David MacBrayne Ltd,,ConnectException,10 mx0.12
 deafcouncil.org.uk,4,wikidata,UK Council on Deafness,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 delwedd.co.uk,4,linkgraph,Linked from 3 public-sector domains,,200,0 delwedd-co-uk.mail.protection.outlook.com.
 dementiafriends.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
+derby.ac.uk,4,academia,University of Derby,central,,
 des.mod.uk,4,wikidata,Defence Equipment and Support,,200,5 mx2.defencegateway.mod.uk.
 devauden.org.uk,4,wikidata,Devauden Community Council,,200,none
 devonlibraries.org.uk,4,wikidata,Bampton Library,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 devonlibraries-org-uk.mail.protection.outlook.com.
 devonsfc.co.uk,4,wikidata,Devon and Severn Inshore Fisheries and Conservation Authority,,ConnectException,none
 dgt.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,50 mail.nhs.uk.
 disclosure.gov.scot,4,wikidata,Disclosure Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 .
+dmu.ac.uk,4,academia,De Montfort University,central,,
 dominicahighcommission.co.uk,4,wikidata,"High Commission of Dominica, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
 dorset.police.uk,4,wikidata,Dorset Police,,302,none
 dorsetfire.co.uk,4,wikidata,Dorset Fire and Rescue Service,,HttpConnectTimeoutException: HTTP connect timed out,none
 doverport.co.uk,4,wikidata,Port of Dover Police,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.doverport.co.uk.; 10 mail2.doverport.co.uk.
 dpt.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,307,none
 dunkeldandbirnamnews.co.uk,4,wikidata,Dunkeld and Birnam,,301,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+durham.ac.uk,4,academia,Durham University,central,,
 durham.police.uk,4,wikidata,Durham Constabulary,,302,none
 dwfire.org.uk,4,wikidata,Dorset & Wiltshire Fire and Rescue Service,,301,0 dwfire-org-uk.mail.protection.outlook.com.
 dwrcouncil.co.uk,4,wikidata,"Draethen, Waterloo and Rudry Community Council",,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching dwrcouncil.co.uk found.,none
 dyfed-powys.police.uk,4,wikidata,Dyfed-Powys Police,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 dyfedpowys-police-uk01c.mail.protection.outlook.com.
 eani.org.uk,4,wikidata,Education Authority,central-1,301,none
 earlham.ac.uk,4,wikidata,Earlham Institute,,302,0 earlham-ac-uk.mail.protection.outlook.com.
+ed.ac.uk,4,academia,University of Edinburgh,central,,
+edgehill.ac.uk,4,academia,Edge Hill University,central,,
 edinburghassayoffice.co.uk,4,wikidata,Edinburgh Assay Office,,301,0 edinburghassayoffice-co-uk.mail.protection.outlook.com.
 education.gov.scot,4,wikidata,Education Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 gw000222-eu.fortimail.com.
 embassyofguinea.org.uk,4,wikidata,"Embassy of Guinea, London",central,HttpConnectTimeoutException: HTTP connect timed out,0 mx1-usg2.ppe-hosted.com.; 0 mx2-usg2.ppe-hosted.com.; 0 mx3-usg2.ppe-hosted.com.
@@ -420,8 +449,11 @@ enherts-tr.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTi
 epsom-sthelier.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 es-mail.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 esdm.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,5 esdm-co-uk.mail.protection.outlook.com.; 10 mxa.eu.mailgun.org.; 15 mxb.eu.mailgun.org.
+essex.ac.uk,4,academia,University of Essex,central,,
 estyn.gov.wales,4,wikidata,Estyn,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 estyn-gov-wales.mail.protection.outlook.com.
 everyonehealth.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+exeter.ac.uk,4,academia,University of Exeter,central,,
+fedtrust.co.uk,4,academia,The Federal Trust,central,,
 fhft.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 fijihighcommission.org.uk,4,wikidata,"High Commission of Fiji, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
 firstbus.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -429,18 +461,18 @@ fleetairarm.com,4,directory,Fleet Air Arm Museum (Sub organisation),,301,none
 foodbank.org.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 forcesemployment.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,0 forcesemployment-org-uk.mail.protection.outlook.com.
 forestry.gov.scot,4,wikidata,Scottish Forestry,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-forestryandland.gov.scot,4,wikidata,Forestry and Land Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 formationcraft.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 frimley.icb.nhs.uk,4,wikidata,NHS Frimley,,HttpConnectTimeoutException: HTTP connect timed out,none
 frimleyhealthandcare.org.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,10 mailforward.lcn.com.
 gambiahc.org.uk,4,wikidata,"high commission of Gambia, London",central,200,none
 gatesheadinnerwestpcn.co.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
+gcu.ac.uk,4,academia,Glasgow Caledonian University,central,,
 gelligaercommunitycouncil.org.uk,4,wikidata,Gelligaer Community Council,,301,none
 ghc.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
 gibraltar.gov.gi,4,wikidata,Gibraltar Archives,,ConnectException,none
-gla.ac.uk,4,wikidata,MRC-University of Glasgow Centre For Virus Research,,301,5 jones.cent.gla.ac.uk.; 5 cleese.cent.gla.ac.uk.; 5 palin.cent.gla.ac.uk.; 10 idle.cent.gla.ac.uk.
 gloucestershire.police.uk,4,wikidata,Gloucestershire Constabulary,,ConnectException,none
 gmp.police.uk,4,wikidata,Greater Manchester Police,,302,none
+gold.ac.uk,4,academia,"Goldsmiths, University of London",central,,
 goldcliffcommunitycouncil.co.uk,4,wikidata,Goldcliff Community Council,,ConnectException,none
 gp-x.co.uk,4,linkgraph,Linked from 4 public-sector domains,,200,10 mailserver.livemail.co.uk.
 graigcc.co.uk,4,wikidata,Graig Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -598,6 +630,7 @@ healthwatchworcestershire.co.uk,4,wikidata,Healthwatch Worcestershire,,301,none
 healthwatchyork.co.uk,4,wikidata,Healthwatch York,,301,none
 hearing.nihr.ac.uk,4,wikidata,NIHR Nottingham Hearing Biomedical Research Unit,,ConnectException,none
 herefordshireandworcestershire.icb.nhs.uk,4,wikidata,NHS Herefordshire and Worcestershire Integrated Care Board,,200,none
+herts.ac.uk,4,academia,University of Hertfordshire,central,,
 herts.police.uk,4,wikidata,Hertfordshire Constabulary,,302,none
 hey.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 hial.co.uk,4,wikidata,Highlands and Islands Airports,central-1,301,none
@@ -609,6 +642,9 @@ hmcoastguard.uk,4,wikidata,His Majesty's Coastguard,central,200,none
 hpa.org.uk,4,wikidata,Health Protection Agency,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 hps.scot.nhs.uk,4,wikidata,Health Protection Scotland,,200,none
 hscbusiness.hscni.net,4,directory,HSC Business Services Organisation (Northern Ireland) (Executive non-departmental public body),central-1,301,none
+hss.newport.ac.uk,4,academia,University of South Wales School of Care Sciences,central-1,,
+hud.ac.uk,4,academia,University of Huddersfield,central,,
+hull.ac.uk,4,academia,University of Hull,central,,
 humberandnorthyorkshire.icb.nhs.uk,4,wikidata,NHS Humber and North Yorkshire Integrated Care Board,,200,none
 humberandnorthyorkshire.org.uk,4,linkgraph,Linked from 4 public-sector domains,,200,30 mail.humberandnorthyorkshire.org.uk.
 humberbridge.co.uk,4,wikidata,Humber Bridge Board,,403,none
@@ -616,25 +652,32 @@ humberside-probation.org.uk,4,wikidata,Humberside Probation Trust,,301,none
 humberside.police.uk,4,wikidata,Humberside Police,,302,none
 hwfire.org.uk,4,wikidata,Hereford and Worcester Fire and Rescue Service,,301,5 hwfire-org-uk.mail.protection.outlook.com.
 i-connectdata.co.uk,4,linkgraph,Linked from 3 public-sector domains,,302,none
+imperial.ac.uk,4,academia,Imperial College London,central,,
 improvement.nhs.uk,4,wikidata,NHS Improvement,,301,10 mail.monitor.gov.uk.
 improvinglivesnw.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
+info.ex.ac.uk,4,academia,University of Exeter,central,,
 international.gouv.qc.ca,4,wikidata,Quebec Government Office in London,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
 ipt-uk.com,4,directory,Investigatory Powers Tribunal (Tribunal),,HttpTimeoutException: request timed out,none
 itseeze-nottingham.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,1 mx36.protectedservice.net.; 1 mx16.protectedservice.net.; 1 mx46.protectedservice.net.; 1 mx26.protectedservice.net.
 jnrcomputers.co.uk,4,linkgraph,Linked from 3 public-sector domains,,200,0 jnrcomputers-co-uk.mail.protection.outlook.com.
 kajima.co.uk,4,linkgraph,Linked from 3 public-sector domains,,200,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
+kcl.ac.uk,4,academia,King's College London,central,,
+kent.ac.uk,4,academia,University of Kent,central,,
 kent.police.uk,4,wikidata,Kent Police,,302,none
 kentandessex-sfc.co.uk,4,wikidata,Kent and Essex Inshore Fisheries and Conservation Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 kentandmedway.icb.nhs.uk,4,wikidata,NHS Kent and Medway Integrated Care Board,,HttpConnectTimeoutException: HTTP connect timed out,none
 koha-ptfs.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 lancashire.police.uk,4,wikidata,Lancashire Constabulary,,HttpConnectTimeoutException: HTTP connect timed out,none
 lancashireprobation.co.uk,4,wikidata,Lancashire Probation Trust,,HttpConnectTimeoutException: HTTP connect timed out,none
+lancaster.ac.uk,4,academia,University of Lancaster,central,,
+lancs.ac.uk,4,academia,University of Lancaster,central,,
 lancsfirerescue.org.uk,4,wikidata,Lancashire Fire and Rescue Service,,HttpConnectTimeoutException: HTTP connect timed out,10 d223786.b.ess.uk.barracudanetworks.com.; 5 d223786.a.ess.uk.barracudanetworks.com.
 landcommission.gov.scot,4,wikidata,Scottish Land Commission,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 lands-tribunal-scotland.org.uk,4,wikidata,Lands Tribunal for Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.lands-tribunal-scotland.org.uk.
 langstonecommunitycouncil.org.uk,4,wikidata,Langstone Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 lbfire.org.uk,4,wikidata,Lothian and Borders Fire Brigade,,HttpConnectTimeoutException: HTTP connect timed out,none
 learninghub.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+leeds.ac.uk,4,academia,University of Leeds,central,,
 leedsth.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 leeswoodcommunity.org.uk,4,wikidata,Leeswood Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 legaldeposit.org.uk,4,wikidata,Agency for the Legal Deposit Libraries,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -644,9 +687,13 @@ lesotholondon.org.uk,4,wikidata,"High Commission of Lesotho, London",central,Htt
 lgbce.org.uk,4,wikidata,Local Government Boundary Commission for England,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 library.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 librarymanagementcloud.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+lincoln.ac.uk,4,academia,University of Lincoln,central,,
+lincolnbishop.ac.uk,4,academia,Lincoln Bishop University,central,,
 lisvanecommunity.org.uk,4,wikidata,Lisvane Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
+liverpool.ac.uk,4,academia,University of Liverpool,central,,
 livewellwithpain.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 livi.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+ljmu.ac.uk,4,academia,Liverpool John Moores University,central,,
 llanbradachcc.co.uk,4,wikidata,Llanbradach and Pwllypant Community Council,,301,10 mail.llanbradachcc.co.uk.
 llanddoged-maenan.org.uk,4,wikidata,Llanddoged and Maenan Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 llanddulascc.org.uk,4,wikidata,Llanddulas and Rhyd-y-Foel Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -666,6 +713,8 @@ london.mfa.gov.hu,4,wikidata,"Embassy of Hungary, London",central,SSLHandshakeEx
 londonchamber.co.uk,4,wikidata,London Chamber of Commerce & Industry,,301,none
 londoncrc.org.uk,4,wikidata,London Probation Trust,,HttpConnectTimeoutException: HTTP connect timed out,none
 lpft.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+lse.ac.uk,4,academia,London School of Economics and Political Science,central,,
+lshtm.ac.uk,4,academia,London School of Hygiene and Tropical Medicine,central,,
 lta.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
 lullabytrust.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 m-w.co.uk,4,linkgraph,Linked from 4 public-sector domains,,301,10 mw-co-uk0c.mail.protection.outlook.com.
@@ -694,9 +743,15 @@ myhealth-devon.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,200,10 mx
 myparishcouncil.co.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
 nabis.police.uk,4,wikidata,National Ballistics Intelligence Service,,ConnectException,none
 nao.org.uk,4,wikidata,National Audit Office,,301,10 nao-org-uk.mail.protection.outlook.com.
+napier.ac.uk,4,academia,Edinburgh Napier University,central,,
 nashcommunitycouncil.org.uk,4,wikidata,Nash Community Council,,200,none
+natcen.ac.uk,4,academia,National Centre for Social Research,central,,
 nationalforest.org,4,directory,National Forest Company (Other),,301,10 nationalforest-org.mail.protection.outlook.com.
+nationalfruitcollection.org.uk,4,academia,National Fruit Collection,central,,
 nationaltrust.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
+ncas.ac.uk,4,academia,National Centre for Atmospheric Science,central,,
+ncbe.reading.ac.uk,4,academia,University of Reading National Centre for Biotechnology Education,central,,
+ncll.org.uk,4,academia,University of Reading National Centre for Language and Literacy,central,,
 nddcbru.org.uk,4,wikidata,NIHR Nottingham Digestive Diseases Biomedical Research Unit,,405,10 mx0.123-reg.co.uk.; 20 mx1.123-reg.co.uk.
 neechamber.co.uk,4,wikidata,North East England Chamber of Commerce,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching neechamber.co.uk found.,none
 neighbourhoodalert.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -704,27 +759,34 @@ nenc-healthiertogether.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,3
 nes.scot.nhs.uk,4,wikidata,NHS Education for Scotland,,200,10 nes-scot-nhs-uk.mail.protection.outlook.com.
 neso.energy,4,directory,National Energy System Operator (Public corporation),,301,none
 nets.nihr.ac.uk,4,wikidata,NIHR Evaluation Trials and Studies Coordinating Centre,,ConnectException,none
+newman.ac.uk,4,academia,Newman University,central,,
+newport.ac.uk,4,academia,University of South Wales Centre for Community Learning,central-1,,
 newtredegarcommunitycouncil.org.uk,4,wikidata,New Tredegar Community Council,,301,none
 nexus.org.uk,4,wikidata,Nexus,,200,0 nexus-org-uk.mail.protection.outlook.com.
 nhsdorset.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,200,none
 nhsfindyourplace.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 nhsprofessionals.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 nibusinessinfo.co.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
+niesr.ac.uk,4,academia,National Institute of Economic and Social Research,central,,
 nigeriahc.org.uk,4,wikidata,"High Commission of Nigeria, London",central,301,none
 nls.uk,4,wikidata,National Library of Scotland,central-1,301,none
 nms.ac.uk,4,wikidata,National Museums Scotland,central-1,403,20 d216171.b.ess.uk.barracudanetworks.com.; 10 d216171.a.ess.uk.barracudanetworks.com.
+noc.ac.uk,4,academia,National Oceanography Centre,central,,
 nomisweb.co.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,10 nomisweb-co-uk.mail.protection.outlook.com.
 norfolkcommunityhealthandcare.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 north-wales.police.uk,4,wikidata,North Wales Police,,ConnectException,none
 northeastlondon.icb.nhs.uk,4,wikidata,NHS North East London Integrated Care Board,,200,none
 northophallcommunitycouncil.btck.co.uk,4,wikidata,Northop Hall Community Council,,403,none
 northstaffsccg.nhs.uk,4,wikidata,NHS North Staffordshire Clinical Commissioning Group,,HttpConnectTimeoutException: HTTP connect timed out,none
+northumbria.ac.uk,4,academia,Northumbria University,central,,
 northumbria.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,5 eu-smtp-inbound-psc-1.mimecast.com.; 5 eu-smtp-inbound-psc-2.mimecast.com.
 northumbria.police.uk,4,wikidata,Northumbria Police,,ConnectException,none
+nottingham.ac.uk,4,academia,University of Nottingham,central,,
 nottinghamshire.police.uk,4,wikidata,Nottinghamshire Police,,302,0 nottinghamshire-police-uk.mail.protection.outlook.com.
 nottinghamshirehealthcare.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,307,none
 npas.police.uk,4,wikidata,National Police Air Service,,301,10 npas-police-uk.mail.protection.outlook.com.
 npsa.nhs.uk,4,wikidata,National Patient Safety Agency,,HttpConnectTimeoutException: HTTP connect timed out,none
+nqcc.ac.uk,4,academia,National Quantum Computing Centre,central,,
 nwales-fireservice.org.uk,4,wikidata,North Wales Fire and Rescue Service,,301,none
 nwis.nhs.wales,4,directory,NHS Wales Informatics Service (Other),,301,none
 ogmorevalecommunitycouncil.co.uk,4,wikidata,Ogmore Valley Community Council,,301,none
@@ -733,11 +795,13 @@ oiahe.org.uk,4,wikidata,Office of the Independent Adjudicator for Higher Educati
 oldhamccg.nhs.uk,4,wikidata,Oldham Clinical Commissioning Group,,SSLHandshakeException: Remote host terminated the handshake,none
 oldstmellonscommunitycouncil.org.uk,4,wikidata,Old St Mellons Community Council,,200,none
 ombudsman.wales,4,directory,Public Services Ombudsman for Wales (Other),,HttpConnectTimeoutException: HTTP connect timed out,0 ombudsman-wales.mail.protection.outlook.com.
+open.ac.uk,4,academia,The Open University,central,,
 oriel.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 osfcni.org.uk,4,wikidata,Office of the Social Fund Commissioner (Northern Ireland),,HttpConnectTimeoutException: HTTP connect timed out,none
 osteopathy.org.uk,4,wikidata,General Osteopathic Council,,HttpConnectTimeoutException: HTTP connect timed out,10 eu-smtp-inbound-1.mimecast.com.; 10 eu-smtp-inbound-2.mimecast.com.
 otrmdc.co.uk,4,wikidata,Old Trafford Regeneration Mayoral Development Corporation,,HttpConnectTimeoutException: HTTP connect timed out,0 otrmdc-co-uk.mail.protection.outlook.com.
 ourdorset.org.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+ox.ac.uk,4,academia,University of Oxford,central,,
 oxford.msk.bru.nihr.ac.uk,4,wikidata,NIHR Oxford Musculoskeletal Biomedical Research Unit,,HttpConnectTimeoutException: HTTP connect timed out,none
 oxfordshireccg.nhs.uk,4,wikidata,NHS Oxfordshire Clinical Commissioning Group,,HttpConnectTimeoutException: HTTP connect timed out,none
 pancreasbru.co.uk,4,wikidata,NIHR Liverpool Pancreatic Biomedical Research Unit,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -757,6 +821,8 @@ platform4.com,4,directory,Platform4 (Public corporation),,HttpTimeoutException: 
 pnghighcomm.org.uk,4,wikidata,"High Commission of Papua New Guinea, London",central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 policeombudsman.org,4,directory,Office of the Police Ombudsman for Northern Ireland (Other),,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching policeombudsman.org found.,10 mx-01-eu-west-1.prod.hydra.sophos.com.; 20 mx-02-eu-west-1.prod.hydra.sophos.com.
 pontlliw-tircoed.org.uk,4,wikidata,Pontlliw and Tircoed Community Council,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pontlliw-tircoed.org.uk found.,none
+population-health.manchester.ac.uk,4,academia,University of Manchester National Drug Evidence Centre,central,,
+port.ac.uk,4,academia,University of Portsmouth,central,,
 porthosp.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 portland-port.co.uk,4,wikidata,Portland Harbour Authority,,301,none
 portofberwick.co.uk,4,wikidata,Port of Berwick,,200,none
@@ -768,21 +834,26 @@ portofsunderland.org.uk,4,wikidata,Port of Sunderland,,200,none
 portoftyne.co.uk,4,wikidata,Port of Tyne,,301,none
 portonbiopharma.com,4,directory,Porton Biopharma Limited (Other),,200,none
 powysthb.wales.nhs.uk,4,wikidata,Powys Teaching Health Board,,ConnectException,none
+ppiw.org.uk,4,academia,Public Policy Institute for Wales,central-1,,
 pplinnovate.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 publicengagement.ac.uk,4,wikidata,National Co-ordinating Centre for Public Engagement,,301,0 publicengagement.ac.uk.
 publichealth.hscni.net,4,directory,Public Health Agency (Northern Ireland) (Other),,301,none
 qeiicentre.london,4,directory,Queen Elizabeth II Conference Centre (Executive agency),,200,5 qeiicentre-london.mail.protection.outlook.com.
 qmscotland.co.uk,4,wikidata,Quality Meat Scotland,central-1,200,none
+qmul.ac.uk,4,academia,Queen Mary University of London,central,,
 queenelizabetholympicpark.co.uk,4,wikidata,London Legacy Development Corporation,,301,5 cluster-e.mailcontrol.com.; 5 cluster-g.mailcontrol.com.; 5 cluster-j.mailcontrol.com.; 5 cluster-b.mailcontrol.com.; 21 cluster4a.eu.messagelabs.com.; 5 cluster-d.mailcontrol.com.; 5 cluster-h.mailcontrol.com.; 11 cluster4.eu.messagelabs.com.
 raglancc.org.uk,4,wikidata,Raglan Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
+rau.ac.uk,4,academia,Royal Agricultural University,central,,
 rbfrs.co.uk,4,wikidata,Royal Berkshire Fire and Rescue Service,,HttpConnectTimeoutException: HTTP connect timed out,none
-rbge.org.uk,4,wikidata,Royal Botanic Garden Edinburgh,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 rbge-org-uk.mail.protection.outlook.com.
+rca.ac.uk,4,academia,Royal College of Art,central,,
+rcm.ac.uk,4,academia,Royal College of Music,central,,
 redtractor.org.uk,4,wikidata,Assured Food Standards,,HttpConnectTimeoutException: HTTP connect timed out,none
 relate.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 reportfraud.police.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 research.cmft.nhs.uk,4,wikidata,NIHR Manchester Musculoskeletal Biomedical Research Unit,,HttpConnectTimeoutException: HTTP connect timed out,none
 rlss.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 rnib.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+roehampton.ac.uk,4,academia,University of Roehampton,central,,
 royalberkshire.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 royaldevon.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 royalmarsden.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
@@ -790,6 +861,7 @@ royalmint.com,4,directory,Royal Mint (Other),,HttpConnectTimeoutException: HTTP 
 royalsurrey.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 rspca.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,1 smtp.google.com.
 rus.rusemb.org.uk,4,wikidata,"Embassy of Russia, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
+salford.ac.uk,4,academia,University of Salford,central,,
 sandwellandwestbhamccg.nhs.uk,4,wikidata,NHS Sandwell and West Birmingham Clinical Commissioning Group,,HttpConnectTimeoutException: HTTP connect timed out,none
 sane.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,0 sane-org-uk.mail.protection.outlook.com.
 sccl.nhs.uk,4,wikidata,Supply Chain Coordination Limited,,301,none
@@ -806,6 +878,7 @@ sehd.scot.nhs.uk,4,wikidata,Health and Social Care Directorates,,ConnectExceptio
 sepa.org.uk,4,wikidata,Scottish Environment Protection Agency,central-1,301,10 sepa-org-uk.mail.protection.outlook.com.
 sfc.ac.uk,4,wikidata,Scottish Funding Council,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sfc.ac.uk found.,none
 sfh-tr.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,200,none
+sheffield.ac.uk,4,academia,University of Sheffield,central,,
 sheffieldforgemasters.com,4,directory,Sheffield Forgemasters International Ltd (Public corporation),,200,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 shirenewtoncc.org.uk,4,wikidata,Shirenewton Community Council,,301,none
 sibgroup.org.uk,4,wikidata,Communitybuilders,,301,0 sibgroup-org-uk.mail.protection.outlook.com.
@@ -813,10 +886,13 @@ signhealth.org.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
 skillsdevelopmentscotland.co.uk,4,wikidata,Skills Development Scotland,central-1,301,none
 slcc.co.uk,4,linkgraph,Linked from 3 public-sector domains,,403,none
 smd.qmul.ac.uk,4,wikidata,NIHR Barts Cardiovascular Biomedical Research Unit,,ConnectException,none
+soas.ac.uk,4,academia,"SOAS, University of London",central,,
 socialsecurity.gov.scot,4,wikidata,Social Security Scotland,central-1,301,10 gw000222-eu.fortimail.com.
 solicitorstribunal.org.uk,4,wikidata,Solicitors Disciplinary Tribunal,,200,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 south-wales.police.uk,4,wikidata,South Wales Police,,ConnectException,none
+southampton.ac.uk,4,academia,University of Southampton,central,,
 southamptonwestpcn.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
+southbank-university.ac.uk,4,academia,London South Bank University,central,,
 southbankcentre.co.uk,4,wikidata,National Poetry Library,,301,none
 southernsfc.org.uk,4,wikidata,Southern Inshore Fisheries and Conservation Authority,,301,none
 southwestyorkshire.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
@@ -834,14 +910,17 @@ spso.org.uk,4,wikidata,Scottish Public Services Ombudsman,central-1,301,none
 spt.co.uk,4,wikidata,Strathclyde Partnership for Transport,,301,none
 sqa.org.uk,4,wikidata,Scottish Qualifications Authority,central-1,301,none
 sra.org.uk,4,wikidata,Solicitors Regulation Authority,,301,none
+st-andrews.ac.uk,4,academia,University of St Andrews,central,,
 staffordshire.police.uk,4,wikidata,Staffordshire Police,,ConnectException,none
 standardscommissionscotland.org.uk,4,wikidata,Standards Commission for Scotland,central-1,301,none
 starvanscouncil.co.uk,4,wikidata,St Arvans Community Council,,SSLHandshakeException: Remote host terminated the handshake,none
 staywise.co.uk,4,linkgraph,Linked from 3 public-sector domains,,200,0 staywise-co-uk.mail.protection.outlook.com.
 stfaganscommunitycouncil.org.uk,4,wikidata,St Fagans Community Council,,ConnectException,none
 sthk.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
+stir.ac.uk,4,academia,University of Stirling,central,,
 stockportmdc.co.uk,4,wikidata,Stockport Town Centre West Mayoral Development Corporation,,200,20 mx2.cloudhosting.uk.; 10 mx1.cloudhosting.uk.
 stonewall.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+strath.ac.uk,4,academia,University of Strathclyde,central,,
 stsft.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 stwater.co.uk,4,wikidata,Severn Trent Water Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 sudan-embassy.co.uk,4,wikidata,"Embassy of Sudan, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -849,15 +928,18 @@ suffolk.police.uk,4,wikidata,Suffolk Constabulary,,HttpConnectTimeoutException: 
 suffolkchamber.co.uk,4,wikidata,Suffolk Chamber of Commerce,,HttpConnectTimeoutException: HTTP connect timed out,40 uk.mx4.mx25.net.; 10 uk.mx1.mailanyone.net.; 30 uk.mx3.mailanyone.net.; 20 uk.mx2.mx25.net.
 summerreadingchallenge.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 supplychain.nhs.uk,4,wikidata,NHS Supply Chain,,HttpConnectTimeoutException: HTTP connect timed out,0 supplychain-nhs-uk.mail.protection.outlook.com.
+surrey.ac.uk,4,academia,University of Surrey,central,,
 surreyandsussex.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 sussex.ics.nhs.uk,4,wikidata,NHS Sussex Integrated Care Board,,503,none
 svghighcom.co.uk,4,wikidata,"High Commission of Saint Vincent and the Grenadines, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
+swansea.ac.uk,4,academia,Swansea University,central,,
 sybhealthiertogether.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
 tfwm.org.uk,4,wikidata,Transport for West Midlands,,301,none
 thaiembassyuk.org.uk,4,wikidata,"Embassy of Thailand, London",central,"SSLException: Unrecognized SSL message, plaintext connection?",none
 thehelix.co.uk,4,wikidata,The Helix,,301,none
 thehideout.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,10 thehideout-co-uk.mail.protection.outlook.com.
 themix.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,0 themix-org-uk.mail.protection.outlook.com.
+thenma.org.uk,4,academia,National Memorial Arboretum,central,,
 thetakeoverpanel.org.uk,4,wikidata,Panel on Takeovers and Mergers,central,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 thewnc.org.uk,4,wikidata,Women's National Commission,,301,none
 toolkitfiles.co.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,none
@@ -868,8 +950,11 @@ trearddurcommunitycouncil.co.uk,4,wikidata,Trearddur Community Council,,200,none
 trefriwcommunitycouncil.co.uk,4,wikidata,Trefriw Community Council,,301,none
 trellechunited.org.uk,4,wikidata,Trellech United Community Council,,SSLException: (internal_error) Received fatal alert: internal_error,none
 tsh.scot.nhs.uk,4,wikidata,The State Hospitals Board for Scotland,central-1,ConnectException,none
+tulliallan.police.uk,4,academia,Scottish Police College,central,,
 turkmenembassy.org.uk,4,wikidata,Embassy of Turkmenistan in the United Kingdom,central,301,none
 ucl.ac.uk,4,wikidata,NIHR Queen Square Dementia Biomedical Research Unit,,301,none
+uea.ac.uk,4,academia,University of East Anglia,central,,
+uel.ac.uk,4,academia,University of East London,central,,
 uhb.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,0 uhb-nhs-uk.mail.protection.outlook.com.
 uhbristol.nhs.uk,4,wikidata,NIHR Bristol Nutrition Biomedical Research Unit,,200,none
 uhd.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,none
@@ -879,10 +964,14 @@ uknnl.com,4,directory,United Kingdom National Nuclear Laboratory (Public corpora
 understandingpatientdata.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,0 understandingpatientdata-org-uk.mail.protection.outlook.com.
 unesco.org.uk,4,wikidata,United Kingdom National Commission for UNESCO,,200,none
 unicef.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
+unn.ac.uk,4,academia,Northumbria University,central,,
 upstairsatthegrill.co.uk,4,wikidata,"Old Custom House Building, Chester",,200,none
+uwl.ac.uk,4,academia,London College of Music,central,,
+uwtsd.ac.uk,4,academia,University of Wales Trinity Saint David School of Theology Religious Studies and Islamic Studies,central-1,,
 veteranaware.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
 victimsupport.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 wales.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
+warwick.ac.uk,4,academia,University of Warwick,central,,
 wearewithyou.org.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 webjects.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 websitesforparishcouncils.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpTimeoutException: request timed out,none
@@ -890,13 +979,19 @@ welshlanguagetribunal.gov.wales,4,wikidata,Welsh Language Tribunal,,HttpConnectT
 west-midlands.police.uk,4,wikidata,Central Motorway Police Group,,302,none
 westernweb.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 westlondon.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
+westminster.ac.uk,4,academia,University of Westminster,central,,
 what0-18.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,301,10 feedback-smtp.eu-west-2.amazonses.com.
 whh.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
 which.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 whiteribbon.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,1 whiteribbon-org-uk.mail.protection.outlook.com.
+winchester.ac.uk,4,academia,University of Winchester,central,,
+wkac.ac.uk,4,academia,University of Winchester,central,,
+wncre.bangor.ac.uk,4,academia,Bangor University Welsh National Centre for Religious Education,central,,
+worcester.ac.uk,4,academia,University of Worcester,central,,
 www2.le.ac.uk,4,wikidata,NIHR Leicester Cardiovascular Biomedical Research Unit,,HttpConnectTimeoutException: HTTP connect timed out,none
 wypartnership.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 yemenembassy.co.uk,4,wikidata,"Embassy of Yemen, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
+york.ac.uk,4,academia,University of York,central,,
 zerowastescotland.org.uk,4,wikidata,Zero Waste Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 abuhb.nhs.wales,3,wikidata,Aneurin Bevan University Health Board,,HttpConnectTimeoutException: HTTP connect timed out,none
 ageingresearch.org,3,wikidata,NIHR Newcastle Dementia Biomedical Research Unit,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -912,6 +1007,7 @@ betws.wordpress.com,3,wikidata,Betws Community Council,,HttpConnectTimeoutExcept
 bgateway.com,3,wikidata,Business Gateway,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 bgateway-com.mail.protection.outlook.com.
 bishtoncommunitycouncil.webs.com,3,wikidata,Bishton Community Council,,ConnectException,none
 bnl.bm,3,wikidata,Bermuda National Library,,301,0 mail.bnl.bm.
+botanicgarden.wales,3,academia,National Botanic Garden of Wales,central,,
 britishirishchamber.com,3,wikidata,British Irish Chamber of Commerce,,301,none
 caerwentcc.com,3,wikidata,Caerwent Community Council,,200,none
 cardiffharbour.com,3,wikidata,Cardiff Harbour Authority,,301,none
@@ -997,10 +1093,12 @@ mzv.cz,3,wikidata,"Embassy of the Czech Republic, London",central,302,none
 mzv.sk,3,wikidata,"Embassy of Slovakia, London",central,301,none
 nationalgalleries.org,3,wikidata,National Galleries Scotland,central-1,301,none
 nature.scot,3,wikidata,NatureScot,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+ncpqsw.com,3,academia,Bournemouth University National Centre for Post Qualifying Social Work,central,,
 newradnor.net,3,wikidata,New Radnor Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 nhs.wales,3,wikidata,NHS Wales,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 nhs24.scot,3,wikidata,NHS 24,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mailforward.iomart.com.
 nhsnss.org,3,wikidata,NHS National Services Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.joker.com.
+niab.com,3,academia,National Institute of Agricultural Botany,central,,
 niccy.org,3,wikidata,"Commissioner for Children and Young People, Northern Ireland",,HttpConnectTimeoutException: HTTP connect timed out,0 niccy-org.mail.protection.outlook.com.
 nifrs.org,3,wikidata,Northern Ireland Fire and Rescue Service,,HttpConnectTimeoutException: HTTP connect timed out,none
 nmc-uk.org,3,wikidata,Nursing and Midwifery Council,,HttpConnectTimeoutException: HTTP connect timed out,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
@@ -1027,6 +1125,7 @@ rcips.ky,3,wikidata,Royal Cayman Islands Police Service,,302,none
 re.ukri.org,3,wikidata,Research England,,302,none
 redress.scot,3,wikidata,Redress Scotland,central-1,200,10 gw000222-eu.fortimail.com.
 reed.com,3,wikidata,Reed,,301,none
+reformscotland.com,3,academia,Reform Scotland,central-1,,
 rma.scot,3,wikidata,Risk Management Authority,central-1,301,none
 roadworks.scot,3,wikidata,Scottish Road Works Commissioner,central-1,200,10 sedsh08.sedsh.gov.uk.
 rogerstonecommunitycouncil.com,3,wikidata,Rogerstone Community Council,,SSLHandshakeException: Remote host terminated the handshake,none
@@ -1067,4 +1166,10 @@ visitwales.com,3,wikidata,Visit Wales,,301,10 mail.safenames.hosting.
 wics.scot,3,wikidata,Water Industry Commission for Scotland,central-1,200,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 wmfs.net,3,wikidata,West Midlands Fire Service,,301,20 d205278.b.ess.uk.barracudanetworks.com.; 20 d205278.a.ess.uk.barracudanetworks.com.
 ysbytyifan.org,3,wikidata,Ysbyty Ifan Community Council,,301,none
+dundee.ac.uk,2,academia;academia,University of Dundee | University of Dundee Department of Town and Regional Planning,central,,
+gla.ac.uk,2,wikidata;academia;academia,MRC-University of Glasgow Centre For Virus Research | University of Glasgow | University of Glasgow West of Scotland Cancer Surveillance Unit,central,301,5 jones.cent.gla.ac.uk.; 5 cleese.cent.gla.ac.uk.; 5 palin.cent.gla.ac.uk.; 10 idle.cent.gla.ac.uk.
 healthwatchdorset.co.uk,2,wikidata;wikidata;wikidata,Healthwatch Poole | Healthwatch Bournemouth | Healthwatch Dorset,,301,none
+sussex.ac.uk,2,academia;academia,University of Sussex | University of Sussex Centre for the Analysis of Regional Integration at Sussex,central,,
+lboro.ac.uk,0,academia,Loughborough University,central,,
+londonmet.ac.uk,0,academia,London Metropolitan University,central,,
+mmu.ac.uk,0,academia,Manchester Metropolitan University,central,,

@@ -5,6 +5,7 @@ health.go.ke,7,wikidata;wikidata,Ministry of Health,central,200,0 mx2.govmail.ke
 ict.go.ke,7,wikidata;wikidata,"Ministry Of Information, Communications And The Digital Economy",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
 interior.go.ke,7,wikidata;wikidata,Ministry of Interior and National Administration,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching interior.go.ke found.,5 mx1.govmail.ke.; 5 mx2.govmail.ke.; 5 mx3.govmail.ke.
 kilimo.go.ke,7,wikidata;wikidata,Ministry of Agriculture and Livestock Development,central,200,5 mx1.govmail.ke.; 5 mx3.govmail.ke.; 5 mx2.govmail.ke.
+knbs.or.ke,7,wikidata;academia,Kenya National Bureau of Statistics,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 knls.ac.ke,7,wikidata;wikidata,"Kenya National Library Service | Kenya National Library Service, Nairobi Area",,301,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
 labour.go.ke,7,wikidata;wikidata,"Ministry of Labour, Social Security and Services",central,200,0 mx3.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.
 mfa.go.ke,7,wikidata;wikidata,Ministry of Foreign and Diaspora Affairs of the Republic of Kenya,central,200,0 mx1.govmail.ke.; 0 mx2.govmail.ke.; 0 mx3.govmail.ke.; 0 mx4.govmail.ke.
@@ -21,11 +22,14 @@ cma.or.ke,4,wikidata,Capital Markets Authority,,301,10 cma-or-ke.mail.protection
 costaricanembassy.co.ke,4,wikidata,embassy of Costa Rica in Kenya,central,200,0 costaricanembassy.co.ke.
 cue.or.ke,4,wikidata,Commission for University Education,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 cue-or-ke.mail.protection.outlook.com.
 cwsk.go.ke,4,wikidata,Child Welfare Society of Kenya,,500,10 mail.cwsk.go.ke.
+dci.go.ke,4,academia,DCI National Forensic Laboratory,central,,
 eacc.go.ke,4,wikidata,Ethics and Anti-Corruption Commission,,302,0 rat-02.safaricombusiness.co.ke.; 0 rat-01.safaricombusiness.co.ke.
 epra.go.ke,4,wikidata,Energy and Petroleum Regulatory Authority,,HttpConnectTimeoutException: HTTP connect timed out,0 epra-go-ke.mail.protection.outlook.com.
 gdc.co.ke,4,wikidata,Geothermal Development Company,central,301,0 gdc-co-ke.mail.protection.outlook.com.
 icta.go.ke,4,wikidata,Information and Communication Technology Authority,,200,0 mx4.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.; 0 mx3.govmail.ke.
 irrigationauthority.go.ke,4,wikidata,National Irrigation Authority,,301,0 irrigationauthority-go-ke.mail.protection.outlook.com.
+jkuat.ac.ke,4,academia,Jomo Kenyatta University of Agriculture and Technology,central,,
+karu.ac.ke,4,academia,Karatina University,central,,
 kcaa.or.ke,4,wikidata,Kenya Civil Aviation Authority,,200,0 kcaa-or-ke.mail.protection.outlook.com.
 kcgs.go.ke,4,wikidata,Kenya Coast Guard Service,,200,5 mx1.govmail.ke.; 5 mx2.govmail.ke.; 5 mx3.govmail.ke.
 kenha.co.ke,4,wikidata,Kenya National Highway Authority,central,200,15 smtp01.safaricombusiness.co.ke.; 5 rat-01.safaricombusiness.co.ke.; 0 kenha-co-ke.mail.protection.outlook.com.; 20 smtp02.safaricombusiness.co.ke.; 10 rat-02.safaricombusiness.co.ke.
@@ -33,30 +37,40 @@ kenyafisheriesservice.go.ke,4,wikidata,Kenya Fisheries Service,,ConnectException
 kenyapolice.go.ke,4,wikidata,Kenya Police,,200,5 mx2.govmail.ke.; 5 mx3.govmail.ke.; 5 mx1.govmail.ke.
 kephis.go.ke,4,wikidata,Kenya Plant Health Inspectorate Services,,200,none
 khrc.or.ke,4,wikidata,Kenya Human Rights Commission,,200,0 khrc-or-ke.mail.protection.outlook.com.
+kibu.ac.ke,4,academia,Kibabii University,central,,
 klb.co.ke,4,wikidata,Kenya Literature Bureau,,200,0 klb-co-ke.mail.protection.outlook.com.
 klrc.go.ke,4,wikidata,Kenya Law Reform Commission,,HttpTimeoutException: request timed out,0 mail.klrc.go.ke.
-knbs.or.ke,4,wikidata,Kenya National Bureau of Statistics,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 kra.go.ke,4,wikidata,Kenya Revenue Authority,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kra.go.ke found.,dig error
 ksa.go.ke,4,wikidata,Kenya Space Agency,,200,0 ksa-go-ke.mail.protection.outlook.com.
 ksg.ac.ke,4,wikidata,Kenya School of Government,,200,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+ku.ac.ke,4,academia,Kenyatta University,central,,
+kyu.ac.ke,4,academia,Kirinyaga University,central,,
 landcommission.go.ke,4,wikidata,National Land Commission,,200,5 rat-02.safaricombusiness.co.ke.; 0 spamtitan.konza.ke.; 5 mail.landcommission.go.ke.; 5 rat-01.safaricombusiness.co.ke.; 15 rt1.maxider.com.
 meteo.go.ke,4,wikidata,Kenya Meteorological Department,,200,0 email.meteo.go.ke.; 10 mail.meteo.go.ke.
+mksu.ac.ke,4,academia,Machakos University,central,,
 mozambiquehighcommission.co.ke,4,wikidata,"High Commission of Mozambique, Nairobi",central,200,0 mozambiquehighcommission.co.ke.
+mu.ac.ke,4,academia,Moi University,central,,
 nacc.or.ke,4,wikidata,National Aids Control Council,,403,none
 nacosti.go.ke,4,wikidata,"National Commission for Science, Technology and Innovation",,301,0 nacosti-go-ke.mail.protection.outlook.com.
 nairobi.mfa.gov.hu,4,wikidata,Embassy of Hungary to Kenya,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ndma.go.ke,4,wikidata,National Drought Management Authority,,200,40 alt4.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 40 alt3.aspmx.l.google.com.; 30 alt2.aspmx.l.google.com.
 nema.go.ke,4,wikidata,National Environment Management Authority,,200,1 mail.nema.go.ke.
+nphi.go.ke,4,academia,National HIV Reference Laboratory,central,,
+nphl.go.ke,4,academia,National Public Health Laboratories,central,,
 nrf.go.ke,4,wikidata,National Research Fund Kenya,,HttpConnectTimeoutException: HTTP connect timed out,0 nrf-go-ke.mail.protection.outlook.com.
 ombudsman.go.ke,4,wikidata,Commission on Administrative Justice,,200,0 ombudsman-go-ke.mail.protection.outlook.com.
 posta.co.ke,4,wikidata,Postal Corporation of Kenya,,200,0 mx-in-01.posta.co.ke.; 5 mx-in-02.posta.co.ke.
 publicservice.go.ke,4,wikidata,Public Service Commission,,301,5 mail.publicservice.go.ke.
 rba.go.ke,4,wikidata,Retirement Benefits Authority of Kenya,,403,10 rba-go-ke.mail.protection.outlook.com.
 unesco.go.ke,4,wikidata,Kenya National Commission for UNESCO,,200,0 unesco-go-ke.mail.protection.outlook.com.
+uoeld.ac.ke,4,academia,University of Eldoret,central,,
+uonbi.ac.ke,4,academia,University of Nairobi,central,,
 wajir.go.ke,4,wikidata,Wajir County Government,,200,5 smtp02.safaricombusiness.co.ke.; 0 rat-01.safaricombusiness.co.ke.; 0 rat-02.safaricombusiness.co.ke.; 5 smtp01.safaricombusiness.co.ke.
 waterfund.go.ke,4,wikidata,Water Services Trust Fund,,200,0 waterfund-go-ke.mail.protection.outlook.com.
 wrti.go.ke,4,wikidata,Wildlife Research and Training Institute,,200,5 mx2.govmail.ke.; 5 mx1.govmail.ke.; 5 mx3.govmail.ke.
 au-ibar.org,3,wikidata,African Union Interafrican Bureau for Animal Resources,,400,5 mail.au-ibar.org.
+crdd-kenya.org,3,academia,National Dryland Farming Research Centre,central,,
+ctc-n.org,3,academia,National Horticultural Research Centre,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Kenya,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 finlandabroad.fi,3,wikidata,embassy of Finland in Kenya,central,301,10 mail.valtori.fi.
 icpac.net,3,wikidata,IGAD Climate Prediction and Applications Center,,301,"1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 55 icpac-net.mail.protection.outlook.COM.; 60 o365-icpac-net.mail.protection.outlook.com,.; 50 ms42723513.msv1.invalid.; 65 gsuite-icpac-net.mail.protection.outlook.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM."

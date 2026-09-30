@@ -1,7 +1,18 @@
 hostname,score,sources,label,level,http_status,mx
 aprc.sd,4,wikidata,Animal Production Research Center,,HttpConnectTimeoutException: HTTP connect timed out,0 aprc.sd.
+iua.edu.sd,4,academia,International University of Africa,central,,
+merowe.edu.sd,4,academia,Merowe University of Technology - Abdulatif Alhamad,central,,
 meteosudan.sd,4,wikidata,Sudan Meteorological Authority,,200,none
+must.edu.sd,4,academia,Managil University of Science and Technology,central,,
+nyalau.edu.sd,4,academia,Nyala University,central,,
+quran-unv.edu.sd,4,academia,University of the Holy Quran and Islamic Sciences,central,,
+rsu.edu.sd,4,academia,Red Sea University,central,,
+stu.edu.sd,4,academia,Sudan Technological University,central,,
 sudapost.sd,4,wikidata,SudaPost,,200,0 _dc-mx.006e3f69d07b.sudapost.sd.
+uofg.edu.sd,4,academia,University of Gezira,central,,
+uofs.edu.sd,4,academia,Sinnar University,central,,
+ush.sd,4,academia,Shendi University,central,,
+zalingei.edu.sd,4,academia,University of Zalingei,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Sudan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 khartoum.mae.ro,3,wikidata,embassy of Romania in Sudan,central,503,none
 khartum.diplo.de,3,wikidata,"Embassy of Germany, Khartoum",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
@@ -9,3 +20,4 @@ norway.no,3,wikidata,"Embassy of Norway, Khartoum",central,301,0 mx.domeneshop.n
 sd.ambafrance.org,3,wikidata,"Embassy of France, Khartoum",central,301,none
 sudan.mid.ru,3,wikidata,embassy of Russia in Sudan,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Khartoum",central,301,none
+uofk.edu,3,academia,University of Khartoum,central,,

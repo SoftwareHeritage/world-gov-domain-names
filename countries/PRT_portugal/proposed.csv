@@ -7,7 +7,9 @@ dgav.pt,7,wikidata;wikidata,Direcção-Geral de Alimentação e Veterinária | Q
 exercito.pt,7,wikidata;wikidata,Direção de Formação | Direção de História e Cultura Militar,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp2.exercito.pt.; 10 smtp1.exercito.pt.
 gnr.pt,7,wikidata;linkgraph,National Republican Guard,central,301,10 mx1.rnsi.mai.gov.pt.; 10 mx4.rnsi.mai.gov.pt.; 10 mx6.rnsi.mai.gov.pt.; 10 mx3.rnsi.mai.gov.pt.; 10 mx2.rnsi.mai.gov.pt.; 10 mx5.rnsi.mai.gov.pt.
 icnf.pt,7,wikidata;wikidata,Institute for Nature Conservation and Forests,,200,0 icnf-pt.mail.protection.outlook.com.
+ine.pt,7,wikidata;academia,National Institute of Statistics,central,302,5 ine-pt.mail.protection.outlook.com.
 infarmed.pt,7,wikidata;wikidata,National Authority of Medicines and Health Products,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.infarmed.pt.
+lneg.pt,7,wikidata;academia,National Laboratory for Energy and Geology,central,ConnectException: Host is unreachable,0 lneg-pt.mail.protection.outlook.com.
 moptc.pt,7,wikidata;wikidata,"Ministry of Public Works, Transport and Communications",central,403,none
 policiajudiciaria.pt,7,wikidata;wikidata,Laboratório de Polícia Científica | Polícia Judiciária,,ConnectException,none
 pontosj.pt,7,wikidata;wikidata,Portuguese Province of the Society of Jesus,,200,20 mx2.cleanmx.pt.; 10 mx1.cleanmx.pt.
@@ -30,6 +32,7 @@ cm-viladerei.pt,5,linkgraph,Linked from 8 public-sector domains,,HttpTimeoutExce
 cm-vnbarquinha.pt,5,linkgraph,Linked from 9 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 email.cm-vnbarquinha.pt.
 acad-ciencias.pt,4,wikidata,Academy of Sciences of Lisbon,,301,10 acadciencias-pt01b.mail.protection.outlook.com.
 academia.marinha.pt,4,wikidata,Academia de Marinha,,302,none
+academica.pt,4,academia,Coimbra Academic Association,central,,
 acss.min-saude.pt,4,wikidata,Administracao Central do Sistema de Saude,,301,0 acss-minsaude-pt02b.mail.protection.outlook.com.
 adop.pt,4,wikidata,Autoridade Antidopagem de Portugal,,200,10 adop-pt.mail.protection.outlook.com.
 aeportugal.pt,4,wikidata,Portuguese Business Association,,301,0 aeportugal-pt.mail.protection.outlook.com.
@@ -103,6 +106,7 @@ hdfigueira.min-saude.pt,4,wikidata,Q124789184,,ConnectException,0 hdfigueira-min
 hevora.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alentejo Central,,ConnectException,0 hevora-minsaude-pt02e.mail.protection.outlook.com.
 hff.min-saude.pt,4,wikidata,Unidade Local de Saúde de Amadora/Sintra,,200,0 hff-minsaude-pt01i.mail.protection.outlook.com.
 hgo.min-saude.pt,4,wikidata,Unidade Local de Saúde de Almada-Seixal,,ConnectException,0 hgo-minsaude-pt01i.mail.protection.outlook.com.
+hidrografico.pt,4,academia,Hydrographic Institute,central,,
 hospitaldebraga.pt,4,wikidata,Unidade Local de Saúde de Braga,,200,none
 hospitaldeguimaraes.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alto Ave,,ConnectException,0 hospitaldeguimaraes-minsaude-pt05i.mail.protection.outlook.com.
 hospitalvilafrancadexira.pt,4,wikidata,Unidade Local de Saúde do Estuário do Tejo,,200,none
@@ -110,22 +114,26 @@ iapmei.pt,4,wikidata,IAPMEI,,ConnectException,0 iapmei-pt.mail.protection.outloo
 iefp.pt,4,wikidata,Institute of Employment and Professional Training,,200,10 iefp-pt.mail.protection.outlook.com.
 igai.pt,4,wikidata,Inspeção-Geral da Administração Interna,,ConnectException,10 mx1.rnsi.mai.gov.pt.; 10 mx6.rnsi.mai.gov.pt.; 10 mx5.rnsi.mai.gov.pt.; 10 mx3.rnsi.mai.gov.pt.; 10 mx4.rnsi.mai.gov.pt.; 10 mx2.rnsi.mai.gov.pt.
 igec.mec.pt,4,wikidata,Inspeção-Geral da Educação e Ciência,,ConnectException,10 rmail4.rae.mec.pt.; 10 rmail5.rae.mec.pt.
+iict.pt,4,academia,Instituto de Investigação Científica Tropical,central,,
 imt-ip.pt,4,wikidata,Q1665246,,ConnectException,40 imtt-pt.mail.protection.outlook.com.
 ina.pt,4,wikidata,Instituto Nacional de Administração,,HttpConnectTimeoutException: HTTP connect timed out,10 ina-pt.mail.protection.outlook.com.
 inag.pt,4,wikidata,Q108045686,,200,none
-ine.pt,4,wikidata,National Institute of Statistics,central,302,5 ine-pt.mail.protection.outlook.com.
 inem.pt,4,wikidata,Centro de Informação Antivenenos,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 inem-pt.mail.protection.outlook.com.
+ineti.pt,4,academia,"National Institute of Engineering, Technology and Innovation",central,,
+iniav.pt,4,academia,National Institute of Agrarian and Veterinary Research,central,,
 inml.mj.pt,4,wikidata,Instituto Nacional de Medicina Legal,,ConnectException,10 mx02.justica.gov.pt.; 10 mailgw.mj.pt.
 inovacaosocial.portugal2020.pt,4,wikidata,Portugal Inovação Social,,200,10 inovacaosocial-portugal2020-pt.mail.protection.outlook.com.
 inpi.pt,4,wikidata,National Industrial Property Institute,,200,10 mailgw.mj.pt.
 inr.pt,4,wikidata,Instituto Nacional para a Reabilitação,,ConnectException,none
+insa.min-saude.pt,4,academia,National Institute of Health Dr. Ricardo Jorge,central,,
 ipq.pt,4,wikidata,Portuguese Institute for Quality,central,301,10 ipq-pt.mail.protection.outlook.com.
 iqs.pt,4,wikidata,Instituto da Qualidade em Saúde,,301,10 mxa.mailgun.org.; 10 mxb.mailgun.org.
+iscpsi.pt,4,academia,Instituto Superior de Ciências Policiais e Segurança Interna,central,,
 ivp.pt,4,wikidata,Douro and Port Wine Institute,,HttpConnectTimeoutException: HTTP connect timed out,10 w2k8r2-ex1.ntporto.ivp.pt.
 jf-sdomingosbenfica.pt,4,wikidata,Junta de Freguesia de São Domingos de Benfica,,403,0 jfsdomingosbenfica-pt0e.mail.protection.outlook.com.
 lisboa.pt,4,wikidata,Lisbon City Council,central-1,301,10 lisboa-pt.mail.protection.outlook.com.
 lisszabon.mfa.gov.hu,4,wikidata,"Hungarian embassy, Lisbon",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-lneg.pt,4,wikidata,National Laboratory for Energy and Geology,,ConnectException: Host is unreachable,0 lneg-pt.mail.protection.outlook.com.
+lnec.pt,4,academia,Laboratório Nacional de Engenharia Civil,central,,
 maroceano.pt,4,wikidata,Estrutura de Missão para os Assuntos do Mar,,ConnectException,none
 mofa.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Lisbon",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 mun-setubal.pt,4,wikidata,Municipal Assembly of Setúbal,central-1,301,5 munsetubal-pt0i.mail.protection.outlook.com.
@@ -146,6 +154,13 @@ spms.min-saude.pt,4,wikidata,Serviços Partilhados do Ministério da Saúde,,307
 stadministrativo.pt,4,wikidata,Portuguese Supreme Administrative Court,,200,10 mailgw.mj.pt.
 tcontas.pt,4,wikidata,Portuguese Court of Audits,,ConnectException,50 smtpin2.nos.smail.eu.; 20 mail.tcontas.pt.
 turismodeportugal.pt,4,wikidata,Turismo de Portugal,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching turismodeportugal.pt found.,5 turismodeportugal-pt.mail.protection.outlook.com.
+ua.pt,4,academia,University of Aveiro,central,,
+uab.pt,4,academia,Universidade Aberta de Portugal,central,,
+uac.pt,4,academia,University of the Azores,central,,
+ualg.pt,4,academia,University of Algarve,central,,
+uc.pt,4,academia,University of Coimbra,central,,
+uevora.pt,4,academia,University of Évora,central,,
+ulisboa.pt,4,academia,University of Lisbon,central,,
 ulsam.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alto Minho,,ConnectException,0 ulsam-minsaude-pt02c.mail.protection.outlook.com.
 ulsba.min-saude.pt,4,wikidata,Unidade Local de Saúde do Baixo Alentejo,,ConnectException,0 ulsba-minsaude-pt02c.mail.protection.outlook.com.
 ulscb.min-saude.pt,4,wikidata,Unidade Local de Saúde de Castelo Branco,,ConnectException,0 ulscb-minsaude-pt02c.mail.protection.outlook.com.
@@ -155,6 +170,8 @@ ulsla.min-saude.pt,4,wikidata,Unidade Local de Saúde do Litoral Alentejano,,SSL
 ulsm.min-saude.pt,4,wikidata,Unidade Local de Saúde de Matosinhos,,ConnectException,0 ulsm-minsaude-pt02b.mail.protection.outlook.com.
 ulsna.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alto Alentejo,,ConnectException,0 ulsna-minsaude-pt02c.mail.protection.outlook.com.
 ulsne.min-saude.pt,4,wikidata,Unidade Local de Saúde do Nordeste,,ConnectException,0 ulsne-minsaude-pt02c.mail.protection.outlook.com.
+uminho.pt,4,academia,University of Minho,central,,
+up.pt,4,academia,University of Porto,central,,
 ambafrance-pt.org,3,wikidata,"Embassy of France, Lisbon",central,ConnectException,none
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Lisbon",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
 bv-guimaraes.org,3,wikidata,Associação Humanitária dos Bombeiros Voluntários de Guimarães,,302,0 bv-guimaraes.org.

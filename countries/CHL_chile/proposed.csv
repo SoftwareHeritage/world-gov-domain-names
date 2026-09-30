@@ -14,6 +14,7 @@ gorearaucania.cl,7,wikidata;wikidata,Regional Council of La Araucanía,central-1
 gorearicayparinacota.cl,7,wikidata;wikidata,Regional Council of Arica and Parinacota,central-1,302,10 mail.gorearicayparinacota.cl.
 goreaysen.cl,7,wikidata;wikidata,Regional Council of Aysén,central-1,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
 goremaule.cl,7,wikidata;wikidata,Regional Council of Maule,central-1,200,0 goremaule-cl.mail.protection.outlook.com.
+ine.cl,7,wikidata;academia,Instituto Nacional de Estadísticas,central,302,0 ine-cl.mail.protection.outlook.com.
 minmineria.cl,7,wikidata;wikidata,Ministry of Mining,central,HttpConnectTimeoutException: HTTP connect timed out,20 mx-02-us-west-2.prod.hydra.sophos.com.; 10 mx-01-us-west-2.prod.hydra.sophos.com.
 minsegpublica.cl,7,wikidata;wikidata,Ministry of Public Security of Chile,central,HttpConnectTimeoutException: HTTP connect timed out,none
 regiondeloslagos.cl,7,wikidata;wikidata,Regional Council of Los Lagos,central-1,ConnectException,none
@@ -76,10 +77,10 @@ igm.cl,4,wikidata,Instituto Geográfico Militar,,ConnectException,0 igm-cl.mail.
 inapi.cl,4,wikidata,Chilean Institute of Intellectual Property (INAPI),,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 ind.cl,4,wikidata,Q1072817,,200,1 smtp.google.com.
 indh.cl,4,wikidata,Instituto Nacional de Derechos Humanos,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 40 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.
-ine.cl,4,wikidata,Instituto Nacional de Estadísticas,central,302,0 ine-cl.mail.protection.outlook.com.
 infor.cl,4,wikidata,Instituto Forestal,,ConnectException,0 infor-cl.mail.protection.outlook.com.
 inh.cl,4,wikidata,National Institute of Hydraulics,,302,30 alt2.aspmx.l.google.com.; 30 alt1.aspmx.l.google.com.; 50 aspmx2.googlemail.com.; 50 aspmx3.googlemail.com.; 10 aspmx.l.google.com.
 inn.cl,4,wikidata,Q5917564,,301,10 inn-cl.mail.protection.outlook.com.
+jbn.cl,4,academia,Jardín Botánico Nacional de Viña del Mar,central,,
 junaeb.cl,4,wikidata,Q5956502,,HttpConnectTimeoutException: HTTP connect timed out,0 junaeb-cl.mail.protection.outlook.com.
 marcachile.cl,4,wikidata,Image of Chile Foundation,,301,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 minvu.cl,4,wikidata,Q6134961,central,301,0 minvu-cl.mail.protection.outlook.com.
@@ -118,6 +119,12 @@ supereduc.cl,4,wikidata,Q6135919,,HttpConnectTimeoutException: HTTP connect time
 suseso.cl,4,wikidata,Q16636769,,301,none
 svs.cl,4,wikidata,Q9080625,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching svs.cl found.,10 mxb-003e6201.gslb.pphosted.com.; 10 mxa-003e6201.gslb.pphosted.com.
 uaf.cl,4,wikidata,Unidad de Análisis Financiero,,ConnectException,none
+uantof.cl,4,academia,University of Antofagasta,central,,
+ubiobio.cl,4,academia,University of the Bío-Bío,central,,
+uchile.cl,4,academia,University of Chile,central,,
+usach.cl,4,academia,University of Santiago,central,,
+utalca.cl,4,academia,University of Talca,central,,
+uv.cl,4,academia,University of Valparaíso,central,,
 wwww.bomberosconcepcion.cl,4,wikidata,Fire Department Concepción,,ConnectException,none
 chile.mid.ru,3,wikidata,embassy of Russia in Chile,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 chile.um.dk,3,wikidata,"Embassy of Denmark, Santiago",central,301,none

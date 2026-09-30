@@ -1,6 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 eastgalil.org.il,7,wikidata;wikidata,Q16338638,,200,0 eastgalil-org-il.mail.protection.outlook.com.
-israelhpr.org.il,7,wikidata;wikidata,Israel National Institute for Health Policy Research,,301,none
+israelhpr.org.il,7,wikidata;wikidata;academia,Israel National Institute for Health Policy Research,central,301,none
 rabincenter.org.il,7,wikidata;wikidata,Yitzhak Rabin Center,,301,0 rabincenter-org-il.mail.protection.outlook.com.
 shazar.org.il,7,wikidata;wikidata,The Zalman Shazar Center,,301,0 shazar-org-il.mail.protection.outlook.com.
 telaviv.mfa.gov.hu,7,wikidata;wikidata,"Hungarian embassy, Tel-Aviv",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -11,21 +11,27 @@ wegalil.org,6,wikidata;wikidata,Eshkol - Galil Maaravi,,200,10 vps4044.secured-c
 yadvashem.org,6,wikidata;wikidata,Yad Vashem,,302,3 yadvashem.in.tmes.trendmicro.com.
 academy.ac.il,4,wikidata,Israel Academy of Sciences and Humanities,,200,0 plannet.cyfox.com.
 antiquities.org.il,4,wikidata,Israel Antiquities Authority,,301,10 mx1.improvmx.com.; 20 mx2.improvmx.com.
+ariel.ac.il,4,academia,Ariel University,central,,
 begincenter.org.il,4,wikidata,Menachem Begin Heritage Center,,301,0 begincenter-org-il.mail.protection.outlook.com.
 beitdin.org.il,4,wikidata,Q86001497,,200,none
 besor.org.il,4,wikidata,Shikma-Besor Drainage and Streams Authority,,302,0 besor-org-il.mail.protection.outlook.com.
 bgh.org.il,4,wikidata,The Ben Gurion Heritage Institute,,200,0 bgh-org-il.mail.protection.outlook.com.
+bgu.ac.il,4,academia,Ben-Gurion University of the Negev,central,,
+biu.ac.il,4,academia,Bar-Ilan University,central,,
 boi.org.il,4,wikidata,Bank of Israel,central,302,5 Mail05.boi.org.il.; 33 mail33.boi.org.il.; 15 mail15.boi.org.il.
 che.org.il,4,wikidata,Council for Higher Education in Israel,,200,0 che-org-il.mail.protection.outlook.com.
 dsda.org.il,4,wikidata,The Dead Sea Drainage Authority,,404,0 dsda-org-il.mail.protection.outlook.com.
 eilat.muni.il,4,wikidata,Eilat,,403,0 eilat-muni-il.mail.protection.outlook.com.
 envihaifa.org.il,4,wikidata,Haifa District Municipal Association for Environmental Protection,central-1,301,0 envihaifa-org-il.mail.protection.outlook.com.
+haifa.ac.il,4,academia,University of Haifa,central,,
 harav-eliyahu.co.il,4,wikidata,Q129504374,,200,none
 hebrew-academy.org.il,4,wikidata,Academy of the Hebrew Language,,403,0 hebrewacademy-org-il01e.mail.protection.outlook.com.
 i-core.org.il,4,wikidata,Israeli Centers for Research Excellence,,200,none
 idf.il,4,wikidata,Israel Defense Forces Medical Corps,,ConnectException,0 idf-il.mail.protection.outlook.com.
 igudan.org.il,4,wikidata,Q112872111,,301,100 mx.bezeqint.net.; 10 mail.igudan.org.il.
+inies.org.il,4,academia,National Institute for Energy,central,,
 innovationisrael.org.il,4,wikidata,Israel Innovation Authority,,200,5 innovationisrael-org-il.mail.protection.outlook.com.
+inss.org.il,4,academia,Institute for National Security Studies,central,,
 iscc.co.il,4,wikidata,Israel–Switzerland & Liechtenstein Chamber of Commerce,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.iscc.co.il.
 iserd.org.il,4,wikidata,Israel-Europe R&D Directorate,,301,20 mx2-eu1.ppe-hosted.com.; 30 _dc-mx.0452eee4d464.iserd.org.il.; 10 mx1-eu1.ppe-hosted.com.; 5 iserd-org-il.mail.protection.outlook.com.
 israelbar.org.il,4,wikidata,Israel Bar Association,,302,10 israelbar.cyfox.com.
@@ -36,12 +42,14 @@ karnit.co.il,4,wikidata,Karnit,,403,10 mailmx.karnit.co.il.; 50 mx.bezeqint.net.
 kineret.org.il,4,wikidata,Kinneret Drainage and Streams Authority,,403,0 kineret-org-il.mail.protection.outlook.com.
 makan.org.il,4,wikidata,Israeli Public Broadcasting Corporation,,403,0 makan-org-il.mail.protection.outlook.com.
 meta.org.il,4,wikidata,The Marine Education and Training Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
+nibn.co.il,4,academia,The National Institute for Biotechnology in the Negev Ltd.,central,,
 nigerianembassy.co.il,4,wikidata,embassy of Nigeria in Israel,central,301,0 _dc-mx.6ba2b97289c2.nigerianembassy.co.il.
 nikuzarava.co.il,4,wikidata,Arava Drainage and Streams Authority,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.nikuzarava.co.il.
 nikuzcarmel.co.il,4,wikidata,Carmel Drainage and Streams Authority,,301,none
 nli.org.il,4,wikidata,National Library of Israel,,403,0 nli-org-il.mail.protection.outlook.com.
 ofot.org.il,4,wikidata,Q55648019,,301,10 custmx.netvision.net.il.
 oliveboard.org.il,4,wikidata,Israel Olive Oil Board,,301,0 oliveboard.org.il.
+openu.ac.il,4,academia,Open University of Israel,central,,
 osh.org.il,4,wikidata,Israel Institute for Occupational Safety and Hygiene,,301,10 mail.osh.org.il.
 parks.org.il,4,wikidata,Israel Nature and Parks Authority,,403,10 parks-org-il.mail.protection.outlook.com.
 pitronot-labor.org.il,4,wikidata,Q6570563,,403,0 mail.pitronot-labor.org.il.
@@ -51,6 +59,7 @@ safis.co.il,4,wikidata,"Embassy of South Africa, Tel Aviv",central,HttpConnectTi
 shomron.enviosh.org.il,4,wikidata,Q12403703,,HttpConnectTimeoutException: HTTP connect timed out,none
 sii.org.il,4,wikidata,Standards Institution of Israel,,ConnectException,30 mx10.netvision.net.il.; 20 cluster1a.eu.messagelabs.com.; 10 cluster1.eu.messagelabs.com.
 sviva-sc.org.il,4,wikidata,Q7060683,,403,0 svivasc-org-il01c.mail.protection.outlook.com.
+tau.ac.il,4,academia,Tel Aviv University,central,,
 uzbembassy.org.il,4,wikidata,embassy of Uzbekistan in Israel,central,200,10 mailgw2.spd.co.il.
 vanleer.org.il,4,wikidata,Van Leer Jerusalem Institute,,301,10 mail1.vanleer.org.il.; 0 vanleer-org-il.mail.protection.outlook.com.; 100 mx.bezeqint.net.
 veterinary.org.il,4,wikidata,Q105810498,central,200,5 veterinary-org-il.mail.protection.outlook.com.

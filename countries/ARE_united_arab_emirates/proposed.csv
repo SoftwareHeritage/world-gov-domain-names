@@ -1,14 +1,15 @@
 hostname,score,sources,label,level,http_status,mx
 adpolice.gov.ae,8,wikidata;wikidata,Abu Dhabi Police,,200,10 police1.adpolice.gov.ae.; 15 police2.adpolice.gov.ae.
 almajles.gov.ae,8,wikidata;wikidata,Federal National Council,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.almajles.gov.ae.
-economy.gov.ae,8,wikidata;wikidata,Ministry of Economy,central,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+fcsa.gov.ae,8,wikidata;academia,Federal Competitiveness and Statistics Authority,central,403,5 mxa-00284c03.gslb.pphosted.com.; 5 mxb-00284c03.gslb.pphosted.com.
+fcsc.gov.ae,8,wikidata;academia,Federal Competitiveness and Statistics Centre,central,403,5 mxa-00284c03.gslb.pphosted.com.; 5 mxb-00284c03.gslb.pphosted.com.
 moe.gov.ae,8,wikidata;wikidata,Ministry of Education,central,302,5 moe-gov-ae.mail.protection.outlook.com.
 mof.gov.ae,8,wikidata;wikidata,Ministry of Finance,,301,20 webmail1.mof.gov.ae.; 10 webmail.mof.gov.ae.
 mofaic.gov.ae,8,wikidata;wikidata;wikidata;wikidata,Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and International Cooperation,central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 moh.gov.ae,8,wikidata;wikidata,Ministry of Health and Prevention,central,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 mohesr.gov.ae,8,wikidata;wikidata,Ministry of Higher Education and Scientific Research,central,301,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 nma.gov.ae,8,wikidata;wikidata,National Media Authority,,302,20 nma-gov-ae.mail.protection.outlook.com.; 0 wam.in.tmes.trendmicro.eu.
-scad.gov.ae,8,wikidata;wikidata,Statistics Centre - Abu Dhabi,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 scad-gov-ae.mail.protection.outlook.com.; 20 mail2.scad.gov.ae.; 10 seg.in.tmes-uae.trendmicro.com.; 20 mail1.scad.gov.ae.
+scad.gov.ae,8,wikidata;wikidata;academia,Statistics Centre - Abu Dhabi,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 scad-gov-ae.mail.protection.outlook.com.; 20 mail2.scad.gov.ae.; 10 seg.in.tmes-uae.trendmicro.com.; 20 mail1.scad.gov.ae.
 space.gov.ae,8,wikidata;wikidata,United Arab Emirates Space Agency,,302,10 mx1-us1.ppe-hosted.com.; 10 mx2-us1.ppe-hosted.com.
 wam.ae,7,wikidata;wikidata,Emirates News Agency,,301,5 wam-ae.mail.protection.outlook.com.; 50 smartmail2.fednet.gov.ae.; 40 mail2.emirates.net.ae.; 0 wam.in.tmes.trendmicro.eu.; 10 smartmail1.fednet.gov.ae.
 government.ae,6,un_desa,UN/DESA national portal,,301,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
@@ -24,8 +25,6 @@ dubaipolice.gov.ae,5,wikidata,Dubai Police Force,,302,10 dpmail.dubaipolice.gov.
 emi.qcc.gov.ae,5,wikidata,Emirates Metrology Institute,,200,none
 etcc.gov.ae,5,wikidata,Q138571897,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,0 etcc-gov-ae.mail.protection.outlook.com.
 fanr.gov.ae,5,wikidata,Federal Authority for Nuclear Regulation,,302,10 smtp02.fanr.gov.ae.; 10 smtp01.fanr.gov.ae.
-fcsa.gov.ae,5,wikidata,Federal Competitiveness and Statistics Authority,central,403,5 mxa-00284c03.gslb.pphosted.com.; 5 mxb-00284c03.gslb.pphosted.com.
-fcsc.gov.ae,5,wikidata,Federal Competitiveness and Statistics Centre,,403,5 mxa-00284c03.gslb.pphosted.com.; 5 mxb-00284c03.gslb.pphosted.com.
 icp.gov.ae,5,wikidata,"Federal Authority for Identity, Citizenship, Customs and Port Security",,200,10 mail.ica.gov.ae.; 30 mail2.ica.gov.ae.
 mfnca.gov.ae,5,wikidata,"Ministry of State for Federal National Council Affairs, United Arab Emirates",central,404,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 moi.gov.ae,5,wikidata,Ministry of the Interior,,302,10 smtp2.moi.gov.ae.; 10 smtp1.moi.gov.ae.
@@ -49,6 +48,7 @@ nrf.ae,4,wikidata,National Research Foundation,,HttpConnectTimeoutException: HTT
 pakistanconsulate.ae,4,wikidata,"Consulate-General of Pakistan, Dubai",,ConnectException,none
 rta.ae,4,wikidata,Roads and Transport Authority,,200,20 mail3.rta.ae.; 10 mail2.rta.ae.; 20 mail4.rta.ae.; 10 mail1.rta.ae.
 saa.shj.ae,4,wikidata,Sharjah Archaeology Authority,,302,10 smtp.shj.ae.
+uaeu.ac.ae,4,academia,National Space Science and Technology Center,central,,
 vnembassy-abudhabi.mofa.gov.v,4,wikidata,"Embassy of the Vietnam, UAE",,ConnectException,none
 zho.ae,4,wikidata,Zayed Higher Organization for Humanitarian Care and Special Needs,,HttpConnectTimeoutException: HTTP connect timed out,0 zho-ae.mail.protection.outlook.com.
 abudhabi.mae.lu,3,wikidata,embassy of Luxembourg in the United Arab Emirates,central,302,none
@@ -59,6 +59,7 @@ ambasadat.net,3,wikidata,"Embassy of Kosovo, Abu Dhabi",central,200,20 mx2.email
 citibnq.com,3,wikidata,Capital Market Authority,,ConnectException,none
 dubai.consulfrance.org,3,wikidata,Consulate General of France in Dubai,,301,none
 dubai.diplo.de,3,wikidata,"Consulate General of Germany, Dubai",,301,10 mx2.bund.de.; 10 mx1.bund.de.
+economy.gov.ae,3,wikidata;wikidata;academia,Ministry of Economy,central,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 eeas.europa.eu,3,wikidata,Delegation of the European Union to United Arab Emirates,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 embassy-algeria-uae.com,3,wikidata,"Embassy of Algeria, Abu Dhabi",central,500,10 mx00.ionos.com.; 10 mx01.ionos.com.
 embcr-uae.org,3,wikidata,embassy of Costa Rica in the United Arab Emirates,central,200,0 mail.embcr-uae.org.
