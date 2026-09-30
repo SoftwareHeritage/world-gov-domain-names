@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-141 domain(s) proposed for validation, of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+148 domain(s) proposed for validation, of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -50,9 +50,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `gorearicayparinacota.cl` | central-1 | 302 | wikidata;wikidata | Regional Council of Arica and Parinacota |
 | 7 | `goreaysen.cl` | central-1 | SSLHandsh... | wikidata;wikidata | Regional Council of Aysén |
 | 7 | `goremaule.cl` | central-1 | 200 | wikidata;wikidata | Regional Council of Maule |
+| 7 | `ine.cl` | central | 302 | wikidata;academia | Instituto Nacional de Estadísticas |
 | 7 | `minmineria.cl` | central | HttpConne... | wikidata;wikidata | Ministry of Mining |
 | 7 | `minsegpublica.cl` | central | HttpConne... | wikidata;wikidata | Ministry of Public Security of Chile |
 | 7 | `regiondeloslagos.cl` | central-1 | ConnectEx... | wikidata;wikidata | Regional Council of Los Lagos |
 | 7 | `sitio.gorebiobio.cl` | central-1 | ConnectEx... | wikidata;wikidata | Regional Council of Biobío |
-| 6 | `tribunalconstitucional.cl` |  | HttpConne... | wikidata | Constitutional Court of Chile |
 

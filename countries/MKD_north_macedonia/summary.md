@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+29 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,16 +43,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `aek.mk` |  | 200 | wikidata | Agency for Electronic Communications |
 | 4 | `ambasadabih.org.mk` | central | 200 | wikidata | Embassy of Bosnia and Herzegovina in North Macedonia |
 | 4 | `arhiv.mk` |  | 200 | wikidata | State Archive of the Republic of North Macedonia |
+| 4 | `ff.ugd.edu.mk` | central |  | academia | Q12911322 |
 | 4 | `ia.mk` |  | HttpConne... | wikidata | Intelligence Agency of North Macedonia |
 | 4 | `nbrm.mk` |  | 403 | wikidata | National Bank of North Macedonia |
 | 4 | `nubsk.edu.mk` |  | 200 | wikidata | National and University Library "St. Kliment of Ohrid" |
 | 4 | `oskratovo.mk` |  | SSLHandsh... | wikidata | Courthouses in Kratovo |
 | 4 | `osnegotino.mk` |  | SSLHandsh... | wikidata | Courthouses in Negotino |
+| 4 | `ukim.edu.mk` | central |  | academia | Ss. Cyril and Methodius University of Skopje |
+| 4 | `uklo.edu.mk` | central |  | academia | St. Clement of Ohrid University of Bitola |
 | 3 | `ambasadat.net` | central | 200 | wikidata | Embassy of Kosovo, Skopje |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to North Macedonia |
 | 3 | `macedonia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in North Macedonia |
 | 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in North Macedonia |
-| 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in North Macedonia |
-| 3 | `mk.ambafrance.org` | central | 301 | wikidata | Embassy of France, Skopje |
-| 3 | `mk.mvep.hr` | central | ConnectEx... | wikidata | embassy of Croatia in North Macedonia |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,8 +39,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cedha.ac.tz` |  | SSLHandsh... | wikidata | Centre for Educational Development in Health Arusha |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Dar es Salam |
 | 4 | `nemc.or.tz` |  | SSLHandsh... | wikidata | National Environment Management Council |
+| 4 | `nm-aist.ac.tz` | central |  | academia | Nelson Mandela African Institution of Science and Technology |
+| 4 | `out.ac.tz` | central |  | academia | The Open University of Tanzania |
+| 4 | `suza.ac.tz` | central |  | academia | State University of Zanzibar |
 | 4 | `temdo.or.tz` |  | SSLHandsh... | wikidata | Tanzania Engineering and Manufacturing Design Organization |
 | 4 | `tlsb.or.tz` |  | ConnectEx... | wikidata | Tanzania Library Services Board |
+| 4 | `udom.ac.tz` | central |  | academia | University of Dodoma |
+| 4 | `udsm.ac.tz` | central |  | academia | University of Dar es Salaam |
 | 3 | `bot-tz.org` |  | HttpConne... | wikidata | Bank of Tanzania |
 | 3 | `daressalam.diplo.de` | central | 200 | wikidata | Embassy of Germany, Dar es Salaam |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Tanzania |
@@ -50,8 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `seamic.org` |  | 200 | wikidata | African Minerals and Geosciences Centre |
 | 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Dar es Salaam |
 | 3 | `tafiri.weebly.com` |  | 404 | wikidata | Tanzania Fisheries Research Institute |
-| 3 | `tanzania.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia, Dar es Salaam |
-| 3 | `tanzania.um.dk` | central | 301 | wikidata | embassy of Denmark in Tanzania |
-| 3 | `tz.ambafrance.org` | central | 301 | wikidata | Embassy of France, Dar es Salaam |
-| 3 | `tz.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Dar es Salaam |
 

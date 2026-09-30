@@ -23,7 +23,7 @@
 
 ## Proposed domains ranked by score
 
-73 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+117 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,7 +45,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `koryu.or.jp` |  | ConnectEx... | wikidata;wikidata | Japan-Taiwan Exchange Association, Kaohsiung Office | Interchange Association... |
 | 6 | `recoletos.ph` |  | HttpTimeo... | wikidata;wikidata | Province of Saint Ezequiél Moreno |
 | 6 | `tmc.taipei` |  | 200 | wikidata;wikidata | Taipei Music Center |
+| 4 | `arthistory.ntu.edu.tw` | central |  | academia | Graduate Institute of Art History, National Taiwan University |
 | 4 | `australia.org.tw` |  | 200 | wikidata | Australian Office, Taipei |
 | 4 | `bola.gov.taipei` |  | 200 | wikidata | Department of Labor, Taipei City Government |
-| 4 | `ca.gov.taipei` | central-1 | 200 | wikidata | Department of Civil Affairs, Taipei City Government |
 

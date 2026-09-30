@@ -30,17 +30,18 @@
 
 ## Proposed domains ranked by score
 
-17 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `assembleenationale.bf` | central | 200 | wikidata;wikidata | National Assembly of Burkina Faso |
+| 7 | `insd.bf` | central | SSLHandsh... | wikidata;academia | Institut National de la Statistique et de la Démographie |
 | 4 | `alt.bf` |  | 200 | wikidata | Transitional Legislative Assembly |
 | 4 | `crsn-nouna.bf` |  | 301 | wikidata | Centre de Recherche en Santé de Nouna |
 | 4 | `gendarmerienationale.bf` |  | 200 | wikidata | National Gendarmerie |
-| 4 | `insd.bf` | central | SSLHandsh... | wikidata | Institut National de la Statistique et de la Démographie |
 | 4 | `meteoburkina.bf` |  | 200 | wikidata | Direction Générale de la Météorologie |
+| 4 | `uts.bf` | central |  | academia | Université Thomas-Sankara |
 | 3 | `ambalgbf.net` | central | 301 | wikidata | Embassy of Algeria, Ouagadougou |
 | 3 | `bceao.int` |  | ConnectEx... | wikidata | Central Bank of West African States |
 | 3 | `bf.ambafrance.org` | central | 301 | wikidata | Embassy of France, Ouagadougou |

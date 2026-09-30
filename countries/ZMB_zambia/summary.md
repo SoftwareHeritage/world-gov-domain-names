@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+20 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,6 +38,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `boz.zm` |  | HttpConne... | wikidata | Bank of Zambia |
 | 4 | `nac.org.zm` |  | 200 | wikidata | National HIV/AIDS/STI/TB Council |
 | 4 | `nhra.org.zm` |  | 301 | wikidata | National Health Research Authority |
+| 4 | `unza.zm` | central |  | academia | University of Zambia |
 | 4 | `zema.org.zm` |  | 301 | wikidata | Zambia Environmental Management Agency |
 | 4 | `zicta.zm` |  | SSLHandsh... | wikidata | Zambia Information and Communications Technology Authority |
 | 4 | `zma.org.zm` |  | SSLHandsh... | wikidata | Zambia Metrology Agency |
@@ -53,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Lusaka |
 | 3 | `who.int` |  | 301 | wikidata | World Health Organization - Zambia |
 | 3 | `zambia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Zambia |
+| 3 | `zambiaforestrycollege.org` | central |  | academia | Zambia Forestry College |
 

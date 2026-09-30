@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-41 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+47 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,17 +42,17 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `akorda.kz` |  | 500 | wikidata | Presidential Administration of Kazakhstan |
 | 4 | `assembly.kz` |  | SSLHandsh... | wikidata | Assembly of People of Kazakhstan |
 | 4 | `biosafety.kz` |  | 200 | wikidata | Research Institute for Biological Safety Problems |
+| 4 | `cmrp.kz` | central |  | academia | National Center on Complex Processing of Mineral Raw Materials of the Republi... |
 | 4 | `gharysh.kz` |  | 301 | wikidata | KazCosmos |
+| 4 | `hls.kz` | central |  | academia | National Center for Public Health |
 | 4 | `ieconom.kz` |  | 200 | wikidata | Institute of Economics |
 | 4 | `immash.kz` |  | 301 | wikidata | Joldasbekov Institute of Mechanics and Engineering |
 | 4 | `kazhydromet.kz` |  | 200 | wikidata | KazHydroMet |
 | 4 | `kazneb.kz` |  | 200 | wikidata | National Library of Kazakhstan |
+| 4 | `kaznpu.kz` | central |  | academia | Kazakh National Pedagogical University |
 | 4 | `ksm.kz` |  | 302 | wikidata | Kazakhstan Institute of Standardization and Metrology |
 | 4 | `math.kz` |  | 200 | wikidata | Institute of Mathematics and Mathematical Modeling |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Astana |
 | 4 | `nabrk.kz` |  | 200 | wikidata | National Academic Library of the Republic of Kazakhstan |
 | 4 | `nationalbank.kz` |  | 302 | wikidata | National Bank of Kazakhstan |
-| 4 | `rfembassy.kz` | central | 403 | wikidata | Embassy of Russia, Astana |
-| 4 | `rniiot.kz` |  | 301 | wikidata | Republican Research Institute for Occupational Safety and Health |
-| 4 | `rtrk.kz` |  | 301 | wikidata | Qazaqstan Radio and Television Corporation |
 

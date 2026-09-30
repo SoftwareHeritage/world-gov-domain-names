@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-22 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,12 +47,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `fau.mil.uy` |  | SSLHandsh... | wikidata | Q1114710 |
 | 4 | `impo.com.uy` |  | 301 | wikidata | National Directorate of Official Printings and Publications |
 | 4 | `inavi.com.uy` |  | SSLHandsh... | wikidata | Q16579066 |
+| 4 | `inia.uy` | central |  | academia | National Institute of Agricultural Research |
 | 4 | `rnu.com.uy` |  | 200 | wikidata | Radiodifusión Nacional del Uruguay |
+| 4 | `universidad.edu.uy` | central |  | academia | University of the Republic |
+| 4 | `utec.edu.uy` | central |  | academia | Universidad Tecnológica |
 | 3 | `consuladoangolaenuruguay.com` | central | ConnectEx... | wikidata | Consulate of Angola, Montevideo |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Uruguay |
 | 3 | `embajadasaharauruguay.blogspot.com` | central | 200 | wikidata | Embassy of the Sahrawi Arab Democratic Republic, Montevideo |
 | 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Uruguay |
-| 3 | `montevideo.diplo.de` | central | 200 | wikidata | Embassy of Germany, Montevideo |
-| 3 | `montevideo.mae.ro` | central | 503 | wikidata | embassy of Romania in Uruguay |
-| 3 | `uruguay.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Uruguay |
 

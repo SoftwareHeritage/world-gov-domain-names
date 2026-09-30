@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-188 domain(s) proposed for validation, of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+205 domain(s) proposed for validation, of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,7 +43,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `exercito.pt` |  | SSLHandsh... | wikidata;wikidata | Direção de Formação | Direção de História e Cultura Militar |
 | 7 | `gnr.pt` | central | 301 | wikidata;linkgraph | National Republican Guard |
 | 7 | `icnf.pt` |  | 200 | wikidata;wikidata | Institute for Nature Conservation and Forests |
+| 7 | `ine.pt` | central | 302 | wikidata;academia | National Institute of Statistics |
 | 7 | `infarmed.pt` |  | HttpConne... | wikidata;wikidata | National Authority of Medicines and Health Products |
+| 7 | `lneg.pt` | central | ConnectEx... | wikidata;academia | National Laboratory for Energy and Geology |
 | 7 | `moptc.pt` | central | 403 | wikidata;wikidata | Ministry of Public Works, Transport and Communications |
 | 7 | `policiajudiciaria.pt` |  | ConnectEx... | wikidata;wikidata | Laboratório de Polícia Científica | Polícia Judiciária |
 | 7 | `pontosj.pt` |  | 200 | wikidata;wikidata | Portuguese Province of the Society of Jesus |
@@ -53,6 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `stj.pt` | central | 301 | wikidata | Portuguese Supreme Court of Justice |
 | 6 | `tribunalconstitucional.pt` |  | SSLHandsh... | wikidata | Portuguese Constitutional Court |
 | 5 | `cm-abrantes.pt` |  | HttpTimeo... | linkgraph | Linked from 9 public-sector domains |
-| 5 | `cm-alcanena.pt` |  | HttpTimeo... | linkgraph | Linked from 8 public-sector domains |
-| 5 | `cm-constancia.pt` |  | 200 | linkgraph | Linked from 8 public-sector domains |
 

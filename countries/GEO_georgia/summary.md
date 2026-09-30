@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-35 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+41 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 8 | `parliament.ge` | central | 200 | wikidata;wikidata | Parliament of Georgia |
+| 7 | `geostat.ge` | central | 302 | wikidata;academia | National Statistics Office of Georgia |
 | 7 | `police.ge` | central | 200 | wikidata;wikidata | Ministry of Internal Affairs | Special Tasks Department |
 | 7 | `sca.ge` | central-1 | 200 | wikidata;wikidata | Supreme Council of the Autonomous Republic of Adjara |
 | 6 | `supremecourt.ge` |  | SSLHandsh... | wikidata | Supreme Court of Georgia |
 | 4 | `aidscenter.ge` |  | 200 | wikidata | AIDS and Clinical Immunology Research Center |
+| 4 | `art.edu.ge` | central |  | academia | Tbilisi State Academy of Arts |
 | 4 | `cesko.ge` |  | 403 | wikidata | Election Administration of Georgia |
 | 4 | `comcom.ge` |  | 301 | wikidata | Georgian National Communications Commission |
-| 4 | `geostat.ge` |  | 302 | wikidata | National Statistics Office of Georgia |
+| 4 | `gch-centre.ge` | central |  | academia | The G. Chubinashvili National Research Centre for Georgian Art History and He... |
 | 4 | `geostm.ge` |  | ConnectEx... | wikidata | Georgian National Agency for Standards and Metrology |
 | 4 | `heraldika.ge` |  | 200 | wikidata | State Council of Heraldry |
 | 4 | `heritagesites.ge` |  | 302 | wikidata | National Agency for Cultural Heritage Preservation of Georgia |
+| 4 | `nbgg.ge` | central |  | academia | National Botanical Garden of Georgia |
 | 4 | `ncdc.ge` |  | 200 | wikidata | National Center for Disease Control and Public Health |
+| 4 | `ngu.edu.ge` | central |  | academia | New Georgian University |
 | 4 | `rustaveli.org.ge` |  | 200 | wikidata | Shota Rustaveli National Science Foundation |
 | 4 | `sciencelib.ge` |  | 200 | wikidata | National Science Library |
+| 4 | `tafu.edu.ge` | central |  | academia | Shota Rustaveli Theatre and Film University |
 | 4 | `tbiliszi.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Tbilisi |
-| 4 | `unesco.ge` |  | SSLHandsh... | wikidata | Georgian National Commission for UNESCO |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Georgia |
-| 3 | `ge.ambafrance.org` | central | 301 | wikidata | Embassy of France, Tbilisi |
-| 3 | `ge.mfa.lt` | central | 403 | wikidata | embassy of Lithuania in Georgia |
-| 3 | `gosarchive.apsny.land` |  | 200 | wikidata | Abkhaz State Archive |
 

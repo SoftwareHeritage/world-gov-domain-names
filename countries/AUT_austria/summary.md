@@ -30,11 +30,12 @@
 
 ## Proposed domains ranked by score
 
-128 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+145 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `agraroekonomik.at` | central | 301 | wikidata;academia | Federal Institute of Agricultural Economics |
 | 7 | `bundesheer.at` |  | 404 | wikidata;wikidata | Abwehramt | Heeresnachrichtenamt |
 | 7 | `bundeskriminalamt.at` |  | 301 | wikidata;wikidata | Q105324455 | Federal Criminal Police Office |
 | 7 | `geosphere.at` |  | 302 | wikidata;wikidata | GeoSphere Austria | Central Institute for Meteorology and Geodynamics / GeoSp... |
@@ -45,8 +46,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `wko.at` |  | HttpConne... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Wirtschaftskammer Niederösterreich | Vorarlberg Economic Chamber | Carinthian... |
 | 6 | `euro.centre.org` |  | 308 | wikidata;wikidata | European Centre for Social Welfare Policy and Research |
 | 6 | `jesuiten.org` |  | 301 | wikidata;wikidata | Jesuit Province of Central Europe |
-| 4 | `agraroekonomik.at` |  | 301 | wikidata | Federal Institute of Agricultural Economics |
 | 4 | `aiz.at` |  | 200 | wikidata | Abwasserverband Achental-Inntal-Zillertal |
+| 4 | `akbild.ac.at` | central |  | academia | Academy of Fine Arts Vienna |
 | 4 | `algerische-botschaft.at` | central | SSLHandsh... | wikidata | Embassy of Algeria, Vienna |
 | 4 | `avzirl.at` |  | 200 | wikidata | Abwasserverband Zirl und Umgebung (ARA Zirl) |
 | 4 | `bda.at` |  | 301 | wikidata | Bundesdenkmalamt |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bgld-landtag.at` | central-1 | 301 | wikidata | Landtag of Burgenland |
 | 4 | `bh-botschaft.at` | central | 200 | wikidata | embassy of Bosnia and Herzegovina in Austria |
 | 4 | `biz-up.at` |  | 301 | wikidata | Business Upper Austria – OÖ Wirtschaftsagentur |
-| 4 | `bundesforste.at` |  | 301 | wikidata | Austrian State Forestry Commission |
 

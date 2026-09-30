@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,6 +40,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
 | 5 | `bancentral.gov.do` |  | 200 | wikidata | Central Bank of the Dominican Republic |
 | 4 | `cesfront.mil.do` | central | 200 | wikidata | Cuerpo Especializado en Seguridad Fronteriza Terrestre |
+| 4 | `uasd.edu.do` | central |  | academia | Autonomous University of Santo Domingo |
 | 3 | `do.ambafrance.org` | central | 301 | wikidata | Embassy of France, Santo Domingo |
 | 3 | `do.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Santo Domingo |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to the Dominican Republic |

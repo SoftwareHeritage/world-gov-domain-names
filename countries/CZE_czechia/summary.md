@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-6476 domain(s) proposed for validation, of which 15 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+6506 domain(s) proposed for validation, of which 17 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -50,9 +50,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `kralicenosl.cz` |  | 302 | wikidata;wikidata | Kralice nad Oslavou | Q11730729 |
 | 7 | `mbudejovice.cz` |  | 405 | wikidata;wikidata | Moravskobudějovický microregion | Moravské Budějovice |
 | 7 | `mzcr.cz` |  | 301 | wikidata;linkgraph | Q45898143 |
+| 7 | `nacr.cz` | central | HttpConne... | wikidata;academia | National Archives |
 | 7 | `nechanicko.cz` |  | 301 | wikidata;wikidata | Třesovice | Mžany |
-| 7 | `obec-lidice.cz` |  | 302 | wikidata;wikidata | Lidice | Q12037054 |
-| 7 | `oblati.cz` |  | 301 | wikidata;wikidata | Central European Province O. M. I. |
-| 7 | `pid.cz` |  | 200 | wikidata;wikidata | Q12048433 |
-| 7 | `pmscr.cz` |  | 301 | wikidata;wikidata | Probační a mediační služba | Q122828118 |
+| 7 | `nipos.cz` | central | 301 | wikidata;academia | National Information and Consulting Centre for Culture |
+| 7 | `nkp.cz` | central | 303 | wikidata;academia | National Library of the Czech Republic |
+| 7 | `npu.cz` | central | HttpConne... | wikidata;academia | National Heritage Institute |
 

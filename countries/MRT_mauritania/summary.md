@@ -30,20 +30,21 @@
 
 ## Proposed domains ranked by score
 
-15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `ami.mr` |  | HttpTimeo... | wikidata;wikidata | Mauritanian Information Agency | Mauritanian News Agency |
+| 7 | `ansade.mr` | central | 200 | wikidata;academia | National Agency for Statistics, Demographic and Economic Analysis |
 | 7 | `assembleenationale.mr` | central | HttpConne... | wikidata;wikidata | National Assembly |
+| 7 | `ons.mr` | central | ConnectEx... | wikidata;academia | Office National de la Statistique |
 | 7 | `tdm.mr` |  | 301 | wikidata;wikidata | Broadcasting of Mauritania |
-| 4 | `ansade.mr` | central | 200 | wikidata | National Agency for Statistics, Demographic and Economic Analysis |
 | 4 | `bcm.mr` |  | 500 | wikidata | Central Bank of Mauritania |
 | 4 | `cndh.mr` |  | 200 | wikidata | National Human Rights Commission of Mauritania |
 | 4 | `cnla.mr` |  | 200 | wikidata | Centre National de Lutte Antiacridienne |
 | 4 | `gendarmerie.mr` |  | 200 | wikidata | Law enforcement in Mauritania |
-| 4 | `ons.mr` | central | ConnectEx... | wikidata | Office National de la Statistique |
+| 4 | `inrsp.mr` | central |  | academia | Institut National de Recherches en Sante Publique |
 | 4 | `palemb.mr` | central | HttpTimeo... | wikidata | Embassy of the State of Palestine, Nouakchott |
 | 3 | `ccfr.rimpresse.com` | central | ConnectEx... | wikidata | Q19885895 |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Mauritania |

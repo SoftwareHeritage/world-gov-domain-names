@@ -30,13 +30,14 @@
 
 ## Proposed domains ranked by score
 
-18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 4 | `phcc.qa` |  | 301 | wikidata | Primary Health Care |
 | 4 | `qnl.qa` |  | 301 | wikidata | Qatar National Library |
+| 4 | `qu.edu.qa` | central |  | academia | Qatar University |
 | 3 | `ambasadat.net` | central | 200 | wikidata | Embassy of Kosovo, Doha |
 | 3 | `bhembassyqatar.com` | central | 200 | wikidata | embassy of Bosnia and Herzegovina in Qatar |
 | 3 | `doha.diplo.de` | central | 200 | wikidata | Embassy of Germany, Doha |

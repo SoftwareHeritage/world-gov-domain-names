@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-312 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+318 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -44,15 +44,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `bolagsverket.se` | central | IOExcepti... | wikidata;wikidata | Patent Attorneys Board | Swedish Companies Registration Office |
 | 7 | `fi.se` | central | 400 | wikidata;wikidata | Financial Supervisory Authority |
 | 7 | `fmv.se` | central | 301 | wikidata;wikidata | Defence Materiel Administration |
+| 7 | `foi.se` | central | 200 | wikidata;academia | Swedish Defence Research Agency |
 | 7 | `forte.se` | central | 200 | wikidata;wikidata | Swedish Research Council for Health Working Life and Welfare |
-| 7 | `irf.se` | central | 301 | wikidata;wikidata | Swedish Institute of Space Physics |
 | 7 | `isof.se` | central | 301 | wikidata;wikidata | Swedish Language Council | Swedish Institute for Language and Folklore |
+| 7 | `kau.se` | central | 302 | wikidata;academia | Karlstad University |
 | 7 | `kb.se` | central | 301 | wikidata;linkgraph | National Library of Sweden |
+| 7 | `konj.se` | central | 301 | wikidata;academia | National Institute of Economic Research |
 | 7 | `kth.se` | central | 301 | wikidata;wikidata | Royal Institute of Technology |
+| 7 | `lnu.se` | central | 301 | wikidata;academia | Linnaeus University |
+| 7 | `lu.se` | central | 301 | wikidata;academia | Lund University |
 | 7 | `mcf.se` | central | 301 | wikidata;wikidata | Swedish Civil Defence and Resilience Agency |
-| 7 | `palestineembassy.se` | central | 200 | wikidata;wikidata | Embassy of Palestine, Stockholm |
-| 7 | `polar.se` | central | 301 | wikidata;wikidata | Swedish Polar Research Secretariat |
-| 7 | `sakerhetspolisen.se` | central | 247 | wikidata;wikidata | Swedish Security Service |
-| 7 | `sgu.se` | central | 301 | wikidata;wikidata | Geological Survey of Sweden |
-| 7 | `sida.se` | central | 200 | wikidata;wikidata | Swedish International Development Cooperation Agency |
+| 7 | `nai.uu.se` | central | 200 | wikidata;academia | Nordic Africa Institute |
 

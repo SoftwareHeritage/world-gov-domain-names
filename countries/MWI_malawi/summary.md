@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,6 +38,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `aidsmalawi.org.mw` |  | ConnectEx... | wikidata | National AIDS Commission |
 | 4 | `frim.org.mw` |  | SSLHandsh... | wikidata | Forestry Research Institute of Malawi |
 | 4 | `mra.mw` |  | 404 | wikidata | Malawi Revenue Authority |
+| 4 | `mzuni.ac.mw` | central |  | academia | Mzuzu University |
 | 4 | `ncst.mw` |  | 200 | wikidata | National Commission for Science and Technology Malawi |
 | 4 | `nls.mw` |  | 200 | wikidata | National Library Service of Malawi |
 | 4 | `rbm.mw` |  | SSLHandsh... | wikidata | Reserve Bank of Malawi |

@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-47 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+120 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `uinsu.ac.id` | central |  | academia;academia | State Islamic University of North Sumatra | State Islamic University of North... |
 | 6 | `eeas.europa.eu` | central | 200 | wikidata;wikidata | Delegation of the European Union to Indonesia and Brunei Darussalam | EU Miss... |
 | 6 | `mkri.id` |  | 302 | wikidata | Constitutional Court of the Republic of Indonesia |
 | 4 | `aipi.or.id` |  | 200 | wikidata | Indonesian Academy of Sciences |
 | 4 | `bdi-kejatijambi.id` |  | 301 | wikidata | Q131424574 |
+| 4 | `bpak.unipa.ac.id` | central |  | academia | University of Papua |
 | 4 | `bpdp.or.id` |  | 404 | wikidata | Badan Pengelola Dana Perkebunan |
+| 4 | `iain-palangkaraya.ac.id` | central |  | academia | State Islamic Institute Palangka Raya |
+| 4 | `iainambon.ac.id` | central |  | academia | IAIN Ambon |
+| 4 | `iainfmpapua.ac.id` | central |  | academia | State Islamic Institute of Fattahul Muluk |
+| 4 | `itb.ac.id` | central |  | academia | Bandung Institute of Technology |
+| 4 | `itera.ac.id` | central |  | academia | Sumatra Institute of Technology |
+| 4 | `itk.ac.id` | central |  | academia | Kalimantan Institute of Technology |
 | 4 | `jakarta.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Jakarta |
 | 4 | `jordanembassy.or.id` | central | 200 | wikidata | embassy of Jordan in Indonesia |
 | 4 | `lldikti9.id` |  | SSLHandsh... | wikidata | LLDIKTI Wilayah IX Sulawesi |
 | 4 | `lmkn.id` |  | 301 | wikidata | National Collective Management Organization |
-| 4 | `rri.co.id` |  | 200 | wikidata | Radio Republik Indonesia |
-| 4 | `sejarah-tni.mil.id` |  | 200 | wikidata | Center for Indonesian National Military's History |
-| 4 | `uzembassy.id` | central | 200 | wikidata | embassy of Uzbekistan in Indonesia |
-| 3 | `bdembassyjakarta.org` | central | 526 | wikidata | Embassy of Bangladesh, Jakarta |
-| 3 | `cubadiplomatica.cu` | central | ConnectEx... | wikidata | embassy of Cuba in Indonesia |
-| 3 | `emb-algeria.org` | central | HttpConne... | wikidata | Embassy of Algeria, Jakarta |
-| 3 | `embamoc-indonesia.com` | central | SSLHandsh... | wikidata | embassy of Mozambique in Indonesia |
-| 3 | `fijiembajak.com` | central | SSLHandsh... | wikidata | embassy of Fiji in Indonesia |
-| 3 | `finlandabroad.fi` | central | 301 | wikidata | embassy of Finland in Indonesia |
-| 3 | `id.ambafrance.org` | central | 301 | wikidata | Embassy of France, Jakarta |
-| 3 | `id.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Jakarta |
+| 4 | `pgsdkebumen.fkip.uns.ac.id` | central |  | academia | Universitas Sebelas Maret Kampus VI Kebumen |
+| 4 | `pnb.ac.id` | central |  | academia | Politeknik Negeri Bali |
+| 4 | `pnj.ac.id` | central |  | academia | Jakarta State Polytechnic |
 

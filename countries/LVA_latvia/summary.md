@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-44 domain(s) proposed for validation, of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+46 domain(s) proposed for validation, of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `liepaja.lv` | central-1 | SSLHandsh... | wikidata | Liepaja City Council |
 | 4 | `lja.lv` |  | 301 | wikidata | Maritime Administration of Latvia |
 | 4 | `lnb.lv` |  | 301 | wikidata | National Library of Latvia |
+| 4 | `lu.lv` | central |  | academia | University of Latvia |
 | 4 | `mantojums.lv` |  | 200 | wikidata | National Heritage Board of Latvia |
 | 4 | `memorialiemuzeji.lv` |  | 200 | wikidata | Association of Memorial Museums |
 | 4 | `meteo.lv` |  | 302 | wikidata | Latvian Environment, Geology and Meteorology Centre |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Riga |
 | 4 | `neplpadome.lv` |  | 301 | wikidata | National Electronic Mass Media Council |
-| 4 | `president.lv` |  | 301 | wikidata | Chancery of the President of Latvia |
 

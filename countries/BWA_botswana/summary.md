@@ -35,7 +35,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `statsbots.org.bw` | central | 200 | wikidata;wikidata | Statistics Botswana | Central Statistics Office |
 | 4 | `bankofbotswana.bw` |  | 200 | wikidata | Bank of Botswana |
 | 4 | `bera.co.bw` |  | 301 | wikidata | Botswana Energy Regulatory Authority |
 | 4 | `bobstandards.bw` |  | HttpTimeo... | wikidata | Botswana Bureau of Standards |
@@ -49,5 +48,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Botswana and SADC |
 | 3 | `gaborone.diplo.de` | central | 200 | wikidata | Embassy of Germany, Gaborone |
 | 3 | `localbotswana.com` |  | 302 | wikidata | Kgalagadi Land Board |
+| 2 | `statsbots.org.bw` | central | 200 | wikidata;wikidata;academia | Statistics Botswana | Central Statistics Office |
 | 2 | `wuc.bw` |  | ConnectEx... | wikidata;wikidata;wikidata | Water Utilities Corporation Serowe Service Centre | Water Utilities Corporati... |
 

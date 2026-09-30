@@ -37,6 +37,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 |------:|----------|-------|------|---------|-------|
 | 10 | `zasag.mn` | central | SSLHandsh... | un_desa;wikidata;wikidata;wikidata;wikidata | Government of Mongolia | UN/DESA national portal |
 | 9 | `supremecourt.mn` | central | 302 | wikidata;wikidata | Supreme Court of Mongolia |
+| 7 | `nso.mn` | central | 301 | wikidata;academia | Mongolia National Statistical Committee |
 | 4 | `flu.mn` |  | 200 | wikidata | National Influenza Center |
 | 4 | `frc.mn` |  | 200 | wikidata | Financial Regulatory Commission of Mongolia |
 | 4 | `imsm.mn` |  | 200 | wikidata | Institute of Medical Sciences, Mongolia |
@@ -45,7 +46,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Ulaanbaatar |
 | 4 | `mongolbank.mn` |  | 301 | wikidata | Bank of Mongolia |
 | 4 | `nationallibrary.mn` |  | 200 | wikidata | National Library of Mongolia |
-| 4 | `nso.mn` |  | 301 | wikidata | Mongolia National Statistical Committee |
 | 4 | `riah.mn` |  | 200 | wikidata | Research Institute of Animal Husbandry |
 | 4 | `ulanbator.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary in Ulaanbaatar |
 | 4 | `unesco.mn` |  | 301 | wikidata | Mongolian National Commission for UNESCO |

@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+29 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `zimstat.co.zw` | central | 200 | wikidata;academia | Zimbabwe National Statistics Agency |
 | 4 | `arczw.ac.zw` |  | 200 | wikidata | Agricultural Research Council of Zimbabwe |
 | 4 | `competition.co.zw` |  | 200 | wikidata | Competition and Tariff Commission |
 | 4 | `ema.co.zw` |  | 200 | wikidata | Environmental Management Agency |
 | 4 | `forestry.co.zw` |  | 200 | wikidata | Forestry Commission |
+| 4 | `hit.ac.zw` | central |  | academia | Harare Institute of Technology |
 | 4 | `ipec.co.zw` |  | 200 | wikidata | Insurance and Pensions Commission (IPEC). |
 | 4 | `mediacommission.co.zw` |  | HttpConne... | wikidata | Zimbabwe Media Commission |
 | 4 | `mohcc.org.zw` |  | HttpConne... | wikidata | National Institute of Health Research, Zimbabwe |
 | 4 | `mrcz.org.zw` |  | 200 | wikidata | Medical Research Council of Zimbabwe |
 | 4 | `nac.org.zw` |  | 200 | wikidata | National AIDS Council |
+| 4 | `nust.ac.zw` | central |  | academia | National University of Science and Technology, Zimbabwe |
 | 4 | `rbz.co.zw` |  | SSLHandsh... | wikidata | Reserve Bank of Zimbabwe |
 | 4 | `rcz.ac.zw` |  | 200 | wikidata | Research Council of Zimbabwe |
 | 4 | `sirdc.ac.zw` |  | 200 | wikidata | National Metrology Institute |
+| 4 | `uz.ac.zw` | central |  | academia | University of Zimbabwe |
 | 4 | `zimche.ac.zw` |  | 200 | wikidata | National Council for Higher Education, Zimbabwe |
-| 4 | `zimstat.co.zw` |  | 200 | wikidata | Zimbabwe National Statistics Agency |
 | 4 | `zingsa.ac.zw` |  | 200 | wikidata | Zimbabwe National Geospatial and Space Agency |
 | 4 | `zinwa.co.zw` |  | 200 | wikidata | Zimbabwe National Water Authority |
 | 3 | `ambafrance-zw.org` | central | ConnectEx... | wikidata | Embassy of France, Harare |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Zimbabwe |
-| 3 | `ghanaembassy-zimbabwe.com` | central | ConnectEx... | wikidata | embassy of Ghana in Zimbabwe |
-| 3 | `harare.diplo.de` | central | 200 | wikidata | Embassy of Germany, Harare |
 

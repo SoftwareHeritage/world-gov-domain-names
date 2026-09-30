@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-22 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+37 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,16 +43,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `ivss.gov.ve` |  | HttpConne... | wikidata | Instituto Venezolano de los Seguros Sociales |
 | 5 | `tsjlegitimo.org` | central | 200 | wikidata | Supreme Tribunal of Justice of Venezuela in exile |
 | 4 | `bcv.org.ve` |  | SSLHandsh... | wikidata | Central Bank of Venezuela |
+| 4 | `col.luz.edu.ve` | central |  | academia | Universidad del Zulia Núcleo Costa Oriental del Lago |
 | 4 | `dgim.mil.ve` |  | HttpConne... | wikidata | Dirección de Inteligencia Militar |
 | 4 | `embajada-guineaecuatorial.com.ve` | central | 200 | wikidata | embassy of Equatorial Guinea in Venezuela |
 | 4 | `guardia.mil.ve` |  | ConnectEx... | wikidata | Bolivarian National Guard |
-| 3 | `ambassadehaitivenezuela.org` | central | ConnectEx... | wikidata | embassy of Haiti in Venezuela |
-| 3 | `caracas.diplo.de` | central | 200 | wikidata | Embassy of Germany, Caracas |
-| 3 | `caracas.embassy.qa` | central | SSLHandsh... | wikidata | embassy of Qatar in Venezuela |
-| 3 | `caracas.mae.ro` | central | 503 | wikidata | embassy of Romania in Venezuela |
-| 3 | `consecomercio.org` |  | SSLHandsh... | wikidata | Q5783627 |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Venezuela |
-| 3 | `emb-abjasia.com` | central | 301 | wikidata | Embassy of Abkhazia, Caracas |
-| 3 | `nigerianembassycaracas.org` | central | 503 | wikidata | embassy of Nigeria in Venezuela |
-| 3 | `ve.ambafrance.org` | central | 301 | wikidata | Embassy of France, Caracas |
+| 4 | `luz.edu.ve` | central |  | academia | University of Zulia |
+| 4 | `uc.edu.ve` | central |  | academia | University of Carabobo |
+| 4 | `ucla.edu.ve` | central |  | academia | Universidad Centroccidental Lisandro Alvarado |
+| 4 | `ucv.ve` | central |  | academia | Central University of Venezuela |
+| 4 | `ula.ve` | central |  | academia | University of the Andes |
+| 4 | `ulac.edu.ve` | central |  | academia | Q136745144 |
+| 4 | `una.edu.ve` | central |  | academia | Universidad Nacional Abierta (Venezuela) |
+| 4 | `unefm.edu.ve` | central |  | academia | Universidad Francisco de Miranda |
 

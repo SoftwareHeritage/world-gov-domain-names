@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-41 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+48 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cdm.gtmo.inf.cu` |  | ConnectEx... | wikidata | Centro de Desarrollo de la Montaña |
 | 4 | `cecmed.cu` |  | ConnectEx... | wikidata | CECMED |
 | 4 | `centis.cu` |  | HttpConne... | wikidata | Centro de Isotopos |
+| 4 | `cnic.edu.cu` | central |  | academia | Centro Nacional de Investigaciones Científicas |
+| 4 | `cujae.edu.cu` | central |  | academia | Polytechnic José Antonio Echeverría |
 | 4 | `eleccionesencuba.cu` | central | HttpConne... | wikidata | National Electoral Council of Cuba |
+| 4 | `ensap.sld.cu` | central |  | academia | Escuela Nacional de Salud Pública |
 | 4 | `geotech.cu` |  | HttpConne... | wikidata | Institute of Tropical Geography |
 | 4 | `havanna.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Havana |
-| 4 | `inaf.co.cu` |  | ConnectEx... | wikidata | Instituto de Investigaciones Agro-Forestales |
-| 4 | `inca.edu.cu` |  | HttpConne... | wikidata | National Institute of Agricultural Sciences |
-| 4 | `inimet.cu` |  | ConnectEx... | wikidata | Instituto Nacional de Metrologia |
 

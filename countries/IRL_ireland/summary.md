@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-137 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+146 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,6 +38,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `citizensinformationboard.ie` |  | 301 | wikidata;wikidata | Citizens Information Board |
 | 7 | `coru.ie` | central | SSLHandsh... | wikidata;wikidata | CORU | Health and Social Care Professionals Council (CORU) |
 | 7 | `courts.ie` | central | 200 | wikidata;wikidata | Courts Service | Special Criminal Court |
+| 7 | `cso.ie` | central | 301 | wikidata;academia | Central Statistics Office |
 | 7 | `epa.ie` |  | SSLHandsh... | wikidata;wikidata | Radiological Protection Institute of Ireland | Environmental Protection Agency |
 | 7 | `garda.ie` | central | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Garda National Economic Crime Bureau | Garda National Cyber Crime Bureau | Ga... |
 | 7 | `german-irish.ie` |  | 301 | wikidata;wikidata | German-Irish Chamber of Industry and Commerce |
@@ -48,13 +49,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `aaiu.ie` |  | SSLHandsh... | wikidata | Air Accident Investigation Unit |
 | 4 | `airnav.ie` |  | HttpConne... | wikidata | Irish Air Navigation Service |
 | 4 | `artscouncil.ie` |  | HttpConne... | wikidata | Arts Council of Ireland |
+| 4 | `botanicgardens.ie` | central |  | academia | National Botanic Gardens |
 | 4 | `cab.ie` |  | 301 | wikidata | Criminal Assets Bureau |
 | 4 | `ccpc.ie` |  | 301 | wikidata | Competition and Consumer Protection Commission |
 | 4 | `centralbank.ie` |  | 301 | wikidata | Central Bank of Ireland |
 | 4 | `cer.ie` |  | 301 | wikidata | Commission for Regulation of Utilities |
 | 4 | `chambers.ie` |  | 200 | wikidata | The Chambers of Commerce of Ireland |
-| 4 | `charitiesregulator.ie` |  | 301 | wikidata | Charities Regulator |
-| 4 | `childlawproject.ie` |  | 301 | wikidata | Child Law Project |
 
 ## ccTLD anomalies
 

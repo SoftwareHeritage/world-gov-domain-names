@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+20 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,7 +40,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `procomer.com` |  | 200 | wikidata;wikidata | Costa Rican Foreign Trade Promoter |
 | 4 | `ane.cr` |  | 200 | wikidata | Agencia Nacional de Empleo |
 | 4 | `bccr.fi.cr` |  | 404 | wikidata | Central Bank of Costa Rica |
+| 4 | `cenat.ac.cr` | central |  | academia | National High Technology Center |
 | 4 | `comisionunesco.cr` |  | 301 | wikidata | Costa Rica National Commission for Cooperation with UNESCO |
+| 4 | `inbio.ac.cr` | central |  | academia | National Biodiversity Institute |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, San Jose |
 | 4 | `sen.inec.cr` |  | 200 | wikidata | Sistema Estadístico Nacional |
 | 3 | `ccecr.aecid.es` |  | 200 | wikidata | Q141100276 |
@@ -49,6 +51,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `cr.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, San José |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Costa Rica |
 | 3 | `embocr.com` | central | SSLHandsh... | wikidata | embassy of Bolivia in Costa Rica |
+| 3 | `fundazoo.org` | central |  | academia | Parque Zoológico Nacional Simón Bolívar |
+| 3 | `inbio.eas.ualberta.ca` | central |  | academia | National Biodiversity Institute |
 | 3 | `san-jose.diplo.de` | central | 200 | wikidata | Embassy of Germany, San José |
 | 3 | `san-jose.embassy.qa` | central | SSLHandsh... | wikidata | embassy of Qatar in Costa Rica |
 

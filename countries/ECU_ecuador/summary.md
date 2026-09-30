@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+21 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,8 +40,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `escolapios.org.co` |  | 301 | wikidata;wikidata | Nazareth piarist province |
 | 5 | `ane.gov.ec` |  | ConnectEx... | wikidata | National Archives of Ecuador |
 | 4 | `ccq.ec` |  | 200 | wikidata | Quito Chamber of Commerce |
+| 4 | `espol.edu.ec` | central |  | academia | Escuela Superior Politécnica del Litoral |
 | 4 | `inocar.mil.ec` |  | 301 | wikidata | Oceanographic Institute of the Ecuadorian Navy |
 | 4 | `quito.mfa.gov.hu` | central | SSLHandsh... | wikidata | embassy of Hungary in Ecuador |
+| 4 | `uea.edu.ec` | central-1 |  | academia | Estatal Amazonica University |
+| 4 | `unach.edu.ec` | central |  | academia | Universidad Nacional de Chimborazo |
 | 3 | `ambafrance-ec.org` | central | ConnectEx... | wikidata | Embassy of France to Quito |
 | 3 | `cubadiplomatica.cu` | central | ConnectEx... | wikidata | embassy of Cuba in Ecuador |
 | 3 | `ec.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Quito |
@@ -52,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `quito.diplo.de` | central | 200 | wikidata | Embassy of Germany, Quito |
 | 3 | `quito.embassy.qa` | central | SSLHandsh... | wikidata | embassy of Qatar in Ecuador |
 | 3 | `quito.mfa.ir` | central | 307 | wikidata | embassy of Iran in Ecuador |
-| 3 | `roc-taiwan.org` |  | 302 | wikidata | Commercial Office of Taipei, Quito |
 

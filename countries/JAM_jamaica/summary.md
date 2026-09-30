@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-32 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+34 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -48,11 +48,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nhf.org.jm` |  | 301 | wikidata | National Health Fund |
 | 4 | `odpem.org.jm` |  | 301 | wikidata | Office of Disaster Preparedness and Emergency Management |
 | 4 | `our.org.jm` | central | 200 | wikidata | Office of Utilities Regulation |
+| 4 | `utech.edu.jm` | central |  | academia | University of Technology |
 | 3 | `abilitiesfoundationja.com` |  | 200 | wikidata | Abilities Foundation |
 | 3 | `airportsauthorityjamaica.aero` |  | 200 | wikidata | Airports Authority of Jamaica |
 | 3 | `coconutindustryboardjm.org` | central | 200 | wikidata | Coconut Industry Board |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and C... |
 | 3 | `fscjamaica.org` |  | 301 | wikidata | Financial Services Commission |
 | 3 | `generallegalcouncil.org` |  | 301 | wikidata | General Legal Council of Jamaica |
-| 3 | `heart-nsta.org` | central | 301 | wikidata | Human Employment and Resource Training Trust/National Training Agency |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-23 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+27 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,7 +43,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `syriaig.org` |  | 403 | wikidata;wikidata | Syrian Interim Government |
 | 6 | `syrien.um.dk` | central | 301 | wikidata;wikidata | embassy of Denmark in Syria |
 | 4 | `aec.org.sy` |  | SSLHandsh... | wikidata | Atomic Energy Commission of Syria |
+| 4 | `damascusuniversity.edu.sy` | central |  | academia | Damascus University |
 | 4 | `gors.sy` |  | ConnectEx... | wikidata | General Organization of Remote Sensing |
+| 4 | `idlib.edu.sy` | central |  | academia | Idlib University |
+| 4 | `latakia-univ.edu.sy` | central |  | academia | University of Latakia |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Damascus |
 | 4 | `scfms.sy` | central | SSLHandsh... | wikidata | Syrian Commission on Financial Markets and Securities |
 | 4 | `sisc.sy` | central | SSLHandsh... | wikidata | Q123925129 |
@@ -52,7 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Syria |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Damascus |
 | 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Syria |
-| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Damascus |
-| 3 | `palemb-sy.com` | central | 200 | wikidata | Embassy of the State of Palestine in Syria |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Damascus |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-314 domain(s) proposed for validation, of which 19 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+466 domain(s) proposed for validation, of which 23 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,7 +45,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ac-spm.fr` | central-1 | ConnectEx... | wikidata;wikidata | Service of the National Education of Saint Pierre and Miquelon |
 | 7 | `bourgognefranchecomte.fr` | central-1 | 200 | wikidata;linkgraph | Regional council of Bourgogne-Franche-Comté |
 | 7 | `cnrgv.toulouse.inrae.fr` |  | 200 | wikidata;wikidata | Q2945937 |
-| 7 | `cnrs.fr` |  | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Rous... |
+| 7 | `cnrs.fr` | central | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia | CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Rous... |
 | 7 | `corse.fr` | central-1 | HttpConne... | wikidata;wikidata | Executive Council of Corsica |
 | 7 | `ctguyane.fr` |  | 301 | wikidata;wikidata | Assembly of French Guiana |
 | 7 | `france.fr` |  | 301 | linkgraph | Linked from 29 public-sector domains |
@@ -53,8 +53,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `guadeloupe.ars.sante.fr` | central-1 | 301 | wikidata;wikidata | Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy |
 | 7 | `ihemi.fr` |  | 301 | wikidata;wikidata | Institut des hautes études du ministère de l'Intérieur |
 | 7 | `iledefrance.fr` | central-1 | 301 | wikidata;linkgraph | Regional Council of Île-de-France |
-| 7 | `inserm.fr` |  | 301 | wikidata;wikidata;wikidata;wikidata | Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre... |
-| 7 | `nouvelle-aquitaine.fr` | central-1 | 302 | wikidata;wikidata | Nouvelle-Aquitaine Regional Council | Regional Council of Limousin |
+| 7 | `in2p3.cnrs.fr` | central | HttpConne... | wikidata;academia | Institut national de physique nucléaire et de physique des particules |
+| 7 | `inserm.fr` | central | 301 | wikidata;wikidata;wikidata;wikidata;academia | Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre... |
 
 ## ccTLD anomalies
 

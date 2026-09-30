@@ -30,11 +30,12 @@
 
 ## Proposed domains ranked by score
 
-71 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+97 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `amar.org.ir` | central | HttpConne... | wikidata;academia | Statistical Centre of Iran |
 | 7 | `dolat.ir` | central | 200 | wikidata;wikidata | Government of Iran |
 | 7 | `emsrt.ir` | central | 301 | wikidata;wikidata | Ministry of Science, Research and Technology (Iran) |
 | 7 | `en.mfa.ir` | central | 307 | wikidata;wikidata | Ministry of Foreign Affairs of Iran |
@@ -53,6 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `vaja.ir` | central | HttpConne... | wikidata;wikidata | Ministry of Intelligence |
 | 7 | `wri.ac.ir` |  | HttpTimeo... | wikidata;wikidata | Water Research Institute |
 | 6 | `divanealee.eadl.ir` | central | HttpConne... | wikidata | Supreme Court of Iran |
-| 4 | `acecr.ir` |  | 301 | wikidata | Academic Center for Education, Culture and Research |
-| 4 | `afghanembassy.ir` | central | ConnectEx... | wikidata | Embassy of Afghanistan, Tehran |
+| 4 | `abru.ac.ir` | central |  | academia | Ayatollah Borujerdi University |
 

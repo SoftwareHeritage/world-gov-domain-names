@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-206 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+214 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,11 +38,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `parlement.ma` | central | 403 | wikidata;wikidata | Parliament of Morocco |
 | 7 | `bkam.ma` |  | ConnectEx... | wikidata;wikidata | Bank Al-Maghrib | Q3015910 |
 | 7 | `chuibnrochd.ma` |  | 200 | wikidata;wikidata | CHU Ibn Rochd |
+| 7 | `cnesten.org.ma` | central | HttpConne... | wikidata;academia | National Centre for Nuclear Energy, Science and Technology |
 | 7 | `diplomatie.ma` | central | SSLHandsh... | wikidata;wikidata | Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates |
 | 7 | `madrastna.ma` | central | ConnectEx... | wikidata;wikidata | Ministry of National Education |
 | 7 | `ofppt.ma` |  | ConnectEx... | wikidata;wikidata | Vocational Training and Labor Promotion Office |
 | 7 | `tamwilcom.ma` |  | 200 | wikidata;wikidata | Q122972557 | Tamwilcom |
+| 7 | `uca.ma` | central | 301 | wikidata;academia | Cadi Ayyad University |
+| 7 | `uit.ac.ma` | central | 301 | wikidata;academia | Ibn Tofail University |
 | 7 | `ump.ma` |  | HttpConne... | wikidata;wikidata | Mohamed I University |
+| 7 | `univh2c.ma` | central | 302 | wikidata;academia | Hassan II University of Casablanca |
+| 7 | `usms.ac.ma` | central | SSLHandsh... | wikidata;academia | Sultan Moulay Slimane University |
 | 6 | `cour-constitutionnelle.ma` |  | 405 | wikidata | Constitutional Court of Morocco |
 | 6 | `egov.ma` |  | HttpConne... | un_desa | UN/DESA national portal |
 | 6 | `marokko.ahk.de` |  | 302 | wikidata;wikidata | German Chamber of Commerce and Industry in Morocco |
@@ -50,9 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `abhdon.ma` |  | HttpConne... | wikidata | Q126953080 |
 | 4 | `abhgzr.ma` |  | 200 | wikidata | Q126953082 |
 | 4 | `abhl.ma` |  | 200 | wikidata | Q126953084 |
-| 4 | `abhsebou.ma` |  | SSLHandsh... | wikidata | Agence du Bassin Hydraulique de Sebou |
-| 4 | `abhshod.ma` |  | 200 | wikidata | Q126953073 |
-| 4 | `abht.ma` |  | 200 | wikidata | Q126953078 |
-| 4 | `adm.co.ma` |  | HttpConne... | wikidata | Société Nationale des Autoroutes du Maroc |
-| 4 | `ads.ma` |  | SSLHandsh... | wikidata | Q123476447 |
 

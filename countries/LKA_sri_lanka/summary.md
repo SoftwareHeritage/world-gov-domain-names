@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+30 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,20 +39,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `defence.lk` | central | 200 | wikidata;wikidata | Ministry of Defence and Urban Development |
 | 7 | `uda.lk` | central | 301 | wikidata;wikidata | Ministry of Urban Development |
 | 4 | `caa.lk` |  | SSLHandsh... | wikidata | Civil Aviation Authority of Sri Lanka |
+| 4 | `cmb.ac.lk` | central |  | academia | University of Colombo |
 | 4 | `ird.lk` |  | 200 | wikidata | Institute for Research and Development |
+| 4 | `jfn.ac.lk` | central |  | academia | University of Jaffna |
 | 4 | `leco.lk` |  | 200 | wikidata | Lanka Electricity Company |
 | 4 | `maldiveshighcom.lk` |  | ConnectEx... | wikidata | High Commission of Maldives, Colombo |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Colombo |
 | 4 | `nara.ac.lk` |  | ConnectEx... | wikidata | National Aquatic Resources Research and Development Agency |
 | 4 | `natlib.lk` |  | ConnectEx... | wikidata | National Library and Documentation Services Board |
+| 4 | `nifs.ac.lk` | central |  | academia | National Institute of Fundamental Studies |
+| 4 | `nilis.cmb.ac.lk` | central |  | academia | National Institute of Library and Information Sciences |
 | 4 | `nsf.ac.lk` |  | HttpConne... | wikidata | National Science Foundation of Sri Lanka |
+| 4 | `pdn.ac.lk` | central |  | academia | University of Peradeniya |
 | 4 | `slcarp.lk` |  | 200 | wikidata | Sri Lanka Council For Agricultural Research Policy |
 | 4 | `slncu.lk` |  | 200 | wikidata | Sri Lanka National Commission for UNESCO |
 | 4 | `supremecourt.lk` |  | 200 | wikidata | Supreme Court of Sri Lanka |
 | 4 | `vishwa.nsf.ac.lk` |  | ConnectEx... | wikidata | National Science Library & Resource Centre – Sri Lanka |
-| 4 | `waterboard.lk` |  | 301 | wikidata | National Water Supply and Drainage Board |
-| 3 | `220.247.247.85` |  | HttpConne... | wikidata | National Library of Sri Lanka |
-| 3 | `colombo.diplo.de` | central | 200 | wikidata | Embassy of Germany, Colombo |
-| 3 | `colombo.mae.ro` | central | ConnectEx... | wikidata | embassy of Romania in Sri Lanka |
-| 3 | `colombo.mfa.af` | central | ConnectEx... | wikidata | Embassy of Afghanistan, Colombo |
 

@@ -30,19 +30,29 @@
 
 ## Proposed domains ranked by score
 
-10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+22 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 4 | `aprc.sd` |  | HttpConne... | wikidata | Animal Production Research Center |
+| 4 | `iua.edu.sd` | central |  | academia | International University of Africa |
+| 4 | `merowe.edu.sd` | central |  | academia | Merowe University of Technology - Abdulatif Alhamad |
 | 4 | `meteosudan.sd` |  | 200 | wikidata | Sudan Meteorological Authority |
+| 4 | `must.edu.sd` | central |  | academia | Managil University of Science and Technology |
+| 4 | `nyalau.edu.sd` | central |  | academia | Nyala University |
+| 4 | `quran-unv.edu.sd` | central |  | academia | University of the Holy Quran and Islamic Sciences |
+| 4 | `rsu.edu.sd` | central |  | academia | Red Sea University |
+| 4 | `stu.edu.sd` | central |  | academia | Sudan Technological University |
 | 4 | `sudapost.sd` |  | 200 | wikidata | SudaPost |
+| 4 | `uofg.edu.sd` | central |  | academia | University of Gezira |
+| 4 | `uofs.edu.sd` | central |  | academia | Sinnar University |
+| 4 | `ush.sd` | central |  | academia | Shendi University |
+| 4 | `zalingei.edu.sd` | central |  | academia | University of Zalingei |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Sudan |
 | 3 | `khartoum.mae.ro` | central | 503 | wikidata | embassy of Romania in Sudan |
 | 3 | `khartum.diplo.de` | central | 200 | wikidata | Embassy of Germany, Khartoum |
 | 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway, Khartoum |
 | 3 | `sd.ambafrance.org` | central | 301 | wikidata | Embassy of France, Khartoum |
 | 3 | `sudan.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Sudan |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Khartoum |
 

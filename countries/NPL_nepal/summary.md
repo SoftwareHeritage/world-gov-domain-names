@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,6 +41,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nea.org.np` |  | 302 | wikidata | Nepal Electricity Authority |
 | 4 | `nncu.org.np` |  | 200 | wikidata | Nepal National Commission for UNESCO |
 | 4 | `nrb.org.np` | central | 301 | wikidata | Nepal Rastra Bank |
+| 4 | `pncampus.edu.np` | central |  | academia | Prithvi Narayan Campus |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Nepal |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | embassy of Finland in Nepal |
 | 3 | `kathmandu.diplo.de` | central | 200 | wikidata | Embassy of Germany, Kathmandu |

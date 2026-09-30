@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-69 domain(s) proposed for validation, of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+86 domain(s) proposed for validation, of which 20 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,14 +45,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `riversstate-mwrrd.com` | central-1 | ConnectEx... | wikidata;wikidata | Rivers State Ministry of Water Resources and Rural Development (RSMWRRD) |
 | 6 | `roc-taiwan.org` | central | 302 | wikidata;wikidata | Taipei Trade Office in the Federal Republic of Nigeria |
 | 4 | `abuja.mfa.gov.hu` |  | SSLHandsh... | wikidata | Hungarian embassy, Abuja |
+| 4 | `bouesti.edu.ng` | central-1 |  | academia | Bamidele Olumilua University of Science and Technology Ikere, Ekiti State |
+| 4 | `delsu.edu.ng` | central-1 |  | academia | Delta State University, Abraka |
+| 4 | `fchdk.edu.ng` | central |  | academia | Federal College of Horticultural Technology |
 | 4 | `fedpolyugep.edu.ng` |  | 200 | wikidata | Federal Polytechnic Ugep |
-| 4 | `kanoweccma.org.ng` |  | 200 | wikidata | KANO STATE WATERSHED, EROSION, AND CLIMATE CHANGE MANAGEMENT AGENCY |
-| 4 | `kedco.ng` |  | 200 | wikidata | Kano Electricity Distribution Company |
-| 4 | `lashmaregulations.com.ng` |  | 301 | wikidata | Lagos state health management agency |
-| 4 | `lastveb.com.ng` |  | 403 | wikidata | Lagos State Technical and Vocational Education Board |
-| 4 | `lsetf.ng` |  | 200 | wikidata | Lagos State Employment Trust Fund |
-| 4 | `ncprd.org.ng` |  | 200 | wikidata | National Centre for Petroleum Research and Development |
-| 4 | `ndic.org.ng` |  | 301 | wikidata | Nigeria Deposit Insurance Corporation |
-| 4 | `nsmoh.org.ng` | central-1 | ConnectEx... | wikidata | Nasarawa State Ministry of Health |
-| 4 | `nta.ng` |  | 301 | wikidata | Nigerian Television Authority |
+| 4 | `fuab.edu.ng` | central |  | academia | Federal University of Agriculture, Bassam-Biri |
+| 4 | `fubk.edu.ng` | central |  | academia | Federal University, Birnin Kebbi |
+| 4 | `fud.edu.ng` | central |  | academia | Federal University Dutse |
+| 4 | `fuet.edu.ng` | central |  | academia | Federal University of Environment and Technology, Tai Town/Ogoniland |
+| 4 | `fugashua.edu.ng` | central |  | academia | Federal University Gashua |
+| 4 | `fuhsa.edu.ng` | central |  | academia | Federal University of Health Sciences, Azare |
 

@@ -30,20 +30,22 @@
 
 ## Proposed domains ranked by score
 
-13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `instat.mg` | central | 200 | wikidata;academia | Institut National de la Statistique |
 | 4 | `artec.mg` |  | SSLHandsh... | wikidata | ARTEC Madagascar |
 | 4 | `assemblee-nationale.mg` | central | 200 | wikidata | National Assembly |
 | 4 | `banque-centrale.mg` |  | 200 | wikidata | Central Bank of Madagascar |
 | 4 | `bnm.mg` |  | HttpTimeo... | wikidata | Q140563694 |
 | 4 | `ceni-madagascar.mg` | central | 301 | wikidata | National Independent Electoral Commission |
-| 4 | `instat.mg` | central | 200 | wikidata | Institut National de la Statistique |
+| 4 | `ist-antsiranana.mg` | central |  | academia | Institut supérieur de technologie d'Antsiranana |
 | 4 | `meteomadagascar.mg` |  | ConnectEx... | wikidata | Météo Madagascar |
 | 4 | `pnae.mg` |  | ConnectEx... | wikidata | Office National pour l'Environnement |
 | 4 | `senat.mg` | central | 200 | wikidata | Senate |
+| 4 | `univ-fianar.mg` | central |  | academia | University of Fianarantsoa |
 | 3 | `antananarivo.diplo.de` | central | 200 | wikidata | Embassy of Germany, Antananarivo |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Madagascar and to the Comoros |
 | 3 | `madagascar.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Madagascar |

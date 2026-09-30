@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,6 +45,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates in Montenegro |
 | 4 | `nb-cg.me` |  | 301 | wikidata | National Library of Montenegro "Đurđe Crnojević" |
 | 4 | `podgorica.mfa.gov.hu` | central | SSLHandsh... | wikidata | embassy of Hungary in Montenegro |
+| 4 | `ucg.ac.me` | central |  | academia | University of Montenegro |
 | 3 | `ambasadat.net` | central | 200 | wikidata | Embassy of Kosovo, Podgorica |
 | 3 | `cb-mn.org` |  | 200 | wikidata | Central Bank of Montenegro |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Montenegro |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Montenegro |
 | 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Montenegro |
 | 3 | `montenegro.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Montenegro |
-| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Montenegro |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-21 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+32 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,16 +43,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `luanda.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary to Luanda |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Luanda |
 | 4 | `trluanda.ao` |  | 200 | wikidata | Q131156237 |
+| 4 | `uan.ao` | central |  | academia | Agostinho Neto University |
+| 4 | `ujes.co.ao` | central |  | academia | Universidade José Eduardo dos Santos |
+| 4 | `ukb.ed.ao` | central |  | academia | Katyavala Bwila University |
+| 4 | `ulan.ed.ao` | central |  | academia | Universidade Lueji A'Nkonde |
+| 4 | `umn.ed.ao` | central |  | academia | Mandume ya Ndemufayo University |
+| 4 | `unikivi.ao` | central |  | academia | Universidade Kimpa Vita |
+| 4 | `uniluanda.ao` | central |  | academia | University of Luanda |
+| 4 | `uninbe.ao` | central |  | academia | University of Namibe |
+| 4 | `uninjingambande.ed.ao` | central |  | academia | Rainha Njinga a Mbandi University |
+| 4 | `uon.ed.ao` | central |  | academia | 11 de Novembro University |
 | 3 | `angola.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Angola |
 | 3 | `ao.ambafrance.org` | central | 301 | wikidata | Embassy of France, Luanda |
-| 3 | `ao.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Luanda |
-| 3 | `cisacaxito.org` |  | SSLHandsh... | wikidata | Centro de Investigação em Saúde de Angola |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Angola |
-| 3 | `embaixada-de-cabo-verde-em-angola.odoo.com` | central | 200 | wikidata | Embassy of Cape Verde, Luanda |
-| 3 | `ghanaembassy-angola.com` | central | ConnectEx... | wikidata | embassy of Ghana in Angola |
-| 3 | `kenyaembassyangola.com` | central | 200 | wikidata | Embassy of Kenya, Luanda |
-| 3 | `luanda.diplo.de` | central | 200 | wikidata | Embassy of Germany, Luanda |
-| 3 | `luanda.mae.ro` | central | 503 | wikidata | embassy of Romania in Angola |
-| 3 | `nationallibraryofangola.org` |  | 200 | wikidata | National Library of Angola |
-| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway, Luanda |
 

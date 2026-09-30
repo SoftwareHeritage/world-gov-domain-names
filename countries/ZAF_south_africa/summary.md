@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-95 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+111 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,8 +38,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `arc.agric.za` |  | 302 | wikidata;wikidata | Institute for Deciduous Fruit, Vines and Wine | Agricultural Research Council... |
 | 7 | `gpwonline.co.za` |  | 200 | wikidata;wikidata | Government Printing Works |
 | 7 | `mhs.mil.za` |  | ConnectEx... | wikidata;wikidata | South African Military Health Service |
+| 7 | `nrf.ac.za` | central | ConnectEx... | wikidata;academia | National Research Foundation |
 | 6 | `concourt.org.za` | central | 301 | wikidata | Constitutional Court of South Africa |
 | 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Liaison Office in Cape Town | Taipei Liaison Office in the Republic of... |
+| 6 | `sanbi.org` | central |  | wikidata;academia | South African National Biodiversity Institute |
 | 4 | `affaires-etrangeres.gouv.ga` | central | HttpConne... | wikidata | embassy of Gabon in South Africa |
 | 4 | `agsa.co.za` | central | ConnectEx... | wikidata | Auditor-General |
 | 4 | `arb.org.za` |  | 301 | wikidata | Advertising Regulatory Board |
@@ -53,6 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `compcom.co.za` |  | 301 | wikidata | Competition Commission |
 | 4 | `elrc.org.za` |  | 200 | wikidata | Education Labour Relations Council |
 | 4 | `embaixadaportugal.org.za` | central | ConnectEx... | wikidata | embassy of Portugal in South Africa |
-| 4 | `embassyofcongo.co.za` | central | SSLHandsh... | wikidata | embassy of the Republic of Congo in South Africa |
-| 4 | `embbeninsa.org.za` | central | ConnectEx... | wikidata | embassy of Benin in South Africa |
 

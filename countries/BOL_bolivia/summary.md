@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,7 +42,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `oep.org.bo` | central | ConnectEx... | wikidata | Plurinational Electoral Organ |
 | 6 | `tcpbolivia.bo` |  | 200 | wikidata | Plurinational Constitutional Tribunal |
 | 4 | `abe.bo` |  | 301 | wikidata | Agencia Boliviana Espacial |
+| 4 | `aciencias.org.bo` | central |  | academia | Academia Nacional de Ciencias de Bolivia |
 | 4 | `policia.bo` |  | 301 | wikidata | Bolivian Police |
+| 4 | `uabjb.edu.bo` | central |  | academia | Universidad Autónoma del Beni |
 | 3 | `bo.ambafrance.org` | central | 301 | wikidata | Embassy of France, La Paz |
 | 3 | `bo.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, La Paz |
 | 3 | `bolivia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Bolivia |

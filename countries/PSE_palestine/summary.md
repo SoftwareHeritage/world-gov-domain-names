@@ -14,7 +14,7 @@
 
 ## Proposed domains ranked by score
 
-70 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+75 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -36,7 +36,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
 | 6 | `pal-plc.org` | central | HttpConne... | wikidata;wikidata | Palestinian Legislative Council |
 | 6 | `palestinepnc.org` |  | HttpTimeo... | wikidata;wikidata | Palestinian National Council |
+| 4 | `alaqsa.edu.ps` | central |  | academia | al-Aqsa University |
+| 4 | `alistiqlal.edu.ps` | central |  | academia | Al-Istiqlal University |
 | 4 | `cwrc.ps` |  | 200 | wikidata | Colonization and Wall Resistance Commission |
-| 4 | `darifta.ps` |  | 200 | wikidata | The Palestinian Fatwa House |
-| 4 | `elections.ps` |  | 301 | wikidata | Central Election Commission |
 

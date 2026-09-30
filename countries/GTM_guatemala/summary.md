@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,6 +38,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mindef.mil.gt` | central | ConnectEx... | wikidata;wikidata | Ministry of Defense |
 | 4 | `pdh.org.gt` |  | 403 | wikidata | Human Rights Ombudsman of Guatemala |
 | 4 | `tse.org.gt` | central | 403 | wikidata | Supreme Electoral Supreme |
+| 4 | `usac.edu.gt` | central |  | academia | Universidad de San Carlos de Guatemala |
 | 3 | `bomberosvoluntariosdeguatemala.com` |  | 301 | wikidata | Bomberos Voluntarios |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Guatemala |
 | 3 | `ghrc-usa.org` |  | HttpTimeo... | wikidata | Guatemala Human Rights Commission |

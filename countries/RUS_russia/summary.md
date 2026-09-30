@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-327 domain(s) proposed for validation, of which 105 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+695 domain(s) proposed for validation, of which 105 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,6 +40,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `akzs.ru` | central-1 | 200 | wikidata;wikidata | Altai Krai Legislative Assembly |
 | 7 | `arbitr.ru` | central | 200 | wikidata;wikidata | Q4068672 | Supreme Court of Arbitration of Russia |
 | 7 | `cikrf.ru` | central | HttpConne... | wikidata;wikidata | Central Election Commission of Russia |
+| 7 | `coal.sbras.ru` | central |  | academia;academia | Federal Research Centre Coal and Coal Chemistry | Institute of Coal |
 | 7 | `culture.volgograd.ru` | central-1 | HttpConne... | wikidata;wikidata | Committee of Culture of the Volgograd Oblast |
 | 7 | `customs.ru` |  | HttpConne... | wikidata;wikidata | Federal Customs Service of Russia |
 | 7 | `dagminobr.ru` |  | 200 | wikidata;wikidata | Q21641675 |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `fsb.ru` | central | HttpConne... | wikidata;wikidata;wikidata;wikidata | Federal Security Service | Q4503984 | Central Archive of the Federal Security... |
 | 7 | `fstec.ru` |  | HttpConne... | wikidata;wikidata | Federal Service for Technical and Export Control |
 | 7 | `gambiaembassy.ru` | central | 200 | wikidata;wikidata | embassy of the Gambia in Russia |
-| 7 | `gorduma-voronezh.ru` |  | 200 | wikidata;wikidata | Voronezh City Duma |
 

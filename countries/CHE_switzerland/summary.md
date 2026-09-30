@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-201 domain(s) proposed for validation, of which 39 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+214 domain(s) proposed for validation, of which 49 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -44,6 +44,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `dek.tg.ch` |  | HttpConne... | wikidata;wikidata | Departement für Erziehung und Kultur | Department of Education and Culture (T... |
 | 7 | `ensi-rat.ch` |  | SSLHandsh... | wikidata;wikidata | ENSI Board |
 | 7 | `ensi.ch` |  | ConnectEx... | wikidata;wikidata | Swiss Federal Nuclear Safety Inspectorate |
+| 7 | `epfl.ch` | central | 301 | academia;linkgraph | École polytechnique fédérale de Lausanne |
 | 7 | `finma.ch` | central | 301 | wikidata;wikidata | Financial Market Supervisory Authority |
 | 7 | `fr.ch` | central-1 | HttpConne... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Grand Council of Fribourg | Service de la Santé Publique | Q113032869 | Q1130... |
 | 7 | `frimobil.ch` |  | 200 | wikidata;wikidata | Frimobil |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `gr.ch` | central-1 | 302 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Q113162384 | Q113162391 | Grand Council of Grisons | Q113162376 | Q113162356 ... |
 | 7 | `justice.ge.ch` | central-1 | HttpConne... | wikidata;wikidata | Q3538851 | Q3190187 |
 | 7 | `lu.ch` | central-1 | 301 | wikidata;wikidata;wikidata | Q113041982 | Cantonal Council of Lucerne |
-| 7 | `ne.ch` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Department of Employment and Social Cohesion (Neuchâtel) | Department of Econ... |
 

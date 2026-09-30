@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,4 +40,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `roc-taiwan.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Funafuti |
 | 3 | `stampsoftuvalu.com` | central | 301 | wikidata | Tuvalu Philatelic Bureau |
 | 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Funafuti |
+| 3 | `usp.ac.fj` | central |  | academia | University of the South Pacific |
 

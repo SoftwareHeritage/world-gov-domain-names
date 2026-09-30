@@ -36,6 +36,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `msp.ne` |  | ConnectEx... | wikidata;wikidata | Ministry of Public Health |
+| 6 | `stat-niger.org` | central | 301 | wikidata;academia | Institut National de la Statistique |
 | 4 | `ansi.ne` |  | 200 | wikidata | National Agency for the Information Society |
 | 4 | `inran.refer.ne` |  | HttpConne... | wikidata | National Institute of Agronomic Research of Niger |
 | 4 | `police.ne` |  | ConnectEx... | wikidata | National Police of Niger |
@@ -49,5 +50,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `lesahel.org` |  | 301 | wikidata | Q139304709 |
 | 3 | `ne.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Niamey |
 | 3 | `niamey.diplo.de` | central | 200 | wikidata | Embassy of Germany, Niamey |
-| 3 | `stat-niger.org` | central | 301 | wikidata | Institut National de la Statistique |
 

@@ -39,14 +39,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `onecs.td` |  | HttpTimeo... | wikidata;wikidata | Q129709968 |
 | 6 | `eeas.europa.eu` |  | 200 | wikidata;wikidata | Delegation of the European Union to Chad |
 | 6 | `gouvernement.td` |  | ConnectEx... | un_desa | UN/DESA national portal |
+| 6 | `inseed-tchad.org` | central | HttpConne... | wikidata;academia | INSEED |
+| 6 | `inseedtchad.com` | central | HttpConne... | wikidata;academia | INSEED |
 | 6 | `minjustchad.org` | central | ConnectEx... | wikidata;wikidata | Ministry of Justice |
 | 4 | `adetic.td` |  | 200 | wikidata | Agency for the Development of Information and Communication Technologies |
 | 4 | `cndh.td` |  | 301 | wikidata | National Human Rights Commission (Tchad) |
 | 4 | `conseilconstitutionnel.td` |  | ConnectEx... | wikidata | Constitutional Council of Chad |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, N'Djamena |
 | 3 | `hamatchad.org` |  | 301 | wikidata | Q65157984 |
-| 3 | `inseed-tchad.org` | central | HttpConne... | wikidata | INSEED |
-| 3 | `inseedtchad.com` | central | HttpConne... | wikidata | INSEED |
 | 3 | `ndjamena.diplo.de` | central | 200 | wikidata | Embassy of Germany, N'Djamena |
 | 3 | `tchad.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Chad |
 | 3 | `td.ambafrance.org` | central | 301 | wikidata | Embassy of France, N'Djamena |

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-159 domain(s) proposed for validation, of which 28 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+251 domain(s) proposed for validation, of which 42 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,7 +45,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `al.rr.leg.br` | central-1 | 200 | wikidata;wikidata | Legislative Assembly of Roraima |
 | 7 | `congressonacional.leg.br` | central | ConnectEx... | wikidata;wikidata | National Congress of Brazil |
 | 7 | `franciscanos.org.br` |  | ConnectEx... | wikidata;wikidata | Q10354750 |
+| 7 | `ipt.br` | central-1 |  | academia;academia | Institute for Technological Research | Instituto de Pesquisas Tecnólogicas |
 | 7 | `jesuitasbrasil.org.br` |  | 200 | wikidata;wikidata | Brazilian Province of the Society of Jesus |
+| 7 | `ufmg.br` | central | 301 | wikidata;academia;academia | Centro Cultural UFMG | Federal University of Minas Gerais | Museu de História... |
 | 6 | `escolapiosbrasilbolivia.org` |  | 301 | wikidata;wikidata | Piarist province of Brazil-Bolivia |
 | 6 | `portal.stf.jus.br` | central | SSLHandsh... | wikidata | Supreme Federal Court |
 | 6 | `saopaulo.consulfrance.org` |  | 301 | wikidata;wikidata | Consulate General of France, in São Paulo |
@@ -53,6 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `academiacearensedeletras.org.br` |  | 200 | wikidata | Ceará Academy of Letters |
 | 4 | `academiadeletrasdabahia.org.br` |  | 200 | wikidata | Academia de Letras da Bahia |
 | 4 | `academiaguarulhense.org.br` |  | 301 | wikidata | Academia Guarulhense de Letras |
-| 4 | `academiamaranhense.org.br` |  | 200 | wikidata | Academia Maranhense de Letras |
-| 4 | `africadosul.org.br` | central | 200 | wikidata | embassy of South Africa in Brazil |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,6 +40,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bejrut.mfa.gov.hu` |  | SSLHandsh... | wikidata | Embassy of Hungary, Beirut |
 | 4 | `cnrs.edu.lb` |  | 200 | wikidata | National Council for Scientific Research |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Beirut |
+| 4 | `ul.edu.lb` | central |  | academia | Lebanese University |
 | 3 | `alarabiahcouncil.org` |  | 301 | wikidata | Arabic Language International Council |
 | 3 | `ambafrance-lb.org` | central | ConnectEx... | wikidata | French Embassy, Beirut |
 | 3 | `bangladeshembassybeirut.org` | central | 200 | wikidata | Embassy of Bangladesh, Beirut |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `lncu.org` |  | 200 | wikidata | Lebanese National Commission for UNESCO |
 | 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Lebanon |
 | 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Lebanon |
-| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Lebanon |
 

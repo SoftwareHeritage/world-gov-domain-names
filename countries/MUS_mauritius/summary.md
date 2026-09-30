@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `icac.mu` |  | 301 | wikidata | Independent Commission Against Corruption |
 | 4 | `msb.intnet.mu` |  | 302 | wikidata | Mauritius Standards Bureau |
 | 4 | `ncb.mu` |  | ConnectEx... | wikidata | National Computer Board |
+| 4 | `udm.ac.mu` | central |  | academia | Université des Mascareignes |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Mauritius and to the Seychelles |
 | 3 | `mauritius.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Mauritius |
 | 3 | `moi.govmu.org` |  | 200 | wikidata | Mauritius Oceanography Institute |
 | 3 | `mu.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port Louis |
 | 3 | `mymauritius.travel` |  | 200 | wikidata | Mauritius Tourism Promotion Authority |
-| 3 | `national-library.govmu.org` |  | 301 | wikidata | National Library of Mauritius |
 

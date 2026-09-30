@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,6 +39,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `caaf.org.fj` |  | 301 | wikidata | Civil Aviation Authority of the Fiji Islands |
 | 4 | `ficac.org.fj` |  | 200 | wikidata | Fiji Independent Commission Against Corruption |
 | 4 | `itaukeitrustfund.com.fj` |  | 200 | wikidata | iTaukei Trust Fund Board |
+| 4 | `usp.ac.fj` | central |  | academia | University of the South Pacific |
 | 3 | `ambafrance-fj.org` | central | ConnectEx... | wikidata | Embassy of France, Suva |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation for the Pacific |
 | 3 | `fidschi.diplo.de` | central | 200 | wikidata | Embassy of Germany, Suva |

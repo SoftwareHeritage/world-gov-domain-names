@@ -30,21 +30,22 @@
 
 ## Proposed domains ranked by score
 
-78 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+79 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 8 | `adpolice.gov.ae` |  | 200 | wikidata;wikidata | Abu Dhabi Police |
 | 8 | `almajles.gov.ae` | central | HttpConne... | wikidata;wikidata | Federal National Council |
-| 8 | `economy.gov.ae` | central | SSLHandsh... | wikidata;wikidata | Ministry of Economy |
+| 8 | `fcsa.gov.ae` | central | 403 | wikidata;academia | Federal Competitiveness and Statistics Authority |
+| 8 | `fcsc.gov.ae` | central | 403 | wikidata;academia | Federal Competitiveness and Statistics Centre |
 | 8 | `moe.gov.ae` | central | 302 | wikidata;wikidata | Ministry of Education |
 | 8 | `mof.gov.ae` |  | 301 | wikidata;wikidata | Ministry of Finance |
 | 8 | `mofaic.gov.ae` | central | IOExcepti... | wikidata;wikidata;wikidata;wikidata | Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and Inte... |
 | 8 | `moh.gov.ae` | central | SSLHandsh... | wikidata;wikidata | Ministry of Health and Prevention |
 | 8 | `mohesr.gov.ae` | central | 301 | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
 | 8 | `nma.gov.ae` |  | 302 | wikidata;wikidata | National Media Authority |
-| 8 | `scad.gov.ae` | central-1 | HttpConne... | wikidata;wikidata | Statistics Centre - Abu Dhabi |
+| 8 | `scad.gov.ae` | central-1 | HttpConne... | wikidata;wikidata;academia | Statistics Centre - Abu Dhabi |
 | 8 | `space.gov.ae` |  | 302 | wikidata;wikidata | United Arab Emirates Space Agency |
 | 7 | `wam.ae` |  | 301 | wikidata;wikidata | Emirates News Agency |
 | 6 | `government.ae` |  | 301 | un_desa | UN/DESA national portal |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `ajmanpolice.gov.ae` |  | 301 | wikidata | Ajman Police Force |
 | 5 | `dewa.gov.ae` |  | 403 | wikidata | Dubai Electricity and Water Authority |
 | 5 | `dha.gov.ae` |  | 200 | wikidata | Dubai Health Authority |
-| 5 | `dm.gov.ae` | central-1 | 301 | wikidata | Dubai Municipality |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+17 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,11 +40,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `kenesh.kg` | central | 200 | wikidata;wikidata | Supreme Council |
 | 7 | `med.kg` | central | 200 | wikidata;wikidata | Ministry of Health of Kyrgyzstan |
 | 7 | `mvd.kg` | central | SSLHandsh... | wikidata;wikidata | Ministry of the Interior |
+| 7 | `stat.kg` | central | SSLHandsh... | wikidata;academia | National Statistical Committee |
 | 4 | `archive.kg` |  | SSLHandsh... | wikidata | Central State Archives of the Republic of Kyrgyzstan |
 | 4 | `biskek.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary to Kyrgyzstan |
+| 4 | `manas.edu.kg` | central |  | academia | Manas University |
 | 4 | `mfa.kg` |  | ConnectEx... | wikidata | Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic |
 | 4 | `nbkr.kg` |  | 200 | wikidata | National Bank of the Kyrgyz Republic |
-| 4 | `stat.kg` | central | SSLHandsh... | wikidata | National Statistical Committee |
 | 4 | `vak.kg` |  | 200 | wikidata | Higher Attestation Commission of Kyrgyzstan |
 | 3 | `bischkek.diplo.de` | central | 200 | wikidata | Embassy of Germany, Bishkek |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to the Kyrgyz Republic |

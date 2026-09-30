@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,6 +39,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 5 | `nationalassembly.parliament.ls` | central | 200 | wikidata | National Assembly |
 | 4 | `agricresearch.org.ls` |  | 200 | wikidata | Department of Agricultural Research |
 | 4 | `centralbank.org.ls` |  | 200 | wikidata | Central Bank of Lesotho |
+| 4 | `nul.ls` | central |  | academia | National University of Lesotho |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Lesotho |
 | 3 | `ls.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Maseru |
 

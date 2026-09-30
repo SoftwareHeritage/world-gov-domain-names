@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+20 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,6 +45,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `luxinnovation.lu` |  | 200 | wikidata | Luxinnovation |
 | 4 | `mnaha.lu` |  | 301 | wikidata | National Museum of Archeology, History and Art |
 | 4 | `railinfra.lu` |  | 302 | wikidata | Administration des chemins de fer |
+| 4 | `uni.lu` | central |  | academia | University of Luxembourg |
 | 3 | `ambruslu.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia in Luxembourg |
 | 3 | `lu.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Luxembourg City |
 | 3 | `luxembourg.europarl.europa.eu` | central | 302 | wikidata | European Parliament Liaison Office in Luxembourg |

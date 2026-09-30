@@ -30,15 +30,17 @@
 
 ## Proposed domains ranked by score
 
-66 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+85 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `ansej.org.dz` | central | HttpConne... | wikidata;wikidata | Agence nationale de soutien à l'emploi des jeunes |
+| 7 | `cerist.dz` | central | SSLHandsh... | wikidata;academia | Centre de Recherche sur l'Information Scientifique et Technique |
 | 7 | `dgf.org.dz` |  | HttpConne... | wikidata;wikidata | Q25386281 | Q25387129 |
 | 7 | `dgsn.dz` | central | ConnectEx... | wikidata;wikidata;wikidata;wikidata;wikidata | Algerian police | General Directorate of National Security |
 | 7 | `elmadjlis-hci.dz` |  | 301 | wikidata;wikidata | Supreme Islamic Council of Algeria |
+| 7 | `inrf.dz` | central |  | academia;academia | Institut National de Recherche Forestière | National Forest Research Institute |
 | 7 | `m-moudjahidine.dz` | central | SSLHandsh... | wikidata;wikidata | Ministry of Mujahidin |
 | 7 | `mdn.dz` | central | ConnectEx... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of National Defense (Algeria) | État-major de l'armée algérienne | N... |
 | 7 | `mesrs.dz` | central | ConnectEx... | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
@@ -53,6 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `alnaft.dz` |  | ConnectEx... | wikidata | National agency for the valorization of hydrocarbon resource |
 | 4 | `anem.dz` |  | ConnectEx... | wikidata | National Employment Agency |
 | 4 | `anvredet.org.dz` |  | 200 | wikidata | Anvredet |
-| 4 | `apn.dz` | central | 200 | wikidata | People's National Assembly |
-| 4 | `archives-can.dz` |  | 200 | wikidata | Algerian National Archives |
 

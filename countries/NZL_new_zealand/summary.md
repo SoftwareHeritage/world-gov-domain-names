@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-38 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+46 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 8 | `www3.parliament.nz` |  | 301 | wikidata;wikidata | Office of the Clerk of the House of Representatives | New Zealand Parliamenta... |
+| 7 | `niwa.co.nz` | central | 200 | wikidata;academia | National Institute of Water and Atmospheric Research |
 | 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in New Zealand | Taipei Economic and Cult... |
 | 6 | `tabnz.org` |  | 308 | wikidata;wikidata | TAB NZ | New Zealand Racing Board |
 | 5 | `ombudsman.parliament.nz` | central | 403 | wikidata | Office of the Ombudsman |
 | 4 | `acc.co.nz` |  | 301 | wikidata | Accident Compensation Corporation |
 | 4 | `agmardt.org.nz` |  | 200 | wikidata | Agricultural and Marketing Research and Development Trust |
 | 4 | `agresearch.co.nz` |  | 301 | wikidata | AgResearch |
+| 4 | `auckland.ac.nz` | central |  | academia | University of Auckland |
 | 4 | `aucklandstadiums.co.nz` |  | 301 | wikidata | Auckland Stadiums |
 | 4 | `cookhicom.org.nz` | central | 404 | wikidata | High Commission of the Cook Islands, Wellington |
 | 4 | `dst.mil.nz` |  | 200 | wikidata | Defence Science and Technology |
 | 4 | `fiji.org.nz` | central | 200 | wikidata | High Commission of the Republic of Fiji in New Zealand |
 | 4 | `hnzc.co.nz` | central | 301 | wikidata | Housing New Zealand Corporation |
+| 4 | `lincoln.ac.nz` | central |  | academia | Lincoln University |
+| 4 | `massey.ac.nz` | central |  | academia | Massey University |
 | 4 | `metroinfo.co.nz` |  | 301 | wikidata | Metro |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Wellington |
-| 4 | `niwa.co.nz` |  | 200 | wikidata | National Institute of Water and Atmospheric Research |
 | 4 | `nzdf.mil.nz` |  | 301 | wikidata | New Zealand Defence Force |
 | 4 | `nzspaceagency.nz` | central | SSLHandsh... | wikidata | New Zealand Space Agency |
-| 4 | `occ.org.nz` | central | SSLHandsh... | wikidata | Office of the Children’s Commissioner |
-| 4 | `pakistanhc.org.nz` | central | 200 | wikidata | high commission of Pakistan in New Zealand |
-| 4 | `philembassy.org.nz` | central | 200 | wikidata | Embassy of the Philippines in New Zealand |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-31 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+58 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,16 +43,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bagdad.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Baghdad |
 | 4 | `cbi.iq` |  | 200 | wikidata | Central Bank of Iraq |
 | 4 | `cmc.iq` |  | 200 | wikidata | Communications and Media Commission |
+| 4 | `en.uosamarra.edu.iq` | central |  | academia | University of Samarra |
 | 4 | `ihec.iq` | central | 200 | wikidata | Independent High Electoral Commission |
 | 4 | `iraqfsc.iq` |  | 403 | wikidata | Supreme Court of Iraq |
+| 4 | `iubaghdad.edu.iq` | central |  | academia | Iraqi University |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Baghdad |
+| 4 | `mtu.edu.iq` | central |  | academia | Middle Technical University |
+| 4 | `nahrainuniv.edu.iq` | central |  | academia | Nahrain University |
 | 4 | `nazaha.iq` |  | 403 | wikidata | Commission of Integrity |
 | 4 | `post.iq` |  | 403 | wikidata | Iraqi Post |
+| 4 | `qadissuni.edu.iq` | central |  | academia | University of Al-Qadisiyah |
 | 4 | `src.edu.iq` |  | 200 | wikidata | Scientific Research Commission |
-| 3 | `b7or.net` |  | 301 | wikidata | Badr News Agency |
-| 3 | `ctgkurdistan.com` |  | 200 | wikidata | CTG Kurdistan |
-| 3 | `darculture.com` |  | 405 | wikidata | The General House of Cultural Affairs |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Iraq |
-| 3 | `en.aswataliraq.info` |  | HttpConne... | wikidata | Aswat al-Iraq |
-| 3 | `erbil.diplo.de` |  | 301 | wikidata | Consulate General of Germany, Erbil |
+| 4 | `stu.edu.iq` | central |  | academia | Southern Technical University |
 

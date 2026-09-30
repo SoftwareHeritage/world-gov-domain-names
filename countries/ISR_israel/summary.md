@@ -30,13 +30,13 @@
 
 ## Proposed domains ranked by score
 
-97 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+106 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `eastgalil.org.il` |  | 200 | wikidata;wikidata | Q16338638 |
-| 7 | `israelhpr.org.il` |  | 301 | wikidata;wikidata | Israel National Institute for Health Policy Research |
+| 7 | `israelhpr.org.il` | central | 301 | wikidata;wikidata;academia | Israel National Institute for Health Policy Research |
 | 7 | `rabincenter.org.il` |  | 301 | wikidata;wikidata | Yitzhak Rabin Center |
 | 7 | `shazar.org.il` |  | 301 | wikidata;wikidata | The Zalman Shazar Center |
 | 7 | `telaviv.mfa.gov.hu` | central | SSLHandsh... | wikidata;wikidata | Hungarian embassy, Tel-Aviv |
@@ -47,12 +47,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `yadvashem.org` |  | 302 | wikidata;wikidata | Yad Vashem |
 | 4 | `academy.ac.il` |  | 200 | wikidata | Israel Academy of Sciences and Humanities |
 | 4 | `antiquities.org.il` |  | 301 | wikidata | Israel Antiquities Authority |
+| 4 | `ariel.ac.il` | central |  | academia | Ariel University |
 | 4 | `begincenter.org.il` |  | 301 | wikidata | Menachem Begin Heritage Center |
 | 4 | `beitdin.org.il` |  | 200 | wikidata | Q86001497 |
 | 4 | `besor.org.il` |  | 302 | wikidata | Shikma-Besor Drainage and Streams Authority |
 | 4 | `bgh.org.il` |  | 200 | wikidata | The Ben Gurion Heritage Institute |
+| 4 | `bgu.ac.il` | central |  | academia | Ben-Gurion University of the Negev |
+| 4 | `biu.ac.il` | central |  | academia | Bar-Ilan University |
 | 4 | `boi.org.il` | central | 302 | wikidata | Bank of Israel |
-| 4 | `che.org.il` |  | 200 | wikidata | Council for Higher Education in Israel |
-| 4 | `dsda.org.il` |  | 404 | wikidata | The Dead Sea Drainage Authority |
-| 4 | `eilat.muni.il` |  | 403 | wikidata | Eilat |
 

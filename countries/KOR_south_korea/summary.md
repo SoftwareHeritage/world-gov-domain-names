@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-482 domain(s) proposed for validation, of which 11 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+529 domain(s) proposed for validation, of which 11 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,6 +42,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `council.jeju.kr` | central-1 | IOExcepti... | wikidata;wikidata | Jeju municipal council |
 | 7 | `council.ulsan.kr` | central-1 | 200 | wikidata;wikidata;wikidata | Ulsan Metropolitan Council |
 | 7 | `cuh.co.kr` |  | SSLHandsh... | wikidata;wikidata | Jeonbuk National University Hospital |
+| 7 | `eng.kedi.re.kr` | central | ConnectEx... | wikidata;academia | Korean Educational Development Institute |
+| 7 | `eng.kopri.re.kr` | central | 200 | wikidata;academia | Korea Polar Research Institute |
 | 7 | `ex.co.kr` |  | HttpConne... | wikidata;wikidata | Korea Expressway Corporation |
 | 7 | `fira.or.kr` |  | 405 | wikidata;wikidata | Korea Fisheries Resources Agency |
 | 7 | `foodinfo.or.kr` |  | 405 | wikidata;wikidata | National Food Safety Information Service |
@@ -51,8 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `hira.or.kr` |  | ConnectEx... | wikidata;wikidata | Health Insurance Review and Assessment Service |
 | 7 | `home.kepco.co.kr` |  | 200 | wikidata;wikidata | Korea Electric Power Corporation |
 | 7 | `i815.or.kr` |  | 200 | wikidata;wikidata | Independence Hall of Korea |
-| 7 | `ibs.re.kr` |  | 302 | wikidata;wikidata | Institute for Basic Science |
 | 7 | `icpa.or.kr` |  | 301 | wikidata;wikidata | Incheon Port Authority |
 | 7 | `iitp.kr` |  | SSLHandsh... | wikidata;wikidata | Institute for Information and Communications Technology Planning and Evaluation |
-| 7 | `jbstatecouncil.jeonbuk.kr` | central-1 | 200 | wikidata;wikidata | North Jeolla Province municipal council |
 

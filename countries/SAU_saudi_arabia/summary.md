@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-49 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+51 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,6 +43,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `kapl.org.sa` |  | 200 | wikidata | Q137555839 |
 | 4 | `kenyaembassy.org.sa` | central | ConnectEx... | wikidata | embassy of Kenya in Saudi Arabia |
 | 4 | `kfmrc.kau.edu.sa` |  | ConnectEx... | wikidata | King Fahd Medical Research Center |
+| 4 | `kfu.edu.sa` | central |  | academia | King Faisal University |
 | 4 | `maldivesembassy.sa` | central | ConnectEx... | wikidata | Embassy of Maldives, Riyadh |
 | 4 | `mofaic.gov.ae` |  | IOExcepti... | wikidata | Consulate General of the United Arab Emirates, Jeddah |
 | 4 | `moroccanembassy.sa` | central | ConnectEx... | wikidata | embassy of Morocco in Saudi Arabia |
@@ -50,9 +51,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `palestineembassy.org.sa` | central | ConnectEx... | wikidata | Embassy of the State of Palestine in Saudi Arabia |
 | 4 | `qiyas.sa` |  | 200 | wikidata | National Center for Assessment in Higher Education |
 | 4 | `rijad.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Rijadh |
+| 4 | `rua.edu.sa` | central |  | academia | Riyadh University of Arts |
 | 4 | `safcsp.org.sa` | central | 200 | wikidata | Saudi Federation for Cybersecurity, Programming and Drones |
 | 4 | `scfhs.org.sa` |  | 301 | wikidata | Saudi Commission for Health Specialties |
 | 4 | `slemb.org.sa` | central | 200 | wikidata | embassy of Sri Lanka in Saudi Arabia |
-| 4 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata | Embassy of the United Arab Emirates, Al Riyadh |
-| 4 | `ssf.sa` | central | 200 | wikidata | Saudi Shooting Federation |
 

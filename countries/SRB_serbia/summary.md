@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-52 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+57 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,19 +40,19 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `isusovci.hr` |  | 301 | wikidata;wikidata | Croatian province of the Society of Jesus |
 | 6 | `serbien.ahk.de` |  | 302 | wikidata;wikidata | German-Serbian Chamber of Commerce |
 | 6 | `ustavni.sud.rs` |  | SSLHandsh... | wikidata | Constitutional Court of Serbia |
+| 4 | `akademijasabac.edu.rs` | central |  | academia | Academy of Vocational Studies Šabac |
 | 4 | `ambalgserbia.rs` | central | 301 | wikidata | Embassy of Algeria, Belgrade |
 | 4 | `angolaembassy.org.rs` | central | 403 | wikidata | Embassy of Angola, Belgrade |
 | 4 | `apv-nauka.ns.ac.rs` |  | SSLHandsh... | wikidata | Pokrajinski Sekretarijat za Nauku i Tehnološki Razvoj |
 | 4 | `arhivsrbije.rs` |  | 200 | wikidata | Archive of Serbia |
 | 4 | `belgrad.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary in Belgrade, Serbia |
+| 4 | `bg.ac.rs` | central |  | academia | University of Belgrade |
 | 4 | `cpn.rs` |  | 301 | wikidata | Centar za Promociju Nauke |
 | 4 | `csrns.org.rs` |  | 301 | wikidata | Center for Social Work Novi Sad |
 | 4 | `dmdm.rs` |  | ConnectEx... | wikidata | Directorate of Measures and Precious Metals of the Republic of Serbia |
 | 4 | `drcongo-embassy.rs` | central | 403 | wikidata | embassy of Democratic Republic of the Congo in Serbia |
+| 4 | `ekof.bg.ac.rs` | central |  | academia | University of Belgrade Faculty of Economics |
 | 4 | `inovacionifond.rs` |  | 302 | wikidata | Innovation Fund of the Republic of Serbia |
 | 4 | `institutjosifpancic.rs` |  | 200 | wikidata | Institute for Medicinal Plants Research "dr Josif Pančić" |
 | 4 | `ipn.bg.ac.rs` |  | 301 | wikidata | Institute for Science Application in Agriculture |
-| 4 | `isj.sanu.ac.rs` |  | HttpConne... | wikidata | Institute for the Serbian Language of SASA |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Belgrade |
-| 4 | `nb.rs` |  | 200 | wikidata | National Library of Serbia |
 

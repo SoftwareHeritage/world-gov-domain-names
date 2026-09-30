@@ -30,13 +30,14 @@
 
 ## Proposed domains ranked by score
 
-11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 6 | `moee-ye.com` | central | 200 | wikidata;wikidata | Ministry of Electricity and Energy |
 | 4 | `saba.ye` |  | 302 | wikidata | Saba News Agency |
+| 4 | `seiyunu.edu.ye` | central |  | academia | Seiyun University |
 | 3 | `ambafrance-ye.org` | central | ConnectEx... | wikidata | Embassy of France, Sana'a |
 | 3 | `arabiafelixacademy.org` |  | SSLHandsh... | wikidata | Majmaʻ al-ʻArabīyah al-saʻīdah |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Yemen |

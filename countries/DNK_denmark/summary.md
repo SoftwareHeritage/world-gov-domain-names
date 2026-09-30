@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-162 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+169 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,6 +45,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `cpr.dk` |  | 301 | wikidata;wikidata | CPR-Kontoret |
 | 7 | `dff.dk` |  | 200 | wikidata;wikidata | Independent Research Fund Denmark |
 | 7 | `domaeneklager.dk` |  | 301 | wikidata;wikidata | Danish Complaints Board for Domain Names |
+| 7 | `dst.dk` | central | 302 | wikidata;academia | Statistics Denmark |
 | 7 | `ens.dk` |  | 200 | wikidata;wikidata | Danish Energy Agency |
 | 7 | `erhvervsfremmebestyrelsen.dk` |  | 200 | wikidata;wikidata | Danish Board of Business Development |
 | 7 | `fanke.dk` |  | 200 | wikidata;wikidata | Danish Financial Complaint Board |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `fstyr.dk` |  | 301 | wikidata;wikidata | Danish Road Traffic Authority |
 | 7 | `handelskammer.dk` |  | 302 | wikidata;wikidata | German-Danish Chamber of Commerce |
 | 7 | `kfst.dk` |  | 200 | wikidata;wikidata | Danish Competition Council | Danish Competition and Consumer Authority |
-| 7 | `nationalbanken.dk` |  | 301 | wikidata;wikidata | Danmarks Nationalbank |
 

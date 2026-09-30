@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-77 domain(s) proposed for validation, of which 28 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+83 domain(s) proposed for validation, of which 28 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `dienbien.edu.vn` | central-1 | 200 | wikidata | Dien Bien Department of Education and Training |
 | 4 | `dised.vn` |  | ConnectEx... | wikidata | Da Nang Institute For Socio - Economic Development |
 | 4 | `dongthap.edu.vn` | central-1 | HttpConne... | wikidata | Dong Thap Department of Education and Training |
+| 4 | `dthu.edu.vn` | central |  | academia | Dong Thap University |
 | 4 | `english.vov.vn` |  | 302 | wikidata | Voice of Vietnam |
 | 4 | `english.vtv.vn` |  | 200 | wikidata | Vietnam Television |
 | 4 | `haiphong.edu.vn` | central-1 | 302 | wikidata | Hải Phòng Department of Education and Training |
 | 4 | `hanoi.edu.vn` | central-1 | 302 | wikidata | Hanoi Department of Education and Training |
 | 4 | `hanoi.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Hanoi |
-| 4 | `hatinh.edu.vn` | central-1 | HttpConne... | wikidata | Ha Tinh Department of Education and Training |
 

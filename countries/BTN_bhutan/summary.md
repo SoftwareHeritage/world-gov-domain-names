@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-4 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,4 +39,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `acc.org.bt` |  | ConnectEx... | wikidata | Anti-Corruption Commission |
 | 4 | `nationalcouncil.bt` | central | HttpConne... | wikidata | National Council of Bhutan |
 | 4 | `rma.org.bt` |  | ConnectEx... | wikidata | Royal Monetary Authority of Bhutan |
+| 4 | `rub.edu.bt` | central |  | academia | Royal University of Bhutan |
 

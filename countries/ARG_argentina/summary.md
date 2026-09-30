@@ -30,12 +30,12 @@
 
 ## Proposed domains ranked by score
 
-84 domain(s) proposed for validation, of which 17 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+164 domain(s) proposed for validation, of which 18 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 8 | `caicyt-conicet.gov.ar` |  | HttpConne... | wikidata;wikidata | Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino ... |
+| 8 | `anlis.gov.ar` | central |  | academia;academia | ANLIS Malbrán | National Institute of Human Viral Disease |
 | 8 | `casarosada.gov.ar` |  | SSLHandsh... | wikidata;wikidata | Poder Ejecutivo Nacional |
 | 8 | `diputadosmisiones.gov.ar` | central-1 | 302 | wikidata;wikidata | Chamber of Deputies of Misiones |
 | 8 | `diputadossantafe.gov.ar` | central-1 | 302 | wikidata;wikidata | Chamber of Deputies of Santa Fe |

@@ -30,11 +30,12 @@
 
 ## Proposed domains ranked by score
 
-167 domain(s) proposed for validation, of which 16 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+180 domain(s) proposed for validation, of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `anu.edu.au` | central | 301 | wikidata;academia | Australian National University |
 | 7 | `curtin.edu.au` |  | 301 | wikidata;wikidata | Curtin Connect |
 | 7 | `g-mwater.com.au` |  | 301 | wikidata;wikidata | Goulburn–Murray Water |
 | 7 | `pakistan.org.au` | central | 403 | wikidata;wikidata | High Commission of Pakistan, Canberra | high commission of Pakistan in Australia |
@@ -52,7 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ainse.edu.au` |  | 301 | wikidata | Australian Institute of Nuclear Science and Engineering |
 | 4 | `algeriaemb.org.au` | central | 301 | wikidata | Embassy of Algeria, Canberra |
 | 4 | `amc.edu.au` |  | 301 | wikidata | Australian Maritime College |
-| 4 | `anu.edu.au` |  | 301 | wikidata | Australian National University |
-| 4 | `apm.net.au` |  | 200 | wikidata | APM Group |
-| 4 | `artc.com.au` |  | 302 | wikidata | Australian Rail Track Corporation |
+| 4 | `anrows.org.au` | central |  | academia | Australia's National Research Organisation for Women's Safety |
+| 4 | `anzpaa.org.au` | central |  | academia | National Institute of Forensic Science |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-17 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,6 +45,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `sjc.bh` | central | HttpConne... | wikidata | Supreme Judicial Council |
 | 4 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata | Embassy of the United Arab Emirates, Manama |
 | 4 | `tra.org.bh` |  | 403 | wikidata | Telecommunications Regulatory Authority of Bahrain |
+| 4 | `uob.edu.bh` | central |  | academia | University of Bahrain |
 | 3 | `bahrain.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia to Bahrain |
 | 3 | `bahrainedb.com` |  | 405 | wikidata | Bahrain Economic Development Board |
 | 3 | `bapcoenergies.com` |  | 302 | wikidata | Bapco Energies |

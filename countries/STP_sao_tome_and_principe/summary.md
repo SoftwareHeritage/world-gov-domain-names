@@ -36,8 +36,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 10 | `parlamento.st` | central | 403 | un_desa;wikidata;wikidata | Asamblea Nacional de Santo Tomé y Príncipe | UN/DESA national portal |
+| 7 | `ine.st` | central | 200 | wikidata;academia | Instituto Nacional de Estatística |
 | 4 | `bcstp.st` |  | 200 | wikidata | Central Bank of São Tomé and Príncipe |
-| 4 | `ine.st` | central | 200 | wikidata | Instituto Nacional de Estatística |
 | 3 | `ahstp.org` |  | ConnectEx... | wikidata | Arquivo Histórico de São Tomé |
 | 3 | `minsaude.net` |  | ConnectEx... | wikidata | Ministério da Saúde |
 | 3 | `st.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, São Tomé |

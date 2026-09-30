@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-274 domain(s) proposed for validation, of which 47 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+278 domain(s) proposed for validation, of which 51 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,14 +47,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `gouvernement.wallonie.be` | central-1 | 301 | wikidata;wikidata | Government of Wallonia |
 | 7 | `lv.vlaanderen.be` | central-1 | 200 | wikidata;wikidata | Department of Agriculture and Fisheries |
 | 7 | `mofaic.gov.ae` | central | IOExcepti... | wikidata;wikidata | embassy of United Arab Emirates in Belgium | Permanent Mission of the United ... |
+| 7 | `nbb.be` | central | 302 | wikidata;academia | National Bank of Belgium |
+| 7 | `ngi.be` | central | 200 | wikidata;academia | National Geographic Institute |
 | 7 | `om-mp.be` | central | HttpConne... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Q107677931 | Q111686458 | Q107677924 | Q111686279 | Q107677926 | Q111686333 |... |
 | 7 | `omgeving.vlaanderen.be` | central-1 | 200 | wikidata;wikidata | Department of Environment and Health |
 | 7 | `onderwijs.vlaanderen.be` | central-1 | 301 | wikidata;wikidata | Flemish Ministry of Education and Training |
 | 7 | `ostbelgienlive.be` | central-1 | 403 | wikidata;wikidata;wikidata | Government of the German-speaking Community | Representation of the German-sp... |
 | 7 | `parlement-wallonie.be` | central-1 | 403 | wikidata;wikidata | Parliament of Wallonia |
 | 7 | `parlement.brussels` | central-1 | 301 | wikidata;wikidata | Parliament of the Brussels-Capital Region |
-| 7 | `pdg.be` | central-1 | 403 | wikidata;wikidata | Parliament of the German-speaking Community |
-| 7 | `pfwb.be` | central-1 | ConnectEx... | wikidata;wikidata | Parliament of the French Community |
 
 ## ccTLD anomalies
 

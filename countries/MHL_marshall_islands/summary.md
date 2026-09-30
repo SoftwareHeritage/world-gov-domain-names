@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,4 +40,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `pss.edu.mh` |  | 200 | wikidata | Marshall Islands Public School System |
 | 3 | `alele.org` |  | 200 | wikidata | National Archives of the Marshall Islands |
 | 3 | `rmieppso.org` |  | 200 | wikidata | Economic Policy, Planning and Statistics Office |
+| 3 | `usp.ac.fj` | central |  | academia | University of the South Pacific |
 

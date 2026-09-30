@@ -30,11 +30,13 @@
 
 ## Proposed domains ranked by score
 
-14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+17 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 6 | `stat-guinee.org` | central | 200 | wikidata;academia | Institut National de la Statistique |
+| 4 | `uganc.edu.gn` | central |  | academia | University of Conakry |
 | 3 | `ambassadealgerieconakry.info` | central | ConnectEx... | wikidata | Embassy of Algeria, Conakry |
 | 3 | `anss-guinee.org` |  | 200 | wikidata | Q97097294 |
 | 3 | `bcrg-guinee.org` |  | 301 | wikidata | Central Bank of the Republic of Guinea |
@@ -45,8 +47,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ghanaembassy-guinea.com` | central | ConnectEx... | wikidata | embassy of Ghana in Guinea |
 | 3 | `gn.ambafrance.org` | central | 301 | wikidata | Embassy of France, Conakry |
 | 3 | `guinea.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Guinea |
+| 3 | `herbierguinee.org` | central |  | academia | Herbier National de Guinée |
 | 3 | `insp-guinee.org` |  | 301 | wikidata | Institut National de Santé Publique |
 | 3 | `irag-guinee.org` |  | 200 | wikidata | Institut de Recherche Agronomique de Guinee |
 | 3 | `misiones.cubaminrex.cu` | central | SSLHandsh... | wikidata | embassy of Cuba to Guinea |
-| 3 | `stat-guinee.org` | central | 200 | wikidata | Institut National de la Statistique |
+| 3 | `uglcs.org` | central |  | academia | General Lansana Conte University |
 

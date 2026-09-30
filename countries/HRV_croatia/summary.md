@@ -30,12 +30,13 @@
 
 ## Proposed domains ranked by score
 
-72 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+75 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `dominikanci.hr` |  | 200 | wikidata;wikidata | Croatian Dominican Province |
+| 7 | `dzs.hr` | central | HttpConne... | wikidata;academia | Croatian Bureau of Statistics |
 | 7 | `fzoeu.hr` |  | 301 | wikidata;wikidata | Environmental Protection and Energy Efficiency Fund |
 | 7 | `hzjz.hr` |  | 302 | wikidata;wikidata | Croatian Institute for Public Health |
 | 7 | `ihjj.hr` |  | 200 | wikidata;wikidata | Institute of Croatian Language |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ofm.hr` |  | 200 | wikidata;wikidata | Croatian Franciscan Province of Saints Cyril and Methodius |
 | 7 | `public.mzos.hr` | central | SSLHandsh... | wikidata;wikidata | Ministry of Science and Education |
 | 7 | `sabor.hr` | central | 200 | wikidata;wikidata | Parliament of Croatia |
-| 7 | `soa.hr` | central | 200 | wikidata;wikidata | Security and Intelligence Agency | Military Security and Intelligence Agency |
 

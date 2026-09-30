@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+28 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -50,9 +50,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `assemblee-nationale.ga` | central | HttpConne... | wikidata | National Assembly |
 | 4 | `cour-constitutionnelle.ga` |  | HttpConne... | wikidata | Constitutional Court of Gabon |
 | 4 | `dgabd.ga` |  | SSLHandsh... | wikidata | National Library of Gabon |
+| 4 | `univ-masuku.ga` | central |  | academia | Université des Sciences et Techniques de Masuku |
 | 3 | `ambaburkina-ga.org` | central | 200 | wikidata | embassy of Burkina Faso in Gabon |
 | 3 | `ambalglibreville.com` | central | 200 | wikidata | Embassy of Algeria, Libreville |
 | 3 | `ambassade-tchad-gabon.com` |  | ConnectEx... | wikidata | Q134385965 |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Pri... |
-| 3 | `ga.ambafrance.org` | central | 301 | wikidata | Embassy of France, Libreville |
 

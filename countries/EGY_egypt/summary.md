@@ -30,11 +30,12 @@
 
 ## Proposed domains ranked by score
 
-69 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+81 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `narss.sci.eg` | central | HttpConne... | wikidata;academia | National Authority for Remote Sensing and Space Sciences |
 | 7 | `nspo.com.eg` |  | SSLHandsh... | wikidata;wikidata | National Service Products Organization |
 | 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
 | 6 | `egypt.gov.org` |  | HttpConne... | un_desa | UN/DESA national portal |
@@ -43,16 +44,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `kairo.diplo.de` | central | HttpConne... | wikidata;wikidata | Embassy of Germany, Cairo |
 | 6 | `sca-egypt.org` | central | 200 | wikidata;wikidata | Ministry of State for Antiquities |
 | 6 | `swedenabroad.se` | central | 301 | wikidata;wikidata | Embassy of Sweden, Cairo |
+| 4 | `alexu.edu.eg` | central |  | academia | Alexandria University |
 | 4 | `aoi.org.eg` |  | ConnectEx... | wikidata | Arab Organization for Industrialization |
+| 4 | `asu.edu.eg` | central |  | academia | Ain Shams University |
+| 4 | `azhar.edu.eg` | central |  | academia | Al-Azhar University |
 | 4 | `britishcouncil.org.eg` |  | 301 | wikidata | British Council Egypt |
 | 4 | `cbe.org.eg` |  | 403 | wikidata | Central Bank of Egypt |
 | 4 | `cmrdi.sci.eg` |  | 200 | wikidata | Central Metallurgical Research and Development Institute |
+| 4 | `cu.edu.eg` | central |  | academia | Cairo University |
 | 4 | `drugcontrol.org.eg` |  | HttpConne... | wikidata | Q95947970 |
+| 4 | `dtu.edu.eg` | central |  | academia | Delta Technological University |
 | 4 | `eaea.org.eg` |  | SSLHandsh... | wikidata | Egyptian Atomic Energy Authority |
-| 4 | `eca.org.eg` |  | HttpConne... | wikidata | Q12206326 |
-| 4 | `egnatcom.org.eg` |  | HttpConne... | wikidata | Egyptian National Commission for UNESCO |
-| 4 | `ehc.eg` |  | 200 | wikidata | Egyptian Health Council |
-| 4 | `elections.eg` | central | 301 | wikidata | National Elections Commission |
-| 4 | `epri.sci.eg` |  | HttpConne... | wikidata | Egyptian Petroleum Research Institute |
-| 4 | `hbrc.edu.eg` |  | HttpConne... | wikidata | Housing and Building National Research Center |
 

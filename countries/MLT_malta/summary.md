@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+27 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,6 +47,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mfsa.mt` | central | 301 | wikidata | Malta Financial Service Authority |
 | 4 | `mra.org.mt` |  | SSLHandsh... | wikidata | Malta Resources Authority |
 | 4 | `pa.org.mt` |  | 403 | wikidata | Planning Authority |
+| 4 | `um.edu.mt` | central |  | academia | University of Malta |
 | 3 | `centralbankmalta.org` |  | 301 | wikidata | Central Bank of Malta |
 | 3 | `ghanahighcommission-malta.com` | central | ConnectEx... | wikidata | high commission of Ghana in Malta |
 | 3 | `heritagemalta.org` |  | 301 | wikidata | Heritage Malta |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `malta.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Malta |
 | 3 | `malta.representation.ec.europa.eu` |  | 302 | wikidata | European Commission Representation in Malta |
 | 3 | `maltaenterprise.com` |  | 200 | wikidata | Malta Enterprise |
-| 3 | `maltafilmcommission.com` |  | 301 | wikidata | Malta Film Commission |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,8 +39,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `cconstitucional.org.mz` | central | 200 | wikidata | Constitutional Council (Mozambique) |
 | 4 | `ahm.uem.mz` |  | 200 | wikidata | Arquivo Histórico de Moçambique |
 | 4 | `bancomoc.mz` |  | 200 | wikidata | Bank of Mozambique |
+| 4 | `isri3.ix.co.mz` | central |  | academia | Joaquim Chissano University |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Maputo |
 | 4 | `stae.org.mz` | central | ConnectEx... | wikidata | Secreteriado Técnico de Administração Eleitoral |
+| 4 | `unirovuma.ac.mz` | central |  | academia | Rovuma University |
+| 4 | `unizambeze.ac.mz` | central |  | academia | Zambezi University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Mozambique |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Maputo |
 | 3 | `malawihcmz.com` | central | ConnectEx... | wikidata | High Commission of Malawi, Maputo |

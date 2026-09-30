@@ -30,14 +30,13 @@
 
 ## Proposed domains ranked by score
 
-33 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+34 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `assembly.gm` | central | 200 | wikidata;wikidata | National Assembly of The Gambia |
 | 7 | `mope.gm` | central | 301 | wikidata;wikidata | Ministry of Petroleum, Energy and Mines |
-| 7 | `utg.edu.gm` |  | HttpTimeo... | wikidata;wikidata | University of the Gambia |
 | 4 | `cbg.gm` |  | 301 | wikidata | Central Bank of The Gambia |
 | 4 | `gambiaports.gm` | central | HttpConne... | wikidata | Gambia Ports Authority |
 | 4 | `gamcel.gm` | central | 200 | wikidata | Gambia Telecommunications Cellular Company |
@@ -53,6 +52,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nana.gm` |  | SSLHandsh... | wikidata | National Nutrition Agency |
 | 4 | `nao.gm` | central | HttpTimeo... | wikidata | National Audit Office |
 | 4 | `naqaa.gm` |  | 200 | wikidata | National Accreditation and Quality Assurance Authority |
+| 4 | `nari.gm` | central |  | academia | National Agricultural Research Institute |
 | 4 | `nawec.gm` |  | 200 | wikidata | NAWEC |
 | 4 | `ncac.gm` |  | 200 | wikidata | National Council for Arts and Culture |
 

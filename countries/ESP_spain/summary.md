@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-599 domain(s) proposed for validation, of which 85 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+681 domain(s) proposed for validation, of which 143 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,6 +45,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `csic.es` | central | SSLHandsh... | wikidata;wikidata;wikidata;linkgraph | Spanish National Research Council | Centro de Recursos Fitogenéticos |
 | 10 | `dgt.es` |  | 302 | wikidata;wikidata;linkgraph | Directorate-General for Traffic |
 | 10 | `gva.es` | central-1 | ConnectEx... | wikidata;wikidata;wikidata;wikidata;linkgraph | Generalitat Valenciana | Q2993785 |
+| 10 | `ign.es` | central | SSLHandsh... | wikidata;academia;linkgraph | Instituto Geográfico Nacional |
+| 10 | `ine.es` | central | SSLHandsh... | wikidata;academia;linkgraph | National Statistics Institute |
 | 10 | `juntadeandalucia.es` | central-1 | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Jaen University Hospital | Q10862925 | Q16552044 | Ministry of Culture and Hi... |
 | 10 | `madrid.org` | central-1 | ConnectEx... | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Consejería de Educación, Juventud y Deporte | Government of the Community of ... |
 | 10 | `navarra.es` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Government of Navarra | Departamento de Salud (Navarre) | Servicio Navarro de... |
@@ -52,7 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 9 | `gobiernodecanarias.org` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Caldera de Taburiente National Park | Agencia Canaria de Investigación, Innov... |
 | 9 | `red.es` | central | 308 | wikidata;linkgraph | Red.es |
 | 8 | `gov.gva.es` | central-1 | ConnectEx... | wikidata;wikidata;wikidata;wikidata | Q21094623 | Q11915354 |
-| 8 | `ine.es` |  | SSLHandsh... | wikidata;linkgraph | National Statistics Institute |
 | 7 | `agricultura.gva.es` |  | HttpConne... | wikidata;wikidata | Q11915347 |
-| 7 | `agroambient.gva.es` |  | HttpConne... | wikidata;wikidata | Q107653107 |
 

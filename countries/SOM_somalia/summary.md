@@ -30,16 +30,17 @@
 
 ## Proposed domains ranked by score
 
-8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `dns.org.so` | central | 200 | wikidata;academia | Directorate of National Statistics |
 | 6 | `mfa.somaligov.net` | central | SSLHandsh... | wikidata;wikidata | Ministry of Foreign Affairs and International Cooperation of the Federal Repu... |
-| 4 | `dns.org.so` | central | 200 | wikidata | Directorate of National Statistics |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Mogadishu |
 | 4 | `pha.pl.so` |  | HttpTimeo... | wikidata | Puntland Highway Authority |
 | 4 | `pmpf.so` |  | 200 | wikidata | Puntland Maritime Police Force |
+| 4 | `snu.edu.so` | central |  | academia | Somali National University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Somalia |
 | 3 | `mict.govsomaliland.org` |  | HttpTimeo... | wikidata | Ministry of Information and Communication Technology |
 | 1 | `moesomalia.net` | central | 200 | wikidata;wikidata;wikidata;wikidata | Ministry of Education, Culture and Higher Education | Ministry of Education (... |

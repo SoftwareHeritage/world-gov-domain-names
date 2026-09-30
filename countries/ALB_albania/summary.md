@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-23 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+27 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,14 +45,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `idp.al` | central | 200 | wikidata | Information and Data Protection Commissioner |
 | 4 | `kryeministria.al` |  | 200 | wikidata | Prime Minister's Office |
 | 4 | `tirana.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Tirana |
+| 4 | `unishk.edu.al` | central |  | academia | University of Shkodra |
+| 4 | `unitir.edu.al` | central |  | academia | University of Tirana |
+| 4 | `unkorce.edu.al` | central |  | academia | Fan S. Noli University |
+| 4 | `uogj.edu.al` | central |  | academia | Eqrem Çabej University of Gjirokastër |
 | 3 | `al.ambafrance.org` | central | 301 | wikidata | Embassy of France, Tirana |
 | 3 | `albania.mid.ru` | central | SSLHandsh... | wikidata | Russian Embassy in Tirana |
 | 3 | `albaniaembassy.orderofmalta.int` | central | 301 | wikidata | Embassy of the Sovereign Military Order of Malta, Tirana |
 | 3 | `ambasadat.net` | central | 200 | wikidata | Embassy of Kosovo, Tirana |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Albania |
 | 3 | `mfa.bg` | central | 302 | wikidata | Embassy of Bulgaria in Albania |
-| 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Albania |
-| 3 | `mzv.cz` | central | 302 | wikidata | Embassy of the Czech republic in Albania |
-| 3 | `mzv.sk` | central | 301 | wikidata | Embassy of Slovakia in Albania |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Tirana |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-125 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+150 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,6 +41,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `cultura.ro` | central | 503 | wikidata;wikidata | Ministry of Culture |
 | 7 | `dataprotection.ro` | central | 200 | wikidata;linkgraph | National Supervisory Authority for Personal Data Processing |
 | 7 | `edu.ro` | central | 200 | wikidata;wikidata | Ministry of Education of Romania |
+| 7 | `insse.ro` | central | SSLHandsh... | wikidata;academia | National Institute of Statistics |
 | 7 | `madr.ro` | central | SSLHandsh... | wikidata;wikidata | Ministry of Agriculture and Rural Development of Romania |
 | 7 | `mae.ro` | central | 503 | wikidata;wikidata | Ministry of Foreign Affairs of Romania |
 | 7 | `mapn.ro` | central | 410 | wikidata;wikidata | Ministry of National Defense |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `gesuiti.it` |  | 200 | wikidata;wikidata | Euromediterranean Province of the Jesuits |
 | 6 | `guv.ro` |  | ConnectEx... | un_desa | UN/DESA national portal |
 | 6 | `mpublic.ro` |  | 503 | wikidata | Prosecutor's Office attached to the High Court of Cassation and Justice |
-| 6 | `rumaenien.um.dk` | central | 301 | wikidata;wikidata | Embassy of Denmark, Bucharest | Embassy of Croatia in Romania |
 

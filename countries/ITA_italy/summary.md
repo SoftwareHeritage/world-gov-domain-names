@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-355 domain(s) proposed for validation, of which 27 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+399 domain(s) proposed for validation, of which 26 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,9 +38,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `asi.it` |  | ConnectEx... | wikidata;wikidata;directory | Italian Space Agency |
 | 10 | `camera.it` | central | 302 | wikidata;linkgraph;directory | Chamber of Deputies of Italy |
 | 10 | `carabinieri.it` | central | ConnectEx... | wikidata;wikidata;directory | Comando unità per la tutela forestale, ambientale e agroalimentare | Carabinieri |
+| 10 | `cnr.it` | central | 301 | wikidata;academia;academia;directory | Consiglio Nazionale delle Ricerche | Istituto Nazionale di Ricerca per gli Al... |
 | 10 | `cortecostituzionale.it` | central | 302 | wikidata;linkgraph;directory | Constitutional Court of Italy |
 | 10 | `inps.it` |  | 301 | wikidata;linkgraph;directory | Istituto nazionale della previdenza sociale |
-| 10 | `istat.it` | central | ConnectEx... | wikidata;linkgraph;directory | Italian National Institute of Statistics |
+| 10 | `invalsi.it` | central | 301 | wikidata;academia;directory | Istituto nazionale per la valutazione del sistema educativo di istruzione e d... |
+| 10 | `istat.it` | central | ConnectEx... | wikidata;academia;linkgraph;directory | Italian National Institute of Statistics |
 | 10 | `regione.lombardia.it` | central-1 | HttpConne... | wikidata;wikidata;wikidata;linkgraph | Government of Lombardy | Lombardy |
 | 10 | `regione.toscana.it` | central-1 | HttpConne... | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana |
 | 10 | `regione.veneto.it` | central-1 | HttpConne... | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Veneto | Government of Veneto | Q3630806 | Q56753389 |
@@ -51,8 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `agcom.it` |  | ConnectEx... | wikidata;directory | Autorità per le Garanzie nelle Comunicazioni |
 | 8 | `agenziademanio.it` |  | HttpConne... | wikidata;directory | Agenzia del demanio |
 | 8 | `agenziaitaliameteo.it` | central | HttpConne... | wikidata;directory | ItaliaMeteo |
+| 8 | `altamatematica.it` | central | SSLHandsh... | academia;directory | Istituto Nazionale di Alta Matematica Francesco Severi |
 | 8 | `anticorruzione.it` |  | ConnectEx... | wikidata;directory | National Anti-Corruption Authority |
-| 8 | `anvur.it` |  | SSLHandsh... | wikidata;directory | Agenzia nazionale di valutazione del sistema universitario e della ricerca |
-| 8 | `arera.it` | central | 301 | wikidata;directory | Autorità di Regolazione per Energia Reti e Ambiente |
-| 8 | `autorita-trasporti.it` |  | 301 | wikidata;directory | Autorità di Regolazione dei Trasporti |
 

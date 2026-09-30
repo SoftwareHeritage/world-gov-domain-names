@@ -30,15 +30,20 @@
 
 ## Proposed domains ranked by score
 
-89 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+106 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `affaires-religieuses.tn` | central | 302 | wikidata;wikidata | Ministry of Religious Affairs |
 | 7 | `agriculture.tn` | central | SSLHandsh... | wikidata;wikidata | Ministry of Agriculture |
+| 7 | `cnrsm.rnrt.tn` | central |  | academia;academia | Centre National de Recherches en Sciences des Matériaux | National Center for... |
+| 7 | `crten.rnrt.tn` | central |  | academia;academia | Centre de Recherche et des Technologies de l'Energie | Research and Technolog... |
 | 7 | `defense.tn` | central | 200 | wikidata;wikidata | Ministry of Defence |
+| 7 | `inrap.rnrt.tn` | central |  | academia;academia | Institut National de Recherche et d'Analyse Physico-chimique | National Insti... |
+| 7 | `ins.tn` | central | 200 | wikidata;academia | National Institute of Statistics |
 | 7 | `mes.tn` | central | ConnectEx... | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
+| 7 | `meteo.tn` | central | 503 | wikidata;academia | National Institute of Meteorology | Institut National de la Météorologie |
 | 7 | `mofaic.gov.ae` | central | IOExcepti... | wikidata;wikidata | Embassy of the United Arab Emirates, Tunis |
 | 7 | `santetunisie.rns.tn` | central | HttpConne... | wikidata;wikidata | Ministry of Health |
 | 7 | `sport.tn` | central | SSLHandsh... | wikidata;wikidata | Ministry of Youth and Sports |
@@ -50,9 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `anm.nat.tn` |  | 301 | wikidata | National Agency for Metrology |
 | 4 | `anme.nat.tn` |  | SSLHandsh... | wikidata | National Agency for Energy Management |
 | 4 | `anpe.nat.tn` |  | 301 | wikidata | National Environment Protection Agency |
-| 4 | `anpr.tn` |  | 301 | wikidata | National Agency for Promotion of Research and Innovation |
-| 4 | `apal.nat.tn` |  | ConnectEx... | wikidata | Agence de Protection et d'Aménagement du Littoral |
-| 4 | `apia.com.tn` |  | 301 | wikidata | Q2826614 |
-| 4 | `archives.nat.tn` |  | ConnectEx... | wikidata | National Archives of Tunisia |
-| 4 | `arp.tn` | central | 200 | wikidata | Assembly of the Representatives of the People |
 

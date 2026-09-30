@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-30 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+31 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -44,6 +44,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nvi.com.et` |  | 301 | wikidata | National Veterinary Institute |
 | 4 | `psi.org.et` |  | 200 | wikidata | Ethiopian Policy Studies Institute |
 | 4 | `rrs.et` |  | 200 | wikidata | Refugees and Returnees Service |
+| 4 | `su.edu.et` | central |  | academia | Samara University |
 | 3 | `addis-abeba.diplo.de` | central | 200 | wikidata | Embassy of Germany, Addis Ababa |
 | 3 | `addisabeba.mae.ro` | central | 503 | wikidata | Embassy of Romania, Addis Abeba |
 | 3 | `cehro.org` |  | 301 | wikidata | Consortium of Ethiopian Human Rights Organizations |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ethiopia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Ethiopia |
 | 3 | `ethiopianreconciliation.org` |  | ConnectEx... | wikidata | Ethiopian Reconciliation Commission |
 | 3 | `etiopien.um.dk` | central | 301 | wikidata | embassy of Denmark in Ethiopia |
-| 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Addis Abeba |
 

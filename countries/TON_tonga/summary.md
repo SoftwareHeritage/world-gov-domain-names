@@ -30,11 +30,13 @@
 
 ## Proposed domains ranked by score
 
-2 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+4 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 6 | `to.chineseembassy.org` | central | SSLHandsh... | wikidata;wikidata | Embassy of the People's Republic of China, Nuku'alofa |
 | 4 | `reservebank.to` |  | HttpConne... | wikidata | National Reserve Bank of Tonga |
+| 4 | `tnu.edu.to` | central |  | academia | Tonga National University |
+| 3 | `usp.ac.fj` | central |  | academia | University of the South Pacific |
 

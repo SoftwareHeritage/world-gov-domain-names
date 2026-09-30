@@ -30,13 +30,14 @@
 
 ## Proposed domains ranked by score
 
-283 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+321 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `gdip.com.ua` |  | 200 | wikidata;wikidata | Directorate-General for Rendering Services to Diplomatic Missions |
 | 7 | `gromady.cv.ua` |  | HttpConne... | wikidata;wikidata | Krasnoiilska selyshchna rada | Storozhynetska miska rada |
+| 7 | `iae.org.ua` | central | HttpConne... | wikidata;academia | National Scientific Centre “Institute of Agrarian Economics” |
 | 7 | `phc.org.ua` |  | 200 | wikidata;wikidata | Center for Public Health of the Ministry of Health of Ukraine |
 | 7 | `rada.crimea.ua` | central-1 | 200 | wikidata;wikidata | Supreme Council of Crimea |
 | 7 | `ubi.org.ua` |  | 302 | wikidata;wikidata | Ukrainian Book Institute |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bcdst.kiev.ua` | central-1 | 200 | wikidata | State Enterprise "KYIV REGIONAL RESEARCH AND PRODUCTION CENTER FOR STANDARDIZ... |
 | 4 | `beregszasz.mfa.gov.hu` |  | SSLHandsh... | wikidata | Consulate of Hungary, Berehove |
 | 4 | `berezivska.rada.org.ua` |  | 403 | wikidata | Q17095150 |
-| 4 | `berezne-rada.rv.ua` |  | 200 | wikidata | Q93363311 |
 

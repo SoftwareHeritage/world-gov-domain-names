@@ -30,11 +30,13 @@
 
 ## Proposed domains ranked by score
 
-24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `cnra.ci` | central | 200 | wikidata;academia | Centre National de Recherche Agronomique | National Center for Agronomic Rese... |
+| 7 | `ins.ci` | central | SSLHandsh... | wikidata;academia | Institut National de la Statistique |
 | 7 | `justice.ci` | central | 301 | wikidata;wikidata | Q123328078 |
 | 6 | `ci.ambafrance.org` | central | 301 | wikidata;wikidata | Embassy of France, Abidjan | general consulate of France in Abidjan |
 | 6 | `education-ci.org` | central | 301 | wikidata;wikidata | Ministry of National Education and Technical Training |
@@ -42,17 +44,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `afor.ci` |  | 200 | wikidata | Q131452898 |
 | 4 | `artci.ci` |  | 200 | wikidata | Q86993468 |
 | 4 | `assnat.ci` | central | 200 | wikidata | National Assembly |
-| 4 | `cnra.ci` |  | 200 | wikidata | Centre National de Recherche Agronomique |
 | 4 | `conseil-constitutionnel.ci` |  | 200 | wikidata | Constitutional Council |
 | 4 | `firca.ci` |  | 200 | wikidata | Q131440933 |
 | 4 | `haca.ci` |  | 200 | wikidata | High Authority of Audiovisual Communication |
-| 4 | `ins.ci` |  | SSLHandsh... | wikidata | Institut National de la Statistique |
 | 4 | `oipc.ci` |  | SSLHandsh... | wikidata | Q116297759 |
 | 4 | `oscn.ci` |  | 301 | wikidata | Q131620972 |
 | 4 | `sodefor.ci` |  | SSLHandsh... | wikidata | Société de développement des forêts |
+| 4 | `univ-na.edu.ci` | central |  | academia | University of Abobo-Adjamé |
+| 4 | `usp.edu.ci` | central |  | academia | Q141202839 |
 | 4 | `web.conseil-etat.ci` | central | 200 | wikidata | Q2993730 |
 | 3 | `abidjan.diplo.de` | central | 200 | wikidata | Embassy of Germany, Abidjan |
 | 3 | `bceao.int` |  | ConnectEx... | wikidata | Central Bank of West African States |
-| 3 | `ceici.org` | central | SSLHandsh... | wikidata | Q283004 |
-| 3 | `cotedivoire.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Ivory Coast |
 

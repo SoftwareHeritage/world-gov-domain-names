@@ -30,13 +30,14 @@
 
 ## Proposed domains ranked by score
 
-7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 6 | `jesuitascam.org` |  | 200 | wikidata;wikidata | Jesuit Province of Central America |
 | 4 | `esai.sv` |  | HttpConne... | wikidata | El Salvador Aerospace Institute |
+| 4 | `ues.edu.sv` | central |  | academia | University of El Salvador |
 | 3 | `ccesv.aecid.es` |  | 200 | wikidata | Cultural Center of Spain in El Salvador |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to El Salvador |
 | 3 | `lab.ccesv.org` |  | 200 | wikidata | Cultural Center of Spain in El Salvador |

@@ -30,14 +30,16 @@
 
 ## Proposed domains ranked by score
 
-55 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+63 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 7 | `eki.ee` | central | 200 | wikidata;academia | Institute of the Estonian Language |
 | 7 | `fi.ee` | central | 301 | wikidata;wikidata | Financial Supervision Authority |
 | 7 | `politsei.ee` |  | 301 | wikidata;wikidata | Estonian Police | Police and Border Guard Board |
 | 7 | `riigikantselei.ee` |  | 200 | wikidata;linkgraph | Government Office |
+| 7 | `stat.ee` | central | 301 | wikidata;academia | Statistics Estonia |
 | 6 | `riigikohus.ee` | central | 302 | wikidata | Supreme Court of Estonia |
 | 6 | `riigiteataja.ee` |  | 302 | linkgraph | Linked from 10 public-sector domains |
 | 4 | `aki.ee` | central | 302 | wikidata | Estonian Data Protection Inspectorate |
@@ -47,12 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `eas.ee` |  | 301 | wikidata | Estonian Space Office |
 | 4 | `eestipank.ee` |  | 307 | wikidata | Bank of Estonia |
 | 4 | `egt.ee` |  | 200 | wikidata | Geological Survey of Estonia |
-| 4 | `eki.ee` |  | 200 | wikidata | Institute of the Estonian Language |
 | 4 | `emta.ee` |  | 200 | wikidata | Estonian Tax and Customs Board |
 | 4 | `epa.ee` | central | 302 | wikidata | Estonian Patent Office |
 | 4 | `etag.ee` |  | 200 | wikidata | Estonian Research Agency |
+| 4 | `etki.ee` | central |  | academia | Centre of Estonian Rural Research and Knowledge |
 | 4 | `hitsa.ee` |  | ConnectEx... | wikidata | Information Technology Foundation for Education |
 | 4 | `just.ee` |  | 301 | linkgraph | Linked from 4 public-sector domains |
-| 4 | `kapo.ee` |  | 200 | wikidata | Estonian Internal Security Service |
-| 4 | `keeleamet.ee` |  | 302 | wikidata | Language Board |
 

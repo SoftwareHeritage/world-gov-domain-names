@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-14795 domain(s) proposed for validation, of which 1308 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+15053 domain(s) proposed for validation, of which 1527 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |

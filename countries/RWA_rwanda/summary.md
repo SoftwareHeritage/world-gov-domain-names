@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-23 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,6 +39,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bnr.rw` |  | 200 | wikidata | National Bank of Rwanda |
 | 4 | `cma.rw` |  | 301 | wikidata | Rwanda Capital Market Authority CMA |
 | 4 | `ikigega.rw` |  | 301 | wikidata | SGF  Special Guarantee Fund |
+| 4 | `irst.ac.rw` | central |  | academia | Rwandan National Institute of Scientific Research |
 | 4 | `lands.rw` |  | 301 | wikidata | RLMUA  Rwanda Land Management and Use Authority |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Kigali |
 | 4 | `raeb.prod.risa.rw` |  | HttpConne... | wikidata | Rwanda Atomic Energy Board |
@@ -50,9 +51,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `rura.rw` |  | 301 | wikidata | Rwanda Utilities Regulatory Authority |
 | 4 | `rwb.rw` |  | 301 | wikidata | Rwanda Water Resources Board |
 | 4 | `unesco.rw` |  | HttpConne... | wikidata | Rwanda National Commission for UNESCO |
+| 4 | `ur.ac.rw` | central |  | academia | University of Rwanda |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Rwanda |
 | 3 | `greatervirunga.org` |  | 200 | wikidata | Q132472718 |
 | 3 | `kenyahighcomkigali.org` | central | 200 | wikidata | High Commission of Kenya, Kigali |
-| 3 | `kigali.diplo.de` | central | 200 | wikidata | Embassy of Germany, Kigali |
-| 3 | `rw.ambafrance.org` | central | 301 | wikidata | Embassy of France, Kigali |
 

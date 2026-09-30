@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,14 +38,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 9 | `superiorcourts.org.na` |  | ConnectEx... | wikidata;wikidata | Supreme Court of Namibia | High Court of Namibia |
 | 8 | `parliament.na` | central | HttpConne... | wikidata;wikidata;wikidata;wikidata | National Council of Namibia | Parliament of Namibia | National Assembly |
 | 7 | `mof.na` | central | ConnectEx... | wikidata;wikidata | Ministry of Finance |
+| 7 | `nsa.org.na` | central | 200 | wikidata;academia | Namibia Statistics Agency |
 | 6 | `windhuk.diplo.de` | central | 200 | wikidata;wikidata | Embassy of Germany, Windhoek |
 | 4 | `bon.com.na` |  | HttpConne... | wikidata | Bank of Namibia |
 | 4 | `citypolice.org.na` |  | ConnectEx... | wikidata | Windhoek City Police Service |
 | 4 | `ecn.na` | central | 301 | wikidata | Electoral Commission of Namibia |
+| 4 | `nbri.org.na` | central |  | academia | National Botanic Garden of Namibia |
 | 4 | `ncaa.com.na` |  | 200 | wikidata | Namibia Directorate of Civil Aviation |
 | 4 | `nfc.na` |  | 200 | wikidata | Namibia Film Commission |
-| 4 | `nsa.org.na` |  | 200 | wikidata | Namibia Statistics Agency |
 | 4 | `nsi.com.na` |  | 200 | wikidata | Namibian Standards Institution |
+| 4 | `unam.edu.na` | central |  | academia | University of Namibia |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Namibia |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Windhoek |
 | 3 | `ghanahighcommission-namibia.com` | central | ConnectEx... | wikidata | high commission of Ghana in Namibia |

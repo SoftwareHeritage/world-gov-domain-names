@@ -30,12 +30,13 @@
 
 ## Proposed domains ranked by score
 
-31 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+36 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `diplocam.cm` | central | 301 | wikidata;wikidata | Ministry of External Relations |
+| 7 | `ins-cameroun.cm` | central | 200 | wikidata;academia | Cameroon's National Institute of Statistics |
 | 7 | `minader.cm` | central | 301 | wikidata;wikidata | Ministry of Agriculture and rural development |
 | 7 | `minas.cm` | central | SSLHandsh... | wikidata;wikidata | Ministry of Social Affairs |
 | 7 | `minedub.cm` | central | SSLHandsh... | wikidata;wikidata | Ministry of Basic Education |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `archivesnationales.cm` |  | 200 | wikidata | National Archives of Cameroon |
 | 4 | `assnat.cm` | central | ConnectEx... | wikidata | National Assembly of Cameroon |
 | 4 | `ccousp.cm` |  | 302 | wikidata | Q109056172 |
-| 4 | `cnls.cm` |  | 200 | wikidata | Comité National de Lutte contre le SIDA |
 

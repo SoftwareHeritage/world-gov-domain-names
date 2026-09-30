@@ -30,12 +30,13 @@
 
 ## Proposed domains ranked by score
 
-11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `dna.sr` | central | 301 | wikidata;wikidata | National Assembly |
+| 6 | `statistics-suriname.org` | central | 200 | wikidata;academia | General Bureau of Statistics |
 | 4 | `cbvs.sr` |  | 523 | wikidata | Centrale Bank van Suriname |
 | 4 | `eas.sr` |  | HttpTimeo... | wikidata | Energie Autoriteit Suriname |
 | 4 | `kkf.sr` |  | 301 | wikidata | Chamber of Commerce and Factories |
@@ -43,7 +44,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `politie.sr` |  | 200 | wikidata | Korps Politie Suriname |
 | 4 | `sbb.sr` |  | 200 | wikidata | Q126371676 |
 | 3 | `nccr.sr.org` |  | ConnectEx... | wikidata | National Coordination Center for Disaster Relief of Suriname |
-| 3 | `statistics-suriname.org` | central | 200 | wikidata | General Bureau of Statistics |
+| 3 | `nzcs.uvs.edu` | central |  | academia | National Zoological Collection of Suriname |
 | 3 | `surguychamber.org` |  | 200 | wikidata | Suriname-Guyana Kamer van Koophandel |
 | 3 | `taalunie.org` |  | 200 | wikidata | Dutch Language Union |
 

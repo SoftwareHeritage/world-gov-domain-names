@@ -29,7 +29,7 @@
 
 ## Proposed domains ranked by score
 
-15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,6 +42,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `gnu.rep.kp` |  | HttpConne... | wikidata | Korean Central Broadcasting Committee |
 | 4 | `gpsh.edu.kp` |  | HttpConne... | wikidata | Grand People’s Study House |
 | 4 | `minzu.rep.kp` | central | HttpConne... | wikidata | Cabinet of North Korea |
+| 4 | `ryomyong.edu.kp` | central |  | academia | Pyongyang Medical University |
 | 3 | `chondjin.mid.ru` |  | SSLHandsh... | wikidata | Consulate of Russia in North Korea |
 | 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Pyongyang |
 | 3 | `misiones.cubaminrex.cu` | central | SSLHandsh... | wikidata | embassy of Cuba in Pyongyang |

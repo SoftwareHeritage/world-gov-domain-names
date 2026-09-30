@@ -30,12 +30,13 @@
 
 ## Proposed domains ranked by score
 
-3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+4 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in Papua New Guinea | Taipei Economic Off... |
+| 4 | `upng.ac.pg` | central |  | academia | University of Papua New Guinea |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Papua New Guinea |
 | 3 | `pg.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port Moresby |
 

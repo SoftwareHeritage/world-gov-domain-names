@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-148 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+157 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,8 +41,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `mnl.gov.hu` |  | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Magyar Nemzeti Levéltár Pest Megyei Levéltára | National Archives of Hungary ... |
 | 7 | `ahkungarn.hu` |  | 302 | wikidata;wikidata | German-Hungarian Chamber of Industry and Commerce |
 | 7 | `birosag.hu` |  | SSLHandsh... | wikidata;wikidata | Q140998828 | National Court Office |
-| 7 | `ksh.hu` | central | SSLHandsh... | wikidata;wikidata | Hungarian Central Statistical Office | Official Statistical Service |
 | 7 | `kuria-birosag.hu` | central | SSLHandsh... | wikidata;wikidata | Supreme Court of Hungary |
+| 7 | `nodik.hu` | central | ConnectEx... | wikidata;academia | Q18559139 |
 | 7 | `parlament.hu` | central | SSLHandsh... | wikidata;wikidata;wikidata | National Assembly | Office of the National Assembly |
 | 7 | `piarista.hu` |  | 200 | wikidata;wikidata | piarist province of Hungary |
 | 7 | `police.hu` |  | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | National Bureau of Investigation | Baranya  County Police Headquarters | Komá... |

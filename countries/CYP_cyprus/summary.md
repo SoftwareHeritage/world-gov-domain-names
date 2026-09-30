@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-33 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+34 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,6 +47,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ocecpr.ee.cy` |  | 200 | wikidata | Commissioner of Electronic Communications and Postal Regulation |
 | 4 | `pi.ac.cy` |  | ConnectEx... | wikidata | Cyprus Pedagogical Institute |
 | 4 | `resecfund.org.cy` |  | 200 | wikidata | Renewable Energy Sources (RES) and Energy Conservation (EC) Fund |
+| 4 | `ucy.ac.cy` | central |  | academia | University of Cyprus |
 | 4 | `unesco.org.cy` |  | 200 | wikidata | Cyprus National Commission for UNESCO |
 | 4 | `wbl.com.cy` |  | ConnectEx... | wikidata | Water Board of Lemesos |
 | 3 | `cy.ambafrance.org` | central | 301 | wikidata | Embassy of France, Nicosia |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `cyprus.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Cyprus |
 | 3 | `cyprus.representation.ec.europa.eu` |  | 302 | wikidata | European Commission Representation in Cyprus |
 | 3 | `cypruspost.post` |  | 513 | wikidata | Cyprus Postal Services |
-| 3 | `finlandabroad.fi` | central | 301 | wikidata | embassy of Finland in Cyprus |
 

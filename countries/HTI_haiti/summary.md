@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,6 +42,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `brh.ht` |  | ConnectEx... | wikidata | Bank of the Republic of Haiti |
 | 4 | `cephaiti.ht` | central | 200 | wikidata | Provisional Electoral Council |
 | 4 | `pnh.ht` | central | HttpConne... | wikidata | Haitian National Police |
+| 4 | `ueh.edu.ht` | central |  | academia | Q1205322 |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Haiti |
 | 3 | `ht.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port-au-Prince |
 | 3 | `ihsi.ayiti.digital` | central | SSLHandsh... | wikidata | Institut Haïtien de Statistique et d'Informatique |

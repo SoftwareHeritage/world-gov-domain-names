@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,6 +40,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nac.org.kh` | central | 200 | wikidata | National Assembly |
 | 4 | `nbc.org.kh` | central | HttpConne... | wikidata | National Bank of Cambodia |
 | 4 | `necelect.org.kh` |  | ConnectEx... | wikidata | National Election Committee of Cambodia |
+| 4 | `niph.org.kh` | central |  | academia | National Institute of Public Health |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Cambodia |
 | 3 | `embrusscambodia.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia, Phnom Penh |
 | 3 | `kh.ambafrance.org` | central | 301 | wikidata | Embassy of France, Phnom Penh |

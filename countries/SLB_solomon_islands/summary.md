@@ -30,10 +30,11 @@
 
 ## Proposed domains ranked by score
 
-1 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+2 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 4 | `cbsi.com.sb` | central | 301 | wikidata | Central Bank of Solomon Islands |
+| 3 | `usp.ac.fj` | central |  | academia | University of the South Pacific |
 

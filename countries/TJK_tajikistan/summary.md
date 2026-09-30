@@ -37,6 +37,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 |------:|----------|-------|------|---------|-------|
 | 7 | `maorif.tj` | central | 200 | wikidata;wikidata | Ministry of Education and Science of Tajikistan |
 | 7 | `mort.tj` | central | SSLHandsh... | wikidata;wikidata | Ministry of Defence |
+| 7 | `stat.tj` | central | 301 | wikidata;academia | TAJSTAT |
 | 7 | `vfarhang.tj` | central | SSLHandsh... | wikidata;wikidata | Ministry of Culture of Tajikistan |
 | 6 | `constcourt.tj` | central | 200 | wikidata | Constitutional Court of Tajikistan |
 | 6 | `president.tj` |  | 200 | un_desa | UN/DESA national portal |
@@ -47,7 +48,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `majmilli.tj` | central | 200 | wikidata | National Assembly of Tajikistan |
 | 4 | `mitas.tj` |  | SSLHandsh... | wikidata | Institute of Mathematics National Academy of Science of Tajikistan |
 | 4 | `nbt.tj` |  | 302 | wikidata | National Bank of Tajikistan |
-| 4 | `stat.tj` | central | 301 | wikidata | TAJSTAT |
 | 3 | `duschanbe.diplo.de` | central | 200 | wikidata | embassy of Germany, Dushanbe |
 | 3 | `dushanbe.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Tajikistan |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Tajikistan |

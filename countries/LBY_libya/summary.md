@@ -36,9 +36,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 8 | `parliament.ly` | central | 200 | wikidata;wikidata | House of Representatives |
+| 7 | `bsc.ly` | central | 200 | wikidata;academia | Bureau of Statistics and Census Libya |
 | 7 | `hnec.ly` | central | HttpTimeo... | wikidata;wikidata;wikidata | High National Election Commission |
 | 4 | `aonsrt.ly` |  | 301 | wikidata | Q125912040 |
-| 4 | `bsc.ly` | central | 200 | wikidata | Bureau of Statistics and Census Libya |
 | 4 | `lccrc.ly` |  | 200 | wikidata | Libyan Climate Change Research Center |
 | 4 | `lsrss.com.ly` |  | 200 | wikidata | Libyan Society for Research and Scientific Studies |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Tripoli |

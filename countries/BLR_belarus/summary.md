@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-34 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+50 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,16 +43,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `region.grodno.by` | central-1 | 301 | wikidata;wikidata;wikidata | Hrodna Regional Executive Committee | Hrodna Regional Council of Deputies |
 | 6 | `pijarzy.pl` |  | 200 | wikidata;wikidata | Piarist province of Poland |
 | 6 | `supcourt.by` | central | ConnectEx... | wikidata | Supreme Court of Belarus |
+| 4 | `belniig.by` | central |  | academia | Scientific and Practical Center of the National Academy of Sciences of Belaru... |
+| 4 | `bgam.by` | central |  | academia | Belarusian State Academy of Music |
+| 4 | `biobel.by` | central |  | academia | Scientific-Practical Center National Academy of Sciences of Belarus on biores... |
+| 4 | `bsu.by` | central |  | academia | Belarusian State University |
 | 4 | `cci.by` |  | 301 | wikidata | Belarusian Chamber of Commerce and Industry |
+| 4 | `cricuwr.by` | central |  | academia | Central Research Institute for the Integrated Use of Water Resources |
+| 4 | `economics.basnet.by` | central |  | academia | Institute of Economics of the National Academy of Sciences of Belarus |
 | 4 | `embavenez.by` | central | ConnectEx... | wikidata | Embassy of Venezuela, Minsk |
+| 4 | `en.grsu.by` | central |  | academia | Yanka Kupala State University of Grodno |
 | 4 | `fond.bas-net.by` |  | 200 | wikidata | Belarusian Republican Foundation for Fundamental Research |
 | 4 | `gomel-region.by` | central-1 | ConnectEx... | wikidata | Homel Regional Council of Deputies |
-| 4 | `minszk.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Minsk |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Minsk |
-| 4 | `narb.by` |  | 302 | wikidata | National Archives of Belarus |
-| 4 | `nca.by` |  | 200 | wikidata | Q137565559 |
-| 4 | `nlb.by` |  | 200 | wikidata | National Library of Belarus |
-| 4 | `nunciature.catholic.by` | central | SSLHandsh... | wikidata | Apostolic Nunciature to Belarus |
-| 4 | `pl.instpol.by` |  | 301 | wikidata | Polish Institute in Minsk |
-| 4 | `tajembassy.by` | central | 200 | wikidata | embassy of Tajikistan in Belarus |
+| 4 | `grsu.by` | central |  | academia | Yanka Kupala State University of Grodno |
 

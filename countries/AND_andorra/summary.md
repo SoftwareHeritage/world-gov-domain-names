@@ -30,13 +30,15 @@
 
 ## Proposed domains ranked by score
 
-27 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+28 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `cultura.ad` | central | SSLHandsh... | wikidata;wikidata | National Archives of Andorra | Andorra National Library |
 | 7 | `educacio.ad` | central | SSLHandsh... | wikidata;wikidata | Ministry of Education and Higher Education of Andorra |
+| 7 | `estadistica.ad` | central | SSLHandsh... | wikidata;academia | Departament d'Estadística |
+| 7 | `estadistica.desenvolupament.ad` | central | SSLHandsh... | wikidata;academia | Departament d'Estadística |
 | 7 | `exteriors.ad` | central | SSLHandsh... | wikidata;wikidata | Ministry of Foreign Affairs |
 | 7 | `finances.ad` | central | SSLHandsh... | wikidata;wikidata | Ministry of Finance of Andorra |
 | 7 | `mobilitat.ad` | central | 301 | wikidata;wikidata | Ministry of Territorial Planning of Andorra |
@@ -51,8 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cea.ad` |  | 200 | wikidata | Confederació Empresarial Andorrana |
 | 4 | `comuencamp.ad` | central-1 | 301 | wikidata | Q117808860 |
 | 4 | `comusantjulia.ad` | central-1 | 301 | wikidata | Q105488867 |
-| 4 | `estadistica.ad` | central | SSLHandsh... | wikidata | Departament d'Estadística |
-| 4 | `estadistica.desenvolupament.ad` | central | SSLHandsh... | wikidata | Departament d'Estadística |
 | 4 | `policia.ad` |  | SSLHandsh... | wikidata | Police Corps of Andorra |
 | 4 | `saas.ad` |  | 200 | wikidata | Servei Andorrà d’Atenció Sanitària |
 

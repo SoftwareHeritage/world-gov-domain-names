@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-68 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+70 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -50,9 +50,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `nema.go.ug` |  | SSLHandsh... | wikidata;wikidata | National Environment Management Authority of Uganda |
 | 7 | `sti.go.ug` | central | 200 | wikidata;wikidata | Ministry of Science, Technology and Innovation |
 | 6 | `gou.go.ug` |  | SSLHandsh... | un_desa | UN/DESA national portal |
+| 6 | `ubos.org` | central | HttpConne... | wikidata;academia | Uganda Bureau of Statistics |
 | 4 | `bou.or.ug` |  | 200 | wikidata | Bank of Uganda |
 | 4 | `caa.go.ug` |  | 200 | wikidata | Civil Aviation Authority of Uganda |
 | 4 | `cmauganda.co.ug` | central | 200 | wikidata | Capital Markets Authority |
 | 4 | `coctu.go.ug` |  | 200 | wikidata | Coordinating Office for Control of Trypanosomiasis in Uganda |
-| 4 | `dda.or.ug` |  | ConnectEx... | wikidata | Dairy Development Authority |
 
