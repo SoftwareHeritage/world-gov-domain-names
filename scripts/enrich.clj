@@ -461,8 +461,7 @@
   (build-country-map!
    un-desa-map-file ["country_dir" "un_id" "un_name"] "data/un_desa_aliases.csv" "UN/DESA id"
    (fn []
-     (when-let [body (http-get-curl "https://publicadministration.un.org/egovkb/en-us/Data-Center"
-                                    {:timeout 30})]
+     (when-let [body (http-get-curl "https://publicadministration.un.org/egovkb/en-us/Data-Center")]
        (let [pairs (->> (re-seq #"/Data/Country-Information/id/(\d+)-([A-Za-z-]+)" body)
                         (map (fn [[_ id name]] [id name (normalize-name name)]))
                         distinct)
@@ -485,7 +484,7 @@
             (println (str "=== " country-dir " (UN id=" un-id " " un-name ") ==="))
             (let [url (str "https://publicadministration.un.org/egovkb/en-us/Data/Country-Information/id/"
                            un-id "-" un-name)
-                  html (http-get-curl url {:timeout 30})]
+                  html (http-get-curl url)]
               (if (str/blank? html)
                 (err "  fetch failed")
                 (let [portal (second (re-find #"<a href=\"([^\"]+)\">National Portal</a>" html))

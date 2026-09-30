@@ -472,18 +472,16 @@
 (defn http-get-curl
   "GET url with curl (following redirects), for hosts that reject the JVM
   client. Return the body string on a 2xx, nil otherwise; same retry
-  policy as http-get. Options: :timeout (seconds, default 30), :retries
-  (default 3)."
-  ([url] (http-get-curl url {}))
-  ([url {:keys [timeout retries] :or {timeout 30 retries 3}}]
-   (with-retries retries
-     (fn []
-       ;; the status code travels on a last line appended to the body
-       (let [{:keys [exit out]} (proc/sh "curl" "-sL" "--max-time" (str timeout)
-                                         "-A" ua "-w" "\n%{http_code}" url)
-             i    (str/last-index-of (str out) "\n")
-             code (when (and (zero? exit) i) (parse-long (subs out (inc i))))]
-         [code (when i (subs out 0 i))])))))
+  policy as http-get (3 attempts), 30 s per attempt."
+  [url]
+  (with-retries 3
+    (fn []
+      ;; the status code travels on a last line appended to the body
+      (let [{:keys [exit out]} (proc/sh "curl" "-sL" "--max-time" "30"
+                                        "-A" ua "-w" "\n%{http_code}" url)
+            i    (str/last-index-of (str out) "\n")
+            code (when (and (zero? exit) i) (parse-long (subs out (inc i))))]
+        [code (when i (subs out 0 i))]))))
 
 (defn truncate [s n]
   (if (> (count s) n) (str (subs s 0 (- n 3)) "...") s))
