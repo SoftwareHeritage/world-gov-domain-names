@@ -13,7 +13,7 @@
               :task (apply shell "bb scripts/pipeline.clj report" *command-line-args*)}
   indegree   {:doc  "link-graph in-degree (eu-plus-government-scans) -> sources/linkgraph/"
               :task (apply shell "bb scripts/pipeline.clj indegree" *command-line-args*)}
-  forges     {:doc  "forge/catalog detection for swh-sopc-data-sources -- run 'bb forges help'"
+  forges     {:doc  "forges unknown to Software Heritage, source-code catalog leads -- run 'bb forges help'"
               :task (apply shell "bb scripts/detect-forges.clj" *command-line-args*)}
   directories {:doc  "official directories of public bodies: 'registry' -> sources/<registry>/registered.csv, 'candidates' -> sources/directory/orgs.csv -- run 'bb directories help'"
                :task (apply shell "bb scripts/detect-from-directories.clj" *command-line-args*)}

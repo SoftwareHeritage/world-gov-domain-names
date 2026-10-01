@@ -157,36 +157,90 @@ harvested data of this repository but serves the Software Heritage
 catalog goal of [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]], not the email-domain goal.
 
 #+begin_src bash
-  bb forges forges                              # forge-looking hosts -> data/forge-candidates.csv
-  bb forges forges-swh [github-orgs]            # forge targets unknown to SWH -> data/forge-unknown-swh.csv
-  bb forges forges-probe                        # re-probe forge-unknown-swh.csv (type + accessibility)
+  bb forges scan                                # discover forges, keep those unknown to SWH -> data/forge-unknown-swh.csv
+  bb forges scan COUNTRY…                       # the same for these countries only
+  bb forges scan recheck                        # no discovery: recheck the forges of the file and of known-forges.csv
+  bb forges scan TARGET…                        # recheck these targets only
+  bb forges catalogs [COUNTRY…]                 # hosts that look like a source-code catalog -> data/catalog-candidates.csv
   bb forges github-orgs                         # GitHub governments.yml -> data/github-gov-orgs.csv
 #+end_src
 
-=forges-swh= checks forge targets against the Software Heritage
-origin-search API and keeps those the archive does not know yet.
-Targets are the harvested hosts of =data/forge-candidates.csv= plus
-the curated forges of =data/known-forges.csv= (seeded from the
-swh-sopc-data-sources catalog list); the source-code catalogs of
-=data/known-catalogs.csv= only point at code hosted elsewhere, so they
-are kept for reference but not searched. With the
-=github-orgs= argument, the organizations of
-=data/github-gov-orgs.csv= (from GitHub's community-maintained
-=governments.yml=, fetched by =bb forges github-orgs=, plus the local
-additions of =data/github-gov-orgs-extra.csv=) are checked
-too. Only the origins hosted on the target (or a subdomain of it)
-count as hits: the API matches URL tokens, not substrings. The
-anonymous API is rate-limited (the command paces itself); set
-=SWH_TOKEN= to authenticate and go faster -- recommended for the
-~1000-org =github-orgs= sweep. Targets whose lookup failed stay in the
-output with the note =SWH API error= instead of being dropped.
+=scan= writes the government forges the Software Heritage archive
+does not know yet to =data/forge-unknown-swh.csv=
+(=target,country,kind,source,forge_type,http_status,note=), in three
+steps.
 
-Each unknown target is then probed over HTTPS (curl =-ksL=) to record
-the forge software sniffed from its homepage (=forge_type=), the final
-HTTP status code (=http_status=, =000= when unreachable) and a short
-diagnostic (=note=: DNS failure, timeout, WAF, default page,
-cross-host redirect). =forges-probe= refreshes those three columns in
-place without re-querying the SWH API.
+/Discover./ It fetches the homepage of every host under a confirmed
+=central= or =central-1= domain (curl =-ksL=, one request) and matches
+the response headers, cookies and page against strict per-software
+signatures (GitLab, Gitea, Forgejo, Gogs, GitHub Enterprise,
+Bitbucket, Azure DevOps, Gerrit, Phabricator, Tuleap, FusionForge,
+Redmine, Trac, cgit, gitweb, hgweb, Subversion…); a homepage
+redirecting to an organization on a public forge counts too. The
+hosts that stay ambiguous -- a forge-like name, or a root answering
+401, 403 or 404, WAF pages excepted -- are asked a dozen well-known
+endpoints on a single connection: version APIs that answer even
+behind a login (=/api/v4/version=, =/api/v1/version=…) and the usual
+sub-paths (=/gitlab/=, =/git/=, =/cgit/=…). Hosts the harvest found
+closed (connection timeout or refusal) are skipped unless their name
+hints at a forge; the ones it could not resolve are tried again, one
+in ten answering after all. The
+discovery runs 64 curl processes (=PARALLEL=) over the hosts in random
+order and resolves names through DNS-over-HTTPS (=DOH_URL=), the
+system resolver dropping most lookups at that rate: about one hour for
+the ~140 000 hosts.
+
+/Collect./ The candidates are the hosts a forge was found on (=source=
+=scan=), the hand-kept forges of =data/known-forges.csv= (=curated=:
+the ones the discovery cannot reach, most sitting on domains outside
+the harvest), the rows already in the file and, with the =github-orgs=
+argument, the organizations of =data/github-gov-orgs.csv= (from
+GitHub's community-maintained =governments.yml=, fetched by =bb forges
+github-orgs=, plus the local additions of
+=data/github-gov-orgs-extra.csv=). The source-code catalogs of
+=data/known-catalogs.csv= only point at code hosted elsewhere, so they
+are kept for reference but not searched.
+
+/Check./ Each candidate is looked up in the Software Heritage
+origin-search API and kept when the archive has no origin on it. Only
+the origins hosted on the target (or a subdomain of it) count: the API
+matches URL tokens, not substrings. The anonymous API is rate-limited
+(the command paces itself); set =SWH_TOKEN= to authenticate and go
+faster -- recommended for the ~1000-org =github-orgs= sweep. A
+candidate whose lookup failed stays in the output with the note =SWH
+API error=. Each row carries the forge software (=forge_type=,
+=unknown= for a curated forge that shows none), the HTTP code of the
+homepage (=http_status=, =000= when unreachable) and a short
+diagnostic (=note=: DNS failure, timeout, WAF, cross-host redirect,
+sub-path the forge was found at).
+
+Arguments narrow a run, the rows left out being kept as they are:
+country dirs limit the discovery to these countries, =recheck= skips
+it (a few minutes: after an archival, say) and a name with a dot is a
+target to recheck alone; countries and targets do not mix. A
+discovered host where no forge shows any more loses its row; when it
+does not answer, or answers with a server error, it keeps it, with
+the forge seen before. The file is left untouched when no host answers
+the discovery.
+
+=catalogs= looks for source-code catalogs: portals pointing at code
+hosted elsewhere (=code.gouv.fr=, =developers.italia.it=…), which run
+no forge software to fingerprint. It fetches the homepage of the same
+hosts as the discovery of =scan= (one request each, about an hour for
+every country) and keeps a host as a lead when its homepage answers
+2xx, shows no forge, and either its first label hints at a catalog
+(=code.*=, =opensource.*=, =oss.*=, =developers.*=,
+=softwarepublico.*=…), or the
+page links to five organizations or repositories on public forges, or
+it uses two of four vocabularies (open source, public software, source
+code, repositories, in a few languages). Leads go to
+=data/catalog-candidates.csv=
+(=hostname,country,title,forge_links,keywords=), one row per page:
+www twins and mirrors of a page keep the shortest hostname. The hosts
+of =data/known-catalogs.csv= and =data/known-forges.csv= are left out;
+the confirmed leads are to be added to =known-catalogs.csv= by hand.
+With country dirs as arguments, only these are fetched and the rows of
+the other countries are kept.
 
 =domains= derives, from the central+ scope (the confirmed =central=
 and =central-1= domains of UN members and observers), the match
@@ -262,7 +316,8 @@ central government plus the first subdivision tier and nothing below:
 | =FORCE=     | overwrite existing outputs; re-probe every host (=probe=, =mx=, =probe-roots=, =probe-proposed=); refetch a country's metadata row | =0= |
 | =PARALLEL=  | concurrent requests (fetch / probe)             | varies  |
 | =TIMEOUT=   | HTTPS request timeout (probe), seconds          | =5=       |
-| =SWH_TOKEN= | SWH API bearer token (=forges-swh=)               | unset   |
+| =SWH_TOKEN= | SWH API bearer token (=bb forges scan=)           | unset   |
+| =DOH_URL=   | DNS-over-HTTPS resolver (=bb forges scan=, =catalogs=); empty: system resolver | =https://1.1.1.1/dns-query= |
 | =CONC_WIKIDATA=, =CONC_IANA=, =CONC_CIA=, =CONC_UN_DESA=, =CONC_META= | countries processed in parallel by each enrichment source | 3, 4, 8, 4, 4 |
 
 * Scoring (propose)
