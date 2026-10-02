@@ -246,11 +246,9 @@ the other countries are kept.
 and =central-1= domains of UN members and observers), the match
 policy as a single table,
 =data/public-sector-domains-central+-policy.csv=
-(=domain,kind,country,level=): =subtree= is a domain and everything
-below it, =exact= a domain alone (nothing below it), =exclude= a
-domain and everything below it to keep out; =level= is the tier of
-the row's domain (=local= on an =exclude= row, blank when it comes
-from =excluded.csv=). When a host falls under several rows
+(=domain,kind,country=): =subtree= is a domain and everything below
+it, =exact= a domain alone (nothing below it), =exclude= a domain and
+everything below it to keep out. When a host falls under several rows
 (=campinas.sp.gov.br= is under =gov.br= subtree and under =sp.gov.br=
 exact), the most specific one, the longest domain, decides. This is
 the file downstream pipelines such as

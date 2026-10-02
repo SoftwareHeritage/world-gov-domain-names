@@ -63,17 +63,16 @@ Two ready-to-use CSV files, covering UN members and observers only:
   region, languages and GDP.
 - =data/public-sector-domains-central+-policy.csv= -- the central
   government plus the first administrative tier below it (Land, state,
-  region…) as a match policy table, =domain,kind,country,level=:
-  =subtree= is a domain and everything below it (=gouv.fr=), =exact= a
-  domain alone (=sp.gov.br=), =exclude= a domain and everything below
-  it to keep out (=abingdon.gov.uk=); =level= is the tier of the
-  domain, =central=, =central-1= or =local=. When a host falls under
-  several rows, the most specific one (the longest domain) decides, so
-  any regex engine or none can apply it. Every =subtree= and =exact=
-  row is a confirmed domain: nothing enters without being confirmed,
-  by an official registry or by hand. Unconfirmed central-1 hosts stay
-  in =proposed.csv=, the curation worklist. The rows with =kind=
-  other than =exclude= are the short list of email domains to watch.
+  region…) as a match policy table, =domain,kind,country=: =subtree=
+  is a domain and everything below it (=gouv.fr=), =exact= a domain
+  alone (=sp.gov.br=), =exclude= a domain and everything below it to
+  keep out (=abingdon.gov.uk=). When a host falls under several rows,
+  the most specific one (the longest domain) decides, so any regex
+  engine or none can apply it. Every =subtree= and =exact= row is a
+  confirmed domain: nothing enters without being confirmed, by an
+  official registry or by hand. Unconfirmed central-1 hosts stay in
+  =proposed.csv=, the curation worklist. The rows with =kind= other
+  than =exclude= are the short list of email domains to watch.
 
 ** Per-country data (=countries/<ISO3>_<slug>/=)
 
@@ -219,7 +218,7 @@ If you know the public administration of a country, you can help
 verify that our inclusions and exclusions are right:
 
 - =data/public-sector-domains-central+-policy.csv= -- are the
-  =central= and =central-1= rows really the central government and the
+  =subtree= and =exact= rows really the central government and the
   first tier below it?
 - =countries/<ISO3>_<slug>/proposed.csv= and =summary.md= -- did we
   miss or misclassify domains? A confirmed domain is one line added to

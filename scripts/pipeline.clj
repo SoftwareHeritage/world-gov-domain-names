@@ -1101,15 +1101,14 @@
 (defn cmd-domains
   "Write the match policy table
   data/public-sector-domains-central+-policy.csv
-  (domain,kind,country,level) from the confirmed central and central-1
+  (domain,kind,country) from the confirmed central and central-1
   domains: `subtree` covers a domain and everything below it, `exact`
   a domain alone, `exclude` keeps a domain and everything below it
   out; the longest matching domain decides. A central-1 domain
   directly under a central root becomes an exact row, a local or
   excluded label under one an exclude row, and a domain a root already
-  covers is dropped. level is the tier of the row's domain, blank for
-  a row from excluded.csv. A domain confirmed in several countries gets
-  one row, for the first country in ASCII order."
+  covers is dropped. A domain confirmed in several countries gets one
+  row, for the first country in ASCII order."
   [_]
   (let [rows (central-plus-rows)
         excl (local-labels)
@@ -1117,7 +1116,6 @@
         apexes (set (for [[[c root] labels] c1-under
                           label labels]
                       [c (str label "." root)]))
-        level-of (into {} (for [[c d level] (confirmed-rows)] [[c d] level]))
         ;; Same-domain rows across countries keep the union of
         ;; exclusions; a domain that is an apex in any country stays
         ;; an apex.
@@ -1148,9 +1146,9 @@
                                                  :let [ld (str l "." d)]
                                                  :when (not (apex-domains ld))]
                                              [ld "exclude"]))]
-                      [dom kind c (get level-of [c dom] "")])
+                      [dom kind c])
                     (sort-by (juxt first second)))]
-    (write-csv-file policy-file ["domain" "kind" "country" "level"] policy)
+    (write-csv-file policy-file ["domain" "kind" "country"] policy)
     (println (str "Wrote " policy-file " (" (count policy) " rows: "
                   (count (filter #(= "central" (nth % 2)) rows)) " central + "
                   (count (filter #(= "central-1" (nth % 2)) rows)) " central-1 domains in scope)"))))
