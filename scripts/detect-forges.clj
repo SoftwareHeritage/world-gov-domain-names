@@ -11,6 +11,9 @@
 ;; Usage: bb scripts/detect-forges.clj <command> [args…]
 ;;   scan [recheck] [github-orgs] [COUNTRY…|TARGET…]
 ;;                      forges unknown to SWH -> data/forge-unknown-swh.csv
+;;                      and, with a contact email when one shows on
+;;                      the site or on the pages it links to, the
+;;                      gitignored data/forge-unknown-swh-with-emails.csv
 ;;                      (recheck or targets: no discovery, the forges of
 ;;                      the file and of known-forges.csv only)
 ;;   catalogs [COUNTRY…]
@@ -333,6 +336,127 @@
                        single-line)}))
 
 ;; ---------------------------------------------------------------------------
+;; Contact -- an email address to reach the forge's administrators
+;; ---------------------------------------------------------------------------
+;; The homepage, the few pages it links to that look like a contact,
+;; about, legal-notice or help page on the same host, and the
+;; security.txt of the host (RFC 9116). Leads for a human: the first
+;; address is the most likely one, mailto: links before addresses in
+;; the text, the homepage before the linked pages.
+
+(def contact-link-pattern
+  #"(?i)contact|kontakt|contatt|about|a-?propos|impressum|imprint|mentions?-?l[eé]gales?|legal|help|aide|support|hilfe|ayuda|ajuda|accessibilit|faq|\bteam\b|\b[eé]quipe")
+
+(def email-pattern
+  #"(?i)\b[a-z0-9][a-z0-9._%+-]*@(?:[a-z0-9-]+\.)+[a-z]{2,}\b")
+
+;; Asset names read as addresses: logo@2x.png, jquery@3.6.0.min.js.
+(def asset-extensions
+  #{"png" "jpg" "jpeg" "gif" "svg" "webp" "ico" "js" "mjs" "css" "json" "map"
+    "woff" "woff2" "ttf" "eot" "html" "htm" "txt" "xml" "pdf" "mp4" "webm" "min"})
+
+;; Placeholders, automated senders, SSH clone URLs (git@host:…) and the
+;; projects behind the forge software (the about page of a Forgejo
+;; links security@forgejo.org).
+(def email-noise-pattern
+  #"(?i)^(?:no-?reply|do-?not-?reply|example|user|you|yourname|someone|name|test|john\.?doe|jane\.?doe|git)@|@(?:example|test|sentry|localhost|domain|email|yourdomain|mydomain|company|site|host)\.|@(?:w3|schema|forgejo|redmine|tuleap|phabricator|gerritcodereview)\.org$|@(?:gitea|gogs)\.(?:io|com)$|@(?:about\.)?(?:gitlab|github|bitbucket|atlassian|microsoft)\.(?:com|org)$")
+
+(def max-contact-pages 6)
+
+;; Hosts whose pages say nothing about the forge's administrators: the
+;; public forges a target or a redirect lands on, and SSO portals.
+(def foreign-host-pattern
+  #"(?i)^(?:www\.)?(?:github\.com|gitlab\.com|bitbucket\.org|codeberg\.org|sourceforge\.net)$|\.microsoftonline\.com$")
+
+(defn- decode-at
+  "s with its encoded @ and . (mailto: links obfuscate them) decoded,
+  and the \\uXXXX escapes of embedded JSON blanked: \\u003efoo@bar
+  would read as u003efoo@bar."
+  [s]
+  (-> (str s)
+      (str/replace #"(?i)%40|&#0*64;|&#x0*40;|&commat;" "@")
+      (str/replace #"(?i)%2e|&#0*46;|&#x0*2e;|&period;" ".")
+      (str/replace #"(?i)\\u[0-9a-f]{4}" " ")))
+
+(defn- clean-email?
+  "True when email is neither an asset name nor a placeholder."
+  [email]
+  (and (not (contains? asset-extensions (last (str/split email #"\."))))
+       (not (re-find email-noise-pattern email))))
+
+(defn page-emails
+  "{:mailto [...] :text [...]} of the addresses on an HTML page: the
+  targets of its mailto: links, then every address in its text,
+  lower-cased, distinct, the noise (clean-email?) dropped."
+  [text]
+  (let [text    (decode-at text)
+        emails  (fn [strings]
+                  (->> strings
+                       (mapcat #(re-seq email-pattern %))
+                       (map str/lower-case)
+                       (filter clean-email?)
+                       distinct))]
+    {:mailto (emails (map second (re-seq #"(?i)mailto:([^\"'?&<>\s]+)" text)))
+     :text   (emails [text])}))
+
+(defn- page-host
+  "The lower-cased host of url, nil when it has none."
+  [url]
+  (some-> (re-find #"(?i)^https?://([^/:?#]+)" (str url)) second str/lower-case))
+
+(defn contact-links
+  "The URLs of the links of an HTML page at base-url whose target or
+  text matches contact-link-pattern and that stay on the hosts (a
+  set), distinct and in page order, at most max-contact-pages."
+  [base-url text hosts]
+  (let [base (try (java.net.URI. (str base-url)) (catch Exception _ nil))]
+    (->> (re-seq #"(?is)<a\s[^>]*?href\s*=\s*[\"']([^\"'#]+)[\"'][^>]*>(.*?)</a>" text)
+         (keep (fn [[_ href anchor]]
+                 (when (and base
+                            (not (re-find #"(?i)^(?:mailto|tel|javascript):" href))
+                            (re-find contact-link-pattern (str href " " (single-line anchor))))
+                   (try (let [url (str (.resolve base (str/trim href)))]
+                          (when (contains? hosts (page-host url))
+                            (str/replace url #"#.*" "")))
+                        (catch Exception _ nil)))))
+         distinct
+         (take max-contact-pages))))
+
+(defn contact!
+  "An email address to reach target's administrators, a few of them
+  ('; ' separated, three at most) when the site shows several, else
+  the empty string: the addresses of the homepage, of the contact-like
+  pages it links to on the host of target or of the page it redirected
+  to, and of the host's security.txt -- the homepage alone when these
+  hosts are foreign (foreign-host-pattern): a github.com/<org> target
+  gives its organization page, nothing more. mailto: links rank before
+  addresses in the text, and the homepage before the linked pages."
+  [target]
+  (let [thost  (str/lower-case (first (str/split target #"/")))
+        {:keys [url text status]} (homepage! target)
+        hosts  (set (remove #(or (nil? %) (re-find foreign-host-pattern %))
+                            [thost (page-host url)]))
+        linked (when (not= status "000")
+                 (contact-links url text hosts))
+        more   (concat linked
+                       (when (contains? hosts thost)
+                         [(str "https://" thost "/.well-known/security.txt")]))
+        pages  (cons text
+                     (when (seq more)
+                       (map :text (curl-pages! more :follow? true))))]
+    (->> pages
+         (map-indexed (fn [i page]
+                        (let [{:keys [mailto text]} (page-emails page)]
+                          (concat (map vector (repeat i) mailto)
+                                  (map vector (repeat (+ 100 i)) text)))))
+         (apply concat)
+         (sort-by first)
+         (map second)
+         distinct
+         (take 3)
+         (str/join "; "))))
+
+;; ---------------------------------------------------------------------------
 ;; Harvested hosts -- what scan and catalogs fetch
 ;; ---------------------------------------------------------------------------
 
@@ -401,6 +525,11 @@
 (def unknown-header
   ["target" "country" "kind" "source" "forge_type" "http_status" "note"])
 
+;; The same rows with a contact column. Email addresses stay out of
+;; git: the file is listed in .gitignore.
+(def emails-file "data/forge-unknown-swh-with-emails.csv")
+(def emails-header (conj unknown-header "contact"))
+
 (defn- fingerprint-or-down!
   "fingerprint!, an exception reported and read as no response."
   [target & opts]
@@ -412,27 +541,32 @@
 (def api-error-note "SWH API error, archival status unknown")
 
 (defn- unknown-row
-  "The unknown-header row of a candidate SWH does not know, given its
-  fingerprint and its previous row in the file, if any. When the host
-  does not answer, or answers with a server error, the forge seen on
-  it before stands. A curated forge or a GitHub organization always
-  has a row, a discovered host only while a forge shows: otherwise
-  nil."
-  [[target country kind source] {:keys [type status note]} previous]
-  (let [seen (nth previous 4 nil)
-        type (or type
-                 (when (and (re-matches #"000|5\d\d" status)
-                            (not (contains? #{nil "" "unknown"} seen)))
-                   seen))]
+  "The emails-header row of a candidate SWH does not know, given its
+  fingerprint (with the :contact found, if looked up) and its previous
+  row in the file, if any. When the host does not answer, or answers
+  with a server error, the forge and the contact seen on it before
+  stand. A curated forge or a GitHub organization always has a row, a
+  discovered host only while a forge shows: otherwise nil."
+  [[target country kind source] {:keys [type status note contact]} previous]
+  (let [seen    (nth previous 4 nil)
+        down?   (re-matches #"000|5\d\d" status)
+        type    (or type
+                    (when (and down? (not (contains? #{nil "" "unknown"} seen)))
+                      seen))
+        contact (if (and down? (str/blank? contact))
+                  (nth previous 7 "")
+                  (str contact))]
     (when (or type (not= source "scan"))
-      [target country kind source (or type "unknown") status note])))
+      [target country kind source (or type "unknown") status note contact])))
 
 (defn cmd-scan
   "Write the forges the SWH archive does not know to
-  data/forge-unknown-swh.csv, with their forge_type/http_status/note.
-  Candidates: the hosts of the central+ scope a fingerprint finds a
-  forge on (scan-targets, about an hour for every country), the curated
-  forges of data/known-forges.csv, the rows already in the file and,
+  data/forge-unknown-swh.csv, with their forge_type/http_status/note,
+  and the same rows with a contact email when one shows (contact!) to
+  the gitignored data/forge-unknown-swh-with-emails.csv. Candidates:
+  the hosts of the central+ scope a fingerprint finds a forge on
+  (scan-targets, about an hour for every country), the curated forges
+  of data/known-forges.csv, the rows already in the file and,
   with the 'github-orgs' argument, data/github-gov-orgs.csv. Each is
   checked against the SWH origin-search API; one whose lookup failed
   is kept with the note 'SWH API error'. Arguments narrow the run, the
@@ -453,7 +587,13 @@
                     (and (or (empty? only) (contains? only target))
                          (or (empty? countries) (contains? countries country)
                              (= source "governments.yml"))))
-        previous  (rest (read-csv-raw unknown-file))
+        ;; the rows of the file, each with the contact of the emails
+        ;; file (absent or stale: the file is not in git)
+        contacts  (into {} (for [[target & more] (rest (read-csv-raw emails-file))]
+                             [target (nth more 6 "")]))
+        previous  (for [[target :as row] (rest (read-csv-raw unknown-file))]
+                    (conj (vec (take (count unknown-header) (concat row (repeat ""))))
+                          (contacts target "")))
         curated   (for [[target country kind _label] (rest (read-csv-raw known-forges-file))
                         :when (contains? #{"forge" "github-org"} kind)]
                     [target country kind "curated"])
@@ -542,21 +682,29 @@
                                   [candidate n])))
                 unknown     (remove (fn [[_ n]] (and n (pos? n))) checked)
                 errors      (count (filter (comp nil? second) unknown))
+                ;; the contact is looked up on the hosts that answer
+                ;; only: unknown-row keeps the previous one otherwise
                 rows        (bounded-pmap
                               (parallel 8)
                               (fn [[[target :as candidate] n]]
-                                (cond-> (row candidate (or (early target) (fingerprint target)))
-                                  (nil? n) (update 6 #(str/join "; " (remove str/blank? [api-error-note %])))))
+                                (let [fp (or (early target) (fingerprint target))
+                                      fp (cond-> fp
+                                           (not= "000" (:status fp))
+                                           (assoc :contact (contact! target)))]
+                                  (cond-> (row candidate fp)
+                                    (nil? n) (update 6 #(str/join "; " (remove str/blank? [api-error-note %]))))))
                               unknown)
                 kept        (remove (comp (set (map first candidates)) first) previous)]
-            (write-csv-file unknown-file unknown-header
-                            (sort-by first (concat kept rows)))
+            (let [all (sort-by first (concat kept rows))]
+              (write-csv-file unknown-file unknown-header
+                              (map #(subvec % 0 (count unknown-header)) all))
+              (write-csv-file emails-file emails-header all))
             (println (str "Wrote " unknown-file " (" (count rows) " forges unknown to SWH of "
                           (count to-check) " checked"
                           (when (pos? errors)
                             (str ", " errors " of them on an API error"))
                           (when (seq kept) (str "; " (count kept) " rows kept"))
-                          ")"))))))))
+                          ") and " emails-file))))))))
 
 ;; ---------------------------------------------------------------------------
 ;; Catalogs -- leads for government source-code catalogs
@@ -653,7 +801,7 @@
             (println (str "Wrote " catalog-file " (" (count rows) " leads on "
                           (count scanned) " hosts"
                           (when (seq kept) (str "; " (count kept) " rows kept"))
-                          ")")))))
+                          ") and " emails-file)))))
     1))
 
 ;; ---------------------------------------------------------------------------
