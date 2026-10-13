@@ -88,7 +88,6 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   (=domain,reason=): rejected proposals (not a public body, a typo…).
   Hand-edited; a domain listed here never comes back in
   =proposed.csv=, and it removes a registry's row of the same domain.
-  Only present where needed.
 - =proposed.csv= -- domains proposed for validation, scored 0 to 10 by
   how many sources agree, with their =level= when known (=central=,
   =central-1= or blank), HTTPS status and MX. Generated.

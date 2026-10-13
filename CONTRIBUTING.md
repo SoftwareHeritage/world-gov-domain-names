@@ -6,21 +6,46 @@ Code](https://stateofpubliccode.org). But understanding how a
 country's administration works is challenging and anyone's help is
 very welcome!
 
-In each `countries/<ISO3>_<slug>/` directory, contributing can happen
-in these ways:
+## Where decisions live
 
-- Going through `proposed.csv` and moving one or several lines to `curated.csv` (the csv containing the manually curated names).
-- Going through `proposed.csv` and moving one or several lines to `excluded.csv` (the csv containing the manually excluded names).
-- Adding an excluded domain in `excluded.csv` directly.
-- Adding a new domain in `curated.csv` directly.
+In each `countries/<ISO3>_<slug>/` directory, two hand-edited files
+carry the decisions:
 
-Never edit `proposed.csv`, `summary.md` or anything under `sources/`:
-they are generated.
+- `curated.csv` contains the confirmed domains, one per line, as
+  `domain,level,name`. `level` is one of `central`, `central-1` (first
+  administrative level below the top one, e.g. state, Land, region)
+  and `local`.
+- `excluded.csv` contains what is out of scope altogether, one full
+  hostname per line, as `domain,reason`.
 
-Then open a merge request, or send a patch to bastien.guerry@inria.fr.
+Never edit `proposed.csv`, `summary.md` or anything under `sources/`
+or `data/`: they are generated.
+
+## How to contribute
+
+- Go through `proposed.csv` (the worklist: each domain with a score
+  and, when known, a level) and confirm a domain by adding one
+  `domain,level,name` line to `curated.csv` or reject it by adding one
+  `domain,reason` line to `excluded.csv`.
+- Add a domain we missed to `curated.csv` directly, or a domain to
+  reject to `excluded.csv` directly.
+
+See the section "Checking the classifications for your country" of the
+[README](README.org) for what is most useful to check, in particular
+for shared roots like `gov.br`.
 
 If you have [Babashka](https://babashka.org) installed, `bb pipeline
-check <ISO3>_<slug>` tells you whether your files are consistent.
+check <ISO3>_<slug>` tells whether your files are consistent (a domain
+both curated and excluded, an unknown level, an invalid hostname).
+
+## Sending your changes
+
+The default repository for receiving contributions is the one on
+[GitHub](https://github.com/SoftwareHeritage/world-gov-domain-names),
+where we expect pull requests. Contributions by email are also
+welcome: send a patch, or simply your list of domains, to
+bastien.guerry@inria.fr. A change only needs to touch `curated.csv` or
+`excluded.csv`.
 
 Commit messages follow [Conventional
 Commits](https://www.conventionalcommits.org/en/v1.0.0/).
