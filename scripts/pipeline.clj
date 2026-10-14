@@ -19,7 +19,8 @@
 ;; Targeted commands (collect):
 ;;   fetch [DOM…]       crt.sh fetch (1+ domains)
 ;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
-;;   normalize          clean every harvest file (sources/harvest/<root>.csv)
+;;   normalize          clean every harvest file (sources/harvest/<root>.csv);
+;;                      a host under two harvested roots stays in the deeper file
 ;;   probe [DOM…]       HTTPS HEAD probe of the harvest rows with empty status
 ;;   mx [DOM…]          DNS MX lookup of the harvest rows -> mx column (email signal)
 ;;   probe-roots [C…]   HTTPS HEAD + MX of the confirmed roots that have no
@@ -308,13 +309,41 @@
         :when dom]
     [dom (single-line (or status "")) (single-line (or mx ""))]))
 
-(defn cmd-normalize [_]
-  (doseq [file (harvest-files)]
-    (let [rows (read-harvest file)
-          before (count rows)]
-      (write-harvest! file (normalize-harvest-rows rows))
-      (println (str "[" (harvest-root file) "] " before " -> "
-                    (count (read-harvest file)))))))
+(defn split-nested
+  "Split the rows of a harvest root among root and the deeper
+  harvested roots of its country: {root rows…}, each row under the
+  longest root it sits on (the apex of a deeper root included). Pure."
+  [root deeper rows]
+  (let [deeper (sort-by (comp - count) deeper)]
+    (group-by (fn [[h]]
+                (or (some #(when (or (= h %) (str/ends-with? h (str "." %))) %) deeper)
+                    root))
+              rows)))
+
+(defn cmd-normalize
+  "Clean every harvest file (normalize-harvest-rows) and move the rows
+  sitting under a deeper harvested root of the same country into that
+  root's file (the hacienda.gob.es rows of gob.es.csv go to
+  hacienda.gob.es.csv), the probes already there winning: a host is
+  probed once, in the file of its longest root."
+  [_]
+  (doseq [c (country-dirs)
+          :let [files (harvest-files c)
+                roots (map harvest-root files)]
+          file files
+          :let [root    (harvest-root file)
+                deeper  (filter #(str/ends-with? % (str "." root)) roots)
+                rows    (read-harvest file)
+                by-root (split-nested root deeper (normalize-harvest-rows rows))
+                moved   (dissoc by-root root)]]
+    (doseq [[r rs] moved
+            :let [f (harvest-file c r)]]
+      (write-harvest! f (concat (read-harvest f) rs)))
+    (write-harvest! file (get by-root root []))
+    (println (str "[" root "] " (count rows) " -> " (count (read-harvest file))
+                  (when (seq moved)
+                    (str ", " (reduce + (map count (vals moved))) " moved under "
+                         (str/join ", " (sort (keys moved)))))))))
 
 ;; ===========================================================================
 ;;  wayback -- the Wayback Machine's CDX index, on demand

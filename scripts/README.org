@@ -48,7 +48,10 @@ only gets its apex probed, by =probe-roots= into
 =sources/probes/roots.csv=.
 
 =fetch= counts an empty crt.sh answer as a failure while the harvest
-holds no host yet (crt.sh answers =[]= when it times out).
+holds no host yet (crt.sh answers =[]= when it times out). When a
+harvested root sits under another one (=hacienda.gob.es= under
+=gob.es=), =normalize= moves its hosts out of the wider file, so each
+host is probed once and =aggregate= reads it once.
 =wayback <root>…= is a second harvester, on demand: every host the
 Wayback Machine ever captured under the root, from its CDX index,
 merged into the same harvest file. Slow (~30 s a page: one page for
@@ -85,7 +88,7 @@ files.
   # collect -- sources/harvest/<root>.csv and sources/probes/roots.csv
   bb scripts/pipeline.clj fetch gov.it gouv.fr  # crt.sh on specific domains
   bb scripts/pipeline.clj retry                 # replay FAILs from last log
-  bb scripts/pipeline.clj normalize             # clean every harvest file (fetch and wayback normalize what they add)
+  bb scripts/pipeline.clj normalize             # clean every harvest file; a host under two harvested roots stays in the deeper file
   bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe of the harvest rows
   bb scripts/pipeline.clj mx gov.it             # DNS MX lookup of the harvest rows -> mx column
   bb scripts/pipeline.clj probe-roots [C…]      # HTTPS + MX of the confirmed roots without a harvest -> sources/probes/roots.csv
