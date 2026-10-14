@@ -801,7 +801,7 @@
             (println (str "Wrote " catalog-file " (" (count rows) " leads on "
                           (count scanned) " hosts"
                           (when (seq kept) (str "; " (count kept) " rows kept"))
-                          ") and " emails-file)))))
+                          ")")))))
     1))
 
 ;; ---------------------------------------------------------------------------

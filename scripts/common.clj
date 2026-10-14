@@ -217,14 +217,16 @@
   (normalize-name (second (str/split country-dir #"_" 2))))
 
 (defn extract-host
-  "https://www.example.com/path -> example.com. Returns nil on blank input."
+  "https://www.example.com/path -> example.com: the host of a URL, www.
+  and port stripped, cut at the path, the query or the fragment. nil on
+  blank input."
   [url]
   (when (and url (not (str/blank? url)))
     (-> url
         str/lower-case
         (str/replace #"^https?://" "")
         (str/replace #"^www\." "")
-        (str/replace #"/.*$" "")
+        (str/replace #"[/?#].*$" "")
         (str/replace #":\d+$" ""))))
 
 (def multi-tlds

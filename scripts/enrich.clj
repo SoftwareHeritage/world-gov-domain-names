@@ -556,8 +556,10 @@
                              (map :path))
              region-by-gec (into {}
                                  (for [p json-paths
-                                       :let [[region file] (str/split p #"/")
-                                             gec (str/replace file #"\.json$" "")]]
+                                       :let [[region file] (str/split p #"/")]
+                                       ;; package.json sits at the root: no region
+                                       :when file
+                                       :let [gec (str/replace file #"\.json$" "")]]
                                    [gec region]))
              pairs (for [[_ gec name] (re-seq #"`([a-z]+)` ([^`\n]+)" summary)]
                      [gec name (normalize-name name)])

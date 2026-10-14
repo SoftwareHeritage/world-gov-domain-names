@@ -549,12 +549,23 @@
 (defn country-hosts
   "[host parent_domain http_status mx] rows of a country: every host of
   its harvest files, plus the unharvested roots with their probes from
-  sources/probes/roots.csv. Sorted by host."
+  sources/probes/roots.csv. A host found in several harvest files (a
+  root harvested under another harvested root: hacienda.gob.es under
+  gob.es) gets one row, with the longest parent and the first non-blank
+  status and mx. Sorted by host."
   [country-dir]
-  (let [harvested (for [file (harvest-files country-dir)
-                        :let [parent (harvest-root file)]
-                        [sub st mx] (read-harvest file)]
-                    [sub parent st mx])
+  (let [harvested (->> (for [file (harvest-files country-dir)
+                             :let [parent (harvest-root file)]
+                             [sub st mx] (read-harvest file)]
+                         [sub parent st mx])
+                       (sort-by #(- (count (second %))))
+                       (reduce (fn [m [sub parent st mx]]
+                                 (update m sub (fn [[p0 s0 m0]]
+                                                 [(or p0 parent)
+                                                  (if (str/blank? s0) st s0)
+                                                  (if (str/blank? m0) mx m0)])))
+                               {})
+                       (map (fn [[sub [parent st mx]]] [sub parent st mx])))
         seen      (set (map first harvested))
         probes    (read-probes country-dir)
         roots     (for [d (unharvested-roots country-dir)
