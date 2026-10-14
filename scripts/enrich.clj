@@ -363,7 +363,8 @@
 
 (defn academia-level
   "Level of a university or research institute, nil when no signal places
-  it: its authorities (operator, parent, owner, jurisdiction and theirs,
+  it or when its authorities place it below the first tier: its
+  authorities (operator, parent, owner, jurisdiction and theirs,
   through juris-level), the national university class, a central
   label, then for a university only the subnational labels (a federal
   district is a first-level subdivision) and the country's default
@@ -376,6 +377,8 @@
         {:keys [default subdiv? state?]} tiers]
     (cond
       (#{"central" "central-1"} auth-level)         auth-level
+      ;; run by a city or a county: out, whatever the label says
+      (= auth-level "local")                        nil
       (= type "national_university")                "central"
       (re-find central-label-pattern label)         "central"
       ;; the place a research institute's label names is where it
@@ -613,8 +616,8 @@
 
 (def cia-header (into ["country_dir"] (map first cia-fields)))
 
-(defn cia-process! [country-dir]
-  (let [map-row (mapping-row factbook-map-file country-dir)]
+(defn cia-process! [gec-of country-dir]
+  (let [map-row (get gec-of country-dir)]
     (if-not map-row
       (err "  [" country-dir "] no Factbook GEC mapping")
       (let [[_ gec region] map-row]
@@ -638,7 +641,7 @@
 
 (defn cmd-cia [args]
   (if (fs/exists? factbook-map-file)
-    (iter-countries cia-process! args conc-cia)
+    (iter-countries (partial cia-process! (mapping-rows factbook-map-file)) args conc-cia)
     (do (err "ERR: " factbook-map-file " missing. Run 'bb pipeline build-gec' first") 1)))
 
 ;; ===========================================================================
@@ -666,8 +669,8 @@
 
 (def un-desa-header ["country_dir" "national_portal" "egdi_rank"])
 
-(defn un-desa-process! [country-dir]
-  (let [map-row (mapping-row un-desa-map-file country-dir)]
+(defn un-desa-process! [un-id-of country-dir]
+  (let [map-row (get un-id-of country-dir)]
     (if-not map-row
       (err "  [" country-dir "] no UN/DESA id mapping")
       (let [[_ un-id un-name] map-row]
@@ -690,7 +693,7 @@
 
 (defn cmd-un-desa [args]
   (if (fs/exists? un-desa-map-file)
-    (iter-countries un-desa-process! args conc-un-desa)
+    (iter-countries (partial un-desa-process! (mapping-rows un-desa-map-file)) args conc-un-desa)
     (do (err "ERR: " un-desa-map-file " missing. Run 'bb pipeline build-un-ids' first") 1)))
 
 ;; ===========================================================================

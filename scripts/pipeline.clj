@@ -124,6 +124,20 @@
         :when (not (str/blank? h))]
     [h (or st "") (or mx "")]))
 
+(defn normalize-host
+  "The host of a harvested name or URL: lowercased, wildcard prefix,
+  scheme, path or query, port and trailing dot stripped; nil when what
+  remains is no valid hostname. fetch and wayback normalize what they
+  add; normalize cleans the files after the fact."
+  [s]
+  (let [h (some-> s str/trim str/lower-case
+                  (str/replace #"^\*\." "")
+                  (str/replace #"^https?://" "")
+                  (str/replace #"[/?#].*$" "")
+                  (str/replace #":\d+$" "")
+                  (str/replace #"\.$" ""))]
+    (when (valid-hostname? h) h)))
+
 (defn write-harvest!
   "Write [host http_status mx] rows to a harvest file: add the apex row,
   keep the first non-blank status and mx per host, sort by host."
@@ -196,9 +210,9 @@
 
 (defn fetch-one!
   "Fetch the subdomains of a harvest file's root from crt.sh and merge
-  them into the file, keeping the probes of known hosts. :ok, or :fail
-  with nothing written -- on an unreadable answer, and on an empty one
-  while the file holds no host yet."
+  them, normalized, into the file, keeping the probes of known hosts.
+  :ok, or :fail with nothing written -- on an unreadable answer, and on
+  an empty one while the file holds no host yet."
   [file]
   (let [domain (harvest-root file)
         url (str "https://crt.sh/?q=%25." domain "&output=json")
@@ -209,8 +223,7 @@
                   (->> (json/parse-string body true)
                        (map :name_value)
                        (mapcat #(str/split-lines (str %)))
-                       (map #(str/replace % #"^\*\." ""))
-                       (filter seq)
+                       (keep normalize-host)
                        distinct
                        vec)               ; realize inside the try: cheshire
                                           ; parses top-level arrays lazily, so a
@@ -285,19 +298,6 @@
 ;; ===========================================================================
 ;;  collect -- normalize
 ;; ===========================================================================
-
-(defn normalize-host
-  "The host of a harvested name or URL: lowercased, wildcard prefix,
-  scheme, path or query, port and trailing dot stripped; nil when what
-  remains is no valid hostname."
-  [s]
-  (let [h (some-> s str/trim str/lower-case
-                  (str/replace #"^\*\." "")
-                  (str/replace #"^https?://" "")
-                  (str/replace #"[/?#].*$" "")
-                  (str/replace #":\d+$" "")
-                  (str/replace #"\.$" ""))]
-    (when (valid-hostname? h) h)))
 
 (defn normalize-harvest-rows
   "Clean [host status mx] rows: normalize-host the host, drop the rows
@@ -614,8 +614,7 @@
     (let [counts (frequencies (map #(nth % 3) rows))]
       (println (str "Wrote " public-sector-file " (" (count rows) " hosts)"))
       (println (str "  UN members: " (get counts "member" 0)
-                    " ; observers: " (get counts "observer" 0)
-                    " ; non-UN: " (get counts "non_un" 0))))))
+                    " ; observers: " (get counts "observer" 0))))))
 
 (defn- central-roots
   "#{[country root]} of the confirmed central domains."
@@ -912,8 +911,8 @@
         (write-proposed-probes! country-dir filled)
         (println (str "[" country-dir "] proposed: " (count todo-http) " probed, "
                       (count todo-mx) " MX looked up ("
-                      (count (filter #(re-matches #"[23]\d\d" (first %)) (vals filled)))
-                      " reachable, " (with-mx-count hosts filled) " with MX)"))))))
+                      (count (filter #(re-matches #"[23]\d\d" (first (get filled %))) todo-http))
+                      " reachable, " (with-mx-count todo-mx filled) " with MX)"))))))
 
 (defn cmd-probe-proposed [args]
   (let [timeout (env-int "TIMEOUT" 5)
@@ -1172,8 +1171,10 @@
   "Compile the decision files of the given countries (all by default).
   ERR and 1 on a domain both curated and excluded, an unknown level, a
   first cell that is not a hostname or a domain curated with two
-  levels; WARN on a domain listed twice with the same level or a
-  curated row a registry already lists at that level."
+  levels; WARN on a domain listed twice with the same level, a
+  curated row a registry already lists at that level or a local or
+  excluded domain more than one label under a central root (the
+  policy table has no exclude row for it)."
   [args]
   (if-let [countries (scoped-countries args)]
     (let [check-country
@@ -1190,13 +1191,25 @@
                       :when (next levels)]
                 (err! d " is curated with two levels (" (str/join ", " levels) ")"))
               (try
-                (confirmed-country c)
-                (let [registered (into {} (for [r (registries c), [d level] (read-registered c r)]
+                (let [confirmed  (confirmed-country c)
+                      level-of   (into {} (for [[d level] confirmed] [d level]))
+                      registered (into {} (for [r (registries c), [d level] (read-registered c r)]
                                             [d [r level]]))]
                   (doseq [[d level name] (read-curated c)
                           :let [[r rlevel] (get registered d)]
                           :when (and (= level rlevel) (str/blank? name))]
-                    (err "WARN: " c ": " d " (" level ") is curated but " r " already lists it")))
+                    (err "WARN: " c ": " d " (" level ") is curated but " r " already lists it"))
+                  ;; the policy table only carves the labels directly under
+                  ;; a central root out of its subtree (labels-under-central);
+                  ;; under a central-1 root (an exact row) everything is out already
+                  (doseq [d (concat (for [[d level] confirmed :when (= level "local")] d)
+                                    (map first (read-excluded c)))
+                          :let [root (some #(when (contains? harvest-levels (level-of %)) %)
+                                           (rest (host-suffixes d)))]
+                          :when (and root (= "central" (level-of root))
+                                     (str/includes? (subs d 0 (- (count d) (count root) 1)) "."))]
+                    (err "WARN: " c ": " d " sits more than one label under " root
+                         " -- no exclude row in the policy table")))
                 (catch clojure.lang.ExceptionInfo e
                   (err! (ex-message e))))
               (zero? @errors)))
@@ -1243,8 +1256,13 @@
   [args]
   (exit-code (cmd-propose args) (cmd-summary args)))
 
-(defn- run-all [args]
-  (exit-code (run-collect args) (enrich/cmd-enrich args) (run-build args) (run-report args)))
+(defn- run-all
+  "The four phases in sequence. No argument: collect would take harvest
+  roots, enrich and report country_dirs."
+  [args]
+  (if (seq args)
+    (do (err "ERR: all takes no argument; run collect, enrich, build or report apart to narrow one") 1)
+    (exit-code (run-collect []) (enrich/cmd-enrich []) (run-build []) (run-report []))))
 
 (def commands
   "{sub-command handler}; a handler's integer result is the exit code."

@@ -10,7 +10,7 @@
             [clojure.java.io :as io]
             [clojure.string :as str]))
 
-(def ua "world-gov-domain-names/0.1 (https://github.com/bzg)")
+(def ua "world-gov-domain-names/0.1 (https://github.com/SoftwareHeritage/world-gov-domain-names)")
 (def force? (= "1" (System/getenv "FORCE")))
 
 (defn env-int [env-name default]
@@ -255,7 +255,12 @@
     (try
       (->> coll
            (mapv #(.submit pool ^Callable (fn [] (g %))))
-           (mapv #(.get ^java.util.concurrent.Future %)))
+           (mapv #(try (.get ^java.util.concurrent.Future %)
+                       ;; rethrow the task's own exception: dispatch reports
+                       ;; an ex-info by its message, and would print a
+                       ;; stack trace for the ExecutionException wrapping it
+                       (catch java.util.concurrent.ExecutionException e
+                         (throw (or (.getCause e) e))))))
       (finally
         ;; cancel the pending tasks when one failed: with a plain shutdown
         ;; the pool would keep running them in the background
@@ -321,11 +326,11 @@
                 :when s]
             [c s]))))
 
-(defn mapping-row
-  "Return the first data row of the CSV at csv-path whose first column equals k, or nil."
-  [csv-path k]
-  (some #(when (= (first %) k) %)
-        (rest (read-csv-raw csv-path))))
+(defn mapping-rows
+  "Read a country_dir -> source id file (data/<source>_<id>.csv) as
+  {country_dir row}; {} when absent."
+  [csv-path]
+  (into {} (for [[c :as row] (rest (read-csv-raw csv-path))] [c row])))
 
 (defn dedup-by-first
   "Keep the first row per first-column value, sorted by first column."

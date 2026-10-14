@@ -852,6 +852,8 @@
   (println)
   (println "Environment variables: SWH_TOKEN, PARALLEL=N, DOH_URL"))
 
-;; Run only as a script, not when loaded from another namespace.
+;; Run only as a script (bb scripts/detect-forges.clj …), not when
+;; load-file'd from a REPL: the hyphen in the file name keeps the
+;; namespace out of require anyway.
 (when (= *file* (System/getProperty "babashka.file"))
   (dispatch commands usage *command-line-args*))

@@ -31,7 +31,9 @@ minus =excluded.csv=; a =curated= row wins over a registered
 duplicate (its level too), and a domain both curated and excluded, or
 an unknown level, aborts any command with exit 1. =bb pipeline check=
 runs that compilation alone and also warns about a curated row a
-registry already lists. The generated files are =proposed.csv=,
+registry already lists, and about a =local= or excluded domain more
+than one label under a central root, which the policy table cannot
+express. The generated files are =proposed.csv=,
 =summary.md= and the =sources/= tree.
 
 The harvest lives in one file per harvested root,
@@ -83,7 +85,7 @@ files.
   # collect -- sources/harvest/<root>.csv and sources/probes/roots.csv
   bb scripts/pipeline.clj fetch gov.it gouv.fr  # crt.sh on specific domains
   bb scripts/pipeline.clj retry                 # replay FAILs from last log
-  bb scripts/pipeline.clj normalize             # clean every harvest file
+  bb scripts/pipeline.clj normalize             # clean every harvest file (fetch and wayback normalize what they add)
   bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe of the harvest rows
   bb scripts/pipeline.clj mx gov.it             # DNS MX lookup of the harvest rows -> mx column
   bb scripts/pipeline.clj probe-roots [C…]      # HTTPS + MX of the confirmed roots without a harvest -> sources/probes/roots.csv
@@ -379,7 +381,6 @@ bb scripts/pipeline.clj check ITA_italy
 
 # 3. Optionally harvest its subdomains (confirmed roots need no harvest)
 bb scripts/pipeline.clj fetch quirinale.it
-bb scripts/pipeline.clj normalize
 bb scripts/pipeline.clj probe quirinale.it
 bb scripts/pipeline.clj mx quirinale.it
 

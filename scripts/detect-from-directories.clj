@@ -395,6 +395,7 @@
                "harvest"    cmd-harvest})
 
 ;; Run only as a script (bb scripts/detect-from-directories.clj …), not
-;; when required or loaded from another namespace.
+;; when load-file'd from a REPL: the hyphen in the file name keeps the
+;; namespace out of require anyway.
 (when (= *file* (System/getProperty "babashka.file"))
   (dispatch commands usage *command-line-args*))

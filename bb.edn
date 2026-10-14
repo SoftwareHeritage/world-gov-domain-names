@@ -1,21 +1,25 @@
 {:paths ["scripts"]
  :tasks
  {:requires ([babashka.process :refer [shell]])
+  ;; run a script and exit with its code: shell would print a stack
+  ;; trace on every non-zero exit (an unknown sub-command, a failed check)
+  :init (defn run [script & args]
+          (System/exit (:exit (apply shell {:continue true} "bb" script args))))
   pipeline   {:doc  "Full pipeline -- run 'bb pipeline help' for usage"
-              :task (apply shell "bb scripts/pipeline.clj" *command-line-args*)}
+              :task (apply run "scripts/pipeline.clj" *command-line-args*)}
   collect    {:doc  "the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots -> sources/harvest/, sources/probes/roots.csv"
-              :task (apply shell "bb scripts/pipeline.clj collect" *command-line-args*)}
+              :task (apply run "scripts/pipeline.clj collect" *command-line-args*)}
   enrich     {:doc  "build-qid + build-gec + build-un-ids + subdivisions, then wikidata (+ academia) + iana/cia/un-desa/oecd/meta (parallel)"
-              :task (apply shell "bb scripts/pipeline.clj enrich" *command-line-args*)}
+              :task (apply run "scripts/pipeline.clj enrich" *command-line-args*)}
   build      {:doc  "the consolidated files: aggregate + domains -> data/ (after enrich)"
-              :task (apply shell "bb scripts/pipeline.clj build" *command-line-args*)}
+              :task (apply run "scripts/pipeline.clj build" *command-line-args*)}
   report     {:doc  "the curation files: propose + summary -> proposed.csv, summary.md (after build)"
-              :task (apply shell "bb scripts/pipeline.clj report" *command-line-args*)}
+              :task (apply run "scripts/pipeline.clj report" *command-line-args*)}
   indegree   {:doc  "link-graph in-degree (eu-plus-government-scans) -> sources/linkgraph/"
-              :task (apply shell "bb scripts/pipeline.clj indegree" *command-line-args*)}
+              :task (apply run "scripts/pipeline.clj indegree" *command-line-args*)}
   forges     {:doc  "forges unknown to Software Heritage, source-code catalog leads -- run 'bb forges help'"
-              :task (apply shell "bb scripts/detect-forges.clj" *command-line-args*)}
+              :task (apply run "scripts/detect-forges.clj" *command-line-args*)}
   directories {:doc  "official directories of public bodies: 'registry' -> sources/<registry>/registered.csv, 'candidates' -> sources/directory/orgs.csv -- run 'bb directories help'"
-               :task (apply shell "bb scripts/detect-from-directories.clj" *command-line-args*)}
+               :task (apply run "scripts/detect-from-directories.clj" *command-line-args*)}
   all        {:doc  "collect + enrich + build + report"
-              :task (apply shell "bb scripts/pipeline.clj all" *command-line-args*)}}}
+              :task (apply run "scripts/pipeline.clj all" *command-line-args*)}}}
