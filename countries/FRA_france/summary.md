@@ -30,16 +30,13 @@
 
 ## ccTLD anomalies
 
-Domains outside `.fr` (allowed: common gTLDs + ``):
+Domains outside `.fr` (allowed: common gTLDs + `pf nc corsica`):
 
 ```
 .fr302240 collext.sante.gouv.fr302240
 .gr efa.gr
 .it efrome.it
 .info rhp1.terre.defense.gouv.fr.1rhp.info
-.nc unc.nc
-.corsica universita.corsica
-.pf upf.pf
 .info www.rhp1.terre.defense.gouv.fr.1rhp.info
 ```
 

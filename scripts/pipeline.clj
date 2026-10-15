@@ -704,7 +704,9 @@
 (def secondary-tlds
   {"GBR_united_kingdom" #{"scot" "wales" "im" "je" "gg" "gi" "io"}
    "DNK_denmark"        #{"fo" "gl"}
-   "NLD_netherlands"    #{"aw" "cw" "sx"}})
+   "NLD_netherlands"    #{"aw" "cw" "sx"}
+   ;; New Caledonia, French Polynesia, and Corsica's geographic TLD
+   "FRA_france"         #{"nc" "pf" "corsica"}})
 
 (defn extract-factbook-phrases
   "Split the Factbook description into phrases >= 12 chars, lowercase."
