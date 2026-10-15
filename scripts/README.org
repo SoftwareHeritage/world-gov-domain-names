@@ -68,7 +68,7 @@ command writes one kind of file. Available both as =bb pipeline <cmd>=
 
 #+begin_src bash
   bb pipeline collect            # the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots
-  bb pipeline enrich             # build-qid + build-gec + build-un-ids + subdivisions, then the six sources in parallel
+  bb pipeline enrich             # build-qid + build-gec + build-un-ids + subdivisions, then the seven sources in parallel
   bb pipeline build              # the consolidated files: aggregate + domains
   bb pipeline report             # the curation files: propose + summary
   bb pipeline all                # the four in sequence
@@ -99,6 +99,8 @@ files.
   bb scripts/pipeline.clj build-un-ids          # country_dir -> UN/DESA id: data/un_desa_ids.csv
   bb scripts/pipeline.clj subdivisions FRA_france  # first-level subdivisions -> sources/wikidata/subdivisions_level1.csv
   bb scripts/pipeline.clj wikidata Q142:FRA_france # central administration -> sources/wikidata/central_admin.csv
+  bb scripts/pipeline.clj academia Q142:FRA_france # universities and research institutes -> sources/wikidata/academia.csv
+  bb scripts/pipeline.clj ror FRA_france           # universities per ror.org -> sources/ror/universities.csv (candidates)
   bb scripts/pipeline.clj iana FRA_france
   bb scripts/pipeline.clj cia FRA_france
   bb scripts/pipeline.clj un-desa FRA_france
@@ -322,7 +324,7 @@ central government plus the first subdivision tier and nothing below:
 | =TIMEOUT=   | HTTPS request timeout (probe), seconds          | =5=       |
 | =SWH_TOKEN= | SWH API bearer token (=bb forges scan=)           | unset   |
 | =DOH_URL=   | DNS-over-HTTPS resolver (=bb forges scan=, =catalogs=); empty: system resolver | =https://1.1.1.1/dns-query= |
-| =CONC_WIKIDATA=, =CONC_IANA=, =CONC_CIA=, =CONC_UN_DESA=, =CONC_META= | countries processed in parallel by each enrichment source | 3, 4, 8, 4, 4 |
+| =CONC_WIKIDATA=, =CONC_ROR=, =CONC_IANA=, =CONC_CIA=, =CONC_UN_DESA=, =CONC_META= | countries processed in parallel by each enrichment source | 3, 2, 4, 8, 4, 4 |
 
 * Scoring (propose)
 
@@ -336,6 +338,7 @@ For each uncovered candidate hostname:
 | Central pattern (=gov./bund./gouv./governo./gobierno./…=)    |     +1 |
 | Wikidata label contains a Factbook institution name        |     +2 |
 | Listed in the country's official directory (=bb directories=) |     +4 |
+| Named a university by ror.org (=bb pipeline ror=)            |     +2 |
 | Linked from N same-country public-sector domains (=indegree=): N >= 3, 5, 10, 20 | +3, +4, +5, +6 |
 | Label suggests a territorial subdivision (Land, region, …) |     -5 |
 | 3+ Wikidata mentions, none with =federal/national/sovereign= |     -5 |

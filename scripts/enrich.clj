@@ -478,6 +478,127 @@
   (run-per-qid args academia-process!))
 
 ;; ===========================================================================
+;;  ror -- universities per the Research Organization Registry
+;; ===========================================================================
+;; ror.org (CC0) lists the world's research organisations with a
+;; website, types and a country. Its education type takes in schools,
+;; school boards and académies, and ROR never says who runs an
+;; organisation nor whether it is public: the rows are candidates for
+;; propose (source ror, +2), never a registry. Kept: the organisations
+;; a name of which calls a university or an institute of higher
+;; education (ror-university-pattern; colleges and academies are too
+;; broad), levelled as academia levels a university whose authorities
+;; are unknown (label, then academia-tiers).
+
+(def conc-ror (env-int "CONC_ROR" 2))
+
+(def ror-api-url "https://api.ror.org/v2/organizations")
+
+(def ror-university-pattern
+  #"(?iu)universit|univerz|uniwersytet|universidad|yliopisto|háskól|egyetem|πανεπιστήμ|университет|університет|üniversite|大学|대학|جامعة|دانشگاه|विश्वविद्यालय|polytech|politecn|politécn|politeknik|hochschule|institute of technology|instituto tecnol|école (?:nationale|normale|centrale|polytechnique|des mines|des ponts|supérieure)")
+
+(def iso3->iso2
+  "ISO3 -> ISO2 of data/world-governments.csv, plus Kosovo's user-assigned XK."
+  (delay (into {"XKS" "XK"}
+               (for [row (read-csv-file "data/world-governments.csv")
+                     :let [iso3 (get row "iso3") iso2 (get row "iso2")]
+                     :when (not (or (str/blank? iso3) (str/blank? iso2)))]
+                 [iso3 iso2]))))
+
+(defn ror-country-code [country-dir]
+  (get @iso3->iso2 (first (str/split country-dir #"_"))))
+
+(defn ror-page
+  "One page (20 items) of the active education organisations of a
+  country, parsed; nil on failure."
+  [iso2 page]
+  (some-> (http-get ror-api-url
+                    {:timeout 60
+                     :query-params {"filter" (str "types:education,status:active,"
+                                                  "locations.geonames_details.country_code:" iso2)
+                                    "page"   (str page)}})
+          (json/parse-string true)))
+
+(defn ror-fetch-all
+  "Every active education organisation of a country, page after page
+  (the API caps at 10 000); nil when a page failed."
+  [iso2]
+  (loop [page 1 acc []]
+    (if-let [{:keys [items number_of_results]} (ror-page iso2 page)]
+      (let [acc (into acc items)]
+        (if (or (empty? items) (>= (count acc) number_of_results) (>= page 500))
+          acc
+          (do (Thread/sleep 250) (recur (inc page) acc))))
+      nil)))
+
+(defn ror-org->row
+  "[ror label website hostname wikidata level] of a ROR organisation,
+  nil when none of its names calls a university, when it has no website
+  or when academia-level places it at no level. ctx: :level1-pattern
+  :tiers. Pure."
+  [ctx {:keys [id names links external_ids]}]
+  (let [all-names (map :value names)
+        label (or (some #(when (some #{"ror_display"} (:types %)) (:value %)) names)
+                  (first all-names) "")
+        url   (some #(when (= "website" (:type %)) (:value %)) links)
+        host  (extract-host url)
+        wd    (some #(when (= "wikidata" (:type %)) (first (:all %))) external_ids)
+        level (when (some #(re-find ror-university-pattern %) all-names)
+                (academia-level (assoc ctx :kind :university :type "education"
+                                       :label label :auths #{} :country-qid nil :level1 #{})))]
+    (when (and host level (valid-hostname? host))
+      [(str/replace id #"^https://ror\.org/" "") label url host (or wd "") level])))
+
+(defn ror-process!
+  "Write sources/ror/universities.csv (ror,label,website,hostname,wikidata,level):
+  the universities ROR knows in the country, one row per org and host,
+  central ones first. Skip an existing file unless FORCE=1; need the
+  subdivisions file. :ok, :skip or :fail (nothing written)."
+  [country-dir]
+  (let [out  (country-src country-dir "ror" "universities.csv")
+        sub  (subdivisions-file country-dir)
+        iso2 (ror-country-code country-dir)]
+    (cond
+      (skip? out)
+      (do (println (str "=== " country-dir " ror : SKIP (use FORCE=1 to refetch)"))
+          :skip)
+
+      (nil? iso2)
+      (do (err "ERR: " country-dir ": no ISO2 code in data/world-governments.csv") :fail)
+
+      (not (fs/exists? sub))
+      (do (err "ERR: " country-dir ": " sub " missing. Run 'bb pipeline subdivisions' first")
+          :fail)
+
+      :else
+      (let [_    (println (str "=== " country-dir " (" iso2 ") ror ==="))
+            subs (rest (read-csv-raw sub))
+            ctx  {:level1-pattern (level1-pattern (map second subs))
+                  :tiers          (get academia-tiers (first (str/split country-dir #"_"))
+                                       {:default "central"})}
+            orgs (ror-fetch-all iso2)]
+        (if (nil? orgs)
+          (do (err "ERR: " country-dir ": a ROR page failed; " out " left untouched") :fail)
+          (let [rows (->> orgs
+                          (keep #(ror-org->row ctx %))
+                          (sort-by (juxt #(nth % 3) #(nth % 5) #(nth % 1)))
+                          (reduce (fn [[seen acc] [_ label _ host :as row]]
+                                    (if (seen [host label])
+                                      [seen acc]
+                                      [(conj seen [host label]) (conj acc row)]))
+                                  [#{} []])
+                          second)]
+            (write-csv-file out ["ror" "label" "website" "hostname" "wikidata" "level"] rows)
+            (println (str "  -> " out " (" (count rows) " universities of "
+                          (count orgs) " education orgs)"))
+            :ok))))))
+
+(defn cmd-ror
+  "ror-process! over the countries of args (all by default)."
+  [args]
+  (iter-countries ror-process! args conc-ror))
+
+;; ===========================================================================
 ;;  iana -- ccTLD and its manager
 ;; ===========================================================================
 
@@ -806,13 +927,13 @@
 
 (defn cmd-enrich
   "Run build-qid, build-gec, build-un-ids and subdivisions, then the
-  six sources in parallel, their logs shown once all finish. 1 when a
+  seven sources in parallel, their logs shown once all finish. 1 when a
   step failed, 0 otherwise."
   [args]
   (err "-> build-qid + build-gec + build-un-ids + subdivisions…")
   (let [built (conj (mapv #(% nil) [cmd-build-qid cmd-build-gec cmd-build-un-ids])
                     (cmd-subdivisions args))
-        _     (err "-> wikidata + iana + cia + un-desa + oecd + meta (all in parallel)…")
+        _     (err "-> wikidata + ror + iana + cia + un-desa + oecd + meta (all in parallel)…")
         logs  (fs/create-temp-dir)
         spawn (fn [name f]
                 (future
@@ -829,6 +950,7 @@
         ;; academia after wikidata, not beside it: both query the same
         ;; SPARQL endpoint, conc-wikidata at a time
         sources [["wikidata" #(max (cmd-wikidata %) (cmd-academia %))]
+                 ["ror"      cmd-ror]
                  ["iana"     cmd-iana]
                  ["cia"      cmd-cia]
                  ["un_desa"  cmd-un-desa]

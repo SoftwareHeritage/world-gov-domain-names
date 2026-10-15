@@ -37,6 +37,8 @@
 ;;   academia [Q:C…]    Wikidata central and central-1 universities and research
 ;;                      institutes -> sources/wikidata/academia.csv (needs
 ;;                      subdivisions; enrich runs it after wikidata)
+;;   ror [C…]           universities per ror.org -> sources/ror/universities.csv
+;;                      (needs subdivisions; candidates, never confirmed)
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
 ;;   un-desa [C…]       UN/DESA national portal + EGDI
@@ -737,10 +739,11 @@
   :label (pipe-joined Wikidata labels), :fb-phrases (lowercased
   Factbook institution phrases), :un-portal-host, :cctld-primary
   (without the dot), :indegree (nil when absent from the link graph),
-  :directory-listed?, :subdiv-penalty? (default true; false for a host
-  already known as subnational)."
+  :directory-listed?, :ror-listed? (a university per ror.org),
+  :subdiv-penalty? (default true; false for a host already known as
+  subnational)."
   [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary
-           indegree directory-listed? subdiv-penalty?]
+           indegree directory-listed? ror-listed? subdiv-penalty?]
     :or {subdiv-penalty? true}}]
   (let [label (or label "")
         un?           (= host un-portal-host)
@@ -769,6 +772,8 @@
                  ;; an official-directory listing is authoritative on the
                  ;; body's existence but silent on its level
                  (if directory-listed? 4 0)
+                 ;; ROR names a university but says nothing of its sector
+                 (if ror-listed?  2 0)
                  (if on-cctld?    1 0)
                  (if gov-host?    1 0)
                  (if fb-match?    2 0)
@@ -782,16 +787,18 @@
   (boolean (and level1-pattern (seq label) (re-find level1-pattern label))))
 
 (defn- candidate-level
-  "Level of a candidate host: its Wikidata levels first, then its
-  label (subdiv-pattern means local, a first-level subdivision name
-  means central-1). Blank when unknown."
-  [{:keys [wd-by-host level1-pattern]} h label]
-  (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")]
+  "Level of a candidate host: its Wikidata levels first, then the
+  level ror gave it, then its label (subdiv-pattern means local, a
+  first-level subdivision name means central-1). Blank when unknown."
+  [{:keys [wd-by-host ror-by-host level1-pattern]} h label]
+  (let [wd-levels (disj (get-in wd-by-host [h :levels] #{}) "")
+        ror-level (not-empty (get-in ror-by-host [h :level]))]
     (cond
       (contains? wd-levels "central")   "central"
       (contains? wd-levels "central-1") "central-1"
       (contains? wd-levels "local")     (if (level1-label? level1-pattern label)
                                           "central-1" "local")
+      ror-level                         ror-level
       (and (seq label)
            (re-find subdiv-pattern label)) (if (level1-label? level1-pattern
                                                               label)
@@ -801,8 +808,8 @@
 (defn- candidate-row
   "One [hostname score sources label level] row of host from a
   load-candidate-ctx context. Pure."
-  [{:keys [wd-by-host ac-by-host lg-by-host dir-by-host un-portal-host
-           fb-phrases cctld-primary]
+  [{:keys [wd-by-host ac-by-host lg-by-host dir-by-host ror-by-host
+           un-portal-host fb-phrases cctld-primary]
     :as ctx}
    h]
   (let [{:keys [cnt labels] :or {cnt 0 labels []}} (get wd-by-host h)
@@ -810,6 +817,7 @@
         un? (= h un-portal-host)
         linked-n (get lg-by-host h)
         dir-info (get dir-by-host h)
+        ror-info (get ror-by-host h)
         label (cond-> (str/join " | " labels)
                 un? (str (when (seq labels) " | ")
                          "UN/DESA national portal"))
@@ -818,6 +826,7 @@
         label (cond
                 (not (str/blank? label)) label
                 (seq (:evidence dir-info)) (:evidence dir-info)
+                (seq (:label ror-info)) (:label ror-info)
                 linked-n (str "Linked from " linked-n
                               " public-sector domains")
                 :else label)
@@ -827,7 +836,8 @@
                                       (repeat ac-cnt "academia")))
         sources (cond-> sources
                   linked-n (conj "linkgraph")
-                  dir-info (conj "directory"))
+                  dir-info (conj "directory")
+                  ror-info (conj "ror"))
         level (candidate-level ctx h label)
         score (score-candidate
                 {:host h :wd-count cnt :label label
@@ -836,6 +846,7 @@
                  :cctld-primary cctld-primary
                  :indegree linked-n
                  :directory-listed? (some? dir-info)
+                 :ror-listed? (some? ror-info)
                  ;; the anti-subnational penalties catch entities
                  ;; *pretending* central
                  :subdiv-penalty?
@@ -865,8 +876,8 @@
   "Read what propose-candidates needs for a country: the Wikidata
   mentions and levels (central administration and academia, the
   latter also apart to tag its sources), the UN/DESA portal, the ccTLD, the Factbook
-  courts, the link-graph in-degrees, the directory listing, the
-  first-level subdivision labels, the confirmed domains of every
+  courts, the link-graph in-degrees, the directory listing, the ror
+  universities, the first-level subdivision labels, the confirmed domains of every
   country and the excluded ones of this country."
   [country-dir]
   (let [src #(country-src country-dir %1 %2)
@@ -881,6 +892,8 @@
                                 [hostname n]))
      :dir-by-host    (into {} (for [{:strs [hostname evidence]} (read-csv-file (src "directory" "orgs.csv"))]
                                 [hostname {:evidence (or evidence "")}]))
+     :ror-by-host    (into {} (for [{:strs [hostname label level]} (read-csv-file (src "ror" "universities.csv"))]
+                                [hostname {:label (or label "") :level (or level "")}]))
      :un-portal-host (extract-host (table-field "un_desa" country-dir "national_portal"))
      :fb-phrases     (extract-factbook-phrases (table-field "cia_factbook" country-dir "judicial_highest_courts"))
      :cctld-primary  (not-empty (str/replace (table-field "iana" country-dir "cctld") #"^\." ""))
@@ -894,10 +907,11 @@
   that no confirmed or excluded domain covers, scored and levelled by
   candidate-row, local ones dropped. [hostname score sources label
   level] rows, best scores first. Pure."
-  [{:keys [wd-by-host lg-by-host dir-by-host un-portal-host known excluded] :as ctx}]
+  [{:keys [wd-by-host lg-by-host dir-by-host ror-by-host un-portal-host known excluded] :as ctx}]
   (->> (cond-> (-> (set (keys wd-by-host))
                    (into (keys lg-by-host))
-                   (into (keys dir-by-host)))
+                   (into (keys dir-by-host))
+                   (into (keys ror-by-host)))
          un-portal-host (conj un-portal-host))
        (filter valid-hostname?)
        (remove #(host-covered? % known))
@@ -1315,6 +1329,7 @@
    "subdivisions" enrich/cmd-subdivisions
    "wikidata"    enrich/cmd-wikidata
    "academia"    enrich/cmd-academia
+   "ror"         enrich/cmd-ror
    "iana"        enrich/cmd-iana
    "cia"         enrich/cmd-cia
    "un-desa"     enrich/cmd-un-desa
@@ -1346,7 +1361,7 @@
   (println "Targeted commands:")
   (println "  collect: fetch | retry | normalize | probe | mx | probe-roots")
   (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
-  (println "           wikidata | academia | iana | cia | un-desa | oecd | meta")
+  (println "           wikidata | academia | ror | iana | cia | un-desa | oecd | meta")
   (println "  build:   aggregate | domains")
   (println "  report:  propose | summary")
   (println "  other:   probe-proposed | wayback | check | cisa | lannuaire | esr | govuk | validate-un | indegree")

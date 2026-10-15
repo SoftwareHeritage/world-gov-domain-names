@@ -36,6 +36,12 @@ lower tier, a city say, leaves it out), else from its label
 first-level subdivision…), else from how the country runs
 its universities (=academia-tiers= in =scripts/enrich.clj=: national
 by default, the states or Länder in Germany, the United States…).
+=bb pipeline ror= (also part of =enrich=) adds the universities the
+[[https://ror.org][Research Organization Registry]] knows, by name, into
+=sources/ror/universities.csv=; as ROR says nothing of who runs them
+nor whether they are public, =propose= only lists them as candidates
+(source =ror=, +2), to be confirmed by a registry such as France's
+=esr= or by hand.
 
 * Method
 
@@ -100,7 +106,7 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   the proposed hosts), the official
   registries (=cisa/=, =lannuaire/=, =esr/=,
   =brreg/=, =govuk/=, each a =registered.csv= of =domain,level=),
-  =wikidata/=, =directory/= and =linkgraph/=.
+  =wikidata/=, =ror/=, =directory/= and =linkgraph/=.
   =sources/linkgraph/indegree.csv= (EU + neighbours only) counts, for
   each domain, how many distinct public-sector domains of the same
   country link to it, from the crawl published by
