@@ -1,7 +1,7 @@
 (ns registries
   "Official registries feeding sources/<registry>/registered.csv: CISA
-  (US federal .gov), lannuaire (FR central administrations), govuk (UK
-  sub-central bodies), plus the UN-membership check of
+  (US federal .gov), lannuaire (FR central administrations), esr (FR
+  public higher-education institutions), govuk (UK sub-central bodies), plus the UN-membership check of
   data/world-governments.csv. pipeline.clj dispatches."
   (:require [common :refer :all]
             [enrich :as enrich]
@@ -11,7 +11,7 @@
             [clojure.string :as str]))
 
 ;; ===========================================================================
-;;  Registries -- CISA (US) and lannuaire (FR)
+;;  Registries -- CISA (US), lannuaire and ESR (FR)
 ;; ===========================================================================
 
 (def cisa-federal-url
@@ -66,6 +66,46 @@
             out (registered-file "FRA_france" "lannuaire")]
         (write-registered! "FRA_france" "lannuaire" (for [d domains] [d "central"]))
         (println (str "Wrote " out " (" (count domains) " .fr central-admin domains)"))
+        0))))
+
+(def esr-url
+  (str "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/"
+       "datasets/fr-esr-principaux-etablissements-enseignement-superieur/exports/json"))
+
+(defn esr-domain
+  "The registrable domain of an ESR institution's website, nil when the
+  site does not name one: off .fr, only a site at the apex of its domain
+  counts (unc.nc, psl.eu, ensci.com…), a deeper host may sit on a shared
+  provider (ifao.egnet.net). Under .fr a deeper host names its parent
+  (engees.unistra.fr -> unistra.fr), as lannuaire does, except under
+  gouv.fr, the state's shared domain, curated and harvested already: a
+  school hosted there (insp.gouv.fr) adds nothing. Pure."
+  [url]
+  (when-let [host (extract-host url)]
+    (when-let [domain (parent-domain host)]
+      (when (and (valid-hostname? domain)
+                 (not= domain "gouv.fr")
+                 (or (str/ends-with? domain ".fr") (= domain host)))
+        domain))))
+
+(defn cmd-esr [_]
+  ;; Fetch the higher-education ministry's catalogue of the main
+  ;; institutions (universities, grandes écoles, grands établissements)
+  ;; into sources/esr/registered.csv: the distinct domains of the public
+  ;; ones, level central -- they are all state establishments, the level
+  ;; academia gives France's universities. The private ones are left out.
+  (let [where "secteur_d_etablissement=\"public\""
+        body  (http-get esr-url {:timeout 90
+                                 :query-params {"select" "url" "where" where}})]
+    (if (str/blank? body)
+      (do (err "ERR: ESR fetch failed") 1)
+      (let [domains (->> (json/parse-string body true)
+                         (keep #(esr-domain (:url %)))
+                         distinct
+                         sort)
+            out (registered-file "FRA_france" "esr")]
+        (write-registered! "FRA_france" "esr" (for [d domains] [d "central"]))
+        (println (str "Wrote " out " (" (count domains) " public higher-education domains)"))
         0))))
 
 ;; ===========================================================================

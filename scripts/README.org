@@ -26,7 +26,7 @@ Everything else is generated. The *confirmed* domains of a country
 are compiled in memory at every run (=common/compile-confirmed=,
 cached as =confirmed-rows=): the registry files
 =sources/<registry>/registered.csv= (=domain,level=, written by
-=cisa=, =lannuaire=, =govuk= and =bb directories=) plus =curated.csv=
+=cisa=, =lannuaire=, =esr=, =govuk= and =bb directories=) plus =curated.csv=
 minus =excluded.csv=; a =curated= row wins over a registered
 duplicate (its level too), and a domain both curated and excluded, or
 an unknown level, aborts any command with exit 1. =bb pipeline check=
@@ -121,6 +121,7 @@ files.
   bb scripts/pipeline.clj lannuaire             # FR service-public directory -> sources/lannuaire/registered.csv
   bb scripts/pipeline.clj govuk                 # UK sub-central bodies -> sources/govuk/registered.csv
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
+  bb scripts/pipeline.clj esr                   # FR public higher-education institutions -> sources/esr/registered.csv
   bb scripts/pipeline.clj indegree [C…]         # link-graph in-degree -> sources/linkgraph/indegree.csv
 #+end_src
 

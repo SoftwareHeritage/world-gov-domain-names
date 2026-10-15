@@ -98,7 +98,7 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   with probes: crt.sh, plus the Wayback Machine on demand), =probes/=
   (HTTPS and MX of the confirmed roots that have no harvest, and of
   the proposed hosts), the official
-  registries (=cisa/=, =lannuaire/=,
+  registries (=cisa/=, =lannuaire/=, =esr/=,
   =brreg/=, =govuk/=, each a =registered.csv= of =domain,level=),
   =wikidata/=, =directory/= and =linkgraph/=.
   =sources/linkgraph/indegree.csv= (EU + neighbours only) counts, for

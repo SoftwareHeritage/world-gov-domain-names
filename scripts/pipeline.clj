@@ -64,6 +64,7 @@
 ;;   lannuaire          fetch FR service-public.gouv.fr directory -> sources/lannuaire/registered.csv
 ;;   govuk              build UK sub-central list -> GBR sources/govuk/registered.csv
 ;;   validate-un        check un_status against the official UN member list
+;;   esr                fetch FR public higher-education institutions -> sources/esr/registered.csv
 ;;   indegree [C…]      link-graph in-degree (eu-plus-government-scans)
 ;;                      -> countries/<c>/sources/linkgraph/indegree.csv
 ;;
@@ -1346,8 +1347,9 @@
   (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
   (println "           wikidata | academia | iana | cia | un-desa | oecd | meta")
   (println "  build:   aggregate | domains")
+   "esr"         registries/cmd-esr
   (println "  report:  propose | summary")
-  (println "  other:   probe-proposed | wayback | check | cisa | lannuaire | govuk | validate-un | indegree")
+  (println "  other:   probe-proposed | wayback | check | cisa | lannuaire | esr | govuk | validate-un | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)
