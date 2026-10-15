@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-448 domain(s) proposed for validation, of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `bn.org.pl` |  | SSLHandsh... | wikidata;wikidata;directory | National Library of Poland |
-| 10 | `nbp.pl` |  | SSLHandsh... | wikidata;linkgraph;directory | Narodowy Bank Polski |
-| 10 | `policja.pl` |  | 200 | wikidata;linkgraph;directory | Policja |
-| 10 | `sn.pl` | central | 301 | wikidata;directory | Supreme Court of Poland |
-| 10 | `uni.opole.pl` | central | 200 | academia;linkgraph;ror | University of Opole |
-| 10 | `usz.edu.pl` | central | 200 | academia;linkgraph;ror | University of Szczecin |
-| 10 | `wojsko-polskie.pl` | central | 301 | wikidata;wikidata;directory;ror | Military Gendarmerie | Polish General Staff |
-| 10 | `zus.pl` |  | HttpConne... | wikidata;linkgraph;directory | Zakład Ubezpieczeń Społecznych |
-| 9 | `ur.edu.pl` | central | 301 | academia;linkgraph;ror | Rzeszów University |
-| 8 | `agh.edu.pl` | central | 301 | academia;linkgraph | AGH University of Science and Technology |
-| 8 | `krs.pl` |  | SSLHandsh... | wikidata;directory | National Council of the Judiciary |
-| 8 | `pfron.org.pl` |  | SSLHandsh... | wikidata;directory | National Disabled Persons Rehabilitation Fund |
-| 8 | `zditm.szczecin.pl` |  | HttpConne... | wikidata;linkgraph | ZDiTM Szczecin |
-| 7 | `ahk.pl` |  | 302 | wikidata;wikidata | Polish-German Chamber of Commerce and Industry |
-| 7 | `bip.radom.pl` |  | 200 | linkgraph | Linked from 35 public-sector domains |
-| 7 | `dominikanie.pl` |  | 200 | wikidata;wikidata | Polish Dominican Province |
-| 7 | `edu.bydgoszcz.pl` |  | 200 | linkgraph | Linked from 22 public-sector domains |
-| 7 | `franciszkanie.org.pl` |  | 301 | wikidata;wikidata | Province of Our Lady of the Angels of the Friars Minor in Kraków |
-| 7 | `lubuskie.pl` | central-1 | 200 | wikidata;wikidata | Zarząd Województwa Lubuskiego | Marshal's Office of Lubusz Voivodeship |
-| 7 | `nid.pl` |  | 200 | wikidata;wikidata | Narodowy Instytut Dziedzictwa |
-

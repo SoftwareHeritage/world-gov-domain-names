@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-21 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `justica.gov.cv` | central | 200 | wikidata;wikidata | Ministry of Justice of Cape Verde |
-| 8 | `mai.gov.cv` | central | HttpConne... | wikidata;wikidata | Ministry of Internal Affairs |
-| 8 | `mesci.gov.cv` | central | SSLHandsh... | wikidata;wikidata | Ministry of Higher Education, Science and Innovation |
-| 8 | `parlamento.cv` | central | HttpConne... | wikidata;wikidata | National Assembly of Cape Verde |
-| 7 | `ine.cv` | central | 200 | wikidata;wikidata;wikidata;academia | National Statistics Institute |
-| 5 | `dgesc.gov.cv` |  | 302 | wikidata | Direcção Geral de Ensino Superior Ciencia |
-| 5 | `insp.gov.cv` |  | 200 | wikidata | Instituto Nacional de Saúde Pública |
-| 5 | `minsaude.gov.cv` |  | 200 | wikidata | Ministério da Saúde |
-| 4 | `arme.cv` |  | HttpConne... | wikidata | Q136356251 |
-| 4 | `arquivonacional.cv` |  | 200 | wikidata | Institute of National Archives of Cabo Verde |
-| 4 | `bcv.cv` |  | ConnectEx... | wikidata | Bank of Cape Verde |
-| 4 | `iefp.cv` |  | 200 | wikidata | Institute of Employment and Professional Training (Cape Verde) |
-| 4 | `stj.cv` |  | 301 | wikidata | Cabo Verde. Supremo Tribunal de Justiça |
-| 4 | `uta.cv` | central |  | academia | Atlantic Technical University |
-| 3 | `capeverde.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia in Cape Verde |
-| 3 | `cv.ambafrance.org` | central | 301 | wikidata | Embassy of France, Praia |
-| 3 | `cv.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Praia |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Cabo Verde |
-| 3 | `praia.mae.lu` | central | 302 | wikidata | embassy of Luxembourg in Cape Verde |
-| 3 | `unicv.edu.cv` | central |  | ror | University of Cape Verde |
-

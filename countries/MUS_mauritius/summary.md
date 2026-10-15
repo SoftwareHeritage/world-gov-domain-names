@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-29 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `agriculture.govmu.org` | central | 302 | wikidata;wikidata | Ministry of Agro Industry and Food Security |
-| 6 | `gender.govmu.org` | central | 302 | wikidata;wikidata | Ministry of Gender Equality, Child Development and Family Welfare |
-| 6 | `health.govmu.org` | central | 301 | wikidata;wikidata | Ministry of Health and Quality of Life |
-| 6 | `mauritiusassembly.govmu.org` | central | 301 | wikidata;wikidata | National Assembly of Mauritius |
-| 6 | `mof.govmu.org` | central | 302 | wikidata;wikidata | Ministry of Finance and Economic Development |
-| 6 | `tourism.govmu.org` | central | 302 | wikidata;wikidata | Ministry of Tourism |
-| 5 | `govmu.org` |  | 302 | un_desa | UN/DESA national portal |
-| 5 | `supremecourt.govmu.org` | central | 200 | wikidata | Supreme Court of Mauritius |
-| 4 | `ambchine.mu` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Quatre Bornes |
-| 4 | `bom.mu` |  | SSLHandsh... | wikidata | Bank of Mauritius |
-| 4 | `hec.mu` |  | 200 | wikidata | Higher Education Commission |
-| 4 | `icac.mu` |  | 301 | wikidata | Independent Commission Against Corruption |
-| 4 | `msb.intnet.mu` |  | 302 | wikidata | Mauritius Standards Bureau |
-| 4 | `ncb.mu` |  | ConnectEx... | wikidata | National Computer Board |
-| 4 | `udm.ac.mu` | central |  | academia | Université des Mascareignes |
-| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Mauritius and to the Seychelles |
-| 3 | `mauritius.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Mauritius |
-| 3 | `middlesex.mu` | central |  | ror | Middlesex University Mauritius |
-| 3 | `moi.govmu.org` |  | 200 | wikidata | Mauritius Oceanography Institute |
-| 3 | `mu.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port Louis |
-

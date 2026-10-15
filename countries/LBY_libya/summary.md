@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-52 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `parliament.ly` | central | 200 | wikidata;wikidata | House of Representatives |
-| 7 | `bsc.ly` | central | 200 | wikidata;academia | Bureau of Statistics and Census Libya |
-| 7 | `hnec.ly` | central | HttpTimeo... | wikidata;wikidata;wikidata | High National Election Commission |
-| 4 | `aonsrt.ly` |  | 301 | wikidata | Q125912040 |
-| 4 | `lccrc.ly` |  | 200 | wikidata | Libyan Climate Change Research Center |
-| 4 | `lsrss.com.ly` |  | 200 | wikidata | Libyan Society for Research and Scientific Studies |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Tripoli |
-| 4 | `ncdc.org.ly` |  | 301 | wikidata | National Centre for Disease Control |
-| 4 | `tripoli.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Tripoli |
-| 3 | `aiu.edu.ly` | central |  | ror | Assalam International University |
-| 3 | `aju.edu.ly` | central |  | ror | Aljafara University |
-| 3 | `alrefak.edu.ly` | central |  | ror | Alrefak University |
-| 3 | `arsheef.org` |  | 301 | wikidata | Libyan Center for Archives and Historical Studies |
-| 3 | `asmarya.edu.ly` | central |  | ror | Alasmarya Islamic University |
-| 3 | `azu.edu.ly` | central |  | ror | Azzaytuna University |
-| 3 | `bmu.edu.ly` | central |  | ror | Benghazi Modern University |
-| 3 | `bwu.edu.ly` | central |  | ror | Bani-Waleed University |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Libya |
-| 3 | `elmergib.edu.ly` | central |  | ror | University Elmergib |
-| 3 | `eus.fezzanu.edu.ly` | central |  | ror | Fezzan University |
-

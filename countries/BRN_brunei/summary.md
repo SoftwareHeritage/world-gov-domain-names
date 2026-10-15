@@ -28,22 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 4 | `brunet.bn` |  | HttpConne... | wikidata | Brunei International Airport |
-| 3 | `ambafrance-bn.org` | central | ConnectEx... | wikidata | Embassy of France, Bandar Seri Begawan |
-| 3 | `bandar-seri-begawan.diplo.de` | central | 200 | wikidata | Embassy of Germany, Bandar Seri Begawan |
-| 3 | `brunei.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Brunei |
-| 3 | `kupu-sb.edu.bn` | central |  | ror | Kolej Universiti Perguruan Ugama Seri Begawan |
-| 3 | `pb.edu.bn` | central |  | ror | Brunei Polytechnic |
-| 3 | `philippine-embassybrunei.com` | central | IOExcepti... | wikidata | Embassy of the Philippines, Bandar Seri Begawan |
-| 3 | `roc-taiwan.org` | central | 302 | wikidata | Taipei Economic and Cultural Office in Brunei Darussalam |
-| 3 | `ubd.edu.bn` | central |  | ror | Universiti Brunei Darussalam |
-| 3 | `unissa.edu.bn` | central |  | ror | Sultan Sharif Ali Islamic University |
-| 3 | `utb.edu.bn` | central |  | ror | Universiti Teknologi Brunei |
-

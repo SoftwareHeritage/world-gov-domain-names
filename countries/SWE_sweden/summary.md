@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-327 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `imy.se` | central | 302 | wikidata;wikidata;linkgraph | Swedish Authority for Privacy Protection |
-| 9 | `domstol.se` | central | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Swedish National Courts Administration | Q97143444 | Q10501718 | Malmö Distri... |
-| 9 | `kau.se` | central | 302 | wikidata;academia;ror | Karlstad University |
-| 9 | `kth.se` | central | 301 | wikidata;wikidata;ror | Royal Institute of Technology |
-| 9 | `lnu.se` | central | 301 | wikidata;academia;ror | Linnaeus University |
-| 9 | `lu.se` | central | 301 | wikidata;academia;ror | Lund University |
-| 9 | `pts.se` | central | 200 | wikidata;linkgraph | Swedish Post and Telecom Agency |
-| 9 | `su.se` | central | 301 | wikidata;academia;ror | Stockholm University |
-| 9 | `umu.se` | central | 302 | wikidata;wikidata;ror | Umeå University |
-| 8 | `digg.se` | central | 301 | wikidata;linkgraph | Agency for Digital Government |
-| 7 | `1177.se` |  | 301 | linkgraph | Linked from 22 public-sector domains |
-| 7 | `arbetsformedlingen.se` | central | 200 | wikidata;linkgraph | Swedish Public Employment Service |
-| 7 | `bolagsverket.se` | central | IOExcepti... | wikidata;wikidata | Patent Attorneys Board | Swedish Companies Registration Office |
-| 7 | `fi.se` | central | 400 | wikidata;wikidata | Financial Supervisory Authority |
-| 7 | `fmv.se` | central | 301 | wikidata;wikidata | Defence Materiel Administration |
-| 7 | `foi.se` | central | 200 | wikidata;academia | Swedish Defence Research Agency |
-| 7 | `forte.se` | central | 200 | wikidata;wikidata | Swedish Research Council for Health Working Life and Welfare |
-| 7 | `isof.se` | central | 301 | wikidata;wikidata | Swedish Language Council | Swedish Institute for Language and Folklore |
-| 7 | `kb.se` | central | 301 | wikidata;linkgraph | National Library of Sweden |
-| 7 | `konj.se` | central | 301 | wikidata;academia | National Institute of Economic Research |
-

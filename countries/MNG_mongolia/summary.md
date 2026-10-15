@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-46 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `zasag.mn` | central | SSLHandsh... | un_desa;wikidata;wikidata;wikidata;wikidata | Government of Mongolia | UN/DESA national portal |
-| 9 | `supremecourt.mn` | central | 302 | wikidata;wikidata | Supreme Court of Mongolia |
-| 7 | `nso.mn` | central | 301 | wikidata;academia | Mongolia National Statistical Committee |
-| 4 | `flu.mn` |  | 200 | wikidata | National Influenza Center |
-| 4 | `frc.mn` |  | 200 | wikidata | Financial Regulatory Commission of Mongolia |
-| 4 | `imsm.mn` |  | 200 | wikidata | Institute of Medical Sciences, Mongolia |
-| 4 | `m-election.mn` |  | 200 | wikidata | General Election Commission of Mongolia |
-| 4 | `mik.mn` |  | 301 | wikidata | Mongolian Mortgage Corporation |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Ulaanbaatar |
-| 4 | `mongolbank.mn` |  | 301 | wikidata | Bank of Mongolia |
-| 4 | `nationallibrary.mn` |  | 200 | wikidata | National Library of Mongolia |
-| 4 | `riah.mn` |  | 200 | wikidata | Research Institute of Animal Husbandry |
-| 4 | `ulanbator.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary in Ulaanbaatar |
-| 4 | `unesco.mn` |  | 301 | wikidata | Mongolian National Commission for UNESCO |
-| 3 | `aum.edu.mn` | central |  | ror | American University of Mongolia |
-| 3 | `citi.edu.mn` | central |  | ror | Citi University |
-| 3 | `cubadiplomatica.cu` | central | ConnectEx... | wikidata | Embassy of Cuba, Ulaanbaatar |
-| 3 | `darkhan.mid.ru` |  | SSLHandsh... | wikidata | General Consulate of Russia to Darkhan |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Mongolia |
-| 3 | `graduate.edu.mn` | central |  | ror | Graduate University of Mongolia |
-

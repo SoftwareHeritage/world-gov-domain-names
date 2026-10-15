@@ -1025,33 +1025,6 @@
     (println "(institution names usable as seeds for further research)")
     (println)))
 
-(defn- candidate-table [cands]
-  (println "| score | hostname | level | http | sources | label |")
-  (println "|------:|----------|-------|------|---------|-------|")
-  (doseq [[h sc src lbl lvl st] cands]
-    (println (str "| " sc " | `" h "` | " (or lvl "") " | "
-                  (truncate (or st "") 12) " | " src " | "
-                  (truncate (or lbl "") 80) " |"))))
-
-(defn- section-proposed [path]
-  (when (fs/exists? path)
-    (let [cands (rest (read-csv-raw path))
-          n-level1 (count (filter #(= "central-1" (nth % 4 "")) cands))]
-      (println "## Proposed domains ranked by score")
-      (println)
-      (if (seq cands)
-        (do
-          (println (str (count cands) " domain(s) proposed for validation"
-                        (when (pos? n-level1)
-                          (str ", of which " n-level1 " at the first subdivision "
-                               "level (`central-1`: Land, state, region…)"))
-                        ". Full list in [`proposed.csv`](proposed.csv)."))
-          (println "Top 20 by score (0-10) -- higher = stronger cross-source evidence:")
-          (println)
-          (candidate-table (take 20 cands)))
-        (println "No remaining proposal (every flagged institution is covered)."))
-      (println))))
-
 (defn- section-cctld-anomalies [country-dir cctld collected]
   (when cctld
     (let [primary (str/replace cctld #"^\." "")
@@ -1077,10 +1050,10 @@
 
 (defn summary-country!
   "Write countries/<c>/summary.md: metadata, UN/DESA portal coverage,
-  Factbook institutions, the top of proposed.csv, ccTLD anomalies."
+  Factbook institutions, ccTLD anomalies. The candidates stay in
+  proposed.csv, which would only be repeated here."
   [country-dir collected-by-country un-status-by-country]
-  (let [prop-path  (str "countries/" country-dir "/proposed.csv")
-        out        (str "countries/" country-dir "/summary.md")
+  (let [out        (str "countries/" country-dir "/summary.md")
         field      (fn [source col] (let [v (table-field source country-dir col)]
                                       (when-not (str/blank? v) v)))
         ctx {:un-st          (get un-status-by-country country-dir)
@@ -1111,7 +1084,6 @@
             (section-overview (assoc ctx :n-collected (count collected)))
             (section-un-portal country-dir un-portal collected)
             (section-factbook ctx)
-            (section-proposed prop-path)
             (section-cctld-anomalies country-dir cctld collected)))
     (println (str "=== " country-dir " -> " out))))
 

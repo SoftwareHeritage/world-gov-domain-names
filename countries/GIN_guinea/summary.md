@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-22 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `stat-guinee.org` | central | 200 | wikidata;academia | Institut National de la Statistique |
-| 6 | `uganc.edu.gn` | central |  | academia;ror | University of Conakry |
-| 3 | `ambassadealgerieconakry.info` | central | ConnectEx... | wikidata | Embassy of Algeria, Conakry |
-| 3 | `anss-guinee.org` |  | 200 | wikidata | Q97097294 |
-| 3 | `bcrg-guinee.org` |  | 301 | wikidata | Central Bank of the Republic of Guinea |
-| 3 | `ceniguinee.org` | central | 521 | wikidata | Independent National Electoral Commission |
-| 3 | `conakry.diplo.de` | central | 200 | wikidata | Embassy of Germany, Conakry |
-| 3 | `conakry.mfa.ir` | central | 307 | wikidata | embassy of Iran in Guinea |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Guinea |
-| 3 | `ghanaembassy-guinea.com` | central | ConnectEx... | wikidata | embassy of Ghana in Guinea |
-| 3 | `gn.ambafrance.org` | central | 301 | wikidata | Embassy of France, Conakry |
-| 3 | `guinea.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Guinea |
-| 3 | `herbierguinee.org` | central |  | academia | Herbier National de Guinée |
-| 3 | `insp-guinee.org` |  | 301 | wikidata | Institut National de Santé Publique |
-| 3 | `irag-guinee.org` |  | 200 | wikidata | Institut de Recherche Agronomique de Guinee |
-| 3 | `misiones.cubaminrex.cu` | central | SSLHandsh... | wikidata | embassy of Cuba to Guinea |
-| 3 | `uglcs.org` | central |  | academia | General Lansana Conte University |
-| 2 | `foutapedia.net` | central |  | ror | Centre Universitaire de Labé |
-| 2 | `uglcsonfonia.org` | central |  | ror | Université Général Lansana Conté |
-| 2 | `ujnk.org` | central |  | ror | Julius Nyerere University of Kankan |
-

@@ -28,14 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 5 | `usp.ac.fj` | central |  | academia;ror | University of the South Pacific |
-| 4 | `cbsi.com.sb` | central | 301 | wikidata | Central Bank of Solomon Islands |
-| 3 | `sinu.edu.sb` | central |  | ror | Solomon Islands National University |
-

@@ -28,17 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 4 | `daic.dm` |  | ConnectEx... | wikidata | Dominica Association of Industry and Commerce |
-| 3 | `eccb-centralbank.org` |  | ConnectEx... | wikidata | Eastern Caribbean Central Bank |
-| 3 | `iugrad.edu.dm` | central |  | ror | International University for Graduate Studies |
-| 2 | `acedu.org` | central |  | ror | Ballsbridge University |
-| 2 | `allsaintsuniversity.org` | central |  | ror | All Saints University School of Medicine |
-| 2 | `newworld.ac` | central |  | ror | New World University |
-

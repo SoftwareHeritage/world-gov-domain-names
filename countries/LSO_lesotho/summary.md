@@ -28,18 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `parliament.ls` | central | 200 | wikidata;wikidata | Parliament of Lesotho |
-| 6 | `nul.ls` | central |  | academia;ror | National University of Lesotho |
-| 5 | `nationalassembly.parliament.ls` | central | 200 | wikidata | National Assembly |
-| 4 | `agricresearch.org.ls` |  | 200 | wikidata | Department of Agricultural Research |
-| 4 | `centralbank.org.ls` |  | 200 | wikidata | Central Bank of Lesotho |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Lesotho |
-| 3 | `ls.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Maseru |
-

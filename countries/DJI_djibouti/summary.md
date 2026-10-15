@@ -28,21 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `assemblee-nationale.dj` | central | ConnectEx... | wikidata;wikidata | National Assembly |
-| 7 | `dised.dj` | central | ConnectEx... | wikidata;academia | DISED |
-| 4 | `banque-centrale.dj` | central | 200 | wikidata | Central Bank of Djibouti |
-| 4 | `instad.dj` |  | 200 | wikidata | Institut National de la Statistique de Djibouti |
-| 3 | `dj.ambafrance.org` | central | 301 | wikidata | Embassy of France, Djibouti |
-| 3 | `djibouti.diplo.de` | central | 200 | wikidata | Embassy of Germany, Djibouti |
-| 3 | `djibouti.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Djibouti |
-| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Djibouti and IGAD |
-| 3 | `univ.edu.dj` | central |  | ror | University of Djibouti |
-| 2 | `ministere-finances.dj` | central | 200 | wikidata;wikidata;academia | Ministry of Economy and Finances |
-

@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `congresonacional.hn` | central | 200 | wikidata;wikidata | National Congress of Honduras |
-| 6 | `jesuitascam.org` |  | 200 | wikidata;wikidata | Jesuit Province of Central America |
-| 6 | `taiwanembassy.org` | central | 302 | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Tegucigalpa |
-| 4 | `bch.hn` | central | ConnectEx... | wikidata | Central Bank of Honduras |
-| 4 | `cne.hn` | central | 403 | wikidata | National Electoral Council of Honduras |
-| 4 | `ihah.hn` |  | 200 | wikidata | Instituto Hondureño de Antropología e Historia |
-| 4 | `ihss.hn` |  | 403 | wikidata | Honduran Social Security Institute |
-| 4 | `iht.hn` |  | 200 | wikidata | Q17634842 |
-| 4 | `mp.hn` |  | SSLHandsh... | wikidata | Public Prosecutor's Office |
-| 3 | `ccetegucigalpa.org` |  | 301 | wikidata | Centro Cultural de España Tegucigalpa |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Honduras |
-| 3 | `hn.ambafrance.org` | central | 301 | wikidata | Embassy of France, Tegucigalpa |
-| 3 | `matricula.unag.edu.hn` | central |  | ror | Universidad Nacional de Agricultura |
-| 3 | `tegucigalpa.diplo.de` | central | 200 | wikidata | Embassy of Germany, Tegucigalpa |
-| 3 | `ujcv.edu.hn` | central |  | ror | Universidad José Cecilio del Valle |
-| 3 | `unacifor.edu.hn` | central |  | ror | Universidad Nacional de Ciencias Forestales |
-| 3 | `unah.edu.hn` | central |  | ror | National Autonomous University of Honduras |
-| 3 | `unph.edu.hn` | central |  | ror | Universidad Nacional de la Policía de Honduras |
-| 3 | `upnfm.edu.hn` | central |  | ror | Universidad Pedagógica Nacional Francisco Morazán |
-| 3 | `uth.hn` | central |  | ror | Universidad Tecnológica de Honduras |
-

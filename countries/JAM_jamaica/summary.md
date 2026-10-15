@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-40 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 5 | `uwi.edu` | central |  | academia;ror | University of the West Indies |
-| 4 | `boj.org.jm` |  | 200 | wikidata | Bank of Jamaica |
-| 4 | `cccj.edu.jm` |  | 301 | wikidata | Council of Community Colleges of Jamaica |
-| 4 | `cla.org.jm` |  | 526 | wikidata | Cannabis Licensing Authority |
-| 4 | `cmu.edu.jm` |  | 200 | wikidata | Caribbean Maritime University |
-| 4 | `instituteofjamaica.org.jm` | central | 200 | wikidata | Institute of Jamaica |
-| 4 | `jamaicapolice.org.jm` |  | HttpConne... | wikidata | Jamaica Rural Police Force |
-| 4 | `jbi.org.jm` | central | 200 | wikidata | Jamaica Bauxite Institute |
-| 4 | `jbs.org.jm` |  | SSLHandsh... | wikidata | Bureau of Standards Jamaica |
-| 4 | `jti.edu.jm` |  | 200 | wikidata | Justice Training Institute of Jamaica |
-| 4 | `mind.edu.jm` | central | 200 | wikidata | Management Institute for National Development |
-| 4 | `nhf.org.jm` |  | 301 | wikidata | National Health Fund |
-| 4 | `odpem.org.jm` |  | 301 | wikidata | Office of Disaster Preparedness and Emergency Management |
-| 4 | `our.org.jm` | central | 200 | wikidata | Office of Utilities Regulation |
-| 4 | `utech.edu.jm` | central |  | academia | University of Technology |
-| 3 | `abilitiesfoundationja.com` |  | 200 | wikidata | Abilities Foundation |
-| 3 | `airportsauthorityjamaica.aero` |  | 200 | wikidata | Airports Authority of Jamaica |
-| 3 | `coconutindustryboardjm.org` | central | 200 | wikidata | Coconut Industry Board |
-| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and C... |
-| 3 | `fscjamaica.org` |  | 301 | wikidata | Financial Services Commission |
-

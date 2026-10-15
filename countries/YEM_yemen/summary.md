@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-66 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `moee-ye.com` | central | 200 | wikidata;wikidata | Ministry of Electricity and Energy |
-| 6 | `seiyunu.edu.ye` | central |  | academia;ror | Seiyun University |
-| 4 | `saba.ye` |  | 302 | wikidata | Saba News Agency |
-| 3 | `21umas.edu.ye` | central |  | ror | 21 September University for Medical and Applied Sciences |
-| 3 | `aau.edu.ye` | central |  | ror | Aljeel Aljadeed University |
-| 3 | `aljazeeraibb.edu.ye` | central |  | ror | Al Jazeera University |
-| 3 | `alrayan-university.edu.ye` | central |  | ror | Al-Rayan University |
-| 3 | `alraziuni.edu.ye` | central |  | ror | Al-Razi University |
-| 3 | `alsaeeduni.edu.ye` | central |  | ror | Al-Saeed University |
-| 3 | `ambafrance-ye.org` | central | ConnectEx... | wikidata | Embassy of France, Sana'a |
-| 3 | `amu.edu.ye` | central |  | ror | Amran University |
-| 3 | `ar-rasheed.edu.ye` | central |  | ror | Ar-Rasheed Smart University |
-| 3 | `arabiafelixacademy.org` |  | SSLHandsh... | wikidata | Majmaʻ al-ʻArabīyah al-saʻīdah |
-| 3 | `auhd.edu.ye` | central |  | ror | Azal University for Human Development |
-| 3 | `civilizationuniv.edu.ye` | central |  | ror | Civilization University |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Yemen |
-| 3 | `eiu.edu.ye` | central |  | ror | Emirates International University |
-| 3 | `gust.edu.ye` | central |  | ror | Genius University for Sciences & Technology |
-| 3 | `hau.edu.ye` | central |  | ror | Hajjah University |
-| 3 | `hikma.edu.ye` | central |  | ror | Al Hikma University |
-

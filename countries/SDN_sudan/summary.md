@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-62 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `iua.edu.sd` | central |  | academia;ror | International University of Africa |
-| 6 | `nyalau.edu.sd` | central |  | academia;ror | Nyala University |
-| 6 | `quran-unv.edu.sd` | central |  | academia;ror | University of the Holy Quran and Islamic Sciences |
-| 6 | `rsu.edu.sd` | central |  | academia;ror | Red Sea University |
-| 6 | `uofg.edu.sd` | central |  | academia;ror | University of Gezira |
-| 6 | `uofs.edu.sd` | central |  | academia;ror | Sinnar University |
-| 6 | `zalingei.edu.sd` | central |  | academia;ror | University of Zalingei |
-| 5 | `uofk.edu` | central |  | academia;ror | University of Khartoum |
-| 4 | `aprc.sd` |  | HttpConne... | wikidata | Animal Production Research Center |
-| 4 | `merowe.edu.sd` | central |  | academia | Merowe University of Technology - Abdulatif Alhamad |
-| 4 | `meteosudan.sd` |  | 200 | wikidata | Sudan Meteorological Authority |
-| 4 | `must.edu.sd` | central |  | academia | Managil University of Science and Technology |
-| 4 | `stu.edu.sd` | central |  | academia | Sudan Technological University |
-| 4 | `sudapost.sd` |  | 200 | wikidata | SudaPost |
-| 4 | `ush.sd` | central |  | academia | Shendi University |
-| 3 | `aau.edu.sd` | central |  | ror | Alzaiem Alazhari University |
-| 3 | `ahfad.edu.sd` | central |  | ror | Ahfad University for Women |
-| 3 | `albutana.edu.sd` | central |  | ror | University of Al-Butana |
-| 3 | `alneelain.edu.sd` | central |  | ror | Al-Neelain University |
-| 3 | `bahri.edu.sd` | central |  | ror | University of Bahri |
-

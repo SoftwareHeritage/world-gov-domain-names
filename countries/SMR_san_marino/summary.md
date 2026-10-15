@@ -28,18 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `esteri.sm` | central | 403 | wikidata;wikidata | Ministry of Foreign Affairs of the Republic of San Marino |
-| 6 | `sanmarino.sm` |  | 302 | un_desa | UN/DESA national portal |
-| 4 | `bibliotecadistato.sm` |  | ConnectEx... | wikidata | State Library of San Marino |
-| 4 | `cultura.sm` |  | 200 | wikidata | State Archives of San Marino |
-| 3 | `sanmarinosite.com` |  | 301 | wikidata | Civil Police |
-| 3 | `unirsm.sm` | central |  | ror | University of the Republic of San Marino |
-| 2 | `consigliograndeegenerale.sm` | central | 302 | wikidata;wikidata | Grand and General Council |
-

@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-60 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
-| 6 | `ucy.ac.cy` | central |  | academia;ror | University of Cyprus |
-| 6 | `wikidata.org` | central | 301 | wikidata;wikidata | Deputy Ministry of Culture of Cyprus |
-| 4 | `agrotourism.com.cy` |  | 200 | wikidata | Cyprus Agrotourism Company |
-| 4 | `centralbank.cy` |  | SSLHandsh... | wikidata | Central Bank of Cyprus |
-| 4 | `cera.org.cy` |  | HttpTimeo... | wikidata | Cyprus Energy Regulatory Authority |
-| 4 | `childcom.org.cy` |  | ConnectEx... | wikidata | Commissioner for Children’s Rights |
-| 4 | `crta.org.cy` |  | 301 | wikidata | Cyprus Radio Television Authority |
-| 4 | `highereducation.ac.cy` |  | 301 | wikidata | Department of Higher Education |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Nicosia |
-| 4 | `ocecpr.ee.cy` |  | 200 | wikidata | Commissioner of Electronic Communications and Postal Regulation |
-| 4 | `pi.ac.cy` |  | ConnectEx... | wikidata | Cyprus Pedagogical Institute |
-| 4 | `resecfund.org.cy` |  | 200 | wikidata | Renewable Energy Sources (RES) and Energy Conservation (EC) Fund |
-| 4 | `unesco.org.cy` |  | 200 | wikidata | Cyprus National Commission for UNESCO |
-| 4 | `wbl.com.cy` |  | ConnectEx... | wikidata | Water Board of Lemesos |
-| 3 | `aubmed.ac.cy` | central |  | ror | American University of Beirut – Mediterraneo |
-| 3 | `aucy.ac.cy` | central |  | ror | American University of Cyprus |
-| 3 | `cut.ac.cy` | central |  | ror | Cyprus University of Technology |
-| 3 | `cy.ambafrance.org` | central | 301 | wikidata | Embassy of France, Nicosia |
-| 3 | `cy.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Nicosia |
-

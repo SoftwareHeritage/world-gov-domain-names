@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-189 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `magyarorszag.hu` |  | SSLHandsh... | un_desa;linkgraph | UN/DESA national portal |
-| 10 | `valasztas.hu` |  | SSLHandsh... | wikidata;wikidata;linkgraph | National Election Office | National Election Commission |
-| 8 | `bv.gov.hu` | central-1 | SSLHandsh... | wikidata;wikidata | Jász-Nagykun-Szolnok County Remand Prison | Hungarian Prison Service |
-| 8 | `mnl.gov.hu` |  | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Magyar Nemzeti Levéltár Pest Megyei Levéltára | National Archives of Hungary ... |
-| 7 | `ahkungarn.hu` |  | 302 | wikidata;wikidata | German-Hungarian Chamber of Industry and Commerce |
-| 7 | `birosag.hu` |  | SSLHandsh... | wikidata;wikidata | Q140998828 | National Court Office |
-| 7 | `kuria-birosag.hu` | central | SSLHandsh... | wikidata;wikidata | Supreme Court of Hungary |
-| 7 | `nodik.hu` | central | ConnectEx... | wikidata;academia | Q18559139 |
-| 7 | `parlament.hu` | central | SSLHandsh... | wikidata;wikidata;wikidata | National Assembly | Office of the National Assembly |
-| 7 | `piarista.hu` |  | 200 | wikidata;wikidata | piarist province of Hungary |
-| 7 | `police.hu` |  | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | National Bureau of Investigation | Baranya  County Police Headquarters | Komá... |
-| 7 | `ugyeszseg.hu` |  | 200 | wikidata;wikidata | Prosecution Service of Hungary |
-| 6 | `bme.hu` | central |  | academia;ror | Budapest University of Technology and Economics |
-| 6 | `budapest.diplo.de` | central | 200 | wikidata;wikidata | Embassy of Germany, Budapest |
-| 6 | `elte.hu` | central |  | academia;ror | Eötvös Loránd University |
-| 6 | `u-szeged.hu` | central |  | academia;ror | University of Szeged |
-| 5 | `ah.gov.hu` |  | SSLHandsh... | wikidata | Constitution Protection Office |
-| 5 | `allamkincstar.gov.hu` |  | SSLHandsh... | wikidata | Hungarian State Treasury |
-| 5 | `haea.gov.hu` |  | ConnectEx... | wikidata | Hungarian Atomic Energy Authority |
-| 5 | `ih.gov.hu` |  | 200 | wikidata | Information Office Hungary |
-

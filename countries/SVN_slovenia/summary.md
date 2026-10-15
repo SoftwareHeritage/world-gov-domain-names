@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-60 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 9 | `sodisce.si` | central | 200 | wikidata;wikidata | Administrative Court of the Republic of Slovenia | Supreme Court of the Repub... |
-| 7 | `dz-rs.si` | central | ConnectEx... | wikidata;wikidata;wikidata | Slovenian Parliament | National Assembly |
-| 7 | `ip-rs.si` | central | 301 | wikidata;linkgraph | Information Commissioner of the Republic of Slovenia |
-| 7 | `lpp.si` |  | 301 | wikidata;wikidata | Ljubljana Passenger Transport |
-| 7 | `nijz.si` |  | 200 | wikidata;wikidata | National Institute of Public Health |
-| 7 | `stat.si` | central | SSLHandsh... | wikidata;academia | Statistical Office of the Republic of Slovenia |
-| 6 | `dominikanci.hr` |  | 200 | wikidata;wikidata | Croatian Dominican Province |
-| 6 | `slowenien.ahk.de` |  | 302 | wikidata;wikidata | German-Slovenian Chamber of Industry and Commerce |
-| 6 | `um.si` | central |  | academia;ror | University of Maribor |
-| 6 | `uni-lj.si` | central |  | academia;ror | University of Ljubljana |
-| 6 | `upr.si` | central |  | academia;ror | University of Primorska |
-| 6 | `us-rs.si` |  | 301 | wikidata | Constitutional Court of Slovenia |
-| 6 | `vlada.si` |  | SSLHandsh... | un_desa | UN/DESA national portal |
-| 4 | `a-tvp.si` |  | 301 | wikidata | Securities Market Agency |
-| 4 | `agen-rs.si` |  | 200 | wikidata | Energy Agency of the Republic of Slovenia |
-| 4 | `ambasadabih.si` | central | 200 | wikidata | embassy of Bosnia and Herzegovina in Slovenia |
-| 4 | `arao.si` |  | 200 | wikidata | Radioactive Waste Management Agency |
-| 4 | `bsi.si` |  | SSLHandsh... | wikidata | Bank of Slovenia |
-| 4 | `ds-rs.si` | central | 200 | wikidata | National Council of Slovenia |
-| 4 | `dvk-rs.si` | central | 302 | wikidata | State Election Commission |
-

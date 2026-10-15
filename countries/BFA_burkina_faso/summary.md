@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-29 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `assembleenationale.bf` | central | 200 | wikidata;wikidata | National Assembly of Burkina Faso |
-| 7 | `insd.bf` | central | SSLHandsh... | wikidata;academia | Institut National de la Statistique et de la Démographie |
-| 6 | `uts.bf` | central |  | academia;ror | Université Thomas-Sankara |
-| 4 | `alt.bf` |  | 200 | wikidata | Transitional Legislative Assembly |
-| 4 | `crsn-nouna.bf` |  | 301 | wikidata | Centre de Recherche en Santé de Nouna |
-| 4 | `gendarmerienationale.bf` |  | 200 | wikidata | National Gendarmerie |
-| 4 | `meteoburkina.bf` |  | 200 | wikidata | Direction Générale de la Météorologie |
-| 3 | `ambalgbf.net` | central | 301 | wikidata | Embassy of Algeria, Ouagadougou |
-| 3 | `bceao.int` |  | ConnectEx... | wikidata | Central Bank of West African States |
-| 3 | `bf.ambafrance.org` | central | 301 | wikidata | Embassy of France, Ouagadougou |
-| 3 | `burkinafaso.um.dk` | central | 301 | wikidata | embassy of Denmark in Burkina Faso |
-| 3 | `cameg.com` |  | 301 | wikidata | Central Procurement Agency for Essential Generic Medicines |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Burkina Faso |
-| 3 | `gwp.org` |  | 301 | wikidata | Global Water Partnership West Africa |
-| 3 | `ouagadougou.diplo.de` | central | 200 | wikidata | Embassy of Germany, Ouagadougou |
-| 3 | `pattec.au.int` |  | ConnectEx... | wikidata | Pan African Tsetse and Trypanosomiasis Eradication Campaign |
-| 3 | `rahimotransport.com` |  | 200 | wikidata | Rahimo transport |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Ouagadougou |
-| 3 | `ujkz.bf` | central |  | ror | Université Joseph Ki-Zerbo |
-| 3 | `univ-dedougou.bf` | central |  | ror | Université Daniel Ouezzin Coulibaly |
-

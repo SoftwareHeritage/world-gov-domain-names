@@ -28,19 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `sib.org.bz` | central | 200 | wikidata;academia | The Statistical Institute of Belize |
-| 6 | `roc-taiwan.org` | central | 302 | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Belize City |
-| 4 | `centralbank.org.bz` |  | 301 | wikidata | Central Bank of Belize |
-| 4 | `nemo.org.bz` |  | 301 | wikidata | Belize National Emergency Management Organisation |
-| 3 | `bnlsis.org` |  | 405 | wikidata | National Library Service of Belize |
-| 3 | `galen.edu.bz` | central |  | ror | Galen University |
-| 3 | `ub.edu.bz` | central |  | ror | University of Belize |
-| 2 | `cahsu.edu` | central |  | ror | Central America Health Sciences University |
-

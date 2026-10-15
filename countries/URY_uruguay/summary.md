@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-36 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `utu.edu.uy` |  | 302 | wikidata;wikidata | University of Labor of Uruguay | General Directorate of Professional Technica... |
-| 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 6 | `jesuitasaru.org` |  | 200 | wikidata;wikidata | Argentine-Uruguayan Jesuit Province |
-| 6 | `utec.edu.uy` | central |  | academia;ror | Universidad Tecnológica |
-| 4 | `anep.edu.uy` | central | 200 | wikidata | National Administration of Public Education |
-| 4 | `anii.org.uy` |  | 200 | wikidata | Agencia Nacional de Investigación e Innovación |
-| 4 | `asse.com.uy` |  | 200 | wikidata | State Health Services Administration |
-| 4 | `colonizacion.com.uy` | central | SSLHandsh... | wikidata | Colonization Institute |
-| 4 | `dgeip.edu.uy` |  | 301 | wikidata | General Directorate for Early and Primary Education |
-| 4 | `dges.edu.uy` |  | SSLHandsh... | wikidata | General Directorate for Secondary Education |
-| 4 | `fau.mil.uy` |  | SSLHandsh... | wikidata | Q1114710 |
-| 4 | `impo.com.uy` |  | 301 | wikidata | National Directorate of Official Printings and Publications |
-| 4 | `inavi.com.uy` |  | SSLHandsh... | wikidata | Q16579066 |
-| 4 | `inia.uy` | central |  | academia | National Institute of Agricultural Research |
-| 4 | `rnu.com.uy` |  | 200 | wikidata | Radiodifusión Nacional del Uruguay |
-| 4 | `universidad.edu.uy` | central |  | academia | University of the Republic |
-| 3 | `consuladoangolaenuruguay.com` | central | ConnectEx... | wikidata | Consulate of Angola, Montevideo |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Uruguay |
-| 3 | `embajadasaharauruguay.blogspot.com` | central | 200 | wikidata | Embassy of the Sahrawi Arab Democratic Republic, Montevideo |
-| 3 | `iuacj.edu.uy` | central |  | ror | Instituto Universitario Asociación Cristiana de Jóvenes |
-

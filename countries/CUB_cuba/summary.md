@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-69 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `cubagob.cu` |  | HttpConne... | un_desa;wikidata;wikidata | Q116796288 | Council of State of Cuba | UN/DESA national portal |
-| 7 | `cubaminrex.cu` | central | ProtocolE... | wikidata;wikidata | Ministry of Foreign Affairs |
-| 7 | `mes.edu.cu` | central | ConnectEx... | wikidata;wikidata | Ministry of Higher Education of Cuba |
-| 7 | `sld.cu` | central | ConnectEx... | wikidata;wikidata | Ministry of Public Health |
-| 6 | `centroamericaribeschp.com` |  | 400 | wikidata;wikidata | Piarist province Central America- Caribbean |
-| 6 | `cujae.edu.cu` | central |  | academia;ror | Polytechnic José Antonio Echeverría |
-| 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 6 | `uh.cu` | central |  | academia;ror | University of Havana |
-| 6 | `uo.edu.cu` | central |  | academia;ror | University of Santiago de Cuba |
-| 4 | `acdam.cu` |  | SSLHandsh... | wikidata | ACDAM |
-| 4 | `acn.cu` |  | 301 | wikidata | Cuban News Agency |
-| 4 | `ama.cu` |  | ConnectEx... | wikidata | Environmental Agency of Cuba |
-| 4 | `arnac.cu` |  | SSLHandsh... | wikidata | National Archive of the Republic of Cuba |
-| 4 | `bnjm.cu` |  | HttpConne... | wikidata | National Library José Martí |
-| 4 | `cdm.gtmo.inf.cu` |  | ConnectEx... | wikidata | Centro de Desarrollo de la Montaña |
-| 4 | `cecmed.cu` |  | ConnectEx... | wikidata | CECMED |
-| 4 | `centis.cu` |  | HttpConne... | wikidata | Centro de Isotopos |
-| 4 | `cnic.edu.cu` | central |  | academia | Centro Nacional de Investigaciones Científicas |
-| 4 | `eleccionesencuba.cu` | central | HttpConne... | wikidata | National Electoral Council of Cuba |
-| 4 | `ensap.sld.cu` | central |  | academia | Escuela Nacional de Salud Pública |
-

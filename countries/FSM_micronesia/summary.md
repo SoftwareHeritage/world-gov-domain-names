@@ -28,14 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 5 | `fsmgov.org` |  | 200 | un_desa | UN/DESA national portal |
-| 4 | `fsmhealth.fm` |  | HttpConne... | wikidata | Department of Health and Social Affairs |
-| 4 | `fsmstatistics.fm` |  | SSLHandsh... | wikidata | FM Statistics |
-

@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `mindef.mil.gt` | central | ConnectEx... | wikidata;wikidata | Ministry of Defense |
-| 4 | `pdh.org.gt` |  | 403 | wikidata | Human Rights Ombudsman of Guatemala |
-| 4 | `tse.org.gt` | central | 403 | wikidata | Supreme Electoral Supreme |
-| 4 | `usac.edu.gt` | central |  | academia | Universidad de San Carlos de Guatemala |
-| 3 | `bomberosvoluntariosdeguatemala.com` |  | 301 | wikidata | Bomberos Voluntarios |
-| 3 | `cucv.edu.gt` | central |  | ror | Centro Universitario Ciudad Vieja |
-| 3 | `cunoc.edu.gt` | central |  | ror | Centro Universitario de Occidente |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Guatemala |
-| 3 | `ghrc-usa.org` |  | HttpTimeo... | wikidata | Guatemala Human Rights Commission |
-| 3 | `gt.ambafrance.org` | central | 301 | wikidata | Embassy of France, Guatemala City |
-| 3 | `guat.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Guatemala |
-| 3 | `guatemala.diplo.de` | central | 200 | wikidata | Embassy of Germany, Guatemala |
-| 3 | `portal.usac.edu.gt` | central |  | ror | Universidad de San Carlos de Guatemala |
-| 3 | `principal.url.edu.gt` | central |  | ror | Universidad Rafael Landívar |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Guatemala City |
-| 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Guatemala City |
-| 3 | `umes.edu.gt` | central |  | ror | Mesoamerican University |
-| 3 | `umg.edu.gt` | central |  | ror | Universidad Mariano Galvez |
-| 3 | `unis.edu.gt` | central |  | ror | Universidad del Istmo |
-| 3 | `upana.edu.gt` | central |  | ror | Universidad Panamericana |
-

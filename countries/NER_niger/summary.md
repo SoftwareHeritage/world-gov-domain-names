@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `msp.ne` |  | ConnectEx... | wikidata;wikidata | Ministry of Public Health |
-| 6 | `stat-niger.org` | central | 301 | wikidata;academia | Institut National de la Statistique |
-| 4 | `ansi.ne` |  | 200 | wikidata | National Agency for the Information Society |
-| 4 | `inran.refer.ne` |  | HttpConne... | wikidata | National Institute of Agronomic Research of Niger |
-| 4 | `police.ne` |  | ConnectEx... | wikidata | National Police of Niger |
-| 4 | `tribunalcommerceniamey.ne` |  | ConnectEx... | wikidata | Commercial court of Niamey |
-| 3 | `ambafrance-ne.org` | central | ConnectEx... | wikidata | Embassy of France in Niamey |
-| 3 | `ambarimniamey.com` | central | ConnectEx... | wikidata | Embassy of Mauritania, Niamey |
-| 3 | `bceao.int` |  | ConnectEx... | wikidata | Central Bank of West African States |
-| 3 | `cnc-niger.org` |  | ConnectEx... | wikidata | Centre National de la Cinématographie du Niger |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Niger |
-| 3 | `embassyofpakistan.com` |  | 200 | wikidata | Embassy of Pakistan in Niger |
-| 3 | `enam.ne` | central |  | ror | École Nationale d'Administration et de Magistrature |
-| 3 | `lesahel.org` |  | 301 | wikidata | Q139304709 |
-| 3 | `maaun.edu.ne` | central |  | ror | Maryam Abacha American University of Niger |
-| 3 | `ne.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Niamey |
-| 3 | `niamey.diplo.de` | central | 200 | wikidata | Embassy of Germany, Niamey |
-| 3 | `uam.edu.ne` | central |  | ror | Université Abdou Moumouni |
-| 3 | `uas.edu.ne` | central |  | ror | Université André Salifou |
-| 3 | `uddm.edu.ne` | central |  | ror | Université de Maradi |
-

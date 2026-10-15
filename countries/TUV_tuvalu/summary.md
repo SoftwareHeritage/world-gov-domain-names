@@ -28,17 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 5 | `tuvaluislands.com` |  | HttpConne... | un_desa | UN/DESA national portal |
-| 4 | `tuvaluarchives.tv` |  | 200 | wikidata | Tuvalu National Library and Archives |
-| 3 | `roc-taiwan.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Funafuti |
-| 3 | `stampsoftuvalu.com` | central | 301 | wikidata | Tuvalu Philatelic Bureau |
-| 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Funafuti |
-| 3 | `usp.ac.fj` | central |  | academia | University of the South Pacific |
-

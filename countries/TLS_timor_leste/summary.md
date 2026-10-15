@@ -28,23 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `parlamento.tl` | central | HttpConne... | wikidata;wikidata | National Parliament |
-| 4 | `anpm.tl` |  | ConnectEx... | wikidata | Q124094298 |
-| 4 | `bancocentral.tl` |  | 200 | wikidata | Banco Central de Timor-Leste |
-| 4 | `mineralstender.anpm.tl` |  | ConnectEx... | wikidata | Q124094424 |
-| 4 | `pntl.tl` |  | SSLHandsh... | wikidata | National Police of East Timor |
-| 3 | `dit.edu.tl` | central |  | ror | Dili Institute of Technology |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Timor-Leste |
-| 3 | `undil.tl` | central |  | ror | Universidade de Díli |
-| 3 | `unital.edu.tl` | central |  | ror | Universidade Oriental Timor Lorosa'e |
-| 3 | `unpaz.tl` | central |  | ror | Universidade da Paz |
-| 3 | `untl.edu.tl` | central |  | ror | National University of East Timor |
-| 1 | `holyrosaryprovince.org` |  | 301 | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
-

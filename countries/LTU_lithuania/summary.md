@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-103 domain(s) proposed for validation, of which 4 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `stat.gov.lt` | central | 301 | wikidata;academia | State Data Agency of Lithuania |
-| 7 | `lnb.lt` | central | 200 | wikidata;wikidata | Martynas Mažvydas National Library of Lithuania |
-| 7 | `vert.lt` | central | 403 | wikidata;wikidata | National Energy Regulatory Council of Lithuania | The National Energy Regulat... |
-| 7 | `vilnius.lt` | central-1 | 403 | wikidata;wikidata | Vilnius City Municipality Administration |
-| 7 | `zeit.lt` |  | 301 | wikidata;wikidata | The Office of the Inspector of Journalist Ethics |
-| 6 | `jesuiten.org` |  | 301 | wikidata;wikidata | Jesuit Province of Central Europe |
-| 6 | `ku.lt` | central |  | academia;ror | Klaipėda University |
-| 6 | `lat.lt` | central | 403 | wikidata | Supreme Court of Lithuania |
-| 6 | `lrkt.lt` | central | 403 | wikidata | Constitutional Court of Lithuania |
-| 6 | `lsu.lt` | central |  | academia;ror | Lithuanian Sports University |
-| 5 | `kt.gov.lt` |  | SSLHandsh... | wikidata | Competition Council |
-| 5 | `mruni.eu` | central |  | academia;ror | Mykolas Romeris University |
-| 5 | `strata.gov.lt` |  | 403 | wikidata | Government Strategic Analysis Center |
-| 4 | `ada.lt` | central | 403 | wikidata | State Data Protection Inspectorate |
-| 4 | `apeliacinis.lt` |  | 403 | wikidata | The Court of Appeal of Lithuania |
-| 4 | `arbitrazas.lt` |  | 301 | wikidata | Vilnius Court of Commercial Arbitration |
-| 4 | `ena.lt` |  | 301 | wikidata | Lithuanian Energy Agency |
-| 4 | `etikostarnyba.lt` |  | 200 | wikidata | Office of the Ombudsperson for Academic Ethics and Procedures, Lithuania |
-| 4 | `gamtostyrimai.lt` |  | 200 | wikidata | Nature Research Centre |
-| 4 | `genocid.lt` |  | 301 | wikidata | Genocide and Resistance Research Centre of Lithuania |
-

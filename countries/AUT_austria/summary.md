@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-208 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `agraroekonomik.at` | central | 301 | wikidata;academia | Federal Institute of Agricultural Economics |
-| 7 | `bundesheer.at` |  | 404 | wikidata;wikidata | Abwehramt | Heeresnachrichtenamt |
-| 7 | `bundeskriminalamt.at` |  | 301 | wikidata;wikidata | Q105324455 | Federal Criminal Police Office |
-| 7 | `geosphere.at` |  | 302 | wikidata;wikidata | GeoSphere Austria | Central Institute for Meteorology and Geodynamics / GeoSp... |
-| 7 | `piaristen.at` |  | 200 | wikidata;wikidata | Piarist province of Austria |
-| 7 | `sozialministerium.at` | central | 301 | wikidata;wikidata | Federal Ministry of Labour, Social Affairs, Health, Care and Consumer Protection |
-| 7 | `umweltbundesamt.at` |  | SSLHandsh... | wikidata;wikidata;wikidata | Federal Environment Agency (Austria) |
-| 7 | `vorarlberg.at` | central-1 | 200 | wikidata;wikidata;wikidata | Amt der Vorarlberger Landesregierung | District Captaincy Bregenz | Landtag o... |
-| 7 | `wko.at` |  | HttpConne... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Wirtschaftskammer Niederösterreich | Vorarlberg Economic Chamber | Carinthian... |
-| 6 | `dieangewandte.at` | central |  | academia;ror | University of Applied Arts Vienna |
-| 6 | `euro.centre.org` |  | 308 | wikidata;wikidata | European Centre for Social Welfare Policy and Research |
-| 6 | `it-u.at` | central |  | academia;ror | ITU – Interdisciplinary Transformation University Austria |
-| 6 | `jesuiten.org` |  | 301 | wikidata;wikidata | Jesuit Province of Central Europe |
-| 6 | `meduniwien.ac.at` | central |  | academia;ror | Medical University of Vienna |
-| 6 | `tuwien.at` | central |  | academia;ror | TU Wien |
-| 6 | `uibk.ac.at` | central |  | academia;ror | University of Innsbruck |
-| 6 | `wu.ac.at` | central |  | academia;ror | Vienna University of Economics and Business |
-| 4 | `aiz.at` |  | 200 | wikidata | Abwasserverband Achental-Inntal-Zillertal |
-| 4 | `akbild.ac.at` | central |  | academia | Academy of Fine Arts Vienna |
-| 4 | `algerische-botschaft.at` | central | SSLHandsh... | wikidata | Embassy of Algeria, Vienna |
-

@@ -28,18 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 5 | `shabait.com` |  | 200 | un_desa | UN/DESA national portal |
-| 3 | `asmara.diplo.de` | central | 200 | wikidata | Embassy of Germany, Asmara |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Eritrea |
-| 3 | `er.ambafrance.org` | central | 301 | wikidata | Embassy of France, Asmara |
-| 3 | `eritrea.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Eritrea |
-| 3 | `eritreanarchives.org` |  | SSLHandsh... | wikidata | Research and Documentation Center |
-| 2 | `universityofasmara.com` | central |  | ror | University of Asmara |
-

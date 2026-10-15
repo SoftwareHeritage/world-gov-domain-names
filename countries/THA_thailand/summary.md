@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-186 domain(s) proposed for validation, of which 5 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `gistda.or.th` |  | SSLHandsh... | wikidata;wikidata | Geo-Informatics and Space Technology Development Agency |
-| 7 | `royaloffice.th` | central | 308 | wikidata;wikidata | Bureau of the Royal Household |
-| 6 | `bsru.ac.th` | central |  | academia;ror | Bansomdejchaopraya Rajabhat University |
-| 6 | `chula.ac.th` | central |  | academia;ror | Chulalongkorn University |
-| 6 | `constitutionalcourt.or.th` |  | 302 | wikidata | Constitutional Court of Thailand |
-| 6 | `dru.ac.th` | central |  | academia;ror | Dhonburi Rajabhat University |
-| 6 | `office.constitutionalcourt.or.th` |  | HttpConne... | wikidata | Office of the Constitutional Court of Thailand |
-| 4 | `aerothai.co.th` |  | 200 | wikidata | Aeronautical Radio of Thailand |
-| 4 | `bangkok.mfa.gov.hu` | central | SSLHandsh... | wikidata | embassy of Hungary to Thailand |
-| 4 | `biotec.or.th` |  | HttpConne... | wikidata | BIOTEC |
-| 4 | `bot.or.th` |  | HttpConne... | wikidata | Bank of Thailand |
-| 4 | `cicot.or.th` |  | HttpConne... | wikidata | Central Islamic Council of Thailand |
-| 4 | `en.thaihealth.or.th` |  | 200 | wikidata | Thai Health Promotion Foundation |
-| 4 | `glo.or.th` |  | ConnectEx... | wikidata | Thai Government Lottery Office |
-| 4 | `gpo.or.th` |  | 200 | wikidata | Government Pharmaceutical Organization |
-| 4 | `ksp.or.th` |  | ConnectEx... | wikidata | Teachers' Council of Thailand |
-| 4 | `mtec.or.th` | central |  | academia | Thailand National Metal and Materials Technology Center |
-| 4 | `nectec.or.th` |  | HttpConne... | wikidata | National Electronics and Computer Technology Center |
-| 4 | `nimt.or.th` |  | 200 | wikidata | National Institute of Metrology (Thailand) |
-| 4 | `nxpo.or.th` |  | HttpTimeo... | wikidata | Office of National Higher Education Science Research and Innovation Policy Co... |
-

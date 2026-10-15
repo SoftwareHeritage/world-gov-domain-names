@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-28 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `parlament.mt` | central | 200 | wikidata;wikidata | Parliament of Malta |
-| 6 | `gesuiti.it` |  | 200 | wikidata;wikidata | Euromediterranean Province of the Jesuits |
-| 6 | `um.edu.mt` | central |  | academia;ror | University of Malta |
-| 4 | `era.org.mt` |  | 200 | wikidata | Environment and Resources Authority |
-| 4 | `festivals.mt` |  | 301 | wikidata | Festivals Malta Agency |
-| 4 | `foodagency.mt` |  | 200 | wikidata | Malta Food Agency |
-| 4 | `idpc.org.mt` | central | 200 | wikidata | Office of the Information and Data Protection Commissioner |
-| 4 | `maltaheraldry.mt` |  | 200 | wikidata | Office of the Chief Herald of Arms of Malta |
-| 4 | `mccaa.org.mt` |  | HttpTimeo... | wikidata | Malta Competition and Consumer Affairs Authority |
-| 4 | `mfsa.com.mt` | central | 301 | wikidata | Malta Financial Service Authority |
-| 4 | `mfsa.mt` | central | 301 | wikidata | Malta Financial Service Authority |
-| 4 | `mra.org.mt` |  | SSLHandsh... | wikidata | Malta Resources Authority |
-| 4 | `pa.org.mt` |  | 403 | wikidata | Planning Authority |
-| 3 | `centralbankmalta.org` |  | 301 | wikidata | Central Bank of Malta |
-| 3 | `ghanahighcommission-malta.com` | central | ConnectEx... | wikidata | high commission of Ghana in Malta |
-| 3 | `heritagemalta.org` |  | 301 | wikidata | Heritage Malta |
-| 3 | `infrastructuremalta.com` |  | SSLHandsh... | wikidata | Infrastructure Malta |
-| 3 | `malta.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Malta |
-| 3 | `malta.representation.ec.europa.eu` |  | 302 | wikidata | European Commission Representation in Malta |
-| 3 | `maltaenterprise.com` |  | 200 | wikidata | Malta Enterprise |
-

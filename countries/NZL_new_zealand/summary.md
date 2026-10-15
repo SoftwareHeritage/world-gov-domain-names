@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-62 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `www3.parliament.nz` |  | 301 | wikidata;wikidata | Office of the Clerk of the House of Representatives | New Zealand Parliamenta... |
-| 7 | `niwa.co.nz` | central | 200 | wikidata;academia | National Institute of Water and Atmospheric Research |
-| 6 | `auckland.ac.nz` | central |  | academia;ror | University of Auckland |
-| 6 | `lincoln.ac.nz` | central |  | academia;ror | Lincoln University |
-| 6 | `massey.ac.nz` | central |  | academia;ror | Massey University |
-| 6 | `otago.ac.nz` | central |  | academia;ror | University of Otago |
-| 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in New Zealand | Taipei Economic and Cult... |
-| 6 | `tabnz.org` |  | 308 | wikidata;wikidata | TAB NZ | New Zealand Racing Board |
-| 6 | `waikato.ac.nz` | central |  | academia;ror | University of Waikato |
-| 6 | `wgtn.ac.nz` | central |  | academia;ror | Victoria University of Wellington |
-| 5 | `ombudsman.parliament.nz` | central | 403 | wikidata | Office of the Ombudsman |
-| 4 | `acc.co.nz` |  | 301 | wikidata | Accident Compensation Corporation |
-| 4 | `agmardt.org.nz` |  | 200 | wikidata | Agricultural and Marketing Research and Development Trust |
-| 4 | `agresearch.co.nz` |  | 301 | wikidata | AgResearch |
-| 4 | `aucklandstadiums.co.nz` |  | 301 | wikidata | Auckland Stadiums |
-| 4 | `cookhicom.org.nz` | central | 404 | wikidata | High Commission of the Cook Islands, Wellington |
-| 4 | `dst.mil.nz` |  | 200 | wikidata | Defence Science and Technology |
-| 4 | `fiji.org.nz` | central | 200 | wikidata | High Commission of the Republic of Fiji in New Zealand |
-| 4 | `hnzc.co.nz` | central | 301 | wikidata | Housing New Zealand Corporation |
-| 4 | `metroinfo.co.nz` |  | 301 | wikidata | Metro |
-

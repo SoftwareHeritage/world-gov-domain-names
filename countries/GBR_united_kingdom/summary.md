@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-1243 domain(s) proposed for validation, of which 119 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `bankofengland.co.uk` |  | SSLHandsh... | wikidata;wikidata;directory | Prudential Regulation Authority | Bank of England |
-| 10 | `bbc.co.uk` |  | 301 | linkgraph;directory | BBC (Public corporation) | BBC World Service (Other) |
-| 10 | `cqc.org.uk` |  | 302 | wikidata;linkgraph;directory | Care Quality Commission |
-| 10 | `electoralcommission.org.uk` | central | 301 | wikidata;linkgraph;directory | Electoral Commission |
-| 10 | `england.nhs.uk` |  | 301 | wikidata;linkgraph;directory | NHS England |
-| 10 | `gov.scot` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph;directory | His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | ... |
-| 10 | `gov.wales` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | Department for Education and Skills | Welsh Government |
-| 10 | `hra.nhs.uk` |  | 301 | wikidata;linkgraph;directory | Gene Therapy Advisory Committee |
-| 10 | `ico.org.uk` | central | 200 | wikidata;linkgraph;directory | Information Commissioner's Office |
-| 10 | `nhsbsa.nhs.uk` |  | 301 | linkgraph;directory | NHS Business Services Authority (Special health authority) |
-| 10 | `nsandi.com` |  | 301 | wikidata;wikidata;directory | National Savings and Investments |
-| 10 | `ofcom.org.uk` |  | 301 | wikidata;linkgraph;directory | Ofcom |
-| 10 | `ombudsman.org.uk` |  | 301 | wikidata;linkgraph;directory | Parliamentary and Health Service Ombudsman |
-| 10 | `ordnancesurvey.co.uk` |  | 301 | wikidata;wikidata;wikidata;linkgraph;directory | British Ordnance Survey |
-| 10 | `parliament.uk` | central | 301 | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | House of Commons | Parliament of the United Kingdom | House of Lords |
-| 10 | `rbht.nhs.uk` |  | 301 | wikidata;wikidata;linkgraph | NIHR Royal Brompton Cardiovascular Biomedical Research Unit | NIHR Royal Brom... |
-| 9 | `birmingham.ac.uk` | central | 301 | wikidata;academia;ror | NIHR Birmingham Liver Biomedical Research Unit | University of Birmingham |
-| 9 | `gla.ac.uk` | central | 301 | wikidata;academia;ror | MRC-University of Glasgow Centre For Virus Research | University of Glasgow |
-| 9 | `hee.nhs.uk` |  | 301 | wikidata;linkgraph | Health Education England |
-| 9 | `llyw.cymru` | central-1 | 301 | wikidata;wikidata;linkgraph | Welsh Government |
-

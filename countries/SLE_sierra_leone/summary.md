@@ -28,24 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `statistics.sl` | central | 301 | wikidata;academia | Statistics Sierra Leone |
-| 6 | `recoletos.ph` |  | HttpTimeo... | wikidata;wikidata | Province of Saint Ezequiél Moreno |
-| 6 | `slminerals.org` | central | 301 | wikidata;wikidata | Ministry of Mineral Resources of Sierra Leone |
-| 4 | `slcs.sl` | central | 301 | wikidata | Sierra Leone Correctional Service |
-| 3 | `afro.who.int` |  | 200 | wikidata | World Health Organization - Sierra Leone |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Sierra Leone |
-| 3 | `etusl.edu.sl` | central |  | ror | Eastern Technical University of Sierra Leone |
-| 3 | `fourahbaycollege.net` | central |  | academia | Fourah Bay College |
-| 3 | `freetown.diplo.de` | central | 200 | wikidata | Embassy of Germany, Freetown |
-| 3 | `njala.edu.sl` | central |  | ror | Njala University |
-| 3 | `unimak.edu.sl` | central |  | ror | University of Makeni |
-| 3 | `unimtech.edu.sl` | central |  | ror | University of Management and Technology |
-| 3 | `usl.edu.sl` | central |  | ror | University of Sierra Leone |
-

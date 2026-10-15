@@ -28,34 +28,6 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-157 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `citizensinformationboard.ie` |  | 301 | wikidata;wikidata | Citizens Information Board |
-| 7 | `coru.ie` | central | SSLHandsh... | wikidata;wikidata | CORU | Health and Social Care Professionals Council (CORU) |
-| 7 | `courts.ie` | central | 200 | wikidata;wikidata | Courts Service | Special Criminal Court |
-| 7 | `cso.ie` | central | 301 | wikidata;academia | Central Statistics Office |
-| 7 | `epa.ie` |  | SSLHandsh... | wikidata;wikidata | Radiological Protection Institute of Ireland | Environmental Protection Agency |
-| 7 | `garda.ie` | central | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Garda National Economic Crime Bureau | Garda National Cyber Crime Bureau | Ga... |
-| 7 | `german-irish.ie` |  | 301 | wikidata;wikidata | German-Irish Chamber of Industry and Commerce |
-| 7 | `ihrec.ie` |  | 301 | wikidata;wikidata | Irish Human Rights Commission | Irish Human Rights and Equality Commission |
-| 7 | `nationalarchives.ie` |  | 200 | wikidata;wikidata | National Archives of Ireland |
-| 6 | `dcu.ie` | central |  | academia;ror | Dublin City University |
-| 6 | `ireland.representation.ec.europa.eu` |  | 302 | wikidata;wikidata | European Commission Representation in Ireland |
-| 6 | `supremecourt.ie` | central | 200 | wikidata | Supreme Court of Ireland |
-| 6 | `tcd.ie` | central |  | academia;ror | University of Dublin |
-| 6 | `ucc.ie` | central |  | academia;ror | University College Cork |
-| 6 | `ucd.ie` | central |  | academia;ror | University College Dublin |
-| 6 | `universityofgalway.ie` | central |  | academia;ror | University of Galway |
-| 4 | `aaiu.ie` |  | SSLHandsh... | wikidata | Air Accident Investigation Unit |
-| 4 | `airnav.ie` |  | HttpConne... | wikidata | Irish Air Navigation Service |
-| 4 | `artscouncil.ie` |  | HttpConne... | wikidata | Arts Council of Ireland |
-| 4 | `botanicgardens.ie` | central |  | academia | National Botanic Gardens |
-
 ## ccTLD anomalies
 
 Domains outside `.ie` (allowed: common gTLDs + ``):

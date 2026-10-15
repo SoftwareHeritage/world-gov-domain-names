@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-31 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `bahrain.bh` |  | 301 | un_desa | UN/DESA national portal |
-| 6 | `uob.edu.bh` | central |  | academia;ror | University of Bahrain |
-| 4 | `bna.bh` |  | 405 | wikidata | Bahrain News Agency |
-| 4 | `btea.bh` |  | SSLHandsh... | wikidata | Bahrain Tourism and Exhibitions Authority |
-| 4 | `lmra.bh` |  | HttpConne... | wikidata | Labour Market Regulatory Authority |
-| 4 | `mumtalakat.bh` |  | 301 | wikidata | Mumtalakat Holding Company |
-| 4 | `nuwab.bh` | central | ConnectEx... | wikidata | Council of Representatives |
-| 4 | `qaa.edu.bh` |  | HttpConne... | wikidata | Quality Assurance Authority for Education and Training |
-| 4 | `sjc.bh` | central | HttpConne... | wikidata | Supreme Judicial Council |
-| 4 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata | Embassy of the United Arab Emirates, Manama |
-| 4 | `tra.org.bh` |  | 403 | wikidata | Telecommunications Regulatory Authority of Bahrain |
-| 3 | `agu.edu.bh` | central |  | ror | Arabian Gulf University |
-| 3 | `ahlia.edu.bh` | central |  | ror | Ahlia University |
-| 3 | `aou.org.bh` | central |  | ror | Arab Open University |
-| 3 | `asu.edu.bh` | central |  | ror | Applied Science University |
-| 3 | `aubh.edu.bh` | central |  | ror | American University of Bahrain |
-| 3 | `bahrain.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia to Bahrain |
-| 3 | `bahrainedb.com` |  | 405 | wikidata | Bahrain Economic Development Board |
-| 3 | `bapcoenergies.com` |  | 302 | wikidata | Bapco Energies |
-| 3 | `bh.ambafrance.org` | central | 301 | wikidata | Embassy of France, Manama |
-

@@ -28,21 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `parlamento.gw` | central | 308 | wikidata;wikidata | National People's Assembly |
-| 6 | `stat-guinebissau.com` | central | 200 | wikidata;academia | Instituto Nacional de Estatística |
-| 4 | `uac.gw` | central |  | academia | Universidade Amílcar Cabral |
-| 3 | `bceao.int` |  | ConnectEx... | wikidata | Central Bank of West African States |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Guinea-Bissau |
-| 3 | `guinea-bissau.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Guinea-Bissau |
-| 3 | `gw.ambafrance.org` | central | 301 | wikidata | Embassy of France, Bissau |
-| 3 | `gw.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Bissau |
-| 3 | `inep-bissau.org` |  | 301 | wikidata | National Library of Guinea-Bissau |
-| 3 | `ulusofona.gw` | central |  | ror | Universidade Lusófona da Guiné |
-

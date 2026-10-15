@@ -28,13 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-2 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 3 | `vu.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port Vila |
-| 2 | `usp.ac.fj` | central |  | ror | University of the South Pacific - Emalus Campus |
-

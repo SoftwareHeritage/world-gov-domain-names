@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-33 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `maorif.tj` | central | 200 | wikidata;wikidata | Ministry of Education and Science of Tajikistan |
-| 7 | `mort.tj` | central | SSLHandsh... | wikidata;wikidata | Ministry of Defence |
-| 7 | `stat.tj` | central | 301 | wikidata;academia | TAJSTAT |
-| 7 | `vfarhang.tj` | central | SSLHandsh... | wikidata;wikidata | Ministry of Culture of Tajikistan |
-| 6 | `constcourt.tj` | central | 200 | wikidata | Constitutional Court of Tajikistan |
-| 6 | `president.tj` |  | 200 | un_desa | UN/DESA national portal |
-| 4 | `ansmi.tj` |  | 200 | wikidata | Q137103754 |
-| 4 | `izar.tj` |  | 200 | wikidata | Rudaki Institute of Language and Literature |
-| 4 | `khkt.tj` |  | 301 | wikidata | National Library of Tajikistan |
-| 4 | `kmt.tj` |  | 200 | wikidata | National Library of Tajikistan |
-| 4 | `majmilli.tj` | central | 200 | wikidata | National Assembly of Tajikistan |
-| 4 | `mitas.tj` |  | SSLHandsh... | wikidata | Institute of Mathematics National Academy of Science of Tajikistan |
-| 4 | `nbt.tj` |  | 302 | wikidata | National Bank of Tajikistan |
-| 3 | `dotr.tj` | central |  | ror | Tajik Pedagogical Institute in the Rasht District |
-| 3 | `duschanbe.diplo.de` | central | 200 | wikidata | embassy of Germany, Dushanbe |
-| 3 | `dushanbe.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Tajikistan |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Tajikistan |
-| 3 | `feit.tj` | central |  | ror | Finance and Economics Institute of Tajikistan |
-| 3 | `hgu.tj` | central |  | ror | Khujand State University |
-| 3 | `kgu.tj` | central |  | ror | Kulyab State University named after Abuabdullo Rudaki |
-

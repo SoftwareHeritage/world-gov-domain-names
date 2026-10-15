@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-71 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `diplocam.cm` | central | 301 | wikidata;wikidata | Ministry of External Relations |
-| 7 | `ins-cameroun.cm` | central | 200 | wikidata;academia | Cameroon's National Institute of Statistics |
-| 7 | `minader.cm` | central | 301 | wikidata;wikidata | Ministry of Agriculture and rural development |
-| 7 | `minas.cm` | central | SSLHandsh... | wikidata;wikidata | Ministry of Social Affairs |
-| 7 | `minedub.cm` | central | SSLHandsh... | wikidata;wikidata | Ministry of Basic Education |
-| 7 | `minmap.cm` | central | 301 | wikidata;wikidata | Ministry of Public Procurement |
-| 7 | `minpmeesa.cm` | central | 200 | wikidata;wikidata | Ministry of small and medium-sized enterprises, social economy and handicrafts |
-| 7 | `minsante.cm` | central | 200 | wikidata;wikidata | Ministry of Public Health |
-| 7 | `minsep.cm` | central | SSLHandsh... | wikidata;wikidata | Ministry of Sports in Cameroon |
-| 7 | `mintss.cm` | central | 302 | wikidata;wikidata | Ministry of Labour and Social Security |
-| 6 | `campack-cm.com` | central | 200 | wikidata;wikidata | Ministry of Scientific Research and Innovation |
-| 6 | `ccaa.aero` |  | 301 | wikidata;wikidata | CCAA |
-| 6 | `coursupreme.cm` | central | 200 | wikidata | Supreme Court of Cameroon |
-| 6 | `minmidt.net` | central | 200 | wikidata;wikidata | Ministry of Mines, Industry and Technological Development |
-| 6 | `piaristesafriquecentrale.org` |  | ConnectEx... | wikidata;wikidata | Piarist province of Central Africa |
-| 6 | `univ-garoua.cm` | central |  | academia;ror | University of Garoua |
-| 6 | `univ-maroua.cm` | central |  | academia;ror | Université de Maroua |
-| 6 | `uy1.uninet.cm` | central |  | academia;ror | Université de Yaoundé I |
-| 4 | `antic.cm` |  | SSLHandsh... | wikidata | Agence Nationale des Technologies de l'Information et de la Communication |
-| 4 | `apn.cm` |  | 301 | wikidata | Q137164175 |
-

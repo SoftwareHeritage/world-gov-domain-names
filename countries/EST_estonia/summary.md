@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-70 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `eki.ee` | central | 200 | wikidata;academia | Institute of the Estonian Language |
-| 7 | `fi.ee` | central | 301 | wikidata;wikidata | Financial Supervision Authority |
-| 7 | `politsei.ee` |  | 301 | wikidata;wikidata | Estonian Police | Police and Border Guard Board |
-| 7 | `riigikantselei.ee` |  | 200 | wikidata;linkgraph | Government Office |
-| 7 | `stat.ee` | central | 301 | wikidata;academia | Statistics Estonia |
-| 6 | `riigikohus.ee` | central | 302 | wikidata | Supreme Court of Estonia |
-| 6 | `riigiteataja.ee` |  | 302 | linkgraph | Linked from 10 public-sector domains |
-| 6 | `tlu.ee` | central |  | academia;ror | Tallinn University |
-| 6 | `ut.ee` | central |  | academia;ror | University of Tartu |
-| 4 | `aki.ee` | central | 302 | wikidata | Estonian Data Protection Inspectorate |
-| 4 | `archimedes.ee` |  | 200 | wikidata | Archimedes Foundation |
-| 4 | `chinaembassy.ee` | central | ConnectEx... | wikidata | Embassy of the People's Republic of China in Tallinn |
-| 4 | `e-tervis.ee` |  | ConnectEx... | wikidata | Estonian E-Health Foundation |
-| 4 | `eas.ee` |  | 301 | wikidata | Estonian Space Office |
-| 4 | `eestipank.ee` |  | 307 | wikidata | Bank of Estonia |
-| 4 | `egt.ee` |  | 200 | wikidata | Geological Survey of Estonia |
-| 4 | `emta.ee` |  | 200 | wikidata | Estonian Tax and Customs Board |
-| 4 | `epa.ee` | central | 302 | wikidata | Estonian Patent Office |
-| 4 | `etag.ee` |  | 200 | wikidata | Estonian Research Agency |
-| 4 | `etki.ee` | central |  | academia | Centre of Estonian Rural Research and Knowledge |
-

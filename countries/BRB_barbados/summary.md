@@ -28,20 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 4 | `cbc.bb` |  | 301 | wikidata | Caribbean Broadcasting Corporation |
-| 4 | `centralbank.org.bb` |  | 301 | wikidata | Central Bank of Barbados |
-| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Barbados, the Eastern Caribbean States, t... |
-| 3 | `uwi.edu` | central |  | academia | University of the West Indies |
-| 2 | `aubmed.org` | central |  | ror | American University of Barbados |
-| 2 | `biu.university` | central |  | ror | Bridgetown International University |
-| 2 | `cavehill.uwi.edu` | central |  | ror | University of the West Indies |
-| 2 | `rossu.edu` | central |  | ror | Ross University School of Medicine |
-| 1 | `barbadosparliament.com` | central | 200 | wikidata;wikidata;wikidata;wikidata | Parliament of Barbados | Senate of Barbados | House of Assembly of Barbados |
-

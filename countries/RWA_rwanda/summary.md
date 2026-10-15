@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-39 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `rp.ac.rw` | central | 301 | wikidata;ror | RP  Rwanda Polytechnic |
-| 6 | `ur.ac.rw` | central |  | academia;ror | University of Rwanda |
-| 4 | `agaciro.rw` |  | 200 | wikidata | AgDF  Agaciro Corporate Trust Ltd |
-| 4 | `bnr.rw` |  | 200 | wikidata | National Bank of Rwanda |
-| 4 | `cma.rw` |  | 301 | wikidata | Rwanda Capital Market Authority CMA |
-| 4 | `ikigega.rw` |  | 301 | wikidata | SGF  Special Guarantee Fund |
-| 4 | `irst.ac.rw` | central |  | academia | Rwandan National Institute of Scientific Research |
-| 4 | `lands.rw` |  | 301 | wikidata | RLMUA  Rwanda Land Management and Use Authority |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Kigali |
-| 4 | `raeb.prod.risa.rw` |  | HttpConne... | wikidata | Rwanda Atomic Energy Board |
-| 4 | `rdb.rw` |  | 200 | wikidata | Rwanda Development Board |
-| 4 | `rfa.rw` |  | 301 | wikidata | Q136509270 |
-| 4 | `rpa.ac.rw` |  | 301 | wikidata | Rwanda Peace Academy |
-| 4 | `rssb.rw` |  | 200 | wikidata | Rwanda Social Security Board |
-| 4 | `rura.rw` |  | 301 | wikidata | Rwanda Utilities Regulatory Authority |
-| 4 | `rwb.rw` |  | 301 | wikidata | Rwanda Water Resources Board |
-| 4 | `unesco.rw` |  | HttpConne... | wikidata | Rwanda National Commission for UNESCO |
-| 3 | `ahsu.ac.rw` | central |  | ror | Africa Health Sciences University |
-| 3 | `auca.ac.rw` | central |  | ror | Adventist University of Central Africa |
-| 3 | `cst.ur.ac.rw` | central |  | ror | College of Science and Technology - University of Rwanda |
-

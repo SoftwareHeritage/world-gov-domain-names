@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-45 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `agroprod.kg` | central | 403 | wikidata;wikidata | Ministry of Agriculture, Food Industry and Melioration |
-| 7 | `en.mes.kg` | central | ConnectEx... | wikidata;wikidata | Ministry of Emergency Situations of Kyrgyzstan |
-| 7 | `kenesh.kg` | central | 200 | wikidata;wikidata | Supreme Council |
-| 7 | `med.kg` | central | 200 | wikidata;wikidata | Ministry of Health of Kyrgyzstan |
-| 7 | `mvd.kg` | central | SSLHandsh... | wikidata;wikidata | Ministry of the Interior |
-| 7 | `stat.kg` | central | SSLHandsh... | wikidata;academia | National Statistical Committee |
-| 4 | `archive.kg` |  | SSLHandsh... | wikidata | Central State Archives of the Republic of Kyrgyzstan |
-| 4 | `biskek.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary to Kyrgyzstan |
-| 4 | `manas.edu.kg` | central |  | academia | Manas University |
-| 4 | `mfa.kg` |  | ConnectEx... | wikidata | Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic |
-| 4 | `nbkr.kg` |  | 200 | wikidata | National Bank of the Kyrgyz Republic |
-| 4 | `vak.kg` |  | 200 | wikidata | Higher Attestation Commission of Kyrgyzstan |
-| 3 | `adam.edu.kg` | central |  | ror | Bishkek Academy of Finance and Economics |
-| 3 | `alatoo.edu.kg` | central |  | ror | Ala-Too International University |
-| 3 | `arabaev.kg` | central |  | ror | Kyrgyz State National University |
-| 3 | `asmi.edu.kg` | central |  | ror | S. Tentishev Asian Medical Institute |
-| 3 | `auca.kg` | central |  | ror | American University of Central Asia |
-| 3 | `batmu.kg` | central |  | ror | Batken State University |
-| 3 | `bhu.kg` | central |  | ror | Bishkek Humanities University |
-| 3 | `bischkek.diplo.de` | central | 200 | wikidata | Embassy of Germany, Bishkek |
-

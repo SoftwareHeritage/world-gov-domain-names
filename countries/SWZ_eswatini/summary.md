@@ -28,16 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 4 | `centralbank.org.sz` |  | 301 | wikidata | Central Bank of Eswatini |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Eswatini |
-| 3 | `sanu.ac.sz` | central |  | ror | Southern Africa Nazarene University |
-| 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Mbabane |
-| 3 | `uniswa.sz` | central |  | ror | University of Eswatini |
-

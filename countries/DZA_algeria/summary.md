@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-162 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `ansej.org.dz` | central | HttpConne... | wikidata;wikidata | Agence nationale de soutien à l'emploi des jeunes |
-| 7 | `cerist.dz` | central | SSLHandsh... | wikidata;academia | Centre de Recherche sur l'Information Scientifique et Technique |
-| 7 | `dgf.org.dz` |  | HttpConne... | wikidata;wikidata | Q25386281 | Q25387129 |
-| 7 | `dgsn.dz` | central | ConnectEx... | wikidata;wikidata;wikidata;wikidata;wikidata | Algerian police | General Directorate of National Security |
-| 7 | `elmadjlis-hci.dz` |  | 301 | wikidata;wikidata | Supreme Islamic Council of Algeria |
-| 7 | `inrf.dz` | central |  | academia;academia | Institut National de Recherche Forestière | National Forest Research Institute |
-| 7 | `m-moudjahidine.dz` | central | SSLHandsh... | wikidata;wikidata | Ministry of Mujahidin |
-| 7 | `mdn.dz` | central | ConnectEx... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Ministry of National Defense (Algeria) | État-major de l'armée algérienne | N... |
-| 7 | `mesrs.dz` | central | ConnectEx... | wikidata;wikidata | Ministry of Higher Education and Scientific Research |
-| 7 | `mptic.dz` | central | ConnectEx... | wikidata;wikidata | Ministry of Post and Telecommunications |
-| 7 | `ogebc.dz` |  | 200 | wikidata;wikidata | Q92324509 |
-| 7 | `sante.dz` |  | HttpConne... | wikidata;wikidata | Ministère de la Santé |
-| 6 | `apn-dz.org` | central | 200 | wikidata;wikidata | Parliament of Algeria |
-| 6 | `coursupreme.dz` | central | 200 | wikidata | Supreme Court of Algeria |
-| 6 | `el-mouradia.dz` |  | HttpConne... | un_desa | UN/DESA national portal |
-| 6 | `univ-alger.dz` | central |  | academia;ror | University of Algiers 1 |
-| 6 | `univ-alger2.dz` | central |  | academia;ror | Algiers 2 University |
-| 6 | `univ-alger3.dz` | central |  | academia;ror | University of Algiers 3 |
-| 6 | `univ-annaba.dz` | central |  | academia;ror | Badji Mokhtar-Annaba University |
-| 6 | `univ-bejaia.dz` | central |  | academia;ror | University of Béjaïa |
-

@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-113 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `eastgalil.org.il` |  | 200 | wikidata;wikidata | Q16338638 |
-| 7 | `israelhpr.org.il` | central | 301 | wikidata;wikidata;academia | Israel National Institute for Health Policy Research |
-| 7 | `rabincenter.org.il` |  | 301 | wikidata;wikidata | Yitzhak Rabin Center |
-| 7 | `shazar.org.il` |  | 301 | wikidata;wikidata | The Zalman Shazar Center |
-| 7 | `telaviv.mfa.gov.hu` | central | SSLHandsh... | wikidata;wikidata | Hungarian embassy, Tel-Aviv |
-| 6 | `ariel.ac.il` | central |  | academia;ror | Ariel University |
-| 6 | `autoridadnasionala.wixsite.com` |  | 404 | wikidata;wikidata | Autoridad Nasionala del Ladino | Akademia Nasionala del Ladino |
-| 6 | `bgu.ac.il` | central |  | academia;ror | Ben-Gurion University of the Negev |
-| 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
-| 6 | `haifa.ac.il` | central |  | academia;ror | University of Haifa |
-| 6 | `openu.ac.il` | central |  | academia;ror | Open University of Israel |
-| 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in Tel Aviv |
-| 6 | `wegalil.org` |  | 200 | wikidata;wikidata | Eshkol - Galil Maaravi |
-| 6 | `yadvashem.org` |  | 302 | wikidata;wikidata | Yad Vashem |
-| 4 | `academy.ac.il` |  | 200 | wikidata | Israel Academy of Sciences and Humanities |
-| 4 | `antiquities.org.il` |  | 301 | wikidata | Israel Antiquities Authority |
-| 4 | `begincenter.org.il` |  | 301 | wikidata | Menachem Begin Heritage Center |
-| 4 | `beitdin.org.il` |  | 200 | wikidata | Q86001497 |
-| 4 | `besor.org.il` |  | 302 | wikidata | Shikma-Besor Drainage and Streams Authority |
-| 4 | `bgh.org.il` |  | 200 | wikidata | The Ben Gurion Heritage Institute |
-

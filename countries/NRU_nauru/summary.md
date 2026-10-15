@@ -28,13 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-2 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `naurugov.nr` | central | ConnectEx... | un_desa;wikidata;wikidata | Parliament of Nauru | UN/DESA national portal |
-| 3 | `usp.ac.fj` | central |  | academia | University of the South Pacific |
-

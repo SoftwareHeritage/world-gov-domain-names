@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-44 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `fuerzasarmadas.mil.do` |  | ConnectEx... | wikidata;wikidata | Q17347140 |
-| 6 | `centroamericaribeschp.com` |  | 400 | wikidata;wikidata | Piarist province Central America- Caribbean |
-| 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
-| 6 | `uasd.edu.do` | central |  | academia;ror | Autonomous University of Santo Domingo |
-| 5 | `bancentral.gov.do` |  | 200 | wikidata | Central Bank of the Dominican Republic |
-| 4 | `cesfront.mil.do` | central | 200 | wikidata | Cuerpo Especializado en Seguridad Fronteriza Terrestre |
-| 3 | `do.ambafrance.org` | central | 301 | wikidata | Embassy of France, Santo Domingo |
-| 3 | `do.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Santo Domingo |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to the Dominican Republic |
-| 3 | `ince.edu.do` | central |  | ror | Universidad Instituto Nacional de Ciencias Exactas |
-| 3 | `intec.edu.do` | central |  | ror | Instituto Tecnológico de Santo Domingo |
-| 3 | `isa.edu.do` | central |  | ror | Universidad ISA |
-| 3 | `itla.edu.do` | central |  | ror | Instituto Tecnológico de las Américas |
-| 3 | `nederlandwereldwijd.nl` | central | 301 | wikidata | Embassy of the Netherlands, Santo Domingo |
-| 3 | `pucmm.edu.do` | central |  | ror | Pontificia Universidad Católica Madre y Maestra |
-| 3 | `santo-domingo.diplo.de` | central | 200 | wikidata | Embassy of Germany, Santo Domingo |
-| 3 | `uafam.edu.do` | central |  | ror | Universidad Agroforestal Fernando Arturo de Meriño |
-| 3 | `uapa.edu.do` | central |  | ror | Universidad Abierta Para Adultos |
-| 3 | `ucade.edu.do` | central |  | ror | Universidad Católica del Este |
-| 3 | `ucateba.edu.do` | central |  | ror | Universidad Católica Tecnológica de Barahona |
-

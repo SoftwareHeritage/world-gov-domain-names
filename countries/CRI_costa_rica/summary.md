@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-65 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `centroamericaribeschp.com` |  | 400 | wikidata;wikidata | Piarist province Central America- Caribbean |
-| 6 | `jesuitascam.org` |  | 200 | wikidata;wikidata | Jesuit Province of Central America |
-| 6 | `procomer.com` |  | 200 | wikidata;wikidata | Costa Rican Foreign Trade Promoter |
-| 4 | `ane.cr` |  | 200 | wikidata | Agencia Nacional de Empleo |
-| 4 | `bccr.fi.cr` |  | 404 | wikidata | Central Bank of Costa Rica |
-| 4 | `cenat.ac.cr` | central |  | academia | National High Technology Center |
-| 4 | `comisionunesco.cr` |  | 301 | wikidata | Costa Rica National Commission for Cooperation with UNESCO |
-| 4 | `inbio.ac.cr` | central |  | academia | National Biodiversity Institute |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, San Jose |
-| 4 | `sen.inec.cr` |  | 200 | wikidata | Sistema Estadístico Nacional |
-| 3 | `ccecr.aecid.es` |  | 200 | wikidata | Q141100276 |
-| 3 | `costarica.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Costa Rica |
-| 3 | `cr.ambafrance.org` | central | 301 | wikidata | Embassy of France, San José |
-| 3 | `cr.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, San José |
-| 3 | `earth.ac.cr` | central |  | ror | Earth University |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Costa Rica |
-| 3 | `embocr.com` | central | SSLHandsh... | wikidata | embassy of Bolivia in Costa Rica |
-| 3 | `fundazoo.org` | central |  | academia | Parque Zoológico Nacional Simón Bolívar |
-| 3 | `fundepos.ac.cr` | central |  | ror | Universidad Fundepos |
-| 3 | `inbio.eas.ualberta.ca` | central |  | academia | National Biodiversity Institute |
-

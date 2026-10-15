@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-171 domain(s) proposed for validation, of which 8 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `eos-utvalget.no` |  | 200 | wikidata;wikidata | Norwegian Parliamentary Intelligence Oversight Committee |
-| 7 | `etikkom.no` |  | SSLHandsh... | wikidata;wikidata | Norwegian National Research Ethics Committees |
-| 7 | `finnmarkssykehuset.no` |  | 301 | wikidata;wikidata | Finnmark Hospital Trust |
-| 7 | `kartverket.no` |  | 200 | wikidata;wikidata | Norwegian Mapping Authority |
-| 7 | `kriminalomsorgen.no` |  | 308 | wikidata;wikidata | Norwegian Correctional Service | Directorate of Correctional Services |
-| 7 | `nfk.no` | central-1 | 301 | wikidata;wikidata | Board of the Nordland county municipality |
-| 7 | `norges-bank.no` |  | 301 | wikidata;wikidata | Norges Bank |
-| 7 | `oslo.kommune.no` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | Gravferdsetaten i Oslo kommune | Oslo city government | Q11981507 | Q10382646... |
-| 7 | `psykiskhelse.no` |  | 200 | wikidata;wikidata | Norwegian Council for Mental Health |
-| 7 | `radetfordyreetikk.no` |  | 301 | wikidata;wikidata | Council for Animal Ethics |
-| 7 | `romsenter.no` |  | 307 | wikidata;wikidata | Norwegian Space Agency |
-| 7 | `samordnaopptak.no` |  | 301 | wikidata;wikidata | Norwegian Universities and Colleges Admission Service |
-| 7 | `sikt.no` |  | 200 | wikidata;wikidata | Norwegian Agency for Shared Services in Education and Research |
-| 7 | `unesco.no` |  | 200 | wikidata;wikidata | Norwegian National Commission for UNESCO | Q17765624 |
-| 7 | `visitalta.no` |  | 200 | wikidata;wikidata | VISIT ALTA AS |
-| 6 | `nobelpeaceprize.org` |  | 301 | wikidata;wikidata | Norwegian Nobel Institute |
-| 6 | `norwegen.ahk.de` |  | 302 | wikidata;wikidata | German-Norwegian Chamber of Commerce |
-| 6 | `uio.no` | central |  | academia;ror | University of Oslo |
-| 5 | `lovdata.no` |  | 200 | linkgraph | Linked from 6 public-sector domains |
-| 4 | `abm-utvikling.no` |  | 200 | wikidata | Norwegian Archive, Library and Museum Authority |
-

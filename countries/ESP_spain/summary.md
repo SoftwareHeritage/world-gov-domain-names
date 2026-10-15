@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-757 domain(s) proposed for validation, of which 219 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `aemet.es` |  | HttpConne... | wikidata;linkgraph | Agencia Estatal de Meteorología |
-| 10 | `aepd.es` | central | 301 | wikidata;linkgraph | Spanish Data Protection Agency |
-| 10 | `asturias.es` | central-1 | SSLHandsh... | wikidata;wikidata;wikidata;linkgraph | Government of the Principality of Asturias | Q9076467 |
-| 10 | `boe.es` |  | HttpConne... | wikidata;linkgraph | State Agency for the Official State Gazette |
-| 10 | `carm.es` | central-1 | SSLHandsh... | wikidata;wikidata;linkgraph | Council of Government of the Region of Murcia |
-| 10 | `castillalamancha.es` | central-1 | 200 | wikidata;wikidata;wikidata;linkgraph | Regional Government of Castilla–La Mancha | Regional Government of Castile-La... |
-| 10 | `comunidad.madrid` | central-1 | 301 | wikidata;wikidata;linkgraph | Community of Madrid Fire Department | Instituto Madrileño de Investigación y ... |
-| 10 | `csic.es` | central | SSLHandsh... | wikidata;wikidata;wikidata;linkgraph | Spanish National Research Council | Centro de Recursos Fitogenéticos |
-| 10 | `dgt.es` |  | 302 | wikidata;wikidata;linkgraph | Directorate-General for Traffic |
-| 10 | `gva.es` | central-1 | ConnectEx... | wikidata;wikidata;wikidata;wikidata;linkgraph | Generalitat Valenciana | Q2993785 |
-| 10 | `ign.es` | central | SSLHandsh... | wikidata;academia;linkgraph | Instituto Geográfico Nacional |
-| 10 | `ine.es` | central | SSLHandsh... | wikidata;academia;linkgraph | National Statistics Institute |
-| 10 | `juntadeandalucia.es` | central-1 | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Jaen University Hospital | Q10862925 | Q16552044 | Ministry of Culture and Hi... |
-| 10 | `madrid.org` | central-1 | ConnectEx... | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Consejería de Educación, Juventud y Deporte | Government of the Community of ... |
-| 10 | `navarra.es` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Government of Navarra | Departamento de Salud (Navarre) | Servicio Navarro de... |
-| 10 | `ordenacionjuego.es` | central | SSLHandsh... | wikidata;wikidata;linkgraph | Dirección General de Ordenación del Juego |
-| 9 | `gobiernodecanarias.org` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Caldera de Taburiente National Park | Agencia Canaria de Investigación, Innov... |
-| 9 | `red.es` | central | 308 | wikidata;linkgraph | Red.es |
-| 9 | `web.unican.es` | central | 200 | wikidata;academia;ror | Instituto de Biomedicina y Biotecnología de Cantabria |
-| 8 | `gov.gva.es` | central-1 | ConnectEx... | wikidata;wikidata;wikidata;wikidata | Q21094623 | Q11915354 |
-

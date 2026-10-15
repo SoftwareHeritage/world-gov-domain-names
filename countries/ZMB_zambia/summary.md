@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-43 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `unza.zm` | central |  | academia;ror | University of Zambia |
-| 4 | `boz.zm` |  | HttpConne... | wikidata | Bank of Zambia |
-| 4 | `nac.org.zm` |  | 200 | wikidata | National HIV/AIDS/STI/TB Council |
-| 4 | `nhra.org.zm` |  | 301 | wikidata | National Health Research Authority |
-| 4 | `zema.org.zm` |  | 301 | wikidata | Zambia Environmental Management Agency |
-| 4 | `zicta.zm` |  | SSLHandsh... | wikidata | Zambia Information and Communications Technology Authority |
-| 4 | `zma.org.zm` |  | SSLHandsh... | wikidata | Zambia Metrology Agency |
-| 4 | `znphi.co.zm` |  | SSLExcept... | wikidata | Zambia National Public Health Institute |
-| 3 | `ambafrance-zm.org` | central | ConnectEx... | wikidata | Embassy of France, Lusaka |
-| 3 | `cbu.edu.zm` | central |  | ror | Copperbelt University |
-| 3 | `chau.ac.zm` | central |  | ror | Chalimbana University |
-| 3 | `copperstone.ac.zm` | central |  | ror | Copperstone University |
-| 3 | `cosecsa.org` |  | 301 | wikidata | Surgical Society of Zambia |
-| 3 | `dmiseu.edu.zm` | central |  | ror | DMI St. Eugene University |
-| 3 | `edenuniversity.edu.zm` | central |  | ror | Eden University |
-| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Zambia and COMESA |
-| 3 | `finlandabroad.fi` | central | 301 | wikidata | embassy of Finland in Zambia |
-| 3 | `gartzambia.org` |  | 200 | wikidata | Golden Valley Agricultural Research Trust |
-| 3 | `ghanahighcommission-zambia.com` | central | ConnectEx... | wikidata | high commission of Ghana in Zambia |
-| 3 | `kmu.ac.zm` | central |  | ror | Kapasa Makasa University |
-

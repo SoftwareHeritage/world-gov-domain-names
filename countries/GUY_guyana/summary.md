@@ -28,22 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `uog.edu.gy` | central |  | academia;ror | University of Guyana |
-| 4 | `bankofguyana.org.gy` |  | 301 | wikidata | Bank of Guyana |
-| 4 | `cdc.gy` |  | 302 | wikidata | Civil Defense Commission of Guyana |
-| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Guyana, for Suriname, and with responsibi... |
-| 3 | `gnbsgy.org` |  | 200 | wikidata | Guyana National Bureau of Standards |
-| 3 | `guyana.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Guyana |
-| 3 | `hcigeorgetown.org` | central | 301 | wikidata | High Commission of India, Georgetown |
-| 3 | `nationallibraryofguyana.com` |  | HttpConne... | wikidata | National Library of Guyana |
-| 3 | `surguychamber.org` |  | 200 | wikidata | Suriname-Guyana Kamer van Koophandel |
-| 2 | `gtech.university` | central |  | ror | Gemsville Technical University |
-| 2 | `tauedu.org` | central |  | ror | Texila American University |
-

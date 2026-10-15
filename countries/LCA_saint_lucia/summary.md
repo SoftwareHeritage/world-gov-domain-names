@@ -28,22 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `health.govt.lc` | central | 200 | wikidata;wikidata | Ministry of Health and Wellness |
-| 8 | `parliament.govt.lc` | central | 200 | wikidata;wikidata | Parliament of Saint Lucia |
-| 7 | `govt.lc` |  | 301 | un_desa | UN/DESA national portal |
-| 3 | `eccb-centralbank.org` |  | ConnectEx... | wikidata | Eastern Caribbean Central Bank |
-| 3 | `iau.edu.lc` | central |  | ror | International American University |
-| 3 | `lc.ambafrance.org` | central | 301 | wikidata | Embassy of France in Castries |
-| 3 | `slbs.org` |  | 301 | wikidata | Saint Lucia Bureau of Standards |
-| 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Gros Islet |
-| 2 | `aimu.us` | central |  | ror | American International Medical University |
-| 2 | `cucom.org` | central |  | ror | Commonwealth University College of Medicine |
-| 2 | `spartanmed.org` | central |  | ror | Spartan Health Sciences University |
-

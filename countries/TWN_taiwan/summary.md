@@ -21,31 +21,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-223 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `ait.org.tw` | central-1 | 301 | wikidata;wikidata;wikidata | American Institute in Taiwan | Kaohsiung Branch Office of the American Instit... |
-| 7 | `edu.tw` | central | ConnectEx... | wikidata;wikidata | Ministry of Education of Taiwan |
-| 7 | `english.doh.gov.taipei` | central | 200 | wikidata;wikidata | Ministry of Health and Welfare |
-| 7 | `english.gov.taipei` | central-1 | 200 | wikidata;wikidata | Taipei City Government |
-| 7 | `family.gov.taipei` |  | 200 | wikidata;wikidata | Q130404967 |
-| 7 | `gov.taipei` | central-1 | ConnectEx... | wikidata;wikidata | Taipei City Government |
-| 7 | `meco.org.tw` |  | ConnectEx... | wikidata;wikidata | Manila Economic and Cultural Office, Taichung Extension Office | Manila Econo... |
-| 7 | `naer.edu.tw` |  | ConnectEx... | wikidata;wikidata | National Academy for Educational Research |
-| 7 | `ncl.edu.tw` |  | ConnectEx... | wikidata;wikidata;wikidata | Open Lab Multimedia Center National Central Library | National Central Library |
-| 7 | `ngdo.gov.taipei` | central-1 | 200 | wikidata;wikidata | Nangang District Office, Taipei City |
-| 7 | `whdo.gov.taipei` | central-1 | 200 | wikidata;wikidata | Wanhua District Office, Taipei City |
-| 7 | `youth.gov.taipei` |  | HttpTimeo... | wikidata;wikidata | Department for Youth of Taipei City Government |
-| 6 | `ccu.edu.tw` | central |  | academia;ror | National Chung Cheng University |
-| 6 | `eeas.europa.eu` |  | 200 | wikidata;wikidata | European Economic and Trade Office in Taiwan |
-| 6 | `france-taipei.org` |  | 301 | wikidata;wikidata | French Office in Taipei |
-| 6 | `koryu.or.jp` |  | ConnectEx... | wikidata;wikidata | Japan-Taiwan Exchange Association, Kaohsiung Office | Interchange Association... |
-| 6 | `nccu.edu.tw` | central |  | academia;ror | National Chengchi University |
-| 6 | `nchu.edu.tw` | central |  | academia;ror | National Chung Hsing University |
-| 6 | `ncnu.edu.tw` | central |  | academia;ror | National Chi Nan University |
-| 6 | `ncu.edu.tw` | central |  | academia;ror | National Central University |
-

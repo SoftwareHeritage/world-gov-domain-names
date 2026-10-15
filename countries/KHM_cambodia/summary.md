@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-53 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 6 | `hiscambodia.org` | central | HttpConne... | wikidata;wikidata | Ministry of Health |
-| 4 | `grk.com.kh` |  | ConnectEx... | wikidata | Royal Gendarmerie of Cambodia |
-| 4 | `nac.org.kh` | central | 200 | wikidata | National Assembly |
-| 4 | `nbc.org.kh` | central | HttpConne... | wikidata | National Bank of Cambodia |
-| 4 | `necelect.org.kh` |  | ConnectEx... | wikidata | National Election Committee of Cambodia |
-| 4 | `niph.org.kh` | central |  | academia | National Institute of Public Health |
-| 3 | `aeu.edu.kh` | central |  | ror | Asia Euro University |
-| 3 | `angkor.edu.kh` | central |  | ror | Angkor University |
-| 3 | `aub.edu.kh` | central |  | ror | ACLEDA University of Business |
-| 3 | `aupp.edu.kh` | central |  | ror | American University of Phnom Penh |
-| 3 | `bbu.edu.kh` | central |  | ror | Build Bright University |
-| 3 | `beltei.edu.kh` | central |  | ror | Beltei International University |
-| 3 | `csuk.edu.kh` | central |  | ror | Chea Sim University of Kamchaymear |
-| 3 | `cus.edu.kh` | central |  | ror | Cambodian University for Specialties |
-| 3 | `diu.edu.kh` | central |  | ror | Dewey International University |
-| 3 | `dmuc.edu.kh` | central |  | ror | De Montfort University Cambodia |
-| 3 | `eamu.edu.kh` | central |  | ror | East Asia Management University |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Cambodia |
-| 3 | `embrusscambodia.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia, Phnom Penh |
-| 3 | `iic.edu.kh` | central |  | ror | IIC University of Technology |
-

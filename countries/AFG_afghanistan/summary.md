@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-66 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `parliament.af` | central | ConnectEx... | wikidata;wikidata | National Assembly of Afghanistan |
-| 4 | `aihrc.org.af` |  | ConnectEx... | wikidata | Afghan Independent Human Rights Commission |
-| 3 | `af.ambafrance.org` | central | 301 | wikidata | Embassy of France, Kabul |
-| 3 | `afghanistan.diplo.de` | central | 200 | wikidata | Embassy of Germany, Kabul |
-| 3 | `aiiu.edu.af` | central |  | ror | Afghan International Islamic University |
-| 3 | `alfalah.edu.af` | central |  | ror | Alfalah University |
-| 3 | `anastu.edu.af` | central |  | ror | Afghanistan National Agricultural Sciences and Technology University |
-| 3 | `au.edu.af` | central |  | ror | Alberoni University |
-| 3 | `auaf.edu.af` | central |  | ror | American University of Afghanistan |
-| 3 | `ba.edu.af` | central |  | ror | Balkh University |
-| 3 | `badakhshan.edu.af` | central |  | ror | Badakhshan University |
-| 3 | `bakhtar.edu.af` | central |  | ror | Bakhtar University |
-| 3 | `bayazidrokhan.edu.af` | central |  | ror | Bayazid Rokhan Institute of Higher Education |
-| 3 | `bost.edu.af` | central |  | ror | Bost University |
-| 3 | `bu.edu.af` | central |  | ror | Bamyan University |
-| 3 | `dawat.edu.af` | central |  | ror | Dawat University |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Afghanistan |
-| 3 | `emro.who.int` |  | ConnectEx... | wikidata | World Health Organization - Afghanistan |
-| 3 | `farau.edu.af` | central |  | ror | Farah University |
-| 3 | `faryab.edu.af` | central |  | ror | Faryab University |
-

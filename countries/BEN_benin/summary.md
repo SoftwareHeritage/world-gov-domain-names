@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-36 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `assemblee-nationale.bj` | central | 200 | wikidata;wikidata | National Assembly |
-| 7 | `finances.bj` | central | 500 | wikidata;wikidata | Ministry of Economy and Finance |
-| 7 | `instad.bj` | central | 200 | wikidata;academia | Institut National de la Statistique et de l'Analyse Économique |
-| 6 | `misiones.cubaminrex.cu` |  | SSLHandsh... | wikidata;wikidata | embassy of Cuba in Benin |
-| 6 | `uac.bj` | central |  | academia;ror | University of Abomey-Calavi |
-| 6 | `una.bj` | central |  | academia;ror | Université d'Agriculture de Kétou |
-| 5 | `cour-constitutionnelle-benin.org` | central | 200 | wikidata | Constitutional Court of Benin |
-| 5 | `presidence.bj` |  | 200 | wikidata | Q136687303 |
-| 5 | `uakbenin.org` | central |  | academia;ror | Université d'Agriculture de Kétou |
-| 4 | `anip.bj` |  | 200 | wikidata | Q118262736 |
-| 4 | `anpe.bj` |  | 200 | wikidata | Q110013813 |
-| 4 | `cbdh.bj` |  | 200 | wikidata | Benin Human Rights Commission |
-| 4 | `cci.bj` |  | 200 | wikidata | Q107274708 |
-| 4 | `cnss.bj` |  | 200 | wikidata | Q118174383 |
-| 4 | `eservices.anip.bj` |  | 200 | wikidata | Q118262736 |
-| 3 | `bceao.int` |  | ConnectEx... | wikidata | Central Bank of West African States |
-| 3 | `benin.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Benin and Togo |
-| 3 | `bj.ambafrance.org` | central | 301 | wikidata | Embassy of France, Cotonou |
-| 3 | `cotonou.diplo.de` | central | 200 | wikidata | Embassy of Germany, Cotonou |
-| 3 | `dan.ilemi.net` |  | ConnectEx... | wikidata | National Archives of Benin |
-

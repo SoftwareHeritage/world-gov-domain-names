@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-211 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `just.ro` | central | 200 | wikidata;wikidata;linkgraph | Ministry of Justice |
-| 7 | `ahkrumaenien.ro` |  | 301 | wikidata;wikidata | German-Romanian Chamber of Industry and Commerce |
-| 7 | `arhivelenationale.ro` |  | 503 | wikidata;wikidata | National Historical Central Archives | National Archives of Romania |
-| 7 | `cultura.ro` | central | 503 | wikidata;wikidata | Ministry of Culture |
-| 7 | `dataprotection.ro` | central | 200 | wikidata;linkgraph | National Supervisory Authority for Personal Data Processing |
-| 7 | `edu.ro` | central | 200 | wikidata;wikidata | Ministry of Education of Romania |
-| 7 | `insse.ro` | central | SSLHandsh... | wikidata;academia | National Institute of Statistics |
-| 7 | `madr.ro` | central | SSLHandsh... | wikidata;wikidata | Ministry of Agriculture and Rural Development of Romania |
-| 7 | `mae.ro` | central | 503 | wikidata;wikidata | Ministry of Foreign Affairs of Romania |
-| 7 | `mapn.ro` | central | 410 | wikidata;wikidata | Ministry of National Defense |
-| 7 | `mcsi.ro` | central | ConnectEx... | wikidata;wikidata | Ministry of Communications and Information Society |
-| 7 | `mdlpa.ro` | central | HttpConne... | wikidata;wikidata | Ministry for Development, Public Works and Administration |
-| 7 | `mmediu.ro` | central | 200 | wikidata;wikidata | Ministry of Environment, Water and Forests |
-| 7 | `mmuncii.ro` | central | 503 | wikidata;wikidata | Ministry of Labour, Family, Youth and Social Solidarity |
-| 7 | `ms.ro` | central | 302 | wikidata;wikidata | Ministry of Health |
-| 7 | `parlament.ro` | central | HttpConne... | wikidata;wikidata | Parliament of Romania |
-| 7 | `rosa.ro` |  | SSLHandsh... | wikidata;wikidata | Romanian Space Agency |
-| 6 | `ase.ro` | central |  | academia;ror | Bucharest University of Economic Studies |
-| 6 | `gesuiti.it` |  | 200 | wikidata;wikidata | Euromediterranean Province of the Jesuits |
-| 6 | `guv.ro` |  | ConnectEx... | un_desa | UN/DESA national portal |
-

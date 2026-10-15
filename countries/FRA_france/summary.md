@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 34 of 193
 - Government type: semi-presidential republic
 - Capital: Paris
-- Hosts collected: 2342
+- Hosts collected: 2488
 
 ## UN/DESA national portal
 
@@ -28,41 +28,18 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-475 domain(s) proposed for validation, of which 20 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 10 | `assemblee-nationale.fr` | central | ConnectEx... | wikidata;wikidata;wikidata;wikidata;linkgraph | National Assembly | Franco-German Parliamentary Assembly |
-| 10 | `cnil.fr` | central | 301 | wikidata;linkgraph | National Commission on Informatics and Liberty |
-| 10 | `gouvernement.fr` | central | 301 | un_desa;wikidata;wikidata | Council of Ministers | UN/DESA national portal |
-| 9 | `ameli.fr` |  | 301 | wikidata;linkgraph | health insurance in France |
-| 9 | `caf.fr` |  | 302 | wikidata;linkgraph | Caisse d'allocations familiales |
-| 8 | `paris.fr` |  | 301 | wikidata;linkgraph | Inspection générale des carrières |
-| 8 | `senat.fr` | central | 301 | wikidata;linkgraph | Senate |
-| 7 | `ac-spm.fr` | central-1 | ConnectEx... | wikidata;wikidata | Service of the National Education of Saint Pierre and Miquelon |
-| 7 | `bourgognefranchecomte.fr` | central-1 | 200 | wikidata;linkgraph | Regional council of Bourgogne-Franche-Comté |
-| 7 | `cnrgv.toulouse.inrae.fr` |  | 200 | wikidata;wikidata | Q2945937 |
-| 7 | `cnrs.fr` | central | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia | CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Rous... |
-| 7 | `corse.fr` | central-1 | HttpConne... | wikidata;wikidata | Executive Council of Corsica |
-| 7 | `ctguyane.fr` |  | 301 | wikidata;wikidata | Assembly of French Guiana |
-| 7 | `france.fr` |  | 301 | linkgraph | Linked from 29 public-sector domains |
-| 7 | `gouv.nc` | central-1 | 200 | wikidata;wikidata | Q3112596 |
-| 7 | `guadeloupe.ars.sante.fr` | central-1 | 301 | wikidata;wikidata | Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy |
-| 7 | `ihemi.fr` |  | 301 | wikidata;wikidata | Institut des hautes études du ministère de l'Intérieur |
-| 7 | `iledefrance.fr` | central-1 | 301 | wikidata;linkgraph | Regional Council of Île-de-France |
-| 7 | `in2p3.cnrs.fr` | central | HttpConne... | wikidata;academia | Institut national de physique nucléaire et de physique des particules |
-| 7 | `inserm.fr` | central | 301 | wikidata;wikidata;wikidata;wikidata;academia | Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre... |
-
 ## ccTLD anomalies
 
 Domains outside `.fr` (allowed: common gTLDs + ``):
 
 ```
 .fr302240 collext.sante.gouv.fr302240
+.gr efa.gr
+.it efrome.it
 .info rhp1.terre.defense.gouv.fr.1rhp.info
+.nc unc.nc
+.corsica universita.corsica
+.pf upf.pf
 .info www.rhp1.terre.defense.gouv.fr.1rhp.info
 ```
 

@@ -28,18 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-7 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `conseil-national.mc` | central | SSLHandsh... | wikidata;wikidata;wikidata | National Council |
-| 7 | `imsee.mc` | central | 200 | wikidata;academia | Q16643758 |
-| 4 | `mairie.mc` | central-1 | 200 | wikidata | Communal Council of Monaco |
-| 4 | `mediatheque.mc` |  | 301 | wikidata | Louis Notari Library |
-| 3 | `ambafrance-mc.org` | central | ConnectEx... | wikidata | Embassy of France, Monaco |
-| 2 | `culture.mc` |  | 200 | wikidata;wikidata;wikidata;wikidata | Directorate of Cultural Affairs | Heritage Institute |
-| 2 | `monaco.edu` | central |  | ror | International University of Monaco |
-

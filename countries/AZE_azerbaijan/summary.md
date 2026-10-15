@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-70 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `cert.az` |  | 200 | wikidata;wikidata;wikidata;wikidata | Electronic Security Service | National Cybersecurity Agency |
-| 6 | `amu.edu.az` | central |  | academia;ror | Azerbaijan Medical University |
-| 6 | `beu.edu.az` | central |  | academia;ror | Baku Engineering University |
-| 6 | `e-gov.az` |  | HttpConne... | un_desa | UN/DESA national portal |
-| 6 | `unec.edu.az` | central |  | academia;ror | Azerbaijan State University of Economics |
-| 4 | `afghanemb.az` | central | ConnectEx... | wikidata | Embassy of Afghanistan, Baku |
-| 4 | `aida.az` |  | SSLHandsh... | wikidata | Azerbaijan International Development Agency |
-| 4 | `azercosmos.az` |  | 307 | wikidata | Azercosmos |
-| 4 | `azerishiq.az` |  | 200 | wikidata | Azerishiq Open Joint-Stock Company |
-| 4 | `azersu.az` |  | HttpConne... | wikidata | Azersu Open Joint-Stock Company |
-| 4 | `azertag.az` |  | 200 | wikidata | Azerbaijan State News Agency |
-| 4 | `azpromo.az` |  | 302 | wikidata | Azerbaijan Export and İnvestment Promotion Fund |
-| 4 | `baku.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary in Baku |
-| 4 | `cbar.az` | central | 200 | wikidata | Central Bank of Azerbaijan |
-| 4 | `drim.az` |  | HttpConne... | wikidata | DOST Digital Innovations Center |
-| 4 | `embassyofpalestine.az` | central | 200 | wikidata | Embassy of the State of Palestine in Azerbaijan |
-| 4 | `fiu.az` |  | HttpConne... | wikidata | Financial Monitoring Service |
-| 4 | `ier.az` |  | 301 | wikidata | Institute for Scientific Research on Economic Reforms |
-| 4 | `kqkiamea.az` | central |  | academia | Institute of Catalysis and Inorganic Chemistry of the National Academy of Sci... |
-| 4 | `millikitabxana.az` |  | 301 | wikidata | National Library of Azerbaijan |
-

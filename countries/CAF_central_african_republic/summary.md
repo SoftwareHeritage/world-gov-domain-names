@@ -28,20 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 5 | `primature.govcf.org` |  | ConnectEx... | un_desa | UN/DESA national portal |
-| 4 | `cpsrca.cf` |  | 200 | wikidata | Q112584726 |
-| 3 | `cf.ambafrance.org` | central | 301 | wikidata | Embassy of France, Bangui |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Central African Republic |
-| 3 | `mae.ro` |  | 503 | wikidata | Honorary Consulate of Romania, Bangui |
-| 3 | `rca.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Central African Republic |
-| 3 | `stat-centrafrique.com` |  | HttpConne... | wikidata | ICASEES |
-| 2 | `atafom.university` | central |  | ror | Atlantic African Oriental Multicultural University International |
-| 2 | `univ-bangui.org` | central |  | ror | University of Bangui |
-

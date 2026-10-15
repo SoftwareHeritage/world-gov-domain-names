@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-182 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 7 | `escolapios.org.co` |  | 301 | wikidata;wikidata | Nazareth piarist province |
-| 7 | `jesuitas.co` |  | 200 | wikidata;wikidata | jesuit province of Colombia |
-| 6 | `endeporte.edu.co` | central |  | academia;ror | Institución Universitaria Escuela Nacional del Deporte |
-| 6 | `unal.edu.co` | central |  | academia;ror | National University of Colombia |
-| 6 | `uniatlantico.edu.co` | central |  | academia;ror | University of Atlántico |
-| 6 | `unicauca.edu.co` | central |  | academia;ror | University of Cauca |
-| 6 | `univalle.edu.co` | central |  | academia;ror | University of Valle |
-| 4 | `anmdecolombia.org.co` | central |  | academia | National Academy of Medicine of Colombia |
-| 4 | `bogota.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Bogotá |
-| 4 | `ccc.org.co` |  | 403 | wikidata | Cámara de Comercio de Santiago de Cali |
-| 4 | `cccucuta.org.co` |  | SSLHandsh... | wikidata | Cámara de Comercio de Cúcuta |
-| 4 | `educacionbogota.edu.co` |  | 200 | wikidata | Q100879971 |
-| 4 | `embajadadehonduras.org.co` | central | 301 | wikidata | embassy of Honduras in Colombia |
-| 4 | `esap.edu.co` | central |  | academia | High School of Public Administration of Colombia. (ESAP) |
-| 4 | `fasab.udistrital.edu.co` | central |  | academia | Superior Academy of Arts of Bogotá |
-| 4 | `humboldt.org.co` |  | 301 | wikidata | Alexander von Humboldt Biological Resources Research Institute |
-| 4 | `invemar.org.co` |  | ConnectEx... | wikidata | Marine and Coastal Research Institute "José Benito Vives de Andreis" |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Bogota |
-| 4 | `nunciatura.org.co` | central | 200 | wikidata | Apostolic Nunciature to Colombia |
-| 4 | `procolombia.co` |  | 200 | wikidata | ProColombia |
-

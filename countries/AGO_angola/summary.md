@@ -28,31 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-51 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 8 | `parlamento.ao` | central | 200 | wikidata;wikidata | National Assembly of Angola |
-| 7 | `minjud.gv.ao` | central | HttpConne... | wikidata;wikidata | Ministry of Youth and Sports |
-| 6 | `franciscanos.org.br` |  | ConnectEx... | wikidata;wikidata | Q10354750 |
-| 6 | `tribunalconstitucional.ao` |  | 200 | wikidata | Constitutional Court of Angola |
-| 6 | `uan.ao` | central |  | academia;ror | Agostinho Neto University |
-| 6 | `ukb.ed.ao` | central |  | academia;ror | Katyavala Bwila University |
-| 6 | `ulan.ed.ao` | central |  | academia;ror | Universidade Lueji A'Nkonde |
-| 6 | `unikivi.ao` | central |  | academia;ror | Universidade Kimpa Vita |
-| 6 | `uniluanda.ao` | central |  | academia;ror | University of Luanda |
-| 6 | `uninjingambande.ed.ao` | central |  | academia;ror | Rainha Njinga a Mbandi University |
-| 4 | `bna.ao` |  | 200 | wikidata | National Bank of Angola |
-| 4 | `luanda.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary to Luanda |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Luanda |
-| 4 | `trluanda.ao` |  | 200 | wikidata | Q131156237 |
-| 4 | `ujes.co.ao` | central |  | academia | Universidade José Eduardo dos Santos |
-| 4 | `umn.ed.ao` | central |  | academia | Mandume ya Ndemufayo University |
-| 4 | `uninbe.ao` | central |  | academia | University of Namibe |
-| 4 | `uon.ed.ao` | central |  | academia | 11 de Novembro University |
-| 3 | `angola.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Angola |
-| 3 | `ao.ambafrance.org` | central | 301 | wikidata | Embassy of France, Luanda |
-

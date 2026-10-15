@@ -28,23 +28,3 @@
 
 (institution names usable as seeds for further research)
 
-## Proposed domains ranked by score
-
-12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
-Top 20 by score (0-10) -- higher = stronger cross-source evidence:
-
-| score | hostname | level | http | sources | label |
-|------:|----------|-------|------|---------|-------|
-| 4 | `central-bank.org.tt` | central | 301 | wikidata | Central Bank of Trinidad and Tobago |
-| 4 | `ema.co.tt` |  | 301 | wikidata | Environmental Management Authority |
-| 4 | `tatt.org.tt` |  | 307 | wikidata | Telecommunications Authority of Trinidad and Tobago |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Trinidad and Tobago |
-| 3 | `port-of-spain.diplo.de` | central | 200 | wikidata | Embassy of Germany, Port of Spain |
-| 3 | `tntairports.com` |  | 307 | wikidata | Airports Authority of Trinidad and Tobago |
-| 3 | `tt.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port of Spain |
-| 3 | `usc.edu.tt` | central |  | ror | University of the Southern Caribbean |
-| 3 | `utt.edu.tt` | central |  | ror | University of Trinidad and Tobago |
-| 3 | `uwi.edu` | central |  | academia | University of the West Indies |
-| 2 | `sta.uwi.edu` | central |  | ror | University of the West Indies |
-| 1 | `ttparliament.org` | central | HttpTimeo... | wikidata;wikidata;wikidata;wikidata | House of Representatives | Senate of Trinidad and Tobago | Parliament of Trin... |
-
