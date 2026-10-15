@@ -119,9 +119,9 @@ files.
   bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction)
   bb scripts/pipeline.clj cisa                  # CISA federal .gov list -> sources/cisa/registered.csv
   bb scripts/pipeline.clj lannuaire             # FR service-public directory -> sources/lannuaire/registered.csv
+  bb scripts/pipeline.clj esr                   # FR public higher-education institutions -> sources/esr/registered.csv
   bb scripts/pipeline.clj govuk                 # UK sub-central bodies -> sources/govuk/registered.csv
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
-  bb scripts/pipeline.clj esr                   # FR public higher-education institutions -> sources/esr/registered.csv
   bb scripts/pipeline.clj indegree [C…]         # link-graph in-degree -> sources/linkgraph/indegree.csv
 #+end_src
 

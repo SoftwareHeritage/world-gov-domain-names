@@ -62,9 +62,9 @@
 ;;                      WARN on a curated row a registry already lists
 ;;   cisa               fetch CISA federal .gov registry -> sources/cisa/registered.csv
 ;;   lannuaire          fetch FR service-public.gouv.fr directory -> sources/lannuaire/registered.csv
+;;   esr                fetch FR public higher-education institutions -> sources/esr/registered.csv
 ;;   govuk              build UK sub-central list -> GBR sources/govuk/registered.csv
 ;;   validate-un        check un_status against the official UN member list
-;;   esr                fetch FR public higher-education institutions -> sources/esr/registered.csv
 ;;   indegree [C…]      link-graph in-degree (eu-plus-government-scans)
 ;;                      -> countries/<c>/sources/linkgraph/indegree.csv
 ;;
@@ -1332,6 +1332,7 @@
    "check"       cmd-check
    "cisa"        registries/cmd-cisa
    "lannuaire"   registries/cmd-lannuaire
+   "esr"         registries/cmd-esr
    "govuk"       registries/cmd-govuk
    "validate-un" registries/cmd-validate-un
    "indegree"    indegree/cmd-indegree})
@@ -1347,7 +1348,6 @@
   (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
   (println "           wikidata | academia | iana | cia | un-desa | oecd | meta")
   (println "  build:   aggregate | domains")
-   "esr"         registries/cmd-esr
   (println "  report:  propose | summary")
   (println "  other:   probe-proposed | wayback | check | cisa | lannuaire | esr | govuk | validate-un | indegree")
   (println)
