@@ -1,4 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
+epfl.ch,9,academia;linkgraph;ror,École polytechnique fédérale de Lausanne,central,301,50 epfl-ch.mail.protection.outlook.com.
+zg.ch,9,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;ror,Q113162962 | Q113162972 | Q113162907 | Q113162999 | Cantonal Council of Zug | Q113162956 | Q113162864 | Q113162877 | Q113162978 | Q27490172 | Q113162986 | Q113162942 | Q113162898 | Q113162893,central-1,HttpConnectTimeoutException: HTTP connect timed out,20 mail2.zg.ch.; 10 mail1.zg.ch.
 parlement.vs.ch,8,wikidata;wikidata,Grand Council of Valais,central-1,302,none
 ag.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Grand Council of Aargau | Department of Health and Social Affairs (Aargau) | Verwaltungsgericht des Kantons Aargau | Department of Construction, Transport and Environment (Aargau) | Department of Economics and Home Affairs (Aargau) | Departement Bildung, Kultur und Sport | Cantonal archaeology Aargau | Departement Gesundheit und Soziales | Department of Finance and Resources (Aargau) | Monument Preservation Service of the Canton of Aargau | State Chancellery (Aargau) | Department of Education, Culture and Sport (Aargau) | Cantonal police of the canton of Aargau",central-1,302,0 ag-ch.mail.protection.outlook.com.
 ai.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Landsgemeinde Appenzell Innerrhoden | Q27479493 | Grand Council of Appenzell Innerrhoden | Q113162032 | Q113162128 | Q113162110 | Q113162139 | Q113162177 | Q113162196 | Q113161982 | Q113162005,central-1,200,10 ktvmx02.mail.admin.ch.; 10 ktvmx01.mail.admin.ch.; 10 ktvmx04.mail.admin.ch.; 10 ktvmx03.mail.admin.ch.
@@ -8,7 +10,6 @@ baselland.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wi
 dek.tg.ch,7,wikidata;wikidata,Departement für Erziehung und Kultur | Department of Education and Culture (Thurgau),,HttpConnectTimeoutException: HTTP connect timed out,none
 ensi-rat.ch,7,wikidata;wikidata,ENSI Board,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ensi-rat.ch found.,110 mg2.ensi.ch.; 100 mg1.ensi.ch.
 ensi.ch,7,wikidata;wikidata,Swiss Federal Nuclear Safety Inspectorate,,ConnectException,110 mg2.ensi.ch.; 100 mg1.ensi.ch.
-epfl.ch,7,academia;linkgraph,École polytechnique fédérale de Lausanne,central,301,50 epfl-ch.mail.protection.outlook.com.
 finma.ch,7,wikidata;wikidata,Financial Market Supervisory Authority,central,301,20 mail10.swisscom.com.; 20 mail20.swisscom.com.; 10 mail.swisscom.com.
 fr.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Grand Council of Fribourg | Service de la Santé Publique | Q113032869 | Q113033049 | Q113033091 | Direction de la Sécurité et de la Justice | Q113033177 | Q76652408 | Service de l'Enfance et de la Jeunesse | Q113032988 | Q113033341 | Caisse de Prévoyance du Personnel de l'Etat de Fribourg,central-1,HttpConnectTimeoutException: HTTP connect timed out,100 fr-ch.mail.protection.outlook.com.
 frimobil.ch,7,wikidata;wikidata,Frimobil,,200,10 frimobil-ch.mail.protection.outlook.com.
@@ -35,14 +36,23 @@ vd.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;
 vd.zh.ch,7,wikidata;wikidata,Department for Economic Affairs,central-1,IOException: EOF reached while reading,120 smtagb02.abxsec.com.; 110 smtazh02.abxsec.com.
 vs.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Mobility, spatial development and the environment (Valais) | Security, Institutions and Sports (Valais) | Valais Cantonal Court | Health, Social Affairs and Culture (Valais) | Economics and Education (Valais) | Finance and Energy (Valais) | Bureau (Valais)",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 ktvmx04.mail.admin.ch.; 10 ktvmx02.mail.admin.ch.; 10 ktvmx03.mail.admin.ch.; 10 ktvmx01.mail.admin.ch.
 www4.ti.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Department of Finance and Economy (Ticino) | Grand Council of Ticino | State Chancellery (Ticino) | Organizzazione Sociopsichiatrica Cantonale | Repubblica e Cantone Ticino | Department of Territory (Ticino) | Department of Institutions (Ticino) | Department of Health and Social Affairs (Ticino) | Ufficio di Statistica | Department of Education, Culture and Sport (Ticino) | Dipartimento dell Educazione della Cultura e dello Sport",central-1,307,none
-zg.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q113162962 | Q113162972 | Q113162907 | Q113162999 | Cantonal Council of Zug | Q113162956 | Q113162864 | Q113162877 | Q113162978 | Q27490172 | Q113162986 | Q113162942 | Q113162898 | Q113162893,central-1,HttpConnectTimeoutException: HTTP connect timed out,20 mail2.zg.ch.; 10 mail1.zg.ch.
 zh.ch,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Department of Health Canton of Zurich | Department for Economic Affairs | Direktion der Justiz und des Innern, Kanton Zürich | Q113033130 | Monuments Preservation Service of the Canton of Zurich | Building Department Kanton Zürich",central-1,IOException: EOF reached while reading,120 smtagb02.abxsec.com.; 110 smtazh02.abxsec.com.; 10 smtazh01.abxsec.com.; 20 smtasg01.abxsec.com.
 bger.ch,6,wikidata,Federal Supreme Court of Switzerland,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx04.mail.admin.ch.; 10 mx02.mail.admin.ch.; 10 mx01.mail.admin.ch.; 10 mx03.mail.admin.ch.
+bs.ch,6,wikidata;ror,Institut für Rechtsmedizin der Universität Basel,central-1,HttpConnectTimeoutException: HTTP connect timed out,20 mail10.swisscom.com.; 20 mail20.swisscom.com.; 10 mail.swisscom.com.
+ethz.ch,6,academia;ror,ETH Zurich,central-1,,
 finlandabroad.fi,6,wikidata;wikidata,"Embassy of Finland, Bern | Permanent Mission of Finland to the United Nations, Geneva",central,301,10 mail.valtori.fi.
 fngeneve.um.dk,6,wikidata;wikidata,Permanent Mission of Denmark to the UN in Geneve,,HttpConnectTimeoutException: HTTP connect timed out,none
 iom.int,6,wikidata;wikidata;wikidata,International Organization for Migration,,HttpConnectTimeoutException: HTTP connect timed out,10 iom-int.mail.protection.outlook.com.
 jesuiten.org,6,wikidata;wikidata,Jesuit Province of Central Europe,,301,10 jesuiten-org.mail.protection.outlook.com.
 norway.no,6,wikidata;wikidata,"Embassy of Norway, Bern | Permanent Missions of Norway to the UN and WTO/EFTA in Geneva",central,301,0 mx.domeneshop.no.
+unibas.ch,6,academia;ror,University of Basel,central-1,,
+unibe.ch,6,academia;ror,University of Bern,central-1,,
+unifr.ch,6,academia;ror,University of Fribourg,central-1,,
+unige.ch,6,academia;ror,University of Geneva,central-1,,
+unil.ch,6,academia;ror,University of Lausanne,central-1,,
+unilu.ch,6,academia;ror,University of Lucerne,central-1,,
+unine.ch,6,academia;ror,University of Neuchâtel,central-1,,
+unisg.ch,6,academia;ror,University of St. Gallen,central-1,,
 ambacamberne.ch,4,wikidata,"Embassy of Cameroon, Bern",central,ConnectException,10 mail.mission-permanente-cameroun.ch.
 ambassade-algerie.ch,4,wikidata,"Embassy of Algeria, Bern",central,200,5 mta-gw.infomaniak.ch.
 ambassade-mission-tchad.ch,4,wikidata,embassy of Chad to Switzerland,central,200,10 iredmail.netoxygen.ch.
@@ -56,7 +66,6 @@ armeeapotheke.ch,4,wikidata,Armed Forces Pharmacy,,301,none
 ava-altenrhein.ch,4,wikidata,Abwasserverband Altenrhein,,301,0 avaaltenrhein-ch0i.mail.protection.outlook.com.
 bern.mfa.gov.hu,4,wikidata,Embassy of Hungary in Bern,central,HttpConnectTimeoutException: HTTP connect timed out,10 mailb.bern.mfa.gov.hu.; 10 maila.bern.mfa.gov.hu.
 berninvest.be.ch,4,wikidata,Bern Economic Development Agency,,HttpConnectTimeoutException: HTTP connect timed out,10 mailhub2.be.ch.; 10 mailhub1.be.ch.
-bs.ch,4,wikidata,Institut für Rechtsmedizin der Universität Basel,,HttpConnectTimeoutException: HTTP connect timed out,20 mail10.swisscom.com.; 20 mail20.swisscom.com.; 10 mail.swisscom.com.
 bstger.ch,4,wikidata,Federal Criminal Court of Switzerland,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx02.mail.admin.ch.; 10 mx03.mail.admin.ch.; 10 mx04.mail.admin.ch.; 10 mx01.mail.admin.ch.
 bvd.bs.ch,4,wikidata,Q113082790,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 bvger.ch,4,wikidata,Federal Administrative Court,,HttpConnectTimeoutException: HTTP connect timed out,10 mailgate.swiss-gov.ch.
@@ -79,7 +88,6 @@ edk.ch,4,wikidata,Swiss Conference of Cantonal Ministers of Education,,301,0 edk
 embaperu.ch,4,wikidata,"Embassy of Peru, Bern",central,301,5 mta-gw.infomaniak.ch.
 empa.ch,4,academia,Swiss Federal Laboratories for Materials Science and Technology,central,,
 erz.be.ch,4,wikidata,Abteilung Bildungsplanung und Evaluation,,ConnectException,none
-ethz.ch,4,academia,ETH Zurich,central-1,,
 fd.bs.ch,4,wikidata,Q113083136,,301,none
 fedpol.ch,4,wikidata,Federal Office of Police,,301,none
 feuerwehr.winterthur.ch,4,wikidata,Feuerwehr Winterthur,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -156,14 +164,6 @@ tarifverbund-zug.ch,4,wikidata,Tarifverbund Zug,,HttpConnectTimeoutException: HT
 tnw.ch,4,wikidata,Tarifverbund Nordwestschweiz,,HttpConnectTimeoutException: HTTP connect timed out,none
 tvsz.ch,4,wikidata,Tarifverbund Schwyz,,HttpConnectTimeoutException: HTTP connect timed out,none
 ugandamission.ch,4,wikidata,embassy of Uganda to Switzerland,central,301,none
-unibas.ch,4,academia,University of Basel,central-1,,
-unibe.ch,4,academia,University of Bern,central-1,,
-unifr.ch,4,academia,University of Fribourg,central-1,,
-unige.ch,4,academia,University of Geneva,central-1,,
-unil.ch,4,academia,University of Lausanne,central-1,,
-unilu.ch,4,academia,University of Lucerne,central-1,,
-unine.ch,4,academia,University of Neuchâtel,central-1,,
-unisg.ch,4,academia,University of St. Gallen,central-1,,
 vgr.zh.ch,4,wikidata,Verwaltungsgericht Kantons Zürich,,HttpConnectTimeoutException: HTTP connect timed out,none
 vsa.zh.ch,4,wikidata,Office of Elementary Education,,HttpConnectTimeoutException: HTTP connect timed out,none
 w3.jura.ch,4,wikidata,Office de la Culture Section d'archéologie et Paléontologie,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -180,36 +180,91 @@ battelle.org,3,academia,Battelle,central-1,,
 bern.diplo.de,3,wikidata,Embassy of Germany Bern,central,200,none
 bern.mae.ro,3,wikidata,Embassy of Romania in Bern,central,503,none
 bern.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Bern",central,SSLHandshakeException: Remote host terminated the handshake,none
+bfh.ch,3,ror,Bern University of Applied Sciences,central-1,,
 ch.ambafrance.org,3,wikidata,"Embassy of France, Bern",central,301,none
 ch.mfa.lt,3,wikidata,embassy of Lithuania in Switzerland,central,403,none
 cites.org,3,wikidata,Secretariat of the Convention on International Trade in Endangered Species of Wild Fauna and Flora,,403,none
+curml.ch,3,ror,University Centre of Legal Medicine,central-1,,
+cuso.ch,3,ror,Conférence Universitaire de Suisse Occidentale,central-1,,
+ecolelasource.ch,3,ror,"La Source School of Nursing, HES-SO University of Applied Sciences and Arts Western Switzerland",central-1,,
 ehb.swiss,3,wikidata,Swiss Federal University for Vocational Education and Training,,301,none
 exteriors.gencat.cat,3,wikidata,"Government Delegation of the Generalitat, Geneva",central,301,none
+ffhs.ch,3,ror,Swiss Distance University of Applied Sciences,central-1,,
+fh-hwz.ch,3,ror,Zurich University of Applied Sciences in Business Administration,central-1,,
+fhgr.ch,3,ror,University of Applied Sciences of the Grisons,central-1,,
+fhnw.ch,3,ror,Pädagogische Hochschule FHNW,central-1,,
 geneva.embassy.mn,3,wikidata,embassy of Mongolia in Switzerland,central,200,none
 geneva.mfa.af,3,wikidata,"Embassy of Afghanistan, Geneva",central,ConnectException,none
 geneve.consulfrance.org,3,wikidata,consulat général de France à Genève,central-1,301,none
 genf-cd.diplo.de,3,wikidata,Q111203843,,301,none
 genf-io.diplo.de,3,wikidata,Permanent Mission of Germany to the United Nations in Genava,,301,none
+he-arc.ch,3,ror,Haute Ecole Arc Ingénierie,central-1,,
+hefr.ch,3,ror,HES-SO Fribourg,central-1,,
+heg-fr.ch,3,ror,School of Management Fribourg,central-1,,
+heia-fr.ch,3,ror,School of Engineering and Architecture of Fribourg,central-1,,
+heig-vd.ch,3,ror,"Haute école d'ingénierie et de gestion du canton de Vaud, HES-SO Haute Ecole Spécialisée de Suisse Occidentale",central-1,,
+hemu.ch,3,ror,HEMU - Haute École de Musique,central-1,,
+hepvs.ch,3,ror,Pädagogische Hochschule Wallis,central-1,,
+hes-so.ch,3,ror,HES-SO University of Applied Sciences and Arts Western Switzerland,central-1,,
+hesge.ch,3,ror,HES-SO Genève,central-1,,
+hetsl.ch,3,ror,"Haute école de travail social Lausanne - HETSL, HES-SO",central-1,,
+hfh.ch,3,ror,University of Teacher Education in Special Needs,central-1,,
+hlo.ch,3,ror,Hochschule für Logopädie Ostschweiz,central-1,,
+hochschule-schaffhausen.ch,3,ror,Hochschulinstitut Schaffhausen,central-1,,
+hslu.ch,3,ror,Lucerne University of Applied Sciences and Arts,central-1,,
 iom.cz,3,wikidata,International Organization for Migration,,301,none
+iukb.ch,3,ror,Institut Universitaire Kurt Bösch,central-1,,
+iun.ch,3,ror,International University in Geneva,central-1,,
+kalaidos-fh.ch,3,ror,Kalaidos University of Applied Sciences,central-1,,
 kmu.org,3,wikidata,Wirtschaftskammer Baselland,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+lugeneva.ch,3,ror,Leman University,central-1,,
 mfa.bg,3,wikidata,embassy of Bulgaria,central,302,none
 mfa.gr,3,wikidata,"Embassy of Greece, Bern",central,403,none
 mfa.is,3,wikidata,Permanent Mission of Iceland in Geneva,central,301,none
 missionsenegal-geneve.org,3,wikidata,"Embassy of Senegal, Geneve",central,200,5 mta-gw.infomaniak.ch.
 mzv.cz,3,wikidata,Embassy of the Czech Republic in Switzerland,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,"Embassy of Slovakia, Bern",central,301,none
+ntb.ch,3,ror,Interstate University of Applied Sciences of Technology Buchs,central-1,,
+ost.ch,3,ror,OST - Ostschweizer Fachhochschule,central-1,,
+phbern.ch,3,ror,Pädagogische Hochschule Bern,central-1,,
+phgr.ch,3,ror,Pädagogische Hochschule Graubünden,central-1,,
+phlu.ch,3,ror,University of Teacher Education Lucerne,central-1,,
+phnmsbern.ch,3,ror,PH NMS Bern,central-1,,
+phsg.ch,3,ror,St.Gallen University of Teacher Education,central-1,,
+phsh.ch,3,ror,Pädagogische Hochschule Schaffhausen,central-1,,
+phsz.ch,3,ror,Schwyz University of Teacher Education,central-1,,
+phtg.ch,3,ror,Thurgau University of Teacher Education,central-1,,
+physioschule.ch,3,ror,THIM van der Laan University College Physiotherapy,central-1,,
+phzh.ch,3,ror,Zurich University of Teacher Education,central-1,,
+sthbasel.ch,3,ror,Staatsunabhängige Theologische Hochschule Basel,central-1,,
+supsi.ch,3,ror,University of Applied Sciences and Arts of Southern Switzerland,central-1,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Bern",central,301,none
+swiss-umef.ch,3,ror,Swiss UMEF,central-1,,
 switzerland.mid.ru,3,wikidata,"Embassy of Russia, Bern",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 switzerland.nlembassy.org,3,wikidata,"Embassy of the Netherlands, Bern",central,ConnectException,none
 tas-cas.org,3,wikidata,Court of Arbitration for Sport,,301,none
+tcmuni.ch,3,ror,Schweizerisches Universitäres Institut für Traditionelle Chinesische Medizin,central-1,,
+thchur.ch,3,ror,Theologische Hochschule Chur,central-1,,
+umonarch.ch,3,ror,Monarch Business School,central-1,,
+unidistance.ch,3,ror,UniDistance Suisse,central-1,,
+uniludes.ch,3,ror,LUdeS University,central-1,,
 unireso.com,3,wikidata,Unireso,,301,1 unireso-com.mail.protection.outlook.com.
 unjiu.org,3,wikidata,Joint Inspection Unit,,400,none
+usi.ch,3,ror,Università della Svizzera italiana,central-1,,
+uzh.ch,3,ror,University of Zurich,central-1,,
+vubs.ch,3,ror,Victoria School of Management,central-1,,
+webster.ch,3,ror,Webster University Geneva,central-1,,
 who.int,3,wikidata,World Health Assembly,,301,none
 zeneva.predstavnistvo.si,3,wikidata,Permanent Mission of Slovenia to the United Nations and other International Organizations in Geneva,,SSLHandshakeException: Remote host terminated the handshake,none
+zhaw.ch,3,ror,ZHAW Zurich University of Applied Sciences,central-1,,
+zhdk.ch,3,ror,Zurich University of the Arts,central-1,,
 bundesanwaltschaft.ch,2,wikidata;wikidata;wikidata;wikidata,Office of the Attorney General of Switzerland,,301,none
 ethrat.ch,2,wikidata;wikidata;wikidata;wikidata;wikidata,ETH Board | ETH Domain,,200,0 ethrat-ch.mail.protection.outlook.com.
+fus.edu,2,ror,Franklin University Switzerland,central-1,,
 innosuisse.ch,2,wikidata;wikidata;wikidata,Innosuisse,,301,none
+institute.constructor.org,2,ror,Constructor Institute,central-1,,
 jura.ch,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"State Chancellery (Jura) | Department of Education, Culture and Sports (Jura) | Interior Department (Jura) | Department of Economics and Health (Jura) | Finance Department (Jura) | Archaeology and Paleontology Section of the Canton of Jura | Environment Department (Jura)",,301,none
 kultur.bkd.be.ch,2,wikidata;wikidata;wikidata;wikidata,Monument Preservation Service of the Canton of Bern | Archaeological Service of the Canton of Bern,,302,none
+sfuvet.swiss,2,ror,Swiss Federal University for Vocational Education and Training SFUVET,central,,
 wissenschaftsrat.ch,2,wikidata;wikidata;wikidata,Swiss Science Council,,200,none
 roc-taiwan.org,1,wikidata;wikidata;wikidata;wikidata,"Permanent Mission of the Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu to the World Trade Organization | Q100487529 | Q109415086 | Q100487759",,302,none

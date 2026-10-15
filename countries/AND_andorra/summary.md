@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-28 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+29 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -44,6 +44,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mobilitat.ad` | central | 301 | wikidata;wikidata | Ministry of Territorial Planning of Andorra |
 | 7 | `turisme.ad` | central | SSLHandsh... | wikidata;wikidata | Ministry of Tourism of Andorra |
 | 6 | `tribunalconstitucional.ad` |  | 301 | wikidata | Andorra. Tribunal Constitucional |
+| 6 | `uda.ad` | central |  | academia;ror | Universitat d'Andorra |
 | 4 | `afa.ad` |  | 301 | wikidata | Andorran Financial Authority |
 | 4 | `apda.ad` | central | 200 | wikidata | Data Protection Agency |
 | 4 | `ari.ad` |  | 200 | wikidata | Andorra Recerca + Innovació |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `comuencamp.ad` | central-1 | 301 | wikidata | Q117808860 |
 | 4 | `comusantjulia.ad` | central-1 | 301 | wikidata | Q105488867 |
 | 4 | `policia.ad` |  | SSLHandsh... | wikidata | Police Corps of Andorra |
-| 4 | `saas.ad` |  | 200 | wikidata | Servei Andorrà d’Atenció Sanitària |
 

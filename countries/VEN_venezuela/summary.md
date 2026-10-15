@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-37 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+78 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,9 +39,15 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `centroamericaribeschp.com` |  | 400 | wikidata;wikidata | Piarist province Central America- Caribbean |
 | 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
 | 6 | `gobiernoenlinea.ve` |  | ConnectEx... | un_desa | UN/DESA national portal |
+| 6 | `ucla.edu.ve` | central |  | academia;ror | Universidad Centroccidental Lisandro Alvarado |
+| 6 | `ucv.ve` | central |  | academia;ror | Central University of Venezuela |
+| 6 | `ula.ve` | central |  | academia;ror | University of the Andes |
+| 6 | `una.edu.ve` | central |  | academia;ror | Universidad Nacional Abierta (Venezuela) |
+| 6 | `usb.ve` | central |  | academia;ror | Simón Bolívar University |
 | 5 | `inia.gov.ve` |  | HttpConne... | wikidata | Instituto Nacional de Investigaciones Agricolas |
 | 5 | `ivss.gov.ve` |  | HttpConne... | wikidata | Instituto Venezolano de los Seguros Sociales |
 | 5 | `tsjlegitimo.org` | central | 200 | wikidata | Supreme Tribunal of Justice of Venezuela in exile |
+| 5 | `udo.education` | central |  | academia;ror | Universidad de Oriente |
 | 4 | `bcv.org.ve` |  | SSLHandsh... | wikidata | Central Bank of Venezuela |
 | 4 | `col.luz.edu.ve` | central |  | academia | Universidad del Zulia Núcleo Costa Oriental del Lago |
 | 4 | `dgim.mil.ve` |  | HttpConne... | wikidata | Dirección de Inteligencia Militar |
@@ -49,10 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `guardia.mil.ve` |  | ConnectEx... | wikidata | Bolivarian National Guard |
 | 4 | `luz.edu.ve` | central |  | academia | University of Zulia |
 | 4 | `uc.edu.ve` | central |  | academia | University of Carabobo |
-| 4 | `ucla.edu.ve` | central |  | academia | Universidad Centroccidental Lisandro Alvarado |
-| 4 | `ucv.ve` | central |  | academia | Central University of Venezuela |
-| 4 | `ula.ve` | central |  | academia | University of the Andes |
-| 4 | `ulac.edu.ve` | central |  | academia | Q136745144 |
-| 4 | `una.edu.ve` | central |  | academia | Universidad Nacional Abierta (Venezuela) |
-| 4 | `unefm.edu.ve` | central |  | academia | Universidad Francisco de Miranda |
 

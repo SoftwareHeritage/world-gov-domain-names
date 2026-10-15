@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-81 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+147 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `narss.sci.eg` | central | HttpConne... | wikidata;academia | National Authority for Remote Sensing and Space Sciences |
 | 7 | `nspo.com.eg` |  | SSLHandsh... | wikidata;wikidata | National Service Products Organization |
+| 6 | `alexu.edu.eg` | central |  | academia;ror | Alexandria University |
+| 6 | `asu.edu.eg` | central |  | academia;ror | Ain Shams University |
+| 6 | `azhar.edu.eg` | central |  | academia;ror | Al-Azhar University |
 | 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
 | 6 | `egypt.gov.org` |  | HttpConne... | un_desa | UN/DESA national portal |
 | 6 | `egyptconsulates.org` | central | 200 | wikidata;wikidata | Ministry of Foreign Affairs of Egypt |
 | 6 | `egyptera.org` |  | 200 | wikidata;wikidata | Egyptian Electric Utility and Consumer Protection Regulatory Agency |
+| 6 | `helwan.edu.eg` | central |  | academia;ror | Capital University (Egypt) |
 | 6 | `kairo.diplo.de` | central | HttpConne... | wikidata;wikidata | Embassy of Germany, Cairo |
 | 6 | `sca-egypt.org` | central | 200 | wikidata;wikidata | Ministry of State for Antiquities |
+| 6 | `sohag-univ.edu.eg` | central |  | academia;ror | Sohag University |
 | 6 | `swedenabroad.se` | central | 301 | wikidata;wikidata | Embassy of Sweden, Cairo |
-| 4 | `alexu.edu.eg` | central |  | academia | Alexandria University |
+| 6 | `zu.edu.eg` | central |  | academia;ror | Zagazig University |
 | 4 | `aoi.org.eg` |  | ConnectEx... | wikidata | Arab Organization for Industrialization |
-| 4 | `asu.edu.eg` | central |  | academia | Ain Shams University |
-| 4 | `azhar.edu.eg` | central |  | academia | Al-Azhar University |
 | 4 | `britishcouncil.org.eg` |  | 301 | wikidata | British Council Egypt |
 | 4 | `cbe.org.eg` |  | 403 | wikidata | Central Bank of Egypt |
 | 4 | `cmrdi.sci.eg` |  | 200 | wikidata | Central Metallurgical Research and Development Institute |
 | 4 | `cu.edu.eg` | central |  | academia | Cairo University |
-| 4 | `drugcontrol.org.eg` |  | HttpConne... | wikidata | Q95947970 |
-| 4 | `dtu.edu.eg` | central |  | academia | Delta Technological University |
-| 4 | `eaea.org.eg` |  | SSLHandsh... | wikidata | Egyptian Atomic Energy Authority |
 

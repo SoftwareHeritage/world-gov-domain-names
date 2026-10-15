@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-6 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+7 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,4 +41,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `anjouanoffshorefinancialauthority.org` | central-1 | 200 | wikidata | Anjouan Offshore Finance Authority |
 | 3 | `km.ambafrance.org` | central | 301 | wikidata | Embassy of France, Moroni |
 | 3 | `km.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Moroni |
+| 2 | `midocean.ae` | central |  | ror | Midocean University |
 

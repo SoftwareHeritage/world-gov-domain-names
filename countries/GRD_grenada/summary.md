@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,4 +45,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `grenadacustoms.com` |  | SSLHandsh... | wikidata | Customs & Excise Division of Grenada |
 | 3 | `grenadafiu.com` |  | 200 | wikidata | Financial Intelligence Unit of Grenada |
 | 2 | `grenadaparliament.gd` | central | 200 | wikidata;wikidata;wikidata;wikidata;wikidata | Parliament of Grenada | Senate of Grenada | House of Representatives of Grena... |
+| 2 | `sgu.edu` | central |  | ror | St. George's University |
 

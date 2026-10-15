@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-85 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+162 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -50,9 +50,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `apn-dz.org` | central | 200 | wikidata;wikidata | Parliament of Algeria |
 | 6 | `coursupreme.dz` | central | 200 | wikidata | Supreme Court of Algeria |
 | 6 | `el-mouradia.dz` |  | HttpConne... | un_desa | UN/DESA national portal |
-| 6 | `wikidata.org` | central | 301 | wikidata;wikidata | Ministry of Agriculture and Rural Development |
-| 4 | `abhcsm.dz` |  | SSLHandsh... | wikidata | Agence de Bassin Hydrographique Constantinois-Seybousse-Mellegue |
-| 4 | `alnaft.dz` |  | ConnectEx... | wikidata | National agency for the valorization of hydrocarbon resource |
-| 4 | `anem.dz` |  | ConnectEx... | wikidata | National Employment Agency |
-| 4 | `anvredet.org.dz` |  | 200 | wikidata | Anvredet |
+| 6 | `univ-alger.dz` | central |  | academia;ror | University of Algiers 1 |
+| 6 | `univ-alger2.dz` | central |  | academia;ror | Algiers 2 University |
+| 6 | `univ-alger3.dz` | central |  | academia;ror | University of Algiers 3 |
+| 6 | `univ-annaba.dz` | central |  | academia;ror | Badji Mokhtar-Annaba University |
+| 6 | `univ-bejaia.dz` | central |  | academia;ror | University of Béjaïa |
 

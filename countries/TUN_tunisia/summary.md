@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-106 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+139 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `sport.tn` | central | SSLHandsh... | wikidata;wikidata | Ministry of Youth and Sports |
 | 7 | `transport.tn` | central | SSLHandsh... | wikidata;wikidata | Ministry of Transport |
 | 6 | `cassation.tn` |  | ConnectEx... | wikidata | Court of Cassation |
+| 6 | `ucar.rnu.tn` | central |  | academia;ror | Carthage University |
 | 4 | `afi.nat.tn` |  | 301 | wikidata | Q136699374 |
 | 4 | `ambdz.tn` | central | ConnectEx... | wikidata | Embassy of Algeria, Tunis |
 | 4 | `anged.nat.tn` |  | ConnectEx... | wikidata | National Waste Management Agency |
 | 4 | `anm.nat.tn` |  | 301 | wikidata | National Agency for Metrology |
 | 4 | `anme.nat.tn` |  | SSLHandsh... | wikidata | National Agency for Energy Management |
-| 4 | `anpe.nat.tn` |  | 301 | wikidata | National Environment Protection Agency |
 

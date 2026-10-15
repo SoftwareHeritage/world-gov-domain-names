@@ -17,6 +17,7 @@ navarra.es,10,wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,Government 
 ordenacionjuego.es,10,wikidata;wikidata;linkgraph,Dirección General de Ordenación del Juego,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 gobiernodecanarias.org,9,wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,"Caldera de Taburiente National Park | Agencia Canaria de Investigación, Innovación y Sociedad de la Información | Cuerpo General de Policía Canaria | Gobierno de Canarias",central-1,301,10 smtp-tf.gobiernodecanarias.org.; 10 smtp-lp.gobiernodecanarias.org.
 red.es,9,wikidata;linkgraph,Red.es,central,308,10 red-es.mail.protection.outlook.com.
+web.unican.es,9,wikidata;academia;ror,Instituto de Biomedicina y Biotecnología de Cantabria,central,200,none
 gov.gva.es,8,wikidata;wikidata;wikidata;wikidata,Q21094623 | Q11915354,central-1,ConnectException,none
 agricultura.gva.es,7,wikidata;wikidata,Q11915347,,HttpConnectTimeoutException: HTTP connect timed out,none
 agroambient.gva.es,7,wikidata;wikidata,Q107653107,,HttpConnectTimeoutException: HTTP connect timed out,dig error
@@ -153,7 +154,6 @@ sergas.es,7,wikidata;wikidata,Q56055106 | Estructura Organizativa de Xestión In
 server.iats.csic.es,7,wikidata;academia,Institute of Aquaculture Torre de la Sal,central,HttpConnectTimeoutException: HTTP connect timed out,none
 sspa.juntadeandalucia.es,7,wikidata;wikidata,Andalusian Agency for Healthcare Quality | Servicio Andaluz de Salud,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 traballoebenestar.xunta.es,7,wikidata;wikidata,"Consellería de Economía, Emprego e Industria",central-1,ConnectException,none
-web.unican.es,7,wikidata;academia,Instituto de Biomedicina y Biotecnología de Cantabria,central,200,none
 webific.ific.uv.es,7,wikidata;academia,Instituto de Física Corpuscular,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 ifmx.ific.uv.es.
 agaur.gencat.cat,6,wikidata;wikidata,Agency for Administration of University and Research,,301,none
 apfsc.com,6,wikidata;wikidata,Port Authority of Ferrol-San Cibrao,,301,10 apfsc-com.mail.protection.outlook.com.
@@ -196,10 +196,42 @@ salesianos.edu,6,wikidata;wikidata,Salesian Province of Mary Help of Christians,
 seg-social.es,6,wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,Office of the Comptroller General of the Social Security | Social Security in Spain | Secretariat of State for Social Security | Q59496570 | Instituto Nacional de la Seguridad Social,central,ConnectException,10 mx1.seg-social.es.; 20 mx2.seg-social.es.
 territori.gencat.cat,6,wikidata;wikidata;wikidata;wikidata,Ministry of Territory | Q107059396,central-1,301,none
 tribunalconstitucional.es,6,wikidata,Constitutional Court of Spain,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 tribunalconstitucional-es.mail.protection.outlook.com.
+ua.es,6,academia;ror,University of Alicante,central-1,,
+ual.es,6,academia;ror,University of Almería,central-1,,
+ubu.es,6,academia;ror,University of Burgos,central-1,,
+uc3m.es,6,academia;ror,Universidad Carlos III de Madrid,central-1,,
+uca.es,6,academia;ror,University of Cádiz,central-1,,
+ucm.es,6,academia;ror,Complutense University of Madrid,central-1,,
+uco.es,6,academia;ror,University of Cordoba,central-1,,
+ugr.es,6,academia;ror,University of Granada,central-1,,
+uhu.es,6,academia;ror,University of Huelva,central-1,,
+ujaen.es,6,academia;ror,University of Jaén,central-1,,
+ull.es,6,academia;ror,University of La Laguna,central-1,,
+uma.es,6,academia;ror,Universidad de Málaga,central-1,,
+umh.es,6,academia;ror,Miguel Hernández University of Elche,central-1,,
+uned.es,6,academia;ror,National University of Distance Education,central,,
+uniovi.es,6,academia;ror,University of Oviedo,central-1,,
+unizar.es,6,academia;ror,University of Zaragoza,central-1,,
+upm.es,6,academia;ror,Technical University of Madrid,central-1,,
+upo.es,6,academia;ror,Pablo de Olavide University,central-1,,
+upv.es,6,academia;ror,Technical University of Valencia,central-1,,
+us.es,6,academia;ror,University of Seville,central-1,,
+usal.es,6,academia;ror,University of Salamanca,central-1,,
+uva.es,6,academia;ror,University of Valladolid,central-1,,
 web.araba.eus,6,wikidata;wikidata,Q124651607 | Q110754554,,302,none
 web.gencat.cat,6,wikidata;wikidata,Generalitat of Catalonia,central-1,301,none
 www3.gobiernodecanarias.org,6,wikidata;wikidata,Q130343476 | Servicio Canario de la Salud,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 xunta.gal,6,wikidata;wikidata,Xunta de Galicia,central-1,301,10 mail.xunta.es.
+uab.cat,5,academia;ror,Autonomous University of Barcelona,central-1,,
+udc.gal,5,academia;ror,University of A Coruña,central-1,,
+udg.edu,5,academia;ror,University of Girona,central-1,,
+udl.cat,5,academia;ror,University of Lleida,central-1,,
+uib.cat,5,academia;ror,University of the Balearic Islands,central-1,,
+upf.edu,5,academia;ror,Pompeu Fabra University,central-1,,
+urv.cat,5,academia;ror,Rovira i Virgili University,central-1,,
+usc.gal,5,academia;ror,University of Santiago de Compostela,central-1,,
+uvigo.gal,5,academia;ror,Vigo University,central-1,,
+web.ub.edu,5,academia;ror,University of Barcelona,central-1,,
 accioncultural.es,4,wikidata,AC/E,,301,10 accioncultural-es.mail.protection.outlook.com.
 acsucyl.es,4,wikidata,Quality Assurance Agency for the University System in Castilla y León,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 acsucyl-es.mail.protection.outlook.com.
 ader.es,4,wikidata,Economic Development Agency for La Rioja,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx2.riojasalud.es.
@@ -416,46 +448,25 @@ suma.es,4,wikidata,Suma Gestión Tributaria,,ConnectException,10 suma-es.mail.pr
 tourspain.es,4,wikidata,Turespaña,,301,10 mailin1.serviciosmin.gob.es.; 10 mailin.serviciosmin.gob.es.
 tragsa.es,4,wikidata,Tragsa,,IOException: HTTP/1.1 header parser received no bytes,2 antispam31.tragsa.es.; 50 mailhost-antispam.ttd.net.; 2 antispam33.tragsa.es.; 2 antispam32.tragsa.es.; 10 antispam35.tragsa.es.
 transparencia.asturias.es,4,wikidata,Q100728466,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-ua.es,4,academia,University of Alicante,central-1,,
 uah.es,4,academia,University of Alcalá,central-1,,
-ual.es,4,academia,University of Almería,central-1,,
 uam.es,4,academia,Autonomous University of Madrid,central-1,,
-ubu.es,4,academia,University of Burgos,central-1,,
-uc3m.es,4,academia,Universidad Carlos III de Madrid,central-1,,
-uca.es,4,academia,University of Cádiz,central-1,,
 uclm.es,4,academia,Universidad de Castilla-La Mancha,central-1,,
-ucm.es,4,academia,Complutense University of Madrid,central-1,,
-uco.es,4,academia,University of Cordoba,central-1,,
-ugr.es,4,academia,University of Granada,central-1,,
-uhu.es,4,academia,University of Huelva,central-1,,
 uimp.es,4,academia,Universidad Internacional Menéndez Pelayo,central-1,,
-ujaen.es,4,academia,University of Jaén,central-1,,
 uji.es,4,academia,Jaume I University,central-1,,
-ull.es,4,academia,University of La Laguna,central-1,,
 ulpgc.es,4,academia,University of Las Palmas de Gran Canaria,central-1,,
 um.es,4,academia,University of Murcia,central-1,,
-uma.es,4,academia,Universidad de Málaga,central-1,,
-umh.es,4,academia,Miguel Hernández University of Elche,central-1,,
 unavarra.es,4,academia,Public University of Navarre,central-1,,
-uned.es,4,academia,National University of Distance Education,central,,
 unesco.es,4,wikidata,Spanish National Commission for Cooperation with UNESCO,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching unesco.es found.,none
 unex.es,4,academia,University of Extremadura,central-1,,
 unia.es,4,academia,Universidad Internacional de Andalucía,central-1,,
 unican.es,4,academia,University of Cantabria,central-1,,
 unileon.es,4,academia,University of León,central-1,,
-uniovi.es,4,academia,University of Oviedo,central-1,,
 unioviedo.es,4,wikidata,Joint Institute for Biodiversity Research,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching unioviedo.es found.,0 unioviedo-es.mail.protection.outlook.com.
 unirioja.es,4,academia,University of La Rioja,central-1,,
-unizar.es,4,academia,University of Zaragoza,central-1,,
 upct.es,4,academia,Universidad Politécnica de Cartagena,central-1,,
-upm.es,4,academia,Technical University of Madrid,central-1,,
-upo.es,4,academia,Pablo de Olavide University,central-1,,
-upv.es,4,academia,Technical University of Valencia,central-1,,
 urjc.es,4,academia,King Juan Carlos University,central-1,,
-us.es,4,academia,University of Seville,central-1,,
-usal.es,4,academia,University of Salamanca,central-1,,
 utm.csic.es,4,wikidata,Unitat de Tecnologia Marina,,ConnectException,10 mx.csic.es.
-uva.es,4,academia,University of Valladolid,central-1,,
+uv.es,4,wikidata;academia;academia;academia;ror,Institute for Integrative Systems Biology | Desertification Research Centre | University of Valencia,central,ConnectException,20 mxa-006a4e02.gslb.pphosted.com.; 20 mxb-006a4e02.gslb.pphosted.com.
 uzbekembassy.es,4,wikidata,embassy of Uzbekistan in Spain,central,302,10 smtp-orion.cybergamp.cloud.
 a.gal,3,wikidata,Galician Language Association,,200,10 mail.a.gal.
 aca.gencat.cat,3,wikidata,Catalan Water Agency,central-1,301,none
@@ -526,7 +537,9 @@ cambratortosa.com,3,wikidata,Cambra de Comerç de Tortosa,,301,10 cambratortosa-
 cambravalls.com,3,wikidata,Cambra de Comerç de Valls,,200,10 mx.serviciodecorreo.es.
 cambrescat.org,3,wikidata,Consell General de Cambres de Catalunya,,200,10 cambrescat-org.mail.protection.outlook.com.
 ccetegucigalpa.org,3,wikidata,Centro Cultural de España Tegucigalpa,,301,0 mail.ccetegucigalpa.org.
+cedeu.es,3,ror,CEDEU - Centro de Estudios Universitarios,central-1,,
 cener.com,3,academia,Centro Nacional de Energías Renovables,central,,
+centrosanisidoro.es,3,ror,Centro Universitario San Isidoro,central-1,,
 ceo.gencat.cat,3,wikidata,Centre d'Estudis d'Opinió,,301,none
 cerca.cat,3,wikidata,CERCA Institute,,200,10 mx01.ionos.es.; 10 mx00.ionos.es.
 ciberseguretat.gencat.cat,3,wikidata,Cybersecurity Agency of Catalonia,,301,none
@@ -548,10 +561,16 @@ consumo.xunta.gal,3,wikidata,Q20546451,,301,none
 crtvg.gal,3,wikidata,Corporación de Servizos Audiovisuais de Galicia,,200,10 mta.crtvg.gal.
 cssolsones.com,3,wikidata,"Centre Sanitari del Solsonès, FPC",,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cssolsones.com found.,10 mx.serviciodecorreo.es.
 ctaconecta.com,3,wikidata,Consorcio de Transportes de Asturias,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ctaconecta.com found.,none
+cud-agm.es,3,ror,Centro Universitario de la Defensa Zaragoza,central-1,,
+cud.upct.es,3,ror,Centro Universitario de la Defensa en San Javier,central-1,,
+cud.uvigo.es,3,ror,Centro Universitario de la Defensa en la Escuela Naval Militar,central-1,,
 cultura.gencat.cat,3,wikidata,Q11914914,,301,none
 delegaciomadrid.gencat.cat,3,wikidata,"Government Delegation of the Generalitat, Madrid",,301,none
 delegacionscatalunya.gencat.cat,3,wikidata,Territorial Delegation of the Government of the Generalitat in Tarragona,,301,none
+deusto.es,3,ror,Universidad de Deusto,central-1,,
 dones.gencat.cat,3,wikidata,Institut Català de les Dones,,301,none
+editorial.unican.es,3,ror,Editorial de la Universidad de Cantabria,central-1,,
+editorial.us.es,3,ror,Editorial Universidad de Sevilla,central-1,,
 efe.com,3,wikidata,Agencia EFE,,HttpTimeoutException: request timed out,20 alt2.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 aspmx5.googlemail.com.; 30 aspmx3.googlemail.com.; 30 aspmx4.googlemail.com.
 egaz.eus,3,wikidata,Egaz Txorierri,,200,10 mail.egaz.eus.
 ejie.euskadi.eus,3,wikidata,EJIE,,ConnectException,none
@@ -571,13 +590,17 @@ es.mfa.lt,3,wikidata,"Embassy of Lithuania, Madrid",central,403,none
 es.mvep.hr,3,wikidata,embassy of Croatia in Spain,central,ConnectException,none
 esa.int,3,wikidata,European Space Astronomy Centre,,301,10 esa-int.mail.protection.outlook.com.
 esan.eus,3,wikidata,ESAN Basque Police,,200,10 esan-eus.mail.protection.outlook.com.
+escuni.es,3,ror,Centro Universitario de Educación ESCUNI,central-1,,
 esport.gencat.cat,3,wikidata,Q47466681,central-1,301,none
 eu.eustat.eus,3,wikidata,Basque Statistics Office,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+euf.once.es,3,ror,Escuela Universitaria de Fisioterapia de la ONCE,central-1,,
+eug.es,3,ror,Fundación Privada Escuelas Universitarias Gimbernat,central-1,,
 eurogendfor.org,3,wikidata,European Gendarmerie Force,,301,0 eurogendfor-org.mail.protection.outlook.com.
 euskalmet.euskadi.eus,3,wikidata,Euskalmet,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 eve.eus,3,wikidata,Energy Agency of the Basque Government,,301,1 eve-eus.mail.protection.outlook.com.
 fgc.cat,3,wikidata,Ferrocarrils de la Generalitat de Catalunya,,301,10 mx2.hc1623-67.eu.iphmx.com.; 10 mx1.hc1623-67.eu.iphmx.com.
 finlandabroad.fi,3,wikidata,Embassy of Finland in Spain,central,301,10 mail.valtori.fi.
+fuem.es,3,ror,Fundación Universidad Empresa de la Región de Murcia,central-1,,
 fundaciondinopolis.org,3,academia,Dinópolis Foundation,central-1,,
 gordailua.gipuzkoa.eus,3,wikidata,Gordailua,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 gss.cat,3,wikidata,Gestió de Serveis Sanitaris,,302,0 gss-cat.mail.protection.outlook.com.
@@ -591,6 +614,7 @@ idarte.eus,3,academia,School of Art and Higher School of Design,central-1,,
 ide.cat,3,wikidata,Spatial Data Infrastructure of Catalonia,,307,none
 idescat.cat,3,wikidata,Institut d'Estadística de Catalunya,,301,5 mx1.hc489-80.eu.iphmx.com.; 5 mx2.hc489-80.eu.iphmx.com.
 idi.gencat.cat,3,wikidata,Institut de Diagnòstic per la Imatge,,301,none
+idibe.umh.es,3,ror,"Instituto de Investigación, Desarrollo e Innovación en Biotecnología Sanitaria de Elche (IDiBE)",central-1,,
 ifbscalidad.eus,3,wikidata,Q110754554,,200,0 mx01.dns-servicios.com.; 0 mx00.dns-servicios.com.
 igafa.xunta.gal,3,wikidata,IGAFA,,301,none
 igape.gal,3,wikidata,Q5917336,,301,none
@@ -600,13 +624,18 @@ incasolsolars.cat,3,wikidata,Catalan Land Institute,,200,20 mx20.antispam.mailsp
 incoex.org,3,wikidata,Q5918081,central-1,200,20 mx1.incoex.org.; 10 mx0.incoex.org.
 industriasculturais.xunta.gal,3,wikidata,Q31281638,,301,none
 inega.gal,3,wikidata,Q20546437,central-1,302,10 mail.xunta.es.
+inico.usal.es,3,ror,Instituto Universitario de Integración en la Comunidad,central-1,,
 institutestudisaranesi.cat,3,wikidata,Institut d'Estudis Aranesi,,301,10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
 instytutpolski.pl,3,wikidata,Polish Institute in Madrid,,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
 irta.cat,3,academia,Institute for Research and Technology in Food and Agriculture,central-1,,
+iugm.es,3,ror,Instituto Universitario General Gutiérrez Mellado,central-1,,
+iuma.unizar.es,3,ror,Instituto Universitario de Matemáticas y Aplicaciones,central-1,,
 ivap.euskadi.eus,3,wikidata,Instituto Vasco de Administración Pública,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 lab.ccesv.org,3,wikidata,Cultural Center of Spain in El Salvador,,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+laboraldecordoba.es,3,ror,Universidad Laboral de Córdoba,central-1,,
 laboratorium.eus,3,wikidata,Laboratorium Bergara museum,,200,10 barracuda-ls.gipuzkoa.net.
 las-palmas.diplo.de,3,wikidata,German Consulate Las Palmas de Gran Canaria,,301,10 mx1.bund.de.; 10 mx2.bund.de.
+lasallecentrouniversitario.es,3,ror,La Salle Centro Universitario,central-1,,
 madrid.embassy.qa,3,wikidata,embassy of Qatar in Spain,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 madrid.embassy.si,3,wikidata,"Embassy of Slovenia, Madrid",central,SSLHandshakeException: Remote host terminated the handshake,none
 madrid.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Madrid,,302,none
@@ -629,6 +658,7 @@ ogasun.ejgv.euskadi.net,3,wikidata,Treasury and Finance Department,central-1,SSL
 osakidetza.euskadi.eus,3,wikidata,Osakidetza,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 osalan.euskadi.eus,3,wikidata,Q25405671,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 parqueinnovacionnavarra.wordpress.com,3,academia,Q20492273,central-1,,
+pcuv.es,3,ror,Parc Científic de la Universitat de València,central-1,,
 perevirgili.gencat.cat,3,wikidata,Parque Sanitario Pere Virgili,,301,none
 philembassymadrid.com,3,wikidata,"Embassy of the Philippines, Madrid",central,301,10 mx00.ionos.es.; 10 mx01.ionos.es.
 politiquesdigitals.gencat.cat,3,wikidata,Catalan Space Agency,,301,none
@@ -636,10 +666,12 @@ portdetarragona.cat,3,wikidata,Port Authority of Tarragona,,HttpConnectTimeoutEx
 portsdebalears.com,3,wikidata,Balearic Port Authority,,200,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.
 puertoalicante.com,3,wikidata,Q47516264,,301,10 h-mx2.soltecsis.com.; 10 h-mx3.soltecsis.com.; 10 h-mx1.soltecsis.com.
 puertodeceuta.com,3,wikidata,Q47516749,,ConnectException,100 d227381.b.ess.uk.barracudanetworks.com.; 99 d227381.a.ess.uk.barracudanetworks.com.
+redfue.es,3,ror,Red de Fundaciones Universidad Empresa,central-1,,
 roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Madrid,,302,none
 sac.gencat.cat,3,wikidata,Catalan General Subdirectorate of Archives and Document Management,,403,none
 salutms.cat,3,wikidata,Consorci Corporació de Salut del Maresme i la Selva,,200,10 mail2.salutms.cat.; 40 mail4.salutms.cat.; 20 mail1.salutms.cat.; 30 mail3.salutms.cat.
 salutpublica.gencat.cat,3,wikidata,Agència de Salut Pública de Catalunya,central-1,301,none
+sandamaso.es,3,ror,Universidad Eclesiástica San Dámaso,central-1,,
 sem.gencat.cat,3,wikidata,Emergency Medical System,,301,none
 sergas.gal,3,wikidata,Servizo Galego de Saúde,,301,10 mail02.sergas.gal.; 10 mail01.sergas.gal.
 sindic.cat,3,wikidata,Síndic de Greuges de Catalunya,central-1,301,0 sindic-cat.mail.protection.outlook.com.
@@ -651,30 +683,74 @@ spri.eus,3,wikidata,SPRI Group,,301,4 s11.spri.eus.; 1 mx1.hc1192-76.eu.iphmx.co
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Madrid",central,301,none
 tenerifeislasolidaria.org,3,wikidata,Q131934927,,301,10 mail.tenerifeislasolidaria.org.
 torrebarrina.l-h.cat,3,wikidata,Q119260767,,200,none
-uab.cat,3,academia,Autonomous University of Barcelona,central-1,,
-udc.gal,3,academia,University of A Coruña,central-1,,
-udg.edu,3,academia,University of Girona,central-1,,
-udl.cat,3,academia,University of Lleida,central-1,,
-uib.cat,3,academia,University of the Balearic Islands,central-1,,
-upf.edu,3,academia,Pompeu Fabra University,central-1,,
-urv.cat,3,academia,Rovira i Virgili University,central-1,,
-usc.gal,3,academia,University of Santiago de Compostela,central-1,,
-uvigo.gal,3,academia,Vigo University,central-1,,
+ucavila.es,3,ror,Catholic University of Ávila,central-1,,
+uchceu.es,3,ror,Universidad Cardenal Herrera CEU,central-1,,
+ucv.es,3,ror,Valencia Catholic University Saint Vincent Martyr,central-1,,
+udit.es,3,ror,"Universidad de Diseño, Innovación y Tecnología",central-1,,
+uf3ceu.es,3,ror,Universidad CEU Fernando III,central-1,,
+ufpcanarias.es,3,ror,Universidad Fernando Pessoa Canarias,central-1,,
+ufv.es,3,ror,Universidad Francisco de Vitoria,central-1,,
+ui1.es,3,ror,Universidad Isabel I,central-1,,
+uloyola.es,3,ror,Universidad Loyola Andalucía,central-1,,
+uneatlantico.es,3,ror,Universidad Europea del Atlántico,central-1,,
+universidadatlanticomedio.es,3,ror,Universidad del Atlántico Medio,central-1,,
+upsa.es,3,ror,Universidad Pontificia de Salamanca,central-1,,
+utamed.es,3,ror,Universidad Tecnológica Atlántico Mediterráneo – UTAMED,central-1,,
 valenciaport.com,3,wikidata,Port Authority of Valencia,,403,10 mx2.hc215-92.eu.iphmx.com.; 10 mx1.hc215-92.eu.iphmx.com.
 vhir.org,3,academia,Vall d'Hebron Research Institute,central-1,,
 web.roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Madrid,,HttpConnectTimeoutException: HTTP connect timed out,none
-web.ub.edu,3,academia,University of Barcelona,central-1,,
 www2.girona.cat,3,wikidata,Q69115599,,ConnectException,none
+auip.org,2,ror,Asociación Universitaria Iberoamericana de Postgrado,central-1,,
+bam.eus,2,ror,Begoñako Andra Mari Irakasleen Unibertsitate Eskola,central-1,,
+bircham.edu,2,ror,Bircham International University,central-1,,
+bsm.upf.edu,2,ror,UPF Barcelona School of Management,central-1,,
 cabimer.es,2,wikidata;wikidata;academia,Centro Andaluz de Biología Molecular y Medicina Regenerativa,central,200,10 mx.csic.es.
 ceice.gva.es,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Education, Culture and Sport of the Valencian Government | Ministry of Education, Research, Culture and Sport",,HttpConnectTimeoutException: HTTP connect timed out,dig error
 cial.uam-csic.es,2,wikidata;wikidata;academia,Instituto de Investigación en Ciencias de la Alimentación,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx.csic.es.
+comillas.edu,2,ror,Universidad Pontificia Comillas,central-1,,
+edusantpacia.cat,2,ror,Ateneu Universitari Sant Pacià,central-1,,
+ehu.eus,2,ror,University of the Basque Country,central-1,,
+elisava.net,2,ror,Elisava Barcelona School of Design and Engineering,central-1,,
+eram.cat,2,ror,Fundació Privada Joan Bosch-Escola Universitària de les Arts ERAM,central-1,,
+esic.edu,2,ror,ESIC University,central-1,,
+euit.fdsll.cat,2,ror,EUIT Centre Universitari,central-1,,
+euneiz.com,2,ror,EUNEIZ,central-1,,
+frayluis.com,2,ror,Escuela Universitaria de Magisterio Fray Luis de León,central-1,,
+fueib.org,2,ror,Fundació Universitat-Empresa de les Illes Balears,central-1,,
 guardiacivil.es,2,wikidata;wikidata;wikidata,Directorate-General of the Civil Guard | Civil Guard | Nature Protection Service,central,ConnectException,10 mailgw3.guardiacivil.es.; 10 mailgw4.guardiacivil.es.; 20 mailgw1.guardiacivil.es.; 20 mailgw2.guardiacivil.es.
+ibei.org,2,ror,Institut Barcelona d'Estudis Internacionals,central-1,,
+icc.ub.edu,2,ror,Institut de Ciències del Cosmos,central-1,,
+iese.edu,2,ror,IESE Business School,central-1,,
 ifca.unican.es,2,wikidata;wikidata;academia,Instituto de Física de Cantabria,central,302,10 mxa-006a4e02.gslb.pphosted.com.; 10 mxb-006a4e02.gslb.pphosted.com.
 in.umh.es,2,wikidata;wikidata;academia,Instituto de Neurociencias,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ipb.csic.es,2,wikidata;wikidata;academia,"Institute of Parasitology and Biomedicine ""López-Neyra""",central,ConnectException,20 mx.csic.es.
 irnas.csic.es,2,wikidata;wikidata;academia,Institute of Natural Resources and Agrobiology of Seville,central,ConnectException,10 mx.csic.es.
+madrid.schiller.edu,2,ror,Schiller International University,central-1,,
+magisterio.safa.edu,2,ror,Centro Universitario Sagrada Familia,central-1,,
+mondragon.edu,2,ror,Mondragon Unibertsitatea,central-1,,
+nebrija.com,2,ror,Universidad Nebrija,central-1,,
 nunciaturapostolica.es,2,wikidata;wikidata;wikidata,Tribunal of the Rota of the Apostolic Nunciature in Spain | Apostolic Nunciature to Spain,central,301,10 mx.serviciodecorreo.es.
-uv.es,2,wikidata;academia;academia;academia,Institute for Integrative Systems Biology | Desertification Research Centre | University of Valencia,central,ConnectException,20 mxa-006a4e02.gslb.pphosted.com.; 20 mxb-006a4e02.gslb.pphosted.com.
+ortegaygasset.edu,2,ror,Instituto Universitario de Investigación Ortega-Marañón,central-1,,
+rmit.eu,2,ror,RMIT Europe,central-1,,
+slu.edu,2,ror,Saint Louis University,central-1,,
+suffolk.edu,2,ror,Suffolk University Madrid,central-1,,
+techtitute.com,2,ror,Universidad Tecnológica de las Islas Canarias,central-1,,
+u-tad.com,2,ror,Centro Universitario de Tecnología y Arte Digital,central-1,,
+uax.com,2,ror,Universidad Alfonso X el Sabio,central-1,,
+ub.edu,2,ror,Institut de Biomedicina de la Universitat de Barcelona,central-1,,
+ucam.edu,2,ror,Universidad Católica de Murcia,central-1,,
+ueu.eus,2,ror,Udako Euskal Unibertsitatea,central-1,,
+uie.edu,2,ror,Universidad Intercontinental de la Empresa,central-1,,
+unav.edu,2,ror,Universidad de Navarra,central-1,,
+unir.net,2,ror,Universidad Internacional de La Rioja,central-1,,
+universidadeuropea.com,2,ror,Universidad Europea de Valencia,central-1,,
+universidadunie.com,2,ror,UNIE Universidad,central-1,,
+universidadviu.com,2,ror,Valencian International University,central-1,,
+uoc.edu,2,ror,Universitat Oberta de Catalunya,central-1,,
+upc.edu,2,ror,Universitat Politècnica de Catalunya,central-1,,
+url.edu,2,ror,Universitat Ramon Llull,central-1,,
+uspceu.com,2,ror,Universidad San Pablo CEU,central-1,,
+uvic-ucc.cat,2,ror,Universitat de Vic - Universitat Central de Catalunya,central-1,,
 www3.ibv.csic.es,2,wikidata;wikidata;academia,Instituto de Biomedicina de Valencia,central,ConnectException,none
 euskaltzaindia.eus,1,wikidata;wikidata;wikidata;wikidata,Euskaltzaindia,,301,1 euskaltzaindia-eus.mail.protection.outlook.com.
 holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none

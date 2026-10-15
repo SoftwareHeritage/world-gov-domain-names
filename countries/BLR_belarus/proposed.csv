@@ -5,12 +5,14 @@ mil.by,7,wikidata;wikidata,Ministry of Defence of the Republic of Belarus,centra
 mlh.by,7,wikidata;wikidata,Ministry of Forestry of the Republic of Belarus,central,200,none
 nbrb.by,7,wikidata;wikidata,National Bank of the Republic of Belarus,,HttpTimeoutException: request timed out,40 mail4.nbrb.by.; 30 mail3.nbrb.by.; 10 mail.nbrb.by.; 20 mail2.nbrb.by.
 region.grodno.by,7,wikidata;wikidata;wikidata,Hrodna Regional Executive Committee | Hrodna Regional Council of Deputies,central-1,301,10 mg1.g-cloud.by.; 20 ms8.g-cloud.by.
+bsu.by,6,academia;ror,Belarusian State University,central,,
+grsu.by,6,academia;ror,Yanka Kupala State University of Grodno,central,,
+mspu.by,6,academia;ror,Mozyr State Pedagogical University named after I.P. Shamyakin,central,,
 pijarzy.pl,6,wikidata;wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
 supcourt.by,6,wikidata,Supreme Court of Belarus,central,ConnectException,none
 belniig.by,4,academia,Scientific and Practical Center of the National Academy of Sciences of Belarus on Animal Husbandry,central,,
 bgam.by,4,academia,Belarusian State Academy of Music,central,,
 biobel.by,4,academia,Scientific-Practical Center National Academy of Sciences of Belarus on bioresources,central,,
-bsu.by,4,academia,Belarusian State University,central,,
 cci.by,4,wikidata,Belarusian Chamber of Commerce and Industry,,301,30 mailbe07.hoster.by.
 cricuwr.by,4,academia,Central Research Institute for the Integrated Use of Water Resources,central,,
 economics.basnet.by,4,academia,Institute of Economics of the National Academy of Sciences of Belarus,central,,
@@ -18,11 +20,9 @@ embavenez.by,4,wikidata,"Embassy of Venezuela, Minsk",central,ConnectException,n
 en.grsu.by,4,academia,Yanka Kupala State University of Grodno,central,,
 fond.bas-net.by,4,wikidata,Belarusian Republican Foundation for Fundamental Research,,200,10 smx1.hoster.by.
 gomel-region.by,4,wikidata,Homel Regional Council of Deputies,central-1,ConnectException,none
-grsu.by,4,academia,Yanka Kupala State University of Grodno,central,,
 igic.bas-net.by,4,academia,Institute of General and Inorganic Chemistry of the National Academy of Sciences of Belarus,central,,
 minszk.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Minsk",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Minsk",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
-mspu.by,4,academia,Mozyr State Pedagogical University named after I.P. Shamyakin,central,,
 narb.by,4,wikidata,National Archives of Belarus,,302,10 emx.mail.ru.
 nca.by,4,wikidata,Q137565559,,200,10 ksmg.nca.by.
 niptis.by,4,academia,Q55849239,central,,
@@ -35,17 +35,48 @@ rnpcpf.by,4,academia,Republican Scientific and Practical Centre of Pulmonology a
 socio.bas-net.by,4,academia,Institute of Sociology of the National Academy of Sciences of Belarus,central,,
 tajembassy.by,4,wikidata,embassy of Tajikistan in Belarus,central,200,10 mail.tajembassy.by.
 uiip.bas-net.by,4,academia,United Institute of Informatics Problems of the National Academy of Sciences of Belarus,central,,
+barsu.by,3,ror,Baranavichy State University,central,,
 belarus.mid.ru,3,wikidata,"Embassy of Russia, Minsk",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 belarusembassy.orderofmalta.int,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Minsk",central,200,none
+belstu.by,3,ror,Belarusian State Technological University,central,,
+bgut.by,3,ror,Belarusian State University of Food and Chemical Technologies,central,,
+bntu.by,3,ror,Belarusian National Technical University,central,,
+brsu.by,3,ror,Brest State A.S. Pushkin University,central,,
+bru.by,3,ror,Belarusian Russian University,central,,
+bsatu.by,3,ror,Belarusian State Agrarian Technical University,central,,
+bseu.by,3,ror,Belarusian State Economic University,central,,
+bsmu.by,3,ror,Belarusian State Medical University,central,,
+bspu.by,3,ror,Belarussian State Pedagogical University Named After Maxim Tank,central,,
+bstu.by,3,ror,Brest State Technical University,central,,
+bsuir.by,3,ror,Belarusian State University of Informatics and Radioelectronics,central,,
+bsut.by,3,ror,Belarusian State University of Transport,central,,
+bteu.by,3,ror,Belarusian Trade-Economic University of Consumer Cooperation,central,,
+buk.by,3,ror,Belarusian State University of Culture and Arts,central,,
 by.ambafrance.org,3,wikidata,"Embassy of France, Minsk",central,301,none
 by.mfa.lt,3,wikidata,"Embassy of Lithuania, Minsk",central,403,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Belarus,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 finlandabroad.fi,3,wikidata,"Liaison Office of Finland, Minsk",,301,10 mail.valtori.fi.
+grsmu.by,3,ror,Grodno State Medical University,central,,
+gsmu.by,3,ror,Gomel State Medical University,central,,
+gstu.by,3,ror,Sukhoi State Technical University of Gomel,central,,
+gsu.by,3,ror,Francisk Skorina Gomel State University,central,,
+inter.ggau.by,3,ror,Grodno State Agrarian University,central,,
+international.mitso.by,3,ror,International University MITSO,central,,
+iseu.bsu.by,3,ror,International Sakharov Environmental Institute,central,,
 mfa.bg,3,wikidata,"Embassy of Bulgaria, Minsk",central,302,0 mfa-bg.mail.protection.outlook.com.
 minsk.diplo.de,3,wikidata,"Embassy of Germany, Minsk",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 minsk.mae.ro,3,wikidata,"Embassy of Romania, Minsk",central,503,none
 minsk.mfa.ee,3,wikidata,Embassy of Estonia in Minsk,central,200,none
+mslu.by,3,ror,Minsk State Linguistic University,central,,
+msu.by,3,ror,Mogilev State A.Kuleshov University,central,,
 mzv.cz,3,wikidata,"Embassy of Czech Republic, Minsk",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Belarus,central,301,10 mail.gov.sk.
+polessu.by,3,ror,Polessky State University,central,,
+psu.by,3,ror,Euphrosyne Polotskaya State University,central,,
+sportedu.by,3,ror,Belarusian State University of Physical Culture,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Minsk",central,301,none
+ucp.by,3,ror,University of Civil Protection,central,,
+vsmu.by,3,ror,Vitebsk State Medical University,central,,
+vstu.by,3,ror,Vitebsk State Technological University,central,,
+vsu.by,3,ror,Vitebsk State University named after P.M. Masherov,central,,
 belriem.by,2,wikidata;wikidata;wikidata,Belarusian Research Institute for Epidemiology and Microbiology,,200,20 ms5.g-cloud.by.; 10 mg.g-cloud.by.

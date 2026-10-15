@@ -30,13 +30,13 @@
 
 ## Proposed domains ranked by score
 
-17 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+22 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 6 | `stat-guinee.org` | central | 200 | wikidata;academia | Institut National de la Statistique |
-| 4 | `uganc.edu.gn` | central |  | academia | University of Conakry |
+| 6 | `uganc.edu.gn` | central |  | academia;ror | University of Conakry |
 | 3 | `ambassadealgerieconakry.info` | central | ConnectEx... | wikidata | Embassy of Algeria, Conakry |
 | 3 | `anss-guinee.org` |  | 200 | wikidata | Q97097294 |
 | 3 | `bcrg-guinee.org` |  | 301 | wikidata | Central Bank of the Republic of Guinea |
@@ -52,4 +52,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `irag-guinee.org` |  | 200 | wikidata | Institut de Recherche Agronomique de Guinee |
 | 3 | `misiones.cubaminrex.cu` | central | SSLHandsh... | wikidata | embassy of Cuba to Guinea |
 | 3 | `uglcs.org` | central |  | academia | General Lansana Conte University |
+| 2 | `foutapedia.net` | central |  | ror | Centre Universitaire de Labé |
+| 2 | `uglcsonfonia.org` | central |  | ror | Université Général Lansana Conté |
+| 2 | `ujnk.org` | central |  | ror | Julius Nyerere University of Kankan |
 

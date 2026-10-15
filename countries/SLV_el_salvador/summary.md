@@ -30,17 +30,29 @@
 
 ## Proposed domains ranked by score
 
-8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+31 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 6 | `jesuitascam.org` |  | 200 | wikidata;wikidata | Jesuit Province of Central America |
+| 6 | `ues.edu.sv` | central |  | academia;ror | University of El Salvador |
 | 4 | `esai.sv` |  | HttpConne... | wikidata | El Salvador Aerospace Institute |
-| 4 | `ues.edu.sv` | central |  | academia | University of El Salvador |
+| 3 | `catolica.edu.sv` | central |  | ror | Universidad Católica de El Salvador |
 | 3 | `ccesv.aecid.es` |  | 200 | wikidata | Cultural Center of Spain in El Salvador |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to El Salvador |
 | 3 | `lab.ccesv.org` |  | 200 | wikidata | Cultural Center of Spain in El Salvador |
+| 3 | `pedagogica.edu.sv` | central |  | ror | Universidad Pedagógica de El Salvador |
 | 3 | `san-salvador.diplo.de` | central | 200 | wikidata | Embassy of Germany, San Salvador |
+| 3 | `sgc.ugb.edu.sv` | central |  | ror | Universidad Gerardo Barrios |
 | 3 | `sv.ambafrance.org` | central | 301 | wikidata | Embassy of France, San Salvador |
+| 3 | `uae.edu.sv` | central |  | ror | Universidad Albert Einstein |
+| 3 | `uca.edu.sv` | central |  | ror | Universidad Centroamericana José Simeón Cañas |
+| 3 | `ucad.edu.sv` | central |  | ror | Universidad Cristiana de las Asambleas de Dios |
+| 3 | `udb.edu.sv` | central |  | ror | Universidad Don Bosco |
+| 3 | `uees.edu.sv` | central |  | ror | Universidad Evangelica de El Salvador |
+| 3 | `ufg.edu.sv` | central |  | ror | Francisco Gavidia University |
+| 3 | `ujmd.edu.sv` | central |  | ror | Jose Matias Delgado University |
+| 3 | `uls.edu.sv` | central |  | ror | Universidad Luterana Salvadoreña |
+| 3 | `uma.edu.sv` | central |  | ror | Universidad Modular Abierta |
 

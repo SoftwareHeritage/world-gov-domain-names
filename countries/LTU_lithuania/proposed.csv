@@ -5,9 +5,12 @@ vert.lt,7,wikidata;wikidata,National Energy Regulatory Council of Lithuania | Th
 vilnius.lt,7,wikidata;wikidata,Vilnius City Municipality Administration,central-1,403,0 vilnius-lt.mail.protection.outlook.com.
 zeit.lt,7,wikidata;wikidata,The Office of the Inspector of Journalist Ethics,,301,10 zeit-lt.mail.protection.outlook.com.
 jesuiten.org,6,wikidata;wikidata,Jesuit Province of Central Europe,,301,10 jesuiten-org.mail.protection.outlook.com.
+ku.lt,6,academia;ror,Klaipėda University,central,,
 lat.lt,6,wikidata,Supreme Court of Lithuania,central,403,0 mail.teismas.lt.
 lrkt.lt,6,wikidata,Constitutional Court of Lithuania,central,403,0 lrkt-lt.mail.protection.outlook.com.
+lsu.lt,6,academia;ror,Lithuanian Sports University,central,,
 kt.gov.lt,5,wikidata,Competition Council,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 kt-gov-lt.mail.protection.outlook.com.
+mruni.eu,5,academia;ror,Mykolas Romeris University,central,,
 strata.gov.lt,5,wikidata,Government Strategic Analysis Center,,403,0 strata-gov-lt.mail.protection.outlook.com.
 ada.lt,4,wikidata,State Data Protection Inspectorate,central,403,0 ada-lt.mail.protection.outlook.com.
 apeliacinis.lt,4,wikidata,The Court of Appeal of Lithuania,,403,10 mail.teismas.lt.
@@ -21,7 +24,6 @@ jonava.lt,4,wikidata,Jonava District Municipality Council,central-1,403,10 mail.
 kauno.teismai.lt,4,wikidata,Kėdainiai Region District Court,central-1,403,none
 klaipeda.lt,4,wikidata,Klaipeda City Municipality Council,central-1,301,10 klaipeda-lt.mail.protection.outlook.com.
 komisija.lt,4,wikidata,International Commission for the Evaluation of the Crimes of the Nazi and Soviet Occupation Regimes in Lithuania,,301,10 mail.komisija.lt.
-ku.lt,4,academia,Klaipėda University,central,,
 lb.lt,4,wikidata,Bank of Lithuania,,403,0 lb-lt.mail.protection.outlook.com.
 lcn.lt,4,wikidata,Apostolic Nunciature to Lithuania,central,302,10 mail.kit.lt.
 lcss.lt,4,wikidata,Lithuanian Centre for Social Sciences,,200,1 eu-esec-02.heimdalsecurity.com.; 2 lcss-lt.mail.protection.outlook.com.; 0 eu-esec-01.heimdalsecurity.com.
@@ -30,7 +32,6 @@ lic.lt,4,wikidata,Lithuanian Innovation Centre,,301,10 lic-lt.mail.protection.ou
 lka.lt,4,academia,General Jonas Žemaitis Military Academy of Lithuania,central,,
 lmta.lt,4,academia,Lithuanian Academy of Music and Theatre,central,,
 lrski.lt,4,wikidata,The Parliamentary Ombudspersons Office in Lithuania,,403,0 lrski-lt.mail.protection.outlook.com.
-lsu.lt,4,academia,Lithuanian Sports University,central,,
 ltou.lt,4,wikidata,"Lietuvos oro uostai, AB",,403,10 ltou-lt.mail.protection.outlook.com.
 ltusportas.lt,4,wikidata,National Sports Agency (Lithuania),,301,0 ltusportas-lt.mail.protection.outlook.com.; 10 ltusportas.lt.
 lvat.lt,4,wikidata,Supreme Administrative Court of Lithuania,central,403,10 mail.teismas.lt.
@@ -63,22 +64,41 @@ vtaki.lt,4,wikidata,The Office of the Ombudsperson of Child's Rights of Lithuani
 vtek.lt,4,wikidata,Chief Commission of Official Ethics,,403,10 vtek-lt.mail.protection.outlook.com.
 vtpt.lt,4,wikidata,National Forensic Psychiatry Service of Lithuania,,403,10 post2.vil.lt.
 zki.lt,4,wikidata,The Intelligence Ombudspersons' Office,,301,0 zki-lt.mail.protection.outlook.com.
+en.ehu.lt,3,ror,European Humanities University,central,,
+en.viko.lt,3,ror,Vilnius University of Applied Sciences,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Lithuania,central,301,10 mail.valtori.fi.
 investlithuania.com,3,wikidata,Invest Lithuania,central,200,0 investlithuania-com.mail.protection.outlook.com.
+ism.lt,3,ror,ISM University of Management and Economics,central,,
+kaunokolegija.lt,3,ror,Kauno kolegija Higher Education Institution,central,,
+kolpingokolegija.lt,3,ror,Kolping University of Applied Sciences,central,,
+ksu.lt,3,ror,Kazimieras Simonavičius University,central,,
+ktk.lt,3,ror,Kaunas University of Applied Engineering Sciences,central,,
 ktu.edu,3,academia,Kaunas University of Technology,central,,
+kvk.lt,3,ror,Klaipėdos valstybinė kolegija / Higher Education Institution,central,,
+lcc.lt,3,ror,LCC International University,central,,
 litauen.um.dk,3,wikidata,"embassy of Denmark, Vilnius",central,301,none
 lithuania.mfa.am,3,wikidata,embassy of Armenia in Lithuania,central,301,none
 lithuania.mid.ru,3,wikidata,"Embassy of Russia, Vilnius",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 lithuania.representation.ec.europa.eu,3,wikidata,European Commission Representation in Lithuania,,302,none
 lithuaniaembassy.orderofmalta.int,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Vilnius",central,301,none
+lsmu.lt,3,ror,Lithuanian University of Health Sciences,central,,
 lt.ambafrance.org,3,wikidata,"Embassy of France, Vilnius",central,301,none
 lt.mvep.hr,3,wikidata,embassy of Croatia in Lithuania,central,ConnectException,none
+ltvk.lt,3,ror,Lithuania Business University of Applied Science,central,,
 mfa.gr,3,wikidata,embassy of Greece in Lithuania,central,403,10 mailhost.mfa.gr.
-mruni.eu,3,academia,Mykolas Romeris University,central,,
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Vilnius",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 norway.no,3,wikidata,"Embassy of Norway, Vilnius",central,301,0 mx.domeneshop.no.
+smk.lt,3,ror,SMK University of Applied Social Sciences,central,,
+su.lt,3,ror,Šiauliai University,central,,
+svako.lt,3,ror,Šiauliai State Higher Education Institution,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Vilnius",central,301,none
+tvm.vu.lt,3,ror,International Business School at Vilnius University,central,,
+utenos-kolegija.lt,3,ror,Utenos kolegija Higher Education Institution,central,,
+vdu.lt,3,ror,Vytautas Magnus University,central,,
 vilnius.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Lithuania,central,302,none
 vilnius.mae.ro,3,wikidata,embassy of Romania in Lithuania,central,ConnectException,none
 vilnius.mfa.ee,3,wikidata,Embassy of Estonia in Vilnius,central,200,none
+vilniustech.lt,3,ror,Vilnius Gediminas Technical University,central,,
+vu.lt,3,ror,Vilnius University,central,,
 wilna.diplo.de,3,wikidata,"Embassy of Germany, Vilnius",central,301,10 mx2.bund.de.; 10 mx1.bund.de.
+en.ktu.edu,2,ror,Kaunas University of Technology,central,,

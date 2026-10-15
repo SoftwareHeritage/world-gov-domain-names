@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-79 domain(s) proposed for validation, of which 14 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+180 domain(s) proposed for validation, of which 107 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,19 +40,19 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `franciscanosenmexico.com.mx` |  | 200 | wikidata;wikidata | Province of the Holy Gospel in Mexico |
 | 7 | `inegi.org.mx` | central | 200 | wikidata;academia | Instituto Nacional de Estadística y Geografía |
 | 6 | `escolapiosmexico.org` |  | 301 | wikidata;wikidata | Piarist province of Mexico |
+| 6 | `iedep.edu.mx` | central-1 |  | academia;ror | Digital Education Institute of Puebla |
 | 6 | `jesuitasmexico.org` |  | 200 | wikidata;wikidata | Jesuit Province of Mexico |
 | 6 | `mexiko.ahk.de` |  | 302 | wikidata;wikidata | Cámara Mexicano-Alemana de Comercio e Industria |
 | 6 | `sites.google.com` |  | 302 | wikidata;wikidata | Q25408184 |
+| 6 | `uas.edu.mx` | central-1 |  | academia;ror | Autonomous University of Sinaloa |
+| 6 | `uat.edu.mx` | central-1 |  | academia;ror | Autonomous University of Tamaulipas |
+| 6 | `ucnl.edu.mx` | central-1 |  | academia;ror | Universidad Ciudadana de Nuevo León |
+| 6 | `umich.mx` | central-1 |  | academia;ror | Universidad Michoacana de San Nicolás de Hidalgo |
+| 6 | `unam.mx` | central |  | academia;ror | National Autonomous University of Mexico |
 | 4 | `banxico.org.mx` |  | ConnectEx... | wikidata | Bank of Mexico |
 | 4 | `benm.mx` | central |  | academia | Benemérita Escuela Nacional de Maestros |
 | 4 | `bnm.iib.unam.mx` |  | SSLHandsh... | wikidata | National Library of Mexico |
 | 4 | `cdhcm.org.mx` | central-1 | 200 | wikidata | Comisión de Derechos Humanos de la Ciudad de México |
 | 4 | `cenidet.edu.mx` | central |  | academia | National Center for Research and Technological Development |
 | 4 | `ciad.mx` |  | 301 | wikidata | Research Center for Food and Development A.C. |
-| 4 | `ciatej.mx` |  | 200 | wikidata | Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jal... |
-| 4 | `cimsur.unam.mx` | central |  | academia | Universidad Nacional Autónoma de México, Centro de Investigaciones Multidisci... |
-| 4 | `cnyn.unam.mx` | central |  | academia | National Autonomous University of Mexico Institute of Nanoscience and Nanotec... |
-| 4 | `cofece.mx` |  | SSLHandsh... | wikidata | Comisión Federal de Competencia |
-| 4 | `conahcyt.mx` |  | 301 | wikidata | Consejo Nacional de Humanidades, Ciencias y Tecnologías |
-| 4 | `conapred.org.mx` |  | ConnectEx... | wikidata | National Council to Prevent Discrimination |
 

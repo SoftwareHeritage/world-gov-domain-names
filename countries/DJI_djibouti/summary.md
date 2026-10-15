@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,5 +43,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `djibouti.diplo.de` | central | 200 | wikidata | Embassy of Germany, Djibouti |
 | 3 | `djibouti.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Djibouti |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Djibouti and IGAD |
+| 3 | `univ.edu.dj` | central |  | ror | University of Djibouti |
 | 2 | `ministere-finances.dj` | central | 200 | wikidata;wikidata;academia | Ministry of Economy and Finances |
 

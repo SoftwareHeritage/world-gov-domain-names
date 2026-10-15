@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
 gistda.or.th,7,wikidata;wikidata,Geo-Informatics and Space Technology Development Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 100 gistda-or-th.mail.protection.outlook.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
 royaloffice.th,7,wikidata;wikidata,Bureau of the Royal Household,central,308,10 mx2.workd.go.th.; 0 mx1.workd.go.th.
+bsru.ac.th,6,academia;ror,Bansomdejchaopraya Rajabhat University,central,,
+chula.ac.th,6,academia;ror,Chulalongkorn University,central,,
 constitutionalcourt.or.th,6,wikidata,Constitutional Court of Thailand,,302,0 mx2.workd.go.th.; 0 mx1.workd.go.th.
+dru.ac.th,6,academia;ror,Dhonburi Rajabhat University,central,,
 office.constitutionalcourt.or.th,6,wikidata,Office of the Constitutional Court of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,none
 aerothai.co.th,4,wikidata,Aeronautical Radio of Thailand,,200,0 aerothai-co-th.mail.protection.outlook.com.
 bangkok.mfa.gov.hu,4,wikidata,embassy of Hungary to Thailand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 biotec.or.th,4,wikidata,BIOTEC,,HttpConnectTimeoutException: HTTP connect timed out,10 biotec-or-th.mail.protection.outlook.com.
 bot.or.th,4,wikidata,Bank of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,20 mxb-0050d802.gslb.pphosted.com.; 20 mxa-0050d802.gslb.pphosted.com.
-bsru.ac.th,4,academia,Bansomdejchaopraya Rajabhat University,central,,
-chula.ac.th,4,academia,Chulalongkorn University,central,,
 cicot.or.th,4,wikidata,Central Islamic Council of Thailand,,HttpConnectTimeoutException: HTTP connect timed out,10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
-dru.ac.th,4,academia,Dhonburi Rajabhat University,central,,
 en.thaihealth.or.th,4,wikidata,Thai Health Promotion Foundation,,200,none
 glo.or.th,4,wikidata,Thai Government Lottery Office,,ConnectException,10 rmx10.readyidc.com.; 20 rmx20.readyidc.com.
 gpo.or.th,4,wikidata,Government Pharmaceutical Organization,,200,dig error
@@ -30,38 +30,158 @@ trf.or.th,4,wikidata,Thailand Research Fund,,SSLHandshakeException: (certificate
 tsri.or.th,4,wikidata,Thailand Science Research and Innovation,,200,0 tsri-or-th.mail.protection.outlook.com.
 tu.ac.th,4,academia,Thammasat University,central,,
 afrims.health.mil,3,wikidata,United States Army Medical Directorate - Armed Forces Research Institute of Medical Sciences,,403,none
+ait.ac.th,3,ror,Asian Institute of Technology,central,,
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Bangkok",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
 armenianconsulatethailand.com,3,wikidata,Consulate of Armenia in Thailand,central,301,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+aru.ac.th,3,ror,Phranakhon Si Ayutthaya Rajabhat University,central,,
+asianu.ac.th,3,ror,Asian University,central,,
 bangkok.diplo.de,3,wikidata,"Embassy of Germany, Bangkok",central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.bund.de.; 10 mx2.bund.de.
 bangkok.embassy.mn,3,wikidata,"Embassy of Mongolia, Bangkok",central,200,none
 bangkok.mae.lu,3,wikidata,Embassy of Luxembourg in Bangkok,central,302,none
 bangkok.mae.ro,3,wikidata,"Embassy of Romania, Bangkok",central,503,none
 bangkok.mfa.ir,3,wikidata,"Embassy of Iran, Bangkok",central,307,none
+bkkthon.ac.th,3,ror,Bangkokthonburi University,central,,
+bru.ac.th,3,ror,Buriram Rajabhat University,central,,
+bsu.ac.th,3,ror,Bangkok Suvarnabhumi University,central,,
+bu.ac.th,3,ror,Bangkok University,central,,
+buu.ac.th,3,ror,Burapha University,central,,
+chandra.ac.th,3,ror,Chandrakasem Rajabhat University,central,,
 chpao.org,3,wikidata,Chaiyaphum Provincial Administrative Organization,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.chpao.org.
+christian.ac.th,3,ror,Christian University of Thailand,central,,
+cmkl.ac.th,3,ror,CMKL University,central,,
+cmru.ac.th,3,ror,Chiang Mai Rajabhat University,central,,
+cmu.ac.th,3,ror,Chiang Mai University,central,,
+cpru.ac.th,3,ror,Chaiyaphum Rajabhat University,central,,
+cpu.ac.th,3,ror,Chaopraya University,central,,
+crru.ac.th,3,ror,Chiang Rai Rajabhat University,central,,
+dpu.ac.th,3,ror,Dhurakij Pundit University,central,,
+dusit.ac.th,3,ror,Suan Dusit University,central,,
+eau.ac.th,3,ror,Eastern Asia University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Thailand,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+en.mfu.ac.th,3,ror,Mae Fah Luang University,central,,
 enaca.org,3,wikidata,Network of Aquaculture Centres in Asia-Pacific,,200,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+eng.rmutt.ac.th,3,ror,Rajamangala University of Technology,central,,
+feu.ac.th,3,ror,Far Eastern University,central,,
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Bangkok",central,301,10 mail.valtori.fi.
+ftu.ac.th,3,ror,Fatoni University,central,,
+hcu.ac.th,3,ror,Huachiew Chalermprakiet University,central,,
+hu.ac.th,3,ror,Hatyai University,central,,
 humanrights.asia,3,wikidata,Asian Human Rights Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
+iesa.ac.th,3,ror,Institute of Entrepreneurial Science Ayothaya,central,,
+inter.msu.ac.th,3,ror,Mahasarakham University,central,,
+kbu.ac.th,3,ror,Kasem Bundit University,central,,
+kku.ac.th,3,ror,Khon Kaen University,central,,
+kmitl.ac.th,3,ror,King Mongkut's Institute of Technology Ladkrabang,central,,
+kmutt.ac.th,3,ror,King Mongkut's University of Technology Thonburi,central,,
+kpru.ac.th,3,ror,Kamphaeng Phet Rajabhat University,central,,
+krirk.ac.th,3,ror,Krirk University,central,,
+kru.ac.th,3,ror,Kanchanaburi Rajabhat University,central,,
+ksu.ac.th,3,ror,Kalasin University,central,,
+ku.ac.th,3,ror,Kasetsart University,central,,
 loppao.com,3,wikidata,Lopburi Provincial Administrative Organization,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+lpru.ac.th,3,ror,Lampang Rajabhat University,central,,
+lru.ac.th,3,ror,Loei Rajabhat University,central,,
+mahidol.ac.th,3,ror,Mahidol University,central,,
+mbu.ac.th,3,ror,Mahamakut Buddhist University,central,,
+mcru.ac.th,3,ror,Muban Chombueng Rajabhat University,central,,
+mcu.ac.th,3,ror,Mahachulalongkornrajavidyalaya University,central,,
 mfa.gr,3,wikidata,embassy of Greece in Thailand,central,403,10 mailhost.mfa.gr.
 moroccoembassybangkok.org,3,wikidata,"Embassy of Morocco, Bangkok",central,HttpTimeoutException: request timed out,1200 ghs.google.com.
+mut.ac.th,3,ror,Mahanakorn University of Technology,central,,
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Bangkok",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,"Embassy of Slovakia, Bangkok",central,301,10 mail.gov.sk.
 naresuanforce.com,3,wikidata,Naresuan Command,,HttpConnectTimeoutException: HTTP connect timed out,none
+nation.ac.th,3,ror,Nation University,central,,
+neu.ac.th,3,ror,North Eastern University,central,,
 nkppao.com,3,wikidata,Nakhon Phanom Provincial Administrative Organization,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+nmu.ac.th,3,ror,Navamindradhiraj University,central,,
+northbkk.ac.th,3,ror,North Bangkok University,central,,
+northcm.ac.th,3,ror,North Chiang Mai University,central,,
 norway.no,3,wikidata,"Embassy of Norway, Bangkok",central,301,0 mx.domeneshop.no.
+npru.ac.th,3,ror,Nakhon Pathom Rajabhat University,central,,
+npu.ac.th,3,ror,Nakhon Phanom University,central,,
+nrru.ac.th,3,ror,Nakhon Ratchasima Rajabhat University,central,,
+nsru.ac.th,3,ror,Nakhon Sawan Rajabhat University,central,,
+nstru.ac.th,3,ror,Nakhon Si Thammarat Rajabhat University,central,,
+nu.ac.th,3,ror,Naresuan University,central,,
 ordnancerta.com,3,wikidata,Royal Thai Army Ordnance Department,,301,none
 panathai.com,3,wikidata,"Embassy of Panama, Bangkok",central,SSLHandshakeException: Remote host terminated the handshake,0 panathai-com.mail.protection.outlook.com.
+payap.ac.th,3,ror,Payap University,central,,
+pbru.ac.th,3,ror,Phetchaburi Rajabhat University,central,,
+pcru.ac.th,3,ror,Phetchabun Rajabhat University,central,,
 phamuangforce.com,3,wikidata,Phamuang Command,,301,10 mail.phamuangforce.com.
 phtnet.org,3,wikidata,Postharvest Technology Innovation Center,,HttpConnectTimeoutException: HTTP connect timed out,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
 phuketcity.org,3,wikidata,Phuket Provincial Administrative Organization,central-1,200,none
+pim.ac.th,3,ror,Panyapiwat Institute of Management,central,,
+pit.ac.th,3,ror,Pathumwan Institute of Technology,central,,
+pkru.ac.th,3,ror,Phuket Rajabhat University,central,,
+pnu.ac.th,3,ror,Princess of Naradhiwas University,central,,
+polytechnic.ac.th,3,ror,North Eastern Polytechnic Vocational College,central,,
+psru.ac.th,3,ror,Pibulsongkram Rajabhat University,central,,
+psu.ac.th,3,ror,Prince of Songkla University,central,,
+ptu.ac.th,3,ror,Pathumthani University,central,,
 qsbg.org,3,wikidata,"The Botanical Garden Organization, Thailand",,SSLHandshakeException: Remote host terminated the handshake,50 aspmx3.googlemail.com.; 10 aspmx.l.google.com.; 40 aspmx2.googlemail.com.; 30 alt2.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.
+rbac.ac.th,3,ror,Rattana Bundit University,central,,
+rbru.ac.th,3,ror,Rambhai Barni Rajabhat University,central,,
+reru.ac.th,3,ror,Roi et Rajabhat University,central,,
+rmu.ac.th,3,ror,Rajabhat Maha Sarakham University,central,,
+rmuti.ac.th,3,ror,Rajamangala University of Technology Isan,central,,
+rmutp.ac.th,3,ror,Rajamangala University of Technology Phra Nakhon,central,,
+rmutr.ac.th,3,ror,Rajamangala University of Technology Rattanakosin,central,,
+rmutsb.ac.th,3,ror,Rajamangala University of Technology Suvarnabhumi,central,,
+rmutsv.ac.th,3,ror,Rajamangala University of Technology Srivijaya,central,,
+rmutto.ac.th,3,ror,Rajamangala University of Technology Tawan-ok,central,,
 roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Thailand,,302,none
+rpu.ac.th,3,ror,Rajapruk University,central,,
+rru.ac.th,3,ror,Rajabhat Rajanagarindra University,central,,
+rsu.ac.th,3,ror,Rangsit University,central,,
+rtu.ac.th,3,ror,Ratchathani University,central,,
+siamtechno.ac.th,3,ror,Siam Technology University,central,,
+siu.ac.th,3,ror,Shinawatra University,central,,
+sju.ac.th,3,ror,Saint John's University,central,,
+skc.rmuti.ac.th,3,ror,"Rajamangala University of Technology Isan, Sakon Nakhon Campus",central,,
+skru.ac.th,3,ror,Songkhla Rajabhat University,central,,
+snru.ac.th,3,ror,Sakon Nakhon Rajabhat University,central,,
+spu.ac.th,3,ror,Sripatum University,central,,
+srru.ac.th,3,ror,Surindra Rajabhat University,central,,
+sru.ac.th,3,ror,Suratthani Rajabhat University,central,,
+sskru.ac.th,3,ror,Sisaket Rajabhat University,central,,
+ssru.ac.th,3,ror,Suan Sunandha Rajabhat University,central,,
+ssvit.ac.th,3,ror,Sarasas Suvarnabhumi Institute of Technology,central,,
+stou.ac.th,3,ror,Sukhothai Thammathirat Open University,central,,
 suranareecommand-rta.net,3,wikidata,Suranaree Command,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching suranareecommand-rta.net found.,0 mail.suranareecommand-rta.net.
+surin.rmuti.ac.th,3,ror,"Rajamangala University of Technology Isan, Surin Campus",central,,
 surinpao.org,3,wikidata,Surin Provincial Administrative Organization,central-1,ConnectException,none
+sut.ac.th,3,ror,Suranaree University of Technology,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Bangkok",central,301,none
+swu.ac.th,3,ror,Srinakharinwirot University,central,,
+tapee.ac.th,3,ror,Tapee University,central,,
 th.ambafrance.org,3,wikidata,"Embassy of France, Bangkok",central,301,none
 thailand.mid.ru,3,wikidata,embassy of Russia in Thailand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 thailand.um.dk,3,wikidata,"Embassy of Denmark, Bangkok",central,301,none
+thonburi-u.ac.th,3,ror,Thonburi University,central,,
+tni.ac.th,3,ror,Thai-Nichi Institute of Technology,central,,
+tnsu.ac.th,3,ror,Thailand National Sports University,central,,
 tourismthailand.org,3,wikidata,Tourism Authority of Thailand,,301,20 ALT1.ASPMX.L.GOOGLE.COM.; 30 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX.L.GOOGLE.COM.; 20 ALT2.ASPMX.L.GOOGLE.COM.; 30 ASPMX2.GOOGLEMAIL.COM.
+tru.ac.th,3,ror,Thepsatri Rajabhat University,central,,
+tsu.ac.th,3,ror,Thaksin University,central,,
+tuct.ac.th,3,ror,University of Central Thailand,central,,
+ubru.ac.th,3,ror,Ubon Ratchathani Rajabhat University,central,,
+ubu.ac.th,3,ror,Ubon Ratchathani University,central,,
+udru.ac.th,3,ror,Udon Thani Rajabhat University,central,,
 umpudh.com,3,academia,Navamindradhiraj University,central,,
+umt.ac.th,3,ror,The Eastern University of Management and Technology,central,,
+uru.ac.th,3,ror,Uttaradit Rajabhat University,central,,
+utcc.ac.th,3,ror,University of the Thai Chamber of Commerce,central,,
+vru.ac.th,3,ror,Valaya Alongkorn Rajabhat University,central,,
+web.kkc.rmuti.ac.th,3,ror,"Rajamangala University of Technology Isan, Khon Kaen Campus",central,,
+webster.ac.th,3,ror,Webster University Thailand,central,,
+western.ac.th,3,ror,Western University,central,,
+wu.ac.th,3,ror,Walailak University,central,,
+www2.vu.ac.th,3,ror,Vongchavalitkul University,central,,
+yru.ac.th,3,ror,Yala Rajabhat University,central,,
+apiu.edu,2,ror,Asia Pacific International University,central,,
+au.edu,2,ror,Assumption University,central,,
+pluniversity.com,2,ror,Phitsanulok University,central,,
+siam.edu,2,ror,Siam University,central,,
+stamford.edu,2,ror,Stamford International University,central,,

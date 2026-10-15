@@ -30,24 +30,29 @@
 
 ## Proposed domains ranked by score
 
-15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+26 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `insbu.bi` | central | 200 | wikidata;academia | National Institute of Statistics of Burundi |
 | 7 | `minisante.bi` | central | 200 | wikidata;wikidata | Ministry of Public Health of Burundi |
+| 6 | `ub.edu.bi` | central |  | academia;ror | Université du Burundi |
 | 4 | `assemblee.bi` | central | HttpConne... | wikidata | National Assembly |
 | 4 | `brb.bi` |  | ConnectEx... | wikidata | Bank of the Republic of Burundi |
 | 4 | `ceniburundi.bi` | central | HttpConne... | wikidata | Q21008237 |
 | 4 | `igebu.bi` |  | SSLHandsh... | wikidata | Institut Géographique du Burundi |
 | 4 | `senat.bi` | central | HttpConne... | wikidata | Senate |
-| 4 | `ub.edu.bi` | central |  | academia | Université du Burundi |
+| 3 | `bcu.edu.bi` | central |  | ror | Bujumbura Christian University |
 | 3 | `bi.ambafrance.org` | central | 301 | wikidata | Embassy of France, Bujumbura |
 | 3 | `bujumbura.diplo.de` | central | 200 | wikidata | Embassy of Germany, Bujumbura |
 | 3 | `burundi.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Burundi |
 | 3 | `burundistats.org` |  | 200 | wikidata | Burundi Institute of Statistics and Economic Studies |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Burundi |
+| 3 | `en.ulbu.bi` | central |  | ror | Light University of Bujumbur |
+| 3 | `ena.bi` | central |  | ror | École Normale d'Administration |
+| 3 | `ens.edu.bi` | central |  | ror | École Normale Supérieure |
+| 3 | `hau.bi` | central |  | ror | Hope Africa University |
 | 3 | `lta.iwlearn.org` |  | HttpConne... | wikidata | Lake Tanganyika Authority |
 | 3 | `nationallibraryofburundi.org` |  | HttpConne... | wikidata | National Library of Burundi |
 

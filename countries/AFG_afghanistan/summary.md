@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+66 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,14 +39,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `aihrc.org.af` |  | ConnectEx... | wikidata | Afghan Independent Human Rights Commission |
 | 3 | `af.ambafrance.org` | central | 301 | wikidata | Embassy of France, Kabul |
 | 3 | `afghanistan.diplo.de` | central | 200 | wikidata | Embassy of Germany, Kabul |
+| 3 | `aiiu.edu.af` | central |  | ror | Afghan International Islamic University |
+| 3 | `alfalah.edu.af` | central |  | ror | Alfalah University |
+| 3 | `anastu.edu.af` | central |  | ror | Afghanistan National Agricultural Sciences and Technology University |
+| 3 | `au.edu.af` | central |  | ror | Alberoni University |
+| 3 | `auaf.edu.af` | central |  | ror | American University of Afghanistan |
+| 3 | `ba.edu.af` | central |  | ror | Balkh University |
+| 3 | `badakhshan.edu.af` | central |  | ror | Badakhshan University |
+| 3 | `bakhtar.edu.af` | central |  | ror | Bakhtar University |
+| 3 | `bayazidrokhan.edu.af` | central |  | ror | Bayazid Rokhan Institute of Higher Education |
+| 3 | `bost.edu.af` | central |  | ror | Bost University |
+| 3 | `bu.edu.af` | central |  | ror | Bamyan University |
+| 3 | `dawat.edu.af` | central |  | ror | Dawat University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Afghanistan |
 | 3 | `emro.who.int` |  | ConnectEx... | wikidata | World Health Organization - Afghanistan |
-| 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Kabul |
-| 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Afghanistan |
-| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Afghanistan |
-| 3 | `nederlandwereldwijd.nl` | central | 301 | wikidata | Embassy of the Netherlands, Kabul |
-| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway, Kabul |
-| 3 | `pakembassykabul.org` | central | 200 | wikidata | Embassy of Pakistan, Kabul |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Kabul |
-| 3 | `unesco.org` |  | 302 | wikidata | UNESCO office Afghanistan |
+| 3 | `farau.edu.af` | central |  | ror | Farah University |
+| 3 | `faryab.edu.af` | central |  | ror | Faryab University |
 

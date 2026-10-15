@@ -1,5 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+ucy.ac.cy,6,academia;ror,University of Cyprus,central,,
 wikidata.org,6,wikidata;wikidata,Deputy Ministry of Culture of Cyprus,central,301,10 mx-in1001.wikimedia.org.; 10 mx-in2001.wikimedia.org.
 agrotourism.com.cy,4,wikidata,Cyprus Agrotourism Company,,200,0 agrotourism-com-cy.mail.protection.outlook.com.
 centralbank.cy,4,wikidata,Central Bank of Cyprus,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,100 mail1.centralbank.cy.
@@ -11,15 +12,19 @@ mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Nicosia",central,
 ocecpr.ee.cy,4,wikidata,Commissioner of Electronic Communications and Postal Regulation,,200,0 ocecpr-ee-cy.mail.protection.outlook.com.
 pi.ac.cy,4,wikidata,Cyprus Pedagogical Institute,,ConnectException,0 pi-ac-cy.mail.protection.outlook.com.
 resecfund.org.cy,4,wikidata,Renewable Energy Sources (RES) and Energy Conservation (EC) Fund,,200,20 mx2.zoho.eu.; 10 mx.zoho.eu.; 50 mx3.zoho.eu.
-ucy.ac.cy,4,academia,University of Cyprus,central,,
 unesco.org.cy,4,wikidata,Cyprus National Commission for UNESCO,,200,10 mailserver.livemail.co.uk.
 wbl.com.cy,4,wikidata,Water Board of Lemesos,,ConnectException,20 eoalemesos-org-cy-2.fortimailcloud.com.; 10 eoalemesos-org-cy-1.fortimailcloud.com.
+aubmed.ac.cy,3,ror,American University of Beirut – Mediterraneo,central,,
+aucy.ac.cy,3,ror,American University of Cyprus,central,,
+cut.ac.cy,3,ror,Cyprus University of Technology,central,,
 cy.ambafrance.org,3,wikidata,"Embassy of France, Nicosia",central,301,none
 cy.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Nicosia",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cy.china-embassy.org found.,none
 cyprus.mid.ru,3,wikidata,embassy of Russia in Cyprus,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 cyprus.representation.ec.europa.eu,3,wikidata,European Commission Representation in Cyprus,,302,none
 cypruspost.post,3,wikidata,Cyprus Postal Services,,513,10 mail4.cypruspost.post.; 15 mail5.cypruspost.post.; 10 mail3.cypruspost.post.; 10 mail2.cypruspost.post.; 10 mail1.cypruspost.post.
+euc.ac.cy,3,ror,European University Cyprus,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Cyprus,central,301,10 mail.valtori.fi.
+frederick.ac.cy,3,ror,Frederick University,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Cyprus,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Cyprus,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech republic in Cyprus,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
@@ -30,6 +35,27 @@ nicosia.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Cypr
 nicosia.mae.ro,3,wikidata,"Embassy of Romania, Nicosia",central,ConnectException,none
 nicosia.mfa.ir,3,wikidata,embassy of Iran in Cyprus,central,307,none
 nikosia.diplo.de,3,wikidata,"Embassy of Germany, Nicosia",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+nup.ac.cy,3,ror,Neapolis University Pafos,central,,
+ouc.ac.cy,3,ror,Open University of Cyprus,central,,
 parliament.cy,3,wikidata;wikidata;wikidata,House of Representatives,central,301,10 mail03.gov.cy.
+philipsuni.ac.cy,3,ror,Philips University,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Nicosia",central,301,none
+uclancyprus.ac.cy,3,ror,University of Central Lancashire Cyprus,central,,
+unic.ac.cy,3,ror,University of Nicosia,central,,
+uol.ac.cy,3,ror,University of Limassol,central,,
 visitcyprus.com,3,wikidata,Visit Cyprus,,302,10 mail03.gov.cy.
+adakent.edu.tr,2,ror,Kıbrıs Ada Kent Üniversitesi,central,,
+akun.edu.tr,2,ror,University of Mediterranean Karpasia,central,,
+arucad.edu.tr,2,ror,Arkın Yaratıcı Sanatlar ve Tasarım Üniversitesi,central,,
+auc.edu.tr,2,ror,Kıbrıs Amerikan Üniversitesi,central,,
+baucyprus.edu.tr,2,ror,Bahçeşehir Cyprus University,central,,
+cau.edu.tr,2,ror,Cyprus Aydin University,central,,
+ciu.edu.tr,2,ror,Cyprus International University,central,,
+cwu.edu.tr,2,ror,Cyprus West University,central,,
+emu.edu.tr,2,ror,Eastern Mediterranean University,central,,
+final.edu.tr,2,ror,Final International University,central,,
+gau.edu.tr,2,ror,Girne American University,central,,
+kktc.asbu.edu.tr,2,ror,ASBU Kuzey Kibris Yerleşkesi̇,central,,
+kyrenia.edu.tr,2,ror,University of Kyrenia,central,,
+neu.edu.tr,2,ror,Near East University,central,,
+rdu.edu.tr,2,ror,Rauf Denktas University,central,,

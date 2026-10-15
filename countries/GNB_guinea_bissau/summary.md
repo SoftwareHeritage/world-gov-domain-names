@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -44,4 +44,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `gw.ambafrance.org` | central | 301 | wikidata | Embassy of France, Bissau |
 | 3 | `gw.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Bissau |
 | 3 | `inep-bissau.org` |  | 301 | wikidata | National Library of Guinea-Bissau |
+| 3 | `ulusofona.gw` | central |  | ror | Universidade Lusófona da Guiné |
 

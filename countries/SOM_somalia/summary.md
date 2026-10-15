@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+47 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,7 +41,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `pha.pl.so` |  | HttpTimeo... | wikidata | Puntland Highway Authority |
 | 4 | `pmpf.so` |  | 200 | wikidata | Puntland Maritime Police Force |
 | 4 | `snu.edu.so` | central |  | academia | Somali National University |
+| 3 | `abrar.edu.so` | central |  | ror | Abrar University |
+| 3 | `bu.edu.so` | central |  | ror | Benadir University |
+| 3 | `citycot.edu.so` | central |  | ror | CITYCOT University |
+| 3 | `diu.edu.so` | central |  | ror | Daha International University |
+| 3 | `eau.edu.so` | central |  | ror | East Africa University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Somalia |
+| 3 | `greenhopeuniversity.edu.so` | central |  | ror | Green Hope University |
+| 3 | `hiu.edu.so` | central |  | ror | Horseed International University |
+| 3 | `hopeuniversity.so` | central |  | ror | Hope University |
+| 3 | `hu.edu.so` | central |  | ror | Hormuud University |
+| 3 | `iou.edu.so` | central |  | ror | Indian Ocean University |
+| 3 | `just.edu.so` | central |  | ror | Jamhuriya University of Science and Technology |
+| 3 | `ku.edu.so` | central |  | ror | Kismayo University |
 | 3 | `mict.govsomaliland.org` |  | HttpTimeo... | wikidata | Ministry of Information and Communication Technology |
-| 1 | `moesomalia.net` | central | 200 | wikidata;wikidata;wikidata;wikidata | Ministry of Education, Culture and Higher Education | Ministry of Education (... |
 

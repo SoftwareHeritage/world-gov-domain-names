@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,6 +47,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ccetegucigalpa.org` |  | 301 | wikidata | Centro Cultural de España Tegucigalpa |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Honduras |
 | 3 | `hn.ambafrance.org` | central | 301 | wikidata | Embassy of France, Tegucigalpa |
+| 3 | `matricula.unag.edu.hn` | central |  | ror | Universidad Nacional de Agricultura |
 | 3 | `tegucigalpa.diplo.de` | central | 200 | wikidata | Embassy of Germany, Tegucigalpa |
-| 3 | `web.archive.org` |  | 200 | wikidata | Archivo Nacional de Honduras |
+| 3 | `ujcv.edu.hn` | central |  | ror | Universidad José Cecilio del Valle |
+| 3 | `unacifor.edu.hn` | central |  | ror | Universidad Nacional de Ciencias Forestales |
+| 3 | `unah.edu.hn` | central |  | ror | National Autonomous University of Honduras |
+| 3 | `unph.edu.hn` | central |  | ror | Universidad Nacional de la Policía de Honduras |
+| 3 | `upnfm.edu.hn` | central |  | ror | Universidad Pedagógica Nacional Francisco Morazán |
+| 3 | `uth.hn` | central |  | ror | Universidad Tecnológica de Honduras |
 

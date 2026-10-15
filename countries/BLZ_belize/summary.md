@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,4 +40,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `centralbank.org.bz` |  | 301 | wikidata | Central Bank of Belize |
 | 4 | `nemo.org.bz` |  | 301 | wikidata | Belize National Emergency Management Organisation |
 | 3 | `bnlsis.org` |  | 405 | wikidata | National Library Service of Belize |
+| 3 | `galen.edu.bz` | central |  | ror | Galen University |
+| 3 | `ub.edu.bz` | central |  | ror | University of Belize |
+| 2 | `cahsu.edu` | central |  | ror | Central America Health Sciences University |
 

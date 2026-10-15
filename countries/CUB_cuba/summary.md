@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-48 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+69 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,7 +40,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mes.edu.cu` | central | ConnectEx... | wikidata;wikidata | Ministry of Higher Education of Cuba |
 | 7 | `sld.cu` | central | ConnectEx... | wikidata;wikidata | Ministry of Public Health |
 | 6 | `centroamericaribeschp.com` |  | 400 | wikidata;wikidata | Piarist province Central America- Caribbean |
+| 6 | `cujae.edu.cu` | central |  | academia;ror | Polytechnic José Antonio Echeverría |
 | 6 | `dominicoshispania.org` |  | 301 | wikidata;wikidata | Province of Hispania of the Order of Preachers |
+| 6 | `uh.cu` | central |  | academia;ror | University of Havana |
+| 6 | `uo.edu.cu` | central |  | academia;ror | University of Santiago de Cuba |
 | 4 | `acdam.cu` |  | SSLHandsh... | wikidata | ACDAM |
 | 4 | `acn.cu` |  | 301 | wikidata | Cuban News Agency |
 | 4 | `ama.cu` |  | ConnectEx... | wikidata | Environmental Agency of Cuba |
@@ -50,9 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cecmed.cu` |  | ConnectEx... | wikidata | CECMED |
 | 4 | `centis.cu` |  | HttpConne... | wikidata | Centro de Isotopos |
 | 4 | `cnic.edu.cu` | central |  | academia | Centro Nacional de Investigaciones Científicas |
-| 4 | `cujae.edu.cu` | central |  | academia | Polytechnic José Antonio Echeverría |
 | 4 | `eleccionesencuba.cu` | central | HttpConne... | wikidata | National Electoral Council of Cuba |
 | 4 | `ensap.sld.cu` | central |  | academia | Escuela Nacional de Salud Pública |
-| 4 | `geotech.cu` |  | HttpConne... | wikidata | Institute of Tropical Geography |
-| 4 | `havanna.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Havana |
 

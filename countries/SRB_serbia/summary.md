@@ -30,13 +30,14 @@
 
 ## Proposed domains ranked by score
 
-57 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+76 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `upravacarina.rs` | central | HttpConne... | wikidata;wikidata | Ministry of Finance and Economy |
 | 7 | `zzps.rs` |  | 200 | wikidata;wikidata | Zavod za zaštitu prirode Srbije |
+| 6 | `bg.ac.rs` | central |  | academia;ror | University of Belgrade |
 | 6 | `isusovci.hr` |  | 301 | wikidata;wikidata | Croatian province of the Society of Jesus |
 | 6 | `serbien.ahk.de` |  | 302 | wikidata;wikidata | German-Serbian Chamber of Commerce |
 | 6 | `ustavni.sud.rs` |  | SSLHandsh... | wikidata | Constitutional Court of Serbia |
@@ -46,7 +47,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `apv-nauka.ns.ac.rs` |  | SSLHandsh... | wikidata | Pokrajinski Sekretarijat za Nauku i Tehnološki Razvoj |
 | 4 | `arhivsrbije.rs` |  | 200 | wikidata | Archive of Serbia |
 | 4 | `belgrad.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary in Belgrade, Serbia |
-| 4 | `bg.ac.rs` | central |  | academia | University of Belgrade |
 | 4 | `cpn.rs` |  | 301 | wikidata | Centar za Promociju Nauke |
 | 4 | `csrns.org.rs` |  | 301 | wikidata | Center for Social Work Novi Sad |
 | 4 | `dmdm.rs` |  | ConnectEx... | wikidata | Directorate of Measures and Precious Metals of the Republic of Serbia |

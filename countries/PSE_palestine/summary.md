@@ -14,7 +14,7 @@
 
 ## Proposed domains ranked by score
 
-75 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+92 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -33,10 +33,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `pal-wakf.ps` | central | SSLHandsh... | wikidata;wikidata | Ministry of Awqaf and Religious Affairs (Palestine) |
 | 7 | `plc.ps` | central | 302 | wikidata;wikidata | Palestinian Legislative Council |
 | 7 | `tourism.ps` | central | 200 | wikidata;wikidata | Ministry of Tourism and Antiquities |
+| 6 | `alaqsa.edu.ps` | central |  | academia;ror | al-Aqsa University |
 | 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
 | 6 | `pal-plc.org` | central | HttpConne... | wikidata;wikidata | Palestinian Legislative Council |
 | 6 | `palestinepnc.org` |  | HttpTimeo... | wikidata;wikidata | Palestinian National Council |
-| 4 | `alaqsa.edu.ps` | central |  | academia | al-Aqsa University |
-| 4 | `alistiqlal.edu.ps` | central |  | academia | Al-Istiqlal University |
-| 4 | `cwrc.ps` |  | 200 | wikidata | Colonization and Wall Resistance Commission |
+| 5 | `hebron.edu` | central |  | academia;ror | Hebron University |
+| 5 | `qou.edu` | central |  | academia;ror | Al-Quds Open University |
 

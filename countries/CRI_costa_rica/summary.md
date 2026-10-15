@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-20 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+65 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `costarica.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Costa Rica |
 | 3 | `cr.ambafrance.org` | central | 301 | wikidata | Embassy of France, San José |
 | 3 | `cr.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, San José |
+| 3 | `earth.ac.cr` | central |  | ror | Earth University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Costa Rica |
 | 3 | `embocr.com` | central | SSLHandsh... | wikidata | embassy of Bolivia in Costa Rica |
 | 3 | `fundazoo.org` | central |  | academia | Parque Zoológico Nacional Simón Bolívar |
+| 3 | `fundepos.ac.cr` | central |  | ror | Universidad Fundepos |
 | 3 | `inbio.eas.ualberta.ca` | central |  | academia | National Biodiversity Institute |
-| 3 | `san-jose.diplo.de` | central | 200 | wikidata | Embassy of Germany, San José |
-| 3 | `san-jose.embassy.qa` | central | SSLHandsh... | wikidata | embassy of Qatar in Costa Rica |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,7 +40,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `aschgabat.diplo.de` | central | 200 | wikidata | Embassy of Germany, Ashgabat |
 | 3 | `ashgabat.mae.ro` | central | 503 | wikidata | Embassy of Romania, Ashgabat |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Turkmenistan |
+| 3 | `etut.edu.tm` | central |  | ror | Oguz Han Engineering and Technology University of Turkmenistan |
 | 3 | `eut.itgo.com` |  | ConnectEx... | wikidata | Union of Economists of Turkmenistan |
+| 3 | `ittu.edu.tm` | central |  | ror | International Turkmen-Turkish University |
+| 3 | `tdlu.edu.tm` | central |  | ror | Turkmen State Medical University |
+| 3 | `tdu.edu.tm` | central |  | ror | Magtymguly Turkmen State University |
 | 3 | `tm.ambafrance.org` | central | 301 | wikidata | Embassy of France, Aşgabat |
 | 3 | `turkmenistan.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia in Ashgabat |
 

@@ -6,6 +6,8 @@ riigikantselei.ee,7,wikidata;linkgraph,Government Office,,200,10 mail3.rit.ee.; 
 stat.ee,7,wikidata;academia,Statistics Estonia,central,301,10 mail1.rit.ee.; 10 mail3.rit.ee.
 riigikohus.ee,6,wikidata,Supreme Court of Estonia,central,302,10 mx.riigikohus.ee.
 riigiteataja.ee,6,linkgraph,Linked from 10 public-sector domains,,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
+tlu.ee,6,academia;ror,Tallinn University,central,,
+ut.ee,6,academia;ror,University of Tartu,central,,
 aki.ee,4,wikidata,Estonian Data Protection Inspectorate,central,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
 archimedes.ee,4,wikidata,Archimedes Foundation,,200,none
 chinaembassy.ee,4,wikidata,Embassy of the People's Republic of China in Tallinn,central,ConnectException,10 cmx.telia.ee.
@@ -40,19 +42,20 @@ smit.ee,4,wikidata,IT and Development Centre of the Ministry of the Interior,,30
 tai.ee,4,academia,National Institute for Health Development,central,,
 tallinn.mfa.gov.hu,4,wikidata,"Hungarian embassy, Tallinn",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ti.ee,4,wikidata,Labour Inspectorate,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
-tlu.ee,4,academia,Tallinn University,central,,
 transpordiamet.ee,4,wikidata,Estonian Transport Administration,,200,10 mx1.transpordiamet.ee.
 ttja.ee,4,wikidata,Consumer Protection and Technical Regulatory Authority,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
 unesco.ee,4,wikidata,Estonian National Commission for UNESCO,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
-ut.ee,4,academia,University of Tartu,central,,
 valisluureamet.ee,4,wikidata,Estonian Foreign Intelligence Service,,200,10 m87.valisluureamet.ee.
 vangla.ee,4,wikidata,Ministry of Justice: Department of Prisons (EE),,301,none
 wi.ee,4,academia,Võro Institute,central,,
+artcol.ee,3,ror,Tartu Art College,central,,
 ee.ambafrance.org,3,wikidata,Embassy of France in Tallinn,central,301,none
 ee.mfa.lt,3,wikidata,Lithuanian Embassy in Tallinn,central,403,none
+emu.ee,3,ror,Estonian University of Life Sciences,central,,
 estland.um.dk,3,wikidata,embassy of Denmark in Tallinn,central,301,none
 estonia.mid.ru,3,wikidata,Embassy of Russia in Tallinn,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 estonia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Estonia,,302,none
+euroakadeemia.ee,3,ror,EuroAcademy,central,,
 finlandabroad.fi,3,wikidata,Embassy of Finland in Tallinn,central,301,10 mail.valtori.fi.
 mfa.gr,3,wikidata,embassy of Greece in Tallinn,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech Republic in Tallinn,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
@@ -61,4 +64,8 @@ swedenabroad.se,3,wikidata,"Embassy of Sweden, Tallinn",central,301,none
 tallinn.diplo.de,3,wikidata,Embassy of Germany in Tallinn,central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 tallinn.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Estonia,central,302,none
 tallinn.mae.ro,3,wikidata,embassy of Romania in Tallinn,central,503,none
+taltech.ee,3,ror,Tallinn University of Technology,central,,
+tktk.ee,3,ror,Tallinn University of Applied Sciences,central,,
+ttk.ee,3,ror,Tallinn Health University of Applied Sciences,central,,
+euas.eu,2,ror,Estonian Entrepreneurship University of Applied Sciences,central,,
 terviseamet.ee,2,wikidata;wikidata;wikidata,Health Board,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.

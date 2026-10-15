@@ -2,6 +2,7 @@ hostname,score,sources,label,level,http_status,mx
 utu.edu.uy,7,wikidata;wikidata,University of Labor of Uruguay | General Directorate of Professional Technical Education,,302,10 smtp.utu.edu.uy.
 dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
 jesuitasaru.org,6,wikidata;wikidata,Argentine-Uruguayan Jesuit Province,,200,0 jesuitasaru.org.
+utec.edu.uy,6,academia;ror,Universidad Tecnológica,central,,
 anep.edu.uy,4,wikidata,National Administration of Public Education,central,200,50 mx34.anep.edu.uy.; 50 mx35.anep.edu.uy.; 5 mx30.anep.edu.uy.; 10 mx194.anep.edu.uy.; 20 mx20.anep.edu.uy.; 30 anep.edu.uy.; 15 mx31.anep.edu.uy.; 15 mx10.anep.edu.uy.
 anii.org.uy,4,wikidata,Agencia Nacional de Investigación e Innovación,,200,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.
 asse.com.uy,4,wikidata,State Health Services Administration,,200,10 smtp.asse.com.uy.
@@ -14,13 +15,23 @@ inavi.com.uy,4,wikidata,Q16579066,,SSLHandshakeException: (certificate_unknown) 
 inia.uy,4,academia,National Institute of Agricultural Research,central,,
 rnu.com.uy,4,wikidata,Radiodifusión Nacional del Uruguay,,200,0 rnu.com.uy.
 universidad.edu.uy,4,academia,University of the Republic,central,,
-utec.edu.uy,4,academia,Universidad Tecnológica,central,,
 consuladoangolaenuruguay.com,3,wikidata,"Consulate of Angola, Montevideo",central,ConnectException,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Uruguay,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
 embajadasaharauruguay.blogspot.com,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Montevideo",central,200,none
+iuacj.edu.uy,3,ror,Instituto Universitario Asociación Cristiana de Jóvenes,central,,
+iuceddu.com.uy,3,ror,Instituto Universitario Centro de Estudio y Diagnóstico de las Disgnacias del Uruguay,central,,
 mfa.gr,3,wikidata,embassy of Greece in Uruguay,central,403,10 mailhost.mfa.gr.
 montevideo.diplo.de,3,wikidata,"Embassy of Germany, Montevideo",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 montevideo.mae.ro,3,wikidata,embassy of Romania in Uruguay,central,503,none
+ort.edu.uy,3,ror,Universidad ORT Uruguay,central,,
+ucu.edu.uy,3,ror,Universidad Católica del Uruguay,central,,
+ude.edu.uy,3,ror,Universidad de la Empresa,central,,
+udelar.edu.uy,3,ror,Universidad de la República de Uruguay,central,,
+um.edu.uy,3,ror,Universidad de Montevideo,central,,
+unifa.edu.uy,3,ror,Universitario Francisco de Asís,central,,
+universidad.claeh.edu.uy,3,ror,Universidad CLAEH,central,,
+universitariocrandon.edu.uy,3,ror,Universitario Crandon,central,,
 uruguay.mid.ru,3,wikidata,embassy of Russia in Uruguay,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 uy.ambafrance.org,3,wikidata,embassy of France in Uruguay,central,301,none
 uy.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Montevideo",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching uy.china-embassy.org found.,none
+biosportal.com,2,ror,Instituto Universitario BIOS,central,,

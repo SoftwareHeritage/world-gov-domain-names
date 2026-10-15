@@ -1,4 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
+uniarts.fi,9,academia;academia;ror,Sibelius Academy | University of the Arts Helsinki,central,,
 en.gtk.fi,7,wikidata;academia,Geological Survey of Finland,central,ConnectException,10 mail.valtori.fi.
 en.ilmatieteenlaitos.fi,7,wikidata;academia,Finnish Meteorological Institute,central,200,none
 en.kotus.fi,7,wikidata;academia,Institute for the Languages of Finland,central,200,0 .
@@ -27,17 +28,22 @@ tilastokeskus.fi,7,wikidata;academia,Statistics Finland,central,301,0 tilastokes
 tulli.fi,7,wikidata;wikidata;wikidata;wikidata;wikidata,National Board of Customs | Finnish Customs,,302,10 fce-msg-2.service.capgemini.fi.; 10 fce-msg-3.service.capgemini.fi.
 tyotuomioistuin.fi,7,wikidata;wikidata,Labour Court,,301,0 mx.kolumbus.fi.
 ulosottolaitos.fi,7,wikidata;wikidata;wikidata,National Enforcement Authority Finland,,301,none
-uniarts.fi,7,academia;academia,Sibelius Academy | University of the Arts Helsinki,central,,
 varha.fi,7,wikidata;wikidata;wikidata;wikidata,Wellbeing Services County of Southwest Finland,central-1,301,0 varha-fi.mail.protection.outlook.com.
 vtv.fi,7,wikidata;wikidata;wikidata,National Audit Office of Finland,,200,10 smtpin.vtv.fi.
 yvtltk.fi,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,National Non-Discrimination and Equality Tribunal of Finland,,301,10 mx.kolumbus.fi.
+aalto.fi,6,academia;ror,Aalto University,central,,
+abo.fi,6,academia;ror,Åbo Akademi University,central,,
 helsinki.europarl.europa.eu,6,wikidata;wikidata,European Parliament Liaison Office in Finland,central,302,none
+helsinki.fi,6,academia;ror,University of Helsinki,central,,
 kho.fi,6,wikidata,Supreme Administrative Court of Finland,central,301,0 mx.kolumbus.fi.
 korkeinoikeus.fi,6,wikidata,Supreme Court of Finland,central,301,0 mx.kolumbus.fi.
 lagtinget.ax,6,wikidata;wikidata,Parliament of Åland,central-1,403,0 lagtinget-ax.mail.protection.outlook.com.
+oulu.fi,6,academia;ror,University of Oulu,central,,
+tuni.fi,6,academia;ror,Tampere University,central,,
+uef.fi,6,academia;ror,University of Eastern Finland,central,,
+utu.fi,6,academia;ror,University of Turku,central,,
+uwasa.fi,6,academia;ror,University of Vaasa,central,,
 tietosuoja.fi,5,wikidata;wikidata;wikidata;wikidata;linkgraph,Office of the Data Protection Ombudsman,central,302,0 pop.kolumbus.fi.; 10 smtp3.kolumbus.fi.
-aalto.fi,4,academia,Aalto University,central,,
-abo.fi,4,academia,Åbo Akademi University,central,,
 aitoo.fi,4,wikidata,Aitoon VPK,,301,10 mx04.secure-mailgate.com.; 10 mx03.secure-mailgate.com.
 algerianembassy.fi,4,wikidata,"Embassy of Algeria, Helsinki",central,301,0 mail02.domainhotelli.fi.
 arpajaishallinto.fi,4,wikidata,Gambling Administration,,301,none
@@ -58,7 +64,6 @@ geenitekniikanlautakunta.fi,4,wikidata,Q18694204,,302,none
 hamechamber.fi,4,wikidata,Q25451547,,200,0 hamechamber-fi.mail.protection.outlook.com.
 hanken.fi,4,academia,Hanken School of Economics,central,,
 hansel.fi,4,wikidata,Hansel Ltd.,,400,0 hansel-fi.mail.protection.outlook.com.
-helsinki.fi,4,academia,University of Helsinki,central,,
 helsinki.mfa.gov.hu,4,wikidata,"Hungarian embassy, Helsinki",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 hkl.fi,4,wikidata,Helsinki City Transport,,301,0 mx.kolumbus.fi.
 hybridcoe.fi,4,academia,European Centre of Excellence for Countering Hybrid Threats,central,,
@@ -92,7 +97,6 @@ omahame.fi,4,wikidata,Wellbeing Services County of Kanta-Häme,central-1,200,0 o
 oph.fi,4,wikidata,Finnish National Agency for Education,,301,10 mail.valtori.fi.
 osterbottensvalfard.fi,4,wikidata,Wellbeing Services County of Ostrobothnia,central-1,200,none
 ostranyland.fi,4,wikidata,Wellbeing Services County of East Uusimaa,central-1,200,0 ostranyland-fi.mail.protection.outlook.com.
-oulu.fi,4,academia,University of Oulu,central,,
 oyy.fi,4,wikidata,Student Union of the University of Oulu,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX3.GOOGLEMAIL.COM.
 paijatha.fi,4,wikidata,Wellbeing Services County of Päijät-Häme,central-1,200,0 paijatha-fi.mail.protection.outlook.com.
 pirha.fi,4,wikidata,Wellbeing Services County of Pirkanmaa,central-1,200,10 fmx-01-174.istekkipalvelut.fi.; 20 fmx-02-190.istekkipalvelut.fi.
@@ -116,11 +120,7 @@ tornionvpk.fi,4,wikidata,Tornion VPK,,200,80 ppgw4.compuline.online.; 20 ppgw1.c
 tsr.fi,4,wikidata,Finnish Work Environment Fund,,302,10 tsr-fi.mail.protection.outlook.com.
 ttl.fi,4,academia,Finnish Institute of Occupational Health,central,,
 tukes.fi,4,wikidata,Finnish Safety and Chemicals Agency,,302,5 mail.valtori.fi.
-tuni.fi,4,academia,Tampere University,central,,
 turunvpk.fi,4,wikidata,Turku Volunteer Fire Department,,301,10 mail.turunvpk.fi.
-uef.fi,4,academia,University of Eastern Finland,central,,
-utu.fi,4,academia,University of Turku,central,,
-uwasa.fi,4,academia,University of Vaasa,central,,
 valtiokonttori.fi,4,wikidata,State Treasury,,308,10 mail.valtori.fi.
 vatt.fi,4,wikidata,VATT Institute for Economic Research,,302,0 mail.valtori.fi.
 vero.fi,4,wikidata,Finnish Tax Administration,,302,10 vero-fi.mail.protection.outlook.com.
@@ -129,9 +129,11 @@ vtt.fi,4,academia,VTT Technical Research Centre of Finland,central,,
 vyy.fi,4,wikidata,Q11899984,,200,5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx5.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx4.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.
 ylioppilastutkinto.fi,4,wikidata,The Matriculation Examination Board of Finland,,301,10 mail.valtori.fi.
 ambetsverket.ax,3,wikidata,State Department of Åland,,301,10 smtp-in.vy-verkko.fi.; 20 mail5.vn.fi.
+arcada.fi,3,ror,Arcada University of Applied Sciences,central,,
 asub.ax,3,wikidata,Q131910336,,301,0 asub-ax.mail.protection.outlook.com.
 brandkar.ax,3,wikidata,Q141119178,,200,0 brandkar-ax.mail.protection.outlook.com.
 chinaembassy-fi.org,3,wikidata,"Embassy of the People's Republic of China, Helsinki",central,ConnectException,10 smtp3.kolumbus.fi.; 0 pop.kolumbus.fi.
+diak.fi,3,ror,Diaconia University of Applied Sciences,central,,
 fastighetsverket.ax,3,wikidata,Q140539278,,403,0 fastighetsverket-ax.mail.protection.outlook.com.
 fi.ambafrance.org,3,wikidata,Embassy of France in Helsinki,central,301,none
 fi.mfa.lt,3,wikidata,Embassy of Lithuania in Finland,central,403,none
@@ -139,26 +141,52 @@ fi.mvep.hr,3,wikidata,Embassy of Croatia in Finland,central,ConnectException,non
 finland.representation.ec.europa.eu,3,wikidata,European Commission Representation in Finland,,302,none
 finland.um.dk,3,wikidata,embassy of Denmark in Finland,central,301,none
 giella.org,3,wikidata,Sámi Giellagáldu,,301,none
+haaga-helia.fi,3,ror,Haaga-Helia University of Applied Sciences,central,,
+hamk.fi,3,ror,Häme University of Applied Sciences,central,,
 helsinki.diplo.de,3,wikidata,"Embassy of Germany, Helsinki",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 helsinki.embassy.si,3,wikidata,"Embassy of Slovenia, Helsinki",,ConnectException,none
 helsinki.mae.ro,3,wikidata,"Embassy of Romania, Helsinki",central,503,none
 helsinki.mfa.ee,3,wikidata,Estonian Embassy in Helsinki,central,200,none
 helsinki.thaiembassy.org,3,wikidata,Embassy of Thailand in Finland,central,200,none
+humak.fi,3,ror,Humak University of Applied Sciences,central,,
+jamk.fi,3,ror,JAMK University of Applied Sciences,central,,
+jyu.fi,3,ror,University of Jyväskylä,central,,
+kamk.fi,3,ror,Kajaani University of Applied Sciences,central,,
+karelia.fi,3,ror,Karelia University of Applied Sciences,central,,
 konsaland.mid.ru,3,wikidata,"Consulate of Russia, Mariehamn",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 kultur.ax,3,wikidata,Q124335546,,403,20 gandalf.alcom.aland.fi.
+lab.fi,3,ror,LAB University of Applied Sciences,central,,
+lapinamk.fi,3,ror,Lapland University of Applied Sciences,central,,
+laurea.fi,3,ror,Laurea University of Applied Sciences,central,,
+lut.fi,3,ror,Lappeenranta-Lahti University of Technology,central,,
+maanpuolustuskorkeakoulu.fi,3,ror,National Defence University,central,,
+metropolia.fi,3,ror,Helsinki Metropolia University of Applied Sciences,central,,
 mfa.bg,3,wikidata,"Embassy of Bulgaria, Helsinki",central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,Embassy of Greece in Finland,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,Embassy of the Czech Republic in Finland,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,Embassy of Slovakia in Finland,central,301,10 mail.gov.sk.
 nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Helsinki",central,301,0 .
+net.centria.fi,3,ror,Centria University of Applied Sciences,central,,
 nordicwelfare.org,3,wikidata,Nordic Centre for Welfare and Social Issues,,200,10 nordicwelfare-org.mail.protection.outlook.com.
 norway.no,3,wikidata,Embassy of Norway in Helsinki,central,301,0 mx.domeneshop.no.
+novia.fi,3,ror,Novia University of Applied Sciences,central,,
+oamk.fi,3,ror,Oulu University of Applied Sciences,central,,
+polamk.fi,3,ror,Police University College,central,,
 roc-taiwan.org,3,wikidata,Taipei Representative Office in Finland,,302,none
+samk.fi,3,ror,Satakunta University of Applied Sciences,central,,
+savonia.fi,3,ror,Savonia University of Applied Sciences,central,,
+seamk.fi,3,ror,Seinäjoki University of Applied Sciences,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Helsinki",central,301,none
 swedenabroad.se,3,wikidata,General Consulate of Sweden Mariehamn,,301,none
+tamk.fi,3,ror,Tampere University of Applied Sciences,central,,
 tullikamari.net,3,wikidata,Tullikamari Cultural Centre,,301,10 mx04.secure-mailgate.com.; 10 mx03.secure-mailgate.com.
+turkuamk.fi,3,ror,Turku University of Applied Sciences,central,,
+ucpori.fi,3,ror,University Consortium of Pori,central,,
+ulapland.fi,3,ror,University of Lapland,central,,
 uudenkoivistonvpk.com,3,wikidata,Q11899768,,301,0 uudenkoivistonvpk.com.
+vamk.fi,3,ror,Vaasa University of Applied Sciences,central,,
 vttresearch.com,3,academia,National metrology institute VTT MIKES,central,,
+xamk.fi,3,ror,South Eastern Finland University of Applied Sciences,central,,
 112.fi,2,wikidata;wikidata;wikidata,Emergency Response Centre Agency,,302,20 mail-in.tuve.fi.
 aka.fi,2,wikidata;wikidata;wikidata;wikidata,Strategic Research Council | Research Council of Finland,,302,13 mail.valtori.fi.
 ilmavoimat.fi,2,wikidata;wikidata;wikidata,"Military Aviation Authority, Finland",,302,10 mail-1b.mil.fi.; 10 mail-1a.mil.fi.
@@ -177,5 +205,6 @@ ruokavirasto.fi,2,wikidata;wikidata;wikidata,Finnish Food Authority,,301,10 mail
 syke.fi,2,wikidata;wikidata;wikidata;academia,Finnish Environment Institute,central,301,10 mail.cm.telia.net.
 traficom.fi,2,wikidata;wikidata;wikidata,Finnish Transport and Communications Agency,,302,10 mail1.traficom.fi.; 10 mail2.traficom.fi.
 turvallisuustutkinta.fi,2,wikidata;wikidata;wikidata;wikidata,Safety Investigation Authority,central,301,0 mx.kolumbus.fi.
+uarctic.org,2,ror,University of the Arctic,central,,
 valtori.fi,2,wikidata;wikidata;wikidata,Government ICT Centre Valtori,,302,10 mail.valtori.fi.
 vayla.fi,2,wikidata;wikidata;wikidata,Finnish Transport Infrastructure Agency,central,302,10 vayla-fi.mail.protection.outlook.com.

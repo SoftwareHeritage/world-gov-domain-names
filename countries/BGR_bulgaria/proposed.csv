@@ -28,6 +28,10 @@ seea.government.bg,7,wikidata;wikidata,Sustainable Energy Development Agency,cen
 sme.government.bg,7,wikidata;wikidata,Executive Agency for Small and Medium Enterprises,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail.sme.government.bg.; 10 mx1.egov.bg.; 20 mx2.egov.bg.
 appd-bg.org,6,wikidata;wikidata,Executive Agency for Exploration and Maintenance of the Danube River,central,200,10 mail.appd-bg.org.; 5 appd-mail.appd-bg.org.
 bulgarien.um.dk,6,wikidata;wikidata,embassy of Denmark in Bulgaria,central,301,none
+mu-varna.bg,6,academia;ror,Medical University of Varna,central,,
+nvu.bg,6,academia;ror,Vasil Levski National Military University,central,,
+uni-sofia.bg,6,academia;ror,Sofia University,central,,
+unwe.bg,6,academia;ror,University of National and World Economy,central,,
 aba.government.bg,4,wikidata,State Agency for Bulgarians Abroad,central,200,0 mail.aba.government.bg.
 adfi.minfin.bg,4,wikidata,Public Financial Inspection Agency,,404,0 adfi-minfin-bg.u-v1.mx.microsoft.
 aeuf.minfin.bg,4,wikidata,Executive Agency Audit of European Union Funds,central,403,none
@@ -256,7 +260,6 @@ montana-os.justice.bg,4,wikidata,District Court - Montana,central-1,200,none
 montana-rs.justice.bg,4,wikidata,Regional Court - Montana,central-1,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
 montana.bg,4,wikidata,Montana,,200,none
 montanaoblast.egov.bg,4,wikidata,Montana,,302,none
-mu-varna.bg,4,academia,Medical University of Varna,central,,
 naas.government.bg,4,wikidata,National Agricultural Advisory Service,,301,none
 nab-bas.bg,4,wikidata,Bulgarian Accreditation Service Executive Agency,central,301,none
 nacid.bg,4,wikidata,National Centre for Information and Documentation,,301,none
@@ -285,7 +288,6 @@ novi-iskar.sofia.bg,4,wikidata,Novi Iskar District,,403,1 smtp.google.com.
 nso.bg,4,wikidata,National Security Service,,200,none
 nssi.bg,4,wikidata,National Social Security Institute,central,200,none
 ntib.bg,4,wikidata,"National Board for aircraft, maritime and railway accident investigation",,ConnectException,0 ntib-bg.mail.protection.outlook.com.
-nvu.bg,4,academia,Vasil Levski National Military University,central,,
 oblast.vratsa.bg,4,wikidata,Vratsa,,ConnectException,none
 oblastshumen.icon.bg,4,wikidata,Shumen,,HttpConnectTimeoutException: HTTP connect timed out,none
 oblevski.egov.bg,4,wikidata,Levski,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -496,8 +498,6 @@ tsarevo.bg,4,wikidata,Tsarevo,,HttpConnectTimeoutException: HTTP connect timed o
 tsarkaloyan.bg,4,wikidata,Tsar Kaloyan,,HttpConnectTimeoutException: HTTP connect timed out,0 tsarkaloyan.bg.
 tutrakan.bg,4,wikidata,Tutrakan,,HttpConnectTimeoutException: HTTP connect timed out,none
 ugarchin.bg,4,wikidata,Ugarchin,,HttpConnectTimeoutException: HTTP connect timed out,none
-uni-sofia.bg,4,academia,Sofia University,central,,
-unwe.bg,4,academia,University of National and World Economy,central,,
 valchidol.bg,4,wikidata,Valchi dol,,HttpConnectTimeoutException: HTTP connect timed out,none
 varna-adms.justice.bg,4,wikidata,Administrative Court - Varna,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 varna-as.justice.bg,4,wikidata,Appellate court - Varna,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -552,9 +552,11 @@ aitos.org,3,wikidata,Aytos,,SSLHandshakeException: (certificate_unknown) PKIX pa
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Sofia",central,200,none
 antonbg.eu,3,wikidata,Anton,,200,none
 arbanassi.org,3,wikidata,Arbanasi,,200,none
+au-plovdiv.bg,3,ror,Agricultural University Plovdiv,central,,
 belasitsa.net,3,wikidata,Belasitsa Nature Park,,HttpConnectTimeoutException: HTTP connect timed out,none
 beloslav.org,3,wikidata,Beloslav,,HttpConnectTimeoutException: HTTP connect timed out,none
 belovo.eu,3,wikidata,Belovo,,301,0 belovo.eu.
+bfu.bg,3,ror,Burgas Free University,central,,
 bg.ambafrance.org,3,wikidata,"Embassy of France, Sofia",central,HttpConnectTimeoutException: HTTP connect timed out,none
 bg.mvep.hr,3,wikidata,embassy of Croatia in Bulgaria,central,HttpConnectTimeoutException: HTTP connect timed out,none
 borino.org,3,wikidata,Borino,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -565,10 +567,12 @@ bregovo.net,3,wikidata,Bregovo,,403,none
 breznik.info,3,wikidata,Breznik,,HttpConnectTimeoutException: HTTP connect timed out,none
 brusartsi.com,3,wikidata,Brusartsi,,HttpConnectTimeoutException: HTTP connect timed out,none
 bsregion.org,3,wikidata,Burgas,,HttpConnectTimeoutException: HTTP connect timed out,none
+btu.bg,3,ror,Prof. Assen Zlatarov University,central,,
 bulgaria.mfa.am,3,wikidata,"Embassy of Armenia, Sofia",central,HttpConnectTimeoutException: HTTP connect timed out,none
 bulgaria.mid.ru,3,wikidata,"Embassy of Russia, Sofia",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 bulgaria.representation.ec.europa.eu,3,wikidata,European Commission Representation in Bulgaria,,302,none
 byala.org,3,wikidata,Byala,,403,none
+cea.bg,3,ror,University of Security and Economics,central,,
 chavdar.eu,3,wikidata,Chavdar,,200,none
 chepelare.org,3,wikidata,Chepelare,,SSLHandshakeException: Remote host terminated the handshake,none
 cherkovo.com,3,wikidata,Cherkovo,,IOException: Received RST_STREAM: Protocol error,none
@@ -585,6 +589,7 @@ dzhebelbg.com,3,wikidata,Dzhebel,,200,none
 eavw.com,3,wikidata,Executive Agency for Vine and Wine,central,302,0 mail.eavw.com.
 elhovobg.org,3,wikidata,Elhovo,,301,0 mail.elhovobg.org.
 elinpelin.org,3,wikidata,Elin Pelin,,200,none
+epu.bg,3,ror,European Polytechnical University,central,,
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Sofia",central,301,none
 g-oryahovica.org,3,wikidata,Gorna Oryahovitsa,,301,none
 galabovo.org,3,wikidata,Galabovo,,200,none
@@ -607,16 +612,23 @@ krivodol.com,3,wikidata,Krivodol,,HttpTimeoutException: request timed out,none
 kuklen.org,3,wikidata,Kuklen,,HttpConnectTimeoutException: HTTP connect timed out,none
 kzd-nondiscrimination.com,3,wikidata,Commission for Protection against Discrimination,central,HttpConnectTimeoutException: HTTP connect timed out,none
 libplovdiv.com,3,wikidata,Ivan Vazov National Library,,HttpConnectTimeoutException: HTTP connect timed out,none
+ltu.bg,3,ror,University of Forestry,central,,
 lyaskovets.net,3,wikidata,Lyaskovets,,HttpConnectTimeoutException: HTTP connect timed out,none
 lyubimets.org,3,wikidata,Lyubimets,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.lyubimets.org.
 makreshbg.com,3,wikidata,Makresh,,HttpConnectTimeoutException: HTTP connect timed out,none
 malkotarnovo.org,3,wikidata,Malko Tarnovo,,301,10 shmail55.malkotarnovo.org.
 mfa.gr,3,wikidata,embassy of Greece in Bulgaria,central,403,none
+mgu.bg,3,ror,"University of Mining and Geology ""Saint Ivan Rilski""",central,,
 misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in Bulgaria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mu-pleven.bg,3,ror,Medical University Pleven,central,,
+mu-plovdiv.bg,3,ror,Medical University Plovdiv,central,,
+mu-sofia.bg,3,ror,Medical University of Sofia,central,,
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Sofia",central,302,none
 mzv.sk,3,wikidata,"Embassy of Slovakia, Sofia",central,301,none
+nbu.bg,3,ror,New Bulgarian University,central,,
 ncipd.org,3,academia,National Center of Infectious and Parasitic Diseases,central,,
 nesebarinfo.com,3,wikidata,Nesebar,,301,none
+new.tu-varna.bg,3,ror,Technical University of Varna,central,,
 nikolaevo.net,3,wikidata,Nikolaevo,,HttpConnectTimeoutException: HTTP connect timed out,none
 nikolovo.com,3,wikidata,Nikolovo,,308,none
 nikopol-bg.com,3,wikidata,Nikopol,,200,none
@@ -674,6 +686,7 @@ rzi-vratsa.com,3,wikidata,Regional Health Inspectorate - Vratsa,central-1,301,no
 rzipz.net,3,wikidata,Regional Health Inspectorate - Pazardzhik,central-1,ConnectException,none
 selo-smilyan.com,3,wikidata,Smilyan,,307,none
 septemvri.org,3,wikidata,Septemvri,,301,none
+shu.bg,3,ror,Shumen University,central,,
 slivopole.ru-se.com,3,wikidata,Slivo pole,,ConnectException,none
 smolyan.riosv.com,3,wikidata,Regional Inspectorate of Environment and Water - Smolyan,central-1,200,none
 so-slatina.org,3,wikidata,Slatina District,,200,0 SMTP.GOOGLE.COM.
@@ -685,26 +698,44 @@ sredec-sofia.org,3,wikidata,Sredets District,,200,10 shmail55.sredec-sofia.org.;
 stamb.info,3,wikidata,Stamboliyski,,ConnectException,20 mx2.bgdns.net.
 strumyani.org,3,wikidata,Strumyani,,200,none
 sungurlare.org,3,wikidata,Sungurlare,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+swu.bg,3,ror,"South-West University ""Neofit Rilski""",central,,
 toscalikoyu.com,3,wikidata,Gorno Prahovo,,ConnectException,none
 toshevo.com,3,wikidata,General Toshevo,,HttpConnectTimeoutException: HTTP connect timed out,none
+trakia-uni.bg,3,ror,Trakia University,central,,
 trambesh.eu,3,wikidata,Polski Trambesh,,200,none
 trekliano.eu,3,wikidata,Treklyano,,200,none
 triaditza.org,3,wikidata,Triaditsa District,,200,none
 tsenovo.eu,3,wikidata,Tsenovo,,200,none
+tu-sofia.bg,3,ror,Technical University of Sofia,central,,
+tugab.bg,3,ror,Technical University of Gabrovo,central,,
 tundzha.net,3,wikidata,Tundzha,,301,none
 tvarditsa.org,3,wikidata,Tvarditsa,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.tvarditsa.org.
+uacg.bg,3,ror,"University of Architecture, Civil Engineering and Geodesy",central,,
+uard.bg,3,ror,University of Agribusiness and Rural Development,central,,
 ucdp-smolian.com,3,wikidata,Q106702638,,200,10 mail.ucdp-smolian.com.
+ue-varna.bg,3,ror,University of Economics Varna,central,,
+uft-plovdiv.bg,3,ror,University of Food Technologies,central,,
 unesco-bg.org,3,wikidata,National Commission of the Republic of Bulgaria for UNESCO,,200,0 unesco-bg.org.
+uni-plovdiv.bg,3,ror,Plovdiv University,central,,
+uni-ruse.bg,3,ror,Angel Kanchev University of Ruse,central,,
+uni-vt.bg,3,ror,St. Cyril and St. Methodius University of Veliko Tarnovo,central,,
+unibit.bg,3,ror,University of Library Studies and Information Technologies,central,,
+utp.bg,3,ror,University of Telecommunications and Post,central,,
 valchedram.com,3,wikidata,Valchedram,,200,none
 varbitsa.org,3,wikidata,Varbitsa,,200,20 mail.ro-ni.net.; 10 mp.ro-ni.net.
 varna-mladost.com,3,wikidata,Mladost,,200,none
+vfu.bg,3,ror,Varna Free University,central,,
 visitcentralbalkan.net,3,wikidata,Central Balkan National Park,,200,none
 vladaya.net,3,wikidata,Vladaya,,200,none
 vr-balkan.net,3,wikidata,Vrachanski Balkan Nature Park,,200,none
+vsu.bg,3,ror,University of Structural Engineering and Architecture Lyuben Karavelov,central,,
+vtu.bg,3,ror,Todor Kableshkov University of Transport,central,,
+vuzf.bg,3,ror,"University of Finance, Business and Entrepreneurship",central,,
 yakimovo.org,3,wikidata,Yakimovo,,301,none
 zavet-bg.com,3,wikidata,Zavet,,HttpTimeoutException: request timed out,none
 zemen-bg.com,3,wikidata,Zemen,,200,none
 archives.government.bg,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Blagoevgrad State Archives | Dobrich State Archives | Kyustendil State Archives | Montana State Archives | Lovech State Archives | ASAB, Varna | Central State Archives of Bulgaria | Gabrovo State Archives | Ruse State Archives | Burgas State Archives | Kardzhali State Archives | Silistra State Archives | Vidin State Archives | Pleven State Archives | Pazardzhik State Archives | Targovishte State Archives | Archives State Agency | Haskovo State Archives | Shumen State Archives | Vratsa State Archives | Yambol State Archives",central,200,none
+aubg.edu,2,ror,American University in Bulgaria,central,,
 mc.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Culture of Bulgaria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.mc.government.bg.
 me.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Energy of Bulgaria,central,200,10 email.me.government.bg.; 0 me-government-bg.mail.protection.outlook.com.
 mfa.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Foreign Affairs of Bulgaria,central,302,none
@@ -718,5 +749,7 @@ mpes.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Youth and S
 mtitc.government.bg,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Transport, Information Technology and Communications",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mtitc.government.bg found.,none
 mvr.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Interior of Bulgaria,central,403,none
 tourism.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Tourism,central,200,none
+uctm.edu,2,ror,University of Chemical Technology and Metallurgy,central,,
+vumk.eu,2,ror,Varna University of Management,central,,
 mrrb.bg,0,wikidata;wikidata;wikidata;wikidata,Ministry of Regional Development and Public Works,central,301,none
 mzh.government.bg,0,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Regional Directorate of Agriculture - Ruse | Regional Directorate of Agriculture - Shumen | Regional Directorate of Agriculture - Vidin Oblast | Regional Directorate of Agriculture - Dobrich | Regional Directorate of Agriculture - Vratsa | Regional Directorate of Agriculture - Pleven | Regional Directorate of Agriculture - Varna | Regional Directorate of Agriculture - Smolyan | Regional Directorate of Agriculture - Razgrad | Regional Directorate of Agriculture - Targovishte | Regional Directorate of Agriculture - Kardzhali | Regional Directorate of Agriculture - Sofia | Regional Directorate of Agriculture - Montana Oblast | Regional Directorate of Agriculture - Yambol | Regional Directorate of Agriculture - Pernik | Ministry of Agriculture, Food and Forestry | Regional Directorate of Agriculture - Burgas | Regional Directorate of Agriculture - Blagoevgrad | Regional Directorate of Agriculture - Sliven | Regional Directorate of Agriculture - Silistra | Regional Directorate of Agriculture - Lovech | Regional Directorate of Agriculture - Kyustendil | Regional Directorate of Agriculture - Veliko Tarnovo | Regional Directorate of Agriculture - Plovdiv | Regional Directorate of Agriculture - Pazardzhik | Regional Directorate of Agriculture - Sofia City | Regional Directorate of Agriculture - Gabrovo | Regional Directorate of Agriculture - Haskovo | Regional Directorate of Agriculture - Stara Zagora",central,301,none

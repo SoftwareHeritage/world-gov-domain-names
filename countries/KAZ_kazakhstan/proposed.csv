@@ -3,6 +3,8 @@ government.kz,10,un_desa;wikidata;wikidata,Government of Kazakhstan | UN/DESA na
 mgov.kz,7,wikidata;wikidata,Ministry of Agriculture,central,200,none
 seismology.kz,7,wikidata;wikidata,Institute of Seismology,,200,10 mail.seismology.kz.
 spaceres.kz,7,wikidata;wikidata;wikidata,National Center of Space Research and Technology,,200,10 mail.spaceres.kz.
+kaznpu.kz,6,academia;ror,Kazakh National Pedagogical University,central,,
+farabi.university,5,academia;ror,Al-Farabi Kazakh National University,central,,
 akorda.kz,4,wikidata,Presidential Administration of Kazakhstan,,500,10 mgw.gov.kz.
 assembly.kz,4,wikidata,Assembly of People of Kazakhstan,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx.yandex.ru.
 biosafety.kz,4,wikidata,Research Institute for Biological Safety Problems,,200,10 mail.biosafety.kz.
@@ -13,7 +15,6 @@ ieconom.kz,4,wikidata,Institute of Economics,,200,10 mail.ieconom.kz.
 immash.kz,4,wikidata,Joldasbekov Institute of Mechanics and Engineering,,301,10 emx.mail.ru.
 kazhydromet.kz,4,wikidata,KazHydroMet,,200,10 mail.kazhydromet.kz.
 kazneb.kz,4,wikidata,National Library of Kazakhstan,,200,50 mail.kazneb.kz.
-kaznpu.kz,4,academia,Kazakh National Pedagogical University,central,,
 ksm.kz,4,wikidata,Kazakhstan Institute of Standardization and Metrology,,302,10 mx.lancloud.kz.; 10 mx2.lancloud.kz.
 math.kz,4,wikidata,Institute of Mathematics and Mathematical Modeling,,200,10 emx.mail.ru.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Astana",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
@@ -28,21 +29,92 @@ svr.kz,4,wikidata,Foreign Intelligence Service,,ConnectException,none
 ulttykarhiv.kz,4,wikidata,National Archives of Kazakhstan,,200,10 mail.ulttykarhiv.kz.
 vvmvd.kz,4,wikidata,Internal Troops of Kazakhstan,,ConnectException,0 mailvv.vvmvd.kz.; 10 mail.vvmvd.kz.; 20 ngmail.vvmvd.kz.
 zqai.kz,4,wikidata,Institute of Legislation and Legal Information of the Republic of Kazakhstan,,200,10 mail.zqai.kz.
+ablaikhan.kz,3,ror,Kazakh Ablai Khan University of International Relations and World Languages,central,,
+abu.edu.kz,3,ror,Alikhan Bokeikhan University,central,,
+ageu.edu.kz,3,ror,Almaty Humanitarian-Economic University,central,,
+aiu.edu.kz,3,ror,Astana International University,central,,
 almaty.diplo.de,3,wikidata,"Consulate General of Germany, Almaty",,301,10 mx1.bund.de.; 10 mx2.bund.de.
+almau.edu.kz,3,ror,Almaty Management University,central,,
+alt.edu.kz,3,ror,Mukhametzhan Tynyshbayev ALT University,central,,
 ambafrance-kz.org,3,wikidata,"Embassy of France, Astana",central,ConnectException,5 mta-gw.infomaniak.ch.
+amu.kz,3,ror,Astana Medical University,central,,
+astanait.edu.kz,3,ror,Astana IT University,central,,
+atrmgu.kz,3,ror,Atyrau University of Oil and Gas,central,,
+atyrau.edu.kz,3,ror,Khalel Dosmukhamedov Atyrau University,central,,
+ayu.edu.kz,3,ror,Ahmet Yesevi University,central,,
 ayu.edu.tr,3,academia,Ahmet Yesevi University,central,,
+bolashaq.edu.kz,3,ror,Bolashaq Academy,central,,
+buketov.edu.kz,3,ror,Karaganda Buketov University,central,,
+dku.kz,3,ror,Kazakh German University,central,,
+dmuk.edu.kz,3,ror,De Montfort University Kazakhstan,central,,
+dulaty.kz,3,ror,Dulaty University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Kazakhstan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-farabi.university,3,academia,Al-Farabi Kazakh National University,central,,
+ektu.kz,3,ror,D. Serikbayev East Kazakhstan State Technical University,central,,
+enu.kz,3,ror,L. N. Gumilyov Eurasian National University,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Kazakhstan,central,301,10 mail.valtori.fi.
+htii.edu.kz,3,ror,International Taraz University named after Sherkhan Murtaza,central,,
 ifc.org,3,wikidata,International Finance Corporation,,302,10 wbvapiron02a.worldbank.org.; 10 wbvapiron04a.worldbank.org.; 10 wbvapiron03a.worldbank.org.; 10 wbvapiron01a.worldbank.org.
+iitu.kz,3,ror,International Information Technologies University,central,,
+ineu.kz,3,ror,Innovative University of Eurasia,central,,
+iuth.edu.kz,3,ror,International University of Tourism and Hospitality,central,,
+kafu.kz,3,ror,Kazakh-American Free University,central,,
 kasachstan.diplo.de,3,wikidata,"Embassy of Germany, Astana",central,200,none
+kau.kz,3,ror,Kazakh-American University,central,,
+kazatu.kz,3,ror,S.Seifullin Kazakh Agro Technical University,central,,
+kaznaru.edu.kz,3,ror,Kazakh National Agrarian Research University,central,,
+kaznmu.edu.kz,3,ror,Kazakh National Medical University,central,,
+kaznui.edu.kz,3,ror,Kulyash Bayseyitova Kazakh National University of Arts,central,,
+kaznuvhi.edu.kz,3,ror,Kazakh National University of Water Management and Irrigation,central,,
+kaztbu.edu.kz,3,ror,Kazakh Technology and Business University named after K.Kulazhanov,central,,
+kbtu.kz,3,ror,Kazakh-British Technical University,central,,
+keu.kz,3,ror,Private Institution “Karaganda University of Kazpotrebsoyuz”,central,,
+kgu.kz,3,ror,Kokshetau State University,central,,
+kimep.kz,3,ror,KIMEP University,central,,
+korkyt.edu.kz,3,ror,Korkyt Ata Kyzylorda State University,central,,
+kosstu.edu.kz,3,ror,Kostanay Socio-Technical University named after academician Z. Aldamzhar,central,,
+ksph.kz,3,ror,Kazakhstan Medical University,central,,
+kstu.kz,3,ror,Abylkas Saginov Karaganda Technical University,central,,
+ksu.edu.kz,3,ror,Akhmet Baitursynuly Kostanay Regional University,central-1,,
+ku.edu.kz,3,ror,Manash Kozybayev North Kazakhstan University,central,,
 kz.ambafrance.org,3,wikidata,Consulate-General of France in Almaty,,301,none
 kz.mfa.lt,3,wikidata,embassy of Lithuania in Kazakhstan,central,403,none
+metu.edu.kz,3,ror,International Engineering and Technological University,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Kazakhstan,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Kazakhstan,central,403,10 mailhost.mfa.gr.
+mnu.kz,3,ror,Maqsut Narikbayev University,central,,
 mzv.cz,3,wikidata,embassy of the Czech republic in Kazakhstan,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Kazakhstan,central,301,10 mail.gov.sk.
+narxoz.edu.kz,3,ror,Narxoz University,central,,
+new.krmu.edu.kz,3,ror,Kazakhstan-Russian Medical University,central,,
+nmu.edu.kz,3,ror,Nur-Mubarak University,central,,
+nu.edu.kz,3,ror,Nazarbayev University,central,,
 nursultan.mae.ro,3,wikidata,embassy of Romania in Kazakhstan,central,ConnectException,none
 nursultan.mfa.ee,3,wikidata,Embassy of Estonia in Astana,central,ConnectException,none
+ouk.edu.kz,3,ror,Kyzylorda Open University,central,,
+ppu.edu.kz,3,ror,Margulan University,central,,
+q-university.kz,3,ror,Q University,central,,
+qmu.edu.kz,3,ror,Karaganda Medical University,central,,
+qyzpu.edu.kz,3,ror,Kazakh National Women's Teacher Training University,central,,
+sdu.edu.kz,3,ror,Suleyman Demirel University,central,,
+smu.edu.kz,3,ror,Semey Medical University,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Astana",central,301,none
+tashenev.edu.kz,3,ror,Tashenev University,central,,
+tou.edu.kz,3,ror,Toraighyrov University,central,,
+tttu.edu.kz,3,ror,Karaganda State Industrial University,central,,
+turan-edu.kz,3,ror,Turan University,central,,
+udn.edu.kz,3,ror,Academician A. Kuatbekov People’s Friendship University,central,,
+uib.kz,3,ror,University of International Business,central,,
+ukgu.kz,3,ror,M.Auezov South Kazakhstan State University,central,,
+vku.edu.kz,3,ror,Sarsen Amanzholov East Kazakhstan University,central,,
+wkau.edu.kz,3,ror,Zhangir Khan West Kazakhstan Agrarian Technical University,central,,
+wkitu.kz,3,ror,West Kazakhstan University of Innovation and Technology,central,,
+wksu.kz,3,ror,Mahambet Otemiusly West Kazakhstan University,central,,
+yu.edu.kz,3,ror,Yessenov University,central,,
+zhetysu.edu.kz,3,ror,Zhetysu University named after Ilyas Zhansugurov,central,,
+zhezu.kz,3,ror,Zhezkazgan Baikonurov University,central,,
+zhubanov.edu.kz,3,ror,Aktobe Regional State University named after K.Zhubanov,central-1,,
+zkgmu.kz,3,ror,West Kazakhstan Marat Ospanov State Medical University,central,,
+energo.university,2,ror,Almaty University of Power Engineering and Telecommunications,central,,
 primeminister.kz,2,wikidata;wikidata;wikidata;wikidata,Ministry of Trade and Integration | Prime Minister's Office,central,200,10 emx.mail.ru.
+satbayev.university,2,ror,Satbayev University,central,,
+shakarim.university,2,ror,Shakarim University,central,,

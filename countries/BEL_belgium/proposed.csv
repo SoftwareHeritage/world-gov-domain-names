@@ -36,6 +36,9 @@ nato.mfa.am,6,wikidata;wikidata,Permanent Mission of Armenia to NATO,,301,none
 norway.no,6,wikidata;wikidata,"Embassy of Norway, Brussels | Permanent Mission of Norway to NATO",central,301,0 mx.domeneshop.no.
 swedenabroad.se,6,wikidata;wikidata,Permanent Mission of Sweden to NATO | Consulate General of Sweden in Brussels,,301,none
 taiwanembassy.org,6,wikidata;wikidata,Taipei Representative Office in the EU and Belgium,,302,none
+ugent.be,6,academia;ror,Ghent University,central-1,,
+uhasselt.be,6,academia;ror,Hasselt University,central-1,,
+uliege.be,6,academia;ror,University of Liège,central-1,,
 aeronomie.be,4,wikidata,Royal Belgian Institute for Space Aeronomy,,HttpConnectTimeoutException: HTTP connect timed out,10 mailserv.oma.be.
 agencewallonnedupatrimoine.be,4,wikidata,Agence wallonne du Patrimoine,central-1,200,10 mail.agencewallonnedupatrimoine.be.
 agentschapmdk.be,4,wikidata,Agency for Maritime and Coastal Services,,301,50 mx.backup.mailprotect.be.; 10 mx.mailprotect.be.
@@ -175,9 +178,6 @@ srilankaembassy.be,4,wikidata,embassy of Sri Lanka in Belgium,central,SSLHandsha
 syntra.be,4,wikidata,Q1812558,central-1,301,10 mx.mailprotect.be.; 50 mx.backup.mailprotect.be.
 timor-leste.be,4,wikidata,embassy of East Timor in Belgium,central,SSLException: (internal_error) Received fatal alert: internal_error,0 timorleste-be01c.mail.protection.outlook.com.; 10 mx.glb.proximus.be.
 toerismevlaanderen.be,4,wikidata,visit Flanders,,301,10 toerismevlaanderen-be.mail.protection.outlook.com.
-ugent.be,4,academia,Ghent University,central-1,,
-uhasselt.be,4,academia,Hasselt University,central-1,,
-uliege.be,4,academia,University of Liège,central-1,,
 unesco-vlaanderen.be,4,wikidata,Flemish Commission for UNESCO in Belgium,,301,0 unescovlaanderen-be01e.mail.protection.outlook.com.; 100 mxb.ovh.net.; 1 mx3.ovh.net.; 5 mx4.ovh.net.
 vaph.be,4,wikidata,Flemish Agency for persons with disabilities,central-1,301,20 ALT1.ASPMX.L.google.com.; 30 ASPMX3.GOOGLEMAIL.com.; 20 ALT2.ASPMX.L.google.com.; 30 ASPMX5.GOOGLEMAIL.com.; 30 ASPMX4.GOOGLEMAIL.com.; 30 ASPMX2.GOOGLEMAIL.com.; 10 ASPMX.L.google.com.
 vgtc.be,4,wikidata,Vlaams GebarentaalCentrum,,200,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
@@ -215,6 +215,8 @@ zswapi.be,4,wikidata,Emergency zone Hainaut West,,301,0 zswapi-be.mail.protectio
 zuid-oost.hulpverleningszone.be,4,wikidata,Emergency zone East Flanders South East,,ConnectException,none
 zuidwestlimburg.be,4,wikidata,Emergency zone Limburg Southwest,,200,0 zuidwestlimburg-be.mail.protection.outlook.com.
 actiris.brussels,3,wikidata,Actiris,central-1,302,10 mail.actiris.brussels.; 10 mail2.actiris.brussels.
+actournai.be,3,ror,Académie des Beaux-Arts de Tournai,central-1,,
+arteveldehogeschool.be,3,ror,Artevelde University College Ghent,central-1,,
 athumi.eu,3,wikidata,Athumi,,200,2 athumi-eu.mail.protection.outlook.com.
 be.ambafrance.org,3,wikidata,"Embassy of France, Brussels",central,301,none
 be.mfa.lt,3,wikidata,"Embassy of Lithuania, Brussels",central,403,none
@@ -240,38 +242,65 @@ elard.eu,3,wikidata,European Leader Association for Rural Development,,200,10 zo
 embajada-guinea-ecuatorial.com,3,wikidata,embassy of Equatorial Guinea in Belgium,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching embajada-guinea-ecuatorial.com found.,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
 environnement.brussels,3,wikidata,Brussels Environment,,200,0 environnement-brussels.mail.protection.outlook.com.
 eplo.org,3,wikidata,European Peacebuilding Liaison Office,,200,10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
+erasmushogeschool.be,3,ror,Erasmus Brussels University of Applied Sciences and Arts,central-1,,
+esac.be,3,ror,École Supérieure des Arts du Cirque,central-1,,
 esst.eu,3,wikidata,ESST,,200,10 mx-in03.nouzelle.com.; 10 mx-in01.nouzelle.com.; 10 mx-in02.nouzelle.com.
 eswatini-embassy.eu,3,wikidata,"Embassy of Eswatini, Brussels",central,301,10 mx.transip.email.
 exteriors.ad,3,wikidata,"Embassy of Andorra, Brussels",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 exteriors.gencat.cat,3,wikidata,Delegation of the Government of Catalonia to the European Union,,301,none
 finance.brussels,3,wikidata,finance&invest.brussels,,200,0 finance-brussels.mail.protection.outlook.com.
+ftu.be,3,ror,Fondation Travail-Université,central-1,,
 gambiaembassy.eu,3,wikidata,embassy of Gambia in Belgium,central,200,0 gambiaembassy.eu.
+gembloux.ulg.ac.be,3,ror,Gembloux Agro-Bio Tech,central-1,,
 goss-brussels.com,3,wikidata,embassy of South Sudan in Belgium,central,404,10 mx3.mailpod15-cph3.g1i.one.com.; 10 mx1.mailpod15-cph3.g1i.one.com.; 10 mx4.mailpod15-cph3.g1i.one.com.; 10 mx2.mailpod15-cph3.g1i.one.com.
 helmholtz.de,3,wikidata,Brussels Office of Helmholtz Association,,301,10 mgw01.cloud-mgmt.net.; 20 mgw02.cloud-mgmt.net.
+hogent.be,3,ror,HOGENT University of Applied Sciences and Arts,central-1,,
+howest.be,3,ror,University College West Flanders,central-1,,
 ire.eu,3,wikidata,Institute for Radioelements,,200,10 srv-edge.ire.eu.
 iriscare.brussels,3,wikidata,Q134726599,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 iriscare-brussels.mail.protection.outlook.com.
+jezuietenhuis.be,3,ror,St John Berchmans University College,central-1,,
+kdg.be,3,ror,Karel de Grote Hogeschool,central-1,,
 kenyabrussels.com,3,wikidata,embassy of Kenya in Belgium,central,200,10 kenyabrussels-com.mail.protection.outlook.com.
+kuleuven.be,3,ror,KU Leuven,central-1,,
 leefmilieu.brussels,3,wikidata,Brussels Environment,,200,0 leefmilieu-brussels.mail.protection.outlook.com.
+leseptantecinq.be,3,ror,École Supérieure des Arts de l'Image Le 75,central-1,,
+odisee.be,3,ror,"Odisee, University of Applied Sciences",central-1,,
 paradigm.brussels,3,wikidata,Paradigm,central-1,301,0 paradigm-brussels.mail.protection.outlook.com.
 parking.brussels,3,wikidata,parking.brussels,central-1,200,10 parking-brussels.mail.protection.outlook.com.
 permanentevertegenwoordigingen.nl,3,wikidata,Permanent Representation of the Netherlands to the European Union,,301,0 .
 permanentrepresentations.nl,3,wikidata,Permanent Representation of the Netherlands to the European Union,,301,0 .
 pmv.eu,3,wikidata,Investment Company for Flanders,,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 pompiers.brussels,3,wikidata,Brussels Fire Department,central-1,301,10 mx.nameweb.biz.
+protestafac.ac.be,3,ror,Faculté universitaire de Théologie protestante de Bruxelles,central-1,,
 safe.brussels,3,wikidata,safe.brussels,central-1,200,0 safe-brussels.mail.protection.outlook.com.
+saint-luc.be,3,ror,École Supérieure des Arts Saint-Luc de Liège,central-1,,
 samoaembassybelgium.com,3,wikidata,embassy of Samoa in Belgium,central,200,0 samoaembassybelgium.com.
 sierraleoneembassy.brussels,3,wikidata,Embassy of Sierra Leone in Belgium,central,301,10 mx1.mailpod15-cph3.g1i.one.com.; 10 mx3.mailpod15-cph3.g1i.one.com.; 10 mx4.mailpod15-cph3.g1i.one.com.; 10 mx2.mailpod15-cph3.g1i.one.com.
 sofico.org,3,wikidata,SOFICO,,302,0 mta02.nrb.be.; 0 mta01.nrb.be.
 solomonislandsembassy.com,3,wikidata,embassy of Solomon Islands in Belgium,central,200,10 mail.solomonislandsembassy.com.
 sport.vlaanderen,3,wikidata,Sport Vlaanderen,central-1,301,10 sport-vlaanderen.mail.protection.outlook.com.
+stluc-bruxelles-esa.be,3,ror,ST-LUC BXL École supérieure des arts,central-1,,
 taalunie.org,3,wikidata,Dutch Language Union,,200,10 taalunie-org.mail.protection.outlook.com.
+thomasmore.be,3,ror,Thomas More Kempen,central-1,,
+uantwerpen.be,3,ror,University of Antwerp,central-1,,
+ucll.be,3,ror,University Colleges Leuven-Limburg,central-1,,
+uclouvain.be,3,ror,UCLouvain Saint-Louis Brussels,central-1,,
 ue.delegfrance.org,3,wikidata,Permanent Mission of France to the European Union,,301,none
+ulb.be,3,ror,Université Libre de Bruxelles,central-1,,
+unamur.be,3,ror,University of Namur,central-1,,
 urban.brussels,3,wikidata,Q108059930,central-1,302,10 urban-brussels.mail.protection.outlook.com.
 visit.brussels,3,wikidata,visit.brussels,central-1,301,10 visit-brussels.mail.protection.outlook.com.
 visitflanders.com,3,wikidata,visit Flanders,,301,10 visitflanders-com.mail.protection.outlook.com.
+vives.be,3,ror,Katholieke Hogeschool Vives,central-1,,
+vlir.be,3,ror,Vlaamse Interuniversitaire Raad,central-1,,
+vub.be,3,ror,Vrije Universiteit Brussel,central-1,,
+web.umons.ac.be,3,ror,University of Mons,central-1,,
 arch.arch.be,2,wikidata;wikidata;wikidata;wikidata,State Archives in Bruges | Algemeen rijksarchief en rijksarchief in de provinciën Rijksarchief Beveren | Algemeen Rijksarchief en Rijksarchief in de Provinciën Anderlecht | Algemeen Rijksarchief en Rijksarchief in de Provinciën Leuven,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 aseva.be,2,wikidata;wikidata;wikidata,Q136315401,,200,10 aseva-be.mail.protection.outlook.com.
+bu.edu,2,ror,Boston University Brussels,central-1,,
+carolus-magnus-university.eu,2,ror,Carolus Magnus University,central-1,,
 ewi-vlaanderen.be,2,wikidata;wikidata;wikidata;wikidata;wikidata,"Department of Economy, Sciency & Innovation | Departement Werk, Economie, Wetenschap, Innovatie en Sociale Economie",,301,10 mx.mailprotect.be.; 50 mx.backup.mailprotect.be.
+tul.edu,2,ror,Transnational University Limburg,central-1,,
 vdab.be,2,wikidata;wikidata;wikidata;wikidata,Flemish Service for Employment and Vocational Training,,301,200 ALT1.ASPMX.L.GOOGLE.COM.; 100 ASPMX.L.GOOGLE.COM.; 200 ALT2.ASPMX.L.GOOGLE.COM.; 400 ALT4.ASPMX.L.GOOGLE.COM.; 300 ALT3.ASPMX.L.GOOGLE.COM.
 belgien.um.dk,1,wikidata;wikidata;wikidata,Danish embassy in Belgium,central,301,none
 beneluxparl.eu,1,wikidata;wikidata;wikidata;wikidata,Benelux Parliament,,302,5 mta-gw.infomaniak.ch.

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-28 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+30 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -46,6 +46,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `piaristesafriquecentrale.org` |  | ConnectEx... | wikidata;wikidata | Piarist province of Central Africa |
 | 5 | `budget.gouv.ga` |  | HttpConne... | wikidata | Q139961312 |
 | 5 | `eaux-forets.gouv.ga` |  | HttpConne... | wikidata | Ministre de la Forêt, de la Mer et de l'Environnement |
+| 5 | `univ-masuku.org` | central |  | academia;ror | Université des Sciences et Techniques de Masuku |
 | 4 | `aninf.ga` |  | HttpConne... | wikidata | Q62107195 |
 | 4 | `assemblee-nationale.ga` | central | HttpConne... | wikidata | National Assembly |
 | 4 | `cour-constitutionnelle.ga` |  | HttpConne... | wikidata | Constitutional Court of Gabon |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ambaburkina-ga.org` | central | 200 | wikidata | embassy of Burkina Faso in Gabon |
 | 3 | `ambalglibreville.com` | central | 200 | wikidata | Embassy of Algeria, Libreville |
 | 3 | `ambassade-tchad-gabon.com` |  | ConnectEx... | wikidata | Q134385965 |
-| 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Pri... |
 

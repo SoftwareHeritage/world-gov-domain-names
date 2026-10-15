@@ -18,6 +18,8 @@ mpms.rks-gov.net,6,wikidata;wikidata,Ministry of Labour and Social Welfare of Ko
 msh.rks-gov.net,6,wikidata;wikidata,Ministry of Health of Kosovo,,HttpTimeoutException: request timed out,none
 president-ksgov.net,6,wikidata;wikidata;wikidata,Presidency of the Republic of Kosovo | National Council for European Integration,,200,20 mx-02-eu-central-1.prod.hydra.sophos.com.; 10 mx-01-eu-central-1.prod.hydra.sophos.com.
 supreme.gjyqesori-rks.org,5,wikidata,Supreme court of Kosovo,central,403,none
+unhz.eu,5,academia;ror,University “Haxhi Zeka”,central,,
+uni-pr.edu,5,academia;ror,University of Pristina,central,,
 kia.gov,4,wikidata,Kosovo Intelligence Agency,,ConnectException,none
 aip.rks-gov.net,3,wikidata,Information and Privacy Agency (Kosovo),central,200,none
 ak.rks-gov.net,3,wikidata,Kosovo Competition Authority,central,ConnectException,none
@@ -70,9 +72,13 @@ pristina.veleposlanistvo.si,3,wikidata,embassy of Slovenia in Kosovo,central,SSL
 pzap.rks-gov.net,3,wikidata,Appeals and Submissions Panel,central,200,none
 rks-gov.net,3,wikidata,Government of Kosovo,,405,10 mx-01-eu-central-1.prod.hydra.sophos.com.; 20 mx-02-eu-central-1.prod.hydra.sophos.com.
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Prishtina",central,301,none
-unhz.eu,3,academia,University “Haxhi Zeka”,central,,
-uni-pr.edu,3,academia,University of Pristina,central,,
 ushaf.net,3,academia,University of Applied Sciences in Ferizaj,central,,
+aab-edu.net,2,ror,AAB College,central,,
+kosovo.rit.edu,2,ror,Rochester Institute of Technology Kosovo,central,,
+pr.ac.rs,2,ror,University of Priština - Kosovska Mitrovica,central,,
+ubt-uni.net,2,ror,University for Business and Technology,central,,
+uni-gjilan.net,2,ror,"Public University ""Kadri Zeka""",central,,
+uni-gjk.org,2,ror,Universiteti i Gjakovës “Fehmi Agani”,central,,
 ferizaj.gjyqesori-rks.org,1,wikidata;wikidata;wikidata,"Basic Court Ferizaj, Shtërpcë Branch | Basic Court Ferizaj, Kaçanik Branch | Basic Court Ferizaj",,403,none
 gjakove.gjyqesori-rks.org,1,wikidata;wikidata;wikidata,"Basic Court Gjakovë | Basic Court Gjakovë, Rahovec Branch | Basic Court Gjakovë, Malishevë Branch",,403,none
 gjilan.gjyqesori-rks.org,1,wikidata;wikidata;wikidata;wikidata,"Basic Court Gjilan, Novobërdë Branch | Basic Court Gjilan, Viti Branch | Basic Court Gjilan | Basic Court Gjilan, Kamenica Branch",,403,none

@@ -81,8 +81,23 @@ bibliotecabraidense.org,6,wikidata;wikidata,Biblioteca nazionale Braidense,,Http
 cortedicassazione.it,6,wikidata,Supreme Court of Cassation,central,HttpConnectTimeoutException: HTTP connect timed out,0 mx0.nettuno.it.; 10 mx2.nettuno.it.
 mzv.cz,6,wikidata;wikidata,embassy of the Czech Republic in Italy | embassy of Czech Republic to the Holy See,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,6,wikidata;wikidata,embassy of Slovakia to the Holy See | Embassy of the Slovak Republic in Rome,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.gov.sk.
+portale.unibas.it,6,academia;ror,University of Basilicata,central,,
+portale.unipv.it,6,academia;ror,University of Pavia,central,,
 regione.sicilia.it,6,wikidata;wikidata;wikidata;linkgraph,Soprintendenza Beni Culturali e Ambientali di Siracusa | Naxos | Sicily,,200,10 esg.fast360rm.it.
 roc-taiwan.org,6,wikidata;wikidata,Taipei Representative Office in Italy,,302,none
+unibg.it,6,academia;ror,University of Bergamo,central,,
+unibo.it,6,academia;ror,University of Bologna,central,,
+unica.it,6,academia;ror,University of Cagliari,central,,
+unimc.it,6,academia;ror,University of Macerata,central,,
+unimi.it,6,academia;ror,University of Milan,central,,
+unina.it,6,academia;ror,University of Naples Federico II,central,,
+unipi.it,6,academia;ror,University of Pisa,central,,
+unipr.it,6,academia;ror,University of Parma,central,,
+uniroma1.it,6,academia;ror,Sapienza University of Rome,central,,
+unisalento.it,6,academia;ror,University of Salento,central,,
+unistrapg.it,6,academia;ror,Università per Stranieri di Perugia,central,,
+unite.it,6,academia;ror,University of Teramo,central,,
+units.it,6,academia;ror,University of Trieste,central,,
 agenziaumbriaricerche.it,5,directory,Agenzia Umbria Ricerche,,HttpConnectTimeoutException: HTTP connect timed out,20 agenziaumbriaricerche-it.mail.protection.outlook.com.
 agritechcenter.it,5,directory,CENTRO NAZIONALE DI RICERCA PER LE TECNOLOGIE DELL'AGRICOLTURA - AGRITECH,,HttpConnectTimeoutException: HTTP connect timed out,20 agritechcenter-it.mail.protection.outlook.com.
 areasciencepark.it,5,directory,Area Science Park,,301,10 areasciencepark-it.mail.protection.outlook.com.
@@ -119,6 +134,7 @@ sardegnaricerche.it,5,directory,Sardegna Ricerche,,SSLHandshakeException: (certi
 studigermanici.it,5,directory,Istituto Italiano di Studi Germanici,,301,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 szn.it,5,directory,Stazione Zoologica,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 szn-it.mail.protection.outlook.com.
 uan.it,5,directory,Unione Accademica Nazionale,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 server.uan.it.
+uni-med.net,5,academia;ror,Mediterranean Universities Union,central,,
 upbilancio.it,5,directory,Ufficio Parlamentare di Bilancio,,HttpConnectTimeoutException: HTTP connect timed out,10 mx2.hc2468-63.eu.iphmx.com.; 10 mx1.hc2468-63.eu.iphmx.com.
 vigilanzasport.it,5,directory,Commissione indipendente per la verifica dell'equilibrio economico e finanziario delle società sportive professionistiche,,HttpConnectTimeoutException: HTTP connect timed out,10 vigilanzasport-it.mail.protection.outlook.com.
 abr.lazio.it,4,wikidata,Q3630805,,ConnectException,5 smtp.olisys.it.
@@ -271,8 +287,6 @@ plugandpay.it,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeou
 polizialocale.regione.puglia.it,4,wikidata,Q136296946,,HttpConnectTimeoutException: HTTP connect timed out,none
 portale.conservatoriodicosenza.it,4,academia,Conservatoire of Cosenza,central,,
 portale.fnomceo.it,4,wikidata,National Federation of the Orders of Doctors and Dental Surgeons,,200,none
-portale.unibas.it,4,academia,University of Basilicata,central,,
-portale.unipv.it,4,academia,University of Pavia,central,,
 portici.enea.it,4,wikidata,ENEA Portici Research Centre,,301,none
 portidiroma.it,4,wikidata,Q3630822,,200,none
 porto.genova.it,4,wikidata,Autorità Portuale di Genova,,ConnectException,none
@@ -320,22 +334,9 @@ turismoroseto.it,4,wikidata,Q27573477,,HttpConnectTimeoutException: HTTP connect
 uif.bancaditalia.it,4,wikidata,Unità di Informazione Finanziaria per l'Italia,,200,none
 uits.it,4,wikidata,Unione italiana di tiro a segno,,301,none
 unesco.it,4,wikidata,Italian National Commission for UNESCO,,HttpConnectTimeoutException: HTTP connect timed out,none
-unibg.it,4,academia,University of Bergamo,central,,
-unibo.it,4,academia,University of Bologna,central,,
-unica.it,4,academia,University of Cagliari,central,,
-unimc.it,4,academia,University of Macerata,central,,
-unimi.it,4,academia,University of Milan,central,,
-unina.it,4,academia,University of Naples Federico II,central,,
-unipi.it,4,academia,University of Pisa,central,,
-unipr.it,4,academia,University of Parma,central,,
-uniroma1.it,4,academia,Sapienza University of Rome,central,,
 uniroma3.it,4,academia,Università degli Studi Roma Tre,central,,
 uniroma4.it,4,academia,Foro Italico University of Rome,central,,
 unisa.it,4,academia,University of Salerno,central,,
-unisalento.it,4,academia,University of Salento,central,,
-unistrapg.it,4,academia,Università per Stranieri di Perugia,central,,
-unite.it,4,academia,University of Teramo,central,,
-units.it,4,academia,University of Trieste,central,,
 uslnordovest.toscana.it,4,wikidata,Q98852439,,HttpConnectTimeoutException: HTTP connect timed out,none
 uslsudest.toscana.it,4,wikidata,Q98852429,,HttpConnectTimeoutException: HTTP connect timed out,none
 uzembassy.it,4,wikidata,embassy of Uzbekistan in Italy,central,200,none
@@ -350,28 +351,47 @@ ambasadat.net,3,wikidata,"Embassy of Kosovo, Rome",central,200,20 mx2.emailsrvr.
 ambasciatamozambico.org,3,wikidata,"Embassy of Mozambique, Rome",central,301,none
 ambasciatangolana.com,3,wikidata,embassy of Angola in Italy,central,200,5 mail.ambasciatangolana.com.
 ambassadeduniger-it.org,3,wikidata,embassy of Niger in Italy,central,200,none
+angelicum.it,3,ror,Pontifical University of Saint Thomas Aquinas,central,,
 ar.ambasciatapalestina.com,3,wikidata,Embassy of the State of Palestine in Italy,central,404,none
 archiviolucianocarus.wixsite.com,3,wikidata,Archivio Luciano Caruso Onlus,,404,none
 aslrma.com,3,wikidata,ASL Roma,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx156.hostedmxserver.com.
 benedicta.org,3,wikidata,Associazione Memoria della Benedicta,,200,none
 bresciamusei.com,3,wikidata,Civic Museums of Brescia,,301,none
+cerm.unifi.it,3,ror,Interuniversity Consortium for Magnetic Resonance,central,,
+cibiotech.it,3,ror,Consorzio Interuniversitario per le Biotecnologie,central,,
+cifs-spazio.it,3,ror,Consorzio Interuniversitario Fisica Spaziale,central,,
 consulado.pe,3,wikidata,"Consulate General of Peru, Florence",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 consulado-pe.mail.protection.outlook.com.
 embassyoftanzaniarome.info,3,wikidata,embassy of Tanzania in Italy,central,200,none
+en.liuc.it,3,ror,University Carlo Cattaneo,central,,
+en.pusc.it,3,ror,Pontifical University of the Holy Cross,central,,
 eurogendfor.org,3,wikidata,European Gendarmerie Force,,301,0 eurogendfor-org.mail.protection.outlook.com.
 finlandabroad.fi,3,wikidata,embassy of Finland in Italy,central,301,none
+fua.it,3,ror,Florence University of the Arts,central,,
 igmi.org,3,wikidata,Istituto geografico militare,,200,2 mx02.leonet.it.; 1 mx.leonet.it.
 inasaroma.org,3,academia,Istituto Nazionale di Archeologia e Storia dell’Arte (INASA),central,,
+instm.it,3,ror,National Interuniversity Consortium of Materials Science and Technology,central,,
 it.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Rome",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching it.china-embassy.org found.,none
 it.mfa.lt,3,wikidata,embassy of Lithuania in Italy,central,403,none
 italien.diplo.de,3,wikidata,"Embassy of Germany, Rome",central,200,none
 italien.um.dk,3,wikidata,embassy of Denmark in Italy,central,301,none
 italy.mfa.am,3,wikidata,embassy of Armenia in Italy,central,301,none
 italy.representation.ec.europa.eu,3,wikidata,European Commission Representation in Italy,,302,none
+iuav.it,3,ror,Università Iuav di Venezia,central,,
+iuctorino.it,3,ror,International University College of Turin,central,,
+iuline.it,3,ror,Italian University Line,central,,
+iulm.it,3,ror,IULM University,central,,
+iuse.it,3,ror,University Institute of European Studies,central,,
+iusspavia.it,3,ror,Istituto Universitario di Studi Superiori di Pavia,central,,
 liberianembassyit.org,3,wikidata,embassy of Liberia in Italy,central,500,10 mail.register.it.
+luiss.it,3,ror,Libera Università Internazionale degli Studi Sociali Guido Carli,central,,
+lum.it,3,ror,LUM Jean Monnet University,central,,
 mailand.diplo.de,3,wikidata,"Consulate General of Germany, Milan",,301,10 mx1.bund.de.; 10 mx2.bund.de.
 meroma-it.com,3,wikidata,embassy of Myanmar in Italy,central,200,none
 mfa.gr,3,wikidata,embassy of Greece in Italy,central,403,none
 milan.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Milan,,302,none
+milano-sfu.it,3,ror,Sigmund Freud Privatuniversität - Standort Mailand,central,,
+milanoup.unimi.it,3,ror,Milano University Press,central,,
+monash.it,3,ror,Monash University Prato Centre,central,,
 monembrome.mn,3,wikidata,embassy of Mongolia in Italy,central,ConnectException,none
 mvep.hr,3,wikidata,embassy of Croatia in Italy,central,ConnectException,10 mail.mvep.hr.
 nigerianrome.org,3,wikidata,embassy of Nigeria in Italy,central,200,none
@@ -379,7 +399,12 @@ norway.no,3,wikidata,"Embassy of Norway, Rome",central,301,none
 paleografidiplomatisti.org,3,wikidata,Associazione Italiana dei Paleografi e Diplomatisti,,301,10 mx.paleografidiplomatisti.org.
 parcodelpo.eu,3,wikidata,Q3726229,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching parcodelpo.eu found.,none
 parcomonviso.eu,3,wikidata,Q50001146,,301,none
+poliba.it,3,ror,Polytechnic University of Bari,central,,
+polimi.it,3,ror,Politecnico di Milano,central,,
+polito.it,3,ror,Politecnico di Torino,central,,
+poloprato.unifi.it,3,ror,Polo Universitario Città di Prato,central,,
 portsofgenoa.com,3,wikidata,Western Ligurian Sea Port Authority,,301,none
+pul.it,3,ror,Pontifical Lateran University,central,,
 rim.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Rome",central,SSLHandshakeException: Remote host terminated the handshake,none
 rom-io.diplo.de,3,wikidata,Q111219023,,200,none
 roma.mae.ro,3,wikidata,embassy of Romania in Italy,central,ConnectException,none
@@ -389,12 +414,77 @@ rome.mae.lu,3,wikidata,embassy of Luxembourg in Italy,central,302,none
 rome.mfa.ee,3,wikidata,embassy of Estonia in Rome,central,200,none
 rome.mofa.go.ug,3,wikidata,embassy of Uganda in Italy,central,200,none
 sacri-monti.com,3,wikidata,Q47349913,,200,none
+santannapisa.it,3,ror,Scuola Superiore Sant'Anna,central,,
+sns.it,3,ror,Scuola Normale Superiore,central,,
 sportesalute.eu,3,wikidata,Sport e Salute,,301,none
 srilankaembassyrome.org,3,wikidata,embassy of Sri Lanka in Italy,central,403,0 _dc-mx.d341733de63e.srilankaembassyrome.org.
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Rome",central,301,none
 trasfer.eu,3,wikidata,Trasfer,,301,none
+unambro.it,3,ror,Università Ambrosiana,central,,
 unesco.org,3,wikidata,"United Nations Educational, Scientific and Cultural Organization",,302,none
-uni-med.net,3,academia,Mediterranean Universities Union,central,,
 uni.com,3,wikidata,Ente Nazionale Italiano di Unificazione,,301,none
+uniba.it,3,ror,University of Bari Aldo Moro,central,,
+unibocconi.it,3,ror,Bocconi University,central,,
+unibs.it,3,ror,University of Brescia,central,,
+unibz.it,3,ror,Free University of Bozen-Bolzano,central,,
+unicam.it,3,ror,Università di Camerino,central,,
+unicampus.it,3,ror,Università Campus Bio-Medico,central,,
+unicas.it,3,ror,Università degli studi di Cassino e del Lazio Meridionale,central,,
+unict.it,3,ror,University of Catania,central,,
+unifg.it,3,ror,University of Foggia,central,,
+unigre.it,3,ror,Pontifical Gregorian University,central,,
+unikore.it,3,ror,Università degli Studi di Enna Kore,central,,
+unimarconi.it,3,ror,Marconi University,central,,
+unime.it,3,ror,University of Messina,central,,
+unimib.it,3,ror,University of Milano-Bicocca,central,,
+unimol.it,3,ror,University of Molise,central,,
+unimore.it,3,ror,University of Modena and Reggio Emilia,central,,
+unior.it,3,ror,University of Naples - L'Orientale,central,,
+unipa.it,3,ror,University of Palermo,central,,
+uniparthenope.it,3,ror,Parthenope University of Naples,central,,
+unipd.it,3,ror,University of Padua,central,,
+unipegaso.it,3,ror,Pegaso University,central,,
+unirg.it,3,ror,University of Ragusa,central,,
+uniroma5.it,3,ror,San Raffaele University of Rome,central,,
+unisal.it,3,ror,Salesian Pontifical University,central,,
+unisannio.it,3,ror,University of Sannio,central,,
+unisg.it,3,ror,University of Gastronomic Sciences,central,,
+unisob.na.it,3,ror,Università degli Studi Suor Orsola Benincasa,central,,
+unisr.it,3,ror,Vita-Salute San Raffaele University,central,,
+uniss.it,3,ror,University of Sassari,central,,
+unistrada.it,3,ror,Università per Stranieri Dante Alighieri,central,,
+unistrasi.it,3,ror,University for Foreigners of Siena,central,,
+unitelmasapienza.it,3,ror,Unitelma Sapienza University,central,,
+unitn.it,3,ror,University of Trento,central,,
+unitus.it,3,ror,Università degli Studi della Tuscia,central,,
+uniupo.it,3,ror,Università degli Studi del Piemonte Orientale “Amedeo Avogadro”,central,,
+univaq.it,3,ror,University of L'Aquila,central,,
+univda.it,3,ror,University of Aosta Valley,central,,
+unive.it,3,ror,Ca' Foscari University of Venice,central,,
+universitaeuropeadiroma.it,3,ror,European University of Rome,central,,
+univi.it,3,ror,Università a Vicenza,central,,
+univpm.it,3,ror,Marche Polytechnic University,central,,
+univr.it,3,ror,University of Verona,central,,
+villaaurora.it,3,ror,Istituto Avventista Villa Aurora,central,,
+web.unicz.it,3,ror,Magna Graecia University,central,,
+web.uniroma2.it,3,ror,University of Rome Tor Vergata,central,,
+web.unisa.it,3,ror,University of Salerno,central,,
+antonianum.eu,2,ror,Pontifical University Antonianum,central,,
+aur.edu,2,ror,American University of Rome,central,,
+cui.org,2,ror,Centro Universitario Internazionale,central,,
+eui.eu,2,ror,European University Institute,central,,
+gchumanrights.org,2,ror,Global Campus of Human Rights,central,,
+gelatouniversity.com,2,ror,Gelato University,central,,
+johncabot.edu,2,ror,John Cabot University,central,,
+niki-florence.org,2,ror,Dutch University Institute for Art History,central,,
+nyu.edu,2,ror,New York University Florence,central,,
 regione.vda.it,2,wikidata;wikidata;wikidata,Aosta Valley | Q27906871,,503,10 smtp1.invallee.it.; 10 smtp2.invallee.it.
+sais-jhu.edu,2,ror,Johns Hopkins University SAIS Bologna Center,central,,
+seraphicum.org,2,ror,Pontifical University of St. Bonaventure,central,,
+unicamillus.org,2,ror,Saint Camillus International University of Health and Medical Sciences,central,,
+unifortunato.eu,2,ror,Giustino Fortunato University,central,,
+uninsubria.eu,2,ror,University of Insubria,central,,
+univiu.org,2,ror,Venice International University,central,,
+urbaniana.edu,2,ror,Pontifical Urban University,central,,
 ambafrance-it.org,1,wikidata;wikidata;wikidata;wikidata,"embassy of France, Rome | Consulate-General of France in Milan | Consulate-General of France in Naples | Consulate General of France in Turin",central,ConnectException,none
+cmungo.org,0,ror,Community of Mediterranean Universities,central,,

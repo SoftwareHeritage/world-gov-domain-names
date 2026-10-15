@@ -14,6 +14,7 @@ mwe.go.ug,7,wikidata;wikidata,Ministry of Water and Environment,central,200,10 m
 nema.go.ug,7,wikidata;wikidata,National Environment Management Authority of Uganda,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
 sti.go.ug,7,wikidata;wikidata,"Ministry of Science, Technology and Innovation",central,200,0 sti-go-ug.mail.protection.outlook.com.
 gou.go.ug,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+mak.ac.ug,6,academia;ror,Makerere University,central,,
 ubos.org,6,wikidata;academia,Uganda Bureau of Statistics,central,HttpConnectTimeoutException: HTTP connect timed out,0 ubos-org.mail.protection.outlook.com.; 5 mail.ubos.org.
 bou.or.ug,4,wikidata,Bank of Uganda,,200,0 bou-or-ug.mail.protection.outlook.com.
 caa.go.ug,4,wikidata,Civil Aviation Authority of Uganda,,200,10 mail.caa.go.ug.
@@ -29,7 +30,6 @@ freezones.go.ug,4,wikidata,Uganda Free Zones Authority,,HttpConnectTimeoutExcept
 igg.go.ug,4,wikidata,Inspectorate of Government,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 igg-go-ug.mail.protection.outlook.com.
 ira.go.ug,4,wikidata,Insurance Regulatory Authority of Uganda,,200,0 mail.ira.go.ug.; 20 mail.ira.go.ug.
 kumi.go.ug,4,wikidata,Kumi District Local Government,,HttpConnectTimeoutException: HTTP connect timed out,0 _dc-mx.32ebc3a2a235.kumi.go.ug.
-mak.ac.ug,4,academia,Makerere University,central,,
 meaca.go.ug,4,wikidata,Ministry of East African Community Affairs,,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
 mglsd.go.ug,4,wikidata,"Ministry of Gender, Labour and Social Development (Uganda)",,200,10 mx2.umcs.go.ug.; 10 mta2.umcs.go.ug.; 10 mx1.umcs.go.ug.; 10 mta1.umcs.go.ug.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kampala",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
@@ -55,17 +55,62 @@ upf.go.ug,4,wikidata,Uganda Police Force,central,200,5 mail2.upf.go.ug.; 10 mx2.
 urbra.go.ug,4,wikidata,Uganda Retirement Benefits Regulatory Authority,,200,0 urbra-go-ug.mail.protection.outlook.com.
 utb.go.ug,4,wikidata,Uganda Tourism Board,,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
 works.go.ug,4,wikidata,Ministry of Works and Transport,,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+abu.ac.ug,3,ror,African Bible University,central,,
 afro.who.int,3,wikidata,World Health Organization - Uganda,,200,none
+afru.ac.ug,3,ror,Africa Renewal University,central,,
+aru.ac.ug,3,ror,African Rural University,central,,
+asul.ac.ug,3,ror,All Saints University Lango,central,,
+awu.ac.ug,3,ror,Ankole Western University,central,,
+bsu.ac.ug,3,ror,Bishop Stuart University,central,,
+bugemauniv.ac.ug,3,ror,Bugema University,central,,
+busitema.ac.ug,3,ror,Busitema University,central,,
+busogauniversity.ac.ug,3,ror,Busoga University,central,,
+cavendish.ac.ug,3,ror,Cavendish University Uganda,central,,
+ciu.ac.ug,3,ror,Clarke International University,central,,
+ecu.ac.ug,3,ror,Ernest Cook University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Uganda,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+equsat.ac.ug,3,ror,Equator University of Science and Technology,central,,
+fmu.ac.ug,3,ror,Fins Medical University,central,,
+gu.ac.ug,3,ror,Gulu University,central,,
+iguka.ac.ug,3,ror,St. Ignatius University Kabale,central,,
+isbatuniversity.ac.ug,3,ror,ISBAT University,central,,
+iuea.ac.ug,3,ror,International University of East Africa,central,,
+iuiu.ac.ug,3,ror,Islamic University in Uganda,central,,
+kab.ac.ug,3,ror,Kabale University,central,,
 kampala.diplo.de,3,wikidata,"Embassy of Germany, Kampala",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+kcu.ac.ug,3,ror,King Ceasor University,central,,
+kiu.ac.ug,3,ror,Kampala International University,central,,
+ku.ac.ug,3,ror,Kampala University,central,,
+kumiuniversity.ac.ug,3,ror,Kumi University,central,,
+kyu.ac.ug,3,ror,Kyambogo University,central,,
+lirauni.ac.ug,3,ror,Lira University,central,,
+livingstone.ac.ug,3,ror,LivingStone International University,central,,
+mmu.ac.ug,3,ror,Mountains of the Moon University,central,,
+mru.ac.ug,3,ror,Muteesa I Royal University,central,,
+muni.ac.ug,3,ror,Muni University,central,,
+ndejjeuniversity.ac.ug,3,ror,Ndejje University,central,,
+nileuniversity.ac.ug,3,ror,Nile University,central,,
 norway.no,3,wikidata,"Embassy of Norway, Kampala",central,301,0 mx.domeneshop.no.
 pakhc.or.ke,3,wikidata,"Honorary Consulate of Pakistan, Kampala",,200,none
 parliament.go.ug,3,wikidata;wikidata;wikidata,"Parliament of Uganda | Committee on Commissions, Statutory Authorities and State Enterprises",central,302,0 parliament-go-ug.mail.protection.outlook.com.
+slau.ac.ug,3,ror,St. Lawrence University,central,,
+su.ac.ug,3,ror,Seeta University,central,,
+suu.ac.ug,3,ror,Stafford University,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Kampala",central,301,none
+teamuniversity.ac.ug,3,ror,Team University,central,,
+ucu.ac.ug,3,ror,Uganda Christian University,central,,
 ug.ambafrance.org,3,wikidata,"Embassy of France, Kampala",central,301,none
 uganda.mid.ru,3,wikidata,embassy of Russia in Uganda,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 uganda.um.dk,3,wikidata,embassy of Denmark in Uganda,central,301,none
 ugandawildlife.org,3,wikidata,Uganda Wildlife Authority,,200,none
 uiri.org,3,wikidata,Uganda Industrial Research Institute,,200,0 .
+umu.ac.ug,3,ror,Uganda Martyrs University,central,,
 unatu.org,3,wikidata,Uganda National Teachers Union,,HttpTimeoutException: request timed out,0 unatu-org.mail.protection.outlook.com.
+upu.ac.ug,3,ror,Uganda Pentecostal University,central,,
+ush.ac.ug,3,ror,University of the Sacred Heart Gulu,central,,
+utamu.ac.ug,3,ror,Universal Technology and Management University,central,,
+virtualuni.ac.ug,3,ror,Virtual University of Uganda,central,,
+vu.ac.ug,3,ror,Victoria University,central,,
+iucea.org,2,ror,Inter-University Council for East Africa,central,,
 opm.go.ug,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ministry of Relief and Disaster Preparedness | Ministry of Disaster Preparedness and Refugees | Office of the Prime Minister | Ministry for Karamoja,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+miu.ac.ug,0,ror,Metropolitan International University,central,,

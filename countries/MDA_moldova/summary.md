@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-40 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+52 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,6 +41,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `parlament.md` | central | 403 | wikidata;wikidata | Parliament of the Republic of Moldova |
 | 7 | `statistica.md` | central | 301 | wikidata;academia | National Bureau of Statistics |
 | 6 | `csj.md` |  | 200 | wikidata | Supreme Court of Justice of Moldova |
+| 6 | `usm.md` | central |  | academia;ror | Moldova State University |
 | 4 | `aitt.md` |  | 301 | wikidata | Agency for Innovation and Technology Transfer |
 | 4 | `ana.md` |  | 200 | wikidata | National Agency for Archaeology |
 | 4 | `anre.md` |  | 200 | wikidata | National Agency for Energy Regulation of the Republic of Moldova |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `e-patrimoniu.md` |  | 301 | wikidata | Agency for Inspection of Monuments |
 | 4 | `inj.md` |  | 301 | wikidata | National Institute of Justice of Moldova |
 | 4 | `inm.md` |  | 302 | wikidata | National Metrology Institute of the Republic of Moldova |
-| 4 | `meteo.md` |  | 301 | wikidata | State Hydrometeorological Service |
 

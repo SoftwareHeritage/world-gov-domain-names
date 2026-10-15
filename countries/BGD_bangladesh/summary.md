@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-79 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+171 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `ccc.org.bd` |  | 301 | wikidata;wikidata | Chattogram City Corporation |
+| 6 | `aaub.edu.bd` | central |  | academia;ror | Aviation and Aerospace University, Bangladesh |
+| 6 | `bau.edu.bd` | central |  | academia;ror | Bangladesh Agricultural University |
+| 6 | `bou.edu.bd` | central |  | academia;ror | Bangladesh Open University |
+| 6 | `brur.ac.bd` | central |  | academia;ror | Begum Rokeya University, Rangpur |
+| 6 | `bsfmstu.ac.bd` | central |  | academia;ror | Jamalpur Science and Technology University |
+| 6 | `bsmru.ac.bd` | central |  | academia;ror | Kishoreganj University |
+| 6 | `buet.ac.bd` | central |  | academia;ror | Bangladesh University of Engineering and Technology |
+| 6 | `bup.edu.bd` | central |  | academia;ror | Bangladesh University of Professionals |
+| 6 | `butex.edu.bd` | central |  | academia;ror | Bangladesh University of Textiles |
 | 6 | `comillacitycorporation.org` |  | ConnectEx... | wikidata;wikidata | Cumilla City Corporation |
+| 6 | `cou.ac.bd` | central |  | academia;ror | Comilla University |
+| 6 | `cu.ac.bd` | central |  | academia;ror | University of Chittagong |
+| 6 | `cuet.ac.bd` | central |  | academia;ror | Chittagong University of Engineering & Technology |
+| 6 | `cvasu.ac.bd` | central |  | academia;ror | Chittagong Veterinary and Animal Sciences University |
 | 6 | `dhaka.thaiembassy.org` | central | 200 | wikidata;wikidata | Embassy of Thailand, Dhaka |
+| 6 | `du.ac.bd` | central |  | academia;ror | University of Dhaka |
+| 6 | `duet.ac.bd` | central |  | academia;ror | Dhaka University of Engineering & Technology |
+| 6 | `gau.edu.bd` | central |  | academia;ror | Gazipur Agricultural University |
 | 6 | `gazipurcity.com` |  | 404 | wikidata;wikidata | Gazipur City Corporation |
-| 6 | `khulnacity.org` |  | 301 | wikidata;wikidata | Khulna City Corporation |
-| 4 | `aaub.edu.bd` | central |  | academia | Aviation and Aerospace University, Bangladesh |
-| 4 | `acc.org.bd` |  | SSLHandsh... | wikidata | Anti-Corruption Commission |
-| 4 | `bau.edu.bd` | central |  | academia | Bangladesh Agricultural University |
-| 4 | `bids.org.bd` |  | 200 | wikidata | Bangladesh Institute of Development Studies |
-| 4 | `bmu.ac.bd` | central |  | academia | Bangladesh Medical University |
-| 4 | `bou.edu.bd` | central |  | academia | Bangladesh Open University |
-| 4 | `brur.ac.bd` | central |  | academia | Begum Rokeya University, Rangpur |
-| 4 | `bsfmstu.ac.bd` | central |  | academia | Jamalpur Science and Technology University |
-| 4 | `bsmrmu.edu.bd` | central |  | academia | Bangladesh Maritime University |
-| 4 | `bsmrstup.ac.bd` | central |  | academia | Pirojpur Science and Technology University |
-| 4 | `bsmru.ac.bd` | central |  | academia | Kishoreganj University |
-| 4 | `bu.ac.bd` | central |  | academia | University of Barishal |
-| 4 | `buet.ac.bd` | central |  | academia | Bangladesh University of Engineering and Technology |
-| 4 | `bup.edu.bd` | central |  | academia | Bangladesh University of Professionals |
-| 4 | `butex.edu.bd` | central |  | academia | Bangladesh University of Textiles |
 

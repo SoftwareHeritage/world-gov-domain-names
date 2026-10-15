@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,4 +42,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `mae.ro` |  | 503 | wikidata | Honorary Consulate of Romania, Bangui |
 | 3 | `rca.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Central African Republic |
 | 3 | `stat-centrafrique.com` |  | HttpConne... | wikidata | ICASEES |
+| 2 | `atafom.university` | central |  | ror | Atlantic African Oriental Multicultural University International |
+| 2 | `univ-bangui.org` | central |  | ror | University of Bangui |
 

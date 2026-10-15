@@ -38,16 +38,22 @@ stonarov.cz,7,wikidata;wikidata,Q12056464 | Stonařov,,301,0 stonarov-cz.mail.pr
 uradprace.cz,7,wikidata;wikidata,Úřad práce Benešov | Úřad práce Mladá Boleslav,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 uradprace-cz.f-v1.mx.microsoft.
 vejprty.cz,7,wikidata;wikidata,Q12057548 | Vejprty,,301,10 mail.origine.cz.
 velke-prilepy.cz,7,wikidata;wikidata,Q12036983 | Velké Přílepy,,302,20 e50f1b4725dcd295.mx1.emailprofi.seznam.cz.; 10 e50f1b4725dcd295.mx2.emailprofi.seznam.cz.
+cuni.cz,6,academia;ror,Charles University,central,,
 idok.info,6,wikidata;wikidata,Q134447369 | Integrated transport of the Karlovy Vary region,,301,10 mail.antee.cz.; 20 backup.antee.cz.
 iom.int,6,wikidata;wikidata;wikidata,International Organization for Migration,,301,10 iom-int.mail.protection.outlook.com.
+muni.cz,6,academia;ror,Masaryk University,central,,
 nsoud.cz,6,wikidata,Supreme Court of the Czech Republic,central,301,10 ms.justice.cz.
 nssoud.cz,6,wikidata,Supreme Administrative Court of the Czech Republic,central,301,10 ms.justice.cz.
 pijarzy.pl,6,wikidata;wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
 praha.eu,6,wikidata;wikidata;wikidata,Prague | Prague City Hall | Prague City Assembly,central-1,200,1 ms11.mepnet.cz.; 1 ms10.mepnet.cz.
 roc-taiwan.org,6,wikidata;wikidata,"Taipei Economic and Cultural Office, Prague, Czech Republic",,302,none
 tschechien.ahk.de,6,wikidata;wikidata,German-Czech Chamber of Industry and Commerce,,302,none
+unob.cz,6,academia;ror,University of Defence,central,,
+upol.cz,6,academia;ror,Palacký University Olomouc,central,,
 usoud.cz,6,wikidata,Constitutional Court of the Czech Republic,central,HttpConnectTimeoutException: HTTP connect timed out,10 osus2.usoud.cz.; 50 osus2.concourt.cz.; 110 bmx.cz.net.
 vlada.cz,6,un_desa,UN/DESA national portal,,302,10 vlada-cz.q-v1.mx.microsoft.
+vse.cz,6,academia;ror,Prague University of Economics and Business,central,,
+zcu.cz,6,academia;ror,University of West Bohemia,central,,
 mpsv.cz,5,linkgraph,Linked from 7 public-sector domains,,301,0 mpsv-cz.u-v1.mx.microsoft.
 adamov.cz,4,wikidata,Adamov,,301,10 mail.adamov.cz.; 20 mx.ada-net.cz.
 akreditacnikomise.cz,4,wikidata,Q8184549,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 akreditacnikomise-cz.mail.protection.outlook.com.
@@ -656,7 +662,6 @@ ctimerice.e-obec.cz,4,wikidata,Ctiměřice,,200,none
 ctverin-doubi.cz,4,wikidata,Čtveřín,,HttpConnectTimeoutException: HTTP connect timed out,10 wes1-mx-backup.wedos.net.; 1 wes1-mx2.wedos.net.; 1 wes1-mx1.wedos.net.
 ctyrkoly.cz,4,wikidata,Čtyřkoly,,302,none
 cucice.cz,4,wikidata,Čučice,,302,none
-cuni.cz,4,academia,Charles University,central,,
 cuzk.cz,4,wikidata,Katastrální úřad pro Královéhradecký kraj,,301,none
 cves.cz,4,wikidata,Česká Ves,,HttpConnectTimeoutException: HTTP connect timed out,10 cves-cz.mail.protection.outlook.com.
 cvikov.cz,4,wikidata,Cvikov,,200,none
@@ -2408,7 +2413,6 @@ mukolin.cz,4,wikidata,Kolín,,200,none
 mulitvinov.cz,4,wikidata,Litvínov,,200,10 mulitvinov-cz.mail.protection.outlook.com.
 mulouny.cz,4,wikidata,Louny,,301,none
 muml.cz,4,wikidata,Mariánské Lázně,,302,none
-muni.cz,4,academia,Masaryk University,central,,
 munovapaka.cz,4,wikidata,Nová Paka,,HttpConnectTimeoutException: HTTP connect timed out,none
 muprotivin.cz,4,wikidata,Protivín,,HttpConnectTimeoutException: HTTP connect timed out,none
 musvoboda.cz,4,wikidata,Svoboda nad Úpou,,HttpConnectTimeoutException: HTTP connect timed out,0 musvoboda-cz.mail.protection.outlook.com.
@@ -5449,11 +5453,9 @@ unetice.cz,4,wikidata,Únětice,,302,none
 unice-hubenov.cz,4,wikidata,Únice,,301,none
 unicov.cz,4,wikidata,Uničov,,301,0 unicov-cz.mail.protection.outlook.com.
 unin.cz,4,wikidata,Unín,,405,none
-unob.cz,4,academia,University of Defence,central,,
 unrr.cz,4,wikidata,Office of the Czech Fiscal Council,,301,none
 upice.cz,4,wikidata,Úpice,,200,none
 upohlavy.cz,4,wikidata,Úpohlavy,,302,none
-upol.cz,4,academia,Palacký University Olomouc,central,,
 urbanice-pce.cz,4,wikidata,Urbanice,,200,none
 urbanice.cz,4,wikidata,Urbanice,,HttpConnectTimeoutException: HTTP connect timed out,none
 urcice.cz,4,wikidata,Určice,,301,none
@@ -5764,7 +5766,6 @@ vrskman.cz,4,wikidata,Vrskmaň,,HttpConnectTimeoutException: HTTP connect timed 
 vrsoviceuopavy.cz,4,wikidata,Vršovice,,302,none
 vrsovka.cz,4,wikidata,Vršovka,,301,none
 vrutice.cz,4,wikidata,Vrutice,,HttpConnectTimeoutException: HTTP connect timed out,none
-vse.cz,4,academia,Prague University of Economics and Business,central,,
 vsechlapy.cz,4,wikidata,Všechlapy,,HttpConnectTimeoutException: HTTP connect timed out,none
 vsechovice.cz,4,wikidata,Všechovice,,HttpTimeoutException: request timed out,none
 vsehrdy.cz,4,wikidata,Všehrdy,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -5915,7 +5916,6 @@ zbuzany-obec.cz,4,wikidata,Zbuzany,,200,none
 zbyslavice.cz,4,wikidata,Zbyslavice,,302,none
 zbysovvcechach.cz,4,wikidata,Zbýšov,,302,none
 zbytiny.cz,4,wikidata,Zbytiny,,302,none
-zcu.cz,4,academia,University of West Bohemia,central,,
 zdanice.cz,4,wikidata,Ždánice,,302,10 fido.zelena.cz.
 zdanov.cz,4,wikidata,Ždánov,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching zdanov.cz found.,none
 zdarnadmetuji.cz,4,wikidata,Žďár nad Metují,,302,none
@@ -6014,6 +6014,7 @@ abertamy.eu,3,wikidata,Q12057528,,SSLHandshakeException: (certificate_unknown) N
 adamovcb.eu,3,wikidata,Adamov,,301,none
 ambardcprague.com,3,wikidata,embassy of Democratic Republic of the Congo in the Czech Republic,central,IOException: Received RST_STREAM: Protocol error,none
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Prague",central,200,none
+ambis.cz,3,ror,Ambis University,central,,
 andelskahora.info,3,wikidata,Andělská Hora,,301,none
 babice.eu,3,wikidata,Babice,,302,10 posta.gc-system.cz.
 bartosovice.eu,3,wikidata,Bartošovice v Orlických horách,,302,none
@@ -6058,6 +6059,7 @@ cernovice.info,3,wikidata,Čerňovice,,SSLHandshakeException: (certificate_unkno
 cervenarecice.info,3,wikidata,Červená Řečice,,301,none
 cervenyujezd.com,3,wikidata,Červený Újezd,,200,none
 ceskysternberk.eu,3,wikidata,Český Šternberk,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ceskysternberk.eu found.,none
+cevro.cz,3,ror,CEVRO University,central,,
 cheznovice.eu,3,wikidata,Cheznovice,,301,none
 chlistov.info,3,wikidata,Chlístov,,200,none
 chlistov.org,3,wikidata,Chlístov,,302,none
@@ -6083,6 +6085,7 @@ cz.mfa.lt,3,wikidata,"Embassy of Lithuania, Prague",central,403,none
 cz.mvep.hr,3,wikidata,embassy of Croatia in the Czech Republic,central,ConnectException,none
 czech.mid.ru,3,wikidata,"Embassy of Russia, Prague",central,HttpConnectTimeoutException: HTTP connect timed out,none
 czechia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Czechia,,HttpConnectTimeoutException: HTTP connect timed out,none
+czu.cz,3,ror,Czech University of Life Sciences Prague,central,,
 dasnice.eu,3,wikidata,Dasnice,,301,10 mailin1.dasnice.eu.; 100 mailin2.dasnice.eu.
 dilce.e-obec.info,3,wikidata,Dílce,,HttpTimeoutException: request timed out,none
 dobrinsko.eu,3,wikidata,Dobřínsko,,302,none
@@ -6104,6 +6107,8 @@ drevniky.eu,3,wikidata,Drevníky,,405,none
 drinov-melnicko.net,3,wikidata,Dřínov,,200,none
 drnholec.eu,3,wikidata,Drnholec,,302,none
 dubnany.eu,3,wikidata,Dubňany,,405,none
+edukomplex.cz,3,ror,Evropský Polytechnický Institut,central,,
+en.vsem.cz,3,ror,University of Economics and Management,central,,
 felbabka.eu,3,wikidata,Felbabka,,301,none
 finlandabroad.fi,3,wikidata,Embassy of Finland in the Czech Republic,central,301,none
 frymburk.info,3,wikidata,Frymburk,,302,none
@@ -6132,6 +6137,7 @@ hradek.eu,3,wikidata,Hrádek nad Nisou,,HttpConnectTimeoutException: HTTP connec
 hvozdany.info,3,wikidata,Hvožďany,,HttpConnectTimeoutException: HTTP connect timed out,none
 hvozdnice.eu,3,wikidata,Hvozdnice,,HttpConnectTimeoutException: HTTP connect timed out,none
 instytutpolski.pl,3,wikidata,Polish Institute in Prague,,HttpConnectTimeoutException: HTTP connect timed out,none
+interpragueuniver.cz,3,ror,International Prague University,central,,
 iredo.info,3,wikidata,IREDO,,HttpConnectTimeoutException: HTTP connect timed out,none
 jalubi.eu,3,wikidata,Jalubí,,HttpConnectTimeoutException: HTTP connect timed out,none
 jankov.eu,3,wikidata,Jankov,,301,none
@@ -6139,6 +6145,7 @@ jankovice.net,3,wikidata,Jankovice,,HttpConnectTimeoutException: HTTP connect ti
 janovicevpodjestedi.eu,3,wikidata,Janovice v Podještědí,,HttpConnectTimeoutException: HTTP connect timed out,none
 jarohnevice.eu,3,wikidata,Jarohněvice,,HttpConnectTimeoutException: HTTP connect timed out,none
 jasenna.eu,3,wikidata,Jasenná,,HttpConnectTimeoutException: HTTP connect timed out,none
+jcu.cz,3,ror,University of South Bohemia in České Budějovice,central,,
 jedlova.com,3,wikidata,Jedlová,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.antee.cz.; 20 backup.antee.cz.
 jestrebi.eu,3,wikidata,Jestřebí,,HttpConnectTimeoutException: HTTP connect timed out,none
 jilem.eu,3,wikidata,Jilem,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -6217,6 +6224,7 @@ malhostovice.eu,3,wikidata,Malhostovice,,405,none
 malsice.eu,3,wikidata,Malšice,,301,none
 martinice.eu,3,wikidata,Martinice,,301,11 pecari-mail.xart.cz.
 menany.eu,3,wikidata,Měňany,,302,none
+mendelu.cz,3,ror,Mendel University in Brno,central,,
 meprague.org,3,wikidata,embassy of Myanmar in the Czech Republic,central,301,none
 mesice.org,3,wikidata,Měšice,,302,none
 mesto-horovice.eu,3,wikidata,Hořovice,,302,none
@@ -6237,6 +6245,8 @@ moravka.info,3,wikidata,Morávka,,301,10 mxavas.forpsi.com.
 morinka.eu,3,wikidata,Mořinka,,301,none
 mppraha.info,3,wikidata,Municipal Police of Prague,central-1,301,none
 mrlinek.eu,3,wikidata,Mrlínek,,200,1 wes1-mx1.wedos.net.; 1 wes1-mx2.wedos.net.
+muni.ceitec.cz,3,ror,Central European Institute of Technology – Masaryk University,central,,
+mvso.cz,3,ror,Moravská Vysoká Skola Olomouc,central,,
 mzv.sk,3,wikidata,"Embassy of Slovakia, Prague",central,301,10 mail.gov.sk.
 nacesice.eu,3,wikidata,Načešice,,302,none
 nahorany.eu,3,wikidata,Nahořany,,200,none
@@ -6326,6 +6336,7 @@ opatovice.eu,3,wikidata,Opatovice,,200,10 mail.opatovice.eu.
 orlickezahori.eu,3,wikidata,Orlické Záhoří,,301,1 wes1-mx2.wedos.net.; 10 wes1-mx-backup.wedos.net.; 1 wes1-mx1.wedos.net.
 osek.eu,3,wikidata,Osek,,200,none
 ostrovacice.eu,3,wikidata,Ostrovačice,,405,0 ostrovacice-eu.mail.protection.outlook.com.
+osu.cz,3,ror,University of Ostrava,central,,
 otrocin.eu,3,wikidata,Otročín,,302,10 posta.gc-system.cz.
 ou.kraliky.info,3,wikidata,Králíky,,301,none
 oubenice.eu,3,wikidata,Ouběnice,,302,10 mx.vshosting.cloud.; 20 mx.vshosting.eu.
@@ -6352,6 +6363,7 @@ praga.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Prague",central,HttpCo
 prague.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Czechia,central,HttpConnectTimeoutException: HTTP connect timed out,none
 prague.mae.lu,3,wikidata,embassy of Luxembourg in the Czech Republic,central,HttpConnectTimeoutException: HTTP connect timed out,none
 prague.mfa.ee,3,wikidata,Estonian Embassy in Prague,central,HttpConnectTimeoutException: HTTP connect timed out,none
+praguecityuniversity.cz,3,ror,Prague City University,central,,
 praha16.eu,3,wikidata,Prague 16,,HttpConnectTimeoutException: HTTP connect timed out,none
 praslavice.com,3,wikidata,Přáslavice,,HttpConnectTimeoutException: HTTP connect timed out,none
 prerov.eu,3,wikidata,Přerov,,HttpConnectTimeoutException: HTTP connect timed out,0 prerov-eu.mail.protection.outlook.com.
@@ -6388,6 +6400,7 @@ rozstani.com,3,wikidata,Rozstání,,200,none
 rozstani.eu,3,wikidata,Rozstání,,301,10 mxavas.forpsi.com.
 rybniky.net,3,wikidata,Rybníky,,302,none
 samsina.nasweb.eu,3,wikidata,Samšina,,301,none
+savs.cz,3,ror,Škoda Auto University,central,,
 sebranice.eu,3,wikidata,Sebranice,,200,none
 sedlec.eu,3,wikidata,Sedlec,,302,none
 sedlec.org,3,wikidata,Sedlec,,302,none
@@ -6399,6 +6412,7 @@ slatinice.com,3,wikidata,Slatinice,,302,none
 slavetice.eu,3,wikidata,Slavětice,,ConnectException,10 posta.gc-system.cz.
 slavetin.info,3,wikidata,Slavětín,,302,none
 slovec.eu,3,wikidata,Sloveč,,HttpConnectTimeoutException: HTTP connect timed out,none
+slu.cz,3,ror,Silesian University in Opava,central,,
 smilovice.eu,3,wikidata,Smilovice,,ConnectException,none
 smrzov.eu,3,wikidata,Smržov,,200,1 wes1-mx1.wedos.net.; 10 wes1-mx-backup.wedos.net.; 1 wes1-mx2.wedos.net.
 snezne.net,3,wikidata,Sněžné,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -6437,23 +6451,34 @@ svemyslice.eu,3,wikidata,Svémyslice,,302,none
 svojkovice.eu,3,wikidata,Svojkovice,,ConnectException,none
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Prague",central,301,none
 telc.eu,3,wikidata,Telč,,301,none
+tiffinprague.cz,3,ror,Tiffin University Prague,central,,
 tisova.eu,3,wikidata,Tisová,,302,none
 tjekkiet.um.dk,3,wikidata,embassy of Denmark in Prague,central,301,none
 tocnik-obec.com,3,wikidata,Točník,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tul.cz,3,ror,Technical University of Liberec,central,,
+ucp.cz,3,ror,University College Prague,central,,
 uhercice.com,3,wikidata,Úherčice,,302,none
+uhk.cz,3,ror,University of Hradec Králové,central,,
 uhrice.eu,3,wikidata,Uhřice,,301,none
+ujak.cz,3,ror,Jan Amos Komensky University,central,,
+ujep.cz,3,ror,Jan Evangelista Purkyně University in Ústí nad Labem,central,,
 ujezducernehory.eu,3,wikidata,Újezd u Černé Hory,,200,none
 ujezdvk.com,3,wikidata,Újezd,,HttpConnectTimeoutException: HTTP connect timed out,none
 umo1.plzen.eu,3,wikidata,Pilsen 1,,200,none
 umo5.plzen.eu,3,wikidata,Křimice,,200,none
+unyp.cz,3,ror,University of New York in Prague,central,,
+upce.cz,3,ror,University of Pardubice,central,,
 urbanov.com,3,wikidata,Urbanov,,HttpConnectTimeoutException: HTTP connect timed out,none
 uredni-deska.info,3,wikidata,Sviny,,200,none
+utb.cz,3,ror,Tomas Bata University in Zlín,central,,
+uvn.cz,3,ror,Military University Hospital Prague,central,,
 vaclavice.com,3,wikidata,Václavice,,HttpConnectTimeoutException: HTTP connect timed out,none
 valtice.eu,3,wikidata,Valtice,,HttpConnectTimeoutException: HTTP connect timed out,none
 velenka.eu,3,wikidata,Velenka,,302,0 velenka-eu.mail.protection.outlook.com.
 velikaves.eu,3,wikidata,Veliká Ves,,HttpConnectTimeoutException: HTTP connect timed out,none
 veterov.eu,3,wikidata,Věteřov,,HttpConnectTimeoutException: HTTP connect timed out,none
 vetrnyjenikov.eu,3,wikidata,Větrný Jeníkov,,HttpConnectTimeoutException: HTTP connect timed out,none
+vetuni.cz,3,ror,University of Veterinary Sciences Brno,central,,
 vilemov.info,3,wikidata,Vilémov,,HttpConnectTimeoutException: HTTP connect timed out,none
 vitejeves.eu,3,wikidata,Vítějeves,,HttpConnectTimeoutException: HTTP connect timed out,none
 vitonice.info,3,wikidata,Vítonice,,302,none
@@ -6468,9 +6493,17 @@ vranovice.eu,3,wikidata,Vranovice,,HttpConnectTimeoutException: HTTP connect tim
 vrbice.info,3,wikidata,Vrbice,,302,none
 vrbice.net,3,wikidata,Vrbice,,200,none
 vroutek.net,3,wikidata,Vroutek,,ConnectException,none
+vsb.cz,3,ror,VSB - Technical University of Ostrava,central,,
+vscht.cz,3,ror,"University of Chemistry and Technology, Prague",central,,
 vsechovice.eu,3,wikidata,Všechovice,,302,none
 vsemyslice.eu,3,wikidata,Všemyslice,,301,10 email3.webglobe.cz.; 10 email2.webglobe.cz.; 10 email4.webglobe.cz.; 10 email.webglobe.cz.
 vseruby.info,3,wikidata,Všeruby,,302,none
+vsfs.cz,3,ror,University of Finance and Administration,central,,
+vskk.cz,3,ror,Vysoká škola kreativní komunikace,central,,
+vso.cz,3,ror,University of Business in Prague,central,,
+vspj.cz,3,ror,College of Polytechnics Jihlava,central,,
+vstecb.cz,3,ror,Institute of Technology and Business,central,,
+vut.cz,3,ror,Brno University of Technology,central,,
 vysocany.com,3,wikidata,Vysočany,,301,none
 vysokapec.eu,3,wikidata,Vysoká Pec,,302,10 mail.vysokapec.eu.
 vysokestudnice.eu,3,wikidata,Vysoké Studnice,,200,none
@@ -6494,14 +6527,21 @@ zihobce.eu,3,wikidata,Žihobce,,302,none
 zlebskechvalovice.eu,3,wikidata,Žlebské Chvalovice,,302,none
 zlin.eu,3,wikidata,Zlín,,200,none
 zvole.info,3,wikidata,Zvole,,302,10 posta.gc-system.cz.
+aauni.edu,2,ror,Anglo-American University,central,,
+ceitec.eu,2,ror,Central European Institute of Technology,central,,
 celnisprava.cz,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q109978989 | Q109978918 | Q109979322 | Q109979215 | Q109979212 | Q109978988 | Q109978955 | Q109978951 | Q109978958 | Q109978986 | Q109978987 | Q109978953 | Q109978690 | Q109979222 | Q109979219,,301,none
 financnisprava.cz,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Finanční úřad - Územní pracoviště pro Prahu - Jižní Město | Finanční úřad Praha - Modřany | Finanční úřad Vrchlabí | General Financial Directorate | Finanční úřad Trutnov | Finanční úřad Semily | Finanční úřad Praha-západ,,301,none
 hrotovicko.cz,2,wikidata;wikidata;wikidata,Račice | Radkovice u Hrotovic | Odunec,,200,none
 hzscr.cz,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia,Q101208422 | Q101208402 | Hasičský záchranný sbor Moravskoslezského kraje | Q101208404 | Q101208423 | Q101208403 | Q101208424 | Q101209654 | Q101208355 | Hasičský záchranný sbor Středočeského kraje | Q101208414 | Q101208440 | Q101208439 | Q101208413 | Q101208412 | Population Protection Institute | Q101003126,central,301,none
 mesta.obce.cz,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Jitkov | Klášterní Skalice | Kožušice | Vídeň | Třeština | Police,,200,none
+neisse-uni.org,2,ror,Neisse University,central,,
+newton.university,2,ror,NEWTON University,central,,
 ofm.cz,2,wikidata;wikidata;wikidata;wikidata,Province of the Franciscan Brothers in the Czech Republic | Province of Saint Wenceslaus of the Friars Minor in Czech Republic,,301,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+peuni-international.eu,2,ror,Pan-European University,central,,
 portal.justice.cz,2,wikidata;wikidata;wikidata,Okresní státní zastupitelství Semily | Obvodní státní zastupitelství Praha 6 | Okresní státní zastupitelství Trutnov,,302,none
 regionmtj.cz,2,wikidata;wikidata;wikidata,Q12049088 | Malíkov | Vysoká,,HttpTimeoutException: request timed out,none
 sumavanet.cz,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Modrava | Hrádek | Prášily | Javor | Q12037068 | Hamry | Velký Bor | Dešenice | Hejná | Nýrsko,,301,15 15mx.zoner.com.; 10 10mx.zoner.com.; 1 relay.zoner.com.
+unicornuniversity.net,2,ror,Unicorn University,central,,
 verejnazaloba.cz,2,wikidata;wikidata;wikidata,Okresní státní zastupitelství Mladá Boleslav | Okresní státní zastupitelství Kroměříž | Prosecutor General's Office of the Czech Republic,,200,none
 sumava.net,1,wikidata;wikidata;wikidata;wikidata;wikidata,Kvilda | Srní | Rejštejn | Dlouhá Ves | Železná Ruda,,301,none
+mup.cz,0,ror,Metropolitan University Prague,central,,

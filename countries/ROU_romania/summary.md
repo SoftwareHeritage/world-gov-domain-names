@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-150 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+211 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -52,7 +52,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ms.ro` | central | 302 | wikidata;wikidata | Ministry of Health |
 | 7 | `parlament.ro` | central | HttpConne... | wikidata;wikidata | Parliament of Romania |
 | 7 | `rosa.ro` |  | SSLHandsh... | wikidata;wikidata | Romanian Space Agency |
+| 6 | `ase.ro` | central |  | academia;ror | Bucharest University of Economic Studies |
 | 6 | `gesuiti.it` |  | 200 | wikidata;wikidata | Euromediterranean Province of the Jesuits |
 | 6 | `guv.ro` |  | ConnectEx... | un_desa | UN/DESA national portal |
-| 6 | `mpublic.ro` |  | 503 | wikidata | Prosecutor's Office attached to the High Court of Cassation and Justice |
 

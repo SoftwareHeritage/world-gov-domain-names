@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-205 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+294 domain(s) proposed for validation, of which 2 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `mofaic.gov.ae` | central | IOExcepti... | wikidata;wikidata | Embassy of the United Arab Emirates, Ankara | Consulate General of the United... |
-| 6 | `iski.istanbul` |  | HttpConne... | wikidata;wikidata | İSKİ |
-| 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Mission in Ankara |
-| 5 | `ankara.mfa.gov.ct.tr` | central | 200 | wikidata | Embassy of Northern Cyprus, Ankara |
-| 4 | `adiyaman.edu.tr` | central |  | academia | Adıyaman University |
-| 4 | `adu.edu.tr` | central |  | academia | Aydın Adnan Menderes University |
-| 4 | `afsu.edu.tr` | central |  | academia | Afyonkarahisar Health Sciences University |
-| 4 | `agri.edu.tr` | central |  | academia | Ağrı İbrahim Çeçen University |
-| 4 | `agu.edu.tr` | central |  | academia | Abdullah Gül University |
-| 4 | `ahievran.edu.tr` | central |  | academia | Ahi Evran University |
-| 4 | `akdeniz.edu.tr` | central |  | academia | Akdeniz University |
-| 4 | `aksaray.edu.tr` | central |  | academia | Aksaray University |
-| 4 | `aku.edu.tr` | central |  | academia | Afyon Kocatepe University |
-| 4 | `alanya.edu.tr` | central |  | academia | Alanya Alaaddin Keykubat University |
-| 4 | `alparslan.edu.tr` | central |  | academia | Muş Alparslan University |
-| 4 | `amasya.edu.tr` | central |  | academia | Amasya University |
-| 4 | `anadolu.edu.tr` | central |  | academia | Anadolu University |
-| 4 | `ankara.edu.tr` | central |  | academia | Ankara University |
-| 4 | `ankara.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Ankara |
-| 4 | `ardahan.edu.tr` | central |  | academia | Ardahan University |
+| 6 | `adiyaman.edu.tr` | central |  | academia;ror | Adıyaman University |
+| 6 | `adu.edu.tr` | central |  | academia;ror | Aydın Adnan Menderes University |
+| 6 | `afsu.edu.tr` | central |  | academia;ror | Afyonkarahisar Health Sciences University |
+| 6 | `agu.edu.tr` | central |  | academia;ror | Abdullah Gül University |
+| 6 | `ahievran.edu.tr` | central |  | academia;ror | Ahi Evran University |
+| 6 | `akdeniz.edu.tr` | central |  | academia;ror | Akdeniz University |
+| 6 | `aksaray.edu.tr` | central |  | academia;ror | Aksaray University |
+| 6 | `aku.edu.tr` | central |  | academia;ror | Afyon Kocatepe University |
+| 6 | `amasya.edu.tr` | central |  | academia;ror | Amasya University |
+| 6 | `anadolu.edu.tr` | central |  | academia;ror | Anadolu University |
+| 6 | `ankara.edu.tr` | central |  | academia;ror | Ankara University |
+| 6 | `ardahan.edu.tr` | central |  | academia;ror | Ardahan University |
+| 6 | `artuklu.edu.tr` | central |  | academia;ror | Mardin Artuklu University |
+| 6 | `asbu.edu.tr` | central |  | academia;ror | Social Sciences University of Ankara |
+| 6 | `atauni.edu.tr` | central |  | academia;ror | Atatürk University |
+| 6 | `atu.edu.tr` | central |  | academia;ror | Adana Alparslan Türkeş Science and Technology University |
+| 6 | `bakircay.edu.tr` | central |  | academia;ror | İzmir Bakırçay University |
+| 6 | `balikesir.edu.tr` | central |  | academia;ror | Balıkesir University |
+| 6 | `bayburt.edu.tr` | central |  | academia;ror | Bayburt University |
 

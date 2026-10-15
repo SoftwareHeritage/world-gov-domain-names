@@ -11,17 +11,36 @@ ncl.edu.tw,7,wikidata;wikidata;wikidata,Open Lab Multimedia Center National Cent
 ngdo.gov.taipei,7,wikidata;wikidata,"Nangang District Office, Taipei City",central-1,200,none
 whdo.gov.taipei,7,wikidata;wikidata,"Wanhua District Office, Taipei City",central-1,200,none
 youth.gov.taipei,7,wikidata;wikidata,Department for Youth of Taipei City Government,,HttpTimeoutException: request timed out,none
+ccu.edu.tw,6,academia;ror,National Chung Cheng University,central,,
 eeas.europa.eu,6,wikidata;wikidata,European Economic and Trade Office in Taiwan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 france-taipei.org,6,wikidata;wikidata,French Office in Taipei,,301,5 mta-gw.infomaniak.ch.
 koryu.or.jp,6,wikidata;wikidata,"Japan-Taiwan Exchange Association, Kaohsiung Office | Interchange Association Taipei Office",,ConnectException,10 mofa-go-jp.in.tmems-jp.trendmicro.com.
+nccu.edu.tw,6,academia;ror,National Chengchi University,central,,
+nchu.edu.tw,6,academia;ror,National Chung Hsing University,central,,
+ncnu.edu.tw,6,academia;ror,National Chi Nan University,central,,
+ncu.edu.tw,6,academia;ror,National Central University,central,,
+ndhu.edu.tw,6,academia;ror,National Dong Hwa University,central,,
+nqu.edu.tw,6,academia;ror,National Quemoy University,central,,
+nsysu.edu.tw,6,academia;ror,National Sun Yat-sen University,central,,
+ntcu.edu.tw,6,academia;ror,National Taichung University of Education,central,,
+nthu.edu.tw,6,academia;ror,National Tsing Hua University,central,,
+ntnu.edu.tw,6,academia;ror,National Taiwan Normal University,central,,
+ntu.edu.tw,6,academia;ror,National Taiwan University,central,,
+ntua.edu.tw,6,academia;ror,National Taiwan University of Arts,central,,
+nuk.edu.tw,6,academia;ror,National University of Kaohsiung,central,,
+nutn.edu.tw,6,academia;ror,National University of Tainan,central,,
+nuu.edu.tw,6,academia;ror,National United University,central,,
+nycu.edu.tw,6,academia;ror,National Yang Ming Chiao Tung University,central,,
 recoletos.ph,6,wikidata;wikidata,Province of Saint Ezequiél Moreno,,HttpTimeoutException: request timed out,1 smtp.google.com.
 tmc.taipei,6,wikidata;wikidata,Taipei Music Center,,200,0 tmc-taipei.mail.protection.outlook.com.
+tnnua.edu.tw,6,academia;ror,Tainan National University of the Arts,central,,
+utaipei.edu.tw,6,academia;ror,University of Taipei,central,,
+w3.nknu.edu.tw,6,academia;ror,National Kaohsiung Normal University,central,,
 arthistory.ntu.edu.tw,4,academia,"Graduate Institute of Art History, National Taiwan University",central,,
 australia.org.tw,4,wikidata,"Australian Office, Taipei",,200,10 biz-mx2.hinet.net.; 10 biz-mx1.hinet.net.
 bola.gov.taipei,4,wikidata,"Department of Labor, Taipei City Government",,200,none
 ca.gov.taipei,4,wikidata,"Department of Civil Affairs, Taipei City Government",central-1,200,none
 cadf.org.tw,4,wikidata,Aviation Safety Council,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cadf.org.tw found.,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 20 officemail.cloudmax.com.tw.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-ccu.edu.tw,4,academia,National Chung Cheng University,central,,
 cts.nthu.edu.tw,4,academia,National Center for theoretical Sciences,central,,
 dbas.gov.taipei,4,wikidata,"Department of Budget, Accounting and Statistics",,200,none
 decm.gov.mo,4,wikidata,Macau Economic and Cultural Office,,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.emailsrv.safp.gov.mo.; 10 mx1.emailsrv.safp.gov.mo.
@@ -56,31 +75,15 @@ inrm.ntpu.edu.tw,4,academia,"Institute of Natural Resource Management, National 
 mlc.edu.tw,4,wikidata,Education Department of Miaoli County Government,,HttpConnectTimeoutException: HTTP connect timed out,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 mtc.org.tw,4,wikidata,Representative Office in Taipei for the Moscow-Taipei Coordination Commission on Economic and Cultural Cooperation,,HttpConnectTimeoutException: HTTP connect timed out,0 mtc-org-tw.mail.protection.outlook.com.
 nari.org.tw,4,wikidata,National Atomic Research Institute,,HttpConnectTimeoutException: HTTP connect timed out,5 spam.nari.org.tw.; 5 spam2.nari.org.tw.; 32767 ms66847941.msv1.invalid.nari.org.tw.; 65534 inerout119.nari.org.tw.
-nccu.edu.tw,4,academia,National Chengchi University,central,,
 nchc.org.tw,4,academia,National Center for High-Performance Computing,central,,
-nchu.edu.tw,4,academia,National Chung Hsing University,central,,
 ncku.edu.tw,4,academia,National Cheng Kung University,central,,
-ncnu.edu.tw,4,academia,National Chi Nan University,central,,
-ncu.edu.tw,4,academia,National Central University,central,,
-ndhu.edu.tw,4,academia,National Dong Hwa University,central,,
 ndmctsgh.edu.tw,4,academia,Republic of China National Defense Medical Center,central,,
 ndu.edu.tw,4,academia,National Defense University,central,,
 nl.org.tw,4,wikidata,Netherlands Office Taipei,,ConnectException,none
-nqu.edu.tw,4,academia,National Quemoy University,central,,
 nsrrc.org.tw,4,academia,National Synchrotron Radiation Research Center,central,,
-nsysu.edu.tw,4,academia,National Sun Yat-sen University,central,,
-ntcu.edu.tw,4,academia,National Taichung University of Education,central,,
 nthu-en.site.nthu.edu.tw,4,academia,National Tsing Hua University,central,,
-nthu.edu.tw,4,academia,National Tsing Hua University,central,,
-ntnu.edu.tw,4,academia,National Taiwan Normal University,central,,
 ntou.edu.tw,4,academia,National Taiwan Ocean University,central,,
 ntpc.edu.tw,4,wikidata,"Education Department,New Taipei City Government",,ConnectException,dig error
-ntu.edu.tw,4,academia,National Taiwan University,central,,
-ntua.edu.tw,4,academia,National Taiwan University of Arts,central,,
-nuk.edu.tw,4,academia,National University of Kaohsiung,central,,
-nutn.edu.tw,4,academia,National University of Tainan,central,,
-nuu.edu.tw,4,academia,National United University,central,,
-nycu.edu.tw,4,academia,National Yang Ming Chiao Tung University,central,,
 peru.org.tw,4,wikidata,Commercial Office of Peru to Taipei,,HttpConnectTimeoutException: HTTP connect timed out,10 ntvirus.url.com.tw.; 10 ntvirus2.url.com.tw.
 pkl.gov.taipei,4,wikidata,"Parks and Street Lights Office, Public Works Department, Taipei City Government",,200,none
 poland.tw,4,wikidata,Polish Office in Taipei,,301,none
@@ -96,23 +99,126 @@ taiwan.nccu.edu.tw,4,academia,National Chengchi University Graduate Institute of
 taiwan.net.tw,4,wikidata,"Tourism Administration, MOTC",central,302,10 mail.taiwan.net.tw.
 tasa.org.tw,4,wikidata,Taiwan Space Agency,,ConnectException,5 mg1.tasa.org.tw.; 5 mg2.tasa.org.tw.
 tc.edu.tw,4,wikidata,"Education Bureau, Taichung City Government",,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 20 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
-tnnua.edu.tw,4,academia,Tainan National University of the Arts,central,,
 tpedoit.gov.taipei,4,wikidata,"Department of Information and Tourism, Taipei City Government",,ConnectException,none
 tuic.gov.taipei,4,wikidata,Taipei Urban Intelligence Center,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-utaipei.edu.tw,4,academia,University of Taipei,central,,
-w3.nknu.edu.tw,4,academia,National Kaohsiung Normal University,central,,
 water.gov.taipei,4,wikidata,Taipei Water Department,,ConnectException,10 spam.water.gov.taipei.
+aeust.edu.tw,3,ror,Asia Eastern University of Science and Technology,central,,
+asia.edu.tw,3,ror,Asia University,central,,
+au.edu.tw,3,ror,Aletheia University,central,,
 business-sweden.com,3,wikidata,"Swedish Trade and Invest Council, Taipei Office",,301,none
+cgu.edu.tw,3,ror,Chang Gung University,central,,
+chu.edu.tw,3,ror,Chung Hua University,central,,
+cjcu.edu.tw,3,ror,Chang Jung Christian University,central,,
+cnu.edu.tw,3,ror,Chia Nan University of Pharmacy and Science,central,,
+csu.edu.tw,3,ror,Cheng Shiu University,central,,
+ctbc.edu.tw,3,ror,CTBC Business School,central,,
+dlit.edu.tw,3,ror,De Lin Institute of Technology,central,,
+dpwe.nycu.edu.tw,3,ror,Disaster Prevention & Water Environment Research Center,central,,
+dyu.edu.tw,3,ror,Dayeh University,central,,
 embajadahondurastw.wixsite.com,3,wikidata,"Embassy of Honduras, Taipei",central,404,none
 embassyofbelizetaiwan.org,3,wikidata,"Embassy of Belize, Taipei",central,HttpTimeoutException: request timed out,1200 ghs.google.com.
+en.ccut.edu.tw,3,ror,Chung Chou University of Science and Technology,central,,
+en.ttu.edu.tw,3,ror,Tatung University,central,,
+eng.cycu.edu.tw,3,ror,Chung Yuan Christian University,central,,
+eng.mdu.edu.tw,3,ror,MingDao University,central,,
+eng.nptu.edu.tw,3,ror,National Pingtung University,central,,
+eng.tcu.edu.tw,3,ror,Tzu Chi University,central,,
+english.camel.ntupes.edu.tw,3,ror,National Taiwan University of Sport,central,,
+english.cgust.edu.tw,3,ror,Chang Gung University of Science and Technology,central,,
+english.cmu.edu.tw,3,ror,China Medical University,central,,
+english.csmu.edu.tw,3,ror,Chung Shan Medical University,central,,
+english.ntou.edu.tw,3,ror,National Taiwan Ocean University,central,,
+english.ntpu.edu.tw,3,ror,National Taipei University,central,,
+english.tku.edu.tw,3,ror,Tamkang University,central,,
+englishbk.nkut.edu.tw,3,ror,Nan Kai University of Technology,central,,
+englishweb.chihlee.edu.tw,3,ror,Chihlee Institute of Technology,central,,
+enpu.pu.edu.tw,3,ror,Providence University,central,,
+enwww.ctu.edu.tw,3,ror,Chienkuo Technology University,central,,
+epage-en.cpu.edu.tw,3,ror,Central Police University,central,,
+eweb.ccit.ndu.edu.tw,3,ror,National Defense University,central,,
+fcu.edu.tw,3,ror,Feng Chia University,central,,
+feu.edu.tw,3,ror,Far East University,central,,
+fju.edu.tw,3,ror,Fu Jen Catholic University,central,,
+fy.edu.tw,3,ror,Fooyin University,central,,
+hcu.edu.tw,3,ror,Hsuan Chuang University,central,,
+hfu.edu.tw,3,ror,Huafan University,central,,
+hk.edu.tw,3,ror,Hungkuang University,central,,
+hust.edu.tw,3,ror,Hsiuping University of Science and Technology,central,,
+hwai.edu.tw,3,ror,Chung Hwa University of Medical Technology,central,,
+hwh.edu.tw,3,ror,Hwa Hsia University of Technology,central,,
+ibook.tht.edu.tw,3,ror,Taiwan Hospitality and Tourism University,central,,
 icex.es,3,wikidata,Spanish Chamber of Commerce in Taiwan,,301,10 d307707.a.ess.de.barracudanetworks.com.; 10 d307707.b.ess.de.barracudanetworks.com.
+international.web.nhcue.edu.tw,3,ror,National Hsinchu University of Education,central,,
+isu.edu.tw,3,ror,I-Shou University,central,,
+just.edu.tw,3,ror,Jinwen University of Science and Technology,central,,
 kdei-taipei.org,3,wikidata,Indonesian Economic and Trade Office to Taipei,central,403,10 webserver.kdei-taipei.org.
+kmu.edu.tw,3,ror,Kaohsiung Medical University,central,,
+knu.edu.tw,3,ror,Kainan University,central,,
+ksu.edu.tw,3,ror,Kun Shan University,central,,
+lhu.edu.tw,3,ror,Lunghwa University of Science and Technology,central,,
+lit.edu.tw,3,ror,LeeMing Institute of Technology,central,,
+mcut.edu.tw,3,ror,Ming Chi University of Technology,central,,
+mmc.edu.tw,3,ror,Mackay Medical University,central,,
 moo-mtkk.ru,3,wikidata,Representative Office in Taipei for the Moscow-Taipei Coordination Commission on Economic and Cultural Cooperation,,200,10 mx1.beget.com.; 20 mx2.beget.com.
+must.edu.tw,3,ror,Minghsin University of Science and Technology,central,,
+ncut.edu.tw,3,ror,National Chin-Yi University of Technology,central,,
+ncyu.edu.tw,3,ror,National Chiayi University,central,,
 newtaipei.travel,3,wikidata,"Tourism and Travel Department, New Taipei City Government",,302,0 mx.sendgrid.net.
+nfu.edu.tw,3,ror,National Formosa University,central,,
+nhu.edu.tw,3,ror,Nanhua University,central,,
+niu-en.niu.edu.tw,3,ror,National Ilan University,central,,
+nju.edu.tw,3,ror,Nan Jeon University of Science and Technology,central,,
+nkust.edu.tw,3,ror,National Kaohsiung University of Science and Technology,central,,
+nou.edu.tw,3,ror,National Open University,central,,
+npu.edu.tw,3,ror,National Penghu University of Science and Technology,central,,
+npust.edu.tw,3,ror,National Pingtung University of Science and Technology,central,,
+ntsu.edu.tw,3,ror,National Taiwan Sport University,central,,
+ntub.edu.tw,3,ror,National Taipei University of Business,central,,
+ntue.edu.tw,3,ror,National Taipei University of Education,central,,
+ntunhs.edu.tw,3,ror,National Taipei University of Nursing and Health Science,central,,
+ntust.edu.tw,3,ror,National Taiwan University of Science and Technology,central,,
+ntut.edu.tw,3,ror,National Taipei University of Technology,central,,
+nutc.edu.tw,3,ror,National Taichung University of Science and Technology,central,,
 nzcio.com,3,wikidata,"New Zealand Commerce and Industry Office, Taipei",,302,50 mailq.dedicatedhosting.com.au.; 25 mail.nzcio.com.
+oica.ncue.edu.tw,3,ror,National Changhua University of Education,central,,
+ouk.edu.tw,3,ror,Open University of Kaohsiung,central,,
+pccu.edu.tw,3,ror,Chinese Culture University,central,,
 roc-taiwan.org,3,wikidata,Taipei Representative Office in Aix,,302,none
+scu.edu.tw,3,ror,Soochow University,central,,
+shu.edu.tw,3,ror,Shih Hsin University,central,,
 sites.google.com,3,wikidata,"Embassy of Kiribati, Taipei",central,302,none
+sju.edu.tw,3,ror,St. John's University,central,,
+stu.edu.tw,3,ror,Shu-Te University,central,,
+stust.edu.tw,3,ror,Southern Taiwan University of Science and Technology,central,,
 svgembassytw.com,3,wikidata,embassy of Saint Vincent and the Grenadines in the Republic of China (Taiwan),central,403,10 mail.svgembassytw.com.
+tajen.edu.tw,3,ror,Tajen University,central,,
+takming.edu.tw,3,ror,Takming University of Science and Technology,central,,
+tcus.edu.tw,3,ror,Taiwan Comprehensive University System,central,,
+thu.edu.tw,3,ror,Tunghai University,central,,
+tmu.edu.tw,3,ror,Taipei Medical University,central,,
+tnu.edu.tw,3,ror,Tungnan University,central,,
+tpcu.edu.tw,3,ror,Taipei City University of Science and Technology,central,,
+tsust.edu.tw,3,ror,Kao Yuan University,central,,
+tust.edu.tw,3,ror,Ta Hwa University of Science and Technology,central,,
+tut.edu.tw,3,ror,Tainan University of Technology,central,,
 tuvaluembassyroc.org,3,wikidata,"Embassy of Tuvalu, Taipei",central,ConnectException,none
+twu.edu.tw,3,ror,TransWorld University,central,,
+uch.edu.tw,3,ror,Chien Hsin University of Science and Technology,central,,
+ust.edu.tw,3,ror,University System of Taiwan,central,,
+vnu.edu.tw,3,ror,Vanung University,central,,
+w3.tnua.edu.tw,3,ror,Taipei National University of the Arts,central,,
+web.cyut.edu.tw,3,ror,Chaoyang University of Technology,central,,
+web.ncku.edu.tw,3,ror,National Cheng Kung University,central,,
+web2.mcu.edu.tw,3,ror,Ming Chuan University,central,,
+website.fgu.edu.tw,3,ror,Fo Guang University,central,,
+wfu.edu.tw,3,ror,WuFeng University,central,,
+www2.usc.edu.tw,3,ror,Shih Chien University,central,,
+wwwen.nttu.edu.tw,3,ror,National Taitung University,central,,
+wwwold.ctust.edu.tw,3,ror,Central Taiwan University of Science and Technology,central,,
+wzu.edu.tw,3,ror,Wenzao Ursuline University of Languages,central,,
+ydu.edu.tw,3,ror,Yu Da University,central,,
+ypu.edu.tw,3,ror,Yuanpei University,central,,
+yuntech.edu.tw,3,ror,National Yunlin University of Science and Technology,central,,
+yzu.edu.tw,3,ror,Yuan Ze University,central,,
 holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none
 taipei.diplo.de,1,wikidata;wikidata;wikidata,German Institute Taipei,,200,10 mx1.bund.de.; 10 mx2.bund.de.

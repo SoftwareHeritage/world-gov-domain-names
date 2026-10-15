@@ -1,31 +1,32 @@
 hostname,score,sources,label,level,http_status,mx
-nuc.edu.ng,7,wikidata;wikidata,National Universities Commission | Nigerian Universities Commission,,301,1 smtp.google.com.
+nuc.edu.ng,9,wikidata;wikidata;ror,National Universities Commission | Nigerian Universities Commission,central,301,1 smtp.google.com.
 sp.mofaic.gov.ae,7,wikidata;wikidata,"Consulate General of the United Arab Emirates, Lagos | Embassy of the United Arab Emirates, Abuja",central,ConnectException,none
 yoursms.com.ng,7,wikidata;wikidata,Ondo State Ministry of Education,central-1,ConnectException,none
+delsu.edu.ng,6,academia;ror,"Delta State University, Abraka",central-1,,
+fubk.edu.ng,6,academia;ror,"Federal University, Birnin Kebbi",central,,
+fud.edu.ng,6,academia;ror,Federal University Dutse,central,,
+fuet.edu.ng,6,academia;ror,"Federal University of Environment and Technology, Tai Town/Ogoniland",central,,
+fugashua.edu.ng,6,academia;ror,Federal University Gashua,central,,
+fuhsa.edu.ng,6,academia;ror,"Federal University of Health Sciences, Azare",central,,
+fuotuoke.edu.ng,6,academia;ror,"Federal University, Otuoke",central,,
+fuwukari.edu.ng,6,academia;ror,"Federal University, Wukari",central,,
+kasu.edu.ng,6,academia;ror,Kaduna State University,central-1,,
+kwasu.edu.ng,6,academia;ror,"Kwara State University, Malete",central-1,,
 lagosministryofjustice.org,6,wikidata;wikidata,Lagos State Ministry of Justice,central-1,200,10 smtp.lagosministryofjustice.org.
 lagsoagricuinputs.org,6,wikidata;wikidata;wikidata,Lagos State Agricultural Inputs Supply Authority | Lagos State Agric Inputs Supply Authority,central-1,ConnectException,none
 nigeria.un.org,6,wikidata;wikidata,Sustainable Development Goals and Nigeria,,301,none
 ondostateministryofinformation.wordpress.com,6,wikidata;wikidata,Ondo State Ministry of information and Orientation,central-1,200,none
 riversstate-mwrrd.com,6,wikidata;wikidata,Rivers State Ministry of Water Resources and Rural Development (RSMWRRD),central-1,ConnectException,none
 roc-taiwan.org,6,wikidata;wikidata,Taipei Trade Office in the Federal Republic of Nigeria,central,302,none
+uniosun.edu.ng,6,academia;ror,Osun State University,central-1,,
 abuja.mfa.gov.hu,4,wikidata,"Hungarian embassy, Abuja",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 bouesti.edu.ng,4,academia,"Bamidele Olumilua University of Science and Technology Ikere, Ekiti State",central-1,,
-delsu.edu.ng,4,academia,"Delta State University, Abraka",central-1,,
 fchdk.edu.ng,4,academia,Federal College of Horticultural Technology,central,,
 fedpolyugep.edu.ng,4,wikidata,Federal Polytechnic Ugep,,200,0 fedpolyugep.edu.ng.
 fuab.edu.ng,4,academia,"Federal University of Agriculture, Bassam-Biri",central,,
-fubk.edu.ng,4,academia,"Federal University, Birnin Kebbi",central,,
-fud.edu.ng,4,academia,Federal University Dutse,central,,
-fuet.edu.ng,4,academia,"Federal University of Environment and Technology, Tai Town/Ogoniland",central,,
-fugashua.edu.ng,4,academia,Federal University Gashua,central,,
-fuhsa.edu.ng,4,academia,"Federal University of Health Sciences, Azare",central,,
 fuhso.edu.ng,4,academia,"Federal University of Health Science, Otukpo",central,,
-fuotuoke.edu.ng,4,academia,"Federal University, Otuoke",central,,
-fuwukari.edu.ng,4,academia,"Federal University, Wukari",central,,
 kanoweccma.org.ng,4,wikidata,"KANO STATE WATERSHED, EROSION, AND CLIMATE CHANGE MANAGEMENT AGENCY",,200,none
-kasu.edu.ng,4,academia,Kaduna State University,central-1,,
 kedco.ng,4,wikidata,Kano Electricity Distribution Company,,200,none
-kwasu.edu.ng,4,academia,"Kwara State University, Malete",central-1,,
 lashmaregulations.com.ng,4,wikidata,Lagos state health management agency,,301,0 lashmaregulations.com.ng.
 lastveb.com.ng,4,wikidata,Lagos State Technical and Vocational Education Board,,403,0 lastveb.com.ng.
 lsetf.ng,4,wikidata,Lagos State Employment Trust Fund,,200,0 lsetf-ng.mail.protection.outlook.com.
@@ -35,22 +36,79 @@ nsmoh.org.ng,4,wikidata,Nasarawa State Ministry of Health,central-1,ConnectExcep
 nta.ng,4,wikidata,Nigerian Television Authority,,301,0 nta.ng.
 pssdc.com.ng,4,wikidata,Lagos State Public Service Staff Development Centre,central-1,ConnectException,none
 tcn.org.ng,4,wikidata,Transmission Company of Nigeria,,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,0 mail.tcn.org.ng.
-uniosun.edu.ng,4,academia,Osun State University,central-1,,
 zamsut.edu.ng,4,academia,Zamfara State University,central-1,,
+abiastatepolytechnic.edu.ng,3,ror,Abia State Polytechnic,central-1,,
+abiastateuniversity.edu.ng,3,ror,Abia State University,central-1,,
 abuja.diplo.de,3,wikidata,"Consulate General of Germany, Lagos",,301,10 mx1.bund.de.; 10 mx2.bund.de.
 abuja.embassy.qa,3,wikidata,"Embassy of the State of Qatar, Nigeria",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 abuja.mae.ro,3,wikidata,"Embassy of Romania, Abuja",central,503,none
 abuja.mofa.go.ug,3,wikidata,"Uganda High Commission, Abuja - Nigeria",central,200,none
+adsu.edu.ng,3,ror,Adamawa State University,central-1,,
+aksu.edu.ng,3,ror,Akwa Ibom State University,central-1,,
+akwaibompoly.edu.ng,3,ror,Akwa Ibom State Polytechnic,central-1,,
 ambaburkina-ng.org,3,wikidata,embassy of Burkina Faso in Nigeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail-fr.securemail.pro.
+bsum.edu.ng,3,ror,Benue State University,central-1,,
 cbaac.org,3,wikidata,Centre For Black And African Arts And Civilization,,301,1200 ghs.google.com.
+dufuhs.edu.ng,3,ror,David Umahi Federal University of Health Sciences Uburu,central,,
+ebsu.edu.ng,3,ror,Ebonyi State University,central-1,,
 edogis.org,3,wikidata,Edo State Geographic Information Service,,SSLException: (internal_error) Received fatal alert: internal_error,10 mx00.ionos.com.; 10 mx01.ionos.com.
+edopoly.edu.ng,3,ror,"Edo State Polytechnic, Usen",central-1,,
+edouniversity.edu.ng,3,ror,Edo State University Uzairue,central-1,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Nigeria and ECOWAS,central,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+ekspoly.edu.ng,3,ror,Ekiti State Polytechnic,central-1,,
 enuguchamber.org,3,wikidata,Enugu Chamber of Commerce Industry Mines and Agriculture,,200,0 enuguchamber.org.
 facebook.com,3,wikidata,Kwara State Council of Arts and Culture,,ConnectException,none
+federalpolyayede.edu.ng,3,ror,Federal Polytechnic Ayede,central,,
+federalpolyede.edu.ng,3,ror,Federal Polytechnic Ede,central,,
+federalpolyilaro.edu.ng,3,ror,The Federal Polytechnic Ilaro,central,,
+federalpolyoko.edu.ng,3,ror,Federal Polytechnic Oko,central,,
+fedpis.edu.ng,3,ror,"Federal Polytechnic Ngodo-Isuochi, Abia State",central,,
+fedpod.edu.ng,3,ror,Federal Polytechnic Ohodo,central,,
+fedpoffaonline.edu.ng,3,ror,The Federal Polytechnic Offa,central,,
+fedpolel.edu.ng,3,ror,"Federal Polytechnic, Ile-Oluji, Ondo State",central,,
+fedpolybali.edu.ng,3,ror,Federal Polytechnic Bali,central,,
+fedpolybida.edu.ng,3,ror,"Federal Polytechnic, Bida",central,,
+fedpolykabo.edu.ng,3,ror,Federal Polytechnic Kabo,central,,
+fedpolynekede.edu.ng,3,ror,Federal Polytechnic Nekede,central,,
+fepo.edu.ng,3,ror,Federal Polytechnic Orogun,central,,
+fepoda.edu.ng,3,ror,"Federal Polytechnic, Idah",central,,
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Abuja",central,301,10 mail.valtori.fi.
+fpmubieportal.edu.ng,3,ror,"Federal Polytechnic, Mubi",central,,
+fpn.edu.ng,3,ror,"Federal Polytechnic, Nasarawa",central,,
+fptb.edu.ng,3,ror,"Federal Polytechnic, Bauchi",central,,
+fuadsi.edu.ng,3,ror,"Federal University of Agriculture and Development Studies, Iragbiji",central,,
+fuahse.edu.ng,3,ror,"Federal University of Allied Health Sciences, Enugu",central,,
+fuaz.edu.ng,3,ror,Federal University of Agriculture Zuru,central,,
+fudutsinma.edu.ng,3,ror,Federal University Dutsin-Ma,central,,
+fuek.edu.ng,3,ror,"Federal University of Education, Kontagora",central,,
+fuep.edu.ng,3,ror,Federal University of Education Pankshin,central,,
+fugusau.edu.ng,3,ror,Federal University Gusau,central,,
+fuhsi.edu.ng,3,ror,"Federal University of Health Sciences, Ila-Orangun",central,,
+fukashere.edu.ng,3,ror,Federal University Kashere,central,,
+fulafia.edu.ng,3,ror,Federal University Lafia,central,,
+fulokoja.edu.ng,3,ror,Federal University Lokoja,central,,
+funai.edu.ng,3,ror,"Alex Ekwueme Federal University, Ndufu-Alike",central,,
+funato.edu.ng,3,ror,"Federal University of Agriculture and Technology, Okeho",central,,
+fuoye.edu.ng,3,ror,Federal University Oye Ekiti,central,,
+fupre.edu.ng,3,ror,Federal University of Petroleum Resource Effurun,central,,
+futb.edu.ng,3,ror,"Federal University of Technology, Babura",central,,
+futd.edu.ng,3,ror,"Federal University of Transportation, Daura",central,,
+futes.edu.ng,3,ror,Federal University of Technology and Environmental Sciences,central,,
+futia.edu.ng,3,ror,Federal University of Technology Ikot Abasi,central,,
+futo.edu.ng,3,ror,Federal University of Technology Owerri,central,,
 ghanahighcommission-nigeria.com,3,wikidata,"High Commission of Ghana, Abuja",central,ConnectException,none
+gspb.edu.ng,3,ror,Gombe State Polytechnic Bajoga,central-1,,
+gsu.edu.ng,3,ror,Gombe State University,central-1,,
 ihvnigeria.org,3,wikidata,Institute of Human Virology,,200,0 ihvnigeria-org.mail.protection.outlook.com.
+imsu.edu.ng,3,ror,Imo State University,central-1,,
 instagram.com,3,wikidata,Kwara State Council of Arts and Culture,,301,10 mxa-00082601.gslb.pphosted.com.; 10 mxb-00082601.gslb.pphosted.com.; 20 mx0b-00082601.pphosted.com.; 20 mx0a-00082601.pphosted.com.
+jigpoly.edu.ng,3,ror,"Jigawa State Polytechnic, Dutse",central-1,,
+kanopoly.edu.ng,3,ror,Kano State Polytechnic,central-1,,
+kespodak.edu.ng,3,ror,Kebbi State Polytechnic,central-1,,
+kogistatepolytechnic.edu.ng,3,ror,Kogi State Polytechnic,central-1,,
+ksitm.edu.ng,3,ror,Katsina State Institute of Technology and Management,central-1,,
+kustwudil.edu.ng,3,ror,Kano State University of Technology,central-1,,
+kwarastatepolytechnic.edu.ng,3,ror,Kwara State Polytechnic,central-1,,
 kwsbnln.blogspot.com,3,wikidata,National Library of Nigeria Kwara State Branch,,200,none
 lagosmepb.org,3,wikidata,Lagos State Ministry of Economic Planning and Budget,central-1,200,0 lagosmepb.org.
 lagosresilience.net,3,wikidata,Lagos State Resilience Office,,301,0 lagosresilience.net.
@@ -58,6 +116,9 @@ lagosscholarship.org,3,wikidata,Lagos State Scholarship Board,central-1,200,0 _d
 lagosstatesecuritytrustfund.com,3,wikidata,Lagos State Security Trust Fund,central-1,ConnectException,none
 lasaa.com,3,wikidata,Lagos State Signage and Advertisement Agency,central-1,200,0 lasaa.com.
 lasdri.org,3,wikidata,Lagos State Driver's Institute,central-1,200,0 lasdri.org.
+lasu.edu.ng,3,ror,Lagos State University,central-1,,
+lasued.edu.ng,3,ror,Lagos State University of Education,central-1,,
+lasustech.edu.ng,3,ror,Lagos State University of Science and Technology,central-1,,
 lsada.org,3,wikidata,Lagos State Agricultural Development Authority,central-1,ConnectException,none
 lsnppa.com,3,wikidata,Lagos State  Number Plate Production Authority,,200,30 mx3-hosting.jellyfish.systems.; 10 mx1-hosting.jellyfish.systems.; 20 mx2-hosting.jellyfish.systems.
 mfa.bg,3,wikidata,embassy of Bulgaria in Nigeria,central,302,0 mfa-bg.mail.protection.outlook.com.
@@ -72,6 +133,7 @@ ngsa-nig.org,3,wikidata,Nigerian Geological Survey Agency,,ConnectException,none
 nigeria.diplo.de,3,wikidata,"Embassy of Germany, Abuja",central,200,none
 nigeria.mid.ru,3,wikidata,embassy of Russia in Nigeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 nigeria.um.dk,3,wikidata,embassy of Denmark in Nigeria,central,301,none
+nigerpoly.edu.ng,3,ror,Niger State Polytechnic,central-1,,
 nigerstatemoh.org,3,wikidata,Niger State Ministry of Health,central-1,ConnectException,none
 niianet.org,3,wikidata,Nigerian Institute of International Affairs,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.namebrightmail.com.; 10 mail2.namebrightmail.com.
 niprd.net,3,wikidata,National Institute for Pharmaceutical Research and Development,,302,none
@@ -79,9 +141,22 @@ nitr-ng.org,3,academia,Nigerian Institute for Trypanosomiasis Research,central,,
 nnpcgroup.com,3,wikidata,Nigerian National Petroleum Corporation,,200,0 nnpcgroup-com.mail.protection.outlook.com.
 norway.no,3,wikidata,"Embassy of Norway, Abuja",central,301,0 mx.domeneshop.no.
 nsdcnigeria.org,3,wikidata,National Sugar Development Council,,301,0 mail.nsdcnigeria.org.
+nsuk.edu.ng,3,ror,Nasarawa State University,central-1,,
+ogitech.edu.ng,3,ror,Ogun State Institute of Technology Igbesa,central-1,,
 osphcdb.org,3,wikidata,Ondo State Primary Health Care Development Board,,ConnectException,none
+ospoly.edu.ng,3,ror,"Osun State Polytechnic, Iree",central-1,,
+paau.edu.ng,3,ror,Kogi State University,central-1,,
+plasu.edu.ng,3,ror,Plateau State University,central-1,,
+polyunwana.edu.ng,3,ror,"Akanu Ibiam, Federal Polytechnic Unwana",central,,
+portal.aceondo.edu.ng,3,ror,"Adeyemi Federal University of Education, Ondo, Nigeria",central,,
 ppsscanambra.net,3,wikidata,Post Primary School Service Commision,,302,none
+rsu.edu.ng,3,ror,Rivers State University,central-1,,
 scuml.org,3,wikidata,Special control unit against money laundering,,302,0 shared31.accountservergroup.com.
+ssu.edu.ng,3,ror,Sokoto State University,central-1,,
+sumas.edu.ng,3,ror,State University of Medical and Applied Sciences,central-1,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Abuja",central,301,none
+tsuniversity.edu.ng,3,ror,Taraba State University,central-1,,
 twitter.com,3,wikidata,embassy of Russia in Nigeria,central,ConnectException,none
 who.int,3,wikidata,World Health Organization (Nigeria),,301,10 who-int.mail.protection.outlook.com.
+wufpbk.edu.ng,3,ror,"Waziri Umaru Federal Polytechnic, Birnin Kebbi",central,,
+ysu.edu.ng,3,ror,Yobe State University,central-1,,

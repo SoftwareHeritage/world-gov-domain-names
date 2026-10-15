@@ -42,6 +42,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `egov.sc` |  | SSLHandsh... | un_desa | UN/DESA national portal |
 | 6 | `judiciary.sc` | central | 301 | wikidata | Supreme Court of Seychelles |
 | 6 | `seychellescultureinstitute.org` | central | 301 | wikidata;wikidata | Culture, Art and National Heritage Department | Seychelles National Institute... |
+| 6 | `unisey.ac.sc` | central |  | academia;ror | University of Seychelles |
 | 4 | `ago.sc` | central | 200 | wikidata | Department of Legal Affairs |
 | 4 | `curatelleoffice.sc` | central | 301 | wikidata | Curatelle Office |
 | 4 | `drdm.sc` | central | 301 | wikidata | Department of Risk and Disaster Management |
@@ -54,7 +55,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nsc.sc` | central | 301 | wikidata | National Sports Council |
 | 4 | `ntb.sc` | central | 301 | wikidata | National Tender Board |
 | 4 | `pemc.sc` | central | 301 | wikidata | Public Enterprise Monitoring Commission |
-| 4 | `saa.sc` | central | 200 | wikidata | Seychelles Airports Authority |
 
 ## ccTLD anomalies
 

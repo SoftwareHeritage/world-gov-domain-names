@@ -18,7 +18,7 @@
 
 ## Proposed domains ranked by score
 
-85 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+91 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,5 +42,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `msh.rks-gov.net` |  | HttpTimeo... | wikidata;wikidata | Ministry of Health of Kosovo |
 | 6 | `president-ksgov.net` |  | 200 | wikidata;wikidata;wikidata | Presidency of the Republic of Kosovo | National Council for European Integration |
 | 5 | `supreme.gjyqesori-rks.org` | central | 403 | wikidata | Supreme court of Kosovo |
-| 4 | `kia.gov` |  | ConnectEx... | wikidata | Kosovo Intelligence Agency |
+| 5 | `unhz.eu` | central |  | academia;ror | University “Haxhi Zeka” |
 

@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 2 of 193
 - Government type: parliamentary republic
 - Capital: Tallinn
-- Hosts collected: 962
+- Hosts collected: 1082
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-63 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+70 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,6 +42,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `stat.ee` | central | 301 | wikidata;academia | Statistics Estonia |
 | 6 | `riigikohus.ee` | central | 302 | wikidata | Supreme Court of Estonia |
 | 6 | `riigiteataja.ee` |  | 302 | linkgraph | Linked from 10 public-sector domains |
+| 6 | `tlu.ee` | central |  | academia;ror | Tallinn University |
+| 6 | `ut.ee` | central |  | academia;ror | University of Tartu |
 | 4 | `aki.ee` | central | 302 | wikidata | Estonian Data Protection Inspectorate |
 | 4 | `archimedes.ee` |  | 200 | wikidata | Archimedes Foundation |
 | 4 | `chinaembassy.ee` | central | ConnectEx... | wikidata | Embassy of the People's Republic of China in Tallinn |
@@ -53,6 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `epa.ee` | central | 302 | wikidata | Estonian Patent Office |
 | 4 | `etag.ee` |  | 200 | wikidata | Estonian Research Agency |
 | 4 | `etki.ee` | central |  | academia | Centre of Estonian Rural Research and Knowledge |
-| 4 | `hitsa.ee` |  | ConnectEx... | wikidata | Information Technology Foundation for Education |
-| 4 | `just.ee` |  | 301 | linkgraph | Linked from 4 public-sector domains |
 

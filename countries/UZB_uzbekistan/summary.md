@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-41 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+118 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,6 +47,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mudofaa.uz` | central | 403 | wikidata;wikidata | Ministry of Defense |
 | 7 | `stat.uz` | central | 301 | wikidata;academia | UZSTAT |
 | 7 | `uzedu.uz` | central | 301 | wikidata;wikidata | Ministry of Preschool an School Education of the Republic of Uzbekistan |
+| 6 | `nuu.uz` | central |  | academia;ror | National University of Uzbekistan named after Mirzo Ulugbek |
 | 6 | `sud.uz` | central | HttpConne... | wikidata | Supreme Court of Uzbekistan |
 | 4 | `archaeology.uz` | central |  | academia | National Center for Archeology |
 | 4 | `cbu.uz` |  | 200 | wikidata | Central Bank of Uzbekistan |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `hydroengeo.uz` |  | 307 | wikidata | Institute of Hydrogeology and Engineering Geology |
 | 4 | `ich.uz` |  | SSLHandsh... | wikidata | National Commission of the Republic of Uzbekistan for UNESCO |
 | 4 | `indembassy.uz` | central | SSLHandsh... | wikidata | Embassy of India, Tashkent |
-| 4 | `ingeo.uz` |  | 200 | wikidata | Institute of Geology and Geophysics named after Kh.M. Abdullaev |
 

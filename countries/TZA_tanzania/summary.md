@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+57 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `costech.or.tz` |  | 200 | wikidata;wikidata | Animal Diseases Research Institute | Tanzania Commission for Science and Tech... |
+| 6 | `out.ac.tz` | central |  | academia;ror | The Open University of Tanzania |
+| 6 | `suza.ac.tz` | central |  | academia;ror | State University of Zanzibar |
+| 6 | `udom.ac.tz` | central |  | academia;ror | University of Dodoma |
+| 6 | `udsm.ac.tz` | central |  | academia;ror | University of Dar es Salaam |
 | 4 | `cedha.ac.tz` |  | SSLHandsh... | wikidata | Centre for Educational Development in Health Arusha |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Dar es Salam |
 | 4 | `nemc.or.tz` |  | SSLHandsh... | wikidata | National Environment Management Council |
 | 4 | `nm-aist.ac.tz` | central |  | academia | Nelson Mandela African Institution of Science and Technology |
-| 4 | `out.ac.tz` | central |  | academia | The Open University of Tanzania |
-| 4 | `suza.ac.tz` | central |  | academia | State University of Zanzibar |
 | 4 | `temdo.or.tz` |  | SSLHandsh... | wikidata | Tanzania Engineering and Manufacturing Design Organization |
 | 4 | `tlsb.or.tz` |  | ConnectEx... | wikidata | Tanzania Library Services Board |
-| 4 | `udom.ac.tz` | central |  | academia | University of Dodoma |
-| 4 | `udsm.ac.tz` | central |  | academia | University of Dar es Salaam |
+| 3 | `aru.ac.tz` | central |  | ror | Ardhi University |
 | 3 | `bot-tz.org` |  | HttpConne... | wikidata | Bank of Tanzania |
+| 3 | `bugando.ac.tz` | central |  | ror | Catholic University of Health and Allied Sciences |
 | 3 | `daressalam.diplo.de` | central | 200 | wikidata | Embassy of Germany, Dar es Salaam |
+| 3 | `dit.ac.tz` | central |  | ror | Dar es Salaam Institute of Technology |
+| 3 | `dsm.teku.ac.tz` | central |  | ror | Teofilo Kisanji University |
+| 3 | `eckernfordetangauniversity.ac.tz` | central |  | ror | Eckernforde Tanga University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Tanzania |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | embassy of Finland in Tanzania |
-| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway, Dar es Salaam |
-| 3 | `pastoralwomenscouncil.org` |  | 200 | wikidata | Pastoral Women's Council |
-| 3 | `seamic.org` |  | 200 | wikidata | African Minerals and Geosciences Centre |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Dar es Salaam |
-| 3 | `tafiri.weebly.com` |  | 404 | wikidata | Tanzania Fisheries Research Institute |
 

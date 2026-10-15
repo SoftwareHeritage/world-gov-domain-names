@@ -15,7 +15,15 @@ sportsheritage.go.ke,7,wikidata;wikidata,"Ministry of Sports, Culture and the Ar
 transport.go.ke,7,wikidata;wikidata,Ministry of roads and transport,central,200,0 mx3.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.
 treasury.go.ke,7,wikidata;wikidata,Ministry of Finance,central,200,5 mx2.govmail.ke.; 5 mx3.govmail.ke.; 5 mx1.govmail.ke.; 5 mx4.govmail.ke.
 judiciary.go.ke,6,wikidata,Supreme Court of Kenya,central,200,5 mail.judiciary.go.ke.
+karu.ac.ke,6,academia;ror,Karatina University,central,,
+kibu.ac.ke,6,academia;ror,Kibabii University,central,,
+ku.ac.ke,6,academia;ror,Kenyatta University,central,,
+kyu.ac.ke,6,academia;ror,Kirinyaga University,central,,
+mksu.ac.ke,6,academia;ror,Machakos University,central,,
+mu.ac.ke,6,academia;ror,Moi University,central,,
 mygov.go.ke,6,un_desa,UN/DESA national portal,,200,10 mail.mygov.go.ke.
+uoeld.ac.ke,6,academia;ror,University of Eldoret,central,,
+uonbi.ac.ke,6,academia;ror,University of Nairobi,central,,
 ca.go.ke,4,wikidata,Communications Authority of Kenya,,307,0 ca-go-ke.mail.protection.outlook.com.
 centralbank.go.ke,4,wikidata,Central Bank of Kenya,,301,5 mx2.hc1852-57.eu.iphmx.com.; 5 mx1.hc1852-57.eu.iphmx.com.
 cma.or.ke,4,wikidata,Capital Markets Authority,,301,10 cma-or-ke.mail.protection.outlook.com.
@@ -29,7 +37,6 @@ gdc.co.ke,4,wikidata,Geothermal Development Company,central,301,0 gdc-co-ke.mail
 icta.go.ke,4,wikidata,Information and Communication Technology Authority,,200,0 mx4.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.; 0 mx3.govmail.ke.
 irrigationauthority.go.ke,4,wikidata,National Irrigation Authority,,301,0 irrigationauthority-go-ke.mail.protection.outlook.com.
 jkuat.ac.ke,4,academia,Jomo Kenyatta University of Agriculture and Technology,central,,
-karu.ac.ke,4,academia,Karatina University,central,,
 kcaa.or.ke,4,wikidata,Kenya Civil Aviation Authority,,200,0 kcaa-or-ke.mail.protection.outlook.com.
 kcgs.go.ke,4,wikidata,Kenya Coast Guard Service,,200,5 mx1.govmail.ke.; 5 mx2.govmail.ke.; 5 mx3.govmail.ke.
 kenha.co.ke,4,wikidata,Kenya National Highway Authority,central,200,15 smtp01.safaricombusiness.co.ke.; 5 rat-01.safaricombusiness.co.ke.; 0 kenha-co-ke.mail.protection.outlook.com.; 20 smtp02.safaricombusiness.co.ke.; 10 rat-02.safaricombusiness.co.ke.
@@ -37,19 +44,14 @@ kenyafisheriesservice.go.ke,4,wikidata,Kenya Fisheries Service,,ConnectException
 kenyapolice.go.ke,4,wikidata,Kenya Police,,200,5 mx2.govmail.ke.; 5 mx3.govmail.ke.; 5 mx1.govmail.ke.
 kephis.go.ke,4,wikidata,Kenya Plant Health Inspectorate Services,,200,none
 khrc.or.ke,4,wikidata,Kenya Human Rights Commission,,200,0 khrc-or-ke.mail.protection.outlook.com.
-kibu.ac.ke,4,academia,Kibabii University,central,,
 klb.co.ke,4,wikidata,Kenya Literature Bureau,,200,0 klb-co-ke.mail.protection.outlook.com.
 klrc.go.ke,4,wikidata,Kenya Law Reform Commission,,HttpTimeoutException: request timed out,0 mail.klrc.go.ke.
 kra.go.ke,4,wikidata,Kenya Revenue Authority,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kra.go.ke found.,dig error
 ksa.go.ke,4,wikidata,Kenya Space Agency,,200,0 ksa-go-ke.mail.protection.outlook.com.
 ksg.ac.ke,4,wikidata,Kenya School of Government,,200,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-ku.ac.ke,4,academia,Kenyatta University,central,,
-kyu.ac.ke,4,academia,Kirinyaga University,central,,
 landcommission.go.ke,4,wikidata,National Land Commission,,200,5 rat-02.safaricombusiness.co.ke.; 0 spamtitan.konza.ke.; 5 mail.landcommission.go.ke.; 5 rat-01.safaricombusiness.co.ke.; 15 rt1.maxider.com.
 meteo.go.ke,4,wikidata,Kenya Meteorological Department,,200,0 email.meteo.go.ke.; 10 mail.meteo.go.ke.
-mksu.ac.ke,4,academia,Machakos University,central,,
 mozambiquehighcommission.co.ke,4,wikidata,"High Commission of Mozambique, Nairobi",central,200,0 mozambiquehighcommission.co.ke.
-mu.ac.ke,4,academia,Moi University,central,,
 nacc.or.ke,4,wikidata,National Aids Control Council,,403,none
 nacosti.go.ke,4,wikidata,"National Commission for Science, Technology and Innovation",,301,0 nacosti-go-ke.mail.protection.outlook.com.
 nairobi.mfa.gov.hu,4,wikidata,Embassy of Hungary to Kenya,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -63,31 +65,92 @@ posta.co.ke,4,wikidata,Postal Corporation of Kenya,,200,0 mx-in-01.posta.co.ke.;
 publicservice.go.ke,4,wikidata,Public Service Commission,,301,5 mail.publicservice.go.ke.
 rba.go.ke,4,wikidata,Retirement Benefits Authority of Kenya,,403,10 rba-go-ke.mail.protection.outlook.com.
 unesco.go.ke,4,wikidata,Kenya National Commission for UNESCO,,200,0 unesco-go-ke.mail.protection.outlook.com.
-uoeld.ac.ke,4,academia,University of Eldoret,central,,
-uonbi.ac.ke,4,academia,University of Nairobi,central,,
 wajir.go.ke,4,wikidata,Wajir County Government,,200,5 smtp02.safaricombusiness.co.ke.; 0 rat-01.safaricombusiness.co.ke.; 0 rat-02.safaricombusiness.co.ke.; 5 smtp01.safaricombusiness.co.ke.
 waterfund.go.ke,4,wikidata,Water Services Trust Fund,,200,0 waterfund-go-ke.mail.protection.outlook.com.
 wrti.go.ke,4,wikidata,Wildlife Research and Training Institute,,200,5 mx2.govmail.ke.; 5 mx1.govmail.ke.; 5 mx3.govmail.ke.
+aiu.ac.ke,3,ror,Africa International University,central,,
+amref.ac.ke,3,ror,Amref International University,central,,
+anu.ac.ke,3,ror,Africa Nazarene University,central,,
 au-ibar.org,3,wikidata,African Union Interafrican Bureau for Animal Resources,,400,5 mail.au-ibar.org.
+au.ac.ke,3,ror,Alupe University,central,,
+aua.ac.ke,3,ror,Adventist University of Africa,central,,
+bu.ac.ke,3,ror,Bomet University,central,,
+chuka.ac.ke,3,ror,Chuka University,central,,
 crdd-kenya.org,3,academia,National Dryland Farming Research Centre,central,,
 ctc-n.org,3,academia,National Horticultural Research Centre,central,,
+cuk.ac.ke,3,ror,The Co-operative University of Kenya,central,,
+daystar.ac.ke,3,ror,Daystar University,central,,
+dkut.ac.ke,3,ror,Dedan Kimathi University of Technology,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Kenya,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+egerton.ac.ke,3,ror,Egerton University,central,,
+embuni.ac.ke,3,ror,University of Embu,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Kenya,central,301,10 mail.valtori.fi.
+gluk.ac.ke,3,ror,Great Lakes University of Kisumu,central,,
+gretsauniversity.ac.ke,3,ror,Gretsa University,central,,
+hekima.ac.ke,3,ror,Hekima University College,central,,
 icpac.net,3,wikidata,IGAD Climate Prediction and Applications Center,,301,"1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 55 icpac-net.mail.protection.outlook.COM.; 60 o365-icpac-net.mail.protection.outlook.com,.; 50 ms42723513.msv1.invalid.; 65 gsuite-icpac-net.mail.protection.outlook.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM."
 icrisat.org,3,wikidata,International Crops Research Institute for the Semi-Arid Tropics,,200,0 icrisat-org.mail.protection.outlook.com.
+iu.ac.ke,3,ror,Inoorero University,central,,
+jooust.ac.ke,3,ror,Jaramogi Oginga Odinga University of Science and Technology,central,,
+kabarak.ac.ke,3,ror,Kabarak University,central,,
+kabianga.ac.ke,3,ror,University of Kabianga,central,,
+kcau.ac.ke,3,ror,KCA University,central,,
 ke.ambafrance.org,3,wikidata,"Embassy of France, Nairobi",central,301,none
 kebs.org,3,wikidata,Kenya Bureau of Standards,,200,0 kebs-org.mail.protection.outlook.com.; 5 mail.kebs.org.
+kemu.ac.ke,3,ror,Kenya Methodist University,central,,
 ken-djiboutiembassy.com,3,wikidata,embassy of Djibouti in Kenya,central,ConnectException,none
 kenya.um.dk,3,wikidata,embassy of Denmark in Kenya,central,301,none
 kenyaforestservice.org,3,wikidata,Kenya Forest Service,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 smtpin.hosting.liquidtelecom.co.ke.; 500 smtpin.accesskenya.com.; 5 mail.kenyaforestservice.org.
+kerichopoly.ac.ke,3,ror,The Kericho National Polytechnic,central,,
+khu.ac.ke,3,ror,Kenya Highlands University,central,,
+kisiiuniversity.ac.ke,3,ror,Kisii University,central,,
 knchr.org,3,wikidata,Kenya National Commission on Human Rights,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.knchr.org.
+ksu.ac.ke,3,ror,Koitaleel Samoei University College,central,,
+kwust.ac.ke,3,ror,Kiriri Women's University of Science and Technology,central,,
+laikipia.ac.ke,3,ror,Laikipia University,central,,
+lib.pacuniversity.ac.ke,3,ror,Pan Africa Christian University,central,,
+lukenyauniversity.ac.ke,3,ror,Lukenya University,central,,
 mae.ro,3,wikidata,"Embassy of Romania, Nairobi",central,ConnectException,10 mx2.mae.ro.; 10 mx1.mae.ro.
+maseno.ac.ke,3,ror,Maseno University,central,,
 mfa.gr,3,wikidata,embassy of Greece in Kenya,central,403,10 mailhost.mfa.gr.
+mku.ac.ke,3,ror,Mount Kenya University,central,,
+mmarau.ac.ke,3,ror,Maasai Mara University,central,,
+mmu.ac.ke,3,ror,Multimedia University of Kenya,central,,
+mnu.ac.ke,3,ror,Mama Ngina University College,central,,
+must.ac.ke,3,ror,Meru University of Science and Technology,central,,
+mut.ac.ke,3,ror,Murang'a University of Technology,central,,
 mzv.cz,3,wikidata,embassy of the Czech republic in Kenya,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Kenya,central,301,10 mail.gov.sk.
 nairobi.diplo.de,3,wikidata,"Embassy of Germany, Nairobi",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 norway.no,3,wikidata,"Embassy of Norway, Nairobi",central,301,0 mx.domeneshop.no.
+ouk.ac.ke,3,ror,Open University of Kenya,central,,
 pharmacyboardkenya.org,3,wikidata,Pharmacy and Poisons Board,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+piu.ac.ke,3,ror,Pioneer International University,central,,
+pu.ac.ke,3,ror,Pwani University,central,,
+puea.ac.ke,3,ror,Presbyterian University of East Africa,central,,
+riarauniversity.ac.ke,3,ror,Riara University,central,,
+rongovarsity.ac.ke,3,ror,Rongo University,central,,
 russembkenya.mid.ru,3,wikidata,embassy of Russia in Kenya,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+scott.ac.ke,3,ror,Scott Christian University,central,,
 seaturtle.wildlifedirect.org,3,wikidata,Kenya Sea Turtle Conservation Committee,,ConnectException,none
+seku.ac.ke,3,ror,South Eastern Kenya University,central,,
+spu.ac.ke,3,ror,St. Paul's University,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Nairobi",central,301,none
+tangaza.ac.ke,3,ror,Tangaza University,central,,
+teau.ac.ke,3,ror,East African University,central,,
+tharaka.ac.ke,3,ror,Tharaka University,central,,
+tmu.ac.ke,3,ror,Tom Mboya University College,central,,
+ttu.ac.ke,3,ror,Taita Taveta University,central,,
+tuc.ac.ke,3,ror,Turkana University College,central,,
+tukenya.ac.ke,3,ror,Technical University of Kenya,central,,
+tum.ac.ke,3,ror,Technical University of Mombasa,central,,
+ueab.ac.ke,3,ror,"University of Eastern Africa, Baraton",central,,
+umma.ac.ke,3,ror,Umma University,central,,
+uzimauniversity.ac.ke,3,ror,Uzima University College,central,,
+zetech.ac.ke,3,ror,Zetech University,central,,
+aku.edu,2,ror,Aga Khan University Nairobi,central,,
+avu.org,2,ror,African Virtual University,central,,
+cuea.edu,2,ror,Catholic University of Eastern Africa,central,,
+east.university,2,ror,Kenya Assemblies of God EAST University,central,,
+pau-au.africa,2,ror,"Pan African University Institute for Basic Sciences, Technology and Innovation",central,,
+strathmore.edu,2,ror,Strathmore University,central,,

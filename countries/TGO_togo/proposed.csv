@@ -4,6 +4,7 @@ inseed.tg,7,wikidata;academia,INSEED-TOGO,central,HttpTimeoutException: request 
 minjustg.com,6,wikidata;wikidata,Ministry of Justice and Legislation (Togo),central,ConnectException,none
 togo.tg,6,un_desa,UN/DESA national portal,,ConnectException,none
 togoleseministryofhealthlome.myewebsite.com,6,wikidata;wikidata,Togolese Ministry of Health,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching togoleseministryofhealthlome.myewebsite.com found.,none
+univ-lome.tg,6,academia;ror,University of Lomé,central,,
 ccit.tg,4,wikidata,chamber of commerce and industry of Togo,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 ccit-tg.mail.protection.outlook.com.
 courconstitutionnelle.tg,4,wikidata,Q19544229,,200,0 courconstitutionnelle.tg.
 courdappeldelome.tg,4,wikidata,Q139559373,central,200,0 courdappeldelome.tg.
@@ -11,13 +12,16 @@ courdescomptes.tg,4,wikidata,Q139500459,,200,0 mail.courdescomptes.tg.
 coursupremetogo.tg,4,wikidata,Q125959623,,403,none
 paul.univ-lome.tg,4,academia,University of Lomé,central,,
 univ-kara.tg,4,academia,University of Kara,central,,
-univ-lome.tg,4,academia,University of Lomé,central,,
 bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
 ceni-tg.org,3,wikidata,Q19955905,central,200,none
 cndh-togo.org,3,wikidata,National Human Rights Commission (Togo),,403,0 _dc-mx.181a5c4be146.cndh-togo.org.
+cugw.tg,3,ror,Global Wealth University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Togo,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+ena.tg,3,ror,École Nationale d'Administration,central,,
 ghanaembassy-togo.com,3,wikidata,embassy of Ghana in Togo,central,ConnectException,none
 hcourtog.com,3,wikidata,High Court of Justice,central,HttpConnectTimeoutException: HTTP connect timed out,none
+iaec-university.tg,3,ror,University of Science and Technology of Togo,central,,
 lome.diplo.de,3,wikidata,"Embassy of Germany, Lomé",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 tg.ambafrance.org,3,wikidata,"Embassy of France, Lomé",central,301,none
 unesco.tg.refer.org,3,wikidata,Togolese National Commissions for UNESCO,,HttpConnectTimeoutException: HTTP connect timed out,none
+univkara.tg,3,ror,University of Kara,central,,

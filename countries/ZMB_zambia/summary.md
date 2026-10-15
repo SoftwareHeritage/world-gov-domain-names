@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-20 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+43 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 6 | `unza.zm` | central |  | academia;ror | University of Zambia |
 | 4 | `boz.zm` |  | HttpConne... | wikidata | Bank of Zambia |
 | 4 | `nac.org.zm` |  | 200 | wikidata | National HIV/AIDS/STI/TB Council |
 | 4 | `nhra.org.zm` |  | 301 | wikidata | National Health Research Authority |
-| 4 | `unza.zm` | central |  | academia | University of Zambia |
 | 4 | `zema.org.zm` |  | 301 | wikidata | Zambia Environmental Management Agency |
 | 4 | `zicta.zm` |  | SSLHandsh... | wikidata | Zambia Information and Communications Technology Authority |
 | 4 | `zma.org.zm` |  | SSLHandsh... | wikidata | Zambia Metrology Agency |
 | 4 | `znphi.co.zm` |  | SSLExcept... | wikidata | Zambia National Public Health Institute |
 | 3 | `ambafrance-zm.org` | central | ConnectEx... | wikidata | Embassy of France, Lusaka |
+| 3 | `cbu.edu.zm` | central |  | ror | Copperbelt University |
+| 3 | `chau.ac.zm` | central |  | ror | Chalimbana University |
+| 3 | `copperstone.ac.zm` | central |  | ror | Copperstone University |
 | 3 | `cosecsa.org` |  | 301 | wikidata | Surgical Society of Zambia |
+| 3 | `dmiseu.edu.zm` | central |  | ror | DMI St. Eugene University |
+| 3 | `edenuniversity.edu.zm` | central |  | ror | Eden University |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Zambia and COMESA |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | embassy of Finland in Zambia |
 | 3 | `gartzambia.org` |  | 200 | wikidata | Golden Valley Agricultural Research Trust |
 | 3 | `ghanahighcommission-zambia.com` | central | ConnectEx... | wikidata | high commission of Ghana in Zambia |
-| 3 | `lusaka.diplo.de` | central | 200 | wikidata | Embassy of Germany, Lusaka |
-| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Zambia |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Lusaka |
-| 3 | `who.int` |  | 301 | wikidata | World Health Organization - Zambia |
-| 3 | `zambia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Zambia |
-| 3 | `zambiaforestrycollege.org` | central |  | academia | Zambia Forestry College |
+| 3 | `kmu.ac.zm` | central |  | ror | Kapasa Makasa University |
 

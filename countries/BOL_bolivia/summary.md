@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+65 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,16 +41,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `escolapiosbrasilbolivia.org` |  | 301 | wikidata;wikidata | Piarist province of Brazil-Bolivia |
 | 6 | `oep.org.bo` | central | ConnectEx... | wikidata | Plurinational Electoral Organ |
 | 6 | `tcpbolivia.bo` |  | 200 | wikidata | Plurinational Constitutional Tribunal |
+| 6 | `uabjb.edu.bo` | central |  | academia;ror | Universidad Autónoma del Beni |
 | 4 | `abe.bo` |  | 301 | wikidata | Agencia Boliviana Espacial |
 | 4 | `aciencias.org.bo` | central |  | academia | Academia Nacional de Ciencias de Bolivia |
 | 4 | `policia.bo` |  | 301 | wikidata | Bolivian Police |
-| 4 | `uabjb.edu.bo` | central |  | academia | Universidad Autónoma del Beni |
 | 3 | `bo.ambafrance.org` | central | 301 | wikidata | Embassy of France, La Paz |
 | 3 | `bo.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, La Paz |
 | 3 | `bolivia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Bolivia |
 | 3 | `consulado.pe` | central | SSLHandsh... | wikidata | Consulate-General of Peru, La Paz |
 | 3 | `cubadiplomatica.cu` | central | ConnectEx... | wikidata | embassy of Cuba in Bolivia |
+| 3 | `cumbre.edu.bo` | central |  | ror | Universidad Privada Cumbre |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Bolivia |
 | 3 | `la-paz.diplo.de` | central | 200 | wikidata | Embassy of Germany, La Paz |
+| 3 | `loyola.edu.bo` | central |  | ror | Universidad Loyola |
 | 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, La Paz |
 

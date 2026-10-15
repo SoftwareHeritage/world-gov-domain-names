@@ -1,4 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
+ufmg.br,9,wikidata;academia;academia;ror,Centro Cultural UFMG | Federal University of Minas Gerais | Museu de História Natural e Jardim Botânico da Universidade Federal de Minas Gerais,central,301,10 mail-interno-pmg.ufmg.br.; 90 mail-pmg.ufmg.br.
 al.ac.leg.br,7,wikidata;wikidata,Legislative Assembly of Acre,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching al.ac.leg.br found.,10 mail.al.ac.leg.br.
 al.al.leg.br,7,wikidata;wikidata,Legislative Assembly of Alagoas,central-1,308,10 naumailmtain2.interlegis.leg.br.; 10 naumailmtain3.interlegis.leg.br.; 10 naumailmtain1.interlegis.leg.br.
 al.go.leg.br,7,wikidata;wikidata,Legislative Assembly of Goiás,central-1,302,0 al-go-leg-br.mail.protection.outlook.com.
@@ -11,10 +12,36 @@ congressonacional.leg.br,7,wikidata;wikidata,National Congress of Brazil,central
 franciscanos.org.br,7,wikidata;wikidata,Q10354750,,ConnectException,1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 ipt.br,7,academia;academia,Institute for Technological Research | Instituto de Pesquisas Tecnólogicas,central-1,,
 jesuitasbrasil.org.br,7,wikidata;wikidata,Brazilian Province of the Society of Jesus,,200,0 jesuitasbrasil-org-br.mail.protection.outlook.com.
-ufmg.br,7,wikidata;academia;academia,Centro Cultural UFMG | Federal University of Minas Gerais | Museu de História Natural e Jardim Botânico da Universidade Federal de Minas Gerais,central,301,10 mail-interno-pmg.ufmg.br.; 90 mail-pmg.ufmg.br.
 escolapiosbrasilbolivia.org,6,wikidata;wikidata,Piarist province of Brazil-Bolivia,,301,0 mail.escolapiosbrasilbolivia.org.
 portal.stf.jus.br,6,wikidata,Supreme Federal Court,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+portal.ufpel.edu.br,6,academia;ror,Federal University of Pelotas,central,,
+portal.unila.edu.br,6,academia;ror,Universidade Federal da Integração Latino-Americana,central,,
 saopaulo.consulfrance.org,6,wikidata;wikidata,"Consulate General of France, in São Paulo",,301,none
+udesc.br,6,academia;ror,Universidade do Estado de Santa Catarina,central-1,,
+uefs.br,6,academia;ror,State University of Feira de Santana,central-1,,
+uemasul.edu.br,6,academia;ror,Universidade Estadual da Região Tocantina do Maranhão,central-1,,
+uesb.br,6,academia;ror,State University of the Southwest of Bahia,central-1,,
+ufabc.edu.br,6,academia;ror,Federal University of ABC,central,,
+ufba.br,6,academia;ror,Federal University of Bahia,central,,
+ufc.br,6,academia;ror,Universidade Federal do Ceará,central,,
+ufca.edu.br,6,academia;ror,Federal University of Cariri,central,,
+ufersa.edu.br,6,academia;ror,Universidade Federal Rural do Semi-Árido,central,,
+uff.br,6,academia;ror,Fluminense Federal University,central,,
+uffs.edu.br,6,academia;ror,Federal University of Fronteira Sul,central,,
+ufg.br,6,academia;ror,Universidade Federal de Goiás,central,,
+ufnt.edu.br,6,academia;ror,Universidade Federal do Norte do Tocantins,central,,
+ufob.edu.br,6,academia;ror,Federal University of Western Bahia,central,,
+ufpe.br,6,academia;ror,Federal University of Pernambuco,central,,
+ufrgs.br,6,academia;ror,Instituto de Pesquisas Hidráulicas da Universidade Federal do Rio Grande do Sul,central,,
+ufrj.br,6,academia;ror,Federal University of Rio de Janeiro,central,,
+ufsb.edu.br,6,academia;ror,Federal University of Southern Bahia,central,,
+ufsj.edu.br,6,academia;ror,Universidade Federal de São João del-Rei,central,,
+uft.edu.br,6,academia;ror,Universidade Federal do Tocantins,central,,
+ufv.br,6,academia;ror,Federal University of Viçosa,central,,
+unipampa.edu.br,6,academia;ror,Universidade Federal do Pampa,central,,
+univesp.br,6,academia;ror,Virtual University of the State of São Paulo,central-1,,
+www2.ufjf.br,6,academia;ror,Federal University of Juiz de Fora,central,,
+www5.usp.br,6,academia;ror,University of São Paulo,central-1,,
 academia.org.br,4,wikidata,Brazilian Academy of Letters,,200,10 mx-ha.skymail.net.br.
 academiacearensedeletras.org.br,4,wikidata,Ceará Academy of Letters,,200,5 mx1.hostinger.com.; 10 mx2.hostinger.com.
 academiadeletrasdabahia.org.br,4,wikidata,Academia de Letras da Bahia,,200,1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
@@ -121,8 +148,6 @@ portal.fiocruz.br,4,academia,Oswaldo Cruz Foundation,central,,
 portal.trf1.jus.br,4,wikidata,Regional Federal Court of the 1st Region,central-1,302,none
 portal.trf6.jus.br,4,wikidata,Q115839361,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 trf6-jus-br.mail.protection.outlook.com.
 portal.ufpa.br,4,academia,Universidade Federal do Pará,central,,
-portal.ufpel.edu.br,4,academia,Federal University of Pelotas,central,,
-portal.unila.edu.br,4,academia,Universidade Federal da Integração Latino-Americana,central,,
 portaltj.tjrj.jus.br,4,wikidata,Rio de Janeiro Court of Justice,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 portalufj.jatai.ufg.br,4,academia,Federal University of Jataí,central,,
 prefeitura.poa.br,4,wikidata,Q10369238,,200,5 mx02.procempa.com.br.
@@ -163,55 +188,30 @@ trt21.jus.br,4,wikidata,Q10384628,,302,10 aspmx2.googlemail.com.; 5 alt2.aspmx.l
 trt7.jus.br,4,wikidata,Q10384638,,302,30 alt4.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 alt3.aspmx.l.google.com.; 10 aspmx.l.google.com.
 tse.jus.br,4,wikidata,Superior Electoral Court,,403,1 antispam-01.tse.jus.br.; 50 antispam-02.tse.jus.br.
 tst.jus.br,4,wikidata,Superior Labor Court,,202,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-udesc.br,4,academia,Universidade do Estado de Santa Catarina,central-1,,
-uefs.br,4,academia,State University of Feira de Santana,central-1,,
 uel.br,4,academia,State University of Londrina,central-1,,
-uemasul.edu.br,4,academia,Universidade Estadual da Região Tocantina do Maranhão,central-1,,
 uenp.edu.br,4,academia,Universidade Estadual do Norte do Paraná,central-1,,
-uesb.br,4,academia,State University of the Southwest of Bahia,central-1,,
 uesc.br,4,academia,State University of Santa Cruz,central-1,,
 ufabc.br,4,academia,Federal University of ABC,central,,
-ufabc.edu.br,4,academia,Federal University of ABC,central,,
 ufal.edu.br,4,academia,Universidade Federal de Alagoas,central,,
-ufba.br,4,academia,Federal University of Bahia,central,,
-ufc.br,4,academia,Universidade Federal do Ceará,central,,
-ufca.edu.br,4,academia,Federal University of Cariri,central,,
 ufcat.edu.br,4,academia,Universidade Federal de Catalão,central,,
-ufersa.edu.br,4,academia,Universidade Federal Rural do Semi-Árido,central,,
-uff.br,4,academia,Fluminense Federal University,central,,
-uffs.edu.br,4,academia,Federal University of Fronteira Sul,central,,
-ufg.br,4,academia,Universidade Federal de Goiás,central,,
 ufgd.edu.br,4,academia,Federal University of Grande Dourados,central,,
-ufnt.edu.br,4,academia,Universidade Federal do Norte do Tocantins,central,,
-ufob.edu.br,4,academia,Federal University of Western Bahia,central,,
 ufpa.br,4,academia,Universidade Federal do Pará,central,,
-ufpe.br,4,academia,Federal University of Pernambuco,central,,
 ufpi.br,4,academia,Universidade Federal do Piauí,central,,
 ufra.edu.br,4,academia,Federal Rural University of Amazonia,central,,
 ufrb.edu.br,4,academia,Universidade Federal do Recôncavo da Bahia,central,,
-ufrgs.br,4,academia,Instituto de Pesquisas Hidráulicas da Universidade Federal do Rio Grande do Sul,central,,
-ufrj.br,4,academia,Federal University of Rio de Janeiro,central,,
-ufsb.edu.br,4,academia,Federal University of Southern Bahia,central,,
 ufsc.br,4,academia,Universidade Federal de Santa Catarina,central,,
 ufscar.br,4,academia,Universidade Federal de São Carlos,central,,
-ufsj.edu.br,4,academia,Universidade Federal de São João del-Rei,central,,
-uft.edu.br,4,academia,Universidade Federal do Tocantins,central,,
-ufv.br,4,academia,Federal University of Viçosa,central,,
 uneb.br,4,academia,Bahia State University,central-1,,
 unesp.br,4,academia,São Paulo State University,central-1,,
 unifesp.br,4,academia,Universidade Federal de São Paulo,central,,
 unifesspa.edu.br,4,academia,Federal University of South and Southeast of Pará,central,,
-unipampa.edu.br,4,academia,Universidade Federal do Pampa,central,,
 unirio.br,4,academia,Federal University of the State of Rio de Janeiro,central,,
-univesp.br,4,academia,Virtual University of the State of São Paulo,central-1,,
 usp.br,4,academia,University of São Paulo,central-1,,
 wiki.dcc.ufba.br,4,academia,Software Engineering Laboratory at the Federal University of Bahia,central,,
 www2.camara.leg.br,4,wikidata,Legislative Police Department,,302,none
 www2.fab.mil.br,4,wikidata,Aeronautical Accidents Investigation and Prevention Center,,403,dig error
 www2.tjam.jus.br,4,wikidata,Amazonas State Court of Justice,,HttpConnectTimeoutException: HTTP connect timed out,none
-www2.ufjf.br,4,academia,Federal University of Juiz de Fora,central,,
 www5.tjba.jus.br,4,wikidata,Tribunal de Justiça do Estado da Bahia,central-1,SSLHandshakeException: Remote host terminated the handshake,none
-www5.usp.br,4,academia,University of São Paulo,central-1,,
 academiaamazonensedeletras.com,3,wikidata,Amazon Academy of Letters,,200,none
 academiasergipanadeletras.wordpress.com,3,wikidata,Sergipe Academy of Letters,,200,none
 ambassadehaitibresil.org,3,wikidata,embassy of Haiti in Brazil,central,200,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
@@ -222,14 +222,21 @@ brasilia.mae.lu,3,wikidata,embassy of Luxembourg in Brazil,central,302,none
 brasilien.um.dk,3,wikidata,embassy of Denmark in Brazil,central,301,none
 brazil.mfa.am,3,wikidata,embassy of Armenia in Brazil,central,301,none
 brazil.mid.ru,3,wikidata,"Embassy of Russia, Brasilia",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+catolicasc.org.br,3,ror,Centro Universitário Católica de Santa Catarina,central-1,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Brazil,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 embaguibrasil.blogspot.com,3,wikidata,embassy of Guinea-Bissau in Brazil,central,200,none
 embaixadahondurasbrasil.com,3,wikidata,embassy of Honduras in Brazil,central,ConnectException,none
+en.ufsc.br,3,ror,Universidade Federal de Santa Catarina,central,,
+faculdadepatosdeminas.edu.br,3,ror,Centro Universitário de Minas Gerais - UniMG,central-1,,
 finlandabroad.fi,3,wikidata,Embassy of Finland in Brazil,central,301,10 mail.valtori.fi.
 floripa-airport.com,3,wikidata,Floripa Airport,,200,1 floripaairport-com01i.mail.protection.outlook.com.
 fundect.ledes.net,3,wikidata,"Fundação de Apoio ao Desenvolvimento do Ensino, Ciência e Tecnologia do Estado de Mato Grosso do Sul",,ConnectException,none
+furg.br,3,ror,Universidade Federal do Rio Grande,central,,
+ifba.edu.br,3,ror,Instituto Federal da Bahia,central,,
 inctdt.cebio.org,3,academia,Instituto Nacional de Ciência e Tecnologia de Doenças Tropicais,central,,
+iprj.uerj.br,3,ror,Instituto Politécnico do Rio de Janeiro,central-1,,
 letrasto.com,3,wikidata,Academia de Letras de Teófilo Otoni,,HttpConnectTimeoutException: HTTP connect timed out,0 mx.letrasto.com.
+metodista.br,3,ror,Universidade Metodista de São Paulo,central-1,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Brazil,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Brazil,central,403,10 mailhost.mfa.gr.
 myanmarbsb.org,3,wikidata,embassy of Myanmar in Brazil,central,301,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
@@ -237,9 +244,22 @@ mzv.cz,3,wikidata,embassy of the Czech Republic in Brazil,central,302,10 mzvczem
 mzv.sk,3,wikidata,embassy of Slovakia in Brazil,central,301,10 mail.gov.sk.
 nanocarbono.net,3,academia,National Institute of Science and Technology of Carbon Nanomaterials,central,,
 norway.no,3,wikidata,embassy of Norway in Brazil,central,301,0 mx.domeneshop.no.
+novo.belasartes.br,3,ror,Centro Universitário Belas Artes de São Paulo,central-1,,
 philembassybrasilia.org,3,wikidata,"Embassy of the Philippines, Brasília",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx.a.locaweb.com.br.; 20 mx.jk.locaweb.com.br.; 10 mx.b.locaweb.com.br.; 10 mx.core.locaweb.com.br.
+portal.ciesa.br,3,ror,Centro Universitário de Ensino Superior do Amazonas,central-1,,
+portal.estacio.br,3,ror,Centro Universitário Estácio de Santa Catarina,central-1,,
+portal.pucrs.br,3,ror,Pontifícia Universidade Católica do Rio Grande do Sul,central-1,,
+portal.uel.br,3,ror,Universidade Estadual de Londrina,central-1,,
+portal.uern.br,3,ror,Universidade do Estado do Rio Grande do Norte,central-1,,
+portal.ufcg.edu.br,3,ror,Universidade Federal de Campina Grande,central,,
+portal.ufgd.edu.br,3,ror,Universidade Federal da Grande Dourados,central,,
+portal.ufvjm.edu.br,3,ror,Universidade Federal dos Vales do Jequitinhonha e Mucuri,central,,
+portal.unemat.br,3,ror,Universidade do Estado de Mato Grosso,central-1,,
+portalpadrao.ufma.br,3,ror,Universidade Federal do Maranhão,central,,
 porto-alegre.diplo.de,3,wikidata,"Consulate General of Germany, Porto Alegre",,301,10 mx1.bund.de.; 10 mx2.bund.de.
 prefeitura.rio,3,wikidata,Guarda Municipal do Rio de Janeiro,central-1,200,5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
+puc-rio.br,3,ror,Pontifícia Universidade Católica do Rio de Janeiro,central-1,,
+pucgoias.edu.br,3,ror,Pontifícia Universidade Católica de Goiás,central-1,,
 recife.ambafrance-br.org,3,wikidata,Consulate General of France in Recife,,ConnectException,none
 recife.diplo.de,3,wikidata,"Consulate General of Germany, Recife",,301,10 mx1.bund.de.; 10 mx2.bund.de.
 rio-de-janeiro.diplo.de,3,wikidata,"Consulate General of Germany, Rio de Janeiro",,301,10 mx1.bund.de.; 10 mx2.bund.de.
@@ -247,6 +267,62 @@ riodejaneiro.ambafrance-br.org,3,wikidata,"Consulate General of France, Rio de J
 roc-taiwan.org,3,wikidata,Q100668477,,302,none
 sao-paulo.diplo.de,3,wikidata,"Consulate General of Germany, São Paulo",,301,10 mx1.bund.de.; 10 mx2.bund.de.
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Brasília",central,301,none
+udf.edu.br,3,ror,Centro Universitário do Distrito Federal,central-1,,
+uece.br,3,ror,Universidade Estadual do Ceará,central-1,,
+uem.br,3,ror,Universidade Estadual de Maringá,central-1,,
+uema.br,3,ror,Universidade Estadual do Maranhão,central-1,,
+uemg.br,3,ror,Universidade do Estado de Minas Gerais,central-1,,
+uems.br,3,ror,Universidade Estadual de Mato Grosso do Sul,central-1,,
+uenf.br,3,ror,State University of Norte Fluminense,central-1,,
+uepb.edu.br,3,ror,Universidade Estadual da Paraíba,central-1,,
+uerj.br,3,ror,Universidade do Estado do Rio de Janeiro,central-1,,
+ufac.br,3,ror,Universidade Federal do Acre,central,,
+ufal.br,3,ror,Universidade Federal de Alagoas,central,,
+ufam.edu.br,3,ror,Universidade Federal do Amazonas,central,,
+ufape.edu.br,3,ror,Universidade Federal do Agreste de Pernambuco,central,,
+ufcspa.edu.br,3,ror,Universidade Federal de Ciências da Saúde de Porto Alegre,central,,
+ufdpar.edu.br,3,ror,Universidade Federal do Delta do Parnaíba,central,,
+ufes.br,3,ror,Universidade Federal do Espírito Santo,central,,
+ufj.edu.br,3,ror,Universidade Federal de Jataí,central,,
+ufla.br,3,ror,Universidade Federal de Lavras,central,,
+ufms.br,3,ror,Universidade Federal de Mato Grosso do Sul,central,,
+ufmt.br,3,ror,Universidade Federal de Mato Grosso,central,,
+ufop.br,3,ror,Universidade Federal de Ouro Preto,central,,
+ufopa.edu.br,3,ror,Universidade Federal do Oeste do Pará,central,,
+ufpb.br,3,ror,Universidade Federal da Paraíba,central,,
+ufpr.br,3,ror,Universidade Federal do Paraná,central,,
+ufr.edu.br,3,ror,Universidade Federal de Rondonópolis,central,,
+ufrn.br,3,ror,Universidade Federal do Rio Grande do Norte,central,,
+ufrpe.br,3,ror,Universidade Federal Rural de Pernambuco,central,,
+ufrr.br,3,ror,Universidade Federal de Roraima,central,,
+ufrrj.br,3,ror,Universidade Federal Rural do Rio de Janeiro,central,,
+ufs.br,3,ror,Universidade Federal de Sergipe,central,,
+uftm.edu.br,3,ror,Universidade Federal do Triângulo Mineiro,central,,
+ufu.br,3,ror,Universidade Federal de Uberlândia,central,,
+unasp.br,3,ror,Centro Universitário Adventista de São Paulo,central-1,,
+uncisal.edu.br,3,ror,Universidade Estadual de Ciências da Saúde de Alagoas,central-1,,
+uneal.edu.br,3,ror,Universidade Estadual de Alagoas,central-1,,
+unesc.br,3,ror,Centro Universitário do Espírito Santo,central-1,,
+unespar.edu.br,3,ror,Universidade Estadual do Paraná,central-1,,
+unicamp.br,3,ror,Universidade Estadual de Campinas (UNICAMP),central-1,,
+unicid.edu.br,3,ror,Universidade Cidade de São Paulo,central-1,,
+unifal-mg.edu.br,3,ror,Universidade Federal de Alfenas,central,,
+unifap.br,3,ror,Universidade Federal do Amapá,central,,
+unifei.edu.br,3,ror,Universidade Federal de Itajubá,central,,
+unijui.edu.br,3,ror,Universidade Regional do Noroeste do Estado do Rio Grande do Sul,central-1,,
+unimontes.br,3,ror,Universidade Estadual de Montes Claros,central-1,,
+unioeste.br,3,ror,Universidade Estadual do Oeste do Paraná,central-1,,
+unir.br,3,ror,Universidade Federal de Rondônia,central,,
+unirn.edu.br,3,ror,Centro Universitário do Rio Grande do Norte,central-1,,
+unisal.br,3,ror,Centro Universitário Salesiano de São Paulo,central-1,,
+univasf.edu.br,3,ror,Universidade Federal do Vale do São Francisco,central,,
+unoesc.edu.br,3,ror,Universidade do Oeste de Santa Catarina,central-1,,
+urca.br,3,ror,Universidade Regional do Cariri,central-1,,
+uvanet.br,3,ror,State University of Vale do Acaraú,central-1,,
+vemprafam.com.br,3,ror,Centro Universitário das Américas (FAM) - São Paulo,central-1,,
 web.roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Brazil,,HttpConnectTimeoutException: HTTP connect timed out,none
+www2.unesp.br,3,ror,Universidade Estadual Paulista (Unesp),central-1,,
+www2.unicentro.br,3,ror,Universidade Estadual do Centro-Oeste,central-1,,
+www4.unievangelica.edu.br,3,ror,Universidade Evangelica de Goiás,central-1,,
 mar.mil.br,2,wikidata;wikidata;wikidata,"Secretaria de Ciência, Tecnologia e Inovação da Marinha | Interministerial Commission for Sea Resources | 1st Interceptor and Strike Fighter Squadron (Brazil)",,ConnectException,none
 mofaic.gov.ae,2,wikidata;wikidata;wikidata;wikidata,"Embassy of the United Arab Emirates, Brasilia | Consulate of the United Arab Emirates, Sao Paulo",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.

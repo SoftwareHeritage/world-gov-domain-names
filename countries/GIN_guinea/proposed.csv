@@ -1,6 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 stat-guinee.org,6,wikidata;academia,Institut National de la Statistique,central,200,none
-uganc.edu.gn,4,academia,University of Conakry,central,,
+uganc.edu.gn,6,academia;ror,University of Conakry,central,,
 ambassadealgerieconakry.info,3,wikidata,"Embassy of Algeria, Conakry",central,ConnectException,none
 anss-guinee.org,3,wikidata,Q97097294,,200,10 mx1.mail.ovh.net.; 30 mx3.mail.ovh.net.; 20 mx2.mail.ovh.net.; 40 mx4.mail.ovh.net.; 1 mx0.mail.ovh.net.
 bcrg-guinee.org,3,wikidata,Central Bank of the Republic of Guinea,,301,0 bcrgguinee-org01b.mail.protection.outlook.com.
@@ -16,3 +16,8 @@ insp-guinee.org,3,wikidata,Institut National de Santé Publique,,301,none
 irag-guinee.org,3,wikidata,Institut de Recherche Agronomique de Guinee,,200,none
 misiones.cubaminrex.cu,3,wikidata,embassy of Cuba to Guinea,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 uglcs.org,3,academia,General Lansana Conte University,central,,
+foutapedia.net,2,ror,Centre Universitaire de Labé,central,,
+uglcsonfonia.org,2,ror,Université Général Lansana Conté,central,,
+ujnk.org,2,ror,Julius Nyerere University of Kankan,central,,
+univ-kag.org,2,ror,Université Kofi Annan de Guinée,central,,
+univ-kindia.com,2,ror,Université de Kindia,central,,

@@ -8,8 +8,14 @@ sozialministerium.at,7,wikidata;wikidata,"Federal Ministry of Labour, Social Aff
 umweltbundesamt.at,7,wikidata;wikidata;wikidata,Federal Environment Agency (Austria),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 umweltbundesamt-at.mail.protection.outlook.com.
 vorarlberg.at,7,wikidata;wikidata;wikidata,Amt der Vorarlberger Landesregierung | District Captaincy Bregenz | Landtag of Vorarlberg,central-1,200,10 mail.cnv.at.
 wko.at,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Wirtschaftskammer Niederösterreich | Vorarlberg Economic Chamber | Carinthian Chamber of Commerce | Wirtschaftskammer Wien | Wirtschaftskammer Steiermark | Wirtschaftskammer Tirol | Austrian Federal Economic Chamber | Wirtschaftskammer Oberösterreich,,HttpConnectTimeoutException: HTTP connect timed out,70 mxb-00345b01.gslb.pphosted.com.; 70 mxa-00345b01.gslb.pphosted.com.
+dieangewandte.at,6,academia;ror,University of Applied Arts Vienna,central,,
 euro.centre.org,6,wikidata;wikidata,European Centre for Social Welfare Policy and Research,,308,0 euro-centre-org.mail.protection.outlook.com.
+it-u.at,6,academia;ror,ITU – Interdisciplinary Transformation University Austria,central,,
 jesuiten.org,6,wikidata;wikidata,Jesuit Province of Central Europe,,301,10 jesuiten-org.mail.protection.outlook.com.
+meduniwien.ac.at,6,academia;ror,Medical University of Vienna,central,,
+tuwien.at,6,academia;ror,TU Wien,central,,
+uibk.ac.at,6,academia;ror,University of Innsbruck,central,,
+wu.ac.at,6,academia;ror,Vienna University of Economics and Business,central,,
 aiz.at,4,wikidata,Abwasserverband Achental-Inntal-Zillertal,,200,10 mx.mymailwall.com.
 akbild.ac.at,4,academia,Academy of Fine Arts Vienna,central,,
 algerische-botschaft.at,4,wikidata,"Embassy of Algeria, Vienna",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail.dz-embassy-at.org.
@@ -25,7 +31,6 @@ bundesgaerten.at,4,wikidata,Österreichische Bundesgärten,,301,10 mx.mymailwall
 bupp.at,4,wikidata,Q98446472,,301,10 mail.bupp.at.
 burghauptmannschaft.at,4,wikidata,Burghauptmannschaft,,301,10 smtp1.wirtschaftsministerium.at.; 20 smtp2.wirtschaftsministerium.at.
 chinaembassy.at,4,wikidata,"Embassy of the People's Republic of China, Vienna",central,ConnectException,none
-dieangewandte.at,4,academia,University of Applied Arts Vienna,central,,
 e-control.at,4,wikidata,E-Control,,302,15 mail2.e-control.at.; 10 mail.e-control.at.
 egyptembassyvienna.at,4,wikidata,embassy of Egypt in Austria,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching egyptembassyvienna.at found.,10 mx1.a1.net.
 ehg-online.at,4,wikidata,Q24574312,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.jimdo.com.; 20 mx2.jimdo.com.
@@ -63,7 +68,6 @@ imba.oeaw.ac.at,4,academia,Institute of Molecular Biotechnology,central,,
 innsbruck.mfa.gov.hu,4,wikidata,"Consulate General of Hungary, Innsbruck",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 maila.innsbruck.mfa.gov.hu.; 10 mailb.innsbruck.mfa.gov.hu.
 iqoqi-vienna.at,4,academia,Institute for Quantum Optics and Quantum Information Vienna,central,,
 iqoqi.at,4,academia,Institute for Quantum Optics and Quantum Information,central,,
-it-u.at,4,academia,ITU – Interdisciplinary Transformation University Austria,central,,
 iwf.oeaw.ac.at,4,academia,Institut für Weltraumforschung,central,,
 j1dev.agrarforschung.at,4,wikidata,Q109654118,,301,none
 jordanembassy.at,4,wikidata,embassy of Jordan in Austria,central,307,0 jordanembassy-at.mail.protection.outlook.com.
@@ -74,7 +78,6 @@ kuwaitembassy.at,4,wikidata,embassy of Kuwait in Austria,central,SSLHandshakeExc
 landtag.steiermark.at,4,wikidata,Landtag of Styria,central-1,200,10 mail1.landtag.steiermark.at.; 10 mail2.landtag.steiermark.at.
 lrh-ktn.at,4,wikidata,Q98815341,central-1,307,10 mail2.lrh-ktn.at.; 0 mail.lrh-ktn.at.
 mdw.ac.at,4,academia,University of Music and Performing Arts Vienna,central,,
-meduniwien.ac.at,4,academia,Medical University of Vienna,central,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Vienna",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 myanmarembvienna.at,4,wikidata,"embassy of Myanmar, Vienna",central,200,10 mxpool.de2.hostedoffice.ag.
 noegus.at,4,wikidata,Niederösterreichischer Gesundheits- und Sozialfond,,301,10 mail1.noel.gv.at.; 10 mail2.noel.gv.at.
@@ -94,8 +97,6 @@ senderkataster.rtr.at,4,wikidata,Kommunikationsbehörde Austria,central,200,none
 srilankaembassy.at,4,wikidata,embassy of Sri Lanka in Austria,central,302,10 mx1.bon.at.
 statistik.at,4,wikidata,Statistics Austria,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 thaiembassy.at,4,wikidata,embassy of Thailand in Austria,central,200,10 mail.thaiembassy.at.
-tuwien.at,4,academia,TU Wien,central,,
-uibk.ac.at,4,academia,University of Innsbruck,central,,
 unesco.at,4,wikidata,Austrian Commission for UNESCO,,301,10 clean4.emailsecurity.at.
 verbundlinie.at,4,wikidata,Verkehrsverbund Steiermark,,301,5 mail.verbundlinie.at.
 vmobil.at,4,wikidata,Verkehrsverbund Vorarlberg,,301,0 vmobil-at.mail.protection.outlook.com.
@@ -103,44 +104,106 @@ vor.at,4,wikidata,Verkehrsverbund Ost-Region,,301,0 vor-at.mail.protection.outlo
 vvt.at,4,wikidata,Verkehrsverbund Tirol,,301,5 mail.vvt.at.
 weinobstklosterneuburg.at,4,wikidata,Höhere Bundeslehranstalt und Bundesamt für Wein- und Obstbau,,301,none
 wkv.at,4,wikidata,Vorarlberg Economic Chamber,,302,70 mxb-00345b01.gslb.pphosted.com.; 70 mxa-00345b01.gslb.pphosted.com.
-wu.ac.at,4,academia,Vienna University of Economics and Business,central,,
+aau.at,3,ror,University of Klagenfurt,central,,
 afghanistan-vienna.org,3,wikidata,"Embassy of Afghanistan, Vienna",central,301,none
+agrarumweltpaedagogik.ac.at,3,ror,University College for Agrarian and Environmental Pedagogy,central,,
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Vienna",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
 at.ambafrance.org,3,wikidata,"Embassy of France, Vienna",central,301,none
 at.mfa.hr,3,wikidata,embassy of Croatia in Austria,central,ConnectException,none
 at.mfa.lt,3,wikidata,"Embassy of Lithuania, Vienna",central,403,none
 austria.mid.ru,3,wikidata,"Embassy of Russia, Vienna",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 austria.representation.ec.europa.eu,3,wikidata,European Commission Representation in Austria,,302,none
+bruckneruni.ac.at,3,ror,Anton Bruckner Private University,central,,
+campus02.at,3,ror,CAMPUS 02 University for Applied Sciences,central,,
+danube-private-university.at,3,ror,Danube Private University,central,,
+donau-uni.ac.at,3,ror,Universität für Weiterbildung Krems,central,,
 dunaj.veleposlanistvo.si,3,wikidata,embassy of Slovenia in Austria,central,SSLHandshakeException: Remote host terminated the handshake,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to the International Organisations in Vienna,central-1,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+en.fh-wien.ac.at,3,ror,Fachhochschule für Management & Kommunikation,central,,
+epu.ac.at,3,ror,European Peace University,central,,
+fernfh.ac.at,3,ror,Ferdinand Porsche FERNFH,central,,
 fgoe.org,3,wikidata,Healthy Austria Fund,,200,10 fgoe-org.mail.eo.outlook.com.
+fh-gesundheitsberufe.at,3,ror,University of Applied Sciences for Health Professions Upper Austria,central,,
+fh-joanneum.at,3,ror,FH JOANNEUM University of Applied Sciences,central,,
+fh-kaernten.at,3,ror,FH Kärnten,central,,
+fh-krems.ac.at,3,ror,IMC University of Applied Sciences Krems,central,,
+fh-ooe.at,3,ror,University of Applied Sciences Upper Austria,central,,
+fh-salzburg.ac.at,3,ror,Fachhochschule Salzburg,central,,
+fh-vie.ac.at,3,ror,University of Applied Sciences for Business & Society BFI Vienna,central,,
+fh-wien.ac.at,3,ror,FHWien der WKW,central,,
+fhg-tirol.ac.at,3,ror,Health University of Applied Sciences Tyrol,central,,
+fhv.at,3,ror,Vorarlberg University of Applied Sciences,central,,
+fhwn.ac.at,3,ror,Fachhochschule Wiener Neustadt,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Austria,central,301,10 mail.valtori.fi.
 fw-duenserberg.jimdofree.com,3,wikidata,firefighter Dünserberg,,200,none
+hcw.ac.at,3,ror,Hochschule Campus Wien,central,,
 hesek.net,3,wikidata,Freiwillige Feuerwehr Rabensburg,,ConnectException,10 mail.hesek.net.
+hochschule-burgenland.at,3,ror,University of Applied Sciences Burgenland,central,,
+i-med.ac.at,3,ror,Innsbruck Medical University,central,,
 ictqt.ug.edu.pl,3,academia,International Centre for Theory of Quantum Technologies,central,,
+jku.at,3,ror,Johannes Kepler University of Linz,central,,
+kl.ac.at,3,ror,Karl Landsteiner University of Health Sciences,central,,
 kobersdorf.info,3,wikidata,"Heimatmuseum, ehem. Zollhaus, Kobersdorf",,ConnectException,10 mail.kobersdorf.info.
+kph-es.at,3,ror,Kirchliche Pädagogische Hochschule Edith Stein,central,,
+kphvie.ac.at,3,ror,Kirchliche Pädagogische Hochschule Wien/Niederösterreich,central,,
+ku-linz.at,3,ror,Catholic Theological Private University Linz,central,,
+kug.ac.at,3,ror,University of Music and Performing Arts Graz,central,,
+kunstuni-linz.at,3,ror,University of Arts and Industrial Design Linz,central,,
 lsgi.eu,3,wikidata,Life Science Governance Institute,,403,none
 me-austria.eu,3,wikidata,"Embassy of Montenegro, Vienna",central,ConnectException,none
+medunigraz.at,3,ror,Medical University of Graz,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Austria,central,302,0 mfa-bg.mail.protection.outlook.com.
+militaerwissenschaften.ac.at,3,ror,Fachhochschule für angewandte Militärwissenschaften,central,,
+moz.ac.at,3,ror,Mozarteum University of Salzburg,central,,
 mzv.cz,3,wikidata,embassy of the Czech Republic in Austria,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Austria,central,301,10 mail.gov.sk.
 nds.iaea.org,3,wikidata,International Network of Nuclear Reaction Data Centres,,200,none
+ndu.ac.at,3,ror,New Design University,central,,
 norway.no,3,wikidata,"Embassy of Norway, Vienna",central,301,0 mx.domeneshop.no.
 oesterreich.ahk.de,3,wikidata,Deutsche Handelskammer in Österreich,,302,none
 oestrig.um.dk,3,wikidata,embassy of Denmark in Austria,central,301,none
 osce.delegfrance.org,3,wikidata,Permanent Mission of France to the OSCE,,301,none
+pef.at,3,ror,PEF Private University of Management Vienna,central,,
+ph-burgenland.at,3,ror,Pädagogische Hochschule Burgenland,central,,
+ph-kaernten.ac.at,3,ror,Pädagogische Hochschule Viktor Frankl Hochschule,central,,
+ph-noe.ac.at,3,ror,Pädagogische Hochschule Niederösterreich,central,,
+ph-ooe.at,3,ror,University of Education Upper Austria,central,,
+ph-tirol.ac.at,3,ror,University College of Teacher Education Tyrol,central,,
+ph-vorarlberg.ac.at,3,ror,Pädagogische Hochschule Vorarlberg,central,,
+phdl.at,3,ror,Private Pädagogische Hochschule der Diözese Linz,central,,
+phsalzburg.at,3,ror,Pädagogische Hochschule Salzburg,central,,
+phst.at,3,ror,University of Teacher Education Styria,central,,
+phwien.ac.at,3,ror,Pädagogische Hochschule Wien,central,,
+plus.ac.at,3,ror,University of Salzburg,central,,
+pmu.ac.at,3,ror,Paracelsus Medical University,central,,
+pph-augustinum.at,3,ror,Private Pädagogische Hochschule Augustinum,central,,
+sfu-linz.ac.at,3,ror,Sigmund Freud Privatuniversität - Standort Linz,central,,
+stella-musikhochschule.ac.at,3,ror,Stella Vorarlberg Privathochschule für Musik,central,,
+suttneruni.at,3,ror,Bertha von Suttner Privatuniversität St. Pölten GmbH,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Vienna",central,301,none
+technikum-wien.at,3,ror,University of Applied Sciences Technikum Wien,central,,
+tugraz.at,3,ror,Graz University of Technology,central,,
+umit-tirol.at,3,ror,UMIT TIROL - Private University for Health Sciences and Health Technology,central,,
+uni-seeburg.at,3,ror,Seeburg Castle University,central,,
+uniko.ac.at,3,ror,Universities Austria,central,,
+unileoben.ac.at,3,ror,Montanuniversität Leoben,central,,
+univie.ac.at,3,ror,University of Vienna,central,,
 unoosa.org,3,wikidata,United Nations Office for Outer Space Affairs,,302,10 unoosa-org.mail.protection.outlook.com.
+vetmeduni.ac.at,3,ror,University of Veterinary Medicine Vienna,central,,
 viena.mae.ro,3,wikidata,embassy of Romania in Austria,central,503,none
 vienna.embassy.mn,3,wikidata,embassy of Mongolia in Austria,central,200,none
 vienna.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Austria,central,302,none
 vienna.mfa.ee,3,wikidata,Embassy of Estonia in Vienna,central,200,none
 vienne.mae.lu,3,wikidata,embassy of Luxembourg in Austria,central,302,none
 web.roc-taiwan.org,3,wikidata,"Taipei Economic and Cultural Office, Vienna, Austria",,HttpConnectTimeoutException: HTTP connect timed out,none
+webster.ac.at,3,ror,Webster Vienna Private University,central,,
 wien-io.diplo.de,3,wikidata,Q131406353,,200,10 mx1.bund.de.; 10 mx2.bund.de.
 wien-osze.diplo.de,3,wikidata,Permanent Mission of the Federal Republic of Germany to the OSCE,,200,10 mx1.bund.de.; 10 mx2.bund.de.
 wien.diplo.de,3,wikidata,"Embassy of Germany, Vienna",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 wien.liechtenstein.li,3,wikidata,"Embassy of Liechtenstein, Vienna",central,301,none
+ceu.edu,2,ror,Central European University,central,,
 entwicklung.at,2,wikidata;wikidata;wikidata,Austrian Development Cooperation | Austrian Development Agency,,301,none
 ffg.at,2,wikidata;wikidata;wikidata;wikidata,Austrian Research Promotion Agency | Austrian Space Agency,,308,5 email.ffg.at.
+imadec.eu,2,ror,IMADEC University,central,,
 oeaw.ac.at,2,academia;academia;academia;academia;academia;academia;academia,Aithyra Institute | Austrian Archaeological Institute | Austrian Centre for Digital Humanities | Institute of Habsburg and Balkan Studies | Institute of Technology Assessment | Stefan Meyer Institute for Subatomic Physics | Vienna Institute of Demography,central,,
+muk.ac.at,0,ror,Music and Arts University of the City of Vienna,central,,

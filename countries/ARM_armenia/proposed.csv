@@ -11,12 +11,13 @@ moh.am,7,wikidata;wikidata,Ministry of Health,central,400,10 mail.moh.am.
 moj.am,7,wikidata;wikidata,Ministry of Justice (Armenia),central,400,10 mail.moj.am.
 msy.am,7,wikidata;wikidata,Ministry of Youth and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.msy.am.
 mtad.am,7,wikidata;wikidata,Ministry of Territorial Administration and Infrastructure,central,200,0 mtad.am.
+aspu.am,6,academia;ror,Armenian State Pedagogical University,central,,
 cassationcourt.am,6,wikidata,Court of Cassation of Armenia,,HttpConnectTimeoutException: HTTP connect timed out,none
 concourt.am,6,wikidata,Constitutional Court of Armenia,central,200,10 mail.concourt.am.
+ysu.am,6,academia;ror,Yerevan State University,central,,
 academhistory.am,4,academia,Institute of History of National Academy of Sciences of Armenia,central,,
 anra.am,4,wikidata,Armenian Nuclear Regulatory Authority,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.anra.am.
 armarchives.am,4,wikidata,National Archives of Armenia,,200,none
-aspu.am,4,academia,Armenian State Pedagogical University,central,,
 aviation.am,4,wikidata,Civil Aviation Committee of Armenia,central,400,10 mail.aviation.am.
 cba.am,4,wikidata,Central Bank of Armenia,,301,10 smtp.cba.am.
 datalex.am,4,wikidata,DataLex,,200,0 datalex.am.
@@ -42,19 +43,36 @@ stateproperty.am,4,wikidata,State Property Management Committee,,HttpConnectTime
 tvradio.am,4,wikidata,Commission on TV and Radio of Armenia,,200,10 tvradio.am.
 tvradiocouncil.am,4,wikidata,Public Broadcasting Council,,301,10 mx.zoho.com.; 20 mx2.zoho.com.; 50 mx3.zoho.com.
 yerevan.am,4,wikidata,"Council of the Elders, Yerevan",,301,10 mx1.yerevan.am.
-ysu.am,4,academia,Yerevan State University,central,,
 am.ambafrance.org,3,wikidata,"embassy of France, Yerevan",central,301,none
 am.mfa.lt,3,wikidata,embassy of Lithuania in Armenia,central,403,none
+anau.am,3,ror,Armenian National Agrarian University,central,,
 armenia.mid.ru,3,wikidata,"Embassy of Russia, Yerevan",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 armenia.un.org,3,wikidata,United Nations Office in Armenia,,301,none
+asue.am,3,ror,Armenian State University of Economics,central,,
+aua.am,3,ror,American University of Armenia,central,,
+brusov.am,3,ror,Brusov State University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Armenia,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+eiu.am,3,ror,Eurasia International University,central,,
 erevan.mae.ro,3,wikidata,"Embassy of Romania, Yerevan",central,503,none
 eriwan.diplo.de,3,wikidata,"Embassy of Germany, Yerevan",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+eua.am,3,ror,European University of Armenia,central,,
+gsu.am,3,ror,Gavar State University,central,,
+haybusak.am,3,ror,Yerevan Haybusak University,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Armenia,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,"Embassy of Greece, Yerevan",central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,"Embassy of Czech Republic, Yerevan",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Armenia,central,301,10 mail.gov.sk.
+northern.am,3,ror,Northern University,central,,
+npua.am,3,ror,National Polytechnic University of Armenia,central,,
+nuaca.am,3,ror,National University of Architecture and Construction of Armenia,central,,
+rau.am,3,ror,Russian-Armenian University,central,,
+shirakatsi.am,3,ror,Anania Shirakatsi University of International Relations,central,,
+shsu.am,3,ror,Shirak State University,central,,
+stmu.am,3,ror,St. Theresa's Medical University of Yerevan,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Yerevan",central,301,none
+ufar.am,3,ror,Fondation Université Française en Arménie,central,,
+vsu.am,3,ror,Vanadzor State University,central,,
 aipo.am,2,wikidata;wikidata;wikidata,Intellectual Property Agency of Armenia,,307,10 mx1.beget.com.; 20 mx2.beget.com.
 arbitrage.am,2,wikidata;wikidata;wikidata,Q25486289,,200,none
 cadastre.am,2,wikidata;wikidata;wikidata,Cadastre Committee,,400,10 mail.cadastre.am.; 20 mail1.cadastre.am.
+ysmu.net,2,ror,Yerevan State Medical University,central,,

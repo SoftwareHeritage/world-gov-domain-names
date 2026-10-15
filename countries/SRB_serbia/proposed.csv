@@ -1,6 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 upravacarina.rs,7,wikidata;wikidata,Ministry of Finance and Economy,central,HttpConnectTimeoutException: HTTP connect timed out,10 beg-fw1.upravacarina.rs.
 zzps.rs,7,wikidata;wikidata,Zavod za zaštitu prirode Srbije,,200,10 mailgw.mts.rs.
+bg.ac.rs,6,academia;ror,University of Belgrade,central,,
 isusovci.hr,6,wikidata;wikidata,Croatian province of the Society of Jesus,,301,1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 serbien.ahk.de,6,wikidata;wikidata,German-Serbian Chamber of Commerce,,302,none
 ustavni.sud.rs,6,wikidata,Constitutional Court of Serbia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp.gov.rs.
@@ -10,7 +11,6 @@ angolaembassy.org.rs,4,wikidata,"Embassy of Angola, Belgrade",central,403,none
 apv-nauka.ns.ac.rs,4,wikidata,Pokrajinski Sekretarijat za Nauku i Tehnološki Razvoj,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching apv-nauka.ns.ac.rs found.,none
 arhivsrbije.rs,4,wikidata,Archive of Serbia,,200,10 smtp.gov.rs.
 belgrad.mfa.gov.hu,4,wikidata,"Embassy of Hungary in Belgrade, Serbia",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-bg.ac.rs,4,academia,University of Belgrade,central,,
 cpn.rs,4,wikidata,Centar za Promociju Nauke,,301,1 SMTP.GOOGLE.COM.
 csrns.org.rs,4,wikidata,Center for Social Work Novi Sad,,301,10 mailgw.mts.rs.
 dmdm.rs,4,wikidata,Directorate of Measures and Precious Metals of the Republic of Serbia,,ConnectException,10 mail.dmdm.rs.; 10 mail-dmdm.dmdm.rs.
@@ -37,22 +37,41 @@ vip.org.rs,4,wikidata,Vojvodina Investment Promotion,,301,none
 vk.sud.rs,4,wikidata,Supreme Court of Republic of Serbia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp.gov.rs.
 vs.rs,4,wikidata,Intelligence and Reconnaissance Directorate,,200,10 mail.vs.rs.
 zjz.org.rs,4,wikidata,Institute of Public Health of Sabac,,301,0 zjz.org.rs.
+arts.bg.ac.rs,3,ror,University of Arts in Belgrade,central,,
 belgrad.diplo.de,3,wikidata,"Embassy of Germany, Belgrade",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 belgrad.mae.ro,3,wikidata,"Embassy of Romania, Belgrade",central,503,none
 belgrade.embassy.qa,3,wikidata,embassy of Qatar in Serbia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 belgrade.embassy.si,3,wikidata,embassy of Slovenia in Serbia,central,SSLHandshakeException: Remote host terminated the handshake,none
+beopolis.edu.rs,3,ror,Beopolis University,central,,
 bezbednost.org,3,wikidata,Belgrade Centre for Security Policy,,200,10 bezbednost-org.mail.protection.outlook.com.
+dunp.np.ac.rs,3,ror,State University of Novi Pazar,central,,
+educons.edu.rs,3,ror,Educons University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Serbia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+en.kg.ac.rs,3,ror,University of Kragujevac,central,,
+eng.singidunum.ac.rs,3,ror,Singidunum University,central,,
+eu.ac.rs,3,ror,European University,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Serbia,central,301,10 mail.valtori.fi.
+ifdt.bg.ac.rs,3,ror,Institute for Philosophy and Social Theory,central,,
 instytutpolski.pl,3,wikidata,Polish Institute in Belgrade,,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
+kpu.edu.rs,3,ror,Kriminalističko-policijski univerzitet,central,,
+megatrend.edu.rs,3,ror,Megatrend University,central,,
 mfa.bg,3,wikidata,"embassy of Bulgaria, Belgrade",central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Serbia,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech republic in Serbia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Serbia,central,301,10 mail.gov.sk.
+ni.ac.rs,3,ror,University of Nis,central,,
 norway.no,3,wikidata,"Embassy of Norway, Belgrade",central,301,0 mx.domeneshop.no.
+politehnika.edu.rs,3,ror,Akademija strukovnih studija Politehnika,central,,
+privrednaakademija.edu.rs,3,ror,Univerzitet Privredna akademija u Novom Sadu,central,,
 rs.ambafrance.org,3,wikidata,"embassy of France, Belgrade",central,301,none
 rs.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Belgrade",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rs.chineseembassy.org found.,none
 rs.mvep.hr,3,wikidata,embassy of Croatia in Serbia,central,ConnectException,none
 serbia.mid.ru,3,wikidata,"Embassy of Russia, Belgrade",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 serbien.um.dk,3,wikidata,embassy of Denmark in Serbia,central,301,none
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Belgrade",central,301,none
+uninp.edu.rs,3,ror,Univerzitet u Novom Pazaru,central,,
+union.edu.rs,3,ror,Union University,central,,
+unt.edu.rs,3,ror,Univerzitet Union Nikola Tesla,central,,
+gulfuniversity.edu.bh,2,ror,Gulf University,central,,
+vojvodinaictcluster.org,2,ror,Novi Sad Open University,central,,
+metropolitan.edu.rs,0,ror,Metropolitan University,central,,

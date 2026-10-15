@@ -30,13 +30,16 @@
 
 ## Proposed domains ranked by score
 
-29 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+44 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `iph.mk` |  | 200 | wikidata;wikidata | Institute of Public Health of North Macedonia |
 | 7 | `sobranie.mk` | central | 301 | wikidata;wikidata | Assembly of North Macedonia |
+| 6 | `nubsk.edu.mk` | central | 200 | wikidata;ror | National and University Library "St. Kliment of Ohrid" |
+| 6 | `ukim.edu.mk` | central |  | academia;ror | Ss. Cyril and Methodius University of Skopje |
+| 6 | `uklo.edu.mk` | central |  | academia;ror | St. Clement of Ohrid University of Bitola |
 | 6 | `ustavensud.mk` |  | 200 | wikidata | Constitutional Court of North Macedonia |
 | 6 | `vlada.mk` |  | 200 | un_desa | UN/DESA national portal |
 | 6 | `vsrm.mk` | central | HttpConne... | wikidata | Supreme Court of North Macedonia |
@@ -46,13 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ff.ugd.edu.mk` | central |  | academia | Q12911322 |
 | 4 | `ia.mk` |  | HttpConne... | wikidata | Intelligence Agency of North Macedonia |
 | 4 | `nbrm.mk` |  | 403 | wikidata | National Bank of North Macedonia |
-| 4 | `nubsk.edu.mk` |  | 200 | wikidata | National and University Library "St. Kliment of Ohrid" |
 | 4 | `oskratovo.mk` |  | SSLHandsh... | wikidata | Courthouses in Kratovo |
 | 4 | `osnegotino.mk` |  | SSLHandsh... | wikidata | Courthouses in Negotino |
-| 4 | `ukim.edu.mk` | central |  | academia | Ss. Cyril and Methodius University of Skopje |
-| 4 | `uklo.edu.mk` | central |  | academia | St. Clement of Ohrid University of Bitola |
 | 3 | `ambasadat.net` | central | 200 | wikidata | Embassy of Kosovo, Skopje |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to North Macedonia |
-| 3 | `macedonia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in North Macedonia |
-| 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in North Macedonia |
+| 3 | `eu.edu.mk` | central |  | ror | European University |
+| 3 | `euba.edu.mk` | central |  | ror | Euro Balkan University |
 

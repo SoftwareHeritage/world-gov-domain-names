@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -48,7 +48,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `palemb.mr` | central | HttpTimeo... | wikidata | Embassy of the State of Palestine, Nouakchott |
 | 3 | `ccfr.rimpresse.com` | central | ConnectEx... | wikidata | Q19885895 |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Mauritania |
+| 3 | `ens.mr` | central |  | ror | École Normale Supérieure de Nouakchott |
 | 3 | `mauritanie.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Mauritania |
 | 3 | `mr.ambafrance.org` | central | 301 | wikidata | Embassy of France, Nouakchott |
 | 3 | `nouakchott.diplo.de` | central | 200 | wikidata | Embassy of Germany, Nouakchott |
+| 3 | `univ-nkc.mr` | central |  | ror | Université de Nouakchott |
+| 3 | `ustm.mr` | central |  | ror | Université des Sciences, de Technologie et de Médecine |
 

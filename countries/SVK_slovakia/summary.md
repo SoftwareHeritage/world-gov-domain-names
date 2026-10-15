@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-80 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+93 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -49,10 +49,10 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `skgeodesy.sk` |  | HttpConne... | wikidata;wikidata | Geodesy, Cartography and Cadastre Authority of the Slovak Republic |
 | 7 | `slovak.statistics.sk` | central | 200 | wikidata;academia | Statistical Office of the Slovak Republic |
 | 7 | `snk.sk` |  | 200 | wikidata;wikidata | Slovak National Library |
+| 6 | `euba.sk` | central |  | academia;ror | University of Economics in Bratislava |
 | 6 | `nsud.sk` |  | 301 | wikidata | Supreme court of the Slovak Republic |
 | 6 | `slowakei.ahk.de` |  | 302 | wikidata;wikidata | German-Slovak Chamber of Industry and Commerce |
-| 4 | `apvv.sk` |  | 302 | wikidata | Slovak Research and Development Agency |
-| 4 | `caa.sk` | central | ConnectEx... | wikidata | Civil Aviation Authority of the Slovak Republic |
-| 4 | `dposr.sk` |  | 200 | wikidata | Voluntary Fire Protection of the Slovak Republic |
-| 4 | `egypt-embassy.sk` | central | 301 | wikidata | Embassy of Egypt, Bratislava |
+| 6 | `stuba.sk` | central |  | academia;ror | Slovak University of Technology in Bratislava |
+| 6 | `truni.sk` | central |  | academia;ror | Trnava University in Trnava |
+| 6 | `tuke.sk` | central |  | academia;ror | Technical University of Košice |
 

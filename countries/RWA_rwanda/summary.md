@@ -30,11 +30,13 @@
 
 ## Proposed domains ranked by score
 
-25 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+39 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 6 | `rp.ac.rw` | central | 301 | wikidata;ror | RP  Rwanda Polytechnic |
+| 6 | `ur.ac.rw` | central |  | academia;ror | University of Rwanda |
 | 4 | `agaciro.rw` |  | 200 | wikidata | AgDF  Agaciro Corporate Trust Ltd |
 | 4 | `bnr.rw` |  | 200 | wikidata | National Bank of Rwanda |
 | 4 | `cma.rw` |  | 301 | wikidata | Rwanda Capital Market Authority CMA |
@@ -45,14 +47,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `raeb.prod.risa.rw` |  | HttpConne... | wikidata | Rwanda Atomic Energy Board |
 | 4 | `rdb.rw` |  | 200 | wikidata | Rwanda Development Board |
 | 4 | `rfa.rw` |  | 301 | wikidata | Q136509270 |
-| 4 | `rp.ac.rw` |  | 301 | wikidata | RP  Rwanda Polytechnic |
 | 4 | `rpa.ac.rw` |  | 301 | wikidata | Rwanda Peace Academy |
 | 4 | `rssb.rw` |  | 200 | wikidata | Rwanda Social Security Board |
 | 4 | `rura.rw` |  | 301 | wikidata | Rwanda Utilities Regulatory Authority |
 | 4 | `rwb.rw` |  | 301 | wikidata | Rwanda Water Resources Board |
 | 4 | `unesco.rw` |  | HttpConne... | wikidata | Rwanda National Commission for UNESCO |
-| 4 | `ur.ac.rw` | central |  | academia | University of Rwanda |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Rwanda |
-| 3 | `greatervirunga.org` |  | 200 | wikidata | Q132472718 |
-| 3 | `kenyahighcomkigali.org` | central | 200 | wikidata | High Commission of Kenya, Kigali |
+| 3 | `ahsu.ac.rw` | central |  | ror | Africa Health Sciences University |
+| 3 | `auca.ac.rw` | central |  | ror | Adventist University of Central Africa |
+| 3 | `cst.ur.ac.rw` | central |  | ror | College of Science and Technology - University of Rwanda |
 

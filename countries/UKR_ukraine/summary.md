@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-321 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+491 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,16 +43,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ubi.org.ua` |  | 302 | wikidata;wikidata | Ukrainian Book Institute |
 | 7 | `ucf.in.ua` | central | 200 | wikidata;wikidata | Ukrainian Cultural Foundation |
 | 6 | `chernivtsy.eu` |  | SSLHandsh... | wikidata;wikidata | Q16723280 | Chernivetska miska rada |
+| 6 | `chnu.edu.ua` | central |  | academia;ror | Chernivtsi University |
+| 6 | `donntu.edu.ua` | central |  | academia;ror | Donetsk National Technical University |
 | 6 | `eeas.europa.eu` |  | 200 | wikidata;wikidata | Delegation of the European Union to Ukraine |
 | 6 | `facebook.com` |  | ConnectEx... | wikidata;wikidata | Probation in Ukraine | Q20092493 |
+| 6 | `hneu.edu.ua` | central |  | academia;ror | Kharkiv National University of Economics |
+| 6 | `kdpu.edu.ua` | central |  | academia;ror | Kryvyi Rih State Pedagogical University |
+| 6 | `knlu.edu.ua` | central |  | academia;ror | Kyiv National Linguistic University |
+| 6 | `knu.ua` | central |  | academia;ror | Taras Shevchenko National University of Kyiv |
+| 6 | `lnu.edu.ua` | central |  | academia;ror | Lviv University |
 | 6 | `nederlandwereldwijd.nl` | central | 301 | wikidata;wikidata | Embassy of the Netherlands, Kyiv |
+| 6 | `op.edu.ua` | central |  | academia;ror | Odesa Polytechnic National University |
 | 6 | `pijarzy.pl` |  | 200 | wikidata;wikidata | Piarist province of Poland |
-| 6 | `ukrpatent.org` |  | 302 | wikidata;wikidata | Ukrainian Institute of Industrial Property |
-| 5 | `ww2.gov.if.ua` |  | 403 | wikidata | Q12083768 |
-| 4 | `afghanembassy.com.ua` | central | 301 | wikidata | Embassy of Afghanistan, Kyiv |
-| 4 | `agroscience-publishing.org.ua` |  | 301 | wikidata | Agrarian Science State Publishing House of the National Academy of Agrarian S... |
-| 4 | `algerianembassy.kiev.ua` | central | ConnectEx... | wikidata | Embassy of Algeria, Kyiv |
-| 4 | `bcdst.kiev.ua` | central-1 | 200 | wikidata | State Enterprise "KYIV REGIONAL RESEARCH AND PRODUCTION CENTER FOR STANDARDIZ... |
-| 4 | `beregszasz.mfa.gov.hu` |  | SSLHandsh... | wikidata | Consulate of Hungary, Berehove |
-| 4 | `berezivska.rada.org.ua` |  | 403 | wikidata | Q17095150 |
 

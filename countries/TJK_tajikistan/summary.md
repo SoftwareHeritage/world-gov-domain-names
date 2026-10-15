@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+33 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -48,9 +48,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `majmilli.tj` | central | 200 | wikidata | National Assembly of Tajikistan |
 | 4 | `mitas.tj` |  | SSLHandsh... | wikidata | Institute of Mathematics National Academy of Science of Tajikistan |
 | 4 | `nbt.tj` |  | 302 | wikidata | National Bank of Tajikistan |
+| 3 | `dotr.tj` | central |  | ror | Tajik Pedagogical Institute in the Rasht District |
 | 3 | `duschanbe.diplo.de` | central | 200 | wikidata | embassy of Germany, Dushanbe |
 | 3 | `dushanbe.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Tajikistan |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Tajikistan |
-| 3 | `tj.ambafrance.org` | central | 301 | wikidata | Embassy of France, Dushanbe |
-| 2 | `parlament.tj` | central | HttpConne... | wikidata;wikidata;wikidata | Assembly of Representatives | Supreme Assembly |
+| 3 | `feit.tj` | central |  | ror | Finance and Economics Institute of Tajikistan |
+| 3 | `hgu.tj` | central |  | ror | Khujand State University |
+| 3 | `kgu.tj` | central |  | ror | Kulyab State University named after Abuabdullo Rudaki |
 

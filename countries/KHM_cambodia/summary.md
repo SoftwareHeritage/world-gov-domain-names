@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+53 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,11 +41,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nbc.org.kh` | central | HttpConne... | wikidata | National Bank of Cambodia |
 | 4 | `necelect.org.kh` |  | ConnectEx... | wikidata | National Election Committee of Cambodia |
 | 4 | `niph.org.kh` | central |  | academia | National Institute of Public Health |
+| 3 | `aeu.edu.kh` | central |  | ror | Asia Euro University |
+| 3 | `angkor.edu.kh` | central |  | ror | Angkor University |
+| 3 | `aub.edu.kh` | central |  | ror | ACLEDA University of Business |
+| 3 | `aupp.edu.kh` | central |  | ror | American University of Phnom Penh |
+| 3 | `bbu.edu.kh` | central |  | ror | Build Bright University |
+| 3 | `beltei.edu.kh` | central |  | ror | Beltei International University |
+| 3 | `csuk.edu.kh` | central |  | ror | Chea Sim University of Kamchaymear |
+| 3 | `cus.edu.kh` | central |  | ror | Cambodian University for Specialties |
+| 3 | `diu.edu.kh` | central |  | ror | Dewey International University |
+| 3 | `dmuc.edu.kh` | central |  | ror | De Montfort University Cambodia |
+| 3 | `eamu.edu.kh` | central |  | ror | East Asia Management University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Cambodia |
 | 3 | `embrusscambodia.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia, Phnom Penh |
-| 3 | `kh.ambafrance.org` | central | 301 | wikidata | Embassy of France, Phnom Penh |
-| 3 | `kh.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Phnom Penh |
-| 3 | `nchads.org` |  | 302 | wikidata | National Centre for HIV/AIDS Dermatology and STDs, Cambodia |
-| 3 | `phnom-penh.diplo.de` | central | 200 | wikidata | Embassy of Germany, Phnom Penh |
-| 3 | `thaiembassy.org` | central | 200 | wikidata | Embassy of Thailand in Phnom Penh |
+| 3 | `iic.edu.kh` | central |  | ror | IIC University of Technology |
 

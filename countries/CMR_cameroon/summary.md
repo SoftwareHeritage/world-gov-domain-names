@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-36 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+71 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -50,9 +50,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `coursupreme.cm` | central | 200 | wikidata | Supreme Court of Cameroon |
 | 6 | `minmidt.net` | central | 200 | wikidata;wikidata | Ministry of Mines, Industry and Technological Development |
 | 6 | `piaristesafriquecentrale.org` |  | ConnectEx... | wikidata;wikidata | Piarist province of Central Africa |
+| 6 | `univ-garoua.cm` | central |  | academia;ror | University of Garoua |
+| 6 | `univ-maroua.cm` | central |  | academia;ror | Université de Maroua |
+| 6 | `uy1.uninet.cm` | central |  | academia;ror | Université de Yaoundé I |
 | 4 | `antic.cm` |  | SSLHandsh... | wikidata | Agence Nationale des Technologies de l'Information et de la Communication |
 | 4 | `apn.cm` |  | 301 | wikidata | Q137164175 |
-| 4 | `archivesnationales.cm` |  | 200 | wikidata | National Archives of Cameroon |
-| 4 | `assnat.cm` | central | ConnectEx... | wikidata | National Assembly of Cameroon |
-| 4 | `ccousp.cm` |  | 302 | wikidata | Q109056172 |
 

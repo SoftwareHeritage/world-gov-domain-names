@@ -13,13 +13,24 @@ piaristi.sk,7,wikidata;wikidata,Piarist province of Slovakia,,301,100 mailin2.pi
 skgeodesy.sk,7,wikidata;wikidata,"Geodesy, Cartography and Cadastre Authority of the Slovak Republic",,HttpConnectTimeoutException: HTTP connect timed out,10 skgeodesy-sk.mail.protection.outlook.com.
 slovak.statistics.sk,7,wikidata;academia,Statistical Office of the Slovak Republic,central,200,none
 snk.sk,7,wikidata;wikidata,Slovak National Library,,200,10 mail.gov.sk.
+euba.sk,6,academia;ror,University of Economics in Bratislava,central,,
 nsud.sk,6,wikidata,Supreme court of the Slovak Republic,,301,10 smtp1.nsud.sk.; 20 smtp2.nsud.sk.
 slowakei.ahk.de,6,wikidata;wikidata,German-Slovak Chamber of Industry and Commerce,,302,none
+stuba.sk,6,academia;ror,Slovak University of Technology in Bratislava,central,,
+truni.sk,6,academia;ror,Trnava University in Trnava,central,,
+tuke.sk,6,academia;ror,Technical University of Košice,central,,
+ujs.sk,6,academia;ror,Selye János University,central,,
+ukf.sk,6,academia;ror,University of Constantine the Philosopher,central,,
+umb.sk,6,academia;ror,Matej Bel University,central,,
+uniag.sk,6,academia;ror,Slovak University of Agriculture,central,,
+uniba.sk,6,academia;ror,Comenius University,central,,
+unipo.sk,6,academia;ror,University of Prešov,central,,
+uniza.sk,6,academia;ror,University of Žilina,central,,
+upjs.sk,6,academia;ror,Pavol Jozef Šafárik University in Košice,central,,
 apvv.sk,4,wikidata,Slovak Research and Development Agency,,302,10 apvv-sk.mail.protection.outlook.com.
 caa.sk,4,wikidata,Civil Aviation Authority of the Slovak Republic,central,ConnectException,10 ip-mx.caa.sk.
 dposr.sk,4,wikidata,Voluntary Fire Protection of the Slovak Republic,,200,0 dposr-sk.mail.protection.outlook.com.
 egypt-embassy.sk,4,wikidata,"Embassy of Egypt, Bratislava",central,301,20 relay2.dnsserver.eu.; 10 relay.exohosting.sk.; 15 relay3.dnsserver.eu.; 10 relay1.exohosting.sk.
-euba.sk,4,academia,University of Economics in Bratislava,central,,
 financnasprava.sk,4,wikidata,The Financial Administration of the Slovak Republic,,302,10 mail3.financnasprava.sk.; 10 mail1.financnasprava.sk.; 10 mail4.financnasprava.sk.; 10 mail2.financnasprava.sk.
 idsplus.sk,4,wikidata,Q137864372,,200,10 mx10.websupport.sk.; 100 mx20.websupport.sk.
 idsvychod.sk,4,wikidata,Q140907211,,200,100 mailin1.idsvychod.sk.; 10 mailin2.idsvychod.sk.
@@ -40,23 +51,12 @@ slm.sk,4,wikidata,Slovenská Legálna Metrológia,,301,5 mail.slm.sk.; 10 ns.slm
 sopsr.sk,4,wikidata,State Nature Conservancy of the Slovak Republic,,302,0 sopsr-sk.mail.protection.outlook.com.
 ssc.sk,4,wikidata,Q18104533,,301,5 mail.ssc.sk.
 statpedu.sk,4,wikidata,National Institute for Education,,HttpConnectTimeoutException: HTTP connect timed out,0 statpedu-sk.mail.protection.outlook.com.
-stuba.sk,4,academia,Slovak University of Technology in Bratislava,central,,
 sukl.sk,4,wikidata,State Institute for Drug Control,,301,10 mail.gov.sk.
 trencin.sk,4,wikidata,Q141104940,,HttpConnectTimeoutException: HTTP connect timed out,0 trencin-sk.mail.protection.outlook.com.
 trigon-consulting.sk,4,wikidata,TRIGON Consulting,,HttpConnectTimeoutException: HTTP connect timed out,0 trigonconsulting-sk01e.mail.protection.outlook.com.
-truni.sk,4,academia,Trnava University in Trnava,central,,
-tuke.sk,4,academia,Technical University of Košice,central,,
 udzs-sk.sk,4,wikidata,Q18534597,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.udzs-sk.sk.
-ujs.sk,4,academia,Selye János University,central,,
-ukf.sk,4,academia,University of Constantine the Philosopher,central,,
-umb.sk,4,academia,Matej Bel University,central,,
 unesco.sk,4,wikidata,Slovak Commission for UNESCO,,301,none
-uniag.sk,4,academia,Slovak University of Agriculture,central,,
-uniba.sk,4,academia,Comenius University,central,,
-unipo.sk,4,academia,University of Prešov,central,,
-uniza.sk,4,academia,University of Žilina,central,,
 unms.sk,4,wikidata,"Slovak Office of Standards, Metrology and Testing",,HttpConnectTimeoutException: HTTP connect timed out,1 156-smtp-in.unms.sk.
-upjs.sk,4,academia,Pavol Jozef Šafárik University in Košice,central,,
 ustavnysud.sk,4,wikidata,Constitutional Court of Slovakia,central,HttpConnectTimeoutException: HTTP connect timed out,10 imsva.concourt.sk.
 vega.sav.sk,4,wikidata,Scientific Grant Agency of the Ministry of Education of the Slovak Republic,,HttpConnectTimeoutException: HTTP connect timed out,none
 vup.sk,4,wikidata,Slovak Food Research Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -65,17 +65,30 @@ zvjs.sk,4,wikidata,Prison and Court Guard Service,,ConnectException,10 smtp1.zvj
 bratislava.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Slovakia,central,302,none
 bratislava.mae.ro,3,wikidata,"Embassy of Romania, Bratislava",central,503,none
 bratislava.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Bratislava",central,SSLHandshakeException: Remote host terminated the handshake,none
+dti.sk,3,ror,DTI University,central,,
+eszu.sk,3,ror,Slovak Medical University,central,,
 euro.who.int,3,wikidata,World Health Organization,,HttpConnectTimeoutException: HTTP connect timed out,none
+ku.sk,3,ror,Catholic University in Ruzomberok,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Slovakia,central,302,0 mfa-bg.mail.protection.outlook.com.
 mzv.cz,3,wikidata,"Czech Embassy, Bratislava",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 nederlandwereldwijd.nl,3,wikidata,"Dutch Embassy, Bratislava",central,301,0 .
 norway.no,3,wikidata,Embassy of Norway in Slovakia,central,301,0 mx.domeneshop.no.
 pressburg.diplo.de,3,wikidata,"Embassy of Germany, Bratislava",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 roc-taiwan.org,3,wikidata,"Taipei Representative Office, Bratislava",,302,none
+sevs.sk,3,ror,University of Central Europe in Skalica,central,,
 sk.ambafrance.org,3,wikidata,"Embassy of France, Bratislava",central,301,none
 sk.mvep.hr,3,wikidata,embassy of Croatia in Slovakia,central,ConnectException,none
 slovakia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Slovakia,,302,none
+tnuni.sk,3,ror,Trencianska Univerzita Alexandra Dubceka V Trencine,central,,
+tuzvo.sk,3,ror,Technická univerzita vo Zvolene,central,,
+ucm.sk,3,ror,University of Ss. Cyril and Methodius in Trnava,central,,
+uvlf.sk,3,ror,University of Veterinary Medicine in Košice,central,,
+vsbm.sk,3,ror,University of Security Management in Košice,central,,
+vsdanubius.sk,3,ror,Danubius University,central,,
+vsemba.sk,3,ror,Bratislava University of Economics and Management,central,,
+vsm.sk,3,ror,"Vysoká škola manažmentu, City University of Seattle",central,,
 idsbk.sk,2,wikidata;wikidata;wikidata,Integrated Transport System in the Bratislava Region,,301,0 idsbk-sk.mail.protection.outlook.com.
 mfsr.sk,2,wikidata;wikidata;wikidata;wikidata,Ministry of Finance of the Slovak Republic,central,405,100 email2.mfsr.sk.; 10 email1.mfsr.sk.
 mindop.sk,2,wikidata;wikidata;wikidata;wikidata,Ministry of Transport and Construction of the Slovak Republic,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mindop.sk found.,10 mail.gov.sk.
 mpsr.sk,2,wikidata;wikidata;wikidata;wikidata,Ministry of Agriculture and Rural Development of the Slovak Republic,central,301,10 mail.mpsr.sk.
+paneurouni.com,2,ror,Pan-European University,central,,

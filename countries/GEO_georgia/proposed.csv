@@ -3,7 +3,10 @@ parliament.ge,8,wikidata;wikidata,Parliament of Georgia,central,200,10 mail01.pa
 geostat.ge,7,wikidata;academia,National Statistics Office of Georgia,central,302,10 mail.geostat.ge.
 police.ge,7,wikidata;wikidata,Ministry of Internal Affairs | Special Tasks Department,central,200,10 mail.police.ge.
 sca.ge,7,wikidata;wikidata,Supreme Council of the Autonomous Republic of Adjara,central-1,200,10 mail.sca.ge.; 0 mail.sca.ge.
+ngu.edu.ge,6,academia;ror,New Georgian University,central,,
 supremecourt.ge,6,wikidata,Supreme Court of Georgia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching supremecourt.ge found.,1 mx.grena.ge.
+tafu.edu.ge,6,academia;ror,Shota Rustaveli Theatre and Film University,central,,
+tsu.ge,6,academia;ror,Tbilisi State University,central,,
 aidscenter.ge,4,wikidata,AIDS and Clinical Immunology Research Center,,200,10 aspmx.l.google.com.
 art.edu.ge,4,academia,Tbilisi State Academy of Arts,central,,
 cesko.ge,4,wikidata,Election Administration of Georgia,,403,none
@@ -14,29 +17,69 @@ heraldika.ge,4,wikidata,State Council of Heraldry,,200,10 mail.heraldika.gov.ge.
 heritagesites.ge,4,wikidata,National Agency for Cultural Heritage Preservation of Georgia,,302,1 smtp.google.com.
 nbgg.ge,4,academia,National Botanical Garden of Georgia,central,,
 ncdc.ge,4,wikidata,National Center for Disease Control and Public Health,,200,10 mx1.moh.gov.ge.
-ngu.edu.ge,4,academia,New Georgian University,central,,
 rustaveli.org.ge,4,wikidata,Shota Rustaveli National Science Foundation,,200,0 rustaveli-org-ge.mail.protection.outlook.com.
 sciencelib.ge,4,wikidata,National Science Library,,200,10 ghs.l.google.com.; 10 ghs.google.com.; 1 aspmx.l.google.com.
-tafu.edu.ge,4,academia,Shota Rustaveli Theatre and Film University,central,,
 tbiliszi.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tbilisi",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-tsu.ge,4,academia,Tbilisi State University,central,,
 unesco.ge,4,wikidata,Georgian National Commission for UNESCO,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching unesco.ge found.,0 unesco.ge.
+abmu.edu.ge,3,ror,Avicenna - Batumi Medical University,central,,
+agruni.edu.ge,3,ror,Agricultural University of Georgia,central,,
+alte.edu.ge,3,ror,Alte University,central,,
+alterbridge.edu.ge,3,ror,Alterbridge University,central,,
+atsu.edu.ge,3,ror,Akaki Tsereteli State University,central,,
+bauinternational.edu.ge,3,ror,"BAU International University, Batumi",central,,
+britishuni.edu.ge,3,ror,British University,central,,
+bsu.edu.ge,3,ror,Batumi Shota Rustaveli State University,central,,
+btu.edu.ge,3,ror,Business and Technology University,central,,
+ciu.edu.ge,3,ror,Caucasus International University,central,,
+cu.edu.ge,3,ror,Caucasus University,central,,
+cue.edu.ge,3,ror,Central University of Europe,central,,
+dtmu.ge,3,ror,David Tvildiani Medical University,central,,
+eastwest.edu.ge,3,ror,East-West University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Georgia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+eng.ssmsu.edu.ge,3,ror,Georgian State University of Subtropical Agriculture,central,,
+eu.edu.ge,3,ror,European University,central,,
+freeuni.edu.ge,3,ror,Free University of Tbilisi,central,,
+gau.edu.ge,3,ror,Georgian American University,central,,
 ge.ambafrance.org,3,wikidata,"Embassy of France, Tbilisi",central,301,none
 ge.mfa.lt,3,wikidata,embassy of Lithuania in Georgia,central,403,none
+geomedi.edu.ge,3,ror,University Geomedi,central,,
+giu.edu.ge,3,ror,Georgian International University,central,,
 gosarchive.apsny.land,3,wikidata,Abkhaz State Archive,,200,20 mail.gosarchive.apsny.land.; 10 mail.gosarchive.apsny.land.
+gruni.edu.ge,3,ror,Grigol Robakidze University,central,,
+gtu.ge,3,ror,Georgian Technical University,central,,
+gu.edu.ge,3,ror,Gori State University,central,,
+ibeku-tbilisi.edu.ge,3,ror,IB Euro-Caucasus University,central,,
+ibsu.edu.ge,3,ror,International Black Sea University,central,,
+iliauni.edu.ge,3,ror,Ilia State University,central,,
+kiu.edu.ge,3,ror,Kutaisi International University,central,,
+kwiu.edu.ge,3,ror,Ken Walker International University,central,,
+metekhiuni.edu.ge,3,ror,Tbilisi University Metekhi,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Georgia,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Georgia,central,403,10 mailhost.mfa.gr.
 mrdg.health.mil,3,wikidata,United States Army Medical Research Directorate - Georgia,,403,none
 mzv.cz,3,wikidata,embassy of the Czech republic in Georgia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Georgia,central,301,10 mail.gov.sk.
 nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Tbilisi",central,301,0 .
+newvision.ge,3,ror,New Vision University,central,,
 norway.no,3,wikidata,Embassy of Norway in Georgia,central,301,0 mx.domeneshop.no.
+rvali.edu.ge,3,ror,Ekvtime Takaishvili Teaching University,central,,
+sabauni.edu.ge,3,ror,Sulkhan-Saba Orbeliani University,central,,
+sangu.edu.ge,3,ror,Saint Andrew First-Called Georgian University of the Patriarchate of Georgia,central,,
+sdasu.edu.ge,3,ror,David Agmashenebeli University of Georgia,central,,
+seu.edu.ge,3,ror,Georgian National University SEU,central,,
+sjuni.edu.ge,3,ror,Samtskhe-Javakheti State University,central,,
+sou.edu.ge,3,ror,Sokhumi State University,central,,
+ssu.edu.ge,3,ror,Georgian Aviation University,central,,
+sukhishvili.edu.ge,3,ror,Sukhishvili Teaching University,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Tbilisi",central,301,none
 tbilisi.mae.ro,3,wikidata,embassy of Romania in Georgia,central,503,none
 tbilisi.mfa.ee,3,wikidata,embassy of Estonia in Tbilisi,central,200,none
+thu.edu.ge,3,ror,Tbilisi Humanitarian University,central,,
 tiflis.diplo.de,3,wikidata,"Embassy of Germany, Tbilisi",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+ug.edu.ge,3,ror,University of Georgia,central,,
 vaticange.org,3,wikidata,Apostolic Nunciature to Georgia,central,200,10 mail.register.it.
 economy.ge,2,wikidata;wikidata;wikidata;wikidata,Ministry of Economy and Sustainable Development of Georgia | Ministry of Economy and Sustainable Development,central,200,10 mx1.economy.ge.; 20 mx2.economy.ge.
 mia.police.ge,2,wikidata;wikidata;wikidata,Ministry of Internal Affairs of Georgia,central,200,none
 mof.ge,2,wikidata;wikidata;wikidata,Ministry of Finance of Georgia,central,200,5 edge01.mof.ge.
+tsmu.edu,2,ror,Tbilisi State Medical University,central,,
+unigeorgia.eu,2,ror,International Teaching University of Georgia,central,,

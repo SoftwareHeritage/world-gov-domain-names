@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 17 of 193
 - Government type: parliamentary constitutional monarchy
 - Capital: Madrid
-- Hosts collected: 1693
+- Hosts collected: 1437
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-681 domain(s) proposed for validation, of which 143 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+757 domain(s) proposed for validation, of which 219 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -53,6 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `ordenacionjuego.es` | central | SSLHandsh... | wikidata;wikidata;linkgraph | Dirección General de Ordenación del Juego |
 | 9 | `gobiernodecanarias.org` | central-1 | 301 | wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Caldera de Taburiente National Park | Agencia Canaria de Investigación, Innov... |
 | 9 | `red.es` | central | 308 | wikidata;linkgraph | Red.es |
+| 9 | `web.unican.es` | central | 200 | wikidata;academia;ror | Instituto de Biomedicina y Biotecnología de Cantabria |
 | 8 | `gov.gva.es` | central-1 | ConnectEx... | wikidata;wikidata;wikidata;wikidata | Q21094623 | Q11915354 |
-| 7 | `agricultura.gva.es` |  | HttpConne... | wikidata;wikidata | Q11915347 |
 

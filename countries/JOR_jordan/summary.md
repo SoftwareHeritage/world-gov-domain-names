@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-27 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+55 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,20 +39,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `amman.diplo.de` | central | 200 | wikidata;wikidata | Embassy of Germany, Amman |
 | 6 | `cco.gov.jot` |  | ConnectEx... | wikidata | Jordanian Constitutional Court |
 | 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
+| 6 | `ju.edu.jo` | central |  | academia;ror | University of Jordan |
+| 6 | `just.edu.jo` | central |  | academia;ror | Jordan University of Science and Technology |
 | 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural ... |
+| 6 | `yu.edu.jo` | central |  | academia;ror | Yarmouk University |
 | 4 | `arabic.jo` |  | 200 | wikidata | Jordan Academy of Arabic |
 | 4 | `hpc.org.jo` |  | 200 | wikidata | Higher Population Council |
-| 4 | `ju.edu.jo` | central |  | academia | University of Jordan |
-| 4 | `just.edu.jo` | central |  | academia | Jordan University of Science and Technology |
 | 4 | `representatives.jo` | central | HttpTimeo... | wikidata | House of Representatives of Jordan |
 | 4 | `rhc.jo` | central | 200 | wikidata | The Royal Hashemite Court |
 | 4 | `senate.jo` | central | 302 | wikidata | Senate of Jordan |
 | 4 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata | Embassy of the United Arab Emirates, Amman |
-| 4 | `yu.edu.jo` | central |  | academia | Yarmouk University |
+| 3 | `aabu.edu.jo` | central |  | ror | Al al-Bayt University |
+| 3 | `aau.edu.jo` | central |  | ror | Amman Arab University |
+| 3 | `ahu.edu.jo` | central |  | ror | Al-Hussein Bin Talal University |
 | 3 | `amman.mae.ro` | central | ConnectEx... | wikidata | Embassy of Romania, Amman |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Jordan |
-| 3 | `emro.who.int` |  | ConnectEx... | wikidata | World Health Organization - Jordan |
-| 3 | `hazine.info` |  | 302 | wikidata | National Library of Jordan |
-| 3 | `jo.ambafrance.org` | central | 301 | wikidata | Embassy of France, Amman |
-| 3 | `jordan.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Jordan |
+| 3 | `ammanu.edu.jo` | central |  | ror | Al-Ahliyya Amman University |
+| 3 | `anu.edu.jo` | central |  | ror | Ajloun National University |
 

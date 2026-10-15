@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+23 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,11 +43,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `burs.org.bw` | central | 200 | wikidata | Botswana Unified Revenue Service |
 | 4 | `gamblingauthority.co.bw` |  | 200 | wikidata | Botswana Gambling Authority |
 | 4 | `nacb.org.bw` | central | SSLHandsh... | wikidata | National Arts Council of Botswana |
+| 3 | `abm.ac.bw` | central |  | ror | ABM University College |
+| 3 | `baisago.ac.bw` | central |  | ror | Ba Isago University |
+| 3 | `biust.ac.bw` | central |  | ror | Botswana International University of Science and Technology |
 | 3 | `botswana.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Botswana |
+| 3 | `bou.ac.bw` | central |  | ror | Botswana Open University |
+| 3 | `buan.ac.bw` | central |  | ror | Botswana University of Agriculture and Natural Resources |
 | 3 | `bw.ambafrance.org` | central | 301 | wikidata | Embassy of France, Gaborone |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Botswana and SADC |
 | 3 | `gaborone.diplo.de` | central | 200 | wikidata | Embassy of Germany, Gaborone |
+| 3 | `guc.co.bw` | central |  | ror | Gaborone University College Of Law and Professional Studies |
 | 3 | `localbotswana.com` |  | 302 | wikidata | Kgalagadi Land Board |
-| 2 | `statsbots.org.bw` | central | 200 | wikidata;wikidata;academia | Statistics Botswana | Central Statistics Office |
-| 2 | `wuc.bw` |  | ConnectEx... | wikidata;wikidata;wikidata | Water Utilities Corporation Serowe Service Centre | Water Utilities Corporati... |
+| 3 | `ub.bw` | central |  | ror | University of Botswana |
 

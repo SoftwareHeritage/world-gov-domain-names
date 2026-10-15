@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+21 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -54,4 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `cv.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Praia |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Cabo Verde |
 | 3 | `praia.mae.lu` | central | 302 | wikidata | embassy of Luxembourg in Cape Verde |
+| 3 | `unicv.edu.cv` | central |  | ror | University of Cape Verde |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-111 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+125 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,19 +40,19 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mhs.mil.za` |  | ConnectEx... | wikidata;wikidata | South African Military Health Service |
 | 7 | `nrf.ac.za` | central | ConnectEx... | wikidata;academia | National Research Foundation |
 | 6 | `concourt.org.za` | central | 301 | wikidata | Constitutional Court of South Africa |
+| 6 | `mandela.ac.za` | central |  | academia;ror | Nelson Mandela University |
+| 6 | `nwu.ac.za` | central |  | academia;ror | North-West University |
 | 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Liaison Office in Cape Town | Taipei Liaison Office in the Republic of... |
+| 6 | `ru.ac.za` | central |  | academia;ror | Rhodes University |
 | 6 | `sanbi.org` | central |  | wikidata;academia | South African National Biodiversity Institute |
+| 6 | `tut.ac.za` | central |  | academia;ror | Tshwane University of Technology |
+| 6 | `uct.ac.za` | central |  | academia;ror | University of Cape Town |
+| 6 | `ufh.ac.za` | central |  | academia;ror | University of Fort Hare |
+| 6 | `ufs.ac.za` | central |  | academia;ror | University of the Free State |
+| 6 | `unisa.ac.za` | central |  | academia;ror | University of South Africa |
+| 6 | `up.ac.za` | central |  | academia;ror | University of Pretoria |
+| 6 | `uwc.ac.za` | central |  | academia;ror | University of the Western Cape |
+| 6 | `wits.ac.za` | central |  | academia;ror | University of the Witwatersrand |
+| 6 | `wsu.ac.za` | central |  | academia;ror | Walter Sisulu University |
 | 4 | `affaires-etrangeres.gouv.ga` | central | HttpConne... | wikidata | embassy of Gabon in South Africa |
-| 4 | `agsa.co.za` | central | ConnectEx... | wikidata | Auditor-General |
-| 4 | `arb.org.za` |  | 301 | wikidata | Advertising Regulatory Board |
-| 4 | `caa.co.za` |  | 301 | wikidata | South African Civil Aviation Authority |
-| 4 | `camhicom.co.za` | central | 403 | wikidata | high commission of Cameroon in South Africa |
-| 4 | `capenature.org.za` |  | SSLHandsh... | wikidata | CapeNature |
-| 4 | `cge.org.za` |  | 200 | wikidata | Commission for Gender Equality |
-| 4 | `chadembassy.co.za` | central | 200 | wikidata | embassy of Chad in South Africa |
-| 4 | `che.ac.za` |  | 200 | wikidata | Council on Higher Education |
-| 4 | `cipc.co.za` |  | ConnectEx... | wikidata | South Africa's Companies and Intellectual Property Commission |
-| 4 | `compcom.co.za` |  | 301 | wikidata | Competition Commission |
-| 4 | `elrc.org.za` |  | 200 | wikidata | Education Labour Relations Council |
-| 4 | `embaixadaportugal.org.za` | central | ConnectEx... | wikidata | embassy of Portugal in South Africa |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-97 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+355 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -53,6 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `rc.majlis.ir` | central | 200 | wikidata;wikidata | Islamic Consultative Assembly |
 | 7 | `vaja.ir` | central | HttpConne... | wikidata;wikidata | Ministry of Intelligence |
 | 7 | `wri.ac.ir` |  | HttpTimeo... | wikidata;wikidata | Water Research Institute |
-| 6 | `divanealee.eadl.ir` | central | HttpConne... | wikidata | Supreme Court of Iran |
-| 4 | `abru.ac.ir` | central |  | academia | Ayatollah Borujerdi University |
+| 6 | `abru.ac.ir` | central |  | academia;ror | Ayatollah Borujerdi University |
+| 6 | `alzahra.ac.ir` | central |  | academia;ror | Alzahra University |
 

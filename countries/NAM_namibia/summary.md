@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+21 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,6 +39,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 8 | `parliament.na` | central | HttpConne... | wikidata;wikidata;wikidata;wikidata | National Council of Namibia | Parliament of Namibia | National Assembly |
 | 7 | `mof.na` | central | ConnectEx... | wikidata;wikidata | Ministry of Finance |
 | 7 | `nsa.org.na` | central | 200 | wikidata;academia | Namibia Statistics Agency |
+| 6 | `unam.edu.na` | central |  | academia;ror | University of Namibia |
 | 6 | `windhuk.diplo.de` | central | 200 | wikidata;wikidata | Embassy of Germany, Windhoek |
 | 4 | `bon.com.na` |  | HttpConne... | wikidata | Bank of Namibia |
 | 4 | `citypolice.org.na` |  | ConnectEx... | wikidata | Windhoek City Police Service |
@@ -47,10 +48,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ncaa.com.na` |  | 200 | wikidata | Namibia Directorate of Civil Aviation |
 | 4 | `nfc.na` |  | 200 | wikidata | Namibia Film Commission |
 | 4 | `nsi.com.na` |  | 200 | wikidata | Namibian Standards Institution |
-| 4 | `unam.edu.na` | central |  | academia | University of Namibia |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Namibia |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Windhoek |
 | 3 | `ghanahighcommission-namibia.com` | central | ConnectEx... | wikidata | high commission of Ghana in Namibia |
+| 3 | `ium.edu.na` | central |  | ror | International University of Management |
 | 3 | `na.ambafrance.org` | central | 301 | wikidata | Embassy of France, Windhoek |
 | 3 | `namibia.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Namibia |
+| 3 | `nust.na` | central |  | ror | Namibia University of Science and Technology |
 

@@ -1,9 +1,15 @@
 hostname,score,sources,label,level,http_status,mx
-anu.edu.au,7,wikidata;academia,Australian National University,central,301,10 anu-edu-au.mail.protection.outlook.com.
+anu.edu.au,9,wikidata;academia;ror,Australian National University,central,301,10 anu-edu-au.mail.protection.outlook.com.
 curtin.edu.au,7,wikidata;wikidata,Curtin Connect,,301,100 mx2.hc2185-81.iphmx.com.; 100 mx1.hc2185-81.iphmx.com.
 g-mwater.com.au,7,wikidata;wikidata,Goulburn–Murray Water,,301,10 au-smtp-inbound-1.mimecast.com.; 10 au-smtp-inbound-2.mimecast.com.
 pakistan.org.au,7,wikidata;wikidata,"High Commission of Pakistan, Canberra | high commission of Pakistan in Australia",central,403,0 mail.pakistan.org.au.
 screenqueensland.com.au,7,wikidata;wikidata,Screen Queensland Studios | Screen Queensland,,200,none
+cqu.edu.au,6,academia;ror,Central Queensland University,central-1,,
+qut.edu.au,6,academia;ror,Queensland University of Technology,central-1,,
+uq.edu.au,6,academia;ror,University of Queensland,central-1,,
+utas.edu.au,6,academia;ror,University of Tasmania,central-1,,
+uwa.edu.au,6,wikidata;ror,Oceans Institute,central-1,301,10 uwa-edu-au.mail.protection.outlook.com.
+vu.edu.au,6,academia;ror,Victoria University,central-1,,
 wineaustralia.com,6,wikidata;wikidata,Wine Australia | Australian Grape and Wine Authority,,301,0 au-smtp-inbound-2.mimecast.com.; 0 au-smtp-inbound-1.mimecast.com.
 aaf.edu.au,4,wikidata,Australian Access Federation,,200,0 aaf-edu-au.mail.protection.outlook.com.
 aapant.org.au,4,wikidata,Aboriginal Areas Protection Authority,central-1,200,10 mi21.nt.gov.au.; 10 mi31.nt.gov.au.; 10 mi11.nt.gov.au.
@@ -38,7 +44,6 @@ cancerinstitute.org.au,4,wikidata,Cancer Institute of New South Wales,central-1,
 ccc.sa.edu.au,4,wikidata,Charles Campbell College,,301,5 ccc-sa-edu-au.mail.protection.outlook.com.
 chifley.org.au,4,academia,Chifley Research Centre,central,,
 commbank.com.au,4,wikidata,Commonwealth Bank,,301,10 commbank-com-au.mail.protection.outlook.com.
-cqu.edu.au,4,academia,Central Queensland University,central-1,,
 crdc.com.au,4,wikidata,Cotton Research and Development Corporation,,200,0 crdc-com-au.mail.protection.outlook.com.
 cybercollaboration.org.au,4,wikidata,Australian Cyber Collaboration Centre,,301,0 cybercollaboration-org-au.mail.protection.outlook.com.
 dairyaustralia.com.au,4,wikidata,Dairy Australia Limited,,308,10 dairyaustralia-com-au.mail.protection.outlook.com.
@@ -95,7 +100,6 @@ publish.csiro.au,4,wikidata,CSIRO Publishing,,301,500 act-mx.csiro.au.; 500 vic-
 qca.org.au,4,wikidata,Queensland Competition Authority,,301,10 qca-org-au.mail.protection.outlook.com.
 qcaa.qld.edu.au,4,wikidata,Queensland Curriculum and Assessment Authority,,404,10 au-smtp-inbound-2.mimecast.com.; 10 au-smtp-inbound-1.mimecast.com.
 questacon.edu.au,4,wikidata,Questacon,,301,5 sig4indcav.secureintellicentre.net.au.; 10 sig2indcav.secureintellicentre.net.au.
-qut.edu.au,4,academia,Queensland University of Technology,central-1,,
 robertsonrfs.org.au,4,wikidata,Robertson Rural Fire Brigade,,403,0 robertsonrfs.org.au.
 sahc.org.au,4,wikidata,"High Commission of South Africa, Canberra",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sahc.org.au found.,10 mx.mailfilter.net.au.; 0 sahc.org.au.; 20 mx2.mailfilter.net.au.
 samentalhealthcommission.com.au,4,wikidata,South Australian Mental Health Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -113,16 +117,12 @@ tongahighcom.com.au,4,wikidata,High Commission of Tonga in Australia,central,200
 tourismtasmania.com.au,4,wikidata,Tourism Tasmania,central-1,301,10 tourismtasmania-com-au.mail.protection.outlook.com.
 tso.com.au,4,wikidata,Tasmanian Symphony Orchestra,,301,0 tso-com-au.mail.protection.outlook.com.
 unsw.edu.au,4,academia,University of New South Wales,central-1,,
-uq.edu.au,4,academia,University of Queensland,central-1,,
 urbanutilities.com.au,4,wikidata,Queensland Urban Utilities,,308,10 mxb-002fc102.gslb.pphosted.com.; 10 mxa-002fc102.gslb.pphosted.com.
 usq.edu.au,4,academia,University of Southern Queensland,central-1,,
-utas.edu.au,4,academia,University of Tasmania,central-1,,
-uwa.edu.au,4,wikidata,Oceans Institute,,301,10 uwa-edu-au.mail.protection.outlook.com.
 varta.org.au,4,wikidata,Victorian Assisted Reproductive Treatment Authority,,301,none
 vcaa.vic.edu.au,4,wikidata,Victorian Curriculum and Assessment Authority,central-1,200,none
 victrack.com.au,4,wikidata,VicTrack,,200,10 mxb-0037be01.gslb.pphosted.com.; 10 mxa-0037be01.gslb.pphosted.com.
 vietnamembassy.org.au,4,wikidata,embassy of Vietnam in Australia,central,200,none
-vu.edu.au,4,academia,Victoria University,central-1,,
 watercorporation.com.au,4,wikidata,Water Corporation,central-1,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mxa-00861002.gslb.pphosted.com.; 10 mxb-00861002.gslb.pphosted.com.
 waternsw.com.au,4,wikidata,WaterNSW,,301,10 au-smtp-inbound-2.mimecast.com.; 10 au-smtp-inbound-1.mimecast.com.
 workingheritage.com.au,4,wikidata,Working Heritage,,200,0 workingheritage-com-au.mail.protection.outlook.com.
@@ -174,6 +174,7 @@ statetransit.info,3,wikidata,State Transit Authority of New South Wales,,200,10 
 swedenabroad.se,3,wikidata,Swedish embassy in Canberra,central,301,none
 tiwilandcouncil.com,3,wikidata,Tiwi Land Council,,301,10 tiwilandcouncil-com.mail.protection.outlook.com.
 ugandahighcommissionaustralia.org,3,wikidata,high commission of Uganda in Australia,central,301,none
+unisq.edu.au,3,ror,University of Southern Queensland,central-1,,
 venuesnsw.com,3,wikidata,Venues NSW,central-1,307,0 venuesnsw-com.mail.protection.outlook.com.
 who.int,3,wikidata,World Health Organization (Australia),,301,10 who-int.mail.protection.outlook.com.
 csiro.au,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,CSIRO Manufacturing | Plant Industry | CSIRO Environment | Division of Entomology | CSIRO Mineral Resources | Commonwealth Scientific and Industrial Research Organisation | CSIRO Oceans and Atmosphere | CSIRO Scientific Computing,,SSLHandshakeException: Remote host terminated the handshake,10 vic-mx.csiro.au.; 10 act-mx.csiro.au.

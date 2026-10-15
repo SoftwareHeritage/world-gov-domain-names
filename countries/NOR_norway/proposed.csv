@@ -16,6 +16,7 @@ unesco.no,7,wikidata;wikidata,Norwegian National Commission for UNESCO | Q177656
 visitalta.no,7,wikidata;wikidata,VISIT ALTA AS,,200,0 visitalta-no.mail.protection.outlook.com.
 nobelpeaceprize.org,6,wikidata;wikidata,Norwegian Nobel Institute,,301,10 nobelpeaceprize-org.mail.protection.outlook.com.
 norwegen.ahk.de,6,wikidata;wikidata,German-Norwegian Chamber of Commerce,,302,none
+uio.no,6,academia;ror,University of Oslo,central,,
 lovdata.no,5,linkgraph,Linked from 6 public-sector domains,,200,10 lovdata-no.mail.protection.outlook.com.
 abm-utvikling.no,4,wikidata,"Norwegian Archive, Library and Museum Authority",,200,none
 advnemnda.no,4,wikidata,Advokatnemnda,central,200,0 advnemnda-no.mail.protection.outlook.com.
@@ -119,31 +120,53 @@ tilsynet.no,4,wikidata,Advokattilsynet,central,200,0 tilsynet-no.mail.protection
 totalberedskapskommisjonen.no,4,wikidata,Q113561959,,ConnectException,none
 trygdeetaten.no,4,wikidata,National Insurance Service,,HttpConnectTimeoutException: HTTP connect timed out,5 trygdeetaten-no.mail.protection.outlook.com.
 tunisiaamb.no,4,wikidata,"Embassy of Tunisia, Oslo",central,ConnectException,none
-uio.no,4,academia,University of Oslo,central,,
+uit.no,4,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;ror,The Truth and Reconciliation Commission | University of Tromsø – The Arctic University of Norway,central,200,0 uit-no.mail.protection.outlook.com.
 valgresultat.no,4,wikidata,Norwegian Directorate of Elections,,200,none
 vt.no,4,wikidata,Norwegian Road Supervisory Authority,,200,0 vt-no.mail.protection.outlook.com.
 ambafrance-no.org,3,wikidata,"Embassy of France, Oslo",central,ConnectException,5 mta-gw.infomaniak.ch.
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Oslo",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+ansgarhoyskole.no,3,ror,Ansgar University College,central,,
 crop.org,3,wikidata,Comparative Research Programme on Poverty,,ConnectException: Host is unreachable,none
+dmmh.no,3,ror,Queen Maud University College,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Norway,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 embrss-norway.org,3,wikidata,"Embassy of South Sudan, Oslo",central,200,10 mx.domeneshop.no.
+fih.fjellhaug.no,3,ror,Fjellhaug Internasjonale Høgskole,central,,
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Oslo",central,301,10 mail.valtori.fi.
 giella.org,3,wikidata,Sámi Giellagáldu,,301,none
+hfy.no,3,ror,University College of Vocational Education,central,,
+hgut.no,3,ror,Høgskulen for Grøn Utvikling,central,,
+himolde.no,3,ror,Molde University College,central,,
+hiof.no,3,ror,Østfold University of Applied Sciences,central,,
+inn.no,3,ror,University of Inland Norway,central,,
+krus.no,3,ror,University College of Norwegian Correctional Service,central,,
 meoslo.org,3,wikidata,"Embassy of Myanmar, Oslo",central,200,0 _dc-mx.acc529d2e272.meoslo.org.
 mzv.cz,3,wikidata,"Embassy of Czech Republic, Oslo",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 netherlandsworldwide.nl,3,wikidata,"Embassy of the Netherlands, Oslo",central,301,0 .
 nkj.nordforsk.org,3,wikidata,Nordic Joint Committee for Agricultural and Food Research,,ConnectException,none
+nla.no,3,ror,NLA University College,central,,
+nmbu.no,3,ror,Norwegian University of Life Sciences,central,,
 no.mfa.lt,3,wikidata,Embassy of Lithuania in Oslo,central,403,none
+nord.no,3,ror,Nord University,central,,
 norge.um.dk,3,wikidata,"Royal Danish Embassy, Oslo",central,301,none
+noroff.no,3,ror,Noroff University College,central,,
 norway.mid.ru,3,wikidata,Embassy of Russia in Oslo,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 oslo.diplo.de,3,wikidata,"Embassy of Germany, Oslo",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 oslo.mae.ro,3,wikidata,"Embassy of Romania, Oslo",central,503,none
 oslo.mfa.ee,3,wikidata,Embassy of Estonia in Oslo,central,200,none
+oslonyehoyskole.no,3,ror,Oslo Nye Høyskole,central,,
 reindeerherding.org,3,wikidata,International Centre for Reindeer Husbandry,,200,none
+rshoyskolen.no,3,ror,Rudolf Steiner University College,central,,
+samas.no,3,ror,Sámi University of Applied Sciences,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Oslo",central,301,none
+uhr.no,3,ror,Universities Norway,central,,
+uia.no,3,ror,University of Agder,central,,
+uis.no,3,ror,University of Stavanger,central,,
+unik.no,3,ror,University Graduate Center,central,,
+usn.no,3,ror,University of South-Eastern Norway,central,,
+www4.uib.no,3,ror,University of Bergen,central,,
 bufdir.no,2,wikidata;wikidata;wikidata;wikidata,"Office for Children, Youth and Family Affairs | Norwegian Directorate for Children, Youth and Family Affairs",,301,10 bufdir-no.mail.protection.outlook.com.
 fefo.no,2,wikidata;wikidata;wikidata,Finnmark Estate,,301,0 fefo-no.mail.protection.outlook.com.
 klagenemndssekretariatet.no,2,wikidata;wikidata;wikidata;wikidata,Joint Tribunal Secretariat of Norway | Finanstilsynsklagenemnda | Q11981087 | Energy Tribunal of Norway,,301,10 mx2-proisp-no.pub.mailpod1-osl1.one.com.; 10 mx1-proisp-no.pub.mailpod1-osl1.one.com.; 10 mx3-proisp-no.pub.mailpod1-osl1.one.com.
 lanekassen.no,2,wikidata;wikidata;wikidata,Norwegian State Educational Loan Fund,,200,0 lanekassen-no.mail.protection.outlook.com.
 sametinget.no,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q11999242 | Sámi Parliament of Norway,,200,10 sametinget-no.mail.protection.outlook.com.
-uit.no,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,The Truth and Reconciliation Commission | University of Tromsø – The Arctic University of Norway,central,200,0 uit-no.mail.protection.outlook.com.
+oslomet.no,0,ror,OsloMet – Oslo Metropolitan University,central,,

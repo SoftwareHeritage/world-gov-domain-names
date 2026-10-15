@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -42,6 +42,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `port-of-spain.diplo.de` | central | 200 | wikidata | Embassy of Germany, Port of Spain |
 | 3 | `tntairports.com` |  | 307 | wikidata | Airports Authority of Trinidad and Tobago |
 | 3 | `tt.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port of Spain |
+| 3 | `usc.edu.tt` | central |  | ror | University of the Southern Caribbean |
+| 3 | `utt.edu.tt` | central |  | ror | University of Trinidad and Tobago |
 | 3 | `uwi.edu` | central |  | academia | University of the West Indies |
+| 2 | `sta.uwi.edu` | central |  | ror | University of the West Indies |
 | 1 | `ttparliament.org` | central | HttpTimeo... | wikidata;wikidata;wikidata;wikidata | House of Representatives | Senate of Trinidad and Tobago | Parliament of Trin... |
 

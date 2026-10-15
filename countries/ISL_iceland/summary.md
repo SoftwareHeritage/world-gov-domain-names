@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-49 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+57 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,6 +41,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `skogur.is` |  | 301 | wikidata;wikidata | Icelandic Forest Service |
 | 7 | `statice.is` | central | 200 | wikidata;academia | Statistics Iceland |
 | 7 | `ust.is` |  | 200 | wikidata;wikidata | Environment Agency of Iceland |
+| 6 | `hi.is` | central |  | academia;ror | University of Iceland |
 | 6 | `island.is` | central | 200 | wikidata;wikidata;wikidata;linkgraph | Land and Forest Iceland | Icelandic Naming Committee |
 | 4 | `cb.is` |  | 200 | wikidata | Central Bank of Iceland |
 | 4 | `customs.is` | central | 301 | wikidata | Directorate of Customs |
@@ -52,7 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `fme.is` |  | 302 | wikidata | Financial Supervisory Authority |
 | 4 | `forseti.is` |  | 307 | wikidata | Office of the President of Iceland |
 | 4 | `geothermal.is` |  | 200 | wikidata | Iceland Geosurvey |
-| 4 | `hi.is` | central |  | academia | University of Iceland |
 | 4 | `icetra.is` |  | 302 | wikidata | Q1151075 |
 | 4 | `landsbokasafn.is` |  | 200 | wikidata | National and University Library of Iceland |
 

@@ -30,17 +30,21 @@
 
 ## Proposed domains ranked by score
 
-42 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+54 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 9 | `ussein.sn` | central |  | academia;academia;ror | Université El Hadji Ibrahima Niasse | Université Sine-Saloum El Hadji Ibrahim... |
 | 7 | `ansd.sn` | central | ConnectEx... | wikidata;academia | Agence Nationale de la Statistique et de la Démographie |
 | 7 | `assemblee-nationale.sn` | central | ConnectEx... | wikidata;wikidata | National Assembly |
 | 7 | `education.sn` | central | 200 | wikidata;wikidata | Ministry of National Education of Senegal |
 | 7 | `mctn.sn` | central | SSLHandsh... | wikidata;wikidata | Ministry of Telecommunications and Digital Affairs of Senegal |
-| 7 | `ussein.sn` | central |  | academia;academia | Université El Hadji Ibrahima Niasse | Université Sine-Saloum El Hadji Ibrahim... |
 | 6 | `escolapiesinstitutions.org` |  | ConnectEx... | wikidata;wikidata | Piarist province of West Africa |
+| 6 | `uam.sn` | central |  | academia;ror | Université Amadou Mahtar Mbow |
+| 6 | `uasz.sn` | central |  | academia;ror | Assane Seck University |
+| 6 | `ucad.sn` | central |  | academia;ror | Université Cheikh Anta Diop |
+| 6 | `ugb.sn` | central |  | academia;ror | Université Gaston Berger |
 | 4 | `anacim.sn` |  | SSLHandsh... | wikidata | Agence Nationale de l'Aviation Civile du Sénégal |
 | 4 | `cena.sn` | central | HttpConne... | wikidata | National Autonomous Electoral Commission |
 | 4 | `conseilconstitutionnel.sn` |  | 200 | wikidata | Q2993691 |
@@ -51,8 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `international.gouv.qc.ca` |  | SSLHandsh... | wikidata | general delegation of Quebec in Dakar |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Dakar |
 | 4 | `onas.sn` |  | 200 | wikidata | National Office for Sanitation of Senegal |
-| 4 | `sip.sn` |  | ConnectEx... | wikidata | Commune de Matam |
-| 4 | `statsenegal.sn` |  | ConnectEx... | wikidata | Système Statistique National du Sénégal |
-| 4 | `uam.sn` | central |  | academia | Université Amadou Mahtar Mbow |
-| 4 | `uasz.sn` | central |  | academia | Assane Seck University |
 

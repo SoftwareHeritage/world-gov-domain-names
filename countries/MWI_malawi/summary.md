@@ -30,21 +30,29 @@
 
 ## Proposed domains ranked by score
 
-12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+23 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 6 | `mzuni.ac.mw` | central |  | academia;ror | Mzuzu University |
 | 4 | `aidsmalawi.org.mw` |  | ConnectEx... | wikidata | National AIDS Commission |
 | 4 | `frim.org.mw` |  | SSLHandsh... | wikidata | Forestry Research Institute of Malawi |
 | 4 | `mra.mw` |  | 404 | wikidata | Malawi Revenue Authority |
-| 4 | `mzuni.ac.mw` | central |  | academia | Mzuzu University |
 | 4 | `ncst.mw` |  | 200 | wikidata | National Commission for Science and Technology Malawi |
 | 4 | `nls.mw` |  | 200 | wikidata | National Library Service of Malawi |
 | 4 | `rbm.mw` |  | SSLHandsh... | wikidata | Reserve Bank of Malawi |
 | 4 | `sdnp.org.mw` |  | SSLHandsh... | wikidata | Department of Agricultural Research & Technical Services |
 | 3 | `afro.who.int` |  | 200 | wikidata | World Health Organization - Malawi |
+| 3 | `cunima.ac.mw` | central |  | ror | The Catholic University of Malawi |
+| 3 | `dmisjbu.edu.mw` | central |  | ror | DMI-St. John the Baptist University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Malawi |
+| 3 | `emmanueluniversity.ac.mw` | central |  | ror | Emmanuel University |
+| 3 | `kuhes.ac.mw` | central |  | ror | Kamuzu University of Health Sciences |
 | 3 | `lilongwe.diplo.de` | central | 200 | wikidata | Embassy of Germany, Lilongwe |
+| 3 | `luanar.ac.mw` | central |  | ror | Lilongwe University of Agriculture and Natural Resources |
+| 3 | `mau.ac.mw` | central |  | ror | Malawi Adventist University |
+| 3 | `mubas.ac.mw` | central |  | ror | Malawi University of Business and Applied Sciences |
+| 3 | `must.ac.mw` | central |  | ror | Malawi University of Science and Technology |
 | 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway in Malawi |
 

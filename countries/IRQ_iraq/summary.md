@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-58 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+151 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,20 +39,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mod.mil.iq` | central | 403 | wikidata;wikidata | Ministry of Defence of Iraq |
 | 6 | `cabinet.iq` |  | 200 | un_desa | UN/DESA national portal |
 | 6 | `iq.ambafrance.org` | central | 301 | wikidata;wikidata | Embassy of France, Baghdad | Consulate General of France, Erbil |
+| 6 | `mtu.edu.iq` | central |  | academia;ror | Middle Technical University |
+| 6 | `nahrainuniv.edu.iq` | central |  | academia;ror | Nahrain University |
+| 6 | `stu.edu.iq` | central |  | academia;ror | Southern Technical University |
 | 6 | `swedenabroad.se` | central | 301 | wikidata;wikidata | Embassy of Sweden, Baghdad |
-| 4 | `bagdad.mfa.gov.hu` | central | SSLHandsh... | wikidata | Hungarian embassy, Baghdad |
-| 4 | `cbi.iq` |  | 200 | wikidata | Central Bank of Iraq |
-| 4 | `cmc.iq` |  | 200 | wikidata | Communications and Media Commission |
-| 4 | `en.uosamarra.edu.iq` | central |  | academia | University of Samarra |
-| 4 | `ihec.iq` | central | 200 | wikidata | Independent High Electoral Commission |
-| 4 | `iraqfsc.iq` |  | 403 | wikidata | Supreme Court of Iraq |
-| 4 | `iubaghdad.edu.iq` | central |  | academia | Iraqi University |
-| 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Baghdad |
-| 4 | `mtu.edu.iq` | central |  | academia | Middle Technical University |
-| 4 | `nahrainuniv.edu.iq` | central |  | academia | Nahrain University |
-| 4 | `nazaha.iq` |  | 403 | wikidata | Commission of Integrity |
-| 4 | `post.iq` |  | 403 | wikidata | Iraqi Post |
-| 4 | `qadissuni.edu.iq` | central |  | academia | University of Al-Qadisiyah |
-| 4 | `src.edu.iq` |  | 200 | wikidata | Scientific Research Commission |
-| 4 | `stu.edu.iq` | central |  | academia | Southern Technical University |
+| 6 | `uobaghdad.edu.iq` | central |  | academia;ror | University of Baghdad |
+| 6 | `uobasrah.edu.iq` | central |  | academia;ror | University of Basrah |
+| 6 | `uodiyala.edu.iq` | central |  | academia;ror | University of Diyala |
+| 6 | `uofallujah.edu.iq` | central |  | academia;ror | University of Fallujah |
+| 6 | `uoitc.edu.iq` | central |  | academia;ror | University of Information Technology and Communication |
+| 6 | `uokerbala.edu.iq` | central |  | academia;ror | University of Karbala |
+| 6 | `uokirkuk.edu.iq` | central |  | academia;ror | University of Kirkuk |
+| 6 | `uomisan.edu.iq` | central |  | academia;ror | University of Misan |
+| 6 | `uomosul.edu.iq` | central |  | academia;ror | University of Mosul |
+| 6 | `uomustansiriyah.edu.iq` | central |  | academia;ror | Al-Mustansiriya University |
+| 6 | `uosamarra.edu.iq` | central |  | academia;ror | University of Samarra |
+| 6 | `uotechnology.edu.iq` | central |  | academia;ror | University of Technology, Iraq |
 

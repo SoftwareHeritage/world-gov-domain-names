@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+20 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,7 +47,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `conseilconstitutionnel.td` |  | ConnectEx... | wikidata | Constitutional Council of Chad |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, N'Djamena |
 | 3 | `hamatchad.org` |  | 301 | wikidata | Q65157984 |
+| 3 | `insta.td` | central |  | ror | Institut National Supérieur des Sciences et Techniques d'Abéché |
 | 3 | `ndjamena.diplo.de` | central | 200 | wikidata | Embassy of Germany, N'Djamena |
 | 3 | `tchad.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Chad |
 | 3 | `td.ambafrance.org` | central | 301 | wikidata | Embassy of France, N'Djamena |
+| 3 | `uds.td` | central |  | ror | Université de Sarh |
+| 3 | `universite-ndjamena.td` | central |  | ror | University of N'Djamena |
+| 2 | `ucl-tchad.com` | central |  | ror | Université Saint Charles Lwanga |
+| 2 | `univ-moundou.org` | central |  | ror | Université de Moundou |
 

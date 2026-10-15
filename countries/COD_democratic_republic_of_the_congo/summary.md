@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-27 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+66 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,6 +40,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `cour-constitutionnelle.cd` | central | 200 | wikidata | Constitutional Court of the Democratic Republic of the Congo |
 | 6 | `piaristesafriquecentrale.org` |  | ConnectEx... | wikidata;wikidata | Piarist province of Central Africa |
 | 6 | `presidentrdc.cd` |  | 200 | un_desa | UN/DESA national portal |
+| 6 | `unikin.ac.cd` | central |  | academia;ror | University of Kinshasa |
+| 6 | `unikis.ac.cd` | central |  | academia;ror | University of Kisangani |
+| 6 | `uom.cd` | central |  | academia;ror | Université Officielle de Mbujimayi |
 | 4 | `aplc.cd` |  | 500 | wikidata | Agency for the Prevention and Fight against Corruption |
 | 4 | `assemblee-nationale.cd` | central | HttpConne... | wikidata | National Assembly |
 | 4 | `bcc.cd` |  | 301 | wikidata | Central Bank of Congo |
@@ -47,9 +50,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `onem.cd` |  | 200 | wikidata | Q132560441 |
 | 4 | `senat.cd` | central | 301 | wikidata | Senate of the Democratic Republic of the Congo |
 | 4 | `transco-rdc.cd` |  | 200 | wikidata | Société de transports du Congo |
-| 4 | `unikin.ac.cd` | central |  | academia | University of Kinshasa |
-| 4 | `unikis.ac.cd` | central |  | academia | University of Kisangani |
-| 4 | `uom.cd` | central |  | academia | Université Officielle de Mbujimayi |
 | 3 | `cd.ambafrance.org` | central | 301 | wikidata | Embassy of France, Kinshasa |
 | 3 | `crem-rdc.com` |  | 200 | wikidata | Centre de Recherche sur l'Enseignement de la Mathématique |
 | 3 | `csnrdc.net` |  | 200 | wikidata | Conseil Scientifique National |

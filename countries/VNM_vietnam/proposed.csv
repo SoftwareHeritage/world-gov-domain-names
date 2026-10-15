@@ -2,6 +2,10 @@ hostname,score,sources,label,level,http_status,mx
 bqp.vn,7,wikidata;wikidata,Ministry of Defence of Vietnam,central,200,none
 quochoi.vn,7,wikidata;wikidata,National Assembly of Vietnam,central,200,10 mx.quochoi.vn.
 vovworld.vn,7,wikidata;wikidata,Voice of Vietnam,,200,10 mx2.forwardemail.net.; 10 mx1.forwardemail.net.
+dav.edu.vn,6,wikidata;ror,Viện Nghiên cứu Chiến lược Ngoại giao,central,200,10 dav-edu-vn.mail.protection.outlook.com.
+hcmute.edu.vn,6,academia;ror,Ho Chi Minh City University of Technology and Engineering,central,,
+pyu.edu.vn,6,academia;ror,Phu Yen University,central,,
+vnu.edu.vn,6,academia;ror,Vietnam National University,central,,
 angiang.edu.vn,4,wikidata,An Giang Department of Education and Training,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 bacninh.edu.vn,4,wikidata,Bac Ninh Department of Education and Training,central-1,HttpConnectTimeoutException: HTTP connect timed out,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx4.googlemail.com.; 10 alt3.aspmx.l.google.com.; 10 lbd66lwaoqdz.thcstriqua.bacninh.edu.vn.; 30 aspmx5.googlemail.com.; 30 aspmx2.googlemail.com.; 30 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.
 bienphongvietnam.vn,4,wikidata,Vietnam Border Defense Force,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -9,7 +13,6 @@ camau.edu.vn,4,wikidata,Ca Mau Department of Education and Training,central-1,Ht
 canhsatbien.vn,4,wikidata,Vietnam Coast Guard,,HttpConnectTimeoutException: HTTP connect timed out,none
 cantho.edu.vn,4,wikidata,Can Tho Department of Education and Training,central-1,SSLHandshakeException: Remote host terminated the handshake,10 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt2.aspmx.l.google.com.; 10 aspmx.l.google.com.; 10 smtp.google.com.; 10 alt3.aspmx.l.google.com.
 danang.edu.vn,4,wikidata,Da Nang Department of Education and Training,central-1,302,10 mail.danang.edu.vn.; 10 danang-edu-vn.mail.protection.outlook.com.; 1 SMTP.GOOGLE.com.
-dav.edu.vn,4,wikidata,Viện Nghiên cứu Chiến lược Ngoại giao,,200,10 dav-edu-vn.mail.protection.outlook.com.
 dienbien.edu.vn,4,wikidata,Dien Bien Department of Education and Training,central-1,200,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx4.googlemail.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx5.googlemail.com.; 1 aspmx.l.google.com.
 dised.vn,4,wikidata,Da Nang Institute For Socio - Economic Development,,ConnectException,none
 dongthap.edu.vn,4,wikidata,Dong Thap Department of Education and Training,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
@@ -21,7 +24,6 @@ hanoi.edu.vn,4,wikidata,Hanoi Department of Education and Training,central-1,302
 hanoi.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Hanoi",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 hatinh.edu.vn,4,wikidata,Ha Tinh Department of Education and Training,central-1,HttpConnectTimeoutException: HTTP connect timed out,30 aspmx2.googlemail.com.; 30 aspmx4.googlemail.com.; 20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 30 aspmx5.googlemail.com.; 20 alt2.aspmx.l.google.com.
 hcm.edu.vn,4,wikidata,Ho Chi Minh City Department of Education and Training,central-1,IOException: HTTP/1.1 header parser received no bytes,0 hcm-edu-vn.mail.protection.outlook.com.
-hcmute.edu.vn,4,academia,Ho Chi Minh City University of Technology and Engineering,central,,
 hosiminh.mfa.gov.hu,4,wikidata,"Consulate General of Hungary, Ho Chi Minh City",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 hue.edu.vn,4,wikidata,Hue Department of Education and Training,central-1,200,11 ASPMX3.GOOGLEMAIL.COM.; 8 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 13 ASPMX5.GOOGLEMAIL.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 12 ASPMX4.GOOGLEMAIL.COM.
 hungyen.edu.vn,4,wikidata,Hung Yen Department of Education and Training,central-1,HttpConnectTimeoutException: HTTP connect timed out,1 smtp.google.com.
@@ -41,7 +43,6 @@ nimpe.vn,4,wikidata,"National Institute of Malariology, Parasitology and Entomol
 ninhbinh.edu.vn,4,wikidata,Ninh Binh Department of Education and Training,central-1,200,10 ninhbinh-edu-vn.mail.protection.outlook.com.
 palestineembassy.vn,4,wikidata,Embassy of the State of Palestine in Vietnam,central,200,10 palestineembassy-vn.mail.protection.outlook.com.
 phutho.edu.vn,4,wikidata,Phu Tho Department of Education and Training,central-1,HttpConnectTimeoutException: HTTP connect timed out,1 smtp.google.com.
-pyu.edu.vn,4,academia,Phu Yen University,central,,
 quangngai.edu.vn,4,wikidata,Quang Ngai Department of Education and Training,central-1,200,30 aspmx4.googlemail.com.; 30 aspmx3.googlemail.com.; 20 alt1.aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx5.googlemail.com.; 30 aspmx2.googlemail.com.; 10 aspmx.l.google.com.
 quangtri.edu.vn,4,wikidata,Quang Tri Department of Education and Training,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx5.googlemail.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx4.googlemail.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 10 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 sie.vast.vn,4,wikidata,Southern Institute of Ecology,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.vast.vn.
@@ -60,25 +61,188 @@ vietnammedia.vnanet.vn,4,wikidata,Vietnam News Agency,,200,none
 vinhlong.edu.vn,4,wikidata,Vinh Long Department of Education and Training,central-1,HttpConnectTimeoutException: HTTP connect timed out,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 viup.vn,4,wikidata,Viện Quy hoạch đô thị và nông thôn quốc gia,,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
 vnpi.vn,4,wikidata,Viện Năng suất Việt Nam,,200,5 alt2.aspmx.l.google.com.; 10 mail.vnpi.vn.; 1 smtp.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-vnu.edu.vn,4,academia,Vietnam National University,central,,
 vov.vn,4,wikidata,Voice of Vietnam,,200,10 esa.vov.vn.
 vtv.vn,4,wikidata,Vietnam Television,,200,10 mta1.vtv.vn.; 20 mail.vtv.vn.
 vumon.vn,4,academia,National Institute of Hygiene and Epidemiology,central,,
+agu.edu.vn,3,ror,An Giang University,central,,
+bhiu.edu.vn,3,ror,Bac Ha International University,central,,
+blu.edu.vn,3,ror,Trường Đại học Bạc Liêu,central,,
+bmu.edu.vn,3,ror,Trường Đại học Y Dược Buôn Ma Thuột,central,,
+buv.edu.vn,3,ror,British University Vietnam,central,,
+bvu.edu.vn,3,ror,Baria Vungtau University,central,,
+caodangvietmy.edu.vn,3,ror,American Polytechnic College,central,,
+cmcu.edu.vn,3,ror,CMC University,central,,
+ctu.edu.vn,3,ror,Can Tho University,central,,
+ctuet.edu.vn,3,ror,Trường Đại học Kỹ thuật - Công nghệ Cần Thơ,central,,
+ctump.edu.vn,3,ror,Can Tho University of Medicine and Pharmacy,central,,
+daihochoabinh.edu.vn,3,ror,Trường Đại học Hoà Bình,central,,
+daihoclongan.edu.vn,3,ror,Long An University of Economics and Industry,central,,
+daihocpccc.edu.vn,3,ror,Học viện Phòng cháy chữa cháy và Cứu nạn cứu hộ,central,,
+dau.edu.vn,3,ror,Danang Architecture University,central,,
+dhcd.edu.vn,3,ror,Trade Union University,central,,
+dhcsnd.edu.vn,3,ror,Trường Đại học Cảnh sát nhân dân,central,,
+dhhp.edu.vn,3,ror,Hai Phong University,central,,
+dhsphue.edu.vn,3,ror,Hue University of Education,central,,
+dhtv.edu.vn,3,ror,Trung Vuong University,central,,
+dlu.edu.vn,3,ror,Dalat University,central,,
+dntu.edu.vn,3,ror,Trường Đại học Công nghệ Đồng Nai,central,,
+dongnaiuni.edu.vn,3,ror,Trường Đại học Đồng Nai,central,,
+eaut.edu.vn,3,ror,East Asia University of Technology,central,,
+education.vnu.edu.vn,3,ror,VNU University of Education,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Vietnam,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+eiu.edu.vn,3,ror,Eastern International University,central,,
+en.dthu.edu.vn,3,ror,Dong Thap University,central,,
+en.hcmuaf.edu.vn,3,ror,Nong Lam University Ho Chi Minh City,central,,
+en.hou.edu.vn,3,ror,Hanoi Open University,central,,
+en.huaf.edu.vn,3,ror,Hue University of Agriculture and Forestry,central,,
+en.hunre.edu.vn,3,ror,Hanoi University of Natural Resources and Environment,central,,
+en.lhu.edu.vn,3,ror,Lac Hong University,central,,
+en.tvu.edu.vn,3,ror,Tra Vinh University,central,,
+en.vnuf.edu.vn,3,ror,Vietnam National University of Forestry,central,,
+english.bdu.edu.vn,3,ror,Bình Dương University,central,,
+english.hnue.edu.vn,3,ror,Hanoi National University of Education,central,,
+epu.edu.vn,3,ror,Electric Power University,central,,
+fbu.edu.vn,3,ror,Trường Đại học Tài chính – Ngân hàng Hà Nội,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Vietnam,central,301,10 mail.valtori.fi.
+fpt.edu.vn,3,ror,FPT University,central,,
+ftu.edu.vn,3,ror,Foreign Trade University,central,,
+fulbright.edu.vn,3,ror,Fulbright University Vietnam,central,,
+giadinh.edu.vn,3,ror,Trường Đại học Gia Định,central,,
+gust.edu.vn,3,ror,Graduate University of Science and Technology,central,,
 hanoi.mae.ro,3,wikidata,embassy of Romania in Vietnam,central,503,none
+hanu.vn,3,ror,Hanoi University,central,,
+hau.edu.vn,3,ror,Hanoi Architectural University,central,,
+hce.edu.vn,3,ror,"Trường Đại học Kinh tế, Đại học Huế",central,,
+hcmiu.edu.vn,3,ror,Ho Chi Minh City International University,central,,
+hcmue.edu.vn,3,ror,Ho Chi Minh City University of Education,central,,
+hcmufa.edu.vn,3,ror,Ho Chi Minh City University of Fine Arts,central,,
+hcmulaw.edu.vn,3,ror,Ho Chi Minh City University of Law,central,,
+hcmus.edu.vn,3,ror,Ho Chi Minh City University of Science,central,,
+hcmussh.edu.vn,3,ror,Ho Chi Minh City University of Social Sciences and Humanities,central,,
+hcmut.edu.vn,3,ror,Ho Chi Minh City University of Technology,central,,
+hdu.edu.vn,3,ror,Hồng Đức University,central,,
+hiu.vn,3,ror,Hong Bang International University,central,,
+hlu.edu.vn,3,ror,Hanoi Law University,central,,
+hluv.edu.vn,3,ror,Trường Đại học Hoa Lư,central,,
+hmtu.edu.vn,3,ror,Trường Đại học Kỹ thuật Y tế Hải Dương,central,,
+hmu.edu.vn,3,ror,Hanoi Medical University,central,,
 ho-chi-minh-stadt.diplo.de,3,wikidata,"Consulate General of Germany, Ho Chi Minh City",,301,10 mx1.bund.de.; 10 mx2.bund.de.
 ho-chi-minh-ville.consulfrance.org,3,wikidata,Consulate General of France in Ho Chi Minh City,,301,none
+hoasen.edu.vn,3,ror,Hoa Sen University,central,,
+hpmu.edu.vn,3,ror,Hai phong University Of Medicine and Pharmacy,central,,
+hpu2.edu.vn,3,ror,Hanoi Pedagogical University 2,central,,
+htu.edu.vn,3,ror,Trường Đại học Hà Tĩnh,central,,
+hub.edu.vn,3,ror,Ho Chi Minh University of Banking,central,,
+hubt.edu.vn,3,ror,Hanoi University of Business and Technology,central,,
+huc.edu.vn,3,ror,Hanoi University of Culture,central,,
+huce.edu.vn,3,ror,Hanoi University of Civil Engineering,central,,
+huemed-univ.edu.vn,3,ror,Huế University of Medicine and Pharmacy,central,,
+hueuni.edu.vn,3,ror,Hue University,central,,
+huit.edu.vn,3,ror,Ho Chi Minh City University of Industry and Trade,central,,
+humg.edu.vn,3,ror,Hanoi University of Mining and Geology,central,,
+hup.edu.vn,3,ror,Hanoi University of Pharmacy,central,,
+hus.vnu.edu.vn,3,ror,VNU University of Science,central,,
+husc.edu.vn,3,ror,"Trường Đại học Khoa học, Đại học Huế",central,,
+hust.edu.vn,3,ror,Hanoi University of Science and Technology,central,,
+hvu.edu.vn,3,ror,Hung Vuong University,central,,
+is.vnu.edu.vn,3,ror,VNU International School,central,,
+iuh.edu.vn,3,ror,Industrial University of Ho Chi Minh City,central,,
+kiemsat.edu.vn,3,ror,Hanoi Procuratorate University,central,,
+law.vnu.edu.vn,3,ror,VNU University of Law,central,,
+ldxh.edu.vn,3,ror,University of Labor and Social Affairs,central,,
+lqdtu.edu.vn,3,ror,Le Quy Don Technical University,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Vietnam,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Vietnam,central,403,10 mailhost.mfa.gr.
+mit.vn,3,ror,Mien Dong Innovative Technology University,central,,
+mku.edu.vn,3,ror,Mekong University,central,,
+mtud.edu.vn,3,ror,Trường Đại học Mỹ thuật Công nghiệp,central,,
+muce.edu.vn,3,ror,Trường Đại học Xây dựng Miền Trung,central,,
+mythuatvietnam.edu.vn,3,ror,Vietnam University of Fine Arts,central,,
 mzv.cz,3,wikidata,embassy of the Czech republic in Vietnam,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Vietnam,central,301,10 mail.gov.sk.
+nau.edu.vn,3,ror,Trường Đại học Nghệ An,central,,
+ndun.edu.vn,3,ror,Nam Dinh University of Nursing,central,,
 norway.no,3,wikidata,"Embassy of Norway, Hanoi",central,301,0 mx.domeneshop.no.
+ntu.edu.vn,3,ror,Nha Trang University,central,,
+ou.edu.vn,3,ror,Ho Chi Minh City Open University,central,,
+pctu.edu.vn,3,ror,Phan Chau Trinh University,central,,
+pdu.edu.vn,3,ror,Pham Van Dong University,central,,
+phenikaa-uni.edu.vn,3,ror,Phenikaa University,central,,
+phuongdong.edu.vn,3,ror,Trường Đại học Phương Đông,central,,
+portal.ptit.edu.vn,3,ror,Posts and Telecommunications Institute of Technology,central,,
+ptithcm.edu.vn,3,ror,Posts and Telecommunications Institute of Technology - Ho Chi Minh City,central,,
+pvu.edu.vn,3,ror,PetroVietnam University,central,,
+qnamuni.edu.vn,3,ror,Quang Nam University,central,,
+qnu.edu.vn,3,ror,Quy Nhon University,central,,
+quangbinhuni.edu.vn,3,ror,Quảng Bình University,central,,
+rmit.edu.vn,3,ror,RMIT Vietnam,central,,
 roc-taiwan.org,3,wikidata,"Taipei Economic and Cultural Office, Ho Chi Minh City",,302,none
+sgu.edu.vn,3,ror,Saigon University,central,,
+skdahcm.edu.vn,3,ror,University of Theatre and Cinema Ho Chi Minh City,central,,
+spnttw.edu.vn,3,ror,Trường Đại học Sư phạm Nghệ thuật Trung ương,central,,
+sqlq1.edu.vn,3,ror,Trường Đại học Trần Quốc Tuấn,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Hanoi",central,301,none
+tbd.edu.vn,3,ror,Thai Binh Duong University,central,,
+tbu.edu.vn,3,ror,Trường Đại học Thái Bình,central,,
+tbump.edu.vn,3,ror,Thai Binh University of Medicine and Pharmacy,central,,
+tcu.edu.vn,3,ror,Trường Đại học Thông tin Liên lạc,central,,
+tdmu.edu.vn,3,ror,Thu Dau Mot University,central,,
+tdu.edu.vn,3,ror,Tay Do University,central,,
+tgu.edu.vn,3,ror,Trường Đại học Tiền Giang,central,,
+thanglong.edu.vn,3,ror,Thang Long University,central,,
+thanhdo.edu.vn,3,ror,Thanh Do University,central,,
+thanhtay.edu.vn,3,ror,Thanhtay University,central,,
+tlu.edu.vn,3,ror,Thuyloi University,central,,
+tnus.edu.vn,3,ror,Trường Đại học Khoa học,central,,
+tnut.edu.vn,3,ror,Thai Nguyen University of Technology,central,,
+tokyo-human.edu.vn,3,ror,Trường Đại học Y khoa Tokyo Việt Nam,central,,
+ttn.edu.vn,3,ror,Tay Nguyen University,central,,
+ttu.edu.vn,3,ror,Tân Tạo University,central,,
+tuaf.edu.vn,3,ror,Thai Nguyen University of Agriculture and Forestry,central,,
+tucst.edu.vn,3,ror,"Thanh Hoa University of Culture, Sports and Tourism",central,,
+tueba.edu.vn,3,ror,Trường Đại học Kinh tế và Quản trị kinh doanh,central,,
+tuetech.edu.vn,3,ror,TUETECH University,central,,
+uah.edu.vn,3,ror,Ho Chi Minh City University of Architecture,central,,
+ueb.vnu.edu.vn,3,ror,VNU University of Economics and Business,central,,
+ued.udn.vn,3,ror,Trường Đại học Sư phạm – Đại học Đà Nẵng,central,,
+uef.edu.vn,3,ror,Ho Chi Minh City University of Economics and Finance,central,,
+uel.edu.vn,3,ror,University of Economics and Law,central,,
+uet.vnu.edu.vn,3,ror,VNU University of Engineering and Technology,central,,
+ufl.udn.vn,3,ror,University of Da Nang,central,,
+ufm.edu.vn,3,ror,University of Finance - Marketing,central,,
+uhd.edu.vn,3,ror,University of Hai Duong,central,,
+uhsvnu.edu.vn,3,ror,Trường Đại học Khoa học Sức khỏe,central,,
+uit.edu.vn,3,ror,University of Information Technology,central,,
+ulis.vnu.edu.vn,3,ror,University of Languages and International Studies,central,,
+ump.edu.vn,3,ror,University of Medicine and Pharmacy at Ho Chi Minh City,central,,
+uneti.edu.vn,3,ror,University of Economics - Technology for Industries,central,,
+upes1.edu.vn,3,ror,Bac Ninh Sport University of Viet Nam,central,,
+upt.edu.vn,3,ror,University of Phan Thiet,central,,
+ush.edu.vn,3,ror,Trường Đại học Thể dục thể thao Thành phố Hồ Chí Minh,central,,
+ut.edu.vn,3,ror,Ho Chi Minh City University of Transport,central,,
+utc.edu.vn,3,ror,University of Transport and Communications,central,,
+ute.udn.vn,3,ror,Trường Đại học Sư phạm Kỹ thuật,central,,
+utehy.edu.vn,3,ror,Hung Yen University of Technology and Education,central,,
+utt.edu.vn,3,ror,University Of Transport Technology,central,,
+vatm.edu.vn,3,ror,Viet Nam University Of Traditional Medicine,central,,
+vhu.edu.vn,3,ror,Văn Hiến University,central,,
 vietnam.diplo.de,3,wikidata,"Embassy of Germany, Hanoi",central,200,none
 vietnam.mid.ru,3,wikidata,embassy of Russia in Vietnam,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 vietnam.um.dk,3,wikidata,Embassy of Denmark in Hanoi,central,301,none
+vimaru.edu.vn,3,ror,Vietnam Maritime University,central,,
+vinhuni.edu.vn,3,ror,Vinh University,central,,
+vinuni.edu.vn,3,ror,VinUniversity,central,,
+viu.edu.vn,3,ror,Viet-Hung Industrial University,central,,
+vju.ac.vn,3,ror,VNU Vietnam Japan University,central,,
+vku.udn.vn,3,ror,Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn,central,,
+vlute.edu.vn,3,ror,Vinh Long University of Technology Education,central,,
+vmmu.edu.vn,3,ror,Vietnam Military Medical University,central,,
 vn.ambafrance.org,3,wikidata,"Embassy of France, Hanoi",central,301,none
 vn.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Hanoi",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vn.china-embassy.org found.,none
+vnkgu.edu.vn,3,ror,Kien Giang University,central,,
+vnua.edu.vn,3,ror,Vietnam National University of Agriculture,central,,
+vuted.edu.vn,3,ror,Vinh University of Technology Education,central,,
+vxut.edu.vn,3,ror,Van Xuan University of Technology,central,,
 web.roc-taiwan.org,3,wikidata,"Taipei Economic and Cultural Office, Hanoi, Vietnam",,HttpConnectTimeoutException: HTTP connect timed out,none
+ydn.edu.vn,3,ror,Trường Đại học Kỹ thuật Y - Dược Đà Nẵng,central,,
+yersin.edu.vn,3,ror,Trường Đại học Yersin Đà Lạt,central,,

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-205 domain(s) proposed for validation, of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+364 domain(s) proposed for validation, of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -54,5 +54,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `lajesfss.com` |  | ConnectEx... | wikidata;wikidata | 65th Force Support Squadron | Lajes Airman and Family Readiness Center |
 | 6 | `stj.pt` | central | 301 | wikidata | Portuguese Supreme Court of Justice |
 | 6 | `tribunalconstitucional.pt` |  | SSLHandsh... | wikidata | Portuguese Constitutional Court |
-| 5 | `cm-abrantes.pt` |  | HttpTimeo... | linkgraph | Linked from 9 public-sector domains |
+| 6 | `ua.pt` | central |  | academia;ror | University of Aveiro |
 

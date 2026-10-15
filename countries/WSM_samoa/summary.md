@@ -30,12 +30,15 @@
 
 ## Proposed domains ranked by score
 
-3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `palemene.ws` | central | 200 | wikidata;wikidata | Legislative Assembly of Samoa |
 | 6 | `samoagovt.ws` |  | 307 | un_desa | UN/DESA national portal |
+| 3 | `nus.edu.ws` | central |  | ror | National University of Samoa |
+| 3 | `oum.edu.ws` | central |  | ror | Oceania University of Medicine |
 | 3 | `samoashipping.com` |  | 200 | wikidata | Samoa Shipping Corporation |
+| 2 | `usp.ac.fj` | central |  | ror | University of the South Pacific - Samoa Campus |
 

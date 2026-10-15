@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 109 of 193
 - Government type: presidential republic
 - Capital: Nairobi
-- Hosts collected: 1
+- Hosts collected: 37
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-92 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+155 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -51,8 +51,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `transport.go.ke` | central | 200 | wikidata;wikidata | Ministry of roads and transport |
 | 7 | `treasury.go.ke` | central | 200 | wikidata;wikidata | Ministry of Finance |
 | 6 | `judiciary.go.ke` | central | 200 | wikidata | Supreme Court of Kenya |
-| 6 | `mygov.go.ke` |  | 200 | un_desa | UN/DESA national portal |
-| 4 | `ca.go.ke` |  | 307 | wikidata | Communications Authority of Kenya |
-| 4 | `centralbank.go.ke` |  | 301 | wikidata | Central Bank of Kenya |
-| 4 | `cma.or.ke` |  | 301 | wikidata | Capital Markets Authority |
+| 6 | `karu.ac.ke` | central |  | academia;ror | Karatina University |
+| 6 | `kibu.ac.ke` | central |  | academia;ror | Kibabii University |
+| 6 | `ku.ac.ke` | central |  | academia;ror | Kenyatta University |
+| 6 | `kyu.ac.ke` | central |  | academia;ror | Kirinyaga University |
 

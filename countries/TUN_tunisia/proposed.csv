@@ -13,6 +13,7 @@ santetunisie.rns.tn,7,wikidata;wikidata,Ministry of Health,central,HttpConnectTi
 sport.tn,7,wikidata;wikidata,Ministry of Youth and Sports,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sport.tn found.,50 mx2email.ingw.tn.; 10 mx1email.ingw.tn.
 transport.tn,7,wikidata;wikidata,Ministry of Transport,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
 cassation.tn,6,wikidata,Court of Cassation,,ConnectException,none
+ucar.rnu.tn,6,academia;ror,Carthage University,central,,
 afi.nat.tn,4,wikidata,Q136699374,,301,0 afi-nat-tn.mail.protection.outlook.com.
 ambdz.tn,4,wikidata,"Embassy of Algeria, Tunis",central,ConnectException,0 mx02.ingw.orange.tn.; 0 mx04.ingw.orange.tn.; 0 mx01.ingw.orange.tn.; 0 mx03.ingw.orange.tn.
 anged.nat.tn,4,wikidata,National Waste Management Agency,,ConnectException,0 mx20.gnet.tn.; 0 mx10.gnet.tn.
@@ -91,17 +92,49 @@ telediffusion.net.tn,4,wikidata,Q18397396,,301,50 mx2email.ingw.tn.; 50 mx1email
 transtu.tn,4,wikidata,Société des transports de Tunis,,301,0 mx3.topnetpro.com.; 0 mx2.topnetpro.com.; 0 mx1.topnetpro.com.
 tunisieindustrie.nat.tn,4,wikidata,Agency for the Promotion of Industry and Innovation,,ConnectException,10 mx1email.ingw.tn.; 50 mx2email.ingw.tn.
 tunisz.mfa.gov.hu,4,wikidata,Embassy of Hungary in Tunisia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-ucar.rnu.tn,4,academia,Carthage University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Tunisia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+enetcom.rnu.tn,3,ror,"National School of Electronics and Telecommunications of Sfax, Tunisia",central,,
+enig.rnu.tn,3,ror,École Nationale d'Ingénieurs de Gabès,central,,
+enis.rnu.tn,3,ror,École nationale d'Ingénieurs de Sfax,central,,
+enit.rnu.tn,3,ror,National Engineering School of Tunis,central,,
+ensi.rnu.tn,3,ror,National School of Computer Science,central,,
+ensit.tn,3,ror,ENSIT,central,,
+ept.rnu.tn,3,ror,Tunisia Polytechnic School,central,,
+eseac.ens.tn,3,ror,École Supérieure des Études Administratives et Commerciales,central,,
+esier.agrinet.tn,3,ror,École Supérieure des Ingénieurs de l'Équipement Rural,central,,
+esprit.tn,3,ror,École Supérieure Privée d'Ingénierie et de Technologies,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Tunisia,central,301,10 mail.valtori.fi.
+hipu.com.tn,3,ror,Health International Private University,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Tunisia,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,"Embassy of Greece, Tunis",central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech republic in Tunisia,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 pakistanembassytunis.com,3,wikidata,embassy of Pakistan in Tunisia,central,200,0 pakistanembassytunis.com.
+smu.tn,3,ror,South Mediterranean University,central,,
 swedenabroad.se,3,wikidata,Embassy of Sweden in Tunisia,central,301,none
+time.ens.tn,3,ror,Time Université,central,,
 tn.ambafrance.org,3,wikidata,"Embassy of France, Tunis",central,301,5 mta-gw.infomaniak.ch.
 tunesien.um.dk,3,wikidata,Q131933168,,301,none
 tunis.diplo.de,3,wikidata,"Embassy of Germany, Tunis",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 tunis.mae.ro,3,wikidata,embassy of Romania in Tunisia,central,503,none
 tunisie.mid.ru,3,wikidata,embassy of Russia in Tunisia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+uas.ens.tn,3,ror,Université Arabe des Sciences,central,,
+uc.rnu.tn,3,ror,University of Sousse,central,,
+ugaf.rnu.tn,3,ror,University of Gafsa,central,,
+uik.ens.tn,3,ror,Université Ibn Khaldoun,central,,
+uj.rnu.tn,3,ror,University of Jendouba,central,,
+uls.ens.tn,3,ror,Université Privée du Sud,central,,
+um.rnu.tn,3,ror,University of Monastir,central,,
+uma.rnu.tn,3,ror,Manouba University,central,,
+umt.ens.tn,3,ror,Université Montplaisir Tunis,central,,
+univ-k.rnu.tn,3,ror,University of Kairouan,central,,
+univ-sfax.tn,3,ror,University of Sfax,central,,
+univgb.rnu.tn,3,ror,University of Gabès,central,,
+utm.rnu.tn,3,ror,Tunis El Manar University,central,,
+utunis.rnu.tn,3,ror,Tunis University,central,,
+uvt.rnu.tn,3,ror,Virtual University of Tunis,central,,
+uz.rnu.tn,3,ror,Ez-Zitouna University,central,,
 domainetat.tn,2,wikidata;wikidata;wikidata,Ministry of State Domains and Land Affairs | Ministry of State Domains,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 gwmail2.ati.tn.; 5 gwmail1.ati.tn.
+ult-tunisie.com,2,ror,Tunisia Private University,central,,
+univ-internationale.com,2,ror,Université Internationale de Tunis,central,,
+universitecentrale.net,2,ror,Université Centrale de Tunis,central,,
+utctunisie.com,2,ror,Université Tunis Carthage,central,,

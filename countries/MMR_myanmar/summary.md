@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+74 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,16 +39,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `nugmyanmar.org` | central | 200 | wikidata;wikidata;wikidata;wikidata | National Unity Government of Myanmar |
 | 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in Myanmar |
 | 4 | `myanmarstandards.org.mm` |  | 403 | wikidata | National Institute of Metrology Myanmar |
+| 3 | `banmawuniversity.moe.edu.mm` | central |  | ror | Bhamo University |
+| 3 | `buc.edu.mm` | central |  | ror | British United College |
 | 3 | `crphmyanmar.org` |  | 200 | wikidata | Committee Representing Pyidaungsu Hluttaw |
+| 3 | `daweiuniversity.edu.mm` | central |  | ror | Dawei University |
 | 3 | `dsmrmm.com` |  | SSLHandsh... | wikidata | Defence Services Medical Research Centre |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Myanmar / Burma |
+| 3 | `eyu.edu.mm` | central |  | ror | University of East Yangon |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | embassy of Finland in Myanmar |
-| 3 | `mm.ambafrance.org` | central | 301 | wikidata | Embassy of France, Yangon |
-| 3 | `mm.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Yangon |
-| 3 | `myanmar.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Myanmar |
-| 3 | `myanmar.um.dk` | central | 301 | wikidata | embassy of Denmark in Myanmar |
-| 3 | `mzv.cz` | central | 302 | wikidata | embassy of the Czech republic in Myanmar |
-| 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway in Myanmar |
-| 3 | `rangun.diplo.de` | central | 200 | wikidata | Embassy of Germany, Yangon |
-| 1 | `holyrosaryprovince.org` |  | 301 | wikidata;wikidata;wikidata;wikidata | Dominican Province of Our Lady of the Rosary |
+| 3 | `hbtu.edu.mm` | central |  | ror | Technological University Hmawbi |
+| 3 | `hu.edu.mm` | central |  | ror | Hinthada University |
+| 3 | `ilu.edu.mm` | central |  | ror | International Leadership Collège |
+| 3 | `itbmu.org.mm` | central |  | ror | International Theravada Buddhist Missionary University |
+| 3 | `kyaingtonguniversity.moe.edu.mm` | central |  | ror | Kyaingtong University |
+| 3 | `kyauksetu.edu.mm` | central |  | ror | Technological University Kyaukse |
+| 3 | `loikawuniversity.edu.mm` | central |  | ror | Loikaw University |
+| 3 | `maeu.edu.mm` | central |  | ror | Myanmar Aerospace Engineering University |
 

@@ -1,10 +1,14 @@
 hostname,score,sources,label,level,http_status,mx
+ussein.sn,9,academia;academia;ror,Université El Hadji Ibrahima Niasse | Université Sine-Saloum El Hadji Ibrahima Niasse,central,,
 ansd.sn,7,wikidata;academia,Agence Nationale de la Statistique et de la Démographie,central,ConnectException,10 mail.ansd.sn.
 assemblee-nationale.sn,7,wikidata;wikidata,National Assembly,central,ConnectException,none
 education.sn,7,wikidata;wikidata,Ministry of National Education of Senegal,central,200,0 education-sn.mail.protection.outlook.com.
 mctn.sn,7,wikidata;wikidata,Ministry of Telecommunications and Digital Affairs of Senegal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 smtp.gouv.sn.
-ussein.sn,7,academia;academia,Université El Hadji Ibrahima Niasse | Université Sine-Saloum El Hadji Ibrahima Niasse,central,,
 escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,,ConnectException,none
+uam.sn,6,academia;ror,Université Amadou Mahtar Mbow,central,,
+uasz.sn,6,academia;ror,Assane Seck University,central,,
+ucad.sn,6,academia;ror,Université Cheikh Anta Diop,central,,
+ugb.sn,6,academia;ror,Université Gaston Berger,central,,
 anacim.sn,4,wikidata,Agence Nationale de l'Aviation Civile du Sénégal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 anacim-sn.mail.protection.outlook.com.
 cena.sn,4,wikidata,National Autonomous Electoral Commission,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 conseilconstitutionnel.sn,4,wikidata,Q2993691,,200,5 smtp.gouv.sn.
@@ -17,10 +21,7 @@ mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dakar",central,IO
 onas.sn,4,wikidata,National Office for Sanitation of Senegal,,200,5 mta-gw.infomaniak.ch.
 sip.sn,4,wikidata,Commune de Matam,,ConnectException,0 sip-sn.mail.protection.outlook.com.
 statsenegal.sn,4,wikidata,Système Statistique National du Sénégal,,ConnectException,none
-uam.sn,4,academia,Université Amadou Mahtar Mbow,central,,
-uasz.sn,4,academia,Assane Seck University,central,,
-ucad.sn,4,academia,Université Cheikh Anta Diop,central,,
-ugb.sn,4,academia,Université Gaston Berger,central,,
+afi-ue.sn,3,ror,Groupe AFI,central,,
 amba-senegal.ga,3,wikidata,Gabonese Embassy in Senegal,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.amba-senegal.ga.
 ambaburkina-sn.org,3,wikidata,embassy of Burkina Faso in Senegal,central,200,0 mail.ambaburkina-sn.org.
 ambadak.org,3,wikidata,embassy of Madagascar in Senegal,central,ConnectException,none
@@ -31,6 +32,10 @@ dakar.diplo.de,3,wikidata,"Embassy of Germany, Dakar",central,200,10 mx2.bund.de
 dakar.mae.lu,3,wikidata,Q101444757,central,302,none
 dakar.mae.ro,3,wikidata,"Embassy of Romania, Dakar",central,503,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Senegal,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+ena.sn,3,ror,École Nationale d'Administration,central,,
+ensa.sn,3,ror,École Nationale Supérieure d'Agriculture,central,,
+ept.edu.sn,3,ror,École Polytechnique de Thiès,central,,
+esmt.sn,3,ror,École Supérieure Multinationale des Télécommunications,central,,
 exteriors.gencat.cat,3,wikidata,"Government Delegation of Catalonia, Dakar",central,301,none
 facebook.com,3,wikidata,"Embassy of Malaysia, Dakar",central,ConnectException,none
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Dakar",central,301,10 mail.valtori.fi.
@@ -40,4 +45,11 @@ mfa.gr,3,wikidata,embassy of Greece in Senegal,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,Embassy of the Czech Republic in Senegal,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 senegal.mid.ru,3,wikidata,embassy of Russia in Senegal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 sn.ambafrance.org,3,wikidata,"Embassy of France, Dakar",central,301,none
+supdeco.sn,3,ror,Groupe École Supérieure de Commerce de Dakar,central,,
+uadb.edu.sn,3,ror,Université Alioune Diop de Bambey,central,,
+uahb.sn,3,ror,Université Amadou Hampaté Ba,central,,
+uea.edu.sn,3,ror,Université Euro-Afrique,central,,
+unchk.sn,3,ror,Université numérique Cheikh Hamidou KANE,central,,
+unis.sn,3,ror,Université du Sahel,central,,
+univ-thies.sn,3,ror,Université de Thiès,central,,
 mesrisenegal.sn,2,wikidata;wikidata;wikidata,"Ministry of Higher Education, Research and Innovation of Senegal | Q139297158",central,200,0 mesrisenegal.sn.

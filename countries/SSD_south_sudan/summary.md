@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,9 +41,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `ssnbs.org` | central | 200 | wikidata;academia | National Bureau of Statistics |
 | 3 | `dschuba.diplo.de` | central | 200 | wikidata | Embassy of Germany, Juba |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to South Sudan |
+| 3 | `jgmu.ac.ss` | central |  | ror | John Garang Memorial University of Science and Technology |
 | 3 | `norway.no` | central | 301 | wikidata | Embassy of Norway in South Sudan |
 | 3 | `ss.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Juba |
 | 3 | `ssd.ambafrance.org` | central | 301 | wikidata | Embassy of France, Juba |
+| 3 | `unu.ac.ss` | central |  | ror | Upper Nile University |
+| 3 | `uoj.edu.ss` | central |  | ror | University of Juba |
+| 2 | `bridgeuniversity.net` | central |  | ror | Bridge University |
+| 2 | `cuofss.org` | central |  | ror | Catholic University of South Sudan |
 
 ## ccTLD anomalies
 

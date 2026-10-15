@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+9 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,4 +40,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `eccb-centralbank.org` |  | ConnectEx... | wikidata | Eastern Caribbean Central Bank |
 | 3 | `sknbs.org` |  | 200 | wikidata | Saint Kitts and Nevis Bureau of Standards |
 | 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Basseterre |
+| 2 | `mua.edu` | central |  | ror | Medical University of the Americas |
+| 2 | `rossu.edu` | central |  | ror | Ross University School of Veterinary Medicine |
+| 2 | `umhs-sk.org` | central |  | ror | University of Medicine and Health Sciences |
+| 2 | `windsor.edu` | central |  | ror | Windsor University School of Medicine |
 

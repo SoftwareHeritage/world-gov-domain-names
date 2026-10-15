@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+14 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -45,6 +45,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `sbb.sr` |  | 200 | wikidata | Q126371676 |
 | 3 | `nccr.sr.org` |  | ConnectEx... | wikidata | National Coordination Center for Disaster Relief of Suriname |
 | 3 | `nzcs.uvs.edu` | central |  | academia | National Zoological Collection of Suriname |
+| 3 | `ptc.edu.sr` | central |  | ror | Polytechnic College Suriname |
 | 3 | `surguychamber.org` |  | 200 | wikidata | Suriname-Guyana Kamer van Koophandel |
 | 3 | `taalunie.org` |  | 200 | wikidata | Dutch Language Union |
+| 2 | `uvs.edu` | central |  | ror | Anton de Kom University of Suriname |
 

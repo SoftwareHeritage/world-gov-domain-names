@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,4 +41,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `er.ambafrance.org` | central | 301 | wikidata | Embassy of France, Asmara |
 | 3 | `eritrea.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Eritrea |
 | 3 | `eritreanarchives.org` |  | SSLHandsh... | wikidata | Research and Documentation Center |
+| 2 | `universityofasmara.com` | central |  | ror | University of Asmara |
 

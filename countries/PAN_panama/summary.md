@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+42 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,12 +39,16 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `banconal.com.pa` |  | 403 | wikidata | National Bank of Panama |
 | 4 | `binal.ac.pa` |  | 200 | wikidata | National Library of Panama |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Panama |
+| 3 | `adenuniversity.edu.pa` | central |  | ror | ADEN University Panamá |
 | 3 | `ccecasadelsoldado.aecid.es` |  | 200 | wikidata | Q141094139 |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Panama |
 | 3 | `embahn-panama.com` | central | 301 | wikidata | embassy of Honduras in Panama |
 | 3 | `embajadabolpan.com` | central | 404 | wikidata | embassy of Bolivia in Panama |
 | 3 | `embajadacostaricaenpanama.com` | central | 301 | wikidata | embassy of Costa Rica in Panama |
+| 3 | `ganexa.edu.pa` | central |  | ror | Universidad del Arte Ganexa |
 | 3 | `indianembassyinpanama.com` | central | 301 | wikidata | Embassy of India, Panama City |
+| 3 | `isaeuniversidad.ac.pa` | central |  | ror | ISAE Universidad |
+| 3 | `oteima.ac.pa` | central |  | ror | Universidad Tecnológica Oteima |
 | 3 | `pa.ambafrance.org` | central | 301 | wikidata | Embassy of France, Panama City |
 | 3 | `pa.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Panama City |
 | 3 | `panama-city.embassy.qa` | central | SSLHandsh... | wikidata | embassy of Qatar in Panama |

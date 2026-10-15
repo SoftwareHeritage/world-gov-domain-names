@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-800 domain(s) proposed for validation, of which 148 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+887 domain(s) proposed for validation, of which 232 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -46,13 +46,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `scics.ca` |  | 200 | wikidata;wikidata;directory | Canadian Intergovernmental Conference Secretariat |
 | 10 | `viarail.ca` | central | 301 | wikidata;wikidata;directory | Via Rail Police Service |
 | 10 | `yukon.ca` | central-1 | 403 | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph | Yukon Archives | Government of Yukon | Yukon Parks | Yukon Department of Envi... |
+| 9 | `umanitoba.ca` | central-1 | 200 | wikidata;academia;ror | Prairie and Arctic Storm Prediction Centre | University of Manitoba |
+| 9 | `uwaterloo.ca` | central-1 |  | academia;academia;ror | United College, Waterloo | University of Waterloo |
+| 9 | `yorku.ca` | central-1 |  | academia;academia;ror | York University | York University Markham Centre Campus |
 | 8 | `agric.gov.ab.ca` |  | ConnectEx... | wikidata;wikidata | Alberta Ministry of Agriculture and Forestry |
 | 8 | `alberta.ca` |  | 301 | wikidata;linkgraph | Alberta Education |
 | 8 | `attorneygeneral.jus.gov.on.ca` |  | SSLHandsh... | wikidata;wikidata | Ministry of the Attorney General |
 | 8 | `autochtones.gouv.qc.ca` | central-1 | HttpConne... | wikidata;wikidata | Ministry of Native Affairs |
 | 8 | `bankofcanada.ca` |  | 301 | wikidata;directory | Bank of Canada |
 | 8 | `cadth.ca` | central | 301 | wikidata;directory | Canada's Drug Agency |
-| 8 | `ccohs.ca` |  | 301 | wikidata;directory | Canadian Centre for Occupational Health and Safety |
-| 8 | `ccsa.ca` |  | HttpConne... | wikidata;directory | Canadian Centre on Substance Abuse |
-| 8 | `cdic.ca` |  | 301 | wikidata;directory | Canada Deposit Insurance Corporation |
 

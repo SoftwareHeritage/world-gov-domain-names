@@ -1,6 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
 iph.mk,7,wikidata;wikidata,Institute of Public Health of North Macedonia,,200,10 bjorn.mk-host.com.
 sobranie.mk,7,wikidata;wikidata,Assembly of North Macedonia,central,301,10 mail.sobranie.mk.; 20 mail2.sobranie.mk.
+nubsk.edu.mk,6,wikidata;ror,"National and University Library ""St. Kliment of Ohrid""",central,200,5 arya.mk-host.mk.
+ukim.edu.mk,6,academia;ror,Ss. Cyril and Methodius University of Skopje,central,,
+uklo.edu.mk,6,academia;ror,St. Clement of Ohrid University of Bitola,central,,
 ustavensud.mk,6,wikidata,Constitutional Court of North Macedonia,,200,10 mail.ustavensud.mk.
 vlada.mk,6,un_desa,UN/DESA national portal,,200,1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
 vsrm.mk,6,wikidata,Supreme Court of North Macedonia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.vsrm.mk.
@@ -10,21 +13,33 @@ arhiv.mk,4,wikidata,State Archive of the Republic of North Macedonia,,200,10 mai
 ff.ugd.edu.mk,4,academia,Q12911322,central,,
 ia.mk,4,wikidata,Intelligence Agency of North Macedonia,,HttpConnectTimeoutException: HTTP connect timed out,none
 nbrm.mk,4,wikidata,National Bank of North Macedonia,,403,10 mail.nbrm.mk.
-nubsk.edu.mk,4,wikidata,"National and University Library ""St. Kliment of Ohrid""",,200,5 arya.mk-host.mk.
 oskratovo.mk,4,wikidata,Courthouses in Kratovo,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching oskratovo.mk found.,10 webmail.oskratovo.mk.
 osnegotino.mk,4,wikidata,Courthouses in Negotino,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching osnegotino.mk found.,10 webmail.osnegotino.mk.
-ukim.edu.mk,4,academia,Ss. Cyril and Methodius University of Skopje,central,,
-uklo.edu.mk,4,academia,St. Clement of Ohrid University of Bitola,central,,
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Skopje",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
 eeas.europa.eu,3,wikidata,Delegation of the European Union to North Macedonia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+eu.edu.mk,3,ror,European University,central,,
+euba.edu.mk,3,ror,Euro Balkan University,central,,
+fon.edu.mk,3,ror,American University of Europe,central,,
+ibu.edu.mk,3,ror,International Balkan University,central,,
+iust.edu.mk,3,ror,International University of Struga,central,,
 macedonia.mid.ru,3,wikidata,embassy of Russia in North Macedonia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mfa.bg,3,wikidata,embassy of Bulgaria in North Macedonia,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in North Macedonia,central,403,10 mailhost.mfa.gr.
+mit.edu.mk,3,ror,MIT University,central,,
 mk.ambafrance.org,3,wikidata,"Embassy of France, Skopje",central,301,none
 mk.mvep.hr,3,wikidata,embassy of Croatia in North Macedonia,central,ConnectException,none
+msu.edu.mk,3,ror,International Slavic University Gavrilo Romanovich Derzhavin,central,,
 mzv.cz,3,wikidata,embassy of the Czech republic in North Macedonia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in North Macedonia,central,301,10 mail.gov.sk.
+seeu.edu.mk,3,ror,South East European University,central,,
+seismobsko.pmf.ukim.edu.mk,3,ror,"Seismological Observatory at the Faculty of Natural Sciences and Mathematics, Ss. Cyril and Methodius University, Skopje, Republic of Macedonia",central,,
 skopje.diplo.de,3,wikidata,"Embassy of Germany, Skopje",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 skopje.embassy.si,3,wikidata,embassy of Slovenia in North Macedonia,central,SSLHandshakeException: Remote host terminated the handshake,none
 skopje.mae.ro,3,wikidata,embassy of Romania in North Macedonia,central,ConnectException,none
 swedenabroad.se,3,wikidata,Embassy of Sweden in Skopje,central,301,none
+uacs.edu.mk,3,ror,University American College Skopje,central,,
+ugd.edu.mk,3,ror,Goce Delcev University,central,,
+uist.edu.mk,3,ror,University of Information Science and Technology St. Paul The Apostle,central,,
+unite.edu.mk,3,ror,State University of Tetova,central,,
+unt.edu.mk,3,ror,Mother Teresa University,central,,
+vision.edu.mk,3,ror,International Vision University,central,,

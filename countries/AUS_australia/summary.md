@@ -30,16 +30,22 @@
 
 ## Proposed domains ranked by score
 
-180 domain(s) proposed for validation, of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+181 domain(s) proposed for validation, of which 26 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `anu.edu.au` | central | 301 | wikidata;academia | Australian National University |
+| 9 | `anu.edu.au` | central | 301 | wikidata;academia;ror | Australian National University |
 | 7 | `curtin.edu.au` |  | 301 | wikidata;wikidata | Curtin Connect |
 | 7 | `g-mwater.com.au` |  | 301 | wikidata;wikidata | Goulburn–Murray Water |
 | 7 | `pakistan.org.au` | central | 403 | wikidata;wikidata | High Commission of Pakistan, Canberra | high commission of Pakistan in Australia |
 | 7 | `screenqueensland.com.au` |  | 200 | wikidata;wikidata | Screen Queensland Studios | Screen Queensland |
+| 6 | `cqu.edu.au` | central-1 |  | academia;ror | Central Queensland University |
+| 6 | `qut.edu.au` | central-1 |  | academia;ror | Queensland University of Technology |
+| 6 | `uq.edu.au` | central-1 |  | academia;ror | University of Queensland |
+| 6 | `utas.edu.au` | central-1 |  | academia;ror | University of Tasmania |
+| 6 | `uwa.edu.au` | central-1 | 301 | wikidata;ror | Oceans Institute |
+| 6 | `vu.edu.au` | central-1 |  | academia;ror | Victoria University |
 | 6 | `wineaustralia.com` |  | 301 | wikidata;wikidata | Wine Australia | Australian Grape and Wine Authority |
 | 4 | `aaf.edu.au` |  | 200 | wikidata | Australian Access Federation |
 | 4 | `aapant.org.au` | central-1 | 200 | wikidata | Aboriginal Areas Protection Authority |
@@ -49,10 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `adelaidemetro.com.au` | central-1 | 301 | wikidata | Adelaide Metro |
 | 4 | `aftrs.edu.au` |  | 301 | wikidata | Australian Film Television and Radio School |
 | 4 | `agrifutures.com.au` |  | 200 | wikidata | AgriFutures Australia |
-| 4 | `ahmrc.org.au` |  | 301 | wikidata | Aboriginal Health and Medical Research Council of New South Wales |
-| 4 | `ainse.edu.au` |  | 301 | wikidata | Australian Institute of Nuclear Science and Engineering |
-| 4 | `algeriaemb.org.au` | central | 301 | wikidata | Embassy of Algeria, Canberra |
-| 4 | `amc.edu.au` |  | 301 | wikidata | Australian Maritime College |
-| 4 | `anrows.org.au` | central |  | academia | Australia's National Research Organisation for Women's Safety |
-| 4 | `anzpaa.org.au` | central |  | academia | National Institute of Forensic Science |
 

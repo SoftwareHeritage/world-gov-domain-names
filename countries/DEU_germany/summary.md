@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 12 of 193
 - Government type: federal parliamentary republic
 - Capital: Berlin
-- Hosts collected: 2550
+- Hosts collected: 2530
 
 ## UN/DESA national portal
 
@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-4620 domain(s) proposed for validation, of which 1300 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+4770 domain(s) proposed for validation, of which 1452 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |

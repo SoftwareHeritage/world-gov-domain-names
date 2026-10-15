@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-74 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+310 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `recoletos.ph` |  | HttpTimeo... | wikidata;wikidata | Province of Saint Ezequiél Moreno |
-| 4 | `antiquespride.edu.ph` | central |  | academia | University of Antique |
-| 4 | `basc.edu.ph` | central |  | academia | Bulacan State Agricultural University |
-| 4 | `bassc.edu.ph` | central |  | academia | Basilan State University |
-| 4 | `batstate-u.edu.ph` | central |  | academia | Batangas State University |
-| 4 | `bsu.edu.ph` | central |  | academia | Benguet State University |
-| 4 | `chamberphilislands.ph` |  | 523 | wikidata | Chamber of Commerce of the Philippine Islands |
-| 4 | `cnu.edu.ph` | central |  | academia | Cebu Normal University |
-| 4 | `ctu.edu.ph` | central |  | academia | Cebu Technological University |
-| 4 | `depedcalabarzon.ph` | central-1 | 200 | wikidata | Department of Education Regional Office IV-A |
-| 4 | `depedmimaroparegion.ph` | central-1 | 200 | wikidata | Department of Education Mimaropa Regional Office |
-| 4 | `depedncr.com.ph` | central-1 | 301 | wikidata | Department of Education National Capital Regional Office |
-| 4 | `depedroxi.ph` | central-1 | 200 | wikidata | Department of Education Regional Office XI |
-| 4 | `dhvtsu.edu.ph` | central |  | academia | Pampanga State University |
-| 4 | `dipolog.jrmsu.edu.ph` | central |  | academia | Jose Rizal Memorial State University - Dipolog Campus |
-| 4 | `divephilippines.com.ph` |  | 200 | wikidata | Philippine Commission on Sports Scuba Diving |
-| 4 | `ias.org.ph` |  | 302 | wikidata | Internal Affairs Service |
-| 4 | `isatu.edu.ph` | central |  | academia | Iloilo Science and Technology University |
-| 4 | `ispsc.edu.ph` | central |  | academia | University of Ilocos Philippines |
-| 4 | `jrmsu.edu.ph` | central |  | academia | Jose Rizal Memorial State University |
+| 6 | `antiquespride.edu.ph` | central |  | academia;ror | University of Antique |
+| 6 | `bassc.edu.ph` | central |  | academia;ror | Basilan State University |
+| 6 | `bsu.edu.ph` | central |  | academia;ror | Benguet State University |
+| 6 | `cnu.edu.ph` | central |  | academia;ror | Cebu Normal University |
+| 6 | `ctu.edu.ph` | central |  | academia;ror | Cebu Technological University |
+| 6 | `isatu.edu.ph` | central |  | academia;ror | Iloilo Science and Technology University |
+| 6 | `ispsc.edu.ph` | central |  | academia;ror | University of Ilocos Philippines |
+| 6 | `jrmsu.edu.ph` | central |  | academia;ror | Jose Rizal Memorial State University |
+| 6 | `katipunan.jrmsu.edu.ph` | central |  | academia;ror | Jose Rizal Memorial State University - Katipunan Campus |
+| 6 | `ksu.edu.ph` | central |  | academia;ror | Kalinga State University |
+| 6 | `lnu.edu.ph` | central |  | academia;ror | Leyte Normal University |
+| 6 | `msusnd.edu.ph` | central |  | academia;ror | Mindanao State University–Sultan Naga Dimaporo |
+| 6 | `norsu.edu.ph` | central |  | academia;ror | Negros Oriental State University |
+| 6 | `pup.edu.ph` | central |  | academia;ror | Polytechnic University of the Philippines |
+| 6 | `siocon.jrmsu.edu.ph` | central |  | academia;ror | Jose Rizal Memorial State University - Siocon Campus |
+| 6 | `tup.edu.ph` | central |  | academia;ror | Technological University of the Philippines |
+| 6 | `uep.edu.ph` | central |  | academia;ror | University of Eastern Philippines |
+| 6 | `up.edu.ph` | central |  | academia;ror | University of the Philippines |
+| 6 | `upb.edu.ph` | central |  | academia;ror | University of the Philippines Baguio |
 

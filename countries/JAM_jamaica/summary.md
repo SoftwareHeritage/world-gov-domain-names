@@ -30,11 +30,12 @@
 
 ## Proposed domains ranked by score
 
-34 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+40 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 5 | `uwi.edu` | central |  | academia;ror | University of the West Indies |
 | 4 | `boj.org.jm` |  | 200 | wikidata | Bank of Jamaica |
 | 4 | `cccj.edu.jm` |  | 301 | wikidata | Council of Community Colleges of Jamaica |
 | 4 | `cla.org.jm` |  | 526 | wikidata | Cannabis Licensing Authority |
@@ -54,5 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `coconutindustryboardjm.org` | central | 200 | wikidata | Coconut Industry Board |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Jamaica, Belize, The Bahamas, Turks and C... |
 | 3 | `fscjamaica.org` |  | 301 | wikidata | Financial Services Commission |
-| 3 | `generallegalcouncil.org` |  | 301 | wikidata | General Legal Council of Jamaica |
 

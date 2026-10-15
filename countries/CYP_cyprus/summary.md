@@ -30,12 +30,13 @@
 
 ## Proposed domains ranked by score
 
-34 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+60 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
+| 6 | `ucy.ac.cy` | central |  | academia;ror | University of Cyprus |
 | 6 | `wikidata.org` | central | 301 | wikidata;wikidata | Deputy Ministry of Culture of Cyprus |
 | 4 | `agrotourism.com.cy` |  | 200 | wikidata | Cyprus Agrotourism Company |
 | 4 | `centralbank.cy` |  | SSLHandsh... | wikidata | Central Bank of Cyprus |
@@ -47,12 +48,11 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `ocecpr.ee.cy` |  | 200 | wikidata | Commissioner of Electronic Communications and Postal Regulation |
 | 4 | `pi.ac.cy` |  | ConnectEx... | wikidata | Cyprus Pedagogical Institute |
 | 4 | `resecfund.org.cy` |  | 200 | wikidata | Renewable Energy Sources (RES) and Energy Conservation (EC) Fund |
-| 4 | `ucy.ac.cy` | central |  | academia | University of Cyprus |
 | 4 | `unesco.org.cy` |  | 200 | wikidata | Cyprus National Commission for UNESCO |
 | 4 | `wbl.com.cy` |  | ConnectEx... | wikidata | Water Board of Lemesos |
+| 3 | `aubmed.ac.cy` | central |  | ror | American University of Beirut – Mediterraneo |
+| 3 | `aucy.ac.cy` | central |  | ror | American University of Cyprus |
+| 3 | `cut.ac.cy` | central |  | ror | Cyprus University of Technology |
 | 3 | `cy.ambafrance.org` | central | 301 | wikidata | Embassy of France, Nicosia |
 | 3 | `cy.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Nicosia |
-| 3 | `cyprus.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Cyprus |
-| 3 | `cyprus.representation.ec.europa.eu` |  | 302 | wikidata | European Commission Representation in Cyprus |
-| 3 | `cypruspost.post` |  | 513 | wikidata | Cyprus Postal Services |
 

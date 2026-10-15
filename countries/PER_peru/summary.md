@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-52 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+146 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,6 +38,14 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `escolapios.org.co` |  | 301 | wikidata;wikidata | Nazareth piarist province |
 | 6 | `peru.mid.ru` | central | SSLHandsh... | wikidata;wikidata | embassy of Russia in Peru |
 | 6 | `roc-taiwan.org` |  | 302 | wikidata;wikidata | Taipei Economic and Cultural Office in Peru |
+| 6 | `unam.edu.pe` | central |  | academia;ror | National University of Moquegua |
+| 6 | `unica.edu.pe` | central |  | academia;ror | San Luis Gonzaga National University |
+| 6 | `uniq.edu.pe` | central |  | academia;ror | Universidad Nacional Intercultural de Quillabamba |
+| 6 | `unjbg.edu.pe` | central |  | academia;ror | Jorge Basadre Grohmann National University |
+| 6 | `unmsm.edu.pe` | central |  | academia;ror | National University of San Marcos |
+| 6 | `unsa.edu.pe` | central |  | academia;ror | National University of St Augustin of Arequipa |
+| 6 | `unsaac.edu.pe` | central |  | academia;ror | National University of San Antonio Abad in Cusco |
+| 6 | `unsch.edu.pe` | central |  | academia;ror | San Cristóbal of Huamanga University |
 | 4 | `ancyt.org.pe` |  | ConnectEx... | wikidata | Academia Nacional de Ciencia y Tecnología |
 | 4 | `barrioperu.terra.com.pe` | central | HttpConne... | wikidata | embassy of Finland in Peru |
 | 4 | `camaradeancash.org.pe` |  | 301 | wikidata | Chamber of Commerce, Industry and Tourism of Ancash |
@@ -47,12 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `consuladopanamalima.com.pe` | central | ConnectEx... | wikidata | Embassy of Panama, Lima |
 | 4 | `dafo.cultura.pe` |  | 200 | wikidata | Audiovisual, Phonography and New Media Directorate |
 | 4 | `dhn.mil.pe` |  | ConnectEx... | wikidata | Q138412009 |
-| 4 | `dicapi.mil.pe` |  | HttpConne... | wikidata | Peruvian Coast Guard |
-| 4 | `embajada-alemana.org.pe` | central | 301 | wikidata | Embassy of Germany, Lima |
-| 4 | `embajadabrasil.org.pe` | central | HttpConne... | wikidata | Embassy of Brazil, Lima |
-| 4 | `embajadadevenezuela.pe` |  | 403 | wikidata | Embassy of Venezuela, Lima |
-| 4 | `finlandiaperu.org.pe` | central | ConnectEx... | wikidata | embassy of Finland in Peru |
-| 4 | `idc.edu.pe` |  | 301 | wikidata | Public Technological Higher Education Institute Design and Communication |
-| 4 | `indembassy.org.pe` | central | 403 | wikidata | Embassy of India, Lima |
-| 4 | `lima.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Lima |
 

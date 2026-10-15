@@ -30,13 +30,19 @@
 
 ## Proposed domains ranked by score
 
-48 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+183 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `ssm.com.my` | central | 302 | wikidata;wikidata | Companies Commission of Malaysia |
 | 6 | `kualalumpur.mae.ro` | central | 503 | wikidata;wikidata | Embassy of Romania, Kuala Lumpur |
+| 6 | `ukm.my` | central |  | academia;ror | National University of Malaysia |
+| 6 | `upm.edu.my` | central |  | academia;ror | University of Putra Malaysia |
+| 6 | `upnm.edu.my` | central |  | academia;ror | National Defence University of Malaysia |
+| 6 | `usim.edu.my` | central |  | academia;ror | Universiti Sains Islam Malaysia |
+| 6 | `utm.my` | central |  | academia;ror | University of Technology Malaysia |
+| 6 | `uum.edu.my` | central |  | academia;ror | Universiti Utara Malaysia |
 | 4 | `crest.my` |  | 200 | wikidata | Collaborative Research in Engineering, Science and Technology Centre |
 | 4 | `cybersecurity.my` |  | SSLHandsh... | wikidata | CyberSecurity Malaysia |
 | 4 | `ghanacom.org.my` | central | ConnectEx... | wikidata | high commission of Ghana in Malaysia |
@@ -49,10 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mimos.my` |  | SSLHandsh... | wikidata | Malaysian Institute of Microelectronic Systems |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Kuala Lumpur |
 | 4 | `mynic.my` |  | 200 | wikidata | Q7393733 |
-| 4 | `nibm.my` |  | 301 | wikidata | National Institutes of Biotechnology Malaysia |
-| 4 | `palestineembassy.com.my` | central | 200 | wikidata | Embassy of the State of Palestine in Malaysia |
-| 4 | `pdn.org.my` |  | ConnectEx... | wikidata | Pusat Darah Negara |
-| 4 | `sc.com.my` | central | 302 | wikidata | Securities Commission Malaysia |
-| 4 | `ssm-einfo.my` | central | 301 | wikidata | Companies Commission of Malaysia |
-| 4 | `suhakam.org.my` |  | 200 | wikidata | Human Rights Commission of Malaysia |
 

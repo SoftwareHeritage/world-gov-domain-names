@@ -8,8 +8,13 @@ garda.ie,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Garda National 
 german-irish.ie,7,wikidata;wikidata,German-Irish Chamber of Industry and Commerce,,301,0 germanirish-ie01e.mail.protection.outlook.com.
 ihrec.ie,7,wikidata;wikidata,Irish Human Rights Commission | Irish Human Rights and Equality Commission,,301,10 cwext.gn.gov.ie.; 10 gbext.gn.gov.ie.
 nationalarchives.ie,7,wikidata;wikidata,National Archives of Ireland,,200,5 eu-smtp-inbound-1.mimecast.com.; 5 eu-smtp-inbound-2.mimecast.com.
+dcu.ie,6,academia;ror,Dublin City University,central,,
 ireland.representation.ec.europa.eu,6,wikidata;wikidata,European Commission Representation in Ireland,,302,none
 supremecourt.ie,6,wikidata,Supreme Court of Ireland,central,200,none
+tcd.ie,6,academia;ror,University of Dublin,central,,
+ucc.ie,6,academia;ror,University College Cork,central,,
+ucd.ie,6,academia;ror,University College Dublin,central,,
+universityofgalway.ie,6,academia;ror,University of Galway,central,,
 aaiu.ie,4,wikidata,Air Accident Investigation Unit,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 gbext.gn.gov.ie.; 10 cwext.gn.gov.ie.
 airnav.ie,4,wikidata,Irish Air Navigation Service,,HttpConnectTimeoutException: HTTP connect timed out,0 airnav-ie.mail.protection.outlook.com.
 artscouncil.ie,4,wikidata,Arts Council of Ireland,,HttpConnectTimeoutException: HTTP connect timed out,10 de-smtp-inbound-2.mimecast.com.; 10 de-smtp-inbound-1.mimecast.com.
@@ -29,7 +34,6 @@ crr.ie,4,wikidata,Railway Safety Commission,,301,10 mxcluster-01.customer.mailwa
 cultureireland.ie,4,wikidata,Culture Ireland,,403,5 eu-smtp-inbound-1.mimecast.com.; 5 eu-smtp-inbound-2.mimecast.com.
 daa.ie,4,wikidata,Airport Police,,301,10 daa-ie.mail.protection.outlook.com.
 dataprotection.ie,4,wikidata,Data Protection Commission,central,HttpConnectTimeoutException: HTTP connect timed out,10 dojmxp02.jsec.ie.; 10 dojmxp01.jsec.ie.
-dcu.ie,4,academia,Dublin City University,central,,
 decisionsupportservice.ie,4,wikidata,Decision Support Service,central,301,10 mx2.topsec.com.; 10 mx1.topsec.com.
 dentalcouncil.ie,4,wikidata,Dental Council,central,301,0 dentalcouncil-ie.mail.protection.outlook.com.
 dppireland.ie,4,wikidata,Director of Public Prosecutions,,200,0 dppireland-ie.mail.protection.outlook.com.
@@ -107,18 +111,16 @@ sfpa.ie,4,wikidata,Sea Fisheries Protection Authority,,301,10 cwext.gn.gov.ie.; 
 solas.ie,4,wikidata,SOLAS,central,301,10 solas-ie.mail.protection.outlook.com.
 sportireland.ie,4,wikidata,Sport Ireland Institute,,301,0 sportireland-ie.mail.protection.outlook.com.
 tailte.ie,4,wikidata,Tailte Éireann,,200,10 mx2.hc2013-12.eu.iphmx.com.; 101 mail2.tailte.ie.; 100 valoff-ie.mail.protection.outlook.com.; 15 tailte-ie.mail.protection.outlook.com.; 1 mx1.hc2013-12.eu.iphmx.com.; 20 mail.tailte.ie.
-tcd.ie,4,academia,University of Dublin,central,,
 teachingcouncil.ie,4,wikidata,Teaching Council,central,301,10 nes-mx1.titanhq.com.; 10 nes-mx2.titanhq.com.
 teagasc.ie,4,wikidata,Teagasc,,200,10 mx2.topsec.com.; 10 mx1.topsec.com.
 thepsi.ie,4,wikidata,Pharmaceutical Society of Ireland,,301,0 thepsi-ie.mail.protection.outlook.com.
 tii.ie,4,wikidata,Transport Infrastructure Ireland,,HttpConnectTimeoutException: HTTP connect timed out,1000 ms76111295.msv1.invalid.tii.ie.; 15 mail2.scanscope.net.; 5 mta01.scanscope.net.; 20 mail3.scanscope.net.; 10 mail1.scanscope.net.
 tyndall.ie,4,academia,Tyndall National Institute,central,,
-ucc.ie,4,academia,University College Cork,central,,
-ucd.ie,4,academia,University College Dublin,central,,
-universityofgalway.ie,4,academia,University of Galway,central,,
 waterfordcouncil.ie,4,wikidata,Waterford City and County Council,central-1,200,10 mx1.topsec.com.; 10 mx2.topsec.com.
 wdc.ie,4,wikidata,Western Development Commission,,301,10 hcs-ie-1.fortimailcloud.com.; 20 hcs-ie-2.fortimailcloud.com.
 ambafrance-ie.org,3,wikidata,"Embassy of France, Dublin",central,ConnectException,5 mta-gw.infomaniak.ch.
+atu.ie,3,ror,Atlantic Technological University,central,,
+dkit.ie,3,ror,Dundalk Institute of Technology,central,,
 dublin.diplo.de,3,wikidata,"Embassy of Germany, Dublin",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 dublin.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Ireland,central,302,none
 dublin.mae.ro,3,wikidata,"embassy of Romania, Dublin",central,503,none
@@ -137,11 +139,20 @@ ireland.mid.ru,3,wikidata,embassy of Russia in Ireland,central,SSLHandshakeExcep
 irland.um.dk,3,wikidata,embassy of Denmark in Ireland,central,301,none
 kenyaembassyireland.net,3,wikidata,embassy of Kenya in Ireland,central,200,0 kenyaembassyireland-net.mail.protection.outlook.com.
 legaldeposit.org.uk,3,wikidata,Agency for the Legal Deposit Libraries,,301,10 uk.mx1.mailanyone.net.; 40 uk.mx4.mx25.net.; 30 uk.mx3.mailanyone.net.; 20 uk.mx2.mx25.net.
+maynoothuniversity.ie,3,ror,"National University of Ireland, Maynooth",central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Ireland,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Ireland,central,403,10 mailhost.mfa.gr.
 mzv.sk,3,wikidata,embassy of Slovakia in Ireland,central,301,10 mail.gov.sk.
 nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Dublin",central,301,0 .
 nigerianembassydublin.org,3,wikidata,embassy of Nigeria in Ireland,central,200,0 nigerianembassydublin-org.mail.protection.outlook.com.
 norway.no,3,wikidata,Embassy of Norway in Dublin,central,301,0 mx.domeneshop.no.
+nui.ie,3,ror,National University of Ireland,central,,
+saor-ollscoil.ie,3,ror,Free University of Ireland,central,,
+setu.ie,3,ror,South East Technological University,central,,
 stcanicescathedral.com,3,wikidata,Saint Canice's Cathedral,,301,0 stcanicescathedral-com.mail.protection.outlook.com.
+tudublin.ie,3,ror,Technological University Dublin,central,,
+tus.ie,3,ror,Technological University of the Shannon: Midlands Midwest,central,,
+ul.ie,3,ror,University of Limerick,central,,
+iiu-edu.eu,2,ror,Isles International University,central,,
+rcsi.com,2,ror,Royal College of Surgeons in Ireland,central,,
 roc-taiwan.org,1,wikidata;wikidata;wikidata,Taipei Representative Office in Ireland,,302,none

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,10 +40,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `inege.gq` | central | ConnectEx... | wikidata;academia | Instituto Nacional de Estadística de Guinea Ecuatorial |
 | 6 | `piaristesafriquecentrale.org` |  | ConnectEx... | wikidata;wikidata | Piarist province of Central Africa |
 | 4 | `ghanaembassy-equatorialguinea.com` | central | ConnectEx... | wikidata | embassy of Ghana in Equatorial Guinea |
+| 3 | `aaucauniversity.com` | central |  | ror | Afro-American University of Central Africa |
 | 3 | `aegle.gq` |  | 301 | wikidata | Academia Ecuatoguineana de la Lengua Española |
 | 3 | `gq.ambafrance.org` | central | 301 | wikidata | Embassy of France, Malabo |
 | 3 | `gq.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Malabo |
 | 3 | `mae-ge.org` |  | 301 | wikidata | Ministry of Foreign Affairs and International Cooperation of Equatorial Guinea |
 | 3 | `senado-gq.org` | central | SSLHandsh... | wikidata | Senate of Equatorial Guinea |
 | 3 | `uned.es` | central |  | academia | Campus UNED Guinea Ecuatorial |
+| 2 | `unge.education` | central |  | ror | National University of Equatorial Guinea |
 

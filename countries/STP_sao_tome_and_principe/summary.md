@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+7 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,4 +41,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `ahstp.org` |  | ConnectEx... | wikidata | Arquivo Histórico de São Tomé |
 | 3 | `minsaude.net` |  | ConnectEx... | wikidata | Ministério da Saúde |
 | 3 | `st.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, São Tomé |
+| 2 | `ustp-edu-st.com` | central |  | ror | Universidade de São Tomé e Príncipe |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-59 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+77 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,12 +47,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `moj.am` | central | 400 | wikidata;wikidata | Ministry of Justice (Armenia) |
 | 7 | `msy.am` | central | HttpConne... | wikidata;wikidata | Ministry of Youth and Sports |
 | 7 | `mtad.am` | central | 200 | wikidata;wikidata | Ministry of Territorial Administration and Infrastructure |
+| 6 | `aspu.am` | central |  | academia;ror | Armenian State Pedagogical University |
 | 6 | `cassationcourt.am` |  | HttpConne... | wikidata | Court of Cassation of Armenia |
 | 6 | `concourt.am` | central | 200 | wikidata | Constitutional Court of Armenia |
+| 6 | `ysu.am` | central |  | academia;ror | Yerevan State University |
 | 4 | `academhistory.am` | central |  | academia | Institute of History of National Academy of Sciences of Armenia |
 | 4 | `anra.am` |  | SSLHandsh... | wikidata | Armenian Nuclear Regulatory Authority |
 | 4 | `armarchives.am` |  | 200 | wikidata | National Archives of Armenia |
-| 4 | `aspu.am` | central |  | academia | Armenian State Pedagogical University |
 | 4 | `aviation.am` | central | 400 | wikidata | Civil Aviation Committee of Armenia |
-| 4 | `cba.am` |  | 301 | wikidata | Central Bank of Armenia |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-47 domain(s) proposed for validation, of which 7 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+65 domain(s) proposed for validation, of which 25 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,7 +43,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `mup.vladars.net` | central-1 | SSLHandsh... | wikidata;wikidata;wikidata | Ministry of Interior of Republika Srpska | Police of Republika Srpska |
 | 6 | `narodnaskupstinars.net` | central-1 | 301 | wikidata;wikidata | National Assembly of Republic of Srpska |
 | 6 | `sarajevo.mid.ru` | central | SSLHandsh... | wikidata;wikidata | Embassy of Russia, Sarajevo |
+| 6 | `unsa.ba` | central-1 |  | academia;ror | University of Sarajevo |
 | 6 | `vladars.net` | central-1 | 301 | wikidata;wikidata;wikidata | Ministry of Science and Technology | Q108052814 |
+| 5 | `unibl.org` | central-1 |  | academia;ror | University of Banja Luka |
 | 4 | `akaz.ba` |  | SSLHandsh... | wikidata | Q127505551 |
 | 4 | `cbbh.ba` |  | 302 | wikidata | Central Bank of Bosnia and Herzegovina |
 | 4 | `domkulturejajce.ba` |  | 200 | wikidata | Kršlak house |
@@ -51,8 +53,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `nub.ba` |  | 200 | wikidata | National and University Library of Bosnia and Herzegovina |
 | 4 | `rak.ba` |  | SSLHandsh... | wikidata | Communications Regulatory Agency of Bosnia and Herzegovina |
 | 4 | `szarajevo.mfa.gov.hu` | central | SSLHandsh... | wikidata | Embassy of Hungary, Sarajevo |
-| 4 | `unsa.ba` | central-1 |  | academia | University of Sarajevo |
 | 4 | `ustavnisud.ba` | central | 301 | wikidata | Constitutional Court of Bosnia and Herzegovina |
 | 4 | `ustavnisudfbih.ba` |  | 200 | wikidata | Constitutional Court of the Federation of Bosnia and Herzegovina |
-| 3 | `arhivrs.org` |  | 200 | wikidata | Archives of Republika Srpska |
 

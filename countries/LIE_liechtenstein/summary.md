@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-10 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -44,5 +44,7 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `landesbibliothek.li` |  | ConnectEx... | wikidata | Liechtenstein State Library |
 | 4 | `landespolizei.li` |  | 301 | wikidata | Liechtenstein National Police Force |
 | 4 | `llv.li` |  | 403 | wikidata | Schulamt Fürstentum Liechtenstein |
+| 3 | `ufl.li` | central |  | ror | Private University in the Principality of Liechtenstein |
+| 3 | `uni.li` | central |  | ror | University of Liechtenstein |
 | 2 | `landtag.li` | central | 200 | wikidata;wikidata | Landtag of Liechtenstein |
 

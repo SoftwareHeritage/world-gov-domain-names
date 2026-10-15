@@ -71,12 +71,40 @@ volgograd.ru,7,wikidata;wikidata,administration of the Volgograd oblast,central-
 zaksob.ru,7,wikidata;wikidata,Legislative Assembly of Orenburg Oblast,central-1,200,10 mx1.masterhost.ru.
 zskaluga.ru,7,wikidata;wikidata;wikidata,Regional parliament of Kaluga,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 zsso.ru,7,wikidata;wikidata,Legislative Assembly of Sverdlovsk Oblast,central-1,HttpConnectTimeoutException: HTTP connect timed out,30 smtp.zsso.ru.
+asau.ru,6,academia;ror,Altai State Agrarian University,central,,
+dvfu.ru,6,academia;ror,Far Eastern Federal University,central,,
+eng.timacad.ru,6,academia;ror,Moscow State Agro-Engineering University,central,,
+kai.ru,6,academia;ror,Kazan State Technical University named after A. N. Tupolev,central,,
 khural.org,6,wikidata;wikidata;wikidata,Great Khural of Tuva,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+kubsau.ru,6,academia;ror,Kuban State Agrarian University,central,,
+mgsu.ru,6,academia;ror,Moscow State University of Civil Engineering,central,,
+mipt.ru,6,academia;ror,Moscow Institute of Physics and Technology,central,,
+mrsu.ru,6,academia;ror,Ogarev National Research Mordovia State University,central,,
+msu.ru,6,academia;ror,Lomonosov Moscow State University,central,,
+narfu.ru,6,academia;ror,Northern (Arctic) Federal University,central,,
+nsu.ru,6,academia;ror,Novosibirsk State University,central,,
+omgtu.ru,6,academia;ror,Omsk State Technical University,central,,
+omgups.ru,6,academia;ror,Omsk State Transport University,central,,
+omsu.ru,6,academia;ror,Omsk State University,central,,
 petrovka-38.org,6,wikidata;wikidata,Moscow City Police,central-1,301,none
+rea.ru,6,academia;ror,Plekhanov Russian Economic University,central,,
+rsmu.ru,6,academia;ror,Russian National Research Medical University,central,,
 russland.ahk.de,6,wikidata;wikidata,German-Russian Chamber of Commerce Abroad,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.russland.ahk.de.
+rzgmu.ru,6,academia;ror,"Ryazan State Medical University, Another Name:King Dr.Md.Enamul Hasan University",central,,
+sfedu.ru,6,academia;ror,Southern Federal University,central,,
+sgu.ru,6,academia;ror,Saratov State University,central,,
+spbau.ru,6,academia;ror,Alferov Saint Petersburg National Research Academic University of the Russian Academy of Sciences,central,,
+spbu.ru,6,academia;ror,Saint Petersburg State University,central,,
+spmi.ru,6,academia;ror,Saint Petersburg Mining University,central,,
+ssau.ru,6,academia;ror,Samara National Research University named after academician S.P. Korolev,central,,
+tsu.ru,6,academia;ror,Tomsk State University,central,,
+tulsu.ru,6,academia;ror,Tula State University,central,,
+university.tversu.ru,6,academia;ror,Tver State University,central,,
+urfu.ru,6,academia;ror,Ural Federal University,central,,
 xn--b1aew.xn--p1ai,6,wikidata;wikidata,Q4530598 | Q4339429,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mvd.ru.
 gov.admhmao.ru,5,wikidata,Government of the Khanty-Mansiysk Autonomous Okrug - Ugra,central-1,447,200 mail03.admhmao.ru.; 200 relay02.admhmao.ru.; 200 mail02.admhmao.ru.; 200 mail01.admhmao.ru.; 200 relay01.admhmao.ru.; 200 mail04.admhmao.ru.; 10 mx01.admhmao.ru.
 gov.cap.ru,5,wikidata,State Council of the Chuvash Republic,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+istu.edu,5,academia;ror,Irkutsk National Research Technical University,central,,
 parliament.mari.ru,5,wikidata,State Assembly of the Mari El Republic,central-1,ConnectException,none
 01.mvd.ru,4,wikidata,Ministry of Internal Affairs of Adygea,,HttpConnectTimeoutException: HTTP connect timed out,none
 06.mvd.ru,4,wikidata,Ministry of Internal Affairs,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -115,7 +143,6 @@ arheologpskov.ru,4,wikidata,"State Budgetary Institution of Culture of Pskov Obl
 arriah.ru,4,academia,Federal Centre for Animal Health,central,,
 arriam.spb.ru,4,academia,All-Russian Research Institute of Agricultural Microbiology of the Russian Academy of Agricultural Sciences,central,,
 artcenter.ru,4,academia,Rossiĭskiĭ institut istorii iskusstv,central,,
-asau.ru,4,academia,Altai State Agrarian University,central,,
 assembly.spb.ru,4,wikidata,Legislative Assembly of Saint Petersburg,central-1,HttpConnectTimeoutException: HTTP connect timed out,35 relay.la.spb.ru.; 10 mail.assembly.spb.ru.; 20 mail.la.spb.ru.; 25 relay.assembly.spb.ru.
 astroblduma.ru,4,wikidata,Duma of the Astrakhan Region,central-1,HttpConnectTimeoutException: HTTP connect timed out,8 mxs.armgs.team.
 azembassy.msk.ru,4,wikidata,"Embassy of Azerbaijan, Moscow",central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 mail.azembassy.msk.ru.
@@ -170,7 +197,6 @@ duma32.ru,4,wikidata,Bryansk Oblast Duma,central-1,403,20 mail.duma32.ru.
 duma39.ru,4,wikidata,Legislative Assembly of Kaliningrad Oblast,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.duma39.ru.; 30 mx1.spaceweb.ru.; 20 mx1.gazinter.net.
 dumasakhalin.ru,4,wikidata,Sakhalin Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.dumasakhalin.ru.
 dumask.ru,4,wikidata,Regional Parliament of Stavropol Krai,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.dumask.ru.
-dvfu.ru,4,academia,Far Eastern Federal University,central,,
 ecfor.ru,4,academia,Institute of Economic Forecasting,central,,
 eco.nsc.ru,4,academia,Institute of Systematics and Ecology of Animals,central,,
 eimb.ru,4,academia,Engelhardt Institute of Molecular Biology,central,,
@@ -187,7 +213,6 @@ en.sgu.ru,4,academia,Saratov State University,central,,
 endocrincentr.ru,4,academia,Endocrinology Research Center,central,,
 eng.imach.uran.ru,4,academia,Institute of Engineering Science,central,,
 eng.imash.ru,4,academia,Institute of Machines Science,central,,
-eng.timacad.ru,4,academia,Moscow State Agro-Engineering University,central,,
 english.gpntb.ru,4,wikidata,Russian National Public Library for Science and Technology,,HttpConnectTimeoutException: HTTP connect timed out,none
 eriras.ru,4,academia,Energy Research Institute of the Russian Academy of Sciences,central,,
 esoil.ru,4,academia,Dokuchaev Soil Science Institute,central,,
@@ -348,7 +373,6 @@ iwp.ru,4,academia,Institute of Water Problems,central,,
 izmiran.ru,4,academia,IZMIRAN,central,,
 jekatyerinburg.mfa.gov.hu,4,wikidata,"Consulate General of Hungary, Yekaterinburg",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 jiht.ru,4,academia,Joint Institute for High Temperatures,central,,
-kai.ru,4,academia,Kazan State Technical University named after A. N. Tupolev,central,,
 kapitza.ras.ru,4,academia,P.L. Kapitza Institute for Physical Problems RAS,central,,
 kbs.spb.sudrf.ru,4,wikidata,Kuibyshevsky districtional court,,200,none
 keldysh.ru,4,academia,Keldysh Institute of Applied Mathematics,central,,
@@ -371,7 +395,6 @@ ksc.ru,4,academia,Kola Science Centre RAS,central,,
 kscnet.ru,4,academia,Institute of Volcanology and Seismology,central,,
 ksrf.ru,4,wikidata;wikidata;wikidata;wikidata,Constitutional Court of Russia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail3.ksrf.ru.
 kstu.ru,4,academia,Kazan National Research Technological University,central,,
-kubsau.ru,4,academia,Kuban State Agrarian University,central,,
 kubsu.ru,4,academia,Kuban State University,central,,
 kubzsk.ru,4,wikidata,Legislative Assembly of Krasnodar Krai,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 kurskduma.ru,4,wikidata,Kursk Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.kurskduma.ru.
@@ -397,7 +420,6 @@ megagrant.ru,4,wikidata,Mega Grants,,200,10 mail.megagrant.ru.
 mephi.ru,4,academia,National Research Nuclear University,central,,
 meshalkin.ru,4,academia,Meshalkin National Medical Research Center,central,,
 mfc-kursk.ru,4,wikidata,My documents,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.mfc-kursk.ru.
-mgsu.ru,4,academia,Moscow State University of Civil Engineering,central,,
 mhi-ras.ru,4,academia,Marine Hydrophysical Institute,central,,
 mi-ras.ru,4,academia,Steklov Institute of Mathematics,central,,
 miet.ru,4,academia,National Research University of Electronic Technology,central,,
@@ -406,7 +428,6 @@ minfin.tatarstan.ru,4,wikidata,Ministry of Finances of the Republic of Tatarstan
 minjust.tatarstan.ru,4,wikidata,Ministry of Justice of the Republic of Tatarstan,,HttpConnectTimeoutException: HTTP connect timed out,none
 minobr.permkrai.ru,4,wikidata,Ministry of Education and Science of Perm Region,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mx10.permkrai.ru.; 20 cgp.permkrai.ru.
 minstroy.tatarstan.ru,4,wikidata,"Ministry of Construction, Architecture and Housing and Communal Services of the Republic of Tatarstan",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-mipt.ru,4,academia,Moscow Institute of Physics and Technology,central,,
 misd.ru,4,academia,Chinakal Institute of Mining of the Siberian Branch of the RAS,central,,
 misis.ru,4,academia,National University of Science and Technology,central,,
 mitp.ru,4,academia,Institute of Earthquake Prediction Theory and Mathematical Geophysics,central,,
@@ -415,16 +436,13 @@ mosgorzdrav.ru,4,wikidata,Department of health of Moscow,,HttpConnectTimeoutExce
 moszkva.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Moscow",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mpei.ru,4,academia,Moscow Power Engineering Institute,central,,
 mpi.ysn.ru,4,academia,Melnikov Permafrost Institute,central,,
-mrsu.ru,4,academia,Ogarev National Research Mordovia State University,central,,
 msal.ru,4,academia,Moscow State Law University,central,,
 msk.arbitr.ru,4,wikidata,Q47171548,,200,10 mx1.arbitr.ru.
 msso-kogan.ru,4,wikidata,Moscow State Symphony Orchestra,,SSLException: (internal_error) Received fatal alert: internal_error,10 mail.msso-kogan.ru.
-msu.ru,4,academia,Lomonosov Moscow State University,central,,
 mugiso.midural.ru,4,wikidata,Q24935840,,HttpConnectTimeoutException: HTTP connect timed out,none
 mvd.altai-republic.ru,4,wikidata,Ministry of Internal Affairs of Altai Republic,,ConnectException,none
 mvdrb.ru,4,wikidata,Ministry of Internal Affairs of Bashkortostan,,IOException: closed,30 mx1.hosting.reg.ru.; 10 mxs.activeby.net.; 40 mx2.hosting.reg.ru.; 5 1st.mail-gate.ru.
 namibian-embassy.ru,4,wikidata,"Embassy of Namibia, Moscow",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching namibian-embassy.ru found.,10 mx.yandex.net.
-narfu.ru,4,academia,Northern (Arctic) Federal University,central,,
 nasledie.volgograd.ru,4,wikidata,Q109475246,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 natlibraryrm.ru,4,wikidata,National Library of (the Republic of) Mordovia,,200,10 mx.yandex.net.
 nb12.ru,4,wikidata,National Library of the Mari El Republic,,200,10 mail.nb12.ru.
@@ -451,17 +469,13 @@ nrcki.ru,4,academia,National Research Centre Kurchatov Institute,central,,
 nriph.ru,4,academia,N.A. Semashko National Research Institute of Public Health,central,,
 nsi.ru,4,academia,Burdenko Neurosurgery Institute,central,,
 nstu.ru,4,academia,Novosibirsk State Technical University,central,,
-nsu.ru,4,academia,Novosibirsk State University,central,,
 ntcm-ras.ru,4,academia,"Submicron Heterostructures for Microelectronics, Research & Engineering Center, RAS",central,,
 ntcup.ru,4,academia,Scientific and Technological Center of Unique Instrumentation,central,,
 oblsovet.ru,4,wikidata,Lipetsk Oblast Council of Deputies,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 relay.admlr.lipetsk.ru.
 oem.ras.ru,4,wikidata,"Department of Power Engineering, Mechanical Engineering, Mechanics and Control Processes",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.ras.ru.
 oktiabrsky.svd.sudrf.ru,4,wikidata,Oktyabrsky Districtional Court (Yekaterinburg),,200,none
 oktibrsky.spb.sudrf.ru,4,wikidata,Q104774082,,200,none
-omgtu.ru,4,academia,Omsk State Technical University,central,,
-omgups.ru,4,academia,Omsk State Transport University,central,,
 omsk-parlament.ru,4,wikidata,Legislative Assembly of Omsk Oblast,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-omsu.ru,4,academia,Omsk State University,central,,
 oreloblsovet.ru,4,wikidata,Oryol Oblast Council of People's Deputies,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 emx.mail.ru.
 orennc.ru,4,academia,Orenburg Federal Research Center of the Ural Branch of the Russian Academy of Sciences,central,,
 orientalstudies.ru,4,academia,Institute of Oriental Manuscripts of the Russian Academy of Sciences,central,,
@@ -492,7 +506,6 @@ psychiatry.ru,4,academia,Mental Health Research Center of Russian Academy of Med
 pushkinskijdom.ru,4,academia,Pushkin House,central,,
 qbrand.ru,4,wikidata,Qbrand,,200,10 mxs1.reg.ru.; 20 mxs2.reg.ru.
 rais.tatarstan.ru,4,wikidata,Office of the Rais of the Republic of Tatarstan,,HttpConnectTimeoutException: HTTP connect timed out,none
-rea.ru,4,academia,Plekhanov Russian Economic University,central,,
 recruitit.ru,4,wikidata,RecruitIT,,HttpConnectTimeoutException: HTTP connect timed out,none
 rf-bih.ru,4,wikidata,"Embassy of Bosnia and Herzegovina, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.hosting.reg.ru.; 20 mx2.hosting.reg.ru.
 rfbr.ru,4,wikidata,Russian Center for Science Information,,HttpConnectTimeoutException: HTTP connect timed out,10 post.rfbr.ru.; 20 mx.rfbr.ru.
@@ -500,9 +513,7 @@ riarae-raas.ru,4,academia,All-Russian Scientific Research Institute of Radiology
 rncrr.ru,4,wikidata,Federal State Budgetary Institution Russian Scientific Center of Roentgenoradiology,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.yandex.net.
 rnioi.ru,4,academia,National Medical Research Centre for Oncology,central,,
 rosmedex.ru,4,wikidata,"Federal State Budgetary Institution ""Center for Expertise and Quality Control of Medical Care""",,200,10 mail.corp.rosmedex.ru.
-rsmu.ru,4,academia,Russian National Research Medical University,central,,
 ru.iszf.irk.ru,4,academia,Institute of Solar-Terrestrial Physics,central,,
-rzgmu.ru,4,academia,"Ryazan State Medical University, Another Name:King Dr.Md.Enamul Hasan University",central,,
 s-vfu.ru,4,academia,North-Eastern Federal University,central,,
 saembassy.ru,4,wikidata,Embassy of South Africa in Moscow,central,SSLHandshakeException: Remote host terminated the handshake,10 mail.saembassy.ru.
 samgd.ru,4,wikidata,Samara Regional Duma,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mail.samgd.ru.
@@ -514,9 +525,7 @@ serbsky.ru,4,academia,Serbsky Center,central,,
 sevin.ru,4,academia,Severtsov Institute of Ecology and Evolution,central,,
 sevzakon.ru,4,wikidata,Legislative Assembly of Sevastopol,central-1,200,10 mx.yandex.net.
 sf-kras.ru,4,wikidata,Krasnoyarsk Region Science and Technology Support Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx.yandex.net.
-sfedu.ru,4,academia,Southern Federal University,central,,
 sfu.ru,4,academia,Siberian Federal University,central,,
-sgu.ru,4,academia,Saratov State University,central,,
 sias.ru,4,academia,State Institute for Art Studies,central,,
 sifibr.irk.ru,4,academia,Siberian Institute of Plant Physiology and Biochemistry,central,,
 smoloblduma.ru,4,wikidata,Smolensk Oblast Duma,central-1,HttpConnectTimeoutException: HTTP connect timed out,11 mailg.smoloblduma.ru.; 10 smoloblduma.ru.
@@ -524,17 +533,13 @@ so-ups.ru,4,wikidata,Russian Power System Operator,,301,10 mint.so-ups.ru.; 10 l
 sobranie.pskov.ru,4,wikidata,Pskov Oblast Assembly of Deputies,central-1,403,10 mail.pskovsobranie.ru.
 solid.nsc.ru,4,academia,Institute of Solid State Chemistry and Mechanochemistry,central,,
 spb.hse.ru,4,academia,National Research University Higher School of Economics (Saint Petersburg),central,,
-spbau.ru,4,academia,Alferov Saint Petersburg National Research Academic University of the Russian Academy of Sciences,central,,
 spbiiran.nw.ru,4,academia,Saint-Petersburg Institute of History,central,,
 spbniivs.ru,4,academia,Saint Petersburg Scientific Research Institute of Vaccines and Sera,central,,
 spbstu.ru,4,academia,Peter the Great Saint Petersburg State Polytechnical University,central,,
-spbu.ru,4,academia,Saint Petersburg State University,central,,
 spbustavsud.ru,4,wikidata,Q4478182,,200,none
 spiiras.nw.ru,4,academia,St. Petersburg Institute for Informatics and Automation,central,,
-spmi.ru,4,academia,Saint Petersburg Mining University,central,,
 srd.ru,4,wikidata,Saratov Oblast Duma,central-1,ConnectException,5 mail.srd.ru.
 srilankaembassy.ru,4,wikidata,"Embassy of Sri Lanka, Moscow",central,ConnectException,20 mx03.nicmail.ru.; 5 mx02.nicmail.ru.; 10 mx01.nicmail.ru.
-ssau.ru,4,academia,Samara National Research University named after academician S.P. Korolev,central,,
 st-petersburg.izbirkom.ru,4,wikidata,Q20020930,,HttpConnectTimeoutException: HTTP connect timed out,none
 statearchive.ru,4,wikidata,State Archive of the Russian Federation,,200,10 mx01.nicmail.ru.; 20 mx03.nicmail.ru.; 5 mx02.nicmail.ru.
 structure.mil.ru,4,wikidata,Main Military-Political Directorate of the Russian Armed Forces,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -557,17 +562,13 @@ tpu.ru,4,academia,Tomsk Polytechnic University,central,,
 transpl.ru,4,academia,V.I. Shumakov Federal Research Center of Transplantology and Artificial Organs,central,,
 transport.mos.ru,4,wikidata,bus transport in Moscow,,HttpConnectTimeoutException: HTTP connect timed out,10 mx01.mos.ru.
 tsc.ru,4,academia,Tomsk Scientific Center SB RAS,central,,
-tsu.ru,4,academia,Tomsk State University,central,,
-tulsu.ru,4,academia,Tula State University,central,,
 tyumen.izbirkom.ru,4,wikidata,Q56689802,,HttpConnectTimeoutException: HTTP connect timed out,none
 ufaras.ru,4,academia,Ufa Federal Research Centre of the Russian Academy of Sciences,central,,
 uiec.ru,4,academia,Institute of Economics of the Urals Branch of the Russian Academy of Sciences,central,,
 unatlib.ru,4,wikidata,National Library of the Udmurt Republic,,HttpConnectTimeoutException: HTTP connect timed out,10 emx.mail.ru.
 unesco.ru,4,wikidata,Commission of the Russian Federation for UNESCO,,200,10 mx.yandex.net.
-university.tversu.ru,4,academia,Tver State University,central,,
 unn.ru,4,academia,N. I. Lobachevsky State University of Nizhny Novgorod,central,,
 urcrm.ru,4,wikidata,Urals Research Center for Radiation Medicine,,HttpConnectTimeoutException: HTTP connect timed out,10 vrelay22.urcrm.ru.
-urfu.ru,4,academia,Ural Federal University,central,,
 ustu.ru,4,academia,Ural State Technical University,central,,
 uzembassy.ru,4,wikidata,"Embassy of Uzbekistan, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,5 mx02.nicmail.ru.; 20 mx03.nicmail.ru.; 10 mx01.nicmail.ru.
 vahitovsky.tat.sudrf.ru,4,wikidata,Vakhitovsky Districtional Court,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -619,36 +620,159 @@ zspo.ru,4,wikidata,Legislative Assembly of Penza Oblast,central-1,ConnectExcepti
 zsro.ru,4,wikidata,Legislative Assembly of Rostov Oblast,central-1,403,10 emx.mail.ru.
 zsto.ru,4,wikidata,Legislative Assembly of Tver Oblast,central-1,200,10 mail.zsto.ru.
 zsvo.ru,4,wikidata,Legislative Assembly of Vladimir Oblast,central-1,403,10 mx.yandex.net.
+1spbgmu.ru,3,ror,First Pavlov State Medical University of St. Petersburg,central,,
 77.xn--b1aew.xn--p1ai,3,wikidata,Moscow Criminal Investigations Department,,HttpConnectTimeoutException: HTTP connect timed out,none
+adygnet.ru,3,ror,Adyghe State University,central,,
+ael.ru,3,ror,Khabarovsk State University of Economics and Law,central,,
+altspu.ru,3,ror,Altai State Pedagogical University,central,,
 ambafrance-ru.org,3,wikidata,Consulate-General of France in Saint Petersburg,,ConnectException,5 mta-gw.infomaniak.ch.
+amgpgu.ru,3,ror,Amur State University of Humanities and Pedagogy,central,,
+amursu.ru,3,ror,Amur State University,central,,
+asmu.ru,3,ror,Altai State Medical University,central,,
 asmurussia.com,3,academia,Altai State Medical University,central,,
+astgmu.ru,3,ror,Astrakhan State Medical University,central,,
+asu-edu.ru,3,ror,Astrakhan Tatischev State University,central,,
+asu.ru,3,ror,Altai State University,central,,
+aumsu.ru,3,ror,Admiral Ushakov State Maritime University,central,,
+bashgmu.ru,3,ror,Bashkir State Medical University,central,,
+bgpu.ru,3,ror,Blagoveschensk State Pedagogical University,central,,
+bsaa.edu.ru,3,ror,Belgorod State Agricultural University,central,,
+bsau.ru,3,ror,Bashkir State Agrarian University,central,,
+bsu.edu.ru,3,ror,Belgorod National Research University,central,,
+bsu.ru,3,ror,Buryat State University,central,,
+buepl.ru,3,ror,"Baltic Institute of Ecology, Politics and Law",central,,
+bukep.ru,3,ror,"Belgorod University of Cooperation, Economics and Law",central,,
+cchgeu.ru,3,ror,Voronezh State Technical University,central,,
+chelsma.ru,3,ror,Chelyabinsk State Medical Academy,central,,
 chermet.net,3,academia,Bardin Central Research Institute for Ferrous Metallurgy,central,,
+chesu.ru,3,ror,Chechen State University,central,,
+chsu.ru,3,ror,Cherepovets State University,central,,
+chuvsu.ru,3,ror,Chuvash State University,central,,
+csaa.ru,3,ror,Chelyabinsk State Agroengineering Academy,central,,
+csu.ru,3,ror,Chelyabinsk State University,central,,
+dalgau.ru,3,ror,Far Eastern State Agrarian University,central,,
+dalrybvtuz.ru,3,ror,Far Eastern State Technical Fisheries University,central,,
+dgu.ru,3,ror,Dagestan State University,central,,
+dipacademy.ru,3,ror,Diplomatic Academy of MGIMO of the Russian Ministry of Foreign Affairs,central,,
+donstu.ru,3,ror,Don State Technical University,central,,
+dstu.ru,3,ror,Dagestan State Technical University,central,,
+edubiotech.ru,3,ror,Siberian State University of Engineering and Biotechnology,central,,
+eduprosvet.ru,3,ror,Federal State University of Education,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Russia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 eipc.center,3,academia,"Federal State Research Institute ""Environmental Industrial Policy Centre""",central,,
+en.altstu.ru,3,ror,Altai State Technical University,central,,
+en.art-gzhel.ru,3,ror,Gzhel State University,central,,
+en.bgiik.ru,3,ror,Belgorod State University of Arts and Culture,central,,
+en.brstu.ru,3,ror,Bratsk State University,central,,
+en.cspu.ru,3,ror,South Ural State Humanitarian Pedagogical University,central,,
+en.dvgups.ru,3,ror,Far Eastern State Transport University,central,,
+en.gubkin.ru,3,ror,Gubkin Russian State University of Oil and Gas,central,,
+en.itmo.ru,3,ror,ITMO University,central,,
+en.kgeu.ru,3,ror,Kazan State Power Engineering University,central,,
+en.magtu.ru,3,ror,Nosov Magnitogorsk State Technical University,central,,
+en.misis.ru,3,ror,National University of Science and Technology,central,,
+en.ngmu.ru,3,ror,Novosibirsk State Medical University,central,,
+en.nntu.ru,3,ror,Nizhny Novgorod State Technical University,central,,
+en.nvsu.ru,3,ror,Nizhnevartovsk State University,central,,
+en.rpa-mu.ru,3,ror,The All-Russian State University of Justice,central,,
+en.sibstrin.ru,3,ror,Novosibirsk State University of Architecture and Civil Engineering,central,,
+en.unecon.ru,3,ror,Saint Petersburg State University of Economics,central,,
+en.usue.ru,3,ror,Ural State University of Economics,central,,
+en.vgasu.ru,3,ror,Volgograd State University of Architecture and Civil Engineering,central,,
+eng.bspu.ru,3,ror,M. Akmullah Bashkir State Pedagogical University,central,,
 eng.istu.edu,3,academia,Irkutsk National Research Technical University,central,,
+eng.kirovgma.ru,3,ror,Kirov State Medical Academy,central,,
+eng.mati.ru,3,ror,Moscow State Aviation Technological University,central,,
+eng.mephi.ru,3,ror,National Research Nuclear University MEPhI,central,,
+eng.ncfu.ru,3,ror,North-Caucasus Federal University,central,,
+eng.pskgu.ru,3,ror,Pskov State University,central,,
+eng.spbftu.ru,3,ror,Saint Petersburg State Forest Technical University,central,,
+eng.ugues.ru,3,ror,Ufa State University of Economics and Service,central,,
+esstu.ru,3,ror,East Siberia State University of Technology and Management,central,,
+etu.ru,3,ror,Saint Petersburg State Electrotechnical University,central,,
 euro.who.int,3,wikidata,WHO European Office for the Prevention and Control of NCD,,HttpConnectTimeoutException: HTTP connect timed out,none
+fesmu.ru,3,ror,Far Eastern State Medical University,central,,
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Moscow",central,301,10 mail.valtori.fi.
 fr.istu.edu,3,academia,Irkutsk National Research Technical University,central,,
 gamaleya.org,3,academia,Gamaleya Research Institute of Epidemiology and Microbiology,central,,
+gasu.ru,3,ror,Gorno-Altaisk State University,central,,
+gaugn.ru,3,ror,State Academic University of Humanities,central,,
 germania.diplo.de,3,wikidata,"Embassy of Germany, Moscow",central,200,none
 ghanaembassy-russia.com,3,wikidata,"Embassy of Ghana, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,none
 gnicpm.com,3,academia,National Research Center for Preventive Medicine,central,,
+gstou.ru,3,ror,Grozny State Oil Technical University named after Academician MD Millionshtchikov,central,,
+gu-ural.ru,3,ror,Liberal Arts University,central,,
+gukit.ru,3,ror,Saint Petersburg State University of Cinema and Television,central,,
+gumrf.ru,3,ror,Admiral Makarov State University of Maritime and Inland Shipping,central,,
+guu.ru,3,ror,State University of Management,central,,
+guz.ru,3,ror,State University of Land Use Planning,central,,
+herzen.spb.ru,3,ror,Herzen University,central,,
 iae.nsk.su,3,academia,Institute of Automation and Electrometry,central,,
 ieie.su,3,academia,Institute of Economics and Industrial Engineering,central,,
+ieml.ru,3,ror,Kazan Innovative University named after V. G. Timiryasov,central,,
 igeoph.net,3,academia,Institute of geophysics of the Russian Academy of Sciences,central,,
+igsha.ru,3,ror,Irkutsk State Agrarian University named after A.A. Ezhevsky,central,,
 ihaefe.org,3,academia,"Institute of History, Archaeology and Ethnography of the Peoples of Far-East",central,,
 iis.nsk.su,3,academia,A.P. Ershov Institute of Informatics Systems,central,,
 inp.nsk.su,3,academia,Budker Institute of Nuclear Physics,central,,
 instytutpolski.pl,3,wikidata,Polish Institute in Moscow,,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
-istu.edu,3,academia,Irkutsk National Research Technical University,central,,
+inter.istu.ru,3,ror,Izhevsk State Technical University,central,,
+intern.mgau.ru,3,ror,Michurinsk State Agrarian University,central,,
+international.pnzgu.ru,3,ror,Penza State University,central,,
+irgups.ru,3,ror,Irkutsk State Transport University,central,,
+ismu.baikal.ru,3,ror,Irkutsk State Medical University,central,,
+ispu.ru,3,ror,Ivanovo State Power University,central,,
+isu.ru,3,ror,Irkutsk State University,central,,
+isuct.ru,3,ror,Ivanovo State University of Chemistry and Technology,central,,
+itib.ru,3,ror,Institute of Technology and Business,central,,
+ium.mccme.ru,3,ror,Independent University of Moscow,central,,
+ivanovo.ac.ru,3,ror,Ivanovo State University,central,,
+kalmsu.ru,3,ror,Kalmyk State University,central,,
+kamchatgtu.ru,3,ror,Kamchatka State Technical University,central,,
+kamgu.ru,3,ror,Kamchatka State University named after Vitus Bering,central,,
+kazangmu.ru,3,ror,Kazan State Medical University,central,,
+kazanriu.ru,3,ror,Russian Islamic University,central,,
+kbsu.ru,3,ror,Kabardino-Balkarian State University,central,,
+kchgu.ru,3,ror,Karachay-Cherkess State Pedagogical University,central,,
+kemgmu.ru,3,ror,Kemerovo State Medical University,central,,
+kemsu.ru,3,ror,Kemerovo State University,central,,
+kgafk.ru,3,ror,"Kuban State University of Physical Education, Sport and Tourism",central,,
+kgsu.ru,3,ror,Kurgan State University,central,,
+khsu.ru,3,ror,Katanov Khakass State University,central,,
 kigiran.com,3,academia,Kalmyk Scientific Center of the Russian Academy of Sciences,central,,
+klgtu.ru,3,ror,Kaliningrad State Technical University,central,,
+klif.univer.mvd.ru,3,ror,Kaliningrad Law Institute Ministry of Internal Affairs of the Russian Federation,central,,
+knastu.ru,3,ror,Komsomolsk-on-Amur State Technical University,central,,
+krasgmu.ru,3,ror,Krasnoyarsk State Medical University,central,,
+ksma.ru,3,ror,Kuban State Medical University,central,,
 kspu.edu,3,academia,Kherson State University,central,,
+ksu.edu.ru,3,ror,Kostroma State University named after N A Nekrasov,central,,
+kubstu.ru,3,ror,Kuban State Technological University,central,,
+kuzstu.ru,3,ror,Kuzbass State Technical University,central,,
+lengu.ru,3,ror,Pushkin Leningrad State University,central,,
+lesgaft.spb.ru,3,ror,"Federal State Budget Educational Institution of Higher Education «Lesgaft National State University of Physical Education, Sport and Health, St. Petersburg»",central,,
+linguanet.ru,3,ror,Moscow State Linguistic University,central,,
+lspu-lipetsk.ru,3,ror,Lipetsk State Pedagogical University,central,,
+mabiu.ru,3,ror,International Academy of Business and Management,central,,
+marsu.ru,3,ror,Mari State University,central,,
+masu.edu.ru,3,ror,Murmansk Arctic State University,central,,
+masu.ru,3,ror,Magnitogorsk State University,central,,
 mauritius-moscow.govmu.org,3,wikidata,embassy of Mauritius in Russia,central,HttpConnectTimeoutException: HTTP connect timed out,none
 memoscow.org,3,wikidata,"Embassy of Myanmar, Moscow",central,HttpConnectTimeoutException: HTTP connect timed out,0 _dc-mx.cc56c9dec4c3.memoscow.org.
 mfa.bg,3,wikidata,"Embassy of Bulgaria, Moscow",central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,Embassy of Greece in Moscow,central,403,10 mailhost.mfa.gr.
 mfa.tj,3,wikidata,"Embassy of Tajikistan, Moscow",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.mfa.tj.; 10 mail.mfa.tj.
+mfua.ru,3,ror,Moscow University of Finance and Law,central,,
+mgimo.ru,3,ror,Moscow State Institute of International Relations,central,,
+mgpu.ru,3,ror,Moscow City University,central,,
+mgul.ac.ru,3,ror,Moscow State Forest University,central,,
+mgupp.ru,3,ror,Moscow State University of Food Production,central,,
+mgutm.ru,3,ror,Moscow State University of Technologies and Management named after K.G. Razumovskiy,central,,
+mininuniver.ru,3,ror,Nizhny Novgorod State Pedagogical University,central,,
+miu-sochi.ru,3,ror,International Innovative University,central,,
+mkgtu.ru,3,ror,Maikop State Technological University,central,,
 mmbi.info,3,academia,Murmansk Marine Biological Institute,central,,
+mnepu.ru,3,ror,MNEPU Academy,central,,
 moscou.mae.lu,3,wikidata,"Embassy of Luxembourg, Moscow",central,302,none
 moscova.mae.ro,3,wikidata,"Embassy of Romania, Moscow",central,ConnectException,none
 moscow.embassy.mn,3,wikidata,"Embassy of Mongolia, Moscow",central,200,none
@@ -656,41 +780,224 @@ moscow.embassy.qa,3,wikidata,embassy of Qatar in Russia,central,SSLHandshakeExce
 moscow.mfa.ee,3,wikidata,Embassy of Estonia in Moscow,central,200,none
 moscow.mofa.go.ug,3,wikidata,embassy of Uganda in Russia,central,200,none
 moscow.thaiembassy.org,3,wikidata,"Embassy of Thailand, Moscow",central,200,none
+mosgu.ru,3,ror,Moscow University for the Humanities,central,,
 moskva.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Moscow",central,SSLHandshakeException: Remote host terminated the handshake,none
 mpgu.edu,3,academia,Moscow Pedagogical State University,central,,
+mpsu.ru,3,ror,Moscow Psycho-Social University,central,,
+mstu.edu.ru,3,ror,Murmansk State Technical University,central,,
+msuie.ru,3,ror,Moscow State University of Environmental Engineering,central,,
+msupe.ru,3,ror,Moscow State University of Psychology & Education,central,,
+mtuci.ru,3,ror,Moscow Technical University of Communication and Informatics,central,,
+mubint.ru,3,ror,International Academy of Business and New Technologies,central,,
+muctr.ru,3,ror,D. Mendeleyev University of Chemical Technology of Russia,central,,
+muh.ru,3,ror,Modern University for the Humanities,central,,
+muiv.ru,3,ror,Moscow Witte University,central,,
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Moscow",central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,"Embassy of Slovakia, Moscow",central,403,10 mail.gov.sk.
 nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Moscow",central,301,0 .
 netherlandsworldwide.nl,3,wikidata,Consulate General of the Netherlands in St. Petersburg,,301,0 .
+new.guap.ru,3,ror,Saint Petersburg State University of Aerospace and Instrumentation,central,,
+new.univ-orel.ru,3,ror,Orlov State University,central,,
+ngiei.ru,3,ror,Nizhny Novgorod State University of Engineering and Economics,central,,
 norway.no,3,wikidata,"Embassy of Norway, Moscow",central,301,0 mx.domeneshop.no.
+nosu.ru,3,ror,North Ossetian State University,central,,
+npi.edu.ru,3,ror,Novorossiysk Polytechnic Institute,central,,
+nsmu.ru,3,ror,Northern State Medical University,central,,
+nspu.ru,3,ror,Novosibirsk State Pedagogical University,central,,
+nsuada.ru,3,ror,"Kryachkov Novosibirsk State University of Architecture, Design and Arts",central,,
+nsuem.ru,3,ror,Novosibirsk State University of Economics and Management,central,,
+nwotu.ru,3,ror,Northwest Open Technical University,central,,
+nwpi.ru,3,ror,North-West State Technical University,central,,
+old.pglu.ru,3,ror,Pyatigorsk State University,central,,
+omgau.ru,3,ror,Omsk State Agrarian University,central,,
+omgpu.ru,3,ror,Omsk State Pedagogical University,central,,
+orelgiet.ru,3,ror,Oryol State University of Economics and Trade,central,,
+orelsau.ru,3,ror,Orel State Agrarian University,central,,
+oreluniver.ru,3,ror,Orel State University named after I.S. Turgenev,central,,
+orensau.ru,3,ror,Orenburg State Agrarian University,central,,
 osembassy.org,3,wikidata,"Embassy of South Ossetia, Moscow",central,301,10 mx.yandex.net.
+ospu.ru,3,ror,Orenburg State Pedagogical University,central,,
+osu.ru,3,ror,Orenburg State University,central,,
+petrsu.ru,3,ror,Petrozavodsk State University,central,,
+pgsga.ru,3,ror,Samara State University of Social Sciences and Education,central,,
+pguas.ru,3,ror,Penza State University of Architecture and Construction,central,,
+pgusa.ru,3,ror,Sholem Aleichem Amur State University,central,,
+pi.vlsu.ru,3,ror,Vladimir State University for the Humanities,central,,
+pijs.ru,3,ror,St. Petersburg Institute of Jewish Studies,central,,
+pimunn.ru,3,ror,Privolzhsky Research Medical University,central,,
+pmedpharm.ru,3,ror,Pyatigorsk Medical and Pharmaceutical Institute - branch of Volgograd State Medical University,central,,
+pnu.edu.ru,3,ror,Pacific National University,central,,
+polaruniversity.ru,3,ror,Fedorovsky Polar State University,central,,
+portal.novsu.ru,3,ror,Yaroslav-the-Wise Novgorod State University,central,,
+ppi.pnzgu.ru,3,ror,Penza State Pedagogical University,central,,
+psksu.ru,3,ror,Pskov State Pedagogical Institute,central,,
+psma.ru,3,ror,Perm State Medical Academy,central,,
 pss.crimea.ua,3,wikidata,Q4378720,,ConnectException,none
+psuti.ru,3,ror,Povolzhskiy State University of Telecommunications and Informatics,central,,
+pushgu.ru,3,ror,Pushchino State Institute of Natural Sciences,central,,
+rgata.ru,3,ror,Rybinsk State Aviation Technological Academy,central,,
+rgatu.ru,3,ror,Ryazan State Agrotechnological University,central,,
+rgazu.ru,3,ror,Russian State Agrarian Correspondence University,central,,
+rgsu.ru,3,ror,Rostov State University of Civil Engineering,central,,
+rgup.ru,3,ror,Russian State University of Justice,central,,
+rgups.ru,3,ror,Rostov State Transport University,central,,
 rheumatolog.su,3,academia,VA Nasonova Scientific Research Institute of Rheumatology,central,,
+rosnou.ru,3,ror,Russian New University,central,,
+rostgmu.ru,3,ror,Rostov State Medical University,central,,
+rosunimed.ru,3,ror,Russian University of Medicine,central,,
+rpu-rf.ru,3,ror,Russian Orthodox Institute Sacred Ioann Bogolslov,central,,
+rshu.ru,3,ror,Russian State Hydrometeorological University,central,,
+rsreu.ru,3,ror,Ryazan State Radio Engineering University,central,,
+rsu.edu.ru,3,ror,Ryazan State University,central,,
 ru.ambafrance.org,3,wikidata,"Embassy of France, Moscow",central,301,none
 ru.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Moscow",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ru.china-embassy.org found.,none
 ru.mfa.lt,3,wikidata,"Embassy of Lithuania, Moscow",central,403,none
 ru.mvep.hr,3,wikidata,"Embassy of Croatia, Moscow",central,ConnectException,none
+rudn.ru,3,ror,Peoples' Friendship University of Russia,central,,
 rusia.mfa.md,3,wikidata,Moldovan Embassy to Russia,central,ConnectException,none
 rusland.um.dk,3,wikidata,"Embassy of Denmark, Moscow",central,301,none
 russia.gospmr.org,3,wikidata,"Representative office of Transnistria, Moscow",,200,10 mail.russia.gospmr.org.
 russia.mfa.am,3,wikidata,"Embassy of Armenia, Moscow",central,301,none
+sakhgu.ru,3,ror,Sakhalin State University,central,,
+samgups.ru,3,ror,Samara State Transport University,central,,
+samsmu.ru,3,ror,Samara State Medical University,central,,
 sankt-petersburg.diplo.de,3,wikidata,"Consulate General of Germany, St. Petersburg",,301,10 mx1.bund.de.; 10 mx2.bund.de.
+sechenov.ru,3,ror,Sechenov University,central,,
+seun.ru,3,ror,Saratov State Socio-Economic University,central,,
+sgugit.ru,3,ror,Siberian State University Geosystems and Technology,central,,
+shgpi.edu.ru,3,ror,Shadrinsk State Pedagogical Institute,central,,
+shu.ru,3,ror,Smolensk University for Humanities,central,,
+siblu.ru,3,ror,Siberian Law University,central,,
+sibsau.ru,3,ror,Siberian State Aerospace University,central,,
+sibsiu.ru,3,ror,Siberian State Industrial University,central,,
+sibsport.ru,3,ror,Siberian State University of Physical Education and Sport,central,,
+sibstu.kts.ru,3,ror,Siberian State Technological University,central,,
+sibsutis.ru,3,ror,Siberian State University of Telecommunications and Information Science,central,,
+siriusuniversity.ru,3,ror,Sirius University of Science and Technology,central,,
+siurgtu.ru,3,ror,South-Russian State Polytechnic University named after MI Platov,central,,
+smolgmu.ru,3,ror,Smolensk State Medical University,central,,
+smolgu.ru,3,ror,Smolensk State University,central,,
+smtu.ru,3,ror,State Marine Technical University of St. Petersburg,central,,
 sobranie.info,3,wikidata,Legislative Assembly of Krasnoyarsk Krai,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mgw.sobranie.info.
+spbgasu.ru,3,ror,Saint Petersburg State University of Architecture and Civil Engineering,central,,
+spbgik.ru,3,ror,Saint Petersburg State University of Culture and Arts,central,,
+spbguga.ru,3,ror,Saint Petersburg State University of Civil Aviation,central,,
+spbguvm.ru,3,ror,Saint Petersburg State University of Veterinary Medicine,central,,
+spbti.ru,3,ror,St. Petersburg State Technological Institute,central,,
+sportedu.ru,3,ror,Russian State University for Physical Education Sport Youth and Tourism,central,,
+sssu.ru,3,ror,Institute of Service and Entrepreneurship of DGTU,central,,
+sstu.ru,3,ror,Yuri Gagarin State Technical University of Saratov,central,,
+stankin.ru,3,ror,Moscow State Technological University,central,,
+stu.lipetsk.ru,3,ror,Lipetsk State Technical University,central,,
+stu.ru,3,ror,Siberian Transport University,central,,
+sut.ru,3,ror,Saint-Petersburg State University of Telecommunications,central,,
+sutd.ru,3,ror,Saint-Petersburg State University of Technology and Design,central,,
+svgu.ru,3,ror,Northeastern State University,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Moscow",central,301,none
+swsu.ru,3,ror,South-West State University,central,,
+syktsu.ru,3,ror,Syktyvkar State University,central,,
+synergyuniversity.ru,3,ror,Moscow University «Synergy»,central,,
+tgmu.ru,3,ror,Vladivostok State Medical University,central,,
+tiei.ru,3,ror,Tula University,central,,
+tisbi.ru,3,ror,University of Management TISBI,central,,
+tksu.ru,3,ror,Kaluga State University named after K.E.Tsiolkovski,central,,
 tmeccc.org,3,wikidata,Representative Office in Moscow for the Taipei-Moscow Economic and Cultural Coordination Commission,,ConnectException,none
+tolgas.ru,3,ror,Volga Region State University of Service,central,,
+touro.ru,3,ror,Moscow University Touro,central,,
+tsaa.ru,3,ror,Agrarian State University of Northern Zauralye,central,,
 tsagi.com,3,academia,Central Aerohydrodynamic Institute,central,,
+tspu.edu.ru,3,ror,Tomsk State Pedagogical University,central,,
+tsput.ru,3,ror,Tula State Pedagogical University named after L.N. Tolstoy,central,,
+tstu.tver.ru,3,ror,Tver State Technical University,central,,
+tsuab.ru,3,ror,Tomsk State University of Architecture and Building,central,,
+tsutmb.ru,3,ror,Tambov State University,central,,
+tu-bryansk.ru,3,ror,Bryansk State Technical University,central,,
+tvgsha.ru,3,ror,Tver State Agricultural Academy,central,,
+tyuiu.ru,3,ror,Industrial University of Tyumen,central,,
+tyumsmu.ru,3,ror,Tyumen State Medical University,central,,
+ugrasu.ru,3,ror,Yugra State University,central,,
 uimech.org,3,academia,R.R. Mavliutov Institute of Mechanics of the Ufa Federal Research Centre,central,,
 ulanude.consul.mn,3,wikidata,"Consulate-General of Mongolia, Ulan-Ude",,200,none
+ulspu.ru,3,ror,Ulyanovsk State Pedagogical University Named After I. Ulyanov,central,,
+ulstu.ru,3,ror,Ulyanovsk State Technical University,central,,
+ulsu.ru,3,ror,Ulyanovsk State University,central,,
+univermvd.ru,3,ror,St. Petersburg University of the Ministry of Internal Affairs of Russia,central,,
+uniyar.ac.ru,3,ror,Yaroslavl State University,central,,
+uralgufk.ru,3,ror,Ural State University of Physical Culture,central,,
+urep.ru,3,ror,"Ural Institute of Economics, Management and Law",central,,
+urgau.ru,3,ror,Ural State Agrarian University,central,,
+usfeu.ru,3,ror,Ural State Forestry Engineering University,central,,
+usma.ru,3,ror,Ural State Medical University,central,,
+uspu.ru,3,ror,Ural State Pedagogical University,central,,
+usurt.ru,3,ror,Ural State University of Railway Transport,central,,
+utmn.ru,3,ror,University of Tyumen,central,,
+uust.ru,3,ror,Ufa University of Science and Technology,central,,
+v4.udsu.ru,3,ror,Udmurt State University,central,,
+vaiu.ru,3,ror,Air Force Academy named after Professor NE Zhukovsky and Yu.A. Gagarin,central,,
 vamto.net,3,wikidata,Military Academy for Logistics,,200,none
+vavilovsar.ru,3,ror,"Saratov State University of Genetics, Biotechnology and Engineering named after N. I. Vavilov",central,,
+vgatu.ru,3,ror,Vyatka State Agrotechnological University,central,,
+vgltu.ru,3,ror,Voronezh State University of Forestry and Technologies,central,,
+vivt.ru,3,ror,Voronezh Institute of High Technologies,central,,
+vlsu.ru,3,ror,Vladimir State University,central,,
+voenmeh.ru,3,ror,Baltic State Technical University Voenmeh,central,,
+vogu35.ru,3,ror,Vologda State University,central,,
+volgou.ru,3,ror,Tsaritsyn Orthodox University of St. Sergius of Radonezh,central,,
+volsu.ru,3,ror,Volgograd State University,central,,
+vsau.ru,3,ror,Voronezh State Agrarian University named after Emperor Peter the Great,central,,
+vsiep.ru,3,ror,East Siberian University of Economics and Law,central,,
+vsmaburdenko.ru,3,ror,Voronezh State Medical Academy named after N.N. Burdenko,central,,
+vspu.ac.ru,3,ror,Voronezh State Pedagogical University,central,,
+vspu.ru,3,ror,Volgograd State Pedagogical University,central,,
+vstu.ru,3,ror,Volgograd State Technical University,central,,
+vsu.ru,3,ror,Voronezh State University,central,,
+vsuet.ru,3,ror,Voronezh State University of Engineering Technologies,central,,
+vumo.mil.ru,3,ror,Military University,central,,
+www2.bigpi.biysk.ru,3,ror,Altai State Humanities Pedagogical University,central,,
 xn--80apgmbdfl.xn--p1ai,3,academia,Research Institute of Comprehensive Exploitation of Mineral Resources RAS,central,,
+ysaa.ru,3,ror,Arctic State Agrotechnological University,central,,
+ysmu.ru,3,ror,Yaroslavl State Medical Academy,central,,
+ystu.ru,3,ror,Yaroslavl State Technical University,central,,
+zabgu.ru,3,ror,Transbaikal State University,central,,
+zda.zau.ru,3,ror,Zaoksky Adventist University,central,,
+agpu.net,2,ror,Armavir State Pedagogical Academy,central,,
 ar.mil.ru,2,wikidata;wikidata;wikidata,Ministry of Defense of the Russian Federation,central,HttpConnectTimeoutException: HTTP connect timed out,none
+astu.org,2,ror,Astrakhan State Technical University,central,,
+bgsha.com,2,ror,Bryansk State Agrarian University,central,,
+buflic.org,2,ror,Baltic Institute of Foreign Languages and International Intercultural Cooperation,central,,
+dgpu.net,2,ror,Daghestan State Pedagogical University,central,,
+en.volgatech.net,2,ror,Volga State University of Technology,central,,
 eng.mil.ru,2,wikidata;wikidata;wikidata,Ministry of Defense of the Russian Federation,central,HttpConnectTimeoutException: HTTP connect timed out,none
+eng.ruc.su,2,ror,Russian University of Cooperation,central,,
 es.mil.ru,2,wikidata;wikidata;wikidata,Ministry of Defense of the Russian Federation,central,HttpConnectTimeoutException: HTTP connect timed out,none
+eusp.org,2,ror,European University at Saint Petersburg,central,,
 fr.mil.ru,2,wikidata;wikidata;wikidata,Ministry of Defense of the Russian Federation,central,HttpConnectTimeoutException: HTTP connect timed out,none
+gorskigau.com,2,ror,Gorsky State Agrarian University,central,,
+gpmu.org,2,ror,Saint Petersburg State Pediatric Medical University,central,,
+innopolis.university,2,ror,Innopolis University,central,,
+ivgpu.com,2,ror,Ivanovo State Polytechnic University,central,,
+kgmu.com,2,ror,Kursk State Medical University,central,,
+mgik.org,2,ror,Moscow State Institute of Culture,central,,
+mi.university,2,ror,International University in Moscow,central,,
 mid.ru,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Foreign Affairs of the Russian Federation | Embassy of Equatorial Guinea, Moscow",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mgw1.mid.ru.
 mil.ru,2,wikidata;wikidata;wikidata;wikidata,GRU | Ministry of Defense of the Russian Federation,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail2.mil.ru.; 30 mail4.mil.ru.; 10 mail1.mil.ru.; 30 mail3.mil.ru.
 mos-gorsud.ru,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Basmanny District Court | Nikulinsky Districtional Court | Tagansky District Court of Moscow | Moscow City Court | Tverskoy Districtional Court (Moscow) | Babushkinsky District Court | Zamoskvoretsky District Court of Moscow,,200,20 mx3.msksud.ru.; 10 mx1.msksud.ru.; 10 mx2.msksud.ru.; 20 mx4.msksud.ru.
 mvd.ru,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q4423249 | Search Operations Department of the Ministry of Internal Affairs of Russia | Q4139166 | Criminal investigation department (Russia) | Police of Russia | Centre for Combating Extremism,central,HttpConnectTimeoutException: HTTP connect timed out,10 imx1.mvd.ru.; 20 imx2.mvd.ru.
 mziorb.ru,2,wikidata;wikidata;wikidata;wikidata,Ministry of Land and Property Relations,central,HttpTimeoutException: request timed out,none
+nayanova.edu,2,ror,Nayanova University,central,,
+rgsu.net,2,ror,Russian State Social University,central,,
+rusoil.net,2,ror,Ufa State Petroleum Technological University,central,,
+samgtu.com,2,ror,Samara State Technical University,central,,
+sibupk.su,2,ror,Siberian University of Consumer Cooperatives,central,,
+ssuwt.com,2,ror,Siberian State University of Water Transport,central,,
+stavmed.com,2,ror,Stavropol State Medical University,central,,
+u.university,2,ror,Universal University,central,,
+urao.edu,2,ror,University of the Russian Academy of Education,central,,
+volgau.com,2,ror,Volgograd State Agricultural University,central,,
+volny.edu,2,ror,Pskov Volny Institute,central,,
 vsrf.ru,2,wikidata;wikidata;wikidata,Supreme Court of Russia,central,302,10 mail.vsrf.ru.; 20 mail2.vsrf.ru.
+xn--c1akwgdf.xn--p1ai,2,ror,Russian State University of Tourism and Service,central,,
+xn--d1alsn.xn--b1aew.xn--p1ai,2,ror,Krasnodar University of Ministry of Internal Affairs of Russia,central,,
+xn--l1aeji.xn--b1aew.xn--p1ai,2,ror,Moscow University of the Ministry of Internal Affairs of Russia,central,,
+yspu.org,2,ror,Yaroslavl State Pedagogical University,central,,
 zdohrana.ru,2,wikidata;wikidata,Departmental security of railway transport,central,200,10 mx1.zdohrana.ru.; 10 mx2.zdohrana.ru.

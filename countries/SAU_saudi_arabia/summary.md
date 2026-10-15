@@ -30,12 +30,13 @@
 
 ## Proposed domains ranked by score
 
-51 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+91 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `shps.org.sa` |  | 301 | wikidata;wikidata | Saudi Heritage Preservation Society |
+| 6 | `kfu.edu.sa` | central |  | academia;ror | King Faisal University |
 | 4 | `bangladeshembassy.org.sa` | central | ConnectEx... | wikidata | Embassy of Bangladesh, Riyadh |
 | 4 | `cma.org.sa` | central | 301 | wikidata | Capital Market Authority |
 | 4 | `darah.org.sa` |  | 403 | wikidata | Darah |
@@ -43,7 +44,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `kapl.org.sa` |  | 200 | wikidata | Q137555839 |
 | 4 | `kenyaembassy.org.sa` | central | ConnectEx... | wikidata | embassy of Kenya in Saudi Arabia |
 | 4 | `kfmrc.kau.edu.sa` |  | ConnectEx... | wikidata | King Fahd Medical Research Center |
-| 4 | `kfu.edu.sa` | central |  | academia | King Faisal University |
 | 4 | `maldivesembassy.sa` | central | ConnectEx... | wikidata | Embassy of Maldives, Riyadh |
 | 4 | `mofaic.gov.ae` |  | IOExcepti... | wikidata | Consulate General of the United Arab Emirates, Jeddah |
 | 4 | `moroccanembassy.sa` | central | ConnectEx... | wikidata | embassy of Morocco in Saudi Arabia |

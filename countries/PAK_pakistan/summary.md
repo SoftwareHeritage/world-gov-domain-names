@@ -30,17 +30,24 @@
 
 ## Proposed domains ranked by score
 
-48 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+57 domain(s) proposed for validation, of which 9 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `nih.org.pk` | central | 200 | wikidata;academia | National Institute of Health |
 | 7 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata;wikidata | Embassy of the United Arab Emirates, Islamabad | Consulate-General of the Uni... |
+| 6 | `buetk.edu.pk` | central-1 |  | academia;ror | Balochistan University of Engineering and Technology |
+| 6 | `buitms.edu.pk` | central-1 |  | academia;ror | Balochistan University of Information Technology, Engineering and Management ... |
+| 6 | `ndu.edu.pk` | central |  | academia;ror | National Defence University |
+| 6 | `ntu.edu.pk` | central |  | academia;ror | National Textile University |
+| 6 | `nust.edu.pk` | central |  | academia;ror | National University of Sciences and Technology |
 | 6 | `pk.ambafrance.org` | central | 301 | wikidata;wikidata | Q62818123 | Embassy of France, Islamabad |
+| 6 | `pu.edu.pk` | central-1 |  | academia;ror | University of the Punjab |
+| 6 | `sau.edu.pk` | central-1 |  | academia;ror | Sindh Agriculture University |
+| 6 | `uob.edu.pk` | central-1 |  | academia;ror | University of Balochistan |
+| 6 | `usindh.edu.pk` | central-1 |  | academia;ror | University of Sindh |
 | 5 | `pakistanpressfoundation.org` | central | 200 | wikidata | Supreme Court of Pakistan |
-| 4 | `buetk.edu.pk` | central-1 |  | academia | Balochistan University of Engineering and Technology |
-| 4 | `buitms.edu.pk` | central-1 |  | academia | Balochistan University of Information Technology, Engineering and Management ... |
 | 4 | `caapakistan.com.pk` |  | SSLHandsh... | wikidata | Pakistan Civil Aviation Authority |
 | 4 | `chf.edu.pk` |  | 200 | wikidata | Children Hospital, Faisalabad |
 | 4 | `hsa.edu.pk` |  | 200 | wikidata | Health Services Academy |
@@ -48,11 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mepco.com.pk` |  | 200 | wikidata | Multan Electric Power Company |
 | 4 | `nceg.uop.edu.pk` | central |  | academia | National Centre of Excellence in Geology |
 | 4 | `ncp.edu.pk` | central |  | academia | National Centre for Physics |
-| 4 | `ndu.edu.pk` | central |  | academia | National Defence University |
-| 4 | `nia.org.pk` |  | 200 | wikidata | Nuclear Institute of Agriculture, Tandojam |
-| 4 | `niab.org.pk` |  | HttpConne... | wikidata | Nuclear Institute for Agriculture and Biology |
-| 4 | `nifa.org.pk` |  | 200 | wikidata | Nuclear Institute for Food and Agriculture |
-| 4 | `nilop.edu.pk` | central |  | academia | National Institute of Lasers and Optronics |
-| 4 | `nsu.edu.pk` | central |  | academia | National Skills University |
-| 4 | `ntu.edu.pk` | central |  | academia | National Textile University |
 

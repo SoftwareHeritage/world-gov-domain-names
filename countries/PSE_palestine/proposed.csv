@@ -13,10 +13,12 @@ nsf.ps,7,wikidata;wikidata,Palestinian National Security Forces,,200,none
 pal-wakf.ps,7,wikidata;wikidata,Ministry of Awqaf and Religious Affairs (Palestine),central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,1 pal-wakf.email.gov.ps.
 plc.ps,7,wikidata;wikidata,Palestinian Legislative Council,central,302,5 mailgw01.gov.ps.
 tourism.ps,7,wikidata;wikidata,Ministry of Tourism and Antiquities,central,200,none
+alaqsa.edu.ps,6,academia;ror,al-Aqsa University,central,,
 custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
 pal-plc.org,6,wikidata;wikidata,Palestinian Legislative Council,central,HttpConnectTimeoutException: HTTP connect timed out,5 pal-plc.email.gov.ps.
 palestinepnc.org,6,wikidata;wikidata,Palestinian National Council,,HttpTimeoutException: request timed out,0 mail.palestinepnc.org.
-alaqsa.edu.ps,4,academia,al-Aqsa University,central,,
+hebron.edu,5,academia;ror,Hebron University,central,,
+qou.edu,5,academia;ror,Al-Quds Open University,central,,
 alistiqlal.edu.ps,4,academia,Al-Istiqlal University,central,,
 cwrc.ps,4,wikidata,Colonization and Wall Resistance Commission,,200,5 cwrc.email.gov.ps.
 darifta.ps,4,wikidata,The Palestinian Fatwa House,,200,0 darifta.ps.
@@ -56,21 +58,36 @@ saacb.ps,4,wikidata,The Palestinian Administrative and Financial Supervision Bur
 tscc.pna.ps,4,wikidata,Supreme Constitutional Court of the State of Palestine,,301,5 tscc.email.gov.ps.
 wsrc.ps,4,wikidata,Water Sector Regulatory Council of Palestine,,200,0 wsrc-ps.mail.protection.outlook.com.
 alazhar-gaza.edu,3,academia,Al-Azhar University – Gaza,central,,
+cst-kh.edu.ps,3,ror,University College of Science and Technology - Khan Younis,central,,
+daralkalima.edu.ps,3,ror,Dar Al-Kalima University College of Arts and Culture,central,,
 dfa.ie,3,wikidata,"Representative Office of Ireland, Ramallah",,301,10 ext0.dfa.ie.; 20 cwext.gn.gov.ie.; 20 gbext.gn.gov.ie.
 eeas.europa.eu,3,wikidata,"Office of the European Union Representative (West Bank and Gaza Strip, UNRWA)",central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+en.ucas.edu.ps,3,ror,University College of Applied Science,central,,
+en.up.edu.ps,3,ror,University of Palestine,central,,
 finlandabroad.fi,3,wikidata,"Finland’s Representative Office, Ramallah",,301,10 mail.valtori.fi.
-hebron.edu,3,academia,Hebron University,central,,
+israa.edu.ps,3,ror,Israa University- Palestine,central,,
+iugaza.edu.ps,3,ror,Islamic University of Gaza,central,,
 mfa.gr,3,wikidata,Consulate General of Greece in Jerusalem,,403,10 mailhost.mfa.gr.
+muc.edu.ps,3,ror,Modern University College,central,,
 mzv.cz,3,wikidata,Representative Office of the Czech Republic in Ramallah,,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 norway.no,3,wikidata,Representative Office of Norway to the Palestinian Authority,,301,0 mx.domeneshop.no.
+nu-vte.edu.ps,3,ror,Nablus University for Vocational and Technical Education,central,,
 pal-chambers.org,3,wikidata,"Salfit Chamber of Commerce, Industry and Agriculture",,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.pal-chambers.org.
+paluniv.edu.ps,3,ror,Palestine Ahliya University,central,,
 pna.mid.ru,3,wikidata,Representative office of the Russian Federation to Palestinian National Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 pschinaoffice.org,3,wikidata,Office of the People's Republic of China to the State of Palestine,central,ConnectException,none
-qou.edu,3,academia,Al-Quds Open University,central,,
+ptuk.edu.ps,3,ror,Palestine Technical University - Kadoorie,central,,
 ramala.predstavnistvo.si,3,wikidata,Representative Office of the Republic of Slovenia in Palestine,,SSLHandshakeException: Remote host terminated the handshake,none
 ramallah.diplo.de,3,wikidata,German Representative Office Ramallah,,200,10 mx2.bund.de.; 10 mx1.bund.de.
 ramallah.mae.ro,3,wikidata,Q100260597,,503,none
 ramallah.um.dk,3,wikidata,Danish Representation in Ramallah,,301,none
+scme.edu.ps,3,ror,Smart University College for Modern Education,central,,
 swedenabroad.se,3,wikidata,"Consulate General of Sweden, Jerusalem",,301,none
 tulkarm-chamber.org,3,wikidata,"Tulkarm Chamber of Commerce, Industry and Agriculture",central-1,ConnectException,none
+zust.edu.ps,3,ror,Alzaytona University of Science & Technology,central,,
+aaup.edu,2,ror,Arab American University,central,,
+bethlehem.edu,2,ror,Bethlehem University,central,,
+birzeit.edu,2,ror,Birzeit University,central,,
+najah.edu,2,ror,An-Najah National University,central,,
+ppu.edu,2,ror,Palestine Polytechnic University,central,,
 site.moh.ps,2,wikidata;wikidata;wikidata,Ministry of Health | Ministry of Health of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

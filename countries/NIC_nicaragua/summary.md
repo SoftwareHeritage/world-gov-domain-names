@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-12 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+47 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,11 +40,19 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `cvjp.org.ni` |  | ConnectEx... | wikidata | Commission for Truth, Justice and Peace |
 | 4 | `eaai.com.ni` | central | 200 | wikidata | Administrative Company of National and International Airports |
 | 4 | `tecnacional.edu.ni` | central | 200 | wikidata | National Technical and Technological Institute of Nicaragua |
+| 3 | `bicu.edu.ni` | central |  | ror | Bluefields Indian and Caribbean University |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Nicaragua and to the Central American Int... |
+| 3 | `itv.edu.ni` | central |  | ror | Instituto Tecnológico Victoria - ITV |
+| 3 | `keiseruniversity.edu.ni` | central |  | ror | Keiser University Latin American Campus |
 | 3 | `managua.diplo.de` | central | 200 | wikidata | Embassy of Germany, Managua |
 | 3 | `managua.mae.lu` | central | ConnectEx... | wikidata | embassy of Luxembourg in Nicaragua |
 | 3 | `ni.ambafrance.org` | central | 301 | wikidata | Embassy of France, Managua |
 | 3 | `nicaragua.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Nicaragua |
 | 3 | `taiwanembassy.org` | central | 302 | wikidata | Embassy of the Republic of China (Taiwan), Managua |
-| 3 | `web.archive.org` |  | 200 | wikidata | Investment Promotion Secretariat |
+| 3 | `uam.edu.ni` | central |  | ror | Universidad Americana |
+| 3 | `uca.edu.ni` | central |  | ror | Central American University |
+| 3 | `ucan.edu.ni` | central |  | ror | Universidad Cristiana Autónoma de Nicaragua |
+| 3 | `ucatse.edu.ni` | central |  | ror | Catholic University of Dry Tropic Farming and Livestock |
+| 3 | `ucc.edu.ni` | central |  | ror | University of Commercial Sciences |
+| 3 | `ucem.edu.ni` | central |  | ror | Universidad Centroamericana de Ciencias Empresariales |
 

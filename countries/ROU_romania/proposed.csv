@@ -16,11 +16,19 @@ mmuncii.ro,7,wikidata;wikidata,"Ministry of Labour, Family, Youth and Social Sol
 ms.ro,7,wikidata;wikidata,Ministry of Health,central,302,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 parlament.ro,7,wikidata;wikidata,Parliament of Romania,central,HttpConnectTimeoutException: HTTP connect timed out,none
 rosa.ro,7,wikidata;wikidata,Romanian Space Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx.rosa.ro.
+ase.ro,6,academia;ror,Bucharest University of Economic Studies,central,,
 gesuiti.it,6,wikidata;wikidata,Euromediterranean Province of the Jesuits,,200,10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 guv.ro,6,un_desa,UN/DESA national portal,,ConnectException,10 mail.guv.ro.; 20 mailgate.guv.ro.
 mpublic.ro,6,wikidata,Prosecutor's Office attached to the High Court of Cassation and Justice,,503,10 mail.mpublic.ro.
 rumaenien.um.dk,6,wikidata;wikidata,"Embassy of Denmark, Bucharest | Embassy of Croatia in Romania",central,301,none
 scj.ro,6,wikidata,High Court of Cassation and Justice,central,404,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+ulbsibiu.ro,6,academia;ror,Lucian Blaga University of Sibiu,central,,
+unatc.ro,6,academia;ror,I. L. Caragiale National University of Theatre and Film,central,,
+unibuc.ro,6,academia;ror,University of Bucharest,central,,
+unitbv.ro,6,academia;ror,Transilvania University of Brașov,central,,
+usamvcluj.ro,6,academia;ror,University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca,central,,
+uvt.ro,6,academia;ror,West University of Timișoara,central,,
+valahia.ro,6,academia;ror,Valahia University of Târgoviște,central,,
 afer.ro,4,wikidata,Romanian Railway Authority,,HttpConnectTimeoutException: HTTP connect timed out,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
 afm.ro,4,wikidata,Administration of the Environment Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 ambasadamaroc.ro,4,wikidata,embassy of Morocco in Romania,central,301,0 mail.ambasadamaroc.ro.
@@ -33,7 +41,6 @@ ansvsa.ro,4,wikidata,"Romanian Sanitary, Veterinary and Food Safety Authority",,
 apia.org.ro,4,wikidata,Agriculture Payments and Intervention Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
 aracis.ro,4,wikidata,ARACIS,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching aracis.ro found.,0 aracis-ro.mail.protection.outlook.com.
 asas.ro,4,academia,Academy of Agricultural and Forestry Sciences,central,,
-ase.ro,4,academia,Bucharest University of Economic Studies,central,,
 asfromania.ro,4,wikidata,Romanian Financial Supervisory Authority,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.asfromania.ro.
 atunisia.ro,4,wikidata,"Embassy of Tunisia, Bucharest",central,200,0 atunisia.ro.
 b.politiaromana.ro,4,wikidata,Direcția Generală de Poliție a Municipiului București,central-1,200,10 mail.politiaromana.ro.
@@ -113,39 +120,93 @@ sudanembassy.ro,4,wikidata,embassy of Sudan in Romania,central,403,none
 syrianembassy.ro,4,wikidata,embassy of Syria in Romania,central,302,none
 tpbi.ro,4,wikidata,Bucharest-Ilfov Public Transport Intercommunity Development Association,,200,20 mail.tpbi.ro.; 50 mx2.tpbi.ro.
 uefiscsu.ro,4,wikidata,Unitatea Executiva Pentru Finantarea Invatamantului Superior Si A Cercetarii Stiintifice Universitare,,403,none
-ulbsibiu.ro,4,academia,Lucian Blaga University of Sibiu,central,,
-unatc.ro,4,academia,I. L. Caragiale National University of Theatre and Film,central,,
-unibuc.ro,4,academia,University of Bucharest,central,,
-unitbv.ro,4,academia,Transilvania University of Brașov,central,,
-usamvcluj.ro,4,academia,University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca,central,,
-uvt.ro,4,academia,West University of Timișoara,central,,
-valahia.ro,4,academia,Valahia University of Târgoviște,central,,
+admitere.spiruharet.ro,3,ror,Spiru Haret University,central,,
 anarz.eu,3,wikidata,"National Agency for Zootechnics ""Prof. Dr. G. K. Constantinescu""",,503,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+andreisaguna.ro,3,ror,Universitatea Andrei Şaguna,central,,
 aracip.eu,3,wikidata,Romanian Agency for Quality Assurance in Pre-university Education,,200,10 exc.aracip.eu.
+arteiasi.ro,3,ror,George Enescu University of Arts of Iași,central,,
+artifex.org.ro,3,ror,Artifex University,central,,
 bgembassy-romania.org,3,wikidata,embassy of Bulgaria in Romania,central,200,none
+bioterra.ro,3,ror,Bioterra University Bucharest,central,,
 bucharest.embassy.qa,3,wikidata,embassy of Qatar in Romania,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 bucharest.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Romania,central,302,none
 bucharest.mfa.ee,3,wikidata,embassy of Estonia in Bucharest,central,200,none
 bucharest.thaiembassy.org,3,wikidata,embassy of Thailand in Romania,central,200,none
 bukaresta.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Bucharest",central,SSLHandshakeException: Remote host terminated the handshake,none
 cab1864.eu,3,wikidata,Bucharest Court of Appeal,,301,10 mail.cab1864.eu.
+cantemir.ro,3,ror,Dimitrie Cantemir University,central,,
 curteadeapelcraiova.eu,3,wikidata,Craiova Court of Appeal,,403,10 mail.curteadeapelcraiova.eu.
 eurogendfor.org,3,wikidata,European Gendarmerie Force,,301,0 eurogendfor-org.mail.protection.outlook.com.
 finlandabroad.fi,3,wikidata,embassy of Finland in Romania,central,301,10 mail.valtori.fi.
 hermannstadt.diplo.de,3,wikidata,German Consulate Sibiu,,301,10 mx1.bund.de.; 10 mx2.bund.de.
+hyperion.ro,3,ror,Hyperion University,central,,
 instytutpolski.pl,3,wikidata,"Polish Institute, Bucharest",central,IOException: Received RST_STREAM: Internal error,10 mx1.instytutpolski.pl.
 integritate.eu,3,wikidata,National Integrity Agency,,200,10 mail.integritate.eu.
+iuls.ro,3,ror,"""Ion Ionescu de la Brad"" Iasi University of Life Sciences",central,,
 jandarmeriaromana.eu,3,wikidata,Gendarmerie,,200,none
 kazembro.kz,3,wikidata,embassy of Kazakhstan in Romania,central,403,none
 mfa.gr,3,wikidata,embassy of Greece in Romania,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech Republic in Romania,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,Embassy of Slovakia to Romania,central,301,10 mail.gov.sk.
 norway.no,3,wikidata,"Embassy of Norway, Bucharest",central,301,0 mx.domeneshop.no.
+nou.univath.ro,3,ror,Athenaeum University,central,,
+partium.ro,3,ror,Partium Christian University,central,,
+rau.ro,3,ror,Romanian-American University,central,,
 ro.ambafrance.org,3,wikidata,"Embassy of France, Bucharest",central,301,none
 ro.mfa.lt,3,wikidata,embassy of Lithuania in Romania,central,403,none
 romania.mid.ru,3,wikidata,"Embassy of Russia, Bucharest",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 romania.representation.ec.europa.eu,3,wikidata,European Commission Representation in Romania,,302,none
 rumaenien.diplo.de,3,wikidata,"Embassy of Germany, Bucharest",central,200,none
+snspa.ro,3,ror,National School of Political Science and Public Administration,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Bucharest",central,301,none
 temeswar.diplo.de,3,wikidata,German Consulate Timisoara,,301,10 mx1.bund.de.; 10 mx2.bund.de.
+tibiscus.ro,3,ror,Tibiscus University of Timișoara,central,,
+tuiasi.ro,3,ror,Gheorghe Asachi Technical University of Iași,central,,
+uab.ro,3,ror,1 Decembrie 1918 University,central,,
+uad.ro,3,ror,Art and Design University of Cluj-Napoca,central,,
+uadventus.ro,3,ror,Universitatea Adventus,central,,
+uai-cluj.ro,3,ror,Universitatea Avram Iancu,central,,
+uaic.ro,3,ror,Alexandru Ioan Cuza University,central,,
+uamsibiu.ro,3,ror,Universitatea Alma Mater Sibiu,central,,
+uauim.ro,3,ror,Ion Mincu University of Architecture and Urbanism,central,,
+uav.ro,3,ror,Aurel Vlaicu University of Arad,central,,
+ub.ro,3,ror,University of Bacău,central,,
+ubbcluj.ro,3,ror,Babeș-Bolyai University,central,,
+ubv.ro,3,ror,Bogdan Voda University,central,,
+ucdc.ro,3,ror,Dimitrie Cantemir Christian University,central,,
+ueb.ro,3,ror,Universitatea Ecologica din Bucuresti,central,,
+ugal.ro,3,ror,"""Dunarea de Jos"" University of Galati",central,,
+ugb.ro,3,ror,Universitatea George Bacovia Bacau,central,,
+umfcd.ro,3,ror,Carol Davila University of Medicine and Pharmacy,central,,
+umfcluj.ro,3,ror,Iuliu Hațieganu University of Medicine and Pharmacy,central,,
+umfcv.ro,3,ror,University of Medicine and Pharmacy of Craiova,central,,
+umfiasi.ro,3,ror,Grigore T. Popa University of Medicine and Pharmacy,central,,
+umfst.ro,3,ror,"Universitatea de Medicină, Farmacie, Științe și Tehnologie „George Emil Palade” din Târgu Mureș",central,,
+umft.ro,3,ror,Victor Babeș University of Medicine and Pharmacy Timișoara,central,,
+umk.ro,3,ror,Mihail Kogălniceanu University,central,,
+unap.ro,3,ror,Carol I National Defence University,central,,
+unefs.ro,3,ror,Universitatea Națională de Educație Fizică și Sport București,central,,
+univ-danubius.ro,3,ror,Danubius International University,central,,
+univ-ovidius.ro,3,ror,Ovidius University,central,,
+univapollonia.ro,3,ror,Apollonia University,central,,
+univnt.ro,3,ror,Universitatea Nicolae Titulescu din București,central,,
+univtomis.ro,3,ror,Universitatea „Tomis” din Constanța,central,,
+unmb.ro,3,ror,National University of Music Bucharest,central,,
+uoradea.ro,3,ror,University of Oradea,central,,
+upa.ro,3,ror,Petre Andrei University of Iași,central,,
+upb.ro,3,ror,Universitatea Națională de Știință și Tehnologie Politehnica București,central,,
+upet.ro,3,ror,Universitatea Din Petrosani,central,,
+upg-ploiesti.ro,3,ror,Petroleum & Gas University of Ploieşti,central,,
+upit.ro,3,ror,University of Pitesti,central,,
+upt.ro,3,ror,Politehnica University of Timisoara,central,,
 uptalen.com,3,wikidata,Uptalen,,301,20 mx2.zoho.eu.; 10 mx.zoho.eu.; 50 mx3.zoho.eu.
+usamv.ro,3,ror,University of Agronomic Sciences and Veterinary Medicine of Bucharest,central,,
+usv.ro,3,ror,Ştefan cel Mare University of Suceava,central,,
+utcb.ro,3,ror,Technical University of Civil Engineering of Bucharest,central,,
+utcluj.ro,3,ror,Technical University of Cluj-Napoca,central,,
+utgjiu.ro,3,ror,Constantin Brâncuși University of Targu Jiu,central,,
+utm.ro,3,ror,Titu Maiorescu University,central,,
+uvvg.ro,3,ror,Vasile Goldis Western University of Arad,central,,
+aui.ac,2,ror,Agora University,central,,
+cmu-edu.eu,2,ror,Constanta Maritime University,central,,
+unarte.org,2,ror,Bucharest National University of Arts,central,,

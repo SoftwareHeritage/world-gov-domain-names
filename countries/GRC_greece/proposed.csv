@@ -20,9 +20,14 @@ nam.culture.gr,7,wikidata;wikidata,Directorate for the Curation of the National 
 protodikeio-ath.gr,7,wikidata;wikidata,Athens Chamber of Commerce and Industry | Court of First Instance of Athens,,ConnectException,10 mail.protodikeio-ath.gr.
 yme.gr,7,wikidata;wikidata,Ministry of Infrastructure and Transport (Greece),central,ConnectException,20 mailsrv.otenet.gr.
 ynanp.gr,7,wikidata;wikidata,Ministry of Shipping and Island Policy (Greece),central,301,none
+auth.gr,6,academia;ror,Aristotle University of Thessaloniki,central,,
+duth.gr,6,academia;ror,Democritus University of Thrace,central,,
 gr.ambafrance.org,6,wikidata;wikidata,"Consulate General of France in Thessaloniki | Embassy of France, Athens",central,301,none
 griechenland.ahk.de,6,wikidata;wikidata,German-Greek Chamber of Industry and Commerce,,302,none
+ionio.gr,6,academia;ror,Ionian University,central,,
 mfa.gr,6,wikidata;wikidata;wikidata;linkgraph,Ministry of Foreign Affairs of Greece | Ministry of Foreign Affairs (Greece),central,403,10 mailhost.mfa.gr.
+uoi.gr,6,academia;ror,University of Ioannina,central,,
+uom.gr,6,academia;ror,University of Macedonia,central,,
 minfin.gr,5,linkgraph,Linked from 6 public-sector domains,,301,0 minfin-gr.mail.protection.outlook.com.
 acci.gr,4,wikidata,Athens Chamber of Commerce and Industry,,200,0 acci-gr.mail.protection.outlook.com.
 acsmi.gr,4,wikidata,Q55400550,,200,0 acsmi-gr.mail.protection.outlook.com.
@@ -30,11 +35,9 @@ argolisculture.gr,4,wikidata,Ephorate of Antiquities of Argolida,,301,10 mail.ar
 army.gr,4,wikidata,Hellenic Army General Staff,,200,5 mailer2.army.gr.
 asep.gr,4,wikidata,Supreme Council for Personnel Selection,,ConnectException,15 mx2.otenet.gr.; 10 mx.otenet.gr.; 30 mx4.otenet.gr.; 25 mx3.otenet.gr.
 athen.mfa.gov.hu,4,wikidata,"Hungarian embassy, Athen",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-auth.gr,4,academia,Aristotle University of Thessaloniki,central,,
 bankofgreece.gr,4,wikidata,Bank of Greece,,ConnectException,10 mail.bankofgreece.gr.
 cti.gr,4,academia,Research Academic Computer Technology Institute,central,,
 demokritos.gr,4,academia,"National Centre of Scientific Research ""DEMOKRITOS""",central,,
-duth.gr,4,academia,Democritus University of Thrace,central,,
 eagme.gr,4,wikidata,Hellenic Survey of Geology and Mineral Exploration,,200,0 eagme-gr.mail.protection.outlook.com.
 eea.gr,4,wikidata,Athens Chamber of Tradesmen,,301,10 mx.otenet.gr.; 25 mx3.otenet.gr.; 15 mx2.otenet.gr.
 eetaa.gr,4,wikidata,Hellenic Agency for Local Development and Local Government,,200,0 eetaa-gr.mail.protection.outlook.com.
@@ -64,7 +67,6 @@ hcaa.gr,4,wikidata,Hellenic Civil Aviation Authority,,ConnectException,5 mail2.h
 hcg.gr,4,wikidata,Hellenic Coast Guard,,301,20 mx2.hcg.gr.
 hts.org.gr,4,wikidata,Hellenic Thoracic Society,,403,0 mail.hts.org.gr.
 idika.gr,4,wikidata,Q139782590,,ConnectException,50 mail1.idika.gr.; 70 mail3.idika.gr.; 70 mail2.idika.gr.; 10 mail.idika.gr.
-ionio.gr,4,academia,Ionian University,central,,
 jordanembassy.gr,4,wikidata,"Embassy of Jordan, Athens",central,200,none
 mathra.gr,4,wikidata,Deputy Minister for Macedonia and Thrace,central,ConnectException,0 mathra-gr.mail.protection.outlook.com.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Athens",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
@@ -79,9 +81,8 @@ panamaconsulate.gr,4,wikidata,embassy of Panama in Greece,central,301,10 panamac
 pezaunion.gr,4,wikidata,Union of Agricultural Cooperatives of Peza,,200,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 0 aspmx.l.google.com.; 10 webcpw05.internet.gr.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.
 rae.gr,4,wikidata,PAE / RAE,,301,0 rae-gr.mail.protection.outlook.com.
 ste.gr,4,wikidata,Council of State,,ConnectException,10 mail.adjustice.gr.
-uoi.gr,4,academia,University of Ioannina,central,,
-uom.gr,4,academia,University of Macedonia,central,,
 visitgreece.gr,4,wikidata,Greek National Tourism Organisation,,301,0 eotemail.gnto.gr.; 5 eotemail2.gnto.gr.
+aegean.gr,3,ror,University of the Aegean,central,,
 atena.mae.ro,3,wikidata,"Embassy of Romania, Athens",central,503,none
 atene.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Athen",central,SSLHandshakeException: Remote host terminated the handshake,none
 athenes.mae.lu,3,wikidata,embassy of Luxembourg in Greece,central,302,none
@@ -89,8 +90,11 @@ athens.embassy.qa,3,wikidata,embassy of Qatar in Greece,central,SSLHandshakeExce
 athens.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Greece,central,302,none
 athens.mfa.ee,3,wikidata,Embassy of Estonia in Athens,central,200,none
 athens.thaiembassy.org,3,wikidata,embassy of Thailand in Greece,central,200,none
+aueb.gr,3,ror,Athens University of Economics and Business,central,,
+eap.gr,3,ror,Hellenic Open University,central,,
 efadyat.wordpress.com,3,wikidata,Ephorate of Antiquities of Pireus and Islands,,200,none
 efeteiododekanisou.blogspot.com,3,wikidata,Court of Appeal of Dodecanese,,200,none
+epipsi.gr,3,ror,University Mental Health Research Institute,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Greece,central,301,10 mail.valtori.fi.
 gr.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Athens",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gr.china-embassy.org found.,none
 gr.mfa.lt,3,wikidata,embassy of Lithuania in Greece,central,403,none
@@ -101,15 +105,33 @@ greece.mid.ru,3,wikidata,embassy of Russia in Greece,central,SSLHandshakeExcepti
 greece.representation.ec.europa.eu,3,wikidata,European Commission Representation in Greece,,302,none
 griechenland.diplo.de,3,wikidata,"Embassy of Germany, Athens",central,200,none
 gwp.org,3,wikidata,Global Water Partnership-Mediterranean,,301,10 gwp-org.mail.protection.outlook.com.
+hmu.gr,3,ror,Hellenic Mediterranean University Research and Innovation Center,central,,
+hua.gr,3,ror,Harokopio University of Athens,central,,
 iatros.org,3,wikidata,Hellenic Society of Medical Education,,200,0 .
+ihu.gr,3,ror,International Hellenic University,central,,
+keelegreece.gr,3,ror,Keele University Greece,central,,
 mfa.bg,3,wikidata,"Embassy of Bulgaria, Athens",central,302,0 mfa-bg.mail.protection.outlook.com.
 mzv.cz,3,wikidata,embassy of the Czech republic in Greece,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Greece,central,301,10 mail.gov.sk.
 nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Athens",central,301,0 .
+panteion.gr,3,ror,Panteion University,central,,
 roc-taiwan.org,3,wikidata,Taipei Representative Office in Greece,,302,none
 saloniki.mid.ru,3,wikidata,"Consuate Gerenral of Russia, in Thessaloniki",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Athens",central,301,none
+teicm.gr,3,ror,Technological Educational Institute of Central Macedonia,central,,
+teiste.gr,3,ror,Technological Educational Institute of Central Greece,central,,
 thessaloniki.diplo.de,3,wikidata,"Consulate General of Germany, Thessaloniki",,301,10 mx2.bund.de.; 10 mx1.bund.de.
+tuc.gr,3,ror,Technical University of Crete,central,,
+unipi.gr,3,ror,University of Piraeus,central,,
+uniwa.gr,3,ror,University of West Attica,central,,
+uoa.gr,3,ror,National and Kapodistrian University of Athens,central,,
+uoc.gr,3,ror,University of Crete,central,,
+uowm.gr,3,ror,University of Western Macedonia,central,,
+upatras.gr,3,ror,University of Patras,central,,
+uth.gr,3,ror,University of Thessaly,central,,
+web.aeath.gr,3,ror,University Ecclesiastical Academy of Thessaloniki,central,,
+www2.aua.gr,3,ror,Agricultural University of Athens,central,,
+zoolmuseum.biol.uoa.gr,3,ror,Zoology Museum of the University of Athens,central,,
 astynomia.gr,2,wikidata;wikidata;wikidata;wikidata,Special Guards | Cyber Crime Unit | Hellenic Police,,403,20 mailhost2.astynomia.gr.; 10 mailhost1.astynomia.gr.
 dei.gr,2,wikidata;wikidata;wikidata,Public Power Corporation SA,,308,0 dei-gr.mail.protection.outlook.com.
 statistics.gr,2,wikidata;wikidata;wikidata,Hellenic Statistical Authority | Hellenic Statistical System,,302,5 mail.statistics.gr.

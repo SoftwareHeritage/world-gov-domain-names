@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+20 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,16 +41,18 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `presidence.cg` |  | 200 | un_desa | UN/DESA national portal |
 | 6 | `diplobrazza.net` |  | 200 | wikidata;wikidata | Ministry of Foreign Affairs, Francophonie and Congolese Abroad |
 | 6 | `meppsa.org` |  | 200 | wikidata;wikidata | Q138754653 |
+| 6 | `umng.cg` | central |  | academia;ror | Marien Ngouabi University |
 | 4 | `anaccongo.cg` |  | 302 | wikidata | Agence nationale de l'aviation civile (Republic of the Congo) |
 | 4 | `assemblee-nationale.cg` | central | 200 | wikidata | National Assembly |
 | 4 | `bea.cg` |  | 301 | wikidata | Aircraft Accident Investigation Bureau |
 | 4 | `ccj-congo.cg` |  | HttpConne... | wikidata | Youth Advisory Council |
 | 4 | `senat.cg` | central | SSLHandsh... | wikidata | Senate |
-| 4 | `umng.cg` | central |  | academia | Marien Ngouabi University |
 | 3 | `brazzaville.diplo.de` | central | 200 | wikidata | Embassy of Germany, Brazzaville |
 | 3 | `cg.ambafrance.org` | central | 301 | wikidata | Embassy of France, Brazzaville |
 | 3 | `cnsee.org` | central |  | academia | L’Institut National de la Statistique |
 | 3 | `congo.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Republic of the Congo |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Congo |
 | 3 | `pointe-noire.consulfrance.org` |  | 301 | wikidata | Consulate General of France in Pointe-Noire |
+| 3 | `udsn.cg` | central |  | ror | Université de Denis Sassou N'guesso |
+| 2 | `universitelibreducongo.org` | central |  | ror | Université Libre du Congo |
 

@@ -30,27 +30,29 @@
 
 ## Proposed domains ranked by score
 
-18 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+32 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 8 | `parlamento.mz` | central | 301 | wikidata;wikidata | Assembly of the Republic |
 | 6 | `cconstitucional.org.mz` | central | 200 | wikidata | Constitutional Council (Mozambique) |
+| 6 | `unirovuma.ac.mz` | central |  | academia;ror | Rovuma University |
+| 6 | `unizambeze.ac.mz` | central |  | academia;ror | Zambezi University |
 | 4 | `ahm.uem.mz` |  | 200 | wikidata | Arquivo Histórico de Moçambique |
 | 4 | `bancomoc.mz` |  | 200 | wikidata | Bank of Mozambique |
 | 4 | `isri3.ix.co.mz` | central |  | academia | Joaquim Chissano University |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Maputo |
 | 4 | `stae.org.mz` | central | ConnectEx... | wikidata | Secreteriado Técnico de Administração Eleitoral |
-| 4 | `unirovuma.ac.mz` | central |  | academia | Rovuma University |
-| 4 | `unizambeze.ac.mz` | central |  | academia | Zambezi University |
+| 3 | `apolitecnica.ac.mz` | central |  | ror | Universidade Politecnica |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Mozambique |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Maputo |
+| 3 | `ispg.ac.mz` | central |  | ror | Instituto Superior Politécnico de Gaza |
+| 3 | `ispm.ac.mz` | central |  | ror | Instituto Superior Politécnico de Manica |
+| 3 | `ispsongo.ac.mz` | central |  | ror | Instituto Superior Politécnico de Songo |
+| 3 | `ispt.ac.mz` | central |  | ror | Instituto Superior Politecnico de Tete |
 | 3 | `malawihcmz.com` | central | ConnectEx... | wikidata | High Commission of Malawi, Maputo |
 | 3 | `maputo.diplo.de` | central | 200 | wikidata | Embassy of Germany, Maputo |
 | 3 | `mozambik.mid.ru` | central | SSLHandsh... | wikidata | Embassy of Russia, Maputo |
 | 3 | `mozambique.nlembassy.org` | central | ConnectEx... | wikidata | Embassy of the Netherlands, Maputo |
-| 3 | `mz.ambafrance.org` | central | 301 | wikidata | Embassy of France, Maputo |
-| 3 | `mz.chineseembassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Maputo |
-| 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Maputo |
 

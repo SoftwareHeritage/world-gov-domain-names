@@ -30,29 +30,29 @@
 
 ## Proposed domains ranked by score
 
-86 domain(s) proposed for validation, of which 20 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+161 domain(s) proposed for validation, of which 54 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
-| 7 | `nuc.edu.ng` |  | 301 | wikidata;wikidata | National Universities Commission | Nigerian Universities Commission |
+| 9 | `nuc.edu.ng` | central | 301 | wikidata;wikidata;ror | National Universities Commission | Nigerian Universities Commission |
 | 7 | `sp.mofaic.gov.ae` | central | ConnectEx... | wikidata;wikidata | Consulate General of the United Arab Emirates, Lagos | Embassy of the United ... |
 | 7 | `yoursms.com.ng` | central-1 | ConnectEx... | wikidata;wikidata | Ondo State Ministry of Education |
+| 6 | `delsu.edu.ng` | central-1 |  | academia;ror | Delta State University, Abraka |
+| 6 | `fubk.edu.ng` | central |  | academia;ror | Federal University, Birnin Kebbi |
+| 6 | `fud.edu.ng` | central |  | academia;ror | Federal University Dutse |
+| 6 | `fuet.edu.ng` | central |  | academia;ror | Federal University of Environment and Technology, Tai Town/Ogoniland |
+| 6 | `fugashua.edu.ng` | central |  | academia;ror | Federal University Gashua |
+| 6 | `fuhsa.edu.ng` | central |  | academia;ror | Federal University of Health Sciences, Azare |
+| 6 | `fuotuoke.edu.ng` | central |  | academia;ror | Federal University, Otuoke |
+| 6 | `fuwukari.edu.ng` | central |  | academia;ror | Federal University, Wukari |
+| 6 | `kasu.edu.ng` | central-1 |  | academia;ror | Kaduna State University |
+| 6 | `kwasu.edu.ng` | central-1 |  | academia;ror | Kwara State University, Malete |
 | 6 | `lagosministryofjustice.org` | central-1 | 200 | wikidata;wikidata | Lagos State Ministry of Justice |
 | 6 | `lagsoagricuinputs.org` | central-1 | ConnectEx... | wikidata;wikidata;wikidata | Lagos State Agricultural Inputs Supply Authority | Lagos State Agric Inputs S... |
 | 6 | `nigeria.un.org` |  | 301 | wikidata;wikidata | Sustainable Development Goals and Nigeria |
 | 6 | `ondostateministryofinformation.wordpress.com` | central-1 | 200 | wikidata;wikidata | Ondo State Ministry of information and Orientation |
 | 6 | `riversstate-mwrrd.com` | central-1 | ConnectEx... | wikidata;wikidata | Rivers State Ministry of Water Resources and Rural Development (RSMWRRD) |
 | 6 | `roc-taiwan.org` | central | 302 | wikidata;wikidata | Taipei Trade Office in the Federal Republic of Nigeria |
-| 4 | `abuja.mfa.gov.hu` |  | SSLHandsh... | wikidata | Hungarian embassy, Abuja |
-| 4 | `bouesti.edu.ng` | central-1 |  | academia | Bamidele Olumilua University of Science and Technology Ikere, Ekiti State |
-| 4 | `delsu.edu.ng` | central-1 |  | academia | Delta State University, Abraka |
-| 4 | `fchdk.edu.ng` | central |  | academia | Federal College of Horticultural Technology |
-| 4 | `fedpolyugep.edu.ng` |  | 200 | wikidata | Federal Polytechnic Ugep |
-| 4 | `fuab.edu.ng` | central |  | academia | Federal University of Agriculture, Bassam-Biri |
-| 4 | `fubk.edu.ng` | central |  | academia | Federal University, Birnin Kebbi |
-| 4 | `fud.edu.ng` | central |  | academia | Federal University Dutse |
-| 4 | `fuet.edu.ng` | central |  | academia | Federal University of Environment and Technology, Tai Town/Ogoniland |
-| 4 | `fugashua.edu.ng` | central |  | academia | Federal University Gashua |
-| 4 | `fuhsa.edu.ng` | central |  | academia | Federal University of Health Sciences, Azare |
+| 6 | `uniosun.edu.ng` | central-1 |  | academia;ror | Osun State University |
 

@@ -30,15 +30,20 @@
 
 ## Proposed domains ranked by score
 
-6 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+11 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 3 | `cu.edu.la` | central |  | ror | Champasack University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Laos |
 | 3 | `la.ambafrance.org` | central | 301 | wikidata | Embassy of France, Vientiane |
 | 3 | `la.china-embassy.org` | central | SSLHandsh... | wikidata | Embassy of the People's Republic of China, Vientiane |
 | 3 | `laos.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Laos |
 | 3 | `nationallibraryoflaos.org` |  | 200 | wikidata | National Library of Laos |
+| 3 | `nuol.edu.la` | central |  | ror | National University of Laos |
+| 3 | `sku.edu.la` | central |  | ror | Savannakhet University |
+| 3 | `su.edu.la` | central |  | ror | Souphanouvong University |
+| 3 | `uhs.edu.la` | central |  | ror | University of Health Sciences Vientiane |
 | 3 | `vientiane.diplo.de` | central | 200 | wikidata | Embassy of Germany, Vientiane |
 

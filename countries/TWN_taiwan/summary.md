@@ -23,7 +23,7 @@
 
 ## Proposed domains ranked by score
 
-117 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+223 domain(s) proposed for validation, of which 6 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -40,12 +40,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `ngdo.gov.taipei` | central-1 | 200 | wikidata;wikidata | Nangang District Office, Taipei City |
 | 7 | `whdo.gov.taipei` | central-1 | 200 | wikidata;wikidata | Wanhua District Office, Taipei City |
 | 7 | `youth.gov.taipei` |  | HttpTimeo... | wikidata;wikidata | Department for Youth of Taipei City Government |
+| 6 | `ccu.edu.tw` | central |  | academia;ror | National Chung Cheng University |
 | 6 | `eeas.europa.eu` |  | 200 | wikidata;wikidata | European Economic and Trade Office in Taiwan |
 | 6 | `france-taipei.org` |  | 301 | wikidata;wikidata | French Office in Taipei |
 | 6 | `koryu.or.jp` |  | ConnectEx... | wikidata;wikidata | Japan-Taiwan Exchange Association, Kaohsiung Office | Interchange Association... |
-| 6 | `recoletos.ph` |  | HttpTimeo... | wikidata;wikidata | Province of Saint Ezequiél Moreno |
-| 6 | `tmc.taipei` |  | 200 | wikidata;wikidata | Taipei Music Center |
-| 4 | `arthistory.ntu.edu.tw` | central |  | academia | Graduate Institute of Art History, National Taiwan University |
-| 4 | `australia.org.tw` |  | 200 | wikidata | Australian Office, Taipei |
-| 4 | `bola.gov.taipei` |  | 200 | wikidata | Department of Labor, Taipei City Government |
+| 6 | `nccu.edu.tw` | central |  | academia;ror | National Chengchi University |
+| 6 | `nchu.edu.tw` | central |  | academia;ror | National Chung Hsing University |
+| 6 | `ncnu.edu.tw` | central |  | academia;ror | National Chi Nan University |
+| 6 | `ncu.edu.tw` | central |  | academia;ror | National Central University |
 

@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-1162 domain(s) proposed for validation, of which 115 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+1243 domain(s) proposed for validation, of which 119 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -51,8 +51,8 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 10 | `ordnancesurvey.co.uk` |  | 301 | wikidata;wikidata;wikidata;linkgraph;directory | British Ordnance Survey |
 | 10 | `parliament.uk` | central | 301 | wikidata;wikidata;wikidata;wikidata;linkgraph;directory | House of Commons | Parliament of the United Kingdom | House of Lords |
 | 10 | `rbht.nhs.uk` |  | 301 | wikidata;wikidata;linkgraph | NIHR Royal Brompton Cardiovascular Biomedical Research Unit | NIHR Royal Brom... |
+| 9 | `birmingham.ac.uk` | central | 301 | wikidata;academia;ror | NIHR Birmingham Liver Biomedical Research Unit | University of Birmingham |
+| 9 | `gla.ac.uk` | central | 301 | wikidata;academia;ror | MRC-University of Glasgow Centre For Virus Research | University of Glasgow |
 | 9 | `hee.nhs.uk` |  | 301 | wikidata;linkgraph | Health Education England |
 | 9 | `llyw.cymru` | central-1 | 301 | wikidata;wikidata;linkgraph | Welsh Government |
-| 9 | `nhs.uk` |  | 301 | wikidata;linkgraph | National Health Service |
-| 9 | `postoffice.co.uk` |  | 301 | linkgraph;directory | Post Office (Public corporation) |
 

@@ -20,6 +20,11 @@ minsegpublica.cl,7,wikidata;wikidata,Ministry of Public Security of Chile,centra
 regiondeloslagos.cl,7,wikidata;wikidata,Regional Council of Los Lagos,central-1,ConnectException,none
 sitio.gorebiobio.cl,7,wikidata;wikidata,Regional Council of Biobío,central-1,ConnectException,none
 tribunalconstitucional.cl,6,wikidata,Constitutional Court of Chile,,HttpConnectTimeoutException: HTTP connect timed out,none
+uantof.cl,6,academia;ror,University of Antofagasta,central,,
+ubiobio.cl,6,academia;ror,University of the Bío-Bío,central,,
+uchile.cl,6,academia;ror,University of Chile,central,,
+usach.cl,6,academia;ror,University of Santiago,central,,
+uv.cl,6,academia;ror,University of Valparaíso,central,,
 onemi.gov.cl,5,wikidata,National Office of Emergency of the Interior Ministry,central,ConnectException,32767 ms11495337.msv1.invalid.; 0 onemi-gov-cl.mail.protection.outlook.com.
 academialenguarapanui.cl,4,wikidata,Q130492298,,HttpTimeoutException: request timed out,0 mail.academialenguarapanui.cl.
 aduana.cl,4,wikidata,Servicio Nacional de Aduanas,,HttpConnectTimeoutException: HTTP connect timed out,10 aduana-cl.mail.protection.outlook.com.
@@ -119,31 +124,75 @@ supereduc.cl,4,wikidata,Q6135919,,HttpConnectTimeoutException: HTTP connect time
 suseso.cl,4,wikidata,Q16636769,,301,none
 svs.cl,4,wikidata,Q9080625,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching svs.cl found.,10 mxb-003e6201.gslb.pphosted.com.; 10 mxa-003e6201.gslb.pphosted.com.
 uaf.cl,4,wikidata,Unidad de Análisis Financiero,,ConnectException,none
-uantof.cl,4,academia,University of Antofagasta,central,,
-ubiobio.cl,4,academia,University of the Bío-Bío,central,,
-uchile.cl,4,academia,University of Chile,central,,
-usach.cl,4,academia,University of Santiago,central,,
 utalca.cl,4,academia,University of Talca,central,,
-uv.cl,4,academia,University of Valparaíso,central,,
 wwww.bomberosconcepcion.cl,4,wikidata,Fire Department Concepción,,ConnectException,none
+academia.cl,3,ror,Academy of Christian Humanism University,central,,
 chile.mid.ru,3,wikidata,embassy of Russia in Chile,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 chile.um.dk,3,wikidata,"Embassy of Denmark, Santiago",central,301,none
 cl.ambafrance.org,3,wikidata,"Embassy of France, Santiago",central,301,none
 cl.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Santiago",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cl.china-embassy.org found.,none
 cl.mvep.hr,3,wikidata,embassy of Croatia in Chile,central,ConnectException,none
 cubadiplomatica.cu,3,wikidata,embassy of Cuba in Chile,central,ConnectException,none
+desarrollo.britanico.cl,3,ror,Universidad Chileno Británica de Cultura,central,,
+duoc.cl,3,ror,Duoc UC,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Chile,,200,none
+finis.cl,3,ror,Finis Terrae University,central,,
 finlandabroad.fi,3,wikidata,"embassy of Finland, Santiago de Chile",central,301,none
 ih.csic.es,3,wikidata,Instituto de Historia,,301,none
 mfa.gr,3,wikidata,embassy of Greece in Chile,central,403,none
 mzv.cz,3,wikidata,embassy of the Czech republic in Chile,central,302,none
 norway.no,3,wikidata,"Embassy of Norway, Santiago",central,301,0 mx.domeneshop.no.
+portal.inacap.cl,3,ror,Universidad Tecnológica de Chile INACAP,central,,
+reuna.cl,3,ror,Red Universitaria Nacional,central,,
 roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Chile,,302,none
 santiago.diplo.de,3,wikidata,"Embassy of Germany, Santiago",central,200,none
 santiagodechile.mae.ro,3,wikidata,embassy of Romania in Chile,central,503,none
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Santiago de Chile",central,301,none
+uac.cl,3,ror,Universidad de Aconcagua,central,,
+uahurtado.cl,3,ror,Alberto Hurtado University,central,,
+uandes.cl,3,ror,"Universidad de Los Andes, Chile",central,,
+uarcis.cl,3,ror,University of Art and Social Sciences,central,,
+uautonoma.cl,3,ror,Universidad Autónoma de Chile,central,,
+uaysen.cl,3,ror,Universidad de Aysén,central,,
+ubo.cl,3,ror,Universidad Bernardo O'Higgins,central,,
+ubolivariana.cl,3,ror,Bolivarian University of Chile,central,,
+uc.cl,3,ror,Pontificia Universidad Católica de Chile,central,,
+ucentral.cl,3,ror,Universidad Central de Chile,central,,
+ucinf.cl,3,ror,University Ucinf,central,,
+ucm.cl,3,ror,Catholic University of the Maule,central,,
+ucn.cl,3,ror,Universidad Católica del Norte,central,,
+ucv.cl,3,ror,Pontificia Universidad Católica de Valparaíso,central,,
+uda.cl,3,ror,University of Atacama,central,,
+udalba.cl,3,ror,Universidad del Alba,central,,
+udd.cl,3,ror,Universidad del Desarrollo,central,,
+udelmar.cl,3,ror,Universidad del Mar,central,,
+udla.cl,3,ror,University of the Americas,central,,
+udp.cl,3,ror,Universidad Diego Portales,central,,
+ugm.cl,3,ror,Universidad Gabriela Mistral,central,,
+uiberoamericana.cl,3,ror,Iberoamerican University of Science and Technology,central,,
+ulagos.cl,3,ror,Universidad de Los Lagos,central,,
+ularepublica.cl,3,ror,Universidad La República,central,,
+umayor.cl,3,ror,Universidad Mayor,central,,
+umcervantes.cl,3,ror,Miguel de Cervantes University,central,,
+unab.cl,3,ror,Universidad Andrés Bello,central,,
+unach.cl,3,ror,Universidad Adventista de Chile,central,,
+unap.cl,3,ror,Arturo Prat University,central,,
+uniacc.cl,3,ror,Universidad UNIACC,central,,
+uoh.cl,3,ror,University of O'Higgins,central,,
+upla.cl,3,ror,Universidad de Playa Ancha de Ciencias de la Educación,central,,
+usek.cl,3,ror,Universidad SEK,central,,
+userena.cl,3,ror,University of La Serena,central,,
+usm.cl,3,ror,Universidad Técnica Federico Santa María,central,,
+uss.cl,3,ror,San Sebastián University,central,,
+ust.cl,3,ror,Universidad Santo Tomás,central,,
+uta.cl,3,ror,University of Tarapacá,central,,
+uvm.cl,3,ror,Viña del Mar University,central,,
+ww3.ucsh.cl,3,ror,Universidad Católica Silva Henríquez,central,,
 hacienda.cl,2,wikidata;wikidata;wikidata,Ministry of Finance | Finance undersecretariat of Chile,central,302,none
 mindep.cl,2,wikidata;wikidata;wikidata,Ministry of Sports (Chile) | Q17630728,central,302,none
 mineduc.cl,2,wikidata;wikidata;wikidata,undersecretariat of education Chile | Ministry of Education of Chile,central,HttpConnectTimeoutException: HTTP connect timed out,none
 minsal.cl,2,wikidata;wikidata;wikidata,Ministry of Health | Undersecretariat of Public Health,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+uleones.com,2,ror,Universidad Los Leones,central,,
 subdere.gov.cl,0,wikidata,Undersecretariat of Regional and Administrative Development,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching subdere.gov.cl found.,none
+umce.cl,0,ror,Metropolitan University of Educational Sciences,central,,
+utem.cl,0,ror,Metropolitan University of Technology,central,,

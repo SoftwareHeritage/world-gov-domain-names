@@ -12,7 +12,7 @@
 - UN/DESA EGDI: Rank 184 of 193
 - Government type: dictatorship, single-party communist state
 - Capital: Pyongyang
-- Hosts collected: 1
+- Hosts collected: 18
 
 ## UN/DESA national portal
 
@@ -29,7 +29,7 @@
 
 ## Proposed domains ranked by score
 
-16 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -44,10 +44,13 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `minzu.rep.kp` | central | HttpConne... | wikidata | Cabinet of North Korea |
 | 4 | `ryomyong.edu.kp` | central |  | academia | Pyongyang Medical University |
 | 3 | `chondjin.mid.ru` |  | SSLHandsh... | wikidata | Consulate of Russia in North Korea |
+| 3 | `kut.edu.kp` | central |  | ror | Kim Chaek University of Technology |
 | 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Pyongyang |
 | 3 | `misiones.cubaminrex.cu` | central | SSLHandsh... | wikidata | embassy of Cuba in Pyongyang |
 | 3 | `mzv.cz` | central | 302 | wikidata | embassy of Czech republic in Pyongyang |
 | 3 | `pjoengjang.diplo.de` | central | 200 | wikidata | Embassy of Germany, Pyongyang |
 | 3 | `rusembdprk.ru` | central | 301 | wikidata | Embassy of Russia in North Korea |
+| 3 | `ryongnamsan.edu.kp` | central |  | ror | Kim Il-sung University |
 | 3 | `swedenabroad.se` | central | 301 | wikidata | embassy of Sweden in Pyongyang |
+| 2 | `pust.co` | central |  | ror | Pyongyang University of Science and Technology |
 

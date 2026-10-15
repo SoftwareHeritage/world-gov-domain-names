@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-6 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+7 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -41,4 +41,5 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `mediatheque.mc` |  | 301 | wikidata | Louis Notari Library |
 | 3 | `ambafrance-mc.org` | central | ConnectEx... | wikidata | Embassy of France, Monaco |
 | 2 | `culture.mc` |  | 200 | wikidata;wikidata;wikidata;wikidata | Directorate of Cultural Affairs | Heritage Institute |
+| 2 | `monaco.edu` | central |  | ror | International University of Monaco |
 

@@ -30,24 +30,29 @@
 
 ## Proposed domains ranked by score
 
-15 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
 | 7 | `instat.mg` | central | 200 | wikidata;academia | Institut National de la Statistique |
+| 6 | `ist-antsiranana.mg` | central |  | academia;ror | Institut supérieur de technologie d'Antsiranana |
+| 6 | `univ-fianar.mg` | central |  | academia;ror | University of Fianarantsoa |
 | 4 | `artec.mg` |  | SSLHandsh... | wikidata | ARTEC Madagascar |
 | 4 | `assemblee-nationale.mg` | central | 200 | wikidata | National Assembly |
 | 4 | `banque-centrale.mg` |  | 200 | wikidata | Central Bank of Madagascar |
 | 4 | `bnm.mg` |  | HttpTimeo... | wikidata | Q140563694 |
 | 4 | `ceni-madagascar.mg` | central | 301 | wikidata | National Independent Electoral Commission |
-| 4 | `ist-antsiranana.mg` | central |  | academia | Institut supérieur de technologie d'Antsiranana |
 | 4 | `meteomadagascar.mg` |  | ConnectEx... | wikidata | Météo Madagascar |
 | 4 | `pnae.mg` |  | ConnectEx... | wikidata | Office National pour l'Environnement |
 | 4 | `senat.mg` | central | 200 | wikidata | Senate |
-| 4 | `univ-fianar.mg` | central |  | academia | University of Fianarantsoa |
 | 3 | `antananarivo.diplo.de` | central | 200 | wikidata | Embassy of Germany, Antananarivo |
+| 3 | `asa.polytechnique.mg` | central |  | ror | École supérieure polytechnique d'Antananarivo |
 | 3 | `eeas.europa.eu` | central | 200 | wikidata | Delegation of the European Union to Madagascar and to the Comoros |
+| 3 | `esp-antsiranana.mg` | central |  | ror | École Supérieure Polytechnique d'Antsiranana |
+| 3 | `ist-tana.mg` | central |  | ror | Institut Supérieur de Technologie d'Antananarivo |
 | 3 | `madagascar.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Madagascar |
+| 3 | `mahajanga-univ.mg` | central |  | ror | Université de Mahajanga |
 | 3 | `mg.ambafrance.org` | central | 301 | wikidata | Embassy of France, Antananarivo |
+| 3 | `test.univ-antsiranana.edu.mg` | central |  | ror | Université d’Antsiranana |
 

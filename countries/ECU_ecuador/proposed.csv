@@ -2,21 +2,90 @@ hostname,score,sources,label,level,http_status,mx
 bce.ec,7,wikidata;wikidata,Central Bank of Ecuador,,ConnectException,0 bceqmtain.bce.ec.
 exa.ec,7,wikidata;wikidata,Ecuadorian Civilian Space Agency,,ConnectException,1 mail.exa.ec.
 escolapios.org.co,6,wikidata;wikidata,Nazareth piarist province,,301,0 escolapios-org-co.mail.protection.outlook.com.
+uea.edu.ec,6,academia;ror,Estatal Amazonica University,central-1,,
+unach.edu.ec,6,academia;ror,Universidad Nacional de Chimborazo,central,,
 ane.gov.ec,5,wikidata,National Archives of Ecuador,,ConnectException,none
 ccq.ec,4,wikidata,Quito Chamber of Commerce,,200,10 ccq-ec.mail.protection.outlook.com.
 espol.edu.ec,4,academia,Escuela Superior Politécnica del Litoral,central,,
 inocar.mil.ec,4,wikidata,Oceanographic Institute of the Ecuadorian Navy,,301,0 mail.inocar.mil.ec.
 quito.mfa.gov.hu,4,wikidata,embassy of Hungary in Ecuador,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-uea.edu.ec,4,academia,Estatal Amazonica University,central-1,,
-unach.edu.ec,4,academia,Universidad Nacional de Chimborazo,central,,
 ambafrance-ec.org,3,wikidata,Embassy of France to Quito,central,ConnectException,5 mta-gw.infomaniak.ch.
+bluehill.edu.ec,3,ror,Instituto Superior Universitario Blue Hill College,central,,
+casagrande.edu.ec,3,ror,Universidad Casa Grande,central,,
 cubadiplomatica.cu,3,wikidata,embassy of Cuba in Ecuador,central,ConnectException,none
 ec.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Quito",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ec.china-embassy.org found.,none
+ecotec.edu.ec,3,ror,Universidad Ecotec,central,,
 ecuador.mid.ru,3,wikidata,embassy of Russia in Ecuador,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Ecuador,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 embajadadominicanaecuador.com,3,wikidata,embassy of the Dominican Republic in Ecuador,central,IOException: Received RST_STREAM: Protocol error,none
+epn.edu.ec,3,ror,National Polytechnic School,central,,
+espam.edu.ec,3,ror,Escuela Superior Politécnica Agropecuaria de Manabí Manuel Félix López,central,,
+espe.edu.ec,3,ror,Universidad de las Fuerzas Armadas ESPE,central,,
+espoch.edu.ec,3,ror,Escuela Superior Politécnica del Chimborazo,central,,
+espoj.edu.ec,3,ror,Escuela Politécnica Javeriana del Ecuador,central,,
+iavq.edu.ec,3,ror,Instituto Superior Universitario de Artes Visuales,central,,
+igepn.edu.ec,3,ror,Instituto Geofísico de la Escuela Politécnica Nacional,central,,
+ikiam.edu.ec,3,ror,Universidad Regional Amazónica IKIAM,central-1,,
+indoamerica.edu.ec,3,ror,"Universidad Indoamérica, Sede Quito",central,,
+institutojubones.edu.ec,3,ror,Instituto Tecnológico Superior Jubones,central,,
+istcarloscisneros.edu.ec,3,ror,Instituto Superior Tecnológico Carlos Cisneros,central,,
+ister.edu.ec,3,ror,Instituto Superior Tecnológico Rumiñahui,central,,
+isuc.edu.ec,3,ror,Instituto Superior Universitario Cotopaxi,central,,
+itca.edu.ec,3,ror,Instituto Superior Tecnológico ITCA,central,,
+itecsur.edu.ec,3,ror,Instituto Superior Tecnologico Compu Sur,central,,
+puce.edu.ec,3,ror,Pontificia Universidad Católica del Ecuador,central,,
+pucesd.edu.ec,3,ror,Pontificia Universidad Católica del Ecuador sede Santo Domingo,central,,
+pucesi.edu.ec,3,ror,Pontificia Universidad Católica del Ecuador Sede Ibarra,central,,
 quiport.com,3,wikidata,Q1413753,,301,0 quiama.in.tmes.trendmicro.com.
 quito.diplo.de,3,wikidata,"Embassy of Germany, Quito",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 quito.embassy.qa,3,wikidata,embassy of Qatar in Ecuador,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 quito.mfa.ir,3,wikidata,embassy of Iran in Ecuador,central,307,none
 roc-taiwan.org,3,wikidata,"Commercial Office of Taipei, Quito",,302,none
+sangregorio.edu.ec,3,ror,Universidad San Gregorio de Portoviejo,central,,
+sudamericano.edu.ec,3,ror,Instituto Superior Tecnológico Particular Sudamericano,central,,
+uagraria.edu.ec,3,ror,Universidad Agraria del Ecuador,central,,
+uartes.edu.ec,3,ror,Universidad de las Artes,central,,
+uasb.edu.ec,3,ror,"Universidad Andina Simón Bolívar, Sede Ecuador",central,,
+uazuay.edu.ec,3,ror,Universidad del Azuay,central,,
+ube.edu.ec,3,ror,Universidad Bolivariana del Ecuador,central,,
+ucacue.edu.ec,3,ror,Universidad Católica de Cuenca,central,,
+uce.edu.ec,3,ror,Central University of Ecuador,central,,
+ucuenca.edu.ec,3,ror,University of Cuenca,central,,
+udla.edu.ec,3,ror,Universidad de Las Américas,central,,
+udr.edu.ec,3,ror,Universidad del Río,central,,
+ueb.edu.ec,3,ror,Universidad Estatal de Bolívar,central-1,,
+uees.edu.ec,3,ror,Universidad Espíritu Santo,central,,
+ug.edu.ec,3,ror,University of Guayaquil,central,,
+uhemisferios.edu.ec,3,ror,Universidad de los Hemisferios,central,,
+uide.edu.ec,3,ror,Universidad Internacional del Ecuador,central,,
+uisek.edu.ec,3,ror,Universidad Internacional SEK,central,,
+uisrael.edu.ec,3,ror,Universidad Israel,central,,
+ulvr.edu.ec,3,ror,Universidad Laica Vicente Rocafuerte de Guayaquil,central,,
+unae.edu.ec,3,ror,Universidad Nacional de Educación,central,,
+unemi.edu.ec,3,ror,Universidad Estatal de Milagro,central-1,,
+unesum.edu.ec,3,ror,Universidad Estatal del Sur de Manabi,central-1,,
+uniandes.edu.ec,3,ror,Universidad Regional Autónoma de Los Andes,central-1,,
+unibe.edu.ec,3,ror,Universidad Iberoamericana del Ecuador,central,,
+unl.edu.ec,3,ror,Universidad Nacional de Loja,central,,
+uotavalo.edu.ec,3,ror,Universidad de Otavalo,central,,
+upacifico.edu.ec,3,ror,Universidad Del Pacífico Ecuador,central,,
+upec.edu.ec,3,ror,Universidad Politécnica Estatal del Carchi,central-1,,
+ups.edu.ec,3,ror,Politecnica Salesiana University,central,,
+upse.edu.ec,3,ror,Universidad Estatal Península de Santa Elena,central-1,,
+usfq.edu.ec,3,ror,Universidad San Francisco de Quito,central,,
+usm.edu.ec,3,ror,Universidad Técnica Federico Santa María,central,,
+uta.edu.ec,3,ror,Universidad Técnica de Ambato,central,,
+utb.edu.ec,3,ror,Universidad Técnica de Babahoyo,central,,
+utc.edu.ec,3,ror,Universidad Técnica de Cotopaxi,central,,
+ute.edu.ec,3,ror,Universidad UTE,central,,
+uteg.edu.ec,3,ror,Universidad Tecnológica Empresarial de Guayaquil,central,,
+utelvt.edu.ec,3,ror,"Universidad Técnica ""Luis Vargas Torres""",central,,
+uteq.edu.ec,3,ror,Universidad Técnica Estatal de Quevedo,central-1,,
+utm.edu.ec,3,ror,Universidad Técnica de Manabí,central,,
+utmachala.edu.ec,3,ror,Universidad Tecnica de Machala,central,,
+utn.edu.ec,3,ror,Universidad Técnica del Norte,central,,
+utpl.edu.ec,3,ror,Universidad Técnica Particular de Loja,central,,
+web.itslibertad.edu.ec,3,ror,Instituto Superior Tecnológico Libertad,central,,
+yachaytech.edu.ec,3,ror,Universidad Yachay Tech,central,,
+espeam.20m.com,2,ror,Escuela Superior Politécnica Ecológica Amazónica,central,,
+umet.edu.ec,0,ror,Universidad Metropolitana,central,,

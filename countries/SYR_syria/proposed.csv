@@ -2,27 +2,55 @@ hostname,score,sources,label,level,http_status,mx
 mosy.sy,7,wikidata;wikidata,Ministry of Youth and Sports,,200,0 mosy.sy.
 nscl.sy,7,wikidata;wikidata,National Standards and Calibration Laboratory,,ConnectException,none
 custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+damascusuniversity.edu.sy,6,academia;ror,Damascus University,central,,
 egov.sy,6,un_desa,UN/DESA national portal,,ConnectException,none
 sanasyria.org,6,wikidata;wikidata,Syrian Arab News Agency,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sanasyria.org.
 syriaig.org,6,wikidata;wikidata,Syrian Interim Government,,403,10 syriaig.org.; 0 syriaig.org.
 syrien.um.dk,6,wikidata;wikidata,embassy of Denmark in Syria,central,301,none
+svuonline.org,5,academia;ror,Syrian Virtual University,central,,
 aec.org.sy,4,wikidata,Atomic Energy Commission of Syria,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 as.aec.org.sy.
-damascusuniversity.edu.sy,4,academia,Damascus University,central,,
 gors.sy,4,wikidata,General Organization of Remote Sensing,,ConnectException,10 mail.gors.sy.
 idlib.edu.sy,4,academia,Idlib University,central,,
 latakia-univ.edu.sy,4,academia,University of Latakia,central,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Damascus",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 scfms.sy,4,wikidata,Syrian Commission on Financial Markets and Securities,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.scfms.sy.
 sisc.sy,4,wikidata,Q123925129,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.sisc.sy.
+aiu.edu.sy,3,ror,Arab International University,central,,
+al-shamal.edu.sy,3,ror,Al-Shamal Private University,central,,
+alepuniv.edu.sy,3,ror,University of Aleppo,central,,
+alfuratuniv.edu.sy,3,ror,Al Furat University,central,,
+aspu.edu.sy,3,ror,Al-Sham Private University,central,,
+au.edu.sy,3,ror,Al Andalus University,central,,
+aust.edu.sy,3,ror,Arab Private University for Science and Technology,central,,
+cpu.edu.sy,3,ror,Cordoba Private University,central,,
 damasc.mae.ro,3,wikidata,"Embassy of Romania, Damascus",central,503,none
 damaskus.diplo.de,3,wikidata,"Embassy of Germany, Damascus",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Syria,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Damascus",central,301,10 mail.valtori.fi.
+hama-univ.edu.sy,3,ror,Hama University,central,,
+homs-univ.edu.sy,3,ror,Homs University,central,,
+hpu.edu.sy,3,ror,Al-Hawash Private University,central,,
+ipu.edu.sy,3,ror,Ittihad Private University,central,,
+iust.edu.sy,3,ror,International University for Science and Technology,central,,
+manara.edu.sy,3,ror,Manara University,central,,
+mari.edu.sy,3,ror,Mari Private University,central,,
+mas.edu.sy,3,ror,Maaref University of Applied Sciences,central,,
 mfa.gr,3,wikidata,embassy of Greece in Syria,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech republic in Damascus,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 palemb-sy.com,3,wikidata,Embassy of the State of Palestine in Syria,central,200,0 palemb-sy.com.
-svuonline.org,3,academia,Syrian Virtual University,central,,
+qpu.edu.sy,3,ror,Qasyoun Private University,central,,
+ru.edu.sy,3,ror,Al-Rashid International Private University for Science and Technology,central,,
+spu.edu.sy,3,ror,Syrian Private University,central,,
+su.edu.sy,3,ror,Al-Shahbaa University,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Damascus",central,301,none
 syria.mid.ru,3,wikidata,Embassy of Russia in Damascus,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 syriameteo.com,3,wikidata,SyriaMeteo,central,ConnectException,none
+tartous-univ.edu.sy,3,ror,University of Tartus,central,,
+tishreen.edu.sy,3,ror,Latakia University,central,,
+uok.edu.sy,3,ror,University of Kalamoon,central,,
 web.ortas.online,3,wikidata,General Authority for Radio and Television,,200,none
+wiu.edu.sy,3,ror,Wadi International University,central,,
+wpu.edu.sy,3,ror,Al Wataniya Private University,central,,
+ypu.edu.sy,3,ror,Yarmouk Private University,central,,
+idlib.university,2,ror,Idlib University,central,,
+iusr.university,2,ror,International University of Science and Renaissance,central,,

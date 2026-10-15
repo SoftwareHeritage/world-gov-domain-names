@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-3 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+5 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,4 +38,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mofaic.gov.ae` | central | IOExcepti... | wikidata;wikidata | Embassy of the United Arab Emirates, Malé |
 | 6 | `citizen.egov.mv` |  | 200 | un_desa | UN/DESA national portal |
 | 3 | `ganairport.com` |  | 403 | wikidata | Gan International Airport |
+| 3 | `ium.edu.mv` | central |  | ror | Islamic University of Maldives |
+| 3 | `mnu.edu.mv` | central |  | ror | Maldives National University |
 

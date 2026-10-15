@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-157 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+189 domain(s) proposed for validation, of which 3 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -47,12 +47,12 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `piarista.hu` |  | 200 | wikidata;wikidata | piarist province of Hungary |
 | 7 | `police.hu` |  | SSLHandsh... | wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata | National Bureau of Investigation | Baranya  County Police Headquarters | Komá... |
 | 7 | `ugyeszseg.hu` |  | 200 | wikidata;wikidata | Prosecution Service of Hungary |
+| 6 | `bme.hu` | central |  | academia;ror | Budapest University of Technology and Economics |
 | 6 | `budapest.diplo.de` | central | 200 | wikidata;wikidata | Embassy of Germany, Budapest |
+| 6 | `elte.hu` | central |  | academia;ror | Eötvös Loránd University |
+| 6 | `u-szeged.hu` | central |  | academia;ror | University of Szeged |
 | 5 | `ah.gov.hu` |  | SSLHandsh... | wikidata | Constitution Protection Office |
 | 5 | `allamkincstar.gov.hu` |  | SSLHandsh... | wikidata | Hungarian State Treasury |
 | 5 | `haea.gov.hu` |  | ConnectEx... | wikidata | Hungarian Atomic Energy Authority |
 | 5 | `ih.gov.hu` |  | 200 | wikidata | Information Office Hungary |
-| 5 | `intezet.nori.gov.hu` |  | 200 | wikidata | Q1216622 |
-| 5 | `kef.gov.hu` |  | ConnectEx... | wikidata | Directorate General for Public Procurement and Supply |
-| 5 | `kki.gov.hu` |  | SSLHandsh... | wikidata | Institute for Foreign Affairs and Trade |
 

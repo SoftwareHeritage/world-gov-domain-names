@@ -13,7 +13,7 @@
 - UN/DESA EGDI: Rank 9 of 193
 - Government type: parliamentary republic
 - Capital: Helsinki
-- Hosts collected: 1585
+- Hosts collected: 1581
 
 ## UN/DESA national portal
 
@@ -30,11 +30,12 @@
 
 ## Proposed domains ranked by score
 
-180 domain(s) proposed for validation, of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+209 domain(s) proposed for validation, of which 24 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 9 | `uniarts.fi` | central |  | academia;academia;ror | Sibelius Academy | University of the Arts Helsinki |
 | 7 | `en.gtk.fi` | central | ConnectEx... | wikidata;academia | Geological Survey of Finland |
 | 7 | `en.ilmatieteenlaitos.fi` | central | 200 | wikidata;academia | Finnish Meteorological Institute |
 | 7 | `en.kotus.fi` | central | 200 | wikidata;academia | Institute for the Languages of Finland |
@@ -54,7 +55,6 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `rikosseuraamus.fi` |  | 301 | wikidata;wikidata | Prison and Probation Service of Finland |
 | 7 | `samediggi.fi` |  | 200 | wikidata;wikidata | Sami Parliament of Finland |
 | 7 | `se.gtk.fi` | central | ConnectEx... | wikidata;academia | Geological Survey of Finland |
-| 7 | `sprakinstitutet.fi` | central | 200 | wikidata;academia | Institute for the Languages of Finland |
 
 ## ccTLD anomalies
 

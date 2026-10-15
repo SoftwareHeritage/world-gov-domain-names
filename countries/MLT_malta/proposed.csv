@@ -1,6 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 parlament.mt,7,wikidata;wikidata,Parliament of Malta,central,200,3 parlament-mt.mail.protection.outlook.com.
 gesuiti.it,6,wikidata;wikidata,Euromediterranean Province of the Jesuits,,200,5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+um.edu.mt,6,academia;ror,University of Malta,central,,
 era.org.mt,4,wikidata,Environment and Resources Authority,,200,3 era-org-mt.mail.protection.outlook.com.
 festivals.mt,4,wikidata,Festivals Malta Agency,,301,10 festivals-mt.mail.protection.outlook.com.
 foodagency.mt,4,wikidata,Malta Food Agency,,200,none
@@ -11,7 +12,6 @@ mfsa.com.mt,4,wikidata,Malta Financial Service Authority,central,301,0 mfsa-com-
 mfsa.mt,4,wikidata,Malta Financial Service Authority,central,301,0 mfsa-mt.mail.protection.outlook.com.
 mra.org.mt,4,wikidata,Malta Resources Authority,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 mra-org-mt.mail.protection.outlook.com.
 pa.org.mt,4,wikidata,Planning Authority,,403,0 pa-org-mt.mail.protection.outlook.com.
-um.edu.mt,4,academia,University of Malta,central,,
 centralbankmalta.org,3,wikidata,Central Bank of Malta,,301,10 centralbankmalta-org.mail.protection.outlook.com.
 ghanahighcommission-malta.com,3,wikidata,high commission of Ghana in Malta,central,ConnectException,none
 heritagemalta.org,3,wikidata,Heritage Malta,,301,10 heritagemalta-org.mail.protection.outlook.com.
@@ -26,3 +26,4 @@ unescomalta.org,3,wikidata,Maltese National Commission for UNESCO,,301,0 ASPMX.L
 valletta.diplo.de,3,wikidata,"Embassy of Germany, Valletta",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 valletta.embassy.qa,3,wikidata,embassy of Qatar in Malta,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 valletta.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Malta,central,302,none
+opit.com,2,ror,Open Institute of Technology,central,,

@@ -30,17 +30,22 @@
 
 ## Proposed domains ranked by score
 
-8 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 6 | `ul.edu.lr` | central |  | academia;ror | University of Liberia |
 | 4 | `cbl.org.lr` |  | 200 | wikidata | Central Bank of Liberia |
-| 4 | `ul.edu.lr` | central |  | academia | University of Liberia |
+| 3 | `ame.edu.lr` | central |  | ror | African Methodist Episcopal University |
+| 3 | `cu.edu.lr` | central |  | ror | Cuttington University |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Liberia |
 | 3 | `izsvenezie.com` | central |  | academia | Fendall National Veterinary Laboratory |
 | 3 | `lr.ambafrance.org` | central | 301 | wikidata | Embassy of France, Monrovia |
 | 3 | `monrovia.diplo.de` | central | 200 | wikidata | Embassy of Germany, Monrovia |
 | 3 | `necliberia.org` | central | 403 | wikidata | National Elections Commission of Liberia |
+| 3 | `smp.edu.lr` | central |  | ror | Stella Maris Polytechnic |
 | 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Monrovia |
+| 3 | `tubmanu.edu.lr` | central |  | ror | William V. S. Tubman University |
+| 3 | `umu.edu.lr` | central |  | ror | United Methodist University |
 

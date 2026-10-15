@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-54 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
+60 domain(s) proposed for validation, of which 1 at the first subdivision level (`central-1`: Land, state, region…). Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -43,6 +43,9 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `stat.si` | central | SSLHandsh... | wikidata;academia | Statistical Office of the Republic of Slovenia |
 | 6 | `dominikanci.hr` |  | 200 | wikidata;wikidata | Croatian Dominican Province |
 | 6 | `slowenien.ahk.de` |  | 302 | wikidata;wikidata | German-Slovenian Chamber of Industry and Commerce |
+| 6 | `um.si` | central |  | academia;ror | University of Maribor |
+| 6 | `uni-lj.si` | central |  | academia;ror | University of Ljubljana |
+| 6 | `upr.si` | central |  | academia;ror | University of Primorska |
 | 6 | `us-rs.si` |  | 301 | wikidata | Constitutional Court of Slovenia |
 | 6 | `vlada.si` |  | SSLHandsh... | un_desa | UN/DESA national portal |
 | 4 | `a-tvp.si` |  | 301 | wikidata | Securities Market Agency |
@@ -52,7 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 4 | `bsi.si` |  | SSLHandsh... | wikidata | Bank of Slovenia |
 | 4 | `ds-rs.si` | central | 200 | wikidata | National Council of Slovenia |
 | 4 | `dvk-rs.si` | central | 302 | wikidata | State Election Commission |
-| 4 | `energap.si` |  | 301 | wikidata | Energy Agency of Podravje |
-| 4 | `film-center.si` |  | 301 | wikidata | Slovenian Film Centre |
-| 4 | `jakrs.si` |  | 301 | wikidata | Slovenian Book Agency |
 

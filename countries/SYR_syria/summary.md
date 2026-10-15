@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-27 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+55 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -38,21 +38,21 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 7 | `mosy.sy` |  | 200 | wikidata;wikidata | Ministry of Youth and Sports |
 | 7 | `nscl.sy` |  | ConnectEx... | wikidata;wikidata | National Standards and Calibration Laboratory |
 | 6 | `custodia.org` |  | 301 | wikidata;wikidata | Custodian of the Holy Land |
+| 6 | `damascusuniversity.edu.sy` | central |  | academia;ror | Damascus University |
 | 6 | `egov.sy` |  | ConnectEx... | un_desa | UN/DESA national portal |
 | 6 | `sanasyria.org` |  | HttpConne... | wikidata;wikidata | Syrian Arab News Agency |
 | 6 | `syriaig.org` |  | 403 | wikidata;wikidata | Syrian Interim Government |
 | 6 | `syrien.um.dk` | central | 301 | wikidata;wikidata | embassy of Denmark in Syria |
+| 5 | `svuonline.org` | central |  | academia;ror | Syrian Virtual University |
 | 4 | `aec.org.sy` |  | SSLHandsh... | wikidata | Atomic Energy Commission of Syria |
-| 4 | `damascusuniversity.edu.sy` | central |  | academia | Damascus University |
 | 4 | `gors.sy` |  | ConnectEx... | wikidata | General Organization of Remote Sensing |
 | 4 | `idlib.edu.sy` | central |  | academia | Idlib University |
 | 4 | `latakia-univ.edu.sy` | central |  | academia | University of Latakia |
 | 4 | `mofaic.gov.ae` | central | IOExcepti... | wikidata | Embassy of the United Arab Emirates, Damascus |
 | 4 | `scfms.sy` | central | SSLHandsh... | wikidata | Syrian Commission on Financial Markets and Securities |
 | 4 | `sisc.sy` | central | SSLHandsh... | wikidata | Q123925129 |
-| 3 | `damasc.mae.ro` | central | 503 | wikidata | Embassy of Romania, Damascus |
-| 3 | `damaskus.diplo.de` | central | 200 | wikidata | Embassy of Germany, Damascus |
-| 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Syria |
-| 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Damascus |
-| 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Syria |
+| 3 | `aiu.edu.sy` | central |  | ror | Arab International University |
+| 3 | `al-shamal.edu.sy` | central |  | ror | Al-Shamal Private University |
+| 3 | `alepuniv.edu.sy` | central |  | ror | University of Aleppo |
+| 3 | `alfuratuniv.edu.sy` | central |  | ror | Al Furat University |
 

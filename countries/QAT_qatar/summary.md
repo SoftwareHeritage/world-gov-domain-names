@@ -30,20 +30,23 @@
 
 ## Proposed domains ranked by score
 
-19 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+31 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
 |------:|----------|-------|------|---------|-------|
+| 6 | `qu.edu.qa` | central |  | academia;ror | Qatar University |
 | 4 | `phcc.qa` |  | 301 | wikidata | Primary Health Care |
 | 4 | `qnl.qa` |  | 301 | wikidata | Qatar National Library |
-| 4 | `qu.edu.qa` | central |  | academia | Qatar University |
 | 3 | `ambasadat.net` | central | 200 | wikidata | Embassy of Kosovo, Doha |
+| 3 | `ariu.edu.qa` | central |  | ror | Al Rayyan International University College |
 | 3 | `bhembassyqatar.com` | central | 200 | wikidata | embassy of Bosnia and Herzegovina in Qatar |
 | 3 | `doha.diplo.de` | central | 200 | wikidata | Embassy of Germany, Doha |
 | 3 | `doha.mae.ro` | central | 503 | wikidata | embassy of Romania in Qatar |
 | 3 | `finlandabroad.fi` | central | 301 | wikidata | Embassy of Finland, Doha |
+| 3 | `hbku.edu.qa` | central |  | ror | Hamad bin Khalifa University |
 | 3 | `lebaneseembassyqatar.com` | central | 405 | wikidata | Embassy of Lebanon, Doha |
+| 3 | `lu.edu.qa` | central |  | ror | Lusail University |
 | 3 | `mfa.bg` | central | 302 | wikidata | embassy of Bulgaria in Qatar |
 | 3 | `mfa.gr` | central | 403 | wikidata | embassy of Greece in Qatar |
 | 3 | `nigeriaembassydoha.org` | central | 301 | wikidata | Embassy of Nigeria, Doha |
@@ -52,6 +55,4 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 3 | `qa.mvep.hr` | central | ConnectEx... | wikidata | embassy of Croatia in Qatar |
 | 3 | `qatar.mid.ru` | central | SSLHandsh... | wikidata | embassy of Russia in Qatar |
 | 3 | `swedenabroad.se` | central | 301 | wikidata | Embassy of Sweden, Doha |
-| 3 | `unesco.org` |  | 302 | wikidata | UNESCO office Qatar |
-| 2 | `shura.qa` | central | 301 | wikidata;wikidata;wikidata;wikidata | Consultative Assembly of Qatar |
 

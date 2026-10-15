@@ -18,6 +18,14 @@ ccila-portugal.com,6,wikidata;wikidata,German-Portuguese Chamber of Industry and
 lajesfss.com,6,wikidata;wikidata,65th Force Support Squadron | Lajes Airman and Family Readiness Center,,ConnectException: Host is unreachable,10 mail.lajesfss.com.
 stj.pt,6,wikidata,Portuguese Supreme Court of Justice,central,301,10 stj-pt.mail.protection.outlook.com.
 tribunalconstitucional.pt,6,wikidata,Portuguese Constitutional Court,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching tribunalconstitucional.pt found.,none
+ua.pt,6,academia;ror,University of Aveiro,central,,
+uac.pt,6,academia;ror,University of the Azores,central,,
+ualg.pt,6,academia;ror,University of Algarve,central,,
+uc.pt,6,academia;ror,University of Coimbra,central,,
+uevora.pt,6,academia;ror,University of Évora,central,,
+ulisboa.pt,6,academia;ror,University of Lisbon,central,,
+uminho.pt,6,academia;ror,University of Minho,central,,
+up.pt,6,academia;ror,University of Porto,central,,
 cm-abrantes.pt,5,linkgraph,Linked from 9 public-sector domains,,HttpTimeoutException: request timed out,10 cmabrantes-pt0e.mail.protection.outlook.com.
 cm-alcanena.pt,5,linkgraph,Linked from 8 public-sector domains,,HttpTimeoutException: request timed out,0 cmalcanena-pt0e.mail.protection.outlook.com.
 cm-constancia.pt,5,linkgraph,Linked from 8 public-sector domains,,200,10 mxg.eu.mpssec.net.; 10 mxf.eu.mpssec.net.
@@ -154,13 +162,7 @@ spms.min-saude.pt,4,wikidata,Serviços Partilhados do Ministério da Saúde,,307
 stadministrativo.pt,4,wikidata,Portuguese Supreme Administrative Court,,200,10 mailgw.mj.pt.
 tcontas.pt,4,wikidata,Portuguese Court of Audits,,ConnectException,50 smtpin2.nos.smail.eu.; 20 mail.tcontas.pt.
 turismodeportugal.pt,4,wikidata,Turismo de Portugal,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching turismodeportugal.pt found.,5 turismodeportugal-pt.mail.protection.outlook.com.
-ua.pt,4,academia,University of Aveiro,central,,
 uab.pt,4,academia,Universidade Aberta de Portugal,central,,
-uac.pt,4,academia,University of the Azores,central,,
-ualg.pt,4,academia,University of Algarve,central,,
-uc.pt,4,academia,University of Coimbra,central,,
-uevora.pt,4,academia,University of Évora,central,,
-ulisboa.pt,4,academia,University of Lisbon,central,,
 ulsam.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alto Minho,,ConnectException,0 ulsam-minsaude-pt02c.mail.protection.outlook.com.
 ulsba.min-saude.pt,4,wikidata,Unidade Local de Saúde do Baixo Alentejo,,ConnectException,0 ulsba-minsaude-pt02c.mail.protection.outlook.com.
 ulscb.min-saude.pt,4,wikidata,Unidade Local de Saúde de Castelo Branco,,ConnectException,0 ulscb-minsaude-pt02c.mail.protection.outlook.com.
@@ -170,15 +172,136 @@ ulsla.min-saude.pt,4,wikidata,Unidade Local de Saúde do Litoral Alentejano,,SSL
 ulsm.min-saude.pt,4,wikidata,Unidade Local de Saúde de Matosinhos,,ConnectException,0 ulsm-minsaude-pt02b.mail.protection.outlook.com.
 ulsna.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alto Alentejo,,ConnectException,0 ulsna-minsaude-pt02c.mail.protection.outlook.com.
 ulsne.min-saude.pt,4,wikidata,Unidade Local de Saúde do Nordeste,,ConnectException,0 ulsne-minsaude-pt02c.mail.protection.outlook.com.
-uminho.pt,4,academia,University of Minho,central,,
-up.pt,4,academia,University of Porto,central,,
+2ai.ipca.pt,3,ror,Laboratório de Inteligência Artificial Aplicada,central,,
+2c2t.uminho.pt,3,ror,Centro de Ciência e Tecnologia Têxtil,central,,
+aero.ulusofona.pt,3,ror,Centro Interdisciplinar de Desenvolvimento e Investigação em Ambiente Gestão Aplicada e Espaço,central,,
+algoritmi.uminho.pt,3,ror,Centro ALGORITMI,central,,
 ambafrance-pt.org,3,wikidata,"Embassy of France, Lisbon",central,ConnectException,none
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Lisbon",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+appsyci.pt,3,ror,Centro de Investigação em Psicologia Aplicada Capacidades e Inclusão,central,,
+astro.up.pt,3,ror,Centro de Astrofísica da Universidade do Porto,central,,
+audax.iscte-iul.pt,3,ror,Audax ISCTE,central,,
+autonoma.pt,3,ror,Autonomous University of Lisbon,central,,
+biobip.pt,3,ror,Bioenergy and Business Incubator of Portalegre,central,,
+biomark.isep.ipp.pt,3,ror,BioMark Sensor Research,central,,
+bru.iscte-iul.pt,3,ror,Unidade de Investigação em Desenvolvimento Empresarial,central,,
 bv-guimaraes.org,3,wikidata,Associação Humanitária dos Bombeiros Voluntários de Guimarães,,302,0 bv-guimaraes.org.
 bvtaipas.com,3,wikidata,Q91779220,,302,0 mail.bvtaipas.com.
+catedraer.uevora.pt,3,ror,Cátedra Energias Renováveis,central,,
+catedraunesco.ulusofona.pt,3,ror,Cátedra Educação Cidadania e Diversidade Cultural,central,,
+cba.uac.pt,3,ror,Centro de Biotecnologia dos Açores,central,,
+cbma.uminho.pt,3,ror,Centro de Biologia Molecular e Ambiental,central,,
+ccm.uma.pt,3,ror,Centro de Ciências Matemáticas,central,,
+ccul.pt,3,ror,Centro Cardiovascular da Universidade de Lisboa,central,,
+cdrsp.ipleiria.pt,3,ror,Centro para o Desenvolvimento Rápido e Sustentado de Produto,central,,
+ce3c.pt,3,ror,Centro de Ecologia Evolução e Alterações Ambientais,central,,
+ceb.uminho.pt,3,ror,Universidade do Minho Centro de Engenharia Biológica,central,,
+cecomp.letras.ulisboa.pt,3,ror,Centro de Estudos Comparatistas,central,,
+cecs.uminho.pt,3,ror,Centro de Estudos de Comunicação e Sociedade,central,,
+cedis.novalaw.unl.pt,3,ror,Centro de Investigacao e Desenvolvimento sobre Direito e Sociedade,central,,
+cedoua.fd.uc.pt,3,ror,Centro de Estudos de Direito do Ordenamento do Urbanismo e do Ambiente,central,,
+cedu.direito.uminho.pt,3,ror,Centro de Estudos em Direito da União Europeia,central,,
+cefup.fep.up.pt,3,ror,Centro de Economia e Finanças,central,,
+ceg.igot.ulisboa.pt,3,ror,Centro de Estudos Geográficos,central,,
+cehum.elach.uminho.pt,3,ror,Centro de Estudos Humanísticos,central,,
+ceid.fd.ucp.pt,3,ror,Centro de Estudos e Investigação em Direito,central,,
+cejeia.ulusiada.pt,3,ror,Centro de Estudos Jurídicos Económicos e Ambientais,central,,
+centroclassicos.letras.ulisboa.pt,3,ror,Centro de Estudos Clássicos,central,,
+cesa.rc.iseg.ulisboa.pt,3,ror,Centro de Estudos sobre África e do Desenvolvimento,central,,
+cespu.pt,3,ror,Instituto Politécnico de Saúde do Norte - CESPU,central,,
+ceteatro.pt,3,ror,Centro de Estudos de Teatro,central,,
+cetrad.utad.pt,3,ror,Centro de Estudos Transdisciplinares para o Desenvolvimento,central,,
+cfisuc.fis.uc.pt,3,ror,Centro de Física da Universidade de Coimbra,central,,
+cftc.ciencias.ulisboa.pt,3,ror,Centro de Física Teórica e Computacional,central,,
+cftp.ist.utl.pt,3,ror,Centro de Física Teórica de Partículas,central,,
+cful.letras.ulisboa.pt,3,ror,Centro de Filosofia,central,,
+ci2.ipt.pt,3,ror,Centro de Investigação em Cidades Inteligentes,central,,
+ciafel.fade.up.pt,3,ror,Centro de Investigação em Actividade Física Saúde e Lazer,central,,
+cias.uc.pt,3,ror,Centro de Investigação em Antropologia e Saúde,central,,
+ciaud.fa.ulisboa.pt,3,ror,Centro de Investigação em Arquitetura Urbanismo e Design,central,,
+cibb.uc.pt,3,ror,Centro de Inovação em Biomedicina e Biotecnologia,central,,
+cidma.mat.ua.pt,3,ror,Centro de Investigação e Desenvolvimento em Matemática e Aplicações,central,,
+cied.uminho.pt,3,ror,Centro de Investigação em Educação,central,,
+ciencia.ucp.pt,3,ror,Centro de Estudos de Gestão e Economia Aplicada,central,,
+cierl.uma.pt,3,ror,Centro de Investigação em Estudos Regionais e Locais,central,,
+ciie.fpce.up.pt,3,ror,Centro de Investigação e Intervenção Educativas,central,,
+cij.up.pt,3,ror,Centro de Investigação Interdisciplinar em Justiça,central,,
+cima.ualg.pt,3,ror,Centro de Investigação Marinha e Ambiental,central,,
+cimo.esa.ipb.pt,3,ror,Centro de Investigação de Montanha,central,,
+cineicc.uc.pt,3,ror,Universidade de Coimbra Centro de Investigação em Neuropsicologia e Intervenção Cognitivo-Comportamental,central,,
+cir.ess.ipp.pt,3,ror,Centro de Investigação em Reabilitação,central,,
+cisa-as.uevora.pt,3,ror,Centro de Investigação em Sociologia e Antropologia Augusto da Silva,central,,
+cister.isep.ipp.pt,3,ror,Centro de Investigação em Sistemas Computacionais Embebidos e de Tempo-Real,central,,
+citad.ulusiada.pt,3,ror,Centro de Investigação em Território Arquitectura e Design,central,,
+clsbe.lisboa.ucp.pt,3,ror,Unidade de Investigação em Gestão e Economia,central,,
+clul.ulisboa.pt,3,ror,Centro de Linguística,central,,
+cmuc.mat.uc.pt,3,ror,Centro de Matemática,central,,
 cnsf.com,3,wikidata,Q133265926,,301,10 mx002.register.xion.oxcs.net.; 10 mx001.register.xion.oxcs.net.
+cpup.fpce.up.pt,3,ror,Centro de Psicologia,central,,
+cq.uminho.pt,3,ror,Centro de Química,central,,
+cqc.uc.pt,3,ror,Centro de Química de Coimbra,central,,
+cqe.tecnico.ulisboa.pt,3,ror,Centro de Química Estrutural,central,,
+cqe.uevora.pt,3,ror,Centro de Química de Évora,central,,
+cqm.uma.pt,3,ror,Centro de Química da Madeira,central,,
+ctac.uminho.pt,3,ror,Centro de Território Ambiente e Construção,central,,
+dee.isep.ipp.pt,3,ror,Laboratório de Medidas Eléctricas,central,,
+edicoes.ulusofona.pt,3,ror,Edições Universitárias Lusófonas,central,,
+escolanaval.marinha.pt,3,ror,Escola Naval Unidade Orgânica de Ensino Politécnico,central,,
+ese.uminho.pt,3,ror,Centro de Investigação em Enfermagem,central,,
+esel.pt,3,ror,Escola Superior de Enfermagem da Universidade de Lisboa,central,,
+esenf.pt,3,ror,Escola Superior de Enfermagem da Universidade do Porto,central,,
+esmae.ipp.pt,3,ror,Escola Superior de Música e das Artes do Espectáculo,central,,
+estg.ipp.pt,3,ror,Escola Superior de Tecnologia e Gestão,central,,
 eurogendfor.org,3,wikidata,European Gendarmerie Force,,301,0 eurogendfor-org.mail.protection.outlook.com.
+europeia.pt,3,ror,Universidade Europeia,central,,
+euvg.pt,3,ror,Escola Universitária Vasco da Gama,central,,
+fam.ulusiada.pt,3,ror,Universidade Lusíada de Vila Nova de Famalicão,central,,
+fct.unl.pt,3,ror,Universidade Nova de Lisboa Associação para a Inovação e Desenvolvimento da FCT,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Portugal,central,301,10 mail.valtori.fi.
+gecad.isep.ipp.pt,3,ror,Grupo de Investigação em Engenharia e Computação Inteligente para a Inovação e o Desenvolvimento,central,,
+gilt.isep.ipp.pt,3,ror,Games Interaction and Learning Technologies,central,,
+graq.isep.ipp.pt,3,ror,Grupo de Reação e Análises Químicas,central,,
+ics.ulisboa.pt,3,ror,Instituto de Ciências Sociais da Universidade de Lisboa,central,,
+idea.uminho.pt,3,ror,Centro IDEA,central,,
+ie.ulisboa.pt,3,ror,Instituto de Educação da Universidade de Lisboa,central,,
+igc.fd.uc.pt,3,ror,Universidade de Coimbra Ius Gentium Conimbrigae Centro de Direitos Humanos,central,,
+iia.pt,3,ror,Centro de Desenvolvimento do Potencial Humano,central,,
+iitaa.uac.pt,3,ror,Instituto de Investigação e Tecnologia da Agronomia e Meio Ambiente,central,,
+ioriente.iscsp.ulisboa.pt,3,ror,Universidade de Lisboa Instituto do Oriente,central,,
+ipa.univ.pt,3,ror,Instituto Superior Autónomo de Estudos Politécnicos,central,,
+ipbeja.pt,3,ror,Universidade Politécnica de Beja,central,,
+ipc.pt,3,ror,Polytechnic Institute of Coimbra,central,,
+ipca.pt,3,ror,Universidade Politécnica do Cávado e do Ave,central,,
+ipcb.pt,3,ror,Universidade Politécnica de Castelo Branco,central,,
+ipl.pt,3,ror,Universidade Politécnica de Lisboa,central,,
+ipleiria.pt,3,ror,Centro de Inovação em Tecnologias e Cuidados de Saúde,central,,
+ipluso.pt,3,ror,Instituto Politécnico da Lusofonia,central,,
+ipmaia.pt,3,ror,Instituto Politécnico da Maia,central,,
+ipp.pt,3,ror,Unidade de e-Learning e Inovação Pedagógica,central,,
+ipportalegre.pt,3,ror,Universidade Politécnica de Portalegre,central,,
+ips.pt,3,ror,Universidade Politécnica de Setúbal,central,,
+ipsantarem.pt,3,ror,Instituto Politécnico de Santarém,central,,
+ipt.pt,3,ror,Universidade Politécnica de Tomar,central,,
+ipv.pt,3,ror,Polytechnic Institute of Viseu,central,,
+ipvc.pt,3,ror,Universidade Politécnica de Viana do Castelo,central,,
+isa.ulisboa.pt,3,ror,Centro de Investigação em Agronomia Alimentos Ambiente e Paisagem,central,,
+iscte-iul.pt,3,ror,Iscte – Instituto Universitário de Lisboa,central,,
+iseg.ulisboa.pt,3,ror,ISEG - Instituto Superior de Economia e Gestão,central,,
+islagaia.pt,3,ror,ISLA - Instituto Politécnico de Gestão e Tecnologia,central,,
+islasantarem.pt,3,ror,ISLA Santarém - Instituto Politécnico,central,,
+isoplexis.uma.pt,3,ror,ISOPlexis Banco de Germoplasma,central,,
+ispa.pt,3,ror,ISPA - Instituto Universitário,central,,
+ispgaya.pt,3,ror,Instituto Superior Politécnico Gaya,central,,
+ispo.pt,3,ror,Instituto Superior Politécnico do Oeste,central,,
+ium.pt,3,ror,Instituto Universitário Militar,central,,
+iuris.edu.pt,3,ror,Teoria e História do Direito,central,,
+jusgov.uminho.pt,3,ror,Centro de Investigação em Justiça e Governação,central,,
+labbels.uminho.pt,3,ror,Labbels,central,,
+labmm.fmh.ulisboa.pt,3,ror,Laboratório de Métodos Matemáticos,central,,
+labrp.pt,3,ror,Laboratório de Reabilitação Psicossocial,central,,
+lacm.fade.up.pt,3,ror,Laboratório de Aprendizagem e Controlo Motor,central,,
+libphys.pt,3,ror,Laboratório de Instrumentação Engenharia Biomédica e Física da Radiação,central,,
+lis.ulusiada.pt,3,ror,Lusíada University of Lisbon,central,,
 lisabona.mae.ro,3,wikidata,"Embassy of Romania, Lisbon",central,503,none
 lisbon.embassy.qa,3,wikidata,embassy of Qatar in Portugal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 lisbon.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Portugal,central,302,none
@@ -187,20 +310,56 @@ lisbon.mfa.ir,3,wikidata,embassy of Iran in Portugal,central,307,none
 lisbon.thaiembassy.org,3,wikidata,embassy of Thailand in Portugal,central,200,none
 lisbonne.mae.lu,3,wikidata,embassy of Luxembourg in Portugal,central,302,none
 lissabon.diplo.de,3,wikidata,"Embassy of Germany, Lisbon",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
+lsa.isep.ipp.pt,3,ror,Laboratório de Sistemas Autónomos,central,,
+lusoglobe.ulusofona.pt,3,ror,Centro de Investigação em Política Economia e Sociedade,central,,
+medicina.ulisboa.pt,3,ror,Laboratório de Genética,central,,
+metrics.com.pt,3,ror,Centro de Engenharia Mecânica e Sustentabilidade de Recursos,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Portugal,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Portugal,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech Republic in Portugal,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Portugal,central,301,10 mail.gov.sk.
 nigeriaemblisbon.org,3,wikidata,embassy of Nigeria in Portugal,central,200,0 nigeriaemblisbon.org.
 norway.no,3,wikidata,"Embassy of Norway, Lisbon",central,301,0 mx.domeneshop.no.
+novaresearch.unl.pt,3,ror,Comprehensive Health Research Centre Escola Nacional Saúde Pública,central,,
+novasbe.unl.pt,3,ror,Unidade de Investigação Nova SBE,central,,
+oa.fc.up.pt,3,ror,Observatório Astronómico Prof Manuel de Barros,central,,
+politecnicoguarda.pt,3,ror,Universidade Politécnica da Guarda,central,,
+por.ulusiada.pt,3,ror,Universidade Lusíada - Centro Universitário Lusíada - Norte (campus do Porto),central,,
+portal.uab.pt,3,ror,Universidade Aberta,central,,
+porto.ucp.pt,3,ror,Cátedra Poesia e Transcendência Sophia de Mello Breyner Andresen,central,,
 portugal.mid.ru,3,wikidata,"Embassy of Russia, Lisbon",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 portugal.representation.ec.europa.eu,3,wikidata,European Commission Representation in Portugal,,301,none
 portugal.um.dk,3,wikidata,embassy of Denmark in Portugal,central,301,none
 pt.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Lisbon",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pt.china-embassy.org found.,none
 pt.mvep.hr,3,wikidata,embassy of Croatia in Portugal,central,ConnectException,none
+qfm.uc.pt,3,ror,Universidade de Coimbra Unidade de Investigação e Desenvolvimento Química-Física Molecular,central,,
+sites.ipleiria.pt,3,ror,Núcleo de Investigação e Desenvolvimento em Educação,central,,
+socius.rc.iseg.ulisboa.pt,3,ror,Centro de Investigação em Sociologia Económica e das Organizações,central,,
+sustec.ipb.pt,3,ror,Laboratório Associado para a Sustentabilidade e Tecnologia em Regiões do Interior,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Lisbon",central,301,none
+toxrun.iucs.cespu.pt,3,ror,Unidade de Investigação em Toxicologia & Uma Só Saúde,central,,
+uatlantica.pt,3,ror,Atlântica Instituto Universitário,central,,
+ubi.pt,3,ror,University of Beira Interior,central,,
+ufp.pt,3,ror,Fernando Pessoa University,central,,
+ulo.pt,3,ror,Universidade de Leiria e Oeste,central,,
+ulusofona.pt,3,ror,Universidade Lusófona,central,,
+uma.pt,3,ror,Universidade da Madeira,central,,
+unidcom-iade.pt,3,ror,Unidade de Investigação em Design e Comunicação,central,,
+unipb.pt,3,ror,Universidade Politécnica de Bragança,central,,
+unl.pt,3,ror,Universidade Nova de Lisboa,central,,
+usc.pt,3,ror,Universidade Sénior Contemporânea,central,,
+utad.pt,3,ror,University of Trás-os-Montes and Alto Douro,central,,
+utporto.pt,3,ror,Universidade Técnica do Porto,central,,
 visitlisboa.com,3,wikidata,Turismo de Lisboa,,301,0 visitlisboa-com.mail.protection.outlook.com.
 web.roc-taiwan.org,3,wikidata,"Taipei Economic and Cultural Center, Lisbon",,HttpConnectTimeoutException: HTTP connect timed out,none
+catedra-alberto-benveniste.org,2,ror,Cátedra de Estudos Sefarditas Alberto Benveniste,central,,
+ciec-um.com,2,ror,Centro de Investigação em Estudos da Criança,central,,
+ciuhct.org,2,ror,Centro Interuniversitário de História das Ciências e da Tecnologia,central,,
+egov.unu.edu,2,ror,United Nations University,central,,
+ipiaget.org,2,ror,Instituto Politécnico Jean Piaget do Norte,central,,
+lcfpem.com,2,ror,Laboratório de Ciências Forenses e Psicológicas Egas Moniz,central,,
 min-agricultura.pt,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Agriculture, Rural Development and Fisheries",central,ConnectException,none
 min-edu.pt,2,wikidata;wikidata;wikidata;wikidata,Ministry of Education of Portugal,central,ConnectException,none
 min-financas.pt,2,wikidata;wikidata;wikidata;wikidata,Ministry of Finance of Portugal,central,ConnectException,none
+ufpuv.com,2,ror,Universidade Fernando Pessoa Universidade Virtual,central,,
+ulices.org,2,ror,Universidade de Lisboa Centro de Estudos Anglisticos,central,,

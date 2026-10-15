@@ -2,14 +2,21 @@ hostname,score,sources,label,level,http_status,mx
 kna.kw,7,wikidata;wikidata,National Assembly of Kuwait,central,302,0 kna-kw.mail.protection.outlook.com.
 moe.edu.kw,7,wikidata;wikidata,Ministry of Education,central,200,10 moe-edu-kw.mail.protection.outlook.com.
 mohe.edu.kw,7,wikidata;wikidata,Ministry of Higher Education,central,200,0 mohe-edu-kw.mail.protection.outlook.com.
+ku.edu.kw,6,academia;ror,Kuwait University,central,,
 csc.net.kw,4,wikidata,Civil Service Council,,ConnectException,none
 epa.org.kw,4,wikidata,Environment Public Authority,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching epa.org.kw found.,0 epa-org-kw.mail.protection.outlook.com.
-ku.edu.kw,4,academia,Kuwait University,central,,
 kuna.net.kw,4,wikidata,Kuwait News Agency,,ConnectException,0 kuna-net-kw.in.tmes-sg.trendmicro.com.
 kuvait.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Kuwait",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kuwait",central,ConnectException,none
+aiu.edu.kw,3,ror,American International University Kuwait,central,,
+aou.edu.kw,3,ror,Arab Open University,central,,
+au.edu.kw,3,ror,"Australian University, Kuwait",central,,
+auk.edu.kw,3,ror,American University of Kuwait,central,,
+aum.edu.kw,3,ror,American University of the Middle East,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Kuwait,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 ghanaembassy-kuwait.com,3,wikidata,embassy of Ghana in Kuwait,central,ConnectException,none
+gust.edu.kw,3,ror,Gulf University for Science & Technology,central,,
+iuk.edu.kw,3,ror,International University of Science and Technology in Kuwait,central,,
 kgoc.com,3,wikidata,Kuwait Gulf Oil Company,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx1.hc48415.c3s2.iphmx.com.; 5 mx2.hc48415.c3s2.iphmx.com.
 kuwait.diplo.de,3,wikidata,"Embassy of Germany, Kuwait",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 kuwait.mid.ru,3,wikidata,embassy of Russia in Kuwait,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

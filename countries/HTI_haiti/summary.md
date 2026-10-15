@@ -30,7 +30,7 @@
 
 ## Proposed domains ranked by score
 
-13 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
+24 domain(s) proposed for validation. Full list in [`proposed.csv`](proposed.csv).
 Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 
 | score | hostname | level | http | sources | label |
@@ -39,13 +39,20 @@ Top 20 by score (0-10) -- higher = stronger cross-source evidence:
 | 6 | `jesuites.ca` |  | 200 | wikidata;wikidata | Canada Province of the Society of Jesus |
 | 6 | `jesuits.ca` |  | 200 | wikidata;wikidata | Canada Province of the Society of Jesus |
 | 6 | `roc-taiwan.org` | central | 302 | wikidata;wikidata | Embassy of the Republic of China (Taiwan), Port-au-Prince |
+| 6 | `ueh.edu.ht` | central |  | academia;ror | Q1205322 |
 | 4 | `brh.ht` |  | ConnectEx... | wikidata | Bank of the Republic of Haiti |
 | 4 | `cephaiti.ht` | central | 200 | wikidata | Provisional Electoral Council |
 | 4 | `pnh.ht` | central | HttpConne... | wikidata | Haitian National Police |
-| 4 | `ueh.edu.ht` | central |  | academia | Q1205322 |
+| 3 | `auc.edu.ht` | central |  | ror | American University of the Caribbean |
 | 3 | `eeas.europa.eu` |  | 200 | wikidata | Delegation of the European Union to Haiti |
 | 3 | `ht.ambafrance.org` | central | 301 | wikidata | Embassy of France, Port-au-Prince |
 | 3 | `ihsi.ayiti.digital` | central | SSLHandsh... | wikidata | Institut Haïtien de Statistique et d'Informatique |
 | 3 | `port-au-prince.diplo.de` | central | 200 | wikidata | embassy of Germany, Port-au-Prince |
-| 1 | `leparlementhaitien.info` | central | 200 | wikidata;wikidata;wikidata | Parliament of Haiti | Chamber of Deputies |
+| 3 | `unah.edu.ht` | central |  | ror | Adventist University of Haiti |
+| 3 | `undh.edu.ht` | central |  | ror | Université Notre Dame d'Haïti |
+| 3 | `uneph.edu.ht` | central |  | ror | Université Épiscopale d'Haiti |
+| 3 | `urhc.edu.ht` | central |  | ror | Université Roi Henri Christophe |
+| 2 | `info.ufch.org` | central |  | ror | Université Franco-haïtienne du Cap-Haïtien |
+| 2 | `ucnh.org` | central |  | ror | Université Chrétienne du Nord d’Haïti |
+| 2 | `ujpm-hinche.org` | central |  | ror | Université Jean Price Mars |
 
