@@ -529,28 +529,47 @@
 (defn ror-country-code [country-dir]
   (get @iso3->iso2 (first (str/split country-dir #"_"))))
 
-(defn ror-page
-  "One page (20 items) of the active education organisations of a
-  country, parsed; nil on failure or on an unreadable answer."
-  [iso2 page]
+(def ror-id-alphabet
+  "The characters a ROR id draws on after its leading 0 (Crockford's
+  base32: no i, l, o, u)."
+  "0123456789abcdefghjkmnpqrstvwxyz")
+
+(defn ror-slice
+  "The active education organisations of a country whose ROR id starts
+  with prefix, parsed: {:items [...] :number_of_results n}, items capped
+  at one page of 20; nil on failure or on an unreadable answer."
+  [iso2 prefix]
   (parse-json (http-get ror-api-url
                         {:timeout 60
                          :query-params {"filter" (str "types:education,status:active,"
                                                       "locations.geonames_details.country_code:" iso2)
-                                        "page"   (str page)}})
+                                        ;; the slash needs escaping in the Lucene syntax
+                                        "query.advanced" (str "id:*ror.org\\/" prefix "*")}})
               true))
 
 (defn ror-fetch-all
-  "Every active education organisation of a country, page after page
-  (the API caps at 10 000); nil when a page failed."
-  [iso2]
-  (loop [page 1 acc []]
-    (if-let [{:keys [items number_of_results]} (ror-page iso2 page)]
-      (let [acc (into acc items)]
-        (if (or (empty? items) (>= (count acc) (or number_of_results 0)) (>= page 500))
-          acc
-          (do (Thread/sleep 250) (recur (inc page) acc))))
-      nil)))
+  "Every active education organisation of a country; nil when a request
+  failed or a slice came back short. The API pages in no stable order
+  (a page repeats orgs of the previous one and misses others: a quarter
+  of Iraq's in 10/2026), so instead of paging, split the ids by prefix
+  until each slice fits in one page."
+  ([iso2] (ror-fetch-all iso2 "0"))
+  ([iso2 prefix]
+   (when-let [{:keys [items number_of_results]} (ror-slice iso2 prefix)]
+     (Thread/sleep 250)
+     (let [n (or number_of_results 0)]
+       (if (<= n 20)
+         (vec items)
+         (let [orgs (reduce (fn [acc c]
+                              (if-let [more (ror-fetch-all iso2 (str prefix c))]
+                                (into acc more)
+                                (reduced nil)))
+                            [] ror-id-alphabet)]
+           (if (= n (count orgs))
+             orgs
+             (do (err "ERR: ROR " iso2 ": " n " orgs under id prefix " prefix
+                      ", " (count orgs) " fetched")
+                 nil))))))))
 
 (defn ror-org->row
   "[ror label website hostname wikidata level] of a ROR organisation,
@@ -603,7 +622,7 @@
                                        {:default "central"})}
             orgs (ror-fetch-all iso2)]
         (if (nil? orgs)
-          (do (err "ERR: " country-dir ": a ROR page failed; " out " left untouched") :fail)
+          (do (err "ERR: " country-dir ": a ROR request failed; " out " left untouched") :fail)
           (let [rows (->> orgs
                           (keep #(ror-org->row ctx %))
                           (sort-by (juxt #(nth % 3) #(get level-rank (nth % 5) 2) #(nth % 1)))
