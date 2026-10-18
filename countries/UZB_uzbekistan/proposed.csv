@@ -1,5 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 iiv.uz,7,wikidata;wikidata,Ministry of Internal Affairs,central,ConnectException,10 mx2.cm.uz.; 10 mx1.cm.uz.
+ingeo.uz,7,wikidata;academia,Institute of Geology and Geophysics named after Kh.M. Abdullaev | Abdullayev Institute of Geology and Geophysics,,200,10 mail.ingeo.uz.
 joqargikenes.uz,7,wikidata;wikidata,Supreme Council of Karakalpakstan,,302,10 mail.joqargikenes.uz.
 mc.uz,7,wikidata;wikidata,Ministry of Construction of the Republic of Uzbekistan,central,301,10 mail.mc.uz.
 mdo.uz,7,wikidata;wikidata,Ministry of Preschool Education of the Republic of Uzbekistan,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mdo.uz.
@@ -14,26 +15,52 @@ uzedu.uz,7,wikidata;wikidata,Ministry of Preschool an School Education of the Re
 nuu.uz,6,academia;ror,National University of Uzbekistan named after Mirzo Ulugbek,central,,
 sud.uz,6,wikidata,Supreme Court of Uzbekistan,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sud.uz.
 archaeology.uz,4,academia,National Center for Archeology,central,,
+astrin.uz,4,academia,Ulugh Beg Astronomical Institute,,,
+beruni.uz,4,academia,Abu Rayhan Biruni Institute of Oriental Studies,,,
+biochem.uz,4,academia,Sadykov Institute of Bioorganic Chemistry,,,
+botany.uz,4,academia,Institute of Botany,,,
 cbu.uz,4,wikidata,Central Bank of Uzbekistan,,200,10 mail.cbu.uz.; 20 mail.cbu.uz.
 davaktiv.uz,4,wikidata,State Assets Management Agency,,301,10 mail.davaktiv.uz.
+fati.uz,4,academia,Institute of History (Uzbekistan),,,
+fti.uz,4,academia,Physical-Technical Institute NGO «Physics-Sun»,,,
+genetika.uz,4,academia,Institute of Genetics and Plant Experimental Biology,,,
+genomics.uz,4,academia,Center of Genomics and Bioinformatics,,,
 hydroengeo.uz,4,wikidata,Institute of Hydrogeology and Engineering Geology,,307,none
 ich.uz,4,wikidata,National Commission of the Republic of Uzbekistan for UNESCO,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.ich.uz.
+imssolar.uz,4,academia,Institute of Materials Science,,,
 indembassy.uz,4,wikidata,"Embassy of India, Tashkent",central,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
-ingeo.uz,4,wikidata,Institute of Geology and Geophysics named after Kh.M. Abdullaev,,200,10 mail.ingeo.uz.
+ing.uz,4,academia,Institute of Geology and Exploration of Oil and Gas Deposits,,,
+inp.uz,4,academia,Institute of Nuclear Physics,,,
+instmech.academy.uz,4,academia,Urazbaev Institute of Mechanics and Seismic Resistance of Structures,,,
+iplt.uz,4,academia,Arifov Institute of Ion-Plasma and Laser Technologies,,,
+islas.academy.uz,4,academia,Institute of State and Law,,,
+ismiti.uz,4,academia,Scientific Research Institute of Irrigation and Water Problems,,,
+izoology.uz,4,academia,Institute of Zoology (Uzbekistan),,,
+kiut.uz,4,academia,Kimyo International University in Tashkent,,,
 kti.iiv.uz,4,wikidata,Research Institute of Criminology of the Republic of Uzbekistan,,200,none
+mathinst.uz,4,academia,Romanovskiy Institute of Mathematics,,,
 meteo.uz,4,wikidata,Centre of Hydrometeorological Service,,301,10 mail.meteo.uz.
+microbio.uz,4,academia,Institute of Microbiology,,,
 mininnovation.uz,4,wikidata,Ministry of Innovative Development of the Republic of Uzbekistan,,504,10 mail.mininnovation.uz.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Tashkent",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mridm.uz,4,academia,Institute of Mineral Resources,,,
+msu.uz,4,academia,Tashkent branch of Moscow State University,,,
 napp.uz,4,wikidata,National Agency of Perspective Projects,central,302,10 mail.napm.uz.
 natlib.uz,4,wikidata,National Library of Uzbekistan,,302,10 mail.natlib.uz.
 nim.uz,4,wikidata,Uzbek National Institute of Metrology,,200,10 mail.nim.uz.
+polchemphys.uz,4,academia,Institute of Polymer Chemistry and Physics,,,
 research-center.uz,4,wikidata,Center for Research of Problems in Privatization and State Assets Management,,303,0 research-center.uz.; 10 mail-backup.webspace.uz.
+seismos.uz,4,academia,Institute of Seismology,,,
+tai.uz,4,academia,"Institute of Uzbek Language, Literature and Folklore",,,
 ugriti.uz,4,wikidata,Research Institute of Plant Genetic Resources,,ConnectException,none
 uza.uz,4,wikidata,Uzbekistan National News Agency,,302,10 mail.uza.uz.
+uzbbg.uz,4,academia,Tashkent botanical garden,,,
 uzgeouniver.uz,4,academia,University of Geological Sciences,central,,
+uzicps.uz,4,academia,Yunusov Institute of the Chemistry of Plant Substances,,,
 uzpharm-control.uz,4,wikidata,"State Institution ""Center for Pharmaceutical Products Safety"" under the Ministry of Health of the Republic of Uzbekistan",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.uzpharm-control.uz.
 adu.uz,3,ror,Andijan State University,central,,
 afu.uz,3,ror,Alfraganus University,central,,
+aifu.uz,3,ror,University of Exact and Social Sciences,central,,
 ajou.uz,3,ror,Ajou University in Tashkent,central,,
 akhu.uz,3,ror,Al-Khwarizmi University,central,,
 atmu.uz,3,ror,University of Information Technologies and Management,central,,
@@ -43,7 +70,9 @@ bstu.uz,3,ror,Buxoro davlat texnika universiteti,central,,
 bui.uz,3,ror,Bukhara University of Innovations,central,,
 buxdpi.uz,3,ror,Buxoro davlat pedagogika instituti,central,,
 buxdu.uz,3,ror,Bukhara State University,central,,
+bxu.uz,3,ror,Bukhara International University,central,,
 camuf.uz,3,ror,Central Asian Medical University,central,,
+centralasian.uz,3,ror,Central Asian University,central,,
 cspu.uz,3,ror,Chirchik State Pedagogical University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Uzbekistan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 emuni.uz,3,ror,Euroasian Multidisciplinary University,central,,
@@ -79,9 +108,12 @@ qarshidu.uz,3,ror,Karshi State University,central,,
 renessans-edu.uz,3,ror,Renaissance Educational University,central,,
 samdu.uz,3,ror,Samarkand State University named after Sharof Rashidov,central,,
 samtuit.uz,3,ror,Muhammad al-Xorazmiy nomidagi Toshkent Axborot Texnologiyalari Universiteti Samarqand filiali,central,,
+sbtsue.uz,3,ror,Samarkand branch of Tashkent State University of Economics,central,,
+sharqedu.uz,3,ror,Sharq University,central,,
 ssuv.uz,3,ror,"Samarkand State University of Veterinary Medicine, Livestock and Biotechnologies",central,,
 taqu.uz,3,ror,Tashkent Institute of Architecture and Civil Engineering,central,,
 taschkent.diplo.de,3,wikidata,"Embassy of Germany, Tashkent",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+tashmeduni.uz,3,ror,Tashkent State Medical University,central,,
 tashmedunitf.uz,3,ror,Termez branch of Tashkent State Medical University,central,,
 taskent.mae.ro,3,wikidata,embassy of Romania in Uzbekistan,central,503,none
 tdau.uz,3,ror,Tashkent State Agrarian University,central,,
@@ -100,6 +132,7 @@ tsul.uz,3,ror,Tashkent State University of Law,central,,
 tsuos.uz,3,ror,Tashkent State University of Oriental Studies,central,,
 tsuull.uz,3,ror,Alisher Navo'i Tashkent State University of Uzbek Language and Literature,central,,
 tuit.uz,3,ror,Tashkent University of Information Technology,central,,
+ubsu.uz,3,ror,University of Business and Science,central,,
 univ-silkroad.uz,3,ror,"""Silk Road"" International University of Tourism and Cultural Heritage",central,,
 urdu.uz,3,ror,Urgench State University,central,,
 uriu.uz,3,ror,Urganch Innovation University,central,,
@@ -116,4 +149,5 @@ yangiasr.uz,3,ror,Yangi Asr Universiteti,central,,
 nordicuniversity.org,2,ror,Nordic International University,central,,
 ranch.university,2,ror,Urganch RANCH Texnologiya Universiteti,central,,
 rea.ru,2,ror,Russian Economic University after G.V. Plekhanov,central,,
+sarbon.university,2,ror,Sarbon University,central,,
 zarmeduniver.com,2,ror,ZARMED University,central,,

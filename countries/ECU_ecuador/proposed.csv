@@ -2,12 +2,16 @@ hostname,score,sources,label,level,http_status,mx
 bce.ec,7,wikidata;wikidata,Central Bank of Ecuador,,ConnectException,0 bceqmtain.bce.ec.
 exa.ec,7,wikidata;wikidata,Ecuadorian Civilian Space Agency,,ConnectException,1 mail.exa.ec.
 escolapios.org.co,6,wikidata;wikidata,Nazareth piarist province,,301,0 escolapios-org-co.mail.protection.outlook.com.
+espol.edu.ec,6,academia;ror,Escuela Superior Politécnica del Litoral,central,,
 uea.edu.ec,6,academia;ror,Estatal Amazonica University,central-1,,
 unach.edu.ec,6,academia;ror,Universidad Nacional de Chimborazo,central,,
 ane.gov.ec,5,wikidata,National Archives of Ecuador,,ConnectException,none
 ccq.ec,4,wikidata,Quito Chamber of Commerce,,200,10 ccq-ec.mail.protection.outlook.com.
-espol.edu.ec,4,academia,Escuela Superior Politécnica del Litoral,central,,
+cti.espol.edu.ec,4,academia,Centro de Tecnologías de Información,,,
+igad.edu.ec,4,academia,Instituto Superior Universitario Gráfico de Artes y Ciencias Digitales,,,
 inocar.mil.ec,4,wikidata,Oceanographic Institute of the Ecuadorian Navy,,301,0 mail.inocar.mil.ec.
+itae.edu.ec,4,academia,Instituto Superior Tecnológico de Artes del Ecuador,,,
+odecom.puce.edu.ec,4,academia,Q130236184,,,
 quito.mfa.gov.hu,4,wikidata,embassy of Hungary in Ecuador,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ambafrance-ec.org,3,wikidata,Embassy of France to Quito,central,ConnectException,5 mta-gw.infomaniak.ch.
 bluehill.edu.ec,3,ror,Instituto Superior Universitario Blue Hill College,central,,
@@ -23,17 +27,23 @@ espam.edu.ec,3,ror,Escuela Superior Politécnica Agropecuaria de Manabí Manuel 
 espe.edu.ec,3,ror,Universidad de las Fuerzas Armadas ESPE,central,,
 espoch.edu.ec,3,ror,Escuela Superior Politécnica del Chimborazo,central,,
 espoj.edu.ec,3,ror,Escuela Politécnica Javeriana del Ecuador,central,,
+formacion.edu.ec,3,ror,Universitario de Formación,central,,
 iavq.edu.ec,3,ror,Instituto Superior Universitario de Artes Visuales,central,,
 igepn.edu.ec,3,ror,Instituto Geofísico de la Escuela Politécnica Nacional,central,,
 ikiam.edu.ec,3,ror,Universidad Regional Amazónica IKIAM,central-1,,
 indoamerica.edu.ec,3,ror,"Universidad Indoamérica, Sede Quito",central,,
+instituto-ohiggins.edu.ec,3,ror,Instituto Superior Universitario Bernardo O'Higgins,central,,
 institutojubones.edu.ec,3,ror,Instituto Tecnológico Superior Jubones,central,,
 istcarloscisneros.edu.ec,3,ror,Instituto Superior Tecnológico Carlos Cisneros,central,,
 ister.edu.ec,3,ror,Instituto Superior Tecnológico Rumiñahui,central,,
 isuc.edu.ec,3,ror,Instituto Superior Universitario Cotopaxi,central,,
 itca.edu.ec,3,ror,Instituto Superior Tecnológico ITCA,central,,
 itecsur.edu.ec,3,ror,Instituto Superior Tecnologico Compu Sur,central,,
+itsoriente.edu.ec,3,ror,Instituto Tecnológico Superior Oriente,central,,
+itsup.edu.ec,3,ror,"Instituto Superior Tecnológico Portoviejo con condición Superior Universitario ""ITSUP""",central,,
 puce.edu.ec,3,ror,Pontificia Universidad Católica del Ecuador,central,,
+pucem.edu.ec,3,ror,Pontificia Universidad Católica del Ecuador Sede Manabí,central,,
+pucesa.edu.ec,3,ror,Pontificia Universidad Católica del Ecuador Sede Ambato,central,,
 pucesd.edu.ec,3,ror,Pontificia Universidad Católica del Ecuador sede Santo Domingo,central,,
 pucesi.edu.ec,3,ror,Pontificia Universidad Católica del Ecuador Sede Ibarra,central,,
 quiport.com,3,wikidata,Q1413753,,301,0 quiama.in.tmes.trendmicro.com.
@@ -43,13 +53,16 @@ quito.mfa.ir,3,wikidata,embassy of Iran in Ecuador,central,307,none
 roc-taiwan.org,3,wikidata,"Commercial Office of Taipei, Quito",,302,none
 sangregorio.edu.ec,3,ror,Universidad San Gregorio de Portoviejo,central,,
 sudamericano.edu.ec,3,ror,Instituto Superior Tecnológico Particular Sudamericano,central,,
+tecnologicoargos.edu.ec,3,ror,Instituto Tecnológico Superior ARGOS,central,,
 uagraria.edu.ec,3,ror,Universidad Agraria del Ecuador,central,,
 uartes.edu.ec,3,ror,Universidad de las Artes,central,,
 uasb.edu.ec,3,ror,"Universidad Andina Simón Bolívar, Sede Ecuador",central,,
+uaw.edu.ec,3,ror,Universidad Intercultural de las Nacionalidades y Pueblos Indígenas Amawtay Wasi,central,,
 uazuay.edu.ec,3,ror,Universidad del Azuay,central,,
 ube.edu.ec,3,ror,Universidad Bolivariana del Ecuador,central,,
 ucacue.edu.ec,3,ror,Universidad Católica de Cuenca,central,,
 uce.edu.ec,3,ror,Central University of Ecuador,central,,
+ucsg.edu.ec,3,ror,Universidad Católica de Santiago de Guayaquil,central,,
 ucuenca.edu.ec,3,ror,University of Cuenca,central,,
 udla.edu.ec,3,ror,Universidad de Las Américas,central,,
 udr.edu.ec,3,ror,Universidad del Río,central,,
@@ -60,6 +73,7 @@ uhemisferios.edu.ec,3,ror,Universidad de los Hemisferios,central,,
 uide.edu.ec,3,ror,Universidad Internacional del Ecuador,central,,
 uisek.edu.ec,3,ror,Universidad Internacional SEK,central,,
 uisrael.edu.ec,3,ror,Universidad Israel,central,,
+uleam.edu.ec,3,ror,Universidad Laica Eloy Alfaro de Manabí,central,,
 ulvr.edu.ec,3,ror,Universidad Laica Vicente Rocafuerte de Guayaquil,central,,
 unae.edu.ec,3,ror,Universidad Nacional de Educación,central,,
 unemi.edu.ec,3,ror,Universidad Estatal de Milagro,central-1,,

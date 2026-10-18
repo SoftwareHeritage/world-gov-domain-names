@@ -1,6 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 qu.edu.qa,6,academia;ror,Qatar University,central,,
 phcc.qa,4,wikidata,Primary Health Care,,301,10 smtp.phcc.qa.
+qeeri.org.qa,4,academia,Qatar Environment and Energy Research Institute,,,
 qnl.qa,4,wikidata,Qatar National Library,,301,10 qnl-qa.mail.protection.outlook.com.
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Doha",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
 ariu.edu.qa,3,ror,Al Rayyan International University College,central,,
@@ -8,6 +9,7 @@ bhembassyqatar.com,3,wikidata,embassy of Bosnia and Herzegovina in Qatar,central
 doha.diplo.de,3,wikidata,"Embassy of Germany, Doha",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 doha.mae.ro,3,wikidata,embassy of Romania in Qatar,central,503,none
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Doha",central,301,10 mail.valtori.fi.
+globalinstitute.org,3,academia,Global Institute for Strategic Research,,,
 hbku.edu.qa,3,ror,Hamad bin Khalifa University,central,,
 lebaneseembassyqatar.com,3,wikidata,"Embassy of Lebanon, Doha",central,405,0 lebaneseembassyqatar-com.mail.protection.outlook.com.
 lu.edu.qa,3,ror,Lusail University,central,,
@@ -18,6 +20,9 @@ palemb-qa.net,3,wikidata,Embassy of the State of Palestine in Qatar,central,200,
 qa.ambafrance.org,3,wikidata,"Embassy of France, Doha",central,301,none
 qa.mvep.hr,3,wikidata,embassy of Croatia in Qatar,central,ConnectException,none
 qatar.mid.ru,3,wikidata,embassy of Russia in Qatar,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+qcri.org,3,academia,Qatar Computing Research Institute,,,
+sidra.org,3,academia,Sidra Medical and Research Center,,,
+studies.aljazeera.net,3,academia,Al Jazeera Centre for Studies,,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Doha",central,301,none
 udst.edu.qa,3,ror,University of Doha for Science and Technology,central,,
 ukm.qa,3,ror,The National University of Malaysia-Qatar,central,,

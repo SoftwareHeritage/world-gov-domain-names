@@ -5,16 +5,24 @@ gnb.ca,10,wikidata;wikidata;wikidata;wikidata;linkgraph;directory,Court of King'
 gov.bc.ca,10,wikidata;wikidata;linkgraph,Ministry of Forests Lands and Natural Resource Operations (British Columbia) | Ministry of Environment,,302,0 gov-bc-ca.mail.protection.outlook.com.
 gov.mb.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,"Minister of Labour and Immigration | Legislative Assembly of Manitoba | Department of Infrastructure | Manitoba Agriculture, Food and Rural Initiatives | Manitoba Health",central-1,400,10 mxb-004a1001.gslb.pphosted.com.; 10 mxa-004a1001.gslb.pphosted.com.
 ontario.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,"Ministry of Education | Ministry of Colleges and Universities | Ministry of Transportation | Ontario Ministry of Natural Resources and Forestry | Office of the Chief Coroner for Ontario | Government of Ontario | Ministry of Economic Development, Trade and Employment | Ministry of the Environment, Conservation and Parks",central-1,HttpConnectTimeoutException: HTTP connect timed out,0 ontario-ca.mail.protection.outlook.com.
-quebec.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,"Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | Q138574035 | Ministry of Immigration, Francisation and Integration",central-1,301,5 quebec-ca.mail.protection.outlook.com.
+quebec.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;linkgraph,"Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | Q138574035 | Ministry of Immigration, Francisation and Integration | Q135221241",central-1,301,5 quebec-ca.mail.protection.outlook.com.
 saskatchewan.ca,10,wikidata;wikidata;wikidata;wikidata;linkgraph,Ministry of Health | Ministry of Agriculture of Saskatchewan,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 sp-saskatchewan-ca.mail.protection.outlook.com.
 scics.ca,10,wikidata;wikidata;directory,Canadian Intergovernmental Conference Secretariat,,200,0 scics-ca.mail.protection.outlook.com.
 viarail.ca,10,wikidata;wikidata;directory,Via Rail Police Service,central,301,10 mxb-001f3001.gslb.pphosted.com.; 10 mxa-001f3001.gslb.pphosted.com.
 yukon.ca,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph,Yukon Archives | Government of Yukon | Yukon Parks | Yukon Department of Environment | Yukon Department of Tourism and Culture,central-1,403,0 yukon-ca.mail.protection.outlook.com.
-umanitoba.ca,9,wikidata;academia;ror,Prairie and Arctic Storm Prediction Centre | University of Manitoba,central-1,200,none
+dal.ca,9,academia;academia;academia;ror,Aquatron Laboratory | Bicentennial Botanical Garden | Dalhousie University,central-1,,
+mcgill.ca,9,academia;academia;academia;ror,McGill University | Montreal Neurological Institute and Hospital | Rosalind and Morris Goodman Cancer Institute,central-1,,
+queensu.ca,9,academia;academia;academia;ror,Centre for the Study of Democracy | Institute of Intergovernmental Relations | Queen's University,central-1,,
+ualberta.ca,9,academia;academia;academia;academia;academia;ror,Fyrefly Institute for Gender and Sexual Diversity | Kule Folklore Centre | St. Stephen's College | University of Alberta | University of Alberta Botanic Garden,central-1,,
+umanitoba.ca,9,wikidata;academia;academia;ror,Prairie and Arctic Storm Prediction Centre | Centre for Ukrainian Canadian Studies | University of Manitoba,central-1,200,none
+uottawa.ca,9,academia;academia;ror,"Institute for Science, Society and Policy | University of Ottawa",central-1,,
+uvic.ca,9,academia;academia;academia;ror,University of Victoria Department of Geography | University of Victoria Department of Physics and Astronomy | University of Victoria Department of Sociology,central-1,,
 uwaterloo.ca,9,academia;academia;ror,"United College, Waterloo | University of Waterloo",central-1,,
-yorku.ca,9,academia;academia;ror,York University | York University Markham Centre Campus,central-1,,
+uwo.ca,9,academia;academia;ror,Biotron | University of Western Ontario,central-1,,
+yorku.ca,9,academia;academia;academia;ror,Global Labour Research Centre | York University | York University Markham Centre Campus,central-1,,
 agric.gov.ab.ca,8,wikidata;wikidata,Alberta Ministry of Agriculture and Forestry,,ConnectException,10 agric-gov-ab-ca.mail.protection.outlook.com.
 alberta.ca,8,wikidata;linkgraph,Alberta Education,,301,0 alberta-ca.mail.protection.outlook.com.; 10 mail1.alberta.ca.; 10 mail2.alberta.ca.
+asiapacific.ca,8,academia;directory,Asia Pacific Foundation of Canada,,301,none
 attorneygeneral.jus.gov.on.ca,8,wikidata;wikidata,Ministry of the Attorney General,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 autochtones.gouv.qc.ca,8,wikidata;wikidata,Ministry of Native Affairs,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 bankofcanada.ca,8,wikidata;directory,Bank of Canada,,301,10 mx1.hc861-47.ca.iphmx.com.; 95 inmail06.bank-banque-canada.ca.; 95 inmail03.bank-banque-canada.ca.; 95 inmail04.bank-banque-canada.ca.; 10 mx2.hc861-47.ca.iphmx.com.; 95 inmail05.bank-banque-canada.ca.
@@ -73,15 +81,18 @@ assembly.nu.ca,7,wikidata;wikidata;wikidata;wikidata,6th Nunavut Legislature | L
 assembly.pe.ca,7,wikidata;wikidata;wikidata,Legislative Assembly of Prince Edward Island,central-1,302,5 assembly-pe-ca.mail.protection.outlook.com.
 assnat.qc.ca,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,National Assembly of Quebec,central-1,301,0 assnat-qc-ca.mail.protection.outlook.com.
 banq.qc.ca,7,wikidata;wikidata;wikidata,Bibliothèque et Archives nationales du Québec | BAnQ Québec,central-1,301,5 banq-qc-ca.mail.protection.outlook.com.
+calgary.ca,7,wikidata;academia,Calgary Fire Department | Devonian Gardens,,301,10 mxb-001de601.gslb.pphosted.com.; 10 mxa-001de601.gslb.pphosted.com.
 ccog-cocg.ca,7,wikidata;wikidata,Canadian Council on Geomatics,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ccog-cocg.ca found.,10 mxb.mailgun.org.; 10 mxa.mailgun.org.
 cdpdj.qc.ca,7,wikidata;wikidata,Commission des droits de la personne et des droits de la jeunesse,central-1,302,5 cdpdj-qc-ca.mail.protection.outlook.com.
 court.nl.ca,7,wikidata;wikidata;wikidata,Supreme Court of Newfoundland and Labrador | Provincial Court of Newfoundland and Labrador | Court of Appeal of Newfoundland and Labrador,central-1,200,none
 cpr.ca,7,wikidata;wikidata,Canadian Pacific Railway Police Service,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mxa-001b5401.gslb.pphosted.com.; 10 mxb-001b5401.gslb.pphosted.com.
 cqsb.qc.ca,7,wikidata;wikidata,Central Quebec School Board,central-1,301,0 cqsb-qc-ca.mail.protection.outlook.com.
+crm.umontreal.ca,7,academia;academia,Centre de Recherches Mathématiques - International Research Laboratory | Centre interuniversitaire en calcul mathématique algébrique,,,
 crrf-fcrr.ca,7,wikidata;wikidata,Canadian Race Relations Foundation,,200,0 mail.crrf-fcrr.ca.
 csdla.qc.ca,7,wikidata;wikidata,Centre de services scolaire du Lac-Abitibi | Q52149481,,301,0 csdla-qc-ca.mail.protection.outlook.com.
 cslt.qc.ca,7,wikidata;wikidata,Q52149637 | Centre de services scolaire du Lac-Témiscamingue,,ConnectException,0 cslt-qc-ca.mail.protection.outlook.com.
 csvt.qc.ca,7,wikidata;wikidata,Commission scolaire de la Vallée-des-Tisserands | Centre de services scolaire de la Vallée-des-Tisserands,,403,0 csvt-qc-ca.mail.protection.outlook.com.
+edmonton.ca,7,wikidata;academia,Edmonton Fire Rescue Services | Muttart Conservatory,,301,none
 flysudbury.ca,7,wikidata;wikidata,Sudbury Airport,,200,none
 greatlakes-seaway.com,7,wikidata;directory,St. Lawrence Seaway Management Corporation,,302,none
 hamilton.ca,7,wikidata;wikidata,Hamilton Fire Department | Hamilton Street Railway,,301,10 hamilton-ca.mail.protection.outlook.com.
@@ -98,10 +109,12 @@ nfsb.qc.ca,7,wikidata;wikidata,New Frontiers School Board,,301,0 nfsb-qc-ca.mail
 nslegislature.ca,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Nova Scotia House of Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 nslegislature-ca.mail.protection.outlook.com.
 ntassembly.ca,7,wikidata;wikidata;wikidata,Legislative Assembly of the Northwest Territories,central-1,HttpConnectTimeoutException: HTTP connect timed out,120 mailgate22.gov.nt.ca.; 120 mailgate11.gov.nt.ca.; 120 mailgate21.gov.nt.ca.; 100 mailgate.gov.nt.ca.; 10 ntassembly-ca.mail.protection.outlook.com.
 nunavutcourts.ca,7,wikidata;wikidata,Nunavut Court of Justice | Nunavut Court of Appeal,central-1,301,0 nunavutcourts.ca.
+oise.utoronto.ca,7,academia;academia,Dr. Eric Jackman Institute of Child Study | Ontario Institute for Studies in Education,,,
 parl.ca,7,wikidata;wikidata,Parliament of Canada,central,301,none
 port-montreal.com,7,wikidata;directory,Montreal Port Authority,,ConnectException,0 portmontreal-com01b.mail.protection.outlook.com.
 portstoronto.com,7,wikidata;directory,PortsToronto,,301,0 portstoronto-com.mail.protection.outlook.com.
 princeedwardisland.ca,7,wikidata;wikidata,Government of Prince Edward Island,central-1,301,5 princeedwardisland-ca.mail.protection.outlook.com.
+rbg.ca,7,academia;academia,Arboretum | Royal Botanical Gardens,,,
 reginahousing.ca,7,wikidata;wikidata,Regina Housing Authority,,200,20 mx20.mailspamprotection.com.; 10 mx10.mailspamprotection.com.; 30 mx30.mailspamprotection.com.
 revenuquebec.ca,7,wikidata;wikidata,Revenu Québec,central-1,301,none
 rsb.qc.ca,7,wikidata;wikidata,Riverside School Board,,301,20 mx1.lastspam.com.; 30 mx2.lastspam.com.
@@ -115,7 +128,6 @@ thunderbay.ca,7,wikidata;wikidata,Thunder Bay Police Service | Thunder Bay Fire 
 torontohousing.ca,7,wikidata;wikidata,Toronto Community Housing,,200,0 mx2.hc889-30.ca.iphmx.com.; 0 mx1.hc889-30.ca.iphmx.com.
 torontopearson.com,7,wikidata;directory,Toronto Pearson Fire and Emergency Services,,302,10 mx002.rebel.xion.oxcs.net.; 0 mx001.rebel.xion.oxcs.net.; 10 mx003.rebel.xion.oxcs.net.; 10 mx004.rebel.xion.oxcs.net.
 tribunaux.qc.ca,7,wikidata;wikidata,Superior Court of Quebec | Court of Quebec,central-1,403,none
-vancouver.ca,7,wikidata;wikidata,Vancouver Police Department | Vancouver Fire and Rescue Services,,403,10 mxa-00320301.gslb.pphosted.com.; 10 mxb-00320301.gslb.pphosted.com.
 ville.quebec.qc.ca,7,wikidata;wikidata,Service de protection contre l'incendie de la Ville de Québec | Service de police de la Ville de Québec,,301,none
 westernquebec.ca,7,wikidata;wikidata,Western Québec School Board,,200,10 mail.westernquebec.ca.
 wsib.ca,7,wikidata;wikidata,Workplace Safety and Insurance Board,,301,10 mxa-002f6c01.gslb.pphosted.com.; 20 mxb-002f6c01.gslb.pphosted.com.
@@ -123,29 +135,33 @@ www1.toronto.ca,7,wikidata;wikidata,Toronto Public Health | Toronto Fire Service
 www2.gnb.ca,7,wikidata;wikidata,"Department of Agriculture, Aquaculture and Fisheries",central-1,403,none
 athabascau.ca,6,academia;ror,Athabasca University,central-1,,
 auarts.ca,6,academia;ror,Alberta University of the Arts,central-1,,
+brandonu.ca,6,academia;ror,Rural Development Institute,central-1,,
 brocku.ca,6,academia;ror,Brock University,central-1,,
 capilanou.ca,6,academia;ror,Capilano University,central-1,,
 carleton.ca,6,academia;ror,Carleton University,central-1,,
-dal.ca,6,academia;ror,Dalhousie University,central-1,,
+concordia.ca,6,academia;ror,Institute for Studies in Canadian Art,central-1,,
 ecolefrancophone.com,6,wikidata;wikidata,Conseil des écoles fransaskoises,,301,none
 ecuad.ca,6,academia;ror,Emily Carr University of Art and Design,central-1,,
 exo.quebec,6,wikidata;wikidata,Exo,,301,none
 gotransit.com,6,wikidata;wikidata,GO Transit,,307,none
+humber.ca,6,academia;ror,Humber Arboretum,central-1,,
 idetr.com,6,wikidata;wikidata,Innovation and Economic Development Trois Rivières,,302,none
 internationalboundarycommission.org,6,wikidata;wikidata,International Boundary Commission,,200,none
 macewan.ca,6,academia;ror,MacEwan University,central-1,,
-mcgill.ca,6,academia;ror,McGill University,central-1,,
 mtroyal.ca,6,academia;ror,Mount Royal University,central-1,,
+mun.ca,6,academia;ror,Memorial University of Newfoundland Botanical Garden,central-1,,
+nait.ca,6,academia;ror,Northern Alberta Institute of Technology,central-1,,
 ola.org,6,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Legislative Assembly of Ontario,central-1,301,none
 ontarioparks.com,6,wikidata;wikidata,Ontario Parks,,301,none
 sfu.ca,6,academia;ror,Simon Fraser University,central-1,,
 torontomu.ca,6,academia;ror,Toronto Metropolitan University,central-1,,
-ualberta.ca,6,academia;ror,University of Alberta,central-1,,
 ubc.ca,6,academia;ror,University of British Columbia,central-1,,
 ucalgary.ca,6,academia;ror,University of Calgary,central-1,,
 ulaval.ca,6,academia;ror,Laval University,central-1,,
+umontreal.ca,6,academia;ror,Université de Montréal,central-1,,
 unb.ca,6,academia;ror,University of New Brunswick,central-1,,
-uottawa.ca,6,academia;ror,University of Ottawa,central-1,,
+uoguelph.ca,6,academia;ror,University of Guelph Arboretum,central-1,,
+upei.ca,6,academia;ror,University of Prince Edward Island,central-1,,
 uregina.ca,6,academia;ror,University of Regina,central-1,,
 usask.ca,6,academia;ror,University of Saskatchewan,central-1,,
 utoronto.ca,6,academia;ror,University of Toronto,central-1,,
@@ -154,7 +170,6 @@ acls-aatc.ca,5,directory,Association of Canada Lands Surveyors,,403,none
 aecl.ca,5,directory,Atomic Energy of Canada Limited,,301,none
 ag.gov.bc.ca,5,wikidata,British Columbia Sheriff Service,,ConnectException,5 portal.ag.gov.bc.ca.; 20 jarvis2.ag.gov.bc.ca.; 20 jarvis1.ag.gov.bc.ca.
 archives.gov.on.ca,5,wikidata,Archives of Ontario,,302,0 archives-gov-on-ca.mail.protection.outlook.com.
-asiapacific.ca,5,directory,Asia-Pacific Foundation of Canada,,301,none
 bape.gouv.qc.ca,5,wikidata,Bureau d'audiences publiques sur l'environnement,central-1,301,10 bapegouvqcca.mail.protection.outlook.com.; 99 bape-gouv-qc-ca.mail.protection.outlook.com.
 bcbudget.gov.bc.ca,5,wikidata,"Ministry of Tourism, Sport and the Arts",,302,none
 bdc.ca,5,directory,Business Development Bank of Canada,,301,10 bdc-ca.mail.protection.outlook.com.
@@ -234,6 +249,7 @@ gov.nt.ca,5,wikidata,Northwest Territories Department of Environment and Climate
 habitation.gouv.qc.ca,5,wikidata,Société d'habitation du Québec,central-1,403,5 habitation-gouv-qc-ca.mail.protection.outlook.com.
 health.gov.sk.ca,5,academia,Saskatchewan Disease Control Laboratory,central-1,,
 healthcareexcellence.ca,5,directory,Healthcare Excellence Canada (HEC),,404,none
+herbierduquebec.gouv.qc.ca,5,academia,Q113578054,,,
 hfr-tgf.ca,5,directory,VIA HFR - VIA TGF Inc.,,302,none
 hiaa.ca,5,directory,Halifax International Airport Authority,,301,0 hiaa-ca.mail.protection.outlook.com.
 historymuseum.ca,5,directory,Canadian Museum of History,,302,none
@@ -292,6 +308,7 @@ web.cssdn.gouv.qc.ca,5,wikidata,Centre de services scolaire des Navigateurs,,301
 winsport.ca,5,directory,WinSport,,301,none
 yvr.ca,5,directory,Vancouver International Airport Authority,,301,none
 yxe.ca,5,directory,Saskatoon Airport Authority,,200,none
+aci-iac.ca,4,academia,Art Canada Institute,,,
 adb.org,4,directory,Asian Development Bank,,302,none
 admtl.com,4,directory,Aéroports de Montréal,,301,none
 adsb.on.ca,4,wikidata,Algoma District School Board,,ConnectException,none
@@ -314,7 +331,11 @@ ambe.ca,4,wikidata,Ahkwesahsne Mohawk Board of Education,,ConnectException,10 al
 amdsb.ca,4,wikidata,Avon Maitland District School Board,,301,none
 amherstburg.ca,4,wikidata,Amherstburg Police Service,,308,0 amherstburg-ca.mail.protection.outlook.com.
 amii.ca,4,wikidata,Alberta Machine Intelligence Institute,,307,none
+annapolisriver.ca,4,academia,Clean Annapolis River Project,,,
+arc.ab.ca,4,academia,Alberta Innovates,,,
+arctic.ucalgary.ca,4,academia,Arctic Institute of North America,,,
 arts.on.ca,4,wikidata,Ontario Arts Council,,301,none
+arts.ucalgary.ca,4,academia,Calgary Institute for the Humanities,,,
 artscouncil.mb.ca,4,wikidata,Manitoba Arts Council,,200,none
 artsnb.ca,4,wikidata,New Brunswick Arts Board,,302,none
 artsns.ca,4,wikidata,Arts Nova Scotia,,200,none
@@ -335,43 +356,99 @@ bctreaty.ca,4,wikidata,British Columbia Treaty Commission,,200,none
 bcwildfire.ca,4,wikidata,BC Wildfire Service,,301,none
 bdhcottawa.ca,4,wikidata,"High Commission of Bangladesh, Ottawa",central,301,none
 beta.novascotia.ca,4,wikidata,"Nova Scotia Department of Communities, Culture, Tourism and Heritage",central-1,301,none
+bhcri.ca,4,academia,Beatrice Hunter Cancer Research Institute,,,
 bhncdsb.ca,4,wikidata,Brant Haldimand Norfolk Catholic District School Board,,301,none
+bimr.ca,4,academia,Brockhouse Institute for Materials Research,,,
+birs.ca,4,academia,Banff International Research Station,,,
+bme.utoronto.ca,4,academia,Institute of Biomedical Engineering,,,
 bolivianembassy.ca,4,wikidata,Embassy of Bolivia in Canada,central,200,none
+boneandjoint.uwo.ca,4,academia,Bone and Joint Institute,,,
+botanicalgarden.ubc.ca,4,academia,UBC Botanical Garden and Centre for Plant Research,,,
+broadbentinstitute.ca,4,academia,Broadbent Institute,,,
 bwdsb.on.ca,4,wikidata,Bluewater District School Board,,HttpConnectTimeoutException: HTTP connect timed out,none
-calgary.ca,4,wikidata,Calgary Fire Department,,301,10 mxb-001de601.gslb.pphosted.com.; 10 mxa-001de601.gslb.pphosted.com.
+c-ski.ca,4,academia,Canadian Social Knowledge Institute,,,
 calgarypolice.ca,4,wikidata,Calgary Police Service,,SSLHandshakeException: Remote host terminated the handshake,none
 campussafety.utoronto.ca,4,wikidata,University of Toronto Campus Safety,,301,none
+canadasworld.ca,4,academia,Canada's World,,,
 cancercare.on.ca,4,wikidata,Cancer Care Ontario,,HttpConnectTimeoutException: HTTP connect timed out,none
 capcinfo.ca,4,wikidata,Canadian Automotive Partnership Council,,200,none
 capo.ca,4,wikidata,Canadian Association of Psychosocial Oncology,,301,10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+cardus.ca,4,academia,Cardus,,,
 caribank.org,4,directory,Caribbean Development Bank,,301,none
 cbe.ab.ca,4,wikidata,Calgary Board of Education,,301,none
+cca.qc.ca,4,academia,Canadian Centre for Architecture,,,
+ccbi-utoronto.ca,4,academia,Canadian Catholic Bioethics Institute,,,
+ccbr.utoronto.ca,4,academia,Terrence Donnelly Centre for Cellular & Biomolecular Research,,,
+cceae.umontreal.ca,4,academia,Canadian Centre for German and European Studies,,,
+ccednet-rcdec.ca,4,academia,Canadian Community Economic Development Network,,,
 cch.novascotia.ca,4,wikidata,"Department of Communities, Culture and Heritage",,200,none
 cchst.ca,4,wikidata,Canadian Centre for Occupational Health and Safety,,301,none
 cciquebec.ca,4,wikidata,Chambre de commerce et d'industrie de Québec,,200,none
+cdainstitute.ca,4,academia,Conference of Defence Associations Institute,,,
+cdsa-aceh.ca,4,academia,Canadian Disability Studies Association,,,
 cdsbeo.on.ca,4,wikidata,Catholic District School Board of Eastern Ontario,,301,none
 cec.org,4,directory,Joint Public Advisory Committee (JPAC) of the Commission for Environmental Cooperation (CEC),,301,0 cec-org.mail.protection.outlook.com.
 cecm.qc.ca,4,wikidata,Montreal Catholic School Commission,,ConnectException,none
+cede.fd.ulaval.ca,4,academia,Q114870450,,,
+cef-cfr.ca,4,academia,Centre for Forest Research,,,
 cefsk.ca,4,wikidata,Conseil des écoles fransaskoises,,ConnectException,20 aspmx4.googlemail.com.; 10 alt2.aspmx.l.google.com.; 20 aspmx2.googlemail.com.; 0 aspmx.l.google.com.; 10 alt1.aspmx.l.google.com.; 20 aspmx5.googlemail.com.; 20 aspmx3.googlemail.com.
+cei.ulaval.ca,4,academia,Q114895849,,,
+ceisce.ca,4,academia,Q115036755,,,
+celat.ulaval.ca,4,academia,Centre de recherche Cultures Arts Sociétés,,,
+cem.ulaval.ca,4,academia,Q114647504,,,
+centreau.ulaval.ca,4,academia,CentrEau,,,
 centrenord.ab.ca,4,wikidata,Greater North Central Francophone Education Region No. 2,,200,none
+centreurope-montreal.ca,4,academia,European Union Center of Excellence,,,
 cepeo.on.ca,4,wikidata,Conseil des écoles publiques de l'Est de l'Ontario,,200,none
+cerium.ca,4,academia,Montreal Centre for International Studies,,,
+cervo.ulaval.ca,4,academia,University Institute of Mental Health,,,
 cesd73.ca,4,wikidata,Chinook's Edge School Division,,301,none
+cetmed.umontreal.ca,4,academia,Centre d'études médiévales,,,
 cfseu.bc.ca,4,wikidata,Combined Forces Special Enforcement Unit – British Columbia,central-1,200,none
+cgai.ca,4,academia,Canadian Defence and Foreign Affairs Institute,,,
 chadembassy.ca,4,wikidata,embassy of Chad in Canada,central,200,none
+chairefernanddumont.ucs.inrs.ca,4,academia,Q140250189,,,
 chamber.ca,4,wikidata,Canadian Chamber of Commerce,,200,none
 charlottetown.ca,4,wikidata,Charlottetown,,301,none
 chrc-ccdp.ca,4,wikidata,Canadian Human Rights Commission,,403,none
+ciee-icee.ca,4,academia,Canadian Institute of Ecology and Evolution,,,
+cieq.ca,4,academia,Centre interuniversitaire d'études québécoises,,,
+ciera.ulaval.ca,4,academia,CIÉRA,,,
+cierl.ulaval.ca,4,academia,Q114878019,,,
+cifar.ca,4,academia,Canadian Institute for Advanced Research,,,
+cirano.qc.ca,4,academia,CIRANO,,,
+cirem16-18.ca,4,academia,Q114877884,,,
+cirris.ulaval.ca,4,academia,Q114647670,,,
+cirst.uqam.ca,4,academia,Centre interuniversitaire de recherche sur la science et la technologie,,,
+citizenlab.ca,4,academia,Citizen Lab,,,
 cityofkingston.ca,4,wikidata,Kingston/Norman Rogers Airport,,308,none
 clearview.ab.ca,4,wikidata,Clearview School Division No. 71,,301,none
 cmac-cacm.ca,4,wikidata,Court Martial Appeal Court of Canada,central,ConnectException,none
 cmec.ca,4,wikidata,Council of Ministers of Education,,302,none
 cmm.qc.ca,4,wikidata,Greater Montreal,,403,none
 cn.ca,4,wikidata,CN Police,,302,none
+cnl.ca,4,academia,Chalk River Laboratories,,,
+concordia-seminary.ca,4,academia,Concordia Lutheran Theological Seminary,,,
+conferenceboard.ca,4,academia,Conference Board of Canada,,,
 conseildelamagistrature.qc.ca,4,wikidata,Q109019020,,403,none
 consulatdumaroc.ca,4,wikidata,"General Consulate of Morocco, Montreal",,200,none
+copl.ulaval.ca,4,academia,pavillon d'optique photonique laser,,,
 corhealthontario.ca,4,wikidata,CorHealth Ontario,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching corhealthontario.ca found.,none
 courdappelduquebec.ca,4,wikidata,Quebec Court of Appeal,central-1,403,none
 cppib.com,4,directory,Canada Pension Plan Investment Board,,301,none
+crad.ulaval.ca,4,academia,Centre de Recherche en Aménagement et Développement,,,
+crblm.ca,4,academia,Centre for Research on Brain Language and Music,,,
+crc.ulaval.ca,4,academia,Laval University Cancer Research Center,,,
+crdig.ulaval.ca,4,academia,Q115011659,,,
+crdp.umontreal.ca,4,academia,Centre de recherche en droit public,,,
+create.ulaval.ca,4,academia,Q114895542,,,
+criaw-icref.ca,4,academia,Canadian Research Institute for the Advancement of Women,,,
+crievat.fse.ulaval.ca,4,academia,Centre de recherche interuniversitaire sur l'éducation et la vie au travail,,,
+crifpe.ca,4,academia,Centre de recherche interuniversitaire sur la formation et la profession enseignante,,,
+crim.ca,4,academia,Computer Research Institute of Montréal,,,
+criq.qc.ca,4,academia,Quebec Industrial Research Center,,,
+crires.ulaval.ca,4,academia,Centre de recherche et d'intervention sur la réussite scolaire,,,
+crmath.ca,4,academia,Centre de Recherches Mathématiques,,,
 cs-soreltracy.qc.ca,4,wikidata,Q15918422,,HttpConnectTimeoutException: HTTP connect timed out,none
 csaffluents.qc.ca,4,wikidata,Commission scolaire des Affluents,,HttpConnectTimeoutException: HTTP connect timed out,none
 csappalaches.qc.ca,4,wikidata,Q2986753,,ConnectException,none
@@ -410,8 +487,10 @@ cssamares.qc.ca,4,wikidata,Commission scolaire des Samares,,ConnectException,non
 cssh.qc.ca,4,wikidata,Commission scolaire de Saint-Hyacinthe,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cssh.qc.ca found.,none
 cssmi.qc.ca,4,wikidata,Commission scolaire de la Seigneurie-des-Mille-Îles,,301,none
 csviamonde.ca,4,wikidata,Conseil scolaire Viamonde,,200,none
+cultureandtech.utoronto.ca,4,academia,Centre for Culture and Technology,,,
 cvse.ca,4,wikidata,British Columbia Commercial Vehicle Safety and Enforcement,,301,none
 cwb.ca,4,wikidata,Canadian Wheat Board,,SSLHandshakeException: Remote host terminated the handshake,none
+cwf.ca,4,academia,Canada West Foundation,,,
 dcdsb.ca,4,wikidata,Durham Catholic District School Board,,308,none
 ddsb.ca,4,wikidata,Durham District School Board,,308,none
 deltapolice.ca,4,wikidata,Delta Police Department,,302,none
@@ -420,12 +499,16 @@ district11.nbed.nb.ca,4,wikidata,New Brunswick School District 11,central-1,302,
 district3.nbed.nb.ca,4,wikidata,New Brunswick School District 03,central-1,302,none
 district5.nbed.nb.ca,4,wikidata,New Brunswick School District 05,central-1,302,none
 district9.nbed.nb.ca,4,wikidata,New Brunswick School District 09,central-1,302,none
+douglas.research.mcgill.ca,4,academia,Douglas-Bell Canada Brain Bank,,,
+douglascoldwelllayton.ca,4,academia,Douglas Coldwell Layton Foundation,,,
 douglascollege.ca,4,academia,Douglas College,central-1,,
 dsb1.ca,4,wikidata,District School Board Ontario North East,,301,none
+dunlap.utoronto.ca,4,academia,Dunlap Institute for Astronomy and Astrophysics,,,
 ebrd.com,4,directory,European Bank for Reconstruction and Development,,200,none
 ecolecatholique.ca,4,wikidata,Conseil des écoles catholiques du Centre-Est,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
-edmonton.ca,4,wikidata,Edmonton Fire Rescue Services,,301,none
+ecologyaction.ca,4,academia,Ecology Action Centre,,,
 edmontonpolice.ca,4,wikidata,Edmonton Police Service,,302,0 edmontonpolice-ca.mail.protection.outlook.com.
+efwc.ca,4,academia,Eskasoni Fish and Wildlife Commission,,,
 elections.ab.ca,4,wikidata,Elections Alberta,central-1,301,none
 elections.bc.ca,4,wikidata,Elections BC,central-1,200,0 elections-bc-ca.mail.protection.outlook.com.
 elections.on.ca,4,wikidata,Elections Ontario,central-1,301,none
@@ -441,29 +524,44 @@ embassyofpanama.ca,4,wikidata,embassy of Panama in Canada,central,301,none
 embassyofperu.ca,4,wikidata,embassy of Peru in Canada,central,200,none
 embassyofuruguay.ca,4,wikidata,embassy of Uruguay in Canada,central,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
 emsb.qc.ca,4,wikidata,English Montreal School Board,,200,none
+emt.inrs.ca,4,academia,INRS-EMT,,,
 en-corporate.canada.travel,4,directory,Canadian Tourism Commission,,ConnectException,none
 en.ccunesco.ca,4,wikidata,Canadian Commission for UNESCO,,200,none
 energy.alberta.ca,4,wikidata,Alberta Energy,,HttpConnectTimeoutException: HTTP connect timed out,none
 energy.novascotia.ca,4,wikidata,Nova Scotia Department of Energy,,200,none
+environment.utoronto.ca,4,academia,"School of the Environment, University of Toronto",,,
 epsb.ca,4,wikidata,Edmonton Public Schools,,200,10 alt1.aspmx.l.google.com.; 20 aspmx3.googlemail.com.; 20 aspmx2.googlemail.com.; 10 alt2.aspmx.l.google.com.; 5 aspmx.l.google.com.
-espacepourlavie.ca,4,academia,Montreal Botanical Garden,central,,
 esrd.alberta.ca,4,wikidata,Alberta Environment and Sustainable Resource Development,,ConnectException,none
 essb.qc.ca,4,wikidata,Eastern Shores School Board,,301,0 essb-qc-ca.mail.protection.outlook.com.
 fdr.net,4,directory,Roosevelt Campobello International Park Commission,,301,none
 fed-group.ca,4,wikidata,Fed Group,,308,none
+fedorukcentre.ca,4,academia,Sylvia Fedoruk Canadian Centre for Nuclear Innovation,,,
 fgcouncil.bc.ca,4,wikidata,Forest Genetics Council,,ConnectException,none
+fields.utoronto.ca,4,academia,Fields Institute,,,
+firh.ca,4,academia,Firestone Institute for Respiratory Health,,,
 fjmc.ca,4,wikidata,Fisheries Joint Management Committee,,200,0 fjmc.ca.
 flypei.com,4,directory,Charlottetown Airport Authority Inc.,,HttpConnectTimeoutException: HTTP connect timed out,none
 freshwaterfish.com,4,directory,Freshwater Fish Marketing Corporation,,200,none
+fundyforce.ca,4,academia,Fundy Ocean Research Centre for Energy,,,
 ganderairport.com,4,directory,Gander International Airport Authority Inc.,,200,none
+gcrc.carleton.ca,4,academia,Geomatics and Cartographic Research Centre,,,
 gdg.ca,4,wikidata,GDG Environnement,,301,none
+geog.ubc.ca,4,academia,University of British Columbia Department of Geography,,,
+geography.utoronto.ca,4,academia,"Department of Geography and Planning, University of Toronto",,,
+geotop.ca,4,academia,Q115038143,,,
+gerad.ca,4,academia,Group for Research in Decision Analysis,,,
 ghanahighcommission.ca,4,wikidata,high commission of Ghana in Canada,central,301,none
+girba.crad.ulaval.ca,4,academia,Q122923112,,,
+globalchallenges.ca,4,academia,Centre for Global Challenges,,,
 glpa-apgl.com,4,directory,Great Lakes Pilotage Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
+glycomicscentre.ca,4,academia,Alberta Glycomics Centre,,,
 gordiehoweinternationalbridge.com,4,directory,Windsor-Detroit Bridge Authority,,403,0 gordiehoweinternationalbridge-com.mail.protection.outlook.com.
+gradstudents.carleton.ca,4,academia,Faculty of Graduate and Postdoctoral Affairs,,,
 grandchallenges.ca,4,wikidata,Grand Challenges Canada,,301,0 grandchallenges-ca.mail.protection.outlook.com.
 granderie.ca,4,wikidata,Grand Erie District School Board,,200,none
 grandnord.ca,4,wikidata,Conseil scolaire public du Grand Nord de l'Ontario,,403,none
 grc.ca,4,wikidata,Royal Canadian Mounted Police,,301,none
+gripinfo.ca,4,academia,Research Unit on Children's Psychosocial Maladjustment,,,
 grrb.nt.ca,4,wikidata,Gwich'in Renewable Resources Board,,200,none
 gsacrd.ab.ca,4,wikidata,Greater St. Albert Catholic Schools,,ConnectException,none
 gscs.ca,4,wikidata,Greater Saskatoon Catholic School Division,,301,0 gscs-ca.mail.protection.outlook.com.
@@ -471,7 +569,9 @@ gvha.ca,4,wikidata,Greater Victoria Harbour Authority,,200,none
 gypsd.ca,4,wikidata,Grande Yellowhead Public School Division No. 77,,301,none
 halton.ca,4,wikidata,Halton Region Health Department,,301,none
 hamiltonpolice.on.ca,4,wikidata,Hamilton Police Service,,403,none
+hbi.ucalgary.ca,4,academia,"Hotchkiss Brain Institute, University of Calgary",,,
 healthforceontario.ca,4,wikidata,HealthForceOntario,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching healthforceontario.ca found.,1 healthforceontario-ca.mail.protection.outlook.com.
+herbier.ulaval.ca,4,academia,Herbier Louis-Marie,,,
 honeycouncil.ca,4,wikidata,Canadian Honey Council,,200,none
 horizon.ab.ca,4,wikidata,Horizon School Division No. 67,,301,none
 hparb.on.ca,4,wikidata,Health Professions Appeal and Review Board,,200,none
@@ -483,20 +583,48 @@ huronperthcatholic.ca,4,wikidata,Huron-Perth Catholic District School Board,,301
 hwcdsb.ca,4,wikidata,Hamilton-Wentworth Catholic District School Board,,301,none
 hwdsb.on.ca,4,wikidata,Hamilton-Wentworth District School Board,,301,none
 iadb.org,4,directory,Inter-American Development Bank,,301,none
+ibis.geog.ubc.ca,4,academia,University of British Columbia Lab for Advanced Spatial Analysis,,,
+ices.on.ca,4,academia,ICES,,,
+icra.ca,4,academia,Canadian Institute for Advanced Research,,,
+idea.ulaval.ca,4,academia,Q3151948,,,
+idrc-crdi.ca,4,academia,International Development Research Centre,,,
+ieds.ulaval.ca,4,academia,Q114896086,,,
 ieso.ca,4,wikidata,Independent Electricity System Operator,,200,20 alt1.us.email.fireeyecloud.com.; 30 alt2.us.email.fireeyecloud.com.; 40 alt3.us.email.fireeyecloud.com.; 10 primary.us.email.fireeyecloud.com.
 ifc.org,4,directory,International Finance Corporation,,302,10 wbvapiron02a.worldbank.org.; 10 wbvapiron01a.worldbank.org.; 10 wbvapiron04a.worldbank.org.; 10 wbvapiron03a.worldbank.org.
+ihpst.utoronto.ca,4,academia,"Institute for the History and Philosophy of Science and Technology, University of Toronto",,,
 iiroc.ca,4,wikidata,Investment Industry Regulatory Organization of Canada,,520,10 mx1.hc263-8.ca.iphmx.com.; 15 mx2.hc263-8.ca.iphmx.com.
 ijc.org,4,directory,International Joint Commission (Canadian Section) | International Lake of the Woods Control Board,,301,none
+ilead.engineering.utoronto.ca,4,academia,Troost Institute for Leadership Education in Engineering,,,
 imf.org,4,directory,International Monetary Fund,,HttpTimeoutException: request timed out,none
+inaf.ulaval.ca,4,academia,Institut of Nutrition and Functional Foods,,,
 infopuq.uquebec.ca,4,wikidata,Q116794402,,ConnectException,none
 ingeniumcanada.org,4,directory,National Museum of Science and Technology,,301,none
 innotechalberta.ca,4,wikidata,InnoTech Alberta,,200,10 innotechalberta-ca.mail.protection.outlook.com.
+innovationsask.ca,4,academia,Innovation Saskatchewan,,,
+inq.ulaval.ca,4,academia,Institut nordique du Québec,,,
 inrs.ca,4,academia,National Institute of Scientific Research,central,,
+inspq.qc.ca,4,academia,Laboratoire de santé publique du Québec,,,
 insquebec.org,4,directory,Institut national du sport du Québec,,301,none
+institutbroadbent.ca,4,academia,Broadbent Institute,,,
+institutsmq.qc.ca,4,academia,University Institute of Mental Health,,,
+institutvanier.ca,4,academia,Vanier Institute of the Family,,,
 intervalhouse.ca,4,wikidata,Interval House,,200,none
+ipac.ulaval.ca,4,academia,Q114963178,,,
 ipc.on.ca,4,wikidata,Information and Privacy Commissioner of Ontario,central-1,301,none
+iqc.ca,4,academia,Institute for Quantum Computing,,,
+iqst.ca,4,academia,Institute for Quantum Science and Technology,,,
+irbv.umontreal.ca,4,academia,Centre sur la biodiversité,,,
+ircm.qc.ca,4,academia,Montreal Clinical Research Institute,,,
+irme.ca,4,academia,Research Institute of Mines and Environment,,,
+irsst.qc.ca,4,academia,Institut de recherche Robert-Sauvé en santé et en sécurité du travail,,,
+ischool.utoronto.ca,4,academia,University of Toronto Faculty of Information,,,
+istep.utoronto.ca,4,academia,Institute for Studies in Transdisciplinary Engineering Education and Practice,,,
+isw.physics.uwo.ca,4,academia,Interface Science Western,,,
 italchamber.qc.ca,4,wikidata,Italian Chamber of Commerce in Canada,,200,none
 itaq.ca,4,academia,Institut de technologie agroalimentaire,central-1,,
+iwh.on.ca,4,academia,Institute for Work and Health,,,
+jardin.ulaval.ca,4,academia,Roger-Van den Hende botanical garden,,,
+jesuitforum.ca,4,academia,Jesuit Forum for Social Faith and Justice,,,
 justice.alberta.ca,4,wikidata,Office of the Chief Medical Examiner,,HttpConnectTimeoutException: HTTP connect timed out,none
 kativik.qc.ca,4,wikidata,Kativik Ilisarniliriniq,,301,none
 kcdsb.on.ca,4,wikidata,Kenora Catholic District School Board,,200,10 kcdsb-on-ca.mail.eo.outlook.com.
@@ -510,21 +638,33 @@ lacombepolice.ca,4,wikidata,Lacombe Police Service,,200,none
 lakeheadschools.ca,4,wikidata,Lakehead District School Board,,HttpConnectTimeoutException: HTTP connect timed out,none
 lautorite.qc.ca,4,wikidata,Autorité des marchés financiers,,307,none
 laval.ca,4,wikidata,Service de police de la Ville de Laval,,HttpConnectTimeoutException: HTTP connect timed out,0 laval-ca.mail.protection.outlook.com.
+lavialab.ca,4,academia,Living Laboratory for Innovation in Higher Education Learning,,,
 lbpsb.qc.ca,4,wikidata,Lester B. Pearson School Board,,302,0 lbpsb-qc-ca.mail.protection.outlook.com.
 ldcsb.ca,4,wikidata,London District Catholic School Board,,301,none
 lebanonembassy.ca,4,wikidata,"Embassy of Lebanon, Ottawa",central,200,none
+lecrib.ca,4,academia,Q115018800,,,
 legalaid.on.ca,4,wikidata,Legal Aid Ontario,,301,none
 limestone.on.ca,4,wikidata,Limestone District School Board,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 londonpolice.ca,4,wikidata,London Police Service,,308,none
 lpsd.ca,4,wikidata,Lloydminster Public School Division,,301,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 lrsd.ca,4,wikidata,Livingstone Range School Division No. 68,,301,none
+lunenfeld.ca,4,academia,Lunenfeld-Tanenbaum Research Institute,,,
+macdonaldlaurier.ca,4,academia,Macdonald-Laurier Institute,,,
 madagascar-embassy.ca,4,wikidata,embassy of Madagascar in Canada,central,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
 manitoba.ca,4,wikidata,Manitoba Geological Survey,,400,none
 manitobacourts.mb.ca,4,wikidata,Court of King's Bench of Manitoba,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching manitobacourts.mb.ca found.,none
+marinetechcentre.ca,4,academia,Marine Technology Centre,,,
 mb.rcmp.ca,4,wikidata,D Division,,ConnectException,none
+mcgillgenomecentre.ca,4,academia,McGill Genome Centre,,,
+medieval.utoronto.ca,4,academia,Centre for Medieval Studies,,,
+merinov.ca,4,academia,Merinov,,,
+metabolomicscentre.ca,4,academia,The Metabolomics Innovation Centre,,,
+michel-sarrazin.ca,4,academia,maison Michel-Sarrazin,,,
 miga.org,4,directory,Multilateral Investment Guarantee Agency,,301,none
 mississauga.ca,4,wikidata,Mississauga Fire and Emergency Services,,200,none
 montreal.mfa.gov.hu,4,wikidata,General Consulate of Hungary to Montréal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+msi.mcgill.ca,4,academia,Trottier Space Institute at McGill,,,
+munkschool.utoronto.ca,4,academia,Munk School of Global Affairs and Public Policy,,,
 naps.ca,4,wikidata,Nishnawbe-Aski Police Service,,301,none
 nctr.ca,4,wikidata,National Centre for Truth and Reconciliation,,200,none
 nelsonpolice.ca,4,wikidata,Nelson Police Department,,301,none
@@ -539,15 +679,24 @@ northbaypolice.ca,4,wikidata,North Bay Police Service,,301,none
 northland61.ab.ca,4,wikidata,Northland School Division No. 61,,HttpConnectTimeoutException: HTTP connect timed out,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
 noscommunes.ca,4,wikidata,House of Commons,central,301,none
 nouvelon.ca,4,wikidata,Conseil scolaire de district catholique du Nouvel-Ontario,,302,0 nouvelon-ca.mail.protection.outlook.com.
+nri.nu.ca,4,academia,Nunavut Research Institute,,,
 nsguard.ca,4,wikidata,Nova Scotia Guard,,200,none
 nshealth.ca,4,wikidata,Nova Scotia Health Authority,,301,none
+nsis1862.ca,4,academia,Nova Scotian Institute of Science,,,
 nuntiatura.ca,4,wikidata,Apostolic Nunciature to Canada,central,200,none
 nwrhumanrights.ca,4,wikidata,Northwest Territories Human Rights Commission,,ConnectException,none
+observatoire-ia.ulaval.ca,4,academia,International Observatory on the Societal Impacts of AI and Digital Technologies,,,
 ocdsb.ca,4,wikidata,Ottawa-Carleton District School Board,,301,none
+oceannetworks.ca,4,academia,Ocean Networks Canada,,,
 ocsb.ca,4,wikidata,Ottawa Catholic School Board,,301,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
+ofi.ca,4,academia,Ocean Frontier Institute,,,
 ohrc.on.ca,4,wikidata,Ontario Human Rights Commission,,301,none
+ohri.ca,4,academia,Ottawa Hospital Research Institute,,,
 oico.on.ca,4,wikidata,Office of the Integrity Commissioner,,302,0 oico-on-ca.mail.protection.outlook.com.
+oicr.on.ca,4,academia,Ontario Institute for Cancer Research,,,
+okic.ca,4,academia,Ontario Knowledge Intelligence Centre,,,
 ombudsman.on.ca,4,wikidata,Ontario Ombudsman,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+onesearch.library.utoronto.ca,4,academia,Information Commons (University of Toronto),,,
 onf.ca,4,wikidata,National Film Board of Canada,,301,none
 ontariocourts.ca,4,wikidata,Ontario Superior Court of Justice,central-1,301,0 mx.easymail.ca.
 opp.ca,4,wikidata,Ontario Provincial Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -555,31 +704,52 @@ ornge.ca,4,wikidata,Ornge,,404,none
 otf.ca,4,wikidata,Ontario Trillium Foundation,,200,none
 ottawa.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Ottawa",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ourcommons.ca,4,wikidata,House of Commons,central,301,none
+ouvroir.umontreal.ca,4,academia,Q140362969,,,
 palestinegd.ca,4,wikidata,Palestinian General Delegation to Canada,central,HttpConnectTimeoutException: HTTP connect timed out,none
+parkandtilford.ca,4,academia,Park and Tilford Gardens,,,
 parks.novascotia.ca,4,wikidata,Nova Scotia Provincial Parks,central-1,200,none
 peacebridge.com,4,directory,Buffalo and Fort Erie Public Bridge Authority,,403,none
+perennia.ca,4,academia,Centre for Marine Applied Research,,,
+perfeval.pol.ulaval.ca,4,academia,PerƒEval,,,
+perimeterinstitute.ca,4,academia,Perimeter Institute for Theoretical Physics,,,
+phage.ulaval.ca,4,academia,Félix d'Hérelle Reference Center for bacterial viruses,,,
+phonetique.umontreal.ca,4,academia,Laboratoire de sciences phonétiques,,,
+phri.ca,4,academia,Population Health Research Institute,,,
+physics.mcgill.ca,4,academia,McGill University Department of Physics,,,
+pics.uvic.ca,4,academia,Pacific Institute for Climate Solutions,,,
+pims.math.ca,4,academia,Pacific Institute for the Mathematical Sciences,,,
 police.barrie.on.ca,4,wikidata,Barrie Police Service,,HttpConnectTimeoutException: HTTP connect timed out,none
 police.guelph.on.ca,4,wikidata,Guelph Police Service,,HttpConnectTimeoutException: HTTP connect timed out,none
 police.sudbury.on.ca,4,wikidata,Greater Sudbury Police Service,,"SSLException: Unrecognized SSL message, plaintext connection?",none
+policyalternatives.ca,4,academia,Canadian Centre for Policy Alternatives,,,
 portmetrovancouver.com,4,directory,Vancouver Fraser Port Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 portofthunderbay.com,4,directory,Thunder Bay Port Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 portsi.com,4,directory,Sept-Îles Port Authority,,200,none
 porttr.com,4,directory,Trois-Rivières Port Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 portwindsor.com,4,directory,Windsor Port Authority,,200,none
+ppforum.ca,4,academia,Public Policy Forum,,,
+pragmatichealthethics.ca,4,academia,Montreal Pragmatic Health Ethics Research Unit,,,
 protectiveservices.ualberta.ca,4,wikidata,University of Alberta Protective Services,,HttpConnectTimeoutException: HTTP connect timed out,none
+proteo.ca,4,academia,PROTEO,,,
+providenceresearch.ca,4,academia,Providence Health Care Research Institute,,,
 provincialcourt.bc.ca,4,wikidata,Provincial Court of British Columbia,central-1,200,none
 prsd.ab.ca,4,wikidata,Peace River School Division No. 10,,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
 psbgm.qc.ca,4,wikidata,Protestant School Board of Greater Montreal,,HttpConnectTimeoutException: HTTP connect timed out,none
 psd.ca,4,wikidata,Parkland School Division No. 70,,301,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx5.googlemail.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx4.googlemail.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.
 publicboard.ca,4,wikidata,Greater Essex County District School Board,,301,none
 pwsb33.ab.ca,4,wikidata,Peace Wapiti School Division No. 76,,ConnectException,none
+qmi.ubc.ca,4,academia,Stewart Blusson Quantum Matter Institute,,,
+quantumalgorithmsinstitute.ca,4,academia,Quantum Algorithms Institute,,,
+quebec-ocean.ulaval.ca,4,academia,Q115017666,,,
 quebecinternational.ca,4,wikidata,Q3414831,,HttpConnectTimeoutException: HTTP connect timed out,none
-queensu.ca,4,academia,Queen's University,central-1,,
 rainbowschools.ca,4,wikidata,Rainbow District School Board,,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+raiv.ulaval.ca,4,academia,RAIV,,,
+rali.iro.umontreal.ca,4,academia,RALI laboratory,,,
 rapereliefshelter.bc.ca,4,wikidata,Vancouver Rape Relief & Women's Shelter,,200,none
 rbe.sk.ca,4,wikidata,Regina Public Schools,,301,none
 rccdsb.edu.on.ca,4,wikidata,Renfrew County Catholic District School Board,,ConnectException,0 rccdsb-edu-on-ca.mail.protection.outlook.com.
 rcmp.ca,4,wikidata,Royal Canadian Mounted Police,,301,none
+regal-aluminium.ca,4,academia,Aluminium Research Centre,,,
 regina.ca,4,wikidata,Regina Fire and Protective Services,,301,0 regina-ca.mail.protection.outlook.com.
 reginapolice.ca,4,wikidata,Regina Police Service,,301,none
 reginapublicschools.ca,4,wikidata,Regina Public Schools,,301,none
@@ -588,7 +758,10 @@ researchmanitoba.ca,4,wikidata,Research Manitoba,,403,none
 retsd.mb.ca,4,wikidata,River East Transcona School Division,,405,none
 richmond.ca,4,wikidata,Richmond Fire Rescue Department,,200,10 richmond-ca.mail.protection.outlook.com.
 rimuhc.ca,4,wikidata,Research Institute of the McGill University Health Centre,,403,none
+robarts.ca,4,academia,Robarts Research Institute,,,
 rockyview.ab.ca,4,wikidata,Rocky View Schools Division,,302,none
+rotman-baycrest.on.ca,4,academia,Rotman Research Institute,,,
+rotman.uwo.ca,4,academia,Rotman Institute of Philosophy,,,
 rpc.ca,4,wikidata,Research and Productivity Council,,200,none
 rtl-longueuil.qc.ca,4,wikidata,Réseau de transport de Longueuil,,301,none
 rupertport.com,4,directory,Prince Rupert Port Authority,,301,none
@@ -599,16 +772,23 @@ saskartsboard.ca,4,wikidata,Saskatchewan Arts Board,,HttpConnectTimeoutException
 saskatoonpolice.ca,4,wikidata,Saskatoon Police Service,,200,none
 saskhealthauthority.ca,4,wikidata,Saskatchewan Health Authority,,302,none
 scdsb.on.ca,4,wikidata,Simcoe County District School Board,,HttpConnectTimeoutException: HTTP connect timed out,0 scdsb-on-ca.mail.protection.outlook.com.
+schoolofcities.utoronto.ca,4,academia,School of Cities,,,
 scrca.on.ca,4,wikidata,St. Clair Region Conservation Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 securities-administrators.ca,4,wikidata,Canadian Securities Administrators,,HttpConnectTimeoutException: HTTP connect timed out,none
 sencanada.ca,4,wikidata,Senate of Canada,central,HttpConnectTimeoutException: HTTP connect timed out,none
+senecacollege.ca,4,academia,Confucius Institute at Seneca College,,,
+sensum.umontreal.ca,4,academia,SENSUM,,,
 sharedhealthmb.ca,4,wikidata,Shared Health Manitoba,,200,none
 siu.on.ca,4,wikidata,Special Investigations Unit,,200,none
+sjhc.london.on.ca,4,academia,Lawson Research Institute,,,
 sjpa.com,4,directory,St. John’s Port Authority,,301,none
 sjport.com,4,directory,Saint John Port Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 skcouncil.sk.ca,4,wikidata,Insurance Councils of Saskatchewan,central-1,HttpConnectTimeoutException: HTTP connect timed out,30 mail5.ksphosting.com.; 20 mail4.ksphosting.com.; 10 spamcop.ksp.ca.
 skeenafisheries.ca,4,wikidata,Skeena Fisheries Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
 sncdsb.on.ca,4,wikidata,Superior North Catholic District School Board,,301,none
+sno.phy.queensu.ca,4,academia,Sudbury Neutrino Observatory,,,
+snolab.ca,4,academia,SNOLAB,,,
+sociology.utoronto.ca,4,academia,"Department of Sociology, University of Toronto",,,
 solgps.alberta.ca,4,wikidata,Alberta Sheriff,,ConnectException,none
 soquij.qc.ca,4,wikidata,Q55599916,,HttpConnectTimeoutException: HTTP connect timed out,10 soquij-qc-ca.mail.protection.outlook.com.
 southafrica-canada.ca,4,wikidata,"High Commission of South Africa, Ottawa",central,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -616,46 +796,60 @@ sp.mofaic.gov.ae,4,wikidata,"Consulate General of the United Arab Emirates, Toro
 specialareas.ab.ca,4,wikidata,Special Areas Board,,200,none
 spvm.qc.ca,4,wikidata,Service de police de la Ville de Montréal,,200,none
 src.sk.ca,4,wikidata,Saskatchewan Research Council,,301,none
+srinstitute.utoronto.ca,4,academia,Schwartz Reisman Institute for Technology and Society,,,
+stela.ulaval.ca,4,academia,Q114895365,,,
 stjohnsairport.com,4,directory,St. John’s International Airport Authority,,200,none
+stmichaelshospitalresearch.ca,4,academia,Li Ka Shing Knowledge Institute,,,
 sto.ca,4,wikidata,Société de transport de l'Outaouais,,HttpConnectTimeoutException: HTTP connect timed out,none
 studentaid.alberta.ca,4,wikidata,Alberta Student Aid,,200,none
 sturgeon.ab.ca,4,wikidata,Sturgeon School Division No. 24,,301,none
 sudburycatholicschools.ca,4,wikidata,Sudbury Catholic District School Board,,302,none
 summerside.ca,4,wikidata,Summerside,,301,0 summerside-ca.mail.protection.outlook.com.
+supernova.dal.ca,4,academia,SuperNOVA,,,
 swineinnovationporc.ca,4,wikidata,Swine Innovation Porc,,301,none
 taiguusiliuqtiit.ca,4,wikidata,Inuit Uqausinginnik Taiguusiliuqtiit,,301,none
+takuvik.ulaval.ca,4,academia,Laboratoire Takuvik,,,
 tdsb.on.ca,4,wikidata,Toronto District School Board,,302,none
+terryfoxlab.ca,4,academia,Terry Fox Laboratory,,,
 tfd.timmins.ca,4,wikidata,Timmins Fire Department,,"SSLException: Unrecognized SSL message, plaintext connection?",none
 theforks.com,4,directory,North Portage Development Corporation (operating as The Forks North Portage Partnership),,301,0 theforks-com.mail.protection.outlook.com.
 tlicho.ca,4,wikidata,Tlicho Community Services Agency,,403,10 tlicho-ca.mail.protection.outlook.com.
 toronto.mfa.gov.hu,4,wikidata,"Consulate General of Hungary, Toronto",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+torontobotanicalgarden.ca,4,academia,Toronto Botanical Garden,,,
 torontopolice.on.ca,4,wikidata,Toronto Police Service,,302,none
 tpsb.ca,4,wikidata,Toronto Police Services Board,,200,none
 transitpolice.ca,4,wikidata,Metro Vancouver Transit Police,,200,none
 tribunalsontario.ca,4,wikidata,Landlord and Tenant Board,central-1,200,10 tribunalsontario-ca.mail.protection.outlook.com.
+triumf.ca,4,academia,TRIUMF,,,
+trra.ca,4,academia,Toronto Region Research Alliance,,,
 truro.ca,4,wikidata,Truro Police Service,,200,none
 ttc.ca,4,wikidata,Toronto Transit Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
 tvdsb.ca,4,wikidata,Thames Valley District School Board,,HttpConnectTimeoutException: HTTP connect timed out,none
 ucdsb.on.ca,4,wikidata,Upper Canada District School Board,,HttpConnectTimeoutException: HTTP connect timed out,none
 ugdsb.on.ca,4,wikidata,Upper Grand District School Board,,HttpConnectTimeoutException: HTTP connect timed out,1 mx.ugdsb.on.ca.
 uleth.ca,4,academia,University of Lethbridge,central-1,,
-umontreal.ca,4,academia,Université de Montréal,central-1,,
-upei.ca,4,academia,University of Prince Edward Island,central-1,,
-uwo.ca,4,academia,University of Western Ontario,central-1,,
+utias.utoronto.ca,4,academia,University of Toronto Institute for Aerospace Studies,,,
+vanierinstitute.ca,4,academia,Vanier Institute of the Family,,,
 vaughan.ca,4,wikidata,Vaughan Fire and Rescue Services,,403,none
+vchri.ca,4,academia,Vancouver Coastal Health Research Institute,,,
 victoriaairport.com,4,directory,Victoria Airport Authority,,301,none
 vietnamembassy.ca,4,wikidata,embassy of Vietnam in Canada,central,200,10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 ville.levis.qc.ca,4,wikidata,Q16676509,,301,none
 ville.montreal.qc.ca,4,wikidata,Service de sécurité incendie de Montréal,,301,none
+vision.gel.ulaval.ca,4,academia,Q113330535,,,
 vsb.bc.ca,4,wikidata,Vancouver School Board,,405,10 vsb-bc-ca.mail.protection.outlook.com.
 wada-ama.org,4,directory,World Anti-Doping Agency,,202,1 mxb-00475d01.gslb.pphosted.com.; 0 mxa-00475d01.gslb.pphosted.com.
+wallisroughley.ca,4,academia,Wallis Roughley Museum of Entomology,,,
+water.ubc.ca,4,academia,Future Water Research,,,
 wcb.ab.ca,4,wikidata,Workers Compensation Board of Alberta,,200,none
 wcwc.ca,4,wikidata,Walkerton Clean Water Centre,,200,none
+web2.uwindsor.ca,4,academia,Stephanie Doucet's Lab,,,
 wecdsb.on.ca,4,wikidata,Windsor-Essex Catholic District School Board,,301,none
 wellingtoncdsb.ca,4,wikidata,Wellington Catholic District School Board,,301,10 wellingtoncdsb-ca.mail.protection.outlook.com.
 whc.org,4,directory,Wildlife Habitat Canada,,200,0 whc-org.mail.protection.outlook.com.
 whscc.nl.ca,4,wikidata,"Workplace Health, Safety and Compensation Commission",,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching whscc.nl.ca found.,20 mail3.whscc.nl.ca.; 10 mail2.whscc.nl.ca.
 widm.ca,4,wikidata,Waterloo Institute for Disaster Management,,HttpConnectTimeoutException: HTTP connect timed out,none
+wilson.humanities.mcmaster.ca,4,academia,Wilson Institute for Canadian History,,,
 winnipeg.ca,4,wikidata,Winnipeg Police Service,,HttpConnectTimeoutException: HTTP connect timed out,none
 winnipegarts.ca,4,wikidata,Winnipeg Arts Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 wolfcreek.ab.ca,4,wikidata,Wolf Creek School Division No. 72,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -664,16 +858,22 @@ wrdsb.ca,4,wikidata,Waterloo Region District School Board,,ConnectException,none
 wrsd.ca,4,wikidata,Wild Rose School Division No. 66,,HttpConnectTimeoutException: HTTP connect timed out,none
 wsask.ca,4,wikidata,Saskatchewan Water Security Agency,,HttpConnectTimeoutException: HTTP connect timed out,none
 wvpd.ca,4,wikidata,West Vancouver Police Department,,301,none
+www2.bio.ulaval.ca,4,academia,Q115017493,,,
 ycdsb.ca,4,wikidata,York Catholic District School Board,,HttpConnectTimeoutException: HTTP connect timed out,0 mxa-008e0302.gslb.pphosted.com.; 30 alt3.aspmx.l.google.com.; 0 mxb-008e0302.gslb.pphosted.com.; 20 alt2.aspmx.l.google.com.; 30 alt4.aspmx.l.google.com.; 10 aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.
+ycppl.info.yorku.ca,4,academia,York Centre for Public Policy and Law,,,
 yemenembassy.ca,4,wikidata,embassy of Yemen in Canada,central,HttpConnectTimeoutException: HTTP connect timed out,none
 yk1.nt.ca,4,wikidata,Yellowknife Education District No. 1,,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.
 yrdsb.edu.on.ca,4,wikidata,York Region District School Board,,HttpConnectTimeoutException: HTTP connect timed out,1 d405310.a.ess.ca.barracudanetworks.com.; 5 d405310.b.ess.ca.barracudanetworks.com.
 yukoncourts.ca,4,wikidata,Court of Appeal of the Yukon Territory,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 yyc.com,4,directory,Calgary Airport Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
+abkhaziteahouse.com,3,academia,Abkhazi Garden,,,
 accesculture.com,3,wikidata,Accès culture,central-1,301,none
 accute.ca,3,ror,Association of Canadian College and University Teachers of English,central-1,,
+aclacaal.org,3,academia,Canadian Association of Applied Linguistics,,,
+acuns.ca,3,ror,Association of Canadian Universities for Northern Studies,central-1,,
 administrationportuairedetoronto.com,3,wikidata,PortsToronto,,301,none
 afghanemb-canada.net,3,wikidata,"Embassy of Afghanistan, Ottawa",central,HttpConnectTimeoutException: HTTP connect timed out,none
+ai.facebook.com,3,academia,Facebook AI Research,,,
 algomau.ca,3,ror,Algoma University,central-1,,
 ambabf-ca.org,3,wikidata,Embassy of Burkina Faso in Canada,central,HttpConnectTimeoutException: HTTP connect timed out,none
 ambaguinee-ca.com,3,wikidata,embassy of Guinea in Canada,central,ConnectException,none
@@ -685,37 +885,51 @@ ambsencanada.org,3,wikidata,Embassy of Senegal to Canada,central,308,none
 anduhyaun.org,3,wikidata,Anduhyaun Shelter,,200,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
 apscops.org,3,wikidata,Anishinabek Police Service,,403,none
 arcticathabaskancouncil.com,3,wikidata,Arctic Athabaskan Council,,ConnectException,none
+aristotlefoundation.org,3,academia,Aristotle Foundation For Public Policy,,,
 artsmontreal.org,3,wikidata,Conseil des arts de Montréal,,301,none
 aspenview.org,3,wikidata,Aspen View Public School Division No. 78,,301,none
 assumptionu.ca,3,ror,Assumption University,central-1,,
+astroherzberg.org,3,academia,Herzberg Institute of Astrophysics,,,
 atlanticfishfarmers.com,3,wikidata,Atlantic Canada Fish Farmers Association,,200,none
+bamfieldmsc.com,3,academia,Bamfield Marine Sciences Centre,,,
 banq-saint-sulpice.business.site,3,wikidata,Saint-Sulpice Library,,404,none
+baycrest.org,3,academia,Rotman Research Institute,,,
 bcblueberry.com,3,wikidata,British Columbia Blueberry Council,,301,none
 bci-qc.ca,3,ror,Bureau de Coopération Interuniversitaire,central-1,,
 bcit.ca,3,ror,British Columbia Institute of Technology,central-1,,
 bgcdsb.org,3,wikidata,Bruce-Grey Catholic District School Board,,301,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+biodiversitygenomics.net,3,academia,Centre for Biodiversity Genomics,,,
+biopterre.com,3,academia,Biopterre,,,
 bluequills.ca,3,ror,University nuhelot'ine thaiyots'i nistameyimâkanak Blue Quills,central-1,,
 bmo.com,3,wikidata,Bank of Montreal,,302,4 mxa-00277d01.gslb.pphosted.com.; 4 mxb-00277d01.gslb.pphosted.com.
 boothuc.ca,3,ror,Booth University College,central-1,,
 bot.com,3,wikidata,Toronto Board of Trade,,302,none
 bramptonbot.com,3,wikidata,Brampton Board of Trade,,200,0 bramptonbot-com.mail.protection.outlook.com.
-brandonu.ca,3,ror,Brandon University,central-1,,
 burmanu.ca,3,ror,Burman University,central-1,,
 ca.ambafrance.org,3,wikidata,"Embassy of France, Ottawa",central,301,none
 ca.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Ottawa",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ca.china-embassy.org found.,none
 ca.mfa.hr,3,wikidata,"Embassy of Croatia, Ottawa",central,ConnectException,none
 ca.mfa.lt,3,wikidata,Embassy of Lithuania in Canada,central,403,none
+cag-acg.org,3,academia,Canadian Association of Gastroenterology,,,
 canada.diplo.de,3,wikidata,"Embassy of Germany, Ottawa",central,200,none
 canada.mfa.am,3,wikidata,"Embassy of Armenia, Ottawa",central,HttpConnectTimeoutException: HTTP connect timed out,none
 canada.mid.ru,3,wikidata,"Embassy of Russia, Ottawa",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 canada.um.dk,3,wikidata,"Embassy of Denmark, Ottawa",central,301,none
+canadianriversinstitute.com,3,academia,Canadian Rivers Institute,,,
+canadians.org,3,academia,The Council of Canadians,,,
 cbu.ca,3,ror,Cape Breton University,central-1,,
+cdhowe.org,3,academia,C. D. Howe Institute,,,
 cfour.org,3,wikidata,Canadian Chlorine Chemistry Council,,ConnectException,none
 chambresf.com,3,wikidata,Chambre de la sécurité financière (CSF),,301,none
 charlottetownpolice.com,3,wikidata,Charlottetown Police Department,,301,none
 chiefs-of-ontario.org,3,wikidata,Chiefs of Ontario,,200,none
+ciela.science,3,academia,Ciela Institute,,,
+ciera-recherches.ca,3,ror,Centre interuniversitaire d'études et de recherches autochtones,central-1,,
+cigicampus.org,3,academia,CIGI Campus,,,
+cigionline.org,3,academia,Centre for International Governance Innovation,,,
+cmu.ca,3,ror,Canadian Mennonite University,central-1,,
+cn.deepcox.com,3,academia,DeepCox,,,
 concordia.ab.ca,3,ror,Concordia University of Edmonton,central-1,,
-concordia.ca,3,ror,Concordia University,central-1,,
 conestogac.on.ca,3,ror,Conestoga College,central-1,,
 consulfrance-moncton.org,3,wikidata,"Consulate-General of France, Moncton",,ConnectException,none
 consulfrance-montreal.org,3,wikidata,"Consulate General of France, Montréal",,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -724,7 +938,9 @@ consulfrance-vancouver.org,3,wikidata,Consulate General of France in Vancouver,,
 corporate.flyeia.com,3,wikidata,Edmonton Airports,,301,none
 costaricaembassy.com,3,wikidata,embassy of Costa Rica in Canada,central,200,none
 crandallu.ca,3,ror,Crandall University,central-1,,
+crbm-mbrc.com,3,academia,Research Center on Marine Biotechnology,,,
 dechinta.ca,3,ror,Dechinta Bush University Centre for Research and Learning,central-1,,
+deepcox.com,3,academia,DeepCox,,,
 destinationcanada.com,3,wikidata,Destination Canada,,301,10 mxa-003d6701.gslb.pphosted.com.; 10 mxb-003d6701.gslb.pphosted.com.
 dominicanu.ca,3,ror,Dominican University College,central-1,,
 dpcdsb.org,3,wikidata,Dufferin-Peel Catholic District School Board,,HttpConnectTimeoutException: HTTP connect timed out,10 ca-smtp-inbound-2.mimecast.com.; 10 ca-smtp-inbound-1.mimecast.com.
@@ -735,65 +951,96 @@ eeas.europa.eu,3,wikidata,Delegation of the European Union to Canada,,200,none
 embajadahondurasencanada.hn,3,wikidata,embassy of Honduras in Canada,central,200,none
 enap.ca,3,ror,École Nationale d'Administration Publique,central,,
 enpq.qc.ca,3,ror,École nationale de police du Québec,central,,
+eptc-tcep.net,3,academia,Society for Existential and Phenomenological Theory and Culture,,,
+eu-interact.org,3,academia,Polar Environment Atmospheric Research Laboratory,,,
+ex-situ.info,3,academia,Q111835511,,,
+fcpp.org,3,academia,Frontier Centre for Public Policy,,,
+feministvoices.com,3,academia,Psychology's Feminist Voices,,,
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Ottawa",central,301,10 mail.valtori.fi.
+fmars.marssociety.org,3,academia,Flashline Mars Arctic Research Station,,,
 fnhssm.com,3,wikidata,First Nations Health and Social Secretariat of Manitoba,,301,none
+fnuniv.ca,3,ror,First Nations University of Canada,central-1,,
+fraserinstitute.org,3,academia,Fraser Institute,,,
+frederictonbotanicgarden.com,3,academia,Fredericton Botanic Garden,,,
 ghsd75.com,3,wikidata,Golden Hills School Division No. 75,,HttpConnectTimeoutException: HTTP connect timed out,none
+globalriskinstitute.org,3,academia,Global Risk Institute in Financial Services,,,
 grandslacs-voiemaritime.com,3,wikidata,St. Lawrence Seaway Management Corporation,,301,none
+grin.normativity.ca,3,ror,Groupe de Recherche Interuniversitaire sur la Normativité,central-1,,
 guelphhumber.ca,3,ror,University of Guelph-Humber,central-1,,
 halifaxchamber.com,3,wikidata,Halifax Chamber of Commerce,,200,none
 hc-cameroon-ottawa.org,3,wikidata,high commission of Cameroon in Canada,central,HttpConnectTimeoutException: HTTP connect timed out,none
 hcdsb.org,3,wikidata,Halton Catholic District School Board,,HttpConnectTimeoutException: HTTP connect timed out,none
 healthunit.org,3,wikidata,"Leeds, Grenville & Lanark District Health Unit",,HttpConnectTimeoutException: HTTP connect timed out,none
-humber.ca,3,ror,Humber Polytechnic,central-1,,
 huntingtonu.ca,3,ror,Huntington University,central-1,,
 huronu.ca,3,ror,Huron University,central-1,,
+hydroquebec.com,3,academia,Institut de recherche d'Hydro-Québec,,,
 ibu.ca,3,ror,International Business University,central-1,,
+iedm.org,3,academia,Montreal Economic Institute,,,
+igopp.org,3,academia,Institute for governance of private and public organizations,,,
+iisd.org,3,academia,International Institute for Sustainable Development,,,
 indonesiavancouver.org,3,wikidata,"consulate general of Indonesia, Vancouver",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+irpp.org,3,academia,Institute for Research on Public Policy,,,
 iucpq.ca,3,ror,Institut universitaire de cardiologie et de pneumologie de Québec,central-1,,
+iud.quebec,3,academia,University Institute on Addictions,,,
 ivpsa.ulaval.ca,3,ror,Institut sur le vieillissement et la participation sociale des ainés de l’Université Laval,central-1,,
+jardinfloraldelapocatiere.com,3,academia,Jardin floral de La Pocatière,,,
 kanada.ahk.de,3,wikidata,Canadian German Chamber of Industry and Commerce Inc.,,HttpConnectTimeoutException: HTTP connect timed out,none
 kings.uwo.ca,3,ror,King’s University College,central-1,,
+kingsu.ca,3,ror,The King's University,central-1,,
 kpu.ca,3,ror,Kwantlen Polytechnic University,central-1,,
+labgemquebec.com,3,academia,Laboratoire Gem Quebec,,,
 lakeheadu.ca,3,ror,Lakehead University,central-1,,
 laurentian.ca,3,ror,Laurentian University,central-1,,
+lawsonresearch.com,3,academia,Lawson Health Research Institute,,,
 lebaneseconsulatehalifax.com,3,wikidata,Honorary Consulate of Lebanon,,HttpConnectTimeoutException: HTTP connect timed out,none
 lethpolytech.ca,3,ror,Lethbridge Polytechnic,central-1,,
 lkdsb.net,3,wikidata,Lambton Kent District School Board,,301,0 lkdsb-net.mail.protection.outlook.com.
 londonhydro.com,3,wikidata,London Hydro,,302,none
 lrsd.net,3,wikidata,Louis Riel School Division,,301,none
 makivik.org,3,wikidata,Makivik Corporation,,301,none
+mblabs.com,3,academia,Q98442484,,,
 mcmaster.ca,3,ror,McMaster University,central-1,,
 medicinehatpolice.com,3,wikidata,Medicine Hat Police Service,,200,none
+medicinex.com,3,academia,MedicineX,,,
 meottawa.org,3,wikidata,embassy of Myanmar in Canada,central,HttpConnectTimeoutException: HTTP connect timed out,none
 mfa.bg,3,wikidata,"Embassy of Bulgaria, Ottawa",central,302,none
 mfa.gr,3,wikidata,"Embassy of Greece, Ottawa",central,403,none
+mila.quebec,3,academia,Mila,,,
 milk.org,3,wikidata,Dairy Farmers of Ontario,,HttpConnectTimeoutException: HTTP connect timed out,none
 misionvenezuela.org,3,wikidata,embassy of Venezuela in Canada,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mnr.gov.on.ca,3,wikidata;wikidata;wikidata,Ontario Forest Research Institute | Ministry of Natural Resources and Forestry,,301,none
 montreal.chineseconsulate.org,3,wikidata,Consulate General of the People's Republic of China in Montreal,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching montreal.chineseconsulate.org found.,none
 montreal.diplo.de,3,wikidata,"Consulate General of Germany, Montreal",,301,none
 montreal.mae.ro,3,wikidata,Consulate General of Romania in Montreal,,503,none
+morganarboretum.org,3,academia,Morgan Arboretum,,,
 mqup.ca,3,ror,McGill-Queen's University Press,central-1,,
 msvu.ca,3,ror,Mount Saint Vincent University,central-1,,
-mun.ca,3,ror,Memorial University of Newfoundland,central-1,,
+mta.ca,3,ror,Mount Allison University,central-1,,
+museumofone.art,3,academia,Museum of One,,,
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Ottawa",central,302,none
 mzv.sk,3,wikidata,"Embassy of Slovakia, Ottawa",central,301,none
-nait.ca,3,ror,Northern Alberta Institute of Technology,central-1,,
+nanos.co,3,academia,Nanos Research,,,
 nellies.org,3,wikidata,Nellie's Shelter,,200,none
 netherlandsworldwide.nl,3,wikidata,"Embassy of the Netherlands, Ottawa",central,301,none
 niagaraparks.com,3,wikidata,Niagara Parks Commission,,301,none
+nikkayuko.com,3,academia,Nikka Yuko Japanese Garden,,,
 nipissingu.ca,3,ror,Nipissing University,central-1,,
 norway.no,3,wikidata,"Embassy of Norway, Ottawa",central,301,none
 nosm.ca,3,ror,NOSM University,central-1,,
+nscad.ca,3,ror,NSCAD University,central-1,,
 nwmb.com,3,wikidata,Nunavut Wildlife Management Board,,301,none
 nwpolice.org,3,wikidata,New Westminster Police Department,,301,none
+nwpolytech.ca,3,ror,Northwestern Polytechnic,central-1,,
+nwtresearch.com,3,academia,Aurora Research Institute,,,
 nybe.interlog.com,3,wikidata,North York Board of Education,,ConnectException,none
+observatoirefp.org,3,academia,Observatoire de la formation professionnelle du Québec,,,
 ocabc.org,3,wikidata,Organized Crime Agency of British Columbia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ocadu.ca,3,ror,Ontario College of Art and Design,central-1,,
 ocul.on.ca,3,ror,Ontario Council of University Libraries,central-1,,
 ocwa.com,3,wikidata,Ontario Clean Water Agency,,301,none
 ok.ubc.ca,3,ror,"University of British Columbia, Okanagan Campus",central-1,,
 okanagan.bc.ca,3,ror,Okanagan College,central-1,,
+ontariotechu.ca,3,ror,Ontario Tech University,central-1,,
 ottawa.embassy.mn,3,wikidata,"Embassy of Mongolia, Ottawa",central,200,none
 ottawa.embassy.qa,3,wikidata,Embassy of Qatar in Canada,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ottawa.mae.lu,3,wikidata,Embassy of the Grand Duchy of Luxembourg in Ottawa,,302,none
@@ -805,7 +1052,10 @@ ottawa.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Ottawa",central,SSLHa
 ottawahealth.org,3,wikidata,Ottawa County Health Department,,200,none
 ouac.on.ca,3,ror,Ontario Universities’ Application Centre,central-1,,
 ovc.uoguelph.ca,3,ror,Ontario Veterinary College,central-1,,
+parcmarievictorin.com,3,academia,Parc Marie-Victorin,,,
+peacegarden.com,3,academia,International Peace Garden,,,
 peelschools.org,3,wikidata,Peel District School Board,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+pembina.org,3,academia,Pembina Institute,,,
 polymtl.ca,3,ror,Polytechnique Montréal,central-1,,
 portvancouver.com,3,wikidata,Vancouver Fraser Port Authority,,302,10 portvancouver-com.mail.protection.outlook.com.
 providenceuc.ca,3,ror,Providence University College and Theological Seminary,central-1,,
@@ -816,8 +1066,10 @@ rdc.org,3,wikidata,Research & Development Corporation Newfoundland and Labrador,
 rdpolytech.ca,3,ror,Red Deer Polytechnic,central-1,,
 recoveryexcellence.org,3,wikidata,Canadian Centre of Recovery Excellence,,200,0 recoveryexcellence-org.mail.protection.outlook.com.
 redeemer.ca,3,ror,Redeemer University,central-1,,
+regent-college.edu,3,academia,Regent College,,,
 reginatransit.com,3,wikidata,Regina Transit,,200,none
 reseau.uquebec.ca,3,ror,Université du Québec,central-1,,
+royalroads.ca,3,ror,Royal Roads University,central-1,,
 rrdsb.com,3,wikidata,Rainy River District School Board,,ConnectException,none
 rrisiq.com,3,academia,RRISIQ,central-1,,
 sait.ca,3,ror,SAIT Polytechnic,central-1,,
@@ -825,64 +1077,94 @@ saskpolytech.ca,3,ror,Saskatchewan Polytechnic,central-1,,
 senecapolytechnic.ca,3,ror,Seneca Polytechnic,central-1,,
 sepaq.com,3,wikidata,Société des établissements de plein air du Québec,central-1,301,none
 shelburnepolice.com,3,wikidata,Shelburne Police Service,,403,none
+sheridancollege.ca,3,ror,Sheridan College,central-1,,
+smu.ca,3,ror,Saint Mary's University,central-1,,
+srdc.org,3,academia,Social Research and Demonstration Corporation,,,
 srilankahcottawa.org,3,wikidata,high commission of Sri Lanka in Canada,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ssu.ca,3,ror,St. Stephen's University,central-1,,
 st-clair.net,3,wikidata,St. Clair Catholic District School Board,,HttpConnectTimeoutException: HTTP connect timed out,none
+stfx.ca,3,ror,St. Francis Xavier University,central-1,,
 stm.info,3,wikidata,Société de transport de Montréal,,301,none
 stmarkscollege.ca,3,ror,St. Mark's College,central-1,,
+stmu.ca,3,ror,St. Mary's University,central-1,,
 stu.ca,3,ror,St. Thomas University,central-1,,
 sudanembassyottawa.com,3,wikidata,embassy of Sudan in Canada,central,ConnectException,none
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Ottawa",central,301,none
 tcdsb.org,3,wikidata,Toronto Catholic District School Board,,301,none
 teluq.ca,3,ror,Université TÉLUQ,central-1,,
+thecic.org,3,academia,Canadian International Council,,,
 thorneloe.ca,3,ror,Thorneloe University,central-1,,
 torfree.net,3,wikidata,East York Board of Education,,ConnectException,5 mail.torfree.net.
 toronto.china-consulate.org,3,wikidata,Consulate General of the People's Republic of China in Toronto,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching toronto.china-consulate.org found.,none
 toronto.diplo.de,3,wikidata,"Consulate General of Germany, Toronto",,301,10 mx2.bund.de.; 10 mx1.bund.de.
 transfusionontario.org,3,wikidata,Ontario Regional Blood Coordinating Network,central-1,200,10 web1.transfusionontario.org.
 travel.destinationcanada.com,3,wikidata,Destination Canada,,301,none
+trentu.ca,3,ror,Trent University,central-1,,
 trinity.utoronto.ca,3,ror,Trinity College,central-1,,
 tru.ca,3,ror,Thompson Rivers University,central-1,,
 twu.ca,3,ror,Trinity Western University,central-1,,
 tyndale.ca,3,ror,Tyndale University,central-1,,
 u15.ca,3,ror,U15 Group of Canadian Research Universities,central-1,,
+ubishops.ca,3,ror,Bishop's University,central-1,,
 ucanwest.ca,3,ror,University Canada West,central-1,,
+ucn.ca,3,ror,University College of the North,central-1,,
 ufred.ca,3,ror,University of Fredericton,central-1,,
+ufv.ca,3,ror,University of the Fraser Valley,central-1,,
 uhearst.ca,3,ror,Université de Hearst,central-1,,
 ukings.ca,3,ror,University of King's College,central-1,,
 ulethbridge.ca,3,ror,University of Lethbridge,central-1,,
 umoncton.ca,3,ror,Université de Moncton,central-1,,
 unbc.ca,3,ror,University of Northern British Columbia,central-1,,
 unfc.ca,3,ror,University of Niagara Falls Canada,central-1,,
+univcan.ca,3,ror,Association of Universities and Colleges of Canada,central-1,,
+uontario.ca,3,ror,Université de l'Ontario français,central-1,,
 upperfortgarry.com,3,wikidata,Fort Garry,,HttpConnectTimeoutException: HTTP connect timed out,none
+upr-epu.org,3,academia,Q3348449,,,
+uqac.ca,3,ror,Université du Québec à Chicoutimi,central-1,,
 uqam.ca,3,ror,Université du Québec à Montréal,central-1,,
 uqar.ca,3,ror,Université du Québec à Rimouski,central-1,,
 uqat.ca,3,ror,Université du Québec en Abitibi-Témiscamingue,central-1,,
+uqo.ca,3,ror,Université du Québec en Outaouais,central-1,,
 uqtr.ca,3,ror,Université du Québec à Trois-Rivières,central-1,,
 usainteanne.ca,3,ror,Université Sainte-Anne,central-1,,
+usherbrooke.ca,3,ror,Université de Sherbrooke,central-1,,
 ustboniface.ca,3,ror,Université de Saint-Boniface,central-1,,
+ustpaul.ca,3,ror,Saint Paul University,central-1,,
 usudbury.ca,3,ror,University of Sudbury,central-1,,
+utias-sfl.net,3,academia,UTIAS Space Flight Laboratory,,,
 utsc.utoronto.ca,3,ror,University of Toronto Scarborough,central-1,,
-uvic.ca,3,ror,University of Victoria,central-1,,
+uwindsor.ca,3,ror,University of Windsor,central-1,,
 uwinnipeg.ca,3,ror,The University of Winnipeg,central-1,,
 vancouver.china-consulate.org,3,wikidata,Consulate General of the People's Republic of China in Vancouver,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vancouver.china-consulate.org found.,none
 vancouver.diplo.de,3,wikidata,"Consulate General of Germany, Vancouver",,301,none
+vancouverchinesegarden.com,3,academia,Dr. Sun Yat-Sen Classical Chinese Garden,,,
 vancouverpcg.org,3,wikidata,"Philippine Consulate General, Vancouver, Canada",central-1,301,none
+vandusengarden.org,3,academia,VanDusen Botanical Garden,,,
+vectorinstitute.ai,3,academia,Vector Institute,,,
 wcswr.org,3,wikidata,The Women's Crisis Services of Waterloo,,HttpTimeoutException: request timed out,none
 web.idirect.com,3,wikidata,Etobicoke Board of Education,,ConnectException,none
 web.roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Canada,,HttpConnectTimeoutException: HTTP connect timed out,none
+wellesleyinstitute.com,3,academia,Wellesley Institute,,,
+whri.org,3,academia,Women's Health Research Institute,,,
 winnipegtransit.com,3,wikidata,Winnipeg Transit,,200,none
+wlu.ca,3,ror,Wilfrid Laurier University,central-1,,
+www2.acadiau.ca,3,ror,Acadia University,central-1,,
+yellowheadinstitute.org,3,academia,Yellowhead Institute,,,
 york.ac.uk,3,academia,University of York,central-1,,
 yorkvilleu.ca,3,ror,Yorkville University,central-1,,
 yukonu.ca,3,ror,Yukon University,central-1,,
 zimembassyottawa.com,3,wikidata,embassy of Zimbabwe in Canada,central,301,none
+ambrose.edu,2,ror,Ambrose University,central-1,,
 brampton.ca,2,wikidata;wikidata;wikidata,Brampton Fire and Rescue | Brampton Transit | Züm,,302,none
 crilcq.org,2,ror,Centre de recherche interuniversitaire sur la littérature et la culture québécoises,central-1,,
+espacepourlavie.ca,2,academia;academia;academia,Alpine Garden | Jardin botanique de Montréal’s Rose Garden | Montreal Botanical Garden,central,,
 gqinnovationcenter.com,2,ror,McGill University and Génome Québec Innovation Centre,central-1,,
 kingswood.edu,2,ror,Kingswood University,central-1,,
 mofaic.gov.ae,2,wikidata;wikidata;wikidata,"Consulate General of the United Arab Emirates, Toronto | Embassy of the United Arab Emirates, Ottawa",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 novascotia.ca,2,wikidata;wikidata;wikidata,Nova Scotia Department of Health and Wellness | Nova Scotia Department of Agriculture | Nova Scotia Department of Natural Resources,,302,none
 nunavikpolice.ca,2,wikidata;wikidata;wikidata,Nunavik Police Service,,302,none
 nyit.edu,2,ror,New York Institute of Technology,central-1,,
+utm.utoronto.ca,2,academia;academia;academia;academia,"Department of Biology | Institute for Management and Innovation | Institute of Communication, Culture, Information and Technology | University of Toronto Mississauga Department of Sociology",,,
+vancouver.ca,2,wikidata;wikidata;academia,Vancouver Police Department | Vancouver Fire and Rescue Services | Bloedel Conservatory,,403,10 mxa-00320301.gslb.pphosted.com.; 10 mxb-00320301.gslb.pphosted.com.
 roc-taiwan.org,1,wikidata;wikidata;wikidata;wikidata,"Taipei Economic and Cultural Office, Toronto | Taipei Economic and Cultural Office, Vancouver",,302,none
 worksafebc.com,1,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,WorkSafeBC,,301,none

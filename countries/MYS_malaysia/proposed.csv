@@ -1,16 +1,22 @@
 hostname,score,sources,label,level,http_status,mx
+ukm.my,9,academia;academia;ror,Institute of the Malay World and Civilization | National University of Malaysia,central,,
 ssm.com.my,7,wikidata;wikidata,Companies Commission of Malaysia,central,302,0 ssm-com-my.mail.protection.outlook.com.; 50 email-messaging.com.
 kualalumpur.mae.ro,6,wikidata;wikidata,"Embassy of Romania, Kuala Lumpur",central,503,none
-ukm.my,6,academia;ror,National University of Malaysia,central,,
+ums.edu.my,6,academia;ror,Institute for Tropical Biology and Conservation,central,,
 upm.edu.my,6,academia;ror,University of Putra Malaysia,central,,
 upnm.edu.my,6,academia;ror,National Defence University of Malaysia,central,,
 usim.edu.my,6,academia;ror,Universiti Sains Islam Malaysia,central,,
 utm.my,6,academia;ror,University of Technology Malaysia,central,,
 uum.edu.my,6,academia;ror,Universiti Utara Malaysia,central,,
+centre.iium.edu.my,4,academia,Sejahtera Centre for Sustainability and Humanity,,,
+cies.uis.edu.my,4,academia,"Centre of Indigenous Ethnic Studies, Selangor Islamic University",,,
 crest.my,4,wikidata,"Collaborative Research in Engineering, Science and Technology Centre",,200,0 crest-my.mail.protection.outlook.com.
 cybersecurity.my,4,wikidata,CyberSecurity Malaysia,,SSLHandshakeException: Remote host terminated the handshake,5 cybersecurity-my.mail.protection.outlook.com.; 0 cybersecurity-my.mail.protection.outlook.com.
+fim.uitm.edu.my,4,academia,Universiti Teknologi MARA Faculty of Information Management,,,
 ghanacom.org.my,4,wikidata,high commission of Ghana in Malaysia,central,ConnectException,none
+inhad.uis.edu.my,4,academia,Hadith & Aqidah Research Institute,,,
 intanbk.intan.my,4,wikidata,National Institute of Public Administration,,ConnectException,5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+ircief.uis.edu.my,4,academia,International Research Centre of Islamic Economics and Finance,,,
 itnm.com.my,4,wikidata,Malaysian Institute of Translation & Books,,301,0 itnm.com.my.
 khazanah.com.my,4,wikidata,Khazanah Nasional,,301,5 khazanah-com-my.mail.protection.outlook.com.
 mafhq.mil.my,4,wikidata,Malaysian Armed Forces,,ConnectException,none
@@ -18,21 +24,27 @@ majlisprofesor.my,4,wikidata,National Council of Professors,,ConnectException,no
 mdv.com.my,4,wikidata,Malaysia Debt Ventures,,301,0 mdv-com-my.mail.protection.outlook.com.
 mimos.my,4,wikidata,Malaysian Institute of Microelectronic Systems,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mimos-my.mail.protection.outlook.com.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kuala Lumpur",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+msri.org.my,4,academia,Malaysian Social Research Institute,,,
 mynic.my,4,wikidata,Q7393733,,200,10 mys-mx1-sces.sorbsecurity.com.
 nibm.my,4,wikidata,National Institutes of Biotechnology Malaysia,,301,30 lastmx.spamexperts.net.; 20 fallbackmx.spamexperts.eu.; 10 mx.spamexperts.com.
 palestineembassy.com.my,4,wikidata,Embassy of the State of Palestine in Malaysia,central,200,20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
 pdn.org.my,4,wikidata,Pusat Darah Negara,,ConnectException,none
+pps.uis.edu.my,4,academia,"Postgraduate Centre, Selangor Islamic University",,,
+rce2g.iium.edu.my,4,academia,Q136175170,,,
 sc.com.my,4,wikidata,Securities Commission Malaysia,central,302,20 alt1.aspmx.l.google.com.; 30 aspmx3.googlemail.com.; 20 alt2.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 30 aspmx4.googlemail.com.; 30 aspmx5.googlemail.com.; 10 aspmx.l.google.com.
 ssm-einfo.my,4,wikidata,Companies Commission of Malaysia,central,301,0 ssmeinfo-my0i.mail.protection.outlook.com.
 suhakam.org.my,4,wikidata,Human Rights Commission of Malaysia,,200,0 suhakam-org-my.mail.protection.outlook.com.
+tnbr.com.my,4,academia,TNB Research,,,
 zhckl.com.my,4,wikidata,high commission of Zambia in Malaysia,central,ConnectException,none
 act.edu.my,3,ror,Kolej Teknologi Asia,central,,
+aeu.edu.my,3,ror,Asia e University,central,,
 aimst.edu.my,3,ror,AIMST University,central,,
 aiu.edu.my,3,ror,Albukhary International University,central,,
 alfa.edu.my,3,ror,Alfa University College,central,,
 amc.edu.my,3,ror,AMC University College,central,,
 apu.edu.my,3,ror,Asia Pacific University of Technology & Innovation,central,,
 aviation.edu.my,3,ror,University College of Aviation and Innovation Malaysia,central,,
+berjaya.edu.my,3,ror,Berjaya University College of Hospitality,central,,
 bernama.com,3,wikidata,Bernama,,302,10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
 binary.edu.my,3,ror,Binary University of Management & Entrepreneurship,central,,
 cccbp.gbs2u.com,3,wikidata,Chinese Chamber of Commerce Batu Pahat,,403,none
@@ -59,17 +71,23 @@ institut-sinaran.edu.my,3,ror,Institut Sinaran,central,,
 ion2.upm.edu.my,3,ror,Institut Nanosains dan Nanoteknologi,central,,
 iputra.edu.my,3,ror,Putra International University College,central,,
 ism.edu.my,3,ror,Institute of Science and Management,central,,
+jesselton.edu.my,3,ror,Jesselton University College,central,,
 jpjsabahmy.com,3,wikidata,Sabah State Road Transport Department,central-1,200,0 jpjsabahmy.com.
 kias.edu.my,3,ror,Sultan Ismail Petra International Islamic University College,central,,
 kingsuniversitycollege.edu.my,3,ror,Kings University College,central,,
+klust.edu.my,3,ror,Kuala Lumpur University of Science & Technology,central,,
 kpju.edu.my,3,ror,KPJ Healthcare University,central,,
+ktac.edu.my,3,ror,Kolej Teknologi Antarabangsa Cybernetics,central,,
 kuala-lumpur.diplo.de,3,wikidata,"Embassy of Germany, Kuala Lumpur",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 kualalumpur.mofa.go.ug,3,wikidata,high commission of Uganda in Malaysia,central,200,none
 kuijsi.edu.my,3,ror,Kolej Universiti Islam Johor Sultan Ibrahim,central,,
+kuypj.edu.my,3,ror,Kolej Universiti Yayasan Pelajaran Johor,central,,
 lincoln.edu.my,3,ror,Lincoln University College,central,,
+linton.edu.my,3,ror,Linton University College,central,,
 mahsa.edu.my,3,ror,Mahsa University,central,,
 malaysia.mid.ru,3,wikidata,embassy of Russia in Malaysia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 malaysia.um.dk,3,wikidata,Embassy of Denmark in Malaysia,central,301,none
+manipal.edu.my,3,ror,Manipal University College Malaysia,central,,
 mediu.edu.my,3,ror,Al Madinah International University,central,,
 meritus.edu.my,3,ror,Meritus University,central,,
 misi.edu.my,3,ror,MISI University,central,,
@@ -84,12 +102,19 @@ my.ambafrance.org,3,wikidata,"Embassy of France, Kuala Lumpur",central,301,none
 my.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Kuala Lumpur",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching my.china-embassy.org found.,none
 mzv.cz,3,wikidata,embassy of the Czech republic in Malaysia,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 nbuc.edu.my,3,ror,North Borneo University College,central,,
+newera.edu.my,3,ror,New Era College,central,,
+newinti.edu.my,3,ror,INTI International University,central,,
 nilai.edu.my,3,ror,Nilai University,central,,
+nmuc.edu.my,3,ror,Netherlands Maritime University College,central,,
 norway.no,3,wikidata,"Embassy of Norway, Kuala Lumpur",central,301,0 mx.domeneshop.no.
+nottingham.edu.my,3,ror,University of Nottingham Malaysia Campus,central,,
 oum.edu.my,3,ror,Open University Malaysia,central,,
 pbd.mypolycc.edu.my,3,ror,Politeknik Bagan Datuk,central,,
 pbs.mypolycc.edu.my,3,ror,Politeknik Banting Selangor,central,,
+pbu.mypolycc.edu.my,3,ror,Politeknik Balik Pulau,central,,
 perdanauniversity.edu.my,3,ror,Perdana University,central,,
+pertama.edu.my,3,ror,Pertama Institute of Technology,central,,
+pht.mypolycc.edu.my,3,ror,Politeknik Hulu Terengganu,central,,
 pis.edu.my,3,ror,Politeknik Ibrahim Sultan,central,,
 pjk.edu.my,3,ror,Politeknik Jeli Kelantan,central,,
 pkb.edu.my,3,ror,Politeknik Kota Bharu,central,,
@@ -107,6 +132,8 @@ polibesut.edu.my,3,ror,Politeknik Besut Terengganu,central,,
 polikk.mypolycc.edu.my,3,ror,Politeknik Kota Kinabalu,central,,
 poliku.edu.my,3,ror,Politeknik Kuching Sarawak,central,,
 polimas.mypolycc.edu.my,3,ror,Politeknik Sultan Abdul Halim Mu'adzam Shah,central,,
+polimelaka.mypolycc.edu.my,3,ror,Politeknik Melaka,central,,
+polinilai.edu.my,3,ror,Politeknik Nilai,central,,
 polipd.mypolycc.edu.my,3,ror,Politeknik Port Dickson,central,,
 polisas.edu.my,3,ror,Politeknik Sultan Haji Ahmad Shah,central,,
 politawau.mypolycc.edu.my,3,ror,Politeknik Tawau Sabah,central,,
@@ -119,9 +146,12 @@ pss.mypolycc.edu.my,3,ror,Politeknik Sandakan Sabah,central,,
 ptsb.edu.my,3,ror,Politeknik Tuanku Sultanah Bahiyah,central,,
 ptsn.edu.my,3,ror,Politeknik Tun Syed Nasir Syed Ismail,central,,
 ptss.edu.my,3,ror,Politeknik Tuanku Syed Sirajuddin,central,,
+puo.edu.my,3,ror,Ungku Omar Polytechnic,central,,
 qiup.edu.my,3,ror,Quest International University Perak,central,,
 raffles-university.edu.my,3,ror,Raffles University Iskandar,central,,
 reading.edu.my,3,ror,University of Reading Malaysia,central,,
+refsa.org,3,academia,Research for Social Advancement,,,
+riamtec.edu.my,3,ror,Riam Institute of Technology,central,,
 roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Malaysia,,302,none
 saito.edu.my,3,ror,Saito University College,central,,
 sedamai.edu.my,3,ror,SEDAMAI College,central,,
@@ -136,10 +166,12 @@ swinburne.edu.my,3,ror,Swinburne University of Technology Sarawak Campus,central
 tarc.edu.my,3,ror,Tunku Abdul Rahman University of Management and Technology,central,,
 tatiuc.edu.my,3,ror,TATI University College,central,,
 tidrec.um.edu.my,3,ror,Tropical Infectious Diseases Research & Education Centre,central,,
+tropicalspicegarden.com,3,academia,Tropical Spice Garden,,,
 twintech.edu.my,3,ror,International University College Of Technology,central,,
 ucam.edu.my,3,ror,University College of Agroscience Malaysia,central,,
 ucbestari.edu.my,3,ror,University College Bestari,central,,
 ucf.edu.my,3,ror,Kolej Universiti Fairview,central,,
+ucsf.edu.my,3,ror,University College Sabah Foundation,central,,
 ucsiuniversity.edu.my,3,ror,UCSI University,central,,
 ucyp.edu.my,3,ror,UCYP University,central,,
 uim.edu.my,3,ror,Universiti Islam Malaysia,central,,
@@ -149,14 +181,20 @@ ukkm.edu.my,3,ror,Universiti Keusahawanan Koperasi Malaysia,central,,
 um.edu.my,3,ror,University of Malaya,central,,
 umam.edu.my,3,ror,Universiti Muhammadiyah Malaysia,central,,
 umk.edu.my,3,ror,Universiti Malaysia Kelantan,central,,
+umpsa.edu.my,3,ror,Universiti Malaysia Pahang Al-Sultan Abdullah,central,,
 umt.edu.my,3,ror,Universiti Malaysia Terengganu,central,,
+umwales.edu.my,3,ror,Universiti Malaya-Wales,central,,
 unikl.edu.my,3,ror,University of Kuala Lumpur,central,,
 unimaiwp.edu.my,3,ror,Universiti Antarabangsa MAIWP,central,,
 unimap.edu.my,3,ror,Universiti Malaysia Perlis,central,,
+unimas.my,3,ror,Universiti Malaysia Sarawak,central,,
+unimel.edu.my,3,ror,Universiti Islam Melaka,central,,
 unimy.edu.my,3,ror,University Malaysia of Computer Science and Engineering,central,,
 uniqsaas.edu.my,3,ror,Universiti Al-Quran Al-Sultan Abdullah Ahmad Shah Pahang,central,,
+unirazak.edu.my,3,ror,Universiti Tun Abdul Razak,central,,
 unisel.edu.my,3,ror,University of Selangor,central,,
 unishams.edu.my,3,ror,Sultan Abdul Halim Mu'adzam Shah International Islamic University,central,,
+unisiraj.edu.my,3,ror,Universiti Islam Antarabangsa Tuanku Syed Sirajuddin,central,,
 unisza.edu.my,3,ror,Sultan Zainal Abidin University,central,,
 unitar.my,3,ror,UNITAR International University,central,,
 uniten.edu.my,3,ror,Universiti Tenaga Nasional,central,,
@@ -164,21 +202,27 @@ university.taylors.edu.my,3,ror,Taylor's University,central,,
 uow.edu.my,3,ror,University of Wollongong Malaysia,central,,
 upknkelantan.com,3,wikidata,Kelantan State Information and Communication Secretariat,,ConnectException,none
 upsi.edu.my,3,ror,Sultan Idris Education University,central,,
+uptm.edu.my,3,ror,Universiti Poly-Tech Malaysia,central,,
 usas.edu.my,3,ror,Universiti Sultan Azlan Shah,central,,
 usm.my,3,ror,Universiti Sains Malaysia,central,,
+utar.edu.my,3,ror,Universiti Tunku Abdul Rahman Sungai Long Campus,central,,
 utem.edu.my,3,ror,Universiti Teknikal Malaysia Melaka,central,,
 uthm.edu.my,3,ror,Tun Hussein Onn University of Malaysia,central,,
 utmy.edu.my,3,ror,"University of Tsukuba, Malaysia",central,,
 utp.edu.my,3,ror,Universiti Teknologi Petronas,central,,
 uts.edu.my,3,ror,University of Technology Sarawak,central,,
 veritas.edu.my,3,ror,Veritas University College,central,,
+vision.edu.my,3,ror,Vision University College,central,,
 vtar.edu.my,3,ror,VTAR Institute,central,,
 web.archive.org,3,wikidata,Filem Negara Malaysia,,200,none
 widad.edu.my,3,ror,Widad University College,central,,
 wit.edu.my,3,ror,Kolej WIT,central,,
 wou.edu.my,3,ror,Wawasan Open University,central,,
 xmu.edu.my,3,ror,Xiamen University Malaysia,central,,
+hw.ac.uk,2,ror,Heriot-Watt University Malaysia,central,,
 inceif.org,2,ror,International Centre for Education in Islamic Finance,central,,
 limkokwing.net,2,ror,Limkokwing University of Creative Technology,central,,
 ncl.ac.uk,2,ror,Newcastle University Medicine Malaysia,central,,
+southampton.ac.uk,2,ror,University of Southampton Malaysia,central,,
 amu.edu.my,0,ror,Asia Metropolitan University,central,,
+klmuc.edu.my,0,ror,Kuala Lumpur Metropolitan University College,central,,

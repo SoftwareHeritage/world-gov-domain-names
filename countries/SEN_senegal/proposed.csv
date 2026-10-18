@@ -14,11 +14,16 @@ cena.sn,4,wikidata,National Autonomous Electoral Commission,central,HttpConnectT
 conseilconstitutionnel.sn,4,wikidata,Q2993691,,200,5 smtp.gouv.sn.
 dge.sn,4,wikidata,Q140275459,,200,0 dge.sn.
 douanes.sn,4,wikidata,Q140315305,,200,20 mail1.douanes.sn.; 10 mail.douanes.sn.
+faseg.ucad.sn,4,academia,Centre de Recherches Économiques Appliquées,,,
 gendarmerie.sn,4,wikidata,Gendarmerie of Senegal,,ConnectException,10 mail.gendarmerie.sn.
 hcct.sn,4,wikidata,Q121668717,,ConnectException,none
+ifan.ucad.sn,4,academia,Institut Fondamental d'Afrique Noire,,,
 international.gouv.qc.ca,4,wikidata,general delegation of Quebec in Dakar,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+ipar.sn,4,academia,Center for Studies and Research on Renewable Energies,,,
+isra.sn,4,academia,Institut sénégalais de recherches agricoles,,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dakar",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 onas.sn,4,wikidata,National Office for Sanitation of Senegal,,200,5 mta-gw.infomaniak.ch.
+pasteur.sn,4,academia,Institut Pasteur de Dakar,,,
 sip.sn,4,wikidata,Commune de Matam,,ConnectException,0 sip-sn.mail.protection.outlook.com.
 statsenegal.sn,4,wikidata,Système Statistique National du Sénégal,,ConnectException,none
 afi-ue.sn,3,ror,Groupe AFI,central,,
@@ -28,6 +33,7 @@ ambadak.org,3,wikidata,embassy of Madagascar in Senegal,central,ConnectException
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Dakar",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
 bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
 cnls-senegal.org,3,wikidata,Conseil National de Lutte contre le sida du Sénégal,,HttpConnectTimeoutException: HTTP connect timed out,none
+codesria.org,3,academia,Council for the Development of Social Science Research in Africa,,,
 dakar.diplo.de,3,wikidata,"Embassy of Germany, Dakar",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 dakar.mae.lu,3,wikidata,Q101444757,central,302,none
 dakar.mae.ro,3,wikidata,"Embassy of Romania, Dakar",central,503,none
@@ -41,15 +47,18 @@ facebook.com,3,wikidata,"Embassy of Malaysia, Dakar",central,ConnectException,no
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Dakar",central,301,10 mail.valtori.fi.
 gambiahcsenegal.com,3,wikidata,embassy of the Gambia in Senegal,central,200,10 mail.gambiahcsenegal.com.
 grandemurailleverte.org,3,wikidata,Agence sénégalaise de la reforestation et de la Grande muraille verte,,200,none
+inp-senegal.com,3,academia,Q3152421,,,
 mfa.gr,3,wikidata,embassy of Greece in Senegal,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,Embassy of the Czech Republic in Senegal,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 senegal.mid.ru,3,wikidata,embassy of Russia in Senegal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 sn.ambafrance.org,3,wikidata,"Embassy of France, Dakar",central,301,none
 supdeco.sn,3,ror,Groupe École Supérieure de Commerce de Dakar,central,,
+timbuktu-institute.org,3,academia,Timbuktu Institute - African Center for Peace Studies,,,
 uadb.edu.sn,3,ror,Université Alioune Diop de Bambey,central,,
 uahb.sn,3,ror,Université Amadou Hampaté Ba,central,,
 uea.edu.sn,3,ror,Université Euro-Afrique,central,,
 unchk.sn,3,ror,Université numérique Cheikh Hamidou KANE,central,,
 unis.sn,3,ror,Université du Sahel,central,,
 univ-thies.sn,3,ror,Université de Thiès,central,,
+warccroa.org,3,academia,West African Research Center,,,
 mesrisenegal.sn,2,wikidata;wikidata;wikidata,"Ministry of Higher Education, Research and Innovation of Senegal | Q139297158",central,200,0 mesrisenegal.sn.

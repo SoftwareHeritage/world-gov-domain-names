@@ -2,10 +2,11 @@ hostname,score,sources,label,level,http_status,mx
 parliament.lk,8,wikidata;wikidata,Parliament of Sri Lanka,central,301,10 mx1.parliament.lk.; 5 mx2.parliament.lk.
 defence.lk,7,wikidata;wikidata,Ministry of Defence and Urban Development,central,200,10 mailin-01.gw.sltidc.lk.; 20 mailin-02.gw.sltidc.lk.
 uda.lk,7,wikidata;wikidata,Ministry of Urban Development,central,301,10 mailserv.uda.lk.; 20 mailin-02.gw.sltidc.lk.; 20 whale.slt.lk.; 30 whale1.slt.lk.; 10 mailin-01.gw.sltidc.lk.
+cmb.ac.lk,6,academia;ror,University of Colombo,central,,
 jfn.ac.lk,6,academia;ror,University of Jaffna,central,,
 pdn.ac.lk,6,academia;ror,University of Peradeniya,central,,
 caa.lk,4,wikidata,Civil Aviation Authority of Sri Lanka,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ALT3.ASPMX.L.GOOGLE.COM.; 0 caa-lk.mail.protection.outlook.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
-cmb.ac.lk,4,academia,University of Colombo,central,,
+ibmbb.lk,4,academia,Institute of Biochemistry,,,
 ird.lk,4,wikidata,Institute for Research and Development,,200,1 smtp.google.com.
 leco.lk,4,wikidata,Lanka Electricity Company,,200,0 leco-lk.mail.protection.outlook.com.
 maldiveshighcom.lk,4,wikidata,"High Commission of Maldives, Colombo",,ConnectException,none
@@ -28,6 +29,7 @@ colombo.mfa.af,3,wikidata,"Embassy of Afghanistan, Colombo",central,ConnectExcep
 ds.thirukkovil.com,3,wikidata,Thirukkovil Divisional Secretariat,,ConnectException,none
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Sri Lanka and the Maldives,central,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
 esn.ac.lk,3,ror,"Eastern University, Sri Lanka",central,,
+gwu.ac.lk,3,ror,Wickramarachchi University of Indigenous Medicine,central,,
 iit.ac.lk,3,ror,Informatics Institute of Technology,central,,
 kdu.ac.lk,3,ror,General Sir John Kotelawala Defence University,central,,
 kiu.ac.lk,3,ror,KIU University Sri Lanka,central,,
@@ -44,8 +46,10 @@ seu.ac.lk,3,ror,South Eastern University of Sri Lanka,central,,
 sjp.ac.lk,3,ror,University of Sri Jayewardenepura,central,,
 sltc.ac.lk,3,ror,Sri Lanka Technological Campus,central,,
 sri-lanka.mid.ru,3,wikidata,embassy of Russia in Sri Lanka,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ugc.ac.lk,3,ror,University Grants Commission Sri Lanka,central,,
 uom.lk,3,ror,University of Moratuwa,central,,
 uovt.ac.lk,3,ror,University of Vocational Technology,central,,
 uwu.ac.lk,3,ror,Uva Wellassa University,central,,
+vau.ac.lk,3,ror,University of Vavuniya,central,,
 vpa.ac.lk,3,ror,University of the Visual & Performing Arts,central,,
 wyb.ac.lk,3,ror,Wayamba University of Sri Lanka,central,,

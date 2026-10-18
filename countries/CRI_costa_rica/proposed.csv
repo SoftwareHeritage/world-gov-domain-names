@@ -2,11 +2,14 @@ hostname,score,sources,label,level,http_status,mx
 centroamericaribeschp.com,6,wikidata;wikidata,Piarist province Central America- Caribbean,,400,none
 jesuitascam.org,6,wikidata;wikidata,Jesuit Province of Central America,,200,10 mx.zoho.com.; 50 mx3.zoho.com.; 20 mx2.zoho.com.
 procomer.com,6,wikidata;wikidata,Costa Rican Foreign Trade Promoter,,200,0 procomer-com.mail.protection.outlook.com.
+uned.ac.cr,6,academia;ror,Distance State University,central,,
 ane.cr,4,wikidata,Agencia Nacional de Empleo,,200,1 mail2.ane.cr.; 0 mail1.ane.cr.
 bccr.fi.cr,4,wikidata,Central Bank of Costa Rica,,404,10 bccr-fi-cr.mail.protection.outlook.com.
 cenat.ac.cr,4,academia,National High Technology Center,central,,
 comisionunesco.cr,4,wikidata,Costa Rica National Commission for Cooperation with UNESCO,,301,0 comisionunesco-cr.mail.protection.outlook.com.; 20 ms59819022.msv1.invalid.outlook.com.
+iice.ucr.ac.cr,4,academia,Instituto de Investigaciones en Ciencias Económicas,,,
 inbio.ac.cr,4,academia,National Biodiversity Institute,central,,
+jbl.ucr.ac.cr,4,academia,Lankester Botanical Garden,,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, San Jose",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 sen.inec.cr,4,wikidata,Sistema Estadístico Nacional,,200,none
 ccecr.aecid.es,3,wikidata,Q141100276,,200,none
@@ -16,6 +19,7 @@ cr.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, San
 earth.ac.cr,3,ror,Earth University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Costa Rica,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
 embocr.com,3,wikidata,embassy of Bolivia in Costa Rica,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+flacso.org,3,academia,Latin American School for Social Sciences,,,
 fundazoo.org,3,academia,Parque Zoológico Nacional Simón Bolívar,central,,
 fundepos.ac.cr,3,ror,Universidad Fundepos,central,,
 inbio.eas.ualberta.ca,3,academia,National Biodiversity Institute,central,,
@@ -37,13 +41,13 @@ uh.ac.cr,3,ror,Universidad Hispanoamerica,central,,
 uia.ac.cr,3,ror,Universidad Internacional de las Américas,central,,
 uindependiente.ac.cr,3,ror,Universidad Independiente,central,,
 uisil.ac.cr,3,ror,Universidad Internacional San Isidro Labrador,central,,
+ujpii.ac.cr,3,ror,Universidad Juan Pablo II,central,,
 ulacit.ac.cr,3,ror,Universidad Latinoamericana de Ciencia y Tecnología,central,,
 ulasalle.ac.cr,3,ror,Universidad La Salle Costa Rica,central,,
 ulatina.ac.cr,3,ror,Latin University of Costa Rica,central,,
 ulicori.ac.cr,3,ror,Universidad Libre de Costa Rica,central,,
 una.ac.cr,3,ror,Universidad Nacional,central,,
 unadeca.ac.cr,3,ror,Central American Adventist University,central,,
-uned.ac.cr,3,ror,Distance State University,central,,
 unela.ac.cr,3,ror,Universidad Evangélica de las Américas,central,,
 unibe.ac.cr,3,ror,Iberoamerican University,central,,
 universidadvalle.cr,3,ror,Universidad del Valle,central,,

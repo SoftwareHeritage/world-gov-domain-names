@@ -27,6 +27,7 @@ environment.ps,4,wikidata,Palestinian Environmental Quality Authority,,SSLHandsh
 gmtc.sec.ps,4,wikidata,Q120147325,,200,5 gmtc.email.gov.ps.
 gpc.pna.ps,4,wikidata,Palestinian General Personnel Office,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 lab.pna.ps,4,wikidata,The Palestinian Fatwa and Legislation Office,,301,10 lab-pna-ps.mail.protection.outlook.com.
+mas.ps,4,academia,Palestine Economic Policy Research Institute,,,
 mohe.pna.ps,4,wikidata,Ministry of Education and Higher Education,,404,0 mohe-pna-ps.mail.protection.outlook.com.
 mtit.pna.ps,4,wikidata,Ministry of Telecommunications and Digital Economy of the State of Palestine,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 nad.ps,4,wikidata,PLO Negotiations Affairs Department,,301,0 email.nad-nsu.ps.
@@ -58,6 +59,8 @@ saacb.ps,4,wikidata,The Palestinian Administrative and Financial Supervision Bur
 tscc.pna.ps,4,wikidata,Supreme Constitutional Court of the State of Palestine,,301,5 tscc.email.gov.ps.
 wsrc.ps,4,wikidata,Water Sector Regulatory Council of Palestine,,200,0 wsrc-ps.mail.protection.outlook.com.
 alazhar-gaza.edu,3,academia,Al-Azhar University – Gaza,central,,
+alazhar.edu.ps,3,ror,Al-Azhar University – Gaza,central,,
+alhaq.org,3,academia,Center for Applied International Law,,,
 cst-kh.edu.ps,3,ror,University College of Science and Technology - Khan Younis,central,,
 daralkalima.edu.ps,3,ror,Dar Al-Kalima University College of Arts and Culture,central,,
 dfa.ie,3,wikidata,"Representative Office of Ireland, Ramallah",,301,10 ext0.dfa.ie.; 20 cwext.gn.gov.ie.; 20 gbext.gn.gov.ie.
@@ -74,6 +77,7 @@ norway.no,3,wikidata,Representative Office of Norway to the Palestinian Authorit
 nu-vte.edu.ps,3,ror,Nablus University for Vocational and Technical Education,central,,
 pal-chambers.org,3,wikidata,"Salfit Chamber of Commerce, Industry and Agriculture",,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.pal-chambers.org.
 paluniv.edu.ps,3,ror,Palestine Ahliya University,central,,
+pcpsr.org,3,academia,Palestinian Center for Policy and Survey Research,,,
 pna.mid.ru,3,wikidata,Representative office of the Russian Federation to Palestinian National Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 pschinaoffice.org,3,wikidata,Office of the People's Republic of China to the State of Palestine,central,ConnectException,none
 ptuk.edu.ps,3,ror,Palestine Technical University - Kadoorie,central,,
@@ -82,10 +86,12 @@ ramallah.diplo.de,3,wikidata,German Representative Office Ramallah,,200,10 mx2.b
 ramallah.mae.ro,3,wikidata,Q100260597,,503,none
 ramallah.um.dk,3,wikidata,Danish Representation in Ramallah,,301,none
 scme.edu.ps,3,ror,Smart University College for Modern Education,central,,
+sina.birzeit.edu,3,academia,SinaLab,,,
 swedenabroad.se,3,wikidata,"Consulate General of Sweden, Jerusalem",,301,none
 tulkarm-chamber.org,3,wikidata,"Tulkarm Chamber of Commerce, Industry and Agriculture",central-1,ConnectException,none
 zust.edu.ps,3,ror,Alzaytona University of Science & Technology,central,,
 aaup.edu,2,ror,Arab American University,central,,
+alquds.edu,2,ror,Al-Quds University,central,,
 bethlehem.edu,2,ror,Bethlehem University,central,,
 birzeit.edu,2,ror,Birzeit University,central,,
 najah.edu,2,ror,An-Najah National University,central,,

@@ -2,6 +2,7 @@ hostname,score,sources,label,level,http_status,mx
 parlamento.ao,8,wikidata;wikidata,National Assembly of Angola,central,200,1 webmail.parlamento.ao.
 minjud.gv.ao,7,wikidata;wikidata,Ministry of Youth and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 franciscanos.org.br,6,wikidata;wikidata,Q10354750,,ConnectException,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+isptec.co.ao,6,academia;ror,Instituto Superior Politécnico de Tecnologia e Ciências,central,,
 tribunalconstitucional.ao,6,wikidata,Constitutional Court of Angola,,200,0 tribunalconstitucional-ao.mail.protection.outlook.com.
 uan.ao,6,academia;ror,Agostinho Neto University,central,,
 ukb.ed.ao,6,academia;ror,Katyavala Bwila University,central,,
@@ -10,6 +11,7 @@ unikivi.ao,6,academia;ror,Universidade Kimpa Vita,central,,
 uniluanda.ao,6,academia;ror,University of Luanda,central,,
 uninjingambande.ed.ao,6,academia;ror,Rainha Njinga a Mbandi University,central,,
 bna.ao,4,wikidata,National Bank of Angola,,200,0 bna-ao.mail.protection.outlook.com.
+isced.ed.ao,4,academia,Instituto Superior de Ciências da Educação de Luanda,,,
 luanda.mfa.gov.hu,4,wikidata,Embassy of Hungary to Luanda,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Luanda",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 trluanda.ao,4,wikidata,Q131156237,,200,0 ws52.angoweb.net.
@@ -27,7 +29,6 @@ ghanaembassy-angola.com,3,wikidata,embassy of Ghana in Angola,central,ConnectExc
 inspunyl.co.ao,3,ror,Instituto Superior Universitário Nimi ya Lukeni,central,,
 ipls.ao,3,ror,Instituto Politécnico da Lunda Sul,central,,
 ispbengo.ao,3,ror,Instituto Superior Politécnico do Bengo,central,,
-isptec.co.ao,3,ror,Instituto Superior Politécnico de Tecnologia e Ciências,central,,
 isptundavala.ao,3,ror,Instituto Superior Politécnico Tundavala,central,,
 kenyaembassyangola.com,3,wikidata,"Embassy of Kenya, Luanda",central,200,20 mx2.titan.email.; 10 mx1.titan.email.
 luanda.diplo.de,3,wikidata,"Embassy of Germany, Luanda",central,200,10 mx1.bund.de.; 10 mx2.bund.de.

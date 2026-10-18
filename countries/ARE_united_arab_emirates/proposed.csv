@@ -12,8 +12,11 @@ nma.gov.ae,8,wikidata;wikidata,National Media Authority,,302,20 nma-gov-ae.mail.
 scad.gov.ae,8,wikidata;wikidata;academia,Statistics Centre - Abu Dhabi,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 scad-gov-ae.mail.protection.outlook.com.; 20 mail2.scad.gov.ae.; 10 seg.in.tmes-uae.trendmicro.com.; 20 mail1.scad.gov.ae.
 space.gov.ae,8,wikidata;wikidata,United Arab Emirates Space Agency,,302,10 mx1-us1.ppe-hosted.com.; 10 mx2-us1.ppe-hosted.com.
 wam.ae,7,wikidata;wikidata,Emirates News Agency,,301,5 wam-ae.mail.protection.outlook.com.; 50 smartmail2.fednet.gov.ae.; 40 mail2.emirates.net.ae.; 0 wam.in.tmes.trendmicro.eu.; 10 smartmail1.fednet.gov.ae.
+aau.ac.ae,6,academia;ror,Al Ain University,,,
 government.ae,6,un_desa,UN/DESA national portal,,301,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+uaeu.ac.ae,6,academia;ror,National Space Science and Technology Center,central,,
 vae.ahk.de,6,wikidata;wikidata,German Emirati Joint Council for Industry and Commerce,,302,none
+zu.ac.ae,6,academia;ror,Zayed University,,,
 adafsa.gov.ae,5,wikidata,Abu Dhabi Agriculture and Food Safety Authority,,HttpConnectTimeoutException: HTTP connect timed out,20 seg.in.tmes-uae.trendmicro.com.; 5 adafsa-gov-ae.mail.protection.outlook.com.; 10 smtp2.adafsa.gov.ae.; 10 smtp1.adafsa.gov.ae.
 adfca.gov.ae,5,wikidata,Family Care Authority,,HttpTimeoutException: request timed out,10 seg.in.tmes-uae.trendmicro.com.; 0 adfca-gov-ae.mail.protection.outlook.com.
 ajmanpolice.gov.ae,5,wikidata,Ajman Police Force,,301,10 mxa-0050be01.gslb.pphosted.com.; 10 mxb-0050be01.gslb.pphosted.com.; 20 ajman-ae.mail.protection.outlook.com.
@@ -42,40 +45,85 @@ ead.ae,4,wikidata,Environment Agency Abu Dhabi,central-1,ConnectException,5 seg.
 emiratespost.ae,4,wikidata,Emirates Post,,403,5 emiratespost-ae.mail.protection.outlook.com.
 esma.ae,4,wikidata,Emirates Authority for Standardization and Metrology,,ConnectException,none
 hra.ae,4,wikidata,Human Resources Authority,central-1,ConnectException,20 mail20.hra.ae.; 10 mail10.hra.ae.
+islamic-college.ae,4,academia,Kullīyat al-Dirāsāt al-Islāmīyah wa-al-ʻArabīyah,,,
 maldivesembassy.ae,4,wikidata,"Embassy of Maldives, Abu Dhabi",central,SSLException: (internal_error) Received fatal alert: internal_error,10 imailv.emirates.net.ae.; 20 imailv2.emirates.net.ae.
 nla.ae,4,wikidata,National Library and Archives (UAE),,301,0 nla-ae.mail.protection.outlook.com.
 nrf.ae,4,wikidata,National Research Foundation,,HttpConnectTimeoutException: HTTP connect timed out,none
 pakistanconsulate.ae,4,wikidata,"Consulate-General of Pakistan, Dubai",,ConnectException,none
 rta.ae,4,wikidata,Roads and Transport Authority,,200,20 mail3.rta.ae.; 10 mail2.rta.ae.; 20 mail4.rta.ae.; 10 mail1.rta.ae.
 saa.shj.ae,4,wikidata,Sharjah Archaeology Authority,,302,10 smtp.shj.ae.
-uaeu.ac.ae,4,academia,National Space Science and Technology Center,central,,
 vnembassy-abudhabi.mofa.gov.v,4,wikidata,"Embassy of the Vietnam, UAE",,ConnectException,none
 zho.ae,4,wikidata,Zayed Higher Organization for Humanitarian Care and Special Needs,,HttpConnectTimeoutException: HTTP connect timed out,0 zho-ae.mail.protection.outlook.com.
 abudhabi.mae.lu,3,wikidata,embassy of Luxembourg in the United Arab Emirates,central,302,none
 abudhabi.mae.ro,3,wikidata,"Embassy of Romania, Abu Dhabi",central,503,none
 abudhabi.mfa.ee,3,wikidata,embassy of Estonia in Abu Dhabi,central,200,none
+adu.ac.ae,3,ror,Abu Dhabi University,,,
 ae.ambafrance.org,3,wikidata,"Embassy of France, Abu Dhabi",central,301,none
+agu.ae,3,ror,Al Ghurair University,,,
+ajman.ac.ae,3,ror,Ajman University,,,
+alhosnu.ae,3,ror,Alhosn University,,,
+alwasl.ac.ae,3,ror,Al Wasl University,,,
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Abu Dhabi",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
+amityuniversity.ae,3,ror,Amity University,,,
+aue.ae,3,ror,American University in the Emirates,,,
 aurak.ac.ae,3,ror,American University of Ras Al Khaimah,central-1,,
+biosaline.org,3,academia,International Center for Biosaline Agriculture,,,
+buid.ac.ae,3,ror,British University in Dubai,,,
 citibnq.com,3,wikidata,Capital Market Authority,,ConnectException,none
+cu.ac.ae,3,ror,City University Ajman,,,
+cud.ac.ae,3,ror,Canadian University of Dubai,,,
 dubai.consulfrance.org,3,wikidata,Consulate General of France in Dubai,,301,none
 dubai.diplo.de,3,wikidata,"Consulate General of Germany, Dubai",,301,10 mx2.bund.de.; 10 mx1.bund.de.
+eau.ac.ae,3,ror,Emirates Aviation University,,,
 economy.gov.ae,3,wikidata;wikidata;academia,Ministry of Economy,central,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 eeas.europa.eu,3,wikidata,Delegation of the European Union to United Arab Emirates,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 embassy-algeria-uae.com,3,wikidata,"Embassy of Algeria, Abu Dhabi",central,500,10 mx00.ionos.com.; 10 mx01.ionos.com.
 embcr-uae.org,3,wikidata,embassy of Costa Rica in the United Arab Emirates,central,200,0 mail.embcr-uae.org.
+euc.ac.ae,3,ror,European University College,,,
 fae.um.dk,3,wikidata,embassy of Denmark in the United Arab Emirates,central,301,none
 finlandabroad.fi,3,wikidata,embassy of Finland in the United Arab Emirates,central,301,10 mail.valtori.fi.
 frenchwam.com,3,wikidata,Emirates News Agency,,ConnectException,none
 gcatholic.org,3,wikidata,Apostolic Nunciature to United Arab Emirates,central,200,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+gmu.ac.ae,3,ror,Gulf Medical University,,,
+gsu.ac.ae,3,ror,Global Studies University,,,
+hbmsu.ac.ae,3,ror,Hamdan Bin Mohammed Smart University,,,
+iau.ae,3,ror,"Islamic Azad University, UAE Branch",,,
+iu.ae,3,ror,Ittihad University,,,
+ju.ac.ae,3,ror,Jumeira University,,,
+ku.ac.ae,3,ror,Khalifa University of Science and Technology,,,
+lu.ac.ae,3,ror,Liwa University,,,
+mbru.ac.ae,3,ror,Mohammed Bin Rashid University of Medicine and Health Sciences,,,
+mbzuai.ac.ae,3,ror,Mohamed bin Zayed University of Artificial Intelligence,,,
+mdx.ac.ae,3,ror,Middlesex University Dubai,,,
 mfa.gr,3,wikidata,embassy of Greece in the United Arab Emirates,central,403,10 mailhost.mfa.gr.
 moccae.gov.ae,3,wikidata;wikidata;wikidata;wikidata,Ministry of Climate Change and Environment,,302,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+modul.ac.ae,3,ror,MODUL University Dubai,,,
 mzv.cz,3,wikidata,embassy of the Czech republic in the United Arab Emirates,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in the United Arab Emirates,central,301,10 mail.gov.sk.
 norway.no,3,wikidata,Embassy of Norway in the United Arab Emirates,central,301,0 mx.domeneshop.no.
 pakistanembassyuae.org,3,wikidata,"Embassy of Pakistan, Abu Dhabi",central,403,10 ASPMX.L.GOOGLE.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 50 ASPMX3.GOOGLEMAIL.COM.; 40 ASPMX2.GOOGLEMAIL.COM.; 30 ALT2.ASPMX.L.GOOGLE.COM.
 roc-taiwan.org,3,wikidata,Commercial Office of Taipei to Dubai,,302,none
+sharjah.ac.ae,3,ror,University of Sharjah,,,
+sorbonne.ae,3,ror,Sorbonne University Abu Dhabi,,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Abu Dhabi",central,301,none
+synergydubai.ae,3,ror,Synergy University Dubai,,,
 uae.diplo.de,3,wikidata,"Embassy of Germany, Abu Dhabi",central,200,none
 uae.mfa.lt,3,wikidata,embassy of Lithuania in the United Arab Emirates,central,403,none
 uae.mid.ru,3,wikidata,embassy of Russia in the United Arab Emirates,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+ud.ac.ae,3,ror,University of Dubai,,,
+ukf.ac.ae,3,ror,University of Khorfakkan,,,
+ums.ae,3,ror,University of Modern Sciences,,,
+uodh.ac.ae,3,ror,University of Al Dhaid,,,
+uof.ac.ae,3,ror,Fujairah University,,,
+uoj.ac.ae,3,ror,University of Jazeera,,,
+uowdubai.ac.ae,3,ror,University of Wollongong in Dubai,,,
+abudhabi.iitd.ac.in,2,ror,Indian Institute of Technology Delhi Abu Dhabi,,,
+aud.edu,2,ror,American University in Dubai,,,
+aus.edu,2,ror,American University of Sharjah,,,
+bits-pilani.ac.in,2,ror,"Birla Institute of Technology and Science, Pilani - Dubai Campus",,,
+hw.ac.uk,2,ror,Heriot-Watt University Dubai,,,
+mywestford.com,2,ror,Westford University College,,,
+nyuad.nyu.edu,2,ror,New York University Abu Dhabi,,,
+rakmhsu.com,2,ror,Ras al-Khaimah Medical and Health Sciences University,,,
+rit.edu,2,ror,Rochester Institute of Technology - Dubai,,,
+skylineuniversity.com,2,ror,Skyline University College,,,

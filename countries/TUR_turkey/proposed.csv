@@ -1,53 +1,71 @@
 hostname,score,sources,label,level,http_status,mx
+balikesir.edu.tr,9,academia;academia;ror,Balıkesir University | Gönen Geothermic Institute,central,,
 mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, Ankara | Consulate General of the United Arab Emirates, Istanbul",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 adiyaman.edu.tr,6,academia;ror,Adıyaman University,central,,
 adu.edu.tr,6,academia;ror,Aydın Adnan Menderes University,central,,
 afsu.edu.tr,6,academia;ror,Afyonkarahisar Health Sciences University,central,,
+agri.edu.tr,6,academia;ror,Ağrı İbrahim Çeçen University,central,,
 agu.edu.tr,6,academia;ror,Abdullah Gül University,central,,
 ahievran.edu.tr,6,academia;ror,Ahi Evran University,central,,
 akdeniz.edu.tr,6,academia;ror,Akdeniz University,central,,
 aksaray.edu.tr,6,academia;ror,Aksaray University,central,,
 aku.edu.tr,6,academia;ror,Afyon Kocatepe University,central,,
+alanya.edu.tr,6,academia;ror,Alanya Alaaddin Keykubat University,central,,
+alparslan.edu.tr,6,academia;ror,Muş Alparslan University,central,,
 amasya.edu.tr,6,academia;ror,Amasya University,central,,
 anadolu.edu.tr,6,academia;ror,Anadolu University,central,,
 ankara.edu.tr,6,academia;ror,Ankara University,central,,
 ardahan.edu.tr,6,academia;ror,Ardahan University,central,,
 artuklu.edu.tr,6,academia;ror,Mardin Artuklu University,central,,
+artvin.edu.tr,6,academia;ror,Artvin Çoruh University,central,,
 asbu.edu.tr,6,academia;ror,Social Sciences University of Ankara,central,,
 atauni.edu.tr,6,academia;ror,Atatürk University,central,,
 atu.edu.tr,6,academia;ror,Adana Alparslan Türkeş Science and Technology University,central,,
 bakircay.edu.tr,6,academia;ror,İzmir Bakırçay University,central,,
-balikesir.edu.tr,6,academia;ror,Balıkesir University,central,,
+bandirma.edu.tr,6,academia;ror,Bandırma Onyedi Eylül University,central,,
+batman.edu.tr,6,academia;ror,Batman University,central,,
 bayburt.edu.tr,6,academia;ror,Bayburt University,central,,
 bilecik.edu.tr,6,academia;ror,Bilecik Şeyh Edebali University,central,,
 bingol.edu.tr,6,academia;ror,Bingöl University,central,,
 bogazici.edu.tr,6,academia;ror,Boğaziçi University,central,,
 bozok.edu.tr,6,academia;ror,Yozgat Bozok University,central,,
+btu.edu.tr,6,academia;ror,Bursa Technical University,central,,
 comu.edu.tr,6,academia;ror,Çanakkale Onsekiz Mart University,central,,
 cu.edu.tr,6,academia;ror,Çukurova University,central,,
 cumhuriyet.edu.tr,6,academia;ror,Sivas Cumhuriyet University,central,,
 deu.edu.tr,6,academia;ror,Dokuz Eylül University,central,,
 dicle.edu.tr,6,academia;ror,Dicle University,central,,
+dpu.edu.tr,6,academia;ror,Kütahya Dumlupınar University,central,,
+duzce.edu.tr,6,academia;ror,Düzce University,central,,
 ebyu.edu.tr,6,academia;ror,Erzincan Binali Yıldırım University,central,,
 ege.edu.tr,6,academia;ror,Ege University,central,,
 erciyes.edu.tr,6,academia;ror,Erciyes University,central,,
+erdogan.edu.tr,6,academia;ror,Recep Tayyip Erdoğan University,central,,
 erzurum.edu.tr,6,academia;ror,Erzurum Technical University,central,,
 eskisehir.edu.tr,6,academia;ror,Eskişehir Technical University,central,,
 firat.edu.tr,6,academia;ror,Fırat University,central,,
 gantep.edu.tr,6,academia;ror,Gaziantep University,central,,
+gazi.edu.tr,6,academia;ror,Gazi University,central,,
 giresun.edu.tr,6,academia;ror,Giresun University,central,,
 gsu.edu.tr,6,academia;ror,Galatasaray University,central,,
 gtu.edu.tr,6,academia;ror,Gebze Technical University,central,,
+gumushane.edu.tr,6,academia;ror,Gümüşhane University,central,,
 hacettepe.edu.tr,6,academia;ror,Hacettepe University,central,,
 hacibayram.edu.tr,6,academia;ror,Ankara Hacı Bayram Veli University,central,,
 harran.edu.tr,6,academia;ror,Harran University,central,,
 hitit.edu.tr,6,academia;ror,Hitit University,central,,
+ibu.edu.tr,6,academia;ror,Abant Izzet Baysal University,central,,
 idu.edu.tr,6,academia;ror,İzmir Democracy University,central,,
 igdir.edu.tr,6,academia;ror,Iğdır University,central,,
+inonu.edu.tr,6,academia;ror,İnönü University,central,,
 iski.istanbul,6,wikidata;wikidata,İSKİ,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.iski.istanbul.; 10 mail2.iski.istanbul.
 isparta.edu.tr,6,academia;ror,Isparta University of Applied Sciences,central,,
+istanbul.edu.tr,6,academia;ror,Istanbul University,central,,
+iste.edu.tr,6,academia;ror,Iskenderun Technical University,central,,
+istiklal.edu.tr,6,academia;ror,Kahramanmaraş İstiklal University,central,,
 itu.edu.tr,6,academia;ror,Istanbul Technical University,central,,
 iuc.edu.tr,6,academia;ror,Istanbul University-Cerrahpaşa,central,,
+iyte.edu.tr,6,academia;ror,İzmir Institute of Technology,central,,
 kafkas.edu.tr,6,academia;ror,Kafkas University,central,,
 karabuk.edu.tr,6,academia;ror,Karabük University,central,,
 karatekin.edu.tr,6,academia;ror,Çankırı Karatekin University,central,,
@@ -58,13 +76,17 @@ kku.edu.tr,6,academia;ror,Kırıkkale University,central,,
 kmu.edu.tr,6,academia;ror,Karamanoğlu Mehmetbey University,central,,
 kocaeli.edu.tr,6,academia;ror,Kocaeli University,central,,
 ksbu.edu.tr,6,academia;ror,Kütahya Health Sciences University,central,,
+ksu.edu.tr,6,academia;ror,Kahramanmaraş Sütçü İmam University,central,,
 ktu.edu.tr,6,academia;ror,Karadeniz Technical University,central,,
 ktun.edu.tr,6,academia;ror,Konya Technical University,central,,
+marmara.edu.tr,6,academia;ror,Marmara University,central,,
 medeniyet.edu.tr,6,academia;ror,Istanbul Medeniyet University,central,,
 mehmetakif.edu.tr,6,academia;ror,Burdur Mehmet Akif Ersoy University,central,,
 mersin.edu.tr,6,academia;ror,Mersin University,central,,
 metu.edu.tr,6,academia;ror,Middle East Technical University,central,,
 mgu.edu.tr,6,academia;ror,Ankara University of Music and Fine Arts,central,,
+mku.edu.tr,6,academia;ror,Hatay Mustafa Kemal University,central,,
+msgsu.edu.tr,6,academia;ror,Mimar Sinan Fine Arts University,central,,
 msu.edu.tr,6,academia;ror,National Defense University,central,,
 mu.edu.tr,6,academia;ror,Muğla Sıtkı Koçman University,central,,
 munzur.edu.tr,6,academia;ror,Munzur University,central,,
@@ -78,7 +100,10 @@ ozal.edu.tr,6,academia;ror,Malatya Turgut Özal University,central,,
 pau.edu.tr,6,academia;ror,Pamukkale University,central,,
 roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Mission in Ankara,,302,none
 sakarya.edu.tr,6,academia;ror,Sakarya University,central,,
+samsun.edu.tr,6,academia;ror,Samsun University,central,,
 selcuk.edu.tr,6,academia;ror,Selçuk University,central,,
+sesric.org,6,wikidata;academia,"Statistical, Economic and Social Research and Training Centre for Islamic Countries",,200,0 sesric-org.mail.protection.outlook.com.
+siirt.edu.tr,6,academia;ror,Siirt University,central,,
 sinop.edu.tr,6,academia;ror,Sinop University,central,,
 sirnak.edu.tr,6,academia;ror,Şırnak University,central,,
 sivas.edu.tr,6,academia;ror,Sivas University of Science and Technology,central,,
@@ -90,80 +115,69 @@ trakya.edu.tr,6,academia;ror,Trakya University,central,,
 uludag.edu.tr,6,academia;ror,Bursa Uludağ University,central,,
 usak.edu.tr,6,academia;ror,Uşak University,central,,
 yalova.edu.tr,6,academia;ror,Yalova University,central,,
+yildiz.edu.tr,6,academia;ror,Yıldız Technical University,central,,
 yuksekihtisasuniversitesi.edu.tr,6,academia;ror,Yüksek İhtisas University,central,,
 yyu.edu.tr,6,academia;ror,Van Yüzüncü Yıl University,central,,
 ankara.mfa.gov.ct.tr,5,wikidata,"Embassy of Northern Cyprus, Ankara",central,200,none
-agri.edu.tr,4,academia,Ağrı İbrahim Çeçen University,central,,
-alanya.edu.tr,4,academia,Alanya Alaaddin Keykubat University,central,,
-alparslan.edu.tr,4,academia,Muş Alparslan University,central,,
 ankara.mfa.gov.hu,4,wikidata,"Hungarian embassy, Ankara",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-artvin.edu.tr,4,academia,Artvin Çoruh University,central,,
 aso.org.tr,4,wikidata,Ankara Chamber of Industry,,200,0 aso-org-tr.mail.protection.outlook.com.
-bandirma.edu.tr,4,academia,Bandırma Onyedi Eylül University,central,,
+ataum.ankara.edu.tr,4,academia,Q6021837,,,
+avim.org.tr,4,academia,Center for Eurasian Studies,,,
 bartin.edu.tr,4,academia,Bartın University,central,,
-batman.edu.tr,4,academia,Batman University,central,,
+bby.hacettepe.edu.tr,4,academia,"Hacettepe University Faculty of Letters, Department of Information Management",,,
 bddk.org.tr,4,wikidata,Banking Regulation and Supervision Agency,,ConnectException,10 mail.bddk.org.tr.
 beun.edu.tr,4,academia,Zonguldak Bülent Ecevit University,central,,
 bitliseren.edu.tr,4,academia,Bitlis Eren University,central,,
-btu.edu.tr,4,academia,Bursa Technical University,central,,
 cbu.edu.tr,4,academia,Manisa Celal Bayar University,central,,
 consulateofpalestine.com.tr,4,wikidata,"Consulate General of Palestine, Istanbul",,403,none
 dho.edu.tr,4,academia,Turkish Naval Academy,central,,
-dpu.edu.tr,4,academia,Kütahya Dumlupınar University,central,,
-duzce.edu.tr,4,academia,Düzce University,central,,
 embassyofpalestine.org.tr,4,wikidata,Embassy of Palestine in Ankara,central,200,10 mail.embassyofpalestine.org.tr.
 en.hu.edu.tr,4,academia,Hakkari University,central,,
 epdk.org.tr,4,wikidata,Energy Market Regulatory Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.epdk.gov.tr.
-erdogan.edu.tr,4,academia,Recep Tayyip Erdoğan University,central,,
 esb.org.tr,4,wikidata,Association of Access Providers (Turkey),,301,1 antispam.esb.org.tr.
-gazi.edu.tr,4,academia,Gazi University,central,,
+eusolar.ege.edu.tr,4,academia,Ege University Solar Energy Institute,,,
+fezagursey.boun.edu.tr,4,academia,Feza Gürsey Institute,,,
 gaziantep.edu.tr,4,academia,Gaziantep University,central,,
-gumushane.edu.tr,4,academia,Gümüşhane University,central,,
 hho.edu.tr,4,academia,Turkish Air Force Academy,central,,
 hu.edu.tr,4,academia,Hakkari University,central,,
 ibg.edu.tr,4,wikidata,Izmir Biomedicine and Genome Center,,200,1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-ibu.edu.tr,4,academia,Abant Izzet Baysal University,central,,
+iibf.deu.edu.tr,4,academia,Dokuz Eylül University Faculty of Economics and Administrative Sciences,,,
 ikc.edu.tr,4,academia,İzmir Kâtip Çelebi University,central,,
-inonu.edu.tr,4,academia,İnönü University,central,,
-istanbul.edu.tr,4,academia,Istanbul University,central,,
-iste.edu.tr,4,academia,Iskenderun Technical University,central,,
+iletisim.gsu.edu.tr,4,academia,Galatasaray Üniversitesi. İletişim Fakültesi,,,
+ims.metu.edu.tr,4,academia,Institute of Marine Sciences,,,
 istihbarat.pol.tr,4,wikidata,Intelligence Presidency of General Directorate of Security,,302,none
-istiklal.edu.tr,4,academia,Kahramanmaraş İstiklal University,central,,
 istka.org.tr,4,wikidata,İstanbul Kalkınma Ajansı,,200,0 istka-org-tr.mail.protection.outlook.com.
 isztambul.mfa.gov.hu,4,wikidata,"Consulate General of Hungary, Istanbul",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 itfaiye.izmir.bel.tr,4,wikidata,İzmir Fire Department,central-1,302,none
-iyte.edu.tr,4,academia,İzmir Institute of Technology,central,,
 izto.org.tr,4,wikidata,İzmir Chamber of Commerce,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.izto.org.tr.
 kardelen.baglar.bel.tr,4,wikidata,Q131170119,,ConnectException,none
 kenyaembassy.org.tr,4,wikidata,"Embassy of Kenya, Ankara",central,200,10 mx.yandex.net.
 kirklareli.edu.tr,4,academia,Kırklareli University,central,,
 konservatuvar.istanbul.edu.tr,4,academia,Istanbul University State Conservatory,central,,
 konya.edu.tr,4,academia,Necmettin Erbakan University,central,,
-ksu.edu.tr,4,academia,Kahramanmaraş Sütçü İmam University,central,,
 kuwaitembassy.org.tr,4,wikidata,Embassy of Kuwait in Ankara,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx02.ofis.net.; 15 mxbackup01.ofis.net.; 5 mx01.ofis.net.
-marmara.edu.tr,4,academia,Marmara University,central,,
-mku.edu.tr,4,academia,Hatay Mustafa Kemal University,central,,
+limnology-bio.metu.edu.tr,4,academia,Limnology Laboratory and Ecosystem Research and Implementation Centre,,,
+med.ege.edu.tr,4,academia,Ege University Faculty of Medicine,,,
 mongolianembassy.com.tr,4,wikidata,"Embassy of Mongolia, Ankara",central,HttpConnectTimeoutException: HTTP connect timed out,10 _dc-mx.2e2e76325947.mongolianembassy.com.tr.
-msgsu.edu.tr,4,academia,Mimar Sinan Fine Arts University,central,,
 nigde.edu.tr,4,academia,Niğde Ömer Halisdemir University,central,,
-samsun.edu.tr,4,academia,Samsun University,central,,
 sbu.edu.tr,4,academia,University of Health Sciences,central,,
 sierraleoneembassy.org.tr,4,wikidata,Embassy of Sierra Leone in Ankara,central,HttpConnectTimeoutException: HTTP connect timed out,0 mx1.teknobay.com.
-siirt.edu.tr,4,academia,Siirt University,central,,
 southafrica.org.tr,4,wikidata,Embassy of South Africa in Ankara,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching southafrica.org.tr found.,0 s0.protection.alastyr.com.; 10 mail.southafrica.org.tr.
 srilanka.org.tr,4,wikidata,Embassy of Sri Lanka in Ankara,central,200,10 mail.srilanka.org.tr.
 tarimkredi.org.tr,4,wikidata,The Agricultural Credit Cooperatives of Turkey,,404,10 mail.tarimkredi.org.tr.
+tesev.org.tr,4,academia,Turkish Economic and Social Studies Foundation,,,
 tmsf.org.tr,4,wikidata,Savings Deposit Insurance Fund of Turkey,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,30 mail3.tmsf.org.tr.; 10 mail.tmsf.org.tr.; 20 mail2.tmsf.org.tr.
 tse.org.tr,4,wikidata,Turkish Standards Institution,,HttpConnectTimeoutException: HTTP connect timed out,10 posta3.tse.org.tr.; 10 posta2.tse.org.tr.
 ttgv.org.tr,4,wikidata,Technology Development Foundation of Turkey,,301,0 ttgv-org-tr.mail.protection.outlook.com.
 turkak.org.tr,4,wikidata,Turkish Accreditation Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.turkak.org.tr.; 10 mail2.turkak.org.tr.
+turkkulturu.org.tr,4,academia,Turkish Cultural Research Institute,,,
 unesco.org.tr,4,wikidata,Turkish National Commission for UNESCO,,200,0 unesco-org-tr.mail.protection.outlook.com.
 uzembassy.org.tr,4,wikidata,Embassy of Uzbekistan in Ankara,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.turkticaret.net.
 ybu.edu.tr,4,academia,Yıldırım Beyazıt University,central,,
-yildiz.edu.tr,4,academia,Yıldız Technical University,central,,
 zambiaembassy.org.tr,4,wikidata,Embassy of Zambia in Ankara,central,308,none
 zimankara.org.tr,4,wikidata,Embassy of Zimbabwe in Ankara,central,200,none
 29mayis.edu.tr,3,ror,Istanbul 29 Mayis University,central,,
+acibadem.edu.tr,3,ror,Acıbadem University,central,,
 alanyauniversity.edu.tr,3,ror,Alanya University,central,,
 altinbas.edu.tr,3,ror,Altınbaş University,central,,
 ambacamturquie.com,3,wikidata,Embassy of Cameroon in Ankara,central,HttpConnectTimeoutException: HTTP connect timed out,0 ambacamturquie-com.mail.protection.outlook.com.
@@ -182,27 +196,35 @@ ankaramedipol.edu.tr,3,ror,Ankara Medipol Üniversitesi,central,,
 antalya.diplo.de,3,wikidata,German Consulate Antalya,,301,10 mx1.bund.de.; 10 mx2.bund.de.
 antalya.edu.tr,3,ror,Antalya Bilim Üniversitesi,central,,
 arel.edu.tr,3,ror,Istanbul Arel University,central,,
+asamturk.org,3,academia,Center for Eurasian Strategic Studies,,,
 atilim.edu.tr,3,ror,Atilim University,central,,
 atlas.edu.tr,3,ror,Atlas Üniversitesi,central,,
 avrasya.edu.tr,3,ror,Avrasya University,central,,
+avsam.org,3,academia,Center for Eurasian Strategic Studies,,,
 aybu.edu.tr,3,ror,Ankara Yıldırım Beyazıt University,central,,
+aydin.edu.tr,3,ror,Istanbul Aydın University,central,,
 basari.edu.tr,3,ror,Canik Başarı University,central,,
 baskent.edu.tr,3,ror,Başkent University,central,,
 bau.edu.tr,3,ror,Bahçeşehir University,central,,
 belek.edu.tr,3,ror,Antalya Belek Üni̇versi̇tesi̇,central,,
+beu.edu.tr,3,ror,Bitlis Eren University,central,,
+beykent.edu.tr,3,ror,Beykent University,central,,
 beykoz.edu.tr,3,ror,Beykoz Üniversitesi,central,,
 bezmialem.edu.tr,3,ror,Bezmiâlem Vakıf Üniversitesi,central,,
+biaa.ac.uk,3,academia,British Institute at Ankara,,,
 bilgi.edu.tr,3,ror,Istanbul Bilgi University,central,,
 bou.edu.tr,3,ror,Bursa Orhangazi University,central,,
 cag.edu.tr,3,ror,Çağ University,central,,
 cankaya.edu.tr,3,ror,Çankaya University,central,,
 dogus.edu.tr,3,ror,Doğuş University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Türkiye,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+elyadal.org,3,academia,Critical-Creative Thinking and Behavioral Research Laboratory,,,
 embassyangolatr.org,3,wikidata,Embassy of Angola in Ankara,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.netbizde.com.tr.
 embassynigeriaturkey.com,3,wikidata,Embassy of Nigeria in Ankara,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.stackmail.com.
 en.biruni.edu.tr,3,ror,Biruni University,central,,
 en.sifa.edu.tr,3,ror,Şifa University,central,,
 english.sanko.edu.tr,3,ror,Sanko University,central,,
+eraren.org,3,academia,Institute for Armenian Research,,,
 erbakan.edu.tr,3,ror,Necmettin Erbakan University,central,,
 esenyurt.edu.tr,3,ror,İstanbul Esenyurt Üniversitesi,central,,
 etu.edu.tr,3,ror,TOBB University of Economics and Technology,central,,
@@ -212,9 +234,12 @@ fbu.edu.tr,3,ror,Fenerbahçe University,central,,
 finlandabroad.fi,3,wikidata,Embassy of Finland in Ankara,central,301,10 mail.valtori.fi.
 fsm.edu.tr,3,ror,Fatih Sultan Mehmet Waqf University,central,,
 galata.edu.tr,3,ror,İstanbul Galata Üniversitesi,central,,
+gelisim.edu.tr,3,ror,İstanbul Gelişim Üniversitesi,central,,
 ghanaembassy-turkey.com,3,wikidata,Embassy of Ghana in Ankara,central,ConnectException,none
+gibtu.edu.tr,3,ror,Gaziantep İslam Bilim ve Teknoloji Üniversitesi,central,,
 gibtu.net,3,academia,Gaziantep Islam Science and Technology University,central,,
 gidatarim.edu.tr,3,ror,Konya Food and Agriculture University,central,,
+globalcenters.columbia.edu,3,academia,Columbia Global Centers,,,
 gop.edu.tr,3,ror,Tokat Gaziosmanpaşa Üniversitesi,central,,
 hakkari.edu.tr,3,ror,Hakkari University,central,,
 halic.edu.tr,3,ror,Haliç University,central,,
@@ -223,6 +248,7 @@ ieu.edu.tr,3,ror,İzmir University of Economics,central,,
 ihu.edu.tr,3,ror,Ibn Haldun University,central,,
 ikcu.edu.tr,3,ror,Izmir Kâtip Çelebi University,central,,
 iku.edu.tr,3,ror,Istanbul Kültür University,central,,
+institut-bosphore.org,3,academia,Institut du Bosphore,,,
 ipek.edu.tr,3,ror,Ipek University,central,,
 isikun.edu.tr,3,ror,Işık University,central,,
 istanbul.china-consulate.org,3,wikidata,"Consulate-General of the People's Republic of China, Istanbul",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -230,6 +256,7 @@ istanbul.consulfrance.org,3,wikidata,"French Consulate General in Istanbul, Turk
 istanbul.diplo.de,3,wikidata,"Consulate General of Germany, Istanbul",,301,10 mx1.bund.de.; 10 mx2.bund.de.
 istanbul.mid.ru,3,wikidata,Consulate-General of Russia in Istanbul,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 istanbulbilim.edu.tr,3,ror,Istanbul Bilim University,central,,
+istinye.edu.tr,3,ror,Istinye University,central,,
 istun.edu.tr,3,ror,Istanbul Health and Technology University,central,,
 izmir.diplo.de,3,wikidata,"Consulate General of Germany, İzmir",,301,10 mx2.bund.de.; 10 mx1.bund.de.
 izmir.edu.tr,3,ror,Izmir University,central,,
@@ -241,8 +268,10 @@ khas.edu.tr,3,ror,Kadir Has University,central,,
 klu.edu.tr,3,ror,Kırklareli University,central,,
 kocaelisaglik.edu.tr,3,ror,Kocaeli Sağlık ve Teknoloji Üniversitesi,central,,
 kstu.edu.tr,3,ror,Kıbrıs Sağlık ve Toplum Bilimleri Üniversitesi,central,,
+ku.edu.tr,3,ror,Koç University,central,,
 lokmanhekim.edu.tr,3,ror,Lokman Hekim Üniversitesi,central,,
 maltepe.edu.tr,3,ror,Maltepe University,central,,
+mcbu.edu.tr,3,ror,Manisa Celal Bayar University,central,,
 medipol.edu.tr,3,ror,Istanbul Medipol University,central,,
 mef.edu.tr,3,ror,MEF University,central,,
 meliksah.edu.tr,3,ror,Meliksah University,central,,
@@ -252,25 +281,31 @@ misiones.cubaminrex.cu,3,wikidata,Embassy of Cuba in Ankara,central,SSLHandshake
 mudanya.edu.tr,3,ror,Mudanya Üniversitesi,central,,
 mzv.cz,3,wikidata,Embassy of the Czech Republic in Ankara,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 mzv.sk,3,wikidata,Embassy of Slovakia in Ankara,central,301,10 mail.gov.sk.
+nanorescenter.com,3,academia,Nanoelectronics Research Center,,,
+nesinkoyleri.org,3,academia,Nesin Mathematics Village,,,
 netherlandsandyou.nl,3,wikidata,Embassy of the Netherlands in Ankara,central,301,0 .
 nisantasi.edu.tr,3,ror,İstanbul Nişantaşı Üniversitesi,central,,
 nny.edu.tr,3,ror,Nuh Naci Yazgan University,central,,
 norway.no,3,wikidata,Embassy of Norway in Ankara,central,301,0 mx.domeneshop.no.
 ohu.edu.tr,3,ror,Niğde Ömer Halisdemir Üniversitesi,central,,
+oiist.org,3,academia,Orient-Institut Istanbul,,,
 okan.edu.tr,3,ror,Okan University,central,,
 ostimteknik.edu.tr,3,ror,Ostim Technical University,central,,
 ozyegin.edu.tr,3,ror,Özyeğin University,central,,
 pakembassyankara.com,3,wikidata,Embassy of Pakistan in Ankara,central,HttpConnectTimeoutException: HTTP connect timed out,none
 pirireis.edu.tr,3,ror,Piri Reis University,central,,
+polarresearch.center,3,academia,Istanbul Technical University Polar Research Center,,,
+rumeli.edu.tr,3,ror,TC İstanbul Rumeli Üniversitesi,central,,
 sehir.edu.tr,3,ror,Istanbul Şehir University,central,,
 senegalbuyukelciligi.com,3,wikidata,Embassy of Senegal in Ankara,central,200,0 senegalbuyukelciligi.com.
-sesric.org,3,wikidata,"Statistical, Economic and Social Research and Training Centre for Islamic Countries",,200,0 sesric-org.mail.protection.outlook.com.
+sharqforum.org,3,academia,Al Sharq Forum,,,
 southsudanankara.org,3,wikidata,Embassy of South Sudan in Ankara,central,200,none
 ssu.edu.tr,3,ror,Süleyman Şah University,central,,
 tedu.edu.tr,3,ror,TED University,central,,
 thk.edu.tr,3,ror,University of Turkish Aeronautical Association,central,,
 ticaret.edu.tr,3,ror,Istanbul Commerce University,central,,
 tinaztepe.edu.tr,3,ror,İzmir Tınaztepe Üniversitesi,central,,
+topkapi.edu.tr,3,ror,Istanbul Topkapi University,central,,
 toros.edu.tr,3,ror,Toros University,central,,
 tr.ambafrance.org,3,wikidata,"Embassy of France, Ankara",central,301,none
 tr.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Ankara",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching tr.china-embassy.org found.,none
@@ -279,8 +314,12 @@ tr.mvep.hr,3,wikidata,Embassy of Croatia in Ankara,central,ConnectException,none
 tuerkei.diplo.de,3,wikidata,"Embassy of Germany, Ankara",central,200,none
 turgutozal.edu.tr,3,ror,Turgut Özal University,central,,
 turkey.mid.ru,3,wikidata,Embassy of Russia in Ankara,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+turkinst.org,3,academia,Turkish Institute of Archaeology,,,
 tyrkiet.um.dk,3,wikidata,embassy of Denmark in Ankara,central,301,none
+uhs.edu.tr,3,ror,Sağlık Bilimleri Üniversitesi,central,,
 uskudar.edu.tr,3,ror,Üsküdar University,central,,
+w3.bartin.edu.tr,3,ror,Bartin University,central,,
+w3.beun.edu.tr,3,ror,Zonguldak Bülent Ecevit University,central,,
 w3.bilkent.edu.tr,3,ror,Bilkent University,central,,
 w3.sdu.edu.tr,3,ror,Süleyman Demirel Üniversitesi,central,,
 ww3.gedik.edu.tr,3,ror,Gedik University,central,,

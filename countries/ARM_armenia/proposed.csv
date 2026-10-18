@@ -1,6 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
 parliament.am,8,wikidata;wikidata;wikidata;wikidata,National Assembly of Armenia,central,301,10 mail.parliament.am.
-armstat.am,7,wikidata;wikidata;wikidata;academia,Statistical Committee of Armenia | National Statistical Service,central,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
+armstat.am,7,wikidata;wikidata;wikidata;academia;academia,Statistical Committee of Armenia | National Statistical Service,central,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
 edu.am,7,wikidata;wikidata,Ministry of Education and Science,central,HttpConnectTimeoutException: HTTP connect timed out,10 webmail.edu.am.
 mfa.am,7,wikidata;wikidata,Ministry of Foreign Affairs of Armenia,central,400,10 ferrum.mfa.am.
 mil.am,7,wikidata;wikidata,Ministry of Defence of Armenia,central,400,10 mail.mil.am.
@@ -15,31 +15,50 @@ aspu.am,6,academia;ror,Armenian State Pedagogical University,central,,
 cassationcourt.am,6,wikidata,Court of Cassation of Armenia,,HttpConnectTimeoutException: HTTP connect timed out,none
 concourt.am,6,wikidata,Constitutional Court of Armenia,central,200,10 mail.concourt.am.
 ysu.am,6,academia;ror,Yerevan State University,central,,
+aab.sci.am,4,academia,H.Buniatian Institute of Biochemistry,,,
+aanl.am,4,academia,Yerevan Physics Institute,,,
 academhistory.am,4,academia,Institute of History of National Academy of Sciences of Armenia,central,,
 anra.am,4,wikidata,Armenian Nuclear Regulatory Authority,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.anra.am.
 armarchives.am,4,wikidata,National Archives of Armenia,,200,none
+arts.sci.am,4,academia,Institute of Art of Armenia,,,
 aviation.am,4,wikidata,Civil Aviation Committee of Armenia,central,400,10 mail.aviation.am.
+candle.am,4,academia,Center for the Advancement of Natural Discoveries using Light Emission,,,
 cba.am,4,wikidata,Central Bank of Armenia,,301,10 smtp.cba.am.
+cens.am,4,academia,Center for Ecological Noosphere Studies,,,
+cmsa.am,4,academia,Crisis Management State Academy,,,
 datalex.am,4,wikidata,DataLex,,200,0 datalex.am.
 escs.am,4,wikidata,"Ministry of Education, Science, Culture and Sports of Armenia",,403,10 mail.escs.am.
 faa.am,4,wikidata,Armenian Automobile Federation,,HttpTimeoutException: request timed out,0 faa.am.
+historyofarmenia-am.armin.am,4,academia,Institute for Armenian Studies of YSU,,,
 iae.am,4,academia,Institute of Archaeology and Ethnography of National Academy of Sciences of Armenia,central,,
 iapp.sci.am,4,academia,Institute of Applied Problems of Physics of National Academy of Sciences of Armenia,central,,
+iges.am,4,academia,Institute of Geophysics and Engineering Seismology after A. Nazarov,,,
+ipia.sci.am,4,academia,Institute for Informatics and Automation Problems,,,
+ipr.sci.am,4,academia,Institute for Physical Research,,,
 ipsl.sci.am,4,academia,"Institute of Philosophy, Sociology and Law of National Academy of Sciences of Armenia",central,,
 irphe.am,4,academia,Institute of Radiophysics & Electronics of National Academy of Sciences of Armenia,central,,
 langcom.am,4,wikidata,Language Committee,,200,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.
+matenadaran.am,4,academia,Matenadaran,,,
 mofa.gov.ae,4,wikidata,Embassy of the UAE in Armenia,,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+morevmankan.am,4,academia,Research Center of Maternal and Child Health Protection,,,
+msu.am,4,academia,"Moscow State University, Yerevan Branch",,,
 nih.am,4,academia,National Institute of Health,central,,
 nla.am,4,wikidata,National Library of Armenia,,200,none
+noravank.am,4,academia,Noravank Foundation,,,
 nssp-gov.am,4,wikidata,Armenian National Survey for Seismic Protection,,ConnectException,none
+orient.sci.am,4,academia,Institute of Oriental Studies of Armenia,,,
 petekamutner.am,4,wikidata,State Revenue Committee (Armenia),,ConnectException: Host is unreachable,20 mx201.petekamutner.am.; 10 mx101.petekamutner.am.
+physiol.sci.am,4,academia,L. A. Orbeli Institute of Physiology NAS RA,,,
 polytech.am,4,academia,National Polytechnic University of Armenia,central,,
 prosecutor.am,4,wikidata,Prosecutor General of Armenia,,200,10 mail.prosecutor.am.
 psrc.am,4,wikidata,Public Services Regulatory Commission,,400,10 mail.psrc.am.
+sci.am,4,academia,Institute of Hydroponics Problems after G. S. Davtyan,,,
 scs.am,4,wikidata,State Committee of Science,,301,0 mx.scs.am.
+sczhe.sci.am,4,academia,Scientific Center of Zoology and Hydroecology,,,
 sns.am,4,wikidata,National Security Service,central,400,5 mg.sns.am.
 sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Yerevan",central,ConnectException,none
 stateproperty.am,4,wikidata,State Property Management Committee,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.stateproperty.am.
+stcopc.sci.am,4,academia,Institute of Fine Organic Chemistry,,,
 tvradio.am,4,wikidata,Commission on TV and Radio of Armenia,,200,10 tvradio.am.
 tvradiocouncil.am,4,wikidata,Public Broadcasting Council,,301,10 mx.zoho.com.; 20 mx2.zoho.com.; 50 mx3.zoho.com.
 yerevan.am,4,wikidata,"Council of the Elders, Yerevan",,301,10 mx1.yerevan.am.
@@ -56,6 +75,7 @@ eiu.am,3,ror,Eurasia International University,central,,
 erevan.mae.ro,3,wikidata,"Embassy of Romania, Yerevan",central,503,none
 eriwan.diplo.de,3,wikidata,"Embassy of Germany, Yerevan",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 eua.am,3,ror,European University of Armenia,central,,
+fizecomed.com,3,academia,Sscientific Research Institute of Spa Treatment and Phisical  Medicinehealth,,,
 gsu.am,3,ror,Gavar State University,central,,
 haybusak.am,3,ror,Yerevan Haybusak University,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Armenia,central,302,0 mfa-bg.mail.protection.outlook.com.
@@ -72,7 +92,9 @@ stmu.am,3,ror,St. Theresa's Medical University of Yerevan,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Yerevan",central,301,none
 ufar.am,3,ror,Fondation Université Française en Arménie,central,,
 vsu.am,3,ror,Vanadzor State University,central,,
+yeolyan.org,3,academia,Haematology center after professor Rouben Yeolyan,,,
 aipo.am,2,wikidata;wikidata;wikidata,Intellectual Property Agency of Armenia,,307,10 mx1.beget.com.; 20 mx2.beget.com.
 arbitrage.am,2,wikidata;wikidata;wikidata,Q25486289,,200,none
+botany.am,2,academia;academia;academia,Institute of Botany of Armenia | Sevan Botanical Garden | Yerevan Botanical Garden,,,
 cadastre.am,2,wikidata;wikidata;wikidata,Cadastre Committee,,400,10 mail.cadastre.am.; 20 mail1.cadastre.am.
 ysmu.net,2,ror,Yerevan State Medical University,central,,

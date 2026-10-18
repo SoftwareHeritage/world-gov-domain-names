@@ -1,25 +1,35 @@
 hostname,score,sources,label,level,http_status,mx
+lu.lv,9,academia;academia;ror,Q50378801 | University of Latvia,central,,
 arhivi.lv,7,wikidata;wikidata,Latvijas Valsts kinofotofonodokumentu arhīvs | State Archive of Personnel Files,,HttpConnectTimeoutException: HTTP connect timed out,0 arhivi-lv.mail.protection.outlook.com.
 likumi.lv,7,linkgraph,Linked from 33 public-sector domains,,200,0 likumi-lv.mail.protection.outlook.com.
 valoda.lv,7,wikidata;wikidata,The Latvian Language Agency,,200,1 valoda-lv.mail.protection.outlook.com.
 jesuiten.org,6,wikidata;wikidata,Jesuit Province of Central Europe,,301,10 jesuiten-org.mail.protection.outlook.com.
-lu.lv,6,academia;ror,University of Latvia,central,,
 roc-taiwan.org,6,wikidata;wikidata,Taipei Mission in the Republic of Latvia | Taipei Mission in Latvia,central,302,none
 rtu.lv,6,academia;ror,Riga Technical University,central,,
 adazi.lv,4,wikidata,Q90307473,central-1,302,0 adazi-lv.mail.protection.outlook.com.
 archiv.org.lv,4,wikidata,Latvian State Archive,,200,none
 bank.lv,4,wikidata,Bank of Latvia,,301,0 bank-lv.q-v1.mx.microsoft.
+botanika.lu.lv,4,academia,Botanical Garden of the University of Latvia,,,
 cesis.lv,4,wikidata,Q90309861,central-1,301,0 cesis-lv.mail.protection.outlook.com.
+cfi.lu.lv,4,academia,"Institute of Solid State Physics, University of Latvia",,,
 cvk.lv,4,wikidata,Central Election Commission,central,200,5 mx2.cvk.lv.
+fei-web.lv,4,academia,Institute of Physical Energetics,,,
+kki.lv,4,academia,Latvian State Institute of Wood Chemistry,,,
 latmb.lv,4,wikidata,Metrology Bureau,,301,10 latmb-lv.mail.protection.outlook.com.
+lhei.lv,4,academia,Latvian Institute of Aquatic Ecology,,,
 liepaja.lv,4,wikidata,Liepaja City Council,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mailz.liepaja.lv.
+liia.lv,4,academia,The Latvian Institute of International Affairs,,,
 lja.lv,4,wikidata,Maritime Administration of Latvia,,301,0 lja-lv.mail.protection.outlook.com.
 lnb.lv,4,wikidata,National Library of Latvia,,301,10 mx.lnb.lv.
+lubi.edu.lv,4,academia,University of Latvia Institute of Biology,,,
+lumii.lv,4,academia,"Institute of Mathematics and Computer Science, University of Latvia",,,
+lvi.lu.lv,4,academia,UL Institute of Latvian History,,,
 mantojums.lv,4,wikidata,National Heritage Board of Latvia,,200,0 mantojums-lv.mail.protection.outlook.com.
 memorialiemuzeji.lv,4,wikidata,Association of Memorial Museums,,200,0 memorialiemuzeji-lv.mail.protection.outlook.com.
 meteo.lv,4,wikidata,"Latvian Environment, Geology and Meteorology Centre",,302,10 lidaka.lvgmc.lv.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Riga",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 neplpadome.lv,4,wikidata,National Electronic Mass Media Council,,301,0 neplpadome-lv.mail.protection.outlook.com.
+osi.lv,4,academia,Latvian Institute of Organic Synthesis,,,
 president.lv,4,wikidata,Chancery of the President of Latvia,,301,20 mail.president.lv.; 5 mail1.president.lv.
 prokuratura.lv,4,wikidata,Prosecution Office of the Republic of Latvia,,302,50 fm.prokuratura.lv.
 riga.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Riga",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -28,6 +38,8 @@ tiesas.lv,4,wikidata,Q90298932,,301,10 mx2.tm.gov.lv.; 20 mx1.tm.gov.lv.
 tukums.lv,4,wikidata,Tukums Municipality council,central-1,301,10 mail.tukums.lv.
 unesco.lv,4,wikidata,Latvian National Commission for UNESCO,,301,20 mx2.latnet.lv.; 10 mx.latnet.lv.
 uzembassy.lv,4,wikidata,embassy of Uzbekistan in Latvia,central,200,5 mail.streamnetworks.lv.
+videsinstituts.lv,4,academia,Institute for Enviromental Solutions,,,
+vitae.lv,4,academia,Mūžizglītības un kultūras institūts “Vitae”,,,
 augstskola.lv,3,ror,EKA University of Applied Sciences,central,,
 du.lv,3,ror,Daugavpils University,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Latvia,central,301,10 mail.valtori.fi.

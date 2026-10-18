@@ -9,26 +9,40 @@ unjbg.edu.pe,6,academia;ror,Jorge Basadre Grohmann National University,central,,
 unmsm.edu.pe,6,academia;ror,National University of San Marcos,central,,
 unsa.edu.pe,6,academia;ror,National University of St Augustin of Arequipa,central,,
 unsaac.edu.pe,6,academia;ror,National University of San Antonio Abad in Cusco,central,,
-unsch.edu.pe,6,academia;ror,San Cristóbal of Huamanga University,central,,
 ancyt.org.pe,4,wikidata,Academia Nacional de Ciencia y Tecnología,,ConnectException,none
 barrioperu.terra.com.pe,4,wikidata,embassy of Finland in Peru,central,HttpConnectTimeoutException: HTTP connect timed out,none
 camaradeancash.org.pe,4,wikidata,"Chamber of Commerce, Industry and Tourism of Ancash",,301,1 SMTP.GOOGLE.COM.
 camcopiura.org.pe,4,wikidata,Chamber of Commerce and Production of Piura,,200,0 mail.camcopiura.org.pe.
 cenfotur.edu.pe,4,wikidata,CENFOTUR,,ConnectException,0 cenfotur-edu-pe.mail.protection.outlook.com.
+ciup.up.edu.pe,4,academia,Centro de Investigación de la Universidad del Pacífico,,,
 comiunesco.org.pe,4,wikidata,Peruvian National Commission of Cooperation for UNESCO,,ConnectException,none
 consuladopanamalima.com.pe,4,wikidata,"Embassy of Panama, Lima",central,ConnectException,none
+csociales.unmsm.edu.pe,4,academia,Q137945754,,,
 dafo.cultura.pe,4,wikidata,"Audiovisual, Phonography and New Media Directorate",,200,none
 dhn.mil.pe,4,wikidata,Q138412009,,ConnectException,10 mail.dhn.mil.pe.; 0 dhn-antispam.in.tmes.trendmicro.com.
 dicapi.mil.pe,4,wikidata,Peruvian Coast Guard,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp.dicapi.mil.pe.
 embajada-alemana.org.pe,4,wikidata,"Embassy of Germany, Lima",central,301,10 mx2.us.opalstack.com.; 10 mx1.us.opalstack.com.
 embajadabrasil.org.pe,4,wikidata,"Embassy of Brazil, Lima",central,HttpConnectTimeoutException: HTTP connect timed out,none
 embajadadevenezuela.pe,4,wikidata,"Embassy of Venezuela, Lima",,403,none
+enlinea.unsch.edu.pe,4,academia,National University of San Cristóbal de Huamanga,central,,
 finlandiaperu.org.pe,4,wikidata,embassy of Finland in Peru,central,ConnectException,none
+gerens.pe,4,academia,Escuela de Postgrado Gěrens,,,
+grupomacro.pe,4,academia,Q67614801,,,
 idc.edu.pe,4,wikidata,Public Technological Higher Education Institute Design and Communication,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.
+iep.org.pe,4,academia,Instituto de Estudios Peruanos,,,
+iespomc.edu.pe,4,academia,Octavio Matta Contreras Higher Pedagogical Institute,,,
+ifea.org.pe,4,academia,Institut Français d'Études Andines,,,
+ild.org.pe,4,academia,Institute for Liberty and Democracy,,,
 indembassy.org.pe,4,wikidata,"Embassy of India, Lima",central,403,none
+ipe.org.pe,4,academia,Q49042075,,,
+ira.pucp.edu.pe,4,academia,Instituto Riva Agüero,,,
+jpardo.edu.pe,4,academia,Q5917731,,,
+letras.unmsm.edu.pe,4,academia,Q139972513,,,
 lima.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Lima",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 mecuadorperu.org.pe,4,wikidata,"Embassy of Ecuador, Lima",central,HttpConnectTimeoutException: HTTP connect timed out,0 mail.mecuadorperu.org.pe.
+medicina.unmsm.edu.pe,4,academia,Q20016896,,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Lima",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+nbs.edu.pe,4,academia,Newman Graduate School,,,
 panaembaperu.com.pe,4,wikidata,"Embassy of Panama, Lima",central,200,0 panaembaperu.com.pe.
 portal.inen.sld.pe,4,wikidata,National Institute of Neoplastic Diseases,,200,none
 qhapaqnan.cultura.pe,4,wikidata,Q134475876,,200,none
@@ -37,12 +51,19 @@ toulouselautrec.edu.pe,4,wikidata,Q139572807,,301,10 aspmx3.googlemail.com.; 5 a
 unat.edu.pe,4,academia,Universidad Nacional Autónoma de Tayacaja Daniel Hernández Morillo,central,,
 unca.edu.pe,4,academia,Universidad Nacional Ciro Alegría,central,,
 uni.edu.pe,4,academia,National University of Engineering,central,,
+www2.urp.edu.pe,4,academia,Q118961535,,,
 ambafrance-pe.org,3,wikidata,"Embassy of France, Lima",central,ConnectException,5 mta-gw.infomaniak.ch.
+apoyoconsultoria.com,3,academia,Q67614938,,,
 autonoma.pe,3,ror,Universidad Autónoma del Perú,central,,
 autonomadeica.edu.pe,3,ror,Universidad Autónoma de Ica,central,,
 bausate.edu.pe,3,ror,Universidad Jaime Bausate y Meza,central,,
+besteamperu.org,3,academia,Behavioral Economics & Data Science Team,,,
+biomakerslab.wixsite.com,3,academia,Biomakers Lab,,,
 cayetano.edu.pe,3,ror,Universidad Peruana Cayetano Heredia,central,,
 cientifica.edu.pe,3,ror,Universidad Científica del Sur,central,,
+cincia.wfu.edu,3,academia,Q89703779,,,
+cipotato.org,3,academia,International Potato Center,,,
+corbidi.org,3,academia,CORBIDI,,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Peru,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
 embajadacostaricaenperu.org,3,wikidata,"Embassy of Costa Rica, Lima",central,301,none
 embajadadeboliviaenperu.com,3,wikidata,"Embassy of Bolivia, Lima",central,IOException: Received RST_STREAM: Protocol error,none
@@ -51,9 +72,11 @@ embhondurasperu.com,3,wikidata,"Embassy of Honduras, Lima",central,200,1 SMTP.GO
 esan.edu.pe,3,ror,Esan University,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Peru,central,301,10 mail.valtori.fi.
 inudi.edu.pe,3,ror,Instituto Universitario de Innovación Ciencia y Tecnología Inudi Perú,central,,
+lamolina.edu.pe,3,ror,Universidad Nacional Agraria La Molina,central,,
 lima.diplo.de,3,wikidata,"Embassy of Germany, Lima",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 lima.mae.ro,3,wikidata,"Embassy of Romania, Lima",central,503,none
 lima.thaiembassy.org,3,wikidata,"Embassy of Thailand, Lima",central,200,none
+materiniciativa.com,3,academia,Mater Iniciativa,,,
 mfa.gr,3,wikidata,"Embassy of Greece, Lima",central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,"Embassy of the Czech Republic, Lima",central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 palestinaperu.com,3,wikidata,"Embassy of the State of Palestine, Lima",central,200,none
@@ -66,6 +89,7 @@ pucp.edu.pe,3,ror,Pontificia Universidad Católica del Perú,central,,
 uancv.edu.pe,3,ror,Universidad Andina Néstor Cáceres Velásquez,central,,
 uandina.edu.pe,3,ror,Universidad Andina del Cusco,central,,
 uap.edu.pe,3,ror,Universidad Alas Peruanas,central,,
+uarm.edu.pe,3,ror,Universidad Antonio Ruiz de Montoya,central,,
 ucal.edu.pe,3,ror,University of Sciences and Arts of Latin America,central,,
 uch.edu.pe,3,ror,Universidad de Ciencias y Humanidades,central,,
 ucontinental.edu.pe,3,ror,Universidad Continental,central,,
@@ -82,9 +106,12 @@ udl.edu.pe,3,ror,Universidad de Lambayeque,central,,
 uigv.edu.pe,3,ror,Universidad Inca Garcilaso de la Vega,central,,
 ujcm.edu.pe,3,ror,Universidad José Carlos Mariategui,central,,
 uladech.edu.pe,3,ror,Catholic University Los Angeles of Chimbote,central,,
+ulasalle.edu.pe,3,ror,Universidad La Salle,central,,
+ulasamericas.edu.pe,3,ror,Universidad Peruana de Las Américas,central,,
 ulcb.edu.pe,3,ror,Universidad Le Cordon Bleu,central,,
 ulima.edu.pe,3,ror,Universidad de Lima,central,,
 uma.edu.pe,3,ror,Universidad María Auxiliadora,central,,
+umb.edu.pe,3,ror,Universidad Privada Juan Mejía Baca,central,,
 umch.edu.pe,3,ror,Universidad Marcelino Champagnat,central,,
 unaaa.edu.pe,3,ror,Universidad Nacional Autónoma de Alto Amazonas,central,,
 unab.edu.pe,3,ror,Universidad Nacional de Barranca,central,,
@@ -96,6 +123,7 @@ unamba.edu.pe,3,ror,Universidad Nacional Micaela Bastidas de Apurimac,central,,
 unapiquitos.edu.pe,3,ror,Universidad Nacional de la Amazonía Peruana,central,,
 unasam.edu.pe,3,ror,Universidad Nacional Santiago Antúnez de Mayolo,central,,
 unc.edu.pe,3,ror,National University of Cajamarca,central,,
+uncp.edu.pe,3,ror,Universidad Nacional del Centro del Perú,central,,
 undac.edu.pe,3,ror,Daniel Alcides Carrión National University,central,,
 undar.edu.pe,3,ror,Universidad Nacional Daniel Alomía Robles,central,,
 undc.edu.pe,3,ror,Universidad Nacional de Cañete,central,,
@@ -107,12 +135,14 @@ unia.edu.pe,3,ror,Universidad Nacional Intercultural de la Amazonía,central,,
 unibagua.edu.pe,3,ror,"Universidad Nacional Intercultural ""Fabiola Salazar LeguÍa"" de Bagua",central,,
 unife.edu.pe,3,ror,Universidad Femenina del Sagrado Corazón,central,,
 uniscjsa.edu.pe,3,ror,Universidad Nacional Intercultural de la Selva Central Juan Santos Atahualpa,central,,
+unitru.edu.pe,3,ror,National University of Trujillo,central,,
 unj.edu.pe,3,ror,Universidad Nacional de Jaén,central,,
 unjfsc.edu.pe,3,ror,Universidad Nacional José Faustino Sánchez Carrión,central,,
 unm.edu.pe,3,ror,Universidad Nacional de Música,central,,
 unp.edu.pe,3,ror,Universidad Nacional de Piura,central,,
 unprg.edu.pe,3,ror,Universidad Nacional Pedro Ruíz Gallo,central,,
 uns.edu.pe,3,ror,Universidad Nacional del Santa,central,,
+unsch.edu.pe,3,ror,San Cristóbal of Huamanga University,central,,
 unsm.edu.pe,3,ror,Universidad Nacional de San Martín,central,,
 untels.edu.pe,3,ror,Universidad Nacional Tecnológica de Lima Sur,central,,
 untrm.edu.pe,3,ror,National University Toribio Rodríguez de Mendoza,central,,
@@ -145,3 +175,5 @@ utec.edu.pe,3,ror,Universidad de Ingeniería y Tecnología,central,,
 utp.edu.pe,3,ror,Universidad Tecnológica del Perú,central,,
 uwiener.edu.pe,3,ror,Universidad Norbert Wiener,central,,
 web2.unfv.edu.pe,3,ror,Federico Villarreal National University,central,,
+www-hs.yamagata-u.ac.jp,3,academia,Yamagata University Institute of Nasca,,,
+yamagata-u.ac.jp,3,academia,Yamagata University Institute of Nasca,,,

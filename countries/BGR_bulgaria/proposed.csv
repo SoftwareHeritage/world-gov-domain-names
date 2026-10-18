@@ -4,6 +4,7 @@ government.bg,10,wikidata;linkgraph,Council of Ministers of Bulgaria,central,200
 parliament.bg,10,wikidata;wikidata;linkgraph,National Assembly of Bulgaria,central,200,20 viper.parliament.bg.; 10 snake.parliament.bg.
 cpdp.bg,8,wikidata;linkgraph,Commission for Personal Data Protection,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.hc2569-70.eu.iphmx.com.; 10 mx2.hc2569-70.eu.iphmx.com.
 bda.bg,7,wikidata;wikidata,Bulgarian Drug Agency,central,301,100 bda-bg.q-v1.mx.microsoft.; 0 mx1.hc2569-70.eu.iphmx.com.; 0 mx2.hc2569-70.eu.iphmx.com.
+bio21.bas.bg,7,academia;academia,Q126112062 | Q70604739,,,
 bnb.bg,7,wikidata;wikidata,Bulgarian National Bank,,200,10 mail2.bnbank.org.; 10 mail.bnbank.org.
 cpc.bg,7,wikidata;wikidata,Commission for Protection of Competition,central,403,10 mail.cpc.bg.
 dar.bg,7,wikidata;wikidata,State Intelligence Agency,central,302,0 mail.dar.bg.
@@ -30,6 +31,7 @@ appd-bg.org,6,wikidata;wikidata,Executive Agency for Exploration and Maintenance
 bulgarien.um.dk,6,wikidata;wikidata,embassy of Denmark in Bulgaria,central,301,none
 mu-varna.bg,6,academia;ror,Medical University of Varna,central,,
 nvu.bg,6,academia;ror,Vasil Levski National Military University,central,,
+shu.bg,6,academia;ror,Shumen University,central,,
 uni-sofia.bg,6,academia;ror,Sofia University,central,,
 unwe.bg,6,academia;ror,University of National and World Economy,central,,
 aba.government.bg,4,wikidata,State Agency for Bulgarians Abroad,central,200,0 mail.aba.government.bg.
@@ -51,6 +53,7 @@ armymedia.bg,4,wikidata,Information Center of the Ministry of Defence,,HttpConne
 asenovgrad.bg,4,wikidata,Asenovgrad,,403,0 _dc-mx.07f6f1b43d99.asenovgrad.bg.
 asp.government.bg,4,wikidata,Social Assistance Agency,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.asp.government.bg.; 5 mx2.hc2569-70.eu.iphmx.com.; 5 mx1.hc2569-70.eu.iphmx.com.
 asparuhovo.bg,4,wikidata,Asparuhovo,,301,0 asparuhovo.bg.
+astro.bas.bg,4,academia,Institute of Astronomy of the Bulgarian Academy of Sciences,,,
 avren.bg,4,wikidata,Avren,,200,20 mx20.cmailpro.net.; 30 mx30.cmailpro.net.; 40 mx40.cmailpro.net.; 10 mx10.cmailpro.net.
 az.government.bg,4,wikidata,Employment Agency,central,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,10 az-government-bg.mail.protection.outlook.com.
 babiak.selo.bg,4,wikidata,Babyak,,ConnectException,none
@@ -58,6 +61,7 @@ balchik.bg,4,wikidata,Balchik,,301,5 mbox.balchik.bg.
 banite.egov.bg,4,wikidata,Banite,,302,10 mx1.egov.bg.; 20 mx2.egov.bg.
 bankya.bg,4,wikidata,Bankya District,,200,1 smtp.google.com.
 bansko.bg,4,wikidata,Bansko,,200,10 mail.bansko.bg.
+bas.bg,4,academia,Institute for Parallel Processing,,,
 batak.bg,4,wikidata,Batak,,403,20 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
 bd-dunav.bg,4,wikidata,River Basin Directorate - Danube,,301,none
 bdi.bg,4,wikidata,Bulgarian Diplomatic Institute,,200,0 bdi.bg.
@@ -67,6 +71,7 @@ berkovitca.iag.bg,4,wikidata,Regional Forest Directorate - Berkovitza,central-1,
 berkovitsa.bg,4,wikidata,Berkovitsa,,301,0 berkovitsa.bg.
 bfsa.egov.bg,4,wikidata,Bulgarian Food Safety Agency,,302,none
 bim.government.bg,4,wikidata,Bulgarian Institute of Metrology,,200,10 mail.bim.government.bg.
+biomed.bas.bg,4,academia,Institute of Biophysics and Biomedical Engineering,,,
 bl.government.bg,4,wikidata,Blagoevgrad,,HttpConnectTimeoutException: HTTP connect timed out,none
 blagoevgrad-adms.justice.bg,4,wikidata,Administrative Court - Blagoevgrad,central-1,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
 blagoevgrad-os.justice.bg,4,wikidata,District Court - Blagoevgrad,central-1,200,15 mx2.justice.bg.; 10 mx1.justice.bg.
@@ -112,6 +117,7 @@ constcourt.bg,4,wikidata,Constitutional Court of Bulgaria,central,200,none
 corhv.government.bg,4,wikidata,Risk Assessment Center on Food chain,,200,none
 cposa.bg,4,wikidata,Commision for public oversight of statutory auditors,central,301,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
 crc.bg,4,wikidata,Communications Regulation Commission,central,200,20 mx02.crc.bg.; 10 mx01.crc.bg.
+csd.bg,4,academia,Center for the Study of Democracy,,,
 culture-mfa.bg,4,wikidata,State Institute for Culture under the Minister of Foreign Affairs,,301,0 localhost.
 customs.bg,4,wikidata,National Customs Agency,,302,10 mail2.customs.bg.; 10 mail.customs.bg.
 dalgopol.bg,4,wikidata,Dalgopol,,200,0 dalgopol.bg.
@@ -180,11 +186,23 @@ iamn.bg,4,wikidata,Medical Supervision Executive Agency,central,HttpConnectTimeo
 iara-iss.egov.bg,4,wikidata,Executive Agency for Fisheries and Aquaculture,central,HttpConnectTimeoutException: HTTP connect timed out,none
 iasas.government.bg,4,wikidata,"Executive Agency for Variety Testing, Field Inspection and Seed Control",central,HttpConnectTimeoutException: HTTP connect timed out,none
 ibl.bas.bg,4,wikidata,Institute for Bulgarian Language,,HttpConnectTimeoutException: HTTP connect timed out,none
+iche.bas.bg,4,academia,Institute of Chemical Engineering,,,
+ie-bas.dir.bg,4,academia,Institute of Electronics,,,
+iees.bas.bg,4,academia,Institute of Electrochemistry and Energy Systems,,,
+igic.bas.bg,4,academia,Q126101670,,,
+iict.bas.bg,4,academia,Institute of Information and Communication Technologies,,,
+iit.bas.bg,4,academia,Institute of Information Technologies,,,
+ikht.bg,4,academia,Institute of Cryobiology and Food Technology,,,
 ilinden.sofia.bg,4,wikidata,Ilinden District,,200,none
+imbm.bas.bg,4,academia,Institute of Mechanics,,,
+inrne.bas.bg,4,academia,Institute for Nuclear Research and Nuclear Energy,,,
 inspectoratvss.bg,4,wikidata,Q136528835,,HttpConnectTimeoutException: HTTP connect timed out,none
 investbg.government.bg,4,wikidata,InvestBulgaria Agency,central,200,none
+ipc.bas.bg,4,academia,Rostislaw Kaischew Institute of Physical Chemistry,,,
+ir.bas.bg,4,academia,Institute of Robotics,,,
 iskarbg.bg,4,wikidata,Iskar,,HttpConnectTimeoutException: HTTP connect timed out,none
 isperih.bg,4,wikidata,Isperih,,200,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+issp.bas.bg,4,academia,Institute of Solid State Physics,,,
 ivanovo.bg,4,wikidata,Ivanovo,,HttpConnectTimeoutException: HTTP connect timed out,none
 ivaylovgrad.bg,4,wikidata,Ivaylovgrad,,HttpConnectTimeoutException: HTTP connect timed out,10 secondary-mx.mail.bg.; 5 mx-balancer.mail.bg.
 iztochen-plovdiv.bg,4,wikidata,Eastern district,,HttpConnectTimeoutException: HTTP connect timed out,0 iztochen-plovdiv.bg.
@@ -243,6 +261,7 @@ madzharovo.bg,4,wikidata,Madzharovo,,302,none
 maglizh.bg,4,wikidata,Maglizh,,HttpConnectTimeoutException: HTTP connect timed out,none
 marad.bg,4,wikidata,Executive Agency Maritime Administration,central,HttpConnectTimeoutException: HTTP connect timed out,none
 maritsa.bg,4,wikidata,Maritsa,,HttpConnectTimeoutException: HTTP connect timed out,none
+math.bas.bg,4,academia,Institute of Mathematics and Informatics,,,
 medkovec.bg,4,wikidata,Medkovets,,200,10 shmail55.medkovec.bg.
 meteo.bg,4,academia,National Institute of Meteorology and Hydrology,central,,
 mezdra.bg,4,wikidata,Mezdra,,301,none
@@ -296,6 +315,7 @@ odesos.bg,4,wikidata,Odessos,,HttpConnectTimeoutException: HTTP connect timed ou
 omurtag.bg,4,wikidata,Omurtag,,200,none
 opaka.bg,4,wikidata,Opaka,,HttpConnectTimeoutException: HTTP connect timed out,none
 opan.bg,4,wikidata,Opan,,HttpConnectTimeoutException: HTTP connect timed out,none
+orgchm.bas.bg,4,academia,Q126101596,,,
 oriahovo.bg,4,wikidata,Oryahovo,,HttpConnectTimeoutException: HTTP connect timed out,none
 ovchakupel.bg,4,wikidata,Ovcha Kupel District,,HttpConnectTimeoutException: HTTP connect timed out,none
 panagyurishte.bg,4,wikidata,Panagyurishte,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -332,6 +352,7 @@ plovdiv-vs.justice.bg,4,wikidata,Military Court - Plovdiv,central-1,200,10 mx1.j
 plovdiv.bg,4,wikidata,Plovdiv,,301,none
 plovdiv.iag.bg,4,wikidata,Regional Forest Directorate - Plovdiv,central-1,ConnectException,none
 poduyane.sofia.bg,4,wikidata,Poduyane District,,200,none
+polymer.bas.bg,4,academia,Q61917084,,,
 popovo.bg,4,wikidata,Popovo,,301,none
 pordim.bg,4,wikidata,Pordim,,302,none
 pravets.bg,4,wikidata,Pravets,,200,none
@@ -458,6 +479,7 @@ sofia.iag.bg,4,wikidata,Regional Forest Directorate - Sofia,central-1,HttpConnec
 sofoblast.egov.bg,4,wikidata,Sofia Oblast,,HttpConnectTimeoutException: HTTP connect timed out,none
 south-plovdiv.bg,4,wikidata,Southern district,,HttpConnectTimeoutException: HTTP connect timed out,10 spamexpert02.host.bg.; 10 spamexpert01.host.bg.
 sozopol.bg,4,wikidata,Sozopol,,200,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
+space.bas.bg,4,academia,Space Research and Technology Institute,,,
 sredets.bg,4,wikidata,Sredets,,HttpConnectTimeoutException: HTTP connect timed out,none
 srzi.bg,4,wikidata,Regional Health Inspectorate - Sofia City,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 ss.government.bg,4,wikidata,Silistra,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -598,9 +620,14 @@ gramada.net,3,wikidata,Gramada,,HttpConnectTimeoutException: HTTP connect timed 
 hadzhidimovo.com,3,wikidata,Hadzhidimovo,,200,none
 hayredin.com,3,wikidata,Hayredin,,HttpConnectTimeoutException: HTTP connect timed out,none
 hitrino.org,3,wikidata,Hitrino,,HttpConnectTimeoutException: HTTP connect timed out,none
+iaps.institute,3,academia,Institute for Advanced Physical Studies,,,
 iasrj.eu,3,wikidata,Executive Agency for Selection and Reproduction in Animal Breeding,central,HttpConnectTimeoutException: HTTP connect timed out,10 spamexpert01.host.bg.; 10 spamexpert02.host.bg.
 ihtiman-obshtina.com,3,wikidata,Ihtiman,,HttpConnectTimeoutException: HTTP connect timed out,none
+insait.ai,3,academia,INSAIT,,,
 instytutpolski.pl,3,wikidata,Polish Institute in Sofia,,HttpConnectTimeoutException: HTTP connect timed out,none
+ipn-bg.org,3,academia,Institute for the State and the Law - Bulgarian Academy of Sciences,,,
+ips-bas.org,3,academia,Institute for the Study of Societies and Knowledge,,,
+ira-plovdiv.com,3,academia,Institute of Fisheries and Aquaculture,,,
 kaloianovo.org,3,wikidata,Kaloyanovo,,HttpConnectTimeoutException: HTTP connect timed out,none
 karnobat.acstre.com,3,wikidata,Karnobat,,HttpConnectTimeoutException: HTTP connect timed out,0 smtp.acstre.com.
 kaspichan.org,3,wikidata,Kaspichan,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -686,7 +713,7 @@ rzi-vratsa.com,3,wikidata,Regional Health Inspectorate - Vratsa,central-1,301,no
 rzipz.net,3,wikidata,Regional Health Inspectorate - Pazardzhik,central-1,ConnectException,none
 selo-smilyan.com,3,wikidata,Smilyan,,307,none
 septemvri.org,3,wikidata,Septemvri,,301,none
-shu.bg,3,ror,Shumen University,central,,
+shu-bg.net,3,academia,Shumen University,,,
 slivopole.ru-se.com,3,wikidata,Slivo pole,,ConnectException,none
 smolyan.riosv.com,3,wikidata,Regional Inspectorate of Environment and Water - Smolyan,central-1,200,none
 so-slatina.org,3,wikidata,Slatina District,,200,0 SMTP.GOOGLE.COM.

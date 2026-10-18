@@ -10,34 +10,61 @@ grsu.by,6,academia;ror,Yanka Kupala State University of Grodno,central,,
 mspu.by,6,academia;ror,Mozyr State Pedagogical University named after I.P. Shamyakin,central,,
 pijarzy.pl,6,wikidata;wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
 supcourt.by,6,wikidata,Supreme Court of Belarus,central,ConnectException,none
+belcmt.by,4,academia,RSPC MT,,,
+beldornii.by,4,academia,Q86860461,,,
 belniig.by,4,academia,Scientific and Practical Center of the National Academy of Sciences of Belarus on Animal Husbandry,central,,
 bgam.by,4,academia,Belarusian State Academy of Music,central,,
+bievm.by,4,academia,Institute of Experimental Veterinary Medicine,,,
 biobel.by,4,academia,Scientific-Practical Center National Academy of Sciences of Belarus on bioresources,central,,
+blood.by,4,academia,Q63345602,,,
+botany.by,4,academia,V. F. Kuprevich Institute of Experimental Botany,,,
+cbg.org.by,4,academia,"Central Botanical Garden, Minsk",,,
 cci.by,4,wikidata,Belarusian Chamber of Commerce and Industry,,301,30 mailbe07.hoster.by.
+cniitu.by,4,academia,Q124032444,,,
 cricuwr.by,4,academia,Central Research Institute for the Integrated Use of Water Resources,central,,
+dhc.by,4,academia,Q114801594,,,
 economics.basnet.by,4,academia,Institute of Economics of the National Academy of Sciences of Belarus,central,,
 embavenez.by,4,wikidata,"Embassy of Venezuela, Minsk",central,ConnectException,none
 en.grsu.by,4,academia,Yanka Kupala State University of Grodno,central,,
 fond.bas-net.by,4,wikidata,Belarusian Republican Foundation for Fundamental Research,,200,10 smx1.hoster.by.
 gomel-region.by,4,wikidata,Homel Regional Council of Deputies,central-1,ConnectException,none
+gzir.by,4,academia,Q65591052,,,
+ifanbel.basnet.by,4,academia,B.I. Stepanov Institute of Physics,,,
 igic.bas-net.by,4,academia,Institute of General and Inorganic Chemistry of the National Academy of Sciences of Belarus,central,,
+iml.belcentre.by,4,academia,Yakub Kolas Institute of Linguistics,,,
+institut-gkh.by,4,academia,Institute of Housing and Communal Services,,,
+institut-lna.by,4,academia,Institute of Flax,,,
+instlab.by,4,academia,Q93290695,,,
+instmmp.by,4,academia,Institute for the Meat and Dairy Industry,,,
+ipe.by,4,academia,Institute of Power Engineering,,,
+itmo.by,4,academia,A.V. Luikov Heat and Mass Transfer Institute,,,
+maps.by,4,academia,State Center for Cartographic and Geodetic Materials and Data of the Republic of Belarus,,,
+mbio.bas-net.by,4,academia,Institute of Microbiology,,,
+meir.by,4,academia,Q111217685,,,
+mentalhealth.by,4,academia,Q61742220,,,
 minszk.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Minsk",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+mniirm.by,4,academia,Minsk Research Institute of Radiomaterials,,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Minsk",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 narb.by,4,wikidata,National Archives of Belarus,,302,10 emx.mail.ru.
 nca.by,4,wikidata,Q137565559,,200,10 ksmg.nca.by.
+niism.by,4,academia,Q94643489,,,
 niptis.by,4,academia,Q55849239,central,,
 nlb.by,4,wikidata,National Library of Belarus,,200,10 ksmg.nlb.by.
 nunciature.catholic.by,4,wikidata,Apostolic Nunciature to Belarus,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nunciature.catholic.by found.,none
 philosophy.by,4,academia,Institute of Philosophy of the National Academy of Sciences of Belarus,central,,
+phti.by,4,academia,Physical Technical Institute,,,
 pl.instpol.by,4,wikidata,Polish Institute in Minsk,,301,none
+pminstitute.by,4,academia,Powder Metallurgy Institute,,,
 refor.by,4,academia,Institute of System Researches in Agroindustrial Complex of of the National Academy of Sciences of Belarus,central,,
 rnpcpf.by,4,academia,Republican Scientific and Practical Centre of Pulmonology and Tuberculosis,central,,
 socio.bas-net.by,4,academia,Institute of Sociology of the National Academy of Sciences of Belarus,central,,
+sosny.bas-net.by,4,academia,Joint Institute for Power and Nuclear Research,,,
 tajembassy.by,4,wikidata,embassy of Tajikistan in Belarus,central,200,10 mail.tajembassy.by.
 uiip.bas-net.by,4,academia,United Institute of Informatics Problems of the National Academy of Sciences of Belarus,central,,
 barsu.by,3,ror,Baranavichy State University,central,,
 belarus.mid.ru,3,wikidata,"Embassy of Russia, Minsk",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 belarusembassy.orderofmalta.int,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Minsk",central,200,none
+belinstitute.com,3,academia,Belarusian Institute for Strategic Studies,,,
 belstu.by,3,ror,Belarusian State Technological University,central,,
 bgut.by,3,ror,Belarusian State University of Food and Chemical Technologies,central,,
 bntu.by,3,ror,Belarusian National Technical University,central,,
@@ -54,6 +81,7 @@ bteu.by,3,ror,Belarusian Trade-Economic University of Consumer Cooperation,centr
 buk.by,3,ror,Belarusian State University of Culture and Arts,central,,
 by.ambafrance.org,3,wikidata,"Embassy of France, Minsk",central,301,none
 by.mfa.lt,3,wikidata,"Embassy of Lithuania, Minsk",central,403,none
+cet.eurobelarus.info,3,academia,Centre for European Transformation,,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Belarus,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 finlandabroad.fi,3,wikidata,"Liaison Office of Finland, Minsk",,301,10 mail.valtori.fi.
 grsmu.by,3,ror,Grodno State Medical University,central,,
@@ -79,4 +107,4 @@ ucp.by,3,ror,University of Civil Protection,central,,
 vsmu.by,3,ror,Vitebsk State Medical University,central,,
 vstu.by,3,ror,Vitebsk State Technological University,central,,
 vsu.by,3,ror,Vitebsk State University named after P.M. Masherov,central,,
-belriem.by,2,wikidata;wikidata;wikidata,Belarusian Research Institute for Epidemiology and Microbiology,,200,20 ms5.g-cloud.by.; 10 mg.g-cloud.by.
+belriem.by,2,wikidata;wikidata;wikidata;academia,Belarusian Research Institute for Epidemiology and Microbiology,,200,20 ms5.g-cloud.by.; 10 mg.g-cloud.by.

@@ -1,7 +1,10 @@
 hostname,score,sources,label,level,http_status,mx
+univ-annaba.dz,9,academia;academia;ror,Badji Mokhtar-Annaba University | Laboratoire de Physique des Rayonnements,central,,
+usthb.dz,9,academia;academia;ror,"Laboratoire d'Énergétique et de Mécanique Théorique et Appliquée | University of Science and Technology, Houari Boumediene",central,,
 ansej.org.dz,7,wikidata;wikidata,Agence nationale de soutien à l'emploi des jeunes,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 cerist.dz,7,wikidata;academia,Centre de Recherche sur l'Information Scientifique et Technique,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cerist.dz found.,20 mx02.cerist.dz.; 10 mx.cerist.dz.
-dgf.org.dz,7,wikidata;wikidata,Q25386281 | Q25387129,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.djaweb.dz.
+crasc.dz,7,academia;academia,Centre de Recherche en Anthropologie Sociale et Culturelle | Centre of Research in Social and Cultural Anthropology,central,,
+crstra.dz,7,academia;academia,Centre de Recherche Scientifique et Technique sur les Régions Arides | Q2945447,central,,
 dgsn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata,Algerian police | General Directorate of National Security,central,ConnectException,none
 elmadjlis-hci.dz,7,wikidata;wikidata,Supreme Islamic Council of Algeria,,301,10 mail.elmadjlis-hci.dz.
 inrf.dz,7,academia;academia,Institut National de Recherche Forestière | National Forest Research Institute,central,,
@@ -17,12 +20,11 @@ el-mouradia.dz,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: H
 univ-alger.dz,6,academia;ror,University of Algiers 1,central,,
 univ-alger2.dz,6,academia;ror,Algiers 2 University,central,,
 univ-alger3.dz,6,academia;ror,University of Algiers 3,central,,
-univ-annaba.dz,6,academia;ror,Badji Mokhtar-Annaba University,central,,
 univ-bejaia.dz,6,academia;ror,University of Béjaïa,central,,
 univ-boumerdes.dz,6,academia;ror,M'hamed Bougara University of Boumerdès,central,,
 univ-chlef.dz,6,academia;ror,Hassiba Benbouali University of Chlef,central,,
+univ-oran1.dz,6,academia;ror,Laboratoire de Chimie Physique,central,,
 univ-saida.dz,6,academia;ror,Université Tahar Moulay de Saida,central,,
-usthb.dz,6,academia;ror,"University of Science and Technology, Houari Boumediene",central,,
 wikidata.org,6,wikidata;wikidata,Ministry of Agriculture and Rural Development,central,301,10 mx-in2001.wikimedia.org.; 10 mx-in1001.wikimedia.org.
 abhcsm.dz,4,wikidata,Agence de Bassin Hydrographique Constantinois-Seybousse-Mellegue,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching abhcsm.dz found.,none
 alnaft.dz,4,wikidata,National agency for the valorization of hydrocarbon resource,,ConnectException,10 mx2.alnaft.dz.; 10 mx1.alnaft.dz.
@@ -41,11 +43,10 @@ cnrst.dz,4,wikidata,Q110229043,,SSLHandshakeException: (certificate_unknown) PKI
 conseil-constitutionnel.dz,4,wikidata,Constitutional Council of Algeria,,ConnectException,10 mail.conseil-constitutionnel.dz.
 courdalger.mjustice.dz,4,wikidata,Sidi Mhamed Courthouse,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 courdeboumerdes.mjustice.dz,4,wikidata,Boumerdès Court,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-crasc.dz,4,academia,Centre de Recherche en Anthropologie Sociale et Culturelle,central,,
 crbt.dz,4,academia,Centre de Recherche en Biotechnologie,central,,
 cread.dz,4,academia,Centre de Recherche en Économie Appliquée pour le Développement,central,,
+crlca.dz,4,academia,Q132803949,,,
 crstdes.dz,4,academia,Centre de Recherche Scientifique et Technique sur le Développement Économique et Social,central,,
-crstra.dz,4,academia,Centre de Recherche Scientifique et Technique sur les Régions Arides,central,,
 crti.dz,4,academia,Centre de Recherche en Technologies Industrielles,central,,
 crtsc.dz,4,academia,Centre de Recherche Scientifique et Technique en Soudage et Contrôle Industriel,central,,
 cu-tipaza.dz,4,academia,Centre Universitaire Morsli Abdellah de Tipaza,central,,
@@ -53,9 +54,12 @@ de-boumerdes.dz,4,wikidata,Boumerdès Province School District,central-1,SSLHand
 dgpc.dz,4,wikidata,Algerian Civil Defence,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.dgpc.dz.
 dgrsdt.dz,4,wikidata,Directorate for Scientific Research and Technological Development,,302,0 mx.dgrsdt.dz.
 eniem.com.dz,4,wikidata,ENIEM,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mx.eniem.com.dz.
+enssea.dz,4,academia,AES Algiers,,,
 hcamazighite.dz,4,wikidata,Haut-Conseil à l'amazighité,,302,0 hcamazighite.dz.
 hcla.dz,4,wikidata,Supreme Council of the Arabic language in Algeria,,200,0 ssl0.icosnethosting.com.
 ina-elections.dz,4,wikidata,Independent National Authority Of Elections,,200,10 mail.ina-elections.dz.
+ismas.dz,4,academia,Higher Institute of Performing Arts and Audiovisual Professions,,,
+larhyss.univ-biskra.dz,4,academia,Laboratoire de Recherche en Hydraulique Souterraine et de Surface,,,
 majliselouma.dz,4,wikidata,Council of the Nation,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.majliselouma.dz.
 marw.dz,4,wikidata,Religious Affairs Directorate of Algiers Province,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.marw.dz.; 10 mail1.marw.dz.
 meteo.dz,4,wikidata,National Meteorological Office,,HttpConnectTimeoutException: HTTP connect timed out,0 smtp.meteo.dz.; 10 smtp1.meteo.dz.
@@ -63,6 +67,8 @@ minagri.dz,4,wikidata,"Ministere de l'Agriculture, du Développement Rural et de
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Algiers",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 onplc.org.dz,4,wikidata,Q42900066,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 onpo.dz,4,wikidata,Q25453161,,200,10 mail.onpo.dz.
+pasteur.dz,4,academia,Pasteur Institute of Algeria,,,
+services-veterinaires.dz,4,academia,Laboratoire Central Vétérinaire d'Alger,,,
 unesco.dz,4,wikidata,"Algerian National Commission for Education, Science and Culture",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.unesco.dz.
 alger.mae.ro,3,wikidata,"Embassy of Romania, Alger",central,503,none
 algerie.mid.ru,3,wikidata,Embassy of Russia in Algeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -70,6 +76,8 @@ algeriet.um.dk,3,wikidata,embassy of Denmark in Algeria,central,HttpConnectTimeo
 algier.diplo.de,3,wikidata,"Embassy of Germany, Algiers",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 amb-rasd.org,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Algiers",central,200,10 amb-rasd.org.; 20 amb-rasd.org.
 ar.cu-tipaza.dz,3,ror,Centre Universitaire Morsli Abdellah de Tipaza,central,,
+centre-univ-mila.dz,3,ror,Centre Universitaire de Mila,central,,
+cu-aflou.dz,3,ror,University Center of Aflou,central,,
 cu-barika.dz,3,ror,University Center of Barika,central,,
 cu-elbayadh.dz,3,ror,Centre Universitaire Nour Bachir El Bayadh,central,,
 cu-maghnia.dz,3,ror,University Centre of Maghnia,central,,
@@ -95,6 +103,7 @@ ensc.dz,3,ror,École Normale Supérieure de Constantine,central,,
 ensh.dz,3,ror,École Nationale Supérieure d'Hydraulique,central,,
 ensjsi.dz,3,ror,École Nationale Supérieure de Journalisme et des Sciences de l’Information,central,,
 ensm.edu.dz,3,ror,École Nationale Supérieure Maritime,central,,
+ensnn.dz,3,ror,National School of Nanoscience and Nanotechnology,central,,
 ensti-annaba.dz,3,ror,National Higher School of Technology and Engineering Annaba,central,,
 epau-alger.edu.dz,3,ror,École Polytechnique d'Architecture et d'Urbanisme,central,,
 esaa.dz,3,ror,École Supérieure Algérienne des Affaires,central,,
@@ -105,20 +114,26 @@ esgen.edu.dz,3,ror,The Higher School of Management and Digital Economy,central,,
 esi-sba.dz,3,ror,École Supérieure en Informatique de Sidi Bel Abbes,central,,
 esi.dz,3,ror,École Nationale Supérieure d'Informatique,central,,
 esm.dz,3,ror,École Supérieure de la Magistrature,central,,
+essa-tlemcen.dz,3,ror,École Supérieure en Sciences Appliquées de Tlemcen,central,,
 esss.dz,3,ror,École Supérieure de la Sécurité Sociale,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Algeria,central,301,10 mail.valtori.fi.
+hammagarden.com,3,academia,Botanical Garden of Hamma,,,
 hns-re2sd.dz,3,ror,"Higher National School of Renewable Energies, Environment & Sustainable Development",central,,
 inapi.org,3,wikidata,Algerian National Industrial Property Institute,central,301,dig error
 lagh-univ.dz,3,ror,Amar Telidji University of Laghouat,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Algeria,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Algeria,central,403,10 mailhost.mfa.gr.
+mouvement-citoyen-algerie.org,3,academia,Q107155632,,,
 mzv.cz,3,wikidata,embassy of the Czech republic in Algeria,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 norway.no,3,wikidata,"Embassy of Norway, Algiers",central,301,0 mx.domeneshop.no.
 ona-dz.org,3,wikidata,Q138331984,,301,0 ona-dz.org.
 onedd.org,3,wikidata,Q91092821,,200,1 mail.onedd.org.
 onsm-dz.com,3,wikidata,National Maritime Signaling Office,,200,0 onsm-dz.com.
+sites.google.com,3,academia,Laboratoire de Phytochimie et de Synthèse Organique,,,
+sonatrach.com,3,academia,Algerian Petroleum Institute,,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Algiers",central,301,none
 ufc.dz,3,ror,Université de la Formation Continue (UFC),central,,
+umc.edu.dz,3,ror,University Frères Mentouri Constantine 1,central,,
 ummto.dz,3,ror,Mouloud Mammeri University of Tizi-Ouzou,central,,
 univ-adrar.dz,3,ror,Ahmed Draia University,central,,
 univ-batna.dz,3,ror,University of Batna 1,central,,
@@ -127,6 +142,8 @@ univ-bba.dz,3,ror,University Mohamed El Bachir El Ibrahimi of Bordj Bou Arreridj
 univ-bechar.dz,3,ror,University of Bechar,central,,
 univ-biskra.dz,3,ror,University of Biskra,central,,
 univ-blida.dz,3,ror,University of Blida,central,,
+univ-blida2.dz,3,ror,University of Blida 2,central,,
+univ-bouira.dz,3,ror,University of Bouira,central,,
 univ-constantine2.dz,3,ror,Université Constantine 2,central,,
 univ-constantine3.dz,3,ror,University of Constantine 3,central,,
 univ-dbkm.dz,3,ror,Université Djilali Bounaama Khemis Miliana,central,,
@@ -142,7 +159,7 @@ univ-mascara.dz,3,ror,Université Mustapha Stambouli de Mascara,central,,
 univ-medea.dz,3,ror,University Yahia Fares of Medea,central,,
 univ-mosta.dz,3,ror,Université de Mostaganem,central,,
 univ-msila.dz,3,ror,University Mohamed Boudiaf of M'sila,central,,
-univ-oran1.dz,3,ror,Université Oran 1 Ahmed Ben Bella,central,,
+univ-oeb.dz,3,ror,Larbi Ben M'hidi University of Oum El Bouaghi,central,,
 univ-oran2.dz,3,ror,Université d'Oran 2,central,,
 univ-ouargla.dz,3,ror,University of Ouargla,central,,
 univ-relizane.dz,3,ror,Ahmed Zabana University - Relizane,central,,
@@ -157,7 +174,9 @@ univ-tiaret.dz,3,ror,Université IBN Khaldoun Tiaret,central,,
 univ-tissemsilt.dz,3,ror,Tissemsilt University,central,,
 univ-tlemcen.dz,3,ror,University of Abou Bekr Belkaïd,central,,
 univ-usto.dz,3,ror,Université des Sciences et de la Technologie d'Oran Mohamed Boudiaf,central,,
+comena.dz,2,academia;academia;academia;academia,Centre de Recherche Nucléaire d'Alger | Centre de Recherche Nucléaire de Birine | Centre de Recherche Nucléaire de Draria | Centre de Recherche Nucléaire de Tamenghasset,,,
 cour-constitutionnelle.dz,2,wikidata;wikidata;wikidata,Constitutional Court (Algeria) | Constitutional Council of Algeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.cour-constitutionnelle.dz.
+dgf.org.dz,2,wikidata;wikidata;academia;academia,Q25386281 | Q25387129,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.djaweb.dz.
 mjustice.dz,2,wikidata;wikidata;wikidata,Ministry of Justice | Boumerdès Court,central,301,10 mailserver.mjustice.dz.
 pau-au.africa,2,ror,Pan African University Institute of Water and Energy Science,central,,
 univ-khenchela.com,2,ror,Abbès Laghrour University of Khenchela,central,,

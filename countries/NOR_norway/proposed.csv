@@ -1,4 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
+en.uit.no,7,academia;academia,Tromsø University Museum | University of Tromsø – The Arctic University of Norway,central,,
 eos-utvalget.no,7,wikidata;wikidata,Norwegian Parliamentary Intelligence Oversight Committee,,200,10 eosutvalget-no0i.mail.protection.outlook.com.
 etikkom.no,7,wikidata;wikidata,Norwegian National Research Ethics Committees,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching etikkom.no found.,0 etikkom-no.mail.protection.outlook.com.
 finnmarkssykehuset.no,7,wikidata;wikidata,Finnmark Hospital Trust,,301,10 finnmarkssykehuset-no.mail.protection.outlook.com.
@@ -6,6 +7,7 @@ kartverket.no,7,wikidata;wikidata,Norwegian Mapping Authority,,200,10 kartverket
 kriminalomsorgen.no,7,wikidata;wikidata,Norwegian Correctional Service | Directorate of Correctional Services,,308,10 kriminalomsorg.in.tmes.trendmicro.eu.; 99 kriminalomsorg.in.tmes.trendmicro.com.
 nfk.no,7,wikidata;wikidata,Board of the Nordland county municipality,central-1,301,10 nfk-no.mail.protection.outlook.com.
 norges-bank.no,7,wikidata;wikidata,Norges Bank,,301,0 norgesbank-no01e.i-v1.mx.microsoft.
+ntnu.no,7,academia;academia,Q25431427 | Q30139905,,,
 oslo.kommune.no,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Gravferdsetaten i Oslo kommune | Oslo city government | Q11981507 | Q103826469 | Rådhusets forvaltningstjeneste | Q56405730 | Q19384867 | Q12008634 | Fornebubanen,central-1,301,1 oslokommune.mail.protection.outlook.com.
 psykiskhelse.no,7,wikidata;wikidata,Norwegian Council for Mental Health,,200,0 psykiskhelse-no.mail.protection.outlook.com.
 radetfordyreetikk.no,7,wikidata;wikidata,Council for Animal Ethics,,301,10 mx01.osl.inic.no.; 10 mx02.osl.inic.no.
@@ -14,10 +16,14 @@ samordnaopptak.no,7,wikidata;wikidata,Norwegian Universities and Colleges Admiss
 sikt.no,7,wikidata;wikidata,Norwegian Agency for Shared Services in Education and Research,,200,0 sikt-no.o-v1.mx.microsoft.
 unesco.no,7,wikidata;wikidata,Norwegian National Commission for UNESCO | Q17765624,,200,0 unesco-no.mail.protection.outlook.com.
 visitalta.no,7,wikidata;wikidata,VISIT ALTA AS,,200,0 visitalta-no.mail.protection.outlook.com.
+crop.org,6,wikidata;academia,Comparative Research Programme on Poverty,,ConnectException: Host is unreachable,none
 nobelpeaceprize.org,6,wikidata;wikidata,Norwegian Nobel Institute,,301,10 nobelpeaceprize-org.mail.protection.outlook.com.
 norwegen.ahk.de,6,wikidata;wikidata,German-Norwegian Chamber of Commerce,,302,none
+uia.no,6,academia;ror,Agder Natural History Museum and Botanical Garden,central,,
 uio.no,6,academia;ror,University of Oslo,central,,
+unik.no,6,academia;ror,UNIK,central,,
 lovdata.no,5,linkgraph,Linked from 6 public-sector domains,,200,10 lovdata-no.mail.protection.outlook.com.
+ntnu.edu,5,academia;ror,Kavli Institute for Systems Neuroscience / Centre For Neural Computation,central,,
 abm-utvikling.no,4,wikidata,"Norwegian Archive, Library and Museum Authority",,200,none
 advnemnda.no,4,wikidata,Advokatnemnda,central,200,0 advnemnda-no.mail.protection.outlook.com.
 afghanistanembassy.no,4,wikidata,"Embassy of Afghanistan, Oslo",central,200,2 route1.mx.cloudflare.net.; 67 route3.mx.cloudflare.net.; 8 route2.mx.cloudflare.net.
@@ -29,20 +35,26 @@ atb.no,4,wikidata,AtB,,301,5 atb-no.mail.protection.outlook.com.
 barents.no,4,wikidata,Norwegian Barents Secretariat,,301,10 barents-no.mail.protection.outlook.com.
 bergen-chamber.no,4,wikidata,Bergen Chamber of Commerce and Industry,,301,20 gw1.security.comendo.com.; 30 gw2.security.comendo.com.; 10 gw5.security.comendo.com.
 bergenhavn.no,4,wikidata,Q11960671,,308,10 bergenhavn-no.mail.protection.outlook.com.
+bjerknes.uib.no,4,academia,Bjerknes Centre for Climate Research,,,
 brakar.no,4,wikidata,Brakar,,200,0 brakar-no.mail.protection.outlook.com.
 brann-og-redningsetaten.oslo.kommune.no,4,wikidata,Q18646822,,200,1 oslokommune.mail.protection.outlook.com.
 brannmidt.no,4,wikidata,Brannvesenet Midt IKS,,200,0 brannmidt-no.mail.protection.outlook.com.
 brsk.no,4,wikidata,Q11992098,,301,0 brsk-no.mail.protection.outlook.com.
 bystyret.oslo.kommune.no,4,wikidata,Oslo City Council,central-1,200,none
+cage.uit.no,4,academia,"Centre for Arctic Gas Hydrate, Environment and Climate",,,
+cas.oslo.no,4,academia,Centre for Advanced Study at the Norwegian Academy of Science and Letters,,,
 chamber.no,4,wikidata,Oslo Chamber of Commerce,,200,10 chamber-no.mail.protection.outlook.com.
+cicero.oslo.no,4,academia,CICERO Center for International Climate Research,,,
+cmi.no,4,academia,Chr. Michelsen Institute,,,
 deksa.no,4,wikidata,Norwegian Agency for Export Control and Sanctions,,200,0 deksa-no.mail.protection.outlook.com.
 detnorskeakademi.no,4,wikidata,Norwegian Academy,,301,0 mail.detnorskeakademi.no.
 dio.dep.no,4,wikidata,Q123862765,central,301,0 dio-dep-no.mail.protection.outlook.com.
 doga.no,4,wikidata,Norwegian Centre for Design and Architecture,,HttpConnectTimeoutException: HTTP connect timed out,5 doga-no.mail.protection.outlook.com.
 eldreombudet.no,4,wikidata,Norwegian Ombudsman for the Ageing,,ConnectException,0 .
 en.south-norway.no,4,wikidata,South Norway European Office,,ConnectException,none
-en.uit.no,4,academia,University of Tromsø – The Arctic University of Norway,central,,
+epx.no,4,academia,Earth and Planetary Exploration Services,,,
 etterretningstjenesten.no,4,wikidata,Norwegian Intelligence Service,,307,0 .
+fafo.no,4,academia,Fafo Foundation,,,
 farte.no,4,wikidata,Farte,central-1,301,10 farte-no.mail.protection.outlook.com.
 fma.no,4,wikidata,Norwegian Defence Materiel Agency,,307,0 fma-no.mail.protection.outlook.com.
 folkeuniversitetet.no,4,academia,Folkeuniversitet,central,,
@@ -57,8 +69,11 @@ helfo.no,4,wikidata,Norwegian Health Economics Administration,,307,0 helfo-no.ma
 helse-stavanger.no,4,wikidata,Stavanger Health Trust,,301,10 helsestavanger-no01c.mail.protection.outlook.com.
 helseklage.no,4,wikidata,National Office for Health Service Appeals,,301,0 helseklage-no.mail.protection.outlook.com.
 hi.no,4,academia,Norwegian Institute of Marine Research,central,,
+ife.no,4,academia,Institute for Energy Technology,,,
+initiativvest.no,4,academia,Initiativ Vest,,,
 innlandstrafikk.no,4,wikidata,Innlandstrafikk,,200,0 innlandstrafikk-no.mail.protection.outlook.com.
 iranembassy.no,4,wikidata,"Embassy of Iran, Oslo",central,ConnectException,none
+iskf.no,4,academia,Institute for Comparative Research in Human Culture,,,
 jernbanedirektoratet.no,4,wikidata,Norwegian Railway Directorate,,301,0 jernbanedirektoratet-no.mail.protection.outlook.com.
 kdir.no,4,wikidata,Klareringsdirektoratet,,ConnectException,0 .
 klif.no,4,wikidata,Norwegian Climate and Pollution Agency,,301,0 klif-no.mail.protection.outlook.com.
@@ -68,19 +83,33 @@ kompetansenorge.no,4,wikidata,Skills Norway,,SSLHandshakeException: (certificate
 koronakommisjonen.no,4,wikidata,Norwegian Covid-19 Commission,,301,20 mx1.fd.dep.no.; 20 mx2.fd.dep.no.
 kulturradet.no,4,wikidata,Arts Council Norway,,301,0 kulturradet-no.mail.protection.outlook.com.
 kunnskapssenteret.no,4,wikidata,Norwegian Knowledge Centre for Health Services,,404,none
+langsikt.no,4,academia,Langsikt – Centre for Long-Term Policy,,,
 ldo.no,4,wikidata,Equality and Anti-Discrimination Ombud,,200,10 ldo-no.mail.protection.outlook.com.
 likestillingsombudet.no,4,wikidata,Gender Equality Ombud,,HttpConnectTimeoutException: HTTP connect timed out,none
 lokalhistorie.no,4,wikidata,Norwegian Institute of Local History,,301,10 lokalhistorie-no.mail.protection.outlook.com.
 marintmiljo.no,4,wikidata,Norwegian Centre for Oil Spill Preparedness and Marine Environment,,ConnectException,0 marintmiljo-no.mail.protection.outlook.com.
+med.uio.no,4,academia,Centre for Molecular Medicine Norway,,,
 meklingsnemnda.no,4,wikidata,Norwegian Mediation Board for Employee Inventions,,200,none
 mid-norway.no,4,wikidata,Trøndelags Europakontor,,301,5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
 miljoklagenemnda.no,4,wikidata,Q25429074,,301,10 miljoklagenemnda-no.mail.protection.outlook.com.
 miljovernfondet.no,4,wikidata,Svalbard Environmental Protection Fund,,301,10 mx.domeneshop.no.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Oslo",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+molab.no,4,academia,Molab,,,
+moreforsk.no,4,academia,Møreforsking,,,
+nammco.no,4,academia,North Atlantic Marine Mammal Commission,,,
+naturmuseum.no,4,academia,Agder Natural History Museum and Botanical Garden,,,
 nccc.no,4,wikidata,Q19384043,,200,10 nccc-no.mail.protection.outlook.com.
+nersc.no,4,academia,Nansen Environmental and Remote Sensing Center,,,
+nhm.uio.no,4,academia,Natural History Museum in Oslo,,,
+nilf.no,4,academia,Norwegian Agricultural Economics Research Institute,,,
+nilu.no,4,academia,Norwegian Institute for Air Research,,,
 niva.no,4,academia,Norwegian Institute for Water Research,central,,
+nkvts.no,4,academia,Norwegian Centre for Violence and Traumatic Stress Studies,,,
 nlb.no,4,wikidata,Norwegian Library of Talking Books and Braille,,301,10 nlb-no.mail.protection.outlook.com.
+nofima.no,4,academia,Nofima,,,
+norceresearch.no,4,academia,NORCE Research AS,,,
 nord-gudbrandsdal.no,4,wikidata,Regionrådet i Nord-Gudbrandsdal,,302,10 mx01.osl.inic.no.
+norsar.no,4,academia,NORSAR,,,
 npolar.no,4,wikidata,Norwegian Polar Institute,,200,0 npolar-no.mail.protection.outlook.com.
 nrcc.no,4,wikidata,Norwegian-Russian Trade Council,,525,none
 ntfk.no,4,wikidata,Avdeling for Utdanning Nord-Trøndelag Fylkeskommune,,HttpConnectTimeoutException: HTTP connect timed out,10 trondelagfylke-no.mail.protection.outlook.com.
@@ -92,41 +121,58 @@ ostfold-kollektiv.no,4,wikidata,Østfold kollektivtrafikk,,200,10 mxa.eu.mailgun
 palestine.no,4,wikidata,mission of the State of Palestine in Norway,central,200,0 .
 pasientreiser.no,4,wikidata,Pasientreiser,,301,10 mx.sykehuspartner.no.
 personvernkommisjon.no,4,wikidata,Q114080031,,200,none
+pfi.no,4,academia,Paper and Fibre Research Institute,,,
 piv.no,4,wikidata,Psychiatry of Vestfold Trust,,307,10 .
+porelab.no,4,academia,PoreLab - Porous Media Laboratory,,,
+prio.no,4,academia,Peace Research Institute Oslo,,,
 pst.no,4,wikidata,Norwegian Police Security Service,central,200,20 mx2.fd.dep.no.; 20 mx1.fd.dep.no.
 reisnordland.no,4,wikidata,Reis Nordland,central-1,301,10 ALT3.ASPMX.L.GOOGLE.com.; 5 ALT2.ASPMX.L.GOOGLE.com.; 5 ALT1.ASPMX.L.GOOGLE.com.; 10 ALT4.ASPMX.L.GOOGLE.com.; 1 ASPMX.L.GOOGLE.com.; 0 mail.protection.outlook.com.; 15 qvabjwbijx7tz2yhgau43tvhfw3xmfsc6kypng7orpd7lohi62sa.mx-verification.GOOGLE.com.
+rogalandarboret.no,4,academia,Rogaland Arboretum,,,
 rus-midt.no,4,wikidata,Q11998678,,ConnectException,none
 ruter.no,4,wikidata,Ruter,,200,10 ruter-no.mail.protection.outlook.com.
+samforsk.no,4,academia,NTNU Social Research,,,
+samviten.no,4,academia,Faculty of Social Sciences,,,
 sgp.norgov.no,4,wikidata,Norwegian Agency for Classified Information Systems,,200,10 mx2.fd.dep.no.; 20 mx1.fd.dep.no.
 sifo.no,4,academia,National Institute for Consumer Research,central,,
+simula.no,4,academia,Simula Research Laboratory,,,
+sintef.no,4,academia,Norwegian Marine Technology Research Institute,,,
 sivilforsvaret.no,4,wikidata,Norwegian Civil Defence,,301,10 mx2.online.no.
 sjukehusapoteka-vest.no,4,wikidata,Q12000729,,301,10 sjukehusapotekavest-no03i.mail.protection.outlook.com.
+skaperkraft.no,4,academia,Q19391946,,,
 skrivesenteret.no,4,wikidata,Skrivesenteret,,200,10 mx.ntnu.no.
 skyss.no,4,wikidata,Skyss,central-1,301,5 skyss-no.mail.protection.outlook.com.
 slovenia.no,4,wikidata,"Consulate of Slovenia, Norway",,200,10 mx.domeneshop.no.
 snelandia.no,4,wikidata,Snelandia,central-1,200,10 aspmx.l.google.com.
+socialresearch.no,4,academia,Norwegian Institute for Social Research,,,
 spesialenheten.no,4,wikidata,Norwegian Bureau for the Investigation of Police Affairs,,301,0 spesialenheten-no.mail.protection.outlook.com.
 spk.no,4,wikidata,Norwegian Public Service Pension Fund,,400,10 spk-no.mail.protection.outlook.com.
 statsbygg.no,4,wikidata,Norwegian Directorate of Public Construction and Property,,200,2 statsbygg-no.mail.protection.outlook.com.
 stiftelsenbryggen.no,4,wikidata,Bryggen,,200,0 stiftelsenbryggen-no.mail.protection.outlook.com.
 sudanoslo.no,4,wikidata,"Embassy of Sudan, Oslo",central,403,none
+sv.uio.no,4,academia,"Department of Sociology and Human Geography, University of Oslo",,,
 svipper.no,4,wikidata,Svipper,,200,1 svipper-no.mail.protection.outlook.com.
 sykehusapotek-nord.no,4,wikidata,Northern Norway Pharmaceutical Trust,,301,10 sykehusapoteknord-no03c.mail.protection.outlook.com.
 sykehusapotekene.no,4,wikidata,Southern and Eastern Norway Pharmaceutical Trust,,301,0 sykehusapotekene-no.mail.protection.outlook.com.
 sykehusapoteket.no,4,wikidata,Q19391465,,301,5 sykehusapoteket-no.mail.protection.outlook.com.
 sysselmannen.no,4,wikidata,Office of the Governor of Svalbard,,301,10 sysselmannen-no.mail.protection.outlook.com.
 taubanetilsynet.no,4,wikidata,Technical Supervisory Authority for Cableways,,301,none
+telemarksforsking.no,4,academia,Telemark Research Institute,,,
 tilsynet.no,4,wikidata,Advokattilsynet,central,200,0 tilsynet-no.mail.protection.outlook.com.
+toi.no,4,academia,Institute of Transport Economics,,,
 totalberedskapskommisjonen.no,4,wikidata,Q113561959,,ConnectException,none
+treteknisk.no,4,academia,Treteknisk,,,
 trygdeetaten.no,4,wikidata,National Insurance Service,,HttpConnectTimeoutException: HTTP connect timed out,5 trygdeetaten-no.mail.protection.outlook.com.
 tunisiaamb.no,4,wikidata,"Embassy of Tunisia, Oslo",central,ConnectException,none
-uit.no,4,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;ror,The Truth and Reconciliation Commission | University of Tromsø – The Arctic University of Norway,central,200,0 uit-no.mail.protection.outlook.com.
+uit.no,4,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia;ror,The Truth and Reconciliation Commission | Tromsø University Museum | University of Tromsø – The Arctic University of Norway,central,200,0 uit-no.mail.protection.outlook.com.
+uni.no,4,academia,Uni Health,,,
+universitetsmuseet.no,4,academia,"University Museum of Bergen, Department of Natural History",,,
 valgresultat.no,4,wikidata,Norwegian Directorate of Elections,,200,none
+vestforsk.no,4,academia,Western Norway Research Institute,,,
 vt.no,4,wikidata,Norwegian Road Supervisory Authority,,200,0 vt-no.mail.protection.outlook.com.
 ambafrance-no.org,3,wikidata,"Embassy of France, Oslo",central,ConnectException,5 mta-gw.infomaniak.ch.
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Oslo",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
 ansgarhoyskole.no,3,ror,Ansgar University College,central,,
-crop.org,3,wikidata,Comparative Research Programme on Poverty,,ConnectException: Host is unreachable,none
+campbellcollaboration.org,3,academia,Campbell Collaboration Crime & Justice Group,,,
 dmmh.no,3,ror,Queen Maud University College,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Norway,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 embrss-norway.org,3,wikidata,"Embassy of South Sudan, Oslo",central,200,10 mx.domeneshop.no.
@@ -138,14 +184,17 @@ hgut.no,3,ror,Høgskulen for Grøn Utvikling,central,,
 himolde.no,3,ror,Molde University College,central,,
 hiof.no,3,ror,Østfold University of Applied Sciences,central,,
 inn.no,3,ror,University of Inland Norway,central,,
+kristiania.no,3,ror,Høyskolen Kristiania,central,,
 krus.no,3,ror,University College of Norwegian Correctional Service,central,,
 meoslo.org,3,wikidata,"Embassy of Myanmar, Oslo",central,200,0 _dc-mx.acc529d2e272.meoslo.org.
 mzv.cz,3,wikidata,"Embassy of Czech Republic, Oslo",central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
 netherlandsworldwide.nl,3,wikidata,"Embassy of the Netherlands, Oslo",central,301,0 .
+nilu.com,3,academia,Norwegian Institute for Air Research,,,
 nkj.nordforsk.org,3,wikidata,Nordic Joint Committee for Agricultural and Food Research,,ConnectException,none
 nla.no,3,ror,NLA University College,central,,
 nmbu.no,3,ror,Norwegian University of Life Sciences,central,,
 no.mfa.lt,3,wikidata,Embassy of Lithuania in Oslo,central,403,none
+nofima.com,3,academia,Nofima,,,
 nord.no,3,ror,Nord University,central,,
 norge.um.dk,3,wikidata,"Royal Danish Embassy, Oslo",central,301,none
 noroff.no,3,ror,Noroff University College,central,,
@@ -154,19 +203,20 @@ oslo.diplo.de,3,wikidata,"Embassy of Germany, Oslo",central,200,10 mx1.bund.de.;
 oslo.mae.ro,3,wikidata,"Embassy of Romania, Oslo",central,503,none
 oslo.mfa.ee,3,wikidata,Embassy of Estonia in Oslo,central,200,none
 oslonyehoyskole.no,3,ror,Oslo Nye Høyskole,central,,
+politihogskolen.no,3,ror,Norwegian Police University College,central,,
 reindeerherding.org,3,wikidata,International Centre for Reindeer Husbandry,,200,none
 rshoyskolen.no,3,ror,Rudolf Steiner University College,central,,
 samas.no,3,ror,Sámi University of Applied Sciences,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Oslo",central,301,none
 uhr.no,3,ror,Universities Norway,central,,
-uia.no,3,ror,University of Agder,central,,
 uis.no,3,ror,University of Stavanger,central,,
-unik.no,3,ror,University Graduate Center,central,,
 usn.no,3,ror,University of South-Eastern Norway,central,,
+vid.no,3,ror,VID Specialized University,central,,
 www4.uib.no,3,ror,University of Bergen,central,,
 bufdir.no,2,wikidata;wikidata;wikidata;wikidata,"Office for Children, Youth and Family Affairs | Norwegian Directorate for Children, Youth and Family Affairs",,301,10 bufdir-no.mail.protection.outlook.com.
 fefo.no,2,wikidata;wikidata;wikidata,Finnmark Estate,,301,0 fefo-no.mail.protection.outlook.com.
 klagenemndssekretariatet.no,2,wikidata;wikidata;wikidata;wikidata,Joint Tribunal Secretariat of Norway | Finanstilsynsklagenemnda | Q11981087 | Energy Tribunal of Norway,,301,10 mx2-proisp-no.pub.mailpod1-osl1.one.com.; 10 mx1-proisp-no.pub.mailpod1-osl1.one.com.; 10 mx3-proisp-no.pub.mailpod1-osl1.one.com.
 lanekassen.no,2,wikidata;wikidata;wikidata,Norwegian State Educational Loan Fund,,200,0 lanekassen-no.mail.protection.outlook.com.
 sametinget.no,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q11999242 | Sámi Parliament of Norway,,200,10 sametinget-no.mail.protection.outlook.com.
-oslomet.no,0,ror,OsloMet – Oslo Metropolitan University,central,,
+uib.no,2,academia;academia;academia;academia;academia;academia;academia,"Bergen Arboretum and Botanical Garden, Milde | Bergen Museum Garden | Center for Digital Narrative | Department of Biological Sciences | University Museum of Bergen | University Museum of Bergen, Department of Natural History | University of Bergen, Geophysical Institute",,,
+oslomet.no,0,academia;academia;academia;ror,"Norwegian Social Research | Oslo Metropolitan University Department of Archivistics, Library and Information Science | Work Research Institute",central,,

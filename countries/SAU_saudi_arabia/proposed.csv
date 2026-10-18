@@ -1,6 +1,10 @@
 hostname,score,sources,label,level,http_status,mx
 shps.org.sa,7,wikidata;wikidata,Saudi Heritage Preservation Society,,301,0 shps-org-sa.mail.protection.outlook.com.
 kfu.edu.sa,6,academia;ror,King Faisal University,central,,
+ksau-hs.edu.sa,6,academia;ror,King Saud bin Abdulaziz University for Health Sciences,central,,
+ksu.edu.sa,6,academia;ror,King Saud University,central,,
+taibahu.edu.sa,6,academia;ror,Taibah University,central,,
+uqu.edu.sa,6,academia;ror,Imam Abdulrahman Bin Faisal University,central,,
 bangladeshembassy.org.sa,4,wikidata,"Embassy of Bangladesh, Riyadh",central,ConnectException,20 pmx27.sol.net.sa.; 10 _dc-mx.07dac53b9684.bangladeshembassy.org.sa.
 cma.org.sa,4,wikidata,Capital Market Authority,central,301,30 mail4.cma.org.sa.; 10 mx1.cma.org.sa.; 40 mail1.cma.org.sa.; 20 mx3.cma.org.sa.
 darah.org.sa,4,wikidata,Darah,,403,30 mx3.deem.sa.; 10 mx1.deem.sa.; 50 mx4.deem.sa.; 10 mx2.deem.sa.
@@ -32,20 +36,23 @@ djeddah.consulfrance.org,3,wikidata,Consulate General of France in Jeddah,,301,n
 djidda.diplo.de,3,wikidata,"Consulate General of Germany, Jeddah",,301,10 mx2.bund.de.; 10 mx1.bund.de.
 eeas.europa.eu,3,wikidata,"Delegation of the European Union to Bahrain, Oman, and Saudi Arabia",central,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 effatuniversity.edu.sa,3,ror,Effat University,central,,
+experiencealula.com,3,academia,Manaratu AlUla,,,
 fbsu.edu.sa,3,ror,Fahd bin Sultan University,central,,
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Riyadh",central,301,10 mail.valtori.fi.
 ghanaembassy-saudiarabia.com,3,wikidata,embassy of Ghana in Saudi Arabia,central,ConnectException,none
+grc.net,3,academia,Gulf Research Center,,,
 iau.edu.sa,3,ror,Imam Abdulrahman Bin Faisal University,central,,
 imamu.edu.sa,3,ror,Imam Mohammad ibn Saud Islamic University,central,,
 iu.edu.sa,3,ror,Islamic University of Madinah,central,,
 jazanu.edu.sa,3,ror,Jazan University,central,,
 ju.edu.sa,3,ror,Jouf University,central,,
+kaig.net,3,academia,King Abdullah International Gardens,,,
+kapsarc.org,3,academia,King Abdullah Petroleum Studies and Research Center,,,
 kau.edu.sa,3,ror,King Abdulaziz University,central,,
 kaust.edu.sa,3,ror,King Abdullah University of Science and Technology,central,,
+kfupm.edu.sa,3,ror,King Fahd University of Petroleum and Minerals,central,,
 kku.edu.sa,3,ror,King Khalid University,central,,
-ksau-hs.edu.sa,3,ror,King Saud bin Abdulaziz University for Health Sciences,central,,
 ksrelief.org,3,wikidata,Q132472730,,301,10 mx1.deem.sa.; 10 mx2.deem.sa.; 30 mx3.deem.sa.; 50 mx4.deem.sa.
-ksu.edu.sa,3,ror,King Saud University,central,,
 mauritius-riyadh.govmu.org,3,wikidata,"embassy of Mauritius, Riyadh",central,302,none
 meriyadh.org,3,wikidata,"Embassy of Myanmar, Riyadh",central,200,none
 mfa.bg,3,wikidata,embassy of Bulgaria in Saudi Arabia,central,302,0 mfa-bg.mail.protection.outlook.com.
@@ -54,10 +61,12 @@ mfa.tj,3,wikidata,embassy of Tajikistan in Saudi Arabia,central,SSLHandshakeExce
 mu.edu.sa,3,ror,Majmaah University,central,,
 mzv.cz,3,wikidata,embassy of the Czech Republic in Saudi Arabia,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 nauss.edu.sa,3,ror,Naif Arab University for Security Sciences,central,,
+nbu.edu.sa,3,ror,Northern Border University,central,,
 norway.no,3,wikidata,embassy of Norway in Saudi Arabia,central,301,0 mx.domeneshop.no.
 nu.edu.sa,3,ror,Najran University,central,,
 pakembassyksa.com,3,wikidata,embassy of Pakistan in Saudi Arabia,central,301,1200 ghs.google.com.
 palconjed.org,3,wikidata,Consulate of Palestine in Jeddah,,200,10 mx7.mgmt.somee.com.
+pmu.edu.sa,3,ror,Prince Mohammad bin Fahd University,central,,
 pnu.edu.sa,3,ror,Princess Nourah bint Abdulrahman University,central,,
 psau.edu.sa,3,ror,Prince Sattam Bin Abdulaziz University,central,,
 psu.edu.sa,3,ror,Prince Sultan University,central,,
@@ -85,7 +94,6 @@ uj.edu.sa,3,ror,University of Jeddah,central,,
 um.edu.sa,3,ror,Almaarefa University,central,,
 uoh.edu.sa,3,ror,University of Ha'il,central,,
 uom.edu.sa,3,ror,Mustaqbal University,central,,
-uqu.edu.sa,3,ror,Umm al-Qura University,central,,
 ut.edu.sa,3,ror,University of Tabuk,central,,
 yemenembassy-sa.org,3,wikidata,embassy of Yemen in Saudi Arabia,central,302,0 _dc-mx.19bf0401d66b.yemenembassy-sa.org.
 yu.edu.sa,3,ror,Al Yamamah University,central,,

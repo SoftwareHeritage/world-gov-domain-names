@@ -1,16 +1,21 @@
 hostname,score,sources,label,level,http_status,mx
 costech.or.tz,7,wikidata;wikidata,Animal Diseases Research Institute | Tanzania Commission for Science and Technology,,200,10 mx6.eganet.go.tz.
+aru.ac.tz,6,academia;ror,Ardhi University,central,,
 out.ac.tz,6,academia;ror,The Open University of Tanzania,central,,
 suza.ac.tz,6,academia;ror,State University of Zanzibar,central,,
 udom.ac.tz,6,academia;ror,University of Dodoma,central,,
 udsm.ac.tz,6,academia;ror,University of Dar es Salaam,central,,
 cedha.ac.tz,4,wikidata,Centre for Educational Development in Health Arusha,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cedha.ac.tz found.,10 mx4.eganet.go.tz.
+dlia.out.ac.tz,4,academia,Alumni of the Open University of Tanzania,central,,
+forumcc.or.tz,4,academia,Forum on Climate Change (FORUMCC),,,
+ieds.or.tz,4,academia,Institute for Environment and Development Sustainability,,,
+mnma.ac.tz,4,academia,Mwalimu Nyerere Memorial Academy,central,,
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Dar es Salam",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 nemc.or.tz,4,wikidata,National Environment Management Council,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nemc.or.tz found.,10 mx6.eganet.go.tz.
 nm-aist.ac.tz,4,academia,Nelson Mandela African Institution of Science and Technology,central,,
+tawiri.or.tz,4,academia,Tanzania Wildlife Research Institute,,,
 temdo.or.tz,4,wikidata,Tanzania Engineering and Manufacturing Design Organization,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching temdo.or.tz found.,10 mx3.eganet.go.tz.
 tlsb.or.tz,4,wikidata,Tanzania Library Services Board,,ConnectException,none
-aru.ac.tz,3,ror,Ardhi University,central,,
 bot-tz.org,3,wikidata,Bank of Tanzania,,HttpConnectTimeoutException: HTTP connect timed out,none
 bugando.ac.tz,3,ror,Catholic University of Health and Allied Sciences,central,,
 daressalam.diplo.de,3,wikidata,"Embassy of Germany, Dar es Salaam",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
@@ -18,6 +23,8 @@ dit.ac.tz,3,ror,Dar es Salaam Institute of Technology,central,,
 dsm.teku.ac.tz,3,ror,Teofilo Kisanji University,central,,
 eckernfordetangauniversity.ac.tz,3,ror,Eckernforde Tanga University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Tanzania,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+efdinitiative.org,3,academia,Environment for Development Tanzania,,,
+esrftz.org,3,academia,Economic and Social Research Foundation,,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Tanzania,central,301,10 mail.valtori.fi.
 hkmu.ac.tz,3,ror,Hubert Kairuki Memorial University,central,,
 juco.ac.tz,3,ror,Jordan University College,central,,

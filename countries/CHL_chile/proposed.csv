@@ -23,7 +23,11 @@ tribunalconstitucional.cl,6,wikidata,Constitutional Court of Chile,,HttpConnectT
 uantof.cl,6,academia;ror,University of Antofagasta,central,,
 ubiobio.cl,6,academia;ror,University of the Bío-Bío,central,,
 uchile.cl,6,academia;ror,University of Chile,central,,
+ucn.cl,6,academia;ror,Catholic University of the North,central,,
+ufro.cl,6,academia;ror,University of La Frontera,central,,
+uniacc.cl,6,academia;ror,"University for the Arts, Sciences, and Communication",central,,
 usach.cl,6,academia;ror,University of Santiago,central,,
+utalca.cl,6,academia;ror,University of Talca,central,,
 uv.cl,6,academia;ror,University of Valparaíso,central,,
 onemi.gov.cl,5,wikidata,National Office of Emergency of the Interior Ministry,central,ConnectException,32767 ms11495337.msv1.invalid.; 0 onemi-gov-cl.mail.protection.outlook.com.
 academialenguarapanui.cl,4,wikidata,Q130492298,,HttpTimeoutException: request timed out,0 mail.academialenguarapanui.cl.
@@ -47,9 +51,16 @@ cbn.cl,4,wikidata,Cuerpo de Bomberos de Ñuñoa,,HttpConnectTimeoutException: HT
 cbt.cl,4,wikidata,Cuerpo de Bomberos de Talcahuano,,HttpConnectTimeoutException: HTTP connect timed out,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 cchen.cl,4,wikidata,Chilean Nuclear Energy Commission,,HttpConnectTimeoutException: HTTP connect timed out,5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 ccs.cl,4,wikidata,Q5795755,,HttpConnectTimeoutException: HTTP connect timed out,1 smtp.google.com.
+cedenna.cl,4,academia,Center for the Development of Nanoscience and Nanotechnology,,,
+cegecal.uchile.cl,4,academia,Q122950298,,,
 cenabast.cl,4,wikidata,Q5760740,,HttpConnectTimeoutException: HTTP connect timed out,0 cenabast-cl.mail.protection.outlook.com.
+centrojusticiaeducacional.uc.cl,4,academia,Educational Justice Center,,,
+cepchile.cl,4,academia,Centro de Estudios Públicos,,,
+cequa.cl,4,academia,Centro de Estudios del Cuaternario,,,
 chilecompra.cl,4,wikidata,ChileCompra,,HttpConnectTimeoutException: HTTP connect timed out,0 chilecompra-cl.mail.protection.outlook.com.
+ciencias.uach.cl,4,academia,Jardín Botánico de la Universidad Austral de Chile,,,
 cmfchile.cl,4,wikidata,Comisión para el Mercado Financiero,,HttpConnectTimeoutException: HTTP connect timed out,10 mxa-003e6201.gslb.pphosted.com.; 10 mxb-003e6201.gslb.pphosted.com.
+cmm.uchile.cl,4,academia,Center for Mathematical Modeling,,,
 cne.cl,4,wikidata,Comisión Nacional de Energía,,HttpConnectTimeoutException: HTTP connect timed out,5 cne-cl.mail.protection.outlook.com.
 cochilco.cl,4,wikidata,Chilean Copper Commission,,302,20 mx-02-us-east-2.prod.hydra.sophos.com.; 10 mx-01-us-east-2.prod.hydra.sophos.com.
 conaset.cl,4,wikidata,National Traffic Safety Commission,,HttpConnectTimeoutException: HTTP connect timed out,5 mail.conaset.cl.
@@ -72,27 +83,44 @@ embajadahaiti.cl,4,wikidata,embassy of Haiti in Chile,central,301,30 aspmx2.goog
 embajadapalestina.cl,4,wikidata,"Embassy of the State of Palestine, Santiago",central,200,60 ASPMX5.GOOGLEMAIL.COM.; 30 ASPMX2.GOOGLEMAIL.COM.; 50 ASPMX4.GOOGLEMAIL.COM.; 20 ALT2.ASPMX.L.GOOGLE.COM.; 100 embajadapalestina.cl.; 0 ASPMX.L.GOOGLE.COM.; 40 ASPMX3.GOOGLEMAIL.COM.; 10 ALT1.ASPMX.L.GOOGLE.COM.
 embamarruecos.cl,4,wikidata,embassy of Morocco in Chile,central,ConnectException,none
 embanicch.cl,4,wikidata,embassy of Nicaragua in Chile,central,ConnectException,none
+en.ufro.cl,4,academia,University of La Frontera,,,
 epi.minsal.cl,4,wikidata,Q118610254,,403,none
+estudiosgriegos.cl,4,academia,Universidad de Chile Center for Byzantine and Neohellenic Studies,,,
+estudiosindigenas.ufro.cl,4,academia,Q139856833,,,
 fch.cl,4,wikidata,Fundación Chile,,200,0 fch-cl.mail.protection.outlook.com.
+fcla.cl,4,academia,French Chilean Laboratory for Astronomy,,,
 fiscaliadechile.cl,4,wikidata,Public Ministry of Chile,,ConnectException,10 mail01.fiscaliadechile.cl.; 10 mail02.fiscaliadechile.cl.
+fjguzman.cl,4,academia,Jaime Guzman Foundation,,,
+fundacionsol.cl,4,academia,Q119826558,,,
 gendarmeria.cl,4,wikidata,Chilean Gendarmerie,central,HttpConnectTimeoutException: HTTP connect timed out,0 gendarmeria-cl.mail.protection.outlook.com.
 ide.cl,4,wikidata,Geospatial Data Infrastructure,,301,none
+ideausach.cl,4,academia,Instituto de Estudios Avanzados,,,
 idic.cl,4,wikidata,Instituto de Investigaciones y Control,,301,0 idic-cl.mail.protection.outlook.com.
+ifop.cl,4,academia,Institute of Fisheries Development,,,
 igm.cl,4,wikidata,Instituto Geográfico Militar,,ConnectException,0 igm-cl.mail.protection.outlook.com.
+imfd.cl,4,academia,Millennium Institute for Foundational Research on Data,,,
+imii.cl,4,academia,Q110639075,,,
 inapi.cl,4,wikidata,Chilean Institute of Intellectual Property (INAPI),,200,5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.
 ind.cl,4,wikidata,Q1072817,,200,1 smtp.google.com.
 indh.cl,4,wikidata,Instituto Nacional de Derechos Humanos,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 40 aspmx3.googlemail.com.; 5 alt1.aspmx.l.google.com.
 infor.cl,4,wikidata,Instituto Forestal,,ConnectException,0 infor-cl.mail.protection.outlook.com.
+ingenieria.uchile.cl,4,academia,Faculty of Physical and Mathematical Sciences of the University of Chile,,,
 inh.cl,4,wikidata,National Institute of Hydraulics,,302,30 alt2.aspmx.l.google.com.; 30 alt1.aspmx.l.google.com.; 50 aspmx2.googlemail.com.; 50 aspmx3.googlemail.com.; 10 aspmx.l.google.com.
+iniciativamilenio.cl,4,academia,Q65159345,,,
 inn.cl,4,wikidata,Q5917564,,301,10 inn-cl.mail.protection.outlook.com.
+institutoigualdad.cl,4,academia,Instituto Igualdad,,,
+inta.cl,4,academia,Q5918307,,,
 jbn.cl,4,academia,Jardín Botánico Nacional de Viña del Mar,central,,
 junaeb.cl,4,wikidata,Q5956502,,HttpConnectTimeoutException: HTTP connect timed out,0 junaeb-cl.mail.protection.outlook.com.
 marcachile.cl,4,wikidata,Image of Chile Foundation,,301,10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+metamateriales.cl,4,academia,Metamaterials,,,
 minvu.cl,4,wikidata,Q6134961,central,301,0 minvu-cl.mail.protection.outlook.com.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Santiago",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 mop.cl,4,wikidata,Q6134946,central,HttpConnectTimeoutException: HTTP connect timed out,none
 municipalidaddevalparaiso.cl,4,wikidata,Valparaíso,,200,0 municipalidaddevalparaiso.cl.
+nanobiophysics.cl,4,academia,Millennium Nucleus in NanoBioPhysics,,,
 nuevoportal.ine.cl,4,wikidata,Sistema Estadístico Nacional,,HttpConnectTimeoutException: HTTP connect timed out,dig error
+oceanosazules.cl,4,academia,Q6048789,,,
 parvularia.mineduc.cl,4,wikidata,Q28517305,central,HttpConnectTimeoutException: HTTP connect timed out,none
 pdichile.cl,4,wikidata,Investigations Police of Chile,central,403,5 d273101a.ess.barracudanetworks.com.; 10 d273101b.ess.barracudanetworks.com.
 poderjudicial.cl,4,wikidata;wikidata;wikidata;wikidata;wikidata,Q5789526 | Supreme Court of Chile | Q5789502 | Appeal Court of Copiapo | Q5789506,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching poderjudicial.cl found.,10 antispam03.poderjudicial.cl.; 10 antispam01.poderjudicial.cl.; 10 antispam02.poderjudicial.cl.
@@ -115,6 +143,7 @@ serviciodesaludnuble.cl,4,wikidata,Q56318633,,302,10 mx.zm002.zimbramail.cl.; 10
 shoa.cl,4,wikidata,Hydrographic and Oceanographic Service of the Chilean Navy,,403,20 fltmail.shoa.cl.; 30 fltmail3.shoa.cl.; 10 fltmail2.shoa.cl.
 sii.cl,4,wikidata,Internal Revenue Service of Chile,central,200,10 mxmail.sii.cl.
 sml.cl,4,wikidata,Servico Médico Legal,,ConnectException,none
+spel.cl,4,academia,Space and Planetary Exploration Laboratory,,,
 spensiones.cl,4,wikidata,Q6135924,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx-02-us-west-2.prod.hydra.sophos.com.; 10 mx-01-us-west-2.prod.hydra.sophos.com.
 ssdefensa.cl,4,wikidata,Q17630725,central,200,20 mx-02.csirtdefensa.cl.; 10 mx-01.csirtdefensa.cl.
 ssffaa.cl,4,wikidata,Undersecretariat for the Armed Forces,central,301,none
@@ -124,24 +153,33 @@ supereduc.cl,4,wikidata,Q6135919,,HttpConnectTimeoutException: HTTP connect time
 suseso.cl,4,wikidata,Q16636769,,301,none
 svs.cl,4,wikidata,Q9080625,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching svs.cl found.,10 mxb-003e6201.gslb.pphosted.com.; 10 mxa-003e6201.gslb.pphosted.com.
 uaf.cl,4,wikidata,Unidad de Análisis Financiero,,ConnectException,none
-utalca.cl,4,academia,University of Talca,central,,
+wwwprod.aguasantofagasta.cl,4,academia,Q136798875,,,
 wwww.bomberosconcepcion.cl,4,wikidata,Fire Department Concepción,,ConnectException,none
 academia.cl,3,ror,Academy of Christian Humanism University,central,,
+ceduc.cl,3,ror,CEDUC UCN,central,,
+cehum.org,3,academia,CEHUM,,,
+chile.angloamerican.com,3,academia,Q135687042,,,
 chile.mid.ru,3,wikidata,embassy of Russia in Chile,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 chile.um.dk,3,wikidata,"Embassy of Denmark, Santiago",central,301,none
+cienciavida.org,3,academia,Q141280754,,,
 cl.ambafrance.org,3,wikidata,"Embassy of France, Santiago",central,301,none
 cl.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Santiago",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cl.china-embassy.org found.,none
 cl.mvep.hr,3,wikidata,embassy of Croatia in Chile,central,ConnectException,none
+clei.org,3,academia,CLEI,,,
 cubadiplomatica.cu,3,wikidata,embassy of Cuba in Chile,central,ConnectException,none
 desarrollo.britanico.cl,3,ror,Universidad Chileno Británica de Cultura,central,,
 duoc.cl,3,ror,Duoc UC,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Chile,,200,none
 finis.cl,3,ror,Finis Terrae University,central,,
 finlandabroad.fi,3,wikidata,"embassy of Finland, Santiago de Chile",central,301,none
+fppchile.org,3,academia,Fundación para el Progreso,,,
+globalcenters.columbia.edu,3,academia,Columbia Global Centers,,,
 ih.csic.es,3,wikidata,Instituto de Historia,,301,none
+jardinbotanicoverdenativo.com,3,academia,Q136799309,,,
 mfa.gr,3,wikidata,embassy of Greece in Chile,central,403,none
 mzv.cz,3,wikidata,embassy of the Czech republic in Chile,central,302,none
 norway.no,3,wikidata,"Embassy of Norway, Santiago",central,301,0 mx.domeneshop.no.
+omora.org,3,academia,Omora Ethnobotanical Park,,,
 portal.inacap.cl,3,ror,Universidad Tecnológica de Chile INACAP,central,,
 reuna.cl,3,ror,Red Universitaria Nacional,central,,
 roc-taiwan.org,3,wikidata,Taipei Economic and Cultural Office in Chile,,302,none
@@ -149,7 +187,9 @@ santiago.diplo.de,3,wikidata,"Embassy of Germany, Santiago",central,200,none
 santiagodechile.mae.ro,3,wikidata,embassy of Romania in Chile,central,503,none
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Santiago de Chile",central,301,none
 uac.cl,3,ror,Universidad de Aconcagua,central,,
+uach.cl,3,ror,Austral University of Chile,central,,
 uahurtado.cl,3,ror,Alberto Hurtado University,central,,
+uai.cl,3,ror,Adolfo Ibáñez University,central,,
 uandes.cl,3,ror,"Universidad de Los Andes, Chile",central,,
 uarcis.cl,3,ror,University of Art and Social Sciences,central,,
 uautonoma.cl,3,ror,Universidad Autónoma de Chile,central,,
@@ -160,11 +200,13 @@ uc.cl,3,ror,Pontificia Universidad Católica de Chile,central,,
 ucentral.cl,3,ror,Universidad Central de Chile,central,,
 ucinf.cl,3,ror,University Ucinf,central,,
 ucm.cl,3,ror,Catholic University of the Maule,central,,
-ucn.cl,3,ror,Universidad Católica del Norte,central,,
+ucsc.cl,3,ror,Universidad Católica de la Santísima Concepción,central,,
+uct.cl,3,ror,Universidad Católica de Temuco,central,,
 ucv.cl,3,ror,Pontificia Universidad Católica de Valparaíso,central,,
 uda.cl,3,ror,University of Atacama,central,,
 udalba.cl,3,ror,Universidad del Alba,central,,
 udd.cl,3,ror,Universidad del Desarrollo,central,,
+udec.cl,3,ror,University of Concepción,central,,
 udelmar.cl,3,ror,Universidad del Mar,central,,
 udla.cl,3,ror,University of the Americas,central,,
 udp.cl,3,ror,Universidad Diego Portales,central,,
@@ -172,12 +214,12 @@ ugm.cl,3,ror,Universidad Gabriela Mistral,central,,
 uiberoamericana.cl,3,ror,Iberoamerican University of Science and Technology,central,,
 ulagos.cl,3,ror,Universidad de Los Lagos,central,,
 ularepublica.cl,3,ror,Universidad La República,central,,
+umag.cl,3,ror,Universidad de Magallanes,central,,
 umayor.cl,3,ror,Universidad Mayor,central,,
 umcervantes.cl,3,ror,Miguel de Cervantes University,central,,
 unab.cl,3,ror,Universidad Andrés Bello,central,,
 unach.cl,3,ror,Universidad Adventista de Chile,central,,
 unap.cl,3,ror,Arturo Prat University,central,,
-uniacc.cl,3,ror,Universidad UNIACC,central,,
 uoh.cl,3,ror,University of O'Higgins,central,,
 upla.cl,3,ror,Universidad de Playa Ancha de Ciencias de la Educación,central,,
 usek.cl,3,ror,Universidad SEK,central,,

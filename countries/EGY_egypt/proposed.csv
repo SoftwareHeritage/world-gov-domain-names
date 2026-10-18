@@ -1,10 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
+cmrdi.sci.eg,7,wikidata;academia,Central Metallurgical Research and Development Institute | Central Metallurgical Research & Development,,200,10 mailsrv.cmrdi.sci.eg.
+mri.alexu.edu.eg,7,academia;academia,Alexandria University High Institute of Public Health | Medical Research Institute Alexandria University,,,
 narss.sci.eg,7,wikidata;academia,National Authority for Remote Sensing and Space Sciences,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.narss.sci.eg.
 nspo.com.eg,7,wikidata;wikidata,National Service Products Organization,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ExchangeSMTP.mod.gov.eg.
 alexu.edu.eg,6,academia;ror,Alexandria University,central,,
 asu.edu.eg,6,academia;ror,Ain Shams University,central,,
 azhar.edu.eg,6,academia;ror,Al-Azhar University,central,,
-custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+cu.edu.eg,6,academia;ror,Cairo University,central,,
 egypt.gov.org,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,1000 0.0.0.0.
 egyptconsulates.org,6,wikidata;wikidata,Ministry of Foreign Affairs of Egypt,central,200,10 mail.egyptconsulates.org.
 egyptera.org,6,wikidata;wikidata,Egyptian Electric Utility and Consumer Protection Regulatory Agency,,200,1 mail.egyptera.org.; 5 mail2.egyptera.org.
@@ -17,8 +19,6 @@ zu.edu.eg,6,academia;ror,Zagazig University,central,,
 aoi.org.eg,4,wikidata,Arab Organization for Industrialization,,ConnectException: Host is unreachable,10 webmail.aoi.org.eg.
 britishcouncil.org.eg,4,wikidata,British Council Egypt,,301,10 britishcouncil-org-eg.mail.protection.outlook.com.
 cbe.org.eg,4,wikidata,Central Bank of Egypt,,403,10 mail.cbe.org.eg.
-cmrdi.sci.eg,4,wikidata,Central Metallurgical Research and Development Institute,,200,10 mailsrv.cmrdi.sci.eg.
-cu.edu.eg,4,academia,Cairo University,central,,
 drugcontrol.org.eg,4,wikidata,Q95947970,,HttpConnectTimeoutException: HTTP connect timed out,10 MX.IPI.GOV.eg.
 dtu.edu.eg,4,academia,Delta Technological University,central,,
 eaea.org.eg,4,wikidata,Egyptian Atomic Energy Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 eaea.org.eg.
@@ -28,7 +28,9 @@ ehc.eg,4,wikidata,Egyptian Health Council,,200,0 ehc-eg.mail.protection.outlook.
 elections.eg,4,wikidata,National Elections Commission,central,301,10 mx.zoho.com.; 50 mx3.zoho.com.; 20 mx2.zoho.com.
 epri.sci.eg,4,wikidata,Egyptian Petroleum Research Institute,,HttpConnectTimeoutException: HTTP connect timed out,20 smtp.egcloud.gov.eg.; 10 smtp1.egcloud.gov.eg.
 eri.sci.eg,4,academia,Electronics Research Institute,central,,
+faps.cu.edu.eg,4,academia,Faculty of African Postgraduate Studies,,,
 hbrc.edu.eg,4,wikidata,Housing and Building National Research Center,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp1.egcloud.gov.eg.; 20 smtp.egcloud.gov.eg.
+igsr.alexu.edu.eg,4,academia,"Institute of Graduate Studies and Research, Alexandria University",,,
 kairo.mfa.gov.hu,4,wikidata,"embassy of Hungary, Cairo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 maspero.eg,4,wikidata,Egyptian Radio and Television Union,,301,10 smtp.egcloud.gov.eg.
 miaso.org.eg,4,wikidata,Marine Industries and Services Organization,,HttpConnectTimeoutException: HTTP connect timed out,0 cloud97.hostgator.com.
@@ -39,6 +41,8 @@ nriag.sci.eg,4,academia,National Research Institute of Astronomy and Geophysics,
 sczone.eg,4,wikidata,The Suez Canal Economic Zone,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp1.egcloud.gov.eg.; 20 smtp.egcloud.gov.eg.
 senate.eg,4,wikidata,Senate of Egypt,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 bmail2mx.hosting.link.net.
 sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Cairo",central,ConnectException,none
+tbri.sci.eg,4,academia,Theodor Bilharz Research Institute,,,
+vet.cu.edu.eg,4,academia,Faculty of Veterinary Medicine Cairo University,,,
 acu.edu.eg,3,ror,Ahram Canadian University,central,,
 afghanembassy-egypt.com,3,wikidata,"Embassy of Afghanistan, Cairo",central,200,0 0.
 ahuc.edu.eg,3,ror,Al Hayah University in Cairo,central,,
@@ -62,10 +66,13 @@ bua.edu.eg,3,ror,Badr University in Assiut,central,,
 buc.edu.eg,3,ror,Badr University in Cairo,central,,
 bue.edu.eg,3,ror,British University in Egypt,central,,
 burundi-embassyinegypt.info,3,wikidata,embassy of Burundi in Egypt,central,HttpConnectTimeoutException: HTTP connect timed out,none
+cairo.co.il,3,academia,The Israeli Academic Center in Cairo,,,
 cairo.mae.ro,3,wikidata,embassy of Romania in Egypt,central,503,none
 cairo.mfa.ee,3,wikidata,embassy of Estonia in Cairo,central,HttpConnectTimeoutException: HTTP connect timed out,none
 cairo.mofa.go.ug,3,wikidata,embassy of Uganda in Egypt,central,200,none
 cccpa-eg.org,3,wikidata,CCCPA,,403,0 cccpaeg-org01c.mail.protection.outlook.com.
+cealex.org,3,academia,Centre d'études alexandrines,,,
+copticstudies.org,3,academia,Institute of Coptic Studies,,,
 damanhour.dmu.edu.eg,3,ror,Damanhour University,central,,
 deraya.edu.eg,3,ror,Deraya University,central,,
 du.edu.eg,3,ror,Damietta University,central,,
@@ -79,19 +86,24 @@ eg.mvep.hr,3,wikidata,embassy of Croatia in Egypt,central,ConnectException,none
 egypt.mid.ru,3,wikidata,"Embassy of Russia, Egypt",central,HttpConnectTimeoutException: HTTP connect timed out,none
 egyptcotton-catgo.org,3,wikidata,Q121027899,,HttpConnectTimeoutException: HTTP connect timed out,0 egyptcottoncatgo-org02i.mail.protection.outlook.com.
 egypten.um.dk,3,wikidata,embassy of Denmark in Egypt,central,301,none
+eipr.org,3,academia,Egyptian Initiative for Personal Rights,,,
 ejust.edu.eg,3,ror,Egypt-Japan University of Science and Technology,central,,
 epassociation.net,3,wikidata,Q12185728,,HttpConnectTimeoutException: HTTP connect timed out,none
 eru.edu.eg,3,ror,Egyptian Russian University,central,,
 eui.edu.eg,3,ror,Egypt University of Informatics,central,,
 fayoum.edu.eg,3,ror,Fayoum University,central,,
+fccosl.linkpc.net,3,academia,Franciscan Center of Christian Oriental Studies,,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Egypt,central,301,10 mail.valtori.fi.
 fue.edu.eg,3,ror,Future University in Egypt,central,,
+globalresearchlabs.com,3,academia,Global Research Labs,,,
 gopp.gggid.com,3,wikidata,Q122241246,,302,none
 gu.edu.eg,3,ror,Galala University,central,,
 guc.edu.eg,3,ror,German University in Cairo,central,,
 horus.edu.eg,3,ror,Horus University – Egypt,central,,
 hu.edu.eg,3,ror,Heliopolis University,central,,
+iarsedu.net,3,academia,Institute of Arab Research and Studies,,,
 icch-eg.com,3,wikidata,The General Authority for Construction and Housing Cooperatives,,200,0 iccheg-com01b.mail.protection.outlook.com.
+ideo-cairo.org,3,academia,Dominican Institute for Oriental Studies,,,
 imc-egypt.org,3,wikidata,Q112303626,,SSLHandshakeException: Remote host terminated the handshake,10 mail.imc-egypt.org.
 islamic-council.net,3,wikidata,Supreme Council for Islamic Affairs (Egypt),,301,none
 kairo.veleposlanistvo.si,3,wikidata,"Embassy of Slovenia, Cairo",central,SSLHandshakeException: Remote host terminated the handshake,none
@@ -99,11 +111,13 @@ kfs.edu.eg,3,ror,Kafrelsheikh University,central,,
 ksiu.edu.eg,3,ror,King Salman International University,central,,
 lfrpda.org,3,wikidata,Egyptian Lakes and Fish Resources Protection and Development Agency,,301,none
 luxor.edu.eg,3,ror,Luxor University,central,,
+malecso.org,3,academia,Institute of Arab Manuscripts,,,
 mans.edu.eg,3,ror,Mansoura University,central,,
 mansnu.edu.eg,3,ror,Mansoura National University,central,,
 mau.edu.eg,3,ror,Matrouh University,central,,
 menofia.edu.eg,3,ror,Menoufia University,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Egypt,central,302,0 mfa-bg.mail.protection.outlook.com.
+minia.edu.eg,3,ror,Minia University,central,,
 miuegypt.edu.eg,3,ror,Misr International University,central,,
 msa.edu.eg,3,ror,October University of Modern Sciences and Arts,central,,
 mti.edu.eg,3,ror,Modern University for Information and Technology,central,,
@@ -126,6 +140,8 @@ pua.edu.eg,3,ror,Pharos University in Alexandria,central,,
 rst.edu.eg,3,ror,Al-Ryada University for Science and Technology,central,,
 socialtakafol.com,3,wikidata,Q60914549,,200,0 mail.socialtakafol.com.
 sphinx.edu.eg,3,ror,Sphinx University,central,,
+sse.aucegypt.edu,3,academia,Center for Applied Research on the Environment and Sustainability,,,
+stmarkfoundation.com,3,academia,Saint Mark Foundation for Coptic Studies,,,
 su.edu.eg,3,ror,Sinai University,central,,
 sue.edu.eg,3,ror,Al Salam University,central,,
 suez.edu.eg,3,ror,Suez Canal University,central,,
@@ -136,6 +152,7 @@ tanta.edu.eg,3,ror,Tanta University,central,,
 tkh.edu.eg,3,ror,The Knowledge Hub Universities,central,,
 ufe.edu.eg,3,ror,French University of Egypt,central,,
 unesco.org,3,wikidata,UNESCO office Egypt,,302,20 unesco-org.mail.protection.outlook.com.
+universiteitleiden.nl,3,academia,Netherlands-Flemish Institute in Cairo,,,
 usc.edu.eg,3,ror,University of Sadat City,central,,
 wcm.portal.eun.eg,3,ror,Egyptian Universities Network,central,,
 who.int,3,wikidata,World Health Organization – Egypt,,301,10 who-int.mail.protection.outlook.com.
@@ -143,6 +160,7 @@ aucegypt.edu,2,ror,American University in Cairo,central,,
 giu-uni.de,2,ror,German International University,central,,
 nahdauniversity.org,2,ror,Nahda University,central,,
 usenghor-francophonie.org,2,ror,Senghor University,central,,
+custodia.org,1,wikidata;wikidata;academia,Custodian of the Holy Land | Franciscan Centre for Oriental Christian Studies,,301,0 custodia-org.mail.protection.outlook.com.
 eg.ambafrance.org,1,wikidata;wikidata;wikidata,"Consulate-General of France in Alexandria | Embassy of France, Giza",central,301,none
 erembassy.com,1,wikidata;wikidata;wikidata,embassy of Eritrea in Egypt,central,302,none
 mfa.gr,1,wikidata;wikidata;wikidata,Greek Consulate General in Alexandria | embassy of Greece in Egypt,central,403,10 mailhost.mfa.gr.

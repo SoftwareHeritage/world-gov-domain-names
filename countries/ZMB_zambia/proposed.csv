@@ -1,6 +1,10 @@
 hostname,score,sources,label,level,http_status,mx
+lmmu.ac.zm,6,academia;ror,Levy Mwanawasa Medical University,central,,
+nkrumah.edu.zm,6,academia;ror,Kwame Nkrumah University,central,,
 unza.zm,6,academia;ror,University of Zambia,central,,
 boz.zm,4,wikidata,Bank of Zambia,,HttpConnectTimeoutException: HTTP connect timed out,0 boz-zm.mail.protection.outlook.com.
+cbu.ac.zm,4,academia,Copperbelt University,,,
+cbu.ecampus.edu.zm,4,academia,Copperbelt University,,,
 nac.org.zm,4,wikidata,National HIV/AIDS/STI/TB Council,,200,dig error
 nhra.org.zm,4,wikidata,National Health Research Authority,,301,10 nhra-org-zm.mail.protection.outlook.com.
 zema.org.zm,4,wikidata,Zambia Environmental Management Agency,,301,0 mailhost.zema.org.zm.
@@ -10,6 +14,7 @@ znphi.co.zm,4,wikidata,Zambia National Public Health Institute,,SSLException: (i
 ambafrance-zm.org,3,wikidata,"Embassy of France, Lusaka",central,ConnectException,5 mta-gw.infomaniak.ch.
 cbu.edu.zm,3,ror,Copperbelt University,central,,
 chau.ac.zm,3,ror,Chalimbana University,central,,
+cidrz.org,3,academia,Centre for Infectious Disease Research in Zambia,,,
 copperstone.ac.zm,3,ror,Copperstone University,central,,
 cosecsa.org,3,wikidata,Surgical Society of Zambia,,301,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.
 dmiseu.edu.zm,3,ror,DMI St. Eugene University,central,,
@@ -20,12 +25,10 @@ gartzambia.org,3,wikidata,Golden Valley Agricultural Research Trust,,200,15 efor
 ghanahighcommission-zambia.com,3,wikidata,high commission of Ghana in Zambia,central,ConnectException,none
 kmu.ac.zm,3,ror,Kapasa Makasa University,central,,
 lamu.edu.zm,3,ror,Lusaka Apex Medical University,central,,
-lmmu.ac.zm,3,ror,Levy Mwanawasa Medical University,central,,
 lusaka.diplo.de,3,wikidata,"Embassy of Germany, Lusaka",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 mu.ac.zm,3,ror,Mulungushi University,central,,
 mukuba.edu.zm,3,ror,Mukuba University,central,,
 mzv.cz,3,wikidata,embassy of the Czech republic in Zambia,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
-nkrumah.edu.zm,3,ror,Kwame Nkrumah University,central,,
 ru.edu.zm,3,ror,Rusangu University,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Lusaka",central,301,none
 tau.edu.zm,3,ror,Texila American University Zambia,central,,
@@ -38,6 +41,7 @@ zaou.ac.zm,3,ror,Zambian Open University,central,,
 zcuniversity.edu.zm,3,ror,Zambia Catholic University,central,,
 cavendishza.org,2,ror,Cavendish University Zambia,central,,
 icuzambia.net,2,ror,Information and Communications University,central,,
+justomwale.net,2,ror,Justo Mwale University,central,,
 northriseuniversity.com,2,ror,Northrise University,central,,
 southvalleyuniversity.com,2,ror,South Valley University,central,,
 supershineuniversity.net,2,ror,Supershine University,central,,

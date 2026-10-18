@@ -1,6 +1,8 @@
 hostname,score,sources,label,level,http_status,mx
 parlamento.pt,10,wikidata;wikidata;linkgraph,Assembly of the Republic,central,IOException: HTTP/1.1 header parser received no bytes,10 srvrelay1.parlamento.pt.; 10 newsletter.parlamento.pt.; 10 srvrelay2.parlamento.pt.
+up.pt,9,academia;academia;ror,Instituto de Ciências Biomédicas Abel Salazar | University of Porto,central,,
 presidencia.pt,8,linkgraph,Linked from 74 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,90 mail1.presidencia.pt.; 10 mx1.presidencia.pt.; 10 mx2.presidencia.pt.; 90 mail2.presidencia.pt.
+academia.marinha.pt,7,wikidata;academia,Academia de Marinha,,302,none
 chpvvc.min-saude.pt,7,wikidata;wikidata,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde | Unidade Local de Saúde de Póvoa de Varzim/Vila do Conde,,ConnectException,0 chpvvc-minsaude-pt02e.mail.protection.outlook.com.
 cmvm.pt,7,wikidata;wikidata,Securities Market Commission,central,ConnectException,5 mail.cmvm.pt.; 20 drmail.cmvm.pt.
 dgav.pt,7,wikidata;wikidata,Direcção-Geral de Alimentação e Veterinária | Q136310447,,IOException: HTTP/1.1 header parser received no bytes,10 dgav-pt.mail.protection.outlook.com.; 20 smtp.dgav.pt.
@@ -14,8 +16,18 @@ moptc.pt,7,wikidata;wikidata,"Ministry of Public Works, Transport and Communicat
 policiajudiciaria.pt,7,wikidata;wikidata,Laboratório de Polícia Científica | Polícia Judiciária,,ConnectException,none
 pontosj.pt,7,wikidata;wikidata,Portuguese Province of the Society of Jesus,,200,20 mx2.cleanmx.pt.; 10 mx1.cleanmx.pt.
 psp.pt,7,wikidata;wikidata,Corpo de Intervenção | Polícia de Segurança Pública,,HttpConnectTimeoutException: HTTP connect timed out,10 mx3.rnsi.mai.gov.pt.; 10 mx1.rnsi.mai.gov.pt.; 10 mx4.rnsi.mai.gov.pt.; 10 mx2.rnsi.mai.gov.pt.; 10 mx5.rnsi.mai.gov.pt.; 10 mx6.rnsi.mai.gov.pt.
+tecnico.ulisboa.pt,7,academia;academia,Instituto Superior Técnico | Instituto Superior Técnico - Tecnológico e Nuclear,,,
+astro.up.pt,6,academia;ror,Centre for Astrophysics of the University of Porto,central,,
+cbma.uminho.pt,6,academia;ror,Centro de Biologia Molecular e Ambiental,central,,
 ccila-portugal.com,6,wikidata;wikidata,German-Portuguese Chamber of Industry and Commerce,,302,0 ccilaportugal-com01c.mail.protection.outlook.com.
+celga-iltec.uc.pt,6,academia;ror,CELGA-ILTEC,central,,
+ipv.pt,6,academia;ror,Polytechnic Institute of Viseu,central,,
+isa.ulisboa.pt,6,academia;ror,Instituto Superior de Agronomia,central,,
+iscte-iul.pt,6,academia;ror,ISCTE – Lisbon University Institute,central,,
+iseg.ulisboa.pt,6,academia;ror,Lisbon School of Economics and Management,central,,
+ispa.pt,6,academia;ror,ISPA – University Institute,central,,
 lajesfss.com,6,wikidata;wikidata,65th Force Support Squadron | Lajes Airman and Family Readiness Center,,ConnectException: Host is unreachable,10 mail.lajesfss.com.
+libphys.pt,6,academia;ror,"Laboratory for Instrumentation, Biomedical Engineering and Radiation Physics",central,,
 stj.pt,6,wikidata,Portuguese Supreme Court of Justice,central,301,10 stj-pt.mail.protection.outlook.com.
 tribunalconstitucional.pt,6,wikidata,Portuguese Constitutional Court,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching tribunalconstitucional.pt found.,none
 ua.pt,6,academia;ror,University of Aveiro,central,,
@@ -25,7 +37,6 @@ uc.pt,6,academia;ror,University of Coimbra,central,,
 uevora.pt,6,academia;ror,University of Évora,central,,
 ulisboa.pt,6,academia;ror,University of Lisbon,central,,
 uminho.pt,6,academia;ror,University of Minho,central,,
-up.pt,6,academia;ror,University of Porto,central,,
 cm-abrantes.pt,5,linkgraph,Linked from 9 public-sector domains,,HttpTimeoutException: request timed out,10 cmabrantes-pt0e.mail.protection.outlook.com.
 cm-alcanena.pt,5,linkgraph,Linked from 8 public-sector domains,,HttpTimeoutException: request timed out,0 cmalcanena-pt0e.mail.protection.outlook.com.
 cm-constancia.pt,5,linkgraph,Linked from 8 public-sector domains,,200,10 mxg.eu.mpssec.net.; 10 mxf.eu.mpssec.net.
@@ -38,8 +49,8 @@ cm-serta.pt,5,linkgraph,Linked from 8 public-sector domains,,200,10 mxp.meoempre
 cm-tomar.pt,5,linkgraph,Linked from 8 public-sector domains,,301,5 mail.cm-tomar.pt.; 10 email.cm-tomar.pt.
 cm-viladerei.pt,5,linkgraph,Linked from 8 public-sector domains,,HttpTimeoutException: request timed out,0 cmviladerei-pt0e.mail.protection.outlook.com.
 cm-vnbarquinha.pt,5,linkgraph,Linked from 9 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 email.cm-vnbarquinha.pt.
+ipiaget.org,5,academia;ror,Instituto Piaget,central,,
 acad-ciencias.pt,4,wikidata,Academy of Sciences of Lisbon,,301,10 acadciencias-pt01b.mail.protection.outlook.com.
-academia.marinha.pt,4,wikidata,Academia de Marinha,,302,none
 academica.pt,4,academia,Coimbra Academic Association,central,,
 acss.min-saude.pt,4,wikidata,Administracao Central do Sistema de Saude,,301,0 acss-minsaude-pt02b.mail.protection.outlook.com.
 adop.pt,4,wikidata,Autoridade Antidopagem de Portugal,,200,10 adop-pt.mail.protection.outlook.com.
@@ -59,7 +70,12 @@ bvpacodearcos.pt,4,wikidata,Q9661188,,200,0 bvpacodearcos-pt.mail.protection.out
 bvseixal.pt,4,wikidata,Q92061606,,301,10 mail.dhosting.pt.
 bvsulesueste.pt,4,wikidata,Associação Humanitária dos Bombeiros Voluntários do Sul e Sueste,,HttpConnectTimeoutException: HTTP connect timed out,0 bvsulesueste-pt.mail.protection.outlook.com.
 bvvizela.pt,4,wikidata,Q93903539,,302,0 bvvizela-pt.mail.protection.outlook.com.
+camertola.pt,4,academia,Archaeological Field of Mértola,,,
 ccpfc.uminho.pt,4,wikidata,Conselho Científico-Pedagógico da Formação Contínua,,301,0 ccpfc-uminho-pt.mail.protection.outlook.com.
+cepese.pt,4,academia,Centro de Estudos da População Economia e Sociedade,,,
+ces.uc.pt,4,academia,"Center for Social Studies, University of Coimbra",,,
+cesem.fcsh.unl.pt,4,academia,Center for Music Studies,,,
+cham.fcsh.unl.pt,4,academia,CHAM – Centre for the Humanities,,,
 chbm.min-saude.pt,4,wikidata,Unidade Local de Saúde do Arco Ribeirinho,,ConnectException,0 chbm-minsaude-pt02b.mail.protection.outlook.com.
 chbv.min-saude.pt,4,wikidata,Unidade Local de Saúde da Região de Aveiro,,ConnectException,0 chbv-minsaude-pt02b.mail.protection.outlook.com.
 chcbeira.min-saude.pt,4,wikidata,Unidade Local de Saúde da Cova da Beira,,ConnectException,0 chcbeira-minsaude-pt03b.mail.protection.outlook.com.
@@ -72,11 +88,19 @@ chmt.min-saude.pt,4,wikidata,Unidade Local de Saúde do Médio Tejo,,SSLHandshak
 choeste.min-saude.pt,4,wikidata,Unidade Local de Saúde do Oeste,,ConnectException,0 choeste-minsaude-pt02i.mail.protection.outlook.com.
 chporto.pt,4,wikidata,Unidade Local de Saúde de Santo António,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.chporto.pt.
 chs.min-saude.pt,4,wikidata,Unidade Local de Saúde da Arrábida,,ConnectException,0 chs-minsaude-pt01i.mail.protection.outlook.com.
+chsc.uc.pt,4,academia,Center for the History of Society and Culture,,,
 chtmad.min-saude.pt,4,wikidata,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching chtmad.min-saude.pt found.,0 chtmad-minsaude-pt02e.mail.protection.outlook.com.
 chts.min-saude.pt,4,wikidata,Centro Hospitalar do Tâmega e Sousa,,ConnectException,0 chts-minsaude-pt02b.mail.protection.outlook.com.
 chtv.min-saude.pt,4,wikidata,Unidade Local de Saúde de Viseu Dão-Lafões,,ConnectException,none
 chualgarve.min-saude.pt,4,wikidata,Unidade Local de Saúde do Algarve,,ConnectException,0 chualgarve-minsaude-pt03e.mail.protection.outlook.com.
 chuc.min-saude.pt,4,wikidata,Unidade Local de Saúde de Coimbra,,ConnectException,0 chuc-minsaude-pt02b.mail.protection.outlook.com.
+ciac.pt,4,academia,Center for Research in Arts and Communication,,,
+cics.nova.fcsh.unl.pt,4,academia,Centro Interdisciplinar de Ciências Sociais (CICS.NOVA - NOVA FCSH),,,
+cidehus.uevora.pt,4,academia,CIDEHUS,,,
+ciencias.ulisboa.pt,4,academia,Faculdade de Ciências da Universidade de Lisboa,,,
+cim.pt,4,academia,Centro Internacional de Matemática,,,
+cimo.unipb.pt,4,academia,Mountain Research Center,,,
+clunl.fcsh.unl.pt,4,academia,Centro de Linguística da Universidade NOVA de Lisboa (CLUNL),,,
 cm-barreiro.pt,4,wikidata,Q108499620,,301,20 mail2.cm-barreiro.pt.; 10 mail.cm-barreiro.pt.
 cm-braga.pt,4,wikidata,Braga City Council,central-1,301,0 cmbraga-pt0e.mail.protection.outlook.com.
 cm-lisboa.pt,4,wikidata,Lisbon City Council,central-1,302,10 cmlisboa-pt0e.mail.protection.outlook.com.
@@ -85,6 +109,7 @@ cm-sjm.pt,4,wikidata,Câmara Municipal de São João da Madeira,central-1,301,10
 cnecv.pt,4,wikidata,Conselho Nacional de Ética para as Ciências da Vida,,301,20 alt1.prf-smtp-in.m.smail.eu.; 10 prf-smtp-in.m.smail.eu.
 cnpd.pt,4,wikidata,Comissão Nacional de Protecção de Dados,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cnpd.pt found.,10 mail.cnpd.pt.
 cpf.pt,4,wikidata,Centro Português de Fotografia,,500,none
+cria.org.pt,4,academia,Centre for Research in Anthropology,,,
 dgadr.pt,4,wikidata,Q108045689,,ConnectException,5 dgadr.in.tmes.trendmicro.eu.
 dgeec.medu.pt,4,wikidata,Direção-Geral de Estatísticas da Educação e Ciência,,ConnectException,10 rmail5.rae.mec.pt.; 10 rmail4.rae.mec.pt.
 dgo.pt,4,wikidata,Direção-Geral do Orçamento,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching dgo.pt found.,20 smtp1.artelecom.pt.; 30 smtp2.artelecom.pt.; 5 mail.dgo.pt.
@@ -92,6 +117,7 @@ dgotdu.pt,4,wikidata,Q108045682,,ConnectException,none
 dgs.pt,4,wikidata,Directorate-General of Health,,HttpConnectTimeoutException: HTTP connect timed out,0 dgs-pt.mail.protection.outlook.com.
 dgterritorio.pt,4,wikidata,Direção Geral do Território,,ConnectException,10 dgterritorio-pt.mail.protection.outlook.com.
 dnacascais.pt,4,wikidata,Agência DNA Cascais Cascais um concelho empreendedor,,403,0 dnacascais-pt.mail.protection.outlook.com.
+egasmoniz.edu.pt,4,academia,Instituto Universitário Egas Moniz,,,
 emb-argelia.pt,4,wikidata,"Embassy of Algeria, Lisbon",central,301,0 embargelia-pt0i.mail.protection.outlook.com.
 embaixada-africadosul.pt,4,wikidata,embassy of South Africa in Portugal,central,ConnectException,10 mxp.meoempresas.pt.; 10 mxc.meoempresas.pt.
 embaixadadeangola.pt,4,wikidata,embassy of Angola in Portugal,central,301,0 mail.embaixadadeangola.pt.
@@ -107,9 +133,13 @@ ers.pt,4,wikidata,Entidade Reguladora da Saúde,,302,0 ers-pt.mail.protection.ou
 ersar.pt,4,wikidata,Portugal Water and Waste Services Regulation Authority,,HttpConnectTimeoutException: HTTP connect timed out,0 ersar-pt.mail.protection.outlook.com.
 erse.pt,4,wikidata,Energy Services Regulatory Authority,,SSLHandshakeException: Remote host terminated the handshake,5 erse-pt.mail.protection.outlook.com.; 10 relay.net4b.pt.; 30 mail.erse.pt.
 espap.pt,4,wikidata,Government Shared Services Entity,,302,10 espap-gov-pt.mail.protection.outlook.com.
+fc.ul.pt,4,academia,Faculdade de Ciências da Universidade de Lisboa,,,
 fccn.pt,4,wikidata,Fundacao de Computacao Cientifica Nacional,,301,10 smtp01.fccn.pt.; 10 smtp02.fccn.pt.
 fct.pt,4,wikidata,Fundação para a Ciência e Tecnologia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching fct.pt found.,10 smtp01.fccn.pt.; 10 smtp02.fccn.pt.
 funchal.pt,4,wikidata,Departamento de Ciência e de Recursos Naturais,,301,10 esecure1.funchal.pt.; 10 esecure2.funchal.pt.
+geo.cm-lisboa.pt,4,academia,Gabinete de Estudos Olisiponenses,,,
+gifo.pt,4,academia,GIFO - Gabinete de Investigação Forense de Ocorrências,,,
+gimm.pt,4,academia,Gulbenkian Institute for Molecular Medicine,,,
 hdfigueira.min-saude.pt,4,wikidata,Q124789184,,ConnectException,0 hdfigueira-minsaude-pt03e.mail.protection.outlook.com.
 hevora.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alentejo Central,,ConnectException,0 hevora-minsaude-pt02e.mail.protection.outlook.com.
 hff.min-saude.pt,4,wikidata,Unidade Local de Saúde de Amadora/Sintra,,200,0 hff-minsaude-pt01i.mail.protection.outlook.com.
@@ -118,16 +148,42 @@ hidrografico.pt,4,academia,Hydrographic Institute,central,,
 hospitaldebraga.pt,4,wikidata,Unidade Local de Saúde de Braga,,200,none
 hospitaldeguimaraes.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alto Ave,,ConnectException,0 hospitaldeguimaraes-minsaude-pt05i.mail.protection.outlook.com.
 hospitalvilafrancadexira.pt,4,wikidata,Unidade Local de Saúde do Estuário do Tejo,,200,none
+htc.fcsh.unl.pt,4,academia,Pólo NOVA FCSH do Centro de Ecologia Funcional,,,
+i2ads.up.pt,4,academia,"Research Institute in Art, Design and Society",,,
 iapmei.pt,4,wikidata,IAPMEI,,ConnectException,0 iapmei-pt.mail.protection.outlook.com.
+ibb.pt,4,academia,Institute for Biotechnology and Bioengineering,,,
+ibb.tecnico.ulisboa.pt,4,academia,Institute for Bioengineering and Biosciences,,,
+ibet.pt,4,academia,Institute of Experimental Biology and Technology,,,
+ibmc.up.pt,4,academia,Institute for Molecular and Cell Biology,,,
+icbas.up.pt,4,academia,Instituto de Ciências Biomédicas Abel Salazar,,,
+ice.edu.pt,4,academia,Instituto Superior de Ciências Educativas,,,
+icnova.fcsh.unl.pt,4,academia,Instituto de Comunicação da NOVA (ICNOVA),,,
+ics.ul.pt,4,academia,Instituto de Ciências Sociais da Universidade de Lisboa,,,
+idmec.tecnico.ulisboa.pt,4,academia,Institute of Mechanical Engineering IDMEC,,,
 iefp.pt,4,wikidata,Institute of Employment and Professional Training,,200,10 iefp-pt.mail.protection.outlook.com.
+ielt.fcsh.unl.pt,4,academia,Instituto de Estudos de Literatura e Tradição (IELT - NOVA FCSH),,,
+iem.fcsh.unl.pt,4,academia,Instituto de Estudos Medievais,,,
+iep.lisboa.ucp.pt,4,academia,Institute for Political Studies – Catholic University of Portugal,,,
+ifilnova.pt,4,academia,Instituto de Filosofia da NOVA (IFILNOVA),,,
+ifimup.up.pt,4,academia,"Institute of Physics for Advanced Materials, Nanotechnology and Photonics",,,
 igai.pt,4,wikidata,Inspeção-Geral da Administração Interna,,ConnectException,10 mx1.rnsi.mai.gov.pt.; 10 mx6.rnsi.mai.gov.pt.; 10 mx5.rnsi.mai.gov.pt.; 10 mx3.rnsi.mai.gov.pt.; 10 mx4.rnsi.mai.gov.pt.; 10 mx2.rnsi.mai.gov.pt.
+igc.gulbenkian.pt,4,academia,Instituto Gulbenkian de Ciência,,,
 igec.mec.pt,4,wikidata,Inspeção-Geral da Educação e Ciência,,ConnectException,10 rmail4.rae.mec.pt.; 10 rmail5.rae.mec.pt.
+ihc.fcsh.unl.pt,4,academia,Instituto de História Contemporânea,,,
+ihmt.unl.pt,4,academia,IHMT NOVA,,,
 iict.pt,4,academia,Instituto de Investigação Científica Tropical,central,,
+iinfacts.cespu.pt,4,academia,Instituto Universitário de Ciências da Saúde,,,
+iltec.pt,4,academia,Instituto de Linguística Teórica e Computacional,,,
+imar.org.pt,4,academia,Institute of Marine Research (IMAR),,,
+imm.fm.ul.pt,4,academia,Instituto de Medicina Molecular,,,
 imt-ip.pt,4,wikidata,Q1665246,,ConnectException,40 imtt-pt.mail.protection.outlook.com.
 ina.pt,4,wikidata,Instituto Nacional de Administração,,HttpConnectTimeoutException: HTTP connect timed out,10 ina-pt.mail.protection.outlook.com.
 inag.pt,4,wikidata,Q108045686,,200,none
 inem.pt,4,wikidata,Centro de Informação Antivenenos,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 inem-pt.mail.protection.outlook.com.
+inesc-id.pt,4,academia,INESC-ID,,,
+inesctec.pt,4,academia,INESC TEC,,,
 ineti.pt,4,academia,"National Institute of Engineering, Technology and Innovation",central,,
+inetmd.pt,4,academia,Instituto de Etnomusicologia - Centro de Estudos em Música e Dança,,,
 iniav.pt,4,academia,National Institute of Agrarian and Veterinary Research,central,,
 inml.mj.pt,4,wikidata,Instituto Nacional de Medicina Legal,,ConnectException,10 mx02.justica.gov.pt.; 10 mailgw.mj.pt.
 inovacaosocial.portugal2020.pt,4,wikidata,Portugal Inovação Social,,200,10 inovacaosocial-portugal2020-pt.mail.protection.outlook.com.
@@ -135,13 +191,31 @@ inpi.pt,4,wikidata,National Industrial Property Institute,,200,10 mailgw.mj.pt.
 inr.pt,4,wikidata,Instituto Nacional para a Reabilitação,,ConnectException,none
 insa.min-saude.pt,4,academia,National Institute of Health Dr. Ricardo Jorge,central,,
 ipq.pt,4,wikidata,Portuguese Institute for Quality,central,301,10 ipq-pt.mail.protection.outlook.com.
+ipri.unl.pt,4,academia,Instituto Português de Relações Internacionais,,,
 iqs.pt,4,wikidata,Instituto da Qualidade em Saúde,,301,10 mxa.mailgun.org.; 10 mxb.mailgun.org.
+isal.pt,4,academia,Instituto Superior de Administração e Línguas da Madeira,,,
+iscac.pt,4,academia,Q10302691,,,
+iscal.ipl.pt,4,academia,ISCAL,,,
+iscap.ipp.pt,4,academia,Faculdade de Ciências Empresariais do Porto,,,
 iscpsi.pt,4,academia,Instituto Superior de Ciências Policiais e Segurança Interna,central,,
+iscsp.ulisboa.pt,4,academia,Instituto Superior de Ciências Sociais e Políticas,,,
+isec.pt,4,academia,Instituto Superior de Engenharia de Coimbra,,,
+isel.pt,4,academia,Instituto Superior de Engenharia de Lisboa,,,
+isep.pt,4,academia,Instituto Superior de Engenharia do Porto,,,
+isg.pt,4,academia,Instituto Superior de Gestão,,,
+ismat.pt,4,academia,Instituto Superior Manuel Teixeira Gomes,,,
+ismt.pt,4,academia,Instituto Superior Miguel Torga,,,
+ispab.pt,4,academia,Instituto Superior de Paços de Brandão,,,
+istec.pt,4,academia,Instituto Superior de Tecnologias Avançadas,,,
+it.pt,4,academia,Instituto de Telecomunicações,,,
+itqb.unl.pt,4,academia,ITQB NOVA,,,
 ivp.pt,4,wikidata,Douro and Port Wine Institute,,HttpConnectTimeoutException: HTTP connect timed out,10 w2k8r2-ex1.ntporto.ivp.pt.
 jf-sdomingosbenfica.pt,4,wikidata,Junta de Freguesia de São Domingos de Benfica,,403,0 jfsdomingosbenfica-pt0e.mail.protection.outlook.com.
+lip.pt,4,academia,Laboratory of Instrumentation and Experimental Particles Physics,,,
 lisboa.pt,4,wikidata,Lisbon City Council,central-1,301,10 lisboa-pt.mail.protection.outlook.com.
 lisszabon.mfa.gov.hu,4,wikidata,"Hungarian embassy, Lisbon",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 lnec.pt,4,academia,Laboratório Nacional de Engenharia Civil,central,,
+lousal.cienciaviva.pt,4,academia,Q17167632,,,
 maroceano.pt,4,wikidata,Estrutura de Missão para os Assuntos do Mar,,ConnectException,none
 mofa.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Lisbon",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 mun-setubal.pt,4,wikidata,Municipal Assembly of Setúbal,central-1,301,5 munsetubal-pt0i.mail.protection.outlook.com.
@@ -151,6 +225,7 @@ pnm.pt,4,wikidata,Q108045660,,200,5 mail.pnm.pt.
 portal-chsj.min-saude.pt,4,wikidata,Unidade Local de Saúde de São João,,200,none
 portalnacional.com.pt,4,wikidata,GRICES,,200,0 mail.portalnacional.com.pt.
 portugalglobal.pt,4,wikidata,Agência para o Investimento e Comércio Externo de Portugal EPE,,200,10 portugalglobal-pt.mail.protection.outlook.com.
+pqi.pt,4,academia,Portuguese Quantum Institute,,,
 ptspace.pt,4,wikidata,Agência Espacial Portuguesa,,200,0 ptspace-pt.mail.protection.outlook.com.
 sec-geral.mec.pt,4,wikidata,Republica Portuguesa Secretaria-Geral da Educação e Ciência,,ConnectException,10 mx01.mec.pt.; 100 mx02.mec.pt.
 seg-social.pt,4,wikidata,Social security in Portugal,,HttpConnectTimeoutException: HTTP connect timed out,100 mail3.seg-social.pt.; 90 mail4.seg-social.pt.
@@ -158,6 +233,7 @@ sesaram.pt,4,wikidata,Serviço de Saúde da Região Autónoma da Madeira,,SSLHan
 sied.pt,4,wikidata,Serviço de Informações Estratégicas de Defesa,,301,5 mail2.sirp.pt.; 10 mail.sirp.pt.
 sirp.pt,4,wikidata,Sistema de Informações da República Portuguesa,,200,50 mail.sirp.pt.; 5 mail2.sirp.pt.
 sis.pt,4,wikidata,Serviço de Informações de Segurança,,301,5 mail2.sirp.pt.; 50 mail.sirp.pt.
+spg.pt,4,academia,Sociedade Portuguesa de Gastrenterologia,,,
 spms.min-saude.pt,4,wikidata,Serviços Partilhados do Ministério da Saúde,,307,0 spms-minsaude-pt02b.x-v1.mx.microsoft.
 stadministrativo.pt,4,wikidata,Portuguese Supreme Administrative Court,,200,10 mailgw.mj.pt.
 tcontas.pt,4,wikidata,Portuguese Court of Audits,,ConnectException,50 smtpin2.nos.smail.eu.; 20 mail.tcontas.pt.
@@ -172,6 +248,7 @@ ulsla.min-saude.pt,4,wikidata,Unidade Local de Saúde do Litoral Alentejano,,SSL
 ulsm.min-saude.pt,4,wikidata,Unidade Local de Saúde de Matosinhos,,ConnectException,0 ulsm-minsaude-pt02b.mail.protection.outlook.com.
 ulsna.min-saude.pt,4,wikidata,Unidade Local de Saúde do Alto Alentejo,,ConnectException,0 ulsna-minsaude-pt02c.mail.protection.outlook.com.
 ulsne.min-saude.pt,4,wikidata,Unidade Local de Saúde do Nordeste,,ConnectException,0 ulsne-minsaude-pt02c.mail.protection.outlook.com.
+wiki.ieeta.pt,4,academia,IEETA,,,
 2ai.ipca.pt,3,ror,Laboratório de Inteligência Artificial Aplicada,central,,
 2c2t.uminho.pt,3,ror,Centro de Ciência e Tecnologia Têxtil,central,,
 aero.ulusofona.pt,3,ror,Centro Interdisciplinar de Desenvolvimento e Investigação em Ambiente Gestão Aplicada e Espaço,central,,
@@ -179,23 +256,25 @@ algoritmi.uminho.pt,3,ror,Centro ALGORITMI,central,,
 ambafrance-pt.org,3,wikidata,"Embassy of France, Lisbon",central,ConnectException,none
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Lisbon",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
 appsyci.pt,3,ror,Centro de Investigação em Psicologia Aplicada Capacidades e Inclusão,central,,
-astro.up.pt,3,ror,Centro de Astrofísica da Universidade do Porto,central,,
+astro.web.uma.pt,3,ror,Grupo de Astronomia,central,,
+atpgroup.org,3,academia,ATP-Group,,,
 audax.iscte-iul.pt,3,ror,Audax ISCTE,central,,
 autonoma.pt,3,ror,Autonomous University of Lisbon,central,,
 biobip.pt,3,ror,Bioenergy and Business Incubator of Portalegre,central,,
 biomark.isep.ipp.pt,3,ror,BioMark Sensor Research,central,,
+braga.ucp.pt,3,ror,Universidade Católica Portuguesa - Braga,central,,
 bru.iscte-iul.pt,3,ror,Unidade de Investigação em Desenvolvimento Empresarial,central,,
 bv-guimaraes.org,3,wikidata,Associação Humanitária dos Bombeiros Voluntários de Guimarães,,302,0 bv-guimaraes.org.
 bvtaipas.com,3,wikidata,Q91779220,,302,0 mail.bvtaipas.com.
 catedraer.uevora.pt,3,ror,Cátedra Energias Renováveis,central,,
 catedraunesco.ulusofona.pt,3,ror,Cátedra Educação Cidadania e Diversidade Cultural,central,,
 cba.uac.pt,3,ror,Centro de Biotecnologia dos Açores,central,,
-cbma.uminho.pt,3,ror,Centro de Biologia Molecular e Ambiental,central,,
 ccm.uma.pt,3,ror,Centro de Ciências Matemáticas,central,,
 ccul.pt,3,ror,Centro Cardiovascular da Universidade de Lisboa,central,,
 cdrsp.ipleiria.pt,3,ror,Centro para o Desenvolvimento Rápido e Sustentado de Produto,central,,
 ce3c.pt,3,ror,Centro de Ecologia Evolução e Alterações Ambientais,central,,
 ceb.uminho.pt,3,ror,Universidade do Minho Centro de Engenharia Biológica,central,,
+cecav.pt,3,ror,Centro de Ciência Animal e Veterinária,central,,
 cecomp.letras.ulisboa.pt,3,ror,Centro de Estudos Comparatistas,central,,
 cecs.uminho.pt,3,ror,Centro de Estudos de Comunicação e Sociedade,central,,
 cedis.novalaw.unl.pt,3,ror,Centro de Investigacao e Desenvolvimento sobre Direito e Sociedade,central,,
@@ -203,24 +282,32 @@ cedoua.fd.uc.pt,3,ror,Centro de Estudos de Direito do Ordenamento do Urbanismo e
 cedu.direito.uminho.pt,3,ror,Centro de Estudos em Direito da União Europeia,central,,
 cefup.fep.up.pt,3,ror,Centro de Economia e Finanças,central,,
 ceg.igot.ulisboa.pt,3,ror,Centro de Estudos Geográficos,central,,
+ceg.uab.pt,3,ror,Centro de Estudos Globais,central,,
 cehum.elach.uminho.pt,3,ror,Centro de Estudos Humanísticos,central,,
 ceid.fd.ucp.pt,3,ror,Centro de Estudos e Investigação em Direito,central,,
 cejeia.ulusiada.pt,3,ror,Centro de Estudos Jurídicos Económicos e Ambientais,central,,
+cemri.uab.pt,3,ror,Centro de Estudos das Migrações e das Relações Interculturais,central,,
 centroclassicos.letras.ulisboa.pt,3,ror,Centro de Estudos Clássicos,central,,
 cesa.rc.iseg.ulisboa.pt,3,ror,Centro de Estudos sobre África e do Desenvolvimento,central,,
+cesam.wpbox.io,3,academia,Center for Environmental and Marine Studies,,,
 cespu.pt,3,ror,Instituto Politécnico de Saúde do Norte - CESPU,central,,
+cetaps.com,3,academia,"Centro de Estudos Ingleses, de Tradução e Anglo-Portugueses (CETAPS)",,,
 ceteatro.pt,3,ror,Centro de Estudos de Teatro,central,,
 cetrad.utad.pt,3,ror,Centro de Estudos Transdisciplinares para o Desenvolvimento,central,,
+cfcul.ciencias.ulisboa.pt,3,ror,Centro de Filosofia das Ciências,central,,
 cfisuc.fis.uc.pt,3,ror,Centro de Física da Universidade de Coimbra,central,,
 cftc.ciencias.ulisboa.pt,3,ror,Centro de Física Teórica e Computacional,central,,
 cftp.ist.utl.pt,3,ror,Centro de Física Teórica de Partículas,central,,
 cful.letras.ulisboa.pt,3,ror,Centro de Filosofia,central,,
+chrc.pt,3,ror,Comprehensive Health Research Centre,central,,
 ci2.ipt.pt,3,ror,Centro de Investigação em Cidades Inteligentes,central,,
 ciafel.fade.up.pt,3,ror,Centro de Investigação em Actividade Física Saúde e Lazer,central,,
 cias.uc.pt,3,ror,Centro de Investigação em Antropologia e Saúde,central,,
 ciaud.fa.ulisboa.pt,3,ror,Centro de Investigação em Arquitetura Urbanismo e Design,central,,
 cibb.uc.pt,3,ror,Centro de Inovação em Biomedicina e Biotecnologia,central,,
+cicp.eeg.uminho.pt,3,ror,Centro de Investigação em Ciência Política,central,,
 cidma.mat.ua.pt,3,ror,Centro de Investigação e Desenvolvimento em Matemática e Aplicações,central,,
+cieba.belasartes.ulisboa.pt,3,ror,Centro de Investigação e de Estudos em Belas-Artes,central,,
 cied.uminho.pt,3,ror,Centro de Investigação em Educação,central,,
 ciencia.ucp.pt,3,ror,Centro de Estudos de Gestão e Economia Aplicada,central,,
 cierl.uma.pt,3,ror,Centro de Investigação em Estudos Regionais e Locais,central,,
@@ -233,10 +320,12 @@ cir.ess.ipp.pt,3,ror,Centro de Investigação em Reabilitação,central,,
 cisa-as.uevora.pt,3,ror,Centro de Investigação em Sociologia e Antropologia Augusto da Silva,central,,
 cister.isep.ipp.pt,3,ror,Centro de Investigação em Sistemas Computacionais Embebidos e de Tempo-Real,central,,
 citad.ulusiada.pt,3,ror,Centro de Investigação em Território Arquitectura e Design,central,,
+clepul.letras.ulisboa.pt,3,ror,Centro de Literaturas e Culturas Lusófonas e Europeias,central,,
 clsbe.lisboa.ucp.pt,3,ror,Unidade de Investigação em Gestão e Economia,central,,
 clul.ulisboa.pt,3,ror,Centro de Linguística,central,,
 cmuc.mat.uc.pt,3,ror,Centro de Matemática,central,,
 cnsf.com,3,wikidata,Q133265926,,301,10 mx002.register.xion.oxcs.net.; 10 mx001.register.xion.oxcs.net.
+comegi.ulusiada.pt,3,ror,Centro de Investigação em Organizações Mercados e Gestão Industrial,central,,
 cpup.fpce.up.pt,3,ror,Centro de Psicologia,central,,
 cq.uminho.pt,3,ror,Centro de Química,central,,
 cqc.uc.pt,3,ror,Centro de Química de Coimbra,central,,
@@ -246,6 +335,7 @@ cqm.uma.pt,3,ror,Centro de Química da Madeira,central,,
 ctac.uminho.pt,3,ror,Centro de Território Ambiente e Construção,central,,
 dee.isep.ipp.pt,3,ror,Laboratório de Medidas Eléctricas,central,,
 edicoes.ulusofona.pt,3,ror,Edições Universitárias Lusófonas,central,,
+ergolab.fmh.ulisboa.pt,3,ror,Laboratório de Ergonomia,central,,
 escolanaval.marinha.pt,3,ror,Escola Naval Unidade Orgânica de Ensino Politécnico,central,,
 ese.uminho.pt,3,ror,Centro de Investigação em Enfermagem,central,,
 esel.pt,3,ror,Escola Superior de Enfermagem da Universidade de Lisboa,central,,
@@ -257,16 +347,25 @@ europeia.pt,3,ror,Universidade Europeia,central,,
 euvg.pt,3,ror,Escola Universitária Vasco da Gama,central,,
 fam.ulusiada.pt,3,ror,Universidade Lusíada de Vila Nova de Famalicão,central,,
 fct.unl.pt,3,ror,Universidade Nova de Lisboa Associação para a Inovação e Desenvolvimento da FCT,central,,
+fenix.ciencias.ulisboa.pt,3,ror,Laboratório de Microbiologia,central,,
 finlandabroad.fi,3,wikidata,embassy of Finland in Portugal,central,301,10 mail.valtori.fi.
+fp-b2s.ufp.pt,3,ror,Centro de Investigação em Ciências Sociais e do Comportamento,central,,
+fp-enas.ufp.pt,3,ror,Unidade de Investigacao UFP em Energia Ambiente e Saude,central,,
 gecad.isep.ipp.pt,3,ror,Grupo de Investigação em Engenharia e Computação Inteligente para a Inovação e o Desenvolvimento,central,,
+gfm.cii.fc.ul.pt,3,ror,Grupo de Física Matemática,central,,
 gilt.isep.ipp.pt,3,ror,Games Interaction and Learning Technologies,central,,
 graq.isep.ipp.pt,3,ror,Grupo de Reação e Análises Químicas,central,,
+grupoceu.pt,3,ror,Cooperativa de Ensino Universitário CRL,central,,
+hultig.ubi.pt,3,ror,Centro de Tecnologia da Linguagem Humana e Bioinformática,central,,
+i3s.up.pt,3,ror,Molecular Microbiology,central,,
 ics.ulisboa.pt,3,ror,Instituto de Ciências Sociais da Universidade de Lisboa,central,,
 idea.uminho.pt,3,ror,Centro IDEA,central,,
 ie.ulisboa.pt,3,ror,Instituto de Educação da Universidade de Lisboa,central,,
 igc.fd.uc.pt,3,ror,Universidade de Coimbra Ius Gentium Conimbrigae Centro de Direitos Humanos,central,,
 iia.pt,3,ror,Centro de Desenvolvimento do Potencial Humano,central,,
 iitaa.uac.pt,3,ror,Instituto de Investigação e Tecnologia da Agronomia e Meio Ambiente,central,,
+inl.int,3,academia,International Iberian Nanotechnology Laboratory,,,
+institutodehistoriadaarte.com,3,academia,Instituto de História da Arte (IHA),,,
 ioriente.iscsp.ulisboa.pt,3,ror,Universidade de Lisboa Instituto do Oriente,central,,
 ipa.univ.pt,3,ror,Instituto Superior Autónomo de Estudos Politécnicos,central,,
 ipbeja.pt,3,ror,Universidade Politécnica de Beja,central,,
@@ -282,25 +381,23 @@ ipportalegre.pt,3,ror,Universidade Politécnica de Portalegre,central,,
 ips.pt,3,ror,Universidade Politécnica de Setúbal,central,,
 ipsantarem.pt,3,ror,Instituto Politécnico de Santarém,central,,
 ipt.pt,3,ror,Universidade Politécnica de Tomar,central,,
-ipv.pt,3,ror,Polytechnic Institute of Viseu,central,,
 ipvc.pt,3,ror,Universidade Politécnica de Viana do Castelo,central,,
-isa.ulisboa.pt,3,ror,Centro de Investigação em Agronomia Alimentos Ambiente e Paisagem,central,,
-iscte-iul.pt,3,ror,Iscte – Instituto Universitário de Lisboa,central,,
-iseg.ulisboa.pt,3,ror,ISEG - Instituto Superior de Economia e Gestão,central,,
+ircabral.com,3,academia,Q10302664,,,
+ircvm.ub.edu,3,academia,Institut de Recerca en Cultures Medievals,,,
 islagaia.pt,3,ror,ISLA - Instituto Politécnico de Gestão e Tecnologia,central,,
 islasantarem.pt,3,ror,ISLA Santarém - Instituto Politécnico,central,,
 isoplexis.uma.pt,3,ror,ISOPlexis Banco de Germoplasma,central,,
-ispa.pt,3,ror,ISPA - Instituto Universitário,central,,
 ispgaya.pt,3,ror,Instituto Superior Politécnico Gaya,central,,
 ispo.pt,3,ror,Instituto Superior Politécnico do Oeste,central,,
 ium.pt,3,ror,Instituto Universitário Militar,central,,
 iuris.edu.pt,3,ror,Teoria e História do Direito,central,,
 jusgov.uminho.pt,3,ror,Centro de Investigação em Justiça e Governação,central,,
+lab2pt.vercel.app,3,academia,lab2pt,,,
 labbels.uminho.pt,3,ror,Labbels,central,,
 labmm.fmh.ulisboa.pt,3,ror,Laboratório de Métodos Matemáticos,central,,
 labrp.pt,3,ror,Laboratório de Reabilitação Psicossocial,central,,
 lacm.fade.up.pt,3,ror,Laboratório de Aprendizagem e Controlo Motor,central,,
-libphys.pt,3,ror,Laboratório de Instrumentação Engenharia Biomédica e Física da Radiação,central,,
+lapmet.org,3,academia,Q141599735,,,
 lis.ulusiada.pt,3,ror,Lusíada University of Lisbon,central,,
 lisabona.mae.ro,3,wikidata,"Embassy of Romania, Lisbon",central,503,none
 lisbon.embassy.qa,3,wikidata,embassy of Qatar in Portugal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -308,10 +405,13 @@ lisbon.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Portu
 lisbon.mfa.ee,3,wikidata,embassy of Estonia in Lisbon,central,200,none
 lisbon.mfa.ir,3,wikidata,embassy of Iran in Portugal,central,307,none
 lisbon.thaiembassy.org,3,wikidata,embassy of Thailand in Portugal,central,200,none
+lisboncouncil.net,3,academia,The Lisbon Council,,,
 lisbonne.mae.lu,3,wikidata,embassy of Luxembourg in Portugal,central,302,none
+lisbonpubliclaw.pt,3,ror,Centro de Investigação de Direito Público,central,,
 lissabon.diplo.de,3,wikidata,"Embassy of Germany, Lisbon",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 lsa.isep.ipp.pt,3,ror,Laboratório de Sistemas Autónomos,central,,
 lusoglobe.ulusofona.pt,3,ror,Centro de Investigação em Política Economia e Sociedade,central,,
+m-iti.org,3,academia,Madeira Interactive Technologies Institute,,,
 medicina.ulisboa.pt,3,ror,Laboratório de Genética,central,,
 metrics.com.pt,3,ror,Centro de Engenharia Mecânica e Sustentabilidade de Recursos,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Portugal,central,302,0 mfa-bg.mail.protection.outlook.com.
@@ -320,9 +420,10 @@ mzv.cz,3,wikidata,embassy of the Czech Republic in Portugal,central,302,10 mzvcz
 mzv.sk,3,wikidata,embassy of Slovakia in Portugal,central,301,10 mail.gov.sk.
 nigeriaemblisbon.org,3,wikidata,embassy of Nigeria in Portugal,central,200,0 nigeriaemblisbon.org.
 norway.no,3,wikidata,"Embassy of Norway, Lisbon",central,301,0 mx.domeneshop.no.
-novaresearch.unl.pt,3,ror,Comprehensive Health Research Centre Escola Nacional Saúde Pública,central,,
+novaresearch.unl.pt,3,ror,Unidade de Biotecnologia Ambiental,central,,
 novasbe.unl.pt,3,ror,Unidade de Investigação Nova SBE,central,,
 oa.fc.up.pt,3,ror,Observatório Astronómico Prof Manuel de Barros,central,,
+observare.autonoma.pt,3,ror,Observatório de Relações Exteriores,central,,
 politecnicoguarda.pt,3,ror,Universidade Politécnica da Guarda,central,,
 por.ulusiada.pt,3,ror,Universidade Lusíada - Centro Universitário Lusíada - Norte (campus do Porto),central,,
 portal.uab.pt,3,ror,Universidade Aberta,central,,
@@ -340,26 +441,33 @@ swedenabroad.com,3,wikidata,"Embassy of Sweden, Lisbon",central,301,none
 toxrun.iucs.cespu.pt,3,ror,Unidade de Investigação em Toxicologia & Uma Só Saúde,central,,
 uatlantica.pt,3,ror,Atlântica Instituto Universitário,central,,
 ubi.pt,3,ror,University of Beira Interior,central,,
+ucp.pt,3,ror,Universidade Católica Portuguesa,central,,
 ufp.pt,3,ror,Fernando Pessoa University,central,,
 ulo.pt,3,ror,Universidade de Leiria e Oeste,central,,
 ulusofona.pt,3,ror,Universidade Lusófona,central,,
 uma.pt,3,ror,Universidade da Madeira,central,,
+unave.pt,3,ror,Associação para a Formação Profissional e Investigação,central,,
 unidcom-iade.pt,3,ror,Unidade de Investigação em Design e Comunicação,central,,
 unipb.pt,3,ror,Universidade Politécnica de Bragança,central,,
 unl.pt,3,ror,Universidade Nova de Lisboa,central,,
+upt.pt,3,ror,Universidade Portucalense,central,,
 usc.pt,3,ror,Universidade Sénior Contemporânea,central,,
 utad.pt,3,ror,University of Trás-os-Montes and Alto Douro,central,,
 utporto.pt,3,ror,Universidade Técnica do Porto,central,,
+utr.ctn.tecnico.ulisboa.pt,3,ror,Unidade Tecnológica de Radioesterilização,central,,
 visitlisboa.com,3,wikidata,Turismo de Lisboa,,301,0 visitlisboa-com.mail.protection.outlook.com.
 web.roc-taiwan.org,3,wikidata,"Taipei Economic and Cultural Center, Lisbon",,HttpConnectTimeoutException: HTTP connect timed out,none
 catedra-alberto-benveniste.org,2,ror,Cátedra de Estudos Sefarditas Alberto Benveniste,central,,
 ciec-um.com,2,ror,Centro de Investigação em Estudos da Criança,central,,
+ciqaualg.wordpress.com,2,ror,Centro de Investigacao em Quimica do Algarve,central,,
 ciuhct.org,2,ror,Centro Interuniversitário de História das Ciências e da Tecnologia,central,,
+edp.com,2,ror,Universidade EDP,central,,
 egov.unu.edu,2,ror,United Nations University,central,,
-ipiaget.org,2,ror,Instituto Politécnico Jean Piaget do Norte,central,,
+lab2pt.net,2,ror,Laboratório de Paisagens Património e Território,central,,
 lcfpem.com,2,ror,Laboratório de Ciências Forenses e Psicológicas Egas Moniz,central,,
 min-agricultura.pt,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Agriculture, Rural Development and Fisheries",central,ConnectException,none
 min-edu.pt,2,wikidata;wikidata;wikidata;wikidata,Ministry of Education of Portugal,central,ConnectException,none
 min-financas.pt,2,wikidata;wikidata;wikidata;wikidata,Ministry of Finance of Portugal,central,ConnectException,none
+mundossociais.com,2,ror,Editora Mundos Sociais,central,,
 ufpuv.com,2,ror,Universidade Fernando Pessoa Universidade Virtual,central,,
 ulices.org,2,ror,Universidade de Lisboa Centro de Estudos Anglisticos,central,,

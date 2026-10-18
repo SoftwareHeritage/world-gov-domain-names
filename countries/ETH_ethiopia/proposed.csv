@@ -2,6 +2,7 @@ hostname,score,sources,label,level,http_status,mx
 au.int,6,wikidata;wikidata,African Union Commission,,301,0 s1.au.int.
 su.edu.et,6,academia;ror,Samara University,central,,
 tourismethiopia.org,6,wikidata;wikidata,Ministry of Culture and Tourism,central,HttpConnectTimeoutException: HTTP connect timed out,none
+edri.org.et,4,academia,Ethiopian Development Research Institute,,,
 emwa.org.et,4,wikidata,Ethiopian Midwives Association (EMwA),,200,0 emwa.org.et.
 epaethiopia.org.et,4,wikidata,Ethiopian Pharmaceutical Association,,302,dig error
 ethiondc.org.et,4,wikidata,Ethiopian National Dialogue Commission,,200,0 ethiondc.org.et.
@@ -17,16 +18,24 @@ admasuniversity.edu.et,3,ror,Admas University,central,,
 adu.edu.et,3,ror,Adigrat University,central,,
 aku.edu.et,3,ror,Aksum University,central,,
 ambou.edu.et,3,ror,Ambo University,central,,
+amu.edu.et,3,ror,Arba Minch University,central,,
 arsiun.edu.et,3,ror,Arsi University,central,,
 astu.edu.et,3,ror,Adama Science and Technology University,central,,
 asu.edu.et,3,ror,Asossa University,central,,
+bdu.edu.et,3,ror,Bahir Dar University,central,,
 bhu.edu.et,3,ror,Bule Hora University,central,,
+bru.edu.et,3,ror,Borana University,central,,
 cehro.org,3,wikidata,Consortium of Ethiopian Human Rights Organizations,,301,0 cehro.org.
 dadu.edu.et,3,ror,Dambi Dollo University,central,,
+dbu.edu.et,3,ror,Debre Berhan University,central,,
 ddu.edu.et,3,ror,Dire Dawa University,central,,
 dku.edu.et,3,ror,Debark University,central,,
 dmu.edu.et,3,ror,Debre Markos University,central,,
+dtu.edu.et,3,ror,Debre Tabor University,central,,
 du.edu.et,3,ror,Dilla University,central,,
+ecsu.edu.et,3,ror,Ethiopian Civil Service University,central,,
+eeaecon.org,3,academia,Ethiopian Economic Association,,,
+efdinitiative.org,3,academia,Policy Studies Institute’s Environment and Climate Research Center,,,
 electionethiopia.org,3,wikidata,National Election Board of Ethiopia,central,301,none
 epuc.edu.et,3,ror,Ethiopian Police University College,central,,
 esog-eth.org,3,wikidata,Ethiopian Society of Obstetricians and Gynecologists,,200,20 mail.esog-eth.org.
@@ -36,11 +45,18 @@ etdu.edu.et,3,ror,Ethiopian Defence University,central,,
 ethiopia.mid.ru,3,wikidata,embassy of Russia in Ethiopia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 ethiopianreconciliation.org,3,wikidata,Ethiopian Reconciliation Commission,,ConnectException,none
 etiopien.um.dk,3,wikidata,embassy of Denmark in Ethiopia,central,301,none
+etssti.org,3,academia,Ethiopian Space Science & Technology Institute,,,
+ffe-ethio.org,3,academia,Forum for Environment,,,
 finlandabroad.fi,3,wikidata,"Embassy of Finland, Addis Abeba",central,301,10 mail.valtori.fi.
 ftveti.edu.et,3,ror,Federal Technical and Vocational Education and Training Institute,central,,
+girum-hospital.com,3,academia,Girum General Hospital Laboratory,,,
 gmu.edu.et,3,ror,Gambella University,central,,
 haramaya.edu.et,3,ror,Haramaya University,central,,
+hemalaboratory.com,3,academia,Hema Advanced Diagnostic Laboratory,,,
+hespi.org,3,academia,Horn Economic and Social Policy Institute,,,
 hu.edu.et,3,ror,Hawassa University,central,,
+icog-labs.com,3,academia,iCog Labs,,,
+ilri.org,3,academia,International Livestock Research Institute,,,
 inu.edu.et,3,ror,Injibara University,central,,
 jju.edu.et,3,ror,Jigjiga University,central,,
 jku.edu.et,3,ror,Jinka University,central,,
@@ -61,6 +77,7 @@ netherlandsworldwide.nl,3,wikidata,"Embassy of the Netherlands, Addis Ababa",cen
 nguc.edu.et,3,ror,New Generation University College,central,,
 norway.no,3,wikidata,"Embassy of Norway, Addis Ababa",central,301,0 mx.domeneshop.no.
 obu.edu.et,3,ror,Oda Bultum University,central,,
+ossrea.net,3,academia,Organization for Social Science Research in Eastern and Southern Africa,,,
 osu.edu.et,3,ror,Oromia State University,central,,
 rayu.edu.et,3,ror,Raya University,central,,
 slu.edu.et,3,ror,Salale University,central,,
@@ -75,6 +92,7 @@ wku.edu.et,3,ror,Wolkite University,central,,
 wldu.edu.et,3,ror,Woldia University,central,,
 wollegauniversity.edu.et,3,ror,Wollega University,central,,
 wsu.edu.et,3,ror,Wolaita Sodo University,central,,
+wu.edu.et,3,ror,Wollo University,central,,
 mizantepiuniversity.net,2,ror,Mizan Tepi University,central,,
 pau-au.net,2,ror,Adwa-Pan African University,central,,
 riftvalleyuniversity.net,2,ror,Rift Valley University,central,,

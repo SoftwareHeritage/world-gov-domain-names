@@ -1,6 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
+hosei.ac.jp,9,academia;academia;ror,"Institute of Comparative Economic Studies, Hosei University | Japan Statistics Research Institute, Hosei University",central,,
+jcga.ac.jp,9,wikidata;wikidata;ror,Japan Coast Guard Academy,central,HttpConnectTimeoutException: HTTP connect timed out,none
+ndmc.ac.jp,9,wikidata;wikidata;ror,National Defense Medical College,central,ConnectException,none
+nodai.ac.jp,9,academia;academia;ror,Research Institute of Evolutionary Biology | Tokyo University of Agriculture Botanical Garden,central,,
 pref.chiba.lg.jp,9,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;ror,Chiba Prefectural Government | Chiba Prefecture | Chiba Prefectural Assembly | Chiba Institute of Health,central-1,ConnectException,20 mx2.securitycloud.pref.chiba.lg.jp.
-pref.nagano.lg.jp,9,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;ror,Nagano Prefectural Police | Nagano prefectural public safety commission | Nagano Prefectural Assembly | Nagano Prefecture | Nagano Prefectural Board of Education,central-1,ConnectException,none
+pref.nagano.lg.jp,9,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;ror,Nagano Prefectural Police | Nagano prefectural public safety commission | Nagano Prefectural Assembly | Nagano Prefecture | Nagano Prefectural Board of Education | Togakushi Forest Botanical Garden,central-1,ConnectException,none
+u-shizuoka-ken.ac.jp,9,academia;academia;academia;academia;academia;ror,"Center for Korean Studies, Graduate School of International Relations, University of Shizuoka | Graduate School of Integrated Pharmaceutical and Nutritional Sciences, University of Shizuoka | Information Technology Center, University of Shizuoka | Institute of Traditional Chinese Medicine, School of Pharmaceutical Sciences, University of Shizuoka | Policy Research Center, Graduate School of Management and Information of Innovation, University of Shizuoka",central,,
+u-tokyo.ac.jp,9,academia;academia;ror,Ito International Research Center | University of Tokyo,central,,
 www2.pref.iwate.jp,9,wikidata;wikidata;ror,Iwate Prefecture Public Safety Commission,central-1,200,none
 adachikouiki.lg.jp,7,wikidata;wikidata,Q85879382,,HttpConnectTimeoutException: HTTP connect timed out,10 ns.adachikouiki.lg.jp.
 aizu-kouiki.jp,7,wikidata;wikidata,Q11381268,,ConnectException,10 ml.aizu-kouiki.jp.
@@ -14,7 +20,6 @@ boj.or.jp,7,wikidata;wikidata,Bank of Japan,central,ConnectException,10 mx.secur
 bungo-ohno.jp,7,wikidata;wikidata,Bungo-ōno-shi,,200,10 sc-ms.oita-net.jp.
 chatan.jp,7,wikidata;wikidata,Chatan,,ConnectException,10 mail2.chatan.jp.; 20 mail1.chatan.jp.
 city-kirishima.jp,7,wikidata;wikidata,Kirishima,,ConnectException,10 mx.city-kirishima.jp.
-city-matsuura.jp,7,wikidata;wikidata,Matsuura,,ConnectException,none
 city-yanai.jp,7,wikidata;wikidata,Yanai,,ConnectException,10 sc35-mail01.sbt-isc.jp.
 city-yuzawa.jp,7,wikidata;wikidata,Yuzawa,,ConnectException,50 mail.city-yuzawa.jp.
 city.abashiri.hokkaido.jp,7,wikidata;wikidata,Abashiri,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.city.abashiri.hokkaido.jp.
@@ -31,7 +36,6 @@ city.anan.tokushima.jp,7,wikidata;wikidata,Anan,,ConnectException,none
 city.anjo.aichi.jp,7,wikidata;wikidata,Anjō,,ConnectException,30 alt2.ap.email.fireeyecloud.com.; 10 primary.ap.email.fireeyecloud.com.; 40 alt3.ap.email.fireeyecloud.com.; 20 alt1.ap.email.fireeyecloud.com.
 city.annaka.lg.jp,7,wikidata;wikidata,Annaka,,HttpConnectTimeoutException: HTTP connect timed out,10 gsc2-ml10.sec.gunma.jp.
 city.arida.lg.jp,7,wikidata;wikidata,Arida,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.wirp.jp.; 10 mail2.wirp.jp.
-city.asago.hyogo.jp,7,wikidata;wikidata,Asago,,ConnectException,10 rose-z21.pref.hyogo.lg.jp.; 20 rose-n22.pref.hyogo.lg.jp.
 city.asakuchi.lg.jp,7,wikidata;wikidata,Asakuchi,,HttpConnectTimeoutException: HTTP connect timed out,dig error
 city.asakura.lg.jp,7,wikidata;wikidata,Asakura,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 fsec-mta.city.asakura.lg.jp.
 city.aso.kumamoto.jp,7,wikidata;wikidata,Aso,,302,10 pop.city.aso.kumamoto.jp.
@@ -48,7 +52,6 @@ city.chikugo.lg.jp,7,wikidata;wikidata,Chikugo,,ConnectException,10 fsec-mta.cit
 city.chikuma.lg.jp,7,wikidata;wikidata,Chikuma,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching city.chikuma.lg.jp found.,10 mx2nd12.naganoken-sc.jp.; 10 mx2nd11.naganoken-sc.jp.
 city.chikusei.lg.jp,7,wikidata;wikidata,Chikusei,,HttpConnectTimeoutException: HTTP connect timed out,10 ibscmllg-227.city.chikusei.lg.jp.
 city.chikushino.fukuoka.jp,7,wikidata;wikidata,Chikushino,,HttpConnectTimeoutException: HTTP connect timed out,10 fsec-mta.city.chikushino.fukuoka.jp.
-city.chitose.lg.jp,7,wikidata;wikidata,Chitose,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.city.chitose.lg.jp.
 city.chofu.lg.jp,7,wikidata;wikidata,Chōfu,,HttpConnectTimeoutException: HTTP connect timed out,10 mail-ex.tokyo-isc.jp.
 city.choshi.chiba.jp,7,wikidata;wikidata,Chōshi,,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.securitycloud.city.choshi.chiba.jp.
 city.chuo.lg.jp,7,wikidata;wikidata,Chūō,,HttpConnectTimeoutException: HTTP connect timed out,10 mail-ex.tokyo-isc.jp.; 100 purify.attnet.ne.jp.
@@ -89,7 +92,6 @@ city.gose.nara.jp,7,wikidata;wikidata,Gose,,HttpConnectTimeoutException: HTTP co
 city.gosen.lg.jp,7,wikidata;wikidata,Gosen,,HttpConnectTimeoutException: HTTP connect timed out,10 sc15-mail01.sbt-isc.jp.
 city.goshogawara.lg.jp,7,wikidata;wikidata,Goshogawara,,ConnectException,10 sc02-mail01.sbt-isc.jp.
 city.gotemba.lg.jp,7,wikidata;wikidata,Gotemba,,ConnectException,10 mailgwsc.oneoffice.jp.
-city.goto.nagasaki.jp,7,wikidata;wikidata,Goto,,ConnectException,100 sc42-mail01.sbt-isc.jp.
 city.gotsu.lg.jp,7,wikidata;wikidata,Gōtsu-shi,,ConnectException,10 mx.ssc.pref.shimane.jp.
 city.gujo.gifu.jp,7,wikidata;wikidata,Gujō-shi,,ConnectException,none
 city.gyoda.lg.jp,7,wikidata;wikidata,Gyōda-shi,,ConnectException,10 sc11-mail01.sbt-isc.jp.
@@ -108,12 +110,10 @@ city.hashima.lg.jp,7,wikidata;wikidata,Hashima,,ConnectException,10 mail01.gifu-
 city.hashimoto.lg.jp,7,wikidata;wikidata,Hashimoto,,ConnectException,10 mail1.wirp.jp.; 10 mail2.wirp.jp.
 city.hasuda.saitama.jp,7,wikidata;wikidata,Hasuda,,ConnectException,none
 city.hatsukaichi.hiroshima.jp,7,wikidata;wikidata,Hatsukaichi,,ConnectException,0 hscmta.city.hatsukaichi.lg.jp.
-city.hekinan.lg.jp,7,wikidata;wikidata,Hekinan,,ConnectException,20 alt1.ap.email.fireeyecloud.com.; 40 alt3.ap.email.fireeyecloud.com.; 30 alt2.ap.email.fireeyecloud.com.; 10 primary.ap.email.fireeyecloud.com.
 city.hida.gifu.jp,7,wikidata;wikidata,Hida,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching city.hida.gifu.jp found.,10 mail01.gifu-sc2.jp.; 10 mail02.gifu-sc2.jp.
 city.hidaka.lg.jp,7,wikidata;wikidata,Hidaka,,ConnectException,5 sc11-mail01.sbt-isc.jp.
 city.higashimatsushima.miyagi.jp,7,wikidata;wikidata,Higashimatsushima,,ConnectException,10 sc04-mail01.sbt-isc.jp.
 city.higashine.yamagata.jp,7,wikidata;wikidata,Higashine,,HttpConnectTimeoutException: HTTP connect timed out,10 sc06-mail01.sbt-isc.jp.
-city.higashiomi.shiga.jp,7,wikidata;wikidata,Higashiōmi-shi,,ConnectException,10 ssc2-osk-mllim.shigasc.jp.
 city.higashiosaka.lg.jp,7,wikidata;wikidata,Higashiōsaka-shi,,ConnectException,10 osakasc-fml3.utility.optage.co.jp.
 city.hikari.lg.jp,7,wikidata;wikidata,Hikari,,ConnectException,none
 city.himi.toyama.jp,7,wikidata;wikidata,Himi,,ConnectException,10 mx-ts1.htcn.ne.jp.
@@ -134,7 +134,6 @@ city.ibara.okayama.jp,7,wikidata;wikidata,Ibara,,ConnectException,none
 city.ibaraki-koga.lg.jp,7,wikidata;wikidata,Koga,,ConnectException,10 ibscmllg-204.city.ibaraki-koga.lg.jp.
 city.ibusuki.lg.jp,7,wikidata;wikidata,Ibusuki,,ConnectException,none
 city.ichihara.chiba.jp,7,wikidata;wikidata,Ichihara,,ConnectException,none
-city.ichikawa.lg.jp,7,wikidata;wikidata,Ichikawa,,ConnectException,none
 city.ichikikushikino.lg.jp,7,wikidata;wikidata,Ichikikushikino,,ConnectException,none
 city.iiyama.nagano.jp,7,wikidata;wikidata,Iiyama,,ConnectException,none
 city.iizuka.lg.jp,7,wikidata;wikidata,Iizuka,,ConnectException,none
@@ -143,7 +142,6 @@ city.iki.nagasaki.jp,7,wikidata;wikidata,Iki,,ConnectException,10 sc42-mail01.sb
 city.ikoma.lg.jp,7,wikidata;wikidata,Ikoma,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.imari.saga.jp,7,wikidata;wikidata,Imari,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.imizu.toyama.jp,7,wikidata;wikidata,Imizu,,ConnectException,none
-city.inabe.mie.jp,7,wikidata;wikidata,Inabe,,ConnectException,none
 city.inashiki.lg.jp,7,wikidata;wikidata,Inashiki,,ConnectException,none
 city.inzai.lg.jp,7,wikidata;wikidata,Inzai,,ConnectException,none
 city.isa.kagoshima.jp,7,wikidata;wikidata,Isa,,ConnectException,none
@@ -153,7 +151,6 @@ city.ishikari.hokkaido.jp,7,wikidata;wikidata,Ishikari,,ConnectException,none
 city.ishinomaki.lg.jp,7,wikidata;wikidata,Ishinomaki,,ConnectException,none
 city.ishioka.lg.jp,7,wikidata;wikidata,Ishioka,,ConnectException,10 ibscmllg-205.city.ishioka.lg.jp.
 city.isumi.lg.jp,7,wikidata;wikidata,Isumi,,ConnectException,20 mx2.securitycloud.city.isumi.lg.jp.
-city.itako.lg.jp,7,wikidata;wikidata,Itako,,ConnectException,none
 city.itoigawa.lg.jp,7,wikidata;wikidata,Itoigawa,,ConnectException,none
 city.itoshima.lg.jp,7,wikidata;wikidata,Itoshima,,ConnectException,none
 city.iwade.lg.jp,7,wikidata;wikidata,Iwade,,ConnectException,10 mail2.wirp.jp.; 10 mail1.wirp.jp.
@@ -173,7 +170,6 @@ city.kahoku.lg.jp,7,wikidata;wikidata,Kahoku,,HttpConnectTimeoutException: HTTP 
 city.kai.yamanashi.jp,7,wikidata;wikidata,Kai,,ConnectException,10 mlv.ypisc.jp.
 city.kaizu.lg.jp,7,wikidata;wikidata,Kaizu,,ConnectException,10 mail01.gifu-sc2.jp.; 10 mail02.gifu-sc2.jp.
 city.kaizuka.lg.jp,7,wikidata;wikidata,Kaizuka,,ConnectException,none
-city.kakamigahara.lg.jp,7,wikidata;wikidata,Kakamigahara,,ConnectException,none
 city.kakogawa.lg.jp,7,wikidata;wikidata,Kakogawa,,ConnectException,none
 city.kakuda.lg.jp,7,wikidata;wikidata,Kakuda,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.kama.lg.jp,7,wikidata;wikidata,Kama,,ConnectException,none
@@ -205,7 +201,6 @@ city.katano.osaka.jp,7,wikidata;wikidata,Katano,,ConnectException,none
 city.kato.lg.jp,7,wikidata;wikidata,Katō-shi,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.katori.lg.jp,7,wikidata;wikidata,Katori,,ConnectException,none
 city.katsuragi.nara.jp,7,wikidata;wikidata,Katsuragi,,ConnectException,none
-city.katsushika.lg.jp,7,wikidata;wikidata,Katsushika,,ConnectException,none
 city.katsuura.lg.jp,7,wikidata;wikidata,Katsuura,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.katsuyama.fukui.jp,7,wikidata;wikidata,Katsuyama,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.kawachinagano.lg.jp,7,wikidata;wikidata,Kawachinagano,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -213,7 +208,6 @@ city.kawaguchi.lg.jp,7,wikidata;wikidata,Kawaguchi,,ConnectException,none
 city.kazo.lg.jp,7,wikidata;wikidata,Kazo,,ConnectException,none
 city.kazuno.akita.jp,7,wikidata;wikidata,Kazuno,,ConnectException,none
 city.kikuchi.lg.jp,7,wikidata;wikidata,Kikuchi,,ConnectException,10 mail10.ksc.kumamoto.jp.
-city.kikugawa.shizuoka.jp,7,wikidata;wikidata,Kikugawa,,ConnectException,none
 city.kimitsu.lg.jp,7,wikidata;wikidata,Kimitsu,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.kinokawa.lg.jp,7,wikidata;wikidata,Kinokawa,,ConnectException,10 mail1.wirp.jp.; 10 mail2.wirp.jp.
 city.kisarazu.lg.jp,7,wikidata;wikidata,Kisarazu,,ConnectException,none
@@ -244,11 +238,9 @@ city.kurayoshi.lg.jp,7,wikidata;wikidata,Kurayoshi,,ConnectException,none
 city.kure.lg.jp,7,wikidata;wikidata,Kure,,ConnectException,10 city-kure-lg-jp.in.tmems-jp.trendmicro.com.
 city.kurobe.toyama.jp,7,wikidata;wikidata,Kurobe,,ConnectException,10 mx-ts1.htcn.ne.jp.
 city.kuroishi.aomori.jp,7,wikidata;wikidata,Kuroishi,,ConnectException,none
-city.kurume.fukuoka.jp,7,wikidata;wikidata,Kurume,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.kushima.lg.jp,7,wikidata;wikidata,Kushima,,ConnectException,none
 city.kuwana.lg.jp,7,wikidata;wikidata,Kuwana,,ConnectException,10 msc2ml.mie-sec-cloud.jp.
 city.kyotanabe.lg.jp,7,wikidata;wikidata,Kyōtanabe-shi,,ConnectException,none
-city.machida.tokyo.jp,7,wikidata;wikidata,Machida,,ConnectException,10 mail-ex.tokyo-isc.jp.
 city.maibara.lg.jp,7,wikidata;wikidata,Maihara,,ConnectException,none
 city.maizuru.kyoto.jp,7,wikidata;wikidata,Maizuru,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.makinohara.shizuoka.jp,7,wikidata;wikidata,Makinohara,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -266,7 +258,6 @@ city.mikasa.hokkaido.jp,7,wikidata;wikidata,Mikasa,,ConnectException,none
 city.miki.lg.jp,7,wikidata;wikidata,Miki,,ConnectException,none
 city.mimasaka.lg.jp,7,wikidata;wikidata,Mimasaka,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.minamata.lg.jp,7,wikidata;wikidata,Minamata,,ConnectException,none
-city.minamiashigara.kanagawa.jp,7,wikidata;wikidata,Minamiashigara,,ConnectException,none
 city.minamiawaji.hyogo.jp,7,wikidata;wikidata,Minami-Awaji,,ConnectException,none
 city.minamiboso.chiba.jp,7,wikidata;wikidata,Minamiboso,,ConnectException,20 mx2.securitycloud.city.minamiboso.chiba.jp.
 city.minamikyushu.lg.jp,7,wikidata;wikidata,Minamikyushu,,ConnectException,none
@@ -287,7 +278,6 @@ city.miyawaka.lg.jp,7,wikidata;wikidata,Miyawaka,,HttpConnectTimeoutException: H
 city.miyazu.kyoto.jp,7,wikidata;wikidata,Miyazu,,ConnectException,none
 city.miyoshi.hiroshima.jp,7,wikidata;wikidata,Miyoshi,,ConnectException,10 mail.city.miyoshi.hiroshima.jp.
 city.mizuho.lg.jp,7,wikidata;wikidata,Mizuho,,ConnectException,10 mail01.gifu-sc2.jp.; 10 mail02.gifu-sc2.jp.
-city.mizunami.lg.jp,7,wikidata;wikidata,Mizunami,,ConnectException,10 mail02.gifu-sc2.jp.; 10 mail01.gifu-sc2.jp.
 city.mobara.chiba.jp,7,wikidata;wikidata,Mobara,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.moriguchi.osaka.jp,7,wikidata;wikidata,Moriguchi,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,10 mail.city.moriguchi.osaka.jp.
 city.moriya.ibaraki.jp,7,wikidata;wikidata,Moriya,,ConnectException,none
@@ -318,7 +308,6 @@ city.namerikawa.toyama.jp,7,wikidata;wikidata,Namerikawa,,ConnectException,10 mx
 city.nanao.lg.jp,7,wikidata;wikidata,Nanao,,ConnectException,none
 city.nankoku.lg.jp,7,wikidata;wikidata,Nankoku,,ConnectException,none
 city.nantan.kyoto.jp,7,wikidata;wikidata,Nantan,,HttpConnectTimeoutException: HTTP connect timed out,none
-city.nanto.toyama.jp,7,wikidata;wikidata,Nanto,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.nanyo.yamagata.jp,7,wikidata;wikidata,Nanyo,,HttpConnectTimeoutException: HTTP connect timed out,10 sc06-mail01.sbt-isc.jp.
 city.narashino.lg.jp,7,wikidata;wikidata,Narashino,,ConnectException,none
 city.naruto.tokushima.jp,7,wikidata;wikidata,Naruto,,ConnectException,none
@@ -383,13 +372,11 @@ city.sagae.yamagata.jp,7,wikidata;wikidata,Sagae,,HttpConnectTimeoutException: H
 city.saijo.ehime.jp,7,wikidata;wikidata,Saijo,,ConnectException,none
 city.saikai.nagasaki.jp,7,wikidata;wikidata,Saikai,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.saiki.oita.jp,7,wikidata;wikidata,Saiki,,ConnectException,none
-city.saitama.lg.jp,7,wikidata;wikidata,Urawa-ku,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.saito.lg.jp,7,wikidata;wikidata,Saito,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.sakado.lg.jp,7,wikidata;wikidata,Sakado,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.sakaide.lg.jp,7,wikidata;wikidata,Sakaide,,ConnectException,none
 city.sakura.lg.jp,7,wikidata;wikidata,Sakura,,ConnectException,none
 city.sakuragawa.lg.jp,7,wikidata;wikidata,Sakuragawa,,HttpConnectTimeoutException: HTTP connect timed out,none
-city.sakurai.lg.jp,7,wikidata;wikidata,Sakurai,,HttpConnectTimeoutException: HTTP connect timed out,10 narasc-fml2.utility.optage.co.jp.
 city.sammu.lg.jp,7,wikidata;wikidata,Sanmu,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.sanjo.niigata.jp,7,wikidata;wikidata,Sanjō-shi,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.sanyo-onoda.lg.jp,7,wikidata;wikidata,Sanʼyō-Onoda,,ConnectException,none
@@ -404,7 +391,6 @@ city.settsu.osaka.jp,7,wikidata;wikidata,Settsu,,ConnectException,none
 city.shibata.lg.jp,7,wikidata;wikidata,Shibata,,ConnectException,10 sc15-mail01.sbt-isc.jp.
 city.shibetsu.lg.jp,7,wikidata;wikidata,Shibetsu,,ConnectException,none
 city.shibukawa.lg.jp,7,wikidata;wikidata,Shibukawa,,ConnectException,none
-city.shibushi.lg.jp,7,wikidata;wikidata,Shibushi,,ConnectException,none
 city.shijonawate.lg.jp,7,wikidata;wikidata,Shijōnawate-shi,,ConnectException,none
 city.shimabara.lg.jp,7,wikidata;wikidata,Shimabara,,ConnectException,10 sc42-mail01.sbt-isc.jp.
 city.shimada.shizuoka.jp,7,wikidata;wikidata,Shimada,,ConnectException,none
@@ -421,7 +407,6 @@ city.shiraoka.lg.jp,7,wikidata;wikidata,Shiraoka,,ConnectException,none
 city.shiroi.chiba.jp,7,wikidata;wikidata,Shiroi,,ConnectException,none
 city.shiroishi.miyagi.jp,7,wikidata;wikidata,Shiroishi,,ConnectException,10 sc04-mail01.sbt-isc.jp.
 city.shobara.hiroshima.jp,7,wikidata;wikidata,Shōbara-shi,,ConnectException,none
-city.shunan.lg.jp,7,wikidata;wikidata,Shūnan-shi,,ConnectException,10 sc35-mail01.sbt-isc.jp.
 city.sodegaura.lg.jp,7,wikidata;wikidata,Sodegaura,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.soka.saitama.jp,7,wikidata;wikidata,Sōka-shi,,ConnectException,none
 city.soma.fukushima.jp,7,wikidata;wikidata,Sōma-shi,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -435,28 +420,23 @@ city.susono.shizuoka.jp,7,wikidata;wikidata,Susono,,HttpConnectTimeoutException:
 city.suwa.lg.jp,7,wikidata;wikidata,Suwa,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.suzaka.nagano.jp,7,wikidata;wikidata,Suzaka,,HttpConnectTimeoutException: HTTP connect timed out,10 mx2nd11.naganoken-sc.jp.; 10 mx2nd12.naganoken-sc.jp.
 city.suzu.lg.jp,7,wikidata;wikidata,Suzu,,HttpConnectTimeoutException: HTTP connect timed out,none
-city.tagajo.miyagi.jp,7,wikidata;wikidata,Tagajō,,HttpConnectTimeoutException: HTTP connect timed out,10 sc04-mail01.sbt-isc.jp.
 city.tahara.aichi.jp,7,wikidata;wikidata,Tahara,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.tainai.niigata.jp,7,wikidata;wikidata,Tainai,,ConnectException,none
-city.tajimi.lg.jp,7,wikidata;wikidata,Tajimi,,HttpConnectTimeoutException: HTTP connect timed out,10 mail02.gifu-sc2.jp.; 10 mail01.gifu-sc2.jp.
 city.takahagi.ibaraki.jp,7,wikidata;wikidata,Takahagi,,HttpConnectTimeoutException: HTTP connect timed out,10 ajs0.mx.cloud-mail.jp.
 city.takahashi.lg.jp,7,wikidata;wikidata,Takahashi,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.takaishi.lg.jp,7,wikidata;wikidata,Takaishi,,ConnectException,none
 city.takasago.lg.jp,7,wikidata;wikidata,Takasago,,ConnectException,20 rose-z21.pref.hyogo.lg.jp.; 10 rose-n22.pref.hyogo.lg.jp.
 city.takasaki.gunma.jp,7,wikidata;wikidata,Takasaki,,403,1 smtp.google.com.
-city.takatsuki.osaka.jp,7,wikidata;wikidata,Takatsuki,,ConnectException,none
 city.takayama.lg.jp,7,wikidata;wikidata,Takayama,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.takehara.lg.jp,7,wikidata;wikidata,Takehara,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.takeo.lg.jp,7,wikidata;wikidata,Takeo,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.takikawa.lg.jp,7,wikidata;wikidata,Takikawa,,HttpConnectTimeoutException: HTTP connect timed out,none
-city.takizawa.iwate.jp,7,wikidata;wikidata,Takizawa,,301,none
 city.taku.lg.jp,7,wikidata;wikidata,Taku,,ConnectException,none
 city.tamana.lg.jp,7,wikidata;wikidata,Tamana,,ConnectException,10 mail07.ksc.kumamoto.jp.
 city.tamano.lg.jp,7,wikidata;wikidata,Tamano,,ConnectException,10 sco-mx.sec-cloud.pref.okayama.jp.
 city.tamba.lg.jp,7,wikidata;wikidata,Tamba,,ConnectException,none
 city.tambasasayama.lg.jp,7,wikidata;wikidata,Tamba-Sasayama,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,none
 city.tamura.lg.jp,7,wikidata;wikidata,Tamura,,ConnectException,10 sc07-mail01.sbt-isc.jp.
-city.tateyama.chiba.jp,7,wikidata;wikidata,Tateyama,,ConnectException,none
 city.tendo.yamagata.jp,7,wikidata;wikidata,Tendō-shi,,ConnectException,10 sc06-mail01.sbt-isc.jp.
 city.tenri.nara.jp,7,wikidata;wikidata,Tenri,,301,none
 city.toba.mie.jp,7,wikidata;wikidata,Toba,,ConnectException,10 msc2ml.mie-sec-cloud.jp.
@@ -465,7 +445,6 @@ city.tochigi.lg.jp,7,wikidata;wikidata,Tochigi,,ConnectException,none
 city.toda.saitama.jp,7,wikidata;wikidata,Toda,,ConnectException,10 sc11-mail01.sbt-isc.jp.
 city.togane.chiba.jp,7,wikidata;wikidata,Tōgane-shi,,ConnectException,none
 city.tokamachi.lg.jp,7,wikidata;wikidata,Tōkamachi-shi,,ConnectException,10 sc15-mail01.sbt-isc.jp.
-city.toki.lg.jp,7,wikidata;wikidata,Toki,,ConnectException,none
 city.tokyo-nakano.lg.jp,7,wikidata;wikidata,Nakano,,ConnectException,none
 city.tome.miyagi.jp,7,wikidata;wikidata,Tome,,ConnectException,none
 city.tomi.nagano.jp,7,wikidata;wikidata,Tōmi-shi,,ConnectException,none
@@ -476,7 +455,6 @@ city.tonami.toyama.jp,7,wikidata;wikidata,Tonami,,ConnectException,none
 city.tondabayashi.lg.jp,7,wikidata;wikidata,Tondabayashi,,ConnectException,none
 city.tono.iwate.jp,7,wikidata;wikidata,Tōno-shi,,ConnectException,none
 city.toon.ehime.jp,7,wikidata;wikidata,Tōon-shi,,ConnectException,10 mx2.sc-ehime.lg.jp.
-city.toride.ibaraki.jp,7,wikidata;wikidata,Toride,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.tosa.lg.jp,7,wikidata;wikidata,Tosa,,ConnectException,none
 city.tosashimizu.kochi.jp,7,wikidata;wikidata,Tosashimizu,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.tosu.lg.jp,7,wikidata;wikidata,Tosu,,ConnectException,none
@@ -539,16 +517,18 @@ city.yukuhashi.fukuoka.jp,7,wikidata;wikidata,Yukuhashi,,HttpConnectTimeoutExcep
 city.yurihonjo.lg.jp,7,wikidata;wikidata,Yurihonjo,,ConnectException,10 sc05-mail01.sbt-isc.jp.
 city.zentsuji.kagawa.jp,7,wikidata;wikidata,Zentsūji-shi,,ConnectException,none
 clair.or.jp,7,wikidata;wikidata,Council of Local Authorities for International Relations,,HttpConnectTimeoutException: HTTP connect timed out,none
+common3.pref.akita.lg.jp,7,wikidata;academia,Hotta-no-saku | Akita Archaeological Center,,403,none
 daisen.jp,7,wikidata;wikidata,Daisen,,HttpConnectTimeoutException: HTTP connect timed out,10 sct-mx.sec-cloud.pref.tottori.jp.
+dept.sophia.ac.jp,7,academia;academia,"Iberoamerican Institute, Sophia University | Institute of Global Concern",,,
 edu.pref.ibaraki.jp,7,wikidata;wikidata,Ibaraki Prefectural Board of Education,,HttpConnectTimeoutException: HTTP connect timed out,none
 ehime-c.esnet.ed.jp,7,wikidata;wikidata,Ehime Prefectural Board of Education,,HttpConnectTimeoutException: HTTP connect timed out,none
 en.city.fujiyoshida.yamanashi.jp,7,wikidata;wikidata,Fujiyoshida,,HttpConnectTimeoutException: HTTP connect timed out,none
 en.city.hirado.nagasaki.jp,7,wikidata;wikidata,Hirado,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching en.city.hirado.nagasaki.jp found.,none
 en.vill.ogasawara.tokyo.jp,7,wikidata;wikidata,Ogasawara Village,,HttpConnectTimeoutException: HTTP connect timed out,none
-engaru.jp,7,wikidata;wikidata,Engaru,,HttpConnectTimeoutException: HTTP connect timed out,none
 engarukouiki.jp,7,wikidata;wikidata,Q86731671,,HttpConnectTimeoutException: HTTP connect timed out,none
 english.metro.tokyo.lg.jp,7,wikidata;wikidata,Tokyo,,HttpConnectTimeoutException: HTTP connect timed out,none
 esashi.jp,7,wikidata;wikidata,Esashi,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,none
+expo70-park.jp,7,academia;academia,Natural and Cultural Gardens | Rose Garden,,,
 f-suiki.or.jp,7,wikidata;wikidata,Q65277049,,301,0 dmail.kagoya.net.
 fire-tokachi.hokkaido.jp,7,wikidata;wikidata,Q24197403,,"SSLException: Unrecognized SSL message, plaintext connection?",none
 fk-tosikou.or.jp,7,wikidata;wikidata,Fukuoka-Kitakyushu Expressway Public Corporation,,ConnectException,none
@@ -560,20 +540,23 @@ hichiso.jp,7,wikidata;wikidata,Hichisō-chō,,ConnectException,10 mail01.gifu-sc
 hidaka-chubu-119.jp,7,wikidata;wikidata,Q22125068,,ConnectException,none
 hiezu.jp,7,wikidata;wikidata,Hiezu,,ConnectException,none
 higashikagawa.jp,7,wikidata;wikidata,Higashikagawa,,ConnectException,none
+higashiyama.city.nagoya.jp,7,academia;academia,Higashiyama Botanical Garden | Higashiyama Zoo and Botanical Gardens,,,
 hijagawa.or.jp,7,wikidata;wikidata,Q22124748,,200,none
 himeshima.jp,7,wikidata;wikidata,Himeshima,,ConnectException,none
 hirayamura.jp,7,wikidata;wikidata,Hiraya,,400,none
 hodatsushimizu.jp,7,wikidata;wikidata,Hōdatsu-shimizu-chō,,ConnectException,none
 hokkaido-esashi.jp,7,wikidata;wikidata,Esashi,,ConnectException,10 wmail.hokkaido-esashi.jp.
+hokudai.ac.jp,7,academia;academia,Hokkaido University | Hokkaido University Botanical Gardens,central,,
 houki-town.jp,7,wikidata;wikidata,Hōki-chō,,ConnectException,10 sct-mx.sec-cloud.pref.tottori.jp.
 hyugacity.jp,7,wikidata;wikidata,Hyūga-shi,,ConnectException,none
 iinan.jp,7,wikidata;wikidata,Iinan,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.ssc.pref.shimane.jp.
+imes.boj.or.jp,7,wikidata;academia,Q135659180 | Institute for Monetary and Economic Studies,,ConnectException,none
 inacity.jp,7,wikidata;wikidata,Ina,,ConnectException,none
 info.city.tsu.mie.jp,7,wikidata;wikidata,Tsu,,ConnectException,none
+ir.u-shizuoka-ken.ac.jp,7,academia;academia,"Graduate School of International Relations, University of Shizuoka | School of International Relations, University of Shizuoka",,,
 ishikarihokubu.jp,7,wikidata;wikidata,Q11586859,,HttpConnectTimeoutException: HTTP connect timed out,none
 iwami.gr.jp,7,wikidata;wikidata,Iwami-chō,,HttpConnectTimeoutException: HTTP connect timed out,10 sct-mx.sec-cloud.pref.tottori.jp.
 iwmo.or.jp,7,wikidata;wikidata,Ibaraki Western Medical Center,,HttpConnectTimeoutException: HTTP connect timed out,none
-jcga.ac.jp,7,wikidata;wikidata,Japan Coast Guard Academy,,HttpConnectTimeoutException: HTTP connect timed out,none
 jinsekigun.jp,7,wikidata;wikidata,Jinsekikogen,,HttpConnectTimeoutException: HTTP connect timed out,100 mail2.jinsekigun.jp.
 joho.tagawa.fukuoka.jp,7,wikidata;wikidata,Tagawa,,HttpConnectTimeoutException: HTTP connect timed out,none
 kamikatsu.jp,7,wikidata;wikidata,Kamikatsu,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -602,7 +585,6 @@ koumi-town.jp,7,wikidata;wikidata,Koumi,,HttpConnectTimeoutException: HTTP conne
 kouratown.jp,7,wikidata;wikidata,Kōra-chō,,HttpConnectTimeoutException: HTTP connect timed out,none
 kuji-kouiki.jp,7,wikidata;wikidata,Q60989504,,200,10 kuji-kouiki.jp.
 kumakogen.jp,7,wikidata;wikidata,Kumakogen,,ConnectException,none
-kuriharacity.jp,7,wikidata;wikidata,Kurihara,,ConnectException,none
 kyoiku.metro.tokyo.lg.jp,7,wikidata;wikidata,Tokyo Metropolitan Government Board of Education,central-1,ConnectException,none
 kyoto-be.ne.jp,7,wikidata;wikidata,Kyoto Prefectural Board of Education,,ConnectException,none
 kyouiku.higo.ed.jp,7,wikidata;wikidata,Kumamoto Prefectural Board of Education,,ConnectException,none
@@ -611,6 +593,7 @@ maoi-net.jp,7,wikidata;wikidata,Naganuma,,ConnectException,none
 metro.tokyo.lg.jp,7,wikidata;wikidata;wikidata;wikidata,Tokyo Metropolitan Government | Tokyo,central-1,ConnectException,none
 minamiaiki.jp,7,wikidata;wikidata,Minamiaiki,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching minamiaiki.jp found.,none
 minamimakimura.jp,7,wikidata;wikidata,Minamimaki,,HttpConnectTimeoutException: HTTP connect timed out,none
+miyazaki-archive.jp,7,academia;academia,Miyazaki Prefecture Archaeological Center | Miyazaki Prefecture Archaeological Center Branch,central-1,,
 miyoshikouiki.jp,7,wikidata;wikidata,Q21654897,,ConnectException,none
 mofa.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, Tokyo",central,IOException: HTTP/1.1 header parser received no bytes,none
 mombetsu.jp,7,wikidata;wikidata,Monbetsu,,200,10 ak119.secure.ne.jp.
@@ -619,14 +602,15 @@ nakijin.jp,7,wikidata;wikidata,Nakijin,,ConnectException,20 mail1.nakijin.jp.; 1
 nanmoku.ne.jp,7,wikidata;wikidata,Nanmoku,,200,none
 nanpu.or.jp,7,wikidata;wikidata,Q95468378,,ConnectException,none
 nansoufd.sakura.ne.jp,7,wikidata;wikidata,Q24816794,,200,10 nansoufd.sakura.ne.jp.
-ndmc.ac.jp,7,wikidata;wikidata,National Defense Medical College,,ConnectException,none
 nebamura.jp,7,wikidata;wikidata,Neba,,400,none
 nfd119.sakura.ne.jp,7,wikidata;wikidata,Q24847960,,200,none
 niikappu.jp,7,wikidata;wikidata,Niikappu,,200,none
 nishimeya.jp,7,wikidata;wikidata,Nishimeya,,301,none
+nursing.u-shizuoka-ken.ac.jp,7,academia;academia,"Center for Nursing Professional Development, School of Nursing, University of Shizuoka | Graduate School of Nursing, University of Shizuoka",,,
 odaitown.jp,7,wikidata;wikidata,Ōdai-chō,,HttpConnectTimeoutException: HTTP connect timed out,none
 okikouiki.jp,7,wikidata;wikidata,Oki Wide Area Union,,200,none
 osaka-env-paa.jp,7,wikidata;wikidata,Osaka Waste Management Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
+oshu-bunka.or.jp,7,wikidata;academia,Isawa Castle | Ōshū City Archaeological Research Center,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 pal.pref.okayama.jp,7,wikidata;wikidata,Okayama Prefectural Lifelong Learning Center,,HttpConnectTimeoutException: HTTP connect timed out,none
 pen-kanagawa.ed.jp,7,wikidata;wikidata,Kanagawa Prefectural Board of Education,,HttpConnectTimeoutException: HTTP connect timed out,none
 police.pref.akita.jp,7,wikidata;wikidata;wikidata,Akita Prefectural Public Safety Commission | Akita Prefectural Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 www.police.pref.akita.jp.
@@ -636,10 +620,10 @@ police.pref.miyagi.jp,7,wikidata;wikidata;wikidata,Miyagi Prefectural Police | M
 police.pref.okinawa.jp,7,wikidata;wikidata;wikidata,Okinawa Prefectural Public Safety Commission | Okinawa Prefectural Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 police.pref.wakayama.lg.jp,7,wikidata;wikidata;wikidata,Wakayama Prefectural Public Safety Commission | Wakayama Prefectural Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 police.pref.yamaguchi.lg.jp,7,wikidata;wikidata,Yamaguchi Prefectual Police Safety Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
-pref.aichi.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Aichi prefectural government | Aichi Prefecture | Aichi Prefectural Police | Aichi Prefectural Public Safety Commission | Aichi Prefectural Assembly | Aichi Environmental Research Center & Aichi Prefectural Institute of Public Health,central-1,ConnectException,10 primary.ap.email.fireeyecloud.com.; 40 alt3.ap.email.fireeyecloud.com.; 30 alt2.ap.email.fireeyecloud.com.; 20 alt1.ap.email.fireeyecloud.com.
+pref.aichi.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia;academia,Aichi prefectural government | Aichi Prefecture | Aichi Prefectural Police | Aichi Prefectural Public Safety Commission | Aichi Prefectural Assembly | Aichi Archeology Center | Aichi Environmental Research Center & Aichi Prefectural Institute of Public Health | Q55528557,central-1,ConnectException,10 primary.ap.email.fireeyecloud.com.; 40 alt3.ap.email.fireeyecloud.com.; 30 alt2.ap.email.fireeyecloud.com.; 20 alt1.ap.email.fireeyecloud.com.
 pref.akita.lg.jp,7,wikidata;wikidata,Akita Prefecture,central-1,ConnectException,none
 pref.aomori.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Aomori Prefectural Public Safety Commission | Aomori Prefectural Assembly | Aomori Prefecture | Aomori Prefectural Institute of Public Health and Environment,central-1,ConnectException,none
-pref.ehime.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ehime prefectural government | Ehime Prefecture | Ehime Prefectural Assembly | Ehime Prefectural Nuclear Safety Center,central-1,ConnectException,10 mx2.sc-ehime.lg.jp.
+pref.ehime.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,"Ehime prefectural government | Ehime Prefecture | Ehime Prefectural Assembly | Ehime Prefectural Nuclear Safety Center | Ehime Research Institute of Agriculture, Forestry and Fisheries",central-1,ConnectException,10 mx2.sc-ehime.lg.jp.
 pref.fks.ed.jp,7,wikidata;wikidata,Fukushima Prefectural Board of Education,,ConnectException,none
 pref.fukui.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Fukui Prefectural Police | Fukui Prefectural Public Safety Commission | Fukui Prefectural Assembly | Fukui Prefecture,central-1,ConnectException,none
 pref.fukuoka.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Fukuoka Prefecture | Fukuoka prefectural government | Fukuoka Prefectural Board of Education | Q17210164,central-1,ConnectException,none
@@ -647,42 +631,43 @@ pref.fukushima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;academia,Fuk
 pref.gifu.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Gifu Prefecture | Gifu Prefectural Assembly | Gifu Prefectural Board of Education | Gifu Police,central-1,ConnectException,none
 pref.gunma.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Gunma Prefecture | Gunma Prefectural Board of Education | Gunma Prefectural Assembly | Gunma prefectural government | Gunma Prefectural Institute of Public Health and Environmental Sciences,central-1,ConnectException,none
 pref.hiroshima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Hiroshima Prefectural Assembly | Hiroshima Prefectural Public Safety Commission | Hiroshima Prefecture | Hiroshima Prefectural Archives | Hiroshima Prefectural Police,central-1,ConnectException,10 hscmail.pref.hiroshima.lg.jp.
-pref.hokkaido.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata,Hokkaido Government | Hokkaidō | Hokkaido,central-1,ConnectException,none
+pref.hokkaido.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;academia,Hokkaido Government | Hokkaidō | Hokkaido | Hokkaido Nuclear Energy Environmental Research Center,central-1,ConnectException,none
 pref.ibaraki.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Ibaraki Prefecture | Ibaraki Prefectural Police | Ibaraki Prefectural Assembly | Ibaraki Prefectural Institute of Public Health,central-1,ConnectException,10 ibscmlgt-100.pref.ibaraki.jp.
 pref.ishikawa.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Ishikawa Prefecture | Ishikawa Prefectural Assembly | Ishikawa prefectural government | Ishikawa Prefectural Institute of Public Health and Environmental Science,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 pref.iwate.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Iwate Prefecture | Iwate Prefectural Assembly | Iwate Prefectural Police | Iwate prefectural government | Research Institute for Environmental Sciences and Public Health of Iwate Prefecture,central-1,ConnectException,none
 pref.kagawa.jp,7,wikidata;wikidata,Kagawa Prefectural Board of Education,,ConnectException,none
-pref.kagawa.lg.jp,7,wikidata;wikidata;wikidata,Kagawa Prefecture | Kagawa Prefectural Assembly,central-1,ConnectException,none
+pref.kagawa.lg.jp,7,wikidata;wikidata;wikidata;academia,Kagawa Prefecture | Kagawa Prefectural Assembly | Kagawa Prefecture Archaeological Center,central-1,ConnectException,none
 pref.kagoshima.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ōshima Subprefecture | Kagoshima prefectural government | Kagoshima Prefectural Assembly | Kagoshima Prefectural Police | Kagoshima Prefecture | Kagoshima prefectural public safety commission,central-1,ConnectException,none
-pref.kanagawa.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Kanagawa Prefecture Natural Environment Conservation Center | Kanagawa Prefectural Youth Center | Kanagawa Prefecture Policy Bureau | Kanagawa Prefectural Government | Kanagawa Gender Equality Center | Kanagawa Prefectural Assembly | Kanagawa Prefecture,central-1,ConnectException,none
+pref.kanagawa.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Kanagawa Prefecture Natural Environment Conservation Center | Kanagawa Prefectural Youth Center | Kanagawa Prefecture Policy Bureau | Kanagawa Prefectural Government | Kanagawa Gender Equality Center | Kanagawa Prefectural Assembly | Kanagawa Prefecture | Kanagawa Prefectural Archaeological Artifacts Center,central-1,ConnectException,none
 pref.kochi.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Kōchi Prefecture | Sanitary and Environmental Research Institute of Kochi Prefecture,central-1,ConnectException,none
 pref.kumamoto.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Kumamoto Prefecture | Kumamoto Prefectural Police | Kumamoto prefectural government | Kumamoto Prefectural Assembly | Kumamoto Prefectural Institute of Public-Health and Environmental Science,central-1,ConnectException,none
 pref.kyoto.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Kyoto Prefectural Public Safety Commission | Kyōto prefectural government | Kyoto Prefectural Police | Kyōto Prefectural Assembly | Kyoto Prefecture | Kyoto Prefectural Institute of Public Health and Environment,central-1,ConnectException,none
-pref.mie.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata,Mie Prefecture | Mie Prefecture Board of Education | Mie Prefectural Assembly,central-1,ConnectException,none
+pref.mie.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;academia,Mie Prefecture | Mie Prefecture Board of Education | Mie Prefectural Assembly | Mie Prefecture Fisheries Research Institute,central-1,ConnectException,none
 pref.miyagi.jp,7,wikidata;wikidata;wikidata,Miyagi Prefecture | Miyagi Prefectural Assembly,central-1,ConnectException,10 sc04-mail01.sbt-isc.jp.
 pref.miyazaki.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Miyazaki Prefecture | Miyazaki Prefectural Government | Miyazaki Prefectural Assembly | Miyazaki Prefectural Police | Miyazaki Prefectural Institute for Public Health and Environment,central-1,ConnectException,10 msc2-osk-ml.miyazakisc.miyazaki.jp.
 pref.nagasaki.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Nagasaki Prefecture | Nagasaki Prefectural Assembly,central-1,ConnectException,none
 pref.nara.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Nara prefectural government | Nara Prefectural Board of Education | Nara Prefectural Assembly | Nara Prefecture,central-1,ConnectException,none
 pref.niigata.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Niigata Prefecture | Niigata Prefectural Board of Education | Niigata prefectural government | Niigata Prefectural Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-pref.oita.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ōita Prefectural Government | Ōita Prefecture | Ōita Prefectural Assembly | Oita Prefectural Police,central-1,200,none
+pref.oita.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia;academia,"Ōita Prefectural Government | Ōita Prefecture | Ōita Prefectural Assembly | Oita Prefectural Police | Oita Prefectural Agriculture, Forestry and Fisheries Research Center | Oita Prefectural Center for Archaeological Research | Oita Prefectural Institute of Health and Environment",central-1,200,none
 pref.okayama.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Okayama Prefectural Police | Okayama Prefecture | Okayama Prefectural Assembly | Okayama Prefectural Public Safety Commission | Okayama Prefectural Institute for Environmental Science and Public Health,central-1,ConnectException,none
-pref.okinawa.jp,7,wikidata;wikidata;wikidata;academia,Okinawa Prefectural Board of Education | Okinawa Prefectural Assembly | Okinawa Prefectural Institute of Health and Environment,central-1,ConnectException,none
+pref.okinawa.jp,7,wikidata;wikidata;wikidata;academia;academia;academia,Okinawa Prefectural Board of Education | Okinawa Prefectural Assembly | Okinawa Prefectural Agricultural Research Center | Okinawa Prefectural Institute of Health and Environment | Okinawa Prefecture Archaeological Center,central-1,ConnectException,none
 pref.okinawa.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Okinawa Prefecture | Okinawa Prefectural Government,central-1,ConnectException,none
 pref.osaka.jp,7,wikidata;wikidata,Osaka Prefectural Board of Education,,ConnectException,none
 pref.osaka.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ōsaka Prefectural Government | Osaka Ports and Harbors Bureau | Osaka Prefectural Assembly | Q114592811 | Osaka Prefecture,central-1,ConnectException,none
 pref.saga.lg.jp,7,wikidata;wikidata;wikidata;academia,Saga Prefecture | Saga Prefectural Assembly | Saga Prefectural Institute of Public Health and Pharmaceutical Research,central-1,ConnectException,10 sc41-mail01.sbt-isc.jp.
 pref.saitama.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Saitama Prefecture | Saitama Board of Education | Saitama Prefectural Assembly | Saitama Prefectural Public Safety Commission,central-1,ConnectException,none
 pref.shiga.lg.jp,7,wikidata;wikidata;wikidata,Shiga Prefectural Police | Shiga Prefecture,central-1,ConnectException,10 ssc2-osk-mllim.shigasc.jp.
-pref.shimane.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Shimane prefectural government | Shimane Prefecture | Shimane-ken Kyōiku Iinkai | Shimane Prefectural Police | Shimane Prefectural Public Safety Commission | Shimane Prefectural Assembly | Shimane Prefectural Agriculture And Livestock Industry Promotion Division | Shimane Prefectural Nuclear Power Environmental Center,central-1,ConnectException,none
+pref.shimane.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia;academia,Shimane prefectural government | Shimane Prefecture | Shimane-ken Kyōiku Iinkai | Shimane Prefectural Police | Shimane Prefectural Public Safety Commission | Shimane Prefectural Assembly | Shimane Prefectural Agriculture And Livestock Industry Promotion Division | Shimane Prefectural Nuclear Power Environmental Center | Q132398636 | Shimane Prefectural Man'yō Park | Shimane Prefectural Mountainous Regions Research Center,central-1,ConnectException,none
 pref.shizuoka.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Shizuoka Prefectural Police | Shizuoka Prefectural Board of Education | Shizuoka Prefectural Government | Shizuoka Prefecture | Shizuoka Prefectural Assembly | Shizuoka Prefecture Institute of Environmental Health Sciences,central-1,ConnectException,none
 pref.tochigi.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Tochigi Prefecture | Tochigi prefectural government | Tochigi Prefectural Assembly | Tochigi Prefectural Police,central-1,ConnectException,10 sc09-mail01.sbt-isc.jp.
-pref.tokushima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,"Tokushima Prefecture | Q11489673 | Tokushima Prefectural Public Health, Pharmaceutical and Environmental Sciences Center",central-1,301,none
-pref.tottori.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Tottori prefectural government | Tottori Prefectural Assembly | Tottori Prefecture | Tottori Prefectural Police | Tottori Prefectural Education Center,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-pref.toyama.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;academia,Toyama prefectural government | Toyama Prefecture | Toyama Prefectural Assembly | Toyama Institute of Health,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+pref.tokushima.jp,7,wikidata;academia,"Tokushima Prefectural Assembly | Tokushima Prefectural Agriculture, Forestry and Fisheries Technology Support Center Agricultural Research Institute",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+pref.tokushima.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia,"Tokushima Prefecture | Q11489673 | Tokushima Prefectural Public Health, Pharmaceutical and Environmental Sciences Center | Tokushima Prefectural Buried Cultural Properties Research Centre",central-1,301,none
+pref.tottori.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Tottori prefectural government | Tottori Prefectural Assembly | Tottori Prefecture | Tottori Prefectural Police | Tottori Prefectural Education Center | Tottori Buried Cultural Property Center,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+pref.toyama.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia;academia,"Toyama prefectural government | Toyama Prefecture | Toyama Prefectural Assembly | Center for Medicinal Plant Resources, Toyama Prefectural Institute for Pharmaceutical Research | Toyama Institute of Health | Toyama Prefectural Center for Archaeological Operations",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 pref.wakayama.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Wakayama Prefecture | Wakayama Prefectural Assembly | Wakayama Prefectural Board of Education | Q121097898 | Wakayama Department of Agriculture, Forestry and Fisheries",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 kilink.pref.wakayama.lg.jp.; 20 kuroshio.pref.wakayama.lg.jp.
 pref.yamagata.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Yamagata prefectural government | Shōnai Subprefecture | Yamagata Prefecture | Yamagata Prefectural Assembly | Yamagata Prefectural Public Safety Commission | Yamagata Prefectural Police,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 sc06-mail01.sbt-isc.jp.
 pref.yamaguchi.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Yamaguchi prefectural government | Yamaguchi Prefecture | Yamaguchi Prefectural Assembly | Yamaguchi Prefectural Mental Health Welfare Center,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 sc35-mail01.sbt-isc.jp.
-pref.yamanashi.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,"Yamanashi Prefectural Assembly | Yamanashi Livestock and Dairy Farming Technology Center | Yamanashi Prefecture | Yamanashi Prefectural Board of Education | Yamanashi Prefectural Public Safety Commission | Comprehensive Research Organization for Science and Technology, Yamanashi Prefectural Government | Yamanashi Prefecture Forestry and Forest Products Research Institute | Yamanashi Prefectural Police | Yamanashi Prefectural Fisheries Technology Center | Yamanashi prefectural government | Yamanashi Institute for Public Health",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mlv.ypisc.jp.
+pref.yamanashi.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia,"Yamanashi Prefectural Assembly | Yamanashi Livestock and Dairy Farming Technology Center | Yamanashi Prefecture | Yamanashi Prefectural Board of Education | Yamanashi Prefectural Public Safety Commission | Comprehensive Research Organization for Science and Technology, Yamanashi Prefectural Government | Yamanashi Prefecture Forestry and Forest Products Research Institute | Yamanashi Prefectural Police | Yamanashi Prefectural Fisheries Technology Center | Yamanashi prefectural government | Archaeological Center of Yamanashi Prefecture | Yamanashi Institute for Public Health",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mlv.ypisc.jp.
 rausu-town.jp,7,wikidata;wikidata,Rausu,,HttpConnectTimeoutException: HTTP connect timed out,none
 reihoku-kumamoto.jp,7,wikidata;wikidata,Reihoku,,HttpConnectTimeoutException: HTTP connect timed out,none
 rokkasho.jp,7,wikidata;wikidata,Rokkasho,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -698,11 +683,12 @@ shinchi-town.jp,7,wikidata;wikidata,Shinchi,,HttpConnectTimeoutException: HTTP c
 shinhidaka-hokkaido.jp,7,wikidata;wikidata,Shinhidaka,,HttpConnectTimeoutException: HTTP connect timed out,none
 tanocho.jp,7,wikidata;wikidata,Tano,,HttpConnectTimeoutException: HTTP connect timed out,none
 teshiotown.hokkaido.jp,7,wikidata;wikidata,Teshio,,HttpConnectTimeoutException: HTTP connect timed out,none
+tmd.ac.jp,7,academia;academia,Institute of Biomaterials and Bioengineering | Medical Research Institute Tokyo Medical and Dental University,,,
 tokara.jp,7,wikidata;wikidata,Toshima,,302,none
+tokyo-park.or.jp,7,academia;academia,Jindai Botanical Garden | Mukōjima-Hyakkaen Garden,central-1,,
 tomioka-town.jp,7,wikidata;wikidata,Tomioka,,ConnectException,none
 toshiseibi.metro.tokyo.lg.jp,7,wikidata;wikidata,Tokyo Metropolitan Government Bureau of Urban Development,central-1,ConnectException,none
 town-kofu.jp,7,wikidata;wikidata,Kōfu-chō,,ConnectException,none
-town-ono.jp,7,wikidata;wikidata,Ōno-chō,,ConnectException,10 mail01.gifu-sc2.jp.; 10 mail02.gifu-sc2.jp.
 town-takachiho.jp,7,wikidata;wikidata,Takachiho,,ConnectException,10 msc2-osk-ml.miyazakisc.miyazaki.jp.
 town.abira.lg.jp,7,wikidata;wikidata,Abira,,200,none
 town.abu.lg.jp,7,wikidata;wikidata,Abu,,ConnectException,none
@@ -725,7 +711,6 @@ town.ando.nara.jp,7,wikidata;wikidata,Ando,,ConnectException,none
 town.anpachi.lg.jp,7,wikidata;wikidata,Anpachi,,ConnectException,none
 town.aomori-nanbu.lg.jp,7,wikidata;wikidata,Nanbu,,ConnectException,10 sc02-mail01.sbt-isc.jp.
 town.aridagawa.lg.jp,7,wikidata;wikidata,Aridagawa,,ConnectException,none
-town.arita.lg.jp,7,wikidata;wikidata,Arita,,ConnectException,none
 town.asagiri.lg.jp,7,wikidata;wikidata,Asagiri,,ConnectException,none
 town.asahi.toyama.jp,7,wikidata;wikidata,Asahi,,301,none
 town.asahi.yamagata.jp,7,wikidata;wikidata,Asahi,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -904,7 +889,6 @@ town.kibichuo.lg.jp,7,wikidata;wikidata,Kibi-chūō Chō,,HttpConnectTimeoutExce
 town.kiho.lg.jp,7,wikidata;wikidata,Kihō-chō,,HttpConnectTimeoutException: HTTP connect timed out,none
 town.kihoku.ehime.jp,7,wikidata;wikidata,Kihoku,,HttpConnectTimeoutException: HTTP connect timed out,none
 town.kijo.lg.jp,7,wikidata;wikidata,Kijō-chō,,ConnectException,none
-town.kikai.lg.jp,7,wikidata;wikidata,Kikai,,HttpConnectTimeoutException: HTTP connect timed out,none
 town.kikonai.hokkaido.jp,7,wikidata;wikidata,Kikonai,,ConnectException,none
 town.kikuyo.lg.jp,7,wikidata;wikidata,Kikuyō-machi,,ConnectException,none
 town.kimino.wakayama.jp,7,wikidata;wikidata,Kimino,,ConnectException,10 mail1.wirp.jp.; 10 mail2.wirp.jp.
@@ -1320,14 +1304,12 @@ town.yoro.gifu.jp,7,wikidata;wikidata,Yōrō-chō,,HttpConnectTimeoutException: 
 town.yosano.lg.jp,7,wikidata;wikidata,Yosano,,HttpConnectTimeoutException: HTTP connect timed out,none
 town.yoshida.shizuoka.jp,7,wikidata;wikidata,Yoshida,,ConnectException,10 mailgwsc.oneoffice.jp.
 town.yoshika.lg.jp,7,wikidata;wikidata,Yoshika,,HttpConnectTimeoutException: HTTP connect timed out,none
-town.yoshimi.saitama.jp,7,wikidata;wikidata,Yoshimi,,301,none
 town.yoshino.nara.jp,7,wikidata;wikidata,Yoshino,,ConnectException,10 narasc-fml2.utility.optage.co.jp.
 town.yoshinogari.lg.jp,7,wikidata;wikidata,Yoshinogari,,ConnectException,none
 town.yoshioka.gunma.jp,7,wikidata;wikidata,Yoshioka,,301,10 gsc2-ml10.sec.gunma.jp.
 town.yoshitomi.lg.jp,7,wikidata;wikidata,Yoshitomi,,ConnectException,none
 town.yuasa.wakayama.jp,7,wikidata;wikidata,Yuasa,,ConnectException,10 mail1.wirp.jp.; 10 mail2.wirp.jp.
 town.yubetsu.lg.jp,7,wikidata;wikidata,Yūbetsu-chō,,200,none
-town.yugawara.kanagawa.jp,7,wikidata;wikidata,Yugawara,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 town.yuni.lg.jp,7,wikidata;wikidata,Yuni,,ConnectException,none
 town.yunomae.lg.jp,7,wikidata;wikidata,Yunomae,,ConnectException,none
 town.yura.wakayama.jp,7,wikidata;wikidata,Yura,,ConnectException,none
@@ -1470,7 +1452,6 @@ vill.tozawa.yamagata.jp,7,wikidata;wikidata,Tozawa,,HttpConnectTimeoutException:
 vill.tsumagoi.gunma.jp,7,wikidata;wikidata,Tsumagoi,,ConnectException,none
 vill.tsurui.lg.jp,7,wikidata;wikidata,Tsurui,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.vill.tsurui.lg.jp.
 vill.umaji.lg.jp,7,wikidata;wikidata,Umaji,,HttpTimeoutException: request timed out,none
-vill.yahiko.niigata.jp,7,wikidata;wikidata,Yahiko,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,none
 vill.yamae.lg.jp,7,wikidata;wikidata,Yamae,,HttpConnectTimeoutException: HTTP connect timed out,10 mail44.ksc.kumamoto.jp.
 vill.yamagata.nagano.jp,7,wikidata;wikidata,Yamagata,,HttpConnectTimeoutException: HTTP connect timed out,none
 vill.yamanakako.lg.jp,7,wikidata;wikidata,Yamanakako,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -1484,13 +1465,14 @@ vill.zamami.okinawa.jp,7,wikidata;wikidata,Zamami,,ConnectException,none
 village.ikusaka.nagano.jp,7,wikidata;wikidata,Ikusaka,,ConnectException,10 mx.village.ikusaka.nagano.jp.
 village.ohira.miyagi.jp,7,wikidata;wikidata,Ohira,,301,10 sc04-mail01.sbt-isc.jp.
 web.pref.hyogo.lg.jp,7,wikidata;wikidata;wikidata;wikidata;wikidata,Awaji District Administration Office | Hyōgo Prefecture | Q11559828,central-1,200,none
+web.tohoku.ac.jp,7,academia;academia,"Mt. Hakkōda Botanical Garden, Botanical Gardens, Tōhoku University | Tohoku University Botanical Gardens",,,
 webtown.nagayo.jp,7,wikidata;wikidata,Nagayo,,200,none
 wsa-osaka.jp,7,wikidata;wikidata,Osaka Water Supply Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 www1.city.obama.fukui.jp,7,wikidata;wikidata,Obama,,200,none
 www1.pref.shimane.lg.jp,7,wikidata;academia,Shimane Prefectural Institute of Public Health and Environmental Sciences,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-www1.town.chizu.tottori.jp,7,wikidata;wikidata,Chizu,,200,none
 www2.city.mine.lg.jp,7,wikidata;wikidata,Mine,,200,none
 www2.hyogo-c.ed.jp,7,wikidata;wikidata,Hyōgo-ken Kyōiku Iinkai,,200,none
+www2.kek.jp,7,academia;academia,Busshitsu Kōzō Kagaku Kenkyūjo | KEK Applied Research Laboratory,,,
 www2.town.asahi.mie.jp,7,wikidata;wikidata,Asahi,,301,none
 www2.town.komono.mie.jp,7,wikidata;wikidata,Komono,,200,none
 www6.marimo.or.jp,7,wikidata;wikidata,Q24817295,,200,none
@@ -1504,12 +1486,19 @@ aichi-edu.ac.jp,6,academia;ror,Aichi University of Education,central,,
 aiit.ac.jp,6,academia;ror,Advanced Institute of Industrial Technology,central,,
 akaigawa.com,6,wikidata;wikidata,Akaigawa,,301,10 relay.akaigawa.com.
 akamura.net,6,wikidata;wikidata,Aka,,200,none
+akita-u.ac.jp,6,academia;ror,Akita University,central,,
 asahikawa-med.ac.jp,6,academia;ror,Asahikawa Medical University,central,,
+bfgu-bunka.ac.jp,6,academia;ror,Bunka Fashion Graduate University,central,,
+bunri-u.ac.jp,6,academia;ror,"Medicinal Plant Garden, Faculty of Pharmaceutical Sciences, Tokushima Bunri University",central,,
 chiba-u.ac.jp,6,academia;ror,Chiba University,central,,
 chongryon.com,6,wikidata;wikidata,Chongryon,,HttpConnectTimeoutException: HTTP connect timed out,none
+chuo-u.ac.jp,6,academia;ror,Chuo Graduate School of Strategic Management,central,,
+cira.kyoto-u.ac.jp,6,academia;ror,"Center for iPS Cell Research and Application, Kyoto University",central,,
 consulado.pe,6,wikidata;wikidata,"Consulate-General of Peru, Nagoya | Consulate-General of Peru, Tokyo",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 consulado-pe.mail.protection.outlook.com.
 dnc.ac.jp,6,wikidata;ror,National Center for University Entrance Examinations,central,ConnectException,none
+dpri.kyoto-u.ac.jp,6,academia;ror,Disaster Prevention Research Institute,central,,
 e-hokuei.net,6,wikidata;wikidata,Hokuei,,ConnectException,none
+e-mbatech.ac.jp,6,academia;ror,Q134626251,central,,
 eeas.europa.eu,6,wikidata;wikidata,Delegation of the European Union to Japan,,200,none
 eikei.ac.jp,6,academia;ror,Eikei University of Hiroshima,central,,
 en.nagoya-u.ac.jp,6,academia;ror,Nagoya University,central,,
@@ -1518,44 +1507,73 @@ fukushima-u.ac.jp,6,academia;ror,Fukushima University,central,,
 fun.ac.jp,6,academia;ror,Future University Hakodate,central,,
 funabashi-multilingual.info,6,wikidata;wikidata,Funabashi,,200,none
 geidai.ac.jp,6,academia;ror,Tokyo University of the Arts,central,,
+gifu-pu.ac.jp,6,academia;ror,"Herbal Garden, Gifu Pharmaceutical University",central,,
 gifu-u.ac.jp,6,academia;ror,Gifu University,central,,
+global.hokudai.ac.jp,6,academia;ror,Hokkaido University,central,,
 grips.ac.jp,6,academia;ror,National Graduate Institute for Policy Studies,central,,
 gunma-u.ac.jp,6,academia;ror,Gunma University,central,,
 hamanasu.com,6,wikidata;wikidata,Firefighting in Iwamizawa,,ConnectException,none
 higashikushira.com,6,wikidata;wikidata,Higashikushira,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching higashikushira.com found.,10 mx.higashikushira.com.
 higashinaruse.com,6,wikidata;wikidata,Higashinaruse,,ConnectException,none
 hirosaki-u.ac.jp,6,academia;ror,Hirosaki University,central,,
+hit-u.ac.jp,6,academia;ror,Hitotsubashi University,central,,
 hitoyoshikuma.com,6,wikidata;wikidata,Hitoyoshi Kuma,,ConnectException,none
+hoku-iryo-u.ac.jp,6,academia;ror,"Medicinal Plant Garden, Health Sciences University of Hokkaido",central,,
+hokuriku-u.ac.jp,6,academia;ror,"Medicinal Botanical Garden, Faculty of Pharmaceutical Sciences, Hokuriku University",central,,
+hollywood.ac.jp,6,academia;ror,Hollywood Graduate School Of Beauty Business,central,,
+hoshi.ac.jp,6,academia;ror,Hoshi University Medicinal Plant Garden,central,,
+iae.kyoto-u.ac.jp,6,academia;ror,"Institute of Advanced Energy,  Kyoto University",central,,
 ibaraki.ac.jp,6,academia;ror,Ibaraki University,central,,
 iejima.org,6,wikidata;wikidata,Ie,,HttpConnectTimeoutException: HTTP connect timed out,none
 ikedamachi.net,6,wikidata;wikidata,Ikeda,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp.google.com.
 indonesia-osaka.org,6,wikidata;wikidata,"consulate general of Indonesia, Osaka",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+infront.kyoto-u.ac.jp,6,academia;ror,"Institute for Life and Medical Sciences, Kyoto University",central,,
+isct.ac.jp,6,academia;ror,Institute of Science Tokyo,central,,
 isumi-kouiki.com,6,wikidata;wikidata,Q11444838,,HttpConnectTimeoutException: HTTP connect timed out,none
 iwate-u.ac.jp,6,academia;ror,Iwate University,central,,
 jaist.ac.jp,6,academia;ror,Japan Advanced Institute of Science and Technology,central,,
+josai.ac.jp,6,academia;ror,Medicinal Plant Garden of Josai University,central,,
+jue.ac.jp,6,academia;ror,TG Rose Garden,central,,
+juen.ac.jp,6,academia;ror,Joetsu University of Education,central,,
 kagoshima-u.ac.jp,6,academia;ror,Kagoshima University,central,,
 kanazawa-bidai.ac.jp,6,academia;ror,Kanazawa College of Art,central,,
+kanazawa-it.ac.jp,6,academia;ror,Kanazawa Institute of Technology,central,,
 kanazawa-u.ac.jp,6,academia;ror,Kanazawa University,central,,
 katsurao.org,6,wikidata;wikidata,Katsurao,,HttpConnectTimeoutException: HTTP connect timed out,none
+keio.ac.jp,6,academia;ror,"Medicinal Plant Garden, Faculty of Pharmacy, Keio University",central,,
 kenyarep-jp.com,6,wikidata;wikidata,"Embassy of Kenya, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 kit.ac.jp,6,academia;ror,Kyoto Institute of Technology,central,,
+kitami-it.ac.jp,6,academia;ror,Kitami Institute of Technology,central,,
+kitasato-u.ac.jp,6,academia;ror,"Medicinal Plant Garden, Kitasato University",central,,
 kobe-u.ac.jp,6,academia;ror,Kobe University,central,,
+kobepharma-u.ac.jp,6,academia;ror,Kobe Pharmaceutical University Medicinal Botanical Garden,central,,
+kufs.ac.jp,6,academia;ror,"Research Center for Latin-American Studies, Kyoto University of Foreign Studies",central,,
 kumamura.com,6,wikidata;wikidata,Kuma,,HttpConnectTimeoutException: HTTP connect timed out,10 kumamura.com.
+kurims.kyoto-u.ac.jp,6,academia;ror,Research Institute for Mathematical Sciences,central,,
 kuromatsunai.com,6,wikidata;wikidata,Kuromatsunai,,HttpConnectTimeoutException: HTTP connect timed out,none
+kyoto-u.ac.jp,6,academia;ror,Kyoto University,central,,
 maebashi-it.ac.jp,6,academia;ror,Maebashi Institute of Technology,central,,
+meiji-u.ac.jp,6,academia;ror,Q11512311,central,,
 memuro.net,6,wikidata;wikidata,Memuro,,HttpConnectTimeoutException: HTTP connect timed out,none
 mgikai.memuro.net,6,wikidata;wikidata,Memuro Town Council,,HttpConnectTimeoutException: HTTP connect timed out,none
+mie-u.ac.jp,6,academia;ror,Mie University,central,,
 minamiaizu.org,6,wikidata;wikidata,Minamiaizu,,HttpConnectTimeoutException: HTTP connect timed out,none
 mishimamura.com,6,wikidata;wikidata,Mishima,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.mishimamura.com.
 miyakyo-u.ac.jp,6,academia;ror,Miyagi University of Education,central,,
+muroran-it.ac.jp,6,academia;ror,Muroran Institute of Technology,central,,
 nagano.ac.jp,6,academia;ror,Nagano University,central,,
 nagaokaut.ac.jp,6,academia;ror,Nagaoka University of Technology,central,,
 nagasaki-u.ac.jp,6,academia;ror,Nagasaki University,central,,
+nara-edu.ac.jp,6,academia;ror,Nara University of Education,central,,
 nara-wu.ac.jp,6,academia;ror,Nara Women's University,central,,
 naramed-u.ac.jp,6,academia;ror,Nara Medical University,central,,
 netherlandsworldwide.nl,6,wikidata;wikidata,"Embassy of the Netherlands, Tokyo | Consulate-General of the Netherlands, Osaka",central,HttpConnectTimeoutException: HTTP connect timed out,none
+nichiyaku.ac.jp,6,academia;ror,"Medicinal Plant Garden, Nihon Pharmaceutical University",central,,
 niigata-u.ac.jp,6,academia;ror,Niigata University,central,,
+nitech.ac.jp,6,academia;ror,Nagoya Institute of Technology,central,,
 ocha.ac.jp,6,academia;ror,Ochanomizu University,central,,
+oist.jp,6,academia;ror,Okinawa Institute of Science and Technology,central,,
+ompu.ac.jp,6,academia;ror,"Medicinal Plant Garden, Osaka Medical and Pharmaceutical University",central,,
 osaka-kyoiku.ac.jp,6,academia;ror,Osaka Kyoiku University,central,,
 osaka-u.ac.jp,6,academia;ror,University of Osaka,central,,
 otaru-uc.ac.jp,6,academia;ror,Otaru University of Commerce,central,,
@@ -1571,117 +1589,359 @@ pref.osaka.lg.jp.p.agb.hp.transer.com,6,wikidata;wikidata,Osaka Prefecture,centr
 pref.osaka.lg.jp.s.agb.hp.transer.com,6,wikidata;wikidata,Osaka Prefecture,central-1,ConnectException,none
 pref.osaka.lg.jp.th.agb.hp.transer.com,6,wikidata;wikidata,Osaka Prefecture,central-1,ConnectException,none
 pref.osaka.lg.jp.v.agb.hp.transer.com,6,wikidata;wikidata,Osaka Prefecture,central-1,ConnectException,none
+ritsumei.ac.jp,6,academia;ror,"Ritsumeikan Global Innovation Research Organization, Ritsumeikan University",central,,
+seijo.ac.jp,6,academia;ror,The Institute of Folklore Studies Seijo University,central,,
+sendaidaigaku.jp,6,academia;ror,Q130458727,central,,
+setsunan.ac.jp,6,academia;ror,Setsunan Garden,central,,
 shichigahama.com,6,wikidata;wikidata,Shichigahama,,200,none
+shimane-u.ac.jp,6,academia;ror,Shimane University,central,,
 shinshu-u.ac.jp,6,academia;ror,Shinshu University,central,,
 shirakawa-go.org,6,wikidata;wikidata,Shirakawa,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching shirakawa-go.org found.,none
+shizenkan.ac.jp,6,academia;ror,Shizenkan University,central,,
+shoyaku.ac.jp,6,academia;ror,Showa Pharmaceutical University Medicinal Plant Garden,central,,
 soken.ac.jp,6,academia;ror,Graduate University for Advanced Studies,central,,
 takifire.com,6,wikidata;wikidata,Q11614772,,ConnectException,none
+tau.ac.jp,6,academia;ror,Q107473837,central,,
+tcu.ac.jp,6,academia;ror,Tokyo City University,central,,
 tcue.ac.jp,6,academia;ror,Takasaki City University of Economics,central,,
+teikyo-u.ac.jp,6,academia;ror,Teikyo University Medicinal Botanical Garden,central,,
+teu.ac.jp,6,academia;ror,Katayanagi Advanced Research Laboratories,central,,
 tiktocoins.info,6,wikidata;wikidata,Mihama,,200,none
 tohoku-shinseien.com,6,wikidata;wikidata,Tōhoku Shinseien Sanatorium,,ConnectException,none
+tohoku.ac.jp,6,academia;ror,Tohoku University,central,,
 tokunoshima-town.org,6,wikidata;wikidata,Tokunoshima,,ConnectException,10 mx.tokunoshima-town.org.
 tokyo-ikiiki.net,6,wikidata;wikidata,Q11525322,,HttpConnectTimeoutException: HTTP connect timed out,none
+tosei-showa-music.ac.jp,6,academia;ror,"Opera Research Center, Shōwa University of Music",central,,
 town-kawasaki.com,6,wikidata;wikidata,Kawasaki,,301,none
 town-kiso.com,6,wikidata;wikidata,Kiso,,ConnectException,none
+toyaku.ac.jp,6,academia;ror,"Medicinal Plant Garden, Tokyo University of Pharmacy and Life Sciences",central,,
 tsukuba.ac.jp,6,academia;ror,University of Tsukuba,central,,
 tsuruokacity.com,6,wikidata;wikidata,Tsuruoka,,301,none
 tuat.ac.jp,6,academia;ror,Tokyo University of Agriculture and Technology,central,,
+tufs.ac.jp,6,academia;ror,Tokyo University of Foreign Studies,central,,
 tut.ac.jp,6,academia;ror,Toyohashi University of Technology,central,,
+twmu.ac.jp,6,academia;ror,Q107471974,central,,
+u-fukui.ac.jp,6,academia;ror,University of Fukui,central,,
+u-gakugei.ac.jp,6,academia;ror,Tokyo Gakugei University,central,,
 u-nagano.ac.jp,6,academia;ror,The University of Nagano,central-1,,
-u-tokyo.ac.jp,6,academia;ror,University of Tokyo,central,,
 u-toyama.ac.jp,6,academia;ror,University of Toyama,central,,
 uec.ac.jp,6,academia;ror,University of Electro-Communications,central,,
 uken.net,6,wikidata;wikidata,Uken,,ConnectException,10 mx.uken.net.
 utsunomiya-u.ac.jp,6,academia;ror,Utsunomiya University,central,,
 vill.toho-info.com,6,wikidata;wikidata,Tōhō-mura,,200,none
 vnconsulate-fukuoka.org,6,wikidata;wikidata,"Consulate-General of Vietnam, Fukuoka",,HttpConnectTimeoutException: HTTP connect timed out,none
+waseda.jp,6,academia;ror,Waseda Institute of Political Economy,central,,
 watarigyousei.com,6,wikidata;wikidata,Q95947718,,HttpConnectTimeoutException: HTTP connect timed out,none
 yamagata-u.ac.jp,6,academia;ror,Yamagata University,central,,
 yamaguchi-u.ac.jp,6,academia;ror,Yamaguchi University,central,,
 yamanashi.ac.jp,6,academia;ror,University of Yamanashi,central,,
 ynu.ac.jp,6,academia;ror,Yokohama National University,central,,
+yokohama-cu.ac.jp,6,academia;ror,Kihara Institute for Biological Research,central,,
+yubujima.com,6,academia;academia,Subtropical Botanical Garden | Yubu Island,,,
+agr.iwate-u.ac.jp,4,academia,"Botanical Garden, Faculty of Agriculture, Iwate University",,,
+agr.kyushu-u.ac.jp,4,academia,Insect Science and Creative Entomology Center,,,
+agri-exp.pref.shizuoka.jp,4,academia,Shizuoka Prefecture Agricultural and Forestry Research Institute,central-1,,
+agrsci.jp,4,academia,"The United Graduate Schools of Agricultural Sciences, Japan",,,
+ai.u-tokyo.ac.jp,4,academia,"Next Generation Artificial Intelligence Research Center, The University of Tokyo",,,
+aichishinrin.jp,4,academia,Aichiken Forest Park,,,
+aij.or.jp,4,academia,Architectural Institute of Japan,,,
+aims.or.jp,4,academia,Advanced Institute of Materials Science,,,
 airc.or.jp,4,wikidata,Akita Prefectural Organization for Rehabilitation and Development,,HttpConnectTimeoutException: HTTP connect timed out,none
-akita-u.ac.jp,4,academia,Akita University,central,,
+akita-noken.jp,4,academia,Akita Cerebrospinal and Cardiovascular Center,,,
 algerianembassy-japan.jp,4,wikidata,Embassy of Algeria in Japan,central,301,10 relay.asolutions.co.jp.
+alrc.tottori-u.ac.jp,4,academia,"Arid Land Research Center, Tottori University",,,
+amaryoku.or.jp,4,academia,Kamisakabe-Nishi Park,,,
 amba-mauritania.jp,4,wikidata,"Embassy of Mauritania, Tokyo",central,SSLException: (internal_error) Received fatal alert: internal_error,none
 angola.or.jp,4,wikidata,"Embassy of Angola, Tokyo",central,301,10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
+applbio.or.jp,4,academia,Institute of Applied Biochemistry,,,
+asahikawa-park.or.jp,4,academia,Northern Wild Plants Garden,,,
+astem.or.jp,4,academia,"Advanced Science, Technology & Management Research Institute of Kyoto",,,
+asuka-park.jp,4,academia,Man'yō Botanical Park Road,,,
+atr.jp,4,academia,Advanced Telecommunications Research Institute International,,,
+ayamepark.jp,4,academia,Suigō Sawara Ayame Park,,,
 azembassy.jp,4,wikidata,"Embassy of Azerbaijan, Tokyo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.azembassy.jp.
+bagatelle.co.jp,4,academia,Kawazu Bagatelle Park,,,
+bananawani.jp,4,academia,Atagawa Tropical & Alligator Garden,,,
+baranomachi.jp,4,academia,Kanoya Rose Garden,,,
 beninembassy.jp,4,wikidata,"Embassy of Benin, Tokyo",central,200,none
+beyondai.jp,4,academia,Beyond AI,,,
+bg.s.u-tokyo.ac.jp,4,academia,Nikko Botanical Garden,,,
 bhembassy.jp,4,wikidata,"Embassy of Bosnia and Herzegovina, Tokyo",central,200,none
+bigm.or.jp,4,academia,Benno Institute for Gut Microflora,,,
+bikaken.or.jp,4,academia,Microbial Chemistry Research Foundation,,,
+bio.nagoya-u.ac.jp,4,academia,Q11414910,,,
+botan.or.jp,4,academia,Sukagawa Peony Garden,,,
+botanical-garden.city.fukuoka.lg.jp,4,academia,Fukuoka Botanical Garden,,,
+botanical.greenery-niigata.or.jp,4,academia,Niigata Prefectural Botanical Garden,,,
+brh.co.jp,4,academia,Biohistory Research Hall,,,
+brl.ntt.co.jp,4,academia,NTT Basic Research Laboratories,,,
+bsi.riken.jp,4,academia,RIKEN Brain Science Institute,,,
+bunka.pref.mie.lg.jp,4,academia,Saikū Historical Museum,,,
+bunkaen-todagawa.jp,4,academia,Nogyo Bunka-en,,,
+bunkazai.city.fukuoka.lg.jp,4,academia,Fukuoka City Archaeological Center,,,
+burakken.jp,4,academia,The Institute of Buraku Problem,,,
+cat.hokudai.ac.jp,4,academia,Institute for Catalysis,,,
 cbcj.catholic.jp,4,wikidata,Apostolic Nunciature to Japan,central,301,0 cbcj-catholic-jp.mail.protection.outlook.com.
 cbrc.jp,4,academia,National Institute of Advanced Industrial Science and Technology Bioinformatics Engineering Research Center,central,,
+ceglos.u-shizuoka-ken.ac.jp,4,academia,"Center for Global Studies, Graduate School of International Relations, University of Shizuoka",,,
+cems.riken.jp,4,academia,RIKEN Center for Emergent Matter Science,,,
 center.shizuoka-c.ed.jp,4,wikidata,The Comprehensive Education Center of Shizuoka Prefecture,central-1,ConnectException,none
 center.tym.ed.jp,4,wikidata,Toyama Prefectural Education Center,,301,none
+ceram.rd.pref.gifu.lg.jp,4,academia,Gifu Prefectural Ceramics Research Institute,,,
+chiba-muse.or.jp,4,academia,"Ecology Park, Natural History Museum and Institute",,,
+chikyu.ac.jp,4,academia,Research Institute for Humanity and Nature,,,
 china-embassy.or.jp,4,wikidata,"Embassy of the People's Republic of China, Tokyo",central,ConnectException,none
+chosakai.gr.jp,4,academia,Japan Press Research Institute,,,
+ciea.or.jp,4,academia,Central Institute for Experimental Medicine and Life Science,,,
+cimr.med.keio.ac.jp,4,academia,"Center for Integrated Medical Research, Keio University",,,
 city.kishiwada.osaka.jp,4,wikidata,Kishiwada,,HttpConnectTimeoutException: HTTP connect timed out,10 osakasc-fml3.utility.optage.co.jp.
+city.uda.lg.jp,4,academia,Uda City Ōuda Man'yō Park,,,
 city.yokkaichi.mie.jp,4,wikidata,Q120690329,,ConnectException,none
 cn.nagoya-u.ac.jp,4,academia,Nagoya University,central,,
-common3.pref.akita.lg.jp,4,wikidata,Hotta-no-saku,,403,none
+coc.u-shizuoka-ken.ac.jp,4,academia,"Fuji-no-Kuni Center for Future Education, University of Shizuoka",,,
+codh.rois.ac.jp,4,academia,Center for Open Data in the Humanities,,,
+cpge.u-shizuoka-ken.ac.jp,4,academia,"Center for Promotion of Gender Equality, University of Shizuoka",,,
+criepi.denken.or.jp,4,academia,Central Research Institute of Electric Power Industry,,,
+csimva.chiba-u.jp,4,academia,Q118107249,,,
+csl.sony.co.jp,4,academia,Sony Computer Science Laboratories,,,
+cyberdefense.jp,4,academia,Q11304159,,,
+daigakuin.ne.jp,4,academia,Kansai University Graduate School,,,
 dapc.or.jp,4,wikidata,Drug Abuse Prevention Center,,200,10 vlmx-air.secure.ne.jp.
+dbcls.rois.ac.jp,4,academia,Database Division for Life Science,,,
+denjiken.or.jp,4,academia,Research Institute for Electromagnetic Materials,,,
+denpark.jp,4,academia,Denpark,,,
+dhii.jp,4,academia,International Institute for Digital Humanities,,,
+digital-museum.hiroshima-u.ac.jp,4,academia,Miyajima Natural Botanical Garden,,,
 djiboutiembassy.jp,4,wikidata,"Embassy of Djibouti, Tokyo",central,200,none
+dmi.jaa.or.jp,4,academia,Digital Marketing Institute,,,
+dna-chip.co.jp,4,academia,DNA Chip Research,,,
+domaibun.or.jp,4,academia,Hokkaido Archaeological Operations Center,,,
+ds.rois.ac.jp,4,academia,Joint Support-Center for Data Science Research,,,
 ebja.jp,4,wikidata,"Embassy of Bolivia, Tokyo",central,HttpTimeoutException: request timed out,none
+edu.city.ninohe.iwate.jp,4,academia,Q140159690,,,
+edu.pref.kagoshima.jp,4,academia,Kagoshima Prefectural Institute For Education Research,,,
 egyptembassy.jp,4,wikidata,"Embassy of Egypt, Tokyo",central,403,none
 eiken.pref.kanagawa.jp,4,academia,Kanagawa Prefectural Institute of Public Health,central-1,,
 eiken.yamagata.yamagata.jp,4,academia,Yamagata Prefectural Institute of Public Health,central-1,,
+eisai.co.jp,4,academia,"Medicinal Herbal Garden, Naitō Museum of Pharmaceutical Science and Industry",,,
+elega.tulipfair.or.jp,4,academia,Elega Garden,,,
 embamoc.jp,4,wikidata,"Embassy of Mozambique, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,10 relay.asolutions.co.jp.
 embapar.jp,4,wikidata,"Embassy of Paraguay, Tokyo",central,200,none
 embassyin.jp,4,wikidata,"Embassy of Malaysia, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 en.jinf.jp,4,academia,Japan Institute for National Fundamentals,central,,
+en.yanagida-flower.jp,4,academia,Yanagida Botanical Park,,,
+english.nira.or.jp,4,academia,Nippon Institute for Research Advancement,,,
 english.otaru-uc.ac.jp,4,academia,Otaru University of Commerce,central,,
+erc.pref.fukui.jp,4,academia,Fukui Prefectural Institute of Public Health and Environmental Science,central-1,,
+eri.u-tokyo.ac.jp,4,academia,"Earthquake Research Institute, University of Tokyo",,,
+es.hokudai.ac.jp,4,academia,"Research Institute for Electronic Science, Hokkaido University",,,
+excells.orion.ac.jp,4,academia,Q97180357,,,
+ezooko.jp,4,academia,Kumamoto City Zoological and Botanical Gardens,,,
+f85.jp,4,academia,Hydrolox Research Institute,,,
+fcofuna-kanagawa.jp,4,academia,Kanagawa Prefectural Ofuna Botanical Garden,,,
 fd-odate.la.coocan.jp,4,wikidata,Odate Fire Department,,HttpConnectTimeoutException: HTTP connect timed out,none
 fd-takatsuki.jp,4,wikidata,Takatsuki City Fire Department,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.fd-takatsuki.jp.
+fengming.jp,4,academia,Q140391294,,,
 fidr.or.jp,4,wikidata,Foundation for International Development/Relief,,HttpConnectTimeoutException: HTTP connect timed out,none
 fihes.pref.fukuoka.jp,4,academia,Fukuoka Institute of Health and Environmental Sciences,central-1,,
+fish.rd.pref.gifu.lg.jp,4,academia,Gifu Prefectural Research Institute for Fisheries and Aquatic Environments,,,
+flower-park.jp,4,academia,Gunma Flower Park,,,
+flowercenter.jp,4,academia,Hyogo Prefectural Flower Center,,,
+forest.rd.pref.gifu.lg.jp,4,academia,Gifu Prefectural Research Institute for Forests,,,
+fsc.hokudai.ac.jp,4,academia,Field Science Center for Northern Biosphere,,,
 fsmemb.or.jp,4,wikidata,"Embassy of Micronesia, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 fuchuhp.jp,4,wikidata,Fuchu City Hospital Organization,,200,50 mail36.heteml.jp.
+fudousankeizai.co.jp,4,academia,Q11361646,,,
+fujisan-climb.jp,4,academia,Sendai City Institute of Public Health,,,
+fukui-bot.jp,4,academia,Fukui Botanical Garden,,,
 fukushihoken.metro.tokyo.lg.jp,4,wikidata,Tokyo Metropolitan Government Bureau of Social Welfare and Public Health,central-1,ConnectException,none
+funaisoken.co.jp,4,academia,Funai Consulting,,,
+furekon.jp,4,academia,Ishikawa Insect Museum,,,
+gakushuin.ac.jp,4,academia,"Research Institute for Oriental Cultures, Gakushuin University",,,
+gangoji.or.jp,4,academia,Gangoji Institute for Research of Cultural Property,,,
+ganken.cri.kanazawa-u.ac.jp,4,academia,Q119423371,,,
+gifu-wrg.jp,4,academia,Gifu World Rose Garden,,,
 gikai.city.tsu.mie.jp,4,wikidata,Q120690345,,200,none
 gikai.metro.tokyo.lg.jp,4,wikidata,Tokyo Metropolitan Assembly,central-1,ConnectException,none
 gikai.pref.fukuoka.lg.jp,4,wikidata,Fukuoka Prefectural Assembly,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 gikai.pref.hokkaido.lg.jp,4,wikidata,Hokkaido Prefectural Assembly,central-1,ConnectException,none
 gikai.pref.kochi.lg.jp,4,wikidata,Kōchi Prefectural Assembly,central-1,200,none
-global.hokudai.ac.jp,4,academia,Hokkaido University,central,,
+gispri.or.jp,4,academia,Global Industrial and Social Progress Research Institute,,,
+glocom.ac.jp,4,academia,"Center for Global Communications, International University of Japan",,,
+group.dai-ichi-life.co.jp,4,academia,Dai-ichi Life Foundation,,,
+gs.dhw.ac.jp,4,academia,Digital Hollywood University Graduate School,,,
 gsj.jp,4,wikidata,Geological Survey of Japan,,ConnectException,none
+gucenter.co.jp,4,academia,Q11200657,,,
+hakkougakuen.ac.jp,4,academia,Hakkō Gakuen Iris Garden,,,
+hakone-tozan.co.jp,4,academia,Gōra Park,,,
+hama-midorinokyokai.or.jp,4,academia,Yokohama Children's Botanical Garden,,,
+hanabun-osaka.witc-pm.jp,4,academia,Osaka Garden of Floral Culture,,,
+harataishouen.sakura.ne.jp,4,academia,Taishō-en,,,
 health.rd.pref.gifu.lg.jp,4,academia,Gifu Prefectural Research Institute for Health and Environmental Sciences,central-1,,
+hi.u-tokyo.ac.jp,4,academia,Historiographical Institute of the University of Tokyo,,,
+hijas.hosei.ac.jp,4,academia,Hosei University Research Center for International Japanese Studies (HIJAS),,,
+hilife.or.jp,4,academia,Research Institute for High-Life,,,
 himawari.metro.tokyo.jp,4,wikidata,Tokyo Metropolitan Government Bureau of Public Health,central-1,ConnectException,none
-hiroshima-u.ac.jp,4,academia,Hiroshima University,central,,
-hit-u.ac.jp,4,academia,Hitotsubashi University,central,,
+himeji-machishin.jp,4,academia,Himeji City Tegarayama Botanical Garden,,,
+hirosakipark.or.jp,4,academia,Hirosaki Castle Botanical Garden,,,
+hiroshima-bot.jp,4,academia,Hiroshima Botanical Garden,,,
+hiroshima-u.ac.jp,4,academia;academia;academia;ror,"Experimental Station of Medicinal Medical Plants, School of Pharmaceutical Sciences, Hiroshima University | Hiroshima University | Research Institute for Radiation Biology and Medicine, Hiroshima University",central,,
+hito21.jp,4,academia,Yamaguchi Seminar Park,,,
+hokkaido-garden.jp,4,academia,Hokkaido Garden Way,,,
 hokkyodai.ac.jp,4,academia,Hokkaido University of Education,central,,
-hokudai.ac.jp,4,academia,Hokkaido University,central,,
+honda.co.jp,4,academia,Honda R&D,,,
 hospital.omigawa.chiba.jp,4,wikidata,Katori Omigawa Medical Center,,301,none
 hyogokengikai.jp,4,wikidata,Hyōgo Prefectural Assembly,central-1,200,none
+iab.keio.ac.jp,4,academia,Q28693035,,,
+iatss.or.jp,4,academia,International Association of Traffic and Safety Sciences,,,
+ibaraki-shokubutuen.jp,4,academia,Ibaraki Botanical Garden,,,
+ichibata.co.jp,4,academia,Matsue Vogel Park,,,
+icl.keio.ac.jp,4,academia,The Keio Institute of Cultural and Linguistic Studies,,,
+icr.co.jp,4,academia,InfoCom Research,,,
+icrr.u-tokyo.ac.jp,4,academia,Institute for Cosmic Ray Research,,,
+icti.u-shizuoka-ken.ac.jp,4,academia,"Research Center for ICT Innovation, Graduate School of Management and Information of Innovation, University of Shizuoka",,,
+idac.tohoku.ac.jp,4,academia,"Institute of Development, Aging and Cancer (IDAC)",,,
+ies.or.jp,4,academia,Institute for Environmental Sciences,,,
 ifarc.metro.tokyo.lg.jp,4,academia,"Tokyo Metropolitan Islands Area Research and Development Center for Agriculture, Forestry and Fisheries",central-1,,
-imes.boj.or.jp,4,wikidata,Q135659180,,ConnectException,none
+ifeng.or.jp,4,academia,Institute for Future Engineering,,,
+ifi.u-tokyo.ac.jp,4,academia,The University of Tokyo Institute for Future Initiatives,,,
+ifrec.osaka-u.ac.jp,4,academia,Immunology Frontier Research Center,,,
+ifs.kyushu-u.ac.jp,4,academia,"Department of Library Science, Graduate School of Integrated Frontier Sciences, Kyushu University",,,
+ifs.tohoku.ac.jp,4,academia,Institute for Fluid Science,,,
+igm.hokudai.ac.jp,4,academia,"Institute for Genetic Medicine, Hokkaido University",,,
+iias.or.jp,4,academia,International Institute for Advanced Studies,,,
+iis.u-tokyo.ac.jp,4,academia,Institute of Industrial Science,,,
+imr.tohoku.ac.jp,4,academia,Institute for Materials Research,,,
+ims.ac.jp,4,academia,Institute for Molecular Science,,,
+ims.med.u-tokai.ac.jp,4,academia,"Institute of Medical Sciences, Tokai University",,,
+ims.u-tokyo.ac.jp,4,academia,Institute of Medical Science,,,
+inm.u-toyama.ac.jp,4,academia,Institute of Natural Medicine University of Toyama,,,
+ins-juntendo.jp,4,academia,Q131416699,,,
+institute.yakult.co.jp,4,academia,Yakult Central Institute,,,
 international.gouv.qc.ca,4,wikidata,Quebec Government Office in Tokyo,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+ioc.u-tokyo.ac.jp,4,academia,"Institute for Advanced Studies on Asia, University of Tokyo",,,
+iph.osaka.jp,4,academia,Osaka Institute of Public Health,,,
 iph.pref.hokkaido.jp,4,academia,Hokkaido Institute of Public Health,central-1,,
-isct.ac.jp,4,academia,Institute of Science Tokyo,central,,
+ipmu.jp,4,academia,Institute for the Physics and Mathematics of the Universe,,,
+iqb.u-tokyo.ac.jp,4,academia,Institute for Quantitative Biosciences,,,
+iri-tokyo.jp,4,academia,Tokyo Metropolitan Industrial Technology Research Institute,central-1,,
+iriz.hanazono.ac.jp,4,academia,The International Research Institute for Zen Buddhism at Hanazono University,,,
+isee.nagoya-u.ac.jp,4,academia,"Institute for Space–Earth Environmental Research, Nagoya University",,,
+isit.or.jp,4,academia,"Institute of Systems, Information Technologies and Nanotechnologies",,,
+isl.or.jp,4,academia,Ohara Memorial Institute for Science of Labour,,,
+ism.ac.jp,4,academia,The Institute of Statistical Mathematics,,,
+iss.u-tokyo.ac.jp,4,academia,"Institute of Social Science, The University of Tokyo",,,
+issp.u-tokyo.ac.jp,4,academia,Institute for Solid State Physics of the University of Tokyo,,,
+itarda.or.jp,4,academia,Institute for Traffic Accident Research and Data Analysis,,,
+ithems.riken.jp,4,academia,RIKEN Interdisciplinary Theoretical and Mathematical Sciences Program,,,
+iti-yamaguchi.or.jp,4,academia,Yamaguchi Prefectural Industrial Technology Institute,,,
+iws.her.jp,4,academia,Institute for Research on Women and Gender,,,
+izu-kamori.jp,4,academia,Izu Animal Kingdom,,,
+j-parc.jp,4,academia,J-PARC,,,
+jaam.jp,4,academia,Japanese Association for Acute Medicine,,,
 jamaicaembassy.jp,4,wikidata,"Embassy of Jamaica, Tokyo",central,ConnectException,none
 japan-sports.or.jp,4,wikidata,Japan Sport Association,,ConnectException,0 japansports-or-jp01c.mail.protection.outlook.com.
+jasri.jp,4,academia,Japan Synchrotron Radiation Research Institute,,,
+jaxa.jp,4,academia,Noshiro Testing Center,,,
 jcci.or.jp,4,wikidata,The Japan Chamber of Commerce and Industry,,200,none
+jcer.or.jp,4,academia,Japan Center for Economic Research,,,
+jcri.jp,4,academia,Japan Color Research Institute,,,
+jeli.gr.jp,4,academia,JAPAN ENERGY LAW INSTITUTE,,,
+jeri.or.jp,4,academia,Nihon Keizai Kenkyūjo,,,
+jet.or.jp,4,academia,Denki Anzen Kankyō Kenkyūjo,,,
+jfir.or.jp,4,academia,Q11507716,,,
+jfrl.or.jp,4,academia,Japan Food Research Laboratories,,,
+jfss.gr.jp,4,academia,Japan Forum for Strategic Studies,,,
+jgog.gr.jp,4,academia,Japanese Gynecologic Oncology Group,,,
 jific.or.jp,4,wikidata,The Japanese Institute of Fisheries Infrastructure and Communities,,302,10 jific-or-jp.mail.protection.outlook.com.
+jiia.or.jp,4,academia,Japan Institute of International Affairs,,,
 jinf.jp,4,academia,Japan Institute for National Fundamentals,central,,
 jitco.or.jp,4,wikidata,Japan International Training Cooperation Organization,,ConnectException,none
-juen.ac.jp,4,academia,Joetsu University of Education,central,,
+jofukuji-kochi.jp,4,academia,Tosa Toyonaga Man'yō Botanical Garden,,,
+jpf.gr.jp,4,academia,Q11508159,,,
+jsaweb.jp,4,academia,Japanese Society of Allergology,,,
+jsri.or.jp,4,academia,Japan Securities Research Institute,,,
+juche.v.wol.ne.jp,4,academia,International Institute of Juche Idea,,,
+jutem.co.jp,4,academia,Q11636356,,,
+jwri.osaka-u.ac.jp,4,academia,"Joining and Welding Research Institute, Osaka University",,,
+jww.iss.u-tokyo.ac.jp,4,academia,"Institute of Social Science, The University of Tokyo",,,
+k-agri.rd.pref.gifu.lg.jp,4,academia,Gifu Prefectural Research Institute for Agricultural Technology in Hilly and Mountainous Areas,,,
+kaiseiken.or.jp,4,academia,Marine Ecology Research Institute,,,
+kaketsuken.or.jp,4,academia,Chemo-Sero-Therapeutic Research Institute,,,
+kamoltd.co.jp,4,academia,Kamoso Kachoen,,,
+kannousuiken-osaka.or.jp,4,academia,"Research Institute of Environment, Agriculture and Fisheries, Osaka Prefecture",central-1,,
+kashikoken.jp,4,academia,"Archaeological Institute of Kashihara, Nara Prefecture",central-1,,
+kasugataisha.or.jp,4,academia,Man'yō Botanical Garden (Nara),,,
+kazusa.or.jp,4,academia,Kazusa DNA Research Institute,,,
+keieiken.co.jp,4,academia,NTT Data Institute of Management Consulting,,,
+keiseirose.co.jp,4,academia,Keisei Rose Garden,,,
 kek.jp,4,academia,High Energy Accelerator Research Organization,central,,
-kitami-it.ac.jp,4,academia,Kitami Institute of Technology,central,,
+kensetsuk.or.jp,4,academia,Construction Engineering Research Institute Foundation,,,
+khrri.or.jp,4,academia,Kyoto Human Rights Research Institute,,,
+ki-net.kanazawa-u.ac.jp,4,academia,Q11647410,,,
+kiifudoki.wakayama-c.ed.jp,4,academia,Man'yō Botanical Garden (Wakayama),,,
+kistec.jp,4,academia,Kanagawa Institute of Industrial Science and Technology,,,
+kmi.nagoya-u.ac.jp,4,academia,Kobayashi-Maskawa Institute for the Origin of Particles and the Universe,,,
+koishikawa-bg.jp,4,academia,Koishikawa Botanical Garden,,,
+korekawa-jomon.jp,4,academia,Korekawa Archaeological Institution (Korekawa Jōmon Kan),,,
 koryu.or.jp,4,wikidata,Japan–Taiwan Exchange Association,,ConnectException,none
 kouwan.metro.tokyo.lg.jp,4,wikidata,Tokyo Metropolitan Government Bureau of Port and Harbor,central-1,ConnectException,none
+kri.sfc.keio.ac.jp,4,academia,Keio University SFC Research Institute,,,
+kscc.jp,4,academia,Suginami City Kōyō Junior High School Man'yō Botanical Garden,,,
+kuias.kyoto-u.ac.jp,4,academia,Kyoto University Institute for Advanced Study,,,
+kurashiki-oky.ed.jp,4,academia,Kurashiki Archaeological Center,,,
+kurokawa-institute.or.jp,4,academia,Kurokawa Institute of Ancient Cultures,,,
+kusabueroses.jp,4,academia,Q109359413,,,
 kuwait-embassy.or.jp,4,wikidata,"Embassy of Kuwait, Tokyo",central,301,none
 kyo.or.jp,4,wikidata,Kyoto Chamber of Commerce and Industry,,200,0 kyo-or-jp.mail.protection.outlook.com.
-kyoto-u.ac.jp,4,academia,Kyoto University,central,,
+kyoto-arc.or.jp,4,academia,Kyoto City Archaeological Research Institute,,,
 kyotobotanicalgardens.jp,4,academia,Kyoto Botanical Garden,central-1,,
-mie-u.ac.jp,4,academia,Mie University,central,,
+lab.toho-u.ac.jp,4,academia,Toho University Faculty of Pharmaceutical Sciences Medicinal Botanical Garden,,,
+labo.kyoto-phu.ac.jp,4,academia,"The Garden of Medicinal Plants, KPU",,,
+langcom.u-shizuoka-ken.ac.jp,4,academia,"Language and Communication Research Center, University of Shizuoka",,,
+lavender-park.jp,4,academia,Q81720226,,,
+life.rd.pref.gifu.lg.jp,4,academia,Gifu Pref. Research Institute for Human Life Technology,,,
+livestock.rd.pref.gifu.lg.jp,4,academia,Gifu Prefectural Livestock Research Institute,,,
+louis-pasteur.or.jp,4,academia,Louis Pasteur Center for Medical Research,,,
+lowtem.hokudai.ac.jp,4,academia,Institute of Low Temperature Science Hokkaido University,,,
+m.chiba-u.ac.jp,4,academia,"Center for Forensic Mental Health, Chiba University",,,
+maibun.or.jp,4,academia,Tochigi Archaeological Research Center,,,
+makino.or.jp,4,academia,Makino Botanical Garden,,,
+makinoteien.jp,4,academia,Makino Memorial Garden,,,
+manyo.jp,4,academia,"Man'yō Garden, Nara Prefecture Complex of Man'yō Culture",central-1,,
+manyou.hama-park.jp,4,academia,Manyō-no-Mori Park,,,
+meccj.or.jp,4,academia,Middle Eastern Culture Center in Japan,,,
+meij.or.jp,4,academia,Middle East Institute of Japan,,,
+meri.or.jp,4,academia,Mitsubishi Economic Research Institute,,,
+mfj.gr.jp,4,academia,Maison franco-japonaise,,,
+mfri.pref.yamanashi.jp,4,academia,Mount Fuji Research Institute,,,
+mi.u-shizuoka-ken.ac.jp,4,academia,"Graduate School of Management and Information of Innovation, University of Shizuoka",,,
+mino-konchu.jp,4,academia,Minoh Park Insect Museum,,,
+miz.nao.ac.jp,4,academia,NAOJ Mizusawa Campus,,,
 mncci.jp,4,wikidata,Mongolian National Chamber of Commerce and Industry in Japan,,403,10 mail.mncci.jp.
+monkey-center.jp,4,academia,Awaji Monkey Center,,,
+moralogy.jp,4,academia,The Institute of Moralogy,,,
+mori-m-foundation.or.jp,4,academia,Institute for Urban Strategies,,,
 morikirara.jp,4,academia,Sakai National Park Kujukushima Zoo & Botanical Garden,central,,
-muroran-it.ac.jp,4,academia,Muroran Institute of Technology,central,,
+mpgarden.pha.nihon-u.ac.jp,4,academia,"Medicinal Plant Garden, School of Pharmacy, Nihon University",,,
+mppf.or.jp,4,academia,Aoshima Subtropical Botanical Garden,,,
+mpstpc.pref.mie.jp,4,academia,Mie Prefecture Fisheries Research Institute,central-1,,
+msl.titech.ac.jp,4,academia,Tokyo Institute of Technology Frontier Research Center,,,
+musashikokubunji.jp,4,academia,Musashi Kokubunji Man'yō Garden,,,
+mushitec-fukushima.gr.jp,4,academia,Mushi Tech World,,,
+nagai-park.jp,4,academia,Nagai Botanical Garden,,,
+nagakubo-kouen.jp,4,academia,Nagakubo Park Urban Greenery Botanical Garden,,,
 nagoya-cci.or.jp,4,wikidata,Nagoya Chamber of Commerce & Industry,,200,none
 nagoya-u.ac.jp,4,academia,Nagoya University,central,,
+nanoterasu.jp,4,academia,NanoTerasu,,,
 nao.ac.jp,4,academia,National Astronomical Observatory of Japan,central,,
-nara-edu.ac.jp,4,academia,Nara University of Education,central,,
 naracity.ed.jp,4,wikidata,Nara City Board of Education,,ConnectException,none
 nauru.or.jp,4,wikidata,Q117360551,,200,none
+nawakon.jp,4,academia,Nawa Insect Museum,,,
 nchm.jp,4,wikidata,Former Niigata Customs House,,"SSLException: Unrecognized SSL message, plaintext connection?",10 vlmx-air.secure.ne.jp.
+neopark.co.jp,4,academia,Neo Park Okinawa,,,
 nibb.ac.jp,4,academia,"National Institute for Basic Biology, Japan",central,,
+nichibun.ac.jp,4,academia,International Research Center for Japanese Studies,,,
 nifs.ac.jp,4,academia,National Institute for Fusion Science,central,,
 nig.ac.jp,4,academia,National Institute of Genetics,central,,
 nihu.jp,4,academia,National Institutes for the Humanities,central,,
@@ -1691,11 +1951,35 @@ ninjal.ac.jp,4,academia,National Institute for Japanese Language and Linguistics
 nins.jp,4,academia,"National Institutes of Natural Sciences, Japan",central,,
 nipr.ac.jp,4,academia,National Institute of Polar Research,central,,
 nips.ac.jp,4,academia,National Institute for Physiological Sciences,central,,
-nitech.ac.jp,4,academia,Nagoya Institute of Technology,central,,
+nira.or.jp,4,academia,Nippon Institute for Research Advancement,,,
+nirc.nanzan-u.ac.jp,4,academia,Nanzan Institute for Religion and Culture,,,
+nohken.ws.hosei.ac.jp,4,academia,Q24873694,,,
+nomaken.jp,4,academia,Noma Institute Of Educational Reserch,,,
+nonhoi.jp,4,academia,Toyohashi Zoo and Botanical Park,,,
+nps.ed.jp,4,academia,Nara Prefectural Institute for Educational Research,,,
+ntt-fsoken.co.jp,4,academia,NTT Facilities Research Institute,,,
+ohira-manyo.co.jp,4,academia,Shōwa Man'yō Forest,,,
+oib.orion.ac.jp,4,academia,Okazaki Institute for Integrative Bioscience,,,
+okayama-park.or.jp,4,academia,Handayama Botanical Garden,,,
+okuraken.or.jp,4,academia,Okura Institute for the Study of Spiritual Culture,,,
 omanembassy.jp,4,wikidata,"Embassy of Oman, Tokyo",central,ConnectException,none
+omu.ac.jp,4,academia;academia;ror,"Botanical Gardens, Osaka Metropolitan University | Osaka Metropolitan University",central,,
+onken.or.jp,4,academia,Hot Spring Research Center,,,
 orion.ac.jp,4,academia,Okazaki National Research Institutes,central,,
+orist.jp,4,academia,Osaka Research Institute of Industrial Science and Technology,,,
+osaka-kessei.jp,4,academia,OSAKA KESSEI RESEARCH LABORATORIE,,,
 osaka-nrfc.or.jp,4,wikidata,Nishinari Labor Welfare Center,,301,none
-oshu-bunka.or.jp,4,wikidata,Isawa Castle,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+osakapark.osgf.or.jp,4,academia,Tennōji Park,,,
+otemae.ac.jp,4,academia;academia;academia;academia;ror,Otemae University Graduate School | Otemae University Research Institute of History | Q111292773 | Q111293226,central,,
+pf.chiba-u.ac.jp,4,academia,"Medical Mycology Research Center, Chiba University",,,
+ph.sojo-u.ac.jp,4,academia,"Medical Plant Garden, Faculty of Pharmaceutical Sciences, Sojo University",,,
+pha.fukuoka-u.ac.jp,4,academia,"Medicinal Plant Garden, Faculty of Pharmaceutical Sciences, Fukuoka University",,,
+pha.u-toyama.ac.jp,4,academia,"Experimental Station for Medicinal Plant Research, Faculty of Pharmaceutical Sciences, University of Toyama",,,
+phar.kindai.ac.jp,4,academia,"Garden of Medicinal Plants, Kindai University",,,
+phar.nagoya-cu.ac.jp,4,academia,Herbal Garden in Nagoya City University,,,
+pharm.hokudai.ac.jp,4,academia,"Experimental Station for Medicinal Plant Studies, Faculty of Pharmaceutical Sciences, Hokkaido University",,,
+pharm.kumamoto-u.ac.jp,4,academia,"Medicinal Plant Garden, Global Center for Natural Resources Sciences, Kumamoto University",,,
+pharm.kyoto-u.ac.jp,4,academia,Q85875921,,,
 png.or.jp,4,wikidata,"Embassy of Papua New Guinea, Tokyo",central,200,none
 police.pref.aomori.jp,4,wikidata,Aomori Prefectural Police,,ConnectException,none
 police.pref.ehime.jp,4,wikidata,Ehime Prefectural Police,,ConnectException,none
@@ -1714,34 +1998,136 @@ police.pref.saitama.lg.jp,4,wikidata,Saitama Prefectural Police,,HttpConnectTime
 police.pref.tokushima.jp,4,wikidata,Tokushima Prefectural Police,,ConnectException,none
 police.pref.yamaguchi.jp,4,wikidata,Yamaguchi Prefectural Police,central-1,ConnectException,none
 port-of-nagoya.jp,4,wikidata,Nagoya Port Authority,,HttpConnectTimeoutException: HTTP connect timed out,10 nagoyako.in.tmes.trendmicro.com.
-pref.tokushima.jp,4,wikidata,Tokushima Prefectural Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+prit.igakuken.or.jp,4,academia,Tokyo Institute of Psychiatry,,,
+protein.osaka-u.ac.jp,4,academia,"Institute for Protein Research, Osaka University",,,
+qbic.riken.jp,4,academia,RIKEN Quantitative Biology Center,,,
+qbs.kyushu-u.ac.jp,4,academia,Kyūshū University Business School,,,
+rcast.u-tokyo.ac.jp,4,academia,Research Center for Advanced Science and Technology,,,
+rcnp.osaka-u.ac.jp,4,academia,"Research Center of Nuclear Physics, Osaka University",,,
+realize-national-interests.jp,4,academia,Q136329048,,,
+rekihaku.city.yokohama.jp,4,academia,Yokohama City Archaeological Research Center,,,
+rengo-soken.or.jp,4,academia,JTUC Research Institute for Advancement of Living Standards,,,
+rerf.or.jp,4,academia,Radiation Effects Research Foundation,,,
+ri-nexco.co.jp,4,academia,Nippon Expressway Research Institute,,,
+riam.kyushu-u.ac.jp,4,academia,Research Institute for Applied Mechanics Kyushu University,,,
+rib.okayama-u.ac.jp,4,academia,Institute of Plant Science and Resources,,,
+ribc.or.jp,4,academia,Research Institute on Building Cost,,,
+ribs.tus.ac.jp,4,academia,Q97169384,,,
+rieb.kobe-u.ac.jp,4,academia,"The Research Institute for Economics and Business Administration, Kobe University",,,
+riec.tohoku.ac.jp,4,academia,Research Institute of Electronic Communication,,,
+riis.okayama-u.ac.jp,4,academia,Research Institute for Interdisciplinary Science,,,
+riken.jp,4,academia,RIKEN,,,
+rilg.or.jp,4,academia,Research Institute for Local Government,,,
+rinri-jpn.or.jp,4,academia,Fuji Man'yō Botanical Carden,,,
+rinseishi.tokugawa.or.jp,4,academia,Tokugawa Institute for the History of Forestry,,,
+rirc.or.jp,4,academia,International Religious Research Institute,,,
+rish.kyoto-u.ac.jp,4,academia,Research Institute for Sustainable Humanosphere,,,
+rist.or.jp,4,academia,Research Organization for Information Science and Technology,,,
+rist.u-tokai.ac.jp,4,academia,"Research Institute of Science and Technology, Tokai University",,,
+rite.or.jp,4,academia,Research Institute of Innovative Technology for the Earth,,,
+rqc.riken.jp,4,academia,RIKEN Center for Quantum Computing,,,
+rsk-baraen.co.jp,4,academia,RSK Rose Garden,,,
+rtri.or.jp,4,academia,Railway Technical Research Institute,,,
+ryosenji.jp,4,academia,rose garden of Ryōsen-ji,,,
+saga-ls.jp,4,academia,Kyushu Synchrotron Light Research Center,,,
 saitama-u.ac.jp,4,academia,Saitama University,central,,
 sakai.ed.jp,4,wikidata,Sakai City Education Center,,HttpConnectTimeoutException: HTTP connect timed out,10 sakai-ed-jp.mail.protection.outlook.com.
+sakuyakonohana.jp,4,academia,Sakuya Konohana Kan,,,
 samoaembassyjapan.jp,4,wikidata,"Embassy of Samoa, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
+sanei.or.jp,4,academia,Japan Society for Occupational Health,,,
+sanken.osaka-u.ac.jp,4,academia,The Institute of Scientific and Industrial Research，Osaka University,,,
+sanko-bunka-kenkyujo.or.jp,4,academia,Sankō Research Institute,,,
+sbgf.jp,4,academia,Shibuya City Botanical Garden Fureai,,,
+sbk.or.jp,4,academia,Q28686098,,,
+scc.u-tokai.ac.jp,4,academia,"Institute of Oceanic Research and Development, Tokai Universtity",,,
+sci.kanagawa-u.ac.jp,4,academia,Q55531406,,,
+seiburailway.jp,4,academia,Tokorozawa Lily Garden,,,
+sendai-green-association.jp,4,academia,Sendai Wild Plants Garden,,,
+sendai-nogyo-engei-center.jp,4,academia,Sendai City Agriculture & Horticulture Center,,,
+senshu-iis.jp,4,academia,Q17995314,,,
+sera.ne.jp,4,academia,Q11615227,,,
+seto.kyoto-u.ac.jp,4,academia,Seto Marine Biological Laboratory,,,
+sevo.kyushu-u.ac.jp,4,academia,"Institute of Seismology and Volcanology, Faculty of Sciences, Kyushu University",,,
 shigaken-gikai.jp,4,wikidata,Shiga Prefectural Assembly,central-1,ConnectException,none
-shimane-u.ac.jp,4,academia,Shimane University,central,,
+shigakogen.co.jp,4,academia,Higashitateyama Alpine Botanical Garden,,,
+shigei.or.jp,4,academia,Kurashiki Insect Museum,,,
+shimokamo-nettai.jp,4,academia,Shimokamo Tropical Botanical Gardens,,,
+shinrinkoen.jp,4,academia,Q140389190,,,
+shokubutsuen.f.u-tokyo.ac.jp,4,academia,"Experimental Station for Medicinal Plant Studies, Graduate School of Pharmaceutical Sciences, Faculty of Pharmaceutical Sciences, The University of Tokyo",,,
+sorc.or.jp,4,academia,Institute of Sports Medicine and Science,,,
+southeast-botanical.jp,4,academia,Southeast Botanical Gardens,,,
+spirit-tokai.sakura.ne.jp,4,academia,"Strategic Peace and International Affairs Research Institute, Tokai University",,,
+spring8.or.jp,4,academia,SPring-8,,,
+src-h.slav.hokudai.ac.jp,4,academia,Slavic-Eurasian Research Center,,,
 sudanembassy.jp,4,wikidata,"Embassy of Sudan, Tokyo",central,200,none
+sunfield.ne.jp,4,academia,Japan Snake Institute,,,
+sunsetbeachpark.jp,4,academia,Chiba City Floral Museum,,,
+svo.dpri.kyoto-u.ac.jp,4,academia,Sakurajima Volcano Research Center,,,
+sweb.u-shizuoka-ken.ac.jp,4,academia,"Health Support Center, University of Shizuoka",,,
+tajima-garden.jp,4,academia,Tajima Plateau Botanical Gardens,,,
+takenaka.che.kyutech.ac.jp,4,academia,Q11327421,,,
 tamano-hp.jp,4,wikidata,Tamano Medical Center,,HttpConnectTimeoutException: HTTP connect timed out,none
 tanzaniaembassy.or.jp,4,wikidata,"Embassy of Tanzania, Tokyo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,100 mx.tanzaniaembassy.or.jp.
+tateko-hs.gsn.ed.jp,4,academia,Gunma Prefectural Tatebayashi High School Man'yō Botanical Garden,,,
+tbs-mri.co.jp,4,academia,TBS Media Research Institute,,,
+tbz.or.jp,4,academia,Q132456504,,,
 tech-go.jp,4,wikidata,TechGo,,200,none
 tfd.metro.tokyo.lg.jp,4,wikidata,Tokyo Fire Department,central-1,ConnectException,none
 thm.pref.miyagi.jp,4,wikidata,Taga Castle,,HttpConnectTimeoutException: HTTP connect timed out,none
 tibethouse.jp,4,wikidata,Liaison Office of His Holiness the Dalai Lama for Japan & East Asia,,200,none
-tohoku.ac.jp,4,academia,Tohoku University,central,,
+timr.or.jp,4,academia,The Tokyo Institute for Municipal Research,central-1,,
+titech.ac.jp,4,academia,Tokyo Institute of Technology,,,
+tkfd.or.jp,4,academia,Tokyo Foundation,,,
+tmig.or.jp,4,academia,Tokyo Metropolitan Institute of Gerontology,central-1,,
+tmiph.metro.tokyo.lg.jp,4,academia,Tokyo Metropolitan Medicinal Plants Garden,central-1,,
+toho.or.jp,4,academia,Nakamura Yuan Oriental Research Institute,,,
 tokio.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Tokyo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-tokyo-park.or.jp,4,academia,Jindai Botanical Garden,central-1,,
+tokiwapark.jp,4,academia,Ube Tokiwa Museum,,,
+tokoname-tounomori.jp,4,academia,Tokoname Tunomori Ceramics Lab,,,
+tokushima-ec.ed.jp,4,academia,Tokushima Prefectural General Education Center,,,
+tokyo-aff.or.jp,4,academia,Tokyo Metropolitan Agriculture and Forestry Research Center,central-1,,
 tokyokankyo.jp,4,wikidata,Tokyo Environmental Public Service Corporation,,301,none
-tufs.ac.jp,4,academia,Tokyo University of Foreign Studies,central,,
-u-fukui.ac.jp,4,academia,University of Fukui,central,,
-u-gakugei.ac.jp,4,academia,Tokyo Gakugei University,central,,
+tomaibun.jp,4,academia,Tokyo Metropolitan Archaeological Center,central-1,,
+toshiryokka.jp,4,academia,Chiba City Urban Greening Botanical Garden,,,
+tottorihanakairou.or.jp,4,academia,Tottori Hanakairo-Flower Park,,,
+toyotariken.jp,4,academia,Toyota Physical and Chemical Research Institute,,,
+trc.u-shizuoka-ken.ac.jp,4,academia,"Tourism Research Center, Graduate School of Management and Information of Innovation, University of Shizuoka",,,
+tulipfair.or.jp,4,academia,Tonami Tulip Gallery,,,
+tytlabs.co.jp,4,academia,"Toyota Central R&D Labs., Inc.",,,
+u-lab.my-pharm.ac.jp,4,academia,"Medicinal Plant Garden, Meiji Pharmaceutical University",,,
+u-tokai.ac.jp,4,academia;academia;academia;ror,"Institute of Advanced Biosciences, Tokai University | Institute of Civilization Research, Tokai University | Sport Medical Science Research Institute, Tokai University",central,,
+udri.or.jp,4,academia,Q11643702,,,
+uji-citypark.jp,4,academia,Uji City Botanical Park,,,
 ujicci.or.jp,4,wikidata,Uji Chamber of Commerce and Industry,,301,10 mail.ujicci.or.jp.
+urban.ne.jp,4,academia,Mukaishima Orchid Center,,,
+urbangreen.or.jp,4,academia,Organization for Landscape and Urban Green Infrastructure,,,
+ushijimanofuji.co.jp,4,academia,Tōka-en,,,
 venezuela.or.jp,4,wikidata,"Embassy of Venezuela, Tokyo",central,200,none
+vgs.kyoto-u.ac.jp,4,academia,"Institute for Geothermal Sciences, Graduate School of Sciences, Kyoto University",,,
+w-botanicalgarden.jp,4,academia,Wakayama Prefecture Botanical Park Ryokka Center,central-1,,
+www-sk.icrr.u-tokyo.ac.jp,4,academia,Super-Kamiokande,,,
+www-yaku.meijo-u.ac.jp,4,academia,Q140391587,,,
 www2.police.pref.ishikawa.lg.jp,4,wikidata,Ishikawa Prefectural Police,,HttpConnectTimeoutException: HTTP connect timed out,none
+www2.tagen.tohoku.ac.jp,4,academia,Institute of Multidisciplinary Research for Advanced Materials,,,
+www3.miyakojima.ed.jp,4,academia,Miyakojima City Tropical Plant Garden,,,
+y-maibun.jp,4,academia,Yamaguchi Prefecture Archeological & Cultural Properties Center,central-1,,
+yakugaku.w3.kanazawa-u.ac.jp,4,academia,"Medicinal Plant Garden, Kanazawa University",,,
 yakushima-shoko.or.jp,4,wikidata,Q130283258,,200,none
+yamagatamaibun.or.jp,4,academia,Yamagata Prefectural Center for Archaeological Research,,,
+yamanashi-fruitpark.co.jp,4,academia,Manriki Park,,,
+yamashina.or.jp,4,academia,Yamashina Institute for Ornithology,,,
+yanagida-flower.jp,4,academia,Yanagida Botanical Park,,,
+yasouen.jp,4,academia,Yamagata Wild Flower Park,,,
+yatsu-rosegarden.jp,4,academia,Yatsu Rose Garden,,,
+yukawa.kyoto-u.ac.jp,4,academia,Yukawa Institute for Theoretical Physics,,,
 yumenoshima.jp,4,academia,Yumenoshima Tropical Greenhouse Dome,central-1,,
+zenbunka.or.jp,4,academia,The Institute for Zen Studies,,,
+zukan.nagai-park.jp,4,academia,Man'yō no Michi,,,
 4kikou.org,3,wikidata,inter-university research institute corporation,central,301,none
 a-ru.ac.jp,3,ror,R Professional University Of Rehabilitation,central,,
 aasa.ac.jp,3,ror,Aichi Shukutoku University,central,,
+abu.ac.jp,3,ror,Aichi Bunkyo University,central,,
+adb.org,3,academia,Asian Development Bank Institute,,,
 agu.ac.jp,3,ror,Aichi Gakuin University,central,,
 ai-bunkyo.ac.jp,3,ror,Aichi Bunkyo Women's College,central,,
 aichi-fam-u.ac.jp,3,ror,Aichi Prefectural University of Fine Arts and Music,central,,
@@ -1749,19 +2135,24 @@ aichi-med-u.ac.jp,3,ror,Aichi Medical University Hospital,central,,
 aichi-pu.ac.jp,3,ror,Aichi Prefectural University,central,,
 aichi-toho.ac.jp,3,ror,Aichi Toho University,central,,
 aichi-u.ac.jp,3,ror,Aichi University Junior College,central,,
+aikoku-jc.ac.jp,3,ror,Aikoku Gakuen Junior College,central,,
 aikoku-u.ac.jp,3,ror,Aikoku Gakuen University,central,,
 aino.ac.jp,3,ror,Aino University,central,,
 aisan-tsukyo.jp,3,ror,Aichi Sangyo University Junior College,central,,
+ait.ac.jp,3,ror,Aichi Institute of Technology,central,,
 aitan.ac.jp,3,ror,International Pacific University Women's College,central,,
 aiu.ac.jp,3,ror,Akita International University,central,,
+akashi.ac.jp,3,ror,"National Institute of Technology, Akashi College",central,,
 akibi.ac.jp,3,ror,Akita University of Art,central,,
 akikusa.ac.jp,3,ror,Akikusa Gakuen Junior College,central,,
 akita-eiyo.ac.jp,3,ror,Akita Nutrition Junior College,central,,
+akita-pu.ac.jp,3,ror,Akita Prefectural University,central,,
 ambafrance-jp.org,3,wikidata,"Embassy of France, Tokyo",central,ConnectException,none
 ambamali-jp.org,3,wikidata,"Embassy of Mali, Tokyo",central,301,none
 ambasadat.net,3,wikidata,"Embassy of Kosovo, Tokyo",central,200,10 mx1.emailsrvr.com.; 20 mx2.emailsrvr.com.
 ambatogojapon.net,3,wikidata,"Embassy of Togo, Tokyo",central,200,none
 amc.mizuho-c.ac.jp,3,ror,Aichi Mizuho College,central,,
+amcr.ac.jp,3,ror,AICHI Medical College of Rehabilitation,central,,
 andrew-edu.ac.jp,3,ror,St. Andrew's University of Education,central,,
 andrew.ac.jp,3,ror,Momoyama Gakuin University,central,,
 aoba.aino.ac.jp,3,ror,Aino University Junior College,central,,
@@ -1771,79 +2162,106 @@ aomoricgu.ac.jp,3,ror,Aomori Chuo Gakuin University,central,,
 aoyama.ac.jp,3,ror,Aoyama Gakuin University,central,,
 apu.ac.jp,3,ror,Ritsumeikan Asia Pacific University,central,,
 ariake-nct.ac.jp,3,ror,"National Institute of Technology, Ariake College",central,,
+ariake.ac.jp,3,ror,Ariake College of Education and the Arts,central,,
 asahi-u.ac.jp,3,ror,Asahi University,central,,
 asahigakuen.ac.jp,3,ror,Saga Women's Junior College,central,,
+asahikawa-nct.ac.jp,3,ror,"National Institute of Technology, Asahikawa College",central,,
 asahikawa-u.ac.jp,3,ror,Asahikawa University,central,,
 ashikaga.ac.jp,3,ror,Ashikaga Junior College,central,,
 ashitech.ac.jp,3,ror,Ashikaga University,central,,
 ashiya-u.ac.jp,3,ror,Ashiya University,central,,
+asia-u.ac.jp,3,ror,Asia University,central,,
 asu.ac.jp,3,ror,Aichi Sangyo University,central,,
 at-hyogo.jp,3,ror,Professional College of Arts and Tourism,central,,
+atami.iuhw.ac.jp,3,ror,International University Of Health And Welfare Atami Hospital,central,,
 atomi.ac.jp,3,ror,Atomi University,central,,
 auhw.ac.jp,3,ror,Aomori University of Health and Welfare,central,,
+aut.ac.jp,3,ror,Aichi University of Technology,central,,
 autjc.ac.jp,3,ror,Aichi University of Technology Automotive Junior College,central,,
+awaji-botanicalgarden.com,3,academia,Awaji Greenhouse,,,
 azabu-u.ac.jp,3,ror,Azabu University,central,,
 b-w.ac.jp,3,ror,Proessional University of Beauty & Wellness,central,,
+baika.ac.jp,3,ror,Baika Women's University,central,,
 baiko.ac.jp,3,ror,Baiko Gakuin University,central,,
 beppu-u.ac.jp,3,ror,Beppu University Junior College,central,,
-bfgu-bunka.ac.jp,3,ror,Bunka Fashion Graduate University,central,,
+bgtym.org,3,academia,Botanic Gardens of Toyama,,,
 bioreg.kyushu-u.ac.jp,3,ror,"Medical Institute of Bioregulation, Kyushu University",central,,
 biwako-seikei.jp,3,ror,Biwako Seikei Sport College,central,,
 biwakogakuin.ac.jp,3,ror,Biwako Gakuin University Junior College,central,,
+blhrri.org,3,academia,Buraku Liberation and Human Rights Research Institute,,,
 bpur.aino.ac.jp,3,ror,Biwako Professional University of Rehabilitation,central,,
 budo-u.ac.jp,3,ror,International Budo University,central,,
 bukkyo-u.ac.jp,3,ror,Bukkyo University,central,,
 bunka.ac.jp,3,ror,Bunka Gakuen University,central,,
 bunkyo.ac.jp,3,ror,Bunkyo University,central,,
 bunri-c.ac.jp,3,ror,Bunri University of Hospitality,central,,
-bunri-u.ac.jp,3,ror,Tokushima Bunri University Junior College,central,,
 bunsei.ac.jp,3,ror,Bunsei University of Art,central,,
 butsuryo.ac.jp,3,ror,Osaka Butsuryo University,central,,
 cameroon-embassy-jp.org,3,wikidata,"Embassy of Cameroon, Tokyo",central,ConnectException,none
-catherine.ac.jp,3,ror,St. Catherine Junior College,central,,
+catherine.ac.jp,3,ror,St. Catherine University,central,,
+cdij.org,3,academia,CDI,,,
 cecilia-wjc.ac.jp,3,ror,St. Cecilia Women's Junior College,central,,
 cgu.ac.jp,3,ror,Chuo Gakuin University,central,,
 chiba-kc.ac.jp,3,ror,Chiba Keizai College,central,,
 chibakeiai.ac.jp,3,ror,Chiba Keiai Junior College,central,,
 chibameitoku.ac.jp,3,ror,Chiba Meitoku College,central,,
+chikushi-u.ac.jp,3,ror,Chikushi Jogakuen University,central,,
 chitose-reha.ac.jp,3,ror,Hokkaido Chitose College of Rehabilitation,central,,
+chitose.ac.jp,3,ror,Chitose Institute of Science and Technology,central,,
 chiyoda.ac.jp,3,ror,Osaka Chiyoda Junior College,central,,
-chubu-gu.ac.jp,3,ror,Chubu Gakuin Junior College,central,,
+chubu-gu.ac.jp,3,ror,Chubu Gakuin University,central,,
 chubu-ichi.ed.jp,3,ror,Chubu University Daiichi High School,central,,
+chubu.ac.jp,3,ror,Chubu University,central,,
+chukyo-u.ac.jp,3,ror,Chukyo University,central,,
 chukyogakuin-u.ac.jp,3,ror,Chukyo Junior College,central,,
+churashima.okinawa,3,academia,Okinawa Churashima Foundation Research Institute,,,
 chutan.ac.jp,3,ror,Aomori Chuo Junior College,central,,
-cira.kyoto-u.ac.jp,3,ror,"Center for iPS Cell Research and Application, Kyoto University",central,,
+cis.ac.jp,3,ror,Chiba Institute of Science,central,,
 cjc.ac.jp,3,ror,Chugoku Junior College,central,,
 cku.ac.jp,3,ror,Chiba Keizai University,central,,
+cmic-phs.com,3,academia,CMIC Pharma Science,,,
 college.nms.ac.jp,3,ror,Nippon Medical School,central,,
 college.shinonome.ac.jp,3,ror,Matsuyama Shinonome Junior College,central,,
 college.toho.ac.jp,3,ror,Toho Gakuen College of Drama and Music,central,,
 community.apan.org,3,wikidata,Asian Office of Aerospace Research and Development,,ConnectException,none
+corp.asics.com,3,academia,ASICS Institute of Sport Science,,,
+csis-nikkei.com,3,academia,CSIS-Nikkei Virtual Think Tank,,,
+cuc.ac.jp,3,ror,Chiba University of Commerce,central,,
 cyber-u.ac.jp,3,ror,Cyber University,central,,
+cygnus.ac.jp,3,ror,Tottori College,central,,
 d-b.ne.jp,3,ror,Oita Junior College,central,,
 daido-it.ac.jp,3,ror,Daido University,central,,
 daigaku.shiraume.ac.jp,3,ror,Shiraumegakuen College,central,,
 daiichi-cps.ac.jp,3,ror,Daiichi University of Pharmacy,central,,
 daiichi-koudai.ac.jp,3,ror,Daiichi Institute of Technology,central,,
+daikouzenji.com,3,academia,"Daikōzen-ji Temple Garden ""Chigiri-en""",,,
 daion.ac.jp,3,ror,Osaka College of Music Junior College,central,,
 daito.ac.jp,3,ror,Daito Bunka University,central,,
 dcu.ac.jp,3,ror,Den-en Chofu University,central,,
 dendai.ac.jp,3,ror,Tokyo Denki University,central,,
 dhw.ac.jp,3,ror,Digital Hollywood University,central,,
 do-bunkyodai.ac.jp,3,ror,Hokkaido Bunkyo University,central,,
+do-johodai.ac.jp,3,ror,Hokkaido Information University,central,,
+doho.ac.jp,3,ror,Doho University,central,,
+dokkyo.ac.jp,3,ror,Dokkyo University,central,,
 dokkyomed.ac.jp,3,ror,Dokkyo Medical University,central,,
 doshisha.ac.jp,3,ror,Doshisha University,central,,
 dwc.doshisha.ac.jp,3,ror,Doshisha Women's College of Liberal Arts,central,,
-e-mbatech.ac.jp,3,ror,The Graduate School of Management and Education Technology,central,,
+e-flowerpark.com,3,academia,Hamamatsu Flower Park,,,
 edogawa-u.ac.jp,3,ror,Edogawa University,central,,
 edosen.jp,3,ror,EDOSEN,central,,
 ehime-u.ac.jp,3,ror,Ehime University,central,,
 eiyo.ac.jp,3,ror,Junior College of Japan Nutrition University,central,,
+elb-studycenter.org,3,academia,Q11423943,,,
+elyt-lab.com,3,academia,"Engineering Science Lyon Tohoku, Materials under eXtreme conditions",,,
 embassyofpanamainjapan.org,3,wikidata,"Consulate-General of Panama, Kobe",,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching embassyofpanamainjapan.org found.,none
+en.kobe-oukoku.com,3,academia,Kobe Animal Kingdom,,,
 en.okinawa-ct.ac.jp,3,ror,National Institute of Technology Okinawa College,central,,
+en.saitama-u.ac.jp,3,ror,Saitama University,central,,
 en.swu.ac.jp,3,ror,Showa Women's University,central,,
 english.kobe-du.ac.jp,3,ror,Kobe Design University,central,,
 english.kurume-u.ac.jp,3,ror,Kurume University,central,,
+enoshima-seacandle.com,3,academia,Samuel Cocking Garden,,,
 epu.ac.jp,3,ror,Ehime Prefectural University of Health Science,central,,
 eritreaembassy-japan.org,3,wikidata,"Embassy of Eritrea, Tokyo",central,"SSLException: Unrecognized SSL message, plaintext connection?",none
 eum.ac.jp,3,ror,Elisabeth University of Music,central,,
@@ -1856,16 +2274,21 @@ finlandabroad.fi,3,wikidata,"Embassy of Finland, Tokyo",central,301,none
 fish-u.ac.jp,3,ror,National Fisheries University,central,,
 fit.ac.jp,3,ror,Fukuoka Institute of Technology,central,,
 fiuhw.takagigakuen.ac.jp,3,ror,Fukuoka International University of Health and Welfare,central,,
+fmu.ac.jp,3,ror,Fukushima Medical University,central,,
 fp-k.org,3,academia,Flower Park Kagoshima,central-1,,
+fpu.ac.jp,3,ror,Fukui Prefectural University,central,,
 frontier-u.jp,3,ror,Ube Frontier University,central,,
+fruitpark.org,3,academia,Togokusan Fruits Park,,,
 fuji-tokoha-u.ac.jp,3,ror,Fuji Tokoha University,central,,
 fuji-u.ac.jp,3,ror,Fuji University,central,,
 fuji.ac.jp,3,ror,Tokyo Fuji University,central,,
+fujibamboogarden.com,3,academia,Fuji Bamboo Garden,,,
 fujijoshi.ac.jp,3,ror,Fuji Women's University,central,,
 fujisawakoka-th.pen-kanagawa.ed.jp,3,ror,Fujisawa Institute of Technology High School,central,,
 fujita-hu.ac.jp,3,ror,Fujita Health University,central,,
 fuknodai.jp,3,ror,Fukuoka College of Agriculture,central,,
 fuksi-kagk-u.ac.jp,3,ror,Kansai University of Welfare Sciences,central,,
+fukuchiyama.ac.jp,3,ror,University of Fukuchiyama,central,,
 fukui-hsu.ac.jp,3,ror,Fukui Health Sciences University,central,,
 fukui-ut.ac.jp,3,ror,Fukui University of Technology,central,,
 fukujo.ac.jp,3,ror,Fukuoka Jo Gakuin University Junior College,central,,
@@ -1875,48 +2298,74 @@ fukuoka-pu.ac.jp,3,ror,Fukuoka Prefectural University,central,,
 fukuoka-u.ac.jp,3,ror,Fukuoka University,central,,
 fukuoka-wjc.ac.jp,3,ror,Fukuoka Women's Junior College,central,,
 fukushima-college.ac.jp,3,ror,Fukushima College,central,,
+fukuyama-u.ac.jp,3,ror,Fukuyama University,central,,
 furanokouiki.server-shared.com,3,wikidata,Q23954834,,200,100 mx.furanokouiki.server-shared.com.
 fwu.ac.jp,3,ror,Fukuoka Women's University,central,,
 fz.ocha.ac.jp,3,ror,Ochanomizu University Kindergarten,central,,
 gakusen.ac.jp,3,ror,Aichi Gakusen University,central,,
+garden-akao.com,3,academia,Akao Herb & Rose Garden,,,
+gchs.ac.jp,3,ror,Gunma Prefectural College of Health Sciences,central,,
+genron-npo.net,3,academia,Genron NPO,,,
 gifu-cn.ac.jp,3,ror,Gifu College of Nursing,central,,
 gifu-cwc.ac.jp,3,ror,Gifu City Women's College,central,,
 gifu-nct.ac.jp,3,ror,"National Institute of Technology, Gifu College",central,,
+gifuhoken.ac.jp,3,ror,Gifu University of Health Science,central,,
 gijodai.jp,3,ror,Gifu Women's University,central,,
+gku.ac.jp,3,ror,Gifu Kyoritsu University,central,,
 global.toho-u.ac.jp,3,ror,Toho University,central,,
+globis.ac.jp,3,ror,Globis University Graduate School of Management,central,,
 glory-shoei.ac.jp,3,ror,Shoei Junior College,central,,
 gmu.ac.jp,3,ror,Gunma Mirai University Junior College,central,,
 gpi.ac.jp,3,ror,Graduate School for the Creation of New Photonics Industries,central,,
 gpu.ac.jp,3,ror,Globiz Professional University,central,,
 gpwu.ac.jp,3,ror,Gunma Prefectural Women's University,central,,
+graduate.juhs.ac.jp,3,ror,"Graduate School of Health Care Sciences, Jikei Institute",central,,
+greencenter.1110city.com,3,academia,Kawaguchi Green Center,,,
+gunma-ct.ac.jp,3,ror,"National Institute of Technology, Gunma College",central,,
+gunma-iaf.ac.jp,3,ror,Gunma Prefectural Institute of Agriculture and Forestry,central,,
 gwc.gakushuin.ac.jp,3,ror,Gakushuin Women's College,central,,
+h-bunkyo.ac.jp,3,ror,Hiroshima Bunkyo University,central,,
 hachinohe-u.ac.jp,3,ror,Hachinohe Gakuin University,central,,
 hagoromo.ac.jp,3,ror,Hagoromo International University,central,,
+haiji-no-mura.com,3,academia,Heidi's Village,,,
 hakodate-ct.ac.jp,3,ror,"National Institute of Technology, Hakodate College",central,,
 hakodate-jc.ac.jp,3,ror,Hakodate Junior College,central,,
 hakodate-kankou.com,3,wikidata,Former British Consulate of Hakodate,,200,10 vlmx-air.secure.ne.jp.
 hakodate-otani.ac.jp,3,ror,Hakodate Otani College,central,,
 hakodate-u.ac.jp,3,ror,Hakodate University,central,,
+hakone-shisseikaen.com,3,academia,Hakone Botanical Garden of Wetlands,,,
+hakubaescal.com,3,academia,Hakuba Goryū Alpine Botanical Garden,,,
 hakuho.ac.jp,3,ror,Hakuho Women's College,central,,
 hakuoh.jp,3,ror,Hakuoh University,central,,
 hama-med.ac.jp,3,ror,Hamamatsu University School of Medicine,central,,
 hamagaku.ac.jp,3,ror,Hamamatsu Gakuin University Junior College,central,,
 hamayaku.ac.jp,3,ror,Yokohama University of Pharmacy,central,,
+hanatoizumi.com,3,academia,Hanaizumi Flower World,,,
 hanazono.ac.jp,3,ror,Hanazono University,central,,
+hannan-u.ac.jp,3,ror,Hannan University,central,,
+hattori-ryokuchi.com,3,academia,Hattori Ryokuchi Arboretum,,,
+hattorilab.org,3,academia,Hattori Botanical Laboratory,,,
 hbg.ac.jp,3,ror,Hiroshima Bunka Gakuen University,central,,
 hcc.ac.jp,3,ror,Higashi Chikushi Junior College,central,,
+hcu.ac.jp,3,ror,Hiroshima Cosmopolitan University,central,,
 healthcare-m.ac.jp,3,ror,College of Healthcare Management,central,,
 heian.ac.jp,3,ror,St. Agnes University,central,,
 heisei-iryou.ac.jp,3,ror,Heisei College of Health Sciences,central,,
 heisei-music.ac.jp,3,ror,Heisei College of Music,central,,
 heisei-u.ac.jp,3,ror,Fukuyama Heisei University,central,,
+hgu.jp,3,ror,Hokkai Gakuen University,central,,
 hi-tech.ac.jp,3,ror,Hachinohe Institute of Technology,central,,
 higashikyusyu.ac.jp,3,ror,Higashikyushu Junior College,central,,
 higashiosaka.ac.jp,3,ror,Higashiosaka College & Higashiosaka Junior College,central,,
 hijiyama-u.ac.jp,3,ror,Hijiyama University Junior College,central,,
 himeji-du.ac.jp,3,ror,Himeji Dokkyo University,central,,
+himeji-hc.ac.jp,3,ror,Himeji Hinomoto College,central,,
+himeji.koutoku.ac.jp,3,ror,Himeji University,central,,
+himejibaraen.com,3,academia,Himeji Rose Garden,,,
+himi-kaihin.com,3,academia,Himi Seaside Botanical Garden,,,
 hirakatagakuen.ac.jp,3,ror,Meiwa Gakuen Junior College,central,,
 hirogaku-u.ac.jp,3,ror,Hirosaki Gakuin University,central,,
+hirokoku-u.ac.jp,3,ror,Hiroshima International University,central,,
 hirosakiuhw.jp,3,ror,Hirosaki University of Health and Welfare Junior College,central,,
 hiroshima-cmt.ac.jp,3,ror,"National Institute of Technology, Hiroshima College",central,,
 hiroshima-cu.ac.jp,3,ror,Hiroshima City University,central,,
@@ -1926,83 +2375,115 @@ hkg.ac.jp,3,ror,Hiroshima Kokusai Gakuin University,central,,
 hmu.ac.jp,3,ror,Hokkaido Musashi Women's University,central,,
 hnembassyjp.wordpress.com,3,wikidata,"Embassy of Honduras, Tokyo",central,200,none
 hokkai.ac.jp,3,ror,Hokkai School of Commerce,central,,
-hokuriku-u.ac.jp,3,ror,Hokuriku University,central,,
 hokurikugakuin.ac.jp,3,ror,Hokuriku Gakuin University,central,,
 hokusei.ac.jp,3,ror,Hokusei Gakuen University Junior College,central,,
-hokusho-u.ac.jp,3,ror,Hokusho College,central,,
+hokusho-u.ac.jp,3,ror,Hokusho University,central,,
 hokuyakudai.ac.jp,3,ror,Hokkaido Pharmaceutical University,central,,
 home.e-catv.ne.jp,3,ror,Ehime Prefectural College of Agriculture,central,,
 honan.ac.jp,3,ror,Shinshu Honan Junior College,central,,
-hosei.ac.jp,3,ror,Hosei University,central,,
 hosei2.ed.jp,3,ror,HOSEI Daini Junior and Senior High School,central,,
-hoshi.ac.jp,3,ror,Hoshi University,central,,
+hosen.ac.jp,3,ror,Hosen College of Childhood Education,central,,
+hosouchi.com,3,academia,Community Business Research Institute,,,
 hue.ac.jp,3,ror,Hiroshima University of Economics,central,,
 human.ac.jp,3,ror,University of Human Arts and Sciences,central,,
 human.ryukoku.ac.jp,3,ror,Ryukoku University Junior College,central,,
 hus.ac.jp,3,ror,Hokkaido University of Science,central,,
 hyo-med.ac.jp,3,ror,Hyogo Medical University,central,,
-hyogo-dai.ac.jp,3,ror,Hyogo College,central,,
+hyogo-dai.ac.jp,3,ror,Hyogo University,central,,
+hyogo-nourinsuisangc.jp,3,ror,Hyogo Prefectural Hyogo Agricultural University,central,,
 hyogo-u.ac.jp,3,ror,Hyogo University of Teacher Education,central,,
 i-u.ac.jp,3,ror,Professional University of Information and Management for Innovation,central,,
 iamas.ac.jp,3,ror,Institute of Advanced Media Arts and Sciences,central,,
+ias.unu.edu,3,academia,United Nations University Institute for the Advanced Study of Sustainability,,,
+ibaraki-ct.ac.jp,3,ror,Ibaraki National College of Technology,central,,
 icabs.ac.jp,3,ror,International College for Postgraduate Buddhist Studies,central,,
 icc.ac.jp,3,ror,Ibaraki Christian University,central,,
 ichinoseki-cci.com,3,wikidata,Q139992046,,200,none
 ichinoseki.ac.jp,3,ror,"National Institute of Technology, Ichinoseki College",central,,
+icu.ac.jp,3,ror,International Christian University,central,,
 iida.ac.jp,3,ror,Iida Junior College,central,,
 iisec.ac.jp,3,ror,Institute of Information Security,central,,
+ikc.ac.jp,3,ror,Ichinomiya Kenshin College,central,,
+ikenobo-c.ac.jp,3,ror,Ikenobo Junior College,central,,
 ikuei-g.ac.jp,3,ror,Ikuei University,central,,
-infront.kyoto-u.ac.jp,3,ror,"Institute for Life and Medical Sciences, Kyoto University",central,,
+institute-of-chinese-affairs.com,3,academia,Institute of Chinese Affairs,,,
 instytutpolski.pl,3,wikidata,Polish Cultural Institute in Tokyo,,IOException: Received RST_STREAM: Internal error,none
 internet.ac.jp,3,ror,Tokyo Online University,central,,
 iot.ac.jp,3,ror,Institute of Technologists,central,,
 ipc.akita-nct.ac.jp,3,ror,National Institute of Technology Akita College,central,,
+ipk-rose.com,3,academia,Ippongi Park,,,
 ipu-japan.ac.jp,3,ror,International Pacific University,central,,
 ipu.ac.jp,3,ror,Ibaraki Prefectural University of Health Sciences,central,,
 iput.ac.jp,3,ror,International Professional University of Technology in Tokyo,central,,
 iraqi-japan.com,3,wikidata,"Embassy of Iraq, Tokyo",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching iraqi-japan.com found.,0 iraqi-japan.com.
+irbj.net,3,academia,Institute for Raptor Biomedicine Japan,,,
 ishikawa-nct.ac.jp,3,ror,"National Institute Of Technology, Ishikawa College",central,,
 ishikawa-nu.ac.jp,3,ror,Ishikawa Prefectural Nursing University,central,,
+ishikawa-pu.ac.jp,3,ror,Ishikawa Prefectural University,central,,
 isu.ac.jp,3,ror,IRYO Sosei University,central,,
 it-chiba.ac.jp,3,ror,Chiba Institute of Technology,central,,
 it-hiroshima.ac.jp,3,ror,Hiroshima Institute of Technology,central,,
 iuhw.ac.jp,3,ror,International University of Health and Welfare,central,,
+iuj.ac.jp,3,ror,International University of Japan,central,,
 iuk.ac.jp,3,ror,International University of Kagoshima,central,,
+iwaki-flowercenter.com,3,academia,Iwaki Flower Center,,,
 iwaki-jc.ac.jp,3,ror,Iwaki Junior College,central,,
+iwakuni.ac.jp,3,ror,Iwakuni Junior College,central,,
+iwamizawa-park.com,3,academia,Iwamizawa Park Rose Garden,,,
 iwate-med.ac.jp,3,ror,Iwate Medical University,central,,
 iwate-pu.ac.jp,3,ror,"Morioka Junior College, Iwate Prefectural University",central,,
 iwate-uhms.ac.jp,3,ror,Iwate University of Health and Medical Sciences,central,,
 izumi-c.ac.jp,3,ror,Izumi Junior College,central,,
+izushaboten.com,3,academia,Izu Shaboten Zoo,,,
+ja-ikoi.com,3,academia,Nishioshi-Ikoino-Noen,,,
 japan.mfa.am,3,wikidata,"Embassy of Armenia, Tokyo",central,301,none
 japan.um.dk,3,wikidata,"Embassy of Denmark, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
+japanmonkeycentre.org,3,academia,Japan Monkey Centre,,,
 jc-humanitec.ac.jp,3,ror,Humanitec Junior College,central,,
 jc.fit.ac.jp,3,ror,Fukuoka Institute of Technology Junior College,central,,
 jc.hachinohe-u.ac.jp,3,ror,Hachinohe Gakuin Junior College,central,,
 jc.kwansei.ac.jp,3,ror,Kwansei Gakuin Junior College,central,,
 jc.kyoai.ac.jp,3,ror,Kyoai Gakuen Junior College,central,,
+jc.nagoya-su.ac.jp,3,ror,Nagoya Management Junior College,central,,
 jc.rikkyojogakuin.ac.jp,3,ror,St. Margaret's Junior College,central,,
 jc.shibata.ac.jp,3,ror,Shibata Gakuen University Junior College,central,,
+jc.shijonawate-gakuen.ac.jp,3,ror,Shijonawate Gakuen Junior College,central,,
 jc.shukutoku.ac.jp,3,ror,Shukutoku Junior College,central,,
 jc.tsuzuki-edu.ac.jp,3,ror,Daiichi Junior College of Infant Education,central,,
 jc.u-aizu.ac.jp,3,ror,The University of Aizu Junior College Division,central,,
+jcsw.ac.jp,3,ror,Japan College of Social Work,central,,
+jesuitsocialcenter-tokyo.com,3,academia,Jesuit Social Center,,,
+jhsu.ac.jp,3,ror,Japan University of Health Sciences,central,,
+jhu.ac.jp,3,ror,Japan Healthcare University,central,,
+jibt.com,3,academia,Japan Institute of Baking,,,
 jichi.ac.jp,3,ror,Jichi Medical University,central,,
 jikei.ac.jp,3,ror,Jikei University School of Medicine,central,,
+jin-ai.ac.jp,3,ror,Jin-ai Women's College,central,,
 jindai.ac.jp,3,ror,Jin-ai University,central,,
-jissen.ac.jp,3,ror,Jissen Women's Junior College,central,,
+jissen.ac.jp,3,ror,Jissen Women's University,central,,
+jiu.ac.jp,3,ror,Josai International University,central,,
+jkajyo.ac.jp,3,ror,Kagoshima Women's Junior College,central,,
+jmets.ac.jp,3,ror,Marine Technical College,central,,
+jobu.ac.jp,3,ror,Jobu University,central,,
 jonan.jp,3,ror,Osaka University of Comprehensive Children Education,central,,
-josai.ac.jp,3,ror,Josai University,central,,
 joshibi.ac.jp,3,ror,Joshibi University of Art and Design,central,,
 jp.diplomatie.ma,3,wikidata,"Embassy of Morocco, Tokyo",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 jp.mfa.lt,3,wikidata,"Embassy of Lithuania, Tokyo",central,403,none
 jp.mvep.hr,3,wikidata,"Embassy of Croatia, Tokyo",central,ConnectException,none
 jrc.sophia.ac.jp,3,ror,Sophia University Junior College Division,central,,
-jue.ac.jp,3,ror,Japan University of Economics,central,,
+jrchcn.ac.jp,3,ror,Japanese Red Cross Hiroshima College of Nursing,central,,
+jrckicn.ac.jp,3,ror,Japanese Red Cross Kyushu International College of Nursing,central,,
+jrocket.org,3,academia,Japanese Rocket Society,,,
+jsbi.org,3,academia,Japanese Society for Bioinformatics,,,
 juhs.ac.jp,3,ror,Jikei University of Health Care Sciences,central,,
 jumonji-u.ac.jp,3,ror,Jumonji University,central,,
 jun.otsuma.ac.jp,3,ror,Otsuma Women's University Junior College Division,central,,
 junshin-c.ac.jp,3,ror,Junshin Junior College,central,,
+junshin-u.ac.jp,3,ror,Junshin Gakuen University,central,,
 juntendo.ac.jp,3,ror,Juntendo University,central,,
+jwcpe.ac.jp,3,ror,Japan Women's College of Physical Education,central,,
 jwu.ac.jp,3,ror,Japan Women's University,central,,
+k-hana-tori.com,3,academia,Kakegawa Kachoen,,,
 k-junshin.ac.jp,3,ror,Kagoshima Immaculate Heart University,central,,
 k-kentan.ac.jp,3,ror,Kagoshima Prefectural College,central,,
 k-ryukoku.ac.jp,3,ror,Kyushu Ryukoku Junior College,central,,
@@ -2011,14 +2492,19 @@ kaetsu.ac.jp,3,ror,Kaetsu University,central,,
 kagawa-nct.ac.jp,3,ror,"National Institute of Technology, Kagawa College",central,,
 kagawa-puhs.ac.jp,3,ror,Kagawa Prefectural College of Health Sciences,central,,
 kagawa-u.ac.jp,3,ror,Kagawa University,central,,
+kagoshima-ct.ac.jp,3,ror,"National Institute of Technology, Kagoshima College",central,,
 kaichi.ac.jp,3,ror,Kaichi International University,central,,
 kaisei.ac.jp,3,ror,Kobe Kaisei College,central,,
+kaishi-pu.ac.jp,3,ror,Kaishi Professional University,central,,
 kait.jp,3,ror,Kanagawa Institute of Technology,central,,
 kaiyodai.ac.jp,3,ror,Tokyo University of Marine Science and Technology,central,,
 kamakura-u.ac.jp,3,ror,Kamakura Women's University,central,,
+kameda.ac.jp,3,ror,Kameda College of Health Sciences,central,,
+kanagawa-u.ac.jp,3,ror,Kanagawa University,central,,
 kanazawa-gu.ac.jp,3,ror,Kanazawa Gakuin University,central,,
 kanazawa-med.ac.jp,3,ror,Kanazawa Medical University,central,,
 kanazawa-pu.ac.jp,3,ror,Kanazawa Professional University of Food Management,central,,
+kanbi.org,3,academia,Kansai Art Academy,,,
 kandagaigo.ac.jp,3,ror,Kanda University of International Studies,central,,
 kankyo-u.ac.jp,3,ror,Tottori University of Environmental Studies,central,,
 kansai-u.ac.jp,3,ror,Kansai University,central,,
@@ -2037,6 +2523,7 @@ kct.ac.jp,3,ror,"National Institute of Technology, Kitakyushu College",central,,
 kcua.ac.jp,3,ror,Kyoto City University of Arts,central,,
 kdu.ac.jp,3,ror,Kanagawa Dental University,central,,
 keiho-u.ac.jp,3,ror,Osaka University of Economics and Law,central,,
+keio-ange.info,3,academia,Keio Floral Garden Ange,,,
 keisen.ac.jp,3,ror,Keisen University,central,,
 keiwa-c.ac.jp,3,ror,Keiwa College,central,,
 kenko-fukushi.ac.jp,3,ror,Osaka College of Social Health and Welfare,central,,
@@ -2044,55 +2531,74 @@ kenkoudai.ac.jp,3,ror,Health Science University,central,,
 kgwu.ac.jp,3,ror,Kawamura Gakuen Women's University,central,,
 kic.ac.jp,3,ror,Kobe Institute Of Computing,central,,
 kier.kyoto-u.ac.jp,3,ror,"Kyoto Institute of Economic Research, Kyoto University",central,,
+kiis.ac.jp,3,ror,Kyushu Institute of Information Sciences,central,,
 kindai.ac.jp,3,ror,Kindai University Junior College Division,central,,
 kinjo-u.ac.jp,3,ror,Kinjo Gakuin University,central,,
 kinjo.ac.jp,3,ror,Kinjo University,central,,
 kinran.ac.jp,3,ror,Senri Kinran University,central,,
+kinwu.ac.jp,3,ror,Kobe University of Future Health Sciences,central,,
 kio.ac.jp,3,ror,Kio University,central,,
 kiryu-u.ac.jp,3,ror,Kiryu University,central,,
 kisarazu.ac.jp,3,ror,"National Institute of Technology, Kisarazu College",central,,
 kitakami-fukushi.ac.jp,3,ror,Senshu University Kitakami welfare education technical school,central,,
-kitasato-u.ac.jp,3,ror,Kitasato University,central,,
+kitakyu-u.ac.jp,3,ror,The University of Kitakyushu,central,,
 kiu.ac.jp,3,ror,Kyushu International University,central,,
 kiui.jp,3,ror,Kibi International University,central,,
 kjc.ac.jp,3,ror,Kagawa Junior College,central,,
 kjc.kindai.ac.jp,3,ror,Kyushu Junior College of Kindai University,central,,
 kki.ac.jp,3,ror,Kansai University of Nursing and Health Sciences,central,,
+klc.ac.jp,3,ror,Kyushu Lutheran College,central,,
 kmu.ac.jp,3,ror,Kansai Medical University,central,,
+knwu.ac.jp,3,ror,Kyushu Nutrition Welfare University,central,,
+ko-ken-k3.ac.jp,3,ror,University of Kochi Health Sciences,central,,
 kobe-c.ac.jp,3,ror,Kobe College,central,,
+kobe-ccn.ac.jp,3,ror,Kobe City College of Nursing,central,,
 kobe-cufs.ac.jp,3,ror,Kobe City University of Foreign Studies,central,,
 kobe-kiu.ac.jp,3,ror,Kobe International University,central,,
+kobe-oukoku.com,3,academia,Kobe Animal Kingdom,,,
 kobe-shinwa.ac.jp,3,ror,Kobe Shinwa Women's University,central,,
 kobe-tokiwa.ac.jp,3,ror,Kobe Tokiwa University,central,,
 kobe-yamate.ac.jp,3,ror,Kobe Yamate University,central,,
+kobegakuin.ac.jp,3,ror,Kobe Gakuin University,central,,
+kobeherb.com,3,academia,Nunobiki Herb Garden,,,
+kochi-ct.ac.jp,3,ror,"National Institute of Technology, Kochi College",central,,
 kochi-gc.ac.jp,3,ror,Kochi Gakuen College,central,,
 kochi-gu.ac.jp,3,ror,Kochi Gakuen University,central,,
+kochi-tech.ac.jp,3,ror,Kochi University of Technology,central,,
 kochi-u.ac.jp,3,ror,Kōchi University,central,,
 kodai2-h.ed.jp,3,ror,Hachinohe Kodai2 High School,central,,
 kodomo.senzoku.ac.jp,3,ror,Senzoku Junior College of Childhood Education,central,,
+koeki-u.ac.jp,3,ror,Tohoku University of Community Service and Science,central,,
 kogakkan-u.ac.jp,3,ror,Kogakkan University,central,,
 kogakuin.ac.jp,3,ror,Kogakuin University,central,,
 koka.ac.jp,3,ror,Kyoto Koka Women's University,central,,
 kokugakuin-jc.ac.jp,3,ror,Kokugakuin Junior College,central,,
+kokugakuin.ac.jp,3,ror,Kokugakuin University,central,,
 kokugakuintochigi.ac.jp,3,ror,Kokugakuin Tochigi Junior College,central,,
 komajo.ac.jp,3,ror,Komazawa Women's University,central,,
 komatsu-c.ac.jp,3,ror,Komatsu College,central,,
 komatsu-u.ac.jp,3,ror,Komatsu University,central,,
+komazawa-u.ac.jp,3,ror,Komazawa University,central,,
+komine-labo.info,3,academia,Q116783534,,,
+konan-u.ac.jp,3,ror,Konan University,central,,
+konan-wu.ac.jp,3,ror,Konan Women's University,central,,
 konan.ac.jp,3,ror,Aichi Konan College,central,,
+konpon.com,3,academia,TOYOTA Konpon Research Institute,,,
 koran.ac.jp,3,ror,Koran Women's Junior College,central,,
 korea-u.ac.jp,3,ror,Korea University,central,,
-koriyama-kgc.ac.jp,3,ror,Koriyama Women's College,central,,
+koriyama-kgc.ac.jp,3,ror,Koriyama Women's University,central,,
 koshien-c.ac.jp,3,ror,Koshien Junior College,central,,
 koshien.ac.jp,3,ror,Koshien University,central,,
 kouku-dai.ac.jp,3,ror,Civil Aviation College,central,,
 koutoku.ac.jp,3,ror,Toyooka Junior College,central,,
+koyasan-u.ac.jp,3,ror,Koyasan University,central,,
 kpu-m.ac.jp,3,ror,Kyoto Prefectural University of Medicine,central,,
 kpu.ac.jp,3,ror,Kyoto Prefectural University,central,,
 kpur.ac.jp,3,ror,Kochi Professional University of Rehabilitation,central,,
 ksu.ac.jp,3,ror,Sakuyo Junior College,central,,
 ktc.ac.jp,3,ror,Kindai University Technical College,central,,
-ktt.ac.jp,3,ror,Tsukuba International Junior College,central,,
-kufs.ac.jp,3,ror,Kyoto University of Foreign Studies,central,,
+ktt.ac.jp,3,ror,Tsukuba International University,central,,
+kuas.ac.jp,3,ror,Kyoto University of Advanced Science,central,,
 kuhs.ac.jp,3,ror,Kanagawa University of Human Services,central,,
 kuins.ac.jp,3,ror,Kansai University of International Studies,central,,
 kumagaku.ac.jp,3,ror,Kumamoto Gakuen University,central,,
@@ -2101,20 +2607,27 @@ kumamoto-nct.ac.jp,3,ror,"National Institute of Technology, Kumamoto College",ce
 kumamoto-pct.ac.jp,3,ror,Kumamoto Prefectural College of Technology,central,,
 kumamoto-u.ac.jp,3,ror,Kumamoto University,central,,
 kunitachi.ac.jp,3,ror,Kunitachi College of Music,central,,
+kuragaikepark.com,3,academia,Kuragaike Park,,,
 kurashiki-cu.ac.jp,3,ror,Kurashiki City College,central,,
+kure-nct.ac.jp,3,ror,"National Institute of Technology, Kure College",central,,
+kuroshima.org,3,academia,"Sea Turtle Association of Japan, Kuroshima Research Station",,,
+kurume-it.ac.jp,3,ror,Kurume Institute of Technology,central,,
 kurume-nct.ac.jp,3,ror,"National Institute of Technology, Kurume College",central,,
 kurume-shinai.ac.jp,3,ror,Kurume Shin-Ai Women's College,central,,
+kusa.ac.jp,3,ror,Kurashiki University of Science and the Arts,central,,
 kushiro-ct.ac.jp,3,ror,"National Institute of Technology, Kushiro College",central,,
 kushiro-pu.ac.jp,3,ror,Kushiro Public University of Economics,central,,
 kusw.ac.jp,3,ror,Kansai University of Social Welfare,central,,
 kwansei.ac.jp,3,ror,Kwansei Gakuin University,central,,
+kwassui-int.ac.jp,3,ror,Kwassui Women's University,central,,
 kwc.ac.jp,3,ror,Kansai Women's College,central,,
-kwuc.ac.jp,3,ror,Kyushu Women's Junior College,central,,
+kwuc.ac.jp,3,ror,Kyushu Women's University,central,,
 kyoai.ac.jp,3,ror,Maebashi Kyoai Gakuen College,central,,
 kyobi.ac.jp,3,ror,Kyoto Arts and Crafts University,central,,
 kyoei.ac.jp,3,ror,Kyoei University,central,,
 kyoiku-u.jp,3,ror,Japan Graduate School of Education University,central,,
 kyokyo-u.ac.jp,3,ror,Kyoto University of Education,central,,
+kyorin-u.ac.jp,3,ror,Kyorin University,central,,
 kyoritsu-wu.ac.jp,3,ror,Kyoritsu Women's University,central,,
 kyoto-art.ac.jp,3,ror,Kyoto University of Art and Design,central,,
 kyoto-econ.ac.jp,3,ror,Kyoto College of Economics,central,,
@@ -2122,13 +2635,17 @@ kyoto-msc.jp,3,ror,Kyoto College of Medical Science,central,,
 kyoto-phu.ac.jp,3,ror,Kyoto Pharmaceutical University,central,,
 kyoto-saga.ac.jp,3,ror,Kyoto Saga University of Arts,central,,
 kyoto-seika.ac.jp,3,ror,Kyoto Seika University,central,,
+kyoto-su.ac.jp,3,ror,Kyoto Sangyo University,central,,
 kyoto-wu.ac.jp,3,ror,Kyoto Women's University,central,,
 kyoto.cseas.kyoto-u.ac.jp,3,ror,"Center for Southeast Asian Studies, Kyoto University",central,,
 kyotoiu.ac.jp,3,ror,Kyoto International University,central,,
 kyotokacho-u.ac.jp,3,ror,Kyoto Kacho University,central,,
 kyowa-u.ac.jp,3,ror,Utsunomiya Kyowa University,central,,
 kyu-dent.ac.jp,3,ror,Kyushu Dental University,central,,
+kyukyo-u.ac.jp,3,ror,Kyushu Kyoritsu University,central,,
+kyusan-u.ac.jp,3,ror,Kyushu Sangyo University,central,,
 kyushu-ns.ac.jp,3,ror,Kyushu University of Nursing and Social Welfare,central,,
+kyushu-u.ac.jp,3,ror,Kyushu University,central,,
 kyushuotani.ac.jp,3,ror,Kyushu Otani Junior College,central,,
 kyutech.ac.jp,3,ror,Kyushu Institute of Technology,central,,
 lec.ac.jp,3,ror,LEC Tokyo Legal Mind University,central,,
@@ -2136,58 +2653,88 @@ lesothotokyo.com,3,wikidata,"Embassy of Lesotho, Tokyo",central,200,none
 liberianembassyjp.org,3,wikidata,"Embassy of Liberia, Tokyo",central,200,none
 luce.aoyama.ac.jp,3,ror,Aoyama Gakuin Women's Junior College,central,,
 luther.ac.jp,3,ror,Japan Lutheran College,central,,
+maibun.net,3,academia,Niigata Prefecture Archaeological Research Center,central-1,,
 maizuru-ct.ac.jp,3,ror,"National Institute of Technology, Maizuru College",central,,
 malawiembassy.org,3,wikidata,Embassy of the Republic of Malawi in Japan,central,ConnectException,none
+manreki.com,3,academia,Takaoka Manyō Historical Museum,,,
 marianna-u.ac.jp,3,ror,St. Marianna University School of Medicine,central,,
+maruta-no-mori.com,3,academia,Man'yō Botanical Garden (Minamiashigara),,,
 matsue-ct.jp,3,ror,"National Institute of Technology, Matsue College",central,,
 matsumoto-u.ac.jp,3,ror,Matsumoto University Matsusho Junior College,central,,
 matsutan.jp,3,ror,Matsumoto Junior College,central,,
 matsuyama-u.ac.jp,3,ror,Matsuyama University,central,,
+mba-en.jigyo.ac.jp,3,ror,Graduate Institute for Entrepreneurial Studies,central,,
+mcn.ac.jp,3,ror,Mie Prefectural College Of Nursing,central,,
 mcon.ac.jp,3,ror,Matsumoto College of Nursing,central,,
+mdu.ac.jp,3,ror,Matsumoto Dental University,central,,
 med.kindai.ac.jp,3,ror,Kindai University Nara Hospital,central,,
-meiji-u.ac.jp,3,ror,Meiji University of Integrative Medicine,central,,
 meiji.ac.jp,3,ror,Meiji University,central,,
 meijigakuin.ac.jp,3,ror,Meiji Gakuin University,central,,
+meijo-u.ac.jp,3,ror,Meijo University,central,,
 meikai.ac.jp,3,ror,Meikai University,central,,
+meio-u.ac.jp,3,ror,Meio University,central,,
 meion.ac.jp,3,ror,Nagoya College of Music,central,,
 meirin-c.ac.jp,3,ror,Meirin College,central,,
+meisei-u.ac.jp,3,ror,Meisei University,central,,
+meitan.ac.jp,3,ror,Imabari Meitoku Junior College,central,,
 mejiro.ac.jp,3,ror,Mejiro University College,central,,
 mfa.bg,3,wikidata,"Embassy of Bulgaria, Tokyo",central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,"Embassy of Greece, Tokyo",central,403,10 mailhost.mfa.gr.
 mgu.ac.jp,3,ror,Miyagi Gakuin Women's University,central,,
+mic.ac.jp,3,ror,Miyazaki International College,central,,
+midorigaoka.ac.jp,3,ror,Kushiro Junior College,central,,
+midoriplaza.com,3,academia,Aramaki Rose Park,,,
 mimasaka.jp,3,ror,Mimasaka University,central,,
 min.ac.jp,3,ror,Minobusan University,central,,
 minatogawa.ac.jp,3,ror,Minatogawa College,central,,
+minken1975.com,3,academia,Q11525935,,,
 mishima.ac.jp,3,ror,Tohoku Seikatsu Bunka University,central,,
 misono-jc.ac.jp,3,ror,Misono Gakuen Junior College,central,,
+mito-botanical-park.com,3,academia,Mito Botanical Park,,,
 miyagi-seishin.ac.jp,3,ror,Miyagi Seishin Junior College,central,,
 miyakonojo-nct.ac.jp,3,ror,"National Institute of Technology, Miyakonojo College",central,,
+miyasankei-u.ac.jp,3,ror,Miyazaki Sangyo-keiei University,central,,
 miyazaki-u.ac.jp,3,ror,University of Miyazaki,central,,
 mizobe.ac.jp,3,ror,Beppu Mizobe Gakuen College,central,,
 mizuho-c.ac.jp,3,ror,Aichi Mizuho Junior College,central,,
 mkjc.ac.jp,3,ror,Minami Kyushu Junior College,central,,
+moo946.com,3,academia,Kushiro Fisherman's Wharf MOO,,,
+morino-kuzu.com,3,academia,Morino Medicinal Herb Garden,,,
 morinomiya-u.ac.jp,3,ror,Morinomiya University of Medical Sciences,central,,
+morioka-u.ac.jp,3,ror,Morioka University,central,,
+moriyama-bunkazai.org,3,academia,Moriyama City Archaeological Culture Center,,,
 mpd.ac.jp,3,ror,The Graduate School of Project Design,central,,
+mpu.ac.jp,3,ror,Miyazaki Prefectural Nursing University,central,,
 mukogawa-u.ac.jp,3,ror,Mukogawa Women's University,central,,
+musabi.ac.jp,3,ror,Musashino Art University,central,,
 musashi-jc.ac.jp,3,ror,Hokkaido Musashi Women's Junior College,central,,
 musashi.ac.jp,3,ror,Musashi University,central,,
 musashigaoka.ac.jp,3,ror,Musashigaoka College,central,,
 musashino-music.ac.jp,3,ror,Musashino Academia Musicae,central,,
+musashino-u.ac.jp,3,ror,Musashino University,central,,
 musashino.ac.jp,3,ror,Musashino Junior College,central,,
 mwjc.ac.jp,3,ror,Miyazaki Gakuen Junior College,central,,
 my-pharm.ac.jp,3,ror,Meiji Pharmaceutical University,central,,
 myanmar-embassy-tokyo.net,3,wikidata,"Embassy of Myanmar, Tokyo",central,301,none
+myu.ac.jp,3,ror,Miyagi University,central,,
 mzv.sk,3,wikidata,"Embassy of Slovakia, Tokyo",central,301,none
+n-fukushi.ac.jp,3,ror,Nihon Fukushi University,central,,
+n-junshin.ac.jp,3,ror,Nagasaki Junshin Catholic University,central,,
 n-seiryo.ac.jp,3,ror,Niigata Seiryo WOMEN'S Junior College,central,,
 n.fdcnet.ac.jp,3,ror,Fukuoka Nursing College,central,,
 nafu.ac.jp,3,ror,Niigata Agro-Food University,central,,
 nagahama-i-bio.ac.jp,3,ror,Nagahama Institute of Bio-Science and Technology,central,,
+nagano-nct.ac.jp,3,ror,"National Institute of Technology, Nagano College",central,,
+nagano-nurs.ac.jp,3,ror,Nagano College of Nursing,central,,
 naganojc.ac.jp,3,ror,Nagano Junior College,central,,
 nagaoka-id.ac.jp,3,ror,Nagaoka Institute of Design,central,,
 nagaokauniv.ac.jp,3,ror,Nagaoka University,central,,
+nagasaki-gaigo.ac.jp,3,ror,Nagasaki University of Foreign Studies,central,,
 nagasaki-joshi.ac.jp,3,ror,Nagasaki Women's Junior College,central,,
 nagoya-aoi.ac.jp,3,ror,College of Nagoya Women's University,central,,
-nagoya-bunri.ac.jp,3,ror,College of Nagoya Bunri University,central,,
+nagoya-bunri.ac.jp,3,ror,Nagoya Bunri University,central,,
+nagoya-cu.ac.jp,3,ror,Nagoya City University,central,,
+nagoya-ku.ac.jp,3,ror,Nagoya Keizai University,central,,
 nagoya-su.ac.jp,3,ror,Nagoya Sangyo University,central,,
 nagoya-wu.ac.jp,3,ror,Nagoya Women's University,central,,
 nagoya.china-consulate.org,3,wikidata,"Consulate-General of China, Nagoya",central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nagoya.china-consulate.org found.,none
@@ -2195,7 +2742,9 @@ nagoyacollege.ac.jp,3,ror,Nagoya College,central,,
 naist.jp,3,ror,Nara Institute of Science and Technology,central,,
 nakamura-u.ac.jp,3,ror,Nakamura Gakuen University Junior College,central,,
 nakanihon.ac.jp,3,ror,Nakanihon Automotive College,central,,
+nankyudai.ac.jp,3,ror,Minami Kyushu University,central,,
 nanzan-u.ac.jp,3,ror,Nanzan University,central,,
+nara-k.ac.jp,3,ror,"National Institute of Technology, Nara College",central,,
 nara-u.ac.jp,3,ror,Nara University,central,,
 naragakuen-u.jp,3,ror,Naragakuen University,central,,
 naragei.ac.jp,3,ror,Nara Junior College of Fine Arts,central,,
@@ -2204,8 +2753,10 @@ narasaho-c.ac.jp,3,ror,Nara Saho College,central,,
 naruto-u.ac.jp,3,ror,Naruto University of Education,central,,
 nau.ac.jp,3,ror,North Asia University,central,,
 nayoro.ac.jp,3,ror,Nayoro City University,central,,
+nbu.ac.jp,3,ror,Nippon Bunri University,central,,
 nc-toyama.ac.jp,3,ror,"National Institute of Technology, Toyama College",central,,
 ncn.ac.jp,3,ror,National College Of Nursing,central,,
+nd-initiative.org,3,academia,New Diplomacy Initiative,,,
 ndsu.ac.jp,3,ror,Notre Dame Seishin University,central,,
 ndu.ac.jp,3,ror,Nippon Dental University,central,,
 nebuta.ac.jp,3,ror,Aomori Public University,central,,
@@ -2213,17 +2764,22 @@ newton.ac.jp,3,ror,Biwako Gakuin University,central,,
 ngt.ndu.ac.jp,3,ror,The Nippon Dental University College at Niigata,central,,
 ngu.jp,3,ror,Nagoya Gakuin University,central,,
 nias.ac.jp,3,ror,Nagasaki Institute of Applied Science,central,,
-nichiyaku.ac.jp,3,ror,Nihon Pharmaceutical University,central,,
+nifs-k.ac.jp,3,ror,National Institute of Fitness and Sports in Kanoya,central,,
 nihon-u.ac.jp,3,ror,Nihon University,central,,
 nihonbunka-u.ac.jp,3,ror,Nihon Bunka University,central,,
 nihonwellness.jp,3,ror,Nihon Wellness Sports University,central,,
 niigata-cn.ac.jp,3,ror,Niigata College of Nursing,central,,
+niigata-ct.ac.jp,3,ror,Niigata College of Technology,central,,
 niigata.china-consulate.org,3,wikidata,"Consulate-General of China, Niigata",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+niigatachuoh-jc.ac.jp,3,ror,Niigata Chuoh Junior College,central,,
 niigataum.ac.jp,3,ror,Niigata University of Management,central,,
+niihama-nct.ac.jp,3,ror,"National Institute of Technology, Niihama College",central,,
 niimi-u.ac.jp,3,ror,Niimi University,central,,
 niit.ac.jp,3,ror,Niigata Institute of Technology,central,,
 niitan.jp,3,ror,Niijima Gakuen Junior College,central,,
+nims.ac.jp,3,ror,Nihon Institute of Medical Science,central,,
 nishitan.ac.jp,3,ror,Nishi-Nippon Junior College,central,,
+nishogakusha-u.ac.jp,3,ror,Nishogakusha University,central,,
 nisikyu-u.ac.jp,3,ror,Nishikyushu University Junior College,central,,
 nit.ac.jp,3,ror,Nippon Institute of Technology,central,,
 nitobebunka.jp,3,ror,Nitobe Bunka College,central,,
@@ -2231,17 +2787,22 @@ nittai.ac.jp,3,ror,Nippon Sport Science University,central,,
 njc.ac.jp,3,ror,Nagasaki Junior College,central,,
 nkjc.jp,3,ror,Nakakyusyu Junior College,central,,
 norway.no,3,wikidata,"Embassy of Norway, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,0 mx.domeneshop.no.
+notorannokuni.com,3,academia,Noto Orchid Land,,,
 notredame.ac.jp,3,ror,Kyoto Notre Dame University,central,,
 ns.fukujo.ac.jp,3,ror,Fukuoka Jo Gakuin Nursing University,central,,
 ns2.rchokkaido-cn.ac.jp,3,ror,Japanese Red Cross Hokkaido College of Nursing,central,,
 nsu.ac.jp,3,ror,Niigata Sangyo University,central,,
+ntu.ac.jp,3,ror,Teikyo University of Science,central,,
 nua.ac.jp,3,ror,Nagoya University of Arts,central,,
 nuas.ac.jp,3,ror,Nagoya University of Arts and Sciences,central,,
 nucba.ac.jp,3,ror,Nagoya University of Commerce and Business,central,,
 nufs.ac.jp,3,ror,Nagoya University of Foreign Studies,central,,
+nuhw.ac.jp,3,ror,Niigata University of Health and Welfare,central,,
 nuis.ac.jp,3,ror,Niigata University of International and Information Studies,central,,
+nukada.jimdoweb.com,3,academia,The Nukada Institute for Medical and Biological Research,,,
 numazu-ct.ac.jp,3,ror,"National Institute of Technology, Numazu College",central,,
 nupals.ac.jp,3,ror,Niigata University of Pharmacy and Medical and Life Sciences,central,,
+nur.ac.jp,3,ror,Niigata University of Rehabilitation,central,,
 nvlu.ac.jp,3,ror,Nippon Veterinary and Life Science University,central,,
 nzu.ac.jp,3,ror,Nagoya Zokei University,central,,
 o-hara.ac.jp,3,ror,Ohara Graduate School of Business,central,,
@@ -2250,13 +2811,16 @@ obirin.ac.jp,3,ror,J. F. Oberlin University,central,,
 occ.ac.jp,3,ror,Osaka Christian College,central,,
 ocjc.ac.jp,3,ror,Okinawa Christian University,central,,
 ocm.osaka,3,wikidata,Administrative Agency for Osaka City Museums,,200,0 ocm.osaka.
+odawara.ac.jp,3,ror,Odawara Women's Junior College,central,,
+ogaki-tandai.ac.jp,3,ror,Ogaki Women's College,central,,
 ogu.ac.jp,3,ror,Osaka Gakuin University,central,,
 ohkagakuen-u.ac.jp,3,ror,Ohkagakuen University,central,,
 ohs.ac.jp,3,ror,Osaka University of Human Sciences,central,,
 ohsu.ac.jp,3,ror,Osaka Health Science University,central,,
 ohtsuki.ac.jp,3,ror,Ohtsuki City College,central,,
 ohu-u.ac.jp,3,ror,Ohu University,central,,
-oist.jp,3,ror,Okinawa Institute of Science and Technology Graduate University,central,,
+oit.ac.jp,3,ror,Osaka Institute of Technology,central,,
+oita-ct.ac.jp,3,ror,"National Institute of Technology, Oita College",central,,
 oita-nhs.ac.jp,3,ror,Oita University of Nursing and Health Sciences,central,,
 oita-pjc.ac.jp,3,ror,Oita Prefectural College of Arts and Culture,central,,
 oita-u.ac.jp,3,ror,Oita University,central,,
@@ -2264,11 +2828,15 @@ oiu.ac.jp,3,ror,Osaka International University,central,,
 ojika.net,3,wikidata,Ojika,,HttpConnectTimeoutException: HTTP connect timed out,none
 oka-pu.ac.jp,3,ror,Okayama Prefectural University,central,,
 okayama-u.ac.jp,3,ror,Okayama University,central,,
+okazaki-c.ac.jp,3,ror,Okazaki Womens Junior College,central,,
+okazaki-u.ac.jp,3,ror,Okazaki Womens University,central,,
 okigei.ac.jp,3,ror,Okinawa Prefectural University of Arts,central,,
 okinawa-nurs.ac.jp,3,ror,Okinawa Prefectural College of Nursing,central,,
 okinawa-u.ac.jp,3,ror,Okinawa University,central,,
-ompu.ac.jp,3,ror,Osaka Medical and Pharmaceutical University,central,,
+okiu.ac.jp,3,ror,Okinawa International University,central,,
+onkyo-lab.com,3,academia,"Japan Acoustic Research Institute Co., Ltd.",,,
 onomichi-u.ac.jp,3,ror,Onomichi City University,central,,
+oojc.ac.jp,3,ror,Obihiro Otani Junior College,central,,
 opu.ac.jp,3,ror,Okayama Healthcare Professional University,central,,
 orandatowatashi.nl,3,wikidata,"Embassy of the Netherlands, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 orioaishin.ac.jp,3,ror,Orio Aishin Junior College,central,,
@@ -2282,6 +2850,7 @@ osaka-sandai.ac.jp,3,ror,Osaka Sangyo University,central,,
 osaka-shinai.ac.jp,3,ror,Osaka Shin-ai College,central,,
 osaka-shoin.ac.jp,3,ror,Osaka Shoin Women's University,central,,
 osaka-tokiwakai.ac.jp,3,ror,Osaka Tokiwakai Junior College,central,,
+osaka-ue.ac.jp,3,ror,Osaka University of Economics,central,,
 osakac.ac.jp,3,ror,Osaka Electro-Communication University,central,,
 osgu.ac.jp,3,ror,Osaka Shin-Ai Gakuin University,central,,
 oshika.u-shizuoka-ken.ac.jp,3,ror,University of Shizuoka Junior College,central,,
@@ -2289,7 +2858,8 @@ oshima-k.ac.jp,3,ror,"National Institute of Technology, Oshima College",central,
 osu-h.ed.jp,3,ror,Okayama University of Commerce Attached high School,central,,
 osu.ac.jp,3,ror,Okayama Shoka University,central,,
 otakanomori-hp.com,3,wikidata,Otakanomori Hospital,,HttpConnectTimeoutException: HTTP connect timed out,none
-otemae.ac.jp,3,ror,Otemae University,central,,
+otani.ac.jp,3,ror,Ōtani University,central,,
+otemon.ac.jp,3,ror,Otemon Gakuin University,central,,
 otsuma.ac.jp,3,ror,Otsuma Women's University,central,,
 ouc.daishodai.ac.jp,3,ror,Osaka University of Commerce,central,,
 ouhs.jp,3,ror,Osaka University of Health and Sport Sciences,central,,
@@ -2300,9 +2870,14 @@ owjc.ac.jp,3,ror,Okinawa Womens Junior College,central,,
 oyama-ct.ac.jp,3,ror,"National Institute of Technology, Oyama College",central,,
 oyg.ac.jp,3,ror,Osaka Yuhigaoka Gakuen Junior College,central,,
 palembjp.org,3,wikidata,General Mission of Palestine in Japan,central,HttpConnectTimeoutException: HTTP connect timed out,none
+park-tochigi.com,3,academia,Mikamo Man'yō Garden,,,
+paz.ac.jp,3,ror,Gumma Paz College,central,,
 pc.yamazaki.ac.jp,3,ror,Yamazaki Professional College of Animal Health Technology,central,,
+phoenix.ac.jp,3,ror,Kyushu University of Medical Science,central,,
 piif.ac.jp,3,ror,Professional Institute of International Fashion,central,,
+pit-nagano.ac.jp,3,ror,Nagano Prefectural Institute of Technology,central,,
 poole.ac.jp,3,ror,Poole Gakuin University,central,,
+portal.issn.org,3,academia,Ningen Shakai Kankyō Kagaku Kenkyūka,,,
 pref.akita.gsl-service.net,3,wikidata,Akita Prefectural Assembly,central-1,200,none
 pro.otemae.ac.jp,3,ror,Otemae College of Nutrition,central,,
 pu-hiroshima.ac.jp,3,ror,Prefectural University of Hiroshima,central,,
@@ -2310,32 +2885,46 @@ pu-kumamoto.ac.jp,3,ror,Prefectural University of Kumamoto,central,,
 pu-toyama.ac.jp,3,ror,Toyama Prefectural University,central,,
 rakuno.ac.jp,3,ror,Rakuno Gakuen University,central,,
 rcakita.ac.jp,3,ror,The Japanese Red Cross Junior College of Akita,central,,
+rctoyota.ac.jp,3,ror,Japanese Red Cross Toyota College of Nursing,central,,
 redcross.ac.jp,3,ror,Japanese Red Cross College of Nursing,central,,
 reitaku-u.ac.jp,3,ror,Reitaku University,central,,
 rhs-u.ac.jp,3,ror,Reiwa Health Sciences University,central,,
+ric-rose.com,3,academia,Q65231005,,,
 rikkyo.ac.jp,3,ror,Rikkyo University,central,,
 ris.ac.jp,3,ror,Rissho University,central,,
-ritsumei.ac.jp,3,ror,Ritsumeikan University,central,,
+rit.rakuten.com,3,academia,Rakuten Institute of Technology,,,
 rku.ac.jp,3,ror,Ryutsu Keizai University,central,,
+rokkosan.com,3,academia,Rokko Alpine Botanical Garden,,,
+rri.kyoto-u.ac.jp,3,ror,"Institute for Integrated Radiation and Nuclear Science, Kyoto University",central,,
 rsm-giappone.com,3,wikidata,"Embassy of San Marino, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
+ryokuiku.net,3,academia,Chausuyama Natural Botanical Gardens,,,
 ryujo-u.ac.jp,3,ror,Nagoya Ryujo Women's University,central,,
 ryukoku.ac.jp,3,ror,Ryukoku University,central,,
 s-bunkyo.ac.jp,3,ror,Shiga Bunkyo Junior College,central,,
 s-sph.ac.jp,3,ror,Shizuoka Graduate University of Public Health,central,,
 saga-u.ac.jp,3,ror,Saga University,central,,
 sagami-wu.ac.jp,3,ror,Sagami Women's University,central,,
+sai-junshin.ac.jp,3,ror,Saitama Junshin Junior College,central,,
 saigaku.ac.jp,3,ror,Saitama Gakuen University,central,,
 saijo.ac.jp,3,ror,Saitama Women's Junior College,central,,
 saitama-med.ac.jp,3,ror,Saitama Medical University,central,,
 saitamatoho.ac.jp,3,ror,Saitama Toho Junior College,central,,
+sakaijoshi.ac.jp,3,ror,Sakai Women's Junior College,central,,
 saku.ac.jp,3,ror,Shinshu Junior College,central,,
+sakuranoseibo.jp,3,ror,Sakura no Seibo Junior College,central,,
 sakushin-u.ac.jp,3,ror,Sakushin Gakuin University Women's College,central,,
+salesio-sp.ac.jp,3,ror,Salesian Polytechnic,central,,
+sangitan.ac.jp,3,ror,College of Industrial Technology,central,,
 saniku.ac.jp,3,ror,Saniku Gakuin College,central,,
 sanjo-u.ac.jp,3,ror,Sanjo City University,central,,
 sanno.ac.jp,3,ror,Sanno University,central,,
+sanotan.jp,3,ror,Sano Nihon University College,central,,
+sanyo.ac.jp,3,ror,Sanyo Women's College,central,,
 sapporo-hokeniryou-u.ac.jp,3,ror,Sapporo University of Health Sciences,central,,
 sapporo-otani.ac.jp,3,ror,Sapporo Ōtani University,central,,
 sapporo-u.ac.jp,3,ror,Sapporo University,central,,
+sasaki-institute.org,3,academia,Sasaki Institute,,,
+sasebo.ac.jp,3,ror,"National Institute of Technology, Sasebo College",central,,
 sbctmu.ac.jp,3,ror,SBC Tokyo Medical University,central,,
 sbi-u.ac.jp,3,ror,SBI Graduate School,central,,
 sc.kgef.ac.jp,3,ror,Kokusai Gakuin Saitama Junior College,central,,
@@ -2344,11 +2933,15 @@ seian.ac.jp,3,ror,Seian University of Art and Design,central,,
 seibi.ac.jp,3,ror,Seibi Gakuen College,central,,
 seigakuin.jp,3,ror,Seigakuin University,central,,
 seijoh-u.ac.jp,3,ror,Seijoh University,central,,
+seika.ac.jp,3,ror,Seika Women's Junior College,central,,
 seikei.ac.jp,3,ror,Seikei University,central,,
+seinan-gu.ac.jp,3,ror,Seinan Gakuin University,central,,
 seinan-jo.ac.jp,3,ror,Seinan Jo Gakuin University Junior College,central,,
+seirei-wjc.ac.jp,3,ror,Seirei Women's Junior College,central,,
 seirei.ac.jp,3,ror,Seirei Christopher University,central,,
 seiryo-u.ac.jp,3,ror,Kanazawa Seiryo University Women's Junior College,central,,
 seisa.ac.jp,3,ror,Seisa University,central,,
+seisadohto.ac.jp,3,ror,Seisa Dohto University,central,,
 seisen-u.ac.jp,3,ror,Seisen University,central,,
 seisen.ac.jp,3,ror,Seisen University,central,,
 seitoku-u.ac.jp,3,ror,Seitoku University Junior College,central,,
@@ -2357,12 +2950,14 @@ seiwa-jc.ac.jp,3,ror,Seiwa University Junior College,central,,
 seiwa-univ.ac.jp,3,ror,Seiwa University,central,,
 seiwa.ac.jp,3,ror,Seiwa Gakuen College,central,,
 seiyogakuin.ac.jp,3,ror,Sendai Seiyo Gakuin University,central,,
+seizan.ac.jp,3,ror,Kyoto Seizan College,central,,
+sekai-tsutsuji.center,3,academia,Kurume-shi Azalea Center,,,
 senambatok.org,3,wikidata,"Embassy of Senegal, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 sendai-akamon.ac.jp,3,ror,Sendai Akamon College,central,,
 sendai-shirayuri.ac.jp,3,ror,Sendai Shirayuri Women's College,central,,
-sendaidaigaku.jp,3,ror,Sendai University,central,,
 senshu-u.ac.jp,3,ror,Senshu University,central,,
-setsunan.ac.jp,3,ror,Setsunan University,central,,
+senzoku.ac.jp,3,ror,Senzoku Gakuen College of Music,central,,
+sesoken.com,3,academia,The Institute for Global Strategy,,,
 sfc.keio.ac.jp,3,ror,Keio University Shonan Fujisawa,central,,
 sg-u.ac.jp,3,ror,Shikoku Gakuin University,central,,
 sgk.ac.jp,3,ror,Shigakkan University,central,,
@@ -2370,18 +2965,21 @@ sgu.ac.jp,3,ror,Sapporo Gakuin University,central,,
 sguc.ac.jp,3,ror,Sanyo Gakuen University,central,,
 shibaura-it.ac.jp,3,ror,Shibaura Institute of Technology,central,,
 shibetsu119.com,3,wikidata,Q22130075,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+shiga-med.ac.jp,3,ror,Shiga University of Medical Science,central,,
 shiga-u.ac.jp,3,ror,Shiga University,central,,
 shigakukan.ac.jp,3,ror,Shigakukan University,central,,
 shikoku-u.ac.jp,3,ror,"Shikoku University, Junior College",central,,
+shimizu-kouen.com,3,academia,Shimizu Park,,,
 shimonoseki-cu.ac.jp,3,ror,Shimonoseki City University,central,,
 shimotan.jp,3,ror,Shimonoseki Junior College,central,,
 shinai-u.ac.jp,3,ror,Wakayama Shin-Ai Women's Junior College,central,,
+shiranoe.com,3,academia,Shiranoe Botanical Gardens,,,
 shirayuri.ac.jp,3,ror,Shirayuri University,central,,
 shiseikan.ac.jp,3,ror,Shiseikan University,central,,
 shitennoji.ac.jp,3,ror,Shitennoji University Junior College,central,,
-shizenkan.ac.jp,3,ror,Shizenkan University,central,,
+shitoku.ac.jp,3,ror,Nagano University of Health and Medicine,central,,
 shizuoka-eiwa.ac.jp,3,ror,Shizuoka Eiwa Gakuin University Junior College,central,,
-shizuoka-norin-u.ac.jp,3,ror,Shizuoka Professional University Junior College of Agriculture,central,,
+shizuoka-norin-u.ac.jp,3,ror,Shizuoka Professional University of Agriculture,central,,
 shizuoka.ac.jp,3,ror,Shizuoka University,central,,
 shk-ac.jp,3,ror,Higashi Nippon International University,central,,
 shobi-u.ac.jp,3,ror,Shobi University,central,,
@@ -2390,17 +2988,22 @@ shogen.ac.jp,3,ror,Shogen Junior College,central,,
 shohoku.ac.jp,3,ror,Shohoku College,central,,
 shoin-u.ac.jp,3,ror,Shoin University,central,,
 shoin.ac.jp,3,ror,Kobe Shoin Women's University,central,,
-shokei-gakuen.ac.jp,3,ror,Shokei College,central,,
+shokei-gakuen.ac.jp,3,ror,Shokei University Junior College,central,,
+shokei.jp,3,ror,Shokei Gakuin University,central,,
 shoken-gakuen.jp,3,ror,Gunma University of Health and Welfare Two-year College Course,central,,
+shonan-it.ac.jp,3,ror,Shonan Institute of Technology,central,,
 shotoku.ac.jp,3,ror,Gifu Shotoku Gakuen University Junior College,central,,
 showa-u.ac.jp,3,ror,SHOWA Medical University,central,,
 showagakuin.ac.jp,3,ror,Showagakuin Junior College,central,,
 shubun.ac.jp,3,ror,Shubun University Junior College,central,,
 shuchiin.ac.jp,3,ror,Shuchiin University,central,,
 shudo-u.ac.jp,3,ror,Hiroshima Shudo University,central,,
+shujitsu.ac.jp,3,ror,Shujitsu University,central,,
 shuko.ac.jp,3,ror,Shuko Junior College,central,,
 shukugawa-c.ac.jp,3,ror,Kobe College of Education,central,,
+shukutoku.ac.jp,3,ror,Shukutoku University,central,,
 shumei-u.ac.jp,3,ror,Shumei University,central,,
+shunan-u.ac.jp,3,ror,Shunan University,central,,
 sist.ac.jp,3,ror,Shizuoka Institute of Science and Technology,central,,
 sit.ac.jp,3,ror,Saitama Institute of Technology,central,,
 sites.google.com,3,wikidata,Burkina Faso embassy in Tokyo,central,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -2416,7 +3019,9 @@ soka.ac.jp,3,ror,Soka Women's College,central,,
 sonoda-u.ac.jp,3,ror,Sonoda Women's University,central,,
 sophia.ac.jp,3,ror,Sophia University,central,,
 southsudanemb.tokyo,3,wikidata,"Embassy of South Sudan, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
-sozo.ac.jp,3,ror,Toyohashi SOZO Junior College,central,,
+sozo.ac.jp,3,ror,Toyohashi SOZO University,central,,
+spu.ac.jp,3,ror,Saitama Prefectural University,central,,
+ssri-j.com,3,academia,Security Strategy Research Institute of Japan,,,
 ssu.ac.jp,3,ror,Shizuoka Sangyo University,central,,
 st-mary.ac.jp,3,ror,St. Mary's College,central,,
 suac.ac.jp,3,ror,Shizuoka University of Art and Culture,central,,
@@ -2432,13 +3037,16 @@ suw.ac.jp,3,ror,Shizuoka University of Welfare,central,,
 suzuka-ct.ac.jp,3,ror,"National Institute of Technology, Suzuka College",central,,
 suzuka-iu.ac.jp,3,ror,Suzuka University,central,,
 suzuka-jc.ac.jp,3,ror,Suzuka Junior College,central,,
+suzuka-u.ac.jp,3,ror,Suzuka University of Medical Science,central,,
 swedenabroad.com,3,wikidata,"Embassy of Sweden, Tokyo",central,301,none
 t-bunkyo.ac.jp,3,ror,Tohoku Bunkyo Junior College,central,,
 t-bunkyo.jp,3,ror,Tohoku Bunkyo University,central,,
 t-fukushi.urayama.ac.jp,3,ror,Toyama College of Welfare Science,central,,
 t-junshin.ac.jp,3,ror,Tokyo Junshin University,central,,
 t-kougei.ac.jp,3,ror,Tokyo Polytechnic University,central,,
+tachibana-u.ac.jp,3,ror,Kyoto Tachibana University,central,,
 tais.ac.jp,3,ror,Taisho University,central,,
+taisei.ac.jp,3,ror,Ibaraki Womens Junior College,central,,
 takachiho.jp,3,ror,Takachiho University,central,,
 takada-jc.ac.jp,3,ror,Takada Junior College,central,,
 takamatsu-u.ac.jp,3,ror,Takamatsu University,central,,
@@ -2446,6 +3054,7 @@ takaoka.ac.jp,3,ror,Takaoka University of Law,central,,
 takara-univ.ac.jp,3,ror,Takarazuka University of Arts & Crafts,central,,
 takasaki-u.ac.jp,3,ror,Takasaki University of Health and Welfare,central,,
 takayamacollege.ac.jp,3,ror,Takayama College of Car Technology,central,,
+takeda.com,3,academia,Kyoto Medicinal Plant Garden,,,
 takushoku-hc.ac.jp,3,ror,Takushoku University Hokkaido Junior College,central,,
 takushoku-u.ac.jp,3,ror,Takushoku University,central,,
 tama.ac.jp,3,ror,Tama University,central,,
@@ -2455,23 +3064,28 @@ tandai.agu.ac.jp,3,ror,"Junior College, Aichi Gakuin University",central,,
 tandai.kdu.ac.jp,3,ror,Kanagawa Dental University Junior College,central,,
 tandai.koen.ac.jp,3,ror,Koen Gakuen Women's Junior College,central,,
 tandai.osaka-seikei.jp,3,ror,Osaka Seikei College,central,,
-tau.ac.jp,3,ror,Tokyo Ariake University of Medical and Health Sciences,central,,
 tbgu.ac.jp,3,ror,Tohoku Bunka Gakuen University,central,,
 tci.ac.jp,3,ror,Tokyo Christian University,central,,
 tcn.ac.jp,3,ror,Tottori College of Nursing,central,,
 tdc.ac.jp,3,ror,Tokyo Dental Junior College,central,,
 teikyo-gjc.ac.jp,3,ror,Teikyo Gakuen Junior College,central,,
 teikyo-jc.ac.jp,3,ror,Teikyo Junior College,central,,
-teikyo-u.ac.jp,3,ror,Teikyo University Junior College,central,,
+teikyo-mizonokuchi.jp,3,ror,"Teikyo University Hospital, Mizonokuchi",central,,
+teisei.ac.jp,3,ror,Teisei Gakuen Junior College,central,,
 tenri-u.ac.jp,3,ror,Tenri University,central,,
+tenriyorozu-u.ac.jp,3,ror,Tenri Health Care University,central,,
 tenshi.ac.jp,3,ror,Tenshi College,central,,
+tezuka-gu.ac.jp,3,ror,Tezukayama Gakuin University,central,,
 tezukayama-u.ac.jp,3,ror,Tezukayama University,central,,
 tfu.ac.jp,3,ror,Tohoku Fukushi University,central,,
 tgu.ac.jp,3,ror,Taisei Gakuin University,central,,
+thcu.ac.jp,3,ror,Tokyo Health Care University,central,,
 thers.ac.jp,3,ror,Tokai National Higher Education and Research System,central,,
 thu.ac.jp,3,ror,Teikyo Heisei University,central,,
 tid.ac.jp,3,ror,Tokyo Information Design Professional University,central,,
+tiu.ac.jp,3,ror,Tokyo International University,central,,
 tku.ac.jp,3,ror,Tokyo Keizai University,central,,
+tku.t-komazawa.ac.jp,3,ror,Tomakomai Komazawa University,central,,
 tky.ndu.ac.jp,3,ror,Nippon Dental University College at Tokyo,central,,
 toba-cmt.ac.jp,3,ror,"National Institute of Technology, Toba College",central,,
 toho-music.ac.jp,3,ror,Toho Junior College of Music,central,,
@@ -2479,15 +3093,20 @@ tohoku-gakuin.ac.jp,3,ror,Tohoku Gakuin University,central,,
 tohoku-mpu.ac.jp,3,ror,Tohoku Medical and Pharmaceutical University,central,,
 tohtech.ac.jp,3,ror,Tohoku Institute of Technology,central,,
 tohto.ac.jp,3,ror,Tohto College of Health Sciences,central,,
+toin.ac.jp,3,ror,Toin University of Yokohama,central,,
+toita.ac.jp,3,ror,Toita Women's College,central,,
 tokaigakuen-u.ac.jp,3,ror,Tokai Gakuen University,central,,
 tokaigakuin-u.ac.jp,3,ror,Tokai Gakuin University School of Junior College Division,central,,
-tokiwa.ac.jp,3,ror,Tokiwa Junior College,central,,
+tokiwa.ac.jp,3,ror,Tokiwa University,central,,
 toko.hosho.ac.jp,3,ror,Tokyo College of Transport Studies,central,,
-tokoha-u.ac.jp,3,ror,Tokoha Gakuen Junior College,central,,
+tokoha-u.ac.jp,3,ror,Tokoha University,central,,
+tokuco.ac.jp,3,ror,Tokushima College of Technology,central,,
 tokushima-u.ac.jp,3,ror,Tokushima University,central,,
 tokuyama.ac.jp,3,ror,"National Institute of Technology, Tokuyama College",central,,
+tokyo-ct.ac.jp,3,ror,"National Institute of Technology, Tokyo College",central,,
 tokyo-fukushi.ac.jp,3,ror,Tokyo University of Social Welfare,central,,
 tokyo-kasei.ac.jp,3,ror,Tokyo Kasei University,central,,
+tokyo-keitan.ac.jp,3,ror,Tokyo Management College,central,,
 tokyo-med.ac.jp,3,ror,Tokyo Medical University,central,,
 tokyo-ondai.ac.jp,3,ror,Tokyo College of Music,central,,
 tokyo.embassy.si,3,wikidata,"Embassy of Slovenia, Tokyo",central,SSLHandshakeException: Remote host terminated the handshake,none
@@ -2496,52 +3115,73 @@ tokyo.mfa.ee,3,wikidata,"Embassy of Estonia, Tokyo",central,200,none
 tokyo.mid.ru,3,wikidata,"Embassy of Russia, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 tokyo.mofa.go.ug,3,wikidata,"Embassy of Uganda, Tokyo",central,HttpConnectTimeoutException: HTTP connect timed out,none
 tokyo.philembassy.net,3,wikidata,"Embassy of the Philippines, Tokyo",central,200,none
+tokyogoodideagallery.com,3,academia,Tokyo Good Idea Development Institute,,,
 tokyomanagement-u.ac.jp,3,ror,Tokyo Management University,central,,
 tokyomirai.ac.jp,3,ror,Tokyo Future University,central,,
+tokyomyoan.com,3,academia,Tokyo Good Idea Development Institute,,,
+tokyorissho.ac.jp,3,ror,Tokyo Rissho Junior College,central,,
 tomakomai-ct.ac.jp,3,ror,"National Institute of Technology, Tomakomai College",central,,
-tosei-showa-music.ac.jp,3,ror,Showa University of Music,central,,
+toshoku.ac.jp,3,ror,Toyo College of Food Technology,central,,
 tottori-u.ac.jp,3,ror,Tottori University,central,,
-toyaku.ac.jp,3,ror,Tokyo University of Pharmacy and Life Sciences,central,,
+toua-u.ac.jp,3,ror,University of East Asia,central,,
+tourism.ac.jp,3,ror,Osaka University of Tourism,central,,
 toyama-c.ac.jp,3,ror,Toyama College,central,,
+toyo.ac.jp,3,ror,Toyo University,central,,
 toyoeiwa.ac.jp,3,ror,Toyo Eiwa Jogakuin,central,,
 toyota-ct.ac.jp,3,ror,"National Institute of Technology, Toyota College",central,,
+toyota-ti.ac.jp,3,ror,Toyota Technological Institute,central,,
 tpu.ac.jp,3,ror,Tokyo Professional University of Health Sciences,central,,
 tpuaf.ac.jp,3,ror,Tohoku Professional University of Agriculture and Forestry,central,,
+tsc-05.ac.jp,3,ror,Tokyo Seiei College,central,,
+tsu-cc.ac.jp,3,ror,Tsu City College,central,,
 tsu.ac.jp,3,ror,Tokyo Seitoku University,central,,
+tsuda.ac.jp,3,ror,Tsuda University,central,,
+tsukuba-g.ac.jp,3,ror,Tsukuba Gakuin University,central,,
 tsukuba-tech.ac.jp,3,ror,Tsukuba University of Technology,central,,
 tsuru.ac.jp,3,ror,Tsuru University,central,,
 tsuruga-nu.ac.jp,3,ror,Tsuruga Nursing University,central,,
+tsurugajo.com,3,academia,Oyaku-en,,,
 tsurumi-u.ac.jp,3,ror,Tsurumi University,central,,
 tsuruoka-nct.ac.jp,3,ror,"National Institute of Technology, Tsuruoka College",central,,
 tsuyama-ct.ac.jp,3,ror,"National Institute of Technology, Tsuyama College",central,,
 tuad.ac.jp,3,ror,Tohoku University of Art and Design,central,,
 tuc.ac.jp,3,ror,Takasaki University of Commerce Junior College,central,,
 tuins.ac.jp,3,ror,Toyama University of International Studies,central,,
+tuis.ac.jp,3,ror,Tokyo University of Information Sciences,central,,
 tuj.ac.jp,3,ror,"Temple University, Japan",central,,
 tumh.ac.jp,3,ror,Takarazuka University of Medical and Health Care,central,,
 tus.ac.jp,3,ror,Tokyo University of Science,central,,
-twcpe.ac.jp,3,ror,Tokyo Women's College of Physical Education,central,,
+tuts.ac.jp,3,ror,Tokyo Union Theological Seminary,central,,
+tw.kobe-oukoku.com,3,academia,Kobe Animal Kingdom,,,
+twcpe.ac.jp,3,ror,Tokyo Women's Junior College of Physical Education,central,,
 twcu.ac.jp,3,ror,Tokyo Woman's Christian University,central,,
-twmu.ac.jp,3,ror,Tokyo Women's Medical University,central,,
+tyg.jp,3,ror,Toyo Gakuen University,central,,
 u-aizu.ac.jp,3,ror,University of Aizu,central,,
 u-bunkyo.ac.jp,3,ror,Bunkyo Gakuin University,central,,
+u-gifu-ms.ac.jp,3,ror,Gifu University of Medical Science,central,,
 u-hyogo.ac.jp,3,ror,University of Hyogo,central,,
+u-keiai.ac.jp,3,ror,Keiai University,central,,
+u-kochi.ac.jp,3,ror,University of Kochi,central,,
+u-ryukyu.ac.jp,3,ror,University of the Ryukyus,central,,
 u-sacred-heart.ac.jp,3,ror,University of the Sacred Heart,central,,
 u-seisen.ac.jp,3,ror,Seisen University Junior College,central,,
 u-shimane.ac.jp,3,ror,University of Shimane,central,,
-u-shizuoka-ken.ac.jp,3,ror,University of Shizuoka,central,,
 u-ths.ac.jp,3,ror,University of Tokyo Health Sciences,central,,
-u-tokai.ac.jp,3,ror,Tokai University,central,,
+u.yone.ac.jp,3,ror,Yamagata Prefectural Yonezawa University of Nutrition Sciences,central,,
 ube-c.ac.jp,3,ror,Ube Frontier College,central,,
 ube-k.ac.jp,3,ror,"National Institute of Technology, Ube College",central,,
 uedawjc.ac.jp,3,ror,Ueda Womens Junior College,central,,
-uekusa.ac.jp,3,ror,Uekusa Gakuen Junior College,central,,
+uekusa.ac.jp,3,ror,Uekusa Gakuen University,central,,
 uenogakuen.ac.jp,3,ror,Ueno Gakuen University,central,,
 uhe.ac.jp,3,ror,University of Human Environments,central,,
 ujc.ac.jp,3,ror,Utsunomiya Junior College,central,,
+umds.ac.jp,3,ror,University of Marketing and Distribution Sciences,central,,
+un.shijonawate-gakuen.ac.jp,3,ror,Shijonawate Gakuen University,central,,
 univ.gakushuin.ac.jp,3,ror,Gakushuin University,central,,
+univ.osaka-seikei.jp,3,ror,Osaka Seikei University,central,,
 univ.shibata.ac.jp,3,ror,Shibata Gakuen University,central,,
 univ.yamazaki.ac.jp,3,ror,Yamazaki University of Animal Health Technology,central,,
+unu.edu,3,academia,United Nations University,,,
 uoeh-u.ac.jp,3,ror,University of Occupational and Environmental Health Japan,central,,
 urawa.ac.jp,3,ror,Urawa University,central,,
 uyo.ac.jp,3,ror,Uyo Gakuen College,central,,
@@ -2550,102 +3190,153 @@ wakayama-med.ac.jp,3,ror,Wakayama Medical University,central,,
 wakayama-u.ac.jp,3,ror,Wakayama University,central,,
 wakayama.kyowa.ac.jp,3,ror,Wakayama Professional University of Rehabilitation,central,,
 wakhok.ac.jp,3,ror,Wakkanai Hokusei Gakuen College,central,,
-waseda.jp,3,ror,Waseda University,central,,
+wako.ac.jp,3,ror,Wako University,central,,
 wayo.ac.jp,3,ror,Wayo Women's University,central,,
+web.sapmed.ac.jp,3,ror,Sapporo Medical University,central,,
 web.seto.ac.jp,3,ror,Setouchi Vocational College of Career and Professional Studies,central,,
 well.ac.jp,3,ror,Akita University of Nursing and Welfare,central,,
+werc.wikiplus.net,3,academia,"Wider Europe Research Center, Graduate School of International Relations, University of Shizuoka",,,
+wesleyan.ac.jp,3,ror,Nagasaki Wesleyan University,central,,
 wilmina.ac.jp,3,ror,Osaka Jogakuin University,central,,
 wsu.ac.jp,3,ror,Wakayama Shin-ai University,central,,
 www-myk.iwate-pu.ac.jp,3,ror,"Iwate Prefectural University, Miyako Junior College",central,,
 www1.niu.ac.jp,3,ror,Nagasaki International University,central,,
+www2.hokkyodai.ac.jp,3,ror,Hokkaido University of Education,central,,
 www3.jeed.or.jp,3,ror,Shikoku Occupational Skills Development College,central,,
+www3.nishitech.ac.jp,3,ror,Nishinippon Institute of Technology,central,,
+y-gakugei.ac.jp,3,ror,Yamaguchi Gakugei University,central,,
+y-nm.ac.jp,3,ror,Yokkaichi Nursing and Medical Care University,central,,
+yachts.ac.jp,3,ror,Yamagata Prefectural University of Health Sciences,central,,
 yamaguchi-jc.ac.jp,3,ror,Yamaguchi Junior College,central,,
 yamaguchi-jca.ac.jp,3,ror,Yamaguchi College of Arts,central,,
 yamaguchi-pu.ac.jp,3,ror,Yamaguchi Prefectural University,central,,
 yamamura-tandai.ac.jp,3,ror,Yamamura Gakuen College,central,,
+yamanashi-eiwa.ac.jp,3,ror,Yamanashi Eiwa College,central,,
+yamanashi-ken.ac.jp,3,ror,Yamanashi Prefectural University,central,,
 yamano.ac.jp,3,ror,Yamano College of Aesthetics,central,,
+yamashina-botanical.com,3,academia,Yamashina Botanical Research Institute,,,
 yamato-u.ac.jp,3,ror,Yamato University,central,,
+yashima.ac.jp,3,ror,Yashima Gakuen University,central,,
 yasuda-u.ac.jp,3,ror,Yasuda Women's University,central,,
 yg.kobe-wu.ac.jp,3,ror,Kobe Women's University,central,,
 ygjc.ac.jp,3,ror,Yamanashi Gakuin Junior College,central,,
 ygu.ac.jp,3,ror,Yamanashi Gakuin University,central,,
 yokkaichi-u.ac.jp,3,ror,Yokkaichi University,central,,
 yokohama-art.ac.jp,3,ror,Yokohama College of Art and Design,central,,
-yokohama-cu.ac.jp,3,ror,Yokohama City University,central,,
 yokotan.ac.jp,3,ror,Yokohama Women's Junior College,central,,
 yomiuririkou.ac.jp,3,ror,Yomiuri Science and Technology College,central,,
 yonago-k.ac.jp,3,ror,"National Institute of Technology, Yonago College",central,,
+yonagobunka.net,3,academia,Yonago City Center for Archaeological Operations,,,
 yone.ac.jp,3,ror,Yonezawa Women's Junior College,central,,
 yuge.ac.jp,3,ror,"National Institute of Technology, Yuge College",central,,
+yukiguni-bg.com,3,academia,Yukiguni Botanical Garden,,,
 yukioka-u.ac.jp,3,ror,Osaka Yukioka Medical University,central,,
 zen.ac.jp,3,ror,ZEN University,central,,
 zokei.ac.jp,3,ror,Tokyo Zokei University,central,,
 zokei.kyusan-u.ac.jp,3,ror,"Kyushu Sangyo University, Zokei Junior College of Art and Design",central,,
 bbt.ac,2,ror,Business Breakthrough University,central,,
+city-matsuura.jp,2,wikidata;wikidata;academia,Matsuura | Matsuura City Archaeological Center,,ConnectException,none
 city-nakatsu.jp,2,wikidata;wikidata;wikidata,Nakatsu | Q122127622,,ConnectException,none
 city.aioi.lg.jp,2,wikidata;wikidata;wikidata,Aioi | Aioi City Board of Education,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.aizuwakamatsu.fukushima.jp,2,wikidata;wikidata;wikidata;wikidata,Aizuwakamatsu,,ConnectException,none
 city.akaiwa.lg.jp,2,wikidata;wikidata;wikidata,Q91039866 | Akaiwa,,200,10 sco-mx.sec-cloud.pref.okayama.jp.
 city.ako.lg.jp,2,wikidata;wikidata;wikidata,Akō-shi | Ako,,ConnectException,none
+city.asago.hyogo.jp,2,wikidata;wikidata;academia,Asago | Asagoshi Maizoubunkazai Center 「kodai Asagokan」,,ConnectException,10 rose-z21.pref.hyogo.lg.jp.; 20 rose-n22.pref.hyogo.lg.jp.
 city.asahi.lg.jp,2,wikidata;wikidata;wikidata,Asahi | Asahi City Board of Education,,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.securitycloud.city.asahi.lg.jp.
+city.chitose.lg.jp,2,wikidata;wikidata;academia,Chitose | Chitose City Buried Cultural Properties Center,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.city.chitose.lg.jp.
+city.goto.nagasaki.jp,2,wikidata;wikidata;academia,Goto | Shiraragahama Man'yō Park,,ConnectException,100 sc42-mail01.sbt-isc.jp.
+city.hekinan.lg.jp,2,wikidata;wikidata;academia,Hekinan | Aoi park,,ConnectException,20 alt1.ap.email.fireeyecloud.com.; 40 alt3.ap.email.fireeyecloud.com.; 30 alt2.ap.email.fireeyecloud.com.; 10 primary.ap.email.fireeyecloud.com.
+city.higashiomi.shiga.jp,2,wikidata;wikidata;academia,Higashiōmi-shi | Man'yō-no-Mori Funaokayama,,ConnectException,10 ssc2-osk-mllim.shigasc.jp.
 city.hirosaki.aomori.jp,2,wikidata;wikidata;wikidata,Q122202976 | Hirosaki,,200,none
 city.ibaraki.osaka.jp,2,wikidata;wikidata;wikidata,Ibaraki | Q122165267,,ConnectException,none
+city.ichikawa.lg.jp,2,wikidata;wikidata;academia;academia,Ichikawa | Ichikawa Zoological & Botanical Garden | Man'yō Botanical Garden (Ichikawa),,ConnectException,none
 city.ichinoseki.iwate.jp,2,wikidata;wikidata;wikidata,Ichinoseki | Q11353258,,ConnectException,none
+city.inabe.mie.jp,2,wikidata;wikidata;academia,Inabe | Man'yō no Sato Park,,ConnectException,none
 city.isahaya.nagasaki.jp,2,wikidata;wikidata;wikidata,Isahaya | Q139467633,,ConnectException,10 sc42-mail01.sbt-isc.jp.
+city.itako.lg.jp,2,wikidata;wikidata;academia,Itako | Suigō Itako Iris Garden,,ConnectException,none
 city.kainan.lg.jp,2,wikidata;wikidata;wikidata,Kainan | Q121020043,,HttpConnectTimeoutException: HTTP connect timed out,10 mail2.wirp.jp.; 10 mail1.wirp.jp.
+city.kakamigahara.lg.jp,2,wikidata;wikidata;academia,Kakamigahara | Q113872045,,ConnectException,none
 city.kanazawa.ishikawa.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Kanazawa,,ConnectException,none
+city.katsushika.lg.jp,2,wikidata;wikidata;academia,Katsushika | Horikiri Iris Garden,,ConnectException,none
+city.kikugawa.shizuoka.jp,2,wikidata;wikidata;academia,Kikugawa | Q85883470,,ConnectException,none
 city.koriyama.lg.jp,2,wikidata;wikidata;wikidata;wikidata,Kōriyama,,ConnectException,10 sc07-mail01.sbt-isc.jp.
-city.kumamoto.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Chūō-ku | Kumamoto | Minami-ku | Nishi-ku | Higashi-ku | Kita-ku,,ConnectException,none
+city.kumamoto.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Chūō-ku | Kumamoto | Minami-ku | Nishi-ku | Higashi-ku | Kita-ku | Kumamoto City Environmental Research Institute,,ConnectException,none
+city.kurume.fukuoka.jp,2,wikidata;wikidata;academia,Kurume | Q128215471,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.kyotango.lg.jp,2,wikidata;wikidata;wikidata,Q11374213 | Kyōtango-shi,,ConnectException,none
+city.machida.tokyo.jp,2,wikidata;wikidata;academia,Machida | Q132531358,,ConnectException,10 mail-ex.tokyo-isc.jp.
+city.minamiashigara.kanagawa.jp,2,wikidata;wikidata;academia,Minamiashigara | Ashigara Man'yō Park,,ConnectException,none
 city.misato.lg.jp,2,wikidata;wikidata;wikidata,Misato | Misato City Fire Department,,ConnectException,none
+city.mizunami.lg.jp,2,wikidata;wikidata;academia,Mizunami | Mizunami City Ceramic Industrial Technical Laboratory,,ConnectException,10 mail02.gifu-sc2.jp.; 10 mail01.gifu-sc2.jp.
 city.morioka.iwate.jp,2,wikidata;wikidata;wikidata;wikidata,Morioka | Shiwa Castle,,ConnectException,10 sc03-mail01.sbt-isc.jp.
-city.nagasaki.lg.jp,2,wikidata;wikidata;wikidata;wikidata,Q97183008 | Former Nagasaki Customs Sagarimastu branch | Nagasaki,,ConnectException,none
+city.nagasaki.lg.jp,2,wikidata;wikidata;wikidata;wikidata;academia,Q97183008 | Former Nagasaki Customs Sagarimastu branch | Nagasaki | Nagasaki City Public Health and Environmental Testing Center,,ConnectException,none
 city.naka.lg.jp,2,wikidata;wikidata;wikidata,Naka | Q22123751,,ConnectException,10 ibscmllg-226.city.naka.lg.jp.
+city.nanto.toyama.jp,2,wikidata;wikidata;academia,Nanto | Nanto City Center for Archaeological Operations,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.neyagawa.osaka.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Neyagawa City Board of Education | Neyagawa,,ConnectException,none
 city.ogori.fukuoka.jp,2,wikidata;wikidata;wikidata,Ogori | Ogori City Board of Education,,ConnectException,10 ns3.city.ogori.fukuoka.jp.
 city.ome.tokyo.jp,2,wikidata;wikidata;wikidata,Ōme-shi | Ome,,ConnectException,10 mail-ex.tokyo-isc.jp.
 city.omihachiman.lg.jp,2,wikidata;wikidata;wikidata,Ōmihachiman-shi | Omihachiman,,ConnectException,10 ssc2-osk-mllim.shigasc.jp.
 city.omura.nagasaki.jp,2,wikidata;wikidata;wikidata,Q140673167 | Ōmura-shi,,HttpConnectTimeoutException: HTTP connect timed out,none
-city.onomichi.hiroshima.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Onomichi,,ConnectException,10 mx.city.onomichi.hiroshima.jp.
+city.onomichi.hiroshima.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Onomichi | Innoshima Flower Center,,ConnectException,10 mx.city.onomichi.hiroshima.jp.
 city.osaki.miyagi.jp,2,wikidata;wikidata;wikidata,Osaki | Ōsaki-shi,,HttpConnectTimeoutException: HTTP connect timed out,10 sc04-mail01.sbt-isc.jp.
 city.sagamihara.kanagawa.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Chūō-ku | Sagamihara | Minami-ku | Midori-ku,,ConnectException,none
+city.saitama.lg.jp,2,wikidata;wikidata;academia,Urawa-ku | Saitama City Institute of Health Science and Research,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.sakata.lg.jp,2,wikidata;wikidata;wikidata,Sakata | Kinowanosaku,,ConnectException,none
+city.sakurai.lg.jp,2,wikidata;wikidata;academia,Sakurai | Sakurai City Center for Archaeological Operations,,HttpConnectTimeoutException: HTTP connect timed out,10 narasc-fml2.utility.optage.co.jp.
 city.sasebo.lg.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Sasebo | Q120893502,,ConnectException,none
 city.sendai.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Wakabayashi-ku | Taihaku-ku | Miyagino-ku | Sendai | Izumi-ku | Aoba-ku,,HttpConnectTimeoutException: HTTP connect timed out,10 sc04-mail01.sbt-isc.jp.
+city.shibushi.lg.jp,2,wikidata;wikidata;academia,Shibushi | Shibushi City Archaeological Center,,ConnectException,none
 city.shibuya.tokyo.jp,2,wikidata;wikidata;wikidata;wikidata,Shibuya,,ConnectException,none
 city.shima.mie.jp,2,wikidata;wikidata;wikidata,Shima City Fire Department | Shima,,HttpConnectTimeoutException: HTTP connect timed out,none
+city.shunan.lg.jp,2,wikidata;wikidata;academia,Shūnan-shi | Man'yō no Mori (Shūnan),,ConnectException,10 sc35-mail01.sbt-isc.jp.
 city.soja.okayama.jp,2,wikidata;wikidata;wikidata,Sōja-shi | Q97311745,,HttpConnectTimeoutException: HTTP connect timed out,10 sco-mx.sec-cloud.pref.okayama.jp.
+city.tagajo.miyagi.jp,2,wikidata;wikidata;academia,Tagajō | Tagajō Buried Cultural Property Research Center,,HttpConnectTimeoutException: HTTP connect timed out,10 sc04-mail01.sbt-isc.jp.
+city.tajimi.lg.jp,2,wikidata;wikidata;academia,Tajimi | Tajimi City Pottery Design and Technical Center,,HttpConnectTimeoutException: HTTP connect timed out,10 mail02.gifu-sc2.jp.; 10 mail01.gifu-sc2.jp.
+city.takatsuki.osaka.jp,2,wikidata;wikidata;academia,Takatsuki | Archaeological Research Center of Takatsuki City,,ConnectException,none
 city.taketa.oita.jp,2,wikidata;wikidata;wikidata,Taketa | Taketa Fire Department,,HttpConnectTimeoutException: HTTP connect timed out,none
+city.takizawa.iwate.jp,2,wikidata;wikidata;academia,Takizawa | the Archaeological Museum of Takizawa Shi,,301,none
+city.tateyama.chiba.jp,2,wikidata;wikidata;academia,Tateyama | Q132462606,,ConnectException,none
+city.toride.ibaraki.jp,2,wikidata;wikidata;academia,Toride | Torideshi Maizoubunkazai Center,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.tsugaru.aomori.jp,2,wikidata;wikidata;wikidata,Tsugaru | Q11272148,,HttpConnectTimeoutException: HTTP connect timed out,none
-city.utsunomiya.lg.jp,2,wikidata;wikidata;wikidata,Utsunomiya | Utsunomiya City Institute of Public Health and Environmental Science,,HttpConnectTimeoutException: HTTP connect timed out,none
+city.utsunomiya.lg.jp,2,wikidata;wikidata;wikidata;academia,Utsunomiya | Utsunomiya City Institute of Public Health and Environmental Science,,HttpConnectTimeoutException: HTTP connect timed out,none
 city.yamagata.gifu.jp,2,wikidata;wikidata;wikidata,Yamagata | Q11470772,,ConnectException,none
-city.yao.osaka.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Yao,,HttpConnectTimeoutException: HTTP connect timed out,none
+city.yao.osaka.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,Yao | Yao City Archaeological Research Center,,HttpConnectTimeoutException: HTTP connect timed out,none
+dfns.u-shizuoka-ken.ac.jp,2,academia;academia;academia,"Food and Environment Research Center, Graduate Division of Nutritional and Environmental Sciences, University of Shizuoka | Graduate Division of Nutritional and Environmental Sciences, University of Shizuoka | Tea Science Center, Graduate Division of Nutritional and Environmental Sciences, University of Shizuoka",,,
+ehub-kyoto-u.com,2,ror,"Institute for the Evolutionary Origins of Human Behavior, Kyoto University",central,,
+engaru.jp,2,wikidata;wikidata;academia,Engaru | Engaru Archaeological Center,,HttpConnectTimeoutException: HTTP connect timed out,none
+gunmanikken.com,2,ror,Gunma Nikken Polytechnic College,central,,
+hro.or.jp,2,academia;academia;academia;academia;academia;academia;academia,Central Agricultural Experiment Station (Hokkaido) | Hokkaido Research Organization | Q11402977 | Q11402981 | Q11402982 | Q11402984 | Q11402985,,,
 iucjapan.org,2,ror,Inter-University Center for Japanese Language Studies,central,,
 jcmu.isp.msu.edu,2,ror,Japan Center for Michigan Universities,central,,
 kamishihoro.jp,2,wikidata;wikidata;wikidata;wikidata,Kamishihoro Town Council | Kamishihoro,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.kamishihoro.jp.
 kcg.edu,2,ror,Kyoto College of Graduate Studies for Informatics,central,,
 kokushikan.ac.jp.e.qd.hp.transer.com,2,ror,Kokushikan University,central,,
 kokutan.net,2,ror,Kokusai Junior College,central,,
+kuriharacity.jp,2,wikidata;wikidata;academia,Kurihara | Q132911456,,ConnectException,none
+luj.lakeland.edu,2,ror,Lakeland University Japan,central,,
 mobility-ac.com,2,ror,Professional University of Electric Mobility Systems,central,,
-oki-park.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata,Shuri Castle,,HttpConnectTimeoutException: HTTP connect timed out,none
+oki-park.jp,2,wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia,Shuri Castle | Omoro Botanical Garden | Tropical & Subtropical Arboretum,,HttpConnectTimeoutException: HTTP connect timed out,none
 police.pref.fukushima.jp,2,wikidata;wikidata;wikidata,Fukushima Prefectural Public Safety Commission | Fukushima Prefectural Police,,HttpConnectTimeoutException: HTTP connect timed out,none
 police.pref.saga.jp,2,wikidata;wikidata;wikidata,Saga Prefectural Police | Saga Prefectural Public Safety Commission,,ConnectException,10 mg0.sagaidc.ne.jp.; 20 mg1.sagaidc.ne.jp.
 police.pref.toyama.jp,2,wikidata;wikidata;wikidata,Toyama Prefectural Public Safety Commission | Toyama Prefectural Police,,200,none
 rikubetsu.jp,2,wikidata;wikidata;wikidata;wikidata,Rikubetsu | Rikubetsu Town Council,,301,none
 sarabetsu.jp,2,wikidata;wikidata;wikidata;wikidata,Sarabetsu | Sarabetsu Village Council,,301,none
+seibu-la.co.jp,2,academia;academia;academia,Higashimatsuyama Botan-en | Itabashi Botanical Garden | Mizunomori Water Botanical Garden,,,
 shibuya-univ.net,2,ror,Shibuya University Network,central,,
 shihoro.jp,2,wikidata;wikidata;wikidata;wikidata,Shihoro | Shihoro Town Council,,ConnectException,none
 shintoku-town.jp,2,wikidata;wikidata;wikidata;wikidata,Shintoku Town Council | Shintoku,,200,none
 site.thaiembassy.jp,2,wikidata;wikidata;wikidata,"Embassy of Thailand, Tokyo",central,200,none
 thaiconsulate.jp,2,wikidata;wikidata;wikidata,"Consulate-General of Thailand, Osaka",,301,none
 town-kyogoku.jp,2,wikidata;wikidata;wikidata,Kyōgoku-chō | Kyogoku,,403,10 smtp.town-kyogoku.jp.
+town-ono.jp,2,wikidata;wikidata;academia,Ōno-chō | Ōno Akebono Museum,,ConnectException,10 mail01.gifu-sc2.jp.; 10 mail02.gifu-sc2.jp.
 town.aisho.shiga.jp,2,wikidata;wikidata;wikidata,Aisho | Aishō-chō,,ConnectException,none
+town.arita.lg.jp,2,wikidata;wikidata;academia,Arita | Arita Archeological Research Center,,ConnectException,none
 town.ashoro.hokkaido.jp,2,wikidata;wikidata;wikidata;wikidata,Ashoro | Ashoro Town Council,,ConnectException,10 mail.town.ashoro.hokkaido.jp.
 town.hiroo.lg.jp,2,wikidata;wikidata;wikidata;wikidata,Hiroo | Hiroo Town Council,,ConnectException,none
 town.hokkaido-ikeda.lg.jp,2,wikidata;wikidata;wikidata;wikidata,Ikeda Town Council | Ikeda,,ConnectException,none
 town.honbetsu.hokkaido.jp,2,wikidata;wikidata;wikidata;wikidata,Hombetsu | Hombetsu Town Council,,ConnectException,none
 town.imakane.lg.jp,2,wikidata;wikidata;wikidata,Imakane | Imakane Board of Education,,HttpConnectTimeoutException: HTTP connect timed out,none
 town.kagoshima-osaki.lg.jp,2,wikidata;wikidata;wikidata,Osaki | Ōsaki-chō,,ConnectException,none
+town.kikai.lg.jp,2,wikidata;wikidata;academia,Kikai | Q132913152,,HttpConnectTimeoutException: HTTP connect timed out,none
 town.kyowa.hokkaido.jp,2,wikidata;wikidata;wikidata,Kyowa | Kyōwa-chō,,200,10 vlmx-air.secure.ne.jp.
 town.makubetsu.lg.jp,2,wikidata;wikidata;wikidata;wikidata,Makubetsu Town Council | Makubetsu,,ConnectException,none
 town.mashike.hokkaido.jp,2,wikidata;wikidata;wikidata,Mashike Fire Department | Mashike,,ConnectException,10 relay.town.mashike.hokkaido.jp.
@@ -2667,6 +3358,8 @@ town.shirahama.wakayama.jp,2,wikidata;wikidata;wikidata,Shirahama | Shirahama To
 town.sobetsu.lg.jp,2,wikidata;wikidata;wikidata,Sobetsu | Sōbetsu-chō,,ConnectException,10 mail.union.nishi-iburi.lg.jp.
 town.taiki.hokkaido.jp,2,wikidata;wikidata;wikidata;wikidata,Taiki | Taiki Town Council,,ConnectException,10 mail.town.taiki.hokkaido.jp.
 town.tsuruta.lg.jp,2,wikidata;wikidata;wikidata;wikidata,Tsuruta | Itayanagi,,ConnectException,none
+town.yoshimi.saitama.jp,2,wikidata;wikidata;academia,Yoshimi | Yoshimi Town Archaeological Center,,301,none
+town.yugawara.kanagawa.jp,2,wikidata;wikidata;academia,Yugawara | Man'yō Park (Yugawara),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 toyokoro.jp,2,wikidata;wikidata;wikidata;wikidata,Toyokoro | Toyokoro Town Council,,ConnectException,none
 vill.hakuba.lg.jp,2,wikidata;wikidata;wikidata;wikidata,Hakuba,,ConnectException,10 mx2nd11.naganoken-sc.jp.; 10 mx2nd12.naganoken-sc.jp.
 vill.nakasatsunai.hokkaido.jp,2,wikidata;wikidata;wikidata;wikidata,Nakasatsunai | Nakasatsunai Village Council,,ConnectException,10 ns1.vill.nakasatsunai.hokkaido.jp.
@@ -2675,14 +3368,18 @@ vill.ogimi.okinawa.jp,2,wikidata;wikidata;wikidata,Ogimi | Ōgimi-son,,ConnectEx
 vill.okawa.kochi.jp,2,wikidata;wikidata;wikidata,Ōkawa-mura | Okawa,,ConnectException,none
 vill.ooshika.nagano.jp,2,wikidata;wikidata;wikidata,Oshika | Ōshika-mura,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vill.ooshika.nagano.jp found.,none
 vill.otaki.nagano.jp,2,wikidata;wikidata;wikidata,Otaki | Ōtaki-mura,,ConnectException,10 mx2nd11.naganoken-sc.jp.; 10 mx2nd12.naganoken-sc.jp.
+vill.yahiko.niigata.jp,2,wikidata;wikidata;academia,Yahiko | Man'yō no Michi (Yahiko),,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,none
+w3pharm.u-shizuoka-ken.ac.jp,2,academia;academia;academia;academia;academia,"Center for Drug Discovery, Graduate Division of Pharmaceutical Sciences, University of Shizuoka | Center for Pharma-Food Research, Graduate Division of Pharmaceutical Sciences, University of Shizuoka | Graduate Division of Pharmaceutical Sciences, University of Shizuoka | Medicinal Plant Garden, School of Pharmaceutical Sciences, University of Shizuoka | Pharmaceutical Education and Research Center, School of Pharmaceutical Sciences, University of Shizuoka",,,
+www1.town.chizu.tottori.jp,2,wikidata;wikidata;academia,Chizu | Q132753249,,200,none
 holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none
 japan.ahk.de,1,wikidata;wikidata;wikidata,German Chamber of Commerce and Industry in Japan,,302,none
 japan.diplo.de,1,wikidata;wikidata;wikidata,"Consulate-General of Germany, Osaka-Kobe | Embassy of Germany, Tokyo",central,200,none
 nederlandwereldwijd.nl,1,wikidata;wikidata;wikidata,"Consulate-General of the Netherlands, Osaka | Embassy of the Netherlands, Tokyo",central,301,none
 official.shinkamigoto.net,1,wikidata;wikidata;wikidata,Shinkamigoto | Q11501064,,200,none
-omu.ac.jp,1,academia;ror,Osaka Metropolitan University,central,,
 roc-taiwan.org,1,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Naha Branch, Taipei Economic and Cultural Representative Office in Japan | Consulate General of Republic of China (Taiwan) in Nagasaki | Sapporo Branch, Taipei Economic and Cultural Representative Office in Japan | Taipei Economic and Cultural Representative Office in Japan | Fukuoka Branch, Taipei Economic and Cultural Office in Osaka",,302,none
 ct.omu.ac.jp,0,ror,Osaka Metropolitan University College of Technology,central,,
 kyotokango.ac.jp,0,ror,Kyoto Municipal Junior College of Nursing,central,,
+miyazaki-mu.ac.jp,0,ror,Miyazaki Municipal University,central,,
 tmu.ac.jp,0,ror,Tokyo Metropolitan University,central,,
 unii.ac.jp,0,ror,University of Niigata Prefecture,central,,
+usp.ac.jp,0,ror,University of Shiga Prefecture,central,,

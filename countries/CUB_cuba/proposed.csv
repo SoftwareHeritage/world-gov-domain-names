@@ -1,11 +1,13 @@
 hostname,score,sources,label,level,http_status,mx
 cubagob.cu,10,un_desa;wikidata;wikidata,Q116796288 | Council of State of Cuba | UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,none
+cujae.edu.cu,9,academia;academia;ror,"Polytechnic José Antonio Echeverría | Universidad Tecnológica de La Habana José Antonio Echeverría, Facultad de Arquitectura, Cujae",central,,
 cubaminrex.cu,7,wikidata;wikidata,Ministry of Foreign Affairs,central,"ProtocolException: Invalid header name ""X-Powered-By """,none
 mes.edu.cu,7,wikidata;wikidata,Ministry of Higher Education of Cuba,central,ConnectException,none
 sld.cu,7,wikidata;wikidata,Ministry of Public Health,central,ConnectException,10 mx.sld.cu.
 centroamericaribeschp.com,6,wikidata;wikidata,Piarist province Central America- Caribbean,,400,none
-cujae.edu.cu,6,academia;ror,Polytechnic José Antonio Echeverría,central,,
 dominicoshispania.org,6,wikidata;wikidata,Province of Hispania of the Order of Preachers,,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
+isa.cult.cu,6,academia;ror,Instituto Superior de Arte,central,,
+ismm.edu.cu,6,academia;ror,Instituto Superior Minero Metalúrgico,central,,
 uh.cu,6,academia;ror,University of Havana,central,,
 uo.edu.cu,6,academia;ror,University of Santiago de Cuba,central,,
 acdam.cu,4,wikidata,ACDAM,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.acdam.cu.
@@ -16,16 +18,28 @@ bnjm.cu,4,wikidata,National Library José Martí,,HttpConnectTimeoutException: H
 cdm.gtmo.inf.cu,4,wikidata,Centro de Desarrollo de la Montaña,,ConnectException,0 ceniai1.net.cu.
 cecmed.cu,4,wikidata,CECMED,,ConnectException,10 mail.cecmed.cu.
 centis.cu,4,wikidata,Centro de Isotopos,,HttpConnectTimeoutException: HTTP connect timed out,dig error
+cigb.edu.cu,4,academia,Center for Genetic Engineering and Biotechnology,,,
+ciren.cu,4,academia,International Center of Neurologic Restoration,,,
+cneuro.cu,4,academia,Cuban Neuroscience Center,,,
 cnic.edu.cu,4,academia,Centro Nacional de Investigaciones Científicas,central,,
+ecosis.cu,4,academia,Institute of Ecology and Systematics,,,
 eleccionesencuba.cu,4,wikidata,National Electoral Council of Cuba,central,HttpConnectTimeoutException: HTTP connect timed out,10 ns.eleccionesencuba.cu.
 ensap.sld.cu,4,academia,Escuela Nacional de Salud Pública,central,,
+finlay.edu.cu,4,academia,Finlay Institute,,,
+finlay.sld.cu,4,academia,Finlay Institute,,,
+fruticulturacubana.co.cu,4,academia,Institute of Tropical Fruit Research,,,
 geotech.cu,4,wikidata,Institute of Tropical Geography,,HttpConnectTimeoutException: HTTP connect timed out,none
 havanna.mfa.gov.hu,4,wikidata,"Hungarian embassy, Havana",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+idict.cu,4,academia,Instituto de Información Científica Tecnológica (IDICT),,,
+ihc.cu,4,academia,Instituto de Historia de Cuba,,,
 inaf.co.cu,4,wikidata,Instituto de Investigaciones Agro-Forestales,,ConnectException,none
 inca.edu.cu,4,wikidata,National Institute of Agricultural Sciences,,HttpConnectTimeoutException: HTTP connect timed out,dig error
 inimet.cu,4,wikidata,Instituto Nacional de Metrologia,,ConnectException,0 mail.inimet.cu.
+instec.cu,4,academia,Higher Institute of Technologies and Applied Sciences,,,
 instituciones.sld.cu,4,academia;academia;academia;ror,"Instituto Nacional de Higiene, Epidemiología y Microbiología | Instituto de Medicina Tropical “Pedro Kourí” | Universidad de Ciencias Médicas de la Habana",central,,
+jardin.cfg.jbit.cu,4,academia,Jardín Botánico de Cienfuegos,,,
 jbn.uh.cu,4,academia,Jardín botánico Nacional de Cuba,central,,
+josemarti.cu,4,academia,Marti Study Centre,,,
 lacalle.cubaweb.cu,4,wikidata,Committees for the Defense of the Revolution,,ConnectException,none
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Havana",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 namembassycuba.co.cu,4,wikidata,embassy of Namibia in Cuba,central,ConnectException,none
@@ -41,9 +55,7 @@ ghanaembassy-cuba.com,3,wikidata,embassy of Ghana in Cuba,central,ConnectExcepti
 havana.embassy.mn,3,wikidata,embassy of Mongolia in Cuba,central,302,none
 havana.mae.ro,3,wikidata,embassy of Romania in Cuba,central,503,none
 havanna.diplo.de,3,wikidata,"Embassy of Germany, Havana",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-isa.cult.cu,3,ror,Universidad de las Artes,central,,
 isch.edu.cu,3,ror,Agricultural University of Havana,central,,
-ismm.edu.cu,3,ror,Universidad de Moa,central,,
 mfa.bg,3,wikidata,embassy of Bulgaria in Cuba,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Cuba,central,403,10 mailhost.mfa.gr.
 mzv.cz,3,wikidata,embassy of the Czech republic in Cuba,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.

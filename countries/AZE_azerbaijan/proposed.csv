@@ -3,23 +3,45 @@ cert.az,7,wikidata;wikidata;wikidata;wikidata,Electronic Security Service | Nati
 amu.edu.az,6,academia;ror,Azerbaijan Medical University,central,,
 beu.edu.az,6,academia;ror,Baku Engineering University,central,,
 e-gov.az,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,10 smtp.e-gov.az.
+sechenov.edu.az,6,academia;ror,I.M. Sechenov First Moscow State Medical University's Baku branch,central,,
 unec.edu.az,6,academia;ror,Azerbaijan State University of Economics,central,,
 afghanemb.az,4,wikidata,"Embassy of Afghanistan, Baku",central,ConnectException,none
 aida.az,4,wikidata,Azerbaijan International Development Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mmx.mail.gov.az.
+ameanb.nakhchivan.az,4,academia,Q16417462,,,
+arti.edu.az,4,academia,Institute of Education of the Republic of Azerbaijan,,,
 azercosmos.az,4,wikidata,Azercosmos,,307,20 mail1.azercosmos.az.; 10 mail.azercosmos.az.
 azerishiq.az,4,wikidata,Azerishiq Open Joint-Stock Company,,200,10 mail01.azerishiq.az.
 azersu.az,4,wikidata,Azersu Open Joint-Stock Company,,HttpConnectTimeoutException: HTTP connect timed out,1 mmx.mail.gov.az.
 azertag.az,4,wikidata,Azerbaijan State News Agency,,200,none
+azimeti.az,4,academia,Azerbaijan Scientific Research Institute of Construction and Architecture,,,
 azpromo.az,4,wikidata,Azerbaijan Export and İnvestment Promotion Fund,,302,100 depot.hoster.az.; 0 mail1.azpromo.az.
 baku.mfa.gov.hu,4,wikidata,Embassy of Hungary in Baku,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+bakubotanicalgarden.az,4,academia,Botanical Park in Baku,,,
 cbar.az,4,wikidata,Central Bank of Azerbaijan,central,200,20 mail02.cbar.az.; 10 mail.cbar.az.
+cesd.az,4,academia,The Center for Economic and Social Development,,,
+dilcilik.az,4,academia,Institute of Linguistics named after Nasimi,,,
 drim.az,4,wikidata,DOST Digital Innovations Center,,HttpConnectTimeoutException: HTTP connect timed out,none
+elm.az,4,academia,Institute of Physiology,,,
 embassyofpalestine.az,4,wikidata,Embassy of the State of Palestine in Azerbaijan,central,200,20 mx2.beget.com.; 10 mx1.beget.com.
+etacxi.az,4,academia,Azerbaijani Research Institute of Lung Disorders,,,
+ettoi.az,4,academia,Q117842287,,,
 fiu.az,4,wikidata,Financial Monitoring Service,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.fiu.az.
+genres.az,4,academia,Institute of Genetic resources of Azerbaijan,,,
+gia.az,4,academia,Institute of Geology and Geophysics,,,
+ica.az,4,academia,Q12837101,,,
+idd.az,4,academia,İnkişaf və Diplomatiya İnstitutu,,,
 ier.az,4,wikidata,Institute for Scientific Research on Economic Reforms,,301,none
+imath.az,4,academia,Q141119356,,,
+imbb.az,4,academia,Institute of Molecular Biology,,,
+imm.az,4,academia,Institute of Mathematics and Mechanics,,,
 kqkiamea.az,4,academia,Institute of Catalysis and Inorganic Chemistry of the National Academy of Sciences of Azerbaijan,central,,
+manuscript.az,4,academia,Institute of Manuscripts of Azerbaijan,,,
+mceti.az,4,academia,Scientific Research Institute of Fruit and Tea Growing,,,
 millikitabxana.az,4,wikidata,National Library of Azerbaijan,,301,none
 mmu.edu.az,4,academia,Azerbaijan National Defense University,central,,
+msu.az,4,academia,Baku branch of Moscow State University,,,
+nkpi.az,4,academia,Institute of Petrochemical Processes of Azerbaijan,,,
+orientalstudies.az,4,academia,Institute of Oriental Studies of Academy of Sciences of Azerbaijan,,,
 pharma.az,4,wikidata,"Azərbaycan Respublikası Səhiyyə Nazirliyi ""Analitik Ekspertiza Mərkəzi"" Publik Hüquqi Şəxsi",,200,0 mx.pharma.az.
 president.az,4,wikidata,The Office of Azerbaijan President,,200,0 mmx.mail.gov.az.
 seismology.az,4,academia,Republican Seismic Survey Center of Azerbaijan National Academy of Sciences,central,,
@@ -34,6 +56,8 @@ adau.edu.az,3,ror,Azerbaijan State Agricultural University,central,,
 admiu.edu.az,3,ror,Azerbaijan State University of Culture and Arts,central,,
 adpu.edu.az,3,ror,Azerbaijan State Pedagogical University,central,,
 adu.edu.az,3,ror,Azerbaijan University of Languages,central,,
+aku.edu.az,3,ror,Azerbaijan Cooperation University,central,,
+ameankpi.org,3,academia,Institute of Petrochemical Processes of Azerbaijan,,,
 asoiu.edu.az,3,ror,Azerbaijan State Oil and Industry University,central,,
 atmu.edu.az,3,ror,Azerbaijan Tourism and Management University,central,,
 au.edu.az,3,ror,Azerbaijan University,central,,
@@ -46,6 +70,7 @@ baau.edu.az,3,ror,Baku Eurasian University,central,,
 baku.diplo.de,3,wikidata,"Embassy of Germany, Baku",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 baku.mae.ro,3,wikidata,"Embassy of Romania, Baku",central,503,none
 baku.mfa.af,3,wikidata,"Embassy of Afghanistan, Baku",central,ConnectException,none
+bakuphilosophy.com,3,academia,Baku Academy of Philosophy,,,
 bbu.edu.az,3,ror,Baku Business University,central,,
 bqu.edu.az,3,ror,Baku Girls University,central,,
 bsu-uni.edu.az,3,ror,Baku Slavic University,central,,
@@ -53,10 +78,13 @@ bsu.edu.az,3,ror,Baku State University,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Azerbaijan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 gdu.edu.az,3,ror,Ganja State University,central,,
 indianembassybaku.in,3,wikidata,"Embassy of India, Baku",central,ConnectException,none
+iqtisadiislahat.org,3,academia,Center for Economic Reforms Analysis and Communication,,,
 karabakh.edu.az,3,ror,Karabakh University,central,,
 lsu.edu.az,3,ror,Lankaran State University,central,,
+m.facebook.com,3,academia,Q25542471,,,
 mdu.edu.az,3,ror,Mingachevir State University,central,,
 mfa.gr,3,wikidata,"Embassy of Greece, Baku",central,403,10 mailhost.mfa.gr.
+muradnovruzov.org,3,academia,Murad Novruzov Biomedical Research,,,
 mzv.cz,3,wikidata,embassy of the Czech republic in Azerbaijan,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Azerbaijan,central,301,10 mail.gov.sk.
 ndu.edu.az,3,ror,Nakhchivan State University,central,,
@@ -64,8 +92,9 @@ nu.edu.az,3,ror,Nakhchivan University,central,,
 oyu.edu.az,3,ror,Odlar Yurdu University,central,,
 qu.edu.az,3,ror,Qafqaz University,central,,
 sdu.edu.az,3,ror,Sumgayit State University,central,,
-sechenov.edu.az,3,ror,İ.M. Seçenov adına Birinci Moskva Dövlət Tibb Universitetinin Bakı filialı,central,,
 swedenabroad.se,3,wikidata,"Embassy of Sweden, Baku",central,301,none
+top-center.org,3,academia,Topchubashov Center,,,
+uteca.edu.az,3,ror,University of Technology of Azerbaijan,central,,
 wcu.edu.az,3,ror,Western Caspian University,central,,
 asu.am,2,ror,Artsakh State University,central,,
 khazar.org,2,ror,Khazar University,central,,

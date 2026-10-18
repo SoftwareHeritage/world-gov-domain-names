@@ -1,24 +1,30 @@
 hostname,score,sources,label,level,http_status,mx
 eki.ee,7,wikidata;academia,Institute of the Estonian Language,central,200,10 eki-ee.mail.protection.outlook.com.
 fi.ee,7,wikidata;wikidata,Financial Supervision Authority,central,301,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
+genomics.ut.ee,7,academia;academia,Estonian Biocentre | Estonian Genome Project,,,
 politsei.ee,7,wikidata;wikidata,Estonian Police | Police and Border Guard Board,,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
 riigikantselei.ee,7,wikidata;linkgraph,Government Office,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
 stat.ee,7,wikidata;academia,Statistics Estonia,central,301,10 mail1.rit.ee.; 10 mail3.rit.ee.
+ttu.ee,7,academia;academia,Estonian Maritime Academy of the Tallinn University of Technology | Virumaa College of the Tallinn University of Technology,,,
 riigikohus.ee,6,wikidata,Supreme Court of Estonia,central,302,10 mx.riigikohus.ee.
 riigiteataja.ee,6,linkgraph,Linked from 10 public-sector domains,,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
 tlu.ee,6,academia;ror,Tallinn University,central,,
 ut.ee,6,academia;ror,University of Tartu,central,,
 aki.ee,4,wikidata,Estonian Data Protection Inspectorate,central,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
 archimedes.ee,4,wikidata,Archimedes Foundation,,200,none
+botaanikaaed.ee,4,academia,Tallinn Botanic Garden,,,
 chinaembassy.ee,4,wikidata,Embassy of the People's Republic of China in Tallinn,central,ConnectException,10 cmx.telia.ee.
 e-tervis.ee,4,wikidata,Estonian E-Health Foundation,,ConnectException,none
 eas.ee,4,wikidata,Estonian Space Office,,301,0 eas-ee.mail.protection.outlook.com.
 eestipank.ee,4,wikidata,Bank of Estonia,,307,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
+eestiroos.ee,4,academia,Põltsamaa rose garden,,,
 egt.ee,4,wikidata,Geological Survey of Estonia,,200,5 mx4.envir.ee.; 5 mx5.envir.ee.
 emta.ee,4,wikidata,Estonian Tax and Customs Board,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
 epa.ee,4,wikidata,Estonian Patent Office,central,302,10 mail1.rit.ee.; 10 mail3.rit.ee.
 etag.ee,4,wikidata,Estonian Research Agency,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
 etki.ee,4,academia,Centre of Estonian Rural Research and Knowledge,central,,
+etui.ee,4,academia,Estonian Institute for Future Studies,,,
+fi.ut.ee,4,academia,Tartu University Physics Institute,,,
 hitsa.ee,4,wikidata,Information Technology Foundation for Education,,ConnectException,none
 just.ee,4,linkgraph,Linked from 4 public-sector domains,,301,10 mail3.rit.ee.; 10 mail1.rit.ee.
 kapo.ee,4,wikidata,Estonian Internal Security Service,,200,5 mx1.kapo.ee.
@@ -29,9 +35,13 @@ keskkonnaamet.ee,4,wikidata,Environmental Board,,200,10 mx4.envir.ee.; 10 mx5.en
 kirmus.ee,4,academia,Estonian Literary Museum,central,,
 kliimaministeerium.ee,4,linkgraph,Linked from 4 public-sector domains,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
 kosmos.ut.ee,4,academia,Tartu Observatory,central,,
+landscape-geoinformatics.ut.ee,4,academia,Landscape Geoinformatics Lab,,,
 maaamet.ee,4,wikidata,Land and Spatial Development Board,,302,none
+mereinstituut.ut.ee,4,academia,University of Tartu Estonian Marine Institute,,,
 muinsuskaitseamet.ee,4,wikidata,Estonian National Heritage Board,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
+narva.ut.ee,4,academia,Narva College of the University of Tartu,,,
 nlib.ee,4,wikidata,National Library of Estonia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nlib.ee found.,0 nlib-ee.mail.protection.outlook.com.
+praxis.ee,4,academia,Praxis,,,
 pria.ee,4,wikidata,Agricultural Registers and Information Board,,200,5 mx.pria.ee.
 ra.ee,4,wikidata,National Archives of Estonia,,301,10 mx2.ra.ee.; 10 mx1.ra.ee.
 ravimiamet.ee,4,wikidata,State Agency of Medicines,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
@@ -41,17 +51,21 @@ rmk.ee,4,wikidata,State Forest Management Centre,,200,10 rmk-ee.mail.protection.
 smit.ee,4,wikidata,IT and Development Centre of the Ministry of the Interior,,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
 tai.ee,4,academia,National Institute for Health Development,central,,
 tallinn.mfa.gov.hu,4,wikidata,"Hungarian embassy, Tallinn",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+tehnopol.ee,4,academia,Tehnopol,,,
 ti.ee,4,wikidata,Labour Inspectorate,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
 transpordiamet.ee,4,wikidata,Estonian Transport Administration,,200,10 mx1.transpordiamet.ee.
 ttja.ee,4,wikidata,Consumer Protection and Technical Regulatory Authority,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
 unesco.ee,4,wikidata,Estonian National Commission for UNESCO,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+utkk.ee,4,academia,Under and Tuglas Literature Centre,,,
 valisluureamet.ee,4,wikidata,Estonian Foreign Intelligence Service,,200,10 m87.valisluureamet.ee.
 vangla.ee,4,wikidata,Ministry of Justice: Department of Prisons (EE),,301,none
+viljandi.ut.ee,4,academia,University of Tartu Viljandi Culture Academy,,,
 wi.ee,4,academia,Võro Institute,central,,
 artcol.ee,3,ror,Tartu Art College,central,,
 ee.ambafrance.org,3,wikidata,Embassy of France in Tallinn,central,301,none
 ee.mfa.lt,3,wikidata,Lithuanian Embassy in Tallinn,central,403,none
 emu.ee,3,ror,Estonian University of Life Sciences,central,,
+erpenbach.institute,3,academia,Erpenbach Institute,,,
 estland.um.dk,3,wikidata,embassy of Denmark in Tallinn,central,301,none
 estonia.mid.ru,3,wikidata,Embassy of Russia in Tallinn,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 estonia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Estonia,,302,none
@@ -67,5 +81,6 @@ tallinn.mae.ro,3,wikidata,embassy of Romania in Tallinn,central,503,none
 taltech.ee,3,ror,Tallinn University of Technology,central,,
 tktk.ee,3,ror,Tallinn University of Applied Sciences,central,,
 ttk.ee,3,ror,Tallinn Health University of Applied Sciences,central,,
+tyche.institute,3,academia,Tyche Institute,,,
 euas.eu,2,ror,Estonian Entrepreneurship University of Applied Sciences,central,,
 terviseamet.ee,2,wikidata;wikidata;wikidata,Health Board,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.

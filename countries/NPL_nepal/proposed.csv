@@ -3,6 +3,7 @@ khajurabajaar.com,6,wikidata;wikidata,Khajura Bajaar,,ConnectException,none
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kathmandu",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 narc.org.np,4,wikidata,Nepal Agricultural Research Council,,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.wlink.com.np.; 10 av.wlinktech.com.
 nea.org.np,4,wikidata,Nepal Electricity Authority,,302,20 mail.nea.org.np.; 30 webmail.nea.org.np.
+niice.org.np,4,academia,Nepal Institute for International Cooperation and Engagement,,,
 nncu.org.np,4,wikidata,Nepal National Commission for UNESCO,,200,0 nncu.org.np.
 nrb.org.np,4,wikidata,Nepal Rastra Bank,central,301,5 mail.nrb.org.np.
 pncampus.edu.np,4,academia,Prithvi Narayan Campus,central,,
@@ -10,12 +11,14 @@ afu.edu.np,3,ror,Agriculture and Forestry University,central,,
 bkmc.tu.edu.np,3,ror,Bhaktapur Multiple Campus,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Nepal,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
 finlandabroad.fi,3,wikidata,embassy of Finland in Nepal,central,301,10 mail.valtori.fi.
+fwu.edu.np,3,ror,Far-western University,central,,
 gandakiuniversity.edu.np,3,ror,Gandaki University,central,,
 hicast.edu.np,3,ror,Himalayan College of Agricultural Sciences and Technology,central,,
 iaas.tu.edu.np,3,ror,Institute of Agriculture and Animal Science,central,,
 kathmandu.diplo.de,3,wikidata,"Embassy of Germany, Kathmandu",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 ku.edu.np,3,ror,Kathmandu University,central,,
 lbu.edu.np,3,ror,Lumbini Buddhist University,central,,
+ltu.edu.np,3,ror,Lumbini Technological University,central,,
 mbust.edu.np,3,ror,Madan Bhandari University of Science and Technology,central,,
 mwu.edu.np,3,ror,Mid-West University,central,,
 nepal.mid.ru,3,wikidata,embassy of Russia in Nepal,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
@@ -24,6 +27,7 @@ nou.edu.np,3,ror,Nepal Open University,central,,
 np.ambafrance.org,3,wikidata,"Embassy of France, Kathmandu",central,301,none
 np.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Kathmandu",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching np.china-embassy.org found.,none
 nsu.edu.np,3,ror,Nepal Sanskrit University,central,,
+pcampus.edu.np,3,ror,Pulchowk Campus,central,,
 pu.edu.np,3,ror,Pokhara University,central,,
 puexam.edu.np,3,ror,Purbanchal University,central,,
 sac.tu.edu.np,3,ror,Tribhuvan University Sanothimi Campus,central,,

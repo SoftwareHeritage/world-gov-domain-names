@@ -1,6 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
 gjk-ks.org,8,wikidata;wikidata,Constitutional Court of Kosovo | Commercial Court of Kosovo,central,200,20 mx-02-eu-central-1.prod.hydra.sophos.com.; 10 mx-01-eu-central-1.prod.hydra.sophos.com.
 antitrafikimi.rks-gov.net,6,wikidata;wikidata,Prosecutorial Council of Kosovo | Basic Prosecution Office in Gjakova,,307,none
+ask.rks-gov.net,6,wikidata;academia,Kosovo Agency of Statistics,,404,none
 ih-rks.org,6,wikidata;wikidata,Institute of the History of Kosovo,,200,none
 kosovopolice.com,6,wikidata;wikidata,Kosovo Police | Bomb Squad (IED/EOD) Kosovo,,301,0 kosovopolice-com.mail.protection.outlook.com.
 kryeministri.rks-gov.net,6,wikidata;wikidata,Government of Kosovo,central,200,none
@@ -33,7 +34,6 @@ arkep-rks.org,3,wikidata,Electronic Communications and Postal Regulatory Authori
 arru-rks.org,3,wikidata,Water Services Regulatory Authority (Kosovo),central,200,10 mx-01-eu-central-1.prod.hydra.sophos.com.; 20 mx-02-eu-central-1.prod.hydra.sophos.com.
 ashak.rks-gov.net,3,wikidata,State Agency of Kosovo Archives,,200,none
 ashna-ks.org,3,wikidata,Air Navigation Services Agency (Kosovo),,301,0 mail.ashna-ks.org.
-ask.rks-gov.net,3,wikidata,Kosovo Agency of Statistics,,404,none
 atk-ks.org,3,wikidata,Tax Administration of Kosovo,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mx2.atk-ks.org.; 10 mx1.atk-ks.org.
 biblioteka-ks.org,3,wikidata,National Library of Kosovo,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 biblioteka-ks.org.
 bqk-kos.org,3,wikidata,Central Bank of Kosovo,,200,0 bqkkos-org0i.mail.protection.outlook.com.
@@ -54,6 +54,7 @@ kipa.rks-gov.net,3,wikidata,Industrial Property Agency of Kosovo,,200,none
 komerciale.gjyqesori-rks.org,3,wikidata,Commercial Court of Kosovo,,403,none
 kosovo-mining.org,3,wikidata,Independent Commission for Mines and Minerals (Kosovo),central,HttpConnectTimeoutException: HTTP connect timed out,50 mail2.kosovo-mining.org.; 20 mail1.kosovo-mining.org.; 10 mail3.kosovo-mining.org.
 kosovo.ambafrance.org,3,wikidata,"Embassy of France, Prishtina",central,301,none
+kosovoprojects.eu,3,academia,Kosovo Agency for Forensics,,,
 kpm-ks.org,3,wikidata,Kosovo Independent Media Commission,central,200,10 mail.kpm-ks.org.
 kpmshc.rks-gov.net,3,wikidata,Independent Oversight Board for Civil Service of Kosovo,central,200,none
 kqz-ks.org,3,wikidata,Central Election Commission (Kosovo),central,403,20 mx-02-eu-central-1.prod.hydra.sophos.com.; 10 mx-01-eu-central-1.prod.hydra.sophos.com.

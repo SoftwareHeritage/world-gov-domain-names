@@ -1,14 +1,20 @@
 hostname,score,sources,label,level,http_status,mx
 cssf.lu,7,wikidata;wikidata,Commission de Surveillance du Secteur Financier,,200,10 mail.cssf.lu.
+lih.lu,7,wikidata;academia,Luxembourg Institute of Health,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx1.lih.lu.; 5 mx2.lih.lu.
 uni.lu,6,academia;ror,University of Luxembourg,central,,
 anlux.lu,4,wikidata,National Archives of Luxembourg,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching anlux.lu found.,none
 bcl.lu,4,wikidata,Central Bank of Luxembourg,,301,10 mailsrv1.bcl.lu.; 20 mailsrv2.bcl.lu.
+bionext.lu,4,academia,BIONEXT,,,
 cpll.lu,4,wikidata,Permanent Council of the Luxembourgish,,500,10 smtpgate1.restena.lu.; 10 smtpgate2.restena.lu.
 etat.lu,4,linkgraph,Linked from 4 public-sector domains,,302,10 incoming-4.mail.etat.lu.; 10 incoming-3.mail.etat.lu.; 10 incoming-2.mail.etat.lu.; 10 incoming-1.mail.etat.lu.
 geologie.lu,4,wikidata,Q78188560,,200,none
-lih.lu,4,wikidata,Luxembourg Institute of Health,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx1.lih.lu.; 5 mx2.lih.lu.
+ketterthill.lu,4,academia,Ketterthill,,,
+labo.lu,4,academia,Laboratoires Réunis,,,
+list.lu,4,academia,Luxembourg Institute of Science and Technology,,,
 luxinnovation.lu,4,wikidata,Luxinnovation,,200,0 luxinnovation-lu.mail.protection.outlook.com.
 mnaha.lu,4,wikidata,"National Museum of Archeology, History and Art",,301,none
+mnhn.lu,4,academia,Arboretum Kirchberg,,,
+pickendoheem.lu,4,academia,Picken Doheem,,,
 railinfra.lu,4,wikidata,Administration des chemins de fer,,302,10 incoming-1.mail.etat.lu.; 10 incoming-3.mail.etat.lu.; 10 incoming-2.mail.etat.lu.; 10 incoming-4.mail.etat.lu.
 ambruslu.mid.ru,3,wikidata,Embassy of Russia in Luxembourg,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 lu.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Luxembourg City",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching lu.china-embassy.org found.,none
