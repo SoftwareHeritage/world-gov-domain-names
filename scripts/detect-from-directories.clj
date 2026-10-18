@@ -25,7 +25,6 @@
 (ns detect-from-directories
   (:require [common :refer :all]
             [babashka.fs :as fs]
-            [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [clojure.data.xml :as xml]
             [clojure.java.io :as io]
@@ -198,13 +197,14 @@
 
 (defn- directory-fetch-json-pages
   "[[name website] …] of a paginated JSON API (:url ends in 'page='),
-  fetched until an empty page. nil when a page could not be fetched."
+  fetched until an empty page. nil when a page could not be fetched or
+  read (a missing page must not pass for the last one)."
   [{:keys [url items-path name-field website-field]}]
   (loop [page 0 acc []]
-    (let [body  (http-get (str url page) {:accept "application/json"})
-          items (when body (get-in (json/parse-string body true) items-path))]
+    (let [data  (parse-json (http-get (str url page) {:accept "application/json"}) true)
+          items (get-in data items-path)]
       (cond
-        (nil? body)    nil
+        (nil? data)    nil
         (empty? items) (seq acc)
         :else (recur (inc page)
                      (into acc (for [it items
@@ -247,15 +247,14 @@
   "[[name website] …] of the gov.uk organisations register: the
   'exempt' organisations of the paginated :list-url, each with the
   external URL its :content-url page gives (one call each, skipped on
-  failure). nil when a listing page could not be fetched."
+  failure). nil when a listing page could not be fetched or read."
   [{:keys [list-url content-url]}]
   (let [exempt
         (loop [page 1 acc []]
-          (let [body (http-get (str list-url page) {:accept "application/json"})
-                d (when body (json/parse-string body true))
+          (let [d (parse-json (http-get (str list-url page) {:accept "application/json"}) true)
                 results (:results d)]
             (cond
-              (nil? body)      nil
+              (nil? d)         nil
               (empty? results) acc
               :else
               (let [acc (into acc
@@ -274,11 +273,10 @@
                 " external URLs (one call each)"))
       (doall
        (for [[title slug] exempt
-             :let [body (http-get (str content-url slug)
-                                  {:accept "application/json"})
-                   url (when body
-                         (get-in (json/parse-string body true)
-                                 [:details :organisation_govuk_status :url]))
+             :let [url (get-in (parse-json (http-get (str content-url slug)
+                                                     {:accept "application/json"})
+                                           true)
+                               [:details :organisation_govuk_status :url])
                    _ (Thread/sleep 200)]
              :when (seq (str url))]
          [title url])))))

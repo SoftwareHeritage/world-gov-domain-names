@@ -65,8 +65,10 @@
                           {:timeout 120 :retries 3
                            :accept "application/sparql-results+json"
                            :query-params {"query" q}})]
-       (when-not (str/blank? body)
-         (let [iso3->qid (->> (-> body (json/parse-string true) :results :bindings)
+       ;; no bindings (failed, unreadable or empty answer): nil, so that
+       ;; build-country-map! leaves the file untouched
+       (when-let [bindings (seq (-> (parse-json body true) :results :bindings))]
+         (let [iso3->qid (->> bindings
                               (map (fn [b]
                                      [(-> b :iso3 :value)
                                       (-> b :country :value (str/replace #"^.*/" ""))]))
@@ -144,9 +146,7 @@
   "The :bindings of a SPARQL JSON body; nil when the body is missing or
   truncated."
   [body]
-  (when body
-    (try (-> (json/parse-string body true) :results :bindings)
-         (catch Exception _ nil))))
+  (some-> (parse-json body true) :results :bindings))
 
 (defn- qid-pairs
   "[[qid country_dir]…] of args, each a country_dir (resolved through
@@ -510,14 +510,14 @@
 
 (defn ror-page
   "One page (20 items) of the active education organisations of a
-  country, parsed; nil on failure."
+  country, parsed; nil on failure or on an unreadable answer."
   [iso2 page]
-  (some-> (http-get ror-api-url
-                    {:timeout 60
-                     :query-params {"filter" (str "types:education,status:active,"
-                                                  "locations.geonames_details.country_code:" iso2)
-                                    "page"   (str page)}})
-          (json/parse-string true)))
+  (parse-json (http-get ror-api-url
+                        {:timeout 60
+                         :query-params {"filter" (str "types:education,status:active,"
+                                                      "locations.geonames_details.country_code:" iso2)
+                                        "page"   (str page)}})
+              true))
 
 (defn ror-fetch-all
   "Every active education organisation of a country, page after page
@@ -526,7 +526,7 @@
   (loop [page 1 acc []]
     (if-let [{:keys [items number_of_results]} (ror-page iso2 page)]
       (let [acc (into acc items)]
-        (if (or (empty? items) (>= (count acc) number_of_results) (>= page 500))
+        (if (or (empty? items) (>= (count acc) (or number_of_results 0)) (>= page 500))
           acc
           (do (Thread/sleep 250) (recur (inc page) acc))))
       nil)))
@@ -751,9 +751,9 @@
                   body (http-get url {:timeout 30 :accept "application/json"})]
               (if (str/blank? body)
                 (do (err "  fetch failed") :fail)
-                (let [gov (:Government (json/parse-string body true))]
+                (let [gov (:Government (parse-json body true))]
                   (if (nil? gov)
-                    (do (err "  no Government section in response") :fail)
+                    (do (err "  no Government section in response (or unreadable answer)") :fail)
                     (do (upsert-table-row! "cia_factbook" cia-header country-dir
                                            (into {} (for [[k path] cia-fields]
                                                       [k (cia-extract gov (map keyword path))])))

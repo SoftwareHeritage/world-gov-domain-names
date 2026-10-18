@@ -6,6 +6,7 @@
   (:require [babashka.http-client :as http]
             [babashka.fs :as fs]
             [babashka.process :as proc]
+            [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [clojure.java.io :as io]
             [clojure.string :as str]))
@@ -23,6 +24,18 @@
   "Collapse a (possibly multi-line) string to a single trimmed line."
   [s]
   (-> (str s) (str/replace #"\s+" " ") str/trim))
+
+(defn parse-json
+  "Parse a JSON string (keys as keywords with keywords?); nil when s is
+  nil or no valid JSON: a WAF page or a truncated answer served with a
+  200 must read as a failed fetch, not throw. Top-level arrays are
+  realised here, as cheshire parses them lazily."
+  ([s] (parse-json s false))
+  ([s keywords?]
+   (when s
+     (try (let [v (json/parse-string s keywords?)]
+            (if (sequential? v) (vec v) v))
+          (catch Exception _ nil)))))
 
 (defn read-csv-file
   "Read a CSV with header as a vector of {col-name value} maps, column
