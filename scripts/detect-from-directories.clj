@@ -246,7 +246,8 @@
   "[[name website] …] of the gov.uk organisations register: the
   'exempt' organisations of the paginated :list-url, each with the
   external URL its :content-url page gives (one call each, skipped on
-  failure). nil when a listing page could not be fetched or read."
+  failure). nil when a listing page could not be fetched or read, or
+  when the listing is empty."
   [{:keys [list-url content-url]}]
   (let [exempt
         (loop [page 1 acc []]
@@ -254,7 +255,7 @@
                 results (:results d)]
             (cond
               (nil? d)         nil
-              (empty? results) acc
+              (empty? results) (seq acc)
               :else
               (let [acc (into acc
                               (for [o results
@@ -323,15 +324,21 @@
 
 (defn- write-candidates!
   "Write hosts to sources/directory/orgs.csv (hostname,mentions,evidence).
-  Always false (written)."
-  [country _spec rows hosts]
-  (let [out (country-src country "directory" "orgs.csv")]
-    (write-csv-file out ["hostname" "mentions" "evidence"]
-                    (for [[h {:keys [n names]}] (sort-by key hosts)]
-                      [h (str n) (truncate (str/join " | " names) 150)]))
-    (println (str country ": " (count hosts) " hosts -> " out
-                  " (" (count rows) " orgs listed)"))
-    false))
+  true (failed, nothing written) when hosts is empty, false otherwise:
+  a directory that yields nothing is a broken fetch, not an empty
+  country."
+  [country {:keys [source]} rows hosts]
+  (if (empty? hosts)
+    (do (err "ERR: the " country " directory (" source ") yields no host;"
+             " sources/directory/orgs.csv left untouched")
+        true)
+    (let [out (country-src country "directory" "orgs.csv")]
+      (write-csv-file out ["hostname" "mentions" "evidence"]
+                      (for [[h {:keys [n names]}] (sort-by key hosts)]
+                        [h (str n) (truncate (str/join " | " names) 150)]))
+      (println (str country ": " (count hosts) " hosts -> " out
+                    " (" (count rows) " orgs listed)"))
+      false)))
 
 (defn- harvest-channel!
   "Fetch the directories of one channel (every spec of it, or the given
