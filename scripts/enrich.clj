@@ -289,8 +289,9 @@
 ;; (P137 operator, P749 parent, P127 owner, P1001 jurisdiction: 9 of the
 ;; 264 public universities of Germany, none in France), so academia-level
 ;; falls back on the class, the label and how the country organises its
-;; universities (academia-tiers). An org it places at no level is left
-;; out: the file only holds central and central-1 rows.
+;; universities (academia-tiers). An org it places at no level keeps a
+;; blank level, for the curation to see it in proposed.csv; one its
+;; authorities place below the first tier is left out.
 
 (def academia-classes
   [["Q875538"   "public_university"   :university]
@@ -362,13 +363,13 @@
   #"(?iu)\b(?:distrito federal|federal district|district fédéral)\b")
 
 (defn academia-level
-  "Level of a university or research institute, nil when no signal places
-  it or when its authorities place it below the first tier: its
-  authorities (operator, parent, owner, jurisdiction and theirs,
-  through juris-level), the national university class, a central
-  label, then for a university only the subnational labels (a federal
-  district is a first-level subdivision) and the country's default
-  (academia-tiers). Pure."
+  "Level of a university or research institute: \"local\" when its
+  authorities place it below the first tier, nil when no signal places
+  it. The signals, in order: its authorities (operator, parent, owner,
+  jurisdiction and theirs, through juris-level), the national
+  university class, a central label, then for a university only the
+  subnational labels (a federal district is a first-level subdivision)
+  and the country's default (academia-tiers). Pure."
   [{:keys [kind type label auths country-qid level1 level1-pattern tiers]}]
   (let [auth-level (juris-level auths country-qid level1)
         raw        (or label "")
@@ -376,9 +377,8 @@
         university? (= kind :university)
         {:keys [default subdiv? state?]} tiers]
     (cond
-      (#{"central" "central-1"} auth-level)         auth-level
-      ;; run by a city or a county: out, whatever the label says
-      (= auth-level "local")                        nil
+      ;; run by a city or a county: local, whatever the label says
+      (#{"central" "central-1" "local"} auth-level) auth-level
       (= type "national_university")                "central"
       (re-find central-label-pattern label)         "central"
       ;; the place a research institute's label names is where it
@@ -392,13 +392,19 @@
            (re-find level1-pattern label))          "central-1"
       :else                                         default)))
 
+(def level-rank
+  "Sort key of a level in the academia and ror files: central first, a
+  blank (unknown) level last, so that the dedup per host and label
+  keeps the most precise row."
+  {"central" 0 "central-1" 1})
+
 (defn- qid-of [v] (some-> v (str/replace #"^.*/" "")))
 
 (defn academia-bindings->rows
   "[type label website hostname level] rows of the bindings of one
-  academia class query, one per distinct host, the orgs academia-level
-  places at no level dropped. ctx: :country-qid :level1 :level1-pattern
-  :tiers. Pure."
+  academia class query, one per distinct host; level blank for an org
+  academia-level places nowhere, the local ones dropped. ctx:
+  :country-qid :level1 :level1-pattern :tiers. Pure."
   [[_ type kind] bindings ctx]
   (->> (group-by #(get-in % [:org :value]) bindings)
        (mapcat
@@ -410,17 +416,19 @@
                  label (get-in (first bs) [:orgLabel :value] "")
                  level (academia-level (assoc ctx :kind kind :type type
                                               :label label :auths auths))]
-             (when level
+             (when (not= level "local")
                (for [b bs
                      :let [url  (get-in b [:website :value])
                            host (extract-host url)]
                      :when host]
-                 [type label url host level])))))
+                 [type label url host (or level "")])))))
        distinct))
 
 (defn academia-process!
   "Write sources/wikidata/academia.csv (type,label,website,hostname,level):
-  the central and central-1 universities and research institutes, one
+  the universities and research institutes of the country, level
+  central, central-1 or blank (unknown: proposed.csv shows them for
+  the curation to decide), the local ones left out, one
   query per class of academia-classes. Leave the file untouched when a
   class query fails. Skip an existing file unless FORCE=1; need the
   subdivisions file. :ok, :skip or :fail."
@@ -459,9 +467,9 @@
               :fail)
           ;; one row per org and host: an org typed under two classes or
           ;; with two websites on one host would count twice in propose;
-          ;; central sorts before central-1 and wins
+          ;; central wins over central-1, a blank level loses (level-rank)
           (let [rows (->> (apply concat per-class)
-                          (sort-by (juxt #(nth % 3) #(nth % 1) #(nth % 4)))
+                          (sort-by (juxt #(nth % 3) #(nth % 1) #(get level-rank (nth % 4) 2)))
                           (reduce (fn [[seen acc] [_ label _ host :as row]]
                                     (if (seen [host label])
                                       [seen acc]
@@ -488,7 +496,8 @@
 ;; a name of which calls a university or an institute of higher
 ;; education (ror-university-pattern; colleges and academies are too
 ;; broad), levelled as academia levels a university whose authorities
-;; are unknown (label, then academia-tiers).
+;; are unknown (label, then academia-tiers); a blank level when neither
+;; places it.
 
 (def conc-ror (env-int "CONC_ROR" 2))
 
@@ -533,26 +542,29 @@
 
 (defn ror-org->row
   "[ror label website hostname wikidata level] of a ROR organisation,
-  nil when none of its names calls a university, when it has no website
-  or when academia-level places it at no level. ctx: :level1-pattern
-  :tiers. Pure."
+  nil when none of its names calls a university or when it has no
+  website; level blank when academia-level places it nowhere. ctx:
+  :level1-pattern :tiers. Pure."
   [ctx {:keys [id names links external_ids]}]
-  (let [all-names (map :value names)
+  (let [all-names (keep :value names)
         label (or (some #(when (some #{"ror_display"} (:types %)) (:value %)) names)
                   (first all-names) "")
         url   (some #(when (= "website" (:type %)) (:value %)) links)
         host  (extract-host url)
         wd    (some #(when (= "wikidata" (:type %)) (first (:all %))) external_ids)
-        level (when (some #(re-find ror-university-pattern %) all-names)
+        university? (some #(re-find ror-university-pattern %) all-names)
+        ;; no authority known to ROR: never local
+        level (when university?
                 (academia-level (assoc ctx :kind :university :type "education"
                                        :label label :auths #{} :country-qid nil :level1 #{})))]
-    (when (and host level (valid-hostname? host))
-      [(str/replace id #"^https://ror\.org/" "") label url host (or wd "") level])))
+    (when (and host university? (valid-hostname? host))
+      [(str/replace id #"^https://ror\.org/" "") label url host (or wd "") (or level "")])))
 
 (defn ror-process!
   "Write sources/ror/universities.csv (ror,label,website,hostname,wikidata,level):
   the universities ROR knows in the country, one row per org and host,
-  central ones first. Skip an existing file unless FORCE=1; need the
+  level central, central-1 or blank (unknown), the most precise level
+  winning per host and label. Skip an existing file unless FORCE=1; need the
   subdivisions file. :ok, :skip or :fail (nothing written)."
   [country-dir]
   (let [out  (country-src country-dir "ror" "universities.csv")
@@ -581,7 +593,7 @@
           (do (err "ERR: " country-dir ": a ROR page failed; " out " left untouched") :fail)
           (let [rows (->> orgs
                           (keep #(ror-org->row ctx %))
-                          (sort-by (juxt #(nth % 3) #(nth % 5) #(nth % 1)))
+                          (sort-by (juxt #(nth % 3) #(get level-rank (nth % 5) 2) #(nth % 1)))
                           (reduce (fn [[seen acc] [_ label _ host :as row]]
                                     (if (seen [host label])
                                       [seen acc]

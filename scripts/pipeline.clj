@@ -34,8 +34,8 @@
 ;;                      -> sources/wikidata/subdivisions_level1.csv
 ;;   wikidata [Q:C…]    Wikidata central administration
 ;;                      -> sources/wikidata/central_admin.csv (needs subdivisions)
-;;   academia [Q:C…]    Wikidata central and central-1 universities and research
-;;                      institutes -> sources/wikidata/academia.csv (needs
+;;   academia [Q:C…]    Wikidata universities and research institutes (level
+;;                      central, central-1 or blank) -> sources/wikidata/academia.csv (needs
 ;;                      subdivisions; enrich runs it after wikidata)
 ;;   ror [C…]           universities per ror.org -> sources/ror/universities.csv
 ;;                      (needs subdivisions; candidates, never confirmed)
