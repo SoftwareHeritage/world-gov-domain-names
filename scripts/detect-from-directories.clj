@@ -171,22 +171,21 @@
 (defn- directory-fetch-csv
   "[[name website] …] of a CSV directory export, decoded per :encoding,
   keeping the rows matching every [column regex] of :col-filters. nil
-  on a fetch failure."
+  on a fetch failure, an empty export or a missing column (name,
+  website or a filtered one: a renamed filter column must not let
+  every row through)."
   [{:keys [url encoding separator name-col website-col col-filters]}]
   (let [body (curl-get-bytes url)]
     (when body
-      (let [rows (csv/read-csv (String. ^bytes body (or encoding "UTF-8"))
-                               :separator (or separator \,))
+      (let [rows (seq (csv/read-csv (String. ^bytes body (or encoding "UTF-8"))
+                                    :separator (or separator \,)))
             ;; a UTF-8 BOM would glue itself to the first header cell
-            header (update (vec (first rows)) 0 #(str/replace % "\uFEFF" ""))
+            header (update (vec (first rows)) 0 #(str/replace (str %) "\uFEFF" ""))
             idx  (zipmap header (range))
             name-i (get idx name-col)
             web-i  (get idx website-col)
-            filters (for [[col re] col-filters
-                          :let [i (get idx col)]
-                          :when i]
-                      [i re])]
-        (when (and name-i web-i)
+            filters (for [[col re] col-filters] [(get idx col) re])]
+        (when (and rows name-i web-i (every? first filters))
           (for [r (rest rows)
                 :let [web (str/trim (or (nth r web-i nil) ""))]
                 :when (and (seq web)
