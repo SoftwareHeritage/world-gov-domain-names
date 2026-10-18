@@ -88,12 +88,14 @@
   target_category is ignored. Write
   countries/<c>/sources/linkgraph/indegree.csv
   (hostname,indegree,indegree_tech). Optional args restrict to the given
-  country_dirs; return 1 when the crawl data is unavailable."
+  country_dirs; return 1 on an unknown country_dir (before any
+  download) or when the crawl data is unavailable."
   [args]
-  (let [suffix->dir (linkgraph-suffix->dir)
+  (let [targets     (scoped-countries args)
+        suffix->dir (when targets (linkgraph-suffix->dir))
         rel-path    (and suffix->dir (linkgraph-fetch! "relationships.jsonl"))]
     (if-not rel-path
-      (do (err "ERR: link-graph data unavailable") 1)
+      (do (when targets (err "ERR: link-graph data unavailable")) 1)
       (let [only       (when (seq args) (set args))
             editorial? #{"editorial_link" "form_destination"}
             acc        ;; {country_dir {target {:ed #{src...} :tech #{src...}}}}
