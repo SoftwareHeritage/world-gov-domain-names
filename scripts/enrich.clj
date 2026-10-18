@@ -314,7 +314,7 @@
    "Q2467461"]) ; academic department (a research institute subclass)
 
 (defn academia-query [class-qid country-qid]
-  (str "SELECT DISTINCT ?org ?orgLabel ?website ?auth ?authJuris WHERE {\n"
+  (str "SELECT DISTINCT ?org ?orgLabel ?website ?juris ?auth ?authJuris WHERE {\n"
        "  ?org wdt:P31/wdt:P279* wd:" class-qid " ;\n"
        "       wdt:P17 wd:" country-qid " ;\n"
        "       wdt:P856 ?website .\n"
@@ -325,7 +325,10 @@
        (apply str
               (for [q academia-excluded-types]
                 (str "  FILTER NOT EXISTS { ?org wdt:P31 wd:" q " }\n")))
-       "  OPTIONAL { ?org wdt:P137|wdt:P749|wdt:P127|wdt:P1001 ?auth .\n"
+       ;; the territory an org answers to (P1001) and the organisations
+       ;; running it (operator, parent, owner) with their own territory
+       "  OPTIONAL { ?org wdt:P1001 ?juris . }\n"
+       "  OPTIONAL { ?org wdt:P137|wdt:P749|wdt:P127 ?auth .\n"
        "             OPTIONAL { ?auth wdt:P1001 ?authJuris . } }\n"
        "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
        "}"))
@@ -364,14 +367,21 @@
 
 (defn academia-level
   "Level of a university or research institute: \"local\" when its
-  authorities place it below the first tier, nil when no signal places
-  it. The signals, in order: its authorities (operator, parent, owner,
-  jurisdiction and theirs, through juris-level), the national
+  territory places it below the first tier, nil when no signal places
+  it. The signals, in order: its territories (:juris, the P1001 of the
+  org and of its authorities, through juris-level), then its
+  authorities themselves (:auths, operator, parent or owner) when one
+  is the country or a first-level subdivision -- another organisation,
+  a university group say, says nothing of the level --, the national
   university class, a central label, then for a university only the
   subnational labels (a federal district is a first-level subdivision)
   and the country's default (academia-tiers). Pure."
-  [{:keys [kind type label auths country-qid level1 level1-pattern tiers]}]
-  (let [auth-level (juris-level auths country-qid level1)
+  [{:keys [kind type label juris auths country-qid level1 level1-pattern tiers]}]
+  (let [juris-lvl  (juris-level (set juris) country-qid level1)
+        auth-level (if (= juris-lvl "")
+                     (juris-level (set (filter #(or (= % country-qid) (contains? level1 %)) auths))
+                                  country-qid level1)
+                     juris-lvl)
         raw        (or label "")
         label      (str/replace raw federal-district-pattern "")
         university? (= kind :university)
@@ -409,13 +419,15 @@
   (->> (group-by #(get-in % [:org :value]) bindings)
        (mapcat
          (fn [[_ bs]]
-           (let [auths (into #{} (keep qid-of)
-                             (mapcat #(vector (get-in % [:auth :value])
-                                              (get-in % [:authJuris :value]))
-                                     bs))
+           (let [values (fn [& ks] (into #{} (for [b bs, k ks
+                                                  :let [q (qid-of (get-in b [k :value]))]
+                                                  :when q]
+                                              q)))
+                 juris (values :juris :authJuris)
+                 auths (values :auth)
                  label (get-in (first bs) [:orgLabel :value] "")
-                 level (academia-level (assoc ctx :kind kind :type type
-                                              :label label :auths auths))]
+                 level (academia-level (assoc ctx :kind kind :type type :label label
+                                              :juris juris :auths auths))]
              (when (not= level "local")
                (for [b bs
                      :let [url  (get-in b [:website :value])
@@ -556,7 +568,8 @@
         ;; no authority known to ROR: never local
         level (when university?
                 (academia-level (assoc ctx :kind :university :type "education"
-                                       :label label :auths #{} :country-qid nil :level1 #{})))]
+                                       :label label :juris #{} :auths #{}
+                                       :country-qid nil :level1 #{})))]
     (when (and host university? (valid-hostname? host))
       [(str/replace id #"^https://ror\.org/" "") label url host (or wd "") (or level "")])))
 
