@@ -9,7 +9,7 @@
               :task (apply run "scripts/pipeline.clj" *command-line-args*)}
   collect    {:doc  "the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots -> sources/harvest/, sources/probes/roots.csv"
               :task (apply run "scripts/pipeline.clj" "collect" *command-line-args*)}
-  enrich     {:doc  "build-qid + build-gec + build-un-ids + subdivisions, then wikidata (+ academia) + iana/cia/un-desa/oecd/meta (parallel)"
+  enrich     {:doc  "build-qid + build-gec + build-un-ids + subdivisions, then wikidata (+ academia) + ror/iana/cia/un-desa/oecd/meta (parallel)"
               :task (apply run "scripts/pipeline.clj" "enrich" *command-line-args*)}
   build      {:doc  "the consolidated files: aggregate + domains -> data/ (after enrich)"
               :task (apply run "scripts/pipeline.clj" "build" *command-line-args*)}

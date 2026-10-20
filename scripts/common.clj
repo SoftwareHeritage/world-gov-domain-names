@@ -11,7 +11,7 @@
             [clojure.java.io :as io]
             [clojure.string :as str]))
 
-(def ua "world-gov-domain-names/0.1 (https://github.com/SoftwareHeritage/world-gov-domain-names)")
+(def ua "world-gov-domain-names (+https://github.com/SoftwareHeritage/world-gov-domain-names)")
 (def force? (= "1" (System/getenv "FORCE")))
 
 (defn env-int [env-name default]
@@ -161,6 +161,17 @@
     (when (fs/exists? dir)
       (sort (map #(str (fs/file-name (fs/parent %))) (fs/glob dir "*/registered.csv"))))))
 
+(defn index-first
+  "{k v} of the [k v] pairs, the first pair of a key winning (into {}
+  keeps the last one)."
+  [pairs]
+  (reduce (fn [m [k v]] (cond-> m (not (contains? m k)) (assoc k v))) {} pairs))
+
+(defn dedup-by-first
+  "Keep the first row per first-column value, sorted by first column."
+  [rows]
+  (->> rows (map (juxt first identity)) index-first vals (sort-by first)))
+
 (defn compile-confirmed
   "Compile the confirmed [domain level source name] rows of a country
   from its curated [domain level name] rows, the [[registry [[domain
@@ -180,9 +191,7 @@
       (throw (ex-info (str d ": both curated and excluded") {:domain d})))
     (->> rows
          (remove #(contains? excluded (first %)))
-         (reduce (fn [m [d :as row]] (cond-> m (not (contains? m d)) (assoc d row))) {})
-         vals
-         (sort-by first))))
+         dedup-by-first)))
 
 (defn confirmed-country
   "Compile the confirmed rows of a country from its decision files (compile-confirmed)."
@@ -191,8 +200,20 @@
                      (for [r (registries country-dir)] [r (read-registered country-dir r)])
                      (read-excluded country-dir)))
 
-(def ^:private confirmed-cache (atom nil))
-(def ^:private confirmed-domains-cache (atom nil))
+(defn- compile-confirmed-rows
+  "[country domain level source name] of every country. Throws ex-info
+  on the first contradiction in the decision files."
+  []
+  (vec (for [c (country-dirs)
+             [d level source name] (try (confirmed-country c)
+                                        (catch clojure.lang.ExceptionInfo e
+                                          (throw (ex-info (str c ": " (ex-message e))
+                                                          (assoc (ex-data e) :country c)))))]
+         [c d level source name])))
+
+;; Each cache holds a delay: a first deref from two threads at once (a
+;; bounded-pmap over countries) still compiles once, with no lock.
+(def ^:private confirmed-cache (atom (delay (compile-confirmed-rows))))
 
 (defn confirmed-rows
   "Return the confirmed domains of every country as a vector of [country
@@ -200,14 +221,13 @@
   (write-registered! drops the cache). Throws ex-info on the first
   contradiction in the decision files."
   []
-  (or @confirmed-cache
-      (reset! confirmed-cache
-              (vec (for [c (country-dirs)
-                         [d level source name] (try (confirmed-country c)
-                                                    (catch clojure.lang.ExceptionInfo e
-                                                      (throw (ex-info (str c ": " (ex-message e))
-                                                                      (assoc (ex-data e) :country c)))))]
-                     [c d level source name])))))
+  @@confirmed-cache)
+
+(def ^:private confirmed-domains-cache (atom (delay (set (map second (confirmed-rows))))))
+
+(defn- drop-confirmed-cache! []
+  (reset! confirmed-cache (delay (compile-confirmed-rows)))
+  (reset! confirmed-domains-cache (delay (set (map second (confirmed-rows))))))
 
 (defn write-registered!
   "Write the [domain level] rows to countries/<c>/sources/<registry>/registered.csv,
@@ -215,8 +235,7 @@
   [country-dir registry rows]
   (write-csv-file (registered-file country-dir registry) ["domain" "level"]
                   (sort-by first (for [[d level] rows] [d level])))
-  (reset! confirmed-cache nil)
-  (reset! confirmed-domains-cache nil))
+  (drop-confirmed-cache!))
 
 (defn normalize-name
   "Lowercase s and strip everything but [a-z0-9], to match country names
@@ -246,7 +265,12 @@
   #{"co.uk" "gov.uk" "ac.uk" "org.uk" "com.au" "gov.au" "org.au"
     "co.nz" "gov.nz" "com.br" "gov.br" "co.za" "gov.za"})
 
-(defn parent-domain [host]
+(defn parent-domain
+  "The registrable domain of host: the multi-label suffix of multi-tlds
+  it sits under (foo.gov.uk -> gov.uk), else its last two labels
+  (foo.bar.fr -> bar.fr). A two-label host is its own parent (gov.au ->
+  gov.au); nil on a single label."
+  [host]
   (or (some #(when (str/ends-with? host (str "." %)) %) multi-tlds)
       (let [parts (str/split host #"\.")
             n (count parts)]
@@ -344,15 +368,6 @@
   {country_dir row}; {} when absent."
   [csv-path]
   (into {} (for [[c :as row] (rest (read-csv-raw csv-path))] [c row])))
-
-(defn dedup-by-first
-  "Keep the first row per first-column value, sorted by first column."
-  [rows]
-  (->> rows
-       (reduce (fn [acc r] (if (contains? acc (first r)) acc (assoc acc (first r) r)))
-               {})
-       vals
-       (sort-by first)))
 
 (defn skip? [out-path] (and (fs/exists? out-path) (not force?)))
 
@@ -515,8 +530,7 @@
   "Return the set of every confirmed domain of every country, local rows
   included, cached. A host equal to or under one of them is already covered."
   []
-  (or @confirmed-domains-cache
-      (reset! confirmed-domains-cache (set (map second (confirmed-rows))))))
+  @@confirmed-domains-cache)
 
 (defn harvest-roots
   "Return the confirmed domains of a country whose level is in

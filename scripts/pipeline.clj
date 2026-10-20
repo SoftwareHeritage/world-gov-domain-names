@@ -9,8 +9,8 @@
 ;;                      sources/probes/roots.csv
 ;;   enrich             the per-country sources: build-qid, build-gec,
 ;;                      build-un-ids, subdivisions, then wikidata (+ academia)
-;;                      + iana/cia/un-desa/oecd/meta in parallel
-;;                      -> sources/wikidata/, data/sources/
+;;                      + ror/iana/cia/un-desa/oecd/meta in parallel
+;;                      -> sources/wikidata/, sources/ror/, data/sources/
 ;;   build              the consolidated files: aggregate, domains -> data/
 ;;   report             the curation files: propose, summary -> proposed.csv,
 ;;                      summary.md
@@ -637,8 +637,7 @@
                                   [sub parent country un
                                    (:region m) (:langs m) (:gdp m)
                                    status mx])))))
-                  (sort-by first)
-                  distinct)]
+                  (sort-by first))]
     (write-csv-file public-sector-file
                     ["subdomain" "parent_domain" "country" "un_status"
                      "region" "languages" "gdp_per_capita" "http_status" "mx"]
@@ -892,10 +891,12 @@
                                     :let [n (parse-long (or indegree ""))]
                                     :when (and n (>= n indegree/linkgraph-min-indegree))]
                                 [hostname n]))
-     :dir-by-host    (into {} (for [{:strs [hostname evidence]} (read-csv-file (src "directory" "orgs.csv"))]
-                                [hostname {:evidence (or evidence "")}]))
-     :ror-by-host    (into {} (for [{:strs [hostname label level]} (read-csv-file (src "ror" "universities.csv"))]
-                                [hostname {:label (or label "") :level (or level "")}]))
+     ;; both files may list a host twice (two labels): the first row
+     ;; wins, and universities.csv sorts the best level first
+     :dir-by-host    (index-first (for [{:strs [hostname evidence]} (read-csv-file (src "directory" "orgs.csv"))]
+                                    [hostname {:evidence (or evidence "")}]))
+     :ror-by-host    (index-first (for [{:strs [hostname label level]} (read-csv-file (src "ror" "universities.csv"))]
+                                    [hostname {:label (or label "") :level (or level "")}]))
      :un-portal-host (extract-host (table-field "un_desa" country-dir "national_portal"))
      :fb-phrases     (extract-factbook-phrases (table-field "cia_factbook" country-dir "judicial_highest_courts"))
      :cctld-primary  (not-empty (str/replace (table-field "iana" country-dir "cctld") #"^\." ""))
@@ -1136,7 +1137,8 @@
   directly under a central root becomes an exact row, a local or
   excluded label under one an exclude row, and a domain a root already
   covers is dropped. A domain confirmed in several countries gets one
-  row, for the first country in ASCII order."
+  row, for the country confirming it at the highest level (central
+  before central-1), the first in ASCII order on a tie."
   [_]
   (let [rows (central-plus-rows)
         excl (local-labels)
@@ -1211,8 +1213,9 @@
               (try
                 (let [confirmed  (confirmed-country c)
                       level-of   (into {} (for [[d level] confirmed] [d level]))
-                      registered (into {} (for [r (registries c), [d level] (read-registered c r)]
-                                            [d [r level]]))]
+                      ;; first registry wins, as in compile-confirmed
+                      registered (index-first (for [r (registries c), [d level] (read-registered c r)]
+                                                [d [r level]]))]
                   (doseq [[d level name] (read-curated c)
                           :let [[r rlevel] (get registered d)]
                           :when (and (= level rlevel) (str/blank? name))]

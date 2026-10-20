@@ -1,6 +1,7 @@
 (ns enrich
   "Enrichment sources: Wikidata (subdivisions, central administration,
-  academia) under countries/<c>/sources/wikidata/, and IANA, CIA Factbook, UN/DESA,
+  academia) under countries/<c>/sources/wikidata/, ROR universities under
+  countries/<c>/sources/ror/, and IANA, CIA Factbook, UN/DESA,
   OECD and country metadata as one row per country in
   data/sources/<source>.csv. build-qid, build-gec and build-un-ids
   write the country_dir -> source id files three sources read.
@@ -160,11 +161,18 @@
                  (for [a args :let [[x c] (str/split a #":" 2)]]
                    (if c [x c] [(get qid-of x) x]))
                  (for [row rows] [(get row "wikidata_qid") (get row "country_dir")]))
-        unknown (for [[qid c] pairs :when (str/blank? qid)] c)]
+        unknown (for [[qid c] pairs :when (str/blank? qid)] c)
+        dirs    (set (country-dirs))
+        ;; an explicit pair must still name a QID and a country directory
+        invalid (for [[qid c] pairs
+                      :when (and (not (str/blank? qid))
+                                 (or (not (re-matches #"Q\d+" qid)) (not (dirs c))))]
+                  (str qid ":" c))]
     (cond
       (empty? rows) (err "ERR: " qid-map-file " missing. Run 'bb pipeline build-qid' first")
       (seq unknown) (err "ERR: not in " qid-map-file ": " (str/join ", " unknown)
                          " (expected a country_dir or QID:country_dir)")
+      (seq invalid) (err "ERR: not a QID:country_dir pair: " (str/join ", " invalid))
       :else         (vec pairs))))
 
 (defn- run-per-qid
@@ -408,6 +416,17 @@
   keeps the most precise row."
   {"central" 0 "central-1" 1})
 
+(defn- dedup-host-label
+  "The rows minus those repeating the [hostname label] pair of an
+  earlier one (label at index 1, hostname at index 3: academia and ror
+  rows alike). Sort by level-rank first so the best level stays."
+  [rows]
+  (second (reduce (fn [[seen acc] [_ label _ host :as row]]
+                    (if (seen [host label])
+                      [seen acc]
+                      [(conj seen [host label]) (conj acc row)]))
+                  [#{} []] rows)))
+
 (defn- qid-of [v] (some-> v (str/replace #"^.*/" "")))
 
 (defn academia-bindings->rows
@@ -482,12 +501,7 @@
           ;; central wins over central-1, a blank level loses (level-rank)
           (let [rows (->> (apply concat per-class)
                           (sort-by (juxt #(nth % 3) #(nth % 1) #(get level-rank (nth % 4) 2)))
-                          (reduce (fn [[seen acc] [_ label _ host :as row]]
-                                    (if (seen [host label])
-                                      [seen acc]
-                                      [(conj seen [host label]) (conj acc row)]))
-                                  [#{} []])
-                          second)]
+                          dedup-host-label)]
             (write-csv-file out ["type" "label" "website" "hostname" "level"] rows)
             (println (str "  -> " out " (" (count rows) " entries)"))
             :ok))))))
@@ -626,12 +640,7 @@
           (let [rows (->> orgs
                           (keep #(ror-org->row ctx %))
                           (sort-by (juxt #(nth % 3) #(get level-rank (nth % 5) 2) #(nth % 1)))
-                          (reduce (fn [[seen acc] [_ label _ host :as row]]
-                                    (if (seen [host label])
-                                      [seen acc]
-                                      [(conj seen [host label]) (conj acc row)]))
-                                  [#{} []])
-                          second)]
+                          dedup-host-label)]
             (write-csv-file out ["ror" "label" "website" "hostname" "wikidata" "level"] rows)
             (println (str "  -> " out " (" (count rows) " universities of "
                           (count orgs) " education orgs)"))
@@ -966,7 +975,7 @@
 
 ;; ===========================================================================
 ;;  enrich = build-qid + build-gec + build-un-ids + subdivisions, then
-;;  the six sources in parallel
+;;  the seven sources in parallel
 ;; ===========================================================================
 
 (defn cmd-enrich
