@@ -1,5 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
-khajurabajaar.com,6,wikidata;wikidata,Khajura Bajaar,,ConnectException,none
+khajurabajaar.com,6,wikidata,Khajura Bajaar,,ConnectException,none
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kathmandu",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 narc.org.np,4,wikidata,Nepal Agricultural Research Council,,HttpConnectTimeoutException: HTTP connect timed out,20 mx2.wlink.com.np.; 10 av.wlinktech.com.
 nea.org.np,4,wikidata,Nepal Electricity Authority,,302,20 mail.nea.org.np.; 30 webmail.nea.org.np.

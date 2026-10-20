@@ -1,6 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
-balikesir.edu.tr,9,academia;academia;ror,Balıkesir University | Gönen Geothermic Institute,central,,
-mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, Ankara | Consulate General of the United Arab Emirates, Istanbul",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+balikesir.edu.tr,9,academia;ror,Balıkesir University | Gönen Geothermic Institute,central,,
+mofaic.gov.ae,7,wikidata,"Embassy of the United Arab Emirates, Ankara | Consulate General of the United Arab Emirates, Istanbul",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 adiyaman.edu.tr,6,academia;ror,Adıyaman University,central,,
 adu.edu.tr,6,academia;ror,Aydın Adnan Menderes University,central,,
 afsu.edu.tr,6,academia;ror,Afyonkarahisar Health Sciences University,central,,
@@ -58,7 +58,7 @@ ibu.edu.tr,6,academia;ror,Abant Izzet Baysal University,central,,
 idu.edu.tr,6,academia;ror,İzmir Democracy University,central,,
 igdir.edu.tr,6,academia;ror,Iğdır University,central,,
 inonu.edu.tr,6,academia;ror,İnönü University,central,,
-iski.istanbul,6,wikidata;wikidata,İSKİ,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.iski.istanbul.; 10 mail2.iski.istanbul.
+iski.istanbul,6,wikidata,İSKİ,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.iski.istanbul.; 10 mail2.iski.istanbul.
 isparta.edu.tr,6,academia;ror,Isparta University of Applied Sciences,central,,
 istanbul.edu.tr,6,academia;ror,Istanbul University,central,,
 iste.edu.tr,6,academia;ror,Iskenderun Technical University,central,,
@@ -98,7 +98,7 @@ omu.edu.tr,6,academia;ror,Ondokuz Mayıs University,central,,
 osmaniye.edu.tr,6,academia;ror,Osmaniye Korkut Ata University,central,,
 ozal.edu.tr,6,academia;ror,Malatya Turgut Özal University,central,,
 pau.edu.tr,6,academia;ror,Pamukkale University,central,,
-roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Mission in Ankara,,302,none
+roc-taiwan.org,6,wikidata,Taipei Economic and Cultural Mission in Ankara,,302,none
 sakarya.edu.tr,6,academia;ror,Sakarya University,central,,
 samsun.edu.tr,6,academia;ror,Samsun University,central,,
 selcuk.edu.tr,6,academia;ror,Selçuk University,central,,
@@ -330,5 +330,5 @@ yeniyuzyil.edu.tr,3,ror,Istanbul Yeni Yüzyıl University,central,,
 zirve.edu.tr,3,ror,Zirve University,central,,
 dehukam.org,2,ror,Ankara Üniversitesi Deniz Hukuku Ulusal Araştırma Merkezi,central,,
 sabanciuniv.edu,2,ror,Sabancı Üniversitesi,central,,
-mfa.gr,1,wikidata;wikidata;wikidata,Embassy of Greece in Ankara | Consulate-General of Greece in Istanbul | Consulate General of Greece in İzmir,central,403,10 mailhost.mfa.gr.
-swedenabroad.se,1,wikidata;wikidata;wikidata;wikidata,"Consulate General of Sweden in Istanbul | Embassy of Sweden, Ankara",central,301,none
+mfa.gr,1,wikidata,Embassy of Greece in Ankara | Consulate-General of Greece in Istanbul | Consulate General of Greece in İzmir,central,403,10 mailhost.mfa.gr.
+swedenabroad.se,1,wikidata,"Consulate General of Sweden in Istanbul | Embassy of Sweden, Ankara",central,301,none

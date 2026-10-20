@@ -1,32 +1,32 @@
 hostname,score,sources,label,level,http_status,mx
-parlamento.pt,10,wikidata;wikidata;linkgraph,Assembly of the Republic,central,IOException: HTTP/1.1 header parser received no bytes,10 srvrelay1.parlamento.pt.; 10 newsletter.parlamento.pt.; 10 srvrelay2.parlamento.pt.
-up.pt,9,academia;academia;ror,Instituto de Ciências Biomédicas Abel Salazar | University of Porto,central,,
+parlamento.pt,10,wikidata;linkgraph,Assembly of the Republic,central,IOException: HTTP/1.1 header parser received no bytes,10 srvrelay1.parlamento.pt.; 10 newsletter.parlamento.pt.; 10 srvrelay2.parlamento.pt.
+up.pt,9,academia;ror,Instituto de Ciências Biomédicas Abel Salazar | University of Porto,central,,
 presidencia.pt,8,linkgraph,Linked from 74 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,90 mail1.presidencia.pt.; 10 mx1.presidencia.pt.; 10 mx2.presidencia.pt.; 90 mail2.presidencia.pt.
 academia.marinha.pt,7,wikidata;academia,Academia de Marinha,,302,none
-chpvvc.min-saude.pt,7,wikidata;wikidata,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde | Unidade Local de Saúde de Póvoa de Varzim/Vila do Conde,,ConnectException,0 chpvvc-minsaude-pt02e.mail.protection.outlook.com.
-cmvm.pt,7,wikidata;wikidata,Securities Market Commission,central,ConnectException,5 mail.cmvm.pt.; 20 drmail.cmvm.pt.
-dgav.pt,7,wikidata;wikidata,Direcção-Geral de Alimentação e Veterinária | Q136310447,,IOException: HTTP/1.1 header parser received no bytes,10 dgav-pt.mail.protection.outlook.com.; 20 smtp.dgav.pt.
-exercito.pt,7,wikidata;wikidata,Direção de Formação | Direção de História e Cultura Militar,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp2.exercito.pt.; 10 smtp1.exercito.pt.
+chpvvc.min-saude.pt,7,wikidata,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde | Unidade Local de Saúde de Póvoa de Varzim/Vila do Conde,,ConnectException,0 chpvvc-minsaude-pt02e.mail.protection.outlook.com.
+cmvm.pt,7,wikidata,Securities Market Commission,central,ConnectException,5 mail.cmvm.pt.; 20 drmail.cmvm.pt.
+dgav.pt,7,wikidata,Direcção-Geral de Alimentação e Veterinária | Q136310447,,IOException: HTTP/1.1 header parser received no bytes,10 dgav-pt.mail.protection.outlook.com.; 20 smtp.dgav.pt.
+exercito.pt,7,wikidata,Direção de Formação | Direção de História e Cultura Militar,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp2.exercito.pt.; 10 smtp1.exercito.pt.
 gnr.pt,7,wikidata;linkgraph,National Republican Guard,central,301,10 mx1.rnsi.mai.gov.pt.; 10 mx4.rnsi.mai.gov.pt.; 10 mx6.rnsi.mai.gov.pt.; 10 mx3.rnsi.mai.gov.pt.; 10 mx2.rnsi.mai.gov.pt.; 10 mx5.rnsi.mai.gov.pt.
-icnf.pt,7,wikidata;wikidata,Institute for Nature Conservation and Forests,,200,0 icnf-pt.mail.protection.outlook.com.
+icnf.pt,7,wikidata,Institute for Nature Conservation and Forests,,200,0 icnf-pt.mail.protection.outlook.com.
 ine.pt,7,wikidata;academia,National Institute of Statistics,central,302,5 ine-pt.mail.protection.outlook.com.
-infarmed.pt,7,wikidata;wikidata,National Authority of Medicines and Health Products,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.infarmed.pt.
+infarmed.pt,7,wikidata,National Authority of Medicines and Health Products,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.infarmed.pt.
 lneg.pt,7,wikidata;academia,National Laboratory for Energy and Geology,central,ConnectException: Host is unreachable,0 lneg-pt.mail.protection.outlook.com.
-moptc.pt,7,wikidata;wikidata,"Ministry of Public Works, Transport and Communications",central,403,none
-policiajudiciaria.pt,7,wikidata;wikidata,Laboratório de Polícia Científica | Polícia Judiciária,,ConnectException,none
-pontosj.pt,7,wikidata;wikidata,Portuguese Province of the Society of Jesus,,200,20 mx2.cleanmx.pt.; 10 mx1.cleanmx.pt.
-psp.pt,7,wikidata;wikidata,Corpo de Intervenção | Polícia de Segurança Pública,,HttpConnectTimeoutException: HTTP connect timed out,10 mx3.rnsi.mai.gov.pt.; 10 mx1.rnsi.mai.gov.pt.; 10 mx4.rnsi.mai.gov.pt.; 10 mx2.rnsi.mai.gov.pt.; 10 mx5.rnsi.mai.gov.pt.; 10 mx6.rnsi.mai.gov.pt.
-tecnico.ulisboa.pt,7,academia;academia,Instituto Superior Técnico | Instituto Superior Técnico - Tecnológico e Nuclear,,,
+moptc.pt,7,wikidata,"Ministry of Public Works, Transport and Communications",central,403,none
+policiajudiciaria.pt,7,wikidata,Laboratório de Polícia Científica | Polícia Judiciária,,ConnectException,none
+pontosj.pt,7,wikidata,Portuguese Province of the Society of Jesus,,200,20 mx2.cleanmx.pt.; 10 mx1.cleanmx.pt.
+psp.pt,7,wikidata,Corpo de Intervenção | Polícia de Segurança Pública,,HttpConnectTimeoutException: HTTP connect timed out,10 mx3.rnsi.mai.gov.pt.; 10 mx1.rnsi.mai.gov.pt.; 10 mx4.rnsi.mai.gov.pt.; 10 mx2.rnsi.mai.gov.pt.; 10 mx5.rnsi.mai.gov.pt.; 10 mx6.rnsi.mai.gov.pt.
+tecnico.ulisboa.pt,7,academia,Instituto Superior Técnico | Instituto Superior Técnico - Tecnológico e Nuclear,,,
 astro.up.pt,6,academia;ror,Centre for Astrophysics of the University of Porto,central,,
 cbma.uminho.pt,6,academia;ror,Centro de Biologia Molecular e Ambiental,central,,
-ccila-portugal.com,6,wikidata;wikidata,German-Portuguese Chamber of Industry and Commerce,,302,0 ccilaportugal-com01c.mail.protection.outlook.com.
+ccila-portugal.com,6,wikidata,German-Portuguese Chamber of Industry and Commerce,,302,0 ccilaportugal-com01c.mail.protection.outlook.com.
 celga-iltec.uc.pt,6,academia;ror,CELGA-ILTEC,central,,
 ipv.pt,6,academia;ror,Polytechnic Institute of Viseu,central,,
 isa.ulisboa.pt,6,academia;ror,Instituto Superior de Agronomia,central,,
 iscte-iul.pt,6,academia;ror,ISCTE – Lisbon University Institute,central,,
 iseg.ulisboa.pt,6,academia;ror,Lisbon School of Economics and Management,central,,
 ispa.pt,6,academia;ror,ISPA – University Institute,central,,
-lajesfss.com,6,wikidata;wikidata,65th Force Support Squadron | Lajes Airman and Family Readiness Center,,ConnectException: Host is unreachable,10 mail.lajesfss.com.
+lajesfss.com,6,wikidata,65th Force Support Squadron | Lajes Airman and Family Readiness Center,,ConnectException: Host is unreachable,10 mail.lajesfss.com.
 libphys.pt,6,academia;ror,"Laboratory for Instrumentation, Biomedical Engineering and Radiation Physics",central,,
 stj.pt,6,wikidata,Portuguese Supreme Court of Justice,central,301,10 stj-pt.mail.protection.outlook.com.
 tribunalconstitucional.pt,6,wikidata,Portuguese Constitutional Court,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching tribunalconstitucional.pt found.,none
@@ -465,9 +465,9 @@ edp.com,2,ror,Universidade EDP,central,,
 egov.unu.edu,2,ror,United Nations University,central,,
 lab2pt.net,2,ror,Laboratório de Paisagens Património e Território,central,,
 lcfpem.com,2,ror,Laboratório de Ciências Forenses e Psicológicas Egas Moniz,central,,
-min-agricultura.pt,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Agriculture, Rural Development and Fisheries",central,ConnectException,none
-min-edu.pt,2,wikidata;wikidata;wikidata;wikidata,Ministry of Education of Portugal,central,ConnectException,none
-min-financas.pt,2,wikidata;wikidata;wikidata;wikidata,Ministry of Finance of Portugal,central,ConnectException,none
+min-agricultura.pt,2,wikidata,"Ministry of Agriculture, Rural Development and Fisheries",central,ConnectException,none
+min-edu.pt,2,wikidata,Ministry of Education of Portugal,central,ConnectException,none
+min-financas.pt,2,wikidata,Ministry of Finance of Portugal,central,ConnectException,none
 mundossociais.com,2,ror,Editora Mundos Sociais,central,,
 ufpuv.com,2,ror,Universidade Fernando Pessoa Universidade Virtual,central,,
 ulices.org,2,ror,Universidade de Lisboa Centro de Estudos Anglisticos,central,,

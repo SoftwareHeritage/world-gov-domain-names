@@ -1,49 +1,49 @@
 hostname,score,sources,label,level,http_status,mx
-vlaanderen.be,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;linkgraph,"Flemish Government | Flemish Tax Service | Research Institute for Nature and Forest | Flemish Center for Agro- and Fisheries Marketing | Department for Culture, Youth and Media | Agency for Local and Provincial Government | Flemish Ombudsman Service | Department of Mobility and Public Works | Flemish Energy Agency | Agency for Facility Operations | Flanders Digital Agency",central-1,403,2 vlaanderen-be.mail.protection.outlook.com.
-ugent.be,9,academia;academia;ror,Ghent University | Ghent University Botanical Garden,central-1,,
+vlaanderen.be,10,wikidata;academia;linkgraph,"Flemish Government | Flemish Tax Service | Research Institute for Nature and Forest | Flemish Center for Agro- and Fisheries Marketing | Department for Culture, Youth and Media | Agency for Local and Provincial Government | Flemish Ombudsman Service | Department of Mobility and Public Works | Flemish Energy Agency | Agency for Facility Operations | Flanders Digital Agency",central-1,403,2 vlaanderen-be.mail.protection.outlook.com.
+ugent.be,9,academia;ror,Ghent University | Ghent University Botanical Garden,central-1,,
 aeronomie.be,7,wikidata;academia,Royal Belgian Institute for Space Aeronomy,,HttpConnectTimeoutException: HTTP connect timed out,10 mailserv.oma.be.
 antwerpen.be,7,wikidata;academia,Emergency zone Antwerp-Zwijndrecht | Plantentuin,,302,10 antwerpen-be.mail.protection.outlook.com.; 20 antwerpen-be.mail.protection.outlook.com.
-arch.be,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,State Archives in Kortrijk | Algemeen Rijksarchief en Rijksarchief in de Provinciën Antwerpen | Algemeen Rijksarchief en Rijksarchief in de Provinciën Hasselt | National Archives of Belgium | State Archives in Ghent | State Archives of Belgium,,ConnectException,10 arch.bams.belnet.be.
+arch.be,7,wikidata;academia,State Archives in Kortrijk | Algemeen Rijksarchief en Rijksarchief in de Provinciën Antwerpen | Algemeen Rijksarchief en Rijksarchief in de Provinciën Hasselt | National Archives of Belgium | State Archives in Ghent | State Archives of Belgium,,ConnectException,10 arch.bams.belnet.be.
 autoriteprotectiondonnees.be,7,wikidata;linkgraph,Data Protection Authority,central,301,none
-beci.be,7,wikidata;wikidata,Brussels Enterprises Commerce and Industry,,SSLHandshakeException: Remote host terminated the handshake,0 beci-be.mail.protection.outlook.com.
-dbrc.be,7,wikidata;wikidata,Council for Permit Disputes | Council for Election Disputes,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-departementwvg.be,7,wikidata;wikidata;wikidata,"Department of Welfare, Public Health and Family | Flemish Infrastructure Fund for Person-related Matters",central-1,200,none
-dglive.be,7,wikidata;wikidata,Ministry of the German-speaking Community,central,302,50 mail.demetec.net.
+beci.be,7,wikidata,Brussels Enterprises Commerce and Industry,,SSLHandshakeException: Remote host terminated the handshake,0 beci-be.mail.protection.outlook.com.
+dbrc.be,7,wikidata,Council for Permit Disputes | Council for Election Disputes,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+departementwvg.be,7,wikidata,"Department of Welfare, Public Health and Family | Flemish Infrastructure Fund for Person-related Matters",central-1,200,none
+dglive.be,7,wikidata,Ministry of the German-speaking Community,central,302,50 mail.demetec.net.
 gegevensbeschermingsautoriteit.be,7,wikidata;linkgraph,Data Protection Authority,central,301,none
-gouvernement.cfwb.be,7,wikidata;wikidata,Government of the French Community,central-1,302,none
-gouvernement.wallonie.be,7,wikidata;wikidata,Government of Wallonia,central-1,301,none
+gouvernement.cfwb.be,7,wikidata,Government of the French Community,central-1,302,none
+gouvernement.wallonie.be,7,wikidata,Government of Wallonia,central-1,301,none
 iis-statistics.be,7,wikidata;academia,Interfederal statistical institute,,301,none
 kbr.be,7,wikidata;academia,Royal Library of Belgium,,200,10 kbr-be.mail.protection.outlook.com.
 kunsten.be,7,wikidata;academia,Flanders Arts Institute,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 50 fb.mail.gandi.net.; 10 spool.mail.gandi.net.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 10 ASPMX3.GOOGLEMAIL.COM.
-lv.vlaanderen.be,7,wikidata;wikidata,Department of Agriculture and Fisheries,central-1,200,0 lv-vlaanderen-be.mail.protection.outlook.com.
+lv.vlaanderen.be,7,wikidata,Department of Agriculture and Fisheries,central-1,200,0 lv-vlaanderen-be.mail.protection.outlook.com.
 meteo.be,7,wikidata;academia,Royal Meteorological Institute,,301,10 mailserv.oma.be.
-mofaic.gov.ae,7,wikidata;wikidata,"embassy of United Arab Emirates in Belgium | Permanent Mission of the United Arab Emirates to NATO, Brussels",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mofaic.gov.ae,7,wikidata,"embassy of United Arab Emirates in Belgium | Permanent Mission of the United Arab Emirates to NATO, Brussels",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 nbb.be,7,wikidata;academia,National Bank of Belgium,central,302,10 nbb-be.mail.protection.outlook.com.
 ngi.be,7,wikidata;academia,National Geographic Institute,central,200,0 ngi-be.mail.protection.outlook.com.
-om-mp.be,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q107677931 | Q111686458 | Q107677924 | Q111686279 | Q107677926 | Q111686333 | Federal Prosecutor's Office | Q107677928 | Q107677934 | Q107677929 | Q107677935 | Labor Auditor | Q107677923 | Q111684859 | Q107677930 | Q111685045 | Q111685627 | Q111686198 | Public prosecutor’s office at the Court of Cassation | Q111686108 | Q111685878 | Q107677927 | Q107677933 | Q107677936 | Q107677922 | Q107677925,central,HttpConnectTimeoutException: HTTP connect timed out,none
-omgeving.vlaanderen.be,7,wikidata;wikidata,Department of Environment and Health,central-1,200,100 iris.omgeving.vlaanderen.be.; 100 hermes.omgeving.vlaanderen.be.
-onderwijs.vlaanderen.be,7,wikidata;wikidata,Flemish Ministry of Education and Training,central-1,301,none
-ostbelgienlive.be,7,wikidata;wikidata;wikidata,Government of the German-speaking Community | Representation of the German-speaking Community of Belgium in Brussels,central-1,403,10 mail.demetec.net.
-parlement-wallonie.be,7,wikidata;wikidata,Parliament of Wallonia,central-1,403,0 parlementwallonie-be02c.mail.protection.outlook.com.
-parlement.brussels,7,wikidata;wikidata,Parliament of the Brussels-Capital Region,central-1,301,10 mx6.irisnet.be.; 10 mx4.irisnet.be.; 10 mx5.irisnet.be.
-pdg.be,7,wikidata;wikidata,Parliament of the German-speaking Community,central-1,403,0 pdg-be.mail.protection.outlook.com.
-pfwb.be,7,wikidata;wikidata,Parliament of the French Community,central-1,ConnectException,10 mx1.pfwb.be.; 20 mx2.pfwb.be.
+om-mp.be,7,wikidata,Q107677931 | Q111686458 | Q107677924 | Q111686279 | Q107677926 | Q111686333 | Federal Prosecutor's Office | Q107677928 | Q107677934 | Q107677929 | Q107677935 | Labor Auditor | Q107677923 | Q111684859 | Q107677930 | Q111685045 | Q111685627 | Q111686198 | Public prosecutor’s office at the Court of Cassation | Q111686108 | Q111685878 | Q107677927 | Q107677933 | Q107677936 | Q107677922 | Q107677925,central,HttpConnectTimeoutException: HTTP connect timed out,none
+omgeving.vlaanderen.be,7,wikidata,Department of Environment and Health,central-1,200,100 iris.omgeving.vlaanderen.be.; 100 hermes.omgeving.vlaanderen.be.
+onderwijs.vlaanderen.be,7,wikidata,Flemish Ministry of Education and Training,central-1,301,none
+ostbelgienlive.be,7,wikidata,Government of the German-speaking Community | Representation of the German-speaking Community of Belgium in Brussels,central-1,403,10 mail.demetec.net.
+parlement-wallonie.be,7,wikidata,Parliament of Wallonia,central-1,403,0 parlementwallonie-be02c.mail.protection.outlook.com.
+parlement.brussels,7,wikidata,Parliament of the Brussels-Capital Region,central-1,301,10 mx6.irisnet.be.; 10 mx4.irisnet.be.; 10 mx5.irisnet.be.
+pdg.be,7,wikidata,Parliament of the German-speaking Community,central-1,403,0 pdg-be.mail.protection.outlook.com.
+pfwb.be,7,wikidata,Parliament of the French Community,central-1,ConnectException,10 mx1.pfwb.be.; 20 mx2.pfwb.be.
 plantentuinmeise.be,7,wikidata;academia,Meise Botanic Garden,central,301,10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-vlaamsparlement.be,7,wikidata;wikidata,Flemish Parliament,central-1,403,0 vlaamsparlement-be.mail.protection.outlook.com.
-be.brussels,6,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Brussels Mobility | Government of the Brussels-Capital Region,central-1,307,10 mx6.irisnet.be.; 10 mx4.irisnet.be.; 10 mx5.irisnet.be.
+vlaamsparlement.be,7,wikidata,Flemish Parliament,central-1,403,0 vlaamsparlement-be.mail.protection.outlook.com.
+be.brussels,6,wikidata,Brussels Mobility | Government of the Brussels-Capital Region,central-1,307,10 mx6.irisnet.be.; 10 mx4.irisnet.be.; 10 mx5.irisnet.be.
 bisa.brussels,6,wikidata;academia,Q54804002,,200,none
 const-court.be,6,wikidata,Constitutional Court of Belgium,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 antispam.const-court.be.
-ejp.eu,6,wikidata;wikidata,European Jewish Parliament,,200,1 mail.ejp.eu.
-equal.brussels,6,wikidata;wikidata,equal.brussels,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-gemeenschappelijknautischbeheer.net,6,wikidata;wikidata,Q137655938,,ConnectException,none
-mobilite-mobiliteit.brussels,6,wikidata;wikidata,Brussels Mobility,central-1,301,none
-mzv.cz,6,wikidata;wikidata,Permanent Mission of the Czech Republic to the European Union | embassy of the Czech Republic in Belgium,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
-mzv.sk,6,wikidata;wikidata,"Embassy of Slovenia, Brussels",central,301,10 mail.gov.sk.
-nato-pa.int,6,wikidata;wikidata,NATO Parliamentary Assembly,,301,5 natopa-int01b.mail.protection.outlook.com.
-nato.mfa.am,6,wikidata;wikidata,Permanent Mission of Armenia to NATO,,301,none
-norway.no,6,wikidata;wikidata,"Embassy of Norway, Brussels | Permanent Mission of Norway to NATO",central,301,0 mx.domeneshop.no.
-swedenabroad.se,6,wikidata;wikidata,Permanent Mission of Sweden to NATO | Consulate General of Sweden in Brussels,,301,none
-taiwanembassy.org,6,wikidata;wikidata,Taipei Representative Office in the EU and Belgium,,302,none
+ejp.eu,6,wikidata,European Jewish Parliament,,200,1 mail.ejp.eu.
+equal.brussels,6,wikidata,equal.brussels,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+gemeenschappelijknautischbeheer.net,6,wikidata,Q137655938,,ConnectException,none
+mobilite-mobiliteit.brussels,6,wikidata,Brussels Mobility,central-1,301,none
+mzv.cz,6,wikidata,Permanent Mission of the Czech Republic to the European Union | embassy of the Czech Republic in Belgium,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
+mzv.sk,6,wikidata,"Embassy of Slovenia, Brussels",central,301,10 mail.gov.sk.
+nato-pa.int,6,wikidata,NATO Parliamentary Assembly,,301,5 natopa-int01b.mail.protection.outlook.com.
+nato.mfa.am,6,wikidata,Permanent Mission of Armenia to NATO,,301,none
+norway.no,6,wikidata,"Embassy of Norway, Brussels | Permanent Mission of Norway to NATO",central,301,0 mx.domeneshop.no.
+swedenabroad.se,6,wikidata,Permanent Mission of Sweden to NATO | Consulate General of Sweden in Brussels,,301,none
+taiwanembassy.org,6,wikidata,Taipei Representative Office in the EU and Belgium,,302,none
 uantwerpen.be,6,academia;ror,Ruusbroecgenootschap Universiteit Antwerpen - Bibliotheek,central-1,,
 uclouvain.be,6,academia;ror,Tuin van Geneeskrachtige planten,central-1,,
 uhasselt.be,6,academia;ror,Hasselt University,central-1,,
@@ -386,15 +386,15 @@ vives.be,3,ror,Katholieke Hogeschool Vives,central-1,,
 vlir.be,3,ror,Vlaamse Interuniversitaire Raad,central-1,,
 vub.be,3,ror,Vrije Universiteit Brussel,central-1,,
 web.umons.ac.be,3,ror,University of Mons,central-1,,
-arch.arch.be,2,wikidata;wikidata;wikidata;wikidata,State Archives in Bruges | Algemeen rijksarchief en rijksarchief in de provinciën Rijksarchief Beveren | Algemeen Rijksarchief en Rijksarchief in de Provinciën Anderlecht | Algemeen Rijksarchief en Rijksarchief in de Provinciën Leuven,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-aseva.be,2,wikidata;wikidata;wikidata,Q136315401,,200,10 aseva-be.mail.protection.outlook.com.
+arch.arch.be,2,wikidata,State Archives in Bruges | Algemeen rijksarchief en rijksarchief in de provinciën Rijksarchief Beveren | Algemeen Rijksarchief en Rijksarchief in de Provinciën Anderlecht | Algemeen Rijksarchief en Rijksarchief in de Provinciën Leuven,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+aseva.be,2,wikidata,Q136315401,,200,10 aseva-be.mail.protection.outlook.com.
 bu.edu,2,ror,Boston University Brussels,central-1,,
 carolus-magnus-university.eu,2,ror,Carolus Magnus University,central-1,,
-ewi-vlaanderen.be,2,wikidata;wikidata;wikidata;wikidata;wikidata,"Department of Economy, Sciency & Innovation | Departement Werk, Economie, Wetenschap, Innovatie en Sociale Economie",,301,10 mx.mailprotect.be.; 50 mx.backup.mailprotect.be.
+ewi-vlaanderen.be,2,wikidata,"Department of Economy, Sciency & Innovation | Departement Werk, Economie, Wetenschap, Innovatie en Sociale Economie",,301,10 mx.mailprotect.be.; 50 mx.backup.mailprotect.be.
 tul.edu,2,ror,Transnational University Limburg,central-1,,
 unica-network.eu,2,ror,Network of the Universities from the Capitals of Europe,central-1,,
-vdab.be,2,wikidata;wikidata;wikidata;wikidata,Flemish Service for Employment and Vocational Training,,301,200 ALT1.ASPMX.L.GOOGLE.COM.; 100 ASPMX.L.GOOGLE.COM.; 200 ALT2.ASPMX.L.GOOGLE.COM.; 400 ALT4.ASPMX.L.GOOGLE.COM.; 300 ALT3.ASPMX.L.GOOGLE.COM.
-belgien.um.dk,1,wikidata;wikidata;wikidata,Danish embassy in Belgium,central,301,none
-beneluxparl.eu,1,wikidata;wikidata;wikidata;wikidata,Benelux Parliament,,302,5 mta-gw.infomaniak.ch.
-eu.um.dk,1,wikidata;wikidata;wikidata,Permanent Representation of Denmark to The European Union,,301,none
-finlandabroad.fi,1,wikidata;wikidata;wikidata,Permanent Representation of Finland to the European Union | Embassy of Finland in Belgium | Permanent Representation of Finland to NATO,central,301,10 mail.valtori.fi.
+vdab.be,2,wikidata,Flemish Service for Employment and Vocational Training,,301,200 ALT1.ASPMX.L.GOOGLE.COM.; 100 ASPMX.L.GOOGLE.COM.; 200 ALT2.ASPMX.L.GOOGLE.COM.; 400 ALT4.ASPMX.L.GOOGLE.COM.; 300 ALT3.ASPMX.L.GOOGLE.COM.
+belgien.um.dk,1,wikidata,Danish embassy in Belgium,central,301,none
+beneluxparl.eu,1,wikidata,Benelux Parliament,,302,5 mta-gw.infomaniak.ch.
+eu.um.dk,1,wikidata,Permanent Representation of Denmark to The European Union,,301,none
+finlandabroad.fi,1,wikidata,Permanent Representation of Finland to the European Union | Embassy of Finland in Belgium | Permanent Representation of Finland to NATO,central,301,10 mail.valtori.fi.

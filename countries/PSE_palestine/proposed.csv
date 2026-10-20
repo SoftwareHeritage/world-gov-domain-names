@@ -1,22 +1,22 @@
 hostname,score,sources,label,level,http_status,mx
-minfo.ps,7,wikidata;wikidata,Ministry of Information (State of Palestine),central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,5 minfo.email.gov.ps.
-moa.pna.ps,7,wikidata;wikidata,Ministry of Agriculture,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching moa.pna.ps found.,5 moa.email.gov.ps.
-mobpla.pna.ps,7,wikidata;wikidata,Palestinian Land Authority,central,HttpConnectTimeoutException: HTTP connect timed out,none
-moc.pna.ps,7,wikidata;wikidata,Ministry of Culture (State of Palestine),central,200,5 moc.email.gov.ps.
-moe.pna.ps,7,wikidata;wikidata,Education Ministry of the Palestinian National Authority,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 1164512305.mail.outlook.com.
-mofa.pna.ps,7,wikidata;wikidata,Ministry of Foreign Affairs and Expatriates of the State of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mxr.mofa.pna.ps.
-moh.ps,7,wikidata;wikidata,Ministry of Health of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 moh.email.gov.ps.
-moj.pna.ps,7,wikidata;wikidata,Ministry of Justice (Palestine),central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 moj.email.gov.ps.
-mol.pna.ps,7,wikidata;wikidata,Palestinian Ministry of Labour,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mol.email.gov.ps.
-molg.pna.ps,7,wikidata;wikidata,Ministry of Local Government,central,200,0 molg.email.gov.ps.
-nsf.ps,7,wikidata;wikidata,Palestinian National Security Forces,,200,none
-pal-wakf.ps,7,wikidata;wikidata,Ministry of Awqaf and Religious Affairs (Palestine),central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,1 pal-wakf.email.gov.ps.
-plc.ps,7,wikidata;wikidata,Palestinian Legislative Council,central,302,5 mailgw01.gov.ps.
-tourism.ps,7,wikidata;wikidata,Ministry of Tourism and Antiquities,central,200,none
+minfo.ps,7,wikidata,Ministry of Information (State of Palestine),central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,5 minfo.email.gov.ps.
+moa.pna.ps,7,wikidata,Ministry of Agriculture,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching moa.pna.ps found.,5 moa.email.gov.ps.
+mobpla.pna.ps,7,wikidata,Palestinian Land Authority,central,HttpConnectTimeoutException: HTTP connect timed out,none
+moc.pna.ps,7,wikidata,Ministry of Culture (State of Palestine),central,200,5 moc.email.gov.ps.
+moe.pna.ps,7,wikidata,Education Ministry of the Palestinian National Authority,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 1164512305.mail.outlook.com.
+mofa.pna.ps,7,wikidata,Ministry of Foreign Affairs and Expatriates of the State of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mxr.mofa.pna.ps.
+moh.ps,7,wikidata,Ministry of Health of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 moh.email.gov.ps.
+moj.pna.ps,7,wikidata,Ministry of Justice (Palestine),central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 moj.email.gov.ps.
+mol.pna.ps,7,wikidata,Palestinian Ministry of Labour,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mol.email.gov.ps.
+molg.pna.ps,7,wikidata,Ministry of Local Government,central,200,0 molg.email.gov.ps.
+nsf.ps,7,wikidata,Palestinian National Security Forces,,200,none
+pal-wakf.ps,7,wikidata,Ministry of Awqaf and Religious Affairs (Palestine),central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,1 pal-wakf.email.gov.ps.
+plc.ps,7,wikidata,Palestinian Legislative Council,central,302,5 mailgw01.gov.ps.
+tourism.ps,7,wikidata,Ministry of Tourism and Antiquities,central,200,none
 alaqsa.edu.ps,6,academia;ror,al-Aqsa University,central,,
-custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
-pal-plc.org,6,wikidata;wikidata,Palestinian Legislative Council,central,HttpConnectTimeoutException: HTTP connect timed out,5 pal-plc.email.gov.ps.
-palestinepnc.org,6,wikidata;wikidata,Palestinian National Council,,HttpTimeoutException: request timed out,0 mail.palestinepnc.org.
+custodia.org,6,wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+pal-plc.org,6,wikidata,Palestinian Legislative Council,central,HttpConnectTimeoutException: HTTP connect timed out,5 pal-plc.email.gov.ps.
+palestinepnc.org,6,wikidata,Palestinian National Council,,HttpTimeoutException: request timed out,0 mail.palestinepnc.org.
 hebron.edu,5,academia;ror,Hebron University,central,,
 qou.edu,5,academia;ror,Al-Quds Open University,central,,
 alistiqlal.edu.ps,4,academia,Al-Istiqlal University,central,,
@@ -96,4 +96,4 @@ bethlehem.edu,2,ror,Bethlehem University,central,,
 birzeit.edu,2,ror,Birzeit University,central,,
 najah.edu,2,ror,An-Najah National University,central,,
 ppu.edu,2,ror,Palestine Polytechnic University,central,,
-site.moh.ps,2,wikidata;wikidata;wikidata,Ministry of Health | Ministry of Health of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+site.moh.ps,2,wikidata,Ministry of Health | Ministry of Health of Palestine,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

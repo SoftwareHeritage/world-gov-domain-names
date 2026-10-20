@@ -1,10 +1,10 @@
 hostname,score,sources,label,level,http_status,mx
-superiorcourts.org.na,9,wikidata;wikidata,Supreme Court of Namibia | High Court of Namibia,,ConnectException,none
-parliament.na,8,wikidata;wikidata;wikidata;wikidata,National Council of Namibia | Parliament of Namibia | National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,10 mailgateway.parliament.na.
-mof.na,7,wikidata;wikidata,Ministry of Finance,central,ConnectException,none
+superiorcourts.org.na,9,wikidata,Supreme Court of Namibia | High Court of Namibia,,ConnectException,none
+parliament.na,8,wikidata,National Council of Namibia | Parliament of Namibia | National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,10 mailgateway.parliament.na.
+mof.na,7,wikidata,Ministry of Finance,central,ConnectException,none
 nsa.org.na,7,wikidata;academia,Namibia Statistics Agency,central,200,0 nsa-org-na.mail.protection.outlook.com.
 unam.edu.na,6,academia;ror,University of Namibia,central,,
-windhuk.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Windhoek",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
+windhuk.diplo.de,6,wikidata,"Embassy of Germany, Windhoek",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 bon.com.na,4,wikidata,Bank of Namibia,,HttpConnectTimeoutException: HTTP connect timed out,0 complaints-bon-com-na.mail.protection.outlook.com.; 0 bon-com-na.mail.protection.outlook.com.; 0 cmp-complaints-bon-com-na.mail.protection.outlook.com.
 citypolice.org.na,4,wikidata,Windhoek City Police Service,,ConnectException,none
 ecn.na,4,wikidata,Electoral Commission of Namibia,central,301,5 mx-in.mailsentri.com.

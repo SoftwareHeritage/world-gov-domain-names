@@ -1,12 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
-mosy.sy,7,wikidata;wikidata,Ministry of Youth and Sports,,200,0 mosy.sy.
-nscl.sy,7,wikidata;wikidata,National Standards and Calibration Laboratory,,ConnectException,none
-custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+mosy.sy,7,wikidata,Ministry of Youth and Sports,,200,0 mosy.sy.
+nscl.sy,7,wikidata,National Standards and Calibration Laboratory,,ConnectException,none
+custodia.org,6,wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
 damascusuniversity.edu.sy,6,academia;ror,Damascus University,central,,
 egov.sy,6,un_desa,UN/DESA national portal,,ConnectException,none
-sanasyria.org,6,wikidata;wikidata,Syrian Arab News Agency,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sanasyria.org.
-syriaig.org,6,wikidata;wikidata,Syrian Interim Government,,403,10 syriaig.org.; 0 syriaig.org.
-syrien.um.dk,6,wikidata;wikidata,embassy of Denmark in Syria,central,301,none
+sanasyria.org,6,wikidata,Syrian Arab News Agency,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.sanasyria.org.
+syriaig.org,6,wikidata,Syrian Interim Government,,403,10 syriaig.org.; 0 syriaig.org.
+syrien.um.dk,6,wikidata,embassy of Denmark in Syria,central,301,none
 svuonline.org,5,academia;ror,Syrian Virtual University,central,,
 aec.org.sy,4,wikidata,Atomic Energy Commission of Syria,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 as.aec.org.sy.
 gors.sy,4,wikidata,General Organization of Remote Sensing,,ConnectException,10 mail.gors.sy.

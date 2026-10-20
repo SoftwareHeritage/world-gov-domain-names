@@ -1,20 +1,20 @@
 hostname,score,sources,label,level,http_status,mx
-univ-annaba.dz,9,academia;academia;ror,Badji Mokhtar-Annaba University | Laboratoire de Physique des Rayonnements,central,,
-usthb.dz,9,academia;academia;ror,"Laboratoire d'Énergétique et de Mécanique Théorique et Appliquée | University of Science and Technology, Houari Boumediene",central,,
-ansej.org.dz,7,wikidata;wikidata,Agence nationale de soutien à l'emploi des jeunes,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
+univ-annaba.dz,9,academia;ror,Badji Mokhtar-Annaba University | Laboratoire de Physique des Rayonnements,central,,
+usthb.dz,9,academia;ror,"Laboratoire d'Énergétique et de Mécanique Théorique et Appliquée | University of Science and Technology, Houari Boumediene",central,,
+ansej.org.dz,7,wikidata,Agence nationale de soutien à l'emploi des jeunes,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 cerist.dz,7,wikidata;academia,Centre de Recherche sur l'Information Scientifique et Technique,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cerist.dz found.,20 mx02.cerist.dz.; 10 mx.cerist.dz.
-crasc.dz,7,academia;academia,Centre de Recherche en Anthropologie Sociale et Culturelle | Centre of Research in Social and Cultural Anthropology,central,,
-crstra.dz,7,academia;academia,Centre de Recherche Scientifique et Technique sur les Régions Arides | Q2945447,central,,
-dgsn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata,Algerian police | General Directorate of National Security,central,ConnectException,none
-elmadjlis-hci.dz,7,wikidata;wikidata,Supreme Islamic Council of Algeria,,301,10 mail.elmadjlis-hci.dz.
-inrf.dz,7,academia;academia,Institut National de Recherche Forestière | National Forest Research Institute,central,,
-m-moudjahidine.dz,7,wikidata;wikidata,Ministry of Mujahidin,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.m-moudjahidine.dz.
-mdn.dz,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ministry of National Defense (Algeria) | État-major de l'armée algérienne | National Gendarmerie,central,ConnectException,10 mxrelay.mdn.dz.
-mesrs.dz,7,wikidata;wikidata,Ministry of Higher Education and Scientific Research,central,ConnectException,10 gateway.mesrs.dz.; 20 mail.mesrs.dz.; 30 mail1.mesrs.dz.
-mptic.dz,7,wikidata;wikidata,Ministry of Post and Telecommunications,central,ConnectException,0 mail.mptic.dz.
-ogebc.dz,7,wikidata;wikidata,Q92324509,,200,0 ogebc.dz.
-sante.dz,7,wikidata;wikidata,Ministère de la Santé,,HttpConnectTimeoutException: HTTP connect timed out,none
-apn-dz.org,6,wikidata;wikidata,Parliament of Algeria,central,200,10 mx01.lolipop.jp.
+crasc.dz,7,academia,Centre de Recherche en Anthropologie Sociale et Culturelle | Centre of Research in Social and Cultural Anthropology,central,,
+crstra.dz,7,academia,Centre de Recherche Scientifique et Technique sur les Régions Arides | Q2945447,central,,
+dgsn.dz,7,wikidata,Algerian police | General Directorate of National Security,central,ConnectException,none
+elmadjlis-hci.dz,7,wikidata,Supreme Islamic Council of Algeria,,301,10 mail.elmadjlis-hci.dz.
+inrf.dz,7,academia,Institut National de Recherche Forestière | National Forest Research Institute,central,,
+m-moudjahidine.dz,7,wikidata,Ministry of Mujahidin,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mail.m-moudjahidine.dz.
+mdn.dz,7,wikidata,Ministry of National Defense (Algeria) | État-major de l'armée algérienne | National Gendarmerie,central,ConnectException,10 mxrelay.mdn.dz.
+mesrs.dz,7,wikidata,Ministry of Higher Education and Scientific Research,central,ConnectException,10 gateway.mesrs.dz.; 20 mail.mesrs.dz.; 30 mail1.mesrs.dz.
+mptic.dz,7,wikidata,Ministry of Post and Telecommunications,central,ConnectException,0 mail.mptic.dz.
+ogebc.dz,7,wikidata,Q92324509,,200,0 ogebc.dz.
+sante.dz,7,wikidata,Ministère de la Santé,,HttpConnectTimeoutException: HTTP connect timed out,none
+apn-dz.org,6,wikidata,Parliament of Algeria,central,200,10 mx01.lolipop.jp.
 coursupreme.dz,6,wikidata,Supreme Court of Algeria,central,200,10 mail.coursupreme.dz.
 el-mouradia.dz,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.el-mouradia.dz.
 univ-alger.dz,6,academia;ror,University of Algiers 1,central,,
@@ -25,7 +25,7 @@ univ-boumerdes.dz,6,academia;ror,M'hamed Bougara University of Boumerdès,centra
 univ-chlef.dz,6,academia;ror,Hassiba Benbouali University of Chlef,central,,
 univ-oran1.dz,6,academia;ror,Laboratoire de Chimie Physique,central,,
 univ-saida.dz,6,academia;ror,Université Tahar Moulay de Saida,central,,
-wikidata.org,6,wikidata;wikidata,Ministry of Agriculture and Rural Development,central,301,10 mx-in2001.wikimedia.org.; 10 mx-in1001.wikimedia.org.
+wikidata.org,6,wikidata,Ministry of Agriculture and Rural Development,central,301,10 mx-in2001.wikimedia.org.; 10 mx-in1001.wikimedia.org.
 abhcsm.dz,4,wikidata,Agence de Bassin Hydrographique Constantinois-Seybousse-Mellegue,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching abhcsm.dz found.,none
 alnaft.dz,4,wikidata,National agency for the valorization of hydrocarbon resource,,ConnectException,10 mx2.alnaft.dz.; 10 mx1.alnaft.dz.
 anem.dz,4,wikidata,National Employment Agency,,ConnectException,0 mail.anem.dz.
@@ -174,9 +174,9 @@ univ-tiaret.dz,3,ror,Université IBN Khaldoun Tiaret,central,,
 univ-tissemsilt.dz,3,ror,Tissemsilt University,central,,
 univ-tlemcen.dz,3,ror,University of Abou Bekr Belkaïd,central,,
 univ-usto.dz,3,ror,Université des Sciences et de la Technologie d'Oran Mohamed Boudiaf,central,,
-comena.dz,2,academia;academia;academia;academia,Centre de Recherche Nucléaire d'Alger | Centre de Recherche Nucléaire de Birine | Centre de Recherche Nucléaire de Draria | Centre de Recherche Nucléaire de Tamenghasset,,,
-cour-constitutionnelle.dz,2,wikidata;wikidata;wikidata,Constitutional Court (Algeria) | Constitutional Council of Algeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.cour-constitutionnelle.dz.
-dgf.org.dz,2,wikidata;wikidata;academia;academia,Q25386281 | Q25387129,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.djaweb.dz.
-mjustice.dz,2,wikidata;wikidata;wikidata,Ministry of Justice | Boumerdès Court,central,301,10 mailserver.mjustice.dz.
+comena.dz,2,academia,Centre de Recherche Nucléaire d'Alger | Centre de Recherche Nucléaire de Birine | Centre de Recherche Nucléaire de Draria | Centre de Recherche Nucléaire de Tamenghasset,,,
+cour-constitutionnelle.dz,2,wikidata,Constitutional Court (Algeria) | Constitutional Council of Algeria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.cour-constitutionnelle.dz.
+dgf.org.dz,2,wikidata;academia,Q25386281 | Q25387129,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.djaweb.dz.
+mjustice.dz,2,wikidata,Ministry of Justice | Boumerdès Court,central,301,10 mailserver.mjustice.dz.
 pau-au.africa,2,ror,Pan African University Institute of Water and Energy Science,central,,
 univ-khenchela.com,2,ror,Abbès Laghrour University of Khenchela,central,,

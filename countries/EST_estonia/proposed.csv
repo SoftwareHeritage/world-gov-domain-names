@@ -1,11 +1,11 @@
 hostname,score,sources,label,level,http_status,mx
 eki.ee,7,wikidata;academia,Institute of the Estonian Language,central,200,10 eki-ee.mail.protection.outlook.com.
-fi.ee,7,wikidata;wikidata,Financial Supervision Authority,central,301,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
-genomics.ut.ee,7,academia;academia,Estonian Biocentre | Estonian Genome Project,,,
-politsei.ee,7,wikidata;wikidata,Estonian Police | Police and Border Guard Board,,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
+fi.ee,7,wikidata,Financial Supervision Authority,central,301,10 smtp.epbe.ee.; 20 smtp2.epbe.ee.
+genomics.ut.ee,7,academia,Estonian Biocentre | Estonian Genome Project,,,
+politsei.ee,7,wikidata,Estonian Police | Police and Border Guard Board,,301,30 mx3.smit.ee.; 10 mx1.smit.ee.; 20 mx2.smit.ee.
 riigikantselei.ee,7,wikidata;linkgraph,Government Office,,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
 stat.ee,7,wikidata;academia,Statistics Estonia,central,301,10 mail1.rit.ee.; 10 mail3.rit.ee.
-ttu.ee,7,academia;academia,Estonian Maritime Academy of the Tallinn University of Technology | Virumaa College of the Tallinn University of Technology,,,
+ttu.ee,7,academia,Estonian Maritime Academy of the Tallinn University of Technology | Virumaa College of the Tallinn University of Technology,,,
 riigikohus.ee,6,wikidata,Supreme Court of Estonia,central,302,10 mx.riigikohus.ee.
 riigiteataja.ee,6,linkgraph,Linked from 10 public-sector domains,,302,10 mail3.rit.ee.; 10 mail1.rit.ee.
 tlu.ee,6,academia;ror,Tallinn University,central,,
@@ -83,4 +83,4 @@ tktk.ee,3,ror,Tallinn University of Applied Sciences,central,,
 ttk.ee,3,ror,Tallinn Health University of Applied Sciences,central,,
 tyche.institute,3,academia,Tyche Institute,,,
 euas.eu,2,ror,Estonian Entrepreneurship University of Applied Sciences,central,,
-terviseamet.ee,2,wikidata;wikidata;wikidata,Health Board,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.
+terviseamet.ee,2,wikidata,Health Board,,200,10 mail1.rit.ee.; 10 mail3.rit.ee.

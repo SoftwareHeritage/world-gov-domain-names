@@ -1,17 +1,17 @@
 hostname,score,sources,label,level,http_status,mx
-affaires-religieuses.tn,7,wikidata;wikidata,Ministry of Religious Affairs,central,302,5 mx6email.ingw.tn.; 5 mx5email.ingw.tn.
-agriculture.tn,7,wikidata;wikidata,Ministry of Agriculture,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
-cnrsm.rnrt.tn,7,academia;academia,Centre National de Recherches en Sciences des Matériaux | National Center for Research in Materials Sciences,central,,
-crten.rnrt.tn,7,academia;academia,Centre de Recherche et des Technologies de l'Energie | Research and Technology Center of Energy,central,,
-defense.tn,7,wikidata;wikidata,Ministry of Defence,central,200,50 mx2defense.ingw.tn.; 20 mail.defense.tn.; 10 ksmg.defense.tn.; 40 mx1defense.ingw.tn.
-inrap.rnrt.tn,7,academia;academia,Institut National de Recherche et d'Analyse Physico-chimique | National Institute of Research and Physico and Chemical Analysis,central,,
+affaires-religieuses.tn,7,wikidata,Ministry of Religious Affairs,central,302,5 mx6email.ingw.tn.; 5 mx5email.ingw.tn.
+agriculture.tn,7,wikidata,Ministry of Agriculture,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
+cnrsm.rnrt.tn,7,academia,Centre National de Recherches en Sciences des Matériaux | National Center for Research in Materials Sciences,central,,
+crten.rnrt.tn,7,academia,Centre de Recherche et des Technologies de l'Energie | Research and Technology Center of Energy,central,,
+defense.tn,7,wikidata,Ministry of Defence,central,200,50 mx2defense.ingw.tn.; 20 mail.defense.tn.; 10 ksmg.defense.tn.; 40 mx1defense.ingw.tn.
+inrap.rnrt.tn,7,academia,Institut National de Recherche et d'Analyse Physico-chimique | National Institute of Research and Physico and Chemical Analysis,central,,
 ins.tn,7,wikidata;academia,National Institute of Statistics,central,200,0 ins-tn.mail.protection.outlook.com.
-mes.tn,7,wikidata;wikidata,Ministry of Higher Education and Scientific Research,central,ConnectException,10 mx3.rnu.tn.; 10 mx1.rnu.tn.; 10 mx2.rnu.tn.
+mes.tn,7,wikidata,Ministry of Higher Education and Scientific Research,central,ConnectException,10 mx3.rnu.tn.; 10 mx1.rnu.tn.; 10 mx2.rnu.tn.
 meteo.tn,7,wikidata;academia,National Institute of Meteorology | Institut National de la Météorologie,central,503,10 meteo-tn.mail.protection.outlook.com.
-mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, Tunis",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
-santetunisie.rns.tn,7,wikidata;wikidata,Ministry of Health,central,HttpConnectTimeoutException: HTTP connect timed out,none
-sport.tn,7,wikidata;wikidata,Ministry of Youth and Sports,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sport.tn found.,50 mx2email.ingw.tn.; 10 mx1email.ingw.tn.
-transport.tn,7,wikidata;wikidata,Ministry of Transport,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
+mofaic.gov.ae,7,wikidata,"Embassy of the United Arab Emirates, Tunis",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+santetunisie.rns.tn,7,wikidata,Ministry of Health,central,HttpConnectTimeoutException: HTTP connect timed out,none
+sport.tn,7,wikidata,Ministry of Youth and Sports,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sport.tn found.,50 mx2email.ingw.tn.; 10 mx1email.ingw.tn.
+transport.tn,7,wikidata,Ministry of Transport,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
 cassation.tn,6,wikidata,Court of Cassation,,ConnectException,none
 enit.rnu.tn,6,academia;ror,Laboratoire de Génie Électrique de Tunis,central,,
 ucar.rnu.tn,6,academia;ror,Carthage University,central,,
@@ -154,7 +154,7 @@ utm.rnu.tn,3,ror,Tunis El Manar University,central,,
 utunis.rnu.tn,3,ror,Tunis University,central,,
 uvt.rnu.tn,3,ror,Virtual University of Tunis,central,,
 uz.rnu.tn,3,ror,Ez-Zitouna University,central,,
-domainetat.tn,2,wikidata;wikidata;wikidata,Ministry of State Domains and Land Affairs | Ministry of State Domains,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 gwmail2.ati.tn.; 5 gwmail1.ati.tn.
+domainetat.tn,2,wikidata,Ministry of State Domains and Land Affairs | Ministry of State Domains,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 gwmail2.ati.tn.; 5 gwmail1.ati.tn.
 medecinesfax.org,2,ror,Faculty of Medicine of Sfax,central,,
 ult-tunisie.com,2,ror,Tunisia Private University,central,,
 univ-internationale.com,2,ror,Université Internationale de Tunis,central,,

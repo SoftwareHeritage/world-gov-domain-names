@@ -1,28 +1,28 @@
 hostname,score,sources,label,level,http_status,mx
-uefs.br,9,academia;academia;ror,Botanic Forest Garden | State University of Feira de Santana,central-1,,
-ufmg.br,9,wikidata;academia;academia;ror,Centro Cultural UFMG | Federal University of Minas Gerais | Museu de História Natural e Jardim Botânico da Universidade Federal de Minas Gerais,central,301,10 mail-interno-pmg.ufmg.br.; 90 mail-pmg.ufmg.br.
-ufrgs.br,9,academia;academia;academia;academia;ror,Instituto de Pesquisas Hidráulicas da Universidade Federal do Rio Grande do Sul | Laboratório de Estudos Sobre os Usos Políticos do Passado (Luppa) | Margem ̠ laboratório | Q122950237,central,,
-www2.ufjf.br,9,academia;academia;ror,Federal University of Juiz de Fora | Q130443229,central,,
-al.ac.leg.br,7,wikidata;wikidata,Legislative Assembly of Acre,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching al.ac.leg.br found.,10 mail.al.ac.leg.br.
-al.al.leg.br,7,wikidata;wikidata,Legislative Assembly of Alagoas,central-1,308,10 naumailmtain2.interlegis.leg.br.; 10 naumailmtain3.interlegis.leg.br.; 10 naumailmtain1.interlegis.leg.br.
-al.go.leg.br,7,wikidata;wikidata,Legislative Assembly of Goiás,central-1,302,0 al-go-leg-br.mail.protection.outlook.com.
-al.ma.leg.br,7,wikidata;wikidata,Legislative Assembly of Maranhão,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 pmg.al.ma.leg.br.; 15 zmail.al.ma.leg.br.
-al.pb.leg.br,7,wikidata;wikidata,Legislative Assembly of Paraíba,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching al.pb.leg.br found.,0 al-pb-leg-br.mail.protection.outlook.com.
-al.pi.leg.br,7,wikidata;wikidata,Legislative Assembly of Piauí,central-1,308,10 al-pi-leg-br.mail.protection.outlook.com.
-al.ro.leg.br,7,wikidata;wikidata,Legislative Assembly of Rondônia,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching al.ro.leg.br found.,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-al.rr.leg.br,7,wikidata;wikidata,Legislative Assembly of Roraima,central-1,200,10 naumailmtain3.interlegis.leg.br.; 10 naumailmtain1.interlegis.leg.br.; 10 naumailmtain2.interlegis.leg.br.
-cena.usp.br,7,academia;academia,Center of Nuclear Energy in Agriculture of the University of São Paulo | Plant Biotechnology Laboratory (CENA-USP),,,
-congressonacional.leg.br,7,wikidata;wikidata,National Congress of Brazil,central,ConnectException,5 congressonacional-leg-br.mail.protection.outlook.com.
-franciscanos.org.br,7,wikidata;wikidata,Q10354750,,ConnectException,1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+uefs.br,9,academia;ror,Botanic Forest Garden | State University of Feira de Santana,central-1,,
+ufmg.br,9,wikidata;academia;ror,Centro Cultural UFMG | Federal University of Minas Gerais | Museu de História Natural e Jardim Botânico da Universidade Federal de Minas Gerais,central,301,10 mail-interno-pmg.ufmg.br.; 90 mail-pmg.ufmg.br.
+ufrgs.br,9,academia;ror,Instituto de Pesquisas Hidráulicas da Universidade Federal do Rio Grande do Sul | Laboratório de Estudos Sobre os Usos Políticos do Passado (Luppa) | Margem ̠ laboratório | Q122950237,central,,
+www2.ufjf.br,9,academia;ror,Federal University of Juiz de Fora | Q130443229,central,,
+al.ac.leg.br,7,wikidata,Legislative Assembly of Acre,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching al.ac.leg.br found.,10 mail.al.ac.leg.br.
+al.al.leg.br,7,wikidata,Legislative Assembly of Alagoas,central-1,308,10 naumailmtain2.interlegis.leg.br.; 10 naumailmtain3.interlegis.leg.br.; 10 naumailmtain1.interlegis.leg.br.
+al.go.leg.br,7,wikidata,Legislative Assembly of Goiás,central-1,302,0 al-go-leg-br.mail.protection.outlook.com.
+al.ma.leg.br,7,wikidata,Legislative Assembly of Maranhão,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 pmg.al.ma.leg.br.; 15 zmail.al.ma.leg.br.
+al.pb.leg.br,7,wikidata,Legislative Assembly of Paraíba,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching al.pb.leg.br found.,0 al-pb-leg-br.mail.protection.outlook.com.
+al.pi.leg.br,7,wikidata,Legislative Assembly of Piauí,central-1,308,10 al-pi-leg-br.mail.protection.outlook.com.
+al.ro.leg.br,7,wikidata,Legislative Assembly of Rondônia,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching al.ro.leg.br found.,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+al.rr.leg.br,7,wikidata,Legislative Assembly of Roraima,central-1,200,10 naumailmtain3.interlegis.leg.br.; 10 naumailmtain1.interlegis.leg.br.; 10 naumailmtain2.interlegis.leg.br.
+cena.usp.br,7,academia,Center of Nuclear Energy in Agriculture of the University of São Paulo | Plant Biotechnology Laboratory (CENA-USP),,,
+congressonacional.leg.br,7,wikidata,National Congress of Brazil,central,ConnectException,5 congressonacional-leg-br.mail.protection.outlook.com.
+franciscanos.org.br,7,wikidata,Q10354750,,ConnectException,1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 imea.com.br,7,wikidata;academia,Instituto Mato-Grossense de Economia Agropecuária,,200,5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx3.googlemail.com.
-jesuitasbrasil.org.br,7,wikidata;wikidata,Brazilian Province of the Society of Jesus,,200,0 jesuitasbrasil-org-br.mail.protection.outlook.com.
-escolapiosbrasilbolivia.org,6,wikidata;wikidata,Piarist province of Brazil-Bolivia,,301,0 mail.escolapiosbrasilbolivia.org.
-liastra.com,6,academia;academia,ICBS – International Center for Biomedical & Space Sciences | LIASTRA Institute,,,
+jesuitasbrasil.org.br,7,wikidata,Brazilian Province of the Society of Jesus,,200,0 jesuitasbrasil-org-br.mail.protection.outlook.com.
+escolapiosbrasilbolivia.org,6,wikidata,Piarist province of Brazil-Bolivia,,301,0 mail.escolapiosbrasilbolivia.org.
+liastra.com,6,academia,ICBS – International Center for Biomedical & Space Sciences | LIASTRA Institute,,,
 portal.stf.jus.br,6,wikidata,Supreme Federal Court,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 portal.ufpa.br,6,academia;ror,Universidade Federal do Pará,central,,
 portal.ufpel.edu.br,6,academia;ror,Federal University of Pelotas,central,,
 portal.unila.edu.br,6,academia;ror,Universidade Federal da Integração Latino-Americana,central,,
-saopaulo.consulfrance.org,6,wikidata;wikidata,"Consulate General of France, in São Paulo",,301,none
+saopaulo.consulfrance.org,6,wikidata,"Consulate General of France, in São Paulo",,301,none
 udesc.br,6,academia;ror,Universidade do Estado de Santa Catarina,central-1,,
 uemasul.edu.br,6,academia;ror,Universidade Estadual da Região Tocantina do Maranhão,central-1,,
 uenp.edu.br,6,academia;ror,Universidade Estadual do Norte do Paraná,central-1,,
@@ -60,7 +60,7 @@ unipampa.edu.br,6,academia;ror,Universidade Federal do Pampa,central,,
 unirio.br,6,academia;ror,Federal University of the State of Rio de Janeiro,central,,
 unitau.br,6,academia;ror,Universidade de Taubaté,,,
 univesp.br,6,academia;ror,Virtual University of the State of São Paulo,central-1,,
-vale.com,6,academia;academia,Centre for Mineral Development | Vale Botanical Park,,,
+vale.com,6,academia,Centre for Mineral Development | Vale Botanical Park,,,
 www2.fab.mil.br,6,wikidata;ror,Aeronautical Accidents Investigation and Prevention Center,,403,dig error
 www5.usp.br,6,academia;ror,University of São Paulo,central-1,,
 itv.org,5,academia;ror,Instituto Tecnológico Vale,,,
@@ -728,9 +728,9 @@ www2.unesp.br,3,ror,Universidade Estadual Paulista (Unesp),central-1,,
 www2.unicentro.br,3,ror,Universidade Estadual do Centro-Oeste,central-1,,
 www4.unievangelica.edu.br,3,ror,Universidade Evangelica de Goiás,central-1,,
 anhanguera.com,2,ror,Centro Universitário Anhanguera,,,
-embrapa.br,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Embrapa Acre | Embrapa Agricultural Informatics | Embrapa Agrobiology | Embrapa Agroenergy | Embrapa Agrosilvopastoral | Embrapa Amapá | Embrapa Beef Cattle | Embrapa Cassava & Fruits | Embrapa Cerrados | Embrapa Coastal Tablelands | Embrapa Cocais | Embrapa Coffee | Embrapa Cotton | Embrapa Eastern Amazon | Embrapa Environment | Embrapa Fisheries & Aquaculture | Embrapa Food Agroindustry | Embrapa Forestry | Embrapa Genetic Resources & Biotechnology | Embrapa Grape & Wine | Embrapa Maize & Sorghum | Embrapa Mid-North | Embrapa Pantanal | Embrapa Rice & Beans | Embrapa Rondônia | Embrapa Roraima | Embrapa Semi-Arid Region | Embrapa Southeastern Livestock | Embrapa Southern Livestock | Embrapa Soybean | Embrapa Temperate Agriculture | Embrapa Territorial | Embrapa Tropical Agroindustry | Embrapa Vegetables | Embrapa Western Amazon | Embrapa Western-Region Agriculture | Embrapa Wheat,,,
+embrapa.br,2,academia,Embrapa Acre | Embrapa Agricultural Informatics | Embrapa Agrobiology | Embrapa Agroenergy | Embrapa Agrosilvopastoral | Embrapa Amapá | Embrapa Beef Cattle | Embrapa Cassava & Fruits | Embrapa Cerrados | Embrapa Coastal Tablelands | Embrapa Cocais | Embrapa Coffee | Embrapa Cotton | Embrapa Eastern Amazon | Embrapa Environment | Embrapa Fisheries & Aquaculture | Embrapa Food Agroindustry | Embrapa Forestry | Embrapa Genetic Resources & Biotechnology | Embrapa Grape & Wine | Embrapa Maize & Sorghum | Embrapa Mid-North | Embrapa Pantanal | Embrapa Rice & Beans | Embrapa Rondônia | Embrapa Roraima | Embrapa Semi-Arid Region | Embrapa Southeastern Livestock | Embrapa Southern Livestock | Embrapa Soybean | Embrapa Temperate Agriculture | Embrapa Territorial | Embrapa Tropical Agroindustry | Embrapa Vegetables | Embrapa Western Amazon | Embrapa Western-Region Agriculture | Embrapa Wheat,,,
 fae.edu,2,ror,Centro Universitário Franciscano do Paraná,,,
-mar.mil.br,2,wikidata;wikidata;wikidata,"Secretaria de Ciência, Tecnologia e Inovação da Marinha | Interministerial Commission for Sea Resources | 1st Interceptor and Strike Fighter Squadron (Brazil)",,ConnectException,none
-mofaic.gov.ae,2,wikidata;wikidata;wikidata;wikidata,"Embassy of the United Arab Emirates, Brasilia | Consulate of the United Arab Emirates, Sao Paulo",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
+mar.mil.br,2,wikidata,"Secretaria de Ciência, Tecnologia e Inovação da Marinha | Interministerial Commission for Sea Resources | 1st Interceptor and Strike Fighter Squadron (Brazil)",,ConnectException,none
+mofaic.gov.ae,2,wikidata,"Embassy of the United Arab Emirates, Brasilia | Consulate of the United Arab Emirates, Sao Paulo",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
 unesc.net,2,ror,Universidade do Extremo Sul Catarinense,,,
 unibave.net,2,ror,Centro Universitário Barriga Verde,,,

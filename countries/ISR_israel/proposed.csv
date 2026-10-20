@@ -1,24 +1,24 @@
 hostname,score,sources,label,level,http_status,mx
-bgu.ac.il,9,academia;academia;ror,Ben-Gurion University of the Negev | The Zuckerberg Institute for Water Research,central,,
+bgu.ac.il,9,academia;ror,Ben-Gurion University of the Negev | The Zuckerberg Institute for Water Research,central,,
 bgh.org.il,7,wikidata;academia,The Ben Gurion Heritage Institute,,200,0 bgh-org-il.mail.protection.outlook.com.
-eastgalil.org.il,7,wikidata;wikidata,Q16338638,,200,0 eastgalil-org-il.mail.protection.outlook.com.
-humanities.tau.ac.il,7,academia;academia,Cohn Institute for the History and Philosophy of Science and Ideas | The Diaspora Research Center,,,
+eastgalil.org.il,7,wikidata,Q16338638,,200,0 eastgalil-org-il.mail.protection.outlook.com.
+humanities.tau.ac.il,7,academia,Cohn Institute for the History and Philosophy of Science and Ideas | The Diaspora Research Center,,,
 idf.il,7,wikidata;academia,Israel Defense Forces Medical Corps | The Dado Center for Interdisciplinary Military Studies,,ConnectException,0 idf-il.mail.protection.outlook.com.
-israelhpr.org.il,7,wikidata;wikidata;academia,Israel National Institute for Health Policy Research,central,301,none
-rabincenter.org.il,7,wikidata;wikidata,Yitzhak Rabin Center,,301,0 rabincenter-org-il.mail.protection.outlook.com.
-ruppin.ac.il,7,academia;academia,Ruppin Academic Center | The Institute for Immigration and Social Integration,,,
-shazar.org.il,7,wikidata;wikidata,The Zalman Shazar Center,,301,0 shazar-org-il.mail.protection.outlook.com.
-telaviv.mfa.gov.hu,7,wikidata;wikidata,"Hungarian embassy, Tel-Aviv",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+israelhpr.org.il,7,wikidata;academia,Israel National Institute for Health Policy Research,central,301,none
+rabincenter.org.il,7,wikidata,Yitzhak Rabin Center,,301,0 rabincenter-org-il.mail.protection.outlook.com.
+ruppin.ac.il,7,academia,Ruppin Academic Center | The Institute for Immigration and Social Integration,,,
+shazar.org.il,7,wikidata,The Zalman Shazar Center,,301,0 shazar-org-il.mail.protection.outlook.com.
+telaviv.mfa.gov.hu,7,wikidata,"Hungarian embassy, Tel-Aviv",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 vanleer.org.il,7,wikidata;academia,Van Leer Jerusalem Institute,,301,10 mail1.vanleer.org.il.; 0 vanleer-org-il.mail.protection.outlook.com.; 100 mx.bezeqint.net.
-arava.org,6,academia;academia,Arava Institute for Environmental Studies | Center for Sustainable Agriculture,,,
+arava.org,6,academia,Arava Institute for Environmental Studies | Center for Sustainable Agriculture,,,
 ariel.ac.il,6,academia;ror,Ariel University,central,,
-autoridadnasionala.wixsite.com,6,wikidata;wikidata,Autoridad Nasionala del Ladino | Akademia Nasionala del Ladino,,404,none
-custodia.org,6,wikidata;wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
+autoridadnasionala.wixsite.com,6,wikidata,Autoridad Nasionala del Ladino | Akademia Nasionala del Ladino,,404,none
+custodia.org,6,wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
 haifa.ac.il,6,academia;ror,University of Haifa,central,,
 iui-eilat.huji.ac.il,6,academia;ror,The Interuniversity Institute for Marine Sciences in Eilat,central,,
 openu.ac.il,6,academia;ror,Open University of Israel,central,,
-roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Office in Tel Aviv,,302,none
-wegalil.org,6,wikidata;wikidata,Eshkol - Galil Maaravi,,200,10 vps4044.secured-cloud.net.
+roc-taiwan.org,6,wikidata,Taipei Economic and Cultural Office in Tel Aviv,,302,none
+wegalil.org,6,wikidata,Eshkol - Galil Maaravi,,200,10 vps4044.secured-cloud.net.
 abbaeban.idc.ac.il,4,academia,Abba Eban Institute for Diplomacy and Foreign Relations,,,
 academy.ac.il,4,wikidata,Israel Academy of Sciences and Humanities,,200,0 plannet.cyfox.com.
 amlat.tau.ac.il,4,academia,Q6964205,,,
@@ -114,7 +114,7 @@ plants.org.il,4,wikidata,Q55651699,,SSLHandshakeException: (certificate_unknown)
 ratio.huji.ac.il,4,academia,The Federmann Center for the Study of Rationality,,,
 rbni.technion.ac.il,4,academia,"Russell Berrie Nanotechnology Institute, Technion-Israel Institute of Technology",,,
 rec.co.il,4,wikidata,Q111814774,central,301,0 rec.co.il.
-runi.ac.il,4,academia;academia;academia;ror,"Aaron Institute for Economic Policy | Institute for Policy and Strategy, Reichman University | Lauder School of Government, Diplomacy and Strategy",central,,
+runi.ac.il,4,academia;ror,"Aaron Institute for Economic Policy | Institute for Policy and Strategy, Reichman University | Lauder School of Government, Diplomacy and Strategy",central,,
 sacherinstitute.huji.ac.il,4,academia,Sacher Institute,,,
 safis.co.il,4,wikidata,"Embassy of South Africa, Tel Aviv",central,HttpConnectTimeoutException: HTTP connect timed out,20 mail2.aquanet.co.il.; 10 mail.aquanet.co.il.
 shasha-center.huji.ac.il,4,academia,Q6574220,,,
@@ -218,9 +218,9 @@ upsa.es,3,academia,Spanish Biblical and Archaeological Institute / Casa de Santi
 www1.biu.ac.il,3,ror,Bar-Ilan University,central,,
 yadharavherzog.org,3,academia,Rabbi Herzog Institute for the complete Israeli Talmud,,,
 yadharavnissim.com,3,academia,Yad Harav Nissim,,,
-en-humanities.tau.ac.il,2,academia;academia;academia,Cohn Institute for the History and Philosophy of Science and Ideas | Stephen Roth Institute | The Sonia and Marco Nadler Institute of Archaeology,,,
-in.bgu.ac.il,2,academia;academia;academia;academia,Ben-Gurion Institute for the Study of Israel and Zionism | Heksherim Institute for Jewish and Israeli Literature and Culture | Israeli Center for Qualitative Research of People and Societies | Jacob Blaustein Institutes for Desert Research,,,
+en-humanities.tau.ac.il,2,academia,Cohn Institute for the History and Philosophy of Science and Ideas | Stephen Roth Institute | The Sonia and Marco Nadler Institute of Archaeology,,,
+in.bgu.ac.il,2,academia,Ben-Gurion Institute for the Study of Israel and Zionism | Heksherim Institute for Jewish and Israeli Literature and Culture | Israeli Center for Qualitative Research of People and Societies | Jacob Blaustein Institutes for Desert Research,,,
 juc.edu,2,ror,Jerusalem University College,central,,
-mofaic.gov.ae,2,wikidata;wikidata;wikidata;wikidata,"Embassy of the United Arab Emirates, Tel Aviv",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
-ybz.org.il,2,wikidata;academia;academia;academia,Yad Yitzhak Ben-Zvi | Mekhon Ben-Tsevi le-ḥeḳer ḳehilot Yiśraʼel ba-Mizraḥ | Society for Judaeo-Arabic Studies,,200,0 ybz-org-il.mail.protection.outlook.com.
-yadvashem.org,1,wikidata;wikidata;academia,Yad Vashem,,302,3 yadvashem.in.tmes.trendmicro.com.
+mofaic.gov.ae,2,wikidata,"Embassy of the United Arab Emirates, Tel Aviv",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+ybz.org.il,2,wikidata;academia,Yad Yitzhak Ben-Zvi | Mekhon Ben-Tsevi le-ḥeḳer ḳehilot Yiśraʼel ba-Mizraḥ | Society for Judaeo-Arabic Studies,,200,0 ybz-org-il.mail.protection.outlook.com.
+yadvashem.org,1,wikidata;academia,Yad Vashem,,302,3 yadvashem.in.tmes.trendmicro.com.

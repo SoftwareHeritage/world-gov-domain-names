@@ -1,8 +1,8 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.ge,8,wikidata;wikidata,Parliament of Georgia,central,200,10 mail01.parliament.ge.
+parliament.ge,8,wikidata,Parliament of Georgia,central,200,10 mail01.parliament.ge.
 geostat.ge,7,wikidata;academia,National Statistics Office of Georgia,central,302,10 mail.geostat.ge.
-police.ge,7,wikidata;wikidata,Ministry of Internal Affairs | Special Tasks Department,central,200,10 mail.police.ge.
-sca.ge,7,wikidata;wikidata,Supreme Council of the Autonomous Republic of Adjara,central-1,200,10 mail.sca.ge.; 0 mail.sca.ge.
+police.ge,7,wikidata,Ministry of Internal Affairs | Special Tasks Department,central,200,10 mail.police.ge.
+sca.ge,7,wikidata,Supreme Council of the Autonomous Republic of Adjara,central-1,200,10 mail.sca.ge.; 0 mail.sca.ge.
 ngu.edu.ge,6,academia;ror,New Georgian University,central,,
 supremecourt.ge,6,wikidata,Supreme Court of Georgia,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching supremecourt.ge found.,1 mx.grena.ge.
 tafu.edu.ge,6,academia;ror,Shota Rustaveli Theatre and Film University,central,,
@@ -99,8 +99,8 @@ thu.edu.ge,3,ror,Tbilisi Humanitarian University,central,,
 tiflis.diplo.de,3,wikidata,"Embassy of Germany, Tbilisi",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 ug.edu.ge,3,ror,University of Georgia,central,,
 vaticange.org,3,wikidata,Apostolic Nunciature to Georgia,central,200,10 mail.register.it.
-economy.ge,2,wikidata;wikidata;wikidata;wikidata,Ministry of Economy and Sustainable Development of Georgia | Ministry of Economy and Sustainable Development,central,200,10 mx1.economy.ge.; 20 mx2.economy.ge.
-mia.police.ge,2,wikidata;wikidata;wikidata,Ministry of Internal Affairs of Georgia,central,200,none
-mof.ge,2,wikidata;wikidata;wikidata,Ministry of Finance of Georgia,central,200,5 edge01.mof.ge.
+economy.ge,2,wikidata,Ministry of Economy and Sustainable Development of Georgia | Ministry of Economy and Sustainable Development,central,200,10 mx1.economy.ge.; 20 mx2.economy.ge.
+mia.police.ge,2,wikidata,Ministry of Internal Affairs of Georgia,central,200,none
+mof.ge,2,wikidata,Ministry of Finance of Georgia,central,200,5 edge01.mof.ge.
 tsmu.edu,2,ror,Tbilisi State Medical University,central,,
 unigeorgia.eu,2,ror,International Teaching University of Georgia,central,,

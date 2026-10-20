@@ -1,23 +1,23 @@
 hostname,score,sources,label,level,http_status,mx
 slovensko.sk,10,un_desa;linkgraph,UN/DESA national portal,,302,10 mail.gov.sk.
-dominikani.sk,7,wikidata;wikidata,Dominican Province of Slovakia,,200,0 dominikani-sk.mail.protection.outlook.com.
-frantiskani.sk,7,wikidata;wikidata,Province of the Most Holy Redeemer of the Friars Minor in Slovakia,,200,10 mx1.hcom.sk.; 20 mx2.hcom.sk.
+dominikani.sk,7,wikidata,Dominican Province of Slovakia,,200,0 dominikani-sk.mail.protection.outlook.com.
+frantiskani.sk,7,wikidata,Province of the Most Holy Redeemer of the Friars Minor in Slovakia,,200,10 mx1.hcom.sk.; 20 mx2.hcom.sk.
 juls.savba.sk,7,wikidata;academia,Ľudovít Štúr Institute of Linguistics,,200,10 posta.juls.savba.sk.
-mincrs.sk,7,wikidata;wikidata,Ministry of Tourism and Sports of the Slovak Republic,central,200,0 mincrs-sk.mail.protection.outlook.com.
-minedu.sk,7,wikidata;wikidata,"Ministry of Education, Research, Development and Youth of the Slovak Republic",central,ConnectException,1 minedu-sk.mail.protection.outlook.com.
-minv.sk,7,wikidata;wikidata;wikidata;wikidata;wikidata,Slovak National Archives | Ministry of Interior of the Slovak Republic | Fire and Rescue Corps of the Slovak Republic | Police Corps,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailina.minv.sk.; 10 mailinb.minv.sk.
-minzp.sk,7,wikidata;wikidata,Ministry of the Environment of the Slovak Republic,central,200,none
-mzv.sk,7,wikidata;wikidata,Ministry of Foreign and European Affairs of the Slovak Republic,central,301,10 mail.gov.sk.
-nbs.sk,7,wikidata;wikidata,National Bank of Slovakia,central,HttpConnectTimeoutException: HTTP connect timed out,20 mailgw4.nbs.sk.; 10 mailgw2.nbs.sk.; 10 mailgw1.nbs.sk.; 20 mailgw3.nbs.sk.
-nrsr.sk,7,wikidata;wikidata,National Council of the Slovak Republic,central,ConnectException,10 mail.gov.sk.
-piaristi.sk,7,wikidata;wikidata,Piarist province of Slovakia,,301,100 mailin2.piaristi.sk.; 10 mailin1.piaristi.sk.
-skgeodesy.sk,7,wikidata;wikidata,"Geodesy, Cartography and Cadastre Authority of the Slovak Republic",,HttpConnectTimeoutException: HTTP connect timed out,10 skgeodesy-sk.mail.protection.outlook.com.
+mincrs.sk,7,wikidata,Ministry of Tourism and Sports of the Slovak Republic,central,200,0 mincrs-sk.mail.protection.outlook.com.
+minedu.sk,7,wikidata,"Ministry of Education, Research, Development and Youth of the Slovak Republic",central,ConnectException,1 minedu-sk.mail.protection.outlook.com.
+minv.sk,7,wikidata,Slovak National Archives | Ministry of Interior of the Slovak Republic | Fire and Rescue Corps of the Slovak Republic | Police Corps,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mailina.minv.sk.; 10 mailinb.minv.sk.
+minzp.sk,7,wikidata,Ministry of the Environment of the Slovak Republic,central,200,none
+mzv.sk,7,wikidata,Ministry of Foreign and European Affairs of the Slovak Republic,central,301,10 mail.gov.sk.
+nbs.sk,7,wikidata,National Bank of Slovakia,central,HttpConnectTimeoutException: HTTP connect timed out,20 mailgw4.nbs.sk.; 10 mailgw2.nbs.sk.; 10 mailgw1.nbs.sk.; 20 mailgw3.nbs.sk.
+nrsr.sk,7,wikidata,National Council of the Slovak Republic,central,ConnectException,10 mail.gov.sk.
+piaristi.sk,7,wikidata,Piarist province of Slovakia,,301,100 mailin2.piaristi.sk.; 10 mailin1.piaristi.sk.
+skgeodesy.sk,7,wikidata,"Geodesy, Cartography and Cadastre Authority of the Slovak Republic",,HttpConnectTimeoutException: HTTP connect timed out,10 skgeodesy-sk.mail.protection.outlook.com.
 slovak.statistics.sk,7,wikidata;academia,Statistical Office of the Slovak Republic,central,200,none
-snk.sk,7,wikidata;wikidata,Slovak National Library,,200,10 mail.gov.sk.
-uh.sav.sk,7,academia;academia,Institute of Hydrology | Q131703749,,,
+snk.sk,7,wikidata,Slovak National Library,,200,10 mail.gov.sk.
+uh.sav.sk,7,academia,Institute of Hydrology | Q131703749,,,
 euba.sk,6,academia;ror,University of Economics in Bratislava,central,,
 nsud.sk,6,wikidata,Supreme court of the Slovak Republic,,301,10 smtp1.nsud.sk.; 20 smtp2.nsud.sk.
-slowakei.ahk.de,6,wikidata;wikidata,German-Slovak Chamber of Industry and Commerce,,302,none
+slowakei.ahk.de,6,wikidata,German-Slovak Chamber of Industry and Commerce,,302,none
 stuba.sk,6,academia;ror,Slovak University of Technology in Bratislava,central,,
 truni.sk,6,academia;ror,Trnava University in Trnava,central,,
 tuke.sk,6,academia;ror,Technical University of Košice,central,,
@@ -113,8 +113,8 @@ vsbm.sk,3,ror,University of Security Management in Košice,central,,
 vsdanubius.sk,3,ror,Danubius University,central,,
 vsemba.sk,3,ror,Bratislava University of Economics and Management,central,,
 vsm.sk,3,ror,"Vysoká škola manažmentu, City University of Seattle",central,,
-idsbk.sk,2,wikidata;wikidata;wikidata,Integrated Transport System in the Bratislava Region,,301,0 idsbk-sk.mail.protection.outlook.com.
-mfsr.sk,2,wikidata;wikidata;wikidata;wikidata,Ministry of Finance of the Slovak Republic,central,405,100 email2.mfsr.sk.; 10 email1.mfsr.sk.
-mindop.sk,2,wikidata;wikidata;wikidata;wikidata,Ministry of Transport and Construction of the Slovak Republic,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mindop.sk found.,10 mail.gov.sk.
-mpsr.sk,2,wikidata;wikidata;wikidata;wikidata,Ministry of Agriculture and Rural Development of the Slovak Republic,central,301,10 mail.mpsr.sk.
+idsbk.sk,2,wikidata,Integrated Transport System in the Bratislava Region,,301,0 idsbk-sk.mail.protection.outlook.com.
+mfsr.sk,2,wikidata,Ministry of Finance of the Slovak Republic,central,405,100 email2.mfsr.sk.; 10 email1.mfsr.sk.
+mindop.sk,2,wikidata,Ministry of Transport and Construction of the Slovak Republic,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mindop.sk found.,10 mail.gov.sk.
+mpsr.sk,2,wikidata,Ministry of Agriculture and Rural Development of the Slovak Republic,central,301,10 mail.mpsr.sk.
 paneurouni.com,2,ror,Pan-European University,central,,

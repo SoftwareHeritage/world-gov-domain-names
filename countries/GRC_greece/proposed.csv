@@ -1,32 +1,32 @@
 hostname,score,sources,label,level,http_status,mx
 gsis.gr,10,wikidata;linkgraph,General Secretariat for Information Systems and Digital Governance,,403,0 gsis-gr.mail.protection.outlook.com.
-hellenicparliament.gr,10,wikidata;wikidata;linkgraph,Hellenic Parliament,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching hellenicparliament.gr found.,20 erato.parliament.gr.; 1 kleio.parliament.gr.
-minagric.gr,10,wikidata;wikidata;linkgraph,Ministry of Rural Development and Food (Greece),central,403,10 pythia.minagric.gr.
-ypakp.gr,10,wikidata;wikidata;linkgraph,Ministry of Labour and Social Security,central,301,15 mx2.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.; 25 mx3.otenet.gr.
-ypes.gr,10,wikidata;wikidata;linkgraph,Ministry of the Interior (Greece),central,403,30 mx4.otenet.gr.; 10 mx.otenet.gr.; 0 ypes-gr.mail.protection.outlook.com.; 25 mx3.otenet.gr.; 15 mx2.otenet.gr.
+hellenicparliament.gr,10,wikidata;linkgraph,Hellenic Parliament,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching hellenicparliament.gr found.,20 erato.parliament.gr.; 1 kleio.parliament.gr.
+minagric.gr,10,wikidata;linkgraph,Ministry of Rural Development and Food (Greece),central,403,10 pythia.minagric.gr.
+ypakp.gr,10,wikidata;linkgraph,Ministry of Labour and Social Security,central,301,15 mx2.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.; 25 mx3.otenet.gr.
+ypes.gr,10,wikidata;linkgraph,Ministry of the Interior (Greece),central,403,30 mx4.otenet.gr.; 10 mx.otenet.gr.; 0 ypes-gr.mail.protection.outlook.com.; 25 mx3.otenet.gr.; 15 mx2.otenet.gr.
 et.gr,9,wikidata;linkgraph,National Printing Office,,200,30 mx4.otenet.gr.; 10 mx.otenet.gr.; 15 mx2.otenet.gr.; 25 mx3.otenet.gr.
 aade.gr,8,wikidata;linkgraph,General Chemical State Laboratory,,403,0 aade-gr.mail.protection.outlook.com.
 areiospagos.gr,8,wikidata;linkgraph,Court of Cassation,central,200,25 mx3.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.; 15 mx2.otenet.gr.
 dpa.gr,8,wikidata;linkgraph,Hellenic Data Protection Authority,central,301,1 mx1-eu1.ppe-hosted.com.; 2 mx2-eu1.ppe-hosted.com.
-aead.gr,7,wikidata;wikidata,National Transparency Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,30 mx4.otenet.gr.; 10 mx.otenet.gr.
-eeae.gr,7,wikidata;wikidata,Greek Atomic Energy Commission,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 edge01.eeae.gr.; 10 cust61469-1.in.mailcontrol.com.; 30 email.eeae.gr.; 10 cust61469-2.in.mailcontrol.com.; 40 mail.eeae.gr.
-gak.gr,7,wikidata;wikidata,General State Archives,,301,20 mx2.sch.gr.; 10 mx.sch.gr.
-hcmc.gr,7,wikidata;wikidata,Hellenic Capital Market Commission,central,ConnectException,10 mail1.cmc.gov.gr.
-mindigital.gr,7,wikidata;wikidata,Ministry of Digital Governance (Greece),central,403,0 mindigital-gr.mail.protection.outlook.com.
-ministryofjustice.gr,7,wikidata;wikidata,Ministry of Justice (Greece),central,403,25 mx3.otenet.gr.; 15 mx2.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.
-mnec.gr,7,wikidata;wikidata,"Ministry of Economy, Development and Tourism",central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mnec.gr.
-mod.mil.gr,7,wikidata;wikidata,Ministry of National Defence (Greece),central,ConnectException,1 mxin.smtp.mil.gr.
-nam.culture.gr,7,wikidata;wikidata,Directorate for the Curation of the National Archive of Monuments,,200,none
-protodikeio-ath.gr,7,wikidata;wikidata,Athens Chamber of Commerce and Industry | Court of First Instance of Athens,,ConnectException,10 mail.protodikeio-ath.gr.
-yme.gr,7,wikidata;wikidata,Ministry of Infrastructure and Transport (Greece),central,ConnectException,20 mailsrv.otenet.gr.
-ynanp.gr,7,wikidata;wikidata,Ministry of Shipping and Island Policy (Greece),central,301,none
+aead.gr,7,wikidata,National Transparency Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,30 mx4.otenet.gr.; 10 mx.otenet.gr.
+eeae.gr,7,wikidata,Greek Atomic Energy Commission,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 edge01.eeae.gr.; 10 cust61469-1.in.mailcontrol.com.; 30 email.eeae.gr.; 10 cust61469-2.in.mailcontrol.com.; 40 mail.eeae.gr.
+gak.gr,7,wikidata,General State Archives,,301,20 mx2.sch.gr.; 10 mx.sch.gr.
+hcmc.gr,7,wikidata,Hellenic Capital Market Commission,central,ConnectException,10 mail1.cmc.gov.gr.
+mindigital.gr,7,wikidata,Ministry of Digital Governance (Greece),central,403,0 mindigital-gr.mail.protection.outlook.com.
+ministryofjustice.gr,7,wikidata,Ministry of Justice (Greece),central,403,25 mx3.otenet.gr.; 15 mx2.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.
+mnec.gr,7,wikidata,"Ministry of Economy, Development and Tourism",central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mnec.gr.
+mod.mil.gr,7,wikidata,Ministry of National Defence (Greece),central,ConnectException,1 mxin.smtp.mil.gr.
+nam.culture.gr,7,wikidata,Directorate for the Curation of the National Archive of Monuments,,200,none
+protodikeio-ath.gr,7,wikidata,Athens Chamber of Commerce and Industry | Court of First Instance of Athens,,ConnectException,10 mail.protodikeio-ath.gr.
+yme.gr,7,wikidata,Ministry of Infrastructure and Transport (Greece),central,ConnectException,20 mailsrv.otenet.gr.
+ynanp.gr,7,wikidata,Ministry of Shipping and Island Policy (Greece),central,301,none
 auth.gr,6,academia;ror,Aristotle University of Thessaloniki,central,,
 duth.gr,6,academia;ror,Democritus University of Thrace,central,,
 epipsi.gr,6,academia;ror,University Mental Health Research Institute,central,,
-gr.ambafrance.org,6,wikidata;wikidata,"Consulate General of France in Thessaloniki | Embassy of France, Athens",central,301,none
-griechenland.ahk.de,6,wikidata;wikidata,German-Greek Chamber of Industry and Commerce,,302,none
+gr.ambafrance.org,6,wikidata,"Consulate General of France in Thessaloniki | Embassy of France, Athens",central,301,none
+griechenland.ahk.de,6,wikidata,German-Greek Chamber of Industry and Commerce,,302,none
 ionio.gr,6,academia;ror,Ionian University,central,,
-mfa.gr,6,wikidata;wikidata;wikidata;linkgraph,Ministry of Foreign Affairs of Greece | Ministry of Foreign Affairs (Greece),central,403,10 mailhost.mfa.gr.
+mfa.gr,6,wikidata;linkgraph,Ministry of Foreign Affairs of Greece | Ministry of Foreign Affairs (Greece),central,403,10 mailhost.mfa.gr.
 uoi.gr,6,academia;ror,University of Ioannina,central,,
 uom.gr,6,academia;ror,University of Macedonia,central,,
 minfin.gr,5,linkgraph,Linked from 6 public-sector domains,,301,0 minfin-gr.mail.protection.outlook.com.
@@ -186,6 +186,6 @@ uth.gr,3,ror,University of Thessaly,central,,
 web.aeath.gr,3,ror,University Ecclesiastical Academy of Thessaloniki,central,,
 www2.aua.gr,3,ror,Agricultural University of Athens,central,,
 zoolmuseum.biol.uoa.gr,3,ror,Zoology Museum of the University of Athens,central,,
-astynomia.gr,2,wikidata;wikidata;wikidata;wikidata,Special Guards | Cyber Crime Unit | Hellenic Police,,403,20 mailhost2.astynomia.gr.; 10 mailhost1.astynomia.gr.
-dei.gr,2,wikidata;wikidata;wikidata,Public Power Corporation SA,,308,0 dei-gr.mail.protection.outlook.com.
-statistics.gr,2,wikidata;wikidata;wikidata;academia,Hellenic Statistical Authority | Hellenic Statistical System,,302,5 mail.statistics.gr.
+astynomia.gr,2,wikidata,Special Guards | Cyber Crime Unit | Hellenic Police,,403,20 mailhost2.astynomia.gr.; 10 mailhost1.astynomia.gr.
+dei.gr,2,wikidata,Public Power Corporation SA,,308,0 dei-gr.mail.protection.outlook.com.
+statistics.gr,2,wikidata;academia,Hellenic Statistical Authority | Hellenic Statistical System,,302,5 mail.statistics.gr.

@@ -1,15 +1,15 @@
 hostname,score,sources,label,level,http_status,mx
-ru.ac.za,9,academia;academia;ror,Dictionary Unit for South African English | Rhodes University,central,,
-uct.ac.za,9,academia;academia;ror,Institute for Communities and Wildlife in Africa | University of Cape Town,central,,
-unisa.ac.za,9,academia;academia;ror,University of South Africa | University of the Cape of Good Hope,central,,
-gpwonline.co.za,7,wikidata;wikidata,Government Printing Works,,200,none
-hsrc.ac.za,7,academia;academia,Africa Institute of South Africa | Human Sciences Research Council,,,
-mhs.mil.za,7,wikidata;wikidata,South African Military Health Service,,ConnectException,none
+ru.ac.za,9,academia;ror,Dictionary Unit for South African English | Rhodes University,central,,
+uct.ac.za,9,academia;ror,Institute for Communities and Wildlife in Africa | University of Cape Town,central,,
+unisa.ac.za,9,academia;ror,University of South Africa | University of the Cape of Good Hope,central,,
+gpwonline.co.za,7,wikidata,Government Printing Works,,200,none
+hsrc.ac.za,7,academia,Africa Institute of South Africa | Human Sciences Research Council,,,
+mhs.mil.za,7,wikidata,South African Military Health Service,,ConnectException,none
 nrf.ac.za,7,wikidata;academia,National Research Foundation,central,ConnectException,0 nrf-ac-za.mail.protection.outlook.com.
 concourt.org.za,6,wikidata,Constitutional Court of South Africa,central,301,10 za-smtp-inbound-1.mimecast.co.za.; 20 za-smtp-inbound-2.mimecast.co.za.
 mandela.ac.za,6,academia;ror,Nelson Mandela University,central,,
 nwu.ac.za,6,academia;ror,North-West University,central,,
-roc-taiwan.org,6,wikidata;wikidata,Taipei Liaison Office in Cape Town | Taipei Liaison Office in the Republic of South Africa,,302,none
+roc-taiwan.org,6,wikidata,Taipei Liaison Office in Cape Town | Taipei Liaison Office in the Republic of South Africa,,302,none
 tut.ac.za,6,academia;ror,Tshwane University of Technology,central,,
 ufh.ac.za,6,academia;ror,University of Fort Hare,central,,
 ufs.ac.za,6,academia;ror,University of the Free State,central,,
@@ -101,7 +101,7 @@ tips.org.za,4,academia,Trade and Industrial Policy Strategies,,,
 tlabs.ac.za,4,academia,IThemba LABS,,,
 umgeni.co.za,4,wikidata,Umgeni Water Amanzi,,200,10 za-smtp-inbound-1.mimecast.co.za.; 10 za-smtp-inbound-2.mimecast.co.za.
 vietnam.co.za,4,wikidata,embassy of Vietnam in South Africa,central,301,10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.
-wits.ac.za,4,academia;academia;academia;academia;academia;ror,Centre in Water Research and Development | Evolutionary Studies Institute | University of the Witwatersrand | Wits MIND institute | Wits Mining Institute,central,,
+wits.ac.za,4,academia;ror,Centre in Water Research and Development | Evolutionary Studies Institute | University of the Witwatersrand | Wits MIND institute | Wits Mining Institute,central,,
 wrc.org.za,4,wikidata,Water Research Commission,,HttpTimeoutException: request timed out,10 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.
 africa.iclei.org,3,wikidata,ICLEI Africa Secretariat,,200,10 www13.iclei.org.
 africancentreforcities.net,3,academia,African Centre for Cities,,,
@@ -158,6 +158,6 @@ za.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Pret
 za.mfa.lt,3,wikidata,embassy of Lithuania in South Africa,central,403,none
 za.mvep.hr,3,wikidata,embassy of Croatia in South Africa,central,ConnectException,none
 zambiapretoria.net,3,wikidata,high commission of Zambia in South Africa,central,301,5 1-grid-mx04.com.; 5 1-grid-mx02.com.; 5 1-grid-mx01.co.za.; 5 1-grid-mx03.co.za.
-arc.agric.za,2,wikidata;wikidata;academia,"Institute for Deciduous Fruit, Vines and Wine | Agricultural Research Council of South Africa | Onderstepoort Veterinary Institute",,302,20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.; 40 arc-agric-za.mail.protection.outlook.com.
-dmv.mil.za,2,wikidata;wikidata;wikidata;wikidata,Department of Military Veterans,central,ConnectException,none
-dod.mil.za,2,wikidata;wikidata;wikidata;wikidata,Department of Defence,central,HttpConnectTimeoutException: HTTP connect timed out,5 mail1.dod.mil.za.
+arc.agric.za,2,wikidata;academia,"Institute for Deciduous Fruit, Vines and Wine | Agricultural Research Council of South Africa | Onderstepoort Veterinary Institute",,302,20 za-smtp-inbound-2.mimecast.co.za.; 10 za-smtp-inbound-1.mimecast.co.za.; 40 arc-agric-za.mail.protection.outlook.com.
+dmv.mil.za,2,wikidata,Department of Military Veterans,central,ConnectException,none
+dod.mil.za,2,wikidata,Department of Defence,central,HttpConnectTimeoutException: HTTP connect timed out,5 mail1.dod.mil.za.

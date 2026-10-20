@@ -1,5 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
-omaninfo.om,7,wikidata;wikidata,Ministry of Information,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 autodiscover.omaninfo.om.
+omaninfo.om,7,wikidata,Ministry of Information,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 autodiscover.omaninfo.om.
 oman.om,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 squ.edu.om,6,wikidata;ror,Sultan Qaboos University Library,central,HttpConnectTimeoutException: HTTP connect timed out,3 alt1.aspmx.l.google.com.; 10 mx1.squ.edu.om.; 3 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt4.aspmx.l.google.com.; 21 alumni-squ-edu-om.mail.protection.outlook.com.; 5 alt3.aspmx.l.google.com.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Muscat",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
@@ -24,4 +24,4 @@ suc.edu.om,3,ror,Sur University College,central,,
 unizwa.edu.om,3,ror,University of Nizwa,central,,
 uob.edu.om,3,ror,University of Buraimi,central,,
 utas.edu.om,3,ror,University of Technology and Applied Sciences,central,,
-roc-taiwan.org,1,wikidata;wikidata;wikidata,"Taipei Economic & Cultural Office, Muscat, Oman | Taipei Economic and Cultural Office, Muscat, Oman",,302,none
+roc-taiwan.org,1,wikidata,"Taipei Economic & Cultural Office, Muscat, Oman | Taipei Economic and Cultural Office, Muscat, Oman",,302,none

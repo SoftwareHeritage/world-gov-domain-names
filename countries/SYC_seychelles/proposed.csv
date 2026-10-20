@@ -1,12 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
-unisey.ac.sc,9,academia;academia;ror,Blue Economy Research Institute | University of Seychelles,central,,
-cbs.sc,7,wikidata;wikidata,Central Bank of Seychelles,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 cbs-sc.mail.protection.outlook.com.; 10 cbs-sc.mail.protection.outlook.com.
-esa.egov.sc,7,wikidata;wikidata,Ministry of Industry and Enterprise,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-nationalassembly.sc,7,wikidata;wikidata;wikidata;wikidata,National Assembly of Seychelles | National Assembly,central,301,0 nationalassembly-sc.mail.protection.outlook.com.
-sfa.sc,7,wikidata;wikidata,Seychelles Fisheries Authority,central,301,0 sfa-sc.mail.protection.outlook.com.
+unisey.ac.sc,9,academia;ror,Blue Economy Research Institute | University of Seychelles,central,,
+cbs.sc,7,wikidata,Central Bank of Seychelles,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 cbs-sc.mail.protection.outlook.com.; 10 cbs-sc.mail.protection.outlook.com.
+esa.egov.sc,7,wikidata,Ministry of Industry and Enterprise,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+nationalassembly.sc,7,wikidata,National Assembly of Seychelles | National Assembly,central,301,0 nationalassembly-sc.mail.protection.outlook.com.
+sfa.sc,7,wikidata,Seychelles Fisheries Authority,central,301,0 sfa-sc.mail.protection.outlook.com.
 egov.sc,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 mx3.egov.sc.
 judiciary.sc,6,wikidata,Supreme Court of Seychelles,central,301,20 mx2.zoho.com.; 50 mx3.zoho.com.; 0 judiciary.sc.; 10 mx.zoho.com.
-seychellescultureinstitute.org,6,wikidata;wikidata,"Culture, Art and National Heritage Department | Seychelles National Institute of Culture, Heritage & the Arts",central,301,15 eforward4.registrar-servers.com.; 10 eforward2.registrar-servers.com.; 10 eforward3.registrar-servers.com.; 10 eforward1.registrar-servers.com.; 20 eforward5.registrar-servers.com.
+seychellescultureinstitute.org,6,wikidata,"Culture, Art and National Heritage Department | Seychelles National Institute of Culture, Heritage & the Arts",central,301,15 eforward4.registrar-servers.com.; 10 eforward2.registrar-servers.com.; 10 eforward3.registrar-servers.com.; 10 eforward1.registrar-servers.com.; 20 eforward5.registrar-servers.com.
 ago.sc,4,wikidata,Department of Legal Affairs,central,200,none
 curatelleoffice.sc,4,wikidata,Curatelle Office,central,301,20 mx2.zoho.com.; 50 mx3.zoho.com.; 10 mx.zoho.com.
 drdm.sc,4,wikidata,Department of Risk and Disaster Management,central,301,0 webserver.switch.sc.

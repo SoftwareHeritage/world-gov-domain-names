@@ -1,20 +1,20 @@
 hostname,score,sources,label,level,http_status,mx
 cmrdi.sci.eg,7,wikidata;academia,Central Metallurgical Research and Development Institute | Central Metallurgical Research & Development,,200,10 mailsrv.cmrdi.sci.eg.
-mri.alexu.edu.eg,7,academia;academia,Alexandria University High Institute of Public Health | Medical Research Institute Alexandria University,,,
+mri.alexu.edu.eg,7,academia,Alexandria University High Institute of Public Health | Medical Research Institute Alexandria University,,,
 narss.sci.eg,7,wikidata;academia,National Authority for Remote Sensing and Space Sciences,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.narss.sci.eg.
-nspo.com.eg,7,wikidata;wikidata,National Service Products Organization,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ExchangeSMTP.mod.gov.eg.
+nspo.com.eg,7,wikidata,National Service Products Organization,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 ExchangeSMTP.mod.gov.eg.
 alexu.edu.eg,6,academia;ror,Alexandria University,central,,
 asu.edu.eg,6,academia;ror,Ain Shams University,central,,
 azhar.edu.eg,6,academia;ror,Al-Azhar University,central,,
 cu.edu.eg,6,academia;ror,Cairo University,central,,
 egypt.gov.org,6,un_desa,UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,1000 0.0.0.0.
-egyptconsulates.org,6,wikidata;wikidata,Ministry of Foreign Affairs of Egypt,central,200,10 mail.egyptconsulates.org.
-egyptera.org,6,wikidata;wikidata,Egyptian Electric Utility and Consumer Protection Regulatory Agency,,200,1 mail.egyptera.org.; 5 mail2.egyptera.org.
+egyptconsulates.org,6,wikidata,Ministry of Foreign Affairs of Egypt,central,200,10 mail.egyptconsulates.org.
+egyptera.org,6,wikidata,Egyptian Electric Utility and Consumer Protection Regulatory Agency,,200,1 mail.egyptera.org.; 5 mail2.egyptera.org.
 helwan.edu.eg,6,academia;ror,Capital University (Egypt),central,,
-kairo.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Cairo",central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.bund.de.; 10 mx2.bund.de.
-sca-egypt.org,6,wikidata;wikidata,Ministry of State for Antiquities,central,200,none
+kairo.diplo.de,6,wikidata,"Embassy of Germany, Cairo",central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.bund.de.; 10 mx2.bund.de.
+sca-egypt.org,6,wikidata,Ministry of State for Antiquities,central,200,none
 sohag-univ.edu.eg,6,academia;ror,Sohag University,central,,
-swedenabroad.se,6,wikidata;wikidata,"Embassy of Sweden, Cairo",central,301,none
+swedenabroad.se,6,wikidata,"Embassy of Sweden, Cairo",central,301,none
 zu.edu.eg,6,academia;ror,Zagazig University,central,,
 aoi.org.eg,4,wikidata,Arab Organization for Industrialization,,ConnectException: Host is unreachable,10 webmail.aoi.org.eg.
 britishcouncil.org.eg,4,wikidata,British Council Egypt,,301,10 britishcouncil-org-eg.mail.protection.outlook.com.
@@ -160,7 +160,7 @@ aucegypt.edu,2,ror,American University in Cairo,central,,
 giu-uni.de,2,ror,German International University,central,,
 nahdauniversity.org,2,ror,Nahda University,central,,
 usenghor-francophonie.org,2,ror,Senghor University,central,,
-custodia.org,1,wikidata;wikidata;academia,Custodian of the Holy Land | Franciscan Centre for Oriental Christian Studies,,301,0 custodia-org.mail.protection.outlook.com.
-eg.ambafrance.org,1,wikidata;wikidata;wikidata,"Consulate-General of France in Alexandria | Embassy of France, Giza",central,301,none
-erembassy.com,1,wikidata;wikidata;wikidata,embassy of Eritrea in Egypt,central,302,none
-mfa.gr,1,wikidata;wikidata;wikidata,Greek Consulate General in Alexandria | embassy of Greece in Egypt,central,403,10 mailhost.mfa.gr.
+custodia.org,1,wikidata;academia,Custodian of the Holy Land | Franciscan Centre for Oriental Christian Studies,,301,0 custodia-org.mail.protection.outlook.com.
+eg.ambafrance.org,1,wikidata,"Consulate-General of France in Alexandria | Embassy of France, Giza",central,301,none
+erembassy.com,1,wikidata,embassy of Eritrea in Egypt,central,302,none
+mfa.gr,1,wikidata,Greek Consulate General in Alexandria | embassy of Greece in Egypt,central,403,10 mailhost.mfa.gr.

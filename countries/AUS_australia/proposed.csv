@@ -1,13 +1,13 @@
 hostname,score,sources,label,level,http_status,mx
 anu.edu.au,9,wikidata;academia;ror,Australian National University,central,301,10 anu-edu-au.mail.protection.outlook.com.
-canberra.edu.au,9,academia;academia;ror,Institute for Applied Ecology | University of Canberra,,,
-rmit.edu.au,9,academia;academia;ror,RMIT School of Graduate Research | RMIT University,,,
-utas.edu.au,9,academia;academia;ror,Tasmanian Institute of Agriculture | University of Tasmania,central-1,,
+canberra.edu.au,9,academia;ror,Institute for Applied Ecology | University of Canberra,,,
+rmit.edu.au,9,academia;ror,RMIT School of Graduate Research | RMIT University,,,
+utas.edu.au,9,academia;ror,Tasmanian Institute of Agriculture | University of Tasmania,central-1,,
 uwa.edu.au,9,wikidata;academia;ror,Oceans Institute | Jan Hemmi's Lab,central-1,301,10 uwa-edu-au.mail.protection.outlook.com.
 awri.com.au,7,wikidata;academia,Australian Wine Research Institute,,301,10 awri-com-au.mail.protection.outlook.com.
-g-mwater.com.au,7,wikidata;wikidata,Goulburn–Murray Water,,301,10 au-smtp-inbound-1.mimecast.com.; 10 au-smtp-inbound-2.mimecast.com.
-pakistan.org.au,7,wikidata;wikidata,"High Commission of Pakistan, Canberra | high commission of Pakistan in Australia",central,403,0 mail.pakistan.org.au.
-screenqueensland.com.au,7,wikidata;wikidata,Screen Queensland Studios | Screen Queensland,,200,none
+g-mwater.com.au,7,wikidata,Goulburn–Murray Water,,301,10 au-smtp-inbound-1.mimecast.com.; 10 au-smtp-inbound-2.mimecast.com.
+pakistan.org.au,7,wikidata,"High Commission of Pakistan, Canberra | high commission of Pakistan in Australia",central,403,0 mail.pakistan.org.au.
+screenqueensland.com.au,7,wikidata,Screen Queensland Studios | Screen Queensland,,200,none
 acu.edu.au,6,academia;ror,Nursing Research Institute,,,
 adelaide.edu.au,6,academia;ror,University of Adelaide Environment Institute,,,
 cdu.edu.au,6,academia;ror,Charles Darwin University,,,
@@ -31,7 +31,7 @@ uow.edu.au,6,academia;ror,University of Wollongong,,,
 uq.edu.au,6,academia;ror,University of Queensland,central-1,,
 vu.edu.au,6,academia;ror,Victoria University,central-1,,
 westernsydney.edu.au,6,academia;ror,Western Sydney University,,,
-wineaustralia.com,6,wikidata;wikidata,Wine Australia | Australian Grape and Wine Authority,,301,0 au-smtp-inbound-2.mimecast.com.; 0 au-smtp-inbound-1.mimecast.com.
+wineaustralia.com,6,wikidata,Wine Australia | Australian Grape and Wine Authority,,301,0 au-smtp-inbound-2.mimecast.com.; 0 au-smtp-inbound-1.mimecast.com.
 monash.edu,5,academia;ror,Monash University,,,
 aaf.edu.au,4,wikidata,Australian Access Federation,,200,0 aaf-edu-au.mail.protection.outlook.com.
 aapant.org.au,4,wikidata,Aboriginal Areas Protection Authority,central-1,200,10 mi21.nt.gov.au.; 10 mi31.nt.gov.au.; 10 mi11.nt.gov.au.
@@ -104,7 +104,7 @@ coralcoe.org.au,4,academia,Arc Centre of Excellence For Coral Reef Studies,,,
 crcsi.com.au,4,academia,CRC for Spatial Information,,,
 crdc.com.au,4,wikidata,Cotton Research and Development Corporation,,200,0 crdc-com-au.mail.protection.outlook.com.
 ctc.usyd.edu.au,4,academia,NHMRC Clinical Trials Centre,,,
-curtin.edu.au,4,wikidata;wikidata;academia;ror,Curtin Connect | Curtin University,,301,100 mx2.hc2185-81.iphmx.com.; 100 mx1.hc2185-81.iphmx.com.
+curtin.edu.au,4,wikidata;academia;ror,Curtin Connect | Curtin University,,301,100 mx2.hc2185-81.iphmx.com.; 100 mx1.hc2185-81.iphmx.com.
 cybercollaboration.org.au,4,wikidata,Australian Cyber Collaboration Centre,,301,0 cybercollaboration-org-au.mail.protection.outlook.com.
 dairyaustralia.com.au,4,wikidata,Dairy Australia Limited,,308,10 dairyaustralia-com-au.mail.protection.outlook.com.
 data61.csiro.au,4,academia,Data61,,,
@@ -133,7 +133,7 @@ gdc.sa.edu.au,4,wikidata,Gawler and District College,,301,none
 ghanahighcom.org.au,4,wikidata,high commission of Ghana in Australia,central,ConnectException,none
 graduate.arts.unimelb.edu.au,4,academia,"Graduate School of Humanities and Social Sciences, University of Melbourne",,,
 grdc.com.au,4,wikidata,Grains Research and Development Corporation,,200,10 grdc-com-au.mail.protection.outlook.com.
-griffith.edu.au,4,academia;academia;academia;academia;ror,Australian Institute for Suicide Research and Prevention | Centre for Quantum Dynamics | Griffith University | Menzies Health Institute Queensland,,,
+griffith.edu.au,4,academia;ror,Australian Institute for Suicide Research and Prevention | Centre for Quantum Dynamics | Griffith University | Menzies Health Institute Queensland,,,
 groundwater.com.au,4,wikidata,National Centre for Groundwater Research and Training,,200,0 groundwater-com-au.mail.protection.outlook.com.
 gtac.edu.au,4,academia,Q60459810,,,
 guild.org.au,4,wikidata,Pharmacy Guild of Australia,,301,10 guild-org-au.mail.protection.outlook.com.
@@ -153,7 +153,7 @@ ipa.org.au,4,academia,Institute of Public Affairs,,,
 jghfoundation.org.au,4,academia,Journal of Gastroenterology and Hepatology Foundation,,,
 jordanembassy.org.au,4,wikidata,embassy of Jordan in Australia,central,200,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
 kenya.asn.au,4,wikidata,high commission of Kenya in Australia,central,HttpConnectTimeoutException: HTTP connect timed out,0 kenya-asn-au.mail.protection.outlook.com.
-latrobe.edu.au,4,academia;academia;academia;ror,Centre for Dialogue | La Trobe Institute for Molecular Science | La Trobe University,,,
+latrobe.edu.au,4,academia;ror,Centre for Dialogue | La Trobe Institute for Molecular Science | La Trobe University,,,
 law.adelaide.edu.au,4,wikidata,South Australian Law Reform Institute,central-1,302,10 au-smtp-inbound-2.mimecast.com.; 10 au-smtp-inbound-1.mimecast.com.
 law.unimelb.edu.au,4,academia,Melbourne Law School,,,
 lei.org.au,4,academia,Lions Eye Institute,,,
@@ -213,7 +213,7 @@ srcentre.com.au,4,academia,Social Research Centre,,,
 statetheatrecompany.com.au,4,wikidata,State Theatre Company of South Australia,central-1,200,10 statetheatrecompany-com-au.mail.protection.outlook.com.
 suncoastcc.qld.edu.au,4,wikidata,Suncoast Christian College,,200,0 suncoastcc-qld-edu-au.mail.protection.outlook.com.
 svi.edu.au,4,academia,St. Vincent's Institute of Medical Research,,,
-sydney.edu.au,4,academia;academia;academia;ror,"Centre for Values, Ethics and the Law in Medicine | The University of Sydney Nano Institute | University of Sydney",,,
+sydney.edu.au,4,academia;ror,"Centre for Values, Ethics and the Law in Medicine | The University of Sydney Nano Institute | University of Sydney",,,
 sydney.org.au,4,academia,Committee For Sydney,,,
 sydneyairport.com.au,4,wikidata,Sydney Airports Corporation Limited,,301,none
 symbiotica.uwa.edu.au,4,academia,SymbioticA,,,
@@ -229,7 +229,7 @@ tso.com.au,4,wikidata,Tasmanian Symphony Orchestra,,301,0 tso-com-au.mail.protec
 urbanutilities.com.au,4,wikidata,Queensland Urban Utilities,,308,10 mxb-002fc102.gslb.pphosted.com.; 10 mxa-002fc102.gslb.pphosted.com.
 usc.edu.au,4,academia,University of the Sunshine Coast,,,
 usq.edu.au,4,academia,University of Southern Queensland,central-1,,
-uts.edu.au,4,academia;academia;academia;ror,Australian Centre for Public History | Jumbunna Institute for Indigenous Education and Research | University of Technology Sydney,,,
+uts.edu.au,4,academia;ror,Australian Centre for Public History | Jumbunna Institute for Indigenous Education and Research | University of Technology Sydney,,,
 varta.org.au,4,wikidata,Victorian Assisted Reproductive Treatment Authority,,301,none
 vcaa.vic.edu.au,4,wikidata,Victorian Curriculum and Assessment Authority,central-1,200,none
 victorchang.org.au,4,academia,Victor Chang Cardiac Research Institute,,,
@@ -326,6 +326,6 @@ who.int,3,wikidata,World Health Organization (Australia),,301,10 who-int.mail.pr
 womensforumaustralia.org,3,academia,Women's Forum Australia,,,
 australia.cmu.edu,2,ror,Carnegie Mellon University Australia,,,
 cit.ac.in,2,ror,Central Institute of Technology,,,
-csiro.au,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia,CSIRO Manufacturing | Plant Industry | CSIRO Environment | Division of Entomology | CSIRO Mineral Resources | Commonwealth Scientific and Industrial Research Organisation | CSIRO Oceans and Atmosphere | CSIRO Scientific Computing | Australian Animal Health Laboratory,,SSLHandshakeException: Remote host terminated the handshake,10 vic-mx.csiro.au.; 10 act-mx.csiro.au.
-australien.diplo.de,1,wikidata;wikidata;wikidata;wikidata,"German Honorary Consulate, Perth | Embassy of Germany, Canberra | Consulate General of Germany, Sydney",central,200,none
-roc-taiwan.org,1,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Taipei Economic and Cultural Office, Sydney | Taipei Economic and Cultural Office in Australia | Taipei Economic and Cultural Office, Melbourne | Q109344646 | Taipei Economic and Cultural Office, Brisbane",,302,none
+csiro.au,2,wikidata;academia,CSIRO Manufacturing | Plant Industry | CSIRO Environment | Division of Entomology | CSIRO Mineral Resources | Commonwealth Scientific and Industrial Research Organisation | CSIRO Oceans and Atmosphere | CSIRO Scientific Computing | Australian Animal Health Laboratory,,SSLHandshakeException: Remote host terminated the handshake,10 vic-mx.csiro.au.; 10 act-mx.csiro.au.
+australien.diplo.de,1,wikidata,"German Honorary Consulate, Perth | Embassy of Germany, Canberra | Consulate General of Germany, Sydney",central,200,none
+roc-taiwan.org,1,wikidata,"Taipei Economic and Cultural Office, Sydney | Taipei Economic and Cultural Office in Australia | Taipei Economic and Cultural Office, Melbourne | Q109344646 | Taipei Economic and Cultural Office, Brisbane",,302,none

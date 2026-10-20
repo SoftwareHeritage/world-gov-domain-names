@@ -1,43 +1,43 @@
 hostname,score,sources,label,level,http_status,mx
-ungs.edu.ar,9,academia;academia;ror,Instituto del Conurbano | National University of General Sarmiento,central,,
-unsam.edu.ar,9,academia;academia;academia;ror,National University of General San Martín | Q141144696 | Q141144704,central,,
-anlis.gov.ar,8,academia;academia,ANLIS Malbrán | National Institute of Human Viral Disease,central,,
+ungs.edu.ar,9,academia;ror,Instituto del Conurbano | National University of General Sarmiento,central,,
+unsam.edu.ar,9,academia;ror,National University of General San Martín | Q141144696 | Q141144704,central,,
+anlis.gov.ar,8,academia,ANLIS Malbrán | National Institute of Human Viral Disease,central,,
 bn.gov.ar,8,wikidata;academia,Mariano Moreno National Library | Centro de Estudios y Documentación Jorge Luis Borges,,ConnectException,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
-casarosada.gov.ar,8,wikidata;wikidata,Poder Ejecutivo Nacional,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching casarosada.gov.ar found.,1 correo.casarosada.gov.ar.
+casarosada.gov.ar,8,wikidata,Poder Ejecutivo Nacional,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching casarosada.gov.ar found.,1 correo.casarosada.gov.ar.
 conicet.gov.ar,8,wikidata;academia,National Scientific and Technical Research Council | Centro de Investigaciones y Transferencia Tierra del Fuego,,403,10 smtpfront.conicet.gov.ar.
-diputadosmisiones.gov.ar,8,wikidata;wikidata,Chamber of Deputies of Misiones,central-1,302,1 mail.diputadosmisiones.gov.ar.
-diputadossantafe.gov.ar,8,wikidata;wikidata,Chamber of Deputies of Santa Fe,central-1,302,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-hcdcorrientes.gov.ar,8,wikidata;wikidata;wikidata;wikidata,Chamber of Deputies of Corrientes | Q56316686,central-1,ConnectException,1 smtp.google.com.
-hcder.gov.ar,8,wikidata;wikidata,Chamber of Deputies of Entre Ríos,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 mail.hcder.gov.ar.
-hcdiputados-ba.gov.ar,8,wikidata;wikidata,Buenos Aires Province Chamber of Deputies,central-1,200,0 correo.hcdiputados-ba.gov.ar.
-hcdmza.gov.ar,8,wikidata;wikidata,Chamber of Deputies of Mendoza,central-1,301,25 zmta2.hcdmza.gov.ar.; 30 zmta1.hcdmza.gov.ar.
+diputadosmisiones.gov.ar,8,wikidata,Chamber of Deputies of Misiones,central-1,302,1 mail.diputadosmisiones.gov.ar.
+diputadossantafe.gov.ar,8,wikidata,Chamber of Deputies of Santa Fe,central-1,302,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+hcdcorrientes.gov.ar,8,wikidata,Chamber of Deputies of Corrientes | Q56316686,central-1,ConnectException,1 smtp.google.com.
+hcder.gov.ar,8,wikidata,Chamber of Deputies of Entre Ríos,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 mail.hcder.gov.ar.
+hcdiputados-ba.gov.ar,8,wikidata,Buenos Aires Province Chamber of Deputies,central-1,200,0 correo.hcdiputados-ba.gov.ar.
+hcdmza.gov.ar,8,wikidata,Chamber of Deputies of Mendoza,central-1,301,25 zmta2.hcdmza.gov.ar.; 30 zmta1.hcdmza.gov.ar.
 inbias.conicet.gov.ar,8,wikidata;academia,Instituto de Biotecnología Ambiental y Salud | Q141144865,,403,none
 inpa-uba.conicet.gov.ar,8,wikidata;academia,Instituto de Investigación en Producción Animal | Q141144680,,403,none
 ipsibat.conicet.gov.ar,8,wikidata;academia,"Instituto de Psicología Básica, Aplicada y Tecnología | Q141144615",,403,none
-legislaturaformosa.gov.ar,8,wikidata;wikidata,Formosa Chamber of Deputies,central-1,301,0 legislaturaformosa.gov.ar.
-legislaturajujuy.gov.ar,8,wikidata;wikidata,Chamber of Deputies of Jujuy,central-1,ConnectException,10 mail.legislaturajujuy.gov.ar.
-legislaturamendoza.gov.ar,8,wikidata;wikidata,legislature of Mendoza,central-1,200,20 mail10.legislaturamendoza.gov.ar.; 10 mail.legislaturamendoza.gov.ar.
-mp.gba.gov.ar,8,wikidata;wikidata,"Ministry of Production, Science and Technology",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,11 relay2.gba.gov.ar.; 11 relay1.gba.gov.ar.
-mseg.gba.gov.ar,8,wikidata;wikidata,Buenos Aires Province Ministry of Security,central-1,301,10 relay1.gba.gov.ar.; 10 relay2.gba.gov.ar.
-santafe.gov.ar,8,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Santa Fe Provincial Police | Ministry of Security of the Province of Santa Fe | Q68720757 | Agencia Santafesina de Ciencia, Tecnología e Innovación | Archivo Provincial de la Memoria de Santa Fe",central-1,301,5 mx1.santafe.gov.ar.
-senado-ba.gov.ar,8,wikidata;wikidata,Senate of Buenos Aires Province,central-1,200,0 senadoba-gov-ar01e.mail.protection.outlook.com.
-senado.sanluis.gov.ar,8,wikidata;wikidata,Senate of San Luis,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-senadoctes.gov.ar,8,wikidata;wikidata,Senate of Corrientes,central-1,200,20 mx1.senadoctes.gov.ar.; 0 mail.senadoctes.gov.ar.
-web.legisrn.gov.ar,8,wikidata;wikidata,Legislature of Río Negro,central-1,200,none
-ciclaplata.org.ar,7,academia;academia,Centro de Investigaciones Cardiovasculares | Q141144648,,,
-cima.fcen.uba.ar,7,academia;academia,Center for Ocean and Atmosphere Sciences | Instituto Franco-Argentino sobre Estudios de Clima y sus Impactos,,,
+legislaturaformosa.gov.ar,8,wikidata,Formosa Chamber of Deputies,central-1,301,0 legislaturaformosa.gov.ar.
+legislaturajujuy.gov.ar,8,wikidata,Chamber of Deputies of Jujuy,central-1,ConnectException,10 mail.legislaturajujuy.gov.ar.
+legislaturamendoza.gov.ar,8,wikidata,legislature of Mendoza,central-1,200,20 mail10.legislaturamendoza.gov.ar.; 10 mail.legislaturamendoza.gov.ar.
+mp.gba.gov.ar,8,wikidata,"Ministry of Production, Science and Technology",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,11 relay2.gba.gov.ar.; 11 relay1.gba.gov.ar.
+mseg.gba.gov.ar,8,wikidata,Buenos Aires Province Ministry of Security,central-1,301,10 relay1.gba.gov.ar.; 10 relay2.gba.gov.ar.
+santafe.gov.ar,8,wikidata,"Santa Fe Provincial Police | Ministry of Security of the Province of Santa Fe | Q68720757 | Agencia Santafesina de Ciencia, Tecnología e Innovación | Archivo Provincial de la Memoria de Santa Fe",central-1,301,5 mx1.santafe.gov.ar.
+senado-ba.gov.ar,8,wikidata,Senate of Buenos Aires Province,central-1,200,0 senadoba-gov-ar01e.mail.protection.outlook.com.
+senado.sanluis.gov.ar,8,wikidata,Senate of San Luis,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+senadoctes.gov.ar,8,wikidata,Senate of Corrientes,central-1,200,20 mx1.senadoctes.gov.ar.; 0 mail.senadoctes.gov.ar.
+web.legisrn.gov.ar,8,wikidata,Legislature of Río Negro,central-1,200,none
+ciclaplata.org.ar,7,academia,Centro de Investigaciones Cardiovasculares | Q141144648,,,
+cima.fcen.uba.ar,7,academia,Center for Ocean and Atmosphere Sciences | Instituto Franco-Argentino sobre Estudios de Clima y sus Impactos,,,
 csjn.gov.ar,7,wikidata,Supreme Court of Argentina,central,301,50 mx1.csjn.gov.ar.; 100 mx2.csjn.gov.ar.; 10 mx.csjn.gov.ar.
-embajadadeluruguay.com.ar,7,wikidata;wikidata,embassy of Uruguay in Argentina,central,200,0 mail.embajadadeluruguay.com.ar.; 20 mx1.embajadadeluruguay.com.ar.
-fuerzas-armadas.mil.ar,7,wikidata;wikidata,Joint Staff of the Armed Forces | Jefatura de Inteligencia del Estado Mayor Conjunto de las Fuerzas Armadas,,302,none
+embajadadeluruguay.com.ar,7,wikidata,embassy of Uruguay in Argentina,central,200,0 mail.embajadadeluruguay.com.ar.; 20 mx1.embajadadeluruguay.com.ar.
+fuerzas-armadas.mil.ar,7,wikidata,Joint Staff of the Armed Forces | Jefatura de Inteligencia del Estado Mayor Conjunto de las Fuerzas Armadas,,302,none
 idecu.conicet.gov.ar,7,academia;ror,Q141144617,central,,
-idim.org.ar,7,academia;academia,Institute for Medical Research | Q141144792,,,
-inquimae.fcen.uba.ar,7,academia;academia,"Instituto de Química Física de los Materiales, Medio Ambiente y Energía | Q141144780",,,
-leloir.org.ar,7,academia;academia,Leloir Institute | Q141144614,,,
-lillo.org.ar,7,academia;academia,Fundación Miguel Lillo | Q141144844,,,
+idim.org.ar,7,academia,Institute for Medical Research | Q141144792,,,
+inquimae.fcen.uba.ar,7,academia,"Instituto de Química Física de los Materiales, Medio Ambiente y Energía | Q141144780",,,
+leloir.org.ar,7,academia,Leloir Institute | Q141144614,,,
+lillo.org.ar,7,academia,Fundación Miguel Lillo | Q141144844,,,
 scba.gov.ar,7,wikidata,Supreme Court of Justice of Buenos Aires,,200,8 mail5.scba.gov.ar.; 8 mail3.scba.gov.ar.
 teatrocolon.org.ar,7,wikidata;academia,Teatro Colón | Instituto Superior de Arte del Teatro Colón,,200,10 mail.teatrocolon.org.ar.
 arqueologia.institutos.filo.uba.ar,6,academia;ror,"Instituto de Arqueología, Facultad de Filosofía y Letras, Universidad de Buenos Aires",central,,
-jesuitasaru.org,6,wikidata;wikidata,Argentine-Uruguayan Jesuit Province,,200,0 jesuitasaru.org.
+jesuitasaru.org,6,wikidata,Argentine-Uruguayan Jesuit Province,,200,0 jesuitasaru.org.
 mdp.edu.ar,6,academia;ror,National University of Mar del Plata,central,,
 uader.edu.ar,6,academia;ror,Autonomous University of Entre Ríos,central,,
 uba.ar,6,academia;ror,University of Buenos Aires,central,,
@@ -449,7 +449,7 @@ buenos-aires.diplo.de,3,wikidata,"Embassy of Germany, Buenos Aires",central,200,
 buenos-aires.embassy.qa,3,wikidata,embassy of Qatar in Argentina,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 buenosaires.mae.ro,3,wikidata,embassy of Romania in Argentina,central,503,none
 buenosaires.veleposlanistvo.si,3,wikidata,embassy of Slovenia in Argentina,central,SSLHandshakeException: Remote host terminated the handshake,none
-caicyt-conicet.gov.ar,3,wikidata;wikidata;academia,"Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino de Información Científica y Tecnológica",central,HttpConnectTimeoutException: HTTP connect timed out,none
+caicyt-conicet.gov.ar,3,wikidata;academia,"Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino de Información Científica y Tecnológica",central,HttpConnectTimeoutException: HTTP connect timed out,none
 catenainstitute.com,3,academia,Catena Institute of Wine,,,
 cedinci.org,3,academia,Centro de Documentación e Investigación de la Cultura de Izquierdas en la Argentina,,,
 ceii.com.ar,3,ror,Centro de Estudios de Innovación Institucional,central,,
@@ -478,7 +478,7 @@ kennedy.edu.ar,3,ror,Universidad Argentina John F. Kennedy,central,,
 lacampora.org,3,wikidata,La Cámpora,,200,10 mail.lacampora.org.
 mfa.bg,3,wikidata,embassy of Bulgaria in Argentina,central,302,0 mfa-bg.mail.protection.outlook.com.
 mfa.gr,3,wikidata,embassy of Greece in Argentina,central,403,10 mailhost.mfa.gr.
-ms.gba.gov.ar,3,wikidata;wikidata;academia,Ministry of Health of the Province of Buenos Aires | Dr. Tomás Perón Biological Institute,,307,10 relay1.gba.gov.ar.; 10 relay2.gba.gov.ar.
+ms.gba.gov.ar,3,wikidata;academia,Ministry of Health of the Province of Buenos Aires | Dr. Tomás Perón Biological Institute,,307,10 relay1.gba.gov.ar.; 10 relay2.gba.gov.ar.
 mzv.cz,3,wikidata,embassy of the Czech republic in Argentina,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
 mzv.sk,3,wikidata,embassy of Slovakia in Argentina,central,301,10 mail.gov.sk.
 newsite.ucse.edu.ar,3,ror,Catholic University of Santiago del Estero,central,,

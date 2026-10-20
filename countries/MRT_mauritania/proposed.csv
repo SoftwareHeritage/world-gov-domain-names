@@ -1,9 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
-ami.mr,7,wikidata;wikidata,Mauritanian Information Agency | Mauritanian News Agency,,HttpTimeoutException: request timed out,10 ami-mr.mail.protection.outlook.com.
+ami.mr,7,wikidata,Mauritanian Information Agency | Mauritanian News Agency,,HttpTimeoutException: request timed out,10 ami-mr.mail.protection.outlook.com.
 ansade.mr,7,wikidata;academia,"National Agency for Statistics, Demographic and Economic Analysis",central,200,10 ansade.mr.
-assembleenationale.mr,7,wikidata;wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,none
+assembleenationale.mr,7,wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,none
 ons.mr,7,wikidata;academia,Office National de la Statistique,central,ConnectException,none
-tdm.mr,7,wikidata;wikidata,Broadcasting of Mauritania,,301,5 mta-gw.infomaniak.ch.
+tdm.mr,7,wikidata,Broadcasting of Mauritania,,301,5 mta-gw.infomaniak.ch.
 bcm.mr,4,wikidata,Central Bank of Mauritania,,500,10 mailstream-central.mxrecord.mx.; 20 mailstream-east.mxrecord.io.; 20 mailstream-west.mxrecord.io.; 5 mailstream-eu1.mxrecord.io.
 cndh.mr,4,wikidata,National Human Rights Commission of Mauritania,,200,5 mta-gw.infomaniak.ch.
 cnla.mr,4,wikidata,Centre National de Lutte Antiacridienne,,200,0 cnla.mr.

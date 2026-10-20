@@ -1,84 +1,84 @@
 hostname,score,sources,label,level,http_status,mx
-assemblee-nationale.fr,10,wikidata;wikidata;wikidata;wikidata;linkgraph,National Assembly | Franco-German Parliamentary Assembly,central,ConnectException,10 smtp21.assemblee-nationale.fr.; 30 smtp31.assemblee-nationale.fr.
+assemblee-nationale.fr,10,wikidata;linkgraph,National Assembly | Franco-German Parliamentary Assembly,central,ConnectException,10 smtp21.assemblee-nationale.fr.; 30 smtp31.assemblee-nationale.fr.
 cnil.fr,10,wikidata;linkgraph,National Commission on Informatics and Liberty,central,301,10 mail-premium2.cnil.fr.; 10 mail-premium.cnil.fr.
-gouvernement.fr,10,un_desa;wikidata;wikidata,Council of Ministers | UN/DESA national portal,central,301,none
-agroparistech.fr,9,academia;academia;ror,"AgroParisTech, Paris-Saclay University | Q51785610",central,,
+gouvernement.fr,10,un_desa;wikidata,Council of Ministers | UN/DESA national portal,central,301,none
+agroparistech.fr,9,academia;ror,"AgroParisTech, Paris-Saclay University | Q51785610",central,,
 ameli.fr,9,wikidata;linkgraph,health insurance in France,,301,20 assurancemaladiefr.mail.protection.outlook.com.
 caf.fr,9,wikidata;linkgraph,Caisse d'allocations familiales,,302,10 mel1.cnaf.fr.; 10 mel2.cnaf.fr.
-grenoble-inp.fr,9,academia;academia;ror,Grenoble Institute of Technology | Q51783932,central,,
+grenoble-inp.fr,9,academia;ror,Grenoble Institute of Technology | Q51783932,central,,
 paris.fr,8,wikidata;linkgraph,Inspection générale des carrières,,301,10 mx2.hc2479-79.eu.iphmx.com.; 10 mx1.hc2479-79.eu.iphmx.com.
 senat.fr,8,wikidata;linkgraph,Senate,central,301,5 mail2.senat.fr.; 5 mail1.senat.fr.
-ac-spm.fr,7,wikidata;wikidata,Service of the National Education of Saint Pierre and Miquelon,central-1,ConnectException,10 msg-a85.education.gouv.fr.; 10 msg-b85.education.gouv.fr.
+ac-spm.fr,7,wikidata,Service of the National Education of Saint Pierre and Miquelon,central-1,ConnectException,10 msg-a85.education.gouv.fr.; 10 msg-b85.education.gouv.fr.
 alpes.cnrs.fr,7,wikidata;academia,"CNRS, Délégation Alpes | Q51784291",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
 aquitaine-poitou-charentes.inserm.fr,7,wikidata;academia,"Délégation Aquitaine, Poitou-Charentes | Tissue Bio-Engeneering",,ConnectException,none
-avrul.fr,7,academia;academia,O. M. I. J. | Université de Limoges. Centre de recherches sémiotiques,,,
-bcl.cnrs.fr,7,academia;academia,"Bases, Corpus, Langage | UMR Bases, Corpus, Langage, Université de Nice-Sophia Antipolis",,,
+avrul.fr,7,academia,O. M. I. J. | Université de Limoges. Centre de recherches sémiotiques,,,
+bcl.cnrs.fr,7,academia,"Bases, Corpus, Langage | UMR Bases, Corpus, Langage, Université de Nice-Sophia Antipolis",,,
 bourgognefranchecomte.fr,7,wikidata;linkgraph,Regional council of Bourgogne-Franche-Comté,central-1,200,10 bourgognefranchecomte.in.tmes.trendmicro.eu.
-cdsp.sciences-po.fr,7,academia;academia,Q2945296 | Q51782018,,,
-ceramac.univ-bpclermont.fr,7,academia;academia,Q51780873 | UMR Territoires,,,
+cdsp.sciences-po.fr,7,academia,Q2945296 | Q51782018,,,
+ceramac.univ-bpclermont.fr,7,academia,Q51780873 | UMR Territoires,,,
 cerema.fr,7,wikidata;academia,"Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement | Q51782109",,301,5 relternet-02.developpement-durable.gouv.fr.; 10 ca.relternet-02.developpement-durable.gouv.fr.; 10 ca.relternet-01.developpement-durable.gouv.fr.; 5 relternet-01.developpement-durable.gouv.fr.; 10 cs.relternet-02.developpement-durable.gouv.fr.; 10 cs.relternet-01.developpement-durable.gouv.fr.
-cirad.fr,7,wikidata;academia;academia;academia,French Agricultural Research Centre for International Development | Q51780803 | Q51782558,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 antispam.cirad.fr.
-cirimat.cnrs.fr,7,academia;academia,Inter university Material Research and Engineering Centre | Q51782526,,,
-cmla.ens-cachan.fr,7,academia;academia,Center for Mathematical Studies and their Applications | Q51780574,,,
+cirad.fr,7,wikidata;academia,French Agricultural Research Centre for International Development | Q51780803 | Q51782558,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 antispam.cirad.fr.
+cirimat.cnrs.fr,7,academia,Inter university Material Research and Engineering Centre | Q51782526,,,
+cmla.ens-cachan.fr,7,academia,Center for Mathematical Studies and their Applications | Q51780574,,,
 cnrgv.toulouse.inra.fr,7,wikidata;academia,Q2945937,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching cnrgv.toulouse.inra.fr found.,none
-cnrs.fr,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia;academia;academia;academia;academia,CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Roussillon | Institut de chimie | Direction Générale Déléguée à la Science | Délégation Midi Pyrénées | National Center for Scientific Research | CNRS Images | Q51783137 | Q51783396 | Q51783988,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
-corse.fr,7,wikidata;wikidata,Executive Council of Corsica,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-crcm.marseille.inserm.fr,7,academia;academia,Marseille Cancer Research Center | Q51782093,,,
-crdp.univ-lille2.fr,7,academia;academia,CRDP | Q3039953,,,
-ctguyane.fr,7,wikidata;wikidata,Assembly of French Guiana,,301,10 ctguyane-fr.mail.protection.outlook.com.
-cyceron.fr,7,academia;academia,Cyceron | Q51783970,,,
-fast.u-psud.fr,7,academia;academia,"Fluids, Automatic and Thermal Systems (FAST) Laboratory | Q51784347",,,
-frama.universite-lyon.fr,7,academia;academia,Q28496182 | Q51780961,,,
+cnrs.fr,7,wikidata;academia,CNRS Délégation Aquitaine | Délégation Centre-Est | Délégation Languedoc Roussillon | Institut de chimie | Direction Générale Déléguée à la Science | Délégation Midi Pyrénées | National Center for Scientific Research | CNRS Images | Q51783137 | Q51783396 | Q51783988,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
+corse.fr,7,wikidata,Executive Council of Corsica,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+crcm.marseille.inserm.fr,7,academia,Marseille Cancer Research Center | Q51782093,,,
+crdp.univ-lille2.fr,7,academia,CRDP | Q3039953,,,
+ctguyane.fr,7,wikidata,Assembly of French Guiana,,301,10 ctguyane-fr.mail.protection.outlook.com.
+cyceron.fr,7,academia,Cyceron | Q51783970,,,
+fast.u-psud.fr,7,academia,"Fluids, Automatic and Thermal Systems (FAST) Laboratory | Q51784347",,,
+frama.universite-lyon.fr,7,academia,Q28496182 | Q51780961,,,
 france.fr,7,linkgraph,Linked from 29 public-sector domains,,301,0 france-fr.mail.protection.outlook.com.
-gouv.nc,7,wikidata;wikidata,Q3112596,central-1,200,10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.
+gouv.nc,7,wikidata,Q3112596,central-1,200,10 ASPMX3.GOOGLEMAIL.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.
 grand-est.inserm.fr,7,wikidata;academia,Délégation Grand-Est | Molecular Immuno-Rhumatology,,ConnectException,none
-guadeloupe.ars.sante.fr,7,wikidata;wikidata,"Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy",central-1,301,none
-ibcp.fr,7,academia;academia,Biologie Tissulaire et Ingénierie Thérapeutique | Structural and Molecular Basis of Infectious Systems,,,
-iheal.univ-paris3.fr,7,academia;academia,Centre de recherche et de documentation des Amériques | Institute for Advanced Latin American Studies,,,
-ihemi.fr,7,wikidata;wikidata,Institut des hautes études du ministère de l'Intérieur,,301,50 g54.altospam.net.; 10 j10.altospam.com.
-iiac.cnrs.fr,7,academia;academia,Edgar Morin Centre | Institut Interdisciplinaire d'Anthropologie du Contemporain,central,,
+guadeloupe.ars.sante.fr,7,wikidata,"Agence de Santé de Guadeloupe, Saint-Martin, Saint-Barthélemy",central-1,301,none
+ibcp.fr,7,academia,Biologie Tissulaire et Ingénierie Thérapeutique | Structural and Molecular Basis of Infectious Systems,,,
+iheal.univ-paris3.fr,7,academia,Centre de recherche et de documentation des Amériques | Institute for Advanced Latin American Studies,,,
+ihemi.fr,7,wikidata,Institut des hautes études du ministère de l'Intérieur,,301,50 g54.altospam.net.; 10 j10.altospam.com.
+iiac.cnrs.fr,7,academia,Edgar Morin Centre | Institut Interdisciplinaire d'Anthropologie du Contemporain,central,,
 iledefrance.fr,7,wikidata;linkgraph,Regional Council of Île-de-France,central-1,301,20 granit2.iledefrance.fr.; 10 granit1.iledefrance.fr.; 100 smtp3.sfrbusinessteam.fr.
-im2np.fr,7,academia;academia,"Institut des Matériaux, de Microélectronique et des Nanosciences de Provence | Q51782480",,,
+im2np.fr,7,academia,"Institut des Matériaux, de Microélectronique et des Nanosciences de Provence | Q51782480",,,
 in2p3.cnrs.fr,7,wikidata;academia,Institut national de physique nucléaire et de physique des particules,central,HttpConnectTimeoutException: HTTP connect timed out,none
-inserm.fr,7,wikidata;wikidata;wikidata;wikidata;academia,Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre Nord | French National Institute of Health and Medical Research,central,301,20 ins-mly-a317-fml1.inserm.fr.; 10 ins-par6-b11-fml1.inserm.fr.
-insu.cnrs.fr,7,academia;academia,INSU | Q51785218,,,
-ints.fr,7,academia;academia,Institut National de la Transfusion Sanguine | Q51781814,central,,
-iuml-cnrs.fr,7,academia;academia,Institut universitaire Mer et littoral | Pôle mer et littoral,,,
+inserm.fr,7,wikidata;academia,Délégation Occitanie Pyrénées | L’Inserm dans Paris et l’Île-de-France Centre Nord | French National Institute of Health and Medical Research,central,301,20 ins-mly-a317-fml1.inserm.fr.; 10 ins-par6-b11-fml1.inserm.fr.
+insu.cnrs.fr,7,academia,INSU | Q51785218,,,
+ints.fr,7,academia,Institut National de la Transfusion Sanguine | Q51781814,central,,
+iuml-cnrs.fr,7,academia,Institut universitaire Mer et littoral | Pôle mer et littoral,,,
 languedoc-roussillon.inserm.fr,7,wikidata;academia,Délégation Languedoc-Roussillon | Bacterial Virulence and Infectious Diseases,,HttpConnectTimeoutException: HTTP connect timed out,none
-lesc-cnrs.fr,7,academia;academia,Centre de recherche en ethnomusicologie | Laboratoire d'ethnologie et de sociologie comparative,,,
-lpnhe.in2p3.fr,7,academia;academia,Laboratoire Physique nucléaire et Hautes Energies | Laboratory of nuclear and high energy physics,,,
-msh-vdl.fr,7,academia;academia,Groupe d'études de recherches sur la coopération internationale et européenne | MSH Val-de-Loire,,,
-nature.metropole.nantes.fr,7,academia;academia,Cemetery Cimetière Parc | Jardin des plantes de Nantes,,,
-nouvelle-aquitaine.fr,7,wikidata;wikidata,Nouvelle-Aquitaine Regional Council | Regional Council of Limousin,central-1,302,0 mx1.nouvelle-aquitaine.pro.; 0 mx3.nouvelle-aquitaine.pro.; 0 mx2.nouvelle-aquitaine.pro.
-onera.fr,7,wikidata;academia;academia;academia;academia;academia;academia;academia,"Office National d'Études et de Recherches Aérospatiales | Aerodynamics, aeroelasticity, acoustics | Electromagnetism and Radar | Information processing and systems department | Materials and structures department | Multi-physics for energetics | Optics and associated techniques department | Physical instrumentation environment space department",,301,0 emix.onera.fr.
+lesc-cnrs.fr,7,academia,Centre de recherche en ethnomusicologie | Laboratoire d'ethnologie et de sociologie comparative,,,
+lpnhe.in2p3.fr,7,academia,Laboratoire Physique nucléaire et Hautes Energies | Laboratory of nuclear and high energy physics,,,
+msh-vdl.fr,7,academia,Groupe d'études de recherches sur la coopération internationale et européenne | MSH Val-de-Loire,,,
+nature.metropole.nantes.fr,7,academia,Cemetery Cimetière Parc | Jardin des plantes de Nantes,,,
+nouvelle-aquitaine.fr,7,wikidata,Nouvelle-Aquitaine Regional Council | Regional Council of Limousin,central-1,302,0 mx1.nouvelle-aquitaine.pro.; 0 mx3.nouvelle-aquitaine.pro.; 0 mx2.nouvelle-aquitaine.pro.
+onera.fr,7,wikidata;academia,"Office National d'Études et de Recherches Aérospatiales | Aerodynamics, aeroelasticity, acoustics | Electromagnetism and Radar | Information processing and systems department | Materials and structures department | Multi-physics for energetics | Optics and associated techniques department | Physical instrumentation environment space department",,301,0 emix.onera.fr.
 paca.inserm.fr,7,wikidata;academia,"Délégation Provence-Alpes-Côte d’Azur et Corse | HLA-DR Genes , Autoantibody and Microchimerism in Rheumatoid Arthritis and Scleroderma",,ConnectException,none
-paris-sorbonne.fr,7,academia;academia,Q51780531 | Q51781560,,,
-pasteur.fr,7,academia;academia,Centre Médical de l'Institut Pasteur | Pasteur Institute,,,
+paris-sorbonne.fr,7,academia,Q51780531 | Q51781560,,,
+pasteur.fr,7,academia,Centre Médical de l'Institut Pasteur | Pasteur Institute,,,
 phase.inra.fr,7,wikidata;academia,Département Physiologie animale et systèmes d’élevage,,ConnectException,none
-recherche.univ-lille2.fr,7,academia;academia,Q51784822 | virology laboratory,,,
+recherche.univ-lille2.fr,7,academia,Q51784822 | virology laboratory,,,
 rennes.inra.fr,7,wikidata;academia,Centre Rennes | Unité Expérimentale sur les Ressources Génétiques Végétales en Conditions Océaniques,,ConnectException,0 mx2.relay.renater.fr.; 0 mx1.relay.renater.fr.
-scicf.u-psud.fr,7,academia;academia,Interactions Cellulaires et Physiopathologie Hépathique | Q51795742,,,
+scicf.u-psud.fr,7,academia,Interactions Cellulaires et Physiopathologie Hépathique | Q51795742,,,
 service-public.fr,7,linkgraph,Linked from 165 public-sector domains,,301,20 relay2-c.dila.fr.; 10 relay1-c.dila.fr.
-sfr-tsm.ec-lille.fr,7,academia;academia,Q51780016 | Q51782162,,,
-stromalab.fr,7,academia;academia,Q51780869 | StromaLab,,,
-tribunal-de-paris.justice.fr,7,wikidata;wikidata;wikidata;wikidata,Parquet national financier | Tribunal de grande instance de Paris | Tribunal judiciaire de Paris | Q108457439,,ConnectException,none
-univ-paris1.fr,7,academia;academia,Q51782396 | Sorbonne Institute for Development Studies,,,
-univ-paris13.fr,7,academia;academia,"Pathophysiology, Targets and Therapies of Rheumatoid Arthtritis | Université Paris-Nord. Centre d'études et de recherches administratives et politiques",,,
-webcom.upmf-grenoble.fr,7,academia;academia,Q30261552 | Université Pierre Mendès France Grenoble 2. Laboratoire des sciences de l'éducation,,,
-www-smbh.univ-paris13.fr,7,academia;academia,Q51780483 | Signaling Adaptors in Haematology,,,
-www1.montpellier.inra.fr,7,academia;academia,Biochemistry and Plant Molecular Physiology | Q51784326,,,
-www1.univ-ag.fr,7,academia;academia,Q51785087 | Université Antilles-Guyane. Centre d'études et de recherches juridiques en droit des affaires,,,
-www2.dijon.inra.fr,7,academia;academia,Centre d'Economie et de Sociologie Appliquées à l'Agriculture et aux Espaces Ruraux | Centre des Sciences du Goût et de l'Alimentation,,,
-www6.clermont.inra.fr,7,academia;academia,Q51781810 | Q52604651,,,
-www6.clermont.inrae.fr,7,academia;academia,Integrative Physics and Physiology of Fruit and Forest Trees | Q52557873,,,
-www6.jouy.inrae.fr,7,academia;academia,Q109614407 | Q109621455,,,
-www6.val-de-loire.inra.fr,7,academia;academia,Physiologie de la Reproduction et des Comportements | Q51783374,,,
-arenes.eu,6,academia;academia,"Arènes: politique, santé publique, environnement, médias | Q51785043",,,
-b2oa.eu,6,academia;academia,Q51783688 | Q51784654,,,
-bioimageanalysis.org,6,academia;academia,Q51782100 | Q51783327,,,
+sfr-tsm.ec-lille.fr,7,academia,Q51780016 | Q51782162,,,
+stromalab.fr,7,academia,Q51780869 | StromaLab,,,
+tribunal-de-paris.justice.fr,7,wikidata,Parquet national financier | Tribunal de grande instance de Paris | Tribunal judiciaire de Paris | Q108457439,,ConnectException,none
+univ-paris1.fr,7,academia,Q51782396 | Sorbonne Institute for Development Studies,,,
+univ-paris13.fr,7,academia,"Pathophysiology, Targets and Therapies of Rheumatoid Arthtritis | Université Paris-Nord. Centre d'études et de recherches administratives et politiques",,,
+webcom.upmf-grenoble.fr,7,academia,Q30261552 | Université Pierre Mendès France Grenoble 2. Laboratoire des sciences de l'éducation,,,
+www-smbh.univ-paris13.fr,7,academia,Q51780483 | Signaling Adaptors in Haematology,,,
+www1.montpellier.inra.fr,7,academia,Biochemistry and Plant Molecular Physiology | Q51784326,,,
+www1.univ-ag.fr,7,academia,Q51785087 | Université Antilles-Guyane. Centre d'études et de recherches juridiques en droit des affaires,,,
+www2.dijon.inra.fr,7,academia,Centre d'Economie et de Sociologie Appliquées à l'Agriculture et aux Espaces Ruraux | Centre des Sciences du Goût et de l'Alimentation,,,
+www6.clermont.inra.fr,7,academia,Q51781810 | Q52604651,,,
+www6.clermont.inrae.fr,7,academia,Integrative Physics and Physiology of Fruit and Forest Trees | Q52557873,,,
+www6.jouy.inrae.fr,7,academia,Q109614407 | Q109621455,,,
+www6.val-de-loire.inra.fr,7,academia,Physiologie de la Reproduction et des Comportements | Q51783374,,,
+arenes.eu,6,academia,"Arènes: politique, santé publique, environnement, médias | Q51785043",,,
+b2oa.eu,6,academia,Q51783688 | Q51784654,,,
+bioimageanalysis.org,6,academia,Q51782100 | Q51783327,,,
 bnu.fr,6,wikidata;ror,Bibliothèque nationale et universitaire de Strasbourg,central,301,3 bnu-fr.mail.eo.outlook.com.
 bordeaux-inp.fr,6,academia;ror,Institut polytechnique de Bordeaux,central,,
-circeft.org,6,academia;academia,Q51784774 | Q51785401,,,
+circeft.org,6,academia,Q51784774 | Q51785401,,,
 clermont-auvergne-inp.fr,6,academia;ror,National Polytechnic Institute of Clermont Auvergne,central,,
 conseil-constitutionnel.fr,6,wikidata,Constitutional Council of France,central,301,30 conseil-constitutionnel.mailinblack.com.
 courdecassation.fr,6,wikidata,Court of Cassation,central,200,20 hkgmail1.hk.publicisgroupe.net.; 5 parmail1.fr.publicisgroupe.net.; 10 chimail1.us.publicisgroupe.net.
@@ -88,30 +88,30 @@ enc-sorbonne.fr,6,academia;ror,Centre Jean-Mabillon,central,,
 enim.fr,6,academia;ror,Q51784757,central,,
 ens-paris-saclay.fr,6,academia;ror,Laboratoire de biologie et pharmacologie appliquée,central,,
 ensc-rennes.fr,6,academia;ror,École nationale supérieure de chimie de Rennes,central,,
-escolapiesinstitutions.org,6,wikidata;wikidata,Piarist province of West Africa,,ConnectException,none
+escolapiesinstitutions.org,6,wikidata,Piarist province of West Africa,,ConnectException,none
 esiee.fr,6,academia;ror,ESIEE Paris,central,,
 esigelec.fr,6,academia;ror,Q51784827,central,,
 estia.fr,6,academia;ror,Q51784415,central,,
-europaraadet.um.dk,6,wikidata;wikidata,Permanent Representation of Denmark to the Council of Europe,,301,none
-federation3c.com,6,academia;academia,Q51781091 | Q51784004,,,
-france.mfa.am,6,wikidata;wikidata,"Embassy of Armenia, Paris | Consulate of Armenia, Lyon",central,301,none
-france.representation.ec.europa.eu,6,wikidata;wikidata,Representative Office of the European Commission in Paris | European Commission Representation in France,,302,none
+europaraadet.um.dk,6,wikidata,Permanent Representation of Denmark to the Council of Europe,,301,none
+federation3c.com,6,academia,Q51781091 | Q51784004,,,
+france.mfa.am,6,wikidata,"Embassy of Armenia, Paris | Consulate of Armenia, Lyon",central,301,none
+france.representation.ec.europa.eu,6,wikidata,Representative Office of the European Commission in Paris | European Commission Representation in France,,302,none
 francetravail.fr,6,linkgraph,Linked from 12 public-sector domains,,301,10 mx2.hc1819-26.eu.iphmx.com.; 10 mx1.hc1819-26.eu.iphmx.com.
-francoallemand.com,6,wikidata;wikidata,Deutsch-Französische Industrie- und Handelskammer,,302,0 francoallemand-com.mail.protection.outlook.com.
-frankrig.um.dk,6,wikidata;wikidata,"Embassy of Denmark, Paris",central,301,none
+francoallemand.com,6,wikidata,Deutsch-Französische Industrie- und Handelskammer,,302,0 francoallemand-com.mail.protection.outlook.com.
+frankrig.um.dk,6,wikidata,"Embassy of Denmark, Paris",central,301,none
 icp.fr,6,academia;ror,Q51784532,central,,
-ihu-france.org,6,academia;academia,Institut hospitalo-universitaire | Q123848524,,,
+ihu-france.org,6,academia,Institut hospitalo-universitaire | Q123848524,,,
 isee.nc,6,wikidata;academia,Institute of Statistics and Economic Studies,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 ispf.pf,6,wikidata;academia,Q19375721,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 iurc.montp.inserm.fr,6,academia;ror,Q51784446,central,,
-jardinbretagne.com,6,academia;academia,Botanical garden of Upper Brittany | Q96758070,,,
-jesuites.com,6,wikidata;wikidata,Jesuit Province of Francophone Western Europe,,301,10 jesuites-com.mail.protection.outlook.com.
-lcpi.ensam.eu,6,academia;academia,Laboratoire Conception de Produits et Innovation | Q51783101,,,
-locongres.org,6,wikidata;wikidata,Permanent Congress of the Occitan Language,,200,120 mxb.ovh.net.; 5 mx2.ovh.net.; 1 mx1.ovh.net.
-lsbb.eu,6,academia;academia,Low Noise Inter-Disciplinary Underground Science & Technology | Q3214512,,,
+jardinbretagne.com,6,academia,Botanical garden of Upper Brittany | Q96758070,,,
+jesuites.com,6,wikidata,Jesuit Province of Francophone Western Europe,,301,10 jesuites-com.mail.protection.outlook.com.
+lcpi.ensam.eu,6,academia,Laboratoire Conception de Produits et Innovation | Q51783101,,,
+locongres.org,6,wikidata,Permanent Congress of the Occitan Language,,200,120 mxb.ovh.net.; 5 mx2.ovh.net.; 1 mx1.ovh.net.
+lsbb.eu,6,academia,Low Noise Inter-Disciplinary Underground Science & Technology | Q3214512,,,
 mines-stetienne.fr,6,academia;ror,Q51781671,central,,
 normandie-univ.fr,6,academia;ror,Normandy University,central,,
-secomunidades.pt,6,wikidata;wikidata,"Consulate General of Portugal, Marseille | portuguese consulate, Lyon",,HttpConnectTimeoutException: HTTP connect timed out,none
+secomunidades.pt,6,wikidata,"Consulate General of Portugal, Marseille | portuguese consulate, Lyon",,HttpConnectTimeoutException: HTTP connect timed out,none
 telecom-paris.fr,6,academia;ror,Laboratoire Traitement et Communication de l’Information,central,,
 unilasalle.fr,6,academia;ror,Q51781673,central,,
 univ-toulouse.fr,6,academia;ror,University of Toulouse,central,,
@@ -1347,7 +1347,7 @@ tristan.u-bourgogne.fr,4,academia,Centre Georges Chevrier,,,
 tuilliere.fr,4,academia,Arboretum de la Tuillère,,,
 txiktxak.fr,4,wikidata,Txik Txak,,HttpConnectTimeoutException: HTTP connect timed out,5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.; 100 mx3.mail.ovh.net.
 u-bourgogne.fr,4,academia,University of Burgundy Europe,central,,
-u-paris.fr,4,academia;academia;academia;ror,Centre d'études et de recherches interdisciplinaires de l'UFR LAC | Paris Cité University | Q51778792,central,,
+u-paris.fr,4,academia;ror,Centre d'études et de recherches interdisciplinaires de l'UFR LAC | Paris Cité University | Q51778792,central,,
 u-sports.univ-fcomte.fr,4,academia,Laboratoire C3S,,,
 u1011.pasteur-lille.fr,4,academia,"Nuclear receptors, metabolic and cardiovascular diseases",,,
 u1034.bordeaux.inserm.fr,4,academia,Cardiovascular Adaptation to Ischemia,,,
@@ -1416,7 +1416,7 @@ umrtemps.cnrs.fr,4,academia,Technology and Ethnology of Prehistoric Worlds,,,
 unicancer.fr,4,academia,Q51782140,,,
 unionroutiere.fr,4,academia,Q30739022,,,
 univ-bpclermont.fr,4,academia,Q51782541,,,
-univ-paris3.fr,4,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;ror,"CERAM | CERC | CLESTHIA | Center for Research on the English Speaking World | Centre de Recherche Interuniversitaire sur l'Amérique Latine | Centre de recherche sur les pays lusophones | Centre des Etudes Arabes et Orientales | Communication, Information, Médias | Didactique des Langues, des Textes et des Cultures | Formes et Idées de la Renaissance aux Lumières | Institut de Recherche Médias, Cultures, Communication et Numérique | Les Cultures de l'Europe Méditerranéenne Occidentale | PRISMES | Q51780798 | Q51782847 | Q51785167 | Université de Paris III. Institut de recherche sur le cinéma et l'audiovisuel | Visual and Performance Studies",central,,
+univ-paris3.fr,4,academia;ror,"CERAM | CERC | CLESTHIA | Center for Research on the English Speaking World | Centre de Recherche Interuniversitaire sur l'Amérique Latine | Centre de recherche sur les pays lusophones | Centre des Etudes Arabes et Orientales | Communication, Information, Médias | Didactique des Langues, des Textes et des Cultures | Formes et Idées de la Renaissance aux Lumières | Institut de Recherche Médias, Cultures, Communication et Numérique | Les Cultures de l'Europe Méditerranéenne Occidentale | PRISMES | Q51780798 | Q51782847 | Q51785167 | Université de Paris III. Institut de recherche sur le cinéma et l'audiovisuel | Visual and Performance Studies",central,,
 universiteparisseine.fr,4,academia,University of Paris-Seine,central,,
 upcgi.cnrs.fr,4,academia,Unité de Technologies Chimiques et Biologiques pour la Santé,,,
 ur-agirs.cirad.fr,4,academia,Q51785497,,,
@@ -1474,8 +1474,6 @@ xenopus.univ-rennes1.fr,4,academia,Q51781313,,,
 xlim.fr,4,academia,XLIM UMR CNRS 7252,,,
 xn--nos-eoa.fr,4,academia,Q140142353,,,
 zoo.montpellier.fr,4,academia,Parc zoologique de Montpellier,,,
-193.49.117.47,3,academia,Q52604750,,,
-193.49.49.124,3,academia,"Epidemiology and Public Health Analysis : Risks, Chronic Diseases, Handicaps",,,
 academiemarquisienne.com,3,wikidata,Marquesan Academy,,200,none
 aecc.hypotheses.org,3,academia,Q51782598,,,
 afri-ct.org,3,academia,Q51781309,,,
@@ -1894,7 +1892,7 @@ parisdescartes.libguides.com,3,academia,Q51780377,,,
 parisepigenetics.com,3,academia,Epigenetics and Cell Fate,,,
 pariset.hypotheses.org,3,academia,Q51782272,,,
 paristech.fr,3,ror,ParisTech,central,,
-parlement.fr,3,wikidata;wikidata;wikidata;wikidata,French Parliament,central,ConnectException,30 smtp31.assemblee-nationale.fr.; 10 smtp21.assemblee-nationale.fr.
+parlement.fr,3,wikidata,French Parliament,central,ConnectException,30 smtp31.assemblee-nationale.fr.; 10 smtp21.assemblee-nationale.fr.
 paysbasetvous.nl,3,wikidata,"Embassy of The Netherlands, Paris",central,301,0 .
 periclesfrance.org,3,academia,Q131386757,,,
 planet-exotica.com,3,academia,Parc Jardins du Monde,,,
@@ -1988,28 +1986,28 @@ www-05.ibm.com,3,academia,IBM La Gaude,,,
 za-inee.org,3,academia,Q51784538,,,
 zoo-mulhouse.com,3,academia,Parc Zoologique et Botanique de Mulhouse,,,
 zootropical.com,3,academia,Jardin zoologique tropical,,,
-angers-nantes.inra.fr,2,wikidata;academia;academia;academia;academia,Centre Angers-Nantes Pays de la Loire | Q51778828 | Q51784653 | Q51784987 | Q51785604,,ConnectException,0 mx2.relay.renater.fr.; 0 mx1.relay.renater.fr.
+angers-nantes.inra.fr,2,wikidata;academia,Centre Angers-Nantes Pays de la Loire | Q51778828 | Q51784653 | Q51784987 | Q51785604,,ConnectException,0 mx2.relay.renater.fr.; 0 mx1.relay.renater.fr.
 aueg.org,2,ror,Alliance Université-Entreprise de Grenoble,central,,
 aup.edu,2,ror,American University of Paris,central,,
 beauxartsparis.com,2,ror,École Nationale Supérieure des Beaux-Arts,central,,
-biomedicale.parisdescartes.fr,2,academia;academia;academia;academia;academia;academia;academia,Brain Physiology Lab | Laboratoire de Chimie et Biochimie Pharmacologiques et Toxicologiques | Neurophysiology Laboratory and New Microscopies | Q51781947 | Q51781988 | Q51783309 | the Molecular Basis of Response to Xenobiotics,central,,
-brgm.fr,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,BRGM Pays de la Loire | BRGM Grand Est - Reims | BRGM Auvergne-Rhone-Alpes - Clermont-Ferrand | BRGM Grand Est - Nancy | BRGM Paris region | BRGM Occitanie - Montpellier | BRGM Mayotte | BRGM Corsica | BRGM Hauts-de-France | BRGM Nouvelle-Aquitaine - Poitiers | BRGM Bourgogne Franche- Comte | BRGM Nouvelle-Aquitaine - Bordeaux | BRGM Brittany | BRGM Provence-Alpes-Cote d’Azur | BRGM Normandy | BRGM Auvergne-Rhone-Alpes - Lyon | BRGM Grand Est - Strasbourg | BRGM Occitanie - Toulouse,,302,none
+biomedicale.parisdescartes.fr,2,academia,Brain Physiology Lab | Laboratoire de Chimie et Biochimie Pharmacologiques et Toxicologiques | Neurophysiology Laboratory and New Microscopies | Q51781947 | Q51781988 | Q51783309 | the Molecular Basis of Response to Xenobiotics,central,,
+brgm.fr,2,wikidata,BRGM Pays de la Loire | BRGM Grand Est - Reims | BRGM Auvergne-Rhone-Alpes - Clermont-Ferrand | BRGM Grand Est - Nancy | BRGM Paris region | BRGM Occitanie - Montpellier | BRGM Mayotte | BRGM Corsica | BRGM Hauts-de-France | BRGM Nouvelle-Aquitaine - Poitiers | BRGM Bourgogne Franche- Comte | BRGM Nouvelle-Aquitaine - Bordeaux | BRGM Brittany | BRGM Provence-Alpes-Cote d’Azur | BRGM Normandy | BRGM Auvergne-Rhone-Alpes - Lyon | BRGM Grand Est - Strasbourg | BRGM Occitanie - Toulouse,,302,none
 bsb-education.com,2,ror,"ESC Dijon Bourgogne, École supérieure de commerce de Dijon-Bourgogne",central,,
-calamar.univ-ag.fr,2,academia;academia;academia,Q51780929 | Q51781577 | Q51783507,,,
+calamar.univ-ag.fr,2,academia,Q51780929 | Q51781577 | Q51783507,,,
 campusadventiste.edu,2,ror,Campus adventiste du salève,central,,
-centralesupelec.fr,2,academia;academia;academia;academia;academia;academia,CentraleSupélec | Centre for Visual Computing | Laboratoire Génie Industriel | Q51780222 | Q51781169 | Q51786239,central,,
-centre-poitou-charentes.cnrs.fr,2,wikidata;academia;academia,Délégation Centre Limousin Poitou-Charentes | Q51785331 | Q51786226,,ConnectException,none
-chimie.ens.fr,2,academia;academia;academia,Laboratoire des biomolécules | Processus d'Activation Sélective par Transfert d'Energie Uni-électronique ou Radiatif | Q51782221,,,
-chu-toulouse.fr,2,academia;academia;academia,Q51780522 | Q51782333 | Q51784313,,,
-cnrgv.toulouse.inrae.fr,2,wikidata;wikidata;academia,Q2945937,,200,none
-conseil-etat.fr,2,wikidata;wikidata;wikidata,Conseil d'État | interior section of the French Conseil d'État,central,200,none
-cours-appel.justice.fr,2,wikidata;wikidata;wikidata;wikidata;wikidata,Tribunal judiciaire de Toulouse | Tribunal judiciaire de Rennes | tribunal judiciaire de Nîmes | Dijon Judicial Court | Q84319097,,ConnectException,none
-curie.fr,2,academia;academia;academia;academia;academia,Chemistry and modeling for cancer biology | Dynamics of Genetic Information Fundamental Basis and Cancer | Nuclear Dynamics | Q109620211 | Subcellular Structure and Cellular Dynamics,,,
-dr19.cnrs.fr,2,wikidata;academia;academia,Délégation Normandie | Q51782513 | Q51783856,,ConnectException,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
+centralesupelec.fr,2,academia,CentraleSupélec | Centre for Visual Computing | Laboratoire Génie Industriel | Q51780222 | Q51781169 | Q51786239,central,,
+centre-poitou-charentes.cnrs.fr,2,wikidata;academia,Délégation Centre Limousin Poitou-Charentes | Q51785331 | Q51786226,,ConnectException,none
+chimie.ens.fr,2,academia,Laboratoire des biomolécules | Processus d'Activation Sélective par Transfert d'Energie Uni-électronique ou Radiatif | Q51782221,,,
+chu-toulouse.fr,2,academia,Q51780522 | Q51782333 | Q51784313,,,
+cnrgv.toulouse.inrae.fr,2,wikidata;academia,Q2945937,,200,none
+conseil-etat.fr,2,wikidata,Conseil d'État | interior section of the French Conseil d'État,central,200,none
+cours-appel.justice.fr,2,wikidata,Tribunal judiciaire de Toulouse | Tribunal judiciaire de Rennes | tribunal judiciaire de Nîmes | Dijon Judicial Court | Q84319097,,ConnectException,none
+curie.fr,2,academia,Chemistry and modeling for cancer biology | Dynamics of Genetic Information Fundamental Basis and Cancer | Nuclear Dynamics | Q109620211 | Subcellular Structure and Cellular Dynamics,,,
+dr19.cnrs.fr,2,wikidata;academia,Délégation Normandie | Q51782513 | Q51783856,,ConnectException,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
 ecoledubois.com,2,ror,École Supérieure du Bois,central,,
-ecolesdoctorales.parisdescartes.fr,2,academia;academia;academia;academia;academia;academia;academia;academia,Membrane Traffic in Health and Disease | Pathophysiology and Pharmacotoxicology of the Human Placenta | Q51779678 | Q51781075 | Q51781851 | Q51781860 | Q51782050 | Q51784696,,,
+ecolesdoctorales.parisdescartes.fr,2,academia,Membrane Traffic in Health and Disease | Pathophysiology and Pharmacotoxicology of the Human Placenta | Q51779678 | Q51781075 | Q51781851 | Q51781860 | Q51782050 | Q51784696,,,
 eiu.ac,2,ror,European International University,central,,
-english.inserm.fr,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Immunology, inflammation, infectiology and microbiology | Genetics, Genomics and Bioinformatics | Cancer | Molecular and structural basis of life sciences | Cell Biology, Development and Evolution | Health technologies | Neurosciences, cognitive sciences, neurology and psychiatry | Physiopathology, metabolism and nutrition",,ConnectException,none
+english.inserm.fr,2,wikidata,"Immunology, inflammation, infectiology and microbiology | Genetics, Genomics and Bioinformatics | Cancer | Molecular and structural basis of life sciences | Cell Biology, Development and Evolution | Health technologies | Neurosciences, cognitive sciences, neurology and psychiatry | Physiopathology, metabolism and nutrition",,ConnectException,none
 ensta-bretagne.eu,2,ror,École nationale supérieure de techniques avancées Bretagne,central,,
 esa-n.info,2,ror,Ecole supérieure d'art | Dunkerque - Tourcoing,central,,
 esaavignon.eu,2,ror,École supérieure d'Art d'Avignon,central,,
@@ -2020,62 +2018,62 @@ esitc-metz.com,2,ror,École Supérieure d'Ingénieurs des Travaux de la Construc
 esma-artistique.com,2,ror,École Supérieure des Metiers Artistiques,central,,
 essa-isgroupe.com,2,ror,École supérieure du soudage et de ses applications,central,,
 excelia-group.com,2,ror,Excelia Business School,central,,
-geves.fr,2,academia;academia;academia,G.E.V.E.S. | Group for the Study and Control of Varieties and Seeds | Q51783810,,,
+geves.fr,2,academia,G.E.V.E.S. | Group for the Study and Control of Varieties and Seeds | Q51783810,,,
 groupe-esa.com,2,ror,École supérieure des agricultures,central,,
-gustaveroussy.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Dynamique moléculaire de la transformation hématopoïétique | Identification of Molecular Predictors and New Targets for Cancer Treatment | Immunology of Tumors and Immunotherapy | Integrative Cancer Immunology and Oncogenetic | Laboratory for Vectorology in Anticancer Therapy | Metabolic and systemic aspects of oncogenesis for new therapeutic approaches | Molecular Radiotherapy Unit | Q109583924 | Q109590507 | Q109614434 | Q109620221 | Q51781544 | Rétrovirus Endogènes et Eléments Rétroides des Eucaryotes Supérieurs,,,
+gustaveroussy.fr,2,academia,Dynamique moléculaire de la transformation hématopoïétique | Identification of Molecular Predictors and New Targets for Cancer Treatment | Immunology of Tumors and Immunotherapy | Integrative Cancer Immunology and Oncogenetic | Laboratory for Vectorology in Anticancer Therapy | Metabolic and systemic aspects of oncogenesis for new therapeutic approaches | Molecular Radiotherapy Unit | Q109583924 | Q109590507 | Q109614434 | Q109620221 | Q51781544 | Rétrovirus Endogènes et Eléments Rétroides des Eucaryotes Supérieurs,,,
 hesam.eu,2,ror,HESAM Université,central,,
-ibpc.fr,2,academia;academia;academia,Institut de biologie physico-chimique | Laboratoire de Biologie Physico-Chimique des Protéines Membranaires | Physiologie Membranaire et Moléculaire du Chloroplaste,,,
-ibps.upmc.fr,2,academia;academia;academia,Laboratoire de Biologie du Développement | Q51783646 | Q51784551,,,
+ibpc.fr,2,academia,Institut de biologie physico-chimique | Laboratoire de Biologie Physico-Chimique des Protéines Membranaires | Physiologie Membranaire et Moléculaire du Chloroplaste,,,
+ibps.upmc.fr,2,academia,Laboratoire de Biologie du Développement | Q51783646 | Q51784551,,,
 icrennes.org,2,ror,Institut catholique de rennes,central,,
-idf.inserm.fr,2,wikidata;wikidata;wikidata;wikidata;wikidata;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,"Délégation Paris 5 | Délégation Paris 6 | Délégation Paris 7 | Délégation Paris 12 | Délégation Paris 11 | Aging and Chronic Diseases. Epidemiologic and Public Health Approach | Cancer and Transplantation - Pathophysiology and Therapeutic Response | Cytokines, Chimiokines and Immune Tolerance | Gene Therapy, Genetic, Epigenetic in Neurobiology, Endocrinology and Child Development | Genetic and Pathophysiology of Cerebrovascular Diseases | Hormonal Signaling, Endocrine and Metabolic Pathophysiology | Mental Health and Public Health | Neuroprotective, Neuroregenerative and Remyelinating Small Molecules | Q51781427 | Q51781588 | Q51782877 | Q51783475 | Q51783561 | Research Centre for Immunology of Viral Infections and Autoimmune Diseases | Stem Cells-Niches Interactions : Physiology, Tumors and Tissue Reparation",,ConnectException,none
-ifsttar.fr,2,wikidata;academia;academia;academia;academia;academia;academia,IFSTTAR | Q51781270 | Q51781279 | Q51781287 | Q51785458 | Q51786176,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.relay.renater.fr.; 10 mx2.relay.renater.fr.
-imrb.inserm.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Mondor Institute of Biomedical Research | Q51780406 | Q51780411 | Q51780420 | Q51781393 | Q51781400 | Q51781406 | Q51781417 | Q51782139 | Q51782144 | Q51782151 | Q51783412 | Q51784868 | Q51784941 | Q51784957 | Q51785394,,,
-inb.u-bordeaux2.fr,2,academia;academia;academia,Neuroinflammation : Imaging and Treatment of Multiple Sclerosis | Q51779784 | Q51780714,,,
-ined.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Q51780444 | Q51780475 | Q51781368 | Q51781374 | Q51781620 | Q51782440 | Q51782809 | Q51782817 | Q51783431 | Q51783656 | Q51784548,,,
-inrae.fr,2,wikidata;wikidata;wikidata;academia,INRAE Bordeaux-Aquitaine | Département de Génétique Animale,,301,none
+idf.inserm.fr,2,wikidata;academia,"Délégation Paris 5 | Délégation Paris 6 | Délégation Paris 7 | Délégation Paris 12 | Délégation Paris 11 | Aging and Chronic Diseases. Epidemiologic and Public Health Approach | Cancer and Transplantation - Pathophysiology and Therapeutic Response | Cytokines, Chimiokines and Immune Tolerance | Gene Therapy, Genetic, Epigenetic in Neurobiology, Endocrinology and Child Development | Genetic and Pathophysiology of Cerebrovascular Diseases | Hormonal Signaling, Endocrine and Metabolic Pathophysiology | Mental Health and Public Health | Neuroprotective, Neuroregenerative and Remyelinating Small Molecules | Q51781427 | Q51781588 | Q51782877 | Q51783475 | Q51783561 | Research Centre for Immunology of Viral Infections and Autoimmune Diseases | Stem Cells-Niches Interactions : Physiology, Tumors and Tissue Reparation",,ConnectException,none
+ifsttar.fr,2,wikidata;academia,IFSTTAR | Q51781270 | Q51781279 | Q51781287 | Q51785458 | Q51786176,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.relay.renater.fr.; 10 mx2.relay.renater.fr.
+imrb.inserm.fr,2,academia,Mondor Institute of Biomedical Research | Q51780406 | Q51780411 | Q51780420 | Q51781393 | Q51781400 | Q51781406 | Q51781417 | Q51782139 | Q51782144 | Q51782151 | Q51783412 | Q51784868 | Q51784941 | Q51784957 | Q51785394,,,
+inb.u-bordeaux2.fr,2,academia,Neuroinflammation : Imaging and Treatment of Multiple Sclerosis | Q51779784 | Q51780714,,,
+ined.fr,2,academia,Q51780444 | Q51780475 | Q51781368 | Q51781374 | Q51781620 | Q51782440 | Q51782809 | Q51782817 | Q51783431 | Q51783656 | Q51784548,,,
+inrae.fr,2,wikidata;academia,INRAE Bordeaux-Aquitaine | Département de Génétique Animale,,301,none
 international.epitech.eu,2,ror,École pour l'informatique et les nouvelles technologies,central,,
 ipsl-edu.com,2,ror,Institut Polytechnique Saint-Louis,central,,
-irstea.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Q51780542 | Q51781953 | Q51782097 | Q51782772 | Q51782966 | Q51783051 | Q51783904 | Q51784341 | Q51784560 | Q51784575 | Q51785012,,,
+irstea.fr,2,academia,Q51780542 | Q51781953 | Q51782097 | Q51782772 | Q51782966 | Q51783051 | Q51783904 | Q51784341 | Q51784560 | Q51784575 | Q51785012,,,
 isunet.edu,2,ror,International Space University,central,,
-lpsc.in2p3.fr,2,academia;academia;academia,Laboratory of Subatomic Physics and Cosmology | Q51780923 | Q51781446,,,
+lpsc.in2p3.fr,2,academia,Laboratory of Subatomic Physics and Cosmology | Q51780923 | Q51781446,,,
 mbs-education.com,2,ror,MBS School of Business,central,,
-nord-ouest.inserm.fr,2,wikidata;academia;academia,Délégation Nord-Ouest | Centre d'Investigation Clinique - Innovation Technologique de Lille | the Role of Membrane Ion Channels in the Development of Prostate Cancer,,ConnectException,none
+nord-ouest.inserm.fr,2,wikidata;academia,Délégation Nord-Ouest | Centre d'Investigation Clinique - Innovation Technologique de Lille | the Role of Membrane Ion Channels in the Development of Prostate Cancer,,ConnectException,none
 nyu.edu,2,ror,New York University Paris,central,,
-poitou-charentes.inra.fr,2,academia;academia;academia,Q51781637 | Q51781766 | Q51783231,,,
+poitou-charentes.inra.fr,2,academia,Q51781637 | Q51781766 | Q51783231,,,
 polytechnique.edu,2,ror,École Polytechnique,central,,
-recherche.parisdescartes.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Laboratoire Adaptations Travail-Individu | Laboratory for the Psychology of Child Development and Education | Pediatric Epilepsies and Brain Plasticity | Q51779673 | Q51780234 | Q51781215 | Q51781378 | Q51784030 | Q51784197 | Q51784387 | Q51784509,,,
-research.pasteur.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Biology of Infection Unit | Department of Genomes & Genetics | Department of Virology | Genetics and Physiology of Hearing | Pathophysiology of the Immune System | Q51778826 | Q51779751 | Q51779756 | Q51779785 | Q51779802 | Q51779817 | Q51779822 | Q51779846 | Q51779852 | Q51779858 | Q51779953 | Q51780092 | Q51780097 | Q51780105 | Q51780299 | Q51780348 | Q51780428 | Q51780434 | Q51780439 | Q51780442 | Q51780526 | Q51780530 | Q51780841 | Q51780963 | Q51780986 | Q51781007 | Q51781021 | Q51781031 | Q51781051 | Q51781052 | Q51781351 | Q51781360 | Q51781369 | Q51781381 | Q51781424 | Q51781435 | Q51781470 | Q51781486 | Q51781505 | Q51781513 | Q51781521 | Q51781597 | Q51781754 | Q51781761 | Q51781806 | Q51781818 | Q51781930 | Q51781954 | Q51781964 | Q51781975 | Q51782052 | Q51782058 | Q51782066 | Q51782094 | Q51782155 | Q51782194 | Q51782218 | Q51782219 | Q51782364 | Q51782434 | Q51782456 | Q51782458 | Q51782460 | Q51782462 | Q51782509 | Q51782528 | Q51782574 | Q51782596 | Q51782828 | Q51782834 | Q51782935 | Q51782949 | Q51783160 | Q51783169 | Q51783179 | Q51783216 | Q51783348 | Q51783362 | Q51783384 | Q51783409 | Q51783437 | Q51783445 | Q51783449 | Q51783461 | Q51783529 | Q51783543 | Q51783555 | Q51783574 | Q51783588 | Q51783601 | Q51783614 | Q51783683 | Q51783781 | Q51783789 | Q51783799 | Q51783813 | Q51783819 | Q51783827 | Q51783836 | Q51783846 | Q51784110 | Q51784170 | Q51784181 | Q51784190 | Q51784290 | Q51784307 | Q51784321 | Q51784335 | Q51784346 | Q51784350 | Q51784355 | Q51784366 | Q51784367 | Q51784374 | Q51784381 | Q51784394 | Q51784500 | Q51784544 | Q51784603 | Q51784611 | Q51784619 | Q51784624 | Q51784626 | Q51784634 | Q51784641 | Q51784642 | Q51784678 | Q51784714 | Q51784852 | Q51784870 | Q51784910 | Q51784969 | Q51784984 | Q51784997 | Q51785069 | Q51785080 | Q51785100 | Q51785241 | Q51785409 | Q51785415 | Q51785553 | Q51785563,,,
-rhone-alpes-auvergne.inserm.fr,2,wikidata;academia;academia,"délégation Rhône-Alpes, Auvergne | Applications des Ultrasons à la Thérapie | Biology of Cancer and Infection: from Molecular Mechanisms to Technological Applications",,ConnectException,none
-sb-roscoff.fr,2,academia;academia;academia;academia,Adaptation and Diversity in the Marine Environment | Laboratory of Integrative Biology of Marine Model | Phosphorylation de protéines et Pathologies Humaines | Station biologique de Roscoff,,,
+recherche.parisdescartes.fr,2,academia,Laboratoire Adaptations Travail-Individu | Laboratory for the Psychology of Child Development and Education | Pediatric Epilepsies and Brain Plasticity | Q51779673 | Q51780234 | Q51781215 | Q51781378 | Q51784030 | Q51784197 | Q51784387 | Q51784509,,,
+research.pasteur.fr,2,academia,Biology of Infection Unit | Department of Genomes & Genetics | Department of Virology | Genetics and Physiology of Hearing | Pathophysiology of the Immune System | Q51778826 | Q51779751 | Q51779756 | Q51779785 | Q51779802 | Q51779817 | Q51779822 | Q51779846 | Q51779852 | Q51779858 | Q51779953 | Q51780092 | Q51780097 | Q51780105 | Q51780299 | Q51780348 | Q51780428 | Q51780434 | Q51780439 | Q51780442 | Q51780526 | Q51780530 | Q51780841 | Q51780963 | Q51780986 | Q51781007 | Q51781021 | Q51781031 | Q51781051 | Q51781052 | Q51781351 | Q51781360 | Q51781369 | Q51781381 | Q51781424 | Q51781435 | Q51781470 | Q51781486 | Q51781505 | Q51781513 | Q51781521 | Q51781597 | Q51781754 | Q51781761 | Q51781806 | Q51781818 | Q51781930 | Q51781954 | Q51781964 | Q51781975 | Q51782052 | Q51782058 | Q51782066 | Q51782094 | Q51782155 | Q51782194 | Q51782218 | Q51782219 | Q51782364 | Q51782434 | Q51782456 | Q51782458 | Q51782460 | Q51782462 | Q51782509 | Q51782528 | Q51782574 | Q51782596 | Q51782828 | Q51782834 | Q51782935 | Q51782949 | Q51783160 | Q51783169 | Q51783179 | Q51783216 | Q51783348 | Q51783362 | Q51783384 | Q51783409 | Q51783437 | Q51783445 | Q51783449 | Q51783461 | Q51783529 | Q51783543 | Q51783555 | Q51783574 | Q51783588 | Q51783601 | Q51783614 | Q51783683 | Q51783781 | Q51783789 | Q51783799 | Q51783813 | Q51783819 | Q51783827 | Q51783836 | Q51783846 | Q51784110 | Q51784170 | Q51784181 | Q51784190 | Q51784290 | Q51784307 | Q51784321 | Q51784335 | Q51784346 | Q51784350 | Q51784355 | Q51784366 | Q51784367 | Q51784374 | Q51784381 | Q51784394 | Q51784500 | Q51784544 | Q51784603 | Q51784611 | Q51784619 | Q51784624 | Q51784626 | Q51784634 | Q51784641 | Q51784642 | Q51784678 | Q51784714 | Q51784852 | Q51784870 | Q51784910 | Q51784969 | Q51784984 | Q51784997 | Q51785069 | Q51785080 | Q51785100 | Q51785241 | Q51785409 | Q51785415 | Q51785553 | Q51785563,,,
+rhone-alpes-auvergne.inserm.fr,2,wikidata;academia,"délégation Rhône-Alpes, Auvergne | Applications des Ultrasons à la Thérapie | Biology of Cancer and Infection: from Molecular Mechanisms to Technological Applications",,ConnectException,none
+sb-roscoff.fr,2,academia,Adaptation and Diversity in the Marine Environment | Laboratory of Integrative Biology of Marine Model | Phosphorylation de protéines et Pathologies Humaines | Station biologique de Roscoff,,,
 schiller.edu,2,ror,Schiller International University,central,,
 supinfo.com,2,ror,SUPINFO,central,,
 tbs-education.com,2,ror,TBS Education,central,,
-u-cergy.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Laboratoire de Physique Théorique et Modélisation | Laboratory of Physiochemistry of Polymers and Interfaces | Q51779714 | Q51779974 | Q51780247 | Q51780709 | Q51781227 | Q51782055 | Q51783364 | Q51784124 | Q51784727 | Université de Paris. Faculté de médecine. Laboratoire de chimie biologique,,,
-u-clermont1.fr,2,academia;academia;academia;academia;academia;academia;academia;academia,"Microbes, Intestine, Inflammation and Susceptibility of the Host | Molecular Imaging and Targeted Therapy | Q51780872 | Q51781255 | Q51781299 | Q51781838 | Q51782965 | Q51785131",,,
-u-paris10.fr,2,academia;academia;academia;academia,Q51784064 | Q51784789 | Q51785196 | Q51785287,,,
+u-cergy.fr,2,academia,Laboratoire de Physique Théorique et Modélisation | Laboratory of Physiochemistry of Polymers and Interfaces | Q51779714 | Q51779974 | Q51780247 | Q51780709 | Q51781227 | Q51782055 | Q51783364 | Q51784124 | Q51784727 | Université de Paris. Faculté de médecine. Laboratoire de chimie biologique,,,
+u-clermont1.fr,2,academia,"Microbes, Intestine, Inflammation and Susceptibility of the Host | Molecular Imaging and Targeted Therapy | Q51780872 | Q51781255 | Q51781299 | Q51781838 | Q51782965 | Q51785131",,,
+u-paris10.fr,2,academia,Q51784064 | Q51784789 | Q51785196 | Q51785287,,,
 ulip.london.ac.uk,2,ror,University of London Institute in Paris,central,,
-umr3528.pasteur.fr,2,academia;academia;academia;academia;academia;academia,Q51779793 | Q51781043 | Q51781800 | Q51782190 | Q51782401 | Q51782915,,,
-unice.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Centre Méditerranéen de Médecine Moléculaire | Institut de Chimie de Nice | Laboratoire Interdisciplinaire Récits Cultures Et Sociétés | Laboratoire Motricité Humaine Education Sport Santé | Laboratoire de PhysioMédecine Moléculaire | Q51783047 | Q51786145 | Q51786154 | Q51786156 | Q51786161 | Q51786165 | Q51786174 | Q51786185 | Q51786205,,,
-univ-fcomte.fr,2,academia;academia;academia;academia,Q51781707 | Q51781907 | Q51784133 | Q51785605,,,
-univ-lille1.fr,2,academia;academia;academia,Growth Factor Signaling in Breast Cancer. Functional Proteomics | Q51780595 | Q51781580,,,
-univ-paris-diderot.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,"Alloimmunity- Autoimmunity - Transplantation | Biomarkers in Cardiological Neurological and Vascular Diseases | Carcinomatosis Angiogenesis and Translational Research | Clinical Epidemiology and Economic Evaluation Applied to Vulnerable Populations | Genetics of Diabetes | Immunoloy, Dermatology and Oncology | LARCA | Lymphocyte Differentiation and Lymphoid Disorders | Myeloid Malignancies: Stem Cells, Preclinical Models and Translational Research | Q51781336 | Q51781956 | Q51782080 | Q51782081 | Q51783700 | Response Variability to Psychotropes | Viral Genetics and Pathogenesis",,,
-univ-valenciennes.fr,2,academia;academia;academia;academia;academia;academia;academia,Q51778781 | Q51781088 | Q51781828 | Q51782808 | Q51784377 | Q51784912 | University of Valenciennes,central,,
-upmc.fr,2,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,Centre de recherche Saint-Antoine | Experimental and Clinical Respiratory Neurophysiology | Pathophysiology of Mendelian Disorders Expressed in Children | Q51780469 | Q51781062 | Q51781386 | Q51781440 | Q51781539 | Q51781670 | Q51782131 | Q51784664 | Q51785089,,,
-www6.angers-nantes.inra.fr,2,academia;academia;academia;academia,Laboratory Receptors and Membrane Ion Channels | PhysioPathologie des Adaptations Nutritionnelles | Q51784583 | Research Institute of Horticulture and Seeds,,,
-www6.ara.inra.fr,2,academia;academia;academia;academia,Human Nutrition Unit | Q51781693 | Q51784974 | Unité mixte de Recherche sur le Fromage,,,
-www6.bordeaux-aquitaine.inra.fr,2,academia;academia;academia;academia,Q51780332 | Q51784850 | Q51785410 | Q51785452,,,
-www6.jouy.inra.fr,2,academia;academia;academia;academia;academia,"Animal Genetics and Integrative Biology | Laboratoire Ingénierie, Procédés, Aliments | Q109580465 | Q51781682 | Q51782268",,,
-www6.montpellier.inra.fr,2,academia;academia;academia;academia;academia;academia;academia;academia,Centre for Biology and Management of Populations | Laboratoire d'Écophysiologie Moléculaire des Plantes sous Stress Environnementaux | Laboratoire de Biotechnologie de l'Environnement | Q51778778 | Q51780435 | Q51780957 | Q51783648 | UMR Eco&Sols,,,
-www6.nancy.inra.fr,2,academia;academia;academia;academia,Q51778775 | Q51781437 | Q51784639 | Silva,,,
-www6.paca.inra.fr,2,academia;academia;academia,Q51783305 | Q51785581 | Q52604259,,,
-www6.rennes.inra.fr,2,academia;academia;academia;academia;academia;academia;academia,Ecology and Ecosystem Health | Q51778812 | Q51781359 | Q51784297 | Q51784840 | Q51784976 | Soil Agro and Hydrosystems Spatialization,,,
-www6.toulouse.inra.fr,2,academia;academia;academia,Laboratoire des Interactions Plantes Micro-organismes | Q51782429 | Q51784959,,,
-www6.versailles-grignon.inra.fr,2,academia;academia;academia;academia;academia;academia;academia,Alimentation et sciences sociales | Biologie et Gestion des Risques en Agriculture | Q51780480 | Q51782089 | Q51785578 | Q51785613 | Économie publique,,,
-canceropole-gso.org,1,academia;academia;academia,Cardio-Thoracic Research Centre of Bordeaux | Q51780154 | Q51781764,,,
-euskaltzaindia.eus,1,wikidata;wikidata;wikidata;wikidata,Euskaltzaindia,,301,1 euskaltzaindia-eus.mail.protection.outlook.com.
-finlandabroad.fi,1,wikidata;wikidata;wikidata,"Permanent Representation of Finland to the Council of Europe | Embassy of Finland, Paris | Permanent Delegation of Finland to the OECD",central,301,none
-ich.unesco.org,1,wikidata;wikidata;wikidata,Living Heritage Entity,,302,none
-institutimagine.org,1,academia;academia;academia;academia,Institut des maladies génétiques Imagine | Q51782068 | Q51782517 | Q51782536,,,
-maec.es,1,wikidata;wikidata;wikidata;wikidata;wikidata,"Consulate General of Spain in Perpignan | Consulate General of Spain in Pau, France | Consulate General of Spain, Bordeaux | Consulate-General of Spain, Montpellier | Consulate General of Spain in Marseille",,HttpConnectTimeoutException: HTTP connect timed out,10 smtp5.maec.es.
-portail.polytechnique.edu,1,academia;academia;academia,Centre de Recherche en Gestion | Centre de mathématiques Laurent Schwartz | Laboratoire d'optique et biosciences,,,
-sites.google.com,1,academia;academia;academia;academia,Q51780843 | Q51781866 | Q51782882 | Q51784248,,,
+umr3528.pasteur.fr,2,academia,Q51779793 | Q51781043 | Q51781800 | Q51782190 | Q51782401 | Q51782915,,,
+unice.fr,2,academia,Centre Méditerranéen de Médecine Moléculaire | Institut de Chimie de Nice | Laboratoire Interdisciplinaire Récits Cultures Et Sociétés | Laboratoire Motricité Humaine Education Sport Santé | Laboratoire de PhysioMédecine Moléculaire | Q51783047 | Q51786145 | Q51786154 | Q51786156 | Q51786161 | Q51786165 | Q51786174 | Q51786185 | Q51786205,,,
+univ-fcomte.fr,2,academia,Q51781707 | Q51781907 | Q51784133 | Q51785605,,,
+univ-lille1.fr,2,academia,Growth Factor Signaling in Breast Cancer. Functional Proteomics | Q51780595 | Q51781580,,,
+univ-paris-diderot.fr,2,academia,"Alloimmunity- Autoimmunity - Transplantation | Biomarkers in Cardiological Neurological and Vascular Diseases | Carcinomatosis Angiogenesis and Translational Research | Clinical Epidemiology and Economic Evaluation Applied to Vulnerable Populations | Genetics of Diabetes | Immunoloy, Dermatology and Oncology | LARCA | Lymphocyte Differentiation and Lymphoid Disorders | Myeloid Malignancies: Stem Cells, Preclinical Models and Translational Research | Q51781336 | Q51781956 | Q51782080 | Q51782081 | Q51783700 | Response Variability to Psychotropes | Viral Genetics and Pathogenesis",,,
+univ-valenciennes.fr,2,academia,Q51778781 | Q51781088 | Q51781828 | Q51782808 | Q51784377 | Q51784912 | University of Valenciennes,central,,
+upmc.fr,2,academia,Centre de recherche Saint-Antoine | Experimental and Clinical Respiratory Neurophysiology | Pathophysiology of Mendelian Disorders Expressed in Children | Q51780469 | Q51781062 | Q51781386 | Q51781440 | Q51781539 | Q51781670 | Q51782131 | Q51784664 | Q51785089,,,
+www6.angers-nantes.inra.fr,2,academia,Laboratory Receptors and Membrane Ion Channels | PhysioPathologie des Adaptations Nutritionnelles | Q51784583 | Research Institute of Horticulture and Seeds,,,
+www6.ara.inra.fr,2,academia,Human Nutrition Unit | Q51781693 | Q51784974 | Unité mixte de Recherche sur le Fromage,,,
+www6.bordeaux-aquitaine.inra.fr,2,academia,Q51780332 | Q51784850 | Q51785410 | Q51785452,,,
+www6.jouy.inra.fr,2,academia,"Animal Genetics and Integrative Biology | Laboratoire Ingénierie, Procédés, Aliments | Q109580465 | Q51781682 | Q51782268",,,
+www6.montpellier.inra.fr,2,academia,Centre for Biology and Management of Populations | Laboratoire d'Écophysiologie Moléculaire des Plantes sous Stress Environnementaux | Laboratoire de Biotechnologie de l'Environnement | Q51778778 | Q51780435 | Q51780957 | Q51783648 | UMR Eco&Sols,,,
+www6.nancy.inra.fr,2,academia,Q51778775 | Q51781437 | Q51784639 | Silva,,,
+www6.paca.inra.fr,2,academia,Q51783305 | Q51785581 | Q52604259,,,
+www6.rennes.inra.fr,2,academia,Ecology and Ecosystem Health | Q51778812 | Q51781359 | Q51784297 | Q51784840 | Q51784976 | Soil Agro and Hydrosystems Spatialization,,,
+www6.toulouse.inra.fr,2,academia,Laboratoire des Interactions Plantes Micro-organismes | Q51782429 | Q51784959,,,
+www6.versailles-grignon.inra.fr,2,academia,Alimentation et sciences sociales | Biologie et Gestion des Risques en Agriculture | Q51780480 | Q51782089 | Q51785578 | Q51785613 | Économie publique,,,
+canceropole-gso.org,1,academia,Cardio-Thoracic Research Centre of Bordeaux | Q51780154 | Q51781764,,,
+euskaltzaindia.eus,1,wikidata,Euskaltzaindia,,301,1 euskaltzaindia-eus.mail.protection.outlook.com.
+finlandabroad.fi,1,wikidata,"Permanent Representation of Finland to the Council of Europe | Embassy of Finland, Paris | Permanent Delegation of Finland to the OECD",central,301,none
+ich.unesco.org,1,wikidata,Living Heritage Entity,,302,none
+institutimagine.org,1,academia,Institut des maladies génétiques Imagine | Q51782068 | Q51782517 | Q51782536,,,
+maec.es,1,wikidata,"Consulate General of Spain in Perpignan | Consulate General of Spain in Pau, France | Consulate General of Spain, Bordeaux | Consulate-General of Spain, Montpellier | Consulate General of Spain in Marseille",,HttpConnectTimeoutException: HTTP connect timed out,10 smtp5.maec.es.
+portail.polytechnique.edu,1,academia,Centre de Recherche en Gestion | Centre de mathématiques Laurent Schwartz | Laboratoire d'optique et biosciences,,,
+sites.google.com,1,academia,Q51780843 | Q51781866 | Q51782882 | Q51784248,,,

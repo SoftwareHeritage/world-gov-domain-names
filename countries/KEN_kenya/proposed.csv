@@ -1,20 +1,20 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.go.ke,8,wikidata;wikidata;wikidata;wikidata,National Assembly | Parliament of Kenya | Senate of Kenya,central,200,0 parliament-go-ke.mail.protection.outlook.com.
-education.go.ke,7,wikidata;wikidata,"Ministry of Education, Science and Technology",central,200,5 mx3.govmail.ke.; 5 mx4.govmail.ke.; 5 mx2.govmail.ke.; 5 mx1.govmail.ke.
-health.go.ke,7,wikidata;wikidata,Ministry of Health,central,200,0 mx2.govmail.ke.; 0 mx1.govmail.ke.; 0 mx3.govmail.ke.; 0 mx4.govmail.ke.
-ict.go.ke,7,wikidata;wikidata,"Ministry Of Information, Communications And The Digital Economy",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-interior.go.ke,7,wikidata;wikidata,Ministry of Interior and National Administration,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching interior.go.ke found.,5 mx1.govmail.ke.; 5 mx2.govmail.ke.; 5 mx3.govmail.ke.
-kilimo.go.ke,7,wikidata;wikidata,Ministry of Agriculture and Livestock Development,central,200,5 mx1.govmail.ke.; 5 mx3.govmail.ke.; 5 mx2.govmail.ke.
+parliament.go.ke,8,wikidata,National Assembly | Parliament of Kenya | Senate of Kenya,central,200,0 parliament-go-ke.mail.protection.outlook.com.
+education.go.ke,7,wikidata,"Ministry of Education, Science and Technology",central,200,5 mx3.govmail.ke.; 5 mx4.govmail.ke.; 5 mx2.govmail.ke.; 5 mx1.govmail.ke.
+health.go.ke,7,wikidata,Ministry of Health,central,200,0 mx2.govmail.ke.; 0 mx1.govmail.ke.; 0 mx3.govmail.ke.; 0 mx4.govmail.ke.
+ict.go.ke,7,wikidata,"Ministry Of Information, Communications And The Digital Economy",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+interior.go.ke,7,wikidata,Ministry of Interior and National Administration,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching interior.go.ke found.,5 mx1.govmail.ke.; 5 mx2.govmail.ke.; 5 mx3.govmail.ke.
+kilimo.go.ke,7,wikidata,Ministry of Agriculture and Livestock Development,central,200,5 mx1.govmail.ke.; 5 mx3.govmail.ke.; 5 mx2.govmail.ke.
 knbs.or.ke,7,wikidata;academia,Kenya National Bureau of Statistics,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-knls.ac.ke,7,wikidata;wikidata,"Kenya National Library Service | Kenya National Library Service, Nairobi Area",,301,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
-labour.go.ke,7,wikidata;wikidata,"Ministry of Labour, Social Security and Services",central,200,0 mx3.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.
-mfa.go.ke,7,wikidata;wikidata,Ministry of Foreign and Diaspora Affairs of the Republic of Kenya,central,200,0 mx1.govmail.ke.; 0 mx2.govmail.ke.; 0 mx3.govmail.ke.; 0 mx4.govmail.ke.
-mining.go.ke,7,wikidata;wikidata,Ministry of Mining,central,200,5 mx1.govmail.ke.; 5 mx3.govmail.ke.; 5 mx2.govmail.ke.
-mod.go.ke,7,wikidata;wikidata,Ministry of Defence,central,301,5 tembo.mod.go.ke.
-sportsheritage.go.ke,7,wikidata;wikidata,"Ministry of Sports, Culture and the Arts",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sportsheritage.go.ke found.,0 sportsheritage-go-ke.mail.protection.outlook.com.
-transport.go.ke,7,wikidata;wikidata,Ministry of roads and transport,central,200,0 mx3.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.
-treasury.go.ke,7,wikidata;wikidata,Ministry of Finance,central,200,5 mx2.govmail.ke.; 5 mx3.govmail.ke.; 5 mx1.govmail.ke.; 5 mx4.govmail.ke.
-ilri.org,6,academia;academia,Animal Health and Welfare Research Institute | International Livestock Research Institute,,,
+knls.ac.ke,7,wikidata,"Kenya National Library Service | Kenya National Library Service, Nairobi Area",,301,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
+labour.go.ke,7,wikidata,"Ministry of Labour, Social Security and Services",central,200,0 mx3.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.
+mfa.go.ke,7,wikidata,Ministry of Foreign and Diaspora Affairs of the Republic of Kenya,central,200,0 mx1.govmail.ke.; 0 mx2.govmail.ke.; 0 mx3.govmail.ke.; 0 mx4.govmail.ke.
+mining.go.ke,7,wikidata,Ministry of Mining,central,200,5 mx1.govmail.ke.; 5 mx3.govmail.ke.; 5 mx2.govmail.ke.
+mod.go.ke,7,wikidata,Ministry of Defence,central,301,5 tembo.mod.go.ke.
+sportsheritage.go.ke,7,wikidata,"Ministry of Sports, Culture and the Arts",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sportsheritage.go.ke found.,0 sportsheritage-go-ke.mail.protection.outlook.com.
+transport.go.ke,7,wikidata,Ministry of roads and transport,central,200,0 mx3.govmail.ke.; 0 mx1.govmail.ke.; 0 mx2.govmail.ke.
+treasury.go.ke,7,wikidata,Ministry of Finance,central,200,5 mx2.govmail.ke.; 5 mx3.govmail.ke.; 5 mx1.govmail.ke.; 5 mx4.govmail.ke.
+ilri.org,6,academia,Animal Health and Welfare Research Institute | International Livestock Research Institute,,,
 jkuat.ac.ke,6,academia;ror,Jomo Kenyatta University of Agriculture and Technology,central,,
 judiciary.go.ke,6,wikidata,Supreme Court of Kenya,central,200,5 mail.judiciary.go.ke.
 karu.ac.ke,6,academia;ror,Karatina University,central,,
@@ -180,6 +180,6 @@ aku.edu,2,ror,Aga Khan University Nairobi,central,,
 avu.org,2,ror,African Virtual University,central,,
 cuea.edu,2,ror,Catholic University of Eastern Africa,central,,
 east.university,2,ror,Kenya Assemblies of God EAST University,central,,
-kemri.go.ke,2,academia;academia;academia;academia;academia;academia;academia;academia;academia,Centre for Biotechnology Research and Development | Centre for Clinical Research | Centre for Infectious and Parasitic Diseases Control Research | Centre for Microbiology Research | Centre for Respiratory Diseases Research | Centre for Traditional Medicine and Drug Research | Centre for Virus Research | KEMRI Centre for Global Health Research | KEMRI Centre for Public Health Research,,,
+kemri.go.ke,2,academia,Centre for Biotechnology Research and Development | Centre for Clinical Research | Centre for Infectious and Parasitic Diseases Control Research | Centre for Microbiology Research | Centre for Respiratory Diseases Research | Centre for Traditional Medicine and Drug Research | Centre for Virus Research | KEMRI Centre for Global Health Research | KEMRI Centre for Public Health Research,,,
 pau-au.africa,2,ror,"Pan African University Institute for Basic Sciences, Technology and Innovation",central,,
 strathmore.edu,2,ror,Strathmore University,central,,

@@ -1,24 +1,24 @@
 hostname,score,sources,label,level,http_status,mx
-goretarapaca.gov.cl,8,wikidata;wikidata,Regional Council of Tarapacá,central-1,403,0 goretarapaca-gov-cl.mail.protection.outlook.com.
-bienesnacionales.cl,7,wikidata;wikidata;wikidata,Ministry of National Property | Q5655486,central,301,none
-congreso.cl,7,wikidata;wikidata,National Congress of Chile,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 congreso-cl.mail.protection.outlook.com.
-corecoquimbo.cl,7,wikidata;wikidata,Regional Council of Coquimbo,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-coredelosrios.cl,7,wikidata;wikidata,Regional Council of Los Ríos,central-1,ConnectException,50 ALT2.ASPMX.L.GOOGLE.COM.; 50 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX.L.GOOGLE.COM.; 100 ALT3.ASPMX.L.GOOGLE.COM.; 100 ALT4.ASPMX.L.GOOGLE.COM.
-coremagallanes.cl,7,wikidata;wikidata,Regional Council of Magallanes y la Antártica Chilena,central-1,ConnectException,0 coremagallanes-cl.mail.protection.outlook.com.
-corevalparaiso.cl,7,wikidata;wikidata,Regional Council of Valparaíso,central-1,ConnectException,none
-defensa.cl,7,wikidata;wikidata,Ministry of National Defense of Chile,central,403,10 defensa-cl.mail.protection.outlook.com.
-dellibertador.cl,7,wikidata;wikidata,Regional Council of O'Higgins,central-1,200,none
-gobiernosantiago.cl,7,wikidata;wikidata,Regional Council of the Metropolitan Region of Santiago,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 gobiernosantiago-cl.mail.protection.outlook.com.
-goreantofagasta.cl,7,wikidata;wikidata,Regional Council of Antofagasta,central-1,200,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-gorearaucania.cl,7,wikidata;wikidata,Regional Council of La Araucanía,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
-gorearicayparinacota.cl,7,wikidata;wikidata,Regional Council of Arica and Parinacota,central-1,302,10 mail.gorearicayparinacota.cl.
-goreaysen.cl,7,wikidata;wikidata,Regional Council of Aysén,central-1,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
-goremaule.cl,7,wikidata;wikidata,Regional Council of Maule,central-1,200,0 goremaule-cl.mail.protection.outlook.com.
+goretarapaca.gov.cl,8,wikidata,Regional Council of Tarapacá,central-1,403,0 goretarapaca-gov-cl.mail.protection.outlook.com.
+bienesnacionales.cl,7,wikidata,Ministry of National Property | Q5655486,central,301,none
+congreso.cl,7,wikidata,National Congress of Chile,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 congreso-cl.mail.protection.outlook.com.
+corecoquimbo.cl,7,wikidata,Regional Council of Coquimbo,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+coredelosrios.cl,7,wikidata,Regional Council of Los Ríos,central-1,ConnectException,50 ALT2.ASPMX.L.GOOGLE.COM.; 50 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX.L.GOOGLE.COM.; 100 ALT3.ASPMX.L.GOOGLE.COM.; 100 ALT4.ASPMX.L.GOOGLE.COM.
+coremagallanes.cl,7,wikidata,Regional Council of Magallanes y la Antártica Chilena,central-1,ConnectException,0 coremagallanes-cl.mail.protection.outlook.com.
+corevalparaiso.cl,7,wikidata,Regional Council of Valparaíso,central-1,ConnectException,none
+defensa.cl,7,wikidata,Ministry of National Defense of Chile,central,403,10 defensa-cl.mail.protection.outlook.com.
+dellibertador.cl,7,wikidata,Regional Council of O'Higgins,central-1,200,none
+gobiernosantiago.cl,7,wikidata,Regional Council of the Metropolitan Region of Santiago,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 gobiernosantiago-cl.mail.protection.outlook.com.
+goreantofagasta.cl,7,wikidata,Regional Council of Antofagasta,central-1,200,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
+gorearaucania.cl,7,wikidata,Regional Council of La Araucanía,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
+gorearicayparinacota.cl,7,wikidata,Regional Council of Arica and Parinacota,central-1,302,10 mail.gorearicayparinacota.cl.
+goreaysen.cl,7,wikidata,Regional Council of Aysén,central-1,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.
+goremaule.cl,7,wikidata,Regional Council of Maule,central-1,200,0 goremaule-cl.mail.protection.outlook.com.
 ine.cl,7,wikidata;academia,Instituto Nacional de Estadísticas,central,302,0 ine-cl.mail.protection.outlook.com.
-minmineria.cl,7,wikidata;wikidata,Ministry of Mining,central,HttpConnectTimeoutException: HTTP connect timed out,20 mx-02-us-west-2.prod.hydra.sophos.com.; 10 mx-01-us-west-2.prod.hydra.sophos.com.
-minsegpublica.cl,7,wikidata;wikidata,Ministry of Public Security of Chile,central,HttpConnectTimeoutException: HTTP connect timed out,none
-regiondeloslagos.cl,7,wikidata;wikidata,Regional Council of Los Lagos,central-1,ConnectException,none
-sitio.gorebiobio.cl,7,wikidata;wikidata,Regional Council of Biobío,central-1,ConnectException,none
+minmineria.cl,7,wikidata,Ministry of Mining,central,HttpConnectTimeoutException: HTTP connect timed out,20 mx-02-us-west-2.prod.hydra.sophos.com.; 10 mx-01-us-west-2.prod.hydra.sophos.com.
+minsegpublica.cl,7,wikidata,Ministry of Public Security of Chile,central,HttpConnectTimeoutException: HTTP connect timed out,none
+regiondeloslagos.cl,7,wikidata,Regional Council of Los Lagos,central-1,ConnectException,none
+sitio.gorebiobio.cl,7,wikidata,Regional Council of Biobío,central-1,ConnectException,none
 tribunalconstitucional.cl,6,wikidata,Constitutional Court of Chile,,HttpConnectTimeoutException: HTTP connect timed out,none
 uantof.cl,6,academia;ror,University of Antofagasta,central,,
 ubiobio.cl,6,academia;ror,University of the Bío-Bío,central,,
@@ -123,7 +123,7 @@ nuevoportal.ine.cl,4,wikidata,Sistema Estadístico Nacional,,HttpConnectTimeoutE
 oceanosazules.cl,4,academia,Q6048789,,,
 parvularia.mineduc.cl,4,wikidata,Q28517305,central,HttpConnectTimeoutException: HTTP connect timed out,none
 pdichile.cl,4,wikidata,Investigations Police of Chile,central,403,5 d273101a.ess.barracudanetworks.com.; 10 d273101b.ess.barracudanetworks.com.
-poderjudicial.cl,4,wikidata;wikidata;wikidata;wikidata;wikidata,Q5789526 | Supreme Court of Chile | Q5789502 | Appeal Court of Copiapo | Q5789506,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching poderjudicial.cl found.,10 antispam03.poderjudicial.cl.; 10 antispam01.poderjudicial.cl.; 10 antispam02.poderjudicial.cl.
+poderjudicial.cl,4,wikidata,Q5789526 | Supreme Court of Chile | Q5789502 | Appeal Court of Copiapo | Q5789506,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching poderjudicial.cl found.,10 antispam03.poderjudicial.cl.; 10 antispam01.poderjudicial.cl.; 10 antispam02.poderjudicial.cl.
 registrocivil.cl,4,wikidata,Civil Registry and Identification Service of Chile,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching registrocivil.cl found.,0 antivirus2.srcei.cl.; 0 antivirus.srcei.cl.
 saludarica.cl,4,wikidata,Arica Health Service,,403,0 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 saludaysen.cl,4,wikidata,Servicio de Salud Aysén,,403,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
@@ -230,10 +230,10 @@ ust.cl,3,ror,Universidad Santo Tomás,central,,
 uta.cl,3,ror,University of Tarapacá,central,,
 uvm.cl,3,ror,Viña del Mar University,central,,
 ww3.ucsh.cl,3,ror,Universidad Católica Silva Henríquez,central,,
-hacienda.cl,2,wikidata;wikidata;wikidata,Ministry of Finance | Finance undersecretariat of Chile,central,302,none
-mindep.cl,2,wikidata;wikidata;wikidata,Ministry of Sports (Chile) | Q17630728,central,302,none
-mineduc.cl,2,wikidata;wikidata;wikidata,undersecretariat of education Chile | Ministry of Education of Chile,central,HttpConnectTimeoutException: HTTP connect timed out,none
-minsal.cl,2,wikidata;wikidata;wikidata,Ministry of Health | Undersecretariat of Public Health,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
+hacienda.cl,2,wikidata,Ministry of Finance | Finance undersecretariat of Chile,central,302,none
+mindep.cl,2,wikidata,Ministry of Sports (Chile) | Q17630728,central,302,none
+mineduc.cl,2,wikidata,undersecretariat of education Chile | Ministry of Education of Chile,central,HttpConnectTimeoutException: HTTP connect timed out,none
+minsal.cl,2,wikidata,Ministry of Health | Undersecretariat of Public Health,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 uleones.com,2,ror,Universidad Los Leones,central,,
 subdere.gov.cl,0,wikidata,Undersecretariat of Regional and Administrative Development,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching subdere.gov.cl found.,none
 umce.cl,0,ror,Metropolitan University of Educational Sciences,central,,

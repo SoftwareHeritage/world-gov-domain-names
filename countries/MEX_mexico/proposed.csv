@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
-uv.mx,9,academia;academia;ror,"Universidad Veracruzana | Universidad Veracruzana, Instituto de Investigaciones Histórico-Sociales",,,
+uv.mx,9,academia;ror,"Universidad Veracruzana | Universidad Veracruzana, Instituto de Investigaciones Histórico-Sociales",,,
 cardiologia.org.mx,7,wikidata;academia,Instituto Nacional de Cardiología,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 smtp.cardiologia.org.mx.
-cimat.mx,7,academia;academia,CIMAT Center for Mathematical Research | Merida unit of CIMAT,,,
-fgr.org.mx,7,wikidata;wikidata,General Prosecutor of the Republic,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,dig error
-franciscanosenmexico.com.mx,7,wikidata;wikidata,Province of the Holy Gospel in Mexico,,200,10 mail.franciscanosenmexico.com.mx.
+cimat.mx,7,academia,CIMAT Center for Mathematical Research | Merida unit of CIMAT,,,
+fgr.org.mx,7,wikidata,General Prosecutor of the Republic,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,dig error
+franciscanosenmexico.com.mx,7,wikidata,Province of the Holy Gospel in Mexico,,200,10 mail.franciscanosenmexico.com.mx.
 inegi.org.mx,7,wikidata;academia,Instituto Nacional de Estadística y Geografía,central,200,10 inegi-org-mx.mail.protection.outlook.com.
 cicataqro.ipn.mx,6,academia;ror,CICATA Querétaro,central-1,,
-escolapiosmexico.org,6,wikidata;wikidata,Piarist province of Mexico,,301,0 escolapiosmexico.org.
+escolapiosmexico.org,6,wikidata,Piarist province of Mexico,,301,0 escolapiosmexico.org.
 iedep.edu.mx,6,academia;ror,Digital Education Institute of Puebla,central-1,,
-jesuitasmexico.org,6,wikidata;wikidata,Jesuit Province of Mexico,,200,none
-mexiko.ahk.de,6,wikidata;wikidata,Cámara Mexicano-Alemana de Comercio e Industria,,302,none
-sites.google.com,6,wikidata;wikidata,Q25408184,,302,none
+jesuitasmexico.org,6,wikidata,Jesuit Province of Mexico,,200,none
+mexiko.ahk.de,6,wikidata,Cámara Mexicano-Alemana de Comercio e Industria,,302,none
+sites.google.com,6,wikidata,Q25408184,,302,none
 uaa.mx,6,academia;ror,Jardín Botánico Rey Netzahualcoyotl,central-1,,
 uach.mx,6,academia;ror,Autonomous University of Chihuahua,central-1,,
 uas.edu.mx,6,academia;ror,Autonomous University of Sinaloa,central-1,,
@@ -635,7 +635,7 @@ zitacuaro.tecnm.mx,3,ror,Instituto Tecnológico de Zitácuaro,,,
 cucjonline.com,2,ror,Centro Universitario de Ciudad Juárez,,,
 cuefmorelos.wix.com,2,ror,Centro Universitario de Educación Física,,,
 iespoh.com,2,ror,"Instituto de Estudios Superiores de Progreso de Obregón, Hidalgo",central-1,,
-insp.mx,2,wikidata;wikidata;academia,Instituto Nacional de Salud Pública,central,200,0 insp-mx.mail.protection.outlook.com.
+insp.mx,2,wikidata;academia,Instituto Nacional de Salud Pública,central,200,0 insp-mx.mail.protection.outlook.com.
 istmoamericana.com,2,ror,Universidad Istmo Americana,,,
 licenciatura.univer.email,2,ror,Universidad Univer,,,
 redoparin.com,2,ror,Centro Universitario Oparin,,,

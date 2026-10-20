@@ -1,9 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
-nuc.edu.ng,9,wikidata;wikidata;ror,National Universities Commission | Nigerian Universities Commission,central,301,1 smtp.google.com.
-uniben.edu,8,academia;academia;ror,University of Benin | University of Benin Ekehuan Campus,,,
-deinterlab.com.ng,7,academia;academia,De-Integrated Medical Diagnostic and Research Laboratory | De-Integrated Medical Diagnostics and Research Laboratories,,,
-sp.mofaic.gov.ae,7,wikidata;wikidata,"Consulate General of the United Arab Emirates, Lagos | Embassy of the United Arab Emirates, Abuja",central,ConnectException,none
-yoursms.com.ng,7,wikidata;wikidata,Ondo State Ministry of Education,central-1,ConnectException,none
+nuc.edu.ng,9,wikidata;ror,National Universities Commission | Nigerian Universities Commission,central,301,1 smtp.google.com.
+uniben.edu,8,academia;ror,University of Benin | University of Benin Ekehuan Campus,,,
+deinterlab.com.ng,7,academia,De-Integrated Medical Diagnostic and Research Laboratory | De-Integrated Medical Diagnostics and Research Laboratories,,,
+sp.mofaic.gov.ae,7,wikidata,"Consulate General of the United Arab Emirates, Lagos | Embassy of the United Arab Emirates, Abuja",central,ConnectException,none
+yoursms.com.ng,7,wikidata,Ondo State Ministry of Education,central-1,ConnectException,none
 abu.edu.ng,6,academia;ror,Ahmadu Bello University,,,
 atbu.edu.ng,6,academia;ror,Abubakar Tafawa Balewa University,,,
 buk.edu.ng,6,academia;ror,"Bayero University, Kano",,,
@@ -19,19 +19,19 @@ fuotuoke.edu.ng,6,academia;ror,"Federal University, Otuoke",central,,
 fuwukari.edu.ng,6,academia;ror,"Federal University, Wukari",central,,
 kasu.edu.ng,6,academia;ror,Kaduna State University,central-1,,
 kwasu.edu.ng,6,academia;ror,"Kwara State University, Malete",central-1,,
-lagosministryofjustice.org,6,wikidata;wikidata,Lagos State Ministry of Justice,central-1,200,10 smtp.lagosministryofjustice.org.
-lagsoagricuinputs.org,6,wikidata;wikidata;wikidata,Lagos State Agricultural Inputs Supply Authority | Lagos State Agric Inputs Supply Authority,central-1,ConnectException,none
+lagosministryofjustice.org,6,wikidata,Lagos State Ministry of Justice,central-1,200,10 smtp.lagosministryofjustice.org.
+lagsoagricuinputs.org,6,wikidata,Lagos State Agricultural Inputs Supply Authority | Lagos State Agric Inputs Supply Authority,central-1,ConnectException,none
 mau.edu.ng,6,academia;ror,"Modibbo Adama University, Yola",,,
 mouau.edu.ng,6,academia;ror,Michael Okpara University of Agriculture Umudike,,,
 naub.edu.ng,6,academia;ror,Nigerian Army University Biu,,,
-ng-check.com,6,academia;academia,Sivon Medical Laboratory Ltd | Transview Diagnostics,,,
-nigeria.un.org,6,wikidata;wikidata,Sustainable Development Goals and Nigeria,,301,none
+ng-check.com,6,academia,Sivon Medical Laboratory Ltd | Transview Diagnostics,,,
+nigeria.un.org,6,wikidata,Sustainable Development Goals and Nigeria,,301,none
 niianet.org,6,wikidata;academia,Nigerian Institute of International Affairs,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.namebrightmail.com.; 10 mail2.namebrightmail.com.
 oauife.edu.ng,6,academia;ror,Obafemi Awolowo University,,,
 ogharapoly.edu.ng,6,academia;ror,"Delta State Polytechnic, Oghara",central-1,,
-ondostateministryofinformation.wordpress.com,6,wikidata;wikidata,Ondo State Ministry of information and Orientation,central-1,200,none
-riversstate-mwrrd.com,6,wikidata;wikidata,Rivers State Ministry of Water Resources and Rural Development (RSMWRRD),central-1,ConnectException,none
-roc-taiwan.org,6,wikidata;wikidata,Taipei Trade Office in the Federal Republic of Nigeria,central,302,none
+ondostateministryofinformation.wordpress.com,6,wikidata,Ondo State Ministry of information and Orientation,central-1,200,none
+riversstate-mwrrd.com,6,wikidata,Rivers State Ministry of Water Resources and Rural Development (RSMWRRD),central-1,ConnectException,none
+roc-taiwan.org,6,wikidata,Taipei Trade Office in the Federal Republic of Nigeria,central,302,none
 uat.edu.ng,6,academia;ror,"University of Africa, Toru-Orua",,,
 udusok.edu.ng,6,academia;ror,Usmanu Danfodiyo University,,,
 ui.edu.ng,6,academia;ror,University of Ibadan,,,
@@ -416,4 +416,4 @@ miva.university,2,ror,Miva Open University,,,
 pau-au.africa,2,ror,Pan African University Institute of Life and Earth Sciences,,,
 universitiesofnigeria.com,2,ror,Hassan Usman Katsina Polytechnic,,,
 westmidlands.university,2,ror,West Midlands Open University,,,
-ng.worldorgs.com,1,academia;academia;academia;academia;academia;academia,Chimex Medical Diagnostic/Computerized Laboratory | Crownchek Laboratory | Huge Laboratory and Diagnostics Services | Olivera Diagnostic Laboratory | True Medical Laboratories & Diagnostic Centre | Wonder Medical Diagnostics,,,
+ng.worldorgs.com,1,academia,Chimex Medical Diagnostic/Computerized Laboratory | Crownchek Laboratory | Huge Laboratory and Diagnostics Services | Olivera Diagnostic Laboratory | True Medical Laboratories & Diagnostic Centre | Wonder Medical Diagnostics,,,

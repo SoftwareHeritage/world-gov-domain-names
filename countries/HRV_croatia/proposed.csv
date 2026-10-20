@@ -1,26 +1,26 @@
 hostname,score,sources,label,level,http_status,mx
-dominikanci.hr,7,wikidata;wikidata,Croatian Dominican Province,,200,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+dominikanci.hr,7,wikidata,Croatian Dominican Province,,200,20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
 dzs.hr,7,wikidata;academia,Croatian Bureau of Statistics,central,HttpConnectTimeoutException: HTTP connect timed out,0 dzs-hr.mail.protection.outlook.com.
-fzoeu.hr,7,wikidata;wikidata,Environmental Protection and Energy Efficiency Fund,,301,5 fzoeu-hr.mail.protection.outlook.com.
-hzjz.hr,7,wikidata;wikidata,Croatian Institute for Public Health,,302,4 mail.hzjz.hr.; 4 mail2.hzjz.hr.
-isusovci.hr,7,wikidata;wikidata,Croatian province of the Society of Jesus,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
-kapucini.hr,7,wikidata;wikidata,Croatian Capuchin Province of St. Leopold Bogdan Mandić,,200,0 mail.kapucini.hr.
-mgipu.hr,7,wikidata;wikidata,Ministry of Construction and Spatial Planning,,SSLHandshakeException: Remote host terminated the handshake,0 mgipu-hr.mail.protection.outlook.com.
-minfin.hr,7,wikidata;wikidata,Ministry of Finance of the Republic of Croatia,central,ConnectException,none
-mint.hr,7,wikidata;wikidata,Ministry of Tourism and Sports,central,SSLHandshakeException: Remote host terminated the handshake,10 mint-hr.mail.protection.outlook.com.
-mmpi.hr,7,wikidata;wikidata,"Ministry of Maritime Affairs, Transport and Infrastructure",central,ConnectException,20 apollo12ba.mppi.hr.; 10 apollo11ba.mppi.hr.; 30 apollo11bm.mppi.hr.
-morh.hr,7,wikidata;wikidata,Ministry of Defence,central,301,10 maildom1.morh.hr.; 20 maildom2.morh.hr.
-mps.hr,7,wikidata;wikidata,Ministry of Agriculture of Croatia,central,SSLHandshakeException: Remote host terminated the handshake,10 mail.mps.hr.
-mrms.hr,7,wikidata;wikidata,Ministry of Labour and Pension System (Croatia),central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mrms-hr.mail.protection.outlook.com.
-mup.hr,7,wikidata;wikidata,Ministry of the Interior of Croatia,central,301,2 trpimir.mup.hr.
-nsk.hr,7,wikidata;wikidata,National and University Library in Zagreb,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 nsk-hr.mail.protection.outlook.com.
-ofm-sv-jeronim.hr,7,wikidata;wikidata,Franciscan Province of St. Jerome,,200,0 mail.ofm-sv-jeronim.hr.
-ofm.hr,7,wikidata;wikidata,Croatian Franciscan Province of Saints Cyril and Methodius,,200,0 ofm-hr.mail.protection.outlook.com.
-pmf.unizg.hr,7,academia;academia,"Department of Biology, Faculty of Science, University of Zagreb | Department of Geography, Faculty of Science, University of Zagreb",,,
-public.mzos.hr,7,wikidata;wikidata,Ministry of Science and Education,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching public.mzos.hr found.,none
-sabor.hr,7,wikidata;wikidata,Parliament of Croatia,central,200,5 mail.sabor.hr.
-soa.hr,7,wikidata;wikidata,Security and Intelligence Agency | Military Security and Intelligence Agency,central,200,10 mail.soa.hr.
-uprava.hr,7,wikidata;wikidata,Ministry of Public Administration,central,HttpConnectTimeoutException: HTTP connect timed out,10 mprhantispam02.pravosudje.hr.; 10 mprhantispam01.pravosudje.hr.
+fzoeu.hr,7,wikidata,Environmental Protection and Energy Efficiency Fund,,301,5 fzoeu-hr.mail.protection.outlook.com.
+hzjz.hr,7,wikidata,Croatian Institute for Public Health,,302,4 mail.hzjz.hr.; 4 mail2.hzjz.hr.
+isusovci.hr,7,wikidata,Croatian province of the Society of Jesus,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
+kapucini.hr,7,wikidata,Croatian Capuchin Province of St. Leopold Bogdan Mandić,,200,0 mail.kapucini.hr.
+mgipu.hr,7,wikidata,Ministry of Construction and Spatial Planning,,SSLHandshakeException: Remote host terminated the handshake,0 mgipu-hr.mail.protection.outlook.com.
+minfin.hr,7,wikidata,Ministry of Finance of the Republic of Croatia,central,ConnectException,none
+mint.hr,7,wikidata,Ministry of Tourism and Sports,central,SSLHandshakeException: Remote host terminated the handshake,10 mint-hr.mail.protection.outlook.com.
+mmpi.hr,7,wikidata,"Ministry of Maritime Affairs, Transport and Infrastructure",central,ConnectException,20 apollo12ba.mppi.hr.; 10 apollo11ba.mppi.hr.; 30 apollo11bm.mppi.hr.
+morh.hr,7,wikidata,Ministry of Defence,central,301,10 maildom1.morh.hr.; 20 maildom2.morh.hr.
+mps.hr,7,wikidata,Ministry of Agriculture of Croatia,central,SSLHandshakeException: Remote host terminated the handshake,10 mail.mps.hr.
+mrms.hr,7,wikidata,Ministry of Labour and Pension System (Croatia),central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mrms-hr.mail.protection.outlook.com.
+mup.hr,7,wikidata,Ministry of the Interior of Croatia,central,301,2 trpimir.mup.hr.
+nsk.hr,7,wikidata,National and University Library in Zagreb,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 nsk-hr.mail.protection.outlook.com.
+ofm-sv-jeronim.hr,7,wikidata,Franciscan Province of St. Jerome,,200,0 mail.ofm-sv-jeronim.hr.
+ofm.hr,7,wikidata,Croatian Franciscan Province of Saints Cyril and Methodius,,200,0 ofm-hr.mail.protection.outlook.com.
+pmf.unizg.hr,7,academia,"Department of Biology, Faculty of Science, University of Zagreb | Department of Geography, Faculty of Science, University of Zagreb",,,
+public.mzos.hr,7,wikidata,Ministry of Science and Education,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching public.mzos.hr found.,none
+sabor.hr,7,wikidata,Parliament of Croatia,central,200,5 mail.sabor.hr.
+soa.hr,7,wikidata,Security and Intelligence Agency | Military Security and Intelligence Agency,central,200,10 mail.soa.hr.
+uprava.hr,7,wikidata,Ministry of Public Administration,central,HttpConnectTimeoutException: HTTP connect timed out,10 mprhantispam02.pravosudje.hr.; 10 mprhantispam01.pravosudje.hr.
 unin.hr,6,academia;ror,University North,central,,
 unizd.hr,6,academia;ror,Q12638780,central,,
 unizg.hr,6,academia;ror,University of Zagreb,central,,
@@ -129,6 +129,6 @@ zagreb.mae.ro,3,wikidata,"Embassy of Romania, Zagreb",central,503,none
 zagreb.mid.ru,3,wikidata,embassy of Russia in Croatia,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 zvu.hr,3,ror,University of Applied Health Sciences,central,,
 croatia.rit.edu,2,ror,Rochester Institute of Technology Croatia,central,,
-franjevci-split.hr,2,wikidata;wikidata;wikidata;wikidata,Franciscan Province of the Most Holy Redeemer,,301,0 _dc-mx.19b60db81d96.franjevci-split.hr.
-ihjj.hr,2,wikidata;wikidata;academia,Institute of Croatian Language,,200,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
-mrrfeu.hr,2,wikidata;wikidata,Ministry of Regional Development and EU Funds,central,ConnectException,0 mrrfeu-hr.mail.protection.outlook.com.
+franjevci-split.hr,2,wikidata,Franciscan Province of the Most Holy Redeemer,,301,0 _dc-mx.19b60db81d96.franjevci-split.hr.
+ihjj.hr,2,wikidata;academia,Institute of Croatian Language,,200,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.
+mrrfeu.hr,2,wikidata,Ministry of Regional Development and EU Funds,central,ConnectException,0 mrrfeu-hr.mail.protection.outlook.com.

@@ -1,14 +1,14 @@
 hostname,score,sources,label,level,http_status,mx
-massey.ac.nz,9,academia;academia;ror,Centre for Energy Research | Massey University,central,,
-waikato.ac.nz,9,academia;academia;ror,University of Waikato | Wilf Malcolm Institute of Educational Research,central,,
-www3.parliament.nz,8,wikidata;wikidata,Office of the Clerk of the House of Representatives | New Zealand Parliamentary Services,,301,none
+massey.ac.nz,9,academia;ror,Centre for Energy Research | Massey University,central,,
+waikato.ac.nz,9,academia;ror,University of Waikato | Wilf Malcolm Institute of Educational Research,central,,
+www3.parliament.nz,8,wikidata,Office of the Clerk of the House of Representatives | New Zealand Parliamentary Services,,301,none
 agresearch.co.nz,7,wikidata;academia,AgResearch,,301,10 agresearch-co-nz.mail.protection.outlook.com.
-cawthron.org.nz,7,academia;academia,Cawthron Aquaculture Park | Cawthron Institute,,,
+cawthron.org.nz,7,academia,Cawthron Aquaculture Park | Cawthron Institute,,,
 niwa.co.nz,7,wikidata;academia,National Institute of Water and Atmospheric Research,central,200,0 niwa-co-nz.mail.protection.outlook.com.
 auckland.ac.nz,6,academia;ror,University of Auckland,central,,
 lincoln.ac.nz,6,academia;ror,Lincoln University,central,,
-roc-taiwan.org,6,wikidata;wikidata,Taipei Economic and Cultural Office in New Zealand | Taipei Economic and Cultural Office in Auckland,,302,none
-tabnz.org,6,wikidata;wikidata,TAB NZ | New Zealand Racing Board,,308,0 tabnz-org.mail.protection.outlook.com.
+roc-taiwan.org,6,wikidata,Taipei Economic and Cultural Office in New Zealand | Taipei Economic and Cultural Office in Auckland,,302,none
+tabnz.org,6,wikidata,TAB NZ | New Zealand Racing Board,,308,0 tabnz-org.mail.protection.outlook.com.
 ombudsman.parliament.nz,5,wikidata,Office of the Ombudsman,central,403,10 mx1.nz.smxemail.com.; 10 mx2.nz.smxemail.com.
 acc.co.nz,4,wikidata,Accident Compensation Corporation,,301,10 mx1.nz.smxemail.com.; 20 mx2.nz.smxemail.com.
 agmardt.org.nz,4,wikidata,Agricultural and Marketing Research and Development Trust,,200,20 mx2.nz.smxemail.com.; 10 mx1.nz.smxemail.com.
@@ -42,7 +42,7 @@ nzdf.mil.nz,4,wikidata,New Zealand Defence Force,,301,5 mx1.securemx.biz.; 7 mx2
 nzspaceagency.nz,4,wikidata,New Zealand Space Agency,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching nzspaceagency.nz found.,20 mx2.titan.email.; 1 www.savagespace.co.nz.
 occ.org.nz,4,wikidata,Office of the Children’s Commissioner,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 occ-org-nz.mail.protection.outlook.com.
 opus.co.nz,4,academia,Opus Research,,,
-otago.ac.nz,4,academia;academia;academia;ror,Christchurch Heart Institute | Portobello Marine Laboratory | University of Otago,central,,
+otago.ac.nz,4,academia;ror,Christchurch Heart Institute | Portobello Marine Laboratory | University of Otago,central,,
 pakistanhc.org.nz,4,wikidata,high commission of Pakistan in New Zealand,central,200,0 mx2.mailchannels.net.; 0 mx1.mailchannels.net.
 phfscience.nz,4,academia,New Zealand Institute for Public Health and Forensic Science,,,
 philembassy.org.nz,4,wikidata,Embassy of the Philippines in New Zealand,central,200,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
@@ -62,7 +62,7 @@ victoria.ac.nz,4,academia,Victoria University of Wellington,central,,
 vote.nz,4,wikidata,Electoral Commission,central,200,5 vote-nz.mail.protection.outlook.com.
 waipahihigardens.nz,4,academia,Waipahihi Botanical Gardens,,,
 wellington.mfa.gov.hu,4,wikidata,embassy of Hungary in New Zealand,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-wgtn.ac.nz,4,academia;academia;academia;academia;academia;academia;ror,Institute for Governance and Policy Studies | Paihau—Robinson Research Institute | Victoria University Coastal Ecology Laboratory | Victoria University of Wellington | Wai-te-ata Press | Wellington School of Business and Government,central,,
+wgtn.ac.nz,4,academia;ror,Institute for Governance and Policy Studies | Paihau—Robinson Research Institute | Victoria University Coastal Ecology Laboratory | Victoria University of Wellington | Wai-te-ata Press | Wellington School of Business and Government,central,,
 anzpaa.org.au,3,academia,National Institute of Forensic Science,central,,
 ara.ac.nz,3,ror,Ara Institute of Canterbury,central,,
 aut.ac.nz,3,ror,Auckland University of Technology,central,,
@@ -79,7 +79,7 @@ nz.ambafrance.org,3,wikidata,"Embassy of France, Wellington",central,301,none
 nzcpr.com,3,academia,New Zealand Centre for Political Research,,,
 op.ac.nz,3,ror,Otago Polytechnic,central,,
 openpolytechnic.ac.nz,3,ror,Open Polytechnic,central,,
-parliament.nz,3,wikidata;wikidata;wikidata;wikidata,New Zealand Parliament | House of Representatives,central,ConnectException,none
+parliament.nz,3,wikidata,New Zealand Parliament | House of Representatives,central,ConnectException,none
 scionresearch.com,3,academia,Scion,,,
 sit.ac.nz,3,ror,Southern Institute of Technology,central,,
 toiohomai.ac.nz,3,ror,Toi Ohomai Institute of Technology,central,,
@@ -90,5 +90,5 @@ wellington.thaiembassy.org,3,wikidata,embassy of Thailand in New Zealand,central
 weltec.ac.nz,3,ror,Wellington Institute of Technology,central,,
 wintec.ac.nz,3,ror,Waikato Institute of Technology,central,,
 witt.ac.nz,3,ror,Western Institute of Technology at Taranaki,central,,
-fireandemergency.nz,2,wikidata;wikidata;wikidata,Waiuku Fire Station | Fire and Emergency New Zealand | Warkworth Fire Station,,301,0 fireandemergency-nz.mail.protection.outlook.com.
+fireandemergency.nz,2,wikidata,Waiuku Fire Station | Fire and Emergency New Zealand | Warkworth Fire Station,,301,0 fireandemergency-nz.mail.protection.outlook.com.
 nmit.ac.nz,0,ror,Nelson Marlborough Institute of Technology,central,,

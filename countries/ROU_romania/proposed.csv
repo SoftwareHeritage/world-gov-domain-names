@@ -1,29 +1,29 @@
 hostname,score,sources,label,level,http_status,mx
-just.ro,10,wikidata;wikidata;linkgraph,Ministry of Justice,central,200,10 mail.just.ro.
-umfiasi.ro,9,academia;academia;ror,Faculty of Dentistry | The Faculty of Medicine of Iași,central,,
-ahkrumaenien.ro,7,wikidata;wikidata,German-Romanian Chamber of Industry and Commerce,,301,0 ahkrumaenien-ro.mail.protection.outlook.com.
-arhivelenationale.ro,7,wikidata;wikidata,National Historical Central Archives | National Archives of Romania,,503,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
-cultura.ro,7,wikidata;wikidata,Ministry of Culture,central,503,5 mx.cultura.ro.; 10 mail.cultura.ro.
+just.ro,10,wikidata;linkgraph,Ministry of Justice,central,200,10 mail.just.ro.
+umfiasi.ro,9,academia;ror,Faculty of Dentistry | The Faculty of Medicine of Iași,central,,
+ahkrumaenien.ro,7,wikidata,German-Romanian Chamber of Industry and Commerce,,301,0 ahkrumaenien-ro.mail.protection.outlook.com.
+arhivelenationale.ro,7,wikidata,National Historical Central Archives | National Archives of Romania,,503,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+cultura.ro,7,wikidata,Ministry of Culture,central,503,5 mx.cultura.ro.; 10 mail.cultura.ro.
 dataprotection.ro,7,wikidata;linkgraph,National Supervisory Authority for Personal Data Processing,central,200,20 mx2.dataprotection.ro.; 10 mx1.dataprotection.ro.
-edu.ro,7,wikidata;wikidata,Ministry of Education of Romania,central,200,10 mailgov.edu.ro.
+edu.ro,7,wikidata,Ministry of Education of Romania,central,200,10 mailgov.edu.ro.
 ibiol.ro,7,wikidata;academia,Institute of Biology Bucharest,,200,0 ibiol-ro.mail.protection.outlook.com.
 insse.ro,7,wikidata;academia,National Institute of Statistics,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.insse.ro.; 10 mail2.insse.ro.
-madr.ro,7,wikidata;wikidata,Ministry of Agriculture and Rural Development of Romania,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
-mae.ro,7,wikidata;wikidata,Ministry of Foreign Affairs of Romania,central,503,10 mx2.mae.ro.; 10 mx1.mae.ro.
-mapn.ro,7,wikidata;wikidata,Ministry of National Defense,central,410,10 esa1.mapn.ro.; 10 esa2.mapn.ro.
-mcsi.ro,7,wikidata;wikidata,Ministry of Communications and Information Society,central,ConnectException,none
-mdlpa.ro,7,wikidata;wikidata,"Ministry for Development, Public Works and Administration",central,HttpConnectTimeoutException: HTTP connect timed out,10 accounts.mdlpa.ro.; 10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
-mmediu.ro,7,wikidata;wikidata,"Ministry of Environment, Water and Forests",central,200,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
-mmuncii.ro,7,wikidata;wikidata,"Ministry of Labour, Family, Youth and Social Solidarity",central,503,10 mail1.mmuncii.ro.
-ms.ro,7,wikidata;wikidata,Ministry of Health,central,302,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
-parlament.ro,7,wikidata;wikidata,Parliament of Romania,central,HttpConnectTimeoutException: HTTP connect timed out,none
-rosa.ro,7,wikidata;wikidata,Romanian Space Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx.rosa.ro.
+madr.ro,7,wikidata,Ministry of Agriculture and Rural Development of Romania,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+mae.ro,7,wikidata,Ministry of Foreign Affairs of Romania,central,503,10 mx2.mae.ro.; 10 mx1.mae.ro.
+mapn.ro,7,wikidata,Ministry of National Defense,central,410,10 esa1.mapn.ro.; 10 esa2.mapn.ro.
+mcsi.ro,7,wikidata,Ministry of Communications and Information Society,central,ConnectException,none
+mdlpa.ro,7,wikidata,"Ministry for Development, Public Works and Administration",central,HttpConnectTimeoutException: HTTP connect timed out,10 accounts.mdlpa.ro.; 10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+mmediu.ro,7,wikidata,"Ministry of Environment, Water and Forests",central,200,10 mx2.stsmail.ro.; 10 mx1.stsmail.ro.
+mmuncii.ro,7,wikidata,"Ministry of Labour, Family, Youth and Social Solidarity",central,503,10 mail1.mmuncii.ro.
+ms.ro,7,wikidata,Ministry of Health,central,302,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
+parlament.ro,7,wikidata,Parliament of Romania,central,HttpConnectTimeoutException: HTTP connect timed out,none
+rosa.ro,7,wikidata,Romanian Space Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx.rosa.ro.
 ase.ro,6,academia;ror,Bucharest University of Economic Studies,central,,
-gesuiti.it,6,wikidata;wikidata,Euromediterranean Province of the Jesuits,,200,10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+gesuiti.it,6,wikidata,Euromediterranean Province of the Jesuits,,200,10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 guv.ro,6,un_desa,UN/DESA national portal,,ConnectException,10 mail.guv.ro.; 20 mailgate.guv.ro.
 iuls.ro,6,academia;ror,Iași University of Life Sciences,central,,
 mpublic.ro,6,wikidata,Prosecutor's Office attached to the High Court of Cassation and Justice,,503,10 mail.mpublic.ro.
-rumaenien.um.dk,6,wikidata;wikidata,"Embassy of Denmark, Bucharest | Embassy of Croatia in Romania",central,301,none
+rumaenien.um.dk,6,wikidata,"Embassy of Denmark, Bucharest | Embassy of Croatia in Romania",central,301,none
 scj.ro,6,wikidata,High Court of Cassation and Justice,central,404,10 mx1.stsmail.ro.; 10 mx2.stsmail.ro.
 uaic.ro,6,academia;ror,Faculty of Economics and Business Administration of Iasi,central,,
 ucv.ro,6,academia;ror,Craiova Botanical Garden,central,,

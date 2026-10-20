@@ -1,20 +1,20 @@
 hostname,score,sources,label,level,http_status,mx
-ait.org.tw,7,wikidata;wikidata;wikidata,American Institute in Taiwan | Kaohsiung Branch Office of the American Institute in Taiwan,central-1,301,10 ait-org-tw.mail.protection.outlook.com.
-edu.tw,7,wikidata;wikidata,Ministry of Education of Taiwan,central,ConnectException,none
-english.doh.gov.taipei,7,wikidata;wikidata,Ministry of Health and Welfare,central,200,none
-english.gov.taipei,7,wikidata;wikidata,Taipei City Government,central-1,200,none
-family.gov.taipei,7,wikidata;wikidata,Q130404967,,200,none
-gov.taipei,7,wikidata;wikidata,Taipei City Government,central-1,ConnectException,10 ddei.gov.taipei.
-meco.org.tw,7,wikidata;wikidata,"Manila Economic and Cultural Office, Taichung Extension Office | Manila Economic and Cultural Office",,ConnectException,0 meco-org-tw.mail.protection.outlook.com.
-naer.edu.tw,7,wikidata;wikidata,National Academy for Educational Research,,ConnectException,10 mailgates.naer.edu.tw.
-ncl.edu.tw,7,wikidata;wikidata;wikidata,Open Lab Multimedia Center National Central Library | National Central Library,,ConnectException,10 mg2.ncl.edu.tw.; 10 mg.ncl.edu.tw.
-ngdo.gov.taipei,7,wikidata;wikidata,"Nangang District Office, Taipei City",central-1,200,none
-whdo.gov.taipei,7,wikidata;wikidata,"Wanhua District Office, Taipei City",central-1,200,none
-youth.gov.taipei,7,wikidata;wikidata,Department for Youth of Taipei City Government,,HttpTimeoutException: request timed out,none
+ait.org.tw,7,wikidata,American Institute in Taiwan | Kaohsiung Branch Office of the American Institute in Taiwan,central-1,301,10 ait-org-tw.mail.protection.outlook.com.
+edu.tw,7,wikidata,Ministry of Education of Taiwan,central,ConnectException,none
+english.doh.gov.taipei,7,wikidata,Ministry of Health and Welfare,central,200,none
+english.gov.taipei,7,wikidata,Taipei City Government,central-1,200,none
+family.gov.taipei,7,wikidata,Q130404967,,200,none
+gov.taipei,7,wikidata,Taipei City Government,central-1,ConnectException,10 ddei.gov.taipei.
+meco.org.tw,7,wikidata,"Manila Economic and Cultural Office, Taichung Extension Office | Manila Economic and Cultural Office",,ConnectException,0 meco-org-tw.mail.protection.outlook.com.
+naer.edu.tw,7,wikidata,National Academy for Educational Research,,ConnectException,10 mailgates.naer.edu.tw.
+ncl.edu.tw,7,wikidata,Open Lab Multimedia Center National Central Library | National Central Library,,ConnectException,10 mg2.ncl.edu.tw.; 10 mg.ncl.edu.tw.
+ngdo.gov.taipei,7,wikidata,"Nangang District Office, Taipei City",central-1,200,none
+whdo.gov.taipei,7,wikidata,"Wanhua District Office, Taipei City",central-1,200,none
+youth.gov.taipei,7,wikidata,Department for Youth of Taipei City Government,,HttpTimeoutException: request timed out,none
 ccu.edu.tw,6,academia;ror,National Chung Cheng University,central,,
-eeas.europa.eu,6,wikidata;wikidata,European Economic and Trade Office in Taiwan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-france-taipei.org,6,wikidata;wikidata,French Office in Taipei,,301,5 mta-gw.infomaniak.ch.
-koryu.or.jp,6,wikidata;wikidata,"Japan-Taiwan Exchange Association, Kaohsiung Office | Interchange Association Taipei Office",,ConnectException,10 mofa-go-jp.in.tmems-jp.trendmicro.com.
+eeas.europa.eu,6,wikidata,European Economic and Trade Office in Taiwan,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
+france-taipei.org,6,wikidata,French Office in Taipei,,301,5 mta-gw.infomaniak.ch.
+koryu.or.jp,6,wikidata,"Japan-Taiwan Exchange Association, Kaohsiung Office | Interchange Association Taipei Office",,ConnectException,10 mofa-go-jp.in.tmems-jp.trendmicro.com.
 nccu.edu.tw,6,academia;ror,National Chengchi University,central,,
 nchu.edu.tw,6,academia;ror,National Chung Hsing University,central,,
 ncnu.edu.tw,6,academia;ror,National Chi Nan University,central,,
@@ -31,8 +31,8 @@ nuk.edu.tw,6,academia;ror,National University of Kaohsiung,central,,
 nutn.edu.tw,6,academia;ror,National University of Tainan,central,,
 nuu.edu.tw,6,academia;ror,National United University,central,,
 nycu.edu.tw,6,academia;ror,National Yang Ming Chiao Tung University,central,,
-recoletos.ph,6,wikidata;wikidata,Province of Saint Ezequiél Moreno,,HttpTimeoutException: request timed out,1 smtp.google.com.
-tmc.taipei,6,wikidata;wikidata,Taipei Music Center,,200,0 tmc-taipei.mail.protection.outlook.com.
+recoletos.ph,6,wikidata,Province of Saint Ezequiél Moreno,,HttpTimeoutException: request timed out,1 smtp.google.com.
+tmc.taipei,6,wikidata,Taipei Music Center,,200,0 tmc-taipei.mail.protection.outlook.com.
 tnnua.edu.tw,6,academia;ror,Tainan National University of the Arts,central,,
 utaipei.edu.tw,6,academia;ror,University of Taipei,central,,
 w3.nknu.edu.tw,6,academia;ror,National Kaohsiung Normal University,central,,
@@ -265,5 +265,5 @@ ydu.edu.tw,3,ror,Yu Da University,central,,
 ypu.edu.tw,3,ror,Yuanpei University,central,,
 yuntech.edu.tw,3,ror,National Yunlin University of Science and Technology,central,,
 yzu.edu.tw,3,ror,Yuan Ze University,central,,
-holyrosaryprovince.org,1,wikidata;wikidata;wikidata;wikidata,Dominican Province of Our Lady of the Rosary,,301,none
-taipei.diplo.de,1,wikidata;wikidata;wikidata,German Institute Taipei,,200,10 mx1.bund.de.; 10 mx2.bund.de.
+holyrosaryprovince.org,1,wikidata,Dominican Province of Our Lady of the Rosary,,301,none
+taipei.diplo.de,1,wikidata,German Institute Taipei,,200,10 mx1.bund.de.; 10 mx2.bund.de.

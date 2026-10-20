@@ -1,9 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
-assemblee-nationale.tg,7,wikidata;wikidata,National Assembly,central,403,10 mx2expert.hosteur.net.; 20 mx1expert.hosteur.net.
+assemblee-nationale.tg,7,wikidata,National Assembly,central,403,10 mx2expert.hosteur.net.; 20 mx1expert.hosteur.net.
 inseed.tg,7,wikidata;academia,INSEED-TOGO,central,HttpTimeoutException: request timed out,0 mail.inseed.tg.
-minjustg.com,6,wikidata;wikidata,Ministry of Justice and Legislation (Togo),central,ConnectException,none
+minjustg.com,6,wikidata,Ministry of Justice and Legislation (Togo),central,ConnectException,none
 togo.tg,6,un_desa,UN/DESA national portal,,ConnectException,none
-togoleseministryofhealthlome.myewebsite.com,6,wikidata;wikidata,Togolese Ministry of Health,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching togoleseministryofhealthlome.myewebsite.com found.,none
+togoleseministryofhealthlome.myewebsite.com,6,wikidata,Togolese Ministry of Health,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching togoleseministryofhealthlome.myewebsite.com found.,none
 univ-lome.tg,6,academia;ror,University of Lomé,central,,
 ccit.tg,4,wikidata,chamber of commerce and industry of Togo,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 ccit-tg.mail.protection.outlook.com.
 courconstitutionnelle.tg,4,wikidata,Q19544229,,200,0 courconstitutionnelle.tg.

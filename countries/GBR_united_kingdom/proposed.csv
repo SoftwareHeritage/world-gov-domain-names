@@ -1,48 +1,48 @@
 hostname,score,sources,label,level,http_status,mx
-bankofengland.co.uk,10,wikidata;wikidata;directory,Prudential Regulation Authority | Bank of England,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bankofengland.co.uk found.,20 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
+bankofengland.co.uk,10,wikidata;directory,Prudential Regulation Authority | Bank of England,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bankofengland.co.uk found.,20 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 bbc.co.uk,10,linkgraph;directory,BBC (Public corporation) | BBC World Service (Other),,301,20 cluster1a.eu.messagelabs.com.; 10 cluster1.eu.messagelabs.com.
 cqc.org.uk,10,wikidata;linkgraph;directory,Care Quality Commission,,302,0 cqc-org-uk.mail.protection.outlook.com.
 electoralcommission.org.uk,10,wikidata;linkgraph;directory,Electoral Commission,central,301,0 electoralcommission-org-uk.mail.protection.outlook.com.
 england.nhs.uk,10,wikidata;linkgraph;directory,NHS England,,301,10 england-nhs-uk.mail.protection.outlook.com.
 forestryengland.uk,10,wikidata;academia;directory,Forestry England | Westonbirt Arboretum,central-1,301,1 eu-smtp-inbound-2.mimecast.com.; 0 eu-smtp-inbound-1.mimecast.com.
-gov.scot,10,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;linkgraph;directory,His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | Inspectorate of Prosecution in Scotland | Marine Scotland | Scottish Agricultural Wages Board,central-1,301,10 gw000222-eu.fortimail.com.
-gov.wales,10,wikidata;wikidata;wikidata;wikidata;linkgraph;directory,Department for Education and Skills | Welsh Government,central-1,301,0 gov-wales.mail.protection.outlook.com.
+gov.scot,10,wikidata;linkgraph;directory,His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | Inspectorate of Prosecution in Scotland | Marine Scotland | Scottish Agricultural Wages Board,central-1,301,10 gw000222-eu.fortimail.com.
+gov.wales,10,wikidata;linkgraph;directory,Department for Education and Skills | Welsh Government,central-1,301,0 gov-wales.mail.protection.outlook.com.
 hra.nhs.uk,10,wikidata;linkgraph;directory,Gene Therapy Advisory Committee,,301,10 hra-nhs-uk.mail.protection.outlook.com.
 ico.org.uk,10,wikidata;linkgraph;directory,Information Commissioner's Office,central,200,5 ico-org-uk.mail.protection.outlook.com.
 nhsbsa.nhs.uk,10,linkgraph;directory,NHS Business Services Authority (Special health authority),,301,5 nhsbsa-nhs-uk.mail.protection.outlook.com.
-nsandi.com,10,wikidata;wikidata;directory,National Savings and Investments,,301,10 mx3.nsandi.com.; 0 nsandi-com.mail.protection.outlook.com.; 10 mx4.nsandi.com.
+nsandi.com,10,wikidata;directory,National Savings and Investments,,301,10 mx3.nsandi.com.; 0 nsandi-com.mail.protection.outlook.com.; 10 mx4.nsandi.com.
 ofcom.org.uk,10,wikidata;linkgraph;directory,Ofcom,,301,5 ofcom-org-uk.mail.protection.outlook.com.
 ombudsman.org.uk,10,wikidata;linkgraph;directory,Parliamentary and Health Service Ombudsman,,301,0 ombudsman-org-uk.mail.protection.outlook.com.
-ordnancesurvey.co.uk,10,wikidata;wikidata;wikidata;linkgraph;directory,British Ordnance Survey,,301,10 ordnancesurvey.mail.protection.outlook.com.
-parliament.uk,10,wikidata;wikidata;wikidata;wikidata;linkgraph;directory,House of Commons | Parliament of the United Kingdom | House of Lords,central,301,10 eu-smtp-inbound-1.mimecast.com.; 10 eu-smtp-inbound-2.mimecast.com.
-rbht.nhs.uk,10,wikidata;wikidata;linkgraph,NIHR Royal Brompton Cardiovascular Biomedical Research Unit | NIHR Royal Brompton Respiratory Biomedical Research Unit,,301,50 mail.nhs.uk.
-aston.ac.uk,9,academia;academia;ror,Aston University | Aston University Electrical Electronic and Power Engineering,central,,
-bath.ac.uk,9,academia;academia;ror,"Centre for Space, Atmospheric and Oceanic Science | University of Bath",central,,
-bcu.ac.uk,9,academia;academia;ror,Birmingham City University | Birmingham City University New Technology Institute Birmingham,central,,
-birmingham.ac.uk,9,wikidata;academia;academia;academia;academia;academia;academia;ror,NIHR Birmingham Liver Biomedical Research Unit | Institute for Textual Scholarship and Electronic Editing | University of Birmingham | University of Birmingham Institute of Applied Social Studies | University of Birmingham Institute of Local Government Studies | University of Birmingham Ironbridge International Institute for Cultural Heritage | University of Birmingham School of Electronic Electrical and Computer Engineering,central,301,10 mx08-002d3c02.pphosted.com.; 10 mx07-002d3c02.pphosted.com.
-canterbury.ac.uk,9,academia;academia;ror,Canterbury Christ Church University | Canterbury Christ Church University National Institute for Christian Education Research,central,,
-cardiff.ac.uk,9,academia;academia;ror,Cardiff University | Wales Governance Centre,central,,
-dmu.ac.uk,9,academia;academia;ror,"De Montfort University | Music, Technology and Innovation - Institute for Sonic Creativity",central,,
-dundee.ac.uk,9,academia;academia;ror,University of Dundee | University of Dundee Botanic Garden,central,,
-essex.ac.uk,9,academia;academia;ror,University of Essex | University of Essex Department of Sociology,central,,
-exeter.ac.uk,9,academia;academia;ror,University of Exeter | University of Exeter Strategy and Security Institute,central,,
-gcu.ac.uk,9,academia;academia;ror,Glasgow Caledonian University | Glasgow Caledonian University Institute for Applied Health Research,central,,
+ordnancesurvey.co.uk,10,wikidata;linkgraph;directory,British Ordnance Survey,,301,10 ordnancesurvey.mail.protection.outlook.com.
+parliament.uk,10,wikidata;linkgraph;directory,House of Commons | Parliament of the United Kingdom | House of Lords,central,301,10 eu-smtp-inbound-1.mimecast.com.; 10 eu-smtp-inbound-2.mimecast.com.
+rbht.nhs.uk,10,wikidata;linkgraph,NIHR Royal Brompton Cardiovascular Biomedical Research Unit | NIHR Royal Brompton Respiratory Biomedical Research Unit,,301,50 mail.nhs.uk.
+aston.ac.uk,9,academia;ror,Aston University | Aston University Electrical Electronic and Power Engineering,central,,
+bath.ac.uk,9,academia;ror,"Centre for Space, Atmospheric and Oceanic Science | University of Bath",central,,
+bcu.ac.uk,9,academia;ror,Birmingham City University | Birmingham City University New Technology Institute Birmingham,central,,
+birmingham.ac.uk,9,wikidata;academia;ror,NIHR Birmingham Liver Biomedical Research Unit | Institute for Textual Scholarship and Electronic Editing | University of Birmingham | University of Birmingham Institute of Applied Social Studies | University of Birmingham Institute of Local Government Studies | University of Birmingham Ironbridge International Institute for Cultural Heritage | University of Birmingham School of Electronic Electrical and Computer Engineering,central,301,10 mx08-002d3c02.pphosted.com.; 10 mx07-002d3c02.pphosted.com.
+canterbury.ac.uk,9,academia;ror,Canterbury Christ Church University | Canterbury Christ Church University National Institute for Christian Education Research,central,,
+cardiff.ac.uk,9,academia;ror,Cardiff University | Wales Governance Centre,central,,
+dmu.ac.uk,9,academia;ror,"De Montfort University | Music, Technology and Innovation - Institute for Sonic Creativity",central,,
+dundee.ac.uk,9,academia;ror,University of Dundee | University of Dundee Botanic Garden,central,,
+essex.ac.uk,9,academia;ror,University of Essex | University of Essex Department of Sociology,central,,
+exeter.ac.uk,9,academia;ror,University of Exeter | University of Exeter Strategy and Security Institute,central,,
+gcu.ac.uk,9,academia;ror,Glasgow Caledonian University | Glasgow Caledonian University Institute for Applied Health Research,central,,
 hee.nhs.uk,9,wikidata;linkgraph,Health Education England,,301,10 mail.nhs.uk.
-hull.ac.uk,9,academia;academia;academia;ror,Hull International Fisheries Institute | University of Hull | Wilberforce Institute for the Study of Slavery and Emancipation,central,,
-kent.ac.uk,9,academia;academia;ror,University of Kent | University of Kent Durrell Institute of Conservation and Ecology,central,,
-llyw.cymru,9,wikidata;wikidata;linkgraph,Welsh Government,central-1,301,0 llyw-cymru.mail.protection.outlook.com.
+hull.ac.uk,9,academia;ror,Hull International Fisheries Institute | University of Hull | Wilberforce Institute for the Study of Slavery and Emancipation,central,,
+kent.ac.uk,9,academia;ror,University of Kent | University of Kent Durrell Institute of Conservation and Ecology,central,,
+llyw.cymru,9,wikidata;linkgraph,Welsh Government,central-1,301,0 llyw-cymru.mail.protection.outlook.com.
 nhs.uk,9,wikidata;linkgraph,National Health Service,,301,50 mail.nhs.uk.
-northumbria.ac.uk,9,academia;academia;ror,Northumbria University | Northumbria University Department of Computing and Information Sciences,central,,
+northumbria.ac.uk,9,academia;ror,Northumbria University | Northumbria University Department of Computing and Information Sciences,central,,
 postoffice.co.uk,9,linkgraph;directory,Post Office (Public corporation),,301,5 eu-smtp-inbound-1.mimecast.com.; 5 eu-smtp-inbound-2.mimecast.com.
-reading.ac.uk,9,academia;academia;ror,University of Reading Department of Geography and Environmental Science | University of Reading Institute of Education,central,,
-senedd.wales,9,wikidata;wikidata;wikidata;linkgraph,Senedd,central-1,HttpTimeoutException: request timed out,0 senedd-wales.mail.protection.outlook.com.
-soas.ac.uk,9,academia;academia;ror,"SOAS, University of London | South Asia Institute",central,,
-st-andrews.ac.uk,9,academia;academia;ror,University of Saint Andrews Reformation Studies Institute | University of St Andrews,central,,
-strath.ac.uk,9,academia;academia;ror,University of Strathclyde | University of Strathclyde Department of Electronic and Electrical Engineering,central,,
-uea.ac.uk,9,academia;academia;ror,University of East Anglia | University of East Anglia Interdisciplinary Institute for the Humanities,central,,
-uel.ac.uk,9,academia;academia;ror,University of East London | University of East London Institute for Health and Human Development,central,,
-warwick.ac.uk,9,academia;academia;ror,University of Warwick | University of Warwick Institute for Employment Research,central,,
-admin.ox.ac.uk,8,wikidata;wikidata,University Chest,,ConnectException,4 oxforduni.in.tmes.trendmicro.eu.
+reading.ac.uk,9,academia;ror,University of Reading Department of Geography and Environmental Science | University of Reading Institute of Education,central,,
+senedd.wales,9,wikidata;linkgraph,Senedd,central-1,HttpTimeoutException: request timed out,0 senedd-wales.mail.protection.outlook.com.
+soas.ac.uk,9,academia;ror,"SOAS, University of London | South Asia Institute",central,,
+st-andrews.ac.uk,9,academia;ror,University of Saint Andrews Reformation Studies Institute | University of St Andrews,central,,
+strath.ac.uk,9,academia;ror,University of Strathclyde | University of Strathclyde Department of Electronic and Electrical Engineering,central,,
+uea.ac.uk,9,academia;ror,University of East Anglia | University of East Anglia Interdisciplinary Institute for the Humanities,central,,
+uel.ac.uk,9,academia;ror,University of East London | University of East London Institute for Health and Human Development,central,,
+warwick.ac.uk,9,academia;ror,University of Warwick | University of Warwick Institute for Employment Research,central,,
+admin.ox.ac.uk,8,wikidata,University Chest,,ConnectException,4 oxforduni.in.tmes.trendmicro.eu.
 ahdb.org.uk,8,wikidata;directory,Agriculture and Horticulture Development Board,,200,0 ahdb-org-uk.mail.protection.outlook.com.
 arb.org.uk,8,wikidata;directory,Architects Registration Board,,200,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 aria.org.uk,8,wikidata;directory,Advanced Research & Invention Agency,,200,1 ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
@@ -77,61 +77,61 @@ pbni.org.uk,8,wikidata;directory,Probation Board for Northern Ireland,,301,20 cl
 professionalstandards.org.uk,8,wikidata;directory,Professional Standards Authority for Health and Social Care,,301,10 professionalstandards-org-uk.mail.protection.outlook.com.
 protectuk.police.uk,8,linkgraph;directory,National Counter Terrorism Security Office (Other),,301,none
 psni.police.uk,8,wikidata;directory,Police Service of Northern Ireland,,ConnectException,5 emgw1.psni.police.uk.
-qub.ac.uk,8,academia;academia;academia;academia;academia;directory;ror,Queen's University Belfast | Queen's University Belfast Institute of Child Care Research | Queen's University Belfast Institute of Cognition and Culture | Queen's University Belfast Institute of Professional Legal Studies | Queen's University Belfast Institute of Theology,central,HttpConnectTimeoutException: HTTP connect timed out,none
+qub.ac.uk,8,academia;directory;ror,Queen's University Belfast | Queen's University Belfast Institute of Child Care Research | Queen's University Belfast Institute of Cognition and Culture | Queen's University Belfast Institute of Professional Legal Studies | Queen's University Belfast Institute of Theology,central,HttpConnectTimeoutException: HTTP connect timed out,none
 resolution.nhs.uk,8,wikidata;directory,NHS Resolution,,200,0 resolution-nhs-uk.mail.protection.outlook.com.
 royalparks.org.uk,8,wikidata;directory,The Royal Parks,,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 scot.nhs.uk,8,wikidata;linkgraph,NHS Scotland,,301,50 mail.nhs.uk.
 scotland.police.uk,8,wikidata;linkgraph,Police Scotland,central-1,200,1 scotland-police-uk.mail.protection.outlook.com.
 shropshiretelfordandwrekin.nhs.uk,8,wikidata;linkgraph,"NHS Shropshire, Telford and Wrekin Integrated Care Board",,301,none
 socialworkengland.org.uk,8,wikidata;directory,Social Work England,central-1,302,10 socialworkengland-org-uk.mail.protection.outlook.com.
-supremecourt.uk,8,wikidata;wikidata;wikidata;wikidata;directory,Supreme Court of the United Kingdom,central,200,0 supremecourt-uk.mail.protection.outlook.com.
+supremecourt.uk,8,wikidata;directory,Supreme Court of the United Kingdom,central,200,0 supremecourt-uk.mail.protection.outlook.com.
 thecrownestate.co.uk,8,wikidata;directory,Crown Estate,,307,0 thecrownestate-co-uk.mail.protection.outlook.com.; 32767 ms52576143.msv1.invalid.
 trinityhouse.co.uk,8,wikidata;directory,Trinity House,,200,10 mxb-00254201.gslb.pphosted.com.; 10 mxa-00254201.gslb.pphosted.com.
 wiltonpark.org.uk,8,wikidata;directory,Wilton Park,,301,0 wiltonpark-org-uk.mail.protection.outlook.com.
 111.nhs.uk,7,linkgraph,Linked from 402 public-sector domains,,405,none
 999bsl.co.uk,7,linkgraph,Linked from 20 public-sector domains,,200,5 sorenson-com.mail.protection.outlook.com.
 abilitynet.org.uk,7,linkgraph,Linked from 25 public-sector domains,,200,0 abilitynet-org-uk.mail.protection.outlook.com.
-abports.co.uk,7,wikidata;wikidata,Port of Immingham | Port of Fleetwood,,301,10 eu-smtp-inbound-1.mimecast.com.; 10 eu-smtp-inbound-2.mimecast.com.
+abports.co.uk,7,wikidata,Port of Immingham | Port of Fleetwood,,301,10 eu-smtp-inbound-1.mimecast.com.; 10 eu-smtp-inbound-2.mimecast.com.
 accessable.co.uk,7,linkgraph,Linked from 27 public-sector domains,,403,10 accessable-co-uk.mail.protection.outlook.com.
 accurx.nhs.uk,7,linkgraph,Linked from 183 public-sector domains,,200,none
 arts.wales,7,wikidata;directory,Arts Council of Wales,,200,20 cust73271-2.in.mailcontrol.com.; 10 cust73271-1.in.mailcontrol.com.
 artscouncil-ni.org,7,wikidata;directory,Arts Council of Northern Ireland,,200,20 mx-02-eu-west-1.prod.hydra.sophos.com.; 10 mx-01-eu-west-1.prod.hydra.sophos.com.
-belfast-harbour.co.uk,7,wikidata;wikidata,Belfast Harbour Police | Belfast Harbour Commissioners,,HttpConnectTimeoutException: HTTP connect timed out,10 eu-smtp-inbound-1.mimecast.com.; 10 eu-smtp-inbound-2.mimecast.com.
-bgs.ac.uk,7,wikidata;wikidata,Geological Survey of Northern Ireland | British Geological Survey,,301,0 bgs-ac-uk.mail.protection.outlook.com.
-bolton.ac.uk,7,academia;academia,University of Bolton Institute for Educational Cybernetics | University of Greater Manchester,central,,
-bris.ac.uk,7,academia;academia,University of Bristol Department of Electrical and Electronic Engineering | University of Bristol Institute of Greece Rome and the Classical Tradition,,,
-btp.police.uk,7,wikidata;wikidata,British Transport Police,central-1,302,0 btp-police-uk.mail.protection.outlook.com.
-canalrivertrust.org.uk,7,wikidata;wikidata,Canal & River Trust,,200,10 mxb-007a4601.gslb.pphosted.com.; 10 mxa-007a4601.gslb.pphosted.com.
+belfast-harbour.co.uk,7,wikidata,Belfast Harbour Police | Belfast Harbour Commissioners,,HttpConnectTimeoutException: HTTP connect timed out,10 eu-smtp-inbound-1.mimecast.com.; 10 eu-smtp-inbound-2.mimecast.com.
+bgs.ac.uk,7,wikidata,Geological Survey of Northern Ireland | British Geological Survey,,301,0 bgs-ac-uk.mail.protection.outlook.com.
+bolton.ac.uk,7,academia,University of Bolton Institute for Educational Cybernetics | University of Greater Manchester,central,,
+bris.ac.uk,7,academia,University of Bristol Department of Electrical and Electronic Engineering | University of Bristol Institute of Greece Rome and the Classical Tradition,,,
+btp.police.uk,7,wikidata,British Transport Police,central-1,302,0 btp-police-uk.mail.protection.outlook.com.
+canalrivertrust.org.uk,7,wikidata,Canal & River Trust,,200,10 mxb-007a4601.gslb.pphosted.com.; 10 mxa-007a4601.gslb.pphosted.com.
 cheshireandmerseyside.nhs.uk,7,linkgraph,Linked from 25 public-sector domains,,200,0 cheshireandmerseyside-nhs-uk.mail.protection.outlook.com.
-city.ac.uk,7,academia;academia,City University Department of Electrical and Electronic Engineering | City University Department of Sociology,,,
+city.ac.uk,7,academia,City University Department of Electrical and Electronic Engineering | City University Department of Sociology,,,
 civicaepay.co.uk,7,linkgraph,Linked from 24 public-sector domains,,ConnectException,10 mail.civicahosting.co.uk.
 derbyshire.police.uk,7,wikidata;linkgraph,Derbyshire Constabulary,,ConnectException,0 derbyshire-police-uk.mail.protection.outlook.com.
 devon-cornwall.police.uk,7,wikidata;linkgraph,Devon and Cornwall Police,,302,0 devoncornwall-police-uk01c.mail.protection.outlook.com.
 digital.nhs.uk,7,linkgraph,Linked from 62 public-sector domains,,403,1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
-durham.ac.uk,7,academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia,"Behaviour, Ecology and Evolution Research Centre | Biophysical Sciences Institute | Centre for Advanced Instrumentation | Centre for Banking, Institutions and Development | Centre for Catholic Studies | Centre for Chinese Law and Policy | Centre for Communications Systems | Centre for Comparative Modernities | Centre for Contemporary Chinese Studies | Centre for Criminal Law and Criminal Justice | Centre for Culture and Ecology | Centre for Death and Life Studies | Centre for Digital Theology | Centre for Environmental and Energy Economics | Centre for Experimental Methods and Behavioural Research | Centre for Global Infectious Disease | Centre for Humanities Engaging Science and Society | Centre for Innovation and Technology Management | Centre for Institutions and Political Behaviour | Centre for Intercultural Mediation | Centre for Language and Writing Systems | Centre for Law and Global Justice | Centre for Leadership & Followership | Centre for Macroeconomic Policy | Centre for Modern Conflicts and Cultures | Centre for Molecular and Nanoscale Electronics | Centre for Neurodiversity & Development | Centre for Nineteenth-Century Studies | Centre for Organisations and Society | Centre for Particle Theory | Centre for Poetry and Poetics | Centre for Political Thought | Centre for Research into Inner Experience | Centre for Research into Violence and Abuse | Centre for Social Justice & Community Action | Centre for Spirituality, Theology and Health | Centre for Sustainable Development Law and Policy | Centre for Vision and Visual Cognition | Centre for Visual Arts and Cultures | Centre for the Ethics of Cultural Heritage | Centre for the History of Medicine and Disease | Centre for the Study of Jewish Culture, Society and Politics | Centre for the Study of the Ancient Mediterranean and the Near East | Centre in Sustainable Chemical Processes | Condensed Matter Physics | Durham Centre for Bioimaging Technology | Durham Centre for Classical Reception | Durham Centre for Crop Improvement Technology | Durham Centre for Cultural Heritage Protection | Durham Centre for Indian Law and Policy | Durham Centre for Law and Philosophy | Durham Centre for Soft Matter | Durham Cultural Evolution Research Centre | Durham Energy Institute | Durham European Law Institute | Durham Geochemistry Centre | Durham Infancy and Sleep Centre | Durham International Dispute Resolution Institute | Durham Research in Economic Analysis and Mechanisms | Durham University | Durham University Department of Sociology | Durham University Evidence Centre for Education | Durham X-ray Absorption Facility | Durham X-ray Centre | DurhamARCTIC Research Centre | El Shaarani Centre for Ethical Finance, Accountability and Governance | Gender and Law at Durham | Global Policy Institute | HH Sheikh Nasser al-Mohammad al-Sabah Programme | Heritage Science at Durham | Human Rights and Public Law Centre | IBRU: Centre for Borders Research | Institute for Commercial & Corporate Law | Institute for Data Science | Institute for Medical Humanities | Institute for Middle Eastern and Islamic Studies | Institute of Advanced Study | Institute of Hazard, Risk and Resilience | Institute of Medieval and Early Modern Studies | International Centre for Moral Injury | International Centre of Public Accountability | Learning and Memory Processes | Marketing and International Business | Michael Ramsey Centre for Anglican Studies | Physics Education and Scholarship | Quantitative Research in Financial Economics | Research Methods Centre | Wolfson Research Institute | Zurbarán Centre for Spanish and Latin American Art and Culture",central,,
-eci.ox.ac.uk,7,academia;academia,Environmental Change Institute | University of Oxford Environmental Change Institute,,,
+durham.ac.uk,7,academia,"Behaviour, Ecology and Evolution Research Centre | Biophysical Sciences Institute | Centre for Advanced Instrumentation | Centre for Banking, Institutions and Development | Centre for Catholic Studies | Centre for Chinese Law and Policy | Centre for Communications Systems | Centre for Comparative Modernities | Centre for Contemporary Chinese Studies | Centre for Criminal Law and Criminal Justice | Centre for Culture and Ecology | Centre for Death and Life Studies | Centre for Digital Theology | Centre for Environmental and Energy Economics | Centre for Experimental Methods and Behavioural Research | Centre for Global Infectious Disease | Centre for Humanities Engaging Science and Society | Centre for Innovation and Technology Management | Centre for Institutions and Political Behaviour | Centre for Intercultural Mediation | Centre for Language and Writing Systems | Centre for Law and Global Justice | Centre for Leadership & Followership | Centre for Macroeconomic Policy | Centre for Modern Conflicts and Cultures | Centre for Molecular and Nanoscale Electronics | Centre for Neurodiversity & Development | Centre for Nineteenth-Century Studies | Centre for Organisations and Society | Centre for Particle Theory | Centre for Poetry and Poetics | Centre for Political Thought | Centre for Research into Inner Experience | Centre for Research into Violence and Abuse | Centre for Social Justice & Community Action | Centre for Spirituality, Theology and Health | Centre for Sustainable Development Law and Policy | Centre for Vision and Visual Cognition | Centre for Visual Arts and Cultures | Centre for the Ethics of Cultural Heritage | Centre for the History of Medicine and Disease | Centre for the Study of Jewish Culture, Society and Politics | Centre for the Study of the Ancient Mediterranean and the Near East | Centre in Sustainable Chemical Processes | Condensed Matter Physics | Durham Centre for Bioimaging Technology | Durham Centre for Classical Reception | Durham Centre for Crop Improvement Technology | Durham Centre for Cultural Heritage Protection | Durham Centre for Indian Law and Policy | Durham Centre for Law and Philosophy | Durham Centre for Soft Matter | Durham Cultural Evolution Research Centre | Durham Energy Institute | Durham European Law Institute | Durham Geochemistry Centre | Durham Infancy and Sleep Centre | Durham International Dispute Resolution Institute | Durham Research in Economic Analysis and Mechanisms | Durham University | Durham University Department of Sociology | Durham University Evidence Centre for Education | Durham X-ray Absorption Facility | Durham X-ray Centre | DurhamARCTIC Research Centre | El Shaarani Centre for Ethical Finance, Accountability and Governance | Gender and Law at Durham | Global Policy Institute | HH Sheikh Nasser al-Mohammad al-Sabah Programme | Heritage Science at Durham | Human Rights and Public Law Centre | IBRU: Centre for Borders Research | Institute for Commercial & Corporate Law | Institute for Data Science | Institute for Medical Humanities | Institute for Middle Eastern and Islamic Studies | Institute of Advanced Study | Institute of Hazard, Risk and Resilience | Institute of Medieval and Early Modern Studies | International Centre for Moral Injury | International Centre of Public Accountability | Learning and Memory Processes | Marketing and International Business | Michael Ramsey Centre for Anglican Studies | Physics Education and Scholarship | Quantitative Research in Financial Economics | Research Methods Centre | Wolfson Research Institute | Zurbarán Centre for Spanish and Latin American Art and Culture",central,,
+eci.ox.ac.uk,7,academia,Environmental Change Institute | University of Oxford Environmental Change Institute,,,
 essex.police.uk,7,wikidata;linkgraph,Essex Police,,302,25 essex-police-uk.mail.protection.outlook.com.
 eventbrite.co.uk,7,linkgraph,Linked from 28 public-sector domains,,301,10 aspmx.l.google.com.; 20 alt2.aspmx.l.google.com.; 20 alt1.aspmx.l.google.com.; 30 alt3.aspmx.l.google.com.; 30 alt4.aspmx.l.google.com.
 eyelidproductions.co.uk,7,linkgraph,Linked from 24 public-sector domains,,200,10 mx.stackmail.com.
-foodstandards.gov.scot,7,wikidata;wikidata,Food Standards Scotland,central-1,301,none
+foodstandards.gov.scot,7,wikidata,Food Standards Scotland,central-1,301,none
 forestryandland.gov.scot,7,wikidata;academia,Forestry and Land Scotland | Kilmun Arboretum,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 frankltd.co.uk,7,linkgraph,Linked from 72 public-sector domains,,200,0 ded1922.frank-hosting.co.uk.
 frontlinedata.co.uk,7,linkgraph,Linked from 21 public-sector domains,,200,0 frontlinedata-co-uk.mail.eo.outlook.com.
-geos.ed.ac.uk,7,academia;academia,University of Edinburgh Institute of Earth Science | University of Edinburgh Institute of Geography,,,
+geos.ed.ac.uk,7,academia,University of Edinburgh Institute of Earth Science | University of Edinburgh Institute of Geography,,,
 google.co.uk,7,linkgraph,Linked from 72 public-sector domains,,301,0 smtp.google.com.
-gov.bm,7,wikidata;wikidata,Bermuda Archives | Bermuda Department of Public Transportation,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gov.bm found.,5 gov-bm.mail.protection.outlook.com.
+gov.bm,7,wikidata,Bermuda Archives | Bermuda Department of Public Transportation,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching gov.bm found.,5 gov-bm.mail.protection.outlook.com.
 gp-patient.co.uk,7,linkgraph,Linked from 27 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mxa-00322403.gslb.pphosted.com.; 10 mxb-00322403.gslb.pphosted.com.
 gp-registration.nhs.uk,7,linkgraph,Linked from 98 public-sector domains,,405,none
-healthwatchnorthtyneside.co.uk,7,wikidata;wikidata,Healthwatch North Somerset | Healthwatch North Tyneside,,200,0 healthwatchnorthtyneside-co-uk.mail.protection.outlook.com.
+healthwatchnorthtyneside.co.uk,7,wikidata,Healthwatch North Somerset | Healthwatch North Tyneside,,200,0 healthwatchnorthtyneside-co-uk.mail.protection.outlook.com.
 healthwatchwirral.co.uk,7,wikidata;linkgraph,Healthwatch Wirral,,200,0 healthwatchwirral-co-uk.mail.protection.outlook.com.
-housingregulator.gov.scot,7,wikidata;wikidata,Scottish Housing Regulator,central-1,301,none
+housingregulator.gov.scot,7,wikidata,Scottish Housing Regulator,central-1,301,none
 icb.nhs.uk,7,linkgraph,Linked from 141 public-sector domains,,ConnectException,none
 imerseyside.nhs.uk,7,linkgraph,Linked from 33 public-sector domains,,200,0 imerseyside-nhs-uk.mail.protection.outlook.com.
-institutes.engineering.leeds.ac.uk,7,academia;academia,Institute for Artificial Intelligence and Biological systems | Institute for Computational and Systems Science,,,
+institutes.engineering.leeds.ac.uk,7,academia,Institute for Artificial Intelligence and Biological systems | Institute for Computational and Systems Science,,,
 investni.com,7,wikidata;directory,Invest Northern Ireland,,301,5 eu-smtp-inbound-2.mimecast.com.; 5 eu-smtp-inbound-1.mimecast.com.
 jobs.nhs.uk,7,linkgraph,Linked from 23 public-sector domains,,ConnectException,none
-kcl.ac.uk,7,academia;academia,"Institute of Psychiatry, Psychology and Neuroscience | King's College London",central,,
-lancs.ac.uk,7,academia;academia,Lancaster University Department of Physics | University of Lancaster,central,,
+kcl.ac.uk,7,academia,"Institute of Psychiatry, Psychology and Neuroscience | King's College London",central,,
+lancs.ac.uk,7,academia,Lancaster University Department of Physics | University of Lancaster,central,,
 lincs.police.uk,7,wikidata;linkgraph,Lincolnshire Police,,302,0 lincs-police-uk.mail.protection.outlook.com.
 lmcni.com,7,wikidata;directory,Livestock & Meat Commission,,301,0 lmcni-com.mail.protection.outlook.com.
 mod.uk,7,wikidata;linkgraph,Defence Business Services,,ConnectException,0 mod-uk.mail.protection.outlook.com.
@@ -142,25 +142,25 @@ nclhealthandcare.org.uk,7,wikidata;linkgraph,NHS North Central London Integrated
 netformulary.co.uk,7,linkgraph,Linked from 30 public-sector domains,,200,10 mail.netformulary.co.uk.
 newcoventgardenmarket.com,7,wikidata;directory,Covent Garden Market Authority,,200,0 newcoventgardenmarket-com.mail.protection.outlook.com.
 nextdoor.co.uk,7,linkgraph,Linked from 36 public-sector domains,,200,10 mxa.mailgun.org.; 10 mxb.mailgun.org.
-nhsresearchscotland.org.uk,7,wikidata;wikidata,Scottish Mental Health Research Network | NHS Research Scotland,,301,none
-nihr.ac.uk,7,wikidata;wikidata,NIHR Central Commissioning Facility | National Institute for Health and Care Research,,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx2.googlemail.com.
+nhsresearchscotland.org.uk,7,wikidata,Scottish Mental Health Research Network | NHS Research Scotland,,301,none
+nihr.ac.uk,7,wikidata,NIHR Central Commissioning Facility | National Institute for Health and Care Research,,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 aspmx2.googlemail.com.
 nihrc.org,7,wikidata;directory,Northern Ireland Human Rights Commission,central-1,200,10 nicrc-org-uk.mail.protection.outlook.com.
 norfolk.police.uk,7,wikidata;linkgraph,Norfolk Constabulary,,302,10 norfolk-police-uk.mail.protection.outlook.com.
 northants.police.uk,7,wikidata;linkgraph,Northamptonshire Police,,302,10 northants-police-uk.mail.protection.outlook.com.
-oscr.org.uk,7,wikidata;wikidata;wikidata,Office of the Scottish Charity Regulator | Scottish Charity Regulator,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching oscr.org.uk found.,20 mx2-eu1.ppe-hosted.com.; 10 mx1-eu1.ppe-hosted.com.
-parliament.scot,7,wikidata;wikidata;wikidata,Scottish Parliament,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-raf.mod.uk,7,wikidata;wikidata,Royal Air Force Police | UK Military Flying Training System,,301,none
+oscr.org.uk,7,wikidata,Office of the Scottish Charity Regulator | Scottish Charity Regulator,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching oscr.org.uk found.,20 mx2-eu1.ppe-hosted.com.; 10 mx1-eu1.ppe-hosted.com.
+parliament.scot,7,wikidata,Scottish Parliament,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+raf.mod.uk,7,wikidata,Royal Air Force Police | UK Military Flying Training System,,301,none
 rapidhealth.co.uk,7,linkgraph,Linked from 20 public-sector domains,,301,0 rapidhealth-co-uk.mail.protection.outlook.com.
-rbge.org.uk,7,wikidata;academia;academia;academia;academia,Royal Botanic Garden Edinburgh | Benmore Botanic Garden | Dawyck Botanic Garden | Logan Botanic Garden,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 rbge-org-uk.mail.protection.outlook.com.
+rbge.org.uk,7,wikidata;academia,Royal Botanic Garden Edinburgh | Benmore Botanic Garden | Dawyck Botanic Garden | Logan Botanic Garden,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 rbge-org-uk.mail.protection.outlook.com.
 seafish.org,7,wikidata;directory,Seafish,,301,none
 service.nhs.uk,7,linkgraph,Linked from 119 public-sector domains,,ConnectException,none
-shef.ac.uk,7,academia;academia,University of Sheffield Department of Electronic and Electrical Engineering | University of Sheffield Department of Geography,,,
+shef.ac.uk,7,academia,University of Sheffield Department of Electronic and Electrical Engineering | University of Sheffield Department of Geography,,,
 sla-online.co.uk,7,linkgraph,Linked from 22 public-sector domains,,200,0 slaonline-co-uk0i.mail.protection.outlook.com.
 smartsurvey.co.uk,7,linkgraph,Linked from 21 public-sector domains,,301,0 smartsurvey-co-uk.mail.protection.outlook.com.
 sportni.net,7,wikidata;directory,Sport Northern Ireland,,ConnectException,10 mx-01-eu-west-1.prod.hydra.sophos.com.; 20 mx-02-eu-west-1.prod.hydra.sophos.com.
 surgeryweb.org.uk,7,linkgraph,Linked from 75 public-sector domains,,200,0 surgeryweb-org-uk.mail.protection.outlook.com.
 sussex.police.uk,7,wikidata;linkgraph,Sussex Police,,302,none
-swan.ac.uk,7,academia;academia,Swansea University Department of Geography | Swansea University Institute of Life Science,,,
+swan.ac.uk,7,academia,Swansea University Department of Geography | Swansea University Institute of Life Science,,,
 thamesvalley.police.uk,7,wikidata;linkgraph,Thames Valley Police,,HttpConnectTimeoutException: HTTP connect timed out,none
 thirdparty.nhs.uk,7,linkgraph,Linked from 22 public-sector domains,,ConnectException,none
 treeviewdesigns.co.uk,7,linkgraph,Linked from 101 public-sector domains,,200,none
@@ -171,21 +171,21 @@ www.nhs.uk,7,linkgraph,Linked from 937 public-sector domains,,200,none
 aboutcookies.org.uk,6,linkgraph,Linked from 15 public-sector domains,,403,none
 ageuk.org.uk,6,linkgraph,Linked from 13 public-sector domains,,301,none
 aru.ac.uk,6,academia;ror,Anglia Ruskin University,central,,
-bl.uk,6,wikidata;wikidata;wikidata;directory,"British Library | British Library Asia, Pacific and Africa Collections | British Library Manuscript Collections",,308,none
+bl.uk,6,wikidata;directory,"British Library | British Library Asia, Pacific and Africa Collections | British Library Manuscript Collections",,308,none
 bournemouth.ac.uk,6,academia;ror,Bournemouth University Dementia Institute,central,,
 brookes.ac.uk,6,academia;ror,Oxford Brookes University,central,,
 cam.ac.uk,6,academia;ror,University of Cambridge,central,,
 chester.ac.uk,6,academia;ror,University of Chester Department of Electronic and Electrical Engineering,central,,
 citizensadvice.org.uk,6,linkgraph,Linked from 16 public-sector domains,,301,none
-consumer.scot,6,wikidata;wikidata,Consumer Scotland,central-1,200,none
+consumer.scot,6,wikidata,Consumer Scotland,central-1,200,none
 cranfield.ac.uk,6,academia;ror,Cranfield University Institute of Environment and Health,central,,
 cumbria.ac.uk,6,academia;ror,University of Cumbria Institute of Policing,central,,
 derby.ac.uk,6,academia;ror,University of Derby,central,,
 dur.ac.uk,6,academia;ror,Quantum Light and Matter,central,,
 e-lfh.org.uk,6,linkgraph,Linked from 10 public-sector domains,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching e-lfh.org.uk found.,10 e-lfh.org.uk.1.0001.arsmtp.com.; 20 e-lfh.org.uk.2.0001.arsmtp.com.
-environmentalstandards.scot,6,wikidata;wikidata,Environmental Standards Scotland,central-1,200,10 gw000222-eu.fortimail.com.
+environmentalstandards.scot,6,wikidata,Environmental Standards Scotland,central-1,200,10 gw000222-eu.fortimail.com.
 eploy.co.uk,6,linkgraph,Linked from 12 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
-fiscalcommission.scot,6,wikidata;wikidata,Scottish Fiscal Commission,central-1,200,10 gw000222-eu.fortimail.com.
+fiscalcommission.scot,6,wikidata,Scottish Fiscal Commission,central-1,200,10 gw000222-eu.fortimail.com.
 healthcareers.nhs.uk,6,linkgraph,Linked from 10 public-sector domains,,301,50 mail.nhs.uk.
 herts.ac.uk,6,academia;ror,University of Hertfordshire,central,,
 hope.ac.uk,6,academia;ror,Liverpool Hope University Department of Geography and Environmental Science,central,,
@@ -204,7 +204,7 @@ lorensbergs.co.uk,6,linkgraph,Linked from 12 public-sector domains,,301,none
 lsbu.ac.uk,6,academia;ror,London South Bank University,central,,
 macmillan.org.uk,6,linkgraph,Linked from 11 public-sector domains,,301,none
 mdx.ac.uk,6,academia;ror,Middlesex University Institute for Work Based Learning,central,,
-mfa.bg,6,wikidata;wikidata,"Consulate of Bulgaria, Edinburgh | Embassy of Bulgaria, London",central,302,none
+mfa.bg,6,wikidata,"Consulate of Bulgaria, Edinburgh | Embassy of Bulgaria, London",central,302,none
 midlandsandlancashirecsu.nhs.uk,6,linkgraph,Linked from 11 public-sector domains,,301,0 midlandsandlancashirecsu-nhs-uk.mail.protection.outlook.com.
 midosweb.co.uk,6,linkgraph,Linked from 11 public-sector domains,,200,none
 mind.org.uk,6,linkgraph,Linked from 14 public-sector domains,,301,none
@@ -214,7 +214,7 @@ mysurgeryintranet.co.uk,6,linkgraph,Linked from 13 public-sector domains,,302,no
 napier.ac.uk,6,academia;ror,Edinburgh Napier University,central,,
 newman.ac.uk,6,academia;ror,Newman University,central,,
 nspcc.org.uk,6,linkgraph,Linked from 14 public-sector domains,,301,20 mx02.hornetsecurity.com.; 30 mx03.hornetsecurity.com.; 40 mx04.hornetsecurity.com.; 10 mx01.hornetsecurity.com.
-optical.org,6,wikidata;wikidata,General Optical Council,central,HttpConnectTimeoutException: HTTP connect timed out,none
+optical.org,6,wikidata,General Optical Council,central,HttpConnectTimeoutException: HTTP connect timed out,none
 organdonation.nhs.uk,6,linkgraph,Linked from 10 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 ox.ac.uk,6,academia;ror,University of Oxford,central,,
 parish-online.co.uk,6,linkgraph,Linked from 11 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -225,13 +225,13 @@ practicewebsites.co.uk,6,linkgraph,Linked from 16 public-sector domains,,HttpCon
 primaryeyecare.co.uk,6,linkgraph,Linked from 10 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,0 primaryeyecare-co-uk.mail.protection.outlook.com.
 qmul.ac.uk,6,academia;ror,Queen Mary University of London,central,,
 rau.ac.uk,6,academia;ror,Royal Agricultural University,central,,
-revenue.scot,6,wikidata;wikidata,Revenue Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+revenue.scot,6,wikidata,Revenue Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 rgu.ac.uk,6,academia;ror,Robert Gordon University Institute for Health and Wellbeing Research,central,,
-roc-taiwan.org,6,wikidata;wikidata,"Representative Office of Taiwan, London | Taipei Representative Office in the U.K. Edinburgh Office",,HttpConnectTimeoutException: HTTP connect timed out,none
+roc-taiwan.org,6,wikidata,"Representative Office of Taiwan, London | Taipei Representative Office in the U.K. Edinburgh Office",,HttpConnectTimeoutException: HTTP connect timed out,none
 roehampton.ac.uk,6,academia;ror,University of Roehampton,central,,
 salford.ac.uk,6,academia;ror,University of Salford,central,,
-scottish-enterprise.com,6,wikidata;wikidata,Scottish Enterprise | South of Scotland Enterprise,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-senedd.cymru,6,wikidata;wikidata;wikidata,Senedd,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+scottish-enterprise.com,6,wikidata,Scottish Enterprise | South of Scotland Enterprise,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+senedd.cymru,6,wikidata,Senedd,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 shu.ac.uk,6,academia;ror,Sheffield Hallam University Materials and Engineering Research Institute,central,,
 sps.nhs.uk,6,linkgraph,Linked from 19 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 spydus.co.uk,6,linkgraph,Linked from 12 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -311,7 +311,7 @@ interpreterslive.co.uk,5,linkgraph,Linked from 8 public-sector domains,,301,none
 ipco.org.uk,5,directory,Investigatory Powers Commissioner's Office (Other),,ConnectException,10 smtp2.ipco.org.uk.; 10 smtp4.ipco.org.uk.; 10 smtp1.ipco.org.uk.; 10 smtp3.ipco.org.uk.
 iraqinquiry.org.uk,5,directory,Iraq Inquiry (Other),,301,10 mail.iraqinquiry.org.uk.
 jgp.co.uk,5,linkgraph,Linked from 7 public-sector domains,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching jgp.co.uk found.,none
-kew.org,5,academia;academia;academia;directory,"Kew Gardens | Royal Botanic Gardens, Kew | Wakehurst",,,
+kew.org,5,academia;directory,"Kew Gardens | Royal Botanic Gardens, Kew | Wakehurst",,,
 legalombudsman.org.uk,5,directory,The Legal Ombudsman (Other),,200,none
 lgo.org.uk,5,directory,Local Government and Social Care Ombudsman (Other),,302,none
 lincolnshirecommunityhealthservices.nhs.uk,5,linkgraph,Linked from 5 public-sector domains,,200,50 mail.nhs.uk.
@@ -331,7 +331,7 @@ mpft.nhs.uk,5,linkgraph,Linked from 6 public-sector domains,,301,none
 mrc.ac.uk,5,directory,Medical Research Council (Sub organisation),,302,10 cluster1.eu.messagelabs.com.; 0 mrc-ac-uk.mail.protection.outlook.com.; 20 cluster1a.eu.messagelabs.com.
 nationalguardian.org.uk,5,directory,National Guardian's Office (Sub organisation),,200,none
 nationalrail.co.uk,5,linkgraph,Linked from 9 public-sector domains,,301,none
-nationaltrust.org.uk,5,academia;academia;academia;academia;academia;academia;linkgraph,Bodnant Garden | Dyffryn Gardens | Glendurgan Garden | Trelissick Garden | Wentworth Castle Gardens | Winkworth Arboretum,,301,none
+nationaltrust.org.uk,5,academia;linkgraph,Bodnant Garden | Dyffryn Gardens | Glendurgan Garden | Trelissick Garden | Wentworth Castle Gardens | Winkworth Arboretum,,301,none
 nerc.ac.uk,5,directory,Natural Environment Research Council (Sub organisation),,302,10 nerc-ac-uk.mail.protection.outlook.com.
 nestpensions.org.uk,5,directory,National Employment Savings Trust (NEST) Corporation (Public corporation),,301,none
 nhsbt.nhs.uk,5,directory,NHS Blood and Transplant (Special health authority),,ConnectException,none
@@ -365,7 +365,7 @@ treatyourselfbetter.co.uk,5,linkgraph,Linked from 9 public-sector domains,,301,n
 tripadvisor.co.uk,5,linkgraph,Linked from 5 public-sector domains,,301,10 smtp.google.com.
 ukar.co.uk,5,directory,UK Asset Resolution Limited (Other),,301,none
 ukgi.org.uk,5,directory,UK Government Investments (Other),,301,none
-ukri.org,5,wikidata;wikidata;wikidata;wikidata;wikidata;directory,Natural Environment Research Council | Arts and Humanities Research Council | Biotechnology and Biological Sciences Research Council | Innovate UK | Medical Research Council,,302,none
+ukri.org,5,wikidata;directory,Natural Environment Research Council | Arts and Humanities Research Council | Biotechnology and Biological Sciences Research Council | Innovate UK | Medical Research Council,,302,none
 uksbs.co.uk,5,directory,UK Shared Business Services Ltd (Other),,301,none
 victimscommissioner.org.uk,5,directory,Victims' Commissioner (Other),,200,none
 visitchurches.org.uk,5,directory,Churches Conservation Trust (Other),,301,none
@@ -376,9 +376,9 @@ websites4gps.co.uk,5,linkgraph,Linked from 6 public-sector domains,,HttpConnectT
 windrushcommissioner.uk,5,directory,Office of the Windrush Commissioner (Independent monitoring body),,301,none
 zonkeycouncilwebsites.co.uk,5,linkgraph,Linked from 9 public-sector domains,,301,none
 abbotsbury-tourism.co.uk,4,academia,Abbotsbury Subtropical Gardens,,,
-abdn.ac.uk,4,academia;academia;academia;academia;academia;academia;academia;academia;ror,Cruickshank Botanic Garden | Rowett Research Institute | University of Aberdeen | University of Aberdeen Elphinstone Institute | University of Aberdeen Institute of Applied Health Sciences | University of Aberdeen Institute of Medical Sciences | University of Aberdeen Research Institute of Irish and Scottish Studies | University of Aberdeen Rowett Institute of Nutrition and Health,central,,
+abdn.ac.uk,4,academia;ror,Cruickshank Botanic Garden | Rowett Research Institute | University of Aberdeen | University of Aberdeen Elphinstone Institute | University of Aberdeen Institute of Applied Health Sciences | University of Aberdeen Institute of Medical Sciences | University of Aberdeen Research Institute of Irish and Scottish Studies | University of Aberdeen Rowett Institute of Nutrition and Health,central,,
 abenburycommunitycouncil.org.uk,4,wikidata,Abenbury Community Council,,SSLException: (internal_error) Received fatal alert: internal_error,none
-aber.ac.uk,4,academia;academia;academia;academia;ror,"Aberystwyth University | Aberystwyth University Institute of Mathematics and Physics | David Davies Memorial Institute | Institute of Biological, Environmental and Rural Sciences",central,,
+aber.ac.uk,4,academia;ror,"Aberystwyth University | Aberystwyth University Institute of Mathematics and Physics | David Davies Memorial Institute | Institute of Biological, Environmental and Rural Sciences",central,,
 abermulewithllandyssilcommunitycouncil.org.uk,4,wikidata,Abermule with Llandyssil Community Council,,301,none
 abervalleycommunitycouncil.org.uk,4,wikidata,Aber Valley Community Council,,301,none
 academyofurbanism.org.uk,4,academia,The Academy of Urbanism,,,
@@ -411,7 +411,7 @@ autism.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeou
 axiell.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 babraham.ac.uk,4,academia,Babraham Institute,,,
 bahrainembassy.co.uk,4,wikidata,embassy of Bahrain in the United Kingdom,central,HttpConnectTimeoutException: HTTP connect timed out,none
-bangor.ac.uk,4,academia;academia;academia;ror,Bangor University | Bangor University Confucius Institute | Bangor University Institute for European Finance,central,,
+bangor.ac.uk,4,academia;ror,Bangor University | Bangor University Confucius Institute | Bangor University Institute for European Finance,central,,
 barnsleyhealthcarefederation.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 bartshealth.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,307,none
 basem.co.uk,4,academia,British Association of Sport and Exercise Medicine,,,
@@ -420,7 +420,7 @@ batsarb.co.uk,4,academia,Batsford Arboretum,,,
 baumaninstitute.leeds.ac.uk,4,academia,The Bauman Institute,,,
 bayes.city.ac.uk,4,academia,Bayes Business School Centre for Charity Effectiveness,,,
 bbits.co.uk,4,linkgraph,Linked from 4 public-sector domains,,200,none
-bbk.ac.uk,4,academia;academia;academia;academia;academia;academia;ror,"Birkbeck University of London Birkbeck Institute for Gender and Sexuality | Birkbeck University of London Birkbeck Institute for Social Research | Birkbeck University of London Birkbeck Institute for the Humanities | Birkbeck University of London Birkbeck Institute for the Moving Image | Birkbeck, University of London | Carena Institute of Sustainable Archaeologies",central,,
+bbk.ac.uk,4,academia;ror,"Birkbeck University of London Birkbeck Institute for Gender and Sexuality | Birkbeck University of London Birkbeck Institute for Social Research | Birkbeck University of London Birkbeck Institute for the Humanities | Birkbeck University of London Birkbeck Institute for the Moving Image | Birkbeck, University of London | Carena Institute of Sustainable Archaeologies",central,,
 bedfordshirehospitals.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 belizehighcommission.co.uk,4,wikidata,"High Commission of Belize, London",central,HttpConnectTimeoutException: HTTP connect timed out,0 belizehighcommission-co-uk.mail.protection.outlook.com.
 berkshirehealthcare.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -450,12 +450,12 @@ bre.co.uk,4,academia,Building Research Establishment,,,
 breezethemes.co.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,none
 bridgewater.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 brightblue.org.uk,4,academia,Bright Blue,,,
-bristol.ac.uk,4,academia;academia;academia;ror,Innes Cuthill's Lab | University of Bristol | University of Bristol School of Physics,central,,
+bristol.ac.uk,4,academia;ror,Innes Cuthill's Lab | University of Bristol | University of Bristol School of Physics,central,,
 bristolbrc.nihr.ac.uk,4,wikidata,NIHR Bristol Biomedical Research Centre,,301,none
 bristolccg.nhs.uk,4,wikidata,NHS Bristol Clinical Commissioning Group,,HttpConnectTimeoutException: HTTP connect timed out,none
 britishchambers.org.uk,4,wikidata,British Chambers of Commerce,,301,none
 brl.ac.uk,4,academia,Bristol robotics laboratory,,,
-brunel.ac.uk,4,academia;academia;academia;ror,Brunel University Brunel Institute for Bioengineering | Brunel University Institute for the Environment Health and Societies | Brunel University London,central,,
+brunel.ac.uk,4,academia;ror,Brunel University Brunel Institute for Bioengineering | Brunel University Institute for the Environment Health and Societies | Brunel University London,central,,
 bspd.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 bsw.icb.nhs.uk,4,wikidata,"NHS Bath and North East Somerset, Swindon and Wiltshire Integrated Care Board",,200,none
 cambridge-brc.org.uk,4,wikidata,NIHR Cambridge Dementia Biomedical Research Unit,,405,none
@@ -552,8 +552,8 @@ dwrcouncil.co.uk,4,wikidata,"Draethen, Waterloo and Rudry Community Council",,SS
 dyfed-powys.police.uk,4,wikidata,Dyfed-Powys Police,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 dyfedpowys-police-uk01c.mail.protection.outlook.com.
 eani.org.uk,4,wikidata,Education Authority,central-1,301,none
 earlham.ac.uk,4,wikidata,Earlham Institute,,302,0 earlham-ac-uk.mail.protection.outlook.com.
-ed.ac.uk,4,academia;academia;academia;academia;ror,Centre for the Study of World Christianity | Edinburgh Ion Microprobe Facility | MRC Human Genetics Unit | University of Edinburgh,central,,
-edgehill.ac.uk,4,academia;academia;academia;academia;ror,Edge Hill University | Edge Hill University Department of Geography | Edge Hill University Institute for Creative Enterprise | Edge Hill University Institute for Public Policy and Professional Practice,central,,
+ed.ac.uk,4,academia;ror,Centre for the Study of World Christianity | Edinburgh Ion Microprobe Facility | MRC Human Genetics Unit | University of Edinburgh,central,,
+edgehill.ac.uk,4,academia;ror,Edge Hill University | Edge Hill University Department of Geography | Edge Hill University Institute for Creative Enterprise | Edge Hill University Institute for Public Policy and Professional Practice,central,,
 edinburghassayoffice.co.uk,4,wikidata,Edinburgh Assay Office,,301,0 edinburghassayoffice-co-uk.mail.protection.outlook.com.
 education.gov.scot,4,wikidata,Education Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 gw000222-eu.fortimail.com.
 ee.ucl.ac.uk,4,academia,University College London Department of Electronic and Electrical Engineering,,,
@@ -601,10 +601,10 @@ georgeinstitute.org.uk,4,academia,George Institute for Global Health,,,
 ghc.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,301,none
 ghil.ac.uk,4,academia,German Historical Institute London,,,
 gibraltar.gov.gi,4,wikidata,Gibraltar Archives,,ConnectException,none
-gla.ac.uk,4,wikidata;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;ror,MRC-University of Glasgow Centre For Virus Research | Glasgow Cardiovascular Research Centre | Scottish Universities Environmental Research Centre | University of Glasgow | University of Glasgow Humanities Advanced Technology and Information Institute | University of Glasgow Institute of Biodiversity Animal Health and Comparative Medicine | University of Glasgow Institute of Health and Wellbeing | University of Glasgow Institute of Infection Immunity and Inflammation | University of Glasgow Institute of Molecular Cell and Systems Biology | University of Glasgow School of Physics and Astronomy,central,301,5 jones.cent.gla.ac.uk.; 5 cleese.cent.gla.ac.uk.; 5 palin.cent.gla.ac.uk.; 10 idle.cent.gla.ac.uk.
+gla.ac.uk,4,wikidata;academia;ror,MRC-University of Glasgow Centre For Virus Research | Glasgow Cardiovascular Research Centre | Scottish Universities Environmental Research Centre | University of Glasgow | University of Glasgow Humanities Advanced Technology and Information Institute | University of Glasgow Institute of Biodiversity Animal Health and Comparative Medicine | University of Glasgow Institute of Health and Wellbeing | University of Glasgow Institute of Infection Immunity and Inflammation | University of Glasgow Institute of Molecular Cell and Systems Biology | University of Glasgow School of Physics and Astronomy,central,301,5 jones.cent.gla.ac.uk.; 5 cleese.cent.gla.ac.uk.; 5 palin.cent.gla.ac.uk.; 10 idle.cent.gla.ac.uk.
 gloucestershire.police.uk,4,wikidata,Gloucestershire Constabulary,,ConnectException,none
 gmp.police.uk,4,wikidata,Greater Manchester Police,,302,none
-gold.ac.uk,4,academia;academia;academia;academia;academia;ror,"Goldsmiths University of London Confucius Institute for Dance and Performance | Goldsmiths University of London Department of Sociology | Goldsmiths University of London Institute for Creative and Cultural Entrepreneurship | Goldsmiths University of London Institute of Management Studies | Goldsmiths, University of London",central,,
+gold.ac.uk,4,academia;ror,"Goldsmiths University of London Confucius Institute for Dance and Performance | Goldsmiths University of London Department of Sociology | Goldsmiths University of London Institute for Creative and Cultural Entrepreneurship | Goldsmiths University of London Institute of Management Studies | Goldsmiths, University of London",central,,
 goldcliffcommunitycouncil.co.uk,4,wikidata,Goldcliff Community Council,,ConnectException,none
 goodnestonepark.co.uk,4,academia,Goodnestone Park,,,
 goodnestoneparkgardens.co.uk,4,academia,Goodnestone Park,,,
@@ -847,7 +847,7 @@ landcommission.gov.scot,4,wikidata,Scottish Land Commission,central-1,HttpConnec
 lands-tribunal-scotland.org.uk,4,wikidata,Lands Tribunal for Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mail.lands-tribunal-scotland.org.uk.
 langstonecommunitycouncil.org.uk,4,wikidata,Langstone Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 lbfire.org.uk,4,wikidata,Lothian and Borders Fire Brigade,,HttpConnectTimeoutException: HTTP connect timed out,none
-lboro.ac.uk,4,academia;academia;ror,Globalization and World Cities Research Network | Loughborough University,central,,
+lboro.ac.uk,4,academia;ror,Globalization and World Cities Research Network | Loughborough University,central,,
 learninghub.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 leedsth.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 leeswoodcommunity.org.uk,4,wikidata,Leeswood Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -861,7 +861,7 @@ librarymanagementcloud.co.uk,4,linkgraph,Linked from 3 public-sector domains,,Ht
 lida.leeds.ac.uk,4,academia,Leeds Institute for Data Analytics,,,
 lincolnbishop.ac.uk,4,academia,Lincoln Bishop University,central,,
 lisvanecommunity.org.uk,4,wikidata,Lisvane Community Council,,HttpConnectTimeoutException: HTTP connect timed out,none
-liverpool.ac.uk,4,academia;academia;academia;academia;ror,Institute of Popular Music | Mike Speed's Lab | University of Liverpool | University of Liverpool Library,central,,
+liverpool.ac.uk,4,academia;ror,Institute of Popular Music | Mike Speed's Lab | University of Liverpool | University of Liverpool Library,central,,
 livewellwithpain.co.uk,4,linkgraph,Linked from 4 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 livi.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 llanbradachcc.co.uk,4,wikidata,Llanbradach and Pwllypant Community Council,,301,10 mail.llanbradachcc.co.uk.
@@ -964,7 +964,7 @@ northophallcommunitycouncil.btck.co.uk,4,wikidata,Northop Hall Community Council
 northstaffsccg.nhs.uk,4,wikidata,NHS North Staffordshire Clinical Commissioning Group,,HttpConnectTimeoutException: HTTP connect timed out,none
 northumbria.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,301,5 eu-smtp-inbound-psc-1.mimecast.com.; 5 eu-smtp-inbound-psc-2.mimecast.com.
 northumbria.police.uk,4,wikidata,Northumbria Police,,ConnectException,none
-nottingham.ac.uk,4,academia;academia;academia;ror,China Policy Institute | University of Nottingham | University of Nottingham Institute for Screen Industries Research,central,,
+nottingham.ac.uk,4,academia;ror,China Policy Institute | University of Nottingham | University of Nottingham Institute for Screen Industries Research,central,,
 nottinghamshire.police.uk,4,wikidata,Nottinghamshire Police,,302,0 nottinghamshire-police-uk.mail.protection.outlook.com.
 nottinghamshirehealthcare.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,307,none
 npas.police.uk,4,wikidata,National Police Air Service,,301,10 npas-police-uk.mail.protection.outlook.com.
@@ -981,7 +981,7 @@ oii.ox.ac.uk,4,academia,Oxford Internet Institute,,,
 oldhamccg.nhs.uk,4,wikidata,Oldham Clinical Commissioning Group,,SSLHandshakeException: Remote host terminated the handshake,none
 oldstmellonscommunitycouncil.org.uk,4,wikidata,Old St Mellons Community Council,,200,none
 ombudsman.wales,4,directory,Public Services Ombudsman for Wales (Other),,HttpConnectTimeoutException: HTTP connect timed out,0 ombudsman-wales.mail.protection.outlook.com.
-open.ac.uk,4,academia;academia;academia;ror,Open University Department of Geography | Open University Department of Sociology | The Open University,central,,
+open.ac.uk,4,academia;ror,Open University Department of Geography | Open University Department of Sociology | The Open University,central,,
 oriel.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 orinst.ox.ac.uk,4,academia,Faculty of Oriental Studies,,,
 osfcni.org.uk,4,wikidata,Office of the Social Fund Commissioner (Northern Ireland),,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -1085,7 +1085,7 @@ sepa.org.uk,4,wikidata,Scottish Environment Protection Agency,central-1,301,10 s
 sfc.ac.uk,4,wikidata,Scottish Funding Council,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching sfc.ac.uk found.,none
 sfh-tr.nhs.uk,4,linkgraph,Linked from 4 public-sector domains,,200,none
 sharedassets.org.uk,4,academia,Shared Assets,,,
-sheffield.ac.uk,4,academia;academia;academia;ror,University of Sheffield | University of Sheffield Institute for Studies on Ageing | University of Sheffield Institute of Work Psychology,central,,
+sheffield.ac.uk,4,academia;ror,University of Sheffield | University of Sheffield Institute for Studies on Ageing | University of Sheffield Institute of Work Psychology,central,,
 sheffieldforgemasters.com,4,directory,Sheffield Forgemasters International Ltd (Public corporation),,200,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 shirenewtoncc.org.uk,4,wikidata,Shirenewton Community Council,,301,none
 sibgroup.org.uk,4,wikidata,Communitybuilders,,301,0 sibgroup-org-uk.mail.protection.outlook.com.
@@ -1102,7 +1102,7 @@ sociology.cam.ac.uk,4,academia,University of Cambridge Department of Sociology,,
 sociology.ox.ac.uk,4,academia,University of Oxford Department of Sociology,,,
 solicitorstribunal.org.uk,4,wikidata,Solicitors Disciplinary Tribunal,,200,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 south-wales.police.uk,4,wikidata,South Wales Police,,ConnectException,none
-southampton.ac.uk,4,academia;academia;academia;academia;academia;ror,University of Southampton | University of Southampton Department of Geography and Environment | University of Southampton Institute for Life Sciences | University of Southampton Institute of Maritime Law | University of Southampton Wessex Institute,central,,
+southampton.ac.uk,4,academia;ror,University of Southampton | University of Southampton Department of Geography and Environment | University of Southampton Institute for Life Sciences | University of Southampton Institute of Maritime Law | University of Southampton Wessex Institute,central,,
 southamptonwestpcn.co.uk,4,linkgraph,Linked from 3 public-sector domains,,301,none
 southbank-university.ac.uk,4,academia,London South Bank University,central,,
 southbankcentre.co.uk,4,wikidata,National Poetry Library,,301,none
@@ -1140,12 +1140,12 @@ suffolkchamber.co.uk,4,wikidata,Suffolk Chamber of Commerce,,HttpConnectTimeoutE
 summerreadingchallenge.org.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 supplychain.nhs.uk,4,wikidata,NHS Supply Chain,,HttpConnectTimeoutException: HTTP connect timed out,0 supplychain-nhs-uk.mail.protection.outlook.com.
 surreyandsussex.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
-sussex.ac.uk,4,academia;academia;academia;ror,University of Sussex | University of Sussex Department of Geography | University of Sussex Sussex European Institute,central,,
+sussex.ac.uk,4,academia;ror,University of Sussex | University of Sussex Department of Geography | University of Sussex Sussex European Institute,central,,
 sussex.ics.nhs.uk,4,wikidata,NHS Sussex Integrated Care Board,,503,none
 svghighcom.co.uk,4,wikidata,"High Commission of Saint Vincent and the Grenadines, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
 sybhealthiertogether.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,200,none
 tdpf.org.uk,4,academia,Transform Drug Policy Foundation,,,
-tees.ac.uk,4,academia;academia;academia;academia;ror,Teesside University   Technology Futures Institute | Teesside University Digital Futures Institute | Teesside University Health and Social Care Institute | Teesside University Social Futures Institute,central,,
+tees.ac.uk,4,academia;ror,Teesside University   Technology Futures Institute | Teesside University Digital Futures Institute | Teesside University Health and Social Care Institute | Teesside University Social Futures Institute,central,,
 textileconservationcentre.org.uk,4,academia,"Centre for Textile Conservation, Textile History and Technical Art History",,,
 tfwm.org.uk,4,wikidata,Transport for West Midlands,,301,none
 thaiembassyuk.org.uk,4,wikidata,"Embassy of Thailand, London",central,"SSLException: Unrecognized SSL message, plaintext connection?",none
@@ -1172,7 +1172,7 @@ tsl.ac.uk,4,academia,Sainsbury Laboratory,,,
 tulliallan.police.uk,4,academia,Scottish Police College,central,,
 turing.ac.uk,4,academia,Alan Turing Institute,,,
 turkmenembassy.org.uk,4,wikidata,Embassy of Turkmenistan in the United Kingdom,central,301,none
-ucl.ac.uk,4,wikidata;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;academia;ror,NIHR Queen Square Dementia Biomedical Research Unit | Mullard Space Science Laboratory | UCL Centre for Digital Humanities | UCL Ear Institute | UCL Institute for Global Health | UCL Institute of Child Health | UCL Institute of Jewish Studies | UCL Institute of Ophthalmology | University College London Cancer Institute | University College London Eastman Dental Institute Craniofacial Growth and Development Department | University College London Institute for Global Health | University College London Institute for Risk and Disaster Reduction | University College London Institute of Cardiovascular Science | University College London Institute of Cognitive Neuroscience | University College London Institute of Epidemiology and Health Care | University College London Institute of Nuclear Medicine | University College London Institute of Orthopaedics and Musculoskeletal Science | University College London Research Department of Epidemiology and Public Health | University College London Research Department of Language and Communication,central,301,none
+ucl.ac.uk,4,wikidata;academia;ror,NIHR Queen Square Dementia Biomedical Research Unit | Mullard Space Science Laboratory | UCL Centre for Digital Humanities | UCL Ear Institute | UCL Institute for Global Health | UCL Institute of Child Health | UCL Institute of Jewish Studies | UCL Institute of Ophthalmology | University College London Cancer Institute | University College London Eastman Dental Institute Craniofacial Growth and Development Department | University College London Institute for Global Health | University College London Institute for Risk and Disaster Reduction | University College London Institute of Cardiovascular Science | University College London Institute of Cognitive Neuroscience | University College London Institute of Epidemiology and Health Care | University College London Institute of Nuclear Medicine | University College London Institute of Orthopaedics and Musculoskeletal Science | University College London Research Department of Epidemiology and Public Health | University College London Research Department of Language and Communication,central,301,none
 uhb.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,0 uhb-nhs-uk.mail.protection.outlook.com.
 uhbristol.nhs.uk,4,wikidata,NIHR Bristol Nutrition Biomedical Research Unit,,200,none
 uhd.nhs.uk,4,linkgraph,Linked from 3 public-sector domains,,ConnectException,none
@@ -1207,7 +1207,7 @@ whiteribbon.org.uk,4,linkgraph,Linked from 4 public-sector domains,,301,1 whiter
 winterbourne.org.uk,4,academia,Winterbourne House and Garden,,,
 wiserd.ac.uk,4,academia,WISERD,,,
 wkac.ac.uk,4,academia,University of Winchester,central,,
-wlv.ac.uk,4,academia;academia;academia;ror,University of Wolverhampton Institute of Education | University of Wolverhampton Research Institute in Healthcare Science | University of Wolverhampton Research Institute in Information and Language Processing,central,,
+wlv.ac.uk,4,academia;ror,University of Wolverhampton Institute of Education | University of Wolverhampton Research Institute in Healthcare Science | University of Wolverhampton Research Institute in Information and Language Processing,central,,
 woolf.cam.ac.uk,4,academia,The Woolf Institute,,,
 ww.qub.ac.uk,4,academia,Queen's University Belfast Institute of Irish Studies,,,
 www-hki.fitzmuseum.cam.ac.uk,4,academia,Hamilton Kerr Institute,,,
@@ -1216,7 +1216,7 @@ www2.physics.ox.ac.uk,4,academia,"Department of Physics, University of Oxford",,
 www5.plymouth.ac.uk,4,academia,University of Plymouth Institute of Education,,,
 wypartnership.co.uk,4,linkgraph,Linked from 3 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,none
 yemenembassy.co.uk,4,wikidata,"Embassy of Yemen, London",central,HttpConnectTimeoutException: HTTP connect timed out,none
-york.ac.uk,4,academia;academia;academia;academia;ror,Centre for Medieval Studies | University of York | University of York Department of Sociology | University of York Institute for the Public Understanding of the Past,central,,
+york.ac.uk,4,academia;ror,Centre for Medieval Studies | University of York | University of York Department of Sociology | University of York Institute for the Public Understanding of the Past,central,,
 yorkshiremuseum.org.uk,4,academia,York Museum Gardens,,,
 zerowastescotland.org.uk,4,wikidata,Zero Waste Scotland,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 abertay.ac.uk,3,ror,Abertay University,central,,
@@ -1557,17 +1557,17 @@ aku.edu,2,ror,The Aga Khan University (International) in the United Kingdom,cent
 aul.edu,2,ror,American University in London,central,,
 bimm.university,2,ror,BIMM University,central,,
 bpp.com,2,ror,BPP University,central,,
-healthwatchdorset.co.uk,2,wikidata;wikidata;wikidata,Healthwatch Poole | Healthwatch Bournemouth | Healthwatch Dorset,,301,none
-imperial.ac.uk,2,academia;academia;academia,Data Science Institute | Grantham Institute – Climate Change and the Environment | Imperial College London,central,,
-lse.ac.uk,2,academia;academia;academia,LSE IDEAS | London School of Economics and Political Science | London School of Economics and Political Science Department of Sociology,central,,
+healthwatchdorset.co.uk,2,wikidata,Healthwatch Poole | Healthwatch Bournemouth | Healthwatch Dorset,,301,none
+imperial.ac.uk,2,academia,Data Science Institute | Grantham Institute – Climate Change and the Environment | Imperial College London,central,,
+lse.ac.uk,2,academia,LSE IDEAS | London School of Economics and Political Science | London School of Economics and Political Science Department of Sociology,central,,
 queensu.ca,2,ror,Bader College,central,,
-rhs.org.uk,2,academia;academia;academia,"RHS Garden Rosemoor | RHS Garden, Hyde Hall | RHS Garden, Wisley",,,
+rhs.org.uk,2,academia,"RHS Garden Rosemoor | RHS Garden, Hyde Hall | RHS Garden, Wisley",,,
 schiller.edu,2,ror,Schiller International University,central,,
 teikyouniversitydurham.com,2,ror,Teikyo University of Japan in Durham,central,,
 universityacademyholbeach.org,2,ror,University Academy Holbeach,central,,
 womenonlineuniversity.com,2,ror,Woman Online University,central,,
-www2.le.ac.uk,2,wikidata;academia;academia;academia;academia;academia;academia,NIHR Leicester Cardiovascular Biomedical Research Unit | University of Leicester Botanic Garden | University of Leicester Department of Geography | University of Leicester Department of Physics and Astronomy | University of Leicester Department of Sociology | University of Leicester Forensic Science Institute | University of Leicester Institute of Finance,,HttpConnectTimeoutException: HTTP connect timed out,none
-www2.warwick.ac.uk,2,academia;academia;academia,University of Warwick Health Sciences Research Institute | University of Warwick Institute for Advanced Teaching and Learning | University of Warwick Institute of Clinical Education,,,
+www2.le.ac.uk,2,wikidata;academia,NIHR Leicester Cardiovascular Biomedical Research Unit | University of Leicester Botanic Garden | University of Leicester Department of Geography | University of Leicester Department of Physics and Astronomy | University of Leicester Department of Sociology | University of Leicester Forensic Science Institute | University of Leicester Institute of Finance,,HttpConnectTimeoutException: HTTP connect timed out,none
+www2.warwick.ac.uk,2,academia,University of Warwick Health Sciences Research Institute | University of Warwick Institute for Advanced Teaching and Learning | University of Warwick Institute of Clinical Education,,,
 londonmet.ac.uk,1,academia;ror,London Metropolitan University,central,,
 mmu.ac.uk,1,academia;ror,Manchester Metropolitan University,central,,
 cardiffmet.ac.uk,0,ror,Cardiff Metropolitan University,central,,

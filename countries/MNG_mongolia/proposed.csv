@@ -1,6 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
-zasag.mn,10,un_desa;wikidata;wikidata;wikidata;wikidata,Government of Mongolia | UN/DESA national portal,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching zasag.mn found.,20 mx1.email.gov.mn.; 10 mx1.email.gov.mn.; 0 zasag.mn.
-supremecourt.mn,9,wikidata;wikidata,Supreme Court of Mongolia,central,302,5 mx.mail.mn.; 10 mx2.mail.mn.
+zasag.mn,10,un_desa;wikidata,Government of Mongolia | UN/DESA national portal,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching zasag.mn found.,20 mx1.email.gov.mn.; 10 mx1.email.gov.mn.; 0 zasag.mn.
+supremecourt.mn,9,wikidata,Supreme Court of Mongolia,central,302,5 mx.mail.mn.; 10 mx2.mail.mn.
 nso.mn,7,wikidata;academia,Mongolia National Statistical Committee,central,301,100 mx1.email.gov.mn.; 100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 0 nso-mn.mail.protection.outlook.com.; 100 us2.mx1.mailhostbox.com.
 flu.mn,4,wikidata,National Influenza Center,,200,100 mx2.mailhostbox.com.; 100 mx3.mailhostbox.com.; 100 mx1.mailhostbox.com.
 frc.mn,4,wikidata,Financial Regulatory Commission of Mongolia,,200,0 frc-mn.mail.protection.outlook.com.
@@ -40,7 +40,7 @@ nmit.edu.mn,3,ror,New Mongol Institute of Technology,central,,
 num.edu.mn,3,ror,National University of Mongolia,central,,
 orkhon.edu.mn,3,ror,Orkhon University,central,,
 otgontenger.edu.mn,3,ror,Otgontenger University,central,,
-parliament.mn,3,wikidata;wikidata;wikidata,State Great Khural,central,307,0 parliament-mn.mail.protection.outlook.com.
+parliament.mn,3,wikidata,State Great Khural,central,307,0 parliament-mn.mail.protection.outlook.com.
 roc-taiwan.org,3,wikidata,Taipei Trade and Economic Representative Office in Ulaanbaatar,,302,none
 shu.edu.mn,3,ror,Shihihutug University,central,,
 ufe.edu.mn,3,ror,University of Finance and Economics,central,,

@@ -1,10 +1,10 @@
 hostname,score,sources,label,level,http_status,mx
-finances.gouv.cg,8,wikidata;wikidata,Q138766330,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching finances.gouv.cg found.,10 mail.finances.gouv.cg.
-hydrocarbures.gouv.cg,8,wikidata;wikidata,Q139836464,,301,100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.
-postetelecom.gouv.cg,8,wikidata;wikidata,Q138711324,,200,none
+finances.gouv.cg,8,wikidata,Q138766330,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching finances.gouv.cg found.,10 mail.finances.gouv.cg.
+hydrocarbures.gouv.cg,8,wikidata,Q139836464,,301,100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.
+postetelecom.gouv.cg,8,wikidata,Q138711324,,200,none
 presidence.cg,7,un_desa,UN/DESA national portal,,200,0 mail.presidence.cg.
-diplobrazza.net,6,wikidata;wikidata,"Ministry of Foreign Affairs, Francophonie and Congolese Abroad",,200,5 mta-gw.infomaniak.ch.
-meppsa.org,6,wikidata;wikidata,Q138754653,,200,0 _dc-mx.e408a5764a20.meppsa.org.
+diplobrazza.net,6,wikidata,"Ministry of Foreign Affairs, Francophonie and Congolese Abroad",,200,5 mta-gw.infomaniak.ch.
+meppsa.org,6,wikidata,Q138754653,,200,0 _dc-mx.e408a5764a20.meppsa.org.
 umng.cg,6,academia;ror,Marien Ngouabi University,central,,
 anaccongo.cg,4,wikidata,Agence nationale de l'aviation civile (Republic of the Congo),,302,1 smtp.google.com.
 assemblee-nationale.cg,4,wikidata,National Assembly,central,200,10 mx.assemblee-nationale.cg.

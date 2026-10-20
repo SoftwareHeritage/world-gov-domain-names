@@ -1,16 +1,16 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.am,8,wikidata;wikidata;wikidata;wikidata,National Assembly of Armenia,central,301,10 mail.parliament.am.
-armstat.am,7,wikidata;wikidata;wikidata;academia;academia,Statistical Committee of Armenia | National Statistical Service,central,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
-edu.am,7,wikidata;wikidata,Ministry of Education and Science,central,HttpConnectTimeoutException: HTTP connect timed out,10 webmail.edu.am.
-mfa.am,7,wikidata;wikidata,Ministry of Foreign Affairs of Armenia,central,400,10 ferrum.mfa.am.
-mil.am,7,wikidata;wikidata,Ministry of Defence of Armenia,central,400,10 mail.mil.am.
-mineconomy.am,7,wikidata;wikidata,Ministry of Economy of the Republic of Armenia,central,302,20 smtp.mineconomy.am.; 10 mail.mineconomy.am.
-minfin.am,7,wikidata;wikidata,Ministry of Finance,central,SSLHandshakeException: Remote host terminated the handshake,10 mx101.minfin.am.
-mlsa.am,7,wikidata;wikidata,Ministry of Labor and Social Affairs,central,301,10 mail.mlsa.am.
-moh.am,7,wikidata;wikidata,Ministry of Health,central,400,10 mail.moh.am.
-moj.am,7,wikidata;wikidata,Ministry of Justice (Armenia),central,400,10 mail.moj.am.
-msy.am,7,wikidata;wikidata,Ministry of Youth and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.msy.am.
-mtad.am,7,wikidata;wikidata,Ministry of Territorial Administration and Infrastructure,central,200,0 mtad.am.
+parliament.am,8,wikidata,National Assembly of Armenia,central,301,10 mail.parliament.am.
+armstat.am,7,wikidata;academia,Statistical Committee of Armenia | National Statistical Service,central,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
+edu.am,7,wikidata,Ministry of Education and Science,central,HttpConnectTimeoutException: HTTP connect timed out,10 webmail.edu.am.
+mfa.am,7,wikidata,Ministry of Foreign Affairs of Armenia,central,400,10 ferrum.mfa.am.
+mil.am,7,wikidata,Ministry of Defence of Armenia,central,400,10 mail.mil.am.
+mineconomy.am,7,wikidata,Ministry of Economy of the Republic of Armenia,central,302,20 smtp.mineconomy.am.; 10 mail.mineconomy.am.
+minfin.am,7,wikidata,Ministry of Finance,central,SSLHandshakeException: Remote host terminated the handshake,10 mx101.minfin.am.
+mlsa.am,7,wikidata,Ministry of Labor and Social Affairs,central,301,10 mail.mlsa.am.
+moh.am,7,wikidata,Ministry of Health,central,400,10 mail.moh.am.
+moj.am,7,wikidata,Ministry of Justice (Armenia),central,400,10 mail.moj.am.
+msy.am,7,wikidata,Ministry of Youth and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.msy.am.
+mtad.am,7,wikidata,Ministry of Territorial Administration and Infrastructure,central,200,0 mtad.am.
 aspu.am,6,academia;ror,Armenian State Pedagogical University,central,,
 cassationcourt.am,6,wikidata,Court of Cassation of Armenia,,HttpConnectTimeoutException: HTTP connect timed out,none
 concourt.am,6,wikidata,Constitutional Court of Armenia,central,200,10 mail.concourt.am.
@@ -93,8 +93,8 @@ swedenabroad.se,3,wikidata,"Embassy of Sweden, Yerevan",central,301,none
 ufar.am,3,ror,Fondation Université Française en Arménie,central,,
 vsu.am,3,ror,Vanadzor State University,central,,
 yeolyan.org,3,academia,Haematology center after professor Rouben Yeolyan,,,
-aipo.am,2,wikidata;wikidata;wikidata,Intellectual Property Agency of Armenia,,307,10 mx1.beget.com.; 20 mx2.beget.com.
-arbitrage.am,2,wikidata;wikidata;wikidata,Q25486289,,200,none
-botany.am,2,academia;academia;academia,Institute of Botany of Armenia | Sevan Botanical Garden | Yerevan Botanical Garden,,,
-cadastre.am,2,wikidata;wikidata;wikidata,Cadastre Committee,,400,10 mail.cadastre.am.; 20 mail1.cadastre.am.
+aipo.am,2,wikidata,Intellectual Property Agency of Armenia,,307,10 mx1.beget.com.; 20 mx2.beget.com.
+arbitrage.am,2,wikidata,Q25486289,,200,none
+botany.am,2,academia,Institute of Botany of Armenia | Sevan Botanical Garden | Yerevan Botanical Garden,,,
+cadastre.am,2,wikidata,Cadastre Committee,,400,10 mail.cadastre.am.; 20 mail1.cadastre.am.
 ysmu.net,2,ror,Yerevan State Medical University,central,,

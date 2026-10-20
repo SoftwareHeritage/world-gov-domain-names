@@ -1,7 +1,7 @@
 hostname,score,sources,label,level,http_status,mx
-parliament.lk,8,wikidata;wikidata,Parliament of Sri Lanka,central,301,10 mx1.parliament.lk.; 5 mx2.parliament.lk.
-defence.lk,7,wikidata;wikidata,Ministry of Defence and Urban Development,central,200,10 mailin-01.gw.sltidc.lk.; 20 mailin-02.gw.sltidc.lk.
-uda.lk,7,wikidata;wikidata,Ministry of Urban Development,central,301,10 mailserv.uda.lk.; 20 mailin-02.gw.sltidc.lk.; 20 whale.slt.lk.; 30 whale1.slt.lk.; 10 mailin-01.gw.sltidc.lk.
+parliament.lk,8,wikidata,Parliament of Sri Lanka,central,301,10 mx1.parliament.lk.; 5 mx2.parliament.lk.
+defence.lk,7,wikidata,Ministry of Defence and Urban Development,central,200,10 mailin-01.gw.sltidc.lk.; 20 mailin-02.gw.sltidc.lk.
+uda.lk,7,wikidata,Ministry of Urban Development,central,301,10 mailserv.uda.lk.; 20 mailin-02.gw.sltidc.lk.; 20 whale.slt.lk.; 30 whale1.slt.lk.; 10 mailin-01.gw.sltidc.lk.
 cmb.ac.lk,6,academia;ror,University of Colombo,central,,
 jfn.ac.lk,6,academia;ror,University of Jaffna,central,,
 pdn.ac.lk,6,academia;ror,University of Peradeniya,central,,
@@ -21,7 +21,6 @@ slncu.lk,4,wikidata,Sri Lanka National Commission for UNESCO,,200,5 mx1-hosting.
 supremecourt.lk,4,wikidata,Supreme Court of Sri Lanka,,200,20 mailin-04.gw.sltidc.lk.; 10 mailin-05.gw.sltidc.lk.
 vishwa.nsf.ac.lk,4,wikidata,National Science Library & Resource Centre – Sri Lanka,,ConnectException,none
 waterboard.lk,4,wikidata,National Water Supply and Drainage Board,,301,1 smtp.google.com.
-220.247.247.85,3,wikidata,National Library of Sri Lanka,,HttpConnectTimeoutException: HTTP connect timed out,none
 bpu.ac.lk,3,ror,Buddhist and Pali University of Sri Lanka,central,,
 colombo.diplo.de,3,wikidata,"Embassy of Germany, Colombo",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 colombo.mae.ro,3,wikidata,embassy of Romania in Sri Lanka,central,ConnectException,none

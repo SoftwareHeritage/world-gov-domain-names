@@ -1,28 +1,28 @@
 hostname,score,sources,label,level,http_status,mx
-gdip.com.ua,7,wikidata;wikidata,Directorate-General for Rendering Services to Diplomatic Missions,,200,10 mail.gdip.com.ua.
-gromady.cv.ua,7,wikidata;wikidata,Krasnoiilska selyshchna rada | Storozhynetska miska rada,,HttpConnectTimeoutException: HTTP connect timed out,none
+gdip.com.ua,7,wikidata,Directorate-General for Rendering Services to Diplomatic Missions,,200,10 mail.gdip.com.ua.
+gromady.cv.ua,7,wikidata,Krasnoiilska selyshchna rada | Storozhynetska miska rada,,HttpConnectTimeoutException: HTTP connect timed out,none
 iae.org.ua,7,wikidata;academia,National Scientific Centre “Institute of Agrarian Economics”,central,HttpConnectTimeoutException: HTTP connect timed out,20 mx20.ukraine.com.ua.; 15 mail.iae.kiev.ua.
-ilt.kharkov.ua,7,academia;academia,B Verkin Institute for Low Temperature Physics and Engineering | Mathematical Division of B. Verkin Institute for Low Temperature Physics and Engineering,,,
-rada.crimea.ua,7,wikidata;wikidata,Supreme Council of Crimea,central-1,200,56 route3.mx.cloudflare.net.; 13 route1.mx.cloudflare.net.; 89 route2.mx.cloudflare.net.
-ubi.org.ua,7,wikidata;wikidata,Ukrainian Book Institute,,302,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-ucf.in.ua,7,wikidata;wikidata,Ukrainian Cultural Foundation,central,200,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-chernivtsy.eu,6,wikidata;wikidata,Q16723280 | Chernivetska miska rada,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching chernivtsy.eu found.,none
+ilt.kharkov.ua,7,academia,B Verkin Institute for Low Temperature Physics and Engineering | Mathematical Division of B. Verkin Institute for Low Temperature Physics and Engineering,,,
+rada.crimea.ua,7,wikidata,Supreme Council of Crimea,central-1,200,56 route3.mx.cloudflare.net.; 13 route1.mx.cloudflare.net.; 89 route2.mx.cloudflare.net.
+ubi.org.ua,7,wikidata,Ukrainian Book Institute,,302,1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+ucf.in.ua,7,wikidata,Ukrainian Cultural Foundation,central,200,5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+chernivtsy.eu,6,wikidata,Q16723280 | Chernivetska miska rada,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching chernivtsy.eu found.,none
 chnu.edu.ua,6,academia;ror,Chernivtsi University,central,,
 donntu.edu.ua,6,academia;ror,Donetsk National Technical University,central,,
 donnu.edu.ua,6,academia;ror,Vasyl' Stus Donetsk National University,central,,
-eeas.europa.eu,6,wikidata;wikidata,Delegation of the European Union to Ukraine,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
-facebook.com,6,wikidata;wikidata,Probation in Ukraine | Q20092493,,ConnectException,none
+eeas.europa.eu,6,wikidata,Delegation of the European Union to Ukraine,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
+facebook.com,6,wikidata,Probation in Ukraine | Q20092493,,ConnectException,none
 hneu.edu.ua,6,academia;ror,Kharkiv National University of Economics,central,,
 kdpu.edu.ua,6,academia;ror,Kryvyi Rih State Pedagogical University,central,,
 khadi.kharkov.ua,6,academia;ror,KhADI automobiles,central,,
 knlu.edu.ua,6,academia;ror,Kyiv National Linguistic University,central,,
 knu.ua,6,academia;ror,Taras Shevchenko National University of Kyiv,central,,
 lnu.edu.ua,6,academia;ror,Lviv University,central,,
-nederlandwereldwijd.nl,6,wikidata;wikidata,"Embassy of the Netherlands, Kyiv",central,301,0 .
+nederlandwereldwijd.nl,6,wikidata,"Embassy of the Netherlands, Kyiv",central,301,0 .
 op.edu.ua,6,academia;ror,Odesa Polytechnic National University,central,,
-pijarzy.pl,6,wikidata;wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
+pijarzy.pl,6,wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
 sumdu.edu.ua,6,academia;ror,Sumy State University,central,,
-ukrpatent.org,6,wikidata;wikidata,Ukrainian Institute of Industrial Property,,302,20 mail.nipo.gov.ua.
+ukrpatent.org,6,wikidata,Ukrainian Institute of Industrial Property,,302,20 mail.nipo.gov.ua.
 ww2.gov.if.ua,5,wikidata,Q12083768,,403,none
 adastra.org.ua,4,academia,ADASTRA,,,
 afghanembassy.com.ua,4,wikidata,"Embassy of Afghanistan, Kyiv",central,301,0 mx.services.
@@ -617,9 +617,9 @@ lviv.itstep.org,2,ror,IT Step University,central,,
 ma.cfuv.ru,2,ror,Crimea State Medical University named after S. I. Georgievsky,central,,
 metinvest.university,2,ror,"Technical University ""Metinvest Polytechnic"" LLC",central,,
 nmuofficial.com,2,ror,Bogomolets National Medical University,central,,
-phc.org.ua,2,wikidata;wikidata;academia,Center for Public Health of the Ministry of Health of Ukraine,,200,0 phc-org-ua.mail.protection.outlook.com.
+phc.org.ua,2,wikidata;academia,Center for Public Health of the Ministry of Health of Ukraine,,200,0 phc-org-ua.mail.protection.outlook.com.
 pstu.edu,2,ror,Pryazovskyi State Technical University,central,,
 sevsu.ru,2,ror,Sevastopol State University,central,,
 vsau.org,2,ror,Vinnytsia National Agrarian University,central,,
-qtmm.org,1,wikidata;wikidata;wikidata,Qurultay of the Crimean Tatar People,,200,none
+qtmm.org,1,wikidata,Qurultay of the Crimean Tatar People,,200,none
 kubg.edu.ua,0,ror,Borys Grinchenko Kyiv Metropolitan University,central,,

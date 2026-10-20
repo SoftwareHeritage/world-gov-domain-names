@@ -1,34 +1,34 @@
 hostname,score,sources,label,level,http_status,mx
 egov.bg,10,un_desa;linkgraph,UN/DESA national portal,,302,10 mg2.egov.bg.; 10 mg1.egov.bg.; 20 mg3.egov.bg.
 government.bg,10,wikidata;linkgraph,Council of Ministers of Bulgaria,central,200,0 government-bg.mail.protection.outlook.com.
-parliament.bg,10,wikidata;wikidata;linkgraph,National Assembly of Bulgaria,central,200,20 viper.parliament.bg.; 10 snake.parliament.bg.
+parliament.bg,10,wikidata;linkgraph,National Assembly of Bulgaria,central,200,20 viper.parliament.bg.; 10 snake.parliament.bg.
 cpdp.bg,8,wikidata;linkgraph,Commission for Personal Data Protection,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.hc2569-70.eu.iphmx.com.; 10 mx2.hc2569-70.eu.iphmx.com.
-bda.bg,7,wikidata;wikidata,Bulgarian Drug Agency,central,301,100 bda-bg.q-v1.mx.microsoft.; 0 mx1.hc2569-70.eu.iphmx.com.; 0 mx2.hc2569-70.eu.iphmx.com.
-bio21.bas.bg,7,academia;academia,Q126112062 | Q70604739,,,
-bnb.bg,7,wikidata;wikidata,Bulgarian National Bank,,200,10 mail2.bnbank.org.; 10 mail.bnbank.org.
-cpc.bg,7,wikidata;wikidata,Commission for Protection of Competition,central,403,10 mail.cpc.bg.
-dar.bg,7,wikidata;wikidata,State Intelligence Agency,central,302,0 mail.dar.bg.
-dobrich.bg,7,wikidata;wikidata,Dobrich,,301,10 mail.dobrich.bg.; 11 edge.municipal.dobrich.bg.
-eea.government.bg,7,wikidata;wikidata,Executive Environment Agency,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.eea.government.bg.
-egov.government.bg,7,wikidata;wikidata,Ministry of Electronic Government,central,302,10 egov-government-bg.mail.protection.outlook.com.
-gdbop.bg,7,wikidata;wikidata,General Directorate Combating Organized Crime | Q12276994,,200,52 linda.mx.cloudflare.net.; 35 amir.mx.cloudflare.net.; 68 isaac.mx.cloudflare.net.
-gotsedelchev.bg,7,wikidata;wikidata,Gotse Delchev,,301,20 mx2.egov.bg.; 10 mx1.egov.bg.
-gulyantsi.bg,7,wikidata;wikidata,Gulyantsi,,200,10 mail.gulyantsi.bg.
-iag.bg,7,wikidata;wikidata,Executive Forest Agency,central,301,10 mail.iag.bg.
-justice.government.bg,7,wikidata;wikidata,Ministry of Justice,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail2.justice.government.bg.; 20 mail.justice.government.bg.
+bda.bg,7,wikidata,Bulgarian Drug Agency,central,301,100 bda-bg.q-v1.mx.microsoft.; 0 mx1.hc2569-70.eu.iphmx.com.; 0 mx2.hc2569-70.eu.iphmx.com.
+bio21.bas.bg,7,academia,Q126112062 | Q70604739,,,
+bnb.bg,7,wikidata,Bulgarian National Bank,,200,10 mail2.bnbank.org.; 10 mail.bnbank.org.
+cpc.bg,7,wikidata,Commission for Protection of Competition,central,403,10 mail.cpc.bg.
+dar.bg,7,wikidata,State Intelligence Agency,central,302,0 mail.dar.bg.
+dobrich.bg,7,wikidata,Dobrich,,301,10 mail.dobrich.bg.; 11 edge.municipal.dobrich.bg.
+eea.government.bg,7,wikidata,Executive Environment Agency,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.eea.government.bg.
+egov.government.bg,7,wikidata,Ministry of Electronic Government,central,302,10 egov-government-bg.mail.protection.outlook.com.
+gdbop.bg,7,wikidata,General Directorate Combating Organized Crime | Q12276994,,200,52 linda.mx.cloudflare.net.; 35 amir.mx.cloudflare.net.; 68 isaac.mx.cloudflare.net.
+gotsedelchev.bg,7,wikidata,Gotse Delchev,,301,20 mx2.egov.bg.; 10 mx1.egov.bg.
+gulyantsi.bg,7,wikidata,Gulyantsi,,200,10 mail.gulyantsi.bg.
+iag.bg,7,wikidata,Executive Forest Agency,central,301,10 mail.iag.bg.
+justice.government.bg,7,wikidata,Ministry of Justice,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail2.justice.government.bg.; 20 mail.justice.government.bg.
 kzp.bg,7,wikidata;linkgraph,Consumer Protection Commission,central,200,0 kzp-bg.r-v1.mx.microsoft.
-mi.government.bg,7,wikidata;wikidata,Ministry of Economy and Industry,central,301,10 mx1.hc2569-70.eu.iphmx.com.; 10 mx2.hc2569-70.eu.iphmx.com.
-midt.bg,7,wikidata;wikidata,Ministry of Innovation and Digital Transformation,central,200,none
-mig.government.bg,7,wikidata;wikidata,Ministry of Innovation and Growth,central,301,10 mg2.egov.bg.; 20 mg3.egov.bg.; 10 mg1.egov.bg.
+mi.government.bg,7,wikidata,Ministry of Economy and Industry,central,301,10 mx1.hc2569-70.eu.iphmx.com.; 10 mx2.hc2569-70.eu.iphmx.com.
+midt.bg,7,wikidata,Ministry of Innovation and Digital Transformation,central,200,none
+mig.government.bg,7,wikidata,Ministry of Innovation and Growth,central,301,10 mg2.egov.bg.; 20 mg3.egov.bg.; 10 mg1.egov.bg.
 nra.bg,7,wikidata;linkgraph,National Revenue Agency,central,HttpConnectTimeoutException: HTTP connect timed out,5 ip1.nra.bg.; 5 ip2.nra.bg.
-nsi.bg,7,wikidata;wikidata;academia,National Statistical Institute,central,301,10 mx2.nsi.bg.; 5 mx1.nsi.bg.
-ombudsman.bg,7,wikidata;wikidata,Ombudsman of the Republic of Bulgaria,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ombudsman.bg found.,10 mail.ombudsman.bg.
-president.bg,7,wikidata;wikidata,Presidency of Bulgaria,,301,10 mailb.president.bg.; 100 maila.president.bg.
-registryagency.bg,7,wikidata;wikidata,Registry Agency,central,301,0 registryagency-bg.w-v1.mx.microsoft.
-seea.government.bg,7,wikidata;wikidata,Sustainable Energy Development Agency,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.egov.bg.; 20 mx2.egov.bg.
-sme.government.bg,7,wikidata;wikidata,Executive Agency for Small and Medium Enterprises,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail.sme.government.bg.; 10 mx1.egov.bg.; 20 mx2.egov.bg.
-appd-bg.org,6,wikidata;wikidata,Executive Agency for Exploration and Maintenance of the Danube River,central,200,10 mail.appd-bg.org.; 5 appd-mail.appd-bg.org.
-bulgarien.um.dk,6,wikidata;wikidata,embassy of Denmark in Bulgaria,central,301,none
+nsi.bg,7,wikidata;academia,National Statistical Institute,central,301,10 mx2.nsi.bg.; 5 mx1.nsi.bg.
+ombudsman.bg,7,wikidata,Ombudsman of the Republic of Bulgaria,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ombudsman.bg found.,10 mail.ombudsman.bg.
+president.bg,7,wikidata,Presidency of Bulgaria,,301,10 mailb.president.bg.; 100 maila.president.bg.
+registryagency.bg,7,wikidata,Registry Agency,central,301,0 registryagency-bg.w-v1.mx.microsoft.
+seea.government.bg,7,wikidata,Sustainable Energy Development Agency,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.egov.bg.; 20 mx2.egov.bg.
+sme.government.bg,7,wikidata,Executive Agency for Small and Medium Enterprises,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mail.sme.government.bg.; 10 mx1.egov.bg.; 20 mx2.egov.bg.
+appd-bg.org,6,wikidata,Executive Agency for Exploration and Maintenance of the Danube River,central,200,10 mail.appd-bg.org.; 5 appd-mail.appd-bg.org.
+bulgarien.um.dk,6,wikidata,embassy of Denmark in Bulgaria,central,301,none
 mu-varna.bg,6,academia;ror,Medical University of Varna,central,,
 nvu.bg,6,academia;ror,Vasil Levski National Military University,central,,
 shu.bg,6,academia;ror,Shumen University,central,,
@@ -761,22 +761,22 @@ vuzf.bg,3,ror,"University of Finance, Business and Entrepreneurship",central,,
 yakimovo.org,3,wikidata,Yakimovo,,301,none
 zavet-bg.com,3,wikidata,Zavet,,HttpTimeoutException: request timed out,none
 zemen-bg.com,3,wikidata,Zemen,,200,none
-archives.government.bg,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Blagoevgrad State Archives | Dobrich State Archives | Kyustendil State Archives | Montana State Archives | Lovech State Archives | ASAB, Varna | Central State Archives of Bulgaria | Gabrovo State Archives | Ruse State Archives | Burgas State Archives | Kardzhali State Archives | Silistra State Archives | Vidin State Archives | Pleven State Archives | Pazardzhik State Archives | Targovishte State Archives | Archives State Agency | Haskovo State Archives | Shumen State Archives | Vratsa State Archives | Yambol State Archives",central,200,none
+archives.government.bg,2,wikidata,"Blagoevgrad State Archives | Dobrich State Archives | Kyustendil State Archives | Montana State Archives | Lovech State Archives | ASAB, Varna | Central State Archives of Bulgaria | Gabrovo State Archives | Ruse State Archives | Burgas State Archives | Kardzhali State Archives | Silistra State Archives | Vidin State Archives | Pleven State Archives | Pazardzhik State Archives | Targovishte State Archives | Archives State Agency | Haskovo State Archives | Shumen State Archives | Vratsa State Archives | Yambol State Archives",central,200,none
 aubg.edu,2,ror,American University in Bulgaria,central,,
-mc.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Culture of Bulgaria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.mc.government.bg.
-me.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Energy of Bulgaria,central,200,10 email.me.government.bg.; 0 me-government-bg.mail.protection.outlook.com.
-mfa.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Foreign Affairs of Bulgaria,central,302,none
-mh.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Health of Bulgaria,central,200,none
-minfin.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Finance,central,403,10 mail1.minfin.bg.; 10 mail2.minfin.bg.
-mlsp.government.bg,2,wikidata;wikidata;wikidata;wikidata,Working Conditions Fund | Social Protection Fund | Ministry of Labour and Social Policy,central,308,none
-mod.bg,2,wikidata;wikidata;wikidata,Ministry of Defence of Bulgaria | Defence Headquarters,central,200,none
-moew.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Environment and Water,central,301,none
-mon.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Education and Science of Bulgaria,central,403,none
-mpes.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Youth and Sports of Bulgaria,central,200,none
-mtitc.government.bg,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Transport, Information Technology and Communications",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mtitc.government.bg found.,none
-mvr.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Interior of Bulgaria,central,403,none
-tourism.government.bg,2,wikidata;wikidata;wikidata;wikidata,Ministry of Tourism,central,200,none
+mc.government.bg,2,wikidata,Ministry of Culture of Bulgaria,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.mc.government.bg.
+me.government.bg,2,wikidata,Ministry of Energy of Bulgaria,central,200,10 email.me.government.bg.; 0 me-government-bg.mail.protection.outlook.com.
+mfa.bg,2,wikidata,Ministry of Foreign Affairs of Bulgaria,central,302,none
+mh.government.bg,2,wikidata,Ministry of Health of Bulgaria,central,200,none
+minfin.bg,2,wikidata,Ministry of Finance,central,403,10 mail1.minfin.bg.; 10 mail2.minfin.bg.
+mlsp.government.bg,2,wikidata,Working Conditions Fund | Social Protection Fund | Ministry of Labour and Social Policy,central,308,none
+mod.bg,2,wikidata,Ministry of Defence of Bulgaria | Defence Headquarters,central,200,none
+moew.government.bg,2,wikidata,Ministry of Environment and Water,central,301,none
+mon.bg,2,wikidata,Ministry of Education and Science of Bulgaria,central,403,none
+mpes.government.bg,2,wikidata,Ministry of Youth and Sports of Bulgaria,central,200,none
+mtitc.government.bg,2,wikidata,"Ministry of Transport, Information Technology and Communications",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mtitc.government.bg found.,none
+mvr.bg,2,wikidata,Ministry of Interior of Bulgaria,central,403,none
+tourism.government.bg,2,wikidata,Ministry of Tourism,central,200,none
 uctm.edu,2,ror,University of Chemical Technology and Metallurgy,central,,
 vumk.eu,2,ror,Varna University of Management,central,,
-mrrb.bg,0,wikidata;wikidata;wikidata;wikidata,Ministry of Regional Development and Public Works,central,301,none
-mzh.government.bg,0,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Regional Directorate of Agriculture - Ruse | Regional Directorate of Agriculture - Shumen | Regional Directorate of Agriculture - Vidin Oblast | Regional Directorate of Agriculture - Dobrich | Regional Directorate of Agriculture - Vratsa | Regional Directorate of Agriculture - Pleven | Regional Directorate of Agriculture - Varna | Regional Directorate of Agriculture - Smolyan | Regional Directorate of Agriculture - Razgrad | Regional Directorate of Agriculture - Targovishte | Regional Directorate of Agriculture - Kardzhali | Regional Directorate of Agriculture - Sofia | Regional Directorate of Agriculture - Montana Oblast | Regional Directorate of Agriculture - Yambol | Regional Directorate of Agriculture - Pernik | Ministry of Agriculture, Food and Forestry | Regional Directorate of Agriculture - Burgas | Regional Directorate of Agriculture - Blagoevgrad | Regional Directorate of Agriculture - Sliven | Regional Directorate of Agriculture - Silistra | Regional Directorate of Agriculture - Lovech | Regional Directorate of Agriculture - Kyustendil | Regional Directorate of Agriculture - Veliko Tarnovo | Regional Directorate of Agriculture - Plovdiv | Regional Directorate of Agriculture - Pazardzhik | Regional Directorate of Agriculture - Sofia City | Regional Directorate of Agriculture - Gabrovo | Regional Directorate of Agriculture - Haskovo | Regional Directorate of Agriculture - Stara Zagora",central,301,none
+mrrb.bg,0,wikidata,Ministry of Regional Development and Public Works,central,301,none
+mzh.government.bg,0,wikidata,"Regional Directorate of Agriculture - Ruse | Regional Directorate of Agriculture - Shumen | Regional Directorate of Agriculture - Vidin Oblast | Regional Directorate of Agriculture - Dobrich | Regional Directorate of Agriculture - Vratsa | Regional Directorate of Agriculture - Pleven | Regional Directorate of Agriculture - Varna | Regional Directorate of Agriculture - Smolyan | Regional Directorate of Agriculture - Razgrad | Regional Directorate of Agriculture - Targovishte | Regional Directorate of Agriculture - Kardzhali | Regional Directorate of Agriculture - Sofia | Regional Directorate of Agriculture - Montana Oblast | Regional Directorate of Agriculture - Yambol | Regional Directorate of Agriculture - Pernik | Ministry of Agriculture, Food and Forestry | Regional Directorate of Agriculture - Burgas | Regional Directorate of Agriculture - Blagoevgrad | Regional Directorate of Agriculture - Sliven | Regional Directorate of Agriculture - Silistra | Regional Directorate of Agriculture - Lovech | Regional Directorate of Agriculture - Kyustendil | Regional Directorate of Agriculture - Veliko Tarnovo | Regional Directorate of Agriculture - Plovdiv | Regional Directorate of Agriculture - Pazardzhik | Regional Directorate of Agriculture - Sofia City | Regional Directorate of Agriculture - Gabrovo | Regional Directorate of Agriculture - Haskovo | Regional Directorate of Agriculture - Stara Zagora",central,301,none

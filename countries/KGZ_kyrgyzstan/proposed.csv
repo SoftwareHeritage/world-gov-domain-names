@@ -1,9 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
-agroprod.kg,7,wikidata;wikidata,"Ministry of Agriculture, Food Industry and Melioration",central,403,10 mail.agroprod.kg.
-en.mes.kg,7,wikidata;wikidata,Ministry of Emergency Situations of Kyrgyzstan,central,ConnectException,none
-kenesh.kg,7,wikidata;wikidata,Supreme Council,central,200,5 mail.kenesh.kg.
-med.kg,7,wikidata;wikidata,Ministry of Health of Kyrgyzstan,central,200,5 mail2.med.kg.
-mvd.kg,7,wikidata;wikidata,Ministry of the Interior,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mvd.kg found.,10 mail.mvd.kg.
+agroprod.kg,7,wikidata,"Ministry of Agriculture, Food Industry and Melioration",central,403,10 mail.agroprod.kg.
+en.mes.kg,7,wikidata,Ministry of Emergency Situations of Kyrgyzstan,central,ConnectException,none
+kenesh.kg,7,wikidata,Supreme Council,central,200,5 mail.kenesh.kg.
+med.kg,7,wikidata,Ministry of Health of Kyrgyzstan,central,200,5 mail2.med.kg.
+mvd.kg,7,wikidata,Ministry of the Interior,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mvd.kg found.,10 mail.mvd.kg.
 stat.kg,7,wikidata;academia,National Statistical Committee,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching stat.kg found.,10 mail.stat.kg.
 manas.edu.kg,6,academia;ror,Manas University,central,,
 archive.kg,4,wikidata,Central State Archives of the Republic of Kyrgyzstan,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.archive.kg.

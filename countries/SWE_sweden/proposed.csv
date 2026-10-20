@@ -1,6 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
-imy.se,10,wikidata;wikidata;linkgraph,Swedish Authority for Privacy Protection,central,302,10 mx2.improve.nordlo.cloud.; 10 mx1.improve.nordlo.cloud.
-domstol.se,9,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Swedish National Courts Administration | Q97143444 | Q10501718 | Malmö District Court | Supreme Court of Sweden | Umeå District Court | Stockholm District Court | Judges Proposals Board | administrative court of appeal in Stockholm | Örebro rättscentrum | Migration Court in Gothenburg | Law Clerks Board | Q80207153 | Legal Aid Board | Borås tingsrätt | Q97143443 | Q97143442,central,301,none
+imy.se,10,wikidata;linkgraph,Swedish Authority for Privacy Protection,central,302,10 mx2.improve.nordlo.cloud.; 10 mx1.improve.nordlo.cloud.
+domstol.se,9,wikidata,Swedish National Courts Administration | Q97143444 | Q10501718 | Malmö District Court | Supreme Court of Sweden | Umeå District Court | Stockholm District Court | Judges Proposals Board | administrative court of appeal in Stockholm | Örebro rättscentrum | Migration Court in Gothenburg | Law Clerks Board | Q80207153 | Legal Aid Board | Borås tingsrätt | Q97143443 | Q97143442,central,301,none
 kau.se,9,wikidata;academia;ror,Karlstad University,central,302,10 kau-se.mail.protection.outlook.com.
 lu.se,9,wikidata;academia;ror,Lund University,central,301,0 lu-se.mail.protection.outlook.com.
 pts.se,9,wikidata;linkgraph,Swedish Post and Telecom Agency,central,200,0 pts-se.mail.protection.outlook.com.
@@ -8,32 +8,32 @@ slu.se,9,wikidata;academia;ror,Swedish University of Agricultural Sciences | The
 digg.se,8,wikidata;linkgraph,Agency for Digital Government,central,301,5 diapmx01.digg.se.
 1177.se,7,linkgraph,Linked from 22 public-sector domains,,301,10 1177-se.mail.protection.outlook.com.
 arbetsformedlingen.se,7,wikidata;linkgraph,Swedish Public Employment Service,central,200,10 smtp.arbetsformedlingen.se.
-bolagsverket.se,7,wikidata;wikidata,Patent Attorneys Board | Swedish Companies Registration Office,central,IOException: HTTP/1.1 header parser received no bytes,10 ext-mail.bolagsverket.se.
-fi.se,7,wikidata;wikidata,Financial Supervisory Authority,central,400,100 post2.fi.se.; 5 post.fi.se.
-fmv.se,7,wikidata;wikidata,Defence Materiel Administration,central,301,5 post6.fmv.se.; 5 post5.fmv.se.
+bolagsverket.se,7,wikidata,Patent Attorneys Board | Swedish Companies Registration Office,central,IOException: HTTP/1.1 header parser received no bytes,10 ext-mail.bolagsverket.se.
+fi.se,7,wikidata,Financial Supervisory Authority,central,400,100 post2.fi.se.; 5 post.fi.se.
+fmv.se,7,wikidata,Defence Materiel Administration,central,301,5 post6.fmv.se.; 5 post5.fmv.se.
 foi.se,7,wikidata;academia,Swedish Defence Research Agency,central,200,0 ip1-m.foi.se.
-forte.se,7,wikidata;wikidata,Swedish Research Council for Health Working Life and Welfare,central,200,20 mailgw6.vinnova.se.; 10 mailgw5.vinnova.se.
-isof.se,7,wikidata;wikidata,Swedish Language Council | Swedish Institute for Language and Folklore,central,301,10 mailfilter-ng-4.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-1.sunet.se.; 20 mailfilter-ng-2.sunet.se.
+forte.se,7,wikidata,Swedish Research Council for Health Working Life and Welfare,central,200,20 mailgw6.vinnova.se.; 10 mailgw5.vinnova.se.
+isof.se,7,wikidata,Swedish Language Council | Swedish Institute for Language and Folklore,central,301,10 mailfilter-ng-4.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-1.sunet.se.; 20 mailfilter-ng-2.sunet.se.
 kb.se,7,wikidata;linkgraph,National Library of Sweden,central,301,1 kb-se.mail.protection.outlook.com.
 konj.se,7,wikidata;academia,National Institute of Economic Research,central,301,5 mx-01-eu-central-1.prod.hydra.sophos.com.; 7 mx-02-eu-central-1.prod.hydra.sophos.com.
-mcf.se,7,wikidata;wikidata,Swedish Civil Defence and Resilience Agency,central,301,10 mailgw-02.msb.se.; 10 mailgw-01.msb.se.
+mcf.se,7,wikidata,Swedish Civil Defence and Resilience Agency,central,301,10 mailgw-02.msb.se.; 10 mailgw-01.msb.se.
 nai.uu.se,7,wikidata;academia,Nordic Africa Institute,central,200,10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-4.sunet.se.; 20 mailfilter-ng-2.sunet.se.
-palestineembassy.se,7,wikidata;wikidata,"Embassy of Palestine, Stockholm",central,200,10 mx4.pub.mailpod14-cph3.one.com.; 10 mx3.pub.mailpod14-cph3.one.com.; 10 mx2.pub.mailpod14-cph3.one.com.; 10 mx1.pub.mailpod14-cph3.one.com.
-polar.se,7,wikidata;wikidata,Swedish Polar Research Secretariat,central,301,0 polar-se.mail.protection.outlook.com.
-sakerhetspolisen.se,7,wikidata;wikidata,Swedish Security Service,central,247,10 mail.sakerhetspolisen.se.
+palestineembassy.se,7,wikidata,"Embassy of Palestine, Stockholm",central,200,10 mx4.pub.mailpod14-cph3.one.com.; 10 mx3.pub.mailpod14-cph3.one.com.; 10 mx2.pub.mailpod14-cph3.one.com.; 10 mx1.pub.mailpod14-cph3.one.com.
+polar.se,7,wikidata,Swedish Polar Research Secretariat,central,301,0 polar-se.mail.protection.outlook.com.
+sakerhetspolisen.se,7,wikidata,Swedish Security Service,central,247,10 mail.sakerhetspolisen.se.
 scb.se,7,wikidata;academia,Statistics Sweden,central,301,20 mail2.scb.se.; 10 mail1.scb.se.
-sgu.se,7,wikidata;wikidata,Geological Survey of Sweden,central,301,10 mx2.sgu.se.; 10 mx1.sgu.se.
-sida.se,7,wikidata;wikidata,Swedish International Development Cooperation Agency,central,200,10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.
-skane.se,7,wikidata;wikidata,Region Skåne,,403,10 skane-se.mail.protection.outlook.com.
+sgu.se,7,wikidata,Geological Survey of Sweden,central,301,10 mx2.sgu.se.; 10 mx1.sgu.se.
+sida.se,7,wikidata,Swedish International Development Cooperation Agency,central,200,10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.
+skane.se,7,wikidata,Region Skåne,,403,10 skane-se.mail.protection.outlook.com.
 skolverket.se,7,wikidata;linkgraph,National Agency for Education,central,301,10 smtp1.skolverket.se.; 10 smtp2.skolverket.se.
-spv.se,7,wikidata;wikidata,National Government Employee Pensions Board | State Occupational Pensions and Group Life Board,central,302,5 spaspambx001.spv.se.
+spv.se,7,wikidata,National Government Employee Pensions Board | State Occupational Pensions and Group Life Board,central,302,5 spaspambx001.spv.se.
 swedgeo.se,7,wikidata;academia,Swedish Geotechnical Institute,central,301,20 se.mx2.mx25.net.; 30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.
-tlv.se,7,wikidata;wikidata,Dental and Pharmaceutical Benefits Agency,central,301,10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.
-trafa.se,7,wikidata;wikidata,Transport Analysis,central,301,2 trafa-se.mail.protection.outlook.com.
-vr.se,7,wikidata;wikidata,Swedish Research Council,central,301,0 vr-se.mail.protection.outlook.com.
-vti.se,7,wikidata;wikidata;academia,Swedish National Road and Transport Research Institute,central,301,0 vti-se.mail.protection.outlook.com.
+tlv.se,7,wikidata,Dental and Pharmaceutical Benefits Agency,central,301,10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.
+trafa.se,7,wikidata,Transport Analysis,central,301,2 trafa-se.mail.protection.outlook.com.
+vr.se,7,wikidata,Swedish Research Council,central,301,0 vr-se.mail.protection.outlook.com.
+vti.se,7,wikidata;academia,Swedish National Road and Transport Research Institute,central,301,0 vti-se.mail.protection.outlook.com.
 www2.irf.se,7,wikidata;academia,Swedish Institute of Space Physics,central,200,none
-airtable.com,6,academia;academia,Almut Kelber's Lab | Sami Merilaita's Lab,,,
+airtable.com,6,academia,Almut Kelber's Lab | Sami Merilaita's Lab,,,
 bth.se,6,wikidata;ror,Blekinge Institute of Technology,central,301,10 bth-se.mail.protection.outlook.com.
 du.se,6,wikidata;ror,Dalarna University,central,301,10 mailfilter-ng-1.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-4.sunet.se.
 fhs.se,6,wikidata;ror,Swedish Defence University,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 fhs-se.mail.protection.outlook.com.
@@ -53,7 +53,7 @@ mdu.se,6,wikidata;ror,Mälardalen University,central,301,10 mdu-se.mail.protecti
 miun.se,6,wikidata;ror,Mid Sweden University,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 miun-se.mail.protection.outlook.com.; 50 tarbaby.junkemailfilter.com.
 oru.se,6,wikidata;ror,Örebro University,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 oru-se.mail.protection.outlook.com.
 sh.se,6,wikidata;ror,Södertörn University,central,301,0 sh-se.mail.protection.outlook.com.
-sverige.um.dk,6,wikidata;wikidata,Embassy of Denmark in Stockholm,central,301,none
+sverige.um.dk,6,wikidata,Embassy of Denmark in Stockholm,central,301,none
 uniarts.se,6,wikidata;ror,Stockholm University of the Arts,central,301,0 uniarts-se.mail.protection.outlook.com.
 uu.se,6,wikidata;ror,Uppsala University,central,301,10 mailfilter-ng-1.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-4.sunet.se.
 acreo.se,4,academia,Acreo,,,
@@ -116,7 +116,7 @@ gotahovratt.se,4,wikidata,Göta Court of Appeal,,301,none
 goteborg.se,4,wikidata,Q122750397,,200,10 mx2.hc2437-76.eu.iphmx.com.; 10 mx1.hc2437-76.eu.iphmx.com.
 gotland.se,4,wikidata,Region Gotland,,200,20 mail2.gotland.se.; 10 mail.gotland.se.
 gronomstart.se,4,academia,Q96356282,,,
-gu.se,4,wikidata;wikidata;wikidata;wikidata;academia;academia;ror,Q10594844 | University of Gothenburg | Gothenburg Research Infrastructure in Digital Humanities | Q65202221,central,301,10 gu-se.mail.protection.outlook.com.
+gu.se,4,wikidata;academia;ror,Q10594844 | University of Gothenburg | Gothenburg Research Infrastructure in Digital Humanities | Q65202221,central,301,10 gu-se.mail.protection.outlook.com.
 han.se,4,wikidata,The Higher Education Expulsions Board,central,301,20 mx02.advania.cloud.; 10 mx01.advania.cloud.
 harpsund.se,4,wikidata,Harpsund Committee,central,301,10 mailcluster.loopia.se.; 20 mail2.loopia.se.
 havochvatten.se,4,wikidata,Swedish Agency for Marine and Water Management,central,302,20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.
@@ -156,7 +156,7 @@ konstnarsnamnden.se,4,wikidata,Swedish Arts Grants Committee,central,301,0 konst
 konsumentverket.se,4,wikidata,Swedish Consumer Agency,central,301,0 konsumentverket-se.mail.protection.outlook.com.
 kriminalvarden.se,4,wikidata,Swedish Prison and Probation Service,central,301,10 mailgw.kriminalvarden.se.
 kronofogden.se,4,wikidata,Swedish Enforcement Authority,central,200,10 ansible.skatteverket.se.; 10 telegraf.skatteverket.se.; 10 marathon.skatteverket.se.
-kth.se,4,wikidata;wikidata;academia;ror,"Royal Institute of Technology | Division of Speech, Music and Hearing",central,301,10 mailfilter-ng-3.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-4.sunet.se.
+kth.se,4,wikidata;academia;ror,"Royal Institute of Technology | Division of Speech, Music and Hearing",central,301,10 mailfilter-ng-3.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-4.sunet.se.
 kulturanalys.se,4,wikidata,Swedish Agency for Cultural Policy Analysis,central,200,10 kulturanalys-se.mail.protection.outlook.com.
 kulturradet.se,4,wikidata,Swedish Arts Council,central,200,1 kulturradet-se.mail.protection.outlook.com.
 kungahuset.se,4,wikidata,Royal Court of Sweden,,301,10 kungahuset-se.mail.protection.outlook.com.
@@ -172,7 +172,7 @@ levandehistoria.se,4,wikidata,Forum för levande historia,central,307,10 levande
 lfv.se,4,wikidata,Civil Aviation Administration,,200,30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.; 20 se.mx2.mx25.net.
 linxs.se,4,academia,Lund Institute of Advanced Neutron and X-ray Science,,,
 livsmedelsverket.se,4,wikidata,National Food Agency,central,301,20 mail2.slv.se.; 20 mail.slv.se.
-lnu.se,4,wikidata;academia;academia;ror,Linnaeus University | Linnaeus University Information Institute,central,301,10 lnu-se.mail.protection.outlook.com.
+lnu.se,4,wikidata;academia;ror,Linnaeus University | Linnaeus University Information Institute,central,301,10 lnu-se.mail.protection.outlook.com.
 lotteriinspektionen.se,4,wikidata,Spelinspektionen,central,500,30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.; 20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.
 lunarc.lu.se,4,academia,Lunarc,central,,
 lundbergsstiftelsen.se,4,academia,IngaBritt och Arne Lundbergs Forskningsstiftelse,,,
@@ -287,7 +287,7 @@ stics.se,4,academia,Stics,,,
 stockholm.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Stockholm",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 maila.stockholm.mfa.gov.hu.; 10 mailb.stockholm.mfa.gov.hu.
 storstockholm.brand.se,4,wikidata,Firefighting in Stockholm,,302,10 mx.ssbf.brand.se.
 stralsakerhetsmyndigheten.se,4,wikidata,Swedish Radiation Safety Authority,central,301,dig error
-su.se,4,wikidata;academia;academia;academia;academia;ror,Stockholm University | Birgitta Tullberg's Lab | Gabriella Gamberale Stille's Lab | Oskar Klein Centre,central,301,10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-4.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-3.sunet.se.
+su.se,4,wikidata;academia;ror,Stockholm University | Birgitta Tullberg's Lab | Gabriella Gamberale Stille's Lab | Oskar Klein Centre,central,301,10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-4.sunet.se.; 20 mailfilter-ng-2.sunet.se.; 10 mailfilter-ng-3.sunet.se.
 sudanembassy.se,4,wikidata,"Embassy of Sudan, Stockholm",central,301,10 mailcluster.loopia.se.; 20 mail2.loopia.se.
 sva.se,4,wikidata,National Veterinary Institute,central,301,10 sva-se.mail.protection.outlook.com.
 svea.se,4,wikidata,Svea Court of Appeal,,301,none
@@ -311,7 +311,7 @@ ubm.se,4,wikidata,Swedish Payments Agency,,200,10 ansible.skatteverket.se.; 10 t
 uhr.se,4,wikidata,Swedish Council for Higher Education,central,200,1 uhr-se.mail.protection.outlook.com.
 ui.se,4,academia,Swedish Institute of International Affairs,,,
 uka.se,4,wikidata,Swedish Higher Education Authority,central,301,10 mx01.advania.cloud.; 20 mx02.advania.cloud.
-umu.se,4,wikidata;wikidata;academia;academia;ror,Umeå University | The Biobank Research Unit at Umeå University | The European CBRNE Center,central,302,10 umu-se.mail.protection.outlook.com.
+umu.se,4,wikidata;academia;ror,Umeå University | The Biobank Research Unit at Umeå University | The European CBRNE Center,central,302,10 umu-se.mail.protection.outlook.com.
 unesco.se,4,wikidata,Swedish National Commission for UNESCO,,200,10 mailcluster.loopia.se.; 20 mail2.loopia.se.
 upphandlingsmyndigheten.se,4,wikidata,The National Agency for Public Procurement,central,301,0 upphandlingsmyndigheten-se.mail.protection.outlook.com.
 val.se,4,wikidata,Swedish Election Authority,central,301,10 telegraf.skatteverket.se.; 10 ansible.skatteverket.se.; 10 marathon.skatteverket.se.
@@ -373,12 +373,12 @@ sweden.representation.ec.europa.eu,3,wikidata,European Commission Representation
 tullhuset.org,3,wikidata,Dalarö custom house,,301,20 mail2.loopia.se.; 10 mailcluster.loopia.se.
 v-dem.net,3,academia,Varieties of Democracy (V-Dem) Institute,,,
 wmu.se,3,ror,World Maritime University,central,,
-handelskammer.se,2,wikidata;wikidata;wikidata,German-Swedish Chamber of Commerce,,301,10 handelskammer-se.mail.protection.outlook.com.
-irf.se,2,wikidata;wikidata;academia,Swedish Institute of Space Physics,central,301,10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-4.sunet.se.
-kammarkollegiet.se,2,wikidata;wikidata;wikidata;wikidata;wikidata,"Fideikommissnämnden | Legal, Financial and Administrative Services Agency | Arbitration Tribunal for Occupational Injury Compensation | Alcoholic Beverages Product Range Board | Q10677737",central,301,10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.; 20 se.mx2.mx25.net.
-lansstyrelsen.se,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Dalarna County Administrative Board | Stockholm County Administrative Board | Norrbotten County Administrative Board | Västra Götaland County Administrative Board | Gotland County Administrative Board | Uppsala County Administrative Board | Örebro County Administrative Board | Östergötland County Administrative Board | Kronoberg County Administrative Board | Gävleborg County Administrative Board | Västernorrland County Administrative Board | Blekinge County Administrative Board | Jämtland County Administrative Board | Västmanland County Administrative Board | Västerbotten County Administrative Board | Jönköping County Administrative Board | Skåne County Administrative Board | Halland County Administrative Board | Södermanland County Administrative Board | Kalmar County Administrative Board | Värmland County Administrative Board,central,301,10 external-mx.lst.se.
-polisen.se,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Swedish Police | Swedish Police Authority | Swedish Police Aviation,central,200,10 mail2.polisen.se.; 10 mail1.polisen.se.
-regionstockholm.se,2,wikidata;wikidata;wikidata,Q10680639 | Region Stockholm,,301,10 regionstockholm-se.mx1.mailanyone.net.; 20 regionstockholm-se.mx2.mx25.net.; 40 regionstockholm-se.mx4.mx25.net.; 30 regionstockholm-se.mx3.mailanyone.net.
-sametinget.se,2,wikidata;wikidata;wikidata;wikidata,Sami Parliament of Sweden | The Sami Foundation Board,central,HttpConnectTimeoutException: HTTP connect timed out,6 mail4.norrmoln.se.; 5 mail3.norrmoln.se.; 0 sametinget-se.mail.protection.outlook.com.
-vgregion.se,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Q10718442 | Region Västra Götaland,,301,10 vgregion-se.mail.protection.outlook.com.
+handelskammer.se,2,wikidata,German-Swedish Chamber of Commerce,,301,10 handelskammer-se.mail.protection.outlook.com.
+irf.se,2,wikidata;academia,Swedish Institute of Space Physics,central,301,10 mailfilter-ng-1.sunet.se.; 10 mailfilter-ng-3.sunet.se.; 10 mailfilter-ng-4.sunet.se.
+kammarkollegiet.se,2,wikidata,"Fideikommissnämnden | Legal, Financial and Administrative Services Agency | Arbitration Tribunal for Occupational Injury Compensation | Alcoholic Beverages Product Range Board | Q10677737",central,301,10 se.mx1.mailanyone.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.; 20 se.mx2.mx25.net.
+lansstyrelsen.se,2,wikidata,Dalarna County Administrative Board | Stockholm County Administrative Board | Norrbotten County Administrative Board | Västra Götaland County Administrative Board | Gotland County Administrative Board | Uppsala County Administrative Board | Örebro County Administrative Board | Östergötland County Administrative Board | Kronoberg County Administrative Board | Gävleborg County Administrative Board | Västernorrland County Administrative Board | Blekinge County Administrative Board | Jämtland County Administrative Board | Västmanland County Administrative Board | Västerbotten County Administrative Board | Jönköping County Administrative Board | Skåne County Administrative Board | Halland County Administrative Board | Södermanland County Administrative Board | Kalmar County Administrative Board | Värmland County Administrative Board,central,301,10 external-mx.lst.se.
+polisen.se,2,wikidata,Swedish Police | Swedish Police Authority | Swedish Police Aviation,central,200,10 mail2.polisen.se.; 10 mail1.polisen.se.
+regionstockholm.se,2,wikidata,Q10680639 | Region Stockholm,,301,10 regionstockholm-se.mx1.mailanyone.net.; 20 regionstockholm-se.mx2.mx25.net.; 40 regionstockholm-se.mx4.mx25.net.; 30 regionstockholm-se.mx3.mailanyone.net.
+sametinget.se,2,wikidata,Sami Parliament of Sweden | The Sami Foundation Board,central,HttpConnectTimeoutException: HTTP connect timed out,6 mail4.norrmoln.se.; 5 mail3.norrmoln.se.; 0 sametinget-se.mail.protection.outlook.com.
+vgregion.se,2,wikidata,Q10718442 | Region Västra Götaland,,301,10 vgregion-se.mail.protection.outlook.com.
 tillvaxtverket.se,0,wikidata,Swedish Agency for Economic and Regional Growth,central,200,0 tillvaxtverket-se.mail.protection.outlook.com.

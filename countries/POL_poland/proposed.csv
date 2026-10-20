@@ -1,12 +1,12 @@
 hostname,score,sources,label,level,http_status,mx
 agh.edu.pl,10,academia;linkgraph;ror,AGH University of Science and Technology,central,301,10 smtp.agh.edu.pl.
-bn.org.pl,10,wikidata;wikidata;directory,National Library of Poland,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 bn-org-pl.mail.protection.outlook.com.
+bn.org.pl,10,wikidata;directory,National Library of Poland,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 bn-org-pl.mail.protection.outlook.com.
 nbp.pl,10,wikidata;linkgraph;directory,Narodowy Bank Polski,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1c.nbp.pl.; 10 mx1r.nbp.pl.
 policja.pl,10,wikidata;linkgraph;directory,Policja,,200,10 mxin.policja.gov.pl.
 sn.pl,10,wikidata;directory,Supreme Court of Poland,central,301,10 sn-pl.mail.protection.outlook.com.
 uni.opole.pl,10,academia;linkgraph;ror,University of Opole,central,200,10 fortimail.uni.opole.pl.
 usz.edu.pl,10,academia;linkgraph;ror,University of Szczecin,central,200,10 usz-edu-pl.mail.protection.outlook.com.
-wojsko-polskie.pl,10,wikidata;wikidata;directory;ror,Military Gendarmerie | Polish General Staff,central,301,none
+wojsko-polskie.pl,10,wikidata;directory;ror,Military Gendarmerie | Polish General Staff,central,301,none
 zus.pl,10,wikidata;linkgraph;directory,Zakład Ubezpieczeń Społecznych,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.zus.pl.; 1000 mail3.zus.pl.; 1000 mail4.zus.pl.; 10 mail2.zus.pl.
 pg.edu.pl,9,academia;linkgraph;ror,Gdańsk University of Technology,central,200,0 pg-edu-pl.mail.protection.outlook.com.
 ur.edu.pl,9,academia;linkgraph;ror,Rzeszów University,central,301,0 ur-edu-pl.mail.protection.outlook.com.
@@ -14,24 +14,24 @@ krs.pl,8,wikidata;directory,National Council of the Judiciary,,SSLHandshakeExcep
 pfron.org.pl,8,wikidata;directory,National Disabled Persons Rehabilitation Fund,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp1.pfron.org.pl.
 uw.edu.pl,8,academia;linkgraph,University of Warsaw,central,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.
 zditm.szczecin.pl,8,wikidata;linkgraph,ZDiTM Szczecin,,HttpConnectTimeoutException: HTTP connect timed out,10 zditm.szczecin.pl.
-ahk.pl,7,wikidata;wikidata,Polish-German Chamber of Commerce and Industry,,302,10 ahk-pl.mail.protection.outlook.com.
+ahk.pl,7,wikidata,Polish-German Chamber of Commerce and Industry,,302,10 ahk-pl.mail.protection.outlook.com.
 bip.radom.pl,7,linkgraph,Linked from 35 public-sector domains,,200,none
-dominikanie.pl,7,wikidata;wikidata,Polish Dominican Province,,200,0 mxg.dominikanie.pl.
+dominikanie.pl,7,wikidata,Polish Dominican Province,,200,0 mxg.dominikanie.pl.
 edu.bydgoszcz.pl,7,linkgraph,Linked from 22 public-sector domains,,200,10 mail.um.bydgoszcz.pl.
-franciszkanie.org.pl,7,wikidata;wikidata,Province of Our Lady of the Angels of the Friars Minor in Kraków,,301,10 mail.franciszkanie.org.pl.
+franciszkanie.org.pl,7,wikidata,Province of Our Lady of the Angels of the Friars Minor in Kraków,,301,10 mail.franciszkanie.org.pl.
 ibe.edu.pl,7,academia;linkgraph,Educational Research Institute,,301,20 mx20.ibe.edu.pl.; 30 mailek.ibe.edu.pl.; 10 ibe.edu.pl.
-impan.pl,7,academia;academia,"Institute of Mathematics, Polish Academy of Sciences | Stefan Banach International Mathematical Center",,,
-inhort.pl,7,academia;academia,Research Institute of Horticulture | Research Institute of Pomology and Floriculture,,,
+impan.pl,7,academia,"Institute of Mathematics, Polish Academy of Sciences | Stefan Banach International Mathematical Center",,,
+inhort.pl,7,academia,Research Institute of Horticulture | Research Institute of Pomology and Floriculture,,,
 ispan.pl,7,wikidata;academia,"Institute of Art, Polish Academy of Sciences",,301,10 mail.ispan.pl.
-lubuskie.pl,7,wikidata;wikidata,Zarząd Województwa Lubuskiego | Marshal's Office of Lubusz Voivodeship,central-1,200,20 mailguard-2.uz.zgora.pl.; 10 mailguard-1.uz.zgora.pl.
-nid.pl,7,wikidata;wikidata,Narodowy Instytut Dziedzictwa,,200,10 nid-pl.mail.protection.outlook.com.
-ogrod.uw.edu.pl,7,academia;academia,Warsaw University Botanical Garden | rose collection of Warsaw University Botanical Garden,,,
+lubuskie.pl,7,wikidata,Zarząd Województwa Lubuskiego | Marshal's Office of Lubusz Voivodeship,central-1,200,20 mailguard-2.uz.zgora.pl.; 10 mailguard-1.uz.zgora.pl.
+nid.pl,7,wikidata,Narodowy Instytut Dziedzictwa,,200,10 nid-pl.mail.protection.outlook.com.
+ogrod.uw.edu.pl,7,academia,Warsaw University Botanical Garden | rose collection of Warsaw University Botanical Garden,,,
 ore.edu.pl,7,linkgraph,Linked from 22 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-panewniki.franciszkanie.pl,7,wikidata;wikidata,Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in Katowice,,HttpConnectTimeoutException: HTTP connect timed out,0 panewniki.franciszkanie.pl.
+panewniki.franciszkanie.pl,7,wikidata,Province of the Assumption of the Blessed Virgin Mary of the Friars Minor in Katowice,,HttpConnectTimeoutException: HTTP connect timed out,0 panewniki.franciszkanie.pl.
 pb.edu.pl,7,linkgraph;ror,Bialystok University of Technology,central,200,0 poczta.pb.edu.pl.
-pijarzy.pl,7,wikidata;wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
+pijarzy.pl,7,wikidata,Piarist province of Poland,,200,10 poczta.pijarzy.pl.
 um.szczecin.pl,7,linkgraph,Linked from 21 public-sector domains,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching um.szczecin.pl found.,20 d332736.a.ess.de.barracudanetworks.com.; 20 d332736.b.ess.de.barracudanetworks.com.
-umwd.dolnyslask.pl,7,wikidata;wikidata,Marshal's Office of Lower Silesian Voivodeship | Lower Silesian Regional Assembly,central-1,200,10 mx01.dolnyslask.pl.; 10 mx02.dolnyslask.pl.
+umwd.dolnyslask.pl,7,wikidata,Marshal's Office of Lower Silesian Voivodeship | Lower Silesian Regional Assembly,central-1,200,10 mx01.dolnyslask.pl.; 10 mx02.dolnyslask.pl.
 wroc.pl,7,linkgraph,Linked from 51 public-sector domains,,ConnectException,none
 www.bialystok.pl,7,linkgraph,Linked from 22 public-sector domains,,200,0 mx.um.bialystok.pl.
 www.bydgoszcz.pl,7,linkgraph,Linked from 33 public-sector domains,,200,10 mail.um.bydgoszcz.pl.
@@ -40,19 +40,19 @@ www.radom.pl,7,linkgraph,Linked from 20 public-sector domains,,200,10 www.radom.
 www.wroclaw.pl,7,linkgraph,Linked from 23 public-sector domains,,200,5 mail1.um.wroc.pl.
 zut.edu.pl,7,linkgraph;ror,West Pomeranian University of Technology in Szczecin,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 zut-edu-pl.mail.protection.outlook.com.
 amu.edu.pl,6,linkgraph;ror,Adam Mickiewicz University in Poznań,central,200,20 mx2.amu.edu.pl.; 10 mx1.amu.edu.pl.
-bernardyni.com,6,wikidata;wikidata,Bernardines (Franciscans),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx-1.dpoczta.pl.; 10 mx-2.dpoczta.pl.
+bernardyni.com,6,wikidata,Bernardines (Franciscans),,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx-1.dpoczta.pl.; 10 mx-2.dpoczta.pl.
 cke.edu.pl,6,linkgraph,Linked from 10 public-sector domains,,ConnectException,5 cke-edu-pl.mail.protection.outlook.com.
 diecezja.radom.pl,6,linkgraph,Linked from 10 public-sector domains,,200,10 diecezja.radom.pl.
 edu.bialystok.pl,6,linkgraph,Linked from 19 public-sector domains,,301,0 edu-bialystok-pl.mail.protection.outlook.com.
-franciszkanie.com,6,wikidata;wikidata,Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław,,301,10 mail.franciszkanie.com.
-franciszkanie.net,6,wikidata;wikidata,Province of Saint Francis of the Friars Minor in Poznań,,200,10 franciszkanie.net.
+franciszkanie.com,6,wikidata,Province of Saint Hedwig of Silesia of the Friars Minor in Wrocław,,301,10 mail.franciszkanie.com.
+franciszkanie.net,6,wikidata,Province of Saint Francis of the Friars Minor in Poznań,,200,10 franciszkanie.net.
 kpsw.edu.pl,6,linkgraph;ror,Kujawy and Pomorze University in Bydgoszcz,central,200,10 mx4.kpsw.edu.pl.
 krakow.pl,6,linkgraph,Linked from 15 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,4 pocztapro.cyfronet.pl.
 p.lodz.pl,6,academia;ror,Łódź University of Technology,central,,
 pe.szczecin.pl,6,linkgraph,Linked from 15 public-sector domains,,200,10 d332736.a.ess.de.barracudanetworks.com.; 10 d332736.b.ess.de.barracudanetworks.com.
-pl.ambafrance.org,6,wikidata;wikidata,"Consulate General of France in Krakow | Embassy of France, Warsaw",central,301,none
+pl.ambafrance.org,6,wikidata,"Consulate General of France in Krakow | Embassy of France, Warsaw",central,301,none
 po.edu.pl,6,linkgraph;ror,Opole University of Technology,central,HttpConnectTimeoutException: HTTP connect timed out,10 d321053.a.ess.de.barracudanetworks.com.; 15 d321053.b.ess.de.barracudanetworks.com.
-polen.diplo.de,6,wikidata;wikidata,"Embassy of Germany, Warsaw | German Consulate Opole",central,200,none
+polen.diplo.de,6,wikidata,"Embassy of Germany, Warsaw | German Consulate Opole",central,200,none
 pum.edu.pl,6,linkgraph;ror,Pomeranian Medical University,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 pum-edu-pl.mail.protection.outlook.com.
 pwsz.nysa.pl,6,academia;ror,University of Applied Sciences in Nysa,central,,
 ue.poznan.pl,6,academia;ror,Poznań University of Economics,central,,
@@ -462,7 +462,7 @@ wns.ug.edu.pl,4,academia,"Faculty of Social Sciences, University of Gdańsk",,,
 wns.uni.wroc.pl,4,academia,Faculty of Social Sciences of University of Wrocław,,,
 wns.us.edu.pl,4,academia,"Faculty of Social Sciences, University of Silesia",,,
 wns.uwr.edu.pl,4,academia,Faculty of Social Sciences of University of Wrocław,,,
-wsb.edu.pl,4,academia;academia;academia;academia;academia;academia;ror,Doctoral School of WSB University | WSB University in Cieszyn | WSB University in Jaworzno | WSB University in Krakow | WSB University in Olkusz | WSB University; Branch Faculty in Żywiec,central,,
+wsb.edu.pl,4,academia;ror,Doctoral School of WSB University | WSB University in Cieszyn | WSB University in Jaworzno | WSB University in Krakow | WSB University in Olkusz | WSB University; Branch Faculty in Żywiec,central,,
 wsd.rzeszow.pl,4,linkgraph,Linked from 4 public-sector domains,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 prorok.wsd.rzeszow.pl.
 wsmip.uj.edu.pl,4,academia,Faculty of International and Political Studies of Jagiellonian University,,,
 wzdw.pl,4,wikidata,Greater Poland Voivodeship Roads Authority,central-1,200,10 mx-01-eu-central-1.prod.hydra.sophos.com.; 20 mx-02-eu-central-1.prod.hydra.sophos.com.
@@ -666,10 +666,10 @@ aeht.eu,2,ror,Academy of Hotel Management and Catering Industry,central,,
 handlowa.eu,2,ror,University of Business in Wrocław,central,,
 horyzont.eu,2,ror,"Wroclaw University of Applied Informatics ""Horizon""",central,,
 mwsl.eu,2,ror,International University of Logistics and Transport in Wrocław,central,,
-pkgsa.pl,2,wikidata;wikidata;wikidata,Terminal Koroszczyn,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pkgsa.pl found.,10 pkgsa.pl.
-visitbydgoszcz.pl,2,wikidata;wikidata;wikidata;wikidata,Visit Bydgoszcz,,301,10 mail.um.bydgoszcz.pl.
+pkgsa.pl,2,wikidata,Terminal Koroszczyn,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching pkgsa.pl found.,10 pkgsa.pl.
+visitbydgoszcz.pl,2,wikidata,Visit Bydgoszcz,,301,10 mail.um.bydgoszcz.pl.
 vizja.net,2,ror,Wyższa Szkoła Technologii Informatycznych w Warszawie,central,,
-we.zut.edu.pl,2,academia;academia;academia;academia;academia;academia;academia,"Chair of Automation and Robotics | Chair of Electrical Machines and Drives | Chair of High Voltage and Electrical Power Engineering | Chair of Signal Processing and Multimedia Engineering | Chair of Systems, Signal and Electronics Engineering | Chair of Telecommunications and Photonics | Chair of Theoretical Electrical Engineering and Applied Computer Science",,,
+we.zut.edu.pl,2,academia,"Chair of Automation and Robotics | Chair of Electrical Machines and Drives | Chair of High Voltage and Electrical Power Engineering | Chair of Signal Processing and Multimedia Engineering | Chair of Systems, Signal and Electronics Engineering | Chair of Telecommunications and Photonics | Chair of Theoretical Electrical Engineering and Applied Computer Science",,,
 wspia.eu,2,ror,WSPIA University of Rzeszow,central,,
-mzv.sk,1,wikidata;wikidata;wikidata,"Embassy of Slovakia, Warsaw | Consulate General of Slovakia, Kraków",central,301,10 mail.gov.sk.
+mzv.sk,1,wikidata,"Embassy of Slovakia, Warsaw | Consulate General of Slovakia, Kraków",central,301,10 mail.gov.sk.
 en.wsge.edu.pl,0,ror,Alcide De Gasperi University of Euroregional Economy in Józefów,central,,

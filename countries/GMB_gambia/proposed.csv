@@ -1,6 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
-assembly.gm,7,wikidata;wikidata,National Assembly of The Gambia,central,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
-mope.gm,7,wikidata;wikidata,"Ministry of Petroleum, Energy and Mines",central,301,none
+assembly.gm,7,wikidata,National Assembly of The Gambia,central,200,10 mx10.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.
+mope.gm,7,wikidata,"Ministry of Petroleum, Energy and Mines",central,301,none
 gc.edu.gm,6,wikidata;ror,The Gambia College,central,200,10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
 cbg.gm,4,wikidata,Central Bank of The Gambia,,301,0 cbg-gm.mail.protection.outlook.com.
 gambiaports.gm,4,wikidata,Gambia Ports Authority,central,HttpConnectTimeoutException: HTTP connect timed out,0 gambiaports-gm.mail.protection.outlook.com.
@@ -31,7 +31,7 @@ pscgov.gm,4,wikidata,Public Service Commission,central,200,5 pscgov.onice.io.; 1
 pura.gm,4,wikidata,Gambia Public Utilities Regulatory Authority,,200,0 pura-gm.mail.protection.outlook.com.
 sshfc.gm,4,wikidata,Social Security Housing & Finance Corporation,central,301,1 sshfc-gm.mail.protection.outlook.com.
 tgsb.gm,4,wikidata,The Gambia Standards Bureau,,200,20 mx20.antispam.mailspamprotection.com.; 30 mx30.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
-utg.edu.gm,4,wikidata;wikidata;academia;ror,University of the Gambia,central,HttpTimeoutException: request timed out,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
+utg.edu.gm,4,wikidata;academia;ror,University of the Gambia,central,HttpTimeoutException: request timed out,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
 aiu.edu.gm,3,ror,American International University West Africa,central,,
 banjul.diplo.de,3,wikidata,"Embassy of Germany, Banjul",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
 eeas.europa.eu,3,wikidata,Delegation of the European Union to The Gambia,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.

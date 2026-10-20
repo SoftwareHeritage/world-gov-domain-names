@@ -1,43 +1,43 @@
 hostname,score,sources,label,level,http_status,mx
-amu.ac.in,9,academia;academia;ror,"Aligarh Muslim University | Aligarh Muslim University, Faculty of Social Sciences",,,
-bhu.ac.in,9,academia;academia;ror,"Banaras Hindu University | Faculty of Social Sciences, Banaras Hindu University",,,
-tnau.ac.in,9,academia;academia;ror,Azolla Laboratory | Tamil Nadu Agricultural University,central-1,,
-unipune.ac.in,9,academia;academia;ror,Institute of Bioinformatics and Biotechnology | Savitribai Phule Pune University,,,
-agricoop.nic.in,7,wikidata;wikidata,"Department of Agriculture, Co-operation and Farmers Welfare | Department of Agriculture & Co-operation",,ConnectException,none
-ceib.nic.in,7,wikidata;wikidata,Central Economic Intelligence Bureau | Intelligence Bureau,,HttpConnectTimeoutException: HTTP connect timed out,none
-cghealth.nic.in,7,wikidata;wikidata,"Department of Health & Family Welfare & Medical Education, Chhattisgarh",,301,none
-cmeri.res.in,7,academia;academia,CSIR-Central Mechanical Engineering Research Institute Durgapur India | Surface Robotics Laboratory-CMERI,,,
-consumeraffairs.nic.in,7,wikidata;wikidata,"Ministry of Consumer Affairs, Food and Public Distribution",central,HttpConnectTimeoutException: HTTP connect timed out,none
-davp.nic.in,7,wikidata;wikidata,Directorate of Advertising and Visual Publicity | Bureau of Outreach and Communication,,200,none
-delhiassembly.nic.in,7,wikidata;wikidata,Delhi Legislative Assembly,central-1,ConnectException,none
-dhi.nic.in,7,wikidata;wikidata,Ministry of Heavy Industries and Public Enterprises,central,ConnectException,none
-fincomindia.nic.in,7,wikidata;wikidata,Finance Commission of India | Fifteenth Finance Commission of India,,HttpConnectTimeoutException: HTTP connect timed out,none
-gachbalangirodisha.ac.in,7,wikidata;wikidata,"Government Ayurvedic College, Balangir",,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
-icar.org.in,7,wikidata;wikidata;academia,National Agricultural Science Fund | Indian Council of Agricultural Research | Central Avian Research Institute,,HttpTimeoutException: request timed out,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
-indiaculture.nic.in,7,wikidata;wikidata,Ministry of Culture,central,ConnectException,none
-kla.kar.nic.in,7,wikidata;wikidata;wikidata;wikidata,Karnataka Legislative Assembly | Karnataka Legislative Council,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-ksrdpru.in,7,academia;academia,Dr. B.R. Ambedkar University of Social Sciences | Karnataka State Rural Development and Panchayat Raj University,central-1,,
-labour.nic.in,7,wikidata;wikidata,Ministry of Labour and Employment,central,ConnectException,none
-leh.nic.in,7,wikidata;wikidata,"Ladakh Autonomous Hill Development Council, Leh",central-1,200,none
-mcdonline.nic.in,7,wikidata;wikidata;wikidata,Municipal Corporation of Delhi,central-1,200,none
-mls.org.in,7,wikidata;wikidata;wikidata,Maharashtra Legislative Assembly | Maharashtra Legislative Council,central-1,200,100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.; 10 mail.mls.org.in.
-mofaic.gov.ae,7,wikidata;wikidata,"Embassy of the United Arab Emirates, New Delhi | Consulate General of the United Arab Emirates, Mumbai",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
-mofpi.nic.in,7,wikidata;wikidata,Ministry of Food Processing Industries,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 mailgw.nic.in.
-morth.nic.in,7,wikidata;wikidata,Ministry of Road Transport and Highways,central,301,none
+amu.ac.in,9,academia;ror,"Aligarh Muslim University | Aligarh Muslim University, Faculty of Social Sciences",,,
+bhu.ac.in,9,academia;ror,"Banaras Hindu University | Faculty of Social Sciences, Banaras Hindu University",,,
+tnau.ac.in,9,academia;ror,Azolla Laboratory | Tamil Nadu Agricultural University,central-1,,
+unipune.ac.in,9,academia;ror,Institute of Bioinformatics and Biotechnology | Savitribai Phule Pune University,,,
+agricoop.nic.in,7,wikidata,"Department of Agriculture, Co-operation and Farmers Welfare | Department of Agriculture & Co-operation",,ConnectException,none
+ceib.nic.in,7,wikidata,Central Economic Intelligence Bureau | Intelligence Bureau,,HttpConnectTimeoutException: HTTP connect timed out,none
+cghealth.nic.in,7,wikidata,"Department of Health & Family Welfare & Medical Education, Chhattisgarh",,301,none
+cmeri.res.in,7,academia,CSIR-Central Mechanical Engineering Research Institute Durgapur India | Surface Robotics Laboratory-CMERI,,,
+consumeraffairs.nic.in,7,wikidata,"Ministry of Consumer Affairs, Food and Public Distribution",central,HttpConnectTimeoutException: HTTP connect timed out,none
+davp.nic.in,7,wikidata,Directorate of Advertising and Visual Publicity | Bureau of Outreach and Communication,,200,none
+delhiassembly.nic.in,7,wikidata,Delhi Legislative Assembly,central-1,ConnectException,none
+dhi.nic.in,7,wikidata,Ministry of Heavy Industries and Public Enterprises,central,ConnectException,none
+fincomindia.nic.in,7,wikidata,Finance Commission of India | Fifteenth Finance Commission of India,,HttpConnectTimeoutException: HTTP connect timed out,none
+gachbalangirodisha.ac.in,7,wikidata,"Government Ayurvedic College, Balangir",,200,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
+icar.org.in,7,wikidata;academia,National Agricultural Science Fund | Indian Council of Agricultural Research | Central Avian Research Institute,,HttpTimeoutException: request timed out,50 mx3.mgovcloud.in.; 20 mx2.mgovcloud.in.; 10 mx.mgovcloud.in.
+indiaculture.nic.in,7,wikidata,Ministry of Culture,central,ConnectException,none
+kla.kar.nic.in,7,wikidata,Karnataka Legislative Assembly | Karnataka Legislative Council,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+ksrdpru.in,7,academia,Dr. B.R. Ambedkar University of Social Sciences | Karnataka State Rural Development and Panchayat Raj University,central-1,,
+labour.nic.in,7,wikidata,Ministry of Labour and Employment,central,ConnectException,none
+leh.nic.in,7,wikidata,"Ladakh Autonomous Hill Development Council, Leh",central-1,200,none
+mcdonline.nic.in,7,wikidata,Municipal Corporation of Delhi,central-1,200,none
+mls.org.in,7,wikidata,Maharashtra Legislative Assembly | Maharashtra Legislative Council,central-1,200,100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 100 us2.mx1.mailhostbox.com.; 10 mail.mls.org.in.
+mofaic.gov.ae,7,wikidata,"Embassy of the United Arab Emirates, New Delhi | Consulate General of the United Arab Emirates, Mumbai",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
+mofpi.nic.in,7,wikidata,Ministry of Food Processing Industries,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,0 mailgw.nic.in.
+morth.nic.in,7,wikidata,Ministry of Road Transport and Highways,central,301,none
 mospi.nic.in,7,wikidata;academia,Central Statistics Office,central,ConnectException,none
-nhrc.nic.in,7,wikidata;wikidata;wikidata,National Human Rights Commission | Andhra Pradesh State Human Rights Commission | Jharkhand Human Rights Commission,,302,none
-nssce.ac.in,7,wikidata;wikidata,NSS College of Engineering,,200,0 aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
-petroleum.nic.in,7,wikidata;wikidata,Ministry of Petroleum and Natural Gas,central,ConnectException,none
-powermin.nic.in,7,wikidata;wikidata,Ministry of Power,central,ConnectException,none
+nhrc.nic.in,7,wikidata,National Human Rights Commission | Andhra Pradesh State Human Rights Commission | Jharkhand Human Rights Commission,,302,none
+nssce.ac.in,7,wikidata,NSS College of Engineering,,200,0 aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.
+petroleum.nic.in,7,wikidata,Ministry of Petroleum and Natural Gas,central,ConnectException,none
+powermin.nic.in,7,wikidata,Ministry of Power,central,ConnectException,none
 sfri.nic.in,7,wikidata;academia,State Forest Research Institute,,ConnectException,none
-shipping.nic.in,7,wikidata;wikidata,"Ministry of Ports, Shipping and Waterways",central,ConnectException,none
-socialjustice.nic.in,7,wikidata;wikidata,Ministry of Social Justice and Empowerment,central,ConnectException,none
-telanganalegislature.org.in,7,wikidata;wikidata,Telangana Legislative Council | Telangana Legislative Assembly,central-1,403,none
-tifr.res.in,7,academia;academia,National Balloon Facility | Tata Institute of Fundamental Research,central,,
-tribal.nic.in,7,wikidata;wikidata,Ministry of Tribal Affairs,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-wcd.nic.in,7,wikidata;wikidata,Ministry of Women and Child Development,central,ConnectException,none
-yas.nic.in,7,wikidata;wikidata,Ministry of Youth Affairs and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,none
-aai.aero,6,wikidata;wikidata,Airports Authority of India | Visakhapatnam International Airport,,HttpConnectTimeoutException: HTTP connect timed out,5 mail.aai.aero.; 5 mail1.aai.aero.
+shipping.nic.in,7,wikidata,"Ministry of Ports, Shipping and Waterways",central,ConnectException,none
+socialjustice.nic.in,7,wikidata,Ministry of Social Justice and Empowerment,central,ConnectException,none
+telanganalegislature.org.in,7,wikidata,Telangana Legislative Council | Telangana Legislative Assembly,central-1,403,none
+tifr.res.in,7,academia,National Balloon Facility | Tata Institute of Fundamental Research,central,,
+tribal.nic.in,7,wikidata,Ministry of Tribal Affairs,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+wcd.nic.in,7,wikidata,Ministry of Women and Child Development,central,ConnectException,none
+yas.nic.in,7,wikidata,Ministry of Youth Affairs and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,none
+aai.aero,6,wikidata,Airports Authority of India | Visakhapatnam International Airport,,HttpConnectTimeoutException: HTTP connect timed out,5 mail.aai.aero.; 5 mail1.aai.aero.
 aau.ac.in,6,academia;ror,Assam Agricultural University,central-1,,
 aau.in,6,academia;ror,Anand Agricultural University,,,
 ahuuk.ac.in,6,academia;ror,Dr Abdul Haq Urdu University,,,
@@ -49,7 +49,7 @@ alagappauniversity.ac.in,6,academia;ror,Alagappa University,,,
 aliah.ac.in,6,academia;ror,Aliah University,,,
 alipurduaruniversity.ac.in,6,academia;ror,Alipurduar University,,,
 allduniv.ac.in,6,academia;ror,University of Allahabad,,,
-ambafrance-in.org,6,wikidata;wikidata,"Consulate of France, Mumbai | Consulate of France, Bangalore",,ConnectException,5 mta-gw.infomaniak.ch.
+ambafrance-in.org,6,wikidata,"Consulate of France, Mumbai | Consulate of France, Bangalore",,ConnectException,5 mta-gw.infomaniak.ch.
 andhrauniversity.edu.in,6,academia;ror,Andhra University,,,
 angrau.ac.in,6,academia;ror,Acharya N. G. Ranga Agricultural University,,,
 annamalaiuniversity.ac.in,6,academia;ror,Annamalai University,,,
@@ -133,7 +133,7 @@ dibru.ac.in,6,academia;ror,Dibrugarh University,,,
 doonuniversity.ac.in,6,academia;ror,Doon University,,,
 dpsru.edu.in,6,academia;ror,Delhi Pharmaceutical Science and Research University,central-1,,
 dravidianuniversity.ac.in,6,academia;ror,Dravidian University,,,
-drdo.com,6,academia;academia,Defence Materials and Stores Research and Development Establishment | Naval Materials Research Laboratory,,,
+drdo.com,6,academia,Defence Materials and Stores Research and Development Establishment | Naval Materials Research Laboratory,,,
 drysrhu.edu.in,6,academia;ror,Dr. Y.S.R. Horticultural University,,,
 dseu.ac.in,6,academia;ror,Delhi Skill and Entrepreneurship University,central-1,,
 dsmru.up.nic.in,6,academia;ror,Dr. Shakuntala Misra Rehabilitation University,central,,
@@ -144,7 +144,7 @@ duk.ac.in,6,academia;ror,"Kerala University of Digital Sciences, Innovation and 
 durguniversity.ac.in,6,academia;ror,Hemchand Yadav Vishwavidyalaya,,,
 efluniversity.ac.in,6,academia;ror,English and Foreign Languages University,,,
 fmuniversity.nic.in,6,academia;ror,Fakir Mohan University,,,
-footballsynergy.com,6,wikidata;wikidata,Football Synergy,,ConnectException,none
+footballsynergy.com,6,wikidata,Football Synergy,,ConnectException,none
 gadvasu.in,6,academia;ror,Guru Angad Dev Veterinary and Animal Sciences University,,,
 gauhati.ac.in,6,academia;ror,Gauhati University,,,
 gbpuat.ac.in,6,academia;ror,G. B. Pant University of Agriculture and Technology,,,
@@ -178,7 +178,7 @@ igntu.ac.in,6,academia;ror,Indira Gandhi National Tribal University,central,,
 igu.ac.in,6,academia;ror,Indira Gandhi Mirpur University,,,
 iksv.ac.in,6,academia;ror,Indira Kala Sangeet University,,,
 imu.edu.in,6,academia;ror,Indian Maritime University,,,
-indiacoffee.org,6,wikidata;wikidata,Coffee Board of India,,HttpConnectTimeoutException: HTTP connect timed out,none
+indiacoffee.org,6,wikidata,Coffee Board of India,,HttpConnectTimeoutException: HTTP connect timed out,none
 ipu.ac.in,6,academia;ror,Guru Gobind Singh Indraprastha University,,,
 iust.ac.in,6,academia;ror,Islamic University of Science & Technology,,,
 jadavpuruniversity.in,6,academia;ror,Jadavpur University,,,
@@ -256,7 +256,7 @@ muhs.ac.in,6,academia;ror,Maharashtra University of Health Sciences,central-1,,
 mungeruniversity.ac.in,6,academia;ror,Munger University,,,
 muoc.ac.in,6,academia;ror,Majuli University of Culture,,,
 musicuniversity.ac.in,6,academia;ror,"Karnataka State Music University, Mysore",central-1,,
-mykishtwar.com,6,wikidata;wikidata,Kishtwar,,200,0 mail.mykishtwar.com.
+mykishtwar.com,6,wikidata,Kishtwar,,200,0 mail.mykishtwar.com.
 mzu.edu.in,6,academia;ror,Mizoram University,central-1,,
 nagalanduniversity.ac.in,6,academia;ror,Nagaland University,central-1,,
 nagpuruniversity.ac.in,6,academia;ror,Rashtrasant Tukadoji Maharaj Nagpur University,,,
@@ -264,7 +264,7 @@ nalandauniv.edu.in,6,academia;ror,Nalanda University,,,
 nalsar.ac.in,6,academia;ror,Nalsar University of Law,,,
 nau.in,6,academia;ror,Navsari Agricultural University,,,
 nbu.ac.in,6,academia;ror,University of North Bengal,,,
-nederlandwereldwijd.nl,6,wikidata;wikidata,"Embassy of the Netherlands, New Delhi",central,301,0 .
+nederlandwereldwijd.nl,6,wikidata,"Embassy of the Netherlands, New Delhi",central,301,0 .
 nehu.ac.in,6,academia;ror,North-Eastern Hill University,,,
 nfsu.ac.in,6,academia;ror,National Forensic Sciences University,central,,
 ngu.ac.in,6,academia;ror,Hemchandracharya North Gujarat University,central-1,,
@@ -314,7 +314,7 @@ rgukt.ac.in,6,academia;ror,"Rajiv Gandhi University of Knowledge Technologies, B
 rlbcau.ac.in,6,academia;ror,Rani Lakshmi Bai Central Agricultural University,,,
 rmlau.ac.in,6,academia;ror,Dr. Ram Manohar Lohia Awadh University,,,
 rmlnlu.ac.in,6,academia;ror,Dr. Ram Manohar Lohia National Law University,central,,
-rnbgujarat.org,6,wikidata;wikidata,Roads and Buildings Department,central-1,301,none
+rnbgujarat.org,6,wikidata,Roads and Buildings Department,central-1,301,none
 rpcau.ac.in,6,academia;ror,Dr. Rajendra Prasad Central Agriculture University,,,
 rrbmuniv.ac.in,6,academia;ror,"Raj Rishi Bhartrihari Matsya University, Alwar",,,
 rru.ac.in,6,academia;ror,Rashtriya Raksha University,,,
@@ -630,7 +630,7 @@ jrsu.in,4,academia,Jharkhand Raksha Shakti University,central-1,,
 jutranchi.ac.in,4,academia,Jharkhand University of Technology,central-1,,
 jwu.ac.in,4,academia,Jamshedpur Women's University,,,
 kamdhenuuni.edu.in,4,academia,Kamdhenu University,,,
-kannuruniversity.ac.in,4,academia;academia;academia;ror,"Department of Geography, Kannur University | Department of Physics, Kannur University | Kannur University",,,
+kannuruniversity.ac.in,4,academia;ror,"Department of Geography, Kannur University | Department of Physics, Kannur University | Kannur University",,,
 kasrc.res.in,4,wikidata,Kashmir Advanced Scientific Research Centre,,200,0 mx3.domainz.in.
 knruhs.in,4,academia,Kaloji Narayana Rao University of Health Sciences,,,
 krishnauniversity.ac.in,4,academia,Krishna University,,,
@@ -1517,7 +1517,7 @@ aitpune.com,2,ror,"Army Institute of Technology, Pune",,,
 alameenpuc.org,2,ror,Al-Ameen Pre University College,,,
 amity.edu,2,ror,Amity University Madhya Pradesh,central-1,,
 amrita.edu,2,ror,Amrita Vishwa Vidyapeetham,,,
-anantnag.nic.in,2,wikidata;wikidata;wikidata,Anantnag,,200,none
+anantnag.nic.in,2,wikidata,Anantnag,,200,none
 atmiya.net,2,ror,Atmiya University,,,
 atria.edu,2,ror,Atria Institute of Technology,,,
 banasthali.org,2,ror,Banasthali University,,,
@@ -1525,16 +1525,16 @@ bengaluru.liverpool.ac.uk,2,ror,University of Liverpool Bengaluru,,,
 bhojvirtualuniversity.com,2,ror,Madhya Pradesh Bhoj Open University,central-1,,
 bujhansi.org,2,ror,Bundelkhand University,,,
 cghealthuniv.com,2,ror,Ayush & Health Sciences University Chhattisgarh,central-1,,
-chemicals.nic.in,2,wikidata;wikidata;wikidata;wikidata,Department of Chemicals and Petro-Chemicals | Department of Chemicals and Petrochemicals | Ministry of Chemicals and Fertilizers,central,ConnectException,none
+chemicals.nic.in,2,wikidata,Department of Chemicals and Petro-Chemicals | Department of Chemicals and Petrochemicals | Ministry of Chemicals and Fertilizers,central,ConnectException,none
 cpclpolytechnic.com,2,ror,CPCL Polytechnic College,,,
 crescent.education,2,ror,B.S. Abdur Rahman Crescent Institute of Science & Technology,,,
-dahd.nic.in,2,wikidata;wikidata;wikidata;wikidata,"Ministry of Fisheries, Animal Husbandry and Dairying",central,ConnectException,50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.
+dahd.nic.in,2,wikidata,"Ministry of Fisheries, Animal Husbandry and Dairying",central,ConnectException,50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.; 20 mx2.mgovcloud.in.
 darululoom-deoband.com,2,ror,Darul Uloom Deoband,,,
 davuniversity.org,2,ror,DAV University,,,
-deoghar.nic.in,2,wikidata;wikidata;wikidata,Deoghar,,HttpConnectTimeoutException: HTTP connect timed out,none
+deoghar.nic.in,2,wikidata,Deoghar,,HttpConnectTimeoutException: HTTP connect timed out,none
 dknmu.org,2,ror,Dr. K.N.Modi University,,,
 dypatil.edu,2,ror,D.Y. Patil University,,,
-finmin.nic.in,2,wikidata;wikidata;wikidata,Ministry of Finance of India | Financial Stability and Development Council,central,ConnectException,none
+finmin.nic.in,2,wikidata,Ministry of Finance of India | Financial Stability and Development Council,central,ConnectException,none
 gardencity.university,2,ror,Garden City University,,,
 gdgoenkauniversity.com,2,ror,GD Goenka University,,,
 giet.edu,2,ror,GIET University,,,
@@ -1546,9 +1546,9 @@ gniotmba.net,2,ror,Greater Noida Institute of Technology (MBA Institute),,,
 gyanvihar.org,2,ror,Gyan Vihar University,,,
 heritageit.edu,2,ror,Heritage Institute of Technology,,,
 himalayanuniversity.com,2,ror,Himalayan University,,,
-honeymoonpackagesmanali.in,2,wikidata;wikidata;wikidata,Manali,,301,none
+honeymoonpackagesmanali.in,2,wikidata,Manali,,301,none
 iecuniversity.com,2,ror,IEC University,,,
-islrtc.nic.in,2,wikidata;wikidata;academia,Indian Sign Language Research and Training Center,,200,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.
+islrtc.nic.in,2,wikidata;academia,Indian Sign Language Research and Training Center,,200,20 mx2.mgovcloud.in.; 50 mx3.mgovcloud.in.; 10 mx.mgovcloud.in.
 iustlive.com,2,ror,Islamic University of Science and Technology,,,
 iuu.ac,2,ror,IMS Unison University,,,
 jagannathuniversity.org,2,ror,Jagannath University Jaipur,,,
@@ -1566,11 +1566,11 @@ mchhatrasaluniversity.com,2,ror,Maharaja Chhatrasal Bundelkhand University,,,
 mewaruniversity.org,2,ror,Mewar University,,,
 mmumullana.org,2,ror,"Maharishi Markandeshwar University, Mullana",,,
 mmyvv.com,2,ror,Maharishi Mahesh Yogi Vedic University,,,
-mpa.nic.in,2,wikidata;wikidata;wikidata;wikidata,Ministry of Mines | Ministry of Parliamentary Affairs,central,HttpConnectTimeoutException: HTTP connect timed out,none
+mpa.nic.in,2,wikidata,Ministry of Mines | Ministry of Parliamentary Affairs,central,HttpConnectTimeoutException: HTTP connect timed out,none
 mppcvv.org,2,ror,Nanaji Deshmukh Veterinary Science University,,,
 msrit.edu,2,ror,Ramaiah Institute of Technology,,,
 mumt.com,2,ror,Maharishi University of Management and Technology,,,
-mysurucitycorporation.co.in,2,wikidata;wikidata;wikidata,Mysore City Corporation,,302,none
+mysurucitycorporation.co.in,2,wikidata,Mysore City Corporation,,302,none
 nalandaopenuniversity.com,2,ror,Nalanda Open University,,,
 ncuindia.edu,2,ror,The NorthCap University,,,
 nimsuniversity.org,2,ror,NIMS University,,,
@@ -1583,23 +1583,23 @@ raiuniversity.edu,2,ror,Rai University,,,
 rajendrainstitutes.com,2,ror,Rajendra Institute of Technology and Sciences,,,
 rgu.ac,2,ror,The Assam Royal Global University,central-1,,
 sainathuniversity.com,2,ror,Sai Nath University,,,
-sansad.in,2,wikidata;wikidata;wikidata;wikidata,Parliament of India | Rajya Sabha | Lok Sabha,central,302,none
+sansad.in,2,wikidata,Parliament of India | Rajya Sabha | Lok Sabha,central,302,none
 santoshuniversity.com,2,ror,Santosh University,,,
 sastra.edu,2,ror,SASTRA University,,,
 saveetha.com,2,ror,Saveetha University,,,
 shooliniuniversity.com,2,ror,Shoolini University,,,
 shrishankaracharyauniversity.com,2,ror,Shri Shankaracharya Professional University,,,
-singrauli.nic.in,2,wikidata;wikidata;wikidata,Singrauli,,200,none
+singrauli.nic.in,2,wikidata,Singrauli,,200,none
 sitrc.sandipfoundation.org,2,ror,Sandip Institute of Technology & Research Centre,,,
 skduniversity.com,2,ror,Shri Khushal Das University,,,
 smitorissa.org,2,ror,Sanjay Memorial Institute of Technology,,,
 somaiya.edu,2,ror,Somaiya Vidyavihar University,,,
 srisaiuniversity.org,2,ror,Sri Sai University,,,
 starexuniversity.com,2,ror,Starex University,,,
-steel.nic.in,2,wikidata;wikidata;wikidata,Steel Consumers Council | Ministry of Steel,central,ConnectException,none
+steel.nic.in,2,wikidata,Steel Consumers Council | Ministry of Steel,central,ConnectException,none
 su.digitaluniversity.ac,2,ror,Solapur University,,,
 subharti.org,2,ror,Swami Vivekanand Subharti University,,,
-surguja.nic.in,2,wikidata;wikidata;wikidata,Ambikapur,,301,none
+surguja.nic.in,2,wikidata,Ambikapur,,301,none
 tamilvu.org,2,ror,Tamil Virtual Academy,,,
 tantiauniversity.com,2,ror,Tantia University,,,
 technoglobaluniversity.com,2,ror,Techno Global University,,,
@@ -1611,7 +1611,7 @@ vemu.org,2,ror,Vemu Institute of Technology,,,
 vit.edu,2,ror,Vishwakarma Institute of Technology,,,
 wbsubregistration.org,2,ror,West Bengal State University,central-1,,
 ycmou.digitaluniversity.ac,2,ror,Yashwantrao Chavan Maharashtra Open University,central-1,,
-drdo.org,1,academia;academia;academia;academia;academia;academia,"Advanced Numerical Research and Analysis Group | Centre for Fire, Explosive and Environment Safety | Defence Institute of Psychological Research | Microwave Tube Research and Development Center | Proof and Experimental Establishment | Research and Development Establishment",,,
-finlandabroad.fi,1,wikidata;wikidata;wikidata;wikidata,"embassy of Finland in India | Consulate General of Finland, Mumbai",central,301,none
-in.ambafrance.org,1,wikidata;wikidata;wikidata,"Embassy of France, New Delhi | Consulate General of France in Pondichery",central,301,none
-india.diplo.de,1,wikidata;wikidata;wikidata,"Consulate General of Germany, Bangalore | Embassy of Germany, New Delhi | Consulate General of Germany, Chennai",central,200,none
+drdo.org,1,academia,"Advanced Numerical Research and Analysis Group | Centre for Fire, Explosive and Environment Safety | Defence Institute of Psychological Research | Microwave Tube Research and Development Center | Proof and Experimental Establishment | Research and Development Establishment",,,
+finlandabroad.fi,1,wikidata,"embassy of Finland in India | Consulate General of Finland, Mumbai",central,301,none
+in.ambafrance.org,1,wikidata,"Embassy of France, New Delhi | Consulate General of France in Pondichery",central,301,none
+india.diplo.de,1,wikidata,"Consulate General of Germany, Bangalore | Embassy of Germany, New Delhi | Consulate General of Germany, Chennai",central,200,none

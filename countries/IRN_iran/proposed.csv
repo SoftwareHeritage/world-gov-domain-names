@@ -1,22 +1,22 @@
 hostname,score,sources,label,level,http_status,mx
 amar.org.ir,7,wikidata;academia,Statistical Centre of Iran,central,HttpConnectTimeoutException: HTTP connect timed out,none
-dolat.ir,7,wikidata;wikidata,Government of Iran,central,200,10 194.225.148.247.; 10 194.225.148.248.
-emsrt.ir,7,wikidata;wikidata,"Ministry of Science, Research and Technology (Iran)",central,301,none
-en.mfa.ir,7,wikidata;wikidata,Ministry of Foreign Affairs of Iran,central,307,none
-justice.ir,7,wikidata;wikidata,Ministry of Justice (Iran),central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching justice.ir found.,none
-maj.ir,7,wikidata;wikidata,Ministry of Agriculture Jihad,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.agri-jahad.org.
-mcth.ir,7,wikidata;wikidata,"Ministry of Cultural Heritage, Tourism and Handicrafts",central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mcth.ir.
-medu.ir,7,wikidata;wikidata,Ministry of Education of Iran,central,ConnectException: Host is unreachable,20 mail2.medu.ir.; 10 mail.medu.ir.; 30 mail3.medu.ir.
-mefa.ir,7,wikidata;wikidata,Ministry of Economic Affairs and Finance (Iran),central,301,10 mail.mefa.gov.ir.
-mod.ir,7,wikidata;wikidata,Ministry of Defense and Armed Forces Logistics,central,ConnectException,10 mx.shamimhost.ir.
-moi.ir,7,wikidata;wikidata,Ministry of Interior (Iran),central,403,10 gmail.moi.ir.
-mop.ir,7,wikidata;wikidata,Ministry of Petroleum,central,403,0 mx2.mop.ir.; 0 mx1.mop.ir.
-mrt.ir,7,wikidata;wikidata,Ministry of Roads and Transportation,central,HttpConnectTimeoutException: HTTP connect timed out,none
-mrud.ir,7,wikidata;wikidata,Ministry of Roads and Urban Development,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mrud.ir.
-police.ir,7,wikidata;wikidata,Police Command of the Islamic Republic of Iran | Guidance Patrol,,HttpConnectTimeoutException: HTTP connect timed out,10 mailapp.police.ir.
-rc.majlis.ir,7,wikidata;wikidata,Islamic Consultative Assembly,central,200,none
-vaja.ir,7,wikidata;wikidata,Ministry of Intelligence,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.vaja.ir.
-wri.ac.ir,7,wikidata;wikidata,Water Research Institute,,HttpTimeoutException: request timed out,10 mail.wri.ac.ir.
+dolat.ir,7,wikidata,Government of Iran,central,200,10 194.225.148.247.; 10 194.225.148.248.
+emsrt.ir,7,wikidata,"Ministry of Science, Research and Technology (Iran)",central,301,none
+en.mfa.ir,7,wikidata,Ministry of Foreign Affairs of Iran,central,307,none
+justice.ir,7,wikidata,Ministry of Justice (Iran),central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching justice.ir found.,none
+maj.ir,7,wikidata,Ministry of Agriculture Jihad,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.agri-jahad.org.
+mcth.ir,7,wikidata,"Ministry of Cultural Heritage, Tourism and Handicrafts",central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mcth.ir.
+medu.ir,7,wikidata,Ministry of Education of Iran,central,ConnectException: Host is unreachable,20 mail2.medu.ir.; 10 mail.medu.ir.; 30 mail3.medu.ir.
+mefa.ir,7,wikidata,Ministry of Economic Affairs and Finance (Iran),central,301,10 mail.mefa.gov.ir.
+mod.ir,7,wikidata,Ministry of Defense and Armed Forces Logistics,central,ConnectException,10 mx.shamimhost.ir.
+moi.ir,7,wikidata,Ministry of Interior (Iran),central,403,10 gmail.moi.ir.
+mop.ir,7,wikidata,Ministry of Petroleum,central,403,0 mx2.mop.ir.; 0 mx1.mop.ir.
+mrt.ir,7,wikidata,Ministry of Roads and Transportation,central,HttpConnectTimeoutException: HTTP connect timed out,none
+mrud.ir,7,wikidata,Ministry of Roads and Urban Development,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.mrud.ir.
+police.ir,7,wikidata,Police Command of the Islamic Republic of Iran | Guidance Patrol,,HttpConnectTimeoutException: HTTP connect timed out,10 mailapp.police.ir.
+rc.majlis.ir,7,wikidata,Islamic Consultative Assembly,central,200,none
+vaja.ir,7,wikidata,Ministry of Intelligence,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.vaja.ir.
+wri.ac.ir,7,wikidata,Water Research Institute,,HttpTimeoutException: request timed out,10 mail.wri.ac.ir.
 abru.ac.ir,6,academia;ror,Ayatollah Borujerdi University,central,,
 alzahra.ac.ir,6,academia;ror,Alzahra University,central,,
 art.ac.ir,6,academia;ror,Iran University of Art,central,,
@@ -453,4 +453,4 @@ zaums.ac.ir,3,ror,Zahedan University of Medical Sciences,central,,
 zbmu.ac.ir,3,ror,Zabol University of Medical Sciences,central,,
 znu.ac.ir,3,ror,University of Zanjan,central,,
 zums.ac.ir,3,ror,Zanjan University of Medical Sciences,central,,
-iran.ahk.de,1,wikidata;wikidata;wikidata,German Iranian Chamber of Industry and Commerce,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.iran.ahk.de.; 20 owa.iran.ahk.de.
+iran.ahk.de,1,wikidata,German Iranian Chamber of Industry and Commerce,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.iran.ahk.de.; 20 owa.iran.ahk.de.

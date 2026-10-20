@@ -1,90 +1,90 @@
 hostname,score,sources,label,level,http_status,mx
-en.npc.gov.cn.cdurl.cn,8,wikidata;wikidata;wikidata,Standing Committee of the National People's Congress | National People's Congress,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching en.npc.gov.cn.cdurl.cn found.,none
-gov.hnedu.cn,8,wikidata;wikidata,Hunan Provincial Department of Education,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-aacm.gov.mo,7,wikidata;wikidata,Civil Aviation Authority of Macau,central,ConnectException,20 mx2.emailsrv.safp.gov.mo.; 10 mx1.emailsrv.safp.gov.mo.
-al.gov.mo,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Legislative Assembly of Macau,central-1,200,10 mail.al.gov.mo.
-amcm.gov.mo,7,wikidata;wikidata,Monetary Authority of Macao,central-1,ConnectException,10 mailgw2.amcm.gov.mo.; 10 mailgw1.amcm.gov.mo.
-amcm.macau.gov.mo,7,wikidata;wikidata,Monetary Authority of Macao,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-ca.gov.mo,7,wikidata;wikidata,Commission of Audit,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 camailgw.ca.gov.mo.
+en.npc.gov.cn.cdurl.cn,8,wikidata,Standing Committee of the National People's Congress | National People's Congress,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching en.npc.gov.cn.cdurl.cn found.,none
+gov.hnedu.cn,8,wikidata,Hunan Provincial Department of Education,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+aacm.gov.mo,7,wikidata,Civil Aviation Authority of Macau,central,ConnectException,20 mx2.emailsrv.safp.gov.mo.; 10 mx1.emailsrv.safp.gov.mo.
+al.gov.mo,7,wikidata,Legislative Assembly of Macau,central-1,200,10 mail.al.gov.mo.
+amcm.gov.mo,7,wikidata,Monetary Authority of Macao,central-1,ConnectException,10 mailgw2.amcm.gov.mo.; 10 mailgw1.amcm.gov.mo.
+amcm.macau.gov.mo,7,wikidata,Monetary Authority of Macao,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+ca.gov.mo,7,wikidata,Commission of Audit,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 camailgw.ca.gov.mo.
 caict.ac.cn,7,wikidata;academia,China Academy of Information and Communications Technology,central,HttpConnectTimeoutException: HTTP connect timed out,none
-cedb.gov.hk,7,wikidata;wikidata,Commerce and Economic Development Bureau,central-1,302,10 pmeas12.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 pmeas11.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.
+cedb.gov.hk,7,wikidata,Commerce and Economic Development Bureau,central-1,302,10 pmeas12.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 pmeas11.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.
 censtatd.gov.hk,7,wikidata;academia,Census and Statistics Department,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching censtatd.gov.hk found.,none
-china.usembassy-china.org.cn,7,wikidata;wikidata,"Embassy of the United States, Beijing | Consulate General of the United States, Shanghai",central,403,none
-chinacdc.cn,7,wikidata;wikidata;wikidata;academia,National Institute for Radiological Protection | Chinese Center for Disease Control and Prevention | National Institute for Viral Disease Control and Prevention | National Institute of Parasitic Diseases,central,HttpConnectTimeoutException: HTTP connect timed out,5 hzmx01.mxmail.netease.com.; 10 hzmx02.mxmail.netease.com.
-cmab.gov.hk,7,wikidata;wikidata,Constitutional and Mainland Affairs Bureau,central-1,301,10 pmeas12.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 pmeas11.imail.scig.gov.hk.
-craes.cn,7,academia;academia,Chinese Research Academy of Environmental Sciences | State Key Laboratory of Environmental Standards and Risk Assessment,,,
-csb.gov.hk,7,wikidata;wikidata,Civil Service Bureau,central-1,302,10 dmeas12.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.; 10 pmeas11.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.
-cstb.gov.hk,7,wikidata;wikidata,"Culture, Sports and Tourism Bureau, Hong Kong",central-1,301,10 pmeas11.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.
-ctt.gov.mo,7,wikidata;wikidata,Macao Post and Telecommunications Bureau,central-1,ConnectException,20 mx2.emailsrv.safp.gov.mo.; 10 mx1.emailsrv.safp.gov.mo.
-customs.gov.hk,7,wikidata;wikidata;wikidata;wikidata,Customs and Excise Department,central-1,302,10 pmeas11.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.
-devb.gov.hk,7,wikidata;wikidata,Development Bureau,central-1,302,10 pmeas11.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.
+china.usembassy-china.org.cn,7,wikidata,"Embassy of the United States, Beijing | Consulate General of the United States, Shanghai",central,403,none
+chinacdc.cn,7,wikidata;academia,National Institute for Radiological Protection | Chinese Center for Disease Control and Prevention | National Institute for Viral Disease Control and Prevention | National Institute of Parasitic Diseases,central,HttpConnectTimeoutException: HTTP connect timed out,5 hzmx01.mxmail.netease.com.; 10 hzmx02.mxmail.netease.com.
+cmab.gov.hk,7,wikidata,Constitutional and Mainland Affairs Bureau,central-1,301,10 pmeas12.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 pmeas11.imail.scig.gov.hk.
+craes.cn,7,academia,Chinese Research Academy of Environmental Sciences | State Key Laboratory of Environmental Standards and Risk Assessment,,,
+csb.gov.hk,7,wikidata,Civil Service Bureau,central-1,302,10 dmeas12.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.; 10 pmeas11.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.
+cstb.gov.hk,7,wikidata,"Culture, Sports and Tourism Bureau, Hong Kong",central-1,301,10 pmeas11.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.
+ctt.gov.mo,7,wikidata,Macao Post and Telecommunications Bureau,central-1,ConnectException,20 mx2.emailsrv.safp.gov.mo.; 10 mx1.emailsrv.safp.gov.mo.
+customs.gov.hk,7,wikidata,Customs and Excise Department,central-1,302,10 pmeas11.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.
+devb.gov.hk,7,wikidata,Development Bureau,central-1,302,10 pmeas11.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.
 dicp.cas.cn,7,wikidata;academia,Dalian Institute of Chemical Physics,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-draemp.gov.mo,7,wikidata;wikidata,Office of the Macau Special Administrative Region in Beijing,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.emailsrv.safp.gov.mo.; 20 mx2.emailsrv.safp.gov.mo.
-dsasg.gov.mo,7,wikidata;wikidata,Direcção dos Serviços para os Assuntos da Sede do Governo,central-1,ConnectException,none
-dsat.gov.mo,7,wikidata;wikidata,Transport Bureau,central-1,ConnectException,10 mail2.dsat.gov.mo.; 10 mail.dsat.gov.mo.
-dscc.gov.mo,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Cartography and Cadastre Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mailgw1.dscc.gov.mo.
-dsec.gov.mo,7,wikidata;wikidata;academia,Statistics and Census Service,central-1,301,none
-dsedt.gov.mo,7,wikidata;wikidata;wikidata;wikidata,Economic and Technological Development Bureau,central-1,ConnectException,10 mdsedns1.dsedt.gov.mo.; 10 mdsedns2.dsedt.gov.mo.
-dsi.gov.mo,7,wikidata;wikidata,Identification Services Bureau,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.emailsrv.safp.gov.mo.; 20 mx2.emailsrv.safp.gov.mo.
-dsop.gov.mo,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Direcção dos Serviços de Obras Públicas,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-dspa.gov.mo,7,wikidata;wikidata,Environmental Protection Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-edb.gov.hk,7,wikidata;wikidata,Education Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 edb-gov-hk.mail.protection.outlook.com.
-eeb.gov.hk,7,wikidata;wikidata,"Environment and Ecology Bureau, the government of the Hong Kong Administrative Region of the People's Republic of China",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 dmeas12.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.; 10 pmeas11.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.
+draemp.gov.mo,7,wikidata,Office of the Macau Special Administrative Region in Beijing,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.emailsrv.safp.gov.mo.; 20 mx2.emailsrv.safp.gov.mo.
+dsasg.gov.mo,7,wikidata,Direcção dos Serviços para os Assuntos da Sede do Governo,central-1,ConnectException,none
+dsat.gov.mo,7,wikidata,Transport Bureau,central-1,ConnectException,10 mail2.dsat.gov.mo.; 10 mail.dsat.gov.mo.
+dscc.gov.mo,7,wikidata,Cartography and Cadastre Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 mailgw1.dscc.gov.mo.
+dsec.gov.mo,7,wikidata;academia,Statistics and Census Service,central-1,301,none
+dsedt.gov.mo,7,wikidata,Economic and Technological Development Bureau,central-1,ConnectException,10 mdsedns1.dsedt.gov.mo.; 10 mdsedns2.dsedt.gov.mo.
+dsi.gov.mo,7,wikidata,Identification Services Bureau,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.emailsrv.safp.gov.mo.; 20 mx2.emailsrv.safp.gov.mo.
+dsop.gov.mo,7,wikidata,Direcção dos Serviços de Obras Públicas,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+dspa.gov.mo,7,wikidata,Environmental Protection Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+edb.gov.hk,7,wikidata,Education Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 edb-gov-hk.mail.protection.outlook.com.
+eeb.gov.hk,7,wikidata,"Environment and Ecology Bureau, the government of the Hong Kong Administrative Region of the People's Republic of China",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 dmeas12.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.; 10 pmeas11.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.
 english.dicp.cas.cn,7,wikidata;academia,Dalian Institute of Chemical Physics,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-fsm.gov.mo,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Fire Services Bureau | Public Security Police Force | Escola Superior das Forças de Segurança de Macau,central-1,ConnectException,10 mailgw.fsm.gov.mo.; 20 mailgw2.fsm.gov.mo.
-fstb.gov.hk,7,wikidata;wikidata,Financial Services and the Treasury Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-gov.hk,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Government of Hong Kong,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-gsef.gov.mo,7,wikidata;wikidata,Secretariat for Economy and Finance,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-healthbureau.gov.hk,7,wikidata;wikidata;wikidata,Primary Healthcare Commission | Health Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-hkpl.gov.hk,7,wikidata;wikidata,Hong Kong Central Library,,HttpConnectTimeoutException: HTTP connect timed out,none
-hyab.gov.hk,7,wikidata;wikidata,Home and Youth Affairs Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 pmeas14.imail.scig.gov.hk.; 10 dmeas13.imail.scig.gov.hk.; 10 dmeas14.imail.scig.gov.hk.; 10 pmeas13.imail.scig.gov.hk.
-iam.gov.mo,7,wikidata;wikidata,Municipal Affairs Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-ias.gov.mo,7,wikidata;wikidata,Social Welfare Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-icm.gov.mo,7,wikidata;wikidata,Cultural Affairs Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,8 mailgw2.icm.gov.mo.; 5 mailgw1.icm.gov.mo.
-ihm.gov.mo,7,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Housing Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-imprensa.macau.gov.mo,7,wikidata;wikidata,Government Printing Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-istic.ac.cn,7,wikidata;wikidata,Institute of Scientific and Technical Information of China,,HttpConnectTimeoutException: HTTP connect timed out,none
-itc.gov.hk,7,wikidata;wikidata,Standards and Calibration Laboratory | Innovation and Technology Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
-itib.gov.hk,7,wikidata;wikidata,"Innovation, Technology and lndustry Bureau",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 pmeas11.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.
-judiciary.gov.hk,7,wikidata;wikidata;wikidata,Court of First Instance of the High Court | District Court | Court of Appeal of the High Court,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 pmail01.judiciary.hk.; 100 pmail02.judiciary.hk.
-lcsd.gov.hk,7,wikidata;wikidata,Music Office | Leisure and Cultural Services Department,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-legco.gov.hk,7,wikidata;wikidata,Legislative Council of Hong Kong,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-lwb.gov.hk,7,wikidata;wikidata,Labour and Welfare Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-macaotourism.gov.mo,7,wikidata;wikidata,Macao Government Tourism Office,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-maldivesembassy.cn,7,wikidata;wikidata,"Embassy of Maldives, Beijing",central,SSLException: (internal_error) Received fatal alert: internal_error,none
-marine.gov.mo,7,wikidata;wikidata,Marine and Water Bureau,central-1,ConnectException,none
-mofaic.gov.ae,7,wikidata;wikidata,"Consulate General of the United Arab Emirates, Shanghai | Consulate General of the United Arab Emirates, Guangzhou",,IOException: HTTP/1.1 header parser received no bytes,none
+fsm.gov.mo,7,wikidata,Fire Services Bureau | Public Security Police Force | Escola Superior das Forças de Segurança de Macau,central-1,ConnectException,10 mailgw.fsm.gov.mo.; 20 mailgw2.fsm.gov.mo.
+fstb.gov.hk,7,wikidata,Financial Services and the Treasury Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+gov.hk,7,wikidata,Government of Hong Kong,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+gsef.gov.mo,7,wikidata,Secretariat for Economy and Finance,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+healthbureau.gov.hk,7,wikidata,Primary Healthcare Commission | Health Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+hkpl.gov.hk,7,wikidata,Hong Kong Central Library,,HttpConnectTimeoutException: HTTP connect timed out,none
+hyab.gov.hk,7,wikidata,Home and Youth Affairs Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 pmeas14.imail.scig.gov.hk.; 10 dmeas13.imail.scig.gov.hk.; 10 dmeas14.imail.scig.gov.hk.; 10 pmeas13.imail.scig.gov.hk.
+iam.gov.mo,7,wikidata,Municipal Affairs Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+ias.gov.mo,7,wikidata,Social Welfare Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+icm.gov.mo,7,wikidata,Cultural Affairs Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,8 mailgw2.icm.gov.mo.; 5 mailgw1.icm.gov.mo.
+ihm.gov.mo,7,wikidata,Housing Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+imprensa.macau.gov.mo,7,wikidata,Government Printing Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+istic.ac.cn,7,wikidata,Institute of Scientific and Technical Information of China,,HttpConnectTimeoutException: HTTP connect timed out,none
+itc.gov.hk,7,wikidata,Standards and Calibration Laboratory | Innovation and Technology Commission,,HttpConnectTimeoutException: HTTP connect timed out,none
+itib.gov.hk,7,wikidata,"Innovation, Technology and lndustry Bureau",central-1,HttpConnectTimeoutException: HTTP connect timed out,10 pmeas11.imail.scig.gov.hk.; 10 dmeas12.imail.scig.gov.hk.; 10 dmeas11.imail.scig.gov.hk.; 10 pmeas12.imail.scig.gov.hk.
+judiciary.gov.hk,7,wikidata,Court of First Instance of the High Court | District Court | Court of Appeal of the High Court,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 pmail01.judiciary.hk.; 100 pmail02.judiciary.hk.
+lcsd.gov.hk,7,wikidata,Music Office | Leisure and Cultural Services Department,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+legco.gov.hk,7,wikidata,Legislative Council of Hong Kong,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+lwb.gov.hk,7,wikidata,Labour and Welfare Bureau,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+macaotourism.gov.mo,7,wikidata,Macao Government Tourism Office,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+maldivesembassy.cn,7,wikidata,"Embassy of Maldives, Beijing",central,SSLException: (internal_error) Received fatal alert: internal_error,none
+marine.gov.mo,7,wikidata,Marine and Water Bureau,central-1,ConnectException,none
+mofaic.gov.ae,7,wikidata,"Consulate General of the United Arab Emirates, Shanghai | Consulate General of the United Arab Emirates, Guangzhou",,IOException: HTTP/1.1 header parser received no bytes,none
 nmefc.cn,7,wikidata;academia,National Marine Environmental Forecasting Center,central,HttpConnectTimeoutException: HTTP connect timed out,10 hzmx02.mxmail.netease.com.; 5 hzmx01.mxmail.netease.com.
-pj.gov.mo,7,wikidata;wikidata,Judiciary Police,central-1,ConnectException,none
-pt.io.gov.mo,7,wikidata;wikidata,Government Printing Bureau,central-1,ConnectException,none
-safp.gov.mo,7,wikidata;wikidata,Public Administration and Civil Service Bureau,central-1,ConnectException,none
-sb.gov.hk,7,wikidata;wikidata,Security Bureau,central-1,302,none
-smg.gov.mo,7,wikidata;wikidata,Macao Meteorological and Geophysical Bureau,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.emailsrv.safp.gov.mo.; 20 mx2.emailsrv.safp.gov.mo.
-spcsc.sh.cn,7,wikidata;wikidata,Shanghai People's Congress,central-1,403,none
-sport.gov.mo,7,wikidata;wikidata;wikidata;wikidata,Sports Bureau,central-1,302,none
-spu.gov.mo,7,wikidata;wikidata,Unitary Police Services,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
-thb.gov.hk,7,wikidata;wikidata,Transport and Housing Bureau,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching thb.gov.hk found.,none
-tid.gov.hk,7,wikidata;wikidata,Trade and Industry Department,,200,none
-tlb.gov.hk,7,wikidata;wikidata,Transport and Logistics Bureau,central-1,301,10 dmeas13.imail.scig.gov.hk.; 10 pmeas14.imail.scig.gov.hk.; 10 dmeas14.imail.scig.gov.hk.; 10 pmeas13.imail.scig.gov.hk.
-try.gov.hk,7,wikidata;wikidata,The Treasury,central-1,302,none
-wastereduction.gov.hk,7,wikidata;wikidata;wikidata,GREEN@COMMUNITY,central-1,301,none
+pj.gov.mo,7,wikidata,Judiciary Police,central-1,ConnectException,none
+pt.io.gov.mo,7,wikidata,Government Printing Bureau,central-1,ConnectException,none
+safp.gov.mo,7,wikidata,Public Administration and Civil Service Bureau,central-1,ConnectException,none
+sb.gov.hk,7,wikidata,Security Bureau,central-1,302,none
+smg.gov.mo,7,wikidata,Macao Meteorological and Geophysical Bureau,,HttpConnectTimeoutException: HTTP connect timed out,10 mx1.emailsrv.safp.gov.mo.; 20 mx2.emailsrv.safp.gov.mo.
+spcsc.sh.cn,7,wikidata,Shanghai People's Congress,central-1,403,none
+sport.gov.mo,7,wikidata,Sports Bureau,central-1,302,none
+spu.gov.mo,7,wikidata,Unitary Police Services,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
+thb.gov.hk,7,wikidata,Transport and Housing Bureau,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching thb.gov.hk found.,none
+tid.gov.hk,7,wikidata,Trade and Industry Department,,200,none
+tlb.gov.hk,7,wikidata,Transport and Logistics Bureau,central-1,301,10 dmeas13.imail.scig.gov.hk.; 10 pmeas14.imail.scig.gov.hk.; 10 dmeas14.imail.scig.gov.hk.; 10 pmeas13.imail.scig.gov.hk.
+try.gov.hk,7,wikidata,The Treasury,central-1,302,none
+wastereduction.gov.hk,7,wikidata,GREEN@COMMUNITY,central-1,301,none
 wpdi.cn,7,wikidata;academia,Wuhan Planning and Design Institute,,HttpConnectTimeoutException: HTTP connect timed out,none
-xtbg.ac.cn,7,academia;academia,Tropical Flowers and Plant Garden | Xishuangbanna Tropical Botanical Garden,,,
+xtbg.ac.cn,7,academia,Tropical Flowers and Plant Garden | Xishuangbanna Tropical Botanical Garden,,,
 ahmu.edu.cn,6,academia;ror,Anhui Medical University,central,,
 bjut.edu.cn,6,academia;ror,Beijing University of Technology,central,,
 bnu.edu.cn,6,academia;ror,Beijing Normal University,central,,
-ccac.org.mo,6,wikidata;wikidata,Commission Against Corruption,,HttpConnectTimeoutException: HTTP connect timed out,none
+ccac.org.mo,6,wikidata,Commission Against Corruption,,HttpConnectTimeoutException: HTTP connect timed out,none
 cfau.edu.cn,6,academia;ror,China Foreign Affairs University,central,,
-cityu.edu.hk,6,academia;academia,City University of Hong Kong | State Key Laboratory in Marine Pollution,central,,
+cityu.edu.hk,6,academia,City University of Hong Kong | State Key Laboratory in Marine Pollution,central,,
 cqnu.edu.cn,6,academia;ror,Chongqing Normal University,central,,
 dhu.edu.cn,6,academia;ror,Donghua University,central,,
-dsec.ctm.net,6,wikidata;wikidata;academia,Statistics and Census Service,central-1,ConnectException,none
+dsec.ctm.net,6,wikidata;academia,Statistics and Census Service,central-1,ConnectException,none
 ecnu.edu.cn,6,academia;ror,East China Normal University,central,,
-eeas.europa.eu,6,wikidata;wikidata,Delegation of the European Union to China | Delegation of the European Union to Hong Kong and Macao,central-1,200,none
+eeas.europa.eu,6,wikidata,Delegation of the European Union to China | Delegation of the European Union to Hong Kong and Macao,central-1,200,none
 fudan.edu.cn,6,academia;ror,Fudan University,central,,
 hxu.edu.cn,6,academia;ror,Hexi University,central,,
 imust.edu.cn,6,academia;ror,Inner Mongolia University of Science and Technology,central,,
-mzv.sk,6,wikidata;wikidata,embassy of Slovakia in China | Q126477683,central,301,none
+mzv.sk,6,wikidata,embassy of Slovakia in China | Q126477683,central,301,none
 nankai.edu.cn,6,academia;ror,Nankai University,central,,
 nau.edu.cn,6,academia;ror,Nanjing Audit University,central,,
 ncepu.edu.cn,6,academia;ror,North China Electric Power University,central,,
@@ -92,18 +92,18 @@ njfu.edu.cn,6,academia;ror,Nanjing Forestry University,central,,
 njmu.edu.cn,6,academia;ror,Nanjing Medical University,central,,
 njtech.edu.cn,6,academia;ror,Nanjing Tech University,central,,
 nju.edu.cn,6,academia;ror,Nanjing University,central,,
-norway.no,6,wikidata;wikidata,"Consulate General of Norway in Guangzhou | Embassy of Norway, Beijing",central,301,none
+norway.no,6,wikidata,"Consulate General of Norway in Guangzhou | Embassy of Norway, Beijing",central,301,none
 pku.edu.cn,6,academia;ror,Peking University,central,,
 ruc.edu.cn,6,academia;ror,Renmin University of China,central,,
 scau.edu.cn,6,academia;ror,South China Agricultural University,central,,
 scut.edu.cn,6,academia;ror,South China University of Technology,central,,
-sfc.hk,6,wikidata;wikidata,Securities and Futures Commission,central-1,301,none
+sfc.hk,6,wikidata,Securities and Futures Commission,central-1,301,none
 shou.edu.cn,6,academia;ror,Shanghai Ocean University,central,,
 shu.edu.cn,6,academia;ror,Shanghai University,central,,
 sigs.tsinghua.edu.cn,6,academia;ror,Tsinghua Shenzhen International Graduate School,central,,
 sisu.edu.cn,6,academia;ror,Sichuan International Studies University,central,,
 sus.edu.cn,6,academia;ror,Shanghai University of Sport,central,,
-swedenabroad.se,6,wikidata;wikidata,"Consulate General of Sweden, Hong Kong | General Consulate of Sweden Shanghai",,301,none
+swedenabroad.se,6,wikidata,"Consulate General of Sweden, Hong Kong | General Consulate of Sweden Shanghai",,301,none
 swufe.edu.cn,6,academia;ror,Southwestern University of Finance and Economics,central,,
 sxu.edu.cn,6,academia;ror,Shanxi University,central,,
 sysu.edu.cn,6,academia;ror,Sun Yat-sen University,central,,
@@ -634,9 +634,6 @@ zjhia.org.cn,4,wikidata,Zhejiang Provincial Health Information Center,central-1,
 zjsfgkw.cn,4,wikidata,Q11148826,central-1,SSLException: (internal_error) Received fatal alert: internal_error,none
 zjuch.cn,4,academia,Children's Hospital of Zhejiang University,,,
 zznet.com.cn,4,wikidata,Zhengzhou City Science and Technology Bureau,,HttpTimeoutException: request timed out,none
-222.28.170.152,3,academia,Institute of Basic Medical Sciences,,,
-223.75.228.160,3,academia,Hubei Medical Devices Quality Supervision and Test Institute,,,
-8.140.63.24,3,wikidata,Ordos Laboratory,,HttpConnectTimeoutException: HTTP connect timed out,none
 abtc.edu.cn,3,ror,Aba Teachers University,central,,
 acrc.hku.hk,3,academia,"Asia Case Research Centre, University of Hong Kong",,,
 afeu.cn,3,ror,Air Force Engineering University,central,,
@@ -2185,14 +2182,13 @@ zzsm.com,3,academia,"Zhengzhou Abrasive and Grinding Tool Research Institute Co.
 zzu.edu.cn,3,ror,Zhengzhou University,central,,
 zzuli.edu.cn,3,ror,Zhengzhou University of Light Industry,central,,
 zzut.edu.cn,3,ror,Zhengzhou University of Technology,central,,
-202.194.232.100,2,ror,Taishan Medical University,central,,
 aksgyxy.com,2,ror,Aksu Industry Polytechnic College,central,,
 at0086.com,2,ror,Xi'an Physical Education University,central,,
 bcsfxy.com,2,ror,BaiCheng Normal University,central,,
 bgypt.com,2,ror,Guangdong Country Garden Polytechnic,central,,
-bjast.ac.cn,2,wikidata;wikidata;academia,Beijing Academy of Science and Technology,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.beijing.gov.cn.
-caas.cn,2,wikidata;wikidata;academia;academia,Chinese Academy of Agricultural Sciences | Sweet Potato Research Institute,central,418,1 hzmx02.mxmail.netease.com.; 5 hzmx01.mxmail.netease.com.
-cast.cn,2,wikidata;wikidata;wikidata,Beijing Institute of Control Engineering | China Academy of Space Technology,,200,none
+bjast.ac.cn,2,wikidata;academia,Beijing Academy of Science and Technology,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.beijing.gov.cn.
+caas.cn,2,wikidata;academia,Chinese Academy of Agricultural Sciences | Sweet Potato Research Institute,central,418,1 hzmx02.mxmail.netease.com.; 5 hzmx01.mxmail.netease.com.
+cast.cn,2,wikidata,Beijing Institute of Control Engineering | China Academy of Space Technology,,200,none
 ccutchi.com,2,ror,"College of Humanities and Information, Changchun University of Technology",central,,
 changdian2001.com,2,ror,Changchun College of Electronic Technology,central,,
 chengdemedicaluniversity.com,2,ror,Chengde Medical University,central,,
@@ -2206,7 +2202,7 @@ en.dqsy.net,2,ror,Daqing Normal University,central,,
 en.he-edu.com,2,ror,He University,central,,
 en.zzgyxy.com,2,ror,Zhengzhou University of Industrial Technology,central,,
 eng.ycxy.com,2,ror,Shandong Yingcai University,central,,
-english.sim.cas.cn,2,wikidata;academia;academia,State Key Laboratory of Transducer Technology | Key Laboratory of Broadband Wireless Communication and Sensor Network Technology | Shanghai Institute of Microsystem and Information Technology,,HttpConnectTimeoutException: HTTP connect timed out,none
+english.sim.cas.cn,2,wikidata;academia,State Key Laboratory of Transducer Technology | Key Laboratory of Broadband Wireless Communication and Sensor Network Technology | Shanghai Institute of Microsystem and Information Technology,,HttpConnectTimeoutException: HTTP connect timed out,none
 english.xawl.org,2,ror,Xi’an University,central,,
 epgc.net,2,ror,PLA Rocket Force University of Engineering,central,,
 eurasia.edu,2,ror,Xi'an Eurasia University,central,,
@@ -2241,9 +2237,9 @@ hnsyu.net,2,ror,Shaoyang University,central,,
 hqdx.com,2,ror,Beijing Xuanwu Hongqi Spare-time University,central,,
 huanghaicollege.com,2,ror,Qingdao Huanghai University,central,,
 hunangy.com,2,ror,Hunan Industry Polytechnic,central,,
-iacm.gov.mo,2,wikidata;wikidata,Civic and Municipal Affairs Bureau,central,ConnectException,none
+iacm.gov.mo,2,wikidata,Civic and Municipal Affairs Bureau,central,ConnectException,none
 icec.yxnu.net,2,ror,Yuxi Normal University,central,,
-international.gouv.qc.ca,2,wikidata;wikidata;wikidata;wikidata;wikidata,Quebec Bureau office in Shanghai | Quebec branch office in Qingdao | Quebec Bureau office in Beijing | Quebec bureau office in Hong Kong | Québec branch office in Shenzhen,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
+international.gouv.qc.ca,2,wikidata,Quebec Bureau office in Shanghai | Quebec branch office in Qingdao | Quebec Bureau office in Beijing | Quebec bureau office in Hong Kong | Québec branch office in Shenzhen,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
 jlhtcm.com,2,ror,The Affiliated Hospital to Changchun University of Chinese Medicine,central,,
 jlnku.com,2,ror,Jilin Agricultural Science and Technology University,central,,
 jxcfs.com,2,ror,Jiangxi Vocational University of Foreign Studies,central,,
@@ -2260,7 +2256,7 @@ mxdx.net,2,ror,Minxi Vocational & Technical College,central,,
 nczgdx.com,2,ror,Nanchong Staff University,central,,
 nivtc.com,2,ror,Guangyuan China Nuclear Vocational and Technical College,central,,
 nsi-soft.com,2,ror,Shenyang Northern Software College of Information Technology,central,,
-police.gov.hk,2,wikidata;wikidata;academia,Hong Kong Auxiliary Police Force | Hong Kong Police Force | Hong Kong Police College,central,302,none
+police.gov.hk,2,wikidata;academia,Hong Kong Auxiliary Police Force | Hong Kong Police Force | Hong Kong Police College,central,302,none
 qcdx.net,2,ror,Inner Mongolia Fengzhou Vocational College,central,,
 qlgxy.com,2,ror,Qiqihar Polytechnic College,central,,
 sais-jhu.edu,2,ror,Johns Hopkins University – Nanjing University Center for Chinese and American Studies,central,,
@@ -2275,7 +2271,7 @@ sjzdedu.com,2,ror,Shaanxi Provincial Construction Engineering Corporation Staff 
 sjzlg.com,2,ror,Shijiazhuang Institute of Technology,central,,
 sjzzgdx.net,2,ror,Shijiazhuang Staff and Workers University,central,,
 sri.cityu.edu.hk,2,ror,"City University of Hong Kong, Shenzhen Research Institute",central,,
-ssm.gov.mo,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Macao Blood Transfusion Service | Hospital Conde S. Januário | Health Bureau,central,200,none
+ssm.gov.mo,2,wikidata,Macao Blood Transfusion Service | Hospital Conde S. Januário | Health Bureau,central,200,none
 sstvc.com,2,ror,Shangqiu Institute of Technology,central,,
 sszss.com,2,ror,Beihai University of Art and Design,central,,
 sttvu.net,2,ror,Shantou Broadcasting and Television University,central,,
@@ -2303,10 +2299,10 @@ zjff.net,2,ror,Zhejiang Fashion Institute of Technology,central,,
 zjipc.com,2,ror,Zhejiang Industry Polytechnic College,central,,
 zsbjccc.com,2,ror,Beijing Chaoyang District Staff and Workers University,central,,
 zzlgxy.net,2,ror,Zhengzhou Institute of Technology,central,,
-china.ahk.de,1,wikidata;wikidata;wikidata,Delegations of German Industry & Commerce in China,,302,none
-china.diplo.de,1,wikidata;wikidata;wikidata,"Embassy of Germany, Beijing | Consulate General of Germany, Guangzhou",central,200,none
-finlandabroad.fi,1,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,"Consulate General of Finland, Shanghai | Consulate General of Finland, Hongkong | embassy of Finland, Beijing",central,301,none
-fmac.org.mo,1,wikidata;wikidata;wikidata;wikidata,Macao Foundation,,200,none
-hongkongairport.com,1,wikidata;wikidata;wikidata,Airport Authority Hong Kong,,301,none
+china.ahk.de,1,wikidata,Delegations of German Industry & Commerce in China,,302,none
+china.diplo.de,1,wikidata,"Embassy of Germany, Beijing | Consulate General of Germany, Guangzhou",central,200,none
+finlandabroad.fi,1,wikidata,"Consulate General of Finland, Shanghai | Consulate General of Finland, Hongkong | embassy of Finland, Beijing",central,301,none
+fmac.org.mo,1,wikidata,Macao Foundation,,200,none
+hongkongairport.com,1,wikidata,Airport Authority Hong Kong,,301,none
 cqcst.edu.cn,0,ror,Chongqing Metropolitan College of Science and Technology,central,,
 utsz.edu.cn,0,ror,University Town of Shenzhen,central,,

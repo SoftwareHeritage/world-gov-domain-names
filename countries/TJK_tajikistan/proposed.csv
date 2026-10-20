@@ -1,9 +1,9 @@
 hostname,score,sources,label,level,http_status,mx
 izar.tj,7,wikidata;academia,Rudaki Institute of Language and Literature,,200,none
-maorif.tj,7,wikidata;wikidata,Ministry of Education and Science of Tajikistan,central,200,10 mail.maorif.tj.
-mort.tj,7,wikidata;wikidata,Ministry of Defence,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.tajnet.tj.
+maorif.tj,7,wikidata,Ministry of Education and Science of Tajikistan,central,200,10 mail.maorif.tj.
+mort.tj,7,wikidata,Ministry of Defence,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.tajnet.tj.
 stat.tj,7,wikidata;academia,TAJSTAT,central,301,20 mail.gksintranet.tj.; 20 mail.stat.tj.
-vfarhang.tj,7,wikidata;wikidata,Ministry of Culture of Tajikistan,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vfarhang.tj found.,10 mail.vfarhang.tj.
+vfarhang.tj,7,wikidata,Ministry of Culture of Tajikistan,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching vfarhang.tj found.,10 mail.vfarhang.tj.
 constcourt.tj,6,wikidata,Constitutional Court of Tajikistan,central,200,10 emx.mail.ru.; 20 mail.constcourt.tj.
 president.tj,6,un_desa,UN/DESA national portal,,200,10 mx1.dip.tj.
 amit.tj,4,academia,"Institute of History, Archaeology and Ethnography, Tajik Academy of Sciences",,,
@@ -36,4 +36,4 @@ tsulbp.tj,3,ror,Tajik State University of Law Business and Politics,central,,
 tut.tj,3,ror,Technological University of Tajikistan,central,,
 web.ttu.tj,3,ror,Tajik Technical University named after academic M.S.Osimi,central,,
 nutaneducation.in,2,ror,Tajik State Medical University,central,,
-parlament.tj,2,wikidata;wikidata;wikidata,Assembly of Representatives | Supreme Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,20 mail.parlament.tj.; 10 mail.parlament.tj.
+parlament.tj,2,wikidata,Assembly of Representatives | Supreme Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,20 mail.parlament.tj.; 10 mail.parlament.tj.

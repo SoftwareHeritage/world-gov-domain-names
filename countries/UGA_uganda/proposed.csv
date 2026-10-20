@@ -1,19 +1,19 @@
 hostname,score,sources,label,level,http_status,mx
-mak.ac.ug,9,academia;academia;ror,Agricultural Research Institute Kabanyolo | Makerere University,central,,
-agriculture.go.ug,7,wikidata;wikidata,"Ministry of Agriculture, Animal Industry and Fisheries",central,301,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
-education.go.ug,7,wikidata;wikidata,Ministry of Education and Sports,central,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
-energyandminerals.go.ug,7,wikidata;wikidata,Ministry of Energy and Mineral Development,central,ConnectException,none
-finance.go.ug,7,wikidata;wikidata,"Ministry of Finance, Planning and Economic Development",central,200,10 mail.finance.go.ug.
-health.go.ug,7,wikidata;wikidata,Ministry of Health,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
-ict.go.ug,7,wikidata;wikidata,Ministry of Information and Communications Technology,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
-mia.go.ug,7,wikidata;wikidata,Ministry of Internal Affairs,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
-mlhud.go.ug,7,wikidata;wikidata,"Ministry of Lands, Housing and Urban Development",central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
-mofa.go.ug,7,wikidata;wikidata,Ministry of Foreign Affairs of the Republic of Uganda,central,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
-mtic.go.ug,7,wikidata;wikidata,"Ministry of Trade, Industry and Cooperatives",,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
-mtti.go.ug,7,wikidata;wikidata,"Ministry of Trade, Tourism and Industry",central,ConnectException,none
-mwe.go.ug,7,wikidata;wikidata,Ministry of Water and Environment,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
-nema.go.ug,7,wikidata;wikidata,National Environment Management Authority of Uganda,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
-sti.go.ug,7,wikidata;wikidata,"Ministry of Science, Technology and Innovation",central,200,0 sti-go-ug.mail.protection.outlook.com.
+mak.ac.ug,9,academia;ror,Agricultural Research Institute Kabanyolo | Makerere University,central,,
+agriculture.go.ug,7,wikidata,"Ministry of Agriculture, Animal Industry and Fisheries",central,301,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+education.go.ug,7,wikidata,Ministry of Education and Sports,central,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+energyandminerals.go.ug,7,wikidata,Ministry of Energy and Mineral Development,central,ConnectException,none
+finance.go.ug,7,wikidata,"Ministry of Finance, Planning and Economic Development",central,200,10 mail.finance.go.ug.
+health.go.ug,7,wikidata,Ministry of Health,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+ict.go.ug,7,wikidata,Ministry of Information and Communications Technology,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mia.go.ug,7,wikidata,Ministry of Internal Affairs,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mlhud.go.ug,7,wikidata,"Ministry of Lands, Housing and Urban Development",central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mofa.go.ug,7,wikidata,Ministry of Foreign Affairs of the Republic of Uganda,central,200,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+mtic.go.ug,7,wikidata,"Ministry of Trade, Industry and Cooperatives",,301,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+mtti.go.ug,7,wikidata,"Ministry of Trade, Tourism and Industry",central,ConnectException,none
+mwe.go.ug,7,wikidata,Ministry of Water and Environment,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+nema.go.ug,7,wikidata,National Environment Management Authority of Uganda,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
+sti.go.ug,7,wikidata,"Ministry of Science, Technology and Innovation",central,200,0 sti-go-ug.mail.protection.outlook.com.
 gou.go.ug,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,10 mx2.umcs.go.ug.; 10 mx1.umcs.go.ug.
 ubos.org,6,wikidata;academia,Uganda Bureau of Statistics,central,HttpConnectTimeoutException: HTTP connect timed out,0 ubos-org.mail.protection.outlook.com.; 5 mail.ubos.org.
 bou.or.ug,4,wikidata,Bank of Uganda,,200,0 bou-or-ug.mail.protection.outlook.com.
@@ -102,7 +102,7 @@ nileuniversity.ac.ug,3,ror,Nile University,central,,
 nkumbauniversity.ac.ug,3,ror,Nkumba University,central,,
 norway.no,3,wikidata,"Embassy of Norway, Kampala",central,301,0 mx.domeneshop.no.
 pakhc.or.ke,3,wikidata,"Honorary Consulate of Pakistan, Kampala",,200,none
-parliament.go.ug,3,wikidata;wikidata;wikidata,"Parliament of Uganda | Committee on Commissions, Statutory Authorities and State Enterprises",central,302,0 parliament-go-ug.mail.protection.outlook.com.
+parliament.go.ug,3,wikidata,"Parliament of Uganda | Committee on Commissions, Statutory Authorities and State Enterprises",central,302,0 parliament-go-ug.mail.protection.outlook.com.
 slau.ac.ug,3,ror,St. Lawrence University,central,,
 su.ac.ug,3,ror,Seeta University,central,,
 sun.ac.ug,3,ror,Soroti University,central,,
@@ -124,5 +124,5 @@ utamu.ac.ug,3,ror,Universal Technology and Management University,central,,
 virtualuni.ac.ug,3,ror,Virtual University of Uganda,central,,
 vu.ac.ug,3,ror,Victoria University,central,,
 iucea.org,2,ror,Inter-University Council for East Africa,central,,
-opm.go.ug,2,wikidata;wikidata;wikidata;wikidata;wikidata;wikidata;wikidata,Ministry of Relief and Disaster Preparedness | Ministry of Disaster Preparedness and Refugees | Office of the Prime Minister | Ministry for Karamoja,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
+opm.go.ug,2,wikidata,Ministry of Relief and Disaster Preparedness | Ministry of Disaster Preparedness and Refugees | Office of the Prime Minister | Ministry for Karamoja,central,200,10 mx1.umcs.go.ug.; 10 mx2.umcs.go.ug.
 miu.ac.ug,0,ror,Metropolitan International University,central,,
