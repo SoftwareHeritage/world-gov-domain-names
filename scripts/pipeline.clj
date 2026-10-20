@@ -831,14 +831,14 @@
                 linked-n (str "Linked from " linked-n
                               " public-sector domains")
                 :else label)
+        ;; each source once: the Wikidata mention count is in the score
         sources (cond-> []
-                  un? (conj "un_desa"))
-        sources (into sources (concat (repeat (- cnt ac-cnt) "wikidata")
-                                      (repeat ac-cnt "academia")))
-        sources (cond-> sources
-                  linked-n (conj "linkgraph")
-                  dir-info (conj "directory")
-                  ror-info (conj "ror"))
+                  un?                (conj "un_desa")
+                  (> cnt ac-cnt)     (conj "wikidata")
+                  (pos? ac-cnt)      (conj "academia")
+                  linked-n           (conj "linkgraph")
+                  dir-info           (conj "directory")
+                  ror-info           (conj "ror"))
         level (candidate-level ctx h label)
         score (score-candidate
                 {:host h :wd-count cnt :label label

@@ -86,10 +86,12 @@
 
 (defn valid-hostname?
   "True when h is a syntactically valid hostname: two or more dotted labels
-  of a-z0-9 with internal hyphens."
+  of a-z0-9 with internal hyphens, not all digits (an IPv4 address is
+  not a hostname)."
   [h]
   (boolean
-    (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h))))
+    (and h (re-matches #"[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+" h)
+         (not (re-matches #"[0-9.]+" h)))))
 
 (def levels
   "The levels of a confirmed domain: central government, the first tier
