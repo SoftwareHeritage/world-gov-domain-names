@@ -369,6 +369,24 @@ by =subdivisions= into
 =countries/<c>/sources/wikidata/subdivisions_level1.csv=. Blank levels
 are consolidated over time as sources are refetched or curated.
 
+Universities and research institutes follow their own rule. =academia=
+harvests them from Wikidata into =sources/wikidata/academia.csv= and
+=propose= lists them with the source =academia=. As Wikidata seldom
+says who runs a university, the level comes from its jurisdiction, or
+that of its operator, parent or owner, when known (a lower tier, a
+city say, leaves it out; a group of universities says nothing), else
+from its label (/federal/, /national/, /estadual/, /provincial/, the
+name of a first-level subdivision…), else from how the country runs
+its universities (=academia-tiers= in =enrich.clj=: national by
+default, the states or Länder in Germany, the United States…). A
+university none of these places keeps a blank level and still reaches
+=proposed.csv=, for the curation to decide. =ror= adds the
+universities the [[https://ror.org][Research Organization Registry]] knows, by name, into
+=sources/ror/universities.csv=; as ROR says nothing of who runs them
+nor whether they are public, =propose= only lists them as candidates
+(source =ror=, +2), to be confirmed by a registry such as France's
+=esr= or by hand.
+
 The =central-1= tier exists so downstream reports (e.g. /State of
 Public Code/) can widen their scope from the central administration to
 central + first subdivision level without pulling in the long tail of

@@ -354,6 +354,9 @@
    "ESP" {:default "central-1" :subdiv? true}
    "CHE" {:default "central-1" :subdiv? true}
    "BIH" {:default "central-1" :subdiv? true}
+   ;; 116 universities answer to central ministries (教育部, 工信部,
+   ;; 国家民委, 中科院…), the 1,000+ others to a province
+   "CHN" {:default "central-1" :subdiv? true}
    "GBR" {:default "central"   :subdiv? true}
    "AUS" {:default nil :subdiv? true :state? true}
    "IND" {:default nil :subdiv? true :state? true}

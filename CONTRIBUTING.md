@@ -30,9 +30,25 @@ or `data/`: they are generated.
 - Add a domain we missed to `curated.csv` directly, or a domain to
   reject to `excluded.csv` directly.
 
-See the section "Checking the classifications for your country" of the
-[README](README.org) for what is most useful to check, in particular
-for shared roots like `gov.br`.
+## Checking the classifications for your country
+
+If you know the public administration of a country, the most useful
+checks are:
+
+- `data/public-sector-domains-central+-policy.csv` -- are the
+  `subtree` and `exact` rows really the central government and the
+  first tier below it?
+- `countries/<ISO3>_<slug>/proposed.csv` and `summary.md` -- did we
+  miss or misclassify domains?
+- `countries/<ISO3>_<slug>/curated.csv` -- for shared roots like
+  `gov.br`: are the lower-tier labels all listed as `local`? The
+  first-tier bodies (`sp.gov.br`) belong there as `central-1`.
+- First-tier bodies hosted inside a `local` subtree (a state agency
+  such as `educacao.sp.gov.br`) match nothing until listed
+  explicitly: telling us about them is especially useful.
+
+Nothing has to be regenerated before sending a change: the maintainer
+rebuilds the consolidated lists.
 
 If you have [Babashka](https://babashka.org) installed, `bb pipeline
 check <ISO3>_<slug>` tells whether your files are consistent (a domain
