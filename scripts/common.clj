@@ -263,21 +263,61 @@
         (str/replace #"[/?#].*$" "")
         (str/replace #":\d+$" ""))))
 
-(def multi-tlds
-  #{"co.uk" "gov.uk" "ac.uk" "org.uk" "com.au" "gov.au" "org.au"
-    "co.nz" "gov.nz" "com.br" "gov.br" "co.za" "gov.za"})
+(def psl-file
+  "The Public Suffix List (https://publicsuffix.org/list/, MPL 2.0),
+  ICANN and private sections. Refresh with:
+  curl -o data/public_suffix_list.dat https://publicsuffix.org/list/public_suffix_list.dat"
+  "data/public_suffix_list.dat")
+
+(def public-suffix-rules
+  "{:rules #{…} :wildcards #{…} :exceptions #{…}} of psl-file: a
+  wildcard rule *.ck is kept as ck, an exception !www.ck as www.ck.
+  The rules in Unicode are left out: hostnames here are ASCII, and a
+  one-label IDN suffix gives what the default rule gives."
+  (delay
+    (reduce (fn [m line]
+              (let [rule (first (str/split (str/trim line) #"\s"))]
+                (cond
+                  (or (str/blank? rule) (str/starts-with? rule "//")
+                      (not (re-matches #"[!*.a-z0-9-]+" rule)))
+                  m
+                  (str/starts-with? rule "!")  (update m :exceptions conj (subs rule 1))
+                  (str/starts-with? rule "*.") (update m :wildcards conj (subs rule 2))
+                  :else                        (update m :rules conj rule))))
+            {:rules #{} :wildcards #{} :exceptions #{}}
+            (str/split-lines (slurp psl-file)))))
+
+(defn public-suffix
+  "The public suffix of host per psl-file: the longest matching rule,
+  an exception rule naming the suffix's parent, a wildcard one more
+  label; the last label when no rule matches (the PSL default rule)."
+  [host]
+  (let [{:keys [rules wildcards exceptions]} @public-suffix-rules
+        labels (str/split host #"\.")
+        n      (count labels)
+        tail   #(str/join "." (subvec labels %))]
+    (or (some (fn [i]
+                (let [cand (tail i)]
+                  (cond
+                    (exceptions cand)                          (tail (inc i))
+                    (or (rules cand)
+                        (and (< (inc i) n) (wildcards (tail (inc i))))) cand)))
+              (range n))
+        (peek labels))))
 
 (defn parent-domain
-  "The registrable domain of host: the multi-label suffix of multi-tlds
-  it sits under (foo.gov.uk -> gov.uk), else its last two labels
-  (foo.bar.fr -> bar.fr). A two-label host is its own parent (gov.au ->
-  gov.au); nil on a single label."
+  "The registrable domain of host per the Public Suffix List: its
+  public suffix plus one label (foo.bar.fr -> bar.fr, a.comune.trento.it
+  -> comune.trento.it, x.github.io -> x.github.io). A public suffix is
+  its own parent (gov.uk, gouv.fr); nil on a single label."
   [host]
-  (or (some #(when (str/ends-with? host (str "." %)) %) multi-tlds)
-      (let [parts (str/split host #"\.")
-            n (count parts)]
-        (when (>= n 2)
-          (str (nth parts (- n 2)) "." (last parts))))))
+  (let [labels (str/split host #"\.")]
+    (when (>= (count labels) 2)
+      (let [suffix (public-suffix host)
+            k      (count (str/split suffix #"\."))]
+        (if (>= k (count labels))
+          host
+          (str/join "." (take-last (inc k) labels)))))))
 
 (def slug->country-dir
   "{normalised country name -> country_dir}, e.g. \"france\" -> FRA_france."

@@ -33,7 +33,7 @@
   (when-let [host (extract-host url)]
     (when-let [domain (parent-domain host)]
       (when (and (valid-hostname? domain)
-                 (not= domain "gouv.fr")
+                 (not (host-covered? domain #{"gouv.fr"}))
                  (or (str/ends-with? domain ".fr") (= domain host)))
         domain))))
 

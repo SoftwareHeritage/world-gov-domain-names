@@ -318,6 +318,9 @@ central government plus the first subdivision tier and nothing below:
   =data/un_desa_ids.csv= (the source id mappings, built by =bb pipeline
   build-qid=, =build-gec= and =build-un-ids=, or by =enrich=)
 - =data/factbook_aliases.csv= and =data/un_desa_aliases.csv= (country-name overrides)
+- =data/public_suffix_list.dat= (the [[https://publicsuffix.org/list/][Public Suffix List]], MPL 2.0, read by
+  =common/parent-domain=; refresh with =curl -o
+  data/public_suffix_list.dat https://publicsuffix.org/list/public_suffix_list.dat=)
 - =countries/<ISO3>_<slug>/curated.csv= listing the roots to harvest
 
 * Environment variables

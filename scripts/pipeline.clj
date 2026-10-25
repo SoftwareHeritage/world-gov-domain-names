@@ -1021,8 +1021,12 @@
       (println (str "- Declared: [" un-portal "](" un-portal ") (host `" host "`)"))
       (if (collected-at-or-under? host collected)
         (println "- ✅ Covered by collected domains")
-        (let [parent (parent-domain host)]
-          (if (and parent (fs/exists? (harvest-file country-dir parent)))
+        ;; the nearest harvested root above host (gov.bd for
+        ;; bangladesh.gov.bd), else its registrable domain for the message
+        (let [harvested (some #(when (fs/exists? (harvest-file country-dir %)) %)
+                              (butlast (host-suffixes host)))
+              parent    (or harvested (parent-domain host))]
+          (if harvested
             (println (str "- ⚠️ Exact hostname not collected, but `" parent "` is harvested (to be probed)"))
             (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/harvest/" (or parent host) ".csv` present"))))))
     (println)))

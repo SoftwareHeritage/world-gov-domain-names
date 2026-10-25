@@ -216,8 +216,9 @@
  [;; Central administrations and ministries: authoritative -> registry.
   ;; site_internet is a JSON-encoded list of {libelle, valeur}. The .fr
   ;; filter drops the international bodies listed among the websites
-  ;; (imf.org, wmo.int…); hosts are cut to their registrable domain, so
-  ;; travail-emploi.gouv.fr confirms gouv.fr.
+  ;; (imf.org, wmo.int…) and the hosts under gouv.fr, curated and
+  ;; harvested already (as esr does); the others are cut to their
+  ;; registrable domain (engees.unistra.fr -> unistra.fr).
   {:channel          :registry
    :registry         "lannuaire"
    :format           :json
@@ -229,7 +230,7 @@
    :website-field    :site_internet
    :website-json-key :valeur
    :registrable      true
-   :host-filter      "\\.fr$"}
+   :host-filter      "(?<!\\.gouv)\\.fr$"}
   ;; The other State and territorial bodies: operators, deconcentrated
   ;; services, prefectures, regions and departments, independent
   ;; authorities, courts -> candidates, for central-1 among others.

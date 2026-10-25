@@ -285,7 +285,7 @@
   "{host {:n mentions :names #{…}}} of [name website] rows, keeping the
   hosts matching :host-filter and dropping the names matching
   :exclude-name (both optional). With :registrable, each host is cut
-  to its registrable domain first (agence.gouv.fr -> gouv.fr)."
+  to its registrable domain first (engees.unistra.fr -> unistra.fr)."
   [{:keys [host-filter exclude-name registrable]} rows]
   (reduce (fn [m [org-name web]]
             (let [h (cond-> (extract-host web)
