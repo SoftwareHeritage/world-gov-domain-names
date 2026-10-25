@@ -8,12 +8,12 @@ cortecostituzionale.it,10,wikidata;linkgraph;directory,Constitutional Court of I
 inps.it,10,wikidata;linkgraph;directory,Istituto nazionale della previdenza sociale,,301,10 mx40.inps.it.; 10 mx30.inps.it.; 10 mx10.inps.it.; 10 mx20.inps.it.
 invalsi.it,10,wikidata;academia;directory,Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione,central,301,10 invalsi-it.mail.protection.outlook.com.
 istat.it,10,wikidata;academia;linkgraph;directory,Italian National Institute of Statistics,central,ConnectException,5 posta5.istat.it.; 5 posta4.istat.it.
+regione.emilia-romagna.it,10,wikidata;linkgraph;sopc,Emilia-Romagna,,302,10 regione-emiliaromagna-it03e.mail.protection.outlook.com.
 regione.lombardia.it,10,wikidata;linkgraph,Government of Lombardy | Lombardy,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 regione-lombardia-it.mail.protection.outlook.com.
 regione.toscana.it,10,wikidata;linkgraph,Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 mta.regione.toscana.it.
 regione.veneto.it,10,wikidata;linkgraph,Veneto | Government of Veneto | Q3630806 | Q56753389,central-1,HttpConnectTimeoutException: HTTP connect timed out,5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
 senato.it,10,wikidata;linkgraph;directory,Senate of the Republic,central,301,10 mx2.hc2468-63.eu.iphmx.com.; 10 mx1.hc2468-63.eu.iphmx.com.
 garanteprivacy.it,9,wikidata;linkgraph,Italian Data Protection Authority,central,200,10 mx1.gpdp.it.; 20 mx2.gpdp.it.
-regione.emilia-romagna.it,9,wikidata;linkgraph,Emilia-Romagna,,302,10 regione-emiliaromagna-it03e.mail.protection.outlook.com.
 agcm.it,8,wikidata;directory,Autorità Garante della Concorrenza e del Mercato,,200,10 mx2.agcm.it.; 10 mx1.agcm.it.
 agcom.it,8,wikidata;directory,Autorità per le Garanzie nelle Comunicazioni,,ConnectException,0 agcom-it.mail.protection.outlook.com.
 agenziademanio.it,8,wikidata;directory,Agenzia del demanio,,HttpConnectTimeoutException: HTTP connect timed out,10 sogei.in.tmes.trendmicro.eu.
@@ -184,6 +184,7 @@ ambrsm.it,4,wikidata,embassy of San Marino in Italy,central,HttpConnectTimeoutEx
 ansv.it,4,wikidata,Agenzia Nazionale per la Sicurezza del Volo,,HttpTimeoutException: request timed out,10 ansv-it.mail.protection.outlook.com.
 ao-garibaldi.catania.it,4,wikidata,Ospedale Garibaldi,,SSLHandshakeException: (unrecognized_name) Received fatal alert: unrecognized_name,none
 aosp.bo.it,4,academia,Policlinico Sant'Orsola-Malpighi,,,
+api.developers.italia.it,4,sopc,Developers Italia -- code catalog,,,
 aranagenzia.it,4,wikidata,Agenzia per la Rappresentanza Negoziale delle Pubbliche Amministrazioni,,301,0 aranagenzia-it.mail.protection.outlook.com.
 archeo.piemonte.beniculturali.it,4,wikidata,Q134385421,,ConnectException,none
 archeogat.it,4,wikidata,Gruppo Archeologico Torinese,,301,none
@@ -242,6 +243,7 @@ cini.it,4,academia,International Center for the Study of Italian Culture named a
 cirinet.it,4,academia,Q132744809,,,
 cm-garfagnana.lu.it,4,academia,"Botanical Garden ""Maria Ansaldi"" Pania di Corfino",,,
 cni.it,4,wikidata,Consiglio Nazionale degli Ingegneri,,HttpConnectTimeoutException: HTTP connect timed out,none
+code.agenziaitaliameteo.it,4,sopc,ItaliaMeteo (Agenzia Nazionale per la Meteorologia e Climatologia) -- code catalog,,,
 collegio.unibo.it,4,academia,Collegio Superiore di Bologna,,,
 colosseo.it,4,wikidata,archaeological park of Colosseum,,HttpConnectTimeoutException: HTTP connect timed out,none
 comolecco.camcom.it,4,wikidata,Q121743666,,HttpConnectTimeoutException: HTTP connect timed out,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.
@@ -261,6 +263,7 @@ crs4.it,4,academia,CRS4,,,
 csacparma.it,4,academia,Centro studi e archivio della comunicazione,,,
 cuirif.uniecampus.it,4,academia,"International University Center for Research and Innovation ""Integral Intelligence""",,,
 degasperitn.it,4,academia,Giardino d'Europa De Gasperi,,,
+developers.italia.it,4,sopc,Developers Italia -- code catalog,,,
 dhi-roma.it,4,academia,German Historical Institute in Rome,,,
 diodatabertolo.it,4,wikidata,Q140130716,,200,none
 dipartimenti.unicatt.it,4,academia,"Catholic University of the Sacred Heart, Department of classical philology, papyrology and historical linguistics",,,
@@ -285,6 +288,7 @@ fondazionecsc.it,4,academia,National Film School,central,,
 fondazionefamiglialegnanese.it,4,wikidata,Famiglia Legnanese,,301,none
 fondazionesantagata.it,4,academia,Fondazione Santagata for the Economics of Culture,,,
 fondazionezeri.unibo.it,4,academia,Federico Zeri Foundation,,,
+formez.it,4,sopc,Formez -- GitHub org,,,
 fraunhofer.it,4,academia,Fraunhofer Italia Research,,,
 fscire.it,4,academia,Fondazione per le Scienze Religiose Giovanni XXIII,,,
 fsm.unipi.it,4,academia,Fondazione Stella Maris,,,
@@ -299,6 +303,27 @@ giardinobotanicocarsiana.it,4,academia,Giardino Botanico Carsiana,,,
 giardinocapracotta.unimol.it,4,academia,Giardino di Flora Appenninica,,,
 giardinodegliagrumi.it,4,academia,Giardino degli Agrumi,,,
 giardinodellaminerva.it,4,academia,Minerva's Garden,,,
+git-scm.sissa.it,4,sopc,Scuola Internazionale Superiore di Studi Avanzati (SISSA) -- code catalog,,,
+git.cai.it,4,sopc,Club Alpino Italiano -- code catalog,,,
+git.itcity.it,4,sopc,It.City Spa (Parma) -- code catalog,,,
+git.unimore.it,4,sopc,Università degli Studi di Modena e Reggio Emilia -- code catalog,,,
+gitea.itsbact.it,4,sopc,Fondazione ITS Academy BACT -- code catalog,,,
+gitlab.055055.it,4,sopc,Società della Salute Fiorentina Sud Est (Firenze) -- code catalog,,,
+gitlab.aimag.it,4,sopc,AIMAG Spa (Modena) -- code catalog,,,
+gitlab.arpae.it,4,sopc,ARPAE Emilia-Romagna (Emilia-Romagna) -- code catalog,,,
+gitlab.buonarroti.tn.it,4,sopc,ITT M. Buonarroti (Trento) -- code catalog,,,
+gitlab.chilesotti.it,4,sopc,Istituto Tecnico Tecnologico G. Chilesotti (Thiene) -- code catalog,,,
+gitlab.fermimn.edu.it,4,sopc,I.S. Fermi (Mantova) -- code catalog,,,
+gitlab.galliera.it,4,sopc,Ente Ospedaliero Ospedali Galliera (Genova) -- code catalog,,,
+gitlab.iit.it,4,sopc,Fondazione Istituto Italiano di Tecnologia -- code catalog,,,
+gitlab.izsvenezie.it,4,sopc,Istituto Zooprofilattico Sperimentale delle Venezie -- code catalog,,,
+gitlab.marconirovereto.it,4,sopc,Istituto Tecnico Tecnologico G. Marconi (Rovereto) -- code catalog,,,
+gitlab.polimi.it,4,sopc,Politecnico di Milano -- code catalog,,,
+gitlab.polito.it,4,sopc,Politecnico di Torino -- code catalog,,,
+gitlab.reggiocal.it,4,sopc,Comune di Reggio Calabria (Reggio Calabria) -- code catalog,central-1,,
+gitlab.regione.campania.it,4,sopc,Regione Campania (Campania) -- code catalog,central-1,,
+gitlab.regione.emilia-romagna.it,4,sopc,Regione Emilia-Romagna (Emilia-Romagna) -- code catalog,central-1,,
+gitlab.rse-web.it,4,sopc,Ricerca sul Sistema Energetico (RSE) -- code catalog,,,
 gleno.it,4,academia,Q123348450,,,
 grand-paradis.it,4,academia,Paradisia Alpine Botanical Garden,,,
 grupposandonato.it,4,academia,IRCCS Ospedale Galeazzi - Sant'Ambrogio,,,
@@ -491,6 +516,7 @@ portici.enea.it,4,wikidata,ENEA Portici Research Centre,,301,none
 portidiroma.it,4,wikidata,Q3630822,,200,none
 porto.genova.it,4,wikidata,Autorità Portuale di Genova,,ConnectException,none
 primolevi.it,4,wikidata,Centro internazionale di studi Primo Levi,,301,none
+protezionecivile.it,4,sopc,pcm-dpc -- GitHub org,,,
 provincia.bz.it,4,wikidata,Q3803665,,308,0 mx08-0067de01.pphosted.com.; 0 mx07-0067de01.pphosted.com.
 provincia.catanzaro.it,4,academia,Parco della biodiversità mediterranea,,,
 provinz.bz.it,4,wikidata,State school board of Bolzano,,308,0 mx07-0067de01.pphosted.com.; 0 mx08-0067de01.pphosted.com.
@@ -621,6 +647,8 @@ fsa-fas.org,3,academia,Foro di Studi Avanzati “Gaetano Massa”,,,
 fua.it,3,ror,Florence University of the Arts,central,,
 giardinihanbury.com,3,academia,Hanbury botanical gardens,,,
 giardinobotanicocaplez.com,3,academia,Q113253510,,,
+gitlab.elettra.eu,3,sopc,Elettra Sincrotrone Trieste -- code catalog,,,
+gitlab.fbk.eu,3,sopc,Fondazione Bruno Kessler (Trentino) -- code catalog,,,
 hellergarden.com,3,academia,Giardino Botanico Fondazione André Heller,,,
 icamus.org,3,academia,ICAMus,,,
 iglesianacionalespanola.com,3,academia,Centro Español de Estudios Eclesiásticos,,,

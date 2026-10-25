@@ -1,11 +1,39 @@
 hostname,score,sources,label,level,http_status,mx
+valoda.lv,10,wikidata;directory,The Latvian Language Agency,,200,1 valoda-lv.mail.protection.outlook.com.
 lu.lv,9,academia;ror,Q50378801 | University of Latvia,central,,
+lja.lv,8,wikidata;directory,Maritime Administration of Latvia,,301,0 lja-lv.mail.protection.outlook.com.
+mantojums.lv,8,wikidata;directory,National Heritage Board of Latvia,,200,0 mantojums-lv.mail.protection.outlook.com.
+meteo.lv,8,wikidata;directory,"Latvian Environment, Geology and Meteorology Centre",,302,10 lidaka.lvgmc.lv.
 arhivi.lv,7,wikidata,Latvijas Valsts kinofotofonodokumentu arhīvs | State Archive of Personnel Files,,HttpConnectTimeoutException: HTTP connect timed out,0 arhivi-lv.mail.protection.outlook.com.
 likumi.lv,7,linkgraph,Linked from 33 public-sector domains,,200,0 likumi-lv.mail.protection.outlook.com.
-valoda.lv,7,wikidata,The Latvian Language Agency,,200,1 valoda-lv.mail.protection.outlook.com.
 jesuiten.org,6,wikidata,Jesuit Province of Central Europe,,301,10 jesuiten-org.mail.protection.outlook.com.
 roc-taiwan.org,6,wikidata,Taipei Mission in the Republic of Latvia | Taipei Mission in Latvia,central,302,none
 rtu.lv,6,academia;ror,Riga Technical University,central,,
+vadc.lv,6,wikidata;directory,Blood Donor Centre of Latvia,,301,none
+3arodskola.lv,5,directory,Rīgas 3. arodskola,,,
+apvs.lv,5,directory,Aizkraukles Profesionālā vidusskola,,,
+caa.lv,5,directory,Civilās aviācijas aģentūra,,,
+cert.lv,5,directory,Informācijas tehnoloģiju drošības incidentu novēršanas institūcija (CERT.LV),,,
+csdd.lv,5,directory,CSDD,,,
+dbt.lv,5,directory,Daugavpils Būvniecības tehnikums,,,
+edzl.lv,5,directory,SIA Eiropas dzelzceļa līnijas,,,
+etwinning.lv,5,directory,Jaunatnes starptautisko programmu aģentūra,,,
+filmas.lv,5,directory,Nacionālais kino centrs,,,
+fktk.lv,5,directory,Finanšu un kapitāla tirgus komisija,,,
+karamuzejs.lv,5,directory,Latvijas Kara muzejs,,,
+ldz.lv,5,directory,"VAS ""Latvijas dzelzceļš'",,,
+lgs.lv,5,directory,"VAS ""Latvijas gaisa satiksme""",,,
+ljk.lv,5,directory,Liepājas Jūrniecības Koledža,,,
+lvceli.lv,5,directory,Latvijas Valsts ceļi VAS,,,
+malnava.lv,5,directory,Malnavas koledža,,,
+mil.lv,5,directory,Nacionālie bruņotie spēki,,,
+rck.lv,5,directory,Rīgas Celtniecības koledža,,,
+rdvs.lv,5,directory,Rīgas Daugavgrīvas vidusskola,,,
+rsmt.lv,5,directory,Rīgas Stila un Modes tehnikums,,,
+rtpv.edu.lv,5,directory,Rīgas Tirdzniecības profesionālā vidusskola.,,,
+saldustehnikums.lv,5,directory,Saldus tenikums,,,
+sargs.lv,5,directory,Militārais medijs Sargs.lv,,,
+smiltenestehnikums.lv,5,directory,Smiltenes tehnikums,,,
 adazi.lv,4,wikidata,Q90307473,central-1,302,0 adazi-lv.mail.protection.outlook.com.
 archiv.org.lv,4,wikidata,Latvian State Archive,,200,none
 bank.lv,4,wikidata,Bank of Latvia,,301,0 bank-lv.q-v1.mx.microsoft.
@@ -19,14 +47,11 @@ latmb.lv,4,wikidata,Metrology Bureau,,301,10 latmb-lv.mail.protection.outlook.co
 lhei.lv,4,academia,Latvian Institute of Aquatic Ecology,,,
 liepaja.lv,4,wikidata,Liepaja City Council,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mailz.liepaja.lv.
 liia.lv,4,academia,The Latvian Institute of International Affairs,,,
-lja.lv,4,wikidata,Maritime Administration of Latvia,,301,0 lja-lv.mail.protection.outlook.com.
 lnb.lv,4,wikidata,National Library of Latvia,,301,10 mx.lnb.lv.
 lubi.edu.lv,4,academia,University of Latvia Institute of Biology,,,
 lumii.lv,4,academia,"Institute of Mathematics and Computer Science, University of Latvia",,,
 lvi.lu.lv,4,academia,UL Institute of Latvian History,,,
-mantojums.lv,4,wikidata,National Heritage Board of Latvia,,200,0 mantojums-lv.mail.protection.outlook.com.
 memorialiemuzeji.lv,4,wikidata,Association of Memorial Museums,,200,0 memorialiemuzeji-lv.mail.protection.outlook.com.
-meteo.lv,4,wikidata,"Latvian Environment, Geology and Meteorology Centre",,302,10 lidaka.lvgmc.lv.
 mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Riga",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
 neplpadome.lv,4,wikidata,National Electronic Mass Media Council,,301,0 neplpadome-lv.mail.protection.outlook.com.
 osi.lv,4,academia,Latvian Institute of Organic Synthesis,,,
@@ -70,4 +95,3 @@ tsi.lv,3,ror,Transport and Telecommunication Institute,central,,
 turiba.lv,3,ror,Turība University,central,,
 va.lv,3,ror,Vidzeme University of Applied Sciences,central,,
 venta.lv,3,ror,Ventspils University of Applied Sciences,central,,
-vadc.lv,2,wikidata,Blood Donor Centre of Latvia,,301,none

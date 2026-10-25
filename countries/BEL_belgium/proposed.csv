@@ -1,5 +1,6 @@
 hostname,score,sources,label,level,http_status,mx
-vlaanderen.be,10,wikidata;academia;linkgraph,"Flemish Government | Flemish Tax Service | Research Institute for Nature and Forest | Flemish Center for Agro- and Fisheries Marketing | Department for Culture, Youth and Media | Agency for Local and Provincial Government | Flemish Ombudsman Service | Department of Mobility and Public Works | Flemish Energy Agency | Agency for Facility Operations | Flanders Digital Agency",central-1,403,2 vlaanderen-be.mail.protection.outlook.com.
+omgeving.vlaanderen.be,10,wikidata;sopc,Department of Environment and Health,central-1,200,100 iris.omgeving.vlaanderen.be.; 100 hermes.omgeving.vlaanderen.be.
+vlaanderen.be,10,wikidata;academia;linkgraph;sopc,"Flemish Government | Flemish Tax Service | Research Institute for Nature and Forest | Flemish Center for Agro- and Fisheries Marketing | Department for Culture, Youth and Media | Agency for Local and Provincial Government | Flemish Ombudsman Service | Department of Mobility and Public Works | Flemish Energy Agency | Agency for Facility Operations | Flanders Digital Agency",central-1,403,2 vlaanderen-be.mail.protection.outlook.com.
 ugent.be,9,academia;ror,Ghent University | Ghent University Botanical Garden,central-1,,
 aeronomie.be,7,wikidata;academia,Royal Belgian Institute for Space Aeronomy,,HttpConnectTimeoutException: HTTP connect timed out,10 mailserv.oma.be.
 antwerpen.be,7,wikidata;academia,Emergency zone Antwerp-Zwijndrecht | Plantentuin,,302,10 antwerpen-be.mail.protection.outlook.com.; 20 antwerpen-be.mail.protection.outlook.com.
@@ -21,8 +22,8 @@ mofaic.gov.ae,7,wikidata,"embassy of United Arab Emirates in Belgium | Permanent
 nbb.be,7,wikidata;academia,National Bank of Belgium,central,302,10 nbb-be.mail.protection.outlook.com.
 ngi.be,7,wikidata;academia,National Geographic Institute,central,200,0 ngi-be.mail.protection.outlook.com.
 om-mp.be,7,wikidata,Q107677931 | Q111686458 | Q107677924 | Q111686279 | Q107677926 | Q111686333 | Federal Prosecutor's Office | Q107677928 | Q107677934 | Q107677929 | Q107677935 | Labor Auditor | Q107677923 | Q111684859 | Q107677930 | Q111685045 | Q111685627 | Q111686198 | Public prosecutor’s office at the Court of Cassation | Q111686108 | Q111685878 | Q107677927 | Q107677933 | Q107677936 | Q107677922 | Q107677925,central,HttpConnectTimeoutException: HTTP connect timed out,none
-omgeving.vlaanderen.be,7,wikidata,Department of Environment and Health,central-1,200,100 iris.omgeving.vlaanderen.be.; 100 hermes.omgeving.vlaanderen.be.
 onderwijs.vlaanderen.be,7,wikidata,Flemish Ministry of Education and Training,central-1,301,none
+onroerenderfgoed.be,7,wikidata;sopc,Flanders Immovable Heritage Agency,central-1,301,100 iris.omgeving.vlaanderen.be.; 100 hermes.omgeving.vlaanderen.be.
 ostbelgienlive.be,7,wikidata,Government of the German-speaking Community | Representation of the German-speaking Community of Belgium in Brussels,central-1,403,10 mail.demetec.net.
 parlement-wallonie.be,7,wikidata,Parliament of Wallonia,central-1,403,0 parlementwallonie-be02c.mail.protection.outlook.com.
 parlement.brussels,7,wikidata,Parliament of the Brussels-Capital Region,central-1,301,10 mx6.irisnet.be.; 10 mx4.irisnet.be.; 10 mx5.irisnet.be.
@@ -42,6 +43,7 @@ mzv.sk,6,wikidata,"Embassy of Slovenia, Brussels",central,301,10 mail.gov.sk.
 nato-pa.int,6,wikidata,NATO Parliamentary Assembly,,301,5 natopa-int01b.mail.protection.outlook.com.
 nato.mfa.am,6,wikidata,Permanent Mission of Armenia to NATO,,301,none
 norway.no,6,wikidata,"Embassy of Norway, Brussels | Permanent Mission of Norway to NATO",central,301,0 mx.domeneshop.no.
+paradigm.brussels,6,wikidata;sopc,Paradigm,central-1,301,0 paradigm-brussels.mail.protection.outlook.com.
 swedenabroad.se,6,wikidata,Permanent Mission of Sweden to NATO | Consulate General of Sweden in Brussels,,301,none
 taiwanembassy.org,6,wikidata,Taipei Representative Office in the EU and Belgium,,302,none
 uantwerpen.be,6,academia;ror,Ruusbroecgenootschap Universiteit Antwerpen - Bibliotheek,central-1,,
@@ -68,6 +70,7 @@ avn.be,4,wikidata,Nuclear Safety Institute,,HttpConnectTimeoutException: HTTP co
 awex.be,4,wikidata,Walloon Export and Foreign Investment Agency,central-1,301,0 awex-be.mail.protection.outlook.com.
 baps.be,4,academia,Belgian Association for Psychological Sciences,,,
 bas-cbas.be,4,wikidata,Belgian Court of Arbitration for Sport,central,200,10 bascbas-be0i.mail.protection.outlook.com.
+belgif.be,4,sopc,belgif -- GitHub org,,,
 bipt.be,4,wikidata,Belgian Institute for Postal services and Telecommunications,central,301,1 ibpt-bipt.bams.belnet.be.
 blbe.be,4,wikidata,European Peacebuilding Liaison Office,,301,none
 bokrijk.be,4,academia,Openluchtmuseum Bokrijk,,,
@@ -106,6 +109,7 @@ deduveinstitute.be,4,academia,de Duve Institute,,,
 defence-institute.be,4,academia,Royal Higher Institute for Defence,,,
 dekamer.be,4,wikidata,Chamber of Representatives,central,301,9 kvvcr.in.tmes.trendmicro.eu.
 denktankminerva.be,4,academia,Q46238895,,,
+digipolisantwerpen.be,4,sopc,digipolisantwerp (Antwerp) -- GitHub org,,,
 dinopol.be,4,wikidata,Police Zone Bernissart - Péruwelz,,200,50 mx4.orditech.be.; 10 mx1.orditech.be.
 dominicanembassy.be,4,wikidata,embassy of Dominican Republic in Belgium,central,ConnectException,none
 ecolesaintetrinitecardinalmercier1.be,4,academia,Institut Sainte Trinité,central-1,,
@@ -141,6 +145,8 @@ ihk-eupen.be,4,wikidata,Q22442762,,301,10 ihkeupen-be0i.mail.protection.outlook.
 iihe.ac.be,4,academia,Interuniversity Institute for High Energies,,,
 iile-sri.be,4,wikidata,Emergency zone Liège 2,,301,1 mx0.mail.ovh.net.; 5 mx1.mail.ovh.net.; 50 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.
 ilvo.vlaanderen.be,4,wikidata,Institute for Agricultural and Fisheries Research,,301,0 ilvo.bams.belnet.be.
+imio.be,4,sopc,IMIO (Wallonia) -- GitHub org,,,
+inbo.be,4,sopc,inbo (Flanders) -- GitHub org,,,
 inspfin.be,4,wikidata,Inspectorate of Finance,central,302,10 relay-shs.fed.be.; 20 relay2-shs.fed.be.
 integratie-inburgering.be,4,wikidata,Agency for Integration,,200,0 integratieinburgering-be02e.mail.protection.outlook.com.
 international.gouv.qc.ca,4,wikidata,Quebec Government Office in Brussels,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching international.gouv.qc.ca found.,none
@@ -158,6 +164,7 @@ lachambre.be,4,wikidata,Chamber of Representatives,central,301,9 kvvcr.in.tmes.t
 leforem.be,4,wikidata,Forem,,302,0 .
 liberales.be,4,academia,Liberales,,,
 limburg.be,4,wikidata,Limburg,,301,0 limburg-be.mail.protection.outlook.com.
+lokaalbestuur.vlaanderen.be,4,sopc,lblod (Flanders) -- GitHub org,,,
 malagne.be,4,academia,Malagne,,,
 maldivesembassy.be,4,wikidata,embassy of Maldives in Belgium,central,SSLHandshakeException: Remote host terminated the handshake,100 mxb.ovh.net.; 5 mx4.ovh.net.; 1 mx3.ovh.net.
 midow.be,4,wikidata,Police zone MIDOW,,200,50 mx.backup.mailprotect.be.; 10 mx.mailprotect.be.
@@ -170,7 +177,6 @@ naxys.be,4,academia,Namur Institute For Complex Systems,,,
 niras.be,4,wikidata,ONDRAF,central,307,10 neras-be.mail.protection.outlook.com.
 noord-limburg.hulpverleningszone.be,4,wikidata,Emergency rescue zone North Limburg,,200,none
 ondraf.be,4,wikidata,ONDRAF,central,307,10 ondraf-be.mail.protection.outlook.com.
-onroerenderfgoed.be,4,wikidata,Flanders Immovable Heritage Agency,central-1,301,100 iris.omgeving.vlaanderen.be.; 100 hermes.omgeving.vlaanderen.be.
 oost-vlaams-brabant.hulpverleningszone.be,4,wikidata,Emergency zone Flemish Brabant East,,200,none
 oost-vlaanderen.be,4,wikidata,East Flanders,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 dmzpub35.oost-vlaanderen.be.; 10 dmzpub34.oost-vlaanderen.be.
 oost.hulpverleningszone.be,4,wikidata,Emergency zone East Flanders East,,200,none
@@ -356,7 +362,6 @@ leefmilieu.brussels,3,wikidata,Brussels Environment,,200,0 leefmilieu-brussels.m
 leseptantecinq.be,3,ror,École Supérieure des Arts de l'Image Le 75,central-1,,
 odisee.be,3,ror,"Odisee, University of Applied Sciences",central-1,,
 pairidaiza.eu,3,academia,Pairi Daiza,,,
-paradigm.brussels,3,wikidata,Paradigm,central-1,301,0 paradigm-brussels.mail.protection.outlook.com.
 parking.brussels,3,wikidata,parking.brussels,central-1,200,10 parking-brussels.mail.protection.outlook.com.
 permanentevertegenwoordigingen.nl,3,wikidata,Permanent Representation of the Netherlands to the European Union,,301,0 .
 permanentrepresentations.nl,3,wikidata,Permanent Representation of the Netherlands to the European Union,,301,0 .
@@ -370,6 +375,7 @@ sierraleoneembassy.brussels,3,wikidata,Embassy of Sierra Leone in Belgium,centra
 sofico.org,3,wikidata,SOFICO,,302,0 mta02.nrb.be.; 0 mta01.nrb.be.
 solomonislandsembassy.com,3,wikidata,embassy of Solomon Islands in Belgium,central,200,10 mail.solomonislandsembassy.com.
 sport.vlaanderen,3,wikidata,Sport Vlaanderen,central-1,301,10 sport-vlaanderen.mail.protection.outlook.com.
+stad.gent,3,sopc,StadGent (Ghent) -- GitHub org,,,
 stluc-bruxelles-esa.be,3,ror,ST-LUC BXL École supérieure des arts,central-1,,
 taalunie.org,3,wikidata,Dutch Language Union,,200,10 taalunie-org.mail.protection.outlook.com.
 thomasmore.be,3,ror,Thomas More Kempen,central-1,,

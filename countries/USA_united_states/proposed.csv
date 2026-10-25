@@ -1,4 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
+nyc.gov,10,wikidata;sopc,New York City | New York City Office of Environmental Remediation | New York City Department of Homeless Services Police | New York City Department of City Planning | New York City Office of Technology Innovation | New York City Department of Records and Information Services | New York City Department of Veterans' Services | New York City Housing Authority | New York City Office of Emergency Management | New York City Business Integrity Commission | New York City Department of Small Business Services | New York City Department of Sanitation | New York City Police Department Auxiliary Police | Mayor's Office of Media and Entertainment | New York City Department of Transportation | New York City Fire Department | New York City Department of Consumer and Worker Protection | New York City Department of Finance | New York City Department of Citywide Administrative Services Police | New York City Office of Administrative Trials and Hearings | New York City Department of Sanitation Police | Mayor's Office of Equity & Racial Justice | New York City Police Department Emergency Service Unit | New York City Law Department | New York City Commission on Human Rights | New York City Department for the Aging | New York City Department of Correction | New York Mayor's Office of Contract Services | New York City Department of Housing Preservation and Development | New York City Sheriff's Office | New York City Department of Cultural Affairs | New York City Department of Design & Construction | Mayor's Office of Management and Budget | Civilian Complaint Review Board | Mayor's Office to Protect Tenants | New York City Department of Environmental Protection Police | New York City Department of Probation | New York City Department of Investigation | New York City Human Resources Administration | Office of Chief Medical Examiner of the City of New York | New York City Department of Environmental Protection | Mayor's Community Affairs Unit | New York City Department of Homeless Services | New York City Department of Youth & Community Development | Mayor's Office of Child Care,central-1,301,10 mxb-004c8901.gslb.pphosted.com.; 10 mxa-004c8901.gslb.pphosted.com.
 aberdeenwa.gov,8,wikidata,Aberdeen,,200,0 aberdeenwa-gov.mail.protection.outlook.com.
 abingdon-va.gov,8,wikidata,Abingdon,,301,10 us-smtp-inbound-1.mimecast.com.; 10 us-smtp-inbound-2.mimecast.com.
 abingtonma.gov,8,wikidata,Abington,,301,10 d166440a.ess.barracudanetworks.com.; 20 d166440b.ess.barracudanetworks.com.
@@ -1131,7 +1132,6 @@ norwalk.iowa.gov,8,wikidata,Norwalk,,HttpConnectTimeoutException: HTTP connect t
 norwoodma.gov,8,wikidata,Norwood,,ConnectException,10 norwoodma-gov.mx1.arsmtp.com.; 20 norwoodma-gov.mx2.arsmtp.com.
 nottingham-nh.gov,8,wikidata,Nottingham,,301,0 nottinghamnh-gov02e.mail.protection.outlook.com.
 nowataok.gov,8,wikidata,Nowata,,200,none
-nyc.gov,8,wikidata,New York City | New York City Office of Environmental Remediation | New York City Department of Homeless Services Police | New York City Department of City Planning | New York City Office of Technology Innovation | New York City Department of Records and Information Services | New York City Department of Veterans' Services | New York City Housing Authority | New York City Office of Emergency Management | New York City Business Integrity Commission | New York City Department of Small Business Services | New York City Department of Sanitation | New York City Police Department Auxiliary Police | Mayor's Office of Media and Entertainment | New York City Department of Transportation | New York City Fire Department | New York City Department of Consumer and Worker Protection | New York City Department of Finance | New York City Department of Citywide Administrative Services Police | New York City Office of Administrative Trials and Hearings | New York City Department of Sanitation Police | Mayor's Office of Equity & Racial Justice | New York City Police Department Emergency Service Unit | New York City Law Department | New York City Commission on Human Rights | New York City Department for the Aging | New York City Department of Correction | New York Mayor's Office of Contract Services | New York City Department of Housing Preservation and Development | New York City Sheriff's Office | New York City Department of Cultural Affairs | New York City Department of Design & Construction | Mayor's Office of Management and Budget | Civilian Complaint Review Board | Mayor's Office to Protect Tenants | New York City Department of Environmental Protection Police | New York City Department of Probation | New York City Department of Investigation | New York City Human Resources Administration | Office of Chief Medical Examiner of the City of New York | New York City Department of Environmental Protection | Mayor's Community Affairs Unit | New York City Department of Homeless Services | New York City Department of Youth & Community Development | Mayor's Office of Child Care,central-1,301,10 mxb-004c8901.gslb.pphosted.com.; 10 mxa-004c8901.gslb.pphosted.com.
 nycourts.gov,8,wikidata,"New York Surrogate's Court | Supreme Court of the State of New York, Appellate Division, Fourth Judicial Department | New York Court of Appeals | Supreme Court of the State of New York, Appellate Division, Third Judicial Department | New York State Court Officers | Supreme Court of the State of New York, Appellate Division, First Judicial Department | Supreme Court of the State of New York, Appellate Division, Second Judicial Department",central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 nysenate.gov,8,wikidata,New York State Legislature | New York State Senate,central-1,301,none
 oag.ca.gov,8,wikidata,California Department of Justice | California Bureau of Gambling Control | Attorney General of California | California Bureau of Firearms | California Bureau of Investigation | California Division of Law Enforcement,central-1,HttpConnectTimeoutException: HTTP connect timed out,30 mx2.public.govdelivery.com.; 10 mx.public.govdelivery.com.
@@ -1883,6 +1883,7 @@ auroraoh.com,6,wikidata,Aurora,,403,0 auroraoh-com.mail.protection.outlook.com.
 aurorasd.govoffice3.com,6,wikidata,Aurora,,302,none
 austerlitzny.com,6,wikidata,Austerlitz,,405,none
 austin-ar.com,6,wikidata,Austin,,HttpConnectTimeoutException: HTTP connect timed out,none
+austintexas.gov,6,wikidata;sopc,Austin Fire Department | Austin Police Department | Homeland Security and Emergency Management | Austin | Austin Health & Human Services Department | Austin Parks and Recreation,,HttpConnectTimeoutException: HTTP connect timed out,none
 avalonboro.net,6,wikidata,Avalon,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.avalonboro.net.
 avamissouri.org,6,wikidata,Ava,,HttpConnectTimeoutException: HTTP connect timed out,20 alt1.aspmx.l.google.com.; 50 aspmx3.googlemail.com.; 30 alt2.aspmx.l.google.com.; 40 aspmx2.googlemail.com.; 10 aspmx.l.google.com.
 avcity.org,6,wikidata,Aliso Viejo,,HttpConnectTimeoutException: HTTP connect timed out,0 avcity-org.mail.protection.outlook.com.
@@ -10535,6 +10536,7 @@ bgsu.edu,5,academia;ror,Bowling Green State University,central-1,,
 bhddh.ri.gov,5,wikidata,"Rhode Island Department of Behavioral Healthcare, Developmental Disabilities and Hospitals",,403,none
 bhsu.edu,5,academia;ror,Black Hills State University,central-1,,
 binghamton.edu,5,academia;ror,Fernand Braudel Center,central-1,,
+bioethics.gov,5,wikidata,Presidential Commission for the Study of Bioethical Issues,,,
 bloomington.iu.edu,5,academia;ror,Indiana University Bloomington,central-1,,
 boardofed.idaho.gov,5,wikidata,Higher Education Research Council,,HttpConnectTimeoutException: HTTP connect timed out,none
 bon.texas.gov,5,wikidata,Texas Board of Nursing,,HttpConnectTimeoutException: HTTP connect timed out,0 bon-texas-gov.mail.protection.outlook.com.
@@ -10623,6 +10625,7 @@ coastal.ca.gov,5,wikidata,California Coastal Commission,,HttpConnectTimeoutExcep
 coastal.edu,5,academia;ror,Coastal Carolina University Arboretum,central-1,,
 coastal.la.gov,5,wikidata,Louisiana Coastal Protection and Restoration Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
 cochise.az.gov,5,wikidata,Cochise County Sheriff's Office,,200,none
+code.ca.gov,5,sopc,CA Open Source Portal (California) -- code catalog,,,
 colostate.edu,5,academia;ror,Colorado State University,central-1,,
 columbusstate.edu,5,academia;ror,Columbus State University Non-Profit and Civic Engagement Center,central-1,,
 commerce.maryland.gov,5,wikidata,Maryland Department of Business and Economic Development,central-1,200,none
@@ -11023,7 +11026,9 @@ illinois.gov,5,wikidata,Illinois Department of Healthcare and Family Services,ce
 illinoiscourts.gov,5,wikidata,Illinois Supreme Court,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 illinoiscourts-gov.mail.protection.outlook.com.
 ilsos.gov,5,wikidata,Illinois State Library,central-1,403,none
 innocencecommission-nc.gov,5,wikidata,North Carolina Post-Conviction Review Commission,central-1,403,none
+innovation.ca.gov,5,sopc,cagov (California) -- GitHub org,,,
 innovation.nc.gov,5,wikidata,North Carolina Innovation Council,central-1,301,none
+innovation.nj.gov,5,sopc,newjersey (New Jersey) -- GitHub org,,,
 inspire2serve.gov,5,wikidata,"National Commission on Military, National, and Public Service",,HttpConnectTimeoutException: HTTP connect timed out,none
 insurance.arkansas.gov,5,wikidata,Arkansas Insurance Department,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 insurance.ca.gov,5,wikidata,California Department of Insurance,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -11892,7 +11897,6 @@ auburnschools.org,3,wikidata,Auburn City Schools,,200,none
 auburnwa.gov,3,wikidata,Auburn | Auburn Police Department,,301,none
 aurorak12.org,3,wikidata,Aurora Public Schools,,HttpConnectTimeoutException: HTTP connect timed out,none
 austinlgbtchamber.com,3,wikidata,Austin LGBT Chamber of Commerce,,200,none
-austintexas.gov,3,wikidata,Austin Fire Department | Austin Police Department | Homeland Security and Emergency Management | Austin | Austin Health & Human Services Department | Austin Parks and Recreation,,HttpConnectTimeoutException: HTTP connect timed out,none
 austria.org,3,wikidata,"Embassy of Austria, Washington, D.C.",central,HttpConnectTimeoutException: HTTP connect timed out,none
 autrainonota.com,3,wikidata,AuTrain-Onota Public Schools,,SSLHandshakeException: Remote host terminated the handshake,none
 averyschools.net,3,wikidata,Avery County Schools,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.
@@ -12523,6 +12527,7 @@ coastguardheritagemuseum.org,3,wikidata,United States Customshouse,,200,none
 cochise.edu,3,wikidata,Cochise County Community College District,,200,none
 cochisejted.org,3,wikidata,Cochise Technology District,,405,none
 coconino.edu,3,wikidata,Coconino Community College District,,HttpConnectTimeoutException: HTTP connect timed out,none
+code.mil,3,sopc,code.mil (Department of Defense) -- code catalog,,,
 codofil.org,3,wikidata,Council for the Development of French in Louisiana,,200,none
 cofs.lara.state.mi.us,3,wikidata,Corporations Division (Department of Licensing and Regulatory Affairs),central-1,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,none
 colbert.k12.al.us,3,wikidata,Colbert County Schools,,HttpConnectTimeoutException: HTTP connect timed out,none
@@ -12774,6 +12779,7 @@ deschuteslibrary.org,3,wikidata,Deschutes Public Library,,HttpConnectTimeoutExce
 desertmuseum.org,3,academia,Arizona-Sonora Desert Museum,,,
 desotopsb.com,3,wikidata,DeSoto Parish School Board,,301,none
 detroitk12.org,3,wikidata,Detroit Public Schools,,301,none
+dev.cityofchicago.org,3,sopc,Chicago (Chicago) -- GitHub org,,,
 deweycenter.siu.edu,3,academia,Center for Dewey Studies,,,
 dewittschools.net,3,wikidata,DeWitt Public Schools,,HttpConnectTimeoutException: HTTP connect timed out,none
 dexterschools.org,3,wikidata,Dexter Community Schools,,301,none

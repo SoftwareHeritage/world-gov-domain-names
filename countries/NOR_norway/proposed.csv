@@ -1,14 +1,14 @@
 hostname,score,sources,label,level,http_status,mx
+kartverket.no,10,wikidata;sopc,Norwegian Mapping Authority,,200,10 kartverket-no.mail.protection.outlook.com.
+oslo.kommune.no,10,wikidata;sopc,Gravferdsetaten i Oslo kommune | Oslo city government | Q11981507 | Q103826469 | Rådhusets forvaltningstjeneste | Q56405730 | Q19384867 | Q12008634 | Fornebubanen,central-1,301,1 oslokommune.mail.protection.outlook.com.
 en.uit.no,7,academia,Tromsø University Museum | University of Tromsø – The Arctic University of Norway,central,,
 eos-utvalget.no,7,wikidata,Norwegian Parliamentary Intelligence Oversight Committee,,200,10 eosutvalget-no0i.mail.protection.outlook.com.
 etikkom.no,7,wikidata,Norwegian National Research Ethics Committees,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching etikkom.no found.,0 etikkom-no.mail.protection.outlook.com.
 finnmarkssykehuset.no,7,wikidata,Finnmark Hospital Trust,,301,10 finnmarkssykehuset-no.mail.protection.outlook.com.
-kartverket.no,7,wikidata,Norwegian Mapping Authority,,200,10 kartverket-no.mail.protection.outlook.com.
 kriminalomsorgen.no,7,wikidata,Norwegian Correctional Service | Directorate of Correctional Services,,308,10 kriminalomsorg.in.tmes.trendmicro.eu.; 99 kriminalomsorg.in.tmes.trendmicro.com.
 nfk.no,7,wikidata,Board of the Nordland county municipality,central-1,301,10 nfk-no.mail.protection.outlook.com.
 norges-bank.no,7,wikidata,Norges Bank,,301,0 norgesbank-no01e.i-v1.mx.microsoft.
 ntnu.no,7,academia,Q25431427 | Q30139905,,,
-oslo.kommune.no,7,wikidata,Gravferdsetaten i Oslo kommune | Oslo city government | Q11981507 | Q103826469 | Rådhusets forvaltningstjeneste | Q56405730 | Q19384867 | Q12008634 | Fornebubanen,central-1,301,1 oslokommune.mail.protection.outlook.com.
 psykiskhelse.no,7,wikidata,Norwegian Council for Mental Health,,200,0 psykiskhelse-no.mail.protection.outlook.com.
 radetfordyreetikk.no,7,wikidata,Council for Animal Ethics,,301,10 mx01.osl.inic.no.; 10 mx02.osl.inic.no.
 romsenter.no,7,wikidata,Norwegian Space Agency,,307,none
@@ -29,6 +29,7 @@ advnemnda.no,4,wikidata,Advokatnemnda,central,200,0 advnemnda-no.mail.protection
 afghanistanembassy.no,4,wikidata,"Embassy of Afghanistan, Oslo",central,200,2 route1.mx.cloudflare.net.; 67 route3.mx.cloudflare.net.; 8 route2.mx.cloudflare.net.
 akt.no,4,wikidata,Agder Kollektivtrafikk,,301,0 akt-no.mail.protection.outlook.com.
 algerianembassy.no,4,wikidata,"Embassy of Algeria, Oslo",central,200,0 semx01.proisp.no.; 0 semx02.proisp.no.
+altinn.no,4,sopc,Altinn -- GitHub org,,,
 ambulanse-midt.no,4,wikidata,Q11957688,,ConnectException: Host is unreachable,5 ambulansemidt-no02c.mail.protection.outlook.com.
 arbeidsretten.no,4,wikidata,Labour Court,,301,0 arbeidsretten-no.mail.protection.outlook.com.
 atb.no,4,wikidata,AtB,,301,5 atb-no.mail.protection.outlook.com.
@@ -46,12 +47,14 @@ cas.oslo.no,4,academia,Centre for Advanced Study at the Norwegian Academy of Sci
 chamber.no,4,wikidata,Oslo Chamber of Commerce,,200,10 chamber-no.mail.protection.outlook.com.
 cicero.oslo.no,4,academia,CICERO Center for International Climate Research,,,
 cmi.no,4,academia,Chr. Michelsen Institute,,,
+data.norge.no,4,sopc,Informasjonsforvaltning -- GitHub org,,,
 deksa.no,4,wikidata,Norwegian Agency for Export Control and Sanctions,,200,0 deksa-no.mail.protection.outlook.com.
 detnorskeakademi.no,4,wikidata,Norwegian Academy,,301,0 mail.detnorskeakademi.no.
 dio.dep.no,4,wikidata,Q123862765,central,301,0 dio-dep-no.mail.protection.outlook.com.
 doga.no,4,wikidata,Norwegian Centre for Design and Architecture,,HttpConnectTimeoutException: HTTP connect timed out,5 doga-no.mail.protection.outlook.com.
 eldreombudet.no,4,wikidata,Norwegian Ombudsman for the Ageing,,ConnectException,0 .
 en.south-norway.no,4,wikidata,South Norway European Office,,ConnectException,none
+entur.no,4,sopc,entur -- GitHub org,,,
 epx.no,4,academia,Earth and Planetary Exploration Services,,,
 etterretningstjenesten.no,4,wikidata,Norwegian Intelligence Service,,307,0 .
 fafo.no,4,academia,Fafo Foundation,,,

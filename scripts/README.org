@@ -26,7 +26,8 @@ Everything else is generated. The *confirmed* domains of a country
 are compiled in memory at every run (=common/compile-confirmed=,
 cached as =confirmed-rows=): the registry files
 =sources/<registry>/registered.csv= (=domain,level=, written by
-=cisa=, =lannuaire=, =esr=, =govuk= and =bb directories=) plus =curated.csv=
+=esr=, =govuk= and =bb directories=, which writes the CISA and
+lannuaire registries among others) plus =curated.csv=
 minus =excluded.csv=; a =curated= row wins over a registered
 duplicate (its level too), and a domain both curated and excluded, or
 an unknown level, aborts any command with exit 1. =bb pipeline check=
@@ -68,7 +69,7 @@ command writes one kind of file. Available both as =bb pipeline <cmd>=
 
 #+begin_src bash
   bb pipeline collect            # the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots
-  bb pipeline enrich             # build-qid + build-gec + build-un-ids + subdivisions, then the seven sources in parallel
+  bb pipeline enrich             # build-qid + build-gec + build-un-ids + subdivisions, then the eight sources in parallel
   bb pipeline build              # the consolidated files: aggregate + domains
   bb pipeline report             # the curation files: propose + summary
   bb pipeline all                # the four in sequence
@@ -101,6 +102,7 @@ files.
   bb scripts/pipeline.clj wikidata Q142:FRA_france # central administration -> sources/wikidata/central_admin.csv
   bb scripts/pipeline.clj academia Q142:FRA_france # universities and research institutes -> sources/wikidata/academia.csv
   bb scripts/pipeline.clj ror FRA_france           # universities per ror.org -> sources/ror/universities.csv (candidates)
+  bb scripts/pipeline.clj sopc FRA_france          # hosts of the code sources of swh-sopc-data-sources -> sources/sopc/hosts.csv (candidates)
   bb scripts/pipeline.clj iana FRA_france
   bb scripts/pipeline.clj cia FRA_france
   bb scripts/pipeline.clj un-desa FRA_france
@@ -119,8 +121,6 @@ files.
   bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts -> sources/probes/proposed.csv
   bb scripts/pipeline.clj wayback gov.ke gov.lv # Wayback Machine CDX harvest of these roots -> sources/harvest/<root>.csv
   bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction)
-  bb scripts/pipeline.clj cisa                  # CISA federal .gov list -> sources/cisa/registered.csv
-  bb scripts/pipeline.clj lannuaire             # FR service-public directory -> sources/lannuaire/registered.csv
   bb scripts/pipeline.clj esr                   # FR public higher-education institutions -> sources/esr/registered.csv
   bb scripts/pipeline.clj govuk                 # UK sub-central bodies -> sources/govuk/registered.csv
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
@@ -149,15 +149,20 @@ Two more side scripts share the same layout:
 
 - =scripts/detect-from-directories.clj= (=bb directories <command>=)
   harvests the machine-readable official directories of public bodies
-  (declarative =directory-specs=, one entry per country: NO, DE, IT,
-  CA, NL, UK, PL). Each spec belongs to one channel, and each channel
-  is one command: =registry [C…]= confirms the domains of the
-  authoritative directories into =sources/<registry>/registered.csv=
-  (Norway's =brreg=), =candidates [C…]= writes the hosts of the mixed
-  ones to =sources/directory/orgs.csv= (feeding =proposed.csv= with a
-  +4 bonus and the =directory= source tag); =harvest= runs both over
-  every spec. Unlike =detect-forges.clj= it serves the core goal; it
-  lives apart only to keep =pipeline.clj= lean.
+  described in =data/directories.edn= (specs keyed by ISO2 code, one
+  or a vector of them: NO, DE, IT, CA, NL, GB, PL, GR, CO, LV, FI, FR,
+  US; the file header documents the keys of each format). Each spec
+  belongs to one channel, at most one spec per channel and country, and
+  each channel is one command: =registry [C…]= confirms the domains of
+  the authoritative directories into =sources/<registry>/registered.csv=
+  (Norway's =brreg=, France's =lannuaire=, the US's =cisa=),
+  =candidates [C…]= writes the hosts of the mixed ones to
+  =sources/directory/orgs.csv= (feeding =proposed.csv= with a +4 bonus
+  and the =directory= source tag); =harvest= runs both over every spec. =check [YAML]= verifies that every spec URL is an =api:=
+  or =data:= entry of =sources_domains.yaml= in a sibling checkout of
+  swh-sopc-data-sources, query string aside. Unlike
+  =detect-forges.clj= it serves the core goal; it lives apart only to
+  keep =pipeline.clj= lean.
 
 Forge and source-code-catalog detection lives in its own script,
 =scripts/detect-forges.clj= (=bb forges <command>=): it shares the
@@ -302,7 +307,7 @@ central government plus the first subdivision tier and nothing below:
    state and city domains share the same structure): the central-level
    domains must be enumerated from an authoritative register into
    =sources/<registry>/registered.csv= (e.g. CISA's federal =.gov= list
-   via =bb pipeline cisa=).
+   via =bb directories registry USA_united_states=).
 
 * Prerequisites
 
@@ -324,6 +329,7 @@ central government plus the first subdivision tier and nothing below:
 | =TIMEOUT=   | HTTPS request timeout (probe), seconds          | =5=       |
 | =SWH_TOKEN= | SWH API bearer token (=bb forges scan=)           | unset   |
 | =DOH_URL=   | DNS-over-HTTPS resolver (=bb forges scan=, =catalogs=); empty: system resolver | =https://1.1.1.1/dns-query= |
+| =SOPC_DIR=  | swh-sopc-data-sources checkout read by =sopc=      | =../swh-sopc-data-sources= |
 | =CONC_WIKIDATA=, =CONC_ROR=, =CONC_IANA=, =CONC_CIA=, =CONC_UN_DESA=, =CONC_META= | countries processed in parallel by each enrichment source | 3, 2, 4, 8, 4, 4 |
 
 * Scoring (propose)
@@ -339,6 +345,7 @@ For each uncovered candidate hostname:
 | Wikidata label contains a Factbook institution name        |     +2 |
 | Listed in the country's official directory (=bb directories=) |     +4 |
 | Named a university by ror.org (=bb pipeline ror=)            |     +2 |
+| Host of a code catalog or GitHub org website of swh-sopc-data-sources (=bb pipeline sopc=) | +3 |
 | Linked from N same-country public-sector domains (=indegree=): N >= 3, 5, 10, 20 | +3, +4, +5, +6 |
 | Label suggests a territorial subdivision (Land, region, …) |     -5 |
 | 3+ Wikidata mentions, none with =federal/national/sovereign= |     -5 |

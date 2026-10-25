@@ -1,7 +1,9 @@
 (ns enrich
   "Enrichment sources: Wikidata (subdivisions, central administration,
   academia) under countries/<c>/sources/wikidata/, ROR universities under
-  countries/<c>/sources/ror/, and IANA, CIA Factbook, UN/DESA,
+  countries/<c>/sources/ror/, the hosts of the public-sector code
+  sources of swh-sopc-data-sources under countries/<c>/sources/sopc/,
+  and IANA, CIA Factbook, UN/DESA,
   OECD and country metadata as one row per country in
   data/sources/<source>.csv. build-qid, build-gec and build-un-ids
   write the country_dir -> source id files three sources read.
@@ -9,6 +11,7 @@
   (:require [common :refer :all]
             [babashka.fs :as fs]
             [cheshire.core :as json]
+            [clj-yaml.core :as yaml]
             [clojure.java.io :as io]
             [clojure.string :as str]))
 
@@ -977,19 +980,85 @@
 (defn cmd-meta [args] (iter-countries meta-process! args conc-meta))
 
 ;; ===========================================================================
+;;  sopc -- hosts of the public-sector code sources of swh-sopc-data-sources
+;; ===========================================================================
+
+(def sopc-dir
+  "A swh-sopc-data-sources checkout, next to this repository by default."
+  (or (System/getenv "SOPC_DIR") "../swh-sopc-data-sources"))
+
+(def sopc-files ["data/sources_code.yaml" "data/sources_code_maybe.yaml"])
+
+(def sopc-shared-hosts
+  "Code platforms shared by everyone: their hosts name no public body."
+  #{"github.com" "github.io" "githubusercontent.com" "gitlab.com" "gitlab.io"
+    "bitbucket.org" "codeberg.org" "framagit.org" "gitee.com" "sourceforge.net"})
+
+(defn sopc-source-hosts
+  "[host evidence] of one source of a sources_code YAML: the hosts of its
+  url, api and website (the organization's own, for a GitHub org), off
+  the shared platforms. nil for a community-run source or an
+  unverified affiliation. Pure."
+  [section {:strs [name region url api website maintainer notes]}]
+  (when-not (or maintainer (re-find #"(?i)unverified" (str notes)))
+    (let [evidence (str name (when region (str " (" region ")"))
+                        (if (= section "github_orgs") " -- GitHub org" " -- code catalog"))]
+      (for [u (concat [url website] (if (sequential? api) api [api]))
+            :let [h (extract-host (str u))]
+            :when (and h (valid-hostname? h)
+                       (not (host-covered? h sopc-shared-hosts)))]
+        [h evidence]))))
+
+(def sopc-hosts-by-iso2
+  "{ISO2 [[host evidence] …]} of every source of sopc-files; nil when
+  the checkout is missing."
+  (delay
+    (let [paths (map #(str (fs/path sopc-dir %)) sopc-files)]
+      (when (every? fs/exists? paths)
+        (apply merge-with into
+               (for [path paths
+                     [iso2 sections] (yaml/parse-string (slurp path) :keywords false)
+                     [section sources] sections]
+                 {(str iso2) (vec (mapcat #(sopc-source-hosts section %) sources))}))))))
+
+(defn sopc-process!
+  "Write countries/<c>/sources/sopc/hosts.csv (hostname,evidence): the
+  hosts of the country's code sources, deleted when it has none."
+  [country-dir]
+  (let [out  (country-src country-dir "sopc" "hosts.csv")
+        rows (->> (get @sopc-hosts-by-iso2 (ror-country-code country-dir))
+                  index-first
+                  (sort-by key))]
+    (if (empty? rows)
+      (fs/delete-if-exists out)
+      (do (write-csv-file out ["hostname" "evidence"] rows)
+          (println (str "=== " country-dir " -> " out " (" (count rows) " hosts)"))))))
+
+(defn cmd-sopc
+  "sopc-process! over the countries of args (all by default). 0 with a
+  warning, every file left as is, without a swh-sopc-data-sources
+  checkout at SOPC_DIR."
+  [args]
+  (if @sopc-hosts-by-iso2
+    (iter-countries sopc-process! args)
+    (do (err "WARN: no " (str/join ", " sopc-files) " under " sopc-dir
+             " (set SOPC_DIR); sources/sopc/ left as is")
+        0)))
+
+;; ===========================================================================
 ;;  enrich = build-qid + build-gec + build-un-ids + subdivisions, then
-;;  the seven sources in parallel
+;;  the eight sources in parallel
 ;; ===========================================================================
 
 (defn cmd-enrich
   "Run build-qid, build-gec, build-un-ids and subdivisions, then the
-  seven sources in parallel, their logs shown once all finish. 1 when a
+  eight sources in parallel, their logs shown once all finish. 1 when a
   step failed, 0 otherwise."
   [args]
   (err "-> build-qid + build-gec + build-un-ids + subdivisions…")
   (let [built (conj (mapv #(% nil) [cmd-build-qid cmd-build-gec cmd-build-un-ids])
                     (cmd-subdivisions args))
-        _     (err "-> wikidata + ror + iana + cia + un-desa + oecd + meta (all in parallel)…")
+        _     (err "-> wikidata + ror + sopc + iana + cia + un-desa + oecd + meta (all in parallel)…")
         logs  (fs/create-temp-dir)
         spawn (fn [name f]
                 (future
@@ -1007,6 +1076,7 @@
         ;; SPARQL endpoint, conc-wikidata at a time
         sources [["wikidata" #(max (cmd-wikidata %) (cmd-academia %))]
                  ["ror"      cmd-ror]
+                 ["sopc"     cmd-sopc]
                  ["iana"     cmd-iana]
                  ["cia"      cmd-cia]
                  ["un_desa"  cmd-un-desa]

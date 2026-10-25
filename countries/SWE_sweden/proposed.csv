@@ -1,11 +1,11 @@
 hostname,score,sources,label,level,http_status,mx
+digg.se,10,wikidata;linkgraph;sopc,Agency for Digital Government,central,301,5 diapmx01.digg.se.
 imy.se,10,wikidata;linkgraph,Swedish Authority for Privacy Protection,central,302,10 mx2.improve.nordlo.cloud.; 10 mx1.improve.nordlo.cloud.
 domstol.se,9,wikidata,Swedish National Courts Administration | Q97143444 | Q10501718 | Malmö District Court | Supreme Court of Sweden | Umeå District Court | Stockholm District Court | Judges Proposals Board | administrative court of appeal in Stockholm | Örebro rättscentrum | Migration Court in Gothenburg | Law Clerks Board | Q80207153 | Legal Aid Board | Borås tingsrätt | Q97143443 | Q97143442,central,301,none
 kau.se,9,wikidata;academia;ror,Karlstad University,central,302,10 kau-se.mail.protection.outlook.com.
 lu.se,9,wikidata;academia;ror,Lund University,central,301,0 lu-se.mail.protection.outlook.com.
 pts.se,9,wikidata;linkgraph,Swedish Post and Telecom Agency,central,200,0 pts-se.mail.protection.outlook.com.
 slu.se,9,wikidata;academia;ror,Swedish University of Agricultural Sciences | The Knowledge Garden at the Swedish University of Agricultural Sciences,central,302,10 slu-se.mail.protection.outlook.com.
-digg.se,8,wikidata;linkgraph,Agency for Digital Government,central,301,5 diapmx01.digg.se.
 1177.se,7,linkgraph,Linked from 22 public-sector domains,,301,10 1177-se.mail.protection.outlook.com.
 arbetsformedlingen.se,7,wikidata;linkgraph,Swedish Public Employment Service,central,200,10 smtp.arbetsformedlingen.se.
 bolagsverket.se,7,wikidata,Patent Attorneys Board | Swedish Companies Registration Office,central,IOException: HTTP/1.1 header parser received no bytes,10 ext-mail.bolagsverket.se.
@@ -120,6 +120,7 @@ gu.se,4,wikidata;academia;ror,Q10594844 | University of Gothenburg | Gothenburg 
 han.se,4,wikidata,The Higher Education Expulsions Board,central,301,20 mx02.advania.cloud.; 10 mx01.advania.cloud.
 harpsund.se,4,wikidata,Harpsund Committee,central,301,10 mailcluster.loopia.se.; 20 mail2.loopia.se.
 havochvatten.se,4,wikidata,Swedish Agency for Marine and Water Management,central,302,20 se.mx2.mx25.net.; 40 se.mx4.mx25.net.; 30 se.mx3.mailanyone.net.; 10 se.mx1.mailanyone.net.
+helsingborg.se,4,sopc,helsingborg-stad (Helsingborg) -- GitHub org,,,
 hhs.se,4,academia,House of Innovation,,,
 houseoffinance.se,4,academia,Swedish House of Finance,,,
 hovrattenfornedrenorrland.se,4,wikidata,Court of Appeal for Southern Norrland,,301,none
@@ -208,6 +209,7 @@ norrasjukvardsregionforbundet.se,4,wikidata,Northern healthcare region,,301,none
 norrbotten.se,4,wikidata,Region Norrbotten,,301,5 norrbotten-se.mail.protection.outlook.com.
 nrm.se,4,wikidata,Swedish Museum of Natural History,central,301,30 se.mx3.mailanyone.net.; 40 se.mx4.mx25.net.; 20 se.mx2.mx25.net.; 10 se.mx1.mailanyone.net.
 nunciature.se,4,wikidata,Apostolic Nunciature to Sweden,central,ConnectException,none
+offentligkod.se,4,sopc,Offentligkod -- code catalog,,,
 ohlininstitutet.se,4,academia,Q10608005,,,
 oks.se,4,wikidata,The National Board of Appeal for Student Aid,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 oks-se.mail.protection.outlook.com.
 onep.se,4,wikidata,The Ethics Review Appeals Board,central,301,0 onep-se.mail.protection.outlook.com.

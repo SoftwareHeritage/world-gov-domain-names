@@ -39,6 +39,8 @@
 ;;                      subdivisions; enrich runs it after wikidata)
 ;;   ror [C…]           universities per ror.org -> sources/ror/universities.csv
 ;;                      (needs subdivisions; candidates, never confirmed)
+;;   sopc [C…]          hosts of the code catalogs and GitHub org websites of
+;;                      swh-sopc-data-sources (SOPC_DIR) -> sources/sopc/hosts.csv
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
 ;;   un-desa [C…]       UN/DESA national portal + EGDI
@@ -62,8 +64,6 @@
 ;;                      roots crt.sh leaves empty)
 ;;   check [C…]         compile the decision files: exit 1 on a contradiction,
 ;;                      WARN on a curated row a registry already lists
-;;   cisa               fetch CISA federal .gov registry -> sources/cisa/registered.csv
-;;   lannuaire          fetch FR service-public.gouv.fr directory -> sources/lannuaire/registered.csv
 ;;   esr                fetch FR public higher-education institutions -> sources/esr/registered.csv
 ;;   govuk              build UK sub-central list -> GBR sources/govuk/registered.csv
 ;;   validate-un        check un_status against the official UN member list
@@ -741,10 +741,11 @@
   Factbook institution phrases), :un-portal-host, :cctld-primary
   (without the dot), :indegree (nil when absent from the link graph),
   :directory-listed?, :ror-listed? (a university per ror.org),
+  :sopc-listed? (a public-sector code source of swh-sopc-data-sources),
   :subdiv-penalty? (default true; false for a host already known as
   subnational)."
   [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary
-           indegree directory-listed? ror-listed? subdiv-penalty?]
+           indegree directory-listed? ror-listed? sopc-listed? subdiv-penalty?]
     :or {subdiv-penalty? true}}]
   (let [label (or label "")
         un?           (= host un-portal-host)
@@ -775,6 +776,8 @@
                  (if directory-listed? 4 0)
                  ;; ROR names a university but says nothing of its sector
                  (if ror-listed?  2 0)
+                 ;; the body publishes code: public, level unknown
+                 (if sopc-listed? 3 0)
                  (if on-cctld?    1 0)
                  (if gov-host?    1 0)
                  (if fb-match?    2 0)
@@ -809,7 +812,7 @@
 (defn- candidate-row
   "One [hostname score sources label level] row of host from a
   load-candidate-ctx context. Pure."
-  [{:keys [wd-by-host ac-by-host lg-by-host dir-by-host ror-by-host
+  [{:keys [wd-by-host ac-by-host lg-by-host dir-by-host ror-by-host sopc-by-host
            un-portal-host fb-phrases cctld-primary]
     :as ctx}
    h]
@@ -819,6 +822,7 @@
         linked-n (get lg-by-host h)
         dir-info (get dir-by-host h)
         ror-info (get ror-by-host h)
+        sopc-info (get sopc-by-host h)
         label (cond-> (str/join " | " labels)
                 un? (str (when (seq labels) " | ")
                          "UN/DESA national portal"))
@@ -828,6 +832,7 @@
                 (not (str/blank? label)) label
                 (seq (:evidence dir-info)) (:evidence dir-info)
                 (seq (:label ror-info)) (:label ror-info)
+                (seq (:evidence sopc-info)) (:evidence sopc-info)
                 linked-n (str "Linked from " linked-n
                               " public-sector domains")
                 :else label)
@@ -838,7 +843,8 @@
                   (pos? ac-cnt)      (conj "academia")
                   linked-n           (conj "linkgraph")
                   dir-info           (conj "directory")
-                  ror-info           (conj "ror"))
+                  ror-info           (conj "ror")
+                  sopc-info          (conj "sopc"))
         level (candidate-level ctx h label)
         score (score-candidate
                 {:host h :wd-count cnt :label label
@@ -848,6 +854,7 @@
                  :indegree linked-n
                  :directory-listed? (some? dir-info)
                  :ror-listed? (some? ror-info)
+                 :sopc-listed? (some? sopc-info)
                  ;; the anti-subnational penalties catch entities
                  ;; *pretending* central
                  :subdiv-penalty?
@@ -878,7 +885,7 @@
   mentions and levels (central administration and academia, the
   latter also apart to tag its sources), the UN/DESA portal, the ccTLD, the Factbook
   courts, the link-graph in-degrees, the directory listing, the ror
-  universities, the first-level subdivision labels, the confirmed domains of every
+  universities, the code-source hosts, the first-level subdivision labels, the confirmed domains of every
   country and the excluded ones of this country."
   [country-dir]
   (let [src #(country-src country-dir %1 %2)
@@ -897,6 +904,8 @@
                                     [hostname {:evidence (or evidence "")}]))
      :ror-by-host    (index-first (for [{:strs [hostname label level]} (read-csv-file (src "ror" "universities.csv"))]
                                     [hostname {:label (or label "") :level (or level "")}]))
+     :sopc-by-host   (index-first (for [{:strs [hostname evidence]} (read-csv-file (src "sopc" "hosts.csv"))]
+                                    [hostname {:evidence (or evidence "")}]))
      :un-portal-host (extract-host (table-field "un_desa" country-dir "national_portal"))
      :fb-phrases     (extract-factbook-phrases (table-field "cia_factbook" country-dir "judicial_highest_courts"))
      :cctld-primary  (not-empty (str/replace (table-field "iana" country-dir "cctld") #"^\." ""))
@@ -910,11 +919,12 @@
   that no confirmed or excluded domain covers, scored and levelled by
   candidate-row, local ones dropped. [hostname score sources label
   level] rows, best scores first. Pure."
-  [{:keys [wd-by-host lg-by-host dir-by-host ror-by-host un-portal-host known excluded] :as ctx}]
+  [{:keys [wd-by-host lg-by-host dir-by-host ror-by-host sopc-by-host un-portal-host known excluded] :as ctx}]
   (->> (cond-> (-> (set (keys wd-by-host))
                    (into (keys lg-by-host))
                    (into (keys dir-by-host))
-                   (into (keys ror-by-host)))
+                   (into (keys ror-by-host))
+                   (into (keys sopc-by-host)))
          un-portal-host (conj un-portal-host))
        (filter valid-hostname?)
        (remove #(host-covered? % known))
@@ -1307,6 +1317,7 @@
    "wikidata"    enrich/cmd-wikidata
    "academia"    enrich/cmd-academia
    "ror"         enrich/cmd-ror
+   "sopc"        enrich/cmd-sopc
    "iana"        enrich/cmd-iana
    "cia"         enrich/cmd-cia
    "un-desa"     enrich/cmd-un-desa
@@ -1322,8 +1333,6 @@
    "probe-proposed" cmd-probe-proposed
    "wayback"     cmd-wayback
    "check"       cmd-check
-   "cisa"        registries/cmd-cisa
-   "lannuaire"   registries/cmd-lannuaire
    "esr"         registries/cmd-esr
    "govuk"       registries/cmd-govuk
    "validate-un" registries/cmd-validate-un
@@ -1338,10 +1347,10 @@
   (println "Targeted commands:")
   (println "  collect: fetch | retry | normalize | probe | mx | probe-roots")
   (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
-  (println "           wikidata | academia | ror | iana | cia | un-desa | oecd | meta")
+  (println "           wikidata | academia | ror | sopc | iana | cia | un-desa | oecd | meta")
   (println "  build:   aggregate | domains")
   (println "  report:  propose | summary")
-  (println "  other:   probe-proposed | wayback | check | cisa | lannuaire | esr | govuk | validate-un | indegree")
+  (println "  other:   probe-proposed | wayback | check | esr | govuk | validate-un | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)

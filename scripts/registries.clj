@@ -1,8 +1,10 @@
 (ns registries
-  "Official registries feeding sources/<registry>/registered.csv: CISA
-  (US federal .gov), lannuaire (FR central administrations), esr (FR
-  public higher-education institutions), govuk (UK sub-central bodies), plus the UN-membership check of
-  data/world-governments.csv. pipeline.clj dispatches."
+  "Official registries feeding sources/<registry>/registered.csv: esr
+  (FR public higher-education institutions), govuk (UK sub-central
+  bodies), plus the UN-membership check of data/world-governments.csv.
+  The directories of public bodies (CISA, lannuaire…) are specs of
+  data/directories.edn, harvested by detect-from-directories.clj.
+  pipeline.clj dispatches."
   (:require [common :refer :all]
             [enrich :as enrich]
             [babashka.http-client :as http]
@@ -11,62 +13,8 @@
             [clojure.string :as str]))
 
 ;; ===========================================================================
-;;  Registries -- CISA (US), lannuaire and ESR (FR)
+;;  Registries -- ESR (FR)
 ;; ===========================================================================
-
-(def cisa-federal-url
-  "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv")
-
-(defn cmd-cisa [_]
-  ;; Fetch CISA's authoritative federal .gov registry into
-  ;; sources/cisa/registered.csv (every domain, level central). Every entry
-  ;; is a verified US federal executive/legislative/judicial domain, so
-  ;; this is the clean central-gov source for the US -- preferred over a
-  ;; bare 'gov' suffix, which false-matches 'government.com', 'govtech.io'…
-  (let [body (http-get cisa-federal-url {:timeout 60})]
-    (if (str/blank? body)
-      (do (err "ERR: CISA fetch failed (" cisa-federal-url ")") 1)
-      (let [domains (->> (rest (csv/read-csv (java.io.StringReader. body)))
-                         (keep #(some-> (first %) str/trim str/lower-case))
-                         (filter valid-hostname?)
-                         distinct
-                         sort)
-            out (registered-file "USA_united_states" "cisa")]
-        (write-registered! "USA_united_states" "cisa" (for [d domains] [d "central"]))
-        (println (str "Wrote " out " (" (count domains) " federal .gov domains from CISA)"))
-        0))))
-
-(def lannuaire-url
-  (str "https://api-lannuaire.service-public.fr/api/explore/v2.1/catalog/"
-       "datasets/api-lannuaire-administration/exports/json"))
-
-(defn cmd-lannuaire [_]
-  ;; Fetch France's official national administration directory into
-  ;; sources/lannuaire/registered.csv: distinct .fr registrable domains of the central
-  ;; administrations (ministries + central services). The .fr filter drops
-  ;; the international-org cross-references (imf.org, wmo.int, ...) that
-  ;; pollute the listed websites.
-  (let [where "type_organisme=\"Administration centrale (ou Ministère)\""
-        body (http-get lannuaire-url
-                       {:timeout 90
-                        :query-params {"select" "site_internet" "where" where}})]
-    (if (str/blank? body)
-      (do (err "ERR: lannuaire fetch failed") 1)
-      (let [domains (->> (json/parse-string body true)
-                         (mapcat (fn [r]
-                                   (when-let [si (:site_internet r)]
-                                     (map :valeur (try (json/parse-string si true)
-                                                       (catch Exception _ nil))))))
-                         (keep extract-host)
-                         (keep parent-domain)
-                         (filter #(str/ends-with? % ".fr"))
-                         (filter valid-hostname?)
-                         distinct
-                         sort)
-            out (registered-file "FRA_france" "lannuaire")]
-        (write-registered! "FRA_france" "lannuaire" (for [d domains] [d "central"]))
-        (println (str "Wrote " out " (" (count domains) " .fr central-admin domains)"))
-        0))))
 
 (def esr-url
   (str "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/"
@@ -77,9 +25,10 @@
   site does not name one: off .fr, only a site at the apex of its domain
   counts (unc.nc, psl.eu, ensci.com…), a deeper host may sit on a shared
   provider (ifao.egnet.net). Under .fr a deeper host names its parent
-  (engees.unistra.fr -> unistra.fr), as lannuaire does, except under
-  gouv.fr, the state's shared domain, curated and harvested already: a
-  school hosted there (insp.gouv.fr) adds nothing. Pure."
+  (engees.unistra.fr -> unistra.fr), as the lannuaire spec does,
+  except under gouv.fr, the state's shared domain, curated and
+  harvested already: a school hosted there (insp.gouv.fr) adds nothing.
+  Pure."
   [url]
   (when-let [host (extract-host url)]
     (when-let [domain (parent-domain host)]

@@ -15,6 +15,7 @@ juntadeandalucia.es,10,wikidata;linkgraph,"Jaen University Hospital | Q10862925 
 madrid.org,10,wikidata;linkgraph,"Consejería de Educación, Juventud y Deporte | Government of the Community of Madrid | Oficina Regional de Coordinación de Salud Mental | Servicio Madrileño de Salud",central-1,ConnectException,20 mail.madrid.org.; 10 mx2.hc1855-42.eu.iphmx.com.; 10 mx1.hc1855-42.eu.iphmx.com.
 navarra.es,10,wikidata;linkgraph,Government of Navarra | Departamento de Salud (Navarre) | Servicio Navarro de Salud-Osasunbidea | Policía Foral,central-1,301,10 smtp2.navarra.es.; 10 smtp3.navarra.es.
 ordenacionjuego.es,10,wikidata;linkgraph,Dirección General de Ordenación del Juego,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+euskadi.eus,9,wikidata;sopc,"Q124394603 | Basque Government | Ekonomiaren Garapen eta Lehiakortasun Saila | Ekonomiaren Garapen, Jasangarritasun eta Ingurumen Saila | Department of Health",central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mxa-00a30b02.gslb.pphosted.com.; 10 mxb-00a30b02.gslb.pphosted.com.
 gobiernodecanarias.org,9,wikidata;academia;linkgraph,"Caldera de Taburiente National Park | Agencia Canaria de Investigación, Innovación y Sociedad de la Información | Cuerpo General de Policía Canaria | Gobierno de Canarias | Instituto Canario de Ciencias Marinas",central-1,301,10 smtp-tf.gobiernodecanarias.org.; 10 smtp-lp.gobiernodecanarias.org.
 red.es,9,wikidata;linkgraph,Red.es,central,308,10 red-es.mail.protection.outlook.com.
 uam.es,9,academia;ror,Autonomous University of Madrid | University Institute of Women's Studies,central-1,,
@@ -178,6 +179,7 @@ traballoebenestar.xunta.es,7,wikidata,"Consellería de Economía, Emprego e Indu
 unioviedo.es,7,wikidata;academia,Joint Institute for Biodiversity Research | MediaLab Uniovi,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching unioviedo.es found.,0 unioviedo-es.mail.protection.outlook.com.
 webific.ific.uv.es,7,wikidata;academia,Instituto de Física Corpuscular,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 ifmx.ific.uv.es.
 agaur.gencat.cat,6,wikidata,Agency for Administration of University and Research,,301,none
+amtega.xunta.gal,6,wikidata;sopc,Q12383972,,301,10 mail.xunta.es.
 apfsc.com,6,wikidata,Port Authority of Ferrol-San Cibrao,,301,10 apfsc-com.mail.protection.outlook.com.
 apmarin.com,6,wikidata,Port Authority of Marín and Ría de Pontevedra,,200,0 apmarin-com.mail.protection.outlook.com.
 araba.eus,6,wikidata,Álava Foral Council,,302,20 arabaeus.in.tmes.trendmicro.eu.
@@ -199,7 +201,6 @@ escolapiosbetania.org,6,wikidata,Piarist Province of Bethany,,200,10 mail.escola
 escolapiosemaus.org,6,wikidata,Piarist Province of Emmaus,,301,10 escolapiosemaus-org.mail.protection.outlook.com.
 esport.gencat.cat,6,wikidata;academia,Q47466681 | Museum and Study Center of Sport Doctor Melcior Colet,central-1,301,none
 eu.eustat.eus,6,wikidata;academia,Basque Statistics Office,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-euskadi.eus,6,wikidata,"Q124394603 | Basque Government | Ekonomiaren Garapen eta Lehiakortasun Saila | Ekonomiaren Garapen, Jasangarritasun eta Ingurumen Saila | Department of Health",central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mxa-00a30b02.gslb.pphosted.com.; 10 mxb-00a30b02.gslb.pphosted.com.
 exteriors.gencat.cat,6,wikidata;academia,Ministry for Foreign Action and European Union | Catalan Public Sector Contracts Court | Contemporary Issues Studies Centre,central-1,301,none
 gencat.cat,6,wikidata,Institut Català de les Empreses Culturals | Ministry of Health of the Government of Catalonia | Catalan Food Safety Agency | Economy and Treasury ministry of Catalunya,central-1,200,5 mx2.hc489-80.eu.iphmx.com.; 5 mx1.hc489-80.eu.iphmx.com.
 govern.cat,6,wikidata,Government of Catalonia,central-1,403,none
@@ -391,6 +392,7 @@ cthu.es,4,wikidata,Q5784305,,301,10 mail.cthu.es.
 ctja.es,4,wikidata,Q5784316,,200,10 mail.ctja.es.
 cufpn.es,4,wikidata,National Police University Training Centre,,HttpConnectTimeoutException: HTTP connect timed out,10 mxb-00825801.gslb.pphosted.com.; 10 mxa-00825801.gslb.pphosted.com.
 cvc.uab.es,4,academia,Computer Vision Center,,,
+desarrollo.juntadeandalucia.es,4,sopc,Disponibilidad pública del software (Andalucía) -- code catalog,,,
 digital.csic.es,4,academia,Instituto de Física Aplicada,,,
 ebd.csic.es,4,academia,Doñana Biological Station,central,,
 ecofin.es,4,academia,Ecofin Forum,,,
@@ -558,6 +560,7 @@ pazyconvivencia.navarra.es,4,wikidata,"General Direction of Peace, Coexistence a
 pnsierrassubbeticas.es,4,academia,Jardín micológico La Trufa,,,
 policia.murcia.es,4,wikidata,Policía Local de Murcia,,200,none
 portovilagarcia.es,4,wikidata,Port of Vilagarcía,,200,6 mx-02-eu-west-1.prod.hydra.sophos.com.; 5 mx-01-eu-west-1.prod.hydra.sophos.com.
+programarilliure.caib.es,4,sopc, (Illes Balears) -- code catalog,,,
 puertodemelilla.es,4,wikidata,Port Authority of Melilla,,301,10 puertodemelilla-es.mail.protection.outlook.com.
 puertogijon.es,4,wikidata,Autoridad Portuaria de Gijon,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 puertogijon-es.mail.protection.outlook.com.
 puertos.es,4,wikidata,Ports of the State,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,dig error
@@ -584,6 +587,7 @@ sepes.es,4,wikidata,CASA 47,,SSLHandshakeException: (certificate_expired) PKIX p
 servef.es,4,wikidata,Q13527036,,ConnectException,none
 ses.san.gva.es,4,wikidata,Q116240713,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 sodercan.es,4,wikidata,Sodercan,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 sodercan-es.mail.protection.outlook.com.
+softwarelibre.juntadeandalucia.es,4,sopc, (Andalucía) -- code catalog,,,
 suma.es,4,wikidata,Suma Gestión Tributaria,,ConnectException,10 suma-es.mail.protection.outlook.com.
 tekniker.es,4,academia,Tekniker,,,
 terranostrum.es,4,academia,Jardín Botánico de Miranda de Ebro,,,
@@ -616,7 +620,6 @@ aimplas.net,3,academia,Asociacion De Investigacion De Materiales Plasticos Y Con
 alfonselmagnanim.net,3,academia,Institución Alfonso el Magnánimo,,,
 ambardcmadrid.com,3,wikidata,embassy of Democratic Republic of the Congo in Spain,central,200,10 mx01.ionos.es.; 10 mx00.ionos.es.
 amchamspain.com,3,wikidata,American Chamber of Commerce in Spain (AmChamSpain),,301,0 amchamspain-com.mail.protection.outlook.com.
-amtega.xunta.gal,3,wikidata,Q12383972,,301,10 mail.xunta.es.
 andaltec.org,3,academia,Fundación Andaltec I+D+i,,,
 andalucia.org,3,academia,Jardín Botánico El Aljibe,,,
 antifrau.cat,3,wikidata,Oficina Antifrau de Catalunya,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx1.hc489-80.eu.iphmx.com.; 5 mx2.hc489-80.eu.iphmx.com.
@@ -760,6 +763,7 @@ editorial.us.es,3,ror,Editorial Universidad de Sevilla,central-1,,
 efe.com,3,wikidata,Agencia EFE,,HttpTimeoutException: request timed out,20 alt2.aspmx.l.google.com.; 30 aspmx2.googlemail.com.; 20 alt1.aspmx.l.google.com.; 10 aspmx.l.google.com.; 30 aspmx5.googlemail.com.; 30 aspmx3.googlemail.com.; 30 aspmx4.googlemail.com.
 efi.int,3,academia,European Forest Institute,,,
 egaz.eus,3,wikidata,Egaz Txorierri,,200,10 mail.egaz.eus.
+eira.mancomun.gal,3,sopc,"A Eira, repositorio de software libre da Xunta (Galicia) -- code catalog",,,
 ejie.euskadi.eus,3,wikidata,EJIE,,ConnectException,none
 ekcit.eu,3,academia,EKCIT,,,
 elclubdelosviernes.org,3,academia,El Club de los Viernes,,,
@@ -933,6 +937,7 @@ odiseia.org,3,academia,Observatory of the Social and Ethical Impact of Artificia
 oeg-upm.net,3,academia,Ontology Engineering Group,,,
 ogasun.ejgv.euskadi.net,3,wikidata,Treasury and Finance Department,central-1,SSLHandshakeException: (handshake_failure) received handshake warning: unrecognized_name,none
 olotcultura.cat,3,academia,Q9010931,,,
+openapps.euskadi.eus,3,sopc, (Euskadi) -- code catalog,,,
 orchidariumestepona.com,3,academia,Orchidarium Estepona,,,
 osakidetza.euskadi.eus,3,wikidata,Osakidetza,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 osalan.euskadi.eus,3,wikidata,Q25405671,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

@@ -1,11 +1,13 @@
 hostname,score,sources,label,level,http_status,mx
+edmonton.ca,10,wikidata;academia;sopc,Edmonton Fire Rescue Services | Muttart Conservatory,,301,none
 elections.ca,10,wikidata;directory,Elections Canada,central,200,10 mail.elections.ca.
 gg.ca,10,wikidata;directory,Canadian Heraldic Authority,,200,10 d171536b.ess.barracudanetworks.com.; 45 gateway.gg.ca.; 5 d171536a.ess.barracudanetworks.com.
 gnb.ca,10,wikidata;linkgraph;directory,Court of King's Bench of New Brunswick | Government of New Brunswick | Department of Education and Early Childhood Development,central-1,403,0 gnb-ca.mail.protection.outlook.com.
 gov.bc.ca,10,wikidata;linkgraph,Ministry of Forests Lands and Natural Resource Operations (British Columbia) | Ministry of Environment,,302,0 gov-bc-ca.mail.protection.outlook.com.
 gov.mb.ca,10,wikidata;linkgraph,"Minister of Labour and Immigration | Legislative Assembly of Manitoba | Department of Infrastructure | Manitoba Agriculture, Food and Rural Initiatives | Manitoba Health",central-1,400,10 mxb-004a1001.gslb.pphosted.com.; 10 mxa-004a1001.gslb.pphosted.com.
-ontario.ca,10,wikidata;linkgraph,"Ministry of Education | Ministry of Colleges and Universities | Ministry of Transportation | Ontario Ministry of Natural Resources and Forestry | Office of the Chief Coroner for Ontario | Government of Ontario | Ministry of Economic Development, Trade and Employment | Ministry of the Environment, Conservation and Parks",central-1,HttpConnectTimeoutException: HTTP connect timed out,0 ontario-ca.mail.protection.outlook.com.
-quebec.ca,10,wikidata;academia;linkgraph,"Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | Q138574035 | Ministry of Immigration, Francisation and Integration | Q135221241",central-1,301,5 quebec-ca.mail.protection.outlook.com.
+montreal.ca,10,wikidata;sopc,Saint-Leonard borough council | Accès culture,central-1,200,0 montreal-ca.mail.protection.outlook.com.
+ontario.ca,10,wikidata;linkgraph;sopc,"Ministry of Education | Ministry of Colleges and Universities | Ministry of Transportation | Ontario Ministry of Natural Resources and Forestry | Office of the Chief Coroner for Ontario | Government of Ontario | Ministry of Economic Development, Trade and Employment | Ministry of the Environment, Conservation and Parks",central-1,HttpConnectTimeoutException: HTTP connect timed out,0 ontario-ca.mail.protection.outlook.com.
+quebec.ca,10,wikidata;academia;linkgraph;sopc,"Correctional Service of Quebec | Q136231595 | Services Québec | Q110616906 | Q138574035 | Ministry of Immigration, Francisation and Integration | Q135221241",central-1,301,5 quebec-ca.mail.protection.outlook.com.
 saskatchewan.ca,10,wikidata;linkgraph,Ministry of Health | Ministry of Agriculture of Saskatchewan,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 sp-saskatchewan-ca.mail.protection.outlook.com.
 scics.ca,10,wikidata;directory,Canadian Intergovernmental Conference Secretariat,,200,0 scics-ca.mail.protection.outlook.com.
 viarail.ca,10,wikidata;directory,Via Rail Police Service,central,301,10 mxb-001f3001.gslb.pphosted.com.; 10 mxa-001f3001.gslb.pphosted.com.
@@ -92,7 +94,6 @@ crrf-fcrr.ca,7,wikidata,Canadian Race Relations Foundation,,200,0 mail.crrf-fcrr
 csdla.qc.ca,7,wikidata,Centre de services scolaire du Lac-Abitibi | Q52149481,,301,0 csdla-qc-ca.mail.protection.outlook.com.
 cslt.qc.ca,7,wikidata,Q52149637 | Centre de services scolaire du Lac-Témiscamingue,,ConnectException,0 cslt-qc-ca.mail.protection.outlook.com.
 csvt.qc.ca,7,wikidata,Commission scolaire de la Vallée-des-Tisserands | Centre de services scolaire de la Vallée-des-Tisserands,,403,0 csvt-qc-ca.mail.protection.outlook.com.
-edmonton.ca,7,wikidata;academia,Edmonton Fire Rescue Services | Muttart Conservatory,,301,none
 flysudbury.ca,7,wikidata,Sudbury Airport,,200,none
 greatlakes-seaway.com,7,wikidata;directory,St. Lawrence Seaway Management Corporation,,302,none
 hamilton.ca,7,wikidata,Hamilton Fire Department | Hamilton Street Railway,,301,10 hamilton-ca.mail.protection.outlook.com.
@@ -104,7 +105,6 @@ leduc.ca,7,wikidata,Leduc,,301,0 leduc-ca.mail.protection.outlook.com.
 leg.bc.ca,7,wikidata,Legislative Assembly of British Columbia,central-1,308,none
 legassembly.sk.ca,7,wikidata,Legislative Assembly of Saskatchewan,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 legassembly-sk-ca.mail.protection.outlook.com.; 5 smtp.legassembly.sk.ca.
 legnb.ca,7,wikidata,Legislative Assembly of New Brunswick,central-1,200,0 legnb-ca.mail.protection.outlook.com.
-montreal.ca,7,wikidata,Saint-Leonard borough council | Accès culture,central-1,200,0 montreal-ca.mail.protection.outlook.com.
 nfsb.qc.ca,7,wikidata,New Frontiers School Board,,301,0 nfsb-qc-ca.mail.protection.outlook.com.
 nslegislature.ca,7,wikidata,Nova Scotia House of Assembly,central-1,HttpConnectTimeoutException: HTTP connect timed out,10 nslegislature-ca.mail.protection.outlook.com.
 ntassembly.ca,7,wikidata,Legislative Assembly of the Northwest Territories,central-1,HttpConnectTimeoutException: HTTP connect timed out,120 mailgate22.gov.nt.ca.; 120 mailgate11.gov.nt.ca.; 120 mailgate21.gov.nt.ca.; 100 mailgate.gov.nt.ca.; 10 ntassembly-ca.mail.protection.outlook.com.
@@ -231,6 +231,7 @@ curateur.gouv.qc.ca,5,wikidata,Q3007613,central-1,302,none
 cyqm.ca,5,directory,Greater Moncton International Airport Authority Inc.,,301,none
 data.geology.gov.yk.ca,5,wikidata,Yukon Geological Survey,,403,none
 debates-debats.ca,5,directory,Leaders’ Debates Commission,,302,none
+developer.gov.bc.ca,5,sopc,bcgov (British Columbia) -- GitHub org,,,
 downsviewpark.ca,5,directory,Parc Downsview Park Inc.,,200,none
 ecoledespompiers.gouv.qc.ca,5,wikidata,Q16507824,,301,none
 edc.ca,5,directory,Export Development Canada,,301,0 edc-ca.mail.protection.outlook.com.
@@ -241,9 +242,11 @@ ethique.gouv.qc.ca,5,wikidata,Commission on Ethics in Science and Technology,cen
 fcc-fac.ca,5,directory,Farm Credit Canada,,301,none
 federalbridge.ca,5,directory,The Federal Bridge Corporation Limited,,200,20 d406168.b.ess.ca.barracudanetworks.com.; 10 d406168.a.ess.ca.barracudanetworks.com.; 60 federalbridge-ca.mail.protection.outlook.com.
 flylondon.ca,5,directory,Greater London International Airport Authority,,403,none
+forge.gouv.qc.ca,5,sopc,Forge gouvernementale (Québec) -- code catalog,,,
 frederictonairport.ca,5,directory,Fredericton International Airport Authority Inc.,,301,none
 frq.gouv.qc.ca,5,wikidata,Fonds de recherche du Québec,central-1,200,10 frq-gouv-qc-ca.mail.eo.outlook.com.
 gallery.ca,5,directory,National Gallery of Canada,,301,none
+gitlab.forge.gouv.qc.ca,5,sopc,Forge gouvernementale (Québec) -- code catalog,,,
 gouv.qc.ca,5,linkgraph,Linked from 3 public-sector domains,,ConnectException,none
 gov.nt.ca,5,wikidata,Northwest Territories Department of Environment and Climate Change,,ConnectException,none
 habitation.gouv.qc.ca,5,wikidata,Société d'habitation du Québec,central-1,403,5 habitation-gouv-qc-ca.mail.protection.outlook.com.
@@ -499,6 +502,7 @@ district11.nbed.nb.ca,4,wikidata,New Brunswick School District 11,central-1,302,
 district3.nbed.nb.ca,4,wikidata,New Brunswick School District 03,central-1,302,none
 district5.nbed.nb.ca,4,wikidata,New Brunswick School District 05,central-1,302,none
 district9.nbed.nb.ca,4,wikidata,New Brunswick School District 09,central-1,302,none
+donnees.montreal.ca,4,sopc,Logiciels libres entretenus par la Ville de Montréal (Montréal) -- code catalog,,,
 douglas.research.mcgill.ca,4,academia,Douglas-Bell Canada Brain Bank,,,
 douglascoldwelllayton.ca,4,academia,Douglas Coldwell Layton Foundation,,,
 douglascollege.ca,4,academia,Douglas College,central-1,,
@@ -895,6 +899,7 @@ bamfieldmsc.com,3,academia,Bamfield Marine Sciences Centre,,,
 banq-saint-sulpice.business.site,3,wikidata,Saint-Sulpice Library,,404,none
 baycrest.org,3,academia,Rotman Research Institute,,,
 bcblueberry.com,3,wikidata,British Columbia Blueberry Council,,301,none
+bcdevexchange.org,3,sopc,BC Developers' Exchange (British Columbia) -- code catalog,,,
 bci-qc.ca,3,ror,Bureau de Coopération Interuniversitaire,central-1,,
 bcit.ca,3,ror,British Columbia Institute of Technology,central-1,,
 bgcdsb.org,3,wikidata,Bruce-Grey Catholic District School Board,,301,10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.

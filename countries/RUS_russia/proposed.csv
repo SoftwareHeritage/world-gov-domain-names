@@ -1,4 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
+cikrf.ru,10,wikidata;sopc,Central Election Commission of Russia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.cikrf.ru.
 government.ru,10,un_desa;wikidata,Government of Russia | UN/DESA national portal,central,HttpConnectTimeoutException: HTTP connect timed out,5 mx4.gov.ru.
 kantiana.ru,9,academia;ror,Botanical Garden of the Baltic Federal University Kant | Immanuel Kant Baltic Federal University,central,,
 kpfu.ru,9,academia;ror,Kazan Federal University | Yelabuga institute of Kazan Federal University,central,,
@@ -7,7 +8,6 @@ msu.ru,9,academia;ror,Lomonosov Moscow State University | Q21662403,central,,
 akzs.ru,7,wikidata,Altai Krai Legislative Assembly,central-1,200,10 mx.alregn.ru.
 arbitr.ru,7,wikidata,Q4068672 | Supreme Court of Arbitration of Russia,central,200,5 mx1.arbitr.ru.
 cardioweb.ru,7,academia,Institute of Experimental Cardiology | National Medical Research Center of Cardiology,central,,
-cikrf.ru,7,wikidata,Central Election Commission of Russia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.cikrf.ru.
 coal.sbras.ru,7,academia,Federal Research Centre Coal and Coal Chemistry | Institute of Coal,central,,
 cplire.ru,7,academia,Saratov Branch of the Kotelnikov Institute of Radio Engineering and Electronics | V.A. Kotelnikov Institute of Radio-engineering and Electronics,central,,
 culture.volgograd.ru,7,wikidata,Committee of Culture of the Volgograd Oblast,central-1,HttpConnectTimeoutException: HTTP connect timed out,none

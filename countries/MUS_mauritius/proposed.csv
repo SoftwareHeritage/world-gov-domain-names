@@ -1,4 +1,5 @@
 hostname,score,sources,label,level,http_status,mx
+ncb.mu,7,wikidata;sopc,National Computer Board,,ConnectException,none
 agriculture.govmu.org,6,wikidata,Ministry of Agro Industry and Food Security,central,302,none
 gender.govmu.org,6,wikidata,"Ministry of Gender Equality, Child Development and Family Welfare",central,302,none
 health.govmu.org,6,wikidata,Ministry of Health and Quality of Life,central,301,none
@@ -12,7 +13,6 @@ bom.mu,4,wikidata,Bank of Mauritius,,SSLHandshakeException: (handshake_failure) 
 hec.mu,4,wikidata,Higher Education Commission,,200,0 hec-mu.mail.protection.outlook.com.; 5 ASPMX.L.GOOGLE.com.; 10 ALT4.ASPMX.L.GOOGLE.com.; 5 ALT2.ASPMX.L.GOOGLE.com.; 10 ALT3.ASPMX.L.GOOGLE.com.; 5 ALT1.ASPMX.L.GOOGLE.com.
 icac.mu,4,wikidata,Independent Commission Against Corruption,,301,0 icac-mu.mail.protection.outlook.com.
 msb.intnet.mu,4,wikidata,Mauritius Standards Bureau,,302,0 msb-intnet-mu.mail.protection.outlook.com.
-ncb.mu,4,wikidata,National Computer Board,,ConnectException,none
 udm.ac.mu,4,academia,Université des Mascareignes,central,,
 eeas.europa.eu,3,wikidata,Delegation of the European Union to Mauritius and to the Seychelles,central,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
 mauritius.mid.ru,3,wikidata,embassy of Russia in Mauritius,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
