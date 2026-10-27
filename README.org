@@ -56,7 +56,8 @@ Two ready-to-use CSV files, covering UN members and observers only:
 One directory per country (=FRA_france=, =USA_united_states=, …), with:
 
 - =curated.csv= -- the confirmed domains, decided by hand
-  (=domain,level,name=). The place to add a domain.
+  (=domain,level,name,kind=, =kind= =exact= only for a root shared
+  with a lower tier). The place to add a domain.
 - =excluded.csv= -- what is out of scope altogether, as full hostnames
   (=domain,reason=): rejected proposals (not a public body, a typo…).
   A domain listed here never comes back in =proposed.csv=.

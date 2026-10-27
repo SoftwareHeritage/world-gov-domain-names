@@ -620,13 +620,6 @@
                   m)))
             {} pairs)))
 
-(defn central1-under
-  "{[country root] #{label…}} of the confirmed central-1 domains sitting
-  directly under a confirmed central root: the exact rows of the policy
-  table."
-  []
-  (labels-under-central (for [[c d level] (confirmed-rows) :when (= level "central-1")] [c d])))
-
 (def excluded-domains
   "{country_dir #{domain…}} of every countries/<c>/excluded.csv."
   (delay (into {} (for [c (country-dirs)] [c (set (map first (read-excluded c)))]))))
@@ -918,13 +911,14 @@
 
 (defn propose-country!
   "Write countries/<c>/proposed.csv
-  (domain,level,name,score,sources): the ranked candidates, the first
-  three columns as in curated.csv."
+  (domain,level,name,kind,score,sources): the ranked candidates, the
+  first four columns as in curated.csv, kind blank (subtree) for the
+  curation to set."
   [country-dir]
   (let [out  (str "countries/" country-dir "/proposed.csv")
         rows (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))]
-               [h lvl lbl (str sc) src])]
-    (write-csv-file out ["domain" "level" "name" "score" "sources"] rows)
+               [h lvl lbl "" (str sc) src])]
+    (write-csv-file out ["domain" "level" "name" "kind" "score" "sources"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))))
 
 (defn cmd-propose [args] (iter-countries propose-country! args))
@@ -1103,9 +1097,10 @@
          (not (contains? (set excl2) label)))))
 
 (defn- prune-covered
-  "Drop [domain excl apex?] entries already covered by another entry."
+  "Drop [domain excl apex?] entries already covered by another entry,
+  apexes aside: an exact row under a subtree takes its own subtree out."
   [entries]
-  (filter (fn [[d _]] (not-any? #(covered-by? d %) entries)) entries))
+  (filter (fn [[d _ apex?]] (or apex? (not-any? #(covered-by? d %) entries))) entries))
 
 (defn- central-plus-rows
   "[domain country level] of every confirmed central and central-1
@@ -1124,19 +1119,17 @@
   (domain,kind,country) from the confirmed central and central-1
   domains: `subtree` covers a domain and everything below it, `exact`
   a domain alone, `exclude` keeps a domain and everything below it
-  out; the longest matching domain decides. A central-1 domain
-  directly under a central root becomes an exact row, a local or
-  excluded label under one an exclude row, and a domain a root already
-  covers is dropped. A domain confirmed in several countries gets one
+  out; the longest matching domain decides. A domain is a subtree row
+  unless curated.csv gives it the kind exact (a root shared with a
+  lower tier), a local or excluded label directly under a central root
+  an exclude row, and a domain a subtree already covers is dropped. A
+  domain confirmed in several countries gets one
   row, for the country confirming it at the highest level (central
   before central-1), the first in ASCII order on a tie."
   [_]
   (let [rows (central-plus-rows)
         excl (local-labels)
-        c1-under (central1-under)
-        apexes (set (for [[[c root] labels] c1-under
-                          label labels]
-                      [c (str label "." root)]))
+        apexes (set (for [[c d _ _ _ kind] (confirmed-rows) :when (= kind "exact")] [c d]))
         ;; Same-domain rows across countries keep the union of
         ;; exclusions; a domain that is an apex in any country stays
         ;; an apex.
@@ -1146,11 +1139,8 @@
                                        (fn [[es ap]]
                                          ;; labels to keep out of the root's
                                          ;; subtree: local and excluded ones
-                                         ;; (exclude rows) and confirmed
-                                         ;; central-1 ones (exact rows)
-                                         [(-> (or es #{})
-                                              (into (get excl [c d]))
-                                              (into (get c1-under [c d])))
+                                         ;; (exclude rows)
+                                         [(into (or es #{}) (get excl [c d]))
                                           (or ap (contains? apexes [c d]))])))
                              {})
                      (map (fn [[d [es ap]]] [d es ap]))
@@ -1158,8 +1148,8 @@
         country-of (into {} (map (fn [[d c]] [d c]) (reverse rows)))
         apex-domains (set (for [[d _ apex?] entries :when apex?] d))
         ;; One row per entry, plus one per excluded label under it; an
-        ;; exact row already keeps its own subtree out, so central-1
-        ;; labels need no exclude twin.
+        ;; exact row already keeps its own subtree out, so it needs no
+        ;; exclude twin.
         policy (->> (for [[d excl apex?] entries
                           :let [c (country-of d)]
                           [dom kind] (cons [d (if apex? "exact" "subtree")]
@@ -1190,12 +1180,14 @@
       "")))
 
 (def ^:private levels-hint "write central, central-1 or local")
+(def ^:private kinds-hint "leave it empty (subtree) or write exact")
 
 (defn cmd-check
   "Compile the decision files of the given countries (all by default),
   reporting every problem at once. ERR and 1 on a first cell that is
   not a hostname (with what to write instead), a blank or unknown level
-  (case aside), a domain curated with two levels or both curated and
+  (case aside), an unknown kind or a kind on a local domain, a domain
+  curated with two levels or both curated and
   excluded; WARN on a domain listed twice with the same level, an
   excluded row without a reason, a curated row a registry already
   lists at that level or that a confirmed domain of the same level
@@ -1221,6 +1213,12 @@
                 (if (str/blank? level)
                   (err! d " has no level in curated.csv: " levels-hint)
                   (err! d " has an unknown level '" level "' in curated.csv: " levels-hint)))
+              (doseq [[d level _ kind] curated]
+                (cond
+                  (not (kinds kind))
+                  (err! d " has an unknown kind '" kind "' in curated.csv: " kinds-hint)
+                  (and (seq kind) (not (harvest-levels level)))
+                  (err! d " is " level ": only a central or central-1 domain takes a kind")))
               (doseq [[d rows] (group-by first curated)
                       :let [levels (distinct (map second rows))]
                       :when (next levels)]
@@ -1246,9 +1244,9 @@
                     ;; a confirmed domain covers its subdomains: a curated
                     ;; row under a root of the same level adds nothing,
                     ;; unless it is harvested on its own
-                    (doseq [[d level] curated
+                    (doseq [[d level _ kind] curated
                             :let [root (some #(when (level-of %) %) (rest (host-suffixes d)))]
-                            :when (and root (= level (level-of root))
+                            :when (and root (= level (level-of root)) (not= kind "exact")
                                        (not (fs/exists? (harvest-file c d))))]
                       (warn d " (" level ") is already covered by " root
                             " (" level ", " (source-of root) ")"))

@@ -1,55 +1,55 @@
-domain,level,name,score,sources
-parliament.lk,central,Parliament of Sri Lanka,8,wikidata
-defence.lk,central,Ministry of Defence and Urban Development,7,wikidata
-uda.lk,central,Ministry of Urban Development,7,wikidata
-cmb.ac.lk,central,University of Colombo,6,academia;ror
-jfn.ac.lk,central,University of Jaffna,6,academia;ror
-pdn.ac.lk,central,University of Peradeniya,6,academia;ror
-caa.lk,,Civil Aviation Authority of Sri Lanka,4,wikidata
-ibmbb.lk,,Institute of Biochemistry,4,academia
-icta.lk,,ICTASL -- GitHub org,4,sopc
-ird.lk,,Institute for Research and Development,4,wikidata
-leco.lk,,Lanka Electricity Company,4,wikidata
-maldiveshighcom.lk,,"High Commission of Maldives, Colombo",4,wikidata
-mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Colombo",4,wikidata
-nara.ac.lk,,National Aquatic Resources Research and Development Agency,4,wikidata
-natlib.lk,,National Library and Documentation Services Board,4,wikidata
-nifs.ac.lk,central,National Institute of Fundamental Studies,4,academia
-nilis.cmb.ac.lk,central,National Institute of Library and Information Sciences,4,academia
-nsf.ac.lk,,National Science Foundation of Sri Lanka,4,wikidata
-slcarp.lk,,Sri Lanka Council For Agricultural Research Policy,4,wikidata
-slncu.lk,,Sri Lanka National Commission for UNESCO,4,wikidata
-supremecourt.lk,,Supreme Court of Sri Lanka,4,wikidata
-vishwa.nsf.ac.lk,,National Science Library & Resource Centre – Sri Lanka,4,wikidata
-waterboard.lk,,National Water Supply and Drainage Board,4,wikidata
-bpu.ac.lk,central,Buddhist and Pali University of Sri Lanka,3,ror
-colombo.diplo.de,central,"Embassy of Germany, Colombo",3,wikidata
-colombo.mae.ro,central,embassy of Romania in Sri Lanka,3,wikidata
-colombo.mfa.af,central,"Embassy of Afghanistan, Colombo",3,wikidata
-ds.thirukkovil.com,,Thirukkovil Divisional Secretariat,3,wikidata
-eeas.europa.eu,central,Delegation of the European Union to Sri Lanka and the Maldives,3,wikidata
-esn.ac.lk,central,"Eastern University, Sri Lanka",3,ror
-gwu.ac.lk,central,Wickramarachchi University of Indigenous Medicine,3,ror
-iit.ac.lk,central,Informatics Institute of Technology,3,ror
-kdu.ac.lk,central,General Sir John Kotelawala Defence University,3,ror
-kiu.ac.lk,central,KIU University Sri Lanka,3,ror
-kln.ac.lk,central,University of Kelaniya,3,ror
-lk.ambafrance.org,central,"Embassy of France, Colombo",3,wikidata
-norway.no,central,Embassy of Norway in Sri Lanka,3,wikidata
-nsbm.ac.lk,central,NSBM Green University,3,ror
-ou.ac.lk,central,Open University of Sri Lanka,3,ror
-pgim.cmb.ac.lk,central,"Post Graduate Institute of Medicine, University of Colombo, Sri Lanka",3,ror
-rjt.ac.lk,central,Rajarata University of Sri Lanka,3,ror
-ruh.ac.lk,central,University of Ruhuna,3,ror
-sab.ac.lk,central,Sabaragamuwa University of Sri Lanka,3,ror
-seu.ac.lk,central,South Eastern University of Sri Lanka,3,ror
-sjp.ac.lk,central,University of Sri Jayewardenepura,3,ror
-sltc.ac.lk,central,Sri Lanka Technological Campus,3,ror
-sri-lanka.mid.ru,central,embassy of Russia in Sri Lanka,3,wikidata
-ugc.ac.lk,central,University Grants Commission Sri Lanka,3,ror
-uom.lk,central,University of Moratuwa,3,ror
-uovt.ac.lk,central,University of Vocational Technology,3,ror
-uwu.ac.lk,central,Uva Wellassa University,3,ror
-vau.ac.lk,central,University of Vavuniya,3,ror
-vpa.ac.lk,central,University of the Visual & Performing Arts,3,ror
-wyb.ac.lk,central,Wayamba University of Sri Lanka,3,ror
+domain,level,name,kind,score,sources
+parliament.lk,central,Parliament of Sri Lanka,,8,wikidata
+defence.lk,central,Ministry of Defence and Urban Development,,7,wikidata
+uda.lk,central,Ministry of Urban Development,,7,wikidata
+cmb.ac.lk,central,University of Colombo,,6,academia;ror
+jfn.ac.lk,central,University of Jaffna,,6,academia;ror
+pdn.ac.lk,central,University of Peradeniya,,6,academia;ror
+caa.lk,,Civil Aviation Authority of Sri Lanka,,4,wikidata
+ibmbb.lk,,Institute of Biochemistry,,4,academia
+icta.lk,,ICTASL -- GitHub org,,4,sopc
+ird.lk,,Institute for Research and Development,,4,wikidata
+leco.lk,,Lanka Electricity Company,,4,wikidata
+maldiveshighcom.lk,,"High Commission of Maldives, Colombo",,4,wikidata
+mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Colombo",,4,wikidata
+nara.ac.lk,,National Aquatic Resources Research and Development Agency,,4,wikidata
+natlib.lk,,National Library and Documentation Services Board,,4,wikidata
+nifs.ac.lk,central,National Institute of Fundamental Studies,,4,academia
+nilis.cmb.ac.lk,central,National Institute of Library and Information Sciences,,4,academia
+nsf.ac.lk,,National Science Foundation of Sri Lanka,,4,wikidata
+slcarp.lk,,Sri Lanka Council For Agricultural Research Policy,,4,wikidata
+slncu.lk,,Sri Lanka National Commission for UNESCO,,4,wikidata
+supremecourt.lk,,Supreme Court of Sri Lanka,,4,wikidata
+vishwa.nsf.ac.lk,,National Science Library & Resource Centre – Sri Lanka,,4,wikidata
+waterboard.lk,,National Water Supply and Drainage Board,,4,wikidata
+bpu.ac.lk,central,Buddhist and Pali University of Sri Lanka,,3,ror
+colombo.diplo.de,central,"Embassy of Germany, Colombo",,3,wikidata
+colombo.mae.ro,central,embassy of Romania in Sri Lanka,,3,wikidata
+colombo.mfa.af,central,"Embassy of Afghanistan, Colombo",,3,wikidata
+ds.thirukkovil.com,,Thirukkovil Divisional Secretariat,,3,wikidata
+eeas.europa.eu,central,Delegation of the European Union to Sri Lanka and the Maldives,,3,wikidata
+esn.ac.lk,central,"Eastern University, Sri Lanka",,3,ror
+gwu.ac.lk,central,Wickramarachchi University of Indigenous Medicine,,3,ror
+iit.ac.lk,central,Informatics Institute of Technology,,3,ror
+kdu.ac.lk,central,General Sir John Kotelawala Defence University,,3,ror
+kiu.ac.lk,central,KIU University Sri Lanka,,3,ror
+kln.ac.lk,central,University of Kelaniya,,3,ror
+lk.ambafrance.org,central,"Embassy of France, Colombo",,3,wikidata
+norway.no,central,Embassy of Norway in Sri Lanka,,3,wikidata
+nsbm.ac.lk,central,NSBM Green University,,3,ror
+ou.ac.lk,central,Open University of Sri Lanka,,3,ror
+pgim.cmb.ac.lk,central,"Post Graduate Institute of Medicine, University of Colombo, Sri Lanka",,3,ror
+rjt.ac.lk,central,Rajarata University of Sri Lanka,,3,ror
+ruh.ac.lk,central,University of Ruhuna,,3,ror
+sab.ac.lk,central,Sabaragamuwa University of Sri Lanka,,3,ror
+seu.ac.lk,central,South Eastern University of Sri Lanka,,3,ror
+sjp.ac.lk,central,University of Sri Jayewardenepura,,3,ror
+sltc.ac.lk,central,Sri Lanka Technological Campus,,3,ror
+sri-lanka.mid.ru,central,embassy of Russia in Sri Lanka,,3,wikidata
+ugc.ac.lk,central,University Grants Commission Sri Lanka,,3,ror
+uom.lk,central,University of Moratuwa,,3,ror
+uovt.ac.lk,central,University of Vocational Technology,,3,ror
+uwu.ac.lk,central,Uva Wellassa University,,3,ror
+vau.ac.lk,central,University of Vavuniya,,3,ror
+vpa.ac.lk,central,University of the Visual & Performing Arts,,3,ror
+wyb.ac.lk,central,Wayamba University of Sri Lanka,,3,ror

@@ -1,60 +1,60 @@
-domain,level,name,score,sources
-parliament.jo,central,Parliament of Jordan,8,wikidata
-amman.diplo.de,central,"Embassy of Germany, Amman",6,wikidata
-cco.gov.jot,,Jordanian Constitutional Court,6,wikidata
-custodia.org,,Custodian of the Holy Land,6,wikidata
-ju.edu.jo,central,University of Jordan,6,academia;ror
-just.edu.jo,central,Jordan University of Science and Technology,6,academia;ror
-roc-taiwan.org,,Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural Office,6,wikidata
-yu.edu.jo,central,Yarmouk University,6,academia;ror
-arabic.jo,,Jordan Academy of Arabic,4,wikidata
-hpc.org.jo,,Higher Population Council,4,wikidata
-representatives.jo,central,House of Representatives of Jordan,4,wikidata
-rhc.jo,central,The Royal Hashemite Court,4,wikidata
-senate.jo,central,Senate of Jordan,4,wikidata
-sesame.org.jo,,International Centre for Synchrotron-Light for Experimental Science Applications in the Middle East,4,academia
-sp.mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Amman",4,wikidata
-aabu.edu.jo,central,Al al-Bayt University,3,ror
-aalalbayt.org,,Royal Aal al-Bayt Institute for Islamic Thought,3,academia
-aau.edu.jo,central,Amman Arab University,3,ror
-ahu.edu.jo,central,Al-Hussein Bin Talal University,3,ror
-amman.mae.ro,central,"Embassy of Romania, Amman",3,wikidata
-ammanu.edu.jo,central,Al-Ahliyya Amman University,3,ror
-anu.edu.jo,central,Ajloun National University,3,ror
-aou.edu.jo,central,Arab Open University,3,ror
-asu.edu.jo,central,Applied Science Private University,3,ror
-aum.edu.jo,central,American University of Madaba,3,ror
-aut.edu.jo,central,Aqaba University of Technology,3,ror
-bau.edu.jo,central,Al-Balqa Applied University,3,ror
-deiahl.de,,German Protestant Institute,3,academia
-eeas.europa.eu,,Delegation of the European Union to Jordan,3,wikidata
-emro.who.int,,World Health Organization - Jordan,3,wikidata
-gju.edu.jo,central,German Jordanian University,3,ror
-globalcenters.columbia.edu,,Columbia Global Centers,3,academia
-hazine.info,,National Library of Jordan,3,wikidata
-htu.edu.jo,central,Al Hussein Technical University,3,ror
-hu.edu.jo,central,Hashemite University,3,ror
-inu.edu.jo,central,Irbid National University,3,ror
-isums.edu.jo,central,Ibn Sina University for Medical Sciences,3,ror
-iu.edu.jo,central,Isra University,3,ror
-jadara.edu.jo,central,Jadara University,3,ror
-jo.ambafrance.org,central,"Embassy of France, Amman",3,wikidata
-jordan.mid.ru,central,embassy of Russia in Jordan,3,wikidata
-jpu.edu.jo,central,Jerash University,3,ror
-khawarizmi.edu.jo,central,Khawarizmi University Technical College,3,ror
-meu.edu.jo,central,Middle East University,3,ror
-mfa.bg,central,embassy of Bulgaria in Jordan,3,wikidata
-mfa.gr,central,embassy of Greece in Jordan,3,wikidata
-mutah.edu.jo,central,Mutah University,3,ror
-mzv.cz,central,embassy of the Czech republic in Jordan,3,wikidata
-norway.no,central,"Embassy of Norway, Amman",3,wikidata
-palembjo.org,central,Embassy of the State of Palestine in Jordan,3,wikidata
-philadelphia.edu.jo,central,Philadelphia University,3,ror
-psut.edu.jo,central,Princess Sumaya University for Technology,3,ror
-qou.edu,central,Al-Quds Open University,3,academia
-swedenabroad.se,central,"Embassy of Sweden, Amman",3,wikidata
-ttu.edu.jo,central,Tafila Technical University,3,ror
-uop.edu.jo,central,Petra University,3,ror
-wise.edu.jo,central,World Islamic Sciences and Education University,3,ror
-zu.edu.jo,central,Zarqa University,3,ror
-zuj.edu.jo,central,Al-Zaytoonah University of Jordan,3,ror
+domain,level,name,kind,score,sources
+parliament.jo,central,Parliament of Jordan,,8,wikidata
+amman.diplo.de,central,"Embassy of Germany, Amman",,6,wikidata
+cco.gov.jot,,Jordanian Constitutional Court,,6,wikidata
+custodia.org,,Custodian of the Holy Land,,6,wikidata
+ju.edu.jo,central,University of Jordan,,6,academia;ror
+just.edu.jo,central,Jordan University of Science and Technology,,6,academia;ror
+roc-taiwan.org,,Taipei Economic and Cultural Office in Jordan | Taipei Economic and Cultural Office,,6,wikidata
+yu.edu.jo,central,Yarmouk University,,6,academia;ror
+arabic.jo,,Jordan Academy of Arabic,,4,wikidata
+hpc.org.jo,,Higher Population Council,,4,wikidata
+representatives.jo,central,House of Representatives of Jordan,,4,wikidata
+rhc.jo,central,The Royal Hashemite Court,,4,wikidata
+senate.jo,central,Senate of Jordan,,4,wikidata
+sesame.org.jo,,International Centre for Synchrotron-Light for Experimental Science Applications in the Middle East,,4,academia
+sp.mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Amman",,4,wikidata
+aabu.edu.jo,central,Al al-Bayt University,,3,ror
+aalalbayt.org,,Royal Aal al-Bayt Institute for Islamic Thought,,3,academia
+aau.edu.jo,central,Amman Arab University,,3,ror
+ahu.edu.jo,central,Al-Hussein Bin Talal University,,3,ror
+amman.mae.ro,central,"Embassy of Romania, Amman",,3,wikidata
+ammanu.edu.jo,central,Al-Ahliyya Amman University,,3,ror
+anu.edu.jo,central,Ajloun National University,,3,ror
+aou.edu.jo,central,Arab Open University,,3,ror
+asu.edu.jo,central,Applied Science Private University,,3,ror
+aum.edu.jo,central,American University of Madaba,,3,ror
+aut.edu.jo,central,Aqaba University of Technology,,3,ror
+bau.edu.jo,central,Al-Balqa Applied University,,3,ror
+deiahl.de,,German Protestant Institute,,3,academia
+eeas.europa.eu,,Delegation of the European Union to Jordan,,3,wikidata
+emro.who.int,,World Health Organization - Jordan,,3,wikidata
+gju.edu.jo,central,German Jordanian University,,3,ror
+globalcenters.columbia.edu,,Columbia Global Centers,,3,academia
+hazine.info,,National Library of Jordan,,3,wikidata
+htu.edu.jo,central,Al Hussein Technical University,,3,ror
+hu.edu.jo,central,Hashemite University,,3,ror
+inu.edu.jo,central,Irbid National University,,3,ror
+isums.edu.jo,central,Ibn Sina University for Medical Sciences,,3,ror
+iu.edu.jo,central,Isra University,,3,ror
+jadara.edu.jo,central,Jadara University,,3,ror
+jo.ambafrance.org,central,"Embassy of France, Amman",,3,wikidata
+jordan.mid.ru,central,embassy of Russia in Jordan,,3,wikidata
+jpu.edu.jo,central,Jerash University,,3,ror
+khawarizmi.edu.jo,central,Khawarizmi University Technical College,,3,ror
+meu.edu.jo,central,Middle East University,,3,ror
+mfa.bg,central,embassy of Bulgaria in Jordan,,3,wikidata
+mfa.gr,central,embassy of Greece in Jordan,,3,wikidata
+mutah.edu.jo,central,Mutah University,,3,ror
+mzv.cz,central,embassy of the Czech republic in Jordan,,3,wikidata
+norway.no,central,"Embassy of Norway, Amman",,3,wikidata
+palembjo.org,central,Embassy of the State of Palestine in Jordan,,3,wikidata
+philadelphia.edu.jo,central,Philadelphia University,,3,ror
+psut.edu.jo,central,Princess Sumaya University for Technology,,3,ror
+qou.edu,central,Al-Quds Open University,,3,academia
+swedenabroad.se,central,"Embassy of Sweden, Amman",,3,wikidata
+ttu.edu.jo,central,Tafila Technical University,,3,ror
+uop.edu.jo,central,Petra University,,3,ror
+wise.edu.jo,central,World Islamic Sciences and Education University,,3,ror
+zu.edu.jo,central,Zarqa University,,3,ror
+zuj.edu.jo,central,Al-Zaytoonah University of Jordan,,3,ror

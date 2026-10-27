@@ -100,13 +100,21 @@
   out of a shared root (abingdon.gov.uk under gov.uk)."
   #{"central" "central-1" "local"})
 
+(def kinds
+  "The kinds a curated central or central-1 domain may give in the
+  policy table: blank (the default, subtree) covers it and everything
+  below it, exact itself alone, for a root shared with a lower tier
+  (sp.gov.br: the state of São Paulo, but also its municipalities)."
+  #{"" "subtree" "exact"})
+
 (def harvest-levels
   "The levels whose domains stand for a subtree to harvest and probe."
   #{"central" "central-1"})
 
 ;; Per-country decision files, named after the status of their domains.
-;; Hand-edited: countries/<c>/curated.csv (domain,level,name -- confirmed
-;; by hand) and countries/<c>/excluded.csv (domain,reason -- rejected).
+;; Hand-edited: countries/<c>/curated.csv (domain,level,name,kind --
+;; confirmed by hand, kind optional) and countries/<c>/excluded.csv
+;; (domain,reason -- rejected).
 ;; Generated: countries/<c>/sources/<registry>/registered.csv
 ;; (domain,level -- listed by an official registry). The confirmed
 ;; domains of a country are their compilation, registered plus curated
@@ -143,10 +151,12 @@
   [path] (decision-anomalies (rest (read-csv-raw path))))
 
 (defn read-curated
-  "Read the [domain level name] rows of countries/<c>/curated.csv, the
-  level lower-cased (Central reads central)."
+  "Read the [domain level name kind] rows of countries/<c>/curated.csv,
+  level and kind lower-cased (Central reads central), kind blank when
+  the row has none."
   [country-dir]
-  (map #(update % 1 str/lower-case) (read-domain-rows (curated-file country-dir) 3)))
+  (map #(-> % (update 1 str/lower-case) (update 3 str/lower-case))
+       (read-domain-rows (curated-file country-dir) 4)))
 
 (defn read-excluded
   "Read the [domain reason] rows of countries/<c>/excluded.csv."
@@ -186,8 +196,8 @@
   registered row. Throws ex-info on an unknown level or on a domain both
   curated and excluded. Sorted by domain."
   [curated registries excluded]
-  (let [rows     (concat (for [[d level name] curated] [d level "curated" name])
-                         (for [[registry rs] registries, [d level] rs] [d level registry ""]))
+  (let [rows     (concat (for [[d level name kind] curated] [d level "curated" name kind])
+                         (for [[registry rs] registries, [d level] rs] [d level registry "" ""]))
         excluded (set (map first excluded))]
     (when-let [[d level] (first (remove #(contains? levels (second %)) rows))]
       (throw (ex-info (str d ": unknown level '" level "'") {:domain d})))
@@ -205,15 +215,15 @@
                      (read-excluded country-dir)))
 
 (defn- compile-confirmed-rows
-  "[country domain level source name] of every country. Throws ex-info
-  on the first contradiction in the decision files."
+  "[country domain level source name kind] of every country. Throws
+  ex-info on the first contradiction in the decision files."
   []
   (vec (for [c (country-dirs)
-             [d level source name] (try (confirmed-country c)
+             [d level source name kind] (try (confirmed-country c)
                                         (catch clojure.lang.ExceptionInfo e
                                           (throw (ex-info (str c ": " (ex-message e))
                                                           (assoc (ex-data e) :country c)))))]
-         [c d level source name])))
+         [c d level source name kind])))
 
 ;; Each cache holds a delay: a first deref from two threads at once (a
 ;; bounded-pmap over countries) still compiles once, with no lock.
@@ -221,7 +231,7 @@
 
 (defn confirmed-rows
   "Return the confirmed domains of every country as a vector of [country
-  domain level source name], compiled once per run and cached
+  domain level source name kind], compiled once per run and cached
   (write-registered! drops the cache). Throws ex-info on the first
   contradiction in the decision files."
   []

@@ -21,18 +21,22 @@ the list of countries: open an issue to change it.
 
 ### `curated.csv`: the domains you confirm
 
-One row per domain, as `domain,level,name`:
+One row per domain, as `domain,level,name,kind`:
 
 ```csv
-domain,level,name
-gouv.fr,central,
-sp.gov.br,central-1,São Paulo
-abingdon.gov.uk,local,Abingdon Town Council
+domain,level,name,kind
+gouv.fr,central,,
+sp.gov.br,central-1,São Paulo,exact
+abingdon.gov.uk,local,Abingdon Town Council,
 ```
 
 - `domain` is a domain name
 - `level` is one of `central`, `central-1` (the first tier below) or `local`.
 - `name` is the body the domain belongs to.
+- `kind` is usually empty: the domain counts with everything below it.
+  Write `exact` when the domain counts alone, because lower tiers sit
+  under it too: `sp.gov.br` is the state of São Paulo, but
+  `campinas.sp.gov.br` is a municipality.
 
 ### `excluded.csv`: the domains you reject
 
