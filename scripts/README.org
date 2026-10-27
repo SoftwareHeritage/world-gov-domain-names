@@ -30,8 +30,10 @@ cached as =confirmed-rows=): the registry files
 lannuaire registries among others) plus =curated.csv=
 minus =excluded.csv=; a =curated= row wins over a registered
 duplicate (its level too), and a domain both curated and excluded, or
-an unknown level, aborts any command with exit 1. =bb pipeline check=
-runs that compilation alone and also warns about a curated row a
+an unknown level, aborts any command with exit 1. =bb check= (=bb
+pipeline check=) runs that compilation alone, reports every problem
+of a file at once with what to write instead, and also warns about an
+excluded row without a reason, a curated row a
 registry already lists, and about a =local= or excluded domain more
 than one label under a central root, which the policy table cannot
 express. The generated files are =proposed.csv=,
@@ -128,7 +130,7 @@ files.
   # other
   bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts -> data/.db
   bb scripts/pipeline.clj wayback gov.ke gov.lv # Wayback Machine CDX harvest of these roots -> sources/harvest/<root>.csv
-  bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction)
+  bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction; also bb check FRA)
   bb scripts/pipeline.clj esr                   # FR public higher-education institutions -> sources/esr/registered.csv
   bb scripts/pipeline.clj govuk                 # UK sub-central bodies -> sources/govuk/registered.csv
   bb scripts/pipeline.clj validate-un           # check un_status against the official UN member list
@@ -340,7 +342,7 @@ less countries/ITA_italy/proposed.csv
 
 # 2. If legit, add it to curated.csv (level central, central-1 or local)
 echo 'quirinale.it,central,Presidency of the Republic' >> countries/ITA_italy/curated.csv
-bb scripts/pipeline.clj check ITA_italy
+bb check ITA
 
 # 3. Optionally harvest its subdomains (confirmed roots need no harvest)
 bb scripts/pipeline.clj fetch quirinale.it

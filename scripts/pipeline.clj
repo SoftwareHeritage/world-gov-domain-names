@@ -63,8 +63,9 @@
 ;;   wayback DOM…       Wayback Machine CDX harvest of the given roots, merged
 ;;                      into sources/harvest/<root>.csv (slow: on demand, for the
 ;;                      roots crt.sh leaves empty)
-;;   check [C…]         compile the decision files: exit 1 on a contradiction,
-;;                      WARN on a curated row a registry already lists
+;;   check [C…]         compile the decision files (C: FRA or FRA_france):
+;;                      exit 1 on a contradiction, WARN on a curated row a
+;;                      registry already lists
 ;;   esr                fetch FR public higher-education institutions -> sources/esr/registered.csv
 ;;   govuk              build UK sub-central list -> GBR sources/govuk/registered.csv
 ;;   validate-un        check un_status against the official UN member list
@@ -1172,57 +1173,88 @@
 ;;  check -- the decision files compile
 ;; ===========================================================================
 
+(defn- hostname-hint
+  "What to write instead of a first cell that is no hostname, as a
+  clause for the check message (a pasted URL gives its host, www.
+  aside); empty when there is no better guess."
+  [cell]
+  (if (re-find #"[;\t]" cell)
+    ": separate the fields with commas"
+    (if-let [host (some-> (normalize-host cell) (str/replace #"^www\." ""))]
+      (str ": write " host)
+      "")))
+
+(def ^:private levels-hint "write central, central-1 or local")
+
 (defn cmd-check
-  "Compile the decision files of the given countries (all by default).
-  ERR and 1 on a domain both curated and excluded, an unknown level, a
-  first cell that is not a hostname or a domain curated with two
-  levels; WARN on a domain listed twice with the same level, a
-  curated row a registry already lists at that level or a local or
-  excluded domain more than one label under a central root (the
-  policy table has no exclude row for it)."
+  "Compile the decision files of the given countries (all by default),
+  reporting every problem at once. ERR and 1 on a first cell that is
+  not a hostname (with what to write instead), a blank or unknown level
+  (case aside), a domain curated with two levels or both curated and
+  excluded; WARN on a domain listed twice with the same level, an
+  excluded row without a reason, a curated row a registry already
+  lists at that level or a local or excluded domain more than one label
+  under a central root (the policy table has no exclude row for it)."
   [args]
   (if-let [countries (scoped-countries args)]
     (let [check-country
           (fn [c]
-            (let [errors (atom 0)
-                  err!   (fn [& msg] (swap! errors inc) (apply err "ERR: " c ": " msg))]
+            (let [errors   (atom 0)
+                  err!     (fn [& msg] (swap! errors inc) (apply err "ERR: " c ": " msg))
+                  warn     (fn [& msg] (apply err "WARN: " c ": " msg))
+                  curated  (read-curated c)
+                  excluded (read-excluded c)]
               (doseq [[file path] [["curated.csv" (curated-file c)] ["excluded.csv" (excluded-file c)]]
                       [kind x] (file-anomalies path)]
                 (case kind
-                  :invalid-hostname (err! "'" x "' in " file " is not a hostname (row dropped)")
-                  :duplicate        (err "WARN: " c ": " x " is listed twice in " file " (first row wins)")))
-              (doseq [[d rows] (group-by first (read-curated c))
+                  :invalid-hostname (err! "'" x "' in " file " is not a hostname" (hostname-hint x)
+                                          " (row dropped)")
+                  :duplicate        (warn x " is listed twice in " file " (first row wins)")))
+              (doseq [[d level] curated :when (not (levels level))]
+                (if (str/blank? level)
+                  (err! d " has no level in curated.csv: " levels-hint)
+                  (err! d " has an unknown level '" level "' in curated.csv: " levels-hint)))
+              (doseq [[d rows] (group-by first curated)
                       :let [levels (distinct (map second rows))]
                       :when (next levels)]
-                (err! d " is curated with two levels (" (str/join ", " levels) ")"))
-              (try
-                (let [confirmed  (confirmed-country c)
-                      level-of   (into {} (for [[d level] confirmed] [d level]))
-                      ;; first registry wins, as in compile-confirmed
-                      registered (index-first (for [r (registries c), [d level] (read-registered c r)]
-                                                [d [r level]]))]
-                  (doseq [[d level name] (read-curated c)
-                          :let [[r rlevel] (get registered d)]
-                          :when (and (= level rlevel) (str/blank? name))]
-                    (err "WARN: " c ": " d " (" level ") is curated but " r " already lists it"))
-                  ;; the policy table only carves the labels directly under
-                  ;; a central root out of its subtree (labels-under-central);
-                  ;; under a central-1 root (an exact row) everything is out already
-                  (doseq [d (concat (for [[d level] confirmed :when (= level "local")] d)
-                                    (map first (read-excluded c)))
-                          :let [root (some #(when (contains? harvest-levels (level-of %)) %)
-                                           (rest (host-suffixes d)))]
-                          :when (and root (= "central" (level-of root))
-                                     (str/includes? (subs d 0 (- (count d) (count root) 1)) "."))]
-                    (err "WARN: " c ": " d " sits more than one label under " root
-                         " -- no exclude row in the policy table")))
-                (catch clojure.lang.ExceptionInfo e
-                  (err! (ex-message e))))
+                (err! d " is curated with two levels (" (str/join ", " levels) "): keep one row"))
+              (doseq [d (sort (filter (set (map first excluded)) (set (map first curated))))]
+                (err! d " is in both curated.csv and excluded.csv: keep it in one"))
+              (doseq [[d reason] excluded :when (str/blank? reason)]
+                (warn d " has no reason in excluded.csv"))
+              ;; the compilation stops at its first problem: run it once
+              ;; the rows above are clean
+              (when (zero? @errors)
+                (try
+                  (let [confirmed  (confirmed-country c)
+                        level-of   (into {} (for [[d level] confirmed] [d level]))
+                        ;; first registry wins, as in compile-confirmed
+                        registered (index-first (for [r (registries c), [d level] (read-registered c r)]
+                                                  [d [r level]]))]
+                    (doseq [[d level name] curated
+                            :let [[r rlevel] (get registered d)]
+                            :when (and (= level rlevel) (str/blank? name))]
+                      (warn d " (" level ") is curated but " r " already lists it"))
+                    ;; the policy table only carves the labels directly under
+                    ;; a central root out of its subtree (labels-under-central);
+                    ;; under a central-1 root (an exact row) everything is out already
+                    (doseq [d (concat (for [[d level] confirmed :when (= level "local")] d)
+                                      (map first excluded))
+                            :let [root (some #(when (contains? harvest-levels (level-of %)) %)
+                                             (rest (host-suffixes d)))]
+                            :when (and root (= "central" (level-of root))
+                                       (str/includes? (subs d 0 (- (count d) (count root) 1)) "."))]
+                      (warn d " sits more than one label under " root
+                            " -- no exclude row in the policy table")))
+                  (catch clojure.lang.ExceptionInfo e
+                    (err! (ex-message e)))))
               (zero? @errors)))
           failed (count (remove true? (doall (map check-country countries))))]
       (if (pos? failed)
         1
-        (do (println (str "Decision files of " (count countries) " countries compile")) 0)))
+        (do (println (str "Decision files of " (count countries)
+                          (if (= 1 (count countries)) " country" " countries") " compile"))
+            0)))
     1))
 
 ;; ===========================================================================

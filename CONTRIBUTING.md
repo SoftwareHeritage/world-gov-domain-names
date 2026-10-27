@@ -33,8 +33,9 @@ or `data/`: they are generated.
 If you know the public administration of a country, you can also check
 `data/public-sector-domains-central+-policy.csv` and report problems.
 
-If you have [Babashka](https://babashka.org) installed, `bb pipeline
-check <ISO3>_<slug>` tells whether your files are consistent.
+If you have [Babashka](https://babashka.org) installed, `bb check FRA`
+(your country's ISO3 code) tells whether your files are consistent,
+and what to write instead when they are not.
 
 ## Sending your changes
 

@@ -143,8 +143,10 @@
   [path] (decision-anomalies (rest (read-csv-raw path))))
 
 (defn read-curated
-  "Read the [domain level name] rows of countries/<c>/curated.csv."
-  [country-dir] (read-domain-rows (curated-file country-dir) 3))
+  "Read the [domain level name] rows of countries/<c>/curated.csv, the
+  level lower-cased (Central reads central)."
+  [country-dir]
+  (map #(update % 1 str/lower-case) (read-domain-rows (curated-file country-dir) 3)))
 
 (defn read-excluded
   "Read the [domain reason] rows of countries/<c>/excluded.csv."
@@ -364,14 +366,21 @@
     (System/exit (if (integer? result) result 0))))
 
 (defn scoped-countries
-  "Return the country_dirs named in selection, or all of them when
-  selection is empty. Report an unknown name on ERR and return nil."
+  "Return the country_dirs named in selection, each a country_dir or its
+  ISO3 code in any case (FRA, fra), or all of them when selection is
+  empty. Report an unknown name on ERR and return nil."
   [selection]
-  (let [all (country-dirs)
-        unknown (remove (set all) selection)]
+  (let [all      (country-dirs)
+        resolve  (fn [x]
+                   (or (some #{x} all)
+                       (some #(when (str/starts-with? % (str (str/upper-case x) "_")) %)
+                             (when (re-matches #"[A-Za-z]{3}" x) all))))
+        resolved (map resolve selection)
+        unknown  (for [[x c] (map vector selection resolved) :when (nil? c)] x)]
     (if (seq unknown)
-      (err "ERR: unknown country dir(s): " (str/join ", " unknown))
-      (or (seq selection) all))))
+      (err "ERR: unknown country: " (str/join ", " unknown)
+           " (give its ISO3 code, FRA, or its directory, FRA_france)")
+      (or (seq resolved) all))))
 
 (defn iter-countries
   "Apply f to each country_dir of selection (all when empty), up to
