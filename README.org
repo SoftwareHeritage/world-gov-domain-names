@@ -1,29 +1,26 @@
 #+title: World Gov domain names
 
-The public-sector domain names of 197 States and entities, to measure
-how much governments contribute to the software archived by [[https://www.softwareheritage.org][Software
-Heritage]]: the 193 UN members, the 2 observers (Holy See, Palestine)
-and 2 non-UN entities (Taiwan, Kosovo), the latter left out of the
-consolidated files.
+The public-sector domain names of public entities, to measure how much
+the public sector contributes to the software archived by [[https://www.softwareheritage.org][Software
+Heritage]].
 
 * Levels
 
-- =central= -- the central government: ministries, national agencies
-  and research bodies, the universities the State runs, and their
-  root domains (=gouv.fr=, =gov.uk=).
-- =central-1= -- the first tier below (state, Land, region…:
-  =sp.gov.br=, =nouvelle-aquitaine.fr=) and the bodies it runs.
+- =central= -- the central government: ministries, national agencies and
+  research bodies, universities the State runs, and their root domains
+  (=gouv.fr=, =gov.uk=).
+- =central-1= -- the first tier below (state, Land, region…: =sp.gov.br=,
+  =nouvelle-aquitaine.fr=) and the bodies it runs.
 - =local= -- anything lower (municipalities, counties…): out of the
   central+ scope, listed only to take a label out of a shared root
   (=abingdon.gov.uk= under =gov.uk=).
 
 * Files
 
-- =data/public-sector-domains-central+-policy.csv= -- the central+
-  scope as a match table, =domain,kind,country=: =subtree= is a
-  domain and everything below it, =exact= the domain alone, =exclude=
-  a domain and everything below it kept out. The longest matching
-  domain decides.
+- =data/public-sector-domains-central+-policy.csv= -- the central+ scope
+  as a match table, =domain,kind,country=: =subtree= is a domain and
+  everything below it, =exact= the domain alone, =exclude= a domain and
+  everything below it kept out. The longest matching domain decides.
 - =data/public-sector-domains.csv= -- every host found under the
   confirmed domains, with UN status, region, languages and GDP.
 - =countries/<ISO3>_<slug>/=, per country:
