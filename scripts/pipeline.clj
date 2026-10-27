@@ -863,24 +863,52 @@
      :known          (confirmed-domains)
      :excluded       (get @excluded-domains country-dir #{})}))
 
+(def parent-min-hosts
+  "Candidates a registrable domain must hold for propose to suggest it."
+  3)
+
+(defn parent-rows
+  "One [domain score \"parent\" label level] row per registrable domain
+  (common/parent-domain) holding parent-min-hosts candidate rows or more,
+  unless it is a candidate itself or a confirmed or excluded domain
+  covers it: confirming it covers its hosts at once (a university and
+  its laboratories). Score, the best of its hosts; level, the most
+  frequent known level of its hosts. Pure."
+  [rows known excluded]
+  (let [candidates (set (map first rows))]
+    (for [[parent hosts] (group-by #(parent-domain (first %)) rows)
+          :when (and parent
+                     (>= (count (remove #(= parent (first %)) hosts)) parent-min-hosts)
+                     (not (candidates parent))
+                     (not (host-covered? parent known))
+                     (not (host-covered? parent excluded)))
+          :let [levels (remove str/blank? (map #(nth % 4) hosts))]]
+      [parent
+       (apply max (map second hosts))
+       "parent"
+       (str (count hosts) " proposed hosts under it: "
+            (str/join ", " (take 3 (map first (sort-by (comp - second) hosts)))))
+       (if (seq levels) (key (apply max-key val (frequencies levels))) "")])))
+
 (defn propose-candidates
   "Rank the hosts of a context: every valid hostname a source mentions
   that no confirmed or excluded domain covers, scored and levelled by
-  candidate-row, local ones dropped. [hostname score sources label
-  level] rows, best scores first. Pure."
+  candidate-row, local ones dropped, plus the parent-rows over them.
+  [hostname score sources label level] rows, best scores first. Pure."
   [{:keys [wd-by-host lg-by-host dir-by-host ror-by-host sopc-by-host un-portal-host known excluded] :as ctx}]
-  (->> (cond-> (-> (set (keys wd-by-host))
-                   (into (keys lg-by-host))
-                   (into (keys dir-by-host))
-                   (into (keys ror-by-host))
-                   (into (keys sopc-by-host)))
-         un-portal-host (conj un-portal-host))
-       (filter valid-hostname?)
-       (remove #(host-covered? % known))
-       (remove #(host-covered? % excluded))
-       (map #(candidate-row ctx %))
-       (remove #(= "local" (nth % 4)))
-       (sort-by (juxt #(- (nth % 1)) first))))
+  (let [rows (->> (cond-> (-> (set (keys wd-by-host))
+                              (into (keys lg-by-host))
+                              (into (keys dir-by-host))
+                              (into (keys ror-by-host))
+                              (into (keys sopc-by-host)))
+                    un-portal-host (conj un-portal-host))
+                  (filter valid-hostname?)
+                  (remove #(host-covered? % known))
+                  (remove #(host-covered? % excluded))
+                  (map #(candidate-row ctx %))
+                  (remove #(= "local" (nth % 4))))]
+    (sort-by (juxt #(- (nth % 1)) first)
+             (concat rows (parent-rows rows known excluded)))))
 
 (defn propose-country!
   "Write countries/<c>/proposed.csv

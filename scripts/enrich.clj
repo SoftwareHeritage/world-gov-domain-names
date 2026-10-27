@@ -305,14 +305,28 @@
 ;; authorities place below the first tier is left out.
 
 (def academia-classes
+  "[class-qid type kind extra]: extra, SPARQL patterns narrowing a broad
+  class."
   [["Q875538"   "public_university"   :university]
    ["Q62078547" "public_university"   :university]
+   ;; public educational institution of the United States: the public
+   ;; universities Wikidata types nowhere else, but also 180 schools
+   ;; (K-12) and 600 community colleges, mostly run by local districts
+   ["Q23002039" "public_university"   :university
+    (str "  ?org wdt:P31/wdt:P279* wd:Q38723 .\n"
+         "  FILTER NOT EXISTS { ?org wdt:P31 wd:Q1336920 }\n")]
    ["Q1145118"  "national_university" :university]
+   ["Q265662"   "national_university" :university]
    ["Q31855"    "research_institute"  :research]])
+
+(def national-university-classes
+  (for [[qid type] academia-classes :when (= type "national_university")] qid))
 
 (def academia-excluded-classes
   ;; private and religious typings under the public subtrees
   ["Q902104"    ; private university
+   "Q23002042"  ; private educational institution
+   "Q23002054"  ; private not-for-profit educational institution
    "Q557206"    ; Catholic university
    "Q2120466"   ; pontifical university
    "Q14911880"  ; seminary
@@ -324,11 +338,12 @@
    "Q783794"    ; company
    "Q2467461"]) ; academic department (a research institute subclass)
 
-(defn academia-query [class-qid country-qid]
+(defn academia-query [class-qid country-qid & [extra]]
   (str "SELECT DISTINCT ?org ?orgLabel ?website ?juris ?auth ?authJuris WHERE {\n"
        "  ?org wdt:P31/wdt:P279* wd:" class-qid " ;\n"
        "       wdt:P17 wd:" country-qid " ;\n"
        "       wdt:P856 ?website .\n"
+       extra
        "  FILTER NOT EXISTS { ?org wdt:P576 ?d }\n"
        (apply str
               (for [q academia-excluded-classes]
@@ -349,8 +364,9 @@
   from the unitary default {:default \"central\"}. :default is the level
   of a university no other signal places (nil: left out), :subdiv? means
   a label naming a first-level subdivision places it at central-1, :state?
-  the same for the word state."
-  {"USA" {:default "central-1" :subdiv? true :state? true}
+  the same for the word state, :national? false that the word national
+  says nothing (National University is a private one)."
+  {"USA" {:default "central-1" :subdiv? true :state? true :national? false}
    "DEU" {:default "central-1" :subdiv? true}
    "CAN" {:default "central-1" :subdiv? true}
    "BEL" {:default "central-1" :subdiv? true}
@@ -361,6 +377,9 @@
    ;; 国家民委, 中科院…), the 1,000+ others to a province
    "CHN" {:default "central-1" :subdiv? true}
    "GBR" {:default "central"   :subdiv? true}
+   ;; ~90 national universities (国立), ~100 public ones run by a
+   ;; prefecture or a city (公立), 600+ private ones
+   "JPN" {:default nil :subdiv? true}
    "AUS" {:default nil :subdiv? true :state? true}
    "IND" {:default nil :subdiv? true :state? true}
    "BRA" {:default nil :subdiv? true :state? true}
@@ -370,7 +389,10 @@
    "ARE" {:default nil :subdiv? true}})
 
 (def central-label-pattern
-  #"(?iu)\b(?:federal|nationale?|nacional|nazionale|fédérale?|bundes\p{L}*|central university)\b")
+  #"(?iu)\b(?:federal|fédérale?|bundes\p{L}*|central university)\b")
+
+(def national-label-pattern
+  #"(?iu)\b(?:nationale?|nacional|nazionale)\b")
 
 (def subnational-label-pattern
   #"(?iu)\b(?:estadual|estatal|provincial|provinciale|regional|régionale?|cantonal|kantonale?|landes\p{L}*)\b")
@@ -387,7 +409,8 @@
   authorities themselves (:auths, operator, parent or owner) when one
   is the country or a first-level subdivision -- another organisation,
   a university group say, says nothing of the level --, the national
-  university class, a central label, then for a university only the
+  university class, a central label (the word national too, unless
+  the country's tiers say otherwise), then for a university only the
   subnational labels (a federal district is a first-level subdivision)
   and the country's default (academia-tiers). Pure."
   [{:keys [kind type label juris auths country-qid level1 level1-pattern tiers]}]
@@ -399,12 +422,14 @@
         raw        (or label "")
         label      (str/replace raw federal-district-pattern "")
         university? (= kind :university)
-        {:keys [default subdiv? state?]} tiers]
+        {:keys [default subdiv? state? national?] :or {national? true}} tiers]
     (cond
       ;; run by a city or a county: local, whatever the label says
       (#{"central" "central-1" "local"} auth-level) auth-level
       (= type "national_university")                "central"
       (re-find central-label-pattern label)         "central"
+      (and national?
+           (re-find national-label-pattern label))  "central"
       ;; the place a research institute's label names is where it
       ;; stands, not who runs it: the subnational signals below only
       ;; place universities
@@ -492,7 +517,7 @@
             per-class
             (mapv (fn [[qid type :as cls]]
                     (if-let [bindings (wikidata-bindings
-                                        (wikidata-run-query (academia-query qid country-qid)))]
+                                        (wikidata-run-query (academia-query qid country-qid (nth cls 3 nil))))]
                       (do (err (str "  [" type " " qid "] " (count bindings) " results"))
                           (Thread/sleep 1000)
                           (academia-bindings->rows cls bindings ctx))
@@ -527,9 +552,12 @@
 ;; propose (source ror, +2), never a registry. Kept: the organisations
 ;; a name of which calls a university or an institute of higher
 ;; education (ror-university-pattern; colleges and academies are too
-;; broad), levelled as academia levels a university whose authorities
-;; are unknown (label, then academia-tiers); a blank level when neither
-;; places it.
+;; broad). Wikidata, through the QID ROR gives most of them, tells the
+;; private ones, left out (private classes; 私立, 民办 or 사립 in the
+;; description: classes alone miss most private universities of Japan),
+;; the national ones (class, or 国立/國立/국립 in the description) and
+;; the authorities and territories; academia-level then levels them, a
+;; local one left out, a blank level when no signal places it.
 
 (def conc-ror (env-int "CONC_ROR" 2))
 
@@ -591,31 +619,84 @@
                       ", " (count orgs) " fetched")
                  nil))))))))
 
+(defn- ror-org-wikidata
+  "The Wikidata QID of a ROR organisation, nil when it has none."
+  [{:keys [external_ids]}]
+  (some #(when (= "wikidata" (:type %)) (first (:all %))) external_ids))
+
+(def private-description-pattern #"私立|民办|民辦|사립")
+(def national-description-pattern #"国立|國立|국립")
+
+(defn ror-wikidata-query
+  "What Wikidata says of the qids: private (a private class or a
+  business), national (a national university class), the descriptions
+  in Chinese, Japanese and Korean, the territories and authorities."
+  [qids]
+  (let [values #(str/join " " (map (fn [q] (str "wd:" q)) %))]
+    (str "SELECT ?org ?private ?national ?desc ?juris ?auth ?authJuris WHERE {\n"
+         "  VALUES ?org { " (values qids) " }\n"
+         "  BIND((EXISTS { ?org wdt:P31/wdt:P279* ?p . VALUES ?p { " (values academia-excluded-classes) " } }\n"
+         "        || EXISTS { ?org wdt:P31 ?b . VALUES ?b { wd:Q4830453 wd:Q783794 } }) AS ?private)\n"
+         "  BIND(EXISTS { ?org wdt:P31/wdt:P279* ?n . VALUES ?n { " (values national-university-classes) " } } AS ?national)\n"
+         "  OPTIONAL { ?org schema:description ?desc . FILTER(lang(?desc) IN (\"ja\", \"zh\", \"zh-hant\", \"ko\")) }\n"
+         "  OPTIONAL { ?org wdt:P1001 ?juris . }\n"
+         "  OPTIONAL { ?org wdt:P137|wdt:P749|wdt:P127 ?auth .\n"
+         "             OPTIONAL { ?auth wdt:P1001 ?authJuris . } }\n"
+         "}")))
+
+(defn ror-wikidata-facts
+  "{qid {:private? :national? :juris :auths}} of qids, 100 per query;
+  nil when a query failed."
+  [qids]
+  (reduce (fn [acc batch]
+            (if-let [bindings (wikidata-bindings (wikidata-run-query (ror-wikidata-query batch)))]
+              (do (Thread/sleep 1000)
+                  (into acc
+                        (for [[org bs] (group-by #(qid-of (get-in % [:org :value])) bindings)
+                              :let [values (fn [k] (into #{} (keep #(qid-of (get-in % [k :value])) bs)))
+                                    flag?  (fn [k] (some #(= "true" (get-in % [k :value])) bs))
+                                    descs  (keep #(get-in % [:desc :value]) bs)
+                                    desc?  (fn [re] (some #(re-find re %) descs))]]
+                          [org {:private?  (boolean (or (flag? :private) (desc? private-description-pattern)))
+                                :national? (boolean (or (flag? :national) (desc? national-description-pattern)))
+                                :juris     (into (values :juris) (values :authJuris))
+                                :auths     (values :auth)}])))
+              (reduced nil)))
+          {} (partition-all 100 (distinct qids))))
+
 (defn ror-org->row
   "[ror label website hostname wikidata level] of a ROR organisation,
-  nil when none of its names calls a university or when it has no
-  website; level blank when academia-level places it nowhere. ctx:
+  nil when none of its names calls a university, when it has no
+  website, or when the Wikidata facts of its QID (ror-wikidata-facts)
+  say private or place it below the first tier; level blank when
+  academia-level places it nowhere. ctx: :country-qid :level1
   :level1-pattern :tiers. Pure."
-  [ctx {:keys [id names links external_ids]}]
+  [ctx facts {:keys [id names links] :as org}]
   (let [all-names (keep :value names)
         label (or (some #(when (some #{"ror_display"} (:types %)) (:value %)) names)
                   (first all-names) "")
         url   (some #(when (= "website" (:type %)) (:value %)) links)
         host  (extract-host url)
-        wd    (some #(when (= "wikidata" (:type %)) (first (:all %))) external_ids)
+        wd    (ror-org-wikidata org)
+        {:keys [private? national? juris auths]} (get facts wd)
         university? (some #(re-find ror-university-pattern %) all-names)
-        ;; no authority known to ROR: never local
         level (when university?
-                (academia-level (assoc ctx :kind :university :type "education"
-                                       :label label :juris #{} :auths #{}
-                                       :country-qid nil :level1 #{})))]
-    (when (and host university? (valid-hostname? host))
+                (academia-level (assoc ctx :kind :university
+                                       :type (if national? "national_university" "education")
+                                       :label label :juris (or juris #{}) :auths (or auths #{}))))]
+    (when (and host university? (valid-hostname? host)
+               (not private?) (not= level "local"))
       [(str/replace id #"^https://ror\.org/" "") label url host (or wd "") (or level "")])))
+
+(def country-qids
+  "{country_dir wikidata_qid} of data/country_qid.csv."
+  (delay (into {} (for [row (read-csv-file qid-map-file)]
+                    [(get row "country_dir") (get row "wikidata_qid")]))))
 
 (defn ror-process!
   "Write sources/ror/universities.csv (ror,label,website,hostname,wikidata,level):
-  the universities ROR knows in the country, one row per org and host,
-  level central, central-1 or blank (unknown), the most precise level
+  the public universities ROR knows in the country (ror-org->row), one
+  row per org and host, level central, central-1 or blank (unknown), the most precise level
   winning per host and label. Skip an existing file unless FORCE=1; need the
   subdivisions file. :ok, :skip or :fail (nothing written)."
   [country-dir]
@@ -635,16 +716,25 @@
           :fail)
 
       :else
-      (let [_    (println (str "=== " country-dir " (" iso2 ") ror ==="))
-            subs (rest (read-csv-raw sub))
-            ctx  {:level1-pattern (level1-pattern (map second subs))
-                  :tiers          (get academia-tiers (first (str/split country-dir #"_"))
-                                       {:default "central"})}
-            orgs (ror-fetch-all iso2)]
-        (if (nil? orgs)
+      (let [_     (println (str "=== " country-dir " (" iso2 ") ror ==="))
+            subs  (rest (read-csv-raw sub))
+            ctx   {:country-qid    (get @country-qids country-dir)
+                   :level1         (into #{} (map first subs))
+                   :level1-pattern (level1-pattern (map second subs))
+                   :tiers          (get academia-tiers (first (str/split country-dir #"_"))
+                                        {:default "central"})}
+            orgs  (ror-fetch-all iso2)
+            facts (when orgs (ror-wikidata-facts (keep ror-org-wikidata orgs)))]
+        (cond
+          (nil? orgs)
           (do (err "ERR: " country-dir ": a ROR request failed; " out " left untouched") :fail)
+
+          (nil? facts)
+          (do (err "ERR: " country-dir ": a Wikidata query failed; " out " left untouched") :fail)
+
+          :else
           (let [rows (->> orgs
-                          (keep #(ror-org->row ctx %))
+                          (keep #(ror-org->row ctx facts %))
                           (sort-by (juxt #(nth % 3) #(get level-rank (nth % 5) 2) #(nth % 1)))
                           dedup-host-label)]
             (write-csv-file out ["ror" "label" "website" "hostname" "wikidata" "level"] rows)

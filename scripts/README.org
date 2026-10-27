@@ -283,7 +283,10 @@ lower tier (city, county, department…) are not written anywhere.
 Hosts covered by a confirmed domain (any country -- Wikidata files
 embassies under their host country) or by an =excluded.csv= domain
 are left out. =bb pipeline probe-proposed= probes them into
-=data/.db=.
+=data/.db=. A registrable domain holding three candidates or more
+gets a row of its own, source =parent= (the best score and the most
+frequent level of its hosts, three of them in the label): confirming
+it covers them all at once, a university and its laboratories say.
 
 The =level= comes from the Wikidata P1001 jurisdiction captured at
 fetch time (the country itself ⇒ =central=, one of its first-level
@@ -302,17 +305,25 @@ harvests them from Wikidata into =sources/wikidata/academia.csv= and
 says who runs a university, the level comes from its jurisdiction, or
 that of its operator, parent or owner, when known (a lower tier, a
 city say, leaves it out; a group of universities says nothing), else
-from its label (/federal/, /national/, /estadual/, /provincial/, the
-name of a first-level subdivision…), else from how the country runs
-its universities (=academia-tiers= in =enrich.clj=: national by
-default, the states or Länder in Germany, the United States…). A
+from its label (/federal/, /national/ -- not in the United States,
+where National University is private --, /estadual/, /provincial/,
+the name of a first-level subdivision…), else from how the country
+runs its universities (=academia-tiers= in =enrich.clj=: national by
+default, the states or Länder in Germany, the United States…). In the
+United States, the public universities Wikidata only types as /public
+educational institution of the United States/ count too, schools and
+community colleges aside. A
 university none of these places keeps a blank level and still reaches
 =proposed.csv=, for the curation to decide. =ror= adds the
 universities the [[https://ror.org][Research Organization Registry]] knows, by name, into
-=sources/ror/universities.csv=; as ROR says nothing of who runs them
-nor whether they are public, =propose= only lists them as candidates
-(source =ror=, +2), to be confirmed by a registry such as France's
-=esr= or by hand.
+=sources/ror/universities.csv=. ROR says nothing of who runs them nor
+whether they are public: Wikidata, through the QID ROR gives most of
+them, leaves out the private ones (a private class, or 私立, 民办 or
+사립 in the description: classes miss most private universities of
+Japan), marks the national ones (class, or 国立/國立/국립) and gives
+their authorities, levelled as =academia= does. =propose= only lists
+them as candidates (source =ror=, +2), to be confirmed by a registry
+such as France's =esr= or by hand.
 
 The =central-1= tier exists so downstream reports (e.g. /State of
 Public Code/) can widen their scope from the central administration to
