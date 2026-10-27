@@ -1,53 +1,53 @@
-domain,score,sources,label,level
-parlamento.ao,8,wikidata,National Assembly of Angola,central
-minjud.gv.ao,7,wikidata,Ministry of Youth and Sports,central
-franciscanos.org.br,6,wikidata,Q10354750,
-isptec.co.ao,6,academia;ror,Instituto Superior Politécnico de Tecnologia e Ciências,central
-tribunalconstitucional.ao,6,wikidata,Constitutional Court of Angola,
-uan.ao,6,academia;ror,Agostinho Neto University,central
-ukb.ed.ao,6,academia;ror,Katyavala Bwila University,central
-ulan.ed.ao,6,academia;ror,Universidade Lueji A'Nkonde,central
-unikivi.ao,6,academia;ror,Universidade Kimpa Vita,central
-uniluanda.ao,6,academia;ror,University of Luanda,central
-uninjingambande.ed.ao,6,academia;ror,Rainha Njinga a Mbandi University,central
-bna.ao,4,wikidata,National Bank of Angola,
-isced.ed.ao,4,academia,Instituto Superior de Ciências da Educação de Luanda,
-luanda.mfa.gov.hu,4,wikidata,Embassy of Hungary to Luanda,central
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Luanda",central
-trluanda.ao,4,wikidata,Q131156237,
-ujes.co.ao,4,academia,Universidade José Eduardo dos Santos,central
-umn.ed.ao,4,academia,Mandume ya Ndemufayo University,central
-uninbe.ao,4,academia,University of Namibe,central
-uon.ed.ao,4,academia,11 de Novembro University,central
-angola.mid.ru,3,wikidata,embassy of Russia in Angola,central
-ao.ambafrance.org,3,wikidata,"Embassy of France, Luanda",central
-ao.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Luanda",central
-cisacaxito.org,3,wikidata,Centro de Investigação em Saúde de Angola,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Angola,
-embaixada-de-cabo-verde-em-angola.odoo.com,3,wikidata,"Embassy of Cape Verde, Luanda",central
-ghanaembassy-angola.com,3,wikidata,embassy of Ghana in Angola,central
-inspunyl.co.ao,3,ror,Instituto Superior Universitário Nimi ya Lukeni,central
-ipls.ao,3,ror,Instituto Politécnico da Lunda Sul,central
-ispbengo.ao,3,ror,Instituto Superior Politécnico do Bengo,central
-isptundavala.ao,3,ror,Instituto Superior Politécnico Tundavala,central
-kenyaembassyangola.com,3,wikidata,"Embassy of Kenya, Luanda",central
-luanda.diplo.de,3,wikidata,"Embassy of Germany, Luanda",central
-luanda.mae.ro,3,wikidata,embassy of Romania in Angola,central
-nationallibraryofangola.org,3,wikidata,National Library of Angola,
-norway.no,3,wikidata,"Embassy of Norway, Luanda",central
-portal.ulangola.ed.ao,3,ror,Universidade Lusíada de Angola,central
-sinseangola.com,3,wikidata,Q20061241,central
-ugs.ed.ao,3,ror,Universidade Gregório Semedo,central
-ujes.ao,3,ror,Universidade José Eduardo dos Santos,central
-uma.co.ao,3,ror,Methodist University of Angola,central
-umn.edu.ao,3,ror,Universidade Mandume Ya Ndemufayo,central
-unia.ao,3,ror,Universidade Independente de Angola,central
-unic.co.ao,3,ror,Universidade Internacional do Cuanza,central
-univecc.net,3,academia,Cuito Cuanavale University,central
-uor.ed.ao,3,ror,Universidade Óscar Ribas,central
-upra.co.ao,3,ror,Private University of Angola,central
-utanga.co.ao,3,ror,Technical University of Angola,central
-ucan.edu,2,ror,Catholic University of Angola,central
-unibelas.online,2,ror,Universidade de Belas,central
-unipiaget-angola.org,2,ror,Jean Piaget University of Angola,central
-imetroangola.com,0,ror,Instituto Superior Politécnico Metropolitano de Angola,central
+domain,level,name,score,sources
+parlamento.ao,central,National Assembly of Angola,8,wikidata
+minjud.gv.ao,central,Ministry of Youth and Sports,7,wikidata
+franciscanos.org.br,,Q10354750,6,wikidata
+isptec.co.ao,central,Instituto Superior Politécnico de Tecnologia e Ciências,6,academia;ror
+tribunalconstitucional.ao,,Constitutional Court of Angola,6,wikidata
+uan.ao,central,Agostinho Neto University,6,academia;ror
+ukb.ed.ao,central,Katyavala Bwila University,6,academia;ror
+ulan.ed.ao,central,Universidade Lueji A'Nkonde,6,academia;ror
+unikivi.ao,central,Universidade Kimpa Vita,6,academia;ror
+uniluanda.ao,central,University of Luanda,6,academia;ror
+uninjingambande.ed.ao,central,Rainha Njinga a Mbandi University,6,academia;ror
+bna.ao,,National Bank of Angola,4,wikidata
+isced.ed.ao,,Instituto Superior de Ciências da Educação de Luanda,4,academia
+luanda.mfa.gov.hu,central,Embassy of Hungary to Luanda,4,wikidata
+mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Luanda",4,wikidata
+trluanda.ao,,Q131156237,4,wikidata
+ujes.co.ao,central,Universidade José Eduardo dos Santos,4,academia
+umn.ed.ao,central,Mandume ya Ndemufayo University,4,academia
+uninbe.ao,central,University of Namibe,4,academia
+uon.ed.ao,central,11 de Novembro University,4,academia
+angola.mid.ru,central,embassy of Russia in Angola,3,wikidata
+ao.ambafrance.org,central,"Embassy of France, Luanda",3,wikidata
+ao.chineseembassy.org,central,"Embassy of the People's Republic of China, Luanda",3,wikidata
+cisacaxito.org,,Centro de Investigação em Saúde de Angola,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Angola,3,wikidata
+embaixada-de-cabo-verde-em-angola.odoo.com,central,"Embassy of Cape Verde, Luanda",3,wikidata
+ghanaembassy-angola.com,central,embassy of Ghana in Angola,3,wikidata
+inspunyl.co.ao,central,Instituto Superior Universitário Nimi ya Lukeni,3,ror
+ipls.ao,central,Instituto Politécnico da Lunda Sul,3,ror
+ispbengo.ao,central,Instituto Superior Politécnico do Bengo,3,ror
+isptundavala.ao,central,Instituto Superior Politécnico Tundavala,3,ror
+kenyaembassyangola.com,central,"Embassy of Kenya, Luanda",3,wikidata
+luanda.diplo.de,central,"Embassy of Germany, Luanda",3,wikidata
+luanda.mae.ro,central,embassy of Romania in Angola,3,wikidata
+nationallibraryofangola.org,,National Library of Angola,3,wikidata
+norway.no,central,"Embassy of Norway, Luanda",3,wikidata
+portal.ulangola.ed.ao,central,Universidade Lusíada de Angola,3,ror
+sinseangola.com,central,Q20061241,3,wikidata
+ugs.ed.ao,central,Universidade Gregório Semedo,3,ror
+ujes.ao,central,Universidade José Eduardo dos Santos,3,ror
+uma.co.ao,central,Methodist University of Angola,3,ror
+umn.edu.ao,central,Universidade Mandume Ya Ndemufayo,3,ror
+unia.ao,central,Universidade Independente de Angola,3,ror
+unic.co.ao,central,Universidade Internacional do Cuanza,3,ror
+univecc.net,central,Cuito Cuanavale University,3,academia
+uor.ed.ao,central,Universidade Óscar Ribas,3,ror
+upra.co.ao,central,Private University of Angola,3,ror
+utanga.co.ao,central,Technical University of Angola,3,ror
+ucan.edu,central,Catholic University of Angola,2,ror
+unibelas.online,central,Universidade de Belas,2,ror
+unipiaget-angola.org,central,Jean Piaget University of Angola,2,ror
+imetroangola.com,central,Instituto Superior Politécnico Metropolitano de Angola,0,ror

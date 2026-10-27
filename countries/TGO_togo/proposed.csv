@@ -1,29 +1,29 @@
-domain,score,sources,label,level
-assemblee-nationale.tg,7,wikidata,National Assembly,central
-inseed.tg,7,wikidata;academia,INSEED-TOGO,central
-minjustg.com,6,wikidata,Ministry of Justice and Legislation (Togo),central
-togo.tg,6,un_desa,UN/DESA national portal,
-togoleseministryofhealthlome.myewebsite.com,6,wikidata,Togolese Ministry of Health,central
-univ-lome.tg,6,academia;ror,University of Lomé,central
-ccit.tg,4,wikidata,chamber of commerce and industry of Togo,
-courconstitutionnelle.tg,4,wikidata,Q19544229,
-courdappeldelome.tg,4,wikidata,Q139559373,central
-courdescomptes.tg,4,wikidata,Q139500459,
-coursupremetogo.tg,4,wikidata,Q125959623,
-itra.tg,4,academia,Institut togolais de recherche agronomique,
-paul.univ-lome.tg,4,academia,University of Lomé,central
-univ-kara.tg,4,academia,University of Kara,central
-bceao.int,3,wikidata,Central Bank of West African States,
-ceni-tg.org,3,wikidata,Q19955905,central
-cndh-togo.org,3,wikidata,National Human Rights Commission (Togo),
-cugw.tg,3,ror,Global Wealth University,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Togo,
-ena.tg,3,ror,École Nationale d'Administration,central
-ghanaembassy-togo.com,3,wikidata,embassy of Ghana in Togo,central
-hcourtog.com,3,wikidata,High Court of Justice,central
-iaec-university.tg,3,ror,University of Science and Technology of Togo,central
-lome.diplo.de,3,wikidata,"Embassy of Germany, Lomé",central
-tg.ambafrance.org,3,wikidata,"Embassy of France, Lomé",central
-unesco.tg.refer.org,3,wikidata,Togolese National Commissions for UNESCO,
-univkara.tg,3,ror,University of Kara,central
-woelabo.com,3,academia,WoeLab,
+domain,level,name,score,sources
+assemblee-nationale.tg,central,National Assembly,7,wikidata
+inseed.tg,central,INSEED-TOGO,7,wikidata;academia
+minjustg.com,central,Ministry of Justice and Legislation (Togo),6,wikidata
+togo.tg,,UN/DESA national portal,6,un_desa
+togoleseministryofhealthlome.myewebsite.com,central,Togolese Ministry of Health,6,wikidata
+univ-lome.tg,central,University of Lomé,6,academia;ror
+ccit.tg,,chamber of commerce and industry of Togo,4,wikidata
+courconstitutionnelle.tg,,Q19544229,4,wikidata
+courdappeldelome.tg,central,Q139559373,4,wikidata
+courdescomptes.tg,,Q139500459,4,wikidata
+coursupremetogo.tg,,Q125959623,4,wikidata
+itra.tg,,Institut togolais de recherche agronomique,4,academia
+paul.univ-lome.tg,central,University of Lomé,4,academia
+univ-kara.tg,central,University of Kara,4,academia
+bceao.int,,Central Bank of West African States,3,wikidata
+ceni-tg.org,central,Q19955905,3,wikidata
+cndh-togo.org,,National Human Rights Commission (Togo),3,wikidata
+cugw.tg,central,Global Wealth University,3,ror
+eeas.europa.eu,,Delegation of the European Union to Togo,3,wikidata
+ena.tg,central,École Nationale d'Administration,3,ror
+ghanaembassy-togo.com,central,embassy of Ghana in Togo,3,wikidata
+hcourtog.com,central,High Court of Justice,3,wikidata
+iaec-university.tg,central,University of Science and Technology of Togo,3,ror
+lome.diplo.de,central,"Embassy of Germany, Lomé",3,wikidata
+tg.ambafrance.org,central,"Embassy of France, Lomé",3,wikidata
+unesco.tg.refer.org,,Togolese National Commissions for UNESCO,3,wikidata
+univkara.tg,central,University of Kara,3,ror
+woelabo.com,,WoeLab,3,academia

@@ -1,15 +1,15 @@
-domain,score,sources,label,level
-parlamento.tl,8,wikidata,National Parliament,central
-anpm.tl,4,wikidata,Q124094298,
-bancocentral.tl,4,wikidata,Banco Central de Timor-Leste,
-mineralstender.anpm.tl,4,wikidata,Q124094424,
-pntl.tl,4,wikidata,National Police of East Timor,
-dit.edu.tl,3,ror,Dili Institute of Technology,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Timor-Leste,
-laohamutuk.org,3,academia,La'o Hamutuk,
-undil.tl,3,ror,Universidade de Díli,central
-unital.edu.tl,3,ror,Universidade Oriental Timor Lorosa'e,central
-unpaz.tl,3,ror,Universidade da Paz,central
-untl.edu.tl,3,ror,National University of East Timor,central
-web.iscjournal.com,3,academia,Q117307183,
-holyrosaryprovince.org,1,wikidata,Dominican Province of Our Lady of the Rosary,
+domain,level,name,score,sources
+parlamento.tl,central,National Parliament,8,wikidata
+anpm.tl,,Q124094298,4,wikidata
+bancocentral.tl,,Banco Central de Timor-Leste,4,wikidata
+mineralstender.anpm.tl,,Q124094424,4,wikidata
+pntl.tl,,National Police of East Timor,4,wikidata
+dit.edu.tl,central,Dili Institute of Technology,3,ror
+eeas.europa.eu,,Delegation of the European Union to Timor-Leste,3,wikidata
+laohamutuk.org,,La'o Hamutuk,3,academia
+undil.tl,central,Universidade de Díli,3,ror
+unital.edu.tl,central,Universidade Oriental Timor Lorosa'e,3,ror
+unpaz.tl,central,Universidade da Paz,3,ror
+untl.edu.tl,central,National University of East Timor,3,ror
+web.iscjournal.com,,Q117307183,3,academia
+holyrosaryprovince.org,,Dominican Province of Our Lady of the Rosary,1,wikidata

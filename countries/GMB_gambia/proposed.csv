@@ -1,40 +1,40 @@
-domain,score,sources,label,level
-assembly.gm,7,wikidata,National Assembly of The Gambia,central
-mope.gm,7,wikidata,"Ministry of Petroleum, Energy and Mines",central
-gc.edu.gm,6,wikidata;ror,The Gambia College,central
-cbg.gm,4,wikidata,Central Bank of The Gambia,
-gambiaports.gm,4,wikidata,Gambia Ports Authority,central
-gamcel.gm,4,wikidata,Gambia Telecommunications Cellular Company,central
-gampost.gm,4,wikidata,Gambia Postal Services Corporation,
-gamtel.gm,4,wikidata,Gamtel,
-gcc.gm,4,wikidata,Gambia Competition and Consumer Protection Commission,central
-giepa.gm,4,wikidata,Gambia Investment and Export Promotion Agency,
-gppa.gm,4,wikidata,Gambia Public Procurement Authority,central
-gra.gm,4,wikidata,Gambia Revenue Authority,central
-grts.gm,4,wikidata,Gambia Radio & Television Service,
-iec.gm,4,wikidata,Independent Electoral Commission,central
-itc.gm,4,academia,International Trypanotolerance Centre,
-mrc.gm,4,academia,Medical Research Council The Gambia Unit,
-nana.gm,4,wikidata,National Nutrition Agency,
-nao.gm,4,wikidata,National Audit Office,central
-naqaa.gm,4,wikidata,National Accreditation and Quality Assurance Authority,
-nari.gm,4,academia,National Agricultural Research Institute,central
-nawec.gm,4,wikidata,NAWEC,
-ncac.gm,4,wikidata,National Council for Arts and Culture,
-nea.gm,4,wikidata,National Environment Agency,central
-nedi.gm,4,wikidata,National Enterprise Development Initiative,central
-nra.gm,4,wikidata,National Roads Authority,central
-nsc.gm,4,wikidata,National Sports Council,central
-nyc.gm,4,wikidata,National Youth Council,central
-ombudsman.gm,4,wikidata,Office of the Ombudsman,central
-pscgov.gm,4,wikidata,Public Service Commission,central
-pura.gm,4,wikidata,Gambia Public Utilities Regulatory Authority,
-sshfc.gm,4,wikidata,Social Security Housing & Finance Corporation,central
-tgsb.gm,4,wikidata,The Gambia Standards Bureau,
-utg.edu.gm,4,wikidata;academia;ror,University of the Gambia,central
-aiu.edu.gm,3,ror,American International University West Africa,central
-banjul.diplo.de,3,wikidata,"Embassy of Germany, Banjul",central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to The Gambia,
-iou.edu.gm,3,ror,International Open University,central
-visitthegambia.com,3,wikidata,Gambia Tourism Board,central
-euclid.int,2,ror,Euclid University,central
+domain,level,name,score,sources
+assembly.gm,central,National Assembly of The Gambia,7,wikidata
+mope.gm,central,"Ministry of Petroleum, Energy and Mines",7,wikidata
+gc.edu.gm,central,The Gambia College,6,wikidata;ror
+cbg.gm,,Central Bank of The Gambia,4,wikidata
+gambiaports.gm,central,Gambia Ports Authority,4,wikidata
+gamcel.gm,central,Gambia Telecommunications Cellular Company,4,wikidata
+gampost.gm,,Gambia Postal Services Corporation,4,wikidata
+gamtel.gm,,Gamtel,4,wikidata
+gcc.gm,central,Gambia Competition and Consumer Protection Commission,4,wikidata
+giepa.gm,,Gambia Investment and Export Promotion Agency,4,wikidata
+gppa.gm,central,Gambia Public Procurement Authority,4,wikidata
+gra.gm,central,Gambia Revenue Authority,4,wikidata
+grts.gm,,Gambia Radio & Television Service,4,wikidata
+iec.gm,central,Independent Electoral Commission,4,wikidata
+itc.gm,,International Trypanotolerance Centre,4,academia
+mrc.gm,,Medical Research Council The Gambia Unit,4,academia
+nana.gm,,National Nutrition Agency,4,wikidata
+nao.gm,central,National Audit Office,4,wikidata
+naqaa.gm,,National Accreditation and Quality Assurance Authority,4,wikidata
+nari.gm,central,National Agricultural Research Institute,4,academia
+nawec.gm,,NAWEC,4,wikidata
+ncac.gm,,National Council for Arts and Culture,4,wikidata
+nea.gm,central,National Environment Agency,4,wikidata
+nedi.gm,central,National Enterprise Development Initiative,4,wikidata
+nra.gm,central,National Roads Authority,4,wikidata
+nsc.gm,central,National Sports Council,4,wikidata
+nyc.gm,central,National Youth Council,4,wikidata
+ombudsman.gm,central,Office of the Ombudsman,4,wikidata
+pscgov.gm,central,Public Service Commission,4,wikidata
+pura.gm,,Gambia Public Utilities Regulatory Authority,4,wikidata
+sshfc.gm,central,Social Security Housing & Finance Corporation,4,wikidata
+tgsb.gm,,The Gambia Standards Bureau,4,wikidata
+utg.edu.gm,central,University of the Gambia,4,wikidata;academia;ror
+aiu.edu.gm,central,American International University West Africa,3,ror
+banjul.diplo.de,central,"Embassy of Germany, Banjul",3,wikidata
+eeas.europa.eu,,Delegation of the European Union to The Gambia,3,wikidata
+iou.edu.gm,central,International Open University,3,ror
+visitthegambia.com,central,Gambia Tourism Board,3,wikidata
+euclid.int,central,Euclid University,2,ror

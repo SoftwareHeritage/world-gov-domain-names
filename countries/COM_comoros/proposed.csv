@@ -1,8 +1,8 @@
-domain,score,sources,label,level
-inseed.km,7,wikidata;academia,INSEED,central
-coursupremecomores.km,6,wikidata,Supreme Court of the Comoros,
-banque-comores.km,4,wikidata,Central Bank of the Comoros,
-anjouanoffshorefinancialauthority.org,3,wikidata,Anjouan Offshore Finance Authority,central-1
-km.ambafrance.org,3,wikidata,"Embassy of France, Moroni",central
-km.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Moroni",central
-midocean.ae,2,ror,Midocean University,central
+domain,level,name,score,sources
+inseed.km,central,INSEED,7,wikidata;academia
+coursupremecomores.km,,Supreme Court of the Comoros,6,wikidata
+banque-comores.km,,Central Bank of the Comoros,4,wikidata
+anjouanoffshorefinancialauthority.org,central-1,Anjouan Offshore Finance Authority,3,wikidata
+km.ambafrance.org,central,"Embassy of France, Moroni",3,wikidata
+km.china-embassy.org,central,"Embassy of the People's Republic of China, Moroni",3,wikidata
+midocean.ae,central,Midocean University,2,ror

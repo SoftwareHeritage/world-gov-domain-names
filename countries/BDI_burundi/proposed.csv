@@ -1,27 +1,27 @@
-domain,score,sources,label,level
-insbu.bi,7,wikidata;academia,National Institute of Statistics of Burundi,central
-minisante.bi,7,wikidata,Ministry of Public Health of Burundi,central
-burundistats.org,6,wikidata;academia,Burundi Institute of Statistics and Economic Studies,
-ub.edu.bi,6,academia;ror,Université du Burundi,central
-assemblee.bi,4,wikidata,National Assembly,central
-brb.bi,4,wikidata,Bank of the Republic of Burundi,
-ceniburundi.bi,4,wikidata,Q21008237,central
-igebu.bi,4,wikidata,Institut Géographique du Burundi,
-senat.bi,4,wikidata,Senate,central
-bcu.edu.bi,3,ror,Bujumbura Christian University,central
-bi.ambafrance.org,3,wikidata,"Embassy of France, Bujumbura",central
-bujumbura.diplo.de,3,wikidata,"Embassy of Germany, Bujumbura",central
-burundi.mid.ru,3,wikidata,embassy of Russia in Burundi,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Burundi,
-en.ulbu.bi,3,ror,Light University of Bujumbur,central
-ena.bi,3,ror,École Normale d'Administration,central
-ens.edu.bi,3,ror,École Normale Supérieure,central
-hau.bi,3,ror,Hope Africa University,central
-lta.iwlearn.org,3,wikidata,Lake Tanganyika Authority,
-nationallibraryofburundi.org,3,wikidata,National Library of Burundi,
-ugl.bi,3,ror,Université des Grands Lacs,central
-ult.bi,3,ror,Université du Lac Tanganyika,central
-univ-ngozi.bi,3,ror,University of Ngozi,central
-upg.edu.bi,3,ror,Université Polytechnique de Gitega,central
-upi.edu.bi,3,ror,Université Polytechnique Intégrée,central
-easu-burundi.com,2,ror,East Africa Star University,central
+domain,level,name,score,sources
+insbu.bi,central,National Institute of Statistics of Burundi,7,wikidata;academia
+minisante.bi,central,Ministry of Public Health of Burundi,7,wikidata
+burundistats.org,,Burundi Institute of Statistics and Economic Studies,6,wikidata;academia
+ub.edu.bi,central,Université du Burundi,6,academia;ror
+assemblee.bi,central,National Assembly,4,wikidata
+brb.bi,,Bank of the Republic of Burundi,4,wikidata
+ceniburundi.bi,central,Q21008237,4,wikidata
+igebu.bi,,Institut Géographique du Burundi,4,wikidata
+senat.bi,central,Senate,4,wikidata
+bcu.edu.bi,central,Bujumbura Christian University,3,ror
+bi.ambafrance.org,central,"Embassy of France, Bujumbura",3,wikidata
+bujumbura.diplo.de,central,"Embassy of Germany, Bujumbura",3,wikidata
+burundi.mid.ru,central,embassy of Russia in Burundi,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Burundi,3,wikidata
+en.ulbu.bi,central,Light University of Bujumbur,3,ror
+ena.bi,central,École Normale d'Administration,3,ror
+ens.edu.bi,central,École Normale Supérieure,3,ror
+hau.bi,central,Hope Africa University,3,ror
+lta.iwlearn.org,,Lake Tanganyika Authority,3,wikidata
+nationallibraryofburundi.org,,National Library of Burundi,3,wikidata
+ugl.bi,central,Université des Grands Lacs,3,ror
+ult.bi,central,Université du Lac Tanganyika,3,ror
+univ-ngozi.bi,central,University of Ngozi,3,ror
+upg.edu.bi,central,Université Polytechnique de Gitega,3,ror
+upi.edu.bi,central,Université Polytechnique Intégrée,3,ror
+easu-burundi.com,central,East Africa Star University,2,ror

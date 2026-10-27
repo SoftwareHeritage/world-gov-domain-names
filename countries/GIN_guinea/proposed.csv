@@ -1,23 +1,23 @@
-domain,score,sources,label,level
-stat-guinee.org,6,wikidata;academia,Institut National de la Statistique,central
-uganc.edu.gn,6,academia;ror,University of Conakry,central
-ambassadealgerieconakry.info,3,wikidata,"Embassy of Algeria, Conakry",central
-anss-guinee.org,3,wikidata,Q97097294,
-bcrg-guinee.org,3,wikidata,Central Bank of the Republic of Guinea,
-ceniguinee.org,3,wikidata,Independent National Electoral Commission,central
-conakry.diplo.de,3,wikidata,"Embassy of Germany, Conakry",central
-conakry.mfa.ir,3,wikidata,embassy of Iran in Guinea,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Guinea,
-ghanaembassy-guinea.com,3,wikidata,embassy of Ghana in Guinea,central
-gn.ambafrance.org,3,wikidata,"Embassy of France, Conakry",central
-guinea.mid.ru,3,wikidata,embassy of Russia in Guinea,central
-herbierguinee.org,3,academia,Herbier National de Guinée,central
-insp-guinee.org,3,wikidata,Institut National de Santé Publique,
-irag-guinee.org,3,wikidata,Institut de Recherche Agronomique de Guinee,
-misiones.cubaminrex.cu,3,wikidata,embassy of Cuba to Guinea,central
-uglcs.org,3,academia,General Lansana Conte University,central
-foutapedia.net,2,ror,Centre Universitaire de Labé,central
-uglcsonfonia.org,2,ror,Université Général Lansana Conté,central
-ujnk.org,2,ror,Julius Nyerere University of Kankan,central
-univ-kag.org,2,ror,Université Kofi Annan de Guinée,central
-univ-kindia.com,2,ror,Université de Kindia,central
+domain,level,name,score,sources
+stat-guinee.org,central,Institut National de la Statistique,6,wikidata;academia
+uganc.edu.gn,central,University of Conakry,6,academia;ror
+ambassadealgerieconakry.info,central,"Embassy of Algeria, Conakry",3,wikidata
+anss-guinee.org,,Q97097294,3,wikidata
+bcrg-guinee.org,,Central Bank of the Republic of Guinea,3,wikidata
+ceniguinee.org,central,Independent National Electoral Commission,3,wikidata
+conakry.diplo.de,central,"Embassy of Germany, Conakry",3,wikidata
+conakry.mfa.ir,central,embassy of Iran in Guinea,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Guinea,3,wikidata
+ghanaembassy-guinea.com,central,embassy of Ghana in Guinea,3,wikidata
+gn.ambafrance.org,central,"Embassy of France, Conakry",3,wikidata
+guinea.mid.ru,central,embassy of Russia in Guinea,3,wikidata
+herbierguinee.org,central,Herbier National de Guinée,3,academia
+insp-guinee.org,,Institut National de Santé Publique,3,wikidata
+irag-guinee.org,,Institut de Recherche Agronomique de Guinee,3,wikidata
+misiones.cubaminrex.cu,central,embassy of Cuba to Guinea,3,wikidata
+uglcs.org,central,General Lansana Conte University,3,academia
+foutapedia.net,central,Centre Universitaire de Labé,2,ror
+uglcsonfonia.org,central,Université Général Lansana Conté,2,ror
+ujnk.org,central,Julius Nyerere University of Kankan,2,ror
+univ-kag.org,central,Université Kofi Annan de Guinée,2,ror
+univ-kindia.com,central,Université de Kindia,2,ror

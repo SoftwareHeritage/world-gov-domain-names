@@ -1,22 +1,22 @@
-domain,score,sources,label,level
-finances.gouv.cg,8,wikidata,Q138766330,
-hydrocarbures.gouv.cg,8,wikidata,Q139836464,
-postetelecom.gouv.cg,8,wikidata,Q138711324,
-presidence.cg,7,un_desa,UN/DESA national portal,
-diplobrazza.net,6,wikidata,"Ministry of Foreign Affairs, Francophonie and Congolese Abroad",
-meppsa.org,6,wikidata,Q138754653,
-umng.cg,6,academia;ror,Marien Ngouabi University,central
-anaccongo.cg,4,wikidata,Agence nationale de l'aviation civile (Republic of the Congo),
-assemblee-nationale.cg,4,wikidata,National Assembly,central
-bea.cg,4,wikidata,Aircraft Accident Investigation Bureau,
-ccj-congo.cg,4,wikidata,Youth Advisory Council,
-senat.cg,4,wikidata,Senate,central
-brazzaville.diplo.de,3,wikidata,"Embassy of Germany, Brazzaville",central
-cerape.org,3,academia,Centre d’Etudes et de Recherche sur les Analyses et les Politiques Economiques,
-cg.ambafrance.org,3,wikidata,"Embassy of France, Brazzaville",central
-cnsee.org,3,academia,L’Institut National de la Statistique,central
-congo.mid.ru,3,wikidata,embassy of Russia in Republic of the Congo,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Congo,
-pointe-noire.consulfrance.org,3,wikidata,Consulate General of France in Pointe-Noire,
-udsn.cg,3,ror,Université de Denis Sassou N'guesso,central
-universitelibreducongo.org,2,ror,Université Libre du Congo,central
+domain,level,name,score,sources
+finances.gouv.cg,,Q138766330,8,wikidata
+hydrocarbures.gouv.cg,,Q139836464,8,wikidata
+postetelecom.gouv.cg,,Q138711324,8,wikidata
+presidence.cg,,UN/DESA national portal,7,un_desa
+diplobrazza.net,,"Ministry of Foreign Affairs, Francophonie and Congolese Abroad",6,wikidata
+meppsa.org,,Q138754653,6,wikidata
+umng.cg,central,Marien Ngouabi University,6,academia;ror
+anaccongo.cg,,Agence nationale de l'aviation civile (Republic of the Congo),4,wikidata
+assemblee-nationale.cg,central,National Assembly,4,wikidata
+bea.cg,,Aircraft Accident Investigation Bureau,4,wikidata
+ccj-congo.cg,,Youth Advisory Council,4,wikidata
+senat.cg,central,Senate,4,wikidata
+brazzaville.diplo.de,central,"Embassy of Germany, Brazzaville",3,wikidata
+cerape.org,,Centre d’Etudes et de Recherche sur les Analyses et les Politiques Economiques,3,academia
+cg.ambafrance.org,central,"Embassy of France, Brazzaville",3,wikidata
+cnsee.org,central,L’Institut National de la Statistique,3,academia
+congo.mid.ru,central,embassy of Russia in Republic of the Congo,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Congo,3,wikidata
+pointe-noire.consulfrance.org,,Consulate General of France in Pointe-Noire,3,wikidata
+udsn.cg,central,Université de Denis Sassou N'guesso,3,ror
+universitelibreducongo.org,central,Université Libre du Congo,2,ror

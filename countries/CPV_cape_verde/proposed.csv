@@ -1,23 +1,23 @@
-domain,score,sources,label,level
-justica.gov.cv,8,wikidata,Ministry of Justice of Cape Verde,central
-mai.gov.cv,8,wikidata,Ministry of Internal Affairs,central
-mesci.gov.cv,8,wikidata,"Ministry of Higher Education, Science and Innovation",central
-parlamento.cv,8,wikidata,National Assembly of Cape Verde,central
-ine.cv,7,wikidata;academia,National Statistics Institute,central
-dgesc.gov.cv,5,wikidata,Direcção Geral de Ensino Superior Ciencia,
-insp.gov.cv,5,wikidata,Instituto Nacional de Saúde Pública,
-minsaude.gov.cv,5,wikidata,Ministério da Saúde,
-arme.cv,4,wikidata,Q136356251,
-arquivonacional.cv,4,wikidata,Institute of National Archives of Cabo Verde,
-bcv.cv,4,wikidata,Bank of Cape Verde,
-iefp.cv,4,wikidata,Institute of Employment and Professional Training (Cape Verde),
-stj.cv,4,wikidata,Cabo Verde. Supremo Tribunal de Justiça,
-uta.cv,4,academia,Atlantic Technical University,central
-biosfera1.com,3,academia,Biosfera,
-capeverde.mid.ru,3,wikidata,Embassy of Russia in Cape Verde,central
-cv.ambafrance.org,3,wikidata,"Embassy of France, Praia",central
-cv.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Praia",central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Cabo Verde,
-praia.mae.lu,3,wikidata,embassy of Luxembourg in Cape Verde,central
-unicv.edu.cv,3,ror,University of Cape Verde,central
-unipiaget.cv,3,ror,Jean Piaget University of Cape Verde,central
+domain,level,name,score,sources
+justica.gov.cv,central,Ministry of Justice of Cape Verde,8,wikidata
+mai.gov.cv,central,Ministry of Internal Affairs,8,wikidata
+mesci.gov.cv,central,"Ministry of Higher Education, Science and Innovation",8,wikidata
+parlamento.cv,central,National Assembly of Cape Verde,8,wikidata
+ine.cv,central,National Statistics Institute,7,wikidata;academia
+dgesc.gov.cv,,Direcção Geral de Ensino Superior Ciencia,5,wikidata
+insp.gov.cv,,Instituto Nacional de Saúde Pública,5,wikidata
+minsaude.gov.cv,,Ministério da Saúde,5,wikidata
+arme.cv,,Q136356251,4,wikidata
+arquivonacional.cv,,Institute of National Archives of Cabo Verde,4,wikidata
+bcv.cv,,Bank of Cape Verde,4,wikidata
+iefp.cv,,Institute of Employment and Professional Training (Cape Verde),4,wikidata
+stj.cv,,Cabo Verde. Supremo Tribunal de Justiça,4,wikidata
+uta.cv,central,Atlantic Technical University,4,academia
+biosfera1.com,,Biosfera,3,academia
+capeverde.mid.ru,central,Embassy of Russia in Cape Verde,3,wikidata
+cv.ambafrance.org,central,"Embassy of France, Praia",3,wikidata
+cv.chineseembassy.org,central,"Embassy of the People's Republic of China, Praia",3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Cabo Verde,3,wikidata
+praia.mae.lu,central,embassy of Luxembourg in Cape Verde,3,wikidata
+unicv.edu.cv,central,University of Cape Verde,3,ror
+unipiaget.cv,central,Jean Piaget University of Cape Verde,3,ror

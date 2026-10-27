@@ -1,35 +1,35 @@
-domain,score,sources,label,level
-assembleenationale.bf,7,wikidata,National Assembly of Burkina Faso,central
-insd.bf,7,wikidata;academia,Institut National de la Statistique et de la Démographie,central
-uts.bf,6,academia;ror,Université Thomas-Sankara,central
-alt.bf,4,wikidata,Transitional Legislative Assembly,
-cedres.bf,4,academia,"Centre d`études, de documentation, de recherches économique et social",
-crsn-nouna.bf,4,wikidata,Centre de Recherche en Santé de Nouna,
-gendarmerienationale.bf,4,wikidata,National Gendarmerie,
-issp.bf,4,academia,Institut Superieur Des Sciences De La Population,
-meteoburkina.bf,4,wikidata,Direction Générale de la Météorologie,
-2ie-edu.org,3,academia,International Institute for Water and Environmental Engineering,
-ambalgbf.net,3,wikidata,"Embassy of Algeria, Ouagadougou",central
-bceao.int,3,wikidata,Central Bank of West African States,
-bf.ambafrance.org,3,wikidata,"Embassy of France, Ouagadougou",central
-burkinafaso.um.dk,3,wikidata,embassy of Denmark in Burkina Faso,central
-cameg.com,3,wikidata,Central Procurement Agency for Essential Generic Medicines,
-cirdes.org,3,academia,International Centre for Research and Development on Livestock in Sub-humid Areas,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Burkina Faso,
-graadburkina.org,3,academia,Group for Research and Applied Analysis for Development,
-gwp.org,3,wikidata,Global Water Partnership West Africa,
-ouagadougou.diplo.de,3,wikidata,"Embassy of Germany, Ouagadougou",central
-pattec.au.int,3,wikidata,Pan African Tsetse and Trypanosomiasis Eradication Campaign,
-rahimotransport.com,3,wikidata,Rahimo transport,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Ouagadougou",central
-ujkz.bf,3,ror,Université Joseph Ki-Zerbo,central
-univ-dedougou.bf,3,ror,Université Daniel Ouezzin Coulibaly,central
-univ-ouaga2.bf,3,ror,Université Ouaga II,central
-unz.bf,3,ror,University of Koudougou,central
-usta.bf,3,ror,Université Saint Thomas d’Aquin,central
-ispp-edu.com,2,ror,Institut Supérieur Privé Polytechnique,central
-u-auben.com,2,ror,Université Aube Nouvelle,central
-ucao-uub.com,2,ror,Université Catholique de l'Afrique de l'Ouest - Unité Universitaire de Bobo Dioulasso,central
-univ-faso.org,2,ror,Université du Faso,central
-univ-priveouaga.com,2,ror,Université Privée de Ouagadougou,central
-universitelibreduburkina.org,2,ror,Université Libre du Burkina,central
+domain,level,name,score,sources
+assembleenationale.bf,central,National Assembly of Burkina Faso,7,wikidata
+insd.bf,central,Institut National de la Statistique et de la Démographie,7,wikidata;academia
+uts.bf,central,Université Thomas-Sankara,6,academia;ror
+alt.bf,,Transitional Legislative Assembly,4,wikidata
+cedres.bf,,"Centre d`études, de documentation, de recherches économique et social",4,academia
+crsn-nouna.bf,,Centre de Recherche en Santé de Nouna,4,wikidata
+gendarmerienationale.bf,,National Gendarmerie,4,wikidata
+issp.bf,,Institut Superieur Des Sciences De La Population,4,academia
+meteoburkina.bf,,Direction Générale de la Météorologie,4,wikidata
+2ie-edu.org,,International Institute for Water and Environmental Engineering,3,academia
+ambalgbf.net,central,"Embassy of Algeria, Ouagadougou",3,wikidata
+bceao.int,,Central Bank of West African States,3,wikidata
+bf.ambafrance.org,central,"Embassy of France, Ouagadougou",3,wikidata
+burkinafaso.um.dk,central,embassy of Denmark in Burkina Faso,3,wikidata
+cameg.com,,Central Procurement Agency for Essential Generic Medicines,3,wikidata
+cirdes.org,,International Centre for Research and Development on Livestock in Sub-humid Areas,3,academia
+eeas.europa.eu,,Delegation of the European Union to Burkina Faso,3,wikidata
+graadburkina.org,,Group for Research and Applied Analysis for Development,3,academia
+gwp.org,,Global Water Partnership West Africa,3,wikidata
+ouagadougou.diplo.de,central,"Embassy of Germany, Ouagadougou",3,wikidata
+pattec.au.int,,Pan African Tsetse and Trypanosomiasis Eradication Campaign,3,wikidata
+rahimotransport.com,,Rahimo transport,3,wikidata
+swedenabroad.se,central,"Embassy of Sweden, Ouagadougou",3,wikidata
+ujkz.bf,central,Université Joseph Ki-Zerbo,3,ror
+univ-dedougou.bf,central,Université Daniel Ouezzin Coulibaly,3,ror
+univ-ouaga2.bf,central,Université Ouaga II,3,ror
+unz.bf,central,University of Koudougou,3,ror
+usta.bf,central,Université Saint Thomas d’Aquin,3,ror
+ispp-edu.com,central,Institut Supérieur Privé Polytechnique,2,ror
+u-auben.com,central,Université Aube Nouvelle,2,ror
+ucao-uub.com,central,Université Catholique de l'Afrique de l'Ouest - Unité Universitaire de Bobo Dioulasso,2,ror
+univ-faso.org,central,Université du Faso,2,ror
+univ-priveouaga.com,central,Université Privée de Ouagadougou,2,ror
+universitelibreduburkina.org,central,Université Libre du Burkina,2,ror

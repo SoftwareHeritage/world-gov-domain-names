@@ -1,31 +1,31 @@
-domain,score,sources,label,level
-ncb.mu,7,wikidata;sopc,National Computer Board,
-agriculture.govmu.org,6,wikidata,Ministry of Agro Industry and Food Security,central
-gender.govmu.org,6,wikidata,"Ministry of Gender Equality, Child Development and Family Welfare",central
-health.govmu.org,6,wikidata,Ministry of Health and Quality of Life,central
-mauritiusassembly.govmu.org,6,wikidata,National Assembly of Mauritius,central
-mof.govmu.org,6,wikidata,Ministry of Finance and Economic Development,central
-tourism.govmu.org,6,wikidata,Ministry of Tourism,central
-govmu.org,5,un_desa,UN/DESA national portal,
-supremecourt.govmu.org,5,wikidata,Supreme Court of Mauritius,central
-ambchine.mu,4,wikidata,"Embassy of the People's Republic of China, Quatre Bornes",central
-bom.mu,4,wikidata,Bank of Mauritius,
-hec.mu,4,wikidata,Higher Education Commission,
-icac.mu,4,wikidata,Independent Commission Against Corruption,
-msb.intnet.mu,4,wikidata,Mauritius Standards Bureau,
-udm.ac.mu,4,academia,Université des Mascareignes,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mauritius and to the Seychelles,central
-mauritius.mid.ru,3,wikidata,embassy of Russia in Mauritius,central
-middlesex.mu,3,ror,Middlesex University Mauritius,central
-moi.govmu.org,3,wikidata,Mauritius Oceanography Institute,
-mu.ambafrance.org,3,wikidata,"Embassy of France, Port Louis",central
-mymauritius.travel,3,wikidata,Mauritius Tourism Promotion Authority,
-national-library.govmu.org,3,wikidata,National Library of Mauritius,
-nationalarchives.govmu.org,3,wikidata,National Archives of Mauritius,
-open.ac.mu,3,ror,Open University of Mauritius,central
-police.govmu.org,3,wikidata,Mauritius Police Force,central
-reci-rodrigues.com,3,wikidata,Rodrigues Economic Chamber and Industry,
-southafrica.diplo.de,3,wikidata,"Honorary Consulate of Germany, Goodlands",
-ssrbg.govmu.org,3,academia,Sir Seewoosagur Ramgoolam Botanical Garden,
-uom.ac.mu,3,ror,University of Mauritius,central
-utm.ac.mu,3,ror,"University of Technology, Mauritius",central
+domain,level,name,score,sources
+ncb.mu,,National Computer Board,7,wikidata;sopc
+agriculture.govmu.org,central,Ministry of Agro Industry and Food Security,6,wikidata
+gender.govmu.org,central,"Ministry of Gender Equality, Child Development and Family Welfare",6,wikidata
+health.govmu.org,central,Ministry of Health and Quality of Life,6,wikidata
+mauritiusassembly.govmu.org,central,National Assembly of Mauritius,6,wikidata
+mof.govmu.org,central,Ministry of Finance and Economic Development,6,wikidata
+tourism.govmu.org,central,Ministry of Tourism,6,wikidata
+govmu.org,,UN/DESA national portal,5,un_desa
+supremecourt.govmu.org,central,Supreme Court of Mauritius,5,wikidata
+ambchine.mu,central,"Embassy of the People's Republic of China, Quatre Bornes",4,wikidata
+bom.mu,,Bank of Mauritius,4,wikidata
+hec.mu,,Higher Education Commission,4,wikidata
+icac.mu,,Independent Commission Against Corruption,4,wikidata
+msb.intnet.mu,,Mauritius Standards Bureau,4,wikidata
+udm.ac.mu,central,Université des Mascareignes,4,academia
+eeas.europa.eu,central,Delegation of the European Union to Mauritius and to the Seychelles,3,wikidata
+mauritius.mid.ru,central,embassy of Russia in Mauritius,3,wikidata
+middlesex.mu,central,Middlesex University Mauritius,3,ror
+moi.govmu.org,,Mauritius Oceanography Institute,3,wikidata
+mu.ambafrance.org,central,"Embassy of France, Port Louis",3,wikidata
+mymauritius.travel,,Mauritius Tourism Promotion Authority,3,wikidata
+national-library.govmu.org,,National Library of Mauritius,3,wikidata
+nationalarchives.govmu.org,,National Archives of Mauritius,3,wikidata
+open.ac.mu,central,Open University of Mauritius,3,ror
+police.govmu.org,central,Mauritius Police Force,3,wikidata
+reci-rodrigues.com,,Rodrigues Economic Chamber and Industry,3,wikidata
+southafrica.diplo.de,,"Honorary Consulate of Germany, Goodlands",3,wikidata
+ssrbg.govmu.org,,Sir Seewoosagur Ramgoolam Botanical Garden,3,academia
+uom.ac.mu,central,University of Mauritius,3,ror
+utm.ac.mu,central,"University of Technology, Mauritius",3,ror

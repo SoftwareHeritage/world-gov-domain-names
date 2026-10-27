@@ -1,56 +1,56 @@
-domain,score,sources,label,level
-hiscambodia.org,6,wikidata,Ministry of Health,central
-grk.com.kh,4,wikidata,Royal Gendarmerie of Cambodia,
-nac.org.kh,4,wikidata,National Assembly,central
-nbc.org.kh,4,wikidata,National Bank of Cambodia,central
-necelect.org.kh,4,wikidata,National Election Committee of Cambodia,
-niph.org.kh,4,academia,National Institute of Public Health,central
-aeu.edu.kh,3,ror,Asia Euro University,central
-angkor.edu.kh,3,ror,Angkor University,central
-aub.edu.kh,3,ror,ACLEDA University of Business,central
-aupp.edu.kh,3,ror,American University of Phnom Penh,central
-bbu.edu.kh,3,ror,Build Bright University,central
-beltei.edu.kh,3,ror,Beltei International University,central
-csuk.edu.kh,3,ror,Chea Sim University of Kamchaymear,central
-cus.edu.kh,3,ror,Cambodian University for Specialties,central
-diu.edu.kh,3,ror,Dewey International University,central
-dmuc.edu.kh,3,ror,De Montfort University Cambodia,central
-eamu.edu.kh,3,ror,East Asia Management University,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Cambodia,
-embrusscambodia.mid.ru,3,wikidata,"Embassy of Russia, Phnom Penh",central
-iic.edu.kh,3,ror,IIC University of Technology,central
-itc.edu.kh,3,ror,Institute of Technology of Cambodia,central
-iu.edu.kh,3,ror,International University,central
-kh.ambafrance.org,3,wikidata,"Embassy of France, Phnom Penh",central
-kh.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Phnom Penh",central
-ksit.edu.kh,3,ror,Kampong Speu Institute of Technology,central
-lifeun.edu.kh,3,ror,Life University,central
-mekong.edu.kh,3,ror,Cambodian Mekong University,central
-nchads.org,3,wikidata,"National Centre for HIV/AIDS Dermatology and STDs, Cambodia",
-ndu.edu.kh,3,ror,National Defense University,central
-nmu.edu.kh,3,ror,National Meanchey University,central
-npic.edu.kh,3,ror,National Polytechnic Institute of Cambodia,central
-nubb.edu.kh,3,ror,National University of Battambang,central
-num.edu.kh,3,ror,National University of Management,central
-paragoniu.edu.kh,3,ror,Paragon International University,central
-pasteur-kh.org,3,academia,Pasteur Institute in Cambodia,
-pcu.edu.kh,3,ror,Panha Chiet University,central
-phnom-penh.diplo.de,3,wikidata,"Embassy of Germany, Phnom Penh",central
-ppiu.edu.kh,3,ror,Phnom Penh International University,central
-puc.edu.kh,3,ror,Paññāsāstra University of Cambodia,central
-puthisastra.edu.kh,3,ror,University of Puthisastra,central
-rufa.edu.kh,3,ror,Royal University of Fine Arts,central
-rule.edu.kh,3,ror,Royal University of Law and Economics,central
-rupp.edu.kh,3,ror,Royal University of Phnom Penh,central
-sru.edu.kh,3,ror,Svay Rieng University,central
-thaiembassy.org,3,wikidata,Embassy of Thailand in Phnom Penh,central
-ubb.edu.kh,3,ror,University of Battambang,central
-uc.edu.kh,3,ror,University of Cambodia,central
-uef.edu.kh,3,ror,University of Economics and Finance,central
-uhs.edu.kh,3,ror,University of Health Science,central
-ukc.edu.kh,3,ror,University of Kratie,central
-ume.edu.kh,3,ror,University of Management and Economics,central
-westernuniversity.edu.kh,3,ror,Western University,central
-cityuniversity.education,2,ror,City University,central
-norton-u.com,2,ror,Norton University,central
-ppiedu.com,2,ror,Preah Kossomak Polytechnic Institute,central
+domain,level,name,score,sources
+hiscambodia.org,central,Ministry of Health,6,wikidata
+grk.com.kh,,Royal Gendarmerie of Cambodia,4,wikidata
+nac.org.kh,central,National Assembly,4,wikidata
+nbc.org.kh,central,National Bank of Cambodia,4,wikidata
+necelect.org.kh,,National Election Committee of Cambodia,4,wikidata
+niph.org.kh,central,National Institute of Public Health,4,academia
+aeu.edu.kh,central,Asia Euro University,3,ror
+angkor.edu.kh,central,Angkor University,3,ror
+aub.edu.kh,central,ACLEDA University of Business,3,ror
+aupp.edu.kh,central,American University of Phnom Penh,3,ror
+bbu.edu.kh,central,Build Bright University,3,ror
+beltei.edu.kh,central,Beltei International University,3,ror
+csuk.edu.kh,central,Chea Sim University of Kamchaymear,3,ror
+cus.edu.kh,central,Cambodian University for Specialties,3,ror
+diu.edu.kh,central,Dewey International University,3,ror
+dmuc.edu.kh,central,De Montfort University Cambodia,3,ror
+eamu.edu.kh,central,East Asia Management University,3,ror
+eeas.europa.eu,,Delegation of the European Union to Cambodia,3,wikidata
+embrusscambodia.mid.ru,central,"Embassy of Russia, Phnom Penh",3,wikidata
+iic.edu.kh,central,IIC University of Technology,3,ror
+itc.edu.kh,central,Institute of Technology of Cambodia,3,ror
+iu.edu.kh,central,International University,3,ror
+kh.ambafrance.org,central,"Embassy of France, Phnom Penh",3,wikidata
+kh.china-embassy.org,central,"Embassy of the People's Republic of China, Phnom Penh",3,wikidata
+ksit.edu.kh,central,Kampong Speu Institute of Technology,3,ror
+lifeun.edu.kh,central,Life University,3,ror
+mekong.edu.kh,central,Cambodian Mekong University,3,ror
+nchads.org,,"National Centre for HIV/AIDS Dermatology and STDs, Cambodia",3,wikidata
+ndu.edu.kh,central,National Defense University,3,ror
+nmu.edu.kh,central,National Meanchey University,3,ror
+npic.edu.kh,central,National Polytechnic Institute of Cambodia,3,ror
+nubb.edu.kh,central,National University of Battambang,3,ror
+num.edu.kh,central,National University of Management,3,ror
+paragoniu.edu.kh,central,Paragon International University,3,ror
+pasteur-kh.org,,Pasteur Institute in Cambodia,3,academia
+pcu.edu.kh,central,Panha Chiet University,3,ror
+phnom-penh.diplo.de,central,"Embassy of Germany, Phnom Penh",3,wikidata
+ppiu.edu.kh,central,Phnom Penh International University,3,ror
+puc.edu.kh,central,Paññāsāstra University of Cambodia,3,ror
+puthisastra.edu.kh,central,University of Puthisastra,3,ror
+rufa.edu.kh,central,Royal University of Fine Arts,3,ror
+rule.edu.kh,central,Royal University of Law and Economics,3,ror
+rupp.edu.kh,central,Royal University of Phnom Penh,3,ror
+sru.edu.kh,central,Svay Rieng University,3,ror
+thaiembassy.org,central,Embassy of Thailand in Phnom Penh,3,wikidata
+ubb.edu.kh,central,University of Battambang,3,ror
+uc.edu.kh,central,University of Cambodia,3,ror
+uef.edu.kh,central,University of Economics and Finance,3,ror
+uhs.edu.kh,central,University of Health Science,3,ror
+ukc.edu.kh,central,University of Kratie,3,ror
+ume.edu.kh,central,University of Management and Economics,3,ror
+westernuniversity.edu.kh,central,Western University,3,ror
+cityuniversity.education,central,City University,2,ror
+norton-u.com,central,Norton University,2,ror
+ppiedu.com,central,Preah Kossomak Polytechnic Institute,2,ror

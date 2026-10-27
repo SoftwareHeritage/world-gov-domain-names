@@ -1,48 +1,48 @@
-domain,score,sources,label,level
-lmmu.ac.zm,6,academia;ror,Levy Mwanawasa Medical University,central
-nkrumah.edu.zm,6,academia;ror,Kwame Nkrumah University,central
-unza.zm,6,academia;ror,University of Zambia,central
-boz.zm,4,wikidata,Bank of Zambia,
-cbu.ac.zm,4,academia,Copperbelt University,
-cbu.ecampus.edu.zm,4,academia,Copperbelt University,
-nac.org.zm,4,wikidata,National HIV/AIDS/STI/TB Council,
-nhra.org.zm,4,wikidata,National Health Research Authority,
-zema.org.zm,4,wikidata,Zambia Environmental Management Agency,
-zicta.zm,4,wikidata,Zambia Information and Communications Technology Authority,
-zma.org.zm,4,wikidata,Zambia Metrology Agency,
-znphi.co.zm,4,wikidata,Zambia National Public Health Institute,
-ambafrance-zm.org,3,wikidata,"Embassy of France, Lusaka",central
-cbu.edu.zm,3,ror,Copperbelt University,central
-chau.ac.zm,3,ror,Chalimbana University,central
-cidrz.org,3,academia,Centre for Infectious Disease Research in Zambia,
-copperstone.ac.zm,3,ror,Copperstone University,central
-cosecsa.org,3,wikidata,Surgical Society of Zambia,
-dmiseu.edu.zm,3,ror,DMI St. Eugene University,central
-edenuniversity.edu.zm,3,ror,Eden University,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Zambia and COMESA,central
-finlandabroad.fi,3,wikidata,embassy of Finland in Zambia,central
-gartzambia.org,3,wikidata,Golden Valley Agricultural Research Trust,
-ghanahighcommission-zambia.com,3,wikidata,high commission of Ghana in Zambia,central
-kmu.ac.zm,3,ror,Kapasa Makasa University,central
-lamu.edu.zm,3,ror,Lusaka Apex Medical University,central
-lusaka.diplo.de,3,wikidata,"Embassy of Germany, Lusaka",central
-mu.ac.zm,3,ror,Mulungushi University,central
-mukuba.edu.zm,3,ror,Mukuba University,central
-mzv.cz,3,wikidata,embassy of the Czech republic in Zambia,central
-ru.edu.zm,3,ror,Rusangu University,central
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Lusaka",central
-tau.edu.zm,3,ror,Texila American University Zambia,central
-unicafuniversity.ac.zm,3,ror,Unicaf University Zambia,central
-unilus.ac.zm,3,ror,University of Lusaka,central
-who.int,3,wikidata,World Health Organization - Zambia,
-zambia.mid.ru,3,wikidata,embassy of Russia in Zambia,central
-zambiaforestrycollege.org,3,academia,Zambia Forestry College,central
-zaou.ac.zm,3,ror,Zambian Open University,central
-zcuniversity.edu.zm,3,ror,Zambia Catholic University,central
-cavendishza.org,2,ror,Cavendish University Zambia,central
-icuzambia.net,2,ror,Information and Communications University,central
-justomwale.net,2,ror,Justo Mwale University,central
-northriseuniversity.com,2,ror,Northrise University,central
-southvalleyuniversity.com,2,ror,South Valley University,central
-supershineuniversity.net,2,ror,Supershine University,central
-universityofafrica.net,2,ror,University of Africa,central
+domain,level,name,score,sources
+lmmu.ac.zm,central,Levy Mwanawasa Medical University,6,academia;ror
+nkrumah.edu.zm,central,Kwame Nkrumah University,6,academia;ror
+unza.zm,central,University of Zambia,6,academia;ror
+boz.zm,,Bank of Zambia,4,wikidata
+cbu.ac.zm,,Copperbelt University,4,academia
+cbu.ecampus.edu.zm,,Copperbelt University,4,academia
+nac.org.zm,,National HIV/AIDS/STI/TB Council,4,wikidata
+nhra.org.zm,,National Health Research Authority,4,wikidata
+zema.org.zm,,Zambia Environmental Management Agency,4,wikidata
+zicta.zm,,Zambia Information and Communications Technology Authority,4,wikidata
+zma.org.zm,,Zambia Metrology Agency,4,wikidata
+znphi.co.zm,,Zambia National Public Health Institute,4,wikidata
+ambafrance-zm.org,central,"Embassy of France, Lusaka",3,wikidata
+cbu.edu.zm,central,Copperbelt University,3,ror
+chau.ac.zm,central,Chalimbana University,3,ror
+cidrz.org,,Centre for Infectious Disease Research in Zambia,3,academia
+copperstone.ac.zm,central,Copperstone University,3,ror
+cosecsa.org,,Surgical Society of Zambia,3,wikidata
+dmiseu.edu.zm,central,DMI St. Eugene University,3,ror
+edenuniversity.edu.zm,central,Eden University,3,ror
+eeas.europa.eu,central,Delegation of the European Union to Zambia and COMESA,3,wikidata
+finlandabroad.fi,central,embassy of Finland in Zambia,3,wikidata
+gartzambia.org,,Golden Valley Agricultural Research Trust,3,wikidata
+ghanahighcommission-zambia.com,central,high commission of Ghana in Zambia,3,wikidata
+kmu.ac.zm,central,Kapasa Makasa University,3,ror
+lamu.edu.zm,central,Lusaka Apex Medical University,3,ror
+lusaka.diplo.de,central,"Embassy of Germany, Lusaka",3,wikidata
+mu.ac.zm,central,Mulungushi University,3,ror
+mukuba.edu.zm,central,Mukuba University,3,ror
+mzv.cz,central,embassy of the Czech republic in Zambia,3,wikidata
+ru.edu.zm,central,Rusangu University,3,ror
+swedenabroad.se,central,"Embassy of Sweden, Lusaka",3,wikidata
+tau.edu.zm,central,Texila American University Zambia,3,ror
+unicafuniversity.ac.zm,central,Unicaf University Zambia,3,ror
+unilus.ac.zm,central,University of Lusaka,3,ror
+who.int,,World Health Organization - Zambia,3,wikidata
+zambia.mid.ru,central,embassy of Russia in Zambia,3,wikidata
+zambiaforestrycollege.org,central,Zambia Forestry College,3,academia
+zaou.ac.zm,central,Zambian Open University,3,ror
+zcuniversity.edu.zm,central,Zambia Catholic University,3,ror
+cavendishza.org,central,Cavendish University Zambia,2,ror
+icuzambia.net,central,Information and Communications University,2,ror
+justomwale.net,central,Justo Mwale University,2,ror
+northriseuniversity.com,central,Northrise University,2,ror
+southvalleyuniversity.com,central,South Valley University,2,ror
+supershineuniversity.net,central,Supershine University,2,ror
+universityofafrica.net,central,University of Africa,2,ror

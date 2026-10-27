@@ -1,14 +1,14 @@
-domain,score,sources,label,level
-statistics.sl,7,wikidata;academia,Statistics Sierra Leone,central
-recoletos.ph,6,wikidata,Province of Saint Ezequiél Moreno,
-slminerals.org,6,wikidata,Ministry of Mineral Resources of Sierra Leone,central
-slcs.sl,4,wikidata,Sierra Leone Correctional Service,central
-afro.who.int,3,wikidata,World Health Organization - Sierra Leone,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Sierra Leone,
-etusl.edu.sl,3,ror,Eastern Technical University of Sierra Leone,central
-fourahbaycollege.net,3,academia,Fourah Bay College,central
-freetown.diplo.de,3,wikidata,"Embassy of Germany, Freetown",central
-njala.edu.sl,3,ror,Njala University,central
-unimak.edu.sl,3,ror,University of Makeni,central
-unimtech.edu.sl,3,ror,University of Management and Technology,central
-usl.edu.sl,3,ror,University of Sierra Leone,central
+domain,level,name,score,sources
+statistics.sl,central,Statistics Sierra Leone,7,wikidata;academia
+recoletos.ph,,Province of Saint Ezequiél Moreno,6,wikidata
+slminerals.org,central,Ministry of Mineral Resources of Sierra Leone,6,wikidata
+slcs.sl,central,Sierra Leone Correctional Service,4,wikidata
+afro.who.int,,World Health Organization - Sierra Leone,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Sierra Leone,3,wikidata
+etusl.edu.sl,central,Eastern Technical University of Sierra Leone,3,ror
+fourahbaycollege.net,central,Fourah Bay College,3,academia
+freetown.diplo.de,central,"Embassy of Germany, Freetown",3,wikidata
+njala.edu.sl,central,Njala University,3,ror
+unimak.edu.sl,central,University of Makeni,3,ror
+unimtech.edu.sl,central,University of Management and Technology,3,ror
+usl.edu.sl,central,University of Sierra Leone,3,ror

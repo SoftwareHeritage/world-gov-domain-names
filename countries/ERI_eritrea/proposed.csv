@@ -1,8 +1,8 @@
-domain,score,sources,label,level
-shabait.com,5,un_desa,UN/DESA national portal,
-asmara.diplo.de,3,wikidata,"Embassy of Germany, Asmara",central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Eritrea,
-er.ambafrance.org,3,wikidata,"Embassy of France, Asmara",central
-eritrea.mid.ru,3,wikidata,embassy of Russia in Eritrea,central
-eritreanarchives.org,3,wikidata,Research and Documentation Center,
-universityofasmara.com,2,ror,University of Asmara,central
+domain,level,name,score,sources
+shabait.com,,UN/DESA national portal,5,un_desa
+asmara.diplo.de,central,"Embassy of Germany, Asmara",3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Eritrea,3,wikidata
+er.ambafrance.org,central,"Embassy of France, Asmara",3,wikidata
+eritrea.mid.ru,central,embassy of Russia in Eritrea,3,wikidata
+eritreanarchives.org,,Research and Documentation Center,3,wikidata
+universityofasmara.com,central,University of Asmara,2,ror

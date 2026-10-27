@@ -1,8 +1,8 @@
-domain,score,sources,label,level
-parliament.ls,8,wikidata,Parliament of Lesotho,central
-nul.ls,6,academia;ror,National University of Lesotho,central
-nationalassembly.parliament.ls,5,wikidata,National Assembly,central
-agricresearch.org.ls,4,wikidata,Department of Agricultural Research,
-centralbank.org.ls,4,wikidata,Central Bank of Lesotho,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Lesotho,
-ls.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Maseru",central
+domain,level,name,score,sources
+parliament.ls,central,Parliament of Lesotho,8,wikidata
+nul.ls,central,National University of Lesotho,6,academia;ror
+nationalassembly.parliament.ls,central,National Assembly,5,wikidata
+agricresearch.org.ls,,Department of Agricultural Research,4,wikidata
+centralbank.org.ls,,Central Bank of Lesotho,4,wikidata
+eeas.europa.eu,,Delegation of the European Union to Lesotho,3,wikidata
+ls.china-embassy.org,central,"Embassy of the People's Republic of China, Maseru",3,wikidata

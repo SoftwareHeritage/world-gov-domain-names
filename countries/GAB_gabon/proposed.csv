@@ -1,34 +1,34 @@
-domain,score,sources,label,level
-economie-numerique.gouv.ga,8,wikidata,Q141165552,central
-enseignement-superieur.gouv.ga,8,wikidata,Q141161520,central
-fonction-publique.gouv.ga,8,wikidata,Q125907067,
-interieur.gouv.ga,8,wikidata,Q128231957,
-relations-institutions.gouv.ga,8,wikidata,Q137536983,central
-sante.gouv.ga,8,wikidata,Ministry of Health,
-transports.gouv.ga,8,wikidata,Ministry of Transport (Gabon),central
-journal-officiel.ga,7,wikidata,Tribunal de première instance (Gabon),
-piaristesafriquecentrale.org,6,wikidata,Piarist province of Central Africa,
-stat-gabon.org,6,wikidata;academia,Direction Générale des Statistiques,
-budget.gouv.ga,5,wikidata,Q139961312,
-eaux-forets.gouv.ga,5,wikidata,"Ministre de la Forêt, de la Mer et de l'Environnement",
-univ-masuku.org,5,academia;ror,Université des Sciences et Techniques de Masuku,central
-aninf.ga,4,wikidata,Q62107195,
-assemblee-nationale.ga,4,wikidata,National Assembly,central
-cour-constitutionnelle.ga,4,wikidata,Constitutional Court of Gabon,
-dgabd.ga,4,wikidata,National Library of Gabon,
-e3mg.ga,4,academia,Ecole des Mines et de la Métallurgie de Moanda,central
-univ-masuku.ga,4,academia,Université des Sciences et Techniques de Masuku,central
-ambaburkina-ga.org,3,wikidata,embassy of Burkina Faso in Gabon,central
-ambalglibreville.com,3,wikidata,"Embassy of Algeria, Libreville",central
-ambassade-tchad-gabon.com,3,wikidata,Q134385965,
-cermel.org,3,academia,Centre de Recherche Médicales de Lambaréné,
-eeas.europa.eu,3,wikidata,"Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Principe and CEEAC",central
-fr.scribd.com,3,academia,Ecole des Mines et de la Métallurgie de Moanda,central
-ga.ambafrance.org,3,wikidata,"Embassy of France, Libreville",central
-gabon.mid.ru,3,wikidata,embassy of Russia in Gabon,central
-justice.gouv.ga,3,wikidata,Ministry of Justice | Tribunal de première instance (Gabon),central
-libreville.diplo.de,3,wikidata,"Embassy of Germany, Libreville",central
-parcsgabon.org,3,wikidata,National Agency for National Parks,
-senatgabon.com,3,wikidata,Senate,central
-universiteomarbongo.org,2,ror,Omar Bongo University,central
-ussowendo.com,2,ror,Université des Sciences de la Santé,central
+domain,level,name,score,sources
+economie-numerique.gouv.ga,central,Q141165552,8,wikidata
+enseignement-superieur.gouv.ga,central,Q141161520,8,wikidata
+fonction-publique.gouv.ga,,Q125907067,8,wikidata
+interieur.gouv.ga,,Q128231957,8,wikidata
+relations-institutions.gouv.ga,central,Q137536983,8,wikidata
+sante.gouv.ga,,Ministry of Health,8,wikidata
+transports.gouv.ga,central,Ministry of Transport (Gabon),8,wikidata
+journal-officiel.ga,,Tribunal de première instance (Gabon),7,wikidata
+piaristesafriquecentrale.org,,Piarist province of Central Africa,6,wikidata
+stat-gabon.org,,Direction Générale des Statistiques,6,wikidata;academia
+budget.gouv.ga,,Q139961312,5,wikidata
+eaux-forets.gouv.ga,,"Ministre de la Forêt, de la Mer et de l'Environnement",5,wikidata
+univ-masuku.org,central,Université des Sciences et Techniques de Masuku,5,academia;ror
+aninf.ga,,Q62107195,4,wikidata
+assemblee-nationale.ga,central,National Assembly,4,wikidata
+cour-constitutionnelle.ga,,Constitutional Court of Gabon,4,wikidata
+dgabd.ga,,National Library of Gabon,4,wikidata
+e3mg.ga,central,Ecole des Mines et de la Métallurgie de Moanda,4,academia
+univ-masuku.ga,central,Université des Sciences et Techniques de Masuku,4,academia
+ambaburkina-ga.org,central,embassy of Burkina Faso in Gabon,3,wikidata
+ambalglibreville.com,central,"Embassy of Algeria, Libreville",3,wikidata
+ambassade-tchad-gabon.com,,Q134385965,3,wikidata
+cermel.org,,Centre de Recherche Médicales de Lambaréné,3,academia
+eeas.europa.eu,central,"Delegation of the European Union to Gabon, Equatorial Guinea, São Tomé-et-Principe and CEEAC",3,wikidata
+fr.scribd.com,central,Ecole des Mines et de la Métallurgie de Moanda,3,academia
+ga.ambafrance.org,central,"Embassy of France, Libreville",3,wikidata
+gabon.mid.ru,central,embassy of Russia in Gabon,3,wikidata
+justice.gouv.ga,central,Ministry of Justice | Tribunal de première instance (Gabon),3,wikidata
+libreville.diplo.de,central,"Embassy of Germany, Libreville",3,wikidata
+parcsgabon.org,,National Agency for National Parks,3,wikidata
+senatgabon.com,central,Senate,3,wikidata
+universiteomarbongo.org,central,Omar Bongo University,2,ror
+ussowendo.com,central,Université des Sciences de la Santé,2,ror

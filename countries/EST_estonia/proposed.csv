@@ -1,86 +1,86 @@
-domain,score,sources,label,level
-eki.ee,7,wikidata;academia,Institute of the Estonian Language,central
-fi.ee,7,wikidata,Financial Supervision Authority,central
-genomics.ut.ee,7,academia,Estonian Biocentre | Estonian Genome Project,
-politsei.ee,7,wikidata,Estonian Police | Police and Border Guard Board,
-ria.ee,7,wikidata;sopc,Information System Authority,
-riigikantselei.ee,7,wikidata;linkgraph,Government Office,
-stat.ee,7,wikidata;academia,Statistics Estonia,central
-ttu.ee,7,academia,Estonian Maritime Academy of the Tallinn University of Technology | Virumaa College of the Tallinn University of Technology,
-riigikohus.ee,6,wikidata,Supreme Court of Estonia,central
-riigiteataja.ee,6,linkgraph,Linked from 10 public-sector domains,
-tlu.ee,6,academia;ror,Tallinn University,central
-ut.ee,6,academia;ror,University of Tartu,central
-aki.ee,4,wikidata,Estonian Data Protection Inspectorate,central
-archimedes.ee,4,wikidata,Archimedes Foundation,
-botaanikaaed.ee,4,academia,Tallinn Botanic Garden,
-chinaembassy.ee,4,wikidata,Embassy of the People's Republic of China in Tallinn,central
-e-tervis.ee,4,wikidata,Estonian E-Health Foundation,
-eas.ee,4,wikidata,Estonian Space Office,
-eestipank.ee,4,wikidata,Bank of Estonia,
-eestiroos.ee,4,academia,Põltsamaa rose garden,
-egt.ee,4,wikidata,Geological Survey of Estonia,
-emta.ee,4,wikidata,Estonian Tax and Customs Board,
-epa.ee,4,wikidata,Estonian Patent Office,central
-etag.ee,4,wikidata,Estonian Research Agency,
-etki.ee,4,academia,Centre of Estonian Rural Research and Knowledge,central
-etui.ee,4,academia,Estonian Institute for Future Studies,
-fi.ut.ee,4,academia,Tartu University Physics Institute,
-hitsa.ee,4,wikidata,Information Technology Foundation for Education,
-just.ee,4,linkgraph,Linked from 4 public-sector domains,
-kapo.ee,4,wikidata,Estonian Internal Security Service,
-kbfi.ee,4,academia,National Institute of Chemical Physics and Biophysics,central
-keeleamet.ee,4,wikidata,Language Board,
-keskkonnaagentuur.ee,4,wikidata,Environment Agency,
-keskkonnaamet.ee,4,wikidata,Environmental Board,
-kirmus.ee,4,academia,Estonian Literary Museum,central
-kliimaministeerium.ee,4,linkgraph,Linked from 4 public-sector domains,
-kosmos.ut.ee,4,academia,Tartu Observatory,central
-landscape-geoinformatics.ut.ee,4,academia,Landscape Geoinformatics Lab,
-maaamet.ee,4,wikidata,Land and Spatial Development Board,
-mereinstituut.ut.ee,4,academia,University of Tartu Estonian Marine Institute,
-muinsuskaitseamet.ee,4,wikidata,Estonian National Heritage Board,
-narva.ut.ee,4,academia,Narva College of the University of Tartu,
-nlib.ee,4,wikidata,National Library of Estonia,
-praxis.ee,4,academia,Praxis,
-pria.ee,4,wikidata,Agricultural Registers and Information Board,
-ra.ee,4,wikidata,National Archives of Estonia,
-ravimiamet.ee,4,wikidata,State Agency of Medicines,
-rescue.ee,4,wikidata,Estonian Rescue Services Agency,
-rmk.ee,4,wikidata,State Forest Management Centre,
-smit.ee,4,wikidata,IT and Development Centre of the Ministry of the Interior,
-tai.ee,4,academia,National Institute for Health Development,central
-tallinn.mfa.gov.hu,4,wikidata,"Hungarian embassy, Tallinn",central
-tehnopol.ee,4,academia,Tehnopol,
-ti.ee,4,wikidata,Labour Inspectorate,
-transpordiamet.ee,4,wikidata,Estonian Transport Administration,
-ttja.ee,4,wikidata,Consumer Protection and Technical Regulatory Authority,
-unesco.ee,4,wikidata,Estonian National Commission for UNESCO,
-utkk.ee,4,academia,Under and Tuglas Literature Centre,
-valisluureamet.ee,4,wikidata,Estonian Foreign Intelligence Service,
-vangla.ee,4,wikidata,Ministry of Justice: Department of Prisons (EE),
-viljandi.ut.ee,4,academia,University of Tartu Viljandi Culture Academy,
-wi.ee,4,academia,Võro Institute,central
-artcol.ee,3,ror,Tartu Art College,central
-ee.ambafrance.org,3,wikidata,Embassy of France in Tallinn,central
-ee.mfa.lt,3,wikidata,Lithuanian Embassy in Tallinn,central
-emu.ee,3,ror,Estonian University of Life Sciences,central
-erpenbach.institute,3,academia,Erpenbach Institute,
-estland.um.dk,3,wikidata,embassy of Denmark in Tallinn,central
-estonia.mid.ru,3,wikidata,Embassy of Russia in Tallinn,central
-estonia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Estonia,
-euroakadeemia.ee,3,ror,EuroAcademy,central
-finlandabroad.fi,3,wikidata,Embassy of Finland in Tallinn,central
-mfa.gr,3,wikidata,embassy of Greece in Tallinn,central
-mzv.cz,3,wikidata,embassy of the Czech Republic in Tallinn,central
-nederlandwereldwijd.nl,3,wikidata,Embassy of the Netherlands in Tallinn,central
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Tallinn",central
-tallinn.diplo.de,3,wikidata,Embassy of Germany in Tallinn,central
-tallinn.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Estonia,central
-tallinn.mae.ro,3,wikidata,embassy of Romania in Tallinn,central
-taltech.ee,3,ror,Tallinn University of Technology,central
-tktk.ee,3,ror,Tallinn University of Applied Sciences,central
-ttk.ee,3,ror,Tallinn Health University of Applied Sciences,central
-tyche.institute,3,academia,Tyche Institute,
-euas.eu,2,ror,Estonian Entrepreneurship University of Applied Sciences,central
-terviseamet.ee,2,wikidata,Health Board,
+domain,level,name,score,sources
+eki.ee,central,Institute of the Estonian Language,7,wikidata;academia
+fi.ee,central,Financial Supervision Authority,7,wikidata
+genomics.ut.ee,,Estonian Biocentre | Estonian Genome Project,7,academia
+politsei.ee,,Estonian Police | Police and Border Guard Board,7,wikidata
+ria.ee,,Information System Authority,7,wikidata;sopc
+riigikantselei.ee,,Government Office,7,wikidata;linkgraph
+stat.ee,central,Statistics Estonia,7,wikidata;academia
+ttu.ee,,Estonian Maritime Academy of the Tallinn University of Technology | Virumaa College of the Tallinn University of Technology,7,academia
+riigikohus.ee,central,Supreme Court of Estonia,6,wikidata
+riigiteataja.ee,,Linked from 10 public-sector domains,6,linkgraph
+tlu.ee,central,Tallinn University,6,academia;ror
+ut.ee,central,University of Tartu,6,academia;ror
+aki.ee,central,Estonian Data Protection Inspectorate,4,wikidata
+archimedes.ee,,Archimedes Foundation,4,wikidata
+botaanikaaed.ee,,Tallinn Botanic Garden,4,academia
+chinaembassy.ee,central,Embassy of the People's Republic of China in Tallinn,4,wikidata
+e-tervis.ee,,Estonian E-Health Foundation,4,wikidata
+eas.ee,,Estonian Space Office,4,wikidata
+eestipank.ee,,Bank of Estonia,4,wikidata
+eestiroos.ee,,Põltsamaa rose garden,4,academia
+egt.ee,,Geological Survey of Estonia,4,wikidata
+emta.ee,,Estonian Tax and Customs Board,4,wikidata
+epa.ee,central,Estonian Patent Office,4,wikidata
+etag.ee,,Estonian Research Agency,4,wikidata
+etki.ee,central,Centre of Estonian Rural Research and Knowledge,4,academia
+etui.ee,,Estonian Institute for Future Studies,4,academia
+fi.ut.ee,,Tartu University Physics Institute,4,academia
+hitsa.ee,,Information Technology Foundation for Education,4,wikidata
+just.ee,,Linked from 4 public-sector domains,4,linkgraph
+kapo.ee,,Estonian Internal Security Service,4,wikidata
+kbfi.ee,central,National Institute of Chemical Physics and Biophysics,4,academia
+keeleamet.ee,,Language Board,4,wikidata
+keskkonnaagentuur.ee,,Environment Agency,4,wikidata
+keskkonnaamet.ee,,Environmental Board,4,wikidata
+kirmus.ee,central,Estonian Literary Museum,4,academia
+kliimaministeerium.ee,,Linked from 4 public-sector domains,4,linkgraph
+kosmos.ut.ee,central,Tartu Observatory,4,academia
+landscape-geoinformatics.ut.ee,,Landscape Geoinformatics Lab,4,academia
+maaamet.ee,,Land and Spatial Development Board,4,wikidata
+mereinstituut.ut.ee,,University of Tartu Estonian Marine Institute,4,academia
+muinsuskaitseamet.ee,,Estonian National Heritage Board,4,wikidata
+narva.ut.ee,,Narva College of the University of Tartu,4,academia
+nlib.ee,,National Library of Estonia,4,wikidata
+praxis.ee,,Praxis,4,academia
+pria.ee,,Agricultural Registers and Information Board,4,wikidata
+ra.ee,,National Archives of Estonia,4,wikidata
+ravimiamet.ee,,State Agency of Medicines,4,wikidata
+rescue.ee,,Estonian Rescue Services Agency,4,wikidata
+rmk.ee,,State Forest Management Centre,4,wikidata
+smit.ee,,IT and Development Centre of the Ministry of the Interior,4,wikidata
+tai.ee,central,National Institute for Health Development,4,academia
+tallinn.mfa.gov.hu,central,"Hungarian embassy, Tallinn",4,wikidata
+tehnopol.ee,,Tehnopol,4,academia
+ti.ee,,Labour Inspectorate,4,wikidata
+transpordiamet.ee,,Estonian Transport Administration,4,wikidata
+ttja.ee,,Consumer Protection and Technical Regulatory Authority,4,wikidata
+unesco.ee,,Estonian National Commission for UNESCO,4,wikidata
+utkk.ee,,Under and Tuglas Literature Centre,4,academia
+valisluureamet.ee,,Estonian Foreign Intelligence Service,4,wikidata
+vangla.ee,,Ministry of Justice: Department of Prisons (EE),4,wikidata
+viljandi.ut.ee,,University of Tartu Viljandi Culture Academy,4,academia
+wi.ee,central,Võro Institute,4,academia
+artcol.ee,central,Tartu Art College,3,ror
+ee.ambafrance.org,central,Embassy of France in Tallinn,3,wikidata
+ee.mfa.lt,central,Lithuanian Embassy in Tallinn,3,wikidata
+emu.ee,central,Estonian University of Life Sciences,3,ror
+erpenbach.institute,,Erpenbach Institute,3,academia
+estland.um.dk,central,embassy of Denmark in Tallinn,3,wikidata
+estonia.mid.ru,central,Embassy of Russia in Tallinn,3,wikidata
+estonia.representation.ec.europa.eu,,European Commission Representation in Estonia,3,wikidata
+euroakadeemia.ee,central,EuroAcademy,3,ror
+finlandabroad.fi,central,Embassy of Finland in Tallinn,3,wikidata
+mfa.gr,central,embassy of Greece in Tallinn,3,wikidata
+mzv.cz,central,embassy of the Czech Republic in Tallinn,3,wikidata
+nederlandwereldwijd.nl,central,Embassy of the Netherlands in Tallinn,3,wikidata
+swedenabroad.se,central,"Embassy of Sweden, Tallinn",3,wikidata
+tallinn.diplo.de,central,Embassy of Germany in Tallinn,3,wikidata
+tallinn.europarl.europa.eu,central,European Parliament Liaison Office in Estonia,3,wikidata
+tallinn.mae.ro,central,embassy of Romania in Tallinn,3,wikidata
+taltech.ee,central,Tallinn University of Technology,3,ror
+tktk.ee,central,Tallinn University of Applied Sciences,3,ror
+ttk.ee,central,Tallinn Health University of Applied Sciences,3,ror
+tyche.institute,,Tyche Institute,3,academia
+euas.eu,central,Estonian Entrepreneurship University of Applied Sciences,2,ror
+terviseamet.ee,,Health Board,2,wikidata

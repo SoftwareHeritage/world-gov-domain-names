@@ -1,16 +1,16 @@
-domain,score,sources,label,level
-dna.sr,7,wikidata,National Assembly,central
-statistics-suriname.org,6,wikidata;academia,General Bureau of Statistics,central
-cbvs.sr,4,wikidata,Centrale Bank van Suriname,
-eas.sr,4,wikidata,Energie Autoriteit Suriname,
-kkf.sr,4,wikidata,Chamber of Commerce and Factories,
-nationaalarchief.sr,4,wikidata,National Archives of Suriname,
-politie.sr,4,wikidata,Korps Politie Suriname,
-sbb.sr,4,wikidata,Q126371676,
-nccr.sr.org,3,wikidata,National Coordination Center for Disaster Relief of Suriname,
-nzcs.uvs.edu,3,academia,National Zoological Collection of Suriname,central
-ptc.edu.sr,3,ror,Polytechnic College Suriname,central
-snri-adron.com,3,academia,Anne van Dijk Rijst Onderzoekscentrum Nickerie,
-surguychamber.org,3,wikidata,Suriname-Guyana Kamer van Koophandel,
-taalunie.org,3,wikidata,Dutch Language Union,
-uvs.edu,2,ror,Anton de Kom University of Suriname,central
+domain,level,name,score,sources
+dna.sr,central,National Assembly,7,wikidata
+statistics-suriname.org,central,General Bureau of Statistics,6,wikidata;academia
+cbvs.sr,,Centrale Bank van Suriname,4,wikidata
+eas.sr,,Energie Autoriteit Suriname,4,wikidata
+kkf.sr,,Chamber of Commerce and Factories,4,wikidata
+nationaalarchief.sr,,National Archives of Suriname,4,wikidata
+politie.sr,,Korps Politie Suriname,4,wikidata
+sbb.sr,,Q126371676,4,wikidata
+nccr.sr.org,,National Coordination Center for Disaster Relief of Suriname,3,wikidata
+nzcs.uvs.edu,central,National Zoological Collection of Suriname,3,academia
+ptc.edu.sr,central,Polytechnic College Suriname,3,ror
+snri-adron.com,,Anne van Dijk Rijst Onderzoekscentrum Nickerie,3,academia
+surguychamber.org,,Suriname-Guyana Kamer van Koophandel,3,wikidata
+taalunie.org,,Dutch Language Union,3,wikidata
+uvs.edu,central,Anton de Kom University of Suriname,2,ror

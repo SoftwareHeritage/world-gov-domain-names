@@ -1,45 +1,45 @@
-domain,score,sources,label,level
-utu.edu.uy,7,wikidata,University of Labor of Uruguay | General Directorate of Professional Technical Education,
-dominicoshispania.org,6,wikidata,Province of Hispania of the Order of Preachers,
-jesuitasaru.org,6,wikidata,Argentine-Uruguayan Jesuit Province,
-utec.edu.uy,6,academia;ror,Universidad Tecnológica,central
-agu.udelar.edu.uy,4,academia,Q123536519,
-anep.edu.uy,4,wikidata,National Administration of Public Education,central
-anii.org.uy,4,wikidata,Agencia Nacional de Investigación e Innovación,
-asse.com.uy,4,wikidata,State Health Services Administration,
-cin.edu.uy,4,academia,Centro de Investigaciones Nucleares,
-cinve.org.uy,4,academia,Centro de Investigaciones Económicas,
-colonizacion.com.uy,4,wikidata,Colonization Institute,central
-dgeip.edu.uy,4,wikidata,General Directorate for Early and Primary Education,
-dges.edu.uy,4,wikidata,General Directorate for Secondary Education,
-fau.mil.uy,4,wikidata,Q1114710,
-fic.edu.uy,4,academia,Facultad de Información y Comunicación (Universidad de la República),
-impo.com.uy,4,wikidata,National Directorate of Official Printings and Publications,
-inavi.com.uy,4,wikidata,Q16579066,
-inia.uy,4,academia,National Institute of Agricultural Research,central
-ipes.cfe.edu.uy,4,academia,Instituto de Perfeccionamiento y Estudios Superiores,
-pasteur.uy,4,academia,Pasteur Institute of Montevideo,
-rnu.com.uy,4,wikidata,Radiodifusión Nacional del Uruguay,
-talice.com.uy,4,academia,Reserva de Flora y fauna Dr. Rodolfo Tálice,
-universidad.edu.uy,4,academia,University of the Republic,central
-consuladoangolaenuruguay.com,3,wikidata,"Consulate of Angola, Montevideo",central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Uruguay,
-embajadasaharauruguay.blogspot.com,3,wikidata,"Embassy of the Sahrawi Arab Democratic Republic, Montevideo",central
-iai.int,3,academia,Inter-American Institute for Global Change Research,
-iuacj.edu.uy,3,ror,Instituto Universitario Asociación Cristiana de Jóvenes,central
-iuceddu.com.uy,3,ror,Instituto Universitario Centro de Estudio y Diagnóstico de las Disgnacias del Uruguay,central
-mfa.gr,3,wikidata,embassy of Greece in Uruguay,central
-montevideo.diplo.de,3,wikidata,"Embassy of Germany, Montevideo",central
-montevideo.mae.ro,3,wikidata,embassy of Romania in Uruguay,central
-ort.edu.uy,3,ror,Universidad ORT Uruguay,central
-ucu.edu.uy,3,ror,Universidad Católica del Uruguay,central
-ude.edu.uy,3,ror,Universidad de la Empresa,central
-udelar.edu.uy,3,ror,Universidad de la República de Uruguay,central
-um.edu.uy,3,ror,Universidad de Montevideo,central
-unifa.edu.uy,3,ror,Universitario Francisco de Asís,central
-universidad.claeh.edu.uy,3,ror,Universidad CLAEH,central
-universitariocrandon.edu.uy,3,ror,Universitario Crandon,central
-uruguay.mid.ru,3,wikidata,embassy of Russia in Uruguay,central
-uy.ambafrance.org,3,wikidata,embassy of France in Uruguay,central
-uy.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Montevideo",central
-biosportal.com,2,ror,Instituto Universitario BIOS,central
+domain,level,name,score,sources
+utu.edu.uy,,University of Labor of Uruguay | General Directorate of Professional Technical Education,7,wikidata
+dominicoshispania.org,,Province of Hispania of the Order of Preachers,6,wikidata
+jesuitasaru.org,,Argentine-Uruguayan Jesuit Province,6,wikidata
+utec.edu.uy,central,Universidad Tecnológica,6,academia;ror
+agu.udelar.edu.uy,,Q123536519,4,academia
+anep.edu.uy,central,National Administration of Public Education,4,wikidata
+anii.org.uy,,Agencia Nacional de Investigación e Innovación,4,wikidata
+asse.com.uy,,State Health Services Administration,4,wikidata
+cin.edu.uy,,Centro de Investigaciones Nucleares,4,academia
+cinve.org.uy,,Centro de Investigaciones Económicas,4,academia
+colonizacion.com.uy,central,Colonization Institute,4,wikidata
+dgeip.edu.uy,,General Directorate for Early and Primary Education,4,wikidata
+dges.edu.uy,,General Directorate for Secondary Education,4,wikidata
+fau.mil.uy,,Q1114710,4,wikidata
+fic.edu.uy,,Facultad de Información y Comunicación (Universidad de la República),4,academia
+impo.com.uy,,National Directorate of Official Printings and Publications,4,wikidata
+inavi.com.uy,,Q16579066,4,wikidata
+inia.uy,central,National Institute of Agricultural Research,4,academia
+ipes.cfe.edu.uy,,Instituto de Perfeccionamiento y Estudios Superiores,4,academia
+pasteur.uy,,Pasteur Institute of Montevideo,4,academia
+rnu.com.uy,,Radiodifusión Nacional del Uruguay,4,wikidata
+talice.com.uy,,Reserva de Flora y fauna Dr. Rodolfo Tálice,4,academia
+universidad.edu.uy,central,University of the Republic,4,academia
+consuladoangolaenuruguay.com,central,"Consulate of Angola, Montevideo",3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Uruguay,3,wikidata
+embajadasaharauruguay.blogspot.com,central,"Embassy of the Sahrawi Arab Democratic Republic, Montevideo",3,wikidata
+iai.int,,Inter-American Institute for Global Change Research,3,academia
+iuacj.edu.uy,central,Instituto Universitario Asociación Cristiana de Jóvenes,3,ror
+iuceddu.com.uy,central,Instituto Universitario Centro de Estudio y Diagnóstico de las Disgnacias del Uruguay,3,ror
+mfa.gr,central,embassy of Greece in Uruguay,3,wikidata
+montevideo.diplo.de,central,"Embassy of Germany, Montevideo",3,wikidata
+montevideo.mae.ro,central,embassy of Romania in Uruguay,3,wikidata
+ort.edu.uy,central,Universidad ORT Uruguay,3,ror
+ucu.edu.uy,central,Universidad Católica del Uruguay,3,ror
+ude.edu.uy,central,Universidad de la Empresa,3,ror
+udelar.edu.uy,central,Universidad de la República de Uruguay,3,ror
+um.edu.uy,central,Universidad de Montevideo,3,ror
+unifa.edu.uy,central,Universitario Francisco de Asís,3,ror
+universidad.claeh.edu.uy,central,Universidad CLAEH,3,ror
+universitariocrandon.edu.uy,central,Universitario Crandon,3,ror
+uruguay.mid.ru,central,embassy of Russia in Uruguay,3,wikidata
+uy.ambafrance.org,central,embassy of France in Uruguay,3,wikidata
+uy.china-embassy.org,central,"Embassy of the People's Republic of China, Montevideo",3,wikidata
+biosportal.com,central,Instituto Universitario BIOS,2,ror

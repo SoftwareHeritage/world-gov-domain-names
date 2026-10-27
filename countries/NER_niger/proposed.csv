@@ -1,26 +1,26 @@
-domain,score,sources,label,level
-msp.ne,7,wikidata,Ministry of Public Health,
-stat-niger.org,6,wikidata;academia,Institut National de la Statistique,central
-ansi.ne,4,wikidata,National Agency for the Information Society,
-inran.refer.ne,4,wikidata,National Institute of Agronomic Research of Niger,
-police.ne,4,wikidata,National Police of Niger,
-tribunalcommerceniamey.ne,4,wikidata,Commercial court of Niamey,
-ambafrance-ne.org,3,wikidata,Embassy of France in Niamey,central
-ambarimniamey.com,3,wikidata,"Embassy of Mauritania, Niamey",central
-bceao.int,3,wikidata,Central Bank of West African States,
-cnc-niger.org,3,wikidata,Centre National de la Cinématographie du Niger,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Niger,
-embassyofpakistan.com,3,wikidata,Embassy of Pakistan in Niger,
-enam.ne,3,ror,École Nationale d'Administration et de Magistrature,central
-inesi-niger.org,3,academia,Institut nigérien d'études stratégiques et internationales,
-lesahel.org,3,wikidata,Q139304709,
-maaun.edu.ne,3,ror,Maryam Abacha American University of Niger,central
-ne.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Niamey",central
-niamey.diplo.de,3,wikidata,"Embassy of Germany, Niamey",central
-uam.edu.ne,3,ror,Université Abdou Moumouni,central
-uas.edu.ne,3,ror,Université André Salifou,central
-uddm.edu.ne,3,ror,Université de Maradi,central
-udh.edu.ne,3,ror,Université Djibo Hamani,central
-univ-diffa.ne,3,ror,Université de Diffa,central
-emig-niger.org,2,ror,"Higher Institute of Mining, Industry and Geology",central
-universite-say.com,2,ror,Islamic University of Niger,central
+domain,level,name,score,sources
+msp.ne,,Ministry of Public Health,7,wikidata
+stat-niger.org,central,Institut National de la Statistique,6,wikidata;academia
+ansi.ne,,National Agency for the Information Society,4,wikidata
+inran.refer.ne,,National Institute of Agronomic Research of Niger,4,wikidata
+police.ne,,National Police of Niger,4,wikidata
+tribunalcommerceniamey.ne,,Commercial court of Niamey,4,wikidata
+ambafrance-ne.org,central,Embassy of France in Niamey,3,wikidata
+ambarimniamey.com,central,"Embassy of Mauritania, Niamey",3,wikidata
+bceao.int,,Central Bank of West African States,3,wikidata
+cnc-niger.org,,Centre National de la Cinématographie du Niger,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Niger,3,wikidata
+embassyofpakistan.com,,Embassy of Pakistan in Niger,3,wikidata
+enam.ne,central,École Nationale d'Administration et de Magistrature,3,ror
+inesi-niger.org,,Institut nigérien d'études stratégiques et internationales,3,academia
+lesahel.org,,Q139304709,3,wikidata
+maaun.edu.ne,central,Maryam Abacha American University of Niger,3,ror
+ne.china-embassy.org,central,"Embassy of the People's Republic of China, Niamey",3,wikidata
+niamey.diplo.de,central,"Embassy of Germany, Niamey",3,wikidata
+uam.edu.ne,central,Université Abdou Moumouni,3,ror
+uas.edu.ne,central,Université André Salifou,3,ror
+uddm.edu.ne,central,Université de Maradi,3,ror
+udh.edu.ne,central,Université Djibo Hamani,3,ror
+univ-diffa.ne,central,Université de Diffa,3,ror
+emig-niger.org,central,"Higher Institute of Mining, Industry and Geology",2,ror
+universite-say.com,central,Islamic University of Niger,2,ror

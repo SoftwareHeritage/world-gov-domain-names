@@ -1,74 +1,74 @@
-domain,score,sources,label,level
-ins.cd,7,wikidata;academia,Institut National de la Statistique,central
-minisanterdc.cd,7,wikidata,Ministry of Public Health (Democratic Republic of Congo),central
-cour-constitutionnelle.cd,6,wikidata,Constitutional Court of the Democratic Republic of the Congo,central
-piaristesafriquecentrale.org,6,wikidata,Piarist province of Central Africa,
-presidentrdc.cd,6,un_desa,UN/DESA national portal,
-unikin.ac.cd,6,academia;ror,University of Kinshasa,central
-unikis.ac.cd,6,academia;ror,University of Kisangani,central
-uom.cd,6,academia;ror,Université Officielle de Mbujimayi,central
-aplc.cd,4,wikidata,Agency for the Prevention and Fight against Corruption,
-assemblee-nationale.cd,4,wikidata,National Assembly,central
-bcc.cd,4,wikidata,Central Bank of Congo,
-inera-rdc.cd,4,academia,National Institute of Agronomic Studies and Research,central
-makutano.cd,4,academia,Sultani Makutano,
-onem.cd,4,wikidata,Q132560441,
-senat.cd,4,wikidata,Senate of the Democratic Republic of the Congo,central
-transco-rdc.cd,4,wikidata,Société de transports du Congo,
-cd.ambafrance.org,3,wikidata,"Embassy of France, Kinshasa",central
-crem-rdc.com,3,wikidata,Centre de Recherche sur l'Enseignement de la Mathématique,
-cresh-rdc.org,3,academia,Centre for Research in Human Sciences,
-crpluozi.org,3,academia,Centre de recherche pharmaceutique de Luozi,
-csnrdc.net,3,wikidata,Conseil Scientifique National,
-drc.mid.ru,3,wikidata,embassy of Russia in the Democratic Republic of Congo,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to the Democratic Republic of the Congo,
-ena.cd,3,ror,Ecole Nationale d'Administration,central
-ghanaembassy-drc.com,3,wikidata,Embassy of Ghana in Kinsasha,central
-inrb.net,3,wikidata,National Institute of Biomedical Research,
-ispbkv.ac.cd,3,ror,Institut Supérieur Pédagogique de Bukavu,central
-kinshasa.diplo.de,3,wikidata,"Embassy of Germany, Kinshasa",central
-larsicomrdc.org,3,academia,LARSICOM,
-loyola.cd,3,ror,Loyola University of Congo,central
-manssah.com,3,academia,Q123530126,
-mfa.gr,3,wikidata,embassy of Greece in the Democratic Republic of Congo,central
-norway.no,3,wikidata,Embassy of Norway in the Democratic Republic of Congo,central
-pole-institute.org,3,academia,Q141711228,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Kinshasa",central
-uaconline.edu.cd,3,ror,Université de l'Assomption au Congo,central
-uago.ac.cd,3,ror,Université Adventiste de Goma,central
-ucbukavu.ac.cd,3,ror,Université Catholique de Bukavu,central
-ucc.ac.cd,3,ror,Université Catholique du Congo,central
-uea.ac.cd,3,ror,Université Evangélique en Afrique,central
-um.ac.cd,3,ror,University of Mbuji Mayi,central
-unikol.ac.cd,3,ror,University of Kolwezi,central
-unilu.ac.cd,3,ror,University of Lubumbashi,central
-unisic.ac.cd,3,ror,Université des Sciences de l'Information et de la Communication,central
-uniuele.ac.cd,3,ror,Université de l'Uélé,central
-univ-kindu.cd,3,ror,University of Kindu,central
-univofbukavu.org,3,academia,Université Officielle de Bukavu,central
-upc.ac.cd,3,ror,Université Protestante au Congo,central
-upn-kin.cd,3,ror,Université Pédagogique Nationale,central
-yangambi.org,3,academia,Yangambi research center,
-belcampusrdc.com,2,ror,Bel Campus Technological University,central
-cepromad.com,2,ror,Université de Cepromad,central
-congovision.com,2,ror,Université Libre de Luozi,central
-iucongo.wordpress.com,2,ror,Institut Universitaire du Congo,central
-kmu-mulungwishi.doomby.com,2,ror,Katanga Methodist University,central
-ucbc.org,2,ror,Christian Bilingual University of Congo,central
-ucgraben.org,2,ror,Université Catholique du Graben,central
-uddac-cd.com,2,ror,Université de Développement Durable en Afrique Centrale,central
-ukamina.webs.com,2,ror,University of Kamina,central
-ukv-boma.ac,2,ror,Université Président Joseph Kasa-Vubu,central
-ulk-rdc.org,2,ror,Université Libre de Kinshasa,central
-ulpgl.net,2,ror,Université libre des Pays des Grands Lacs,central
-unhorizons.org,2,ror,Université Nouveaux Horizons,central
-unikivu.com,2,ror,University of Kivu,central
-unishabunia.org,2,ror,Université Shalom de Bunia,central
-universite-kikwit.com,2,ror,University of Kikwit,central
-universitekongo.org,2,ror,Kongo University,central
-universitelumumba.org,2,ror,Université Lumumba,central
-universitesk.org,2,ror,Université Simon Kimbangu,central
-univofbukavu.net,2,ror,Université Officielle de Bukavu,central
-uor-rdc.net,2,ror,Université Officielle de Ruwenzori,central
-upl-univ.ac,2,ror,Université Protestante de Lubumbashi,central
-ww1.unigom.org,2,ror,University of Goma,central
+domain,level,name,score,sources
+ins.cd,central,Institut National de la Statistique,7,wikidata;academia
+minisanterdc.cd,central,Ministry of Public Health (Democratic Republic of Congo),7,wikidata
+cour-constitutionnelle.cd,central,Constitutional Court of the Democratic Republic of the Congo,6,wikidata
+piaristesafriquecentrale.org,,Piarist province of Central Africa,6,wikidata
+presidentrdc.cd,,UN/DESA national portal,6,un_desa
+unikin.ac.cd,central,University of Kinshasa,6,academia;ror
+unikis.ac.cd,central,University of Kisangani,6,academia;ror
+uom.cd,central,Université Officielle de Mbujimayi,6,academia;ror
+aplc.cd,,Agency for the Prevention and Fight against Corruption,4,wikidata
+assemblee-nationale.cd,central,National Assembly,4,wikidata
+bcc.cd,,Central Bank of Congo,4,wikidata
+inera-rdc.cd,central,National Institute of Agronomic Studies and Research,4,academia
+makutano.cd,,Sultani Makutano,4,academia
+onem.cd,,Q132560441,4,wikidata
+senat.cd,central,Senate of the Democratic Republic of the Congo,4,wikidata
+transco-rdc.cd,,Société de transports du Congo,4,wikidata
+cd.ambafrance.org,central,"Embassy of France, Kinshasa",3,wikidata
+crem-rdc.com,,Centre de Recherche sur l'Enseignement de la Mathématique,3,wikidata
+cresh-rdc.org,,Centre for Research in Human Sciences,3,academia
+crpluozi.org,,Centre de recherche pharmaceutique de Luozi,3,academia
+csnrdc.net,,Conseil Scientifique National,3,wikidata
+drc.mid.ru,central,embassy of Russia in the Democratic Republic of Congo,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to the Democratic Republic of the Congo,3,wikidata
+ena.cd,central,Ecole Nationale d'Administration,3,ror
+ghanaembassy-drc.com,central,Embassy of Ghana in Kinsasha,3,wikidata
+inrb.net,,National Institute of Biomedical Research,3,wikidata
+ispbkv.ac.cd,central,Institut Supérieur Pédagogique de Bukavu,3,ror
+kinshasa.diplo.de,central,"Embassy of Germany, Kinshasa",3,wikidata
+larsicomrdc.org,,LARSICOM,3,academia
+loyola.cd,central,Loyola University of Congo,3,ror
+manssah.com,,Q123530126,3,academia
+mfa.gr,central,embassy of Greece in the Democratic Republic of Congo,3,wikidata
+norway.no,central,Embassy of Norway in the Democratic Republic of Congo,3,wikidata
+pole-institute.org,,Q141711228,3,academia
+swedenabroad.se,central,"Embassy of Sweden, Kinshasa",3,wikidata
+uaconline.edu.cd,central,Université de l'Assomption au Congo,3,ror
+uago.ac.cd,central,Université Adventiste de Goma,3,ror
+ucbukavu.ac.cd,central,Université Catholique de Bukavu,3,ror
+ucc.ac.cd,central,Université Catholique du Congo,3,ror
+uea.ac.cd,central,Université Evangélique en Afrique,3,ror
+um.ac.cd,central,University of Mbuji Mayi,3,ror
+unikol.ac.cd,central,University of Kolwezi,3,ror
+unilu.ac.cd,central,University of Lubumbashi,3,ror
+unisic.ac.cd,central,Université des Sciences de l'Information et de la Communication,3,ror
+uniuele.ac.cd,central,Université de l'Uélé,3,ror
+univ-kindu.cd,central,University of Kindu,3,ror
+univofbukavu.org,central,Université Officielle de Bukavu,3,academia
+upc.ac.cd,central,Université Protestante au Congo,3,ror
+upn-kin.cd,central,Université Pédagogique Nationale,3,ror
+yangambi.org,,Yangambi research center,3,academia
+belcampusrdc.com,central,Bel Campus Technological University,2,ror
+cepromad.com,central,Université de Cepromad,2,ror
+congovision.com,central,Université Libre de Luozi,2,ror
+iucongo.wordpress.com,central,Institut Universitaire du Congo,2,ror
+kmu-mulungwishi.doomby.com,central,Katanga Methodist University,2,ror
+ucbc.org,central,Christian Bilingual University of Congo,2,ror
+ucgraben.org,central,Université Catholique du Graben,2,ror
+uddac-cd.com,central,Université de Développement Durable en Afrique Centrale,2,ror
+ukamina.webs.com,central,University of Kamina,2,ror
+ukv-boma.ac,central,Université Président Joseph Kasa-Vubu,2,ror
+ulk-rdc.org,central,Université Libre de Kinshasa,2,ror
+ulpgl.net,central,Université libre des Pays des Grands Lacs,2,ror
+unhorizons.org,central,Université Nouveaux Horizons,2,ror
+unikivu.com,central,University of Kivu,2,ror
+unishabunia.org,central,Université Shalom de Bunia,2,ror
+universite-kikwit.com,central,University of Kikwit,2,ror
+universitekongo.org,central,Kongo University,2,ror
+universitelumumba.org,central,Université Lumumba,2,ror
+universitesk.org,central,Université Simon Kimbangu,2,ror
+univofbukavu.net,central,Université Officielle de Bukavu,2,ror
+uor-rdc.net,central,Université Officielle de Ruwenzori,2,ror
+upl-univ.ac,central,Université Protestante de Lubumbashi,2,ror
+ww1.unigom.org,central,University of Goma,2,ror

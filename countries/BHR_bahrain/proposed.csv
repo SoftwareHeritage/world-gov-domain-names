@@ -1,32 +1,32 @@
-domain,score,sources,label,level
-bahrain.bh,6,un_desa,UN/DESA national portal,
-uob.edu.bh,6,academia;ror,University of Bahrain,central
-bna.bh,4,wikidata,Bahrain News Agency,
-btea.bh,4,wikidata,Bahrain Tourism and Exhibitions Authority,
-lmra.bh,4,wikidata,Labour Market Regulatory Authority,
-mumtalakat.bh,4,wikidata,Mumtalakat Holding Company,
-nuwab.bh,4,wikidata,Council of Representatives,central
-qaa.edu.bh,4,wikidata,Quality Assurance Authority for Education and Training,
-sjc.bh,4,wikidata,Supreme Judicial Council,central
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Manama",central
-tra.org.bh,4,wikidata,Telecommunications Regulatory Authority of Bahrain,
-agu.edu.bh,3,ror,Arabian Gulf University,central
-ahlia.edu.bh,3,ror,Ahlia University,central
-aou.org.bh,3,ror,Arab Open University,central
-asu.edu.bh,3,ror,Applied Science University,central
-aubh.edu.bh,3,ror,American University of Bahrain,central
-bahrain.mid.ru,3,wikidata,embassy of Russia to Bahrain,central
-bahrainedb.com,3,wikidata,Bahrain Economic Development Board,
-bapcoenergies.com,3,wikidata,Bapco Energies,
-bh.ambafrance.org,3,wikidata,"Embassy of France, Manama",central
-bh.mofa.pna.ps,3,wikidata,"Embassy of Palestine, Manama",central
-delmon.edu.bh,3,ror,Delmon University for Science & Technology,central
-eub.edu.bh,3,ror,Euro University of Bahrain,central
-ku.edu.bh,3,ror,Kingdom University,central
-manama.diplo.de,3,wikidata,"Embassy of Germany, Manama",central
-polytechnic.bh,3,ror,Bahrain Polytechnic,central
-ruw.edu.bh,3,ror,Royal University for Women,central
-sudanimanama.com,3,wikidata,embassy of Sudan in Bahrain,central
-ucb.edu.bh,3,ror,University College of Bahrain,central
-utb.edu.bh,3,ror,University of Technology Bahrain,central
-rcsi-mub.com,2,ror,Royal College of Surgeons in Ireland - Bahrain,central
+domain,level,name,score,sources
+bahrain.bh,,UN/DESA national portal,6,un_desa
+uob.edu.bh,central,University of Bahrain,6,academia;ror
+bna.bh,,Bahrain News Agency,4,wikidata
+btea.bh,,Bahrain Tourism and Exhibitions Authority,4,wikidata
+lmra.bh,,Labour Market Regulatory Authority,4,wikidata
+mumtalakat.bh,,Mumtalakat Holding Company,4,wikidata
+nuwab.bh,central,Council of Representatives,4,wikidata
+qaa.edu.bh,,Quality Assurance Authority for Education and Training,4,wikidata
+sjc.bh,central,Supreme Judicial Council,4,wikidata
+sp.mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Manama",4,wikidata
+tra.org.bh,,Telecommunications Regulatory Authority of Bahrain,4,wikidata
+agu.edu.bh,central,Arabian Gulf University,3,ror
+ahlia.edu.bh,central,Ahlia University,3,ror
+aou.org.bh,central,Arab Open University,3,ror
+asu.edu.bh,central,Applied Science University,3,ror
+aubh.edu.bh,central,American University of Bahrain,3,ror
+bahrain.mid.ru,central,embassy of Russia to Bahrain,3,wikidata
+bahrainedb.com,,Bahrain Economic Development Board,3,wikidata
+bapcoenergies.com,,Bapco Energies,3,wikidata
+bh.ambafrance.org,central,"Embassy of France, Manama",3,wikidata
+bh.mofa.pna.ps,central,"Embassy of Palestine, Manama",3,wikidata
+delmon.edu.bh,central,Delmon University for Science & Technology,3,ror
+eub.edu.bh,central,Euro University of Bahrain,3,ror
+ku.edu.bh,central,Kingdom University,3,ror
+manama.diplo.de,central,"Embassy of Germany, Manama",3,wikidata
+polytechnic.bh,central,Bahrain Polytechnic,3,ror
+ruw.edu.bh,central,Royal University for Women,3,ror
+sudanimanama.com,central,embassy of Sudan in Bahrain,3,wikidata
+ucb.edu.bh,central,University College of Bahrain,3,ror
+utb.edu.bh,central,University of Technology Bahrain,3,ror
+rcsi-mub.com,central,Royal College of Surgeons in Ireland - Bahrain,2,ror

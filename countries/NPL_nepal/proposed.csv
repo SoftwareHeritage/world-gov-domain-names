@@ -1,38 +1,38 @@
-domain,score,sources,label,level
-khajurabajaar.com,6,wikidata,Khajura Bajaar,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kathmandu",central
-narc.org.np,4,wikidata,Nepal Agricultural Research Council,
-nea.org.np,4,wikidata,Nepal Electricity Authority,
-niice.org.np,4,academia,Nepal Institute for International Cooperation and Engagement,
-nncu.org.np,4,wikidata,Nepal National Commission for UNESCO,
-nrb.org.np,4,wikidata,Nepal Rastra Bank,central
-pncampus.edu.np,4,academia,Prithvi Narayan Campus,central
-afu.edu.np,3,ror,Agriculture and Forestry University,central
-bkmc.tu.edu.np,3,ror,Bhaktapur Multiple Campus,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Nepal,
-finlandabroad.fi,3,wikidata,embassy of Finland in Nepal,central
-fwu.edu.np,3,ror,Far-western University,central
-gandakiuniversity.edu.np,3,ror,Gandaki University,central
-hicast.edu.np,3,ror,Himalayan College of Agricultural Sciences and Technology,central
-iaas.tu.edu.np,3,ror,Institute of Agriculture and Animal Science,central
-kathmandu.diplo.de,3,wikidata,"Embassy of Germany, Kathmandu",central
-ku.edu.np,3,ror,Kathmandu University,central
-lbu.edu.np,3,ror,Lumbini Buddhist University,central
-ltu.edu.np,3,ror,Lumbini Technological University,central
-mbust.edu.np,3,ror,Madan Bhandari University of Science and Technology,central
-mwu.edu.np,3,ror,Mid-West University,central
-nepal.mid.ru,3,wikidata,embassy of Russia in Nepal,central
-norway.no,3,wikidata,"Embassy of Norway, Kathmandu",central
-nou.edu.np,3,ror,Nepal Open University,central
-np.ambafrance.org,3,wikidata,"Embassy of France, Kathmandu",central
-np.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Kathmandu",central
-nsu.edu.np,3,ror,Nepal Sanskrit University,central
-pcampus.edu.np,3,ror,Pulchowk Campus,central
-pu.edu.np,3,ror,Pokhara University,central
-puexam.edu.np,3,ror,Purbanchal University,central
-sac.tu.edu.np,3,ror,Tribhuvan University Sanothimi Campus,central
-siddharthauniversity.org.np,3,ror,Siddhartha University,central
-tcioe.edu.np,3,ror,Institute of Engineering Thapathali Campus,central
-trc.tu.edu.np,3,ror,Tri-Chandra Multiple Campus,central
-tu.edu.np,3,ror,Tribhuvan University,central
-welcomenepal.com,3,wikidata,Nepal Tourism Board,
+domain,level,name,score,sources
+khajurabajaar.com,,Khajura Bajaar,6,wikidata
+mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Kathmandu",4,wikidata
+narc.org.np,,Nepal Agricultural Research Council,4,wikidata
+nea.org.np,,Nepal Electricity Authority,4,wikidata
+niice.org.np,,Nepal Institute for International Cooperation and Engagement,4,academia
+nncu.org.np,,Nepal National Commission for UNESCO,4,wikidata
+nrb.org.np,central,Nepal Rastra Bank,4,wikidata
+pncampus.edu.np,central,Prithvi Narayan Campus,4,academia
+afu.edu.np,central,Agriculture and Forestry University,3,ror
+bkmc.tu.edu.np,central,Bhaktapur Multiple Campus,3,ror
+eeas.europa.eu,,Delegation of the European Union to Nepal,3,wikidata
+finlandabroad.fi,central,embassy of Finland in Nepal,3,wikidata
+fwu.edu.np,central,Far-western University,3,ror
+gandakiuniversity.edu.np,central,Gandaki University,3,ror
+hicast.edu.np,central,Himalayan College of Agricultural Sciences and Technology,3,ror
+iaas.tu.edu.np,central,Institute of Agriculture and Animal Science,3,ror
+kathmandu.diplo.de,central,"Embassy of Germany, Kathmandu",3,wikidata
+ku.edu.np,central,Kathmandu University,3,ror
+lbu.edu.np,central,Lumbini Buddhist University,3,ror
+ltu.edu.np,central,Lumbini Technological University,3,ror
+mbust.edu.np,central,Madan Bhandari University of Science and Technology,3,ror
+mwu.edu.np,central,Mid-West University,3,ror
+nepal.mid.ru,central,embassy of Russia in Nepal,3,wikidata
+norway.no,central,"Embassy of Norway, Kathmandu",3,wikidata
+nou.edu.np,central,Nepal Open University,3,ror
+np.ambafrance.org,central,"Embassy of France, Kathmandu",3,wikidata
+np.china-embassy.org,central,"Embassy of the People's Republic of China, Kathmandu",3,wikidata
+nsu.edu.np,central,Nepal Sanskrit University,3,ror
+pcampus.edu.np,central,Pulchowk Campus,3,ror
+pu.edu.np,central,Pokhara University,3,ror
+puexam.edu.np,central,Purbanchal University,3,ror
+sac.tu.edu.np,central,Tribhuvan University Sanothimi Campus,3,ror
+siddharthauniversity.org.np,central,Siddhartha University,3,ror
+tcioe.edu.np,central,Institute of Engineering Thapathali Campus,3,ror
+trc.tu.edu.np,central,Tri-Chandra Multiple Campus,3,ror
+tu.edu.np,central,Tribhuvan University,3,ror
+welcomenepal.com,,Nepal Tourism Board,3,wikidata

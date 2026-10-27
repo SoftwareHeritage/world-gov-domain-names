@@ -1,12 +1,12 @@
-domain,score,sources,label,level
-cu.edu.la,3,ror,Champasack University,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Laos,
-la.ambafrance.org,3,wikidata,"Embassy of France, Vientiane",central
-la.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Vientiane",central
-laos.mid.ru,3,wikidata,embassy of Russia in Laos,central
-nationallibraryoflaos.org,3,wikidata,National Library of Laos,
-nuol.edu.la,3,ror,National University of Laos,central
-sku.edu.la,3,ror,Savannakhet University,central
-su.edu.la,3,ror,Souphanouvong University,central
-uhs.edu.la,3,ror,University of Health Sciences Vientiane,central
-vientiane.diplo.de,3,wikidata,"Embassy of Germany, Vientiane",central
+domain,level,name,score,sources
+cu.edu.la,central,Champasack University,3,ror
+eeas.europa.eu,,Delegation of the European Union to Laos,3,wikidata
+la.ambafrance.org,central,"Embassy of France, Vientiane",3,wikidata
+la.china-embassy.org,central,"Embassy of the People's Republic of China, Vientiane",3,wikidata
+laos.mid.ru,central,embassy of Russia in Laos,3,wikidata
+nationallibraryoflaos.org,,National Library of Laos,3,wikidata
+nuol.edu.la,central,National University of Laos,3,ror
+sku.edu.la,central,Savannakhet University,3,ror
+su.edu.la,central,Souphanouvong University,3,ror
+uhs.edu.la,central,University of Health Sciences Vientiane,3,ror
+vientiane.diplo.de,central,"Embassy of Germany, Vientiane",3,wikidata

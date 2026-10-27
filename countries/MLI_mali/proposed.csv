@@ -1,53 +1,53 @@
-domain,score,sources,label,level
-environnement.gov.ml,8,wikidata,Ministry of Environment and Sanitation of Mali,central
-sante.gov.ml,8,wikidata,Ministry of Public Health and Hygiene,central
-primature.ml,7,wikidata,Council of Ministers of Mali,central
-afristat.org,6,wikidata;academia,AFRISTAT,
-instat-mali.org,6,wikidata;academia,Institut National de la Statistique,central
-ulshb.edu.ml,6,academia;ror,Université des lettres et des sciences humaines de Bamako,central
-usjpb.edu.ml,6,academia;ror,University of Legal and Political Sciences of Bamako,central
-usttb.edu.ml,6,academia;ror,"Université des Sciences, des Techniques et des Technologies de Bamako",central
-inrsp.sante.gov.ml,5,wikidata,Institut National de Recherche en Santé Publique,central
-asm.edu.ml,4,academia,Laboratoire de Recherche sur la Dynamique des Milieux et des Sociétés,
-dg-enseignementsup.ml,4,academia,Centre de recherche et de formation pour l'industrie textile,
-fmos.usttb.edu.ml,4,academia,Laboratoire de biologie Moléculaire et génomique de l'UCRC,
-gendarmerie.ml,4,wikidata,Malian National Gendarmerie,central
-ier.ml,4,academia,Laboratoire de Biotechnologie,
-insp.ml,4,academia,Centre de Recherche sur les Pathogènes Emergents,
-ish-mali.ml,4,academia,Institut des sciences humaines,
-labohope.edu.ml,4,academia,Laboratoire Hommes-Peuplements-Environnements,
-lbma.edu.ml,4,academia,Laboratoire de Biologie Moléculaire Appliquée,
-malimeteo.ml,4,wikidata,Agence Nationale de la Météorologie du Mali,
-ai4d.ai,3,academia,RobotsMali Laboratoire IAPD,
-ambassadeburkina-ml.org,3,wikidata,embassy of Burkina Faso in Mali,central
-ambniger-mali.org,3,wikidata,embassy of Niger in Mali,central
-bamako.diplo.de,3,wikidata,"Embassy of Germany, Bamako",central
-bceao.int,3,wikidata,Central Bank of West African States,
-certesmali.org,3,academia,Centre d'Expertise et de Recherche en Télémédecine et E-santé,
-ciar-mali.net,3,academia,Centre d'Intelligence Artificielle et de Robotique,
-cicm-mali.org,3,academia,Rodolphe Mérieux Laboratory,
-crefpam-mali.org,3,academia,Centre de Recherche et de Formation sur les Pathologies Moléculaires,
-developmentaid.org,3,academia,Laboratoire National de la Santé,central
-dnhmali.org,3,wikidata,Q132472717,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mali,
-enetp.ml,3,ror,École normale d'Enseignement technique et professionnel,central
-hub.unido.org,3,academia,Laboratoire National des Eaux,central
-labo-paka.com,3,academia,Laboratoire de Biologie Médicale PA & KA,
-labocellal.link,3,academia,Laboratoire de Biologie Médicale CELLAL,
-laboratoirealgi.com,3,academia,Laboratoire d'Analyses Médicales Algi,
-lmi-macoter.net,3,academia,LMI MaCoTer,
-mae.ro,3,wikidata,"Honorary Consulate of Romania, Bamako",
-mali.um.dk,3,wikidata,embassy of Denmark in Mali,central
-malimedical.org,3,academia,Centre de Recherche et de Lutte contre la Drépanocytose,
-ml.ambafrance.org,3,wikidata,"Embassy of France, Bamako",central
-mzv.cz,3,wikidata,embassy of the Czech republic in Mali,central
-norway.no,3,wikidata,Embassy of Norway in Mali,central
-pointsud.org,3,academia,Point Sud Center for Research on Local Knowledge,
-rusembmali.mid.ru,3,wikidata,embassy of Russia in Mali,central
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Bamako",central
-ucrc-mali.com,3,academia,University Clinical Research Center,
-um.edu.ml,3,ror,University of Bamako,central
-wipo.int,3,academia,"Centre de Recherche, Etude et Documentation pour la Survie de l'enfant",
-edu-upafa.com,2,ror,Université Privée Africaine Franco-Arabe,central
-ipr-ifra.org,2,ror,Institut Polytechnique Rural de Formation et de Recherche Appliquée,central
-ussgb.online,2,ror,Université des Sciences Sociales et de Gestion de Bamako,central
+domain,level,name,score,sources
+environnement.gov.ml,central,Ministry of Environment and Sanitation of Mali,8,wikidata
+sante.gov.ml,central,Ministry of Public Health and Hygiene,8,wikidata
+primature.ml,central,Council of Ministers of Mali,7,wikidata
+afristat.org,,AFRISTAT,6,wikidata;academia
+instat-mali.org,central,Institut National de la Statistique,6,wikidata;academia
+ulshb.edu.ml,central,Université des lettres et des sciences humaines de Bamako,6,academia;ror
+usjpb.edu.ml,central,University of Legal and Political Sciences of Bamako,6,academia;ror
+usttb.edu.ml,central,"Université des Sciences, des Techniques et des Technologies de Bamako",6,academia;ror
+inrsp.sante.gov.ml,central,Institut National de Recherche en Santé Publique,5,wikidata
+asm.edu.ml,,Laboratoire de Recherche sur la Dynamique des Milieux et des Sociétés,4,academia
+dg-enseignementsup.ml,,Centre de recherche et de formation pour l'industrie textile,4,academia
+fmos.usttb.edu.ml,,Laboratoire de biologie Moléculaire et génomique de l'UCRC,4,academia
+gendarmerie.ml,central,Malian National Gendarmerie,4,wikidata
+ier.ml,,Laboratoire de Biotechnologie,4,academia
+insp.ml,,Centre de Recherche sur les Pathogènes Emergents,4,academia
+ish-mali.ml,,Institut des sciences humaines,4,academia
+labohope.edu.ml,,Laboratoire Hommes-Peuplements-Environnements,4,academia
+lbma.edu.ml,,Laboratoire de Biologie Moléculaire Appliquée,4,academia
+malimeteo.ml,,Agence Nationale de la Météorologie du Mali,4,wikidata
+ai4d.ai,,RobotsMali Laboratoire IAPD,3,academia
+ambassadeburkina-ml.org,central,embassy of Burkina Faso in Mali,3,wikidata
+ambniger-mali.org,central,embassy of Niger in Mali,3,wikidata
+bamako.diplo.de,central,"Embassy of Germany, Bamako",3,wikidata
+bceao.int,,Central Bank of West African States,3,wikidata
+certesmali.org,,Centre d'Expertise et de Recherche en Télémédecine et E-santé,3,academia
+ciar-mali.net,,Centre d'Intelligence Artificielle et de Robotique,3,academia
+cicm-mali.org,,Rodolphe Mérieux Laboratory,3,academia
+crefpam-mali.org,,Centre de Recherche et de Formation sur les Pathologies Moléculaires,3,academia
+developmentaid.org,central,Laboratoire National de la Santé,3,academia
+dnhmali.org,,Q132472717,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Mali,3,wikidata
+enetp.ml,central,École normale d'Enseignement technique et professionnel,3,ror
+hub.unido.org,central,Laboratoire National des Eaux,3,academia
+labo-paka.com,,Laboratoire de Biologie Médicale PA & KA,3,academia
+labocellal.link,,Laboratoire de Biologie Médicale CELLAL,3,academia
+laboratoirealgi.com,,Laboratoire d'Analyses Médicales Algi,3,academia
+lmi-macoter.net,,LMI MaCoTer,3,academia
+mae.ro,,"Honorary Consulate of Romania, Bamako",3,wikidata
+mali.um.dk,central,embassy of Denmark in Mali,3,wikidata
+malimedical.org,,Centre de Recherche et de Lutte contre la Drépanocytose,3,academia
+ml.ambafrance.org,central,"Embassy of France, Bamako",3,wikidata
+mzv.cz,central,embassy of the Czech republic in Mali,3,wikidata
+norway.no,central,Embassy of Norway in Mali,3,wikidata
+pointsud.org,,Point Sud Center for Research on Local Knowledge,3,academia
+rusembmali.mid.ru,central,embassy of Russia in Mali,3,wikidata
+swedenabroad.se,central,"Embassy of Sweden, Bamako",3,wikidata
+ucrc-mali.com,,University Clinical Research Center,3,academia
+um.edu.ml,central,University of Bamako,3,ror
+wipo.int,,"Centre de Recherche, Etude et Documentation pour la Survie de l'enfant",3,academia
+edu-upafa.com,central,Université Privée Africaine Franco-Arabe,2,ror
+ipr-ifra.org,central,Institut Polytechnique Rural de Formation et de Recherche Appliquée,2,ror
+ussgb.online,central,Université des Sciences Sociales et de Gestion de Bamako,2,ror

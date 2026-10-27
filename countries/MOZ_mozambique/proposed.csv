@@ -1,34 +1,34 @@
-domain,score,sources,label,level
-parlamento.mz,8,wikidata,Assembly of the Republic,central
-cconstitucional.org.mz,6,wikidata,Constitutional Council (Mozambique),central
-ispm.ac.mz,6,academia;ror,Instituto Superior Politécnico de Manica,central
-unirovuma.ac.mz,6,academia;ror,Rovuma University,central
-unizambeze.ac.mz,6,academia;ror,Zambezi University,central
-ahm.uem.mz,4,wikidata,Arquivo Histórico de Moçambique,
-bancomoc.mz,4,wikidata,Bank of Mozambique,
-iese.ac.mz,4,academia,Q56354503,
-isri3.ix.co.mz,4,academia,Joaquim Chissano University,central
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Maputo",central
-stae.org.mz,4,wikidata,Secreteriado Técnico de Administração Eleitoral,central
-apolitecnica.ac.mz,3,ror,Universidade Politecnica,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mozambique,
-finlandabroad.fi,3,wikidata,"Embassy of Finland, Maputo",central
-ispg.ac.mz,3,ror,Instituto Superior Politécnico de Gaza,central
-ispsongo.ac.mz,3,ror,Instituto Superior Politécnico de Songo,central
-ispt.ac.mz,3,ror,Instituto Superior Politecnico de Tete,central
-malawihcmz.com,3,wikidata,"High Commission of Malawi, Maputo",central
-maputo.diplo.de,3,wikidata,"Embassy of Germany, Maputo",central
-mozambik.mid.ru,3,wikidata,"Embassy of Russia, Maputo",central
-mozambique.nlembassy.org,3,wikidata,"Embassy of the Netherlands, Maputo",central
-mz.ambafrance.org,3,wikidata,"Embassy of France, Maputo",central
-mz.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Maputo",central
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Maputo",central
-ucm.ac.mz,3,ror,Catholic University of Mozambique,central
-udm.ac.mz,3,ror,Universidade Técnica de Moçambique,central
-uem.mz,3,ror,Eduardo Mondlane University,central
-unilurio.ac.mz,3,ror,Lúrio University,central
-unipiaget.ac.mz,3,ror,Universidade Jean Piaget de Moçambique,central
-unisave.ac.mz,3,ror,Universidade Save,central
-unisced.edu.mz,3,ror,Universidade Aberta ISCED,central
-up.ac.mz,3,ror,Pedagogical University,central
-ustm.ac.mz,3,ror,Universidade São Tomás de Moçambique,central
+domain,level,name,score,sources
+parlamento.mz,central,Assembly of the Republic,8,wikidata
+cconstitucional.org.mz,central,Constitutional Council (Mozambique),6,wikidata
+ispm.ac.mz,central,Instituto Superior Politécnico de Manica,6,academia;ror
+unirovuma.ac.mz,central,Rovuma University,6,academia;ror
+unizambeze.ac.mz,central,Zambezi University,6,academia;ror
+ahm.uem.mz,,Arquivo Histórico de Moçambique,4,wikidata
+bancomoc.mz,,Bank of Mozambique,4,wikidata
+iese.ac.mz,,Q56354503,4,academia
+isri3.ix.co.mz,central,Joaquim Chissano University,4,academia
+mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Maputo",4,wikidata
+stae.org.mz,central,Secreteriado Técnico de Administração Eleitoral,4,wikidata
+apolitecnica.ac.mz,central,Universidade Politecnica,3,ror
+eeas.europa.eu,,Delegation of the European Union to Mozambique,3,wikidata
+finlandabroad.fi,central,"Embassy of Finland, Maputo",3,wikidata
+ispg.ac.mz,central,Instituto Superior Politécnico de Gaza,3,ror
+ispsongo.ac.mz,central,Instituto Superior Politécnico de Songo,3,ror
+ispt.ac.mz,central,Instituto Superior Politecnico de Tete,3,ror
+malawihcmz.com,central,"High Commission of Malawi, Maputo",3,wikidata
+maputo.diplo.de,central,"Embassy of Germany, Maputo",3,wikidata
+mozambik.mid.ru,central,"Embassy of Russia, Maputo",3,wikidata
+mozambique.nlembassy.org,central,"Embassy of the Netherlands, Maputo",3,wikidata
+mz.ambafrance.org,central,"Embassy of France, Maputo",3,wikidata
+mz.chineseembassy.org,central,"Embassy of the People's Republic of China, Maputo",3,wikidata
+swedenabroad.se,central,"Embassy of Sweden, Maputo",3,wikidata
+ucm.ac.mz,central,Catholic University of Mozambique,3,ror
+udm.ac.mz,central,Universidade Técnica de Moçambique,3,ror
+uem.mz,central,Eduardo Mondlane University,3,ror
+unilurio.ac.mz,central,Lúrio University,3,ror
+unipiaget.ac.mz,central,Universidade Jean Piaget de Moçambique,3,ror
+unisave.ac.mz,central,Universidade Save,3,ror
+unisced.edu.mz,central,Universidade Aberta ISCED,3,ror
+up.ac.mz,central,Pedagogical University,3,ror
+ustm.ac.mz,central,Universidade São Tomás de Moçambique,3,ror

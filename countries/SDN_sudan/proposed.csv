@@ -1,63 +1,63 @@
-domain,score,sources,label,level
-iua.edu.sd,6,academia;ror,International University of Africa,central
-nyalau.edu.sd,6,academia;ror,Nyala University,central
-quran-unv.edu.sd,6,academia;ror,University of the Holy Quran and Islamic Sciences,central
-rsu.edu.sd,6,academia;ror,Red Sea University,central
-uofg.edu.sd,6,academia;ror,University of Gezira,central
-uofs.edu.sd,6,academia;ror,Sinnar University,central
-zalingei.edu.sd,6,academia;ror,University of Zalingei,central
-uofk.edu,5,academia;ror,University of Khartoum,central
-aprc.sd,4,wikidata,Animal Production Research Center,
-merowe.edu.sd,4,academia,Merowe University of Technology - Abdulatif Alhamad,central
-meteosudan.sd,4,wikidata,Sudan Meteorological Authority,
-must.edu.sd,4,academia,Managil University of Science and Technology,central
-stu.edu.sd,4,academia,Sudan Technological University,central
-sudapost.sd,4,wikidata,SudaPost,
-ush.sd,4,academia,Shendi University,central
-aau.edu.sd,3,ror,Alzaiem Alazhari University,central
-ahfad.edu.sd,3,ror,Ahfad University for Women,central
-albutana.edu.sd,3,ror,University of Al-Butana,central
-alneelain.edu.sd,3,ror,Al-Neelain University,central
-bahri.edu.sd,3,ror,University of Bahri,central
-bayan.edu.sd,3,ror,Bayan University,central
-bnu.edu.sd,3,ror,Blue Nile University,central
-dalanjuniversity.edu.sd,3,ror,Dalanj University,central
-eaeu.edu.sd,3,ror,Elsheikh Abdallah Elbadri University,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Sudan,
-elrazi.edu.sd,3,ror,Elrazi University,central
-fashir.edu.sd,3,ror,Al Fashir University,central
-fu.edu.sd,3,ror,The Future University,central
-gaduniv.edu.sd,3,ror,Gadarif University,central
-gcst.edu.sd,3,ror,University of Garden City,central
-karary.edu.sd,3,ror,Karary University,central
-kassalauni.edu.sd,3,ror,Kassala University,central
-khartoum.mae.ro,3,wikidata,embassy of Romania in Sudan,central
-khartum.diplo.de,3,wikidata,"Embassy of Germany, Khartoum",central
-kordofan.edu.sd,3,ror,University of Kordofan,central
-mahdi.edu.sd,3,ror,University of El Imam El Mahdi,central
-mashreq.edu.sd,3,ror,Mashreq University,central
-mu.edu.sd,3,ror,AlMughtaribeen University,central
-nileuniversity.edu.sd,3,ror,Nile University,central
-nilevalley.edu.sd,3,ror,Nile Valley University,central
-norway.no,3,wikidata,"Embassy of Norway, Khartoum",central
-nu.edu.sd,3,ror,National University,central
-oau.edu.sd,3,ror,Omdurman Ahlia University,central
-oiu.edu.sd,3,ror,Omdurman Islamic University,central
-ous.edu.sd,3,ror,Open University of Sudan,central
-ribat.edu.sd,3,ror,National Ribat University,central
-sd.ambafrance.org,3,wikidata,"Embassy of France, Khartoum",central
-sudan.mid.ru,3,wikidata,embassy of Russia in Sudan,central
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Khartoum",central
-umst-edu.sd,3,ror,University of Medical Sciences and Technology,central
-uofb.edu.sd,3,ror,University of Bakhtalruda,central
-uofd.edu.sd,3,ror,University of Dongola,central
-uofq.edu.sd,3,ror,University of the Holy Quran and Taseel of Sciences,central
-ush.edu.sd,3,ror,Shendi University,central
-ust.edu.sd,3,ror,University of Science and Technology Omdurman,central
-ut.edu.sd,3,ror,University of Technology,central
-wadmedani-ahlia.edu.sd,3,ror,Wad Medani Ahlia University,central
-wku.edu.sd,3,ror,West Kordofan University,central
-wnu.edu.sd,3,ror,White Nile University,central
-zamzam.edu.sd,3,ror,Zamzam University College,central
-siu-sd.com,2,ror,Sudan International University,central
-sustech.edu,2,ror,Sudan University of Science and Technology,central
+domain,level,name,score,sources
+iua.edu.sd,central,International University of Africa,6,academia;ror
+nyalau.edu.sd,central,Nyala University,6,academia;ror
+quran-unv.edu.sd,central,University of the Holy Quran and Islamic Sciences,6,academia;ror
+rsu.edu.sd,central,Red Sea University,6,academia;ror
+uofg.edu.sd,central,University of Gezira,6,academia;ror
+uofs.edu.sd,central,Sinnar University,6,academia;ror
+zalingei.edu.sd,central,University of Zalingei,6,academia;ror
+uofk.edu,central,University of Khartoum,5,academia;ror
+aprc.sd,,Animal Production Research Center,4,wikidata
+merowe.edu.sd,central,Merowe University of Technology - Abdulatif Alhamad,4,academia
+meteosudan.sd,,Sudan Meteorological Authority,4,wikidata
+must.edu.sd,central,Managil University of Science and Technology,4,academia
+stu.edu.sd,central,Sudan Technological University,4,academia
+sudapost.sd,,SudaPost,4,wikidata
+ush.sd,central,Shendi University,4,academia
+aau.edu.sd,central,Alzaiem Alazhari University,3,ror
+ahfad.edu.sd,central,Ahfad University for Women,3,ror
+albutana.edu.sd,central,University of Al-Butana,3,ror
+alneelain.edu.sd,central,Al-Neelain University,3,ror
+bahri.edu.sd,central,University of Bahri,3,ror
+bayan.edu.sd,central,Bayan University,3,ror
+bnu.edu.sd,central,Blue Nile University,3,ror
+dalanjuniversity.edu.sd,central,Dalanj University,3,ror
+eaeu.edu.sd,central,Elsheikh Abdallah Elbadri University,3,ror
+eeas.europa.eu,,Delegation of the European Union to Sudan,3,wikidata
+elrazi.edu.sd,central,Elrazi University,3,ror
+fashir.edu.sd,central,Al Fashir University,3,ror
+fu.edu.sd,central,The Future University,3,ror
+gaduniv.edu.sd,central,Gadarif University,3,ror
+gcst.edu.sd,central,University of Garden City,3,ror
+karary.edu.sd,central,Karary University,3,ror
+kassalauni.edu.sd,central,Kassala University,3,ror
+khartoum.mae.ro,central,embassy of Romania in Sudan,3,wikidata
+khartum.diplo.de,central,"Embassy of Germany, Khartoum",3,wikidata
+kordofan.edu.sd,central,University of Kordofan,3,ror
+mahdi.edu.sd,central,University of El Imam El Mahdi,3,ror
+mashreq.edu.sd,central,Mashreq University,3,ror
+mu.edu.sd,central,AlMughtaribeen University,3,ror
+nileuniversity.edu.sd,central,Nile University,3,ror
+nilevalley.edu.sd,central,Nile Valley University,3,ror
+norway.no,central,"Embassy of Norway, Khartoum",3,wikidata
+nu.edu.sd,central,National University,3,ror
+oau.edu.sd,central,Omdurman Ahlia University,3,ror
+oiu.edu.sd,central,Omdurman Islamic University,3,ror
+ous.edu.sd,central,Open University of Sudan,3,ror
+ribat.edu.sd,central,National Ribat University,3,ror
+sd.ambafrance.org,central,"Embassy of France, Khartoum",3,wikidata
+sudan.mid.ru,central,embassy of Russia in Sudan,3,wikidata
+swedenabroad.se,central,"Embassy of Sweden, Khartoum",3,wikidata
+umst-edu.sd,central,University of Medical Sciences and Technology,3,ror
+uofb.edu.sd,central,University of Bakhtalruda,3,ror
+uofd.edu.sd,central,University of Dongola,3,ror
+uofq.edu.sd,central,University of the Holy Quran and Taseel of Sciences,3,ror
+ush.edu.sd,central,Shendi University,3,ror
+ust.edu.sd,central,University of Science and Technology Omdurman,3,ror
+ut.edu.sd,central,University of Technology,3,ror
+wadmedani-ahlia.edu.sd,central,Wad Medani Ahlia University,3,ror
+wku.edu.sd,central,West Kordofan University,3,ror
+wnu.edu.sd,central,White Nile University,3,ror
+zamzam.edu.sd,central,Zamzam University College,3,ror
+siu-sd.com,central,Sudan International University,2,ror
+sustech.edu,central,Sudan University of Science and Technology,2,ror

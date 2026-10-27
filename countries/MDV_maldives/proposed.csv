@@ -1,7 +1,7 @@
-domain,score,sources,label,level
-mofaic.gov.ae,7,wikidata,"Embassy of the United Arab Emirates, Malé",central
-citizen.egov.mv,6,un_desa,UN/DESA national portal,
-ganairport.com,3,wikidata,Gan International Airport,
-ium.edu.mv,3,ror,Islamic University of Maldives,central
-mnu.edu.mv,3,ror,Maldives National University,central
-policylabmv.com,3,academia,Public Policy Lab,
+domain,level,name,score,sources
+mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Malé",7,wikidata
+citizen.egov.mv,,UN/DESA national portal,6,un_desa
+ganairport.com,,Gan International Airport,3,wikidata
+ium.edu.mv,central,Islamic University of Maldives,3,ror
+mnu.edu.mv,central,Maldives National University,3,ror
+policylabmv.com,,Public Policy Lab,3,academia

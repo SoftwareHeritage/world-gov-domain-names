@@ -1,12 +1,12 @@
-domain,score,sources,label,level
-health.govt.lc,8,wikidata,Ministry of Health and Wellness,central
-parliament.govt.lc,8,wikidata,Parliament of Saint Lucia,central
-govt.lc,7,un_desa,UN/DESA national portal,
-eccb-centralbank.org,3,wikidata,Eastern Caribbean Central Bank,
-iau.edu.lc,3,ror,International American University,central
-lc.ambafrance.org,3,wikidata,Embassy of France in Castries,central
-slbs.org,3,wikidata,Saint Lucia Bureau of Standards,
-taiwanembassy.org,3,wikidata,"Embassy of the Republic of China (Taiwan), Gros Islet",central
-aimu.us,2,ror,American International Medical University,central
-cucom.org,2,ror,Commonwealth University College of Medicine,central
-spartanmed.org,2,ror,Spartan Health Sciences University,central
+domain,level,name,score,sources
+health.govt.lc,central,Ministry of Health and Wellness,8,wikidata
+parliament.govt.lc,central,Parliament of Saint Lucia,8,wikidata
+govt.lc,,UN/DESA national portal,7,un_desa
+eccb-centralbank.org,,Eastern Caribbean Central Bank,3,wikidata
+iau.edu.lc,central,International American University,3,ror
+lc.ambafrance.org,central,Embassy of France in Castries,3,wikidata
+slbs.org,,Saint Lucia Bureau of Standards,3,wikidata
+taiwanembassy.org,central,"Embassy of the Republic of China (Taiwan), Gros Islet",3,wikidata
+aimu.us,central,American International Medical University,2,ror
+cucom.org,central,Commonwealth University College of Medicine,2,ror
+spartanmed.org,central,Spartan Health Sciences University,2,ror

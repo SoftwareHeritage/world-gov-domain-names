@@ -1,10 +1,10 @@
-domain,score,sources,label,level
-moeskn.org,6,wikidata,Ministry of Education,central
-nema.kn,4,wikidata,National Emergency Management Agency of Saint Kitts and Nevis,
-eccb-centralbank.org,3,wikidata,Eastern Caribbean Central Bank,
-sknbs.org,3,wikidata,Saint Kitts and Nevis Bureau of Standards,
-taiwanembassy.org,3,wikidata,"Embassy of the Republic of China (Taiwan), Basseterre",central
-mua.edu,2,ror,Medical University of the Americas,central
-rossu.edu,2,ror,Ross University School of Veterinary Medicine,central
-umhs-sk.org,2,ror,University of Medicine and Health Sciences,central
-windsor.edu,2,ror,Windsor University School of Medicine,central
+domain,level,name,score,sources
+moeskn.org,central,Ministry of Education,6,wikidata
+nema.kn,,National Emergency Management Agency of Saint Kitts and Nevis,4,wikidata
+eccb-centralbank.org,,Eastern Caribbean Central Bank,3,wikidata
+sknbs.org,,Saint Kitts and Nevis Bureau of Standards,3,wikidata
+taiwanembassy.org,central,"Embassy of the Republic of China (Taiwan), Basseterre",3,wikidata
+mua.edu,central,Medical University of the Americas,2,ror
+rossu.edu,central,Ross University School of Veterinary Medicine,2,ror
+umhs-sk.org,central,University of Medicine and Health Sciences,2,ror
+windsor.edu,central,Windsor University School of Medicine,2,ror

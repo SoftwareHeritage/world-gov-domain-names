@@ -1,50 +1,50 @@
-domain,score,sources,label,level
-cnra.ci,7,wikidata;academia,Centre National de Recherche Agronomique | National Center for Agronomic Research,central
-ins.ci,7,wikidata;academia,Institut National de la Statistique,central
-justice.ci,7,wikidata,Q123328078,central
-ci.ambafrance.org,6,wikidata,"Embassy of France, Abidjan | general consulate of France in Abidjan",central
-education-ci.org,6,wikidata,Ministry of National Education and Technical Training,central
-escolapiesinstitutions.org,6,wikidata,Piarist province of West Africa,
-afor.ci,4,wikidata,Q131452898,
-artci.ci,4,wikidata,Q86993468,
-assnat.ci,4,wikidata,National Assembly,central
-conseil-constitutionnel.ci,4,wikidata,Constitutional Council,
-firca.ci,4,wikidata,Q131440933,
-haca.ci,4,wikidata,High Authority of Audiovisual Communication,
-oipc.ci,4,wikidata,Q116297759,
-oscn.ci,4,wikidata,Q131620972,
-pasteur.ci,4,academia,Institut Pasteur de Côte d'Ivoire,
-sodefor.ci,4,wikidata,Société de développement des forêts,
-univ-na.edu.ci,4,academia,University of Abobo-Adjamé,central
-usp.edu.ci,4,academia,Q141202839,central
-web.conseil-etat.ci,4,wikidata,Q2993730,central
-abidjan.diplo.de,3,wikidata,"Embassy of Germany, Abidjan",central
-africarice-fr.org,3,academia,Africa Rice Center,
-africarice.org,3,academia,Africa Rice Center,
-bceao.int,3,wikidata,Central Bank of West African States,
-ceici.org,3,wikidata,Q283004,central
-cires-ci.org,3,academia,Centre Ivoirien de Recherche Economique et Sociale,
-cnrao-ci.com,3,academia,Q125479302,
-cotedivoire.mid.ru,3,wikidata,embassy of Russia in Ivory Coast,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to the Republic of Côte d’Ivoire,
-ensabidjan.ci,3,ror,École Normale Supérieure d'Abidjan,central
-ensea.ed.ci,3,ror,École Nationale Supérieure de Statistique et d'Économie Appliquée,central
-esatic.ci,3,ror,École Supérieure Africaine des TIC,central
-fondation-fhb.org,3,academia,Fondation Félix-Houphouët-Boigny,
-inphb.edu.ci,3,ror,Institut National Polytechnique Félix Houphouët-Boigny,central
-iugb.edu.ci,3,ror,International University of Grand Bassam,central
-ivorycoastembassy.orderofmalta.int,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Abidjan",central
-lamto.free.fr,3,academia,Station d'écologie tropicale de Lamto,
-onpc-ci.org,3,wikidata,Q113840186,
-rusta-istci.org,3,academia,Higher Institute of Technology of Ivory Coast,
-uatp-africa.org,3,wikidata,African Union of Public Transport,
-ubkou.edu.ci,3,ror,Université de Bondoukou,central
-ujlog.ci,3,ror,Université Jean Lorougnon Guédé,central
-univ-ao.edu.ci,3,ror,Université Alassane Ouattara,central
-univ-fhb.edu.ci,3,ror,Université Félix Houphouët-Boigny,central
-univ-na.ci,3,ror,Université Nangui Abrogoua,central
-univ-pgc.edu.ci,3,ror,Université Pelefero Gon Coulibaly,central
-uvci.edu.ci,3,ror,Université Virtuelle de Côte d'Ivoire,central
-groupeloko.com,2,ror,Université Tertiaire et Technologique-Lokko,central
-iua-ci.org,2,ror,Institut Universitaire d'Abidjan,central
-rusta-ustci.org,2,ror,University of Science and Technology of Ivory Coast,central
+domain,level,name,score,sources
+cnra.ci,central,Centre National de Recherche Agronomique | National Center for Agronomic Research,7,wikidata;academia
+ins.ci,central,Institut National de la Statistique,7,wikidata;academia
+justice.ci,central,Q123328078,7,wikidata
+ci.ambafrance.org,central,"Embassy of France, Abidjan | general consulate of France in Abidjan",6,wikidata
+education-ci.org,central,Ministry of National Education and Technical Training,6,wikidata
+escolapiesinstitutions.org,,Piarist province of West Africa,6,wikidata
+afor.ci,,Q131452898,4,wikidata
+artci.ci,,Q86993468,4,wikidata
+assnat.ci,central,National Assembly,4,wikidata
+conseil-constitutionnel.ci,,Constitutional Council,4,wikidata
+firca.ci,,Q131440933,4,wikidata
+haca.ci,,High Authority of Audiovisual Communication,4,wikidata
+oipc.ci,,Q116297759,4,wikidata
+oscn.ci,,Q131620972,4,wikidata
+pasteur.ci,,Institut Pasteur de Côte d'Ivoire,4,academia
+sodefor.ci,,Société de développement des forêts,4,wikidata
+univ-na.edu.ci,central,University of Abobo-Adjamé,4,academia
+usp.edu.ci,central,Q141202839,4,academia
+web.conseil-etat.ci,central,Q2993730,4,wikidata
+abidjan.diplo.de,central,"Embassy of Germany, Abidjan",3,wikidata
+africarice-fr.org,,Africa Rice Center,3,academia
+africarice.org,,Africa Rice Center,3,academia
+bceao.int,,Central Bank of West African States,3,wikidata
+ceici.org,central,Q283004,3,wikidata
+cires-ci.org,,Centre Ivoirien de Recherche Economique et Sociale,3,academia
+cnrao-ci.com,,Q125479302,3,academia
+cotedivoire.mid.ru,central,embassy of Russia in Ivory Coast,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to the Republic of Côte d’Ivoire,3,wikidata
+ensabidjan.ci,central,École Normale Supérieure d'Abidjan,3,ror
+ensea.ed.ci,central,École Nationale Supérieure de Statistique et d'Économie Appliquée,3,ror
+esatic.ci,central,École Supérieure Africaine des TIC,3,ror
+fondation-fhb.org,,Fondation Félix-Houphouët-Boigny,3,academia
+inphb.edu.ci,central,Institut National Polytechnique Félix Houphouët-Boigny,3,ror
+iugb.edu.ci,central,International University of Grand Bassam,3,ror
+ivorycoastembassy.orderofmalta.int,central,"Embassy of the Sovereign Military Order of Malta, Abidjan",3,wikidata
+lamto.free.fr,,Station d'écologie tropicale de Lamto,3,academia
+onpc-ci.org,,Q113840186,3,wikidata
+rusta-istci.org,,Higher Institute of Technology of Ivory Coast,3,academia
+uatp-africa.org,,African Union of Public Transport,3,wikidata
+ubkou.edu.ci,central,Université de Bondoukou,3,ror
+ujlog.ci,central,Université Jean Lorougnon Guédé,3,ror
+univ-ao.edu.ci,central,Université Alassane Ouattara,3,ror
+univ-fhb.edu.ci,central,Université Félix Houphouët-Boigny,3,ror
+univ-na.ci,central,Université Nangui Abrogoua,3,ror
+univ-pgc.edu.ci,central,Université Pelefero Gon Coulibaly,3,ror
+uvci.edu.ci,central,Université Virtuelle de Côte d'Ivoire,3,ror
+groupeloko.com,central,Université Tertiaire et Technologique-Lokko,2,ror
+iua-ci.org,central,Institut Universitaire d'Abidjan,2,ror
+rusta-ustci.org,central,University of Science and Technology of Ivory Coast,2,ror

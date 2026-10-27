@@ -1,10 +1,10 @@
-domain,score,sources,label,level
-sib.org.bz,7,wikidata;academia,The Statistical Institute of Belize,central
-roc-taiwan.org,6,wikidata,"Embassy of the Republic of China (Taiwan), Belize City",central
-centralbank.org.bz,4,wikidata,Central Bank of Belize,
-nemo.org.bz,4,wikidata,Belize National Emergency Management Organisation,
-belizebotanic.org,3,academia,Belize Botanic Gardens,
-bnlsis.org,3,wikidata,National Library Service of Belize,
-galen.edu.bz,3,ror,Galen University,central
-ub.edu.bz,3,ror,University of Belize,central
-cahsu.edu,2,ror,Central America Health Sciences University,central
+domain,level,name,score,sources
+sib.org.bz,central,The Statistical Institute of Belize,7,wikidata;academia
+roc-taiwan.org,central,"Embassy of the Republic of China (Taiwan), Belize City",6,wikidata
+centralbank.org.bz,,Central Bank of Belize,4,wikidata
+nemo.org.bz,,Belize National Emergency Management Organisation,4,wikidata
+belizebotanic.org,,Belize Botanic Gardens,3,academia
+bnlsis.org,,National Library Service of Belize,3,wikidata
+galen.edu.bz,central,Galen University,3,ror
+ub.edu.bz,central,University of Belize,3,ror
+cahsu.edu,central,Central America Health Sciences University,2,ror

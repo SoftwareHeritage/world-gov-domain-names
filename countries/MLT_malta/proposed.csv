@@ -1,29 +1,29 @@
-domain,score,sources,label,level
-parlament.mt,7,wikidata,Parliament of Malta,central
-gesuiti.it,6,wikidata,Euromediterranean Province of the Jesuits,
-um.edu.mt,6,academia;ror,University of Malta,central
-era.org.mt,4,wikidata,Environment and Resources Authority,
-festivals.mt,4,wikidata,Festivals Malta Agency,
-foodagency.mt,4,wikidata,Malta Food Agency,
-idpc.org.mt,4,wikidata,Office of the Information and Data Protection Commissioner,central
-maltaheraldry.mt,4,wikidata,Office of the Chief Herald of Arms of Malta,
-mccaa.org.mt,4,wikidata,Malta Competition and Consumer Affairs Authority,
-mfsa.com.mt,4,wikidata,Malta Financial Service Authority,central
-mfsa.mt,4,wikidata,Malta Financial Service Authority,central
-mra.org.mt,4,wikidata,Malta Resources Authority,
-pa.org.mt,4,wikidata,Planning Authority,
-centralbankmalta.org,3,wikidata,Central Bank of Malta,
-ghanahighcommission-malta.com,3,wikidata,high commission of Ghana in Malta,central
-heritagemalta.org,3,wikidata,Heritage Malta,
-infrastructuremalta.com,3,wikidata,Infrastructure Malta,
-malta.mid.ru,3,wikidata,embassy of Russia in Malta,central
-malta.representation.ec.europa.eu,3,wikidata,European Commission Representation in Malta,
-maltaenterprise.com,3,wikidata,Malta Enterprise,
-maltafilmcommission.com,3,wikidata,Malta Film Commission,
-mfa.gr,3,wikidata,"Greek Embassy, Ta' Xbiex",central
-mt.ambafrance.org,3,wikidata,"Embassy of France, Valletta",central
-unescomalta.org,3,wikidata,Maltese National Commission for UNESCO,
-valletta.diplo.de,3,wikidata,"Embassy of Germany, Valletta",central
-valletta.embassy.qa,3,wikidata,embassy of Qatar in Malta,central
-valletta.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Malta,central
-opit.com,2,ror,Open Institute of Technology,central
+domain,level,name,score,sources
+parlament.mt,central,Parliament of Malta,7,wikidata
+gesuiti.it,,Euromediterranean Province of the Jesuits,6,wikidata
+um.edu.mt,central,University of Malta,6,academia;ror
+era.org.mt,,Environment and Resources Authority,4,wikidata
+festivals.mt,,Festivals Malta Agency,4,wikidata
+foodagency.mt,,Malta Food Agency,4,wikidata
+idpc.org.mt,central,Office of the Information and Data Protection Commissioner,4,wikidata
+maltaheraldry.mt,,Office of the Chief Herald of Arms of Malta,4,wikidata
+mccaa.org.mt,,Malta Competition and Consumer Affairs Authority,4,wikidata
+mfsa.com.mt,central,Malta Financial Service Authority,4,wikidata
+mfsa.mt,central,Malta Financial Service Authority,4,wikidata
+mra.org.mt,,Malta Resources Authority,4,wikidata
+pa.org.mt,,Planning Authority,4,wikidata
+centralbankmalta.org,,Central Bank of Malta,3,wikidata
+ghanahighcommission-malta.com,central,high commission of Ghana in Malta,3,wikidata
+heritagemalta.org,,Heritage Malta,3,wikidata
+infrastructuremalta.com,,Infrastructure Malta,3,wikidata
+malta.mid.ru,central,embassy of Russia in Malta,3,wikidata
+malta.representation.ec.europa.eu,,European Commission Representation in Malta,3,wikidata
+maltaenterprise.com,,Malta Enterprise,3,wikidata
+maltafilmcommission.com,,Malta Film Commission,3,wikidata
+mfa.gr,central,"Greek Embassy, Ta' Xbiex",3,wikidata
+mt.ambafrance.org,central,"Embassy of France, Valletta",3,wikidata
+unescomalta.org,,Maltese National Commission for UNESCO,3,wikidata
+valletta.diplo.de,central,"Embassy of Germany, Valletta",3,wikidata
+valletta.embassy.qa,central,embassy of Qatar in Malta,3,wikidata
+valletta.europarl.europa.eu,central,European Parliament Liaison Office in Malta,3,wikidata
+opit.com,central,Open Institute of Technology,2,ror

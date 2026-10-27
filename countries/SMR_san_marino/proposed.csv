@@ -1,9 +1,9 @@
-domain,score,sources,label,level
-esteri.sm,7,wikidata,Ministry of Foreign Affairs of the Republic of San Marino,central
-sanmarino.sm,6,un_desa,UN/DESA national portal,
-bibliotecadistato.sm,4,wikidata,State Library of San Marino,
-cultura.sm,4,wikidata,State Archives of San Marino,
-museoemigrante.sm,4,academia,Q3868022,
-sanmarinosite.com,3,wikidata,Civil Police,
-unirsm.sm,3,ror,University of the Republic of San Marino,central
-consigliograndeegenerale.sm,2,wikidata,Grand and General Council,central
+domain,level,name,score,sources
+esteri.sm,central,Ministry of Foreign Affairs of the Republic of San Marino,7,wikidata
+sanmarino.sm,,UN/DESA national portal,6,un_desa
+bibliotecadistato.sm,,State Library of San Marino,4,wikidata
+cultura.sm,,State Archives of San Marino,4,wikidata
+museoemigrante.sm,,Q3868022,4,academia
+sanmarinosite.com,,Civil Police,3,wikidata
+unirsm.sm,central,University of the Republic of San Marino,3,ror
+consigliograndeegenerale.sm,central,Grand and General Council,2,wikidata

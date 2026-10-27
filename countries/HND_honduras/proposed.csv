@@ -1,26 +1,26 @@
-domain,score,sources,label,level
-congresonacional.hn,7,wikidata,National Congress of Honduras,central
-jesuitascam.org,6,wikidata,Jesuit Province of Central America,
-taiwanembassy.org,6,wikidata,"Embassy of the Republic of China (Taiwan), Tegucigalpa",central
-bch.hn,4,wikidata,Central Bank of Honduras,central
-cne.hn,4,wikidata,National Electoral Council of Honduras,central
-ihah.hn,4,wikidata,Instituto Hondureño de Antropología e Historia,
-ihss.hn,4,wikidata,Honduran Social Security Institute,
-iht.hn,4,wikidata,Q17634842,
-mp.hn,4,wikidata,Public Prosecutor's Office,
-ccetegucigalpa.org,3,wikidata,Centro Cultural de España Tegucigalpa,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Honduras,
-hn.ambafrance.org,3,wikidata,"Embassy of France, Tegucigalpa",central
-matricula.unag.edu.hn,3,ror,Universidad Nacional de Agricultura,central
-tegucigalpa.diplo.de,3,wikidata,"Embassy of Germany, Tegucigalpa",central
-ujcv.edu.hn,3,ror,Universidad José Cecilio del Valle,central
-unacifor.edu.hn,3,ror,Universidad Nacional de Ciencias Forestales,central
-unah.edu.hn,3,ror,National Autonomous University of Honduras,central
-unph.edu.hn,3,ror,Universidad Nacional de la Policía de Honduras,central
-upnfm.edu.hn,3,ror,Universidad Pedagógica Nacional Francisco Morazán,central
-uth.hn,3,ror,Universidad Tecnológica de Honduras,central
-web.archive.org,3,wikidata,Archivo Nacional de Honduras,
-unicah.edu,2,ror,Universidad Católica de Honduras Nuestra Señora Reina de la Paz,central
-unitec.edu,2,ror,Central American Technological University,central
-usap.edu,2,ror,Universidad de San Pedro Sula,central
-unimetro.edu.hn,0,ror,Universidad Metropolitana de Honduras,central
+domain,level,name,score,sources
+congresonacional.hn,central,National Congress of Honduras,7,wikidata
+jesuitascam.org,,Jesuit Province of Central America,6,wikidata
+taiwanembassy.org,central,"Embassy of the Republic of China (Taiwan), Tegucigalpa",6,wikidata
+bch.hn,central,Central Bank of Honduras,4,wikidata
+cne.hn,central,National Electoral Council of Honduras,4,wikidata
+ihah.hn,,Instituto Hondureño de Antropología e Historia,4,wikidata
+ihss.hn,,Honduran Social Security Institute,4,wikidata
+iht.hn,,Q17634842,4,wikidata
+mp.hn,,Public Prosecutor's Office,4,wikidata
+ccetegucigalpa.org,,Centro Cultural de España Tegucigalpa,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Honduras,3,wikidata
+hn.ambafrance.org,central,"Embassy of France, Tegucigalpa",3,wikidata
+matricula.unag.edu.hn,central,Universidad Nacional de Agricultura,3,ror
+tegucigalpa.diplo.de,central,"Embassy of Germany, Tegucigalpa",3,wikidata
+ujcv.edu.hn,central,Universidad José Cecilio del Valle,3,ror
+unacifor.edu.hn,central,Universidad Nacional de Ciencias Forestales,3,ror
+unah.edu.hn,central,National Autonomous University of Honduras,3,ror
+unph.edu.hn,central,Universidad Nacional de la Policía de Honduras,3,ror
+upnfm.edu.hn,central,Universidad Pedagógica Nacional Francisco Morazán,3,ror
+uth.hn,central,Universidad Tecnológica de Honduras,3,ror
+web.archive.org,,Archivo Nacional de Honduras,3,wikidata
+unicah.edu,central,Universidad Católica de Honduras Nuestra Señora Reina de la Paz,2,ror
+unitec.edu,central,Central American Technological University,2,ror
+usap.edu,central,Universidad de San Pedro Sula,2,ror
+unimetro.edu.hn,central,Universidad Metropolitana de Honduras,0,ror

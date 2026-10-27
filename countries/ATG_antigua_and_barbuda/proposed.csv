@@ -1,6 +1,6 @@
-domain,score,sources,label,level
-ag.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, St. John's",central
-eccb-centralbank.org,3,wikidata,Eastern Caribbean Central Bank,
-nationallibraryofantiguaandbarbuda.org,3,wikidata,Antigua Public Library,
-uhsa.ag,3,ror,University of Health Sciences Antigua,central
-auamed.org,2,ror,American University of Antigua,central
+domain,level,name,score,sources
+ag.china-embassy.org,central,"Embassy of the People's Republic of China, St. John's",3,wikidata
+eccb-centralbank.org,,Eastern Caribbean Central Bank,3,wikidata
+nationallibraryofantiguaandbarbuda.org,,Antigua Public Library,3,wikidata
+uhsa.ag,central,University of Health Sciences Antigua,3,ror
+auamed.org,central,American University of Antigua,2,ror

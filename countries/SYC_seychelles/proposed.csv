@@ -1,43 +1,43 @@
-domain,score,sources,label,level
-unisey.ac.sc,9,academia;ror,Blue Economy Research Institute | University of Seychelles,central
-cbs.sc,7,wikidata,Central Bank of Seychelles,central
-esa.egov.sc,7,wikidata,Ministry of Industry and Enterprise,central
-nationalassembly.sc,7,wikidata,National Assembly of Seychelles | National Assembly,central
-sfa.sc,7,wikidata,Seychelles Fisheries Authority,central
-egov.sc,6,un_desa,UN/DESA national portal,
-judiciary.sc,6,wikidata,Supreme Court of Seychelles,central
-seychellescultureinstitute.org,6,wikidata,"Culture, Art and National Heritage Department | Seychelles National Institute of Culture, Heritage & the Arts",central
-ago.sc,4,wikidata,Department of Legal Affairs,central
-curatelleoffice.sc,4,wikidata,Curatelle Office,central
-drdm.sc,4,wikidata,Department of Risk and Disaster Management,central
-ecs.sc,4,wikidata,Electoral Commission of Seychelles,central
-infocom.sc,4,wikidata,Information Commission,central
-meteo.sc,4,wikidata,Seychelles Meteorological Authority,central
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Victoria",central
-nacseychelles.sc,4,wikidata,National Arts and Crafts Council,central
-national-library.edu.sc,4,wikidata,National Library of the Seychelles,
-nsc.sc,4,wikidata,National Sports Council,central
-ntb.sc,4,wikidata,National Tender Board,central
-pemc.sc,4,wikidata,Public Enterprise Monitoring Commission,central
-saa.sc,4,wikidata,Seychelles Airports Authority,central
-sbs.sc,4,wikidata,Seychelles Bureau of Standards,central
-scaa.sc,4,wikidata,Seychelles Civil Aviation Authority,central
-scra.sc,4,wikidata,Seychelles Communications Regulatory Authority,central
-sdf.sc,4,wikidata,Department of Defense,central
-seyport.sc,4,wikidata,Seychelles Port Authority,central
-shf.sc,4,wikidata,Seychelles National Heritage Research Council,central
-slta.sc,4,wikidata,Seychelles Land Transport Agency,central
-smsa.sc,4,wikidata,Seychelles Maritime Safety Authority,central
-snyc.sc,4,wikidata,Seychelles National Youth Council,central
-spa.sc,4,wikidata,Seychelles Port Authority,central
-sptc.sc,4,wikidata,Seychelles Public Transport Corporation,central
-sqa.sc,4,wikidata,Seychelles Qualifications Authority,central
-urc.sc,4,wikidata,Utilities Regulatory Commission,central
-investinseychelles.com,3,wikidata,Seychelles Investment Board,central
-mayorsofficeseychelles.com,3,wikidata,Office of the Mayor of Victoria,central
-misiones.cubaminrex.cu,3,wikidata,embassy of Cuba in Seychelles,central
-sc.ambafrance.org,3,wikidata,"Embassy of France, Victoria",central
-sc.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Victoria",central
-seychelles.mid.ru,3,wikidata,embassy of Russia in Seychelles,central
-seychellesnewsagency.com,3,wikidata,Seychelles News Agency,
-seychellespostalregulator.com,3,wikidata,Postal Regulatory Secretariat,central
+domain,level,name,score,sources
+unisey.ac.sc,central,Blue Economy Research Institute | University of Seychelles,9,academia;ror
+cbs.sc,central,Central Bank of Seychelles,7,wikidata
+esa.egov.sc,central,Ministry of Industry and Enterprise,7,wikidata
+nationalassembly.sc,central,National Assembly of Seychelles | National Assembly,7,wikidata
+sfa.sc,central,Seychelles Fisheries Authority,7,wikidata
+egov.sc,,UN/DESA national portal,6,un_desa
+judiciary.sc,central,Supreme Court of Seychelles,6,wikidata
+seychellescultureinstitute.org,central,"Culture, Art and National Heritage Department | Seychelles National Institute of Culture, Heritage & the Arts",6,wikidata
+ago.sc,central,Department of Legal Affairs,4,wikidata
+curatelleoffice.sc,central,Curatelle Office,4,wikidata
+drdm.sc,central,Department of Risk and Disaster Management,4,wikidata
+ecs.sc,central,Electoral Commission of Seychelles,4,wikidata
+infocom.sc,central,Information Commission,4,wikidata
+meteo.sc,central,Seychelles Meteorological Authority,4,wikidata
+mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Victoria",4,wikidata
+nacseychelles.sc,central,National Arts and Crafts Council,4,wikidata
+national-library.edu.sc,,National Library of the Seychelles,4,wikidata
+nsc.sc,central,National Sports Council,4,wikidata
+ntb.sc,central,National Tender Board,4,wikidata
+pemc.sc,central,Public Enterprise Monitoring Commission,4,wikidata
+saa.sc,central,Seychelles Airports Authority,4,wikidata
+sbs.sc,central,Seychelles Bureau of Standards,4,wikidata
+scaa.sc,central,Seychelles Civil Aviation Authority,4,wikidata
+scra.sc,central,Seychelles Communications Regulatory Authority,4,wikidata
+sdf.sc,central,Department of Defense,4,wikidata
+seyport.sc,central,Seychelles Port Authority,4,wikidata
+shf.sc,central,Seychelles National Heritage Research Council,4,wikidata
+slta.sc,central,Seychelles Land Transport Agency,4,wikidata
+smsa.sc,central,Seychelles Maritime Safety Authority,4,wikidata
+snyc.sc,central,Seychelles National Youth Council,4,wikidata
+spa.sc,central,Seychelles Port Authority,4,wikidata
+sptc.sc,central,Seychelles Public Transport Corporation,4,wikidata
+sqa.sc,central,Seychelles Qualifications Authority,4,wikidata
+urc.sc,central,Utilities Regulatory Commission,4,wikidata
+investinseychelles.com,central,Seychelles Investment Board,3,wikidata
+mayorsofficeseychelles.com,central,Office of the Mayor of Victoria,3,wikidata
+misiones.cubaminrex.cu,central,embassy of Cuba in Seychelles,3,wikidata
+sc.ambafrance.org,central,"Embassy of France, Victoria",3,wikidata
+sc.china-embassy.org,central,"Embassy of the People's Republic of China, Victoria",3,wikidata
+seychelles.mid.ru,central,embassy of Russia in Seychelles,3,wikidata
+seychellesnewsagency.com,,Seychelles News Agency,3,wikidata
+seychellespostalregulator.com,central,Postal Regulatory Secretariat,3,wikidata

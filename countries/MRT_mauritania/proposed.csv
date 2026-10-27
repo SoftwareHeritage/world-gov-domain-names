@@ -1,20 +1,20 @@
-domain,score,sources,label,level
-ami.mr,7,wikidata,Mauritanian Information Agency | Mauritanian News Agency,
-ansade.mr,7,wikidata;academia,"National Agency for Statistics, Demographic and Economic Analysis",central
-assembleenationale.mr,7,wikidata,National Assembly,central
-ons.mr,7,wikidata;academia,Office National de la Statistique,central
-tdm.mr,7,wikidata,Broadcasting of Mauritania,
-bcm.mr,4,wikidata,Central Bank of Mauritania,
-cndh.mr,4,wikidata,National Human Rights Commission of Mauritania,
-cnla.mr,4,wikidata,Centre National de Lutte Antiacridienne,
-gendarmerie.mr,4,wikidata,Law enforcement in Mauritania,
-inrsp.mr,4,academia,Institut National de Recherches en Sante Publique,central
-palemb.mr,4,wikidata,"Embassy of the State of Palestine, Nouakchott",central
-ccfr.rimpresse.com,3,wikidata,Q19885895,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Mauritania,
-ens.mr,3,ror,École Normale Supérieure de Nouakchott,central
-mauritanie.mid.ru,3,wikidata,embassy of Russia in Mauritania,central
-mr.ambafrance.org,3,wikidata,"Embassy of France, Nouakchott",central
-nouakchott.diplo.de,3,wikidata,"Embassy of Germany, Nouakchott",central
-univ-nkc.mr,3,ror,Université de Nouakchott,central
-ustm.mr,3,ror,"Université des Sciences, de Technologie et de Médecine",central
+domain,level,name,score,sources
+ami.mr,,Mauritanian Information Agency | Mauritanian News Agency,7,wikidata
+ansade.mr,central,"National Agency for Statistics, Demographic and Economic Analysis",7,wikidata;academia
+assembleenationale.mr,central,National Assembly,7,wikidata
+ons.mr,central,Office National de la Statistique,7,wikidata;academia
+tdm.mr,,Broadcasting of Mauritania,7,wikidata
+bcm.mr,,Central Bank of Mauritania,4,wikidata
+cndh.mr,,National Human Rights Commission of Mauritania,4,wikidata
+cnla.mr,,Centre National de Lutte Antiacridienne,4,wikidata
+gendarmerie.mr,,Law enforcement in Mauritania,4,wikidata
+inrsp.mr,central,Institut National de Recherches en Sante Publique,4,academia
+palemb.mr,central,"Embassy of the State of Palestine, Nouakchott",4,wikidata
+ccfr.rimpresse.com,central,Q19885895,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Mauritania,3,wikidata
+ens.mr,central,École Normale Supérieure de Nouakchott,3,ror
+mauritanie.mid.ru,central,embassy of Russia in Mauritania,3,wikidata
+mr.ambafrance.org,central,"Embassy of France, Nouakchott",3,wikidata
+nouakchott.diplo.de,central,"Embassy of Germany, Nouakchott",3,wikidata
+univ-nkc.mr,central,Université de Nouakchott,3,ror
+ustm.mr,central,"Université des Sciences, de Technologie et de Médecine",3,ror

@@ -1,10 +1,10 @@
-domain,score,sources,label,level
-conseil-national.mc,7,wikidata,National Council,central
-imsee.mc,7,wikidata;academia,Q16643758,central
-centrescientifique.mc,4,academia,Scientific Centre of Monaco,
-jardin-exotique.mc,4,academia,Jardin Exotique de Monaco,
-mairie.mc,4,wikidata,Communal Council of Monaco,central-1
-mediatheque.mc,4,wikidata,Louis Notari Library,
-ambafrance-mc.org,3,wikidata,"Embassy of France, Monaco",central
-culture.mc,2,wikidata,Directorate of Cultural Affairs | Heritage Institute,
-monaco.edu,2,ror,International University of Monaco,central
+domain,level,name,score,sources
+conseil-national.mc,central,National Council,7,wikidata
+imsee.mc,central,Q16643758,7,wikidata;academia
+centrescientifique.mc,,Scientific Centre of Monaco,4,academia
+jardin-exotique.mc,,Jardin Exotique de Monaco,4,academia
+mairie.mc,central-1,Communal Council of Monaco,4,wikidata
+mediatheque.mc,,Louis Notari Library,4,wikidata
+ambafrance-mc.org,central,"Embassy of France, Monaco",3,wikidata
+culture.mc,,Directorate of Cultural Affairs | Heritage Institute,2,wikidata
+monaco.edu,central,International University of Monaco,2,ror

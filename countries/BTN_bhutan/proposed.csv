@@ -1,7 +1,7 @@
-domain,score,sources,label,level
-parliament.bt,8,wikidata,Parliament of Bhutan,central
-rub.edu.bt,6,academia;ror,Royal University of Bhutan,central
-acc.org.bt,4,wikidata,Anti-Corruption Commission,
-nationalcouncil.bt,4,wikidata,National Council of Bhutan,central
-rma.org.bt,4,wikidata,Royal Monetary Authority of Bhutan,
-kgumsb.edu.bt,3,ror,Khesar Gyalpo University of Medical Sciences of Bhutan,central
+domain,level,name,score,sources
+parliament.bt,central,Parliament of Bhutan,8,wikidata
+rub.edu.bt,central,Royal University of Bhutan,6,academia;ror
+acc.org.bt,,Anti-Corruption Commission,4,wikidata
+nationalcouncil.bt,central,National Council of Bhutan,4,wikidata
+rma.org.bt,,Royal Monetary Authority of Bhutan,4,wikidata
+kgumsb.edu.bt,central,Khesar Gyalpo University of Medical Sciences of Bhutan,3,ror

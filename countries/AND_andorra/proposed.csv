@@ -1,30 +1,30 @@
-domain,score,sources,label,level
-cultura.ad,7,wikidata,National Archives of Andorra | Andorra National Library,central
-educacio.ad,7,wikidata,Ministry of Education and Higher Education of Andorra,central
-estadistica.ad,7,wikidata;academia,Departament d'Estadística,central
-estadistica.desenvolupament.ad,7,wikidata;academia,Departament d'Estadística,central
-exteriors.ad,7,wikidata,Ministry of Foreign Affairs,central
-finances.ad,7,wikidata,Ministry of Finance of Andorra,central
-mobilitat.ad,7,wikidata,Ministry of Territorial Planning of Andorra,central
-turisme.ad,7,wikidata,Ministry of Tourism of Andorra,central
-tribunalconstitucional.ad,6,wikidata,Andorra. Tribunal Constitucional,
-uda.ad,6,academia;ror,Universitat d'Andorra,central
-afa.ad,4,wikidata,Andorran Financial Authority,
-apda.ad,4,wikidata,Data Protection Agency,central
-ari.ad,4,wikidata,Andorra Recerca + Innovació,
-banders.ad,4,wikidata,Cos de Banders d'Andorra,central
-canillo.ad,4,wikidata,Q117288422,central-1
-cass.ad,4,wikidata,Caixa Andorrana de Seguretat Social,
-cea.ad,4,wikidata,Confederació Empresarial Andorrana,
-comuencamp.ad,4,wikidata,Q117808860,central-1
-comusantjulia.ad,4,wikidata,Q105488867,central-1
-policia.ad,4,wikidata,Police Corps of Andorra,
-saas.ad,4,wikidata,Servei Andorrà d’Atenció Sanitària,
-salut.ad,4,wikidata,Comitè Nacional de Bioètica d'Andorra,
-uifand.ad,4,wikidata,Financial Intelligence Unit of Andorra,
-unesco.ad,4,wikidata,Andorran National Commission for UNESCO,
-ad.ambafrance.org,3,wikidata,"Embassy of France, Andorra la Vella",central
-armenianembassyad.com,3,wikidata,Honorary Consulate of Armenia in Andorra,
-exteriors.gencat.cat,3,wikidata,"Government Delegation of Catalonia, Andorra",central
-consellgeneral.ad,2,wikidata,General Council of Andorra,central
-universitatcarlemany.com,2,ror,Universitat Carlemany,central
+domain,level,name,score,sources
+cultura.ad,central,National Archives of Andorra | Andorra National Library,7,wikidata
+educacio.ad,central,Ministry of Education and Higher Education of Andorra,7,wikidata
+estadistica.ad,central,Departament d'Estadística,7,wikidata;academia
+estadistica.desenvolupament.ad,central,Departament d'Estadística,7,wikidata;academia
+exteriors.ad,central,Ministry of Foreign Affairs,7,wikidata
+finances.ad,central,Ministry of Finance of Andorra,7,wikidata
+mobilitat.ad,central,Ministry of Territorial Planning of Andorra,7,wikidata
+turisme.ad,central,Ministry of Tourism of Andorra,7,wikidata
+tribunalconstitucional.ad,,Andorra. Tribunal Constitucional,6,wikidata
+uda.ad,central,Universitat d'Andorra,6,academia;ror
+afa.ad,,Andorran Financial Authority,4,wikidata
+apda.ad,central,Data Protection Agency,4,wikidata
+ari.ad,,Andorra Recerca + Innovació,4,wikidata
+banders.ad,central,Cos de Banders d'Andorra,4,wikidata
+canillo.ad,central-1,Q117288422,4,wikidata
+cass.ad,,Caixa Andorrana de Seguretat Social,4,wikidata
+cea.ad,,Confederació Empresarial Andorrana,4,wikidata
+comuencamp.ad,central-1,Q117808860,4,wikidata
+comusantjulia.ad,central-1,Q105488867,4,wikidata
+policia.ad,,Police Corps of Andorra,4,wikidata
+saas.ad,,Servei Andorrà d’Atenció Sanitària,4,wikidata
+salut.ad,,Comitè Nacional de Bioètica d'Andorra,4,wikidata
+uifand.ad,,Financial Intelligence Unit of Andorra,4,wikidata
+unesco.ad,,Andorran National Commission for UNESCO,4,wikidata
+ad.ambafrance.org,central,"Embassy of France, Andorra la Vella",3,wikidata
+armenianembassyad.com,,Honorary Consulate of Armenia in Andorra,3,wikidata
+exteriors.gencat.cat,central,"Government Delegation of Catalonia, Andorra",3,wikidata
+consellgeneral.ad,central,General Council of Andorra,2,wikidata
+universitatcarlemany.com,central,Universitat Carlemany,2,ror

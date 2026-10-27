@@ -1,47 +1,47 @@
-domain,score,sources,label,level
-agroprod.kg,7,wikidata,"Ministry of Agriculture, Food Industry and Melioration",central
-en.mes.kg,7,wikidata,Ministry of Emergency Situations of Kyrgyzstan,central
-kenesh.kg,7,wikidata,Supreme Council,central
-med.kg,7,wikidata,Ministry of Health of Kyrgyzstan,central
-mvd.kg,7,wikidata,Ministry of the Interior,central
-stat.kg,7,wikidata;academia,National Statistical Committee,central
-manas.edu.kg,6,academia;ror,Manas University,central
-archive.kg,4,wikidata,Central State Archives of the Republic of Kyrgyzstan,
-biskek.mfa.gov.hu,4,wikidata,Embassy of Hungary to Kyrgyzstan,central
-mfa.kg,4,wikidata,Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic,
-nbkr.kg,4,wikidata,National Bank of the Kyrgyz Republic,
-vak.kg,4,wikidata,Higher Attestation Commission of Kyrgyzstan,
-adam.edu.kg,3,ror,Bishkek Academy of Finance and Economics,central
-alatoo.edu.kg,3,ror,Ala-Too International University,central
-arabaev.kg,3,ror,Kyrgyz State National University,central
-asmi.edu.kg,3,ror,S. Tentishev Asian Medical Institute,central
-auca.kg,3,ror,American University of Central Asia,central
-batmu.kg,3,ror,Batken State University,central
-bhu.kg,3,ror,Bishkek Humanities University,central
-bischkek.diplo.de,3,wikidata,"Embassy of Germany, Bishkek",central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to the Kyrgyz Republic,
-eiu.edu.kg,3,ror,Eurasian International University,central
-gdirc.ru,3,academia,Research Station of the Russian Academy of Sciences in Bishkek,
-geoportal-kg.org,3,wikidata,Geological Survey of Kyrgyzstan,
-iuca.kg,3,ror,International University of Central Asia,central
-iuk.kg,3,ror,International University of Kyrgyzstan,central
-jasu.kg,3,ror,Jalalabad State University,central
-keu.kg,3,ror,Kyrgyz Economic University,central
-kg.ambafrance.org,3,wikidata,"Embassy of France, Bishkek",central
-knau.kg,3,ror,Kyrgyz National Agrarian University named after K.I. Skryabin,central
-knu.kg,3,ror,Kyrgyz National University,central
-krsu.edu.kg,3,ror,Kyrgyz-Russian Slavic University named after B.N. Yeltsin,central
-kstu.kg,3,ror,Kyrgyz State Technical University,central
-ksucta.kg,3,ror,"Kyrgyz State University of Construction, Transport and Architecture named after N. Isanov",central
-kumu.kg,3,ror,Kyrgyz-Uzbek International University named after Batyraly Sydykov,central
-main.iksu.kg,3,ror,Issyk-Kul State University,central
-mfa.tj,3,wikidata,"Embassy of Tajikistan, Bishkek",central
-mnu.kg,3,ror,International University named after K.Sh.Toktomamatov,central
-nsu.kg,3,ror,Naryn State University named after Satybaldy Naamatov,central
-oshmpu.kg,3,ror,Osh State Pedagogical University named after A. Myrsabekov,central
-oshsu.kg,3,ror,Osh State University,central
-oshtu.kg,3,ror,Osh Technological University,central
-talsu.kg,3,ror,Talas State University,central
-salymbekov.com,2,ror,Salymbekov University,central
-ucentralasia.org,2,ror,University of Central Asia,central
-royalmetropolitanuniversity.com,0,ror,Royal Metropolitan University,central
+domain,level,name,score,sources
+agroprod.kg,central,"Ministry of Agriculture, Food Industry and Melioration",7,wikidata
+en.mes.kg,central,Ministry of Emergency Situations of Kyrgyzstan,7,wikidata
+kenesh.kg,central,Supreme Council,7,wikidata
+med.kg,central,Ministry of Health of Kyrgyzstan,7,wikidata
+mvd.kg,central,Ministry of the Interior,7,wikidata
+stat.kg,central,National Statistical Committee,7,wikidata;academia
+manas.edu.kg,central,Manas University,6,academia;ror
+archive.kg,,Central State Archives of the Republic of Kyrgyzstan,4,wikidata
+biskek.mfa.gov.hu,central,Embassy of Hungary to Kyrgyzstan,4,wikidata
+mfa.kg,,Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic,4,wikidata
+nbkr.kg,,National Bank of the Kyrgyz Republic,4,wikidata
+vak.kg,,Higher Attestation Commission of Kyrgyzstan,4,wikidata
+adam.edu.kg,central,Bishkek Academy of Finance and Economics,3,ror
+alatoo.edu.kg,central,Ala-Too International University,3,ror
+arabaev.kg,central,Kyrgyz State National University,3,ror
+asmi.edu.kg,central,S. Tentishev Asian Medical Institute,3,ror
+auca.kg,central,American University of Central Asia,3,ror
+batmu.kg,central,Batken State University,3,ror
+bhu.kg,central,Bishkek Humanities University,3,ror
+bischkek.diplo.de,central,"Embassy of Germany, Bishkek",3,wikidata
+eeas.europa.eu,,Delegation of the European Union to the Kyrgyz Republic,3,wikidata
+eiu.edu.kg,central,Eurasian International University,3,ror
+gdirc.ru,,Research Station of the Russian Academy of Sciences in Bishkek,3,academia
+geoportal-kg.org,,Geological Survey of Kyrgyzstan,3,wikidata
+iuca.kg,central,International University of Central Asia,3,ror
+iuk.kg,central,International University of Kyrgyzstan,3,ror
+jasu.kg,central,Jalalabad State University,3,ror
+keu.kg,central,Kyrgyz Economic University,3,ror
+kg.ambafrance.org,central,"Embassy of France, Bishkek",3,wikidata
+knau.kg,central,Kyrgyz National Agrarian University named after K.I. Skryabin,3,ror
+knu.kg,central,Kyrgyz National University,3,ror
+krsu.edu.kg,central,Kyrgyz-Russian Slavic University named after B.N. Yeltsin,3,ror
+kstu.kg,central,Kyrgyz State Technical University,3,ror
+ksucta.kg,central,"Kyrgyz State University of Construction, Transport and Architecture named after N. Isanov",3,ror
+kumu.kg,central,Kyrgyz-Uzbek International University named after Batyraly Sydykov,3,ror
+main.iksu.kg,central,Issyk-Kul State University,3,ror
+mfa.tj,central,"Embassy of Tajikistan, Bishkek",3,wikidata
+mnu.kg,central,International University named after K.Sh.Toktomamatov,3,ror
+nsu.kg,central,Naryn State University named after Satybaldy Naamatov,3,ror
+oshmpu.kg,central,Osh State Pedagogical University named after A. Myrsabekov,3,ror
+oshsu.kg,central,Osh State University,3,ror
+oshtu.kg,central,Osh Technological University,3,ror
+talsu.kg,central,Talas State University,3,ror
+salymbekov.com,central,Salymbekov University,2,ror
+ucentralasia.org,central,University of Central Asia,2,ror
+royalmetropolitanuniversity.com,central,Royal Metropolitan University,0,ror

@@ -1,49 +1,49 @@
-domain,score,sources,label,level
-rp.ac.rw,6,wikidata;ror,RP  Rwanda Polytechnic,central
-ur.ac.rw,6,academia;ror,University of Rwanda,central
-aceesd.ur.ac.rw,4,academia,African Center for Excellence in Energy for Sustainable Development (ACE-ESD),
-agaciro.rw,4,wikidata,AgDF  Agaciro Corporate Trust Ltd,
-agriresearch.rw,4,academia,Agriresearch,
-agriresearchunguka.rw,4,academia,AGRIRESEARCH UNGUKA Ltd,
-bnr.rw,4,wikidata,National Bank of Rwanda,
-cma.rw,4,wikidata,Rwanda Capital Market Authority CMA,
-cpcic.rw,4,academia,Cleaner Production and Climate Innovation Centre,
-ikigega.rw,4,wikidata,SGF  Special Guarantee Fund,
-irst.ac.rw,4,academia,Rwandan National Institute of Scientific Research,central
-kcrc.rw,4,academia,Kigali Collaborative Research Centre,
-lands.rw,4,wikidata,RLMUA  Rwanda Land Management and Use Authority,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Kigali",central
-raeb.prod.risa.rw,4,wikidata,Rwanda Atomic Energy Board,
-rdb.rw,4,wikidata,Rwanda Development Board,
-rfa.rw,4,wikidata,Q136509270,
-rpa.ac.rw,4,wikidata,Rwanda Peace Academy,
-rssb.rw,4,wikidata,Rwanda Social Security Board,
-rura.rw,4,wikidata,Rwanda Utilities Regulatory Authority,
-rwb.rw,4,wikidata,Rwanda Water Resources Board,
-unesco.rw,4,wikidata,Rwanda National Commission for UNESCO,
-acordrwanda.org,3,academia,Association for Co-Operation and Research in Development,
-ahsu.ac.rw,3,ror,Africa Health Sciences University,central
-auca.ac.rw,3,ror,Adventist University of Central Africa,central
-cst.ur.ac.rw,3,ror,College of Science and Technology - University of Rwanda,central
-eaifr.ictp.it,3,academia,East African Institute for Fundamental Research,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Rwanda,
-eprnrwanda.org,3,academia,Economic Policy Research Network (EPRN),
-greatervirunga.org,3,wikidata,Q132472718,
-ipar-rwanda.org,3,academia,Institute of Policy Analysis and Research - Rwanda,
-kenyahighcomkigali.org,3,wikidata,"High Commission of Kenya, Kigali",central
-kigali.diplo.de,3,wikidata,"Embassy of Germany, Kigali",central
-mgu.ac.rw,3,ror,Mahatma Gandhi University,central
-mkur.ac.rw,3,ror,Mount Kigali University,central
-pur.ac.rw,3,ror,Protestant University of Rwanda,central
-rw.ambafrance.org,3,wikidata,"Embassy of France, Kigali",central
-rw.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Kigali",central
-rwanda.mid.ru,3,wikidata,"Embassy of Russia, Kigali",central
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Kigali",central
-uck.ac.rw,3,ror,Catholic University of Kabgayi,central
-ulk.ac.rw,3,ror,Kigali Independent University,central
-unilak.ac.rw,3,ror,University of Lay Adventists of Kigali,central
-uok.ac.rw,3,ror,University of Kigali,central
-africa.engineering.cmu.edu,2,ror,Carnegie Mellon University Africa,central
-alueducation.com,2,ror,African Leadership University,central
-ughe.org,2,ror,University of Global Health Equity,central
-umst.org,2,ror,University of Medical Sciences and Technology Rwanda,central
+domain,level,name,score,sources
+rp.ac.rw,central,RP  Rwanda Polytechnic,6,wikidata;ror
+ur.ac.rw,central,University of Rwanda,6,academia;ror
+aceesd.ur.ac.rw,,African Center for Excellence in Energy for Sustainable Development (ACE-ESD),4,academia
+agaciro.rw,,AgDF  Agaciro Corporate Trust Ltd,4,wikidata
+agriresearch.rw,,Agriresearch,4,academia
+agriresearchunguka.rw,,AGRIRESEARCH UNGUKA Ltd,4,academia
+bnr.rw,,National Bank of Rwanda,4,wikidata
+cma.rw,,Rwanda Capital Market Authority CMA,4,wikidata
+cpcic.rw,,Cleaner Production and Climate Innovation Centre,4,academia
+ikigega.rw,,SGF  Special Guarantee Fund,4,wikidata
+irst.ac.rw,central,Rwandan National Institute of Scientific Research,4,academia
+kcrc.rw,,Kigali Collaborative Research Centre,4,academia
+lands.rw,,RLMUA  Rwanda Land Management and Use Authority,4,wikidata
+mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Kigali",4,wikidata
+raeb.prod.risa.rw,,Rwanda Atomic Energy Board,4,wikidata
+rdb.rw,,Rwanda Development Board,4,wikidata
+rfa.rw,,Q136509270,4,wikidata
+rpa.ac.rw,,Rwanda Peace Academy,4,wikidata
+rssb.rw,,Rwanda Social Security Board,4,wikidata
+rura.rw,,Rwanda Utilities Regulatory Authority,4,wikidata
+rwb.rw,,Rwanda Water Resources Board,4,wikidata
+unesco.rw,,Rwanda National Commission for UNESCO,4,wikidata
+acordrwanda.org,,Association for Co-Operation and Research in Development,3,academia
+ahsu.ac.rw,central,Africa Health Sciences University,3,ror
+auca.ac.rw,central,Adventist University of Central Africa,3,ror
+cst.ur.ac.rw,central,College of Science and Technology - University of Rwanda,3,ror
+eaifr.ictp.it,,East African Institute for Fundamental Research,3,academia
+eeas.europa.eu,,Delegation of the European Union to Rwanda,3,wikidata
+eprnrwanda.org,,Economic Policy Research Network (EPRN),3,academia
+greatervirunga.org,,Q132472718,3,wikidata
+ipar-rwanda.org,,Institute of Policy Analysis and Research - Rwanda,3,academia
+kenyahighcomkigali.org,central,"High Commission of Kenya, Kigali",3,wikidata
+kigali.diplo.de,central,"Embassy of Germany, Kigali",3,wikidata
+mgu.ac.rw,central,Mahatma Gandhi University,3,ror
+mkur.ac.rw,central,Mount Kigali University,3,ror
+pur.ac.rw,central,Protestant University of Rwanda,3,ror
+rw.ambafrance.org,central,"Embassy of France, Kigali",3,wikidata
+rw.china-embassy.org,central,"Embassy of the People's Republic of China, Kigali",3,wikidata
+rwanda.mid.ru,central,"Embassy of Russia, Kigali",3,wikidata
+swedenabroad.se,central,"Embassy of Sweden, Kigali",3,wikidata
+uck.ac.rw,central,Catholic University of Kabgayi,3,ror
+ulk.ac.rw,central,Kigali Independent University,3,ror
+unilak.ac.rw,central,University of Lay Adventists of Kigali,3,ror
+uok.ac.rw,central,University of Kigali,3,ror
+africa.engineering.cmu.edu,central,Carnegie Mellon University Africa,2,ror
+alueducation.com,central,African Leadership University,2,ror
+ughe.org,central,University of Global Health Equity,2,ror
+umst.org,central,University of Medical Sciences and Technology Rwanda,2,ror

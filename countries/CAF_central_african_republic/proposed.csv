@@ -1,11 +1,11 @@
-domain,score,sources,label,level
-stat-centrafrique.com,6,wikidata;academia,ICASEES,
-primature.govcf.org,5,un_desa,UN/DESA national portal,
-cpsrca.cf,4,wikidata,Q112584726,
-cf.ambafrance.org,3,wikidata,"Embassy of France, Bangui",central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Central African Republic,
-mae.ro,3,wikidata,"Honorary Consulate of Romania, Bangui",
-pasteur-bangui.org,3,academia,Institut Pasteur de Bangui,
-rca.mid.ru,3,wikidata,embassy of Russia in Central African Republic,central
-atafom.university,2,ror,Atlantic African Oriental Multicultural University International,central
-univ-bangui.org,2,ror,University of Bangui,central
+domain,level,name,score,sources
+stat-centrafrique.com,,ICASEES,6,wikidata;academia
+primature.govcf.org,,UN/DESA national portal,5,un_desa
+cpsrca.cf,,Q112584726,4,wikidata
+cf.ambafrance.org,central,"Embassy of France, Bangui",3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Central African Republic,3,wikidata
+mae.ro,,"Honorary Consulate of Romania, Bangui",3,wikidata
+pasteur-bangui.org,,Institut Pasteur de Bangui,3,academia
+rca.mid.ru,central,embassy of Russia in Central African Republic,3,wikidata
+atafom.university,central,Atlantic African Oriental Multicultural University International,2,ror
+univ-bangui.org,central,University of Bangui,2,ror

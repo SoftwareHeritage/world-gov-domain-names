@@ -1,39 +1,39 @@
-domain,score,sources,label,level
-izar.tj,7,wikidata;academia,Rudaki Institute of Language and Literature,
-maorif.tj,7,wikidata,Ministry of Education and Science of Tajikistan,central
-mort.tj,7,wikidata,Ministry of Defence,central
-stat.tj,7,wikidata;academia,TAJSTAT,central
-vfarhang.tj,7,wikidata,Ministry of Culture of Tajikistan,central
-constcourt.tj,6,wikidata,Constitutional Court of Tajikistan,central
-president.tj,6,un_desa,UN/DESA national portal,
-amit.tj,4,academia,"Institute of History, Archaeology and Ethnography, Tajik Academy of Sciences",
-anrt.tj,4,academia,Q25593243,
-ansmi.tj,4,wikidata,Q137103754,
-eart.tj,4,academia,Engineering Academy of Tajikistan,
-institute-history.tj,4,academia,"Institute of History, Archaeology and Ethnography, Tajik Academy of Sciences",
-khkt.tj,4,wikidata,National Library of Tajikistan,
-kmt.tj,4,wikidata,National Library of Tajikistan,
-majmilli.tj,4,wikidata,National Assembly of Tajikistan,central
-mitas.tj,4,wikidata,Institute of Mathematics National Academy of Science of Tajikistan,
-nbt.tj,4,wikidata,National Bank of Tajikistan,
-phti.tj,4,academia,Physical and Technical Institute named after S.U. Umarov,
-dotr.tj,3,ror,Tajik Pedagogical Institute in the Rasht District,central
-duschanbe.diplo.de,3,wikidata,"embassy of Germany, Dushanbe",central
-dushanbe.mid.ru,3,wikidata,embassy of Russia in Tajikistan,central
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Tajikistan,
-feit.tj,3,ror,Finance and Economics Institute of Tajikistan,central
-hgu.tj,3,ror,Khujand State University,central
-kgu.tj,3,ror,Kulyab State University named after Abuabdullo Rudaki,central
-khatmedun.tj,3,ror,Khatlon State Medical University,central
-msu.tj,3,ror,Moscow State University,central
-rtsu.tj,3,ror,Russian-Tajik Slavonic University,central
-tajagroun.tj,3,ror,Tajik Agrarian University Shirinsho Shotemur,central
-tgpu.tj,3,ror,Tajik State Pedagogical University,central
-tguk.tj,3,ror,Tajik State University of Commerce,central
-tj.ambafrance.org,3,wikidata,"Embassy of France, Dushanbe",central
-tnu.tj,3,ror,Tajik National University,central
-tsulbp.tj,3,ror,Tajik State University of Law Business and Politics,central
-tut.tj,3,ror,Technological University of Tajikistan,central
-web.ttu.tj,3,ror,Tajik Technical University named after academic M.S.Osimi,central
-nutaneducation.in,2,ror,Tajik State Medical University,central
-parlament.tj,2,wikidata,Assembly of Representatives | Supreme Assembly,central
+domain,level,name,score,sources
+izar.tj,,Rudaki Institute of Language and Literature,7,wikidata;academia
+maorif.tj,central,Ministry of Education and Science of Tajikistan,7,wikidata
+mort.tj,central,Ministry of Defence,7,wikidata
+stat.tj,central,TAJSTAT,7,wikidata;academia
+vfarhang.tj,central,Ministry of Culture of Tajikistan,7,wikidata
+constcourt.tj,central,Constitutional Court of Tajikistan,6,wikidata
+president.tj,,UN/DESA national portal,6,un_desa
+amit.tj,,"Institute of History, Archaeology and Ethnography, Tajik Academy of Sciences",4,academia
+anrt.tj,,Q25593243,4,academia
+ansmi.tj,,Q137103754,4,wikidata
+eart.tj,,Engineering Academy of Tajikistan,4,academia
+institute-history.tj,,"Institute of History, Archaeology and Ethnography, Tajik Academy of Sciences",4,academia
+khkt.tj,,National Library of Tajikistan,4,wikidata
+kmt.tj,,National Library of Tajikistan,4,wikidata
+majmilli.tj,central,National Assembly of Tajikistan,4,wikidata
+mitas.tj,,Institute of Mathematics National Academy of Science of Tajikistan,4,wikidata
+nbt.tj,,National Bank of Tajikistan,4,wikidata
+phti.tj,,Physical and Technical Institute named after S.U. Umarov,4,academia
+dotr.tj,central,Tajik Pedagogical Institute in the Rasht District,3,ror
+duschanbe.diplo.de,central,"embassy of Germany, Dushanbe",3,wikidata
+dushanbe.mid.ru,central,embassy of Russia in Tajikistan,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Tajikistan,3,wikidata
+feit.tj,central,Finance and Economics Institute of Tajikistan,3,ror
+hgu.tj,central,Khujand State University,3,ror
+kgu.tj,central,Kulyab State University named after Abuabdullo Rudaki,3,ror
+khatmedun.tj,central,Khatlon State Medical University,3,ror
+msu.tj,central,Moscow State University,3,ror
+rtsu.tj,central,Russian-Tajik Slavonic University,3,ror
+tajagroun.tj,central,Tajik Agrarian University Shirinsho Shotemur,3,ror
+tgpu.tj,central,Tajik State Pedagogical University,3,ror
+tguk.tj,central,Tajik State University of Commerce,3,ror
+tj.ambafrance.org,central,"Embassy of France, Dushanbe",3,wikidata
+tnu.tj,central,Tajik National University,3,ror
+tsulbp.tj,central,Tajik State University of Law Business and Politics,3,ror
+tut.tj,central,Technological University of Tajikistan,3,ror
+web.ttu.tj,central,Tajik Technical University named after academic M.S.Osimi,3,ror
+nutaneducation.in,central,Tajik State Medical University,2,ror
+parlament.tj,central,Assembly of Representatives | Supreme Assembly,2,wikidata

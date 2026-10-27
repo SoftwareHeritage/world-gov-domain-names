@@ -1,7 +1,7 @@
-domain,score,sources,label,level
-centralbank.org.sz,4,wikidata,Central Bank of Eswatini,
-emcu.ac.sz,4,academia,Eswatini Medical Christian University,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Eswatini,
-sanu.ac.sz,3,ror,Southern Africa Nazarene University,central
-taiwanembassy.org,3,wikidata,"Embassy of the Republic of China (Taiwan), Mbabane",central
-uniswa.sz,3,ror,University of Eswatini,central
+domain,level,name,score,sources
+centralbank.org.sz,,Central Bank of Eswatini,4,wikidata
+emcu.ac.sz,,Eswatini Medical Christian University,4,academia
+eeas.europa.eu,,Delegation of the European Union to Eswatini,3,wikidata
+sanu.ac.sz,central,Southern Africa Nazarene University,3,ror
+taiwanembassy.org,central,"Embassy of the Republic of China (Taiwan), Mbabane",3,wikidata
+uniswa.sz,central,University of Eswatini,3,ror

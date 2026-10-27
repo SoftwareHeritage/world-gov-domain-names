@@ -1,63 +1,63 @@
-domain,score,sources,label,level
-custodia.org,6,wikidata,Custodian of the Holy Land,
-ucy.ac.cy,6,academia;ror,University of Cyprus,central
-wikidata.org,6,wikidata,Deputy Ministry of Culture of Cyprus,central
-agrotourism.com.cy,4,wikidata,Cyprus Agrotourism Company,
-centralbank.cy,4,wikidata,Central Bank of Cyprus,
-cera.org.cy,4,wikidata,Cyprus Energy Regulatory Authority,
-childcom.org.cy,4,wikidata,Commissioner for Children’s Rights,
-crta.org.cy,4,wikidata,Cyprus Radio Television Authority,
-cyi.ac.cy,4,academia,The Cyprus Institute,
-highereducation.ac.cy,4,wikidata,Department of Higher Education,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Nicosia",central
-ocecpr.ee.cy,4,wikidata,Commissioner of Electronic Communications and Postal Regulation,
-pi.ac.cy,4,wikidata,Cyprus Pedagogical Institute,
-resecfund.org.cy,4,wikidata,Renewable Energy Sources (RES) and Energy Conservation (EC) Fund,
-unesco.org.cy,4,wikidata,Cyprus National Commission for UNESCO,
-wbl.com.cy,4,wikidata,Water Board of Lemesos,
-aubmed.ac.cy,3,ror,American University of Beirut – Mediterraneo,central
-aucy.ac.cy,3,ror,American University of Cyprus,central
-cut.ac.cy,3,ror,Cyprus University of Technology,central
-cy.ambafrance.org,3,wikidata,"Embassy of France, Nicosia",central
-cy.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Nicosia",central
-cyprus.mid.ru,3,wikidata,embassy of Russia in Cyprus,central
-cyprus.representation.ec.europa.eu,3,wikidata,European Commission Representation in Cyprus,
-cypruspost.post,3,wikidata,Cyprus Postal Services,
-euc.ac.cy,3,ror,European University Cyprus,central
-finlandabroad.fi,3,wikidata,embassy of Finland in Cyprus,central
-frederick.ac.cy,3,ror,Frederick University,central
-methodal.net,3,academia,Méthodal,
-mfa.bg,3,wikidata,embassy of Bulgaria in Cyprus,central
-mfa.gr,3,wikidata,embassy of Greece in Cyprus,central
-mzv.cz,3,wikidata,embassy of the Czech republic in Cyprus,central
-mzv.sk,3,wikidata,embassy of Slovakia in Cyprus,central
-nederlandwereldwijd.nl,3,wikidata,"Embassy of the Netherlands, Nicosia",central
-nicosia.embassy.qa,3,wikidata,embassy of Qatar in Cyprus,central
-nicosia.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Cyprus,central
-nicosia.mae.ro,3,wikidata,"Embassy of Romania, Nicosia",central
-nicosia.mfa.ir,3,wikidata,embassy of Iran in Cyprus,central
-nikosia.diplo.de,3,wikidata,"Embassy of Germany, Nicosia",central
-nup.ac.cy,3,ror,Neapolis University Pafos,central
-ouc.ac.cy,3,ror,Open University of Cyprus,central
-parliament.cy,3,wikidata,House of Representatives,central
-philipsuni.ac.cy,3,ror,Philips University,central
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Nicosia",central
-uclancyprus.ac.cy,3,ror,University of Central Lancashire Cyprus,central
-unic.ac.cy,3,ror,University of Nicosia,central
-uol.ac.cy,3,ror,University of Limassol,central
-visitcyprus.com,3,wikidata,Visit Cyprus,
-adakent.edu.tr,2,ror,Kıbrıs Ada Kent Üniversitesi,central
-akun.edu.tr,2,ror,University of Mediterranean Karpasia,central
-arucad.edu.tr,2,ror,Arkın Yaratıcı Sanatlar ve Tasarım Üniversitesi,central
-auc.edu.tr,2,ror,Kıbrıs Amerikan Üniversitesi,central
-baucyprus.edu.tr,2,ror,Bahçeşehir Cyprus University,central
-cau.edu.tr,2,ror,Cyprus Aydin University,central
-ciu.edu.tr,2,ror,Cyprus International University,central
-cwu.edu.tr,2,ror,Cyprus West University,central
-emu.edu.tr,2,ror,Eastern Mediterranean University,central
-final.edu.tr,2,ror,Final International University,central
-gau.edu.tr,2,ror,Girne American University,central
-kktc.asbu.edu.tr,2,ror,ASBU Kuzey Kibris Yerleşkesi̇,central
-kyrenia.edu.tr,2,ror,University of Kyrenia,central
-neu.edu.tr,2,ror,Near East University,central
-rdu.edu.tr,2,ror,Rauf Denktas University,central
+domain,level,name,score,sources
+custodia.org,,Custodian of the Holy Land,6,wikidata
+ucy.ac.cy,central,University of Cyprus,6,academia;ror
+wikidata.org,central,Deputy Ministry of Culture of Cyprus,6,wikidata
+agrotourism.com.cy,,Cyprus Agrotourism Company,4,wikidata
+centralbank.cy,,Central Bank of Cyprus,4,wikidata
+cera.org.cy,,Cyprus Energy Regulatory Authority,4,wikidata
+childcom.org.cy,,Commissioner for Children’s Rights,4,wikidata
+crta.org.cy,,Cyprus Radio Television Authority,4,wikidata
+cyi.ac.cy,,The Cyprus Institute,4,academia
+highereducation.ac.cy,,Department of Higher Education,4,wikidata
+mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Nicosia",4,wikidata
+ocecpr.ee.cy,,Commissioner of Electronic Communications and Postal Regulation,4,wikidata
+pi.ac.cy,,Cyprus Pedagogical Institute,4,wikidata
+resecfund.org.cy,,Renewable Energy Sources (RES) and Energy Conservation (EC) Fund,4,wikidata
+unesco.org.cy,,Cyprus National Commission for UNESCO,4,wikidata
+wbl.com.cy,,Water Board of Lemesos,4,wikidata
+aubmed.ac.cy,central,American University of Beirut – Mediterraneo,3,ror
+aucy.ac.cy,central,American University of Cyprus,3,ror
+cut.ac.cy,central,Cyprus University of Technology,3,ror
+cy.ambafrance.org,central,"Embassy of France, Nicosia",3,wikidata
+cy.china-embassy.org,central,"Embassy of the People's Republic of China, Nicosia",3,wikidata
+cyprus.mid.ru,central,embassy of Russia in Cyprus,3,wikidata
+cyprus.representation.ec.europa.eu,,European Commission Representation in Cyprus,3,wikidata
+cypruspost.post,,Cyprus Postal Services,3,wikidata
+euc.ac.cy,central,European University Cyprus,3,ror
+finlandabroad.fi,central,embassy of Finland in Cyprus,3,wikidata
+frederick.ac.cy,central,Frederick University,3,ror
+methodal.net,,Méthodal,3,academia
+mfa.bg,central,embassy of Bulgaria in Cyprus,3,wikidata
+mfa.gr,central,embassy of Greece in Cyprus,3,wikidata
+mzv.cz,central,embassy of the Czech republic in Cyprus,3,wikidata
+mzv.sk,central,embassy of Slovakia in Cyprus,3,wikidata
+nederlandwereldwijd.nl,central,"Embassy of the Netherlands, Nicosia",3,wikidata
+nicosia.embassy.qa,central,embassy of Qatar in Cyprus,3,wikidata
+nicosia.europarl.europa.eu,central,European Parliament Liaison Office in Cyprus,3,wikidata
+nicosia.mae.ro,central,"Embassy of Romania, Nicosia",3,wikidata
+nicosia.mfa.ir,central,embassy of Iran in Cyprus,3,wikidata
+nikosia.diplo.de,central,"Embassy of Germany, Nicosia",3,wikidata
+nup.ac.cy,central,Neapolis University Pafos,3,ror
+ouc.ac.cy,central,Open University of Cyprus,3,ror
+parliament.cy,central,House of Representatives,3,wikidata
+philipsuni.ac.cy,central,Philips University,3,ror
+swedenabroad.se,central,"Embassy of Sweden, Nicosia",3,wikidata
+uclancyprus.ac.cy,central,University of Central Lancashire Cyprus,3,ror
+unic.ac.cy,central,University of Nicosia,3,ror
+uol.ac.cy,central,University of Limassol,3,ror
+visitcyprus.com,,Visit Cyprus,3,wikidata
+adakent.edu.tr,central,Kıbrıs Ada Kent Üniversitesi,2,ror
+akun.edu.tr,central,University of Mediterranean Karpasia,2,ror
+arucad.edu.tr,central,Arkın Yaratıcı Sanatlar ve Tasarım Üniversitesi,2,ror
+auc.edu.tr,central,Kıbrıs Amerikan Üniversitesi,2,ror
+baucyprus.edu.tr,central,Bahçeşehir Cyprus University,2,ror
+cau.edu.tr,central,Cyprus Aydin University,2,ror
+ciu.edu.tr,central,Cyprus International University,2,ror
+cwu.edu.tr,central,Cyprus West University,2,ror
+emu.edu.tr,central,Eastern Mediterranean University,2,ror
+final.edu.tr,central,Final International University,2,ror
+gau.edu.tr,central,Girne American University,2,ror
+kktc.asbu.edu.tr,central,ASBU Kuzey Kibris Yerleşkesi̇,2,ror
+kyrenia.edu.tr,central,University of Kyrenia,2,ror
+neu.edu.tr,central,Near East University,2,ror
+rdu.edu.tr,central,Rauf Denktas University,2,ror

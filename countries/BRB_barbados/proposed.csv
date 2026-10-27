@@ -1,11 +1,11 @@
-domain,score,sources,label,level
-cbc.bb,4,wikidata,Caribbean Broadcasting Corporation,
-centralbank.org.bb,4,wikidata,Central Bank of Barbados,
-andromedabarbados.com,3,academia,Andromeda Botanic Gardens,
-eeas.europa.eu,3,wikidata,"Delegation of the European Union to Barbados, the Eastern Caribbean States, the OECS and CARICOM/CARIFORUM",central
-uwi.edu,3,academia,University of the West Indies,central
-aubmed.org,2,ror,American University of Barbados,central
-biu.university,2,ror,Bridgetown International University,central
-cavehill.uwi.edu,2,ror,University of the West Indies,central
-rossu.edu,2,ror,Ross University School of Medicine,central
-barbadosparliament.com,1,wikidata,Parliament of Barbados | Senate of Barbados | House of Assembly of Barbados,central
+domain,level,name,score,sources
+cbc.bb,,Caribbean Broadcasting Corporation,4,wikidata
+centralbank.org.bb,,Central Bank of Barbados,4,wikidata
+andromedabarbados.com,,Andromeda Botanic Gardens,3,academia
+eeas.europa.eu,central,"Delegation of the European Union to Barbados, the Eastern Caribbean States, the OECS and CARICOM/CARIFORUM",3,wikidata
+uwi.edu,central,University of the West Indies,3,academia
+aubmed.org,central,American University of Barbados,2,ror
+biu.university,central,Bridgetown International University,2,ror
+cavehill.uwi.edu,central,University of the West Indies,2,ror
+rossu.edu,central,Ross University School of Medicine,2,ror
+barbadosparliament.com,central,Parliament of Barbados | Senate of Barbados | House of Assembly of Barbados,1,wikidata

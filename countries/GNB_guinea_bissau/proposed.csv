@@ -1,11 +1,11 @@
-domain,score,sources,label,level
-parlamento.gw,8,wikidata,National People's Assembly,central
-stat-guinebissau.com,6,wikidata;academia,Instituto Nacional de Estatística,central
-uac.gw,4,academia,Universidade Amílcar Cabral,central
-bceao.int,3,wikidata,Central Bank of West African States,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Guinea-Bissau,
-guinea-bissau.mid.ru,3,wikidata,embassy of Russia in Guinea-Bissau,central
-gw.ambafrance.org,3,wikidata,"Embassy of France, Bissau",central
-gw.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Bissau",central
-inep-bissau.org,3,wikidata,National Library of Guinea-Bissau,
-ulusofona.gw,3,ror,Universidade Lusófona da Guiné,central
+domain,level,name,score,sources
+parlamento.gw,central,National People's Assembly,8,wikidata
+stat-guinebissau.com,central,Instituto Nacional de Estatística,6,wikidata;academia
+uac.gw,central,Universidade Amílcar Cabral,4,academia
+bceao.int,,Central Bank of West African States,3,wikidata
+eeas.europa.eu,,Delegation of the European Union to Guinea-Bissau,3,wikidata
+guinea-bissau.mid.ru,central,embassy of Russia in Guinea-Bissau,3,wikidata
+gw.ambafrance.org,central,"Embassy of France, Bissau",3,wikidata
+gw.china-embassy.org,central,"Embassy of the People's Republic of China, Bissau",3,wikidata
+inep-bissau.org,,National Library of Guinea-Bissau,3,wikidata
+ulusofona.gw,central,Universidade Lusófona da Guiné,3,ror
