@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 cssf.lu,7,wikidata,Commission de Surveillance du Secteur Financier,,200,10 mail.cssf.lu.
 lih.lu,7,wikidata;academia,Luxembourg Institute of Health,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mx1.lih.lu.; 5 mx2.lih.lu.
 uni.lu,6,academia;ror,University of Luxembourg,central,,

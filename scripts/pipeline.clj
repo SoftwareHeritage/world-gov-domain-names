@@ -810,7 +810,7 @@
       :else "")))
 
 (defn- candidate-row
-  "One [hostname score sources label level] row of host from a
+  "One [domain score sources label level] row of host from a
   load-candidate-ctx context. Pure."
   [{:keys [wd-by-host ac-by-host lg-by-host dir-by-host ror-by-host sopc-by-host
            un-portal-host fb-phrases cctld-primary]
@@ -935,7 +935,7 @@
 
 (defn propose-country!
   "Write countries/<c>/proposed.csv
-  (hostname,score,sources,label,level,http_status,mx): the ranked
+  (domain,score,sources,label,level,http_status,mx): the ranked
   candidates joined with the probes of sources/probes/proposed.csv."
   [country-dir]
   (let [probes (read-proposed-probes country-dir)
@@ -943,7 +943,7 @@
         rows   (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))
                      :let [[st mx] (get probes h ["" ""])]]
                  [h (str sc) src lbl lvl st mx])]
-    (write-csv-file out ["hostname" "score" "sources" "label" "level" "http_status" "mx"] rows)
+    (write-csv-file out ["domain" "score" "sources" "label" "level" "http_status" "mx"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))))
 
 (defn cmd-propose [args] (iter-countries propose-country! args))

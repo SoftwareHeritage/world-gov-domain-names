@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 assemblee-nationale.td,7,wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,none
 onecs.td,7,wikidata,Q129709968,,HttpTimeoutException: request timed out,1 mx1.mail.ovh.net.; 5 mx2.mail.ovh.net.; 100 mx3.mail.ovh.net.
 eeas.europa.eu,6,wikidata,Delegation of the European Union to Chad,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.

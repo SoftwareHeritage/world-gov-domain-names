@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 uv.mx,9,academia;ror,"Universidad Veracruzana | Universidad Veracruzana, Instituto de Investigaciones Histórico-Sociales",,,
 cardiologia.org.mx,7,wikidata;academia,Instituto Nacional de Cardiología,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 smtp.cardiologia.org.mx.
 cimat.mx,7,academia,CIMAT Center for Mathematical Research | Merida unit of CIMAT,,,

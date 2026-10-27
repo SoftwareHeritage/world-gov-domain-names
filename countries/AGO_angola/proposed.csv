@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 parlamento.ao,8,wikidata,National Assembly of Angola,central,200,1 webmail.parlamento.ao.
 minjud.gv.ao,7,wikidata,Ministry of Youth and Sports,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 franciscanos.org.br,6,wikidata,Q10354750,,ConnectException,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.

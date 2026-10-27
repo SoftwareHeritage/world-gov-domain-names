@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 omaninfo.om,7,wikidata,Ministry of Information,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 autodiscover.omaninfo.om.
 oman.om,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 squ.edu.om,6,wikidata;ror,Sultan Qaboos University Library,central,HttpConnectTimeoutException: HTTP connect timed out,3 alt1.aspmx.l.google.com.; 10 mx1.squ.edu.om.; 3 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt4.aspmx.l.google.com.; 21 alumni-squ-edu-om.mail.protection.outlook.com.; 5 alt3.aspmx.l.google.com.

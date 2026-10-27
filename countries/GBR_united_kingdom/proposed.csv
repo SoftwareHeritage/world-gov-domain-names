@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 bankofengland.co.uk,10,wikidata;directory,Prudential Regulation Authority | Bank of England,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching bankofengland.co.uk found.,20 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
 bbc.co.uk,10,linkgraph;directory,BBC (Public corporation) | BBC World Service (Other),,301,20 cluster1a.eu.messagelabs.com.; 10 cluster1.eu.messagelabs.com.
 cqc.org.uk,10,wikidata;linkgraph;directory,Care Quality Commission,,302,0 cqc-org-uk.mail.protection.outlook.com.

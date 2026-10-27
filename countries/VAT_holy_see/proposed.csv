@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 clerus.va,7,wikidata,Dicastery for the Clergy,,ConnectException,30 mx21.vatican.va.; 30 mx20.vatican.va.; 10 mx11-new.vatican.va.; 10 mx12-new.vatican.va.
 congregazionevescovi.va,7,wikidata,Dicastery for Bishops,,ConnectException,0 .
 dicasteryinterreligious.va,7,wikidata,Dicastery for Interreligious Dialogue,,ConnectException,none

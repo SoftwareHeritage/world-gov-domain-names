@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 amar.org.ir,7,wikidata;academia,Statistical Centre of Iran,central,HttpConnectTimeoutException: HTTP connect timed out,none
 dolat.ir,7,wikidata,Government of Iran,central,200,10 194.225.148.247.; 10 194.225.148.248.
 emsrt.ir,7,wikidata,"Ministry of Science, Research and Technology (Iran)",central,301,none

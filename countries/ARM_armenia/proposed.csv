@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 parliament.am,8,wikidata,National Assembly of Armenia,central,301,10 mail.parliament.am.
 armstat.am,7,wikidata;academia,Statistical Committee of Armenia | National Statistical Service,central,400,20 mail-gateway.ekeng.am.; 10 mbox.armstat.am.
 edu.am,7,wikidata,Ministry of Education and Science,central,HttpConnectTimeoutException: HTTP connect timed out,10 webmail.edu.am.

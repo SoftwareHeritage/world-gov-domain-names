@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 superiorcourts.org.na,9,wikidata,Supreme Court of Namibia | High Court of Namibia,,ConnectException,none
 parliament.na,8,wikidata,National Council of Namibia | Parliament of Namibia | National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,10 mailgateway.parliament.na.
 mof.na,7,wikidata,Ministry of Finance,central,ConnectException,none

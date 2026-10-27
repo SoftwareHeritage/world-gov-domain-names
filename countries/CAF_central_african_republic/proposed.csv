@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 stat-centrafrique.com,6,wikidata;academia,ICASEES,,HttpConnectTimeoutException: HTTP connect timed out,none
 primature.govcf.org,5,un_desa,UN/DESA national portal,,ConnectException,none
 cpsrca.cf,4,wikidata,Q112584726,,200,0 mail.cpsrca.cf.

@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 agroparistech.fr,10,academia;directory;ror,"AgroParisTech, Paris-Saclay University | Q51785610",central,,
 alpes.cnrs.fr,10,wikidata;academia;directory,"CNRS, Délégation Alpes | Q51784291",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.cnrs.fr.; 10 mx2.cnrs.fr.
 ameli.fr,10,wikidata;linkgraph;directory,health insurance in France,,301,20 assurancemaladiefr.mail.protection.outlook.com.

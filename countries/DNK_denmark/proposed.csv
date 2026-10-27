@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 datatilsynet.dk,10,wikidata;linkgraph,Danish Data Protection Agency,central,200,10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx06.statens-it.dk.
 digst.dk,10,wikidata;linkgraph,Agency for Digital Government,,200,10 mx06.statens-it.dk.; 10 mx02.statens-it.dk.; 10 mx05.statens-it.dk.; 10 mx03.statens-it.dk.; 10 mx01.statens-it.dk.; 10 mx08.statens-it.dk.; 10 mx07.statens-it.dk.; 10 mx04.statens-it.dk.
 politi.dk,10,wikidata;linkgraph,Police of Denmark | Rigspolitiet,,HttpConnectTimeoutException: HTTP connect timed out,10 mail1.politi.dk.; 10 mail2.politi.dk.

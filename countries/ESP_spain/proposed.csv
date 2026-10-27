@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 aemet.es,10,wikidata;linkgraph,Agencia Estatal de Meteorología,,HttpConnectTimeoutException: HTTP connect timed out,5 mail1.correo.gob.es.; 5 mail2.correo.gob.es.
 aepd.es,10,wikidata;linkgraph,Spanish Data Protection Agency,central,301,10 mail1.correo.gob.es.; 10 mail2.correo.gob.es.
 asturias.es,10,wikidata;linkgraph,Government of the Principality of Asturias | Q9076467,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 magyarorszag.hu,10,un_desa;linkgraph,UN/DESA national portal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.kopdat.hu.
 valasztas.hu,10,wikidata;linkgraph,National Election Office | National Election Commission,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,5 mailgw1.ei.gov.hu.; 5 mailgw3.ei.gov.hu.; 5 mailgw2.ei.gov.hu.; 5 mailgw4.ei.gov.hu.
 bv.gov.hu,8,wikidata,Jász-Nagykun-Szolnok County Remand Prison | Hungarian Prison Service,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.bv.gov.hu.

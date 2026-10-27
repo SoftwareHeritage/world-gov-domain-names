@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 gdip.com.ua,7,wikidata,Directorate-General for Rendering Services to Diplomatic Missions,,200,10 mail.gdip.com.ua.
 gromady.cv.ua,7,wikidata,Krasnoiilska selyshchna rada | Storozhynetska miska rada,,HttpConnectTimeoutException: HTTP connect timed out,none
 iae.org.ua,7,wikidata;academia,National Scientific Centre “Institute of Agrarian Economics”,central,HttpConnectTimeoutException: HTTP connect timed out,20 mx20.ukraine.com.ua.; 15 mail.iae.kiev.ua.

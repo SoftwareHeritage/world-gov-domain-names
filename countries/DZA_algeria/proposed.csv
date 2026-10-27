@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 univ-annaba.dz,9,academia;ror,Badji Mokhtar-Annaba University | Laboratoire de Physique des Rayonnements,central,,
 usthb.dz,9,academia;ror,"Laboratoire d'Énergétique et de Mécanique Théorique et Appliquée | University of Science and Technology, Houari Boumediene",central,,
 ansej.org.dz,7,wikidata,Agence nationale de soutien à l'emploi des jeunes,central,HttpConnectTimeoutException: HTTP connect timed out,dig error

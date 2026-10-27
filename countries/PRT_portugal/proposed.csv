@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 parlamento.pt,10,wikidata;linkgraph,Assembly of the Republic,central,IOException: HTTP/1.1 header parser received no bytes,10 srvrelay1.parlamento.pt.; 10 newsletter.parlamento.pt.; 10 srvrelay2.parlamento.pt.
 up.pt,9,academia;ror,Instituto de Ciências Biomédicas Abel Salazar | University of Porto,central,,
 presidencia.pt,8,linkgraph,Linked from 74 public-sector domains,,HttpConnectTimeoutException: HTTP connect timed out,90 mail1.presidencia.pt.; 10 mx1.presidencia.pt.; 10 mx2.presidencia.pt.; 90 mail2.presidencia.pt.

@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 kftrade.com.kp,7,wikidata,Ministry of Foreign Trade of North Korea,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 korart.sca.kp,7,wikidata,Ministry of Culture,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
 kp.china-embassy.org,6,wikidata,"Consulate-General of the People's Republic of China, Chongjin | Embassy of the People's Republic of China, Pyongyang",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kp.china-embassy.org found.,none

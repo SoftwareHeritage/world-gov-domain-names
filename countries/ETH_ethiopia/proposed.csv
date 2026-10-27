@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 au.int,6,wikidata,African Union Commission,,301,0 s1.au.int.
 su.edu.et,6,academia;ror,Samara University,central,,
 tourismethiopia.org,6,wikidata,Ministry of Culture and Tourism,central,HttpConnectTimeoutException: HTTP connect timed out,none

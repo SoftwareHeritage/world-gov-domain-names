@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 assemblee-nationale.tg,7,wikidata,National Assembly,central,403,10 mx2expert.hosteur.net.; 20 mx1expert.hosteur.net.
 inseed.tg,7,wikidata;academia,INSEED-TOGO,central,HttpTimeoutException: request timed out,0 mail.inseed.tg.
 minjustg.com,6,wikidata,Ministry of Justice and Legislation (Togo),central,ConnectException,none

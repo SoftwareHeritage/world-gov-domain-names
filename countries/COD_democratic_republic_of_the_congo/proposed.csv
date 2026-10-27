@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 ins.cd,7,wikidata;academia,Institut National de la Statistique,central,ConnectException,none
 minisanterdc.cd,7,wikidata,Ministry of Public Health (Democratic Republic of Congo),central,HttpConnectTimeoutException: HTTP connect timed out,none
 cour-constitutionnelle.cd,6,wikidata,Constitutional Court of the Democratic Republic of the Congo,central,200,0 mail.cour-constitutionnelle.cd.

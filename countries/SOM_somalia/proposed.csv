@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 dns.org.so,7,wikidata;academia,Directorate of National Statistics,central,200,83 route2.mx.cloudflare.net.; 85 route1.mx.cloudflare.net.; 3 route3.mx.cloudflare.net.
 mfa.somaligov.net,6,wikidata,Ministry of Foreign Affairs and International Cooperation of the Federal Republic of Somalia,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mfa.somaligov.net found.,none
 alkitabcenter.so,4,academia,Alkitab Center for Research & Studies,,,

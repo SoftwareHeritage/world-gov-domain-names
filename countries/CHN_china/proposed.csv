@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 en.npc.gov.cn.cdurl.cn,8,wikidata,Standing Committee of the National People's Congress | National People's Congress,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching en.npc.gov.cn.cdurl.cn found.,none
 gov.hnedu.cn,8,wikidata,Hunan Provincial Department of Education,central-1,HttpConnectTimeoutException: HTTP connect timed out,none
 aacm.gov.mo,7,wikidata,Civil Aviation Authority of Macau,central,ConnectException,20 mx2.emailsrv.safp.gov.mo.; 10 mx1.emailsrv.safp.gov.mo.

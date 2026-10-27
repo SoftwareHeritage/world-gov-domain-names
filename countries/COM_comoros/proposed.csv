@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 inseed.km,7,wikidata;academia,INSEED,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail1.comorestelecom.km.
 coursupremecomores.km,6,wikidata,Supreme Court of the Comoros,,302,0 coursupremecomores.km.
 banque-comores.km,4,wikidata,Central Bank of the Comoros,,200,0 banquecomores-km01e.mail.protection.outlook.com.

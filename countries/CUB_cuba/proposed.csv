@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 cubagob.cu,10,un_desa;wikidata,Q116796288 | Council of State of Cuba | UN/DESA national portal,,HttpConnectTimeoutException: HTTP connect timed out,none
 cujae.edu.cu,9,academia;ror,"Polytechnic José Antonio Echeverría | Universidad Tecnológica de La Habana José Antonio Echeverría, Facultad de Arquitectura, Cujae",central,,
 cubaminrex.cu,7,wikidata,Ministry of Foreign Affairs,central,"ProtocolException: Invalid header name ""X-Powered-By """,none

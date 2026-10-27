@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 zasag.mn,10,un_desa;wikidata,Government of Mongolia | UN/DESA national portal,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching zasag.mn found.,20 mx1.email.gov.mn.; 10 mx1.email.gov.mn.; 0 zasag.mn.
 supremecourt.mn,9,wikidata,Supreme Court of Mongolia,central,302,5 mx.mail.mn.; 10 mx2.mail.mn.
 nso.mn,7,wikidata;academia,Mongolia National Statistical Committee,central,301,100 mx1.email.gov.mn.; 100 us2.mx3.mailhostbox.com.; 100 us2.mx2.mailhostbox.com.; 0 nso-mn.mail.protection.outlook.com.; 100 us2.mx1.mailhostbox.com.

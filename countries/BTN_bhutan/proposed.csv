@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 parliament.bt,8,wikidata,Parliament of Bhutan,central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,none
 rub.edu.bt,6,academia;ror,Royal University of Bhutan,central,,
 acc.org.bt,4,wikidata,Anti-Corruption Commission,,ConnectException,10 ALT3.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.

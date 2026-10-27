@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 cikrf.ru,10,wikidata;sopc,Central Election Commission of Russia,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.cikrf.ru.
 government.ru,10,un_desa;wikidata,Government of Russia | UN/DESA national portal,central,HttpConnectTimeoutException: HTTP connect timed out,5 mx4.gov.ru.
 kantiana.ru,9,academia;ror,Botanical Garden of the Baltic Federal University Kant | Immanuel Kant Baltic Federal University,central,,

@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 minfo.ps,7,wikidata,Ministry of Information (State of Palestine),central,SSLHandshakeException: (certificate_expired) PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed,5 minfo.email.gov.ps.
 moa.pna.ps,7,wikidata,Ministry of Agriculture,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching moa.pna.ps found.,5 moa.email.gov.ps.
 mobpla.pna.ps,7,wikidata,Palestinian Land Authority,central,HttpConnectTimeoutException: HTTP connect timed out,none

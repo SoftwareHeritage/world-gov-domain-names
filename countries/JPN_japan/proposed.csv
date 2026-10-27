@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 hosei.ac.jp,9,academia;ror,"Institute of Comparative Economic Studies, Hosei University | Japan Statistics Research Institute, Hosei University",central,,
 jcga.ac.jp,9,wikidata;ror,Japan Coast Guard Academy,central,HttpConnectTimeoutException: HTTP connect timed out,none
 ndmc.ac.jp,9,wikidata;ror,National Defense Medical College,central,ConnectException,none

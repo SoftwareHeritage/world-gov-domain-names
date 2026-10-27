@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 gistda.or.th,7,wikidata,Geo-Informatics and Space Technology Development Agency,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,1 aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 100 gistda-or-th.mail.protection.outlook.com.; 5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.
 royaloffice.th,7,wikidata,Bureau of the Royal Household,central,308,10 mx2.workd.go.th.; 0 mx1.workd.go.th.
 bsru.ac.th,6,academia;ror,Bansomdejchaopraya Rajabhat University,central,,

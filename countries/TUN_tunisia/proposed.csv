@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 affaires-religieuses.tn,7,wikidata,Ministry of Religious Affairs,central,302,5 mx6email.ingw.tn.; 5 mx5email.ingw.tn.
 agriculture.tn,7,wikidata,Ministry of Agriculture,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,50 mx6email.ingw.tn.; 10 mx5email.ingw.tn.
 cnrsm.rnrt.tn,7,academia,Centre National de Recherches en Sciences des Matériaux | National Center for Research in Materials Sciences,central,,

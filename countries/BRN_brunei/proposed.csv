@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 brunet.bn,4,wikidata,Brunei International Airport,,HttpConnectTimeoutException: HTTP connect timed out,10 mail.imail.com.bn.
 ambafrance-bn.org,3,wikidata,"Embassy of France, Bandar Seri Begawan",central,ConnectException,5 mta-gw.infomaniak.ch.
 bandar-seri-begawan.diplo.de,3,wikidata,"Embassy of Germany, Bandar Seri Begawan",central,200,10 mx2.bund.de.; 10 mx1.bund.de.

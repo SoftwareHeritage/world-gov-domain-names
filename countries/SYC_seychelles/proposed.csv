@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 unisey.ac.sc,9,academia;ror,Blue Economy Research Institute | University of Seychelles,central,,
 cbs.sc,7,wikidata,Central Bank of Seychelles,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 cbs-sc.mail.protection.outlook.com.; 10 cbs-sc.mail.protection.outlook.com.
 esa.egov.sc,7,wikidata,Ministry of Industry and Enterprise,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none

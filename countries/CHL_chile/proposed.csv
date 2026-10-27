@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 goretarapaca.gov.cl,8,wikidata,Regional Council of Tarapacá,central-1,403,0 goretarapaca-gov-cl.mail.protection.outlook.com.
 bienesnacionales.cl,7,wikidata,Ministry of National Property | Q5655486,central,301,none
 congreso.cl,7,wikidata,National Congress of Chile,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 congreso-cl.mail.protection.outlook.com.

@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 finances.gouv.cg,8,wikidata,Q138766330,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching finances.gouv.cg found.,10 mail.finances.gouv.cg.
 hydrocarbures.gouv.cg,8,wikidata,Q139836464,,301,100 mx3.mail.ovh.net.; 5 mx2.mail.ovh.net.; 1 mx1.mail.ovh.net.
 postetelecom.gouv.cg,8,wikidata,Q138711324,,200,none

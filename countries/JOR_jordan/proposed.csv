@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 parliament.jo,8,wikidata,Parliament of Jordan,central,ConnectException,none
 amman.diplo.de,6,wikidata,"Embassy of Germany, Amman",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
 cco.gov.jot,6,wikidata,Jordanian Constitutional Court,,ConnectException,none

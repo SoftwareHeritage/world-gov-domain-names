@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 justica.gov.cv,8,wikidata,Ministry of Justice of Cape Verde,central,200,none
 mai.gov.cv,8,wikidata,Ministry of Internal Affairs,central,HttpConnectTimeoutException: HTTP connect timed out,0 mai-gov-cv.mail.protection.outlook.com.
 mesci.gov.cv,8,wikidata,"Ministry of Higher Education, Science and Innovation",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mesci-gov-cv.mail.protection.outlook.com.

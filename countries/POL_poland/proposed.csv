@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 agh.edu.pl,10,academia;linkgraph;ror,AGH University of Science and Technology,central,301,10 smtp.agh.edu.pl.
 bn.org.pl,10,wikidata;directory,National Library of Poland,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 bn-org-pl.mail.protection.outlook.com.
 nbp.pl,10,wikidata;linkgraph;directory,Narodowy Bank Polski,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1c.nbp.pl.; 10 mx1r.nbp.pl.

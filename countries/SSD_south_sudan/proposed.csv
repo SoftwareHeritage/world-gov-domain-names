@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 goss-online.org,10,un_desa;wikidata,Ministry of Foreign Affairs and International Cooperation | UN/DESA national portal,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching goss-online.org found.,none
 mop-rss.org,6,wikidata,Ministry of Petroleum and Mining,central,ConnectException,none
 ssmogei.org,6,wikidata,"Ministry of Education, Science and Technology",central,ConnectException,none

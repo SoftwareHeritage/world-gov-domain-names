@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 altamatematica.it,10,academia;directory,Istituto Nazionale di Alta Matematica Francesco Severi | Ypatia Laboratory for Mathematical Sciences,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
 asi.it,10,wikidata;directory,Italian Space Agency,,ConnectException,0 asi-it.mail.protection.outlook.com.
 camera.it,10,wikidata;linkgraph;directory,Chamber of Deputies of Italy,central,302,10 mail5.camera.it.; 10 mail6.camera.it.

@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 assemblee-nationale.dj,7,wikidata,National Assembly,central,ConnectException,10 mail.assemblee-nationale.dj.
 dised.dj,7,wikidata;academia,DISED,central,ConnectException,none
 banque-centrale.dj,4,wikidata,Central Bank of Djibouti,central,200,10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.

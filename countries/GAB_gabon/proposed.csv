@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 economie-numerique.gouv.ga,8,wikidata,Q141165552,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.economie-numerique.gouv.ga.
 enseignement-superieur.gouv.ga,8,wikidata,Q141161520,central,HttpConnectTimeoutException: HTTP connect timed out,10 mx.enseignement-superieur.gouv.ga.
 fonction-publique.gouv.ga,8,wikidata,Q125907067,,HttpConnectTimeoutException: HTTP connect timed out,10 mx.fonction-publique.gouv.ga.

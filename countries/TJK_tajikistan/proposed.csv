@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 izar.tj,7,wikidata;academia,Rudaki Institute of Language and Literature,,200,none
 maorif.tj,7,wikidata,Ministry of Education and Science of Tajikistan,central,200,10 mail.maorif.tj.
 mort.tj,7,wikidata,Ministry of Defence,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.tajnet.tj.

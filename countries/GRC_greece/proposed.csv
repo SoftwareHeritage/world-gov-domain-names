@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 aade.gr,10,wikidata;linkgraph;directory,General Chemical State Laboratory,,403,0 aade-gr.mail.protection.outlook.com.
 aead.gr,10,wikidata;directory,National Transparency Authority,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,30 mx4.otenet.gr.; 10 mx.otenet.gr.
 areiospagos.gr,10,wikidata;linkgraph;directory,Court of Cassation,central,200,25 mx3.otenet.gr.; 30 mx4.otenet.gr.; 10 mx.otenet.gr.; 15 mx2.otenet.gr.

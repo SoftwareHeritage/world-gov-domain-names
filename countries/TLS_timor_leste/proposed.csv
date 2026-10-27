@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 parlamento.tl,8,wikidata,National Parliament,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.parlamento.tl.
 anpm.tl,4,wikidata,Q124094298,,ConnectException,none
 bancocentral.tl,4,wikidata,Banco Central de Timor-Leste,,200,15 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 15 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.

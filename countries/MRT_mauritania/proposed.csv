@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 ami.mr,7,wikidata,Mauritanian Information Agency | Mauritanian News Agency,,HttpTimeoutException: request timed out,10 ami-mr.mail.protection.outlook.com.
 ansade.mr,7,wikidata;academia,"National Agency for Statistics, Demographic and Economic Analysis",central,200,10 ansade.mr.
 assembleenationale.mr,7,wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,none

@@ -1,4 +1,4 @@
-hostname,score,sources,label,level,http_status,mx
+domain,score,sources,label,level,http_status,mx
 adpolice.gov.ae,8,wikidata,Abu Dhabi Police,,200,10 police1.adpolice.gov.ae.; 15 police2.adpolice.gov.ae.
 almajles.gov.ae,8,wikidata,Federal National Council,central,HttpConnectTimeoutException: HTTP connect timed out,10 mail.almajles.gov.ae.
 fcsa.gov.ae,8,wikidata;academia,Federal Competitiveness and Statistics Authority,central,403,5 mxa-00284c03.gslb.pphosted.com.; 5 mxb-00284c03.gslb.pphosted.com.
