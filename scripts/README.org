@@ -21,8 +21,9 @@ directly under a central root takes that label out of the root's
 subtree; it is never harvested.
 
 Generated per country: =proposed.csv=, =to_curate.csv= (=proposed.csv=
-minus what was decided since, in the columns of =curated.csv=; =bb
-todo= refreshes it offline), =summary.md= and =sources/=.
+minus what was decided since, in the columns of =curated.csv=, a domain
+standing for its subdomains; =bb todo= refreshes it offline),
+=summary.md= and =sources/=.
 
 The harvest has one file per harvested root,
 =sources/harvest/<root>.csv= (one column =subdomain=, apex included):

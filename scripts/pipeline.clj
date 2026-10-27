@@ -915,14 +915,18 @@
 (defn todo-country!
   "Write countries/<c>/to_curate.csv (domain,level,name,kind): the
   rows of proposed.csv no decided or excluded domain covers yet, in
-  the columns of curated.csv, ready to move there. Offline: refreshes
-  the list after a curation, proposed.csv untouched."
+  the columns of curated.csv, ready to move there -- but a row under
+  another one is left out, the decision on the higher domain covering
+  it (cnr.it for its 59 subdomains; proposed.csv lists them all).
+  Offline: refreshes the list after a curation, proposed.csv untouched."
   [country-dir]
   (let [out     (str "countries/" country-dir "/to_curate.csv")
         decided (into (decided-domains) (map first (read-excluded country-dir)))
-        rows    (for [[d level name kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
+        open    (for [[d level name kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
-                  [d (or level "") (todo-name name) (or kind "")])]
+                  [d (or level "") (todo-name name) (or kind "")])
+        listed  (set (map first open))
+        rows    (remove #(some listed (rest (host-suffixes (first %)))) open)]
     (write-csv-file out ["domain" "level" "name" "kind"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " to curate)"))))
 

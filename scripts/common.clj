@@ -197,7 +197,9 @@
                          (for [[registry rs] registries, [d level] rs] [d level registry "" ""]))
         excluded (set (map first excluded))]
     (when-let [[d level] (first (remove #(contains? levels (second %)) rows))]
-      (throw (ex-info (str d ": unknown level '" level "'") {:domain d})))
+      (throw (ex-info (str d (if (str/blank? level) ": no level" (str ": unknown level '" level "'"))
+                           " -- run bb check for every problem and its fix")
+                      {:domain d})))
     (when-let [[d] (first (filter #(contains? excluded (first %)) curated))]
       (throw (ex-info (str d ": both curated and excluded") {:domain d})))
     (->> rows
@@ -236,9 +238,17 @@
 
 (def ^:private confirmed-domains-cache (atom (delay (set (map second (confirmed-rows))))))
 
+(defn- compile-decided-domains []
+  (-> #{}
+      (into (for [c (country-dirs), [d] (read-curated c)] d))
+      (into (for [c (country-dirs), r (registries c), [d] (read-registered c r)] d))))
+
+(def ^:private decided-domains-cache (atom (delay (compile-decided-domains))))
+
 (defn- drop-confirmed-cache! []
   (reset! confirmed-cache (delay (compile-confirmed-rows)))
-  (reset! confirmed-domains-cache (delay (set (map second (confirmed-rows))))))
+  (reset! confirmed-domains-cache (delay (set (map second (confirmed-rows)))))
+  (reset! decided-domains-cache (delay (compile-decided-domains))))
 
 (defn write-registered!
   "Write the [domain level] rows to countries/<c>/sources/<registry>/registered.csv,
@@ -583,6 +593,14 @@
 (defn parallel
   "Return the PARALLEL env var as an integer, default-n when unset."
   [default-n] (env-int "PARALLEL" default-n))
+
+
+(defn decided-domains
+  "The domains of the curated and registered rows of every country, read
+  as they are: unlike confirmed-domains, an unfinished curated row (no
+  level yet) counts and stops nothing. What propose and todo leave out."
+  []
+  @@decided-domains-cache)
 
 (defn confirmed-domains
   "Return the set of every confirmed domain of every country, local rows
