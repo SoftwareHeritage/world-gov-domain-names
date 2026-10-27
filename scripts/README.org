@@ -276,7 +276,7 @@ Score clamped to =[0, 10]=. The two penalties only apply to hosts not
 already known as subnational.
 
 Output: =countries/<c>/proposed.csv=, columns
-=domain,score,sources,label,level=, sorted score desc / domain asc. =level= is =central=, =central-1= (bodies of a
+=domain,level,name,score,sources=, sorted score desc / domain asc. =level= is =central=, =central-1= (bodies of a
 first-level subdivision of the country: Land, state, region,
 province…) or blank when nothing is known yet; hosts attributed to a
 lower tier (city, county, department…) are not written anywhere.
@@ -285,7 +285,7 @@ embassies under their host country) or by an =excluded.csv= domain
 are left out. =bb pipeline probe-proposed= probes them into
 =data/.db=. A registrable domain holding three candidates or more
 gets a row of its own, source =parent= (the best score and the most
-frequent level of its hosts, three of them in the label): confirming
+frequent level of its hosts, three of them in the name): confirming
 it covers them all at once, a university and its laboratories say.
 
 The =level= comes from the Wikidata P1001 jurisdiction captured at

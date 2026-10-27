@@ -759,7 +759,7 @@
       :else "")))
 
 (defn- candidate-row
-  "One [domain score sources label level] row of host from a
+  "One [domain score sources name level] row of host from a
   load-candidate-ctx context. Pure."
   [{:keys [wd-by-host ac-by-host lg-by-host dir-by-host ror-by-host sopc-by-host
            un-portal-host fb-phrases cctld-primary]
@@ -868,7 +868,7 @@
   3)
 
 (defn parent-rows
-  "One [domain score \"parent\" label level] row per registrable domain
+  "One [domain score \"parent\" name level] row per registrable domain
   (common/parent-domain) holding parent-min-hosts candidate rows or more,
   unless it is a candidate itself or a confirmed or excluded domain
   covers it: confirming it covers its hosts at once (a university and
@@ -894,7 +894,7 @@
   "Rank the hosts of a context: every valid hostname a source mentions
   that no confirmed or excluded domain covers, scored and levelled by
   candidate-row, local ones dropped, plus the parent-rows over them.
-  [hostname score sources label level] rows, best scores first. Pure."
+  [domain score sources name level] rows, best scores first. Pure."
   [{:keys [wd-by-host lg-by-host dir-by-host ror-by-host sopc-by-host un-portal-host known excluded] :as ctx}]
   (let [rows (->> (cond-> (-> (set (keys wd-by-host))
                               (into (keys lg-by-host))
@@ -912,12 +912,13 @@
 
 (defn propose-country!
   "Write countries/<c>/proposed.csv
-  (domain,score,sources,label,level): the ranked candidates."
+  (domain,level,name,score,sources): the ranked candidates, the first
+  three columns as in curated.csv."
   [country-dir]
   (let [out  (str "countries/" country-dir "/proposed.csv")
         rows (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))]
-               [h (str sc) src lbl lvl])]
-    (write-csv-file out ["domain" "score" "sources" "label" "level"] rows)
+               [h lvl lbl (str sc) src])]
+    (write-csv-file out ["domain" "level" "name" "score" "sources"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))))
 
 (defn cmd-propose [args] (iter-countries propose-country! args))
