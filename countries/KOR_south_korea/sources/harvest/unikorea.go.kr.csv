@@ -1,29 +1,29 @@
-subdomain,http_status,mx
-dialogue.unikorea.go.kr,200,
-gdb.unikorea.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-hairo.unikorea.go.kr,200,
-hanaportal.unikorea.go.kr,403,
-infra.unikorea.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-istk.unikorea.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kohp.unikorea.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-library.unikorea.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-reunion.unikorea.go.kr,302,
-subreunion.unikorea.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-udbs.unikorea.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-unibook.unikorea.go.kr,403,
-unifuture.unikorea.go.kr,200,
-unihr.unikorea.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-unikorea.go.kr,403,5 webmail.unikorea.go.kr.; 0 spam.unikorea.go.kr.
-unitv.unikorea.go.kr,200,
-vod.unikorea.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-webfilter.unikorea.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-webmail.unikorea.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-wft.unikorea.go.kr,200,
-www.hanaportal.unikorea.go.kr,ConnectException > UnresolvedAddressException,
-www.infra.unikorea.go.kr,ConnectException > UnresolvedAddressException,
-www.istk.unikorea.go.kr,ConnectException > UnresolvedAddressException,
-www.reunion.unikorea.go.kr,ConnectException > UnresolvedAddressException,
-www.unifuture.unikorea.go.kr,ConnectException > UnresolvedAddressException,
-www.unikorea.go.kr,403,none
-www.vod.unikorea.go.kr,ConnectException > UnresolvedAddressException,
-www.wft.unikorea.go.kr,ConnectException > UnresolvedAddressException,
+subdomain
+dialogue.unikorea.go.kr
+gdb.unikorea.go.kr
+hairo.unikorea.go.kr
+hanaportal.unikorea.go.kr
+infra.unikorea.go.kr
+istk.unikorea.go.kr
+kohp.unikorea.go.kr
+library.unikorea.go.kr
+reunion.unikorea.go.kr
+subreunion.unikorea.go.kr
+udbs.unikorea.go.kr
+unibook.unikorea.go.kr
+unifuture.unikorea.go.kr
+unihr.unikorea.go.kr
+unikorea.go.kr
+unitv.unikorea.go.kr
+vod.unikorea.go.kr
+webfilter.unikorea.go.kr
+webmail.unikorea.go.kr
+wft.unikorea.go.kr
+www.hanaportal.unikorea.go.kr
+www.infra.unikorea.go.kr
+www.istk.unikorea.go.kr
+www.reunion.unikorea.go.kr
+www.unifuture.unikorea.go.kr
+www.unikorea.go.kr
+www.vod.unikorea.go.kr
+www.wft.unikorea.go.kr

@@ -1,103 +1,103 @@
-subdomain,http_status,mx
-app-proxy.stortinget.no,ConnectException > UnresolvedAddressException,
-autodiscover.stortinget.no,302,
-booking.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-cag.stortinget.no,ConnectException > UnresolvedAddressException,
-corsapi.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-data.stortinget.no,200,
-dialin.stortinget.no,ConnectException > UnresolvedAddressException,
-dl.outlook.stortinget.no,302,
-dokumentlager-adm.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-einnsyn.stortinget.no,200,
-ephorteapi.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-epifindapi.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-f.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-fellesperson.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-fellessok.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-footprints.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-fotoweb01.stortinget.no,ConnectException > UnresolvedAddressException,
-grafisk.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-guest.stortinget.no,ConnectException > NoRouteToHostException: Host is unreachable,
-hls.stortinget.no,502,
-hoeringer.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-identityserver.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-imap.stortinget.no,ConnectException > UnresolvedAddressException,
-intouch.stortinget.no,SSLHandshakeException > CertificateException: No subject alternative DNS name matching intouch.stortinget.no found.,
-intranett.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-logginn.stortinget.no,ConnectException > UnresolvedAddressException,
-login.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-lyncdiscover.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-lyncweb.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mediearkiv.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mediearkivintern.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mediearkivressurs.stortinget.no,302,
-meet.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mobil.stortinget.no,ConnectException > UnresolvedAddressException,
-mta-sts.stortinget.no,403,
-outlook.stortinget.no,302,
-person.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-post.stortinget.no,ConnectException > UnresolvedAddressException,
-prodephorte6web.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-prodfootprints.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-prodlyncwac01.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsapp01.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsapp02.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsapp1.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsapp2.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdscb.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdscb01.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdscb02.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsgw02.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsgw1.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsgw2.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsweb1.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdsweb2.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdswebgw01.stortinget.no,ConnectException > UnresolvedAddressException,
-prodrdswebgw02.stortinget.no,ConnectException > UnresolvedAddressException,
-prodskjema01.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-rds.stortinget.no,ConnectException > UnresolvedAddressException,
-rdsgw.stortinget.no,ConnectException > UnresolvedAddressException,
-remote.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-salapp.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-sbc.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-sidaarkiv.preprod.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-sip.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-sipexternal.stortinget.no,ConnectException > UnresolvedAddressException,
-smtp.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-snapshots.stortinget.no,404,
-sndpta01.stortinget.no,ConnectException > UnresolvedAddressException,
-sok.stortinget.no,ConnectException > UnresolvedAddressException,
-spoersmaal.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-storarkiv.preprod.stortinget.no,ConnectException > UnresolvedAddressException,
-storarkiv.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-stortinget.no,200,0 stortinget-no.mail.protection.outlook.com.
-stortingsinfo.stortinget.no,200,
-stortingstorget.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-stortingsvalg.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-styringsportalen.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-svar.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-testbooking.stortinget.no,ConnectException > UnresolvedAddressException,
-testsok.stortinget.no,ConnectException > UnresolvedAddressException,
-timeregit.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-tv.stortinget.no,ConnectException > UnresolvedAddressException,
-tvcom.stortinget.no,200,
-undervisning.preprod.stortinget.no,200,
-undervisning.stortinget.no,200,
-undervisning.test.stortinget.no,200,
-valgeterditt.stortinget.no,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-valgportalen.preprod.stortinget.no,405,
-valgportalen.stortinget.no,405,
-valgportalen.test.stortinget.no,405,
-video.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-wac.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-webconf.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-webextprodskypefe.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.cag.stortinget.no,ConnectException > UnresolvedAddressException,
-www.guest.stortinget.no,ConnectException > UnresolvedAddressException,
-www.lyncweb.stortinget.no,ConnectException > UnresolvedAddressException,
-www.mta-sts.stortinget.no,ConnectException > UnresolvedAddressException,
-www.sip.stortinget.no,ConnectException > UnresolvedAddressException,
-www.sok.stortinget.no,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.stortinget.no,200,0 stortinget-no.mail.protection.outlook.com.
-www.svar.stortinget.no,ConnectException > UnresolvedAddressException,
-www.tv.stortinget.no,ConnectException > UnresolvedAddressException,
+subdomain
+app-proxy.stortinget.no
+autodiscover.stortinget.no
+booking.stortinget.no
+cag.stortinget.no
+corsapi.stortinget.no
+data.stortinget.no
+dialin.stortinget.no
+dl.outlook.stortinget.no
+dokumentlager-adm.stortinget.no
+einnsyn.stortinget.no
+ephorteapi.stortinget.no
+epifindapi.stortinget.no
+f.stortinget.no
+fellesperson.stortinget.no
+fellessok.stortinget.no
+footprints.stortinget.no
+fotoweb01.stortinget.no
+grafisk.stortinget.no
+guest.stortinget.no
+hls.stortinget.no
+hoeringer.stortinget.no
+identityserver.stortinget.no
+imap.stortinget.no
+intouch.stortinget.no
+intranett.stortinget.no
+logginn.stortinget.no
+login.stortinget.no
+lyncdiscover.stortinget.no
+lyncweb.stortinget.no
+mediearkiv.stortinget.no
+mediearkivintern.stortinget.no
+mediearkivressurs.stortinget.no
+meet.stortinget.no
+mobil.stortinget.no
+mta-sts.stortinget.no
+outlook.stortinget.no
+person.stortinget.no
+post.stortinget.no
+prodephorte6web.stortinget.no
+prodfootprints.stortinget.no
+prodlyncwac01.stortinget.no
+prodrdsapp01.stortinget.no
+prodrdsapp02.stortinget.no
+prodrdsapp1.stortinget.no
+prodrdsapp2.stortinget.no
+prodrdscb.stortinget.no
+prodrdscb01.stortinget.no
+prodrdscb02.stortinget.no
+prodrdsgw02.stortinget.no
+prodrdsgw1.stortinget.no
+prodrdsgw2.stortinget.no
+prodrdsweb1.stortinget.no
+prodrdsweb2.stortinget.no
+prodrdswebgw01.stortinget.no
+prodrdswebgw02.stortinget.no
+prodskjema01.stortinget.no
+rds.stortinget.no
+rdsgw.stortinget.no
+remote.stortinget.no
+salapp.stortinget.no
+sbc.stortinget.no
+sidaarkiv.preprod.stortinget.no
+sip.stortinget.no
+sipexternal.stortinget.no
+smtp.stortinget.no
+snapshots.stortinget.no
+sndpta01.stortinget.no
+sok.stortinget.no
+spoersmaal.stortinget.no
+storarkiv.preprod.stortinget.no
+storarkiv.stortinget.no
+stortinget.no
+stortingsinfo.stortinget.no
+stortingstorget.stortinget.no
+stortingsvalg.stortinget.no
+styringsportalen.stortinget.no
+svar.stortinget.no
+testbooking.stortinget.no
+testsok.stortinget.no
+timeregit.stortinget.no
+tv.stortinget.no
+tvcom.stortinget.no
+undervisning.preprod.stortinget.no
+undervisning.stortinget.no
+undervisning.test.stortinget.no
+valgeterditt.stortinget.no
+valgportalen.preprod.stortinget.no
+valgportalen.stortinget.no
+valgportalen.test.stortinget.no
+video.stortinget.no
+wac.stortinget.no
+webconf.stortinget.no
+webextprodskypefe.stortinget.no
+www.cag.stortinget.no
+www.guest.stortinget.no
+www.lyncweb.stortinget.no
+www.mta-sts.stortinget.no
+www.sip.stortinget.no
+www.sok.stortinget.no
+www.stortinget.no
+www.svar.stortinget.no
+www.tv.stortinget.no

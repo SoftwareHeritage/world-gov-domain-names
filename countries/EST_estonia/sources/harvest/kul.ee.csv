@@ -1,40 +1,40 @@
-subdomain,http_status,mx
-autodiscover.kul.ee,ConnectException > ClosedChannelException,
-autodiscover.kular.kul.ee,ConnectException > UnresolvedAddressException,
-digiveeb.kul.ee,ConnectException > UnresolvedAddressException,
-dmz.kul.ee,ConnectException > UnresolvedAddressException,
-dokreg.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-eits.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-git.kul.ee,ConnectException > UnresolvedAddressException,
-intra.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-ipam.dmz.kul.ee,ConnectException > UnresolvedAddressException,
-kul.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
-kular.kul.ee,ConnectException > ClosedChannelException,
-kule.kul.ee,ConnectException > UnresolvedAddressException,
-kultuuriseltsid.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kuu.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-lync.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-lyncdiscover.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-m2.toetused.kul.ee,404,
-mail.kul.ee,ConnectException > UnresolvedAddressException,
-maile.kul.ee,ConnectException > UnresolvedAddressException,
-muuseumiauhinnad.kul.ee,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,
-parand.kul.ee,ConnectException > UnresolvedAddressException,
-redmine.kul.ee,ConnectException > UnresolvedAddressException,
-rpis.kul.ee,404,
-selectzero.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-sip.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-sise.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-toetused-id.kul.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching toetused-id.kul.ee found.,
-toetused.kul.ee,IOException > EOFException: EOF reached while reading,
-tpis.kul.ee,403,
-vana.kul.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching vana.kul.ee found.,
-vp.kul.ee,SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure,
-wd.kul.ee,200,
-web.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.kul.ee,200,
-www.kultuuriseltsid.kul.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.maile.kul.ee,ConnectException > UnresolvedAddressException,
-www.toetused.kul.ee,ConnectException > UnresolvedAddressException,
-www.wd.kul.ee,ConnectException > UnresolvedAddressException,
-xn--prand-gra.kul.ee,ConnectException > UnresolvedAddressException,
+subdomain
+autodiscover.kul.ee
+autodiscover.kular.kul.ee
+digiveeb.kul.ee
+dmz.kul.ee
+dokreg.kul.ee
+eits.kul.ee
+git.kul.ee
+intra.kul.ee
+ipam.dmz.kul.ee
+kul.ee
+kular.kul.ee
+kule.kul.ee
+kultuuriseltsid.kul.ee
+kuu.kul.ee
+lync.kul.ee
+lyncdiscover.kul.ee
+m2.toetused.kul.ee
+mail.kul.ee
+maile.kul.ee
+muuseumiauhinnad.kul.ee
+parand.kul.ee
+redmine.kul.ee
+rpis.kul.ee
+selectzero.kul.ee
+sip.kul.ee
+sise.kul.ee
+toetused-id.kul.ee
+toetused.kul.ee
+tpis.kul.ee
+vana.kul.ee
+vp.kul.ee
+wd.kul.ee
+web.kul.ee
+www.kul.ee
+www.kultuuriseltsid.kul.ee
+www.maile.kul.ee
+www.toetused.kul.ee
+www.wd.kul.ee
+xn--prand-gra.kul.ee

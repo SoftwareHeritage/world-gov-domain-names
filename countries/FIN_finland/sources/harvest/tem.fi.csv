@@ -1,9 +1,9 @@
-subdomain,http_status,mx
-enterpriseregistration.tem.fi,ConnectException > UnresolvedAddressException,
-lyncdiscover.tem.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-qa.tem.fi,403,
-sip.tem.fi,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-tem.fi,302,none
-tyovelvollisuus.tem.fi,ConnectException > UnresolvedAddressException,
-www.tem.fi,302,none
-yta.tem.fi,ConnectException > UnresolvedAddressException,
+subdomain
+enterpriseregistration.tem.fi
+lyncdiscover.tem.fi
+qa.tem.fi
+sip.tem.fi
+tem.fi
+tyovelvollisuus.tem.fi
+www.tem.fi
+yta.tem.fi

@@ -1,7 +1,7 @@
-domain,score,sources,label,level,http_status,mx
-mofaic.gov.ae,7,wikidata,"Embassy of the United Arab Emirates, Malé",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
-citizen.egov.mv,6,un_desa,UN/DESA national portal,,200,none
-ganairport.com,3,wikidata,Gan International Airport,,403,10 mailstore1.secureserver.net.; 0 smtp.secureserver.net.
-ium.edu.mv,3,ror,Islamic University of Maldives,central,,
-mnu.edu.mv,3,ror,Maldives National University,central,,
-policylabmv.com,3,academia,Public Policy Lab,,,
+domain,score,sources,label,level
+mofaic.gov.ae,7,wikidata,"Embassy of the United Arab Emirates, Malé",central
+citizen.egov.mv,6,un_desa,UN/DESA national portal,
+ganairport.com,3,wikidata,Gan International Airport,
+ium.edu.mv,3,ror,Islamic University of Maldives,central
+mnu.edu.mv,3,ror,Maldives National University,central
+policylabmv.com,3,academia,Public Policy Lab,

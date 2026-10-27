@@ -1,32 +1,32 @@
-domain,score,sources,label,level,http_status,mx
-bahrain.bh,6,un_desa,UN/DESA national portal,,301,10 inbound-smtp.eu-west-1.amazonaws.com.
-uob.edu.bh,6,academia;ror,University of Bahrain,central,,
-bna.bh,4,wikidata,Bahrain News Agency,,405,none
-btea.bh,4,wikidata,Bahrain Tourism and Exhibitions Authority,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching btea.bh found.,0 btea-bh.mail.protection.outlook.com.
-lmra.bh,4,wikidata,Labour Market Regulatory Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
-mumtalakat.bh,4,wikidata,Mumtalakat Holding Company,,301,10 eu-smtp-inbound-2.mimecast.com.; 10 eu-smtp-inbound-1.mimecast.com.
-nuwab.bh,4,wikidata,Council of Representatives,central,ConnectException,0 nuwab-bh.mail.protection.outlook.com.
-qaa.edu.bh,4,wikidata,Quality Assurance Authority for Education and Training,,HttpConnectTimeoutException: HTTP connect timed out,20 qaa-edu-bh.mail.protection.outlook.com.
-sjc.bh,4,wikidata,Supreme Judicial Council,central,HttpConnectTimeoutException: HTTP connect timed out,0 sjc-bh.mail.protection.outlook.com.
-sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Manama",central,ConnectException,none
-tra.org.bh,4,wikidata,Telecommunications Regulatory Authority of Bahrain,,403,10 tra-org-bh.mail.protection.outlook.com.
-agu.edu.bh,3,ror,Arabian Gulf University,central,,
-ahlia.edu.bh,3,ror,Ahlia University,central,,
-aou.org.bh,3,ror,Arab Open University,central,,
-asu.edu.bh,3,ror,Applied Science University,central,,
-aubh.edu.bh,3,ror,American University of Bahrain,central,,
-bahrain.mid.ru,3,wikidata,embassy of Russia to Bahrain,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-bahrainedb.com,3,wikidata,Bahrain Economic Development Board,,405,20 mailrelaya2.bahrainedb.com.; 0 bahrainedb-com.mail.protection.outlook.com.; 10 mailrelaya1.bahrainedb.com.
-bapcoenergies.com,3,wikidata,Bapco Energies,,302,0 bapcoenergies-com.mail.protection.outlook.com.
-bh.ambafrance.org,3,wikidata,"Embassy of France, Manama",central,301,none
-bh.mofa.pna.ps,3,wikidata,"Embassy of Palestine, Manama",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-delmon.edu.bh,3,ror,Delmon University for Science & Technology,central,,
-eub.edu.bh,3,ror,Euro University of Bahrain,central,,
-ku.edu.bh,3,ror,Kingdom University,central,,
-manama.diplo.de,3,wikidata,"Embassy of Germany, Manama",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-polytechnic.bh,3,ror,Bahrain Polytechnic,central,,
-ruw.edu.bh,3,ror,Royal University for Women,central,,
-sudanimanama.com,3,wikidata,embassy of Sudan in Bahrain,central,ConnectException,none
-ucb.edu.bh,3,ror,University College of Bahrain,central,,
-utb.edu.bh,3,ror,University of Technology Bahrain,central,,
-rcsi-mub.com,2,ror,Royal College of Surgeons in Ireland - Bahrain,central,,
+domain,score,sources,label,level
+bahrain.bh,6,un_desa,UN/DESA national portal,
+uob.edu.bh,6,academia;ror,University of Bahrain,central
+bna.bh,4,wikidata,Bahrain News Agency,
+btea.bh,4,wikidata,Bahrain Tourism and Exhibitions Authority,
+lmra.bh,4,wikidata,Labour Market Regulatory Authority,
+mumtalakat.bh,4,wikidata,Mumtalakat Holding Company,
+nuwab.bh,4,wikidata,Council of Representatives,central
+qaa.edu.bh,4,wikidata,Quality Assurance Authority for Education and Training,
+sjc.bh,4,wikidata,Supreme Judicial Council,central
+sp.mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Manama",central
+tra.org.bh,4,wikidata,Telecommunications Regulatory Authority of Bahrain,
+agu.edu.bh,3,ror,Arabian Gulf University,central
+ahlia.edu.bh,3,ror,Ahlia University,central
+aou.org.bh,3,ror,Arab Open University,central
+asu.edu.bh,3,ror,Applied Science University,central
+aubh.edu.bh,3,ror,American University of Bahrain,central
+bahrain.mid.ru,3,wikidata,embassy of Russia to Bahrain,central
+bahrainedb.com,3,wikidata,Bahrain Economic Development Board,
+bapcoenergies.com,3,wikidata,Bapco Energies,
+bh.ambafrance.org,3,wikidata,"Embassy of France, Manama",central
+bh.mofa.pna.ps,3,wikidata,"Embassy of Palestine, Manama",central
+delmon.edu.bh,3,ror,Delmon University for Science & Technology,central
+eub.edu.bh,3,ror,Euro University of Bahrain,central
+ku.edu.bh,3,ror,Kingdom University,central
+manama.diplo.de,3,wikidata,"Embassy of Germany, Manama",central
+polytechnic.bh,3,ror,Bahrain Polytechnic,central
+ruw.edu.bh,3,ror,Royal University for Women,central
+sudanimanama.com,3,wikidata,embassy of Sudan in Bahrain,central
+ucb.edu.bh,3,ror,University College of Bahrain,central
+utb.edu.bh,3,ror,University of Technology Bahrain,central
+rcsi-mub.com,2,ror,Royal College of Surgeons in Ireland - Bahrain,central

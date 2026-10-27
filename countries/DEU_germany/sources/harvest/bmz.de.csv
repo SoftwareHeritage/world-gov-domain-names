@@ -1,40 +1,40 @@
-subdomain,http_status,mx
-bmz.de,301,10 mail2.babiel.net.
-checkdeinewelt-stage.bmz.de,ConnectException > UnresolvedAddressException,
-cms.bmz.de,ConnectException > UnresolvedAddressException,
-darum.bmz.de,301,
-einewelt-quiz-stage.bmz.de,ConnectException > UnresolvedAddressException,
-event.bmz.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-ghpc.bmz.de,ConnectException > UnresolvedAddressException,
-gold-forum.bmz.de,200,
-grde-stage.bmz.de,ConnectException > UnresolvedAddressException,
-health-stage.bmz.de,ConnectException > UnresolvedAddressException,
-health.bmz.de,200,
-iati-stage.bmz.de,ConnectException > UnresolvedAddressException,
-iati.bmz.de,302,
-kinderseite-stage.bmz.de,ConnectException > UnresolvedAddressException,
-lms.bmz.de,401,
-mailout.bmz.de,SSLHandshakeException > CertificateException: No subject alternative DNS name matching mailout.bmz.de found.,
-meet.bmz.de,403,
-motiontools.bmz.de,ConnectException > UnresolvedAddressException,
-newsletteradmin.bmz.de,ConnectException > UnresolvedAddressException,
-piwik.bmz.de,301,
-pixxio.bmz.de,ConnectException > UnresolvedAddressException,
-preview.bmz.de,302,
-religionsfreiheit-stage.bmz.de,ConnectException > UnresolvedAddressException,
-religionsfreiheit.bmz.de,404,
-rue-stage.bmz.de,ConnectException > UnresolvedAddressException,
-rue.bmz.de,200,
-sitemanager.bmz.de,301,
-stage.bmz.de,ConnectException > UnresolvedAddressException,
-statistik.bmz.de,200,
-stream.bmz.de,403,
-studio.bmz.de,302,
-teamwork.bmz.de,200,
-textilkampagne-stage.bmz.de,ConnectException > UnresolvedAddressException,
-turn.bmz.de,HttpTimeoutException: request timed out,
-umfrage.bmz.de,200,
-veranstaltung.bmz.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-wahlkreisauswertung.bmz.de,302,
-www.bmz.de,301,none
-www.health.bmz.de,SSLHandshakeException > CertificateException: No subject alternative DNS name matching www.health.bmz.de found.,
+subdomain
+bmz.de
+checkdeinewelt-stage.bmz.de
+cms.bmz.de
+darum.bmz.de
+einewelt-quiz-stage.bmz.de
+event.bmz.de
+ghpc.bmz.de
+gold-forum.bmz.de
+grde-stage.bmz.de
+health-stage.bmz.de
+health.bmz.de
+iati-stage.bmz.de
+iati.bmz.de
+kinderseite-stage.bmz.de
+lms.bmz.de
+mailout.bmz.de
+meet.bmz.de
+motiontools.bmz.de
+newsletteradmin.bmz.de
+piwik.bmz.de
+pixxio.bmz.de
+preview.bmz.de
+religionsfreiheit-stage.bmz.de
+religionsfreiheit.bmz.de
+rue-stage.bmz.de
+rue.bmz.de
+sitemanager.bmz.de
+stage.bmz.de
+statistik.bmz.de
+stream.bmz.de
+studio.bmz.de
+teamwork.bmz.de
+textilkampagne-stage.bmz.de
+turn.bmz.de
+umfrage.bmz.de
+veranstaltung.bmz.de
+wahlkreisauswertung.bmz.de
+www.bmz.de
+www.health.bmz.de

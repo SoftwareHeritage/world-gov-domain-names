@@ -1,27 +1,27 @@
-domain,score,sources,label,level,http_status,mx
-insbu.bi,7,wikidata;academia,National Institute of Statistics of Burundi,central,200,0 insbu.bi.
-minisante.bi,7,wikidata,Ministry of Public Health of Burundi,central,200,none
-burundistats.org,6,wikidata;academia,Burundi Institute of Statistics and Economic Studies,,200,0 _dc-mx.50d48d5f2d41.burundistats.org.
-ub.edu.bi,6,academia;ror,Université du Burundi,central,,
-assemblee.bi,4,wikidata,National Assembly,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
-brb.bi,4,wikidata,Bank of the Republic of Burundi,,ConnectException: Host is unreachable,0 mail.brb.bi.
-ceniburundi.bi,4,wikidata,Q21008237,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
-igebu.bi,4,wikidata,Institut Géographique du Burundi,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching igebu.bi found.,none
-senat.bi,4,wikidata,Senate,central,HttpConnectTimeoutException: HTTP connect timed out,dig error
-bcu.edu.bi,3,ror,Bujumbura Christian University,central,,
-bi.ambafrance.org,3,wikidata,"Embassy of France, Bujumbura",central,301,none
-bujumbura.diplo.de,3,wikidata,"Embassy of Germany, Bujumbura",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-burundi.mid.ru,3,wikidata,embassy of Russia in Burundi,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Burundi,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-en.ulbu.bi,3,ror,Light University of Bujumbur,central,,
-ena.bi,3,ror,École Normale d'Administration,central,,
-ens.edu.bi,3,ror,École Normale Supérieure,central,,
-hau.bi,3,ror,Hope Africa University,central,,
-lta.iwlearn.org,3,wikidata,Lake Tanganyika Authority,,HttpConnectTimeoutException: HTTP connect timed out,none
-nationallibraryofburundi.org,3,wikidata,National Library of Burundi,,HttpConnectTimeoutException: HTTP connect timed out,none
-ugl.bi,3,ror,Université des Grands Lacs,central,,
-ult.bi,3,ror,Université du Lac Tanganyika,central,,
-univ-ngozi.bi,3,ror,University of Ngozi,central,,
-upg.edu.bi,3,ror,Université Polytechnique de Gitega,central,,
-upi.edu.bi,3,ror,Université Polytechnique Intégrée,central,,
-easu-burundi.com,2,ror,East Africa Star University,central,,
+domain,score,sources,label,level
+insbu.bi,7,wikidata;academia,National Institute of Statistics of Burundi,central
+minisante.bi,7,wikidata,Ministry of Public Health of Burundi,central
+burundistats.org,6,wikidata;academia,Burundi Institute of Statistics and Economic Studies,
+ub.edu.bi,6,academia;ror,Université du Burundi,central
+assemblee.bi,4,wikidata,National Assembly,central
+brb.bi,4,wikidata,Bank of the Republic of Burundi,
+ceniburundi.bi,4,wikidata,Q21008237,central
+igebu.bi,4,wikidata,Institut Géographique du Burundi,
+senat.bi,4,wikidata,Senate,central
+bcu.edu.bi,3,ror,Bujumbura Christian University,central
+bi.ambafrance.org,3,wikidata,"Embassy of France, Bujumbura",central
+bujumbura.diplo.de,3,wikidata,"Embassy of Germany, Bujumbura",central
+burundi.mid.ru,3,wikidata,embassy of Russia in Burundi,central
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Burundi,
+en.ulbu.bi,3,ror,Light University of Bujumbur,central
+ena.bi,3,ror,École Normale d'Administration,central
+ens.edu.bi,3,ror,École Normale Supérieure,central
+hau.bi,3,ror,Hope Africa University,central
+lta.iwlearn.org,3,wikidata,Lake Tanganyika Authority,
+nationallibraryofburundi.org,3,wikidata,National Library of Burundi,
+ugl.bi,3,ror,Université des Grands Lacs,central
+ult.bi,3,ror,Université du Lac Tanganyika,central
+univ-ngozi.bi,3,ror,University of Ngozi,central
+upg.edu.bi,3,ror,Université Polytechnique de Gitega,central
+upi.edu.bi,3,ror,Université Polytechnique Intégrée,central
+easu-burundi.com,2,ror,East Africa Star University,central

@@ -1,84 +1,84 @@
-domain,score,sources,label,level,http_status,mx
-asambleanacionalvenezuela.org,6,wikidata,National Assembly | National Assembly  of Venezuela,central,301,none
-centroamericaribeschp.com,6,wikidata,Piarist province Central America- Caribbean,,400,none
-dominicoshispania.org,6,wikidata,Province of Hispania of the Order of Preachers,,301,105 mxbackup.mad.interhost.com.; 100 correo.dominicos.org.
-gobiernoenlinea.ve,6,un_desa,UN/DESA national portal,,ConnectException,none
-ucla.edu.ve,6,academia;ror,Universidad Centroccidental Lisandro Alvarado,central,,
-ucv.ve,6,academia;ror,Central University of Venezuela,central,,
-ula.ve,6,academia;ror,University of the Andes,central,,
-una.edu.ve,6,academia;ror,Universidad Nacional Abierta (Venezuela),central,,
-usb.ve,6,academia;ror,Simón Bolívar University,central,,
-inia.gov.ve,5,wikidata,Instituto Nacional de Investigaciones Agricolas,,HttpConnectTimeoutException: HTTP connect timed out,none
-ivss.gov.ve,5,wikidata,Instituto Venezolano de los Seguros Sociales,,HttpConnectTimeoutException: HTTP connect timed out,10 correo.ivss.gov.ve.; 20 relay.ivss.gob.ve.; 30 correoh.ivss.gov.ve.
-tsjlegitimo.org,5,wikidata,Supreme Tribunal of Justice of Venezuela in exile,central,200,10 alltheemails.com.
-udo.education,5,academia;ror,Universidad de Oriente,central,,
-bcv.org.ve,4,wikidata,Central Bank of Venezuela,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.bcv.org.ve.; 20 correo.bcv.org.ve.; 30 mail-mbo.bcv.org.ve.
-botanica.ciens.ula.ve,4,academia,Botanical Garden of Mérida,,,
-col.luz.edu.ve,4,academia,Universidad del Zulia Núcleo Costa Oriental del Lago,central,,
-dgim.mil.ve,4,wikidata,Dirección de Inteligencia Militar,,HttpConnectTimeoutException: HTTP connect timed out,none
-embajada-guineaecuatorial.com.ve,4,wikidata,embassy of Equatorial Guinea in Venezuela,central,200,0 mail.embajada-guineaecuatorial.com.ve.; 20 mx1.embajada-guineaecuatorial.com.ve.
-gonzalopiconfebres.human.ula.ve,4,academia,"Instituto de Investigaciones Literarias ""Gonzalo Picón Febres""",,,
-grupovitasana.com.ve,4,academia,Grupo Vitasana Medical Center,,,
-guardia.mil.ve,4,wikidata,Bolivarian National Guard,,ConnectException: Host is unreachable,none
-luz.edu.ve,4,academia,University of Zulia,central,,
-uc.edu.ve,4,academia,University of Carabobo,central,,
-ulac.edu.ve,4,academia,Q136745144,central,,
-unefm.edu.ve,4,academia,Universidad Francisco de Miranda,central,,
-unellez.edu.ve,4,academia,Universidad Nacional Experimental de los Llanos Occidentales Ezequiel Zamora,central,,
-unem.edu.ve,4,academia,Universidad Nacional Experimental del Magisterio Samuel Robinson,central,,
-uptjaa.org.ve,4,academia,Universidad Politécnica Territorial José Antonio Anzoátegui,central,,
-ambassadehaitivenezuela.org,3,wikidata,embassy of Haiti in Venezuela,central,ConnectException,none
-caracas.diplo.de,3,wikidata,"Embassy of Germany, Caracas",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
-caracas.embassy.qa,3,wikidata,embassy of Qatar in Venezuela,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-caracas.mae.ro,3,wikidata,embassy of Romania in Venezuela,central,503,none
-cienciasbiomedicas.com,3,academia,Academic Center of Biomedical Sciences of Venezuela,,,
-consecomercio.org,3,wikidata,Q5783627,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching consecomercio.org found.,0 mail.consecomercio.org.; 20 mx1.consecomercio.org.
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Venezuela,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-ekobius.org,3,academia,Ekobius International,,,
-emb-abjasia.com,3,wikidata,"Embassy of Abkhazia, Caracas",central,301,none
-enahp.cidge.org.ve,3,ror,Escuela Nacional de Administración y Hacienda Pública - Instituto Universitario de Tecnología,central,,
-iunav.edu.ve,3,ror,Universidad Adventista de Venezuela,central,,
-iupg.com.ve,3,ror,Instituto Universitario de Profesiones Gerenciales,central,,
-lauicom.com,3,academia,Universidad Internacional de las Comunicaciones,central,,
-nigerianembassycaracas.org,3,wikidata,embassy of Nigeria in Venezuela,central,503,0 nigerianembassycaracas.org.
-portal.unitec.edu.ve,3,ror,Universidad Tecnológica del Centro,central,,
-psm.edu.ve,3,ror,Instituto Universitario Politécnico Santiago Mariño,central,,
-santarosa.edu.ve,3,ror,Pontificia Universidad Católica Santa Rosa,central,,
-uam.edu.ve,3,ror,Universidad Arturo Michelena,central,,
-uba.edu.ve,3,ror,Universidad Bicentenaria de Aragua,central,,
-ucab.edu.ve,3,ror,Universidad Católica Andrés Bello,central,,
-ucat.edu.ve,3,ror,Universidad Católica del Táchira,central,,
-uft.edu.ve,3,ror,Universidad Fermín Toro,central,,
-ujap.edu.ve,3,ror,Universidad José Antonio Páez,central,,
-ujgh.edu.ve,3,ror,Universidad Dr. José Gregorio Hernández,central,,
-uma.edu.ve,3,ror,Universidad Monteávila,central,,
-umc.edu.ve,3,ror,Universidad Nacional Experimental Marítima del Caribe,central,,
-une.edu.ve,3,ror,Universidad Nueva Esparta,central,,
-unearte.edu.ve,3,ror,Universidad Nacional Experimental de las Artes,central,,
-unefa.edu.ve,3,ror,Universidad Nacional Experimental Politécnica de la Fuerza Armada Bolivariana,central,,
-uneg.edu.ve,3,ror,Universidad Nacional Experimental de Guayana,central,,
-unerg.edu.ve,3,ror,Universidad Nacional Experimental de los Llanos Centrales Rómulo Gallegos,central,,
-unermb.web.ve,3,ror,Universidad Nacional Experimental Rafael María Baralt,central,,
-unes.com.ve,3,ror,Universidad Nacional Experimental de la Seguridad,central,,
-unesur.edu.ve,3,ror,Universidad Nacional Experimental Sur del Lago Jesús María Semprum,central,,
-unet.edu.ve,3,ror,Universidad Nacional Experimental del Táchira,central,,
-unexpo.edu.ve,3,ror,Universidad Nacional Experimental Politécnica Antonio José de Sucre,central,,
-uney.com.ve,3,ror,Universidad Nacional Experimental del Yaracuy,central,,
-unica.edu.ve,3,ror,Universidad Católica Cecilio Acosta,central,,
-unihumboldt.edu.ve,3,ror,Universidad Alejandro de Humboldt,central,,
-unimar.edu.ve,3,ror,Universidad de Margarita,central,,
-uny.edu.ve,3,ror,Universidad Yacambú,central,,
-upel.edu.ve,3,ror,Universidad Pedagógica Experimental Libertador,central,,
-uptvallesdeltuy.edu.ve,3,ror,Universidad Politécnica Territorial de los Valles del Tuy,central,,
-usm.edu.ve,3,ror,Universidad Santa María,central,,
-uvm.edu.ve,3,ror,Universidad Valle del Momboy,central,,
-ve.ambafrance.org,3,wikidata,"Embassy of France, Caracas",central,301,none
-venezuela.mid.ru,3,wikidata,embassy of Russia in Venezuela,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-iutirlaoficial.com,2,ror,Instituto Universitario de Tecnología Industrial Rodolfo Loero Arismendi,central,,
-ujmv.edu,2,ror,Universidad José María Vargas,central,,
-unexca.org,2,ror,Universidad Nacional Experimental de la Gran Caracas,central,,
-universidadindigenadevenezuela.com,2,ror,Universidad Indígena de Venezuela,central,,
-urbe.edu,2,ror,Universidad Privada Dr. Rafael Belloso Chacín,central,,
-uru.edu,2,ror,Universidad Rafael Urdaneta,central,,
-holyrosaryprovince.org,1,wikidata,Dominican Province of Our Lady of the Rosary,,301,none
-unimet.edu.ve,0,ror,Universidad Metropolitana,central,,
+domain,score,sources,label,level
+asambleanacionalvenezuela.org,6,wikidata,National Assembly | National Assembly  of Venezuela,central
+centroamericaribeschp.com,6,wikidata,Piarist province Central America- Caribbean,
+dominicoshispania.org,6,wikidata,Province of Hispania of the Order of Preachers,
+gobiernoenlinea.ve,6,un_desa,UN/DESA national portal,
+ucla.edu.ve,6,academia;ror,Universidad Centroccidental Lisandro Alvarado,central
+ucv.ve,6,academia;ror,Central University of Venezuela,central
+ula.ve,6,academia;ror,University of the Andes,central
+una.edu.ve,6,academia;ror,Universidad Nacional Abierta (Venezuela),central
+usb.ve,6,academia;ror,Simón Bolívar University,central
+inia.gov.ve,5,wikidata,Instituto Nacional de Investigaciones Agricolas,
+ivss.gov.ve,5,wikidata,Instituto Venezolano de los Seguros Sociales,
+tsjlegitimo.org,5,wikidata,Supreme Tribunal of Justice of Venezuela in exile,central
+udo.education,5,academia;ror,Universidad de Oriente,central
+bcv.org.ve,4,wikidata,Central Bank of Venezuela,
+botanica.ciens.ula.ve,4,academia,Botanical Garden of Mérida,
+col.luz.edu.ve,4,academia,Universidad del Zulia Núcleo Costa Oriental del Lago,central
+dgim.mil.ve,4,wikidata,Dirección de Inteligencia Militar,
+embajada-guineaecuatorial.com.ve,4,wikidata,embassy of Equatorial Guinea in Venezuela,central
+gonzalopiconfebres.human.ula.ve,4,academia,"Instituto de Investigaciones Literarias ""Gonzalo Picón Febres""",
+grupovitasana.com.ve,4,academia,Grupo Vitasana Medical Center,
+guardia.mil.ve,4,wikidata,Bolivarian National Guard,
+luz.edu.ve,4,academia,University of Zulia,central
+uc.edu.ve,4,academia,University of Carabobo,central
+ulac.edu.ve,4,academia,Q136745144,central
+unefm.edu.ve,4,academia,Universidad Francisco de Miranda,central
+unellez.edu.ve,4,academia,Universidad Nacional Experimental de los Llanos Occidentales Ezequiel Zamora,central
+unem.edu.ve,4,academia,Universidad Nacional Experimental del Magisterio Samuel Robinson,central
+uptjaa.org.ve,4,academia,Universidad Politécnica Territorial José Antonio Anzoátegui,central
+ambassadehaitivenezuela.org,3,wikidata,embassy of Haiti in Venezuela,central
+caracas.diplo.de,3,wikidata,"Embassy of Germany, Caracas",central
+caracas.embassy.qa,3,wikidata,embassy of Qatar in Venezuela,central
+caracas.mae.ro,3,wikidata,embassy of Romania in Venezuela,central
+cienciasbiomedicas.com,3,academia,Academic Center of Biomedical Sciences of Venezuela,
+consecomercio.org,3,wikidata,Q5783627,
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Venezuela,
+ekobius.org,3,academia,Ekobius International,
+emb-abjasia.com,3,wikidata,"Embassy of Abkhazia, Caracas",central
+enahp.cidge.org.ve,3,ror,Escuela Nacional de Administración y Hacienda Pública - Instituto Universitario de Tecnología,central
+iunav.edu.ve,3,ror,Universidad Adventista de Venezuela,central
+iupg.com.ve,3,ror,Instituto Universitario de Profesiones Gerenciales,central
+lauicom.com,3,academia,Universidad Internacional de las Comunicaciones,central
+nigerianembassycaracas.org,3,wikidata,embassy of Nigeria in Venezuela,central
+portal.unitec.edu.ve,3,ror,Universidad Tecnológica del Centro,central
+psm.edu.ve,3,ror,Instituto Universitario Politécnico Santiago Mariño,central
+santarosa.edu.ve,3,ror,Pontificia Universidad Católica Santa Rosa,central
+uam.edu.ve,3,ror,Universidad Arturo Michelena,central
+uba.edu.ve,3,ror,Universidad Bicentenaria de Aragua,central
+ucab.edu.ve,3,ror,Universidad Católica Andrés Bello,central
+ucat.edu.ve,3,ror,Universidad Católica del Táchira,central
+uft.edu.ve,3,ror,Universidad Fermín Toro,central
+ujap.edu.ve,3,ror,Universidad José Antonio Páez,central
+ujgh.edu.ve,3,ror,Universidad Dr. José Gregorio Hernández,central
+uma.edu.ve,3,ror,Universidad Monteávila,central
+umc.edu.ve,3,ror,Universidad Nacional Experimental Marítima del Caribe,central
+une.edu.ve,3,ror,Universidad Nueva Esparta,central
+unearte.edu.ve,3,ror,Universidad Nacional Experimental de las Artes,central
+unefa.edu.ve,3,ror,Universidad Nacional Experimental Politécnica de la Fuerza Armada Bolivariana,central
+uneg.edu.ve,3,ror,Universidad Nacional Experimental de Guayana,central
+unerg.edu.ve,3,ror,Universidad Nacional Experimental de los Llanos Centrales Rómulo Gallegos,central
+unermb.web.ve,3,ror,Universidad Nacional Experimental Rafael María Baralt,central
+unes.com.ve,3,ror,Universidad Nacional Experimental de la Seguridad,central
+unesur.edu.ve,3,ror,Universidad Nacional Experimental Sur del Lago Jesús María Semprum,central
+unet.edu.ve,3,ror,Universidad Nacional Experimental del Táchira,central
+unexpo.edu.ve,3,ror,Universidad Nacional Experimental Politécnica Antonio José de Sucre,central
+uney.com.ve,3,ror,Universidad Nacional Experimental del Yaracuy,central
+unica.edu.ve,3,ror,Universidad Católica Cecilio Acosta,central
+unihumboldt.edu.ve,3,ror,Universidad Alejandro de Humboldt,central
+unimar.edu.ve,3,ror,Universidad de Margarita,central
+uny.edu.ve,3,ror,Universidad Yacambú,central
+upel.edu.ve,3,ror,Universidad Pedagógica Experimental Libertador,central
+uptvallesdeltuy.edu.ve,3,ror,Universidad Politécnica Territorial de los Valles del Tuy,central
+usm.edu.ve,3,ror,Universidad Santa María,central
+uvm.edu.ve,3,ror,Universidad Valle del Momboy,central
+ve.ambafrance.org,3,wikidata,"Embassy of France, Caracas",central
+venezuela.mid.ru,3,wikidata,embassy of Russia in Venezuela,central
+iutirlaoficial.com,2,ror,Instituto Universitario de Tecnología Industrial Rodolfo Loero Arismendi,central
+ujmv.edu,2,ror,Universidad José María Vargas,central
+unexca.org,2,ror,Universidad Nacional Experimental de la Gran Caracas,central
+universidadindigenadevenezuela.com,2,ror,Universidad Indígena de Venezuela,central
+urbe.edu,2,ror,Universidad Privada Dr. Rafael Belloso Chacín,central
+uru.edu,2,ror,Universidad Rafael Urdaneta,central
+holyrosaryprovince.org,1,wikidata,Dominican Province of Our Lady of the Rosary,
+unimet.edu.ve,0,ror,Universidad Metropolitana,central

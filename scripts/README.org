@@ -38,15 +38,23 @@ express. The generated files are =proposed.csv=,
 =summary.md= and the =sources/= tree.
 
 The harvest lives in one file per harvested root,
-=countries/<c>/sources/harvest/<root>.csv=, header
-=subdomain,http_status,mx=, the root's own apex included. Status and
-MX are empty after =fetch= / =normalize=, filled by =probe= / =mx=,
-and preserved by later phases. Confirming a root and harvesting it
+=countries/<c>/sources/harvest/<root>.csv=, one column =subdomain=,
+the root's own apex included. Confirming a root and harvesting it
 are two distinct steps: =fetch <root>= creates the harvest file of a
 confirmed =central= or =central-1= domain (and refuses any other;
 =local= rows are never harvested); a confirmed root without a harvest
-only gets its apex probed, by =probe-roots= into
-=sources/probes/roots.csv=.
+only gets its apex probed, by =probe-roots=.
+
+The volatile state stays out of the CSV files, in a local
+[[https://github.com/datalevin/datalevin][Datalevin]] database, =data/.db= (git-ignored, see
+=scripts/probes.clj=): the HTTPS status and the MX of each host
+(=probe=, =mx=, =probe-roots=, =probe-proposed=), each dated, the
+outcome and date of the last crt.sh fetch of each root (=fetch=,
+=retry=) and the homepage status of the forges of
+=data/forge-unknown-swh.csv= (=bb forges scan=). A probe runs on the
+hosts not probed yet; with =MAX_AGE=<days>= also on those probed
+longer ago, or undated, and a full =fetch= skips the roots fetched
+since. A fresh clone has no database: =bb pipeline collect= fills it.
 
 =fetch= counts an empty crt.sh answer as a failure while the harvest
 holds no host yet (crt.sh answers =[]= when it times out). When a
@@ -86,13 +94,14 @@ files.
 ** Targeted commands
 
 #+begin_src bash
-  # collect -- sources/harvest/<root>.csv and sources/probes/roots.csv
+  # collect -- sources/harvest/<root>.csv and data/.db
   bb scripts/pipeline.clj fetch gov.it gouv.fr  # crt.sh on specific domains
-  bb scripts/pipeline.clj retry                 # replay FAILs from last log
+  MAX_AGE=30 bb scripts/pipeline.clj fetch      # crt.sh on the roots not fetched for 30 days
+  bb scripts/pipeline.clj retry                 # replay the roots whose last fetch failed
   bb scripts/pipeline.clj normalize             # clean every harvest file; a host under two harvested roots stays in the deeper file
-  bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe of the harvest rows
-  bb scripts/pipeline.clj mx gov.it             # DNS MX lookup of the harvest rows -> mx column
-  bb scripts/pipeline.clj probe-roots [C…]      # HTTPS + MX of the confirmed roots without a harvest -> sources/probes/roots.csv
+  bb scripts/pipeline.clj probe gov.it          # HTTPS HEAD probe of the harvested hosts -> data/.db
+  bb scripts/pipeline.clj mx gov.it             # DNS MX lookup of the harvested hosts -> data/.db
+  bb scripts/pipeline.clj probe-roots [C…]      # HTTPS + MX of the confirmed roots without a harvest -> data/.db
 
   # enrich -- sources/wikidata/ and data/sources/<source>.csv
   bb scripts/pipeline.clj build-qid             # country_dir -> Wikidata QID: data/country_qid.csv
@@ -118,7 +127,7 @@ files.
   bb scripts/pipeline.clj summary FRA_france    # the per-country report -> summary.md
 
   # other
-  bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts -> sources/probes/proposed.csv
+  bb scripts/pipeline.clj probe-proposed FRA_france  # HTTPS + MX of the proposed hosts -> data/.db
   bb scripts/pipeline.clj wayback gov.ke gov.lv # Wayback Machine CDX harvest of these roots -> sources/harvest/<root>.csv
   bb scripts/pipeline.clj check [C…]            # the decision files compile (exit 1 on a contradiction)
   bb scripts/pipeline.clj esr                   # FR public higher-education institutions -> sources/esr/registered.csv
@@ -180,8 +189,8 @@ catalog goal of [[https://gitlab.softwareheritage.org/swh/products/insights/swh-
 
 =scan= writes the government forges the Software Heritage archive
 does not know yet to =data/forge-unknown-swh.csv=
-(=target,country,kind,source,forge_type,http_status,note=), in three
-steps.
+(=domain,country,kind,source,forge_type,note=; the homepage status
+goes to the local database =data/.db=), in three steps.
 
 /Discover./ It fetches the homepage of every host under a confirmed
 =central= or =central-1= domain (curl =-ksL=, one request) and matches
@@ -222,10 +231,10 @@ matches URL tokens, not substrings. The anonymous API is rate-limited
 faster -- recommended for the ~1000-org =github-orgs= sweep. A
 candidate whose lookup failed stays in the output with the note =SWH
 API error=. Each row carries the forge software (=forge_type=,
-=unknown= for a curated forge that shows none), the HTTP code of the
-homepage (=http_status=, =000= when unreachable) and a short
+=unknown= for a curated forge that shows none) and a short
 diagnostic (=note=: DNS failure, timeout, WAF, cross-host redirect,
-sub-path the forge was found at).
+sub-path the forge was found at). The HTTP code of the homepage
+(=000= when unreachable) goes to =data/.db=.
 
 Arguments narrow a run, the rows left out being kept as they are:
 country dirs limit the discovery to these countries, =recheck= skips
@@ -328,6 +337,7 @@ central government plus the first subdivision tier and nothing below:
 | Var      | Effect                                          | Default |
 |----------+-------------------------------------------------+---------|
 | =FORCE=     | overwrite existing outputs; re-probe every host (=probe=, =mx=, =probe-roots=, =probe-proposed=); refetch a country's metadata row | =0= |
+| =MAX_AGE=   | days: also re-probe the probes older than that, or undated; a full =fetch= skips the roots fetched since | unset |
 | =PARALLEL=  | concurrent requests (fetch / probe)             | varies  |
 | =TIMEOUT=   | HTTPS request timeout (probe), seconds          | =5=       |
 | =SWH_TOKEN= | SWH API bearer token (=bb forges scan=)           | unset   |
@@ -357,16 +367,14 @@ Score clamped to =[0, 10]=. The two penalties only apply to hosts not
 already known as subnational.
 
 Output: =countries/<c>/proposed.csv=, columns
-=hostname,score,sources,label,level,http_status,mx=, sorted score desc
-/ hostname asc. =level= is =central=, =central-1= (bodies of a
+=domain,score,sources,label,level=, sorted score desc / domain asc. =level= is =central=, =central-1= (bodies of a
 first-level subdivision of the country: Land, state, region,
 province…) or blank when nothing is known yet; hosts attributed to a
 lower tier (city, county, department…) are not written anywhere.
 Hosts covered by a confirmed domain (any country -- Wikidata files
 embassies under their host country) or by an =excluded.csv= domain
-are left out. The two probe columns come from
-=sources/probes/proposed.csv=, filled by =bb pipeline probe-proposed=
-and joined in by the next =propose=.
+are left out. =bb pipeline probe-proposed= probes them into
+=data/.db=.
 
 The =level= comes from the Wikidata P1001 jurisdiction captured at
 fetch time (the country itself ⇒ =central=, one of its first-level

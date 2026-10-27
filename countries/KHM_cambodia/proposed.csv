@@ -1,56 +1,56 @@
-domain,score,sources,label,level,http_status,mx
-hiscambodia.org,6,wikidata,Ministry of Health,central,HttpConnectTimeoutException: HTTP connect timed out,none
-grk.com.kh,4,wikidata,Royal Gendarmerie of Cambodia,,ConnectException,none
-nac.org.kh,4,wikidata,National Assembly,central,200,0 mail.nac.org.kh.
-nbc.org.kh,4,wikidata,National Bank of Cambodia,central,HttpConnectTimeoutException: HTTP connect timed out,none
-necelect.org.kh,4,wikidata,National Election Committee of Cambodia,,ConnectException,none
-niph.org.kh,4,academia,National Institute of Public Health,central,,
-aeu.edu.kh,3,ror,Asia Euro University,central,,
-angkor.edu.kh,3,ror,Angkor University,central,,
-aub.edu.kh,3,ror,ACLEDA University of Business,central,,
-aupp.edu.kh,3,ror,American University of Phnom Penh,central,,
-bbu.edu.kh,3,ror,Build Bright University,central,,
-beltei.edu.kh,3,ror,Beltei International University,central,,
-csuk.edu.kh,3,ror,Chea Sim University of Kamchaymear,central,,
-cus.edu.kh,3,ror,Cambodian University for Specialties,central,,
-diu.edu.kh,3,ror,Dewey International University,central,,
-dmuc.edu.kh,3,ror,De Montfort University Cambodia,central,,
-eamu.edu.kh,3,ror,East Asia Management University,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Cambodia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-embrusscambodia.mid.ru,3,wikidata,"Embassy of Russia, Phnom Penh",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-iic.edu.kh,3,ror,IIC University of Technology,central,,
-itc.edu.kh,3,ror,Institute of Technology of Cambodia,central,,
-iu.edu.kh,3,ror,International University,central,,
-kh.ambafrance.org,3,wikidata,"Embassy of France, Phnom Penh",central,301,none
-kh.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Phnom Penh",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching kh.china-embassy.org found.,none
-ksit.edu.kh,3,ror,Kampong Speu Institute of Technology,central,,
-lifeun.edu.kh,3,ror,Life University,central,,
-mekong.edu.kh,3,ror,Cambodian Mekong University,central,,
-nchads.org,3,wikidata,"National Centre for HIV/AIDS Dermatology and STDs, Cambodia",,302,0 mail.nchads.org.
-ndu.edu.kh,3,ror,National Defense University,central,,
-nmu.edu.kh,3,ror,National Meanchey University,central,,
-npic.edu.kh,3,ror,National Polytechnic Institute of Cambodia,central,,
-nubb.edu.kh,3,ror,National University of Battambang,central,,
-num.edu.kh,3,ror,National University of Management,central,,
-paragoniu.edu.kh,3,ror,Paragon International University,central,,
-pasteur-kh.org,3,academia,Pasteur Institute in Cambodia,,,
-pcu.edu.kh,3,ror,Panha Chiet University,central,,
-phnom-penh.diplo.de,3,wikidata,"Embassy of Germany, Phnom Penh",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
-ppiu.edu.kh,3,ror,Phnom Penh International University,central,,
-puc.edu.kh,3,ror,Paññāsāstra University of Cambodia,central,,
-puthisastra.edu.kh,3,ror,University of Puthisastra,central,,
-rufa.edu.kh,3,ror,Royal University of Fine Arts,central,,
-rule.edu.kh,3,ror,Royal University of Law and Economics,central,,
-rupp.edu.kh,3,ror,Royal University of Phnom Penh,central,,
-sru.edu.kh,3,ror,Svay Rieng University,central,,
-thaiembassy.org,3,wikidata,Embassy of Thailand in Phnom Penh,central,200,none
-ubb.edu.kh,3,ror,University of Battambang,central,,
-uc.edu.kh,3,ror,University of Cambodia,central,,
-uef.edu.kh,3,ror,University of Economics and Finance,central,,
-uhs.edu.kh,3,ror,University of Health Science,central,,
-ukc.edu.kh,3,ror,University of Kratie,central,,
-ume.edu.kh,3,ror,University of Management and Economics,central,,
-westernuniversity.edu.kh,3,ror,Western University,central,,
-cityuniversity.education,2,ror,City University,central,,
-norton-u.com,2,ror,Norton University,central,,
-ppiedu.com,2,ror,Preah Kossomak Polytechnic Institute,central,,
+domain,score,sources,label,level
+hiscambodia.org,6,wikidata,Ministry of Health,central
+grk.com.kh,4,wikidata,Royal Gendarmerie of Cambodia,
+nac.org.kh,4,wikidata,National Assembly,central
+nbc.org.kh,4,wikidata,National Bank of Cambodia,central
+necelect.org.kh,4,wikidata,National Election Committee of Cambodia,
+niph.org.kh,4,academia,National Institute of Public Health,central
+aeu.edu.kh,3,ror,Asia Euro University,central
+angkor.edu.kh,3,ror,Angkor University,central
+aub.edu.kh,3,ror,ACLEDA University of Business,central
+aupp.edu.kh,3,ror,American University of Phnom Penh,central
+bbu.edu.kh,3,ror,Build Bright University,central
+beltei.edu.kh,3,ror,Beltei International University,central
+csuk.edu.kh,3,ror,Chea Sim University of Kamchaymear,central
+cus.edu.kh,3,ror,Cambodian University for Specialties,central
+diu.edu.kh,3,ror,Dewey International University,central
+dmuc.edu.kh,3,ror,De Montfort University Cambodia,central
+eamu.edu.kh,3,ror,East Asia Management University,central
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Cambodia,
+embrusscambodia.mid.ru,3,wikidata,"Embassy of Russia, Phnom Penh",central
+iic.edu.kh,3,ror,IIC University of Technology,central
+itc.edu.kh,3,ror,Institute of Technology of Cambodia,central
+iu.edu.kh,3,ror,International University,central
+kh.ambafrance.org,3,wikidata,"Embassy of France, Phnom Penh",central
+kh.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Phnom Penh",central
+ksit.edu.kh,3,ror,Kampong Speu Institute of Technology,central
+lifeun.edu.kh,3,ror,Life University,central
+mekong.edu.kh,3,ror,Cambodian Mekong University,central
+nchads.org,3,wikidata,"National Centre for HIV/AIDS Dermatology and STDs, Cambodia",
+ndu.edu.kh,3,ror,National Defense University,central
+nmu.edu.kh,3,ror,National Meanchey University,central
+npic.edu.kh,3,ror,National Polytechnic Institute of Cambodia,central
+nubb.edu.kh,3,ror,National University of Battambang,central
+num.edu.kh,3,ror,National University of Management,central
+paragoniu.edu.kh,3,ror,Paragon International University,central
+pasteur-kh.org,3,academia,Pasteur Institute in Cambodia,
+pcu.edu.kh,3,ror,Panha Chiet University,central
+phnom-penh.diplo.de,3,wikidata,"Embassy of Germany, Phnom Penh",central
+ppiu.edu.kh,3,ror,Phnom Penh International University,central
+puc.edu.kh,3,ror,Paññāsāstra University of Cambodia,central
+puthisastra.edu.kh,3,ror,University of Puthisastra,central
+rufa.edu.kh,3,ror,Royal University of Fine Arts,central
+rule.edu.kh,3,ror,Royal University of Law and Economics,central
+rupp.edu.kh,3,ror,Royal University of Phnom Penh,central
+sru.edu.kh,3,ror,Svay Rieng University,central
+thaiembassy.org,3,wikidata,Embassy of Thailand in Phnom Penh,central
+ubb.edu.kh,3,ror,University of Battambang,central
+uc.edu.kh,3,ror,University of Cambodia,central
+uef.edu.kh,3,ror,University of Economics and Finance,central
+uhs.edu.kh,3,ror,University of Health Science,central
+ukc.edu.kh,3,ror,University of Kratie,central
+ume.edu.kh,3,ror,University of Management and Economics,central
+westernuniversity.edu.kh,3,ror,Western University,central
+cityuniversity.education,2,ror,City University,central
+norton-u.com,2,ror,Norton University,central
+ppiedu.com,2,ror,Preah Kossomak Polytechnic Institute,central

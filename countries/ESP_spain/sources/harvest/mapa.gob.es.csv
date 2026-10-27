@@ -1,39 +1,39 @@
-subdomain,http_status,mx
-centrocompetencias.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-dataia-dev.mapa.gob.es,ConnectException > UnresolvedAddressException,
-dataia.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-desa-servicio.mapa.gob.es,ConnectException > UnresolvedAddressException,
-desa-servicios.mapa.gob.es,ConnectException > UnresolvedAddressException,
-dev-dataia.mapa.gob.es,ConnectException > UnresolvedAddressException,
-eportal-t.mapa.gob.es,ConnectException > UnresolvedAddressException,
-eportal.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-formacion-servicio.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-integra-servicio.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-iportal-t.mapa.gob.es,ConnectException > UnresolvedAddressException,
-iportal.mapa.gob.es,ConnectException > UnresolvedAddressException,
-mapa.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-origin.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-preservicio.mapa.gob.es,ConnectException > UnresolvedAddressException,
-preservicio2.mapa.gob.es,ConnectException > UnresolvedAddressException,
-reposig.mapa.gob.es,ConnectException > UnresolvedAddressException,
-sede.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-servicio.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-servicios.mapa.gob.es,ConnectException > UnresolvedAddressException,
-sig.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-sigapps.mapa.gob.es,ConnectException > UnresolvedAddressException,
-sigintranet.mapa.gob.es,ConnectException > UnresolvedAddressException,
-sigintranettile1.mapa.gob.es,ConnectException > UnresolvedAddressException,
-sigpac.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-sigtile1.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-soportesig.mapa.gob.es,ConnectException > UnresolvedAddressException,
-test-eportal.mapa.gob.es,ConnectException > UnresolvedAddressException,
-test-iportal.mapa.gob.es,ConnectException > UnresolvedAddressException,
-test-sede.mapa.gob.es,ConnectException > UnresolvedAddressException,
-test-servicio.mapa.gob.es,ConnectException > UnresolvedAddressException,
-test-servicios.mapa.gob.es,ConnectException > UnresolvedAddressException,
-wms.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-wmts.mapa.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-www.dataia-dev.mapa.gob.es,ConnectException > UnresolvedAddressException,
-www.dataia.mapa.gob.es,ConnectException > UnresolvedAddressException,
-www.dev-dataia.mapa.gob.es,ConnectException > UnresolvedAddressException,
-www.mapa.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+subdomain
+centrocompetencias.mapa.gob.es
+dataia-dev.mapa.gob.es
+dataia.mapa.gob.es
+desa-servicio.mapa.gob.es
+desa-servicios.mapa.gob.es
+dev-dataia.mapa.gob.es
+eportal-t.mapa.gob.es
+eportal.mapa.gob.es
+formacion-servicio.mapa.gob.es
+integra-servicio.mapa.gob.es
+iportal-t.mapa.gob.es
+iportal.mapa.gob.es
+mapa.gob.es
+origin.mapa.gob.es
+preservicio.mapa.gob.es
+preservicio2.mapa.gob.es
+reposig.mapa.gob.es
+sede.mapa.gob.es
+servicio.mapa.gob.es
+servicios.mapa.gob.es
+sig.mapa.gob.es
+sigapps.mapa.gob.es
+sigintranet.mapa.gob.es
+sigintranettile1.mapa.gob.es
+sigpac.mapa.gob.es
+sigtile1.mapa.gob.es
+soportesig.mapa.gob.es
+test-eportal.mapa.gob.es
+test-iportal.mapa.gob.es
+test-sede.mapa.gob.es
+test-servicio.mapa.gob.es
+test-servicios.mapa.gob.es
+wms.mapa.gob.es
+wmts.mapa.gob.es
+www.dataia-dev.mapa.gob.es
+www.dataia.mapa.gob.es
+www.dev-dataia.mapa.gob.es
+www.mapa.gob.es

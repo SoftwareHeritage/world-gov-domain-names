@@ -1,10 +1,10 @@
-subdomain,http_status,mx
-admin.ism.dk,200,
-cdn.ism.dk,404,
-f2mobil.ism.dk,ConnectException > UnresolvedAddressException,
-gapi.admin.ism.dk,404,
-hjemme.ism.dk,ConnectException > UnresolvedAddressException,
-hjemme1.ism.dk,ConnectException > UnresolvedAddressException,
-hjemme2.ism.dk,ConnectException > UnresolvedAddressException,
-ism.dk,301,0 .
-www.ism.dk,200,none
+subdomain
+admin.ism.dk
+cdn.ism.dk
+f2mobil.ism.dk
+gapi.admin.ism.dk
+hjemme.ism.dk
+hjemme1.ism.dk
+hjemme2.ism.dk
+ism.dk
+www.ism.dk

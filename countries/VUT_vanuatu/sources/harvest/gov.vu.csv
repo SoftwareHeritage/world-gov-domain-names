@@ -1,84 +1,84 @@
-subdomain,http_status,mx
-admin-heartcare.gov.vu,200,none
-api-asyhub-test.customs.gov.vu,404,none
-api-asyhub.customs.gov.vu,404,none
-api.vanclimatefutures.gov.vu,Resolving timed out after 3001 milliseconds,none
-asyhub-test.customs.gov.vu,200,none
-asyhub.customs.gov.vu,200,none
-autodiscover.rbv.gov.vu,Could not resolve host: autodiscover.rbv.gov.vu,none
-autodiscover.vanuatu.gov.vu,Failed to connect to autodiscover.vanuatu.gov.vu port 443 after 1890 ms: Could not connect to server,none
-autodiscover.vmgd.gov.vu,Could not resolve host: autodiscover.vmgd.gov.vu,10 mail.vmgd.gov.vu.
-content.vmgd.gov.vu,403,none
-cpanel.vbos.gov.vu,Connection timed out after 3000 milliseconds,none
-crvsd.gov.vu,200,
-dcefs.gov.vu,200,none
-dev.neir.gov.vu,302,none
-eas.vanuatu.gov.vu,Could not resolve host: eas.vanuatu.gov.vu,none
-ecp.vanuatu.gov.vu,Could not resolve host: ecp.vanuatu.gov.vu,none
-ee.kobo.gov.vu,200,none
-ews.vanuatu.gov.vu,Could not resolve host: ews.vanuatu.gov.vu,none
-fhirservicemdr.gov.vu,Could not resolve host: fhirservicemdr.gov.vu,none
-ftp.vmgd.gov.vu,302,none
-geonode.gov.vu,Connection timed out after 3002 milliseconds,none
-gov.vu,200,0 gov-vu.mail.protection.outlook.com.
-healthresearch.gov.vu,200,
-heartcare.gov.vu,200,10 mxa.mailgun.org.; 10 mxb.mailgun.org.
-immigration.gov.vu,200,none
-jpoc.gov.vu,Connection timed out after 3000 milliseconds,none
-kc.kobo.gov.vu,301,none
-kf.kobo.gov.vu,200,none
-legacy.rbv.gov.vu,Could not resolve host: legacy.rbv.gov.vu,none
-legacy.vanuatu.gov.vu,SSL: no alternative certificate subject name matches target hostname 'legacy.vanuatu.gov.vu',none
-mail.pvmc.gov.vu,Connection timed out after 3001 milliseconds,none
-mail.rbv.gov.vu,302,none
-mail.ura.gov.vu,Could not resolve host: mail.ura.gov.vu,none
-mail.vanuatu.gov.vu,Could not resolve host: mail.vanuatu.gov.vu,none
-mail.vmgd.gov.vu,Connection timed out after 3002 milliseconds,none
-mail2.vmgd.gov.vu,Could not resolve host: mail2.vmgd.gov.vu,none
-mdes.doft.gov.vu,302,none
-mdr.gov.vu,200,none
-nsdp.vnso.gov.vu,200,none
-oab.vanuatu.gov.vu,Could not resolve host: oab.vanuatu.gov.vu,none
-online.vanipo.gov.vu,Connection timed out after 3001 milliseconds,none
-origin.content.vmgd.gov.vu,301,none
-outlook.vanuatu.gov.vu,Could not resolve host: outlook.vanuatu.gov.vu,none
-owa.vanuatu.gov.vu,Could not resolve host: owa.vanuatu.gov.vu,none
-plato.fiu.gov.vu,Could not resolve host: plato.fiu.gov.vu,none
-promis.mipu.gov.vu,200,
-propertytax.pvmc.gov.vu,SSL certificate problem: certificate has expired,none
-pvcc.gov.vu,200,0 pvcc-gov-vu.mail.protection.outlook.com.
-pvmc.gov.vu,SSL certificate problem: certificate has expired,10 mail.pvmc.gov.vu.
-rbv.gov.vu,301,10 mail.rbv.gov.vu.
-remote.ura.gov.vu,Could not resolve host: remote.ura.gov.vu,none
-reporting.fiu.gov.vu,Could not resolve host: reporting.fiu.gov.vu,none
-scdms.psc.gov.vu,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-smartalert.vmgd.gov.vu,Connection timed out after 3001 milliseconds,none
-smtp.vanuatu.gov.vu,Resolving timed out after 3001 milliseconds,none
-sso-asyhub-test.customs.gov.vu,200,none
-sso-asyhub.customs.gov.vu,200,none
-svc.vsms.gov.vu,Could not resolve host: svc.vsms.gov.vu,none
-tap.vsms.gov.vu,302,none
-uat.plato.fiu.gov.vu,Could not resolve host: uat.plato.fiu.gov.vu,none
-uat.reporting.fiu.gov.vu,Could not resolve host: uat.reporting.fiu.gov.vu,none
-ura.gov.vu,Could not resolve host: ura.gov.vu,0 ura-gov-vu.mail.protection.outlook.com.
-vanclimatefutures.gov.vu,200,none
-vanuatu.gov.vu,Connection timed out after 3001 milliseconds,10 vanuatu-gov-vu.mail.protection.outlook.com.
-vbos.gov.vu,301,none
-vmgd.gov.vu,Could not resolve host: vmgd.gov.vu,10 mail.vmgd.gov.vu.
-vsdc.vsms.gov.vu,Could not resolve host: vsdc.vsms.gov.vu,none
-vsms.gov.vu,405,none
-webdisk.vbos.gov.vu,Could not resolve host: webdisk.vbos.gov.vu,none
-webmail.rbv.gov.vu,Could not resolve host: webmail.rbv.gov.vu,none
-webmail.vanuatu.gov.vu,Could not resolve host: webmail.vanuatu.gov.vu,none
-webmail.vmgd.gov.vu,Could not resolve host: webmail.vmgd.gov.vu,none
-wims.gov.vu,Failed to connect to wims.gov.vu port 443 after 659 ms: Could not connect to server,none
-www.geonode.gov.vu,Could not resolve host: www.geonode.gov.vu,none
-www.immigration.gov.vu,301,none
-www.mail.pvmc.gov.vu,Could not resolve host: www.mail.pvmc.gov.vu,none
-www.mail.vmgd.gov.vu,Could not resolve host: www.mail.vmgd.gov.vu,none
-www.online.vanipo.gov.vu,Could not resolve host: www.online.vanipo.gov.vu,none
-www.pvmc.gov.vu,Could not resolve host: www.pvmc.gov.vu,none
-www.remote.ura.gov.vu,Could not resolve host: www.remote.ura.gov.vu,none
-www.ura.gov.vu,Could not resolve host: www.ura.gov.vu,none
-www.vanclimatefutures.gov.vu,Could not resolve host: www.vanclimatefutures.gov.vu,none
-www.vmgd.gov.vu,Could not resolve host: www.vmgd.gov.vu,none
+subdomain
+admin-heartcare.gov.vu
+api-asyhub-test.customs.gov.vu
+api-asyhub.customs.gov.vu
+api.vanclimatefutures.gov.vu
+asyhub-test.customs.gov.vu
+asyhub.customs.gov.vu
+autodiscover.rbv.gov.vu
+autodiscover.vanuatu.gov.vu
+autodiscover.vmgd.gov.vu
+content.vmgd.gov.vu
+cpanel.vbos.gov.vu
+crvsd.gov.vu
+dcefs.gov.vu
+dev.neir.gov.vu
+eas.vanuatu.gov.vu
+ecp.vanuatu.gov.vu
+ee.kobo.gov.vu
+ews.vanuatu.gov.vu
+fhirservicemdr.gov.vu
+ftp.vmgd.gov.vu
+geonode.gov.vu
+gov.vu
+healthresearch.gov.vu
+heartcare.gov.vu
+immigration.gov.vu
+jpoc.gov.vu
+kc.kobo.gov.vu
+kf.kobo.gov.vu
+legacy.rbv.gov.vu
+legacy.vanuatu.gov.vu
+mail.pvmc.gov.vu
+mail.rbv.gov.vu
+mail.ura.gov.vu
+mail.vanuatu.gov.vu
+mail.vmgd.gov.vu
+mail2.vmgd.gov.vu
+mdes.doft.gov.vu
+mdr.gov.vu
+nsdp.vnso.gov.vu
+oab.vanuatu.gov.vu
+online.vanipo.gov.vu
+origin.content.vmgd.gov.vu
+outlook.vanuatu.gov.vu
+owa.vanuatu.gov.vu
+plato.fiu.gov.vu
+promis.mipu.gov.vu
+propertytax.pvmc.gov.vu
+pvcc.gov.vu
+pvmc.gov.vu
+rbv.gov.vu
+remote.ura.gov.vu
+reporting.fiu.gov.vu
+scdms.psc.gov.vu
+smartalert.vmgd.gov.vu
+smtp.vanuatu.gov.vu
+sso-asyhub-test.customs.gov.vu
+sso-asyhub.customs.gov.vu
+svc.vsms.gov.vu
+tap.vsms.gov.vu
+uat.plato.fiu.gov.vu
+uat.reporting.fiu.gov.vu
+ura.gov.vu
+vanclimatefutures.gov.vu
+vanuatu.gov.vu
+vbos.gov.vu
+vmgd.gov.vu
+vsdc.vsms.gov.vu
+vsms.gov.vu
+webdisk.vbos.gov.vu
+webmail.rbv.gov.vu
+webmail.vanuatu.gov.vu
+webmail.vmgd.gov.vu
+wims.gov.vu
+www.geonode.gov.vu
+www.immigration.gov.vu
+www.mail.pvmc.gov.vu
+www.mail.vmgd.gov.vu
+www.online.vanipo.gov.vu
+www.pvmc.gov.vu
+www.remote.ura.gov.vu
+www.ura.gov.vu
+www.vanclimatefutures.gov.vu
+www.vmgd.gov.vu

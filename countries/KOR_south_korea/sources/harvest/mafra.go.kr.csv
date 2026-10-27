@@ -1,29 +1,29 @@
-subdomain,http_status,mx
-ax.mafra.go.kr,200,
-baro.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-bigdata.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-bsc.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-data.mafra.go.kr,200,
-ea.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-ebooklib.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-fta.mafra.go.kr,200,
-issa.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kass.mafra.go.kr,200,
-lib.mafra.go.kr,302,
-mafra.go.kr,200,0 antispam.korea.kr.
-mailtrain.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-nd.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-nj.mafra.go.kr,ConnectException > UnresolvedAddressException,
-njf.mafra.go.kr,ConnectException > UnresolvedAddressException,
-njy.mafra.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-pdfstation.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-people.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-usb.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-woman.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.baro.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.kass.mafra.go.kr,ConnectException > UnresolvedAddressException,
-www.lib.mafra.go.kr,ConnectException > UnresolvedAddressException,
-www.mafra.go.kr,200,none
-www.mailtrain.mafra.go.kr,ConnectException > UnresolvedAddressException,
-www.nd.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.people.mafra.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
+subdomain
+ax.mafra.go.kr
+baro.mafra.go.kr
+bigdata.mafra.go.kr
+bsc.mafra.go.kr
+data.mafra.go.kr
+ea.mafra.go.kr
+ebooklib.mafra.go.kr
+fta.mafra.go.kr
+issa.mafra.go.kr
+kass.mafra.go.kr
+lib.mafra.go.kr
+mafra.go.kr
+mailtrain.mafra.go.kr
+nd.mafra.go.kr
+nj.mafra.go.kr
+njf.mafra.go.kr
+njy.mafra.go.kr
+pdfstation.mafra.go.kr
+people.mafra.go.kr
+usb.mafra.go.kr
+woman.mafra.go.kr
+www.baro.mafra.go.kr
+www.kass.mafra.go.kr
+www.lib.mafra.go.kr
+www.mafra.go.kr
+www.mailtrain.mafra.go.kr
+www.nd.mafra.go.kr
+www.people.mafra.go.kr

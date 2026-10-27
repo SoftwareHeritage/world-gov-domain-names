@@ -1,4 +1,6 @@
 {:paths ["scripts"]
+ ;; the probes database data/.db (scripts/probes.clj)
+ :pods {huahaiy/datalevin {:version "1.2.8"}}
  :tasks
  {:requires ([babashka.process :refer [shell]])
   ;; run a script and exit with its code: shell would print a stack
@@ -7,7 +9,7 @@
           (System/exit (:exit (apply shell {:continue true} "bb" script args))))
   pipeline   {:doc  "Full pipeline -- run 'bb pipeline help' for usage"
               :task (apply run "scripts/pipeline.clj" *command-line-args*)}
-  collect    {:doc  "the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots -> sources/harvest/, sources/probes/roots.csv"
+  collect    {:doc  "the harvest: fetch (+ retry) + normalize + probe + mx + probe-roots -> sources/harvest/, data/.db"
               :task (apply run "scripts/pipeline.clj" "collect" *command-line-args*)}
   enrich     {:doc  "build-qid + build-gec + build-un-ids + subdivisions, then wikidata (+ academia) + ror/sopc/iana/cia/un-desa/oecd/meta (parallel)"
               :task (apply run "scripts/pipeline.clj" "enrich" *command-line-args*)}

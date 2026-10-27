@@ -1,10 +1,10 @@
-subdomain,http_status,mx
-crm.minetad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-extranet.minetad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-geoportal.minetad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-intermediosfirma.minetad.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-minetad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-oficinamovil.minetad.gob.es,ConnectException > UnresolvedAddressException,
-portalextranet.minetad.gob.es,ConnectException > ClosedChannelException,
-safe.minetad.gob.es,ConnectException > UnresolvedAddressException,
-www.minetad.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+subdomain
+crm.minetad.gob.es
+extranet.minetad.gob.es
+geoportal.minetad.gob.es
+intermediosfirma.minetad.gob.es
+minetad.gob.es
+oficinamovil.minetad.gob.es
+portalextranet.minetad.gob.es
+safe.minetad.gob.es
+www.minetad.gob.es

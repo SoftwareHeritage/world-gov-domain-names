@@ -1,55 +1,55 @@
-domain,score,sources,label,level,http_status,mx
-sirdc.ac.zw,7,wikidata;academia,National Metrology Institute | Scientific and Industrial Research and Development Centre,,200,0 mail.sirdc.ac.zw.
-zimstat.co.zw,7,wikidata;academia,Zimbabwe National Statistics Agency,central,200,0 gateway.telone.co.zw.; 10 mail.zimstat.co.zw.
-gsu.ac.zw,6,academia;ror,Gwanda State University,central,,
-hit.ac.zw,6,academia;ror,Harare Institute of Technology,central,,
-nust.ac.zw,6,academia;ror,"National University of Science and Technology, Zimbabwe",central,,
-uz.ac.zw,6,academia;ror,University of Zimbabwe,central,,
-arczw.ac.zw,4,wikidata,Agricultural Research Council of Zimbabwe,,200,none
-competition.co.zw,4,wikidata,Competition and Tariff Commission,,200,0 competition-co-zw.mail.protection.outlook.com.
-ema.co.zw,4,wikidata,Environmental Management Agency,,200,0 ema-co-zw.mail.protection.outlook.com.
-forestry.co.zw,4,wikidata,Forestry Commission,,200,10 mx.forestry.co.zw.cust.a.hostedemail.com.
-ipec.co.zw,4,wikidata,Insurance and Pensions Commission (IPEC).,,200,0 ipec-co-zw.mail.protection.outlook.com.
-mediacommission.co.zw,4,wikidata,Zimbabwe Media Commission,,HttpConnectTimeoutException: HTTP connect timed out,0 mail.mediacommission.co.zw.
-mohcc.org.zw,4,wikidata,"National Institute of Health Research, Zimbabwe",,HttpConnectTimeoutException: HTTP connect timed out,0 mohcc-org-zw.mail.protection.outlook.com.
-mrcz.org.zw,4,wikidata,Medical Research Council of Zimbabwe,,200,0 mrcz-org-zw.mail.protection.outlook.com.
-nac.org.zw,4,wikidata,National AIDS Council,,200,5 alt2.aspmx.l.google.com.; 10 aspmx3.googlemail.com.; 10 aspmx2.googlemail.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
-rbz.co.zw,4,wikidata,Reserve Bank of Zimbabwe,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rbz.co.zw found.,0 rbz-co-zw.mail.protection.outlook.com.
-rcz.ac.zw,4,wikidata,Research Council of Zimbabwe,,200,0 rcz-ac-zw.mail.protection.outlook.com.
-zimche.ac.zw,4,wikidata,"National Council for Higher Education, Zimbabwe",,200,0 zimche-ac-zw.mail.protection.outlook.com.
-zingsa.ac.zw,4,wikidata,Zimbabwe National Geospatial and Space Agency,,200,0 mail.zingsa.ac.zw.
-zinwa.co.zw,4,wikidata,Zimbabwe National Water Authority,,200,0 zinwa-co-zw.mail.protection.outlook.com.
-africaurban.org,3,academia,African Urban Institute,,,
-aju.ac.zw,3,ror,Arrupe Jesuit University,central,,
-ambafrance-zw.org,3,wikidata,"Embassy of France, Harare",central,ConnectException,5 mta-gw.infomaniak.ch.
-buse.ac.zw,3,ror,Bindura University of Science Education,central,,
-cut.ac.zw,3,ror,Chinhoyi University of Technology,central,,
-cuz.ac.zw,3,ror,Catholic University of Zimbabwe,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Zimbabwe,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-ghanaembassy-zimbabwe.com,3,wikidata,embassy of Ghana in Zimbabwe,central,ConnectException,none
-gwerupoly.ac.zw,3,ror,Gweru Polytechnic Institute,central,,
-gzu.ac.zw,3,ror,Great Zimbabwe University,central,,
-harare.diplo.de,3,wikidata,"Embassy of Germany, Harare",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-harare.mae.ro,3,wikidata,embassy of Romania in Zimbabwe,central,503,none
-lsu.ac.zw,3,ror,Lupane State University,central,,
-mfa.gr,3,wikidata,embassy of Greece in Zimbabwe,central,403,10 mailhost.mfa.gr.
-msuas.ac.zw,3,ror,Manicaland State University of Applied Sciences,central,,
-muast.ac.zw,3,ror,Marondera University of Agricultural Sciences and Technology,central,,
-mutarepolytechnic.ac.zw,3,ror,Mutare Polytechnic,central,,
-press.zegu.ac.zw,3,ror,Zimbabwe Ezekiel Guti University Press,central,,
-rcu.ac.zw,3,ror,Reformed Church University,central,,
-sardc.net,3,academia,Southern African Research and Documentation Centre,,,
-solusi.ac.zw,3,ror,Solusi University,central,,
-southcentre.int,3,academia,Southern Centre for Energy and Environment,,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Harare",central,301,none
-who.int,3,wikidata,World Health Organization (Zimbabwe),,301,10 who-int.mail.protection.outlook.com.
-wua.ac.zw,3,ror,Women's University in Africa,central,,
-ww5.msu.ac.zw,3,ror,Midlands State University,central,,
-zegu.ac.zw,3,ror,Zimbabwe Ezekiel Guti University,central,,
-zimbabwe.mid.ru,3,wikidata,embassy of Russia in Zimbabwe,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-zimyouth.org,3,wikidata,Zimbabwe Youth Council,,ConnectException,none
-zndu.ac.zw,3,ror,Zimbabwe National Defence University,central,,
-zou.ac.zw,3,ror,Zimbabwe Open University,central,,
-zulc.ac.zw,3,ror,Zimbabwe University Libraries Consortium,central,,
-africau.edu,2,ror,Africa University,central,,
-jmpolygwanda.com,2,ror,Joshua Mqabuko Nkomo Polytechnic,central,,
+domain,score,sources,label,level
+sirdc.ac.zw,7,wikidata;academia,National Metrology Institute | Scientific and Industrial Research and Development Centre,
+zimstat.co.zw,7,wikidata;academia,Zimbabwe National Statistics Agency,central
+gsu.ac.zw,6,academia;ror,Gwanda State University,central
+hit.ac.zw,6,academia;ror,Harare Institute of Technology,central
+nust.ac.zw,6,academia;ror,"National University of Science and Technology, Zimbabwe",central
+uz.ac.zw,6,academia;ror,University of Zimbabwe,central
+arczw.ac.zw,4,wikidata,Agricultural Research Council of Zimbabwe,
+competition.co.zw,4,wikidata,Competition and Tariff Commission,
+ema.co.zw,4,wikidata,Environmental Management Agency,
+forestry.co.zw,4,wikidata,Forestry Commission,
+ipec.co.zw,4,wikidata,Insurance and Pensions Commission (IPEC).,
+mediacommission.co.zw,4,wikidata,Zimbabwe Media Commission,
+mohcc.org.zw,4,wikidata,"National Institute of Health Research, Zimbabwe",
+mrcz.org.zw,4,wikidata,Medical Research Council of Zimbabwe,
+nac.org.zw,4,wikidata,National AIDS Council,
+rbz.co.zw,4,wikidata,Reserve Bank of Zimbabwe,
+rcz.ac.zw,4,wikidata,Research Council of Zimbabwe,
+zimche.ac.zw,4,wikidata,"National Council for Higher Education, Zimbabwe",
+zingsa.ac.zw,4,wikidata,Zimbabwe National Geospatial and Space Agency,
+zinwa.co.zw,4,wikidata,Zimbabwe National Water Authority,
+africaurban.org,3,academia,African Urban Institute,
+aju.ac.zw,3,ror,Arrupe Jesuit University,central
+ambafrance-zw.org,3,wikidata,"Embassy of France, Harare",central
+buse.ac.zw,3,ror,Bindura University of Science Education,central
+cut.ac.zw,3,ror,Chinhoyi University of Technology,central
+cuz.ac.zw,3,ror,Catholic University of Zimbabwe,central
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Zimbabwe,
+ghanaembassy-zimbabwe.com,3,wikidata,embassy of Ghana in Zimbabwe,central
+gwerupoly.ac.zw,3,ror,Gweru Polytechnic Institute,central
+gzu.ac.zw,3,ror,Great Zimbabwe University,central
+harare.diplo.de,3,wikidata,"Embassy of Germany, Harare",central
+harare.mae.ro,3,wikidata,embassy of Romania in Zimbabwe,central
+lsu.ac.zw,3,ror,Lupane State University,central
+mfa.gr,3,wikidata,embassy of Greece in Zimbabwe,central
+msuas.ac.zw,3,ror,Manicaland State University of Applied Sciences,central
+muast.ac.zw,3,ror,Marondera University of Agricultural Sciences and Technology,central
+mutarepolytechnic.ac.zw,3,ror,Mutare Polytechnic,central
+press.zegu.ac.zw,3,ror,Zimbabwe Ezekiel Guti University Press,central
+rcu.ac.zw,3,ror,Reformed Church University,central
+sardc.net,3,academia,Southern African Research and Documentation Centre,
+solusi.ac.zw,3,ror,Solusi University,central
+southcentre.int,3,academia,Southern Centre for Energy and Environment,
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Harare",central
+who.int,3,wikidata,World Health Organization (Zimbabwe),
+wua.ac.zw,3,ror,Women's University in Africa,central
+ww5.msu.ac.zw,3,ror,Midlands State University,central
+zegu.ac.zw,3,ror,Zimbabwe Ezekiel Guti University,central
+zimbabwe.mid.ru,3,wikidata,embassy of Russia in Zimbabwe,central
+zimyouth.org,3,wikidata,Zimbabwe Youth Council,
+zndu.ac.zw,3,ror,Zimbabwe National Defence University,central
+zou.ac.zw,3,ror,Zimbabwe Open University,central
+zulc.ac.zw,3,ror,Zimbabwe University Libraries Consortium,central
+africau.edu,2,ror,Africa University,central
+jmpolygwanda.com,2,ror,Joshua Mqabuko Nkomo Polytechnic,central

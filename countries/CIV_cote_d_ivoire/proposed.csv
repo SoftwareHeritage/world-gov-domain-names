@@ -1,50 +1,50 @@
-domain,score,sources,label,level,http_status,mx
-cnra.ci,7,wikidata;academia,Centre National de Recherche Agronomique | National Center for Agronomic Research,central,200,10 zmx01.cloud4africa.net.; 20 zmx02.cloud4africa.net.
-ins.ci,7,wikidata;academia,Institut National de la Statistique,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ins.ci found.,0 mail.ins.ci.
-justice.ci,7,wikidata,Q123328078,central,301,0 justice.ci.
-ci.ambafrance.org,6,wikidata,"Embassy of France, Abidjan | general consulate of France in Abidjan",central,301,none
-education-ci.org,6,wikidata,Ministry of National Education and Technical Training,central,301,10 mail.education-ci.org.
-escolapiesinstitutions.org,6,wikidata,Piarist province of West Africa,,ConnectException,none
-afor.ci,4,wikidata,Q131452898,,200,0 afor-ci.mail.protection.outlook.com.
-artci.ci,4,wikidata,Q86993468,,200,0 artci-ci.mail.protection.outlook.com.
-assnat.ci,4,wikidata,National Assembly,central,200,5 mx1.assnat.ci.; 10 mx3.assnat.ci.; 10 mx4.assnat.ci.
-conseil-constitutionnel.ci,4,wikidata,Constitutional Council,,200,10 mx4.conseil-constitutionnel.ci.; 10 mx3.conseil-constitutionnel.ci.; 5 mx1.conseil-constitutionnel.ci.
-firca.ci,4,wikidata,Q131440933,,200,0 firca-ci.mail.protection.outlook.com.
-haca.ci,4,wikidata,High Authority of Audiovisual Communication,,200,0 haca-ci.mail.protection.outlook.com.
-oipc.ci,4,wikidata,Q116297759,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching oipc.ci found.,1 smtp.oipc.ci.
-oscn.ci,4,wikidata,Q131620972,,301,1 smtp.oscn.ci.
-pasteur.ci,4,academia,Institut Pasteur de Côte d'Ivoire,,,
-sodefor.ci,4,wikidata,Société de développement des forêts,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.sodefor.ci.
-univ-na.edu.ci,4,academia,University of Abobo-Adjamé,central,,
-usp.edu.ci,4,academia,Q141202839,central,,
-web.conseil-etat.ci,4,wikidata,Q2993730,central,200,0 web.conseil-etat.ci.
-abidjan.diplo.de,3,wikidata,"Embassy of Germany, Abidjan",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-africarice-fr.org,3,academia,Africa Rice Center,,,
-africarice.org,3,academia,Africa Rice Center,,,
-bceao.int,3,wikidata,Central Bank of West African States,,ConnectException,10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.
-ceici.org,3,wikidata,Q283004,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ceici.org found.,none
-cires-ci.org,3,academia,Centre Ivoirien de Recherche Economique et Sociale,,,
-cnrao-ci.com,3,academia,Q125479302,,,
-cotedivoire.mid.ru,3,wikidata,embassy of Russia in Ivory Coast,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-eeas.europa.eu,3,wikidata,Delegation of the European Union to the Republic of Côte d’Ivoire,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-ensabidjan.ci,3,ror,École Normale Supérieure d'Abidjan,central,,
-ensea.ed.ci,3,ror,École Nationale Supérieure de Statistique et d'Économie Appliquée,central,,
-esatic.ci,3,ror,École Supérieure Africaine des TIC,central,,
-fondation-fhb.org,3,academia,Fondation Félix-Houphouët-Boigny,,,
-inphb.edu.ci,3,ror,Institut National Polytechnique Félix Houphouët-Boigny,central,,
-iugb.edu.ci,3,ror,International University of Grand Bassam,central,,
-ivorycoastembassy.orderofmalta.int,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Abidjan",central,301,none
-lamto.free.fr,3,academia,Station d'écologie tropicale de Lamto,,,
-onpc-ci.org,3,wikidata,Q113840186,,200,0 mail.onpc-ci.org.
-rusta-istci.org,3,academia,Higher Institute of Technology of Ivory Coast,,,
-uatp-africa.org,3,wikidata,African Union of Public Transport,,ConnectException,none
-ubkou.edu.ci,3,ror,Université de Bondoukou,central,,
-ujlog.ci,3,ror,Université Jean Lorougnon Guédé,central,,
-univ-ao.edu.ci,3,ror,Université Alassane Ouattara,central,,
-univ-fhb.edu.ci,3,ror,Université Félix Houphouët-Boigny,central,,
-univ-na.ci,3,ror,Université Nangui Abrogoua,central,,
-univ-pgc.edu.ci,3,ror,Université Pelefero Gon Coulibaly,central,,
-uvci.edu.ci,3,ror,Université Virtuelle de Côte d'Ivoire,central,,
-groupeloko.com,2,ror,Université Tertiaire et Technologique-Lokko,central,,
-iua-ci.org,2,ror,Institut Universitaire d'Abidjan,central,,
-rusta-ustci.org,2,ror,University of Science and Technology of Ivory Coast,central,,
+domain,score,sources,label,level
+cnra.ci,7,wikidata;academia,Centre National de Recherche Agronomique | National Center for Agronomic Research,central
+ins.ci,7,wikidata;academia,Institut National de la Statistique,central
+justice.ci,7,wikidata,Q123328078,central
+ci.ambafrance.org,6,wikidata,"Embassy of France, Abidjan | general consulate of France in Abidjan",central
+education-ci.org,6,wikidata,Ministry of National Education and Technical Training,central
+escolapiesinstitutions.org,6,wikidata,Piarist province of West Africa,
+afor.ci,4,wikidata,Q131452898,
+artci.ci,4,wikidata,Q86993468,
+assnat.ci,4,wikidata,National Assembly,central
+conseil-constitutionnel.ci,4,wikidata,Constitutional Council,
+firca.ci,4,wikidata,Q131440933,
+haca.ci,4,wikidata,High Authority of Audiovisual Communication,
+oipc.ci,4,wikidata,Q116297759,
+oscn.ci,4,wikidata,Q131620972,
+pasteur.ci,4,academia,Institut Pasteur de Côte d'Ivoire,
+sodefor.ci,4,wikidata,Société de développement des forêts,
+univ-na.edu.ci,4,academia,University of Abobo-Adjamé,central
+usp.edu.ci,4,academia,Q141202839,central
+web.conseil-etat.ci,4,wikidata,Q2993730,central
+abidjan.diplo.de,3,wikidata,"Embassy of Germany, Abidjan",central
+africarice-fr.org,3,academia,Africa Rice Center,
+africarice.org,3,academia,Africa Rice Center,
+bceao.int,3,wikidata,Central Bank of West African States,
+ceici.org,3,wikidata,Q283004,central
+cires-ci.org,3,academia,Centre Ivoirien de Recherche Economique et Sociale,
+cnrao-ci.com,3,academia,Q125479302,
+cotedivoire.mid.ru,3,wikidata,embassy of Russia in Ivory Coast,central
+eeas.europa.eu,3,wikidata,Delegation of the European Union to the Republic of Côte d’Ivoire,
+ensabidjan.ci,3,ror,École Normale Supérieure d'Abidjan,central
+ensea.ed.ci,3,ror,École Nationale Supérieure de Statistique et d'Économie Appliquée,central
+esatic.ci,3,ror,École Supérieure Africaine des TIC,central
+fondation-fhb.org,3,academia,Fondation Félix-Houphouët-Boigny,
+inphb.edu.ci,3,ror,Institut National Polytechnique Félix Houphouët-Boigny,central
+iugb.edu.ci,3,ror,International University of Grand Bassam,central
+ivorycoastembassy.orderofmalta.int,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Abidjan",central
+lamto.free.fr,3,academia,Station d'écologie tropicale de Lamto,
+onpc-ci.org,3,wikidata,Q113840186,
+rusta-istci.org,3,academia,Higher Institute of Technology of Ivory Coast,
+uatp-africa.org,3,wikidata,African Union of Public Transport,
+ubkou.edu.ci,3,ror,Université de Bondoukou,central
+ujlog.ci,3,ror,Université Jean Lorougnon Guédé,central
+univ-ao.edu.ci,3,ror,Université Alassane Ouattara,central
+univ-fhb.edu.ci,3,ror,Université Félix Houphouët-Boigny,central
+univ-na.ci,3,ror,Université Nangui Abrogoua,central
+univ-pgc.edu.ci,3,ror,Université Pelefero Gon Coulibaly,central
+uvci.edu.ci,3,ror,Université Virtuelle de Côte d'Ivoire,central
+groupeloko.com,2,ror,Université Tertiaire et Technologique-Lokko,central
+iua-ci.org,2,ror,Institut Universitaire d'Abidjan,central
+rusta-ustci.org,2,ror,University of Science and Technology of Ivory Coast,central

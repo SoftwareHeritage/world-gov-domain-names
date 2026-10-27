@@ -1,155 +1,155 @@
-subdomain,http_status,mx
-adler.bundestag.de,ConnectException > UnresolvedAddressException,
-adleradmin.bundestag.de,ConnectException > UnresolvedAddressException,
-admin.epetitionen.bundestag.de,403,
-admin.epetitionen.stage.bundestag.de,403,
-admin.epetitionen.werkstatt.bundestag.de,ConnectException > UnresolvedAddressException,
-adressbuch.bundestag.de,301,
-alexa.bundestag.de,ConnectException > UnresolvedAddressException,
-api.lobbyregister.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-awstats.bundestag.de,ConnectException > UnresolvedAddressException,
-azur.bundestag.de,200,
-bestellungen.bundestag.de,301,
-bewerbung.ipsdigital.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-bibliothek.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-bilddatenbank.bundestag.de,200,
-bilderdienst.bundestag.de,301,
-bundestag.de,301,50 mail1.dbtg.de.; 500 mail3.dbtg.de.; 50 mail4.dbtg.de.; 50 mail2.dbtg.de.
-cms.bundestag.de,ConnectException > UnresolvedAddressException,
-cms.dev.bundestag.de,ConnectException > UnresolvedAddressException,
-cms.prod.bundestag.de,ConnectException > UnresolvedAddressException,
-cms.schulung.bundestag.de,ConnectException > UnresolvedAddressException,
-cms.staging.bundestag.de,ConnectException > UnresolvedAddressException,
-cmslogin.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-content.dip.bundestag.de,404,
-datenaustausch.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-dip.bundestag.de,200,
-dip21.bundestag.de,301,
-dipbt.bundestag.de,301,
-dokumente.bundestag.de,301,
-drucksachen.bundestag.de,301,
-dserver.bundestag.de,200,
-e-petitionen.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-editor.bundestag.de,ConnectException > UnresolvedAddressException,
-editor.dev.bundestag.de,ConnectException > UnresolvedAddressException,
-editor.prod.bundestag.de,ConnectException > UnresolvedAddressException,
-editor.schulung.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-editor.staging.bundestag.de,ConnectException > UnresolvedAddressException,
-eingaben.bundestag.de,301,
-epetitionen.bundestag.de,302,
-epetitionen.stage.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-epetitionen.werkstatt.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-etherpad.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-etherpad.epetitionen.bundestag.de,ConnectException > UnresolvedAddressException,
-etherpad.epetitionen.stage.bundestag.de,ConnectException > UnresolvedAddressException,
-export.dip.bundestag.de,404,
-forum.bundestag.de,ConnectException > UnresolvedAddressException,
-hib.bundestag.de,301,
-it5eccm1.bundestag.de,ConnectException > UnresolvedAddressException,
-it5testserver.bundestag.de,ConnectException > UnresolvedAddressException,
-iv-iam.lobbyregister.bundestag.de,302,
-iv.lobbyregister.bundestag.de,302,
-kontakt.bundestag.de,ConnectException > UnresolvedAddressException,
-kontakt.dev.bundestag.de,ConnectException > UnresolvedAddressException,
-kontakt.prod.bundestag.de,ConnectException > UnresolvedAddressException,
-kontakt.schulung.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kontakt.staging.bundestag.de,ConnectException > UnresolvedAddressException,
-lobbyregister-bundestag.de,301,
-lobbyregister.bundestag.de,301,
-logs.lobbyregister.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mdb-cloud-abnahme.bundestag.de,ConnectException > UnresolvedAddressException,
-mdb-cloud.bundestag.de,ConnectException > UnresolvedAddressException,
-mdb.bundestag.de,ConnectException > UnresolvedAddressException,
-mediathek.bundestag.de,301,
-mitmischen.stage.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-news.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-newsletteradmin.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-oeffentliche-petitionen.bundestag.de,301,
-online-petitionen.bundestag.de,301,
-onlinepetition.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-opac.bibliothek.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-opac.bundestag.de,301,
-parlamentsarchiv.bundestag.de,403,
-parlamentsdokumente.bundestag.de,301,
-parldok.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-pdok.bundestag.de,301,
-petitionen.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-plenarprotokolle.bundestag.de,301,
-postmaster.bundestag.de,301,
-preview.bundestag.de,302,
-protokolle.bundestag.de,301,
-registration.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rfs-iam.lobbyregister.bundestag.de,403,
-rfs-webdav.lobbyregister.bundestag.de,403,
-rfs.lobbyregister.bundestag.de,403,
-sdc.bundestag.de,ConnectException > UnresolvedAddressException,
-search.dip.bundestag.de,404,
-sftp.bundestag.de,200,
-sitemanager.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-statistik.bundestag.de,403,
-statistik.dev.bundestag.de,ConnectException > UnresolvedAddressException,
-statistik.schulung.bundestag.de,ConnectException > UnresolvedAddressException,
-statistik.staging.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-studio.bundestag.de,302,
-studio.dev.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-studio.prod.bundestag.de,ConnectException > UnresolvedAddressException,
-studio.schulung.bundestag.de,ConnectException > UnresolvedAddressException,
-studio.staging.bundestag.de,ConnectException > UnresolvedAddressException,
-suche.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-suche.dev.bundestag.de,ConnectException > UnresolvedAddressException,
-suche.prod.bundestag.de,ConnectException > UnresolvedAddressException,
-suche.schulung.bundestag.de,ConnectException > UnresolvedAddressException,
-suche.staging.bundestag.de,ConnectException > UnresolvedAddressException,
-test.it5.bundestag.de,ConnectException > UnresolvedAddressException,
-testserver-pki.bundestag.de,ConnectException > UnresolvedAddressException,
-umfrage.bundestag.de,403,
-vc01.vc.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-verwaltung.ipsdigital.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-video.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-videoweb.bundestag.de,ConnectException > UnresolvedAddressException,
-visite.bundestag.de,302,
-volkparl-test.bundestag.de,403,
-volkparl.bundestag.de,200,
-wahlbewerber.bundestag.de,ConnectException > UnresolvedAddressException,
-web-video.bundestag.de,ConnectException > NoRouteToHostException: Host is unreachable,
-webarchiv.bundestag.de,303,
-webconf.tk.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-webtv.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-werkstatt.bundestag.de,ConnectException > UnresolvedAddressException,
-wtsuche.bundestag.de,ConnectException > UnresolvedAddressException,
-www.adressbuch.bundestag.de,301,
-www.azur.bundestag.de,301,
-www.befragung.epetitionen.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.bestellungen.bundestag.de,301,
-www.bibliothek.bundestag.de,301,
-www.bundestag.de,200,none
-www.dev.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.dokumente.bundestag.de,301,
-www.drucksachen.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.e-petitionen.bundestag.de,301,
-www.eingaben.bundestag.de,301,
-www.hib.bundestag.de,301,
-www.it5eccm1.bundestag.de,ConnectException > UnresolvedAddressException,
-www.lobbyregister-bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.lobbyregister.bundestag.de,302,
-www.mdb.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.mediathek.bundestag.de,301,
-www.news.bundestag.de,301,
-www.oeffentliche-petitionen.bundestag.de,301,
-www.online-petitionen.bundestag.de,301,
-www.onlinepetition.bundestag.de,301,
-www.parlamentsdokumente.bundestag.de,301,
-www.parldok.bundestag.de,301,
-www.petitionen.bundestag.de,301,
-www.plenarprotokolle.bundestag.de,301,
-www.prod.bundestag.de,ConnectException > UnresolvedAddressException,
-www.protokolle.bundestag.de,301,
-www.registration.bundestag.de,200,
-www.schulung.bundestag.de,ConnectException > UnresolvedAddressException,
-www.staging.bundestag.de,SSLHandshakeException > CertificateException: No subject alternative DNS name matching www.staging.bundestag.de found.,
-www.suche.bundestag.de,301,
-www.umfrage.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.volkparl-test.bundestag.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.volkparl.bundestag.de,301,
-www.wahlbewerber.bundestag.de,ConnectException > UnresolvedAddressException,
-www.webarchiv.bundestag.de,303,
+subdomain
+adler.bundestag.de
+adleradmin.bundestag.de
+admin.epetitionen.bundestag.de
+admin.epetitionen.stage.bundestag.de
+admin.epetitionen.werkstatt.bundestag.de
+adressbuch.bundestag.de
+alexa.bundestag.de
+api.lobbyregister.bundestag.de
+awstats.bundestag.de
+azur.bundestag.de
+bestellungen.bundestag.de
+bewerbung.ipsdigital.bundestag.de
+bibliothek.bundestag.de
+bilddatenbank.bundestag.de
+bilderdienst.bundestag.de
+bundestag.de
+cms.bundestag.de
+cms.dev.bundestag.de
+cms.prod.bundestag.de
+cms.schulung.bundestag.de
+cms.staging.bundestag.de
+cmslogin.bundestag.de
+content.dip.bundestag.de
+datenaustausch.bundestag.de
+dip.bundestag.de
+dip21.bundestag.de
+dipbt.bundestag.de
+dokumente.bundestag.de
+drucksachen.bundestag.de
+dserver.bundestag.de
+e-petitionen.bundestag.de
+editor.bundestag.de
+editor.dev.bundestag.de
+editor.prod.bundestag.de
+editor.schulung.bundestag.de
+editor.staging.bundestag.de
+eingaben.bundestag.de
+epetitionen.bundestag.de
+epetitionen.stage.bundestag.de
+epetitionen.werkstatt.bundestag.de
+etherpad.bundestag.de
+etherpad.epetitionen.bundestag.de
+etherpad.epetitionen.stage.bundestag.de
+export.dip.bundestag.de
+forum.bundestag.de
+hib.bundestag.de
+it5eccm1.bundestag.de
+it5testserver.bundestag.de
+iv-iam.lobbyregister.bundestag.de
+iv.lobbyregister.bundestag.de
+kontakt.bundestag.de
+kontakt.dev.bundestag.de
+kontakt.prod.bundestag.de
+kontakt.schulung.bundestag.de
+kontakt.staging.bundestag.de
+lobbyregister-bundestag.de
+lobbyregister.bundestag.de
+logs.lobbyregister.bundestag.de
+mdb-cloud-abnahme.bundestag.de
+mdb-cloud.bundestag.de
+mdb.bundestag.de
+mediathek.bundestag.de
+mitmischen.stage.bundestag.de
+news.bundestag.de
+newsletteradmin.bundestag.de
+oeffentliche-petitionen.bundestag.de
+online-petitionen.bundestag.de
+onlinepetition.bundestag.de
+opac.bibliothek.bundestag.de
+opac.bundestag.de
+parlamentsarchiv.bundestag.de
+parlamentsdokumente.bundestag.de
+parldok.bundestag.de
+pdok.bundestag.de
+petitionen.bundestag.de
+plenarprotokolle.bundestag.de
+postmaster.bundestag.de
+preview.bundestag.de
+protokolle.bundestag.de
+registration.bundestag.de
+rfs-iam.lobbyregister.bundestag.de
+rfs-webdav.lobbyregister.bundestag.de
+rfs.lobbyregister.bundestag.de
+sdc.bundestag.de
+search.dip.bundestag.de
+sftp.bundestag.de
+sitemanager.bundestag.de
+statistik.bundestag.de
+statistik.dev.bundestag.de
+statistik.schulung.bundestag.de
+statistik.staging.bundestag.de
+studio.bundestag.de
+studio.dev.bundestag.de
+studio.prod.bundestag.de
+studio.schulung.bundestag.de
+studio.staging.bundestag.de
+suche.bundestag.de
+suche.dev.bundestag.de
+suche.prod.bundestag.de
+suche.schulung.bundestag.de
+suche.staging.bundestag.de
+test.it5.bundestag.de
+testserver-pki.bundestag.de
+umfrage.bundestag.de
+vc01.vc.bundestag.de
+verwaltung.ipsdigital.bundestag.de
+video.bundestag.de
+videoweb.bundestag.de
+visite.bundestag.de
+volkparl-test.bundestag.de
+volkparl.bundestag.de
+wahlbewerber.bundestag.de
+web-video.bundestag.de
+webarchiv.bundestag.de
+webconf.tk.bundestag.de
+webtv.bundestag.de
+werkstatt.bundestag.de
+wtsuche.bundestag.de
+www.adressbuch.bundestag.de
+www.azur.bundestag.de
+www.befragung.epetitionen.bundestag.de
+www.bestellungen.bundestag.de
+www.bibliothek.bundestag.de
+www.bundestag.de
+www.dev.bundestag.de
+www.dokumente.bundestag.de
+www.drucksachen.bundestag.de
+www.e-petitionen.bundestag.de
+www.eingaben.bundestag.de
+www.hib.bundestag.de
+www.it5eccm1.bundestag.de
+www.lobbyregister-bundestag.de
+www.lobbyregister.bundestag.de
+www.mdb.bundestag.de
+www.mediathek.bundestag.de
+www.news.bundestag.de
+www.oeffentliche-petitionen.bundestag.de
+www.online-petitionen.bundestag.de
+www.onlinepetition.bundestag.de
+www.parlamentsdokumente.bundestag.de
+www.parldok.bundestag.de
+www.petitionen.bundestag.de
+www.plenarprotokolle.bundestag.de
+www.prod.bundestag.de
+www.protokolle.bundestag.de
+www.registration.bundestag.de
+www.schulung.bundestag.de
+www.staging.bundestag.de
+www.suche.bundestag.de
+www.umfrage.bundestag.de
+www.volkparl-test.bundestag.de
+www.volkparl.bundestag.de
+www.wahlbewerber.bundestag.de
+www.webarchiv.bundestag.de

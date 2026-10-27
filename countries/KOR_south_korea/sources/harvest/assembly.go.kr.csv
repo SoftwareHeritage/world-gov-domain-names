@@ -1,84 +1,84 @@
-subdomain,http_status,mx
-assembly.go.kr,400,3 mail.assembly.go.kr.
-bis.assembly.go.kr,ConnectException > UnresolvedAddressException,
-bms.assembly.go.kr,ConnectException > UnresolvedAddressException,
-car.assembly.go.kr,ConnectException > UnresolvedAddressException,
-child.assembly.go.kr,400,
-culture.assembly.go.kr,405,
-datacontest2022.assembly.go.kr,ConnectException > UnresolvedAddressException,
-docportal.assembly.go.kr,ConnectException > UnresolvedAddressException,
-docs.assembly.go.kr,ConnectException > UnresolvedAddressException,
-docsdev.assembly.go.kr,ConnectException > UnresolvedAddressException,
-ea.assembly.go.kr,ConnectException > UnresolvedAddressException,
-ebook.assembly.go.kr,400,
-ehr.assembly.go.kr,ConnectException > UnresolvedAddressException,
-ehrdev.assembly.go.kr,ConnectException > UnresolvedAddressException,
-ems.assembly.go.kr,ConnectException > UnresolvedAddressException,
-fms.assembly.go.kr,ConnectException > UnresolvedAddressException,
-ged.assembly.go.kr,ConnectException > UnresolvedAddressException,
-gosi.assembly.go.kr,400,
-gosimgm.assembly.go.kr,ConnectException > UnresolvedAddressException,
-gpki.assembly.go.kr,403,
-gpkiadmin.assembly.go.kr,ConnectException > UnresolvedAddressException,
-groupmail.assembly.go.kr,400,
-hrm.assembly.go.kr,ConnectException > UnresolvedAddressException,
-human.assembly.go.kr,ConnectException > UnresolvedAddressException,
-korea.assembly.go.kr,400,
-likms.assembly.go.kr,400,
-mail.assembly.go.kr,400,
-mailer.assembly.go.kr,400,
-mbillpal.assembly.go.kr,400,
-media1.assembly.go.kr,400,
-member-cms.assembly.go.kr,ConnectException > UnresolvedAddressException,
-member.assembly.go.kr,400,
-memorial.assembly.go.kr,400,
-naitsm.assembly.go.kr,400,
-nals.assembly.go.kr,ConnectException > UnresolvedAddressException,
-namd.assembly.go.kr,ConnectException > UnresolvedAddressException,
-napass.assembly.go.kr,ConnectException > UnresolvedAddressException,
-naph.assembly.go.kr,400,
-naphoto.assembly.go.kr,ConnectException > UnresolvedAddressException,
-naps-api.assembly.go.kr,200,
-naps.assembly.go.kr,200,
-narm.assembly.go.kr,ConnectException > UnresolvedAddressException,
-navdi.assembly.go.kr,ConnectException > UnresolvedAddressException,
-navt.assembly.go.kr,ConnectException > UnresolvedAddressException,
-nitsm.assembly.go.kr,ConnectException > UnresolvedAddressException,
-nrm.assembly.go.kr,ConnectException > UnresolvedAddressException,
-open.assembly.go.kr,400,
-openadmin.assembly.go.kr,ConnectException > UnresolvedAddressException,
-openapi.assembly.go.kr,400,
-pal.assembly.go.kr,400,
-petitions.assembly.go.kr,400,
-pod.assembly.go.kr,ConnectException > UnresolvedAddressException,
-publication.assembly.go.kr,ConnectException > UnresolvedAddressException,
-review.assembly.go.kr,400,
-sec.assembly.go.kr,ConnectException > UnresolvedAddressException,
-singo.assembly.go.kr,ConnectException > UnresolvedAddressException,
-std.assembly.go.kr,ConnectException > UnresolvedAddressException,
-text.assembly.go.kr,400,
-training.assembly.go.kr,400,
-visitor-services.assembly.go.kr,ConnectException > UnresolvedAddressException,
-vivana.assembly.go.kr,ConnectException > UnresolvedAddressException,
-vst.assembly.go.kr,ConnectException > UnresolvedAddressException,
-w3.assembly.go.kr,400,
-webdoc.assembly.go.kr,ConnectException > UnresolvedAddressException,
-wf.assembly.go.kr,400,
-www.assembly.go.kr,400,none
-www.culture.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.gosi.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.likms.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.mail.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.mailer.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.mbillpal.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.member.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.naph.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.naps.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.open.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.pal.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.training.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.w3.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.wf.assembly.go.kr,ConnectException > UnresolvedAddressException,
-www.yeyak.assembly.go.kr,ConnectException > UnresolvedAddressException,
-yeyak.assembly.go.kr,400,
-youth.assembly.go.kr,400,
+subdomain
+assembly.go.kr
+bis.assembly.go.kr
+bms.assembly.go.kr
+car.assembly.go.kr
+child.assembly.go.kr
+culture.assembly.go.kr
+datacontest2022.assembly.go.kr
+docportal.assembly.go.kr
+docs.assembly.go.kr
+docsdev.assembly.go.kr
+ea.assembly.go.kr
+ebook.assembly.go.kr
+ehr.assembly.go.kr
+ehrdev.assembly.go.kr
+ems.assembly.go.kr
+fms.assembly.go.kr
+ged.assembly.go.kr
+gosi.assembly.go.kr
+gosimgm.assembly.go.kr
+gpki.assembly.go.kr
+gpkiadmin.assembly.go.kr
+groupmail.assembly.go.kr
+hrm.assembly.go.kr
+human.assembly.go.kr
+korea.assembly.go.kr
+likms.assembly.go.kr
+mail.assembly.go.kr
+mailer.assembly.go.kr
+mbillpal.assembly.go.kr
+media1.assembly.go.kr
+member-cms.assembly.go.kr
+member.assembly.go.kr
+memorial.assembly.go.kr
+naitsm.assembly.go.kr
+nals.assembly.go.kr
+namd.assembly.go.kr
+napass.assembly.go.kr
+naph.assembly.go.kr
+naphoto.assembly.go.kr
+naps-api.assembly.go.kr
+naps.assembly.go.kr
+narm.assembly.go.kr
+navdi.assembly.go.kr
+navt.assembly.go.kr
+nitsm.assembly.go.kr
+nrm.assembly.go.kr
+open.assembly.go.kr
+openadmin.assembly.go.kr
+openapi.assembly.go.kr
+pal.assembly.go.kr
+petitions.assembly.go.kr
+pod.assembly.go.kr
+publication.assembly.go.kr
+review.assembly.go.kr
+sec.assembly.go.kr
+singo.assembly.go.kr
+std.assembly.go.kr
+text.assembly.go.kr
+training.assembly.go.kr
+visitor-services.assembly.go.kr
+vivana.assembly.go.kr
+vst.assembly.go.kr
+w3.assembly.go.kr
+webdoc.assembly.go.kr
+wf.assembly.go.kr
+www.assembly.go.kr
+www.culture.assembly.go.kr
+www.gosi.assembly.go.kr
+www.likms.assembly.go.kr
+www.mail.assembly.go.kr
+www.mailer.assembly.go.kr
+www.mbillpal.assembly.go.kr
+www.member.assembly.go.kr
+www.naph.assembly.go.kr
+www.naps.assembly.go.kr
+www.open.assembly.go.kr
+www.pal.assembly.go.kr
+www.training.assembly.go.kr
+www.w3.assembly.go.kr
+www.wf.assembly.go.kr
+www.yeyak.assembly.go.kr
+yeyak.assembly.go.kr
+youth.assembly.go.kr

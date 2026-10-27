@@ -1,27 +1,27 @@
-subdomain,http_status,mx
-desa-servicio.mapama.gob.es,ConnectException > UnresolvedAddressException,
-desa-servicios.mapama.gob.es,ConnectException > UnresolvedAddressException,
-eportal.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-formacion-servicio.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-integra-servicio.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-iportal.mapama.gob.es,ConnectException > UnresolvedAddressException,
-mapama.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-origin.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-preservicio.mapama.gob.es,ConnectException > UnresolvedAddressException,
-preservicio2.mapama.gob.es,ConnectException > UnresolvedAddressException,
-reposig.mapama.gob.es,ConnectException > UnresolvedAddressException,
-sede.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-servicio.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-servicios.mapama.gob.es,ConnectException > UnresolvedAddressException,
-sig.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-sigapps.mapama.gob.es,ConnectException > UnresolvedAddressException,
-sigintranet.mapama.gob.es,ConnectException > UnresolvedAddressException,
-sigintranettile1.mapama.gob.es,ConnectException > UnresolvedAddressException,
-sigpac.mapama.gob.es,ConnectException > UnresolvedAddressException,
-sigtile1.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-soportesig.mapama.gob.es,ConnectException > UnresolvedAddressException,
-test-servicio.mapama.gob.es,ConnectException > UnresolvedAddressException,
-test-servicios.mapama.gob.es,ConnectException > UnresolvedAddressException,
-wms.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-wmts.mapama.gob.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-www.mapama.gob.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
+subdomain
+desa-servicio.mapama.gob.es
+desa-servicios.mapama.gob.es
+eportal.mapama.gob.es
+formacion-servicio.mapama.gob.es
+integra-servicio.mapama.gob.es
+iportal.mapama.gob.es
+mapama.gob.es
+origin.mapama.gob.es
+preservicio.mapama.gob.es
+preservicio2.mapama.gob.es
+reposig.mapama.gob.es
+sede.mapama.gob.es
+servicio.mapama.gob.es
+servicios.mapama.gob.es
+sig.mapama.gob.es
+sigapps.mapama.gob.es
+sigintranet.mapama.gob.es
+sigintranettile1.mapama.gob.es
+sigpac.mapama.gob.es
+sigtile1.mapama.gob.es
+soportesig.mapama.gob.es
+test-servicio.mapama.gob.es
+test-servicios.mapama.gob.es
+wms.mapama.gob.es
+wmts.mapama.gob.es
+www.mapama.gob.es

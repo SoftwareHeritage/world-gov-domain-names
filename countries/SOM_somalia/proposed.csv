@@ -1,50 +1,50 @@
-domain,score,sources,label,level,http_status,mx
-dns.org.so,7,wikidata;academia,Directorate of National Statistics,central,200,83 route2.mx.cloudflare.net.; 85 route1.mx.cloudflare.net.; 3 route3.mx.cloudflare.net.
-mfa.somaligov.net,6,wikidata,Ministry of Foreign Affairs and International Cooperation of the Federal Republic of Somalia,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mfa.somaligov.net found.,none
-alkitabcenter.so,4,academia,Alkitab Center for Research & Studies,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Mogadishu",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
-pha.pl.so,4,wikidata,Puntland Highway Authority,,HttpTimeoutException: request timed out,1 aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-pmpf.so,4,wikidata,Puntland Maritime Police Force,,200,0 mail.pmpf.so.
-snu.edu.so,4,academia,Somali National University,central,,
-abrar.edu.so,3,ror,Abrar University,central,,
-alhayat.edu.so,3,ror,Al Hayat Medical University,central,,
-bu.edu.so,3,ror,Benadir University,central,,
-citycot.edu.so,3,ror,CITYCOT University,central,,
-diu.edu.so,3,ror,Daha International University,central,,
-eau.edu.so,3,ror,East Africa University,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Somalia,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-greenhopeuniversity.edu.so,3,ror,Green Hope University,central,,
-hiu.edu.so,3,ror,Horseed International University,central,,
-hopeuniversity.so,3,ror,Hope University,central,,
-hu.edu.so,3,ror,Hormuud University,central,,
-iou.edu.so,3,ror,Indian Ocean University,central,,
-just.edu.so,3,ror,Jamhuriya University of Science and Technology,central,,
-ku.edu.so,3,ror,Kismayo University,central,,
-mict.govsomaliland.org,3,wikidata,Ministry of Information and Communication Technology,,HttpTimeoutException: request timed out,none
-mu.edu.so,3,ror,Mogadishu University,central,,
-nugaaluniversity.edu.so,3,ror,Nugaal University,central,,
-nust.edu.so,3,ror,Nile University of Science and Technology,central,,
-psu.edu.so,3,ror,Puntland State University,central,,
-rsu.edu.so,3,ror,Red Sea University,central,,
-salaam.edu.so,3,ror,Salaam University,central,,
-simad.edu.so,3,ror,SIMAD University,central,,
-siu.edu.so,3,ror,Somali International University,central,,
-soscollege.edu.so,3,ror,SOS College of Health Science University,central,,
-uniso.edu.so,3,ror,University of Somalia,central,,
-uohs.edu.so,3,ror,University of Health Sciences,central,,
-uss.edu.so,3,ror,University of Southern Somalia,central,,
-zust.edu.so,3,ror,Zamzam University of Science and Technology,central,,
-admasuniversity.com,2,ror,Admas University,central,,
-amouduniversity.org,2,ror,Amoud University,central,,
-ednaadanuniversity.com,2,ror,Edna Adan University,central,,
-gollisuniversity.org,2,ror,Gollis University,central,,
-jazeerauniversity.com,2,ror,Jazeera University,central,,
-lowershabelleuniversity.com,2,ror,Lower Shabelle University,central,,
-maakhiruniversity.net,2,ror,Maakhir University,central,,
-nguchc.com,2,ror,New Generation University,central,,
-plasmauniversity.net,2,ror,Plasma University,central,,
-somalilanduniversity.org,2,ror,Somaliland University of Technology,central,,
-universityofsomalia.net,2,ror,Somali National University,central,,
-uob-edu.net,2,ror,Burao University,central,,
-uoh-edu.net,2,ror,University of Hargeisa,central,,
-moesomalia.net,1,wikidata,"Ministry of Education, Culture and Higher Education | Ministry of Education (Somalia)",central,200,10 alltheemails.com.
+domain,score,sources,label,level
+dns.org.so,7,wikidata;academia,Directorate of National Statistics,central
+mfa.somaligov.net,6,wikidata,Ministry of Foreign Affairs and International Cooperation of the Federal Republic of Somalia,central
+alkitabcenter.so,4,academia,Alkitab Center for Research & Studies,
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Mogadishu",central
+pha.pl.so,4,wikidata,Puntland Highway Authority,
+pmpf.so,4,wikidata,Puntland Maritime Police Force,
+snu.edu.so,4,academia,Somali National University,central
+abrar.edu.so,3,ror,Abrar University,central
+alhayat.edu.so,3,ror,Al Hayat Medical University,central
+bu.edu.so,3,ror,Benadir University,central
+citycot.edu.so,3,ror,CITYCOT University,central
+diu.edu.so,3,ror,Daha International University,central
+eau.edu.so,3,ror,East Africa University,central
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Somalia,
+greenhopeuniversity.edu.so,3,ror,Green Hope University,central
+hiu.edu.so,3,ror,Horseed International University,central
+hopeuniversity.so,3,ror,Hope University,central
+hu.edu.so,3,ror,Hormuud University,central
+iou.edu.so,3,ror,Indian Ocean University,central
+just.edu.so,3,ror,Jamhuriya University of Science and Technology,central
+ku.edu.so,3,ror,Kismayo University,central
+mict.govsomaliland.org,3,wikidata,Ministry of Information and Communication Technology,
+mu.edu.so,3,ror,Mogadishu University,central
+nugaaluniversity.edu.so,3,ror,Nugaal University,central
+nust.edu.so,3,ror,Nile University of Science and Technology,central
+psu.edu.so,3,ror,Puntland State University,central
+rsu.edu.so,3,ror,Red Sea University,central
+salaam.edu.so,3,ror,Salaam University,central
+simad.edu.so,3,ror,SIMAD University,central
+siu.edu.so,3,ror,Somali International University,central
+soscollege.edu.so,3,ror,SOS College of Health Science University,central
+uniso.edu.so,3,ror,University of Somalia,central
+uohs.edu.so,3,ror,University of Health Sciences,central
+uss.edu.so,3,ror,University of Southern Somalia,central
+zust.edu.so,3,ror,Zamzam University of Science and Technology,central
+admasuniversity.com,2,ror,Admas University,central
+amouduniversity.org,2,ror,Amoud University,central
+ednaadanuniversity.com,2,ror,Edna Adan University,central
+gollisuniversity.org,2,ror,Gollis University,central
+jazeerauniversity.com,2,ror,Jazeera University,central
+lowershabelleuniversity.com,2,ror,Lower Shabelle University,central
+maakhiruniversity.net,2,ror,Maakhir University,central
+nguchc.com,2,ror,New Generation University,central
+plasmauniversity.net,2,ror,Plasma University,central
+somalilanduniversity.org,2,ror,Somaliland University of Technology,central
+universityofsomalia.net,2,ror,Somali National University,central
+uob-edu.net,2,ror,Burao University,central
+uoh-edu.net,2,ror,University of Hargeisa,central
+moesomalia.net,1,wikidata,"Ministry of Education, Culture and Higher Education | Ministry of Education (Somalia)",central

@@ -39,9 +39,8 @@ from the official registries plus =curated.csv= minus =excluded.csv=.
 Two ready-to-use CSV files, covering UN members and observers only:
 
 - =data/public-sector-domains.csv= -- every government host we found,
-  apex domains *and* subdomains (e.g. =gouv.fr=, =beta.gouv.fr=), with
-  its HTTPS status and MX. Each row carries metadata: UN status,
-  region, languages and GDP.
+  apex domains *and* subdomains (e.g. =gouv.fr=, =beta.gouv.fr=). Each
+  row carries metadata: UN status, region, languages and GDP.
 - =data/public-sector-domains-central+-policy.csv= -- the central
   government plus the first administrative tier below it, as a match
   policy table, =domain,kind,country=: =subtree= is a domain and
@@ -62,8 +61,7 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
   (=domain,reason=): rejected proposals (not a public body, a typo…).
   A domain listed here never comes back in =proposed.csv=.
 - =proposed.csv= -- the curation worklist: domains scored 0 to 10 by
-  how many sources agree, with their =level= when known, HTTPS status
-  and MX. Generated.
+  how many sources agree, with their =level= when known. Generated.
 - =summary.md= -- a human-readable cross-check report. Generated.
 - =sources/= -- the raw data behind the above, one folder per source,
   never edited by hand.
@@ -82,7 +80,8 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - *Wayback Machine* -- hosts captured by the Internet Archive (its CDX
   index), on demand for the roots crt.sh leaves empty.
 - *HTTPS and MX probes* -- check that a host actually serves content
-  and receives email.
+  and receives email. Kept out of the CSV files, in a local
+  [[https://github.com/datalevin/datalevin][Datalevin]] database, =data/.db= (not versioned).
 - *Wikidata* -- ministries, parliaments, central banks, courts,
   universities and research institutes, with their official websites.
 - *ROR* -- the universities the [[https://ror.org][Research Organization Registry]]

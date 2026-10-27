@@ -1,48 +1,48 @@
-subdomain,http_status,mx
-afmd.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-cdn.mosp.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-cdn2.mosp.mnd.go.kr,ConnectException > UnresolvedAddressException,
-cds.mosp.mnd.go.kr,ConnectException > NoRouteToHostException: Host is unreachable,
-chat.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-chatback.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-cmdm.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-creative.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-creative1.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-data.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-deliis.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-dex.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-dita.mnd.go.kr,200,
-dpis.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-extra.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-gomedservice.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-gunjong.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-hrkeeper.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-m-recruit.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-m.psvis.mnd.go.kr,200,
-mail.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mauth.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-mdm.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mics.mnd.go.kr,200,
-micslaw.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mkw.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-mnd.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 fmcpay.mnd.go.kr.; 0 mail.mnd.go.kr.
-mndkids.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-mosp.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-muro.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-ndisc.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-new.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-newstart.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-oldmail.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-opendata.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-psvis.mnd.go.kr,200,
-recruit.mnd.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-reform.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-roama.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-rokdcc.mnd.go.kr,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-www.deliis.mnd.go.kr,ConnectException > UnresolvedAddressException,
-www.dita.mnd.go.kr,ConnectException > UnresolvedAddressException,
-www.m.psvis.mnd.go.kr,ConnectException > UnresolvedAddressException,
-www.mdm.mnd.go.kr,ConnectException > UnresolvedAddressException,
-www.mics.mnd.go.kr,ConnectException > UnresolvedAddressException,
-www.micslaw.mnd.go.kr,ConnectException > UnresolvedAddressException,
-www.mnd.go.kr,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,0 mail.mnd.go.kr.
+subdomain
+afmd.mnd.go.kr
+cdn.mosp.mnd.go.kr
+cdn2.mosp.mnd.go.kr
+cds.mosp.mnd.go.kr
+chat.mnd.go.kr
+chatback.mnd.go.kr
+cmdm.mnd.go.kr
+creative.mnd.go.kr
+creative1.mnd.go.kr
+data.mnd.go.kr
+deliis.mnd.go.kr
+dex.mnd.go.kr
+dita.mnd.go.kr
+dpis.mnd.go.kr
+extra.mnd.go.kr
+gomedservice.mnd.go.kr
+gunjong.mnd.go.kr
+hrkeeper.mnd.go.kr
+m-recruit.mnd.go.kr
+m.psvis.mnd.go.kr
+mail.mnd.go.kr
+mauth.mnd.go.kr
+mdm.mnd.go.kr
+mics.mnd.go.kr
+micslaw.mnd.go.kr
+mkw.mnd.go.kr
+mnd.go.kr
+mndkids.mnd.go.kr
+mosp.mnd.go.kr
+muro.mnd.go.kr
+ndisc.mnd.go.kr
+new.mnd.go.kr
+newstart.mnd.go.kr
+oldmail.mnd.go.kr
+opendata.mnd.go.kr
+psvis.mnd.go.kr
+recruit.mnd.go.kr
+reform.mnd.go.kr
+roama.mnd.go.kr
+rokdcc.mnd.go.kr
+www.deliis.mnd.go.kr
+www.dita.mnd.go.kr
+www.m.psvis.mnd.go.kr
+www.mdm.mnd.go.kr
+www.mics.mnd.go.kr
+www.micslaw.mnd.go.kr
+www.mnd.go.kr

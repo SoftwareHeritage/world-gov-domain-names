@@ -5,8 +5,7 @@
 ;; in dependency order; every targeted command writes one kind of file.
 ;;
 ;;   collect            the harvest: fetch (+ retry on failure), normalize,
-;;                      probe, mx, probe-roots -> sources/harvest/,
-;;                      sources/probes/roots.csv
+;;                      probe, mx, probe-roots -> sources/harvest/, data/.db
 ;;   enrich             the per-country sources: build-qid, build-gec,
 ;;                      build-un-ids, subdivisions, then wikidata (+ academia)
 ;;                      + ror/iana/cia/un-desa/oecd/meta in parallel
@@ -17,14 +16,17 @@
 ;;   all                collect + enrich + build + report
 ;;
 ;; Targeted commands (collect):
-;;   fetch [DOM…]       crt.sh fetch (1+ domains)
-;;   retry [DOM…]       retry the FAILs from /tmp/fetch_subdomains.log
+;;   fetch [DOM…]       crt.sh fetch (every harvest root, or those due with
+;;                      MAX_AGE) -> outcome and date in data/.db
+;;   retry [DOM…]       retry the roots whose last fetch failed (data/.db)
 ;;   normalize          clean every harvest file (sources/harvest/<root>.csv);
 ;;                      a host under two harvested roots stays in the deeper file
-;;   probe [DOM…]       HTTPS HEAD probe of the harvest rows with empty status
-;;   mx [DOM…]          DNS MX lookup of the harvest rows -> mx column (email signal)
+;;   probe [DOM…]       HTTPS HEAD probe of the harvested hosts not probed yet
+;;                      -> data/.db
+;;   mx [DOM…]          DNS MX lookup of the harvested hosts -> data/.db
+;;                      (email signal)
 ;;   probe-roots [C…]   HTTPS HEAD + MX of the confirmed roots that have no
-;;                      harvest file -> sources/probes/roots.csv
+;;                      harvest file -> data/.db
 ;;
 ;; Targeted commands (enrich):
 ;;   build-qid          country_dir -> Wikidata QID: data/country_qid.csv
@@ -57,8 +59,7 @@
 ;;   summary [C…]       the per-country report -> countries/<c>/summary.md
 ;;
 ;; Other commands:
-;;   probe-proposed [C…] HTTPS HEAD + MX of the proposed hosts
-;;                      -> sources/probes/proposed.csv (propose joins them)
+;;   probe-proposed [C…] HTTPS HEAD + MX of the proposed hosts -> data/.db
 ;;   wayback DOM…       Wayback Machine CDX harvest of the given roots, merged
 ;;                      into sources/harvest/<root>.csv (slow: on demand, for the
 ;;                      roots crt.sh leaves empty)
@@ -73,6 +74,8 @@
 ;; Environment variables:
 ;;   FORCE=1            force-overwrite existing outputs; re-probe every host
 ;;                      (probe, mx, probe-roots, probe-proposed)
+;;   MAX_AGE            days: also re-probe the probes older than that, or
+;;                      undated, and fetch only the roots not fetched since
 ;;   PARALLEL           # concurrent requests (fetch/probe)
 ;;   TIMEOUT            HTTPS request timeout in seconds (probe), default 5s
 
@@ -81,6 +84,7 @@
             [enrich :as enrich]
             [registries :as registries]
             [indegree :as indegree]
+            [probes :as probes]
             [babashka.http-client :as http]
             [babashka.fs :as fs]
             [babashka.process :as proc]
@@ -91,17 +95,16 @@
 ;;  Harvest files -- countries/<c>/sources/harvest/<root>.csv
 ;; ===========================================================================
 ;;
-;; One file per harvested root domain, columns subdomain,http_status,mx:
-;; every host crt.sh ever saw under the root, the root's apex included,
-;; with the HTTPS probe and the MX lookup of each. Harvesting a root is a
-;; choice distinct from confirming it: `fetch <root>` creates the file of a
-;; confirmed central or central-1 domain (a harvest root, see
-;; common/harvest-roots); harvest roots without a file (registry roots,
-;; mostly) only get their apex probed, into
-;; countries/<c>/sources/probes/roots.csv (domain,http_status,mx). local
-;; rows are never harvested.
+;; One file per harvested root domain, one column subdomain: every host
+;; crt.sh ever saw under the root, the root's apex included. The HTTPS
+;; probe and the MX lookup of each host live in data/.db (probes.clj).
+;; Harvesting a root is a choice distinct from confirming it: `fetch
+;; <root>` creates the file of a confirmed central or central-1 domain (a
+;; harvest root, see common/harvest-roots); harvest roots without a file
+;; (registry roots, mostly) only get their apex probed. local rows are
+;; never harvested.
 
-(def harvest-header ["subdomain" "http_status" "mx"])
+(def harvest-header ["subdomain"])
 
 (defn harvest-files
   "All harvest files (paths as strings), scoped to one country_dir glob."
@@ -122,11 +125,11 @@
   (country-src country-dir "harvest" (str root ".csv")))
 
 (defn read-harvest
-  "Rows [host http_status mx] of a harvest file; empty when absent."
+  "Hosts of a harvest file; empty when absent."
   [file]
-  (for [[h st mx] (rest (read-csv-raw file))
+  (for [[h] (rest (read-csv-raw file))
         :when (not (str/blank? h))]
-    [h (or st "") (or mx "")]))
+    h))
 
 (defn normalize-host
   "The host of a harvested name or URL: lowercased, wildcard prefix,
@@ -143,50 +146,20 @@
     (when (valid-hostname? h) h)))
 
 (defn write-harvest!
-  "Write [host http_status mx] rows to a harvest file: add the apex row,
-  keep the first non-blank status and mx per host, sort by host."
-  [file rows]
-  (let [merged (reduce (fn [m [h st mx]]
-                         (update m h (fn [[s0 m0]]
-                                       [(if (str/blank? s0) (or st "") s0)
-                                        (if (str/blank? m0) (or mx "") m0)])))
-                       {} (cons [(harvest-root file) "" ""] rows))]
-    (write-csv-file file harvest-header
-                    (for [[h [st mx]] (sort-by first merged)] [h st mx]))))
+  "Write hosts to a harvest file: add the apex, dedupe, sort."
+  [file hosts]
+  (write-csv-file file harvest-header
+                  (map vector (sort (set (cons (harvest-root file) hosts))))))
 
 (defn add-hosts!
-  "Merge new hosts, unprobed, into a harvest file."
+  "Merge new hosts into a harvest file."
   [file hosts]
-  (write-harvest! file (concat (read-harvest file) (for [h hosts] [h "" ""]))))
-
-(defn read-probe-file
-  "{host [http_status mx]} of a probes file (<key>,http_status,mx)."
-  [path]
-  (into {} (for [[h st mx] (rest (read-csv-raw path)) :when (not (str/blank? h))]
-             [h [(or st "") (or mx "")]])))
-
-(defn write-probe-file! [path key-header probes]
-  (write-csv-file path [key-header "http_status" "mx"]
-                  (for [[h [st mx]] (sort-by first probes)] [h st mx])))
+  (write-harvest! file (concat (read-harvest file) hosts)))
 
 (defn unharvested-roots
   "Harvest roots of a country without a harvest file."
   [country-dir]
   (remove #(fs/exists? (harvest-file country-dir %)) (harvest-roots country-dir)))
-
-;; sources/probes/roots.csv: the harvest roots that have no harvest file.
-(defn read-probes [country-dir] (read-probe-file (country-src country-dir "probes" "roots.csv")))
-(defn write-probes!
-  "Write sources/probes/roots.csv of a country, keeping only its
-  unharvested roots."
-  [country-dir probes]
-  (write-probe-file! (country-src country-dir "probes" "roots.csv") "domain"
-                     (select-keys probes (unharvested-roots country-dir))))
-
-;; sources/probes/proposed.csv: the hosts proposed for validation.
-(defn read-proposed-probes [country-dir] (read-probe-file (country-src country-dir "probes" "proposed.csv")))
-(defn write-proposed-probes! [country-dir probes]
-  (write-probe-file! (country-src country-dir "probes" "proposed.csv") "hostname" probes))
 
 (defn resolve-harvest-files
   "Harvest file paths of the given domains: the existing files, else the
@@ -214,7 +187,7 @@
 
 (defn fetch-one!
   "Fetch the subdomains of a harvest file's root from crt.sh and merge
-  them, normalized, into the file, keeping the probes of known hosts.
+  them, normalized, into the file.
   :ok, or :fail with nothing written -- on an unreadable answer, and on
   an empty one while the file holds no host yet."
   [file]
@@ -249,20 +222,22 @@
                                              :else " (empty answer)")))
           :fail))))
 
-(def fetch-fail-log "/tmp/fetch_subdomains.log")
+(defn- save-fetches!
+  "Record the outcome of [[file :ok|:fail]…] in data/.db: retry replays
+  the roots whose last fetch failed."
+  [results]
+  (probes/save-fetches! (into {} (for [[f outcome] results] [(harvest-root f) outcome])))
+  results)
 
 (defn fetch-all!
-  "fetch-one! over the harvest files of args: [[file :ok|:fail]…].
-  Record this run's failures in fetch-fail-log."
+  "fetch-one! over the harvest files of args -- without args, every one
+  whose root is due (probes/due-fetches) -- recording the outcomes:
+  [[file :ok|:fail]…]."
   [args]
-  (let [files   (resolve-harvest-files args)
-        results (bounded-pmap (parallel 4) (fn [f] [f (fetch-one! f)]) files)
-        fails   (->> results (filter #(= :fail (second %))) (map (comp harvest-root first)))]
-    ;; Record this run's failures (fresh, never appended) so `retry` -- whether
-    ;; called inside run-collect or as a standalone command -- replays exactly
-    ;; the domains that just failed, not a stale log from a previous session.
-    (spit fetch-fail-log (str/join "\n" (map #(str "FAIL " %) fails)))
-    results))
+  (let [files (resolve-harvest-files args)
+        due   (set (probes/due-fetches (map harvest-root files)))
+        files (if (seq args) files (filter (comp due harvest-root) files))]
+    (save-fetches! (bounded-pmap (parallel 4) (fn [f] [f (fetch-one! f)]) files))))
 
 (defn cmd-fetch [args]
   (if (some #(= :fail (second %)) (fetch-all! args)) 1 0))
@@ -286,49 +261,39 @@
         (do (println (str "FAIL " domain " after " attempt " attempts")) :fail)))))
 
 (defn cmd-retry [args]
-  (let [domains (if (seq args)
-                  args
-                  (when (fs/exists? fetch-fail-log)
-                    (->> (slurp fetch-fail-log) str/split-lines
-                         (filter #(str/starts-with? % "FAIL"))
-                         (map #(second (str/split % #"\s+")))
-                         (filter seq))))]
+  (let [domains (if (seq args) args (probes/failed-fetches))]
     (if (empty? domains)
-      (do (err "No FAIL in " fetch-fail-log " (and no argument provided).") 1)
-      (if (some #{:fail} (bounded-pmap (parallel 2) retry-one! (resolve-harvest-files (vec domains))))
-        1
-        0))))
+      (do (err "No failed fetch in data/.db (and no argument provided).") 1)
+      (let [files   (resolve-harvest-files (vec domains))
+            results (save-fetches! (bounded-pmap (parallel 2) (fn [f] [f (retry-one! f)]) files))]
+        (if (some #(= :fail (second %)) results) 1 0)))))
 
 ;; ===========================================================================
 ;;  collect -- normalize
 ;; ===========================================================================
 
-(defn normalize-harvest-rows
-  "Clean [host status mx] rows: normalize-host the host, drop the rows
-  it rejects, single-line the probes."
-  [rows]
-  (for [[dom status mx] rows
-        :let [dom (normalize-host dom)]
-        :when dom]
-    [dom (single-line (or status "")) (single-line (or mx ""))]))
+(defn normalize-harvest-hosts
+  "normalize-host the hosts, dropping those it rejects."
+  [hosts]
+  (keep normalize-host hosts))
 
 (defn split-nested
-  "Split the rows of a harvest root among root and the deeper
-  harvested roots of its country: {root rows…}, each row under the
+  "Split the hosts of a harvest root among root and the deeper
+  harvested roots of its country: {root hosts…}, each host under the
   longest root it sits on (the apex of a deeper root included). Pure."
-  [root deeper rows]
+  [root deeper hosts]
   (let [deeper (sort-by (comp - count) deeper)]
-    (group-by (fn [[h]]
+    (group-by (fn [h]
                 (or (some #(when (or (= h %) (str/ends-with? h (str "." %))) %) deeper)
                     root))
-              rows)))
+              hosts)))
 
 (defn cmd-normalize
-  "Clean every harvest file (normalize-harvest-rows) and move the rows
-  sitting under a deeper harvested root of the same country into that
-  root's file (the hacienda.gob.es rows of gob.es.csv go to
-  hacienda.gob.es.csv), the probes already there winning: a host is
-  probed once, in the file of its longest root."
+  "Clean every harvest file (normalize-harvest-hosts) and move the
+  hosts sitting under a deeper harvested root of the same country into
+  that root's file (the hacienda.gob.es hosts of gob.es.csv go to
+  hacienda.gob.es.csv): a host is listed once, in the file of its
+  longest root."
   [_]
   (doseq [c (country-dirs)
           :let [files (harvest-files c)
@@ -337,7 +302,7 @@
           :let [root    (harvest-root file)
                 deeper  (filter #(str/ends-with? % (str "." root)) roots)
                 rows    (read-harvest file)
-                by-root (split-nested root deeper (normalize-harvest-rows rows))
+                by-root (split-nested root deeper (normalize-harvest-hosts rows))
                 moved   (dissoc by-root root)]]
     (doseq [[r rs] moved
             :let [f (harvest-file c r)]]
@@ -458,9 +423,15 @@
 
 (defn- blank-hosts
   "Hosts of a {host [http_status mx]} map whose column idx (0 = HTTPS
-  status, 1 = MX) is blank; every host with FORCE=1."
+  status, 1 = MX) is blank or, with MAX_AGE, stale; every host with
+  FORCE=1."
   [probes idx]
-  (for [[h v] probes :when (or force? (str/blank? (nth v idx)))] h))
+  (for [[h v] probes :when (or force? (str/blank? (nth v idx)) (probes/stale? h idx))] h))
+
+(defn- save-probes!
+  "Store column idx of a {host [http_status mx]} map for hosts in data/.db."
+  [probes idx hosts]
+  (probes/save! idx (into {} (for [h hosts] [h (get-in probes [h idx])]))))
 
 (defn- fill-hosts!
   "Fill column idx of a {host [http_status mx]} map with (lookup host)
@@ -470,33 +441,22 @@
           probes
           (bounded-pmap conc (fn [h] [h (lookup h)]) hosts)))
 
-(defn- harvest->probes [rows] (into {} (for [[h st mx] rows] [h [st mx]])))
-(defn- probes->harvest [probes] (for [[h [st mx]] probes] [h st mx]))
-
 (defn- with-mx-count [hosts probes]
   (count (remove #(#{"" "none" "dig error"} (second (get probes %))) hosts)))
 
-(defn- roots-probes
-  "{root [http_status mx]} of a country's unharvested roots, from
-  sources/probes/roots.csv; blank for a root not probed yet."
-  [country-dir]
-  (let [roots (unharvested-roots country-dir)]
-    (merge (zipmap roots (repeat ["" ""]))
-           (select-keys (read-probes country-dir) roots))))
-
 (defn probe-domain!
-  "Probe the hosts of a harvest file whose status is blank and write
-  the results into its http_status column."
+  "Probe the hosts of a harvest file without an HTTPS status and store
+  the results in data/.db."
   [file timeout]
   (when (fs/exists? file)
     (let [root-name (harvest-root file)
-          probes    (harvest->probes (read-harvest file))
+          probes    (probes/probes-of (read-harvest file))
           todo      (blank-hosts probes 0)]
       (if (empty? todo)
-        (println (str "[" root-name "] no empty-status row to probe"))
+        (println (str "[" root-name "] no unprobed host"))
         (do (println (str "[" root-name "] " (count todo) " subdomains to probe"))
-            (write-harvest! file (probes->harvest
-                                   (fill-hosts! probes 0 #(second (probe-one! % timeout)) (parallel 50) todo))))))))
+            (save-probes! (fill-hosts! probes 0 #(second (probe-one! % timeout)) (parallel 50) todo)
+                          0 todo))))))
 
 (defn cmd-probe
   "probe-domain! over the harvest files of args (every one when empty)."
@@ -526,16 +486,16 @@
       :else                     "none")))
 
 (defn mx-domain!
-  "Look up the MX of the hosts of a harvest file whose mx is blank and
-  fill the column."
+  "Look up the MX of the hosts of a harvest file without one and store
+  them in data/.db."
   [file conc]
   (let [root-name (harvest-root file)
-        probes    (harvest->probes (read-harvest file))
+        probes    (probes/probes-of (read-harvest file))
         todo      (blank-hosts probes 1)]
     (if (empty? todo)
       (println (str "[" root-name "] mx: nothing to look up"))
       (let [filled (fill-hosts! probes 1 mx-lookup conc todo)]
-        (write-harvest! file (probes->harvest filled))
+        (save-probes! filled 1 todo)
         (println (str "[" root-name "] mx: " (count todo) " looked up ("
                       (with-mx-count todo filled) " with MX)"))))))
 
@@ -548,22 +508,22 @@
 ;; ===========================================================================
 ;;  collect -- probe-roots (the confirmed roots without a harvest file)
 ;; ===========================================================================
-;; Same shape as probe-proposed: country-scoped, both probe columns of
-;; one probes file at once.
+;; Same shape as probe-proposed: country-scoped, both probes at once.
 
 (defn probe-roots!
-  "Probe (HTTPS HEAD, MX) the unharvested roots of a country whose
-  columns are blank and write sources/probes/roots.csv."
+  "Probe (HTTPS HEAD, MX) the unharvested roots of a country lacking
+  either probe and store the results in data/.db."
   [country-dir timeout conc]
-  (let [probes    (roots-probes country-dir)
+  (let [probes    (probes/probes-of (unharvested-roots country-dir))
         todo-http (blank-hosts probes 0)
         todo-mx   (blank-hosts probes 1)]
     (when (or (seq todo-http) (seq todo-mx))
       (let [filled (-> probes
                        (fill-hosts! 0 #(second (probe-one! % timeout)) conc todo-http)
                        (fill-hosts! 1 mx-lookup conc todo-mx))]
-        (write-probes! country-dir filled)
-        (println (str "[" country-dir "/probes] roots: " (count todo-http) " probed, "
+        (save-probes! filled 0 todo-http)
+        (save-probes! filled 1 todo-mx)
+        (println (str "[" country-dir "] roots: " (count todo-http) " probed, "
                       (count todo-mx) " MX looked up ("
                       (with-mx-count todo-mx filled) " with MX)"))))))
 
@@ -576,34 +536,25 @@
 ;;  build -- aggregate
 ;; ===========================================================================
 ;; Reads the harvest (collect) and the country metadata of
-;; data/sources/country_data.csv (enrich, meta): run after both.
+;; data/sources/country_data.csv (enrich, meta): run after both. The
+;; probes stay in data/.db.
 
 (defn country-hosts
-  "[host parent_domain http_status mx] rows of a country: every host of
-  its harvest files, plus the unharvested roots with their probes from
-  sources/probes/roots.csv. A host found in several harvest files (a
-  root harvested under another harvested root: hacienda.gob.es under
-  gob.es) gets one row, with the longest parent and the first non-blank
-  status and mx. Sorted by host."
+  "[host parent_domain] rows of a country: every host of its harvest
+  files, plus the unharvested roots. A host found in several harvest
+  files (a root harvested under another harvested root:
+  hacienda.gob.es under gob.es) gets one row, with the longest parent.
+  Sorted by host."
   [country-dir]
   (let [harvested (->> (for [file (harvest-files country-dir)
                              :let [parent (harvest-root file)]
-                             [sub st mx] (read-harvest file)]
-                         [sub parent st mx])
+                             sub (read-harvest file)]
+                         [sub parent])
                        (sort-by #(- (count (second %))))
-                       (reduce (fn [m [sub parent st mx]]
-                                 (update m sub (fn [[p0 s0 m0]]
-                                                 [(or p0 parent)
-                                                  (if (str/blank? s0) st s0)
-                                                  (if (str/blank? m0) mx m0)])))
-                               {})
-                       (map (fn [[sub [parent st mx]]] [sub parent st mx])))
-        seen      (set (map first harvested))
-        probes    (read-probes country-dir)
+                       (reduce (fn [m [sub parent]] (update m sub #(or % parent))) {}))
         roots     (for [d (unharvested-roots country-dir)
-                        :when (not (seen d))
-                        :let [[st mx] (get probes d ["" ""])]]
-                    [d d st mx])]
+                        :when (not (harvested d))]
+                    [d d])]
     (sort-by first (concat harvested roots))))
 
 (defn- country-meta-map
@@ -625,7 +576,6 @@
         ;; subdomains) plus the apex of every harvest root, regardless of
         ;; HTTP/MX. Inclusion criterion: the host existed in DNS at least once
         ;; (it appeared in a source like crt.sh) or is a confirmed root.
-        ;; http_status and mx travel along as signals, never as filters.
         rows (->> (country-dirs)
                   (mapcat (fn [country]
                             (let [un (get un-by-country country "member")
@@ -633,14 +583,13 @@
                               ;; UN-facing output: keep UN members and observers
                               ;; only, never non-UN entities (Taiwan, Kosovo).
                               (when (not= un "non_un")
-                                (for [[sub parent status mx] (country-hosts country)]
+                                (for [[sub parent] (country-hosts country)]
                                   [sub parent country un
-                                   (:region m) (:langs m) (:gdp m)
-                                   status mx])))))
+                                   (:region m) (:langs m) (:gdp m)])))))
                   (sort-by first))]
     (write-csv-file public-sector-file
                     ["subdomain" "parent_domain" "country" "un_status"
-                     "region" "languages" "gdp_per_capita" "http_status" "mx"]
+                     "region" "languages" "gdp_per_capita"]
                     rows)
     (let [counts (frequencies (map #(nth % 3) rows))]
       (println (str "Wrote " public-sector-file " (" (count rows) " hosts)"))
@@ -935,29 +884,24 @@
 
 (defn propose-country!
   "Write countries/<c>/proposed.csv
-  (domain,score,sources,label,level,http_status,mx): the ranked
-  candidates joined with the probes of sources/probes/proposed.csv."
+  (domain,score,sources,label,level): the ranked candidates."
   [country-dir]
-  (let [probes (read-proposed-probes country-dir)
-        out    (str "countries/" country-dir "/proposed.csv")
-        rows   (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))
-                     :let [[st mx] (get probes h ["" ""])]]
-                 [h (str sc) src lbl lvl st mx])]
-    (write-csv-file out ["domain" "score" "sources" "label" "level" "http_status" "mx"] rows)
+  (let [out  (str "countries/" country-dir "/proposed.csv")
+        rows (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))]
+               [h (str sc) src lbl lvl])]
+    (write-csv-file out ["domain" "score" "sources" "label" "level"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))))
 
 (defn cmd-propose [args] (iter-countries propose-country! args))
 
 (defn probe-proposed!
-  "Probe (HTTPS HEAD, MX) the hosts of proposed.csv whose columns are
-  blank and write sources/probes/proposed.csv, keeping only the hosts
-  still proposed. Leave proposed.csv as is."
+  "Probe (HTTPS HEAD, MX) the hosts of proposed.csv lacking either
+  probe and store the results in data/.db."
   [country-dir timeout conc]
   (let [hosts  (for [[h] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                      :when (valid-hostname? h)]
                  h)
-        probes (merge (zipmap hosts (repeat ["" ""]))
-                      (select-keys (read-proposed-probes country-dir) hosts))
+        probes (probes/probes-of hosts)
         todo-http (blank-hosts probes 0)
         todo-mx   (blank-hosts probes 1)]
     (if (and (empty? todo-http) (empty? todo-mx))
@@ -965,7 +909,8 @@
       (let [filled (-> probes
                        (fill-hosts! 0 #(second (probe-one! % timeout)) conc todo-http)
                        (fill-hosts! 1 mx-lookup conc todo-mx))]
-        (write-proposed-probes! country-dir filled)
+        (save-probes! filled 0 todo-http)
+        (save-probes! filled 1 todo-mx)
         (println (str "[" country-dir "] proposed: " (count todo-http) " probed, "
                       (count todo-mx) " MX looked up ("
                       (count (filter #(re-matches #"[23]\d\d" (first (get filled %))) todo-http))
@@ -973,11 +918,8 @@
 
 (defn cmd-probe-proposed [args]
   (let [timeout (env-int "TIMEOUT" 5)
-        conc    (parallel 50)
-        code    (iter-countries #(probe-proposed! % timeout conc) args)]
-    (when (zero? code)
-      (println "Run 'bb pipeline propose' to fold the probes into proposed.csv."))
-    code))
+        conc    (parallel 50)]
+    (iter-countries #(probe-proposed! % timeout conc) args)))
 
 ;; ===========================================================================
 ;;  report -- summary (the per-country report)
@@ -1274,8 +1216,9 @@
   country-scoped)."
   [args]
   (exit-code
-   (when (some #(= :fail (second %)) (fetch-all! args))
-     (cmd-retry []))
+   (when-let [fails (seq (for [[f outcome] (fetch-all! args) :when (= :fail outcome)]
+                           (harvest-root f)))]
+     (cmd-retry (vec fails)))
    (cmd-normalize nil)
    (cmd-probe args)
    (cmd-mx args)
@@ -1360,7 +1303,7 @@
   (println)
   (println "Forge/catalog detection moved to scripts/detect-forges.clj (bb forges)")
   (println)
-  (println "Environment variables: FORCE=1, PARALLEL=N, TIMEOUT=Ns"))
+  (println "Environment variables: FORCE=1, MAX_AGE=days, PARALLEL=N, TIMEOUT=Ns"))
 
 ;; Run only as a script (bb scripts/pipeline.clj …), not when required
 ;; from another namespace or loaded in a REPL.

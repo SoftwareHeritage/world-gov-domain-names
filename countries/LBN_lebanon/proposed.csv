@@ -1,66 +1,66 @@
-domain,score,sources,label,level,http_status,mx
-custodia.org,6,wikidata,Custodian of the Holy Land,,301,0 custodia-org.mail.protection.outlook.com.
-ul.edu.lb,6,academia;ror,Lebanese University,central,,
-conseilconstitutionnelliban.com,5,wikidata,Constitutional Council (Lebanon),central,301,none
-bejrut.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Beirut",,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-caus.org.lb,4,academia,Centre for Arab Unity Studies,,,
-cnrs.edu.lb,4,wikidata,National Council for Scientific Research,,200,0 cnrs-edu-lb.mail.protection.outlook.com.
-iwsaw.lau.edu.lb,4,academia,Arab Institute for Women,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Beirut",central,IOException: HTTP/1.1 header parser received no bytes,20 smartmail2.fednet.gov.ae.; 10 smartmail1.fednet.gov.ae.
-aku.edu.lb,3,ror,Al-Kafaàt University,central,,
-alarabiahcouncil.org,3,wikidata,Arabic Language International Council,,301,10 mx2.hostinger.com.; 5 mx1.hostinger.com.
-ambafrance-lb.org,3,wikidata,"French Embassy, Beirut",central,ConnectException,none
-aou.edu.lb,3,ror,Arab Open University,central,,
-aub.edu.lb,3,ror,American University of Beirut,central,,
-auce.edu.lb,3,ror,American University of Culture and Education,central,,
-aul.edu.lb,3,ror,"Arts, Sciences and Technology University in Lebanon",central,,
-aust.edu.lb,3,ror,American University of Science and Technology,central,,
-b-iu.edu.lb,3,ror,International University of Beirut,central,,
-balamand.edu.lb,3,ror,University of Balamand,central,,
-bangladeshembassybeirut.org,3,wikidata,"Embassy of Bangladesh, Beirut",central,200,5 mx1-hosting.jellyfish.systems.; 20 mx3-hosting.jellyfish.systems.; 10 mx2-hosting.jellyfish.systems.
-bau.edu.lb,3,ror,Beirut Arab University,central,,
-beirut.diplo.de,3,wikidata,"Embassy of Germany, Beirut",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-beirut.mae.ro,3,wikidata,"Embassy of Romania, Beirut",central,ConnectException,none
-biu.edu.lb,3,ror,Beirut Islamic University,central,,
-cityu.edu.lb,3,ror,City University,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Lebanon,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-emro.who.int,3,wikidata,World Health Organization - Lebanon,,ConnectException,none
-esa.edu.lb,3,ror,École Supérieure des Affaires,central,,
-finlandabroad.fi,3,wikidata,embassy of Finland in Lebanon,central,301,10 mail.valtori.fi.
-gu.edu.lb,3,ror,Global University,central,,
-haigazian.edu.lb,3,ror,Haigazian University,central,,
-icarda.org,3,academia,International Center for Agricultural Research in the Dry Areas,,,
-iul.edu.lb,3,ror,Islamic University of Lebanon,central,,
-jinan.edu.lb,3,ror,Jinan University,central,,
-lau.edu.lb,3,ror,Lebanese American University,central,,
-lb.ambafrance.org,3,wikidata,consulat général de France à Beyrouth,,301,5 mta-gw.infomaniak.ch.
-lcu.edu.lb,3,ror,Lebanese Canadian University,central,,
-lebanon.mid.ru,3,wikidata,"Embassy of Russia, Beirut",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-lgu.edu.lb,3,ror,Lebanese German University,central,,
-libanon.um.dk,3,wikidata,embassy of Denmark in Lebanon,central,301,none
-liu.edu.lb,3,ror,Lebanese International University,central,,
-lncu.org,3,wikidata,Lebanese National Commission for UNESCO,,200,0 lncu.org.
-meu.edu.lb,3,ror,Middle East University,central,,
-mfa.bg,3,wikidata,embassy of Bulgaria in Lebanon,central,302,0 mfa-bg.mail.protection.outlook.com.
-mfa.gr,3,wikidata,embassy of Greece in Lebanon,central,403,10 mailhost.mfa.gr.
-mu.edu.lb,3,ror,Al Maaref University,central,,
-mubs.edu.lb,3,ror,Modern University for Business and Science,central,,
-mzv.cz,3,wikidata,embassy of the Czech republic in Lebanon,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
-mzv.sk,3,wikidata,embassy of Slovakia in Lebanon,central,301,10 mail.gov.sk.
-ndu.edu.lb,3,ror,Notre Dame University – Louaize,central,,
-norway.no,3,wikidata,"Embassy of Norway, Beirut",central,301,0 mx.domeneshop.no.
-palembassylb.com,3,wikidata,"Embassy of Palestine, Beirut",central,200,10 mail.postale.io.; 0 mail.postale.io.
-palestine-studies.org,3,academia,Institute for Palestine Studies,,,
-pu.edu.lb,3,ror,Phoenicia University,central,,
-rhu.edu.lb,3,ror,Rafik Hariri University,central,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Beirut",central,301,none
-ua.edu.lb,3,ror,Antonine University,central,,
-ulf.edu.lb,3,ror,Université de Technologie et de Sciences Appliquées Libano-Française,central,,
-uls.edu.lb,3,ror,Université La Sagesse,central,,
-usal.edu.lb,3,ror,University of Sciences and Arts in Lebanon,central,,
-usek.edu.lb,3,ror,Holy Spirit University of Kaslik,central,,
-usj.edu.lb,3,ror,Saint Joseph University,central,,
-ut.edu.lb,3,ror,University of Tripoli Lebanon,central,,
-aut.edu,2,ror,American University of Technology,central,,
-makassed.org,2,ror,Makassed University,central,,
-ouzai.org,2,ror,Al Imam Al Ouzai University,central,,
+domain,score,sources,label,level
+custodia.org,6,wikidata,Custodian of the Holy Land,
+ul.edu.lb,6,academia;ror,Lebanese University,central
+conseilconstitutionnelliban.com,5,wikidata,Constitutional Council (Lebanon),central
+bejrut.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Beirut",
+caus.org.lb,4,academia,Centre for Arab Unity Studies,
+cnrs.edu.lb,4,wikidata,National Council for Scientific Research,
+iwsaw.lau.edu.lb,4,academia,Arab Institute for Women,
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Beirut",central
+aku.edu.lb,3,ror,Al-Kafaàt University,central
+alarabiahcouncil.org,3,wikidata,Arabic Language International Council,
+ambafrance-lb.org,3,wikidata,"French Embassy, Beirut",central
+aou.edu.lb,3,ror,Arab Open University,central
+aub.edu.lb,3,ror,American University of Beirut,central
+auce.edu.lb,3,ror,American University of Culture and Education,central
+aul.edu.lb,3,ror,"Arts, Sciences and Technology University in Lebanon",central
+aust.edu.lb,3,ror,American University of Science and Technology,central
+b-iu.edu.lb,3,ror,International University of Beirut,central
+balamand.edu.lb,3,ror,University of Balamand,central
+bangladeshembassybeirut.org,3,wikidata,"Embassy of Bangladesh, Beirut",central
+bau.edu.lb,3,ror,Beirut Arab University,central
+beirut.diplo.de,3,wikidata,"Embassy of Germany, Beirut",central
+beirut.mae.ro,3,wikidata,"Embassy of Romania, Beirut",central
+biu.edu.lb,3,ror,Beirut Islamic University,central
+cityu.edu.lb,3,ror,City University,central
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Lebanon,
+emro.who.int,3,wikidata,World Health Organization - Lebanon,
+esa.edu.lb,3,ror,École Supérieure des Affaires,central
+finlandabroad.fi,3,wikidata,embassy of Finland in Lebanon,central
+gu.edu.lb,3,ror,Global University,central
+haigazian.edu.lb,3,ror,Haigazian University,central
+icarda.org,3,academia,International Center for Agricultural Research in the Dry Areas,
+iul.edu.lb,3,ror,Islamic University of Lebanon,central
+jinan.edu.lb,3,ror,Jinan University,central
+lau.edu.lb,3,ror,Lebanese American University,central
+lb.ambafrance.org,3,wikidata,consulat général de France à Beyrouth,
+lcu.edu.lb,3,ror,Lebanese Canadian University,central
+lebanon.mid.ru,3,wikidata,"Embassy of Russia, Beirut",central
+lgu.edu.lb,3,ror,Lebanese German University,central
+libanon.um.dk,3,wikidata,embassy of Denmark in Lebanon,central
+liu.edu.lb,3,ror,Lebanese International University,central
+lncu.org,3,wikidata,Lebanese National Commission for UNESCO,
+meu.edu.lb,3,ror,Middle East University,central
+mfa.bg,3,wikidata,embassy of Bulgaria in Lebanon,central
+mfa.gr,3,wikidata,embassy of Greece in Lebanon,central
+mu.edu.lb,3,ror,Al Maaref University,central
+mubs.edu.lb,3,ror,Modern University for Business and Science,central
+mzv.cz,3,wikidata,embassy of the Czech republic in Lebanon,central
+mzv.sk,3,wikidata,embassy of Slovakia in Lebanon,central
+ndu.edu.lb,3,ror,Notre Dame University – Louaize,central
+norway.no,3,wikidata,"Embassy of Norway, Beirut",central
+palembassylb.com,3,wikidata,"Embassy of Palestine, Beirut",central
+palestine-studies.org,3,academia,Institute for Palestine Studies,
+pu.edu.lb,3,ror,Phoenicia University,central
+rhu.edu.lb,3,ror,Rafik Hariri University,central
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Beirut",central
+ua.edu.lb,3,ror,Antonine University,central
+ulf.edu.lb,3,ror,Université de Technologie et de Sciences Appliquées Libano-Française,central
+uls.edu.lb,3,ror,Université La Sagesse,central
+usal.edu.lb,3,ror,University of Sciences and Arts in Lebanon,central
+usek.edu.lb,3,ror,Holy Spirit University of Kaslik,central
+usj.edu.lb,3,ror,Saint Joseph University,central
+ut.edu.lb,3,ror,University of Tripoli Lebanon,central
+aut.edu,2,ror,American University of Technology,central
+makassed.org,2,ror,Makassed University,central
+ouzai.org,2,ror,Al Imam Al Ouzai University,central

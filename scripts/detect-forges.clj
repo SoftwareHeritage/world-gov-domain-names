@@ -31,6 +31,7 @@
 (ns detect-forges
   (:require [common :refer :all]
             [pipeline :as pipeline]
+            [probes :as probes]
             [babashka.http-client :as http]
             [babashka.process :as proc]
             [cheshire.core :as json]
@@ -473,21 +474,22 @@
   "{host country} of the hosts of countries in the central+ scope: the
   longest confirmed or excluded domain a host sits under decides, and
   must be central or central-1. The hosts the harvest found closed
-  (scan-closed-pattern) are left out, unless their name hints at a
+  (scan-closed-pattern, from data/.db) are left out, unless their name hints at a
   forge: the harvest probe gives up after a few seconds. A host
   harvested for several countries goes to the first one."
   [countries]
-  (let [confirmed (group-by first (confirmed-rows))]
+  (let [confirmed (group-by first (confirmed-rows))
+        status-of (fn [host] (first (get (probes/all-probes) host)))]
     (into {}
           (for [c (reverse countries)
                 :let [level-of (into {} (for [[_ d level] (confirmed c)] [d level]))
                       excluded (get @pipeline/excluded-domains c #{})]
-                [host _parent status] (pipeline/country-hosts c)
+                [host _parent] (pipeline/country-hosts c)
                 :let [level (some #(if (excluded %) "excluded" (level-of %))
                                   (host-suffixes host))]
                 :when (and (contains? harvest-levels level)
                            (or (re-find forge-host-hint host)
-                               (not (re-find scan-closed-pattern (str status)))))]
+                               (not (re-find scan-closed-pattern (str (status-of host))))))]
             [host c]))))
 
 (defn- scan-hosts!
@@ -523,7 +525,7 @@
 (def known-forges-file "data/known-forges.csv")
 (def unknown-file "data/forge-unknown-swh.csv")
 (def unknown-header
-  ["target" "country" "kind" "source" "forge_type" "http_status" "note"])
+  ["domain" "country" "kind" "source" "forge_type" "note"])
 
 ;; The same rows with a contact column. Email addresses stay out of
 ;; git: the file is listed in .gitignore.
@@ -546,7 +548,8 @@
   row in the file, if any. When the host does not answer, or answers
   with a server error, the forge and the contact seen on it before
   stand. A curated forge or a GitHub organization always has a row, a
-  discovered host only while a forge shows: otherwise nil."
+  discovered host only while a forge shows: otherwise nil. The status
+  itself goes to data/.db (cmd-scan)."
   [[target country kind source] {:keys [type status note contact]} previous]
   (let [seen    (nth previous 4 nil)
         down?   (re-matches #"000|5\d\d" status)
@@ -554,15 +557,15 @@
                     (when (and down? (not (contains? #{nil "" "unknown"} seen)))
                       seen))
         contact (if (and down? (str/blank? contact))
-                  (nth previous 7 "")
+                  (nth previous 6 "")
                   (str contact))]
     (when (or type (not= source "scan"))
-      [target country kind source (or type "unknown") status note contact])))
+      [target country kind source (or type "unknown") note contact])))
 
 (defn cmd-scan
   "Write the forges the SWH archive does not know to
-  data/forge-unknown-swh.csv, with their forge_type/http_status/note,
-  and the same rows with a contact email when one shows (contact!) to
+  data/forge-unknown-swh.csv, with their forge_type/note, their
+  homepage status to data/.db (:forge/http-status), and the same rows with a contact email when one shows (contact!) to
   the gitignored data/forge-unknown-swh-with-emails.csv. Candidates:
   the hosts of the central+ scope a fingerprint finds a forge on
   (scan-targets, about an hour for every country), the curated forges
@@ -590,7 +593,7 @@
         ;; the rows of the file, each with the contact of the emails
         ;; file (absent or stale: the file is not in git)
         contacts  (into {} (for [[target & more] (rest (read-csv-raw emails-file))]
-                             [target (nth more 6 "")]))
+                             [target (nth more 5 "")]))
         previous  (for [[target :as row] (rest (read-csv-raw unknown-file))]
                     (conj (vec (take (count unknown-header) (concat row (repeat ""))))
                           (contacts target "")))
@@ -684,21 +687,24 @@
                 errors      (count (filter (comp nil? second) unknown))
                 ;; the contact is looked up on the hosts that answer
                 ;; only: unknown-row keeps the previous one otherwise
-                rows        (bounded-pmap
+                fps         (bounded-pmap
                               (parallel 8)
                               (fn [[[target :as candidate] n]]
                                 (let [fp (or (early target) (fingerprint target))
                                       fp (cond-> fp
                                            (not= "000" (:status fp))
                                            (assoc :contact (contact! target)))]
-                                  (cond-> (row candidate fp)
-                                    (nil? n) (update 6 #(str/join "; " (remove str/blank? [api-error-note %]))))))
+                                  [(cond-> (row candidate fp)
+                                     (nil? n) (update 5 #(str/join "; " (remove str/blank? [api-error-note %]))))
+                                   target (:status fp)]))
                               unknown)
+                rows        (map first fps)
                 kept        (remove (comp (set (map first candidates)) first) previous)]
             (let [all (sort-by first (concat kept rows))]
               (write-csv-file unknown-file unknown-header
                               (map #(subvec % 0 (count unknown-header)) all))
-              (write-csv-file emails-file emails-header all))
+              (write-csv-file emails-file emails-header all)
+              (probes/save-forge-statuses! (into {} (map (comp vec rest) fps))))
             (println (str "Wrote " unknown-file " (" (count rows) " forges unknown to SWH of "
                           (count to-check) " checked"
                           (when (pos? errors)

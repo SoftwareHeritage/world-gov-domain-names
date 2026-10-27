@@ -1,19 +1,19 @@
-subdomain,http_status,mx
-ais.msit.go.kr,200,
-cowork.msit.go.kr,ConnectException > ClosedChannelException,
-english.msit.go.kr,403,
-fias.msit.go.kr,SSLHandshakeException > SocketException: Connection reset,
-imail.msit.go.kr,ConnectException > NoRouteToHostException: Host is unreachable,
-is.msit.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-lib.msit.go.kr,302,
-log.msit.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-miraero.msit.go.kr,ConnectException > ClosedChannelException,
-msit.go.kr,403,0 antispam.korea.kr.
-nams.msit.go.kr,ConnectException > ClosedChannelException,
-portal.msit.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-portaldev.msit.go.kr,ConnectException > ClosedChannelException,
-search.msit.go.kr,302,
-share.msit.go.kr,200,
-www.english.msit.go.kr,ConnectException > UnresolvedAddressException,
-www.is.msit.go.kr,ConnectException > UnresolvedAddressException,
-www.msit.go.kr,403,none
+subdomain
+ais.msit.go.kr
+cowork.msit.go.kr
+english.msit.go.kr
+fias.msit.go.kr
+imail.msit.go.kr
+is.msit.go.kr
+lib.msit.go.kr
+log.msit.go.kr
+miraero.msit.go.kr
+msit.go.kr
+nams.msit.go.kr
+portal.msit.go.kr
+portaldev.msit.go.kr
+search.msit.go.kr
+share.msit.go.kr
+www.english.msit.go.kr
+www.is.msit.go.kr
+www.msit.go.kr

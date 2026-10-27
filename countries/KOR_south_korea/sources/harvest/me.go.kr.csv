@@ -1,58 +1,58 @@
-subdomain,http_status,mx
-5rc.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-asbestos.me.go.kr,301,
-cafe.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-caris.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-cdsapp.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-chemp.me.go.kr,200,
-csc.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-e-learning.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-eais.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-ecc.me.go.kr,301,
-ecccourt.me.go.kr,301,
-ecolibrary.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-ecowaste.me.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching ecowaste.me.go.kr found.,
-edunics.me.go.kr,301,
-egis.me.go.kr,301,
-ehrd.me.go.kr,301,
-ehrdlms.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-elibrary.me.go.kr,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Mon Oct 27 00:59:59 CET 2025,
-envmail.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-etips.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-ezportal.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-gchemp.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-gg.me.go.kr,ConnectException > UnresolvedAddressException,
-ggland.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-ghgv.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-hgland.me.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching hgland.me.go.kr found.,
-icis.me.go.kr,301,
-im.me.go.kr,403,
-jeonju.me.go.kr,ConnectException > UnresolvedAddressException,
-jumin.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kencis.me.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching kencis.me.go.kr found.,
-kreach.me.go.kr,200,
-kreachportal.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-land.me.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching land.me.go.kr found.,
-library.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-me.go.kr,403,0 antispam.korea.kr.
-meim.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-minwon.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mlog.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-ndland.me.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching ndland.me.go.kr found.,
-nics.me.go.kr,301,
-nonpoint.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-pms.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-qtest.me.go.kr,302,
-search.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-vod.ehrd.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-watcher.me.go.kr,301,
-wf.ehrd.me.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching wf.ehrd.me.go.kr found.,
-wmc.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.asbestos.me.go.kr,ConnectException > UnresolvedAddressException,
-www.ghgv.me.go.kr,ConnectException > UnresolvedAddressException,
-www.land.me.go.kr,ConnectException > UnresolvedAddressException,
-www.me.go.kr,403,none
-www.reach.me.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.vod.ehrd.me.go.kr,ConnectException > UnresolvedAddressException,
-www.wf.ehrd.me.go.kr,ConnectException > UnresolvedAddressException,
-ysland.me.go.kr,SSLHandshakeException > CertificateException: No subject alternative DNS name matching ysland.me.go.kr found.,
+subdomain
+5rc.me.go.kr
+asbestos.me.go.kr
+cafe.me.go.kr
+caris.me.go.kr
+cdsapp.me.go.kr
+chemp.me.go.kr
+csc.me.go.kr
+e-learning.me.go.kr
+eais.me.go.kr
+ecc.me.go.kr
+ecccourt.me.go.kr
+ecolibrary.me.go.kr
+ecowaste.me.go.kr
+edunics.me.go.kr
+egis.me.go.kr
+ehrd.me.go.kr
+ehrdlms.me.go.kr
+elibrary.me.go.kr
+envmail.me.go.kr
+etips.me.go.kr
+ezportal.me.go.kr
+gchemp.me.go.kr
+gg.me.go.kr
+ggland.me.go.kr
+ghgv.me.go.kr
+hgland.me.go.kr
+icis.me.go.kr
+im.me.go.kr
+jeonju.me.go.kr
+jumin.me.go.kr
+kencis.me.go.kr
+kreach.me.go.kr
+kreachportal.me.go.kr
+land.me.go.kr
+library.me.go.kr
+me.go.kr
+meim.me.go.kr
+minwon.me.go.kr
+mlog.me.go.kr
+ndland.me.go.kr
+nics.me.go.kr
+nonpoint.me.go.kr
+pms.me.go.kr
+qtest.me.go.kr
+search.me.go.kr
+vod.ehrd.me.go.kr
+watcher.me.go.kr
+wf.ehrd.me.go.kr
+wmc.me.go.kr
+www.asbestos.me.go.kr
+www.ghgv.me.go.kr
+www.land.me.go.kr
+www.me.go.kr
+www.reach.me.go.kr
+www.vod.ehrd.me.go.kr
+www.wf.ehrd.me.go.kr
+ysland.me.go.kr

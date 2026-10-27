@@ -1,25 +1,25 @@
-domain,score,sources,label,level,http_status,mx
-mzuni.ac.mw,6,academia;ror,Mzuzu University,central,,
-aidsmalawi.org.mw,4,wikidata,National AIDS Commission,,ConnectException,0 aidsmalawi-org-mw.mail.protection.outlook.com.
-frim.org.mw,4,wikidata,Forestry Research Institute of Malawi,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching frim.org.mw found.,10 domwe.sdn.mw.; 5 zalewa.sdnp.org.mw.
-mlw.medcol.mw,4,academia,Malawi Liverpool Wellcome Trust,,,
-mra.mw,4,wikidata,Malawi Revenue Authority,,404,40 alt3.emea.email.fireeyecloud.com.; 10 primary.emea.email.fireeyecloud.com.; 50 mra-mw.mail.protection.outlook.com.; 20 alt1.emea.email.fireeyecloud.com.; 30 alt2.emea.email.fireeyecloud.com.
-ncst.mw,4,wikidata,National Commission for Science and Technology Malawi,,200,20 ALT2.ASPMX.L.GOOGLE.COM.; 30 ASPMX5.GOOGLEMAIL.COM.; 20 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX.L.GOOGLE.COM.; 30 ASPMX3.GOOGLEMAIL.COM.; 30 ASPMX2.GOOGLEMAIL.COM.; 30 ASPMX4.GOOGLEMAIL.COM.
-nls.mw,4,wikidata,National Library Service of Malawi,,200,0 mail.nls.mw.
-rbm.mw,4,wikidata,Reserve Bank of Malawi,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rbm.mw found.,10 cluster1.eu.messagelabs.com.; 20 cluster1a.eu.messagelabs.com.; 30 rbm-mw.mail.protection.outlook.com.
-sdnp.org.mw,4,wikidata,Department of Agricultural Research & Technical Services,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 domwe2.sdn.mw.; 12 kalata1.sdnp.org.mw.; 15 domwe.sdn.mw.; 25 zalewa.sdnp.org.mw.; 35 zalewa2.sdnp.org.mw.
-afro.who.int,3,wikidata,World Health Organization - Malawi,,200,none
-cunima.ac.mw,3,ror,The Catholic University of Malawi,central,,
-dmisjbu.edu.mw,3,ror,DMI-St. John the Baptist University,central,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Malawi,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-emmanueluniversity.ac.mw,3,ror,Emmanuel University,central,,
-kuhes.ac.mw,3,ror,Kamuzu University of Health Sciences,central,,
-lilongwe.diplo.de,3,wikidata,"Embassy of Germany, Lilongwe",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
-luanar.ac.mw,3,ror,Lilongwe University of Agriculture and Natural Resources,central,,
-mau.ac.mw,3,ror,Malawi Adventist University,central,,
-mubas.ac.mw,3,ror,Malawi University of Business and Applied Sciences,central,,
-must.ac.mw,3,ror,Malawi University of Science and Technology,central,,
-norway.no,3,wikidata,Embassy of Norway in Malawi,central,301,0 mx.domeneshop.no.
-unicafuniversity.ac.mw,3,ror,Unicaf University,central,,
-unilia.ac.mw,3,ror,University of Livingstonia,central,,
-unima.mw,3,ror,University of Malawi,central,,
+domain,score,sources,label,level
+mzuni.ac.mw,6,academia;ror,Mzuzu University,central
+aidsmalawi.org.mw,4,wikidata,National AIDS Commission,
+frim.org.mw,4,wikidata,Forestry Research Institute of Malawi,
+mlw.medcol.mw,4,academia,Malawi Liverpool Wellcome Trust,
+mra.mw,4,wikidata,Malawi Revenue Authority,
+ncst.mw,4,wikidata,National Commission for Science and Technology Malawi,
+nls.mw,4,wikidata,National Library Service of Malawi,
+rbm.mw,4,wikidata,Reserve Bank of Malawi,
+sdnp.org.mw,4,wikidata,Department of Agricultural Research & Technical Services,
+afro.who.int,3,wikidata,World Health Organization - Malawi,
+cunima.ac.mw,3,ror,The Catholic University of Malawi,central
+dmisjbu.edu.mw,3,ror,DMI-St. John the Baptist University,central
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Malawi,
+emmanueluniversity.ac.mw,3,ror,Emmanuel University,central
+kuhes.ac.mw,3,ror,Kamuzu University of Health Sciences,central
+lilongwe.diplo.de,3,wikidata,"Embassy of Germany, Lilongwe",central
+luanar.ac.mw,3,ror,Lilongwe University of Agriculture and Natural Resources,central
+mau.ac.mw,3,ror,Malawi Adventist University,central
+mubas.ac.mw,3,ror,Malawi University of Business and Applied Sciences,central
+must.ac.mw,3,ror,Malawi University of Science and Technology,central
+norway.no,3,wikidata,Embassy of Norway in Malawi,central
+unicafuniversity.ac.mw,3,ror,Unicaf University,central
+unilia.ac.mw,3,ror,University of Livingstonia,central
+unima.mw,3,ror,University of Malawi,central

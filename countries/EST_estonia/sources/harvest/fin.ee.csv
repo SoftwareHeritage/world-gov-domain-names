@@ -1,74 +1,74 @@
-subdomain,http_status,mx
-adrtest.fin.ee,200,
-aruanded.fin.ee,403,
-atptest.fin.ee,302,
-atrprelive.fin.ee,302,
-authenticator.fin.ee,400,
-autodiscover.fin.ee,ConnectException > ClosedChannelException,
-autodiscover.kantselei.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-blog.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-blogi.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-eelarve.fin.ee,ConnectException > UnresolvedAddressException,
-eis.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-eurotoetus.blogi.fin.ee,ConnectException > UnresolvedAddressException,
-fin.ee,200,10 mail3.rit.ee.; 10 mail1.rit.ee.
-haldusreform.fin.ee,ConnectException > UnresolvedAddressException,
-kais.fin.ee,301,
-kaistest.fin.ee,301,
-karp.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kassa.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kassaprelive.fin.ee,400,
-kassaprelive2.fin.ee,400,
-kassatest2.fin.ee,400,
-koolitus.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kysitlus.fin.ee,200,
-lyncdiscover.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-maakonnaplaneering.blogi.fin.ee,ConnectException > UnresolvedAddressException,
-omavalitsus.fin.ee,ConnectException > UnresolvedAddressException,
-pilv.fin.ee,302,
-planeerimine.blogi.fin.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching planeerimine.blogi.fin.ee found.,
-plankpre.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-planktest.fin.ee,200,
-post.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-preauthenticator.fin.ee,400,
-rar.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rar.vmtazdev.fin.ee,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Thu Aug 13 08:16:36 CEST 2026,
-rarai.fin.ee,200,
-rarai.vmtazdev.fin.ee,503,
-rardev.fin.ee,302,
-rarprelive.fin.ee,302,
-rhr-prelive.fin.ee,400,
-rhr-test.fin.ee,302,
-rhrkoolitus.fin.ee,302,
-riigivara.fin.ee,302,
-rkvr-backend.rkvrazuredev.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rkvr-dhx.rkvrazuredev.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rkvr-dhx.vmtazdev.fin.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching rkvr-dhx.vmtazdev.fin.ee found.,
-rkvr-frontend.rkvrazuredev.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rkvr-frontend.vmtazdev.fin.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching rkvr-frontend.vmtazdev.fin.ee found.,
-rkvr-gateway.rkvrazuredev.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rkvr-gateway.vmtazdev.fin.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching rkvr-gateway.vmtazdev.fin.ee found.,
-rkvr-xtee-proxy.rkvrazuredev.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rkvr-xtee-proxy.vmtazdev.fin.ee,SSLHandshakeException > CertificateException: No subject alternative DNS name matching rkvr-xtee-proxy.vmtazdev.fin.ee found.,
-rkvr.vmtazdev.fin.ee,503,
-rkvr.vmtaztest.fin.ee,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Wed Jul 22 11:45:08 CEST 2026,
-rkvrazuredev.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rkvrprelive.fin.ee,302,
-rkvrtest.fin.ee,200,
-saldo.fin.ee,ConnectException > UnresolvedAddressException,
-sip.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-sis.ttaztest.fin.ee,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Tue Sep 01 14:22:44 CEST 2026,
-siseaudit.fin.ee,ConnectException > UnresolvedAddressException,
-test.vmtazdev.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-testaruanded.fin.ee,200,
-testauthenticator.fin.ee,400,
-testrar.fin.ee,302,
-vana-kassa.fin.ee,ConnectException > UnresolvedAddressException,
-vanakarp.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-vmtazdev.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.blogi.fin.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.fin.ee,200,
-www.haldusreform.fin.ee,ConnectException > UnresolvedAddressException,
-www.kassa.fin.ee,ConnectException > UnresolvedAddressException,
-www.omavalitsus.fin.ee,ConnectException > UnresolvedAddressException,
-www.rar.fin.ee,ConnectException > UnresolvedAddressException,
+subdomain
+adrtest.fin.ee
+aruanded.fin.ee
+atptest.fin.ee
+atrprelive.fin.ee
+authenticator.fin.ee
+autodiscover.fin.ee
+autodiscover.kantselei.fin.ee
+blog.fin.ee
+blogi.fin.ee
+eelarve.fin.ee
+eis.fin.ee
+eurotoetus.blogi.fin.ee
+fin.ee
+haldusreform.fin.ee
+kais.fin.ee
+kaistest.fin.ee
+karp.fin.ee
+kassa.fin.ee
+kassaprelive.fin.ee
+kassaprelive2.fin.ee
+kassatest2.fin.ee
+koolitus.fin.ee
+kysitlus.fin.ee
+lyncdiscover.fin.ee
+maakonnaplaneering.blogi.fin.ee
+omavalitsus.fin.ee
+pilv.fin.ee
+planeerimine.blogi.fin.ee
+plankpre.fin.ee
+planktest.fin.ee
+post.fin.ee
+preauthenticator.fin.ee
+rar.fin.ee
+rar.vmtazdev.fin.ee
+rarai.fin.ee
+rarai.vmtazdev.fin.ee
+rardev.fin.ee
+rarprelive.fin.ee
+rhr-prelive.fin.ee
+rhr-test.fin.ee
+rhrkoolitus.fin.ee
+riigivara.fin.ee
+rkvr-backend.rkvrazuredev.fin.ee
+rkvr-dhx.rkvrazuredev.fin.ee
+rkvr-dhx.vmtazdev.fin.ee
+rkvr-frontend.rkvrazuredev.fin.ee
+rkvr-frontend.vmtazdev.fin.ee
+rkvr-gateway.rkvrazuredev.fin.ee
+rkvr-gateway.vmtazdev.fin.ee
+rkvr-xtee-proxy.rkvrazuredev.fin.ee
+rkvr-xtee-proxy.vmtazdev.fin.ee
+rkvr.vmtazdev.fin.ee
+rkvr.vmtaztest.fin.ee
+rkvrazuredev.fin.ee
+rkvrprelive.fin.ee
+rkvrtest.fin.ee
+saldo.fin.ee
+sip.fin.ee
+sis.ttaztest.fin.ee
+siseaudit.fin.ee
+test.vmtazdev.fin.ee
+testaruanded.fin.ee
+testauthenticator.fin.ee
+testrar.fin.ee
+vana-kassa.fin.ee
+vanakarp.fin.ee
+vmtazdev.fin.ee
+www.blogi.fin.ee
+www.fin.ee
+www.haldusreform.fin.ee
+www.kassa.fin.ee
+www.omavalitsus.fin.ee
+www.rar.fin.ee

@@ -1,41 +1,41 @@
-subdomain,http_status,mx
-bsc.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-cert.moj.go.kr,404,
-cpms.moj.go.kr,403,
-eam.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-enotary.moj.go.kr,200,
-enotarydoc.moj.go.kr,200,
-enotaryvc.moj.go.kr,302,
-enotaryvcapi.moj.go.kr,404,
-enotaryvcdoc.moj.go.kr,404,
-eos.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-hrvs.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-jspo.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-laris.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-lawhomedoctor.moj.go.kr,200,
-lecs.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-m.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mail.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-minwon.moj.go.kr,200,
-minwondev.moj.go.kr,200,
-minwonprd.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mis4u.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-moj.go.kr,307,0 antispam.korea.kr.
-mojdev.moj.go.kr,307,
-mojhome.moj.go.kr,307,
-mojminwon.moj.go.kr,200,
-mojprd.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-nfhindigo.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-nfhkims.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-portal.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-search-home.moj.go.kr,403,
-ss.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-sso.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-teamskims.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-viewer.moj.go.kr,403,
-wait.moj.go.kr,200,
-www.enotary.moj.go.kr,ConnectException > UnresolvedAddressException,
-www.eos.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.lawhomedoctor.moj.go.kr,ConnectException > UnresolvedAddressException,
-www.m.moj.go.kr,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-www.moj.go.kr,307,none
+subdomain
+bsc.moj.go.kr
+cert.moj.go.kr
+cpms.moj.go.kr
+eam.moj.go.kr
+enotary.moj.go.kr
+enotarydoc.moj.go.kr
+enotaryvc.moj.go.kr
+enotaryvcapi.moj.go.kr
+enotaryvcdoc.moj.go.kr
+eos.moj.go.kr
+hrvs.moj.go.kr
+jspo.moj.go.kr
+laris.moj.go.kr
+lawhomedoctor.moj.go.kr
+lecs.moj.go.kr
+m.moj.go.kr
+mail.moj.go.kr
+minwon.moj.go.kr
+minwondev.moj.go.kr
+minwonprd.moj.go.kr
+mis4u.moj.go.kr
+moj.go.kr
+mojdev.moj.go.kr
+mojhome.moj.go.kr
+mojminwon.moj.go.kr
+mojprd.moj.go.kr
+nfhindigo.moj.go.kr
+nfhkims.moj.go.kr
+portal.moj.go.kr
+search-home.moj.go.kr
+ss.moj.go.kr
+sso.moj.go.kr
+teamskims.moj.go.kr
+viewer.moj.go.kr
+wait.moj.go.kr
+www.enotary.moj.go.kr
+www.eos.moj.go.kr
+www.lawhomedoctor.moj.go.kr
+www.m.moj.go.kr
+www.moj.go.kr

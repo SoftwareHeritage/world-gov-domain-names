@@ -1,83 +1,83 @@
-domain,score,sources,label,level,http_status,mx
-sodisce.si,9,wikidata,Administrative Court of the Republic of Slovenia | Supreme Court of the Republic of Slovenia,central,200,10 mail1.gov.si.; 10 mail3.gov.si.; 10 mail4.gov.si.; 10 mail2.gov.si.
-dz-rs.si,7,wikidata,Slovenian Parliament | National Assembly,central,ConnectException,10 mail1.gov.si.; 10 mail3.gov.si.; 10 mail4.gov.si.; 10 mail2.gov.si.
-ip-rs.si,7,wikidata;linkgraph,Information Commissioner of the Republic of Slovenia,central,301,10 mail3.gov.si.; 10 mail2.gov.si.; 10 mail1.gov.si.; 10 mail4.gov.si.
-lpp.si,7,wikidata,Ljubljana Passenger Transport,,301,10 mx2.jhl.si.; 10 mx.jhl.si.
-nib.si,7,academia,Marine Biology Station Piran | National Institute of Biology,central,,
-nijz.si,7,wikidata,National Institute of Public Health,,200,50 obrezje1.nijz.si.; 10 obrezje2.nijz.si.
-stat.si,7,wikidata;academia,Statistical Office of the Republic of Slovenia,central,SSLHandshakeException: Remote host terminated the handshake,none
-dominikanci.hr,6,wikidata,Croatian Dominican Province,,200,30 mx30.antispam.mailspamprotection.com.; 20 mx20.antispam.mailspamprotection.com.; 10 mx10.antispam.mailspamprotection.com.
-slowenien.ahk.de,6,wikidata,German-Slovenian Chamber of Industry and Commerce,,302,none
-um.si,6,academia;ror,University of Maribor,central,,
-uni-lj.si,6,academia;ror,University of Ljubljana,central,,
-upr.si,6,academia;ror,University of Primorska,central,,
-us-rs.si,6,wikidata,Constitutional Court of Slovenia,,301,10 mail4.gov.si.; 10 mail1.gov.si.; 10 mail2.gov.si.; 10 mail3.gov.si.
-vlada.si,6,un_desa,UN/DESA national portal,,SSLHandshakeException: Remote host terminated the handshake,10 mail4.gov.si.; 10 mail3.gov.si.; 10 mail1.gov.si.; 10 mail2.gov.si.
-a-tvp.si,4,wikidata,Securities Market Agency,,301,10 atvp-si-1.fortimailcloud.com.; 20 atvp-si-2.fortimailcloud.com.
-agen-rs.si,4,wikidata,Energy Agency of the Republic of Slovenia,,200,10 mail.agen-rs.si.; 5 smtp.agen-rs.si.
-ambasadabih.si,4,wikidata,embassy of Bosnia and Herzegovina in Slovenia,central,200,none
-arao.si,4,wikidata,Radioactive Waste Management Agency,,200,0 arao-si.mail.protection.outlook.com.
-bijh.zrc-sazu.si,4,academia,Jovan Hadži Institute of Biology,,,
-botanicni-vrt.si,4,academia,Ljubljana Botanical Garden,,,
-bsi.si,4,wikidata,Bank of Slovenia,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,40 smtpmc.bsi.si.; 50 smtpmc-rrc.bsi.si.
-chem-soc.si,4,academia,Slovensko kemijsko društvo,,,
-dmi.zrc-sazu.si,4,academia,Družbenomedicinski inštitut,,,
-ds-rs.si,4,wikidata,National Council of Slovenia,central,200,10 mail4.gov.si.; 10 mail3.gov.si.; 10 mail1.gov.si.; 10 mail2.gov.si.
-dvk-rs.si,4,wikidata,State Election Commission,central,302,10 mail4.gov.si.; 10 mail3.gov.si.; 10 mail2.gov.si.; 10 mail1.gov.si.
-eimv.si,4,academia,Milan Vidmar Electric Power Research Institute,,,
-energap.si,4,wikidata,Energy Agency of Podravje,,301,10 mail.energap.si.
-fdv.uni-lj.si,4,academia,Faculty of Social Sciences,,,
-film-center.si,4,wikidata,Slovenian Film Centre,,301,0 filmcenter-si01b.mail.protection.outlook.com.
-fzab.si,4,academia,Angela Boškin Faculty of Health Care,,,
-iaps.zrc-sazu.si,4,academia,Inštitut za antropološke in prostorske študije,,,
-ijs.si,4,academia,Jožef Stefan Institute,,,
-ikz.zrc-sazu.si,4,academia,Inštitut za kulturno zgodovino,,,
-imfm.si,4,academia,"Institute of Mathematics, Physics, and Mechanics",,,
-inv.si,4,academia,Institute for Ethnic Studies,,,
-inz.si,4,academia,Institute of Contemporary History in Ljubljana,,,
-jakrs.si,4,wikidata,Slovenian Book Agency,,301,10 mail3.gov.si.; 10 mail4.gov.si.; 10 mail1.gov.si.; 10 mail2.gov.si.
-jazmp.si,4,wikidata,Agency for Medicinal Products and Medical Devices of the Republic of Slovenia,,200,5 mail.jazmp.si.
-jh-lj.si,4,wikidata,Ljubljana Passenger Transport,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx2.netim.net.; 10 mx1.netim.net.
-ki.si,4,academia,National Institute of Chemistry,central,,
-kis.si,4,academia,Agricultural Institute of Slovenia,,,
-kmetijskizavod-ng.si,4,wikidata,Kmetijsko Gozdarski Zavod Nova Gorica,,200,10 mail.kmetijskizavod-ng.si.
-kpk-rs.si,4,wikidata,Commission for the Prevention of Corruption of the Republic of Slovenia,central,302,10 mail2.gov.si.; 10 mail1.gov.si.; 10 mail3.gov.si.; 10 mail4.gov.si.
-lendva.mfa.gov.hu,4,wikidata,Consulate General of Hungary in Lendava,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-ljubljana.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Ljubljana",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-ljubljana.si,4,wikidata,City Council of the Municipality of Ljubljana,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ljubljana.si found.,10 bor.ljubljana.si.
-mro.si,4,academia,"Museum of Apiculture, Radovljica",,,
-nlzoh.si,4,academia,"National Laboratory of Health, Environment and Food",central,,
-nuk.uni-lj.si,4,wikidata,National and University Library of Slovenia,,HttpConnectTimeoutException: HTTP connect timed out,10 nuk-unilj-si01i.mail.protection.outlook.com.
-onko-i.si,4,academia,Institute of Oncology Ljubljana,,,
-pgd-hrvatini.si,4,wikidata,PGD Hrvatini,,301,5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ASPMX2.GOOGLEMAIL.COM.; 5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ASPMX3.GOOGLEMAIL.COM.; 1 ASPMX.L.GOOGLE.COM.
-pgd-pluznje.si,4,wikidata,PGD Plužnje,,301,5 ALT2.ASPMX.L.GOOGLE.COM.; 10 ALT4.ASPMX.L.GOOGLE.COM.; 5 ALT1.ASPMX.L.GOOGLE.COM.; 10 ALT3.ASPMX.L.GOOGLE.COM.; 1 ASPMX.L.GOOGLE.COM.
-policija.si,4,wikidata,law enforcement in Slovenia,,301,1000 hermes.policija.si.; 1000 kaos.policija.si.
-ptice.si,4,academia,Bird Watching and Bird Study Association of Slovenia - DOPPS Bird Life,,,
-ric.ijs.si,4,academia,TRIGA,,,
-zborzarepubliko.si,4,academia,Rally for the Republic,,,
-zrs-kp.si,4,academia,Science and Research Centre of Koper,,,
-zrss.si,4,wikidata,National Education Institute of the Republic of Slovenia,,307,5 zrss-si.mail.protection.outlook.com.
-zvd.si,4,wikidata,Institute of Occupational Health,,ConnectException,0 zvd-si.mail.protection.outlook.com.; 10 mail.zvd.si.
-zvkds.si,4,wikidata,Institute for the Protection of Cultural Heritage of Slovenia,,301,20 avs5.arnes.si.
-ambasadat.net,3,wikidata,"Embassy of Kosovo, Ljubljana",central,200,20 mx2.emailsrvr.com.; 10 mx1.emailsrvr.com.
-emuni.si,3,ror,Euro Mediterranean University,central,,
-fzsv.si,3,ror,Fakulteta za zdravstvene in socialne vede Slovenj Gradec,central,,
-ljubljana.diplo.de,3,wikidata,"Embassy of Germany, Ljubljana",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-ljubljana.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Slovenia,central,302,none
-ljubljana.mae.ro,3,wikidata,"Embassy of Romania, Ljubljana",central,503,none
-mfa.bg,3,wikidata,embassy of Bulgaria in Slovenia,central,302,0 mfa-bg.mail.protection.outlook.com.
-mfa.gr,3,wikidata,embassy of Greece in Slovenia,central,403,10 mailhost.mfa.gr.
-mzv.cz,3,wikidata,embassy of the Czech republic in Slovenia,central,302,10 mzvczemta06.mzv.cz.; 50 mzvczemta05.mzv.cz.
-mzv.sk,3,wikidata,embassy of Slovakia in Slovenia,central,301,10 mail.gov.sk.
-rudolfovo.eu,3,academia,Institute Rudolfovo,,,
-rus-slo.mid.ru,3,wikidata,"Embassy of Russia, Ljubljana",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-sfu-ljubljana.si,3,ror,Sigmund Freud Privatuniversität - Standort Ljubljana,central,,
-si.ambafrance.org,3,wikidata,"Embassy of France, Ljubljana",central,301,none
-si.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Ljubljana",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching si.chineseembassy.org found.,none
-si.mvep.hr,3,wikidata,embassy of Croatia in Slovenia,central,ConnectException,none
-slovenia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Slovenia,,302,none
-smomembassytoslovenia.org,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Ljubljana",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx.smomembassytoslovenia.org.
-tcl-labs.com,3,academia,Testing and Certification Laboratories,,,
-ung.si,3,ror,University of Nova Gorica,central,,
-unm.si,3,ror,Univerzitetno Središče Novo mesto,central,,
-uri-soca.si,3,ror,Univerzitetni Rehabilitacijski Inštitut,central,,
+domain,score,sources,label,level
+sodisce.si,9,wikidata,Administrative Court of the Republic of Slovenia | Supreme Court of the Republic of Slovenia,central
+dz-rs.si,7,wikidata,Slovenian Parliament | National Assembly,central
+ip-rs.si,7,wikidata;linkgraph,Information Commissioner of the Republic of Slovenia,central
+lpp.si,7,wikidata,Ljubljana Passenger Transport,
+nib.si,7,academia,Marine Biology Station Piran | National Institute of Biology,central
+nijz.si,7,wikidata,National Institute of Public Health,
+stat.si,7,wikidata;academia,Statistical Office of the Republic of Slovenia,central
+dominikanci.hr,6,wikidata,Croatian Dominican Province,
+slowenien.ahk.de,6,wikidata,German-Slovenian Chamber of Industry and Commerce,
+um.si,6,academia;ror,University of Maribor,central
+uni-lj.si,6,academia;ror,University of Ljubljana,central
+upr.si,6,academia;ror,University of Primorska,central
+us-rs.si,6,wikidata,Constitutional Court of Slovenia,
+vlada.si,6,un_desa,UN/DESA national portal,
+a-tvp.si,4,wikidata,Securities Market Agency,
+agen-rs.si,4,wikidata,Energy Agency of the Republic of Slovenia,
+ambasadabih.si,4,wikidata,embassy of Bosnia and Herzegovina in Slovenia,central
+arao.si,4,wikidata,Radioactive Waste Management Agency,
+bijh.zrc-sazu.si,4,academia,Jovan Hadži Institute of Biology,
+botanicni-vrt.si,4,academia,Ljubljana Botanical Garden,
+bsi.si,4,wikidata,Bank of Slovenia,
+chem-soc.si,4,academia,Slovensko kemijsko društvo,
+dmi.zrc-sazu.si,4,academia,Družbenomedicinski inštitut,
+ds-rs.si,4,wikidata,National Council of Slovenia,central
+dvk-rs.si,4,wikidata,State Election Commission,central
+eimv.si,4,academia,Milan Vidmar Electric Power Research Institute,
+energap.si,4,wikidata,Energy Agency of Podravje,
+fdv.uni-lj.si,4,academia,Faculty of Social Sciences,
+film-center.si,4,wikidata,Slovenian Film Centre,
+fzab.si,4,academia,Angela Boškin Faculty of Health Care,
+iaps.zrc-sazu.si,4,academia,Inštitut za antropološke in prostorske študije,
+ijs.si,4,academia,Jožef Stefan Institute,
+ikz.zrc-sazu.si,4,academia,Inštitut za kulturno zgodovino,
+imfm.si,4,academia,"Institute of Mathematics, Physics, and Mechanics",
+inv.si,4,academia,Institute for Ethnic Studies,
+inz.si,4,academia,Institute of Contemporary History in Ljubljana,
+jakrs.si,4,wikidata,Slovenian Book Agency,
+jazmp.si,4,wikidata,Agency for Medicinal Products and Medical Devices of the Republic of Slovenia,
+jh-lj.si,4,wikidata,Ljubljana Passenger Transport,
+ki.si,4,academia,National Institute of Chemistry,central
+kis.si,4,academia,Agricultural Institute of Slovenia,
+kmetijskizavod-ng.si,4,wikidata,Kmetijsko Gozdarski Zavod Nova Gorica,
+kpk-rs.si,4,wikidata,Commission for the Prevention of Corruption of the Republic of Slovenia,central
+lendva.mfa.gov.hu,4,wikidata,Consulate General of Hungary in Lendava,
+ljubljana.mfa.gov.hu,4,wikidata,"Embassy of Hungary, Ljubljana",central
+ljubljana.si,4,wikidata,City Council of the Municipality of Ljubljana,central-1
+mro.si,4,academia,"Museum of Apiculture, Radovljica",
+nlzoh.si,4,academia,"National Laboratory of Health, Environment and Food",central
+nuk.uni-lj.si,4,wikidata,National and University Library of Slovenia,
+onko-i.si,4,academia,Institute of Oncology Ljubljana,
+pgd-hrvatini.si,4,wikidata,PGD Hrvatini,
+pgd-pluznje.si,4,wikidata,PGD Plužnje,
+policija.si,4,wikidata,law enforcement in Slovenia,
+ptice.si,4,academia,Bird Watching and Bird Study Association of Slovenia - DOPPS Bird Life,
+ric.ijs.si,4,academia,TRIGA,
+zborzarepubliko.si,4,academia,Rally for the Republic,
+zrs-kp.si,4,academia,Science and Research Centre of Koper,
+zrss.si,4,wikidata,National Education Institute of the Republic of Slovenia,
+zvd.si,4,wikidata,Institute of Occupational Health,
+zvkds.si,4,wikidata,Institute for the Protection of Cultural Heritage of Slovenia,
+ambasadat.net,3,wikidata,"Embassy of Kosovo, Ljubljana",central
+emuni.si,3,ror,Euro Mediterranean University,central
+fzsv.si,3,ror,Fakulteta za zdravstvene in socialne vede Slovenj Gradec,central
+ljubljana.diplo.de,3,wikidata,"Embassy of Germany, Ljubljana",central
+ljubljana.europarl.europa.eu,3,wikidata,European Parliament Liaison Office in Slovenia,central
+ljubljana.mae.ro,3,wikidata,"Embassy of Romania, Ljubljana",central
+mfa.bg,3,wikidata,embassy of Bulgaria in Slovenia,central
+mfa.gr,3,wikidata,embassy of Greece in Slovenia,central
+mzv.cz,3,wikidata,embassy of the Czech republic in Slovenia,central
+mzv.sk,3,wikidata,embassy of Slovakia in Slovenia,central
+rudolfovo.eu,3,academia,Institute Rudolfovo,
+rus-slo.mid.ru,3,wikidata,"Embassy of Russia, Ljubljana",central
+sfu-ljubljana.si,3,ror,Sigmund Freud Privatuniversität - Standort Ljubljana,central
+si.ambafrance.org,3,wikidata,"Embassy of France, Ljubljana",central
+si.chineseembassy.org,3,wikidata,"Embassy of the People's Republic of China, Ljubljana",central
+si.mvep.hr,3,wikidata,embassy of Croatia in Slovenia,central
+slovenia.representation.ec.europa.eu,3,wikidata,European Commission Representation in Slovenia,
+smomembassytoslovenia.org,3,wikidata,"Embassy of the Sovereign Military Order of Malta, Ljubljana",central
+tcl-labs.com,3,academia,Testing and Certification Laboratories,
+ung.si,3,ror,University of Nova Gorica,central
+unm.si,3,ror,Univerzitetno Središče Novo mesto,central
+uri-soca.si,3,ror,Univerzitetni Rehabilitacijski Inštitut,central

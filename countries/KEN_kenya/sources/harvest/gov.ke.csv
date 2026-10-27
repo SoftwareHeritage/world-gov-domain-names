@@ -1,38 +1,38 @@
-subdomain,http_status,mx
-cdc.gov.ke,ConnectException > UnresolvedAddressException,none
-cdf.gov.ke,ConnectException > UnresolvedAddressException,none
-cob.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-education.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-gov.ke,ConnectException,none
-health.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-immigration.gov.ke,ConnectException > UnresolvedAddressException,none
-kra.gov.ke,ConnectException > UnresolvedAddressException,dig error
-mail.education.gov.ke,ConnectException > UnresolvedAddressException,none
-min.transport.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-minihealth.gov.ke,ConnectException > UnresolvedAddressException,none
-morpw.gov.ke,ConnectException > UnresolvedAddressException,dig error
-nsis.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-w.w.w.psc.gov.ke,ConnectException > UnresolvedAddressException,none
-www.canadianembassy.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-www.cbs.gov.ke,ConnectException > UnresolvedAddressException,none
-www.cdg.gov.ke,ConnectException > UnresolvedAddressException,none
-www.communications.gov.ke,ConnectException > UnresolvedAddressException,none
-www.dpm.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-www.eck.gov.ke,ConnectException > UnresolvedAddressException,none
-www.elimu.education.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-www.elimu.gov.ke,ConnectException > UnresolvedAddressException,none
-www.examcouncil.gov.ke,ConnectException > UnresolvedAddressException,none
-www.ict.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-www.identity.gov.ke,ConnectException > UnresolvedAddressException,none
-www.kebs.gov.ke,ConnectException > UnresolvedAddressException,none
-www.kenya.gov.ke,ConnectException > UnresolvedAddressException,none
-www.kenyapolice.gov.ke,ConnectException > UnresolvedAddressException,none
-www.knec.gov.ke,ConnectException > UnresolvedAddressException,none
-www.ministriesinkenya.gov.ke,ConnectException > UnresolvedAddressException,none
-www.ministryofeducation.gov.ke,ConnectException > UnresolvedAddressException,none
-www.ministryofroadpublicworks.gov.ke,ConnectException > UnresolvedAddressException,none
-www.ministyofeducation.gov.ke,ConnectException > UnresolvedAddressException,none
-www.publicservice.gov.ke,ConnectException > UnresolvedAddressException,none
-www.publicservicecommission.gov.ke,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,none
-www.registration.gov.ke,ConnectException > UnresolvedAddressException,none
-www.treasury.gov.ke,ConnectException > UnresolvedAddressException,none
+subdomain
+cdc.gov.ke
+cdf.gov.ke
+cob.gov.ke
+education.gov.ke
+gov.ke
+health.gov.ke
+immigration.gov.ke
+kra.gov.ke
+mail.education.gov.ke
+min.transport.gov.ke
+minihealth.gov.ke
+morpw.gov.ke
+nsis.gov.ke
+w.w.w.psc.gov.ke
+www.canadianembassy.gov.ke
+www.cbs.gov.ke
+www.cdg.gov.ke
+www.communications.gov.ke
+www.dpm.gov.ke
+www.eck.gov.ke
+www.elimu.education.gov.ke
+www.elimu.gov.ke
+www.examcouncil.gov.ke
+www.ict.gov.ke
+www.identity.gov.ke
+www.kebs.gov.ke
+www.kenya.gov.ke
+www.kenyapolice.gov.ke
+www.knec.gov.ke
+www.ministriesinkenya.gov.ke
+www.ministryofeducation.gov.ke
+www.ministryofroadpublicworks.gov.ke
+www.ministyofeducation.gov.ke
+www.publicservice.gov.ke
+www.publicservicecommission.gov.ke
+www.registration.gov.ke
+www.treasury.gov.ke

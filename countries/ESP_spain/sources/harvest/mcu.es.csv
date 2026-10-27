@@ -1,39 +1,39 @@
-subdomain,http_status,mx
-admin.cte.mcu.es,ConnectException > UnresolvedAddressException,
-auditorionacional.mcu.es,ConnectException > UnresolvedAddressException,
-balletnacional.mcu.es,ConnectException > UnresolvedAddressException,
-bibliotecacdaem.inaem.mcu.es,ConnectException > UnresolvedAddressException,
-bibliotecacdt.mcu.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-casarray.mnrs.mcu.es,ConnectException > UnresolvedAddressException,
-cdaem.mcu.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-cdmyd.mcu.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
-cdn.mcu.es,ConnectException > UnresolvedAddressException,
-cndanza.mcu.es,ConnectException > UnresolvedAddressException,
-cndm.mcu.es,ConnectException > UnresolvedAddressException,
-correo.mcu.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-cte.mcu.es,ConnectException > UnresolvedAddressException,
-cursos.cte.mcu.es,ConnectException > UnresolvedAddressException,
-inaem.mcu.es,ConnectException > UnresolvedAddressException,
-inclusioninaem.mcu.es,ConnectException > UnresolvedAddressException,
-intra.mcu.es,ConnectException > UnresolvedAddressException,
-jonde.mcu.es,ConnectException > UnresolvedAddressException,
-labs.mcu.es,ConnectException > UnresolvedAddressException,
-magalia.mcu.es,ConnectException > UnresolvedAddressException,
-mantenimiento.inaem.mcu.es,ConnectException > UnresolvedAddressException,
-mcu.es,ConnectException,10 mail1.correo.gob.es.; 10 mail2.correo.gob.es.
-museoteatro.mcu.es,ConnectException > UnresolvedAddressException,
-ocne.mcu.es,ConnectException > UnresolvedAddressException,
-panel.cte.mcu.es,ConnectException > UnresolvedAddressException,
-platea.mcu.es,ConnectException > UnresolvedAddressException,
-selladotiempo-les.mcu.es,ConnectException > UnresolvedAddressException,
-sgcb.mcu.es,ConnectException > UnresolvedAddressException,
-teatro-independiente.mcu.es,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-teatroclasico.mcu.es,ConnectException > UnresolvedAddressException,
-teatrodelazarzuela.mcu.es,ConnectException > UnresolvedAddressException,
-www.auditorionacional.mcu.es,ConnectException > UnresolvedAddressException,
-www.cndm.mcu.es,ConnectException > UnresolvedAddressException,
-www.cte.mcu.es,ConnectException > UnresolvedAddressException,
-www.inaem.mcu.es,ConnectException > UnresolvedAddressException,
-www.mcu.es,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-wwwinaem.mcu.es,ConnectException > UnresolvedAddressException,
-wwws.mcu.es,SSLHandshakeException > ValidatorException > SunCertPathBuilderException: unable to find valid certification path to requested target,
+subdomain
+admin.cte.mcu.es
+auditorionacional.mcu.es
+balletnacional.mcu.es
+bibliotecacdaem.inaem.mcu.es
+bibliotecacdt.mcu.es
+casarray.mnrs.mcu.es
+cdaem.mcu.es
+cdmyd.mcu.es
+cdn.mcu.es
+cndanza.mcu.es
+cndm.mcu.es
+correo.mcu.es
+cte.mcu.es
+cursos.cte.mcu.es
+inaem.mcu.es
+inclusioninaem.mcu.es
+intra.mcu.es
+jonde.mcu.es
+labs.mcu.es
+magalia.mcu.es
+mantenimiento.inaem.mcu.es
+mcu.es
+museoteatro.mcu.es
+ocne.mcu.es
+panel.cte.mcu.es
+platea.mcu.es
+selladotiempo-les.mcu.es
+sgcb.mcu.es
+teatro-independiente.mcu.es
+teatroclasico.mcu.es
+teatrodelazarzuela.mcu.es
+www.auditorionacional.mcu.es
+www.cndm.mcu.es
+www.cte.mcu.es
+www.inaem.mcu.es
+www.mcu.es
+wwwinaem.mcu.es
+wwws.mcu.es

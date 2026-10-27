@@ -1,10 +1,10 @@
-domain,score,sources,label,level,http_status,mx
-conseil-national.mc,7,wikidata,National Council,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mx1.conseil-national.mc.; 20 mx2.conseil-national.mc.; 30 mx3.conseil-national.mc.
-imsee.mc,7,wikidata;academia,Q16643758,central,200,10 mx1.imsee.mc.; 10 mx2.imsee.mc.
-centrescientifique.mc,4,academia,Scientific Centre of Monaco,,,
-jardin-exotique.mc,4,academia,Jardin Exotique de Monaco,,,
-mairie.mc,4,wikidata,Communal Council of Monaco,central-1,200,20 smtp2.mairie.mc.; 10 smtp.mairie.mc.
-mediatheque.mc,4,wikidata,Louis Notari Library,,301,20 promx2.monaco.mc.; 10 promx1.monaco.mc.
-ambafrance-mc.org,3,wikidata,"Embassy of France, Monaco",central,ConnectException,none
-culture.mc,2,wikidata,Directorate of Cultural Affairs | Heritage Institute,,200,none
-monaco.edu,2,ror,International University of Monaco,central,,
+domain,score,sources,label,level
+conseil-national.mc,7,wikidata,National Council,central
+imsee.mc,7,wikidata;academia,Q16643758,central
+centrescientifique.mc,4,academia,Scientific Centre of Monaco,
+jardin-exotique.mc,4,academia,Jardin Exotique de Monaco,
+mairie.mc,4,wikidata,Communal Council of Monaco,central-1
+mediatheque.mc,4,wikidata,Louis Notari Library,
+ambafrance-mc.org,3,wikidata,"Embassy of France, Monaco",central
+culture.mc,2,wikidata,Directorate of Cultural Affairs | Heritage Institute,
+monaco.edu,2,ror,International University of Monaco,central

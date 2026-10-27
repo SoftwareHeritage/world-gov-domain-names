@@ -1,95 +1,95 @@
-subdomain,http_status,mx
-aruanded.sm.ee,301,
-autodiscover.kantselei.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-autodiscover.sm.ee,ConnectException > ClosedChannelException,
-ave.sm.ee,403,
-aveeb.sm.ee,200,
-avetest.sm.ee,ConnectException > UnresolvedAddressException,
-conf.sm.ee,ConnectException > UnresolvedAddressException,
-confluence.sm.ee,ConnectException > UnresolvedAddressException,
-crowd.sm.ee,403,
-dialin.sm.ee,ConnectException > UnresolvedAddressException,
-dwh.star.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-eero.sm.ee,ConnectException > UnresolvedAddressException,
-eessi.sm.ee,ConnectException > UnresolvedAddressException,
-enapi.sm.ee,SSLHandshakeException > ValidatorException > CertPathValidatorException > CertificateExpiredException: NotAfter: Sun Aug 07 22:24:50 CEST 2022,
-failid.sm.ee,ConnectException > UnresolvedAddressException,
-gender.sm.ee,302,
-hveeb.sm.ee,302,
-id.star.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-idprelive.star.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-idtest.star.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-imon.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-kiri.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-klak.klak.sm.ee,ConnectException > UnresolvedAddressException,
-klak.sm.ee,200,
-klaktest.sm.ee,ConnectException > UnresolvedAddressException,
-kompetentsikeskus.sm.ee,301,
-kontaktpunkt.sm.ee,ConnectException > UnresolvedAddressException,
-kova.sm.ee,ConnectException > UnresolvedAddressException,
-kta.sm.ee,ConnectException > UnresolvedAddressException,
-kysimustik.sm.ee,204,
-lyncdiscover.sm.ee,ConnectException > NoRouteToHostException: Host is unreachable,
-lyncdiscoverinternal.sm.ee,ConnectException > UnresolvedAddressException,
-lyncweb.sm.ee,ConnectException > UnresolvedAddressException,
-mdft.sm.ee,ConnectException > UnresolvedAddressException,
-meet.sm.ee,ConnectException > UnresolvedAddressException,
-misp.sm.ee,ConnectException > NoRouteToHostException: Host is unreachable,
-misp2.sm.ee,200,
-msa.sm.ee,301,
-mta.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mta1.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mta2.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-neet.sm.ee,ConnectException > UnresolvedAddressException,
-noustamisteenused.sm.ee,ConnectException > UnresolvedAddressException,
-osh.sm.ee,ConnectException > UnresolvedAddressException,
-owebapps.sm.ee,ConnectException > UnresolvedAddressException,
-pass.sm.ee,ConnectException > UnresolvedAddressException,
-post.sm.ee,ConnectException > UnresolvedAddressException,
-prelive.star.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-projektid.sm.ee,ConnectException > UnresolvedAddressException,
-rdgw.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rds.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rdweb.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-rfk.sm.ee,200,
-rhk.sm.ee,200,
-riiul.sm.ee,ConnectException > NoRouteToHostException: Host is unreachable,
-rkab.sm.ee,ConnectException > UnresolvedAddressException,
-shk.sm.ee,301,
-sip.sm.ee,ConnectException > NoRouteToHostException: Host is unreachable,
-ska.sm.ee,ConnectException > UnresolvedAddressException,
-sm.ee,200,10 mail1.rit.ee.; 20 mail3.rit.ee.
-smconfluence.sm.ee,ConnectException > UnresolvedAddressException,
-smjira.sm.ee,403,
-sso.sm.ee,404,
-star.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-starstatistika.sm.ee,403,
-sveeb.sm.ee,302,
-svn.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-teatisteportaal.sm.ee,ConnectException > UnresolvedAddressException,
-test.star.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-test2.star.sm.ee,ConnectException > UnresolvedAddressException,
-tvh.sm.ee,ConnectException > UnresolvedAddressException,
-valvur.sm.ee,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-vti.sm.ee,403,
-vtiav.sm.ee,200,
-wiki.sm.ee,403,
-www.aruanded.sm.ee,ConnectException > UnresolvedAddressException,
-www.avetest.sm.ee,ConnectException > UnresolvedAddressException,
-www.enapi.sm.ee,ConnectException > UnresolvedAddressException,
-www.kta.sm.ee,ConnectException > UnresolvedAddressException,
-www.mdft.sm.ee,ConnectException > UnresolvedAddressException,
-www.misp.sm.ee,ConnectException > UnresolvedAddressException,
-www.misp2.sm.ee,ConnectException > UnresolvedAddressException,
-www.post.sm.ee,ConnectException > UnresolvedAddressException,
-www.prelive.star.sm.ee,ConnectException > UnresolvedAddressException,
-www.projektid.sm.ee,ConnectException > UnresolvedAddressException,
-www.rds.sm.ee,ConnectException > UnresolvedAddressException,
-www.riiul.sm.ee,ConnectException > UnresolvedAddressException,
-www.rkab.sm.ee,ConnectException > UnresolvedAddressException,
-www.sip.sm.ee,ConnectException > UnresolvedAddressException,
-www.sm.ee,200,
-www.sso.sm.ee,ConnectException > UnresolvedAddressException,
-www.star.sm.ee,ConnectException > UnresolvedAddressException,
-www.test2.star.sm.ee,ConnectException > UnresolvedAddressException,
-www.vti.sm.ee,ConnectException > UnresolvedAddressException,
+subdomain
+aruanded.sm.ee
+autodiscover.kantselei.sm.ee
+autodiscover.sm.ee
+ave.sm.ee
+aveeb.sm.ee
+avetest.sm.ee
+conf.sm.ee
+confluence.sm.ee
+crowd.sm.ee
+dialin.sm.ee
+dwh.star.sm.ee
+eero.sm.ee
+eessi.sm.ee
+enapi.sm.ee
+failid.sm.ee
+gender.sm.ee
+hveeb.sm.ee
+id.star.sm.ee
+idprelive.star.sm.ee
+idtest.star.sm.ee
+imon.sm.ee
+kiri.sm.ee
+klak.klak.sm.ee
+klak.sm.ee
+klaktest.sm.ee
+kompetentsikeskus.sm.ee
+kontaktpunkt.sm.ee
+kova.sm.ee
+kta.sm.ee
+kysimustik.sm.ee
+lyncdiscover.sm.ee
+lyncdiscoverinternal.sm.ee
+lyncweb.sm.ee
+mdft.sm.ee
+meet.sm.ee
+misp.sm.ee
+misp2.sm.ee
+msa.sm.ee
+mta.sm.ee
+mta1.sm.ee
+mta2.sm.ee
+neet.sm.ee
+noustamisteenused.sm.ee
+osh.sm.ee
+owebapps.sm.ee
+pass.sm.ee
+post.sm.ee
+prelive.star.sm.ee
+projektid.sm.ee
+rdgw.sm.ee
+rds.sm.ee
+rdweb.sm.ee
+rfk.sm.ee
+rhk.sm.ee
+riiul.sm.ee
+rkab.sm.ee
+shk.sm.ee
+sip.sm.ee
+ska.sm.ee
+sm.ee
+smconfluence.sm.ee
+smjira.sm.ee
+sso.sm.ee
+star.sm.ee
+starstatistika.sm.ee
+sveeb.sm.ee
+svn.sm.ee
+teatisteportaal.sm.ee
+test.star.sm.ee
+test2.star.sm.ee
+tvh.sm.ee
+valvur.sm.ee
+vti.sm.ee
+vtiav.sm.ee
+wiki.sm.ee
+www.aruanded.sm.ee
+www.avetest.sm.ee
+www.enapi.sm.ee
+www.kta.sm.ee
+www.mdft.sm.ee
+www.misp.sm.ee
+www.misp2.sm.ee
+www.post.sm.ee
+www.prelive.star.sm.ee
+www.projektid.sm.ee
+www.rds.sm.ee
+www.riiul.sm.ee
+www.rkab.sm.ee
+www.sip.sm.ee
+www.sm.ee
+www.sso.sm.ee
+www.star.sm.ee
+www.test2.star.sm.ee
+www.vti.sm.ee

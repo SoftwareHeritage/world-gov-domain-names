@@ -1,528 +1,528 @@
-domain,score,sources,label,level,http_status,mx
-ungs.edu.ar,9,academia;ror,Instituto del Conurbano | National University of General Sarmiento,central,,
-unsam.edu.ar,9,academia;ror,National University of General San Martín | Q141144696 | Q141144704,central,,
-anlis.gov.ar,8,academia,ANLIS Malbrán | National Institute of Human Viral Disease,central,,
-bn.gov.ar,8,wikidata;academia,Mariano Moreno National Library | Centro de Estudios y Documentación Jorge Luis Borges,,ConnectException,5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 1 aspmx.l.google.com.
-casarosada.gov.ar,8,wikidata,Poder Ejecutivo Nacional,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching casarosada.gov.ar found.,1 correo.casarosada.gov.ar.
-conicet.gov.ar,8,wikidata;academia,National Scientific and Technical Research Council | Centro de Investigaciones y Transferencia Tierra del Fuego,,403,10 smtpfront.conicet.gov.ar.
-diputadosmisiones.gov.ar,8,wikidata,Chamber of Deputies of Misiones,central-1,302,1 mail.diputadosmisiones.gov.ar.
-diputadossantafe.gov.ar,8,wikidata,Chamber of Deputies of Santa Fe,central-1,302,10 aspmx3.googlemail.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 5 alt2.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.
-hcdcorrientes.gov.ar,8,wikidata,Chamber of Deputies of Corrientes | Q56316686,central-1,ConnectException,1 smtp.google.com.
-hcder.gov.ar,8,wikidata,Chamber of Deputies of Entre Ríos,central-1,HttpConnectTimeoutException: HTTP connect timed out,0 mail.hcder.gov.ar.
-hcdiputados-ba.gov.ar,8,wikidata,Buenos Aires Province Chamber of Deputies,central-1,200,0 correo.hcdiputados-ba.gov.ar.
-hcdmza.gov.ar,8,wikidata,Chamber of Deputies of Mendoza,central-1,301,25 zmta2.hcdmza.gov.ar.; 30 zmta1.hcdmza.gov.ar.
-inbias.conicet.gov.ar,8,wikidata;academia,Instituto de Biotecnología Ambiental y Salud | Q141144865,,403,none
-inpa-uba.conicet.gov.ar,8,wikidata;academia,Instituto de Investigación en Producción Animal | Q141144680,,403,none
-ipsibat.conicet.gov.ar,8,wikidata;academia,"Instituto de Psicología Básica, Aplicada y Tecnología | Q141144615",,403,none
-legislaturaformosa.gov.ar,8,wikidata,Formosa Chamber of Deputies,central-1,301,0 legislaturaformosa.gov.ar.
-legislaturajujuy.gov.ar,8,wikidata,Chamber of Deputies of Jujuy,central-1,ConnectException,10 mail.legislaturajujuy.gov.ar.
-legislaturamendoza.gov.ar,8,wikidata,legislature of Mendoza,central-1,200,20 mail10.legislaturamendoza.gov.ar.; 10 mail.legislaturamendoza.gov.ar.
-mp.gba.gov.ar,8,wikidata,"Ministry of Production, Science and Technology",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,11 relay2.gba.gov.ar.; 11 relay1.gba.gov.ar.
-mseg.gba.gov.ar,8,wikidata,Buenos Aires Province Ministry of Security,central-1,301,10 relay1.gba.gov.ar.; 10 relay2.gba.gov.ar.
-santafe.gov.ar,8,wikidata,"Santa Fe Provincial Police | Ministry of Security of the Province of Santa Fe | Q68720757 | Agencia Santafesina de Ciencia, Tecnología e Innovación | Archivo Provincial de la Memoria de Santa Fe",central-1,301,5 mx1.santafe.gov.ar.
-senado-ba.gov.ar,8,wikidata,Senate of Buenos Aires Province,central-1,200,0 senadoba-gov-ar01e.mail.protection.outlook.com.
-senado.sanluis.gov.ar,8,wikidata,Senate of San Luis,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-senadoctes.gov.ar,8,wikidata,Senate of Corrientes,central-1,200,20 mx1.senadoctes.gov.ar.; 0 mail.senadoctes.gov.ar.
-web.legisrn.gov.ar,8,wikidata,Legislature of Río Negro,central-1,200,none
-ciclaplata.org.ar,7,academia,Centro de Investigaciones Cardiovasculares | Q141144648,,,
-cima.fcen.uba.ar,7,academia,Center for Ocean and Atmosphere Sciences | Instituto Franco-Argentino sobre Estudios de Clima y sus Impactos,,,
-csjn.gov.ar,7,wikidata,Supreme Court of Argentina,central,301,50 mx1.csjn.gov.ar.; 100 mx2.csjn.gov.ar.; 10 mx.csjn.gov.ar.
-embajadadeluruguay.com.ar,7,wikidata,embassy of Uruguay in Argentina,central,200,0 mail.embajadadeluruguay.com.ar.; 20 mx1.embajadadeluruguay.com.ar.
-fuerzas-armadas.mil.ar,7,wikidata,Joint Staff of the Armed Forces | Jefatura de Inteligencia del Estado Mayor Conjunto de las Fuerzas Armadas,,302,none
-idecu.conicet.gov.ar,7,academia;ror,Q141144617,central,,
-idim.org.ar,7,academia,Institute for Medical Research | Q141144792,,,
-inquimae.fcen.uba.ar,7,academia,"Instituto de Química Física de los Materiales, Medio Ambiente y Energía | Q141144780",,,
-leloir.org.ar,7,academia,Leloir Institute | Q141144614,,,
-lillo.org.ar,7,academia,Fundación Miguel Lillo | Q141144844,,,
-scba.gov.ar,7,wikidata,Supreme Court of Justice of Buenos Aires,,200,8 mail5.scba.gov.ar.; 8 mail3.scba.gov.ar.
-teatrocolon.org.ar,7,wikidata;academia,Teatro Colón | Instituto Superior de Arte del Teatro Colón,,200,10 mail.teatrocolon.org.ar.
-arqueologia.institutos.filo.uba.ar,6,academia;ror,"Instituto de Arqueología, Facultad de Filosofía y Letras, Universidad de Buenos Aires",central,,
-jesuitasaru.org,6,wikidata,Argentine-Uruguayan Jesuit Province,,200,0 jesuitasaru.org.
-mdp.edu.ar,6,academia;ror,National University of Mar del Plata,central,,
-uader.edu.ar,6,academia;ror,Autonomous University of Entre Ríos,central,,
-uba.ar,6,academia;ror,University of Buenos Aires,central,,
-uca.edu.ar,6,academia;ror,Q141144693,central,,
-udc.edu.ar,6,academia;ror,University of Chubut,central,,
-udelaciudad.edu.ar,6,academia;ror,Q112751967,central,,
-udesa.edu.ar,6,academia;ror,Q140382175,central,,
-una.edu.ar,6,academia;ror,National University of the Arts,central,,
-unahur.edu.ar,6,academia;ror,Universidad Nacional de Hurlingham,central,,
-unaj.edu.ar,6,academia;ror,Arturo Jauretche National University,central,,
-unam.edu.ar,6,academia;ror,National University of Misiones,central,,
-unc.edu.ar,6,academia;ror,National University of Córdoba,central,,
-unca.edu.ar,6,academia;ror,National University of Catamarca,central,,
-uncaus.edu.ar,6,academia;ror,National University of the Chaco Austral,central,,
-uncoma.edu.ar,6,academia;ror,Universidad Nacional del Comahue,central,,
-uncuyo.edu.ar,6,academia;ror,Universidad Nacional de Cuyo,central,,
-undav.edu.ar,6,academia;ror,National University of Avellaneda,central,,
-undec.edu.ar,6,academia;ror,National University of Chilecito,central,,
-uner.edu.ar,6,academia;ror,National University of Entre Ríos,central,,
-unf.edu.ar,6,academia;ror,National University of Formosa,central,,
-unicen.edu.ar,6,academia;ror,National University of Central Buenos Aires,central,,
-unipe.edu.ar,6,academia;ror,Q128137502,central,,
-unju.edu.ar,6,academia;ror,National University of Jujuy,central,,
-unl.edu.ar,6,academia;ror,National University of the Littoral,central,,
-unla.edu.ar,6,academia;ror,National University of Lanús,central,,
-unlam.edu.ar,6,academia;ror,National University of La Matanza,central,,
-unlar.edu.ar,6,academia;ror,National University of La Rioja,central,,
-unlp.edu.ar,6,academia;ror,National University of La Plata,central,,
-unlpam.edu.ar,6,academia;ror,National University of La Pampa,central,,
-unlu.edu.ar,6,academia;ror,National University of Luján,central,,
-unlz.edu.ar,6,academia;ror,National University of Lomas de Zamora,central,,
-unne.edu.ar,6,academia;ror,National University of the Northeast,central,,
-unnoba.edu.ar,6,academia;ror,National University of Northwestern Buenos Aires,central,,
-uno.edu.ar,6,academia;ror,National University of the West,central,,
-unp.edu.ar,6,academia;ror,National University of Patagonia San Juan Bosco,central,,
-unpaz.edu.ar,6,academia;ror,National University of José Clemente Paz,central,,
-unpilar.edu.ar,6,academia;ror,Q128137965,central,,
-unq.edu.ar,6,academia;ror,National University of Quilmes,central,,
-unr.edu.ar,6,academia;ror,National University of Rosario,central,,
-unraf.edu.ar,6,academia;ror,National University of Rafaela,central,,
-unrc.edu.ar,6,academia;ror,National University of Río Cuarto,central,,
-unrn.edu.ar,6,academia;ror,National University of Río Negro,central,,
-uns.edu.ar,6,academia;ror,Universidad Nacional del Sur,central,,
-unsa.edu.ar,6,academia;ror,National University of Salta,central,,
-unsada.edu.ar,6,academia;ror,National University of San Antonio de Areco,central,,
-unse.edu.ar,6,academia;ror,National University of Santiago del Estero,central,,
-unsj.edu.ar,6,academia;ror,National University of San Juan,central,,
-unsl.edu.ar,6,academia;ror,National University of San Luis,central,,
-unt.edu.ar,6,academia;ror,National University of Tucumán,central,,
-untdf.edu.ar,6,academia;ror,National University of Tierra del Fuego,central,,
-untref.edu.ar,6,academia;ror,National University of Tres de Febrero,central,,
-unvime.edu.ar,6,academia;ror,National University of Villa Mercedes,central,,
-unvm.edu.ar,6,academia;ror,National University of Villa María,central,,
-upc.edu.ar,6,academia;ror,Provincial University of Cordoba,central-1,,
-upso.edu.ar,6,academia;ror,Q20019056,central,,
-utn.edu.ar,6,academia;ror,National Technological University,central,,
-agn.gov.ar,5,wikidata,Auditoría General de la Nación,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.agn.gov.ar.
-cab.cnea.gov.ar,5,academia,Bariloche Atomic Centre,,,
-cadic.conicet.gov.ar,5,academia,Centro Austral de Investigaciones Científicas,,,
-casleo.conicet.gov.ar,5,academia,Q141144749,,,
-cba.gov.ar,5,wikidata,Ministerio de Ciencia y Tecnología,,ConnectException,0 cba-gov-ar.mail.protection.outlook.com.
-cconfines.conicet.gov.ar,5,academia,Q131343712,,,
-cecoal.conicet.gov.ar,5,academia,Q141144801,,,
-cedie.conicet.gov.ar,5,academia,Q141144768,,,
-cefobi-conicet.gov.ar,5,academia,Q141144740,,,
-cefybo.conicet.gov.ar,5,academia,Q97730258,,,
-ceil-conicet.gov.ar,5,academia,Centro de Estudios e Investigaciones Laborales,,,
-cenexa.conicet.gov.ar,5,academia,Q141144738,,,
-cenpat.conicet.gov.ar,5,academia,CENPAT,,,
-cequinor.conicet.gov.ar,5,academia,Q141144866,,,
-cerela.conicet.gov.ar,5,academia,Q141144621,,,
-cesimar.conicet.gov.ar,5,academia,Q141144638,,,
-ceur-conicet.gov.ar,5,academia,Q141144699,,,
-cevhan.conicet.gov.ar,5,academia,Q141144746,,,
-ciap.conicet.gov.ar,5,academia,Q141144728,,,
-cibaal.conicet.gov.ar,5,academia,Q141144753,,,
-cibici.conicet.gov.ar,5,academia,Q97446029,,,
-cibion.conicet.gov.ar,5,academia,Q141144664,,,
-cicyttp.conicet.gov.ar,5,academia,Q141144775,,,
-cidca.conicet.gov.ar,5,academia,Q141144656,,,
-ciecs.conicet.gov.ar,5,academia,Centro de Investigaciones y Estudios sobre Cultura y Sociedad,,,
-ciemep.conicet.gov.ar,5,academia,Esquel Mountain and Patagonian Steppe Research Center,,,
-ciesp.conicet.gov.ar,5,academia,Q141144867,,,
-cifasis-conicet.gov.ar,5,academia,Q141144755,,,
-cificen.conicet.gov.ar,5,academia,Q141144688,,,
-cigeobio.conicet.gov.ar,5,academia,Q141144712,,,
-cihidecar.conicet.gov.ar,5,academia,Q141144618,,,
-ciipme-conicet.gov.ar,5,academia,Q141144824,,,
-ciited.conicet.gov.ar,5,academia,Q141144682,,,
-cime.conicet.gov.ar,5,academia,Q141144782,,,
-cimec.conicet.gov.ar,5,academia,Q141144748,,,
-cimec.santafe-conicet.gov.ar,5,academia,Centro Internacional de Métodos Computacionales en Ingeniería,,,
-ciop.conicet.gov.ar,5,academia,Q141144825,,,
-cis.conicet.gov.ar,5,academia,Q141144869,,,
-cisor.conicet.gov.ar,5,academia,Q141144754,,,
-citaac.conicet.gov.ar,5,academia,Q141144810,,,
-civetan.conicet.gov.ar,5,academia,Q141144761,,,
-cnv.gov.ar,5,wikidata,National Securities Commission,,ConnectException,100 mail2-isp2.cnv.gov.ar.; 10 cnv-gov-ar.mail.protection.outlook.com.; 100 mail1-isp2.cnv.gov.ar.; 10 mail-iplan.cnv.gov.ar.
-consejomagistratura.gov.ar,5,wikidata,Council of Magistracy of Argentina,,200,none
-creas.conicet.gov.ar,5,academia,Q141144764,,,
-crilar.conicet.gov.ar,5,academia,Q141144836,,,
-csc.conicet.gov.ar,5,academia,Q141144759,,,
-curdiur.conicet.gov.ar,5,academia,Q141144717,,,
-dnrpa.gov.ar,5,wikidata,Q47011743,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,15 correo.dnrpa.gov.ar.; 10 mismtpl000.jus.gov.ar.; 20 mx.pymes.telmex.net.ar.; 5 mismtpl001.jus.gov.ar.
-enys.conicet.gov.ar,5,academia,Q141144671,,,
-hidro.gov.ar,5,wikidata,Argentine Hydrographic Naval Service,,ConnectException,10 mail.armada.mil.ar.
-iabimo.conicet.gov.ar,5,academia,Q141144848,,,
-iadiza.conicet.gov.ar,5,academia,Q141144689,,,
-iado.conicet.gov.ar,5,academia,Argentine Institute of Oceanography,,,
-ial.conicet.gov.ar,5,academia,Institute of Agrobiotechnology of the Litoral,,,
-ial.santafe-conicet.gov.ar,5,academia,Institute of Agrobiotechnology of the Litoral,,,
-iam.conicet.gov.ar,5,academia,Instituto Argentino de Matematica,,,
-ianigla.conicet.gov.ar,5,academia,"Argentine Institute for Snow Research, Glaciology and Environmental Sciences",,,
-iapv.gov.ar,5,wikidata,Autarchic Planning and Housing Institute,,301,0 iapv.gov.ar.
-iar-conicet.gov.ar,5,academia,Q141144683,,,
-ibam.conicet.gov.ar,5,academia,Q141144642,,,
-ibb.conicet.gov.ar,5,academia,Instituto de Investigación y Desarrollo en Bioingeniería y Bioinformática,,,
-ibbm.conicet.gov.ar,5,academia,Instituto De Biotecnología Y Biología Molecular,,,
-ibigeo.conicet.gov.ar,5,academia,Q141144726,,,
-ibimol.conicet.gov.ar,5,academia,Q141144634,,,
-ibioba-mpsp-conicet.gov.ar,5,academia,Q141144851,,,
-ibiomar.conicet.gov.ar,5,academia,Instituto de Biología de Organismos Marinos,,,
-ibn.conicet.gov.ar,5,academia,Instituto de Biodiversidad Neotropical,,,
-iboda.conicet.gov.ar,5,academia,Instituto de Botánica Darwinion,,,
-ibr-conicet.gov.ar,5,academia,Q141144772,,,
-ibs.conicet.gov.ar,5,academia,Instituto de Biología Subtropical,,,
-icai.conicet.gov.ar,5,academia,Q141144619,,,
-icate.conicet.gov.ar,5,academia,Institute of Astronomical Sciences of the Earth and Space,,,
-icb.conicet.gov.ar,5,academia,Q141144834,,,
-icbia.conicet.gov.ar,5,academia,Q141144694,,,
-iciagro.conicet.gov.ar,5,academia,Q141144735,,,
-icic.conicet.gov.ar,5,academia,Institute for Research  in Computer Science and Engineering,,,
-icivet.santafe-conicet.gov.ar,5,academia,Q141144862,,,
-ictaer.conicet.gov.ar,5,academia,Q141144837,,,
-icyte.conicet.gov.ar,5,academia,Q141144616,,,
-idacor.conicet.gov.ar,5,academia,Córdoba Anthropology Institute,,,
-idas.conicet.gov.ar,5,academia,Q141144849,,,
-ideaus.conicet.gov.ar,5,academia,Q141144835,,,
-idehu.conicet.gov.ar,5,academia,Q141144637,,,
-idejus.conicet.gov.ar,5,academia,Q141144686,,,
-idevea.conicet.gov.ar,5,academia,Q117087450,,,
-idical.conicet.gov.ar,5,academia,Q141144857,,,
-idicer.conicet.gov.ar,5,academia,Q141144707,,,
-iecet.conicet.gov.ar,5,academia,Q141144791,,,
-iech.conicet.gov.ar,5,academia,Q141144655,,,
-iehsolp.conicet.gov.ar,5,academia,Q141144677,,,
-ier.conicet.gov.ar,5,academia,Q141144727,,,
-iesyh.conicet.gov.ar,5,academia,Q141144796,,,
-ifab.conicet.gov.ar,5,academia,Q141144750,,,
-ifibio-uba.conicet.gov.ar,5,academia,Q141144692,,,
-ifimar.conicet.gov.ar,5,academia,Institute of Physical Investigations of Mar del Plata,,,
-ifir-conicet.gov.ar,5,academia,Q141144774,,,
-ifis.conicet.gov.ar,5,academia,Q141144661,,,
-igehcs.conicet.gov.ar,5,academia,"CONICET - UNCPBA. Instituto de Geografía, Historia y Ciencias Sociales. Centro de Investigaciones Geográficas.",,,
-ihem.conicet.gov.ar,5,academia,Q141144729,,,
-ihlla.conicet.gov.ar,5,academia,"Instituto de Hidrología de Llanuras ""Dr. Eduardo Jorge Usunoff""",,,
-ihucso.conicet.gov.ar,5,academia,Q141144725,,,
-iib.conicet.gov.ar,5,academia,Q141144765,,,
-iibicrit.conicet.gov.ar,5,academia,Q135484441,,,
-iidepys.conicet.gov.ar,5,academia,Q141144624,,,
-iidthh.conicet.gov.ar,5,academia,Q141144636,,,
-iidypca.conicet.gov.ar,5,academia,Instituto de Investigaciones en Diversidad Cultural y Procesos de Cambio,,,
-iif.conicet.gov.ar,5,academia,Q141144758,,,
-iifp.conicet.gov.ar,5,academia,Q141144813,,,
-iighi.conicet.gov.ar,5,academia,"Universidad Nacional del Nordeste, Instituto de Investigaciones Geohistóricas - CONICET",central,,
-iiia.conicet.gov.ar,5,academia,Q141144812,,,
-iimyc.conicet.gov.ar,5,academia,Q141144690,,,
-iipg.conicet.gov.ar,5,academia,Q141144747,,,
-iiprosam.conicet.gov.ar,5,academia,Q141144822,,,
-iitci.conicet.gov.ar,5,academia,Q141144731,,,
-iitema.conicet.gov.ar,5,academia,Q141144783,,,
-imal.conicet.gov.ar,5,academia,Q141144711,,,
-imam.conicet.gov.ar,5,academia,Q141144659,,,
-imbecu.conicet.gov.ar,5,academia,Q141144803,,,
-imbice.gov.ar,5,academia,Q141144639,,,
-imettyb.conicet.gov.ar,5,academia,Q141144667,,,
-imex.conicet.gov.ar,5,academia,Q141144745,,,
-imhicihu.conicet.gov.ar,5,academia,Instituto Multidisciplinario de Historia y Ciencias Humanas,,,
-imibio.conicet.gov.ar,5,academia,Q141144681,,,
-imico.conicet.gov.ar,5,academia,Q141144843,,,
-imipp.conicet.gov.ar,5,academia,Q141144673,,,
-imit.conicet.gov.ar,5,academia,Q141144730,,,
-imitab.conicet.gov.ar,5,academia,Q141144705,,,
-immca.conicet.gov.ar,5,academia,Q141144814,,,
-impam.conicet.gov.ar,5,academia,Q141144826,,,
-imsated.conicet.gov.ar,5,academia,Q141144815,,,
-imtib.conicet.gov.ar,5,academia,Q141144872,,,
-inahe.conicet.gov.ar,5,academia,Q141144737,,,
-inali.conicet.gov.ar,5,academia,Q141144804,,,
-inaut.conicet.gov.ar,5,academia,Q141144868,,,
-inbiofal.conicet.gov.ar,5,academia,Q141144756,,,
-inbiofiv.conicet.gov.ar,5,academia,Q141144622,,,
-inbiomed.conicet.gov.ar,5,academia,Q141144693,,,
-inbionatec.conicet.gov.ar,5,academia,Q141144864,,,
-inbiop.conicet.gov.ar,5,academia,Q141144718,,,
-incape.conicet.gov.ar,5,academia,Q141144674,,,
-incihusa.conicet.gov.ar,5,academia,Q141144713,,,
-incitap.conicet.gov.ar,5,academia,Q141144672,,,
-incivet.conicet.gov.ar,5,academia,Q141144631,,,
-incuapa.conicet.gov.ar,5,academia,Instituto de Investigaciones Arqueológicas y Paleontológicas del Cuaternario Pampeano,,,
-incyt.conicet.gov.ar,5,academia,Q141144662,,,
-inecoa-unju.conicet.gov.ar,5,academia,Q141144840,,,
-inedes.conicet.gov.ar,5,academia,Q141144654,,,
-inenco.conicet.gov.ar,5,academia,Q141144698,,,
-ineo.conicet.gov.ar,5,academia,Q141144776,,,
-ines.conicet.gov.ar,5,academia,Q141144859,,,
-infap-unsl.conicet.gov.ar,5,academia,Q141144685,,,
-infinoa.conicet.gov.ar,5,academia,Q141144703,,,
-infiqc.conicet.gov.ar,5,academia,Q141144785,,,
-infive.conicet.gov.ar,5,academia,Instituto de Fisiología Vegetal,,,
-ingebi-conicet.gov.ar,5,academia,Q141144635,,,
-ingeis.conicet.gov.ar,5,academia,Q141144632,,,
-inhus.conicet.gov.ar,5,academia,Q141144802,,,
-iniab.conicet.gov.ar,5,academia,Q141144627,,,
-inibioma.conicet.gov.ar,5,academia,Q137359385,,,
-inigem-uba.conicet.gov.ar,5,academia,Q141144611,,,
-inimec.conicet.gov.ar,5,academia,Q87818234,,,
-ininfa-uba.conicet.gov.ar,5,academia,Q51881673,,,
-inipta.conicet.gov.ar,5,academia,Q141144832,,,
-iniqui.conicet.gov.ar,5,academia,Q141144823,,,
-inlain.santafe-conicet.gov.ar,5,academia,Q141144668,,,
-inmibo.conicet.gov.ar,5,academia,Q141144797,,,
-inn-cnea.conicet.gov.ar,5,academia,Q141144701,,,
-inqui-unsl.conicet.gov.ar,5,academia,Q141144684,,,
-intec.conicet.gov.ar,5,academia,Q141144795,,,
-intech.conicet.gov.ar,5,academia,Q141144853,,,
-intequi-unsl.conicet.gov.ar,5,academia,Q141144612,,,
-invelec.conicet.gov.ar,5,academia,Q141144651,,,
-ipatec.conicet.gov.ar,5,academia,Q141144645,,,
-ipcsh.conicet.gov.ar,5,academia,Q141144786,,,
-ipe.conicet.gov.ar,5,academia,Q141144719,,,
-ipeec.conicet.gov.ar,5,academia,Q141144641,,,
-ipehcs.conicet.gov.ar,5,academia,Q141144678,,,
-ipgp.conicet.gov.ar,5,academia,Q120648361,,,
-iqal.conicet.gov.ar,5,academia,Q141144650,,,
-iquiba-nea.conicet.gov.ar,5,academia,Q141144794,,,
-iquifib.conicet.gov.ar,5,academia,Q141144676,,,
-iquimefa.conicet.gov.ar,5,academia,Q141144850,,,
-iquir-conicet.gov.ar,5,academia,Q141144757,,,
-ires.conicet.gov.ar,5,academia,Q141144852,,,
-irice-conicet.gov.ar,5,academia,Q141144762,,,
-irpha.conicet.gov.ar,5,academia,Q141144833,,,
-isal.conicet.gov.ar,5,academia,Q141144708,,,
-isen.gov.ar,5,academia,Instituto del Servicio Exterior de la Nación,,,
-ises.conicet.gov.ar,5,academia,Q141144741,,,
-itanoa.conicet.gov.ar,5,academia,Q141144665,,,
-iteca.conicet.gov.ar,5,academia,Q141144697,,,
-iteda.cnea.gov.ar,5,academia,Instituto de Tecnologías en Detección y Astropartículas,,,
-ithes-uba.conicet.gov.ar,5,academia,Q141144860,,,
-loteria.gba.gov.ar,5,wikidata,Q120637684,,301,10 relay2.gba.gov.ar.; 10 relay1.gba.gov.ar.
-mendoza.conicet.gov.ar,5,academia,Q117087450,,,
-milstein.conicet.gov.ar,5,academia,Q141144658,,,
-mininterior.gov.ar,5,wikidata,Renaper,central,HttpConnectTimeoutException: HTTP connect timed out,0 mininterior-gob-ar.mail.protection.outlook.com.
-nanobiotec.conicet.gov.ar,5,academia,Q141144625,,,
-ovd.gov.ar,5,wikidata,Domestic Violence Bureau,,302,none
-penitenciaria.mendoza.gov.ar,5,wikidata,Mendoza Prison Service,,301,none
-policia.chaco.gov.ar,5,wikidata,Chaco Police,central-1,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching policia.chaco.gov.ar found.,10 mail.policia.chaco.gob.ar.
-policia.rionegro.gov.ar,5,wikidata,Río Negro Provincial Police,central-1,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 smtp2.rionegro.gov.ar.; 5 smtp3.rionegro.gov.ar.
-policiadejujuy.gov.ar,5,wikidata,Jujuy Police,,ConnectException,none
-policiadetucuman.gov.ar,5,wikidata,Tucumán Police,,200,0 mail.dime.gob.ar.
-probien.conicet.gov.ar,5,academia,Q141144858,,,
-proimi.conicet.gov.ar,5,academia,Q141144811,,,
-renar.gov.ar,5,wikidata,Q6104068,,HttpConnectTimeoutException: HTTP connect timed out,20 mismtpl000.jus.gov.ar.; 10 mail.renar.gov.ar.; 30 mismtpl001.jus.gov.ar.
-rionegro.gov.ar,5,wikidata,Institute for the Development of the Lower Valley of the Negro River,,200,5 smtp3.rionegro.gov.ar.; 10 smtp2.rionegro.gov.ar.
-salud.rionegro.gov.ar,5,wikidata,Ministerio de Salud,,200,10 smtp2.rionegro.gov.ar.; 5 smtp3.rionegro.gov.ar.
-segemar.gov.ar,5,wikidata,Servicio Geológico Minero,,301,5 mx01.nubilus.com.ar.; 10 zimbra.nubilus.com.ar.
-sinc.santafe-conicet.gov.ar,5,academia,Q97450930,,,
-udea.conicet.gov.ar,5,academia,Q141144643,,,
-umymfor.conicet.gov.ar,5,academia,Q141144809,,,
-unidef.conicet.gov.ar,5,academia,Q141144620,,,
-unitefa-conicet.gov.ar,5,academia,Q141144777,,,
-aal.edu.ar,4,wikidata,Academia Argentina de Letras,,ConnectException: Host is unreachable,10 mx.fibercorp.com.ar.
-aam.org.ar,4,academia,Argentine Association of Microbiology,,,
-agro.uba.ar,4,academia,Jardín Botánico Lucien Hauman,,,
-antropologia.institutos.filo.uba.ar,4,academia,"Instituto de Ciencias Antropológicas, Facultad de Filosofía y Letras, Universidad de Buenos Aires",,,
-bomberosra.org.ar,4,wikidata,National Fire Service of the Argentine Republic,,301,0 bomberosra-org-ar.mail.protection.outlook.com.
-botanicaargentina.org.ar,4,academia,Sociedad Argentina de Botánica,,,
-buenosaires.mfa.gov.hu,4,wikidata,embassy of Hungary in Argentina,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-cac.com.ar,4,wikidata,Q5795680,,200,5 alt1.aspmx.l.google.com.; 1 aspmx.l.google.com.; 10 aspmx2.googlemail.com.; 10 aspmx3.googlemail.com.; 5 alt2.aspmx.l.google.com.
-caei.com.ar,4,academia,CAEI,,,
-caip.org.ar,4,wikidata,Argentine Chamber of the Plastic Industry,,301,0 mail.caip.org.ar.
-cemic.edu.ar,4,academia,Center for Medical Education and Clinical Research Norberto Quirno,,,
-ceminco.conicet.unc.edu.ar,4,academia,Q141144800,,,
-cepave.edu.ar,4,academia,Q141144702,,,
-cetmic.unlp.edu.ar,4,academia,Q141144633,,,
-ceve.org.ar,4,academia,Q141144769,,,
-cicterra.conicet.unc.edu.ar,4,academia,Q97446088,,,
-cidca.org.ar,4,academia,Centro de Investigación y Desarrollo en Criotecnología de Alimentos,,,
-ciem.conicet.unc.edu.ar,4,academia,Q141144839,,,
-cig.museo.unlp.edu.ar,4,academia,Q141144766,,,
-cindeca.quimica.unlp.edu.ar,4,academia,Q141144821,,,
-cindefi.quimica.unlp.edu.ar,4,academia,Q141144679,,,
-ciquibic.org.ar,4,academia,Q141144870,,,
-citra.org.ar,4,academia,Centro de Innovación de los Trabajadores,,,
-darwin.edu.ar,4,academia,Instituto de Botánica Darwinion,,,
-df.uba.ar,4,academia,Institute of Physics of Buenos Aires,,,
-efpu.org.ar,4,academia,Estación de Fotobiología Playa Unión,,,
-ege.fcen.uba.ar,4,academia,Q141144706,,,
-ellibano.com.ar,4,wikidata,embassy of Lebanon in Argentina,central,ConnectException,none
-embajadadekuwait.com.ar,4,wikidata,embassy of Kuwait in Argentina,central,200,5 mail.embajadadekuwait.com.ar.
-embajadahonduras.com.ar,4,wikidata,embassy of Honduras in Argentina,central,ConnectException,none
-evolutio.ar,4,academia,EVOLUTIO,,,
-facet.unt.edu.ar,4,academia,Q141144763,,,
-fahce.unlp.edu.ar,4,academia,Q141144670,,,
-fau.unlp.edu.ar,4,academia,Q141144695,,,
-fba.unlp.edu.ar,4,academia,"Universidad Nacional de La Plata, Facultad de Bellas Artes",central,,
-fcq.unc.edu.ar,4,academia,Q141144733,,,
-fcv.unlp.edu.ar,4,academia,"Universidad Nacional de La Plata, Facultad de Ciencias Veterinarias",central,,
-fiba.org.ar,4,academia,Foundation for Applied Biological Research,,,
-flacso.org.ar,4,academia,Q141144710,,,
-fleni.org.ar,4,academia,Q141144739,,,
-frm.utn.edu.ar,4,academia,Laboratorio de Fabricacion Digital UTN-FRM,,,
-fundacionpensar.org.ar,4,academia,Fundación Pensar,,,
-geografia.institutos.filo.uba.ar,4,academia,Instituto de Geografía Romualdo Ardissone,,,
-iaa.fadu.uba.ar,4,academia,Center for Urban Archaeology,,,
-iae.institutos.filo.uba.ar,4,academia,Q138473321,,,
-iafe.uba.ar,4,academia,Q141144817,,,
-ibbm.org.ar,4,academia,Instituto De Biotecnología Y Biología Molecular,,,
-ibone.unne.edu.ar,4,academia,Instituto de Botánica del Nordeste,,,
-ibyme.org.ar,4,academia,Instituto de Biología y Medicina Experimental,,,
-icifi.unsam.edu.ar,4,academia,Q141144700,,,
-icsoh.unsa.edu.ar,4,academia,Q141144691,,,
-icytac.conicet.unc.edu.ar,4,academia,Q141144818,,,
-idea.conicet.unc.edu.ar,4,academia,Instituto de Diversidad y Ecología Animal,,,
-idean.gl.fcen.uba.ar,4,academia,Q137358918,,,
-idh.unc.edu.ar,4,academia,Q141144789,,,
-iealc.sociales.uba.ar,4,academia,"Universidad de Buenos Aires, Instituto de Estudios de América Latina y el Caribe",,,
-if.institutos.filo.uba.ar,4,academia,Q138655603,,,
-ifc.institutos.filo.uba.ar,4,academia,Instituto de Filología Clásica,,,
-ifeg.famaf.unc.edu.ar,4,academia,Enrique Gaviola Institute of Physics,,,
-ifeva.edu.ar,4,academia,Q141144715,,,
-ifibyne.fcen.uba.ar,4,academia,Q97624909,,,
-iflh.institutos.filo.uba.ar,4,academia,"Instituto de Filología y Literaturas Hispánicas ""Dr. Amado Alonso""",,,
-iflp.unlp.edu.ar,4,academia,Instituto de Física La Plata,,,
-iflysib.unlp.edu.ar,4,academia,Instituto de Fisica de Liquidos y Sistemas Biologicos,,,
-ig.conae.unc.edu.ar,4,academia,Mario Gulich Institute for Advanced Space Studies,,,
-igeba.gl.fcen.uba.ar,4,academia,Q141144743,,,
-iham.institutos.filo.uba.ar,4,academia,"Instituto de Historia Antigua, Medieval y Moderna ""Prof. José Luis Romero""",,,
-ihe.institutos.filo.uba.ar,4,academia,"Instituto de Historia de España ""Dr. Claudio Sánchez Albornoz""",,,
-iigg.sociales.uba.ar,4,academia,"Universidad de Buenos Aires, Facultad de Ciencias Sociales, Instituto de Investigaciones Gino Germani, Programa de Investigaciones sobre Conflicto Social",,,
-iipsi.psicologia.unc.edu.ar,4,academia,Instituto de Investigaciones Psicológicas,,,
-ilar.institutos.filo.uba.ar,4,academia,Instituto de Literatura Argentina Ricardo Rojas,,,
-ilpla.edu.ar,4,academia,"Instituto de Limnología ""Dr. Raúl A. Ringuelet""",,,
-imbiv.conicet.unc.edu.ar,4,academia,Instituto Multidisciplinario de Biología Vegetal,,,
-inbirs.org.ar,4,academia,Q141144724,,,
-indesconicet.fhu.unse.edu.ar,4,academia,Q141144653,,,
-infiqc.fcq.unc.edu.ar,4,academia,Córdoba Research Institute in Physical Chemistry,,,
-infive.unlp.edu.ar,4,academia,Instituto de Fisiología Vegetal,,,
-inibi.institutos.filo.uba.ar,4,academia,"Universidad de Buenos Aires, Facultad de Filosofía y Letras, Instituto de Investigaciones Bibliotecológicas",,,
-inibiolp.org.ar,4,academia,Q141144734,,,
-inicsa.sitios.fcm.unc.edu.ar,4,academia,Instituto de Investigaciones en Ciencias de la Salud,,,
-inquinoa.org.ar,4,academia,Q141144863,,,
-insibio.org.ar,4,academia,Instituto Superior de Investigaciones Biológicas,,,
-institutojvgonzalez.buenosaires.edu.ar,4,academia,"Instituto Superior del Profesorado ""Dr. Joaquín V. González""",,,
-insugeo.org.ar,4,academia,Q141144827,,,
-intecin.fi.uba.ar,4,academia,Q141144767,,,
-investigacion.frc.utn.edu.ar,4,academia,Q141144647,,,
-ipqa.unc.edu.ar,4,academia,Q141144798,,,
-ips.edu.ar,4,academia,Instituto Politécnico Superior,,,
-irnad.unrn.edu.ar,4,academia,Q141144732,,,
-isistan.unicen.edu.ar,4,academia,Q141144788,,,
-itaproq.di.fcen.uba.ar,4,academia,Q141144871,,,
-itpn.fi.uba.ar,4,academia,Q141144687,,,
-iugna.edu.ar,4,academia,Q60602739,central,,
-iunma.edu.ar,4,academia,Q6156662,central,,
-iupa.edu.ar,4,academia,Q128601859,central,,
-iuse.edu.ar,4,academia,Q128601874,central,,
-iusm.edu.ar,4,academia,Q128601864,central,,
-labmem.unsl.edu.ar,4,academia,Q141144720,,,
-laboratorioaclimu.com.ar,4,academia,Laboratorio Aclimu,,,
-leici.ing.unlp.edu.ar,4,academia,Q141144842,,,
-lfp.uba.ar,4,academia,Q141144675,,,
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Buenos Aires",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
-museobotanico.unc.edu.ar,4,academia,Instituto Multidisciplinario de Biología Vegetal,,,
-palestina.int.ar,4,wikidata,"Embassy of the State of Palestine, Buenos Aires",central,200,0 mail.palestina.int.ar.
-pami.org.ar,4,wikidata,Comprehensive Medical Attention Program of Argentina,,HttpConnectTimeoutException: HTTP connect timed out,10 correo.pami.org.ar.
-plapiqui.edu.ar,4,academia,Q141144805,,,
-psico.unlp.edu.ar,4,academia,Facultad de Psicología de la Universidad Nacional de La Plata,central,,
-ravignani.institutos.filo.uba.ar,4,academia,"Instituto de Historia Argentina y Americana ""Dr. Emilio Ravignani""",,,
-rta-se.com.ar,4,wikidata,Radio y Televisión Argentina Sociedad del Estado,,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching rta-se.com.ar found.,10 host213.181-15-247.tvpublica.com.ar.
-ulp.edu.ar,4,academia,University of La Punta,central,,
-unab.edu.ar,4,academia,Q39081287,central,,
-unau.edu.ar,4,academia,Q39081285,central,,
-unc-hemoderivados.com.ar,4,academia,Q131550119,,,
-undef.edu.ar,4,academia,University of the National Defence,central,,
-undelta.edu.ar,4,academia,Q128138261,central,,
-universidad-policial.edu.ar,4,academia,University Institute of the Argentine Federal Police,central,,
-unlc.edu.ar,4,academia,Q39081284,central,,
-unm.edu.ar,4,academia,National University of Moreno,central,,
-unpa.edu.ar,4,academia,National University of Austral Patagonia,central,,
-unrt.com.ar,4,academia,Q128139198,central,,
-unso.edu.ar,4,academia,Q39081350,central,,
-uplab.edu.ar,4,academia,Q135490323,central,,
-web.iflysib.unlp.edu.ar,4,academia,Instituto de Fisica de Liquidos y Sistemas Biologicos,,,
-web.upe.edu.ar,4,academia,Q128601838,central,,
-21.edu.ar,3,ror,Universidad Siglo 21,central,,
-aica.org,3,wikidata,AICA,,HttpTimeoutException: request timed out,10 mail.aica.org.
-ar.ambafrance.org,3,wikidata,"Embassy of France, Buenos Aires",central,301,none
-ar.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Buenos Aires",central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching ar.china-embassy.org found.,none
-ar.mvep.hr,3,wikidata,embassy of Croatia in Argentina,central,ConnectException,none
-ar.undp.org,3,wikidata,United Nations Development Programme,,301,none
-argentina.mfa.am,3,wikidata,embassy of Armenia in Argentina,central,301,none
-argentina.mid.ru,3,wikidata,embassy of Russia in Argentina,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-atlantida.edu.ar,3,ror,Argentine Atlantis University,central,,
-ats.aq,3,wikidata,Secretariat of the Antarctic Treaty,,301,0 aspmx.l.google.com.; 2 aspmx2.googlemail.com.; 1 alt1.aspmx.l.google.com.
-austral.edu.ar,3,ror,Austral University,central,,
-barcelo.edu.ar,3,ror,Instituto Universitario de Ciencias de la Salud - Fundación Héctor A. Barceló,central,,
-buenos-aires.diplo.de,3,wikidata,"Embassy of Germany, Buenos Aires",central,200,10 mx1.bund.de.; 10 mx2.bund.de.
-buenos-aires.embassy.qa,3,wikidata,embassy of Qatar in Argentina,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-buenosaires.mae.ro,3,wikidata,embassy of Romania in Argentina,central,503,none
-buenosaires.veleposlanistvo.si,3,wikidata,embassy of Slovenia in Argentina,central,SSLHandshakeException: Remote host terminated the handshake,none
-caicyt-conicet.gov.ar,3,wikidata;academia,"Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino de Información Científica y Tecnológica",central,HttpConnectTimeoutException: HTTP connect timed out,none
-catenainstitute.com,3,academia,Catena Institute of Wine,,,
-cedinci.org,3,academia,Centro de Documentación e Investigación de la Cultura de Izquierdas en la Argentina,,,
-ceii.com.ar,3,ror,Centro de Estudios de Innovación Institucional,central,,
-cemla.com,3,academia,Centro de Estudios Migratorios Latinoamericanos,,,
-eeas.europa.eu,3,wikidata,Delegation of the European Union to Argentina,,200,10 mxb-00338601.gslb.pphosted.com.; 10 mxa-00338601.gslb.pphosted.com.
-eseade.edu.ar,3,ror,Instituto Universitario Escuela Superior de Economía y Administración de Empresas,central,,
-favaloro.edu.ar,3,ror,Favaloro University,central,,
-finlandabroad.fi,3,wikidata,Embassy of Finland in Argentina,central,301,10 mail.valtori.fi.
-ianigla.net,3,academia,"Argentine Institute for Snow Research, Glaciology and Environmental Sciences",,,
-iate.oac.uncor.edu,3,academia,Q141144744,,,
-ibmpas.org,3,academia,Instituto de Biología Marina y Pesquera Almirante Storni,,,
-iee-unsjconicet.org,3,academia,Q141144640,,,
-ihaaafda.wixsite.com,3,academia,Q131283737,,,
-il.institutos.filo.uba.ar,3,ror,Instituto de Lingüística,central,,
-instituto.hospitalitaliano.edu.ar,3,ror,Universidad Hospital Italiano,central,,
-inv.idit.efn.uncor.edu,3,academia,Q141144790,,,
-inv.iibyt.efn.uncor.edu,3,academia,Q97446148,,,
-isalud.edu.ar,3,ror,Universidad Isalud,central,,
-ishir.conicet.gov.ar,3,wikidata;academia,"Investigaciones Socio-históricas Regionales | Universidad Nacional de Rosario; Consejo Nacional de Investigaciones Científicas y Técnicas, Nodo Centro de Estudios Sociales Regionales, Unidad Ejecutora Investigaciones Socio-Históricas Regionales",central,,
-itba.edu.ar,3,ror,Instituto Tecnológico de Buenos Aires (ITBA),central,,
-iua.edu.ar,3,ror,Instituto Universitario Aeronáutico,central,,
-iucbc.edu.ar,3,ror,Instituto Universitario de Ciencias Biomédicas de Córdoba,central,,
-iunir.edu.ar,3,ror,Instituto Universitario Italiano de Rosario,central,,
-iupfa.edu.ar,3,ror,Instituto Universitario de la Policía Federal Argentina,central,,
-kennedy.edu.ar,3,ror,Universidad Argentina John F. Kennedy,central,,
-lacampora.org,3,wikidata,La Cámpora,,200,10 mail.lacampora.org.
-mfa.bg,3,wikidata,embassy of Bulgaria in Argentina,central,302,0 mfa-bg.mail.protection.outlook.com.
-mfa.gr,3,wikidata,embassy of Greece in Argentina,central,403,10 mailhost.mfa.gr.
-ms.gba.gov.ar,3,wikidata;academia,Ministry of Health of the Province of Buenos Aires | Dr. Tomás Perón Biological Institute,,307,10 relay1.gba.gov.ar.; 10 relay2.gba.gov.ar.
-mzv.cz,3,wikidata,embassy of the Czech republic in Argentina,central,302,50 mzvczemta05.mzv.cz.; 10 mzvczemta06.mzv.cz.
-mzv.sk,3,wikidata,embassy of Slovakia in Argentina,central,301,10 mail.gov.sk.
-newsite.ucse.edu.ar,3,ror,Catholic University of Santiago del Estero,central,,
-norway.no,3,wikidata,"Embassy of Norway, Buenos Aires",central,301,0 mx.domeneshop.no.
-sites.google.com,3,academia,Q141144847,,,
-swedenabroad.se,3,wikidata,"Embassy of Sweden, Buenos Aires",central,301,none
-thaiembargen.org,3,wikidata,embassy of Thailand in Argentina,central,200,none
-uaco.unpa.edu.ar,3,ror,National University of Austral Patagonia,central,,
-uade.edu.ar,3,ror,Universidad Argentina de la Empresa,central,,
-uai.edu.ar,3,ror,Universidad Abierta Interamericana,central,,
-uap.edu.ar,3,ror,Universidad Adventista del Plata,central,,
-ub.edu.ar,3,ror,University of Belgrano,central,,
-ubp.edu.ar,3,ror,Universidad Blas Pascal,central,,
-ucaece.edu.ar,3,ror,Universidad Centro de Altos Estudios en Ciencias Exactas,central,,
-ucalp.edu.ar,3,ror,Universidad Católica de La Plata,central,,
-ucasal.edu.ar,3,ror,Universidad Católica de Salta,central,,
-ucc.edu.ar,3,ror,Universidad Católica de Córdoba,central,,
-uccuyosj.edu.ar,3,ror,Universidad Católica de Cuyo,central,,
-ucel.edu.ar,3,ror,University of the Latin American Educational Center,central,,
-ucema.edu.ar,3,ror,Universidad del Centro de Estudios Macroeconómicos de Argentina,central,,
-uces.edu.ar,3,ror,Universidad de Ciencias Empresariales y Sociales,central,,
-uch.edu.ar,3,ror,Universidad Champagnat,central,,
-ucine.edu.ar,3,ror,Universidad del Cine,central,,
-ucongreso.edu.ar,3,ror,Universidad de Congreso,central,,
-ucp.edu.ar,3,ror,University of Cuenca del Plata,central,,
-ucsf.edu.ar,3,ror,Universidad Católica de Santa Fe,central,,
-ucu.edu.ar,3,ror,Universidad de Concepción del Uruguay,central,,
-uda.edu.ar,3,ror,Aconcagua University,central,,
-udemm.edu.ar,3,ror,Universidad de la Marina Mercante,central,,
-ufasta.edu.ar,3,ror,Universidad Fraternidad de Agrupaciones Santo Tomás de Aquino,central,,
-uflo.edu.ar,3,ror,Universidad de Flores,central,,
-ugd.edu.ar,3,ror,Universidad Gastón Dachary,central,,
-ugr.edu.ar,3,ror,Universidad del Gran Rosario,central,,
-um.edu.ar,3,ror,University of Mendoza,central,,
-umaza.edu.ar,3,ror,Juan Agustín Maza University,central,,
-umsa.edu.ar,3,ror,University of Argentine Social Museum,central,,
-unimoron.edu.ar,3,ror,Universidad de Morón,central,,
-universidadnotarial.edu.ar,3,ror,Universidad Notarial Argentina,central,,
-unsta.edu.ar,3,ror,Saint Thomas Aquinas North University,central,,
-usal.edu.ar,3,ror,Universidad del Salvador,central,,
-usi.edu.ar,3,ror,"Universidad de San Isidro ""Dr. Plácido Marín""",central,,
-uspt.edu.ar,3,ror,Universidad de San Pablo-T,central,,
-web.roc-taiwan.org,3,wikidata,Taipei Commercial and Cultural Office in Argentina,,HttpConnectTimeoutException: HTTP connect timed out,none
-maimonides.edu,2,ror,Universidad Maimónides,central,,
-palermo.edu,2,ror,University of Palermo,central,,
-utdt.edu,2,ror,Universidad Torcuato Di Tella,central,,
-umet.edu.ar,0,ror,Universidad Metropolitana para la Educación y el Trabajo,central,,
+domain,score,sources,label,level
+ungs.edu.ar,9,academia;ror,Instituto del Conurbano | National University of General Sarmiento,central
+unsam.edu.ar,9,academia;ror,National University of General San Martín | Q141144696 | Q141144704,central
+anlis.gov.ar,8,academia,ANLIS Malbrán | National Institute of Human Viral Disease,central
+bn.gov.ar,8,wikidata;academia,Mariano Moreno National Library | Centro de Estudios y Documentación Jorge Luis Borges,
+casarosada.gov.ar,8,wikidata,Poder Ejecutivo Nacional,
+conicet.gov.ar,8,wikidata;academia,National Scientific and Technical Research Council | Centro de Investigaciones y Transferencia Tierra del Fuego,
+diputadosmisiones.gov.ar,8,wikidata,Chamber of Deputies of Misiones,central-1
+diputadossantafe.gov.ar,8,wikidata,Chamber of Deputies of Santa Fe,central-1
+hcdcorrientes.gov.ar,8,wikidata,Chamber of Deputies of Corrientes | Q56316686,central-1
+hcder.gov.ar,8,wikidata,Chamber of Deputies of Entre Ríos,central-1
+hcdiputados-ba.gov.ar,8,wikidata,Buenos Aires Province Chamber of Deputies,central-1
+hcdmza.gov.ar,8,wikidata,Chamber of Deputies of Mendoza,central-1
+inbias.conicet.gov.ar,8,wikidata;academia,Instituto de Biotecnología Ambiental y Salud | Q141144865,
+inpa-uba.conicet.gov.ar,8,wikidata;academia,Instituto de Investigación en Producción Animal | Q141144680,
+ipsibat.conicet.gov.ar,8,wikidata;academia,"Instituto de Psicología Básica, Aplicada y Tecnología | Q141144615",
+legislaturaformosa.gov.ar,8,wikidata,Formosa Chamber of Deputies,central-1
+legislaturajujuy.gov.ar,8,wikidata,Chamber of Deputies of Jujuy,central-1
+legislaturamendoza.gov.ar,8,wikidata,legislature of Mendoza,central-1
+mp.gba.gov.ar,8,wikidata,"Ministry of Production, Science and Technology",central
+mseg.gba.gov.ar,8,wikidata,Buenos Aires Province Ministry of Security,central-1
+santafe.gov.ar,8,wikidata,"Santa Fe Provincial Police | Ministry of Security of the Province of Santa Fe | Q68720757 | Agencia Santafesina de Ciencia, Tecnología e Innovación | Archivo Provincial de la Memoria de Santa Fe",central-1
+senado-ba.gov.ar,8,wikidata,Senate of Buenos Aires Province,central-1
+senado.sanluis.gov.ar,8,wikidata,Senate of San Luis,central-1
+senadoctes.gov.ar,8,wikidata,Senate of Corrientes,central-1
+web.legisrn.gov.ar,8,wikidata,Legislature of Río Negro,central-1
+ciclaplata.org.ar,7,academia,Centro de Investigaciones Cardiovasculares | Q141144648,
+cima.fcen.uba.ar,7,academia,Center for Ocean and Atmosphere Sciences | Instituto Franco-Argentino sobre Estudios de Clima y sus Impactos,
+csjn.gov.ar,7,wikidata,Supreme Court of Argentina,central
+embajadadeluruguay.com.ar,7,wikidata,embassy of Uruguay in Argentina,central
+fuerzas-armadas.mil.ar,7,wikidata,Joint Staff of the Armed Forces | Jefatura de Inteligencia del Estado Mayor Conjunto de las Fuerzas Armadas,
+idecu.conicet.gov.ar,7,academia;ror,Q141144617,central
+idim.org.ar,7,academia,Institute for Medical Research | Q141144792,
+inquimae.fcen.uba.ar,7,academia,"Instituto de Química Física de los Materiales, Medio Ambiente y Energía | Q141144780",
+leloir.org.ar,7,academia,Leloir Institute | Q141144614,
+lillo.org.ar,7,academia,Fundación Miguel Lillo | Q141144844,
+scba.gov.ar,7,wikidata,Supreme Court of Justice of Buenos Aires,
+teatrocolon.org.ar,7,wikidata;academia,Teatro Colón | Instituto Superior de Arte del Teatro Colón,
+arqueologia.institutos.filo.uba.ar,6,academia;ror,"Instituto de Arqueología, Facultad de Filosofía y Letras, Universidad de Buenos Aires",central
+jesuitasaru.org,6,wikidata,Argentine-Uruguayan Jesuit Province,
+mdp.edu.ar,6,academia;ror,National University of Mar del Plata,central
+uader.edu.ar,6,academia;ror,Autonomous University of Entre Ríos,central
+uba.ar,6,academia;ror,University of Buenos Aires,central
+uca.edu.ar,6,academia;ror,Q141144693,central
+udc.edu.ar,6,academia;ror,University of Chubut,central
+udelaciudad.edu.ar,6,academia;ror,Q112751967,central
+udesa.edu.ar,6,academia;ror,Q140382175,central
+una.edu.ar,6,academia;ror,National University of the Arts,central
+unahur.edu.ar,6,academia;ror,Universidad Nacional de Hurlingham,central
+unaj.edu.ar,6,academia;ror,Arturo Jauretche National University,central
+unam.edu.ar,6,academia;ror,National University of Misiones,central
+unc.edu.ar,6,academia;ror,National University of Córdoba,central
+unca.edu.ar,6,academia;ror,National University of Catamarca,central
+uncaus.edu.ar,6,academia;ror,National University of the Chaco Austral,central
+uncoma.edu.ar,6,academia;ror,Universidad Nacional del Comahue,central
+uncuyo.edu.ar,6,academia;ror,Universidad Nacional de Cuyo,central
+undav.edu.ar,6,academia;ror,National University of Avellaneda,central
+undec.edu.ar,6,academia;ror,National University of Chilecito,central
+uner.edu.ar,6,academia;ror,National University of Entre Ríos,central
+unf.edu.ar,6,academia;ror,National University of Formosa,central
+unicen.edu.ar,6,academia;ror,National University of Central Buenos Aires,central
+unipe.edu.ar,6,academia;ror,Q128137502,central
+unju.edu.ar,6,academia;ror,National University of Jujuy,central
+unl.edu.ar,6,academia;ror,National University of the Littoral,central
+unla.edu.ar,6,academia;ror,National University of Lanús,central
+unlam.edu.ar,6,academia;ror,National University of La Matanza,central
+unlar.edu.ar,6,academia;ror,National University of La Rioja,central
+unlp.edu.ar,6,academia;ror,National University of La Plata,central
+unlpam.edu.ar,6,academia;ror,National University of La Pampa,central
+unlu.edu.ar,6,academia;ror,National University of Luján,central
+unlz.edu.ar,6,academia;ror,National University of Lomas de Zamora,central
+unne.edu.ar,6,academia;ror,National University of the Northeast,central
+unnoba.edu.ar,6,academia;ror,National University of Northwestern Buenos Aires,central
+uno.edu.ar,6,academia;ror,National University of the West,central
+unp.edu.ar,6,academia;ror,National University of Patagonia San Juan Bosco,central
+unpaz.edu.ar,6,academia;ror,National University of José Clemente Paz,central
+unpilar.edu.ar,6,academia;ror,Q128137965,central
+unq.edu.ar,6,academia;ror,National University of Quilmes,central
+unr.edu.ar,6,academia;ror,National University of Rosario,central
+unraf.edu.ar,6,academia;ror,National University of Rafaela,central
+unrc.edu.ar,6,academia;ror,National University of Río Cuarto,central
+unrn.edu.ar,6,academia;ror,National University of Río Negro,central
+uns.edu.ar,6,academia;ror,Universidad Nacional del Sur,central
+unsa.edu.ar,6,academia;ror,National University of Salta,central
+unsada.edu.ar,6,academia;ror,National University of San Antonio de Areco,central
+unse.edu.ar,6,academia;ror,National University of Santiago del Estero,central
+unsj.edu.ar,6,academia;ror,National University of San Juan,central
+unsl.edu.ar,6,academia;ror,National University of San Luis,central
+unt.edu.ar,6,academia;ror,National University of Tucumán,central
+untdf.edu.ar,6,academia;ror,National University of Tierra del Fuego,central
+untref.edu.ar,6,academia;ror,National University of Tres de Febrero,central
+unvime.edu.ar,6,academia;ror,National University of Villa Mercedes,central
+unvm.edu.ar,6,academia;ror,National University of Villa María,central
+upc.edu.ar,6,academia;ror,Provincial University of Cordoba,central-1
+upso.edu.ar,6,academia;ror,Q20019056,central
+utn.edu.ar,6,academia;ror,National Technological University,central
+agn.gov.ar,5,wikidata,Auditoría General de la Nación,
+cab.cnea.gov.ar,5,academia,Bariloche Atomic Centre,
+cadic.conicet.gov.ar,5,academia,Centro Austral de Investigaciones Científicas,
+casleo.conicet.gov.ar,5,academia,Q141144749,
+cba.gov.ar,5,wikidata,Ministerio de Ciencia y Tecnología,
+cconfines.conicet.gov.ar,5,academia,Q131343712,
+cecoal.conicet.gov.ar,5,academia,Q141144801,
+cedie.conicet.gov.ar,5,academia,Q141144768,
+cefobi-conicet.gov.ar,5,academia,Q141144740,
+cefybo.conicet.gov.ar,5,academia,Q97730258,
+ceil-conicet.gov.ar,5,academia,Centro de Estudios e Investigaciones Laborales,
+cenexa.conicet.gov.ar,5,academia,Q141144738,
+cenpat.conicet.gov.ar,5,academia,CENPAT,
+cequinor.conicet.gov.ar,5,academia,Q141144866,
+cerela.conicet.gov.ar,5,academia,Q141144621,
+cesimar.conicet.gov.ar,5,academia,Q141144638,
+ceur-conicet.gov.ar,5,academia,Q141144699,
+cevhan.conicet.gov.ar,5,academia,Q141144746,
+ciap.conicet.gov.ar,5,academia,Q141144728,
+cibaal.conicet.gov.ar,5,academia,Q141144753,
+cibici.conicet.gov.ar,5,academia,Q97446029,
+cibion.conicet.gov.ar,5,academia,Q141144664,
+cicyttp.conicet.gov.ar,5,academia,Q141144775,
+cidca.conicet.gov.ar,5,academia,Q141144656,
+ciecs.conicet.gov.ar,5,academia,Centro de Investigaciones y Estudios sobre Cultura y Sociedad,
+ciemep.conicet.gov.ar,5,academia,Esquel Mountain and Patagonian Steppe Research Center,
+ciesp.conicet.gov.ar,5,academia,Q141144867,
+cifasis-conicet.gov.ar,5,academia,Q141144755,
+cificen.conicet.gov.ar,5,academia,Q141144688,
+cigeobio.conicet.gov.ar,5,academia,Q141144712,
+cihidecar.conicet.gov.ar,5,academia,Q141144618,
+ciipme-conicet.gov.ar,5,academia,Q141144824,
+ciited.conicet.gov.ar,5,academia,Q141144682,
+cime.conicet.gov.ar,5,academia,Q141144782,
+cimec.conicet.gov.ar,5,academia,Q141144748,
+cimec.santafe-conicet.gov.ar,5,academia,Centro Internacional de Métodos Computacionales en Ingeniería,
+ciop.conicet.gov.ar,5,academia,Q141144825,
+cis.conicet.gov.ar,5,academia,Q141144869,
+cisor.conicet.gov.ar,5,academia,Q141144754,
+citaac.conicet.gov.ar,5,academia,Q141144810,
+civetan.conicet.gov.ar,5,academia,Q141144761,
+cnv.gov.ar,5,wikidata,National Securities Commission,
+consejomagistratura.gov.ar,5,wikidata,Council of Magistracy of Argentina,
+creas.conicet.gov.ar,5,academia,Q141144764,
+crilar.conicet.gov.ar,5,academia,Q141144836,
+csc.conicet.gov.ar,5,academia,Q141144759,
+curdiur.conicet.gov.ar,5,academia,Q141144717,
+dnrpa.gov.ar,5,wikidata,Q47011743,
+enys.conicet.gov.ar,5,academia,Q141144671,
+hidro.gov.ar,5,wikidata,Argentine Hydrographic Naval Service,
+iabimo.conicet.gov.ar,5,academia,Q141144848,
+iadiza.conicet.gov.ar,5,academia,Q141144689,
+iado.conicet.gov.ar,5,academia,Argentine Institute of Oceanography,
+ial.conicet.gov.ar,5,academia,Institute of Agrobiotechnology of the Litoral,
+ial.santafe-conicet.gov.ar,5,academia,Institute of Agrobiotechnology of the Litoral,
+iam.conicet.gov.ar,5,academia,Instituto Argentino de Matematica,
+ianigla.conicet.gov.ar,5,academia,"Argentine Institute for Snow Research, Glaciology and Environmental Sciences",
+iapv.gov.ar,5,wikidata,Autarchic Planning and Housing Institute,
+iar-conicet.gov.ar,5,academia,Q141144683,
+ibam.conicet.gov.ar,5,academia,Q141144642,
+ibb.conicet.gov.ar,5,academia,Instituto de Investigación y Desarrollo en Bioingeniería y Bioinformática,
+ibbm.conicet.gov.ar,5,academia,Instituto De Biotecnología Y Biología Molecular,
+ibigeo.conicet.gov.ar,5,academia,Q141144726,
+ibimol.conicet.gov.ar,5,academia,Q141144634,
+ibioba-mpsp-conicet.gov.ar,5,academia,Q141144851,
+ibiomar.conicet.gov.ar,5,academia,Instituto de Biología de Organismos Marinos,
+ibn.conicet.gov.ar,5,academia,Instituto de Biodiversidad Neotropical,
+iboda.conicet.gov.ar,5,academia,Instituto de Botánica Darwinion,
+ibr-conicet.gov.ar,5,academia,Q141144772,
+ibs.conicet.gov.ar,5,academia,Instituto de Biología Subtropical,
+icai.conicet.gov.ar,5,academia,Q141144619,
+icate.conicet.gov.ar,5,academia,Institute of Astronomical Sciences of the Earth and Space,
+icb.conicet.gov.ar,5,academia,Q141144834,
+icbia.conicet.gov.ar,5,academia,Q141144694,
+iciagro.conicet.gov.ar,5,academia,Q141144735,
+icic.conicet.gov.ar,5,academia,Institute for Research  in Computer Science and Engineering,
+icivet.santafe-conicet.gov.ar,5,academia,Q141144862,
+ictaer.conicet.gov.ar,5,academia,Q141144837,
+icyte.conicet.gov.ar,5,academia,Q141144616,
+idacor.conicet.gov.ar,5,academia,Córdoba Anthropology Institute,
+idas.conicet.gov.ar,5,academia,Q141144849,
+ideaus.conicet.gov.ar,5,academia,Q141144835,
+idehu.conicet.gov.ar,5,academia,Q141144637,
+idejus.conicet.gov.ar,5,academia,Q141144686,
+idevea.conicet.gov.ar,5,academia,Q117087450,
+idical.conicet.gov.ar,5,academia,Q141144857,
+idicer.conicet.gov.ar,5,academia,Q141144707,
+iecet.conicet.gov.ar,5,academia,Q141144791,
+iech.conicet.gov.ar,5,academia,Q141144655,
+iehsolp.conicet.gov.ar,5,academia,Q141144677,
+ier.conicet.gov.ar,5,academia,Q141144727,
+iesyh.conicet.gov.ar,5,academia,Q141144796,
+ifab.conicet.gov.ar,5,academia,Q141144750,
+ifibio-uba.conicet.gov.ar,5,academia,Q141144692,
+ifimar.conicet.gov.ar,5,academia,Institute of Physical Investigations of Mar del Plata,
+ifir-conicet.gov.ar,5,academia,Q141144774,
+ifis.conicet.gov.ar,5,academia,Q141144661,
+igehcs.conicet.gov.ar,5,academia,"CONICET - UNCPBA. Instituto de Geografía, Historia y Ciencias Sociales. Centro de Investigaciones Geográficas.",
+ihem.conicet.gov.ar,5,academia,Q141144729,
+ihlla.conicet.gov.ar,5,academia,"Instituto de Hidrología de Llanuras ""Dr. Eduardo Jorge Usunoff""",
+ihucso.conicet.gov.ar,5,academia,Q141144725,
+iib.conicet.gov.ar,5,academia,Q141144765,
+iibicrit.conicet.gov.ar,5,academia,Q135484441,
+iidepys.conicet.gov.ar,5,academia,Q141144624,
+iidthh.conicet.gov.ar,5,academia,Q141144636,
+iidypca.conicet.gov.ar,5,academia,Instituto de Investigaciones en Diversidad Cultural y Procesos de Cambio,
+iif.conicet.gov.ar,5,academia,Q141144758,
+iifp.conicet.gov.ar,5,academia,Q141144813,
+iighi.conicet.gov.ar,5,academia,"Universidad Nacional del Nordeste, Instituto de Investigaciones Geohistóricas - CONICET",central
+iiia.conicet.gov.ar,5,academia,Q141144812,
+iimyc.conicet.gov.ar,5,academia,Q141144690,
+iipg.conicet.gov.ar,5,academia,Q141144747,
+iiprosam.conicet.gov.ar,5,academia,Q141144822,
+iitci.conicet.gov.ar,5,academia,Q141144731,
+iitema.conicet.gov.ar,5,academia,Q141144783,
+imal.conicet.gov.ar,5,academia,Q141144711,
+imam.conicet.gov.ar,5,academia,Q141144659,
+imbecu.conicet.gov.ar,5,academia,Q141144803,
+imbice.gov.ar,5,academia,Q141144639,
+imettyb.conicet.gov.ar,5,academia,Q141144667,
+imex.conicet.gov.ar,5,academia,Q141144745,
+imhicihu.conicet.gov.ar,5,academia,Instituto Multidisciplinario de Historia y Ciencias Humanas,
+imibio.conicet.gov.ar,5,academia,Q141144681,
+imico.conicet.gov.ar,5,academia,Q141144843,
+imipp.conicet.gov.ar,5,academia,Q141144673,
+imit.conicet.gov.ar,5,academia,Q141144730,
+imitab.conicet.gov.ar,5,academia,Q141144705,
+immca.conicet.gov.ar,5,academia,Q141144814,
+impam.conicet.gov.ar,5,academia,Q141144826,
+imsated.conicet.gov.ar,5,academia,Q141144815,
+imtib.conicet.gov.ar,5,academia,Q141144872,
+inahe.conicet.gov.ar,5,academia,Q141144737,
+inali.conicet.gov.ar,5,academia,Q141144804,
+inaut.conicet.gov.ar,5,academia,Q141144868,
+inbiofal.conicet.gov.ar,5,academia,Q141144756,
+inbiofiv.conicet.gov.ar,5,academia,Q141144622,
+inbiomed.conicet.gov.ar,5,academia,Q141144693,
+inbionatec.conicet.gov.ar,5,academia,Q141144864,
+inbiop.conicet.gov.ar,5,academia,Q141144718,
+incape.conicet.gov.ar,5,academia,Q141144674,
+incihusa.conicet.gov.ar,5,academia,Q141144713,
+incitap.conicet.gov.ar,5,academia,Q141144672,
+incivet.conicet.gov.ar,5,academia,Q141144631,
+incuapa.conicet.gov.ar,5,academia,Instituto de Investigaciones Arqueológicas y Paleontológicas del Cuaternario Pampeano,
+incyt.conicet.gov.ar,5,academia,Q141144662,
+inecoa-unju.conicet.gov.ar,5,academia,Q141144840,
+inedes.conicet.gov.ar,5,academia,Q141144654,
+inenco.conicet.gov.ar,5,academia,Q141144698,
+ineo.conicet.gov.ar,5,academia,Q141144776,
+ines.conicet.gov.ar,5,academia,Q141144859,
+infap-unsl.conicet.gov.ar,5,academia,Q141144685,
+infinoa.conicet.gov.ar,5,academia,Q141144703,
+infiqc.conicet.gov.ar,5,academia,Q141144785,
+infive.conicet.gov.ar,5,academia,Instituto de Fisiología Vegetal,
+ingebi-conicet.gov.ar,5,academia,Q141144635,
+ingeis.conicet.gov.ar,5,academia,Q141144632,
+inhus.conicet.gov.ar,5,academia,Q141144802,
+iniab.conicet.gov.ar,5,academia,Q141144627,
+inibioma.conicet.gov.ar,5,academia,Q137359385,
+inigem-uba.conicet.gov.ar,5,academia,Q141144611,
+inimec.conicet.gov.ar,5,academia,Q87818234,
+ininfa-uba.conicet.gov.ar,5,academia,Q51881673,
+inipta.conicet.gov.ar,5,academia,Q141144832,
+iniqui.conicet.gov.ar,5,academia,Q141144823,
+inlain.santafe-conicet.gov.ar,5,academia,Q141144668,
+inmibo.conicet.gov.ar,5,academia,Q141144797,
+inn-cnea.conicet.gov.ar,5,academia,Q141144701,
+inqui-unsl.conicet.gov.ar,5,academia,Q141144684,
+intec.conicet.gov.ar,5,academia,Q141144795,
+intech.conicet.gov.ar,5,academia,Q141144853,
+intequi-unsl.conicet.gov.ar,5,academia,Q141144612,
+invelec.conicet.gov.ar,5,academia,Q141144651,
+ipatec.conicet.gov.ar,5,academia,Q141144645,
+ipcsh.conicet.gov.ar,5,academia,Q141144786,
+ipe.conicet.gov.ar,5,academia,Q141144719,
+ipeec.conicet.gov.ar,5,academia,Q141144641,
+ipehcs.conicet.gov.ar,5,academia,Q141144678,
+ipgp.conicet.gov.ar,5,academia,Q120648361,
+iqal.conicet.gov.ar,5,academia,Q141144650,
+iquiba-nea.conicet.gov.ar,5,academia,Q141144794,
+iquifib.conicet.gov.ar,5,academia,Q141144676,
+iquimefa.conicet.gov.ar,5,academia,Q141144850,
+iquir-conicet.gov.ar,5,academia,Q141144757,
+ires.conicet.gov.ar,5,academia,Q141144852,
+irice-conicet.gov.ar,5,academia,Q141144762,
+irpha.conicet.gov.ar,5,academia,Q141144833,
+isal.conicet.gov.ar,5,academia,Q141144708,
+isen.gov.ar,5,academia,Instituto del Servicio Exterior de la Nación,
+ises.conicet.gov.ar,5,academia,Q141144741,
+itanoa.conicet.gov.ar,5,academia,Q141144665,
+iteca.conicet.gov.ar,5,academia,Q141144697,
+iteda.cnea.gov.ar,5,academia,Instituto de Tecnologías en Detección y Astropartículas,
+ithes-uba.conicet.gov.ar,5,academia,Q141144860,
+loteria.gba.gov.ar,5,wikidata,Q120637684,
+mendoza.conicet.gov.ar,5,academia,Q117087450,
+milstein.conicet.gov.ar,5,academia,Q141144658,
+mininterior.gov.ar,5,wikidata,Renaper,central
+nanobiotec.conicet.gov.ar,5,academia,Q141144625,
+ovd.gov.ar,5,wikidata,Domestic Violence Bureau,
+penitenciaria.mendoza.gov.ar,5,wikidata,Mendoza Prison Service,
+policia.chaco.gov.ar,5,wikidata,Chaco Police,central-1
+policia.rionegro.gov.ar,5,wikidata,Río Negro Provincial Police,central-1
+policiadejujuy.gov.ar,5,wikidata,Jujuy Police,
+policiadetucuman.gov.ar,5,wikidata,Tucumán Police,
+probien.conicet.gov.ar,5,academia,Q141144858,
+proimi.conicet.gov.ar,5,academia,Q141144811,
+renar.gov.ar,5,wikidata,Q6104068,
+rionegro.gov.ar,5,wikidata,Institute for the Development of the Lower Valley of the Negro River,
+salud.rionegro.gov.ar,5,wikidata,Ministerio de Salud,
+segemar.gov.ar,5,wikidata,Servicio Geológico Minero,
+sinc.santafe-conicet.gov.ar,5,academia,Q97450930,
+udea.conicet.gov.ar,5,academia,Q141144643,
+umymfor.conicet.gov.ar,5,academia,Q141144809,
+unidef.conicet.gov.ar,5,academia,Q141144620,
+unitefa-conicet.gov.ar,5,academia,Q141144777,
+aal.edu.ar,4,wikidata,Academia Argentina de Letras,
+aam.org.ar,4,academia,Argentine Association of Microbiology,
+agro.uba.ar,4,academia,Jardín Botánico Lucien Hauman,
+antropologia.institutos.filo.uba.ar,4,academia,"Instituto de Ciencias Antropológicas, Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+bomberosra.org.ar,4,wikidata,National Fire Service of the Argentine Republic,
+botanicaargentina.org.ar,4,academia,Sociedad Argentina de Botánica,
+buenosaires.mfa.gov.hu,4,wikidata,embassy of Hungary in Argentina,central
+cac.com.ar,4,wikidata,Q5795680,
+caei.com.ar,4,academia,CAEI,
+caip.org.ar,4,wikidata,Argentine Chamber of the Plastic Industry,
+cemic.edu.ar,4,academia,Center for Medical Education and Clinical Research Norberto Quirno,
+ceminco.conicet.unc.edu.ar,4,academia,Q141144800,
+cepave.edu.ar,4,academia,Q141144702,
+cetmic.unlp.edu.ar,4,academia,Q141144633,
+ceve.org.ar,4,academia,Q141144769,
+cicterra.conicet.unc.edu.ar,4,academia,Q97446088,
+cidca.org.ar,4,academia,Centro de Investigación y Desarrollo en Criotecnología de Alimentos,
+ciem.conicet.unc.edu.ar,4,academia,Q141144839,
+cig.museo.unlp.edu.ar,4,academia,Q141144766,
+cindeca.quimica.unlp.edu.ar,4,academia,Q141144821,
+cindefi.quimica.unlp.edu.ar,4,academia,Q141144679,
+ciquibic.org.ar,4,academia,Q141144870,
+citra.org.ar,4,academia,Centro de Innovación de los Trabajadores,
+darwin.edu.ar,4,academia,Instituto de Botánica Darwinion,
+df.uba.ar,4,academia,Institute of Physics of Buenos Aires,
+efpu.org.ar,4,academia,Estación de Fotobiología Playa Unión,
+ege.fcen.uba.ar,4,academia,Q141144706,
+ellibano.com.ar,4,wikidata,embassy of Lebanon in Argentina,central
+embajadadekuwait.com.ar,4,wikidata,embassy of Kuwait in Argentina,central
+embajadahonduras.com.ar,4,wikidata,embassy of Honduras in Argentina,central
+evolutio.ar,4,academia,EVOLUTIO,
+facet.unt.edu.ar,4,academia,Q141144763,
+fahce.unlp.edu.ar,4,academia,Q141144670,
+fau.unlp.edu.ar,4,academia,Q141144695,
+fba.unlp.edu.ar,4,academia,"Universidad Nacional de La Plata, Facultad de Bellas Artes",central
+fcq.unc.edu.ar,4,academia,Q141144733,
+fcv.unlp.edu.ar,4,academia,"Universidad Nacional de La Plata, Facultad de Ciencias Veterinarias",central
+fiba.org.ar,4,academia,Foundation for Applied Biological Research,
+flacso.org.ar,4,academia,Q141144710,
+fleni.org.ar,4,academia,Q141144739,
+frm.utn.edu.ar,4,academia,Laboratorio de Fabricacion Digital UTN-FRM,
+fundacionpensar.org.ar,4,academia,Fundación Pensar,
+geografia.institutos.filo.uba.ar,4,academia,Instituto de Geografía Romualdo Ardissone,
+iaa.fadu.uba.ar,4,academia,Center for Urban Archaeology,
+iae.institutos.filo.uba.ar,4,academia,Q138473321,
+iafe.uba.ar,4,academia,Q141144817,
+ibbm.org.ar,4,academia,Instituto De Biotecnología Y Biología Molecular,
+ibone.unne.edu.ar,4,academia,Instituto de Botánica del Nordeste,
+ibyme.org.ar,4,academia,Instituto de Biología y Medicina Experimental,
+icifi.unsam.edu.ar,4,academia,Q141144700,
+icsoh.unsa.edu.ar,4,academia,Q141144691,
+icytac.conicet.unc.edu.ar,4,academia,Q141144818,
+idea.conicet.unc.edu.ar,4,academia,Instituto de Diversidad y Ecología Animal,
+idean.gl.fcen.uba.ar,4,academia,Q137358918,
+idh.unc.edu.ar,4,academia,Q141144789,
+iealc.sociales.uba.ar,4,academia,"Universidad de Buenos Aires, Instituto de Estudios de América Latina y el Caribe",
+if.institutos.filo.uba.ar,4,academia,Q138655603,
+ifc.institutos.filo.uba.ar,4,academia,Instituto de Filología Clásica,
+ifeg.famaf.unc.edu.ar,4,academia,Enrique Gaviola Institute of Physics,
+ifeva.edu.ar,4,academia,Q141144715,
+ifibyne.fcen.uba.ar,4,academia,Q97624909,
+iflh.institutos.filo.uba.ar,4,academia,"Instituto de Filología y Literaturas Hispánicas ""Dr. Amado Alonso""",
+iflp.unlp.edu.ar,4,academia,Instituto de Física La Plata,
+iflysib.unlp.edu.ar,4,academia,Instituto de Fisica de Liquidos y Sistemas Biologicos,
+ig.conae.unc.edu.ar,4,academia,Mario Gulich Institute for Advanced Space Studies,
+igeba.gl.fcen.uba.ar,4,academia,Q141144743,
+iham.institutos.filo.uba.ar,4,academia,"Instituto de Historia Antigua, Medieval y Moderna ""Prof. José Luis Romero""",
+ihe.institutos.filo.uba.ar,4,academia,"Instituto de Historia de España ""Dr. Claudio Sánchez Albornoz""",
+iigg.sociales.uba.ar,4,academia,"Universidad de Buenos Aires, Facultad de Ciencias Sociales, Instituto de Investigaciones Gino Germani, Programa de Investigaciones sobre Conflicto Social",
+iipsi.psicologia.unc.edu.ar,4,academia,Instituto de Investigaciones Psicológicas,
+ilar.institutos.filo.uba.ar,4,academia,Instituto de Literatura Argentina Ricardo Rojas,
+ilpla.edu.ar,4,academia,"Instituto de Limnología ""Dr. Raúl A. Ringuelet""",
+imbiv.conicet.unc.edu.ar,4,academia,Instituto Multidisciplinario de Biología Vegetal,
+inbirs.org.ar,4,academia,Q141144724,
+indesconicet.fhu.unse.edu.ar,4,academia,Q141144653,
+infiqc.fcq.unc.edu.ar,4,academia,Córdoba Research Institute in Physical Chemistry,
+infive.unlp.edu.ar,4,academia,Instituto de Fisiología Vegetal,
+inibi.institutos.filo.uba.ar,4,academia,"Universidad de Buenos Aires, Facultad de Filosofía y Letras, Instituto de Investigaciones Bibliotecológicas",
+inibiolp.org.ar,4,academia,Q141144734,
+inicsa.sitios.fcm.unc.edu.ar,4,academia,Instituto de Investigaciones en Ciencias de la Salud,
+inquinoa.org.ar,4,academia,Q141144863,
+insibio.org.ar,4,academia,Instituto Superior de Investigaciones Biológicas,
+institutojvgonzalez.buenosaires.edu.ar,4,academia,"Instituto Superior del Profesorado ""Dr. Joaquín V. González""",
+insugeo.org.ar,4,academia,Q141144827,
+intecin.fi.uba.ar,4,academia,Q141144767,
+investigacion.frc.utn.edu.ar,4,academia,Q141144647,
+ipqa.unc.edu.ar,4,academia,Q141144798,
+ips.edu.ar,4,academia,Instituto Politécnico Superior,
+irnad.unrn.edu.ar,4,academia,Q141144732,
+isistan.unicen.edu.ar,4,academia,Q141144788,
+itaproq.di.fcen.uba.ar,4,academia,Q141144871,
+itpn.fi.uba.ar,4,academia,Q141144687,
+iugna.edu.ar,4,academia,Q60602739,central
+iunma.edu.ar,4,academia,Q6156662,central
+iupa.edu.ar,4,academia,Q128601859,central
+iuse.edu.ar,4,academia,Q128601874,central
+iusm.edu.ar,4,academia,Q128601864,central
+labmem.unsl.edu.ar,4,academia,Q141144720,
+laboratorioaclimu.com.ar,4,academia,Laboratorio Aclimu,
+leici.ing.unlp.edu.ar,4,academia,Q141144842,
+lfp.uba.ar,4,academia,Q141144675,
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Buenos Aires",central
+museobotanico.unc.edu.ar,4,academia,Instituto Multidisciplinario de Biología Vegetal,
+palestina.int.ar,4,wikidata,"Embassy of the State of Palestine, Buenos Aires",central
+pami.org.ar,4,wikidata,Comprehensive Medical Attention Program of Argentina,
+plapiqui.edu.ar,4,academia,Q141144805,
+psico.unlp.edu.ar,4,academia,Facultad de Psicología de la Universidad Nacional de La Plata,central
+ravignani.institutos.filo.uba.ar,4,academia,"Instituto de Historia Argentina y Americana ""Dr. Emilio Ravignani""",
+rta-se.com.ar,4,wikidata,Radio y Televisión Argentina Sociedad del Estado,
+ulp.edu.ar,4,academia,University of La Punta,central
+unab.edu.ar,4,academia,Q39081287,central
+unau.edu.ar,4,academia,Q39081285,central
+unc-hemoderivados.com.ar,4,academia,Q131550119,
+undef.edu.ar,4,academia,University of the National Defence,central
+undelta.edu.ar,4,academia,Q128138261,central
+universidad-policial.edu.ar,4,academia,University Institute of the Argentine Federal Police,central
+unlc.edu.ar,4,academia,Q39081284,central
+unm.edu.ar,4,academia,National University of Moreno,central
+unpa.edu.ar,4,academia,National University of Austral Patagonia,central
+unrt.com.ar,4,academia,Q128139198,central
+unso.edu.ar,4,academia,Q39081350,central
+uplab.edu.ar,4,academia,Q135490323,central
+web.iflysib.unlp.edu.ar,4,academia,Instituto de Fisica de Liquidos y Sistemas Biologicos,
+web.upe.edu.ar,4,academia,Q128601838,central
+21.edu.ar,3,ror,Universidad Siglo 21,central
+aica.org,3,wikidata,AICA,
+ar.ambafrance.org,3,wikidata,"Embassy of France, Buenos Aires",central
+ar.china-embassy.org,3,wikidata,"Embassy of the People's Republic of China, Buenos Aires",central
+ar.mvep.hr,3,wikidata,embassy of Croatia in Argentina,central
+ar.undp.org,3,wikidata,United Nations Development Programme,
+argentina.mfa.am,3,wikidata,embassy of Armenia in Argentina,central
+argentina.mid.ru,3,wikidata,embassy of Russia in Argentina,central
+atlantida.edu.ar,3,ror,Argentine Atlantis University,central
+ats.aq,3,wikidata,Secretariat of the Antarctic Treaty,
+austral.edu.ar,3,ror,Austral University,central
+barcelo.edu.ar,3,ror,Instituto Universitario de Ciencias de la Salud - Fundación Héctor A. Barceló,central
+buenos-aires.diplo.de,3,wikidata,"Embassy of Germany, Buenos Aires",central
+buenos-aires.embassy.qa,3,wikidata,embassy of Qatar in Argentina,central
+buenosaires.mae.ro,3,wikidata,embassy of Romania in Argentina,central
+buenosaires.veleposlanistvo.si,3,wikidata,embassy of Slovenia in Argentina,central
+caicyt-conicet.gov.ar,3,wikidata;academia,"Consejo Nacional de Investigaciones Científicas y Técnicas, Centro Argentino de Información Científica y Tecnológica",central
+catenainstitute.com,3,academia,Catena Institute of Wine,
+cedinci.org,3,academia,Centro de Documentación e Investigación de la Cultura de Izquierdas en la Argentina,
+ceii.com.ar,3,ror,Centro de Estudios de Innovación Institucional,central
+cemla.com,3,academia,Centro de Estudios Migratorios Latinoamericanos,
+eeas.europa.eu,3,wikidata,Delegation of the European Union to Argentina,
+eseade.edu.ar,3,ror,Instituto Universitario Escuela Superior de Economía y Administración de Empresas,central
+favaloro.edu.ar,3,ror,Favaloro University,central
+finlandabroad.fi,3,wikidata,Embassy of Finland in Argentina,central
+ianigla.net,3,academia,"Argentine Institute for Snow Research, Glaciology and Environmental Sciences",
+iate.oac.uncor.edu,3,academia,Q141144744,
+ibmpas.org,3,academia,Instituto de Biología Marina y Pesquera Almirante Storni,
+iee-unsjconicet.org,3,academia,Q141144640,
+ihaaafda.wixsite.com,3,academia,Q131283737,
+il.institutos.filo.uba.ar,3,ror,Instituto de Lingüística,central
+instituto.hospitalitaliano.edu.ar,3,ror,Universidad Hospital Italiano,central
+inv.idit.efn.uncor.edu,3,academia,Q141144790,
+inv.iibyt.efn.uncor.edu,3,academia,Q97446148,
+isalud.edu.ar,3,ror,Universidad Isalud,central
+ishir.conicet.gov.ar,3,wikidata;academia,"Investigaciones Socio-históricas Regionales | Universidad Nacional de Rosario; Consejo Nacional de Investigaciones Científicas y Técnicas, Nodo Centro de Estudios Sociales Regionales, Unidad Ejecutora Investigaciones Socio-Históricas Regionales",central
+itba.edu.ar,3,ror,Instituto Tecnológico de Buenos Aires (ITBA),central
+iua.edu.ar,3,ror,Instituto Universitario Aeronáutico,central
+iucbc.edu.ar,3,ror,Instituto Universitario de Ciencias Biomédicas de Córdoba,central
+iunir.edu.ar,3,ror,Instituto Universitario Italiano de Rosario,central
+iupfa.edu.ar,3,ror,Instituto Universitario de la Policía Federal Argentina,central
+kennedy.edu.ar,3,ror,Universidad Argentina John F. Kennedy,central
+lacampora.org,3,wikidata,La Cámpora,
+mfa.bg,3,wikidata,embassy of Bulgaria in Argentina,central
+mfa.gr,3,wikidata,embassy of Greece in Argentina,central
+ms.gba.gov.ar,3,wikidata;academia,Ministry of Health of the Province of Buenos Aires | Dr. Tomás Perón Biological Institute,
+mzv.cz,3,wikidata,embassy of the Czech republic in Argentina,central
+mzv.sk,3,wikidata,embassy of Slovakia in Argentina,central
+newsite.ucse.edu.ar,3,ror,Catholic University of Santiago del Estero,central
+norway.no,3,wikidata,"Embassy of Norway, Buenos Aires",central
+sites.google.com,3,academia,Q141144847,
+swedenabroad.se,3,wikidata,"Embassy of Sweden, Buenos Aires",central
+thaiembargen.org,3,wikidata,embassy of Thailand in Argentina,central
+uaco.unpa.edu.ar,3,ror,National University of Austral Patagonia,central
+uade.edu.ar,3,ror,Universidad Argentina de la Empresa,central
+uai.edu.ar,3,ror,Universidad Abierta Interamericana,central
+uap.edu.ar,3,ror,Universidad Adventista del Plata,central
+ub.edu.ar,3,ror,University of Belgrano,central
+ubp.edu.ar,3,ror,Universidad Blas Pascal,central
+ucaece.edu.ar,3,ror,Universidad Centro de Altos Estudios en Ciencias Exactas,central
+ucalp.edu.ar,3,ror,Universidad Católica de La Plata,central
+ucasal.edu.ar,3,ror,Universidad Católica de Salta,central
+ucc.edu.ar,3,ror,Universidad Católica de Córdoba,central
+uccuyosj.edu.ar,3,ror,Universidad Católica de Cuyo,central
+ucel.edu.ar,3,ror,University of the Latin American Educational Center,central
+ucema.edu.ar,3,ror,Universidad del Centro de Estudios Macroeconómicos de Argentina,central
+uces.edu.ar,3,ror,Universidad de Ciencias Empresariales y Sociales,central
+uch.edu.ar,3,ror,Universidad Champagnat,central
+ucine.edu.ar,3,ror,Universidad del Cine,central
+ucongreso.edu.ar,3,ror,Universidad de Congreso,central
+ucp.edu.ar,3,ror,University of Cuenca del Plata,central
+ucsf.edu.ar,3,ror,Universidad Católica de Santa Fe,central
+ucu.edu.ar,3,ror,Universidad de Concepción del Uruguay,central
+uda.edu.ar,3,ror,Aconcagua University,central
+udemm.edu.ar,3,ror,Universidad de la Marina Mercante,central
+ufasta.edu.ar,3,ror,Universidad Fraternidad de Agrupaciones Santo Tomás de Aquino,central
+uflo.edu.ar,3,ror,Universidad de Flores,central
+ugd.edu.ar,3,ror,Universidad Gastón Dachary,central
+ugr.edu.ar,3,ror,Universidad del Gran Rosario,central
+um.edu.ar,3,ror,University of Mendoza,central
+umaza.edu.ar,3,ror,Juan Agustín Maza University,central
+umsa.edu.ar,3,ror,University of Argentine Social Museum,central
+unimoron.edu.ar,3,ror,Universidad de Morón,central
+universidadnotarial.edu.ar,3,ror,Universidad Notarial Argentina,central
+unsta.edu.ar,3,ror,Saint Thomas Aquinas North University,central
+usal.edu.ar,3,ror,Universidad del Salvador,central
+usi.edu.ar,3,ror,"Universidad de San Isidro ""Dr. Plácido Marín""",central
+uspt.edu.ar,3,ror,Universidad de San Pablo-T,central
+web.roc-taiwan.org,3,wikidata,Taipei Commercial and Cultural Office in Argentina,
+maimonides.edu,2,ror,Universidad Maimónides,central
+palermo.edu,2,ror,University of Palermo,central
+utdt.edu,2,ror,Universidad Torcuato Di Tella,central
+umet.edu.ar,0,ror,Universidad Metropolitana para la Educación y el Trabajo,central

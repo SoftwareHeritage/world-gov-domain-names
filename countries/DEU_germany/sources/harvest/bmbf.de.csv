@@ -1,21 +1,21 @@
-subdomain,http_status,mx
-bafoeg-rechner.bmbf.de,ConnectException > UnresolvedAddressException,
-bildungdigital.bmbf.de,503,
-bmbf.de,303,10 mx2.bund.de.; 10 mx1.bund.de.
-datenportal.bmbf.de,301,
-dev-iat.ecorda.bmbf.de,403,
-dev-portal.ecorda.bmbf.de,403,
-dev.ecorda.bmbf.de,200,
-ecorda.bmbf.de,200,
-forschungscampus.bmbf.de,301,
-iat.ecorda.bmbf.de,403,
-livefeedback.bmbf.de,503,
-mail.bmbf.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-mdm.bmbf.de,HttpConnectTimeoutException > ConnectException: HTTP connect timed out,
-medien.bmbf.de,303,
-styleguide.bmbf.de,303,
-www.bildungdigital.bmbf.de,503,
-www.bmbf.de,303,none
-www.datenportal.bmbf.de,301,
-www.forschungscampus.bmbf.de,301,
-www.styleguide.bmbf.de,303,
+subdomain
+bafoeg-rechner.bmbf.de
+bildungdigital.bmbf.de
+bmbf.de
+datenportal.bmbf.de
+dev-iat.ecorda.bmbf.de
+dev-portal.ecorda.bmbf.de
+dev.ecorda.bmbf.de
+ecorda.bmbf.de
+forschungscampus.bmbf.de
+iat.ecorda.bmbf.de
+livefeedback.bmbf.de
+mail.bmbf.de
+mdm.bmbf.de
+medien.bmbf.de
+styleguide.bmbf.de
+www.bildungdigital.bmbf.de
+www.bmbf.de
+www.datenportal.bmbf.de
+www.forschungscampus.bmbf.de
+www.styleguide.bmbf.de

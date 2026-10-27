@@ -1,27 +1,27 @@
-domain,score,sources,label,level,http_status,mx
-omaninfo.om,7,wikidata,Ministry of Information,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 autodiscover.omaninfo.om.
-oman.om,6,un_desa,UN/DESA national portal,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-squ.edu.om,6,wikidata;ror,Sultan Qaboos University Library,central,HttpConnectTimeoutException: HTTP connect timed out,3 alt1.aspmx.l.google.com.; 10 mx1.squ.edu.om.; 3 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com.; 5 alt4.aspmx.l.google.com.; 21 alumni-squ-edu-om.mail.protection.outlook.com.; 5 alt3.aspmx.l.google.com.
-mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Muscat",central,IOException: HTTP/1.1 header parser received no bytes,10 smartmail1.fednet.gov.ae.; 20 smartmail2.fednet.gov.ae.
-mwasalat.om,4,wikidata,MWASALAT,,200,0 mwasalat-om.mail.protection.outlook.com.
-riyada.om,4,wikidata,riyada,,301,none
-shura.om,4,wikidata,Consultative Assembly of Oman,central,301,10 omandatapark-com-1.fortimailcloud.com.; 20 omandatapark-com-2.fortimailcloud.com.
-statecouncil.om,4,wikidata,state council of Oman,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 omandatapark-com-2.fortimailcloud.com.; 10 omandatapark-com-1.fortimailcloud.com.
-act.edu.om,3,ror,University of Technology and Applied Sciences - Al Mussanah,central,,
-aou.edu.om,3,ror,Arab Open University,central,,
-asu.edu.om,3,ror,A'Sharqiyah University,central,,
-buc.edu.om,3,ror,Al-Buraimi University College,central,,
-du.edu.om,3,ror,Dhofar University,central,,
-gutech.edu.om,3,ror,German University of Technology,central,,
-majancollege.edu.om,3,ror,Majan College,central,,
-maskat.diplo.de,3,wikidata,"Embassy of Germany, Muscat",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-muscat.mae.ro,3,wikidata,embassy of Romania in Oman,central,503,none
-nu.edu.om,3,ror,National University of Science and Technology,central,,
-om.ambafrance.org,3,wikidata,"Embassy of France, Muscat",central,301,none
-oman.mid.ru,3,wikidata,embassy of Russia in Oman,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-su.edu.om,3,ror,Sohar University,central,,
-suc.edu.om,3,ror,Sur University College,central,,
-unizwa.edu.om,3,ror,University of Nizwa,central,,
-uob.edu.om,3,ror,University of Buraimi,central,,
-utas.edu.om,3,ror,University of Technology and Applied Sciences,central,,
-roc-taiwan.org,1,wikidata,"Taipei Economic & Cultural Office, Muscat, Oman | Taipei Economic and Cultural Office, Muscat, Oman",,302,none
+domain,score,sources,label,level
+omaninfo.om,7,wikidata,Ministry of Information,central
+oman.om,6,un_desa,UN/DESA national portal,
+squ.edu.om,6,wikidata;ror,Sultan Qaboos University Library,central
+mofaic.gov.ae,4,wikidata,"Embassy of the United Arab Emirates, Muscat",central
+mwasalat.om,4,wikidata,MWASALAT,
+riyada.om,4,wikidata,riyada,
+shura.om,4,wikidata,Consultative Assembly of Oman,central
+statecouncil.om,4,wikidata,state council of Oman,central
+act.edu.om,3,ror,University of Technology and Applied Sciences - Al Mussanah,central
+aou.edu.om,3,ror,Arab Open University,central
+asu.edu.om,3,ror,A'Sharqiyah University,central
+buc.edu.om,3,ror,Al-Buraimi University College,central
+du.edu.om,3,ror,Dhofar University,central
+gutech.edu.om,3,ror,German University of Technology,central
+majancollege.edu.om,3,ror,Majan College,central
+maskat.diplo.de,3,wikidata,"Embassy of Germany, Muscat",central
+muscat.mae.ro,3,wikidata,embassy of Romania in Oman,central
+nu.edu.om,3,ror,National University of Science and Technology,central
+om.ambafrance.org,3,wikidata,"Embassy of France, Muscat",central
+oman.mid.ru,3,wikidata,embassy of Russia in Oman,central
+su.edu.om,3,ror,Sohar University,central
+suc.edu.om,3,ror,Sur University College,central
+unizwa.edu.om,3,ror,University of Nizwa,central
+uob.edu.om,3,ror,University of Buraimi,central
+utas.edu.om,3,ror,University of Technology and Applied Sciences,central
+roc-taiwan.org,1,wikidata,"Taipei Economic & Cultural Office, Muscat, Oman | Taipei Economic and Cultural Office, Muscat, Oman",

@@ -1,47 +1,47 @@
-domain,score,sources,label,level,http_status,mx
-agroprod.kg,7,wikidata,"Ministry of Agriculture, Food Industry and Melioration",central,403,10 mail.agroprod.kg.
-en.mes.kg,7,wikidata,Ministry of Emergency Situations of Kyrgyzstan,central,ConnectException,none
-kenesh.kg,7,wikidata,Supreme Council,central,200,5 mail.kenesh.kg.
-med.kg,7,wikidata,Ministry of Health of Kyrgyzstan,central,200,5 mail2.med.kg.
-mvd.kg,7,wikidata,Ministry of the Interior,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching mvd.kg found.,10 mail.mvd.kg.
-stat.kg,7,wikidata;academia,National Statistical Committee,central,SSLHandshakeException: (certificate_unknown) No subject alternative DNS name matching stat.kg found.,10 mail.stat.kg.
-manas.edu.kg,6,academia;ror,Manas University,central,,
-archive.kg,4,wikidata,Central State Archives of the Republic of Kyrgyzstan,,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,10 mail.archive.kg.
-biskek.mfa.gov.hu,4,wikidata,Embassy of Hungary to Kyrgyzstan,central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,none
-mfa.kg,4,wikidata,Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic,,ConnectException,none
-nbkr.kg,4,wikidata,National Bank of the Kyrgyz Republic,,200,5 mx1.nbkr.kg.; 5 mx2.nbkr.kg.
-vak.kg,4,wikidata,Higher Attestation Commission of Kyrgyzstan,,200,10 mail.vak.kg.
-adam.edu.kg,3,ror,Bishkek Academy of Finance and Economics,central,,
-alatoo.edu.kg,3,ror,Ala-Too International University,central,,
-arabaev.kg,3,ror,Kyrgyz State National University,central,,
-asmi.edu.kg,3,ror,S. Tentishev Asian Medical Institute,central,,
-auca.kg,3,ror,American University of Central Asia,central,,
-batmu.kg,3,ror,Batken State University,central,,
-bhu.kg,3,ror,Bishkek Humanities University,central,,
-bischkek.diplo.de,3,wikidata,"Embassy of Germany, Bishkek",central,200,10 mx2.bund.de.; 10 mx1.bund.de.
-eeas.europa.eu,3,wikidata,Delegation of the European Union to the Kyrgyz Republic,,200,10 mxa-00338601.gslb.pphosted.com.; 10 mxb-00338601.gslb.pphosted.com.
-eiu.edu.kg,3,ror,Eurasian International University,central,,
-gdirc.ru,3,academia,Research Station of the Russian Academy of Sciences in Bishkek,,,
-geoportal-kg.org,3,wikidata,Geological Survey of Kyrgyzstan,,200,20 securemail2.hostingservice.fi.; 10 securemail1.hostingservice.fi.
-iuca.kg,3,ror,International University of Central Asia,central,,
-iuk.kg,3,ror,International University of Kyrgyzstan,central,,
-jasu.kg,3,ror,Jalalabad State University,central,,
-keu.kg,3,ror,Kyrgyz Economic University,central,,
-kg.ambafrance.org,3,wikidata,"Embassy of France, Bishkek",central,301,none
-knau.kg,3,ror,Kyrgyz National Agrarian University named after K.I. Skryabin,central,,
-knu.kg,3,ror,Kyrgyz National University,central,,
-krsu.edu.kg,3,ror,Kyrgyz-Russian Slavic University named after B.N. Yeltsin,central,,
-kstu.kg,3,ror,Kyrgyz State Technical University,central,,
-ksucta.kg,3,ror,"Kyrgyz State University of Construction, Transport and Architecture named after N. Isanov",central,,
-kumu.kg,3,ror,Kyrgyz-Uzbek International University named after Batyraly Sydykov,central,,
-main.iksu.kg,3,ror,Issyk-Kul State University,central,,
-mfa.tj,3,wikidata,"Embassy of Tajikistan, Bishkek",central,SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,20 mail.mfa.tj.; 10 mail.mfa.tj.
-mnu.kg,3,ror,International University named after K.Sh.Toktomamatov,central,,
-nsu.kg,3,ror,Naryn State University named after Satybaldy Naamatov,central,,
-oshmpu.kg,3,ror,Osh State Pedagogical University named after A. Myrsabekov,central,,
-oshsu.kg,3,ror,Osh State University,central,,
-oshtu.kg,3,ror,Osh Technological University,central,,
-talsu.kg,3,ror,Talas State University,central,,
-salymbekov.com,2,ror,Salymbekov University,central,,
-ucentralasia.org,2,ror,University of Central Asia,central,,
-royalmetropolitanuniversity.com,0,ror,Royal Metropolitan University,central,,
+domain,score,sources,label,level
+agroprod.kg,7,wikidata,"Ministry of Agriculture, Food Industry and Melioration",central
+en.mes.kg,7,wikidata,Ministry of Emergency Situations of Kyrgyzstan,central
+kenesh.kg,7,wikidata,Supreme Council,central
+med.kg,7,wikidata,Ministry of Health of Kyrgyzstan,central
+mvd.kg,7,wikidata,Ministry of the Interior,central
+stat.kg,7,wikidata;academia,National Statistical Committee,central
+manas.edu.kg,6,academia;ror,Manas University,central
+archive.kg,4,wikidata,Central State Archives of the Republic of Kyrgyzstan,
+biskek.mfa.gov.hu,4,wikidata,Embassy of Hungary to Kyrgyzstan,central
+mfa.kg,4,wikidata,Diplomatic Academy of the Ministry of Foreign Affairs of the Kyrgyz Republic,
+nbkr.kg,4,wikidata,National Bank of the Kyrgyz Republic,
+vak.kg,4,wikidata,Higher Attestation Commission of Kyrgyzstan,
+adam.edu.kg,3,ror,Bishkek Academy of Finance and Economics,central
+alatoo.edu.kg,3,ror,Ala-Too International University,central
+arabaev.kg,3,ror,Kyrgyz State National University,central
+asmi.edu.kg,3,ror,S. Tentishev Asian Medical Institute,central
+auca.kg,3,ror,American University of Central Asia,central
+batmu.kg,3,ror,Batken State University,central
+bhu.kg,3,ror,Bishkek Humanities University,central
+bischkek.diplo.de,3,wikidata,"Embassy of Germany, Bishkek",central
+eeas.europa.eu,3,wikidata,Delegation of the European Union to the Kyrgyz Republic,
+eiu.edu.kg,3,ror,Eurasian International University,central
+gdirc.ru,3,academia,Research Station of the Russian Academy of Sciences in Bishkek,
+geoportal-kg.org,3,wikidata,Geological Survey of Kyrgyzstan,
+iuca.kg,3,ror,International University of Central Asia,central
+iuk.kg,3,ror,International University of Kyrgyzstan,central
+jasu.kg,3,ror,Jalalabad State University,central
+keu.kg,3,ror,Kyrgyz Economic University,central
+kg.ambafrance.org,3,wikidata,"Embassy of France, Bishkek",central
+knau.kg,3,ror,Kyrgyz National Agrarian University named after K.I. Skryabin,central
+knu.kg,3,ror,Kyrgyz National University,central
+krsu.edu.kg,3,ror,Kyrgyz-Russian Slavic University named after B.N. Yeltsin,central
+kstu.kg,3,ror,Kyrgyz State Technical University,central
+ksucta.kg,3,ror,"Kyrgyz State University of Construction, Transport and Architecture named after N. Isanov",central
+kumu.kg,3,ror,Kyrgyz-Uzbek International University named after Batyraly Sydykov,central
+main.iksu.kg,3,ror,Issyk-Kul State University,central
+mfa.tj,3,wikidata,"Embassy of Tajikistan, Bishkek",central
+mnu.kg,3,ror,International University named after K.Sh.Toktomamatov,central
+nsu.kg,3,ror,Naryn State University named after Satybaldy Naamatov,central
+oshmpu.kg,3,ror,Osh State Pedagogical University named after A. Myrsabekov,central
+oshsu.kg,3,ror,Osh State University,central
+oshtu.kg,3,ror,Osh Technological University,central
+talsu.kg,3,ror,Talas State University,central
+salymbekov.com,2,ror,Salymbekov University,central
+ucentralasia.org,2,ror,University of Central Asia,central
+royalmetropolitanuniversity.com,0,ror,Royal Metropolitan University,central
