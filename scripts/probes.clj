@@ -1,3 +1,8 @@
+(require '[babashka.pods :as pods])
+;; Loaded here rather than declared in bb.edn, which would download it
+;; for every command: only the commands that probe or fetch need it.
+(pods/load-pod 'huahaiy/datalevin "1.2.8")
+
 (ns probes
   "The volatile state of the pipeline, kept in the local Datalevin
   database data/.db (git-ignored) rather than in the CSV files, one
@@ -8,7 +13,7 @@
   - :fetch/result (\"ok\" or \"fail\") and :fetch/at, the last crt.sh
     fetch of a harvest root.
   MAX_AGE=<days> makes a probe or a fetch older than that, or undated,
-  due again. The datalevin pod is declared in bb.edn. Query it from a
+  due again. Query it from a
   bb REPL with
   (d/q '[:find ?n :where [?e :host/name ?n] [?e :host/http-status \"200\"]]
        (d/db (d/get-conn \"data/.db\")))."

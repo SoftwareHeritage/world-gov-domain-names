@@ -1,50 +1,75 @@
 # Contributing
 
-For each country, this repository lists public sector domain names
-that we want to consider when building the [State of Public
+For each country, this repository lists the public-sector domain names
+we want to consider when building the [State of Public
 Code](https://stateofpubliccode.org). Understanding how a country's
 administration works is challenging and anyone's help is very welcome!
 
-## Files you can modify
+## Find your country
 
-In each `countries/<ISO3>_<slug>/` directory, two hand-edited files
-carry some decisions:
+Each country has a directory named after its alpha-3 code and its
+English name: `countries/FRA_france/`, `countries/USA_united_states/`,
+etc.
 
-- `curated.csv` contains domain names that some confirmed as public
-  sector (as `domain,level,name`). `level` accepts three values:
-  `central`, `central-1` (first administrative level below the top
-  one) and `local`.
-- `excluded.csv` contains what should be excluded, one hostname per
-  line (as `domain,reason`).
+## The two files you edit
 
-Never edit `proposed.csv`, `summary.md` or anything under `sources/`
-or `data/`: they are generated.
+Every decision lives in two small CSV files of the country directory.
+Everything else is generated from them and from official registries:
+never edit `proposed.csv`, `summary.md` or anything under `sources/`.
+In `data/`, everything is generated except `world-governments.csv`,
+the list of countries: open an issue to change it.
+
+### `curated.csv`: the domains you confirm
+
+One row per domain, as `domain,level,name`:
+
+```csv
+domain,level,name
+gouv.fr,central,
+sp.gov.br,central-1,São Paulo
+abingdon.gov.uk,local,Abingdon Town Council
+```
+
+- `domain` is a domain name
+- `level` is one of `central`, `central-1` (the first tier below) or `local`.
+- `name` is the body the domain belongs to.
+
+### `excluded.csv`: the domains you reject
+
+One row per domain, as `domain,reason`, for what is not a public body
+at all (a company, a private university, a typo, etc.):
+
+```csv
+domain,reason
+example-company.fr,private company
+```
+
+A domain listed here never comes back in `proposed.csv`.
 
 ## How to contribute
 
-- Go through `proposed.csv` and confirm a domain by adding one
-  `domain,level,name` line to `curated.csv` or reject it by adding one
-  `domain,reason` line to `excluded.csv`.
-- Add a domain we missed to `curated.csv` directly, or a domain to
-  reject to `excluded.csv` directly.
+1. Open `proposed.csv`, the list of suggested domains.
+2. For each domain, if it is right, copy its first three columns to
+   `curated.csv`; if it is wrong, add it to `excluded.csv`.
+3. Add the domains we missed to `curated.csv` directly.
 
-## Checking the classifications for your country
-
-If you know the public administration of a country, you can also check
-`data/public-sector-domains-central+-policy.csv` and report problems.
+## Check your changes
 
 If you have [Babashka](https://babashka.org) installed, `bb check FRA`
-(your country's ISO3 code) tells whether your files are consistent,
-and what to write instead when they are not.
+tells whether your files are consistent, and what to write instead
+when they are not.
 
-## Sending your changes
+If you know the public administration of a country, you can also read
+`data/public-sector-domains-central+-policy.csv`, the compiled result
+for every country, and report problems.
 
-The repository for receiving contributions is on
+# Send your changes
+
+Open a pull request on
 [GitHub](https://github.com/SoftwareHeritage/world-gov-domain-names),
-and accept pull requests. 
+or email a patch or your list of domains to `bastien.guerry@inria.fr`.
 
-You can also contribute by email: send a patch or your list of domains
-to bastien.guerry@inria.fr.
+# Conventional commits
 
 Commit messages follow [Conventional
-Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+Commits](https://www.conventionalcommits.org/en/v1.0.0/)

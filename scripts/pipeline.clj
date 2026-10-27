@@ -85,12 +85,17 @@
             [enrich :as enrich]
             [registries :as registries]
             [indegree :as indegree]
-            [probes :as probes]
             [babashka.http-client :as http]
             [babashka.fs :as fs]
             [babashka.process :as proc]
             [cheshire.core :as json]
             [clojure.string :as str]))
+
+(defn- probes-fn
+  "The function f of probes.clj, loaded on first use: only the commands
+  that probe or fetch load the datalevin pod it needs, not check."
+  [f]
+  (requiring-resolve (symbol "probes" (name f))))
 
 ;; ===========================================================================
 ;;  Harvest files -- countries/<c>/sources/harvest/<root>.csv
@@ -227,7 +232,7 @@
   "Record the outcome of [[file :ok|:fail]…] in data/.db: retry replays
   the roots whose last fetch failed."
   [results]
-  (probes/save-fetches! (into {} (for [[f outcome] results] [(harvest-root f) outcome])))
+  ((probes-fn 'save-fetches!) (into {} (for [[f outcome] results] [(harvest-root f) outcome])))
   results)
 
 (defn fetch-all!
@@ -236,7 +241,7 @@
   [[file :ok|:fail]…]."
   [args]
   (let [files (resolve-harvest-files args)
-        due   (set (probes/due-fetches (map harvest-root files)))
+        due   (set ((probes-fn 'due-fetches) (map harvest-root files)))
         files (if (seq args) files (filter (comp due harvest-root) files))]
     (save-fetches! (bounded-pmap (parallel 4) (fn [f] [f (fetch-one! f)]) files))))
 
@@ -262,7 +267,7 @@
         (do (println (str "FAIL " domain " after " attempt " attempts")) :fail)))))
 
 (defn cmd-retry [args]
-  (let [domains (if (seq args) args (probes/failed-fetches))]
+  (let [domains (if (seq args) args ((probes-fn 'failed-fetches)))]
     (if (empty? domains)
       (do (err "No failed fetch in data/.db (and no argument provided).") 1)
       (let [files   (resolve-harvest-files (vec domains))
@@ -427,12 +432,12 @@
   status, 1 = MX) is blank or, with MAX_AGE, stale; every host with
   FORCE=1."
   [probes idx]
-  (for [[h v] probes :when (or force? (str/blank? (nth v idx)) (probes/stale? h idx))] h))
+  (for [[h v] probes :when (or force? (str/blank? (nth v idx)) ((probes-fn 'stale?) h idx))] h))
 
 (defn- save-probes!
   "Store column idx of a {host [http_status mx]} map for hosts in data/.db."
   [probes idx hosts]
-  (probes/save! idx (into {} (for [h hosts] [h (get-in probes [h idx])]))))
+  ((probes-fn 'save!) idx (into {} (for [h hosts] [h (get-in probes [h idx])]))))
 
 (defn- fill-hosts!
   "Fill column idx of a {host [http_status mx]} map with (lookup host)
@@ -451,7 +456,7 @@
   [file timeout]
   (when (fs/exists? file)
     (let [root-name (harvest-root file)
-          probes    (probes/probes-of (read-harvest file))
+          probes    ((probes-fn 'probes-of) (read-harvest file))
           todo      (blank-hosts probes 0)]
       (if (empty? todo)
         (println (str "[" root-name "] no unprobed host"))
@@ -491,7 +496,7 @@
   them in data/.db."
   [file conc]
   (let [root-name (harvest-root file)
-        probes    (probes/probes-of (read-harvest file))
+        probes    ((probes-fn 'probes-of) (read-harvest file))
         todo      (blank-hosts probes 1)]
     (if (empty? todo)
       (println (str "[" root-name "] mx: nothing to look up"))
@@ -515,7 +520,7 @@
   "Probe (HTTPS HEAD, MX) the unharvested roots of a country lacking
   either probe and store the results in data/.db."
   [country-dir timeout conc]
-  (let [probes    (probes/probes-of (unharvested-roots country-dir))
+  (let [probes    ((probes-fn 'probes-of) (unharvested-roots country-dir))
         todo-http (blank-hosts probes 0)
         todo-mx   (blank-hosts probes 1)]
     (when (or (seq todo-http) (seq todo-mx))
@@ -931,7 +936,7 @@
   (let [hosts  (for [[h] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                      :when (valid-hostname? h)]
                  h)
-        probes (probes/probes-of hosts)
+        probes ((probes-fn 'probes-of) hosts)
         todo-http (blank-hosts probes 0)
         todo-mx   (blank-hosts probes 1)]
     (if (and (empty? todo-http) (empty? todo-mx))
@@ -1193,7 +1198,9 @@
   (case aside), a domain curated with two levels or both curated and
   excluded; WARN on a domain listed twice with the same level, an
   excluded row without a reason, a curated row a registry already
-  lists at that level or a local or excluded domain more than one label
+  lists at that level or that a confirmed domain of the same level
+  already covers (unless it has its own harvest file), or a local or
+  excluded domain more than one label
   under a central root (the policy table has no exclude row for it)."
   [args]
   (if-let [countries (scoped-countries args)]
@@ -1228,6 +1235,7 @@
                 (try
                   (let [confirmed  (confirmed-country c)
                         level-of   (into {} (for [[d level] confirmed] [d level]))
+                        source-of  (into {} (for [[d _ source] confirmed] [d source]))
                         ;; first registry wins, as in compile-confirmed
                         registered (index-first (for [r (registries c), [d level] (read-registered c r)]
                                                   [d [r level]]))]
@@ -1235,6 +1243,15 @@
                             :let [[r rlevel] (get registered d)]
                             :when (and (= level rlevel) (str/blank? name))]
                       (warn d " (" level ") is curated but " r " already lists it"))
+                    ;; a confirmed domain covers its subdomains: a curated
+                    ;; row under a root of the same level adds nothing,
+                    ;; unless it is harvested on its own
+                    (doseq [[d level] curated
+                            :let [root (some #(when (level-of %) %) (rest (host-suffixes d)))]
+                            :when (and root (= level (level-of root))
+                                       (not (fs/exists? (harvest-file c d))))]
+                      (warn d " (" level ") is already covered by " root
+                            " (" level ", " (source-of root) ")"))
                     ;; the policy table only carves the labels directly under
                     ;; a central root out of its subtree (labels-under-central);
                     ;; under a central-1 root (an exact row) everything is out already

@@ -1,6 +1,4 @@
 {:paths ["scripts"]
- ;; the probes database data/.db (scripts/probes.clj)
- :pods {huahaiy/datalevin {:version "1.2.8"}}
  :tasks
  {:requires ([babashka.process :refer [shell]])
   ;; run a script and exit with its code: shell would print a stack
