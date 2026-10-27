@@ -1301,7 +1301,7 @@
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)
-  (println "Forge/catalog detection moved to scripts/detect-forges.clj (bb forges)")
+  (println "Forge/catalog detection moved to swh-sopc-data-sources (bb forges)")
   (println)
   (println "Environment variables: FORCE=1, MAX_AGE=days, PARALLEL=N, TIMEOUT=Ns"))
 

@@ -5,9 +5,6 @@
   - :host/http-status (the HTTP code or a one-line error) and :host/mx
     (\"prio host; …\", \"none\" or \"dig error\"), each with its date
     (:host/http-status-at, :host/mx-at), absent until probed;
-  - :forge/http-status, the homepage status the last `bb forges scan`
-    saw on a row of data/forge-unknown-swh.csv (a host or a
-    github.com/<org>, \"000\" without answer);
   - :fetch/result (\"ok\" or \"fail\") and :fetch/at, the last crt.sh
     fetch of a harvest root.
   MAX_AGE=<days> makes a probe or a fetch older than that, or undated,
@@ -27,7 +24,6 @@
    :host/http-status-at {:db/valueType :db.type/instant}
    :host/mx             {:db/valueType :db.type/string}
    :host/mx-at          {:db/valueType :db.type/instant}
-   :forge/http-status   {:db/valueType :db.type/string}
    :fetch/result        {:db/valueType :db.type/string}
    :fetch/at            {:db/valueType :db.type/instant}})
 
@@ -110,17 +106,6 @@
                                    (update-in [:at h] #(assoc (or % [nil nil]) idx now))))
                              state values))))
     nil))
-
-;; ---------------------------------------------------------------------------
-;; Forge homepages (bb forges scan)
-;; ---------------------------------------------------------------------------
-
-(defn save-forge-statuses!
-  "Store a {target forge-http-status} map, blank values left out."
-  [statuses]
-  (transact! (for [[t st] statuses :when (not (str/blank? st))]
-               {:host/name t :forge/http-status st}))
-  nil)
 
 ;; ---------------------------------------------------------------------------
 ;; crt.sh fetches
