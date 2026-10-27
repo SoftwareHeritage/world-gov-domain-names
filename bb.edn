@@ -19,6 +19,8 @@
               :task (apply run "scripts/pipeline.clj" "indegree" *command-line-args*)}
   directories {:doc  "official directories of public bodies: 'registry' -> sources/<registry>/registered.csv, 'candidates' -> sources/directory/orgs.csv -- run 'bb directories help'"
                :task (apply run "scripts/detect-from-directories.clj" *command-line-args*)}
+  todo       {:doc  "refresh curate_todo.csv after a curation, offline: bb todo [FRA…]"
+              :task (apply run "scripts/pipeline.clj" "todo" *command-line-args*)}
   check      {:doc  "check the hand-edited files: bb check [FRA…] (every country by default)"
               :task (apply run "scripts/pipeline.clj" "check" *command-line-args*)}
   all        {:doc  "collect + enrich + build + report"

@@ -15,6 +15,12 @@
 - Capital: London
 - Hosts collected: 4872
 
+## Authoritative registries
+
+Their domains are confirmed as they are, without curation:
+
+- `govuk`: `countries/GBR_united_kingdom/sources/govuk/registered.csv`
+
 ## UN/DESA national portal
 
 - Declared: [https://www.gov.uk](https://www.gov.uk) (host `gov.uk`)

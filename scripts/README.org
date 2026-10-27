@@ -39,8 +39,10 @@ of a file at once with what to write instead, and also warns about an
 excluded row without a reason, a curated row a
 registry already lists, and about a =local= or excluded domain more
 than one label under a central root, which the policy table cannot
-express. The generated files are =proposed.csv=,
-=summary.md= and the =sources/= tree.
+express. The generated files are =proposed.csv=, =curate_todo.csv=
+(=proposed.csv= minus the domains confirmed or excluded since, in the
+columns of =curated.csv=, written by =propose= and refreshed offline by
+=bb todo=), =summary.md= and the =sources/= tree.
 
 The harvest lives in one file per harvested root,
 =countries/<c>/sources/harvest/<root>.csv=, one column =subdomain=,

@@ -15,6 +15,12 @@
 - Capital: Oslo
 - Hosts collected: 502
 
+## Authoritative registries
+
+Their domains are confirmed as they are, without curation:
+
+- `brreg`: `countries/NOR_norway/sources/brreg/registered.csv`
+
 ## UN/DESA national portal
 
 - Declared: [http://www.regjeringen.no](http://www.regjeringen.no) (host `regjeringen.no`)

@@ -61,9 +61,13 @@ One directory per country (=FRA_france=, =USA_united_states=, …), with:
 - =excluded.csv= -- what is out of scope altogether, as full hostnames
   (=domain,reason=): rejected proposals (not a public body, a typo…).
   A domain listed here never comes back in =proposed.csv=.
-- =proposed.csv= -- the curation worklist: domains scored 0 to 10 by
-  how many sources agree, with their =level= when known. Generated.
-- =summary.md= -- a human-readable cross-check report. Generated.
+- =curate_todo.csv= -- the curation worklist: the proposed domains no
+  one has decided on yet, in the columns of =curated.csv=, ready to
+  move there. Generated.
+- =proposed.csv= -- the same domains scored 0 to 10 by how many
+  sources agree, with these sources. Generated.
+- =summary.md= -- a human-readable cross-check report, naming the
+  country's authoritative registries if any. Generated.
 - =sources/= -- the raw data behind the above, one folder per source,
   never edited by hand.
 

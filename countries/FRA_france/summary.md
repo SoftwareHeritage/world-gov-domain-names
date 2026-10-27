@@ -13,7 +13,14 @@
 - UN/DESA EGDI: Rank 34 of 193
 - Government type: semi-presidential republic
 - Capital: Paris
-- Hosts collected: 2488
+- Hosts collected: 2489
+
+## Authoritative registries
+
+Their domains are confirmed as they are, without curation:
+
+- `esr`: `countries/FRA_france/sources/esr/registered.csv`
+- `lannuaire`: `countries/FRA_france/sources/lannuaire/registered.csv`
 
 ## UN/DESA national portal
 

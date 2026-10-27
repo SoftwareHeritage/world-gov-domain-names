@@ -13,7 +13,13 @@
 - UN/DESA EGDI: Rank 19 of 193
 - Government type: constitutional federal republic
 - Capital: Washington, D.C.
-- Hosts collected: 1487
+- Hosts collected: 1486
+
+## Authoritative registries
+
+Their domains are confirmed as they are, without curation:
+
+- `cisa`: `countries/USA_united_states/sources/cisa/registered.csv`
 
 ## UN/DESA national portal
 

@@ -55,7 +55,10 @@
 ;;                      data/public-sector-domains-central+-policy.csv
 ;;
 ;; Targeted commands (report):
-;;   propose [C…]       score the candidate hosts -> countries/<c>/proposed.csv
+;;   propose [C…]       score the candidate hosts -> countries/<c>/proposed.csv,
+;;                      then todo
+;;   todo [C…]          proposed.csv minus what is confirmed or excluded since,
+;;                      in the columns of curated.csv -> curate_todo.csv (offline)
 ;;   summary [C…]       the per-country report -> countries/<c>/summary.md
 ;;
 ;; Other commands:
@@ -909,17 +912,43 @@
     (sort-by (juxt #(- (nth % 1)) first)
              (concat rows (parent-rows rows known excluded)))))
 
+(defn- todo-name
+  "The name a curate_todo.csv row offers: the first of the labels a
+  proposed name joins with \" | \", bare Wikidata QIDs aside."
+  [name]
+  (or (first (remove #(or (str/blank? %) (re-matches #"Q\d+" %))
+                     (map str/trim (str/split (str name) #" \| "))))
+      ""))
+
+(defn todo-country!
+  "Write countries/<c>/curate_todo.csv (domain,level,name,kind): the
+  rows of proposed.csv no confirmed or excluded domain covers yet, in
+  the columns of curated.csv, ready to move there. Offline: refreshes
+  the list after a curation, proposed.csv untouched."
+  [country-dir]
+  (let [out     (str "countries/" country-dir "/curate_todo.csv")
+        decided (into (set (map first (confirmed-country country-dir)))
+                      (map first (read-excluded country-dir)))
+        rows    (for [[d level name kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
+                      :when (and (valid-hostname? d) (not (host-covered? d decided)))]
+                  [d (or level "") (todo-name name) (or kind "")])]
+    (write-csv-file out ["domain" "level" "name" "kind"] rows)
+    (println (str "=== " country-dir " -> " out " (" (count rows) " to curate)"))))
+
+(defn cmd-todo [args] (iter-countries todo-country! args))
+
 (defn propose-country!
   "Write countries/<c>/proposed.csv
   (domain,level,name,kind,score,sources): the ranked candidates, the
   first four columns as in curated.csv, kind blank (subtree) for the
-  curation to set."
+  curation to set; then curate_todo.csv (todo-country!)."
   [country-dir]
   (let [out  (str "countries/" country-dir "/proposed.csv")
         rows (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))]
                [h lvl lbl "" (str sc) src])]
     (write-csv-file out ["domain" "level" "name" "kind" "score" "sources"] rows)
-    (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))))
+    (println (str "=== " country-dir " -> " out " (" (count rows) " proposed)"))
+    (todo-country! country-dir)))
 
 (defn cmd-propose [args] (iter-countries propose-country! args))
 
@@ -1002,6 +1031,19 @@
             (println (str "- ⚠️ ABSENT -- neither `" host "` covered nor `countries/" country-dir "/sources/harvest/" (or parent host) ".csv` present"))))))
     (println)))
 
+(defn- section-registries
+  "The authoritative registries of the country: their domains are
+  confirmed without curation."
+  [country-dir]
+  (when-let [rs (seq (registries country-dir))]
+    (println "## Authoritative registries")
+    (println)
+    (println "Their domains are confirmed as they are, without curation:")
+    (println)
+    (doseq [r rs]
+      (println (str "- `" r "`: `" (registered-file country-dir r) "`")))
+    (println)))
+
 (defn- section-factbook [{:keys [fb-chief fb-head fb-courts]}]
   (when (or fb-courts fb-chief)
     (println "## Institutions named by CIA Factbook")
@@ -1070,6 +1112,7 @@
             (println (str "# " country-dir " -- summary"))
             (println)
             (section-overview (assoc ctx :n-collected (count collected)))
+            (section-registries country-dir)
             (section-un-portal country-dir un-portal collected)
             (section-factbook ctx)
             (section-cctld-anomalies country-dir cctld collected)))
@@ -1351,6 +1394,7 @@
    "domains"     cmd-domains
    ;; report
    "propose"     cmd-propose
+   "todo"        cmd-todo
    "summary"     cmd-summary
    ;; other
    "probe-proposed" cmd-probe-proposed
@@ -1372,7 +1416,7 @@
   (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
   (println "           wikidata | academia | ror | sopc | iana | cia | un-desa | oecd | meta")
   (println "  build:   aggregate | domains")
-  (println "  report:  propose | summary")
+  (println "  report:  propose | todo | summary")
   (println "  other:   probe-proposed | wayback | check | esr | govuk | validate-un | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")

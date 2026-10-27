@@ -15,7 +15,8 @@ etc.
 
 Every decision lives in two small CSV files of the country directory.
 Everything else is generated from them and from official registries:
-never edit `proposed.csv`, `summary.md` or anything under `sources/`.
+never edit `curate_todo.csv`, `proposed.csv`, `summary.md` or
+anything under `sources/`.
 In `data/`, everything is generated except `world-governments.csv`,
 the list of countries: open an issue to change it.
 
@@ -48,14 +49,35 @@ domain,reason
 example-company.fr,private company
 ```
 
-A domain listed here never comes back in `proposed.csv`.
+A domain listed here never comes back in `curate_todo.csv` nor in
+`proposed.csv`.
+
+## Tell us about an official registry
+
+Some countries publish an authoritative list of their public bodies
+with their domain names (the CISA `.gov` registry in the United
+States, `lannuaire.service-public.fr` in France…). We import such a
+registry directly: its domains need no curation. The "Authoritative
+registries" section of your country's `summary.md` lists the ones we
+use; when it is missing, or when you know a registry we do not use,
+please tell us (see "Send your changes" below): it can save hundreds
+of rows of curation.
 
 ## How to contribute
 
-1. Open `proposed.csv`, the list of suggested domains.
-2. For each domain, if it is right, copy its first three columns to
-   `curated.csv`; if it is wrong, add it to `excluded.csv`.
+1. Open `curate_todo.csv`, the domains our sources suggest that no one
+   has decided on yet, best first. Its columns are those of
+   `curated.csv`, `level` and `name` being our best guess.
+2. For each domain, if it is right, move its row to `curated.csv`,
+   fixing the level, the name or the kind if needed; if it is wrong,
+   add it to `excluded.csv` with a reason.
 3. Add the domains we missed to `curated.csv` directly.
+
+`proposed.csv` holds the same suggestions with their `score` (0 to 10)
+and the `sources` behind them, to help you decide. If you have
+Babashka, `bb todo FRA` refreshes `curate_todo.csv` after your
+changes: a confirmed or excluded domain leaves it, with everything
+below it.
 
 ## Check your changes
 
