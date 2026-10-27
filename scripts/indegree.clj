@@ -82,14 +82,12 @@
           (range (dec (count parts))))))
 
 (defn cmd-indegree
-  "Compute each government domain's in-degree per crawled country:
-  editorial links and form destinations feed indegree, other dependencies
-  (scripts, stylesheets, media) feed indegree_tech; the crawler's own
-  target_category is ignored. Write
-  countries/<c>/sources/linkgraph/indegree.csv
-  (hostname,indegree,indegree_tech). Optional args restrict to the given
-  country_dirs; return 1 on an unknown country_dir (before any
-  download) or when the crawl data is unavailable."
+  "Write countries/<c>/sources/linkgraph/indegree.csv
+  (hostname,indegree,indegree_tech) for the crawled countries of args,
+  all by default: editorial links and forms count in indegree,
+  scripts, stylesheets and media in indegree_tech. 1 on an unknown
+  country_dir (before any download) or when the crawl data is
+  unavailable."
   [args]
   (let [targets     (scoped-countries args)
         suffix->dir (when targets (linkgraph-suffix->dir))

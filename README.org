@@ -1,141 +1,64 @@
 #+title: World Gov domain names
 
-This repository collects the government domain names of 197 States and
-entities, so we can measure how much governments contribute to
-publicly available software archived by Software Heritage.
+The public-sector domain names of 197 States and entities, to measure
+how much governments contribute to the software archived by [[https://www.softwareheritage.org][Software
+Heritage]]: the 193 UN members, the 2 observers (Holy See, Palestine)
+and 2 non-UN entities (Taiwan, Kosovo), the latter left out of the
+consolidated files.
 
-* Scope
-
-197 jurisdictions, each tagged with its UN status: the 193 UN member
-states, the 2 UN observer states (Holy See, Palestine) and 2 non-UN
-entities (Taiwan, Kosovo), kept for context but excluded from any
-UN-facing aggregation.
-
-Government domains are sorted into levels:
+* Levels
 
 - =central= -- the central government: ministries, national agencies
-  (including national research bodies: CNRS, CNR…), public
-  universities run by the State, and the root domains that stand for
-  them (=gouv.fr=, =gov.uk=).
-- =central-1= -- the first administrative tier below: state, Land,
-  region… (=sp.gov.br=, =nouvelle-aquitaine.fr=), and the public
-  universities it runs.
-- =local= -- everything lower (municipalities, counties, parishes…):
-  out of the central+ lists, but still a public-sector domain.
+  and research bodies, the universities the State runs, and their
+  root domains (=gouv.fr=, =gov.uk=).
+- =central-1= -- the first tier below (state, Land, region…:
+  =sp.gov.br=, =nouvelle-aquitaine.fr=) and the bodies it runs.
+- =local= -- anything lower (municipalities, counties…): out of the
+  central+ scope, listed only to take a label out of a shared root
+  (=abingdon.gov.uk= under =gov.uk=).
 
-Where each level has its own roots, listing them is enough; where a
-single root like =gov.br= also covers local levels, the local labels
-are listed as =local= so that they leave the root.
+* Files
 
-Per country, two hand-edited files carry every decision:
-=curated.csv= (the confirmed domains, with their level) and
-=excluded.csv= (what is out of scope). Everything else is generated
-from the official registries plus =curated.csv= minus =excluded.csv=.
+- =data/public-sector-domains-central+-policy.csv= -- the central+
+  scope as a match table, =domain,kind,country=: =subtree= is a
+  domain and everything below it, =exact= the domain alone, =exclude=
+  a domain and everything below it kept out. The longest matching
+  domain decides.
+- =data/public-sector-domains.csv= -- every host found under the
+  confirmed domains, with UN status, region, languages and GDP.
+- =countries/<ISO3>_<slug>/=, per country:
+  - =curated.csv= (=domain,level,name,kind=) and =excluded.csv=
+    (=domain,reason=) -- the decisions, edited by hand;
+  - =curate_todo.csv= -- the proposed domains no one has decided on
+    yet, in the columns of =curated.csv=;
+  - =proposed.csv= -- the same, scored 0 to 10 with their sources;
+  - =summary.md= -- a cross-check report;
+  - =sources/= -- the raw data, generated.
 
-* What you get
+The confirmed domains of a country are those of its authoritative
+registries (=sources/<registry>/registered.csv=), plus =curated.csv=,
+minus =excluded.csv=.
 
-** Consolidated lists
+* Sources
 
-Two ready-to-use CSV files, covering UN members and observers only:
+Official registries and directories of public bodies (CISA's =.gov=
+list, France's =lannuaire= and =esr=, the UK's CDDO list, Norway's
+Enhetsregisteret…), Wikidata, [[https://ror.org][ROR]], the link graph of
+[[https://github.com/mgifford/eu-plus-government-scans][eu-plus-government-scans]], crt.sh and the Wayback Machine for
+subdomains, HTTPS and MX probes (kept in a local [[https://github.com/datalevin/datalevin][Datalevin]] database,
+=data/.db=), and country metadata from IANA, UN/DESA, the CIA World
+Factbook and the OECD. [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] lists these sources and
+looks for government forges and source-code catalogs.
 
-- =data/public-sector-domains.csv= -- every government host we found,
-  apex domains *and* subdomains (e.g. =gouv.fr=, =beta.gouv.fr=). Each
-  row carries metadata: UN status, region, languages and GDP.
-- =data/public-sector-domains-central+-policy.csv= -- the central
-  government plus the first administrative tier below it, as a match
-  policy table, =domain,kind,country=: =subtree= is a domain and
-  everything below it (=gouv.fr=), =exact= a domain alone
-  (=sp.gov.br=), =exclude= a domain and everything below it to keep
-  out (=abingdon.gov.uk=). The most specific row (the longest domain)
-  decides, so any regex engine or none can apply it. Every =subtree=
-  and =exact= row is a confirmed domain, by an official registry or by
-  hand: together they are the short list of email domains to watch.
+* Running
 
-** Per-country data (=countries/<ISO3>_<slug>/=)
-
-One directory per country (=FRA_france=, =USA_united_states=, …), with:
-
-- =curated.csv= -- the confirmed domains, decided by hand
-  (=domain,level,name,kind=, =kind= =exact= only for a root shared
-  with a lower tier). The place to add a domain.
-- =excluded.csv= -- what is out of scope altogether, as full hostnames
-  (=domain,reason=): rejected proposals (not a public body, a typo…).
-  A domain listed here never comes back in =proposed.csv=.
-- =curate_todo.csv= -- the curation worklist: the proposed domains no
-  one has decided on yet, in the columns of =curated.csv=, ready to
-  move there. Generated.
-- =proposed.csv= -- the same domains scored 0 to 10 by how many
-  sources agree, with these sources. Generated.
-- =summary.md= -- a human-readable cross-check report, naming the
-  country's authoritative registries if any. Generated.
-- =sources/= -- the raw data behind the above, one folder per source,
-  never edited by hand.
-
-** Master data (=data/=)
-
-- =world-governments.csv= -- the master list of the 197 countries.
-- =sources/= -- the country metadata, one table per source (CIA World
-  Factbook, UN/DESA, IANA, OECD, region, languages, population, GDP)
-  and one row per country. Generated by =bb pipeline enrich=.
-- A few generated mapping files linking country names to source IDs.
-
-* Where the data comes from
-
-- *crt.sh* -- subdomains seen in public TLS certificates (main harvest).
-- *Wayback Machine* -- hosts captured by the Internet Archive (its CDX
-  index), on demand for the roots crt.sh leaves empty.
-- *HTTPS and MX probes* -- check that a host actually serves content
-  and receives email. Kept out of the CSV files, in a local
-  [[https://github.com/datalevin/datalevin][Datalevin]] database, =data/.db= (not versioned).
-- *Wikidata* -- ministries, parliaments, central banks, courts,
-  universities and research institutes, with their official websites.
-- *ROR* -- the universities the [[https://ror.org][Research Organization Registry]]
-  knows, as candidates to confirm.
-- *Official registries and directories of public bodies* -- CISA's
-  federal =.gov= list, France's =lannuaire= and =esr=, the UK's CDDO
-  list, Norway's Enhetsregisteret, Germany's Behördenwegweiser… An
-  authoritative directory confirms its domains directly; a mixed one
-  feeds =proposed.csv= with a strong score bonus.
-- *Link graph* -- how many public-sector domains of the same country
-  link to a host, from [[https://github.com/mgifford/eu-plus-government-scans][eu-plus-government-scans]] (EU and
-  neighbours only).
-- *IANA, UN/DESA, CIA World Factbook, OECD* -- country metadata, also
-  used to cross-check candidates.
-
-[[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] lists all the data sources of the final
-[[https://stateofpubliccode.org/][State of Public Code]], these directories included.
-
-* Forges and source-code catalogs
-
-The search for government forges the [[https://archive.softwareheritage.org][Software Heritage archive]] does
-not know yet, and for source-code catalogs, lives in
-[[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] (=bb forges=): it reads the policy table and
-the harvest of this repository.
-
-* Running the pipeline
-
-Everything is driven by Babashka through =bb.edn= tasks.
-
-#+begin_src bash
-# Install Babashka (Linux / macOS)
-bash <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)
-
-# From the repository root:
-bb pipeline help     # list all sub-commands
-bb pipeline all      # full run: collect + enrich + build + report
-#+end_src
-
-See =scripts/README.org= for the full command reference, scoring rules
-and environment variables.
+With [[https://babashka.org][Babashka]]: =bb tasks= lists the tasks, =bb pipeline help= the
+commands, =bb pipeline all= runs everything. See =scripts/README.org=.
 
 * Contributing
 
-If you know the public administration of a country, you can help
-verify that our inclusions and exclusions are right: see
-[[file:CONTRIBUTING.md][CONTRIBUTING.md]] for what to check and how to send your changes, and
-[[file:AI_policy.md][AI_policy.md]] for our policy on LLM assistance.
+See [[file:CONTRIBUTING.md][CONTRIBUTING.md]] and [[file:AI_policy.md][AI_policy.md]].
 
 * License
 
-Data are published under the [[LICENSES/CC0-1.0.txt][CC0 1.0 license]]; code under the
-[[LICENSES/EPL-2.0.txt][EPL 2.0 license]].
+Data: [[LICENSES/CC0-1.0.txt][CC0 1.0]]. Code: [[LICENSES/EPL-2.0.txt][EPL 2.0]].

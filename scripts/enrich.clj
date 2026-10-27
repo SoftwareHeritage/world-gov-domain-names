@@ -1,13 +1,9 @@
 (ns enrich
   "Enrichment sources: Wikidata (subdivisions, central administration,
-  academia) under countries/<c>/sources/wikidata/, ROR universities under
-  countries/<c>/sources/ror/, the hosts of the public-sector code
-  sources of swh-sopc-data-sources under countries/<c>/sources/sopc/,
-  and IANA, CIA Factbook, UN/DESA,
-  OECD and country metadata as one row per country in
-  data/sources/<source>.csv. build-qid, build-gec and build-un-ids
-  write the country_dir -> source id files three sources read.
-  pipeline.clj dispatches."
+  academia), ROR and the sopc hosts under countries/<c>/sources/, and
+  IANA, CIA Factbook, UN/DESA, OECD and country metadata in
+  data/sources/<source>.csv; build-qid, build-gec and build-un-ids map
+  country_dir to the ids of three of them. pipeline.clj dispatches."
   (:require [common :refer :all]
             [babashka.fs :as fs]
             [cheshire.core :as json]
@@ -29,11 +25,10 @@
 ;; ===========================================================================
 
 (defn- build-country-map!
-  "Write map-file, a country_dir -> source id table: the rows of
-  aliases-file (optional, they win) then the [country_dir …] rows of
-  (fetch-matches), one per country_dir. Skip it when it already maps
-  150+ countries unless FORCE=1. 1 when fetch-matches returns nil
-  (nothing written), 0 otherwise."
+  "Write map-file (country_dir -> source id): the rows of aliases-file,
+  which win, then those of (fetch-matches). Skipped once it maps 150+
+  countries, unless FORCE=1. 1 when fetch-matches returns nil (nothing
+  written), else 0."
   [map-file header aliases-file label fetch-matches]
   (if (and (fs/exists? map-file)
            (not force?)
@@ -260,9 +255,9 @@
 (defn wikidata-process!
   "Write sources/wikidata/central_admin.csv
   (type,label,website,hostname,level), one query per class of
-  wikidata-classes, from this fetch only. Leave the file untouched when
-  a class query fails. Skip an existing file unless FORCE=1; need the
-  subdivisions file. :ok, :skip or :fail."
+  wikidata-classes, untouched when a query fails. Skip an existing
+  file unless FORCE=1; needs the subdivisions file. :ok, :skip or
+  :fail."
   [country-qid country-dir]
   (let [out (country-src country-dir "wikidata" "central_admin.csv")
         sub (subdivisions-file country-dir)]
@@ -360,12 +355,12 @@
        "}"))
 
 (def academia-tiers
-  "How a country runs its public universities, by ISO3, when it departs
-  from the unitary default {:default \"central\"}. :default is the level
-  of a university no other signal places (nil: left out), :subdiv? means
-  a label naming a first-level subdivision places it at central-1, :state?
-  the same for the word state, :national? false that the word national
-  says nothing (National University is a private one)."
+  "How a country runs its public universities, by ISO3, when not the
+  unitary {:default \"central\"}: :default, the level of a university
+  nothing else places (nil: left out); :subdiv? and :state?, central-1
+  for a label naming a subdivision or the word state; :national?
+  false, the word national says nothing (National University is
+  private)."
   {"USA" {:default "central-1" :subdiv? true :state? true :national? false}
    "DEU" {:default "central-1" :subdiv? true}
    "CAN" {:default "central-1" :subdiv? true}
@@ -402,17 +397,13 @@
   #"(?iu)\b(?:distrito federal|federal district|district fédéral)\b")
 
 (defn academia-level
-  "Level of a university or research institute: \"local\" when its
-  territory places it below the first tier, nil when no signal places
-  it. The signals, in order: its territories (:juris, the P1001 of the
-  org and of its authorities, through juris-level), then its
-  authorities themselves (:auths, operator, parent or owner) when one
-  is the country or a first-level subdivision -- another organisation,
-  a university group say, says nothing of the level --, the national
-  university class, a central label (the word national too, unless
-  the country's tiers say otherwise), then for a university only the
-  subnational labels (a federal district is a first-level subdivision)
-  and the country's default (academia-tiers). Pure."
+  "Level of a university or research institute, \"local\" below the first
+  tier, nil when no signal places it. In order: its territories
+  (:juris, the P1001 of the org and of its authorities), its
+  authorities (:auths) when the country or a subdivision, the national
+  university class, a central or national label, then for a university
+  only the subnational labels and the country's default
+  (academia-tiers). Pure."
   [{:keys [kind type label juris auths country-qid level1 level1-pattern tiers]}]
   (let [juris-lvl  (juris-level (set juris) country-qid level1)
         auth-level (if (= juris-lvl "")
@@ -487,13 +478,12 @@
        distinct))
 
 (defn academia-process!
-  "Write sources/wikidata/academia.csv (type,label,website,hostname,level):
-  the universities and research institutes of the country, level
-  central, central-1 or blank (unknown: proposed.csv shows them for
-  the curation to decide), the local ones left out, one
-  query per class of academia-classes. Leave the file untouched when a
-  class query fails. Skip an existing file unless FORCE=1; need the
-  subdivisions file. :ok, :skip or :fail."
+  "Write sources/wikidata/academia.csv
+  (type,label,website,hostname,level): the country's universities and
+  research institutes, level central, central-1 or blank (unknown),
+  the local ones left out, one query per class of academia-classes,
+  untouched when a query fails. Skip an existing file unless FORCE=1;
+  needs the subdivisions file. :ok, :skip or :fail."
   [country-qid country-dir]
   (let [out (country-src country-dir "wikidata" "academia.csv")
         sub (subdivisions-file country-dir)]
@@ -596,11 +586,10 @@
               true))
 
 (defn ror-fetch-all
-  "Every active education organisation of a country; nil when a request
-  failed or a slice came back short. The API pages in no stable order
-  (a page repeats orgs of the previous one and misses others: a quarter
-  of Iraq's in 10/2026), so instead of paging, split the ids by prefix
-  until each slice fits in one page."
+  "Every active education organisation of a country, nil when a request
+  fails or a slice comes back short. The API pages in no stable order
+  (a quarter of Iraq's orgs lost in 10/2026): the ids are split by
+  prefix until each slice fits in one page."
   ([iso2] (ror-fetch-all iso2 "0"))
   ([iso2 prefix]
    (when-let [{:keys [items number_of_results]} (ror-slice iso2 prefix)]
@@ -665,10 +654,9 @@
           {} (partition-all 100 (distinct qids))))
 
 (defn ror-org->row
-  "[ror label website hostname wikidata level] of a ROR organisation,
-  nil when none of its names calls a university, when it has no
-  website, or when the Wikidata facts of its QID (ror-wikidata-facts)
-  say private or place it below the first tier; level blank when
+  "[ror label website hostname wikidata level] of a ROR organisation;
+  nil without a university name or a website, or when the Wikidata
+  facts of its QID say private or local. Level blank when
   academia-level places it nowhere. ctx: :country-qid :level1
   :level1-pattern :tiers. Pure."
   [ctx facts {:keys [id names links] :as org}]
@@ -694,11 +682,11 @@
                     [(get row "country_dir") (get row "wikidata_qid")]))))
 
 (defn ror-process!
-  "Write sources/ror/universities.csv (ror,label,website,hostname,wikidata,level):
-  the public universities ROR knows in the country (ror-org->row), one
-  row per org and host, level central, central-1 or blank (unknown), the most precise level
-  winning per host and label. Skip an existing file unless FORCE=1; need the
-  subdivisions file. :ok, :skip or :fail (nothing written)."
+  "Write sources/ror/universities.csv
+  (ror,label,website,hostname,wikidata,level): the country's public
+  universities per ROR (ror-org->row), one row per org and host, the
+  most precise level winning. Skip an existing file unless FORCE=1;
+  needs the subdivisions file. :ok, :skip or :fail (nothing written)."
   [country-dir]
   (let [out  (country-src country-dir "ror" "universities.csv")
         sub  (subdivisions-file country-dir)

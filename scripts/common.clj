@@ -187,14 +187,11 @@
   (->> rows (map (juxt first identity)) index-first vals (sort-by first)))
 
 (defn compile-confirmed
-  "Compile the confirmed [domain level source name] rows of a country
-  from its curated [domain level name] rows, the [[registry [[domain
-  level]…]]…] of its registries and its excluded [domain reason] rows.
-  A curated row wins over a registered row of the same domain,
-  registries fold in in the given order, an excluded domain leaves;
-  source is \"curated\" or the registry's name, name is blank for a
-  registered row. Throws ex-info on an unknown level or on a domain both
-  curated and excluded. Sorted by domain."
+  "Compile a country's confirmed [domain level source name kind] rows:
+  its curated rows, which win, then the rows of its registries in
+  order (name and kind blank), minus the excluded domains; source is
+  \"curated\" or the registry's name. Throws ex-info on an unknown level
+  or a domain both curated and excluded. Sorted by domain."
   [curated registries excluded]
   (let [rows     (concat (for [[d level name kind] curated] [d level "curated" name kind])
                          (for [[registry rs] registries, [d level] rs] [d level registry "" ""]))

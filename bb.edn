@@ -13,7 +13,7 @@
               :task (apply run "scripts/pipeline.clj" "enrich" *command-line-args*)}
   build      {:doc  "the consolidated files: aggregate + domains -> data/ (after enrich)"
               :task (apply run "scripts/pipeline.clj" "build" *command-line-args*)}
-  report     {:doc  "the curation files: propose + summary -> proposed.csv, summary.md (after build)"
+  report     {:doc  "the curation files: propose + summary -> proposed.csv, curate_todo.csv, summary.md (after build)"
               :task (apply run "scripts/pipeline.clj" "report" *command-line-args*)}
   indegree   {:doc  "link-graph in-degree (eu-plus-government-scans) -> sources/linkgraph/"
               :task (apply run "scripts/pipeline.clj" "indegree" *command-line-args*)}

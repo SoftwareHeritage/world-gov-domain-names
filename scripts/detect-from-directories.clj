@@ -14,9 +14,8 @@
 ;;               or types: the hosts feed proposed.csv with a strong
 ;;               score bonus and the 'directory' source tag; curation
 ;;               decides
-;; Unlike detect-forges this script SERVES the
-;; repository's core goal -- it lives apart only to keep pipeline.clj
-;; lean; pipeline.clj consumes its outputs.
+;; It lives apart only to keep pipeline.clj lean; pipeline.clj consumes
+;; its outputs.
 ;;
 ;; Usage: bb scripts/detect-from-directories.clj registry|candidates [C…]
 ;;        bb scripts/detect-from-directories.clj harvest   (both, every spec)
@@ -243,11 +242,10 @@
       (finally (fs/delete-if-exists tmp)))))
 
 (defn- directory-fetch-govuk
-  "[[name website] …] of the gov.uk organisations register: the
-  'exempt' organisations of the paginated :list-url, each with the
-  external URL its :content-url page gives (one call each, skipped on
-  failure). nil when a listing page could not be fetched or read, or
-  when the listing is empty."
+  "[[name website] …] of the 'exempt' organisations of the gov.uk
+  register (:list-url, paginated), each website read from its
+  :content-url page; nil when a listing page fails or the listing is
+  empty."
   [{:keys [list-url content-url]}]
   (let [exempt
         (loop [page 1 acc []]
@@ -302,11 +300,10 @@
           {} rows))
 
 (defn- directory-fetch-ptv
-  "[[name website] …] of the Finnish Service Catalogue (PTV): the ids of
-  the paginated :list-url (pages from 1 to pageCount), then the records
-  by 100 ids from :detail-url, kept when their organizationType matches
-  :type-filter, with the Finnish name (else the first one) and the
-  first web page. nil when a page could not be fetched or read."
+  "[[name website] …] of the Finnish Service Catalogue (PTV): the ids
+  of the paginated :list-url, then the records by 100 from
+  :detail-url, kept when their organizationType matches :type-filter
+  (Finnish name, first web page); nil when a page fails."
   [{:keys [list-url detail-url type-filter]}]
   (let [ids (loop [page 1 acc []]
               (let [d (parse-json (http-get (str list-url page) {:accept "application/json"}) true)]

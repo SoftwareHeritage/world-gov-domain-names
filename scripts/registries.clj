@@ -1,10 +1,9 @@
 (ns registries
   "Official registries feeding sources/<registry>/registered.csv: esr
-  (FR public higher-education institutions), govuk (UK sub-central
-  bodies), plus the UN-membership check of data/world-governments.csv.
-  The directories of public bodies (CISA, lannuaire…) are specs of
-  data/directories.edn, harvested by detect-from-directories.clj.
-  pipeline.clj dispatches."
+  (French public higher education) and govuk (UK sub-central bodies),
+  plus the UN-membership check of data/world-governments.csv. The
+  directories (CISA, lannuaire…) are harvested by
+  detect-from-directories.clj. pipeline.clj dispatches."
   (:require [common :refer :all]
             [enrich :as enrich]
             [babashka.http-client :as http]
@@ -21,14 +20,11 @@
        "datasets/fr-esr-principaux-etablissements-enseignement-superieur/exports/json"))
 
 (defn esr-domain
-  "The registrable domain of an ESR institution's website, nil when the
-  site does not name one: off .fr, only a site at the apex of its domain
-  counts (unc.nc, psl.eu, ensci.com…), a deeper host may sit on a shared
-  provider (ifao.egnet.net). Under .fr a deeper host names its parent
-  (engees.unistra.fr -> unistra.fr), as the lannuaire spec does,
-  except under gouv.fr, the state's shared domain, curated and
-  harvested already: a school hosted there (insp.gouv.fr) adds nothing.
-  Pure."
+  "The registrable domain of an ESR institution's website, nil when it
+  names none: off .fr only an apex site counts (unc.nc; a deeper host
+  may sit on a shared provider), under .fr a deeper host names its
+  parent (engees.unistra.fr -> unistra.fr), gouv.fr aside (curated
+  already). Pure."
   [url]
   (when-let [host (extract-host url)]
     (when-let [domain (parent-domain host)]

@@ -11,8 +11,8 @@
 ;;                      + ror/iana/cia/un-desa/oecd/meta in parallel
 ;;                      -> sources/wikidata/, sources/ror/, data/sources/
 ;;   build              the consolidated files: aggregate, domains -> data/
-;;   report             the curation files: propose, summary -> proposed.csv,
-;;                      summary.md
+;;   report             the curation files: propose (+ todo), summary
+;;                      -> proposed.csv, curate_todo.csv, summary.md
 ;;   all                collect + enrich + build + report
 ;;
 ;; Targeted commands (collect):
@@ -298,11 +298,9 @@
               hosts)))
 
 (defn cmd-normalize
-  "Clean every harvest file (normalize-harvest-hosts) and move the
-  hosts sitting under a deeper harvested root of the same country into
-  that root's file (the hacienda.gob.es hosts of gob.es.csv go to
-  hacienda.gob.es.csv): a host is listed once, in the file of its
-  longest root."
+  "Clean every harvest file (normalize-harvest-hosts) and move each
+  host into the file of its longest harvested root in the country: the
+  hacienda.gob.es hosts of gob.es.csv go to hacienda.gob.es.csv."
   [_]
   (doseq [c (country-dirs)
           :let [files (harvest-files c)
@@ -435,7 +433,8 @@
   status, 1 = MX) is blank or, with MAX_AGE, stale; every host with
   FORCE=1."
   [probes idx]
-  (for [[h v] probes :when (or force? (str/blank? (nth v idx)) ((probes-fn 'stale?) h idx))] h))
+  (let [stale? (probes-fn 'stale?)]
+    (for [[h v] probes :when (or force? (str/blank? (nth v idx)) (stale? h idx))] h)))
 
 (defn- save-probes!
   "Store column idx of a {host [http_status mx]} map for hosts in data/.db."
@@ -549,11 +548,9 @@
 ;; probes stay in data/.db.
 
 (defn country-hosts
-  "[host parent_domain] rows of a country: every host of its harvest
-  files, plus the unharvested roots. A host found in several harvest
-  files (a root harvested under another harvested root:
-  hacienda.gob.es under gob.es) gets one row, with the longest parent.
-  Sorted by host."
+  "[host parent_domain] rows of a country, sorted: the hosts of its
+  harvest files, each once with its longest parent, plus the
+  unharvested roots."
   [country-dir]
   (let [harvested (->> (for [file (harvest-files country-dir)
                              :let [parent (harvest-root file)]
@@ -687,13 +684,10 @@
 
 (defn score-candidate
   "Score a candidate host from 0 to 10 (the points are in
-  scripts/README.org). Keys: :host, :wd-count (Wikidata mentions),
-  :label (pipe-joined Wikidata labels), :fb-phrases (lowercased
-  Factbook institution phrases), :un-portal-host, :cctld-primary
-  (without the dot), :indegree (nil when absent from the link graph),
-  :directory-listed?, :ror-listed? (a university per ror.org),
-  :sopc-listed? (a public-sector code source of swh-sopc-data-sources),
-  :subdiv-penalty? (default true; false for a host already known as
+  scripts/README.org). Keys: :host, :wd-count, :label, :fb-phrases,
+  :un-portal-host, :cctld-primary (no dot), :indegree (nil when
+  unknown), :directory-listed?, :ror-listed?, :sopc-listed?,
+  :subdiv-penalty? (default true; false for a host known as
   subnational)."
   [{:keys [host wd-count label fb-phrases un-portal-host cctld-primary
            indegree directory-listed? ror-listed? sopc-listed? subdiv-penalty?]
@@ -832,12 +826,11 @@
           {} rows))
 
 (defn load-candidate-ctx
-  "Read what propose-candidates needs for a country: the Wikidata
-  mentions and levels (central administration and academia, the
-  latter also apart to tag its sources), the UN/DESA portal, the ccTLD, the Factbook
-  courts, the link-graph in-degrees, the directory listing, the ror
-  universities, the code-source hosts, the first-level subdivision labels, the confirmed domains of every
-  country and the excluded ones of this country."
+  "What propose-candidates needs for a country: its Wikidata mentions
+  and levels (academia apart too), UN/DESA portal, ccTLD, Factbook
+  courts, link-graph in-degrees, directory, ror and sopc hosts,
+  subdivision labels, the confirmed domains of every country and its
+  excluded ones."
   [country-dir]
   (let [src #(country-src country-dir %1 %2)
         rows-of   #(rest (read-csv-raw (src "wikidata" %)))
@@ -870,17 +863,16 @@
   3)
 
 (defn parent-rows
-  "One [domain score \"parent\" name level] row per registrable domain
-  (common/parent-domain) holding parent-min-hosts candidate rows or more,
-  unless it is a candidate itself or a confirmed or excluded domain
-  covers it: confirming it covers its hosts at once (a university and
-  its laboratories). Score, the best of its hosts; level, the most
-  frequent known level of its hosts. Pure."
+  "A [domain score \"parent\" name level] row per registrable domain
+  holding parent-min-hosts candidates or more, unless a candidate
+  itself or covered by a confirmed or excluded domain: confirming it
+  covers them at once. Score, the best of its hosts; level, their most
+  frequent one. Pure."
   [rows known excluded]
   (let [candidates (set (map first rows))]
     (for [[parent hosts] (group-by #(parent-domain (first %)) rows)
           :when (and parent
-                     (>= (count (remove #(= parent (first %)) hosts)) parent-min-hosts)
+                     (>= (count hosts) parent-min-hosts)
                      (not (candidates parent))
                      (not (host-covered? parent known))
                      (not (host-covered? parent excluded)))
@@ -1157,18 +1149,13 @@
          (sort-by (juxt first #(nth % 2))))))
 
 (defn cmd-domains
-  "Write the match policy table
-  data/public-sector-domains-central+-policy.csv
+  "Write data/public-sector-domains-central+-policy.csv
   (domain,kind,country) from the confirmed central and central-1
-  domains: `subtree` covers a domain and everything below it, `exact`
-  a domain alone, `exclude` keeps a domain and everything below it
-  out; the longest matching domain decides. A domain is a subtree row
-  unless curated.csv gives it the kind exact (a root shared with a
-  lower tier), a local or excluded label directly under a central root
-  an exclude row, and a domain a subtree already covers is dropped. A
-  domain confirmed in several countries gets one
-  row, for the country confirming it at the highest level (central
-  before central-1), the first in ASCII order on a tie."
+  domains: subtree (the domain and below) unless curated.csv says
+  exact (the domain alone), exclude for a local or excluded label
+  directly under a central root; the longest match decides, a domain a
+  subtree covers is dropped. A domain of several countries goes to the
+  one confirming it highest (central first, then ASCII order)."
   [_]
   (let [rows (central-plus-rows)
         excl (local-labels)
@@ -1227,16 +1214,14 @@
 
 (defn cmd-check
   "Compile the decision files of the given countries (all by default),
-  reporting every problem at once. ERR and 1 on a first cell that is
-  not a hostname (with what to write instead), a blank or unknown level
-  (case aside), an unknown kind or a kind on a local domain, a domain
-  curated with two levels or both curated and
-  excluded; WARN on a domain listed twice with the same level, an
-  excluded row without a reason, a curated row a registry already
-  lists at that level or that a confirmed domain of the same level
-  already covers (unless it has its own harvest file), or a local or
-  excluded domain more than one label
-  under a central root (the policy table has no exclude row for it)."
+  reporting every problem at once with its fix. ERR and exit 1: a
+  first cell that is no hostname, a blank or unknown level, an unknown
+  kind or one on a local domain, two levels for a domain, a domain
+  both curated and excluded. WARN: a duplicate row, an excluded row
+  without a reason, a curated row a registry already lists or a
+  confirmed domain of the same level covers (unless harvested on its
+  own), a local or excluded domain more than one label under a central
+  root."
   [args]
   (if-let [countries (scoped-countries args)]
     (let [check-country
@@ -1349,7 +1334,7 @@
   (exit-code (cmd-aggregate nil) (cmd-domains nil)))
 
 (defn- run-report
-  "The curation files: propose, summary."
+  "The curation files: propose (which writes curate_todo.csv too), summary."
   [args]
   (exit-code (cmd-propose args) (cmd-summary args)))
 

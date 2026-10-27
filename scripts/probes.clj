@@ -4,19 +4,13 @@
 (pods/load-pod 'huahaiy/datalevin "1.2.8")
 
 (ns probes
-  "The volatile state of the pipeline, kept in the local Datalevin
-  database data/.db (git-ignored) rather than in the CSV files, one
-  entity per :host/name:
-  - :host/http-status (the HTTP code or a one-line error) and :host/mx
-    (\"prio host; …\", \"none\" or \"dig error\"), each with its date
-    (:host/http-status-at, :host/mx-at), absent until probed;
-  - :fetch/result (\"ok\" or \"fail\") and :fetch/at, the last crt.sh
-    fetch of a harvest root.
-  MAX_AGE=<days> makes a probe or a fetch older than that, or undated,
-  due again. Query it from a
-  bb REPL with
-  (d/q '[:find ?n :where [?e :host/name ?n] [?e :host/http-status \"200\"]]
-       (d/db (d/get-conn \"data/.db\")))."
+  "Volatile state of the pipeline, in the local Datalevin database
+  data/.db (git-ignored), one entity per :host/name: :host/http-status
+  and :host/mx with their dates (:host/http-status-at, :host/mx-at),
+  absent until probed; :fetch/result and :fetch/at, the last crt.sh
+  fetch of a harvest root. MAX_AGE=<days> makes older or undated
+  values due again. From a REPL: (d/q '[:find ?n :where [?e :host/name
+  ?n] [?e :host/http-status \"200\"]] (d/db (d/get-conn \"data/.db\")))."
   (:require [pod.huahaiy.datalevin :as d]
             [common :refer [env-int]]
             [clojure.string :as str]))
