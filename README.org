@@ -29,7 +29,7 @@ consolidated files.
 - =countries/<ISO3>_<slug>/=, per country:
   - =curated.csv= (=domain,level,name,kind=) and =excluded.csv=
     (=domain,reason=) -- the decisions, edited by hand;
-  - =curate_todo.csv= -- the proposed domains no one has decided on
+  - =to_curate.csv= -- the proposed domains no one has decided on
     yet, in the columns of =curated.csv=;
   - =proposed.csv= -- the same, scored 0 to 10 with their sources;
   - =summary.md= -- a cross-check report;

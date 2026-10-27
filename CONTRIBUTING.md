@@ -15,7 +15,7 @@ etc.
 
 Every decision lives in two small CSV files of the country directory.
 Everything else is generated from them and from official registries:
-never edit `curate_todo.csv`, `proposed.csv`, `summary.md` or
+never edit `to_curate.csv`, `proposed.csv`, `summary.md` or
 anything under `sources/`.
 In `data/`, everything is generated except `world-governments.csv`,
 the list of countries: open an issue to change it.
@@ -49,7 +49,7 @@ domain,reason
 example-company.fr,private company
 ```
 
-A domain listed here never comes back in `curate_todo.csv` nor in
+A domain listed here never comes back in `to_curate.csv` nor in
 `proposed.csv`.
 
 ## Tell us about an official registry
@@ -65,7 +65,7 @@ of rows of curation.
 
 ## How to contribute
 
-1. Open `curate_todo.csv`, the domains our sources suggest that no one
+1. Open `to_curate.csv`, the domains our sources suggest that no one
    has decided on yet, best first. Its columns are those of
    `curated.csv`, `level` and `name` being our best guess.
 2. For each domain, if it is right, move its row to `curated.csv`,
@@ -75,7 +75,7 @@ of rows of curation.
 
 `proposed.csv` holds the same suggestions with their `score` (0 to 10)
 and the `sources` behind them, to help you decide. If you have
-Babashka, `bb todo FRA` refreshes `curate_todo.csv` after your
+Babashka, `bb todo FRA` refreshes `to_curate.csv` after your
 changes: a confirmed or excluded domain leaves it, with everything
 below it.
 

@@ -20,7 +20,7 @@ reports them all, with their fix. A =local= row or an excluded label
 directly under a central root takes that label out of the root's
 subtree; it is never harvested.
 
-Generated per country: =proposed.csv=, =curate_todo.csv= (=proposed.csv=
+Generated per country: =proposed.csv=, =to_curate.csv= (=proposed.csv=
 minus what was decided since, in the columns of =curated.csv=; =bb
 todo= refreshes it offline), =summary.md= and =sources/=.
 
@@ -46,7 +46,7 @@ chain the targeted commands:
   bb pipeline collect    # fetch (+ retry), normalize, probe, mx, probe-roots
   bb pipeline enrich     # build-qid, build-gec, build-un-ids, subdivisions, then the sources
   bb pipeline build      # aggregate, domains (after enrich)
-  bb pipeline report     # propose (+ curate_todo.csv), summary (after build)
+  bb pipeline report     # propose (+ to_curate.csv), summary (after build)
   bb pipeline all        # the four in sequence
 #+end_src
 
@@ -73,8 +73,8 @@ chain the targeted commands:
   domains                 # data/public-sector-domains-central+-policy.csv
 
   # report -- countries/<c>/
-  propose [C…]            # proposed.csv, curate_todo.csv
-  todo [C…]               # curate_todo.csv, offline
+  propose [C…]            # proposed.csv, to_curate.csv
+  todo [C…]               # to_curate.csv, offline
   summary [C…]            # summary.md
   probe-proposed [C…]     # HTTPS + MX of the proposed hosts
 

@@ -12,7 +12,7 @@
 ;;                      -> sources/wikidata/, sources/ror/, data/sources/
 ;;   build              the consolidated files: aggregate, domains -> data/
 ;;   report             the curation files: propose (+ todo), summary
-;;                      -> proposed.csv, curate_todo.csv, summary.md
+;;                      -> proposed.csv, to_curate.csv, summary.md
 ;;   all                collect + enrich + build + report
 ;;
 ;; Targeted commands (collect):
@@ -58,7 +58,7 @@
 ;;   propose [C…]       score the candidate hosts -> countries/<c>/proposed.csv,
 ;;                      then todo
 ;;   todo [C…]          proposed.csv minus what is confirmed or excluded since,
-;;                      in the columns of curated.csv -> curate_todo.csv (offline)
+;;                      in the columns of curated.csv -> to_curate.csv (offline)
 ;;   summary [C…]       the per-country report -> countries/<c>/summary.md
 ;;
 ;; Other commands:
@@ -855,7 +855,7 @@
      :cctld-primary  (not-empty (str/replace (table-field "iana" country-dir "cctld") #"^\." ""))
      :level1-pattern (when (fs/exists? sub-path)
                        (level1-pattern (map second (rest (read-csv-raw sub-path)))))
-     :known          (confirmed-domains)
+     :known          (decided-domains)
      :excluded       (get @excluded-domains country-dir #{})}))
 
 (def parent-min-hosts
@@ -905,7 +905,7 @@
              (concat rows (parent-rows rows known excluded)))))
 
 (defn- todo-name
-  "The name a curate_todo.csv row offers: the first of the labels a
+  "The name a to_curate.csv row offers: the first of the labels a
   proposed name joins with \" | \", bare Wikidata QIDs aside."
   [name]
   (or (first (remove #(or (str/blank? %) (re-matches #"Q\d+" %))
@@ -913,14 +913,13 @@
       ""))
 
 (defn todo-country!
-  "Write countries/<c>/curate_todo.csv (domain,level,name,kind): the
-  rows of proposed.csv no confirmed or excluded domain covers yet, in
+  "Write countries/<c>/to_curate.csv (domain,level,name,kind): the
+  rows of proposed.csv no decided or excluded domain covers yet, in
   the columns of curated.csv, ready to move there. Offline: refreshes
   the list after a curation, proposed.csv untouched."
   [country-dir]
-  (let [out     (str "countries/" country-dir "/curate_todo.csv")
-        ;; as propose: the confirmed domains of every country
-        decided (into (confirmed-domains) (map first (read-excluded country-dir)))
+  (let [out     (str "countries/" country-dir "/to_curate.csv")
+        decided (into (decided-domains) (map first (read-excluded country-dir)))
         rows    (for [[d level name kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
                   [d (or level "") (todo-name name) (or kind "")])]
@@ -933,7 +932,7 @@
   "Write countries/<c>/proposed.csv
   (domain,level,name,kind,score,sources): the ranked candidates, the
   first four columns as in curated.csv, kind blank (subtree) for the
-  curation to set; then curate_todo.csv (todo-country!)."
+  curation to set; then to_curate.csv (todo-country!)."
   [country-dir]
   (let [out  (str "countries/" country-dir "/proposed.csv")
         rows (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))]
@@ -1334,7 +1333,7 @@
   (exit-code (cmd-aggregate nil) (cmd-domains nil)))
 
 (defn- run-report
-  "The curation files: propose (which writes curate_todo.csv too), summary."
+  "The curation files: propose (which writes to_curate.csv too), summary."
   [args]
   (exit-code (cmd-propose args) (cmd-summary args)))
 
