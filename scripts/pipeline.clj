@@ -919,8 +919,8 @@
   the list after a curation, proposed.csv untouched."
   [country-dir]
   (let [out     (str "countries/" country-dir "/curate_todo.csv")
-        decided (into (set (map first (confirmed-country country-dir)))
-                      (map first (read-excluded country-dir)))
+        ;; as propose: the confirmed domains of every country
+        decided (into (confirmed-domains) (map first (read-excluded country-dir)))
         rows    (for [[d level name kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
                   [d (or level "") (todo-name name) (or kind "")])]
