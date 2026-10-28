@@ -1061,10 +1061,6 @@
 ;;  sopc -- hosts of the public-sector code sources of swh-sopc-data-sources
 ;; ===========================================================================
 
-(def sopc-dir
-  "A swh-sopc-data-sources checkout, next to this repository by default."
-  (or (System/getenv "SOPC_DIR") "../swh-sopc-data-sources"))
-
 (def sopc-files ["data/sources_code.yaml" "data/sources_code_maybe.yaml"])
 
 (def sopc-shared-hosts

@@ -14,6 +14,12 @@
 (def ua "world-gov-domain-names (+https://github.com/SoftwareHeritage/world-gov-domain-names)")
 (def force? (= "1" (System/getenv "FORCE")))
 
+(def sopc-dir
+  "A swh-sopc-data-sources checkout, next to this repository by default:
+  its YAML files list the code sources (enrich) and the directories of
+  public bodies (detect-from-directories)."
+  (or (System/getenv "SOPC_DIR") "../swh-sopc-data-sources"))
+
 (defn env-int [env-name default]
   (let [v (System/getenv env-name)]
     (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default)))

@@ -6,7 +6,9 @@ Babashka namespaces loaded through the =:paths= of =bb.edn=: =common=
 =registries= (official registries), =indegree= (link graph), =probes=
 (the =data/.db= state) and =pipeline= (harvest, scoring, policy table,
 dispatcher). =detect-from-directories.clj= (=bb directories=) harvests
-the directories of public bodies.
+the directories of public bodies whose entry in =sources_domains.yaml=
+of swh-sopc-data-sources carries a =harvest:= spec (its keys are
+documented at the top of the script).
 
 * Decision files and generated files
 
@@ -157,13 +159,13 @@ Babashka 1.12+, and in =data/=: =world-governments.csv= (the countries),
 the source id mappings and their aliases, and =public_suffix_list.dat=
 (refresh it from https://publicsuffix.org/list/public_suffix_list.dat).
 
-| Var         | Effect                                                     | Default                    |
-|-------------+------------------------------------------------------------+----------------------------|
-| =FORCE=     | overwrite outputs, re-probe every host                     | unset                      |
-| =MAX_AGE=   | days: re-probe older probes, fetch only the roots due      | unset                      |
-| =PARALLEL=  | concurrent requests                                        | varies                     |
-| =TIMEOUT=   | HTTPS timeout of a probe, in seconds                       | =5=                        |
-| =SOPC_DIR=  | swh-sopc-data-sources checkout read by =sopc=              | =../swh-sopc-data-sources= |
-| =CONC_*=    | countries in parallel per source (WIKIDATA, ROR, IANA, CIA, UN_DESA, META) | 3, 2, 4, 8, 4, 4 |
+| Var        | Effect                                                                     | Default                    |
+|------------+----------------------------------------------------------------------------+----------------------------|
+| =FORCE=    | overwrite outputs, re-probe every host                                     | unset                      |
+| =MAX_AGE=  | days: re-probe older probes, fetch only the roots due                      | unset                      |
+| =PARALLEL= | concurrent requests                                                        | varies                     |
+| =TIMEOUT=  | HTTPS timeout of a probe, in seconds                                       | =5=                        |
+| =SOPC_DIR= | swh-sopc-data-sources checkout read by =sopc= and =bb directories=         | =../swh-sopc-data-sources= |
+| =CONC_*=   | countries in parallel per source (WIKIDATA, ROR, IANA, CIA, UN_DESA, META) | 3, 2, 4, 8, 4, 4           |
 
 To contribute domains, see [[file:../CONTRIBUTING.md][CONTRIBUTING.md]].

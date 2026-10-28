@@ -2,26 +2,51 @@
 ;; detect-from-directories -- harvest the official directories of public
 ;; bodies (Babashka).
 ;;
-;; Fetches the machine-readable per-country directories described in
-;; data/directories.edn (the specs: channel, format, columns, filters),
-;; themselves listed in sources_domains.yaml of swh-sopc-data-sources.
-;; Each spec belongs to one :channel, and each channel is one command
-;; writing one kind of file:
+;; Fetches the machine-readable per-country directories of public bodies
+;; listed in data/sources_domains.yaml of swh-sopc-data-sources (SOPC_DIR):
+;; an entry carrying a 'harvest:' spec, or a list of them, is fetched
+;; from its 'api:' or 'data:' URL, which must be a single one. Each spec
+;; belongs to one channel, and each channel is one command writing one
+;; kind of file:
 ;;   registry    countries/<c>/sources/<registry>/registered.csv --
-;;               authoritative central scoping: the domains are
-;;               confirmed directly
+;;               authoritative central scoping (organisation-form filter,
+;;               federal-only export): the domains are confirmed
+;;               directly. host_filter guards against off-TLD entries (a
+;;               stray sites.google.com must never become a confirmed
+;;               root).
 ;;   candidates  countries/<c>/sources/directory/orgs.csv -- mixed levels
-;;               or types: the hosts feed proposed.csv with a strong
-;;               score bonus and the 'directory' source tag; curation
-;;               decides
-;; It lives apart only to keep pipeline.clj lean; pipeline.clj consumes
-;; its outputs.
+;;               or types without a reliable marker: the hosts feed
+;;               proposed.csv with a strong score bonus and the
+;;               'directory' source tag; curation decides
+;; A country has at most one spec per channel (both would write the same
+;; file). It lives apart only to keep pipeline.clj lean; pipeline.clj
+;; consumes its outputs.
+;;
+;; The keys of a spec, snake_case in the YAML; 'format' picks the
+;; fetcher and the keys it reads:
+;;   csv         name_col website_col, optional encoding (default
+;;               UTF-8), separator (default ","), col_filters
+;;   xlsx        name_col website_col, optional col_filters (first
+;;               sheet, header on the first row)
+;;   json        items_path ([] for a top-level array) name_field
+;;               website_field, optional item_filters, query_params and
+;;               website_json_key (the website field is a JSON-encoded
+;;               list of objects, the website under that key)
+;;   json_pages  the same, a 'page' query parameter added (from 0 until
+;;               an empty page)
+;;   xml         org_tag name_tag url_tag, optional type_tag type_filter
+;;   govuk       content_url (gov.uk organisations API)
+;;   ptv         detail_url type_filter (Suomi.fi PTV API)
+;; Every format takes the optional host_filter, exclude_name and
+;; registrable (true: hosts cut to their registrable domain). Regexes
+;; are strings, compiled at load: the filters (col_filters and
+;; item_filters as [column-or-field, regex] pairs, type_filter,
+;; host_filter, exclude_name) match with re-find.
 ;;
 ;; Usage: bb scripts/detect-from-directories.clj registry|candidates [C…]
 ;;        bb scripts/detect-from-directories.clj harvest   (both, every spec)
-;;        bb scripts/detect-from-directories.clj check [sources_domains.yaml]
 ;;
-;; Environment variables: none.
+;; Environment variables: SOPC_DIR (default ../swh-sopc-data-sources).
 
 (ns detect-from-directories
   (:require [common :refer :all]
@@ -29,33 +54,42 @@
             [clj-yaml.core :as yaml]
             [clojure.data.csv :as csv]
             [clojure.data.xml :as xml]
-            [clojure.edn :as edn]
             [clojure.java.io :as io]
             [clojure.string :as str]))
 
 ;; ---------------------------------------------------------------------------
-;; Specs (data/directories.edn)
+;; Specs (sources_domains.yaml of swh-sopc-data-sources)
 ;; ---------------------------------------------------------------------------
 
-(def directories-file "data/directories.edn")
+(def sources-yaml
+  (str (fs/path sopc-dir "data" "sources_domains.yaml")))
 
-(def default-sources-yaml
-  "sources_domains.yaml of a swh-sopc-data-sources checkout next to this
-  repository."
-  "../swh-sopc-data-sources/data/sources_domains.yaml")
+(defn- kebab
+  "The keyword of a snake_case YAML string: name_col -> :name-col. Pure."
+  [s]
+  (keyword (str/replace (name s) "_" "-")))
 
 (defn- compile-spec
-  "A spec as read from directories-file, made ready for the fetchers:
-  the regex strings compiled, the separator string turned into a char
-  and :source set to the host of its URL. Pure."
-  [spec]
-  (let [pairs (fn [ps] (mapv (fn [[k re]] [k (re-pattern re)]) ps))]
-    (cond-> (assoc spec :source (extract-host (or (:url spec) (:list-url spec))))
-      (:host-filter spec)    (update :host-filter re-pattern)
-      (:exclude-name spec)   (update :exclude-name re-pattern)
-      (:type-filter spec)    (update :type-filter re-pattern)
-      (:col-filters spec)    (update :col-filters pairs)
-      (:item-filters spec)   (update :item-filters pairs)
+  "A harvest spec as read from sources-yaml, made ready for the fetchers:
+  the keys and the channel and format kebab keywords, the JSON fields
+  keywords (parse-json keywordizes), the regex strings compiled, the
+  separator string turned into a char, the query parameters strings,
+  :url the fetched URL and :source its host. Pure."
+  [spec url]
+  (let [spec  (update-keys spec kebab)
+        pairs (fn [f ps] (mapv (fn [[k re]] [(f k) (re-pattern re)]) ps))]
+    (cond-> (assoc spec :url url :source (extract-host url)
+                   :channel (kebab (:channel spec)) :format (kebab (:format spec)))
+      (:items-path spec)       (update :items-path #(mapv keyword %))
+      (:name-field spec)       (update :name-field keyword)
+      (:website-field spec)    (update :website-field keyword)
+      (:website-json-key spec) (update :website-json-key keyword)
+      (:query-params spec)     (update :query-params #(update-vals (update-keys % name) str))
+      (:host-filter spec)      (update :host-filter re-pattern)
+      (:exclude-name spec)     (update :exclude-name re-pattern)
+      (:type-filter spec)      (update :type-filter re-pattern)
+      (:col-filters spec)      (update :col-filters #(pairs str %))
+      (:item-filters spec)     (update :item-filters #(pairs keyword %))
       (string? (:separator spec)) (update :separator first))))
 
 (defn- iso2->country-dir
@@ -69,18 +103,39 @@
                    :when dir]
                [(get row "iso2") dir]))))
 
+(defn- entry-url
+  "The single 'api:' or 'data:' URL of a sources-yaml entry; nil, with
+  an error, when there is none or several."
+  [iso2 entry]
+  (let [urls (for [k ["api" "data"]
+                   u (let [v (get entry k)] (if (sequential? v) v [v]))
+                   :when (seq (str u))]
+               u)]
+    (if (= 1 (count urls))
+      (first urls)
+      (err "ERR: " sources-yaml ": " iso2 " '" (get entry "name") "' has "
+           (count urls) " api/data URLs, a harvest spec needs one"))))
+
 (def directory-specs
-  "{country_dir [spec …]} of directories-file (a key maps to one spec or
-  a vector of them), each spec compiled and carrying its :iso2. An ISO2
-  key without a country_dir is reported and left out."
+  "{country_dir [spec …]} of the 'harvest:' specs of sources-yaml, each
+  compiled and carrying its :iso2; empty, with an error, without the
+  file. A country without a country_dir is reported and left out."
   (delay
-    (let [by-iso2 (iso2->country-dir)]
-      (into (sorted-map)
-            (for [[iso2 v] (edn/read-string (slurp directories-file))
-                  :let [dir (by-iso2 iso2)]
-                  :when (or dir (err "ERR: " directories-file ": no country_dir for " iso2))]
-              [dir (mapv #(assoc (compile-spec %) :iso2 iso2)
-                         (if (map? v) [v] v))])))))
+    (if-not (fs/exists? sources-yaml)
+      (do (err "ERR: " sources-yaml " not found (set SOPC_DIR)") {})
+      (let [by-iso2 (iso2->country-dir)
+            specs   (for [[iso2 sections] (yaml/parse-string (slurp sources-yaml) :keywords false)
+                          [_ entries] sections
+                          entry entries
+                          :let [h (get entry "harvest")]
+                          :when h
+                          :let [dir (by-iso2 iso2)
+                                url (entry-url iso2 entry)]
+                          :when (and url (or dir (err "ERR: " sources-yaml ": no country_dir for " iso2)))
+                          spec (if (map? h) [h] h)]
+                      [dir (assoc (compile-spec spec url) :iso2 iso2)])]
+        (reduce (fn [m [dir spec]] (update m dir (fnil conj []) spec))
+                (sorted-map) specs)))))
 
 (defn- channel-specs
   "{country_dir spec} of the specs of channel. A country with two specs
@@ -92,7 +147,7 @@
               :let [of-channel (filter #(= channel (:channel %)) specs)]
               :when (seq of-channel)
               :when (or (= 1 (count of-channel))
-                        (err "ERR: " directories-file ": " dir " has "
+                        (err "ERR: " sources-yaml ": " dir " has "
                              (count of-channel) " " (name channel) " specs"))]
           [dir (first of-channel)])))
 
@@ -208,12 +263,15 @@
     (seq (json-items->rows spec (get-in data items-path)))))
 
 (defn- directory-fetch-json-pages
-  "[[name website] …] of a paginated JSON API (:url ends in 'page='),
-  fetched until an empty page. nil when a page could not be fetched or
-  read (a missing page must not pass for the last one)."
-  [{:keys [url items-path] :as spec}]
+  "[[name website] …] of a paginated JSON API (a 'page' query parameter
+  added to :query-params), fetched until an empty page. nil when a page
+  could not be fetched or read (a missing page must not pass for the
+  last one)."
+  [{:keys [url items-path query-params] :as spec}]
   (loop [page 0 acc []]
-    (let [data  (parse-json (http-get (str url page) {:accept "application/json"}) true)
+    (let [data  (parse-json (http-get url {:accept "application/json"
+                                           :query-params (assoc query-params "page" (str page))})
+                            true)
           items (get-in data items-path)]
       (cond
         (nil? data)    nil
@@ -243,13 +301,14 @@
 
 (defn- directory-fetch-govuk
   "[[name website] …] of the 'exempt' organisations of the gov.uk
-  register (:list-url, paginated), each website read from its
-  :content-url page; nil when a listing page fails or the listing is
-  empty."
-  [{:keys [list-url content-url]}]
+  register (:url, paginated), each website read from its :content-url
+  page; nil when a listing page fails or the listing is empty."
+  [{:keys [url content-url]}]
   (let [exempt
         (loop [page 1 acc []]
-          (let [d (parse-json (http-get (str list-url page) {:accept "application/json"}) true)
+          (let [d (parse-json (http-get url {:accept "application/json"
+                                             :query-params {"page" (str page)}})
+                              true)
                 results (:results d)]
             (cond
               (nil? d)         nil
@@ -301,12 +360,14 @@
 
 (defn- directory-fetch-ptv
   "[[name website] …] of the Finnish Service Catalogue (PTV): the ids
-  of the paginated :list-url, then the records by 100 from
-  :detail-url, kept when their organizationType matches :type-filter
-  (Finnish name, first web page); nil when a page fails."
-  [{:keys [list-url detail-url type-filter]}]
+  of the paginated :url, then the records by 100 from :detail-url,
+  kept when their organizationType matches :type-filter (Finnish name,
+  first web page); nil when a page fails."
+  [{:keys [url detail-url type-filter]}]
   (let [ids (loop [page 1 acc []]
-              (let [d (parse-json (http-get (str list-url page) {:accept "application/json"}) true)]
+              (let [d (parse-json (http-get url {:accept "application/json"
+                                                 :query-params {"page" (str page)}})
+                                  true)]
                 (cond
                   (nil? d) nil
                   :else (let [acc (into acc (map :id (:itemList d)))]
@@ -376,15 +437,21 @@
 
 (defn- harvest-channel!
   "Fetch the directories of one channel (every spec of it, or the given
-  country_dirs) and write their hosts with write!. 1 on a country
-  outside the channel (before any fetch), a fetch failure or a write!
-  failure, 0 otherwise."
+  country_dirs) and write their hosts with write!. 1 on a channel
+  without specs, a country outside the channel (before any fetch), a
+  fetch failure or a write! failure, 0 otherwise."
   [channel write! args]
   (let [specs   (channel-specs channel)
         unknown (remove specs args)]
-    (if (seq unknown)
+    (cond
+      (empty? specs)
+      (do (err "ERR: no " (name channel) " directory spec in " sources-yaml) 1)
+
+      (seq unknown)
       (do (err "ERR: no " (name channel) " directory spec for: " (str/join ", " unknown))
           1)
+
+      :else
       (let [failed (for [[country {:keys [source] :as spec}] specs
                          :when (or (empty? args) (some #{country} args))
                          :let [rows  (directory-fetch spec)
@@ -411,47 +478,6 @@
     (do (err "ERR: harvest takes no country; use 'registry [C…]' or 'candidates [C…]'") 1)
     (if (some #{1} [(cmd-registry []) (cmd-candidates [])]) 1 0)))
 
-(defn- strip-query
-  "url without its query string nor trailing slash. Pure."
-  [url]
-  (-> (str url) str/trim (str/replace #"\?.*$" "") (str/replace #"/+$" "")))
-
-(defn- yaml-fetch-urls
-  "The 'api:' and 'data:' URLs (each a string or a list) of every
-  section of one country of sources_domains.yaml, query strings
-  stripped; 'dataset:' names a portal page, never fetched. Pure."
-  [country]
-  (set (for [[_ sources] country
-             src sources
-             k ["api" "data"]
-             u (let [v (get src k)] (if (sequential? v) v [v]))
-             :when (seq (str u))]
-         (strip-query u))))
-
-(defn cmd-check
-  "Check that the :url (or :list-url) of every spec is an 'api:' or
-  'data:' entry of its country in sources_domains.yaml
-  (default-sources-yaml, or the path given), query strings aside. 1 on a missing file or a mismatch,
-  0 otherwise."
-  [[path]]
-  (let [path (or path default-sources-yaml)]
-    (if-not (fs/exists? path)
-      (do (err "ERR: " path " not found; pass the path of sources_domains.yaml") 1)
-      (let [doc      (yaml/parse-string (slurp path) :keywords false)
-            specs    (for [[dir specs] @directory-specs, spec specs] [dir spec])
-            problems (for [[dir {:keys [iso2 url list-url]}] specs
-                           :let [u    (strip-query (or url list-url))
-                                 data (yaml-fetch-urls (get doc iso2))]
-                           :when (not (data u))]
-                       (str dir " (" iso2 "): " u
-                            (if (seq data)
-                              (str " is not among " (str/join ", " (sort data)))
-                              " has no 'api:' nor 'data:' entry")))]
-        (doseq [p problems] (println (str "  MISMATCH " p)))
-        (if (seq problems)
-          (do (err "ERR: " (count problems) " spec(s) out of step with " path) 1)
-          (do (println (str "  " (count specs) " specs match " path)) 0))))))
-
 ;; ---------------------------------------------------------------------------
 ;; Dispatcher
 ;; ---------------------------------------------------------------------------
@@ -465,16 +491,13 @@
   (println "  registry [C…]    authoritative directories -> sources/<registry>/registered.csv (confirmed domains)")
   (println "  candidates [C…]  mixed directories -> sources/directory/orgs.csv (fed to proposed.csv)")
   (println "  harvest          registry + candidates, every spec")
-  (println (str "  check [YAML]     every spec URL is an 'api:' or 'data:' entry of sources_domains.yaml (default "
-                default-sources-yaml ")"))
   (println)
   (println (str "registry specs:   " (str/join " " (specs-of :registry))))
   (println (str "candidates specs: " (str/join " " (specs-of :candidates)))))
 
 (def commands {"registry"   cmd-registry
                "candidates" cmd-candidates
-               "harvest"    cmd-harvest
-               "check"      cmd-check})
+               "harvest"    cmd-harvest})
 
 ;; Run only as a script (bb scripts/detect-from-directories.clj …), not
 ;; when load-file'd from a REPL: the hyphen in the file name keeps the
