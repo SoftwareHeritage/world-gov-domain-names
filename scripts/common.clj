@@ -448,9 +448,9 @@
 ;; ---------------------------------------------------------------------------
 ;;  Country-metadata tables -- data/sources/<source>.csv
 ;; ---------------------------------------------------------------------------
-;; One table per enrichment source (iana, cia_factbook, un_desa, oecd,
-;; country_data), one row per country keyed by country_dir, holding only
-;; the fields the reports and the scoring read. Read once per run and
+;; One table per enrichment source (iana, cia_factbook, un_desa), one
+;; row per country keyed by country_dir, holding only the fields the
+;; reports and the scoring read. Read once per run and
 ;; cached; upsert-table-row! rewrites the table under a lock, as the
 ;; enrich sources process countries in parallel.
 

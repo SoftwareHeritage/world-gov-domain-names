@@ -22,7 +22,7 @@ Heritage]].
   everything below it, =exact= the domain alone, =exclude= a domain and
   everything below it kept out. The longest matching domain decides.
 - =data/public-sector-domains.csv= -- every host found under the
-  confirmed domains, with UN status, region, languages and GDP.
+  confirmed domains, with the UN status of their country.
 - =countries/<ISO3>_<slug>/=, per country:
   - =curated.csv= (=domain,level,name,kind=) and =excluded.csv=
     (=domain,reason=) -- the decisions, edited by hand;
@@ -43,8 +43,8 @@ list, France's =lannuaire= and =esr=, the UK's CDDO list, Norway's
 Enhetsregisteret…), Wikidata, [[https://ror.org][ROR]], the link graph of
 [[https://github.com/mgifford/eu-plus-government-scans][eu-plus-government-scans]], crt.sh and the Wayback Machine for
 subdomains, HTTPS and MX probes (kept in a local [[https://github.com/datalevin/datalevin][Datalevin]] database,
-=data/.db=), and country metadata from IANA, UN/DESA, the CIA World
-Factbook and the OECD. [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] lists these sources and
+=data/.db=), and country data from IANA (ccTLD), UN/DESA (national
+portal) and the CIA World Factbook (institutions). [[https://gitlab.softwareheritage.org/swh/products/insights/swh-sopc-data-sources][swh-sopc-data-sources]] lists these sources and
 looks for government forges and source-code catalogs.
 
 * Running

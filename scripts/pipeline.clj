@@ -8,7 +8,7 @@
 ;;                      probe, mx, probe-roots -> sources/harvest/, data/.db
 ;;   enrich             the per-country sources: build-qid, build-gec,
 ;;                      build-un-ids, subdivisions, then wikidata (+ academia)
-;;                      + ror/iana/cia/un-desa/oecd/meta in parallel
+;;                      + ror/iana/cia/un-desa in parallel
 ;;                      -> sources/wikidata/, sources/ror/, data/sources/
 ;;   build              the consolidated files: aggregate, domains -> data/
 ;;   report             the curation files: propose (+ todo), summary
@@ -46,8 +46,6 @@
 ;;   iana [C…]          IANA ccTLD registry
 ;;   cia [C…]           Government section from factbook.json
 ;;   un-desa [C…]       UN/DESA national portal + EGDI
-;;   oecd [C…]          OECD membership flag
-;;   meta [C…]          country metadata (REST Countries + World Bank GDP)
 ;;
 ;; Targeted commands (build):
 ;;   aggregate          every host -> data/public-sector-domains.csv
@@ -71,7 +69,6 @@
 ;;                      registry already lists
 ;;   esr                fetch FR public higher-education institutions -> sources/esr/registered.csv
 ;;   govuk              build UK sub-central list -> GBR sources/govuk/registered.csv
-;;   validate-un        check un_status against the official UN member list
 ;;   indegree [C…]      link-graph in-degree (eu-plus-government-scans)
 ;;                      -> countries/<c>/sources/linkgraph/indegree.csv
 ;;
@@ -543,9 +540,7 @@
 ;; ===========================================================================
 ;;  build -- aggregate
 ;; ===========================================================================
-;; Reads the harvest (collect) and the country metadata of
-;; data/sources/country_data.csv (enrich, meta): run after both. The
-;; probes stay in data/.db.
+;; Reads the harvest (collect). The probes stay in data/.db.
 
 (defn country-hosts
   "[host parent_domain] rows of a country, sorted: the hosts of its
@@ -563,39 +558,26 @@
                     [d d])]
     (sort-by first (concat harvested roots))))
 
-(defn- country-meta-map
-  "Map country_dir -> {:region :langs :gdp} from data/sources/country_data.csv."
-  []
-  (into {}
-        (for [c (country-dirs)]
-          [c {:region (table-field "country_data" c "region")
-              :langs  (table-field "country_data" c "languages")
-              :gdp    (table-field "country_data" c "gdp_per_capita")}])))
-
 (def public-sector-file "data/public-sector-domains.csv")
 (def policy-file        "data/public-sector-domains-central+-policy.csv")
 
 (defn cmd-aggregate [_]
   (let [un-by-country (build-un-status-map)
-        meta-by-country (country-meta-map)
         ;; data/public-sector-domains.csv -- every harvested host (root apex AND
         ;; subdomains) plus the apex of every harvest root, regardless of
         ;; HTTP/MX. Inclusion criterion: the host existed in DNS at least once
         ;; (it appeared in a source like crt.sh) or is a confirmed root.
         rows (->> (country-dirs)
                   (mapcat (fn [country]
-                            (let [un (get un-by-country country "member")
-                                  m  (get meta-by-country country)]
+                            (let [un (get un-by-country country "member")]
                               ;; UN-facing output: keep UN members and observers
                               ;; only, never non-UN entities (Taiwan, Kosovo).
                               (when (not= un "non_un")
                                 (for [[sub parent] (country-hosts country)]
-                                  [sub parent country un
-                                   (:region m) (:langs m) (:gdp m)])))))
+                                  [sub parent country un])))))
                   (sort-by first))]
     (write-csv-file public-sector-file
-                    ["subdomain" "parent_domain" "country" "un_status"
-                     "region" "languages" "gdp_per_capita"]
+                    ["subdomain" "parent_domain" "country" "un_status"]
                     rows)
     (let [counts (frequencies (map #(nth % 3) rows))]
       (println (str "Wrote " public-sector-file " (" (count rows) " hosts)"))
@@ -1010,10 +992,8 @@
 ;; Reads proposed.csv (propose), data/public-sector-domains.csv
 ;; (aggregate) and the country metadata of data/sources/ (enrich).
 
-(defn- section-overview [{:keys [un-st cctld manager oecd-status oecd-since
-                                  un-rank fb-govtype fb-capital n-collected
-                                  region subregion languages population
-                                  gdp-per-capita gdp-year currencies]}]
+(defn- section-overview [{:keys [un-st cctld manager un-rank fb-govtype
+                                  fb-capital n-collected]}]
   (println "## Overview")
   (println)
   (case un-st
@@ -1021,17 +1001,7 @@
     "observer" (println "- UN status: **Observer State** (include as observer, not as member)")
     "non_un"   (println "- UN status: **Not recognised by the UN** (exclude from UN-facing report)")
     nil)
-  (when region
-    (println (str "- Region: " region (when subregion (str " / " subregion)))))
-  (when languages      (println (str "- Languages: " languages)))
-  (when population     (println (str "- Population: " population)))
-  (when gdp-per-capita
-    (println (str "- GDP per capita: " gdp-per-capita " US$"
-                  (when gdp-year (str " (" gdp-year ")")))))
-  (when currencies     (println (str "- Currencies: " currencies)))
   (when cctld     (println (str "- ccTLD: `" cctld "` (manager: " (or manager "?") ")")))
-  (when (= oecd-status "yes") (println (str "- OECD: member since " oecd-since)))
-  (when (= oecd-status "no")  (println "- OECD: non-member"))
   (when un-rank   (println (str "- UN/DESA EGDI: " un-rank)))
   (when fb-govtype (println (str "- Government type: " fb-govtype)))
   (when fb-capital (println (str "- Capital: " fb-capital)))
@@ -1114,15 +1084,6 @@
         ctx {:un-st          (get un-status-by-country country-dir)
              :cctld          (field "iana" "cctld")
              :manager        (field "iana" "manager")
-             :region         (field "country_data" "region")
-             :subregion      (field "country_data" "subregion")
-             :languages      (field "country_data" "languages")
-             :population     (field "country_data" "population")
-             :gdp-per-capita (field "country_data" "gdp_per_capita")
-             :gdp-year       (field "country_data" "gdp_year")
-             :currencies     (field "country_data" "currencies")
-             :oecd-status    (field "oecd" "oecd_member")
-             :oecd-since     (field "oecd" "member_since")
              :un-rank        (field "un_desa" "egdi_rank")
              :fb-govtype     (field "cia_factbook" "government_type")
              :fb-capital     (field "cia_factbook" "capital")
@@ -1405,8 +1366,6 @@
    "iana"        enrich/cmd-iana
    "cia"         enrich/cmd-cia
    "un-desa"     enrich/cmd-un-desa
-   "oecd"        enrich/cmd-oecd
-   "meta"        enrich/cmd-meta
    ;; build
    "aggregate"   cmd-aggregate
    "domains"     cmd-domains
@@ -1420,7 +1379,6 @@
    "check"       cmd-check
    "esr"         registries/cmd-esr
    "govuk"       registries/cmd-govuk
-   "validate-un" registries/cmd-validate-un
    "indegree"    indegree/cmd-indegree})
 
 (defn usage []
@@ -1432,10 +1390,10 @@
   (println "Targeted commands:")
   (println "  collect: fetch | retry | normalize | probe | mx | probe-roots")
   (println "  enrich:  build-qid | build-gec | build-un-ids | subdivisions")
-  (println "           wikidata | academia | ror | sopc | iana | cia | un-desa | oecd | meta")
+  (println "           wikidata | academia | ror | sopc | iana | cia | un-desa")
   (println "  build:   aggregate | domains")
   (println "  report:  propose | todo | summary")
-  (println "  other:   probe-proposed | wayback | check | esr | govuk | validate-un | indegree")
+  (println "  other:   probe-proposed | wayback | check | esr | govuk | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)

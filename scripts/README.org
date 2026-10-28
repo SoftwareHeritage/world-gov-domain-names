@@ -70,7 +70,7 @@ chain the targeted commands:
   academia [Q:C…]         # universities and research institutes -> sources/wikidata/academia.csv
   ror [C…]                # public universities per ROR -> sources/ror/universities.csv
   sopc [C…]               # hosts of the code sources of swh-sopc-data-sources
-  iana | cia | un-desa | oecd | meta [C…]   # one row per country in data/sources/
+  iana | cia | un-desa [C…]  # one row per country in data/sources/
 
   # build -- data/
   aggregate               # data/public-sector-domains.csv
@@ -87,7 +87,6 @@ chain the targeted commands:
   indegree [C…]           # link-graph in-degree -> sources/linkgraph/indegree.csv
   check [C…]              # the decision files (also bb check FRA)
   esr | govuk             # the French ESR and UK registries
-  validate-un             # un_status against the UN member list
 #+end_src
 
 =C= is a country dir or its ISO3 code (=FRA_france=, =FRA=), =Q:C= a
@@ -166,6 +165,6 @@ the source id mappings and their aliases, and =public_suffix_list.dat=
 | =PARALLEL= | concurrent requests                                                        | varies                     |
 | =TIMEOUT=  | HTTPS timeout of a probe, in seconds                                       | =5=                        |
 | =SOPC_DIR= | swh-sopc-data-sources checkout read by =sopc= and =bb directories=         | =../swh-sopc-data-sources= |
-| =CONC_*=   | countries in parallel per source (WIKIDATA, ROR, IANA, CIA, UN_DESA, META) | 3, 2, 4, 8, 4, 4           |
+| =CONC_*=   | countries in parallel per source (WIKIDATA, ROR, IANA, CIA, UN_DESA)       | 3, 2, 4, 8, 4              |
 
 To contribute domains, see [[file:../CONTRIBUTING.md][CONTRIBUTING.md]].

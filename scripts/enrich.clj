@@ -1,7 +1,7 @@
 (ns enrich
   "Enrichment sources: Wikidata (subdivisions, central administration,
   academia), ROR and the sopc hosts under countries/<c>/sources/, and
-  IANA, CIA Factbook, UN/DESA, OECD and country metadata in
+  IANA, CIA Factbook and UN/DESA in
   data/sources/<source>.csv; build-qid, build-gec and build-un-ids map
   country_dir to the ids of three of them. pipeline.clj dispatches."
   (:require [common :refer :all]
@@ -18,7 +18,6 @@
 (def conc-iana     (env-int "CONC_IANA"     4))
 (def conc-cia      (env-int "CONC_CIA"      8))
 (def conc-un-desa  (env-int "CONC_UN_DESA"  4))
-(def conc-meta     (env-int "CONC_META"     4))
 
 ;; ===========================================================================
 ;;  Mapping files -- data/<source>_<id>.csv, country_dir -> source id
@@ -955,109 +954,6 @@
     (do (err "ERR: " un-desa-map-file " missing. Run 'bb pipeline build-un-ids' first") 1)))
 
 ;; ===========================================================================
-;;  oecd -- membership flag
-;; ===========================================================================
-
-;; 38 members as of May 2026 (latest accession: Croatia 2025).
-(def oecd-members
-  {"AUS" 1971 "AUT" 1961 "BEL" 1961 "CAN" 1961 "CHL" 2010 "COL" 2020
-   "CRI" 2021 "CZE" 1995 "DNK" 1961 "EST" 2010 "FIN" 1969 "FRA" 1961
-   "DEU" 1961 "GRC" 1961 "HRV" 2025 "HUN" 1996 "ISL" 1961 "IRL" 1961
-   "ISR" 2010 "ITA" 1962 "JPN" 1964 "KOR" 1996 "LVA" 2016 "LTU" 2018
-   "LUX" 1961 "MEX" 1994 "NLD" 1961 "NZL" 1973 "NOR" 1961 "POL" 1996
-   "PRT" 1961 "SVK" 2000 "SVN" 2010 "ESP" 1961 "SWE" 1961 "CHE" 1961
-   "TUR" 1961 "GBR" 1961 "USA" 1961})
-
-(def oecd-header ["country_dir" "oecd_member" "member_since"])
-
-(defn oecd-process! [country-dir]
-  (let [iso3 (first (str/split country-dir #"_"))
-        since (get oecd-members iso3)]
-    (cond
-      (table-row-done? "oecd" country-dir)
-      (println (str "=== " country-dir " : SKIP"))
-
-      since
-      (do (upsert-table-row! "oecd" oecd-header country-dir
-                             {"oecd_member" "yes" "member_since" (str since)})
-          (println (str "=== " country-dir " : OECD member (since " since ")")))
-
-      :else
-      (do (upsert-table-row! "oecd" oecd-header country-dir {"oecd_member" "no"})
-          (println (str "=== " country-dir " : non-member"))))))
-
-(defn cmd-oecd [args] (iter-countries oecd-process! args))
-
-;; ===========================================================================
-;;  meta -- country metadata (REST Countries + World Bank)
-;; ===========================================================================
-
-(defn meta-rest-countries
-  "Fetch {:region :subregion :languages :currencies :population} of an
-  ISO3 code from restcountries.com; nil on failure."
-  [iso3]
-  (let [body (http-get (str "https://restcountries.com/v3.1/alpha/" iso3
-                            "?fields=region,subregion,languages,currencies,population")
-                       {:timeout 30 :accept "application/json"})]
-    (when body
-      (try
-        (let [d (json/parse-string body true)]
-          {:region     (or (:region d) "")
-           :subregion  (or (:subregion d) "")
-           :languages  (->> (vals (:languages d)) (str/join "; "))
-           :currencies (->> (:currencies d) keys (map name) (str/join "; "))
-           :population (str (or (:population d) ""))})
-        (catch Exception _ nil)))))
-
-(defn meta-world-bank-gdp
-  "Fetch the latest GDP per capita (current US$) of an ISO3 code from
-  the World Bank API: [value year], nil on failure."
-  [iso3]
-  (let [body (http-get (str "https://api.worldbank.org/v2/country/" iso3
-                            "/indicator/NY.GDP.PCAP.CD?format=json&mrnev=1")
-                       {:timeout 30 :accept "application/json"})]
-    (when body
-      (try
-        (let [entry (some-> (json/parse-string body true) second first)]
-          (when (:value entry)
-            [(:value entry) (:date entry)]))
-        (catch Exception _ nil)))))
-
-(def meta-header ["country_dir" "region" "subregion" "languages" "currencies"
-                  "population" "gdp_per_capita" "gdp_year"])
-
-(defn meta-process! [country-dir]
-  (let [iso3 (first (str/split country-dir #"_"))]
-    (if (table-row-done? "country_data" country-dir)
-      (println (str "=== " country-dir " : SKIP"))
-      (let [rc  (meta-rest-countries iso3)
-            gdp (meta-world-bank-gdp iso3)
-            [gdp-val gdp-year] gdp]
-        ;; when BOTH fetches failed, do not write: an all-blank row would
-        ;; satisfy table-row-done? on the next runs and freeze the failure.
-        ;; A half-filled row (one source down) is written and kept: the
-        ;; missing half is only refetched with FORCE=1
-        (Thread/sleep 300)
-        (if (and (nil? rc) (nil? gdp))
-          (do (err (str "=== " country-dir " : both metadata fetches failed;"
-                        " not writing " (source-table "country_data")))
-              :fail)
-          (do
-            (upsert-table-row! "country_data" meta-header country-dir
-                               {"region"         (or (:region rc) "")
-                                "subregion"      (or (:subregion rc) "")
-                                "languages"      (or (:languages rc) "")
-                                "currencies"     (or (:currencies rc) "")
-                                "population"     (or (:population rc) "")
-                                "gdp_per_capita" (if gdp-val (format "%.0f" (double gdp-val)) "")
-                                "gdp_year"       (or gdp-year "")})
-            (println (str "=== " country-dir " : " (or (:region rc) "?")
-                          " / GDP " (if gdp-val (format "%.0f" (double gdp-val)) "?")
-                          " (" (or gdp-year "?") ")"))))))))
-
-(defn cmd-meta [args] (iter-countries meta-process! args conc-meta))
-
-;; ===========================================================================
 ;;  sopc -- hosts of the public-sector code sources of swh-sopc-data-sources
 ;; ===========================================================================
 
@@ -1121,18 +1017,18 @@
 
 ;; ===========================================================================
 ;;  enrich = build-qid + build-gec + build-un-ids + subdivisions, then
-;;  the eight sources in parallel
+;;  the six sources in parallel
 ;; ===========================================================================
 
 (defn cmd-enrich
   "Run build-qid, build-gec, build-un-ids and subdivisions, then the
-  eight sources in parallel, their logs shown once all finish. 1 when a
+  six sources in parallel, their logs shown once all finish. 1 when a
   step failed, 0 otherwise."
   [args]
   (err "-> build-qid + build-gec + build-un-ids + subdivisions…")
   (let [built (conj (mapv #(% nil) [cmd-build-qid cmd-build-gec cmd-build-un-ids])
                     (cmd-subdivisions args))
-        _     (err "-> wikidata + ror + sopc + iana + cia + un-desa + oecd + meta (all in parallel)…")
+        _     (err "-> wikidata + ror + sopc + iana + cia + un-desa (all in parallel)…")
         logs  (fs/create-temp-dir)
         spawn (fn [name f]
                 (future
@@ -1153,9 +1049,7 @@
                  ["sopc"     cmd-sopc]
                  ["iana"     cmd-iana]
                  ["cia"      cmd-cia]
-                 ["un_desa"  cmd-un-desa]
-                 ["oecd"     cmd-oecd]
-                 ["meta"     cmd-meta]]
+                 ["un_desa"  cmd-un-desa]]
         futures (mapv (fn [[n f]] (spawn n f)) sources)
         results (mapv deref futures)]
     (doseq [[name status msg] results]

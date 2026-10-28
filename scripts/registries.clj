@@ -1,12 +1,10 @@
 (ns registries
   "Official registries feeding sources/<registry>/registered.csv: esr
-  (French public higher education) and govuk (UK sub-central bodies),
-  plus the UN-membership check of data/world-governments.csv. The
-  directories (CISA, lannuaire…) are harvested by
+  (French public higher education) and govuk (UK sub-central bodies).
+  The directories (CISA, lannuaire…) are harvested by
   detect-from-directories.clj. pipeline.clj dispatches."
   (:require [common :refer :all]
             [enrich :as enrich]
-            [babashka.http-client :as http]
             [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [clojure.string :as str]))
@@ -52,93 +50,6 @@
         (write-registered! "FRA_france" "esr" (for [d domains] [d "central"]))
         (println (str "Wrote " out " (" (count domains) " public higher-education domains)"))
         0))))
-
-;; ===========================================================================
-;;  UN membership validation (UN Digital Library)
-;; ===========================================================================
-
-(def un-members-record-url
-  "Record page of the UN member states dataset (Dag Hammarskjöld Library);
-  links to a dated CSV snapshot whose name changes at each refresh."
-  "https://digitallibrary.un.org/record/4082085")
-
-(def redirect-http-client
-  "HTTP client that follows redirects (the UN Digital Library serves its
-  files behind a 302)."
-  (http/client (assoc http/default-client-opts
-                      :follow-redirects :normal
-                      :connect-timeout 15000)))
-
-(defn un-members-csv-url
-  "Return the URL of the latest member_states_auths_*.csv linked from the
-  record page, nil when unreachable."
-  []
-  (when-let [body (http-get un-members-record-url)]
-    (some->> (re-seq #"files/(member_states_auths_[0-9-]+\.csv)" body)
-             (map second)
-             sort
-             last
-             (str un-members-record-url "/files/"))))
-
-(defn date-count
-  "Count the dates of a comma-separated list ('1945-10-24, 1971-09-02' -> 2)."
-  [s]
-  (count (remove str/blank? (str/split (str s) #","))))
-
-(defn un-member-iso3s
-  "Parse the UN library CSV into the set of ISO3 codes of current members.
-  Start/End date hold comma-separated usage episodes: a name is current
-  when it has more start dates than end dates."
-  [body]
-  (let [rows (csv/read-csv body)
-        headers (first rows)]
-    (into #{}
-          (for [row (rest rows)
-                :let [m (zipmap headers row)
-                      iso (str/trim (or (get m "ISO Code") ""))]
-                :when (and (not (str/blank? iso))
-                           (> (date-count (get m "Start date"))
-                              (date-count (get m "End date"))))]
-            iso))))
-
-(defn cmd-validate-un
-  "Check the un_status column of data/world-governments.csv against the
-  official UN member list. Return 1 on a fetch failure, any mismatch or a
-  blank un_status."
-  [_]
-  (println "Fetching official UN member list from digitallibrary.un.org…")
-  (let [url (un-members-csv-url)
-        body (when url (http-get url {:client redirect-http-client}))]
-    (if (str/blank? body)
-      (do (err "ERR: could not fetch the UN member states CSV")
-          1)
-      (let [official (un-member-iso3s body)
-            local (for [row (or (read-csv-file "data/world-governments.csv") [])]
-                    {:name (get row "Country")
-                     :iso (str/trim (or (get row "iso3") ""))
-                     :status (str/trim (or (get row "un_status") ""))})
-            local-iso3s (set (map :iso local))
-            problems
-            (concat
-             (for [{:keys [name status]} local
-                   :when (str/blank? status)]
-               (str name ": blank un_status (set member/observer/non_un explicitly)"))
-             (for [{:keys [name iso status]} local
-                   :when (and (= status "member") (not (official iso)))]
-               (str name ": marked member but absent from the official UN list"))
-             (for [{:keys [name iso status]} local
-                   :when (and (#{"observer" "non_un"} status) (official iso))]
-               (str name ": marked " status " but the UN lists it as a member"))
-             (for [iso (sort official)
-                   :when (not (local-iso3s iso))]
-               (str iso ": UN member missing from data/world-governments.csv")))]
-        (println (str "  official members: " (count official)
-                      " ; rows in world-governments.csv: " (count local)))
-        (if (seq problems)
-          (do (doseq [p problems] (println (str "  MISMATCH " p)))
-              (err "ERR: " (count problems) " mismatch(es)")
-              1)
-          (println "  un_status is consistent with the official UN list."))))))
 
 ;; ===========================================================================
 ;;  Utilitaire -- govuk (UK sub-central exclusions for the gov.uk suffix)
