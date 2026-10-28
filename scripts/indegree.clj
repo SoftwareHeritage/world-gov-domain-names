@@ -14,12 +14,11 @@
   proposed.csv."
   3)
 
-(def linkgraph-base-url
-  ;; Data published by https://github.com/mgifford/eu-plus-government-scans:
-  ;; a crawl of government sites (EU + neighbours) recording outbound links
-  ;; and asset dependencies. gov-domains.json maps hostname -> country;
-  ;; relationships.jsonl holds one edge per line.
-  "https://raw.githubusercontent.com/mgifford/eu-plus-government-scans/main/docs/data/")
+;; The data of https://github.com/mgifford/eu-plus-government-scans, a
+;; crawl of government sites (EU + neighbours) recording outbound links
+;; and asset dependencies, whose URLs sources_domains.yaml of
+;; swh-sopc-data-sources gives under the id linkgraph: gov-domains.json
+;; maps hostname -> country; relationships.jsonl holds one edge per line.
 
 (def linkgraph-cache "/tmp/linkgraph")
 
@@ -31,16 +30,17 @@
         tmp  (str path ".tmp")]
     (if (and (fs/exists? path) (not force?))
       path
-      (do (ensure-dir linkgraph-cache)
-          (println (str "Downloading " file "..."))
-          ;; download to a .tmp then rename: an interrupted download must
-          ;; not leave a truncated file that the cache would then serve
-          (if (curl-download! (str linkgraph-base-url file) tmp {:timeout 600})
-            (do (fs/move tmp path {:replace-existing true})
-                path)
-            (do (err "ERR: could not fetch " linkgraph-base-url file)
-                (fs/delete-if-exists tmp)
-                nil))))))
+      (when-let [url (sopc-data-url "linkgraph" file)]
+        (ensure-dir linkgraph-cache)
+        (println (str "Downloading " file "..."))
+        ;; download to a .tmp then rename: an interrupted download must
+        ;; not leave a truncated file that the cache would then serve
+        (if (curl-download! url tmp {:timeout 600})
+          (do (fs/move tmp path {:replace-existing true})
+              path)
+          (do (err "ERR: could not fetch " url)
+              (fs/delete-if-exists tmp)
+              nil))))))
 
 (def linkgraph-country-aliases
   "Crawler country names whose normalize-name does not equal our slug."

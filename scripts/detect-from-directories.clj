@@ -64,9 +64,6 @@
 ;; Specs (sources_domains.yaml of swh-sopc-data-sources)
 ;; ---------------------------------------------------------------------------
 
-(def sources-yaml
-  (str (fs/path sopc-dir "data" "sources_domains.yaml")))
-
 (defn- kebab
   "The keyword of a snake_case YAML string: name_col -> :name-col. Pure."
   [s]

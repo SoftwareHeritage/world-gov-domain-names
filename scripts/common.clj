@@ -7,6 +7,7 @@
             [babashka.fs :as fs]
             [babashka.process :as proc]
             [cheshire.core :as json]
+            [clj-yaml.core :as yaml]
             [clojure.data.csv :as csv]
             [clojure.java.io :as io]
             [clojure.string :as str]))
@@ -20,11 +21,34 @@
   public bodies (detect-from-directories)."
   (or (System/getenv "SOPC_DIR") "../swh-sopc-data-sources"))
 
+(def sources-yaml
+  "The sources of public-sector domain names of swh-sopc-data-sources."
+  (str (fs/path sopc-dir "data" "sources_domains.yaml")))
+
 (defn env-int [env-name default]
   (let [v (System/getenv env-name)]
     (if (and v (re-matches #"\d+" v)) (Integer/parseInt v) default)))
 
 (defn err [& xs] (binding [*out* *err*] (println (apply str xs))))
+
+(defn sopc-data-url
+  "The 'data:' URL of the entry of sources-yaml whose 'id:' is id, the
+  one ending with /file when file is given (a list of URLs); nil, with
+  an error, when there is none."
+  [id & [file]]
+  (let [entry (when (fs/exists? sources-yaml)
+                (first (for [[_ sections] (yaml/parse-string (slurp sources-yaml) :keywords false)
+                             [_ entries] sections
+                             entry entries
+                             :when (= id (get entry "id"))]
+                         entry)))
+        urls  (let [v (get entry "data")] (if (sequential? v) v [v]))
+        url   (first (filter #(and (seq (str %))
+                                   (or (nil? file) (str/ends-with? % (str "/" file))))
+                             urls))]
+    (or url
+        (err "ERR: no 'data:' URL" (when file (str " for " file))
+             " under id '" id "' in " sources-yaml " (set SOPC_DIR)"))))
 
 (defn single-line
   "Collapse a (possibly multi-line) string to a single trimmed line."

@@ -8,7 +8,9 @@ Babashka namespaces loaded through the =:paths= of =bb.edn=: =common=
 dispatcher). =detect-from-directories.clj= (=bb directories=) harvests
 the directories of public bodies whose entry in =sources_domains.yaml=
 of swh-sopc-data-sources carries a =harvest:= spec (its keys are
-documented at the top of the script).
+documented at the top of the script). The other sources read their
+URL there too, through the =id:= of their entry (=common/sopc-data-url=):
+=cddo= (=govuk=) and =linkgraph= (=indegree=).
 
 * Decision files and generated files
 
@@ -118,8 +120,8 @@ A root falls under one of three regimes:
    municipalities, are =exact=. Lower-tier labels are =local= rows,
    hence =exclude= rows. For =gov.uk=, =bb pipeline govuk= classifies
    the official CDDO list (Wikidata GSS codes and naming conventions)
-   into =sources/govuk/registered.csv=; refresh it after updating
-   =govuk-domains-url=.
+   into =sources/govuk/registered.csv=; refresh it after updating the
+   =data:= URL of the id =cddo= in =sources_domains.yaml=.
 3. *Levels not separable by shape* (US =.gov=): the central domains come
    from an authoritative register (CISA, =bb directories registry
    USA=).
@@ -168,7 +170,7 @@ the source id mappings and their aliases, and =public_suffix_list.dat=
 | =MAX_AGE=  | days: re-probe older probes, fetch only the roots due                      | unset                      |
 | =PARALLEL= | concurrent requests                                                        | varies                     |
 | =TIMEOUT=  | HTTPS timeout of a probe, in seconds                                       | =5=                        |
-| =SOPC_DIR= | swh-sopc-data-sources checkout read by =sopc= and =bb directories=         | =../swh-sopc-data-sources= |
+| =SOPC_DIR= | swh-sopc-data-sources checkout: its sources, read by most commands          | =../swh-sopc-data-sources= |
 | =CONC_*=   | countries in parallel per source (WIKIDATA, ROR, IANA, CIA, UN_DESA)       | 3, 2, 4, 8, 4              |
 
 To contribute domains, see [[file:../CONTRIBUTING.md][CONTRIBUTING.md]].

@@ -13,14 +13,6 @@
 ;;  Utilitaire -- govuk (UK sub-central exclusions for the gov.uk suffix)
 ;; ===========================================================================
 
-(def govuk-domains-url
-  ;; Official CDDO list of every registered .gov.uk domain (one column).
-  ;; Snapshot asset: update the URL when a newer list is published on
-  ;; https://www.gov.uk/government/publications/list-of-gov-uk-domain-names
-  (str "https://assets.publishing.service.gov.uk/media/"
-       "69cbd582024cdf09254f3f7d/"
-       "List_of_.gov.uk_domain_names_as_of_31_March_2026_1.csv"))
-
 (def govuk-local-label-patterns
   "Label patterns of sub-central gov.uk bodies: councils of all tiers and
   their -pc/-tc/… suffixes, -pcc commissioners, -ca combined authorities,
@@ -122,10 +114,12 @@
   ;; Universe: the official CDDO list of registered gov.uk domains,
   ;; classified by Wikidata GSS anchoring plus naming conventions. Local
   ;; bodies enter sources/govuk/registered.csv as level local, devolved
-  ;; ones as central-1.
-  (let [body (http-get govuk-domains-url {:timeout 90})]
+  ;; ones as central-1. The URL of the CDDO list, a dated snapshot, is
+  ;; the 'data:' of the id cddo in sources_domains.yaml.
+  (let [url  (sopc-data-url "cddo")
+        body (when url (http-get url {:timeout 90}))]
     (if (str/blank? body)
-      (do (err "ERR: gov.uk domain list fetch failed (" govuk-domains-url ")") 1)
+      (do (when url (err "ERR: gov.uk domain list fetch failed (" url ")")) 1)
       (let [universe (->> (csv/read-csv (java.io.StringReader. body))
                           rest
                           (keep #(some->> (first %) str/trim str/lower-case
