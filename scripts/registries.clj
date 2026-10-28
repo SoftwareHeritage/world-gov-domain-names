@@ -1,55 +1,13 @@
 (ns registries
-  "Official registries feeding sources/<registry>/registered.csv: esr
-  (French public higher education) and govuk (UK sub-central bodies).
-  The directories (CISA, lannuaire…) are harvested by
+  "The gov.uk registry, feeding sources/govuk/registered.csv: the CDDO
+  list of gov.uk domains, sub-central bodies told apart. The other
+  registries (CISA, lannuaire, esr…) are harvested by
   detect-from-directories.clj. pipeline.clj dispatches."
   (:require [common :refer :all]
             [enrich :as enrich]
             [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [clojure.string :as str]))
-
-;; ===========================================================================
-;;  Registries -- ESR (FR)
-;; ===========================================================================
-
-(def esr-url
-  (str "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/"
-       "datasets/fr-esr-principaux-etablissements-enseignement-superieur/exports/json"))
-
-(defn esr-domain
-  "The registrable domain of an ESR institution's website, nil when it
-  names none: off .fr only an apex site counts (unc.nc; a deeper host
-  may sit on a shared provider), under .fr a deeper host names its
-  parent (engees.unistra.fr -> unistra.fr), gouv.fr aside (curated
-  already). Pure."
-  [url]
-  (when-let [host (extract-host url)]
-    (when-let [domain (parent-domain host)]
-      (when (and (valid-hostname? domain)
-                 (not (host-covered? domain #{"gouv.fr"}))
-                 (or (str/ends-with? domain ".fr") (= domain host)))
-        domain))))
-
-(defn cmd-esr [_]
-  ;; Fetch the higher-education ministry's catalogue of the main
-  ;; institutions (universities, grandes écoles, grands établissements)
-  ;; into sources/esr/registered.csv: the distinct domains of the public
-  ;; ones, level central -- they are all state establishments, the level
-  ;; academia gives France's universities. The private ones are left out.
-  (let [where "secteur_d_etablissement=\"public\""
-        body  (http-get esr-url {:timeout 90
-                                 :query-params {"select" "url" "where" where}})]
-    (if (str/blank? body)
-      (do (err "ERR: ESR fetch failed") 1)
-      (let [domains (->> (json/parse-string body true)
-                         (keep #(esr-domain (:url %)))
-                         distinct
-                         sort)
-            out (registered-file "FRA_france" "esr")]
-        (write-registered! "FRA_france" "esr" (for [d domains] [d "central"]))
-        (println (str "Wrote " out " (" (count domains) " public higher-education domains)"))
-        0))))
 
 ;; ===========================================================================
 ;;  Utilitaire -- govuk (UK sub-central exclusions for the gov.uk suffix)

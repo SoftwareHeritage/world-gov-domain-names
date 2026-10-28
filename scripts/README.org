@@ -3,7 +3,7 @@
 
 Babashka namespaces loaded through the =:paths= of =bb.edn=: =common=
 (I/O, decision files, country tables), =enrich= (enrichment sources),
-=registries= (official registries), =indegree= (link graph), =probes=
+=registries= (the gov.uk registry), =indegree= (link graph), =probes=
 (the =data/.db= state) and =pipeline= (harvest, scoring, policy table,
 dispatcher). =detect-from-directories.clj= (=bb directories=) harvests
 the directories of public bodies whose entry in =sources_domains.yaml=
@@ -14,7 +14,7 @@ documented at the top of the script).
 
 The confirmed domains of a country are compiled in memory at each run
 (=common/compile-confirmed=): its registries
-(=sources/<registry>/registered.csv=, =domain,level=, written by =esr=,
+(=sources/<registry>/registered.csv=, =domain,level=, written by
 =govuk= and =bb directories registry=) plus =curated.csv=
 (=domain,level,name,kind=, a curated row winning) minus =excluded.csv=
 (=domain,reason=). A contradiction stops every command; =bb check=
@@ -90,7 +90,7 @@ chain the targeted commands:
   wayback DOM…            # Wayback Machine CDX harvest, on demand
   indegree [C…]           # link-graph in-degree -> sources/linkgraph/indegree.csv
   check [C…]              # the decision files (also bb check FRA)
-  esr | govuk             # the French ESR and UK registries
+  govuk                   # the UK registry (CDDO list)
 #+end_src
 
 =C= is a country dir or its ISO3 code (=FRA_france=, =FRA=), =Q:C= a

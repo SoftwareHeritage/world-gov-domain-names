@@ -18,9 +18,9 @@
 ;;               or types without a reliable marker: the hosts feed
 ;;               proposed.csv with a strong score bonus and the
 ;;               'directory' source tag; curation decides
-;; A country has at most one spec per channel (both would write the same
-;; file). It lives apart only to keep pipeline.clj lean; pipeline.clj
-;; consumes its outputs.
+;; A country has at most one candidates spec, and one registry spec per
+;; registry name (two would write the same file). It lives apart only to
+;; keep pipeline.clj lean; pipeline.clj consumes its outputs.
 ;;
 ;; The keys of a spec, snake_case in the YAML; 'format' picks the
 ;; fetcher and the keys it reads:
@@ -37,11 +37,14 @@
 ;;   xml         org_tag name_tag url_tag, optional type_tag type_filter
 ;;   govuk       content_url (gov.uk organisations API)
 ;;   ptv         detail_url type_filter (Suomi.fi PTV API)
-;; Every format takes the optional host_filter, exclude_name and
-;; registrable (true: hosts cut to their registrable domain). Regexes
-;; are strings, compiled at load: the filters (col_filters and
-;; item_filters as [column-or-field, regex] pairs, type_filter,
-;; host_filter, exclude_name) match with re-find.
+;; Every format takes the optional host_filter, exclude_name,
+;; registrable (true: hosts cut to their registrable domain) and
+;; cut_filter (with registrable: a host deeper than its registrable
+;; domain is cut only when it matches, dropped otherwise, as it may sit
+;; on a shared provider). Regexes are strings, compiled at load: the
+;; filters (col_filters and item_filters as [column-or-field, regex]
+;; pairs, type_filter, host_filter, exclude_name, cut_filter) match
+;; with re-find.
 ;;
 ;; Usage: bb scripts/detect-from-directories.clj registry|candidates [C…]
 ;;        bb scripts/detect-from-directories.clj harvest   (both, every spec)
@@ -89,7 +92,7 @@
      :ptv        {:required [:detail-url :type-filter]}}))
 
 (def ^:private common-keys
-  #{:channel :registry :format :host-filter :exclude-name :registrable})
+  #{:channel :registry :format :host-filter :exclude-name :registrable :cut-filter})
 
 (defn- regex-problem
   "Why the string s does not compile as a regex, nil when it does. Pure."
@@ -143,7 +146,7 @@
           (str "unknown key " (snake k) " for format " (snake format)))))
      (for [[k p] (sort-by key shapes)] (str (snake k) " " p))
      ;; the regexes, of the keys whose shape is right
-     (for [[k re] (concat (for [k [:host-filter :exclude-name :type-filter]
+     (for [[k re] (concat (for [k [:host-filter :exclude-name :type-filter :cut-filter]
                                 :when (and (get spec k) (not (shapes k)))]
                             [k (get spec k)])
                           (for [k [:col-filters :item-filters]
@@ -171,6 +174,7 @@
       (:query-params spec)     (update :query-params #(update-vals (update-keys % name) str))
       (:host-filter spec)      (update :host-filter re-pattern)
       (:exclude-name spec)     (update :exclude-name re-pattern)
+      (:cut-filter spec)       (update :cut-filter re-pattern)
       (:type-filter spec)      (update :type-filter re-pattern)
       (:col-filters spec)      (update :col-filters #(pairs str %))
       (:item-filters spec)     (update :item-filters #(pairs keyword %))
@@ -187,6 +191,13 @@
                    :when dir]
                [(get row "iso2") dir]))))
 
+(defn- spec-file
+  "[channel registry] of a compiled spec: the file it writes,
+  sources/<registry>/registered.csv for a registry spec,
+  sources/directory/orgs.csv (registry nil) for a candidates one. Pure."
+  [{:keys [channel registry]}]
+  [channel (when (= :registry channel) (str registry))])
+
 (defn- entry-urls
   "The 'api:' and 'data:' URLs of a sources-yaml entry. Pure."
   [entry]
@@ -200,10 +211,9 @@
   'harvest:' specs of sources-yaml, each compiled and carrying its
   :iso2. A spec is reported and rejected when its entry has no single
   api/data URL, its country no country_dir, or spec-problems finds
-  any; the specs of a country with two of one channel too (both would
-  write the same file). :rejected holds the channel of each rejected
-  spec, as read (an invalid one included). No specs, with an error,
-  without the file."
+  any; the specs of a country writing one file twice too (spec-file).
+  :rejected holds the channel of each rejected spec, as read (an
+  invalid one included). No specs, with an error, without the file."
   (delay
     (if-not (fs/exists? sources-yaml)
       (do (err "ERR: " sources-yaml " not found (set SOPC_DIR)")
@@ -233,27 +243,27 @@
             by-dir  (reduce (fn [m {:keys [dir spec]}] (update m dir (fnil conj []) spec))
                             (sorted-map) (filter :spec checked))
             doubled (for [[dir specs] by-dir
-                          [channel n] (frequencies (map :channel specs))
+                          [[channel registry :as file] n] (frequencies (map spec-file specs))
                           :when (< 1 n)]
-                      (do (err "ERR: " sources-yaml ": " dir " has " n " " (name channel) " specs")
-                          [dir channel n]))
-            drop?   (set (for [[dir channel] doubled] [dir channel]))]
+                      (do (err "ERR: " sources-yaml ": " dir " has " n " " (name channel)
+                               " specs" (when registry (str " of registry " registry)))
+                          [dir file n]))
+            drop?   (set (for [[dir file] doubled] [dir file]))]
         {:specs    (into (sorted-map)
                          (for [[dir specs] by-dir
-                               :let [kept (vec (remove #(drop? [dir (:channel %)]) specs))]
+                               :let [kept (vec (remove #(drop? [dir (spec-file %)]) specs))]
                                :when (seq kept)]
                            [dir kept]))
          :rejected (into (vec (keep :rejected checked))
-                         (mapcat (fn [[_ channel n]] (repeat n channel)) doubled))}))))
+                         (mapcat (fn [[_ [channel] n]] (repeat n channel)) doubled))}))))
 
 (defn- channel-specs
-  "{country_dir spec} of the specs of channel."
+  "[country_dir spec] pairs of the specs of channel, sorted by country."
   [channel]
-  (into (sorted-map)
-        (for [[dir specs] (:specs @directory-specs)
-              spec specs
-              :when (= channel (:channel spec))]
-          [dir spec])))
+  (for [[dir specs] (:specs @directory-specs)
+        spec specs
+        :when (= channel (:channel spec))]
+    [dir spec]))
 
 ;; ---------------------------------------------------------------------------
 ;; Fetchers, one per :format
@@ -446,11 +456,15 @@
   "{host {:n mentions :names #{…}}} of [name website] rows, keeping the
   hosts matching :host-filter and dropping the names matching
   :exclude-name (both optional). With :registrable, each host is cut
-  to its registrable domain first (engees.unistra.fr -> unistra.fr)."
-  [{:keys [host-filter exclude-name registrable]} rows]
+  to its registrable domain first (engees.unistra.fr -> unistra.fr),
+  and with :cut-filter, a deeper host not matching it is dropped."
+  [{:keys [host-filter exclude-name registrable cut-filter]} rows]
   (reduce (fn [m [org-name web]]
-            (let [h (cond-> (extract-host web)
-                      registrable (some-> parent-domain))]
+            (let [host (extract-host web)
+                  reg  (when (and registrable host) (parent-domain host))
+                  h    (cond (not registrable)                      host
+                             (or (= reg host) (nil? cut-filter)
+                                 (re-find cut-filter (str host)))   reg)]
               (if (and h (valid-hostname? h)
                        (or (nil? host-filter) (re-find host-filter h))
                        (or (nil? exclude-name)
@@ -554,7 +568,7 @@
   spec of the channel (after the others are fetched), 0 otherwise."
   [channel write! args]
   (let [specs    (channel-specs channel)
-        unknown  (remove specs args)
+        unknown  (remove (set (map first specs)) args)
         rejected (if (empty? args) (rejected-specs channel) 0)]
     (cond
       (empty? specs)
@@ -598,7 +612,8 @@
 ;; ---------------------------------------------------------------------------
 
 (defn- specs-of [channel]
-  (keys (channel-specs channel)))
+  (for [[dir {:keys [registry]}] (channel-specs channel)]
+    (cond-> dir (= :registry channel) (str ":" registry))))
 
 (defn usage []
   (println "Usage: bb scripts/detect-from-directories.clj <command> [C…]")

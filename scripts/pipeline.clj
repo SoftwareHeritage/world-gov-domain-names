@@ -67,7 +67,6 @@
 ;;   check [C…]         compile the decision files (C: FRA or FRA_france):
 ;;                      exit 1 on a contradiction, WARN on a curated row a
 ;;                      registry already lists
-;;   esr                fetch FR public higher-education institutions -> sources/esr/registered.csv
 ;;   govuk              build UK sub-central list -> GBR sources/govuk/registered.csv
 ;;   indegree [C…]      link-graph in-degree (eu-plus-government-scans)
 ;;                      -> countries/<c>/sources/linkgraph/indegree.csv
@@ -1384,7 +1383,6 @@
    "probe-proposed" cmd-probe-proposed
    "wayback"     cmd-wayback
    "check"       cmd-check
-   "esr"         registries/cmd-esr
    "govuk"       registries/cmd-govuk
    "indegree"    indegree/cmd-indegree})
 
@@ -1400,7 +1398,7 @@
   (println "           wikidata | academia | ror | sopc | iana | cia | un-desa")
   (println "  build:   aggregate | domains")
   (println "  report:  propose | todo | summary")
-  (println "  other:   probe-proposed | wayback | check | esr | govuk | indegree")
+  (println "  other:   probe-proposed | wayback | check | govuk | indegree")
   (println)
   (println "Directory harvesting moved to scripts/detect-from-directories.clj (bb directories)")
   (println)
