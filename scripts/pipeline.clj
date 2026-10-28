@@ -859,8 +859,16 @@
      :excluded       (get @excluded-domains country-dir #{})}))
 
 (def parent-min-hosts
-  "Candidates a registrable domain must hold for propose to suggest it."
-  3)
+  "Candidates a registrable domain must hold for propose to suggest it,
+  and to_curate.csv rows for todo to fold them into it."
+  2)
+
+(defn- most-frequent-level
+  "The most frequent non-blank level of levels, \"\" when none."
+  [levels]
+  (if-let [ls (seq (remove str/blank? levels))]
+    (key (apply max-key val (frequencies ls)))
+    ""))
 
 (defn parent-rows
   "A [domain score \"parent\" name level] row per registrable domain
@@ -875,14 +883,13 @@
                      (>= (count hosts) parent-min-hosts)
                      (not (candidates parent))
                      (not (host-covered? parent known))
-                     (not (host-covered? parent excluded)))
-          :let [levels (remove str/blank? (map #(nth % 4) hosts))]]
+                     (not (host-covered? parent excluded)))]
       [parent
        (apply max (map second hosts))
        "parent"
        (str (count hosts) " proposed hosts under it: "
             (str/join ", " (take 3 (map first (sort-by (comp - second) hosts)))))
-       (if (seq levels) (key (apply max-key val (frequencies levels))) "")])))
+       (most-frequent-level (map #(nth % 4) hosts))])))
 
 (defn propose-candidates
   "Rank the hosts of a context: every valid hostname a source mentions
@@ -912,12 +919,36 @@
                      (map str/trim (str/split (str name) #" \| "))))
       ""))
 
+(defn fold-todo-rows
+  "Fold [domain level name kind] rows so that none sits under another:
+  a row under a listed one is left out, the decision on the higher
+  domain covering it; then parent-min-hosts rows or more under one
+  registrable domain give way to a row for it, level their most
+  frequent one, kind blank (subtree). Order kept, a folded row taking
+  the place of its first host. Pure."
+  [rows]
+  (let [listed (set (map first rows))
+        rows   (remove #(some listed (rest (host-suffixes (first %)))) rows)
+        groups (group-by #(parent-domain (first %)) rows)
+        fold?  #(and % (>= (count (groups %)) parent-min-hosts))]
+    (->> rows
+         (map (fn [[d :as row]]
+                (let [p (parent-domain d)]
+                  (if-not (fold? p)
+                    row
+                    (let [hosts (groups p)]
+                      [p (most-frequent-level (map second hosts))
+                       (str (count hosts) " hosts under it: "
+                            (str/join ", " (take 3 (map first hosts))))
+                       ""])))))
+         distinct)))
+
 (defn todo-country!
   "Write countries/<c>/to_curate.csv (domain,level,name,kind): the
   rows of proposed.csv no decided or excluded domain covers yet, in
-  the columns of curated.csv, ready to move there -- but a row under
-  another one is left out, the decision on the higher domain covering
-  it (cnr.it for its 59 subdomains; proposed.csv lists them all).
+  the columns of curated.csv, ready to move there, folded by
+  fold-todo-rows (cnr.it for its 59 subdomains; proposed.csv lists
+  them all).
   Offline: refreshes the list after a curation, proposed.csv untouched."
   [country-dir]
   (let [out     (str "countries/" country-dir "/to_curate.csv")
@@ -925,8 +956,7 @@
         open    (for [[d level name kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
                   [d (or level "") (todo-name name) (or kind "")])
-        listed  (set (map first open))
-        rows    (remove #(some listed (rest (host-suffixes (first %)))) open)]
+        rows    (fold-todo-rows open)]
     (write-csv-file out ["domain" "level" "name" "kind"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " to curate)"))))
 

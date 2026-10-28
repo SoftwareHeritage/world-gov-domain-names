@@ -22,7 +22,8 @@ subtree; it is never harvested.
 
 Generated per country: =proposed.csv=, =to_curate.csv= (=proposed.csv=
 minus what was decided since, in the columns of =curated.csv=, a domain
-standing for its subdomains; =bb todo= refreshes it offline),
+standing for its subdomains, two or more under one registrable domain
+folded into it; =bb todo= refreshes it offline),
 =summary.md= and =sources/=.
 
 The harvest has one file per harvested root,
