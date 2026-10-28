@@ -48,7 +48,7 @@
 ;;   un-desa [C…]       UN/DESA national portal + EGDI
 ;;
 ;; Targeted commands (build):
-;;   aggregate          every host -> data/public-sector-domains.csv
+;;   aggregate          every host, its HTTPS status and MX -> data/public-sector-domains.csv
 ;;   domains            central + central-1 scope -> the match policy table
 ;;                      data/public-sector-domains-central+-policy.csv
 ;;
@@ -540,7 +540,7 @@
 ;; ===========================================================================
 ;;  build -- aggregate
 ;; ===========================================================================
-;; Reads the harvest (collect). The probes stay in data/.db.
+;; Reads the harvest and the probes of data/.db (collect): run after it.
 
 (defn country-hosts
   "[host parent_domain] rows of a country, sorted: the hosts of its
@@ -562,27 +562,34 @@
 (def policy-file        "data/public-sector-domains-central+-policy.csv")
 
 (defn cmd-aggregate [_]
-  (let [un-by-country (build-un-status-map)
-        ;; data/public-sector-domains.csv -- every harvested host (root apex AND
-        ;; subdomains) plus the apex of every harvest root, regardless of
-        ;; HTTP/MX. Inclusion criterion: the host existed in DNS at least once
-        ;; (it appeared in a source like crt.sh) or is a confirmed root.
-        rows (->> (country-dirs)
-                  (mapcat (fn [country]
-                            (let [un (get un-by-country country "member")]
-                              ;; UN-facing output: keep UN members and observers
-                              ;; only, never non-UN entities (Taiwan, Kosovo).
-                              (when (not= un "non_un")
-                                (for [[sub parent] (country-hosts country)]
-                                  [sub parent country un])))))
-                  (sort-by first))]
-    (write-csv-file public-sector-file
-                    ["subdomain" "parent_domain" "country" "un_status"]
-                    rows)
-    (let [counts (frequencies (map #(nth % 3) rows))]
-      (println (str "Wrote " public-sector-file " (" (count rows) " hosts)"))
-      (println (str "  UN members: " (get counts "member" 0)
-                    " ; observers: " (get counts "observer" 0))))))
+  (if-not (fs/exists? "data/.db")
+    ;; without the probes, every http_status and mx would be blanked
+    (do (err "ERR: no data/.db: run bb pipeline collect first") 1)
+    (let [un-by-country (build-un-status-map)
+          probes        ((probes-fn 'all-probes))
+          ;; data/public-sector-domains.csv -- every harvested host (root apex AND
+          ;; subdomains) plus the apex of every harvest root, regardless of
+          ;; HTTP/MX. Inclusion criterion: the host existed in DNS at least once
+          ;; (it appeared in a source like crt.sh) or is a confirmed root.
+          ;; http_status and mx are the last probes of data/.db, blank when
+          ;; not probed yet.
+          rows (->> (country-dirs)
+                    (mapcat (fn [country]
+                              (let [un (get un-by-country country "member")]
+                                ;; UN-facing output: keep UN members and observers
+                                ;; only, never non-UN entities (Taiwan, Kosovo).
+                                (when (not= un "non_un")
+                                  (for [[sub parent] (country-hosts country)
+                                        :let [[status mx] (get probes sub ["" ""])]]
+                                    [sub parent country un status mx])))))
+                    (sort-by first))]
+      (write-csv-file public-sector-file
+                      ["subdomain" "parent_domain" "country" "un_status" "http_status" "mx"]
+                      rows)
+      (let [counts (frequencies (map #(nth % 3) rows))]
+        (println (str "Wrote " public-sector-file " (" (count rows) " hosts)"))
+        (println (str "  UN members: " (get counts "member" 0)
+                      " ; observers: " (get counts "observer" 0)))))))
 
 (defn- central-roots
   "#{[country root]} of the confirmed central domains."

@@ -22,7 +22,8 @@ Heritage]].
   everything below it, =exact= the domain alone, =exclude= a domain and
   everything below it kept out. The longest matching domain decides.
 - =data/public-sector-domains.csv= -- every host found under the
-  confirmed domains, with the UN status of their country.
+  confirmed domains, with the UN status of their country and the
+  last HTTPS status and MX records probed (=mx=: =none= without MX).
 - =countries/<ISO3>_<slug>/=, per country:
   - =curated.csv= (=domain,level,name,kind=) and =excluded.csv=
     (=domain,reason=) -- the decisions, edited by hand;
