@@ -67,17 +67,101 @@
 (defn- kebab
   "The keyword of a snake_case YAML string: name_col -> :name-col. Pure."
   [s]
-  (keyword (str/replace (name s) "_" "-")))
+  (keyword (str/replace (str (cond-> s (keyword? s) name)) "_" "-")))
+
+(defn- snake
+  "The snake_case YAML name of a kebab keyword: :name-col -> name_col. Pure."
+  [k]
+  (str/replace (name k) "-" "_"))
+
+(def ^:private format-keys
+  "{format {:required [key …] :optional [key …]}}: the keys each fetcher
+  reads, besides common-keys."
+  (let [json {:required [:items-path :name-field :website-field]
+              :optional [:item-filters :query-params :website-json-key]}]
+    {:csv        {:required [:name-col :website-col]
+                  :optional [:encoding :separator :col-filters]}
+     :xlsx       {:required [:name-col :website-col] :optional [:col-filters]}
+     :json       json
+     :json-pages json
+     :xml        {:required [:org-tag :name-tag :url-tag] :optional [:type-tag :type-filter]}
+     :govuk      {:required [:content-url]}
+     :ptv        {:required [:detail-url :type-filter]}}))
+
+(def ^:private common-keys
+  #{:channel :registry :format :host-filter :exclude-name :registrable})
+
+(defn- regex-problem
+  "Why the string s does not compile as a regex, nil when it does. Pure."
+  [s]
+  (try (re-pattern s) nil
+       (catch Exception e (first (str/split-lines (str (.getMessage e)))))))
+
+(defn- shape-problem
+  "Why the value v of the spec key k has not the shape the fetchers
+  read, nil when it has: a list of strings, a map, a list of [string
+  string] pairs, a boolean, else a string. Pure."
+  [k v]
+  (case k
+    :items-path   (when-not (and (sequential? v) (every? string? v))
+                    "must be a list of strings")
+    :query-params (when-not (map? v) "must be a map")
+    (:col-filters :item-filters)
+    (when-not (and (sequential? v)
+                   (every? #(and (sequential? %) (= 2 (count %)) (every? string? %)) v))
+      "must be a list of [column-or-field, regex] pairs")
+    :registrable  (when-not (boolean? v) "must be true or false")
+    (when-not (string? v) "must be a string")))
+
+(defn- spec-problems
+  "The problems of a harvest spec as read from sources-yaml, its keys
+  kebab keywords: a channel, format or key unknown, a required key
+  missing, a value of the wrong shape, a regex that does not compile.
+  Empty when it is valid. Pure."
+  [spec]
+  (let [channel (kebab (:channel spec))
+        format  (kebab (:format spec))
+        {:keys [required optional]} (format-keys format)
+        known   (into common-keys (concat required optional))
+        shapes  (into {} (for [[k v] spec
+                               :when (known k)
+                               :let [p (shape-problem k v)]
+                               :when p]
+                           [k p]))]
+    (concat
+     (when-not (#{:registry :candidates} channel)
+       [(str "channel '" (:channel spec) "' is neither registry nor candidates")])
+     (when (and (= :registry channel) (empty? (str (:registry spec))))
+       ["a registry spec needs a registry"])
+     (if-not (format-keys format)
+       [(str "format '" (:format spec) "' is none of "
+             (str/join ", " (map snake (keys format-keys))))]
+       (concat
+        (for [k required :when (nil? (get spec k))]
+          (str "format " (snake format) " needs " (snake k)))
+        (for [k (keys spec) :when (not (known k))]
+          (str "unknown key " (snake k) " for format " (snake format)))))
+     (for [[k p] (sort-by key shapes)] (str (snake k) " " p))
+     ;; the regexes, of the keys whose shape is right
+     (for [[k re] (concat (for [k [:host-filter :exclude-name :type-filter]
+                                :when (and (get spec k) (not (shapes k)))]
+                            [k (get spec k)])
+                          (for [k [:col-filters :item-filters]
+                                :when (and (get spec k) (not (shapes k)))
+                                [_ re] (get spec k)]
+                            [k re]))
+           :let [why (regex-problem re)]
+           :when why]
+       (str (snake k) ": " why)))))
 
 (defn- compile-spec
-  "A harvest spec as read from sources-yaml, made ready for the fetchers:
-  the keys and the channel and format kebab keywords, the JSON fields
-  keywords (parse-json keywordizes), the regex strings compiled, the
-  separator string turned into a char, the query parameters strings,
-  :url the fetched URL and :source its host. Pure."
+  "A harvest spec, valid per spec-problems and its keys kebab keywords,
+  made ready for the fetchers: the channel and format kebab keywords,
+  the JSON fields keywords (parse-json keywordizes), the regex strings
+  compiled, the separator string turned into a char, the query
+  parameters strings, :url the fetched URL and :source its host. Pure."
   [spec url]
-  (let [spec  (update-keys spec kebab)
-        pairs (fn [f ps] (mapv (fn [[k re]] [(f k) (re-pattern re)]) ps))]
+  (let [pairs (fn [f ps] (mapv (fn [[k re]] [(f k) (re-pattern re)]) ps))]
     (cond-> (assoc spec :url url :source (extract-host url)
                    :channel (kebab (:channel spec)) :format (kebab (:format spec)))
       (:items-path spec)       (update :items-path #(mapv keyword %))
@@ -103,53 +187,73 @@
                    :when dir]
                [(get row "iso2") dir]))))
 
-(defn- entry-url
-  "The single 'api:' or 'data:' URL of a sources-yaml entry; nil, with
-  an error, when there is none or several."
-  [iso2 entry]
-  (let [urls (for [k ["api" "data"]
-                   u (let [v (get entry k)] (if (sequential? v) v [v]))
-                   :when (seq (str u))]
-               u)]
-    (if (= 1 (count urls))
-      (first urls)
-      (err "ERR: " sources-yaml ": " iso2 " '" (get entry "name") "' has "
-           (count urls) " api/data URLs, a harvest spec needs one"))))
+(defn- entry-urls
+  "The 'api:' and 'data:' URLs of a sources-yaml entry. Pure."
+  [entry]
+  (for [k ["api" "data"]
+        u (let [v (get entry k)] (if (sequential? v) v [v]))
+        :when (seq (str u))]
+    u))
 
 (def directory-specs
-  "{country_dir [spec …]} of the 'harvest:' specs of sources-yaml, each
-  compiled and carrying its :iso2; empty, with an error, without the
-  file. A country without a country_dir is reported and left out."
+  "{:specs {country_dir [spec …]} :rejected [channel …]} of the
+  'harvest:' specs of sources-yaml, each compiled and carrying its
+  :iso2. A spec is reported and rejected when its entry has no single
+  api/data URL, its country no country_dir, or spec-problems finds
+  any; the specs of a country with two of one channel too (both would
+  write the same file). :rejected holds the channel of each rejected
+  spec, as read (an invalid one included). No specs, with an error,
+  without the file."
   (delay
     (if-not (fs/exists? sources-yaml)
-      (do (err "ERR: " sources-yaml " not found (set SOPC_DIR)") {})
+      (do (err "ERR: " sources-yaml " not found (set SOPC_DIR)")
+          {:specs {} :rejected []})
       (let [by-iso2 (iso2->country-dir)
-            specs   (for [[iso2 sections] (yaml/parse-string (slurp sources-yaml) :keywords false)
+            checked (for [[iso2 sections] (yaml/parse-string (slurp sources-yaml) :keywords false)
                           [_ entries] sections
                           entry entries
                           :let [h (get entry "harvest")]
                           :when h
-                          :let [dir (by-iso2 iso2)
-                                url (entry-url iso2 entry)]
-                          :when (and url (or dir (err "ERR: " sources-yaml ": no country_dir for " iso2)))
-                          spec (if (map? h) [h] h)]
-                      [dir (assoc (compile-spec spec url) :iso2 iso2)])]
-        (reduce (fn [m [dir spec]] (update m dir (fnil conj []) spec))
-                (sorted-map) specs)))))
+                          raw (if (sequential? h) h [h])
+                          :let [spec (when (map? raw) (update-keys raw kebab))
+                                dir  (by-iso2 iso2)
+                                urls (entry-urls entry)
+                                problems (concat
+                                          (when-not (= 1 (count urls))
+                                            [(str (count urls) " api/data URLs, a harvest spec needs one")])
+                                          (when-not dir ["no country_dir"])
+                                          (if spec
+                                            (spec-problems spec)
+                                            ["harvest must be a map, or a list of maps"]))]]
+                      (if (seq problems)
+                        (do (doseq [p problems]
+                              (err "ERR: " sources-yaml ": " iso2 " '" (get entry "name") "': " p))
+                            {:rejected (kebab (:channel spec))})
+                        {:dir dir :spec (assoc (compile-spec spec (first urls)) :iso2 iso2)}))
+            by-dir  (reduce (fn [m {:keys [dir spec]}] (update m dir (fnil conj []) spec))
+                            (sorted-map) (filter :spec checked))
+            doubled (for [[dir specs] by-dir
+                          [channel n] (frequencies (map :channel specs))
+                          :when (< 1 n)]
+                      (do (err "ERR: " sources-yaml ": " dir " has " n " " (name channel) " specs")
+                          [dir channel n]))
+            drop?   (set (for [[dir channel] doubled] [dir channel]))]
+        {:specs    (into (sorted-map)
+                         (for [[dir specs] by-dir
+                               :let [kept (vec (remove #(drop? [dir (:channel %)]) specs))]
+                               :when (seq kept)]
+                           [dir kept]))
+         :rejected (into (vec (keep :rejected checked))
+                         (mapcat (fn [[_ channel n]] (repeat n channel)) doubled))}))))
 
 (defn- channel-specs
-  "{country_dir spec} of the specs of channel. A country with two specs
-  of one channel is reported and left out: both would write the same
-  file."
+  "{country_dir spec} of the specs of channel."
   [channel]
   (into (sorted-map)
-        (for [[dir specs] @directory-specs
-              :let [of-channel (filter #(= channel (:channel %)) specs)]
-              :when (seq of-channel)
-              :when (or (= 1 (count of-channel))
-                        (err "ERR: " sources-yaml ": " dir " has "
-                             (count of-channel) " " (name channel) " specs"))]
-          [dir (first of-channel)])))
+        (for [[dir specs] (:specs @directory-specs)
+              spec specs
+              :when (= channel (:channel spec))]
+          [dir spec])))
 
 ;; ---------------------------------------------------------------------------
 ;; Fetchers, one per :format
@@ -435,14 +539,23 @@
                     " (" (count rows) " orgs listed)"))
       false)))
 
+(defn- rejected-specs
+  "The number of rejected specs of channel, those of no valid channel
+  included: either may be one of them."
+  [channel]
+  (count (filter #(or (= channel %) (not (#{:registry :candidates} %)))
+                 (:rejected @directory-specs))))
+
 (defn- harvest-channel!
   "Fetch the directories of one channel (every spec of it, or the given
   country_dirs) and write their hosts with write!. 1 on a channel
   without specs, a country outside the channel (before any fetch), a
-  fetch failure or a write! failure, 0 otherwise."
+  fetch failure or a write! failure, and over every spec on a rejected
+  spec of the channel (after the others are fetched), 0 otherwise."
   [channel write! args]
-  (let [specs   (channel-specs channel)
-        unknown (remove specs args)]
+  (let [specs    (channel-specs channel)
+        unknown  (remove specs args)
+        rejected (if (empty? args) (rejected-specs channel) 0)]
     (cond
       (empty? specs)
       (do (err "ERR: no " (name channel) " directory spec in " sources-yaml) 1)
@@ -460,7 +573,9 @@
                                  (do (err "ERR: could not fetch the " country " directory (" source ")") true)
                                  (write! country spec rows hosts))]
                      country)]
-        (if (seq (doall failed)) 1 0)))))
+        (when (pos? rejected)
+          (err "ERR: " rejected " " (name channel) " spec(s) rejected, see above"))
+        (if (or (seq (doall failed)) (pos? rejected)) 1 0)))))
 
 (defn cmd-registry
   "Confirm the domains of the authoritative directories:
