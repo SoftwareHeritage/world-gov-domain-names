@@ -18,7 +18,7 @@ The confirmed domains of a country are compiled in memory at each run
 (=common/compile-confirmed=): its registries
 (=sources/<registry>/registered.csv=, =domain,level=, written by
 =govuk= and =bb directories registry=) plus =curated.csv=
-(=domain,level,name,kind=, a curated row winning) minus =excluded.csv=
+(=domain,level,kind=, a curated row winning) minus =excluded.csv=
 (=domain,reason=). A contradiction stops every command; =bb check=
 reports them all, with their fix. A =local= row or an excluded label
 directly under a central root takes that label out of the root's

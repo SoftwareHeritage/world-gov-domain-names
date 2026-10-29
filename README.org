@@ -25,7 +25,7 @@ Heritage]].
   confirmed domains, with the UN status of their country and the
   last HTTPS status and MX records probed (=mx=: =none= without MX).
 - =countries/<ISO3>_<slug>/=, per country:
-  - =curated.csv= (=domain,level,name,kind=) and =excluded.csv=
+  - =curated.csv= (=domain,level,kind=) and =excluded.csv=
     (=domain,reason=) -- the decisions, edited by hand;
   - =to_curate.csv= -- the proposed domains no one has decided on
     yet, in the columns of =curated.csv=;

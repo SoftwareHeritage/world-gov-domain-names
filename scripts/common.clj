@@ -142,7 +142,7 @@
   #{"central" "central-1"})
 
 ;; Per-country decision files, named after the status of their domains.
-;; Hand-edited: countries/<c>/curated.csv (domain,level,name,kind --
+;; Hand-edited: countries/<c>/curated.csv (domain,level,kind --
 ;; confirmed by hand, kind optional) and countries/<c>/excluded.csv
 ;; (domain,reason -- rejected).
 ;; Generated: countries/<c>/sources/<registry>/registered.csv
@@ -181,12 +181,12 @@
   [path] (decision-anomalies (rest (read-csv-raw path))))
 
 (defn read-curated
-  "Read the [domain level name kind] rows of countries/<c>/curated.csv,
+  "Read the [domain level kind] rows of countries/<c>/curated.csv,
   level and kind lower-cased (Central reads central), kind blank when
   the row has none."
   [country-dir]
-  (map #(-> % (update 1 str/lower-case) (update 3 str/lower-case))
-       (read-domain-rows (curated-file country-dir) 4)))
+  (map #(-> % (update 1 str/lower-case) (update 2 str/lower-case))
+       (read-domain-rows (curated-file country-dir) 3)))
 
 (defn read-excluded
   "Read the [domain reason] rows of countries/<c>/excluded.csv."
@@ -217,14 +217,14 @@
   (->> rows (map (juxt first identity)) index-first vals (sort-by first)))
 
 (defn compile-confirmed
-  "Compile a country's confirmed [domain level source name kind] rows:
+  "Compile a country's confirmed [domain level source kind] rows:
   its curated rows, which win, then the rows of its registries in
-  order (name and kind blank), minus the excluded domains; source is
+  order (kind blank), minus the excluded domains; source is
   \"curated\" or the registry's name. Throws ex-info on an unknown level
   or a domain both curated and excluded. Sorted by domain."
   [curated registries excluded]
-  (let [rows     (concat (for [[d level name kind] curated] [d level "curated" name kind])
-                         (for [[registry rs] registries, [d level] rs] [d level registry "" ""]))
+  (let [rows     (concat (for [[d level kind] curated] [d level "curated" kind])
+                         (for [[registry rs] registries, [d level] rs] [d level registry ""]))
         excluded (set (map first excluded))]
     (when-let [[d level] (first (remove #(contains? levels (second %)) rows))]
       (throw (ex-info (str d (if (str/blank? level) ": no level" (str ": unknown level '" level "'"))
@@ -244,15 +244,15 @@
                      (read-excluded country-dir)))
 
 (defn- compile-confirmed-rows
-  "[country domain level source name kind] of every country. Throws
+  "[country domain level source kind] of every country. Throws
   ex-info on the first contradiction in the decision files."
   []
   (vec (for [c (country-dirs)
-             [d level source name kind] (try (confirmed-country c)
+             [d level source kind] (try (confirmed-country c)
                                         (catch clojure.lang.ExceptionInfo e
                                           (throw (ex-info (str c ": " (ex-message e))
                                                           (assoc (ex-data e) :country c)))))]
-         [c d level source name kind])))
+         [c d level source kind])))
 
 ;; Each cache holds a delay: a first deref from two threads at once (a
 ;; bounded-pmap over countries) still compiles once, with no lock.
@@ -260,7 +260,7 @@
 
 (defn confirmed-rows
   "Return the confirmed domains of every country as a vector of [country
-  domain level source name kind], compiled once per run and cached
+  domain level source kind], compiled once per run and cached
   (write-registered! drops the cache). Throws ex-info on the first
   contradiction in the decision files."
   []

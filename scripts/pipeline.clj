@@ -899,16 +899,8 @@
     (sort-by (juxt #(- (nth % 1)) first)
              (concat rows (parent-rows rows known excluded)))))
 
-(defn- todo-name
-  "The name a to_curate.csv row offers: the first of the labels a
-  proposed name joins with \" | \", bare Wikidata QIDs aside."
-  [name]
-  (or (first (remove #(or (str/blank? %) (re-matches #"Q\d+" %))
-                     (map str/trim (str/split (str name) #" \| "))))
-      ""))
-
 (defn fold-todo-rows
-  "Fold [domain level name kind] rows so that none sits under another:
+  "Fold [domain level kind] rows so that none sits under another:
   a row under a listed one is left out, the decision on the higher
   domain covering it; then parent-min-hosts rows or more under one
   registrable domain give way to a row for it, level their most
@@ -925,14 +917,11 @@
                   (if-not (fold? p)
                     row
                     (let [hosts (groups p)]
-                      [p (most-frequent-level (map second hosts))
-                       (str (count hosts) " hosts under it: "
-                            (str/join ", " (take 3 (map first hosts))))
-                       ""])))))
+                      [p (most-frequent-level (map second hosts)) ""])))))
          distinct)))
 
 (defn todo-country!
-  "Write countries/<c>/to_curate.csv (domain,level,name,kind): the
+  "Write countries/<c>/to_curate.csv (domain,level,kind): the
   rows of proposed.csv no decided or excluded domain covers yet, in
   the columns of curated.csv, ready to move there, folded by
   fold-todo-rows (cnr.it for its 59 subdomains; proposed.csv lists
@@ -941,20 +930,19 @@
   [country-dir]
   (let [out     (str "countries/" country-dir "/to_curate.csv")
         decided (into (decided-domains) (map first (read-excluded country-dir)))
-        open    (for [[d level name kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
+        open    (for [[d level _ kind] (rest (read-csv-raw (str "countries/" country-dir "/proposed.csv")))
                       :when (and (valid-hostname? d) (not (host-covered? d decided)))]
-                  [d (or level "") (todo-name name) (or kind "")])
+                  [d (or level "") (or kind "")])
         rows    (fold-todo-rows open)]
-    (write-csv-file out ["domain" "level" "name" "kind"] rows)
+    (write-csv-file out ["domain" "level" "kind"] rows)
     (println (str "=== " country-dir " -> " out " (" (count rows) " to curate)"))))
 
 (defn cmd-todo [args] (iter-countries todo-country! args))
 
 (defn propose-country!
   "Write countries/<c>/proposed.csv
-  (domain,level,name,kind,score,sources): the ranked candidates, the
-  first four columns as in curated.csv, kind blank (subtree) for the
-  curation to set; then to_curate.csv (todo-country!)."
+  (domain,level,name,kind,score,sources): the ranked candidates, name
+  their labels, kind blank (subtree) for the curation to set; then to_curate.csv (todo-country!)."
   [country-dir]
   (let [out  (str "countries/" country-dir "/proposed.csv")
         rows (for [[h sc src lbl lvl] (propose-candidates (load-candidate-ctx country-dir))]
@@ -1159,7 +1147,7 @@
   [_]
   (let [rows (central-plus-rows)
         excl (local-labels)
-        apexes (set (for [[c d _ _ _ kind] (confirmed-rows) :when (= kind "exact")] [c d]))
+        apexes (set (for [[c d _ _ kind] (confirmed-rows) :when (= kind "exact")] [c d]))
         ;; Same-domain rows across countries keep the union of
         ;; exclusions; a domain that is an apex in any country stays
         ;; an apex.
@@ -1241,7 +1229,7 @@
                 (if (str/blank? level)
                   (err! d " has no level in curated.csv: " levels-hint)
                   (err! d " has an unknown level '" level "' in curated.csv: " levels-hint)))
-              (doseq [[d level _ kind] curated]
+              (doseq [[d level kind] curated]
                 (cond
                   (not (kinds kind))
                   (err! d " has an unknown kind '" kind "' in curated.csv: " kinds-hint)
@@ -1265,14 +1253,14 @@
                         ;; first registry wins, as in compile-confirmed
                         registered (index-first (for [r (registries c), [d level] (read-registered c r)]
                                                   [d [r level]]))]
-                    (doseq [[d level name] curated
+                    (doseq [[d level] curated
                             :let [[r rlevel] (get registered d)]
-                            :when (and (= level rlevel) (str/blank? name))]
+                            :when (= level rlevel)]
                       (warn d " (" level ") is curated but " r " already lists it"))
                     ;; a confirmed domain covers its subdomains: a curated
                     ;; row under a root of the same level adds nothing,
                     ;; unless it is harvested on its own
-                    (doseq [[d level _ kind] curated
+                    (doseq [[d level kind] curated
                             :let [root (some #(when (level-of %) %) (rest (host-suffixes d)))]
                             :when (and root (= level (level-of root)) (not= kind "exact")
                                        (not (fs/exists? (harvest-file c d))))]
