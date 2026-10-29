@@ -18,16 +18,18 @@
 ;;               or types without a reliable marker: the hosts feed
 ;;               proposed.csv with a strong score bonus and the
 ;;               'directory' source tag; curation decides
-;; A country has at most one candidates spec, and one registry spec per
-;; registry name (two would write the same file). It lives apart only to
+;; A country has at most one registry spec per registry name (two would
+;; write the same file); its candidates specs, as many as it has
+;; directories, are merged into one orgs.csv. It lives apart only to
 ;; keep pipeline.clj lean; pipeline.clj consumes its outputs.
 ;;
 ;; The keys of a spec, snake_case in the YAML; 'format' picks the
 ;; fetcher and the keys it reads:
 ;;   csv         name_col website_col, optional encoding (default
 ;;               UTF-8), separator (default ","), col_filters
-;;   xlsx        name_col website_col, optional col_filters (first
-;;               sheet, header on the first row)
+;;   xlsx        name_col website_col, optional col_filters and sheet
+;;               (default 1: the file xl/worksheets/sheet<n>.xml; header
+;;               on the first row)
 ;;   json        items_path ([] for a top-level array) name_field
 ;;               website_field, optional item_filters, query_params and
 ;;               website_json_key (the website field is a JSON-encoded
@@ -37,6 +39,10 @@
 ;;   xml         org_tag name_tag url_tag, optional type_tag type_filter
 ;;   govuk       content_url (gov.uk organisations API)
 ;;   ptv         detail_url type_filter (Suomi.fi PTV API)
+;;   html_links  heading_tag, optional pages (paths appended to the URL,
+;;               one page each): every heading_tag element opens a
+;;               section named after its text, whose http(s) links are
+;;               its websites; a page is read up to its </main>
 ;; Every format takes the optional host_filter, exclude_name,
 ;; registrable (true: hosts cut to their registrable domain) and
 ;; cut_filter (with registrable: a host deeper than its registrable
@@ -81,12 +87,13 @@
               :optional [:item-filters :query-params :website-json-key]}]
     {:csv        {:required [:name-col :website-col]
                   :optional [:encoding :separator :col-filters]}
-     :xlsx       {:required [:name-col :website-col] :optional [:col-filters]}
+     :xlsx       {:required [:name-col :website-col] :optional [:col-filters :sheet]}
      :json       json
      :json-pages json
      :xml        {:required [:org-tag :name-tag :url-tag] :optional [:type-tag :type-filter]}
      :govuk      {:required [:content-url]}
-     :ptv        {:required [:detail-url :type-filter]}}))
+     :ptv        {:required [:detail-url :type-filter]}
+     :html-links {:required [:heading-tag] :optional [:pages]}}))
 
 (def ^:private common-keys
   #{:channel :registry :format :host-filter :exclude-name :registrable :cut-filter})
@@ -100,17 +107,18 @@
 (defn- shape-problem
   "Why the value v of the spec key k has not the shape the fetchers
   read, nil when it has: a list of strings, a map, a list of [string
-  string] pairs, a boolean, else a string. Pure."
+  string] pairs, a boolean, a positive integer, else a string. Pure."
   [k v]
   (case k
-    :items-path   (when-not (and (sequential? v) (every? string? v))
-                    "must be a list of strings")
+    (:items-path :pages) (when-not (and (sequential? v) (every? string? v))
+                           "must be a list of strings")
     :query-params (when-not (map? v) "must be a map")
     (:col-filters :item-filters)
     (when-not (and (sequential? v)
                    (every? #(and (sequential? %) (= 2 (count %)) (every? string? %)) v))
       "must be a list of [column-or-field, regex] pairs")
     :registrable  (when-not (boolean? v) "must be true or false")
+    :sheet        (when-not (pos-int? v) "must be a positive integer")
     (when-not (string? v) "must be a string")))
 
 (defn- spec-problems
@@ -208,7 +216,8 @@
   'harvest:' specs of sources-yaml, each compiled and carrying its
   :iso2. A spec is reported and rejected when its entry has no single
   api/data URL, its country no country_dir, or spec-problems finds
-  any; the specs of a country writing one file twice too (spec-file).
+  any; the registry specs of a country writing one file twice too
+  (spec-file).
   :rejected holds the channel of each rejected spec, as read (an
   invalid one included). No specs, with an error, without the file."
   (delay
@@ -240,7 +249,8 @@
             by-dir  (reduce (fn [m {:keys [dir spec]}] (update m dir (fnil conj []) spec))
                             (sorted-map) (filter :spec checked))
             doubled (for [[dir specs] by-dir
-                          [[channel registry :as file] n] (frequencies (map spec-file specs))
+                          [[channel registry :as file] n]
+                          (frequencies (map spec-file (filter #(= :registry (:channel %)) specs)))
                           :when (< 1 n)]
                       (do (err "ERR: " sources-yaml ": " dir " has " n " " (name channel)
                                " specs" (when registry (str " of registry " registry)))
@@ -309,10 +319,11 @@
   (filter #(and (map? %) (= tag-name (name (:tag %)))) (:content el)))
 
 (defn- xlsx-rows
-  "The rows of the first sheet of the .xlsx file at path, as vectors of
-  strings placed by column letter (shared strings resolved, \"\" for the
-  cells left out). nil without a first sheet."
-  [path]
+  "The rows of the sheet-th sheet (xl/worksheets/sheet<n>.xml) of the
+  .xlsx file at path, as vectors of strings placed by column letter
+  (shared strings resolved, \"\" for the cells left out). nil without
+  that sheet."
+  [path sheet-n]
   (let [dir (fs/create-temp-dir)]
     (try
       (fs/unzip path dir)
@@ -331,7 +342,7 @@
             column (fn [c]
                      (dec (reduce #(+ (* 26 %1) (- (int %2) 64)) 0
                                   (re-find #"^[A-Z]+" (get-in c [:attrs :r] "A")))))]
-        (when-let [sheet (part "worksheets" "sheet1.xml")]
+        (when-let [sheet (part "worksheets" (str "sheet" sheet-n ".xml"))]
           (vec (for [row (tree-seq :content :content sheet)
                      :when (and (map? row) (= "row" (name (:tag row))))]
                  (reduce (fn [v c]
@@ -341,11 +352,12 @@
       (finally (fs/delete-tree dir)))))
 
 (defn- directory-fetch-xlsx
-  "[[name website] …] of an XLSX directory export (first sheet, header
-  on the first row), filtered by table->rows. nil on a fetch failure."
-  [{:keys [url] :as spec}]
+  "[[name website] …] of an XLSX directory export (its :sheet, the
+  first by default, header on the first row), filtered by table->rows.
+  nil on a fetch failure."
+  [{:keys [url sheet] :as spec}]
   (let [tmp (fs/create-temp-file {:suffix ".xlsx"})]
-    (try (when (curl-download! url tmp) (table->rows spec (xlsx-rows tmp)))
+    (try (when (curl-download! url tmp) (table->rows spec (xlsx-rows tmp (or sheet 1))))
          (finally (fs/delete-if-exists tmp)))))
 
 (defn- json-items->rows
@@ -449,6 +461,46 @@
              :when (seq (str url))]
          [title url])))))
 
+(defn- html-text
+  "The text of an HTML fragment: tags dropped, &amp; and &nbsp;
+  decoded, blanks collapsed. Pure."
+  [s]
+  (-> s
+      (str/replace #"<[^>]*>" " ")
+      (str/replace #"&nbsp;|&#160;" " ")
+      (str/replace "&amp;" "&")
+      (str/replace #"\s+" " ")
+      str/trim))
+
+(defn- html-section-links
+  "[[name website] …] of an HTML page: each heading-tag element opens a
+  section named after its text, and every http(s) link up to the next
+  one is a website of it. The page is cut at its </main> when it has
+  one: the footer and its social links fall outside. Pure."
+  [heading-tag html]
+  (let [body  (first (str/split html #"(?i)</main>" 2))
+        m     (re-matcher (re-pattern (str "(?is)<" heading-tag "\\b[^>]*>(.*?)</"
+                                           heading-tag ">"))
+                          body)
+        heads (loop [acc []]
+                (if (.find m)
+                  (recur (conj acc [(.end m) (.start m) (html-text (.group m 1))]))
+                  acc))
+        stops (concat (map second (rest heads)) [(count body)])]
+    (for [[[end _ org-name] stop] (map vector heads stops)
+          [_ href] (re-seq #"(?i)href=\"(https?://[^\"]+)\"" (subs body end stop))]
+      [org-name href])))
+
+(defn- directory-fetch-html-links
+  "[[name website] …] of a directory published as HTML pages, :url
+  itself or :url followed by each of :pages, read by
+  html-section-links. nil when a page fails or none yields a link."
+  [{:keys [url pages heading-tag]}]
+  (let [htmls (doall (for [p (or (seq pages) [""])]
+                       (http-get (str url p) {:timeout 60})))]
+    (when (every? some? htmls)
+      (seq (mapcat #(html-section-links heading-tag %) htmls)))))
+
 (defn- directory-hosts
   "{host {:n mentions :names #{…}}} of [name website] rows, keeping the
   hosts matching :host-filter and dropping the names matching
@@ -516,7 +568,8 @@
     :json-pages (directory-fetch-json-pages spec)
     :xml        (directory-fetch-xml spec)
     :govuk      (directory-fetch-govuk spec)
-    :ptv        (directory-fetch-ptv spec)))
+    :ptv        (directory-fetch-ptv spec)
+    :html-links (directory-fetch-html-links spec)))
 
 (defn- write-registry!
   "Write hosts as central domains of sources/<registry>/registered.csv.
@@ -559,10 +612,13 @@
 
 (defn- harvest-channel!
   "Fetch the directories of one channel (every spec of it, or the given
-  country_dirs) and write their hosts with write!. 1 on a channel
-  without specs, a country outside the channel (before any fetch), a
-  fetch failure or a write! failure, and over every spec on a rejected
-  spec of the channel (after the others are fetched), 0 otherwise."
+  country_dirs) and write their hosts with write!, those of the specs
+  of a country writing one file merged (mentions summed, names
+  joined): a failed fetch leaves the file untouched, rather than
+  written without that directory. 1 on a channel without specs, a
+  country outside the channel (before any fetch), a fetch failure or a
+  write! failure, and over every spec on a rejected spec of the channel
+  (after the others are fetched), 0 otherwise."
   [channel write! args]
   (let [specs    (channel-specs channel)
         unknown  (remove (set (map first specs)) args)
@@ -576,13 +632,29 @@
           1)
 
       :else
-      (let [failed (for [[country {:keys [source] :as spec}] specs
-                         :when (or (empty? args) (some #{country} args))
-                         :let [rows  (directory-fetch spec)
-                               hosts (when rows (directory-hosts spec rows))]
-                         :when (if (nil? rows)
-                                 (do (err "ERR: could not fetch the " country " directory (" source ")") true)
-                                 (write! country spec rows hosts))]
+      (let [merge-host (fn [a b] {:n (+ (:n a) (:n b)) :names (into (:names a) (:names b))})
+            ;; channel-specs sorts by country: a file's specs are adjacent
+            groups (->> specs
+                        (filter (fn [[country]] (or (empty? args) (some #{country} args))))
+                        (partition-by (fn [[country spec]] [country (spec-file spec)])))
+            failed (for [group groups
+                         :let [country (ffirst group)
+                               fetched (doall
+                                        (for [[_ {:keys [source] :as spec}] group
+                                              :let [rows (directory-fetch spec)]]
+                                          (do (when (nil? rows)
+                                                (err "ERR: could not fetch the " country
+                                                     " directory (" source ")"))
+                                              [spec rows])))
+                               specs (map first fetched)]
+                         :when (or (some (comp nil? second) fetched)
+                                   (write! country
+                                           (assoc (first specs) :source
+                                                  (str/join ", " (distinct (map :source specs))))
+                                           (mapcat second fetched)
+                                           (apply merge-with merge-host
+                                                  (for [[spec rows] fetched]
+                                                    (directory-hosts spec rows)))))]
                      country)]
         (when (pos? rejected)
           (err "ERR: " rejected " " (name channel) " spec(s) rejected, see above"))
@@ -609,8 +681,8 @@
 ;; ---------------------------------------------------------------------------
 
 (defn- specs-of [channel]
-  (for [[dir {:keys [registry]}] (channel-specs channel)]
-    (cond-> dir (= :registry channel) (str ":" registry))))
+  (distinct (for [[dir {:keys [registry]}] (channel-specs channel)]
+              (cond-> dir (= :registry channel) (str ":" registry)))))
 
 (defn usage []
   (println "Usage: bb scripts/detect-from-directories.clj <command> [C…]")
