@@ -227,22 +227,30 @@
                                              :else " (empty answer)")))
           :fail))))
 
-(defn- save-fetches!
-  "Record the outcome of [[file :ok|:fail]…] in data/.db: retry replays
-  the roots whose last fetch failed."
-  [results]
-  ((probes-fn 'save-fetches!) (into {} (for [[f outcome] results] [(harvest-root f) outcome])))
-  results)
+(def ^:private fetch-save-lock
+  "One writer at a time: the threads of a run share the datalevin pod,
+  and each save opens and closes its connection."
+  (Object.))
+
+(defn- recorded-fetch!
+  "[file outcome] of (fetch file), the outcome recorded in data/.db at
+  once: an interrupted run keeps what it fetched, and retry replays the
+  roots whose last fetch failed."
+  [fetch file]
+  (let [outcome (fetch file)]
+    (locking fetch-save-lock
+      ((probes-fn 'save-fetches!) {(harvest-root file) outcome}))
+    [file outcome]))
 
 (defn fetch-all!
   "fetch-one! over the harvest files of args -- without args, every one
-  whose root is due (probes/due-fetches) -- recording the outcomes:
-  [[file :ok|:fail]…]."
+  whose root is due (probes/due-fetches) -- recording each outcome as
+  it comes: [[file :ok|:fail]…]."
   [args]
   (let [files (resolve-harvest-files args)
         due   (set ((probes-fn 'due-fetches) (map harvest-root files)))
         files (if (seq args) files (filter (comp due harvest-root) files))]
-    (save-fetches! (bounded-pmap (parallel 4) (fn [f] [f (fetch-one! f)]) files))))
+    (bounded-pmap (parallel 4) #(recorded-fetch! fetch-one! %) files)))
 
 (defn cmd-fetch [args]
   (if (some #(= :fail (second %)) (fetch-all! args)) 1 0))
@@ -270,7 +278,7 @@
     (if (empty? domains)
       (do (err "No failed fetch in data/.db (and no argument provided).") 1)
       (let [files   (resolve-harvest-files (vec domains))
-            results (save-fetches! (bounded-pmap (parallel 2) (fn [f] [f (retry-one! f)]) files))]
+            results (bounded-pmap (parallel 2) #(recorded-fetch! retry-one! %) files)]
         (if (some #(= :fail (second %)) results) 1 0)))))
 
 ;; ===========================================================================
