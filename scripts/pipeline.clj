@@ -1144,19 +1144,18 @@
            [d c level])
          (sort-by (juxt first #(nth % 2))))))
 
-(defn cmd-domains
-  "Write data/public-sector-domains-central+-policy.csv
-  (domain,kind,country) from the confirmed central and central-1
-  domains: subtree (the domain and below) unless curated.csv says
-  exact (the domain alone), exclude for a local or excluded label
-  directly under a central root; the longest match decides, a domain a
-  subtree covers is dropped. A domain of several countries goes to the
-  one confirming it highest (central first, then ASCII order)."
-  [_]
-  (let [rows (central-plus-rows)
-        excl (local-labels)
-        apexes (set (for [[c d _ _ kind] (confirmed-rows) :when (= kind "exact")] [c d]))
-        ;; Same-domain rows across countries keep the union of
+(defn- policy-rows
+  "The [domain kind country] rows of the policy table, sorted: rows are
+  the [domain country level] of central-plus-rows, excl the labels
+  local-labels keeps out of each [country root], apexes the #{[country
+  domain]} curated.csv says exact. subtree (the domain and below)
+  unless the domain is an apex (exact, the domain alone), exclude for a
+  local or excluded label directly under a central root; the longest
+  match decides, a domain a subtree covers is dropped. A domain of
+  several countries goes to the one confirming it highest (rows are
+  sorted central first, then ASCII order). Pure."
+  [rows excl apexes]
+  (let [;; Same-domain rows across countries keep the union of
         ;; exclusions; a domain that is an apex in any country stays
         ;; an apex.
         entries (->> rows
@@ -1172,19 +1171,29 @@
                      (map (fn [[d [es ap]]] [d es ap]))
                      prune-covered)
         country-of (into {} (map (fn [[d c]] [d c]) (reverse rows)))
-        apex-domains (set (for [[d _ apex?] entries :when apex?] d))
-        ;; One row per entry, plus one per excluded label under it; an
-        ;; exact row already keeps its own subtree out, so it needs no
-        ;; exclude twin.
-        policy (->> (for [[d excl apex?] entries
-                          :let [c (country-of d)]
-                          [dom kind] (cons [d (if apex? "exact" "subtree")]
-                                           (for [l excl
-                                                 :let [ld (str l "." d)]
-                                                 :when (not (apex-domains ld))]
-                                             [ld "exclude"]))]
-                      [dom kind c])
-                    (sort-by (juxt first second)))]
+        apex-domains (set (for [[d _ apex?] entries :when apex?] d))]
+    ;; One row per entry, plus one per excluded label under it; an
+    ;; exact row already keeps its own subtree out, so it needs no
+    ;; exclude twin.
+    (->> (for [[d excl apex?] entries
+               :let [c (country-of d)]
+               [dom kind] (cons [d (if apex? "exact" "subtree")]
+                                (for [l excl
+                                      :let [ld (str l "." d)]
+                                      :when (not (apex-domains ld))]
+                                  [ld "exclude"]))]
+           [dom kind c])
+         (sort-by (juxt first second)))))
+
+(defn cmd-domains
+  "Write data/public-sector-domains-central+-policy.csv
+  (domain,kind,country): the policy table (policy-rows) of the
+  confirmed central and central-1 domains, their curated exact rows as
+  apexes and their local and excluded labels as exclusions."
+  [_]
+  (let [rows   (central-plus-rows)
+        apexes (set (for [[c d _ _ kind] (confirmed-rows) :when (= kind "exact")] [c d]))
+        policy (policy-rows rows (local-labels) apexes)]
     (write-csv-file policy-file ["domain" "kind" "country"] policy)
     (println (str "Wrote " policy-file " (" (count policy) " rows: "
                   (count (filter #(= "central" (nth % 2)) rows)) " central + "
