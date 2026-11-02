@@ -211,58 +211,70 @@
         :when (seq (str u))]
     u))
 
+(defn- parse-specs
+  "{:specs {country_dir [spec …]} :rejected [channel …] :problems [msg …]}
+  of the 'harvest:' specs of parsed, a sources-yaml read as {iso2
+  {section [entry …]}}, by-iso2 the {ISO2 country_dir}: each spec
+  compiled and carrying its :iso2. A spec is rejected, with a problem,
+  when its entry has no single api/data URL, its country no
+  country_dir, or spec-problems finds any; the registry specs of a
+  country writing one file twice too (spec-file). :rejected holds the
+  channel of each rejected spec, as read (an invalid one included).
+  Pure."
+  [parsed by-iso2]
+  (let [checked (for [[iso2 sections] parsed
+                      [_ entries] sections
+                      entry entries
+                      :let [h (get entry "harvest")]
+                      :when h
+                      raw (if (sequential? h) h [h])
+                      :let [spec (when (map? raw) (update-keys raw kebab))
+                            dir  (by-iso2 iso2)
+                            urls (entry-urls entry)
+                            problems (concat
+                                      (when-not (= 1 (count urls))
+                                        [(str (count urls) " api/data URLs, a harvest spec needs one")])
+                                      (when-not dir ["no country_dir"])
+                                      (if spec
+                                        (spec-problems spec)
+                                        ["harvest must be a map, or a list of maps"]))]]
+                  (if (seq problems)
+                    {:rejected (kebab (:channel spec))
+                     :problems (for [p problems]
+                                 (str iso2 " '" (get entry "name") "': " p))}
+                    {:dir dir :spec (assoc (compile-spec spec (first urls)) :iso2 iso2)}))
+        by-dir  (reduce (fn [m {:keys [dir spec]}] (update m dir (fnil conj []) spec))
+                        (sorted-map) (filter :spec checked))
+        doubled (for [[dir specs] by-dir
+                      [file n] (frequencies (map spec-file (filter #(= :registry (:channel %)) specs)))
+                      :when (< 1 n)]
+                  [dir file n])
+        drop?   (set (for [[dir file] doubled] [dir file]))]
+    {:specs    (into (sorted-map)
+                     (for [[dir specs] by-dir
+                           :let [kept (vec (remove #(drop? [dir (spec-file %)]) specs))]
+                           :when (seq kept)]
+                       [dir kept]))
+     :rejected (into (vec (keep :rejected checked))
+                     (mapcat (fn [[_ [channel] n]] (repeat n channel)) doubled))
+     :problems (concat (mapcat :problems checked)
+                       (for [[dir [channel registry] n] doubled]
+                         (str dir " has " n " " (name channel) " specs"
+                              (when registry (str " of registry " registry)))))}))
+
 (def directory-specs
-  "{:specs {country_dir [spec …]} :rejected [channel …]} of the
-  'harvest:' specs of sources-yaml, each compiled and carrying its
-  :iso2. A spec is reported and rejected when its entry has no single
-  api/data URL, its country no country_dir, or spec-problems finds
-  any; the registry specs of a country writing one file twice too
-  (spec-file).
-  :rejected holds the channel of each rejected spec, as read (an
-  invalid one included). No specs, with an error, without the file."
+  "{:specs {country_dir [spec …]} :rejected [channel …]} of parse-specs
+  over the 'harvest:' specs of sources-yaml, each problem reported once
+  on ERR. No specs, with an error, without the file."
   (delay
     (if-not (fs/exists? sources-yaml)
       (do (err "ERR: " sources-yaml " not found (set SOPC_DIR)")
           {:specs {} :rejected []})
-      (let [by-iso2 (iso2->country-dir)
-            checked (for [[iso2 sections] (yaml/parse-string (slurp sources-yaml) :keywords false)
-                          [_ entries] sections
-                          entry entries
-                          :let [h (get entry "harvest")]
-                          :when h
-                          raw (if (sequential? h) h [h])
-                          :let [spec (when (map? raw) (update-keys raw kebab))
-                                dir  (by-iso2 iso2)
-                                urls (entry-urls entry)
-                                problems (concat
-                                          (when-not (= 1 (count urls))
-                                            [(str (count urls) " api/data URLs, a harvest spec needs one")])
-                                          (when-not dir ["no country_dir"])
-                                          (if spec
-                                            (spec-problems spec)
-                                            ["harvest must be a map, or a list of maps"]))]]
-                      (if (seq problems)
-                        (do (doseq [p problems]
-                              (err "ERR: " sources-yaml ": " iso2 " '" (get entry "name") "': " p))
-                            {:rejected (kebab (:channel spec))})
-                        {:dir dir :spec (assoc (compile-spec spec (first urls)) :iso2 iso2)}))
-            by-dir  (reduce (fn [m {:keys [dir spec]}] (update m dir (fnil conj []) spec))
-                            (sorted-map) (filter :spec checked))
-            doubled (for [[dir specs] by-dir
-                          [[channel registry :as file] n]
-                          (frequencies (map spec-file (filter #(= :registry (:channel %)) specs)))
-                          :when (< 1 n)]
-                      (do (err "ERR: " sources-yaml ": " dir " has " n " " (name channel)
-                               " specs" (when registry (str " of registry " registry)))
-                          [dir file n]))
-            drop?   (set (for [[dir file] doubled] [dir file]))]
-        {:specs    (into (sorted-map)
-                         (for [[dir specs] by-dir
-                               :let [kept (vec (remove #(drop? [dir (spec-file %)]) specs))]
-                               :when (seq kept)]
-                           [dir kept]))
-         :rejected (into (vec (keep :rejected checked))
-                         (mapcat (fn [[_ [channel] n]] (repeat n channel)) doubled))}))))
+      (let [{:keys [problems] :as parsed}
+            (parse-specs (yaml/parse-string (slurp sources-yaml) :keywords false)
+                         (iso2->country-dir))]
+        (doseq [p problems] (err "ERR: " sources-yaml ": " p))
+        (dissoc parsed :problems)))))
 
 (defn- channel-specs
   "[country_dir spec] pairs of the specs of channel, sorted by country."
