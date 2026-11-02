@@ -266,8 +266,6 @@
   []
   @@confirmed-cache)
 
-(def ^:private confirmed-domains-cache (atom (delay (set (map second (confirmed-rows))))))
-
 (defn- compile-decided-domains []
   (-> #{}
       (into (for [c (country-dirs), [d] (read-curated c)] d))
@@ -277,7 +275,6 @@
 
 (defn- drop-confirmed-cache! []
   (reset! confirmed-cache (delay (compile-confirmed-rows)))
-  (reset! confirmed-domains-cache (delay (set (map second (confirmed-rows)))))
   (reset! decided-domains-cache (delay (compile-decided-domains))))
 
 (defn write-registered!
@@ -627,16 +624,10 @@
 
 (defn decided-domains
   "The domains of the curated and registered rows of every country, read
-  as they are: unlike confirmed-domains, an unfinished curated row (no
+  as they are: unlike confirmed-rows, an unfinished curated row (no
   level yet) counts and stops nothing. What propose and todo leave out."
   []
   @@decided-domains-cache)
-
-(defn confirmed-domains
-  "Return the set of every confirmed domain of every country, local rows
-  included, cached. A host equal to or under one of them is already covered."
-  []
-  @@confirmed-domains-cache)
 
 (defn harvest-roots
   "Return the confirmed domains of a country whose level is in
