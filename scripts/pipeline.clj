@@ -1208,87 +1208,120 @@
 (def ^:private levels-hint "write central, central-1 or local")
 (def ^:private kinds-hint "leave it empty (subtree) or write exact")
 
+(defn- row-problems
+  "The problems of the decision files of a country as read, [:err msg]
+  or [:warn msg] in the order of the report: anomalies are the [file
+  kind x] of file-anomalies. ERR: a first cell that is no hostname, a
+  blank or unknown level, an unknown kind or one on a local domain, two
+  levels for a domain, a domain both curated and excluded. WARN: a
+  duplicate row, an excluded row without a reason. Pure."
+  [curated excluded anomalies]
+  (concat
+   (for [[file kind x] anomalies]
+     (case kind
+       :invalid-hostname [:err (str "'" x "' in " file " is not a hostname" (hostname-hint x)
+                                    " (row dropped)")]
+       :duplicate        [:warn (str x " is listed twice in " file " (first row wins)")]))
+   (for [[d level] curated :when (not (levels level))]
+     [:err (if (str/blank? level)
+             (str d " has no level in curated.csv: " levels-hint)
+             (str d " has an unknown level '" level "' in curated.csv: " levels-hint))])
+   (for [[d level kind] curated
+         :let [why (cond
+                     (not (kinds kind))
+                     (str d " has an unknown kind '" kind "' in curated.csv: " kinds-hint)
+                     (and (seq kind) (not (harvest-levels level)))
+                     (str d " is " level ": only a central or central-1 domain takes a kind"))]
+         :when why]
+     [:err why])
+   (for [[d rows] (group-by first curated)
+         :let [lvls (distinct (map second rows))]
+         :when (next lvls)]
+     [:err (str d " is curated with two levels (" (str/join ", " lvls) "): keep one row")])
+   (for [d (sort (filter (set (map first excluded)) (set (map first curated))))]
+     [:err (str d " is in both curated.csv and excluded.csv: keep it in one")])
+   (for [[d reason] excluded :when (str/blank? reason)]
+     [:warn (str d " has no reason in excluded.csv")])))
+
+(defn- coverage-problems
+  "The [:warn msg] of the curated and excluded rows of a country against
+  its compiled decisions: confirmed is confirmed-country, registered
+  {domain [registry level]} (first registry wins), harvested? tells
+  whether a domain has a harvest file of its own. A curated row a
+  registry already lists or a confirmed domain of the same level covers
+  (unless harvested on its own), a local or excluded domain more than
+  one label under a central root. Pure."
+  [curated excluded confirmed registered harvested?]
+  (let [level-of  (into {} (for [[d level] confirmed] [d level]))
+        source-of (into {} (for [[d _ source] confirmed] [d source]))]
+    (concat
+     (for [[d level] curated
+           :let [[r rlevel] (get registered d)]
+           :when (= level rlevel)]
+       [:warn (str d " (" level ") is curated but " r " already lists it")])
+     ;; a confirmed domain covers its subdomains: a curated row under a
+     ;; root of the same level adds nothing, unless it is harvested on
+     ;; its own
+     (for [[d level kind] curated
+           :let [root (some #(when (level-of %) %) (rest (host-suffixes d)))]
+           :when (and root (= level (level-of root)) (not= kind "exact") (not (harvested? d)))]
+       [:warn (str d " (" level ") is already covered by " root
+                   " (" level ", " (source-of root) ")")])
+     ;; the policy table only carves the labels directly under a central
+     ;; root out of its subtree (labels-under-central); under a central-1
+     ;; root (an exact row) everything is out already
+     (for [d (concat (for [[d level] confirmed :when (= level "local")] d)
+                     (map first excluded))
+           :let [root (some #(when (contains? harvest-levels (level-of %)) %)
+                            (rest (host-suffixes d)))]
+           :when (and root (= "central" (level-of root))
+                      (str/includes? (subs d 0 (- (count d) (count root) 1)) "."))]
+       [:warn (str d " sits more than one label under " root
+                   " -- no exclude row in the policy table")]))))
+
+(defn- country-problems
+  "Every problem of the decision files of country c, [:err msg] or
+  [:warn msg]: row-problems, then coverage-problems when the rows hold
+  no error -- the compilation stops at its first problem, reported as an
+  error, so run it once the rows are clean."
+  [c]
+  (let [curated   (read-curated c)
+        excluded  (read-excluded c)
+        anomalies (for [[file path] [["curated.csv" (curated-file c)] ["excluded.csv" (excluded-file c)]]
+                        [kind x] (file-anomalies path)]
+                    [file kind x])
+        problems  (vec (row-problems curated excluded anomalies))]
+    (if (some #(= :err (first %)) problems)
+      problems
+      (into problems
+            (try
+              (let [confirmed  (confirmed-country c)
+                    ;; first registry wins, as in compile-confirmed
+                    registered (index-first (for [r (registries c), [d level] (read-registered c r)]
+                                              [d [r level]]))]
+                (vec (coverage-problems curated excluded confirmed registered
+                                        #(fs/exists? (harvest-file c %)))))
+              (catch clojure.lang.ExceptionInfo e
+                [[:err (ex-message e)]]))))))
+
 (defn cmd-check
   "Compile the decision files of the given countries (all by default),
-  reporting every problem at once with its fix. ERR and exit 1: a
-  first cell that is no hostname, a blank or unknown level, an unknown
-  kind or one on a local domain, two levels for a domain, a domain
-  both curated and excluded. WARN: a duplicate row, an excluded row
-  without a reason, a curated row a registry already lists or a
-  confirmed domain of the same level covers (unless harvested on its
-  own), a local or excluded domain more than one label under a central
-  root."
+  reporting every problem at once with its fix (country-problems). ERR
+  and exit 1: a first cell that is no hostname, a blank or unknown
+  level, an unknown kind or one on a local domain, two levels for a
+  domain, a domain both curated and excluded. WARN: a duplicate row, an
+  excluded row without a reason, a curated row a registry already lists
+  or a confirmed domain of the same level covers (unless harvested on
+  its own), a local or excluded domain more than one label under a
+  central root."
   [args]
   (if-let [countries (scoped-countries args)]
-    (let [check-country
-          (fn [c]
-            (let [errors   (atom 0)
-                  err!     (fn [& msg] (swap! errors inc) (apply err "ERR: " c ": " msg))
-                  warn     (fn [& msg] (apply err "WARN: " c ": " msg))
-                  curated  (read-curated c)
-                  excluded (read-excluded c)]
-              (doseq [[file path] [["curated.csv" (curated-file c)] ["excluded.csv" (excluded-file c)]]
-                      [kind x] (file-anomalies path)]
-                (case kind
-                  :invalid-hostname (err! "'" x "' in " file " is not a hostname" (hostname-hint x)
-                                          " (row dropped)")
-                  :duplicate        (warn x " is listed twice in " file " (first row wins)")))
-              (doseq [[d level] curated :when (not (levels level))]
-                (if (str/blank? level)
-                  (err! d " has no level in curated.csv: " levels-hint)
-                  (err! d " has an unknown level '" level "' in curated.csv: " levels-hint)))
-              (doseq [[d level kind] curated]
-                (cond
-                  (not (kinds kind))
-                  (err! d " has an unknown kind '" kind "' in curated.csv: " kinds-hint)
-                  (and (seq kind) (not (harvest-levels level)))
-                  (err! d " is " level ": only a central or central-1 domain takes a kind")))
-              (doseq [[d rows] (group-by first curated)
-                      :let [levels (distinct (map second rows))]
-                      :when (next levels)]
-                (err! d " is curated with two levels (" (str/join ", " levels) "): keep one row"))
-              (doseq [d (sort (filter (set (map first excluded)) (set (map first curated))))]
-                (err! d " is in both curated.csv and excluded.csv: keep it in one"))
-              (doseq [[d reason] excluded :when (str/blank? reason)]
-                (warn d " has no reason in excluded.csv"))
-              ;; the compilation stops at its first problem: run it once
-              ;; the rows above are clean
-              (when (zero? @errors)
-                (try
-                  (let [confirmed  (confirmed-country c)
-                        level-of   (into {} (for [[d level] confirmed] [d level]))
-                        source-of  (into {} (for [[d _ source] confirmed] [d source]))
-                        ;; first registry wins, as in compile-confirmed
-                        registered (index-first (for [r (registries c), [d level] (read-registered c r)]
-                                                  [d [r level]]))]
-                    (doseq [[d level] curated
-                            :let [[r rlevel] (get registered d)]
-                            :when (= level rlevel)]
-                      (warn d " (" level ") is curated but " r " already lists it"))
-                    ;; a confirmed domain covers its subdomains: a curated
-                    ;; row under a root of the same level adds nothing,
-                    ;; unless it is harvested on its own
-                    (doseq [[d level kind] curated
-                            :let [root (some #(when (level-of %) %) (rest (host-suffixes d)))]
-                            :when (and root (= level (level-of root)) (not= kind "exact")
-                                       (not (fs/exists? (harvest-file c d))))]
-                      (warn d " (" level ") is already covered by " root
-                            " (" level ", " (source-of root) ")"))
-                    ;; the policy table only carves the labels directly under
-                    ;; a central root out of its subtree (labels-under-central);
-                    ;; under a central-1 root (an exact row) everything is out already
-                    (doseq [d (concat (for [[d level] confirmed :when (= level "local")] d)
-                                      (map first excluded))
-                            :let [root (some #(when (contains? harvest-levels (level-of %)) %)
-                                             (rest (host-suffixes d)))]
-                            :when (and root (= "central" (level-of root))
-                                       (str/includes? (subs d 0 (- (count d) (count root) 1)) "."))]
-                      (warn d " sits more than one label under " root
-                            " -- no exclude row in the policy table")))
-                  (catch clojure.lang.ExceptionInfo e
-                    (err! (ex-message e)))))
-              (zero? @errors)))
-          failed (count (remove true? (doall (map check-country countries))))]
+    (let [report! (fn [c]
+                    (let [problems (country-problems c)]
+                      (doseq [[kind msg] problems]
+                        (err (if (= :err kind) "ERR: " "WARN: ") c ": " msg))
+                      (not-any? #(= :err (first %)) problems)))
+          failed  (count (remove true? (doall (map report! countries))))]
       (if (pos? failed)
         1
         (do (println (str "Decision files of " (count countries)
