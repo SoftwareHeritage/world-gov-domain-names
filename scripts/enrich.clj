@@ -476,6 +476,19 @@
                  [type label url host (or level "")])))))
        distinct))
 
+(defn- academia-ctx
+  "The context academia-level reads for country-dir, whose subdivisions
+  file must exist: :country-qid, :level1 (the QIDs of the first-tier
+  subdivisions), :level1-pattern (their labels, level1-pattern) and
+  :tiers (academia-tiers, central by default)."
+  [country-dir country-qid]
+  (let [subs (rest (read-csv-raw (subdivisions-file country-dir)))]
+    {:country-qid    country-qid
+     :level1         (into #{} (map first subs))
+     :level1-pattern (level1-pattern (map second subs))
+     :tiers          (get academia-tiers (first (str/split country-dir #"_"))
+                          {:default "central"})}))
+
 (defn academia-process!
   "Write sources/wikidata/academia.csv
   (type,label,website,hostname,level): the country's universities and
@@ -497,12 +510,7 @@
 
       :else
       (let [_    (println (str "=== " country-dir " (" country-qid ") academia ==="))
-            subs (rest (read-csv-raw sub))
-            ctx  {:country-qid    country-qid
-                  :level1         (into #{} (map first subs))
-                  :level1-pattern (level1-pattern (map second subs))
-                  :tiers          (get academia-tiers (first (str/split country-dir #"_"))
-                                       {:default "central"})}
+            ctx  (academia-ctx country-dir country-qid)
             per-class
             (mapv (fn [[qid type :as cls]]
                     (if-let [bindings (wikidata-bindings
@@ -704,12 +712,7 @@
 
       :else
       (let [_     (println (str "=== " country-dir " (" iso2 ") ror ==="))
-            subs  (rest (read-csv-raw sub))
-            ctx   {:country-qid    (get @country-qids country-dir)
-                   :level1         (into #{} (map first subs))
-                   :level1-pattern (level1-pattern (map second subs))
-                   :tiers          (get academia-tiers (first (str/split country-dir #"_"))
-                                        {:default "central"})}
+            ctx   (academia-ctx country-dir (get @country-qids country-dir))
             orgs  (ror-fetch-all iso2)
             facts (when orgs (ror-wikidata-facts (keep ror-org-wikidata orgs)))]
         (cond
