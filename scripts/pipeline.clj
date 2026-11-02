@@ -190,9 +190,26 @@
 ;;  collect -- fetch / retry (crt.sh)
 ;; ===========================================================================
 
+(defn- crt-hosts
+  "The hosts a crt.sh JSON answer names (one certificate may name
+  several, one per line), normalized and distinct, as a vector; nil
+  when the body does not parse. Pure."
+  [body]
+  (try
+    (->> (json/parse-string body true)
+         (map :name_value)
+         (mapcat #(str/split-lines (str %)))
+         (keep normalize-host)
+         distinct
+         vec)                           ; realize inside the try: cheshire
+                                        ; parses top-level arrays lazily, so a
+                                        ; truncated crt.sh body would otherwise
+                                        ; throw JsonEOFException downstream
+    (catch Exception _ nil)))
+
 (defn fetch-one!
   "Fetch the subdomains of a harvest file's root from crt.sh and merge
-  them, normalized, into the file.
+  them, normalized, into the file (crt-hosts).
   :ok, or :fail with nothing written -- on an unreadable answer, and on
   an empty one while the file holds no host yet."
   [file]
@@ -200,18 +217,7 @@
         url (str "https://crt.sh/?q=%25." domain "&output=json")
         body (http-get url {:timeout 120 :retries 1 :accept "application/json"})
         known (read-harvest file)
-        names (when body
-                (try
-                  (->> (json/parse-string body true)
-                       (map :name_value)
-                       (mapcat #(str/split-lines (str %)))
-                       (keep normalize-host)
-                       distinct
-                       vec)               ; realize inside the try: cheshire
-                                          ; parses top-level arrays lazily, so a
-                                          ; truncated crt.sh body would otherwise
-                                          ; throw JsonEOFException downstream
-                  (catch Exception _ nil)))]
+        names (when body (crt-hosts body))]
     (cond
       (seq names)
       (do (add-hosts! file names)
