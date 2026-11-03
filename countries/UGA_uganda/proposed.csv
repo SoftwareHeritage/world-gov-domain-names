@@ -1,21 +1,9 @@
 domain,level,name,kind,score,sources
 mak.ac.ug,central,Agricultural Research Institute Kabanyolo | Makerere University,,9,academia;ror
-agriculture.go.ug,central,"Ministry of Agriculture, Animal Industry and Fisheries",,7,wikidata
-education.go.ug,central,Ministry of Education and Sports,,7,wikidata
-energyandminerals.go.ug,central,Ministry of Energy and Mineral Development,,7,wikidata
-finance.go.ug,central,"Ministry of Finance, Planning and Economic Development",,7,wikidata
-health.go.ug,central,Ministry of Health,,7,wikidata
-ict.go.ug,central,Ministry of Information and Communications Technology,,7,wikidata
-mia.go.ug,central,Ministry of Internal Affairs,,7,wikidata
-mlhud.go.ug,central,"Ministry of Lands, Housing and Urban Development",,7,wikidata
-mofa.go.ug,central,Ministry of Foreign Affairs of the Republic of Uganda,,7,wikidata
-mtic.go.ug,,"Ministry of Trade, Industry and Cooperatives",,7,wikidata
-mtti.go.ug,central,"Ministry of Trade, Tourism and Industry",,7,wikidata
-mwe.go.ug,central,Ministry of Water and Environment,,7,wikidata
 nema.go.ug,,National Environment Management Authority of Uganda,,7,wikidata
-sti.go.ug,central,"Ministry of Science, Technology and Innovation",,7,wikidata
 gou.go.ug,,UN/DESA national portal,,6,un_desa
 ubos.org,central,Uganda Bureau of Statistics,,6,wikidata;academia
+agriculture.go.ug,central,"Ministry of Agriculture, Animal Industry and Fisheries",,4,wikidata
 bou.or.ug,,Bank of Uganda,,4,wikidata
 caa.go.ug,,Civil Aviation Authority of Uganda,,4,wikidata
 cbr.ug,,Centre for Basic Research,,4,academia
@@ -25,23 +13,35 @@ dda.or.ug,,Dairy Development Authority,,4,wikidata
 dgal.mia.go.ug,,Government Analytical Laboratory,,4,academia
 dpf.or.ug,,Deposit Protection Fund of Uganda,,4,wikidata
 ec.or.ug,,Electoral Commission of Uganda,,4,wikidata
+education.go.ug,central,Ministry of Education and Sports,,4,wikidata
+energyandminerals.go.ug,central,Ministry of Energy and Mineral Development,,4,wikidata
 eoc.go.ug,,"Equal Opportunities Commission, Uganda",,4,wikidata
 era.or.ug,,Electricity Regulatory Authority,,4,wikidata
 fia.go.ug,,Uganda Financial Intelligence Authority,,4,wikidata
+finance.go.ug,central,"Ministry of Finance, Planning and Economic Development",,4,wikidata
 freezones.go.ug,,Uganda Free Zones Authority,,4,wikidata
+health.go.ug,central,Ministry of Health,,4,wikidata
+ict.go.ug,central,Ministry of Information and Communications Technology,,4,wikidata
 idi.mak.ac.ug,,Infectious Diseases Institute,,4,academia
 igg.go.ug,,Inspectorate of Government,,4,wikidata
 ira.go.ug,,Insurance Regulatory Authority of Uganda,,4,wikidata
 kumi.go.ug,,Kumi District Local Government,,4,wikidata
 meaca.go.ug,,Ministry of East African Community Affairs,,4,wikidata
 mglsd.go.ug,,"Ministry of Gender, Labour and Social Development (Uganda)",,4,wikidata
+mia.go.ug,central,Ministry of Internal Affairs,,4,wikidata
+mlhud.go.ug,central,"Ministry of Lands, Housing and Urban Development",,4,wikidata
+mofa.go.ug,central,Ministry of Foreign Affairs of the Republic of Uganda,,4,wikidata
 mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Kampala",,4,wikidata
+mtic.go.ug,,"Ministry of Trade, Industry and Cooperatives",,4,wikidata
+mtti.go.ug,central,"Ministry of Trade, Tourism and Industry",,4,wikidata
 mubs.ac.ug,central,Makerere University Business School,,4,academia
+mwe.go.ug,central,Ministry of Water and Environment,,4,wikidata
 naro.go.ug,,National Agricultural Research Organisation,,4,wikidata
 nda.or.ug,,National Drug Authority,,4,wikidata
 nfa.org.ug,,National Forestry Authority,,4,wikidata
 ngobureau.go.ug,,National Bureau for Non Governmental Organizations,,4,wikidata
 nlu.go.ug,,National Library of Uganda,,4,wikidata
+sti.go.ug,central,"Ministry of Science, Technology and Innovation",,4,wikidata
 ucc.co.ug,,Uganda Communications Commission,,4,wikidata
 udc.go.ug,,Uganda Development Corporation,,4,wikidata
 ueccc.or.ug,,Uganda Energy Credit Capitalisation Company,,4,wikidata
@@ -124,5 +124,5 @@ utamu.ac.ug,central,Universal Technology and Management University,,3,ror
 virtualuni.ac.ug,central,Virtual University of Uganda,,3,ror
 vu.ac.ug,central,Victoria University,,3,ror
 iucea.org,central,Inter-University Council for East Africa,,2,ror
-opm.go.ug,central,Ministry of Relief and Disaster Preparedness | Ministry of Disaster Preparedness and Refugees | Office of the Prime Minister | Ministry for Karamoja,,2,wikidata
+opm.go.ug,central,Ministry of Disaster Preparedness and Refugees | Ministry of Relief and Disaster Preparedness | Ministry for Karamoja | Office of the Prime Minister,,2,wikidata
 miu.ac.ug,central,Metropolitan International University,,0,ror

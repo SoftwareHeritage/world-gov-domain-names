@@ -1,11 +1,9 @@
 domain,level,name,kind,score,sources
-ait.org.tw,central-1,American Institute in Taiwan | Kaohsiung Branch Office of the American Institute in Taiwan,,7,wikidata
-edu.tw,central,Ministry of Education of Taiwan,,7,wikidata
-english.doh.gov.taipei,central,Ministry of Health and Welfare,,7,wikidata
+ait.org.tw,central-1,Kaohsiung Branch Office of the American Institute in Taiwan | American Institute in Taiwan,,7,wikidata
 english.gov.taipei,central-1,Taipei City Government,,7,wikidata
 family.gov.taipei,,Q130404967,,7,wikidata
 gov.taipei,central-1,Taipei City Government,,7,wikidata
-meco.org.tw,,"Manila Economic and Cultural Office, Taichung Extension Office | Manila Economic and Cultural Office",,7,wikidata
+meco.org.tw,,"Manila Economic and Cultural Office | Manila Economic and Cultural Office, Taichung Extension Office",,7,wikidata
 naer.edu.tw,,National Academy for Educational Research,,7,wikidata
 ncl.edu.tw,,Open Lab Multimedia Center National Central Library | National Central Library,,7,wikidata
 ngdo.gov.taipei,central-1,"Nangang District Office, Taipei City",,7,wikidata
@@ -59,9 +57,11 @@ ea.sinica.edu.tw,,"Institute of European and American Studies, Academia Sinica",
 eastasia.nccu.edu.tw,central,"Graduate Institute of East Asian Studies, National Chengchi University",,4,academia
 ecct.com.tw,,European Chamber of Commerce Taiwan,,4,wikidata
 ecology.lifescience.ntu.edu.tw,central,"Institute of Ecology and Evolutionary Biology, College of Life Science, National Taiwan University",,4,academia
+edu.tw,central,Ministry of Education of Taiwan,,4,wikidata
 embapartwroc.com.tw,central,"Embassy of Paraguay, Taipei",,4,wikidata
 en.nycu.edu.tw,central,National Yang Ming Chiao Tung University,,4,academia
 english.docms.gov.taipei,,"Department of Military Compulsory service, Taipei City Government",,4,wikidata
+english.doh.gov.taipei,central,Ministry of Health and Welfare,,4,wikidata
 english.doit.gov.taipei,,"Department of Information Technology, Taipei City Government",,4,wikidata
 english.geo.gov.taipei,,"Geotechnical Engineering Office, Public Works Department, Taipei City Government",,4,wikidata
 english.pwd.gov.taipei,,"Public Works Department, Taipei City Government",,4,wikidata
@@ -106,6 +106,7 @@ nsrrc.org.tw,central,National Synchrotron Radiation Research Center,,4,academia
 nthu-en.site.nthu.edu.tw,central,National Tsing Hua University,,4,academia
 ntou.edu.tw,central,National Taiwan Ocean University,,4,academia
 ntpc.edu.tw,,"Education Department,New Taipei City Government",,4,wikidata
+ntpu.edu.tw,central,"3 proposed hosts under it: inrm.ntpu.edu.tw, mis.ntpu.edu.tw, english.ntpu.edu.tw",,4,parent
 ocia.nccu.edu.tw,,"College of International Affairs, NCCU",,4,academia
 peru.org.tw,,Commercial Office of Peru to Taipei,,4,wikidata
 pf.org.tw,,Prospect Foundation,,4,academia
@@ -115,6 +116,7 @@ pkl.gov.taipei,,"Parks and Street Lights Office, Public Works Department, Taipei
 poland.tw,,Polish Office in Taipei,,4,wikidata
 pwd.gov.taipei,,"Public Works Department, Taipei City Government",,4,wikidata
 rdec.gov.taipei,,"Research, Development and Evaluation Commission, Taipei City Government",,4,wikidata
+sinica.edu.tw,,"11 proposed hosts under it: math.sinica.edu.tw, asiaa.sinica.edu.tw, ios.sinica.edu.tw",,4,parent
 sluembassy.tw,central,embassy of Saint Lucia in Taiwan,,4,wikidata
 somaliland.tw,,Republic of Somaliland Representative Office in Taiwan,,4,wikidata
 southafrica.org.tw,,"Liaison Office of the Republic of South Africa, Taipei",,4,wikidata
@@ -130,6 +132,7 @@ tdi.edu.tw,,Taiwan Development Institute,,4,academia
 tier.org.tw,,Taiwan Institute of Economic Research,,4,academia
 tii.org.tw,,Taiwan Insurance Institute,,4,academia
 tm.ntust.edu.tw,,TaiwanTech Graduate Institute of Technology Management,,4,academia
+tnua.edu.tw,central,"2 proposed hosts under it: finearts.tnua.edu.tw, w3.tnua.edu.tw",,4,parent
 tpedoit.gov.taipei,,"Department of Information and Tourism, Taipei City Government",,4,wikidata
 tri.org.tw,,Taiwan Research Institute,,4,academia
 tsri.org.tw,,Taiwan Semiconductor Research Institute,,4,academia
@@ -182,6 +185,7 @@ fy.edu.tw,central,Fooyin University,,3,ror
 hcu.edu.tw,central,Hsuan Chuang University,,3,ror
 hfu.edu.tw,central,Huafan University,,3,ror
 hk.edu.tw,central,Hungkuang University,,3,ror
+hketco.hk,,"Hong Kong Economic, Trade and Cultural Office",,3,wikidata
 hust.edu.tw,central,Hsiuping University of Science and Technology,,3,ror
 hwai.edu.tw,central,Chung Hwa University of Medical Technology,,3,ror
 hwh.edu.tw,central,Hwa Hsia University of Technology,,3,ror

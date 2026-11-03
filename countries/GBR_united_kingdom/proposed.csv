@@ -1,29 +1,26 @@
 domain,level,name,kind,score,sources
-bankofengland.co.uk,,Prudential Regulation Authority | Bank of England,,10,wikidata;directory
+bankofengland.co.uk,,Bank of England | Prudential Regulation Authority,,10,wikidata;directory
 bbc.co.uk,,BBC (Public corporation) | BBC World Service (Other),,10,linkgraph;directory
 cqc.org.uk,,Care Quality Commission,,10,wikidata;linkgraph;directory
 digital.nhs.uk,,NHSDigital -- GitHub org,,10,linkgraph;sopc
 electoralcommission.org.uk,central,Electoral Commission,,10,wikidata;linkgraph;directory
 england.nhs.uk,,NHS England,,10,wikidata;linkgraph;directory;sopc
-environmentalstandards.scot,central-1,Environmental Standards Scotland,,10,wikidata;directory
-fiscalcommission.scot,central-1,Scottish Fiscal Commission,,10,wikidata;directory
 forestryengland.uk,central-1,Forestry England | Westonbirt Arboretum,,10,wikidata;academia;directory
-gov.scot,central-1,His Majesty's Fire Service Inspectorate for Scotland | Scottish Government | Inspectorate of Prosecution in Scotland | Marine Scotland | Scottish Agricultural Wages Board,,10,wikidata;linkgraph;directory;sopc
-gov.wales,central-1,Department for Education and Skills | Welsh Government,,10,wikidata;linkgraph;directory
+gov.scot,central-1,Scottish Government | Inspectorate of Prosecution in Scotland | His Majesty's Fire Service Inspectorate for Scotland | Scottish Agricultural Wages Board | Marine Scotland,,10,wikidata;linkgraph;directory;sopc
+gov.wales,central-1,Welsh Government | Department for Education and Skills,,10,wikidata;linkgraph;directory
 hra.nhs.uk,,Gene Therapy Advisory Committee,,10,wikidata;linkgraph;directory
-ico.org.uk,central,Information Commissioner's Office,,10,wikidata;linkgraph;directory
+ico.org.uk,central,Information Commission's Office,,10,wikidata;linkgraph;directory
 llyw.cymru,central-1,Welsh Government,,10,wikidata;linkgraph;directory
 nhsbsa.nhs.uk,,NHS Business Services Authority (Special health authority),,10,linkgraph;directory
-nsandi.com,,National Savings and Investments,,10,wikidata;directory
 ofcom.org.uk,,Ofcom,,10,wikidata;linkgraph;directory
 ombudsman.org.uk,,Parliamentary and Health Service Ombudsman,,10,wikidata;linkgraph;directory
 ordnancesurvey.co.uk,,British Ordnance Survey,,10,wikidata;linkgraph;directory
-oscr.org.uk,central-1,Office of the Scottish Charity Regulator | Scottish Charity Regulator,,10,wikidata;directory
-parliament.uk,central,House of Commons | Parliament of the United Kingdom | House of Lords,,10,wikidata;linkgraph;directory
+oscr.org.uk,central-1,Scottish Charity Regulator | Office of the Scottish Charity Regulator,,10,wikidata;directory
+parliament.uk,central,Parliament of the United Kingdom | House of Lords | House of Commons,,10,wikidata;linkgraph;directory
 rbge.org.uk,central-1,Royal Botanic Garden Edinburgh | Benmore Botanic Garden | Dawyck Botanic Garden | Logan Botanic Garden,,10,wikidata;academia;directory
 rbht.nhs.uk,,NIHR Royal Brompton Cardiovascular Biomedical Research Unit | NIHR Royal Brompton Respiratory Biomedical Research Unit,,10,wikidata;linkgraph
-revenue.scot,central-1,Revenue Scotland,,10,wikidata;directory
-scottish-enterprise.com,central-1,Scottish Enterprise | South of Scotland Enterprise,,10,wikidata;directory
+scottish-enterprise.com,central-1,South of Scotland Enterprise | Scottish Enterprise,,10,wikidata;directory
+supremecourt.uk,central,Supreme Court of the United Kingdom,,10,wikidata;directory
 aber.ac.uk,central,"Aberystwyth University | Aberystwyth University Centre for Health and International Relations | Aberystwyth University Institute of Mathematics and Physics | David Davies Memorial Institute | Institute of Biological, Environmental and Rural Sciences",,9,academia;ror
 aston.ac.uk,central,Aston University | Aston University Electrical Electronic and Power Engineering,,9,academia;ror
 brunel.ac.uk,central,Brunel University Brunel Centre for Advanced Solidification Technology | Brunel University Brunel Institute for Bioengineering | Brunel University Centre for Biomedicine and Society | Brunel University Experimental Techniques Centre | Brunel University Institute for the Environment Health and Societies | Brunel University International Pathways and Language Centre | Brunel University London,,9,academia;ror
@@ -101,12 +98,12 @@ sepa.org.uk,central-1,Scottish Environment Protection Agency,,8,wikidata;directo
 sfc.ac.uk,central-1,Scottish Funding Council,,8,wikidata;directory
 shropshiretelfordandwrekin.nhs.uk,,"NHS Shropshire, Telford and Wrekin Integrated Care Board",,8,wikidata;linkgraph
 skillsdevelopmentscotland.co.uk,central-1,Skills Development Scotland,,8,wikidata;directory
+slab.org.uk,central-1,Scottish Legal Aid Board,,8,wikidata;directory
 socialworkengland.org.uk,central-1,Social Work England,,8,wikidata;directory
 spa.police.uk,central-1,Scottish Police Authority,,8,wikidata;directory
 sportscotland.org.uk,central-1,Sportscotland,,8,wikidata;directory
 spso.org.uk,central-1,Scottish Public Services Ombudsman,,8,wikidata;directory
 standardscommissionscotland.org.uk,central-1,Standards Commission for Scotland,,8,wikidata;directory
-supremecourt.uk,central,Supreme Court of the United Kingdom,,8,wikidata;directory
 thecrownestate.co.uk,,Crown Estate,,8,wikidata;directory
 trinityhouse.co.uk,,Trinity House,,8,wikidata;directory
 tsh.scot.nhs.uk,central-1,The State Hospitals Board for Scotland,,8,wikidata;directory
@@ -124,8 +121,8 @@ artscouncil-ni.org,,Arts Council of Northern Ireland,,7,wikidata;directory
 audit.scot,central-1,Audit Scotland,,7,wikidata;directory
 audit.wales,central-1,Auditor General for Wales,,7,wikidata;directory
 bcuhb.nhs.wales,,Betsi Cadwaladr University Health Board,,7,wikidata;directory
-belfast-harbour.co.uk,,Belfast Harbour Police | Belfast Harbour Commissioners,,7,wikidata
-bgs.ac.uk,,Geological Survey of Northern Ireland | British Geological Survey,,7,wikidata
+belfast-harbour.co.uk,,Belfast Harbour Commissioners | Belfast Harbour Police,,7,wikidata
+bgs.ac.uk,,British Geological Survey | Geological Survey of Northern Ireland,,7,wikidata
 bolton.ac.uk,central,University of Bolton Institute for Educational Cybernetics | University of Greater Manchester,,7,academia
 btp.police.uk,central-1,British Transport Police,,7,wikidata
 canalrivertrust.org.uk,,Canal & River Trust,,7,wikidata
@@ -142,16 +139,18 @@ derbyshire.police.uk,,Derbyshire Constabulary,,7,wikidata;linkgraph
 devon-cornwall.police.uk,,Devon and Cornwall Police,,7,wikidata;linkgraph
 durham.ac.uk,central,"Behaviour, Ecology and Evolution Research Centre | Biophysical Sciences Institute | Centre for Advanced Instrumentation | Centre for Banking, Institutions and Development | Centre for Catholic Studies | Centre for Chinese Law and Policy | Centre for Communications Systems | Centre for Comparative Modernities | Centre for Contemporary Chinese Studies | Centre for Criminal Law and Criminal Justice | Centre for Culture and Ecology | Centre for Death and Life Studies | Centre for Digital Theology | Centre for Environmental and Energy Economics | Centre for Experimental Methods and Behavioural Research | Centre for Global Infectious Disease | Centre for Humanities Engaging Science and Society | Centre for Innovation and Technology Management | Centre for Institutions and Political Behaviour | Centre for Intercultural Mediation | Centre for Language and Writing Systems | Centre for Law and Global Justice | Centre for Leadership & Followership | Centre for Macroeconomic Policy | Centre for Modern Conflicts and Cultures | Centre for Molecular and Nanoscale Electronics | Centre for Neurodiversity & Development | Centre for Nineteenth-Century Studies | Centre for Organisations and Society | Centre for Particle Theory | Centre for Poetry and Poetics | Centre for Political Thought | Centre for Research into Inner Experience | Centre for Research into Violence and Abuse | Centre for Social Justice & Community Action | Centre for Spirituality, Theology and Health | Centre for Sustainable Development Law and Policy | Centre for Vision and Visual Cognition | Centre for Visual Arts and Cultures | Centre for the Ethics of Cultural Heritage | Centre for the History of Medicine and Disease | Centre for the Study of Jewish Culture, Society and Politics | Centre for the Study of the Ancient Mediterranean and the Near East | Centre in Sustainable Chemical Processes | Condensed Matter Physics | Durham Centre for Bioimaging Technology | Durham Centre for Classical Reception | Durham Centre for Crop Improvement Technology | Durham Centre for Cultural Heritage Protection | Durham Centre for Indian Law and Policy | Durham Centre for Law and Philosophy | Durham Centre for Soft Matter | Durham Cultural Evolution Research Centre | Durham Energy Institute | Durham European Law Institute | Durham Geochemistry Centre | Durham Infancy and Sleep Centre | Durham International Dispute Resolution Institute | Durham Research in Economic Analysis and Mechanisms | Durham University | Durham University Department of Sociology | Durham University Evidence Centre for Education | Durham X-ray Absorption Facility | Durham X-ray Centre | DurhamARCTIC Research Centre | El Shaarani Centre for Ethical Finance, Accountability and Governance | Gender and Law at Durham | Global Policy Institute | HH Sheikh Nasser al-Mohammad al-Sabah Programme | Heritage Science at Durham | Human Rights and Public Law Centre | IBRU: Centre for Borders Research | Institute for Commercial & Corporate Law | Institute for Data Science | Institute for Medical Humanities | Institute for Middle Eastern and Islamic Studies | Institute of Advanced Study | Institute of Hazard, Risk and Resilience | Institute of Medieval and Early Modern Studies | International Centre for Moral Injury | International Centre of Public Accountability | Learning and Memory Processes | Marketing and International Business | Michael Ramsey Centre for Anglican Studies | Physics Education and Scholarship | Quantitative Research in Financial Economics | Research Methods Centre | Wolfson Research Institute | Zurbarán Centre for Spanish and Latin American Art and Culture",,7,academia
 eci.ox.ac.uk,,Environmental Change Institute | University of Oxford Environmental Change Institute,,7,academia
+environmentalstandards.scot,central-1,Environmental Standards Scotland,,7,wikidata;directory
 essex.police.uk,,Essex Police,,7,wikidata;linkgraph
 essl.leeds.ac.uk,,Centre for Business Law and Practice | Faculty of Social Sciences,,7,academia
 estyn.llyw.cymru,central-1,Estyn,,7,wikidata;directory
 eventbrite.co.uk,,Linked from 28 public-sector domains,,7,linkgraph
 eyelidproductions.co.uk,,Linked from 24 public-sector domains,,7,linkgraph
-foodstandards.gov.scot,central-1,Food Standards Scotland,,7,wikidata
+fiscalcommission.scot,central-1,Scottish Fiscal Commission,,7,wikidata;directory
 forestryandland.gov.scot,central-1,Forestry and Land Scotland | Kilmun Arboretum,,7,wikidata;academia
 frankltd.co.uk,,Linked from 72 public-sector domains,,7,linkgraph
 frontlinedata.co.uk,,Linked from 21 public-sector domains,,7,linkgraph
 geos.ed.ac.uk,,University of Edinburgh Institute of Earth Science | University of Edinburgh Institute of Geography,,7,academia
+gibraltar.gov.gi,,Gibraltar Archives | Q141548077,,7,wikidata
 gofalcymdeithasol.cymru,central-1,Social Care Wales,,7,wikidata;directory
 google.co.uk,,Linked from 72 public-sector domains,,7,linkgraph
 gov.bm,,Bermuda Archives | Bermuda Department of Public Transportation,,7,wikidata
@@ -159,10 +158,9 @@ gp-patient.co.uk,,Linked from 27 public-sector domains,,7,linkgraph
 gp-registration.nhs.uk,,Linked from 98 public-sector domains,,7,linkgraph
 hduhb.nhs.wales,,Hywel Dda University Health Board,,7,wikidata;directory
 healthcareimprovementscotland.org,central-1,Healthcare Improvement Scotland,,7,wikidata;directory
-healthwatchnorthtyneside.co.uk,,Healthwatch North Somerset | Healthwatch North Tyneside,,7,wikidata
+healthwatchnorthtyneside.co.uk,,Healthwatch North Tyneside | Healthwatch North Somerset,,7,wikidata
 healthwatchwirral.co.uk,,Healthwatch Wirral,,7,wikidata;linkgraph
 historicenvironment.scot,central-1,Historic Environment Scotland,,7,wikidata;directory
-housingregulator.gov.scot,central-1,Scottish Housing Regulator,,7,wikidata
 icb.nhs.uk,,Linked from 141 public-sector domains,,7,linkgraph
 ilf.scot,central-1,Independent Living Fund Scotland,,7,wikidata;directory
 imerseyside.nhs.uk,,Linked from 33 public-sector domains,,7,linkgraph
@@ -188,18 +186,20 @@ netformulary.co.uk,,Linked from 30 public-sector domains,,7,linkgraph
 newcoventgardenmarket.com,,Covent Garden Market Authority,,7,wikidata;directory
 nextdoor.co.uk,,Linked from 36 public-sector domains,,7,linkgraph
 nhs24.scot,central-1,NHS 24,,7,wikidata;directory
-nhsresearchscotland.org.uk,,Scottish Mental Health Research Network | NHS Research Scotland,,7,wikidata
+nhsresearchscotland.org.uk,,NHS Research Scotland | Scottish Mental Health Research Network,,7,wikidata
 nihr.ac.uk,,NIHR Central Commissioning Facility | National Institute for Health and Care Research,,7,wikidata
 nihrc.org,central-1,Northern Ireland Human Rights Commission,,7,wikidata;directory
 norfolk.police.uk,,Norfolk Constabulary,,7,wikidata;linkgraph
 northants.police.uk,,Northamptonshire Police,,7,wikidata;linkgraph
+nsandi.com,,National Savings and Investments,,7,wikidata;directory
 parliament.scot,central-1,Scottish Parliament,,7,wikidata
 pirc.scot,central-1,Police Investigations and Review Commissioner,,7,wikidata;directory
 publichealthscotland.scot,,Public Health Scotland,,7,wikidata;directory
-raf.mod.uk,,Royal Air Force Police | UK Military Flying Training System,,7,wikidata
+raf.mod.uk,,UK Military Flying Training System | Royal Air Force Police,,7,wikidata
 railholdings.scot,central-1,Scottish Rail Holdings,,7,wikidata;directory
 rapidhealth.co.uk,,Linked from 20 public-sector domains,,7,linkgraph
 redress.scot,central-1,Redress Scotland,,7,wikidata;directory
+revenue.scot,central-1,Revenue Scotland,,7,wikidata;directory
 rhul.ac.uk,,Royal Holloway University of London Centre for Particle Physics | Royal Holloway University of London Department of Geography,,7,academia
 rma.scot,central-1,Risk Management Authority,,7,wikidata;directory
 roadworks.scot,central-1,Scottish Road Works Commissioner,,7,wikidata;directory
@@ -232,13 +232,12 @@ www2.physics.ox.ac.uk,,"Department of Physics, University of Oxford | University
 aboutcookies.org.uk,,Linked from 15 public-sector domains,,6,linkgraph
 ageuk.org.uk,,Linked from 13 public-sector domains,,6,linkgraph
 aru.ac.uk,central,Anglia Ruskin University,,6,academia;ror
-bl.uk,,"British Library | British Library Asia, Pacific and Africa Collections | British Library Manuscript Collections",,6,wikidata;directory
+bl.uk,,"British Library Manuscript Collections | British Library | British Library Asia, Pacific and Africa Collections",,6,wikidata;directory
 bournemouth.ac.uk,central,Bournemouth University Dementia Institute,,6,academia;ror
 brookes.ac.uk,central,Oxford Brookes University,,6,academia;ror
 buckingham.ac.uk,central,University of Buckingham Centre for Astrobiology,,6,academia;ror
 cam.ac.uk,central,University of Cambridge,,6,academia;ror
 citizensadvice.org.uk,,Linked from 16 public-sector domains,,6,linkgraph
-consumer.scot,central-1,Consumer Scotland,,6,wikidata
 coventry.ac.uk,central,"Centre for Agroecology, Water and Resilience",,6,academia;ror
 cranfield.ac.uk,central,Cranfield University Institute of Environment and Health,,6,academia;ror
 cumbria.ac.uk,central,University of Cumbria Institute of Policing,,6,academia;ror
@@ -262,7 +261,7 @@ lorensbergs.co.uk,,Linked from 12 public-sector domains,,6,linkgraph
 lsbu.ac.uk,central,London South Bank University,,6,academia;ror
 macmillan.org.uk,,Linked from 11 public-sector domains,,6,linkgraph
 mdx.ac.uk,central,Middlesex University Institute for Work Based Learning,,6,academia;ror
-mfa.bg,central,"Consulate of Bulgaria, Edinburgh | Embassy of Bulgaria, London",,6,wikidata
+mfa.bg,central,"Embassy of Bulgaria, London | Consulate of Bulgaria, Edinburgh",,6,wikidata
 midlandsandlancashirecsu.nhs.uk,,Linked from 11 public-sector domains,,6,linkgraph
 midosweb.co.uk,,Linked from 11 public-sector domains,,6,linkgraph
 mind.org.uk,,Linked from 14 public-sector domains,,6,linkgraph
@@ -285,7 +284,7 @@ qmu.ac.uk,central,Queen Margaret University CASL Research Centre,,6,academia;ror
 qmul.ac.uk,central,Queen Mary University of London,,6,academia;ror
 rau.ac.uk,central,Royal Agricultural University,,6,academia;ror
 rgu.ac.uk,central,Robert Gordon University Institute for Health and Wellbeing Research,,6,academia;ror
-roc-taiwan.org,,"Representative Office of Taiwan, London | Taipei Representative Office in the U.K. Edinburgh Office",,6,wikidata
+roc-taiwan.org,,"Taipei Representative Office in the U.K. Edinburgh Office | Representative Office of Taiwan, London",,6,wikidata
 roehampton.ac.uk,central,University of Roehampton,,6,academia;ror
 salford.ac.uk,central,University of Salford,,6,academia;ror
 senedd.cymru,central-1,Senedd,,6,wikidata
@@ -443,7 +442,6 @@ shb.scot.nhs.uk,,NHS Shetland,,5,directory
 shelter.org.uk,,Linked from 6 public-sector domains,,5,linkgraph
 signvideo.co.uk,,Linked from 6 public-sector domains,,5,linkgraph
 simpliyprimarycare.co.uk,,Linked from 5 public-sector domains,,5,linkgraph
-slab.org.uk,,Scottish Legal Aid Board,,5,directory
 staffsstokeics.org.uk,,Linked from 5 public-sector domains,,5,linkgraph
 studentfinancewales.co.uk,,Student Loans Co Ltd/ Student Finance Wales,,5,directory
 submarine-museum.co.uk,,Royal Navy Submarine Museum (Sub organisation),,5,directory
@@ -456,7 +454,7 @@ treatyourselfbetter.co.uk,,Linked from 9 public-sector domains,,5,linkgraph
 tripadvisor.co.uk,,Linked from 5 public-sector domains,,5,linkgraph
 ukar.co.uk,,UK Asset Resolution Limited (Other),,5,directory
 ukgi.org.uk,,UK Government Investments (Other),,5,directory
-ukri.org,,Natural Environment Research Council | Arts and Humanities Research Council | Biotechnology and Biological Sciences Research Council | Innovate UK | Medical Research Council,,5,wikidata;directory
+ukri.org,,Arts and Humanities Research Council | Natural Environment Research Council | Innovate UK | Medical Research Council | Biotechnology and Biological Sciences Research Council,,5,wikidata;directory
 uksbs.co.uk,,UK Shared Business Services Ltd (Other),,5,directory
 victimscommissioner.org.uk,,Victims' Commissioner (Other),,5,directory
 visitchurches.org.uk,,Churches Conservation Trust (Other),,5,directory
@@ -470,9 +468,6 @@ zonkeycouncilwebsites.co.uk,,Linked from 9 public-sector domains,,5,linkgraph
 aagic.gig.cymru,,Addysg a Gwella Iechyd Cymru (AaGIC),,4,directory
 abbotsbury-tourism.co.uk,,Abbotsbury Subtropical Gardens,,4,academia
 abdn.ac.uk,central,Cruickshank Botanic Garden | Rowett Research Institute | University of Aberdeen | University of Aberdeen Centre for Early Modern Studies | University of Aberdeen Elphinstone Institute | University of Aberdeen Institute of Applied Health Sciences | University of Aberdeen Institute of Medical Sciences | University of Aberdeen Research Institute of Irish and Scottish Studies | University of Aberdeen Rowett Institute of Nutrition and Health,,4,academia;ror
-abenburycommunitycouncil.org.uk,,Abenbury Community Council,,4,wikidata
-abermulewithllandyssilcommunitycouncil.org.uk,,Abermule with Llandyssil Community Council,,4,wikidata
-abervalleycommunitycouncil.org.uk,,Aber Valley Community Council,,4,wikidata
 academyofurbanism.org.uk,,The Academy of Urbanism,,4,academia
 accessibility-services.co.uk,,Linked from 4 public-sector domains,,4,linkgraph
 activecouncil.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
@@ -500,7 +495,6 @@ arabislamicstudies.exeter.ac.uk,,University of Exeter Institute of Arab and Isla
 ardengemcsu.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 area-studies.ox.ac.uk,,Oxford School of Global and Area Studies,,4,academia
 arfordirpenfro.cymru,,Awdurdod Parc Cenedlaethol Arfordir Penfro,,4,directory
-argoedcommunitycouncil.org.uk,,Argoed Community Council,,4,wikidata
 army.mod.uk,,Royal Military Police,,4,wikidata
 arolygiaethgofal.cymru,,Arolygiaeth Gofal Cymru,,4,directory
 asapglos.nhs.uk,,Linked from 4 public-sector domains,,4,linkgraph
@@ -634,11 +628,9 @@ cnr.ed.ac.uk,,University of Edinburgh Centre for Neuroregeneration,,4,academia
 cntw.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 cnwl.nhs.uk,,Linked from 4 public-sector domains,,4,linkgraph
 cockcroft.ac.uk,,Cockcroft Institute,,4,academia
-coityhighercommunitycouncil.co.uk,,Coity Higher Community Council,,4,wikidata
 colesbournegardens.org.uk,,Colesbourne Park Arboretum,,4,academia
 comisiynyddph.cymru,,Comisiynydd Pobl Hŷn Cymru,,4,directory
 comisiynyddygymraeg.org,,Welsh Language Commissioner (Other),,4,directory
-community-council.org.uk,,Llantrisant Fawr Community Council,,4,wikidata
 conflictstudies.org.uk,,Conflict Studies Research Centre,,4,academia
 consoc.org.uk,,The Constitution Society,,4,academia
 counterterrorism.police.uk,,Linked from 3 public-sector domains,,4,linkgraph
@@ -666,14 +658,10 @@ cssd.ac.uk,central,Royal Central School of Speech and Drama,,4,academia
 cuh.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 cumbria.police.uk,,Cumbria Constabulary,,4,wikidata
 cumbriasfc.org.uk,,North Western Inshore Fisheries and Conservation Authority,,4,wikidata
-customshouse.co.uk,,"Customs House, South Shields",,4,wikidata
 cwp.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 cy.dcfw.org,,Comisiwn Dylunio Cymru,,4,directory
-cylchygarn.co.uk,,Cylch-y-Garn Community Council,,4,wikidata
 cymwysterau.cymru,,Cymwysterau Cymru,,4,directory
-cyngorgwalchmai.co.uk,,Trewalchmai Community Council,,4,wikidata
 dalton.manchester.ac.uk,,University of Manchester Dalton Nuclear Institute,,4,academia
-darranvalleycommunitycouncil.org.uk,,Darran Valley Community Council,,4,wikidata
 darwininitiative.org.uk,,Darwin Initiative,,4,wikidata
 data-archive.ac.uk,,UK Data Archive,,4,wikidata
 david-macbrayne.co.uk,,David MacBrayne Ltd,,4,wikidata
@@ -685,7 +673,6 @@ dementia.stir.ac.uk,,University of Stirling Dementia Services Development Centre
 dementiafriends.org.uk,,Linked from 3 public-sector domains,,4,linkgraph
 demos.co.uk,,Demos,,4,academia
 des.mod.uk,,Defence Equipment and Support,,4,wikidata
-devauden.org.uk,,Devauden Community Council,,4,wikidata
 developmentbank.wales,,Banc Datblygu Cymru ccc | Development Bank of Wales plc,,4,directory
 devonlibraries.org.uk,,Bampton Library,,4,wikidata
 devonsfc.co.uk,,Devon and Severn Inshore Fisheries and Conservation Authority,,4,wikidata
@@ -702,11 +689,9 @@ dorsetgreen.co.uk,central-1,Winfrith Technology Centre,,4,academia
 doverport.co.uk,,Port of Dover Police,,4,wikidata
 dpt.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 dundee.ac.uk,central,University of Dundee | University of Dundee Botanic Garden | University of Dundee Centre for Archive and Information Studies | University of Dundee Health Informatics Centre,,4,academia;ror
-dunkeldandbirnamnews.co.uk,,Dunkeld and Birnam,,4,wikidata
 dur.ac.uk,central,Durham University English Language Centre | Durham University Foundation Centre | Quantum Light and Matter,,4,academia;ror
 durham.police.uk,,Durham Constabulary,,4,wikidata
 dwfire.org.uk,,Dorset & Wiltshire Fire and Rescue Service,,4,wikidata
-dwrcouncil.co.uk,,"Draethen, Waterloo and Rudry Community Council",,4,wikidata
 dyfed-powys.police.uk,,Dyfed-Powys Police,,4,wikidata
 eani.org.uk,central-1,Education Authority,,4,wikidata
 earlham.ac.uk,,Earlham Institute,,4,wikidata
@@ -755,6 +740,7 @@ firstbus.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
 fleetairarm.com,,Fleet Air Arm Museum (Sub organisation),,4,directory
 foi.scot,,Scottish Information Commissioner,,4,directory
 foodbank.org.uk,,Linked from 4 public-sector domains,,4,linkgraph
+foodstandards.gov.scot,central-1,Food Standards Scotland,,4,wikidata
 forcesemployment.org.uk,,Linked from 3 public-sector domains,,4,linkgraph
 forestry.gov.scot,central-1,Scottish Forestry,,4,wikidata
 formationcraft.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
@@ -766,7 +752,6 @@ gambiahc.org.uk,central,"high commission of Gambia, London",,4,wikidata
 gatesheadinnerwestpcn.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
 gcre.wales,,Canolfan Fyd-eang Rhagoriaeth Rheilffyrdd Cyf (GCRE) | Global Centre for Rail Excellence Ltd (GCRE),,4,directory
 gcu.ac.uk,central,Glasgow Caledonian University | Glasgow Caledonian University Institute for Applied Health Research | Glasgow Caledonian University Yunus Centre for Social Business and Health,,4,academia;ror
-gelligaercommunitycouncil.org.uk,,Gelligaer Community Council,,4,wikidata
 geog.cam.ac.uk,,"Department of Geography, University of Cambridge",,4,academia
 geog.leeds.ac.uk,,School of Geography,,4,academia
 geog.ucl.ac.uk,,University College London Department of Geography,,4,academia
@@ -774,18 +759,15 @@ geography.exeter.ac.uk,,University of Exeter Geography,,4,academia
 georgeinstitute.org.uk,,George Institute for Global Health,,4,academia
 ghc.nhs.uk,,Linked from 4 public-sector domains,,4,linkgraph
 ghil.ac.uk,,German Historical Institute London,,4,academia
-gibraltar.gov.gi,,Gibraltar Archives,,4,wikidata
 gla.ac.uk,central,MRC-University of Glasgow Centre For Virus Research | Centre for Battlefield Archaeology | Glasgow Cardiovascular Research Centre | Scottish Universities Environmental Research Centre | University of Glasgow | University of Glasgow BHF Glasgow Cardiovascular Research Centre | University of Glasgow Centre for Cultural Policy Research | University of Glasgow Centre for Russian Central and East European Studies | University of Glasgow Centre for the History of Medicine | University of Glasgow Centre for the Study of Perceptual Experience | University of Glasgow Humanities Advanced Technology and Information Institute | University of Glasgow Institute of Biodiversity Animal Health and Comparative Medicine | University of Glasgow Institute of Health and Wellbeing | University of Glasgow Institute of Infection Immunity and Inflammation | University of Glasgow Institute of Molecular Cell and Systems Biology | University of Glasgow Language Centre | University of Glasgow Literature Theology and the Arts Research Centre | University of Glasgow School of Physics and Astronomy | University of Glasgow Wellcome Centre for Molecular Parasitology,,4,wikidata;academia;ror
 glasgowprestwick.com,,Glasgow Prestwick Airport,,4,directory
 gloucestershire.police.uk,,Gloucestershire Constabulary,,4,wikidata
 glyndwr.ac.uk,,Glyndwr University Centre for Creative Industries,,4,academia
-gmp.police.uk,,Greater Manchester Police,,4,wikidata
+gmp.police.uk,,Greater Manchester Policeman,,4,wikidata
 gold.ac.uk,central,"Goldsmiths University of London Centre for Cultural Studies | Goldsmiths University of London Confucius Institute for Dance and Performance | Goldsmiths University of London Department of Sociology | Goldsmiths University of London Institute for Creative and Cultural Entrepreneurship | Goldsmiths University of London Institute of Management Studies | Goldsmiths, University of London",,4,academia;ror
-goldcliffcommunitycouncil.co.uk,,Goldcliff Community Council,,4,wikidata
 goodnestonepark.co.uk,,Goodnestone Park,,4,academia
 goodnestoneparkgardens.co.uk,,Goodnestone Park,,4,academia
 gp-x.co.uk,,Linked from 4 public-sector domains,,4,linkgraph
-graigcc.co.uk,,Graig Community Council,,4,wikidata
 grampianfrs.org.uk,,Grampian Fire and Rescue Service,,4,wikidata
 greatwestway.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
 green-alliance.org.uk,,Green Alliance,,4,academia
@@ -795,9 +777,6 @@ gtce.org.uk,central-1,General Teaching Council for England,,4,wikidata
 gtcs.org.uk,central-1,General Teaching Council for Scotland,,4,wikidata
 gurdon.cam.ac.uk,,Gurdon Institute,,4,academia
 guysandstthomas.nhs.uk,,Linked from 4 public-sector domains,,4,linkgraph
-gvcc.org.uk,,Garw Valley Community Council,,4,wikidata
-gwaenysgorandtrelawnyd.org.uk,,Trelawnyd and Gwaenysgor Community Council,,4,wikidata
-gwehelog.org.uk,,Gwehelog Fawr Community Council,,4,wikidata
 gwent.police.uk,,Gwent Police,,4,wikidata
 gwynedd.llyw.cymru,,Cyngor Gwynedd,,4,directory
 gyrfacymru.llyw.cymru,,Gyrfa Cymru,,4,directory
@@ -808,7 +787,6 @@ hanlons.co.uk,,Linked from 4 public-sector domains,,4,linkgraph
 hansardsociety.org.uk,,Hansard Society,,4,academia
 har.mrc.ac.uk,,Mammalian Genetics Unit,,4,academia
 hartree.stfc.ac.uk,,Hartree Centre,,4,academia
-havenscommunities.org.uk,,The Havens Community Council,,4,wikidata
 haylincolnshire.co.uk,,Linked from 4 public-sector domains,,4,linkgraph
 hcri.manchester.ac.uk,,University of Manchester Humanitarian and Conflict Response Institute,,4,academia
 healthandcarenotts.co.uk,,Linked from 4 public-sector domains,,4,linkgraph
@@ -955,13 +933,14 @@ herts.police.uk,,Hertfordshire Constabulary,,4,wikidata
 hey.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 higgs.ph.ed.ac.uk,,The Higgs Centre for Theoretical Physics,,4,academia
 hiowhealthcare.nhs.uk,,Linked from 4 public-sector domains,,4,linkgraph
-hirwaunandpenderyncc.org.uk,,Hirwaun & Penderyn Community Council,,4,wikidata
 history.exeter.ac.uk,,University of Exeter Centre for Medical History,,4,academia
 history.lshtm.ac.uk,,"Centre for History in Public Health, London School of Hygiene and Tropical Medicine",,4,academia
+hketolondon.gov.hk,,"Hong Kong Economic and Trade Office, London",,4,wikidata
 hma.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
 hmcoastguard.uk,central,His Majesty's Coastguard,,4,wikidata
 hmics.scot,,HM Inspector of Constabulary in Scotland,,4,directory
 holehirdgardens.org.uk,,Holehird Gardens,,4,academia
+housingregulator.gov.scot,central-1,Scottish Housing Regulator,,4,wikidata
 hpa.org.uk,central-1,Health Protection Agency,,4,wikidata
 hps.scot.nhs.uk,,Health Protection Scotland,,4,wikidata
 hscbusiness.hscni.net,central-1,HSC Business Services Organisation (Northern Ireland) (Executive non-departmental public body),,4,directory
@@ -1009,6 +988,7 @@ ipeg.org.uk,,University of Manchester Institute for Political and Economic Gover
 iph.cam.ac.uk,,University of Cambridge Institute of Public Health,,4,academia
 ippp.dur.ac.uk,,Institute for Particle Physics Phenomenology,,4,academia
 ipt-uk.com,,Investigatory Powers Tribunal (Tribunal),,4,directory
+iraqiculturalattache.org.uk,,Iraqi Cultural Attaché in London,,4,wikidata
 irr.org.uk,,Institute of Race Relations,,4,academia
 isc.sussex.ac.uk,,University of Sussex International Study Centre,,4,academia
 isca.ox.ac.uk,,Institute of Social and Cultural Anthropology,,4,academia
@@ -1040,14 +1020,12 @@ landcommission.gov.scot,central-1,Scottish Land Commission,,4,wikidata
 lands-tribunal-scotland.org.uk,central-1,Lands Tribunal for Scotland,,4,wikidata
 lang.ox.ac.uk,,Oxford University Language Centre,,4,academia
 langcen.cam.ac.uk,,University of Cambridge Language Centre,,4,academia
-langstonecommunitycouncil.org.uk,,Langstone Community Council,,4,wikidata
 law.ac.uk,central,University of Law - Birmingham Centre | University of Law - Chester Centre | University of Law - London Bloomsbury Centre | University of Law - London Moorgate Centre | University of Law - Manchester Centre,,4,academia;ror
 law.ox.ac.uk,,University of Oxford Centre for Socio-Legal Studies,,4,academia
 lbfire.org.uk,,Lothian and Borders Fire Brigade,,4,wikidata
 lcfi.ac.uk,,Leverhulme Centre for the Future of Intelligence,,4,academia
 learninghub.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 leedsth.nhs.uk,,Linked from 4 public-sector domains,,4,linkgraph
-leeswoodcommunity.org.uk,,Leeswood Community Council,,4,wikidata
 legaldeposit.org.uk,,Agency for the Legal Deposit Libraries,,4,wikidata
 leicsrespiratorybru.nihr.ac.uk,,NIHR Leicester Respiratory Biomedical Research Unit,,4,wikidata
 lerwick-harbour.co.uk,,Lerwick Port Authority,,4,wikidata
@@ -1057,26 +1035,11 @@ library.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 librarymanagementcloud.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
 lida.leeds.ac.uk,,Leeds Institute for Data Analytics,,4,academia
 lincolnbishop.ac.uk,central,Lincoln Bishop University,,4,academia
-lisvanecommunity.org.uk,,Lisvane Community Council,,4,wikidata
 liverpool.ac.uk,central,Institute of Popular Music | Mike Speed's Lab | University of Liverpool | University of Liverpool Library,,4,academia;ror
 livewellwithpain.co.uk,,Linked from 4 public-sector domains,,4,linkgraph
 livi.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
 llaiscymru.org,,Llais,,4,directory
 llaiswales.org,,Llais,,4,directory
-llanbradachcc.co.uk,,Llanbradach and Pwllypant Community Council,,4,wikidata
-llanddoged-maenan.org.uk,,Llanddoged and Maenan Community Council,,4,wikidata
-llanddulascc.org.uk,,Llanddulas and Rhyd-y-Foel Community Council,,4,wikidata
-llandybie.org.uk,,Llandybie Community Council,,4,wikidata
-llanellycc.org.uk,,Llanelly Community Council,,4,wikidata
-llanfaches.co.uk,,Llanvaches Community Council,,4,wikidata
-llangollen-ruralcc.co.uk,,Llangollen Rural Community Council,,4,wikidata
-llangunnorcommunitycouncil.co.uk,,Llangunnor Community Council,,4,wikidata
-llangwm.org.uk,,Llangwm Community Council,,4,wikidata
-llanhennockcc.co.uk,,Llanhennock Community Council,,4,wikidata
-llanovercommunitycouncil.org.uk,,Llanover Community Council,,4,wikidata
-llantiliocrossennycc.co.uk,,Llantilio Crossenny Community Council,,4,wikidata
-llantiliopertholeycc.org.uk,,Llantilio Pertholey Community Council,,4,wikidata
-llanwernvillage.org.uk,,Llanwern Community Council,,4,wikidata
 lml.org.uk,,London Mathematical Laboratory,,4,academia
 lms.mrc.ac.uk,,MRC Laboratory of Medical Sciences,,4,academia
 london.mfa.gov.hu,central,"Embassy of Hungary, London",,4,wikidata
@@ -1092,14 +1055,11 @@ lubswww.leeds.ac.uk,,Centre for International Business at the University of Leed
 lucas.leeds.ac.uk,,Leeds University Centre for African Studies,,4,academia
 lullabytrust.org.uk,,Linked from 3 public-sector domains,,4,linkgraph
 m-w.co.uk,,Linked from 4 public-sector domains,,4,linkgraph
-maesycwmmercommunitycouncil.org.uk,,Maesycwmmer Community Council,,4,wikidata
-magorundy.org.uk,,Magor with Undy Community Council,,4,wikidata
 malawihighcommission.co.uk,central,"High Commission of Malawi, London",,4,wikidata
 maldiveshighcommission.uk,central,"High Commission of the Maldives, London",,4,wikidata
 marvell.wp.st-andrews.ac.uk,,Andrew Marvell Society,,4,academia
 masts.ac.uk,,Marine Alliance for Science and Technology for Scotland,,4,wikidata
 mathematics.exeter.ac.uk,,University of Exeter Centre for Geophysical and Astrophysical Fluid Dynamics,,4,academia
-matherncc.co.uk,,Mathern Community Council,,4,wikidata
 maths.warwick.ac.uk,,University of Warwick Mathematics Institute,,4,academia
 maxplanck-minimalbiology.bristol.ac.uk,,Max Planck Bristol Centre for Minimal Biology,,4,academia
 mbc.manchester.ac.uk,,University of Manchester Michael Barber Centre for Collaborative Mass Spectrometry,,4,academia
@@ -1135,7 +1095,6 @@ nabis.police.uk,,National Ballistics Intelligence Service,,4,wikidata
 nael.cymru,,Dysgu,,4,directory
 nao.org.uk,,National Audit Office,,4,wikidata
 napier.ac.uk,central,Edinburgh Napier University | Edinburgh Napier University Centre for Law | Edinburgh Napier University Centre for Mathematics and Statistics,,4,academia;ror
-nashcommunitycouncil.org.uk,,Nash Community Council,,4,wikidata
 natcen.ac.uk,central,National Centre for Social Research,,4,academia
 nationalforest.org,,National Forest Company (Other),,4,directory
 nationalfruitcollection.org.uk,central,National Fruit Collection,,4,academia
@@ -1156,7 +1115,6 @@ neuroethics.ox.ac.uk,,University of Oxford Centre for Neuroethics,,4,academia
 newcultureforum.org.uk,,New Culture Forum,,4,academia
 newton.ac.uk,,Isaac Newton Institute,,4,academia
 newton.ex.ac.uk,,Peter Vukusic's Lab,,4,academia
-newtredegarcommunitycouncil.org.uk,,New Tredegar Community Council,,4,wikidata
 nexus.org.uk,,Nexus,,4,wikidata
 nhsaaa.net,,NHS Ayrshire & Arran,,4,directory
 nhsdorset.nhs.uk,,Linked from 4 public-sector domains,,4,linkgraph
@@ -1175,7 +1133,6 @@ nomisweb.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
 norfolkcommunityhealthandcare.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 north-wales.police.uk,,North Wales Police,,4,wikidata
 northeastlondon.icb.nhs.uk,,NHS North East London Integrated Care Board,,4,wikidata
-northophallcommunitycouncil.btck.co.uk,,Northop Hall Community Council,,4,wikidata
 northstaffsccg.nhs.uk,,NHS North Staffordshire Clinical Commissioning Group,,4,wikidata
 northumbria.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 northumbria.police.uk,,Northumbria Police,,4,wikidata
@@ -1191,13 +1148,11 @@ nwis.nhs.wales,,NHS Wales Informatics Service (Other),,4,directory
 nwssp.nhs.wales,,NHS Wales Shared Services Partnership,,4,directory
 occt.ox.ac.uk,,Oxford Comparative Criticism and Translation,,4,academia
 ochs.org.uk,,Oxford Centre for Hindu Studies,,4,academia
-ogmorevalecommunitycouncil.co.uk,,Ogmore Valley Community Council,,4,wikidata
 ohpa.org.uk,,Office of the Health Professions Adjudicator,,4,wikidata
 oiahe.org.uk,,Office of the Independent Adjudicator for Higher Education,,4,wikidata
 oii.ox.ac.uk,,Oxford Internet Institute,,4,academia
 olderpeople.wales,,Older People's Commissioner for Wales,,4,directory
 oldhamccg.nhs.uk,,Oldham Clinical Commissioning Group,,4,wikidata
-oldstmellonscommunitycouncil.org.uk,,Old St Mellons Community Council,,4,wikidata
 ombudsman.wales,,Public Service Ombudsman for Wales | Public Services Ombudsman for Wales (Other),,4,directory
 ombwdsmon.cymru,,Ombwdsmon Gwasanaethau Cyhoeddus Cymru,,4,directory
 open.ac.uk,central,Open University Department of Geography | Open University Department of Sociology | The Open University,,4,academia;ror
@@ -1242,7 +1197,6 @@ policeombudsman.org,,Office of the Police Ombudsman for Northern Ireland (Other)
 policyexchange.org.uk,,Policy Exchange,,4,academia
 policyresearch.org.uk,,Policy Research Centre,,4,academia
 politics.exeter.ac.uk,,University of Exeter Strategy and Security Institute,,4,academia
-pontlliw-tircoed.org.uk,,Pontlliw and Tircoed Community Council,,4,wikidata
 porthosp.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 portland-port.co.uk,,Portland Harbour Authority,,4,wikidata
 portofberwick.co.uk,,Port of Berwick,,4,wikidata
@@ -1272,7 +1226,6 @@ qeiicentre.london,,Queen Elizabeth II Conference Centre (Executive agency),,4,di
 quadram.ac.uk,,Quadram Institute,,4,academia
 qualificationswales.org,,Qualifications Wales,,4,directory
 queenelizabetholympicpark.co.uk,,London Legacy Development Corporation,,4,wikidata
-raglancc.org.uk,,Raglan Community Council,,4,wikidata
 rbfrs.co.uk,,Royal Berkshire Fire and Rescue Service,,4,wikidata
 rca.ac.uk,central,Royal College of Art,,4,academia
 rcm.ac.uk,central,Royal College of Music,,4,academia
@@ -1312,7 +1265,6 @@ sccl.nhs.uk,,Supply Chain Coordination Limited,,4,wikidata
 sci.manchester.ac.uk,,University of Manchester Sustainable Consumption Institute,,4,academia
 scie.org.uk,,Social Care Institute for Excellence,,4,wikidata
 scilt.org.uk,central,University of Strathclyde Scotland's National Centre for Languages,,4,academia
-scleddaucommunitycouncil.org.uk,,Scleddau Community Council,,4,wikidata
 scotblood.co.uk,,Scottish National Blood Transfusion Service,,4,wikidata
 scottish-land-court.org.uk,central-1,Scottish Land Court,,4,wikidata
 scottishscience.org.uk,,Scottish Science Advisory Council,,4,wikidata
@@ -1325,7 +1277,6 @@ sfh-tr.nhs.uk,,Linked from 4 public-sector domains,,4,linkgraph
 sharedassets.org.uk,,Shared Assets,,4,academia
 sheffield.ac.uk,central,University of Sheffield | University of Sheffield Institute for Studies on Ageing | University of Sheffield Institute of Work Psychology,,4,academia;ror
 sheffieldforgemasters.com,,Sheffield Forgemasters International Ltd (Public corporation),,4,directory
-shirenewtoncc.org.uk,,Shirenewton Community Council,,4,wikidata
 shu.ac.uk,central,Sheffield Hallam University Hallam Centre for Community Justice | Sheffield Hallam University Materials and Engineering Research Institute | Sheffield Hallam University TESOL Centre,,4,academia;ror
 sibgroup.org.uk,,Communitybuilders,,4,wikidata
 signhealth.org.uk,,Linked from 3 public-sector domains,,4,linkgraph
@@ -1367,10 +1318,8 @@ sqa.org.uk,central-1,Scottish Qualifications Authority,,4,wikidata
 sra.org.uk,,Solicitors Regulation Authority,,4,wikidata
 sshs.exeter.ac.uk,,University of Exeter Children's Health and Exercise Research Centre,,4,academia
 staffordshire.police.uk,,Staffordshire Police,,4,wikidata
-starvanscouncil.co.uk,,St Arvans Community Council,,4,wikidata
 statecraft.org.uk,,Institute for Statecraft,,4,academia
 staywise.co.uk,,Linked from 3 public-sector domains,,4,linkgraph
-stfaganscommunitycouncil.org.uk,,St Fagans Community Council,,4,wikidata
 sthk.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
 stockportmdc.co.uk,,Stockport Town Centre West Mayoral Development Corporation,,4,wikidata
 stonewall.org.uk,,Linked from 3 public-sector domains,,4,linkgraph
@@ -1408,11 +1357,8 @@ transitionaljustice.ulster.ac.uk,,Transitional Justice Institute,,4,academia
 transport.gov.scot,central-1,Transport Scotland,,4,wikidata
 travelhealthpro.org.uk,,Linked from 3 public-sector domains,,4,linkgraph
 trc.cymru,,Trafnidiaeth Cymru,,4,directory
-trearddurcommunitycouncil.co.uk,,Trearddur Community Council,,4,wikidata
 trebahgarden.co.uk,,Trebah,,4,academia
 treborth.bangor.ac.uk,,Treborth Botanic Garden,,4,academia
-trefriwcommunitycouncil.co.uk,,Trefriw Community Council,,4,wikidata
-trellechunited.org.uk,,Trellech United Community Council,,4,wikidata
 tribiwnlysaddysg.llyw.cymru,,Tribiwnlys Addysg Cymru,,4,directory
 tribiwnlysadolyguiechydmeddwl.llyw.cymru,,Tribiwnlys Adolygu Iechyd Meddwl Cymru,,4,directory
 tribiwnlyseiddopreswyl.llyw.cymru,,Tribiwnlys Eiddo Preswyl Cymru,,4,directory
@@ -1443,7 +1389,6 @@ unesco.org.uk,,United Kingdom National Commission for UNESCO,,4,wikidata
 unicef.org.uk,,Linked from 4 public-sector domains,,4,linkgraph
 unilever.co.uk,,Unilever Research & Development Port Sunlight Laboratory,,4,academia
 unn.ac.uk,central,Northumbria University,,4,academia
-upstairsatthegrill.co.uk,,"Old Custom House Building, Chester",,4,wikidata
 valuationtribunal.wales,,Tribiwnlys Prisio Cymru | Valuation Tribunal for Wales,,4,directory
 velindre.nhs.wales,,Velindre University NHS Trust,,4,directory
 veteranaware.nhs.uk,,Linked from 3 public-sector domains,,4,linkgraph
@@ -1500,13 +1445,11 @@ bathspa.ac.uk,central,Bath Spa University,,3,ror
 beds.ac.uk,central,University of Bedfordshire,,3,ror
 belfastairport.com,,Belfast International Airport Constabulary,,3,wikidata
 bennettswatergardens.com,,Bennetts Water Gardens,,3,academia
-betws.wordpress.com,,Betws Community Council,,3,wikidata
 bgateway.com,central-1,Business Gateway,,3,wikidata
 bgu.ac.uk,central,Bishop Grosseteste University,,3,ror
 bilnas.org,,British Institute for Libyan and Northern African Studies,,3,academia
 bios.asu.edu,,Bermuda Institute of Ocean Sciences,,3,academia
 bios.edu,,Bermuda Institute of Ocean Sciences,,3,academia
-bishtoncommunitycouncil.webs.com,,Bishton Community Council,,3,wikidata
 bite.ac.uk,central,British Institute of Technology and E-commerce,,3,ror
 bnl.bm,,Bermuda National Library,,3,wikidata
 botanicgarden.wales,central,National Botanic Garden of Wales,,3,academia
@@ -1517,7 +1460,6 @@ brighton.ac.uk,central,University of Brighton,,3,ror
 britishirishchamber.com,,British Irish Chamber of Commerce,,3,wikidata
 bucks.ac.uk,central,Buckinghamshire New University,,3,ror
 cabi.org,,CAB International,,3,academia
-caerwentcc.com,,Caerwent Community Council,,3,wikidata
 cambridge-biomedical.com,,Cambridge Biomedical Campus,,3,academia
 cardiffharbour.com,,Cardiff Harbour Authority,,3,wikidata
 catalyst-inc.org,,Catalyst Inc,,3,academia
@@ -1531,7 +1473,6 @@ centreforwelfarereform.org,,Centre for Welfare Reform,,3,academia
 chathamhouse.org,,Chatham House,,3,academia
 chi.ac.uk,central,University of Chichester,,3,ror
 childrensuniversity.co.uk,central,Sheffield Children's University,,3,ror
-cil.ie,,Commissioners of Irish Lights,,3,wikidata
 ciotr.com,,Center of Intelligent Operations and Technology Research,,3,academia
 citystgeorges.ac.uk,central,"City St George's, University of London",,3,ror
 cjini.org,central-1,Criminal Justice Inspection Northern Ireland,,3,wikidata
@@ -1539,15 +1480,14 @@ classicalassociation.org,,Classical Association,,3,academia
 clubofthree.org,,Club of Three,,3,academia
 cmoptions.org,,Child Maintenance Options,,3,wikidata
 code.publichealthscotland.scot,,Open code for public health in Scotland (Scotland) -- code catalog,,3,sopc
-coedpoeth.com,,Coedpoeth Community Council,,3,wikidata
 commerce.co.fk,,Falkland Islands Chamber of Commerce,,3,wikidata
 common-wealth.org,,Common Wealth,,3,academia
+consumer.scot,central-1,Consumer Scotland,,3,wikidata
 counciltaxreductionreview.scot,central-1,Council Tax Reduction Review Panel,,3,wikidata
 courtofthelordlyon.scot,central-1,Court of the Lord Lyon,,3,wikidata
 cpom.org,,Centre for Polar Observation & Modelling,,3,academia
 cppih.org,,Commission for Patient and Public Involvement in Health,,3,wikidata
 croeso.cymru,,Visit Wales,,3,wikidata
-crucorney.wales,,Crucorney Community Council,,3,wikidata
 cser.org,,Centre for the Study of Existential Risk,,3,academia
 cuhp.org.uk,central,Cambridge University Health Partners,,3,ror
 cyprusinuk.com,central,"High Commission of Cyprus, London",,3,wikidata
@@ -1556,7 +1496,6 @@ dartharbour.org,,Dart Harbour & Navigation Authority,,3,wikidata
 designsociety.org,,The Design Society,,3,academia
 dgcommunity.net,,Dumfries and Galloway Fire and Rescue Service,,3,wikidata
 dilstonphysicgarden.com,,Dilston Physic Garden,,3,academia
-dinaspowys.org,,Dinas Powys Community Council,,3,wikidata
 diplo.de,central-1,"2 proposed hosts under it: uk.diplo.de, edinburgh.diplo.de",,3,parent
 discourseunit.com,,Discourse Unit,,3,academia
 dwqr.scot,central-1,Drinking Water Quality Regulator,,3,wikidata
@@ -1595,7 +1534,6 @@ gre.ac.uk,central,University of Greenwich,,3,ror
 greaterbirminghamchambers.com,,Greater Birmingham Chambers of Commerce,,3,wikidata
 greatermanchester.ac.uk,central,University of Greater Manchester,,3,ror
 grimsby.ac.uk,central,Grimsby Institute,,3,ror
-grosmont.wales,,Grosmont Community Council,,3,wikidata
 harper-adams.ac.uk,central,Harper Adams University,,3,ror
 harrison-institute.org,,Harrison Institute,,3,academia
 hartpury.ac.uk,central,Hartpury University,,3,ror
@@ -1627,12 +1565,11 @@ instytutpolski.pl,,Polish Cultural Institute in London,,3,wikidata
 iom-world.org,,Institute of Occupational Medicine,,3,academia
 ippr.org,,Institute for Public Policy Research,,3,academia
 ireland.com,,Tourism Ireland,,3,wikidata
+irishlights.ie,,Commissioners of Irish Lights,,3,wikidata
 iwpr.net,,Institute for War and Peace Reporting,,3,academia
 jhcuk.org,central,Jamaican High Commission in London,,3,wikidata
 keele.ac.uk,central,Keele University,,3,ror
 kent.fire-uk.org,,Kent Fire and Rescue Service,,3,wikidata
-killaycommunitycouncil.com,,Upper Killay Community Council,,3,wikidata
-kilwinningcc.org,,Kilwinning Community Council,,3,wikidata
 kingston.ac.uk,central,Kingston University London,,3,ror
 lancashire.ac.uk,central,University of Lancashire,,3,ror
 lancasterport.org,,Lancaster Port Commission,,3,wikidata
@@ -1641,9 +1578,6 @@ leeds-art.ac.uk,central,Leeds Arts University,,3,ror
 leedsbeckett.ac.uk,central,Leeds Beckett University,,3,ror
 leedstrinity.ac.uk,central,Leeds Trinity University,,3,ror
 li.com,,Prosperity Institute,,3,academia
-llanarth.org,,Llanarth Community Council,,3,wikidata
-llanbadoc.org,,Llanbadoc Community Council,,3,wikidata
-llanrhydithon.wordpress.com,,Llanfihangel Rhydithon Community Council,,3,wikidata
 london-nano.com,,London Centre for Nanotechnology,,3,academia
 london.ac.uk,central,University of London,,3,ror
 london.europarl.europa.eu,,European Parliament Liaison Office in London,,3,wikidata
@@ -1655,22 +1589,17 @@ londres.embaixadaportugal.mne.pt,central,"Embassy of Portugal, London",,3,wikida
 londres.mae.lu,central,"Embassy of Luxembourg, London",,3,wikidata
 longtermrisk.org,,Q136995628,,3,academia
 lothian.fire-uk.org,,Lothian and Borders Fire Brigade,,3,wikidata
-mabws.net,,Llanrhian Community Council,,3,wikidata
 manchester.ac.uk,central,University of Manchester,,3,ror
 marjon.ac.uk,central,Plymouth Marjon University,,3,ror
-marshfieldcommunitycouncil.org,,Marshfield Community Council,,3,wikidata
 mdg-london.org,central,embassy of Madagascar in the United Kingdom,,3,wikidata
 medway.ac.uk,central,Universities at Medway,,3,ror
 metanumismatics.com,,International Institute of MetaNumismatics,,3,academia
-michaelston-y-fedw.com,,Michaelstone-y-Fedw Community Council,,3,wikidata
 moreincommon.com,,More in Common,,3,academia
 mrc.ukri.org,,MRC Laboratory of Medical Sciences,,3,academia
-mzv.cz,central,"Embassy of the Czech Republic, London",,3,wikidata
 mzv.sk,central,"Embassy of Slovakia, London",,3,wikidata
 nature.scot,central-1,NatureScot,,3,wikidata
 ncl.ac.uk,central,Newcastle University,,3,ror
 nestcentre.org,,New Eurasian Strategies Centre,,3,academia
-newradnor.net,,New Radnor Community Council,,3,wikidata
 newweather.org,,New Weather Institute,,3,academia
 nextcenturyfoundation.org,,Next Century Foundation,,3,academia
 nhs.wales,central-1,NHS Wales,,3,wikidata
@@ -1698,19 +1627,14 @@ oxfordenergy.org,,Oxford Institute for Energy Studies,,3,academia
 oxonia.org,,The Oxford Institute for Economic Policy,,3,academia
 pcc-scotland.org,,Police Complaints Commissioner for Scotland,,3,wikidata
 peelports.com,,Clyde Port Authority,,3,wikidata
-penhowcommunity.org,,Penhow Community Council,,3,wikidata
-pentyrch.cc,,Pentrych Community Council,,3,wikidata
-penycaecc.plus.com,,Pen-y-cae Community Council,,3,wikidata
 pfsld.com,,Police Forensic Science Laboratory Dundee,,3,wikidata
 pharmacyregulation.org,central-1,General Pharmaceutical Council,,3,wikidata
 pinetumgardens.com,,Pinetum Gardens,,3,academia
 plymouth.ac.uk,central,University of Plymouth,,3,ror
-portskwettcc.org,,Portskewett Community Council,,3,wikidata
 positivemoney.org,,Positive Money,,3,academia
 prosperity.com,,Prosperity Institute,,3,academia
 puno.ac.uk,central,Polish University Abroad,,3,ror
 qatarembassy.info,central,"Embassy of Qatar, London",,3,wikidata
-radyrandmorganstown.org,,Radyr and Morganstown Community Council,,3,wikidata
 ramsterevents.com,,Ramster Gardens,,3,academia
 ravensbourne.ac.uk,central,Ravensbourne University London,,3,ror
 rbcc.com,,Russo-British Chamber of Commerce,,3,wikidata
@@ -1722,7 +1646,6 @@ regents.ac.uk,central,Regent's University London,,3,ror
 research.ibm.com,,IBM Research - United Kingdom,,3,academia
 researchonresearch.org,,Research on Research Institute,,3,academia
 richmond.ac.uk,central,"Richmond, The American International University in London",,3,ror
-rogerstonecommunitycouncil.com,,Rogerstone Community Council,,3,wikidata
 royalholloway.ac.uk,central,Royal Holloway University of London,,3,ror
 runnymedetrust.org,,Runnymede Trust,,3,academia
 rusi.org,,Royal United Services Institute,,3,academia
@@ -1752,7 +1675,6 @@ supa.ac.uk,central,Scottish Universities Physics Alliance,,3,ror
 superstem.org,,SuperSTEM,,3,academia
 swanseabay.nhs.wales,,Swansea Bay University Health Board,,3,wikidata
 swedenabroad.com,central,"Embassy of Sweden, London",,3,wikidata
-talhaiarn.cymru,,Llanfairtalhaiarn Community Council,,3,wikidata
 taxtribunals.scot,central-1,Tax Chamber,,3,wikidata
 tfgm.com,,Transport for Greater Manchester,,3,wikidata
 theigc.org,,International Growth Centre,,3,academia
@@ -1784,16 +1706,15 @@ visitwales.com,,Visit Wales,,3,wikidata
 vmicuk.com,,Vaccines Manufacturing and Innovation Centre,,3,academia
 walbrook.ac.uk,central,Walbrook Institute London,,3,ror
 wales.ac.uk,central-1,University of Wales,,3,ror
+web.archive.org,,NHS Newcastle Gateshead Clinical Commissioning Group,,3,wikidata
 wellcome-matrix.org,,Wellcome Trust Centre for Cell-Matrix Research,,3,academia
 wfpnet.org,,World Federation of Parasitologists,,3,academia
 whatworksgrowth.org,,What Works Centre for Local Economic Growth,,3,academia
 wmfs.net,,West Midlands Fire Service,,3,wikidata
-wordpress.com,,"2 proposed hosts under it: betws.wordpress.com, llanrhydithon.wordpress.com",,3,parent
 wrexham.ac.uk,central,Wrexham University,,3,ror
 www-05.ibm.com,,IBM Hursley,,3,academia
 yorksj.ac.uk,central,York St John University,,3,ror
 youngfoundation.org,,Young Foundation,,3,academia
-ysbytyifan.org,,Ysbyty Ifan Community Council,,3,wikidata
 zhfoundation.com,,The Zaha Hadid Foundation,,3,academia
 aku.edu,central,The Aga Khan University (International) in the United Kingdom,,2,ror
 aul.edu,central,American University in London,,2,ror
@@ -1801,7 +1722,7 @@ bimm.university,central,BIMM University,,2,ror
 bpp.com,central,BPP University,,2,ror
 bris.ac.uk,,University of Bristol Centre for Sport Exercise and Health | University of Bristol Department of Electrical and Electronic Engineering | University of Bristol Institute of Greece Rome and the Classical Tradition,,2,academia
 city.ac.uk,,City University Centre for Child and Family Law Reform | City University Centre for Information Science | City University Centre for Language Studies | City University Centre for Mathematical Science | City University Centre for the Study of Legal Professional Practice | City University Department of Electrical and Electronic Engineering | City University Department of Sociology,,2,academia
-healthwatchdorset.co.uk,,Healthwatch Poole | Healthwatch Bournemouth | Healthwatch Dorset,,2,wikidata
+healthwatchdorset.co.uk,,Healthwatch Bournemouth | Healthwatch Poole | Healthwatch Dorset,,2,wikidata
 imperial.ac.uk,central,Data Science Institute | Grantham Institute – Climate Change and the Environment | Imperial Centre for Psychedelic Research | Imperial College London,,2,academia
 lse.ac.uk,central,"Care Policy and Evaluation Centre | Centre for Analysis of Risk and Regulation | Centre for Macroeconomics | Centre for Philosophy of Natural and Social Science | Centre for Women, Peace and Security | Centre for the Analysis of Time Series | Financial Markets Group | Grantham Research Institute on Climate Change and the Environment | LSE Cities | LSE Health | LSE IDEAS | London School of Economics and Political Science | London School of Economics and Political Science Department of Sociology | Middle East Centre | Phelan United States Centre | Saw Swee Hock Southeast Asia Centre",,2,academia
 queensu.ca,central,Bader College,,2,ror

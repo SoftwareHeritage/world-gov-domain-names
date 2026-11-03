@@ -1,10 +1,16 @@
 domain,level,name,kind,score,sources
 parliament.ge,central,Parliament of Georgia,,8,wikidata
+125.ge,central,Security Police Department of Georgia,,7,wikidata
+constcourt.ge,central,Constitutional Court of Georgia,,7,wikidata
+economy.ge,central,Ministry of Economy and Sustainable Development of Georgia,,7,wikidata
 geostat.ge,central,National Statistics Office of Georgia,,7,wikidata;academia
-police.ge,central,Ministry of Internal Affairs | Special Tasks Department,,7,wikidata
+mia.police.ge,central,Ministry of Internal Affairs of Georgia,,7,wikidata
+mof.ge,central,Ministry of Finance of Georgia,,7,wikidata
+police.ge,central,Special Tasks Department | Patrol Police Department of the Ministry of Internal Affairs of Georgia,,7,wikidata
+president.ge,central,Administration of the President of Georgia,,7,wikidata
 sca.ge,central-1,Supreme Council of the Autonomous Republic of Adjara,,7,wikidata
 ngu.edu.ge,central,New Georgian University,,6,academia;ror
-supremecourt.ge,,Supreme Court of Georgia,,6,wikidata
+supremecourt.ge,central,Supreme Court of Georgia,,6,wikidata
 tafu.edu.ge,central,Shota Rustaveli Theatre and Film University,,6,academia;ror
 tsu.ge,central,Tbilisi State University,,6,academia;ror
 aidscenter.ge,,AIDS and Clinical Immunology Research Center,,4,wikidata
@@ -13,7 +19,7 @@ ajig.ge,,Alexandre Janelidze Institute of Geology,,4,academia
 art.edu.ge,central,Tbilisi State Academy of Arts,,4,academia
 bbg.ge,,Batumi Botanical Garden,,4,academia
 caumineral.org.ge,,Caucasian Institute of Mineral Resources,,4,academia
-cesko.ge,,Election Administration of Georgia,,4,wikidata
+cesko.ge,central,Central Election Commission of Georgia,,4,wikidata
 comcom.ge,,Georgian National Communications Commission,,4,wikidata
 gch-centre.ge,central,The G. Chubinashvili National Research Centre for Georgian Art History and Heritage Preservation,,4,academia
 geostm.ge,,Georgian National Agency for Standards and Metrology,,4,wikidata
@@ -32,6 +38,8 @@ publichealth.ge,,Public Health Institute of Georgia,,4,academia
 rmi.tsu.ge,,Andrea Razmadze Mathematical Institute,,4,academia
 rustaveli.org.ge,,Shota Rustaveli National Science Foundation,,4,wikidata
 sciencelib.ge,,National Science Library,,4,wikidata
+sipt.org.ge,,LEPL Ilia Vekua Sukhumi Institute of Physics and Technology,,4,wikidata
+tas.ge,central-1,Tbilisi Architecture Service,,4,wikidata
 tbiliszi.mfa.gov.hu,central,"Embassy of Hungary, Tbilisi",,4,wikidata
 unesco.ge,,Georgian National Commission for UNESCO,,4,wikidata
 vbig.ge,,Vakhushti Bagrationi Institute of Geography,,4,academia
@@ -62,6 +70,7 @@ gau.edu.ge,central,Georgian American University,,3,ror
 ge.ambafrance.org,central,"Embassy of France, Tbilisi",,3,wikidata
 ge.mfa.lt,central,embassy of Lithuania in Georgia,,3,wikidata
 geomedi.edu.ge,central,University Geomedi,,3,ror
+georgia.mfa.am,,"Embassy of Armenia, Tbilisi",,3,wikidata
 giu.edu.ge,central,Georgian International University,,3,ror
 gosarchive.apsny.land,,Abkhaz State Archive,,3,wikidata
 gruni.edu.ge,central,Grigol Robakidze University,,3,ror
@@ -99,8 +108,5 @@ thu.edu.ge,central,Tbilisi Humanitarian University,,3,ror
 tiflis.diplo.de,central,"Embassy of Germany, Tbilisi",,3,wikidata
 ug.edu.ge,central,University of Georgia,,3,ror
 vaticange.org,central,Apostolic Nunciature to Georgia,,3,wikidata
-economy.ge,central,Ministry of Economy and Sustainable Development of Georgia | Ministry of Economy and Sustainable Development,,2,wikidata
-mia.police.ge,central,Ministry of Internal Affairs of Georgia,,2,wikidata
-mof.ge,central,Ministry of Finance of Georgia,,2,wikidata
 tsmu.edu,central,Tbilisi State Medical University,,2,ror
 unigeorgia.eu,central,International Teaching University of Georgia,,2,ror

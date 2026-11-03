@@ -14,9 +14,10 @@ government_agency,Q123476447,https://ads.ma,ads.ma,
 government_agency,Q126953228,https://agadirinvest.com/,agadirinvest.com,
 government_agency,Q123476446,https://agencemarchica.gov.ma/,agencemarchica.gov.ma,
 government_agency,"Ministry of Agriculture, Maritime Fisheries, Rural Development and Water and Forests of Morocco",http://www.agriculture.gov.ma/en/,agriculture.gov.ma,central
-ministry,"Ministry of Agriculture, Maritime Fisheries, Rural Development and Water and Forests of Morocco",http://www.agriculture.gov.ma/en/,agriculture.gov.ma,central
 constitutional_court,Cabinet of Akhannouch II,https://alhoukouma.gov.ma/,alhoukouma.gov.ma,local
+constitutional_court,El Mansouri government,https://alhoukouma.gov.ma,alhoukouma.gov.ma,
 government_agency,Cabinet of Akhannouch II,https://alhoukouma.gov.ma/,alhoukouma.gov.ma,local
+government_agency,El Mansouri government,https://alhoukouma.gov.ma,alhoukouma.gov.ma,
 government_agency,Q20725725,https://www.alomrane.gov.ma/ar,alomrane.gov.ma,
 government_agency,"Embassy of Algeria, Rabat",https://www.ambalg.ma,ambalg.ma,central
 government_agency,"Embassy of Italy, Rabat",https://ambrabat.esteri.it,ambrabat.esteri.it,central
@@ -90,8 +91,8 @@ government_agency,embassy of Austria in Morocco,https://www.bmeia.gv.at/oeb-raba
 government_agency,National Library of the Kingdom of Morocco,https://www.bnrm.ma/,bnrm.ma,
 government_agency,Agency for the development of the Bouregreg valley,https://www.bouregreg.com/,bouregreg.com,
 government_agency,Q123476453,https://cadetaf.com,cadetaf.com,
-government_agency,African Training and Research Centre in Administration for Development,https://cafrad.io/ar/,cafrad.io,
 government_agency,African Training and Research Centre in Administration for Development,https://cafrad.io/,cafrad.io,
+government_agency,African Training and Research Centre in Administration for Development,https://cafrad.io/ar/,cafrad.io,
 government_agency,African Training and Research Centre in Administration for Development,https://cafrad.io/en/,cafrad.io,
 government_agency,embassy of Canada in Morocco,https://www.canadainternational.gc.ca/morocco-maroc/index.aspx,canadainternational.gc.ca,central
 government_agency,Q126953232,https://casainvest.ma/,casainvest.ma,
@@ -141,15 +142,14 @@ parliament,Tangier-Tetouan-Al Hoceima Regional Council,https://crtta.ma/,crtta.m
 government_agency,Q126953221,https://www.dakhlainvest.com,dakhlainvest.com,
 government_agency,Moroccan General Delegation of the Penitentiaries and Reinsertion Administration,https://www.dgapr.gov.ma/,dgapr.gov.ma,
 government_agency,Police of Morocco,https://www.dgsn.gov.ma/,dgsn.gov.ma,
-ministry,"Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates",https://diplomatie.ma/,diplomatie.ma,central
 government_agency,"Ministry of Foreign Affairs, African Cooperation and Moroccan Expatriates",https://diplomatie.ma/,diplomatie.ma,central
+government_agency,National Agency for Water and Forests,http://www.eauxetforets.gov.ma,eauxetforets.gov.ma,
 government_agency,Haut-Commissariat aux Eaux et Forêts et à la Lutte Contre la Désertification,http://www.eauxetforets.gov.ma/,eauxetforets.gov.ma,
-government_agency,Q126953108,http://www.eauxetforets.gov.ma,eauxetforets.gov.ma,
 government_agency,embassy of Switzerland in Morocco,https://www.eda.admin.ch/rabat,eda.admin.ch,central
 government_agency,Delegation of the European Union to Morocco,https://eeas.europa.eu/delegations/morocco_en,eeas.europa.eu,
-government_agency,Hassania School of Public Works,https://www.ehtp.ac.ma/en/,ehtp.ac.ma,
-government_agency,Hassania School of Public Works,https://www.ehtp.ac.ma/ar/,ehtp.ac.ma,
 government_agency,Hassania School of Public Works,http://www.ehtp.ac.ma/,ehtp.ac.ma,
+government_agency,Hassania School of Public Works,https://www.ehtp.ac.ma/ar/,ehtp.ac.ma,
+government_agency,Hassania School of Public Works,https://www.ehtp.ac.ma/en/,ehtp.ac.ma,
 government_agency,embassy of Argentina in Morocco,https://emarr.cancilleria.gob.ar,emarr.cancilleria.gob.ar,central
 government_agency,embassy of Mexico in Morocco,https://embamex.sre.gob.mx/marruecos,embamex.sre.gob.mx,central
 government_agency,Israeli Liaison Office in Morocco,https://embassies.gov.il/rabat,embassies.gov.il,
@@ -159,45 +159,38 @@ government_agency,National School of Mineral Industry,https://www.enim.ac.ma/,en
 government_agency,École Normale Supérieure - Marrakech,http://www.ens-marrakech.ac.ma/,ens-marrakech.ac.ma,
 government_agency,École nationale supérieure de l'administration,http://www.ensa.org.ma,ensa.org.ma,
 government_agency,"Ministry of Higher Education, Scientific Research and Innovation",https://www.enssup.gov.ma,enssup.gov.ma,
-ministry,"Ministry of Higher Education, Scientific Research and Innovation",https://www.enssup.gov.ma,enssup.gov.ma,
 government_agency,Q96811033,https://www.entraide.ma/,entraide.ma,
-ministry,Ministry of Energy Transition and Sustainable Development,https://www.environnement.gov.ma,environnement.gov.ma,central
 government_agency,Ministry of Energy Transition and Sustainable Development,https://www.environnement.gov.ma,environnement.gov.ma,central
-ministry,Ministry of Equipment and Water,http://www.equipement.gov.ma/,equipement.gov.ma,
 government_agency,Ministry of Equipment and Water,http://www.equipement.gov.ma/,equipement.gov.ma,
 government_agency,"Embassy of Spain, Rabat",http://www.exteriores.gob.es/Embajadas/RABAT,exteriores.gob.es,central
 government_agency,Q123476459,https://www.fec.ma/,fec.ma,
 government_agency,Q126953223,https://fesmeknesinvest.ma/,fesmeknesinvest.ma,
 government_agency,Ministry of Economy and Finance (Morocco),http://www.finances.gov.ma,finances.gov.ma,central
-ministry,Ministry of Economy and Finance (Morocco),http://www.finances.gov.ma,finances.gov.ma,central
 government_agency,embassy of Finland in Morocco,https://finlandabroad.fi/web/mar,finlandabroad.fi,central
 government_agency,embassy of Ghana in Morocco,https://ghanaembassy-morocco.com,ghanaembassy-morocco.com,central
 government_agency,embassy of Peru in Morocco,https://www.gob.pe/embajada-del-peru-en-marruecos,gob.pe,central
 government_agency,"Embassy of Poland, Rabat",https://www.gov.pl/web/maroko,gov.pl,central
 government_agency,British Embassy Rabat,https://www.gov.uk/world/organisations/british-embassy-rabat,gov.uk,central
-government_agency,BCP Group,https://www.groupebcp.com/en,groupebcp.com,
 government_agency,BCP Group,https://www.groupebcp.com/ar,groupebcp.com,
+government_agency,BCP Group,https://www.groupebcp.com/en,groupebcp.com,
 government_agency,BCP Group,https://www.groupebcp.com/fr,groupebcp.com,
 government_agency,ISCAE,http://www.groupeiscae.ma,groupeiscae.ma,
 government_agency,Q126953225,http://www.guelmiminvest.ma/,guelmiminvest.ma,
-ministry,Ministry of Endowments and Islamic Affairs of Morocco,https://www.habous.gov.ma,habous.gov.ma,central
 government_agency,Ministry of Endowments and Islamic Affairs of Morocco,https://www.habous.gov.ma,habous.gov.ma,central
+government_agency,High Authority for Audio-visual Communication,http://www.haca.ma/index.jsp,haca.ma,
 government_agency,Maroc Telecom,https://www.iam.ma,iam.ma,
 government_agency,IAV Hassan II,http://www.iav.ac.ma,iav.ac.ma,
 government_agency,Q123476461,https://www.imanor.gov.ma/,imanor.gov.ma,
 government_agency,"Embassy of India, Rabat",https://www.indianembassyrabat.gov.in,indianembassyrabat.gov.in,central
 government_agency,Institut National de la Recherche Agronomique,https://www.inra.org.ma,inra.org.ma,
 government_agency,Institut National de Recherche Halieutique,http://www.inrh.ma/,inrh.ma,
-ministry,Ministry of the Interior,http://www.interieur.gov.ma,interieur.gov.ma,central
 government_agency,Ministry of the Interior,http://www.interieur.gov.ma,interieur.gov.ma,central
 government_agency,Q126953229,https://investangier.com/,investangier.com,
 government_agency,Q123476462,https://ipsm.ma/,ipsm.ma,
 government_agency,Royal Institute of Amazigh Culture,https://www.ircam.ma/,ircam.ma,
 government_agency,Institut supérieur de la Magistrature,https://ism.ma/fr/accueil-ism/,ism.ma,
-government_agency,Ministry of Justice,http://www.justice.gov.ma,justice.gov.ma,central
 government_agency,Ministry of Justice (Morocco),http://www.justice.gov.ma/,justice.gov.ma,central
-ministry,Ministry of Justice (Morocco),http://www.justice.gov.ma/,justice.gov.ma,central
-ministry,Ministry of Justice,http://www.justice.gov.ma,justice.gov.ma,central
+government_agency,Ministry of Justice,http://www.justice.gov.ma,justice.gov.ma,central
 government_agency,"embassy of Indonesia, Rabat",https://kemlu.go.id/rabat,kemlu.go.id,central
 government_agency,Q126953233,https://laayouneinvest.ma/,laayouneinvest.ma,
 government_agency,MAS,http://www.lamas.ma,lamas.ma,
@@ -205,65 +198,55 @@ government_agency,"Embassy of France, Rabat",https://ma.ambafrance.org/,ma.ambaf
 government_agency,Q73394233,https://ma.consulfrance.org/-Marrakech-,ma.consulfrance.org,
 government_agency,Embassy of Japan in Morocco,https://www.ma.emb-japan.go.jp/,ma.emb-japan.go.jp,central
 government_agency,embassy of Croatia in Morocco,http://ma.mvep.hr,ma.mvep.hr,central
-government_agency,"Consulate General of the United States, Casablanca",https://ma.usembassy.gov/embassy-consulate/casablanca/,ma.usembassy.gov,
 government_agency,embassy of the United States in Morocco,https://ma.usembassy.gov,ma.usembassy.gov,central
+government_agency,"Consulate General of the United States, Casablanca",https://ma.usembassy.gov/embassy-consulate/casablanca/,ma.usembassy.gov,
 government_agency,Ministry of National Education,https://www.madrastna.ma/fr-FR/,madrastna.ma,central
-ministry,Ministry of National Education,https://www.madrastna.ma/fr-FR/,madrastna.ma,central
 government_agency,Maghreb Arabe Presse,https://www.map.ma/,map.ma,
 government_agency,embassy of Ivory Coast in Morocco,https://www.maroc.diplomatie.gouv.ci,maroc.diplomatie.gouv.ci,central
 government_agency,embassy of Russia in Morocco,https://www.marocco.mid.ru/,marocco.mid.ru,central
 government_agency,Direction générale de la Météorologie Nationale,https://www.marocmeteo.ma/,marocmeteo.ma,
 government_agency,"Moroccan National Commission for Education, Sciences and Culture",http://www.marocnatcom.ma/,marocnatcom.ma,
 government_agency,Agence Nationale pour la Promotion des Petites et Moyennes Entreprises,https://marocpme.gov.ma/,marocpme.gov.ma,
-government_agency,German Chamber of Commerce and Industry in Morocco,https://marokko.ahk.de/,marokko.ahk.de,
 government_agency,German Chamber of Commerce and Industry in Morocco,https://marokko.ahk.de/fr/,marokko.ahk.de,
+government_agency,German Chamber of Commerce and Industry in Morocco,https://marokko.ahk.de/,marokko.ahk.de,
 government_agency,embassy of Denmark in Morocco,https://marokko.um.dk,marokko.um.dk,central
 government_agency,embassy of Colombia in Morocco,https://marruecos.embajada.gov.co,marruecos.embajada.gov.co,central
 government_agency,embassy of Guatemala in Morocco,https://www.marruecos.minex.gob.gt,marruecos.minex.gob.gt,central
 government_agency,MarsaMaroc,https://www.marsamaroc.co.ma/ar/,marsamaroc.co.ma,
 government_agency,Masen,http://www.masen.ma,masen.ma,
 government_agency,Ministry of Industry and Trade,https://www.mcinet.gov.ma/,mcinet.gov.ma,central
-ministry,Ministry of Industry and Trade,https://www.mcinet.gov.ma/,mcinet.gov.ma,central
 government_agency,Q123476464,https://www.mda.gov.ma,mda.gov.ma,
 government_agency,La Marocaine des Jeux et des Sports,https://www.mdjs.ma/,mdjs.ma,
-ministry,Ministry of Energy Transition and Sustainable Development,https://www.mem.gov.ma/,mem.gov.ma,central
 government_agency,Ministry of Energy Transition and Sustainable Development,https://www.mem.gov.ma/,mem.gov.ma,central
 government_agency,embassy of Bulgaria in Morocco,https://www.mfa.bg/embassies/morocco,mfa.bg,central
 government_agency,embassy of Greece in Morocco,https://www.mfa.gr/missionsabroad/morocco/,mfa.gr,central
 government_agency,"Ministry of National Territory Planning, Land Planning, Housing and City Policy (Morocco)",http://www.mhpv.gov.ma/,mhpv.gov.ma,central
-ministry,"Ministry of National Territory Planning, Land Planning, Housing and City Policy (Morocco)",http://www.mhpv.gov.ma/,mhpv.gov.ma,central
 government_agency,"Ministry of Economic Inclusion, Small Business, Jobs and Skills of Morocco",https://miepeec.gov.ma/,miepeec.gov.ma,central
-ministry,"Ministry of Economic Inclusion, Small Business, Jobs and Skills of Morocco",https://miepeec.gov.ma/,miepeec.gov.ma,central
-ministry,Ministry of Communications,http://www.mincom.gov.ma,mincom.gov.ma,central
 government_agency,Ministry of Communications,http://www.mincom.gov.ma,mincom.gov.ma,central
 government_agency,"Ministry of Youth, Culture and Communication",https://mjcc.gov.ma,mjcc.gov.ma,central
-ministry,"Ministry of Youth, Culture and Communication",https://mjcc.gov.ma,mjcc.gov.ma,central
 government_agency,"Embassy of Iraq, Rabat",https://www.mofa.gov.iq/rabat/ar/,mofa.gov.iq,central
 government_agency,"Embassy of the United Arab Emirates, Rabat",https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=cbdf30bc-b20d-458f-8dde-8bcf6cc9bee4,mofaic.gov.ae,central
 government_agency,"Embassy of Belgium, Rabat",http://morocco.diplomatie.belgium.be,morocco.diplomatie.belgium.be,central
 government_agency,embassy of Australia in Morocco,https://morocco.embassy.gov.au/,morocco.embassy.gov.au,central
 government_agency,"Embassy of Ukraine, Rabat",http://morocco.mfa.gov.ua/,morocco.mfa.gov.ua,central
 government_agency,Q123476457,https://www.moroccofoodex.org.ma,moroccofoodex.org.ma,
-ministry,"Ministry of Tourism, Handicrafts and Social and Solidarity Economy",https://mtaess.gov.ma/fr/tourisme/,mtaess.gov.ma,central
 government_agency,"Ministry of Tourism, Handicrafts and Social and Solidarity Economy",https://mtaess.gov.ma/fr/tourisme/,mtaess.gov.ma,central
-ministry,Ministry of Energy Transition and Sustainable Development,http://www.mtedd.gov.ma/,mtedd.gov.ma,central
 government_agency,Ministry of Energy Transition and Sustainable Development,http://www.mtedd.gov.ma/,mtedd.gov.ma,central
 government_agency,"Ministry of National Territory Planning, Land Planning, Housing and City Policy (Morocco)",https://www.muat.gov.ma/,muat.gov.ma,central
-ministry,"Ministry of National Territory Planning, Land Planning, Housing and City Policy (Morocco)",https://www.muat.gov.ma/,muat.gov.ma,central
 government_agency,embassy of the Czech republic in Morocco,https://www.mzv.cz/rabat,mzv.cz,central
 government_agency,National Road Safety Agency,http://www.narsa.ma/,narsa.ma,
 government_agency,"Embassy of The Netherlands, Rabat",https://www.nederlandwereldwijd.nl/landen/marokko,nederlandwereldwijd.nl,central
 government_agency,Israeli Liaison Office in Morocco,https://new.embassies.gov.il/morocco/en/the-liaison-office,new.embassies.gov.il,
 government_agency,"Embassy of Norway, Rabat",https://www.norway.no/morocco/,norway.no,central
 government_agency,Q96839284,https://www.oc.gov.ma,oc.gov.ma,
-government_agency,OCP Group,https://www.ocpgroup.ma/ar,ocpgroup.ma,
 government_agency,OCP Group,https://www.ocpgroup.ma/,ocpgroup.ma,
+government_agency,OCP Group,https://www.ocpgroup.ma/ar,ocpgroup.ma,
 government_agency,OCP Group,https://www.ocpgroup.ma/fr,ocpgroup.ma,
 government_agency,Q123476466,https://www.odco.gov.ma/,odco.gov.ma,
-government_agency,Franciscan province of Santiago,http://www.ofmsantiago.com/,ofmsantiago.com,
 constitutional_court,Franciscan province of Santiago,http://www.ofmsantiago.com/,ofmsantiago.com,
-government_agency,Vocational Training and Labor Promotion Office,https://www.ofppt.ma/ar,ofppt.ma,
+government_agency,Franciscan province of Santiago,http://www.ofmsantiago.com/,ofmsantiago.com,
 government_agency,Vocational Training and Labor Promotion Office,https://www.ofppt.ma/,ofppt.ma,
+government_agency,Vocational Training and Labor Promotion Office,https://www.ofppt.ma/ar,ofppt.ma,
 government_agency,Moroccan Office of Industrial and Commercial Property,http://www.ompic.ma,ompic.ma,
 government_agency,Q123476467,https://onca.gov.ma,onca.gov.ma,
 government_agency,ONCF,http://www.oncf.ma/,oncf.ma,
@@ -278,10 +261,11 @@ government_agency,Q126953234,https://ormvah.com/,ormvah.com,
 government_agency,Q126953245,https://ormvasm.ma,ormvasm.ma,
 government_agency,Q126953247,https://ormvatadla.ma/,ormvatadla.ma,
 government_agency,Q126953248,https://www.ormvatafilalet.ma/,ormvatafilalet.ma,
-supreme_court,Parliament of Morocco,https://www.parlement.ma/,parlement.ma,central
 parliament,Parliament of Morocco,https://www.parlement.ma/,parlement.ma,central
+supreme_court,Parliament of Morocco,https://www.parlement.ma/,parlement.ma,central
 government_agency,Institut Pasteur du Maroc,http://www.pasteur.ma/,pasteur.ma,
 government_agency,Poste Maroc,https://www.poste.ma/wps/portal/PosteMaroc-AR/Accueil/,poste.ma,
+government_agency,Q123014090,https://protectioncivile.ma/,protectioncivile.ma,
 government_agency,"Embassy of Turkey, Rabat",https://rabat-be.mfa.gov.tr,rabat-be.mfa.gov.tr,central
 government_agency,"Embassy of Germany, Rabat",https://rabat.diplo.de,rabat.diplo.de,central
 government_agency,embassy of Portugal in Morocco,https://rabat.embaixadaportugal.mne.gov.pt,rabat.embaixadaportugal.mne.gov.pt,central
@@ -307,21 +291,16 @@ government_agency,Régie Autonome Multi Services D'Agadir,http://www.ramsa.ma/,r
 parliament,Fez-Meknes Regional Council,https://www.region-fes-meknes.ma,region-fes-meknes.ma,central-1
 parliament,Marrakesh–Safi Regional Council,https://www.regionmarrakech-safi.ma,regionmarrakech-safi.ma,central-1
 government_agency,Groupe Royal Air Maroc,http://www.royalairmaroc.com,royalairmaroc.com,
-ministry,Ministry of Health,http://www.sante.gov.ma,sante.gov.ma,central
 government_agency,Ministry of Health,http://www.sante.gov.ma,sante.gov.ma,central
-government_agency,Ministry of Health and Social Protection,https://www.sante.gov.ma,sante.gov.ma,central
 government_agency,Ministry of Health,http://www.sante.gov.ma/Pages/Accueil.aspx,sante.gov.ma,central
-ministry,Ministry of Health,http://www.sante.gov.ma/Pages/Accueil.aspx,sante.gov.ma,central
-ministry,Ministry of Health and Social Protection,https://www.sante.gov.ma,sante.gov.ma,central
+government_agency,Ministry of Health and Social Protection,https://www.sante.gov.ma,sante.gov.ma,central
 government_agency,General Secretariat of the Government of Morocco,http://www.sgg.gov.ma,sgg.gov.ma,central
-ministry,General Secretariat of the Government of Morocco,http://www.sgg.gov.ma,sgg.gov.ma,central
 government_agency,Société Nationale d’Etudes du Detroit de Gibraltar,http://www.sned.gov.ma/,sned.gov.ma,
 government_agency,Société Nationale de Radiodiffusion et de Télévision,http://www.snrt.ma/,snrt.ma,
 government_agency,Q3488540,https://www.sntl.ma/,sntl.ma,
 government_agency,"Ministry of Solidarity, Women, Family and Social Development",https://social.gov.ma,social.gov.ma,central
-ministry,"Ministry of Solidarity, Women, Family and Social Development",https://social.gov.ma,social.gov.ma,central
 government_agency,SOMED,http://www.somed.ma/,somed.ma,
-government_agency,Q65145991,https://www.sorec.ma,sorec.ma,
+government_agency,Royal Society for the Encouragement of Horses,https://www.sorec.ma,sorec.ma,
 parliament,Souss-Massa Regional Council,https://www.soussmassa.ma/,soussmassa.ma,central-1
 government_agency,"Embassy of Sweden, Rabat",https://www.swedenabroad.se/sv/utlandsmyndigheter/marocko-rabat/,swedenabroad.se,central
 government_agency,Q122972557,https://www.tamwilcom.ma/,tamwilcom.ma,
@@ -329,7 +308,6 @@ government_agency,Tamwilcom,https://www.tamwilcom.ma/,tamwilcom.ma,
 government_agency,National Theatre Mohammed V,https://tnm5.ma/,tnm5.ma,
 government_agency,Moroccan National Tourism Office,http://www.tourisme.gov.ma/,tourisme.gov.ma,
 government_agency,Ministry of Transport and Logistics,https://www.transport.gov.ma/fr,transport.gov.ma,central
-ministry,Ministry of Transport and Logistics,https://www.transport.gov.ma/fr,transport.gov.ma,central
 government_agency,Abdelmalek Essaâdi University,http://www.uae.ma/,uae.ma,
 government_agency,University of al-Qarawiyyin,http://uaq.ma/,uaq.ma,
 government_agency,Cadi Ayyad University,https://www.uca.ma,uca.ma,
@@ -344,4 +322,3 @@ government_agency,Mohamed I University,http://www.ump.ma/en,ump.ma,
 government_agency,Hassan II University of Casablanca,https://www.univh2c.ma/,univh2c.ma,
 government_agency,Sidi Mohamed Ben Abdellah University,http://www.usmba.ac.ma/,usmba.ac.ma,
 government_agency,Sultan Moulay Slimane University,https://www.usms.ac.ma/,usms.ac.ma,
-government_agency,Q123014090,https://vetement-pro.ma/,vetement-pro.ma,

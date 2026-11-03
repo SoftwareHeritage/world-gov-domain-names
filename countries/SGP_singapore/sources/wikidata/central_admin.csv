@@ -1,10 +1,10 @@
 type,label,website,hostname,level
-government_agency,Science and Engineering Research Council,http://www.a-star.edu.sg/About-A-STAR/Science-and-Engineering-Research-Council.aspx,a-star.edu.sg,
+government_agency,A*STAR Research Entities,https://www.a-star.edu.sg/Research,a-star.edu.sg,
 government_agency,Advanced Remanufacturing & Technology Centre,https://www.a-star.edu.sg/artc,a-star.edu.sg,
 government_agency,Skin Research Institute of Singapore,https://www.a-star.edu.sg/sris,a-star.edu.sg,
-government_agency,"Agency for Science, Technology and Research",http://www.a-star.edu.sg/,a-star.edu.sg,
-government_agency,A*STAR Research Entities,https://www.a-star.edu.sg/Research,a-star.edu.sg,
+government_agency,Science and Engineering Research Council,http://www.a-star.edu.sg/About-A-STAR/Science-and-Engineering-Research-Council.aspx,a-star.edu.sg,
 government_agency,Biomedical Research Council,https://www.a-star.edu.sg/About-A-STAR/Biomedical-Research-Council/Overview.aspx,a-star.edu.sg,
+government_agency,"Agency for Science, Technology and Research",http://www.a-star.edu.sg/,a-star.edu.sg,
 government_agency,Accounting and Corporate Regulatory Authority,https://www.acra.gov.sg/,acra.gov.sg,
 government_agency,Aljunied-Hougang Town Council,https://www.ahtc.sg/,ahtc.sg,
 government_agency,AI Singapore,https://www.aisingapore.org,aisingapore.org,
@@ -58,10 +58,11 @@ government_agency,British High Commission Singapore,https://www.gov.uk/world/org
 government_agency,Holland-Bukit Panjang Town Council,https://www.hbptc.org.sg/,hbptc.org.sg,
 government_agency,high commission of India in Singapore,https://hcisingapore.gov.in,hcisingapore.gov.in,central
 government_agency,Housing and Development Board,http://www.hdb.gov.sg/,hdb.gov.sg,
-government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en,holyrosaryprovince.org,
-government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
+government_agency,"Hong Kong Economic and Trade Office, Singapore",https://www.hketosin.gov.hk/,hketosin.gov.hk,
 constitutional_court,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
 constitutional_court,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en,holyrosaryprovince.org,
+government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?lang=es,holyrosaryprovince.org,
+government_agency,Dominican Province of Our Lady of the Rosary,https://www.holyrosaryprovince.org/index.php?option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en,holyrosaryprovince.org,
 government_agency,Health Promotion Board,http://www.hpb.gov.sg,hpb.gov.sg,
 government_agency,Health Sciences Authority,http://www.hsa.gov.sg/,hsa.gov.sg,
 government_agency,Industrial Arbitration Court,https://www.iac.gov.sg/,iac.gov.sg,
@@ -76,50 +77,34 @@ government_agency,ISEAS – Yusof Ishak Institute,https://www.iseas.edu.sg,iseas
 government_agency,Institute of Technical Education,http://www.ite.edu.sg,ite.edu.sg,
 government_agency,Jalan Besar Town Council,https://www.jbtc.org.sg/,jbtc.org.sg,
 government_agency,Jurong–Clementi Town Council,https://www.jrtc.org.sg/,jrtc.org.sg,
-government_agency,"embassy of Indonesia, Singapore",https://kemlu.go.id/singapore,kemlu.go.id,central
 government_agency,"embassy of Indonesia, Singapore",https://kemlu.go.id/singapore/,kemlu.go.id,central
+government_agency,"embassy of Indonesia, Singapore",https://kemlu.go.id/singapore,kemlu.go.id,central
 government_agency,"High Commission of Malaysia, Singapore",https://www.kln.gov.my/web/sgp_singapore/,kln.gov.my,central
 government_agency,Land Transport Authority,http://www.lta.gov.sg/,lta.gov.sg,
 government_agency,"High Commission of the Maldives, Singapore",https://maldivesmission.sg,maldivesmission.sg,central
 government_agency,Monetary Authority of Singapore,http://www.mas.gov.sg/,mas.gov.sg,
 government_agency,"Ministry of Culture, Community and Youth",https://www.mccy.gov.sg,mccy.gov.sg,central
-ministry,"Ministry of Culture, Community and Youth",https://www.mccy.gov.sg,mccy.gov.sg,central
-ministry,Ministry of Digital Development and Information,https://www.mci.gov.sg/,mci.gov.sg,central
 government_agency,Ministry of Digital Development and Information,https://www.mci.gov.sg/,mci.gov.sg,central
 government_agency,"Ministry of Community Development, Youth and Sports",http://www.mcys.gov.sg,mcys.gov.sg,central
-ministry,"Ministry of Community Development, Youth and Sports",http://www.mcys.gov.sg,mcys.gov.sg,central
 government_agency,high commission of Brunei in Singapore,http://www.mfa.gov.bn/singapore/,mfa.gov.bn,central
-ministry,Ministry of Foreign Affairs of the Republic of Singapore,http://www.mfa.gov.sg/,mfa.gov.sg,central
 government_agency,Ministry of Foreign Affairs of the Republic of Singapore,http://www.mfa.gov.sg/,mfa.gov.sg,central
 government_agency,"Embassy of Greece, Singapore",https://www.mfa.gr/missionsabroad/singapore,mfa.gr,central
 government_agency,"High Commission of New Zealand, Singapore",https://www.mfat.govt.nz/en/countries-and-regions/asia/singapore/new-zealand-high-commission-singapore/,mfat.govt.nz,central
 government_agency,Internal Security Department,http://www.mha.gov.sg/isd/abt-isd.htm,mha.gov.sg,
-government_agency,"Ministry of Home Affairs, Singapore",http://www.mha.gov.sg,mha.gov.sg,central
 government_agency,Home Team Academy,http://www.mha.gov.sg/basic_content.aspx?pageid=324,mha.gov.sg,
-ministry,"Ministry of Home Affairs, Singapore",http://www.mha.gov.sg,mha.gov.sg,central
+government_agency,"Ministry of Home Affairs, Singapore",http://www.mha.gov.sg,mha.gov.sg,central
 government_agency,Ministry of Defence Singapore,https://www.mindef.gov.sg,mindef.gov.sg,central
-ministry,Ministry of Defence Singapore,https://www.mindef.gov.sg,mindef.gov.sg,central
-ministry,Ministry of Law,http://www.minlaw.gov.sg,minlaw.gov.sg,central
 government_agency,Ministry of Law,http://www.minlaw.gov.sg,minlaw.gov.sg,central
-ministry,Ministry of National Development,http://www.mnd.gov.sg/,mnd.gov.sg,central
 government_agency,Ministry of National Development,http://www.mnd.gov.sg/,mnd.gov.sg,central
 government_agency,Ministry of Education,https://www.moe.gov.sg/,moe.gov.sg,central
-ministry,Ministry of Education,https://www.moe.gov.sg/,moe.gov.sg,central
 government_agency,Ministry of Finance,http://www.mof.gov.sg,mof.gov.sg,central
-ministry,Ministry of Finance,http://www.mof.gov.sg,mof.gov.sg,central
-ministry,Ministry of Health,http://www.moh.gov.sg,moh.gov.sg,central
 government_agency,Ministry of Health,http://www.moh.gov.sg,moh.gov.sg,central
 government_agency,Ministry of Manpower,http://www.mom.gov.sg,mom.gov.sg,central
-ministry,Ministry of Manpower,http://www.mom.gov.sg,mom.gov.sg,central
 government_agency,Ministry of Transport,https://www.mot.gov.sg/,mot.gov.sg,central
-ministry,Ministry of Transport,https://www.mot.gov.sg/,mot.gov.sg,central
 government_agency,Maritime and Port Authority of Singapore,http://www.mpa.gov.sg,mpa.gov.sg,
 government_agency,Marine Parade Town Council,https://www.mptc.org.sg/,mptc.org.sg,
 government_agency,Ministry of Sustainability and the Environment,https://www.mse.gov.sg,mse.gov.sg,central
-ministry,Ministry of Sustainability and the Environment,https://www.mse.gov.sg,mse.gov.sg,central
 government_agency,Ministry of Social and Family Development,http://www.msf.gov.sg/,msf.gov.sg,central
-ministry,Ministry of Social and Family Development,http://www.msf.gov.sg/,msf.gov.sg,central
-ministry,Ministry of Trade and Industry,https://www.mti.gov.sg,mti.gov.sg,central
 government_agency,Ministry of Trade and Industry,https://www.mti.gov.sg,mti.gov.sg,central
 government_agency,Majlis Ugama Islam Singapura,https://www.muis.gov.sg/,muis.gov.sg,central
 government_agency,Marsiling-Yew Tee Town Council,https://www.myttc.org.sg/,myttc.org.sg,
@@ -132,19 +117,19 @@ government_agency,National Council of Social Service,http://www.ncss.org.sg/,ncs
 government_agency,National Environment Agency,http://www.nea.gov.sg,nea.gov.sg,
 government_agency,National Heritage Board (Singapore),https://www.nhb.gov.sg/,nhb.gov.sg,
 government_agency,National Health Innovation Centre,https://www.nhic.sg,nhic.sg,
-government_agency,National Library Board,https://www.nlb.gov.sg/,nlb.gov.sg,
 government_agency,National Library Singapore,https://www.nlb.gov.sg/,nlb.gov.sg,
+government_agency,National Library Board,https://www.nlb.gov.sg/,nlb.gov.sg,
 government_agency,National Medical Research Council,http://www.nmrc.gov.sg/content/nmrc_internet/home.html,nmrc.gov.sg,
 government_agency,"Embassy of Norway, Singapore",https://www.norway.no/singapore,norway.no,central
-government_agency,National Biodiversity Centre,https://www.nparks.gov.sg/cms/index.php?option=com_content&view=article&id=122&Itemid=124,nparks.gov.sg,
 government_agency,National Parks Board,http://www.nparks.gov.sg,nparks.gov.sg,
+government_agency,National Biodiversity Centre,https://www.nparks.gov.sg/cms/index.php?option=com_content&view=article&id=122&Itemid=124,nparks.gov.sg,
 government_agency,"Precision Health Research, Singapore",https://npm.sg,npm.sg,
 government_agency,National Research Foundation,http://www.nrf.gov.sg/,nrf.gov.sg,
 government_agency,People's Association,http://www.pa.gov.sg/,pa.gov.sg,
-supreme_court,Parliament of Singapore,https://www.parliament.gov.sg/,parliament.gov.sg,central
+government_agency,Q136696794,https://www.pa.gov.sg,pa.gov.sg,
 parliament,Parliament of Singapore,https://www.parliament.gov.sg/,parliament.gov.sg,central
+supreme_court,Parliament of Singapore,https://www.parliament.gov.sg/,parliament.gov.sg,central
 government_agency,Prime Minister's Office,http://www.pmo.gov.sg/,pmo.gov.sg,central
-ministry,Prime Minister's Office,http://www.pmo.gov.sg/,pmo.gov.sg,central
 government_agency,Singapore Police Force,http://police.gov.sg/,police.gov.sg,
 government_agency,National Population and Talent Division,https://www.population.gov.sg/,population.gov.sg,
 government_agency,Pasir Ris-Punggol Town Council,https://www.prpg-tc.org.sg/,prpg-tc.org.sg,

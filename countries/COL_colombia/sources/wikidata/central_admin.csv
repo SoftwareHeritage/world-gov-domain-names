@@ -20,7 +20,6 @@ government_agency,"Embassy of Lebanon, Bogotá",http://bogota.mfa.gov.lb,bogota.
 government_agency,Chamber of Representatives of Colombia,https://www.camara.gov.co/,camara.gov.co,central
 government_agency,"Embassy of Canada, Bogotá",https://www.canadainternational.gc.ca/colombia-colombie,canadainternational.gc.ca,central
 government_agency,Ministry of Foreign Affairs of the Republic of Colombia,http://www.cancilleria.gov.co/,cancilleria.gov.co,central
-ministry,Ministry of Foreign Affairs of the Republic of Colombia,http://www.cancilleria.gov.co/,cancilleria.gov.co,central
 government_agency,Cámara de Comercio de Santiago de Cali,https://www.ccc.org.co/,ccc.org.co,
 government_agency,Cámara de Comercio de Cúcuta,https://www.cccucuta.org.co/,cccucuta.org.co,
 government_agency,Colombian Space Commission,https://cce.igac.gov.co/,cce.igac.gov.co,
@@ -44,14 +43,14 @@ supreme_court,City council of Barranquilla,http://www.concejodebarranquilla.gov.
 government_agency,Q124800472,https://www.concejodebello.gov.co/web/,concejodebello.gov.co,
 parliament,Bogotá city council,http://concejodebogota.gov.co/,concejodebogota.gov.co,central-1
 supreme_court,Bogotá city council,http://concejodebogota.gov.co/,concejodebogota.gov.co,central-1
-supreme_court,city council of Cali,http://www.concejodecali.gov.co/,concejodecali.gov.co,local
 parliament,city council of Cali,http://www.concejodecali.gov.co/,concejodecali.gov.co,local
-supreme_court,district council of Cartagena de Indias,http://concejodecartagena.com/concejo/,concejodecartagena.com,local
+supreme_court,city council of Cali,http://www.concejodecali.gov.co/,concejodecali.gov.co,local
 parliament,district council of Cartagena de Indias,http://concejodecartagena.com/concejo/,concejodecartagena.com,local
-supreme_court,city council of Medellín,http://www.concejodemedellin.gov.co,concejodemedellin.gov.co,local
+supreme_court,district council of Cartagena de Indias,http://concejodecartagena.com/concejo/,concejodecartagena.com,local
 parliament,city council of Medellín,http://www.concejodemedellin.gov.co,concejodemedellin.gov.co,local
-supreme_court,Montería city council,https://concejodemonteria.gov.co,concejodemonteria.gov.co,local
+supreme_court,city council of Medellín,http://www.concejodemedellin.gov.co,concejodemedellin.gov.co,local
 parliament,Montería city council,https://concejodemonteria.gov.co,concejodemonteria.gov.co,local
+supreme_court,Montería city council,https://concejodemonteria.gov.co,concejodemonteria.gov.co,local
 government_agency,Q63457126,http://www.contaduria.gov.co,contaduria.gov.co,
 government_agency,Office of the Comptroller General of Colombia,http://www.contraloria.gov.co,contraloria.gov.co,
 government_agency,Corporación para el Desarrollo Sostenible del Urabá,http://corpouraba.gov.co/,corpouraba.gov.co,
@@ -62,7 +61,7 @@ government_agency,Q100753927,https://www.culturarecreacionydeporte.gov.co/,cultu
 government_agency,Corporación Autónoma Regional de Los Valles del Sinu y del San Jorge,http://www.cvs.gov.co/jupgrade/,cvs.gov.co,
 government_agency,Departamento Administrativo Nacional de Estadística,http://www.dane.gov.co/,dane.gov.co,central
 government_agency,Colombian Civil Defense,https://www.defensacivil.gov.co,defensacivil.gov.co,
-government_agency,Ombudsman's Office of Colombia,http://www.defensoria.gov.co,defensoria.gov.co,
+government_agency,Ombudsman's Office of Colombia,http://www.defensoria.gov.co,defensoria.gov.co,central
 government_agency,National Directorate of Taxes and Customs,http://www.dian.gov.co/,dian.gov.co,central
 government_agency,Dirección Nacional de Inteligencia,http://www.dni.gov.co,dni.gov.co,
 government_agency,National Planning Department,https://www.dnp.gov.co/,dnp.gov.co,
@@ -76,8 +75,8 @@ government_agency,embassy of the Dominican Republic in Colombia,http://www.embaj
 government_agency,embassy of Mexico in Colombia,https://embamex.sre.gob.mx/colombia,embamex.sre.gob.mx,central
 government_agency,embassy of Israel in Colombia,https://embassies.gov.il/bogota,embassies.gov.il,central
 government_agency,"Embassy of India, Bogota",https://www.eoibogota.gov.in/,eoibogota.gov.in,central
-government_agency,Nazareth piarist province,https://www.escolapios.org.co,escolapios.org.co,
 constitutional_court,Nazareth piarist province,https://www.escolapios.org.co,escolapios.org.co,
+government_agency,Nazareth piarist province,https://www.escolapios.org.co,escolapios.org.co,
 government_agency,embassy of Spain in Colombia,http://www.exteriores.gob.es/Embajadas/BOGOTA,exteriores.gob.es,central
 government_agency,embassy of Finland in Colombia,https://finlandabroad.fi/web/col,finlandabroad.fi,central
 government_agency,Fiscalía General de la Nación,https://www.fiscalia.gov.co,fiscalia.gov.co,
@@ -104,49 +103,30 @@ government_agency,National Institute for Drug and Food Surveillance,https://www.
 government_agency,embassy of Ireland in Colombia,https://www.ireland.ie/en/colombia/bogota/,ireland.ie,central
 government_agency,Centro Administrativo Municipal de Itagüí,http://itagui.areadigital.gov.co/Paginas/inicio.aspx,itagui.areadigital.gov.co,
 government_agency,Special Jurisdiction for Peace,https://www.jep.gov.co/Paginas/Inicio.aspx,jep.gov.co,
-government_agency,jesuit province of Colombia,https://jesuitas.co/,jesuitas.co,
 constitutional_court,jesuit province of Colombia,https://jesuitas.co/,jesuitas.co,
+government_agency,jesuit province of Colombia,https://jesuitas.co/,jesuitas.co,
 government_agency,"embassy of Indonesia, Bogota",https://kemlu.go.id/bogota,kemlu.go.id,central
 government_agency,Instituto Nacional de Medicina Legal y Ciencias Forenses,http://www.medicinalegal.gov.co/,medicinalegal.gov.co,
 government_agency,"Embassy of New Zealand, Bogota",https://www.mfat.govt.nz/en/countries-and-regions/americas/colombia/new-zealand-embassy/,mfat.govt.nz,central
 government_agency,Migración Colombia,http://www.migracioncolombia.gov.co/,migracioncolombia.gov.co,
 government_agency,Ministry of Agriculture and Rural Development,https://www.minagricultura.gov.co/Paginas/default.aspx,minagricultura.gov.co,central
-ministry,Ministry of Agriculture and Rural Development,https://www.minagricultura.gov.co/Paginas/default.aspx,minagricultura.gov.co,central
-ministry,Ministry of Environment and Sustainable Development,http://www.minambiente.gov.co/,minambiente.gov.co,central
 government_agency,Ministry of Environment and Sustainable Development,http://www.minambiente.gov.co/,minambiente.gov.co,central
 government_agency,"Ministry of Science, Technology and Innovation",https://minciencias.gov.co/,minciencias.gov.co,central
-ministry,"Ministry of Science, Technology and Innovation",https://minciencias.gov.co/,minciencias.gov.co,central
 government_agency,"Ministry of Commerce, Industry and Tourism",http://www.mincit.gov.co/,mincit.gov.co,central
-ministry,"Ministry of Commerce, Industry and Tourism",http://www.mincit.gov.co/,mincit.gov.co,central
 government_agency,Ministry of Culture,http://www.mincultura.gov.co/,mincultura.gov.co,central
-ministry,Ministry of Culture,http://www.mincultura.gov.co/,mincultura.gov.co,central
 government_agency,Ministry of National Defense of Colombia,http://www.mindefensa.gov.co/,mindefensa.gov.co,central
-ministry,Ministry of National Defense of Colombia,http://www.mindefensa.gov.co/,mindefensa.gov.co,central
-ministry,Ministry of Sport,https://www.mindeporte.gov.co/,mindeporte.gov.co,central
 government_agency,Ministry of Sport,https://www.mindeporte.gov.co/,mindeporte.gov.co,central
 government_agency,Ministry of Economic Development,http://www.mindesa.gov.co/,mindesa.gov.co,central
-ministry,Ministry of Economic Development,http://www.mindesa.gov.co/,mindesa.gov.co,central
-ministry,Ministry of National Education,https://www.mineducacion.gov.co,mineducacion.gov.co,central
 government_agency,Ministry of National Education,https://www.mineducacion.gov.co,mineducacion.gov.co,central
-ministry,Ministry of Mines and Energy,https://www.minenergia.gov.co/,minenergia.gov.co,central
 government_agency,Ministry of Mines and Energy,https://www.minenergia.gov.co/,minenergia.gov.co,central
-ministry,Ministry of Finance and Public Credit,http://www.minhacienda.gov.co/,minhacienda.gov.co,central
 government_agency,Ministry of Finance and Public Credit,http://www.minhacienda.gov.co/,minhacienda.gov.co,central
-ministry,Ministry of the Interior,http://www.mininterior.gov.co,mininterior.gov.co,central
 government_agency,Ministry of the Interior,http://www.mininterior.gov.co,mininterior.gov.co,central
 government_agency,Ministry of Justice and Law,http://www.minjusticia.gov.co,minjusticia.gov.co,central
-ministry,Ministry of Justice and Law,http://www.minjusticia.gov.co,minjusticia.gov.co,central
-ministry,Ministry of Social Protection,http://www.minproteccionsocial.gov.co/,minproteccionsocial.gov.co,central
 government_agency,Ministry of Social Protection,http://www.minproteccionsocial.gov.co/,minproteccionsocial.gov.co,central
 government_agency,Ministry of Health and Social Protection,https://www.minsalud.gov.co/,minsalud.gov.co,central
-ministry,Ministry of Health and Social Protection,https://www.minsalud.gov.co/,minsalud.gov.co,central
-ministry,Ministry of Information Technologies and Communications,https://www.mintic.gov.co/,mintic.gov.co,central
 government_agency,Ministry of Information Technologies and Communications,https://www.mintic.gov.co/,mintic.gov.co,central
-ministry,Ministry of Labour,http://www.mintrabajo.gov.co,mintrabajo.gov.co,central
 government_agency,Ministry of Labour,http://www.mintrabajo.gov.co,mintrabajo.gov.co,central
-ministry,Ministry of Transport,http://www.mintransporte.gov.co/,mintransporte.gov.co,central
 government_agency,Ministry of Transport,http://www.mintransporte.gov.co/,mintransporte.gov.co,central
-ministry,"Ministry of Housing, City and Territory",http://www.minvivienda.gov.co,minvivienda.gov.co,central
 government_agency,"Ministry of Housing, City and Territory",http://www.minvivienda.gov.co,minvivienda.gov.co,central
 government_agency,embassy of Cuba in Colombia,http://misiones.minrex.gob.cu/es/colombia,misiones.minrex.gob.cu,central
 government_agency,"Embassy of the United Arab Emirates, Bogota",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=5974c9cb-157a-4353-b9b5-a0e3ee49b8ef,mofaic.gov.ae,central
@@ -155,28 +135,31 @@ government_agency,"Embassy of the Netherlands, Bogotá",https://www.nederlandwer
 government_agency,Embassy of Norway in Colombia,https://www.norway.no/colombia,norway.no,central
 government_agency,Apostolic Nunciature to Colombia,http://nunciatura.org.co/,nunciatura.org.co,central
 government_agency,Agencia Nacional de Tierras,https://otr.ant.gov.co/,otr.ant.gov.co,
-government_agency,"Embassy of South Korea, Bogotá",https://overseas.mofa.go.kr/co-ko/index.do,overseas.mofa.go.kr,central
 government_agency,"Embassy of South Korea, Bogotá",https://overseas.mofa.go.kr/co-es/index.do,overseas.mofa.go.kr,central
-government_agency,National Natural Parks System,https://www.parquesnacionales.gov.co/,parquesnacionales.gov.co,
+government_agency,"Embassy of South Korea, Bogotá",https://overseas.mofa.go.kr/co-ko/index.do,overseas.mofa.go.kr,central
 government_agency,National System of Protected Areas,http://www.parquesnacionales.gov.co/,parquesnacionales.gov.co,
+government_agency,National Natural Parks System,https://www.parquesnacionales.gov.co/,parquesnacionales.gov.co,
 government_agency,"Policía Nacional, Cúcuta",https://www.policia.gov.co/cucuta,policia.gov.co,local
 government_agency,National Police of Colombia,http://www.policia.gov.co/,policia.gov.co,central
-government_agency,Unidad Nacional para la Gestión del Riesgo de Desastres,https://portal.gestiondelriesgo.gov.co,portal.gestiondelriesgo.gov.co,
 government_agency,Unidad Nacional para la Gestión del Riesgo de Desastres,http://portal.gestiondelriesgo.gov.co,portal.gestiondelriesgo.gov.co,
+government_agency,Unidad Nacional para la Gestión del Riesgo de Desastres,https://portal.gestiondelriesgo.gov.co,portal.gestiondelriesgo.gov.co,
 government_agency,ProColombia,http://www.procolombia.co/,procolombia.co,
 government_agency,Office of the Inspector General of Colombia,http://www.procuraduria.gov.co/,procuraduria.gov.co,central
 government_agency,National Civil Registry (Colombia),http://www.registraduria.gov.co/,registraduria.gov.co,
 government_agency,Reincorporation and Normalization Agency,http://www.reincorporacion.gov.co/es,reincorporacion.gov.co,
 government_agency,Secretaría de Salud de Bogotá,http://www.saludcapital.gov.co/,saludcapital.gov.co,
+government_agency,Secretaría de Educación del Tolima,https://www.sedtolima.gov.co/,sedtolima.gov.co,
 government_agency,Sistema Estadístico Nacional,http://www.sen.gov.co/,sen.gov.co,
+parliament,Republic of Colombia Congress,https://www.senado.gov.co,senado.gov.co,
 supreme_court,Republic of Colombia Congress,https://www.senado.gov.co,senado.gov.co,
 government_agency,Senate of Colombia,https://www.senado.gov.co/,senado.gov.co,central
-parliament,Republic of Colombia Congress,https://www.senado.gov.co,senado.gov.co,
 government_agency,Sistema General de Regalías de Colombia,https://www.sgr.gov.co,sgr.gov.co,
+government_agency,Sinchi Amazonic Institute of Scientific Research,https://www.sinchi.org.co,sinchi.org.co,
 government_agency,Secretaría de Educación de Soacha,https://www.soachaeducativa.edu.co,soachaeducativa.edu.co,
 government_agency,Superintendencia Financiera de Colombia,http://www.superfinanciera.gov.co//,superfinanciera.gov.co,
 government_agency,Q130548863,https://www.supernotariado.gov.co/,supernotariado.gov.co,
 government_agency,"Embassy of Sweden, Bogota",https://www.swedenabroad.se/bogota,swedenabroad.se,central
+government_agency,Oficina de las Naciones Unidas contra la Droga y el Delito (UNODC) para la Región Andina y el Cono Sur,https://www.unodc.org/rocol,unodc.org,
 government_agency,Q6156125,http://www.upme.gov.co,upme.gov.co,
 government_agency,ICETEX,https://web.icetex.gov.co/portal,web.icetex.gov.co,
 government_agency,"Taipei Commercial Office in Bogotá, Colombia",http://web.roc-taiwan.org/co_es/index.html,web.roc-taiwan.org,

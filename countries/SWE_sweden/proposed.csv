@@ -1,17 +1,18 @@
 domain,level,name,kind,score,sources
-digg.se,central,Agency for Digital Government,,10,wikidata;linkgraph;sopc
 imy.se,central,Swedish Authority for Privacy Protection,,10,wikidata;linkgraph
-domstol.se,central,Swedish National Courts Administration | Q97143444 | Q10501718 | Malmö District Court | Supreme Court of Sweden | Umeå District Court | Stockholm District Court | Judges Proposals Board | administrative court of appeal in Stockholm | Örebro rättscentrum | Migration Court in Gothenburg | Law Clerks Board | Q80207153 | Legal Aid Board | Borås tingsrätt | Q97143443 | Q97143442,,9,wikidata
+domstol.se,central,Q10501718 | Judges Proposals Board | Migration Court in Gothenburg | Swedish National Courts Administration | Legal Aid Board | Örebro rättscentrum | Law Clerks Board | Stockholm District Court | Q97143442 | Borås tingsrätt | Malmö District Court | administrative court of appeal in Stockholm | Umeå District Court | Q97143444 | Supreme Court of Sweden | Q80207153 | Q97143443,,9,wikidata
 kau.se,central,Karlstad University,,9,wikidata;academia;ror
 lu.se,central,Lund University,,9,wikidata;academia;ror
 pts.se,central,Swedish Post and Telecom Agency,,9,wikidata;linkgraph
 slu.se,central,Swedish University of Agricultural Sciences | The Knowledge Garden at the Swedish University of Agricultural Sciences,,9,wikidata;academia;ror
+digg.se,,diggsweden -- GitHub org,,8,linkgraph;sopc
 1177.se,,Linked from 22 public-sector domains,,7,linkgraph
 arbetsformedlingen.se,central,Swedish Public Employment Service,,7,wikidata;linkgraph
-bolagsverket.se,central,Patent Attorneys Board | Swedish Companies Registration Office,,7,wikidata
+bolagsverket.se,central,Swedish Companies Registration Office | Patent Attorneys Board,,7,wikidata
 fi.se,central,Financial Supervisory Authority,,7,wikidata
 fmv.se,central,Defence Materiel Administration,,7,wikidata
 foi.se,central,Swedish Defence Research Agency,,7,wikidata;academia
+forsvarsmakten.se,central,Swedish Armed Forces | Swedish Military Intelligence and Security Service,,7,wikidata
 forte.se,central,Swedish Research Council for Health Working Life and Welfare,,7,wikidata
 isof.se,central,Swedish Language Council | Swedish Institute for Language and Folklore,,7,wikidata
 kb.se,central,National Library of Sweden,,7,wikidata;linkgraph
@@ -24,9 +25,8 @@ sakerhetspolisen.se,central,Swedish Security Service,,7,wikidata
 scb.se,central,Statistics Sweden,,7,wikidata;academia
 sgu.se,central,Geological Survey of Sweden,,7,wikidata
 sida.se,central,Swedish International Development Cooperation Agency,,7,wikidata
-skane.se,,Region Skåne,,7,wikidata
 skolverket.se,central,National Agency for Education,,7,wikidata;linkgraph
-spv.se,central,National Government Employee Pensions Board | State Occupational Pensions and Group Life Board,,7,wikidata
+spv.se,central,State Occupational Pensions and Group Life Board | National Government Employee Pensions Board,,7,wikidata
 swedgeo.se,central,Swedish Geotechnical Institute,,7,wikidata;academia
 tlv.se,central,Dental and Pharmaceutical Benefits Agency,,7,wikidata
 trafa.se,central,Transport Analysis,,7,wikidata
@@ -103,7 +103,6 @@ fores.se,,Fores,,4,academia
 formas.se,central,Formas,,4,wikidata
 forsakringskassan.se,central,Swedish Social Insurance Agency,,4,wikidata
 forskarskattenamnden.se,central,The Taxation of Research Workers Board,,4,wikidata
-forsvarsmakten.se,central,Swedish Armed Forces,,4,wikidata
 fortifikationsverket.se,central,National Fortifications Administration,,4,wikidata
 fpr.se,central,Swedish Fiscal Policy Council,,4,wikidata
 fra.se,central,National Defence Radio Establishment,,4,wikidata
@@ -114,7 +113,6 @@ fysik.lu.se,,Fysicum,,4,academia
 genteknik.se,central,Swedish Gene Technology Advisory Board,,4,wikidata
 gotahovratt.se,,Göta Court of Appeal,,4,wikidata
 goteborg.se,,Q122750397,,4,wikidata
-gotland.se,,Region Gotland,,4,wikidata
 gronomstart.se,,Q96356282,,4,academia
 gu.se,central,Q10594844 | University of Gothenburg | Gothenburg Research Infrastructure in Digital Humanities | Q65202221,,4,wikidata;academia;ror
 han.se,central,The Higher Education Expulsions Board,,4,wikidata
@@ -206,7 +204,6 @@ nfh.se,central,The National Swedish Handicraft Council,,4,wikidata
 nordicom.gu.se,,The Nordic Information Centre for Media and Communication Research,,4,academia
 nordregio.se,,Nordregio,,4,academia
 norrasjukvardsregionforbundet.se,,Northern healthcare region,,4,wikidata
-norrbotten.se,,Region Norrbotten,,4,wikidata
 nrm.se,central,Swedish Museum of Natural History,,4,wikidata
 nunciature.se,central,Apostolic Nunciature to Sweden,,4,wikidata
 offentligkod.se,,Offentligkod -- code catalog,,4,sopc
@@ -223,33 +220,18 @@ prv.se,central,Swedish Patent and Registration Office,,4,wikidata
 raa.se,central,Swedish National Heritage Board,,4,wikidata
 rattshjalp.se,central,National Legal Aid Authority,,4,wikidata
 regelradet.se,,Regelrådet,,4,wikidata
-regionblekinge.se,,Region Blekinge,,4,wikidata
-regiondalarna.se,,Region Dalarna,,4,wikidata
-regiongavleborg.se,,Region Gävleborg,,4,wikidata
-regionhalland.se,,Region Halland,,4,wikidata
-regionjh.se,,Region Jämtland Härjedalen,,4,wikidata
-regionkalmar.se,,Region Kalmar County,,4,wikidata
-regionkronoberg.se,,Region Kronoberg,,4,wikidata
-regionorebrolan.se,,Region Örebro County,,4,wikidata
-regionostergotland.se,,Region Östergötland,,4,wikidata
-regionsormland.se,,Region Sörmland,,4,wikidata
-regionuppsala.se,,Region Uppsala,,4,wikidata
-regionvarmland.se,,Region Värmland,,4,wikidata
-regionvasterbotten.se,,Region Västerbotten,,4,wikidata
-regionvastmanland.se,,Region Västmanland,,4,wikidata
+regionkalmar.se,central-1,Region Kalmar County,,4,wikidata
 rekryteringsmyndigheten.se,central,Swedish Defence Recruitment Agency,,4,wikidata
 revisorsinspektionen.se,central,Swedish Inspectorate of Auditors,,4,wikidata
-riksarkivet.se,central,National Archives of Sweden,,4,wikidata
 riksbank.se,,Sveriges Riksbank,,4,wikidata
 riksgalden.se,central,Swedish National Debt Office,,4,wikidata
-rjl.se,,Region Jönköping County,,4,wikidata
+rjl.se,central-1,Region Jönköping County,,4,wikidata
 rmv.se,central,National Board of Forensic Medicine,,4,wikidata
-rvn.se,,Region Västernorrland,,4,wikidata
+rsgbg.se,,Q141438978,,4,wikidata
 rwandaembassy.se,central,"Embassy of Rwanda, Stockholm",,4,wikidata
 rwi.lu.se,,Raoul Wallenberg Institute of Human Rights and Humanitarian Law,,4,academia
 rymdstyrelsen.se,central,Swedish National Space Agency,,4,wikidata
 sameskolstyrelsen.se,central,Sami Education Board,,4,wikidata
-sanningskommissionensamer.se,,Truth Commission for the Sami People,,4,wikidata
 sbu.se,central,Swedish Agency for Health Technology Assessment and Assessment of Social Services,,4,wikidata
 sceeus.se,,Stockholm Centre for Eastern European Studies,,4,academia
 scilifelab.se,,Science for Life Laboratory,,4,academia
@@ -340,6 +322,7 @@ consulateofswedenseattle.com,,Consulate of Sweden Seattle,,3,wikidata
 coronakommissionen.com,,Coronakommissionen,,3,wikidata
 doch.se,central,University of Dance and Circus,,3,ror
 ehs.se,central,University College Stockholm,,3,ror
+europa.eu,central,"2 proposed hosts under it: sweden.representation.ec.europa.eu, stockholm.europarl.europa.eu",,3,parent
 finlandabroad.fi,central,"Embassy of Finland, Stockholm",,3,wikidata
 giella.org,,Sámi Giellagáldu,,3,wikidata
 instytutpolski.pl,,Polish Institute in Stockholm,,3,wikidata
@@ -348,7 +331,6 @@ kenyaembassystockholm.com,central,"Embassy of Kenya, Stockholm",,3,wikidata
 life-peace.org,,Life & Peace Institute,,3,academia
 mchs.se,central,Marie Cederschiöld University,,3,ror
 mobilelifecentre.org,,Mobile Life Centre,,3,academia
-mzv.cz,central,Embassy of the Czech Republic in Stockholm,,3,wikidata
 mzv.sk,central,"Embassy of Slovakia, Stockholm",,3,wikidata
 nigerianembassy.nu,central,"Embassy of Nigeria, Stockholm",,3,wikidata
 nordita.org,,Nordic Institute for Theoretical Physics,,3,academia
@@ -372,15 +354,13 @@ sweden.mfa.am,central,"Embassy of Armenia, Stockholm",,3,wikidata
 sweden.mid.ru,central,"Embassy of Russia, Stockholm",,3,wikidata
 sweden.nlembassy.org,central,"Embassy of The Netherlands, Stockholm",,3,wikidata
 sweden.representation.ec.europa.eu,,European Commission Representation in Sweden,,3,wikidata
-tullhuset.org,,Dalarö custom house,,3,wikidata
 v-dem.net,,Varieties of Democracy (V-Dem) Institute,,3,academia
 wmu.se,central,World Maritime University,,3,ror
 handelskammer.se,,German-Swedish Chamber of Commerce,,2,wikidata
 irf.se,central,Swedish Institute of Space Physics,,2,wikidata;academia
-kammarkollegiet.se,central,"Fideikommissnämnden | Legal, Financial and Administrative Services Agency | Arbitration Tribunal for Occupational Injury Compensation | Alcoholic Beverages Product Range Board | Q10677737",,2,wikidata
-lansstyrelsen.se,central,Dalarna County Administrative Board | Stockholm County Administrative Board | Norrbotten County Administrative Board | Västra Götaland County Administrative Board | Gotland County Administrative Board | Uppsala County Administrative Board | Örebro County Administrative Board | Östergötland County Administrative Board | Kronoberg County Administrative Board | Gävleborg County Administrative Board | Västernorrland County Administrative Board | Blekinge County Administrative Board | Jämtland County Administrative Board | Västmanland County Administrative Board | Västerbotten County Administrative Board | Jönköping County Administrative Board | Skåne County Administrative Board | Halland County Administrative Board | Södermanland County Administrative Board | Kalmar County Administrative Board | Värmland County Administrative Board,,2,wikidata
-polisen.se,central,Swedish Police | Swedish Police Authority | Swedish Police Aviation,,2,wikidata
-regionstockholm.se,,Q10680639 | Region Stockholm,,2,wikidata
+kammarkollegiet.se,central,"Arbitration Tribunal for Occupational Injury Compensation | Q10677737 | Alcoholic Beverages Product Range Board | Fideikommissnämnden | Legal, Financial and Administrative Services Agency",,2,wikidata
+lansstyrelsen.se,central,Västernorrland County Administrative Board | Stockholm County Administrative Board | Värmland County Administrative Board | Halland County Administrative Board | Östergötland County Administrative Board | Jämtland County Administrative Board | Blekinge County Administrative Board | Gotland County Administrative Board | Södermanland County Administrative Board | Dalarna County Administrative Board | Jönköping County Administrative Board | Västerbotten County Administrative Board | Örebro County Administrative Board | Skåne County Administrative Board | Kalmar County Administrative Board | Norrbotten County Administrative Board | Kronoberg County Administrative Board | Gävleborg County Administrative Board | Västra Götaland County Administrative Board | Uppsala County Administrative Board | Västmanland County Administrative Board,,2,wikidata
+polisen.se,central,Swedish Police | Swedish Police Aviation | Swedish Police Authority,,2,wikidata
+riksarkivet.se,central,National Archives of Sweden | Regional State Archives in Göteborg,,2,wikidata
 sametinget.se,central,Sami Parliament of Sweden | The Sami Foundation Board,,2,wikidata
-vgregion.se,,Q10718442 | Region Västra Götaland,,2,wikidata
 tillvaxtverket.se,central,Swedish Agency for Economic and Regional Growth,,0,wikidata

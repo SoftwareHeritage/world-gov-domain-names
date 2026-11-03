@@ -1,8 +1,10 @@
 domain,level,name,kind,score,sources
 uefs.br,central-1,Botanic Forest Garden | State University of Feira de Santana,,9,academia;ror
-ufmg.br,central,Centro Cultural UFMG | Federal University of Minas Gerais | Museu de História Natural e Jardim Botânico da Universidade Federal de Minas Gerais,,9,wikidata;academia;ror
+uemasul.edu.br,central-1,Centro de Pesquisa em Arqueologia e História Timbira | Universidade Estadual da Região Tocantina do Maranhão,,9,academia;ror
+ufmg.br,central,Centro Cultural UFMG | Federal University of Minas Gerais | Museu de História Natural e Jardim Botânico da Universidade Federal de Minas Gerais | Q118132831,,9,wikidata;academia;ror
 ufrgs.br,central,Instituto de Pesquisas Hidráulicas da Universidade Federal do Rio Grande do Sul | Laboratório de Estudos Sobre os Usos Políticos do Passado (Luppa) | Margem ̠ laboratório | Q122950237,,9,academia;ror
 www2.ufjf.br,central,Federal University of Juiz de Fora | Q130443229,,9,academia;ror
+www2.unesp.br,central-1,"Institute of Advanced Marine Studies ""Prof. Dr. Peter Christian Hackspacher"" | Unesp Center for Environmental Studies",,9,academia;ror
 al.ac.leg.br,central-1,Legislative Assembly of Acre,,7,wikidata
 al.al.leg.br,central-1,Legislative Assembly of Alagoas,,7,wikidata
 al.go.leg.br,central-1,Legislative Assembly of Goiás,,7,wikidata
@@ -13,6 +15,8 @@ al.ro.leg.br,central-1,Legislative Assembly of Rondônia,,7,wikidata
 al.rr.leg.br,central-1,Legislative Assembly of Roraima,,7,wikidata
 cena.usp.br,,Center of Nuclear Energy in Agriculture of the University of São Paulo | Plant Biotechnology Laboratory (CENA-USP),,7,academia
 congressonacional.leg.br,central,National Congress of Brazil,,7,wikidata
+fiocruz.br,central,Fiocruz Piauí | Oswaldo Cruz Foundation,,7,wikidata;academia
+fob.usp.br,,Bauru School of Dentistry of the University of São Paulo,,7,wikidata;academia
 franciscanos.org.br,,Q10354750,,7,wikidata
 imea.com.br,,Instituto Mato-Grossense de Economia Agropecuária,,7,wikidata;academia
 jesuitasbrasil.org.br,,Brazilian Province of the Society of Jesus,,7,wikidata
@@ -21,11 +25,11 @@ liastra.com,,ICBS – International Center for Biomedical & Space Sciences | LIA
 portal.stf.jus.br,central,Supreme Federal Court,,6,wikidata
 portal.ufpa.br,central,Universidade Federal do Pará,,6,academia;ror
 portal.ufpel.edu.br,central,Federal University of Pelotas,,6,academia;ror
+portal.uneb.br,central-1,Q111020267,,6,academia;ror
 portal.unila.edu.br,central,Universidade Federal da Integração Latino-Americana,,6,academia;ror
 prefeitura.rio,central-1,Guarda Municipal do Rio de Janeiro,,6,wikidata;sopc
 saopaulo.consulfrance.org,,"Consulate General of France, in São Paulo",,6,wikidata
 udesc.br,central-1,Universidade do Estado de Santa Catarina,,6,academia;ror
-uemasul.edu.br,central-1,Universidade Estadual da Região Tocantina do Maranhão,,6,academia;ror
 uenp.edu.br,central-1,Universidade Estadual do Norte do Paraná,,6,academia;ror
 uesb.br,central-1,State University of the Southwest of Bahia,,6,academia;ror
 uesc.br,central-1,State University of Santa Cruz,,6,academia;ror
@@ -42,6 +46,7 @@ ufnt.edu.br,central,Universidade Federal do Norte do Tocantins,,6,academia;ror
 ufob.edu.br,central,Federal University of Western Bahia,,6,academia;ror
 ufpb.br,central,Q30930207,,6,academia;ror
 ufpe.br,central,Federal University of Pernambuco,,6,academia;ror
+ufpel.edu.br,central,"2 proposed hosts under it: portal.ufpel.edu.br, wp.ufpel.edu.br",,6,parent
 ufpi.br,central,Universidade Federal do Piauí,,6,academia;ror
 ufrb.edu.br,central,Universidade Federal do Recôncavo da Bahia,,6,academia;ror
 ufrj.br,central,Federal University of Rio de Janeiro,,6,academia;ror
@@ -50,12 +55,12 @@ ufscar.br,central,Universidade Federal de São Carlos,,6,academia;ror
 ufsj.edu.br,central,Universidade Federal de São João del-Rei,,6,academia;ror
 ufsm.br,central,Q10305539,,6,academia;ror
 uft.edu.br,central,Universidade Federal do Tocantins,,6,academia;ror
+uftm.edu.br,central,Q118132843,,6,academia;ror
 ufv.br,central,Federal University of Viçosa,,6,academia;ror
 unb.br,,University of Brasília,,6,academia;ror
 unicamp.br,central-1,University of Campinas,,6,academia;ror
 unifesp.br,central,Universidade Federal de São Paulo,,6,academia;ror
 unifesspa.edu.br,central,Federal University of South and Southeast of Pará,,6,academia;ror
-unifor.br,,Universidade de Fortaleza,,6,academia;ror
 unilab.edu.br,,Universidade da Integração Internacional da Lusofonia Afro-Brasileira,,6,academia;ror
 unipampa.edu.br,central,Universidade Federal do Pampa,,6,academia;ror
 unirio.br,central,Federal University of the State of Rio de Janeiro,,6,academia;ror
@@ -70,31 +75,48 @@ academiacearensedeletras.org.br,,Ceará Academy of Letters,,4,wikidata
 academiadeletrasdabahia.org.br,,Academia de Letras da Bahia,,4,wikidata
 academiaguarulhense.org.br,,Academia Guarulhense de Letras,,4,wikidata
 academiamaranhense.org.br,,Academia Maranhense de Letras,,4,wikidata
+academiapaulistadeletras.org.br,,Academia Paulista de Letras,,4,wikidata
 africadosul.org.br,central,embassy of South Africa in Brazil,,4,wikidata
 ahimtb.org.br,,Academia de História Militar Terrestre do Brasil,,4,wikidata
+altoaraguaia.unemat.br,,Campus Universitário de Alto Araguaia,,4,academia
 amb.com.br,,Associação dos Magistrados Brasileiros,,4,wikidata
 apexbrasil.com.br,,Agência Brasileira de Promoção de Exportações e Investimentos,,4,wikidata
 ar-itu.com.br,,Q9592663,,4,wikidata
 arquitetura.ufba.br,central,Faculdade de Arquitetura da Universidade Federal da Bahia,,4,academia
+barradobugres.unemat.br,,Campus Universitário de Barra do Bugres,,4,academia
+bhtec.org.br,,BHTec,,4,academia
 biof.ufrj.br,,Carlos Chagas Filho Biophysics Institute,,4,academia
+bioinfo.imd.ufrn.br,,Bioinformatics Multidisciplinary Environment,,4,academia
 biologia.ufba.br,,Instituto de Biologia da UFBA,,4,academia
+biopark.com.br,,Biopark,,4,academia
 bpbes.net.br,,Brazilian Platform for Biodiversity and Ecosystem Services,,4,wikidata
 brainn.org.br,,Brazilian Institute of Neuroscience and Neurotechnology,,4,academia
 braziliavaros.mfa.gov.hu,central,"Hungarian Embassy, Brasília",,4,wikidata
 camara.leg.br,central,Chamber of Deputies,,4,wikidata
 canalsaude.fiocruz.br,,Canal Saúde,,4,wikidata
+caph.fflch.usp.br,,Sérgio Buarque de Holanda Center for Support to Historical Research (CAPH-USP),,4,academia
+casadaciencia.com.br,,"Science House of the Ribeirão Preto Blood Center, University of São Paulo",,4,academia
 caunesp.unesp.br,,Aquaculture Center of São Paulo State University,,4,academia
 cbie.com.br,,Centro Brasileiro de Infraestrutura,,4,academia
 cdtn.br,central,Center for the Development of Nuclear Technology,,4,academia
 ceao.ufba.br,,Center for Afro-Oriental Studies,,4,academia
+ceara.fiocruz.br,,Fiocruz Ceará,,4,wikidata
+cebimar.usp.br,,Center of Marine Biology of the University of São Paulo,,4,academia
 cebrap.org.br,,Brazilian Centre for Analysis and Planning,,4,academia
 cedoc.grupodignidade.org.br,,Q122980285,,4,academia
+ceib.org.br,,Centro de Estudos da Imaginária Brasileira,,4,academia
 cenapad.unicamp.br,central,National Center for High Performance Processing in São Paulo,,4,academia
 cenegri.org.br,,Centro de Estudos em Geopolítica e Relações Internacionais,,4,academia
+centrodepesquisaeformacao.sescsp.org.br,,Centro de Pesquisa e Formação do Sesc,,4,academia
+cepid.fapesp.br,,"Research, Innovation and Dissemination Centers",,4,academia
+cerat.unesp.br,,Centro de Raízes e Amidos Tropicais,,4,academia
+cevap.unesp.br,,Centro de Estudos de Venenos e Animais Peçonhentos,,4,academia
 chc.fau.usp.br,,Cadernos de Habitação Coletiva - CHC,,4,academia
 chd.ifch.unicamp.br,,Centro de Humanidades Digitais,,4,academia
 chd.unicamp.br,,Centro de Humanidades Digitais,,4,academia
+cicarne.com.br,,Centro de Inteligência da Carne Bovina,,4,academia
 cietec.org.br,,"Center for Innovation, Entrepreneurship and Technology",,4,academia
+cinevi.uff.br,,Q118132963,,4,academia
 cle.unicamp.br,,"Centro de Lógica, Epistemologia e História da Ciência",,4,academia
 cnj.jus.br,,National Justice Council,,4,wikidata
 cnpem.br,central,Brazilian Center for Research in Energy and Materials,,4,academia
@@ -102,6 +124,7 @@ cnpmf.embrapa.br,,Embrapa Cassava & Fruits,,4,academia
 cnpq.br,central,National Council for Scientific and Technological Development,,4,academia
 coc.fiocruz.br,,Oswaldo Cruz House,,4,academia
 codeba.com.br,central-1,Companhia das Docas do Estado da Bahia,,4,wikidata
+colider.unemat.br,,Campus Universitário de Colíder,,4,academia
 contabeis.ufba.br,central,"Universidade Federal da Bahia, Faculdade de Ciências Contábeis",,4,academia
 copec.org.br,,Sciences and Education Research Council,,4,wikidata
 corecon-se.org.br,central-1,CORECON/SE | REGIONAL OF ECONOMICS COUNCIL OF THE 16TH REGION-SERGIPE,,4,wikidata
@@ -118,9 +141,11 @@ defensoria.ap.def.br,,Defensoria Pública do Amapá,,4,wikidata
 defensoria.rj.def.br,,Defensoria Pública do Rio de Janeiro,,4,wikidata
 demec.ufmg.br,central,Centro de Estudos Aeronáuticos da Universidade Federal de Minas Gerais,,4,academia
 dfn.if.usp.br,,Q10315148,,4,academia
+diamantino.unemat.br,,Campus Universitário de Diamantino,,4,academia
 dieese.org.br,,Departamento Intersindical de Estatística e Estudos Sócio-Econômicos,,4,academia
 dpu.def.br,,Federal Public Defender's Office,,4,wikidata
 dsg.eb.mil.br,,Brazilian Military Geographical Service,,4,wikidata
+eb.mil.br,,"2 proposed hosts under it: dct.eb.mil.br, dsg.eb.mil.br",,4,parent
 eca.usp.br,,School of Communication and Arts of the University of São Paulo,,4,academia
 eerp.usp.br,,Ribeirão Preto School of Nursing of the University of São Paulo,,4,academia
 emap.fgv.br,,School of Applied Mathematics,,4,academia
@@ -154,19 +179,13 @@ fapesq.rpp.br,,Fundação de Apoio à Pesquisa do Estado da Paraíba,,4,wikidata
 fbai.org.br,,Fundação Bahiana de Infectologia,,4,academia
 fcf.usp.br,,School of Pharmaceutical Sciences of the University of São Paulo,,4,academia
 fcfrp.usp.br,,Ribeirão Preto School of Pharmaceutical Sciences of the University of São Paulo,,4,academia
-fcmsantacasasp.edu.br,,Faculdade de Ciências Médicas da Santa Casa de São Paulo,,4,academia
-fcmscsp.edu.br,,Faculdade de Ciências Médicas da Santa Casa de São Paulo,,4,academia
 fe.usp.br,,School of Education of the University of São Paulo,,4,academia
-feb.unesp.br,,Q10279472,,4,wikidata
-fema.edu.br,,Fundação Educacional do Município de Assis,,4,academia
 fepecs.edu.br,,Fundação de Ensino e Pesquisa em Ciências da Saúde Secretaria de Estado de Saúde,,4,wikidata
-fieb.org.br,,SENAI CIMATEC,,4,academia
-fiocruz.br,central,Oswaldo Cruz Foundation,,4,academia
+fespmg.edu.br,,Q118132837,,4,academia
 fipe.org.br,,Institute of Economic Research Foundation,,4,academia
 fis.ufba.br,central,Universidade Federal da Bahia. Instituto de Física,,4,academia
 fjmangabeira.org.br,,Fundação João Mangabeira,,4,academia
 fo.usp.br,,School of Dentistry of the University of São Paulo,,4,academia
-fob.usp.br,,Bauru School of Dentistry of the University of São Paulo,,4,academia
 forp.usp.br,,Ribeirão Preto School of Dentistry of the University of São Paulo,,4,academia
 fotonicom.ifi.unicamp.br,central,National Institute of Photonics Science and Technology for Optical Communications,,4,academia
 fpabramo.org.br,,Projeto Memória & História,,4,academia
@@ -174,6 +193,7 @@ fsp.usp.br,,School of Public Health of the University of São Paulo,,4,academia
 funape.org.br,,Q134306780,,4,wikidata
 funceme.br,,Foundation Cearense for Meteorology and Water Management,,4,wikidata
 fundacaofhc.org.br,,Q10302511,,4,academia
+fzea.usp.br,,School of Animal Husbandry and Food Engineering of the University of São Paulo,,4,wikidata
 gequatorial.org.br,central,embassy of Equatorial Guinea in Brazil,,4,wikidata
 ghanaembassybrazil.com.br,central,embassy of Ghana in Brazil,,4,wikidata
 historiaeditorial.com.br,,História Editorial,,4,academia
@@ -186,6 +206,7 @@ ib.unicamp.br,,Instituto de Biologia da Unicamp,,4,academia
 ib.usp.br,,Institute of Bioscience of the University of São Paulo,,4,academia
 ibict.br,,Instituto Brasileiro de Informação em Ciência e Tecnologia,,4,academia
 ibmp.org.br,,Institute of Molecular Biology of Paraná,,4,academia
+ibtec.unesp.br,,Unesp Institute of Biotechnology,,4,academia
 ic.unicamp.br,,Instituto de Computação da Universidade Estadual de Campinas,,4,wikidata
 icb.ufpa.br,central,Instituto de Ciências Biológicas da Universidade Federal do Pará,,4,academia
 ichs.ufop.br,,Instituto de Ciências Humanas e Sociais (UFOP),,4,academia
@@ -198,6 +219,7 @@ ieav.cta.br,,Institute for Advanced Studies,,4,academia
 ieb.ufsc.br,,Instituto de Engenharia Biomédica da UFSC (Institute of Biomedical Engineering),,4,academia
 ieb.usp.br,,Institute of Brazilian Studies of the University of São Paulo,,4,academia
 iee.usp.br,,Institute of Energy and Environment of the University of São Paulo,,4,academia
+iesp.uerj.br,,Institute of Social and Political Studies,,4,academia
 ifch.unicamp.br,,Instituto de Filosofia e Ciências Humanas da Unicamp,,4,academia
 iff.edu.br,central,Instituto Federal Fluminense,,4,academia
 ifsc.usp.br,,São Carlos Institute of Physics of the University of São Paulo,,4,academia
@@ -218,10 +240,10 @@ impa.br,central,Instituto Nacional de Matemática Pura e Aplicada,,4,academia
 ims.ufba.br,,Q10302585,,4,academia
 imt.usp.br,,Institute of Tropical Medicine,,4,academia
 inagemp.bio.br,central,National Institute on Population Medical Genetics,,4,academia
-inatel.br,central,Brazilian National Telecommunications Institute,,4,academia
 inct-ta.furg.br,central,National Institute of Aquatic Toxicology,,4,academia
 inct.cnpq.br,central,National Institute of Science and Technology for Complex Systems,,4,academia
 inep.ufsc.br,,Q61000894,,4,academia
+inesc.org.br,,Q131906291,,4,academia
 infectologia.org.br,,Brazilian Society of Infectious Disease,,4,academia
 inhotim.org.br,,Inhotim,,4,academia
 inidepff.com.br,central,Federal Railway Police,,4,wikidata
@@ -239,6 +261,7 @@ ipe.org.br,,Institute of Ecological Research,,4,academia
 ipef.br,,Forest Science and Research Institute,,4,academia
 ipmetradar.com.br,,IPMet – Bauru Meteorological Centre,,4,academia
 ipplap.com.br,,Q100655058,,4,academia
+ippri.unesp.br,,Instituto de Políticas Públicas e Relações Internacionais,,4,academia
 ippuc.org.br,,Q100641436,,4,academia
 ips.ufba.br,,Q111450359,,4,academia
 ipt.br,central-1,Institute for Technological Research,,4,academia
@@ -254,6 +277,7 @@ jardimbotanico.com.br,,Botanical Garden of São Paulo,,4,academia
 jardimbotanicobauru.com.br,,Botanical Garden of Bauru,,4,academia
 jb.ibb.unesp.br,,botanical garden of Botucatu,,4,academia
 jfsp.jus.br,,Q113997461,,4,wikidata
+juara.unemat.br,,Campus Universitário de Juara,,4,academia
 justicaeleitoral.jus.br,,Brazilian Election Justice,,4,wikidata
 kenyaembassybrazil.com.br,central,embassy of Kenya in Brazil,,4,wikidata
 labaut.fau.usp.br,,LabAUT,,4,academia
@@ -265,29 +289,45 @@ labparc.fau.usp.br,,"LabParc - Laboratório da Paisagem, Arte e Cultura",,4,acad
 labvisual.fau.usp.br,,Visual Design Research Lab,,4,academia
 lacert.ufsc.br,,Q61056441,,4,academia
 lap.usp.br,,"LAP - Laboratório de Estudos de Urbanização, Arquitetura e Preservação",,4,academia
+lasere.fflch.usp.br,,Ailton Luchiari Laboratory of Aerial Photogeography and Remote Sensing (FFLCH-USP),,4,academia
 lci.ufsc.br,central,Integrated Circuits Laboratory of the Federal University of Santa Catarina,,4,academia
+lemat.ime.ufg.br,,Q118132792,,4,academia
 letras.ufba.br,,Q10302884,,4,academia
+lipan.com.br,,Northern Pantanal Environmental Research Laboratory,,4,academia
+lisa.fflch.usp.br,,Laboratory of Image and Sound in Anthropology (LISA-USP),,4,academia
 lnapadrao.lna.br,central,National Astrophysical Laboratory of Brazil,,4,academia
 lnbio.cnpem.br,central,National Laboratory of Biosciences,,4,academia
 lnbr.cnpem.br,central,Laboratório Nacional de Biorrenováveis,,4,academia
 lnls.br,central,Laboratório Nacional de Luz Síncrotron,,4,academia
 lnnano.cnpem.br,central,Brazilian Nanotechnology National Laboratory,,4,academia
+logicon.org.br,,Logicon,,4,academia
 mamiraua.org.br,,Mamirauá Sustainable Development Institute,,4,academia
 marinha.mil.br,,Directorate of Hydrography and Navigation,,4,wikidata
 mast.br,central,Museum of Astronomy and Related Sciences,,4,academia
+matemateca.ime.usp.br,,Matemateca – Mathematics Outreach and Teaching Center (IME-USP),,4,academia
+matogrossodosul.fiocruz.br,,Fiocruz Mato Grosso do Sul,,4,wikidata
+medialab.ufg.br,,Q118132782,,4,academia
+medioaraguaia.unemat.br,,Campus Universitário do Médio Araguaia,,4,academia
 metropolefluvial.fau.usp.br,,Grupo Metrópole Fluvial - research group in Architecture Design of Fluvial Urban Infrastructures,,4,academia
+minas.fiocruz.br,,Q133493814,,4,academia
 mises.org.br,,Mises Brazil Institute,,4,academia
 mozambique.org.br,central,embassy of Mozambique in Brazil,,4,wikidata
 museufritzplaumann.com.br,,Museu Entomológico Fritz Plaumann,,4,academia
 museunacional.ufrj.br,central,Museu Nacional,,4,academia
 neim.ufba.br,central,"Universidade Federal da Bahia, Núcleo de Estudos Interdisciplinares sobre a Mulher",,4,academia
 nepo.unicamp.br,,"Center for Population Studies ""Elza Berquó""",,4,academia
+novamutum.unemat.br,,Campus Universitário de Nova Mutum,,4,academia
+novaxavantina.unemat.br,,Campus Universitário de Nova Xavantina,,4,academia
+oedbrasil.com.br,,Q108409024,,4,academia
 on.br,central,Brazil National Observatory,,4,academia
 outrosurbanismos.fau.usp.br,,OUTROS - Laboratório para Outros Urbanismos,,4,academia
 paginas.uepa.br,,Q51881941,,4,academia
 pagu.unicamp.br,,"Núcleo de Estudos de Gênero, Pagu",,4,academia
+parquecientec.usp.br,,Science and Technology Park of the University of São Paulo,,4,academia
+parquetecnologico-ba.org.br,,Q10345369,,4,academia
 pesquisaimrea.fm.usp.br,,Instituto de Medicina Física e Reabilitação,,4,wikidata
 polis.org.br,,Polis Institute,,4,academia
+ponteselacerda.unemat.br,,Campus Universitário de Pontes e Lacerda,,4,academia
 portais.univasf.edu.br,central,Universidade Federal do Vale do São Francisco,,4,academia
 portal.cbpf.br,,Centro Brasileiro de Pesquisas Físicas,,4,academia
 portal.fiocruz.br,central,Oswaldo Cruz Foundation,,4,academia
@@ -298,6 +338,8 @@ portal.trf6.jus.br,central-1,Q115839361,,4,wikidata
 portaltj.tjrj.jus.br,,Rio de Janeiro Court of Justice,,4,wikidata
 portalufj.jatai.ufg.br,central,Federal University of Jataí,,4,academia
 prefeitura.poa.br,,Q10369238,,4,wikidata
+proexc.ufu.br,,Q118132834,,4,academia
+pti.org.br,,Itaipu Technological Park Foundation,,4,academia
 quapa.fau.usp.br,,Quapá - Quadro de Paisagismo no Brasil,,4,academia
 quimica.ufba.br,,Q10302931,,4,academia
 republicadominicana.org.br,central,embassy of the Dominican Republic in Brazil,,4,wikidata
@@ -309,10 +351,15 @@ sbgeo.org.br,,Sociedade Brasileira de Geologia,,4,academia
 sbthh.org.br,,Sociedade Brasileira de Teoria e História da Historiografia,,4,academia
 senebrasilia.org.br,central,embassy of Senegal in Brazil,,4,wikidata
 sidia.org.br,,Sidia Instituto de Ciência e Tecnologia,,4,academia
+sinop.unemat.br,,Campus Universitário de Sinop,,4,academia
+sites.ifi.unicamp.br,,Q118133130,,4,academia
 sites.igc.usp.br,,Geosciences Institute of the University of São Paulo,,4,academia
 sites.letras.ufmg.br,,Q118132820,,4,academia
 stj.jus.br,central,Superior Court of Justice,,4,wikidata
 stm.jus.br,,Superior Tribunal Militar,,4,wikidata
+superaparque.com.br,,SUPERA Park of Innovation and Technology of Ribeirão Preto,,4,academia
+tamar.org.br,,Projeto Tamar,,4,academia
+tangaradaserra.unemat.br,,Campus Universitário de Tangará da Serra,,4,academia
 teatro.ufba.br,central,Universidade Federal da Bahia. Escola de Teatro,,4,academia
 teckids.com.br,,Q138299038,,4,academia
 tjal.jus.br,central-1,Tribunal de Justiça,,4,wikidata
@@ -332,6 +379,7 @@ tre-pe.jus.br,,Q106548162,,4,wikidata
 tre-pi.jus.br,,Q106548170,,4,wikidata
 tre-pr.jus.br,,Q106548167,,4,wikidata
 tre-ro.jus.br,,Q48867730,,4,wikidata
+tre-rs.jus.br,central-1,Tribunal Regional Eleitoral do Rio Grande do Sul,,4,wikidata
 tre-sc.jus.br,,Q106548163,,4,wikidata
 tre-se.jus.br,,Q106548164,,4,wikidata
 trf2.jus.br,central-1,Regional Federal Court of the 2nd Region,,4,wikidata
@@ -348,13 +396,16 @@ uel.br,central-1,State University of Londrina,,4,academia
 ufabc.br,central,Federal University of ABC,,4,academia
 ufal.edu.br,central,Universidade Federal de Alagoas,,4,academia
 ufgd.edu.br,central,Federal University of Grande Dourados,,4,academia
+ufjf.br,,Q118132852,,4,academia
 ufpa.br,central,Universidade Federal do Pará,,4,academia
 ufra.edu.br,central,Federal Rural University of Amazonia,,4,academia
 ufsc.br,central,Universidade Federal de Santa Catarina,,4,academia
 uneb.br,central-1,Bahia State University,,4,academia
+unemat.br,central-1,"13 proposed hosts under it: medioaraguaia.unemat.br, novaxavantina.unemat.br, altoaraguaia.unemat.br",,4,parent
 unesp.br,central-1,São Paulo State University,,4,academia
 upcb.ufv.br,,Center for Research and Conservation of Bromeliaceae,,4,academia
 usp.br,central-1,University of São Paulo,,4,academia
+vanzolini.org.br,,Fundação Carlos Alberto Vanzolini,,4,wikidata
 vonbraunlabs.com.br,,Von Braun Labs,,4,academia
 wiki.dcc.ufba.br,central,Software Engineering Laboratory at the Federal University of Bahia,,4,academia
 wp.ufpel.edu.br,,Q122980241,,4,academia
@@ -367,6 +418,7 @@ www5.tjba.jus.br,central-1,Tribunal de Justiça do Estado da Bahia,,4,wikidata
 academiaamazonensedeletras.com,,Amazon Academy of Letters,,3,wikidata
 academiasergipanadeletras.wordpress.com,,Sergipe Academy of Letters,,3,wikidata
 acesso.cesmac.edu.br,,Centro Universitário Cesmac,,3,ror
+ambafrance-br.org,,"2 proposed hosts under it: recife.ambafrance-br.org, riodejaneiro.ambafrance-br.org",,3,parent
 ambassadehaitibresil.org,central,embassy of Haiti in Brazil,,3,wikidata
 anhanguera.edu.br,central-1,Centro Universitário de Goiás,,3,ror
 baraodemaua.br,,Centro Universitário Barão de Mauá,,3,ror
@@ -393,6 +445,7 @@ ceunsp.edu.br,,Centro Universitário Nossa Senhora do Patrocínio,,3,ror
 cgu.unicamp.br,,Coordenadoria Geral da Universidade,,3,ror
 claretiano.edu.br,,Centro Universitário Claretiano,,3,ror
 cruzeirodosul.edu.br,,Universidade Cruzeiro do Sul,,3,ror
+diplo.de,central,"5 proposed hosts under it: recife.diplo.de, rio-de-janeiro.diplo.de, sao-paulo.diplo.de",,3,parent
 ead.faesa.br,,Faesa Centro Universitario,,3,ror
 ead.uniaraxa.edu.br,,Centro Universitário do Planalto de Araxá,,3,ror
 eeas.europa.eu,,Delegation of the European Union to Brazil,,3,wikidata
@@ -443,8 +496,10 @@ iserj.net,,Higher Institute of Education of Rio de Janeiro,,3,academia
 ispeia.org,,ISPEIA Institute,,3,academia
 ita.br,,Instituto Tecnológico de Aeronáutica,,3,ror
 italo.com.br,,Centro Universitário Ítalo Brasileiro,,3,ror
+labaciencias.com,,Q118132965,,3,academia
 labam.dev,,Laboratório do Ambiente,,3,academia
 laclima.org,,Latin American Climate Lawyers Initiative for Mobilizing Action,,3,academia
+lemap-ufpa.webnode.com,,Q118132871,,3,academia
 letrasto.com,,Academia de Letras de Teófilo Otoni,,3,wikidata
 marilia.unesp.br,,Unesp de Marília,,3,ror
 maua.br,,Instituto Mauá de Tecnologia,,3,ror
@@ -453,7 +508,6 @@ mfa.bg,central,embassy of Bulgaria in Brazil,,3,wikidata
 mfa.gr,central,embassy of Greece in Brazil,,3,wikidata
 modulo.edu.br,,Centro Universitário Módulo,,3,ror
 myanmarbsb.org,central,embassy of Myanmar in Brazil,,3,wikidata
-mzv.cz,central,embassy of the Czech Republic in Brazil,,3,wikidata
 mzv.sk,central,embassy of Slovakia in Brazil,,3,wikidata
 nanocarbono.net,central,National Institute of Science and Technology of Carbon Nanomaterials,,3,academia
 nevusp.org,,Núcleo de Estudos da Violência,,3,academia
@@ -473,7 +527,6 @@ portal.uern.br,central-1,Universidade do Estado do Rio Grande do Norte,,3,ror
 portal.ufcg.edu.br,central,Universidade Federal de Campina Grande,,3,ror
 portal.ufgd.edu.br,central,Universidade Federal da Grande Dourados,,3,ror
 portal.ufvjm.edu.br,central,Universidade Federal dos Vales do Jequitinhonha e Mucuri,,3,ror
-portal.uneb.br,central-1,Universidade do Estado da Bahia,,3,ror
 portal.unemat.br,central-1,Universidade do Estado de Mato Grosso,,3,ror
 portal.uniasselvi.com.br,,Centro Universitário Leonardo da Vinci,,3,ror
 portal.unicap.br,,Universidade Católica de Pernambuco,,3,ror
@@ -556,7 +609,6 @@ ufrpe.br,central,Universidade Federal Rural de Pernambuco,,3,ror
 ufrr.br,central,Universidade Federal de Roraima,,3,ror
 ufrrj.br,central,Universidade Federal Rural do Rio de Janeiro,,3,ror
 ufs.br,central,Universidade Federal de Sergipe,,3,ror
-uftm.edu.br,central,Universidade Federal do Triângulo Mineiro,,3,ror
 ufu.br,central,Universidade Federal de Uberlândia,,3,ror
 ugf.br,,University Gama Filho,,3,ror
 ulbra-to.br,,Centro Universitário Luterano de Palmas,,3,ror
@@ -625,6 +677,7 @@ unifil.br,,Centro Universitário Filadélfia,,3,ror
 unifimes.edu.br,,Centro Universitário de Mineiros,,3,ror
 uniflu.edu.br,,Centro Universitario Fluminense,,3,ror
 unifoa.edu.br,,Centro Universitário de Volta Redonda,,3,ror
+unifor.br,,Universidade de Fortaleza,,3,ror
 uniformg.edu.br,,Centro Universitário de Formiga,,3,ror
 unifran.edu.br,,Universidade de Franca,,3,ror
 unifunec.edu.br,,Unifunec - Centro Universitário de Santa Fé do Sul,,3,ror
@@ -725,13 +778,15 @@ web.roc-taiwan.org,,Taipei Economic and Cultural Office in Brazil,,3,wikidata
 web.ubm.br,,Centro Universitário de Barra Mansa,,3,ror
 www2.ifsc.usp.br,,Instituto de Física de São Carlos,,3,ror
 www2.ugb.edu.br,,Centro Universitário Geraldo Di Biase,,3,ror
-www2.unesp.br,central-1,Universidade Estadual Paulista (Unesp),,3,ror
 www2.unicentro.br,central-1,Universidade Estadual do Centro-Oeste,,3,ror
 www4.unievangelica.edu.br,central-1,Universidade Evangelica de Goiás,,3,ror
+altafloresta.unemat.br,,Campus Universitário de Alta Floresta | Southern Amazon Biodiversity Research Center | Southern Amazon Research and Technology Center,,2,academia
 anhanguera.com,,Centro Universitário Anhanguera,,2,ror
 embrapa.br,,Embrapa Acre | Embrapa Agricultural Informatics | Embrapa Agrobiology | Embrapa Agroenergy | Embrapa Agrosilvopastoral | Embrapa Amapá | Embrapa Beef Cattle | Embrapa Cassava & Fruits | Embrapa Cerrados | Embrapa Coastal Tablelands | Embrapa Cocais | Embrapa Coffee | Embrapa Cotton | Embrapa Eastern Amazon | Embrapa Environment | Embrapa Fisheries & Aquaculture | Embrapa Food Agroindustry | Embrapa Forestry | Embrapa Genetic Resources & Biotechnology | Embrapa Grape & Wine | Embrapa Maize & Sorghum | Embrapa Mid-North | Embrapa Pantanal | Embrapa Rice & Beans | Embrapa Rondônia | Embrapa Roraima | Embrapa Semi-Arid Region | Embrapa Southeastern Livestock | Embrapa Southern Livestock | Embrapa Soybean | Embrapa Temperate Agriculture | Embrapa Territorial | Embrapa Tropical Agroindustry | Embrapa Vegetables | Embrapa Western Amazon | Embrapa Western-Region Agriculture | Embrapa Wheat,,2,academia
 fae.edu,,Centro Universitário Franciscano do Paraná,,2,ror
-mar.mil.br,,"Secretaria de Ciência, Tecnologia e Inovação da Marinha | Interministerial Commission for Sea Resources | 1st Interceptor and Strike Fighter Squadron (Brazil)",,2,wikidata
-mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Brasilia | Consulate of the United Arab Emirates, Sao Paulo",,2,wikidata
+fct.unesp.br,,"Center for Studies and Care in Physiotherapy and Rehabilitation | Center for Studies in Education, Work, Environment and Health | Central of Teaching Chemistry Laboratories | Centro de Ciências da Faculdade de Ciências e Tecnologia da Universidade Estadual Paulista | Estação Meteorológica da Faculdade de Ciências e Tecnologia da Universidade Estadual Paulista | FCT Anatomy Laboratory | Laboratory of Geology, Geomorphology and Water Resources | Maria Betty Coelho Silva Center for Studies in Children's and Youth Reading and Literature | Sedimentology and Soil Analysis Laboratory | Solid Waste Characterization and Management Laboratory",,2,academia
+ipben.unesp.br,,IPBEN Associated Laboratory – Araraquara | IPBEN Associated Laboratory – Assis | IPBEN Associated Laboratory – Botucatu | IPBEN Associated Laboratory – Guaratinguetá | IPBEN Associated Laboratory – Ilha Solteira | IPBEN Associated Laboratory – Jaboticabal | IPBEN Associated Laboratory – Rio Claro | IPBEN Associated Laboratory – São José do Rio Preto | IPBEN Central Laboratory | Unesp Bioenergy Research Institute,,2,academia
+mar.mil.br,,"Interministerial Commission for Sea Resources | 1st Interceptor and Strike Fighter Squadron (Brazil) | Secretaria de Ciência, Tecnologia e Inovação da Marinha",,2,wikidata
+mofaic.gov.ae,central,"Consulate of the United Arab Emirates, Sao Paulo | Embassy of the United Arab Emirates, Brasilia",,2,wikidata
 unesc.net,,Universidade do Extremo Sul Catarinense,,2,ror
 unibave.net,,Centro Universitário Barriga Verde,,2,ror

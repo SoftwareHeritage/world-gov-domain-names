@@ -1,16 +1,7 @@
 domain,level,name,kind,score,sources
 parliament.am,central,National Assembly of Armenia,,8,wikidata
 armstat.am,central,Statistical Committee of Armenia | National Statistical Service,,7,wikidata;academia
-edu.am,central,Ministry of Education and Science,,7,wikidata
-mfa.am,central,Ministry of Foreign Affairs of Armenia,,7,wikidata
-mil.am,central,Ministry of Defence of Armenia,,7,wikidata
-mineconomy.am,central,Ministry of Economy of the Republic of Armenia,,7,wikidata
-minfin.am,central,Ministry of Finance,,7,wikidata
-mlsa.am,central,Ministry of Labor and Social Affairs,,7,wikidata
-moh.am,central,Ministry of Health,,7,wikidata
-moj.am,central,Ministry of Justice (Armenia),,7,wikidata
-msy.am,central,Ministry of Youth and Sports,,7,wikidata
-mtad.am,central,Ministry of Territorial Administration and Infrastructure,,7,wikidata
+icare.am,,International Center for Agribusiness Research and Education | Zabel Yesayan Agribusiness Center,,7,academia
 aspu.am,central,Armenian State Pedagogical University,,6,academia;ror
 cassationcourt.am,,Court of Cassation of Armenia,,6,wikidata
 concourt.am,central,Constitutional Court of Armenia,,6,wikidata
@@ -27,7 +18,7 @@ cba.am,,Central Bank of Armenia,,4,wikidata
 cens.am,,Center for Ecological Noosphere Studies,,4,academia
 cmsa.am,,Crisis Management State Academy,,4,academia
 datalex.am,,DataLex,,4,wikidata
-escs.am,,"Ministry of Education, Science, Culture and Sports of Armenia",,4,wikidata
+edu.am,central,Ministry of Education and Science,,4,wikidata
 faa.am,,Armenian Automobile Federation,,4,wikidata
 historyofarmenia-am.armin.am,,Institute for Armenian Studies of YSU,,4,academia
 iae.am,central,Institute of Archaeology and Ethnography of National Academy of Sciences of Armenia,,4,academia
@@ -39,9 +30,16 @@ ipsl.sci.am,central,"Institute of Philosophy, Sociology and Law of National Acad
 irphe.am,central,Institute of Radiophysics & Electronics of National Academy of Sciences of Armenia,,4,academia
 langcom.am,,Language Committee,,4,wikidata
 matenadaran.am,,Matenadaran,,4,academia
-mofa.gov.ae,,Embassy of the UAE in Armenia,,4,wikidata
+mfa.am,central,Ministry of Foreign Affairs of Armenia,,4,wikidata
+mil.am,central,Ministry of Defence of Armenia,,4,wikidata
+mineconomy.am,central,Ministry of Economy of the Republic of Armenia,,4,wikidata
+minfin.am,central,Ministry of Finance,,4,wikidata
+mofa.gov.ae,central,Embassy of the UAE in Armenia,,4,wikidata
+moh.am,central,Ministry of Health,,4,wikidata
 morevmankan.am,,Research Center of Maternal and Child Health Protection,,4,academia
 msu.am,,"Moscow State University, Yerevan Branch",,4,academia
+msy.am,central,Ministry of Youth and Sports,,4,wikidata
+mtad.am,central,Ministry of Territorial Administration and Infrastructure,,4,wikidata
 nih.am,central,National Institute of Health,,4,academia
 nla.am,,National Library of Armenia,,4,wikidata
 noravank.am,,Noravank Foundation,,4,academia
@@ -56,7 +54,7 @@ sci.am,,Institute of Hydroponics Problems after G. S. Davtyan,,4,academia
 scs.am,,State Committee of Science,,4,wikidata
 sczhe.sci.am,,Scientific Center of Zoology and Hydroecology,,4,academia
 sns.am,central,National Security Service,,4,wikidata
-sp.mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Yerevan",,4,wikidata
+sp.mofaic.gov.ae,central,Embassy of the UAE in Armenia,,4,wikidata
 stateproperty.am,,State Property Management Committee,,4,wikidata
 stcopc.sci.am,,Institute of Fine Organic Chemistry,,4,academia
 tvradio.am,,Commission on TV and Radio of Armenia,,4,wikidata

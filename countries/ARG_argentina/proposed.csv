@@ -1,4 +1,5 @@
 domain,level,name,kind,score,sources
+uca.edu.ar,central,CEHAO | Q141144693,,9,academia;ror
 ungs.edu.ar,central,Instituto del Conurbano | National University of General Sarmiento,,9,academia;ror
 unsam.edu.ar,central,National University of General San Martín | Q141144696 | Q141144704,,9,academia;ror
 anlis.gov.ar,central,ANLIS Malbrán | National Institute of Human Viral Disease,,8,academia
@@ -17,20 +18,20 @@ ipsibat.conicet.gov.ar,,"Instituto de Psicología Básica, Aplicada y Tecnologí
 legislaturaformosa.gov.ar,central-1,Formosa Chamber of Deputies,,8,wikidata
 legislaturajujuy.gov.ar,central-1,Chamber of Deputies of Jujuy,,8,wikidata
 legislaturamendoza.gov.ar,central-1,legislature of Mendoza,,8,wikidata
-mp.gba.gov.ar,central,"Ministry of Production, Science and Technology",,8,wikidata
-mseg.gba.gov.ar,central-1,Buenos Aires Province Ministry of Security,,8,wikidata
-santafe.gov.ar,central-1,"Santa Fe Provincial Police | Ministry of Security of the Province of Santa Fe | Q68720757 | Agencia Santafesina de Ciencia, Tecnología e Innovación | Archivo Provincial de la Memoria de Santa Fe",,8,wikidata
+santafe.gov.ar,central-1,"Santa Fe Provincial Police | Ministry of Security of the Province of Santa Fe | Archivo Provincial de la Memoria de Santa Fe | Agencia Santafesina de Ciencia, Tecnología e Innovación | Q68720757",,8,wikidata
 senado-ba.gov.ar,central-1,Senate of Buenos Aires Province,,8,wikidata
 senado.sanluis.gov.ar,central-1,Senate of San Luis,,8,wikidata
 senadoctes.gov.ar,central-1,Senate of Corrientes,,8,wikidata
 web.legisrn.gov.ar,central-1,Legislature of Río Negro,,8,wikidata
 ciclaplata.org.ar,,Centro de Investigaciones Cardiovasculares | Q141144648,,7,academia
+cig.museo.unlp.edu.ar,,Q135536157 | Q141144766,,7,academia
 cima.fcen.uba.ar,,Center for Ocean and Atmosphere Sciences | Instituto Franco-Argentino sobre Estudios de Clima y sus Impactos,,7,academia
 csjn.gov.ar,central,Supreme Court of Argentina,,7,wikidata
 embajadadeluruguay.com.ar,central,embassy of Uruguay in Argentina,,7,wikidata
 fuerzas-armadas.mil.ar,,Joint Staff of the Armed Forces | Jefatura de Inteligencia del Estado Mayor Conjunto de las Fuerzas Armadas,,7,wikidata
 idecu.conicet.gov.ar,central,Q141144617,,7,academia;ror
 idim.org.ar,,Institute for Medical Research | Q141144792,,7,academia
+iigg.sociales.uba.ar,,"Universidad de Buenos Aires, Facultad de Ciencias Sociales, Instituto de Investigaciones Gino Germani | Universidad de Buenos Aires, Facultad de Ciencias Sociales, Instituto de Investigaciones Gino Germani, Programa de Investigaciones sobre Conflicto Social",,7,academia
 inquimae.fcen.uba.ar,,"Instituto de Química Física de los Materiales, Medio Ambiente y Energía | Q141144780",,7,academia
 leloir.org.ar,,Leloir Institute | Q141144614,,7,academia
 lillo.org.ar,,Fundación Miguel Lillo | Q141144844,,7,academia
@@ -41,7 +42,6 @@ jesuitasaru.org,,Argentine-Uruguayan Jesuit Province,,6,wikidata
 mdp.edu.ar,central,National University of Mar del Plata,,6,academia;ror
 uader.edu.ar,central,Autonomous University of Entre Ríos,,6,academia;ror
 uba.ar,central,University of Buenos Aires,,6,academia;ror
-uca.edu.ar,central,Q141144693,,6,academia;ror
 udc.edu.ar,central,University of Chubut,,6,academia;ror
 udelaciudad.edu.ar,central,Q112751967,,6,academia;ror
 udesa.edu.ar,central,Q140382175,,6,academia;ror
@@ -95,6 +95,7 @@ upc.edu.ar,central-1,Provincial University of Cordoba,,6,academia;ror
 upso.edu.ar,central,Q20019056,,6,academia;ror
 utn.edu.ar,central,National Technological University,,6,academia;ror
 agn.gov.ar,,Auditoría General de la Nación,,5,wikidata
+bahiablanca.conicet.gov.ar,,Technological Scientific Center of Bahía Blanca,,5,academia
 cab.cnea.gov.ar,,Bariloche Atomic Centre,,5,academia
 cadic.conicet.gov.ar,,Centro Austral de Investigaciones Científicas,,5,academia
 casleo.conicet.gov.ar,,Q141144749,,5,academia
@@ -135,14 +136,17 @@ cis.conicet.gov.ar,,Q141144869,,5,academia
 cisor.conicet.gov.ar,,Q141144754,,5,academia
 citaac.conicet.gov.ar,,Q141144810,,5,academia
 civetan.conicet.gov.ar,,Q141144761,,5,academia
+cnea.gov.ar,,"2 proposed hosts under it: iteda.cnea.gov.ar, cab.cnea.gov.ar",,5,parent
 cnv.gov.ar,,National Securities Commission,,5,wikidata
 consejomagistratura.gov.ar,,Council of Magistracy of Argentina,,5,wikidata
+cordoba.conicet.gov.ar,,Centro Científico Tecnológico de Córdoba,,5,academia
 creas.conicet.gov.ar,,Q141144764,,5,academia
 crilar.conicet.gov.ar,,Q141144836,,5,academia
 csc.conicet.gov.ar,,Q141144759,,5,academia
 curdiur.conicet.gov.ar,,Q141144717,,5,academia
 dnrpa.gov.ar,,Q47011743,,5,wikidata
 enys.conicet.gov.ar,,Q141144671,,5,academia
+gba.gov.ar,central,"4 proposed hosts under it: mseg.gba.gov.ar, mp.gba.gov.ar, loteria.gba.gov.ar",,5,parent
 hidro.gov.ar,,Argentine Hydrographic Naval Service,,5,wikidata
 iabimo.conicet.gov.ar,,Q141144848,,5,academia
 iadiza.conicet.gov.ar,,Q141144689,,5,academia
@@ -225,6 +229,7 @@ immca.conicet.gov.ar,,Q141144814,,5,academia
 impam.conicet.gov.ar,,Q141144826,,5,academia
 imsated.conicet.gov.ar,,Q141144815,,5,academia
 imtib.conicet.gov.ar,,Q141144872,,5,academia
+ina.gov.ar,central,Instituto Nacional del Agua,,5,academia
 inahe.conicet.gov.ar,,Q141144737,,5,academia
 inali.conicet.gov.ar,,Q141144804,,5,academia
 inaut.conicet.gov.ar,,Q141144868,,5,academia
@@ -291,6 +296,8 @@ loteria.gba.gov.ar,,Q120637684,,5,wikidata
 mendoza.conicet.gov.ar,,Q117087450,,5,academia
 milstein.conicet.gov.ar,,Q141144658,,5,academia
 mininterior.gov.ar,central,Renaper,,5,wikidata
+mp.gba.gov.ar,central,"Ministry of Production, Science and Technology",,5,wikidata
+mseg.gba.gov.ar,central-1,Buenos Aires Province Ministry of Security,,5,wikidata
 nanobiotec.conicet.gov.ar,,Q141144625,,5,academia
 ovd.gov.ar,,Domestic Violence Bureau,,5,wikidata
 penitenciaria.mendoza.gov.ar,,Mendoza Prison Service,,5,wikidata
@@ -303,6 +310,7 @@ proimi.conicet.gov.ar,,Q141144811,,5,academia
 renar.gov.ar,,Q6104068,,5,wikidata
 rionegro.gov.ar,,Institute for the Development of the Lower Valley of the Negro River,,5,wikidata
 salud.rionegro.gov.ar,,Ministerio de Salud,,5,wikidata
+santafe-conicet.gov.ar,,"5 proposed hosts under it: sinc.santafe-conicet.gov.ar, icivet.santafe-conicet.gov.ar, inlain.santafe-conicet.gov.ar",,5,parent
 segemar.gov.ar,,Servicio Geológico Minero,,5,wikidata
 sinc.santafe-conicet.gov.ar,,Q97450930,,5,academia
 udea.conicet.gov.ar,,Q141144643,,5,academia
@@ -319,17 +327,19 @@ buenosaires.mfa.gov.hu,central,embassy of Hungary in Argentina,,4,wikidata
 cac.com.ar,,Q5795680,,4,wikidata
 caei.com.ar,,CAEI,,4,academia
 caip.org.ar,,Argentine Chamber of the Plastic Industry,,4,wikidata
+ceap.sociales.uba.ar,,Q125599722,,4,academia
 cemic.edu.ar,,Center for Medical Education and Clinical Research Norberto Quirno,,4,academia
 ceminco.conicet.unc.edu.ar,,Q141144800,,4,academia
+centroredes.org.ar,,Q17624841,,4,academia
 cepave.edu.ar,,Q141144702,,4,academia
 cetmic.unlp.edu.ar,,Q141144633,,4,academia
 ceve.org.ar,,Q141144769,,4,academia
 cicterra.conicet.unc.edu.ar,,Q97446088,,4,academia
 cidca.org.ar,,Centro de Investigación y Desarrollo en Criotecnología de Alimentos,,4,academia
 ciem.conicet.unc.edu.ar,,Q141144839,,4,academia
-cig.museo.unlp.edu.ar,,Q141144766,,4,academia
 cindeca.quimica.unlp.edu.ar,,Q141144821,,4,academia
 cindefi.quimica.unlp.edu.ar,,Q141144679,,4,academia
+ciquibic.fcq.unc.edu.ar,,Q5737139,,4,academia
 ciquibic.org.ar,,Q141144870,,4,academia
 citra.org.ar,,Centro de Innovación de los Trabajadores,,4,academia
 darwin.edu.ar,,Instituto de Botánica Darwinion,,4,academia
@@ -358,6 +368,7 @@ iafe.uba.ar,,Q141144817,,4,academia
 ibbm.org.ar,,Instituto De Biotecnología Y Biología Molecular,,4,academia
 ibone.unne.edu.ar,,Instituto de Botánica del Nordeste,,4,academia
 ibyme.org.ar,,Instituto de Biología y Medicina Experimental,,4,academia
+icas.unsam.edu.ar,,International Center for Advanced Studies,,4,academia
 icifi.unsam.edu.ar,,Q141144700,,4,academia
 icsoh.unsa.edu.ar,,Q141144691,,4,academia
 icytac.conicet.unc.edu.ar,,Q141144818,,4,academia
@@ -377,7 +388,6 @@ ig.conae.unc.edu.ar,,Mario Gulich Institute for Advanced Space Studies,,4,academ
 igeba.gl.fcen.uba.ar,,Q141144743,,4,academia
 iham.institutos.filo.uba.ar,,"Instituto de Historia Antigua, Medieval y Moderna ""Prof. José Luis Romero""",,4,academia
 ihe.institutos.filo.uba.ar,,"Instituto de Historia de España ""Dr. Claudio Sánchez Albornoz""",,4,academia
-iigg.sociales.uba.ar,,"Universidad de Buenos Aires, Facultad de Ciencias Sociales, Instituto de Investigaciones Gino Germani, Programa de Investigaciones sobre Conflicto Social",,4,academia
 iipsi.psicologia.unc.edu.ar,,Instituto de Investigaciones Psicológicas,,4,academia
 ilar.institutos.filo.uba.ar,,Instituto de Literatura Argentina Ricardo Rojas,,4,academia
 ilpla.edu.ar,,"Instituto de Limnología ""Dr. Raúl A. Ringuelet""",,4,academia
@@ -410,6 +420,7 @@ labmem.unsl.edu.ar,,Q141144720,,4,academia
 laboratorioaclimu.com.ar,,Laboratorio Aclimu,,4,academia
 leici.ing.unlp.edu.ar,,Q141144842,,4,academia
 lfp.uba.ar,,Q141144675,,4,academia
+linea.fcnym.unlp.edu.ar,,Laboratorio de Investigaciones en Etnografía Aplicada,,4,academia
 mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Buenos Aires",,4,wikidata
 museobotanico.unc.edu.ar,,Instituto Multidisciplinario de Biología Vegetal,,4,academia
 palestina.int.ar,central,"Embassy of the State of Palestine, Buenos Aires",,4,wikidata
@@ -417,7 +428,7 @@ pami.org.ar,,Comprehensive Medical Attention Program of Argentina,,4,wikidata
 plapiqui.edu.ar,,Q141144805,,4,academia
 psico.unlp.edu.ar,central,Facultad de Psicología de la Universidad Nacional de La Plata,,4,academia
 ravignani.institutos.filo.uba.ar,,"Instituto de Historia Argentina y Americana ""Dr. Emilio Ravignani""",,4,academia
-rta-se.com.ar,,Radio y Televisión Argentina Sociedad del Estado,,4,wikidata
+rta-se.com.ar,,Q6096754,,4,wikidata
 ulp.edu.ar,central,University of La Punta,,4,academia
 unab.edu.ar,central,Q39081287,,4,academia
 unau.edu.ar,central,Q39081285,,4,academia
@@ -439,6 +450,7 @@ ar.ambafrance.org,central,"Embassy of France, Buenos Aires",,3,wikidata
 ar.china-embassy.org,central,"Embassy of the People's Republic of China, Buenos Aires",,3,wikidata
 ar.mvep.hr,central,embassy of Croatia in Argentina,,3,wikidata
 ar.undp.org,,United Nations Development Programme,,3,wikidata
+arg1punto5.com,,Q141795896,,3,academia
 argentina.mfa.am,central,embassy of Armenia in Argentina,,3,wikidata
 argentina.mid.ru,central,embassy of Russia in Argentina,,3,wikidata
 atlantida.edu.ar,central,Argentine Atlantis University,,3,ror
@@ -458,6 +470,7 @@ eeas.europa.eu,,Delegation of the European Union to Argentina,,3,wikidata
 eseade.edu.ar,central,Instituto Universitario Escuela Superior de Economía y Administración de Empresas,,3,ror
 favaloro.edu.ar,central,Favaloro University,,3,ror
 finlandabroad.fi,central,Embassy of Finland in Argentina,,3,wikidata
+hdlab.space,,HD LAB,,3,academia
 ianigla.net,,"Argentine Institute for Snow Research, Glaciology and Environmental Sciences",,3,academia
 iate.oac.uncor.edu,,Q141144744,,3,academia
 ibmpas.org,,Instituto de Biología Marina y Pesquera Almirante Storni,,3,academia
@@ -515,6 +528,7 @@ ugr.edu.ar,central,Universidad del Gran Rosario,,3,ror
 um.edu.ar,central,University of Mendoza,,3,ror
 umaza.edu.ar,central,Juan Agustín Maza University,,3,ror
 umsa.edu.ar,central,University of Argentine Social Museum,,3,ror
+uncor.edu,,"3 proposed hosts under it: iate.oac.uncor.edu, inv.idit.efn.uncor.edu, inv.iibyt.efn.uncor.edu",,3,parent
 unimoron.edu.ar,central,Universidad de Morón,,3,ror
 universidadnotarial.edu.ar,central,Universidad Notarial Argentina,,3,ror
 unsta.edu.ar,central,Saint Thomas Aquinas North University,,3,ror

@@ -1,52 +1,56 @@
 domain,level,name,kind,score,sources
 epfl.ch,central,"Ecole Polytechnique Federale de Lausanne Lemaitre Lab | Mathematics Section, EPF Lausanne | École polytechnique fédérale de Lausanne",,10,academia;linkgraph;ror
 unifr.ch,central-1,"Department of Mathematics, University of Fribourg | Interdisciplinary Institute of Ethics and Human Rights | Q123400833 | University of Fribourg",,9,academia;ror
-unige.ch,central-1,"Section of mathematics, University of Geneva | University of Geneva",,9,academia;ror
+unige.ch,central-1,"Geneva Centre for Philanthropy | Section of mathematics, University of Geneva | University of Geneva",,9,academia;ror
+unil.ch,central-1,Centre des littératures en Suisse romande-UNIL | Q98354443 | University of Lausanne,,9,academia;ror
 unine.ch,central-1,"Mathematical Institute, University of Neuchâtel | Q123631071 | Q130444026 | University of Neuchâtel",,9,academia;ror
-zg.ch,central-1,Q113162962 | Q113162972 | Q113162907 | Q113162999 | Cantonal Council of Zug | Q113162956 | Q113162864 | Q113162877 | Q113162978 | Q27490172 | Q113162986 | Q113162942 | Q113162898 | Q113162893,,9,wikidata;ror
+zg.ch,central-1,Cantonal Council of Zug | Q113162972 | Q113162877 | Q113162942 | Q113162999 | Q113162978 | Q113162907 | Q113162864 | Q113162986 | Q113162893 | Q113162956 | Q113162898 | Q27490172 | Q113162962,,9,wikidata;ror
 parlement.vs.ch,central-1,Grand Council of Valais,,8,wikidata
-ag.ch,central-1,"Grand Council of Aargau | Department of Health and Social Affairs (Aargau) | Verwaltungsgericht des Kantons Aargau | Department of Construction, Transport and Environment (Aargau) | Department of Economics and Home Affairs (Aargau) | Departement Bildung, Kultur und Sport | Cantonal archaeology Aargau | Departement Gesundheit und Soziales | Department of Finance and Resources (Aargau) | Monument Preservation Service of the Canton of Aargau | State Chancellery (Aargau) | Department of Education, Culture and Sport (Aargau) | Cantonal police of the canton of Aargau",,7,wikidata
-ai.ch,central-1,Landsgemeinde Appenzell Innerrhoden | Q27479493 | Grand Council of Appenzell Innerrhoden | Q113162032 | Q113162128 | Q113162110 | Q113162139 | Q113162177 | Q113162196 | Q113161982 | Q113162005,,7,wikidata
-ar.ch,central-1,Q113156945 | Cantonal Council of Appenzell Ausserrhoden | Q113156957 | Q113156951 | Q113156931 | Q113156962 | Q56704506,,7,wikidata
+ag.ch,central-1,"Grand Council of Aargau | Department of Construction, Transport and Environment (Aargau) | Department of Health and Social Affairs (Aargau) | Department of Finance and Resources (Aargau) | Departement Bildung, Kultur und Sport | Department of Education, Culture and Sport (Aargau) | Departement Gesundheit und Soziales | Verwaltungsgericht des Kantons Aargau | Cantonal police of the canton of Aargau | Cantonal archaeology Aargau | State Chancellery (Aargau) | Department of Economics and Home Affairs (Aargau) | Monument Preservation Service of the Canton of Aargau",,7,wikidata
+ai.ch,central-1,Landsgemeinde Appenzell Innerrhoden | Grand Council of Appenzell Innerrhoden | Q113162139 | Q27479493 | Q113162177 | Q113162128 | Q113162005 | Q113161982 | Q113162110 | Q113162196 | Q113162032,,7,wikidata
+ar.ch,central-1,Cantonal Council of Appenzell Ausserrhoden | Q113156951 | Q113156931 | Q113156945 | Q113156962 | Q113156957 | Q56704506,,7,wikidata
 are.zh.ch,central-1,Building Department Kanton Zürich | Q27480036,,7,wikidata
-baselland.ch,central-1,"Q113156754 | Q113156709 | Education, Culture and Sports Directorate of Canton Basel-Landschaft | Q113156759 | Landrat of Basel-Landschaft | Q113156719 | Monument Preservation Service of the Canton of Basel-Landschaft | Q113156765",,7,wikidata
+baselland.ch,central-1,"Landrat of Basel-Landschaft | Education, Culture and Sports Directorate of Canton Basel-Landschaft | Monument Preservation Service of the Canton of Basel-Landschaft | Q113156754 | Q113156709 | Q113156719 | Q113156759 | Q113156765",,7,wikidata
+be.ch,central-1,"7 proposed hosts under it: gr.be.ch, police.be.ch, jgk.be.ch",,7,parent
 bg.uzh.ch,,"Botanical Garden of the University of Zurich | Old Botanical Garden, Zurich",,7,academia
 dek.tg.ch,,Departement für Erziehung und Kultur | Department of Education and Culture (Thurgau),,7,wikidata
 ensi-rat.ch,,ENSI Board,,7,wikidata
 ensi.ch,,Swiss Federal Nuclear Safety Inspectorate,,7,wikidata
 finma.ch,central,Financial Market Supervisory Authority,,7,wikidata
-fr.ch,central-1,Grand Council of Fribourg | Service de la Santé Publique | Q113032869 | Q113033049 | Q113033091 | Direction de la Sécurité et de la Justice | Q113033177 | Q76652408 | Service de l'Enfance et de la Jeunesse | Q113032988 | Q113033341 | Caisse de Prévoyance du Personnel de l'Etat de Fribourg,,7,wikidata;academia
+forscenter.ch,,Swiss Centre of Expertise in the Social Sciences | Swiss Foundation for Research in Social Sciences,,7,academia
+fr.ch,central-1,Grand Council of Fribourg | Q113033049 | Service de la Santé Publique | Q113032988 | Q113033341 | Q113032869 | Q113033091 | Caisse de Prévoyance du Personnel de l'Etat de Fribourg | Service de l'Enfance et de la Jeunesse | Direction de la Sécurité et de la Justice | Q76652408 | Q113033177,,7,wikidata;academia
 frimobil.ch,,Frimobil,,7,wikidata
-gd.zh.ch,central-1,Department of Health Canton of Zurich,,7,wikidata
-ge.ch,central-1,"Infrastructure Department (Geneva) | Department of Security, Population and Health (Geneva) | Service de la recherche éducation | Department of Public Instruction, Training and Youth (Geneva) | Q27481263 | State Chancellery (Geneva) | Geneva Finance and Human Resources Department | Grand Council of Geneva | Office Médico Pédagogique | Genève Lab | Department of Economy and Employment (Geneva) | Direction Générale de l'Enseignement Obligatoire - Enseignement Primaire | Territory Department (Geneva) | Department of Social Cohesion (Geneva)",,7,wikidata
-gerichte-zh.ch,central-1,Gerichte Zürich | Zurich district court,,7,wikidata
-gl.ch,central-1,Landrat of Glarus | Q113162685 | Q113162767 | Q113162691 | Q113162848 | Q113162724 | Q113162707 | Q113162696,,7,wikidata
-gr.ch,central-1,Q113162384 | Q113162391 | Grand Council of Grisons | Q113162376 | Q113162356 | Q113162362 | Q113162370 | Amt für Wald und Naturgefahren,,7,wikidata
-justice.ge.ch,central-1,Q3538851 | Q3190187,,7,wikidata
-lu.ch,central-1,Q113041982 | Cantonal Council of Lucerne,,7,wikidata
-ne.ch,central-1,"Department of Employment and Social Cohesion (Neuchâtel) | Department of Economy, Security and Culture (Neuchâtel) | Department of Territorial Development and Environment (Neuchâtel) | Department of Training, Digitalization and Sports (Neuchâtel) | State Chancellery (Neuchâtel) | Appellate Court of the Canton of Neuchâtel | Department of Finance and Health (Neuchâtel)",,7,wikidata
-nw.ch,central-1,Q113156959 | Q113156979 | Landrat of Nidwalden | Q113156987 | Q113156948 | Q113156963 | Q113156982 | Q113156944 | Q113156972 | Q113156967,,7,wikidata
-ow.ch,central-1,Q113156853 | Q113156842 | Q113156826 | Q113156866 | Q113156859 | Cantonal Council of Obwalden | Q113156833 | Q113156837 | Q113156846,,7,wikidata
+ge.ch,central-1,"Grand Council of Geneva | Territory Department (Geneva) | Q27481263 | Geneva Finance and Human Resources Department | Service de la recherche éducation | Department of Social Cohesion (Geneva) | Department of Public Instruction, Training and Youth (Geneva) | State Chancellery (Geneva) | Infrastructure Department (Geneva) | Office Médico Pédagogique | Direction Générale de l'Enseignement Obligatoire - Enseignement Primaire | Department of Security, Population and Health (Geneva) | Genève Lab | Department of Economy and Employment (Geneva)",,7,wikidata
+geneve.ch,,Police Cantonale de Genève | Voltaire Institute and Museum,,7,wikidata;academia
+gerichte-zh.ch,central-1,Zurich district court | Gerichte Zürich,,7,wikidata
+gl.ch,central-1,Landrat of Glarus | Q113162848 | Q113162696 | Q113162691 | Q113162685 | Q113162707 | Q113162767 | Q113162724,,7,wikidata
+gr.be.ch,central-1,Grand Council of the Canton of Bern,,7,wikidata
+gr.ch,central-1,Grand Council of Grisons | Q113162362 | Q113162391 | Q113162356 | Amt für Wald und Naturgefahren | Q113162370 | Q113162384 | Q113162376,,7,wikidata
+justice.ge.ch,central-1,Q3190187 | Q3538851,,7,wikidata
+lu.ch,central-1,Cantonal Council of Lucerne | Q113041982,,7,wikidata
+ne.ch,central-1,"Department of Training, Digitalization and Sports (Neuchâtel) | Department of Employment and Social Cohesion (Neuchâtel) | Appellate Court of the Canton of Neuchâtel | Department of Economy, Security and Culture (Neuchâtel) | Department of Territorial Development and Environment (Neuchâtel) | Department of Finance and Health (Neuchâtel) | State Chancellery (Neuchâtel)",,7,wikidata
+nw.ch,central-1,Landrat of Nidwalden | Q113156959 | Q113156967 | Q113156987 | Q113156972 | Q113156963 | Q113156948 | Q113156944 | Q113156982 | Q113156979,,7,wikidata
+ow.ch,central-1,Cantonal Council of Obwalden | Q113156842 | Q113156826 | Q113156866 | Q113156853 | Q113156837 | Q113156833 | Q113156859 | Q113156846,,7,wikidata
 parlament.ch,central,Federal Assembly of Switzerland | National Council of Switzerland | Council of States of Switzerland,,7,wikidata
 police.be.ch,central-1,Cantonal police of the canton of Bern,,7,wikidata
-sg.ch,central-1,Q113162330 | Q113162337 | Cantonal Archaeology St. Gallen | Q113162307 | Q113162292 | Q113162300 | Q113162281 | Cantonal Council of Sankt Gallen | Q113162322 | Q113162313,,7,wikidata
-sh.ch,central-1,Q113156836 | Q113156872 | Q113156845 | Cantonal Archaeology Schaffhausen | Q113156858 | Cantonal Council of Schaffhausen | Q113156852 | Q113156867,,7,wikidata
-so.ch,central-1,Q113080949 | Q113081037 | Q113081771 | Q113081102 | Q113081688 | Cantonal archaeology Solothurn,,7,wikidata
+sg.ch,central-1,Cantonal Council of Sankt Gallen | Q113162313 | Q113162300 | Q113162307 | Q113162337 | Q113162322 | Q113162281 | Q113162292 | Cantonal Archaeology St. Gallen | Q113162330,,7,wikidata
+sh.ch,central-1,Cantonal Council of Schaffhausen | Q113156852 | Q113156845 | Q113156867 | Cantonal Archaeology Schaffhausen | Q113156836 | Q113156872 | Q113156858,,7,wikidata
+so.ch,central-1,Q113081037 | Q113081771 | Q113081102 | Q113081688 | Cantonal archaeology Solothurn | Q113080949,,7,wikidata
 steuerkonferenz.ch,,Q105211207,,7,wikidata
-sz.ch,central-1,Cantonal Council of Schwyz | Q113156723 | Q113156710 | Q113156739 | Q113156806 | Q113156659 | Q113156715 | Monument preservation service of the canton of Schwyz | Q113156654 | Q113156755 | Q113156763,,7,wikidata
+sz.ch,central-1,Cantonal Council of Schwyz | Q113156739 | Q113156659 | Q113156715 | Q113156763 | Q113156806 | Q113156723 | Q113156755 | Q113156654 | Q113156710 | Monument preservation service of the canton of Schwyz,,7,wikidata
+tg.ch,,"8 proposed hosts under it: dek.tg.ch, sozialamt.tg.ch, djs.tg.ch",,7,parent
 unesco.ch,,Swiss commission for UNESCO | Swiss National Commission for UNESCO,,7,wikidata
-ur.ch,central-1,Q113042413 | Q113156929 | Q113042639 | Q113042523 | Q113042702 | Q113042263 | Council of State of Uri | Q113042233 | Q113042498,,7,wikidata
-vd.ch,central-1,"Education and training professional (Vaud) | Département de la Santé et de l'Action Sociale | Institution, Territory and Sport (Vaud) | Finance and Agriculture (Vaud) | Vaud Cantonal Court | Département de la Formation, de la Jeunesse et de la Culture | Health and social action (Vaud) | Youth, environment and security (Vaud) | Cantonal police of the canton of Vaud | Culture, infrastructure and human ressources (Vaud) | Département des Finances et des Relations Extérieures | Economy, innovation, employment and heritage (Vaud)",,7,wikidata
-vd.zh.ch,central-1,Department for Economic Affairs,,7,wikidata
-vs.ch,central-1,"Mobility, spatial development and the environment (Valais) | Security, Institutions and Sports (Valais) | Valais Cantonal Court | Health, Social Affairs and Culture (Valais) | Economics and Education (Valais) | Finance and Energy (Valais) | Bureau (Valais)",,7,wikidata
-www4.ti.ch,central-1,"Department of Finance and Economy (Ticino) | Grand Council of Ticino | State Chancellery (Ticino) | Organizzazione Sociopsichiatrica Cantonale | Repubblica e Cantone Ticino | Department of Territory (Ticino) | Department of Institutions (Ticino) | Department of Health and Social Affairs (Ticino) | Ufficio di Statistica | Department of Education, Culture and Sport (Ticino) | Dipartimento dell Educazione della Cultura e dello Sport | Istituto Cantonale di Patologia",,7,wikidata;academia
-zh.ch,central-1,"Department of Health Canton of Zurich | Department for Economic Affairs | Direktion der Justiz und des Innern, Kanton Zürich | Q113033130 | Monuments Preservation Service of the Canton of Zurich | Building Department Kanton Zürich",,7,wikidata
+ur.ch,central-1,Q113042702 | Q113042498 | Council of State of Uri | Q113156929 | Q113042233 | Q113042413 | Q113042263 | Q113042639 | Q113042523,,7,wikidata
+vd.ch,central-1,"Culture, infrastructure and human ressources (Vaud) | Youth, environment and security (Vaud) | Département de la Formation, de la Jeunesse et de la Culture | Health and social action (Vaud) | Vaud Cantonal Court | Cantonal police of the canton of Vaud | Finance and Agriculture (Vaud) | Département des Finances et des Relations Extérieures | Institution, Territory and Sport (Vaud) | Département de la Santé et de l'Action Sociale | Education and training professional (Vaud) | Economy, innovation, employment and heritage (Vaud)",,7,wikidata
+vs.ch,central-1,"Finance and Energy (Valais) | Valais Cantonal Court | Bureau (Valais) | Health, Social Affairs and Culture (Valais) | Security, Institutions and Sports (Valais) | Economics and Education (Valais) | Mobility, spatial development and the environment (Valais)",,7,wikidata
+www4.ti.ch,central-1,"Grand Council of Ticino | Department of Education, Culture and Sport (Ticino) | Department of Finance and Economy (Ticino) | Department of Institutions (Ticino) | Dipartimento dell Educazione della Cultura e dello Sport | Department of Health and Social Affairs (Ticino) | Repubblica e Cantone Ticino | Ufficio di Statistica | Department of Territory (Ticino) | State Chancellery (Ticino) | Organizzazione Sociopsichiatrica Cantonale | Istituto Cantonale di Patologia",,7,wikidata;academia
+zh.ch,central-1,"Building Department Kanton Zürich | Monuments Preservation Service of the Canton of Zurich | Q113033130 | Department for Economic Affairs | Department of Health Canton of Zurich | Direktion der Justiz und des Innern, Kanton Zürich",,7,wikidata
 bfh.ch,central-1,Institute for Public Sector Transformation,,6,academia;ror
 bger.ch,central,Federal Supreme Court of Switzerland,,6,wikidata
 bs.ch,central-1,Institut für Rechtsmedizin der Universität Basel,,6,wikidata;ror
 ethz.ch,central-1,ETH Zurich,,6,academia;ror
 fhgr.ch,central-1,Swiss Institute for Information Science,,6,academia;ror
-finlandabroad.fi,central,"Embassy of Finland, Bern | Permanent Mission of Finland to the United Nations, Geneva",,6,wikidata
+finlandabroad.fi,central,"Permanent Mission of Finland to the United Nations, Geneva | Embassy of Finland, Bern",,6,wikidata
 fngeneve.um.dk,,Permanent Mission of Denmark to the UN in Geneve,,6,wikidata
 hevs.ch,central-1,Institute of Information Systems,,6,academia;ror
 iom.int,,International Organization for Migration,,6,wikidata
@@ -54,7 +58,6 @@ jesuiten.org,,Jesuit Province of Central Europe,,6,wikidata
 norway.no,central,"Embassy of Norway, Bern | Permanent Missions of Norway to the UN and WTO/EFTA in Geneva",,6,wikidata
 unibas.ch,central-1,University of Basel,,6,academia;ror
 unibe.ch,central-1,University of Bern,,6,academia;ror
-unil.ch,central-1,University of Lausanne,,6,academia;ror
 unilu.ch,central-1,University of Lucerne,,6,academia;ror
 unisg.ch,central-1,University of St. Gallen,,6,academia;ror
 zurich.ibm.com,,Binnig and Rohrer Nanotechnology Center | IBM Research – Zurich,,6,academia
@@ -75,6 +78,8 @@ ava-altenrhein.ch,,Abwasserverband Altenrhein,,4,wikidata
 avenir-suisse.ch,,Avenir Suisse,,4,academia
 bern.mfa.gov.hu,central,Embassy of Hungary in Bern,,4,wikidata
 berninvest.be.ch,,Bern Economic Development Agency,,4,wikidata
+bez.unibas.ch,,Q141550815,,4,academia
+biopole.ch,,Biopôle,,4,academia
 boga.unibe.ch,,Botanical Garden Bern,,4,academia
 botanique.vd.ch,,"Botanical garden ""La Thomasia""",,4,academia
 botanischergarten.stadt.sg.ch,,Botanical Garden St. Gallen,,4,academia
@@ -86,20 +91,27 @@ caf-bienne.ch,,Q2993819,,4,wikidata
 cambodiaembassy.ch,central,embassy of Cambodia to Switzerland,,4,wikidata
 campusbiotech.ch,,Campus Biotech,,4,academia
 ccif.ch,,Q23977985,,4,wikidata
+ccmx.ch,,Competence Center for Materials Science and Technology,,4,academia
 cdbf.ch,,Q130406473,,4,academia
 cdc-ge.ch,central-1,Q56289707,,4,wikidata
+cde.unibe.ch,,Centre for Development and Environment,,4,academia
 cees.uzh.ch,,Center for Eastern European Studies,,4,academia
+cejare.ch,,Jurassic Archive and Research Centre,,4,academia
+ceps.unibas.ch,,University of Basel Center for Philanthropy Studies,,4,academia
 chab.ethz.ch,,Laboratory of Organic Chemistry,,4,academia
 chuv.ch,,Institut universitaire d'histoire de la médecine et de la santé publique,,4,academia
 cies.ch,,International Centre for Sports Studies,,4,academia
 ciip.ch,,Q2992929,,4,wikidata
 collegium.ethz.ch,,Collegium Helveticum,,4,academia
-daziogrande.ch,,Big Custom House,,4,wikidata
+csdh.ch,,Swiss Centre of Expertise in Human Rights,,4,academia
+culturevalais.ch,,Plateforme Culture Valais,,4,academia
 dbu.tg.ch,,Department of Construction and Environment (Thurgau),,4,wikidata
 dcaf.ch,,DCAF,,4,academia
 deza.ch,,Swiss Agency for Development and Cooperation,,4,wikidata
 dfs.tg.ch,,Department of Finance and Social Affairs (Thurgau),,4,wikidata
+digitale-nachhaltigkeit.unibe.ch,,University of Bern Research Center for Digital Sustainability,,4,academia
 digitalresponsibility.ch,,Centre for Digital Responsibility,,4,academia
+disaster-pharmacy.ch,,Specialised Centre for Emergency and Disaster Pharmacy,,4,academia
 div.tg.ch,,Department of the Interior and National Economy (Thurgau),,4,wikidata
 djibouti.ch,central,embassy of Djibouti to Switzerland,,4,wikidata
 djs.tg.ch,,Department of Justice and Security (Thurgau),,4,wikidata
@@ -107,6 +119,7 @@ dmi.unibas.ch,,"Department of Mathematics and Computer Science, University of Ba
 dodis.ch,,Diplomatic Documents of Switzerland,,4,academia
 dsb.bs.ch,,Q113083517,,4,wikidata
 dtap.ch,,Q114896443,,4,wikidata
+ecotoxcentre.ch,,Ecotox Centre,,4,academia
 ed.bs.ch,,Department of Education Basel-Stadt,,4,wikidata
 edk.ch,,Swiss Conference of Cantonal Ministers of Education,,4,wikidata
 embaperu.ch,central,"Embassy of Peru, Bern",,4,wikidata
@@ -121,16 +134,19 @@ ffg.zh.ch,,Office for equality between women and men,,4,wikidata
 finanzkontrolle.bs.ch,,Q113083547,,4,wikidata
 flore-alpe.ch,,Flore-Alpe botanical garden,,4,academia
 fmi.ch,,Friedrich Miescher Institute for Biomedical Research,,4,academia
+fpt-motorenforschung.ch,,FPT Motor Research,,4,academia
 gaudi.ch,,GaudiLabs,,4,academia
 gd.bs.ch,,Health Department of the Canton of Basel-Stadt,,4,wikidata
+gd.zh.ch,central-1,Department of Health Canton of Zurich,,4,wikidata
 gdi.ch,,Gottlieb Duttweiler Institute,,4,academia
 gdk-cds.ch,,Swiss Conference of the Cantonal Ministers of Public Health,,4,wikidata
 gebirgskantone.ch,,Regierungskonferenz der Gebirgskantone,,4,wikidata
+gebirgswald.ch,,Fachstelle Gebirgswaldpflege GWP,,4,wikidata
 gef.be.ch,,Gesundheits- und Fürsorgedirektion des Kantons Bern,,4,wikidata
-geneve.ch,,Police Cantonale de Genève,,4,wikidata
 gerichte.bs.ch,,Q113082411,,4,wikidata
 glplab.ch,,Glp lab,,4,academia
 handelskammer-d-ch.ch,,German-Swiss Chamber of Commerce,,4,wikidata
+hketogeneva.gov.hk,,"Hong Kong Economic and Trade Office, Geneva",,4,wikidata
 iac.ethz.ch,,Institute for Atmospheric and Climate Science,,4,academia
 iap.ch,,Institute for Applied Plant Biology,,4,academia
 ibme.uzh.ch,,Institute of Biomedical Ethics and Medical History,,4,academia
@@ -161,6 +177,7 @@ kapo.sg.ch,central-1,Cantonal police of the canton of St. Gallen,,4,wikidata
 kapo.zh.ch,central-1,Kantonspolizei Zürich,,4,wikidata
 kath-tg.ch,,Q134733195,,4,wikidata
 kdk.ch,,Conference of the Cantonal Governments,,4,wikidata
+kiribatimission.ch,,Permanent Mission of Kiribati to the United Nations Office in Geneva,,4,wikidata
 kof.ethz.ch,,KOF Swiss Economic Institute,,4,academia
 krim.unibe.ch,,Institut de droit pénal et de criminologie,,4,academia
 kulturforschung.ch,,Institute for Cultural Research Graubünden,,4,academia
@@ -171,6 +188,7 @@ lasec.epfl.ch,,LASEC,,4,academia
 levagabond.ch,,Vagabond,,4,wikidata
 libinst.ch,,Liberal Institute,,4,academia
 loc.ethz.ch,,Laboratory of Organic Chemistry,,4,academia
+maisondelariviere.ch,,Maison de la Rivière,,4,academia
 maldivesmission.ch,central,embassy of the Maldives to Switzerland,,4,wikidata
 manufacturethinking.ch,,Manufacture Thinking,,4,academia
 math-stat.unibe.ch,,"Department of Mathematics and Statistics, University of Bern",,4,academia
@@ -187,7 +205,9 @@ mozambiqueembassy.ch,central,"Embassy of Mozambique, Geneva",,4,wikidata
 mylibero.ch,,Libero-Tarifverbund,,4,wikidata
 nanoscience.unibas.ch,,Swiss Nanoscience Institute,,4,academia
 nationalmuseum.ch,,Swiss National Museum,,4,wikidata
+nccr-marvel.ch,central,National Center of Competence in Research Materials’ Revolution: Computational Design and Discovery of Novel Materials,,4,academia
 nunziatura.ch,central,Apostolic Nunciature to Switzerland,,4,wikidata
+observatoire-culture.ch,,Observatoire romand de la culture,,4,academia
 ombudsstelle.bs.ch,,Q113083566,,4,wikidata
 ondeverte.ch,,Onde Verte,,4,wikidata
 ostwind.ch,,Ostwind,,4,wikidata
@@ -207,12 +227,14 @@ sagw.ch,,Swiss Academy of Humanities and Social Sciences,,4,wikidata
 sakk.ch,,Swiss Group  for  Clinical  Cancer  Research,,4,academia
 sbb.ch,,SBB Transport Police,,4,wikidata
 search.usi.ch,,Institute of Public Health,,4,academia
+sec.ethz.ch,,Singapore-ETH Centre,,4,academia
 seismo.ethz.ch,,Swiss Seismological Service,,4,wikidata
 sfi.ch,,Swiss Finance Institute,,4,academia
 sipc-urology.ch,,Swiss International Prostate Center,,4,academia
 siper.ch,,Swiss Institute for Peace and Energy Research,,4,academia
 skbf-csre.ch,,Schweizerische Koordinationsstelle für Bildungsforschung,,4,wikidata
 slf.ch,,WSL Institute for Snow and Avalanche Research SLF,,4,academia
+smartlivinglab.ch,,Smart Living Lab,,4,academia
 snb.ch,,Swiss National Bank,,4,wikidata
 sotomo.ch,,Sotomo,,4,academia
 southafrica.ch,central,"Embassy of South Africa, Bern",,4,wikidata
@@ -234,6 +256,7 @@ swisstph.ch,,Swiss Tropical and Public Health Institute,,4,academia
 t-l.ch,,Transports publics de la région lausannoise,,4,wikidata
 tajikistanmission.ch,central,embassy of Tajikistan to Switzerland,,4,wikidata
 tarifverbund-zug.ch,,Tarifverbund Zug,,4,wikidata
+technopark.ch,,Technopark Zürich,,4,academia
 technopole.ch,,Technopole Sierre,,4,academia
 theaterwissenschaft.unibe.ch,,Institut für Theaterwissenschaft,,4,academia
 tnw.ch,,Tarifverbund Nordwestschweiz,,4,wikidata
@@ -241,6 +264,8 @@ tortue.ch,,Emys Center,,4,academia
 tropenhaus-frutigen.ch,,Tropenhaus Frutigen,,4,academia
 tvsz.ch,,Tarifverbund Schwyz,,4,wikidata
 ugandamission.ch,central,embassy of Uganda to Switzerland,,4,wikidata
+unepgrid.ch,,GRID-Geneva,,4,academia
+vd.zh.ch,central-1,Department for Economic Affairs,,4,wikidata
 vgr.zh.ch,,Verwaltungsgericht Kantons Zürich,,4,wikidata
 vogelwarte.ch,,Swiss Ornithological Institute,,4,academia
 vsa.zh.ch,,Office of Elementary Education,,4,wikidata
@@ -265,13 +290,15 @@ bern.com,,Rose Garden Bern,,3,academia
 bern.diplo.de,central,Embassy of Germany Bern,,3,wikidata
 bern.mae.ro,central,Embassy of Romania in Bern,,3,wikidata
 bern.veleposlanistvo.si,central,"Embassy of Slovenia, Bern",,3,wikidata
+cermam.org,,Q111647725,,3,academia
 ch.ambafrance.org,central,"Embassy of France, Bern",,3,wikidata
-ch.mfa.lt,central,embassy of Lithuania in Switzerland,,3,wikidata
+ch.mfa.lt,central,"Embassy of Lithuania, Bern",,3,wikidata
 cites.org,,Secretariat of the Convention on International Trade in Endangered Species of Wild Fauna and Flora,,3,wikidata
 clubofrome.org,,Club of Rome,,3,academia
 cn.weforum.org,,World Economic Forum,,3,academia
 curml.ch,central-1,University Centre of Legal Medicine,,3,ror
 cuso.ch,central-1,Conférence Universitaire de Suisse Occidentale,,3,ror
+diplo.de,central,"3 proposed hosts under it: genf-io.diplo.de, bern.diplo.de, genf-cd.diplo.de",,3,parent
 ecolelasource.ch,central-1,"La Source School of Nursing, HES-SO University of Applied Sciences and Arts Western Switzerland",,3,ror
 ehb.swiss,,Swiss Federal University for Vocational Education and Training,,3,wikidata
 es.weforum.org,,World Economic Forum,,3,academia
@@ -320,6 +347,7 @@ mfa.is,central,Permanent Mission of Iceland in Geneva,,3,wikidata
 missionsenegal-geneve.org,central,"Embassy of Senegal, Geneve",,3,wikidata
 mzv.cz,central,Embassy of the Czech Republic in Switzerland,,3,wikidata
 mzv.sk,central,"Embassy of Slovakia, Bern",,3,wikidata
+neurorestore.swiss,,NeuroRestore,,3,academia
 ntb.ch,central-1,Interstate University of Applied Sciences of Technology Buchs,,3,ror
 olympic.org,,"Olympic Studies Centre, Historical Archives (formerly Archives of the International Olympic Committee (IOC))",,3,academia
 openbraininstitute.org,,Open Brain Institute,,3,academia
@@ -349,6 +377,7 @@ switzerland.mid.ru,central,"Embassy of Russia, Bern",,3,wikidata
 switzerland.nlembassy.org,central,"Embassy of the Netherlands, Bern",,3,wikidata
 tas-cas.org,,Court of Arbitration for Sport,,3,wikidata
 tcmuni.ch,central-1,Schweizerisches Universitäres Institut für Traditionelle Chinesische Medizin,,3,ror
+tessforum.org,,"Forum on Trade, Environment & the SDGs",,3,academia
 thchur.ch,central-1,Theologische Hochschule Chur,,3,ror
 umonarch.ch,central-1,Monarch Business School,,3,ror
 unidistance.ch,central-1,UniDistance Suisse,,3,ror
@@ -368,11 +397,12 @@ zhdk.ch,central-1,Zurich University of the Arts,,3,ror
 bundesanwaltschaft.ch,,Office of the Attorney General of Switzerland,,2,wikidata
 ethrat.ch,,ETH Board | ETH Domain,,2,wikidata
 fus.edu,central-1,Franklin University Switzerland,,2,ror
+graduateinstitute.ch,,Albert Hirschman Centre on Democracy | Centre for Trade and Economic Integration | Global Governance Centre | Global Health Centre | Global Migration Centre | Hoffmann Centre for Global Sustainability | NORRAG,,2,academia
 innosuisse.ch,,Innosuisse,,2,wikidata
 institute.constructor.org,central-1,Constructor Institute,,2,ror
-jura.ch,,"State Chancellery (Jura) | Department of Education, Culture and Sports (Jura) | Interior Department (Jura) | Department of Economics and Health (Jura) | Finance Department (Jura) | Archaeology and Paleontology Section of the Canton of Jura | Environment Department (Jura)",,2,wikidata
+jura.ch,,"Environment Department (Jura) | Department of Education, Culture and Sports (Jura) | State Chancellery (Jura) | Department of Economics and Health (Jura) | Archaeology and Paleontology Section of the Canton of Jura | Interior Department (Jura) | Finance Department (Jura)",,2,wikidata
 kultur.bkd.be.ch,,Monument Preservation Service of the Canton of Bern | Archaeological Service of the Canton of Bern,,2,wikidata
 sfuvet.swiss,central,Swiss Federal University for Vocational Education and Training SFUVET,,2,ror
 swissuniversity.com,central-1,Swiss International University,,2,ror
 wissenschaftsrat.ch,,Swiss Science Council,,2,wikidata
-roc-taiwan.org,,"Permanent Mission of the Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu to the World Trade Organization | Q100487529 | Q109415086 | Q100487759",,1,wikidata
+roc-taiwan.org,,"Q100487529 | Q109415086 | Permanent Mission of the Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu to the World Trade Organization | Q100487759",,1,wikidata

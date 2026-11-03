@@ -1,13 +1,11 @@
 domain,level,name,kind,score,sources
 adpolice.gov.ae,,Abu Dhabi Police,,8,wikidata
 almajles.gov.ae,central,Federal National Council,,8,wikidata
+economy.gov.ae,central,Ministry of Economy,,8,wikidata;academia
 fcsa.gov.ae,central,Federal Competitiveness and Statistics Authority,,8,wikidata;academia
 fcsc.gov.ae,central,Federal Competitiveness and Statistics Centre,,8,wikidata;academia
-moe.gov.ae,central,Ministry of Education,,8,wikidata
-mof.gov.ae,,Ministry of Finance,,8,wikidata
-mofaic.gov.ae,central,Ministry of Foreign Affairs of the UAE | Ministry of Foreign Affairs and International Cooperation,,8,wikidata
-moh.gov.ae,central,Ministry of Health and Prevention,,8,wikidata
-mohesr.gov.ae,central,Ministry of Higher Education and Scientific Research,,8,wikidata
+moccae.gov.ae,,Ministry of Climate Change and Environment,,8,wikidata
+mofaic.gov.ae,central,Ministry of Foreign Affairs and International Cooperation | Ministry of Foreign Affairs of the UAE,,8,wikidata
 nma.gov.ae,,National Media Authority,,8,wikidata
 scad.gov.ae,central-1,Statistics Centre - Abu Dhabi,,8,wikidata;academia
 space.gov.ae,,United Arab Emirates Space Agency,,8,wikidata
@@ -30,6 +28,10 @@ etcc.gov.ae,,Q138571897,,5,wikidata
 fanr.gov.ae,,Federal Authority for Nuclear Regulation,,5,wikidata
 icp.gov.ae,,"Federal Authority for Identity, Citizenship, Customs and Port Security",,5,wikidata
 mfnca.gov.ae,central,"Ministry of State for Federal National Council Affairs, United Arab Emirates",,5,wikidata
+moe.gov.ae,central,Ministry of Education,,5,wikidata
+mof.gov.ae,,Ministry of Finance,,5,wikidata
+moh.gov.ae,central,Ministry of Health and Prevention,,5,wikidata
+mohesr.gov.ae,central,Ministry of Higher Education and Scientific Research,,5,wikidata
 moi.gov.ae,,Ministry of the Interior,,5,wikidata
 qcc.gov.ae,,Abu Dhabi Quality and Conformity Council,,5,wikidata
 sca.gov.ae,,Capital Market Authority,,5,wikidata
@@ -37,14 +39,19 @@ sdc.gov.ae,,Sharjah Department of Culture,,5,wikidata
 tdra.gov.ae,,TDRA-ae -- GitHub org,,5,sopc
 uaecma.gov.ae,,Capital Market Authority,,5,wikidata
 adach.ae,,UAE Public Library and Cultural Center,,4,wikidata
+alainzoo.ae,,Q141548067,,4,wikidata
 alc.ae,,Q125497794,,4,wikidata
 angolaembassy.ae,central,embassy of Angola in the United Arab Emirates,,4,wikidata
 bhmc.ae,central,embassy of Bosnia and Herzegovina in the United Arab Emirates,,4,wikidata
 centralbank.ae,,Central Bank of the United Arab Emirates,,4,wikidata
 ded.ae,central-1,Department of Economic Development - Dubai,,4,wikidata
+dic.ae,,Dubai Internet City,,4,academia
 ead.ae,central-1,Environment Agency Abu Dhabi,,4,wikidata
+ec.shj.ae,,Sharjah Executive Council,,4,wikidata
+ecssr.ae,,Emirates Center for Strategic Studies and Research,,4,academia
 emiratespost.ae,,Emirates Post,,4,wikidata
 esma.ae,,Emirates Authority for Standardization and Metrology,,4,wikidata
+hketodubai.gov.hk,,"Hong Kong Economic and Trade Office, Dubai",,4,wikidata
 hra.ae,central-1,Human Resources Authority,,4,wikidata
 islamic-college.ae,,Kullīyat al-Dirāsāt al-Islāmīyah wa-al-ʻArabīyah,,4,academia
 maldivesembassy.ae,central,"Embassy of Maldives, Abu Dhabi",,4,wikidata
@@ -53,6 +60,10 @@ nrf.ae,,National Research Foundation,,4,wikidata
 pakistanconsulate.ae,,"Consulate-General of Pakistan, Dubai",,4,wikidata
 rta.ae,,Roads and Transport Authority,,4,wikidata
 saa.shj.ae,,Sharjah Archaeology Authority,,4,wikidata
+shj.ae,,"3 proposed hosts under it: saa.shj.ae, spc.shj.ae, ec.shj.ae",,4,parent
+smc.ae,,Sharjah Media Council,,4,wikidata
+spc.shj.ae,,Sharjah Petroleum Department,,4,wikidata
+tii.ae,,Technology Innovation Institute,,4,academia
 vnembassy-abudhabi.mofa.gov.v,,"Embassy of the Vietnam, UAE",,4,wikidata
 zho.ae,,Zayed Higher Organization for Humanitarian Care and Special Needs,,4,wikidata
 abudhabi.mae.lu,central,embassy of Luxembourg in the United Arab Emirates,,3,wikidata
@@ -70,13 +81,15 @@ aue.ae,,American University in the Emirates,,3,ror
 aurak.ac.ae,central-1,American University of Ras Al Khaimah,,3,ror
 biosaline.org,,International Center for Biosaline Agriculture,,3,academia
 buid.ac.ae,,British University in Dubai,,3,ror
-citibnq.com,,Capital Market Authority,,3,wikidata
 cu.ac.ae,,City University Ajman,,3,ror
 cud.ac.ae,,Canadian University of Dubai,,3,ror
+ddcr.org,,Q141548083,,3,wikidata
+diplo.de,central,"2 proposed hosts under it: uae.diplo.de, dubai.diplo.de",,3,parent
 dubai.consulfrance.org,,Consulate General of France in Dubai,,3,wikidata
 dubai.diplo.de,,"Consulate General of Germany, Dubai",,3,wikidata
+dubaiinternetcity.com,,Dubai Internet City,,3,academia
 eau.ac.ae,,Emirates Aviation University,,3,ror
-economy.gov.ae,central,Ministry of Economy,,3,wikidata;academia
+ecssr.com,,Emirates Center for Strategic Studies and Research,,3,academia
 eeas.europa.eu,,Delegation of the European Union to United Arab Emirates,,3,wikidata
 embassy-algeria-uae.com,central,"Embassy of Algeria, Abu Dhabi",,3,wikidata
 embcr-uae.org,central,embassy of Costa Rica in the United Arab Emirates,,3,wikidata
@@ -97,7 +110,6 @@ mbru.ac.ae,,Mohammed Bin Rashid University of Medicine and Health Sciences,,3,ro
 mbzuai.ac.ae,,Mohamed bin Zayed University of Artificial Intelligence,,3,ror
 mdx.ac.ae,,Middlesex University Dubai,,3,ror
 mfa.gr,central,embassy of Greece in the United Arab Emirates,,3,wikidata
-moccae.gov.ae,,Ministry of Climate Change and Environment,,3,wikidata
 modul.ac.ae,,MODUL University Dubai,,3,ror
 mzv.cz,central,embassy of the Czech republic in the United Arab Emirates,,3,wikidata
 mzv.sk,central,embassy of Slovakia in the United Arab Emirates,,3,wikidata

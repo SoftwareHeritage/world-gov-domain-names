@@ -3,19 +3,24 @@ parlamento.pt,central,Assembly of the Republic,,10,wikidata;linkgraph
 up.pt,central,Instituto de Ciências Biomédicas Abel Salazar | University of Porto,,9,academia;ror
 presidencia.pt,,Linked from 74 public-sector domains,,8,linkgraph
 academia.marinha.pt,,Academia de Marinha,,7,wikidata;academia
-chpvvc.min-saude.pt,,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde | Unidade Local de Saúde de Póvoa de Varzim/Vila do Conde,,7,wikidata
+chpvvc.min-saude.pt,,Unidade Local de Saúde de Póvoa de Varzim/Vila do Conde | Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,,7,wikidata
 cmvm.pt,central,Securities Market Commission,,7,wikidata
 dgav.pt,,Direcção-Geral de Alimentação e Veterinária | Q136310447,,7,wikidata
-exercito.pt,,Direção de Formação | Direção de História e Cultura Militar,,7,wikidata
+exercito.pt,,Direção de História e Cultura Militar | Direção de Formação,,7,wikidata
 gnr.pt,central,National Republican Guard,,7,wikidata;linkgraph
 icnf.pt,,Institute for Nature Conservation and Forests,,7,wikidata
 ine.pt,central,National Institute of Statistics,,7,wikidata;academia
 infarmed.pt,,National Authority of Medicines and Health Products,,7,wikidata
 lneg.pt,central,National Laboratory for Energy and Geology,,7,wikidata;academia
-moptc.pt,central,"Ministry of Public Works, Transport and Communications",,7,wikidata
+marinha.pt,central,"2 proposed hosts under it: academia.marinha.pt, escolanaval.marinha.pt",,7,parent
+min-agricultura.pt,central,"Ministry of Agriculture, Rural Development and Fisheries",,7,wikidata
+min-edu.pt,central,Ministry of Education of Portugal,,7,wikidata
+min-financas.pt,central,Ministry of Finance of Portugal,,7,wikidata
+min-saude.pt,central,"35 proposed hosts under it: chpvvc.min-saude.pt, ulsm.min-saude.pt, chbm.min-saude.pt",,7,parent
 policiajudiciaria.pt,,Laboratório de Polícia Científica | Polícia Judiciária,,7,wikidata
 pontosj.pt,,Portuguese Province of the Society of Jesus,,7,wikidata
-psp.pt,,Corpo de Intervenção | Polícia de Segurança Pública,,7,wikidata
+psp.pt,,Polícia de Segurança Pública | Corpo de Intervenção,,7,wikidata
+ptspace.pt,,Portugal Space | Agência Espacial Portuguesa,,7,wikidata
 tecnico.ulisboa.pt,,Instituto Superior Técnico | Instituto Superior Técnico - Tecnológico e Nuclear,,7,academia
 astro.up.pt,central,Centre for Astrophysics of the University of Porto,,6,academia;ror
 cbma.uminho.pt,central,Centro de Biologia Molecular e Ambiental,,6,academia;ror
@@ -217,7 +222,9 @@ lisszabon.mfa.gov.hu,central,"Hungarian embassy, Lisbon",,4,wikidata
 lnec.pt,central,Laboratório Nacional de Engenharia Civil,,4,academia
 lousal.cienciaviva.pt,,Q17167632,,4,academia
 maroceano.pt,,Estrutura de Missão para os Assuntos do Mar,,4,wikidata
+mec.pt,,"2 proposed hosts under it: sec-geral.mec.pt, igec.mec.pt",,4,parent
 mofa.gov.ae,central,"Embassy of the United Arab Emirates, Lisbon",,4,wikidata
+moptc.pt,central,"Ministry of Public Works, Transport and Communications",,4,wikidata
 mun-setubal.pt,central-1,Municipal Assembly of Setúbal,,4,wikidata
 nav.pt,central,NAV Portugal,,4,wikidata
 pgdlisboa.pt,,Linked from 3 public-sector domains,,4,linkgraph
@@ -226,7 +233,6 @@ portal-chsj.min-saude.pt,,Unidade Local de Saúde de São João,,4,wikidata
 portalnacional.com.pt,,GRICES,,4,wikidata
 portugalglobal.pt,,Agência para o Investimento e Comércio Externo de Portugal EPE,,4,wikidata
 pqi.pt,,Portuguese Quantum Institute,,4,academia
-ptspace.pt,,Agência Espacial Portuguesa,,4,wikidata
 sec-geral.mec.pt,,Republica Portuguesa Secretaria-Geral da Educação e Ciência,,4,wikidata
 seg-social.pt,,Social security in Portugal,,4,wikidata
 sesaram.pt,,Serviço de Saúde da Região Autónoma da Madeira,,4,wikidata
@@ -239,6 +245,7 @@ stadministrativo.pt,,Portuguese Supreme Administrative Court,,4,wikidata
 tcontas.pt,,Portuguese Court of Audits,,4,wikidata
 turismodeportugal.pt,,Turismo de Portugal,,4,wikidata
 uab.pt,central,Universidade Aberta de Portugal,,4,academia
+ul.pt,central,"4 proposed hosts under it: ics.ul.pt, imm.fm.ul.pt, fc.ul.pt",,4,parent
 ulsam.min-saude.pt,,Unidade Local de Saúde do Alto Minho,,4,wikidata
 ulsba.min-saude.pt,,Unidade Local de Saúde do Baixo Alentejo,,4,wikidata
 ulscb.min-saude.pt,,Unidade Local de Saúde de Castelo Branco,,4,wikidata
@@ -343,6 +350,7 @@ esenf.pt,central,Escola Superior de Enfermagem da Universidade do Porto,,3,ror
 esmae.ipp.pt,central,Escola Superior de Música e das Artes do Espectáculo,,3,ror
 estg.ipp.pt,central,Escola Superior de Tecnologia e Gestão,,3,ror
 eurogendfor.org,,European Gendarmerie Force,,3,wikidata
+europa.eu,central,"2 proposed hosts under it: portugal.representation.ec.europa.eu, lisbon.europarl.europa.eu",,3,parent
 europeia.pt,central,Universidade Europeia,,3,ror
 euvg.pt,central,Escola Universitária Vasco da Gama,,3,ror
 fam.ulusiada.pt,central,Universidade Lusíada de Vila Nova de Famalicão,,3,ror
@@ -368,6 +376,7 @@ inl.int,,International Iberian Nanotechnology Laboratory,,3,academia
 institutodehistoriadaarte.com,,Instituto de História da Arte (IHA),,3,academia
 ioriente.iscsp.ulisboa.pt,central,Universidade de Lisboa Instituto do Oriente,,3,ror
 ipa.univ.pt,central,Instituto Superior Autónomo de Estudos Politécnicos,,3,ror
+ipb.pt,central,"2 proposed hosts under it: sustec.ipb.pt, cimo.esa.ipb.pt",,3,parent
 ipbeja.pt,central,Universidade Politécnica de Beja,,3,ror
 ipc.pt,central,Polytechnic Institute of Coimbra,,3,ror
 ipca.pt,central,Gabinete Emprego Empreendedorismo e Ligação às Empresas,,3,ror
@@ -444,6 +453,7 @@ ubi.pt,central,Centro de Investigação em Ciências da Saúde,,3,ror
 ucp.pt,central,Universidade Católica Portuguesa,,3,ror
 ufp.pt,central,Fernando Pessoa University,,3,ror
 ulo.pt,central,Universidade de Leiria e Oeste,,3,ror
+ulusiada.pt,central,"6 proposed hosts under it: citad.ulusiada.pt, por.ulusiada.pt, fam.ulusiada.pt",,3,parent
 ulusofona.pt,central,Universidade Lusófona,,3,ror
 uma.pt,central,Universidade da Madeira,,3,ror
 unave.pt,central,Associação para a Formação Profissional e Investigação,,3,ror
@@ -465,9 +475,6 @@ edp.com,central,Universidade EDP,,2,ror
 egov.unu.edu,central,United Nations University,,2,ror
 lab2pt.net,central,Laboratório de Paisagens Património e Território,,2,ror
 lcfpem.com,central,Laboratório de Ciências Forenses e Psicológicas Egas Moniz,,2,ror
-min-agricultura.pt,central,"Ministry of Agriculture, Rural Development and Fisheries",,2,wikidata
-min-edu.pt,central,Ministry of Education of Portugal,,2,wikidata
-min-financas.pt,central,Ministry of Finance of Portugal,,2,wikidata
 mundossociais.com,central,Editora Mundos Sociais,,2,ror
 ufpuv.com,central,Universidade Fernando Pessoa Universidade Virtual,,2,ror
 ulices.org,central,Universidade de Lisboa Centro de Estudos Anglisticos,,2,ror

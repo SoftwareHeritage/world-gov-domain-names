@@ -1,12 +1,11 @@
 domain,level,name,kind,score,sources
 goretarapaca.gov.cl,central-1,Regional Council of Tarapacá,,8,wikidata
-bienesnacionales.cl,central,Ministry of National Property | Q5655486,,7,wikidata
+bienesnacionales.cl,central,Q5655486 | Ministry of National Property,,7,wikidata
 congreso.cl,central,National Congress of Chile,,7,wikidata
 corecoquimbo.cl,central-1,Regional Council of Coquimbo,,7,wikidata
 coredelosrios.cl,central-1,Regional Council of Los Ríos,,7,wikidata
 coremagallanes.cl,central-1,Regional Council of Magallanes y la Antártica Chilena,,7,wikidata
 corevalparaiso.cl,central-1,Regional Council of Valparaíso,,7,wikidata
-defensa.cl,central,Ministry of National Defense of Chile,,7,wikidata
 dellibertador.cl,central-1,Regional Council of O'Higgins,,7,wikidata
 gobiernosantiago.cl,central-1,Regional Council of the Metropolitan Region of Santiago,,7,wikidata
 goreantofagasta.cl,central-1,Regional Council of Antofagasta,,7,wikidata
@@ -14,9 +13,11 @@ gorearaucania.cl,central-1,Regional Council of La Araucanía,,7,wikidata
 gorearicayparinacota.cl,central-1,Regional Council of Arica and Parinacota,,7,wikidata
 goreaysen.cl,central-1,Regional Council of Aysén,,7,wikidata
 goremaule.cl,central-1,Regional Council of Maule,,7,wikidata
+hacienda.cl,central,Ministry of Finance | Finance undersecretariat of Chile,,7,wikidata
 ine.cl,central,Instituto Nacional de Estadísticas,,7,wikidata;academia
-minmineria.cl,central,Ministry of Mining,,7,wikidata
-minsegpublica.cl,central,Ministry of Public Security of Chile,,7,wikidata
+mindep.cl,central,Q17630728 | Ministry of Sports (Chile),,7,wikidata
+mineduc.cl,central,Ministry of Education of Chile | undersecretariat of education Chile,,7,wikidata
+minsal.cl,central,Undersecretariat of Public Health | Ministry of Health,,7,wikidata
 regiondeloslagos.cl,central-1,Regional Council of Los Lagos,,7,wikidata
 sitio.gorebiobio.cl,central-1,Regional Council of Biobío,,7,wikidata
 tribunalconstitucional.cl,,Constitutional Court of Chile,,6,wikidata
@@ -31,6 +32,7 @@ utalca.cl,central,University of Talca,,6,academia;ror
 uv.cl,central,University of Valparaíso,,6,academia;ror
 onemi.gov.cl,central,National Office of Emergency of the Interior Ministry,,5,wikidata
 academialenguarapanui.cl,,Q130492298,,4,wikidata
+accdis.cl,,Advanced Center for Chronic Diseases,,4,academia
 aduana.cl,,Servicio Nacional de Aduanas,,4,wikidata
 agenciaeducacion.cl,,Q5659763,,4,wikidata
 anid.cl,,Chilean National Agency for Research and Development,,4,wikidata
@@ -51,7 +53,9 @@ cbn.cl,,Cuerpo de Bomberos de Ñuñoa,,4,wikidata
 cbt.cl,,Cuerpo de Bomberos de Talcahuano,,4,wikidata
 cchen.cl,,Chilean Nuclear Energy Commission,,4,wikidata
 ccs.cl,,Q5795755,,4,wikidata
+cctval.cl,,Centro Científico Tecnológico de Valparaíso,,4,academia
 cedenna.cl,,Center for the Development of Nanoscience and Nanotechnology,,4,academia
+cedeus.cl,,Centre For Sustainable Urban Development,,4,academia
 cegecal.uchile.cl,,Q122950298,,4,academia
 cenabast.cl,,Q5760740,,4,wikidata
 centrojusticiaeducacional.uc.cl,,Educational Justice Center,,4,academia
@@ -59,6 +63,7 @@ cepchile.cl,,Centro de Estudios Públicos,,4,academia
 cequa.cl,,Centro de Estudios del Cuaternario,,4,academia
 chilecompra.cl,,ChileCompra,,4,wikidata
 ciencias.uach.cl,,Jardín Botánico de la Universidad Austral de Chile,,4,academia
+cigiden.cl,,Research Center for Integrated Disaster Risk Management,,4,academia
 cmfchile.cl,,Comisión para el Mercado Financiero,,4,wikidata
 cmm.uchile.cl,,Center for Mathematical Modeling,,4,academia
 cne.cl,,Comisión Nacional de Energía,,4,wikidata
@@ -70,6 +75,9 @@ consejotransparencia.cl,central,Q5784135,,4,wikidata
 contraloria.cl,,Comptroller General of Chile,,4,wikidata
 costarica.cl,central,embassy of Costa Rica in Chile,,4,wikidata
 cpl.cl,,Q16491400,,4,wikidata
+cr2.cl,,Center for Climate and Resilience Research,,4,academia
+csn.uchile.cl,central,Centro Sismológico Nacional,,4,academia
+defensa.cl,central,Ministry of National Defense of Chile,,4,wikidata
 defensacivil.cl,,Civil defence of Chile,,4,wikidata
 defensorianinez.cl,,Q75762360,,4,wikidata
 dgmn.cl,central,Q5400774,,4,wikidata
@@ -114,6 +122,8 @@ jbn.cl,central,Jardín Botánico Nacional de Viña del Mar,,4,academia
 junaeb.cl,,Q5956502,,4,wikidata
 marcachile.cl,,Image of Chile Foundation,,4,wikidata
 metamateriales.cl,,Metamaterials,,4,academia
+minmineria.cl,central,Ministry of Mining,,4,wikidata
+minsegpublica.cl,central,Ministry of Public Security of Chile,,4,wikidata
 minvu.cl,central,Q6134961,,4,wikidata
 mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Santiago",,4,wikidata
 mop.cl,central,Q6134946,,4,wikidata
@@ -123,7 +133,7 @@ nuevoportal.ine.cl,,Sistema Estadístico Nacional,,4,wikidata
 oceanosazules.cl,,Q6048789,,4,academia
 parvularia.mineduc.cl,central,Q28517305,,4,wikidata
 pdichile.cl,central,Investigations Police of Chile,,4,wikidata
-poderjudicial.cl,central,Q5789526 | Supreme Court of Chile | Q5789502 | Appeal Court of Copiapo | Q5789506,,4,wikidata
+poderjudicial.cl,central,Appeal Court of Copiapo | Q5789502 | Q5789506 | Supreme Court of Chile | Q5789526,,4,wikidata
 registrocivil.cl,central,Civil Registry and Identification Service of Chile,,4,wikidata
 saludarica.cl,,Arica Health Service,,4,wikidata
 saludaysen.cl,,Servicio de Salud Aysén,,4,wikidata
@@ -142,6 +152,7 @@ servel.cl,central,Electoral Service of Chile,,4,wikidata
 serviciodesaludnuble.cl,,Q56318633,,4,wikidata
 shoa.cl,,Hydrographic and Oceanographic Service of the Chilean Navy,,4,wikidata
 sii.cl,central,Internal Revenue Service of Chile,,4,wikidata
+sismologia.cl,central,Centro Sismológico Nacional,,4,academia
 sml.cl,,Servico Médico Legal,,4,wikidata
 spel.cl,,Space and Planetary Exploration Laboratory,,4,academia
 spensiones.cl,,Q6135924,,4,wikidata
@@ -156,6 +167,7 @@ uaf.cl,,Unidad de Análisis Financiero,,4,wikidata
 wwwprod.aguasantofagasta.cl,,Q136798875,,4,academia
 wwww.bomberosconcepcion.cl,,Fire Department Concepción,,4,wikidata
 academia.cl,central,Academy of Christian Humanism University,,3,ror
+capehorncenter.com,,Cape Horn International Center,,3,academia
 ceduc.cl,central,CEDUC UCN,,3,ror
 cehum.org,,CEHUM,,3,academia
 chile.angloamerican.com,,Q135687042,,3,academia
@@ -230,10 +242,6 @@ ust.cl,central,Universidad Santo Tomás,,3,ror
 uta.cl,central,University of Tarapacá,,3,ror
 uvm.cl,central,Viña del Mar University,,3,ror
 ww3.ucsh.cl,central,Universidad Católica Silva Henríquez,,3,ror
-hacienda.cl,central,Ministry of Finance | Finance undersecretariat of Chile,,2,wikidata
-mindep.cl,central,Ministry of Sports (Chile) | Q17630728,,2,wikidata
-mineduc.cl,central,undersecretariat of education Chile | Ministry of Education of Chile,,2,wikidata
-minsal.cl,central,Ministry of Health | Undersecretariat of Public Health,,2,wikidata
 uleones.com,central,Universidad Los Leones,,2,ror
 subdere.gov.cl,central,Undersecretariat of Regional and Administrative Development,,0,wikidata
 umce.cl,central,Metropolitan University of Educational Sciences,,0,ror

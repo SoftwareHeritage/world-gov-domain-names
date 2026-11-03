@@ -37,9 +37,9 @@ government_agency,embassy of Russia in Jamaica,https://jamaica.mid.ru,jamaica.mi
 government_agency,Medical Council of Jamaica,http://www.jamaicamedicalcouncil.org/,jamaicamedicalcouncil.org,
 government_agency,Jamaica Rural Police Force,http://www.jamaicapolice.org.jm/dc.htmlOfficial,jamaicapolice.org.jm,
 government_agency,Clarendon Alumina Production Limited,https://www.jamalco.com/,jamalco.com,
-government_agency,Senate of Jamaica,https://www.japarliament.gov.jm/,japarliament.gov.jm,central
 parliament,Parliament of Jamaica,http://japarliament.gov.jm,japarliament.gov.jm,central
 supreme_court,Parliament of Jamaica,http://japarliament.gov.jm,japarliament.gov.jm,central
+government_agency,Senate of Jamaica,https://www.japarliament.gov.jm/,japarliament.gov.jm,central
 government_agency,House of Representatives of Jamaica,https://www.japarliament.gov.jm/,japarliament.gov.jm,central
 government_agency,Jamaica Bauxite Institute,https://jbi.org.jm/,jbi.org.jm,central
 government_agency,Bureau of Standards Jamaica,http://www.jbs.org.jm,jbs.org.jm,
@@ -47,8 +47,8 @@ government_agency,Jamaica Customs Agency,https://www.jca.gov.jm/,jca.gov.jm,
 government_agency,Jamaica Civil Aviation Authority,http://www.jcaa.gov.jm/,jcaa.gov.jm,
 government_agency,Jamaica Constabulary Force,http://www.jcf.gov.jm,jcf.gov.jm,central
 government_agency,Island Special Constabulary Force,http://www.jcf.gov.jm/island-special-constabulary-force,jcf.gov.jm,
-government_agency,Jamaica Council for Persons with Disabilities,https://jcpd.gov.jm/,jcpd.gov.jm,
 government_agency,Jamaica Productivity Centre,https://jcpd.gov.jm/,jcpd.gov.jm,
+government_agency,Jamaica Council for Persons with Disabilities,https://jcpd.gov.jm/,jcpd.gov.jm,
 government_agency,Coast Guard of Jamaica Defence Force,http://www.jdfmil.org/Units/coast_guard/cg_home.php,jdfmil.org,
 government_agency,"Embassy of France, Kingston",https://jm.ambafrance.org,jm.ambafrance.org,central
 government_agency,embassy of the United States in Jamaica,https://jm.usembassy.gov,jm.usembassy.gov,central
@@ -60,44 +60,28 @@ government_agency,Jamaica Tertiary Education Commission,https://jtec.gov.jm/,jte
 government_agency,Justice Training Institute of Jamaica,https://jti.edu.jm/,jti.edu.jm,
 government_agency,"Embassy of Germany, Kingston",https://kingston.diplo.de,kingston.diplo.de,central
 government_agency,embassy of Brazil in Jamaica,http://kingston.itamaraty.gov.br,kingston.itamaraty.gov.br,central
-ministry,Ministry of Local Government and Rural Development,https://www.localgovjamaica.gov.jm,localgovjamaica.gov.jm,central
 government_agency,Ministry of Local Government and Rural Development,https://www.localgovjamaica.gov.jm,localgovjamaica.gov.jm,central
 government_agency,"Ministry of Culture, Gender, Entertainment and Sport",https://mcges.gov.jm/,mcges.gov.jm,central
-ministry,"Ministry of Culture, Gender, Entertainment and Sport",https://mcges.gov.jm/,mcges.gov.jm,central
 government_agency,Ministry of Economic Growth and Job Creation,https://megjc.gov.jm/,megjc.gov.jm,central
-ministry,Ministry of Economic Growth and Job Creation,https://megjc.gov.jm/,megjc.gov.jm,central
-ministry,Ministry of Foreign Affairs and Foreign Trade,https://www.mfaft.gov.jm/,mfaft.gov.jm,central
 government_agency,Ministry of Foreign Affairs and Foreign Trade,https://www.mfaft.gov.jm/,mfaft.gov.jm,central
 government_agency,Mines and Geology Division,https://mgd.gov.jm,mgd.gov.jm,
-ministry,"Ministry of Industry, Commerce, Agriculture and Fisheries",http://www.micaf.gov.jm/,micaf.gov.jm,central
 government_agency,"Ministry of Industry, Commerce, Agriculture and Fisheries",http://www.micaf.gov.jm/,micaf.gov.jm,central
 government_agency,"Ministry of Industry, Investment and Commerce",https://www.miic.gov.jm/,miic.gov.jm,central
-ministry,"Ministry of Industry, Investment and Commerce",https://www.miic.gov.jm/,miic.gov.jm,central
 government_agency,Management Institute for National Development,https://mind.edu.jm/,mind.edu.jm,central
-ministry,Ministry of Legal and Constitutional Affairs,https://mlca.gov.jm/,mlca.gov.jm,central
 government_agency,Ministry of Legal and Constitutional Affairs,https://mlca.gov.jm/,mlca.gov.jm,central
 government_agency,Ministry of Labour & Social Security,https://www.mlss.gov.jm/,mlss.gov.jm,central
-ministry,Ministry of Labour & Social Security,https://www.mlss.gov.jm/,mlss.gov.jm,central
 government_agency,Ministry of National Security,https://www.mns.gov.jm/,mns.gov.jm,central
-ministry,Ministry of National Security,https://www.mns.gov.jm/,mns.gov.jm,central
-government_agency,National Fisheries Authority,https://www.moa.gov.jm/content/national-fisheries-authority,moa.gov.jm,central
 government_agency,"Ministry of Agriculture, Fisheries and Mining",https://moa.gov.jm/,moa.gov.jm,central
-ministry,"Ministry of Agriculture, Fisheries and Mining",https://moa.gov.jm/,moa.gov.jm,central
+government_agency,National Fisheries Authority,https://www.moa.gov.jm/content/national-fisheries-authority,moa.gov.jm,central
 government_agency,Major Organized Crime and Anticorruption Agency,https://www.moca.gov.jm/,moca.gov.jm,central
 government_agency,Ministry of Education and Youth,https://moey.gov.jm/,moey.gov.jm,central
-ministry,Ministry of Education and Youth,https://moey.gov.jm/,moey.gov.jm,central
-ministry,Ministry of Finance and The Public Service,https://www.mof.gov.jm/,mof.gov.jm,central
 government_agency,Ministry of Finance and The Public Service,https://www.mof.gov.jm/,mof.gov.jm,central
-government_agency,Ministry of Health and Wellness,https://www.moh.gov.jm/,moh.gov.jm,central
-ministry,Ministry of Health,http://moh.gov.jm/,moh.gov.jm,central
 government_agency,Ministry of Health,http://moh.gov.jm/,moh.gov.jm,central
-ministry,Ministry of Health and Wellness,https://www.moh.gov.jm/,moh.gov.jm,central
-ministry,Ministry of Justice,https://moj.gov.jm/,moj.gov.jm,central
+government_agency,Ministry of Health and Wellness,https://www.moh.gov.jm/,moh.gov.jm,central
 government_agency,Ministry of Justice,https://moj.gov.jm/,moj.gov.jm,central
 government_agency,Ministry of Tourism,https://www.mot.gov.jm,mot.gov.jm,central
-ministry,Ministry of Tourism,https://www.mot.gov.jm,mot.gov.jm,central
 government_agency,"Ministry of Science, Energy, Telecommunications and Transport",https://www.mset.gov.jm,mset.gov.jm,central
-ministry,"Ministry of Science, Energy, Telecommunications and Transport",https://www.mset.gov.jm,mset.gov.jm,central
+government_agency,Q141548119,https://www.nepa.gov.jm,nepa.gov.jm,
 government_agency,National Health Fund,https://www.nhf.org.jm,nhf.org.jm,
 government_agency,National Housing Trust,https://www.nht.gov.jm/,nht.gov.jm,
 government_agency,National Identification System,https://www.nidsfacts.com/,nidsfacts.com,central
@@ -107,12 +91,11 @@ government_agency,National Works Agency,https://www.nwa.gov.jm/,nwa.gov.jm,centr
 government_agency,National Water Commission,https://www.nwcjamaica.com/index.php,nwcjamaica.com,central
 government_agency,Office of Disaster Preparedness and Emergency Management,https://www.odpem.org.jm/,odpem.org.jm,
 government_agency,Office of the Public Defender of Jamaica,https://opd.gov.jm/,opd.gov.jm,
-government_agency,Jamaica Information Service,https://opm.gov.jm/opm_agency/jamaica-information-service-jis/,opm.gov.jm,central
-government_agency,Jamaica Defence Force,https://opm.gov.jm/opm_agency/jamaica-defence-force/,opm.gov.jm,central
-government_agency,Constituency Development Fund,https://opm.gov.jm/opm_agency/constituency-development-fund/,opm.gov.jm,central
-government_agency,"Culture, Health, Arts, Sports and Education Fund",https://opm.gov.jm/opm_agency/culture-health-arts-sports-education-chase/,opm.gov.jm,central
-ministry,Office of the Prime Minister,https://opm.gov.jm/,opm.gov.jm,central
 government_agency,Office of the Prime Minister,https://opm.gov.jm/,opm.gov.jm,central
+government_agency,Jamaica Defence Force,https://opm.gov.jm/opm_agency/jamaica-defence-force/,opm.gov.jm,central
+government_agency,"Culture, Health, Arts, Sports and Education Fund",https://opm.gov.jm/opm_agency/culture-health-arts-sports-education-chase/,opm.gov.jm,central
+government_agency,Constituency Development Fund,https://opm.gov.jm/opm_agency/constituency-development-fund/,opm.gov.jm,central
+government_agency,Jamaica Information Service,https://opm.gov.jm/opm_agency/jamaica-information-service-jis/,opm.gov.jm,central
 government_agency,Jamaica Social Investment Fund,https://opm.gov.jm/opm_agency/jamaica-social-investment-fund-jsif/,opm.gov.jm,central
 government_agency,Companies Office of Jamaica,https://www.orcjamaica.com/,orcjamaica.com,
 government_agency,Office of Utilities Regulation,https://our.org.jm/,our.org.jm,central

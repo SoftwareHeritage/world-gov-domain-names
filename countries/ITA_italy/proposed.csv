@@ -2,16 +2,17 @@ domain,level,name,kind,score,sources
 altamatematica.it,central,Istituto Nazionale di Alta Matematica Francesco Severi | Ypatia Laboratory for Mathematical Sciences,,10,academia;directory
 asi.it,,Italian Space Agency,,10,wikidata;directory
 camera.it,central,Chamber of Deputies of Italy,,10,wikidata;linkgraph;directory
-carabinieri.it,central,"Comando unità per la tutela forestale, ambientale e agroalimentare | Carabinieri",,10,wikidata;directory
+carabinieri.it,central,"Carabinieri | Comando unità per la tutela forestale, ambientale e agroalimentare",,10,wikidata;directory
 cnr.it,central,Consiglio Nazionale delle Ricerche | Institute of Neurobiology and Molecular Medicine | Istituto Nazionale di Ricerca per gli Alimenti e la Nutrizione | National Institute on the Physics of Materials | Q141740226,,10,wikidata;academia;directory
 cortecostituzionale.it,central,Constitutional Court of Italy,,10,wikidata;linkgraph;directory
 inps.it,,Istituto nazionale della previdenza sociale,,10,wikidata;linkgraph;directory
 invalsi.it,central,Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione,,10,wikidata;academia;directory
 istat.it,central,Italian National Institute of Statistics,,10,wikidata;academia;linkgraph;directory
-regione.emilia-romagna.it,,Emilia-Romagna,,10,wikidata;linkgraph;sopc
+regione.emilia-romagna.it,central-1,Emilia-Romagna,,10,wikidata;linkgraph;sopc
 regione.lombardia.it,central-1,Government of Lombardy | Lombardy,,10,wikidata;linkgraph
-regione.toscana.it,central-1,Q3630802 | Q3630801 | Tuscany | Q3630799 | Regione Toscana,,10,wikidata;linkgraph
-regione.veneto.it,central-1,Veneto | Government of Veneto | Q3630806 | Q56753389,,10,wikidata;linkgraph
+regione.sicilia.it,central-1,Sicily | Soprintendenza Beni Culturali e Ambientali di Siracusa | Naxos,,10,wikidata;linkgraph
+regione.toscana.it,central-1,Q3630799 | Q3630801 | Tuscany | Regione Toscana | Q3630802,,10,wikidata;linkgraph
+regione.veneto.it,central-1,Government of Veneto | Q3630806 | Veneto | Q56753389,,10,wikidata;linkgraph
 senato.it,central,Senate of the Republic,,10,wikidata;linkgraph;directory
 garanteprivacy.it,central,Italian Data Protection Authority,,9,wikidata;linkgraph
 agcm.it,,Autorità Garante della Concorrenza e del Mercato,,8,wikidata;directory
@@ -43,8 +44,8 @@ istitutoitalianonumismatica.it,,Istituto Italiano di Numismatica,,8,academia;dir
 ivass.it,,Istituto per la Vigilanza sulle Assicurazioni,,8,wikidata;directory
 ogs.it,central,National Institute of Oceanography and Applied Geophysics - OGS,,8,academia;directory
 poliziadistato.it,,Polizia di Stato,,8,wikidata;directory
-regione.lazio.it,,Lazio,,8,wikidata;linkgraph
-regione.piemonte.it,,Piedmont,,8,wikidata;linkgraph
+regione.lazio.it,central-1,Lazio,,8,wikidata;linkgraph
+regione.piemonte.it,central-1,Piedmont,,8,wikidata;linkgraph
 studigermanici.it,,Istituto Italiano di Studi Germanici,,8,academia;directory
 szn.it,,Stazione Zoologica Anton Dohrn,,8,academia;directory
 ahk-italien.it,,German-Italian Chamber of Commerce,,7,wikidata
@@ -77,6 +78,7 @@ fisiocritici.it,,Accademia dei Fisiocritici,,7,wikidata
 garanteinfanzia.org,central,Autorità Garante per l'Infanzia e l'Adolescenza,,7,wikidata;directory
 gesuiti.it,,Euromediterranean Province of the Jesuits,,7,wikidata
 iasi.cnr.it,,Istituto di analisi dei sistemi ed informatica,,7,wikidata;academia
+ice.it,,Italian Trade Agency,,7,wikidata
 ipcf.cnr.it,,Institute for Chemical-Physical Processes | Istituto per i Processi Chimico Fisici,,7,academia
 khi.fi.it,,Kunsthistorisches Institut in Florenz,,7,wikidata;academia
 ofmsalu.it,,Q113365774,,7,wikidata
@@ -84,23 +86,23 @@ ortibotanici.unimi.it,,Orto Botanico Città Studi | Orto Botanico di Brera,,7,ac
 ortobotanicoitalia.it,,Orto Botanico dell'Università di Perugia | University of Genoa Botanic Garden,,7,academia
 ovi.cnr.it,,Opera del Vocabolario Italiano,,7,wikidata;academia
 regionalrat.tnst.it,central-1,Regional council of Trentino-Alto Adige/Südtirol,,7,wikidata
-regione.campania.it,,Campania,,7,wikidata;linkgraph
+regione.campania.it,central-1,Campania,,7,wikidata;linkgraph
 regione.liguria.it,central-1,Regional Council of Liguria | Liguria | Giardino Botanico Montano di Pratorondanino,,7,wikidata;academia
-regione.marche.it,central-1,Government of Marche | Marche,,7,wikidata
+regione.marche.it,central-1,government of Marche | Marche,,7,wikidata
+regione.vda.it,central-1,Q27906871 | Aosta Valley,,7,wikidata
 roma.mfa.gov.ct.tr,central,"Representative office of Northern Cyprus, Rome",,7,wikidata
 sbn.it,,Italian National Libraries,,7,wikidata
 scolopi.it,,Piarist province of Italy,,7,wikidata
 sma.unibo.it,,Q3731151 | orto botanico dell'Università di Bologna,,7,academia
 statistica.regione.veneto.it,central,Q109669672,,7,wikidata;academia
 storiaantica.eu,,Istituto Italiano per la Storia Antica,,7,academia;directory
-vigilfuoco.it,central,National Fire-watchers' Corps | Q20165147,,7,wikidata
+tnst.it,central-1,"2 proposed hosts under it: regionalrat.tnst.it, region.tnst.it",,7,parent
+vigilfuoco.it,central,Q20165147 | National Fire-watchers' Corps,,7,wikidata
 bibliotecabraidense.org,,Biblioteca nazionale Braidense,,6,wikidata
 cortedicassazione.it,central,Supreme Court of Cassation,,6,wikidata
-mzv.cz,central,embassy of the Czech Republic in Italy | embassy of Czech Republic to the Holy See,,6,wikidata
-mzv.sk,central,embassy of Slovakia to the Holy See | Embassy of the Slovak Republic in Rome,,6,wikidata
+mzv.sk,central,Embassy of the Slovak Republic in Rome | embassy of Slovakia to the Holy See,,6,wikidata
 portale.unibas.it,central,University of Basilicata,,6,academia;ror
 portale.unipv.it,central,University of Pavia,,6,academia;ror
-regione.sicilia.it,,Soprintendenza Beni Culturali e Ambientali di Siracusa | Naxos | Sicily,,6,wikidata;linkgraph
 roc-taiwan.org,,Taipei Representative Office in Italy,,6,wikidata
 santannapisa.it,central,Sant'Anna School of Advanced Studies,,6,academia;ror
 sns.it,central,Scuola Normale Superiore,,6,academia;ror
@@ -115,6 +117,7 @@ unimi.it,central,University of Milan,,6,academia;ror
 unina.it,central,University of Naples Federico II,,6,academia;ror
 unipi.it,central,University of Pisa,,6,academia;ror
 unipr.it,central,University of Parma,,6,academia;ror
+unipv.it,central,"3 proposed hosts under it: portale.unipv.it, lena.unipv.it, www-3.unipv.it",,6,parent
 uniroma1.it,central,Sapienza University of Rome,,6,academia;ror
 uniroma3.it,central,Università degli Studi Roma Tre,,6,academia;ror
 uniroma4.it,central,Foro Italico University of Rome,,6,academia;ror
@@ -125,6 +128,7 @@ units.it,central,University of Trieste,,6,academia;ror
 unive.it,central,Venice Centre for Digital and Public Humanities,,6,academia;ror
 agenziaumbriaricerche.it,,Agenzia Umbria Ricerche,,5,directory
 agritechcenter.it,,CENTRO NAZIONALE DI RICERCA PER LE TECNOLOGIE DELL'AGRICOLTURA - AGRITECH,,5,directory
+alumbria.it,,"2 proposed hosts under it: centrostudi.alumbria.it, isuc.alumbria.it",,5,parent
 areasciencepark.it,,Area Science Park,,5,directory
 arpa.piemonte.it,,Linked from 6 public-sector domains,,5,linkgraph
 biotecnopolo.it,,Fondazione Biotecnopolo di Siena,,5,directory
@@ -166,6 +170,7 @@ acube.di.unipi.it,,Advanced Algorithms and Applications Laboratory,,4,academia
 adbarno.it,,Q3630780,,4,wikidata
 adbpo.it,,Authority of Po-Basin,,4,wikidata
 adbve.it,,Q3630776,,4,wikidata
+adspmarligureorientale.it,,Autorità di Sistema Portuale del Mar Ligure Orientale,,4,wikidata
 adsptirrenocentrale.it,,Q138802237,,4,wikidata
 affariregionali.it,central,Q3708837,,4,wikidata
 agenzia.roma.it,,Agenzia per il controllo e la qualità dei servizi pubblici locali di Roma Capitale,,4,wikidata
@@ -225,6 +230,7 @@ borex.lngs.infn.it,,Borexino,,4,academia
 brindisi.enea.it,,ENEA Brindisi Research Centre,,4,wikidata
 brunoleoni.it,,Bruno Leoni Institute,,4,academia
 cai.mo.it,,Esperia Botanical Garden,,4,academia
+camcom.it,,"3 proposed hosts under it: comolecco.camcom.it, mi.camcom.it, lg.camcom.it",,4,parent
 casaccia.enea.it,,ENEA Casaccia Research Centre,,4,wikidata
 ccm-network.it,,National Centre for Disease Prevention and Control,,4,wikidata
 cedrav.org,,Centro per La Documentazione e La Ricerca Antropologica in Valnerina e nella Dorsale Appenninica Umbra,,4,directory
@@ -327,6 +333,7 @@ gitlab.rse-web.it,,Ricerca sul Sistema Energetico (RSE) -- code catalog,,4,sopc
 gleno.it,,Q123348450,,4,academia
 grand-paradis.it,,Paradisia Alpine Botanical Garden,,4,academia
 grupposandonato.it,,IRCCS Ospedale Galeazzi - Sant'Ambrogio,,4,academia
+grupposave.it,,Q3959344,,4,wikidata
 gssi.it,,Gran Sasso Science Institute,,4,academia
 guardiacostieraausiliaria.it,,Q28669819,,4,wikidata
 home.infn.it,central,Istituto Nazionale di Fisica Nucleare,,4,academia
@@ -427,6 +434,7 @@ istrevi.it,,Q110015842,,4,academia
 isvroma.it,,Swedish Institute in Rome,,4,academia
 isza.it,,Istituto Sperimentale per la Zoologia Agraria,,4,academia
 italia-resistenza.it,central,Ferruccio Parri National Institute,,4,academia
+italia.it,,"2 proposed hosts under it: api.developers.italia.it, developers.italia.it",,4,parent
 izsler.it,,"Istituto Zooprofilattico Sperimentale della Lombardia e dell'Emilia Romagna ""Bruno Ubertini""",,4,academia
 izslt.it,,Istituto Zooprofilattico Sperimentale del Lazio e della Toscana M. Aleandri,,4,academia
 izsto.it,,Istituto Zooprofilattico Sperimentale del Piemonte Liguria e Valle d'Aosta,,4,wikidata
@@ -464,7 +472,6 @@ museicivici.comune.como.it,,Como Civic Museums,,4,wikidata
 museicivici.comune.verona.it,,Q112299889,,4,wikidata
 museodilusiana.it,,Giardino Alpino Dario Broglio del Monte Corno,,4,academia
 museogalileo.it,,Museo Galileo,,4,academia
-museometaponto.beniculturali.it,,Metapontum,,4,wikidata
 museosetagarlate.it,,Garlate Silk Museum,,4,academia
 na.archiworld.it,,Ordine Architetti Pianificatori Paesaggisti Conservatori di Napoli e Provincia,,4,wikidata
 na.infn.it,,INFN Sezione di Napoli,,4,academia
@@ -510,11 +517,16 @@ plugandpay.it,,Linked from 4 public-sector domains,,4,linkgraph
 polaris.itd.ge.cnr.it,,Giardino botanico Clelia Durazzo Grimaldi,,4,academia
 policlinico.mi.it,,Policlinico of Milan,,4,academia
 polizialocale.regione.puglia.it,,Q136296946,,4,wikidata
+port.ravenna.it,,Autorità di Sistema Portuale del Mare Adriatico Centro-Settentrionale,,4,wikidata
+port.venice.it,,Autorità di Sistema Portuale del Mare Adriatico Settentrionale,,4,wikidata
 portale.conservatoriodicosenza.it,central,Conservatoire of Cosenza,,4,academia
 portale.fnomceo.it,,National Federation of the Orders of Doctors and Dental Surgeons,,4,wikidata
+portialtotirreno.it,,Autorità di Sistema Portuale del Mar Tirreno Settentrionale,,4,wikidata
 portici.enea.it,,ENEA Portici Research Centre,,4,wikidata
 portidiroma.it,,Q3630822,,4,wikidata
 porto.genova.it,,Autorità Portuale di Genova,,4,wikidata
+porto.trieste.it,,Autorità di Sistema Portuale del Mare Adriatico Orientale,,4,wikidata
+portodigioiatauro.it,,Autorità di Sistema Portuale dei Mari Tirreno Meridionale e Ionio,,4,wikidata
 primolevi.it,,Centro internazionale di studi Primo Levi,,4,wikidata
 protezionecivile.it,,pcm-dpc -- GitHub org,,4,sopc
 provincia.bz.it,,Q3803665,,4,wikidata
@@ -523,16 +535,16 @@ provinz.bz.it,,State school board of Bolzano,,4,wikidata
 psy.it,,Consiglio Nazionale Ordine Psicologi,,4,wikidata
 ravino.it,,Giardini Ravino,,4,academia
 reggiadimonza.it,,Royal Gardens of Monza,,4,academia
-region.tnst.it,,Trentino-South Tyrol,,4,wikidata
-regione.abruzzo.it,,Abruzzo,,4,wikidata
-regione.basilicata.it,,Basilicata,,4,wikidata
-regione.calabria.it,,Calabria,,4,wikidata
-regione.fvg.it,,Friuli Venezia Giulia,,4,wikidata
-regione.molise.it,,Molise,,4,wikidata
-regione.puglia.it,,Apulia,,4,wikidata
-regione.sardegna.it,,Sardinia,,4,wikidata
-regione.taa.it,,Trentino-South Tyrol,,4,wikidata
-regione.umbria.it,,Umbria,,4,wikidata
+region.tnst.it,central-1,Trentino-South Tyrol,,4,wikidata
+regione.abruzzo.it,central-1,Abruzzo,,4,wikidata
+regione.basilicata.it,central-1,Basilicata,,4,wikidata
+regione.calabria.it,central-1,Calabria,,4,wikidata
+regione.fvg.it,central-1,Friuli Venezia Giulia,,4,wikidata
+regione.molise.it,central-1,Molise,,4,wikidata
+regione.puglia.it,central-1,Apulia,,4,wikidata
+regione.sardegna.it,central-1,Sardinia,,4,wikidata
+regione.taa.it,central-1,Trentino-South Tyrol,,4,wikidata
+regione.umbria.it,central-1,Umbria,,4,wikidata
 retecivica.trieste.it,,Istituto ed orto botanico,,4,academia
 reteparri.it,central,Ferruccio Parri National Institute,,4,academia
 riminiturismo.it,,Q27573529,,4,wikidata
@@ -586,9 +598,11 @@ turismoroseto.it,,Q27573477,,4,wikidata
 uif.bancaditalia.it,,Unità di Informazione Finanziaria per l'Italia,,4,wikidata
 uits.it,,Unione italiana di tiro a segno,,4,wikidata
 unesco.it,,Italian National Commission for UNESCO,,4,wikidata
+uniroma2.it,central,"2 proposed hosts under it: biogeografia.uniroma2.it, web.uniroma2.it",,4,parent
 unisa.it,central,University of Salerno,,4,academia
 uslnordovest.toscana.it,,Q98852439,,4,wikidata
 uslsudest.toscana.it,,Q98852429,,4,wikidata
+uslumbria1.it,central-1,Azienda USL Umbria 1,,4,wikidata
 uzembassy.it,central,embassy of Uzbekistan in Italy,,4,wikidata
 verkehr.provinz.bz.it,,Q15852666,,4,wikidata
 villacarlotta.it,central,Villa Carlotta,,4,academia
@@ -633,6 +647,7 @@ consulado.pe,,"Consulate General of Peru, Florence",,3,wikidata
 cqstar.eu,,QSTAR,,3,academia
 csmovimenti.org,,"Centro studi movimenti Parma, Parma (PR)",,3,academia
 digitalcommonslab.fbk.eu,,Digital Commons Lab,,3,academia
+diplo.de,central,"3 proposed hosts under it: rom-io.diplo.de, italien.diplo.de, mailand.diplo.de",,3,parent
 eiuc.org,,European Inter-University Centre for Human Rights and Democratisation,,3,academia
 embassyoftanzaniarome.info,central,embassy of Tanzania in Italy,,3,wikidata
 en.liuc.it,central,University Carlo Cattaneo,,3,ror
@@ -640,6 +655,7 @@ en.pusc.it,central,Pontifical University of the Holy Cross,,3,ror
 esa.int,,ESA Centre for Earth Observation,,3,academia
 euricse.eu,,European Research Institute on Cooperative and Social Enterprises,,3,academia
 eurogendfor.org,,European Gendarmerie Force,,3,wikidata
+europa.eu,,"3 proposed hosts under it: rome.europarl.europa.eu, italy.representation.ec.europa.eu, milan.europarl.europa.eu",,3,parent
 fbk.eu,,Bruno Kessler Foundation,,3,academia
 finlandabroad.fi,central,embassy of Finland in Italy,,3,wikidata
 fondazionedegasperi.org,,Fondazione Alcide De Gasperi,,3,academia
@@ -678,16 +694,19 @@ liberianembassyit.org,central,embassy of Liberia in Italy,,3,wikidata
 luiss.it,central,Libera Università Internazionale degli Studi Sociali Guido Carli,,3,ror
 lum.it,central,LUM Jean Monnet University,,3,ror
 lumsa.it,central,Libera Università Maria SS. Assunta,,3,ror
+mae.ro,central,"2 proposed hosts under it: roma.mae.ro, milano.mae.ro",,3,parent
 mailand.diplo.de,,"Consulate General of Germany, Milan",,3,wikidata
 medici.org,,Medici Archive Project,,3,academia
 meroma-it.com,central,embassy of Myanmar in Italy,,3,wikidata
 mfa.gr,central,embassy of Greece in Italy,,3,wikidata
 milan.europarl.europa.eu,,European Parliament Liaison Office in Milan,,3,wikidata
 milano-sfu.it,central,Sigmund Freud Privatuniversität - Standort Mailand,,3,ror
+milano.mae.ro,,Q141453254,,3,wikidata
 milanoup.unimi.it,central,Milano University Press,,3,ror
 monash.it,central,Monash University Prato Centre,,3,ror
 monembrome.mn,central,embassy of Mongolia in Italy,,3,wikidata
 mvep.hr,central,embassy of Croatia in Italy,,3,wikidata
+mzv.cz,central,embassy of the Czech Republic in Italy,,3,wikidata
 nigerianrome.org,central,embassy of Nigeria in Italy,,3,wikidata
 norway.no,central,"Embassy of Norway, Rome",,3,wikidata
 ortobotanico.unipv.eu,,Pavia Botanic Garden,,3,academia
@@ -803,7 +822,6 @@ incaweb.org,central,Consorzio Interuniversitario Nazionale La Chimica Per L'Ambi
 johncabot.edu,central,John Cabot University,,2,ror
 niki-florence.org,central,Dutch University Institute for Art History,,2,ror
 nyu.edu,central,New York University Florence,,2,ror
-regione.vda.it,,Aosta Valley | Q27906871,,2,wikidata
 sais-jhu.edu,central,Johns Hopkins University SAIS Bologna Center,,2,ror
 seraphicum.org,central,Pontifical University of St. Bonaventure,,2,ror
 unicamillus.org,central,Saint Camillus International University of Health and Medical Sciences,,2,ror
@@ -814,5 +832,5 @@ uninsubria.eu,central,University of Insubria,,2,ror
 unint.eu,central,Università degli Studi Internazionali di Roma,,2,ror
 univiu.org,central,Venice International University,,2,ror
 urbaniana.edu,central,Pontifical Urban University,,2,ror
-ambafrance-it.org,central,"embassy of France, Rome | Consulate-General of France in Milan | Consulate-General of France in Naples | Consulate General of France in Turin",,1,wikidata
+ambafrance-it.org,central,"Consulate-General of France in Milan | embassy of France, Rome | Consulate-General of France in Naples | Consulate General of France in Turin",,1,wikidata
 cmungo.org,central,Community of Mediterranean Universities,,0,ror

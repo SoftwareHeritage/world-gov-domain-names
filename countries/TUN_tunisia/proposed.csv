@@ -1,21 +1,20 @@
 domain,level,name,kind,score,sources
-affaires-religieuses.tn,central,Ministry of Religious Affairs,,7,wikidata
-agriculture.tn,central,Ministry of Agriculture,,7,wikidata
 cnrsm.rnrt.tn,central,Centre National de Recherches en Sciences des Matériaux | National Center for Research in Materials Sciences,,7,academia
 crten.rnrt.tn,central,Centre de Recherche et des Technologies de l'Energie | Research and Technology Center of Energy,,7,academia
-defense.tn,central,Ministry of Defence,,7,wikidata
+innorpi.tn,,National Institute for Standardization and Industrial Property | National Institute of Standardization and Industrial Property,,7,wikidata
 inrap.rnrt.tn,central,Institut National de Recherche et d'Analyse Physico-chimique | National Institute of Research and Physico and Chemical Analysis,,7,academia
 ins.tn,central,National Institute of Statistics,,7,wikidata;academia
-mes.tn,central,Ministry of Higher Education and Scientific Research,,7,wikidata
 meteo.tn,central,National Institute of Meteorology | Institut National de la Météorologie,,7,wikidata;academia
 mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Tunis",,7,wikidata
-santetunisie.rns.tn,central,Ministry of Health,,7,wikidata
-sport.tn,central,Ministry of Youth and Sports,,7,wikidata
-transport.tn,central,Ministry of Transport,,7,wikidata
+rnrt.tn,central,"14 proposed hosts under it: crten.rnrt.tn, inrap.rnrt.tn, cnrsm.rnrt.tn",,7,parent
 cassation.tn,,Court of Cassation,,6,wikidata
 enit.rnu.tn,central,Laboratoire de Génie Électrique de Tunis,,6,academia;ror
+rnu.tn,central,"23 proposed hosts under it: ucar.rnu.tn, enit.rnu.tn, crn.rnu.tn",,6,parent
 ucar.rnu.tn,central,Carthage University,,6,academia;ror
+affaires-religieuses.tn,central,Ministry of Religious Affairs,,4,wikidata
 afi.nat.tn,,Q136699374,,4,wikidata
+agriculture.tn,central,Ministry of Agriculture,,4,wikidata
+agrinet.tn,central,"7 proposed hosts under it: instm.agrinet.tn, iot.agrinet.tn, inrgref.agrinet.tn",,4,parent
 ambdz.tn,central,"Embassy of Algeria, Tunis",,4,wikidata
 anged.nat.tn,,National Waste Management Agency,,4,wikidata
 anm.nat.tn,,National Agency for Metrology,,4,wikidata
@@ -64,6 +63,8 @@ crns.rnrt.tn,,Digital Research Centre of Sfax,,4,academia
 ctaa.com.tn,,Agri-Food Technical Center,,4,wikidata
 ctc.ind.tn,,Q17354144,,4,wikidata
 ctmccv.ind.tn,,"Technical Center for Building Materials, Ceramics and Glass",,4,wikidata
+defense.tn,central,Ministry of Defence,,4,wikidata
+domainetat.tn,central,Ministry of State Domains and Land Affairs,,4,wikidata
 dpm.tn,,Q3029483,,4,wikidata
 droitsdelhomme.org.tn,,High Commission for Human Rights and Fundamental Freedoms,,4,wikidata
 emploi.nat.tn,,Q2826683,,4,wikidata
@@ -71,7 +72,6 @@ etap.com.tn,,Tunisian National Oil Company,,4,wikidata
 haica.tn,,Haute Autorité Indépendante de la Communication Audiovisuelle,,4,wikidata
 ibla-tunis.org.tn,,Q3152154,,4,academia
 inlucc.tn,,Q22686290,,4,wikidata
-innorpi.tn,,National Institute of Standardization and Industrial Property,,4,wikidata
 inp.rnrt.tn,,National Heritage Institute,,4,wikidata
 inrat.agrinet.tn,central,Institut National de la Recherche Agronomique de Tunisie,,4,academia
 inrgref.agrinet.tn,central,"National Research Institute of Rural Engineering, Water and Forests",,4,academia
@@ -87,6 +87,7 @@ isst.nat.tn,,Institut de Santé et de Sécurité au Travail,,4,wikidata
 itceq.tn,,Tunisian Institute of Competitiveness and Quantitative Studies,,4,academia
 ites.tn,,Q25451774,,4,academia
 lncm.tn,,National Laboratory for Drug Control,,4,wikidata
+mes.tn,central,Ministry of Higher Education and Scientific Research,,4,wikidata
 oaca.nat.tn,,Tunisian Civil Aviation & Airports Authority,,4,wikidata
 oep.nat.tn,,Office of Livestock and Pasture,,4,wikidata
 ommp.nat.tn,,Q3349579,,4,wikidata
@@ -97,16 +98,20 @@ onpc.nat.tn,,Office national de la protection civile,,4,wikidata
 ote.nat.tn,,Q16123967,,4,wikidata
 packtec.tn,,Packaging Technical Centre,,4,wikidata
 pasteur.tn,,Institut Pasteur de Tunis,,4,academia
+rns.tn,central,"2 proposed hosts under it: santetunisie.rns.tn, insp.rns.tn",,4,parent
+santetunisie.rns.tn,central,Ministry of Health,,4,wikidata
 sntri.com.tn,,Q738379,,4,wikidata
 soretrak.com.tn,,Q16677324,,4,wikidata
 soretras.tn,,Q16677330,,4,wikidata
 sotregames.com.tn,,Q16677318,,4,wikidata
+sport.tn,central,Ministry of Youth and Sports,,4,wikidata
 srtbeja.tn,,Q3488656,,4,wikidata
 srtbizerte.com.tn,,Q12188883,,4,wikidata
 srtgn.com.tn,,Q3488658,,4,wikidata
 srtm.tn,,Q16677328,,4,wikidata
 stsahel.com.tn,,Q3488038,,4,wikidata
 telediffusion.net.tn,,Q18397396,,4,wikidata
+transport.tn,central,Ministry of Transport,,4,wikidata
 transtu.tn,,Société des transports de Tunis,,4,wikidata
 tunisieindustrie.nat.tn,,Agency for the Promotion of Industry and Innovation,,4,wikidata
 tunisz.mfa.gov.hu,,Embassy of Hungary in Tunisia,,4,wikidata
@@ -133,7 +138,6 @@ smu.tn,central,South Mediterranean University,,3,ror
 supcom.tn,central,École Supérieure des Communications de Tunis,,3,ror
 swedenabroad.se,central,Embassy of Sweden in Tunisia,,3,wikidata
 time.ens.tn,central,Time Université,,3,ror
-tn.ambafrance.org,central,"Embassy of France, Tunis",,3,wikidata
 tunesien.um.dk,,Q131933168,,3,wikidata
 tunis.diplo.de,central,"Embassy of Germany, Tunis",,3,wikidata
 tunis.mae.ro,central,embassy of Romania in Tunisia,,3,wikidata
@@ -154,7 +158,6 @@ utm.rnu.tn,central,Tunis El Manar University,,3,ror
 utunis.rnu.tn,central,Tunis University,,3,ror
 uvt.rnu.tn,central,Virtual University of Tunis,,3,ror
 uz.rnu.tn,central,Ez-Zitouna University,,3,ror
-domainetat.tn,central,Ministry of State Domains and Land Affairs | Ministry of State Domains,,2,wikidata
 medecinesfax.org,central,Faculty of Medicine of Sfax,,2,ror
 ult-tunisie.com,central,Tunisia Private University,,2,ror
 univ-internationale.com,central,Université Internationale de Tunis,,2,ror

@@ -2,20 +2,20 @@ type,label,website,hostname,level
 government_agency,General Chemical State Laboratory,https://www.aade.gr/en/gcsl,aade.gr,
 government_agency,Athens Chamber of Commerce and Industry,http://www.acci.gr/acci/Home/tabid/28/language/en-US/Default.aspx,acci.gr,
 government_agency,Q55400550,https://acsmi.gr/,acsmi.gr,
-government_agency,National Transparency Authority,https://aead.gr/en/,aead.gr,
 government_agency,National Transparency Authority,https://aead.gr/,aead.gr,
+government_agency,National Transparency Authority,https://aead.gr/en/,aead.gr,
 government_agency,"Embassy of Albania, Athens",https://ambasadat.gov.al/greece/,ambasadat.gov.al,central
 government_agency,embassy of Italy in Greece,https://ambatene.esteri.it,ambatene.esteri.it,central
-government_agency,Decentralized Administration of Attica,http://www.apdattikis.gov.gr/,apdattikis.gov.gr,
-government_agency,Decentralized Administration of Thessaly and Central Greece,http://www.apdthest.gov.gr/,apdthest.gov.gr,
+government_agency,Decentralized Administration of Attica,http://www.apdattikis.gov.gr/,apdattikis.gov.gr,local
+government_agency,Decentralized Administration of Thessaly and Central Greece,http://www.apdthest.gov.gr/,apdthest.gov.gr,local
 government_agency,Court of Cassation,http://www.areiospagos.gr/,areiospagos.gr,central
 government_agency,Ephorate of Antiquities of Argolida,https://www.argolisculture.gr/,argolisculture.gr,
 government_agency,Hellenic Army General Staff,https://army.gr,army.gr,
 government_agency,Supreme Council for Personnel Selection,https://www.asep.gr/,asep.gr,
+government_agency,Hellenic Police,https://www.astynomia.gr,astynomia.gr,
+government_agency,Cyber Crime Unit,https://www.astynomia.gr/elliniki-astynomia/eidikes-ypiresies/diefthynsi-dioxis-ilektronikou-egklimatos/,astynomia.gr,
 government_agency,Special Guards,"https://www.astynomia.gr/elliniki-astynomia/anthropino-dynamiko/eidikoi-frouroi/#:~:text=%CE%9F%CE%B9%20%CE%95%CE%B9%CE%B4%CE%B9%CE%BA%CE%BF%CE%AF%20%CE%A6%CF%81%CE%BF%CF%85%CF%81%CE%BF%CE%AF%20%CE%B5%CE%BA%CF%84%CE%B5%CE%BB%CE%BF%CF%8D%CE%BD%20%CE%BA%CE%B1%CE%B8%CE%AE%CE%BA%CE%BF%CE%BD%CF%84%CE%B1,%CE%AE%20%CF%89%CF%82%20%CE%B5%CE%B8%CE%B5%CE%BB%CE%BF%CE%BD%CF%84%CF%8E%CE%BD%20%CF%80%CE%B5%CE%BD%CF%84%CE%B1%CE%B5%CF%84%CE%BF%CF%8D%CF%82%20%CF%85%CF%80%CE%BF%CF%87%CF%81%CE%AD%CF%89%CF%83%CE%B7%CF%82.",astynomia.gr,
 government_agency,Special Guards,https://www.astynomia.gr/hellenic-police/human-resources/special-guards/?lang=en,astynomia.gr,
-government_agency,Cyber Crime Unit,https://www.astynomia.gr/elliniki-astynomia/eidikes-ypiresies/diefthynsi-dioxis-ilektronikou-egklimatos/,astynomia.gr,
-government_agency,Hellenic Police,https://www.astynomia.gr,astynomia.gr,
 government_agency,"Embassy of Romania, Athens",https://atena.mae.ro/,atena.mae.ro,central
 government_agency,embassy of Portugal in Greece,https://atenas.embaixadaportugal.mne.gov.pt,atenas.embaixadaportugal.mne.gov.pt,central
 government_agency,embassy of Brazil in Greece,http://atenas.itamaraty.gov.br,atenas.itamaraty.gov.br,central
@@ -38,74 +38,71 @@ government_agency,Bank of Greece,https://www.bankofgreece.gr,bankofgreece.gr,
 government_agency,embassy of Austria in Greece,https://www.bmeia.gv.at/oeb-athen/,bmeia.gv.at,central
 government_agency,European Centre for the Development of Professional Training,https://www.cedefop.europa.eu,cedefop.europa.eu,local
 government_agency,embassy of Chile in Greece,https://chile.gob.cl/grecia/,chile.gob.cl,central
-ministry,Ministry of Climate Crisis and Civil Protection,https://civilprotection.gov.gr,civilprotection.gov.gr,central
 government_agency,Ministry of Climate Crisis and Civil Protection,https://civilprotection.gov.gr,civilprotection.gov.gr,central
-government_agency,Ephorate of Antiquities of Rhodope,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1699,culture.gov.gr,
-government_agency,Ephorate of Underwater Antiquities,https://www.culture.gov.gr/en/ministry/SitePages/viewyphresia.aspx?iID=1369,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Thesprotia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1677,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Phthiotida and Evrytania,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1675,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Serres,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1695,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Chania,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1706,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Messinia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1665,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Thessaloniki City,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1688,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Cilcis,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1690,culture.gov.gr,
-government_agency,Ephorate of Palaeoanthropology and Speleology,https://www.culture.gov.gr/en/ministry/SitePages/viewyphresia.aspx?iID=1784,culture.gov.gr,
-government_agency,Ministry of Culture (Greece),https://culture.gov.gr/el/SitePages/default.aspx,culture.gov.gr,central
-government_agency,Ephorate of Antiquities of Arkadia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1663,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Argolida,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1662,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Rethymno,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1707,culture.gov.gr,
-government_agency,Q134981574,https://www.culture.gov.gr/en/ministry/SitePages/Home.aspx,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Larissa,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1681,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Chios,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1702,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Samos - Icaria,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1703,culture.gov.gr,
-government_agency,Ephorate of Antiquities of the City of Athens,https://www.culture.gov.gr/en/ministry/SitePages/viewyphresia.aspx?iID=2472,culture.gov.gr,local
-government_agency,Ephorate of Antiquities of Kavala - Thasos,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1697,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Thessaloniki Region,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1689,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Evros,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1700,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Preveza,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1678,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Pieria,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1692,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Kastoria,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1684,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Lasithi,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1709,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Karditsa,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1683,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Grevena,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1687,culture.gov.gr,
-government_agency,Ephorate of Antiquities of the City of Athens,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=2472,culture.gov.gr,local
-government_agency,Ephorate of Antiquities of Cyclades,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1704,culture.gov.gr,
-ministry,Q134981574,https://www.culture.gov.gr/en/ministry/SitePages/Home.aspx,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Zakynthos,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1671,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Achaia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1667,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Corinth,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1661,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Florina,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1685,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Lesbos,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1701,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Lakonia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1664,culture.gov.gr,
-government_agency,Ephorate of Antiquities of East Attica,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=2473,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Euboea,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1674,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Heraklion,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1708,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Ilia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1666,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Phocis,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1673,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Trikala,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1682,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Arta,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1679,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Xanthe,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=2485,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Boeotia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1672,culture.gov.gr,
-government_agency,Ephorate of Palaeoanthropology and Speleology,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1784,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Ioannina,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1676,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Cephalonia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1670,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Kozani,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1686,culture.gov.gr,
 government_agency,Ephorate of Antiquities of Hemathia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1694,culture.gov.gr,
-government_agency,Ephorate of Antiquities of Pella,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1693,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Rethymno,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1707,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Arkadia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1663,culture.gov.gr,
 government_agency,Ephorate of Antiquities of Corfu,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1669,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Xanthe,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=2485,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Serres,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1695,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Thessaloniki Region,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1689,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Argolida,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1662,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Cyclades,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1704,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Pella,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1693,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Chania,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1706,culture.gov.gr,
+government_agency,Ephorate of Underwater Antiquities,https://www.culture.gov.gr/en/ministry/SitePages/viewyphresia.aspx?iID=1369,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Corinth,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1661,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Cephalonia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1670,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Phthiotida and Evrytania,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1675,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Pieria,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1692,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Arta,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1679,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Zakynthos,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1671,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Kavala - Thasos,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1697,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Lasithi,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1709,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Thesprotia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1677,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Phocis,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1673,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Evros,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1700,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Euboea,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1674,culture.gov.gr,
+government_agency,Ministry of Culture (Greece),https://culture.gov.gr/el/SitePages/default.aspx,culture.gov.gr,central
 government_agency,Ephorate of Antiquities of Magnesia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1680,culture.gov.gr,
-ministry,Ministry of Culture (Greece),https://culture.gov.gr/el/SitePages/default.aspx,culture.gov.gr,central
-government_agency,Decentralized Administration of Macedonia and Thrace,http://www.damt.gov.gr/,damt.gov.gr,
+government_agency,Ephorate of Antiquities of Ioannina,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1676,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Rhodope,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1699,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Karditsa,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1683,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Preveza,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1678,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Ilia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1666,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Larissa,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1681,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Lesbos,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1701,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Chios,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1702,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Achaia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1667,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Boeotia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1672,culture.gov.gr,
+government_agency,Ephorate of Antiquities of East Attica,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=2473,culture.gov.gr,
+government_agency,Ephorate of Palaeoanthropology and Speleology,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1784,culture.gov.gr,
+government_agency,Ephorate of Palaeoanthropology and Speleology,https://www.culture.gov.gr/en/ministry/SitePages/viewyphresia.aspx?iID=1784,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Messinia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1665,culture.gov.gr,
+government_agency,Ephorate of Antiquities of the City of Athens,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=2472,culture.gov.gr,local
+government_agency,Ephorate of Antiquities of the City of Athens,https://www.culture.gov.gr/en/ministry/SitePages/viewyphresia.aspx?iID=2472,culture.gov.gr,local
+government_agency,Ephorate of Antiquities of Trikala,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1682,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Kozani,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1686,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Thessaloniki City,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1688,culture.gov.gr,
+government_agency,Q134981574,https://www.culture.gov.gr/en/ministry/SitePages/Home.aspx,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Samos - Icaria,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1703,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Cilcis,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1690,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Grevena,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1687,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Florina,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1685,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Lakonia,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1664,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Kastoria,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1684,culture.gov.gr,
+government_agency,Ephorate of Antiquities of Heraklion,https://www.culture.gov.gr/el/ministry/SitePages/viewyphresia.aspx?iID=1708,culture.gov.gr,
+government_agency,Decentralized Administration of Macedonia and Thrace,http://www.damt.gov.gr/,damt.gov.gr,local
 government_agency,Public Power Corporation SA,https://www.dei.gr/el,dei.gr,
-government_agency,Public Power Corporation SA,https://www.dei.gr,dei.gr,
 government_agency,Public Power Corporation SA,https://www.dei.gr/en,dei.gr,
+government_agency,Public Power Corporation SA,https://www.dei.gr,dei.gr,
 government_agency,Hellenic Data Protection Authority,https://www.dpa.gr/,dpa.gr,central
 government_agency,Manpower Employment Agency,https://www.dypa.gov.gr/,dypa.gov.gr,
 government_agency,Hellenic Survey of Geology and Mineral Exploration,https://eagme.gr,eagme.gr,
 government_agency,embassy of Switzerland in Greece,https://www.eda.admin.ch/athens,eda.admin.ch,central
 government_agency,Athens Chamber of Tradesmen,https://www.eea.gr,eea.gr,
-government_agency,Greek Atomic Energy Commission,https://eeae.gr/,eeae.gr,
 government_agency,Greek Atomic Energy Commission,http://eeae.gr/en/,eeae.gr,
+government_agency,Greek Atomic Energy Commission,https://eeae.gr/,eeae.gr,
 government_agency,Hellenic Agency for Local Development and Local Government,https://eetaa.gr/,eetaa.gr,
 government_agency,Hellenic Telecommunications and Post Commission,https://www.eett.gr,eett.gr,
 government_agency,Ephorate of Antiquities of Aetoloacarnania and Lefkada,https://www.efaaitl.gr/,efaaitl.gr,
@@ -122,10 +119,12 @@ government_agency,Court of Appeal of Thessaloniki,https://www.efeteio-thess.gr/w
 government_agency,Court of Appeal of Athens,https://efeteioathinon.gr/,efeteioathinon.gr,
 government_agency,Court of Appeal of Dodecanese,https://efeteiododekanisou.blogspot.com/p/blog-page.html,efeteiododekanisou.blogspot.com,
 government_agency,"Embassy of Argentina, Athens",https://egrec.cancilleria.gob.ar,egrec.cancilleria.gob.ar,central
+government_agency,Q141548087,https://ekpaa.ypeka.gr,ekpaa.ypeka.gr,
 government_agency,Hellenic Agricultural Organization - DIMITRA,https://www.elgo.gr,elgo.gr,
 government_agency,Court of Audit (Greece),http://www.elsyn.gr/elsyn/root_eng.jsp,elsyn.gr,
 government_agency,embassy of Mexico in Greece,https://embamex.sre.gob.mx/grecia,embamex.sre.gob.mx,central
 government_agency,European Union Agency for Cybersecurity,https://www.enisa.europa.eu/,enisa.europa.eu,local
+government_agency,National Exams Organization,https://eoe.minedu.gov.gr/el/,eoe.minedu.gov.gr,
 government_agency,Hellenic Competition Commission,https://www.epant.gr/,epant.gr,
 government_agency,Greek Society of Rheumatology,https://ere.gr/,ere.gr,
 government_agency,Greek National Council for Radio and Television,https://www.esr.gr/,esr.gr,
@@ -135,20 +134,20 @@ government_agency,Federation of Greek Mariculture,http://fgm.com.gr/english/inde
 government_agency,embassy of Finland in Greece,https://finlandabroad.fi/web/grc,finlandabroad.fi,central
 government_agency,Hellenic Fire Corps,https://www.fireservice.gr/,fireservice.gr,
 government_agency,embassy of Malta in Greece,https://foreignandeu.gov.mt/en/Embassies/Athens,foreignandeu.gov.mt,central
-government_agency,General State Archives,http://www.gak.gr/,gak.gr,
 government_agency,General State Archives,http://www.gak.gr,gak.gr,
+government_agency,General State Archives,http://www.gak.gr/,gak.gr,
 government_agency,Hellenic National Defence General Staff,https://geetha.mil.gr,geetha.mil.gr,
 government_agency,Greek National Tourism Organisation,http://www.gnto.gov.gr/,gnto.gov.gr,
 government_agency,embassy of Peru in Greece,https://www.gob.pe/embajada-del-peru-en-grecia,gob.pe,central
 government_agency,embassy of Kazakhstan in Greece,https://www.gov.kz/memleket/entities/mfa-athens,gov.kz,central
 government_agency,"Embassy of Poland, Athens",https://www.gov.pl/web/grecja/,gov.pl,central
-government_agency,British Embassy Athens,https://www.gov.uk/world/organisations/british-embassy-athens,gov.uk,central
 government_agency,British Vice Consulate Corfu,https://www.gov.uk/world/organisations/british-vice-consulate-corfu,gov.uk,
-government_agency,British Vice Consulate Rhodes,https://www.gov.uk/world/organisations/british-vice-consulate-rhodes,gov.uk,
-government_agency,British Vice Consulate Crete,https://www.gov.uk/world/organisations/british-vice-consulate-crete,gov.uk,
 government_agency,British Honorary Vice Consulate Zakynthos,https://www.gov.uk/world/organisations/british-honorary-vice-consulate-zakynthos,gov.uk,
-government_agency,Government of Greece,https://www.government.gov.gr,government.gov.gr,central
+government_agency,British Vice Consulate Crete,https://www.gov.uk/world/organisations/british-vice-consulate-crete,gov.uk,
+government_agency,British Embassy Athens,https://www.gov.uk/world/organisations/british-embassy-athens,gov.uk,central
+government_agency,British Vice Consulate Rhodes,https://www.gov.uk/world/organisations/british-vice-consulate-rhodes,gov.uk,
 constitutional_court,Government of Greece,https://www.government.gov.gr,government.gov.gr,central
+government_agency,Government of Greece,https://www.government.gov.gr,government.gov.gr,central
 government_agency,Consulate General of France in Thessaloniki,https://gr.ambafrance.org/-Consulat-general-a-Thessalonique-,gr.ambafrance.org,
 government_agency,"Embassy of France, Athens",https://gr.ambafrance.org/,gr.ambafrance.org,central
 government_agency,"Embassy of the People's Republic of China, Athens",http://gr.china-embassy.org,gr.china-embassy.org,central
@@ -182,10 +181,10 @@ government_agency,Hellenic Civil Aviation Authority,http://www.hcaa.gr,hcaa.gr,
 government_agency,Hellenic Coast Guard,https://www.hcg.gr,hcg.gr,
 government_agency,Hellenic Capital Market Commission,http://www.hcmc.gr/,hcmc.gr,central
 government_agency,Hellenic Capital Market Commission,http://www.hcmc.gr/en_US/web/portal/foreis,hcmc.gr,central
-supreme_court,Hellenic Parliament,https://www.hellenicparliament.gr,hellenicparliament.gr,central
 parliament,Hellenic Parliament,https://www.hellenicparliament.gr,hellenicparliament.gr,central
-government_agency,Hellenic Space Center,https://hsc.gov.gr/en/,hsc.gov.gr,
+supreme_court,Hellenic Parliament,https://www.hellenicparliament.gr,hellenicparliament.gr,central
 government_agency,Hellenic Space Center,https://hsc.gov.gr/el/,hsc.gov.gr,
+government_agency,Hellenic Space Center,https://hsc.gov.gr/en/,hsc.gov.gr,
 government_agency,Hellenic Thoracic Society,http://www.hts.org.gr/,hts.org.gr,
 government_agency,Hellenic Society of Medical Education,http://iatros.org/,iatros.org,
 government_agency,Q139782590,https://www.idika.gr/,idika.gr,
@@ -199,42 +198,25 @@ government_agency,General Secretariat for Communication and Information (Greece)
 government_agency,"Embassy of Bulgaria, Athens",https://www.mfa.bg/embassies/greece,mfa.bg,central
 government_agency,embassy of Cyprus in Greece,http://www.mfa.gov.cy/mfa/Embassies/Embassy_Athens.nsf,mfa.gov.cy,central
 government_agency,embassy of Latvia in Greece,https://www.mfa.gov.lv/greece,mfa.gov.lv,central
-ministry,Ministry of Foreign Affairs of Greece,https://www.mfa.gr,mfa.gr,central
-ministry,Ministry of Foreign Affairs (Greece),https://www.mfa.gr,mfa.gr,
 government_agency,Ministry of Foreign Affairs of Greece,https://www.mfa.gr,mfa.gr,central
 government_agency,Ministry of Migration and Asylum,https://migration.gov.gr,migration.gov.gr,central
-ministry,Ministry of Migration and Asylum,https://migration.gov.gr,migration.gov.gr,central
 government_agency,Ministry of Rural Development and Food (Greece),https://minagric.gr,minagric.gr,central
-ministry,Ministry of Rural Development and Food (Greece),https://minagric.gr,minagric.gr,central
-ministry,Ministry of Development (Greece),https://www.mindev.gov.gr,mindev.gov.gr,central
-government_agency,"Ministry of Development, Competitiveness and Shipping",http://www.mindev.gov.gr/,mindev.gov.gr,central
-ministry,"Ministry of Development, Competitiveness and Shipping",http://www.mindev.gov.gr/,mindev.gov.gr,central
 government_agency,Ministry of Development (Greece),https://www.mindev.gov.gr,mindev.gov.gr,central
-ministry,Ministry of Digital Governance (Greece),https://mindigital.gr,mindigital.gr,central
+government_agency,"Ministry of Development, Competitiveness and Shipping",http://www.mindev.gov.gr/,mindev.gov.gr,central
 government_agency,Ministry of Digital Governance (Greece),https://mindigital.gr,mindigital.gr,central
 government_agency,"Ministry of Education, Religious Affairs and Sports",https://www.minedu.gov.gr,minedu.gov.gr,central
-ministry,"Ministry of Education, Religious Affairs and Sports",https://www.minedu.gov.gr,minedu.gov.gr,central
 government_agency,Ministry of National Economy and Finance (Greece),https://minfin.gov.gr,minfin.gov.gr,central
-ministry,Ministry of National Economy and Finance (Greece),https://minfin.gov.gr,minfin.gov.gr,central
 government_agency,Ministry of Justice (Greece),https://ministryofjustice.gr,ministryofjustice.gr,central
-ministry,Ministry of Justice (Greece),https://ministryofjustice.gr,ministryofjustice.gr,central
-ministry,Ministry of Citizen Protection (Greece),https://www.minocp.gov.gr,minocp.gov.gr,central
 government_agency,Ministry of Citizen Protection (Greece),https://www.minocp.gov.gr,minocp.gov.gr,central
-ministry,Ministry of Social Cohesion and Family,https://minscfa.gov.gr,minscfa.gov.gr,central
 government_agency,Ministry of Social Cohesion and Family,https://minscfa.gov.gr,minscfa.gov.gr,central
 government_agency,General Secretariat for Sports,https://minsports.gov.gr,minsports.gov.gr,
 government_agency,Ministry of Tourism (Greece),https://mintour.gov.gr,mintour.gov.gr,central
-ministry,Ministry of Tourism (Greece),https://mintour.gov.gr,mintour.gov.gr,central
 government_agency,embassy of Cuba in Greece,http://misiones.minrex.gob.cu/es/grecia/embajada-de-cuba-en-grecia,misiones.minrex.gob.cu,central
 government_agency,"Ministry of Economy, Development and Tourism",http://www.mnec.gr/,mnec.gr,central
-ministry,"Ministry of Economy, Development and Tourism",http://www.mnec.gr/,mnec.gr,central
-ministry,Ministry of National Defence (Greece),https://www.mod.mil.gr,mod.mil.gr,central
 government_agency,Ministry of National Defence (Greece),https://www.mod.mil.gr,mod.mil.gr,central
 government_agency,embassy of Iraq in Greece,https://www.mofa.gov.iq/athens,mofa.gov.iq,central
 government_agency,"Embassy of the United Arab Emirates, Athens",https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=e4f4c340-9634-4a90-a61b-36b6d9b6888f,mofaic.gov.ae,central
-ministry,Ministry of Health (Greece),https://www.moh.gov.gr,moh.gov.gr,central
 government_agency,Ministry of Health (Greece),https://www.moh.gov.gr,moh.gov.gr,central
-ministry,Ministry of Public Order and Citizen Protection,http://www.mopocp.gov.gr,mopocp.gov.gr,central
 government_agency,Ministry of Public Order and Citizen Protection,http://www.mopocp.gov.gr,mopocp.gov.gr,central
 government_agency,embassy of the Czech republic in Greece,https://www.mzv.cz/athens,mzv.cz,central
 government_agency,embassy of Slovakia in Greece,https://www.mzv.sk/web/ateny,mzv.sk,central
@@ -269,16 +251,10 @@ government_agency,Council of State,http://www.ste.gr/FL/main_de.htm,ste.gr,
 government_agency,"Embassy of Sweden, Athens",http://www.swedenabroad.com/Athen/,swedenabroad.com,central
 government_agency,"Consulate General of Germany, Thessaloniki",https://thessaloniki.diplo.de,thessaloniki.diplo.de,
 government_agency,Greek National Tourism Organisation,https://www.visitgreece.gr/,visitgreece.gr,
-ministry,Ministry of Infrastructure and Transport (Greece),https://www.yme.gr,yme.gr,central
 government_agency,Ministry of Infrastructure and Transport (Greece),https://www.yme.gr,yme.gr,central
-ministry,Ministry of Shipping and Island Policy (Greece),https://www.ynanp.gr,ynanp.gr,central
 government_agency,Ministry of Shipping and Island Policy (Greece),https://www.ynanp.gr,ynanp.gr,central
 government_agency,Ministry of Labour and Social Security,http://www.ypakp.gr/,ypakp.gr,central
-ministry,Ministry of Labour and Social Security,http://www.ypakp.gr/,ypakp.gr,central
-ministry,Ministry of the Environment and Energy (Greece),https://ypen.gov.gr,ypen.gov.gr,central
-government_agency,Special Secretariat for Forests,https://ypen.gov.gr/perivallon/dasi/geniki-grammateia-dason/,ypen.gov.gr,
 government_agency,Ministry of the Environment and Energy (Greece),https://ypen.gov.gr,ypen.gov.gr,central
+government_agency,Special Secretariat for Forests,https://ypen.gov.gr/perivallon/dasi/geniki-grammateia-dason/,ypen.gov.gr,
 government_agency,Ministry of Labour and Social Security (Greece),https://ypergasias.gov.gr,ypergasias.gov.gr,central
-ministry,Ministry of Labour and Social Security (Greece),https://ypergasias.gov.gr,ypergasias.gov.gr,central
 government_agency,Ministry of the Interior (Greece),https://www.ypes.gr,ypes.gr,central
-ministry,Ministry of the Interior (Greece),https://www.ypes.gr,ypes.gr,central

@@ -1,17 +1,18 @@
 domain,level,name,kind,score,sources
 magyarorszag.hu,,UN/DESA national portal,,10,un_desa;linkgraph
-valasztas.hu,,National Election Office | National Election Commission,,10,wikidata;linkgraph
+valasztas.hu,,National Election Commission | National Election Office,,10,wikidata;linkgraph
 bv.gov.hu,central-1,Jász-Nagykun-Szolnok County Remand Prison | Hungarian Prison Service,,8,wikidata
+gov.hu,central-1,"22 proposed hosts under it: mnl.gov.hu, bv.gov.hu, kki.gov.hu",,8,parent
 kki.gov.hu,,Institute for Foreign Affairs and Trade,,8,wikidata;academia
-mnl.gov.hu,,Magyar Nemzeti Levéltár Pest Megyei Levéltára | National Archives of Hungary | Magyar Nemzeti Levéltár Tolna Vármegyei Levéltára | Borsod-Abaúj-Zemplén County Archives | Magyar Nemzeti Levéltár Veszprém Megyei Levéltára | Magyar Nemzeti Levéltár Országos Levéltára,,8,wikidata
+mnl.gov.hu,,Magyar Nemzeti Levéltár Tolna Vármegyei Levéltára | National Archives of Hungary | Magyar Nemzeti Levéltár Pest Megyei Levéltára | Borsod-Abaúj-Zemplén County Archives | Magyar Nemzeti Levéltár Veszprém Megyei Levéltára | Magyar Nemzeti Levéltár Országos Levéltára,,8,wikidata
 ahkungarn.hu,,German-Hungarian Chamber of Industry and Commerce,,7,wikidata
-birosag.hu,,Q140998828 | National Court Office,,7,wikidata
+birosag.hu,,National Court Office | Q140998828,,7,wikidata
 kuria-birosag.hu,central,Supreme Court of Hungary,,7,wikidata
 nodik.hu,central,Q18559139,,7,wikidata;academia
 nski.hu,,Nemzetstratégiai Kutatóintézet,,7,wikidata;academia
 parlament.hu,central,National Assembly | Office of the National Assembly,,7,wikidata
 piarista.hu,,piarist province of Hungary,,7,wikidata
-police.hu,,National Bureau of Investigation | Baranya  County Police Headquarters | Komárom-Esztergom County Police Headquarters | Zala County Police Headquarters | Borsod-Abaúj-Zemplén County Police Headquarters | Vas County Police Headquarters | Heves County Police Headquarters | Bács-Kiskun County Police Headquarters | Somogy County Police Headquarters | Veszprém County Police Headquarters | Tolna  County Police Headquarters | Szabolcs-Szatmár-Bereg County Police Headquarters | Hungarian Police,,7,wikidata
+police.hu,,Szabolcs-Szatmár-Bereg County Police Headquarters | Baranya  County Police Headquarters | Tolna  County Police Headquarters | Somogy County Police Headquarters | National Bureau of Investigation | Zala County Police Headquarters | Komárom-Esztergom County Police Headquarters | Hungarian Police | Borsod-Abaúj-Zemplén County Police Headquarters | Vas County Police Headquarters | Heves County Police Headquarters | Bács-Kiskun County Police Headquarters | Veszprém County Police Headquarters,,7,wikidata
 ugyeszseg.hu,,Prosecution Service of Hungary,,7,wikidata
 bme.hu,central,Budapest University of Technology and Economics,,6,academia;ror
 budapest.diplo.de,central,"Embassy of Germany, Budapest",,6,wikidata
@@ -43,6 +44,7 @@ akk.hu,,Government Debt Management Agency,,4,wikidata
 alcsuti-arboretum.hu,,Arboretum of Alcsút,,4,academia
 algerianembassy.hu,central,"Embassy of Algeria, Budapest",,4,wikidata
 alkotmanybirosag.hu,central,Constitutional Court of Hungary,,4,wikidata
+archivportal.hu,,"2 proposed hosts under it: bfl.archivportal.hu, hbml.archivportal.hu",,4,parent
 asz.hu,,State Audit Office of Hungary,,4,wikidata
 atk.hun-ren.hu,,Centre for Agricultural Research,,4,wikidata
 atomki.hu,,ATOMKI,,4,academia
@@ -88,6 +90,7 @@ hiia.hu,,Hungarian Institute Of International Affairs,,4,academia
 honvedelem.hu,,General Staff of the Armed Forces of the Republic of Hungary,,4,wikidata
 horvatok.hu,,Croatian state self-government,,4,wikidata
 htkh.mil.hu,,Research Center of the  Hungarian Defence Forces,,4,academia
+hun-ren.hu,,"4 proposed hosts under it: atk.hun-ren.hu, koki.hun-ren.hu, epss.hun-ren.hu",,4,parent
 hungarofest.hu,,Q89981643,,4,wikidata
 iask.hu,,Institute of Advanced Studies Kőszeg,,4,academia
 integritashatosag.hu,,Integrity Authority,,4,wikidata
@@ -117,6 +120,7 @@ mnb.hu,,Hungarian National Bank,,4,wikidata
 mnvh.hu,,Hungarian National Rural Network,,4,wikidata
 mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Budapest",,4,wikidata
 mok.hu,,Hungarian Medical Chamber,,4,wikidata
+mta.hu,,"3 proposed hosts under it: csfk.mta.hu, iti.mta.hu, etnologia.mta.hu",,4,parent
 mtafki.hu,,Geographical Institute of Research,,4,academia
 naih.hu,central,Hungarian National Authority for Data Protection and Freedom of Information,,4,wikidata
 nak.hu,,The Hungarian Chamber of Agriculture,,4,wikidata
@@ -179,6 +183,7 @@ budimpesta.veleposlanistvo.si,central,"Embassy of Slovenia, Budapest",,3,wikidat
 debrecen.mid.ru,,Consulate-General of Russia in Debrecen,,3,wikidata
 drhe.hu,central,Debrecen Reformed Theological University,,3,ror
 edutus.hu,central,Edutus University,,3,ror
+europa.eu,central,"2 proposed hosts under it: budapest.europarl.europa.eu, hungary.representation.ec.europa.eu",,3,parent
 finlandabroad.fi,central,"Embassy of Finland, Budapest",,3,wikidata
 fuveszkert.org,,Botanical Garden,,3,academia
 gde.hu,central,Dennis Gabor University,,3,ror
@@ -195,14 +200,15 @@ instytutpolski.pl,,Polish Institute in Budapest,,3,wikidata
 international.uni-sopron.hu,central,University of Sopron,,3,ror
 kodolanyi.hu,central,Kodolányi János University of Applied Sciences,,3,ror
 kre.hu,central,Károli Gáspár University of the Reformed Church in Hungary,,3,ror
+mae.ro,central,"2 proposed hosts under it: budapesta.mae.ro, gyula.mae.ro",,3,parent
 magyarkert.com,,Q1109635,,3,academia
 metubudapest.hu,central,University of Applied Science Budapest,,3,ror
 mfa.bg,central,Embassy of Bulgaria to Hungary,,3,wikidata
 mfa.gr,central,"Embassy of Greece, Budapest",,3,wikidata
+mid.ru,central,"2 proposed hosts under it: hungary.mid.ru, debrecen.mid.ru",,3,parent
 mke.hu,central,Hungarian University of Fine Arts,,3,ror
 mome.hu,central,Moholy-Nagy University of Art and Design,,3,ror
 monoster.konzulat.si,,Consulate General of the Republic of Slovenia in Monoštor,,3,wikidata
-mzv.cz,central,"Embassy of the Czech Republic, Budapest",,3,wikidata
 mzv.sk,central,"Embassy of Slovakia, Hungary",,3,wikidata
 nederlandwereldwijd.nl,central,"Embassy of the Netherlands, Budapest",,3,wikidata
 nje.hu,central,John von Neumann University,,3,ror
@@ -238,7 +244,7 @@ zoobudapest.com,,Budapest Zoo & Botanical Garden,,3,academia
 ait-budapest.com,central,Aquincum Institute of Technology,,2,ror
 andrassyuni.eu,central,Andrássy University Budapest,,2,ror
 ceu.edu,central,Central European University - Budapest Campus,,2,ror
-kozbeszerzes.hu,central,The Public Procurement Authority of Hungary | Q61972057 | Q61970844,,2,wikidata
+kozbeszerzes.hu,central,Q61970844 | The Public Procurement Authority of Hungary | Q61972057,,2,wikidata
 ksh.hu,central,Hungarian Central Statistical Office | Official Statistical Service,,2,wikidata;academia
 mte.eu,central,Hungarian Dance University,,2,ror
 ttk.hun-ren.hu,,HUN-REN Research Centre for Natural Sciences | Institute of Materials and Environmental Chemistry | Institute of Molecular Life Sciences,,2,academia

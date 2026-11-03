@@ -5,13 +5,9 @@ areiospagos.gr,central,Court of Cassation,,10,wikidata;linkgraph;directory
 dpa.gr,central,Hellenic Data Protection Authority,,10,wikidata;linkgraph;directory
 gsis.gr,,General Secretariat for Information Systems and Digital Governance,,10,wikidata;linkgraph
 hellenicparliament.gr,central,Hellenic Parliament,,10,wikidata;linkgraph
-mfa.gr,central,Ministry of Foreign Affairs of Greece | Ministry of Foreign Affairs (Greece),,10,wikidata;linkgraph;directory
+mfa.gr,central,Ministry of Foreign Affairs of Greece,,10,wikidata;linkgraph;directory
 minagric.gr,central,Ministry of Rural Development and Food (Greece),,10,wikidata;linkgraph;directory
-mindigital.gr,central,Ministry of Digital Governance (Greece),,10,wikidata;directory
-ministryofjustice.gr,central,Ministry of Justice (Greece),,10,wikidata;directory
-mod.mil.gr,central,Ministry of National Defence (Greece),,10,wikidata;directory
 protodikeio-ath.gr,,Athens Chamber of Commerce and Industry | Court of First Instance of Athens,,10,wikidata;directory
-ypakp.gr,central,Ministry of Labour and Social Security,,10,wikidata;linkgraph
 ypes.gr,central,Ministry of the Interior (Greece),,10,wikidata;linkgraph;directory
 et.gr,,National Printing Office,,9,wikidata;linkgraph
 minfin.gr,,ΥΠΟΥΡΓΕΙΟ ΟΙΚΟΝΟΜΙΚΩΝ,,9,linkgraph;directory
@@ -21,14 +17,17 @@ efeteioathinon.gr,,Court of Appeal of Athens,,8,wikidata;directory
 elsyn.gr,,Court of Audit (Greece),,8,wikidata;directory
 epant.gr,,Hellenic Competition Commission,,8,wikidata;directory
 esr.gr,,Greek National Council for Radio and Television,,8,wikidata;directory
+mil.gr,central,"2 proposed hosts under it: mod.mil.gr, geetha.mil.gr",,8,parent
+mindigital.gr,central,Ministry of Digital Governance (Greece),,8,wikidata;directory
+ministryofjustice.gr,central,Ministry of Justice (Greece),,8,wikidata;directory
+mod.mil.gr,central,Ministry of National Defence (Greece),,8,wikidata;directory
 rae.gr,,PAE / RAE,,8,wikidata;directory
+culture.gr,,"2 proposed hosts under it: nam.culture.gr, odysseus.culture.gr",,7,parent
 eeae.gr,,Greek Atomic Energy Commission,,7,wikidata
 gak.gr,,General State Archives,,7,wikidata
 hcmc.gr,central,Hellenic Capital Market Commission,,7,wikidata
-mnec.gr,central,"Ministry of Economy, Development and Tourism",,7,wikidata
 nam.culture.gr,,Directorate for the Curation of the National Archive of Monuments,,7,wikidata
-yme.gr,central,Ministry of Infrastructure and Transport (Greece),,7,wikidata
-ynanp.gr,central,Ministry of Shipping and Island Policy (Greece),,7,wikidata
+ypakp.gr,central,Ministry of Labour and Social Security,,7,wikidata;linkgraph
 auth.gr,central,Aristotle University of Thessaloniki,,6,academia;ror
 duth.gr,central,Democritus University of Thrace,,6,academia;ror
 epipsi.gr,central,University Mental Health Research Institute,,6,academia;ror
@@ -86,7 +85,9 @@ atiner.gr,,Athens Institute for Education and Research,,4,academia
 bankofgreece.gr,,Bank of Greece,,4,wikidata
 bbgk.gr,,Balkan Botanic Garden of Kroussia,,4,academia
 cereteth.gr,,CERETETH,,4,academia
+certh.gr,,Centre for Research and Technology Hellas,,4,academia
 cig-icg.gr,,Canadian Institute in Greece,,4,academia
+cres.gr,,Centre for Renewable Energy Sources and Saving,,4,academia
 cti.gr,central,Research Academic Computer Technology Institute,,4,academia
 ctr-crete.gr,,Centre for Technological Research of Crete,,4,academia
 demokritos.gr,central,"National Centre of Scientific Research ""DEMOKRITOS""",,4,academia
@@ -104,9 +105,11 @@ efeteio-peir.gr,,Court of Appeal of Piraeus,,4,wikidata
 efeteio-thess.gr,,Court of Appeal of Thessaloniki,,4,wikidata
 eie.gr,central,National Hellenic Research Foundation,,4,academia
 ekke.gr,central,National Centre for Social research,,4,academia
+ekpaa.ypeka.gr,,Q141548087,,4,wikidata
 elgo.gr,,Hellenic Agricultural Organization - DIMITRA,,4,wikidata
 eliamep.gr,,Hellenic Foundation for European and Foreign Policy,,4,academia
 en.bpi.gr,,Benaki Phytopathological Institute,,4,academia
+en.kms.org.gr,,Center for Asia Minor studies,,4,academia
 ere.gr,,Greek Society of Rheumatology,,4,wikidata
 fgm.com.gr,,Federation of Greek Mariculture,,4,wikidata
 fireservice.gr,,Hellenic Fire Corps,,4,wikidata
@@ -130,18 +133,27 @@ iema.gr,,Institute for Research on Music and Acoustics,,4,academia
 iesl.forth.gr,,Institute of Electronic Structure and Laser,,4,academia
 ilsp.gr,,Institute for Language and Speech Processing,,4,academia
 imbb.forth.gr,,Institute of Molecular Biology and Biotechnology,,4,academia
+ims.forth.gr,,Institute for Mediterranean Studies,,4,academia
 imxa.gr,,Institute for Balkan Studies,,4,academia
+inp.demokritos.gr,,Institute of Nuclear and Particle Physics,,4,academia
 isea.com.gr,,iSea,,4,academia
 iti.gr,,Information Technologies Institute,,4,academia
 jordanembassy.gr,central,"Embassy of Jordan, Athens",,4,wikidata
 kbe.auth.gr,,"Centre for Byzantine Research, Thessaloniki",,4,academia
+kentrolaografias.gr,,Q25535524,,4,academia
+kepe.gr,,Centre of Planning and Economic Research,,4,academia
+kethi.gr,,Research Center for Gender Equality,,4,academia
 mathra.gr,central,Deputy Minister for Macedonia and Thrace,,4,wikidata
+messolonghibyronsociety.gr,,The Messolonghi Byron Society,,4,academia
+mnec.gr,central,"Ministry of Economy, Development and Tourism",,4,wikidata
 mofaic.gov.ae,central,"Embassy of the United Arab Emirates, Athens",,4,wikidata
+mouseiotsitsani.gr,,Tsitsanis Museum,,4,academia
 nikias.gr,,Nikias Research Center,,4,academia
 nis.gr,,National Intelligence Service,,4,wikidata
 nlg.gr,,National Library of Greece,,4,wikidata
 nsk.gr,,Legal Council of the State,,4,wikidata
 oasp.gr,,Earthquake Planning and Protection Organization,,4,wikidata
+odysseus.culture.gr,,Museum of the Center for the Acropolis Studies,,4,academia
 okana.gr,,Q60535578,,4,wikidata
 olp.gr,,Piraeus Port Authority,,4,wikidata
 pakistanembassy.gr,central,embassy of Pakistan in Greece,,4,wikidata
@@ -153,6 +165,8 @@ ste.gr,,Council of State,,4,wikidata
 venizelos-foundation.gr,,Ethniko hidryma ereunon kai meleton Eleutherios K. Venizelos,,4,academia
 visitgreece.gr,,Greek National Tourism Organisation,,4,wikidata
 www0.epm.gr,,Q12877246,,4,academia
+yme.gr,central,Ministry of Infrastructure and Transport (Greece),,4,wikidata
+ynanp.gr,central,Ministry of Shipping and Island Policy (Greece),,4,wikidata
 acadimia.org,,Volos Academy for Theological Studies,,3,academia
 aegean.gr,central,University of the Aegean,,3,ror
 askiweb.eu,,Contemporary Social History Archives,,3,academia
@@ -167,10 +181,12 @@ aueb.gr,central,Athens University of Economics and Business,,3,ror
 bsa.ac.uk,,British School at Athens,,3,academia
 cscsa.cn,,Chinese School of Classical Studies at Athens,,3,academia
 dainst.org,,German Archaeological Institute at Athens,,3,academia
+diplo.de,central,"2 proposed hosts under it: thessaloniki.diplo.de, griechenland.diplo.de",,3,parent
 eap.gr,central,Hellenic Open University,,3,ror
 ebsa.info,,Belgian School at Athens,,3,academia
 efadyat.wordpress.com,,Ephorate of Antiquities of Pireus and Islands,,3,wikidata
 efeteiododekanisou.blogspot.com,,Court of Appeal of Dodecanese,,3,wikidata
+europa.eu,central,"2 proposed hosts under it: greece.representation.ec.europa.eu, athens.europarl.europa.eu",,3,parent
 finlandabroad.fi,central,embassy of Finland in Greece,,3,wikidata
 gr.china-embassy.org,central,"Embassy of the People's Republic of China, Athens",,3,wikidata
 gr.mfa.lt,central,embassy of Lithuania in Greece,,3,wikidata
@@ -192,6 +208,7 @@ keelegreece.gr,central,Keele University Greece,,3,ror
 ksyme.org,,Contemporary Music Research Center,,3,academia
 methodal.net,,Méthodal,,3,academia
 mfa.bg,central,"Embassy of Bulgaria, Athens",,3,wikidata
+mid.ru,central,"2 proposed hosts under it: greece.mid.ru, saloniki.mid.ru",,3,parent
 mzv.cz,central,embassy of the Czech republic in Greece,,3,wikidata
 mzv.sk,central,embassy of Slovakia in Greece,,3,wikidata
 nederlandwereldwijd.nl,central,"Embassy of the Netherlands, Athens",,3,wikidata
@@ -221,5 +238,5 @@ uth.gr,central,University of Thessaly,,3,ror
 web.aeath.gr,central,University Ecclesiastical Academy of Thessaloniki,,3,ror
 www2.aua.gr,central,Agricultural University of Athens,,3,ror
 zoolmuseum.biol.uoa.gr,central,Zoology Museum of the University of Athens,,3,ror
-astynomia.gr,,Special Guards | Cyber Crime Unit | Hellenic Police,,2,wikidata
+astynomia.gr,,Hellenic Police | Cyber Crime Unit | Special Guards,,2,wikidata
 dei.gr,,Public Power Corporation SA,,2,wikidata

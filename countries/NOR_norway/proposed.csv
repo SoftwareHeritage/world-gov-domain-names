@@ -1,20 +1,19 @@
 domain,level,name,kind,score,sources
 kartverket.no,,Norwegian Mapping Authority,,10,wikidata;sopc
-oslo.kommune.no,central-1,Gravferdsetaten i Oslo kommune | Oslo city government | Q11981507 | Q103826469 | Rådhusets forvaltningstjeneste | Q56405730 | Q19384867 | Q12008634 | Fornebubanen,,10,wikidata;sopc
+oslo.kommune.no,central-1,Oslo city government | Q11981507 | Rådhusets forvaltningstjeneste | Q56405730 | Gravferdsetaten i Oslo kommune | Fornebubanen | Q19384867 | Q103826469 | Q12008634,,10,wikidata;sopc
 en.uit.no,central,Tromsø University Museum | University of Tromsø – The Arctic University of Norway,,7,academia
 eos-utvalget.no,,Norwegian Parliamentary Intelligence Oversight Committee,,7,wikidata
 etikkom.no,,Norwegian National Research Ethics Committees,,7,wikidata
 finnmarkssykehuset.no,,Finnmark Hospital Trust,,7,wikidata
-kriminalomsorgen.no,,Norwegian Correctional Service | Directorate of Correctional Services,,7,wikidata
+kriminalomsorgen.no,,Directorate of Correctional Services | Norwegian Correctional Service,,7,wikidata
 nfk.no,central-1,Board of the Nordland county municipality,,7,wikidata
-norges-bank.no,,Norges Bank,,7,wikidata
 ntnu.no,,Q25431427 | Q30139905,,7,academia
 psykiskhelse.no,,Norwegian Council for Mental Health,,7,wikidata
 radetfordyreetikk.no,,Council for Animal Ethics,,7,wikidata
 romsenter.no,,Norwegian Space Agency,,7,wikidata
 samordnaopptak.no,,Norwegian Universities and Colleges Admission Service,,7,wikidata
 sikt.no,,Norwegian Agency for Shared Services in Education and Research,,7,wikidata
-unesco.no,,Norwegian National Commission for UNESCO | Q17765624,,7,wikidata
+unesco.no,,Q17765624 | Norwegian National Commission for UNESCO,,7,wikidata
 visitalta.no,,VISIT ALTA AS,,7,wikidata
 crop.org,,Comparative Research Programme on Poverty,,6,wikidata;academia
 nobelpeaceprize.org,,Norwegian Nobel Institute,,6,wikidata
@@ -30,12 +29,10 @@ afghanistanembassy.no,central,"Embassy of Afghanistan, Oslo",,4,wikidata
 akt.no,,Agder Kollektivtrafikk,,4,wikidata
 algerianembassy.no,central,"Embassy of Algeria, Oslo",,4,wikidata
 altinn.no,,Altinn -- GitHub org,,4,sopc
-ambulanse-midt.no,,Q11957688,,4,wikidata
 arbeidsretten.no,,Labour Court,,4,wikidata
 atb.no,,AtB,,4,wikidata
 barents.no,,Norwegian Barents Secretariat,,4,wikidata
 bergen-chamber.no,,Bergen Chamber of Commerce and Industry,,4,wikidata
-bergenhavn.no,,Q11960671,,4,wikidata
 bjerknes.uib.no,,Bjerknes Centre for Climate Research,,4,academia
 brakar.no,,Brakar,,4,wikidata
 brann-og-redningsetaten.oslo.kommune.no,,Q18646822,,4,wikidata
@@ -52,7 +49,6 @@ deksa.no,,Norwegian Agency for Export Control and Sanctions,,4,wikidata
 detnorskeakademi.no,,Norwegian Academy,,4,wikidata
 dio.dep.no,central,Q123862765,,4,wikidata
 doga.no,,Norwegian Centre for Design and Architecture,,4,wikidata
-eldreombudet.no,,Norwegian Ombudsman for the Ageing,,4,wikidata
 en.south-norway.no,,South Norway European Office,,4,wikidata
 entur.no,,entur -- GitHub org,,4,sopc
 epx.no,,Earth and Planetary Exploration Services,,4,academia
@@ -65,13 +61,13 @@ forsvarskommisjonen.no,,Q111036544,,4,wikidata
 frammr.no,central-1,Fram,,4,wikidata
 ftf.no,,Government Pension Fund Norway,,4,wikidata
 ghanaembassyoslo.no,central,embassy of Ghana in Norway,,4,wikidata
-giek.no,,Norwegian Guarantee Institute for Export Credits,,4,wikidata
 grensekom.no,,Norwegian Border Commisioner for the Norwegian-Russian Border,,4,wikidata
 havarikommisjonen.no,,Norwegian Safety Investigation Authority,,4,wikidata
 helfo.no,,Norwegian Health Economics Administration,,4,wikidata
 helse-stavanger.no,,Stavanger Health Trust,,4,wikidata
 helseklage.no,,National Office for Health Service Appeals,,4,wikidata
 hi.no,central,Norwegian Institute of Marine Research,,4,academia
+husbanken.no,,Q141751037,,4,wikidata
 ife.no,,Institute for Energy Technology,,4,academia
 initiativvest.no,,Initiativ Vest,,4,academia
 innlandstrafikk.no,,Innlandstrafikk,,4,wikidata
@@ -84,13 +80,10 @@ kofa.no,,Q11981087,,4,wikidata
 kolumbus.no,,Kolumbus,,4,wikidata
 kompetansenorge.no,,Skills Norway,,4,wikidata
 koronakommisjonen.no,,Norwegian Covid-19 Commission,,4,wikidata
-kulturradet.no,,Arts Council Norway,,4,wikidata
 kunnskapssenteret.no,,Norwegian Knowledge Centre for Health Services,,4,wikidata
 langsikt.no,,Langsikt – Centre for Long-Term Policy,,4,academia
 ldo.no,,Equality and Anti-Discrimination Ombud,,4,wikidata
 likestillingsombudet.no,,Gender Equality Ombud,,4,wikidata
-lokalhistorie.no,,Norwegian Institute of Local History,,4,wikidata
-marintmiljo.no,,Norwegian Centre for Oil Spill Preparedness and Marine Environment,,4,wikidata
 med.uio.no,,Centre for Molecular Medicine Norway,,4,academia
 meklingsnemnda.no,,Norwegian Mediation Board for Employee Inventions,,4,wikidata
 mid-norway.no,,Trøndelags Europakontor,,4,wikidata
@@ -108,10 +101,10 @@ nilf.no,,Norwegian Agricultural Economics Research Institute,,4,academia
 nilu.no,,Norwegian Institute for Air Research,,4,academia
 niva.no,central,Norwegian Institute for Water Research,,4,academia
 nkvts.no,,Norwegian Centre for Violence and Traumatic Stress Studies,,4,academia
-nlb.no,,Norwegian Library of Talking Books and Braille,,4,wikidata
 nofima.no,,Nofima,,4,academia
 norceresearch.no,,NORCE Research AS,,4,academia
 nord-gudbrandsdal.no,,Regionrådet i Nord-Gudbrandsdal,,4,wikidata
+norges-bank.no,,Norges Bank,,4,wikidata
 norsar.no,,NORSAR,,4,academia
 npolar.no,,Norwegian Polar Institute,,4,wikidata
 nrcc.no,,Norwegian-Russian Trade Council,,4,wikidata
@@ -121,17 +114,16 @@ nues.no,,Norwegian Corporate Governance Board,,4,wikidata
 oslo.mfa.gov.hu,central,"Embassy of Hungary, Oslo",,4,wikidata
 oslohavn.no,,Oslo Port Authority,,4,wikidata
 ostfold-kollektiv.no,,Østfold kollektivtrafikk,,4,wikidata
+pahn.no,,Performing Arts Hub Norway,,4,wikidata
 palestine.no,central,mission of the State of Palestine in Norway,,4,wikidata
 pasientreiser.no,,Pasientreiser,,4,wikidata
 personvernkommisjon.no,,Q114080031,,4,wikidata
 pfi.no,,Paper and Fibre Research Institute,,4,academia
-piv.no,,Psychiatry of Vestfold Trust,,4,wikidata
 porelab.no,,PoreLab - Porous Media Laboratory,,4,academia
 prio.no,,Peace Research Institute Oslo,,4,academia
 pst.no,central,Norwegian Police Security Service,,4,wikidata
 reisnordland.no,central-1,Reis Nordland,,4,wikidata
 rogalandarboret.no,,Rogaland Arboretum,,4,academia
-rus-midt.no,,Q11998678,,4,wikidata
 ruter.no,,Ruter,,4,wikidata
 samforsk.no,,NTNU Social Research,,4,academia
 samviten.no,,Faculty of Social Sciences,,4,academia
@@ -150,7 +142,6 @@ socialresearch.no,,Norwegian Institute for Social Research,,4,academia
 spesialenheten.no,,Norwegian Bureau for the Investigation of Police Affairs,,4,wikidata
 spk.no,,Norwegian Public Service Pension Fund,,4,wikidata
 statsbygg.no,,Norwegian Directorate of Public Construction and Property,,4,wikidata
-stiftelsenbryggen.no,,Bryggen,,4,wikidata
 sudanoslo.no,central,"Embassy of Sudan, Oslo",,4,wikidata
 sv.uio.no,,"Department of Sociology and Human Geography, University of Oslo",,4,academia
 svipper.no,,Svipper,,4,wikidata
@@ -216,10 +207,10 @@ uis.no,central,University of Stavanger,,3,ror
 usn.no,central,University of South-Eastern Norway,,3,ror
 vid.no,central,VID Specialized University,,3,ror
 www4.uib.no,central,University of Bergen,,3,ror
-bufdir.no,,"Office for Children, Youth and Family Affairs | Norwegian Directorate for Children, Youth and Family Affairs",,2,wikidata
+bufdir.no,,"Norwegian Directorate for Children, Youth and Family Affairs | Office for Children, Youth and Family Affairs",,2,wikidata
 fefo.no,,Finnmark Estate,,2,wikidata
-klagenemndssekretariatet.no,,Joint Tribunal Secretariat of Norway | Finanstilsynsklagenemnda | Q11981087 | Energy Tribunal of Norway,,2,wikidata
+klagenemndssekretariatet.no,,Finanstilsynsklagenemnda | Joint Tribunal Secretariat of Norway | Q11981087 | Energy Tribunal of Norway,,2,wikidata
 lanekassen.no,,Norwegian State Educational Loan Fund,,2,wikidata
-sametinget.no,,Q11999242 | Sámi Parliament of Norway,,2,wikidata
+sametinget.no,,Sámi Parliament of Norway | Q11999242,,2,wikidata
 uib.no,,"Bergen Arboretum and Botanical Garden, Milde | Bergen Museum Garden | Center for Digital Narrative | Department of Biological Sciences | University Museum of Bergen | University Museum of Bergen, Department of Natural History | University of Bergen, Geophysical Institute",,2,academia
 oslomet.no,central,"Norwegian Social Research | Oslo Metropolitan University Department of Archivistics, Library and Information Science | Work Research Institute",,0,academia;ror

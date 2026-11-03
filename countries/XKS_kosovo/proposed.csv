@@ -1,23 +1,15 @@
 domain,level,name,kind,score,sources
-gjk-ks.org,central,Constitutional Court of Kosovo | Commercial Court of Kosovo,,8,wikidata
+gjk-ks.org,central,Commercial Court of Kosovo | Constitutional Court of Kosovo,,8,wikidata
 antitrafikimi.rks-gov.net,,Prosecutorial Council of Kosovo | Basic Prosecution Office in Gjakova,,6,wikidata
 ask.rks-gov.net,,Kosovo Agency of Statistics,,6,wikidata;academia
 ih-rks.org,,Institute of the History of Kosovo,,6,wikidata
 kosovopolice.com,,Kosovo Police | Bomb Squad (IED/EOD) Kosovo,,6,wikidata
 kryeministri.rks-gov.net,central,Government of Kosovo,,6,wikidata
 kuvendikosoves.org,central,Assembly of the Republic of Kosovo,,6,wikidata
-masht.rks-gov.net,central,"Ministry of Education, Science and Technology",,6,wikidata
-md.rks-gov.net,,Ministry of Justice,,6,wikidata
-me.rks-gov.net,,Ministry of Economy,,6,wikidata
-mfa-ks.net,central,Ministry of Foreign Affairs and Diaspora of the Republic of Kosovo,,6,wikidata
-mint.rks-gov.net,central,"Ministry of Industry, Entrepreneurship, and Trade of Kosovo",,6,wikidata
-mkrs-ks.org,central,"Ministry of Culture, Youth and Sport of Kosovo",,6,wikidata
-mmphi.rks-gov.net,,Ministry of Environment and Spatial Planning and Infrastructure of Kosovo,,6,wikidata
-mod.rks-gov.net,,Ministry of Defence of Kosovo,,6,wikidata
-mpb.rks-gov.net,central,Ministry of Internal Affairs of Kosovo,,6,wikidata
-mpms.rks-gov.net,,Ministry of Labour and Social Welfare of Kosovo,,6,wikidata
-msh.rks-gov.net,,Ministry of Health of Kosovo,,6,wikidata
+mfpt.rks-gov.net,central,Ministry of Economy and Finance of Kosovo | Ministry of Finance (Kosovo),,6,wikidata
 president-ksgov.net,,Presidency of the Republic of Kosovo | National Council for European Integration,,6,wikidata
+rks-gov.net,central,"28 proposed hosts under it: kryeministri.rks-gov.net, ask.rks-gov.net, mfpt.rks-gov.net",,6,parent
+gjyqesori-rks.org,central,"10 proposed hosts under it: supreme.gjyqesori-rks.org, komerciale.gjyqesori-rks.org, apeli.gjyqesori-rks.org",,5,parent
 supreme.gjyqesori-rks.org,central,Supreme court of Kosovo,,5,wikidata
 unhz.eu,central,University “Haxhi Zeka”,,5,academia;ror
 uni-pr.edu,central,University of Pristina,,5,academia;ror
@@ -60,8 +52,19 @@ kpmshc.rks-gov.net,central,Independent Oversight Board for Civil Service of Koso
 kqz-ks.org,central,Central Election Commission (Kosovo),,3,wikidata
 krpp.rks-gov.net,central,Public Procurement Regulatory Commission (Kosovo),,3,wikidata
 kta-kosovo.org,,Kosovo Trust Agency,,3,wikidata
+masht.rks-gov.net,central,"Ministry of Education, Science and Technology",,3,wikidata
+md.rks-gov.net,,Ministry of Justice,,3,wikidata
+me.rks-gov.net,,Ministry of Economy,,3,wikidata
+mfa-ks.net,central,Ministry of Foreign Affairs and Diaspora of the Republic of Kosovo,,3,wikidata
 mfa.bg,central,embassy of Bulgaria in Kosovo,,3,wikidata
+mint.rks-gov.net,central,"Ministry of Industry, Entrepreneurship, and Trade of Kosovo",,3,wikidata
+mkrs-ks.org,central,"Ministry of Culture, Youth and Sport of Kosovo",,3,wikidata
+mmphi.rks-gov.net,,Ministry of Environment and Spatial Planning and Infrastructure of Kosovo,,3,wikidata
+mod.rks-gov.net,,Ministry of Defence of Kosovo,,3,wikidata
+mpb.rks-gov.net,central,Ministry of Internal Affairs of Kosovo,,3,wikidata
+mpms.rks-gov.net,,Ministry of Labour and Social Welfare of Kosovo,,3,wikidata
 msh-ks.org,,National Institute of Public Health of Kosova,,3,wikidata
+msh.rks-gov.net,,Ministry of Health of Kosovo,,3,wikidata
 mzv.cz,central,embassy of the Czech republic in Kosovo,,3,wikidata
 niph-rks.org,,National Institute of Public Health of Kosova,,3,wikidata
 norway.no,central,Embassy of Norway in Kosovo,,3,wikidata
@@ -71,7 +74,6 @@ pristina.diplo.de,central,"Embassy of Germany, Pristina",,3,wikidata
 pristina.mae.lu,central,embassy of Luxembourg in Kosovo,,3,wikidata
 pristina.veleposlanistvo.si,central,embassy of Slovenia in Kosovo,,3,wikidata
 pzap.rks-gov.net,central,Appeals and Submissions Panel,,3,wikidata
-rks-gov.net,,Government of Kosovo,,3,wikidata
 swedenabroad.se,central,"Embassy of Sweden, Prishtina",,3,wikidata
 ushaf.net,central,University of Applied Sciences in Ferizaj,,3,academia
 aab-edu.net,central,AAB College,,2,ror
@@ -80,14 +82,13 @@ pr.ac.rs,central,University of Priština - Kosovska Mitrovica,,2,ror
 ubt-uni.net,central,University for Business and Technology,,2,ror
 uni-gjilan.net,central,"Public University ""Kadri Zeka""",,2,ror
 uni-gjk.org,central,Universiteti i Gjakovës “Fehmi Agani”,,2,ror
-ferizaj.gjyqesori-rks.org,,"Basic Court Ferizaj, Shtërpcë Branch | Basic Court Ferizaj, Kaçanik Branch | Basic Court Ferizaj",,1,wikidata
-gjakove.gjyqesori-rks.org,,"Basic Court Gjakovë | Basic Court Gjakovë, Rahovec Branch | Basic Court Gjakovë, Malishevë Branch",,1,wikidata
-gjilan.gjyqesori-rks.org,,"Basic Court Gjilan, Novobërdë Branch | Basic Court Gjilan, Viti Branch | Basic Court Gjilan | Basic Court Gjilan, Kamenica Branch",,1,wikidata
-mfpt.rks-gov.net,central,Ministry of Finance (Kosovo) | Ministry of Economy and Finance of Kosovo,,1,wikidata
-mitrovice.gjyqesori-rks.org,,"Basic Court Mitrovica, Vushtrri Branch | Basic Court Mitrovica | Basic Court Mitrovica, Skenderaj Branch | Basic Court Mitrovica, Leposaviq Branch | Basic Court Mitrovica, Zubin Potok Branch",,1,wikidata
-mzr.rks-gov.net,central,Ministry of Regional Development of Kosovo,,1,wikidata
-peje.gjyqesori-rks.org,,"Basic Court Pejë | Basic Court Pejë, Deçan Branch | Basic Court Pejë, Klinë Branch | Basic Court Pejë, Istog Branch",,1,wikidata
-prishtine.gjyqesori-rks.org,,"Basic Court Prishtina, Lipjan Branch | Basic Court Prishtina, Obiliq Branch | Basic Court Prishtina, Podujevë Branch | Basic Court Prishtina, Gllogoc Branch | Basic Court Prishtina",,1,wikidata
-prizren.gjyqesori-rks.org,,"Basic Court Prizren | Basic Court Prizren, Suhareka Branch | Basic Court Prizren, Dragash Branch",,1,wikidata
-prokuroria-rks.org,,Basic Prosecution Office in Peja | Basic Prosecution Office in Prishtina | Basic Prosecution Office in Mitrovica | Basic Prosecution Office in Prizren,,1,wikidata
-scp-ks.org,central,Appeals Prosecution Office of Kosovo | Special Prosecution Office of Kosovo | Kosovo Prosecutorial Review Board | Basic Prosecution Office in Ferizaj,,1,wikidata
+ferizaj.gjyqesori-rks.org,,"Basic Court Ferizaj | Basic Court Ferizaj, Kaçanik Branch | Basic Court Ferizaj, Shtërpcë Branch",,1,wikidata
+gjakove.gjyqesori-rks.org,,"Basic Court Gjakovë, Rahovec Branch | Basic Court Gjakovë | Basic Court Gjakovë, Malishevë Branch",,1,wikidata
+gjilan.gjyqesori-rks.org,,"Basic Court Gjilan | Basic Court Gjilan, Kamenica Branch | Basic Court Gjilan, Novobërdë Branch | Basic Court Gjilan, Viti Branch",,1,wikidata
+mitrovice.gjyqesori-rks.org,,"Basic Court Mitrovica | Basic Court Mitrovica, Skenderaj Branch | Basic Court Mitrovica, Leposaviq Branch | Basic Court Mitrovica, Zubin Potok Branch | Basic Court Mitrovica, Vushtrri Branch",,1,wikidata
+peje.gjyqesori-rks.org,,"Basic Court Pejë, Istog Branch | Basic Court Pejë | Basic Court Pejë, Klinë Branch | Basic Court Pejë, Deçan Branch",,1,wikidata
+prishtine.gjyqesori-rks.org,,"Basic Court Prishtina, Gllogoc Branch | Basic Court Prishtina, Obiliq Branch | Basic Court Prishtina, Lipjan Branch | Basic Court Prishtina, Podujevë Branch | Basic Court Prishtina",,1,wikidata
+prizren.gjyqesori-rks.org,,"Basic Court Prizren, Suhareka Branch | Basic Court Prizren, Dragash Branch | Basic Court Prizren",,1,wikidata
+prokuroria-rks.org,,Basic Prosecution Office in Peja | Basic Prosecution Office in Prizren | Basic Prosecution Office in Mitrovica | Basic Prosecution Office in Prishtina,,1,wikidata
+scp-ks.org,central,Kosovo Prosecutorial Review Board | Basic Prosecution Office in Ferizaj | Special Prosecution Office of Kosovo | Appeals Prosecution Office of Kosovo,,1,wikidata
+mzr.rks-gov.net,central,Ministry of Regional Development of Kosovo,,0,wikidata

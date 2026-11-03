@@ -1,4 +1,5 @@
 type,label,website,hostname,level
+government_agency,National Archives of Bangladesh,http://159.13.20.196/,159.13.20.196,
 government_agency,Anti-Corruption Commission,http://www.acc.org.bd/,acc.org.bd,
 government_agency,Armed Forces Division,https://www.afd.gov.bd/,afd.gov.bd,
 government_agency,embassy of Italy in Bangladesh,https://ambdhaka.esteri.it,ambdhaka.esteri.it,central
@@ -30,7 +31,6 @@ government_agency,"Embassy of the United States, Dhaka",https://bd.usembassy.gov
 government_agency,Forest Department,http://www.bforest.gov.bd/,bforest.gov.bd,
 government_agency,Border Guards Bangladesh,https://bgb.gov.bd/,bgb.gov.bd,
 government_agency,Department of Bangladesh Haor and Wetland Development,http://bhwdb.gov.bd/,bhwdb.gov.bd,
-government_agency,Bangladesh Investment Development Authority,http://bida.gov.bd/,bida.gov.bd,
 government_agency,Bangladesh Institute of Development Studies,http://www.bids.org.bd,bids.org.bd,
 government_agency,"Board of Intermediate and Secondary Education, Chattogram",http://www.bise-ctg.gov.bd/,bise-ctg.gov.bd,local
 government_agency,Bangladesh Meteorological Department,https://www.bmd.gov.bd/,bmd.gov.bd,
@@ -48,14 +48,14 @@ government_agency,Bangladesh Telecommunication Regulatory Commission,http://www.
 government_agency,Civil Aviation Authority of Bangladesh,http://www.caab.gov.bd,caab.gov.bd,
 government_agency,Cabinet Division,https://cabinet.gov.bd/,cabinet.gov.bd,
 government_agency,"Office of the Comptroller and Auditor General, Bangladesh",http://www.cagbd.org/,cagbd.org,
-government_agency,Chattogram City Corporation,http://ccc.org.bd/,ccc.org.bd,
 constitutional_court,Chattogram City Corporation,http://ccc.org.bd/,ccc.org.bd,
+government_agency,Chattogram City Corporation,http://ccc.org.bd/,ccc.org.bd,local
 government_agency,Criminal Investigation Department,http://www.cid.gov.bd/,cid.gov.bd,
 government_agency,Chattogram Metropolitan Police,http://www.cmp.gov.bd/,cmp.gov.bd,
 government_agency,Bangladesh Coast Guard,https://www.coastguard.gov.bd,coastguard.gov.bd,
 government_agency,"Board of Intermediate and Secondary Education, Cumilla",http://www.comillaboard.gov.bd/,comillaboard.gov.bd,local
 constitutional_court,Cumilla City Corporation,http://comillacitycorporation.org,comillacitycorporation.org,
-government_agency,Cumilla City Corporation,http://comillacitycorporation.org,comillacitycorporation.org,
+government_agency,Cumilla City Corporation,http://comillacitycorporation.org,comillacitycorporation.org,local
 government_agency,Coxsbazar Development Authority,http://coxda.gov.bd,coxda.gov.bd,
 government_agency,Bangladesh Customs,http://customs.gov.bd/,customs.gov.bd,
 government_agency,embassy of Brazil in Bangladesh,http://daca.itamaraty.gov.br,daca.itamaraty.gov.br,central
@@ -70,19 +70,20 @@ government_agency,Department of Government Transport,http://www.dgt.gov.bd/,dgt.
 government_agency,"Embassy of Turkey, Dhaka",https://dhaka-emb.mfa.gov.tr,dhaka-emb.mfa.gov.tr,central
 government_agency,"Embassy of Germany, Bangladesh",https://dhaka.diplo.de,dhaka.diplo.de,central
 government_agency,"Embassy of Afghanistan, Dhaka",http://dhaka.mfa.af,dhaka.mfa.af,central
-government_agency,"Embassy of Thailand, Dhaka",https://dhaka.thaiembassy.org/en/index,dhaka.thaiembassy.org,central
 government_agency,"Embassy of Thailand, Dhaka",https://dhaka.thaiembassy.org/th/index,dhaka.thaiembassy.org,central
+government_agency,"Embassy of Thailand, Dhaka",https://dhaka.thaiembassy.org/en/index,dhaka.thaiembassy.org,central
 government_agency,"Board of Intermediate and Secondary Education, Dhaka",http://www.dhakaeducationboard.gov.bd/,dhakaeducationboard.gov.bd,local
 constitutional_court,Dhaka South City Corporation,http://www.dhakasouthcity.gov.bd/,dhakasouthcity.gov.bd,
-government_agency,Dhaka South City Corporation,http://www.dhakasouthcity.gov.bd/,dhakasouthcity.gov.bd,
+government_agency,Dhaka South City Corporation,http://www.dhakasouthcity.gov.bd/,dhakasouthcity.gov.bd,local
 government_agency,Department of Inspection for Factories and Establishments,http://www.dife.gov.bd/,dife.gov.bd,
 government_agency,"Board of Intermediate and Secondary Education, Dinajpur",http://www.dinajpureducationboard.gov.bd/,dinajpureducationboard.gov.bd,local
 government_agency,Department of Immigration & Passports,https://dip.gov.bd/,dip.gov.bd,
+government_agency,Department of Livestock Services,https://dls.gov.bd/,dls.gov.bd,
 government_agency,Directorate of Madrasha Education,http://www.dme.gov.bd/,dme.gov.bd,
 government_agency,Dhaka Metropolitan Police,https://dmp.gov.bd/,dmp.gov.bd,
 government_agency,Department of Narcotics Control,http://www.dnc.gov.bd/,dnc.gov.bd,
 constitutional_court,Dhaka North City Corporation,http://www.dncc.gov.bd/,dncc.gov.bd,
-government_agency,Dhaka North City Corporation,http://www.dncc.gov.bd/,dncc.gov.bd,
+government_agency,Dhaka North City Corporation,http://www.dncc.gov.bd/,dncc.gov.bd,local
 government_agency,Directorate General of Nursing and Midwifery,http://www.dns.gov.bd/,dns.gov.bd,
 government_agency,Department of Environment,http://www.doe.gov.bd/,doe.gov.bd,
 government_agency,Department of Information and Communication Technology,http://doict.gov.bd/,doict.gov.bd,
@@ -95,24 +96,24 @@ government_agency,Dhaka Transport Coordination Authority,http://www.dtca.gov.bd,
 government_agency,Department of Women Affairs,http://www.dwa.gov.bd/,dwa.gov.bd,
 government_agency,Dhaka WASA,http://www.dwasa.org.bd/,dwasa.org.bd,
 government_agency,Department of Youth Development,http://www.dyd.gov.bd,dyd.gov.bd,
-government_agency,Election Commission Secretariat,https://ecs.gov.bd/en/page/election-commission-secretariat,ecs.gov.bd,
 government_agency,Bangladesh Election Commission,http://www.ecs.gov.bd/,ecs.gov.bd,
+government_agency,Election Commission Secretariat,https://ecs.gov.bd/en/page/election-commission-secretariat,ecs.gov.bd,
 government_agency,"Embassy of Switzerland, Dhaka",https://www.eda.admin.ch/dhaka,eda.admin.ch,central
 government_agency,Delegation of the European Union to Bangladesh,https://eeas.europa.eu/delegations/bangladesh_en,eeas.europa.eu,
 government_agency,Education Engineering Department,http://www.eedmoe.gov.bd,eedmoe.gov.bd,
 government_agency,Energy and Mineral Resources Division,https://emrd.gov.bd,emrd.gov.bd,
 constitutional_court,Rajshahi City Corporation,http://www.erajshahi.gov.bd/index/index.php,erajshahi.gov.bd,
-government_agency,Rajshahi City Corporation,http://www.erajshahi.gov.bd/index/index.php,erajshahi.gov.bd,
+government_agency,Rajshahi City Corporation,http://www.erajshahi.gov.bd/index/index.php,erajshahi.gov.bd,local
 government_agency,Economic Relations Division Bangladesh,https://erd.gov.bd/,erd.gov.bd,
 government_agency,"Embassy of Spain, Dhaka",http://www.exteriores.gob.es/embajadas/dhaka/,exteriores.gob.es,central
 government_agency,Financial Institutions Division,https://fid.gov.bd/,fid.gov.bd,
 government_agency,Bangladesh Fire Service & Civil Defense,https://fireservice.gov.bd/,fireservice.gov.bd,
 government_agency,Bangladesh Fisheries Research Institute,http://www.fri.gov.bd/,fri.gov.bd,
 constitutional_court,Gazipur City Corporation,http://gazipurcity.com,gazipurcity.com,
-government_agency,Gazipur City Corporation,http://gazipurcity.com,gazipurcity.com,
+government_agency,Gazipur City Corporation,http://gazipurcity.com,gazipurcity.com,local
 government_agency,Governance Innovation Unit,https://giupmo.gov.bd/,giupmo.gov.bd,
-government_agency,"British High Commission, Dhaka",https://www.gov.uk/world/organisations/british-high-commission-dhaka,gov.uk,central
 government_agency,British Consular Services Sylhet,https://www.gov.uk/world/organisations/british-consulate-sylhet,gov.uk,
+government_agency,"British High Commission, Dhaka",https://www.gov.uk/world/organisations/british-high-commission-dhaka,gov.uk,central
 government_agency,Geological Survey of Bangladesh,http://www.gsb.gov.bd,gsb.gov.bd,
 government_agency,"High Commission of India, Dhaka",http://www.hcidhaka.gov.in,hcidhaka.gov.in,central
 government_agency,Health Services Division,http://www.hsd.gov.bd/,hsd.gov.bd,
@@ -126,90 +127,55 @@ government_agency,Internal Resources Division,https://ird.gov.bd/,ird.gov.bd,
 government_agency,ISPR Bangladesh,https://www.ispr.gov.bd,ispr.gov.bd,
 government_agency,"Board of Intermediate and Secondary Education, Jashore",http://jessoreboard.gov.bd/,jessoreboard.gov.bd,local
 government_agency,"embassy of Indonesia, Dhaka",https://kemlu.go.id/dhaka,kemlu.go.id,central
-government_agency,Khulna City Corporation,http://www.khulnacity.org,khulnacity.org,
 constitutional_court,Khulna City Corporation,http://www.khulnacity.org,khulnacity.org,
+government_agency,Khulna City Corporation,http://www.khulnacity.org,khulnacity.org,local
 government_agency,Law and Justice Division,https://lawjusticediv.gov.bd/,lawjusticediv.gov.bd,
 government_agency,Legislative and Parliamentary Affairs Division,https://legislativediv.gov.bd/,legislativediv.gov.bd,
 government_agency,Local Government Division,http://www.lgd.gov.bd/,lgd.gov.bd,
 government_agency,Medical Education and Family Welfare Division,https://mefwd.gov.bd/,mefwd.gov.bd,
 government_agency,Ministry of Home Affairs,http://www.mha.gov.bd,mha.gov.bd,central
-ministry,Ministry of Home Affairs,http://www.mha.gov.bd,mha.gov.bd,central
 government_agency,Public Security Division,https://mhapsd.gov.bd/,mhapsd.gov.bd,
-ministry,Ministry of Commerce,http://www.mincom.gov.bd/,mincom.gov.bd,central
 government_agency,Ministry of Commerce,http://www.mincom.gov.bd/,mincom.gov.bd,central
-ministry,Ministry of Land,http://www.minland.gov.bd/,minland.gov.bd,central
 government_agency,Ministry of Land,http://www.minland.gov.bd/,minland.gov.bd,central
-ministry,"Ministry of Law, Justice and Parliamentary Affairs",http://www.minlaw.gov.bd/,minlaw.gov.bd,central
 government_agency,"Ministry of Law, Justice and Parliamentary Affairs",http://www.minlaw.gov.bd/,minlaw.gov.bd,central
 government_agency,Ministry of Agriculture,https://moa.gov.bd/,moa.gov.bd,central
-ministry,Ministry of Agriculture,https://moa.gov.bd/,moa.gov.bd,central
 government_agency,Ministry of Cultural Affairs,http://www.moca.gov.bd/,moca.gov.bd,central
-ministry,Ministry of Cultural Affairs,http://www.moca.gov.bd/,moca.gov.bd,central
-ministry,Ministry of Civil Aviation and Tourism,https://mocat.gov.bd/,mocat.gov.bd,
 government_agency,Ministry of Civil Aviation and Tourism,https://mocat.gov.bd/,mocat.gov.bd,
-ministry,Ministry of Chittagong Hill Tracts Affairs,http://www.mochta.gov.bd/,mochta.gov.bd,central
 government_agency,Ministry of Chittagong Hill Tracts Affairs,http://www.mochta.gov.bd/,mochta.gov.bd,central
-ministry,Ministry of Defence,https://mod.gov.bd/,mod.gov.bd,central
 government_agency,Ministry of Defence,https://mod.gov.bd/,mod.gov.bd,central
 government_agency,Ministry of Disaster Management and Relief,https://modmr.gov.bd/,modmr.gov.bd,
-ministry,Ministry of Disaster Management and Relief,https://modmr.gov.bd/,modmr.gov.bd,
 government_agency,Ministry of Education,https://moedu.portal.gov.bd/,moedu.portal.gov.bd,central
-ministry,Ministry of Education,https://moedu.portal.gov.bd/,moedu.portal.gov.bd,central
 government_agency,"Ministry of Environment, Forest and Climate Change",http://www.moef.gov.bd/,moef.gov.bd,
-ministry,"Ministry of Environment, Forest and Climate Change",http://www.moef.gov.bd/,moef.gov.bd,
 government_agency,Ministry of Finance,http://www.mof.gov.bd/,mof.gov.bd,central
-ministry,Ministry of Finance,http://www.mof.gov.bd/,mof.gov.bd,central
 government_agency,Ministry of Foreign Affairs,https://mofa.gov.bd/,mofa.gov.bd,central
-ministry,Ministry of Foreign Affairs,https://mofa.gov.bd/,mofa.gov.bd,central
 government_agency,"Embassy of the United Arab Emirates, Dhaka",https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=4815c268-40ea-4590-841e-596822b34bcd,mofaic.gov.ae,central
-ministry,Ministry of Fisheries and Livestock,http://www.mofl.gov.bd/,mofl.gov.bd,
 government_agency,Ministry of Fisheries and Livestock,http://www.mofl.gov.bd/,mofl.gov.bd,
 government_agency,Ministry of Food,http://www.mofood.gov.bd/,mofood.gov.bd,central
-ministry,Ministry of Food,http://www.mofood.gov.bd/,mofood.gov.bd,central
 government_agency,Ministry of Health and Family Welfare,http://www.mohfw.gov.bd/,mohfw.gov.bd,central
-ministry,Ministry of Health and Family Welfare,http://www.mohfw.gov.bd/,mohfw.gov.bd,central
-ministry,Ministry of Housing and Public Works,https://mohpw.gov.bd/,mohpw.gov.bd,central
 government_agency,Ministry of Housing and Public Works,https://mohpw.gov.bd/,mohpw.gov.bd,central
-ministry,Ministry of Information and Broadcasting,https://moi.gov.bd/,moi.gov.bd,central
 government_agency,Ministry of Information and Broadcasting,https://moi.gov.bd/,moi.gov.bd,central
-ministry,Ministry of Industries,http://www.moind.gov.bd/,moind.gov.bd,central
 government_agency,Ministry of Industries,http://www.moind.gov.bd/,moind.gov.bd,central
-ministry,Ministry of Labour and Employment,http://www.mole.gov.bd/,mole.gov.bd,
 government_agency,Ministry of Labour and Employment,http://www.mole.gov.bd/,mole.gov.bd,
 government_agency,Ministry of Liberation War Affairs,https://molwa.gov.bd/,molwa.gov.bd,central
-ministry,Ministry of Liberation War Affairs,https://molwa.gov.bd/,molwa.gov.bd,central
-ministry,Ministry of Planning,https://mop.gov.bd/,mop.gov.bd,central
 government_agency,Ministry of Planning,https://mop.gov.bd/,mop.gov.bd,central
-ministry,Ministry of Public Administration,http://www.mopa.gov.bd,mopa.gov.bd,central
 government_agency,Ministry of Public Administration,http://www.mopa.gov.bd,mopa.gov.bd,central
 government_agency,Ministry of Primary and Mass Education,http://www.mopme.gov.bd/,mopme.gov.bd,central
-ministry,Ministry of Primary and Mass Education,http://www.mopme.gov.bd/,mopme.gov.bd,central
-ministry,Ministry of Railways,https://mor.gov.bd/,mor.gov.bd,central
 government_agency,Ministry of Railways,https://mor.gov.bd/,mor.gov.bd,central
 government_agency,Ministry of Religious Affairs,http://www.mora.gov.bd/,mora.gov.bd,central
-ministry,Ministry of Religious Affairs,http://www.mora.gov.bd/,mora.gov.bd,central
 government_agency,Ministry of Shipping,http://www.mos.gov.bd/,mos.gov.bd,
-ministry,Ministry of Shipping,http://www.mos.gov.bd/,mos.gov.bd,
 government_agency,Ministry of Science and Technology,http://www.most.gov.bd/,most.gov.bd,central
-ministry,Ministry of Science and Technology,http://www.most.gov.bd/,most.gov.bd,central
 government_agency,Ministry of Textiles and Jute,http://www.motj.gov.bd/,motj.gov.bd,central
-ministry,Ministry of Textiles and Jute,http://www.motj.gov.bd/,motj.gov.bd,central
 government_agency,Ministry of Women and Children Affairs,http://www.mowca.gov.bd/,mowca.gov.bd,
-ministry,Ministry of Women and Children Affairs,http://www.mowca.gov.bd/,mowca.gov.bd,
-ministry,Ministry of Water Resources,https://mowr.gov.bd/,mowr.gov.bd,
 government_agency,Ministry of Water Resources,https://mowr.gov.bd/,mowr.gov.bd,
-ministry,Ministry of Youth and Sports (Bangladesh),https://moysports.gov.bd/,moysports.gov.bd,central
 government_agency,Ministry of Youth and Sports (Bangladesh),https://moysports.gov.bd/,moysports.gov.bd,central
 government_agency,"Ministry of Power, Energy and Mineral Resources",http://www.mpemr.gov.bd/,mpemr.gov.bd,central
-ministry,"Ministry of Power, Energy and Mineral Resources",http://www.mpemr.gov.bd/,mpemr.gov.bd,central
 government_agency,Ministry of Social Welfare,https://msw.gov.bd/,msw.gov.bd,central
-ministry,Ministry of Social Welfare,https://msw.gov.bd/,msw.gov.bd,central
 government_agency,National Archives of Bangladesh,http://www.nab.gov.bd/,nab.gov.bd,
 government_agency,Department of National Savings,http://www.nationalsavings.gov.bd/,nationalsavings.gov.bd,
 government_agency,National Book Centre,http://www.nbc.org.bd/,nbc.org.bd,
 government_agency,National Board of Revenue,http://www.nbr.gov.bd/,nbr.gov.bd,
-government_agency,Narayanganj City Corporation,http://www.ncc.gov.bd/,ncc.gov.bd,
 constitutional_court,Narayanganj City Corporation,http://www.ncc.gov.bd/,ncc.gov.bd,
+government_agency,Narayanganj City Corporation,http://www.ncc.gov.bd/,ncc.gov.bd,local
 government_agency,National Cyber Security Agency,https://ncsa.gov.bd,ncsa.gov.bd,
 government_agency,Neuro-Developmental Disability Protection Trust,http://www.nddtrust.gov.bd/,nddtrust.gov.bd,
 government_agency,"Embassy of the Netherlands, Dhaka",https://www.nederlandwereldwijd.nl/landen/bangladesh/over-ons/nederlandse-ambassade-in-dhaka,nederlandwereldwijd.nl,central
@@ -222,8 +188,8 @@ government_agency,"Embassy of Norway, Dhaka",https://www.norway.no/en/bangladesh
 government_agency,National Telecommunication Monitoring Centre,https://ntmc.gov.bd/,ntmc.gov.bd,
 government_agency,"Embassy of South Korea, Dhaka",https://overseas.mofa.go.kr/bd-en/index.do,overseas.mofa.go.kr,central
 government_agency,"Embassy of Palestine, Dhaka",https://palestinemissionbd.com/,palestinemissionbd.com,central
-supreme_court,Jatiya Sangsad,https://www.parliament.gov.bd/,parliament.gov.bd,central
 parliament,Jatiya Sangsad,https://www.parliament.gov.bd/,parliament.gov.bd,central
+supreme_court,Jatiya Sangsad,https://www.parliament.gov.bd/,parliament.gov.bd,central
 government_agency,Pharmacy Council of Bangladesh,http://www.pcb.gov.bd/,pcb.gov.bd,
 government_agency,Planning Division,http://www.plandiv.gov.bd/,plandiv.gov.bd,
 government_agency,Prime Minister's Office (Bangladesh),http://www.pmo.gov.bd/,pmo.gov.bd,central
@@ -231,7 +197,6 @@ government_agency,Armed Police Battalion,https://www.police.gov.bd/,police.gov.b
 government_agency,Bangladesh Police,http://www.police.gov.bd,police.gov.bd,
 government_agency,Power Division,http://www.powerdivision.gov.bd/,powerdivision.gov.bd,
 government_agency,Press Information Department,https://www.pressinform.gov.bd/,pressinform.gov.bd,
-ministry,Ministry of Expatriates' Welfare and Overseas Employment,https://probashi.gov.bd,probashi.gov.bd,central
 government_agency,Ministry of Expatriates' Welfare and Overseas Employment,https://probashi.gov.bd,probashi.gov.bd,central
 government_agency,Posts and Telecommunications Division,https://ptd.gov.bd/,ptd.gov.bd,
 government_agency,Public Division,https://publicdivision.portal.gov.bd,publicdivision.portal.gov.bd,
@@ -243,10 +208,9 @@ government_agency,Rajshahi Development Authority,http://rda.rajshahi.gov.bd,rda.
 government_agency,Rural Development and Co-operatives Division,http://www.rdcd.gov.bd/,rdcd.gov.bd,
 government_agency,Roads and Highways Department,http://rhd.portal.gov.bd,rhd.portal.gov.bd,
 constitutional_court,Rangpur City Corporation,https://rpcc.portal.gov.bd,rpcc.portal.gov.bd,
-government_agency,Rangpur City Corporation,https://rpcc.portal.gov.bd,rpcc.portal.gov.bd,
-government_agency,Road Transport and Highways Division,https://rthd.gov.bd/,rthd.gov.bd,
+government_agency,Rangpur City Corporation,https://rpcc.portal.gov.bd,rpcc.portal.gov.bd,local
 government_agency,Ministry of Road Transport and Bridges,https://rthd.gov.bd/,rthd.gov.bd,central
-ministry,Ministry of Road Transport and Bridges,https://rthd.gov.bd/,rthd.gov.bd,central
+government_agency,Road Transport and Highways Division,https://rthd.gov.bd/,rthd.gov.bd,
 government_agency,Secondary and Higher Education Division,http://www.shed.gov.bd/,shed.gov.bd,
 government_agency,Statistics and Informatics Division,https://sid.gov.bd/,sid.gov.bd,
 government_agency,Survey of Bangladesh,https://sob.gov.bd/,sob.gov.bd,
