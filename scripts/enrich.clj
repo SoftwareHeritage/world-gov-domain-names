@@ -94,8 +94,10 @@
    ;; Government agencies cast wide (national research bodies like CNRS or
    ;; CNR are typed here, but so are subnational agencies); the
    ;; P1001-derived level sorts them out. :light -- the strict class
-   ;; exclusions time out on a class this large.
-   ["Q327333" "government_agency"    :light]])
+   ;; exclusions time out on a class this large. Cities, villages and
+   ;; other territorial entities are typed here too, without P1001:
+   ;; territorial-orgs finds them (:territories).
+   ["Q327333" "government_agency"    :light :territories]])
    ;; Universities and research institutes: academia-classes below.
 
 (defn wikidata-query [class-qid country-qid strictness]
@@ -114,6 +116,37 @@
          strict-filters
          "  OPTIONAL { ?org wdt:P1001 ?juris . }\n"
          "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n"
+         "}")))
+
+(def territorial-roots
+  "Wikidata classes of the territorial entities: an org of a subclass of
+  one is a place (a city, a village, a county, a school district) more
+  than a body answering to one. Human settlement (Q486972),
+  municipality (Q15284), political territorial entity (Q1048835),
+  school district (Q398141); not administrative territorial entity
+  (Q56061), whose closure takes in ministries and military academies."
+  ["Q486972" "Q15284" "Q1048835" "Q398141"])
+
+(defn wikidata-org-classes-query
+  "The orgs of class-qid in country-qid with their direct P31 classes:
+  the subclass closure of territorial-roots times out on a large
+  class, its direct classes are few."
+  [class-qid country-qid]
+  (str "SELECT DISTINCT ?org ?cls WHERE {\n"
+       "  ?org wdt:P31/wdt:P279* wd:" class-qid " ;\n"
+       "       wdt:P17 wd:" country-qid " ;\n"
+       "       wdt:P856 ?website ;\n"
+       "       wdt:P31 ?cls .\n"
+       "}"))
+
+(defn territorial-classes-query
+  "Which of cls-qids are subclasses of one of territorial-roots."
+  [cls-qids]
+  (let [values #(str/join " " (map (fn [q] (str "wd:" q)) %))]
+    (str "SELECT DISTINCT ?cls WHERE {\n"
+         "  VALUES ?cls { " (values cls-qids) " }\n"
+         "  VALUES ?root { " (values territorial-roots) " }\n"
+         "  ?cls wdt:P279* ?root .\n"
          "}")))
 
 (defn wikidata-run-query [q]
@@ -214,19 +247,51 @@
   [args]
   (run-per-qid args subdivisions-process!))
 
+(defn- binding-qid [b k] (some-> (get-in b [k :value]) (str/replace #"^.*/" "")))
+
+(defn territorial-orgs!
+  "#{qid} of the orgs of class-qid in country-qid that are territorial
+  entities (wikidata-org-classes-query, then territorial-classes-query
+  100 classes at a time); nil when a query failed."
+  [class-qid country-qid]
+  (when-let [pairs (wikidata-bindings
+                    (wikidata-run-query (wikidata-org-classes-query class-qid country-qid)))]
+    (let [classes (sort (into #{} (keep #(binding-qid % :cls) pairs)))
+          terr    (reduce (fn [acc batch]
+                            (Thread/sleep 1000)
+                            (if-let [bs (wikidata-bindings
+                                         (wikidata-run-query (territorial-classes-query batch)))]
+                              (into acc (keep #(binding-qid % :cls) bs))
+                              (reduced nil)))
+                          #{} (partition-all 100 classes))]
+      (when terr
+        (into #{} (for [b pairs :when (terr (binding-qid b :cls))] (binding-qid b :org)))))))
+
+(defn org-level
+  "Level of an org from its P1001 jurisdictions (juris-level); an org
+  without any that is a territorial entity (territorial? true) is
+  central-1 when a first-level subdivision, central when the country,
+  local otherwise. Pure."
+  [org juris territorial? country-qid level1]
+  (let [level (juris-level juris country-qid level1)]
+    (cond
+      (or (seq level) (not territorial?)) level
+      (= org country-qid)                 "central"
+      (contains? level1 org)              "central-1"
+      :else                               "local")))
+
 (defn wikidata-bindings->rows
   "[type label website hostname level] rows of the bindings of one class
   query, one per distinct host, the level derived per org from all its
-  jurisdictions. Pure."
-  [type bindings country-qid level1]
+  jurisdictions (org-level), territorial the #{qid} of the territorial
+  entities among them. Pure."
+  [type bindings country-qid level1 territorial]
   (->> (group-by #(get-in % [:org :value]) bindings)
        (mapcat
          (fn [[_ bs]]
-           (let [juris (into #{}
-                             (keep #(some-> (get-in % [:juris :value])
-                                            (str/replace #"^.*/" ""))
-                                   bs))
-                 level (juris-level juris country-qid level1)]
+           (let [org   (binding-qid (first bs) :org)
+                 juris (into #{} (keep #(binding-qid % :juris) bs))
+                 level (org-level org juris (contains? territorial org) country-qid level1)]
              (for [b bs
                    :let [url (get-in b [:website :value])
                          lbl (get-in b [:orgLabel :value])
@@ -237,9 +302,10 @@
 
 (defn- wikidata-class-rows!
   "Run one class query for a country and return its rows
-  (wikidata-bindings->rows); retry a failed :strict query as :light.
-  nil when the query failed or its answer was truncated."
-  [[qid type strictness] country-qid level1]
+  (wikidata-bindings->rows); retry a failed :strict query as :light;
+  look the territorial entities up when the class says :territories.
+  nil when a query failed or its answer was truncated."
+  [[qid type strictness territories] country-qid level1]
   (let [body (or (wikidata-run-query (wikidata-query qid country-qid strictness))
                  (when (= strictness :strict)
                    (err (str "  [" type "] strict query failed; retrying light"))
@@ -247,7 +313,12 @@
     (if-let [bindings (wikidata-bindings body)]
       (do (err (str "  [" type "] " (count bindings) " results"))
           (Thread/sleep 1000)
-          (wikidata-bindings->rows type bindings country-qid level1))
+          (if-let [terr (if territories (territorial-orgs! qid country-qid) #{})]
+            (do (when territories
+                  (err (str "  [" type "] " (count terr) " territorial entities")))
+                (wikidata-bindings->rows type bindings country-qid level1 terr))
+            (do (err (str "  [" type "] territorial lookup failed"))
+                nil)))
       (do (err (str "  [" type "] " (if body "truncated answer" "failed after 3 attempts")))
           nil))))
 

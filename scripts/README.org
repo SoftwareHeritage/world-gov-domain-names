@@ -147,8 +147,11 @@ For each candidate no confirmed or excluded domain covers:
 Clamped to =[0, 10]=; the penalties spare hosts known as subnational. A
 registrable domain holding three candidates or more gets its own row,
 source =parent=. =level= comes from the Wikidata jurisdiction (P1001:
-the country, a first-level subdivision or lower), else from the label;
-lower-tier hosts are left out.
+the country, a first-level subdivision or lower); a government agency
+without one that is itself a territorial entity (a city, a village, a
+school district: =territorial-roots= in =enrich.clj=) is local, or
+central-1 when a first-level subdivision; else the level comes from
+the label. Lower-tier hosts are left out.
 
 =academia= and =ror= level universities and research institutes from
 their jurisdiction or authorities, else their label (/national/ aside
