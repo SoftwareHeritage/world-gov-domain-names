@@ -35,7 +35,7 @@ Paulo, but `campinas.sp.gov.br` is a municipality. This requires two
 possible actions in `curated.csv`:
 
 - **Mark such domains as `exact` in the `kind` column** when we know
-  for sure that all subdomains below them should be excluded.
+  that not all subdomains should be included.
   
 - **Otherwise, keep `subtree` as the `kind` for these domains** and
   mark subdomains to exclude as `local`. E.g. `gov.za` holds both
