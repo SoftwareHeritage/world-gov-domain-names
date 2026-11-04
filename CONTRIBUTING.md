@@ -28,45 +28,31 @@ share its URL with us.
 ### 2. Are local authorities websites under a national/regional domain?
 
 A confirmed domain counts with all its subdomains: `gouv.fr` covers
-`numerique.gouv.fr`, `data.gouv.fr`, etc. Sometimes, such subdomains
-are for local authorities, which the State of Public Code does not
-take into account: e.g. in Brazil, `sp.gov.br` is the State of São
-Paulo, but `campinas.sp.gov.br` is a municipality. This requires two
-possible actions in `curated.csv`:
+`data.gouv.fr`. Some roots also hold local authorities, which the
+State of Public Code leaves out: `gov.za` holds national departments
+and municipalities, `sp.gov.br` the State of São Paulo and its
+municipalities (`campinas.sp.gov.br`). Such a root either:
 
-- **Add a `!` to the level** (`central-1!`) when we know that not all
-  subdomains should be included: the domain counts alone.
+- keeps its subdomains, and the local ones directly under it are
+  marked `local` (`capetown.gov.za`);
+- or counts alone, with a `!` (`sp.gov.br,central-1!`), and the bodies
+  under it that belong to its level are added one by one
+  (`detran.sp.gov.br,central-1`).
 
-- **Otherwise, keep the level as is** (`central`) and mark subdomains
-  to exclude as `local`. E.g. `gov.za` holds both national departments
-  and municipalities, so `capetown.gov.za` is marked as `local`.
-
-The root domains that mix levels are listed in
-[`data/mixed-roots.csv`](data/mixed-roots.csv) and need someone who
-knows the country. For each of them, `to_curate.csv` lists every
-domain directly under the root (`capetown.gov.za`, `dpme.gov.za`…)
-until `curated.csv` gives it a level: `local` for a lower tier,
-`central` or `central-1` otherwise, so that it does not come back.
-Under a root written with `!`, like the Brazilian states, this is how
-a body of the State gets in: `detran.sp.gov.br,central-1`.
-A level is suggested when the label names a first-tier subdivision
-(`gauteng.gov.za`, `central-1`) or follows the naming rule of a lower
-tier in the `local_labels` column (`aydin-bld.gov.tr`, `local`):
-check it before moving the row.
-
-When the lower tier follows a naming rule (`*-bld.gov.tr`,
-`*state.gov.ng`), telling the rule will help a lot.
+These roots are listed in [`data/mixed-roots.csv`](data/mixed-roots.csv).
+For each of them, `to_curate.csv` lists every domain we found directly
+under the root until `curated.csv` gives it a level. Some levels are
+suggested, from a subdivision name (`gauteng.gov.za`, `central-1`) or
+a naming rule of the lower tier (`bantulkab.go.id`, `local`): check
+them. If you know such a rule for your country, tell us.
 
 ## You only need to edit two files
 
 Every decision lives in two CSV files of the country directory.
-
-Everything else is generated from them and from official registries:
-never edit `to_curate.csv`, `proposed.csv`, `summary.md` or anything
-under `sources/`. In `data/`, everything is generated except
-`world-governments.csv`, the list of countries, and `mixed-roots.csv`,
-the roots that mix levels: open an issue or send us an email to change
-them.
+Everything else is generated or maintained by us: never edit
+`to_curate.csv`, `proposed.csv`, `summary.md` or anything under
+`sources/`, and open an issue or send us an email to change a file of
+`data/` (the list of countries, the mixed roots…).
 
 ### `curated.csv` for the domains you confirm
 
@@ -83,10 +69,8 @@ abingdon.gov.uk,local
 - `level` is `central` (central government and its bodies),
   `central-1` (the first tier below: state, region, Land, etc.) or
   `local` (anything lower). A `central` or `central-1` domain counts
-  with all its subdomains (`gouv.fr` covers `data.gouv.fr`); with a
-  `!` (`central-1!`), the domain counts alone (see above). `local`
-  never takes a `!`: the domain and everything below it are left
-  out.
+  with all its subdomains; with a `!`, it counts alone (see above).
+  A `local` domain is left out with everything below it.
 
 ### `excluded.csv` for the domains you reject
 
